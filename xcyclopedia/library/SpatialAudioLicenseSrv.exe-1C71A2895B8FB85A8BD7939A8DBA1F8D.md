@@ -25,7 +25,7 @@ SSDEEP | `3072:sqkH4xDfMKHcsboMGyGdlZXsbcPPkZiA7jFOiCEKH7DEHPPPsXvkPc+pJxjkuE1F:
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -67,6 +67,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-3C24C425A1216DABA139E8310EBDFAF6.md) | 97
 [C:\Windows\system32\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-A6029A5C1D9222DC9753528C2917F543.md) | 97
 
 

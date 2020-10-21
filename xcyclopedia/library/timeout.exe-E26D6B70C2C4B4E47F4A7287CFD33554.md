@@ -122,6 +122,62 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s3 = "$sock = @ftp_connect($host,$port,$timeout);" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s0 = "function ftp_check($host,$user,$pass,$timeout){" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## timeout
+
+Pauses the command processor for the specified number of seconds. This command is typically used in batch files.
+
+### Syntax
+
+```
+timeout /t <timeoutinseconds> [/nobreak]
+```
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /t `<timeoutinseconds>` | Specifies the decimal number of seconds (between -1 and 99999) to wait before the command processor continues processing. The value **-1** causes the computer to wait indefinitely for a keystroke. |
+| /nobreak | Specifies to ignore user key strokes. |
+| /? | Displays help at the command prompt. |
+
+##### Remarks
+
+- A user keystroke resumes the command processor execution immediately, even if the timeout period has not expired.
+
+- When used in conjunction with the resource kit's **Sleep** tool, **timeout** is similar to the **pause** command.
+
+### Examples
+
+To pause the command processor for ten seconds, type:
+
+```
+timeout /t 10
+```
+
+To pause the command processor for 100 seconds and ignore any keystroke, type:
+
+```
+timeout /t 100 /nobreak
+```
+
+To pause the command processor indefinitely until a key is pressed, type:
+
+```
+timeout /t -1
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

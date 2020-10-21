@@ -18,6 +18,9 @@ SHA256 | `87883CF0DBE0893AE99305EC110E9B0359BF2844865BEB44706A4C2A14F72481`
 SHA384 | `0FDF5628F929B741085632D3BDEC4834F96A95AE9F453F12301BBB399DE30D86A4F1016D5CB3A706090C6E6315F56C0A`
 SHA512 | `AC2DFD2B4C746929B27EE2B389FC4521360F1AE519E2A4B47E5A05AE5BD6B17C0F4AC3B05C29A3A4E866F57AB28803CBA170199ACBC826193D538CEA11015B9C`
 SSDEEP | `384:DRG4uefNzVpqIuf+N22emFmNdlfATsLS3FsOWIjW:AJeFV8FNNw7FsY`
+IMP | `9FA70F22B9E5A636D36F7353DFE63DB7`
+PESHA1 | `17F1B7482FDF2C4A07A3C0861155906C006D4F9D`
+PE256 | `A10F618513024EACD1360F62647E197EE77734F583E0F3FF4C41AED1332D86F3`
 
 ## Runtime Data
 
@@ -30,14 +33,6 @@ tx     Commands related to transactions
 tm     Commands related to transaction managers
 
 ```
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\ktmutil.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
 
 ## Signature
 
@@ -56,7 +51,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/87883cf0dbe0893ae99305ec110e9b0359bf2844865beb44706a4c2a14f72481/detection/
 
 ## File Similarity (ssdeep match)
 

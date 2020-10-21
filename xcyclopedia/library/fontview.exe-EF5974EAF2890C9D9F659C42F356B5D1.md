@@ -22,6 +22,9 @@ SHA256 | `4409862CC66632C1D5A4753C5A59B741273BBD8CC73B44D412D0500370996A93`
 SHA384 | `20FB9CB5183E2B238D2E64E8B7F0D311D5A5993894F2C8864D4CD8F3E502CBA2F7415E2A6A6524BFDCAAB64510E4B03E`
 SHA512 | `E6438E30672946E2F1C0BC82F0990694178872F2625FE1C395336FF7418031A6DDE6C41B91262DFE78C3D9EC1C4E8E6685F2295B12A2D9973D69477CC12AB254`
 SSDEEP | `3072:M0bCSSdBIgqZSp8NJjWRkOtHxtt3EOL2QvIsitSYV5:M0b6G/wcWRRZzqGY`
+IMP | `CE80D2BBAE2A3F37CA3BC062CBCF1F8C`
+PESHA1 | `A77B9F63B51F46B14B5736980BA3B5BEAD7593C8`
+PE256 | `7C375B6F96EDEAF8F655F3F118C2B7EF2E27C4D1F6965DFFE7EB28F346E8B6DB`
 
 ## Runtime Data
 
@@ -35,21 +38,56 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\fontview.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dwmapi.dll |
 C:\Windows\system32\fontview.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WindowsCodecs.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -69,7 +107,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/4409862cc66632c1d5a4753c5a59b741273bbd8cc73b44d412d0500370996a93/detection/
 
 ## File Similarity (ssdeep match)
 

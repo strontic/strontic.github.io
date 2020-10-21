@@ -26,36 +26,36 @@ PE256 | `6F12D0DFB4B9CAF4D7371195D11CF6A89CA945F005B5368DC930E09DE18CE7B0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: bool __thiscall Bondi::JsonElementReader::ReadNext(void)` | 25 | Exported Function
-`public: bool __thiscall Bondi::JsonReader::ReadNext(char const * *)` | 26 | Exported Function
-`public: bool __thiscall MocsiSyncEndpoint::MocsiError::operator==(class MocsiSyncEndpoint::MocsiError const &)const ` | 4 | Exported Function
-`public: __thiscall Bondi::JsonReader::~JsonReader(void)` | 3 | Exported Function
-`private: void __thiscall Bondi::JsonWriter::WriteRawString(char const *,unsigned int)` | 30 | Exported Function
-`private: void __thiscall MocsiSyncEndpoint::MocsiError::Report(void)` | 28 | Exported Function
-`public: __thiscall Bondi::JsonReader::JsonReader(class std::basic_string_view<char,struct std::char_traits<char> >)` | 1 | Exported Function
-`public: class Bondi::BlobPtr __thiscall Bondi::ContextBase::AllocBlob(class array_view<unsigned char>)` | 5 | Exported Function
-`public: unsigned char * __thiscall Bondi::ContextBase::AllocBlock(unsigned int)` | 6 | Exported Function
-`public: virtual __thiscall Bondi::Exception::~Exception(void)` | 2 | Exported Function
-`void __stdcall MocsiSyncEndpoint::SetMocsiSyncEndpointMock(class Mso::Functor<class Mso::TCntPtr<struct SyncController::IDirectSyncEndpoint> __stdcall(struct MocsiSyncEndpoint::IMocsiEndpointLocator &,struct DocumentRevisionGraph::IRevisionGraph &,struct MocsiSyncEndpoint::KnownRevisionReferences,struct MocsiSyncEndpoint::IMocsiSyncEndpointUser2 &,class Mso::Functor<bool __stdcall(struct MocsiSyncEndpoint::MocsiEndpointHealth const &)> const &,class Mso::FunctorRef<class Mso::TCntPtr<struct SyncController::IDirectSyncEndpoint> __stdcall(class Mso::Async::IDispatchQueue &,struct MocsiSyncEndpoint::IMocsiEndpointLocator &,struct DocumentRevisionGraph::IRevisionGraph &,struct MocsiSyncEndpoint::KnownRevisionReferences,struct MocsiSyncEndpoint::IMocsiSyncEndpointUser2 &,class Mso::Functor<bool __stdcall(struct MocsiSyncEndpoint::MocsiEndpointHealth const &)> const &)> const &)>)` | 29 | Exported Function
-`public: class Bondi::StringPtr __thiscall Bondi::ContextBase::AllocString(class std::basic_string_view<char,struct std::char_traits<char> >)` | 8 | Exported Function
-`public: class Bondi::JsonReader __thiscall Bondi::JsonReader::ReadArray(void)` | 24 | Exported Function
-`public: class Bondi::JsonReader __thiscall Bondi::JsonReader::ReadObject(void)` | 27 | Exported Function
-`public: class Bondi::StringPtr __thiscall Bondi::ContextBase::AllocString(class Bondi::StringPtr)` | 7 | Exported Function
-`class Mso::optional<struct MocsiSyncEndpoint::ParsedHostKnownVersionInfo> __stdcall MocsiSyncEndpoint::ParseHostKnownVersionInfo(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 22 | Exported Function
-`class Mso::optional<struct MocsiSyncEndpoint::RemoteRevIdInfo> __stdcall MocsiSyncEndpoint::ParseRemoteRevId(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 23 | Exported Function
-`class Mso::TCntPtr<struct Bondi::IServiceEndpointManager> __stdcall Bondi::CreateServiceEndpointManager(struct Bondi::IMessageListener &)` | 14 | Exported Function
-`class array_view<unsigned char> __stdcall Bondi::DecodeBlob(class Bondi::ContextBase &,class std::basic_string_view<char,struct std::char_traits<char> >)` | 16 | Exported Function
-`bool __stdcall MocsiSyncEndpoint::HasLocalChanges(struct DocumentRevisionGraph::IRevisionGraph &,struct MocsiSyncEndpoint::KnownRevisionReferences)` | 18 | Exported Function
-`bool __stdcall MocsiSyncEndpoint::IsLeftRevisionSameOrParent(struct DocumentRevisionGraph::IRevisionGraph &,struct DocumentRevisionGraph::IRevision &,struct DocumentRevisionGraph::IRevision &)` | 20 | Exported Function
-`bool __stdcall MocsiSyncEndpoint::IsMocsiGraphDirty(struct DocumentRevisionGraph::IRevisionGraph &,struct MocsiSyncEndpoint::KnownRevisionReferences)` | 21 | Exported Function
-`class Mso::TCntPtr<struct HttpClient::IHttpClient> __stdcall HttpClient::CreateHttpClient(class std::shared_ptr<class Mso::Lockable<class Mso::AlwaysInit<class Mso::CritSecBase>,class Mso::ZeroOrOneThreaded> > const &,class Mso::Http::IRequestSettings *,class Mso::Functor<class Mso::TCntPtr<class Mso::Http::IRequest> __stdcall(void)>)` | 11 | Exported Function
-`enum MocsiSyncEndpoint::CompareRemoteRevisionResult __stdcall MocsiSyncEndpoint::CompareRemoteRevision(struct DocumentRevisionGraph::IRevisionGraph &,struct DocumentRevisionGraph::IRevision &,struct DocumentRevisionGraph::IRevision &)` | 9 | Exported Function
-`enum MocsiSyncEndpoint::CompareRemoteRevisionResult __stdcall MocsiSyncEndpoint::CompareRemoteRevisions(class Mso::optional<class std::vector<unsigned char,class std::allocator<unsigned char> > > const &,class Mso::optional<class std::vector<unsigned char,class std::allocator<unsigned char> > > const &)` | 10 | Exported Function
-`private: class std::vector<char,class std::allocator<char> > __thiscall Bondi::ServiceClientBase::InvokeMethod(char const *,char const *,class std::basic_string_view<char,struct std::char_traits<char> >)` | 19 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __stdcall Bondi::EncodeBlob(class array_view<unsigned char>)` | 17 | Exported Function
-`class Mso::TCntPtr<struct MocsiSyncEndpoint::IMocsiSyncEndpointUser2> __stdcall MocsiSyncEndpoint::CreateStateSyncEndpointUser(struct DocumentRevisionGraph::IRevisionGraph &)` | 15 | Exported Function
-`class Mso::TCntPtr<struct SyncController::IDirectSyncEndpoint> __stdcall MocsiSyncEndpoint::CreateMocsiSyncEndpoint2(struct MocsiSyncEndpoint::IMocsiEndpointLocator &,struct DocumentRevisionGraph::IRevisionGraph &,struct MocsiSyncEndpoint::KnownRevisionReferences,struct MocsiSyncEndpoint::IMocsiSyncEndpointUser2 &,class Mso::Functor<void __stdcall(class Mso::Async::IDispatchQueue &,class std::shared_ptr<class Mso::Lockable<class Mso::AlwaysInit<class Mso::CritSecBase>,class Mso::ZeroOrOneThreaded> > const &,struct MocsiSyncEndpoint::IMocsiFrameChannel * *)> const &,struct MocsiSyncEndpoint::IMocsiStateMachineMonitor *,class Mso::Functor<enum MocsiSyncEndpoint::CompareHostKnowledgeResult __stdcall(class array_view<unsigned char> const &,struct MocsiSyncEndpoint::ParsedHostKnownVersionInfo const &)> const &,class Mso::Functor<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __stdcall(struct MocsiSyncEndpoint::ParsedHostKnownVersionInfo const &)> const &,char ` | 12 | Exported Function
-`class Mso::TCntPtr<struct SyncController::ISignal> __stdcall MocsiSyncEndpoint::CreateRevisionGraphPushPullSignal(struct DocumentRevisionGraph::IRevisionGraph &,unsigned __int64)` | 13 | Exported Function
+`ReadNext` | 25 | Exported Function
+`ReadNext` | 26 | Exported Function
+`MocsiError` | 4 | Exported Function
+`JsonReader` | 3 | Exported Function
+`WriteRawString` | 30 | Exported Function
+`Report` | 28 | Exported Function
+`char_traits` | 1 | Exported Function
+`AllocBlob` | 5 | Exported Function
+`AllocBlock` | 6 | Exported Function
+`Exception` | 2 | Exported Function
+`MocsiEndpointHealth` | 29 | Exported Function
+`char_traits` | 8 | Exported Function
+`ReadArray` | 24 | Exported Function
+`ReadObject` | 27 | Exported Function
+`StringPtr` | 7 | Exported Function
+`allocator` | 22 | Exported Function
+`allocator` | 23 | Exported Function
+`IMessageListener` | 14 | Exported Function
+`char_traits` | 16 | Exported Function
+`KnownRevisionReferences` | 18 | Exported Function
+`IRevision` | 20 | Exported Function
+`KnownRevisionReferences` | 21 | Exported Function
+`IRequest` | 11 | Exported Function
+`IRevision` | 9 | Exported Function
+`allocator` | 10 | Exported Function
+`char_traits` | 19 | Exported Function
+`EncodeBlob` | 17 | Exported Function
+`IRevisionGraph` | 15 | Exported Function
+`ParsedHostKnownVersionInfo` | 12 | Exported Function
+`IRevisionGraph` | 13 | Exported Function
 
 
 ## Signature

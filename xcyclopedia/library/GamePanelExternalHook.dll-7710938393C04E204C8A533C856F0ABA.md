@@ -26,11 +26,11 @@ PE256 | `C1E02BC66A2981626BCDA8544EA47E95AA6E45ECC71903422B97F2E4785BEB49`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall CGamePanelExternalHook::SetIntercept(bool,struct HWND__ *)` | 4 | Exported Function
-`public: void __thiscall CGamePanelExternalHook::Unhook(void)` | 5 | Exported Function
-`public: void __thiscall CGamePanelExternalHook::Hook(struct HWND__ *)` | 3 | Exported Function
-`public: static class CGamePanelExternalHook & __stdcall CGamePanelExternalHook::GetInstance(void)` | 2 | Exported Function
-`public: static unsigned int __stdcall CGamePanelExternalHook::GPHHookWindowPointerDown(void)` | 1 | Exported Function
+`SetIntercept` | 4 | Exported Function
+`Unhook` | 5 | Exported Function
+`Hook` | 3 | Exported Function
+`GetInstance` | 2 | Exported Function
+`GPHHookWindowPointerDown` | 1 | Exported Function
 
 
 ## Signature

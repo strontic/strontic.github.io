@@ -18,16 +18,9 @@ SHA256 | `01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A`
 SHA384 | `24BE5241AF6FBEA4DF047DC2BFB643A76AD3FE7FAC5407D8E6A6C3F0799A8B53E2919054B7F81B241FACCEA7AF8459D8`
 SHA512 | `F5AA1650436AAD76B50364F9677A14127B02AFF044F5A62A46C7A884F178C7AFF9FEFDA172A6D19AF31B3FD635B1A42178FC5D3B31F83372BF5B3E2FA019B92C`
 SSDEEP | `1536:zTJrjNfTZ+Y0WDxEsGepjmJ1BRNln5IUmDjoX:DfTZjp1EsHqhRNln5I`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\rundll32.exe |
-
+IMP | `F27A7FC3A53E74F45BE370131953896A`
+PESHA1 | `5511493C2132AF46878F4BC09735B6A81DA33C27`
+PE256 | `F62DA09F93E0FC2D25421842B0688D56C5EFE756C6C9C9D8FD5E36026F6A67CD`
 
 ## Signature
 
@@ -46,7 +39,12 @@ C:\Windows\system32\rundll32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/01b407af0200b66a34d9b1fa6d9eaab758efa36a36bb99b554384f59f8690b1a/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -119,6 +117,9 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rundll32_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_activity.yml) | `- '*\rundll32.exe javascript:*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rundll32_by_ordinal.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_by_ordinal.yml) | `description: Detects suspicious calls of DLLs in rundll32.dll exports by ordinal` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rundll32_by_ordinal.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_by_ordinal.yml) | `CommandLine: '*\rundll32.exe *,#*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_proc_create_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) | `title: Suspicious WMI Execution Using Rundll32` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_proc_create_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) | `description: Detects WMI executing rundll32` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_proc_create_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) | `- 'rundll32'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '*\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_powershell_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_powershell_rundll32.yml) | `title: PowerShell Rundll32 Remote Thread Creation` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_powershell_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_powershell_rundll32.yml) | `description: Detects PowerShell remote thread creation in Rundll32.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

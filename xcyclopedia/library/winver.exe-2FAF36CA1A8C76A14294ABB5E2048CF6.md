@@ -24,6 +24,9 @@ SHA256 | `71E5E4B68B93E8B557FE0651E3D39C57279E694D07B42C67269224E2FC603AEE`
 SHA384 | `63E64F2342B29A32DB0D63212915B2ABEFA2B48E9ABC0E0DE9E272FE14C0E2FCDC5BBAED1A0C19469F9A9EB12DB888FA`
 SHA512 | `B4E646BBE1C541655C73FFB58003A8C1F35EF2B32E4114F22056621C7B4495093DAF51E932810E8D0EE86122E3936E3294799A0BA553559F2AC8B7AAD3758C7E`
 SSDEEP | `768:lJgdAO/cAxy0oGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXj:l6GO/c8y0oxakkn6oYY0ewiP82`
+IMP | `92BE77A081419D46930EEB51BF20D61B`
+PESHA1 | `2187C82B8E0A96490D65B9AB68921AFB9C3F15F8`
+PE256 | `BBDEF78B41FBAEB36D4123F1AA61829628922673E74B8C4593EF113D40BB8A9B`
 
 ## Runtime Data
 
@@ -37,21 +40,48 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winver.exe.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\winver.exe |
 
 
 ## Signature
@@ -71,7 +101,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/71e5e4b68b93e8b557fe0651e3d39c57279e694d07b42c67269224e2fc603aee/detection/
 
 ## File Similarity (ssdeep match)
 

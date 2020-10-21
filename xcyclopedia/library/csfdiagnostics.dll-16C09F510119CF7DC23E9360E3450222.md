@@ -25,10 +25,10 @@ PE256 | `EB8484D89600EA17A6E7564E7C688AF274FFEB85673A64C418C6B25173CF43C6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static void __cdecl CSFDiagnostics::DiagnosticsWrapper::Initialise(void)` | 3 | Exported Function
-`public: static void __cdecl CSFDiagnostics::DiagnosticsWrapper::Reset(void)` | 4 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFDiagnostics::DiagnosticsWrapper::GetDiagnosticsHTML(enum CSFDiagnostics::DiagnosticsType)` | 2 | Exported Function
-`public: static void __cdecl CSFDiagnostics::DiagnosticsWrapper::AddRecord(enum CSFDiagnostics::RecordType,enum CSFDiagnostics::SectionID,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 1 | Exported Function
+`Initialise` | 3 | Exported Function
+`Reset` | 4 | Exported Function
+`DiagnosticsType` | 2 | Exported Function
+`allocator` | 1 | Exported Function
 
 
 ## Signature

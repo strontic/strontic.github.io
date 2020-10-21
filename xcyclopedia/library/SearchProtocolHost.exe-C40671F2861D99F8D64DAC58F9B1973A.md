@@ -57,7 +57,9 @@ File | Score
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-334E8E996B23216667D9538CE40D68B5.md) | 35
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-673511D54A34319446EAD0B820D083A6.md) | 33
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-79242AB9AABF63BB91672F67ECE93C31.md) | 36
+[C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-BB3FEB38673DB103CAB1634AECE1DC21.md) | 29
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-DCE97A7B66E0D4A2BA9B52E7D05B334C.md) | 33
+[C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-003B2FB715F4459920E5C0B9F8F7CF7A.md) | 63
 [C:\WINDOWS\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-2EF0A0531B2566153D9A3DF4160F650B.md) | 35
 [C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-67E648DEC1B91543B04463249B7C0E1D.md) | 32
 [C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-9350D231BEDC8A957F8CAA50E83BC446.md) | 40
@@ -74,6 +76,7 @@ File | Score
 [C:\WINDOWS\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E318AF6C41ABF3FB889EC89164A36A37.md) | 35
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E503AEEC8FA45CF5A5B530E41B7E1156.md) | 32
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-EDDF12939FEF7AE88C2C2DA5B12E90B2.md) | 30
+[C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-F71E4867152289828CA8063BA1732507.md) | 32
 
 
 

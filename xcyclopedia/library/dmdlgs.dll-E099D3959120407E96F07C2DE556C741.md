@@ -26,17 +26,17 @@ PE256 | `37A384027CE03E6192565B096CDCCFC2E5B4BD64E3822B9503269F0184517DBC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned long __cdecl CDataCache::GetVolumeCount(void) __ptr64` | 8 | Exported Function
-`public: unsigned long __cdecl CDataCache::GetDiskCount(void) __ptr64` | 2 | Exported Function
-`public: unsigned long __cdecl CDMNodeObj::GetNumMembers(void) __ptr64` | 4 | Exported Function
-`public: void __cdecl CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * __ptr64 * __ptr64,int & __ptr64) __ptr64` | 6 | Exported Function
-`public: void __cdecl CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY * __ptr64) __ptr64` | 1 | Exported Function
-`public: class CWnd * __ptr64 __cdecl CTaskData::GetOcxFrameCWndPtr(void) __ptr64` | 5 | Exported Function
+`GetVolumeCount` | 8 | Exported Function
+`GetDiskCount` | 2 | Exported Function
+`GetNumMembers` | 4 | Exported Function
+`GetRegionColorStructPtr` | 6 | Exported Function
+`AddLDMObjMapEntry` | 1 | Exported Function
+`GetOcxFrameCWndPtr` | 5 | Exported Function
 `DllGetClassObject` | 10 | Exported Function
 `DllCanUnloadNow` | 9 | Exported Function
 `DllRegisterServer` | 11 | Exported Function
-`public: class CString __cdecl CDataCache::GetServerName(void) __ptr64` | 7 | Exported Function
-`public: __int64 __cdecl CDMNodeObj::GetLdmObjectId(void) __ptr64` | 3 | Exported Function
+`GetServerName` | 7 | Exported Function
+`GetLdmObjectId` | 3 | Exported Function
 
 
 ## Signature

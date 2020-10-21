@@ -18,6 +18,9 @@ SHA256 | `EC049A032436A2BD31491AEE3BF054AAE9D63B24282186F208D93A4CF4C946C9`
 SHA384 | `B1157E620713AAF715598C3D6C4403C2460B8DF1BB23C746FE2311371D509E673925CA53779ECF51D2D135CA140CB3B4`
 SHA512 | `458D2C1B2BBB28300B627D80A6358E7B6B38E28143E6193E5DFF99D647A094EC562B303B850583EFDE59A842B679EDA71475FE7D46A1E97DEFF2C7D2BCDDE710`
 SSDEEP | `384:h0Muz/PafIvOMvK+bsxGrsM1tBm66loHKc0x0NvoahE/djiW1oW:g2fIvOMv4xcBGkp0x0Nvoa6/5x`
+IMP | `4BDF4258DBC932662B0ABC3DFBD4A0C3`
+PESHA1 | `F178DB7E50A9359BFDFE9A6A32492371DCD7EA26`
+PE256 | `0965FDC4AD2F543C4BC39C55415377BDB8BD422D5C50E6EB9B7D11DE342ABFE4`
 
 ## Runtime Data
 
@@ -64,14 +67,32 @@ usage: mofcomp [-check] [-N:<Path>]
 
 Path |
 -- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wbem\mofcomp.exe |
+C:\Windows\system32\wbem\mofd.dll |
+C:\Windows\system32\wbem\wmiutils.dll |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,7 +105,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/ec049a032436a2bd31491aee3bf054aae9d63b24282186f208d93a4cf4c946c9/detection/
 
 
 

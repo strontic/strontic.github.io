@@ -18,6 +18,9 @@ SHA256 | `5A1EB8CC2898AED6894E840D89BA33314629EBEB422D5F7A91CF8FBD5BE528C7`
 SHA384 | `85EF550A1E24EA7AF23409663A5B5B07E8904019F2D4F2EBC78B117F5F1D335882CEC8D62CF6FFF86457D78459A6C911`
 SHA512 | `3ABCAF9DD181B33D44A009F218463FE04E247B93FB68CFE339249B0B8618CFB2C7755165DC2387502D39113F987C281912E5D7B81C87A3754D4B07367D64663E`
 SSDEEP | `192:ZwgmrJ6JOSIXT6BkhZHUwT4JUc0Iq6vuU29mQPjhFiwWdZW:Zwgu6JZEeCVLEJh0Iq1o8xWdZW`
+IMP | `9D517BD4783BA5BC3C67F3120C6BA649`
+PESHA1 | `3787451B29E9C0DE692CF29799BA3AE9BCA97612`
+PE256 | `9685347E6F43B263E24EA69C685D9D217F6526104E4AFC9AD11271E0E0863E29`
 
 ## Runtime Data
 
@@ -28,14 +31,9 @@ wmplayer.exe
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\dvdplay.exe |
 C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -55,7 +53,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/5a1eb8cc2898aed6894e840d89ba33314629ebeb422d5f7a91cf8fbd5be528c7/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -18,6 +18,9 @@ SHA256 | `96F7CA1B02C1A0D63747F0BD1448A723A4F49CBEF45A0DBB168E69B2F5FB98F5`
 SHA384 | `3140A0357CE042D7C4604D4DB3ADEE995B2E7FC25138048626CA29BE8741DA5B004EFC320946E27CAADB287C8A3FC0DD`
 SHA512 | `2F843C9034B8E274E4A9C4F101E95B3917AF2D29215B41D1FC4B17B47C2EE0F64D15953AAF5D06FAF73D223662D631593445981C0854959E7D4814F10820672A`
 SSDEEP | `3072:9m7rsTmitRNqIc9rijGByFvW6nuFe7jjf:9m7Amd7iaUZuFAj`
+IMP | `187E199429496C39FF6A95AD245ED45E`
+PESHA1 | `3DA032388544992188B50A032CCD492C07A7866E`
+PE256 | `CF9581624778B7830C49DE06038BEC51382CD6A16E03337A2B4F33C86DDCFF1B`
 
 ## Runtime Data
 
@@ -73,7 +76,14 @@ The parameter is incorrect.
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wecutil.exe |
 
 
@@ -94,7 +104,12 @@ C:\Windows\system32\wecutil.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/96f7ca1b02c1a0d63747f0bd1448a723a4f49cbef45a0dbb168e69b2f5fb98f5/detection/
 
 
 

@@ -18,6 +18,9 @@ SHA256 | `604492B8398751F0798079CEC26D674C125885F55B2BEAB1BC484EBDB723BB63`
 SHA384 | `F68F7A7539AC69B6F8A0ED2E4B2732EE8A71780F51941A7F28C0C83FF51172BCE2FE6DD83AD118451F2A5D64CAB7C3F6`
 SHA512 | `F8EBD11D3DF291889FAA38BEF19DFDE877B040D7F279CB20C6CABE0A9D422B2F6BE5872B0C9D330C0286115A99C37769615083C4D573EC4C0F57031519BD385B`
 SSDEEP | `1536:VpFLNeH99G055y3em18biVPOvOTjbVTFNXo4HBxP/HOTnOsJ19XW4D8rjkQytP1F:HFLQH99G055y3em18biVPOvOTjbVTFNi`
+IMP | `B037D0ADB81BF9CFC651DE01742089F1`
+PESHA1 | `A43608306923FA12F6B53D2B2FC79EE111868FDA`
+PE256 | `61F6AB4E6B1C1EBE8302EB136966D33145E846EDBDB9997643EC7BD05C654707`
 
 ## Runtime Data
 
@@ -119,11 +122,18 @@ sc query type= driver group= NDIS     - Enumerates all NDIS drivers
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\sc.exe |
 
 
 ## Signature
@@ -143,7 +153,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/604492b8398751f0798079cec26d674c125885f55b2beab1bc484ebdb723bb63/detection/
 
 
 ## Possible Misuse

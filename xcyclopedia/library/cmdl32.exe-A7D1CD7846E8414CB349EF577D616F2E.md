@@ -18,6 +18,9 @@ SHA256 | `B12F21E80553CDD21DE07AB3067E4F8AD026BEA29EFB6420B50E448CDA852AFE`
 SHA384 | `A64B0BA78B52D001DB1CA87B4313F48EF27488611A17C45D3E04D3A147CF783A2FA6FD5DF25D05401401F7E9FD2E0CB4`
 SHA512 | `E9AB33747249AF46780A0164869E5455262889CF163B90E0ADDC7FB68F314E8A5B1C892FE11D1316CDDD0E324D47D9193B61D4843E26BC06DD91C2EA993B3B26`
 SSDEEP | `1536:sZrrs/ADRq7ZyRju6/cZ6k+zevkp8KdK26kb94DNjZI:sZcA4dbZe8KdK8i9I`
+IMP | `AD55713E249A605BD30190ACBD0F9776`
+PESHA1 | `F2B18A4DFAB3D3111B9CBFEC84F616CCF5CD1D34`
+PE256 | `1BC5BE54EB8F040DBE548DB613621E17A4B4EF1EE9F6541F9A6BDA4731AE43D4`
 
 ## Runtime Data
 
@@ -25,9 +28,20 @@ SSDEEP | `1536:sZrrs/ADRq7ZyRju6/cZ6k+zevkp8KdK26kb94DNjZI:sZcA4dbZe8KdK8i9I`
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\cmdl32.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -47,7 +61,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.2.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b12f21e80553cdd21de07ab3067e4f8ad026bea29efb6420b50e448cda852afe/detection/
 
 ## File Similarity (ssdeep match)
 

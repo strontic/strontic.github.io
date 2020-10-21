@@ -53,20 +53,20 @@ Function Name | Ordinal | Type
 `MIP_CC_ProtectionDescriptor_GetDescriptionSize` | 77 | Exported Function
 `MIP_CC_ProtectionDescriptor_GetDoubleKeyUrl` | 78 | Exported Function
 `MIP_CC_ProtectionDescriptor_GetDoubleKeyUrlSize` | 79 | Exported Function
-`public: static class std::vector<unsigned char,class std::allocator<unsigned char> > const & __ptr64 __cdecl mipns::HttpClientCert::GetMsftCert(void)` | 48 | Exported Function
-`unsigned __int64 __cdecl mipns::GetHashSize(enum mipns::CryptoHashAlgorithm)` | 45 | Exported Function
-`void __cdecl mipns::ApplyGlobalTelemetryCustomSettings(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > const & __ptr64)` | 1 | Exported Function
-`public: static class std::shared_ptr<class mipns::MipContext> __cdecl mipns::MipContext::Create(struct mipns::ApplicationInfo const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::LogLevel,bool,class std::shared_ptr<class mipns::LoggerDelegate> const & __ptr64,class std::shared_ptr<struct mipns::TelemetryConfiguration> const & __ptr64)` | 5 | Exported Function
-`public: static class std::shared_ptr<class mipns::MipContext> __cdecl mipns::MipContext::CreateWithCustomFeatureSettings(struct mipns::ApplicationInfo const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::LogLevel,bool,class std::shared_ptr<class mipns::LoggerDelegate> const & __ptr64,class std::shared_ptr<struct mipns::TelemetryConfiguration> const & __ptr64,class std::map<enum mipns::FlightingFeature,bool,struct std::less<enum mipns::FlightingFeature>,class std::allocator<struct std::pair<enum mipns::FlightingFeature const ,bool> > > const & __ptr64)` | 39 | Exported Function
-`public: static class std::unique_ptr<class mipns::SymmetricCryptoWriter,struct std::default_delete<class mipns::SymmetricCryptoWriter> > __cdecl mipns::SymmetricCryptoWriter::CreateSymmetricCryptoWriter(unsigned char const * __ptr64,int,enum mipns::CryptoAlgorithm)` | 33 | Exported Function
-`void __cdecl mipns::ApplyGlobalTelemetryMaskingFilter(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > > const & __ptr64)` | 2 | Exported Function
-`void __cdecl mipns::SetOneDSHttpDelegate(class std::shared_ptr<class mipns::HttpDelegate> const & __ptr64)` | 55 | Exported Function
-`void __cdecl mipns::SetOneDSIsTls12Enforced(bool)` | 56 | Exported Function
-`void __cdecl mipns::SetOneDSTaskDispatcherDelegate(class std::shared_ptr<class mipns::TaskDispatcherDelegate> const & __ptr64)` | 57 | Exported Function
-`void __cdecl mipns::GenerateHash(enum mipns::CryptoHashAlgorithm,unsigned char const * __ptr64,unsigned int,unsigned char * __ptr64,unsigned int & __ptr64)` | 44 | Exported Function
-`void __cdecl mipns::logger::SetLoggerDelegateInstance(class std::shared_ptr<class mipns::LoggerDelegate> const & __ptr64)` | 54 | Exported Function
-`void __cdecl mipns::logger::SetLogLevel(enum mipns::LogLevel)` | 53 | Exported Function
-`public: static class std::shared_ptr<class mipns::HttpClient> __cdecl mipns::HttpClient::Create(void)` | 4 | Exported Function
+`GetMsftCert` | 48 | Exported Function
+`CryptoHashAlgorithm` | 45 | Exported Function
+`allocator` | 1 | Exported Function
+`TelemetryConfiguration` | 5 | Exported Function
+`FlightingFeature` | 39 | Exported Function
+`CryptoAlgorithm` | 33 | Exported Function
+`allocator` | 2 | Exported Function
+`HttpDelegate` | 55 | Exported Function
+`SetOneDSIsTls12Enforced` | 56 | Exported Function
+`TaskDispatcherDelegate` | 57 | Exported Function
+`CryptoHashAlgorithm` | 44 | Exported Function
+`LoggerDelegate` | 54 | Exported Function
+`LogLevel` | 53 | Exported Function
+`Create` | 4 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetHostName` | 100 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetHttpDelegate` | 101 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetIsFastShutdownEnabled` | 102 | Exported Function
@@ -76,41 +76,41 @@ Function Name | Ordinal | Type
 `MIP_CC_TelemetryConfiguration_SetIsLocalCachingEnabled` | 103 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetLibraryName` | 107 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetTaskDispatcherDelegate` | 108 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64 __cdecl mipns::HttpClientCert::GetMsftCertPEM(void)` | 50 | Exported Function
+`GetMsftCertPEM` | 50 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetIsNetworkDetectionEnabled` | 104 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetIsTelemetryOptedOut` | 105 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetIsTraceLoggingEnabled` | 106 | Exported Function
-`class std::shared_ptr<class mipns::HttpRequestBase> __cdecl mipns::CreateHttpRequest(class mipns::HttpRequestBase const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 25 | Exported Function
-`class std::shared_ptr<class mipns::HttpRequestBase> __cdecl mipns::CreateHttpRequest(enum mipns::TransportLayerSecurityMinimumVersion,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::HttpRequestType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 26 | Exported Function
-`class std::shared_ptr<class mipns::LoggerDelegate> __cdecl mipns::logger::CreateDefaultLoggerDelegate(void)` | 12 | Exported Function
-`class std::shared_ptr<class mipns::EventProperty> __cdecl mipns::CreateEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::Pii)` | 20 | Exported Function
-`class std::shared_ptr<class mipns::EventProperty> __cdecl mipns::CreateEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,double,enum mipns::Pii)` | 21 | Exported Function
-`class std::shared_ptr<class mipns::HttpDirector> __cdecl mipns::CreateHttpDirector(class std::shared_ptr<class mipns::MipContext> const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class mipns::Identity const & __ptr64,class std::shared_ptr<class mipns::HttpDelegate> const & __ptr64,class std::shared_ptr<class mipns::HttpProvider> const & __ptr64,class std::shared_ptr<class mipns::TelemetryContext> const & __ptr64)` | 24 | Exported Function
-`class std::shared_ptr<class mipns::RequestTransformer> __cdecl mipns::CreateAuthRequestTransformer(class std::shared_ptr<class mipns::MipContext> const & __ptr64,class mipns::Identity const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::shared_ptr<class mipns::AuthDelegate> const & __ptr64,class std::shared_ptr<class mipns::AuthChallengeProvider> const & __ptr64,class std::shared_ptr<class mipns::HttpProvider> const & __ptr64)` | 8 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromStdStream(class std::shared_ptr<class std::basic_istream<char,struct std::char_traits<char> > > const & __ptr64)` | 31 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromStdStream(class std::shared_ptr<class std::basic_ostream<char,struct std::char_traits<char> > > const & __ptr64)` | 32 | Exported Function
-`class std::shared_ptr<class mipns::TelemetryContext> __cdecl mipns::CreateTelemetryContext(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::shared_ptr<class mipns::TelemetryContext> const & __ptr64)` | 34 | Exported Function
-`class std::shared_ptr<class mipns::RequestTransformer> __cdecl mipns::CreateRedirectRequestTransformer(class std::shared_ptr<class mipns::MipContext> const & __ptr64,class mipns::Identity const & __ptr64,class std::shared_ptr<class mipns::RedirectProvider> const & __ptr64,class std::shared_ptr<class mipns::HttpProvider> const & __ptr64)` | 28 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromBuffer(unsigned char * __ptr64,__int64)` | 29 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromStdStream(class std::shared_ptr<class std::basic_iostream<char,struct std::char_traits<char> > > const & __ptr64)` | 30 | Exported Function
-`class std::shared_ptr<class mipns::EventProperty> __cdecl mipns::CreateEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,bool)` | 23 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl mipns::GenerateAESKey(void)` | 42 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl mipns::GetSanitizedUrl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 52 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64 __cdecl mipns::GetMsftCertPEM(void)` | 51 | Exported Function
-`__int64 __cdecl mipns::bufferprotector::DecryptBuffer(enum mipns::CipherMode,class mipns::CryptoKey const & __ptr64,__int64,unsigned char const * __ptr64,__int64,unsigned char * __ptr64,__int64,bool)` | 40 | Exported Function
-`__int64 __cdecl mipns::bufferprotector::EncryptBuffer(enum mipns::CipherMode,class mipns::CryptoKey const & __ptr64,__int64,unsigned char const * __ptr64,__int64,unsigned char * __ptr64,__int64,bool)` | 41 | Exported Function
-`class mipns::LoggerDelegate & __ptr64 __cdecl mipns::logger::GetLoggerDelegateInstance(void)` | 47 | Exported Function
-`class std::shared_ptr<class mipns::AsymmetricCryptoProvider> __cdecl mipns::CreateAsymmetricCryptoProvider(enum mipns::CryptoAlgorithm,class std::vector<unsigned char,class std::allocator<unsigned char> > const & __ptr64,unsigned int)` | 6 | Exported Function
-`class std::shared_ptr<class mipns::Event> __cdecl mipns::CreateTelemetryEvent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::EventLevel,enum mipns::EventPipeline)` | 35 | Exported Function
-`class std::shared_ptr<class mipns::EventProperty> __cdecl mipns::CreateAuditOnlyEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 7 | Exported Function
-`class std::shared_ptr<class mipns::EventProperty> __cdecl mipns::CreateEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,__int64,enum mipns::Pii)` | 22 | Exported Function
-`class std::shared_ptr<class mipns::CryptoProvider> __cdecl mipns::CreateCryptoProvider(enum mipns::CipherMode,class mipns::CryptoKey const & __ptr64)` | 11 | Exported Function
-`class std::shared_ptr<class mipns::Domain> __cdecl mipns::CreateDomainFromEmail(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 14 | Exported Function
-`class std::shared_ptr<class mipns::Domain> __cdecl mipns::CreateDomainFromUrl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 15 | Exported Function
+`allocator` | 25 | Exported Function
+`allocator` | 26 | Exported Function
+`CreateDefaultLoggerDelegate` | 12 | Exported Function
+`Pii` | 20 | Exported Function
+`Pii` | 21 | Exported Function
+`TelemetryContext` | 24 | Exported Function
+`HttpProvider` | 8 | Exported Function
+`char_traits` | 31 | Exported Function
+`char_traits` | 32 | Exported Function
+`TelemetryContext` | 34 | Exported Function
+`HttpProvider` | 28 | Exported Function
+`CreateStreamFromBuffer` | 29 | Exported Function
+`char_traits` | 30 | Exported Function
+`allocator` | 23 | Exported Function
+`GenerateAESKey` | 42 | Exported Function
+`allocator` | 52 | Exported Function
+`GetMsftCertPEM` | 51 | Exported Function
+`CryptoKey` | 40 | Exported Function
+`CryptoKey` | 41 | Exported Function
+`GetLoggerDelegateInstance` | 47 | Exported Function
+`allocator` | 6 | Exported Function
+`EventPipeline` | 35 | Exported Function
+`allocator` | 7 | Exported Function
+`Pii` | 22 | Exported Function
+`CryptoKey` | 11 | Exported Function
+`allocator` | 14 | Exported Function
+`allocator` | 15 | Exported Function
 `MIP_CC_CreateLoggerDelegate` | 60 | Exported Function
 `MIP_CC_CreateMipContext` | 61 | Exported Function
 `MIP_CC_CreateMipContextWithCustomFeatureSettings` | 62 | Exported Function
-`enum mipns::LogLevel __cdecl mipns::logger::GetLogLevel(void)` | 46 | Exported Function
+`GetLogLevel` | 46 | Exported Function
 `MIP_CC_CreateDictionary` | 58 | Exported Function
 `MIP_CC_CreateHttpDelegate` | 59 | Exported Function
 `MIP_CC_CreateProtectionDescriptorFromTemplate` | 63 | Exported Function
@@ -120,20 +120,20 @@ Function Name | Ordinal | Type
 `MIP_CC_CreateProtectionDescriptorFromUserRights` | 64 | Exported Function
 `MIP_CC_CreateProtectionDescriptorFromUserRoles` | 65 | Exported Function
 `MIP_CC_CreateStringList` | 66 | Exported Function
-`class std::vector<unsigned char,class std::allocator<unsigned char> > const & __ptr64 __cdecl mipns::GetMsftCert(void)` | 49 | Exported Function
-`class std::shared_ptr<class mipns::TelemetrySchemaValidator> __cdecl mipns::CreateTelemetrySchemaValidator(bool)` | 37 | Exported Function
-`class std::unique_ptr<class mipns::AutoEvent,struct std::default_delete<class mipns::AutoEvent> > __cdecl mipns::CreateAutoEvent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::EventLevel,enum mipns::EventPipeline,class std::shared_ptr<class mipns::TelemetryContext> const & __ptr64,class std::shared_ptr<class mipns::TelemetryManager> const & __ptr64)` | 9 | Exported Function
-`class std::unique_ptr<class mipns::AutoEvent,struct std::default_delete<class mipns::AutoEvent> > __cdecl mipns::CreateAutoEvent(class std::shared_ptr<class mipns::Event> const & __ptr64,class std::shared_ptr<class mipns::TelemetryContext> const & __ptr64,class std::shared_ptr<class mipns::TelemetryManager> const & __ptr64)` | 10 | Exported Function
-`class std::shared_ptr<class mipns::TelemetryDelegate> __cdecl mipns::CreateDefaultTelemetryDelegate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,struct mipns::TelemetryConfiguration const & __ptr64)` | 13 | Exported Function
-`class std::shared_ptr<class mipns::TelemetryDelegate> __cdecl mipns::CreateEmptyTelemetryDelegate(void)` | 16 | Exported Function
-`class std::shared_ptr<class mipns::TelemetryManager> __cdecl mipns::CreateTelemetryManager(class std::shared_ptr<class mipns::TelemetryDelegate> const & __ptr64,enum mipns::EventLevel,struct mipns::TelemetryConfiguration const & __ptr64)` | 36 | Exported Function
-`class std::unique_ptr<class mipns::PersistentStore,struct std::default_delete<class mipns::PersistentStore> > __cdecl mipns::CreatePersistentStore(class std::shared_ptr<class mipns::MipContext> const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const & __ptr64,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const & __ptr64,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class ` | 27 | Exported Function
-`class std::vector<class std::shared_ptr<class mipns::EventProperty>,class std::allocator<class std::shared_ptr<class mipns::EventProperty> > > __cdecl mipns::CreateEventFailureProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,int,class std::exception_ptr const & __ptr64)` | 19 | Exported Function
-`class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl mipns::CrackBlock(unsigned char const * __ptr64,unsigned int,unsigned int,unsigned char const * __ptr64,unsigned int,unsigned char const * __ptr64,unsigned int,enum mipns::RSAPadding,enum mipns::CryptoHashAlgorithm)` | 3 | Exported Function
-`class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl mipns::GenerateAESKeyAsBytes(unsigned int)` | 43 | Exported Function
-`class std::unique_ptr<class mipns::Uri,struct std::default_delete<class mipns::Uri> > __cdecl mipns::CreateUri(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 38 | Exported Function
-`class std::vector<class std::shared_ptr<class mipns::EventProperty>,class std::allocator<class std::shared_ptr<class mipns::EventProperty> > > __cdecl mipns::CreateEventFailureProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,int)` | 17 | Exported Function
-`class std::vector<class std::shared_ptr<class mipns::EventProperty>,class std::allocator<class std::shared_ptr<class mipns::EventProperty> > > __cdecl mipns::CreateEventFailureProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,int,class mipns::Error const & __ptr64)` | 18 | Exported Function
+`GetMsftCert` | 49 | Exported Function
+`CreateTelemetrySchemaValidator` | 37 | Exported Function
+`TelemetryManager` | 9 | Exported Function
+`TelemetryManager` | 10 | Exported Function
+`TelemetryConfiguration` | 13 | Exported Function
+`CreateEmptyTelemetryDelegate` | 16 | Exported Function
+`TelemetryConfiguration` | 36 | Exported Function
+`allocator` | 27 | Exported Function
+`exception_ptr` | 19 | Exported Function
+`CryptoHashAlgorithm` | 3 | Exported Function
+`GenerateAESKeyAsBytes` | 43 | Exported Function
+`allocator` | 38 | Exported Function
+`allocator` | 17 | Exported Function
+`Error` | 18 | Exported Function
 
 
 ## Signature

@@ -8,6 +8,10 @@ excerpt: What is OneClickMaintenance.exe?
 * File Path: `C:\program files (x86)\Glary Utilities 5\OneClickMaintenance.exe`
 * Description: OneClickMaintenance
 
+## Screenshot
+
+![OneClickMaintenance.exe](screenshots/OneClickMaintenance.exe-EF6CF6D0DF545300EE144F02F0BADCF9-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -22,6 +22,9 @@ SHA256 | `CD65AE1EBB2B8EE7DEA364729A14D3CF4221C0EA9156B55A84EAD138F5C146E3`
 SHA384 | `C9496564E48385EB4893442774D71DB39FDA2791FA59AF6A9920623900B982B099EEE4B0C8BDD67AFBD1D41A37698355`
 SHA512 | `2BA7211B7586D5C14602209B858F7ECBA42A901B1287C0B773118D62799E75CCF0618535EB600F959FBF81226060CCB6F83E89B08AF80795731FAECB440B0278`
 SSDEEP | `3072:bwUkVjGPsw40vLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLa6:bfk+uZToIuUXmmZbgDooMz`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `B317AFABDD3B6D278D89E5552797B053483571CD`
+PE256 | `7028F281E80D26C6451B7BB256EBF3D21E105C813B4C2B14A68487AFBD627183`
 
 ## Runtime Data
 
@@ -35,15 +38,18 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_4620 | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_4108 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -52,6 +58,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe |
 
 
@@ -72,7 +80,12 @@ C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/cd65ae1ebb2b8ee7dea364729a14d3cf4221c0ea9156b55a84ead138f5c146e3/detection/
 
 ## File Similarity (ssdeep match)
 

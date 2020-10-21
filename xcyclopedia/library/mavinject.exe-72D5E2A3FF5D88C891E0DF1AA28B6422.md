@@ -69,6 +69,7 @@ File | Score
 [C:\Windows\system32\AppVStreamMap.dll](AppVStreamMap.dll-520D8187FFAE4758054A49A29831CE67.md) | 30
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 41
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 44
+[C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 57
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 40
 
 ## Possible Misuse

@@ -18,6 +18,9 @@ SHA256 | `C81018F19C8C104E568D5168C7CA7011FAA9C7BA7310510B303E54A7FAFCE84C`
 SHA384 | `8B0A4EAECB47D0C0355B5A1CE9B452139143B41A2A96B2CC4B9BCDDD9757B649528EABF184A8DA133EC7706EC9557670`
 SHA512 | `F0A3B6E6EA41FAE0E506936B85B4C437425F73C8F0704DC4A289D0B77CDC7CD4804536807CF4AE534C713A21DF1A2500CCD3C23BB6D284DF62E21BB66ED807B3`
 SSDEEP | `768:gczFYtcN4HFs+QJp5UWh2/w/FxP9HnCi20b0DhDqG1+i2K:hzmtlnQJbUW8w/FxP1nkPDqGf2K`
+IMP | `8F09CA312ABDFEB8B57BA1170C68E893`
+PESHA1 | `7BC9CA4D81C2F9A314581FF7F14703C4A45ABF41`
+PE256 | `E70ACC3BDFCA5255D7836E32A8483E9A75317DCF5C88FD67F3176B634E1609DC`
 
 ## Runtime Data
 
@@ -74,16 +77,6 @@ The system cannot find the file specified.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\cacls.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -101,7 +94,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c81018f19c8c104e568d5168c7ca7011faa9c7ba7310510b303e54a7fafce84c/detection/
 
 
 ## Possible Misuse

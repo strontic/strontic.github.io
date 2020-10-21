@@ -22,11 +22,11 @@ SHA256 | `92D0DF82F636DBDF23926615682CB6183DE5E7504732AA8543E4D122E316A48E`
 SHA384 | `5A29A9BA2680D98B9475BBEA296217313D63E080B785CC716B4E6DA64932356D02464DE21A11ED92965AE10B9003003E`
 SHA512 | `640DAFEF9A04CFD549B2B595633B4329FB9BAA9F96B7D5358502A619A8B8D8ECEF4AF9E3CB02B2A52FF9B869550A28D1331E4CF083355084922D059FFBD3918D`
 SSDEEP | `192:Fnr2RWY14Mcp3yb97Zc8DHK4wD1oad6V6WvgWGQoWMN:FnakY1awZcsK4wDG8WvgWGQoWM`
+IMP | `EEFB875014ECDD920C8DA3D31E4C2FCB`
+PESHA1 | `DA11C26EA8662956C60B0B1772EC1DA0630333CA`
+PE256 | `4560C0E3E740827EC6E3683B79DB5A325DDA1E7BD4222FDB5417142D4706D9DD`
 
 ## Runtime Data
-
-### Child Processes:
-powershell_ise.exe
 
 ### Window Title:
 Telephony Client Setup Help
@@ -37,13 +37,16 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\tcmsetup.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -52,6 +55,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\tcmsetup.exe |
 
 
@@ -72,7 +77,12 @@ C:\Windows\SysWOW64\tcmsetup.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/92d0df82f636dbdf23926615682cb6183de5e7504732aa8543e4d122e316a48e/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -89,45 +99,45 @@ File | Score
 
 ## tcmsetup
 
+Sets up or disables the TAPI client. For TAPI to function correctly, you must run this command to specify the remote servers that will be used by TAPI clients.
 
-
-Sets up or disables the TAPI client.
+> [!IMPORTANT]
+> To use this command, you must be a member of the **Administrators** group on the local computer, or you must have been delegated the appropriate authority. If the computer is joined to a domain, members of the **Domain Admins** group might be able to perform this procedure. As a security best practice, consider using **Run as** to perform this procedure.
 
 ### Syntax
 
 ```
-tcmsetup [/q] [/x] /c <Server1> [<Server2> â€¦]
+tcmsetup [/q] [/x] /c <server1> [<server2> â€¦]
 tcmsetup  [/q] /c /d
 ```
 
-##### Parameters
+#### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/q|Prevents the display of message boxes.|
-|/x|Specifies that connection-oriented callbacks will be used for heavy traffic networks where packet loss is high. When this parameter is omitted, connectionless callbacks will be used.|
-|/c|Required. Specifies client setup.|
-|\<Server1>|Required. Specifies the name of the remote server that has the TAPI service providers that the client will use. The client will use the service providers' lines and phones. The client must be in the same domain as the server or in a domain that has a two-way trust relationship with the domain that contains the server.|
-|\<Server2>â€¦|Specifies any additional server or servers that will be available to this client. If you specify a list of servers is, use a space to separate the server names.|
-|/d|Clears the list of remote servers. Disables the TAPI client by preventing it from using the TAPI service providers that are on the remote servers.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| /q | Prevents the display of message boxes. |
+| /x | Specifies that connection-oriented callbacks will be used for heavy traffic networks where packet loss is high. When this parameter is omitted, connectionless callbacks will be used. |
+| /c | Required. Specifies client setup. |
+| `<server1>` | Required. Specifies the name of the remote server that has the TAPI service providers that the client will use. The client will use the service providers' lines and phones. The client must be in the same domain as the server or in a domain that has a two-way trust relationship with the domain that contains the server. |
+| `<server2>â€¦` | Specifies any additional server or servers that will be available to this client. If you specify a list of servers is, use a space to separate the server names. |
+| /d | Clears the list of remote servers. Disables the TAPI client by preventing it from using the TAPI service providers that are on the remote servers. |
+| /? | Displays help at the command prompt. |
 
-### Remarks
+##### Remarks
 
--   To perform this procedure, you must be a member of the Administrators group on the local computer, or you must have been delegated the appropriate authority. If the computer is joined to a domain, members of the Domain Admins group might be able to perform this procedure. As a security best practice, consider using **Run as** to perform this procedure.
--   In order for TAPI to function correctly, you must run **tcmsetup** to specify the remote servers that will be used by TAPI clients.
--   Before a client user can use a phone or line on a TAPI server, the telephony server administrator must assign the user to the phone or line.
--   The list of telephony servers that is created by this command replaces any existing list of telephony servers available to the client. You cannot use this command to add to the existing list.
+- Before a client user can use a phone or line on a TAPI server, the telephony server administrator must assign the user to the phone or line.
+
+- The list of telephony servers that is created by this command replaces any existing list of telephony servers available to the client. You can't use this command to add to the existing list.
 
 ### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-[Command shell overview](/previous-versions/windows/it-pro/windows-server-2003/cc737438(v=ws.10))
+- [Command shell overview](/previous-versions/windows/it-pro/windows-server-2003/cc737438(v=ws.10))
 
-[Specify telephony servers on a client computer](/previous-versions/windows/it-pro/windows-server-2003/cc759226(v=ws.10))
+- [Specify telephony servers on a client computer](/previous-versions/windows/it-pro/windows-server-2003/cc759226(v=ws.10))
 
-[Assign a telephony user to a line or phone](/previous-versions/windows/it-pro/windows-server-2003/cc736875(v=ws.10))
+- [Assign a telephony user to a line or phone](/previous-versions/windows/it-pro/windows-server-2003/cc736875(v=ws.10))
 
 ---
 

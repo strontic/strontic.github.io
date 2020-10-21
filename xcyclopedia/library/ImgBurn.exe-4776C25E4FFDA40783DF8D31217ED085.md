@@ -8,6 +8,10 @@ excerpt: What is ImgBurn.exe?
 * File Path: `C:\Program Files (x86)\ImgBurn\ImgBurn.exe`
 * Description: ImgBurn - The Ultimate Image Burner!
 
+## Screenshot
+
+![ImgBurn.exe](screenshots/ImgBurn.exe-4776C25E4FFDA40783DF8D31217ED085-8.png)
+
 ## Hashes
 
 Type | Hash

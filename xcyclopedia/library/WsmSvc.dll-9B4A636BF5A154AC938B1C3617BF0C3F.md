@@ -26,671 +26,671 @@ PE256 | `DB47F39F876EB6E71BBD3A0C04E93F6CAA794C04979B74F31A3F976F80F3088B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class CWinRSPluginConfigSettings * __ptr64 __cdecl CWinRSPluginConfigCache::GetCurrentSettings(class IRequestContext * __ptr64) __ptr64` | 2307 | Exported Function
-`public: class CWinRSPluginConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::operator->(void) __ptr64` | 1723 | Exported Function
-`public: class CWinRSPluginConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::Detach(void) __ptr64` | 2188 | Exported Function
-`public: class CWSManEPR * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::Storage(void) __ptr64` | 3419 | Exported Function
-`public: class CWSManEPR * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::Detach(void) __ptr64` | 2183 | Exported Function
-`public: class CWSManEPR * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::operator->(void) __ptr64` | 1629 | Exported Function
-`public: class CWSManEPR * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::Detach(void) __ptr64` | 2124 | Exported Function
-`public: class CShellUriSettings * __ptr64 const & __ptr64 __cdecl SafeSet_Iterator<class CShellUriSettings * __ptr64>::operator*(void)const __ptr64` | 1761 | Exported Function
-`public: class CShellUriSettings * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::operator->(void) __ptr64` | 1628 | Exported Function
-`public: class CShellUriSettings * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::Detach(void) __ptr64` | 2123 | Exported Function
-`public: class CWinRSPluginConfigCache * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::Storage(void) __ptr64` | 3420 | Exported Function
-`public: class CWinRSPluginConfigCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::operator->(void)const __ptr64` | 1722 | Exported Function
-`public: class CWinRSPluginConfigCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::operator->(void) __ptr64` | 1721 | Exported Function
-`public: class CWinRSPluginConfigCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::Detach(void) __ptr64` | 2187 | Exported Function
-`public: class CWSManResource * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::operator->(void) __ptr64` | 1630 | Exported Function
-`public: class CWSManResource * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::Detach(void) __ptr64` | 2125 | Exported Function
-`public: class CWSManObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::operator->(void) __ptr64` | 1719 | Exported Function
-`public: class CWSManResource * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::operator->(void) __ptr64` | 1720 | Exported Function
-`public: class EnumSinkEx * __ptr64 __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::Detach(void) __ptr64` | 2128 | Exported Function
-`public: class EnumSinkEx * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::Storage(void) __ptr64` | 3422 | Exported Function
-`public: class EnumSinkEx * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::Storage(void) __ptr64` | 3381 | Exported Function
-`public: class CWSManGroupPolicyCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::Detach(void) __ptr64` | 2184 | Exported Function
-`public: class CWSManEPR * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::operator->(void)const __ptr64` | 1716 | Exported Function
-`public: class CWSManEPR * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::operator->(void) __ptr64` | 1715 | Exported Function
-`public: class CWSManGroupPolicyCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::operator->(void) __ptr64` | 1717 | Exported Function
-`public: class CWSManObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::Detach(void) __ptr64` | 2186 | Exported Function
-`public: class CWSManGroupPolicyManager * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::operator->(void) __ptr64` | 1718 | Exported Function
-`public: class CWSManGroupPolicyManager * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::Detach(void) __ptr64` | 2185 | Exported Function
-`public: class CServiceConfigSettings::CertThumbprintMappedSet * __ptr64 __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::operator[](class CertThumbprintKey const & __ptr64) __ptr64` | 1420 | Exported Function
-`public: class CRemoteSession * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::operator->(void) __ptr64` | 1709 | Exported Function
-`public: class CRemoteSession * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::Detach(void) __ptr64` | 2180 | Exported Function
-`public: class ConfigUpdate * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::operator->(void) __ptr64` | 1632 | Exported Function
-`public: class CRemoteSession * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::operator->(void)const __ptr64` | 1710 | Exported Function
-`public: class CSecurity::AdminSid * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>::Detach(void) __ptr64` | 2117 | Exported Function
-`public: class CRequestContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::operator->(void) __ptr64` | 1711 | Exported Function
-`public: class CRequestContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::Detach(void) __ptr64` | 2181 | Exported Function
-`public: class CListenerSettings * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::operator->(void) __ptr64` | 1626 | Exported Function
-`public: class CListenerSettings * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::Detach(void) __ptr64` | 2121 | Exported Function
-`public: class CListenerReceive::MasterReceiveData * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CListenerReceive::MasterReceiveData>,class CListenerReceive::MasterReceiveData * __ptr64>::operator->(void) __ptr64` | 1644 | Exported Function
-`public: class ConfigNotification * __ptr64 __cdecl AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>::operator->(void) __ptr64` | 1725 | Exported Function
-`public: class ConfigUpdate * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::Detach(void) __ptr64` | 2127 | Exported Function
-`public: class ConfigRegistry & __ptr64 __cdecl ConfigRegistry::operator=(class ConfigRegistry const & __ptr64) __ptr64` | 1332 | Exported Function
-`public: class ConfigNotification * __ptr64 __cdecl CConfigManager::RegisterConfigChangeNotification(void * __ptr64) __ptr64` | 3020 | Exported Function
-`public: class CServiceConfigCache::CServiceWatcher * __ptr64 __cdecl CServiceConfigCache::WatchForChanges(class IRequestContext * __ptr64,class IServiceConfigObserver * __ptr64) __ptr64` | 3499 | Exported Function
-`public: class CServiceConfigCache::CServiceWatcher * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::operator->(void) __ptr64` | 1627 | Exported Function
-`public: class CServiceConfigCache::CServiceWatcher * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::Detach(void) __ptr64` | 2122 | Exported Function
-`public: class CServiceConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::Detach(void) __ptr64` | 2182 | Exported Function
-`public: class CServiceConfigSettings::CertThumbprintMappedSet & __ptr64 __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::operator*(void)const __ptr64` | 1755 | Exported Function
-`public: class CServiceConfigSettings * __ptr64 __cdecl CServiceConfigCache::GetCurrentSettings(class IRequestContext * __ptr64) __ptr64` | 2306 | Exported Function
-`public: class CServiceConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::operator->(void) __ptr64` | 1714 | Exported Function
-`public: class CSecurity::InteractiveSid * __ptr64 __cdecl LoaderSerializer<class CSecurity::InteractiveSid,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2346 | Exported Function
-`public: class CSecurity::InteractiveSid * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>::Detach(void) __ptr64` | 2134 | Exported Function
-`public: class CSecurity::AdminSid * __ptr64 __cdecl LoaderSerializer<class CSecurity::AdminSid,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2344 | Exported Function
-`public: class CSecurity::NetworkServiceSid * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>::Detach(void) __ptr64` | 2137 | Exported Function
-`public: class CServiceConfigCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::operator->(void) __ptr64` | 1713 | Exported Function
-`public: class CServiceCommonConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::operator->(void) __ptr64` | 1712 | Exported Function
-`public: class CSecurity::NetworkServiceSid * __ptr64 __cdecl LoaderSerializer<class CSecurity::NetworkServiceSid,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2349 | Exported Function
-`public: class IQueryDASHSMASHInterface * __ptr64 __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::Detach(void) __ptr64` | 2132 | Exported Function
-`public: class IQueryDASHSMASHInterface * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::Storage(void) __ptr64` | 3383 | Exported Function
-`public: class IpHlpApiDllLoader * __ptr64 __cdecl LoaderSerializer<class IpHlpApiDllLoader,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2347 | Exported Function
-`public: class IQueryDASHSMASHInterface * __ptr64 __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::operator->(void) __ptr64` | 1640 | Exported Function
-`public: class IRequestContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::Detach(void) __ptr64` | 2193 | Exported Function
-`public: class IRequestContext * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::Storage(void) __ptr64` | 3424 | Exported Function
-`public: class IQueryDASHSMASHInterface * __ptr64 __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::operator->(void)const __ptr64` | 1641 | Exported Function
-`public: class InboundRequestDetails * __ptr64 __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::operator->(void) __ptr64` | 1737 | Exported Function
-`public: class ILifeTimeMgmt & __ptr64 __cdecl ILifeTimeMgmt::operator=(class ILifeTimeMgmt const & __ptr64) __ptr64` | 1343 | Exported Function
-`public: class IConfigChangeObserver & __ptr64 __cdecl IConfigChangeObserver::operator=(class IConfigChangeObserver const & __ptr64) __ptr64` | 1342 | Exported Function
-`public: class InboundRequestDetails * __ptr64 __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::operator->(void)const __ptr64` | 1738 | Exported Function
-`public: class IpHlpApiDllLoader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>::Detach(void) __ptr64` | 2135 | Exported Function
-`public: class IPCSoapProcessor * __ptr64 __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::operator->(void) __ptr64` | 1734 | Exported Function
-`public: class IPCSoapProcessor * __ptr64 __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::Detach(void) __ptr64` | 2192 | Exported Function
-`public: class Locale & __ptr64 __cdecl Locale::operator=(class Locale const & __ptr64) __ptr64` | 1346 | Exported Function
-`public: class Locale & __ptr64 __cdecl CRequestContext::GetLocale(void) __ptr64` | 2365 | Exported Function
-`public: class IWSManGroupPolicyPublisher & __ptr64 __cdecl IWSManGroupPolicyPublisher::operator=(class IWSManGroupPolicyPublisher const & __ptr64) __ptr64` | 1345 | Exported Function
-`public: class Locale & __ptr64 __cdecl PacketParser::GetDataLocaleHelper(void) __ptr64` | 2311 | Exported Function
-`public: class Locale::Resources * __ptr64 __cdecl AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>::Detach(void) __ptr64` | 2140 | Exported Function
-`public: class Locale::Key const & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Key(void)const __ptr64` | 2687 | Exported Function
-`public: class Locale & __ptr64 __cdecl PacketParser::GetLocaleHelper(void) __ptr64` | 2367 | Exported Function
-`public: class ISpecification * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::Storage(void) __ptr64` | 3384 | Exported Function
-`public: class IRequestContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::operator->(void)const __ptr64` | 1736 | Exported Function
-`public: class IRequestContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::operator->(void) __ptr64` | 1735 | Exported Function
-`public: class ISpecification * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::Detach(void) __ptr64` | 2133 | Exported Function
-`public: class IWSManGroupPolicyObserver & __ptr64 __cdecl IWSManGroupPolicyObserver::operator=(class IWSManGroupPolicyObserver const & __ptr64) __ptr64` | 1344 | Exported Function
-`public: class ISpecification * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::operator->(void)const __ptr64` | 1643 | Exported Function
-`public: class ISpecification * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::operator->(void) __ptr64` | 1642 | Exported Function
-`public: class IChannelObserverFactory * __ptr64 __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::operator->(void) __ptr64` | 1639 | Exported Function
-`public: class ExpiredOperationIdRecord * __ptr64 & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::operator->(void)const __ptr64` | 1753 | Exported Function
-`public: class ExpiredOperationIdRecord * __ptr64 & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::operator*(void)const __ptr64` | 1757 | Exported Function
-`public: class EventLog & __ptr64 __cdecl EventLog::operator=(class EventLog const & __ptr64) __ptr64` | 1335 | Exported Function
-`public: class ExpiredOperationIdRecord * __ptr64 * __ptr64 __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::operator[](class StringKeyStore const & __ptr64) __ptr64` | 1423 | Exported Function
-`public: class ExtendedSemantic & __ptr64 __cdecl ExtendedSemantic::operator=(class ExtendedSemantic && __ptr64) __ptr64` | 1336 | Exported Function
-`public: class ExpiredOperationIdRecord * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::operator->(void) __ptr64` | 1635 | Exported Function
-`public: class ExpiredOperationIdRecord * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::Detach(void) __ptr64` | 2130 | Exported Function
-`public: class EnumSinkEx * __ptr64 __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::Detach(void) __ptr64` | 2190 | Exported Function
-`public: class EnumSinkEx * __ptr64 __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator->(void)const __ptr64` | 1634 | Exported Function
-`public: class EnumSinkEx * __ptr64 __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator->(void) __ptr64` | 1633 | Exported Function
-`public: class EnumSinkEx * __ptr64 __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator->(void) __ptr64` | 1730 | Exported Function
-`public: class EventLog & __ptr64 __cdecl EventLog::operator=(class EventLog && __ptr64) __ptr64` | 1334 | Exported Function
-`public: class EtwCorrelationHelper & __ptr64 __cdecl EtwCorrelationHelper::operator=(class EtwCorrelationHelper const & __ptr64) __ptr64` | 1333 | Exported Function
-`public: class EnumSinkEx * __ptr64 __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator->(void)const __ptr64` | 1731 | Exported Function
-`public: class GeneralSinkEx * __ptr64 __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator->(void) __ptr64` | 1732 | Exported Function
-`public: class GeneralSinkEx * __ptr64 __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::Detach(void) __ptr64` | 2191 | Exported Function
-`public: class GeneralSinkEx * __ptr64 __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator->(void)const __ptr64` | 1638 | Exported Function
-`public: class GeneralSinkEx * __ptr64 __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator->(void)const __ptr64` | 1733 | Exported Function
-`public: class Handle<class ISubscription> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::operator->(void) __ptr64` | 1612 | Exported Function
-`public: class Handle<class ISubscription> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::Detach(void) __ptr64` | 2113 | Exported Function
-`public: class GPApiManager * __ptr64 __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::operator->(void) __ptr64` | 1636 | Exported Function
-`public: class FastLock & __ptr64 __cdecl FastLock::operator=(class FastLock const & __ptr64) __ptr64` | 1339 | Exported Function
-`public: class FastLock & __ptr64 __cdecl FastLock::operator=(class FastLock && __ptr64) __ptr64` | 1338 | Exported Function
-`public: class ExtendedSemantic & __ptr64 __cdecl ExtendedSemantic::operator=(class ExtendedSemantic const & __ptr64) __ptr64` | 1337 | Exported Function
-`public: class GeneralSinkEx * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::Storage(void) __ptr64` | 3382 | Exported Function
-`public: class GeneralSinkEx * __ptr64 __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator->(void) __ptr64` | 1637 | Exported Function
-`public: class GeneralSinkEx * __ptr64 __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::Detach(void) __ptr64` | 2131 | Exported Function
-`public: class GeneralSinkEx * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::Storage(void) __ptr64` | 3423 | Exported Function
-`public: class CListenerReceive * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CListenerReceive>,class CListenerReceive * __ptr64>::operator->(void) __ptr64` | 1708 | Exported Function
-`public: class AutoRelease<class CWSManGroupPolicyManager> & __ptr64 __cdecl AutoRelease<class CWSManGroupPolicyManager>::operator=(class CWSManGroupPolicyManager * __ptr64) __ptr64` | 1294 | Exported Function
-`public: class AutoRelease<class CWSManGroupPolicyManager> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::operator=(class CWSManGroupPolicyManager * __ptr64) __ptr64` | 1192 | Exported Function
-`public: class AutoRelease<class CWSManEPR> & __ptr64 __cdecl AutoRelease<class CWSManEPR>::operator=(class CWSManEPR * __ptr64) __ptr64` | 1293 | Exported Function
-`public: class AutoRelease<class CWSManResource> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::operator=(class CWSManResource * __ptr64) __ptr64` | 1193 | Exported Function
-`public: class AutoRelease<class EnumSinkEx> & __ptr64 __cdecl AutoRelease<class EnumSinkEx>::operator=(class EnumSinkEx * __ptr64) __ptr64` | 1298 | Exported Function
-`public: class AutoRelease<class EnumSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator=(class EnumSinkEx * __ptr64) __ptr64` | 1196 | Exported Function
-`public: class AutoRelease<class CWSManResource> & __ptr64 __cdecl AutoRelease<class CWSManResource>::operator=(class CWSManResource * __ptr64) __ptr64` | 1295 | Exported Function
-`public: class AutoRelease<class CWinRSPluginConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::operator=(class CWinRSPluginConfigCache * __ptr64) __ptr64` | 1194 | Exported Function
-`public: class AutoRelease<class CServiceConfigSettings> & __ptr64 __cdecl AutoRelease<class CServiceConfigSettings>::operator=(class CServiceConfigSettings * __ptr64) __ptr64` | 1292 | Exported Function
-`public: class AutoRelease<class CServiceConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::operator=(class CServiceConfigSettings * __ptr64) __ptr64` | 1190 | Exported Function
-`public: class AutoRelease<class CWinRSPluginConfigCache> & __ptr64 __cdecl AutoRelease<class CWinRSPluginConfigCache>::operator=(class CWinRSPluginConfigCache * __ptr64) __ptr64` | 1296 | Exported Function
-`public: class AutoRelease<class CWSManEPR> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::operator=(class CWSManEPR * __ptr64) __ptr64` | 1191 | Exported Function
-`public: class AutoRelease<class CWinRSPluginConfigSettings> & __ptr64 __cdecl AutoRelease<class CWinRSPluginConfigSettings>::operator=(class CWinRSPluginConfigSettings * __ptr64) __ptr64` | 1297 | Exported Function
-`public: class AutoRelease<class CWinRSPluginConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::operator=(class CWinRSPluginConfigSettings * __ptr64) __ptr64` | 1195 | Exported Function
-`public: class AutoRelease<class UserRecord> & __ptr64 __cdecl AutoRelease<class UserRecord>::operator=(class UserRecord * __ptr64) __ptr64` | 1303 | Exported Function
-`public: class AutoRelease<class UserRecord> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::operator=(class UserRecord * __ptr64) __ptr64` | 1201 | Exported Function
-`public: class AutoRelease<class ISubscription> & __ptr64 __cdecl AutoRelease<class ISubscription>::operator=(class ISubscription * __ptr64) __ptr64` | 1301 | Exported Function
-`public: class AutoRelease<class WSMan::Client::Application> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>::operator=(class WSMan::Client::Application * __ptr64) __ptr64` | 1179 | Exported Function
-`public: class AutoRelease<class WSManHttpListener> & __ptr64 __cdecl AutoRelease<class WSManHttpListener>::operator=(class WSManHttpListener * __ptr64) __ptr64` | 1304 | Exported Function
-`public: class AutoRelease<class WSManHttpListener> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>::operator=(class WSManHttpListener * __ptr64) __ptr64` | 1202 | Exported Function
-`public: class AutoRelease<class WSMan::Client::Application> & __ptr64 __cdecl AutoRelease<class WSMan::Client::Application>::operator=(class WSMan::Client::Application * __ptr64) __ptr64` | 1281 | Exported Function
-`public: class AutoRelease<class InboundRequestDetails> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::operator=(class InboundRequestDetails * __ptr64) __ptr64` | 1200 | Exported Function
-`public: class AutoRelease<class GeneralSinkEx> & __ptr64 __cdecl AutoRelease<class GeneralSinkEx>::operator=(class GeneralSinkEx * __ptr64) __ptr64` | 1299 | Exported Function
-`public: class AutoRelease<class GeneralSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator=(class GeneralSinkEx * __ptr64) __ptr64` | 1197 | Exported Function
-`public: class AutoRelease<class InboundRequestDetails> & __ptr64 __cdecl AutoRelease<class InboundRequestDetails>::operator=(class InboundRequestDetails * __ptr64) __ptr64` | 1302 | Exported Function
-`public: class AutoRelease<class ISubscription> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>::operator=(class ISubscription * __ptr64) __ptr64` | 1199 | Exported Function
-`public: class AutoRelease<class IRequestContext> & __ptr64 __cdecl AutoRelease<class IRequestContext>::operator=(class IRequestContext * __ptr64) __ptr64` | 1300 | Exported Function
-`public: class AutoRelease<class IRequestContext> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::operator=(class IRequestContext * __ptr64) __ptr64` | 1198 | Exported Function
-`public: class AutoRelease<class CServiceConfigCache> & __ptr64 __cdecl AutoRelease<class CServiceConfigCache>::operator=(class CServiceConfigCache * __ptr64) __ptr64` | 1291 | Exported Function
-`public: class AutoRelease<class CBaseConfigCache::CConfigCacheMap> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::operator=(class CBaseConfigCache::CConfigCacheMap * __ptr64) __ptr64` | 1183 | Exported Function
-`public: class AutoRegKey & __ptr64 __cdecl AutoRegKey::operator=(struct HKEY__ * __ptr64) __ptr64` | 1328 | Exported Function
-`public: class AutoRegKey & __ptr64 __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::operator=(struct HKEY__ * __ptr64) __ptr64` | 1217 | Exported Function
-`public: class AutoRelease<class CBaseConfigCache::CConfigCacheMap> & __ptr64 __cdecl AutoRelease<class CBaseConfigCache::CConfigCacheMap>::operator=(class CBaseConfigCache::CConfigCacheMap * __ptr64) __ptr64` | 1285 | Exported Function
-`public: class AutoRelease<class CClientConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::operator=(class CClientConfigSettings * __ptr64) __ptr64` | 1181 | Exported Function
-`public: class AutoRelease<class CBaseConfigCache> & __ptr64 __cdecl AutoRelease<class CBaseConfigCache>::operator=(class CBaseConfigCache * __ptr64) __ptr64` | 1282 | Exported Function
-`public: class AutoRelease<class CBaseConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::operator=(class CBaseConfigCache * __ptr64) __ptr64` | 1180 | Exported Function
-`public: class AutoMIClass & __ptr64 __cdecl AutoMIClass::operator=(struct _MI_Class * __ptr64) __ptr64` | 1325 | Exported Function
-`public: class AutoMIClass & __ptr64 __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::operator=(struct _MI_Class * __ptr64) __ptr64` | 1214 | Exported Function
-`public: class AutoLocklessItemRecycle<class Packet> & __ptr64 __cdecl AutoLocklessItemRecycle<class Packet>::operator=(class Packet * __ptr64) __ptr64` | 1267 | Exported Function
-`public: class AutoMIInstance & __ptr64 __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::operator=(struct _MI_Instance * __ptr64) __ptr64` | 1215 | Exported Function
-`public: class AutoObject & __ptr64 __cdecl AutoObject::operator=(struct WSMAN_OBJECT * __ptr64) __ptr64` | 1327 | Exported Function
-`public: class AutoObject & __ptr64 __cdecl AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>::operator=(struct WSMAN_OBJECT * __ptr64) __ptr64` | 1216 | Exported Function
-`public: class AutoMIInstance & __ptr64 __cdecl AutoMIInstance::operator=(struct _MI_Instance * __ptr64) __ptr64` | 1326 | Exported Function
-`public: class AutoRelease<class CRequestContext> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::operator=(class CRequestContext * __ptr64) __ptr64` | 1187 | Exported Function
-`public: class AutoRelease<class CRemoteSession> & __ptr64 __cdecl AutoRelease<class CRemoteSession>::operator=(class CRemoteSession * __ptr64) __ptr64` | 1288 | Exported Function
-`public: class AutoRelease<class CRemoteSession> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::operator=(class CRemoteSession * __ptr64) __ptr64` | 1186 | Exported Function
-`public: class AutoRelease<class CRequestContext> & __ptr64 __cdecl AutoRelease<class CRequestContext>::operator=(class CRequestContext * __ptr64) __ptr64` | 1289 | Exported Function
-`public: class AutoRelease<class CServiceConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::operator=(class CServiceConfigCache * __ptr64) __ptr64` | 1189 | Exported Function
-`public: class AutoRelease<class CServiceCommonConfigSettings> & __ptr64 __cdecl AutoRelease<class CServiceCommonConfigSettings>::operator=(class CServiceCommonConfigSettings * __ptr64) __ptr64` | 1290 | Exported Function
-`public: class AutoRelease<class CServiceCommonConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::operator=(class CServiceCommonConfigSettings * __ptr64) __ptr64` | 1188 | Exported Function
-`public: class AutoRelease<class CCommonConfigSettings> & __ptr64 __cdecl AutoRelease<class CCommonConfigSettings>::operator=(class CCommonConfigSettings * __ptr64) __ptr64` | 1284 | Exported Function
-`public: class AutoRelease<class CCommonConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::operator=(class CCommonConfigSettings * __ptr64) __ptr64` | 1182 | Exported Function
-`public: class AutoRelease<class CClientConfigSettings> & __ptr64 __cdecl AutoRelease<class CClientConfigSettings>::operator=(class CClientConfigSettings * __ptr64) __ptr64` | 1283 | Exported Function
-`public: class AutoRelease<class CConfigManager> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::operator=(class CConfigManager * __ptr64) __ptr64` | 1184 | Exported Function
-`public: class AutoRelease<class CRemoteOperation> & __ptr64 __cdecl AutoRelease<class CRemoteOperation>::operator=(class CRemoteOperation * __ptr64) __ptr64` | 1287 | Exported Function
-`public: class AutoRelease<class CRemoteOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>::operator=(class CRemoteOperation * __ptr64) __ptr64` | 1185 | Exported Function
-`public: class AutoRelease<class CConfigManager> & __ptr64 __cdecl AutoRelease<class CConfigManager>::operator=(class CConfigManager * __ptr64) __ptr64` | 1286 | Exported Function
-`public: class CBaseConfigCache * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::operator->(void) __ptr64` | 1623 | Exported Function
-`public: class CBaseConfigCache * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::Detach(void) __ptr64` | 2119 | Exported Function
-`public: class Catalog::SecurityEntry * __ptr64 __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::operator->(void) __ptr64` | 1649 | Exported Function
-`public: class CBaseConfigCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::Detach(void) __ptr64` | 2176 | Exported Function
-`public: class CCertMapping * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::Detach(void) __ptr64` | 2120 | Exported Function
-`public: class CBaseConfigCache::CConfigCacheMap * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::operator->(void) __ptr64` | 1706 | Exported Function
-`public: class CBaseConfigCache * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::operator->(void) __ptr64` | 1704 | Exported Function
-`public: class AutoWaitHandle & __ptr64 __cdecl AutoWaitHandle::operator=(void * __ptr64) __ptr64` | 1330 | Exported Function
-`public: class AutoWaitHandle & __ptr64 __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1219 | Exported Function
-`public: class AutoSecurityDescriptor & __ptr64 __cdecl AutoSecurityDescriptor::operator=(void * __ptr64) __ptr64` | 1329 | Exported Function
-`public: class BlockedRecord * __ptr64 * __ptr64 __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::operator[](struct UserKey const & __ptr64) __ptr64` | 1419 | Exported Function
-`public: class Catalog::SecurityEntry * __ptr64 __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::Detach(void) __ptr64` | 2141 | Exported Function
-`public: class BlockedRecord * __ptr64 __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::operator->(void) __ptr64` | 1622 | Exported Function
-`public: class BlockedRecord * __ptr64 __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::Detach(void) __ptr64` | 2118 | Exported Function
-`public: class CertHash * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::Detach(void) __ptr64` | 2126 | Exported Function
-`public: class CConfigManager * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::operator->(void) __ptr64` | 1707 | Exported Function
-`public: class CConfigManager * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::Detach(void) __ptr64` | 2179 | Exported Function
-`public: class CertHash * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::operator->(void) __ptr64` | 1631 | Exported Function
-`public: class CListenerOperation * __ptr64 const & __ptr64 __cdecl SafeSet_Iterator<class CListenerOperation * __ptr64>::operator->(void)const __ptr64` | 1754 | Exported Function
-`public: class CListenerOperation * __ptr64 const & __ptr64 __cdecl SafeSet_Iterator<class CListenerOperation * __ptr64>::operator*(void)const __ptr64` | 1760 | Exported Function
-`public: class ChildLifeTimeManager & __ptr64 __cdecl ChildLifeTimeManager::operator=(class ChildLifeTimeManager const & __ptr64) __ptr64` | 1331 | Exported Function
-`public: class CClientConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::Detach(void) __ptr64` | 2177 | Exported Function
-`public: class CCertMapping * __ptr64 const & __ptr64 __cdecl SafeSet_Iterator<class CCertMapping * __ptr64>::operator*(void)const __ptr64` | 1759 | Exported Function
-`public: class CCertMapping * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::operator->(void) __ptr64` | 1624 | Exported Function
-`public: class CClientConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::operator->(void) __ptr64` | 1705 | Exported Function
-`public: class CConfigChangeSource * __ptr64 __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::operator->(void) __ptr64` | 1625 | Exported Function
-`public: class CCommonConfigSettings * __ptr64 __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::Detach(void) __ptr64` | 2178 | Exported Function
-`public: class CClientConfigSettings * __ptr64 __cdecl CClientConfigCache::GetCurrentSettings(class IRequestContext * __ptr64) __ptr64` | 2305 | Exported Function
-`public: class AutoSecurityDescriptor & __ptr64 __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1218 | Exported Function
-`public: class AutoRelease<struct IWbemClassObject> & __ptr64 __cdecl AutoRelease<struct IWbemClassObject>::operator=(struct IWbemClassObject * __ptr64) __ptr64` | 1272 | Exported Function
-`public: class AutoRelease<struct IWbemClassObject> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::operator=(struct IWbemClassObject * __ptr64) __ptr64` | 1170 | Exported Function
-`public: class AutoRelease<struct IUnknown> & __ptr64 __cdecl AutoRelease<struct IUnknown>::operator=(struct IUnknown * __ptr64) __ptr64` | 1271 | Exported Function
-`public: class AutoRelease<struct IWbemContext> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::operator=(struct IWbemContext * __ptr64) __ptr64` | 1171 | Exported Function
-`public: class AutoRelease<struct IWbemLocator> & __ptr64 __cdecl AutoRelease<struct IWbemLocator>::operator=(struct IWbemLocator * __ptr64) __ptr64` | 1274 | Exported Function
-`public: class AutoRelease<struct IWbemLocator> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::operator=(struct IWbemLocator * __ptr64) __ptr64` | 1172 | Exported Function
-`public: class AutoRelease<struct IWbemContext> & __ptr64 __cdecl AutoRelease<struct IWbemContext>::operator=(struct IWbemContext * __ptr64) __ptr64` | 1273 | Exported Function
-`public: class AutoRelease<struct IEnumWbemClassObject> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::operator=(struct IEnumWbemClassObject * __ptr64) __ptr64` | 1167 | Exported Function
-`public: class AutoRelease<struct IClientSecurity> & __ptr64 __cdecl AutoRelease<struct IClientSecurity>::operator=(struct IClientSecurity * __ptr64) __ptr64` | 1268 | Exported Function
-`public: class AutoRelease<struct IClientSecurity> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::operator=(struct IClientSecurity * __ptr64) __ptr64` | 1166 | Exported Function
-`public: class AutoRelease<struct IEnumWbemClassObject> & __ptr64 __cdecl AutoRelease<struct IEnumWbemClassObject>::operator=(struct IEnumWbemClassObject * __ptr64) __ptr64` | 1269 | Exported Function
-`public: class AutoRelease<struct IUnknown> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::operator=(struct IUnknown * __ptr64) __ptr64` | 1169 | Exported Function
-`public: class AutoRelease<struct IErrorInfo> & __ptr64 __cdecl AutoRelease<struct IErrorInfo>::operator=(struct IErrorInfo * __ptr64) __ptr64` | 1270 | Exported Function
-`public: class AutoRelease<struct IErrorInfo> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::operator=(struct IErrorInfo * __ptr64) __ptr64` | 1168 | Exported Function
-`public: class AutoRelease<struct IWbemQuery> & __ptr64 __cdecl AutoRelease<struct IWbemQuery>::operator=(struct IWbemQuery * __ptr64) __ptr64` | 1279 | Exported Function
-`public: class AutoRelease<struct IWbemQuery> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::operator=(struct IWbemQuery * __ptr64) __ptr64` | 1177 | Exported Function
-`public: class AutoRelease<struct IWbemQualifierSet> & __ptr64 __cdecl AutoRelease<struct IWbemQualifierSet>::operator=(struct IWbemQualifierSet * __ptr64) __ptr64` | 1278 | Exported Function
-`public: class AutoRelease<struct IWbemServices> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::operator=(struct IWbemServices * __ptr64) __ptr64` | 1178 | Exported Function
-`public: class AutoReleaseEx<class WSMan::Client::Shell> & __ptr64 __cdecl AutoReleaseEx<class WSMan::Client::Shell>::operator=(class WSMan::Client::Shell * __ptr64) __ptr64` | 1305 | Exported Function
-`public: class AutoReleaseEx<class WSMan::Client::Shell> & __ptr64 __cdecl AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::operator=(class WSMan::Client::Shell * __ptr64) __ptr64` | 1203 | Exported Function
-`public: class AutoRelease<struct IWbemServices> & __ptr64 __cdecl AutoRelease<struct IWbemServices>::operator=(struct IWbemServices * __ptr64) __ptr64` | 1280 | Exported Function
-`public: class AutoRelease<struct IWbemPath> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::operator=(struct IWbemPath * __ptr64) __ptr64` | 1174 | Exported Function
-`public: class AutoRelease<struct IWbemObjectTextSrc> & __ptr64 __cdecl AutoRelease<struct IWbemObjectTextSrc>::operator=(struct IWbemObjectTextSrc * __ptr64) __ptr64` | 1275 | Exported Function
-`public: class AutoRelease<struct IWbemObjectTextSrc> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::operator=(struct IWbemObjectTextSrc * __ptr64) __ptr64` | 1173 | Exported Function
-`public: class AutoRelease<struct IWbemPath> & __ptr64 __cdecl AutoRelease<struct IWbemPath>::operator=(struct IWbemPath * __ptr64) __ptr64` | 1276 | Exported Function
-`public: class AutoRelease<struct IWbemQualifierSet> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::operator=(struct IWbemQualifierSet * __ptr64) __ptr64` | 1176 | Exported Function
-`public: class AutoRelease<struct IWbemPathKeyList> & __ptr64 __cdecl AutoRelease<struct IWbemPathKeyList>::operator=(struct IWbemPathKeyList * __ptr64) __ptr64` | 1277 | Exported Function
-`public: class AutoRelease<struct IWbemPathKeyList> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::operator=(struct IWbemPathKeyList * __ptr64) __ptr64` | 1175 | Exported Function
-`public: class Locale::Resources * __ptr64 __cdecl LoaderSerializer<class Locale::Resources,0>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2351 | Exported Function
-`public: class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::operator->(void) __ptr64` | 1618 | Exported Function
-`public: class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::Detach(void) __ptr64` | 2116 | Exported Function
-`public: class SoapSemanticConverter & __ptr64 __cdecl SoapSemanticConverter::operator=(class SoapSemanticConverter const & __ptr64) __ptr64` | 1356 | Exported Function
-`public: class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::operator->(void) __ptr64` | 1619 | Exported Function
-`public: class StringKeyCI const & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::Key(void)const __ptr64` | 2689 | Exported Function
-`public: class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::operator->(void) __ptr64` | 1620 | Exported Function
-`public: class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::operator->(void) __ptr64` | 1621 | Exported Function
-`public: class Shell32DllLoader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>::Detach(void) __ptr64` | 2143 | Exported Function
-`public: class ServiceSoapProcessor * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::operator->(void) __ptr64` | 1651 | Exported Function
-`public: class ServiceSoapProcessor * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::Detach(void) __ptr64` | 2142 | Exported Function
-`public: class Shell32DllLoader * __ptr64 __cdecl LoaderSerializer<class Shell32DllLoader,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2352 | Exported Function
-`public: class SimpleQueue<union _LARGE_INTEGER> & __ptr64 __cdecl SimpleQueue<union _LARGE_INTEGER>::operator=(class SimpleQueue<union _LARGE_INTEGER> const & __ptr64) __ptr64` | 1314 | Exported Function
-`public: class ShlWApiDllLoader * __ptr64 __cdecl LoaderSerializer<class ShlWApiDllLoader,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2353 | Exported Function
-`public: class ShlWApiDllLoader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>::Detach(void) __ptr64` | 2144 | Exported Function
-`public: class TSTRBUFFER * __ptr64 __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::operator->(void)const __ptr64` | 1654 | Exported Function
-`public: class TSTRBUFFER * __ptr64 __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::operator->(void) __ptr64` | 1653 | Exported Function
-`public: class TSTRBUFFER * __ptr64 __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::Detach(void) __ptr64` | 2146 | Exported Function
-`public: class UniqueStringOverflow * __ptr64 __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::operator->(void) __ptr64` | 1655 | Exported Function
-`public: class UserAuthzRecord & __ptr64 __cdecl UserAuthzRecord::operator=(class UserAuthzRecord && __ptr64) __ptr64` | 1357 | Exported Function
-`public: class User32DllLoader * __ptr64 __cdecl LoaderSerializer<class User32DllLoader,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2355 | Exported Function
-`public: class User32DllLoader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>::Detach(void) __ptr64` | 2147 | Exported Function
-`public: class StringKeyCI const * __ptr64 __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Key(class StringKeyCI const & __ptr64)const __ptr64` | 2685 | Exported Function
-`public: class StringKeyCI const * __ptr64 __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Key(class StringKeyCI const & __ptr64)const __ptr64` | 2686 | Exported Function
-`public: class StringKeyCI const & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::Key(void)const __ptr64` | 2688 | Exported Function
-`public: class SubscriptionEnumerator * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::operator->(void) __ptr64` | 1652 | Exported Function
-`public: class TSTRBUFFER * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::Storage(void) __ptr64` | 3386 | Exported Function
-`public: class SubscriptionManager * __ptr64 __cdecl LoaderSerializer<class SubscriptionManager,2>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2354 | Exported Function
-`public: class SubscriptionManager * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>::Detach(void) __ptr64` | 2145 | Exported Function
-`public: class ServerFullDuplexChannel * __ptr64 * __ptr64 __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::operator[](class StringKeyStore const & __ptr64) __ptr64` | 1424 | Exported Function
-`public: class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::Initialize(void) __ptr64` | 2584 | Exported Function
-`public: class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> & __ptr64 __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::Initialize(void) __ptr64` | 2586 | Exported Function
-`public: class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> & __ptr64 __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::GetDestructorIter(void) __ptr64` | 2315 | Exported Function
-`public: class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::Initialize(void) __ptr64` | 2585 | Exported Function
-`public: class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> & __ptr64 __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::GetDestructorIter(void) __ptr64` | 2316 | Exported Function
-`public: class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::operator->(void) __ptr64` | 1613 | Exported Function
-`public: class SafeMap_Iterator<class StringKeyCI,unsigned long> & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::Initialize(void) __ptr64` | 2587 | Exported Function
-`public: class SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::GetMap(void)const __ptr64` | 2420 | Exported Function
-`public: class SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::GetMap(void)const __ptr64` | 2395 | Exported Function
-`public: class SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> > & __ptr64 __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::AsReference(void) __ptr64` | 1992 | Exported Function
-`public: class SafeMap<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2383 | Exported Function
-`public: class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::Initialize(void) __ptr64` | 2583 | Exported Function
-`public: class SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> > & __ptr64 __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::AsReference(void) __ptr64` | 1982 | Exported Function
-`public: class SafeMap<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2408 | Exported Function
-`public: class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::operator->(void) __ptr64` | 1617 | Exported Function
-`public: class SafeSet_Iterator<class CCertMapping * __ptr64> & __ptr64 __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::GetDestructorIter(void) __ptr64` | 2313 | Exported Function
-`public: class SafeSet<class CShellUriSettings * __ptr64> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::operator->(void) __ptr64` | 1616 | Exported Function
-`public: class SafeSet_Iterator<class CShellUriSettings * __ptr64> & __ptr64 __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::GetDestructorIter(void) __ptr64` | 2314 | Exported Function
-`public: class SemanticMessage * __ptr64 __cdecl SoapSemanticConverter::ParseEvent(struct _FWXML_ELEMENT * __ptr64,unsigned long * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2899 | Exported Function
-`public: class SBUFFER & __ptr64 __cdecl SBUFFER::operator=(class SBUFFER const & __ptr64) __ptr64` | 1353 | Exported Function
-`public: class SBUFFER & __ptr64 __cdecl SBUFFER::operator=(class SBUFFER && __ptr64) __ptr64` | 1352 | Exported Function
-`public: class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::Initialize(void) __ptr64` | 2589 | Exported Function
-`public: class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> & __ptr64 __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::GetDestructorIter(void) __ptr64` | 2317 | Exported Function
-`public: class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::Initialize(void) __ptr64` | 2588 | Exported Function
-`public: class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::operator->(void) __ptr64` | 1614 | Exported Function
-`public: class SafeSet<class CShellUriSettings * __ptr64> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::Detach(void) __ptr64` | 2115 | Exported Function
-`public: class SafeSet<class CCertMapping * __ptr64> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::operator->(void) __ptr64` | 1615 | Exported Function
-`public: class SafeSet<class CCertMapping * __ptr64> * __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::Detach(void) __ptr64` | 2114 | Exported Function
-`public: class XmlReader * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::Storage(void) __ptr64` | 3388 | Exported Function
-`public: class WSManMemCryptManager * __ptr64 __cdecl LoaderSerializer<class WSManMemCryptManager,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2356 | Exported Function
-`public: class WSManMemCryptManager * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>::Detach(void) __ptr64` | 2148 | Exported Function
-`public: class XmlReader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::Detach(void) __ptr64` | 2150 | Exported Function
-`public: enum PacketFormatter::Charset __cdecl PacketFormatter::GetBomIndex(void)const __ptr64` | 2270 | Exported Function
-`public: enum PacketFormatter::Charset __cdecl BufferFormatter::GetFormatterMode(void) __ptr64` | 2334 | Exported Function
-`public: class XmlReader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::operator->(void) __ptr64` | 1659 | Exported Function
-`public: class WSMan::Client::SignalOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::operator->(void) __ptr64` | 1744 | Exported Function
-`public: class WSMan::Client::SignalOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::Detach(void) __ptr64` | 2197 | Exported Function
-`public: class WSMan::Client::SignalOperation * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::Storage(void) __ptr64` | 3428 | Exported Function
-`public: class WSMan::EventHandler * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>::Detach(void) __ptr64` | 2129 | Exported Function
-`public: class WSManHttpListener * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>::operator->(void) __ptr64` | 1746 | Exported Function
-`public: class WSMANCONFIGTABLE_IDENTITY * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::operator->(void) __ptr64` | 1656 | Exported Function
-`public: class WSMan::EventHandler * __ptr64 __cdecl LoaderSerializer<class WSMan::EventHandler,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2345 | Exported Function
-`public: int __cdecl CConfigManager::GetInt(class IRequestContext * __ptr64,enum ConfigSetting,unsigned long * __ptr64,enum WSManConfigSource * __ptr64) __ptr64` | 2357 | Exported Function
-`public: int __cdecl CConfigManager::GetCurrentTableIdentity(class WSMANCONFIGTABLE_IDENTITY * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2309 | Exported Function
-`public: int __cdecl CConfigManager::GetCurrentShellUriIdentity(class SHELLURI_IDENTITY * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2308 | Exported Function
-`public: int __cdecl CConfigManager::GetSecurityDescriptor(class IRequestContext * __ptr64,enum ConfigSetting,void * __ptr64 * __ptr64,enum WSManConfigSource * __ptr64) __ptr64` | 2484 | Exported Function
-`public: int __cdecl CConfigManager::HandleAutoConfiguredListener(class IRequestContext * __ptr64,class LISTENER_IDENTITY * __ptr64) __ptr64` | 2526 | Exported Function
-`public: int __cdecl CConfigManager::GetString(class IRequestContext * __ptr64,enum ConfigSetting,unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,enum WSManConfigSource * __ptr64) __ptr64` | 2501 | Exported Function
-`public: int __cdecl CConfigManager::GetSetting(class IRequestContext * __ptr64,enum ConfigSetting,unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,enum WSManConfigSource * __ptr64) __ptr64` | 2491 | Exported Function
-`public: enum UserAuthzRecord::AdministratorType __cdecl UserRecord::GetUserAdministratorType(void)const __ptr64` | 2514 | Exported Function
-`public: enum PacketFormatter::Charset __cdecl PacketFormatter::GetFormat(void)const __ptr64` | 2333 | Exported Function
-`public: enum PacketFormatter::Charset __cdecl PacketFormatter::GetCharset(void)const __ptr64` | 2287 | Exported Function
-`public: int __cdecl CConfigManager::GetBool(class IRequestContext * __ptr64,enum ConfigSetting,int * __ptr64,enum WSManConfigSource * __ptr64) __ptr64` | 2272 | Exported Function
-`public: int __cdecl CConfigManager::GetCurrentListenerIdentity(class LISTENER_IDENTITY * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2303 | Exported Function
-`public: int __cdecl CConfigManager::GetCurrentCertMappingIdentity(class CERTMAPPING_IDENTITY * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2302 | Exported Function
-`public: int __cdecl CConfigManager::GetConfigXml(class IRequestContext * __ptr64,unsigned short const * __ptr64 * __ptr64,class XmlReader * __ptr64 * __ptr64,int * __ptr64) __ptr64` | 2300 | Exported Function
-`public: class WSMan::Client::Shell * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::operator->(void)const __ptr64` | 1743 | Exported Function
-`public: class WSMan::Client::Command * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::operator->(void) __ptr64` | 1724 | Exported Function
-`public: class WSMan::Client::Command * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::Detach(void) __ptr64` | 2189 | Exported Function
-`public: class WSMan::Client::Command * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::Storage(void) __ptr64` | 3421 | Exported Function
-`public: class WSMan::Client::ConnectShellOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>::operator->(void) __ptr64` | 1726 | Exported Function
-`public: class WSMan::Client::DisconnectOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>::operator->(void) __ptr64` | 1729 | Exported Function
-`public: class WSMan::Client::DeleteShellOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>::operator->(void) __ptr64` | 1728 | Exported Function
-`public: class WSMan::Client::CreateShellOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>::operator->(void) __ptr64` | 1727 | Exported Function
-`public: class WmiEnumContext * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::Storage(void) __ptr64` | 3387 | Exported Function
-`public: class UserRecord * __ptr64 __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::operator->(void) __ptr64` | 1745 | Exported Function
-`public: class UserAuthzRecord & __ptr64 __cdecl UserAuthzRecord::operator=(class UserAuthzRecord const & __ptr64) __ptr64` | 1358 | Exported Function
-`public: class WmiEnumContext * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::Detach(void) __ptr64` | 2149 | Exported Function
-`public: class WSMan::Client::Application * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>::Detach(void) __ptr64` | 2175 | Exported Function
-`public: class WmiEnumContext * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::operator->(void)const __ptr64` | 1658 | Exported Function
-`public: class WmiEnumContext * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::operator->(void) __ptr64` | 1657 | Exported Function
-`public: class WSMan::Client::SessionOptions::OptionValue * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::Detach(void) __ptr64` | 2139 | Exported Function
-`public: class WSMan::Client::SessionOptions::OptionValue * __ptr64 * __ptr64 __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::operator[](enum WSManSessionOption const & __ptr64) __ptr64` | 1425 | Exported Function
-`public: class WSMan::Client::SessionOptions::OptionValue * __ptr64 & __ptr64 __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::operator*(void)const __ptr64` | 1758 | Exported Function
-`public: class WSMan::Client::SessionOptions::OptionValue * __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::operator->(void) __ptr64` | 1645 | Exported Function
-`public: class WSMan::Client::Shell * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::operator->(void) __ptr64` | 1742 | Exported Function
-`public: class WSMan::Client::Shell * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::Detach(void) __ptr64` | 2196 | Exported Function
-`public: class WSMan::Client::Shell * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::Storage(void) __ptr64` | 3427 | Exported Function
-`public: class WSMan::Client::ReceiveOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::operator->(void) __ptr64` | 1739 | Exported Function
-`public: class WSMan::Client::ReceiveOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::Detach(void) __ptr64` | 2194 | Exported Function
-`public: class WSMan::Client::ReceiveOperation * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::Storage(void) __ptr64` | 3425 | Exported Function
-`public: class WSMan::Client::ReconnectOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>::operator->(void) __ptr64` | 1740 | Exported Function
-`public: class WSMan::Client::SendOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::operator->(void) __ptr64` | 1741 | Exported Function
-`public: class WSMan::Client::SendOperation * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::Detach(void) __ptr64` | 2195 | Exported Function
-`public: class WSMan::Client::SendOperation * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::Storage(void) __ptr64` | 3426 | Exported Function
-`public: class SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::GetMap(void)const __ptr64` | 2410 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetOperationId(void)const __ptr64` | 2455 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetMessageId(void)const __ptr64` | 2430 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetMachineId(void)const __ptr64` | 2370 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetRequestedDataLocale(void)const __ptr64` | 2479 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetSessionId(void)const __ptr64` | 2488 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetResourceUri(void)const __ptr64` | 2481 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetRequestedLocale(void)const __ptr64` | 2480 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> & __ptr64 __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::operator=(class PacketParser::PacketElement<unsigned short const * __ptr64> && __ptr64) __ptr64` | 1310 | Exported Function
-`public: class PacketParser::PacketElement<unsigned long> const & __ptr64 __cdecl PacketParser::GetTimeout(void)const __ptr64` | 2508 | Exported Function
-`public: class PacketParser::PacketElement<unsigned long> const & __ptr64 __cdecl PacketParser::GetMaxEnvelopeSize(void)const __ptr64` | 2424 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> & __ptr64 __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::operator=(class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 1311 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetLocale(void)const __ptr64` | 2366 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetDataLocale(void)const __ptr64` | 2310 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetAction(void)const __ptr64` | 2266 | Exported Function
-`public: class QuotaRecord const * __ptr64 __cdecl UserRecord::GetQuotaRecord(void)const __ptr64` | 2473 | Exported Function
-`public: class PacketPool & __ptr64 __cdecl PacketParser::GetPacketPool(void) __ptr64` | 2464 | Exported Function
-`public: class PacketParser::SessionId & __ptr64 __cdecl PacketParser::SessionId::operator=(class PacketParser::SessionId const & __ptr64) __ptr64` | 1355 | Exported Function
-`public: class RBUFFER & __ptr64 __cdecl RBUFFER::operator=(class RBUFFER const & __ptr64) __ptr64` | 1351 | Exported Function
-`public: class RunAsConfiguration * __ptr64 __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::operator->(void) __ptr64` | 1648 | Exported Function
-`public: class RobustConnectionBuffer::SendPacketArgs * __ptr64 __cdecl AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::operator->(void) __ptr64` | 1650 | Exported Function
-`public: class RobustConnectionBuffer::SendPacketArgs * __ptr64 * __ptr64 __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::operator[](unsigned __int64 const & __ptr64) __ptr64` | 1426 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetSubscriptionId(void)const __ptr64` | 2506 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetSourceSubscriptionId(void)const __ptr64` | 2497 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetShellCompressionType(void)const __ptr64` | 2492 | Exported Function
-`public: class PacketParser::PacketElement<unsigned short const * __ptr64> const & __ptr64 __cdecl PacketParser::GetTo(void)const __ptr64` | 2509 | Exported Function
-`public: class PacketParser::SessionId & __ptr64 __cdecl PacketParser::SessionId::operator=(class PacketParser::SessionId && __ptr64) __ptr64` | 1354 | Exported Function
-`public: class PacketParser::ReferenceParameters const & __ptr64 __cdecl PacketParser::GetReplyToXml(void)const __ptr64` | 2478 | Exported Function
-`public: class PacketParser::ReferenceParameters const & __ptr64 __cdecl PacketParser::GetFaultToXml(void)const __ptr64` | 2325 | Exported Function
-`public: class PacketParser::PacketElement<unsigned long> & __ptr64 __cdecl PacketParser::PacketElement<unsigned long>::operator=(class PacketParser::PacketElement<unsigned long> const & __ptr64) __ptr64` | 1307 | Exported Function
-`public: class PacketCreator * __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::operator->(void) __ptr64` | 1646 | Exported Function
-`public: class PacketCreator * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::Storage(void) __ptr64` | 3385 | Exported Function
-`public: class Packet * __ptr64 __cdecl PacketParser::GetRemainderPacket(class IRequestContext * __ptr64) __ptr64` | 2477 | Exported Function
-`public: class PacketFormatter & __ptr64 __cdecl PacketFormatter::operator=(class PacketFormatter && __ptr64) __ptr64` | 1349 | Exported Function
-`public: class PacketParser::Fragment & __ptr64 __cdecl PacketParser::Fragment::operator=(class PacketParser::Fragment && __ptr64) __ptr64` | 1340 | Exported Function
-`public: class PacketParser * __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::operator->(void) __ptr64` | 1647 | Exported Function
-`public: class PacketFormatter & __ptr64 __cdecl PacketFormatter::operator=(class PacketFormatter const & __ptr64) __ptr64` | 1350 | Exported Function
-`public: class NtDsApiDllLoader * __ptr64 __cdecl AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>::Detach(void) __ptr64` | 2138 | Exported Function
-`public: class MachineName * __ptr64 __cdecl LoaderSerializer<class MachineName,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2348 | Exported Function
-`public: class MachineName * __ptr64 __cdecl AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>::Detach(void) __ptr64` | 2136 | Exported Function
-`public: class NtDsApiDllLoader * __ptr64 __cdecl LoaderSerializer<class NtDsApiDllLoader,1>::GetInstance(class IRequestContext & __ptr64) __ptr64` | 2350 | Exported Function
-`public: class Packet * __ptr64 __cdecl PacketParser::GetPacket(void) __ptr64` | 2463 | Exported Function
-`public: class Packet * __ptr64 __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::Detach(void) __ptr64` | 2161 | Exported Function
-`public: class Packet * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::Storage(void) __ptr64` | 3398 | Exported Function
-`public: class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> const & __ptr64 __cdecl PacketParser::GetSelectorSetXml(void) __ptr64` | 2485 | Exported Function
-`public: class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> const & __ptr64 __cdecl PacketParser::GetOptionsSetXml(void) __ptr64` | 2461 | Exported Function
-`public: class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> const & __ptr64 __cdecl PacketParser::GetBookmarkXml(void) __ptr64` | 2271 | Exported Function
-`public: class PacketParser::PacketElement<unsigned __int64> & __ptr64 __cdecl PacketParser::PacketElement<unsigned __int64>::operator=(class PacketParser::PacketElement<unsigned __int64> && __ptr64) __ptr64` | 1312 | Exported Function
-`public: class PacketParser::PacketElement<unsigned long> & __ptr64 __cdecl PacketParser::PacketElement<unsigned long>::operator=(class PacketParser::PacketElement<unsigned long> && __ptr64) __ptr64` | 1306 | Exported Function
-`public: class PacketParser::PacketElement<unsigned __int64> const & __ptr64 __cdecl PacketParser::GetSequenceId(void)const __ptr64` | 2486 | Exported Function
-`public: class PacketParser::PacketElement<unsigned __int64> & __ptr64 __cdecl PacketParser::PacketElement<unsigned __int64>::operator=(class PacketParser::PacketElement<unsigned __int64> const & __ptr64) __ptr64` | 1313 | Exported Function
-`public: class PacketParser::NotUnderstandSoapHeader & __ptr64 __cdecl PacketParser::NotUnderstandSoapHeader::operator=(class PacketParser::NotUnderstandSoapHeader && __ptr64) __ptr64` | 1347 | Exported Function
-`public: class PacketParser::Fragment const & __ptr64 __cdecl PacketParser::GetFragment(void)const __ptr64` | 2335 | Exported Function
-`public: class PacketParser::Fragment & __ptr64 __cdecl PacketParser::Fragment::operator=(class PacketParser::Fragment const & __ptr64) __ptr64` | 1341 | Exported Function
-`public: class PacketParser::NotUnderstandSoapHeader & __ptr64 __cdecl PacketParser::NotUnderstandSoapHeader::operator=(class PacketParser::NotUnderstandSoapHeader const & __ptr64) __ptr64` | 1348 | Exported Function
-`public: class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> & __ptr64 __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::operator=(class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> const & __ptr64) __ptr64` | 1309 | Exported Function
-`public: class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> & __ptr64 __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::operator=(class PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64> && __ptr64) __ptr64` | 1308 | Exported Function
-`public: class PacketParser::NotUnderstandSoapHeader const & __ptr64 __cdecl PacketParser::GetNotUnderstandHeader(void)const __ptr64` | 2440 | Exported Function
-`public: class SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> > & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::GetMap(void)const __ptr64` | 2391 | Exported Function
-`public: class SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> > & __ptr64 __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::AsReference(void) __ptr64` | 1988 | Exported Function
-`public: class SafeMap<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::GetMap(void)const __ptr64` | 2415 | Exported Function
-`public: class SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> > const & __ptr64 __cdecl SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::GetMap(void)const __ptr64` | 2416 | Exported Function
-`public: class SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> > const & __ptr64 __cdecl SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::GetMap(void)const __ptr64` | 2414 | Exported Function
-`public: class SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> > & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::GetMap(void)const __ptr64` | 2389 | Exported Function
-`public: class SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> > & __ptr64 __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::AsReference(void) __ptr64` | 1987 | Exported Function
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const __ptr64` | 2388 | Exported Function
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64 __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void) __ptr64` | 1986 | Exported Function
-`public: class SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2406 | Exported Function
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __ptr64 __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const __ptr64` | 2413 | Exported Function
-`public: class SafeMap<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,struct Empty>::GetMap(void)const __ptr64` | 2390 | Exported Function
-`public: class SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2407 | Exported Function
-`public: class SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2382 | Exported Function
-`public: class SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> > & __ptr64 __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::AsReference(void) __ptr64` | 1983 | Exported Function
-`public: class SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::GetMap(void)const __ptr64` | 2419 | Exported Function
-`public: class SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::GetMap(void)const __ptr64` | 2394 | Exported Function
-`public: class SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> > & __ptr64 __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::GetMap(void)const __ptr64` | 2384 | Exported Function
-`public: class SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::GetMap(void)const __ptr64` | 2385 | Exported Function
-`public: class SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> > & __ptr64 __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::AsReference(void) __ptr64` | 1984 | Exported Function
-`public: class SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> > const & __ptr64 __cdecl SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::GetMap(void)const __ptr64` | 2409 | Exported Function
-`public: class SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::GetMap(void)const __ptr64` | 2417 | Exported Function
-`public: class SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::GetMap(void)const __ptr64` | 2392 | Exported Function
-`public: class SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> > & __ptr64 __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::AsReference(void) __ptr64` | 1989 | Exported Function
-`public: class SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> > & __ptr64 __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::AsReference(void) __ptr64` | 1990 | Exported Function
-`public: class SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > & __ptr64 __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::AsReference(void) __ptr64` | 1991 | Exported Function
-`public: class SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::GetMap(void)const __ptr64` | 2418 | Exported Function
-`public: class SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::GetMap(void)const __ptr64` | 2393 | Exported Function
-`public: class SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2381 | Exported Function
-`public: class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2398 | Exported Function
-`public: class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2373 | Exported Function
-`public: class SafeMap<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::GetMap(void)const __ptr64` | 2397 | Exported Function
-`public: class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> > & __ptr64 __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::AsReference(void) __ptr64` | 1980 | Exported Function
-`public: class SafeMap<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64>::GetMap(void)const __ptr64` | 2375 | Exported Function
-`public: class SafeMap<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::GetMap(void)const __ptr64` | 2399 | Exported Function
-`public: class SafeMap<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64>::GetMap(void)const __ptr64` | 2374 | Exported Function
-`public: class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> > & __ptr64 __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::AsReference(void) __ptr64` | 1979 | Exported Function
-`public: class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2396 | Exported Function
-`public: class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2371 | Exported Function
-`public: class SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> > & __ptr64 __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::AsReference(void) __ptr64` | 1985 | Exported Function
-`public: class SafeMap<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64>::GetMap(void)const __ptr64` | 2372 | Exported Function
-`public: class SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> > const & __ptr64 __cdecl SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::GetMap(void)const __ptr64` | 2411 | Exported Function
-`public: class SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> > & __ptr64 __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::GetMap(void)const __ptr64` | 2386 | Exported Function
-`public: class SafeMap<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::GetMap(void)const __ptr64` | 2412 | Exported Function
-`public: class SafeMap<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64>::GetMap(void)const __ptr64` | 2387 | Exported Function
-`public: class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> > & __ptr64 __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::AsReference(void) __ptr64` | 1981 | Exported Function
-`public: class SafeMap<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class HostOperation * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2379 | Exported Function
-`public: class SafeMap<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2405 | Exported Function
-`public: class SafeMap<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class IOperation * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2380 | Exported Function
-`public: class SafeMap<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2404 | Exported Function
-`public: class SafeMap<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::GetMap(void)const __ptr64` | 2401 | Exported Function
-`public: class SafeMap<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> > & __ptr64 __cdecl SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64>::GetMap(void)const __ptr64` | 2376 | Exported Function
-`public: class SafeMap<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> > const & __ptr64 __cdecl SafeMap_Lock<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::GetMap(void)const __ptr64` | 2400 | Exported Function
-`public: class SafeMap<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class Collector * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2378 | Exported Function
-`public: class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2402 | Exported Function
-`public: class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> > & __ptr64 __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::GetMap(void)const __ptr64` | 2377 | Exported Function
-`public: class SafeMap<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> > const & __ptr64 __cdecl SafeMap_Lock<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::GetMap(void)const __ptr64` | 2403 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::operator!(void)const __ptr64` | 1375 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::operator!(void)const __ptr64` | 1374 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::operator!(void)const __ptr64` | 1373 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::operator!(void)const __ptr64` | 1367 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::operator!(void)const __ptr64` | 1376 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::operator!(void)const __ptr64` | 1369 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::operator!(void)const __ptr64` | 1368 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::operator!(void)const __ptr64` | 1411 | Exported Function
-`public: __int64 __cdecl UserRecord::GetProfileHandle(void) __ptr64` | 2471 | Exported Function
+`GetCurrentSettings` | 2307 | Exported Function
+`operator` | 1723 | Exported Function
+`Detach` | 2188 | Exported Function
+`Storage` | 3419 | Exported Function
+`Detach` | 2183 | Exported Function
+`operator` | 1629 | Exported Function
+`Detach` | 2124 | Exported Function
+`operator` | 1761 | Exported Function
+`operator` | 1628 | Exported Function
+`Detach` | 2123 | Exported Function
+`Storage` | 3420 | Exported Function
+`operator` | 1722 | Exported Function
+`operator` | 1721 | Exported Function
+`Detach` | 2187 | Exported Function
+`operator` | 1630 | Exported Function
+`Detach` | 2125 | Exported Function
+`operator` | 1719 | Exported Function
+`operator` | 1720 | Exported Function
+`Detach` | 2128 | Exported Function
+`Storage` | 3422 | Exported Function
+`Storage` | 3381 | Exported Function
+`Detach` | 2184 | Exported Function
+`operator` | 1716 | Exported Function
+`operator` | 1715 | Exported Function
+`operator` | 1717 | Exported Function
+`Detach` | 2186 | Exported Function
+`operator` | 1718 | Exported Function
+`Detach` | 2185 | Exported Function
+`operator` | 1420 | Exported Function
+`operator` | 1709 | Exported Function
+`Detach` | 2180 | Exported Function
+`operator` | 1632 | Exported Function
+`operator` | 1710 | Exported Function
+`Detach` | 2117 | Exported Function
+`operator` | 1711 | Exported Function
+`Detach` | 2181 | Exported Function
+`operator` | 1626 | Exported Function
+`Detach` | 2121 | Exported Function
+`operator` | 1644 | Exported Function
+`operator` | 1725 | Exported Function
+`Detach` | 2127 | Exported Function
+`operator` | 1332 | Exported Function
+`RegisterConfigChangeNotification` | 3020 | Exported Function
+`WatchForChanges` | 3499 | Exported Function
+`operator` | 1627 | Exported Function
+`Detach` | 2122 | Exported Function
+`Detach` | 2182 | Exported Function
+`operator` | 1755 | Exported Function
+`GetCurrentSettings` | 2306 | Exported Function
+`operator` | 1714 | Exported Function
+`GetInstance` | 2346 | Exported Function
+`Detach` | 2134 | Exported Function
+`GetInstance` | 2344 | Exported Function
+`Detach` | 2137 | Exported Function
+`operator` | 1713 | Exported Function
+`operator` | 1712 | Exported Function
+`GetInstance` | 2349 | Exported Function
+`Detach` | 2132 | Exported Function
+`Storage` | 3383 | Exported Function
+`GetInstance` | 2347 | Exported Function
+`operator` | 1640 | Exported Function
+`Detach` | 2193 | Exported Function
+`Storage` | 3424 | Exported Function
+`operator` | 1641 | Exported Function
+`operator` | 1737 | Exported Function
+`operator` | 1343 | Exported Function
+`operator` | 1342 | Exported Function
+`operator` | 1738 | Exported Function
+`Detach` | 2135 | Exported Function
+`operator` | 1734 | Exported Function
+`Detach` | 2192 | Exported Function
+`operator` | 1346 | Exported Function
+`GetLocale` | 2365 | Exported Function
+`operator` | 1345 | Exported Function
+`GetDataLocaleHelper` | 2311 | Exported Function
+`Detach` | 2140 | Exported Function
+`Key` | 2687 | Exported Function
+`GetLocaleHelper` | 2367 | Exported Function
+`Storage` | 3384 | Exported Function
+`operator` | 1736 | Exported Function
+`operator` | 1735 | Exported Function
+`Detach` | 2133 | Exported Function
+`operator` | 1344 | Exported Function
+`operator` | 1643 | Exported Function
+`operator` | 1642 | Exported Function
+`operator` | 1639 | Exported Function
+`operator` | 1753 | Exported Function
+`operator` | 1757 | Exported Function
+`operator` | 1335 | Exported Function
+`operator` | 1423 | Exported Function
+`operator` | 1336 | Exported Function
+`operator` | 1635 | Exported Function
+`Detach` | 2130 | Exported Function
+`Detach` | 2190 | Exported Function
+`operator` | 1634 | Exported Function
+`operator` | 1633 | Exported Function
+`operator` | 1730 | Exported Function
+`operator` | 1334 | Exported Function
+`operator` | 1333 | Exported Function
+`operator` | 1731 | Exported Function
+`operator` | 1732 | Exported Function
+`Detach` | 2191 | Exported Function
+`operator` | 1638 | Exported Function
+`operator` | 1733 | Exported Function
+`operator` | 1612 | Exported Function
+`Detach` | 2113 | Exported Function
+`operator` | 1636 | Exported Function
+`operator` | 1339 | Exported Function
+`operator` | 1338 | Exported Function
+`operator` | 1337 | Exported Function
+`Storage` | 3382 | Exported Function
+`operator` | 1637 | Exported Function
+`Detach` | 2131 | Exported Function
+`Storage` | 3423 | Exported Function
+`operator` | 1708 | Exported Function
+`operator` | 1294 | Exported Function
+`operator` | 1192 | Exported Function
+`operator` | 1293 | Exported Function
+`operator` | 1193 | Exported Function
+`operator` | 1298 | Exported Function
+`operator` | 1196 | Exported Function
+`operator` | 1295 | Exported Function
+`operator` | 1194 | Exported Function
+`operator` | 1292 | Exported Function
+`operator` | 1190 | Exported Function
+`operator` | 1296 | Exported Function
+`operator` | 1191 | Exported Function
+`operator` | 1297 | Exported Function
+`operator` | 1195 | Exported Function
+`operator` | 1303 | Exported Function
+`operator` | 1201 | Exported Function
+`operator` | 1301 | Exported Function
+`Application` | 1179 | Exported Function
+`operator` | 1304 | Exported Function
+`operator` | 1202 | Exported Function
+`Application` | 1281 | Exported Function
+`operator` | 1200 | Exported Function
+`operator` | 1299 | Exported Function
+`operator` | 1197 | Exported Function
+`operator` | 1302 | Exported Function
+`operator` | 1199 | Exported Function
+`operator` | 1300 | Exported Function
+`operator` | 1198 | Exported Function
+`operator` | 1291 | Exported Function
+`CConfigCacheMap` | 1183 | Exported Function
+`operator` | 1328 | Exported Function
+`operator` | 1217 | Exported Function
+`CConfigCacheMap` | 1285 | Exported Function
+`operator` | 1181 | Exported Function
+`operator` | 1282 | Exported Function
+`operator` | 1180 | Exported Function
+`operator` | 1325 | Exported Function
+`operator` | 1214 | Exported Function
+`operator` | 1267 | Exported Function
+`operator` | 1215 | Exported Function
+`operator` | 1327 | Exported Function
+`operator` | 1216 | Exported Function
+`operator` | 1326 | Exported Function
+`operator` | 1187 | Exported Function
+`operator` | 1288 | Exported Function
+`operator` | 1186 | Exported Function
+`operator` | 1289 | Exported Function
+`operator` | 1189 | Exported Function
+`operator` | 1290 | Exported Function
+`operator` | 1188 | Exported Function
+`operator` | 1284 | Exported Function
+`operator` | 1182 | Exported Function
+`operator` | 1283 | Exported Function
+`operator` | 1184 | Exported Function
+`operator` | 1287 | Exported Function
+`operator` | 1185 | Exported Function
+`operator` | 1286 | Exported Function
+`operator` | 1623 | Exported Function
+`Detach` | 2119 | Exported Function
+`operator` | 1649 | Exported Function
+`Detach` | 2176 | Exported Function
+`Detach` | 2120 | Exported Function
+`operator` | 1706 | Exported Function
+`operator` | 1704 | Exported Function
+`operator` | 1330 | Exported Function
+`operator` | 1219 | Exported Function
+`operator` | 1329 | Exported Function
+`operator` | 1419 | Exported Function
+`Detach` | 2141 | Exported Function
+`operator` | 1622 | Exported Function
+`Detach` | 2118 | Exported Function
+`Detach` | 2126 | Exported Function
+`operator` | 1707 | Exported Function
+`Detach` | 2179 | Exported Function
+`operator` | 1631 | Exported Function
+`operator` | 1754 | Exported Function
+`operator` | 1760 | Exported Function
+`operator` | 1331 | Exported Function
+`Detach` | 2177 | Exported Function
+`operator` | 1759 | Exported Function
+`operator` | 1624 | Exported Function
+`operator` | 1705 | Exported Function
+`operator` | 1625 | Exported Function
+`Detach` | 2178 | Exported Function
+`GetCurrentSettings` | 2305 | Exported Function
+`operator` | 1218 | Exported Function
+`operator` | 1272 | Exported Function
+`operator` | 1170 | Exported Function
+`operator` | 1271 | Exported Function
+`operator` | 1171 | Exported Function
+`operator` | 1274 | Exported Function
+`operator` | 1172 | Exported Function
+`operator` | 1273 | Exported Function
+`operator` | 1167 | Exported Function
+`operator` | 1268 | Exported Function
+`operator` | 1166 | Exported Function
+`operator` | 1269 | Exported Function
+`operator` | 1169 | Exported Function
+`operator` | 1270 | Exported Function
+`operator` | 1168 | Exported Function
+`operator` | 1279 | Exported Function
+`operator` | 1177 | Exported Function
+`operator` | 1278 | Exported Function
+`operator` | 1178 | Exported Function
+`Shell` | 1305 | Exported Function
+`Shell` | 1203 | Exported Function
+`operator` | 1280 | Exported Function
+`operator` | 1174 | Exported Function
+`operator` | 1275 | Exported Function
+`operator` | 1173 | Exported Function
+`operator` | 1276 | Exported Function
+`operator` | 1176 | Exported Function
+`operator` | 1277 | Exported Function
+`operator` | 1175 | Exported Function
+`GetInstance` | 2351 | Exported Function
+`operator` | 1618 | Exported Function
+`Detach` | 2116 | Exported Function
+`operator` | 1356 | Exported Function
+`operator` | 1619 | Exported Function
+`Key` | 2689 | Exported Function
+`operator` | 1620 | Exported Function
+`operator` | 1621 | Exported Function
+`Detach` | 2143 | Exported Function
+`operator` | 1651 | Exported Function
+`Detach` | 2142 | Exported Function
+`GetInstance` | 2352 | Exported Function
+`operator` | 1314 | Exported Function
+`GetInstance` | 2353 | Exported Function
+`Detach` | 2144 | Exported Function
+`operator` | 1654 | Exported Function
+`operator` | 1653 | Exported Function
+`Detach` | 2146 | Exported Function
+`operator` | 1655 | Exported Function
+`operator` | 1357 | Exported Function
+`GetInstance` | 2355 | Exported Function
+`Detach` | 2147 | Exported Function
+`Key` | 2685 | Exported Function
+`Key` | 2686 | Exported Function
+`Key` | 2688 | Exported Function
+`operator` | 1652 | Exported Function
+`Storage` | 3386 | Exported Function
+`GetInstance` | 2354 | Exported Function
+`Detach` | 2145 | Exported Function
+`operator` | 1424 | Exported Function
+`Initialize` | 2584 | Exported Function
+`Initialize` | 2586 | Exported Function
+`GetDestructorIter` | 2315 | Exported Function
+`Initialize` | 2585 | Exported Function
+`GetDestructorIter` | 2316 | Exported Function
+`operator` | 1613 | Exported Function
+`Initialize` | 2587 | Exported Function
+`GetMap` | 2420 | Exported Function
+`GetMap` | 2395 | Exported Function
+`AsReference` | 1992 | Exported Function
+`GetMap` | 2383 | Exported Function
+`Initialize` | 2583 | Exported Function
+`AsReference` | 1982 | Exported Function
+`GetMap` | 2408 | Exported Function
+`operator` | 1617 | Exported Function
+`GetDestructorIter` | 2313 | Exported Function
+`operator` | 1616 | Exported Function
+`GetDestructorIter` | 2314 | Exported Function
+`ParseEvent` | 2899 | Exported Function
+`operator` | 1353 | Exported Function
+`operator` | 1352 | Exported Function
+`Initialize` | 2589 | Exported Function
+`GetDestructorIter` | 2317 | Exported Function
+`Initialize` | 2588 | Exported Function
+`operator` | 1614 | Exported Function
+`Detach` | 2115 | Exported Function
+`operator` | 1615 | Exported Function
+`Detach` | 2114 | Exported Function
+`Storage` | 3388 | Exported Function
+`GetInstance` | 2356 | Exported Function
+`Detach` | 2148 | Exported Function
+`Detach` | 2150 | Exported Function
+`GetBomIndex` | 2270 | Exported Function
+`GetFormatterMode` | 2334 | Exported Function
+`operator` | 1659 | Exported Function
+`operator` | 1744 | Exported Function
+`Detach` | 2197 | Exported Function
+`Storage` | 3428 | Exported Function
+`Detach` | 2129 | Exported Function
+`operator` | 1746 | Exported Function
+`operator` | 1656 | Exported Function
+`GetInstance` | 2345 | Exported Function
+`GetInt` | 2357 | Exported Function
+`GetCurrentTableIdentity` | 2309 | Exported Function
+`GetCurrentShellUriIdentity` | 2308 | Exported Function
+`GetSecurityDescriptor` | 2484 | Exported Function
+`HandleAutoConfiguredListener` | 2526 | Exported Function
+`GetString` | 2501 | Exported Function
+`GetSetting` | 2491 | Exported Function
+`GetUserAdministratorType` | 2514 | Exported Function
+`GetFormat` | 2333 | Exported Function
+`GetCharset` | 2287 | Exported Function
+`GetBool` | 2272 | Exported Function
+`GetCurrentListenerIdentity` | 2303 | Exported Function
+`GetCurrentCertMappingIdentity` | 2302 | Exported Function
+`GetConfigXml` | 2300 | Exported Function
+`operator` | 1743 | Exported Function
+`operator` | 1724 | Exported Function
+`Detach` | 2189 | Exported Function
+`Storage` | 3421 | Exported Function
+`operator` | 1726 | Exported Function
+`operator` | 1729 | Exported Function
+`operator` | 1728 | Exported Function
+`operator` | 1727 | Exported Function
+`Storage` | 3387 | Exported Function
+`operator` | 1745 | Exported Function
+`operator` | 1358 | Exported Function
+`Detach` | 2149 | Exported Function
+`Detach` | 2175 | Exported Function
+`operator` | 1658 | Exported Function
+`operator` | 1657 | Exported Function
+`Detach` | 2139 | Exported Function
+`operator` | 1425 | Exported Function
+`operator` | 1758 | Exported Function
+`operator` | 1645 | Exported Function
+`operator` | 1742 | Exported Function
+`Detach` | 2196 | Exported Function
+`Storage` | 3427 | Exported Function
+`operator` | 1739 | Exported Function
+`Detach` | 2194 | Exported Function
+`Storage` | 3425 | Exported Function
+`operator` | 1740 | Exported Function
+`operator` | 1741 | Exported Function
+`Detach` | 2195 | Exported Function
+`Storage` | 3426 | Exported Function
+`GetMap` | 2410 | Exported Function
+`GetOperationId` | 2455 | Exported Function
+`GetMessageId` | 2430 | Exported Function
+`GetMachineId` | 2370 | Exported Function
+`GetRequestedDataLocale` | 2479 | Exported Function
+`GetSessionId` | 2488 | Exported Function
+`GetResourceUri` | 2481 | Exported Function
+`GetRequestedLocale` | 2480 | Exported Function
+`PacketElement` | 1310 | Exported Function
+`GetTimeout` | 2508 | Exported Function
+`GetMaxEnvelopeSize` | 2424 | Exported Function
+`PacketElement` | 1311 | Exported Function
+`GetLocale` | 2366 | Exported Function
+`GetDataLocale` | 2310 | Exported Function
+`GetAction` | 2266 | Exported Function
+`GetQuotaRecord` | 2473 | Exported Function
+`GetPacketPool` | 2464 | Exported Function
+`SessionId` | 1355 | Exported Function
+`operator` | 1351 | Exported Function
+`operator` | 1648 | Exported Function
+`operator` | 1650 | Exported Function
+`operator` | 1426 | Exported Function
+`GetSubscriptionId` | 2506 | Exported Function
+`GetSourceSubscriptionId` | 2497 | Exported Function
+`GetShellCompressionType` | 2492 | Exported Function
+`GetTo` | 2509 | Exported Function
+`SessionId` | 1354 | Exported Function
+`GetReplyToXml` | 2478 | Exported Function
+`GetFaultToXml` | 2325 | Exported Function
+`PacketElement` | 1307 | Exported Function
+`operator` | 1646 | Exported Function
+`Storage` | 3385 | Exported Function
+`GetRemainderPacket` | 2477 | Exported Function
+`operator` | 1349 | Exported Function
+`Fragment` | 1340 | Exported Function
+`operator` | 1647 | Exported Function
+`operator` | 1350 | Exported Function
+`Detach` | 2138 | Exported Function
+`GetInstance` | 2348 | Exported Function
+`Detach` | 2136 | Exported Function
+`GetInstance` | 2350 | Exported Function
+`GetPacket` | 2463 | Exported Function
+`Detach` | 2161 | Exported Function
+`Storage` | 3398 | Exported Function
+`GetSelectorSetXml` | 2485 | Exported Function
+`GetOptionsSetXml` | 2461 | Exported Function
+`GetBookmarkXml` | 2271 | Exported Function
+`PacketElement` | 1312 | Exported Function
+`PacketElement` | 1306 | Exported Function
+`GetSequenceId` | 2486 | Exported Function
+`PacketElement` | 1313 | Exported Function
+`NotUnderstandSoapHeader` | 1347 | Exported Function
+`GetFragment` | 2335 | Exported Function
+`Fragment` | 1341 | Exported Function
+`NotUnderstandSoapHeader` | 1348 | Exported Function
+`PacketElement` | 1309 | Exported Function
+`PacketElement` | 1308 | Exported Function
+`GetNotUnderstandHeader` | 2440 | Exported Function
+`GetMap` | 2391 | Exported Function
+`AsReference` | 1988 | Exported Function
+`GetMap` | 2415 | Exported Function
+`GetMap` | 2416 | Exported Function
+`GetMap` | 2414 | Exported Function
+`GetMap` | 2389 | Exported Function
+`AsReference` | 1987 | Exported Function
+`GetMap` | 2388 | Exported Function
+`AsReference` | 1986 | Exported Function
+`GetMap` | 2406 | Exported Function
+`GetMap` | 2413 | Exported Function
+`GetMap` | 2390 | Exported Function
+`GetMap` | 2407 | Exported Function
+`GetMap` | 2382 | Exported Function
+`AsReference` | 1983 | Exported Function
+`GetMap` | 2419 | Exported Function
+`GetMap` | 2394 | Exported Function
+`GetMap` | 2384 | Exported Function
+`GetMap` | 2385 | Exported Function
+`AsReference` | 1984 | Exported Function
+`GetMap` | 2409 | Exported Function
+`GetMap` | 2417 | Exported Function
+`GetMap` | 2392 | Exported Function
+`AsReference` | 1989 | Exported Function
+`AsReference` | 1990 | Exported Function
+`AsReference` | 1991 | Exported Function
+`GetMap` | 2418 | Exported Function
+`GetMap` | 2393 | Exported Function
+`GetMap` | 2381 | Exported Function
+`GetMap` | 2398 | Exported Function
+`GetMap` | 2373 | Exported Function
+`GetMap` | 2397 | Exported Function
+`AsReference` | 1980 | Exported Function
+`GetMap` | 2375 | Exported Function
+`GetMap` | 2399 | Exported Function
+`GetMap` | 2374 | Exported Function
+`AsReference` | 1979 | Exported Function
+`GetMap` | 2396 | Exported Function
+`GetMap` | 2371 | Exported Function
+`AsReference` | 1985 | Exported Function
+`GetMap` | 2372 | Exported Function
+`GetMap` | 2411 | Exported Function
+`GetMap` | 2386 | Exported Function
+`GetMap` | 2412 | Exported Function
+`GetMap` | 2387 | Exported Function
+`AsReference` | 1981 | Exported Function
+`GetMap` | 2379 | Exported Function
+`GetMap` | 2405 | Exported Function
+`GetMap` | 2380 | Exported Function
+`GetMap` | 2404 | Exported Function
+`GetMap` | 2401 | Exported Function
+`GetMap` | 2376 | Exported Function
+`GetMap` | 2400 | Exported Function
+`GetMap` | 2378 | Exported Function
+`GetMap` | 2402 | Exported Function
+`GetMap` | 2377 | Exported Function
+`GetMap` | 2403 | Exported Function
+`operator` | 1375 | Exported Function
+`operator` | 1374 | Exported Function
+`operator` | 1373 | Exported Function
+`operator` | 1367 | Exported Function
+`operator` | 1376 | Exported Function
+`operator` | 1369 | Exported Function
+`operator` | 1368 | Exported Function
+`operator` | 1411 | Exported Function
+`GetProfileHandle` | 2471 | Exported Function
 `public: __cdecl XmlReader::~XmlReader(void) __ptr64` | 1117 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::operator!(void)const __ptr64` | 1412 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator!(void)const __ptr64` | 1372 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator!(void)const __ptr64` | 1371 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::operator!(void)const __ptr64` | 1370 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::operator!(void)const __ptr64` | 1381 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::operator!(void)const __ptr64` | 1383 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::operator!(void)const __ptr64` | 1382 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::operator!(void)const __ptr64` | 1386 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::operator!(void)const __ptr64` | 1415 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::operator!(void)const __ptr64` | 1414 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::operator!(void)const __ptr64` | 1413 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::operator!(void)const __ptr64` | 1366 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::operator!(void)const __ptr64` | 1378 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::operator!(void)const __ptr64` | 1377 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::operator!(void)const __ptr64` | 1379 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::operator!(void)const __ptr64` | 1380 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::operator!(void)const __ptr64` | 1385 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::operator!(void)const __ptr64` | 1384 | Exported Function
-`public: __cdecl XmlReader::XmlReader(void) __ptr64` | 587 | Exported Function
-`public: __cdecl SafeSet_Iterator<void * __ptr64>::SafeSet_Iterator<void * __ptr64>(class SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> > & __ptr64,bool) __ptr64` | 494 | Exported Function
+`operator` | 1412 | Exported Function
+`operator` | 1372 | Exported Function
+`operator` | 1371 | Exported Function
+`operator` | 1370 | Exported Function
+`operator` | 1381 | Exported Function
+`operator` | 1383 | Exported Function
+`operator` | 1382 | Exported Function
+`operator` | 1386 | Exported Function
+`operator` | 1415 | Exported Function
+`operator` | 1414 | Exported Function
+`operator` | 1413 | Exported Function
+`operator` | 1366 | Exported Function
+`operator` | 1378 | Exported Function
+`operator` | 1377 | Exported Function
+`operator` | 1379 | Exported Function
+`operator` | 1380 | Exported Function
+`operator` | 1385 | Exported Function
+`operator` | 1384 | Exported Function
+`XmlReader` | 587 | Exported Function
+`SafeSet_Iterator` | 494 | Exported Function
 `public: __cdecl SafeSet_Iterator<class StringKeyCI>::~SafeSet_Iterator<class StringKeyCI>(void) __ptr64` | 1059 | Exported Function
 `public: __cdecl SafeSet_Iterator<class PushSubscription * __ptr64>::~SafeSet_Iterator<class PushSubscription * __ptr64>(void) __ptr64` | 1057 | Exported Function
 `public: __cdecl SafeSet_Iterator<void * __ptr64>::~SafeSet_Iterator<void * __ptr64>(void) __ptr64` | 1058 | Exported Function
-`public: __cdecl ShareLock::ShareLock(class FastLock & __ptr64) __ptr64` | 580 | Exported Function
+`ShareLock` | 580 | Exported Function
 `public: __cdecl SBUFFER::~SBUFFER(void) __ptr64` | 1112 | Exported Function
-`public: __cdecl SBUFFER::SBUFFER(void) __ptr64` | 578 | Exported Function
-`public: __cdecl SafeSet_Iterator<class CShellUriSettings * __ptr64>::SafeSet_Iterator<class CShellUriSettings * __ptr64>(class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> > & __ptr64,bool) __ptr64` | 493 | Exported Function
+`SBUFFER` | 578 | Exported Function
+`SafeSet_Iterator` | 493 | Exported Function
 `public: __cdecl SafeSet_Iterator<class Collector * __ptr64>::~SafeSet_Iterator<class Collector * __ptr64>(void) __ptr64` | 1053 | Exported Function
 `public: __cdecl SafeSet_Iterator<class CListenerOperation * __ptr64>::~SafeSet_Iterator<class CListenerOperation * __ptr64>(void) __ptr64` | 1051 | Exported Function
 `public: __cdecl SafeSet_Iterator<class CShellUriSettings * __ptr64>::~SafeSet_Iterator<class CShellUriSettings * __ptr64>(void) __ptr64` | 1052 | Exported Function
 `public: __cdecl SafeSet_Iterator<class ListenerSourceSubscription * __ptr64>::~SafeSet_Iterator<class ListenerSourceSubscription * __ptr64>(void) __ptr64` | 1056 | Exported Function
 `public: __cdecl SafeSet_Iterator<class IOperation * __ptr64>::~SafeSet_Iterator<class IOperation * __ptr64>(void) __ptr64` | 1055 | Exported Function
 `public: __cdecl SafeSet_Iterator<class HostOperation * __ptr64>::~SafeSet_Iterator<class HostOperation * __ptr64>(void) __ptr64` | 1054 | Exported Function
-`public: __cdecl UserAuthzRecord::UserAuthzRecord(void) __ptr64` | 585 | Exported Function
-`public: __cdecl UserAuthzRecord::UserAuthzRecord(class UserAuthzRecord const & __ptr64) __ptr64` | 584 | Exported Function
-`public: __cdecl UserAuthzRecord::UserAuthzRecord(class UserAuthzRecord && __ptr64) __ptr64` | 583 | Exported Function
-`public: __cdecl UserRecord::UserRecord(void) __ptr64` | 586 | Exported Function
-`public: __cdecl WSMan::EventHandler::~EventHandler(void) __ptr64` | 1099 | Exported Function
-`public: __cdecl WSMan::EventHandler::EventHandler(void) __ptr64` | 552 | Exported Function
+`UserAuthzRecord` | 585 | Exported Function
+`UserAuthzRecord` | 584 | Exported Function
+`UserAuthzRecord` | 583 | Exported Function
+`UserRecord` | 586 | Exported Function
+`EventHandler` | 1099 | Exported Function
+`EventHandler` | 552 | Exported Function
 `public: __cdecl UserRecord::~UserRecord(void) __ptr64` | 1116 | Exported Function
 `public: __cdecl SimpleQueue<union _LARGE_INTEGER>::~SimpleQueue<union _LARGE_INTEGER>(void) __ptr64` | 1060 | Exported Function
-`public: __cdecl SimpleQueue<union _LARGE_INTEGER>::SimpleQueue<union _LARGE_INTEGER>(void) __ptr64` | 495 | Exported Function
+`SimpleQueue` | 495 | Exported Function
 `public: __cdecl ShareLock::~ShareLock(void) __ptr64` | 1113 | Exported Function
-`public: __cdecl SoapSemanticConverter::SoapSemanticConverter(void) __ptr64` | 581 | Exported Function
+`SoapSemanticConverter` | 581 | Exported Function
 `public: __cdecl TSTRBUFFER::~TSTRBUFFER(void) __ptr64` | 1115 | Exported Function
-`public: __cdecl TSTRBUFFER::TSTRBUFFER(void) __ptr64` | 582 | Exported Function
+`TSTRBUFFER` | 582 | Exported Function
 `public: __cdecl SoapSemanticConverter::~SoapSemanticConverter(void) __ptr64` | 1114 | Exported Function
-`public: bool __cdecl ILoader<class IpHlpApiDllLoader>::IsEmpty(void)const __ptr64` | 2615 | Exported Function
-`public: bool __cdecl ILoader<class IpHlpApiDllLoader>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2248 | Exported Function
-`public: bool __cdecl ILoader<class CSecurity::NetworkServiceSid>::IsEmpty(void)const __ptr64` | 2617 | Exported Function
-`public: bool __cdecl ILoader<class Locale::Resources>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2252 | Exported Function
-`public: bool __cdecl ILoader<class MachineName>::IsEmpty(void)const __ptr64` | 2616 | Exported Function
-`public: bool __cdecl ILoader<class MachineName>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2249 | Exported Function
-`public: bool __cdecl ILoader<class Locale::Resources>::IsEmpty(void)const __ptr64` | 2619 | Exported Function
-`public: bool __cdecl ILoader<class CSecurity::AdminSid>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2245 | Exported Function
-`public: bool __cdecl CRequestContext::SetLocale(unsigned short const * __ptr64,unsigned long) __ptr64` | 3334 | Exported Function
-`public: bool __cdecl ChildLifeTimeManager::RegisterChild(void) __ptr64` | 3018 | Exported Function
-`public: bool __cdecl ILoader<class CSecurity::AdminSid>::IsEmpty(void)const __ptr64` | 2612 | Exported Function
-`public: bool __cdecl ILoader<class CSecurity::NetworkServiceSid>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2250 | Exported Function
-`public: bool __cdecl ILoader<class CSecurity::InteractiveSid>::IsEmpty(void)const __ptr64` | 2614 | Exported Function
-`public: bool __cdecl ILoader<class CSecurity::InteractiveSid>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2247 | Exported Function
-`public: bool __cdecl ILoader<class User32DllLoader>::IsEmpty(void)const __ptr64` | 2623 | Exported Function
-`public: bool __cdecl ILoader<class User32DllLoader>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2256 | Exported Function
-`public: bool __cdecl ILoader<class SubscriptionManager>::IsEmpty(void)const __ptr64` | 2622 | Exported Function
-`public: bool __cdecl ILoader<class WSMan::EventHandler>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2246 | Exported Function
-`public: bool __cdecl ILoader<class WSManMemCryptManager>::IsEmpty(void)const __ptr64` | 2624 | Exported Function
-`public: bool __cdecl ILoader<class WSManMemCryptManager>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2257 | Exported Function
-`public: bool __cdecl ILoader<class WSMan::EventHandler>::IsEmpty(void)const __ptr64` | 2613 | Exported Function
-`public: bool __cdecl ILoader<class Shell32DllLoader>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2253 | Exported Function
-`public: bool __cdecl ILoader<class NtDsApiDllLoader>::IsEmpty(void)const __ptr64` | 2618 | Exported Function
-`public: bool __cdecl ILoader<class NtDsApiDllLoader>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2251 | Exported Function
-`public: bool __cdecl ILoader<class Shell32DllLoader>::IsEmpty(void)const __ptr64` | 2620 | Exported Function
-`public: bool __cdecl ILoader<class SubscriptionManager>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2255 | Exported Function
-`public: bool __cdecl ILoader<class ShlWApiDllLoader>::IsEmpty(void)const __ptr64` | 2621 | Exported Function
-`public: bool __cdecl ILoader<class ShlWApiDllLoader>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2254 | Exported Function
-`public: bool __cdecl ChildLifeTimeManager::IsActive(void) __ptr64` | 2603 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator!(void)const __ptr64` | 1408 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator!(void)const __ptr64` | 1407 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::operator!(void)const __ptr64` | 1405 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::operator!(void)const __ptr64` | 1410 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::operator!(void)const __ptr64` | 1388 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::operator!(void)const __ptr64` | 1387 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::operator!(void)const __ptr64` | 1409 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::operator!(void)const __ptr64` | 1401 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::operator!(void)const __ptr64` | 1400 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::operator!(void)const __ptr64` | 1416 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::operator!(void)const __ptr64` | 1402 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::operator!(void)const __ptr64` | 1404 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::operator!(void)const __ptr64` | 1406 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::operator!(void)const __ptr64` | 1403 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::operator!(void)const __ptr64` | 1398 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::operator!(void)const __ptr64` | 1397 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::operator!(void)const __ptr64` | 1396 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::operator!(void)const __ptr64` | 1399 | Exported Function
-`public: bool __cdecl CConfigManager::IsCurrentListenerCompat(void)const __ptr64` | 2608 | Exported Function
-`public: bool __cdecl BufferFormatter::IsInCommitMode(void) __ptr64` | 2637 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::operator!(void)const __ptr64` | 1417 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::operator!(void)const __ptr64` | 1391 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::operator!(void)const __ptr64` | 1390 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::operator!(void)const __ptr64` | 1389 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::operator!(void)const __ptr64` | 1392 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::operator!(void)const __ptr64` | 1395 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::operator!(void)const __ptr64` | 1394 | Exported Function
-`public: bool __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::operator!(void)const __ptr64` | 1393 | Exported Function
-`public: __cdecl SafeSet_Iterator<class CListenerOperation * __ptr64>::SafeSet_Iterator<class CListenerOperation * __ptr64>(class SafeSet<class CListenerOperation * __ptr64> & __ptr64) __ptr64` | 492 | Exported Function
-`public: __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::~SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>(void) __ptr64` | 1008 | Exported Function
-`public: __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>(class SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > & __ptr64,bool) __ptr64` | 464 | Exported Function
-`public: __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::operator bool(void)const __ptr64` | 1610 | Exported Function
-`public: __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::SafeMap_Iterator<struct PluginKey,unsigned long>(class SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> > & __ptr64,bool) __ptr64` | 456 | Exported Function
+`IsEmpty` | 2615 | Exported Function
+`FreeInstance` | 2248 | Exported Function
+`IsEmpty` | 2617 | Exported Function
+`FreeInstance` | 2252 | Exported Function
+`IsEmpty` | 2616 | Exported Function
+`FreeInstance` | 2249 | Exported Function
+`IsEmpty` | 2619 | Exported Function
+`FreeInstance` | 2245 | Exported Function
+`SetLocale` | 3334 | Exported Function
+`RegisterChild` | 3018 | Exported Function
+`IsEmpty` | 2612 | Exported Function
+`FreeInstance` | 2250 | Exported Function
+`IsEmpty` | 2614 | Exported Function
+`FreeInstance` | 2247 | Exported Function
+`IsEmpty` | 2623 | Exported Function
+`FreeInstance` | 2256 | Exported Function
+`IsEmpty` | 2622 | Exported Function
+`FreeInstance` | 2246 | Exported Function
+`IsEmpty` | 2624 | Exported Function
+`FreeInstance` | 2257 | Exported Function
+`IsEmpty` | 2613 | Exported Function
+`FreeInstance` | 2253 | Exported Function
+`IsEmpty` | 2618 | Exported Function
+`FreeInstance` | 2251 | Exported Function
+`IsEmpty` | 2620 | Exported Function
+`FreeInstance` | 2255 | Exported Function
+`IsEmpty` | 2621 | Exported Function
+`FreeInstance` | 2254 | Exported Function
+`IsActive` | 2603 | Exported Function
+`operator` | 1408 | Exported Function
+`operator` | 1407 | Exported Function
+`operator` | 1405 | Exported Function
+`operator` | 1410 | Exported Function
+`operator` | 1388 | Exported Function
+`operator` | 1387 | Exported Function
+`operator` | 1409 | Exported Function
+`operator` | 1401 | Exported Function
+`operator` | 1400 | Exported Function
+`operator` | 1416 | Exported Function
+`operator` | 1402 | Exported Function
+`operator` | 1404 | Exported Function
+`operator` | 1406 | Exported Function
+`operator` | 1403 | Exported Function
+`operator` | 1398 | Exported Function
+`operator` | 1397 | Exported Function
+`operator` | 1396 | Exported Function
+`operator` | 1399 | Exported Function
+`IsCurrentListenerCompat` | 2608 | Exported Function
+`IsInCommitMode` | 2637 | Exported Function
+`operator` | 1417 | Exported Function
+`operator` | 1391 | Exported Function
+`operator` | 1390 | Exported Function
+`operator` | 1389 | Exported Function
+`operator` | 1392 | Exported Function
+`operator` | 1395 | Exported Function
+`operator` | 1394 | Exported Function
+`operator` | 1393 | Exported Function
+`SafeSet_Iterator` | 492 | Exported Function
+`OptionValue` | 1008 | Exported Function
+`OptionValue` | 464 | Exported Function
+`operator` | 1610 | Exported Function
+`SafeMap_Iterator` | 456 | Exported Function
 `public: __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::~SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>(void) __ptr64` | 999 | Exported Function
-`public: __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>(class SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> > & __ptr64,bool) __ptr64` | 457 | Exported Function
+`SafeMap_Iterator` | 457 | Exported Function
 `public: __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::~SafeMap_Iterator<struct PluginKey,unsigned long>(void) __ptr64` | 998 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::operator bool(void)const __ptr64` | 1609 | Exported Function
+`operator` | 1609 | Exported Function
 `public: __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::~SafeMap_Iterator<class StringKeyCI,unsigned long>(void) __ptr64` | 1003 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::SafeMap_Iterator<class StringKeyCI,unsigned long>(class SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> > & __ptr64,bool) __ptr64` | 460 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>(class SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> > & __ptr64,bool) __ptr64` | 462 | Exported Function
+`SafeMap_Iterator` | 460 | Exported Function
+`SafeMap_Iterator` | 462 | Exported Function
 `public: __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::~SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>(void) __ptr64` | 1007 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>(class SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> > & __ptr64,bool) __ptr64` | 463 | Exported Function
+`SafeMap_Iterator` | 463 | Exported Function
 `public: __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::~SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>(void) __ptr64` | 1006 | Exported Function
-`public: __cdecl SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::~SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >(void) __ptr64` | 1029 | Exported Function
-`public: __cdecl SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >(class SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> > const & __ptr64,bool) __ptr64` | 476 | Exported Function
+`CertThumbprintMappedSet` | 1029 | Exported Function
+`CertThumbprintMappedSet` | 476 | Exported Function
 `public: __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::~SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >(void) __ptr64` | 1011 | Exported Function
 `public: __cdecl SafeMap_Lock<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::~SafeMap_Lock<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >(void) __ptr64` | 1012 | Exported Function
-`public: __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >(class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> > const & __ptr64,bool) __ptr64` | 469 | Exported Function
+`SafeMap_Lock` | 469 | Exported Function
 `public: __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::~SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >(void) __ptr64` | 1013 | Exported Function
-`public: __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >(class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> > const & __ptr64,bool) __ptr64` | 468 | Exported Function
-`public: __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::SafeMap_Iterator<void * __ptr64,struct Empty>(class SafeMap<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> > & __ptr64,bool) __ptr64` | 455 | Exported Function
-`public: __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::~SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>(void) __ptr64` | 1009 | Exported Function
-`public: __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>(class SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> > & __ptr64,bool) __ptr64` | 465 | Exported Function
+`SafeMap_Lock` | 468 | Exported Function
+`SafeMap_Iterator` | 455 | Exported Function
+`SendPacketArgs` | 1009 | Exported Function
+`SendPacketArgs` | 465 | Exported Function
 `public: __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::~SafeMap_Iterator<void * __ptr64,struct Empty>(void) __ptr64` | 997 | Exported Function
-`public: __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >(class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> > const & __ptr64,bool) __ptr64` | 467 | Exported Function
+`SafeMap_Lock` | 467 | Exported Function
 `public: __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::~SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >(void) __ptr64` | 1010 | Exported Function
-`public: __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >(class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> > const & __ptr64,bool) __ptr64` | 466 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::operator bool(void)const __ptr64` | 1607 | Exported Function
+`SafeMap_Lock` | 466 | Exported Function
+`operator` | 1607 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64>::~SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64>(void) __ptr64` | 988 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::~SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>(void) __ptr64` | 987 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>(class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> > & __ptr64,bool) __ptr64` | 453 | Exported Function
+`SafeMap_Iterator` | 453 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64>::~SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64>(void) __ptr64` | 989 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::operator bool(void)const __ptr64` | 1604 | Exported Function
+`operator` | 1604 | Exported Function
 `public: __cdecl SafeMap_Iterator<class Collector * __ptr64,struct Empty>::~SafeMap_Iterator<class Collector * __ptr64,struct Empty>(void) __ptr64` | 992 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64>::~SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64>(void) __ptr64` | 990 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::operator bool(void)const __ptr64` | 1605 | Exported Function
+`operator` | 1605 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::~SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>(void) __ptr64` | 985 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>(class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> > & __ptr64,bool) __ptr64` | 452 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>(class SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> > & __ptr64,bool) __ptr64` | 458 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::operator bool(void)const __ptr64` | 1603 | Exported Function
+`SafeMap_Iterator` | 452 | Exported Function
+`CertThumbprintMappedSet` | 458 | Exported Function
+`operator` | 1603 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64>::~SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64>(void) __ptr64` | 986 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::~SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>(void) __ptr64` | 1000 | Exported Function
+`CertThumbprintMappedSet` | 1000 | Exported Function
 `public: __cdecl SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty>::~SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty>(void) __ptr64` | 996 | Exported Function
-`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void) __ptr64` | 1002 | Exported Function
-`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64,bool) __ptr64` | 459 | Exported Function
+`Key` | 1002 | Exported Function
+`Key` | 459 | Exported Function
 `public: __cdecl SafeMap_Iterator<class StringKeyCI,struct Empty>::~SafeMap_Iterator<class StringKeyCI,struct Empty>(void) __ptr64` | 1004 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::~SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>(void) __ptr64` | 1005 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>(class SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> > & __ptr64,bool) __ptr64` | 461 | Exported Function
-`public: __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::operator bool(void)const __ptr64` | 1608 | Exported Function
+`USER_CONTEXT_INFO` | 1005 | Exported Function
+`USER_CONTEXT_INFO` | 461 | Exported Function
+`operator` | 1608 | Exported Function
 `public: __cdecl SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64>::~SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64>(void) __ptr64` | 1001 | Exported Function
 `public: __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::~SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>(void) __ptr64` | 991 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>(class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> > & __ptr64,bool) __ptr64` | 454 | Exported Function
+`SafeMap_Iterator` | 454 | Exported Function
 `public: __cdecl SafeMap_Iterator<class HostOperation * __ptr64,struct Empty>::~SafeMap_Iterator<class HostOperation * __ptr64,struct Empty>(void) __ptr64` | 993 | Exported Function
-`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::operator bool(void)const __ptr64` | 1606 | Exported Function
+`operator` | 1606 | Exported Function
 `public: __cdecl SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty>::~SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty>(void) __ptr64` | 995 | Exported Function
 `public: __cdecl SafeMap_Iterator<class IOperation * __ptr64,struct Empty>::~SafeMap_Iterator<class IOperation * __ptr64,struct Empty>(void) __ptr64` | 994 | Exported Function
 `public: __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::~SafeMap_Lock<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >(void) __ptr64` | 1026 | Exported Function
-`public: __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::SafeMap_Lock<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >(class SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> > const & __ptr64,bool) __ptr64` | 473 | Exported Function
+`SafeMap_Lock` | 473 | Exported Function
 `public: __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >::~SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >(void) __ptr64` | 1025 | Exported Function
-`public: __cdecl SafeSet<class CCertMapping * __ptr64>::SafeSet<class CCertMapping * __ptr64>(void) __ptr64` | 485 | Exported Function
+`SafeSet` | 485 | Exported Function
 `public: __cdecl SafeSet<class CListenerOperation * __ptr64>::~SafeSet<class CListenerOperation * __ptr64>(void) __ptr64` | 1041 | Exported Function
-`public: __cdecl SafeSet<class CListenerOperation * __ptr64>::SafeSet<class CListenerOperation * __ptr64>(void) __ptr64` | 486 | Exported Function
+`SafeSet` | 486 | Exported Function
 `public: __cdecl SafeSet<class CCertMapping * __ptr64>::~SafeSet<class CCertMapping * __ptr64>(void) __ptr64` | 1040 | Exported Function
-`public: __cdecl SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >(class SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> > const & __ptr64,bool) __ptr64` | 475 | Exported Function
+`SafeMap_Lock` | 475 | Exported Function
 `public: __cdecl SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::~SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >(void) __ptr64` | 1027 | Exported Function
-`public: __cdecl SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >(class SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> > const & __ptr64,bool) __ptr64` | 474 | Exported Function
+`SafeMap_Lock` | 474 | Exported Function
 `public: __cdecl SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::~SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >(void) __ptr64` | 1028 | Exported Function
-`public: __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >::SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >(class SafeMap<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> > const & __ptr64,bool) __ptr64` | 472 | Exported Function
-`public: __cdecl SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::~SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >(void) __ptr64` | 1039 | Exported Function
-`public: __cdecl SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >(class SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> > const & __ptr64,bool) __ptr64` | 484 | Exported Function
+`SafeMap_Lock` | 472 | Exported Function
+`SendPacketArgs` | 1039 | Exported Function
+`SendPacketArgs` | 484 | Exported Function
 `public: __cdecl SafeSet<void * __ptr64>::~SafeSet<void * __ptr64>(void) __ptr64` | 1048 | Exported Function
-`public: __cdecl SafeSet<void * __ptr64>::SafeSet<void * __ptr64>(void) __ptr64` | 488 | Exported Function
+`SafeSet` | 488 | Exported Function
 `public: __cdecl SafeSet<class StringKeyCI>::~SafeSet<class StringKeyCI>(void) __ptr64` | 1049 | Exported Function
-`public: __cdecl SafeSet_Iterator<class CCertMapping * __ptr64>::SafeSet_Iterator<class CCertMapping * __ptr64>(class SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> > & __ptr64,bool) __ptr64` | 489 | Exported Function
-`public: __cdecl SafeSet_Iterator<class CListenerOperation * __ptr64>::SafeSet_Iterator<class CListenerOperation * __ptr64>(class SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> > & __ptr64,bool) __ptr64` | 491 | Exported Function
+`SafeSet_Iterator` | 489 | Exported Function
+`SafeSet_Iterator` | 491 | Exported Function
 `public: __cdecl SafeSet_Iterator<class CCertMapping * __ptr64>::~SafeSet_Iterator<class CCertMapping * __ptr64>(void) __ptr64` | 1050 | Exported Function
-`public: __cdecl SafeSet_Iterator<class CCertMapping * __ptr64>::SafeSet_Iterator<class CCertMapping * __ptr64>(class SafeSet<class CCertMapping * __ptr64> & __ptr64) __ptr64` | 490 | Exported Function
+`SafeSet_Iterator` | 490 | Exported Function
 `public: __cdecl SafeSet<class CShellUriSettings * __ptr64>::~SafeSet<class CShellUriSettings * __ptr64>(void) __ptr64` | 1042 | Exported Function
-`public: __cdecl SafeSet<class CShellUriSettings * __ptr64>::SafeSet<class CShellUriSettings * __ptr64>(void) __ptr64` | 487 | Exported Function
+`SafeSet` | 487 | Exported Function
 `public: __cdecl SafeSet<class Collector * __ptr64>::~SafeSet<class Collector * __ptr64>(void) __ptr64` | 1043 | Exported Function
 `public: __cdecl SafeSet<class HostOperation * __ptr64>::~SafeSet<class HostOperation * __ptr64>(void) __ptr64` | 1044 | Exported Function
 `public: __cdecl SafeSet<class PushSubscription * __ptr64>::~SafeSet<class PushSubscription * __ptr64>(void) __ptr64` | 1047 | Exported Function
 `public: __cdecl SafeSet<class ListenerSourceSubscription * __ptr64>::~SafeSet<class ListenerSourceSubscription * __ptr64>(void) __ptr64` | 1046 | Exported Function
 `public: __cdecl SafeSet<class IOperation * __ptr64>::~SafeSet<class IOperation * __ptr64>(void) __ptr64` | 1045 | Exported Function
-`public: __cdecl SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::~SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >(void) __ptr64` | 1038 | Exported Function
+`OptionValue` | 1038 | Exported Function
 `public: __cdecl SafeMap_Lock<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::~SafeMap_Lock<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >(void) __ptr64` | 1030 | Exported Function
 `public: __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::~SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >(void) __ptr64` | 1019 | Exported Function
-`public: __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >(class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> > const & __ptr64,bool) __ptr64` | 471 | Exported Function
+`SafeMap_Lock` | 471 | Exported Function
 `public: __cdecl SafeMap_Lock<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::~SafeMap_Lock<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >(void) __ptr64` | 1021 | Exported Function
-`public: __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __ptr64,bool) __ptr64` | 477 | Exported Function
+`Key` | 477 | Exported Function
 `public: __cdecl SafeMap_Lock<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::~SafeMap_Lock<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >(void) __ptr64` | 1023 | Exported Function
 `public: __cdecl SafeMap_Lock<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::~SafeMap_Lock<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >(void) __ptr64` | 1022 | Exported Function
 `public: __cdecl SafeMap_Lock<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::~SafeMap_Lock<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >(void) __ptr64` | 1016 | Exported Function
@@ -698,483 +698,483 @@ Function Name | Ordinal | Type
 `public: __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::~SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >(void) __ptr64` | 1014 | Exported Function
 `public: __cdecl SafeMap_Lock<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::~SafeMap_Lock<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >(void) __ptr64` | 1017 | Exported Function
 `public: __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >::~SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >(void) __ptr64` | 1018 | Exported Function
-`public: __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >::SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >(class SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> > const & __ptr64,bool) __ptr64` | 470 | Exported Function
+`SafeMap_Lock` | 470 | Exported Function
 `public: __cdecl SafeMap_Lock<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::~SafeMap_Lock<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >(void) __ptr64` | 1020 | Exported Function
-`public: __cdecl SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >(class SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> > const & __ptr64,bool) __ptr64` | 481 | Exported Function
+`SafeMap_Lock` | 481 | Exported Function
 `public: __cdecl SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::~SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >(void) __ptr64` | 1032 | Exported Function
-`public: __cdecl SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >(class SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> > const & __ptr64,bool) __ptr64` | 478 | Exported Function
+`SafeMap_Lock` | 478 | Exported Function
 `public: __cdecl SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::~SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >(void) __ptr64` | 1036 | Exported Function
-`public: __cdecl SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >(class SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > const & __ptr64,bool) __ptr64` | 483 | Exported Function
+`OptionValue` | 483 | Exported Function
 `public: __cdecl SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::~SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >(void) __ptr64` | 1037 | Exported Function
-`public: __cdecl SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >(class SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> > const & __ptr64,bool) __ptr64` | 482 | Exported Function
+`SafeMap_Lock` | 482 | Exported Function
 `public: __cdecl SafeMap_Lock<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::~SafeMap_Lock<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >(void) __ptr64` | 1033 | Exported Function
 `public: __cdecl SafeMap_Lock<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::~SafeMap_Lock<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >(void) __ptr64` | 1024 | Exported Function
-`public: __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 1031 | Exported Function
-`public: __cdecl SafeMap_Lock<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::SafeMap_Lock<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >(class SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> > const & __ptr64,bool) __ptr64` | 479 | Exported Function
-`public: __cdecl SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::~SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >(void) __ptr64` | 1035 | Exported Function
-`public: __cdecl SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >(class SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> > const & __ptr64,bool) __ptr64` | 480 | Exported Function
+`Key` | 1031 | Exported Function
+`SafeMap_Lock` | 479 | Exported Function
+`USER_CONTEXT_INFO` | 1035 | Exported Function
+`USER_CONTEXT_INFO` | 480 | Exported Function
 `public: __cdecl SafeMap_Lock<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::~SafeMap_Lock<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >(void) __ptr64` | 1034 | Exported Function
-`public: bool __cdecl LoaderSerializer<class SubscriptionManager,2>::FreeInstance(class IRequestContext & __ptr64,bool) __ptr64` | 2258 | Exported Function
-`public: class AutoDelete<class ISpecification> & __ptr64 __cdecl AutoDelete<class ISpecification>::operator=(class ISpecification * __ptr64) __ptr64` | 1243 | Exported Function
-`public: class AutoDelete<class ISpecification> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::operator=(class ISpecification * __ptr64) __ptr64` | 1141 | Exported Function
-`public: class AutoDelete<class IQueryDASHSMASHInterface> & __ptr64 __cdecl AutoDelete<class IQueryDASHSMASHInterface>::operator=(class IQueryDASHSMASHInterface * __ptr64) __ptr64` | 1242 | Exported Function
-`public: class AutoDelete<class PacketCreator> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::operator=(class PacketCreator * __ptr64) __ptr64` | 1142 | Exported Function
-`public: class AutoDelete<class PacketParser> & __ptr64 __cdecl AutoDelete<class PacketParser>::operator=(class PacketParser * __ptr64) __ptr64` | 1245 | Exported Function
-`public: class AutoDelete<class PacketParser> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::operator=(class PacketParser * __ptr64) __ptr64` | 1143 | Exported Function
-`public: class AutoDelete<class PacketCreator> & __ptr64 __cdecl AutoDelete<class PacketCreator>::operator=(class PacketCreator * __ptr64) __ptr64` | 1244 | Exported Function
-`public: class AutoDelete<class GPApiManager> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::operator=(class GPApiManager * __ptr64) __ptr64` | 1137 | Exported Function
-`public: class AutoDelete<class GeneralSinkEx> & __ptr64 __cdecl AutoDelete<class GeneralSinkEx>::operator=(class GeneralSinkEx * __ptr64) __ptr64` | 1240 | Exported Function
-`public: class AutoDelete<class GeneralSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator=(class GeneralSinkEx * __ptr64) __ptr64` | 1138 | Exported Function
-`public: class AutoDelete<class GPApiManager> & __ptr64 __cdecl AutoDelete<class GPApiManager>::operator=(class GPApiManager * __ptr64) __ptr64` | 1239 | Exported Function
-`public: class AutoDelete<class IQueryDASHSMASHInterface> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::operator=(class IQueryDASHSMASHInterface * __ptr64) __ptr64` | 1140 | Exported Function
-`public: class AutoDelete<class IChannelObserverFactory> & __ptr64 __cdecl AutoDelete<class IChannelObserverFactory>::operator=(class IChannelObserverFactory * __ptr64) __ptr64` | 1241 | Exported Function
-`public: class AutoDelete<class IChannelObserverFactory> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::operator=(class IChannelObserverFactory * __ptr64) __ptr64` | 1139 | Exported Function
-`public: class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> > & __ptr64 __cdecl AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >::operator=(class SafeSet<class CShellUriSettings * __ptr64> * __ptr64) __ptr64` | 1225 | Exported Function
-`public: class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::operator=(class SafeSet<class CShellUriSettings * __ptr64> * __ptr64) __ptr64` | 1123 | Exported Function
-`public: class AutoDelete<class SafeSet<class CCertMapping * __ptr64> > & __ptr64 __cdecl AutoDelete<class SafeSet<class CCertMapping * __ptr64> >::operator=(class SafeSet<class CCertMapping * __ptr64> * __ptr64) __ptr64` | 1224 | Exported Function
-`public: class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::operator=(class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64) __ptr64` | 1124 | Exported Function
-`public: class AutoDelete<class ServiceSoapProcessor> & __ptr64 __cdecl AutoDelete<class ServiceSoapProcessor>::operator=(class ServiceSoapProcessor * __ptr64) __ptr64` | 1248 | Exported Function
-`public: class AutoDelete<class ServiceSoapProcessor> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::operator=(class ServiceSoapProcessor * __ptr64) __ptr64` | 1146 | Exported Function
-`public: class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> > & __ptr64 __cdecl AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >::operator=(class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64) __ptr64` | 1226 | Exported Function
-`public: class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::operator=(class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64) __ptr64` | 1120 | Exported Function
-`public: class AutoDelete<class RunAsConfiguration> & __ptr64 __cdecl AutoDelete<class RunAsConfiguration>::operator=(class RunAsConfiguration * __ptr64) __ptr64` | 1246 | Exported Function
-`public: class AutoDelete<class RunAsConfiguration> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::operator=(class RunAsConfiguration * __ptr64) __ptr64` | 1144 | Exported Function
-`public: class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> > & __ptr64 __cdecl AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >::operator=(class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64) __ptr64` | 1222 | Exported Function
-`public: class AutoDelete<class SafeSet<class CCertMapping * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::operator=(class SafeSet<class CCertMapping * __ptr64> * __ptr64) __ptr64` | 1122 | Exported Function
-`public: class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > & __ptr64 __cdecl AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::operator=(class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64) __ptr64` | 1223 | Exported Function
-`public: class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::operator=(class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64) __ptr64` | 1121 | Exported Function
-`public: class AutoDelete<class EnumSinkEx> & __ptr64 __cdecl AutoDelete<class EnumSinkEx>::operator=(class EnumSinkEx * __ptr64) __ptr64` | 1238 | Exported Function
-`public: class AutoDelete<char> & __ptr64 __cdecl AutoCleanup<class AutoDelete<char>,char * __ptr64>::operator=(char * __ptr64) __ptr64` | 1118 | Exported Function
-`public: class AutoCoTaskMemFree & __ptr64 __cdecl AutoCoTaskMemFree::operator=(void * __ptr64) __ptr64` | 1319 | Exported Function
-`public: class AutoCoTaskMemFree & __ptr64 __cdecl AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1208 | Exported Function
-`public: class AutoDelete<char> & __ptr64 __cdecl AutoDelete<char>::operator=(char * __ptr64) __ptr64` | 1220 | Exported Function
-`public: class AutoDelete<class Catalog::SecurityEntry> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::operator=(class Catalog::SecurityEntry * __ptr64) __ptr64` | 1145 | Exported Function
-`public: class AutoDelete<class BlockedRecord> & __ptr64 __cdecl AutoDelete<class BlockedRecord>::operator=(class BlockedRecord * __ptr64) __ptr64` | 1231 | Exported Function
-`public: class AutoDelete<class BlockedRecord> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::operator=(class BlockedRecord * __ptr64) __ptr64` | 1129 | Exported Function
-`public: class AutoBstrNoAlloc & __ptr64 __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::operator=(unsigned short * __ptr64) __ptr64` | 1205 | Exported Function
-`public: class AutoBstrNoAlloc & __ptr64 __cdecl AutoBstrNoAlloc::operator=(unsigned short * __ptr64) __ptr64` | 1316 | Exported Function
-`public: class AutoBstr & __ptr64 __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::operator=(unsigned short * __ptr64) __ptr64` | 1204 | Exported Function
-`public: class AutoCertContext & __ptr64 __cdecl AutoCertContext::operator=(struct _CERT_CONTEXT const * __ptr64) __ptr64` | 1317 | Exported Function
-`public: class AutoChainContext & __ptr64 __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::operator=(struct _CERT_CHAIN_CONTEXT const * __ptr64) __ptr64` | 1207 | Exported Function
-`public: class AutoChainContext & __ptr64 __cdecl AutoChainContext::operator=(struct _CERT_CHAIN_CONTEXT const * __ptr64) __ptr64` | 1318 | Exported Function
-`public: class AutoCertContext & __ptr64 __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::operator=(struct _CERT_CONTEXT const * __ptr64) __ptr64` | 1206 | Exported Function
-`public: class AutoDelete<class CServiceConfigCache::CServiceWatcher> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::operator=(class CServiceConfigCache::CServiceWatcher * __ptr64) __ptr64` | 1132 | Exported Function
-`public: class AutoDelete<class ConfigUpdate> & __ptr64 __cdecl AutoDelete<class ConfigUpdate>::operator=(class ConfigUpdate * __ptr64) __ptr64` | 1237 | Exported Function
-`public: class AutoDelete<class ConfigUpdate> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::operator=(class ConfigUpdate * __ptr64) __ptr64` | 1135 | Exported Function
-`public: class AutoDelete<class CServiceConfigCache::CServiceWatcher> & __ptr64 __cdecl AutoDelete<class CServiceConfigCache::CServiceWatcher>::operator=(class CServiceConfigCache::CServiceWatcher * __ptr64) __ptr64` | 1234 | Exported Function
-`public: class AutoDelete<class EnumSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator=(class EnumSinkEx * __ptr64) __ptr64` | 1136 | Exported Function
-`public: class AutoDelete<class CWSManResource> & __ptr64 __cdecl AutoDelete<class CWSManResource>::operator=(class CWSManResource * __ptr64) __ptr64` | 1235 | Exported Function
-`public: class AutoDelete<class CWSManResource> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::operator=(class CWSManResource * __ptr64) __ptr64` | 1133 | Exported Function
-`public: class AutoDelete<class CConfigChangeSource> & __ptr64 __cdecl AutoDelete<class CConfigChangeSource>::operator=(class CConfigChangeSource * __ptr64) __ptr64` | 1232 | Exported Function
-`public: class AutoDelete<class CConfigChangeSource> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::operator=(class CConfigChangeSource * __ptr64) __ptr64` | 1130 | Exported Function
-`public: class AutoDelete<class Catalog::SecurityEntry> & __ptr64 __cdecl AutoDelete<class Catalog::SecurityEntry>::operator=(class Catalog::SecurityEntry * __ptr64) __ptr64` | 1247 | Exported Function
-`public: class AutoDelete<class CertHash> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::operator=(class CertHash * __ptr64) __ptr64` | 1134 | Exported Function
-`public: class AutoDelete<class CObserverConfigChangeErrors> & __ptr64 __cdecl AutoDelete<class CObserverConfigChangeErrors>::operator=(class CObserverConfigChangeErrors * __ptr64) __ptr64` | 1233 | Exported Function
-`public: class AutoDelete<class CObserverConfigChangeErrors> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>::operator=(class CObserverConfigChangeErrors * __ptr64) __ptr64` | 1131 | Exported Function
-`public: class AutoDelete<class CertHash> & __ptr64 __cdecl AutoDelete<class CertHash>::operator=(class CertHash * __ptr64) __ptr64` | 1236 | Exported Function
-`public: class AutoDeleteVector<unsigned short const > & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::operator=(unsigned short const * __ptr64) __ptr64` | 1153 | Exported Function
-`public: class AutoDeleteVector<unsigned short const * __ptr64> & __ptr64 __cdecl AutoDeleteVector<unsigned short const * __ptr64>::operator=(unsigned short const * __ptr64 * __ptr64) __ptr64` | 1260 | Exported Function
-`public: class AutoDeleteVector<unsigned short const * __ptr64> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::operator=(unsigned short const * __ptr64 * __ptr64) __ptr64` | 1158 | Exported Function
-`public: class AutoDeleteVector<unsigned short const > & __ptr64 __cdecl AutoDeleteVector<unsigned short const >::operator=(unsigned short const * __ptr64) __ptr64` | 1255 | Exported Function
-`public: class AutoDeleteVector<void> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1163 | Exported Function
-`public: class AutoDeleteVector<unsigned short> & __ptr64 __cdecl AutoDeleteVector<unsigned short>::operator=(unsigned short * __ptr64) __ptr64` | 1258 | Exported Function
-`public: class AutoDeleteVector<unsigned short> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::operator=(unsigned short * __ptr64) __ptr64` | 1156 | Exported Function
-`public: class AutoDeleteVector<struct _WSMAN_OPTION> & __ptr64 __cdecl AutoDeleteVector<struct _WSMAN_OPTION>::operator=(struct _WSMAN_OPTION * __ptr64) __ptr64` | 1264 | Exported Function
-`public: class AutoDeleteVector<struct _WSMAN_OPTION> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::operator=(struct _WSMAN_OPTION * __ptr64) __ptr64` | 1162 | Exported Function
-`public: class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG> & __ptr64 __cdecl AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>::operator=(struct _WINRS_RUN_COMMAND_ARG * __ptr64) __ptr64` | 1263 | Exported Function
-`public: class AutoDeleteVector<unsigned char> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::operator=(unsigned char * __ptr64) __ptr64` | 1155 | Exported Function
-`public: class AutoDeleteVector<unsigned short * __ptr64> & __ptr64 __cdecl AutoDeleteVector<unsigned short * __ptr64>::operator=(unsigned short * __ptr64 * __ptr64) __ptr64` | 1259 | Exported Function
-`public: class AutoDeleteVector<unsigned short * __ptr64> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::operator=(unsigned short * __ptr64 * __ptr64) __ptr64` | 1157 | Exported Function
-`public: class AutoDeleteVector<unsigned char> & __ptr64 __cdecl AutoDeleteVector<unsigned char>::operator=(unsigned char * __ptr64) __ptr64` | 1257 | Exported Function
-`public: class AutoLibrary & __ptr64 __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::operator=(struct HINSTANCE__ * __ptr64) __ptr64` | 1212 | Exported Function
-`public: class AutoImpersonateUser & __ptr64 __cdecl AutoImpersonateUser::operator=(void * __ptr64) __ptr64` | 1322 | Exported Function
-`public: class AutoImpersonateUser & __ptr64 __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1211 | Exported Function
-`public: class AutoLibrary & __ptr64 __cdecl AutoLibrary::operator=(struct HINSTANCE__ * __ptr64) __ptr64` | 1323 | Exported Function
-`public: class AutoLocklessItemRecycle<class Packet> & __ptr64 __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::operator=(class Packet * __ptr64) __ptr64` | 1165 | Exported Function
-`public: class AutoLocalFree & __ptr64 __cdecl AutoLocalFree::operator=(void * __ptr64) __ptr64` | 1324 | Exported Function
-`public: class AutoLocalFree & __ptr64 __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1213 | Exported Function
-`public: class AutoFree<unsigned char> & __ptr64 __cdecl AutoFree<unsigned char>::operator=(unsigned char * __ptr64) __ptr64` | 1266 | Exported Function
-`public: class AutoFree<unsigned char> & __ptr64 __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::operator=(unsigned char * __ptr64) __ptr64` | 1164 | Exported Function
-`public: class AutoDeleteVector<void> & __ptr64 __cdecl AutoDeleteVector<void>::operator=(void * __ptr64) __ptr64` | 1265 | Exported Function
-`public: class AutoFwXmlCloseParser & __ptr64 __cdecl AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1209 | Exported Function
-`public: class AutoHandle & __ptr64 __cdecl AutoHandle::operator=(void * __ptr64) __ptr64` | 1321 | Exported Function
-`public: class AutoHandle & __ptr64 __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::operator=(void * __ptr64) __ptr64` | 1210 | Exported Function
-`public: class AutoFwXmlCloseParser & __ptr64 __cdecl AutoFwXmlCloseParser::operator=(void * __ptr64) __ptr64` | 1320 | Exported Function
-`public: class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::operator=(struct _WINRS_RUN_COMMAND_ARG * __ptr64) __ptr64` | 1161 | Exported Function
-`public: class AutoDelete<class SubscriptionEnumerator> & __ptr64 __cdecl AutoDelete<class SubscriptionEnumerator>::operator=(class SubscriptionEnumerator * __ptr64) __ptr64` | 1249 | Exported Function
-`public: class AutoDelete<class SubscriptionEnumerator> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::operator=(class SubscriptionEnumerator * __ptr64) __ptr64` | 1147 | Exported Function
-`public: class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > > & __ptr64 __cdecl AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >::operator=(class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64) __ptr64` | 1229 | Exported Function
-`public: class AutoDelete<class TSTRBUFFER> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::operator=(class TSTRBUFFER * __ptr64) __ptr64` | 1148 | Exported Function
-`public: class AutoDelete<class UniqueStringOverflow> & __ptr64 __cdecl AutoDelete<class UniqueStringOverflow>::operator=(class UniqueStringOverflow * __ptr64) __ptr64` | 1251 | Exported Function
-`public: class AutoDelete<class UniqueStringOverflow> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::operator=(class UniqueStringOverflow * __ptr64) __ptr64` | 1149 | Exported Function
-`public: class AutoDelete<class TSTRBUFFER> & __ptr64 __cdecl AutoDelete<class TSTRBUFFER>::operator=(class TSTRBUFFER * __ptr64) __ptr64` | 1250 | Exported Function
-`public: class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::operator=(class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64) __ptr64` | 1126 | Exported Function
-`public: class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > > & __ptr64 __cdecl AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >::operator=(class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64) __ptr64` | 1227 | Exported Function
-`public: class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::operator=(class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64) __ptr64` | 1125 | Exported Function
-`public: class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > > & __ptr64 __cdecl AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >::operator=(class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64) __ptr64` | 1228 | Exported Function
-`public: class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::operator=(class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64) __ptr64` | 1127 | Exported Function
-`public: class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > > & __ptr64 __cdecl AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >::operator=(class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64) __ptr64` | 1230 | Exported Function
-`public: class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::operator=(class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64) __ptr64` | 1128 | Exported Function
-`public: class AutoDeleteVector<char> & __ptr64 __cdecl AutoDeleteVector<char>::operator=(char * __ptr64) __ptr64` | 1256 | Exported Function
-`public: class AutoDeleteVector<char> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::operator=(char * __ptr64) __ptr64` | 1154 | Exported Function
-`public: class AutoDelete<unsigned short> & __ptr64 __cdecl AutoDelete<unsigned short>::operator=(unsigned short * __ptr64) __ptr64` | 1221 | Exported Function
-`public: class AutoDeleteVector<struct _CONFIG_UPDATE> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>::operator=(struct _CONFIG_UPDATE * __ptr64) __ptr64` | 1159 | Exported Function
-`public: class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE> & __ptr64 __cdecl AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>::operator=(struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64) __ptr64` | 1262 | Exported Function
-`public: class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::operator=(struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64) __ptr64` | 1160 | Exported Function
-`public: class AutoDeleteVector<struct _CONFIG_UPDATE> & __ptr64 __cdecl AutoDeleteVector<struct _CONFIG_UPDATE>::operator=(struct _CONFIG_UPDATE * __ptr64) __ptr64` | 1261 | Exported Function
-`public: class AutoDelete<class WSMANCONFIGTABLE_IDENTITY> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::operator=(class WSMANCONFIGTABLE_IDENTITY * __ptr64) __ptr64` | 1150 | Exported Function
-`public: class AutoDelete<class WmiEnumContext> & __ptr64 __cdecl AutoDelete<class WmiEnumContext>::operator=(class WmiEnumContext * __ptr64) __ptr64` | 1253 | Exported Function
-`public: class AutoDelete<class WmiEnumContext> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::operator=(class WmiEnumContext * __ptr64) __ptr64` | 1151 | Exported Function
-`public: class AutoDelete<class WSMANCONFIGTABLE_IDENTITY> & __ptr64 __cdecl AutoDelete<class WSMANCONFIGTABLE_IDENTITY>::operator=(class WSMANCONFIGTABLE_IDENTITY * __ptr64) __ptr64` | 1252 | Exported Function
-`public: class AutoDelete<unsigned short> & __ptr64 __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::operator=(unsigned short * __ptr64) __ptr64` | 1119 | Exported Function
-`public: class AutoDelete<class XmlReader> & __ptr64 __cdecl AutoDelete<class XmlReader>::operator=(class XmlReader * __ptr64) __ptr64` | 1254 | Exported Function
-`public: class AutoDelete<class XmlReader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::operator=(class XmlReader * __ptr64) __ptr64` | 1152 | Exported Function
-`public: class AutoBstr & __ptr64 __cdecl AutoBstr::operator=(unsigned short * __ptr64) __ptr64` | 1315 | Exported Function
-`public: bool __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::Add(void * __ptr64 const & __ptr64,struct Empty const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1913 | Exported Function
-`public: bool __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Remove(unsigned __int64 const & __ptr64) __ptr64` | 3267 | Exported Function
-`public: bool __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Add(unsigned __int64 const & __ptr64,class RobustConnectionBuffer::SendPacketArgs * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1924 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2652 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2654 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64>::IsValid(void)const __ptr64` | 2653 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::IsValid(void)const __ptr64` | 2667 | Exported Function
-`public: bool __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::IsValid(void)const __ptr64` | 2651 | Exported Function
-`public: bool __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Add(enum WSManSessionOption const & __ptr64,class WSMan::Client::SessionOptions::OptionValue * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1923 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Remove(class StringKeyStore const & __ptr64) __ptr64` | 3266 | Exported Function
-`public: bool __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Add(struct PluginKey const & __ptr64,unsigned long const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1914 | Exported Function
-`public: bool __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Remove(struct UserKey const & __ptr64) __ptr64` | 3262 | Exported Function
-`public: bool __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Add(struct UserKey const & __ptr64,class BlockedRecord * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1915 | Exported Function
-`public: bool __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::IsValid(void)const __ptr64` | 2647 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2662 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class IOperation * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2661 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class HostOperation * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2660 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const __ptr64` | 2670 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKey,class ListenerEvents * __ptr64>::IsValid(void)const __ptr64` | 2671 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping>::IsValid(void)const __ptr64` | 2680 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2663 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64>::IsValid(void)const __ptr64` | 2657 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64>::IsValid(void)const __ptr64` | 2656 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64>::IsValid(void)const __ptr64` | 2655 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class Collector * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2659 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64>::IsValid(void)const __ptr64` | 2668 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping>::IsValid(void)const __ptr64` | 2669 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2658 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::IsValid(void)const __ptr64` | 2650 | Exported Function
-`public: bool __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Add(class CertThumbprintKey const & __ptr64,class CServiceConfigSettings::CertThumbprintMappedSet const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1916 | Exported Function
-`public: bool __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::Add(class CCertMapping * __ptr64 const & __ptr64,struct Empty const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1910 | Exported Function
-`public: bool __cdecl PacketParser::AddPacket(class Packet * __ptr64,bool,bool,bool) __ptr64` | 1935 | Exported Function
-`public: bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Add(class CListenerOperation * __ptr64 const & __ptr64,struct Empty const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1911 | Exported Function
-`public: bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Remove(class CListenerOperation * __ptr64 const & __ptr64) __ptr64` | 3261 | Exported Function
-`public: bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::IsValid(void)const __ptr64` | 2646 | Exported Function
-`public: bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::IsEmpty(void)const __ptr64` | 2625 | Exported Function
-`public: bool __cdecl Locale::SetThreadUILanguage(class IRequestContext * __ptr64) __ptr64` | 3346 | Exported Function
-`public: bool __cdecl Locale::SetLocale(unsigned long,unsigned short const * __ptr64,class IRequestContext * __ptr64) __ptr64` | 3335 | Exported Function
-`public: bool __cdecl Locale::GetMessageW(unsigned long,char * __ptr64 * __ptr64,char * __ptr64 * __ptr64,unsigned short * __ptr64,unsigned long)const __ptr64` | 2431 | Exported Function
-`public: bool __cdecl Locale::UsingDefaultLCID(void) __ptr64` | 3471 | Exported Function
-`public: bool __cdecl PacketFormatter::SetCharset(char const * __ptr64,unsigned long,bool,bool * __ptr64) __ptr64` | 3318 | Exported Function
-`public: bool __cdecl PacketFormatter::SetBOM(unsigned char const * __ptr64,unsigned long) __ptr64` | 3314 | Exported Function
-`public: bool __cdecl PacketFormatter::SetBOM(class Packet * __ptr64) __ptr64` | 3313 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::IsValid(void)const __ptr64` | 2648 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::IsEmpty(void)const __ptr64` | 2626 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Add(class StringKeyCI const & __ptr64,unsigned long const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1918 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Remove(class StringKeyCI const & __ptr64) __ptr64` | 3263 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Add(class StringKeyStore const & __ptr64,class ServerFullDuplexChannel * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1922 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Remove(class StringKeyStore const & __ptr64) __ptr64` | 3265 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Add(class StringKeyStore const & __ptr64,class ExpiredOperationIdRecord * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1921 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::Add(class StringKeyCI const & __ptr64,struct Empty const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1919 | Exported Function
-`public: bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Add(class Locale::Key const & __ptr64,unsigned long const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1917 | Exported Function
-`public: bool __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::Add(class CShellUriSettings * __ptr64 const & __ptr64,struct Empty const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1912 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::IsEmpty(void)const __ptr64` | 2627 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Remove(class StringKeyCI const & __ptr64) __ptr64` | 3264 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::IsValid(void)const __ptr64` | 2649 | Exported Function
-`public: bool __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Add(class StringKeyCI const & __ptr64,struct WSManHttpListener::USER_CONTEXT_INFO const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1920 | Exported Function
-`public: bool __cdecl SafeSet<class CCertMapping * __ptr64>::Add(class CCertMapping * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1925 | Exported Function
-`public: bool __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1897 | Exported Function
-`public: bool __cdecl SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Acquired(void) __ptr64` | 1909 | Exported Function
-`public: bool __cdecl SafeSet<class CListenerOperation * __ptr64>::Add(class CListenerOperation * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1926 | Exported Function
-`public: bool __cdecl SafeSet<class StringKeyCI>::Add(class StringKeyCI const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1929 | Exported Function
-`public: bool __cdecl SafeSet<class CShellUriSettings * __ptr64>::Add(class CShellUriSettings * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1927 | Exported Function
-`public: bool __cdecl SafeSet<class CListenerOperation * __ptr64>::isValid(void)const __ptr64` | 3514 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Acquired(void) __ptr64` | 1906 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Acquired(void) __ptr64` | 1903 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Acquired(void) __ptr64` | 1905 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Acquired(void) __ptr64` | 1907 | Exported Function
-`public: bool __cdecl SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Acquired(void) __ptr64` | 1899 | Exported Function
-`public: bool __cdecl SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Acquired(void) __ptr64` | 1898 | Exported Function
-`public: bool __cdecl SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Acquired(void) __ptr64` | 1908 | Exported Function
-`public: bool __cdecl UserRecord::UseClientToken(void) __ptr64` | 3469 | Exported Function
-`public: bool __cdecl UserRecord::IsInteractive(void)const __ptr64` | 2638 | Exported Function
-`public: bool __cdecl UserRecord::IsAdmin(void)const __ptr64` | 2604 | Exported Function
-`public: bool __cdecl WSMan::EventHandler::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2095 | Exported Function
-`public: char const * __ptr64 __cdecl PacketFormatter::GetCharsetName(void)const __ptr64` | 2289 | Exported Function
-`public: char * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::Detach(void) __ptr64` | 2152 | Exported Function
-`public: bool __cdecl WSMan::EventHandler::Initialize(class IRequestContext & __ptr64) __ptr64` | 2591 | Exported Function
-`public: bool __cdecl SoapSemanticConverter::IsEvent(struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2628 | Exported Function
-`public: bool __cdecl SimpleQueue<union _LARGE_INTEGER>::empty(void)const __ptr64` | 3511 | Exported Function
-`public: bool __cdecl SafeSet<void * __ptr64>::Add(void * __ptr64 const & __ptr64,class IRequestContext & __ptr64) __ptr64` | 1928 | Exported Function
-`public: bool __cdecl SoapSemanticConverter::IsStreamingEvent(struct _FWXML_ELEMENT * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2644 | Exported Function
-`public: bool __cdecl UserRecord::ApplyQuota(enum OperationType,class IRequestContext & __ptr64,class Catalog::Provider const * __ptr64,class CServiceConfigSettings * __ptr64) __ptr64` | 1977 | Exported Function
-`public: bool __cdecl UserRecord::AddRef(class IRequestContext & __ptr64) __ptr64` | 1938 | Exported Function
-`public: bool __cdecl SoapSemanticConverter::ParseResponse(struct _FWXML_ELEMENT * __ptr64,unsigned long * __ptr64,bool * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2917 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::Acquired(void) __ptr64` | 1904 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::IsValid(void)const __ptr64` | 2665 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::IsValid(void)const __ptr64` | 2681 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::IsValid(void)const __ptr64` | 2679 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::IsValid(void)const __ptr64` | 2666 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1885 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::IsValid(void)const __ptr64` | 2664 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::IsValid(void)const __ptr64` | 2682 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKeyCI,class IISEndpoint * __ptr64>::IsValid(void)const __ptr64` | 2675 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKey,struct WinRM_OperationOptions::Option>::IsValid(void)const __ptr64` | 2673 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKey,class ListenerSourceSubscription * __ptr64>::IsValid(void)const __ptr64` | 2672 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKeyCI,struct Empty>::IsValid(void)const __ptr64` | 2676 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::IsValid(void)const __ptr64` | 2678 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::IsValid(void)const __ptr64` | 2674 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::IsValid(void)const __ptr64` | 2677 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1893 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::Acquired(void) __ptr64` | 1901 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1891 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1894 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1896 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void) __ptr64` | 1902 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1895 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1887 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::Acquired(void) __ptr64` | 1886 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Acquired(void) __ptr64` | 1900 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::Acquired(void) __ptr64` | 1888 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::Acquired(void) __ptr64` | 1892 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::Acquired(void) __ptr64` | 1890 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::Acquired(void) __ptr64` | 1889 | Exported Function
-`public: int __cdecl CConfigManager::IsCurrentListenerAutoConfigured(class IRequestContext * __ptr64,int * __ptr64) __ptr64` | 2607 | Exported Function
-`public: virtual void __cdecl SafeMap<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::Release(void)const __ptr64` | 3046 | Exported Function
-`public: virtual void __cdecl SafeMap<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::Acquire(void)const __ptr64` | 1847 | Exported Function
-`public: virtual void __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Release(void)const __ptr64` | 3047 | Exported Function
-`public: virtual void __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1835 | Exported Function
-`public: virtual void __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >::Release(void)const __ptr64` | 3035 | Exported Function
-`public: virtual void __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >::Acquire(void)const __ptr64` | 1836 | Exported Function
-`public: virtual void __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3034 | Exported Function
-`public: virtual void __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >::Acquire(void)const __ptr64` | 1834 | Exported Function
-`public: virtual void __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3032 | Exported Function
-`public: virtual void __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1833 | Exported Function
-`public: virtual void __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >::Release(void)const __ptr64` | 3033 | Exported Function
-`public: virtual void __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Acquire(void)const __ptr64` | 1848 | Exported Function
-`public: virtual void __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::Release(void)const __ptr64` | 3031 | Exported Function
-`public: virtual void __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::Acquire(void)const __ptr64` | 1832 | Exported Function
-`public: virtual void __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const __ptr64` | 3048 | Exported Function
-`public: virtual void __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const __ptr64` | 1849 | Exported Function
-`public: virtual void __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::Release(void)const __ptr64` | 3039 | Exported Function
-`public: virtual void __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1841 | Exported Function
-`public: virtual void __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >::Release(void)const __ptr64` | 3041 | Exported Function
-`public: virtual void __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >::Acquire(void)const __ptr64` | 1842 | Exported Function
-`public: virtual void __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3040 | Exported Function
-`public: virtual void __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >::Acquire(void)const __ptr64` | 1838 | Exported Function
-`public: virtual void __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3036 | Exported Function
-`public: virtual void __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1837 | Exported Function
-`public: virtual void __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >::Release(void)const __ptr64` | 3037 | Exported Function
-`public: virtual void __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::Acquire(void)const __ptr64` | 1840 | Exported Function
-`public: virtual void __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3038 | Exported Function
-`public: virtual void __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1839 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::Release(void)const __ptr64` | 3030 | Exported Function
-`public: virtual void __cdecl CRequestContext::SetCIM_Error(void) __ptr64` | 3316 | Exported Function
-`public: virtual void __cdecl CRequestContext::Reset(int) __ptr64` | 3295 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordProviderFailure(struct _WSMAN_FAULT_OBJECT * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3011 | Exported Function
-`public: virtual void __cdecl CRequestContext::SetExtendedErrorString(unsigned short * __ptr64) __ptr64` | 3325 | Exported Function
-`public: virtual void __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::Acquire(void)const __ptr64` | 1825 | Exported Function
-`public: virtual void __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3023 | Exported Function
-`public: virtual void __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1824 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordFailure(struct _WSMAN_FAULT_OBJECT * __ptr64) __ptr64` | 3000 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordFailure(enum _MI_Result,unsigned long,unsigned long,...) __ptr64` | 3001 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordAccessDeniedWithDetail(unsigned long,...) __ptr64` | 2992 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordFailure(unsigned long) __ptr64` | 2998 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordOutOfMemory(void) __ptr64` | 3008 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordHresult(unsigned long,unsigned long,...) __ptr64` | 3003 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordFailure(unsigned long,unsigned long,...) __ptr64` | 2999 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::Acquire(void)const __ptr64` | 1829 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Release(void)const __ptr64` | 3027 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Acquire(void)const __ptr64` | 1828 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::Release(void)const __ptr64` | 3028 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::Acquire(void)const __ptr64` | 1831 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::Release(void)const __ptr64` | 3029 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::Acquire(void)const __ptr64` | 1830 | Exported Function
-`public: virtual void __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Release(void)const __ptr64` | 3045 | Exported Function
-`public: virtual void __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Acquire(void)const __ptr64` | 1846 | Exported Function
-`public: virtual void __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::Release(void)const __ptr64` | 3024 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::Acquire(void)const __ptr64` | 1826 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::Release(void)const __ptr64` | 3026 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::Acquire(void)const __ptr64` | 1827 | Exported Function
-`public: virtual void __cdecl SafeMap<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::Release(void)const __ptr64` | 3025 | Exported Function
-`public: void * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::Storage(void) __ptr64` | 3440 | Exported Function
-`public: void * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::Storage(void) __ptr64` | 3439 | Exported Function
-`public: void * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::Storage(void) __ptr64` | 3435 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::Detach(void) __ptr64` | 2200 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::operator->(void)const __ptr64` | 1751 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::operator->(void) __ptr64` | 1750 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::Detach(void) __ptr64` | 2201 | Exported Function
-`public: virtual void __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::Release(void)const __ptr64` | 3042 | Exported Function
-`public: virtual void __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::Acquire(void)const __ptr64` | 1843 | Exported Function
-`public: virtual void __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Release(void)const __ptr64` | 3061 | Exported Function
-`public: virtual void __cdecl UserRecord::QuotaComplete(struct _WSMAN_AUTHZ_QUOTA * __ptr64,unsigned long,unsigned short const * __ptr64) __ptr64` | 2976 | Exported Function
-`public: void * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::Storage(void) __ptr64` | 3434 | Exported Function
-`public: void * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::Storage(void) __ptr64` | 3433 | Exported Function
-`public: void * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::Storage(void) __ptr64` | 3396 | Exported Function
+`FreeInstance` | 2258 | Exported Function
+`operator` | 1243 | Exported Function
+`operator` | 1141 | Exported Function
+`operator` | 1242 | Exported Function
+`operator` | 1142 | Exported Function
+`operator` | 1245 | Exported Function
+`operator` | 1143 | Exported Function
+`operator` | 1244 | Exported Function
+`operator` | 1137 | Exported Function
+`operator` | 1240 | Exported Function
+`operator` | 1138 | Exported Function
+`operator` | 1239 | Exported Function
+`operator` | 1140 | Exported Function
+`operator` | 1241 | Exported Function
+`operator` | 1139 | Exported Function
+`operator` | 1225 | Exported Function
+`operator` | 1123 | Exported Function
+`operator` | 1224 | Exported Function
+`operator` | 1124 | Exported Function
+`operator` | 1248 | Exported Function
+`operator` | 1146 | Exported Function
+`operator` | 1226 | Exported Function
+`operator` | 1120 | Exported Function
+`operator` | 1246 | Exported Function
+`operator` | 1144 | Exported Function
+`operator` | 1222 | Exported Function
+`operator` | 1122 | Exported Function
+`OptionValue` | 1223 | Exported Function
+`OptionValue` | 1121 | Exported Function
+`operator` | 1238 | Exported Function
+`operator` | 1118 | Exported Function
+`operator` | 1319 | Exported Function
+`operator` | 1208 | Exported Function
+`operator` | 1220 | Exported Function
+`SecurityEntry` | 1145 | Exported Function
+`operator` | 1231 | Exported Function
+`operator` | 1129 | Exported Function
+`operator` | 1205 | Exported Function
+`operator` | 1316 | Exported Function
+`operator` | 1204 | Exported Function
+`operator` | 1317 | Exported Function
+`operator` | 1207 | Exported Function
+`operator` | 1318 | Exported Function
+`operator` | 1206 | Exported Function
+`CServiceWatcher` | 1132 | Exported Function
+`operator` | 1237 | Exported Function
+`operator` | 1135 | Exported Function
+`CServiceWatcher` | 1234 | Exported Function
+`operator` | 1136 | Exported Function
+`operator` | 1235 | Exported Function
+`operator` | 1133 | Exported Function
+`operator` | 1232 | Exported Function
+`operator` | 1130 | Exported Function
+`SecurityEntry` | 1247 | Exported Function
+`operator` | 1134 | Exported Function
+`operator` | 1233 | Exported Function
+`operator` | 1131 | Exported Function
+`operator` | 1236 | Exported Function
+`operator` | 1153 | Exported Function
+`operator` | 1260 | Exported Function
+`operator` | 1158 | Exported Function
+`operator` | 1255 | Exported Function
+`operator` | 1163 | Exported Function
+`operator` | 1258 | Exported Function
+`operator` | 1156 | Exported Function
+`operator` | 1264 | Exported Function
+`operator` | 1162 | Exported Function
+`operator` | 1263 | Exported Function
+`operator` | 1155 | Exported Function
+`operator` | 1259 | Exported Function
+`operator` | 1157 | Exported Function
+`operator` | 1257 | Exported Function
+`operator` | 1212 | Exported Function
+`operator` | 1322 | Exported Function
+`operator` | 1211 | Exported Function
+`operator` | 1323 | Exported Function
+`operator` | 1165 | Exported Function
+`operator` | 1324 | Exported Function
+`operator` | 1213 | Exported Function
+`operator` | 1266 | Exported Function
+`operator` | 1164 | Exported Function
+`operator` | 1265 | Exported Function
+`operator` | 1209 | Exported Function
+`operator` | 1321 | Exported Function
+`operator` | 1210 | Exported Function
+`operator` | 1320 | Exported Function
+`operator` | 1161 | Exported Function
+`operator` | 1249 | Exported Function
+`operator` | 1147 | Exported Function
+`HandleImpl` | 1229 | Exported Function
+`operator` | 1148 | Exported Function
+`operator` | 1251 | Exported Function
+`operator` | 1149 | Exported Function
+`operator` | 1250 | Exported Function
+`SockAddrLessFunctor` | 1126 | Exported Function
+`CListenerSettingsLessFunctor` | 1227 | Exported Function
+`CListenerSettingsLessFunctor` | 1125 | Exported Function
+`SockAddrLessFunctor` | 1228 | Exported Function
+`HandleImpl` | 1127 | Exported Function
+`vector` | 1230 | Exported Function
+`vector` | 1128 | Exported Function
+`operator` | 1256 | Exported Function
+`operator` | 1154 | Exported Function
+`operator` | 1221 | Exported Function
+`operator` | 1159 | Exported Function
+`operator` | 1262 | Exported Function
+`operator` | 1160 | Exported Function
+`operator` | 1261 | Exported Function
+`operator` | 1150 | Exported Function
+`operator` | 1253 | Exported Function
+`operator` | 1151 | Exported Function
+`operator` | 1252 | Exported Function
+`operator` | 1119 | Exported Function
+`operator` | 1254 | Exported Function
+`operator` | 1152 | Exported Function
+`operator` | 1315 | Exported Function
+`Add` | 1913 | Exported Function
+`Remove` | 3267 | Exported Function
+`SendPacketArgs` | 1924 | Exported Function
+`IsValid` | 2652 | Exported Function
+`IsValid` | 2654 | Exported Function
+`IsValid` | 2653 | Exported Function
+`IsValid` | 2667 | Exported Function
+`IsValid` | 2651 | Exported Function
+`OptionValue` | 1923 | Exported Function
+`Remove` | 3266 | Exported Function
+`Add` | 1914 | Exported Function
+`Remove` | 3262 | Exported Function
+`Add` | 1915 | Exported Function
+`IsValid` | 2647 | Exported Function
+`IsValid` | 2662 | Exported Function
+`IsValid` | 2661 | Exported Function
+`IsValid` | 2660 | Exported Function
+`IsValid` | 2670 | Exported Function
+`IsValid` | 2671 | Exported Function
+`IsValid` | 2680 | Exported Function
+`IsValid` | 2663 | Exported Function
+`IsValid` | 2657 | Exported Function
+`IsValid` | 2656 | Exported Function
+`IsValid` | 2655 | Exported Function
+`IsValid` | 2659 | Exported Function
+`IsValid` | 2668 | Exported Function
+`IsValid` | 2669 | Exported Function
+`IsValid` | 2658 | Exported Function
+`IsValid` | 2650 | Exported Function
+`CertThumbprintMappedSet` | 1916 | Exported Function
+`Add` | 1910 | Exported Function
+`AddPacket` | 1935 | Exported Function
+`Add` | 1911 | Exported Function
+`Remove` | 3261 | Exported Function
+`IsValid` | 2646 | Exported Function
+`IsEmpty` | 2625 | Exported Function
+`SetThreadUILanguage` | 3346 | Exported Function
+`SetLocale` | 3335 | Exported Function
+`GetMessageW` | 2431 | Exported Function
+`UsingDefaultLCID` | 3471 | Exported Function
+`SetCharset` | 3318 | Exported Function
+`SetBOM` | 3314 | Exported Function
+`SetBOM` | 3313 | Exported Function
+`IsValid` | 2648 | Exported Function
+`IsEmpty` | 2626 | Exported Function
+`Add` | 1918 | Exported Function
+`Remove` | 3263 | Exported Function
+`Add` | 1922 | Exported Function
+`Remove` | 3265 | Exported Function
+`Add` | 1921 | Exported Function
+`Add` | 1919 | Exported Function
+`Key` | 1917 | Exported Function
+`Add` | 1912 | Exported Function
+`IsEmpty` | 2627 | Exported Function
+`Remove` | 3264 | Exported Function
+`IsValid` | 2649 | Exported Function
+`USER_CONTEXT_INFO` | 1920 | Exported Function
+`Add` | 1925 | Exported Function
+`Acquired` | 1897 | Exported Function
+`Acquired` | 1909 | Exported Function
+`Add` | 1926 | Exported Function
+`Add` | 1929 | Exported Function
+`Add` | 1927 | Exported Function
+`isValid` | 3514 | Exported Function
+`Acquired` | 1906 | Exported Function
+`Acquired` | 1903 | Exported Function
+`Acquired` | 1905 | Exported Function
+`Acquired` | 1907 | Exported Function
+`Acquired` | 1899 | Exported Function
+`Acquired` | 1898 | Exported Function
+`Acquired` | 1908 | Exported Function
+`UseClientToken` | 3469 | Exported Function
+`IsInteractive` | 2638 | Exported Function
+`IsAdmin` | 2604 | Exported Function
+`DeInitialize` | 2095 | Exported Function
+`GetCharsetName` | 2289 | Exported Function
+`Detach` | 2152 | Exported Function
+`Initialize` | 2591 | Exported Function
+`IsEvent` | 2628 | Exported Function
+`empty` | 3511 | Exported Function
+`Add` | 1928 | Exported Function
+`IsStreamingEvent` | 2644 | Exported Function
+`Provider` | 1977 | Exported Function
+`AddRef` | 1938 | Exported Function
+`ParseResponse` | 2917 | Exported Function
+`Acquired` | 1904 | Exported Function
+`IsValid` | 2665 | Exported Function
+`IsValid` | 2681 | Exported Function
+`IsValid` | 2679 | Exported Function
+`IsValid` | 2666 | Exported Function
+`Acquired` | 1885 | Exported Function
+`IsValid` | 2664 | Exported Function
+`IsValid` | 2682 | Exported Function
+`IsValid` | 2675 | Exported Function
+`IsValid` | 2673 | Exported Function
+`IsValid` | 2672 | Exported Function
+`IsValid` | 2676 | Exported Function
+`IsValid` | 2678 | Exported Function
+`IsValid` | 2674 | Exported Function
+`IsValid` | 2677 | Exported Function
+`Acquired` | 1893 | Exported Function
+`Acquired` | 1901 | Exported Function
+`Acquired` | 1891 | Exported Function
+`Acquired` | 1894 | Exported Function
+`Acquired` | 1896 | Exported Function
+`Acquired` | 1902 | Exported Function
+`Acquired` | 1895 | Exported Function
+`Acquired` | 1887 | Exported Function
+`Acquired` | 1886 | Exported Function
+`Acquired` | 1900 | Exported Function
+`Acquired` | 1888 | Exported Function
+`Acquired` | 1892 | Exported Function
+`Acquired` | 1890 | Exported Function
+`Acquired` | 1889 | Exported Function
+`IsCurrentListenerAutoConfigured` | 2607 | Exported Function
+`Release` | 3046 | Exported Function
+`Acquire` | 1847 | Exported Function
+`Release` | 3047 | Exported Function
+`Acquire` | 1835 | Exported Function
+`Release` | 3035 | Exported Function
+`Acquire` | 1836 | Exported Function
+`Release` | 3034 | Exported Function
+`Acquire` | 1834 | Exported Function
+`Release` | 3032 | Exported Function
+`Acquire` | 1833 | Exported Function
+`Release` | 3033 | Exported Function
+`Acquire` | 1848 | Exported Function
+`Release` | 3031 | Exported Function
+`Acquire` | 1832 | Exported Function
+`Release` | 3048 | Exported Function
+`Acquire` | 1849 | Exported Function
+`Release` | 3039 | Exported Function
+`Acquire` | 1841 | Exported Function
+`Release` | 3041 | Exported Function
+`Acquire` | 1842 | Exported Function
+`Release` | 3040 | Exported Function
+`Acquire` | 1838 | Exported Function
+`Release` | 3036 | Exported Function
+`Acquire` | 1837 | Exported Function
+`Release` | 3037 | Exported Function
+`Acquire` | 1840 | Exported Function
+`Release` | 3038 | Exported Function
+`Acquire` | 1839 | Exported Function
+`Release` | 3030 | Exported Function
+`SetCIM_Error` | 3316 | Exported Function
+`Reset` | 3295 | Exported Function
+`RecordProviderFailure` | 3011 | Exported Function
+`SetExtendedErrorString` | 3325 | Exported Function
+`Acquire` | 1825 | Exported Function
+`Release` | 3023 | Exported Function
+`Acquire` | 1824 | Exported Function
+`RecordFailure` | 3000 | Exported Function
+`RecordFailure` | 3001 | Exported Function
+`RecordAccessDeniedWithDetail` | 2992 | Exported Function
+`RecordFailure` | 2998 | Exported Function
+`RecordOutOfMemory` | 3008 | Exported Function
+`RecordHresult` | 3003 | Exported Function
+`RecordFailure` | 2999 | Exported Function
+`Acquire` | 1829 | Exported Function
+`Release` | 3027 | Exported Function
+`Acquire` | 1828 | Exported Function
+`Release` | 3028 | Exported Function
+`Acquire` | 1831 | Exported Function
+`Release` | 3029 | Exported Function
+`Acquire` | 1830 | Exported Function
+`Release` | 3045 | Exported Function
+`Acquire` | 1846 | Exported Function
+`Release` | 3024 | Exported Function
+`Acquire` | 1826 | Exported Function
+`Release` | 3026 | Exported Function
+`Acquire` | 1827 | Exported Function
+`Release` | 3025 | Exported Function
+`Storage` | 3440 | Exported Function
+`Storage` | 3439 | Exported Function
+`Storage` | 3435 | Exported Function
+`Detach` | 2200 | Exported Function
+`operator` | 1751 | Exported Function
+`operator` | 1750 | Exported Function
+`Detach` | 2201 | Exported Function
+`Release` | 3042 | Exported Function
+`Acquire` | 1843 | Exported Function
+`Release` | 3061 | Exported Function
+`QuotaComplete` | 2976 | Exported Function
+`Storage` | 3434 | Exported Function
+`Storage` | 3433 | Exported Function
+`Storage` | 3396 | Exported Function
 `public: void __cdecl CErrorContext::``default constructor closure'(void) __ptr64` | 1822 | Exported Function
-`public: void __cdecl BufferFormatter::SetFormatterMode(enum PacketFormatter::Charset,enum PacketFormatter::Charset) __ptr64` | 3330 | Exported Function
-`public: void * __ptr64 const * __ptr64 __cdecl SafeSet<void * __ptr64>::operator[](void * __ptr64 const & __ptr64)const __ptr64` | 1427 | Exported Function
-`public: void __cdecl CErrorContext::LogErrorCode(void) __ptr64` | 2691 | Exported Function
-`public: void __cdecl ChildLifeTimeManager::UnregisterChild(void) __ptr64` | 3461 | Exported Function
-`public: void __cdecl ChildLifeTimeManager::Shutdown(void) __ptr64` | 3355 | Exported Function
-`public: void __cdecl CErrorContext::SetExtraLogInfo(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3326 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::Detach(void) __ptr64` | 2207 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::Detach(void) __ptr64` | 2206 | Exported Function
-`public: void * __ptr64 __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::Detach(void) __ptr64` | 2202 | Exported Function
-`public: void * __ptr64 __cdecl RBUFFER::QueryPtr(void)const __ptr64` | 2971 | Exported Function
-`public: void * __ptr64 __cdecl XmlReader::GetParser(void) __ptr64` | 2465 | Exported Function
-`public: void * __ptr64 __cdecl UserRecord::GetToken(void) __ptr64` | 2511 | Exported Function
-`public: void * __ptr64 __cdecl UserRecord::GetImpersonationToken(void) __ptr64` | 2341 | Exported Function
-`public: virtual void __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Acquire(void)const __ptr64` | 1862 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,class IISEndpoint * __ptr64,class SafeMap_Iterator<class StringKeyCI,class IISEndpoint * __ptr64> >::Release(void)const __ptr64` | 3053 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,class IISEndpoint * __ptr64,class SafeMap_Iterator<class StringKeyCI,class IISEndpoint * __ptr64> >::Acquire(void)const __ptr64` | 1854 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKey,struct WinRM_OperationOptions::Option,class SafeMap_Iterator<class StringKey,struct WinRM_OperationOptions::Option> >::Release(void)const __ptr64` | 3051 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::Acquire(void)const __ptr64` | 1855 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::Release(void)const __ptr64` | 3055 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::Acquire(void)const __ptr64` | 1856 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::Release(void)const __ptr64` | 3054 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKey,class ListenerEvents * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerEvents * __ptr64> >::Acquire(void)const __ptr64` | 1850 | Exported Function
-`public: virtual void __cdecl SafeMap<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping,class SafeMap_Iterator<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping> >::Release(void)const __ptr64` | 3059 | Exported Function
-`public: virtual void __cdecl SafeMap<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping,class SafeMap_Iterator<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping> >::Acquire(void)const __ptr64` | 1860 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKey,class ListenerEvents * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerEvents * __ptr64> >::Release(void)const __ptr64` | 3049 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKey,struct WinRM_OperationOptions::Option,class SafeMap_Iterator<class StringKey,struct WinRM_OperationOptions::Option> >::Acquire(void)const __ptr64` | 1852 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKey,class ListenerSourceSubscription * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerSourceSubscription * __ptr64> >::Release(void)const __ptr64` | 3050 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKey,class ListenerSourceSubscription * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerSourceSubscription * __ptr64> >::Acquire(void)const __ptr64` | 1851 | Exported Function
-`public: virtual void __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Release(void)const __ptr64` | 3060 | Exported Function
-`public: virtual void __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Acquire(void)const __ptr64` | 1861 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Release(void)const __ptr64` | 3058 | Exported Function
-`public: virtual void __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Acquire(void)const __ptr64` | 1844 | Exported Function
-`public: virtual void __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Release(void)const __ptr64` | 3044 | Exported Function
-`public: virtual void __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Acquire(void)const __ptr64` | 1845 | Exported Function
-`public: virtual void __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Release(void)const __ptr64` | 3043 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Acquire(void)const __ptr64` | 1853 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Release(void)const __ptr64` | 3056 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Acquire(void)const __ptr64` | 1857 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Release(void)const __ptr64` | 3052 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Acquire(void)const __ptr64` | 1859 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Release(void)const __ptr64` | 3057 | Exported Function
-`public: virtual void __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Acquire(void)const __ptr64` | 1858 | Exported Function
-`public: virtual void __cdecl CRequestContext::RecordAccessDenied(void) __ptr64` | 2990 | Exported Function
-`public: virtual int __cdecl CWSManResourceNoResourceUri::BuildSelectorSet(class BufferFormatter & __ptr64) __ptr64` | 1999 | Exported Function
-`public: virtual int __cdecl CWSManResourceNoResourceUri::BuildFragmentTransfer(class BufferFormatter & __ptr64) __ptr64` | 1996 | Exported Function
-`public: virtual int __cdecl CWSManGroupPolicyManager::UnSubscribe(class IRequestContext * __ptr64,class IWSManGroupPolicyObserver * __ptr64) __ptr64` | 3459 | Exported Function
-`public: virtual int __cdecl CWSManResourceNoResourceUri::IsEPR(void) __ptr64` | 2611 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::GetInheritTypes(struct _SI_INHERIT_TYPE * __ptr64 * __ptr64,unsigned long * __ptr64) __ptr64` | 2342 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::GetAccessRights(struct _GUID const * __ptr64,unsigned long,struct _SI_ACCESS * __ptr64 * __ptr64,unsigned long * __ptr64,unsigned long * __ptr64) __ptr64` | 2265 | Exported Function
-`public: virtual long __cdecl CBaseConfigCache::Release(void (__cdecl*)(void * __ptr64),void * __ptr64) __ptr64` | 3076 | Exported Function
-`public: virtual int __cdecl CRequestContext::RecordSoapError(unsigned long,unsigned short const * __ptr64) __ptr64` | 3014 | Exported Function
-`public: virtual int __cdecl CRequestContext::ProcessContext(int,unsigned long * __ptr64,struct _WSMAN_FAULT_OBJECT * __ptr64) __ptr64` | 2946 | Exported Function
-`public: virtual int __cdecl CRequestContext::ProcessContext(int,struct _WSMAN_ERROR * __ptr64) __ptr64` | 2947 | Exported Function
-`public: virtual int __cdecl CWSManEPR::BuildSelectorSet(class BufferFormatter & __ptr64) __ptr64` | 1998 | Exported Function
-`public: virtual int __cdecl CWSManGroupPolicyManager::Subscribe(class IRequestContext * __ptr64,class IWSManGroupPolicyObserver * __ptr64,int) __ptr64` | 3456 | Exported Function
-`public: virtual int __cdecl CWSManGroupPolicyManager::NotifyObservers(class IRequestContext * __ptr64,class IWSManGroupPolicyCacheDataProvider * __ptr64) __ptr64` | 2886 | Exported Function
-`public: virtual int __cdecl CWSManEPR::IsEPR(void) __ptr64` | 2610 | Exported Function
-`public: virtual unsigned char * __ptr64 __cdecl CircularBufferFormatter::GetBuffer(void) __ptr64` | 2276 | Exported Function
-`public: virtual unsigned char * __ptr64 __cdecl BufferFormatter::GetBuffer(void) __ptr64` | 2274 | Exported Function
-`public: virtual long __cdecl ILifeTimeMgmt::Release(void (__cdecl*)(void * __ptr64),void * __ptr64) __ptr64` | 3079 | Exported Function
-`public: virtual unsigned char const * __ptr64 __cdecl BufferFormatter::GetBuffer(void)const __ptr64` | 2275 | Exported Function
-`public: virtual unsigned long __cdecl BufferFormatter::GetSpaceUsed(bool)const __ptr64` | 2498 | Exported Function
-`public: virtual unsigned long __cdecl BufferFormatter::GetCalculationSize(bool)const __ptr64` | 2284 | Exported Function
-`public: virtual unsigned char const * __ptr64 __cdecl CircularBufferFormatter::GetBuffer(void)const __ptr64` | 2277 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::MapGeneric(struct _GUID const * __ptr64,unsigned char * __ptr64,unsigned long * __ptr64) __ptr64` | 2699 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::GetSecurity(unsigned long,void * __ptr64 * __ptr64,int) __ptr64` | 2483 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::GetObjectInformation(struct _SI_OBJECT_INFO * __ptr64) __ptr64` | 2441 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::PropertySheetPageCallback(struct HWND__ * __ptr64,unsigned int,enum _SI_PAGE_TYPE) __ptr64` | 2958 | Exported Function
-`public: virtual long __cdecl ILifeTimeMgmt::AddRef(void) __ptr64` | 1937 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::SetSecurity(unsigned long,void * __ptr64) __ptr64` | 3343 | Exported Function
-`public: virtual long __cdecl CWSManSecurityUI::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64` | 2970 | Exported Function
-`public: virtual int __cdecl CErrorContext::UseDefaultConfig(void)const __ptr64` | 3470 | Exported Function
-`public: virtual bool __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2563 | Exported Function
-`public: virtual bool __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2074 | Exported Function
-`public: virtual bool __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2582 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(class BufferFormatterDataFormatDWORD & __ptr64) __ptr64` | 1359 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(class BufferFormatterDataPUCHAR & __ptr64) __ptr64` | 1362 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(class BufferFormatterDataPCWSTR & __ptr64) __ptr64` | 1361 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(class BufferFormatterDataFormatULONGLONG & __ptr64) __ptr64` | 1360 | Exported Function
-`public: virtual bool __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2075 | Exported Function
-`public: virtual bool __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2581 | Exported Function
-`public: virtual bool __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2092 | Exported Function
-`public: virtual bool __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2564 | Exported Function
-`public: virtual bool __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2093 | Exported Function
-`public: virtual bool __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2565 | Exported Function
-`public: virtual bool __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2076 | Exported Function
-`public: virtual int __cdecl CErrorContext::Passed(void)const __ptr64` | 2929 | Exported Function
-`public: virtual int __cdecl CCommonConfigSettings::AllowUnencrypted(void)const __ptr64` | 1953 | Exported Function
-`public: virtual int __cdecl CCommonConfigSettings::AllowNegotiate(void)const __ptr64` | 1952 | Exported Function
-`public: virtual int __cdecl CErrorContext::ProcessContext(int,struct _WSMAN_ERROR * __ptr64) __ptr64` | 2941 | Exported Function
-`public: virtual int __cdecl CErrorContext::RecordSoapError(unsigned long,unsigned short const * __ptr64) __ptr64` | 3012 | Exported Function
-`public: virtual int __cdecl CErrorContext::ProviderFailure(void)const __ptr64` | 2959 | Exported Function
-`public: virtual int __cdecl CErrorContext::ProcessContext(int,unsigned long * __ptr64,struct _WSMAN_FAULT_OBJECT * __ptr64) __ptr64` | 2940 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(unsigned long) __ptr64` | 1364 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(struct _FWXML_ELEMENT * __ptr64) __ptr64` | 1365 | Exported Function
-`public: virtual class BufferFormatter & __ptr64 __cdecl BufferFormatter::operator<<(class BufferFormatterDataXmlEscape & __ptr64) __ptr64` | 1363 | Exported Function
-`public: virtual int __cdecl CCommonConfigSettings::AllowBasic(void)const __ptr64` | 1948 | Exported Function
-`public: virtual int __cdecl CCommonConfigSettings::AllowKerberos(void)const __ptr64` | 1951 | Exported Function
-`public: virtual int __cdecl CCommonConfigSettings::AllowCredSsp(void)const __ptr64` | 1950 | Exported Function
-`public: virtual int __cdecl CCommonConfigSettings::AllowClientCertificate(void)const __ptr64` | 1949 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordFailure(enum _MI_Result,unsigned long,unsigned long,...) __ptr64` | 2996 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordAccessDeniedWithDetail(unsigned long,...) __ptr64` | 2991 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordAccessDenied(void) __ptr64` | 2989 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordFailure(struct _WSMAN_FAULT_OBJECT * __ptr64) __ptr64` | 2995 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordHresult(unsigned long,unsigned long,...) __ptr64` | 3002 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordFailure(unsigned long,unsigned long,...) __ptr64` | 2994 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordFailure(unsigned long) __ptr64` | 2993 | Exported Function
-`public: virtual void __cdecl CBaseConfigCache::LogError(unsigned long,unsigned long) __ptr64` | 2690 | Exported Function
-`public: virtual void __cdecl BufferFormatter::SetUpdateMode(enum BufferFormatter::Mode) __ptr64` | 3347 | Exported Function
-`public: virtual void __cdecl BufferFormatter::Reset(void) __ptr64` | 3293 | Exported Function
-`public: virtual void __cdecl CBaseConfigCache::OnChange(enum ConfigChangeSources,unsigned long,enum ConfigChangeSeverityType) __ptr64` | 2887 | Exported Function
-`public: virtual void __cdecl CErrorContext::InternalHResult(unsigned long,unsigned long,...) __ptr64` | 2599 | Exported Function
-`public: virtual void __cdecl CErrorContext::InternalFailure(unsigned long,...) __ptr64` | 2597 | Exported Function
-`public: virtual void __cdecl CErrorContext::CopyTo(class IRequestContext * __ptr64)const __ptr64` | 2017 | Exported Function
-`public: virtual void __cdecl CircularBufferFormatter::Reset(void) __ptr64` | 3296 | Exported Function
-`public: virtual void __cdecl CErrorContext::SetProviderFailure(int) __ptr64` | 3342 | Exported Function
-`public: virtual void __cdecl CErrorContext::SetGeneratingError(void) __ptr64` | 3333 | Exported Function
-`public: virtual void __cdecl CircularBufferFormatter::SetUpdateMode(enum BufferFormatter::Mode) __ptr64` | 3348 | Exported Function
-`public: virtual void __cdecl CRequestContext::InternalHResult(unsigned long,unsigned long,...) __ptr64` | 2600 | Exported Function
-`public: virtual void __cdecl CRequestContext::InternalFailure(unsigned long,...) __ptr64` | 2598 | Exported Function
-`public: virtual void __cdecl CRequestContext::CopyTo(class IRequestContext * __ptr64)const __ptr64` | 2018 | Exported Function
-`public: virtual void __cdecl CErrorContext::Reset(int) __ptr64` | 3294 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordProviderFailure(struct _WSMAN_FAULT_OBJECT * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3009 | Exported Function
-`public: virtual void __cdecl CErrorContext::RecordOutOfMemory(void) __ptr64` | 3007 | Exported Function
-`public: virtual void __cdecl CErrorContext::SetCIM_Error(void) __ptr64` | 3315 | Exported Function
-`public: virtual void __cdecl CErrorContext::SetFault(unsigned long,unsigned long,unsigned long,unsigned short const * __ptr64) __ptr64` | 3327 | Exported Function
-`public: virtual void __cdecl CErrorContext::SetExtendedErrorString(unsigned short * __ptr64) __ptr64` | 3324 | Exported Function
-`public: virtual void __cdecl CErrorContext::SetConfigToUseDefaults(int) __ptr64` | 3320 | Exported Function
-`public: virtual unsigned short const * __ptr64 __cdecl CRequestContext::GetFaultXML(void)const __ptr64` | 2327 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMinBatchTimeout(void) __ptr64` | 2434 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMinBatchSize(void) __ptr64` | 2433 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMinBatchItems(void) __ptr64` | 2432 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMinEnvelopeSize(void) __ptr64` | 2435 | Exported Function
-`public: virtual unsigned long __cdecl CErrorContext::GetMessageId(void)const __ptr64` | 2428 | Exported Function
-`public: virtual unsigned long __cdecl CErrorContext::GetErrorCode(void)const __ptr64` | 2320 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMinTimeOut(void) __ptr64` | 2436 | Exported Function
-`public: virtual unsigned long __cdecl BufferFormatter::PrepareToCommitWithSize(unsigned long) __ptr64` | 2935 | Exported Function
-`public: virtual unsigned long __cdecl BufferFormatter::GrowBuffer(void) __ptr64` | 2523 | Exported Function
-`public: virtual unsigned long __cdecl BufferFormatter::GrowBuffer(unsigned long) __ptr64` | 2522 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMaxBatchItems(void) __ptr64` | 2421 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMaxTimeOut(void) __ptr64` | 2425 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMaxEnvelopeSize(void) __ptr64` | 2423 | Exported Function
-`public: virtual unsigned long __cdecl CCommonConfigSettings::GetMaxBatchSize(void) __ptr64` | 2422 | Exported Function
-`public: virtual unsigned long __cdecl UserRecord::AuthzComplete(void * __ptr64,void * __ptr64,enum UserAuthzRecord::AdministratorType,unsigned long,unsigned short const * __ptr64) __ptr64` | 1993 | Exported Function
-`public: virtual unsigned long __cdecl PacketParser::GetBufferLength(void) __ptr64` | 2279 | Exported Function
-`public: virtual unsigned long __cdecl CWSManSecurityUI::Release(void) __ptr64` | 3078 | Exported Function
-`public: virtual unsigned short * __ptr64 * __ptr64 __cdecl PacketParser::GetBufferPtr(void) __ptr64` | 2280 | Exported Function
-`public: virtual unsigned short const * __ptr64 __cdecl CErrorContext::GetFaultXML(void)const __ptr64` | 2326 | Exported Function
-`public: virtual unsigned short * __ptr64 __cdecl CRequestContext::GetExtendedErrorString(void) __ptr64` | 2324 | Exported Function
-`public: virtual unsigned short * __ptr64 __cdecl CErrorContext::GetExtendedErrorString(void) __ptr64` | 2323 | Exported Function
-`public: virtual unsigned long __cdecl CircularBufferFormatter::GrowBuffer(unsigned long) __ptr64` | 2524 | Exported Function
-`public: virtual unsigned long __cdecl CircularBufferFormatter::GetSpaceUsed(bool)const __ptr64` | 2499 | Exported Function
-`public: virtual unsigned long __cdecl CircularBufferFormatter::GetCalculationSize(bool)const __ptr64` | 2285 | Exported Function
-`public: virtual unsigned long __cdecl CircularBufferFormatter::GrowBuffer(void) __ptr64` | 2525 | Exported Function
-`public: virtual unsigned long __cdecl CWSManSecurityUI::AddRef(void) __ptr64` | 1936 | Exported Function
-`public: virtual unsigned long __cdecl CRequestContext::GetMessageId(void)const __ptr64` | 2429 | Exported Function
-`public: virtual unsigned long __cdecl CircularBufferFormatter::PrepareToCommitWithSize(unsigned long) __ptr64` | 2936 | Exported Function
-`public: void __cdecl ChildLifeTimeManager::WaitForAllChildrenToUnregister(unsigned long) __ptr64` | 3490 | Exported Function
+`Charset` | 3330 | Exported Function
+`operator` | 1427 | Exported Function
+`LogErrorCode` | 2691 | Exported Function
+`UnregisterChild` | 3461 | Exported Function
+`Shutdown` | 3355 | Exported Function
+`SetExtraLogInfo` | 3326 | Exported Function
+`Detach` | 2207 | Exported Function
+`Detach` | 2206 | Exported Function
+`Detach` | 2202 | Exported Function
+`QueryPtr` | 2971 | Exported Function
+`GetParser` | 2465 | Exported Function
+`GetToken` | 2511 | Exported Function
+`GetImpersonationToken` | 2341 | Exported Function
+`Acquire` | 1862 | Exported Function
+`Release` | 3053 | Exported Function
+`Acquire` | 1854 | Exported Function
+`Release` | 3051 | Exported Function
+`Acquire` | 1855 | Exported Function
+`Release` | 3055 | Exported Function
+`Acquire` | 1856 | Exported Function
+`Release` | 3054 | Exported Function
+`Acquire` | 1850 | Exported Function
+`Release` | 3059 | Exported Function
+`Acquire` | 1860 | Exported Function
+`Release` | 3049 | Exported Function
+`Acquire` | 1852 | Exported Function
+`Release` | 3050 | Exported Function
+`Acquire` | 1851 | Exported Function
+`Release` | 3060 | Exported Function
+`Acquire` | 1861 | Exported Function
+`Release` | 3058 | Exported Function
+`Acquire` | 1844 | Exported Function
+`Release` | 3044 | Exported Function
+`Acquire` | 1845 | Exported Function
+`Release` | 3043 | Exported Function
+`Acquire` | 1853 | Exported Function
+`Release` | 3056 | Exported Function
+`Acquire` | 1857 | Exported Function
+`Release` | 3052 | Exported Function
+`Acquire` | 1859 | Exported Function
+`Release` | 3057 | Exported Function
+`Acquire` | 1858 | Exported Function
+`RecordAccessDenied` | 2990 | Exported Function
+`BuildSelectorSet` | 1999 | Exported Function
+`BuildFragmentTransfer` | 1996 | Exported Function
+`UnSubscribe` | 3459 | Exported Function
+`IsEPR` | 2611 | Exported Function
+`GetInheritTypes` | 2342 | Exported Function
+`GetAccessRights` | 2265 | Exported Function
+`Release` | 3076 | Exported Function
+`RecordSoapError` | 3014 | Exported Function
+`ProcessContext` | 2946 | Exported Function
+`ProcessContext` | 2947 | Exported Function
+`BuildSelectorSet` | 1998 | Exported Function
+`Subscribe` | 3456 | Exported Function
+`NotifyObservers` | 2886 | Exported Function
+`IsEPR` | 2610 | Exported Function
+`GetBuffer` | 2276 | Exported Function
+`GetBuffer` | 2274 | Exported Function
+`Release` | 3079 | Exported Function
+`GetBuffer` | 2275 | Exported Function
+`GetSpaceUsed` | 2498 | Exported Function
+`GetCalculationSize` | 2284 | Exported Function
+`GetBuffer` | 2277 | Exported Function
+`MapGeneric` | 2699 | Exported Function
+`GetSecurity` | 2483 | Exported Function
+`GetObjectInformation` | 2441 | Exported Function
+`PropertySheetPageCallback` | 2958 | Exported Function
+`AddRef` | 1937 | Exported Function
+`SetSecurity` | 3343 | Exported Function
+`QueryInterface` | 2970 | Exported Function
+`UseDefaultConfig` | 3470 | Exported Function
+`Initialize` | 2563 | Exported Function
+`DeInitialize` | 2074 | Exported Function
+`Initialize` | 2582 | Exported Function
+`operator` | 1359 | Exported Function
+`operator` | 1362 | Exported Function
+`operator` | 1361 | Exported Function
+`operator` | 1360 | Exported Function
+`DeInitialize` | 2075 | Exported Function
+`Initialize` | 2581 | Exported Function
+`DeInitialize` | 2092 | Exported Function
+`Initialize` | 2564 | Exported Function
+`DeInitialize` | 2093 | Exported Function
+`Initialize` | 2565 | Exported Function
+`DeInitialize` | 2076 | Exported Function
+`Passed` | 2929 | Exported Function
+`AllowUnencrypted` | 1953 | Exported Function
+`AllowNegotiate` | 1952 | Exported Function
+`ProcessContext` | 2941 | Exported Function
+`RecordSoapError` | 3012 | Exported Function
+`ProviderFailure` | 2959 | Exported Function
+`ProcessContext` | 2940 | Exported Function
+`operator` | 1364 | Exported Function
+`operator` | 1365 | Exported Function
+`operator` | 1363 | Exported Function
+`AllowBasic` | 1948 | Exported Function
+`AllowKerberos` | 1951 | Exported Function
+`AllowCredSsp` | 1950 | Exported Function
+`AllowClientCertificate` | 1949 | Exported Function
+`RecordFailure` | 2996 | Exported Function
+`RecordAccessDeniedWithDetail` | 2991 | Exported Function
+`RecordAccessDenied` | 2989 | Exported Function
+`RecordFailure` | 2995 | Exported Function
+`RecordHresult` | 3002 | Exported Function
+`RecordFailure` | 2994 | Exported Function
+`RecordFailure` | 2993 | Exported Function
+`LogError` | 2690 | Exported Function
+`Mode` | 3347 | Exported Function
+`Reset` | 3293 | Exported Function
+`OnChange` | 2887 | Exported Function
+`InternalHResult` | 2599 | Exported Function
+`InternalFailure` | 2597 | Exported Function
+`CopyTo` | 2017 | Exported Function
+`Reset` | 3296 | Exported Function
+`SetProviderFailure` | 3342 | Exported Function
+`SetGeneratingError` | 3333 | Exported Function
+`Mode` | 3348 | Exported Function
+`InternalHResult` | 2600 | Exported Function
+`InternalFailure` | 2598 | Exported Function
+`CopyTo` | 2018 | Exported Function
+`Reset` | 3294 | Exported Function
+`RecordProviderFailure` | 3009 | Exported Function
+`RecordOutOfMemory` | 3007 | Exported Function
+`SetCIM_Error` | 3315 | Exported Function
+`SetFault` | 3327 | Exported Function
+`SetExtendedErrorString` | 3324 | Exported Function
+`SetConfigToUseDefaults` | 3320 | Exported Function
+`GetFaultXML` | 2327 | Exported Function
+`GetMinBatchTimeout` | 2434 | Exported Function
+`GetMinBatchSize` | 2433 | Exported Function
+`GetMinBatchItems` | 2432 | Exported Function
+`GetMinEnvelopeSize` | 2435 | Exported Function
+`GetMessageId` | 2428 | Exported Function
+`GetErrorCode` | 2320 | Exported Function
+`GetMinTimeOut` | 2436 | Exported Function
+`PrepareToCommitWithSize` | 2935 | Exported Function
+`GrowBuffer` | 2523 | Exported Function
+`GrowBuffer` | 2522 | Exported Function
+`GetMaxBatchItems` | 2421 | Exported Function
+`GetMaxTimeOut` | 2425 | Exported Function
+`GetMaxEnvelopeSize` | 2423 | Exported Function
+`GetMaxBatchSize` | 2422 | Exported Function
+`AdministratorType` | 1993 | Exported Function
+`GetBufferLength` | 2279 | Exported Function
+`Release` | 3078 | Exported Function
+`GetBufferPtr` | 2280 | Exported Function
+`GetFaultXML` | 2326 | Exported Function
+`GetExtendedErrorString` | 2324 | Exported Function
+`GetExtendedErrorString` | 2323 | Exported Function
+`GrowBuffer` | 2524 | Exported Function
+`GetSpaceUsed` | 2499 | Exported Function
+`GetCalculationSize` | 2285 | Exported Function
+`GrowBuffer` | 2525 | Exported Function
+`AddRef` | 1936 | Exported Function
+`GetMessageId` | 2429 | Exported Function
+`PrepareToCommitWithSize` | 2936 | Exported Function
+`WaitForAllChildrenToUnregister` | 3490 | Exported Function
 `WSManConnectShell` | 3602 | Exported Function
 `WSManCloseSubscriptionHandle` | 3601 | Exported Function
 `WSManCloseShell` | 3600 | Exported Function
@@ -1289,351 +1289,351 @@ Function Name | Ordinal | Type
 `WSManMemoryOperation` | 3488 | Exported Function
 `WSManInvokeInternalEx` | 3639 | Exported Function
 `WSManInvokeInternal` | 3638 | Exported Function
-`public: void __cdecl XmlReader::RtlSecureZeroMemory(void) __ptr64` | 3311 | Exported Function
-`public: void __cdecl PacketParser::ParseStream(class CRequestContext * __ptr64,class ITransportReceiver * __ptr64,class Packet * __ptr64,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2924 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::Reset(bool) __ptr64` | 3277 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::PutValue(unsigned short const * __ptr64,int) __ptr64` | 2965 | Exported Function
+`RtlSecureZeroMemory` | 3311 | Exported Function
+`ParseStream` | 2924 | Exported Function
+`Reset` | 3277 | Exported Function
+`PutValue` | 2965 | Exported Function
 `public: void __cdecl RBUFFER::``default constructor closure'(void) __ptr64` | 1823 | Exported Function
-`public: void __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Clear(void) __ptr64` | 2004 | Exported Function
-`public: void __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Clear(void) __ptr64` | 2005 | Exported Function
-`public: void __cdecl RBUFFER::FreeMemory(void) __ptr64` | 2259 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned __int64>::Reset(bool) __ptr64` | 3278 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned __int64>::PutValue(unsigned __int64,int) __ptr64` | 2966 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::Reset(bool) __ptr64` | 3276 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned long>::PutOverrideValue(unsigned long) __ptr64` | 2961 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::PutOverrideValue(unsigned short const * __ptr64) __ptr64` | 2962 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned long>::Reset(bool) __ptr64` | 3275 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<unsigned long>::PutValue(unsigned long,int) __ptr64` | 2963 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::Release(void) __ptr64` | 3063 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::operator++(int) __ptr64` | 1763 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::Reset(void) __ptr64` | 3285 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::Reset(void) __ptr64` | 3280 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::Reset(void) __ptr64` | 3281 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::Release(void) __ptr64` | 3064 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::operator++(int) __ptr64` | 1764 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::operator++(int) __ptr64` | 1762 | Exported Function
-`public: void __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Clear(void) __ptr64` | 2003 | Exported Function
-`public: void __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Clear(void) __ptr64` | 2006 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::Release(void) __ptr64` | 3062 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::Release(void) __ptr64` | 3065 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::operator++(int) __ptr64` | 1765 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::Reset(void) __ptr64` | 3279 | Exported Function
-`public: void __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::PutValue(struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2964 | Exported Function
-`public: void __cdecl CWSManCriticalSection::Release(void) __ptr64` | 3077 | Exported Function
-`public: void __cdecl CWSManCriticalSection::Acquire(void) __ptr64` | 1882 | Exported Function
-`public: void __cdecl CServiceConfigCache::CServiceWatcher::Discard(void) __ptr64` | 2209 | Exported Function
-`public: void __cdecl CWSManCriticalSectionWithConditionVar::WakeAllWaitingForConditionVar(void) __ptr64` | 3493 | Exported Function
-`public: void __cdecl FastLock::AcquireExclusive(void) __ptr64` | 1883 | Exported Function
-`public: void __cdecl ExtendedSemantic::SetErrorAction(enum _MI_OperationCallback_ResponseType,enum _MI_CallbackMode) __ptr64` | 3321 | Exported Function
-`public: void __cdecl CWSManResourceNoResourceUri::SetOptionsMustUnderstandValue(int) __ptr64` | 3340 | Exported Function
-`public: void __cdecl CRequestContext::CompleteWithErrorContext(struct _WSMAN_PLUGIN_REQUEST * __ptr64) __ptr64` | 2011 | Exported Function
-`public: void __cdecl CircularBufferFormatter::SetMaxEnvelopeSize(unsigned long) __ptr64` | 3339 | Exported Function
-`public: void __cdecl CircularBufferFormatter::DropData(unsigned long) __ptr64` | 2213 | Exported Function
-`public: void __cdecl CRequestContext::LogErrorCode(void) __ptr64` | 2692 | Exported Function
-`public: void __cdecl CServiceConfigCache::ChangeLogging(enum ErrorLogging) __ptr64` | 2001 | Exported Function
-`public: void __cdecl CRequestContext::RecordProviderFailure(unsigned long,int,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3010 | Exported Function
-`public: void __cdecl CRequestContext::LogErrorMessage(void) __ptr64` | 2693 | Exported Function
-`public: void __cdecl PacketParser::FreePacket(void) __ptr64` | 2261 | Exported Function
-`public: void __cdecl PacketParser::Fragment::PutValue(unsigned short const * __ptr64,unsigned short const * __ptr64,int) __ptr64` | 2967 | Exported Function
-`public: void __cdecl PacketParser::EndOfStream(unsigned long) __ptr64` | 2218 | Exported Function
-`public: void __cdecl PacketParser::FreeXmlStructure(void) __ptr64` | 2262 | Exported Function
-`public: void __cdecl PacketParser::OverrideTimeout(unsigned long) __ptr64` | 2890 | Exported Function
-`public: void __cdecl PacketParser::OverrideMaxEnvelopeSize(unsigned long) __ptr64` | 2889 | Exported Function
-`public: void __cdecl PacketParser::NotUnderstandSoapHeader::PutValue(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 2968 | Exported Function
-`public: void __cdecl FastLock::ReleaseShared(void) __ptr64` | 3260 | Exported Function
-`public: void __cdecl FastLock::ReleaseExclusive(void) __ptr64` | 3081 | Exported Function
-`public: void __cdecl FastLock::AcquireShared(void) __ptr64` | 1884 | Exported Function
-`public: void __cdecl IRequestContext::RecordMIFailure(enum _MI_Result,unsigned long) __ptr64` | 3006 | Exported Function
-`public: void __cdecl PacketFormatter::SetCharsetAndBom(enum PacketFormatter::Charset,enum PacketFormatter::Charset) __ptr64` | 3319 | Exported Function
-`public: void __cdecl PacketFormatter::SetCharset(enum PacketFormatter::Charset) __ptr64` | 3317 | Exported Function
-`public: void __cdecl Locale::Reset(void) __ptr64` | 3297 | Exported Function
-`public: void __cdecl SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Release(void) __ptr64` | 3075 | Exported Function
-`public: void __cdecl SafeMap_Lock<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::Acquire(void) __ptr64` | 1880 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Acquire(void) __ptr64` | 1879 | Exported Function
-`public: void __cdecl SafeMap_Lock<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::Acquire(void) __ptr64` | 1871 | Exported Function
-`public: void __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeMap_Iterator<void * __ptr64,struct Empty> >::Acquire(void) __ptr64` | 1869 | Exported Function
-`public: void __cdecl SafeMap_Lock<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::Acquire(void) __ptr64` | 1881 | Exported Function
-`public: void __cdecl SafeMap_Lock<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Acquire(void) __ptr64` | 1872 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Acquire(void) __ptr64` | 1877 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::Acquire(void) __ptr64` | 1876 | Exported Function
-`public: void __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void) __ptr64` | 1874 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Acquire(void) __ptr64` | 1875 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Release(void) __ptr64` | 3074 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Acquire(void) __ptr64` | 1878 | Exported Function
-`public: void __cdecl SafeMap_Lock<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Release(void) __ptr64` | 3073 | Exported Function
-`public: void __cdecl UserRecord::Refresh(void) __ptr64` | 3017 | Exported Function
-`public: void __cdecl UserRecord::IncreaseProfileCount(void) __ptr64` | 2532 | Exported Function
-`public: void __cdecl UserRecord::DecreaseProfileCount(void) __ptr64` | 2103 | Exported Function
-`public: void __cdecl UserRecord::ReleaseQuota(enum OperationType,class Catalog::Provider const * __ptr64) __ptr64` | 3259 | Exported Function
-`public: void __cdecl UserRecord::SetProfileHandle(__int64) __ptr64` | 3341 | Exported Function
-`public: void __cdecl UserRecord::ResetProfileCount(void) __ptr64` | 3300 | Exported Function
-`public: void __cdecl UserRecord::Reset(void) __ptr64` | 3299 | Exported Function
-`public: void __cdecl SBUFFER::SetSizeInUse(unsigned int) __ptr64` | 3345 | Exported Function
-`public: void __cdecl SBUFFER::FreeMemory(void) __ptr64` | 2260 | Exported Function
-`public: void __cdecl SafeMap_Lock<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::Acquire(void) __ptr64` | 1870 | Exported Function
-`public: void __cdecl SimpleQueue<union _LARGE_INTEGER>::pop(void) __ptr64` | 3516 | Exported Function
-`public: void __cdecl TSTRBUFFER::TruncateAt(unsigned int) __ptr64` | 3457 | Exported Function
-`public: void __cdecl TSTRBUFFER::Reset(void) __ptr64` | 3298 | Exported Function
-`public: void __cdecl TSTRBUFFER::GetWsmanData(struct _WSMAN_DATA * __ptr64) __ptr64` | 2520 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::Acquire(void) __ptr64` | 1868 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::Reset(void) __ptr64` | 3289 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::Release(void) __ptr64` | 3067 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::operator++(int) __ptr64` | 1768 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::Reset(void) __ptr64` | 3290 | Exported Function
-`public: void __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::Reset(void) __ptr64` | 3291 | Exported Function
-`public: void __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::Release(void) __ptr64` | 3068 | Exported Function
-`public: void __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::operator++(int) __ptr64` | 1769 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::operator++(int) __ptr64` | 1767 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void) __ptr64` | 3286 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::LowerBound(class Locale::Key const & __ptr64) __ptr64` | 2696 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::Reset(void) __ptr64` | 3288 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::Reset(void) __ptr64` | 3287 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::Release(void) __ptr64` | 3066 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::operator++(int) __ptr64` | 1766 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::Acquire(void) __ptr64` | 1865 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Release(void) __ptr64` | 3072 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Acquire(void) __ptr64` | 1873 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::Release(void) __ptr64` | 3070 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >::Release(void) __ptr64` | 3071 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CShellUriSettings * __ptr64,struct Empty,class SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty> >::Acquire(void) __ptr64` | 1867 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Acquire(void) __ptr64` | 1866 | Exported Function
-`public: void __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::Reset(void) __ptr64` | 3292 | Exported Function
-`public: void __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::Reset(void) __ptr64` | 3284 | Exported Function
-`public: void __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::Reset(void) __ptr64` | 3283 | Exported Function
-`public: void __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::Reset(void) __ptr64` | 3282 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::Acquire(void) __ptr64` | 1864 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::Release(void) __ptr64` | 3069 | Exported Function
-`public: void __cdecl SafeMap_Lock<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::Acquire(void) __ptr64` | 1863 | Exported Function
-`public: static void __cdecl EventLog::Error(unsigned long)` | 2223 | Exported Function
-`public: static void __cdecl CWinRSPluginConfigCache::ProviderShutdownCleanup(void)` | 2960 | Exported Function
-`public: static void __cdecl CServiceConfigCache::EnsureNoActiveCaches(void)` | 2222 | Exported Function
-`public: static void __cdecl EventLog::Error(unsigned long,unsigned short const * __ptr64)` | 2225 | Exported Function
-`public: static void __cdecl EventLog::Info(unsigned long,unsigned short const * __ptr64)` | 2535 | Exported Function
-`public: static void __cdecl EventLog::Info(unsigned long)` | 2533 | Exported Function
-`public: static void __cdecl EventLog::Error(unsigned long,unsigned short,unsigned short const * __ptr64 * __ptr64)` | 2224 | Exported Function
-`public: static void * __ptr64 __cdecl CSecurity::GetToken(void)` | 2510 | Exported Function
-`public: static void * __ptr64 __cdecl CSecurity::GetSid(void)` | 2493 | Exported Function
-`public: static unsigned short * __ptr64 __cdecl WSManMemory::AllocBstrLen(unsigned short const * __ptr64,unsigned int,int,int)` | 1943 | Exported Function
-`public: static void * __ptr64 __cdecl WSManMemory::Alloc(unsigned __int64,int,enum _NitsFaultMode)` | 1941 | Exported Function
-`public: static void __cdecl CClientConfigCache::EnsureNoActiveCaches(void)` | 2221 | Exported Function
-`public: static void * __ptr64 __cdecl WSManMemory::ReAlloc(void * __ptr64,unsigned __int64,int,enum _NitsFaultMode)` | 2977 | Exported Function
-`public: static void * __ptr64 __cdecl WSManMemory::GetHeap(void)` | 2339 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::FormatDataDescriptor(struct _EVENT_DATA_DESCRIPTOR & __ptr64,char const * __ptr64)` | 2240 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::EnsureActivityIdOnThread(void)` | 2220 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::CreateActivityId(struct _GUID & __ptr64)` | 2019 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::FormatDataDescriptor(struct _EVENT_DATA_DESCRIPTOR & __ptr64,long & __ptr64)` | 2238 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::FormatDataDescriptor(struct _EVENT_DATA_DESCRIPTOR & __ptr64,unsigned short const * __ptr64)` | 2241 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::FormatDataDescriptor(struct _EVENT_DATA_DESCRIPTOR & __ptr64,unsigned short & __ptr64)` | 2237 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::FormatDataDescriptor(struct _EVENT_DATA_DESCRIPTOR & __ptr64,unsigned long & __ptr64)` | 2239 | Exported Function
-`public: static void __cdecl EventLog::Warning(unsigned long)` | 3495 | Exported Function
-`public: static void __cdecl EventLog::ReportEventW(unsigned short,unsigned long,unsigned short,unsigned short const * __ptr64 * __ptr64)` | 3274 | Exported Function
-`public: static void __cdecl EventLog::Info(unsigned long,unsigned short,unsigned short const * __ptr64 * __ptr64)` | 2534 | Exported Function
-`public: static void __cdecl EventLog::Warning(unsigned long,unsigned short const * __ptr64)` | 3497 | Exported Function
-`public: static void __cdecl UserRecord::Initialize(class UserRecord & __ptr64,struct UserRecord::Initializer const & __ptr64)` | 2592 | Exported Function
-`public: static void __cdecl Locale::ShutdownLocaleMap(void)` | 3356 | Exported Function
-`public: static void __cdecl EventLog::Warning(unsigned long,unsigned short,unsigned short const * __ptr64 * __ptr64)` | 3496 | Exported Function
-`public: static unsigned short * __ptr64 __cdecl WSManMemory::AllocBstr(unsigned short const * __ptr64,int,int)` | 1942 | Exported Function
-`public: static int __cdecl ConfigUpdate::AddDefaultPlugins(class IRequestContext * __ptr64,int)` | 1930 | Exported Function
-`public: static int __cdecl CConfigManager::WriteCredentialsToCredmanStore(class IRequestContext * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64,int)` | 3502 | Exported Function
-`public: static int __cdecl CConfigManager::UpdateCredentialsInCredmanStore(class IRequestContext * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64)` | 3464 | Exported Function
-`public: static int __cdecl CSecurity::BeginRevertToSelf(void * __ptr64 * __ptr64,unsigned long)` | 1995 | Exported Function
-`public: static int __cdecl CSecurity::ExtractSidFromToken(class IRequestContext * __ptr64,void * __ptr64,class AutoLocalFree & __ptr64)` | 2232 | Exported Function
-`public: static int __cdecl CSecurity::EndRevertToSelf(void * __ptr64)` | 2219 | Exported Function
-`public: static int __cdecl CSecurity::DuplicateCurrentToken(void * __ptr64 * __ptr64,unsigned long,struct _SECURITY_ATTRIBUTES * __ptr64,enum _SECURITY_IMPERSONATION_LEVEL,enum _TOKEN_TYPE,int)` | 2214 | Exported Function
-`public: static int __cdecl CConfigManager::ReadCertMappingRegistryKey(class IRequestContext * __ptr64,class CERTMAPPING_IDENTITY * __ptr64,unsigned short * __ptr64)` | 2978 | Exported Function
-`public: static int __cdecl CConfigManager::IsAutoListenerConfigurationOn(class IRequestContext * __ptr64,int * __ptr64)` | 2605 | Exported Function
-`public: static int __cdecl CConfigManager::GetIISConfiguration(class IRequestContext * __ptr64,unsigned short const * __ptr64,class XmlReader * __ptr64 * __ptr64)` | 2340 | Exported Function
-`public: static int __cdecl CConfigManager::ReadCredentialsFromCredmanStore(class IRequestContext * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64)` | 2979 | Exported Function
-`public: static int __cdecl CConfigManager::Shutdown(void)` | 3353 | Exported Function
-`public: static int __cdecl CConfigManager::ReadTableRegistryKey(class IRequestContext * __ptr64,class WSMANCONFIGTABLE_IDENTITY * __ptr64,unsigned short * __ptr64)` | 2987 | Exported Function
-`public: static int __cdecl CConfigManager::ReadShellUriRegistryKey(class IRequestContext * __ptr64,class SHELLURI_IDENTITY * __ptr64,unsigned short * __ptr64)` | 2986 | Exported Function
-`public: static unsigned long const ExtendedSemantic::NoSemantics` | 2885 | Exported Function
-`public: static unsigned long const ExtendedSemantic::ErrorAction` | 2226 | Exported Function
-`public: static unsigned long const ExtendedSemantic::Debug` | 2096 | Exported Function
-`public: static unsigned long const ExtendedSemantic::Progress` | 2957 | Exported Function
-`public: static unsigned long const ExtendedSemantic::Warning` | 3498 | Exported Function
-`public: static unsigned long const ExtendedSemantic::Verbose` | 3485 | Exported Function
-`public: static unsigned long const ExtendedSemantic::StreamingOutput` | 3445 | Exported Function
-`public: static int __cdecl CSecurity::RevertToSelf(void)` | 3310 | Exported Function
-`public: static int __cdecl CSecurity::IsLocalSystemSid(void * __ptr64)` | 2639 | Exported Function
-`public: static int __cdecl CSecurity::ImpersonateUserOrSelf(enum CallSiteId,void * __ptr64)` | 2531 | Exported Function
-`public: static int __cdecl CWSManGroupPolicyManager::Shutdown(void)` | 3354 | Exported Function
-`public: static unsigned long const ExtendedSemantic::Confirm` | 2012 | Exported Function
-`public: static unsigned long __cdecl CServiceConfigCache::GetCacheCount(void)` | 2283 | Exported Function
-`public: static unsigned long __cdecl CClientConfigCache::GetCacheCount(void)` | 2282 | Exported Function
-`public: struct _WSMAN_STREAM_ID_SET * __ptr64 __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::operator->(void) __ptr64` | 1611 | Exported Function
-`public: struct _WSMAN_STREAM_ID_SET * __ptr64 __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::Detach(void) __ptr64` | 2112 | Exported Function
-`public: struct _WSMAN_RESOURCE_LOCATOR * __ptr64 __cdecl CWSManResource::GetLocator(void) __ptr64` | 2369 | Exported Function
-`public: struct CWSManIPFilter::IPRange * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::Storage(void) __ptr64` | 3380 | Exported Function
-`public: struct HKEY__ * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::Storage(void) __ptr64` | 3438 | Exported Function
-`public: struct FWXML_DOCUMENT * __ptr64 __cdecl PacketParser::GetXmlDoc(void) __ptr64` | 2521 | Exported Function
-`public: struct CWSManIPFilter::IPRange * __ptr64 __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::Detach(void) __ptr64` | 2111 | Exported Function
-`public: struct _WINRS_RUN_COMMAND_ARG * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::operator->(void) __ptr64` | 1670 | Exported Function
-`public: struct _WINRS_RUN_COMMAND_ARG * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::Detach(void) __ptr64` | 2158 | Exported Function
-`public: struct _WINRS_RUN_COMMAND_ARG * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::Storage(void) __ptr64` | 3395 | Exported Function
-`public: struct _WINRS_RUN_COMMAND_ARG * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::operator->(void)const __ptr64` | 1671 | Exported Function
-`public: struct _WSMAN_OPTION * __ptr64 __cdecl CWSManResourceNoResourceUri::GetOptions(void) __ptr64` | 2459 | Exported Function
-`public: struct _WSMAN_OPTION * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::Detach(void) __ptr64` | 2159 | Exported Function
-`public: struct _WSMAN_KEY * __ptr64 __cdecl CWSManResourceNoResourceUri::GetKeys(void) __ptr64` | 2362 | Exported Function
-`public: struct IAppHostElementCollection * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::operator->(void) __ptr64` | 1675 | Exported Function
-`public: struct IAppHostElementCollection * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::Storage(void) __ptr64` | 3403 | Exported Function
-`public: struct IAppHostElement * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>::Storage(void) __ptr64` | 3402 | Exported Function
-`public: struct IAppHostProperty * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>::Storage(void) __ptr64` | 3404 | Exported Function
-`public: struct IAppHostPropertyCollection * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>::operator->(void) __ptr64` | 1677 | Exported Function
-`public: struct IAppHostPropertyCollection * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>::Storage(void) __ptr64` | 3405 | Exported Function
-`public: struct IAppHostProperty * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>::operator->(void) __ptr64` | 1676 | Exported Function
-`public: struct IAppHostAdminManager * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>::operator->(void) __ptr64` | 1672 | Exported Function
-`public: struct IAppHostAdminManager * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>::Storage(void) __ptr64` | 3399 | Exported Function
-`public: struct HKEY__ * __ptr64 __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::Detach(void) __ptr64` | 2205 | Exported Function
-`public: struct IAppHostChildElementCollection * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::Storage(void) __ptr64` | 3400 | Exported Function
-`public: struct IAppHostConfigException * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>::operator->(void) __ptr64` | 1674 | Exported Function
-`public: struct IAppHostConfigException * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>::Storage(void) __ptr64` | 3401 | Exported Function
-`public: struct IAppHostChildElementCollection * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::operator->(void) __ptr64` | 1673 | Exported Function
-`public: struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::operator->(void)const __ptr64` | 1669 | Exported Function
-`public: struct _CERT_CHAIN_CONTEXT const * __ptr64 __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::operator->(void) __ptr64` | 1749 | Exported Function
-`public: struct _CERT_CHAIN_CONTEXT const * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::Storage(void) __ptr64` | 3432 | Exported Function
-`public: static void __cdecl WSManMemory::FreeBstr(unsigned short * __ptr64,int,int)` | 2244 | Exported Function
-`public: struct _CERT_CONTEXT const * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::Storage(void) __ptr64` | 3431 | Exported Function
-`public: struct _FWXML_ELEMENT * __ptr64 __cdecl PacketParser::GetSoapHeaders(void) __ptr64` | 2496 | Exported Function
-`public: struct _FWXML_ELEMENT * __ptr64 __cdecl PacketParser::GetSoapBody(void) __ptr64` | 2495 | Exported Function
-`public: struct _CERT_CONTEXT const * __ptr64 __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::Detach(void) __ptr64` | 2199 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::Write(struct _EVENT_DESCRIPTOR const & __ptr64,unsigned long,struct _EVENT_DATA_DESCRIPTOR * __ptr64)` | 3501 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::GetActivityIdOnCurrentThread(struct _GUID & __ptr64)` | 2268 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::GenerateTransferId(struct _EVENT_DESCRIPTOR const & __ptr64,struct _GUID const * __ptr64,struct _GUID const * __ptr64)` | 2263 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::WriteSoapA(struct _EVENT_DESCRIPTOR const & __ptr64,char const * __ptr64,unsigned long)` | 3503 | Exported Function
-`public: static void __cdecl WSManMemory::Free(void * __ptr64,int)` | 2243 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::WriteSoapW_BE(struct _EVENT_DESCRIPTOR const & __ptr64,unsigned short const * __ptr64,unsigned long)` | 3508 | Exported Function
-`public: static void __cdecl WSMan::EventHandler::WriteSoapW(struct _EVENT_DESCRIPTOR const & __ptr64,unsigned short const * __ptr64,unsigned long)` | 3507 | Exported Function
-`public: struct _MI_Instance * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::Storage(void) __ptr64` | 3437 | Exported Function
-`public: struct _MI_Class * __ptr64 __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::operator->(void) __ptr64` | 1752 | Exported Function
-`public: struct _MI_Class * __ptr64 __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::Detach(void) __ptr64` | 2203 | Exported Function
-`public: struct _MI_Instance * __ptr64 __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::Detach(void) __ptr64` | 2204 | Exported Function
-`public: struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::operator->(void) __ptr64` | 1668 | Exported Function
-`public: struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::Detach(void) __ptr64` | 2157 | Exported Function
-`public: struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::Storage(void) __ptr64` | 3394 | Exported Function
-`public: struct _FWXML_ELEMENT * __ptr64 __cdecl XmlReader::GetRoot(void) __ptr64` | 2482 | Exported Function
-`public: struct _FWXML_ELEMENT * __ptr64 __cdecl SoapSemanticConverter::GetDescriptionElement(struct _FWXML_ELEMENT * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2312 | Exported Function
-`public: struct _FWXML_ELEMENT * __ptr64 __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::GetValue(void)const __ptr64` | 2517 | Exported Function
-`public: struct _GUID & __ptr64 __cdecl PacketParser::GetCorrelationId(void) __ptr64` | 2301 | Exported Function
-`public: struct _MI_Class * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::Storage(void) __ptr64` | 3436 | Exported Function
-`public: struct _GUID & __ptr64 __cdecl PacketParser::SessionId::GetSessionIdGuid(void) __ptr64` | 2490 | Exported Function
-`public: struct _GUID & __ptr64 __cdecl PacketParser::GetSessionIdGuid(void) __ptr64` | 2489 | Exported Function
-`public: static int __cdecl CConfigManager::DeleteCredentialsFromCredmanStore(class IRequestContext * __ptr64,unsigned short * __ptr64)` | 2105 | Exported Function
-`public: int __cdecl PacketParser::ExtractShellId(class CRequestContext * __ptr64,unsigned short * __ptr64,unsigned long) __ptr64` | 2231 | Exported Function
-`public: int __cdecl PacketParser::ExtractContextId(unsigned short const * __ptr64 * __ptr64,unsigned long,unsigned short const * __ptr64) __ptr64` | 2230 | Exported Function
-`public: int __cdecl CWSManSecurityUI::Init(unsigned short * __ptr64,unsigned short * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2537 | Exported Function
-`public: int __cdecl PacketParser::IsIdentifyPacket(void)const __ptr64` | 2636 | Exported Function
-`public: int __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::IsFound(void)const __ptr64` | 2632 | Exported Function
-`public: int __cdecl PacketParser::IsRobustConnectionPacket(void)const __ptr64` | 2643 | Exported Function
-`public: int __cdecl PacketParser::IsNonOperativePacket(void)const __ptr64` | 2641 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::ParseHeaders(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,struct _FWXML_ELEMENT * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2903 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::HasOption(unsigned short const * __ptr64) __ptr64` | 2530 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::GetOptionsMustUnderstandValue(void) __ptr64` | 2460 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::ParseOptionSet(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2910 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::UpdateKey(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3467 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::SetFragmentPath(unsigned short const * __ptr64,class IRequestContext * __ptr64) __ptr64` | 3332 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::SetFragmentDialect(unsigned short const * __ptr64,class IRequestContext * __ptr64) __ptr64` | 3331 | Exported Function
-`public: int __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Size(void)const __ptr64` | 3359 | Exported Function
-`public: int __cdecl RBUFFER::Resize(unsigned int,unsigned int) __ptr64` | 3303 | Exported Function
-`public: int __cdecl RBUFFER::Resize(unsigned int) __ptr64` | 3302 | Exported Function
-`public: int __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Size(void)const __ptr64` | 3357 | Exported Function
-`public: int __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Size(void)const __ptr64` | 3362 | Exported Function
-`public: int __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Size(void)const __ptr64` | 3360 | Exported Function
-`public: int __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::Size(void)const __ptr64` | 3361 | Exported Function
-`public: int __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::IsFound(void)const __ptr64` | 2633 | Exported Function
-`public: int __cdecl PacketParser::PacketElement<unsigned long>::IsFound(void)const __ptr64` | 2631 | Exported Function
-`public: int __cdecl PacketParser::PacketElement<unsigned __int64>::IsFound(void)const __ptr64` | 2634 | Exported Function
-`public: int __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::IsMustUnderstand(void)const __ptr64` | 2640 | Exported Function
-`public: int __cdecl PacketParser::ValidateHeaders(class IRequestContext * __ptr64,unsigned long) __ptr64` | 3476 | Exported Function
-`public: int __cdecl PacketParser::ParseSubscriptionAgentPacket(class CRequestContext * __ptr64,class Packet * __ptr64,class CServiceConfigSettings * __ptr64) __ptr64` | 2925 | Exported Function
-`public: int __cdecl PacketParser::ParsePacket(class CRequestContext * __ptr64,class Packet * __ptr64,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2912 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::ClearOptions(void) __ptr64` | 2008 | Exported Function
-`public: int __cdecl CRequestContext::ProcessContext(int,struct _WSMAN_RESULT * __ptr64) __ptr64` | 2944 | Exported Function
-`public: int __cdecl CRequestContext::ProcessContext(int,struct _WSMAN_EVENTS_RESULT * __ptr64) __ptr64` | 2943 | Exported Function
-`public: int __cdecl CRequestContext::ProcessContext(int,struct _WSMAN_ENUMERATOR_RESULT * __ptr64) __ptr64` | 2942 | Exported Function
-`public: int __cdecl CRequestContext::ProcessContext(int,struct _WSMAN_STATUS * __ptr64) __ptr64` | 2945 | Exported Function
-`public: int __cdecl CRequestContext::RecordSoapError(unsigned long,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 3013 | Exported Function
-`public: int __cdecl CRequestContext::RecordHtmlError(unsigned long,unsigned short const * __ptr64,unsigned long) __ptr64` | 3005 | Exported Function
-`public: int __cdecl CRequestContext::RecordHtmlError(unsigned long,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 3004 | Exported Function
-`public: int __cdecl CConfigManager::NextListener(void) __ptr64` | 2882 | Exported Function
-`public: int __cdecl CConfigManager::NextCertMapping(void) __ptr64` | 2881 | Exported Function
-`public: int __cdecl CConfigManager::IsPolicyControlledSetting(class IRequestContext * __ptr64,enum ConfigSetting,int * __ptr64) __ptr64` | 2642 | Exported Function
-`public: int __cdecl CConfigManager::NextRow(void) __ptr64` | 2883 | Exported Function
-`public: int __cdecl CRequestContext::IsCIM_Error(void) __ptr64` | 2606 | Exported Function
-`public: int __cdecl CRequestContext::HasFaultXML(void)const __ptr64` | 2528 | Exported Function
-`public: int __cdecl CConfigManager::NextShellUri(void) __ptr64` | 2884 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::AddKey(unsigned short const * __ptr64,unsigned short const * __ptr64,class IRequestContext * __ptr64) __ptr64` | 1931 | Exported Function
-`public: int __cdecl CWSManResource::StoreData(class IRequestContext * __ptr64,unsigned short const * __ptr64) __ptr64` | 3442 | Exported Function
-`public: int __cdecl CWSManResource::SetUri(unsigned short const * __ptr64,class IRequestContext * __ptr64) __ptr64` | 3349 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::AddOption(unsigned short const * __ptr64,unsigned short const * __ptr64,int,class IRequestContext * __ptr64) __ptr64` | 1933 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::ClearKeys(void) __ptr64` | 2007 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::BuildOptionSet(class BufferFormatter & __ptr64) __ptr64` | 1997 | Exported Function
-`public: int __cdecl CWSManResourceNoResourceUri::AddOptionSet(struct _WSMAN_OPTION_SET * __ptr64,class IRequestContext * __ptr64) __ptr64` | 1934 | Exported Function
-`public: int __cdecl CWSManCriticalSection::TryAcquire(void) __ptr64` | 3458 | Exported Function
-`public: int __cdecl CWSManCriticalSection::IsValid(void)const __ptr64` | 2683 | Exported Function
-`public: int __cdecl CWSManCriticalSection::DoesThreadOwnLock(void) __ptr64` | 2211 | Exported Function
-`public: int __cdecl CWSManGroupPolicyManager::GetBool(class IRequestContext * __ptr64,enum WSManGroupPolicySetting,int * __ptr64,enum WSManGroupPolicySettingState * __ptr64) __ptr64` | 2273 | Exported Function
-`public: int __cdecl CWSManResource::ProcessUri(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2956 | Exported Function
-`public: int __cdecl CWSManGroupPolicyManager::GetString(class IRequestContext * __ptr64,enum WSManGroupPolicySetting,unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,enum WSManGroupPolicySettingState * __ptr64) __ptr64` | 2502 | Exported Function
-`public: int __cdecl CWSManGroupPolicyManager::GetInt(class IRequestContext * __ptr64,enum WSManGroupPolicySetting,unsigned long * __ptr64,enum WSManGroupPolicySettingState * __ptr64) __ptr64` | 2358 | Exported Function
-`public: static bool __cdecl WSMan::EventHandler::IsEventProviderEnabled(void)` | 2630 | Exported Function
-`public: static bool __cdecl WSMan::EventHandler::IsEventEnabled(struct _EVENT_DESCRIPTOR const & __ptr64)` | 2629 | Exported Function
-`public: static bool __cdecl Locale::Validate(unsigned short const * __ptr64)` | 3473 | Exported Function
-`public: static class CClientConfigCache * __ptr64 __cdecl CClientConfigCache::GetConfigCache(class IRequestContext * __ptr64,int)` | 2292 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetConfigManagerForListener(class LISTENER_IDENTITY * __ptr64,class IRequestContext * __ptr64)` | 2297 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetConfigManagerForCertMapping(class CERTMAPPING_IDENTITY * __ptr64,class IRequestContext * __ptr64)` | 2296 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetConfigManager(void)` | 2295 | Exported Function
-`public: long __cdecl TSTRBUFFER::SetExactCharSize(unsigned int) __ptr64` | 3323 | Exported Function
-`public: long __cdecl TSTRBUFFER::InsertAtPosition(unsigned short const * __ptr64,unsigned int) __ptr64` | 2596 | Exported Function
-`public: long __cdecl TSTRBUFFER::Copy(unsigned short const * __ptr64) __ptr64` | 2013 | Exported Function
-`public: long __cdecl TSTRBUFFER::SetSize(unsigned int,unsigned int) __ptr64` | 3344 | Exported Function
-`public: static bool __cdecl Locale::Validate(struct _WSMAN_DATA * __ptr64)` | 3472 | Exported Function
-`public: long __cdecl UserRecord::Release(void) __ptr64` | 3080 | Exported Function
-`public: long __cdecl UserRecord::GetProfileCount(void) __ptr64` | 2470 | Exported Function
-`public: static class CWSManGroupPolicyManager * __ptr64 __cdecl CWSManGroupPolicyManager::GetGroupPolicyManager(class IRequestContext * __ptr64,unsigned short const * __ptr64)` | 2338 | Exported Function
-`public: static class CWSManEPR * __ptr64 __cdecl CWSManEPR::ParseEprElement(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64)` | 2898 | Exported Function
-`public: static class CWinRSPluginConfigCache * __ptr64 __cdecl CWinRSPluginConfigCache::GetConfigCache(class IRequestContext * __ptr64,enum ErrorLogging,int)` | 2294 | Exported Function
-`public: static class CWSManResource * __ptr64 __cdecl CWSManResource::Parse(class IRequestContext * __ptr64,unsigned short const * __ptr64,int)` | 2892 | Exported Function
-`public: static class WSManMigrationContext * __ptr64 __ptr64 ConfigRegistry::m_migContext` | 3515 | Exported Function
-`public: static class CWSManResource * __ptr64 __cdecl CWSManResource::ParseResourceLocator(class IRequestContext * __ptr64,struct _WSMAN_RESOURCE_LOCATOR * __ptr64)` | 2915 | Exported Function
-`public: static class CWSManResource * __ptr64 __cdecl CWSManResource::Parse(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct _WSMAN_SELECTOR_SET * __ptr64,struct _WSMAN_OPTION_SET * __ptr64,int)` | 2891 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetFirstConfigManagerForCertMapping(unsigned short const * __ptr64)` | 2329 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetConfigManagerForTable(class WSMANCONFIGTABLE_IDENTITY * __ptr64,class IRequestContext * __ptr64)` | 2299 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetConfigManagerForShellUri(class SHELLURI_IDENTITY * __ptr64,class IRequestContext * __ptr64)` | 2298 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetFirstConfigManagerForListener(unsigned short const * __ptr64)` | 2330 | Exported Function
-`public: static class CServiceConfigCache * __ptr64 __cdecl CServiceConfigCache::GetConfigCache(class IRequestContext * __ptr64,enum ErrorLogging,int)` | 2293 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetFirstConfigManagerForTable(enum WSMANTableConfigType,unsigned short const * __ptr64)` | 2332 | Exported Function
-`public: static class CConfigManager * __ptr64 __cdecl CConfigManager::GetFirstConfigManagerForShellUri(unsigned short const * __ptr64)` | 2331 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartItem(void) __ptr64` | 1976 | Exported Function
-`public: long __cdecl TSTRBUFFER::Append(unsigned short const * __ptr64,unsigned int,unsigned int) __ptr64` | 1957 | Exported Function
-`public: long __cdecl TSTRBUFFER::Append(unsigned short const * __ptr64) __ptr64` | 1956 | Exported Function
-`public: long __cdecl TSTRBUFFER::AllocSysString(unsigned short * __ptr64 * __ptr64)const __ptr64` | 1947 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendChar(unsigned short) __ptr64` | 1958 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlElem(unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1961 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendEscapeXmlContent(unsigned short const * __ptr64,bool) __ptr64` | 1960 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendEscapeXmlAttribute(unsigned short const * __ptr64,unsigned short) __ptr64` | 1959 | Exported Function
-`public: int __cdecl XmlReader::Init(class IRequestContext * __ptr64,unsigned short const * __ptr64) __ptr64` | 2540 | Exported Function
-`public: int __cdecl XmlReader::Init(class IRequestContext * __ptr64,struct WSMAN_OBJECT * __ptr64) __ptr64` | 2539 | Exported Function
-`public: int __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::Size(void)const __ptr64` | 3358 | Exported Function
-`public: long __cdecl ChildLifeTimeManager::GetChildCount(void)const __ptr64` | 2290 | Exported Function
-`public: long __cdecl SBUFFER::Append(unsigned char * __ptr64,unsigned int) __ptr64` | 1954 | Exported Function
-`public: long __cdecl SBUFFER::Append(class SBUFFER * __ptr64) __ptr64` | 1955 | Exported Function
-`public: long __cdecl ILifeTimeMgmt::GetRefCount(void) __ptr64` | 2474 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartElemWithNamespaceAndPrefix(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1971 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartElemWithNamespace(unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1970 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartElem(unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1969 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartElemWithNamespaces(unsigned short const * __ptr64,unsigned long,struct _XML_NAMESPACE_PREFIX * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1972 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartFragment(void) __ptr64` | 1975 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartElemWithPrefix(unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1974 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlStartElemWithNamespacesAndPrefixes(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long,struct _XML_NAMESPACE_PREFIX * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1973 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlElemWithPrefix(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1964 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlElemWithNamespaceAndPrefix(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1963 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlElemWithNamespace(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int,unsigned long,struct _XML_ATTRIB * __ptr64) __ptr64` | 1962 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlEndElem(unsigned short const * __ptr64) __ptr64` | 1965 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlEndItem(void) __ptr64` | 1968 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlEndFragment(void) __ptr64` | 1967 | Exported Function
-`public: long __cdecl TSTRBUFFER::AppendXmlEndElemWithPrefix(unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 1966 | Exported Function
-`public: struct IClientSecurity * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::Storage(void) __ptr64` | 3406 | Exported Function
+`Clear` | 2004 | Exported Function
+`Clear` | 2005 | Exported Function
+`FreeMemory` | 2259 | Exported Function
+`Reset` | 3278 | Exported Function
+`PutValue` | 2966 | Exported Function
+`Reset` | 3276 | Exported Function
+`PutOverrideValue` | 2961 | Exported Function
+`PutOverrideValue` | 2962 | Exported Function
+`Reset` | 3275 | Exported Function
+`PutValue` | 2963 | Exported Function
+`Release` | 3063 | Exported Function
+`operator` | 1763 | Exported Function
+`Reset` | 3285 | Exported Function
+`Reset` | 3280 | Exported Function
+`Reset` | 3281 | Exported Function
+`Release` | 3064 | Exported Function
+`operator` | 1764 | Exported Function
+`operator` | 1762 | Exported Function
+`Clear` | 2003 | Exported Function
+`Clear` | 2006 | Exported Function
+`Release` | 3062 | Exported Function
+`Release` | 3065 | Exported Function
+`operator` | 1765 | Exported Function
+`Reset` | 3279 | Exported Function
+`PutValue` | 2964 | Exported Function
+`Release` | 3077 | Exported Function
+`Acquire` | 1882 | Exported Function
+`Discard` | 2209 | Exported Function
+`WakeAllWaitingForConditionVar` | 3493 | Exported Function
+`AcquireExclusive` | 1883 | Exported Function
+`SetErrorAction` | 3321 | Exported Function
+`SetOptionsMustUnderstandValue` | 3340 | Exported Function
+`CompleteWithErrorContext` | 2011 | Exported Function
+`SetMaxEnvelopeSize` | 3339 | Exported Function
+`DropData` | 2213 | Exported Function
+`LogErrorCode` | 2692 | Exported Function
+`ChangeLogging` | 2001 | Exported Function
+`RecordProviderFailure` | 3010 | Exported Function
+`LogErrorMessage` | 2693 | Exported Function
+`FreePacket` | 2261 | Exported Function
+`PutValue` | 2967 | Exported Function
+`EndOfStream` | 2218 | Exported Function
+`FreeXmlStructure` | 2262 | Exported Function
+`OverrideTimeout` | 2890 | Exported Function
+`OverrideMaxEnvelopeSize` | 2889 | Exported Function
+`PutValue` | 2968 | Exported Function
+`ReleaseShared` | 3260 | Exported Function
+`ReleaseExclusive` | 3081 | Exported Function
+`AcquireShared` | 1884 | Exported Function
+`RecordMIFailure` | 3006 | Exported Function
+`Charset` | 3319 | Exported Function
+`Charset` | 3317 | Exported Function
+`Reset` | 3297 | Exported Function
+`Release` | 3075 | Exported Function
+`Acquire` | 1880 | Exported Function
+`Acquire` | 1879 | Exported Function
+`Acquire` | 1871 | Exported Function
+`Acquire` | 1869 | Exported Function
+`Acquire` | 1881 | Exported Function
+`Acquire` | 1872 | Exported Function
+`Acquire` | 1877 | Exported Function
+`Acquire` | 1876 | Exported Function
+`Acquire` | 1874 | Exported Function
+`Acquire` | 1875 | Exported Function
+`Release` | 3074 | Exported Function
+`Acquire` | 1878 | Exported Function
+`Release` | 3073 | Exported Function
+`Refresh` | 3017 | Exported Function
+`IncreaseProfileCount` | 2532 | Exported Function
+`DecreaseProfileCount` | 2103 | Exported Function
+`Provider` | 3259 | Exported Function
+`SetProfileHandle` | 3341 | Exported Function
+`ResetProfileCount` | 3300 | Exported Function
+`Reset` | 3299 | Exported Function
+`SetSizeInUse` | 3345 | Exported Function
+`FreeMemory` | 2260 | Exported Function
+`Acquire` | 1870 | Exported Function
+`pop` | 3516 | Exported Function
+`TruncateAt` | 3457 | Exported Function
+`Reset` | 3298 | Exported Function
+`GetWsmanData` | 2520 | Exported Function
+`Acquire` | 1868 | Exported Function
+`Reset` | 3289 | Exported Function
+`Release` | 3067 | Exported Function
+`operator` | 1768 | Exported Function
+`Reset` | 3290 | Exported Function
+`Reset` | 3291 | Exported Function
+`Release` | 3068 | Exported Function
+`operator` | 1769 | Exported Function
+`operator` | 1767 | Exported Function
+`Reset` | 3286 | Exported Function
+`Key` | 2696 | Exported Function
+`Reset` | 3288 | Exported Function
+`Reset` | 3287 | Exported Function
+`Release` | 3066 | Exported Function
+`operator` | 1766 | Exported Function
+`Acquire` | 1865 | Exported Function
+`Release` | 3072 | Exported Function
+`Acquire` | 1873 | Exported Function
+`Release` | 3070 | Exported Function
+`Release` | 3071 | Exported Function
+`Acquire` | 1867 | Exported Function
+`Acquire` | 1866 | Exported Function
+`Reset` | 3292 | Exported Function
+`Reset` | 3284 | Exported Function
+`Reset` | 3283 | Exported Function
+`Reset` | 3282 | Exported Function
+`Acquire` | 1864 | Exported Function
+`Release` | 3069 | Exported Function
+`Acquire` | 1863 | Exported Function
+`Error` | 2223 | Exported Function
+`ProviderShutdownCleanup` | 2960 | Exported Function
+`EnsureNoActiveCaches` | 2222 | Exported Function
+`Error` | 2225 | Exported Function
+`Info` | 2535 | Exported Function
+`Info` | 2533 | Exported Function
+`Error` | 2224 | Exported Function
+`GetToken` | 2510 | Exported Function
+`GetSid` | 2493 | Exported Function
+`AllocBstrLen` | 1943 | Exported Function
+`Alloc` | 1941 | Exported Function
+`EnsureNoActiveCaches` | 2221 | Exported Function
+`ReAlloc` | 2977 | Exported Function
+`GetHeap` | 2339 | Exported Function
+`FormatDataDescriptor` | 2240 | Exported Function
+`EnsureActivityIdOnThread` | 2220 | Exported Function
+`CreateActivityId` | 2019 | Exported Function
+`FormatDataDescriptor` | 2238 | Exported Function
+`FormatDataDescriptor` | 2241 | Exported Function
+`FormatDataDescriptor` | 2237 | Exported Function
+`FormatDataDescriptor` | 2239 | Exported Function
+`Warning` | 3495 | Exported Function
+`ReportEventW` | 3274 | Exported Function
+`Info` | 2534 | Exported Function
+`Warning` | 3497 | Exported Function
+`Initializer` | 2592 | Exported Function
+`ShutdownLocaleMap` | 3356 | Exported Function
+`Warning` | 3496 | Exported Function
+`AllocBstr` | 1942 | Exported Function
+`AddDefaultPlugins` | 1930 | Exported Function
+`WriteCredentialsToCredmanStore` | 3502 | Exported Function
+`UpdateCredentialsInCredmanStore` | 3464 | Exported Function
+`BeginRevertToSelf` | 1995 | Exported Function
+`ExtractSidFromToken` | 2232 | Exported Function
+`EndRevertToSelf` | 2219 | Exported Function
+`DuplicateCurrentToken` | 2214 | Exported Function
+`ReadCertMappingRegistryKey` | 2978 | Exported Function
+`IsAutoListenerConfigurationOn` | 2605 | Exported Function
+`GetIISConfiguration` | 2340 | Exported Function
+`ReadCredentialsFromCredmanStore` | 2979 | Exported Function
+`Shutdown` | 3353 | Exported Function
+`ReadTableRegistryKey` | 2987 | Exported Function
+`ReadShellUriRegistryKey` | 2986 | Exported Function
+`NoSemantics` | 2885 | Exported Function
+`ErrorAction` | 2226 | Exported Function
+`Debug` | 2096 | Exported Function
+`Progress` | 2957 | Exported Function
+`Warning` | 3498 | Exported Function
+`Verbose` | 3485 | Exported Function
+`StreamingOutput` | 3445 | Exported Function
+`RevertToSelf` | 3310 | Exported Function
+`IsLocalSystemSid` | 2639 | Exported Function
+`ImpersonateUserOrSelf` | 2531 | Exported Function
+`Shutdown` | 3354 | Exported Function
+`Confirm` | 2012 | Exported Function
+`GetCacheCount` | 2283 | Exported Function
+`GetCacheCount` | 2282 | Exported Function
+`operator` | 1611 | Exported Function
+`Detach` | 2112 | Exported Function
+`GetLocator` | 2369 | Exported Function
+`Storage` | 3380 | Exported Function
+`Storage` | 3438 | Exported Function
+`GetXmlDoc` | 2521 | Exported Function
+`Detach` | 2111 | Exported Function
+`operator` | 1670 | Exported Function
+`Detach` | 2158 | Exported Function
+`Storage` | 3395 | Exported Function
+`operator` | 1671 | Exported Function
+`GetOptions` | 2459 | Exported Function
+`Detach` | 2159 | Exported Function
+`GetKeys` | 2362 | Exported Function
+`operator` | 1675 | Exported Function
+`Storage` | 3403 | Exported Function
+`Storage` | 3402 | Exported Function
+`Storage` | 3404 | Exported Function
+`operator` | 1677 | Exported Function
+`Storage` | 3405 | Exported Function
+`operator` | 1676 | Exported Function
+`operator` | 1672 | Exported Function
+`Storage` | 3399 | Exported Function
+`Detach` | 2205 | Exported Function
+`Storage` | 3400 | Exported Function
+`operator` | 1674 | Exported Function
+`Storage` | 3401 | Exported Function
+`operator` | 1673 | Exported Function
+`operator` | 1669 | Exported Function
+`operator` | 1749 | Exported Function
+`Storage` | 3432 | Exported Function
+`FreeBstr` | 2244 | Exported Function
+`Storage` | 3431 | Exported Function
+`GetSoapHeaders` | 2496 | Exported Function
+`GetSoapBody` | 2495 | Exported Function
+`Detach` | 2199 | Exported Function
+`Write` | 3501 | Exported Function
+`GetActivityIdOnCurrentThread` | 2268 | Exported Function
+`GenerateTransferId` | 2263 | Exported Function
+`WriteSoapA` | 3503 | Exported Function
+`Free` | 2243 | Exported Function
+`WriteSoapW_BE` | 3508 | Exported Function
+`WriteSoapW` | 3507 | Exported Function
+`Storage` | 3437 | Exported Function
+`operator` | 1752 | Exported Function
+`Detach` | 2203 | Exported Function
+`Detach` | 2204 | Exported Function
+`operator` | 1668 | Exported Function
+`Detach` | 2157 | Exported Function
+`Storage` | 3394 | Exported Function
+`GetRoot` | 2482 | Exported Function
+`GetDescriptionElement` | 2312 | Exported Function
+`GetValue` | 2517 | Exported Function
+`GetCorrelationId` | 2301 | Exported Function
+`Storage` | 3436 | Exported Function
+`GetSessionIdGuid` | 2490 | Exported Function
+`GetSessionIdGuid` | 2489 | Exported Function
+`DeleteCredentialsFromCredmanStore` | 2105 | Exported Function
+`ExtractShellId` | 2231 | Exported Function
+`ExtractContextId` | 2230 | Exported Function
+`Init` | 2537 | Exported Function
+`IsIdentifyPacket` | 2636 | Exported Function
+`IsFound` | 2632 | Exported Function
+`IsRobustConnectionPacket` | 2643 | Exported Function
+`IsNonOperativePacket` | 2641 | Exported Function
+`ParseHeaders` | 2903 | Exported Function
+`HasOption` | 2530 | Exported Function
+`GetOptionsMustUnderstandValue` | 2460 | Exported Function
+`ParseOptionSet` | 2910 | Exported Function
+`UpdateKey` | 3467 | Exported Function
+`SetFragmentPath` | 3332 | Exported Function
+`SetFragmentDialect` | 3331 | Exported Function
+`Size` | 3359 | Exported Function
+`Resize` | 3303 | Exported Function
+`Resize` | 3302 | Exported Function
+`Size` | 3357 | Exported Function
+`Size` | 3362 | Exported Function
+`Size` | 3360 | Exported Function
+`Size` | 3361 | Exported Function
+`IsFound` | 2633 | Exported Function
+`IsFound` | 2631 | Exported Function
+`IsFound` | 2634 | Exported Function
+`IsMustUnderstand` | 2640 | Exported Function
+`ValidateHeaders` | 3476 | Exported Function
+`ParseSubscriptionAgentPacket` | 2925 | Exported Function
+`ParsePacket` | 2912 | Exported Function
+`ClearOptions` | 2008 | Exported Function
+`ProcessContext` | 2944 | Exported Function
+`ProcessContext` | 2943 | Exported Function
+`ProcessContext` | 2942 | Exported Function
+`ProcessContext` | 2945 | Exported Function
+`RecordSoapError` | 3013 | Exported Function
+`RecordHtmlError` | 3005 | Exported Function
+`RecordHtmlError` | 3004 | Exported Function
+`NextListener` | 2882 | Exported Function
+`NextCertMapping` | 2881 | Exported Function
+`IsPolicyControlledSetting` | 2642 | Exported Function
+`NextRow` | 2883 | Exported Function
+`IsCIM_Error` | 2606 | Exported Function
+`HasFaultXML` | 2528 | Exported Function
+`NextShellUri` | 2884 | Exported Function
+`AddKey` | 1931 | Exported Function
+`StoreData` | 3442 | Exported Function
+`SetUri` | 3349 | Exported Function
+`AddOption` | 1933 | Exported Function
+`ClearKeys` | 2007 | Exported Function
+`BuildOptionSet` | 1997 | Exported Function
+`AddOptionSet` | 1934 | Exported Function
+`TryAcquire` | 3458 | Exported Function
+`IsValid` | 2683 | Exported Function
+`DoesThreadOwnLock` | 2211 | Exported Function
+`GetBool` | 2273 | Exported Function
+`ProcessUri` | 2956 | Exported Function
+`GetString` | 2502 | Exported Function
+`GetInt` | 2358 | Exported Function
+`IsEventProviderEnabled` | 2630 | Exported Function
+`IsEventEnabled` | 2629 | Exported Function
+`Validate` | 3473 | Exported Function
+`GetConfigCache` | 2292 | Exported Function
+`GetConfigManagerForListener` | 2297 | Exported Function
+`GetConfigManagerForCertMapping` | 2296 | Exported Function
+`GetConfigManager` | 2295 | Exported Function
+`SetExactCharSize` | 3323 | Exported Function
+`InsertAtPosition` | 2596 | Exported Function
+`Copy` | 2013 | Exported Function
+`SetSize` | 3344 | Exported Function
+`Validate` | 3472 | Exported Function
+`Release` | 3080 | Exported Function
+`GetProfileCount` | 2470 | Exported Function
+`GetGroupPolicyManager` | 2338 | Exported Function
+`ParseEprElement` | 2898 | Exported Function
+`GetConfigCache` | 2294 | Exported Function
+`Parse` | 2892 | Exported Function
+`m_migContext` | 3515 | Exported Function
+`ParseResourceLocator` | 2915 | Exported Function
+`Parse` | 2891 | Exported Function
+`GetFirstConfigManagerForCertMapping` | 2329 | Exported Function
+`GetConfigManagerForTable` | 2299 | Exported Function
+`GetConfigManagerForShellUri` | 2298 | Exported Function
+`GetFirstConfigManagerForListener` | 2330 | Exported Function
+`GetConfigCache` | 2293 | Exported Function
+`GetFirstConfigManagerForTable` | 2332 | Exported Function
+`GetFirstConfigManagerForShellUri` | 2331 | Exported Function
+`AppendXmlStartItem` | 1976 | Exported Function
+`Append` | 1957 | Exported Function
+`Append` | 1956 | Exported Function
+`AllocSysString` | 1947 | Exported Function
+`AppendChar` | 1958 | Exported Function
+`AppendXmlElem` | 1961 | Exported Function
+`AppendEscapeXmlContent` | 1960 | Exported Function
+`AppendEscapeXmlAttribute` | 1959 | Exported Function
+`Init` | 2540 | Exported Function
+`Init` | 2539 | Exported Function
+`Size` | 3358 | Exported Function
+`GetChildCount` | 2290 | Exported Function
+`Append` | 1954 | Exported Function
+`Append` | 1955 | Exported Function
+`GetRefCount` | 2474 | Exported Function
+`AppendXmlStartElemWithNamespaceAndPrefix` | 1971 | Exported Function
+`AppendXmlStartElemWithNamespace` | 1970 | Exported Function
+`AppendXmlStartElem` | 1969 | Exported Function
+`AppendXmlStartElemWithNamespaces` | 1972 | Exported Function
+`AppendXmlStartFragment` | 1975 | Exported Function
+`AppendXmlStartElemWithPrefix` | 1974 | Exported Function
+`AppendXmlStartElemWithNamespacesAndPrefixes` | 1973 | Exported Function
+`AppendXmlElemWithPrefix` | 1964 | Exported Function
+`AppendXmlElemWithNamespaceAndPrefix` | 1963 | Exported Function
+`AppendXmlElemWithNamespace` | 1962 | Exported Function
+`AppendXmlEndElem` | 1965 | Exported Function
+`AppendXmlEndItem` | 1968 | Exported Function
+`AppendXmlEndFragment` | 1967 | Exported Function
+`AppendXmlEndElemWithPrefix` | 1966 | Exported Function
+`Storage` | 3406 | Exported Function
 `public: virtual __cdecl EtwCorrelationHelper::~EtwCorrelationHelper(void) __ptr64` | 1098 | Exported Function
 `public: virtual __cdecl CWSManResourceNoResourceUri::~CWSManResourceNoResourceUri(void) __ptr64` | 1092 | Exported Function
 `public: virtual __cdecl CWSManResource::~CWSManResource(void) __ptr64` | 1091 | Exported Function
@@ -1648,717 +1648,717 @@ Function Name | Ordinal | Type
 `public: virtual __cdecl CWSManEPR::~CWSManEPR(void) __ptr64` | 1089 | Exported Function
 `public: virtual __cdecl CRequestContext::~CRequestContext(void) __ptr64` | 1083 | Exported Function
 `public: virtual __cdecl CircularBufferFormatter::~CircularBufferFormatter(void) __ptr64` | 1096 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2057 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2566 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2077 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2546 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2059 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2547 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2058 | Exported Function
-`public: virtual bool __cdecl PacketParser::WaitForMore(void) __ptr64` | 3492 | Exported Function
-`public: virtual bool __cdecl CErrorContext::IsGeneratingError(void)const __ptr64` | 2635 | Exported Function
+`DeInitialize` | 2057 | Exported Function
+`Initialize` | 2566 | Exported Function
+`DeInitialize` | 2077 | Exported Function
+`Initialize` | 2546 | Exported Function
+`DeInitialize` | 2059 | Exported Function
+`Initialize` | 2547 | Exported Function
+`DeInitialize` | 2058 | Exported Function
+`WaitForMore` | 3492 | Exported Function
+`IsGeneratingError` | 2635 | Exported Function
 `public: virtual __cdecl IWSManGroupPolicyPublisher::~IWSManGroupPolicyPublisher(void) __ptr64` | 1104 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2055 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2545 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2056 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2544 | Exported Function
+`DeInitialize` | 2055 | Exported Function
+`Initialize` | 2545 | Exported Function
+`DeInitialize` | 2056 | Exported Function
+`Initialize` | 2544 | Exported Function
 `public: virtual __cdecl CBaseConfigCache::~CBaseConfigCache(void) __ptr64` | 1078 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResourceNoResourceUri::GetFragmentPath(void) __ptr64` | 2337 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResourceNoResourceUri::GetFragmentDialect(void) __ptr64` | 2336 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResource::GetUri(void) __ptr64` | 2513 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResourceNoResourceUri::GetKeyValue(unsigned short const * __ptr64) __ptr64` | 2361 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Locale::GetMessageEmpty(class AutoLocalFree & __ptr64,unsigned long)const __ptr64` | 2427 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Locale::GetMessageAlloc(class AutoLocalFree & __ptr64,unsigned long,...)const __ptr64` | 2426 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResourceNoResourceUri::GetOptionValue(unsigned short const * __ptr64) __ptr64` | 2458 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::Detach(void) __ptr64` | 2151 | Exported Function
-`public: unsigned short const * __ptr64 * __ptr64 __cdecl CWSManResourceNoResourceUri::GetOptionTypes(void) __ptr64` | 2457 | Exported Function
-`public: unsigned short const * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::Storage(void) __ptr64` | 3389 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CRequestContext::GetLocaleString(void) __ptr64` | 2368 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResource::GetOriginalUri(void) __ptr64` | 2462 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CWSManResource::GetBaseUri(void) __ptr64` | 2269 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CResourceAlias::Uri(void) __ptr64` | 3468 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl TSTRBUFFER::Next(unsigned short const * __ptr64)const __ptr64` | 2880 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl TSTRBUFFER::First(void)const __ptr64` | 2235 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::ReferenceParameters::GetReferenceProperties(void)const __ptr64` | 2476 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl TSTRBUFFER::QueryStr(void)const __ptr64` | 2975 | Exported Function
+`GetFragmentPath` | 2337 | Exported Function
+`GetFragmentDialect` | 2336 | Exported Function
+`GetUri` | 2513 | Exported Function
+`GetKeyValue` | 2361 | Exported Function
+`GetMessageEmpty` | 2427 | Exported Function
+`GetMessageAlloc` | 2426 | Exported Function
+`GetOptionValue` | 2458 | Exported Function
+`Detach` | 2151 | Exported Function
+`GetOptionTypes` | 2457 | Exported Function
+`Storage` | 3389 | Exported Function
+`GetLocaleString` | 2368 | Exported Function
+`GetOriginalUri` | 2462 | Exported Function
+`GetBaseUri` | 2269 | Exported Function
+`Uri` | 3468 | Exported Function
+`Next` | 2880 | Exported Function
+`First` | 2235 | Exported Function
+`GetReferenceProperties` | 2476 | Exported Function
+`QueryStr` | 2975 | Exported Function
 `public: virtual __cdecl BufferFormatter::~BufferFormatter(void) __ptr64` | 1077 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl XmlReader::GetBuffer(void) __ptr64` | 2278 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl UserRecord::GetUserNameW(void) __ptr64` | 2515 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::Fragment::GetPath(void)const __ptr64` | 2466 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::Fragment::GetDialect(void)const __ptr64` | 2318 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Locale::GetString(void) __ptr64` | 2503 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::NotUnderstandSoapHeader::GetNamespacePrefix(void)const __ptr64` | 2437 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::ReferenceParameters::GetReferenceParameters(void)const __ptr64` | 2475 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::GetValue(void)const __ptr64` | 2518 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl PacketParser::NotUnderstandSoapHeader::GetNamespaceUrl(void)const __ptr64` | 2438 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKey,class ListenerEvents * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerEvents * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2570 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKey,class ListenerEvents * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerEvents * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2081 | Exported Function
-`public: virtual bool __cdecl SafeMap<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping,class SafeMap_Iterator<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2580 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKey,class ListenerSourceSubscription * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerSourceSubscription * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2082 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKey,struct WinRM_OperationOptions::Option,class SafeMap_Iterator<class StringKey,struct WinRM_OperationOptions::Option> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2572 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKey,struct WinRM_OperationOptions::Option,class SafeMap_Iterator<class StringKey,struct WinRM_OperationOptions::Option> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2083 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKey,class ListenerSourceSubscription * __ptr64,class SafeMap_Iterator<class StringKey,class ListenerSourceSubscription * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2571 | Exported Function
-`public: virtual bool __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2072 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2569 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2080 | Exported Function
-`public: virtual bool __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class PushSubscription * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2561 | Exported Function
-`public: virtual bool __cdecl SafeMap<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping,class SafeMap_Iterator<class ServiceSoapProcessor::TokenCacheKey,class ServiceSoapProcessor::TokenCacheMapping> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2091 | Exported Function
-`public: virtual bool __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2562 | Exported Function
-`public: virtual bool __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2073 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2573 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2084 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2577 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2089 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2579 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2090 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2578 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2086 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,class IISEndpoint * __ptr64,class SafeMap_Iterator<class StringKeyCI,class IISEndpoint * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2574 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,class IISEndpoint * __ptr64,class SafeMap_Iterator<class StringKeyCI,class IISEndpoint * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2085 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeMap_Iterator<class StringKeyCI,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2575 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2088 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2576 | Exported Function
-`public: virtual bool __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2087 | Exported Function
-`public: virtual bool __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2560 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2065 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2553 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeMap_Iterator<class Collector * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2064 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2554 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2079 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2552 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2063 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2549 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2060 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2548 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2061 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2551 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2062 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CListenerSend * __ptr64,class CListenerSend * __ptr64,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2550 | Exported Function
-`public: virtual bool __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2069 | Exported Function
-`public: virtual bool __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2557 | Exported Function
-`public: virtual bool __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeMap_Iterator<class IOperation * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2068 | Exported Function
-`public: virtual bool __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2558 | Exported Function
-`public: virtual bool __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2071 | Exported Function
-`public: virtual bool __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2559 | Exported Function
-`public: virtual bool __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeMap_Iterator<class ListenerSourceSubscription * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2070 | Exported Function
-`public: virtual bool __cdecl SafeMap<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2567 | Exported Function
-`public: virtual bool __cdecl SafeMap<class GuidKey,class CListenerCommand * __ptr64,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2078 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2568 | Exported Function
-`public: virtual bool __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2066 | Exported Function
-`public: virtual bool __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2556 | Exported Function
-`public: virtual bool __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 2067 | Exported Function
-`public: virtual bool __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeMap_Iterator<class HostOperation * __ptr64,struct Empty> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 2555 | Exported Function
-`public: unsigned short const * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::operator->(void)const __ptr64` | 1667 | Exported Function
-`public: struct IWbemPathKeyList * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::operator->(void)const __ptr64` | 1697 | Exported Function
-`public: struct IWbemPathKeyList * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::operator->(void) __ptr64` | 1696 | Exported Function
-`public: struct IWbemPathKeyList * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::Detach(void) __ptr64` | 2171 | Exported Function
-`public: struct IWbemQualifierSet * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::Storage(void) __ptr64` | 3416 | Exported Function
-`public: struct IWbemQualifierSet * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::operator->(void)const __ptr64` | 1699 | Exported Function
-`public: struct IWbemQualifierSet * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::operator->(void) __ptr64` | 1698 | Exported Function
-`public: struct IWbemQualifierSet * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::Detach(void) __ptr64` | 2172 | Exported Function
-`public: struct IWbemPath * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::Storage(void) __ptr64` | 3414 | Exported Function
-`public: struct IWbemObjectTextSrc * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::operator->(void)const __ptr64` | 1693 | Exported Function
-`public: struct IWbemObjectTextSrc * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::operator->(void) __ptr64` | 1692 | Exported Function
-`public: struct IWbemPath * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::Detach(void) __ptr64` | 2170 | Exported Function
-`public: struct IWbemPathKeyList * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::Storage(void) __ptr64` | 3415 | Exported Function
-`public: struct IWbemPath * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::operator->(void)const __ptr64` | 1695 | Exported Function
-`public: struct IWbemPath * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::operator->(void) __ptr64` | 1694 | Exported Function
-`public: struct WSManHttpListener::USER_CONTEXT_INFO * __ptr64 __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::operator[](class StringKeyCI const & __ptr64) __ptr64` | 1422 | Exported Function
-`public: struct UserKey __cdecl UserRecord::GetKey(void)const __ptr64` | 2359 | Exported Function
-`public: struct IWbemServices * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::operator->(void)const __ptr64` | 1703 | Exported Function
-`public: union _LARGE_INTEGER const __cdecl SimpleQueue<union _LARGE_INTEGER>::back(void)const __ptr64` | 3510 | Exported Function
-`public: unsigned __int64 __cdecl XmlReader::GetLength(void) __ptr64` | 2364 | Exported Function
-`public: unsigned __int64 __cdecl PacketParser::PacketElement<unsigned __int64>::GetValue(void)const __ptr64` | 2519 | Exported Function
-`public: union _LARGE_INTEGER const __cdecl SimpleQueue<union _LARGE_INTEGER>::front(void)const __ptr64` | 3512 | Exported Function
-`public: struct IWbemQuery * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::operator->(void) __ptr64` | 1700 | Exported Function
-`public: struct IWbemQuery * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::Detach(void) __ptr64` | 2173 | Exported Function
-`public: struct IWbemQuery * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::Storage(void) __ptr64` | 3417 | Exported Function
-`public: struct IWbemQuery * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::operator->(void)const __ptr64` | 1701 | Exported Function
-`public: struct IWbemServices * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::operator->(void) __ptr64` | 1702 | Exported Function
-`public: struct IWbemServices * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::Detach(void) __ptr64` | 2174 | Exported Function
-`public: struct IWbemServices * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::Storage(void) __ptr64` | 3418 | Exported Function
-`public: struct IWbemObjectTextSrc * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::Detach(void) __ptr64` | 2169 | Exported Function
-`public: struct IErrorInfo * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::operator->(void) __ptr64` | 1682 | Exported Function
-`public: struct IErrorInfo * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::Detach(void) __ptr64` | 2164 | Exported Function
-`public: struct IErrorInfo * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::Storage(void) __ptr64` | 3408 | Exported Function
-`public: struct IErrorInfo * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::operator->(void)const __ptr64` | 1683 | Exported Function
-`public: struct IUnknown * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::operator->(void) __ptr64` | 1684 | Exported Function
-`public: struct IUnknown * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::Detach(void) __ptr64` | 2165 | Exported Function
-`public: struct IUnknown * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::Storage(void) __ptr64` | 3409 | Exported Function
-`public: struct IClientSecurity * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::operator->(void)const __ptr64` | 1679 | Exported Function
-`public: struct IClientSecurity * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::operator->(void) __ptr64` | 1678 | Exported Function
-`public: struct IClientSecurity * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::Detach(void) __ptr64` | 2162 | Exported Function
-`public: struct IEnumWbemClassObject * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::Storage(void) __ptr64` | 3407 | Exported Function
-`public: struct IEnumWbemClassObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::operator->(void)const __ptr64` | 1681 | Exported Function
-`public: struct IEnumWbemClassObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::operator->(void) __ptr64` | 1680 | Exported Function
-`public: struct IEnumWbemClassObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::Detach(void) __ptr64` | 2163 | Exported Function
-`public: struct IWbemLocator * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::Storage(void) __ptr64` | 3412 | Exported Function
-`public: struct IWbemContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::operator->(void)const __ptr64` | 1689 | Exported Function
-`public: struct IWbemContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::operator->(void) __ptr64` | 1688 | Exported Function
-`public: struct IWbemLocator * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::Detach(void) __ptr64` | 2168 | Exported Function
-`public: struct IWbemObjectTextSrc * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::Storage(void) __ptr64` | 3413 | Exported Function
-`public: struct IWbemLocator * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::operator->(void)const __ptr64` | 1691 | Exported Function
-`public: struct IWbemLocator * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::operator->(void) __ptr64` | 1690 | Exported Function
-`public: struct IWbemClassObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::Detach(void) __ptr64` | 2166 | Exported Function
-`public: struct IWbemClassObject * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::Storage(void) __ptr64` | 3410 | Exported Function
-`public: struct IUnknown * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::operator->(void)const __ptr64` | 1685 | Exported Function
-`public: struct IWbemClassObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::operator->(void) __ptr64` | 1686 | Exported Function
-`public: struct IWbemContext * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::Detach(void) __ptr64` | 2167 | Exported Function
-`public: struct IWbemContext * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::Storage(void) __ptr64` | 3411 | Exported Function
-`public: struct IWbemClassObject * __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::operator->(void)const __ptr64` | 1687 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::Storage(void) __ptr64` | 3429 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::Storage(void) __ptr64` | 3392 | Exported Function
-`public: unsigned long __cdecl SoapSemanticConverter::CreateResponse(unsigned long,enum _MI_OperationCallback_ResponseType,class BufferFormatter & __ptr64,class IRequestContext * __ptr64) __ptr64` | 2039 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::Storage(void) __ptr64` | 3430 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::operator->(void) __ptr64` | 1664 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::Detach(void) __ptr64` | 2155 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::Storage(void) __ptr64` | 3379 | Exported Function
-`public: unsigned long __cdecl PacketParser::ParseRobustConnectionMessages(enum PacketParser::PacketType * __ptr64,bool * __ptr64,unsigned __int64 * __ptr64,unsigned __int64 * __ptr64) __ptr64` | 2919 | Exported Function
-`public: unsigned long __cdecl PacketParser::PacketElement<unsigned long>::GetValue(void)const __ptr64` | 2516 | Exported Function
-`public: unsigned long __cdecl PacketParser::MessageId::CopyString(unsigned short const * __ptr64,int) __ptr64` | 2016 | Exported Function
-`public: unsigned long __cdecl PacketParser::ReferenceParameters::PutValue(struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2969 | Exported Function
-`public: unsigned long __cdecl SoapSemanticConverter::CreateAnEvent(unsigned long,class SemanticMessage * __ptr64,class BufferFormatter & __ptr64,class IRequestContext * __ptr64) __ptr64` | 2020 | Exported Function
-`public: unsigned long __cdecl SimpleQueue<union _LARGE_INTEGER>::push(union _LARGE_INTEGER) __ptr64` | 3517 | Exported Function
-`public: unsigned long __cdecl PacketParser::SessionId::CreateSessionGuid(unsigned short const * __ptr64,int) __ptr64` | 2040 | Exported Function
-`public: unsigned short * __ptr64 __cdecl CWSManSecurityUI::GetUpdatedSDDL(class IRequestContext * __ptr64) __ptr64` | 2512 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::operator->(void)const __ptr64` | 1663 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::operator->(void) __ptr64` | 1662 | Exported Function
-`public: unsigned short * __ptr64 __cdecl TSTRBUFFER::GetStrPtr(void) __ptr64` | 2500 | Exported Function
-`public: unsigned short const * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::operator->(void) __ptr64` | 1666 | Exported Function
-`public: unsigned short const * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::Detach(void) __ptr64` | 2156 | Exported Function
-`public: unsigned short const * __ptr64 * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::Storage(void) __ptr64` | 3393 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::Detach(void) __ptr64` | 2198 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::Storage(void) __ptr64` | 3391 | Exported Function
-`public: unsigned short * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::operator->(void)const __ptr64` | 1665 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::operator->(void) __ptr64` | 1747 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::Detach(void) __ptr64` | 2154 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::Detach(void) __ptr64` | 2110 | Exported Function
-`public: unsigned short * __ptr64 __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::operator->(void)const __ptr64` | 1748 | Exported Function
-`public: unsigned long __cdecl PacketFormatter::GetCharsetLen(void)const __ptr64` | 2288 | Exported Function
-`public: unsigned int __cdecl TSTRBUFFER::GetCharInUse(void)const __ptr64` | 2286 | Exported Function
-`public: unsigned int __cdecl SBUFFER::GetSizeInUse(void)const __ptr64` | 2494 | Exported Function
-`public: unsigned int __cdecl RBUFFER::QuerySize(void)const __ptr64` | 2974 | Exported Function
-`public: unsigned long & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::operator*(void)const __ptr64` | 1756 | Exported Function
-`public: unsigned long __cdecl BufferFormatter::GetBufferSize(void)const __ptr64` | 2281 | Exported Function
-`public: unsigned long * __ptr64 __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::operator[](struct PluginKey const & __ptr64) __ptr64` | 1418 | Exported Function
-`public: unsigned long * __ptr64 __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::operator[](class StringKeyCI const & __ptr64) __ptr64` | 1421 | Exported Function
-`public: unsigned char * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::Detach(void) __ptr64` | 2153 | Exported Function
-`public: unsigned char * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::Storage(void) __ptr64` | 3397 | Exported Function
-`public: unsigned char * __ptr64 * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::Storage(void) __ptr64` | 3390 | Exported Function
-`public: unsigned char * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::operator->(void) __ptr64` | 1660 | Exported Function
-`public: unsigned char * __ptr64 __cdecl BufferFormatter::Detach(void) __ptr64` | 2208 | Exported Function
-`public: unsigned char * __ptr64 __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::Detach(void) __ptr64` | 2160 | Exported Function
-`public: unsigned char * __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::operator->(void)const __ptr64` | 1661 | Exported Function
-`public: unsigned long __cdecl Locale::GetLCID(void) __ptr64` | 2363 | Exported Function
-`public: unsigned long __cdecl CWSManResourceNoResourceUri::GetOptionCount(void) __ptr64` | 2456 | Exported Function
-`public: unsigned long __cdecl CWSManResourceNoResourceUri::GetKeyCount(void) __ptr64` | 2360 | Exported Function
-`public: unsigned long __cdecl OnHTTPInitialize::GetSuccessCode(void)const __ptr64` | 2507 | Exported Function
-`public: unsigned long __cdecl PacketFormatter::Encode(unsigned short const * __ptr64,unsigned long,unsigned char * __ptr64,unsigned long,unsigned char * __ptr64 * __ptr64,unsigned long * __ptr64,bool)const __ptr64` | 2217 | Exported Function
-`public: unsigned long __cdecl PacketFormatter::Encode(class Packet * __ptr64 * __ptr64)const __ptr64` | 2216 | Exported Function
-`public: unsigned long __cdecl PacketFormatter::Decode(class Packet * __ptr64 * __ptr64,bool)const __ptr64` | 2097 | Exported Function
-`public: unsigned long __cdecl CRequestContext::SetMachineName(unsigned short const * __ptr64) __ptr64` | 3336 | Exported Function
-`public: unsigned long __cdecl CircularBufferFormatter::RegisterChunkBoundary(void) __ptr64` | 3019 | Exported Function
-`public: unsigned long __cdecl BufferFormatter::GetError(void)const __ptr64` | 2319 | Exported Function
-`public: unsigned long __cdecl CRequestContext::SetMachineName(unsigned short const * __ptr64,unsigned __int64) __ptr64` | 3337 | Exported Function
-`public: unsigned long __cdecl CWSManCriticalSectionWithConditionVar::WaitForConditionVar(unsigned long) __ptr64` | 3491 | Exported Function
-`public: unsigned long __cdecl CWSManCriticalSection::GetInitError(void)const __ptr64` | 2343 | Exported Function
-`public: unsigned long __cdecl CRequestContext::SetMachineName(void) __ptr64` | 3338 | Exported Function
-`public: __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::operator bool(void)const __ptr64` | 1602 | Exported Function
-`protected: __cdecl IRequestContext::IRequestContext(void) __ptr64` | 560 | Exported Function
+`GetBuffer` | 2278 | Exported Function
+`GetUserNameW` | 2515 | Exported Function
+`GetPath` | 2466 | Exported Function
+`GetDialect` | 2318 | Exported Function
+`GetString` | 2503 | Exported Function
+`GetNamespacePrefix` | 2437 | Exported Function
+`GetReferenceParameters` | 2475 | Exported Function
+`GetValue` | 2518 | Exported Function
+`GetNamespaceUrl` | 2438 | Exported Function
+`Initialize` | 2570 | Exported Function
+`DeInitialize` | 2081 | Exported Function
+`Initialize` | 2580 | Exported Function
+`DeInitialize` | 2082 | Exported Function
+`Initialize` | 2572 | Exported Function
+`DeInitialize` | 2083 | Exported Function
+`Initialize` | 2571 | Exported Function
+`DeInitialize` | 2072 | Exported Function
+`Initialize` | 2569 | Exported Function
+`DeInitialize` | 2080 | Exported Function
+`Initialize` | 2561 | Exported Function
+`DeInitialize` | 2091 | Exported Function
+`Initialize` | 2562 | Exported Function
+`DeInitialize` | 2073 | Exported Function
+`Initialize` | 2573 | Exported Function
+`DeInitialize` | 2084 | Exported Function
+`Initialize` | 2577 | Exported Function
+`DeInitialize` | 2089 | Exported Function
+`Initialize` | 2579 | Exported Function
+`DeInitialize` | 2090 | Exported Function
+`Initialize` | 2578 | Exported Function
+`DeInitialize` | 2086 | Exported Function
+`Initialize` | 2574 | Exported Function
+`DeInitialize` | 2085 | Exported Function
+`Initialize` | 2575 | Exported Function
+`DeInitialize` | 2088 | Exported Function
+`Initialize` | 2576 | Exported Function
+`DeInitialize` | 2087 | Exported Function
+`Initialize` | 2560 | Exported Function
+`DeInitialize` | 2065 | Exported Function
+`Initialize` | 2553 | Exported Function
+`DeInitialize` | 2064 | Exported Function
+`Initialize` | 2554 | Exported Function
+`DeInitialize` | 2079 | Exported Function
+`Initialize` | 2552 | Exported Function
+`DeInitialize` | 2063 | Exported Function
+`Initialize` | 2549 | Exported Function
+`DeInitialize` | 2060 | Exported Function
+`Initialize` | 2548 | Exported Function
+`DeInitialize` | 2061 | Exported Function
+`Initialize` | 2551 | Exported Function
+`DeInitialize` | 2062 | Exported Function
+`Initialize` | 2550 | Exported Function
+`DeInitialize` | 2069 | Exported Function
+`Initialize` | 2557 | Exported Function
+`DeInitialize` | 2068 | Exported Function
+`Initialize` | 2558 | Exported Function
+`DeInitialize` | 2071 | Exported Function
+`Initialize` | 2559 | Exported Function
+`DeInitialize` | 2070 | Exported Function
+`Initialize` | 2567 | Exported Function
+`DeInitialize` | 2078 | Exported Function
+`Initialize` | 2568 | Exported Function
+`DeInitialize` | 2066 | Exported Function
+`Initialize` | 2556 | Exported Function
+`DeInitialize` | 2067 | Exported Function
+`Initialize` | 2555 | Exported Function
+`operator` | 1667 | Exported Function
+`operator` | 1697 | Exported Function
+`operator` | 1696 | Exported Function
+`Detach` | 2171 | Exported Function
+`Storage` | 3416 | Exported Function
+`operator` | 1699 | Exported Function
+`operator` | 1698 | Exported Function
+`Detach` | 2172 | Exported Function
+`Storage` | 3414 | Exported Function
+`operator` | 1693 | Exported Function
+`operator` | 1692 | Exported Function
+`Detach` | 2170 | Exported Function
+`Storage` | 3415 | Exported Function
+`operator` | 1695 | Exported Function
+`operator` | 1694 | Exported Function
+`operator` | 1422 | Exported Function
+`GetKey` | 2359 | Exported Function
+`operator` | 1703 | Exported Function
+`back` | 3510 | Exported Function
+`GetLength` | 2364 | Exported Function
+`GetValue` | 2519 | Exported Function
+`front` | 3512 | Exported Function
+`operator` | 1700 | Exported Function
+`Detach` | 2173 | Exported Function
+`Storage` | 3417 | Exported Function
+`operator` | 1701 | Exported Function
+`operator` | 1702 | Exported Function
+`Detach` | 2174 | Exported Function
+`Storage` | 3418 | Exported Function
+`Detach` | 2169 | Exported Function
+`operator` | 1682 | Exported Function
+`Detach` | 2164 | Exported Function
+`Storage` | 3408 | Exported Function
+`operator` | 1683 | Exported Function
+`operator` | 1684 | Exported Function
+`Detach` | 2165 | Exported Function
+`Storage` | 3409 | Exported Function
+`operator` | 1679 | Exported Function
+`operator` | 1678 | Exported Function
+`Detach` | 2162 | Exported Function
+`Storage` | 3407 | Exported Function
+`operator` | 1681 | Exported Function
+`operator` | 1680 | Exported Function
+`Detach` | 2163 | Exported Function
+`Storage` | 3412 | Exported Function
+`operator` | 1689 | Exported Function
+`operator` | 1688 | Exported Function
+`Detach` | 2168 | Exported Function
+`Storage` | 3413 | Exported Function
+`operator` | 1691 | Exported Function
+`operator` | 1690 | Exported Function
+`Detach` | 2166 | Exported Function
+`Storage` | 3410 | Exported Function
+`operator` | 1685 | Exported Function
+`operator` | 1686 | Exported Function
+`Detach` | 2167 | Exported Function
+`Storage` | 3411 | Exported Function
+`operator` | 1687 | Exported Function
+`Storage` | 3429 | Exported Function
+`Storage` | 3392 | Exported Function
+`CreateResponse` | 2039 | Exported Function
+`Storage` | 3430 | Exported Function
+`operator` | 1664 | Exported Function
+`Detach` | 2155 | Exported Function
+`Storage` | 3379 | Exported Function
+`PacketType` | 2919 | Exported Function
+`GetValue` | 2516 | Exported Function
+`CopyString` | 2016 | Exported Function
+`PutValue` | 2969 | Exported Function
+`CreateAnEvent` | 2020 | Exported Function
+`push` | 3517 | Exported Function
+`CreateSessionGuid` | 2040 | Exported Function
+`GetUpdatedSDDL` | 2512 | Exported Function
+`operator` | 1663 | Exported Function
+`operator` | 1662 | Exported Function
+`GetStrPtr` | 2500 | Exported Function
+`operator` | 1666 | Exported Function
+`Detach` | 2156 | Exported Function
+`Storage` | 3393 | Exported Function
+`Detach` | 2198 | Exported Function
+`Storage` | 3391 | Exported Function
+`operator` | 1665 | Exported Function
+`operator` | 1747 | Exported Function
+`Detach` | 2154 | Exported Function
+`Detach` | 2110 | Exported Function
+`operator` | 1748 | Exported Function
+`GetCharsetLen` | 2288 | Exported Function
+`GetCharInUse` | 2286 | Exported Function
+`GetSizeInUse` | 2494 | Exported Function
+`QuerySize` | 2974 | Exported Function
+`operator` | 1756 | Exported Function
+`GetBufferSize` | 2281 | Exported Function
+`operator` | 1418 | Exported Function
+`operator` | 1421 | Exported Function
+`Detach` | 2153 | Exported Function
+`Storage` | 3397 | Exported Function
+`Storage` | 3390 | Exported Function
+`operator` | 1660 | Exported Function
+`Detach` | 2208 | Exported Function
+`Detach` | 2160 | Exported Function
+`operator` | 1661 | Exported Function
+`GetLCID` | 2363 | Exported Function
+`GetOptionCount` | 2456 | Exported Function
+`GetKeyCount` | 2360 | Exported Function
+`GetSuccessCode` | 2507 | Exported Function
+`Encode` | 2217 | Exported Function
+`Encode` | 2216 | Exported Function
+`Decode` | 2097 | Exported Function
+`SetMachineName` | 3336 | Exported Function
+`RegisterChunkBoundary` | 3019 | Exported Function
+`GetError` | 2319 | Exported Function
+`SetMachineName` | 3337 | Exported Function
+`WaitForConditionVar` | 3491 | Exported Function
+`GetInitError` | 2343 | Exported Function
+`SetMachineName` | 3338 | Exported Function
+`operator` | 1602 | Exported Function
+`IRequestContext` | 560 | Exported Function
 `protected: __cdecl ConfigRegistry::~ConfigRegistry(void) __ptr64` | 1097 | Exported Function
-`protected: __cdecl ConfigRegistry::ConfigRegistry(void) __ptr64` | 550 | Exported Function
-`protected: bool __cdecl CWSManResourceNoResourceUri::ResizeOptionList(unsigned int,class IRequestContext & __ptr64) __ptr64` | 3304 | Exported Function
-`protected: bool __cdecl ILoader<class CSecurity::NetworkServiceSid>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2027 | Exported Function
-`protected: bool __cdecl ILoader<class CSecurity::InteractiveSid>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2024 | Exported Function
-`protected: bool __cdecl ILoader<class CSecurity::AdminSid>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2022 | Exported Function
-`private: void __cdecl WSMan::EventHandler::GenerateTransferIdImp(struct _EVENT_DESCRIPTOR const & __ptr64,struct _GUID const * __ptr64,struct _GUID const * __ptr64) __ptr64` | 2264 | Exported Function
-`private: void __cdecl WSMan::EventHandler::EventWrite(struct _EVENT_DESCRIPTOR const & __ptr64,unsigned long,struct _EVENT_DATA_DESCRIPTOR * __ptr64) __ptr64` | 2229 | Exported Function
-`private: void __cdecl PacketParser::ResetRobustConnectionHeaders(void) __ptr64` | 3301 | Exported Function
-`private: void __cdecl WSMan::EventHandler::WriteSoapMessageA(struct _EVENT_DESCRIPTOR const & __ptr64,char const * __ptr64,unsigned long) __ptr64` | 3504 | Exported Function
-`protected: __cdecl CBaseConfigCache::CBaseConfigCache(enum CConfigChangeSource::ConfigLocation,class FastLock * __ptr64,class CBaseConfigCache::CConfigCacheMap * __ptr64) __ptr64` | 530 | Exported Function
-`private: void __cdecl WSMan::EventHandler::WriteSoapMessageW_BE(struct _EVENT_DESCRIPTOR const & __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 3506 | Exported Function
-`private: void __cdecl WSMan::EventHandler::WriteSoapMessageW(struct _EVENT_DESCRIPTOR const & __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 3505 | Exported Function
-`protected: bool __cdecl ILoader<class WSManMemCryptManager>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2034 | Exported Function
-`protected: bool __cdecl ILoader<class WSMan::EventHandler>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2023 | Exported Function
-`protected: bool __cdecl ILoader<class User32DllLoader>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2033 | Exported Function
-`protected: class CCommonConfigSettings * __ptr64 __cdecl CBaseConfigCache::GetCurrentSettings(class IRequestContext * __ptr64) __ptr64` | 2304 | Exported Function
-`protected: class CSecurity::NetworkServiceSid * __ptr64 __cdecl ILoader<class CSecurity::NetworkServiceSid>::GetObjectW(void)const __ptr64` | 2447 | Exported Function
-`protected: class CSecurity::InteractiveSid * __ptr64 __cdecl ILoader<class CSecurity::InteractiveSid>::GetObjectW(void)const __ptr64` | 2444 | Exported Function
-`protected: class CSecurity::AdminSid * __ptr64 __cdecl ILoader<class CSecurity::AdminSid>::GetObjectW(void)const __ptr64` | 2442 | Exported Function
-`protected: bool __cdecl ILoader<class MachineName>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2026 | Exported Function
-`protected: bool __cdecl ILoader<class Locale::Resources>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2029 | Exported Function
-`protected: bool __cdecl ILoader<class IpHlpApiDllLoader>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2025 | Exported Function
-`protected: bool __cdecl ILoader<class NtDsApiDllLoader>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2028 | Exported Function
-`protected: bool __cdecl ILoader<class SubscriptionManager>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2032 | Exported Function
-`protected: bool __cdecl ILoader<class ShlWApiDllLoader>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2031 | Exported Function
-`protected: bool __cdecl ILoader<class Shell32DllLoader>::CreateInstance(class IRequestContext & __ptr64) __ptr64` | 2030 | Exported Function
-`private: void __cdecl CWSManGroupPolicyManager::PolicyChanged(unsigned char) __ptr64` | 2930 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::ReleasePtr(void) __ptr64` | 3180 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::ReleasePtr(void) __ptr64` | 3179 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::ReleasePtr(void) __ptr64` | 3178 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::ReleasePtr(void) __ptr64` | 3181 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::ReleasePtr(void) __ptr64` | 3184 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::ReleasePtr(void) __ptr64` | 3183 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::ReleasePtr(void) __ptr64` | 3182 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>::ReleasePtr(void) __ptr64` | 3173 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>::ReleasePtr(void) __ptr64` | 3172 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::ReleasePtr(void) __ptr64` | 3171 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::ReleasePtr(void) __ptr64` | 3174 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::ReleasePtr(void) __ptr64` | 3177 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>::ReleasePtr(void) __ptr64` | 3176 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>::ReleasePtr(void) __ptr64` | 3175 | Exported Function
-`private: void __cdecl CBaseConfigCache::SetErrorState(class CRequestContext * __ptr64,unsigned long) __ptr64` | 3322 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::ReleasePtr(void) __ptr64` | 3258 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::ReleasePtr(void) __ptr64` | 3257 | Exported Function
-`private: void __cdecl ChildLifeTimeManager::WakeAllWaitingOnNoOfChildren(void) __ptr64` | 3494 | Exported Function
-`private: void __cdecl CResourceAlias::StoreExpansion(unsigned short const * __ptr64,struct _ALIAS_INFORMATION * __ptr64) __ptr64` | 3444 | Exported Function
-`private: void __cdecl CRequestContext::RecordFailure(unsigned long,unsigned long,char * __ptr64 * __ptr64,char * __ptr64 * __ptr64) __ptr64` | 2997 | Exported Function
-`private: void __cdecl CRequestContext::GetFaultXMLPrivate(char * __ptr64 * __ptr64,char * __ptr64 * __ptr64,unsigned long,int,unsigned long,unsigned long,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 2328 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::ReleasePtr(void) __ptr64` | 3187 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::ReleasePtr(void) __ptr64` | 3186 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::ReleasePtr(void) __ptr64` | 3185 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::ReleasePtr(void) __ptr64` | 3188 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::ReleasePtr(void) __ptr64` | 3242 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoReleaseEx<class HostMappingTableEntry>,class HostMappingTableEntry * __ptr64>::ReleasePtr(void) __ptr64` | 3241 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::ReleasePtr(void) __ptr64` | 3189 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateIPFilter(class IRequestContext * __ptr64,enum ConfigSetting,unsigned short const * __ptr64) __ptr64` | 3478 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateInt(class IRequestContext * __ptr64,struct _CONFIG_INFO * __ptr64,unsigned long,unsigned short const * __ptr64) __ptr64` | 3480 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateHostnameAndCertificateCN(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3477 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateString(class IRequestContext * __ptr64,struct _CONFIG_INFO * __ptr64,unsigned short const * __ptr64) __ptr64` | 3482 | Exported Function
-`protected: int __cdecl CWSManResourceNoResourceUri::ProcessFragmentDialect(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2949 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateUrlPrefix(class IRequestContext * __ptr64,unsigned short const * __ptr64) __ptr64` | 3484 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateTrustedHosts(class IRequestContext * __ptr64,unsigned short const * __ptr64) __ptr64` | 3483 | Exported Function
-`protected: int __cdecl ConfigRegistry::CreateKey(class IRequestContext * __ptr64,unsigned short const * __ptr64,struct HKEY__ * __ptr64 * __ptr64,unsigned short const * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 2035 | Exported Function
-`protected: int __cdecl ConfigRegistry::ClearRegistryKeys(class IRequestContext * __ptr64) __ptr64` | 2009 | Exported Function
-`protected: int __cdecl ConfigRegistry::CheckSharedSSLConfiguration(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int,int * __ptr64) __ptr64` | 2002 | Exported Function
-`protected: int __cdecl ConfigRegistry::Init(void) __ptr64` | 2538 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateCertificateHash(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3475 | Exported Function
-`protected: int __cdecl ConfigRegistry::ValidateCBTHardeningLevel(class IRequestContext * __ptr64,unsigned short const * __ptr64) __ptr64` | 3474 | Exported Function
-`protected: int __cdecl ConfigRegistry::SetFinishValue(class IRequestContext * __ptr64) __ptr64` | 3329 | Exported Function
-`protected: long __cdecl ConfigRegistry::OpenRegKey(struct _CONFIG_INFO * __ptr64,unsigned long,class WSMANCONFIGTABLE_IDENTITY * __ptr64,class AutoRegKey * __ptr64,struct HKEY__ * __ptr64) __ptr64` | 2888 | Exported Function
-`protected: int __cdecl RBUFFER::ReallocStorage(unsigned int) __ptr64` | 2988 | Exported Function
-`protected: int __cdecl RBUFFER::IsValid(void)const __ptr64` | 2684 | Exported Function
-`protected: static class CBaseConfigCache * __ptr64 __cdecl CBaseConfigCache::GetConfigCache(class IRequestContext * __ptr64,enum ErrorLogging,class CBaseConfigCache * __ptr64 (__cdecl*)(void),class FastLock * __ptr64,class AutoRelease<class CBaseConfigCache::CConfigCacheMap> & __ptr64,int)` | 2291 | Exported Function
-`protected: static int __cdecl ConfigRegistry::DeleteSubkeys(class IRequestContext * __ptr64,struct HKEY__ * __ptr64,unsigned short const * __ptr64,int,int)` | 2108 | Exported Function
-`protected: static int __cdecl ConfigRegistry::DeleteKey(class IRequestContext * __ptr64,unsigned short const * __ptr64,int)` | 2107 | Exported Function
-`protected: static int __cdecl ConfigRegistry::DeleteConfigKey(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int)` | 2104 | Exported Function
-`protected: int __cdecl CWSManResourceNoResourceUri::ProcessNestedEPR(class IRequestContext * __ptr64,unsigned short const * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2952 | Exported Function
-`protected: int __cdecl CWSManResourceNoResourceUri::ProcessKey(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 2951 | Exported Function
-`protected: int __cdecl CWSManResourceNoResourceUri::ProcessFragmentPath(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2950 | Exported Function
-`protected: int __cdecl CWSManResourceNoResourceUri::ProcessOption(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,int) __ptr64` | 2953 | Exported Function
-`protected: int __cdecl RBUFFER::IsDynAlloced(void)const __ptr64` | 2609 | Exported Function
-`protected: int __cdecl RBUFFER::GetNewStorage(unsigned int) __ptr64` | 2439 | Exported Function
-`protected: int __cdecl CWSManResourceNoResourceUri::StringConcatenate(unsigned short * __ptr64 & __ptr64,unsigned long & __ptr64,unsigned long,unsigned short * __ptr64) __ptr64` | 3451 | Exported Function
-`protected: int __cdecl ConfigRegistry::ApplySecurity(class IRequestContext * __ptr64,struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 1978 | Exported Function
-`protected: class STLMap<class CShellUriSettings * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::Data(void)const __ptr64` | 2043 | Exported Function
-`protected: class STLMap<class CListenerOperation * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::Data(void)const __ptr64` | 2042 | Exported Function
-`protected: class STLMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> & __ptr64 __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::Data(void)const __ptr64` | 2047 | Exported Function
-`protected: class STLMap<class Locale::Key,unsigned long> & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const __ptr64` | 2048 | Exported Function
-`protected: class STLMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::Data(void)const __ptr64` | 2051 | Exported Function
-`protected: class STLMap<class StringKeyCI,unsigned long> & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::Data(void)const __ptr64` | 2049 | Exported Function
-`protected: class STLMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> & __ptr64 __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::Data(void)const __ptr64` | 2050 | Exported Function
-`protected: class MachineName * __ptr64 __cdecl ILoader<class MachineName>::GetObjectW(void)const __ptr64` | 2446 | Exported Function
-`protected: class Locale::Resources * __ptr64 __cdecl ILoader<class Locale::Resources>::GetObjectW(void)const __ptr64` | 2449 | Exported Function
-`protected: class IpHlpApiDllLoader * __ptr64 __cdecl ILoader<class IpHlpApiDllLoader>::GetObjectW(void)const __ptr64` | 2445 | Exported Function
-`protected: class NtDsApiDllLoader * __ptr64 __cdecl ILoader<class NtDsApiDllLoader>::GetObjectW(void)const __ptr64` | 2448 | Exported Function
-`protected: class STLMap<class CCertMapping * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::Data(void)const __ptr64` | 2041 | Exported Function
-`protected: class ShlWApiDllLoader * __ptr64 __cdecl ILoader<class ShlWApiDllLoader>::GetObjectW(void)const __ptr64` | 2451 | Exported Function
-`protected: class Shell32DllLoader * __ptr64 __cdecl ILoader<class Shell32DllLoader>::GetObjectW(void)const __ptr64` | 2450 | Exported Function
-`protected: class WSManMemCryptManager * __ptr64 __cdecl ILoader<class WSManMemCryptManager>::GetObjectW(void)const __ptr64` | 2454 | Exported Function
-`protected: class WSMan::EventHandler * __ptr64 __cdecl ILoader<class WSMan::EventHandler>::GetObjectW(void)const __ptr64` | 2443 | Exported Function
-`protected: class User32DllLoader * __ptr64 __cdecl ILoader<class User32DllLoader>::GetObjectW(void)const __ptr64` | 2453 | Exported Function
-`protected: enum ErrorLogging __cdecl CBaseConfigCache::LogReadErrors(enum ConfigChangeSources) __ptr64` | 2695 | Exported Function
-`protected: int __cdecl CBaseConfigCache::InitializeSources(class IRequestContext * __ptr64,int,int) __ptr64` | 2593 | Exported Function
-`protected: int __cdecl CBaseConfigCache::Init(class IRequestContext * __ptr64,int) __ptr64` | 2536 | Exported Function
-`protected: int __cdecl CBaseConfigCache::AddSource(class IRequestContext * __ptr64,class CConfigChangeSource * __ptr64) __ptr64` | 1939 | Exported Function
-`protected: class STLMap<struct PluginKey,unsigned long> & __ptr64 __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::Data(void)const __ptr64` | 2045 | Exported Function
-`protected: class STLMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::Data(void)const __ptr64` | 2053 | Exported Function
-`protected: class STLMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::Data(void)const __ptr64` | 2052 | Exported Function
-`protected: class STLMap<struct UserKey,class BlockedRecord * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::Data(void)const __ptr64` | 2046 | Exported Function
-`protected: class SubscriptionManager * __ptr64 __cdecl ILoader<class SubscriptionManager>::GetObjectW(void)const __ptr64` | 2452 | Exported Function
-`protected: class STLMap<void * __ptr64,struct Empty> & __ptr64 __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::Data(void)const __ptr64` | 2044 | Exported Function
-`protected: class STLMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> & __ptr64 __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::Data(void)const __ptr64` | 2054 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>::ReleasePtr(void) __ptr64` | 3170 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::ReleasePtr(void) __ptr64` | 3084 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::ReleasePtr(void) __ptr64` | 3086 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>::ReleasePtr(void) __ptr64` | 3085 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::ReleasePtr(void) __ptr64` | 3083 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>::ReleasePtr(void) __ptr64` | 3163 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>::ReleasePtr(void) __ptr64` | 3160 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::ReleasePtr(void) __ptr64` | 3157 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::ReleasePtr(void) __ptr64` | 3137 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::ReleasePtr(void) __ptr64` | 3154 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>::ReleasePtr(void) __ptr64` | 3151 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>::ReleasePtr(void) __ptr64` | 3124 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::ReleasePtr(void) __ptr64` | 3155 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>::ReleasePtr(void) __ptr64` | 3153 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::ReleasePtr(void) __ptr64` | 3152 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::ReleasePtr(void) __ptr64` | 3168 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::ReleasePtr(void) __ptr64` | 3167 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::ReleasePtr(void) __ptr64` | 3159 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>::ReleasePtr(void) __ptr64` | 3248 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::ReleasePtr(void) __ptr64` | 3251 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::ReleasePtr(void) __ptr64` | 3250 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::ReleasePtr(void) __ptr64` | 3249 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::ReleasePtr(void) __ptr64` | 3166 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::ReleasePtr(void) __ptr64` | 3165 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::ReleasePtr(void) __ptr64` | 3164 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::ReleasePtr(void) __ptr64` | 3158 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::ReleasePtr(void) __ptr64` | 3156 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::ReleasePtr(void) __ptr64` | 3162 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::ReleasePtr(void) __ptr64` | 3161 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::ReleasePtr(void) __ptr64` | 3150 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3097 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3096 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3095 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> >,class SafeSet_Iterator<class Collector * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3098 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::ReleasePtr(void) __ptr64` | 3144 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3100 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> >,class SafeSet_Iterator<class HostOperation * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3099 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3090 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3089 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3088 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3091 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3094 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::ReleasePtr(void) __ptr64` | 3093 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> * __ptr64>::ReleasePtr(void) __ptr64` | 3092 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::ReleasePtr(void) __ptr64` | 3107 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::ReleasePtr(void) __ptr64` | 3108 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > >,class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > * __ptr64>::ReleasePtr(void) __ptr64` | 3106 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > >,class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > * __ptr64>::ReleasePtr(void) __ptr64` | 3109 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::ReleasePtr(void) __ptr64` | 3149 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>::ReleasePtr(void) __ptr64` | 3148 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::ReleasePtr(void) __ptr64` | 3147 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class CListenerOperation> >,class SimpleStack<class CListenerOperation> * __ptr64>::ReleasePtr(void) __ptr64` | 3101 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>::ReleasePtr(void) __ptr64` | 3146 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>::ReleasePtr(void) __ptr64` | 3145 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class ShellHostEntry> >,class SimpleStack<class ShellHostEntry> * __ptr64>::ReleasePtr(void) __ptr64` | 3102 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::ReleasePtr(void) __ptr64` | 3105 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::ReleasePtr(void) __ptr64` | 3104 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > >,class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > * __ptr64>::ReleasePtr(void) __ptr64` | 3103 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>::ReleasePtr(void) __ptr64` | 3227 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::ReleasePtr(void) __ptr64` | 3226 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::ReleasePtr(void) __ptr64` | 3225 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class PushSubscribeOperation>,class PushSubscribeOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3231 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::ReleasePtr(void) __ptr64` | 3239 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class ShellInfo>,class ShellInfo * __ptr64>::ReleasePtr(void) __ptr64` | 3237 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class PushSubscription>,class PushSubscription * __ptr64>::ReleasePtr(void) __ptr64` | 3232 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::ReleasePtr(void) __ptr64` | 3221 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWSManSession>,class CWSManSession * __ptr64>::ReleasePtr(void) __ptr64` | 3212 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::ReleasePtr(void) __ptr64` | 3211 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::ReleasePtr(void) __ptr64` | 3222 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::ReleasePtr(void) __ptr64` | 3228 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3224 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class HostMappingTable>,class HostMappingTable * __ptr64>::ReleasePtr(void) __ptr64` | 3223 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3234 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3233 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ProxySelection>,class WSMan::Client::ProxySelection * __ptr64>::ReleasePtr(void) __ptr64` | 3230 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3235 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>::ReleasePtr(void) __ptr64` | 3240 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3238 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::ReleasePtr(void) __ptr64` | 3236 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3217 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::ReleasePtr(void) __ptr64` | 3215 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>::ReleasePtr(void) __ptr64` | 3190 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3218 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ProxyManager>,class WSMan::Client::ProxyManager * __ptr64>::ReleasePtr(void) __ptr64` | 3229 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3220 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3219 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::ReleasePtr(void) __ptr64` | 3210 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3193 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CClientConfigCache>,class CClientConfigCache * __ptr64>::ReleasePtr(void) __ptr64` | 3192 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::ReleasePtr(void) __ptr64` | 3191 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3194 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CListenerMasterOperation>,class CListenerMasterOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3198 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CListenerCommand>,class CListenerCommand * __ptr64>::ReleasePtr(void) __ptr64` | 3197 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::ReleasePtr(void) __ptr64` | 3196 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::ReleasePtr(void) __ptr64` | 3253 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::ReleasePtr(void) __ptr64` | 3169 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::ReleasePtr(void) __ptr64` | 3252 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::ReleasePtr(void) __ptr64` | 3254 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::ReleasePtr(void) __ptr64` | 3195 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::ReleasePtr(void) __ptr64` | 3256 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>::ReleasePtr(void) __ptr64` | 3255 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::ReleasePtr(void) __ptr64` | 3213 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3206 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::ReleasePtr(void) __ptr64` | 3205 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3214 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::ReleasePtr(void) __ptr64` | 3209 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::ReleasePtr(void) __ptr64` | 3208 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::ReleasePtr(void) __ptr64` | 3207 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>::ReleasePtr(void) __ptr64` | 3216 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CListenerShell>,class CListenerShell * __ptr64>::ReleasePtr(void) __ptr64` | 3200 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CListenerReceive>,class CListenerReceive * __ptr64>::ReleasePtr(void) __ptr64` | 3199 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>::ReleasePtr(void) __ptr64` | 3201 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3204 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::ReleasePtr(void) __ptr64` | 3203 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::ReleasePtr(void) __ptr64` | 3202 | Exported Function
-`protected: static int __cdecl ConfigRegistry::DeleteValues(class IRequestContext * __ptr64,struct HKEY__ * __ptr64)` | 2109 | Exported Function
+`ConfigRegistry` | 550 | Exported Function
+`ResizeOptionList` | 3304 | Exported Function
+`CreateInstance` | 2027 | Exported Function
+`CreateInstance` | 2024 | Exported Function
+`CreateInstance` | 2022 | Exported Function
+`GenerateTransferIdImp` | 2264 | Exported Function
+`EventWrite` | 2229 | Exported Function
+`ResetRobustConnectionHeaders` | 3301 | Exported Function
+`WriteSoapMessageA` | 3504 | Exported Function
+`CConfigCacheMap` | 530 | Exported Function
+`WriteSoapMessageW_BE` | 3506 | Exported Function
+`WriteSoapMessageW` | 3505 | Exported Function
+`CreateInstance` | 2034 | Exported Function
+`CreateInstance` | 2023 | Exported Function
+`CreateInstance` | 2033 | Exported Function
+`GetCurrentSettings` | 2304 | Exported Function
+`GetObjectW` | 2447 | Exported Function
+`GetObjectW` | 2444 | Exported Function
+`GetObjectW` | 2442 | Exported Function
+`CreateInstance` | 2026 | Exported Function
+`CreateInstance` | 2029 | Exported Function
+`CreateInstance` | 2025 | Exported Function
+`CreateInstance` | 2028 | Exported Function
+`CreateInstance` | 2032 | Exported Function
+`CreateInstance` | 2031 | Exported Function
+`CreateInstance` | 2030 | Exported Function
+`PolicyChanged` | 2930 | Exported Function
+`ReleasePtr` | 3180 | Exported Function
+`ReleasePtr` | 3179 | Exported Function
+`ReleasePtr` | 3178 | Exported Function
+`ReleasePtr` | 3181 | Exported Function
+`ReleasePtr` | 3184 | Exported Function
+`ReleasePtr` | 3183 | Exported Function
+`ReleasePtr` | 3182 | Exported Function
+`ReleasePtr` | 3173 | Exported Function
+`ReleasePtr` | 3172 | Exported Function
+`ReleasePtr` | 3171 | Exported Function
+`ReleasePtr` | 3174 | Exported Function
+`ReleasePtr` | 3177 | Exported Function
+`ReleasePtr` | 3176 | Exported Function
+`ReleasePtr` | 3175 | Exported Function
+`SetErrorState` | 3322 | Exported Function
+`ReleasePtr` | 3258 | Exported Function
+`ReleasePtr` | 3257 | Exported Function
+`WakeAllWaitingOnNoOfChildren` | 3494 | Exported Function
+`StoreExpansion` | 3444 | Exported Function
+`RecordFailure` | 2997 | Exported Function
+`GetFaultXMLPrivate` | 2328 | Exported Function
+`ReleasePtr` | 3187 | Exported Function
+`ReleasePtr` | 3186 | Exported Function
+`ReleasePtr` | 3185 | Exported Function
+`ReleasePtr` | 3188 | Exported Function
+`ReleasePtr` | 3242 | Exported Function
+`ReleasePtr` | 3241 | Exported Function
+`ReleasePtr` | 3189 | Exported Function
+`ValidateIPFilter` | 3478 | Exported Function
+`ValidateInt` | 3480 | Exported Function
+`ValidateHostnameAndCertificateCN` | 3477 | Exported Function
+`ValidateString` | 3482 | Exported Function
+`ProcessFragmentDialect` | 2949 | Exported Function
+`ValidateUrlPrefix` | 3484 | Exported Function
+`ValidateTrustedHosts` | 3483 | Exported Function
+`CreateKey` | 2035 | Exported Function
+`ClearRegistryKeys` | 2009 | Exported Function
+`CheckSharedSSLConfiguration` | 2002 | Exported Function
+`Init` | 2538 | Exported Function
+`ValidateCertificateHash` | 3475 | Exported Function
+`ValidateCBTHardeningLevel` | 3474 | Exported Function
+`SetFinishValue` | 3329 | Exported Function
+`OpenRegKey` | 2888 | Exported Function
+`ReallocStorage` | 2988 | Exported Function
+`IsValid` | 2684 | Exported Function
+`CConfigCacheMap` | 2291 | Exported Function
+`DeleteSubkeys` | 2108 | Exported Function
+`DeleteKey` | 2107 | Exported Function
+`DeleteConfigKey` | 2104 | Exported Function
+`ProcessNestedEPR` | 2952 | Exported Function
+`ProcessKey` | 2951 | Exported Function
+`ProcessFragmentPath` | 2950 | Exported Function
+`ProcessOption` | 2953 | Exported Function
+`IsDynAlloced` | 2609 | Exported Function
+`GetNewStorage` | 2439 | Exported Function
+`StringConcatenate` | 3451 | Exported Function
+`ApplySecurity` | 1978 | Exported Function
+`Data` | 2043 | Exported Function
+`Data` | 2042 | Exported Function
+`Data` | 2047 | Exported Function
+`Data` | 2048 | Exported Function
+`Data` | 2051 | Exported Function
+`Data` | 2049 | Exported Function
+`Data` | 2050 | Exported Function
+`GetObjectW` | 2446 | Exported Function
+`GetObjectW` | 2449 | Exported Function
+`GetObjectW` | 2445 | Exported Function
+`GetObjectW` | 2448 | Exported Function
+`Data` | 2041 | Exported Function
+`GetObjectW` | 2451 | Exported Function
+`GetObjectW` | 2450 | Exported Function
+`GetObjectW` | 2454 | Exported Function
+`GetObjectW` | 2443 | Exported Function
+`GetObjectW` | 2453 | Exported Function
+`LogReadErrors` | 2695 | Exported Function
+`InitializeSources` | 2593 | Exported Function
+`Init` | 2536 | Exported Function
+`AddSource` | 1939 | Exported Function
+`Data` | 2045 | Exported Function
+`Data` | 2053 | Exported Function
+`Data` | 2052 | Exported Function
+`Data` | 2046 | Exported Function
+`GetObjectW` | 2452 | Exported Function
+`Data` | 2044 | Exported Function
+`Data` | 2054 | Exported Function
+`ReleasePtr` | 3170 | Exported Function
+`ReleasePtr` | 3084 | Exported Function
+`ReleasePtr` | 3086 | Exported Function
+`ReleasePtr` | 3085 | Exported Function
+`ReleasePtr` | 3083 | Exported Function
+`ReleasePtr` | 3163 | Exported Function
+`ReleasePtr` | 3160 | Exported Function
+`ReleasePtr` | 3157 | Exported Function
+`ReleasePtr` | 3137 | Exported Function
+`ReleasePtr` | 3154 | Exported Function
+`ReleasePtr` | 3151 | Exported Function
+`ReleasePtr` | 3124 | Exported Function
+`ReleasePtr` | 3155 | Exported Function
+`ReleasePtr` | 3153 | Exported Function
+`ReleasePtr` | 3152 | Exported Function
+`ReleasePtr` | 3168 | Exported Function
+`ReleasePtr` | 3167 | Exported Function
+`ReleasePtr` | 3159 | Exported Function
+`ReleasePtr` | 3248 | Exported Function
+`ReleasePtr` | 3251 | Exported Function
+`ReleasePtr` | 3250 | Exported Function
+`ReleasePtr` | 3249 | Exported Function
+`ReleasePtr` | 3166 | Exported Function
+`ReleasePtr` | 3165 | Exported Function
+`ReleasePtr` | 3164 | Exported Function
+`ReleasePtr` | 3158 | Exported Function
+`ReleasePtr` | 3156 | Exported Function
+`ReleasePtr` | 3162 | Exported Function
+`ReleasePtr` | 3161 | Exported Function
+`ReleasePtr` | 3150 | Exported Function
+`ReleasePtr` | 3097 | Exported Function
+`ReleasePtr` | 3096 | Exported Function
+`ReleasePtr` | 3095 | Exported Function
+`ReleasePtr` | 3098 | Exported Function
+`ReleasePtr` | 3144 | Exported Function
+`ReleasePtr` | 3100 | Exported Function
+`ReleasePtr` | 3099 | Exported Function
+`ReleasePtr` | 3090 | Exported Function
+`ReleasePtr` | 3089 | Exported Function
+`ReleasePtr` | 3088 | Exported Function
+`ReleasePtr` | 3091 | Exported Function
+`ReleasePtr` | 3094 | Exported Function
+`ReleasePtr` | 3093 | Exported Function
+`ReleasePtr` | 3092 | Exported Function
+`ReleasePtr` | 3107 | Exported Function
+`ReleasePtr` | 3108 | Exported Function
+`ReleasePtr` | 3106 | Exported Function
+`ReleasePtr` | 3109 | Exported Function
+`ReleasePtr` | 3149 | Exported Function
+`ReleasePtr` | 3148 | Exported Function
+`ReleasePtr` | 3147 | Exported Function
+`ReleasePtr` | 3101 | Exported Function
+`ReleasePtr` | 3146 | Exported Function
+`ReleasePtr` | 3145 | Exported Function
+`ReleasePtr` | 3102 | Exported Function
+`ReleasePtr` | 3105 | Exported Function
+`ReleasePtr` | 3104 | Exported Function
+`ReleasePtr` | 3103 | Exported Function
+`ReleasePtr` | 3227 | Exported Function
+`ReleasePtr` | 3226 | Exported Function
+`ReleasePtr` | 3225 | Exported Function
+`ReleasePtr` | 3231 | Exported Function
+`ReleasePtr` | 3239 | Exported Function
+`ReleasePtr` | 3237 | Exported Function
+`ReleasePtr` | 3232 | Exported Function
+`ReleasePtr` | 3221 | Exported Function
+`ReleasePtr` | 3212 | Exported Function
+`ReleasePtr` | 3211 | Exported Function
+`ReleasePtr` | 3222 | Exported Function
+`ReleasePtr` | 3228 | Exported Function
+`ReleasePtr` | 3224 | Exported Function
+`ReleasePtr` | 3223 | Exported Function
+`ReleasePtr` | 3234 | Exported Function
+`ReleasePtr` | 3233 | Exported Function
+`ReleasePtr` | 3230 | Exported Function
+`ReleasePtr` | 3235 | Exported Function
+`ReleasePtr` | 3240 | Exported Function
+`ReleasePtr` | 3238 | Exported Function
+`ReleasePtr` | 3236 | Exported Function
+`ReleasePtr` | 3217 | Exported Function
+`ReleasePtr` | 3215 | Exported Function
+`ReleasePtr` | 3190 | Exported Function
+`ReleasePtr` | 3218 | Exported Function
+`ReleasePtr` | 3229 | Exported Function
+`ReleasePtr` | 3220 | Exported Function
+`ReleasePtr` | 3219 | Exported Function
+`ReleasePtr` | 3210 | Exported Function
+`ReleasePtr` | 3193 | Exported Function
+`ReleasePtr` | 3192 | Exported Function
+`ReleasePtr` | 3191 | Exported Function
+`ReleasePtr` | 3194 | Exported Function
+`ReleasePtr` | 3198 | Exported Function
+`ReleasePtr` | 3197 | Exported Function
+`ReleasePtr` | 3196 | Exported Function
+`ReleasePtr` | 3253 | Exported Function
+`ReleasePtr` | 3169 | Exported Function
+`ReleasePtr` | 3252 | Exported Function
+`ReleasePtr` | 3254 | Exported Function
+`ReleasePtr` | 3195 | Exported Function
+`ReleasePtr` | 3256 | Exported Function
+`ReleasePtr` | 3255 | Exported Function
+`ReleasePtr` | 3213 | Exported Function
+`ReleasePtr` | 3206 | Exported Function
+`ReleasePtr` | 3205 | Exported Function
+`ReleasePtr` | 3214 | Exported Function
+`ReleasePtr` | 3209 | Exported Function
+`ReleasePtr` | 3208 | Exported Function
+`ReleasePtr` | 3207 | Exported Function
+`ReleasePtr` | 3216 | Exported Function
+`ReleasePtr` | 3200 | Exported Function
+`ReleasePtr` | 3199 | Exported Function
+`ReleasePtr` | 3201 | Exported Function
+`ReleasePtr` | 3204 | Exported Function
+`ReleasePtr` | 3203 | Exported Function
+`ReleasePtr` | 3202 | Exported Function
+`DeleteValues` | 2109 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::~AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>(void) __ptr64` | 644 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::operator class PacketCreator * __ptr64(void) __ptr64` | 1476 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>(class PacketCreator * __ptr64) __ptr64` | 49 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>(class PacketParser * __ptr64) __ptr64` | 50 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>(class RobustConnectionBuffer::SendPacketArgs * __ptr64) __ptr64` | 54 | Exported Function
+`operator` | 1476 | Exported Function
+`AutoCleanup` | 49 | Exported Function
+`AutoCleanup` | 50 | Exported Function
+`SendPacketArgs` | 54 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::~AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>(void) __ptr64` | 645 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::operator class PacketParser * __ptr64(void) __ptr64` | 1477 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>::operator class MachineName * __ptr64(void) __ptr64` | 1472 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>::AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>(class MachineName * __ptr64) __ptr64` | 45 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>::~AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>(void) __ptr64` | 646 | Exported Function
+`operator` | 1477 | Exported Function
+`operator` | 1472 | Exported Function
+`AutoCleanup` | 45 | Exported Function
+`Resources` | 646 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>::~AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>(void) __ptr64` | 639 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>::~AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>(void) __ptr64` | 642 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>::operator class NtDsApiDllLoader * __ptr64(void) __ptr64` | 1474 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>::AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>(class NtDsApiDllLoader * __ptr64) __ptr64` | 47 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::operator class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64(void) __ptr64` | 1435 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>(class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64) __ptr64` | 7 | Exported Function
+`operator` | 1474 | Exported Function
+`AutoCleanup` | 47 | Exported Function
+`operator` | 1435 | Exported Function
+`AutoCleanup` | 7 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> * __ptr64>(void) __ptr64` | 598 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>(void) __ptr64` | 599 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>(void) __ptr64` | 600 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::operator class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64(void) __ptr64` | 1436 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>(class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64) __ptr64` | 8 | Exported Function
+`OptionValue` | 600 | Exported Function
+`OptionValue` | 1436 | Exported Function
+`OptionValue` | 8 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::~AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>(void) __ptr64` | 647 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>(class RunAsConfiguration * __ptr64) __ptr64` | 52 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::~AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>(void) __ptr64` | 649 | Exported Function
+`AutoCleanup` | 52 | Exported Function
+`SendPacketArgs` | 649 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> * __ptr64>(void) __ptr64` | 594 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> * __ptr64>(void) __ptr64` | 597 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> * __ptr64>(void) __ptr64` | 596 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> * __ptr64>(void) __ptr64` | 595 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>::operator class Locale::Resources * __ptr64(void) __ptr64` | 1478 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::operator class Handle<class ISubscription> * __ptr64(void) __ptr64` | 1434 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>(class Handle<class ISubscription> * __ptr64) __ptr64` | 6 | Exported Function
+`Resources` | 1478 | Exported Function
+`operator` | 1434 | Exported Function
+`AutoCleanup` | 6 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::~AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>(void) __ptr64` | 632 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::~AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>(void) __ptr64` | 593 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::~AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>(void) __ptr64` | 634 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::operator class IChannelObserverFactory * __ptr64(void) __ptr64` | 1465 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>(class IChannelObserverFactory * __ptr64) __ptr64` | 38 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator class GeneralSinkEx * __ptr64 const(void)const __ptr64` | 1464 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>(void) __ptr64` | 37 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>(class GeneralSinkEx * __ptr64) __ptr64` | 36 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator class GeneralSinkEx * __ptr64(void) __ptr64` | 1463 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::operator class GPApiManager * __ptr64(void) __ptr64` | 1462 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>(class GPApiManager * __ptr64) __ptr64` | 35 | Exported Function
+`operator` | 1465 | Exported Function
+`AutoCleanup` | 38 | Exported Function
+`operator` | 1464 | Exported Function
+`AutoCleanup` | 37 | Exported Function
+`AutoCleanup` | 36 | Exported Function
+`operator` | 1463 | Exported Function
+`operator` | 1462 | Exported Function
+`AutoCleanup` | 35 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::~AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>(void) __ptr64` | 633 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>(void) __ptr64` | 42 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>(class ISpecification * __ptr64) __ptr64` | 41 | Exported Function
+`AutoCleanup` | 42 | Exported Function
+`AutoCleanup` | 41 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::~AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>(void) __ptr64` | 635 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::operator class ISpecification * __ptr64 const(void)const __ptr64` | 1469 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>::AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>(class Locale::Resources * __ptr64) __ptr64` | 51 | Exported Function
+`operator` | 1469 | Exported Function
+`Resources` | 51 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::~AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>(void) __ptr64` | 636 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::operator class ISpecification * __ptr64(void) __ptr64` | 1468 | Exported Function
+`operator` | 1468 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>::~AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>(void) __ptr64` | 638 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>::operator class IpHlpApiDllLoader * __ptr64(void) __ptr64` | 1471 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>::AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>(class IpHlpApiDllLoader * __ptr64) __ptr64` | 44 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>(class IQueryDASHSMASHInterface * __ptr64) __ptr64` | 39 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::operator class IQueryDASHSMASHInterface * __ptr64(void) __ptr64` | 1466 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::operator class IQueryDASHSMASHInterface * __ptr64 const(void)const __ptr64` | 1467 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>(void) __ptr64` | 40 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::operator class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64(void) __ptr64` | 1442 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::operator class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64 const(void)const __ptr64` | 1443 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>(class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64) __ptr64` | 16 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::~AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>(void) __ptr64` | 613 | Exported Function
+`operator` | 1471 | Exported Function
+`AutoCleanup` | 44 | Exported Function
+`AutoCleanup` | 39 | Exported Function
+`operator` | 1466 | Exported Function
+`operator` | 1467 | Exported Function
+`AutoCleanup` | 40 | Exported Function
+`HandleImpl` | 1442 | Exported Function
+`HandleImpl` | 1443 | Exported Function
+`HandleImpl` | 16 | Exported Function
+`HandleImpl` | 613 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::~AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>(void) __ptr64` | 653 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>(class SubscriptionEnumerator * __ptr64) __ptr64` | 58 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > >,class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > * __ptr64>::~AutoCleanup<class AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > >,class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > * __ptr64>(void) __ptr64` | 615 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::~AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>(void) __ptr64` | 611 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::operator class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64(void) __ptr64` | 1441 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>(class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64) __ptr64` | 15 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > >,class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > * __ptr64>::~AutoCleanup<class AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > >,class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > * __ptr64>(void) __ptr64` | 612 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::~AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>(void) __ptr64` | 614 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::operator class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64(void) __ptr64` | 1444 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>(class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64) __ptr64` | 17 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::operator class UniqueStringOverflow * __ptr64(void) __ptr64` | 1486 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>(class UniqueStringOverflow * __ptr64) __ptr64` | 62 | Exported Function
+`AutoCleanup` | 58 | Exported Function
+`vector` | 615 | Exported Function
+`SockAddrLessFunctor` | 611 | Exported Function
+`SockAddrLessFunctor` | 1441 | Exported Function
+`SockAddrLessFunctor` | 15 | Exported Function
+`vector` | 612 | Exported Function
+`vector` | 614 | Exported Function
+`vector` | 1444 | Exported Function
+`vector` | 17 | Exported Function
+`operator` | 1486 | Exported Function
+`AutoCleanup` | 62 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::~AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>(void) __ptr64` | 655 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::~AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>(void) __ptr64` | 656 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>::~AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>(void) __ptr64` | 657 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>::operator class User32DllLoader * __ptr64(void) __ptr64` | 1487 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>::AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>(class User32DllLoader * __ptr64) __ptr64` | 63 | Exported Function
+`operator` | 1487 | Exported Function
+`AutoCleanup` | 63 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>::~AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>(void) __ptr64` | 654 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>::operator class SubscriptionManager * __ptr64(void) __ptr64` | 1483 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>::AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>(class SubscriptionManager * __ptr64) __ptr64` | 59 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>(class TSTRBUFFER * __ptr64) __ptr64` | 60 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::operator class TSTRBUFFER * __ptr64(void) __ptr64` | 1484 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::operator class TSTRBUFFER * __ptr64 const(void)const __ptr64` | 1485 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>(void) __ptr64` | 61 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::~AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>(void) __ptr64` | 610 | Exported Function
+`operator` | 1483 | Exported Function
+`AutoCleanup` | 59 | Exported Function
+`AutoCleanup` | 60 | Exported Function
+`operator` | 1484 | Exported Function
+`operator` | 1485 | Exported Function
+`AutoCleanup` | 61 | Exported Function
+`CListenerSettingsLessFunctor` | 610 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> >,class SafeSet_Iterator<class Collector * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> >,class SafeSet_Iterator<class Collector * __ptr64> * __ptr64>(void) __ptr64` | 604 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>(void) __ptr64` | 603 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::operator class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64(void) __ptr64` | 1439 | Exported Function
+`operator` | 1439 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> >,class SafeSet_Iterator<class HostOperation * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> >,class SafeSet_Iterator<class HostOperation * __ptr64> * __ptr64>(void) __ptr64` | 605 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::operator class ServiceSoapProcessor * __ptr64(void) __ptr64` | 1480 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>(class ServiceSoapProcessor * __ptr64) __ptr64` | 55 | Exported Function
+`operator` | 1480 | Exported Function
+`AutoCleanup` | 55 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> * __ptr64>(void) __ptr64` | 606 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>(void) __ptr64` | 601 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::operator class SafeSet<class CCertMapping * __ptr64> * __ptr64(void) __ptr64` | 1437 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>(class SafeSet<class CCertMapping * __ptr64> * __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>(class SafeSet<class CShellUriSettings * __ptr64> * __ptr64) __ptr64` | 10 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>(class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64) __ptr64` | 11 | Exported Function
+`operator` | 1437 | Exported Function
+`AutoCleanup` | 9 | Exported Function
+`AutoCleanup` | 10 | Exported Function
+`AutoCleanup` | 11 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::~AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>(void) __ptr64` | 602 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::operator class SafeSet<class CShellUriSettings * __ptr64> * __ptr64(void) __ptr64` | 1438 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class ShellHostEntry> >,class SimpleStack<class ShellHostEntry> * __ptr64>::AutoCleanup<class AutoDelete<class SimpleStack<class ShellHostEntry> >,class SimpleStack<class ShellHostEntry> * __ptr64>(class SimpleStack<class ShellHostEntry> * __ptr64) __ptr64` | 13 | Exported Function
+`operator` | 1438 | Exported Function
+`AutoCleanup` | 13 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class CListenerOperation> >,class SimpleStack<class CListenerOperation> * __ptr64>::~AutoCleanup<class AutoDelete<class SimpleStack<class CListenerOperation> >,class SimpleStack<class CListenerOperation> * __ptr64>(void) __ptr64` | 607 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class CListenerOperation> >,class SimpleStack<class CListenerOperation> * __ptr64>::AutoCleanup<class AutoDelete<class SimpleStack<class CListenerOperation> >,class SimpleStack<class CListenerOperation> * __ptr64>(class SimpleStack<class CListenerOperation> * __ptr64) __ptr64` | 12 | Exported Function
+`AutoCleanup` | 12 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class ShellHostEntry> >,class SimpleStack<class ShellHostEntry> * __ptr64>::~AutoCleanup<class AutoDelete<class SimpleStack<class ShellHostEntry> >,class SimpleStack<class ShellHostEntry> * __ptr64>(void) __ptr64` | 608 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::operator class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64(void) __ptr64` | 1440 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>(class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64) __ptr64` | 14 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > >,class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > * __ptr64>::~AutoCleanup<class AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > >,class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > * __ptr64>(void) __ptr64` | 609 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>::operator class Shell32DllLoader * __ptr64(void) __ptr64` | 1481 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>::AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>(class Shell32DllLoader * __ptr64) __ptr64` | 56 | Exported Function
+`CListenerSettingsLessFunctor` | 1440 | Exported Function
+`CListenerSettingsLessFunctor` | 14 | Exported Function
+`deque` | 609 | Exported Function
+`operator` | 1481 | Exported Function
+`AutoCleanup` | 56 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::~AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>(void) __ptr64` | 650 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>::~AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>(void) __ptr64` | 651 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>::~AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>(void) __ptr64` | 652 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>::operator class ShlWApiDllLoader * __ptr64(void) __ptr64` | 1482 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>::AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>(class ShlWApiDllLoader * __ptr64) __ptr64` | 57 | Exported Function
+`operator` | 1482 | Exported Function
+`AutoCleanup` | 57 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::~AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>(void) __ptr64` | 631 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::operator unsigned short * __ptr64(void) __ptr64` | 1588 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::AutoCleanup<class AutoBstr,unsigned short * __ptr64>(void) __ptr64` | 170 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::AutoCleanup<class AutoBstr,unsigned short * __ptr64>(unsigned short * __ptr64) __ptr64` | 169 | Exported Function
+`operator` | 1588 | Exported Function
+`AutoCleanup` | 170 | Exported Function
+`AutoCleanup` | 169 | Exported Function
 `public: __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::~AutoCleanup<class AutoBstr,unsigned short * __ptr64>(void) __ptr64` | 749 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::operator unsigned short * __ptr64 const(void)const __ptr64` | 1590 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>(void) __ptr64` | 172 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>(unsigned short * __ptr64) __ptr64` | 171 | Exported Function
-`public: __cdecl AutoCertContext::AutoCertContext(void) __ptr64` | 501 | Exported Function
-`public: __cdecl AutoCertContext::AutoCertContext(struct _CERT_CONTEXT const * __ptr64) __ptr64` | 500 | Exported Function
+`operator` | 1590 | Exported Function
+`AutoCleanup` | 172 | Exported Function
+`AutoCleanup` | 171 | Exported Function
+`AutoCertContext` | 501 | Exported Function
+`AutoCertContext` | 500 | Exported Function
 `public: __cdecl AutoBstrNoAlloc::~AutoBstrNoAlloc(void) __ptr64` | 1062 | Exported Function
 `public: __cdecl AutoCertContext::~AutoCertContext(void) __ptr64` | 1063 | Exported Function
 `public: __cdecl AutoChainContext::~AutoChainContext(void) __ptr64` | 1064 | Exported Function
-`public: __cdecl AutoChainContext::AutoChainContext(void) __ptr64` | 503 | Exported Function
-`public: __cdecl AutoChainContext::AutoChainContext(struct _CERT_CHAIN_CONTEXT const * __ptr64) __ptr64` | 502 | Exported Function
-`public: __cdecl AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>::AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>(void * __ptr64) __ptr64` | 177 | Exported Function
+`AutoChainContext` | 503 | Exported Function
+`AutoChainContext` | 502 | Exported Function
+`AutoCleanup` | 177 | Exported Function
 `public: __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::~AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>(void) __ptr64` | 752 | Exported Function
-`public: __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>(void) __ptr64` | 176 | Exported Function
-`public: __cdecl AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>::AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>(void) __ptr64` | 178 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<char>,char * __ptr64>::operator char * __ptr64(void) __ptr64` | 1428 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<char>,char * __ptr64>::AutoCleanup<class AutoDelete<char>,char * __ptr64>(char * __ptr64) __ptr64` | 1 | Exported Function
+`AutoCleanup` | 176 | Exported Function
+`AutoCleanup` | 178 | Exported Function
+`operator` | 1428 | Exported Function
+`AutoCleanup` | 1 | Exported Function
 `public: __cdecl AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>::~AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>(void) __ptr64` | 753 | Exported Function
-`public: __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>(struct _CERT_CONTEXT const * __ptr64) __ptr64` | 173 | Exported Function
+`AutoCleanup` | 173 | Exported Function
 `public: __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::~AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>(void) __ptr64` | 750 | Exported Function
-`public: __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::operator unsigned short * __ptr64(void) __ptr64` | 1589 | Exported Function
-`public: __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>(void) __ptr64` | 174 | Exported Function
-`public: __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>(struct _CERT_CHAIN_CONTEXT const * __ptr64) __ptr64` | 175 | Exported Function
+`operator` | 1589 | Exported Function
+`AutoCleanup` | 174 | Exported Function
+`AutoCleanup` | 175 | Exported Function
 `public: __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::~AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>(void) __ptr64` | 751 | Exported Function
-`public: __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::operator struct _CERT_CONTEXT const * __ptr64(void) __ptr64` | 1591 | Exported Function
-`public: __cdecl AutoBstrNoAlloc::AutoBstrNoAlloc(void) __ptr64` | 499 | Exported Function
-`protected: void __cdecl RBUFFER::VerifyState(void)const __ptr64` | 3486 | Exported Function
-`protected: void __cdecl RBUFFER::SetValid(int) __ptr64` | 3350 | Exported Function
-`protected: void __cdecl CBaseConfigCache::Shutdown(void) __ptr64` | 3352 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class CCertMapping * __ptr64,struct Empty>::SkipOrphans(void) __ptr64` | 3363 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class CShellUriSettings * __ptr64,struct Empty>::SkipOrphans(void) __ptr64` | 3365 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class CListenerOperation * __ptr64,struct Empty>::SkipOrphans(void) __ptr64` | 3364 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet>::SkipOrphans(void) __ptr64` | 3369 | Exported Function
-`protected: virtual int __cdecl CBaseConfigCache::PostChange(class IRequestContext * __ptr64,class CCommonConfigSettings * __ptr64,class CCommonConfigSettings * __ptr64) __ptr64` | 2931 | Exported Function
-`protected: virtual int __cdecl CBaseConfigCache::InitializeSourcesHelper(class IRequestContext * __ptr64,int) __ptr64` | 2594 | Exported Function
-`protected: static void __cdecl CBaseConfigCache::RemoveAll(class FastLock * __ptr64,class AutoRelease<class CBaseConfigCache::CConfigCacheMap> & __ptr64)` | 3268 | Exported Function
-`protected: virtual int __cdecl CWSManEPR::InternalParse(class IRequestContext * __ptr64) __ptr64` | 2601 | Exported Function
-`protected: void __cdecl CBaseConfigCache::DoOnChange(enum ConfigChangeSources,unsigned long,enum ConfigChangeSeverityType) __ptr64` | 2210 | Exported Function
-`protected: virtual void __cdecl CBaseConfigCache::PostError(unsigned long) __ptr64` | 2933 | Exported Function
-`protected: virtual int __cdecl CWSManResource::InternalParse(class IRequestContext * __ptr64) __ptr64` | 2602 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<void * __ptr64,struct Empty>::SkipOrphans(void) __ptr64` | 3366 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::SkipOrphans(void) __ptr64` | 3376 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64>::SkipOrphans(void) __ptr64` | 3368 | Exported Function
-`public: __cdecl AutoBstr::AutoBstr(unsigned short * __ptr64) __ptr64` | 496 | Exported Function
-`public: __cdecl AutoBstrNoAlloc::AutoBstrNoAlloc(unsigned short * __ptr64) __ptr64` | 498 | Exported Function
+`operator` | 1591 | Exported Function
+`AutoBstrNoAlloc` | 499 | Exported Function
+`VerifyState` | 3486 | Exported Function
+`SetValid` | 3350 | Exported Function
+`Shutdown` | 3352 | Exported Function
+`SkipOrphans` | 3363 | Exported Function
+`SkipOrphans` | 3365 | Exported Function
+`SkipOrphans` | 3364 | Exported Function
+`SkipOrphans` | 3369 | Exported Function
+`PostChange` | 2931 | Exported Function
+`InitializeSourcesHelper` | 2594 | Exported Function
+`CConfigCacheMap` | 3268 | Exported Function
+`InternalParse` | 2601 | Exported Function
+`DoOnChange` | 2210 | Exported Function
+`PostError` | 2933 | Exported Function
+`InternalParse` | 2602 | Exported Function
+`SkipOrphans` | 3366 | Exported Function
+`SkipOrphans` | 3376 | Exported Function
+`SkipOrphans` | 3368 | Exported Function
+`AutoBstr` | 496 | Exported Function
+`AutoBstrNoAlloc` | 498 | Exported Function
 `public: __cdecl AutoBstr::~AutoBstr(void) __ptr64` | 1061 | Exported Function
-`public: __cdecl AutoBstr::AutoBstr(void) __ptr64` | 497 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class StringKeyCI,unsigned long>::SkipOrphans(void) __ptr64` | 3371 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO>::SkipOrphans(void) __ptr64` | 3372 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void) __ptr64` | 3370 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64>::SkipOrphans(void) __ptr64` | 3373 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<struct PluginKey,unsigned long>::SkipOrphans(void) __ptr64` | 3367 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::SkipOrphans(void) __ptr64` | 3375 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64>::SkipOrphans(void) __ptr64` | 3374 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>(class CServiceConfigCache::CServiceWatcher * __ptr64) __ptr64` | 25 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>::~AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>(void) __ptr64` | 641 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>::operator class CSecurity::NetworkServiceSid * __ptr64(void) __ptr64` | 1473 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::operator class CServiceConfigCache::CServiceWatcher * __ptr64(void) __ptr64` | 1452 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::operator class CShellUriSettings * __ptr64(void) __ptr64` | 1453 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>(class CShellUriSettings * __ptr64) __ptr64` | 26 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::~AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>(void) __ptr64` | 623 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>::~AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>(void) __ptr64` | 616 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>::operator class CSecurity::AdminSid * __ptr64(void) __ptr64` | 1445 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>::AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>(class CSecurity::AdminSid * __ptr64) __ptr64` | 18 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>::AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>(class CSecurity::InteractiveSid * __ptr64) __ptr64` | 43 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>::AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>(class CSecurity::NetworkServiceSid * __ptr64) __ptr64` | 46 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>::~AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>(void) __ptr64` | 637 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>::operator class CSecurity::InteractiveSid * __ptr64(void) __ptr64` | 1470 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator class EnumSinkEx * __ptr64 const(void)const __ptr64` | 1459 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>(void) __ptr64` | 32 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>(class EnumSinkEx * __ptr64) __ptr64` | 31 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator class EnumSinkEx * __ptr64(void) __ptr64` | 1458 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::operator class ExpiredOperationIdRecord * __ptr64(void) __ptr64` | 1461 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>(class ExpiredOperationIdRecord * __ptr64) __ptr64` | 34 | Exported Function
+`AutoBstr` | 497 | Exported Function
+`SkipOrphans` | 3371 | Exported Function
+`SkipOrphans` | 3372 | Exported Function
+`SkipOrphans` | 3370 | Exported Function
+`SkipOrphans` | 3373 | Exported Function
+`SkipOrphans` | 3367 | Exported Function
+`SkipOrphans` | 3375 | Exported Function
+`SkipOrphans` | 3374 | Exported Function
+`CServiceWatcher` | 25 | Exported Function
+`NetworkServiceSid` | 641 | Exported Function
+`NetworkServiceSid` | 1473 | Exported Function
+`CServiceWatcher` | 1452 | Exported Function
+`operator` | 1453 | Exported Function
+`AutoCleanup` | 26 | Exported Function
+`CServiceWatcher` | 623 | Exported Function
+`AdminSid` | 616 | Exported Function
+`AdminSid` | 1445 | Exported Function
+`AdminSid` | 18 | Exported Function
+`InteractiveSid` | 43 | Exported Function
+`NetworkServiceSid` | 46 | Exported Function
+`InteractiveSid` | 637 | Exported Function
+`InteractiveSid` | 1470 | Exported Function
+`operator` | 1459 | Exported Function
+`AutoCleanup` | 32 | Exported Function
+`AutoCleanup` | 31 | Exported Function
+`operator` | 1458 | Exported Function
+`operator` | 1461 | Exported Function
+`AutoCleanup` | 34 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::~AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>(void) __ptr64` | 629 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::operator class CWSManEPR * __ptr64(void) __ptr64` | 1454 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>(class CWSManEPR * __ptr64) __ptr64` | 27 | Exported Function
+`operator` | 1454 | Exported Function
+`AutoCleanup` | 27 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::~AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>(void) __ptr64` | 624 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::~AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>(void) __ptr64` | 625 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::~AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>(void) __ptr64` | 626 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::operator class CWSManResource * __ptr64(void) __ptr64` | 1455 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>(class CWSManResource * __ptr64) __ptr64` | 28 | Exported Function
+`operator` | 1455 | Exported Function
+`AutoCleanup` | 28 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::~AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>(void) __ptr64` | 628 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::~AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>(void) __ptr64` | 618 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::operator class CBaseConfigCache * __ptr64(void) __ptr64` | 1447 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>(class CBaseConfigCache * __ptr64) __ptr64` | 20 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>(class CCertMapping * __ptr64) __ptr64` | 21 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>(class CConfigChangeSource * __ptr64) __ptr64` | 22 | Exported Function
+`operator` | 1447 | Exported Function
+`AutoCleanup` | 20 | Exported Function
+`AutoCleanup` | 21 | Exported Function
+`AutoCleanup` | 22 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::~AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>(void) __ptr64` | 619 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::operator class CCertMapping * __ptr64(void) __ptr64` | 1448 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::operator class BlockedRecord * __ptr64(void) __ptr64` | 1446 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>(class BlockedRecord * __ptr64) __ptr64` | 19 | Exported Function
+`operator` | 1448 | Exported Function
+`operator` | 1446 | Exported Function
+`AutoCleanup` | 19 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<char>,char * __ptr64>::~AutoCleanup<class AutoDelete<char>,char * __ptr64>(void) __ptr64` | 588 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::~AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>(void) __ptr64` | 617 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::~AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>(void) __ptr64` | 648 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::operator class Catalog::SecurityEntry * __ptr64(void) __ptr64` | 1479 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>(class Catalog::SecurityEntry * __ptr64) __ptr64` | 53 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>::AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>(class CObserverConfigChangeErrors * __ptr64) __ptr64` | 24 | Exported Function
+`SecurityEntry` | 648 | Exported Function
+`SecurityEntry` | 1479 | Exported Function
+`SecurityEntry` | 53 | Exported Function
+`AutoCleanup` | 24 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::~AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>(void) __ptr64` | 621 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::operator class CListenerSettings * __ptr64(void) __ptr64` | 1450 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>::operator class CObserverConfigChangeErrors * __ptr64(void) __ptr64` | 1451 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::operator class ConfigUpdate * __ptr64(void) __ptr64` | 1457 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>(class ConfigUpdate * __ptr64) __ptr64` | 30 | Exported Function
+`operator` | 1450 | Exported Function
+`operator` | 1451 | Exported Function
+`operator` | 1457 | Exported Function
+`AutoCleanup` | 30 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>::~AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>(void) __ptr64` | 622 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>(class CertHash * __ptr64) __ptr64` | 29 | Exported Function
+`AutoCleanup` | 29 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::~AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>(void) __ptr64` | 620 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::operator class CConfigChangeSource * __ptr64(void) __ptr64` | 1449 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::operator class CertHash * __ptr64(void) __ptr64` | 1456 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>(class CListenerSettings * __ptr64) __ptr64` | 23 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class CListenerReceive::MasterReceiveData>,class CListenerReceive::MasterReceiveData * __ptr64>::~AutoCleanup<class AutoDelete<class CListenerReceive::MasterReceiveData>,class CListenerReceive::MasterReceiveData * __ptr64>(void) __ptr64` | 640 | Exported Function
+`operator` | 1449 | Exported Function
+`operator` | 1456 | Exported Function
+`AutoCleanup` | 23 | Exported Function
+`MasterReceiveData` | 640 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::~AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>(void) __ptr64` | 627 | Exported Function
-`private: class AutoDelete<class CSecurity::AdminSid> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>::Me(void) __ptr64` | 2728 | Exported Function
-`private: class AutoDelete<class ConfigUpdate> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::Me(void) __ptr64` | 2740 | Exported Function
-`private: class AutoDelete<class CObserverConfigChangeErrors> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>::Me(void) __ptr64` | 2734 | Exported Function
-`private: class AutoDelete<class CSecurity::InteractiveSid> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>::Me(void) __ptr64` | 2749 | Exported Function
-`private: class AutoDelete<class CShellUriSettings> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::Me(void) __ptr64` | 2736 | Exported Function
-`private: class AutoDelete<class CServiceConfigCache::CServiceWatcher> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::Me(void) __ptr64` | 2735 | Exported Function
-`private: class AutoDelete<class CSecurity::NetworkServiceSid> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>::Me(void) __ptr64` | 2753 | Exported Function
-`private: class AutoDelete<class CCertMapping> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::Me(void) __ptr64` | 2731 | Exported Function
-`private: class AutoDelete<class CBaseConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::Me(void) __ptr64` | 2730 | Exported Function
-`private: class AutoDelete<class Catalog::SecurityEntry> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::Me(void) __ptr64` | 2760 | Exported Function
-`private: class AutoDelete<class CConfigChangeSource> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::Me(void) __ptr64` | 2732 | Exported Function
-`private: class AutoDelete<class CListenerSettings> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::Me(void) __ptr64` | 2733 | Exported Function
-`private: class AutoDelete<class CListenerReceive::MasterReceiveData> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CListenerReceive::MasterReceiveData>,class CListenerReceive::MasterReceiveData * __ptr64>::Me(void) __ptr64` | 2752 | Exported Function
-`private: class AutoDelete<class CertHash> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::Me(void) __ptr64` | 2739 | Exported Function
-`private: class AutoDelete<class IQueryDASHSMASHInterface> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::Me(void) __ptr64` | 2747 | Exported Function
-`private: class AutoDelete<class IpHlpApiDllLoader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>::Me(void) __ptr64` | 2750 | Exported Function
-`private: class AutoDelete<class IChannelObserverFactory> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::Me(void) __ptr64` | 2746 | Exported Function
-`private: class AutoDelete<class ISpecification> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::Me(void) __ptr64` | 2748 | Exported Function
-`private: class AutoDelete<class NtDsApiDllLoader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>::Me(void) __ptr64` | 2754 | Exported Function
-`private: class AutoDelete<class MachineName> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>::Me(void) __ptr64` | 2751 | Exported Function
-`private: class AutoDelete<class Locale::Resources> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>::Me(void) __ptr64` | 2758 | Exported Function
-`private: class AutoDelete<class EnumSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::Me(void) __ptr64` | 2741 | Exported Function
-`private: class AutoDelete<class CWSManResource> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::Me(void) __ptr64` | 2738 | Exported Function
-`private: class AutoDelete<class CWSManEPR> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::Me(void) __ptr64` | 2737 | Exported Function
-`private: class AutoDelete<class ExpiredOperationIdRecord> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::Me(void) __ptr64` | 2743 | Exported Function
-`private: class AutoDelete<class Handle<class ISubscription> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::Me(void) __ptr64` | 2705 | Exported Function
-`private: class AutoDelete<class GPApiManager> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::Me(void) __ptr64` | 2744 | Exported Function
-`private: class AutoDelete<class GeneralSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::Me(void) __ptr64` | 2745 | Exported Function
-`private: class AutoDelete<class BlockedRecord> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::Me(void) __ptr64` | 2729 | Exported Function
+`Me` | 2728 | Exported Function
+`Me` | 2740 | Exported Function
+`Me` | 2734 | Exported Function
+`Me` | 2749 | Exported Function
+`Me` | 2736 | Exported Function
+`Me` | 2735 | Exported Function
+`Me` | 2753 | Exported Function
+`Me` | 2731 | Exported Function
+`Me` | 2730 | Exported Function
+`Me` | 2760 | Exported Function
+`Me` | 2732 | Exported Function
+`Me` | 2733 | Exported Function
+`Me` | 2752 | Exported Function
+`Me` | 2739 | Exported Function
+`Me` | 2747 | Exported Function
+`Me` | 2750 | Exported Function
+`Me` | 2746 | Exported Function
+`Me` | 2748 | Exported Function
+`Me` | 2754 | Exported Function
+`Me` | 2751 | Exported Function
+`Me` | 2758 | Exported Function
+`Me` | 2741 | Exported Function
+`Me` | 2738 | Exported Function
+`Me` | 2737 | Exported Function
+`Me` | 2743 | Exported Function
+`Me` | 2705 | Exported Function
+`Me` | 2744 | Exported Function
+`Me` | 2745 | Exported Function
+`Me` | 2729 | Exported Function
 `PrintUnregisterWaitTrace` | 2939 | Exported Function
 `PrintReleaseTrace` | 2938 | Exported Function
 `PrintHandleTrace` | 2937 | Exported Function
-`private: __cdecl CClientConfigCache::CClientConfigCache(void) __ptr64` | 531 | Exported Function
-`private: __cdecl CServiceConfigCache::CServiceWatcher::CServiceWatcher(class CServiceConfigCache * __ptr64,class IServiceConfigObserver * __ptr64) __ptr64` | 538 | Exported Function
-`private: __cdecl CServiceConfigCache::CServiceConfigCache(void) __ptr64` | 537 | Exported Function
-`private: __cdecl CConfigManager::CConfigManager(void) __ptr64` | 532 | Exported Function
+`CClientConfigCache` | 531 | Exported Function
+`CServiceWatcher` | 538 | Exported Function
+`CServiceConfigCache` | 537 | Exported Function
+`CConfigManager` | 532 | Exported Function
 `int __cdecl StringToDword(unsigned short const * __ptr64,unsigned long * __ptr64)` | 3454 | Exported Function
 `int __cdecl StringToDword(char const * __ptr64,unsigned long * __ptr64)` | 3453 | Exported Function
 `int __cdecl MakeUrlBinding(unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)` | 2697 | Exported Function
@@ -2366,90 +2366,90 @@ Function Name | Ordinal | Type
 `MoveSettingsToMigrationKey` | 2877 | Exported Function
 `mi_clientFT_V1` | 3675 | Exported Function
 `MI_Application_InitializeV1` | 3585 | Exported Function
-`private: class AutoBstrNoAlloc & __ptr64 __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::Me(void) __ptr64` | 2862 | Exported Function
-`private: class AutoBstr & __ptr64 __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::Me(void) __ptr64` | 2861 | Exported Function
-`private: bool __cdecl WSMan::EventHandler::EventProviderEnabled(void) __ptr64` | 2228 | Exported Function
-`private: class AutoCertContext & __ptr64 __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::Me(void) __ptr64` | 2863 | Exported Function
-`private: class AutoDelete<char> & __ptr64 __cdecl AutoCleanup<class AutoDelete<char>,char * __ptr64>::Me(void) __ptr64` | 2700 | Exported Function
-`private: class AutoCoTaskMemFree & __ptr64 __cdecl AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>::Me(void) __ptr64` | 2865 | Exported Function
-`private: class AutoChainContext & __ptr64 __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::Me(void) __ptr64` | 2864 | Exported Function
-`private: bool __cdecl Locale::Format(unsigned long,char * __ptr64 * __ptr64,void * __ptr64 * __ptr64,unsigned short * __ptr64,unsigned long,unsigned short,enum CallSiteId)const __ptr64` | 2236 | Exported Function
-`private: __cdecl CWSManGroupPolicyManager::CWSManGroupPolicyManager(void) __ptr64` | 542 | Exported Function
-`private: __cdecl CWinRSPluginConfigCache::CWinRSPluginConfigCache(void) __ptr64` | 546 | Exported Function
-`private: bool __cdecl Locale::FormatWithFallback(unsigned long,char * __ptr64 * __ptr64,char * __ptr64 * __ptr64,void * __ptr64 * __ptr64,unsigned short * __ptr64,unsigned long)const __ptr64` | 2242 | Exported Function
-`private: bool __cdecl WSMan::EventHandler::EventEnabled(struct _EVENT_DESCRIPTOR const & __ptr64) __ptr64` | 2227 | Exported Function
-`private: bool __cdecl SoapSemanticConverter::GetPromptType(unsigned short const * __ptr64,enum _MI_PromptType * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2472 | Exported Function
-`private: bool __cdecl SoapSemanticConverter::GetActionType(unsigned short const * __ptr64,enum _MI_OperationCallback_ResponseType * __ptr64,enum _MI_CallbackMode * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2267 | Exported Function
-`private: class AutoDelete<class WSManMemCryptManager> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>::Me(void) __ptr64` | 2771 | Exported Function
-`private: class AutoDelete<class WSMANCONFIGTABLE_IDENTITY> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::Me(void) __ptr64` | 2770 | Exported Function
-`private: class AutoDelete<class WSMan::EventHandler> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>::Me(void) __ptr64` | 2742 | Exported Function
-`private: class AutoDelete<class XmlReader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::Me(void) __ptr64` | 2773 | Exported Function
-`private: class AutoDelete<struct CWSManIPFilter::IPRange> & __ptr64 __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::Me(void) __ptr64` | 2702 | Exported Function
-`private: class AutoDelete<struct _WSMAN_STREAM_ID_SET> & __ptr64 __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::Me(void) __ptr64` | 2704 | Exported Function
-`private: class AutoDelete<struct _SID> & __ptr64 __cdecl AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>::Me(void) __ptr64` | 2703 | Exported Function
-`private: class AutoDelete<class TSTRBUFFER> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class TSTRBUFFER>,class TSTRBUFFER * __ptr64>::Me(void) __ptr64` | 2767 | Exported Function
-`private: class AutoDelete<class SubscriptionManager> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SubscriptionManager>,class SubscriptionManager * __ptr64>::Me(void) __ptr64` | 2766 | Exported Function
-`private: class AutoDelete<class SubscriptionEnumerator> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SubscriptionEnumerator>,class SubscriptionEnumerator * __ptr64>::Me(void) __ptr64` | 2765 | Exported Function
-`private: class AutoDelete<class UniqueStringOverflow> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class UniqueStringOverflow>,class UniqueStringOverflow * __ptr64>::Me(void) __ptr64` | 2768 | Exported Function
-`private: class AutoDelete<class WSMan::Client::SessionOptions::OptionValue> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::Me(void) __ptr64` | 2755 | Exported Function
-`private: class AutoDelete<class WmiEnumContext> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::Me(void) __ptr64` | 2772 | Exported Function
-`private: class AutoDelete<class User32DllLoader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class User32DllLoader>,class User32DllLoader * __ptr64>::Me(void) __ptr64` | 2769 | Exported Function
-`private: class AutoDeleteVector<unsigned short const * __ptr64> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::Me(void) __ptr64` | 2780 | Exported Function
-`private: class AutoDeleteVector<unsigned short * __ptr64> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::Me(void) __ptr64` | 2779 | Exported Function
-`private: class AutoDeleteVector<unsigned char> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::Me(void) __ptr64` | 2776 | Exported Function
-`private: class AutoDeleteVector<unsigned short const > & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::Me(void) __ptr64` | 2774 | Exported Function
-`private: class AutoFree<unsigned char> & __ptr64 __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::Me(void) __ptr64` | 2786 | Exported Function
-`private: class AutoDeleteVector<void> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::Me(void) __ptr64` | 2785 | Exported Function
-`private: class AutoDeleteVector<unsigned short> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::Me(void) __ptr64` | 2777 | Exported Function
-`private: class AutoDeleteVector<int> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>::Me(void) __ptr64` | 2778 | Exported Function
-`private: class AutoDeleteVector<char> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::Me(void) __ptr64` | 2775 | Exported Function
-`private: class AutoDelete<unsigned short> & __ptr64 __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::Me(void) __ptr64` | 2701 | Exported Function
-`private: class AutoDeleteVector<struct _CONFIG_UPDATE> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>::Me(void) __ptr64` | 2781 | Exported Function
-`private: class AutoDeleteVector<struct _WSMAN_OPTION> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::Me(void) __ptr64` | 2784 | Exported Function
-`private: class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::Me(void) __ptr64` | 2783 | Exported Function
-`private: class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE> & __ptr64 __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::Me(void) __ptr64` | 2782 | Exported Function
-`private: class AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > >,class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > * __ptr64>::Me(void) __ptr64` | 2727 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >,class SafeMap_Iterator<class StringKeyCI,unsigned long> * __ptr64>::Me(void) __ptr64` | 2711 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >,class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> * __ptr64>::Me(void) __ptr64` | 2710 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >,class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> * __ptr64>::Me(void) __ptr64` | 2709 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> * __ptr64>::Me(void) __ptr64` | 2712 | Exported Function
-`private: class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >,class SafeSet_Iterator<class CListenerOperation * __ptr64> * __ptr64>::Me(void) __ptr64` | 2715 | Exported Function
-`private: class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >,class SafeSet<class CShellUriSettings * __ptr64> * __ptr64>::Me(void) __ptr64` | 2714 | Exported Function
-`private: class AutoDelete<class SafeSet<class CCertMapping * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet<class CCertMapping * __ptr64> >,class SafeSet<class CCertMapping * __ptr64> * __ptr64>::Me(void) __ptr64` | 2713 | Exported Function
-`private: class AutoDelete<class RobustConnectionBuffer::SendPacketArgs> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::Me(void) __ptr64` | 2761 | Exported Function
-`private: class AutoDelete<class PacketParser> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::Me(void) __ptr64` | 2757 | Exported Function
-`private: class AutoDelete<class PacketCreator> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::Me(void) __ptr64` | 2756 | Exported Function
-`private: class AutoDelete<class RunAsConfiguration> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::Me(void) __ptr64` | 2759 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >,class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> * __ptr64>::Me(void) __ptr64` | 2708 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >,class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> * __ptr64>::Me(void) __ptr64` | 2707 | Exported Function
-`private: class AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >,class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> * __ptr64>::Me(void) __ptr64` | 2706 | Exported Function
-`private: class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >,class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64>::Me(void) __ptr64` | 2722 | Exported Function
-`private: class AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > >,class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > * __ptr64>::Me(void) __ptr64` | 2721 | Exported Function
-`private: class AutoDelete<class SimpleStack<class ShellHostEntry> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class ShellHostEntry> >,class SimpleStack<class ShellHostEntry> * __ptr64>::Me(void) __ptr64` | 2720 | Exported Function
-`private: class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >,class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > * __ptr64>::Me(void) __ptr64` | 2723 | Exported Function
-`private: class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >,class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > * __ptr64>::Me(void) __ptr64` | 2725 | Exported Function
-`private: class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >,class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > * __ptr64>::Me(void) __ptr64` | 2726 | Exported Function
-`private: class AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > >,class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > * __ptr64>::Me(void) __ptr64` | 2724 | Exported Function
-`private: class AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> * __ptr64>::Me(void) __ptr64` | 2718 | Exported Function
-`private: class AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> >,class SafeSet_Iterator<class HostOperation * __ptr64> * __ptr64>::Me(void) __ptr64` | 2717 | Exported Function
-`private: class AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> >,class SafeSet_Iterator<class Collector * __ptr64> * __ptr64>::Me(void) __ptr64` | 2716 | Exported Function
-`private: class AutoDelete<class ServiceSoapProcessor> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ServiceSoapProcessor>,class ServiceSoapProcessor * __ptr64>::Me(void) __ptr64` | 2762 | Exported Function
-`private: class AutoDelete<class SimpleStack<class CListenerOperation> > & __ptr64 __cdecl AutoCleanup<class AutoDelete<class SimpleStack<class CListenerOperation> >,class SimpleStack<class CListenerOperation> * __ptr64>::Me(void) __ptr64` | 2719 | Exported Function
-`private: class AutoDelete<class ShlWApiDllLoader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class ShlWApiDllLoader>,class ShlWApiDllLoader * __ptr64>::Me(void) __ptr64` | 2764 | Exported Function
-`private: class AutoDelete<class Shell32DllLoader> & __ptr64 __cdecl AutoCleanup<class AutoDelete<class Shell32DllLoader>,class Shell32DllLoader * __ptr64>::Me(void) __ptr64` | 2763 | Exported Function
+`Me` | 2862 | Exported Function
+`Me` | 2861 | Exported Function
+`EventProviderEnabled` | 2228 | Exported Function
+`Me` | 2863 | Exported Function
+`Me` | 2700 | Exported Function
+`Me` | 2865 | Exported Function
+`Me` | 2864 | Exported Function
+`Format` | 2236 | Exported Function
+`CWSManGroupPolicyManager` | 542 | Exported Function
+`CWinRSPluginConfigCache` | 546 | Exported Function
+`FormatWithFallback` | 2242 | Exported Function
+`EventEnabled` | 2227 | Exported Function
+`GetPromptType` | 2472 | Exported Function
+`GetActionType` | 2267 | Exported Function
+`Me` | 2771 | Exported Function
+`Me` | 2770 | Exported Function
+`Me` | 2742 | Exported Function
+`Me` | 2773 | Exported Function
+`Me` | 2702 | Exported Function
+`Me` | 2704 | Exported Function
+`Me` | 2703 | Exported Function
+`Me` | 2767 | Exported Function
+`Me` | 2766 | Exported Function
+`Me` | 2765 | Exported Function
+`Me` | 2768 | Exported Function
+`Me` | 2755 | Exported Function
+`Me` | 2772 | Exported Function
+`Me` | 2769 | Exported Function
+`Me` | 2780 | Exported Function
+`Me` | 2779 | Exported Function
+`Me` | 2776 | Exported Function
+`Me` | 2774 | Exported Function
+`Me` | 2786 | Exported Function
+`Me` | 2785 | Exported Function
+`Me` | 2777 | Exported Function
+`Me` | 2778 | Exported Function
+`Me` | 2775 | Exported Function
+`Me` | 2701 | Exported Function
+`Me` | 2781 | Exported Function
+`Me` | 2784 | Exported Function
+`Me` | 2783 | Exported Function
+`Me` | 2782 | Exported Function
+`Me` | 2727 | Exported Function
+`Me` | 2711 | Exported Function
+`Me` | 2710 | Exported Function
+`Me` | 2709 | Exported Function
+`Me` | 2712 | Exported Function
+`Me` | 2715 | Exported Function
+`Me` | 2714 | Exported Function
+`Me` | 2713 | Exported Function
+`Me` | 2761 | Exported Function
+`Me` | 2757 | Exported Function
+`Me` | 2756 | Exported Function
+`Me` | 2759 | Exported Function
+`Me` | 2708 | Exported Function
+`Me` | 2707 | Exported Function
+`Me` | 2706 | Exported Function
+`Me` | 2722 | Exported Function
+`Me` | 2721 | Exported Function
+`Me` | 2720 | Exported Function
+`Me` | 2723 | Exported Function
+`Me` | 2725 | Exported Function
+`Me` | 2726 | Exported Function
+`Me` | 2724 | Exported Function
+`Me` | 2718 | Exported Function
+`Me` | 2717 | Exported Function
+`Me` | 2716 | Exported Function
+`Me` | 2762 | Exported Function
+`Me` | 2719 | Exported Function
+`Me` | 2764 | Exported Function
+`Me` | 2763 | Exported Function
 `int __cdecl DeleteKey(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)` | 2106 | Exported Function
-`const SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::``vftable'` | 1785 | Exported Function
+`USER_CONTEXT_INFO` | 1785 | Exported Function
 `const SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::``vftable'` | 1784 | Exported Function
 `const SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >::``vftable'` | 1777 | Exported Function
 `const SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::``vftable'` | 1783 | Exported Function
-`const SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::``vftable'` | 1788 | Exported Function
+`OptionValue` | 1788 | Exported Function
 `const SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::``vftable'` | 1787 | Exported Function
 `const SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::``vftable'` | 1786 | Exported Function
 `const SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::``vftable'` | 1772 | Exported Function
 `const SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >::``vftable'` | 1773 | Exported Function
 `const SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::``vftable'` | 1771 | Exported Function
 `const SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >::``vftable'` | 1774 | Exported Function
-`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 1782 | Exported Function
+`Key` | 1782 | Exported Function
 `const SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::``vftable'` | 1776 | Exported Function
 `const SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >::``vftable'` | 1775 | Exported Function
 `const UserRecord::``vftable'` | 1821 | Exported Function
@@ -2459,14 +2459,14 @@ Function Name | Ordinal | Type
 `FwGetParsedDocument` | 3529 | Exported Function
 `EnumServiceUserResources` | 3528 | Exported Function
 `EnableAllPrivileges` | 2215 | Exported Function
-`const SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::``vftable'` | 1789 | Exported Function
+`SendPacketArgs` | 1789 | Exported Function
 `const SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::``vftable'` | 1780 | Exported Function
 `const SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::``vftable'` | 1779 | Exported Function
 `const SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::``vftable'` | 1778 | Exported Function
 `const SafeSet<class CShellUriSettings * __ptr64>::``vftable'` | 1792 | Exported Function
 `const SafeSet<class CListenerOperation * __ptr64>::``vftable'` | 1791 | Exported Function
 `const SafeSet<class CCertMapping * __ptr64>::``vftable'` | 1790 | Exported Function
-`const SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::``vftable'` | 1781 | Exported Function
+`CertThumbprintMappedSet` | 1781 | Exported Function
 `const CRequestContext::``vftable'{for ``CErrorContext'}` | 1801 | Exported Function
 `const CircularBufferFormatter::``vftable'` | 1812 | Exported Function
 `const CErrorContext::``vftable'` | 1800 | Exported Function
@@ -2552,1154 +2552,1154 @@ Function Name | Ordinal | Type
 `FwXmlGetAttributeNamespacePrefix` | 3550 | Exported Function
 `FwXmlGetAttributeNameEx` | 3549 | Exported Function
 `FwXmlGetAttribute` | 3548 | Exported Function
-`private: class AutoFwXmlCloseParser & __ptr64 __cdecl AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>::Me(void) __ptr64` | 2866 | Exported Function
-`private: static class FastLock CClientConfigCache::s_mapLock` | 3524 | Exported Function
-`private: static class CBaseConfigCache * __ptr64 __cdecl CWinRSPluginConfigCache::AllocCache(void)` | 1946 | Exported Function
-`private: static class CBaseConfigCache * __ptr64 __cdecl CServiceConfigCache::AllocCache(void)` | 1945 | Exported Function
-`private: static class FastLock CConfigManager::s_lock` | 3522 | Exported Function
-`private: static class FastLock CWSManGroupPolicyManager::s_lock` | 3523 | Exported Function
-`private: static class FastLock CWinRSPluginConfigCache::s_mapLock` | 3526 | Exported Function
-`private: static class FastLock CServiceConfigCache::s_mapLock` | 3525 | Exported Function
-`private: static class AutoRelease<class CConfigManager> CConfigManager::s_config` | 3521 | Exported Function
-`private: static class AutoRelease<class CBaseConfigCache::CConfigCacheMap> CWinRSPluginConfigCache::s_cacheMap` | 3520 | Exported Function
-`private: static class AutoRelease<class CBaseConfigCache::CConfigCacheMap> CServiceConfigCache::s_cacheMap` | 3519 | Exported Function
-`private: static class AutoRelease<class CWSManGroupPolicyManager> CWSManGroupPolicyManager::s_policyManager` | 3527 | Exported Function
-`private: static class CBaseConfigCache * __ptr64 __cdecl CClientConfigCache::AllocCache(void)` | 1944 | Exported Function
-`private: static class CBaseConfigCache * __ptr64 __cdecl CBaseConfigCache::FindExisting(class CBaseConfigCache::CConfigCacheMap * __ptr64,unsigned short const * __ptr64,enum ErrorLogging)` | 2233 | Exported Function
-`private: static class CBaseConfigCache * __ptr64 __cdecl CBaseConfigCache::CreateNew(class IRequestContext * __ptr64,class CBaseConfigCache::CConfigCacheMap * __ptr64,class CBaseConfigCache * __ptr64 (__cdecl*)(void),enum ErrorLogging,int)` | 2036 | Exported Function
-`private: struct _FWXML_ELEMENT * __ptr64 __cdecl SoapSemanticConverter::GetEventTypeAndResponseElement(struct _FWXML_ELEMENT * __ptr64,unsigned long * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2322 | Exported Function
-`private: struct _ALIAS_INFORMATION * __ptr64 __cdecl CResourceAlias::FindMatch(unsigned short const * __ptr64) __ptr64` | 2234 | Exported Function
-`private: static void __cdecl CWSManGroupPolicyManager::LogNotificationEvent(unsigned long)` | 2694 | Exported Function
-`private: unsigned long __cdecl CRequestContext::DecodeFaultObject(struct _FWXML_ELEMENT * __ptr64,unsigned short const * __ptr64 & __ptr64,unsigned short const * __ptr64 & __ptr64,unsigned short const * __ptr64 & __ptr64) __ptr64` | 2098 | Exported Function
-`private: unsigned long __cdecl CRequestContext::DecodeFaultObjectProviderMessage(struct _FWXML_ELEMENT * __ptr64,unsigned short const * __ptr64 & __ptr64) __ptr64` | 2101 | Exported Function
-`private: unsigned long __cdecl CRequestContext::DecodeFaultObjectProvider(struct _FWXML_ELEMENT * __ptr64,unsigned short const * __ptr64 & __ptr64,unsigned short const * __ptr64 & __ptr64) __ptr64` | 2100 | Exported Function
-`private: unsigned long __cdecl CRequestContext::DecodeFaultObject(unsigned short const * __ptr64,unsigned long,unsigned short const * __ptr64 & __ptr64,unsigned short const * __ptr64 & __ptr64,unsigned short const * __ptr64 & __ptr64) __ptr64` | 2099 | Exported Function
-`private: static int const PacketFormatter::NUM_BOMS` | 2878 | Exported Function
-`private: static int __cdecl CBaseConfigCache::InitMap(class IRequestContext * __ptr64,class AutoRelease<class CBaseConfigCache::CConfigCacheMap> & __ptr64)` | 2543 | Exported Function
-`private: static class Loader<class Locale::Resources,0> Locale::g_Resources` | 3513 | Exported Function
-`private: static int const PacketFormatter::NUM_CHARSETS` | 2879 | Exported Function
-`private: static void __cdecl CWSManGroupPolicyManager::_PolicyChangedCallback(void * __ptr64,unsigned char)` | 3509 | Exported Function
-`private: static struct PacketFormatter::CharsetInfo const * const PacketFormatter::CHARSETS` | 2000 | Exported Function
-`private: static struct PacketFormatter::BOMInfo const * const PacketFormatter::BOMS` | 1994 | Exported Function
-`private: static class AutoRelease<class CBaseConfigCache::CConfigCacheMap> CClientConfigCache::s_cacheMap` | 3518 | Exported Function
-`private: int __cdecl PacketParser::ParseOperationId(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2909 | Exported Function
-`private: int __cdecl PacketParser::ParseMessageId(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,bool) __ptr64` | 2908 | Exported Function
-`private: int __cdecl PacketParser::ParseMaxEnvelopeSize(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2907 | Exported Function
-`private: int __cdecl PacketParser::ParseOptions(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2911 | Exported Function
-`private: int __cdecl PacketParser::ParseResourceUri(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2916 | Exported Function
-`private: int __cdecl PacketParser::ParseReplyTo(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2914 | Exported Function
-`private: int __cdecl PacketParser::ParsePacketInternal(class CRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2913 | Exported Function
-`private: int __cdecl PacketParser::ParseFragment(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2901 | Exported Function
-`private: int __cdecl PacketParser::ParseFaultTo(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2900 | Exported Function
-`private: int __cdecl PacketParser::ParseDataLocale(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2897 | Exported Function
-`private: int __cdecl PacketParser::ParseHeader(class CRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2902 | Exported Function
-`private: int __cdecl PacketParser::ParseMachineID(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2906 | Exported Function
-`private: int __cdecl PacketParser::ParseLocale(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2905 | Exported Function
-`private: int __cdecl PacketParser::ParseHeaders(class CRequestContext * __ptr64,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2904 | Exported Function
-`private: long __cdecl CConfigManager::GetPolicyValueForConfigSetting(enum ConfigSetting,unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,enum WSManGroupPolicySettingState * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2468 | Exported Function
-`private: long __cdecl CConfigManager::GetPolicyValueForConfigSetting(enum ConfigSetting,unsigned long * __ptr64,enum WSManGroupPolicySettingState * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2469 | Exported Function
-`private: int __cdecl XmlReader::Parse(class IRequestContext * __ptr64) __ptr64` | 2893 | Exported Function
-`private: long __cdecl CConfigManager::QueryRegValue(struct _CONFIG_INFO * __ptr64,unsigned long * __ptr64,unsigned long,unsigned char * __ptr64,unsigned long * __ptr64) __ptr64` | 2972 | Exported Function
-`private: long __cdecl LoaderSerializer<class SubscriptionManager,2>::Up(void) __ptr64` | 3463 | Exported Function
-`private: long __cdecl LoaderSerializer<class SubscriptionManager,2>::Down(void) __ptr64` | 2212 | Exported Function
-`private: long __cdecl CWSManGroupPolicyManager::QueryRegValue(class IRequestContext * __ptr64,struct _WSMAN_POLICY_INFO const * __ptr64,unsigned long * __ptr64,unsigned long,unsigned char * __ptr64,unsigned long * __ptr64) __ptr64` | 2973 | Exported Function
-`private: int __cdecl PacketParser::ParseSessionId(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2922 | Exported Function
-`private: int __cdecl PacketParser::ParseSequenceId(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2921 | Exported Function
-`private: int __cdecl PacketParser::ParseSelectors(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2920 | Exported Function
-`private: int __cdecl PacketParser::ParseShellCompression(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2923 | Exported Function
-`private: int __cdecl PacketParser::ParseToAddress(class CRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2928 | Exported Function
-`private: int __cdecl PacketParser::ParseTimeout(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int,class CServiceCommonConfigSettings * __ptr64) __ptr64` | 2927 | Exported Function
-`private: int __cdecl PacketParser::ParseSubscriptionID(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2926 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CShellUriSettings>,class CShellUriSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3118 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CServiceConfigCache::CServiceWatcher>,class CServiceConfigCache::CServiceWatcher * __ptr64>::ReleasePtr(void) __ptr64` | 3117 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CSecurity::NetworkServiceSid>,class CSecurity::NetworkServiceSid * __ptr64>::ReleasePtr(void) __ptr64` | 3135 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CWSManEPR>,class CWSManEPR * __ptr64>::ReleasePtr(void) __ptr64` | 3119 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class ExpiredOperationIdRecord>,class ExpiredOperationIdRecord * __ptr64>::ReleasePtr(void) __ptr64` | 3125 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class EnumSinkEx>,class EnumSinkEx * __ptr64>::ReleasePtr(void) __ptr64` | 3123 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CWSManResource>,class CWSManResource * __ptr64>::ReleasePtr(void) __ptr64` | 3120 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CListenerSettings>,class CListenerSettings * __ptr64>::ReleasePtr(void) __ptr64` | 3115 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CListenerReceive::MasterReceiveData>,class CListenerReceive::MasterReceiveData * __ptr64>::ReleasePtr(void) __ptr64` | 3134 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CertHash>,class CertHash * __ptr64>::ReleasePtr(void) __ptr64` | 3121 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CObserverConfigChangeErrors>,class CObserverConfigChangeErrors * __ptr64>::ReleasePtr(void) __ptr64` | 3116 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CSecurity::InteractiveSid>,class CSecurity::InteractiveSid * __ptr64>::ReleasePtr(void) __ptr64` | 3131 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CSecurity::AdminSid>,class CSecurity::AdminSid * __ptr64>::ReleasePtr(void) __ptr64` | 3110 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class ConfigUpdate>,class ConfigUpdate * __ptr64>::ReleasePtr(void) __ptr64` | 3122 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class NtDsApiDllLoader>,class NtDsApiDllLoader * __ptr64>::ReleasePtr(void) __ptr64` | 3136 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class MachineName>,class MachineName * __ptr64>::ReleasePtr(void) __ptr64` | 3133 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class Locale::Resources>,class Locale::Resources * __ptr64>::ReleasePtr(void) __ptr64` | 3140 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class PacketCreator>,class PacketCreator * __ptr64>::ReleasePtr(void) __ptr64` | 3138 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class RunAsConfiguration>,class RunAsConfiguration * __ptr64>::ReleasePtr(void) __ptr64` | 3141 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class RobustConnectionBuffer::SendPacketArgs>,class RobustConnectionBuffer::SendPacketArgs * __ptr64>::ReleasePtr(void) __ptr64` | 3143 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class PacketParser>,class PacketParser * __ptr64>::ReleasePtr(void) __ptr64` | 3139 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class Handle<class ISubscription> >,class Handle<class ISubscription> * __ptr64>::ReleasePtr(void) __ptr64` | 3087 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class GPApiManager>,class GPApiManager * __ptr64>::ReleasePtr(void) __ptr64` | 3126 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::ReleasePtr(void) __ptr64` | 3127 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class IChannelObserverFactory>,class IChannelObserverFactory * __ptr64>::ReleasePtr(void) __ptr64` | 3128 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class ISpecification>,class ISpecification * __ptr64>::ReleasePtr(void) __ptr64` | 3130 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class IQueryDASHSMASHInterface>,class IQueryDASHSMASHInterface * __ptr64>::ReleasePtr(void) __ptr64` | 3129 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class IpHlpApiDllLoader>,class IpHlpApiDllLoader * __ptr64>::ReleasePtr(void) __ptr64` | 3132 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CConfigChangeSource>,class CConfigChangeSource * __ptr64>::ReleasePtr(void) __ptr64` | 3114 | Exported Function
-`private: virtual class CCommonConfigSettings * __ptr64 __cdecl CClientConfigCache::ReadDefaultSettings(class IRequestContext * __ptr64) __ptr64` | 2983 | Exported Function
-`private: virtual class CCommonConfigSettings * __ptr64 __cdecl CClientConfigCache::ReadCurrentSettings(class IRequestContext * __ptr64,enum ErrorLogging) __ptr64` | 2980 | Exported Function
+`Me` | 2866 | Exported Function
+`s_mapLock` | 3524 | Exported Function
+`AllocCache` | 1946 | Exported Function
+`AllocCache` | 1945 | Exported Function
+`s_lock` | 3522 | Exported Function
+`s_lock` | 3523 | Exported Function
+`s_mapLock` | 3526 | Exported Function
+`s_mapLock` | 3525 | Exported Function
+`s_config` | 3521 | Exported Function
+`s_cacheMap` | 3520 | Exported Function
+`s_cacheMap` | 3519 | Exported Function
+`s_policyManager` | 3527 | Exported Function
+`AllocCache` | 1944 | Exported Function
+`CConfigCacheMap` | 2233 | Exported Function
+`CConfigCacheMap` | 2036 | Exported Function
+`GetEventTypeAndResponseElement` | 2322 | Exported Function
+`FindMatch` | 2234 | Exported Function
+`LogNotificationEvent` | 2694 | Exported Function
+`DecodeFaultObject` | 2098 | Exported Function
+`DecodeFaultObjectProviderMessage` | 2101 | Exported Function
+`DecodeFaultObjectProvider` | 2100 | Exported Function
+`DecodeFaultObject` | 2099 | Exported Function
+`NUM_BOMS` | 2878 | Exported Function
+`CConfigCacheMap` | 2543 | Exported Function
+`g_Resources` | 3513 | Exported Function
+`NUM_CHARSETS` | 2879 | Exported Function
+`_PolicyChangedCallback` | 3509 | Exported Function
+`CHARSETS` | 2000 | Exported Function
+`BOMS` | 1994 | Exported Function
+`s_cacheMap` | 3518 | Exported Function
+`ParseOperationId` | 2909 | Exported Function
+`ParseMessageId` | 2908 | Exported Function
+`ParseMaxEnvelopeSize` | 2907 | Exported Function
+`ParseOptions` | 2911 | Exported Function
+`ParseResourceUri` | 2916 | Exported Function
+`ParseReplyTo` | 2914 | Exported Function
+`ParsePacketInternal` | 2913 | Exported Function
+`ParseFragment` | 2901 | Exported Function
+`ParseFaultTo` | 2900 | Exported Function
+`ParseDataLocale` | 2897 | Exported Function
+`ParseHeader` | 2902 | Exported Function
+`ParseMachineID` | 2906 | Exported Function
+`ParseLocale` | 2905 | Exported Function
+`ParseHeaders` | 2904 | Exported Function
+`GetPolicyValueForConfigSetting` | 2468 | Exported Function
+`GetPolicyValueForConfigSetting` | 2469 | Exported Function
+`Parse` | 2893 | Exported Function
+`QueryRegValue` | 2972 | Exported Function
+`Up` | 3463 | Exported Function
+`Down` | 2212 | Exported Function
+`QueryRegValue` | 2973 | Exported Function
+`ParseSessionId` | 2922 | Exported Function
+`ParseSequenceId` | 2921 | Exported Function
+`ParseSelectors` | 2920 | Exported Function
+`ParseShellCompression` | 2923 | Exported Function
+`ParseToAddress` | 2928 | Exported Function
+`ParseTimeout` | 2927 | Exported Function
+`ParseSubscriptionID` | 2926 | Exported Function
+`ReleasePtr` | 3118 | Exported Function
+`ReleasePtr` | 3117 | Exported Function
+`ReleasePtr` | 3135 | Exported Function
+`ReleasePtr` | 3119 | Exported Function
+`ReleasePtr` | 3125 | Exported Function
+`ReleasePtr` | 3123 | Exported Function
+`ReleasePtr` | 3120 | Exported Function
+`ReleasePtr` | 3115 | Exported Function
+`ReleasePtr` | 3134 | Exported Function
+`ReleasePtr` | 3121 | Exported Function
+`ReleasePtr` | 3116 | Exported Function
+`ReleasePtr` | 3131 | Exported Function
+`ReleasePtr` | 3110 | Exported Function
+`ReleasePtr` | 3122 | Exported Function
+`ReleasePtr` | 3136 | Exported Function
+`ReleasePtr` | 3133 | Exported Function
+`ReleasePtr` | 3140 | Exported Function
+`ReleasePtr` | 3138 | Exported Function
+`ReleasePtr` | 3141 | Exported Function
+`ReleasePtr` | 3143 | Exported Function
+`ReleasePtr` | 3139 | Exported Function
+`ReleasePtr` | 3087 | Exported Function
+`ReleasePtr` | 3126 | Exported Function
+`ReleasePtr` | 3127 | Exported Function
+`ReleasePtr` | 3128 | Exported Function
+`ReleasePtr` | 3130 | Exported Function
+`ReleasePtr` | 3129 | Exported Function
+`ReleasePtr` | 3132 | Exported Function
+`ReleasePtr` | 3114 | Exported Function
+`ReadDefaultSettings` | 2983 | Exported Function
+`ReadCurrentSettings` | 2980 | Exported Function
 `private: virtual __cdecl CWSManGroupPolicyManager::~CWSManGroupPolicyManager(void) __ptr64` | 1090 | Exported Function
-`private: virtual class CCommonConfigSettings * __ptr64 __cdecl CServiceConfigCache::ReadCurrentSettings(class IRequestContext * __ptr64,enum ErrorLogging) __ptr64` | 2981 | Exported Function
-`private: virtual class CCommonConfigSettings * __ptr64 __cdecl CWinRSPluginConfigCache::ReadDefaultSettings(class IRequestContext * __ptr64) __ptr64` | 2985 | Exported Function
-`private: virtual class CCommonConfigSettings * __ptr64 __cdecl CWinRSPluginConfigCache::ReadCurrentSettings(class IRequestContext * __ptr64,enum ErrorLogging) __ptr64` | 2982 | Exported Function
-`private: virtual class CCommonConfigSettings * __ptr64 __cdecl CServiceConfigCache::ReadDefaultSettings(class IRequestContext * __ptr64) __ptr64` | 2984 | Exported Function
-`private: unsigned long __cdecl PacketParser::ReferenceParameters::SetXml(class BufferFormatter & __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 3351 | Exported Function
-`private: unsigned long __cdecl PacketParser::ParseRobustConnectionAckSequenceId(unsigned __int64 * __ptr64) __ptr64` | 2918 | Exported Function
-`private: unsigned long __cdecl CRequestContext::DecodeFaultReason(struct _FWXML_ELEMENT * __ptr64,unsigned short const * __ptr64 & __ptr64) __ptr64` | 2102 | Exported Function
-`private: unsigned long __cdecl SoapSemanticConverter::GetEventType(unsigned short const * __ptr64,class IRequestContext * __ptr64) __ptr64` | 2321 | Exported Function
+`ReadCurrentSettings` | 2981 | Exported Function
+`ReadDefaultSettings` | 2985 | Exported Function
+`ReadCurrentSettings` | 2982 | Exported Function
+`ReadDefaultSettings` | 2984 | Exported Function
+`SetXml` | 3351 | Exported Function
+`ParseRobustConnectionAckSequenceId` | 2918 | Exported Function
+`DecodeFaultReason` | 2102 | Exported Function
+`GetEventType` | 2321 | Exported Function
 `private: virtual __cdecl CWinRSPluginConfigCache::~CWinRSPluginConfigCache(void) __ptr64` | 1094 | Exported Function
 `private: virtual __cdecl CServiceConfigCache::~CServiceConfigCache(void) __ptr64` | 1085 | Exported Function
-`private: unsigned short const * __ptr64 __cdecl CWSManGroupPolicyManager::GetPolicyLocation(struct _WSMAN_POLICY_INFO const * __ptr64) __ptr64` | 2467 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<char>,char * __ptr64>::ReleasePtr(void) __ptr64` | 3082 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoCoTaskMemFree,void * __ptr64>::ReleasePtr(void) __ptr64` | 3247 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoChainContext,struct _CERT_CHAIN_CONTEXT const * __ptr64>::ReleasePtr(void) __ptr64` | 3246 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class BlockedRecord>,class BlockedRecord * __ptr64>::ReleasePtr(void) __ptr64` | 3111 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CCertMapping>,class CCertMapping * __ptr64>::ReleasePtr(void) __ptr64` | 3113 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::ReleasePtr(void) __ptr64` | 3112 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoDelete<class Catalog::SecurityEntry>,class Catalog::SecurityEntry * __ptr64>::ReleasePtr(void) __ptr64` | 3142 | Exported Function
-`private: virtual void __cdecl CRequestContext::SetFault(unsigned long,unsigned long,unsigned long,unsigned short const * __ptr64) __ptr64` | 3328 | Exported Function
-`private: virtual int __cdecl CServiceConfigCache::PostChange(class IRequestContext * __ptr64,class CCommonConfigSettings * __ptr64,class CCommonConfigSettings * __ptr64) __ptr64` | 2932 | Exported Function
-`private: virtual int __cdecl CClientConfigCache::InitializeSourcesHelper(class IRequestContext * __ptr64,int) __ptr64` | 2595 | Exported Function
-`private: virtual void __cdecl CServiceConfigCache::PostError(unsigned long) __ptr64` | 2934 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoCertContext,struct _CERT_CONTEXT const * __ptr64>::ReleasePtr(void) __ptr64` | 3245 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoBstrNoAlloc,unsigned short * __ptr64>::ReleasePtr(void) __ptr64` | 3244 | Exported Function
-`private: void __cdecl AutoCleanup<class AutoBstr,unsigned short * __ptr64>::ReleasePtr(void) __ptr64` | 3243 | Exported Function
-`private: int __cdecl PacketParser::ParseBookmark(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2896 | Exported Function
-`private: class AutoRelease<class InboundRequestDetails> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::Me(void) __ptr64` | 2846 | Exported Function
-`private: class AutoRelease<class IISConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>::Me(void) __ptr64` | 2842 | Exported Function
-`private: class AutoRelease<class HostMappingTable> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class HostMappingTable>,class HostMappingTable * __ptr64>::Me(void) __ptr64` | 2841 | Exported Function
-`private: class AutoRelease<class IPCSoapProcessor> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::Me(void) __ptr64` | 2843 | Exported Function
-`private: class AutoRelease<class PushSubscribeOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class PushSubscribeOperation>,class PushSubscribeOperation * __ptr64>::Me(void) __ptr64` | 2849 | Exported Function
-`private: class AutoRelease<class ISubscription> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>::Me(void) __ptr64` | 2845 | Exported Function
-`private: class AutoRelease<class IRequestContext> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::Me(void) __ptr64` | 2844 | Exported Function
-`private: class AutoRelease<class CWSManObject> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::Me(void) __ptr64` | 2828 | Exported Function
-`private: class AutoRelease<class CWSManGroupPolicyManager> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::Me(void) __ptr64` | 2827 | Exported Function
-`private: class AutoRelease<class CWSManGroupPolicyCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::Me(void) __ptr64` | 2826 | Exported Function
-`private: class AutoRelease<class CWSManResource> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::Me(void) __ptr64` | 2829 | Exported Function
-`private: class AutoRelease<class GeneralSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::Me(void) __ptr64` | 2840 | Exported Function
-`private: class AutoRelease<class EnumSinkEx> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::Me(void) __ptr64` | 2839 | Exported Function
-`private: class AutoRelease<class CWSManSession> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManSession>,class CWSManSession * __ptr64>::Me(void) __ptr64` | 2830 | Exported Function
-`private: class AutoRelease<class WSMan::Client::ProxyManager> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ProxyManager>,class WSMan::Client::ProxyManager * __ptr64>::Me(void) __ptr64` | 2847 | Exported Function
-`private: class AutoRelease<class WSMan::Client::DisconnectOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>::Me(void) __ptr64` | 2838 | Exported Function
-`private: class AutoRelease<class WSMan::Client::DeleteShellOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>::Me(void) __ptr64` | 2837 | Exported Function
-`private: class AutoRelease<class WSMan::Client::ProxySelection> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ProxySelection>,class WSMan::Client::ProxySelection * __ptr64>::Me(void) __ptr64` | 2848 | Exported Function
-`private: class AutoRelease<class WSMan::Client::SendOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::Me(void) __ptr64` | 2853 | Exported Function
-`private: class AutoRelease<class WSMan::Client::ReconnectOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>::Me(void) __ptr64` | 2852 | Exported Function
-`private: class AutoRelease<class WSMan::Client::ReceiveOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::Me(void) __ptr64` | 2851 | Exported Function
-`private: class AutoRelease<class UserRecord> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::Me(void) __ptr64` | 2857 | Exported Function
-`private: class AutoRelease<class ShellInfo> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class ShellInfo>,class ShellInfo * __ptr64>::Me(void) __ptr64` | 2855 | Exported Function
-`private: class AutoRelease<class PushSubscription> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class PushSubscription>,class PushSubscription * __ptr64>::Me(void) __ptr64` | 2850 | Exported Function
-`private: class AutoRelease<class WSMan::Client::Application> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>::Me(void) __ptr64` | 2808 | Exported Function
-`private: class AutoRelease<class WSMan::Client::CreateShellOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>::Me(void) __ptr64` | 2836 | Exported Function
-`private: class AutoRelease<class WSMan::Client::ConnectShellOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>::Me(void) __ptr64` | 2835 | Exported Function
-`private: class AutoRelease<class WSMan::Client::Command> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::Me(void) __ptr64` | 2833 | Exported Function
-`private: class AutoRelease<class CWSManEPR> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::Me(void) __ptr64` | 2825 | Exported Function
-`private: class AutoRelease<class CBaseConfigCache::CConfigCacheMap> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::Me(void) __ptr64` | 2813 | Exported Function
-`private: class AutoRegKey & __ptr64 __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::Me(void) __ptr64` | 2874 | Exported Function
-`private: class AutoObject & __ptr64 __cdecl AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>::Me(void) __ptr64` | 2873 | Exported Function
-`private: class AutoRelease<class CBaseConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::Me(void) __ptr64` | 2809 | Exported Function
-`private: class AutoRelease<class CCommonConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::Me(void) __ptr64` | 2812 | Exported Function
-`private: class AutoRelease<class CClientConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::Me(void) __ptr64` | 2811 | Exported Function
-`private: class AutoRelease<class CClientConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CClientConfigCache>,class CClientConfigCache * __ptr64>::Me(void) __ptr64` | 2810 | Exported Function
-`private: class AutoLibrary & __ptr64 __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::Me(void) __ptr64` | 2869 | Exported Function
-`private: class AutoImpersonateUser & __ptr64 __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::Me(void) __ptr64` | 2868 | Exported Function
-`private: class AutoHandle & __ptr64 __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::Me(void) __ptr64` | 2867 | Exported Function
-`private: class AutoLocalFree & __ptr64 __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::Me(void) __ptr64` | 2870 | Exported Function
-`private: class AutoMIInstance & __ptr64 __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::Me(void) __ptr64` | 2872 | Exported Function
-`private: class AutoMIClass & __ptr64 __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::Me(void) __ptr64` | 2871 | Exported Function
-`private: class AutoLocklessItemRecycle<class Packet> & __ptr64 __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::Me(void) __ptr64` | 2787 | Exported Function
-`private: class AutoRelease<class CServiceCommonConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::Me(void) __ptr64` | 2822 | Exported Function
-`private: class AutoRelease<class CRequestContext> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::Me(void) __ptr64` | 2821 | Exported Function
-`private: class AutoRelease<class CRemoteSession> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::Me(void) __ptr64` | 2820 | Exported Function
-`private: class AutoRelease<class CServiceConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::Me(void) __ptr64` | 2823 | Exported Function
-`private: class AutoRelease<class CWinRSPluginConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::Me(void) __ptr64` | 2832 | Exported Function
-`private: class AutoRelease<class CWinRSPluginConfigCache> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::Me(void) __ptr64` | 2831 | Exported Function
-`private: class AutoRelease<class CServiceConfigSettings> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::Me(void) __ptr64` | 2824 | Exported Function
-`private: class AutoRelease<class CListenerMasterOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CListenerMasterOperation>,class CListenerMasterOperation * __ptr64>::Me(void) __ptr64` | 2816 | Exported Function
-`private: class AutoRelease<class CListenerCommand> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CListenerCommand>,class CListenerCommand * __ptr64>::Me(void) __ptr64` | 2815 | Exported Function
-`private: class AutoRelease<class CConfigManager> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::Me(void) __ptr64` | 2814 | Exported Function
-`private: class AutoRelease<class CListenerReceive> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CListenerReceive>,class CListenerReceive * __ptr64>::Me(void) __ptr64` | 2817 | Exported Function
-`private: class AutoRelease<class CRemoteOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>::Me(void) __ptr64` | 2819 | Exported Function
-`private: class AutoRelease<class ConfigNotification> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>::Me(void) __ptr64` | 2834 | Exported Function
-`private: class AutoRelease<class CListenerShell> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class CListenerShell>,class CListenerShell * __ptr64>::Me(void) __ptr64` | 2818 | Exported Function
-`private: int __cdecl CRequestContext::HasHtmlError(void)const __ptr64` | 2529 | Exported Function
-`private: int __cdecl CRequestContext::AddMessage(unsigned short const * __ptr64,char * __ptr64 * __ptr64,char * __ptr64 * __ptr64) __ptr64` | 1932 | Exported Function
-`private: int __cdecl CConfigManager::RetrieveTableIdentity(struct HKEY__ * __ptr64,class WSMANCONFIGTABLE_IDENTITY * __ptr64) __ptr64` | 3309 | Exported Function
-`private: int __cdecl CRequestContext::RecordText(unsigned long,unsigned short const * __ptr64,unsigned __int64,unsigned long) __ptr64` | 3015 | Exported Function
-`private: int __cdecl CWSManEPR::ProcessEPR(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2948 | Exported Function
-`private: int __cdecl CServiceConfigCache::RemoveObserver(class IServiceConfigObserver * __ptr64) __ptr64` | 3272 | Exported Function
-`private: int __cdecl CRequestContext::RecordXml(unsigned long,struct _FWXML_ELEMENT * __ptr64,unsigned long) __ptr64` | 3016 | Exported Function
-`private: int __cdecl CConfigManager::InitCfgMgr(class WSMANCONFIGTABLE_IDENTITY * __ptr64) __ptr64` | 2541 | Exported Function
-`private: int __cdecl CConfigManager::GetStringInternal(class IRequestContext * __ptr64,enum ConfigSetting,unsigned long,unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,enum WSManConfigSource * __ptr64) __ptr64` | 2504 | Exported Function
-`private: int __cdecl CConfigManager::CreateAutoConfiguredListener(class IRequestContext * __ptr64,class LISTENER_IDENTITY * __ptr64) __ptr64` | 2021 | Exported Function
-`private: int __cdecl CConfigManager::InitCfgMgr(class WSMANCONFIGTABLE_IDENTITY * __ptr64,struct HKEY__ * __ptr64,struct HKEY__ * __ptr64) __ptr64` | 2542 | Exported Function
-`private: int __cdecl CConfigManager::RetrieveShellUriIdentity(struct HKEY__ * __ptr64,class SHELLURI_IDENTITY * __ptr64) __ptr64` | 3308 | Exported Function
-`private: int __cdecl CConfigManager::RetrieveListenerIdentity(struct HKEY__ * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64 * __ptr64,class LISTENER_IDENTITY * __ptr64) __ptr64` | 3307 | Exported Function
-`private: int __cdecl CConfigManager::RetrieveCertMappingIdentity(struct HKEY__ * __ptr64,class CERTMAPPING_IDENTITY * __ptr64) __ptr64` | 3306 | Exported Function
-`private: int __cdecl CWSManResource::StoreData(class IRequestContext * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct _WSMAN_SELECTOR_SET * __ptr64,struct _WSMAN_OPTION_SET * __ptr64) __ptr64` | 3441 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::ValidateString(class IRequestContext * __ptr64,struct _WSMAN_POLICY_INFO const * __ptr64,unsigned short const * __ptr64) __ptr64` | 3481 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::ValidateInt(class IRequestContext * __ptr64,struct _WSMAN_POLICY_INFO const * __ptr64,unsigned long) __ptr64` | 3479 | Exported Function
-`private: int __cdecl CWSManResource::StoreDataFromResourceLocator(class IRequestContext * __ptr64,struct _WSMAN_RESOURCE_LOCATOR * __ptr64) __ptr64` | 3443 | Exported Function
-`private: int __cdecl PacketParser::ParseActivityId(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,int) __ptr64` | 2895 | Exported Function
-`private: int __cdecl PacketParser::ParseAction(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64,bool) __ptr64` | 2894 | Exported Function
-`private: int __cdecl CWSManSecurityUI::CreateRenderingInformation(class IRequestContext * __ptr64) __ptr64` | 2038 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::DeInitialize(void) __ptr64` | 2094 | Exported Function
-`private: int __cdecl CWSManEPR::ProcessRefProperties(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2955 | Exported Function
-`private: int __cdecl CWSManEPR::ProcessRefParameters(class IRequestContext * __ptr64,struct _FWXML_ELEMENT * __ptr64) __ptr64` | 2954 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::GetStringInternal(class IRequestContext * __ptr64,enum WSManGroupPolicySetting,unsigned long,unsigned long,unsigned short * __ptr64,unsigned long * __ptr64,enum WSManGroupPolicySettingState * __ptr64) __ptr64` | 2505 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::UnregisterPolicyNotification(void) __ptr64` | 3462 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::RegisterForPolicyNotification(class IRequestContext * __ptr64,int) __ptr64` | 3021 | Exported Function
-`private: int __cdecl CWSManGroupPolicyManager::Initialize(class IRequestContext * __ptr64,unsigned short const * __ptr64) __ptr64` | 2590 | Exported Function
-`private: int __cdecl CBaseConfigCache::RemoveFromMap(void) __ptr64` | 3269 | Exported Function
-`private: class AutoRelease<struct IAppHostPropertyCollection> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>::Me(void) __ptr64` | 2794 | Exported Function
-`private: class AutoRelease<struct IAppHostProperty> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>::Me(void) __ptr64` | 2793 | Exported Function
-`private: class AutoRelease<struct IAppHostElementCollection> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::Me(void) __ptr64` | 2792 | Exported Function
-`private: class AutoRelease<struct IClientSecurity> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::Me(void) __ptr64` | 2795 | Exported Function
-`private: class AutoRelease<struct IUnknown> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::Me(void) __ptr64` | 2798 | Exported Function
-`private: class AutoRelease<struct IErrorInfo> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::Me(void) __ptr64` | 2797 | Exported Function
-`private: class AutoRelease<struct IEnumWbemClassObject> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::Me(void) __ptr64` | 2796 | Exported Function
-`private: class AutoRelease<class WSManHttpListener> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>::Me(void) __ptr64` | 2858 | Exported Function
-`private: class AutoRelease<class WSMan::Client::SignalOperation> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::Me(void) __ptr64` | 2856 | Exported Function
-`private: class AutoRelease<class WSMan::Client::Shell> & __ptr64 __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::Me(void) __ptr64` | 2854 | Exported Function
-`private: class AutoRelease<struct IAppHostAdminManager> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>::Me(void) __ptr64` | 2788 | Exported Function
-`private: class AutoRelease<struct IAppHostElement> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>::Me(void) __ptr64` | 2791 | Exported Function
-`private: class AutoRelease<struct IAppHostConfigException> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>::Me(void) __ptr64` | 2790 | Exported Function
-`private: class AutoRelease<struct IAppHostChildElementCollection> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::Me(void) __ptr64` | 2789 | Exported Function
-`private: class AutoReleaseEx<class HostMappingTableEntry> & __ptr64 __cdecl AutoCleanup<class AutoReleaseEx<class HostMappingTableEntry>,class HostMappingTableEntry * __ptr64>::Me(void) __ptr64` | 2859 | Exported Function
-`private: class AutoRelease<struct IWbemServices> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::Me(void) __ptr64` | 2807 | Exported Function
-`private: class AutoRelease<struct IWbemQuery> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::Me(void) __ptr64` | 2806 | Exported Function
-`private: class AutoReleaseEx<class WSMan::Client::Shell> & __ptr64 __cdecl AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::Me(void) __ptr64` | 2860 | Exported Function
-`private: int __cdecl CBaseConfigCache::AddToMap(class IRequestContext * __ptr64,class AutoLocalFree & __ptr64) __ptr64` | 1940 | Exported Function
-`private: class AutoWaitHandle & __ptr64 __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::Me(void) __ptr64` | 2876 | Exported Function
-`private: class AutoSecurityDescriptor & __ptr64 __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::Me(void) __ptr64` | 2875 | Exported Function
-`private: class AutoRelease<struct IWbemLocator> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::Me(void) __ptr64` | 2801 | Exported Function
-`private: class AutoRelease<struct IWbemContext> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::Me(void) __ptr64` | 2800 | Exported Function
-`private: class AutoRelease<struct IWbemClassObject> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::Me(void) __ptr64` | 2799 | Exported Function
-`private: class AutoRelease<struct IWbemObjectTextSrc> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::Me(void) __ptr64` | 2802 | Exported Function
-`private: class AutoRelease<struct IWbemQualifierSet> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::Me(void) __ptr64` | 2805 | Exported Function
-`private: class AutoRelease<struct IWbemPathKeyList> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::Me(void) __ptr64` | 2804 | Exported Function
-`private: class AutoRelease<struct IWbemPath> & __ptr64 __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::Me(void) __ptr64` | 2803 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>(class WmiEnumContext * __ptr64) __ptr64` | 66 | Exported Function
-`public: __cdecl AutoRelease<class CServiceConfigCache>::AutoRelease<class CServiceConfigCache>(void) __ptr64` | 357 | Exported Function
-`public: __cdecl AutoRelease<class CServiceConfigCache>::AutoRelease<class CServiceConfigCache>(class CServiceConfigCache * __ptr64) __ptr64` | 356 | Exported Function
+`GetPolicyLocation` | 2467 | Exported Function
+`ReleasePtr` | 3082 | Exported Function
+`ReleasePtr` | 3247 | Exported Function
+`ReleasePtr` | 3246 | Exported Function
+`ReleasePtr` | 3111 | Exported Function
+`ReleasePtr` | 3113 | Exported Function
+`ReleasePtr` | 3112 | Exported Function
+`ReleasePtr` | 3142 | Exported Function
+`SetFault` | 3328 | Exported Function
+`PostChange` | 2932 | Exported Function
+`InitializeSourcesHelper` | 2595 | Exported Function
+`PostError` | 2934 | Exported Function
+`ReleasePtr` | 3245 | Exported Function
+`ReleasePtr` | 3244 | Exported Function
+`ReleasePtr` | 3243 | Exported Function
+`ParseBookmark` | 2896 | Exported Function
+`Me` | 2846 | Exported Function
+`Me` | 2842 | Exported Function
+`Me` | 2841 | Exported Function
+`Me` | 2843 | Exported Function
+`Me` | 2849 | Exported Function
+`Me` | 2845 | Exported Function
+`Me` | 2844 | Exported Function
+`Me` | 2828 | Exported Function
+`Me` | 2827 | Exported Function
+`Me` | 2826 | Exported Function
+`Me` | 2829 | Exported Function
+`Me` | 2840 | Exported Function
+`Me` | 2839 | Exported Function
+`Me` | 2830 | Exported Function
+`Me` | 2847 | Exported Function
+`Me` | 2838 | Exported Function
+`Me` | 2837 | Exported Function
+`Me` | 2848 | Exported Function
+`Me` | 2853 | Exported Function
+`Me` | 2852 | Exported Function
+`Me` | 2851 | Exported Function
+`Me` | 2857 | Exported Function
+`Me` | 2855 | Exported Function
+`Me` | 2850 | Exported Function
+`Me` | 2808 | Exported Function
+`Me` | 2836 | Exported Function
+`Me` | 2835 | Exported Function
+`Me` | 2833 | Exported Function
+`Me` | 2825 | Exported Function
+`Me` | 2813 | Exported Function
+`Me` | 2874 | Exported Function
+`Me` | 2873 | Exported Function
+`Me` | 2809 | Exported Function
+`Me` | 2812 | Exported Function
+`Me` | 2811 | Exported Function
+`Me` | 2810 | Exported Function
+`Me` | 2869 | Exported Function
+`Me` | 2868 | Exported Function
+`Me` | 2867 | Exported Function
+`Me` | 2870 | Exported Function
+`Me` | 2872 | Exported Function
+`Me` | 2871 | Exported Function
+`Me` | 2787 | Exported Function
+`Me` | 2822 | Exported Function
+`Me` | 2821 | Exported Function
+`Me` | 2820 | Exported Function
+`Me` | 2823 | Exported Function
+`Me` | 2832 | Exported Function
+`Me` | 2831 | Exported Function
+`Me` | 2824 | Exported Function
+`Me` | 2816 | Exported Function
+`Me` | 2815 | Exported Function
+`Me` | 2814 | Exported Function
+`Me` | 2817 | Exported Function
+`Me` | 2819 | Exported Function
+`Me` | 2834 | Exported Function
+`Me` | 2818 | Exported Function
+`HasHtmlError` | 2529 | Exported Function
+`AddMessage` | 1932 | Exported Function
+`RetrieveTableIdentity` | 3309 | Exported Function
+`RecordText` | 3015 | Exported Function
+`ProcessEPR` | 2948 | Exported Function
+`RemoveObserver` | 3272 | Exported Function
+`RecordXml` | 3016 | Exported Function
+`InitCfgMgr` | 2541 | Exported Function
+`GetStringInternal` | 2504 | Exported Function
+`CreateAutoConfiguredListener` | 2021 | Exported Function
+`InitCfgMgr` | 2542 | Exported Function
+`RetrieveShellUriIdentity` | 3308 | Exported Function
+`RetrieveListenerIdentity` | 3307 | Exported Function
+`RetrieveCertMappingIdentity` | 3306 | Exported Function
+`StoreData` | 3441 | Exported Function
+`ValidateString` | 3481 | Exported Function
+`ValidateInt` | 3479 | Exported Function
+`StoreDataFromResourceLocator` | 3443 | Exported Function
+`ParseActivityId` | 2895 | Exported Function
+`ParseAction` | 2894 | Exported Function
+`CreateRenderingInformation` | 2038 | Exported Function
+`DeInitialize` | 2094 | Exported Function
+`ProcessRefProperties` | 2955 | Exported Function
+`ProcessRefParameters` | 2954 | Exported Function
+`GetStringInternal` | 2505 | Exported Function
+`UnregisterPolicyNotification` | 3462 | Exported Function
+`RegisterForPolicyNotification` | 3021 | Exported Function
+`Initialize` | 2590 | Exported Function
+`RemoveFromMap` | 3269 | Exported Function
+`Me` | 2794 | Exported Function
+`Me` | 2793 | Exported Function
+`Me` | 2792 | Exported Function
+`Me` | 2795 | Exported Function
+`Me` | 2798 | Exported Function
+`Me` | 2797 | Exported Function
+`Me` | 2796 | Exported Function
+`Me` | 2858 | Exported Function
+`Me` | 2856 | Exported Function
+`Me` | 2854 | Exported Function
+`Me` | 2788 | Exported Function
+`Me` | 2791 | Exported Function
+`Me` | 2790 | Exported Function
+`Me` | 2789 | Exported Function
+`Me` | 2859 | Exported Function
+`Me` | 2807 | Exported Function
+`Me` | 2806 | Exported Function
+`Me` | 2860 | Exported Function
+`AddToMap` | 1940 | Exported Function
+`Me` | 2876 | Exported Function
+`Me` | 2875 | Exported Function
+`Me` | 2801 | Exported Function
+`Me` | 2800 | Exported Function
+`Me` | 2799 | Exported Function
+`Me` | 2802 | Exported Function
+`Me` | 2805 | Exported Function
+`Me` | 2804 | Exported Function
+`Me` | 2803 | Exported Function
+`AutoCleanup` | 66 | Exported Function
+`AutoRelease` | 357 | Exported Function
+`AutoRelease` | 356 | Exported Function
 `public: __cdecl AutoRelease<class CServiceCommonConfigSettings>::~AutoRelease<class CServiceCommonConfigSettings>(void) __ptr64` | 887 | Exported Function
 `public: __cdecl AutoRelease<class CServiceConfigCache>::~AutoRelease<class CServiceConfigCache>(void) __ptr64` | 888 | Exported Function
 `public: __cdecl AutoRelease<class CServiceConfigSettings>::~AutoRelease<class CServiceConfigSettings>(void) __ptr64` | 889 | Exported Function
-`public: __cdecl AutoRelease<class CServiceConfigSettings>::AutoRelease<class CServiceConfigSettings>(void) __ptr64` | 359 | Exported Function
-`public: __cdecl AutoRelease<class CServiceConfigSettings>::AutoRelease<class CServiceConfigSettings>(class CServiceConfigSettings * __ptr64) __ptr64` | 358 | Exported Function
-`public: __cdecl AutoRelease<class CRequestContext>::AutoRelease<class CRequestContext>(class CRequestContext * __ptr64) __ptr64` | 352 | Exported Function
+`AutoRelease` | 359 | Exported Function
+`AutoRelease` | 358 | Exported Function
+`AutoRelease` | 352 | Exported Function
 `public: __cdecl AutoRelease<class CRemoteSession>::~AutoRelease<class CRemoteSession>(void) __ptr64` | 885 | Exported Function
-`public: __cdecl AutoRelease<class CRemoteSession>::AutoRelease<class CRemoteSession>(void) __ptr64` | 351 | Exported Function
-`public: __cdecl AutoRelease<class CRequestContext>::AutoRelease<class CRequestContext>(void) __ptr64` | 353 | Exported Function
-`public: __cdecl AutoRelease<class CServiceCommonConfigSettings>::AutoRelease<class CServiceCommonConfigSettings>(void) __ptr64` | 355 | Exported Function
-`public: __cdecl AutoRelease<class CServiceCommonConfigSettings>::AutoRelease<class CServiceCommonConfigSettings>(class CServiceCommonConfigSettings * __ptr64) __ptr64` | 354 | Exported Function
+`AutoRelease` | 351 | Exported Function
+`AutoRelease` | 353 | Exported Function
+`AutoRelease` | 355 | Exported Function
+`AutoRelease` | 354 | Exported Function
 `public: __cdecl AutoRelease<class CRequestContext>::~AutoRelease<class CRequestContext>(void) __ptr64` | 886 | Exported Function
 `public: __cdecl AutoRelease<class CWSManGroupPolicyCache>::~AutoRelease<class CWSManGroupPolicyCache>(void) __ptr64` | 891 | Exported Function
-`public: __cdecl AutoRelease<class CWSManGroupPolicyCache>::AutoRelease<class CWSManGroupPolicyCache>(class CWSManGroupPolicyCache * __ptr64) __ptr64` | 362 | Exported Function
+`AutoRelease` | 362 | Exported Function
 `public: __cdecl AutoRelease<class CWSManEPR>::~AutoRelease<class CWSManEPR>(void) __ptr64` | 890 | Exported Function
-`public: __cdecl AutoRelease<class CWSManGroupPolicyManager>::AutoRelease<class CWSManGroupPolicyManager>(class CWSManGroupPolicyManager * __ptr64) __ptr64` | 363 | Exported Function
+`AutoRelease` | 363 | Exported Function
 `public: __cdecl AutoRelease<class CWSManObject>::~AutoRelease<class CWSManObject>(void) __ptr64` | 893 | Exported Function
-`public: __cdecl AutoRelease<class CWSManObject>::AutoRelease<class CWSManObject>(class CWSManObject * __ptr64) __ptr64` | 364 | Exported Function
+`AutoRelease` | 364 | Exported Function
 `public: __cdecl AutoRelease<class CWSManGroupPolicyManager>::~AutoRelease<class CWSManGroupPolicyManager>(void) __ptr64` | 892 | Exported Function
 `public: __cdecl AutoRelease<class CWinRSPluginConfigCache>::~AutoRelease<class CWinRSPluginConfigCache>(void) __ptr64` | 896 | Exported Function
-`public: __cdecl AutoRelease<class CWinRSPluginConfigCache>::AutoRelease<class CWinRSPluginConfigCache>(void) __ptr64` | 368 | Exported Function
-`public: __cdecl AutoRelease<class CWinRSPluginConfigCache>::AutoRelease<class CWinRSPluginConfigCache>(class CWinRSPluginConfigCache * __ptr64) __ptr64` | 367 | Exported Function
-`public: __cdecl AutoRelease<class CWinRSPluginConfigSettings>::AutoRelease<class CWinRSPluginConfigSettings>(class CWinRSPluginConfigSettings * __ptr64) __ptr64` | 369 | Exported Function
-`public: __cdecl AutoRelease<class CWSManEPR>::AutoRelease<class CWSManEPR>(void) __ptr64` | 361 | Exported Function
-`public: __cdecl AutoRelease<class CWSManEPR>::AutoRelease<class CWSManEPR>(class CWSManEPR * __ptr64) __ptr64` | 360 | Exported Function
+`AutoRelease` | 368 | Exported Function
+`AutoRelease` | 367 | Exported Function
+`AutoRelease` | 369 | Exported Function
+`AutoRelease` | 361 | Exported Function
+`AutoRelease` | 360 | Exported Function
 `public: __cdecl AutoRelease<class CWinRSPluginConfigSettings>::~AutoRelease<class CWinRSPluginConfigSettings>(void) __ptr64` | 897 | Exported Function
-`public: __cdecl AutoRelease<class CRemoteSession>::AutoRelease<class CRemoteSession>(class CRemoteSession * __ptr64) __ptr64` | 350 | Exported Function
+`AutoRelease` | 350 | Exported Function
 `public: __cdecl AutoRelease<class CBaseConfigCache>::~AutoRelease<class CBaseConfigCache>(void) __ptr64` | 874 | Exported Function
-`public: __cdecl AutoRelease<class CBaseConfigCache>::AutoRelease<class CBaseConfigCache>(class CBaseConfigCache * __ptr64) __ptr64` | 340 | Exported Function
-`public: __cdecl AutoRelease<class CBaseConfigCache::CConfigCacheMap>::~AutoRelease<class CBaseConfigCache::CConfigCacheMap>(void) __ptr64` | 878 | Exported Function
+`AutoRelease` | 340 | Exported Function
+`CConfigCacheMap` | 878 | Exported Function
 `public: __cdecl AutoRelease<class CClientConfigCache>::~AutoRelease<class CClientConfigCache>(void) __ptr64` | 875 | Exported Function
 `public: __cdecl AutoRelease<class CClientConfigSettings>::~AutoRelease<class CClientConfigSettings>(void) __ptr64` | 876 | Exported Function
-`public: __cdecl AutoRelease<class CClientConfigSettings>::AutoRelease<class CClientConfigSettings>(void) __ptr64` | 342 | Exported Function
-`public: __cdecl AutoRelease<class CClientConfigSettings>::AutoRelease<class CClientConfigSettings>(class CClientConfigSettings * __ptr64) __ptr64` | 341 | Exported Function
-`public: __cdecl AutoRegKey::AutoRegKey(struct HKEY__ * __ptr64) __ptr64` | 522 | Exported Function
+`AutoRelease` | 342 | Exported Function
+`AutoRelease` | 341 | Exported Function
+`AutoRegKey` | 522 | Exported Function
 `public: __cdecl AutoObject::~AutoObject(void) __ptr64` | 1073 | Exported Function
-`public: __cdecl AutoObject::AutoObject(void) __ptr64` | 521 | Exported Function
-`public: __cdecl AutoRegKey::AutoRegKey(void) __ptr64` | 523 | Exported Function
-`public: __cdecl AutoRelease<class CBaseConfigCache::CConfigCacheMap>::AutoRelease<class CBaseConfigCache::CConfigCacheMap>(void) __ptr64` | 346 | Exported Function
-`public: __cdecl AutoRelease<class CBaseConfigCache::CConfigCacheMap>::AutoRelease<class CBaseConfigCache::CConfigCacheMap>(class CBaseConfigCache::CConfigCacheMap * __ptr64) __ptr64` | 345 | Exported Function
+`AutoObject` | 521 | Exported Function
+`AutoRegKey` | 523 | Exported Function
+`CConfigCacheMap` | 346 | Exported Function
+`CConfigCacheMap` | 345 | Exported Function
 `public: __cdecl AutoRegKey::~AutoRegKey(void) __ptr64` | 1074 | Exported Function
 `public: __cdecl AutoRelease<class CListenerShell>::~AutoRelease<class CListenerShell>(void) __ptr64` | 883 | Exported Function
 `public: __cdecl AutoRelease<class CListenerReceive>::~AutoRelease<class CListenerReceive>(void) __ptr64` | 882 | Exported Function
 `public: __cdecl AutoRelease<class CListenerMasterOperation>::~AutoRelease<class CListenerMasterOperation>(void) __ptr64` | 881 | Exported Function
-`public: __cdecl AutoRelease<class ConfigNotification>::AutoRelease<class ConfigNotification>(class ConfigNotification * __ptr64) __ptr64` | 371 | Exported Function
+`AutoRelease` | 371 | Exported Function
 `public: __cdecl AutoRelease<class CRemoteOperation>::~AutoRelease<class CRemoteOperation>(void) __ptr64` | 884 | Exported Function
-`public: __cdecl AutoRelease<class CRemoteOperation>::AutoRelease<class CRemoteOperation>(class CRemoteOperation * __ptr64) __ptr64` | 349 | Exported Function
+`AutoRelease` | 349 | Exported Function
 `public: __cdecl AutoRelease<class ConfigNotification>::~AutoRelease<class ConfigNotification>(void) __ptr64` | 899 | Exported Function
 `public: __cdecl AutoRelease<class CCommonConfigSettings>::~AutoRelease<class CCommonConfigSettings>(void) __ptr64` | 877 | Exported Function
-`public: __cdecl AutoRelease<class CCommonConfigSettings>::AutoRelease<class CCommonConfigSettings>(void) __ptr64` | 344 | Exported Function
-`public: __cdecl AutoRelease<class CCommonConfigSettings>::AutoRelease<class CCommonConfigSettings>(class CCommonConfigSettings * __ptr64) __ptr64` | 343 | Exported Function
-`public: __cdecl AutoRelease<class CConfigManager>::AutoRelease<class CConfigManager>(class CConfigManager * __ptr64) __ptr64` | 347 | Exported Function
+`AutoRelease` | 344 | Exported Function
+`AutoRelease` | 343 | Exported Function
+`AutoRelease` | 347 | Exported Function
 `public: __cdecl AutoRelease<class CListenerCommand>::~AutoRelease<class CListenerCommand>(void) __ptr64` | 880 | Exported Function
 `public: __cdecl AutoRelease<class CConfigManager>::~AutoRelease<class CConfigManager>(void) __ptr64` | 879 | Exported Function
-`public: __cdecl AutoRelease<class CConfigManager>::AutoRelease<class CConfigManager>(void) __ptr64` | 348 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::DisconnectOperation>::AutoRelease<class WSMan::Client::DisconnectOperation>(class WSMan::Client::DisconnectOperation * __ptr64) __ptr64` | 375 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::DeleteShellOperation>::~AutoRelease<class WSMan::Client::DeleteShellOperation>(void) __ptr64` | 902 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::DeleteShellOperation>::AutoRelease<class WSMan::Client::DeleteShellOperation>(class WSMan::Client::DeleteShellOperation * __ptr64) __ptr64` | 374 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::DisconnectOperation>::~AutoRelease<class WSMan::Client::DisconnectOperation>(void) __ptr64` | 903 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ReceiveOperation>::AutoRelease<class WSMan::Client::ReceiveOperation>(class WSMan::Client::ReceiveOperation * __ptr64) __ptr64` | 386 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ProxySelection>::~AutoRelease<class WSMan::Client::ProxySelection>(void) __ptr64` | 913 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ProxyManager>::~AutoRelease<class WSMan::Client::ProxyManager>(void) __ptr64` | 912 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::Command>::~AutoRelease<class WSMan::Client::Command>(void) __ptr64` | 898 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::Command>::AutoRelease<class WSMan::Client::Command>(class WSMan::Client::Command * __ptr64) __ptr64` | 370 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::Application>::~AutoRelease<class WSMan::Client::Application>(void) __ptr64` | 873 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ConnectShellOperation>::AutoRelease<class WSMan::Client::ConnectShellOperation>(class WSMan::Client::ConnectShellOperation * __ptr64) __ptr64` | 372 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::CreateShellOperation>::~AutoRelease<class WSMan::Client::CreateShellOperation>(void) __ptr64` | 901 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::CreateShellOperation>::AutoRelease<class WSMan::Client::CreateShellOperation>(class WSMan::Client::CreateShellOperation * __ptr64) __ptr64` | 373 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ConnectShellOperation>::~AutoRelease<class WSMan::Client::ConnectShellOperation>(void) __ptr64` | 900 | Exported Function
-`public: __cdecl AutoRelease<class WSManHttpListener>::AutoRelease<class WSManHttpListener>(class WSManHttpListener * __ptr64) __ptr64` | 393 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::SignalOperation>::~AutoRelease<class WSMan::Client::SignalOperation>(void) __ptr64` | 921 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::SignalOperation>::AutoRelease<class WSMan::Client::SignalOperation>(class WSMan::Client::SignalOperation * __ptr64) __ptr64` | 391 | Exported Function
+`AutoRelease` | 348 | Exported Function
+`DisconnectOperation` | 375 | Exported Function
+`DeleteShellOperation` | 902 | Exported Function
+`DeleteShellOperation` | 374 | Exported Function
+`DisconnectOperation` | 903 | Exported Function
+`ReceiveOperation` | 386 | Exported Function
+`ProxySelection` | 913 | Exported Function
+`ProxyManager` | 912 | Exported Function
+`Command` | 898 | Exported Function
+`Command` | 370 | Exported Function
+`Application` | 873 | Exported Function
+`ConnectShellOperation` | 372 | Exported Function
+`CreateShellOperation` | 901 | Exported Function
+`CreateShellOperation` | 373 | Exported Function
+`ConnectShellOperation` | 900 | Exported Function
+`AutoRelease` | 393 | Exported Function
+`SignalOperation` | 921 | Exported Function
+`SignalOperation` | 391 | Exported Function
 `public: __cdecl AutoRelease<class WSManHttpListener>::~AutoRelease<class WSManHttpListener>(void) __ptr64` | 923 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostChildElementCollection>::AutoRelease<struct IAppHostChildElementCollection>(void) __ptr64` | 306 | Exported Function
+`AutoRelease` | 306 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostAdminManager>::~AutoRelease<struct IAppHostAdminManager>(void) __ptr64` | 853 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostAdminManager>::AutoRelease<struct IAppHostAdminManager>(struct IAppHostAdminManager * __ptr64) __ptr64` | 305 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ReconnectOperation>::~AutoRelease<class WSMan::Client::ReconnectOperation>(void) __ptr64` | 917 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ReconnectOperation>::AutoRelease<class WSMan::Client::ReconnectOperation>(class WSMan::Client::ReconnectOperation * __ptr64) __ptr64` | 387 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::ReceiveOperation>::~AutoRelease<class WSMan::Client::ReceiveOperation>(void) __ptr64` | 916 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::SendOperation>::AutoRelease<class WSMan::Client::SendOperation>(class WSMan::Client::SendOperation * __ptr64) __ptr64` | 388 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::Shell>::~AutoRelease<class WSMan::Client::Shell>(void) __ptr64` | 919 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::Shell>::AutoRelease<class WSMan::Client::Shell>(class WSMan::Client::Shell * __ptr64) __ptr64` | 389 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::SendOperation>::~AutoRelease<class WSMan::Client::SendOperation>(void) __ptr64` | 918 | Exported Function
-`public: __cdecl AutoRelease<class WSMan::Client::Application>::AutoRelease<class WSMan::Client::Application>(void) __ptr64` | 339 | Exported Function
+`AutoRelease` | 305 | Exported Function
+`ReconnectOperation` | 917 | Exported Function
+`ReconnectOperation` | 387 | Exported Function
+`ReceiveOperation` | 916 | Exported Function
+`SendOperation` | 388 | Exported Function
+`Shell` | 919 | Exported Function
+`Shell` | 389 | Exported Function
+`SendOperation` | 918 | Exported Function
+`Application` | 339 | Exported Function
 `public: __cdecl AutoRelease<class GeneralSinkEx>::~AutoRelease<class GeneralSinkEx>(void) __ptr64` | 905 | Exported Function
-`public: __cdecl AutoRelease<class GeneralSinkEx>::AutoRelease<class GeneralSinkEx>(void) __ptr64` | 379 | Exported Function
-`public: __cdecl AutoRelease<class GeneralSinkEx>::AutoRelease<class GeneralSinkEx>(class GeneralSinkEx * __ptr64) __ptr64` | 378 | Exported Function
+`AutoRelease` | 379 | Exported Function
+`AutoRelease` | 378 | Exported Function
 `public: __cdecl AutoRelease<class HostMappingTable>::~AutoRelease<class HostMappingTable>(void) __ptr64` | 906 | Exported Function
-`public: __cdecl AutoRelease<class InboundRequestDetails>::AutoRelease<class InboundRequestDetails>(void) __ptr64` | 385 | Exported Function
+`AutoRelease` | 385 | Exported Function
 `public: __cdecl AutoRelease<class IISConfigSettings>::~AutoRelease<class IISConfigSettings>(void) __ptr64` | 907 | Exported Function
-`public: __cdecl AutoRelease<class IISConfigSettings>::AutoRelease<class IISConfigSettings>(void) __ptr64` | 380 | Exported Function
+`AutoRelease` | 380 | Exported Function
 `public: __cdecl AutoRelease<class CWSManResource>::~AutoRelease<class CWSManResource>(void) __ptr64` | 894 | Exported Function
-`public: __cdecl AutoRelease<class CWSManResource>::AutoRelease<class CWSManResource>(void) __ptr64` | 366 | Exported Function
-`public: __cdecl AutoRelease<class CWSManResource>::AutoRelease<class CWSManResource>(class CWSManResource * __ptr64) __ptr64` | 365 | Exported Function
+`AutoRelease` | 366 | Exported Function
+`AutoRelease` | 365 | Exported Function
 `public: __cdecl AutoRelease<class CWSManSession>::~AutoRelease<class CWSManSession>(void) __ptr64` | 895 | Exported Function
 `public: __cdecl AutoRelease<class EnumSinkEx>::~AutoRelease<class EnumSinkEx>(void) __ptr64` | 904 | Exported Function
-`public: __cdecl AutoRelease<class EnumSinkEx>::AutoRelease<class EnumSinkEx>(void) __ptr64` | 377 | Exported Function
-`public: __cdecl AutoRelease<class EnumSinkEx>::AutoRelease<class EnumSinkEx>(class EnumSinkEx * __ptr64) __ptr64` | 376 | Exported Function
+`AutoRelease` | 377 | Exported Function
+`AutoRelease` | 376 | Exported Function
 `public: __cdecl AutoRelease<class PushSubscription>::~AutoRelease<class PushSubscription>(void) __ptr64` | 915 | Exported Function
 `public: __cdecl AutoRelease<class PushSubscribeOperation>::~AutoRelease<class PushSubscribeOperation>(void) __ptr64` | 914 | Exported Function
 `public: __cdecl AutoRelease<class ISubscription>::~AutoRelease<class ISubscription>(void) __ptr64` | 910 | Exported Function
-`public: __cdecl AutoRelease<class ShellInfo>::AutoRelease<class ShellInfo>(void) __ptr64` | 390 | Exported Function
+`AutoRelease` | 390 | Exported Function
 `public: __cdecl AutoRelease<class UserRecord>::~AutoRelease<class UserRecord>(void) __ptr64` | 922 | Exported Function
-`public: __cdecl AutoRelease<class UserRecord>::AutoRelease<class UserRecord>(void) __ptr64` | 392 | Exported Function
+`AutoRelease` | 392 | Exported Function
 `public: __cdecl AutoRelease<class ShellInfo>::~AutoRelease<class ShellInfo>(void) __ptr64` | 920 | Exported Function
 `public: __cdecl AutoRelease<class IPCSoapProcessor>::~AutoRelease<class IPCSoapProcessor>(void) __ptr64` | 908 | Exported Function
-`public: __cdecl AutoRelease<class IPCSoapProcessor>::AutoRelease<class IPCSoapProcessor>(class IPCSoapProcessor * __ptr64) __ptr64` | 381 | Exported Function
+`AutoRelease` | 381 | Exported Function
 `public: __cdecl AutoRelease<class InboundRequestDetails>::~AutoRelease<class InboundRequestDetails>(void) __ptr64` | 911 | Exported Function
-`public: __cdecl AutoRelease<class IRequestContext>::AutoRelease<class IRequestContext>(class IRequestContext * __ptr64) __ptr64` | 382 | Exported Function
-`public: __cdecl AutoRelease<class ISubscription>::AutoRelease<class ISubscription>(class ISubscription * __ptr64) __ptr64` | 384 | Exported Function
+`AutoRelease` | 382 | Exported Function
+`AutoRelease` | 384 | Exported Function
 `public: __cdecl AutoRelease<class IRequestContext>::~AutoRelease<class IRequestContext>(void) __ptr64` | 909 | Exported Function
-`public: __cdecl AutoRelease<class IRequestContext>::AutoRelease<class IRequestContext>(void) __ptr64` | 383 | Exported Function
-`public: __cdecl AutoObject::AutoObject(struct WSMAN_OBJECT * __ptr64) __ptr64` | 520 | Exported Function
-`public: __cdecl AutoDelete<class WSMANCONFIGTABLE_IDENTITY>::AutoDelete<class WSMANCONFIGTABLE_IDENTITY>(class WSMANCONFIGTABLE_IDENTITY * __ptr64) __ptr64` | 274 | Exported Function
-`public: __cdecl AutoDelete<class WSMan::EventHandler>::~AutoDelete<class WSMan::EventHandler>(void) __ptr64` | 807 | Exported Function
-`public: __cdecl AutoDelete<class WSMan::EventHandler>::AutoDelete<class WSMan::EventHandler>(class WSMan::EventHandler * __ptr64) __ptr64` | 241 | Exported Function
+`AutoRelease` | 383 | Exported Function
+`AutoObject` | 520 | Exported Function
+`AutoDelete` | 274 | Exported Function
+`EventHandler` | 807 | Exported Function
+`EventHandler` | 241 | Exported Function
 `public: __cdecl AutoDelete<class WSMANCONFIGTABLE_IDENTITY>::~AutoDelete<class WSMANCONFIGTABLE_IDENTITY>(void) __ptr64` | 835 | Exported Function
-`public: __cdecl AutoDelete<class XmlReader>::AutoDelete<class XmlReader>(class XmlReader * __ptr64) __ptr64` | 278 | Exported Function
+`AutoDelete` | 278 | Exported Function
 `public: __cdecl AutoDelete<class WSManMemCryptManager>::~AutoDelete<class WSManMemCryptManager>(void) __ptr64` | 836 | Exported Function
-`public: __cdecl AutoDelete<class WSManMemCryptManager>::AutoDelete<class WSManMemCryptManager>(class WSManMemCryptManager * __ptr64) __ptr64` | 275 | Exported Function
-`public: __cdecl AutoDelete<class WmiEnumContext>::AutoDelete<class WmiEnumContext>(class WmiEnumContext * __ptr64) __ptr64` | 276 | Exported Function
+`AutoDelete` | 275 | Exported Function
+`AutoDelete` | 276 | Exported Function
 `public: __cdecl AutoDelete<class User32DllLoader>::~AutoDelete<class User32DllLoader>(void) __ptr64` | 834 | Exported Function
-`public: __cdecl AutoDelete<class User32DllLoader>::AutoDelete<class User32DllLoader>(class User32DllLoader * __ptr64) __ptr64` | 273 | Exported Function
-`public: __cdecl AutoDelete<class WmiEnumContext>::AutoDelete<class WmiEnumContext>(void) __ptr64` | 277 | Exported Function
-`public: __cdecl AutoDelete<class WSMan::Client::SessionOptions::OptionValue>::~AutoDelete<class WSMan::Client::SessionOptions::OptionValue>(void) __ptr64` | 820 | Exported Function
-`public: __cdecl AutoDelete<class WSMan::Client::SessionOptions::OptionValue>::AutoDelete<class WSMan::Client::SessionOptions::OptionValue>(class WSMan::Client::SessionOptions::OptionValue * __ptr64) __ptr64` | 257 | Exported Function
+`AutoDelete` | 273 | Exported Function
+`AutoDelete` | 277 | Exported Function
+`OptionValue` | 820 | Exported Function
+`OptionValue` | 257 | Exported Function
 `public: __cdecl AutoDelete<class WmiEnumContext>::~AutoDelete<class WmiEnumContext>(void) __ptr64` | 837 | Exported Function
-`public: __cdecl AutoDelete<unsigned short>::AutoDelete<unsigned short>(void) __ptr64` | 203 | Exported Function
-`public: __cdecl AutoDelete<unsigned short>::AutoDelete<unsigned short>(unsigned short * __ptr64) __ptr64` | 202 | Exported Function
-`public: __cdecl AutoDelete<struct CWSManIPFilter::IPRange>::~AutoDelete<struct CWSManIPFilter::IPRange>(void) __ptr64` | 767 | Exported Function
+`AutoDelete` | 203 | Exported Function
+`AutoDelete` | 202 | Exported Function
+`IPRange` | 767 | Exported Function
 `public: __cdecl AutoDelete<unsigned short>::~AutoDelete<unsigned short>(void) __ptr64` | 766 | Exported Function
 `public: __cdecl AutoDeleteVector<char>::~AutoDeleteVector<char>(void) __ptr64` | 840 | Exported Function
-`public: __cdecl AutoDeleteVector<char>::AutoDeleteVector<char>(void) __ptr64` | 282 | Exported Function
-`public: __cdecl AutoDeleteVector<char>::AutoDeleteVector<char>(char * __ptr64) __ptr64` | 281 | Exported Function
-`public: __cdecl AutoDelete<struct _SID>::AutoDelete<struct _SID>(struct _SID * __ptr64) __ptr64` | 205 | Exported Function
+`AutoDeleteVector` | 282 | Exported Function
+`AutoDeleteVector` | 281 | Exported Function
+`AutoDelete` | 205 | Exported Function
 `public: __cdecl AutoDelete<class XmlReader>::~AutoDelete<class XmlReader>(void) __ptr64` | 838 | Exported Function
-`public: __cdecl AutoDelete<class XmlReader>::AutoDelete<class XmlReader>(void) __ptr64` | 279 | Exported Function
+`AutoDelete` | 279 | Exported Function
 `public: __cdecl AutoDelete<struct _SID>::~AutoDelete<struct _SID>(void) __ptr64` | 768 | Exported Function
-`public: __cdecl AutoDelete<struct CWSManIPFilter::IPRange>::AutoDelete<struct CWSManIPFilter::IPRange>(void) __ptr64` | 204 | Exported Function
+`IPRange` | 204 | Exported Function
 `public: __cdecl AutoDelete<struct _WSMAN_STREAM_ID_SET>::~AutoDelete<struct _WSMAN_STREAM_ID_SET>(void) __ptr64` | 769 | Exported Function
-`public: __cdecl AutoDelete<struct _WSMAN_STREAM_ID_SET>::AutoDelete<struct _WSMAN_STREAM_ID_SET>(struct _WSMAN_STREAM_ID_SET * __ptr64) __ptr64` | 206 | Exported Function
+`AutoDelete` | 206 | Exported Function
 `public: __cdecl AutoDelete<class UniqueStringOverflow>::~AutoDelete<class UniqueStringOverflow>(void) __ptr64` | 833 | Exported Function
-`public: __cdecl AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >::AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >(class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > * __ptr64) __ptr64` | 217 | Exported Function
-`public: __cdecl AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > >::~AutoDelete<class std::queue<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class std::deque<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64,class transport_allocator<struct _WSMAN_PUBLISHER_EVENT_STRUCT * __ptr64> > > >(void) __ptr64` | 786 | Exported Function
+`CListenerSettingsLessFunctor` | 217 | Exported Function
+`deque` | 786 | Exported Function
 `public: __cdecl AutoDelete<class SimpleStack<class ShellHostEntry> >::~AutoDelete<class SimpleStack<class ShellHostEntry> >(void) __ptr64` | 785 | Exported Function
-`public: __cdecl AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >::AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >(void) __ptr64` | 218 | Exported Function
-`public: __cdecl AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >::~AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >(void) __ptr64` | 788 | Exported Function
-`public: __cdecl AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >::AutoDelete<class std::set<struct sockaddr_storage,class CListenerSettings::SockAddrLessFunctor,class transport_allocator<struct sockaddr_storage> > >(void) __ptr64` | 219 | Exported Function
-`public: __cdecl AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >::~AutoDelete<class std::set<class CListenerSettings * __ptr64,class CServiceConfigSettings::CListenerSettingsLessFunctor,class transport_allocator<class CListenerSettings * __ptr64> > >(void) __ptr64` | 787 | Exported Function
-`public: __cdecl AutoDelete<class ShlWApiDllLoader>::AutoDelete<class ShlWApiDllLoader>(class ShlWApiDllLoader * __ptr64) __ptr64` | 267 | Exported Function
+`CListenerSettingsLessFunctor` | 218 | Exported Function
+`SockAddrLessFunctor` | 788 | Exported Function
+`SockAddrLessFunctor` | 219 | Exported Function
+`CListenerSettingsLessFunctor` | 787 | Exported Function
+`AutoDelete` | 267 | Exported Function
 `public: __cdecl AutoDelete<class Shell32DllLoader>::~AutoDelete<class Shell32DllLoader>(void) __ptr64` | 828 | Exported Function
-`public: __cdecl AutoDelete<class Shell32DllLoader>::AutoDelete<class Shell32DllLoader>(class Shell32DllLoader * __ptr64) __ptr64` | 266 | Exported Function
+`AutoDelete` | 266 | Exported Function
 `public: __cdecl AutoDelete<class ShlWApiDllLoader>::~AutoDelete<class ShlWApiDllLoader>(void) __ptr64` | 829 | Exported Function
-`public: __cdecl AutoDelete<class SimpleStack<class ShellHostEntry> >::AutoDelete<class SimpleStack<class ShellHostEntry> >(void) __ptr64` | 216 | Exported Function
+`AutoDelete` | 216 | Exported Function
 `public: __cdecl AutoDelete<class SimpleStack<class CListenerOperation> >::~AutoDelete<class SimpleStack<class CListenerOperation> >(void) __ptr64` | 784 | Exported Function
-`public: __cdecl AutoDelete<class SimpleStack<class CListenerOperation> >::AutoDelete<class SimpleStack<class CListenerOperation> >(void) __ptr64` | 215 | Exported Function
+`AutoDelete` | 215 | Exported Function
 `public: __cdecl AutoDelete<class SubscriptionManager>::~AutoDelete<class SubscriptionManager>(void) __ptr64` | 831 | Exported Function
-`public: __cdecl AutoDelete<class SubscriptionManager>::AutoDelete<class SubscriptionManager>(class SubscriptionManager * __ptr64) __ptr64` | 269 | Exported Function
+`AutoDelete` | 269 | Exported Function
 `public: __cdecl AutoDelete<class SubscriptionEnumerator>::~AutoDelete<class SubscriptionEnumerator>(void) __ptr64` | 830 | Exported Function
-`public: __cdecl AutoDelete<class TSTRBUFFER>::AutoDelete<class TSTRBUFFER>(class TSTRBUFFER * __ptr64) __ptr64` | 270 | Exported Function
-`public: __cdecl AutoDelete<class UniqueStringOverflow>::AutoDelete<class UniqueStringOverflow>(void) __ptr64` | 272 | Exported Function
+`AutoDelete` | 270 | Exported Function
+`AutoDelete` | 272 | Exported Function
 `public: __cdecl AutoDelete<class TSTRBUFFER>::~AutoDelete<class TSTRBUFFER>(void) __ptr64` | 832 | Exported Function
-`public: __cdecl AutoDelete<class TSTRBUFFER>::AutoDelete<class TSTRBUFFER>(void) __ptr64` | 271 | Exported Function
-`public: __cdecl AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >::~AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >(void) __ptr64` | 791 | Exported Function
-`public: __cdecl AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >::AutoDelete<class std::vector<class IServiceConfigObserver * __ptr64,class transport_allocator<class IServiceConfigObserver * __ptr64> > >(void) __ptr64` | 221 | Exported Function
-`public: __cdecl AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > >::~AutoDelete<class std::vector<class CWSManRequest * __ptr64,class transport_allocator<class CWSManRequest * __ptr64> > >(void) __ptr64` | 789 | Exported Function
-`public: __cdecl AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >::AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >(void) __ptr64` | 220 | Exported Function
-`public: __cdecl AutoDelete<class SubscriptionEnumerator>::AutoDelete<class SubscriptionEnumerator>(void) __ptr64` | 268 | Exported Function
-`public: __cdecl AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > >::~AutoDelete<class std::vector<class WSManHttpSenderConnection * __ptr64,class transport_allocator<class WSManHttpSenderConnection * __ptr64> > >(void) __ptr64` | 792 | Exported Function
-`public: __cdecl AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >::~AutoDelete<class std::vector<class WSMan::Client::HandleImpl * __ptr64,class transport_allocator<class WSMan::Client::HandleImpl * __ptr64> > >(void) __ptr64` | 790 | Exported Function
+`AutoDelete` | 271 | Exported Function
+`vector` | 791 | Exported Function
+`vector` | 221 | Exported Function
+`vector` | 789 | Exported Function
+`HandleImpl` | 220 | Exported Function
+`AutoDelete` | 268 | Exported Function
+`vector` | 792 | Exported Function
+`HandleImpl` | 790 | Exported Function
 `public: __cdecl AutoHandle::~AutoHandle(void) __ptr64` | 1067 | Exported Function
-`public: __cdecl AutoHandle::AutoHandle(void) __ptr64` | 509 | Exported Function
-`public: __cdecl AutoHandle::AutoHandle(void * __ptr64) __ptr64` | 508 | Exported Function
-`public: __cdecl AutoImpersonateUser::AutoImpersonateUser(void * __ptr64) __ptr64` | 510 | Exported Function
-`public: __cdecl AutoLibrary::AutoLibrary(struct HINSTANCE__ * __ptr64) __ptr64` | 512 | Exported Function
+`AutoHandle` | 509 | Exported Function
+`AutoHandle` | 508 | Exported Function
+`AutoImpersonateUser` | 510 | Exported Function
+`AutoLibrary` | 512 | Exported Function
 `public: __cdecl AutoImpersonateUser::~AutoImpersonateUser(void) __ptr64` | 1068 | Exported Function
-`public: __cdecl AutoImpersonateUser::AutoImpersonateUser(void) __ptr64` | 511 | Exported Function
-`public: __cdecl AutoFree<unsigned char>::AutoFree<unsigned char>(void) __ptr64` | 302 | Exported Function
-`public: __cdecl AutoFree<unsigned char>::AutoFree<unsigned char>(unsigned char * __ptr64) __ptr64` | 301 | Exported Function
+`AutoImpersonateUser` | 511 | Exported Function
+`AutoFree` | 302 | Exported Function
+`AutoFree` | 301 | Exported Function
 `public: __cdecl AutoDeleteVector<void>::~AutoDeleteVector<void>(void) __ptr64` | 850 | Exported Function
 `public: __cdecl AutoFree<unsigned char>::~AutoFree<unsigned char>(void) __ptr64` | 851 | Exported Function
 `public: __cdecl AutoFwXmlCloseParser::~AutoFwXmlCloseParser(void) __ptr64` | 1066 | Exported Function
-`public: __cdecl AutoFwXmlCloseParser::AutoFwXmlCloseParser(void) __ptr64` | 507 | Exported Function
-`public: __cdecl AutoFwXmlCloseParser::AutoFwXmlCloseParser(void * __ptr64) __ptr64` | 506 | Exported Function
-`public: __cdecl AutoMIClass::AutoMIClass(void) __ptr64` | 517 | Exported Function
-`public: __cdecl AutoMIClass::AutoMIClass(struct _MI_Class * __ptr64) __ptr64` | 516 | Exported Function
+`AutoFwXmlCloseParser` | 507 | Exported Function
+`AutoFwXmlCloseParser` | 506 | Exported Function
+`AutoMIClass` | 517 | Exported Function
+`AutoMIClass` | 516 | Exported Function
 `public: __cdecl AutoLocklessItemRecycle<class Packet>::~AutoLocklessItemRecycle<class Packet>(void) __ptr64` | 852 | Exported Function
 `public: __cdecl AutoMIClass::~AutoMIClass(void) __ptr64` | 1071 | Exported Function
 `public: __cdecl AutoMIInstance::~AutoMIInstance(void) __ptr64` | 1072 | Exported Function
-`public: __cdecl AutoMIInstance::AutoMIInstance(void) __ptr64` | 519 | Exported Function
-`public: __cdecl AutoMIInstance::AutoMIInstance(struct _MI_Instance * __ptr64) __ptr64` | 518 | Exported Function
-`public: __cdecl AutoLocalFree::AutoLocalFree(void * __ptr64) __ptr64` | 514 | Exported Function
+`AutoMIInstance` | 519 | Exported Function
+`AutoMIInstance` | 518 | Exported Function
+`AutoLocalFree` | 514 | Exported Function
 `public: __cdecl AutoLibrary::~AutoLibrary(void) __ptr64` | 1069 | Exported Function
-`public: __cdecl AutoLibrary::AutoLibrary(void) __ptr64` | 513 | Exported Function
-`public: __cdecl AutoLocalFree::AutoLocalFree(void) __ptr64` | 515 | Exported Function
-`public: __cdecl AutoLocklessItemRecycle<class Packet>::AutoLocklessItemRecycle<class Packet>(void) __ptr64` | 304 | Exported Function
-`public: __cdecl AutoLocklessItemRecycle<class Packet>::AutoLocklessItemRecycle<class Packet>(class Packet * __ptr64) __ptr64` | 303 | Exported Function
+`AutoLibrary` | 513 | Exported Function
+`AutoLocalFree` | 515 | Exported Function
+`AutoLocklessItemRecycle` | 304 | Exported Function
+`AutoLocklessItemRecycle` | 303 | Exported Function
 `public: __cdecl AutoLocalFree::~AutoLocalFree(void) __ptr64` | 1070 | Exported Function
-`public: __cdecl AutoDeleteVector<void>::AutoDeleteVector<void>(void) __ptr64` | 300 | Exported Function
+`AutoDeleteVector` | 300 | Exported Function
 `public: __cdecl AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>::~AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>(void) __ptr64` | 848 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>::AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>(void) __ptr64` | 296 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>::AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>(struct _WINRS_RUN_COMMAND_ARG * __ptr64) __ptr64` | 295 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _WSMAN_OPTION>::AutoDeleteVector<struct _WSMAN_OPTION>(struct _WSMAN_OPTION * __ptr64) __ptr64` | 297 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned char>::AutoDeleteVector<unsigned char>(unsigned char * __ptr64) __ptr64` | 283 | Exported Function
+`AutoDeleteVector` | 296 | Exported Function
+`AutoDeleteVector` | 295 | Exported Function
+`AutoDeleteVector` | 297 | Exported Function
+`AutoDeleteVector` | 283 | Exported Function
 `public: __cdecl AutoDeleteVector<struct _WSMAN_OPTION>::~AutoDeleteVector<struct _WSMAN_OPTION>(void) __ptr64` | 849 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _WSMAN_OPTION>::AutoDeleteVector<struct _WSMAN_OPTION>(void) __ptr64` | 298 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _CONFIG_UPDATE>::AutoDeleteVector<struct _CONFIG_UPDATE>(void) __ptr64` | 292 | Exported Function
+`AutoDeleteVector` | 298 | Exported Function
+`AutoDeleteVector` | 292 | Exported Function
 `public: __cdecl AutoDeleteVector<int>::~AutoDeleteVector<int>(void) __ptr64` | 843 | Exported Function
-`public: __cdecl AutoDeleteVector<int>::AutoDeleteVector<int>(int * __ptr64) __ptr64` | 287 | Exported Function
+`AutoDeleteVector` | 287 | Exported Function
 `public: __cdecl AutoDeleteVector<struct _CONFIG_UPDATE>::~AutoDeleteVector<struct _CONFIG_UPDATE>(void) __ptr64` | 846 | Exported Function
 `public: __cdecl AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>::~AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>(void) __ptr64` | 847 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>::AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>(void) __ptr64` | 294 | Exported Function
-`public: __cdecl AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>::AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>(struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64) __ptr64` | 293 | Exported Function
+`AutoDeleteVector` | 294 | Exported Function
+`AutoDeleteVector` | 293 | Exported Function
 `public: __cdecl AutoDeleteVector<unsigned short const >::~AutoDeleteVector<unsigned short const >(void) __ptr64` | 839 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short const >::AutoDeleteVector<unsigned short const >(void) __ptr64` | 280 | Exported Function
+`AutoDeleteVector` | 280 | Exported Function
 `public: __cdecl AutoDeleteVector<unsigned short const * __ptr64>::~AutoDeleteVector<unsigned short const * __ptr64>(void) __ptr64` | 845 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short>::AutoDeleteVector<unsigned short>(unsigned short * __ptr64) __ptr64` | 285 | Exported Function
-`public: __cdecl AutoDeleteVector<void>::AutoDeleteVector<void>(void * __ptr64) __ptr64` | 299 | Exported Function
+`AutoDeleteVector` | 285 | Exported Function
+`AutoDeleteVector` | 299 | Exported Function
 `public: __cdecl AutoDeleteVector<unsigned short>::~AutoDeleteVector<unsigned short>(void) __ptr64` | 842 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short>::AutoDeleteVector<unsigned short>(void) __ptr64` | 286 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short * __ptr64>::AutoDeleteVector<unsigned short * __ptr64>(unsigned short * __ptr64 * __ptr64) __ptr64` | 288 | Exported Function
+`AutoDeleteVector` | 286 | Exported Function
+`AutoDeleteVector` | 288 | Exported Function
 `public: __cdecl AutoDeleteVector<unsigned char>::~AutoDeleteVector<unsigned char>(void) __ptr64` | 841 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned char>::AutoDeleteVector<unsigned char>(void) __ptr64` | 284 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short * __ptr64>::AutoDeleteVector<unsigned short * __ptr64>(void) __ptr64` | 289 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short const * __ptr64>::AutoDeleteVector<unsigned short const * __ptr64>(void) __ptr64` | 291 | Exported Function
-`public: __cdecl AutoDeleteVector<unsigned short const * __ptr64>::AutoDeleteVector<unsigned short const * __ptr64>(unsigned short const * __ptr64 * __ptr64) __ptr64` | 290 | Exported Function
+`AutoDeleteVector` | 284 | Exported Function
+`AutoDeleteVector` | 289 | Exported Function
+`AutoDeleteVector` | 291 | Exported Function
+`AutoDeleteVector` | 290 | Exported Function
 `public: __cdecl AutoDeleteVector<unsigned short * __ptr64>::~AutoDeleteVector<unsigned short * __ptr64>(void) __ptr64` | 844 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostChildElementCollection>::~AutoRelease<struct IAppHostChildElementCollection>(void) __ptr64` | 854 | Exported Function
-`public: __cdecl LoaderSerializer<class MachineName,1>::LoaderSerializer<class MachineName,1>(bool (__cdecl MachineName::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl MachineName::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 425 | Exported Function
-`public: __cdecl LoaderSerializer<class Locale::Resources,0>::~LoaderSerializer<class Locale::Resources,0>(void) __ptr64` | 959 | Exported Function
-`public: __cdecl LoaderSerializer<class Locale::Resources,0>::LoaderSerializer<class Locale::Resources,0>(bool (__cdecl Locale::Resources::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl Locale::Resources::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 428 | Exported Function
+`LoaderSerializer` | 425 | Exported Function
+`Resources` | 959 | Exported Function
+`Resources` | 428 | Exported Function
 `public: __cdecl LoaderSerializer<class MachineName,1>::~LoaderSerializer<class MachineName,1>(void) __ptr64` | 956 | Exported Function
-`public: __cdecl LoaderSerializer<class Shell32DllLoader,1>::LoaderSerializer<class Shell32DllLoader,1>(bool (__cdecl Shell32DllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl Shell32DllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 429 | Exported Function
+`LoaderSerializer` | 429 | Exported Function
 `public: __cdecl LoaderSerializer<class NtDsApiDllLoader,1>::~LoaderSerializer<class NtDsApiDllLoader,1>(void) __ptr64` | 958 | Exported Function
-`public: __cdecl LoaderSerializer<class NtDsApiDllLoader,1>::LoaderSerializer<class NtDsApiDllLoader,1>(bool (__cdecl NtDsApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl NtDsApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 427 | Exported Function
-`public: __cdecl LoaderSerializer<class CSecurity::InteractiveSid,1>::~LoaderSerializer<class CSecurity::InteractiveSid,1>(void) __ptr64` | 954 | Exported Function
-`public: __cdecl LoaderSerializer<class CSecurity::InteractiveSid,1>::LoaderSerializer<class CSecurity::InteractiveSid,1>(bool (__cdecl CSecurity::InteractiveSid::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl CSecurity::InteractiveSid::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 423 | Exported Function
-`public: __cdecl LoaderSerializer<class CSecurity::AdminSid,1>::~LoaderSerializer<class CSecurity::AdminSid,1>(void) __ptr64` | 952 | Exported Function
-`public: __cdecl LoaderSerializer<class CSecurity::NetworkServiceSid,1>::LoaderSerializer<class CSecurity::NetworkServiceSid,1>(bool (__cdecl CSecurity::NetworkServiceSid::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl CSecurity::NetworkServiceSid::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 426 | Exported Function
+`LoaderSerializer` | 427 | Exported Function
+`InteractiveSid` | 954 | Exported Function
+`InteractiveSid` | 423 | Exported Function
+`AdminSid` | 952 | Exported Function
+`NetworkServiceSid` | 426 | Exported Function
 `public: __cdecl LoaderSerializer<class IpHlpApiDllLoader,1>::~LoaderSerializer<class IpHlpApiDllLoader,1>(void) __ptr64` | 955 | Exported Function
-`public: __cdecl LoaderSerializer<class IpHlpApiDllLoader,1>::LoaderSerializer<class IpHlpApiDllLoader,1>(bool (__cdecl IpHlpApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl IpHlpApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 424 | Exported Function
-`public: __cdecl LoaderSerializer<class CSecurity::NetworkServiceSid,1>::~LoaderSerializer<class CSecurity::NetworkServiceSid,1>(void) __ptr64` | 957 | Exported Function
-`public: __cdecl LoaderSerializer<class WSManMemCryptManager,1>::LoaderSerializer<class WSManMemCryptManager,1>(bool (__cdecl WSManMemCryptManager::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl WSManMemCryptManager::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 433 | Exported Function
-`public: __cdecl LoaderSerializer<class WSMan::EventHandler,1>::~LoaderSerializer<class WSMan::EventHandler,1>(void) __ptr64` | 953 | Exported Function
-`public: __cdecl LoaderSerializer<class WSMan::EventHandler,1>::LoaderSerializer<class WSMan::EventHandler,1>(bool (__cdecl WSMan::EventHandler::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl WSMan::EventHandler::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 422 | Exported Function
+`LoaderSerializer` | 424 | Exported Function
+`NetworkServiceSid` | 957 | Exported Function
+`LoaderSerializer` | 433 | Exported Function
+`EventHandler` | 953 | Exported Function
+`EventHandler` | 422 | Exported Function
 `public: __cdecl LoaderSerializer<class WSManMemCryptManager,1>::~LoaderSerializer<class WSManMemCryptManager,1>(void) __ptr64` | 964 | Exported Function
-`public: __cdecl Locale::Locale(void) __ptr64` | 567 | Exported Function
-`public: __cdecl Locale::Locale(class Locale const & __ptr64) __ptr64` | 565 | Exported Function
-`public: __cdecl Locale::Locale(class IRequestContext * __ptr64) __ptr64` | 566 | Exported Function
+`Locale` | 567 | Exported Function
+`Locale` | 565 | Exported Function
+`Locale` | 566 | Exported Function
 `public: __cdecl LoaderSerializer<class ShlWApiDllLoader,1>::~LoaderSerializer<class ShlWApiDllLoader,1>(void) __ptr64` | 961 | Exported Function
-`public: __cdecl LoaderSerializer<class ShlWApiDllLoader,1>::LoaderSerializer<class ShlWApiDllLoader,1>(bool (__cdecl ShlWApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl ShlWApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 430 | Exported Function
+`LoaderSerializer` | 430 | Exported Function
 `public: __cdecl LoaderSerializer<class Shell32DllLoader,1>::~LoaderSerializer<class Shell32DllLoader,1>(void) __ptr64` | 960 | Exported Function
-`public: __cdecl LoaderSerializer<class SubscriptionManager,2>::LoaderSerializer<class SubscriptionManager,2>(bool (__cdecl SubscriptionManager::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl SubscriptionManager::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 431 | Exported Function
+`LoaderSerializer` | 431 | Exported Function
 `public: __cdecl LoaderSerializer<class User32DllLoader,1>::~LoaderSerializer<class User32DllLoader,1>(void) __ptr64` | 963 | Exported Function
-`public: __cdecl LoaderSerializer<class User32DllLoader,1>::LoaderSerializer<class User32DllLoader,1>(bool (__cdecl User32DllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl User32DllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 432 | Exported Function
+`LoaderSerializer` | 432 | Exported Function
 `public: __cdecl LoaderSerializer<class SubscriptionManager,2>::~LoaderSerializer<class SubscriptionManager,2>(void) __ptr64` | 962 | Exported Function
-`public: __cdecl LoaderSerializer<class CSecurity::AdminSid,1>::LoaderSerializer<class CSecurity::AdminSid,1>(bool (__cdecl CSecurity::AdminSid::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl CSecurity::AdminSid::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 421 | Exported Function
-`public: __cdecl Loader<class IpHlpApiDllLoader,1>::Loader<class IpHlpApiDllLoader,1>(void) __ptr64` | 412 | Exported Function
-`public: __cdecl Loader<class CSecurity::NetworkServiceSid,1>::~Loader<class CSecurity::NetworkServiceSid,1>(void) __ptr64` | 944 | Exported Function
-`public: __cdecl Loader<class CSecurity::NetworkServiceSid,1>::Loader<class CSecurity::NetworkServiceSid,1>(void) __ptr64` | 414 | Exported Function
+`AdminSid` | 421 | Exported Function
+`Loader` | 412 | Exported Function
+`NetworkServiceSid` | 944 | Exported Function
+`NetworkServiceSid` | 414 | Exported Function
 `public: __cdecl Loader<class IpHlpApiDllLoader,1>::~Loader<class IpHlpApiDllLoader,1>(void) __ptr64` | 942 | Exported Function
-`public: __cdecl Loader<class MachineName,1>::Loader<class MachineName,1>(void) __ptr64` | 413 | Exported Function
-`public: __cdecl Loader<class Locale::Resources,0>::~Loader<class Locale::Resources,0>(void) __ptr64` | 946 | Exported Function
-`public: __cdecl Loader<class Locale::Resources,0>::Loader<class Locale::Resources,0>(void) __ptr64` | 416 | Exported Function
-`public: __cdecl IWSManGroupPolicyPublisher::IWSManGroupPolicyPublisher(void) __ptr64` | 564 | Exported Function
-`public: __cdecl IWSManGroupPolicyPublisher::IWSManGroupPolicyPublisher(class IWSManGroupPolicyPublisher const & __ptr64) __ptr64` | 563 | Exported Function
-`public: __cdecl IWSManGroupPolicyObserver::IWSManGroupPolicyObserver(void) __ptr64` | 562 | Exported Function
-`public: __cdecl Loader<class CSecurity::AdminSid,1>::Loader<class CSecurity::AdminSid,1>(void) __ptr64` | 409 | Exported Function
-`public: __cdecl Loader<class CSecurity::InteractiveSid,1>::~Loader<class CSecurity::InteractiveSid,1>(void) __ptr64` | 941 | Exported Function
-`public: __cdecl Loader<class CSecurity::InteractiveSid,1>::Loader<class CSecurity::InteractiveSid,1>(void) __ptr64` | 411 | Exported Function
-`public: __cdecl Loader<class CSecurity::AdminSid,1>::~Loader<class CSecurity::AdminSid,1>(void) __ptr64` | 939 | Exported Function
+`Loader` | 413 | Exported Function
+`Resources` | 946 | Exported Function
+`Resources` | 416 | Exported Function
+`IWSManGroupPolicyPublisher` | 564 | Exported Function
+`IWSManGroupPolicyPublisher` | 563 | Exported Function
+`IWSManGroupPolicyObserver` | 562 | Exported Function
+`AdminSid` | 409 | Exported Function
+`InteractiveSid` | 941 | Exported Function
+`InteractiveSid` | 411 | Exported Function
+`AdminSid` | 939 | Exported Function
 `public: __cdecl Loader<class User32DllLoader,1>::~Loader<class User32DllLoader,1>(void) __ptr64` | 950 | Exported Function
-`public: __cdecl Loader<class User32DllLoader,1>::Loader<class User32DllLoader,1>(void) __ptr64` | 419 | Exported Function
+`Loader` | 419 | Exported Function
 `public: __cdecl Loader<class SubscriptionManager,2>::~Loader<class SubscriptionManager,2>(void) __ptr64` | 949 | Exported Function
-`public: __cdecl Loader<class WSMan::EventHandler,1>::Loader<class WSMan::EventHandler,1>(void) __ptr64` | 410 | Exported Function
+`EventHandler` | 410 | Exported Function
 `public: __cdecl Loader<class WSManMemCryptManager,1>::~Loader<class WSManMemCryptManager,1>(void) __ptr64` | 951 | Exported Function
-`public: __cdecl Loader<class WSManMemCryptManager,1>::Loader<class WSManMemCryptManager,1>(void) __ptr64` | 420 | Exported Function
-`public: __cdecl Loader<class WSMan::EventHandler,1>::~Loader<class WSMan::EventHandler,1>(void) __ptr64` | 940 | Exported Function
+`Loader` | 420 | Exported Function
+`EventHandler` | 940 | Exported Function
 `public: __cdecl Loader<class NtDsApiDllLoader,1>::~Loader<class NtDsApiDllLoader,1>(void) __ptr64` | 945 | Exported Function
-`public: __cdecl Loader<class NtDsApiDllLoader,1>::Loader<class NtDsApiDllLoader,1>(void) __ptr64` | 415 | Exported Function
+`Loader` | 415 | Exported Function
 `public: __cdecl Loader<class MachineName,1>::~Loader<class MachineName,1>(void) __ptr64` | 943 | Exported Function
-`public: __cdecl Loader<class Shell32DllLoader,1>::Loader<class Shell32DllLoader,1>(void) __ptr64` | 417 | Exported Function
+`Loader` | 417 | Exported Function
 `public: __cdecl Loader<class ShlWApiDllLoader,1>::~Loader<class ShlWApiDllLoader,1>(void) __ptr64` | 948 | Exported Function
-`public: __cdecl Loader<class ShlWApiDllLoader,1>::Loader<class ShlWApiDllLoader,1>(void) __ptr64` | 418 | Exported Function
+`Loader` | 418 | Exported Function
 `public: __cdecl Loader<class Shell32DllLoader,1>::~Loader<class Shell32DllLoader,1>(void) __ptr64` | 947 | Exported Function
 `public: __cdecl SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >::~SafeMap<class StringKeyCI,struct Empty,class SafeSet_Iterator<class StringKeyCI> >(void) __ptr64` | 979 | Exported Function
 `public: __cdecl SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >::~SafeMap<class PushSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class PushSubscription * __ptr64> >(void) __ptr64` | 972 | Exported Function
-`public: __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 977 | Exported Function
-`public: __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >(void) __ptr64` | 447 | Exported Function
+`Key` | 977 | Exported Function
+`USER_CONTEXT_INFO` | 447 | Exported Function
 `public: __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::~SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >(void) __ptr64` | 978 | Exported Function
-`public: __cdecl SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >::SafeMap<class StringKeyCI,unsigned long,class SafeMap_Iterator<class StringKeyCI,unsigned long> >(void) __ptr64` | 446 | Exported Function
-`public: __cdecl SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >::~SafeMap<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO,class SafeMap_Iterator<class StringKeyCI,struct WSManHttpListener::USER_CONTEXT_INFO> >(void) __ptr64` | 980 | Exported Function
+`SafeMap` | 446 | Exported Function
+`USER_CONTEXT_INFO` | 980 | Exported Function
 `public: __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::~SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >(void) __ptr64` | 967 | Exported Function
-`public: __cdecl SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >::SafeMap<class CShellUriSettings * __ptr64,struct Empty,class SafeSet_Iterator<class CShellUriSettings * __ptr64> >(void) __ptr64` | 440 | Exported Function
+`SafeMap` | 440 | Exported Function
 `public: __cdecl SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >::~SafeMap<class Collector * __ptr64,struct Empty,class SafeSet_Iterator<class Collector * __ptr64> >(void) __ptr64` | 968 | Exported Function
 `public: __cdecl SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >::~SafeMap<class HostOperation * __ptr64,struct Empty,class SafeSet_Iterator<class HostOperation * __ptr64> >(void) __ptr64` | 969 | Exported Function
-`public: __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 445 | Exported Function
+`Key` | 445 | Exported Function
 `public: __cdecl SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::~SafeMap<class ListenerSourceSubscription * __ptr64,struct Empty,class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >(void) __ptr64` | 971 | Exported Function
 `public: __cdecl SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >::~SafeMap<class IOperation * __ptr64,struct Empty,class SafeSet_Iterator<class IOperation * __ptr64> >(void) __ptr64` | 970 | Exported Function
 `public: __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::~SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >(void) __ptr64` | 975 | Exported Function
-`public: __cdecl SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >::SafeMap<struct UserKey,class BlockedRecord * __ptr64,class SafeMap_Iterator<struct UserKey,class BlockedRecord * __ptr64> >(void) __ptr64` | 443 | Exported Function
+`SafeMap` | 443 | Exported Function
 `public: __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::~SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >(void) __ptr64` | 974 | Exported Function
-`public: __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >(void) __ptr64` | 451 | Exported Function
+`SendPacketArgs` | 451 | Exported Function
 `public: __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::~SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >(void) __ptr64` | 973 | Exported Function
-`public: __cdecl SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >::SafeMap<void * __ptr64,struct Empty,class SafeSet_Iterator<void * __ptr64> >(void) __ptr64` | 441 | Exported Function
-`public: __cdecl SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >::~SafeMap<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64,class SafeMap_Iterator<unsigned __int64,class RobustConnectionBuffer::SendPacketArgs * __ptr64> >(void) __ptr64` | 984 | Exported Function
-`public: __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >(void) __ptr64` | 449 | Exported Function
+`SafeMap` | 441 | Exported Function
+`SendPacketArgs` | 984 | Exported Function
+`SafeMap` | 449 | Exported Function
 `public: __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::~SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >(void) __ptr64` | 981 | Exported Function
-`public: __cdecl SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >::SafeMap<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ExpiredOperationIdRecord * __ptr64> >(void) __ptr64` | 448 | Exported Function
+`SafeMap` | 448 | Exported Function
 `public: __cdecl SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >::~SafeMap<class StringKeyStore,class ServerFullDuplexChannel * __ptr64,class SafeMap_Iterator<class StringKeyStore,class ServerFullDuplexChannel * __ptr64> >(void) __ptr64` | 982 | Exported Function
-`public: __cdecl SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >::SafeMap<struct PluginKey,unsigned long,class SafeMap_Iterator<struct PluginKey,unsigned long> >(void) __ptr64` | 442 | Exported Function
-`public: __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::~SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >(void) __ptr64` | 983 | Exported Function
-`public: __cdecl SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::SafeMap<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64,class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >(void) __ptr64` | 450 | Exported Function
+`SafeMap` | 442 | Exported Function
+`OptionValue` | 983 | Exported Function
+`OptionValue` | 450 | Exported Function
 `public: __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::~SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >(void) __ptr64` | 966 | Exported Function
-`public: __cdecl PacketParser::OperationId::OperationId(void) __ptr64` | 571 | Exported Function
-`public: __cdecl PacketParser::NotUnderstandSoapHeader::NotUnderstandSoapHeader(void) __ptr64` | 569 | Exported Function
-`public: __cdecl PacketParser::MessageId::~MessageId(void) __ptr64` | 1105 | Exported Function
-`public: __cdecl PacketParser::OperationId::~OperationId(void) __ptr64` | 1107 | Exported Function
-`public: __cdecl PacketParser::PacketElement<unsigned long>::PacketElement<unsigned long>(void) __ptr64` | 434 | Exported Function
-`public: __cdecl PacketParser::PacketElement<unsigned __int64>::PacketElement<unsigned __int64>(void) __ptr64` | 437 | Exported Function
-`public: __cdecl PacketParser::PacketElement<struct _FWXML_ELEMENT * __ptr64>::PacketElement<struct _FWXML_ELEMENT * __ptr64>(void) __ptr64` | 435 | Exported Function
-`public: __cdecl OwnLock::OwnLock(class FastLock & __ptr64) __ptr64` | 572 | Exported Function
+`OperationId` | 571 | Exported Function
+`NotUnderstandSoapHeader` | 569 | Exported Function
+`MessageId` | 1105 | Exported Function
+`OperationId` | 1107 | Exported Function
+`PacketElement` | 434 | Exported Function
+`PacketElement` | 437 | Exported Function
+`PacketElement` | 435 | Exported Function
+`OwnLock` | 572 | Exported Function
 `public: __cdecl OnHTTPInitialize::~OnHTTPInitialize(void) __ptr64` | 1106 | Exported Function
-`public: __cdecl OnHTTPInitialize::OnHTTPInitialize(void) __ptr64` | 570 | Exported Function
+`OnHTTPInitialize` | 570 | Exported Function
 `public: __cdecl OwnLock::~OwnLock(void) __ptr64` | 1108 | Exported Function
-`public: __cdecl PacketParser::MessageId::MessageId(void) __ptr64` | 568 | Exported Function
-`public: __cdecl PacketParser::Fragment::Fragment(void) __ptr64` | 555 | Exported Function
-`public: __cdecl PacketFormatter::PacketFormatter(void) __ptr64` | 573 | Exported Function
-`public: __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >(void) __ptr64` | 438 | Exported Function
+`MessageId` | 568 | Exported Function
+`Fragment` | 555 | Exported Function
+`PacketFormatter` | 573 | Exported Function
+`SafeMap` | 438 | Exported Function
 `public: __cdecl RBUFFER::~RBUFFER(void) __ptr64` | 1110 | Exported Function
-`public: __cdecl RBUFFER::RBUFFER(unsigned int) __ptr64` | 575 | Exported Function
+`RBUFFER` | 575 | Exported Function
 `public: __cdecl SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >::~SafeMap<class CCertMapping * __ptr64,struct Empty,class SafeSet_Iterator<class CCertMapping * __ptr64> >(void) __ptr64` | 965 | Exported Function
-`public: __cdecl SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >::SafeMap<class CListenerOperation * __ptr64,struct Empty,class SafeSet_Iterator<class CListenerOperation * __ptr64> >(void) __ptr64` | 439 | Exported Function
-`public: __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::~SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >(void) __ptr64` | 976 | Exported Function
-`public: __cdecl SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >::SafeMap<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet,class SafeMap_Iterator<class CertThumbprintKey,class CServiceConfigSettings::CertThumbprintMappedSet> >(void) __ptr64` | 444 | Exported Function
-`public: __cdecl PacketParser::ReferenceParameters::ReferenceParameters(void) __ptr64` | 577 | Exported Function
-`public: __cdecl PacketParser::PacketParser(void) __ptr64` | 574 | Exported Function
-`public: __cdecl PacketParser::PacketElement<unsigned short const * __ptr64>::PacketElement<unsigned short const * __ptr64>(void) __ptr64` | 436 | Exported Function
-`public: __cdecl PacketParser::ReferenceParameters::~ReferenceParameters(void) __ptr64` | 1111 | Exported Function
-`public: __cdecl RBUFFER::RBUFFER(unsigned char * __ptr64,unsigned int) __ptr64` | 576 | Exported Function
+`SafeMap` | 439 | Exported Function
+`CertThumbprintMappedSet` | 976 | Exported Function
+`CertThumbprintMappedSet` | 444 | Exported Function
+`ReferenceParameters` | 577 | Exported Function
+`PacketParser` | 574 | Exported Function
+`PacketElement` | 436 | Exported Function
+`ReferenceParameters` | 1111 | Exported Function
+`RBUFFER` | 576 | Exported Function
 `public: __cdecl PacketParser::~PacketParser(void) __ptr64` | 1109 | Exported Function
-`public: __cdecl PacketParser::SessionId::SessionId(void) __ptr64` | 579 | Exported Function
-`public: __cdecl IWSManGroupPolicyObserver::IWSManGroupPolicyObserver(class IWSManGroupPolicyObserver const & __ptr64) __ptr64` | 561 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemPathKeyList>::AutoRelease<struct IWbemPathKeyList>(struct IWbemPathKeyList * __ptr64) __ptr64` | 331 | Exported Function
+`SessionId` | 579 | Exported Function
+`IWSManGroupPolicyObserver` | 561 | Exported Function
+`AutoRelease` | 331 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemPath>::~AutoRelease<struct IWbemPath>(void) __ptr64` | 868 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemPath>::AutoRelease<struct IWbemPath>(void) __ptr64` | 330 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemPathKeyList>::AutoRelease<struct IWbemPathKeyList>(void) __ptr64` | 332 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemQualifierSet>::AutoRelease<struct IWbemQualifierSet>(void) __ptr64` | 334 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemQualifierSet>::AutoRelease<struct IWbemQualifierSet>(struct IWbemQualifierSet * __ptr64) __ptr64` | 333 | Exported Function
+`AutoRelease` | 330 | Exported Function
+`AutoRelease` | 332 | Exported Function
+`AutoRelease` | 334 | Exported Function
+`AutoRelease` | 333 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemPathKeyList>::~AutoRelease<struct IWbemPathKeyList>(void) __ptr64` | 869 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemLocator>::~AutoRelease<struct IWbemLocator>(void) __ptr64` | 866 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemLocator>::AutoRelease<struct IWbemLocator>(void) __ptr64` | 326 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemLocator>::AutoRelease<struct IWbemLocator>(struct IWbemLocator * __ptr64) __ptr64` | 325 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemObjectTextSrc>::AutoRelease<struct IWbemObjectTextSrc>(struct IWbemObjectTextSrc * __ptr64) __ptr64` | 327 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemPath>::AutoRelease<struct IWbemPath>(struct IWbemPath * __ptr64) __ptr64` | 329 | Exported Function
+`AutoRelease` | 326 | Exported Function
+`AutoRelease` | 325 | Exported Function
+`AutoRelease` | 327 | Exported Function
+`AutoRelease` | 329 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemObjectTextSrc>::~AutoRelease<struct IWbemObjectTextSrc>(void) __ptr64` | 867 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemObjectTextSrc>::AutoRelease<struct IWbemObjectTextSrc>(void) __ptr64` | 328 | Exported Function
-`public: __cdecl AutoReleaseEx<class WSMan::Client::Shell>::AutoReleaseEx<class WSMan::Client::Shell>(class WSMan::Client::Shell * __ptr64) __ptr64` | 395 | Exported Function
+`AutoRelease` | 328 | Exported Function
+`Shell` | 395 | Exported Function
 `public: __cdecl AutoReleaseEx<class HostMappingTableEntry>::~AutoReleaseEx<class HostMappingTableEntry>(void) __ptr64` | 924 | Exported Function
-`public: __cdecl AutoReleaseEx<class HostMappingTableEntry>::AutoReleaseEx<class HostMappingTableEntry>(void) __ptr64` | 394 | Exported Function
-`public: __cdecl AutoReleaseEx<class WSMan::Client::Shell>::~AutoReleaseEx<class WSMan::Client::Shell>(void) __ptr64` | 925 | Exported Function
+`AutoReleaseEx` | 394 | Exported Function
+`Shell` | 925 | Exported Function
 `public: __cdecl AutoSecurityDescriptor::~AutoSecurityDescriptor(void) __ptr64` | 1075 | Exported Function
-`public: __cdecl AutoSecurityDescriptor::AutoSecurityDescriptor(void) __ptr64` | 525 | Exported Function
-`public: __cdecl AutoSecurityDescriptor::AutoSecurityDescriptor(void * __ptr64) __ptr64` | 524 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemQuery>::AutoRelease<struct IWbemQuery>(void) __ptr64` | 336 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemQuery>::AutoRelease<struct IWbemQuery>(struct IWbemQuery * __ptr64) __ptr64` | 335 | Exported Function
+`AutoSecurityDescriptor` | 525 | Exported Function
+`AutoSecurityDescriptor` | 524 | Exported Function
+`AutoRelease` | 336 | Exported Function
+`AutoRelease` | 335 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemQualifierSet>::~AutoRelease<struct IWbemQualifierSet>(void) __ptr64` | 870 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemQuery>::~AutoRelease<struct IWbemQuery>(void) __ptr64` | 871 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemServices>::~AutoRelease<struct IWbemServices>(void) __ptr64` | 872 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemServices>::AutoRelease<struct IWbemServices>(void) __ptr64` | 338 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemServices>::AutoRelease<struct IWbemServices>(struct IWbemServices * __ptr64) __ptr64` | 337 | Exported Function
+`AutoRelease` | 338 | Exported Function
+`AutoRelease` | 337 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemContext>::~AutoRelease<struct IWbemContext>(void) __ptr64` | 865 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostPropertyCollection>::AutoRelease<struct IAppHostPropertyCollection>(void) __ptr64` | 312 | Exported Function
+`AutoRelease` | 312 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostProperty>::~AutoRelease<struct IAppHostProperty>(void) __ptr64` | 858 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostProperty>::AutoRelease<struct IAppHostProperty>(void) __ptr64` | 311 | Exported Function
+`AutoRelease` | 311 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostPropertyCollection>::~AutoRelease<struct IAppHostPropertyCollection>(void) __ptr64` | 859 | Exported Function
 `public: __cdecl AutoRelease<struct IClientSecurity>::~AutoRelease<struct IClientSecurity>(void) __ptr64` | 860 | Exported Function
-`public: __cdecl AutoRelease<struct IClientSecurity>::AutoRelease<struct IClientSecurity>(void) __ptr64` | 314 | Exported Function
-`public: __cdecl AutoRelease<struct IClientSecurity>::AutoRelease<struct IClientSecurity>(struct IClientSecurity * __ptr64) __ptr64` | 313 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostElement>::AutoRelease<struct IAppHostElement>(struct IAppHostElement * __ptr64) __ptr64` | 308 | Exported Function
+`AutoRelease` | 314 | Exported Function
+`AutoRelease` | 313 | Exported Function
+`AutoRelease` | 308 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostConfigException>::~AutoRelease<struct IAppHostConfigException>(void) __ptr64` | 855 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostConfigException>::AutoRelease<struct IAppHostConfigException>(struct IAppHostConfigException * __ptr64) __ptr64` | 307 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostElement>::AutoRelease<struct IAppHostElement>(void) __ptr64` | 309 | Exported Function
+`AutoRelease` | 307 | Exported Function
+`AutoRelease` | 309 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostElementCollection>::~AutoRelease<struct IAppHostElementCollection>(void) __ptr64` | 857 | Exported Function
-`public: __cdecl AutoRelease<struct IAppHostElementCollection>::AutoRelease<struct IAppHostElementCollection>(void) __ptr64` | 310 | Exported Function
+`AutoRelease` | 310 | Exported Function
 `public: __cdecl AutoRelease<struct IAppHostElement>::~AutoRelease<struct IAppHostElement>(void) __ptr64` | 856 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemClassObject>::AutoRelease<struct IWbemClassObject>(struct IWbemClassObject * __ptr64) __ptr64` | 321 | Exported Function
+`AutoRelease` | 321 | Exported Function
 `public: __cdecl AutoRelease<struct IUnknown>::~AutoRelease<struct IUnknown>(void) __ptr64` | 863 | Exported Function
-`public: __cdecl AutoRelease<struct IUnknown>::AutoRelease<struct IUnknown>(void) __ptr64` | 320 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemClassObject>::AutoRelease<struct IWbemClassObject>(void) __ptr64` | 322 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemContext>::AutoRelease<struct IWbemContext>(void) __ptr64` | 324 | Exported Function
-`public: __cdecl AutoRelease<struct IWbemContext>::AutoRelease<struct IWbemContext>(struct IWbemContext * __ptr64) __ptr64` | 323 | Exported Function
+`AutoRelease` | 320 | Exported Function
+`AutoRelease` | 322 | Exported Function
+`AutoRelease` | 324 | Exported Function
+`AutoRelease` | 323 | Exported Function
 `public: __cdecl AutoRelease<struct IWbemClassObject>::~AutoRelease<struct IWbemClassObject>(void) __ptr64` | 864 | Exported Function
 `public: __cdecl AutoRelease<struct IEnumWbemClassObject>::~AutoRelease<struct IEnumWbemClassObject>(void) __ptr64` | 861 | Exported Function
-`public: __cdecl AutoRelease<struct IEnumWbemClassObject>::AutoRelease<struct IEnumWbemClassObject>(void) __ptr64` | 316 | Exported Function
-`public: __cdecl AutoRelease<struct IEnumWbemClassObject>::AutoRelease<struct IEnumWbemClassObject>(struct IEnumWbemClassObject * __ptr64) __ptr64` | 315 | Exported Function
-`public: __cdecl AutoRelease<struct IErrorInfo>::AutoRelease<struct IErrorInfo>(struct IErrorInfo * __ptr64) __ptr64` | 317 | Exported Function
-`public: __cdecl AutoRelease<struct IUnknown>::AutoRelease<struct IUnknown>(struct IUnknown * __ptr64) __ptr64` | 319 | Exported Function
+`AutoRelease` | 316 | Exported Function
+`AutoRelease` | 315 | Exported Function
+`AutoRelease` | 317 | Exported Function
+`AutoRelease` | 319 | Exported Function
 `public: __cdecl AutoRelease<struct IErrorInfo>::~AutoRelease<struct IErrorInfo>(void) __ptr64` | 862 | Exported Function
-`public: __cdecl AutoRelease<struct IErrorInfo>::AutoRelease<struct IErrorInfo>(void) __ptr64` | 318 | Exported Function
+`AutoRelease` | 318 | Exported Function
 `public: __cdecl ILoader<class IpHlpApiDllLoader>::~ILoader<class IpHlpApiDllLoader>(void) __ptr64` | 929 | Exported Function
-`public: __cdecl ILoader<class IpHlpApiDllLoader>::ILoader<class IpHlpApiDllLoader>(bool (__cdecl IpHlpApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl IpHlpApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 399 | Exported Function
-`public: __cdecl ILoader<class CSecurity::NetworkServiceSid>::~ILoader<class CSecurity::NetworkServiceSid>(void) __ptr64` | 931 | Exported Function
-`public: __cdecl ILoader<class Locale::Resources>::ILoader<class Locale::Resources>(bool (__cdecl Locale::Resources::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl Locale::Resources::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 403 | Exported Function
+`ILoader` | 399 | Exported Function
+`NetworkServiceSid` | 931 | Exported Function
+`Resources` | 403 | Exported Function
 `public: __cdecl ILoader<class MachineName>::~ILoader<class MachineName>(void) __ptr64` | 930 | Exported Function
-`public: __cdecl ILoader<class MachineName>::ILoader<class MachineName>(bool (__cdecl MachineName::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl MachineName::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 400 | Exported Function
-`public: __cdecl ILoader<class Locale::Resources>::~ILoader<class Locale::Resources>(void) __ptr64` | 933 | Exported Function
-`public: __cdecl ILoader<class CSecurity::AdminSid>::ILoader<class CSecurity::AdminSid>(bool (__cdecl CSecurity::AdminSid::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl CSecurity::AdminSid::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 396 | Exported Function
-`public: __cdecl ILifeTimeMgmt::ILifeTimeMgmt(void) __ptr64` | 559 | Exported Function
-`public: __cdecl ILifeTimeMgmt::ILifeTimeMgmt(class ILifeTimeMgmt const & __ptr64) __ptr64` | 558 | Exported Function
-`public: __cdecl ILoader<class CSecurity::AdminSid>::~ILoader<class CSecurity::AdminSid>(void) __ptr64` | 926 | Exported Function
-`public: __cdecl ILoader<class CSecurity::NetworkServiceSid>::ILoader<class CSecurity::NetworkServiceSid>(bool (__cdecl CSecurity::NetworkServiceSid::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl CSecurity::NetworkServiceSid::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 401 | Exported Function
-`public: __cdecl ILoader<class CSecurity::InteractiveSid>::~ILoader<class CSecurity::InteractiveSid>(void) __ptr64` | 928 | Exported Function
-`public: __cdecl ILoader<class CSecurity::InteractiveSid>::ILoader<class CSecurity::InteractiveSid>(bool (__cdecl CSecurity::InteractiveSid::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl CSecurity::InteractiveSid::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 398 | Exported Function
+`ILoader` | 400 | Exported Function
+`Resources` | 933 | Exported Function
+`AdminSid` | 396 | Exported Function
+`ILifeTimeMgmt` | 559 | Exported Function
+`ILifeTimeMgmt` | 558 | Exported Function
+`AdminSid` | 926 | Exported Function
+`NetworkServiceSid` | 401 | Exported Function
+`InteractiveSid` | 928 | Exported Function
+`InteractiveSid` | 398 | Exported Function
 `public: __cdecl ILoader<class User32DllLoader>::~ILoader<class User32DllLoader>(void) __ptr64` | 937 | Exported Function
-`public: __cdecl ILoader<class User32DllLoader>::ILoader<class User32DllLoader>(bool (__cdecl User32DllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl User32DllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 407 | Exported Function
+`ILoader` | 407 | Exported Function
 `public: __cdecl ILoader<class SubscriptionManager>::~ILoader<class SubscriptionManager>(void) __ptr64` | 936 | Exported Function
-`public: __cdecl ILoader<class WSMan::EventHandler>::ILoader<class WSMan::EventHandler>(bool (__cdecl WSMan::EventHandler::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl WSMan::EventHandler::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 397 | Exported Function
+`EventHandler` | 397 | Exported Function
 `public: __cdecl ILoader<class WSManMemCryptManager>::~ILoader<class WSManMemCryptManager>(void) __ptr64` | 938 | Exported Function
-`public: __cdecl ILoader<class WSManMemCryptManager>::ILoader<class WSManMemCryptManager>(bool (__cdecl WSManMemCryptManager::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl WSManMemCryptManager::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 408 | Exported Function
-`public: __cdecl ILoader<class WSMan::EventHandler>::~ILoader<class WSMan::EventHandler>(void) __ptr64` | 927 | Exported Function
-`public: __cdecl ILoader<class Shell32DllLoader>::ILoader<class Shell32DllLoader>(bool (__cdecl Shell32DllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl Shell32DllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 404 | Exported Function
+`ILoader` | 408 | Exported Function
+`EventHandler` | 927 | Exported Function
+`ILoader` | 404 | Exported Function
 `public: __cdecl ILoader<class NtDsApiDllLoader>::~ILoader<class NtDsApiDllLoader>(void) __ptr64` | 932 | Exported Function
-`public: __cdecl ILoader<class NtDsApiDllLoader>::ILoader<class NtDsApiDllLoader>(bool (__cdecl NtDsApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl NtDsApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 402 | Exported Function
+`ILoader` | 402 | Exported Function
 `public: __cdecl ILoader<class Shell32DllLoader>::~ILoader<class Shell32DllLoader>(void) __ptr64` | 934 | Exported Function
-`public: __cdecl ILoader<class SubscriptionManager>::ILoader<class SubscriptionManager>(bool (__cdecl SubscriptionManager::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl SubscriptionManager::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 406 | Exported Function
+`ILoader` | 406 | Exported Function
 `public: __cdecl ILoader<class ShlWApiDllLoader>::~ILoader<class ShlWApiDllLoader>(void) __ptr64` | 935 | Exported Function
-`public: __cdecl ILoader<class ShlWApiDllLoader>::ILoader<class ShlWApiDllLoader>(bool (__cdecl ShlWApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64,bool (__cdecl ShlWApiDllLoader::*)(class IRequestContext & __ptr64) __ptr64) __ptr64` | 405 | Exported Function
-`public: __cdecl IConfigChangeObserver::IConfigChangeObserver(void) __ptr64` | 557 | Exported Function
-`public: __cdecl CircularBufferFormatter::CircularBufferFormatter(void) __ptr64` | 549 | Exported Function
+`ILoader` | 405 | Exported Function
+`IConfigChangeObserver` | 557 | Exported Function
+`CircularBufferFormatter` | 549 | Exported Function
 `public: __cdecl ChildLifeTimeManager::~ChildLifeTimeManager(void) __ptr64` | 1095 | Exported Function
-`public: __cdecl ChildLifeTimeManager::ChildLifeTimeManager(void) __ptr64` | 548 | Exported Function
-`public: __cdecl CRequestContext::CRequestContext(unsigned short const * __ptr64) __ptr64` | 534 | Exported Function
+`ChildLifeTimeManager` | 548 | Exported Function
+`CRequestContext` | 534 | Exported Function
 `public: __cdecl CResourceAlias::~CResourceAlias(void) __ptr64` | 1084 | Exported Function
-`public: __cdecl CResourceAlias::CResourceAlias(unsigned short const * __ptr64) __ptr64` | 536 | Exported Function
-`public: __cdecl CRequestContext::CRequestContext(void) __ptr64` | 535 | Exported Function
+`CResourceAlias` | 536 | Exported Function
+`CRequestContext` | 535 | Exported Function
 `public: __cdecl AutoWaitHandle::~AutoWaitHandle(void) __ptr64` | 1076 | Exported Function
-`public: __cdecl AutoWaitHandle::AutoWaitHandle(void) __ptr64` | 527 | Exported Function
-`public: __cdecl AutoWaitHandle::AutoWaitHandle(void * __ptr64) __ptr64` | 526 | Exported Function
-`public: __cdecl BufferFormatter::BufferFormatter(unsigned char * __ptr64,unsigned long) __ptr64` | 528 | Exported Function
-`public: __cdecl ChildLifeTimeManager::ChildLifeTimeManager(class ChildLifeTimeManager const & __ptr64) __ptr64` | 547 | Exported Function
-`public: __cdecl CErrorContext::CErrorContext(bool) __ptr64` | 533 | Exported Function
-`public: __cdecl BufferFormatter::BufferFormatter(void) __ptr64` | 529 | Exported Function
+`AutoWaitHandle` | 527 | Exported Function
+`AutoWaitHandle` | 526 | Exported Function
+`BufferFormatter` | 528 | Exported Function
+`ChildLifeTimeManager` | 547 | Exported Function
+`CErrorContext` | 533 | Exported Function
+`BufferFormatter` | 529 | Exported Function
 `public: __cdecl CWSManSecurityUI::~CWSManSecurityUI(void) __ptr64` | 1093 | Exported Function
-`public: __cdecl CWSManSecurityUI::CWSManSecurityUI(void) __ptr64` | 545 | Exported Function
-`public: __cdecl CWSManResourceNoResourceUri::CWSManResourceNoResourceUri(int) __ptr64` | 544 | Exported Function
-`public: __cdecl EtwCorrelationHelper::EtwCorrelationHelper(class EtwCorrelationHelper const & __ptr64) __ptr64` | 551 | Exported Function
-`public: __cdecl IConfigChangeObserver::IConfigChangeObserver(class IConfigChangeObserver const & __ptr64) __ptr64` | 556 | Exported Function
-`public: __cdecl FastLock::FastLock(void) __ptr64` | 554 | Exported Function
-`public: __cdecl ExtendedSemantic::ExtendedSemantic(unsigned long) __ptr64` | 553 | Exported Function
+`CWSManSecurityUI` | 545 | Exported Function
+`CWSManResourceNoResourceUri` | 544 | Exported Function
+`EtwCorrelationHelper` | 551 | Exported Function
+`IConfigChangeObserver` | 556 | Exported Function
+`FastLock` | 554 | Exported Function
+`ExtendedSemantic` | 553 | Exported Function
 `public: __cdecl CWSManCriticalSection::~CWSManCriticalSection(void) __ptr64` | 1087 | Exported Function
-`public: __cdecl CWSManCriticalSection::CWSManCriticalSection(void) __ptr64` | 539 | Exported Function
-`public: __cdecl CServiceConfigCache::CServiceWatcher::~CServiceWatcher(void) __ptr64` | 1086 | Exported Function
-`public: __cdecl CWSManCriticalSectionWithConditionVar::CWSManCriticalSectionWithConditionVar(void) __ptr64` | 540 | Exported Function
-`public: __cdecl CWSManResource::CWSManResource(int) __ptr64` | 543 | Exported Function
-`public: __cdecl CWSManEPR::CWSManEPR(int) __ptr64` | 541 | Exported Function
+`CWSManCriticalSection` | 539 | Exported Function
+`CServiceWatcher` | 1086 | Exported Function
+`CWSManCriticalSectionWithConditionVar` | 540 | Exported Function
+`CWSManResource` | 543 | Exported Function
+`CWSManEPR` | 541 | Exported Function
 `public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 1088 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::~AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>(void) __ptr64` | 709 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::operator class CRequestContext * __ptr64(void) __ptr64` | 1549 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>::AutoCleanup<class AutoRelease<class CRequestContext>,class CRequestContext * __ptr64>(class CRequestContext * __ptr64) __ptr64` | 130 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>(class CServiceCommonConfigSettings * __ptr64) __ptr64` | 131 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>(class CServiceConfigCache * __ptr64) __ptr64` | 132 | Exported Function
+`operator` | 1549 | Exported Function
+`AutoCleanup` | 130 | Exported Function
+`AutoCleanup` | 131 | Exported Function
+`AutoCleanup` | 132 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::~AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>(void) __ptr64` | 710 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CServiceCommonConfigSettings>,class CServiceCommonConfigSettings * __ptr64>::operator class CServiceCommonConfigSettings * __ptr64(void) __ptr64` | 1550 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>::AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>(class CRemoteOperation * __ptr64) __ptr64` | 128 | Exported Function
+`operator` | 1550 | Exported Function
+`AutoCleanup` | 128 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>::~AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>(void) __ptr64` | 722 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>::operator class ConfigNotification * __ptr64(void) __ptr64` | 1564 | Exported Function
+`operator` | 1564 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>::~AutoCleanup<class AutoRelease<class CRemoteOperation>,class CRemoteOperation * __ptr64>(void) __ptr64` | 707 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::~AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>(void) __ptr64` | 708 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::operator class CRemoteSession * __ptr64(void) __ptr64` | 1548 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>::AutoCleanup<class AutoRelease<class CRemoteSession>,class CRemoteSession * __ptr64>(class CRemoteSession * __ptr64) __ptr64` | 129 | Exported Function
+`operator` | 1548 | Exported Function
+`AutoCleanup` | 129 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::~AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>(void) __ptr64` | 719 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::operator class CWinRSPluginConfigCache * __ptr64(void) __ptr64` | 1560 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::operator class CWinRSPluginConfigCache * __ptr64 const(void)const __ptr64` | 1561 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>(class CWinRSPluginConfigSettings * __ptr64) __ptr64` | 142 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>(class CWSManEPR * __ptr64) __ptr64` | 134 | Exported Function
+`operator` | 1560 | Exported Function
+`operator` | 1561 | Exported Function
+`AutoCleanup` | 142 | Exported Function
+`AutoCleanup` | 134 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::~AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>(void) __ptr64` | 720 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigSettings>,class CWinRSPluginConfigSettings * __ptr64>::operator class CWinRSPluginConfigSettings * __ptr64(void) __ptr64` | 1562 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>(class CServiceConfigSettings * __ptr64) __ptr64` | 133 | Exported Function
+`operator` | 1562 | Exported Function
+`AutoCleanup` | 133 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::~AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>(void) __ptr64` | 711 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CServiceConfigCache>,class CServiceConfigCache * __ptr64>::operator class CServiceConfigCache * __ptr64(void) __ptr64` | 1551 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::operator class CServiceConfigSettings * __ptr64(void) __ptr64` | 1552 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>(void) __ptr64` | 141 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>::AutoCleanup<class AutoRelease<class CWinRSPluginConfigCache>,class CWinRSPluginConfigCache * __ptr64>(class CWinRSPluginConfigCache * __ptr64) __ptr64` | 140 | Exported Function
+`operator` | 1551 | Exported Function
+`operator` | 1552 | Exported Function
+`AutoCleanup` | 141 | Exported Function
+`AutoCleanup` | 140 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>::~AutoCleanup<class AutoRelease<class CServiceConfigSettings>,class CServiceConfigSettings * __ptr64>(void) __ptr64` | 712 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>::AutoCleanup<class AutoRelease<class ConfigNotification>,class ConfigNotification * __ptr64>(class ConfigNotification * __ptr64) __ptr64` | 144 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::operator class CBaseConfigCache::CConfigCacheMap * __ptr64(void) __ptr64` | 1546 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>(class CBaseConfigCache::CConfigCacheMap * __ptr64) __ptr64` | 126 | Exported Function
+`AutoCleanup` | 144 | Exported Function
+`CConfigCacheMap` | 1546 | Exported Function
+`CConfigCacheMap` | 126 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::~AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>(void) __ptr64` | 762 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>::~AutoCleanup<class AutoRelease<class CBaseConfigCache::CConfigCacheMap>,class CBaseConfigCache::CConfigCacheMap * __ptr64>(void) __ptr64` | 701 | Exported Function
+`CConfigCacheMap` | 701 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::~AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>(void) __ptr64` | 697 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::operator class CBaseConfigCache * __ptr64(void) __ptr64` | 1543 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>::AutoCleanup<class AutoRelease<class CBaseConfigCache>,class CBaseConfigCache * __ptr64>(class CBaseConfigCache * __ptr64) __ptr64` | 123 | Exported Function
-`public: __cdecl AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>::AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>(void) __ptr64` | 194 | Exported Function
-`public: __cdecl AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>::AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>(struct WSMAN_OBJECT * __ptr64) __ptr64` | 193 | Exported Function
+`operator` | 1543 | Exported Function
+`AutoCleanup` | 123 | Exported Function
+`AutoCleanup` | 194 | Exported Function
+`AutoCleanup` | 193 | Exported Function
 `public: __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::~AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>(void) __ptr64` | 760 | Exported Function
 `public: __cdecl AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>::~AutoCleanup<class AutoObject,struct WSMAN_OBJECT * __ptr64>(void) __ptr64` | 761 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::operator struct HKEY__ * __ptr64(void) __ptr64` | 1600 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>(void) __ptr64` | 196 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>::AutoCleanup<class AutoRegKey,struct HKEY__ * __ptr64>(struct HKEY__ * __ptr64) __ptr64` | 195 | Exported Function
+`operator` | 1600 | Exported Function
+`AutoCleanup` | 196 | Exported Function
+`AutoCleanup` | 195 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::~AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>(void) __ptr64` | 702 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::operator class CConfigManager * __ptr64(void) __ptr64` | 1547 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>::AutoCleanup<class AutoRelease<class CConfigManager>,class CConfigManager * __ptr64>(class CConfigManager * __ptr64) __ptr64` | 127 | Exported Function
+`operator` | 1547 | Exported Function
+`AutoCleanup` | 127 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CListenerCommand>,class CListenerCommand * __ptr64>::~AutoCleanup<class AutoRelease<class CListenerCommand>,class CListenerCommand * __ptr64>(void) __ptr64` | 703 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CListenerShell>,class CListenerShell * __ptr64>::~AutoCleanup<class AutoRelease<class CListenerShell>,class CListenerShell * __ptr64>(void) __ptr64` | 706 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CListenerReceive>,class CListenerReceive * __ptr64>::~AutoCleanup<class AutoRelease<class CListenerReceive>,class CListenerReceive * __ptr64>(void) __ptr64` | 705 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CListenerMasterOperation>,class CListenerMasterOperation * __ptr64>::~AutoCleanup<class AutoRelease<class CListenerMasterOperation>,class CListenerMasterOperation * __ptr64>(void) __ptr64` | 704 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::operator class CClientConfigSettings * __ptr64(void) __ptr64` | 1544 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>(class CClientConfigSettings * __ptr64) __ptr64` | 124 | Exported Function
+`operator` | 1544 | Exported Function
+`AutoCleanup` | 124 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CClientConfigCache>,class CClientConfigCache * __ptr64>::~AutoCleanup<class AutoRelease<class CClientConfigCache>,class CClientConfigCache * __ptr64>(void) __ptr64` | 698 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>::~AutoCleanup<class AutoRelease<class CClientConfigSettings>,class CClientConfigSettings * __ptr64>(void) __ptr64` | 699 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::~AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>(void) __ptr64` | 700 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::operator class CCommonConfigSettings * __ptr64(void) __ptr64` | 1545 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>::AutoCleanup<class AutoRelease<class CCommonConfigSettings>,class CCommonConfigSettings * __ptr64>(class CCommonConfigSettings * __ptr64) __ptr64` | 125 | Exported Function
+`operator` | 1545 | Exported Function
+`AutoCleanup` | 125 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::~AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>(void) __ptr64` | 731 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::operator class IPCSoapProcessor * __ptr64(void) __ptr64` | 1574 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>::AutoCleanup<class AutoRelease<class IPCSoapProcessor>,class IPCSoapProcessor * __ptr64>(class IPCSoapProcessor * __ptr64) __ptr64` | 154 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>(class IRequestContext * __ptr64) __ptr64` | 155 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::operator class IRequestContext * __ptr64(void) __ptr64` | 1575 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::operator class IRequestContext * __ptr64 const(void)const __ptr64` | 1576 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>(void) __ptr64` | 156 | Exported Function
+`operator` | 1574 | Exported Function
+`AutoCleanup` | 154 | Exported Function
+`AutoCleanup` | 155 | Exported Function
+`operator` | 1575 | Exported Function
+`operator` | 1576 | Exported Function
+`AutoCleanup` | 156 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>::~AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>(void) __ptr64` | 730 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>::operator class IISConfigSettings * __ptr64(void) __ptr64` | 1573 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>::AutoCleanup<class AutoRelease<class IISConfigSettings>,class IISConfigSettings * __ptr64>(class IISConfigSettings * __ptr64) __ptr64` | 153 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>(class InboundRequestDetails * __ptr64) __ptr64` | 158 | Exported Function
+`operator` | 1573 | Exported Function
+`AutoCleanup` | 153 | Exported Function
+`AutoCleanup` | 158 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::~AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>(void) __ptr64` | 734 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::operator class InboundRequestDetails * __ptr64(void) __ptr64` | 1578 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class InboundRequestDetails>,class InboundRequestDetails * __ptr64>::operator class InboundRequestDetails * __ptr64 const(void)const __ptr64` | 1579 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::operator class UserRecord * __ptr64 const(void)const __ptr64` | 1587 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>(class UserRecord * __ptr64) __ptr64` | 165 | Exported Function
+`operator` | 1578 | Exported Function
+`operator` | 1579 | Exported Function
+`operator` | 1587 | Exported Function
+`AutoCleanup` | 165 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class ShellInfo>,class ShellInfo * __ptr64>::~AutoCleanup<class AutoRelease<class ShellInfo>,class ShellInfo * __ptr64>(void) __ptr64` | 743 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::operator class UserRecord * __ptr64(void) __ptr64` | 1586 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>(void) __ptr64` | 696 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::Application>,class WSMan::Client::Application * __ptr64>(class WSMan::Client::Application * __ptr64) __ptr64` | 122 | Exported Function
+`operator` | 1586 | Exported Function
+`Application` | 696 | Exported Function
+`Application` | 122 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>::~AutoCleanup<class AutoRelease<class UserRecord>,class UserRecord * __ptr64>(void) __ptr64` | 745 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>::operator class ISubscription * __ptr64(void) __ptr64` | 1577 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>::AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>(class ISubscription * __ptr64) __ptr64` | 157 | Exported Function
+`operator` | 1577 | Exported Function
+`AutoCleanup` | 157 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>::~AutoCleanup<class AutoRelease<class IRequestContext>,class IRequestContext * __ptr64>(void) __ptr64` | 732 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>::~AutoCleanup<class AutoRelease<class ISubscription>,class ISubscription * __ptr64>(void) __ptr64` | 733 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class ShellInfo>,class ShellInfo * __ptr64>::AutoCleanup<class AutoRelease<class ShellInfo>,class ShellInfo * __ptr64>(class ShellInfo * __ptr64) __ptr64` | 163 | Exported Function
+`AutoCleanup` | 163 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class PushSubscription>,class PushSubscription * __ptr64>::~AutoCleanup<class AutoRelease<class PushSubscription>,class PushSubscription * __ptr64>(void) __ptr64` | 738 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class PushSubscribeOperation>,class PushSubscribeOperation * __ptr64>::~AutoCleanup<class AutoRelease<class PushSubscribeOperation>,class PushSubscribeOperation * __ptr64>(void) __ptr64` | 737 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class HostMappingTable>,class HostMappingTable * __ptr64>::~AutoCleanup<class AutoRelease<class HostMappingTable>,class HostMappingTable * __ptr64>(void) __ptr64` | 729 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::~AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>(void) __ptr64` | 715 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::operator class CWSManGroupPolicyManager * __ptr64(void) __ptr64` | 1556 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>::AutoCleanup<class AutoRelease<class CWSManGroupPolicyManager>,class CWSManGroupPolicyManager * __ptr64>(class CWSManGroupPolicyManager * __ptr64) __ptr64` | 137 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>(class CWSManObject * __ptr64) __ptr64` | 138 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>(class CWSManResource * __ptr64) __ptr64` | 139 | Exported Function
+`operator` | 1556 | Exported Function
+`AutoCleanup` | 137 | Exported Function
+`AutoCleanup` | 138 | Exported Function
+`AutoCleanup` | 139 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::~AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>(void) __ptr64` | 716 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManObject>,class CWSManObject * __ptr64>::operator class CWSManObject * __ptr64(void) __ptr64` | 1557 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::operator class CWSManEPR * __ptr64(void) __ptr64` | 1553 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::operator class CWSManEPR * __ptr64 const(void)const __ptr64` | 1554 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>(void) __ptr64` | 135 | Exported Function
+`operator` | 1557 | Exported Function
+`operator` | 1553 | Exported Function
+`operator` | 1554 | Exported Function
+`AutoCleanup` | 135 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>::~AutoCleanup<class AutoRelease<class CWSManEPR>,class CWSManEPR * __ptr64>(void) __ptr64` | 713 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::~AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>(void) __ptr64` | 714 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::operator class CWSManGroupPolicyCache * __ptr64(void) __ptr64` | 1555 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>::AutoCleanup<class AutoRelease<class CWSManGroupPolicyCache>,class CWSManGroupPolicyCache * __ptr64>(class CWSManGroupPolicyCache * __ptr64) __ptr64` | 136 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>(class GeneralSinkEx * __ptr64) __ptr64` | 151 | Exported Function
+`operator` | 1555 | Exported Function
+`AutoCleanup` | 136 | Exported Function
+`AutoCleanup` | 151 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::~AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>(void) __ptr64` | 727 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator class EnumSinkEx * __ptr64(void) __ptr64` | 1569 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>(void) __ptr64` | 152 | Exported Function
+`operator` | 1569 | Exported Function
+`AutoCleanup` | 152 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::~AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>(void) __ptr64` | 728 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator class GeneralSinkEx * __ptr64(void) __ptr64` | 1571 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class GeneralSinkEx>,class GeneralSinkEx * __ptr64>::operator class GeneralSinkEx * __ptr64 const(void)const __ptr64` | 1572 | Exported Function
+`operator` | 1571 | Exported Function
+`operator` | 1572 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::~AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>(void) __ptr64` | 717 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::operator class CWSManResource * __ptr64(void) __ptr64` | 1558 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class CWSManResource>,class CWSManResource * __ptr64>::operator class CWSManResource * __ptr64 const(void)const __ptr64` | 1559 | Exported Function
+`operator` | 1558 | Exported Function
+`operator` | 1559 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class CWSManSession>,class CWSManSession * __ptr64>::~AutoCleanup<class AutoRelease<class CWSManSession>,class CWSManSession * __ptr64>(void) __ptr64` | 718 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::operator class EnumSinkEx * __ptr64 const(void)const __ptr64` | 1570 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>(void) __ptr64` | 150 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>::AutoCleanup<class AutoRelease<class EnumSinkEx>,class EnumSinkEx * __ptr64>(class EnumSinkEx * __ptr64) __ptr64` | 149 | Exported Function
-`public: __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::operator struct _MI_Instance * __ptr64(void) __ptr64` | 1599 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>::AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>(struct _CONFIG_UPDATE * __ptr64) __ptr64` | 80 | Exported Function
+`operator` | 1570 | Exported Function
+`AutoCleanup` | 150 | Exported Function
+`AutoCleanup` | 149 | Exported Function
+`operator` | 1599 | Exported Function
+`AutoCleanup` | 80 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>::~AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>(void) __ptr64` | 666 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>::operator int * __ptr64(void) __ptr64` | 1499 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>::operator struct _CONFIG_UPDATE * __ptr64(void) __ptr64` | 1504 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>(void) __ptr64` | 82 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>(struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64) __ptr64` | 81 | Exported Function
+`operator` | 1499 | Exported Function
+`operator` | 1504 | Exported Function
+`AutoCleanup` | 82 | Exported Function
+`AutoCleanup` | 81 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>::~AutoCleanup<class AutoDeleteVector<struct _CONFIG_UPDATE>,struct _CONFIG_UPDATE * __ptr64>(void) __ptr64` | 669 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::~AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>(void) __ptr64` | 589 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::operator unsigned short * __ptr64(void) __ptr64` | 1429 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::operator unsigned short * __ptr64 const(void)const __ptr64` | 1430 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>(char * __ptr64) __ptr64` | 70 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>::AutoCleanup<class AutoDeleteVector<int>,int * __ptr64>(int * __ptr64) __ptr64` | 75 | Exported Function
+`operator` | 1429 | Exported Function
+`operator` | 1430 | Exported Function
+`AutoCleanup` | 70 | Exported Function
+`AutoCleanup` | 75 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::~AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>(void) __ptr64` | 663 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<char>,char * __ptr64>::operator char * __ptr64(void) __ptr64` | 1494 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::operator struct _WSMAN_OPTION * __ptr64(void) __ptr64` | 1509 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>(struct _WSMAN_OPTION * __ptr64) __ptr64` | 85 | Exported Function
+`operator` | 1494 | Exported Function
+`operator` | 1509 | Exported Function
+`AutoCleanup` | 85 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::~AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>(void) __ptr64` | 671 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>::~AutoCleanup<class AutoDeleteVector<struct _WSMAN_OPTION>,struct _WSMAN_OPTION * __ptr64>(void) __ptr64` | 672 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::operator unsigned char * __ptr64 const(void)const __ptr64` | 1496 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>(void) __ptr64` | 72 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>(unsigned char * __ptr64) __ptr64` | 71 | Exported Function
+`operator` | 1496 | Exported Function
+`AutoCleanup` | 72 | Exported Function
+`AutoCleanup` | 71 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::~AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>(void) __ptr64` | 670 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::operator struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64(void) __ptr64` | 1505 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE>,struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64>::operator struct _WINRS_CREATE_SHELL_ENVIRONMENT_VARIABLE * __ptr64 const(void)const __ptr64` | 1506 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>(struct _WINRS_RUN_COMMAND_ARG * __ptr64) __ptr64` | 83 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::operator struct _WINRS_RUN_COMMAND_ARG * __ptr64(void) __ptr64` | 1507 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::operator struct _WINRS_RUN_COMMAND_ARG * __ptr64 const(void)const __ptr64` | 1508 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>::AutoCleanup<class AutoDeleteVector<struct _WINRS_RUN_COMMAND_ARG>,struct _WINRS_RUN_COMMAND_ARG * __ptr64>(void) __ptr64` | 84 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>::AutoCleanup<class AutoDelete<unsigned short>,unsigned short * __ptr64>(unsigned short * __ptr64) __ptr64` | 2 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>::~AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>(void) __ptr64` | 630 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>::operator class WSMan::EventHandler * __ptr64(void) __ptr64` | 1460 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>::AutoCleanup<class AutoDelete<class WSMan::EventHandler>,class WSMan::EventHandler * __ptr64>(class WSMan::EventHandler * __ptr64) __ptr64` | 33 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>(class WSMANCONFIGTABLE_IDENTITY * __ptr64) __ptr64` | 64 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>::AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>(class WSManMemCryptManager * __ptr64) __ptr64` | 65 | Exported Function
+`operator` | 1505 | Exported Function
+`operator` | 1506 | Exported Function
+`AutoCleanup` | 83 | Exported Function
+`operator` | 1507 | Exported Function
+`operator` | 1508 | Exported Function
+`AutoCleanup` | 84 | Exported Function
+`AutoCleanup` | 2 | Exported Function
+`EventHandler` | 630 | Exported Function
+`EventHandler` | 1460 | Exported Function
+`EventHandler` | 33 | Exported Function
+`AutoCleanup` | 64 | Exported Function
+`AutoCleanup` | 65 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::~AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>(void) __ptr64` | 658 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMANCONFIGTABLE_IDENTITY>,class WSMANCONFIGTABLE_IDENTITY * __ptr64>::operator class WSMANCONFIGTABLE_IDENTITY * __ptr64(void) __ptr64` | 1488 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::operator class WmiEnumContext * __ptr64(void) __ptr64` | 1490 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::operator class WmiEnumContext * __ptr64 const(void)const __ptr64` | 1491 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>(void) __ptr64` | 67 | Exported Function
+`operator` | 1488 | Exported Function
+`operator` | 1490 | Exported Function
+`operator` | 1491 | Exported Function
+`AutoCleanup` | 67 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>::~AutoCleanup<class AutoDelete<class WmiEnumContext>,class WmiEnumContext * __ptr64>(void) __ptr64` | 660 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::~AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>(void) __ptr64` | 643 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::operator class WSMan::Client::SessionOptions::OptionValue * __ptr64(void) __ptr64` | 1475 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>::AutoCleanup<class AutoDelete<class WSMan::Client::SessionOptions::OptionValue>,class WSMan::Client::SessionOptions::OptionValue * __ptr64>(class WSMan::Client::SessionOptions::OptionValue * __ptr64) __ptr64` | 48 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::operator struct _WSMAN_STREAM_ID_SET * __ptr64(void) __ptr64` | 1433 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>(struct _WSMAN_STREAM_ID_SET * __ptr64) __ptr64` | 5 | Exported Function
+`OptionValue` | 643 | Exported Function
+`OptionValue` | 1475 | Exported Function
+`OptionValue` | 48 | Exported Function
+`operator` | 1433 | Exported Function
+`AutoCleanup` | 5 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>::~AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>(void) __ptr64` | 591 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>::~AutoCleanup<class AutoDelete<struct _WSMAN_STREAM_ID_SET>,struct _WSMAN_STREAM_ID_SET * __ptr64>(void) __ptr64` | 592 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::~AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>(void) __ptr64` | 590 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::operator struct CWSManIPFilter::IPRange * __ptr64(void) __ptr64` | 1431 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>::AutoCleanup<class AutoDelete<struct CWSManIPFilter::IPRange>,struct CWSManIPFilter::IPRange * __ptr64>(struct CWSManIPFilter::IPRange * __ptr64) __ptr64` | 3 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>(class XmlReader * __ptr64) __ptr64` | 68 | Exported Function
+`IPRange` | 590 | Exported Function
+`IPRange` | 1431 | Exported Function
+`IPRange` | 3 | Exported Function
+`AutoCleanup` | 68 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>::~AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>(void) __ptr64` | 659 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class WSManMemCryptManager>,class WSManMemCryptManager * __ptr64>::operator class WSManMemCryptManager * __ptr64(void) __ptr64` | 1489 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::operator class XmlReader * __ptr64(void) __ptr64` | 1492 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>::operator struct _SID * __ptr64(void) __ptr64` | 1432 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>::AutoCleanup<class AutoDelete<struct _SID>,struct _SID * __ptr64>(struct _SID * __ptr64) __ptr64` | 4 | Exported Function
+`operator` | 1489 | Exported Function
+`operator` | 1492 | Exported Function
+`operator` | 1432 | Exported Function
+`AutoCleanup` | 4 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>::~AutoCleanup<class AutoDelete<class XmlReader>,class XmlReader * __ptr64>(void) __ptr64` | 661 | Exported Function
-`public: __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::operator void * __ptr64(void) __ptr64` | 1594 | Exported Function
-`public: __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::operator void * __ptr64 const(void)const __ptr64` | 1595 | Exported Function
-`public: __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::AutoCleanup<class AutoImpersonateUser,void * __ptr64>(void) __ptr64` | 184 | Exported Function
+`operator` | 1594 | Exported Function
+`operator` | 1595 | Exported Function
+`AutoCleanup` | 184 | Exported Function
 `public: __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::~AutoCleanup<class AutoImpersonateUser,void * __ptr64>(void) __ptr64` | 756 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::operator struct HINSTANCE__ * __ptr64(void) __ptr64` | 1596 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>(void) __ptr64` | 186 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>(struct HINSTANCE__ * __ptr64) __ptr64` | 185 | Exported Function
-`public: __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::AutoCleanup<class AutoHandle,void * __ptr64>(void) __ptr64` | 182 | Exported Function
-`public: __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::AutoCleanup<class AutoHandle,void * __ptr64>(void * __ptr64) __ptr64` | 181 | Exported Function
+`operator` | 1596 | Exported Function
+`AutoCleanup` | 186 | Exported Function
+`AutoCleanup` | 185 | Exported Function
+`AutoCleanup` | 182 | Exported Function
+`AutoCleanup` | 181 | Exported Function
 `public: __cdecl AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>::~AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>(void) __ptr64` | 754 | Exported Function
-`public: __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::operator void * __ptr64 const(void)const __ptr64` | 1593 | Exported Function
-`public: __cdecl AutoCleanup<class AutoImpersonateUser,void * __ptr64>::AutoCleanup<class AutoImpersonateUser,void * __ptr64>(void * __ptr64) __ptr64` | 183 | Exported Function
+`operator` | 1593 | Exported Function
+`AutoCleanup` | 183 | Exported Function
 `public: __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::~AutoCleanup<class AutoHandle,void * __ptr64>(void) __ptr64` | 755 | Exported Function
-`public: __cdecl AutoCleanup<class AutoHandle,void * __ptr64>::operator void * __ptr64(void) __ptr64` | 1592 | Exported Function
-`public: __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>(void) __ptr64` | 190 | Exported Function
-`public: __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>(struct _MI_Class * __ptr64) __ptr64` | 189 | Exported Function
+`operator` | 1592 | Exported Function
+`AutoCleanup` | 190 | Exported Function
+`AutoCleanup` | 189 | Exported Function
 `public: __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::~AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>(void) __ptr64` | 675 | Exported Function
-`public: __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::operator struct _MI_Class * __ptr64(void) __ptr64` | 1598 | Exported Function
-`public: __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>(void) __ptr64` | 192 | Exported Function
-`public: __cdecl AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>::AutoCleanup<class AutoMIInstance,struct _MI_Instance * __ptr64>(struct _MI_Instance * __ptr64) __ptr64` | 191 | Exported Function
+`operator` | 1598 | Exported Function
+`AutoCleanup` | 192 | Exported Function
+`AutoCleanup` | 191 | Exported Function
 `public: __cdecl AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>::~AutoCleanup<class AutoMIClass,struct _MI_Class * __ptr64>(void) __ptr64` | 759 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::AutoCleanup<class AutoLocalFree,void * __ptr64>(void) __ptr64` | 188 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::AutoCleanup<class AutoLocalFree,void * __ptr64>(void * __ptr64) __ptr64` | 187 | Exported Function
+`AutoCleanup` | 188 | Exported Function
+`AutoCleanup` | 187 | Exported Function
 `public: __cdecl AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>::~AutoCleanup<class AutoLibrary,struct HINSTANCE__ * __ptr64>(void) __ptr64` | 757 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::operator void * __ptr64(void) __ptr64` | 1597 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::operator class Packet * __ptr64(void) __ptr64` | 1513 | Exported Function
-`public: __cdecl AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>::AutoCleanup<class AutoLocklessItemRecycle<class Packet>,class Packet * __ptr64>(class Packet * __ptr64) __ptr64` | 88 | Exported Function
+`operator` | 1597 | Exported Function
+`operator` | 1513 | Exported Function
+`AutoCleanup` | 88 | Exported Function
 `public: __cdecl AutoCleanup<class AutoLocalFree,void * __ptr64>::~AutoCleanup<class AutoLocalFree,void * __ptr64>(void) __ptr64` | 758 | Exported Function
-`public: __cdecl AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>::AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>(void) __ptr64` | 180 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::operator unsigned short const * __ptr64 * __ptr64 const(void)const __ptr64` | 1503 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>(void) __ptr64` | 79 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>(unsigned short const * __ptr64 * __ptr64) __ptr64` | 78 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::operator unsigned short const * __ptr64 * __ptr64(void) __ptr64` | 1502 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::operator unsigned short const * __ptr64(void) __ptr64` | 1493 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>(unsigned short const * __ptr64) __ptr64` | 69 | Exported Function
+`AutoCleanup` | 180 | Exported Function
+`operator` | 1503 | Exported Function
+`AutoCleanup` | 79 | Exported Function
+`AutoCleanup` | 78 | Exported Function
+`operator` | 1502 | Exported Function
+`operator` | 1493 | Exported Function
+`AutoCleanup` | 69 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>::~AutoCleanup<class AutoDeleteVector<unsigned short const * __ptr64>,unsigned short const * __ptr64 * __ptr64>(void) __ptr64` | 668 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>(unsigned short * __ptr64 * __ptr64) __ptr64` | 76 | Exported Function
+`AutoCleanup` | 76 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::~AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>(void) __ptr64` | 664 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned char>,unsigned char * __ptr64>::operator unsigned char * __ptr64(void) __ptr64` | 1495 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>(void) __ptr64` | 77 | Exported Function
+`operator` | 1495 | Exported Function
+`AutoCleanup` | 77 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::~AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>(void) __ptr64` | 667 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::operator unsigned short * __ptr64 * __ptr64(void) __ptr64` | 1500 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short * __ptr64>,unsigned short * __ptr64 * __ptr64>::operator unsigned short * __ptr64 * __ptr64 const(void)const __ptr64` | 1501 | Exported Function
-`public: __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>(unsigned char * __ptr64) __ptr64` | 87 | Exported Function
+`operator` | 1500 | Exported Function
+`operator` | 1501 | Exported Function
+`AutoCleanup` | 87 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::~AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>(void) __ptr64` | 673 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::operator void * __ptr64(void) __ptr64` | 1510 | Exported Function
-`public: __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::operator unsigned char * __ptr64 const(void)const __ptr64` | 1512 | Exported Function
-`public: __cdecl AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>::AutoCleanup<class AutoFwXmlCloseParser,void * __ptr64>(void * __ptr64) __ptr64` | 179 | Exported Function
+`operator` | 1510 | Exported Function
+`operator` | 1512 | Exported Function
+`AutoCleanup` | 179 | Exported Function
 `public: __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::~AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>(void) __ptr64` | 674 | Exported Function
-`public: __cdecl AutoCleanup<class AutoFree<unsigned char>,unsigned char * __ptr64>::operator unsigned char * __ptr64(void) __ptr64` | 1511 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>(void) __ptr64` | 74 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>(unsigned short * __ptr64) __ptr64` | 73 | Exported Function
+`operator` | 1511 | Exported Function
+`AutoCleanup` | 74 | Exported Function
+`AutoCleanup` | 73 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>::~AutoCleanup<class AutoDeleteVector<unsigned short const >,unsigned short const * __ptr64>(void) __ptr64` | 662 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::operator unsigned short * __ptr64 const(void)const __ptr64` | 1498 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>::AutoCleanup<class AutoDeleteVector<void>,void * __ptr64>(void * __ptr64) __ptr64` | 86 | Exported Function
+`operator` | 1498 | Exported Function
+`AutoCleanup` | 86 | Exported Function
 `public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::~AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>(void) __ptr64` | 665 | Exported Function
-`public: __cdecl AutoCleanup<class AutoDeleteVector<unsigned short>,unsigned short * __ptr64>::operator unsigned short * __ptr64(void) __ptr64` | 1497 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>(class WSMan::Client::Command * __ptr64) __ptr64` | 143 | Exported Function
-`public: __cdecl AutoDelete<class CSecurity::AdminSid>::AutoDelete<class CSecurity::AdminSid>(class CSecurity::AdminSid * __ptr64) __ptr64` | 222 | Exported Function
+`operator` | 1497 | Exported Function
+`Command` | 143 | Exported Function
+`AdminSid` | 222 | Exported Function
 `public: __cdecl AutoDelete<class ConfigUpdate>::~AutoDelete<class ConfigUpdate>(void) __ptr64` | 805 | Exported Function
-`public: __cdecl AutoDelete<class ConfigUpdate>::AutoDelete<class ConfigUpdate>(void) __ptr64` | 238 | Exported Function
-`public: __cdecl AutoDelete<class CSecurity::AdminSid>::~AutoDelete<class CSecurity::AdminSid>(void) __ptr64` | 793 | Exported Function
-`public: __cdecl AutoDelete<class CSecurity::NetworkServiceSid>::AutoDelete<class CSecurity::NetworkServiceSid>(class CSecurity::NetworkServiceSid * __ptr64) __ptr64` | 255 | Exported Function
-`public: __cdecl AutoDelete<class CSecurity::InteractiveSid>::~AutoDelete<class CSecurity::InteractiveSid>(void) __ptr64` | 814 | Exported Function
-`public: __cdecl AutoDelete<class CSecurity::InteractiveSid>::AutoDelete<class CSecurity::InteractiveSid>(class CSecurity::InteractiveSid * __ptr64) __ptr64` | 252 | Exported Function
-`public: __cdecl AutoDelete<class CListenerSettings>::AutoDelete<class CListenerSettings>(class CListenerSettings * __ptr64) __ptr64` | 227 | Exported Function
-`public: __cdecl AutoDelete<class CListenerReceive::MasterReceiveData>::~AutoDelete<class CListenerReceive::MasterReceiveData>(void) __ptr64` | 817 | Exported Function
+`AutoDelete` | 238 | Exported Function
+`AdminSid` | 793 | Exported Function
+`NetworkServiceSid` | 255 | Exported Function
+`InteractiveSid` | 814 | Exported Function
+`InteractiveSid` | 252 | Exported Function
+`AutoDelete` | 227 | Exported Function
+`MasterReceiveData` | 817 | Exported Function
 `public: __cdecl AutoDelete<class CertHash>::~AutoDelete<class CertHash>(void) __ptr64` | 804 | Exported Function
 `public: __cdecl AutoDelete<class CListenerSettings>::~AutoDelete<class CListenerSettings>(void) __ptr64` | 798 | Exported Function
-`public: __cdecl AutoDelete<class ConfigUpdate>::AutoDelete<class ConfigUpdate>(class ConfigUpdate * __ptr64) __ptr64` | 237 | Exported Function
+`AutoDelete` | 237 | Exported Function
 `public: __cdecl AutoDelete<class CObserverConfigChangeErrors>::~AutoDelete<class CObserverConfigChangeErrors>(void) __ptr64` | 799 | Exported Function
-`public: __cdecl AutoDelete<class CObserverConfigChangeErrors>::AutoDelete<class CObserverConfigChangeErrors>(void) __ptr64` | 228 | Exported Function
-`public: __cdecl AutoDelete<class CWSManResource>::AutoDelete<class CWSManResource>(void) __ptr64` | 234 | Exported Function
-`public: __cdecl AutoDelete<class CWSManResource>::AutoDelete<class CWSManResource>(class CWSManResource * __ptr64) __ptr64` | 233 | Exported Function
+`AutoDelete` | 228 | Exported Function
+`AutoDelete` | 234 | Exported Function
+`AutoDelete` | 233 | Exported Function
 `public: __cdecl AutoDelete<class CWSManEPR>::~AutoDelete<class CWSManEPR>(void) __ptr64` | 802 | Exported Function
 `public: __cdecl AutoDelete<class CWSManResource>::~AutoDelete<class CWSManResource>(void) __ptr64` | 803 | Exported Function
 `public: __cdecl AutoDelete<class EnumSinkEx>::~AutoDelete<class EnumSinkEx>(void) __ptr64` | 806 | Exported Function
-`public: __cdecl AutoDelete<class EnumSinkEx>::AutoDelete<class EnumSinkEx>(void) __ptr64` | 240 | Exported Function
-`public: __cdecl AutoDelete<class EnumSinkEx>::AutoDelete<class EnumSinkEx>(class EnumSinkEx * __ptr64) __ptr64` | 239 | Exported Function
-`public: __cdecl AutoDelete<class CServiceConfigCache::CServiceWatcher>::AutoDelete<class CServiceConfigCache::CServiceWatcher>(void) __ptr64` | 230 | Exported Function
-`public: __cdecl AutoDelete<class CServiceConfigCache::CServiceWatcher>::AutoDelete<class CServiceConfigCache::CServiceWatcher>(class CServiceConfigCache::CServiceWatcher * __ptr64) __ptr64` | 229 | Exported Function
-`public: __cdecl AutoDelete<class CSecurity::NetworkServiceSid>::~AutoDelete<class CSecurity::NetworkServiceSid>(void) __ptr64` | 818 | Exported Function
-`public: __cdecl AutoDelete<class CServiceConfigCache::CServiceWatcher>::~AutoDelete<class CServiceConfigCache::CServiceWatcher>(void) __ptr64` | 800 | Exported Function
-`public: __cdecl AutoDelete<class CWSManEPR>::AutoDelete<class CWSManEPR>(class CWSManEPR * __ptr64) __ptr64` | 232 | Exported Function
+`AutoDelete` | 240 | Exported Function
+`AutoDelete` | 239 | Exported Function
+`CServiceWatcher` | 230 | Exported Function
+`CServiceWatcher` | 229 | Exported Function
+`NetworkServiceSid` | 818 | Exported Function
+`CServiceWatcher` | 800 | Exported Function
+`AutoDelete` | 232 | Exported Function
 `public: __cdecl AutoDelete<class CShellUriSettings>::~AutoDelete<class CShellUriSettings>(void) __ptr64` | 801 | Exported Function
-`public: __cdecl AutoDelete<class CShellUriSettings>::AutoDelete<class CShellUriSettings>(class CShellUriSettings * __ptr64) __ptr64` | 231 | Exported Function
-`public: __cdecl AutoDelete<class CertHash>::AutoDelete<class CertHash>(void) __ptr64` | 236 | Exported Function
-`public: __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::AutoCleanup<class AutoWaitHandle,void * __ptr64>(void * __ptr64) __ptr64` | 199 | Exported Function
+`AutoDelete` | 231 | Exported Function
+`AutoDelete` | 236 | Exported Function
+`AutoCleanup` | 199 | Exported Function
 `public: __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::~AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>(void) __ptr64` | 763 | Exported Function
-`public: __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::operator void * __ptr64(void) __ptr64` | 1601 | Exported Function
-`public: __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::AutoCleanup<class AutoWaitHandle,void * __ptr64>(void) __ptr64` | 200 | Exported Function
-`public: __cdecl AutoCoTaskMemFree::AutoCoTaskMemFree(void) __ptr64` | 505 | Exported Function
-`public: __cdecl AutoCoTaskMemFree::AutoCoTaskMemFree(void * __ptr64) __ptr64` | 504 | Exported Function
+`operator` | 1601 | Exported Function
+`AutoCleanup` | 200 | Exported Function
+`AutoCoTaskMemFree` | 505 | Exported Function
+`AutoCoTaskMemFree` | 504 | Exported Function
 `public: __cdecl AutoCleanup<class AutoWaitHandle,void * __ptr64>::~AutoCleanup<class AutoWaitHandle,void * __ptr64>(void) __ptr64` | 764 | Exported Function
 `public: __cdecl AutoCleanup<class AutoReleaseEx<class HostMappingTableEntry>,class HostMappingTableEntry * __ptr64>::~AutoCleanup<class AutoReleaseEx<class HostMappingTableEntry>,class HostMappingTableEntry * __ptr64>(void) __ptr64` | 747 | Exported Function
-`public: __cdecl AutoCleanup<class AutoReleaseEx<class HostMappingTableEntry>,class HostMappingTableEntry * __ptr64>::AutoCleanup<class AutoReleaseEx<class HostMappingTableEntry>,class HostMappingTableEntry * __ptr64>(class HostMappingTableEntry * __ptr64) __ptr64` | 167 | Exported Function
+`AutoCleanup` | 167 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>(void) __ptr64` | 695 | Exported Function
-`public: __cdecl AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>(class WSMan::Client::Shell * __ptr64) __ptr64` | 168 | Exported Function
-`public: __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>(void) __ptr64` | 198 | Exported Function
-`public: __cdecl AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>::AutoCleanup<class AutoSecurityDescriptor,void * __ptr64>(void * __ptr64) __ptr64` | 197 | Exported Function
-`public: __cdecl AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::~AutoCleanup<class AutoReleaseEx<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>(void) __ptr64` | 748 | Exported Function
-`public: __cdecl AutoDelete<class CCertMapping>::AutoDelete<class CCertMapping>(class CCertMapping * __ptr64) __ptr64` | 225 | Exported Function
+`Shell` | 168 | Exported Function
+`AutoCleanup` | 198 | Exported Function
+`AutoCleanup` | 197 | Exported Function
+`Shell` | 748 | Exported Function
+`AutoDelete` | 225 | Exported Function
 `public: __cdecl AutoDelete<class CBaseConfigCache>::~AutoDelete<class CBaseConfigCache>(void) __ptr64` | 795 | Exported Function
-`public: __cdecl AutoDelete<class CBaseConfigCache>::AutoDelete<class CBaseConfigCache>(class CBaseConfigCache * __ptr64) __ptr64` | 224 | Exported Function
+`AutoDelete` | 224 | Exported Function
 `public: __cdecl AutoDelete<class CCertMapping>::~AutoDelete<class CCertMapping>(void) __ptr64` | 796 | Exported Function
-`public: __cdecl AutoDelete<class CertHash>::AutoDelete<class CertHash>(class CertHash * __ptr64) __ptr64` | 235 | Exported Function
+`AutoDelete` | 235 | Exported Function
 `public: __cdecl AutoDelete<class CConfigChangeSource>::~AutoDelete<class CConfigChangeSource>(void) __ptr64` | 797 | Exported Function
-`public: __cdecl AutoDelete<class CConfigChangeSource>::AutoDelete<class CConfigChangeSource>(void) __ptr64` | 226 | Exported Function
+`AutoDelete` | 226 | Exported Function
 `public: __cdecl AutoDelete<char>::~AutoDelete<char>(void) __ptr64` | 765 | Exported Function
-`public: __cdecl AutoDelete<char>::AutoDelete<char>(void) __ptr64` | 201 | Exported Function
+`AutoDelete` | 201 | Exported Function
 `public: __cdecl AutoCoTaskMemFree::~AutoCoTaskMemFree(void) __ptr64` | 1065 | Exported Function
-`public: __cdecl AutoDelete<class BlockedRecord>::AutoDelete<class BlockedRecord>(void) __ptr64` | 223 | Exported Function
-`public: __cdecl AutoDelete<class Catalog::SecurityEntry>::~AutoDelete<class Catalog::SecurityEntry>(void) __ptr64` | 825 | Exported Function
-`public: __cdecl AutoDelete<class Catalog::SecurityEntry>::AutoDelete<class Catalog::SecurityEntry>(class Catalog::SecurityEntry * __ptr64) __ptr64` | 263 | Exported Function
+`AutoDelete` | 223 | Exported Function
+`SecurityEntry` | 825 | Exported Function
+`SecurityEntry` | 263 | Exported Function
 `public: __cdecl AutoDelete<class BlockedRecord>::~AutoDelete<class BlockedRecord>(void) __ptr64` | 794 | Exported Function
 `public: __cdecl AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >::~AutoDelete<class SafeMap_Iterator<class CListenerSignal * __ptr64,class CListenerSignal * __ptr64> >(void) __ptr64` | 774 | Exported Function
 `public: __cdecl AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >::~AutoDelete<class SafeMap_Iterator<class CListenerSend * __ptr64,class CListenerSend * __ptr64> >(void) __ptr64` | 773 | Exported Function
 `public: __cdecl AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >::~AutoDelete<class SafeMap_Iterator<class CListenerReceive * __ptr64,class CListenerReceive * __ptr64> >(void) __ptr64` | 772 | Exported Function
 `public: __cdecl AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >::~AutoDelete<class SafeMap_Iterator<class GuidKey,class CListenerCommand * __ptr64> >(void) __ptr64` | 775 | Exported Function
-`public: __cdecl AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >(void) __ptr64` | 209 | Exported Function
+`OptionValue` | 209 | Exported Function
 `public: __cdecl AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >::~AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >(void) __ptr64` | 776 | Exported Function
-`public: __cdecl AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >::AutoDelete<class SafeMap_Iterator<class StringKeyCI,unsigned long> >(void) __ptr64` | 208 | Exported Function
-`public: __cdecl AutoDelete<class RobustConnectionBuffer::SendPacketArgs>::AutoDelete<class RobustConnectionBuffer::SendPacketArgs>(class RobustConnectionBuffer::SendPacketArgs * __ptr64) __ptr64` | 264 | Exported Function
+`AutoDelete` | 208 | Exported Function
+`SendPacketArgs` | 264 | Exported Function
 `public: __cdecl AutoDelete<class PacketParser>::~AutoDelete<class PacketParser>(void) __ptr64` | 822 | Exported Function
-`public: __cdecl AutoDelete<class PacketParser>::AutoDelete<class PacketParser>(void) __ptr64` | 260 | Exported Function
-`public: __cdecl AutoDelete<class RobustConnectionBuffer::SendPacketArgs>::~AutoDelete<class RobustConnectionBuffer::SendPacketArgs>(void) __ptr64` | 826 | Exported Function
+`AutoDelete` | 260 | Exported Function
+`SendPacketArgs` | 826 | Exported Function
 `public: __cdecl AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >::~AutoDelete<class SafeMap_Iterator<class CListenerConnect * __ptr64,class CListenerConnect * __ptr64> >(void) __ptr64` | 771 | Exported Function
 `public: __cdecl AutoDelete<class RunAsConfiguration>::~AutoDelete<class RunAsConfiguration>(void) __ptr64` | 824 | Exported Function
-`public: __cdecl AutoDelete<class RunAsConfiguration>::AutoDelete<class RunAsConfiguration>(class RunAsConfiguration * __ptr64) __ptr64` | 262 | Exported Function
+`AutoDelete` | 262 | Exported Function
 `public: __cdecl AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> >::~AutoDelete<class SafeSet_Iterator<class Collector * __ptr64> >(void) __ptr64` | 781 | Exported Function
 `public: __cdecl AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >::~AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >(void) __ptr64` | 780 | Exported Function
-`public: __cdecl AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >::AutoDelete<class SafeSet_Iterator<class CListenerOperation * __ptr64> >(void) __ptr64` | 214 | Exported Function
+`AutoDelete` | 214 | Exported Function
 `public: __cdecl AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> >::~AutoDelete<class SafeSet_Iterator<class HostOperation * __ptr64> >(void) __ptr64` | 782 | Exported Function
 `public: __cdecl AutoDelete<class ServiceSoapProcessor>::~AutoDelete<class ServiceSoapProcessor>(void) __ptr64` | 827 | Exported Function
-`public: __cdecl AutoDelete<class ServiceSoapProcessor>::AutoDelete<class ServiceSoapProcessor>(void) __ptr64` | 265 | Exported Function
+`AutoDelete` | 265 | Exported Function
 `public: __cdecl AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >::~AutoDelete<class SafeSet_Iterator<class ListenerSourceSubscription * __ptr64> >(void) __ptr64` | 783 | Exported Function
-`public: __cdecl AutoDelete<class SafeSet<class CCertMapping * __ptr64> >::AutoDelete<class SafeSet<class CCertMapping * __ptr64> >(void) __ptr64` | 211 | Exported Function
-`public: __cdecl AutoDelete<class SafeSet<class CCertMapping * __ptr64> >::AutoDelete<class SafeSet<class CCertMapping * __ptr64> >(class SafeSet<class CCertMapping * __ptr64> * __ptr64) __ptr64` | 210 | Exported Function
-`public: __cdecl AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >::~AutoDelete<class SafeMap_Iterator<enum WSManSessionOption,class WSMan::Client::SessionOptions::OptionValue * __ptr64> >(void) __ptr64` | 777 | Exported Function
+`AutoDelete` | 211 | Exported Function
+`AutoDelete` | 210 | Exported Function
+`OptionValue` | 777 | Exported Function
 `public: __cdecl AutoDelete<class SafeSet<class CCertMapping * __ptr64> >::~AutoDelete<class SafeSet<class CCertMapping * __ptr64> >(void) __ptr64` | 778 | Exported Function
 `public: __cdecl AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >::~AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >(void) __ptr64` | 779 | Exported Function
-`public: __cdecl AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >::AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >(void) __ptr64` | 213 | Exported Function
-`public: __cdecl AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >::AutoDelete<class SafeSet<class CShellUriSettings * __ptr64> >(class SafeSet<class CShellUriSettings * __ptr64> * __ptr64) __ptr64` | 212 | Exported Function
+`AutoDelete` | 213 | Exported Function
+`AutoDelete` | 212 | Exported Function
 `public: __cdecl AutoDelete<class PacketCreator>::~AutoDelete<class PacketCreator>(void) __ptr64` | 821 | Exported Function
-`public: __cdecl AutoDelete<class IChannelObserverFactory>::AutoDelete<class IChannelObserverFactory>(class IChannelObserverFactory * __ptr64) __ptr64` | 246 | Exported Function
+`AutoDelete` | 246 | Exported Function
 `public: __cdecl AutoDelete<class Handle<class ISubscription> >::~AutoDelete<class Handle<class ISubscription> >(void) __ptr64` | 770 | Exported Function
-`public: __cdecl AutoDelete<class Handle<class ISubscription> >::AutoDelete<class Handle<class ISubscription> >(class Handle<class ISubscription> * __ptr64) __ptr64` | 207 | Exported Function
-`public: __cdecl AutoDelete<class IChannelObserverFactory>::AutoDelete<class IChannelObserverFactory>(void) __ptr64` | 247 | Exported Function
+`AutoDelete` | 207 | Exported Function
+`AutoDelete` | 247 | Exported Function
 `public: __cdecl AutoDelete<class IpHlpApiDllLoader>::~AutoDelete<class IpHlpApiDllLoader>(void) __ptr64` | 815 | Exported Function
-`public: __cdecl AutoDelete<class IpHlpApiDllLoader>::AutoDelete<class IpHlpApiDllLoader>(class IpHlpApiDllLoader * __ptr64) __ptr64` | 253 | Exported Function
+`AutoDelete` | 253 | Exported Function
 `public: __cdecl AutoDelete<class IChannelObserverFactory>::~AutoDelete<class IChannelObserverFactory>(void) __ptr64` | 811 | Exported Function
-`public: __cdecl AutoDelete<class GeneralSinkEx>::AutoDelete<class GeneralSinkEx>(class GeneralSinkEx * __ptr64) __ptr64` | 244 | Exported Function
+`AutoDelete` | 244 | Exported Function
 `public: __cdecl AutoDelete<class ExpiredOperationIdRecord>::~AutoDelete<class ExpiredOperationIdRecord>(void) __ptr64` | 808 | Exported Function
-`public: __cdecl AutoDelete<class ExpiredOperationIdRecord>::AutoDelete<class ExpiredOperationIdRecord>(class ExpiredOperationIdRecord * __ptr64) __ptr64` | 242 | Exported Function
-`public: __cdecl AutoDelete<class GeneralSinkEx>::AutoDelete<class GeneralSinkEx>(void) __ptr64` | 245 | Exported Function
+`AutoDelete` | 242 | Exported Function
+`AutoDelete` | 245 | Exported Function
 `public: __cdecl AutoDelete<class GPApiManager>::~AutoDelete<class GPApiManager>(void) __ptr64` | 809 | Exported Function
-`public: __cdecl AutoDelete<class GPApiManager>::AutoDelete<class GPApiManager>(void) __ptr64` | 243 | Exported Function
+`AutoDelete` | 243 | Exported Function
 `public: __cdecl AutoDelete<class GeneralSinkEx>::~AutoDelete<class GeneralSinkEx>(void) __ptr64` | 810 | Exported Function
 `public: __cdecl AutoDelete<class MachineName>::~AutoDelete<class MachineName>(void) __ptr64` | 816 | Exported Function
-`public: __cdecl AutoDelete<class MachineName>::AutoDelete<class MachineName>(class MachineName * __ptr64) __ptr64` | 254 | Exported Function
-`public: __cdecl AutoDelete<class Locale::Resources>::~AutoDelete<class Locale::Resources>(void) __ptr64` | 823 | Exported Function
-`public: __cdecl AutoDelete<class NtDsApiDllLoader>::AutoDelete<class NtDsApiDllLoader>(class NtDsApiDllLoader * __ptr64) __ptr64` | 256 | Exported Function
-`public: __cdecl AutoDelete<class PacketCreator>::AutoDelete<class PacketCreator>(void) __ptr64` | 259 | Exported Function
-`public: __cdecl AutoDelete<class PacketCreator>::AutoDelete<class PacketCreator>(class PacketCreator * __ptr64) __ptr64` | 258 | Exported Function
+`AutoDelete` | 254 | Exported Function
+`Resources` | 823 | Exported Function
+`AutoDelete` | 256 | Exported Function
+`AutoDelete` | 259 | Exported Function
+`AutoDelete` | 258 | Exported Function
 `public: __cdecl AutoDelete<class NtDsApiDllLoader>::~AutoDelete<class NtDsApiDllLoader>(void) __ptr64` | 819 | Exported Function
 `public: __cdecl AutoDelete<class IQueryDASHSMASHInterface>::~AutoDelete<class IQueryDASHSMASHInterface>(void) __ptr64` | 812 | Exported Function
-`public: __cdecl AutoDelete<class IQueryDASHSMASHInterface>::AutoDelete<class IQueryDASHSMASHInterface>(void) __ptr64` | 249 | Exported Function
-`public: __cdecl AutoDelete<class IQueryDASHSMASHInterface>::AutoDelete<class IQueryDASHSMASHInterface>(class IQueryDASHSMASHInterface * __ptr64) __ptr64` | 248 | Exported Function
-`public: __cdecl AutoDelete<class ISpecification>::AutoDelete<class ISpecification>(class ISpecification * __ptr64) __ptr64` | 250 | Exported Function
-`public: __cdecl AutoDelete<class Locale::Resources>::AutoDelete<class Locale::Resources>(class Locale::Resources * __ptr64) __ptr64` | 261 | Exported Function
+`AutoDelete` | 249 | Exported Function
+`AutoDelete` | 248 | Exported Function
+`AutoDelete` | 250 | Exported Function
+`Resources` | 261 | Exported Function
 `public: __cdecl AutoDelete<class ISpecification>::~AutoDelete<class ISpecification>(void) __ptr64` | 813 | Exported Function
-`public: __cdecl AutoDelete<class ISpecification>::AutoDelete<class ISpecification>(void) __ptr64` | 251 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::operator struct IWbemServices * __ptr64(void) __ptr64` | 1541 | Exported Function
+`AutoDelete` | 251 | Exported Function
+`operator` | 1541 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>(void) __ptr64` | 677 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::operator struct IAppHostChildElementCollection * __ptr64(void) __ptr64` | 1514 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostChildElementCollection>,struct IAppHostChildElementCollection * __ptr64>(struct IAppHostChildElementCollection * __ptr64) __ptr64` | 90 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>(struct IAppHostConfigException * __ptr64) __ptr64` | 91 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>::operator struct IAppHostElement * __ptr64(void) __ptr64` | 1515 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>(struct IAppHostElement * __ptr64) __ptr64` | 92 | Exported Function
+`operator` | 1514 | Exported Function
+`AutoCleanup` | 90 | Exported Function
+`AutoCleanup` | 91 | Exported Function
+`operator` | 1515 | Exported Function
+`AutoCleanup` | 92 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostConfigException>,struct IAppHostConfigException * __ptr64>(void) __ptr64` | 678 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>(void) __ptr64` | 744 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::operator class WSMan::Client::SignalOperation * __ptr64(void) __ptr64` | 1585 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::SignalOperation>,class WSMan::Client::SignalOperation * __ptr64>(class WSMan::Client::SignalOperation * __ptr64) __ptr64` | 164 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>::AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>(class WSManHttpListener * __ptr64) __ptr64` | 166 | Exported Function
+`SignalOperation` | 744 | Exported Function
+`SignalOperation` | 1585 | Exported Function
+`SignalOperation` | 164 | Exported Function
+`AutoCleanup` | 166 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>(void) __ptr64` | 676 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostAdminManager>,struct IAppHostAdminManager * __ptr64>(struct IAppHostAdminManager * __ptr64) __ptr64` | 89 | Exported Function
+`AutoCleanup` | 89 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>::~AutoCleanup<class AutoRelease<class WSManHttpListener>,class WSManHttpListener * __ptr64>(void) __ptr64` | 746 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>(void) __ptr64` | 97 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>(struct IClientSecurity * __ptr64) __ptr64` | 96 | Exported Function
+`AutoCleanup` | 97 | Exported Function
+`AutoCleanup` | 96 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>(void) __ptr64` | 682 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::operator struct IClientSecurity * __ptr64 const(void)const __ptr64` | 1518 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>(struct IEnumWbemClassObject * __ptr64) __ptr64` | 98 | Exported Function
+`operator` | 1518 | Exported Function
+`AutoCleanup` | 98 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::~AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>(void) __ptr64` | 683 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IClientSecurity>,struct IClientSecurity * __ptr64>::operator struct IClientSecurity * __ptr64(void) __ptr64` | 1517 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::operator struct IAppHostElementCollection * __ptr64(void) __ptr64` | 1516 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>(struct IAppHostElementCollection * __ptr64) __ptr64` | 93 | Exported Function
+`operator` | 1517 | Exported Function
+`operator` | 1516 | Exported Function
+`AutoCleanup` | 93 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostElement>,struct IAppHostElement * __ptr64>(void) __ptr64` | 679 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostElementCollection>,struct IAppHostElementCollection * __ptr64>(void) __ptr64` | 680 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostPropertyCollection>,struct IAppHostPropertyCollection * __ptr64>(struct IAppHostPropertyCollection * __ptr64) __ptr64` | 95 | Exported Function
+`AutoCleanup` | 95 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>::~AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>(void) __ptr64` | 681 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>::AutoCleanup<class AutoRelease<struct IAppHostProperty>,struct IAppHostProperty * __ptr64>(struct IAppHostProperty * __ptr64) __ptr64` | 94 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>(void) __ptr64` | 742 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>::operator class WSMan::Client::DeleteShellOperation * __ptr64(void) __ptr64` | 1567 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>(class WSMan::Client::DeleteShellOperation * __ptr64) __ptr64` | 147 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>(void) __ptr64` | 724 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::DeleteShellOperation>,class WSMan::Client::DeleteShellOperation * __ptr64>(void) __ptr64` | 725 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>(void) __ptr64` | 726 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>::operator class WSMan::Client::DisconnectOperation * __ptr64(void) __ptr64` | 1568 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::DisconnectOperation>,class WSMan::Client::DisconnectOperation * __ptr64>(class WSMan::Client::DisconnectOperation * __ptr64) __ptr64` | 148 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>(class WSMan::Client::ConnectShellOperation * __ptr64) __ptr64` | 145 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>(void) __ptr64` | 721 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Command>,class WSMan::Client::Command * __ptr64>::operator class WSMan::Client::Command * __ptr64(void) __ptr64` | 1563 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>::operator class WSMan::Client::ConnectShellOperation * __ptr64(void) __ptr64` | 1565 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>::operator class WSMan::Client::CreateShellOperation * __ptr64(void) __ptr64` | 1566 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::CreateShellOperation>,class WSMan::Client::CreateShellOperation * __ptr64>(class WSMan::Client::CreateShellOperation * __ptr64) __ptr64` | 146 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::ConnectShellOperation>,class WSMan::Client::ConnectShellOperation * __ptr64>(void) __ptr64` | 723 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::operator class WSMan::Client::SendOperation * __ptr64(void) __ptr64` | 1582 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>(class WSMan::Client::SendOperation * __ptr64) __ptr64` | 161 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>(void) __ptr64` | 740 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::SendOperation>,class WSMan::Client::SendOperation * __ptr64>(void) __ptr64` | 741 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::operator class WSMan::Client::Shell * __ptr64(void) __ptr64` | 1583 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::operator class WSMan::Client::Shell * __ptr64 const(void)const __ptr64` | 1584 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::Shell>,class WSMan::Client::Shell * __ptr64>(class WSMan::Client::Shell * __ptr64) __ptr64` | 162 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>(class WSMan::Client::ReceiveOperation * __ptr64) __ptr64` | 159 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ProxySelection>,class WSMan::Client::ProxySelection * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::ProxySelection>,class WSMan::Client::ProxySelection * __ptr64>(void) __ptr64` | 736 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ProxyManager>,class WSMan::Client::ProxyManager * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::ProxyManager>,class WSMan::Client::ProxyManager * __ptr64>(void) __ptr64` | 735 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::operator class WSMan::Client::ReceiveOperation * __ptr64(void) __ptr64` | 1580 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>::operator class WSMan::Client::ReconnectOperation * __ptr64(void) __ptr64` | 1581 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>::AutoCleanup<class AutoRelease<class WSMan::Client::ReconnectOperation>,class WSMan::Client::ReconnectOperation * __ptr64>(class WSMan::Client::ReconnectOperation * __ptr64) __ptr64` | 160 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>::~AutoCleanup<class AutoRelease<class WSMan::Client::ReceiveOperation>,class WSMan::Client::ReceiveOperation * __ptr64>(void) __ptr64` | 739 | Exported Function
+`AutoCleanup` | 94 | Exported Function
+`Shell` | 742 | Exported Function
+`DeleteShellOperation` | 1567 | Exported Function
+`DeleteShellOperation` | 147 | Exported Function
+`CreateShellOperation` | 724 | Exported Function
+`DeleteShellOperation` | 725 | Exported Function
+`DisconnectOperation` | 726 | Exported Function
+`DisconnectOperation` | 1568 | Exported Function
+`DisconnectOperation` | 148 | Exported Function
+`ConnectShellOperation` | 145 | Exported Function
+`Command` | 721 | Exported Function
+`Command` | 1563 | Exported Function
+`ConnectShellOperation` | 1565 | Exported Function
+`CreateShellOperation` | 1566 | Exported Function
+`CreateShellOperation` | 146 | Exported Function
+`ConnectShellOperation` | 723 | Exported Function
+`SendOperation` | 1582 | Exported Function
+`SendOperation` | 161 | Exported Function
+`ReconnectOperation` | 740 | Exported Function
+`SendOperation` | 741 | Exported Function
+`Shell` | 1583 | Exported Function
+`Shell` | 1584 | Exported Function
+`Shell` | 162 | Exported Function
+`ReceiveOperation` | 159 | Exported Function
+`ProxySelection` | 736 | Exported Function
+`ProxyManager` | 735 | Exported Function
+`ReceiveOperation` | 1580 | Exported Function
+`ReconnectOperation` | 1581 | Exported Function
+`ReconnectOperation` | 160 | Exported Function
+`ReceiveOperation` | 739 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>(void) __ptr64` | 691 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::operator struct IWbemPath * __ptr64(void) __ptr64` | 1533 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::operator struct IWbemPath * __ptr64 const(void)const __ptr64` | 1534 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>(struct IWbemPathKeyList * __ptr64) __ptr64` | 114 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::operator struct IWbemPathKeyList * __ptr64(void) __ptr64` | 1535 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::operator struct IWbemPathKeyList * __ptr64 const(void)const __ptr64` | 1536 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>(void) __ptr64` | 115 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::operator struct IWbemObjectTextSrc * __ptr64 const(void)const __ptr64` | 1532 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>(void) __ptr64` | 111 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>(struct IWbemObjectTextSrc * __ptr64) __ptr64` | 110 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::operator struct IWbemObjectTextSrc * __ptr64(void) __ptr64` | 1531 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>(void) __ptr64` | 113 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemPath>,struct IWbemPath * __ptr64>(struct IWbemPath * __ptr64) __ptr64` | 112 | Exported Function
+`operator` | 1533 | Exported Function
+`operator` | 1534 | Exported Function
+`AutoCleanup` | 114 | Exported Function
+`operator` | 1535 | Exported Function
+`operator` | 1536 | Exported Function
+`AutoCleanup` | 115 | Exported Function
+`operator` | 1532 | Exported Function
+`AutoCleanup` | 111 | Exported Function
+`AutoCleanup` | 110 | Exported Function
+`operator` | 1531 | Exported Function
+`AutoCleanup` | 113 | Exported Function
+`AutoCleanup` | 112 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemObjectTextSrc>,struct IWbemObjectTextSrc * __ptr64>(void) __ptr64` | 690 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::operator struct IWbemQuery * __ptr64(void) __ptr64` | 1539 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::operator struct IWbemQuery * __ptr64 const(void)const __ptr64` | 1540 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>(void) __ptr64` | 119 | Exported Function
+`operator` | 1539 | Exported Function
+`operator` | 1540 | Exported Function
+`AutoCleanup` | 119 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>(void) __ptr64` | 694 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::operator struct IWbemServices * __ptr64 const(void)const __ptr64` | 1542 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>(void) __ptr64` | 121 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemServices>,struct IWbemServices * __ptr64>(struct IWbemServices * __ptr64) __ptr64` | 120 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>(void) __ptr64` | 117 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>(struct IWbemQualifierSet * __ptr64) __ptr64` | 116 | Exported Function
+`operator` | 1542 | Exported Function
+`AutoCleanup` | 121 | Exported Function
+`AutoCleanup` | 120 | Exported Function
+`AutoCleanup` | 117 | Exported Function
+`AutoCleanup` | 116 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemPathKeyList>,struct IWbemPathKeyList * __ptr64>(void) __ptr64` | 692 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::operator struct IWbemQualifierSet * __ptr64 const(void)const __ptr64` | 1538 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemQuery>,struct IWbemQuery * __ptr64>(struct IWbemQuery * __ptr64) __ptr64` | 118 | Exported Function
+`operator` | 1538 | Exported Function
+`AutoCleanup` | 118 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>(void) __ptr64` | 693 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemQualifierSet>,struct IWbemQualifierSet * __ptr64>::operator struct IWbemQualifierSet * __ptr64(void) __ptr64` | 1537 | Exported Function
+`operator` | 1537 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>(void) __ptr64` | 689 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>(struct IUnknown * __ptr64) __ptr64` | 102 | Exported Function
+`AutoCleanup` | 102 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::~AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>(void) __ptr64` | 685 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::operator struct IErrorInfo * __ptr64(void) __ptr64` | 1521 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>(void) __ptr64` | 103 | Exported Function
+`operator` | 1521 | Exported Function
+`AutoCleanup` | 103 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::~AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>(void) __ptr64` | 686 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::operator struct IUnknown * __ptr64(void) __ptr64` | 1523 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IUnknown>,struct IUnknown * __ptr64>::operator struct IUnknown * __ptr64 const(void)const __ptr64` | 1524 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::operator struct IEnumWbemClassObject * __ptr64(void) __ptr64` | 1519 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::operator struct IEnumWbemClassObject * __ptr64 const(void)const __ptr64` | 1520 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>(void) __ptr64` | 99 | Exported Function
+`operator` | 1523 | Exported Function
+`operator` | 1524 | Exported Function
+`operator` | 1519 | Exported Function
+`operator` | 1520 | Exported Function
+`AutoCleanup` | 99 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>::~AutoCleanup<class AutoRelease<struct IEnumWbemClassObject>,struct IEnumWbemClassObject * __ptr64>(void) __ptr64` | 684 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::operator struct IErrorInfo * __ptr64 const(void)const __ptr64` | 1522 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>(void) __ptr64` | 101 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>::AutoCleanup<class AutoRelease<struct IErrorInfo>,struct IErrorInfo * __ptr64>(struct IErrorInfo * __ptr64) __ptr64` | 100 | Exported Function
+`operator` | 1522 | Exported Function
+`AutoCleanup` | 101 | Exported Function
+`AutoCleanup` | 100 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>(void) __ptr64` | 688 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::operator struct IWbemContext * __ptr64(void) __ptr64` | 1527 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::operator struct IWbemContext * __ptr64 const(void)const __ptr64` | 1528 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>(struct IWbemLocator * __ptr64) __ptr64` | 108 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::operator struct IWbemLocator * __ptr64(void) __ptr64` | 1529 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::operator struct IWbemLocator * __ptr64 const(void)const __ptr64` | 1530 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemLocator>,struct IWbemLocator * __ptr64>(void) __ptr64` | 109 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::operator struct IWbemClassObject * __ptr64 const(void)const __ptr64` | 1526 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>(void) __ptr64` | 105 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>(struct IWbemClassObject * __ptr64) __ptr64` | 104 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::operator struct IWbemClassObject * __ptr64(void) __ptr64` | 1525 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>(void) __ptr64` | 107 | Exported Function
-`public: __cdecl AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>::AutoCleanup<class AutoRelease<struct IWbemContext>,struct IWbemContext * __ptr64>(struct IWbemContext * __ptr64) __ptr64` | 106 | Exported Function
+`operator` | 1527 | Exported Function
+`operator` | 1528 | Exported Function
+`AutoCleanup` | 108 | Exported Function
+`operator` | 1529 | Exported Function
+`operator` | 1530 | Exported Function
+`AutoCleanup` | 109 | Exported Function
+`operator` | 1526 | Exported Function
+`AutoCleanup` | 105 | Exported Function
+`AutoCleanup` | 104 | Exported Function
+`operator` | 1525 | Exported Function
+`AutoCleanup` | 107 | Exported Function
+`AutoCleanup` | 106 | Exported Function
 `public: __cdecl AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>::~AutoCleanup<class AutoRelease<struct IWbemClassObject>,struct IWbemClassObject * __ptr64>(void) __ptr64` | 687 | Exported Function
 
 

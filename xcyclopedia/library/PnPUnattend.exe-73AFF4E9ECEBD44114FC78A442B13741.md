@@ -18,6 +18,9 @@ SHA256 | `1BD75ED2ADBB32C2863B5A3B117DEC61EE2BFBDF4AA6892670CA5E23C2D9424F`
 SHA384 | `D2661A67DB484D908529DF6B1DD057DF72B765D7414DD9EE0FCE70E1697EF98E47D90BEEFCE238CD9D1662EFF4C19E7A`
 SHA512 | `A0081ED1E2CB734BA5B2311C6CB8942F425E69CACCE00348CB00AE23842A6DC96E4F2EC5C4CC4001C9C3DB2FE26BDC7F9256F060D6526870793F2695F0F49010`
 SSDEEP | `768:hyPKrBx6AkCDTKAcrYeKRcdvQv7J3JAZVkhIjgkp5e0cVnxDQVW5RKpLdRh5VnDb:IK10XCqAcrYeitJ3siloeZ3QkS3y/a`
+IMP | `43B208E7D537FA25FB5182C0A73AD298`
+PESHA1 | `E7707193EE9FA537A510A23D06AD6CDAC3604B47`
+PE256 | `9A9C3E979B737CB4BE00D5A86CEB00CED084E0F0218DD3DCFC0EACC9F0F1F963`
 
 ## Runtime Data
 
@@ -40,10 +43,33 @@ USAGE:
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\system32\DEVRTL.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\newdev.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\PnPUnattend.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\wdscore.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -63,7 +89,12 @@ C:\Windows\system32\PnPUnattend.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/1bd75ed2adbb32c2863b5a3b117dec61ee2bfbdf4aa6892670ca5e23c2d9424f/detection/
 
 ## File Similarity (ssdeep match)
 

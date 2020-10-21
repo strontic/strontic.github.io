@@ -18,6 +18,9 @@ SHA256 | `A7B6AC2649E6398CEC55A349929FE1DE8DA137B9F77ECD7D9036F4BACB29BB59`
 SHA384 | `9F5A5EAE10A2875C09B45EACE67CB1B1F01726A152100A69D55492C32BBEB830180BFF37F30FF130172F1862D3D01C40`
 SHA512 | `A620669FB886FB2F5D4154F23E4A076ED70247B7DA3F230B4E40707A227A4537D729A57E892D6155B642396B74F7E3AA42EF110C546C45CF492EB8093D6B6A5F`
 SSDEEP | `768:wTEh5BWZ33NBsU9fFiLe/DmUJJMT9NUnPW1vLpppWIj8FT82zpp0vh9rrb0vQYaU:4kk3NR9xtoMW1vVpbGTpW7rXd3EQJ`
+IMP | `67ED2180B06686FECAA36DBFD2D9C7A6`
+PESHA1 | `B09D43ABA968A1B7908CD87815D8566C8729417C`
+PE256 | `8B7C3585B2AFB949D09663DC654E920C325F8C8850013C2440353B38BF8924A9`
 
 ## Runtime Data
 
@@ -76,7 +79,28 @@ The parameter is incorrect.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\system32\djoin.exe |
+C:\Windows\system32\JOINUTIL.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoncli.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netprovfw.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wdscore.dll |
+C:\Windows\system32\wkscli.dll |
 
 
 ## Signature
@@ -96,7 +120,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a7b6ac2649e6398cec55a349929fe1de8da137b9f77ecd7d9036f4bacb29bb59/detection/
 
 
 

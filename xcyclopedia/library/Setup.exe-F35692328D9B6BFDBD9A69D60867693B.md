@@ -96,6 +96,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-0B67469C1455F18FF86E3B61A608C24F.md) | 44
+[C:\Windows\system32\oobe\Setup.exe](Setup.exe-76BC388FC9021985BC478C9B101649C6.md) | 41
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-872B6BC9730A7D94E91A38E3AA6DFDEE.md) | 88
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-8BBDBD0FA1F6AD661B85FC8A5BD3E2B3.md) | 36
 [C:\WINDOWS\system32\oobe\Setup.exe](Setup.exe-D222AF09281E310AC09D3B455D2EABEB.md) | 44
@@ -160,6 +161,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | description = "Sample from CN Honker Pentest Toolset - file setup.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_fireball.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_fireball.yar) | $s3 = "\\SETUP.dll" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) | $x6 = "wevtutil cl Setup & wevtutil cl System" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_anomalies_keyword_combos.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_anomalies_keyword_combos.yar) | $fp6 = "Paint.NET Setup" wide fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar) | $s2 = "SwitchSniffer Setup" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 

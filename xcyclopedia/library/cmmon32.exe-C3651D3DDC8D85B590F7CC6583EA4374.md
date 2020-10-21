@@ -18,6 +18,9 @@ SHA256 | `EACBFDF9C84013D21AA0B71AC08EDD0D56293C63723CD80FC667127410067A8E`
 SHA384 | `7618481AA7FEC1D19C0EA669F295F29775B88D32039C06BF3F755112E0AAEE443071A5103D17F38AD93C512AFB6E95EF`
 SHA512 | `4D35D8653BEE7E9E4EAA72D502293B75AD89011F61B8F66B679A4504B3C7441E809E97EF9A6ECB65134D732EA8E788C1ECF6322F04BFC1E7DE7166AF8D0EA240`
 SSDEEP | `768:lCG6pZeJOyW9ZkrgGu5Go3ty5HDnOHh9UASn1gmNDJ5a9t:lRybkrg5Hty5HDq9YNDJ5Ot`
+IMP | `99EE87FB928DFE3DEA854430CDA54850`
+PESHA1 | `303E71455A8BF83696B2B16479CAE320C4150CCE`
+PE256 | `81D8B1A868C905DB686733A1B47964E79C4EA2752F44A62A3365825EBB5F6E5E`
 
 ## Runtime Data
 
@@ -25,8 +28,22 @@ SSDEEP | `768:lCG6pZeJOyW9ZkrgGu5Go3ty5HDnOHh9UASn1gmNDJ5a9t:lRybkrg5Hty5HDq9YND
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\cmmon32.exe |
+C:\Windows\system32\cmutil.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -46,7 +63,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.2.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/eacbfdf9c84013d21aa0b71ac08edd0d56293c63723cd80fc667127410067a8e/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -25,17 +25,17 @@ PE256 | `98261B75A3DF2D2959A8927240FCD2540453A3B86B3C6B40F8823B79D0852F96`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class std::vector<class std::shared_ptr<class csf::cdm::DeviceInfo>,class std::allocator<class std::shared_ptr<class csf::cdm::DeviceInfo> > > __thiscall CSFUnified::CDMWrapper::GetRecordingDevices(void)` | 7 | Exported Function
-`public: class std::vector<class std::shared_ptr<class csf::cdm::DeviceInfo>,class std::allocator<class std::shared_ptr<class csf::cdm::DeviceInfo> > > __thiscall CSFUnified::CDMWrapper::GetPlaybackDevices(void)` | 6 | Exported Function
-`public: static bool __cdecl CSFUnified::CDMWrapper::SetInstance(class std::shared_ptr<class csf::cdm::CommunicationsDeviceManager>)` | 11 | Exported Function
-`public: void __thiscall CSFUnified::CDMWrapper::SetCurrentAlertsDeviceName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 10 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::CDMWrapper> __cdecl CSFUnified::CDMWrapper::Instance(void)` | 8 | Exported Function
-`public: class std::vector<class std::shared_ptr<class csf::cdm::DeviceInfo>,class std::allocator<class std::shared_ptr<class csf::cdm::DeviceInfo> > > __thiscall CSFUnified::CDMWrapper::GetCaptureDevices(void)` | 1 | Exported Function
-`public: class std::shared_ptr<class csf::cdm::CommunicationsDeviceManager> __thiscall CSFUnified::CDMWrapper::Mgr(void)` | 9 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::CDMWrapper::GetCurrentAlertsDeviceName(void)` | 2 | Exported Function
-`public: class std::shared_ptr<class csf::cdm::DeviceInfo> __thiscall CSFUnified::CDMWrapper::GetDefaultCaptureDevice(void)` | 3 | Exported Function
-`public: class std::shared_ptr<class csf::cdm::DeviceInfo> __thiscall CSFUnified::CDMWrapper::GetDefaultRecordingDevice(void)` | 5 | Exported Function
-`public: class std::shared_ptr<class csf::cdm::DeviceInfo> __thiscall CSFUnified::CDMWrapper::GetDefaultPlaybackDevice(void)` | 4 | Exported Function
+`GetRecordingDevices` | 7 | Exported Function
+`GetPlaybackDevices` | 6 | Exported Function
+`CommunicationsDeviceManager` | 11 | Exported Function
+`allocator` | 10 | Exported Function
+`Instance` | 8 | Exported Function
+`GetCaptureDevices` | 1 | Exported Function
+`Mgr` | 9 | Exported Function
+`GetCurrentAlertsDeviceName` | 2 | Exported Function
+`GetDefaultCaptureDevice` | 3 | Exported Function
+`GetDefaultRecordingDevice` | 5 | Exported Function
+`GetDefaultPlaybackDevice` | 4 | Exported Function
 
 
 ## Signature

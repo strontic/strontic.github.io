@@ -43,6 +43,7 @@ SSDEEP | `1536:I++00Q9MdYWhOgec2vvGWtu1bsoMW7BlqDyEV/uQSVl6fpTOccunYHd5D:F+XQ9Md
 File | Score
 -- | --
 [C:\Windows\SysWOW64\rsopprov.exe](rsopprov.exe-8C57646A515999F7396628DC04D05323.md) | 47
+[C:\Windows\SysWOW64\rsopprov.exe](rsopprov.exe-CF2CCD5FEF4CADD5933BBC011B5F6404.md) | 41
 
 
 

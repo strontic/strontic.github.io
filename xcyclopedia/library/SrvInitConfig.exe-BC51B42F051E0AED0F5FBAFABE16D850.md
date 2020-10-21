@@ -47,6 +47,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SrvInitConfig.exe](SrvInitConfig.exe-D100D2A375B403C1C7C00617B4D3A59F.md) | 90
 
 
 

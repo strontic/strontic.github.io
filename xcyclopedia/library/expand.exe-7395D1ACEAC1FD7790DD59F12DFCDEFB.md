@@ -18,6 +18,9 @@ SHA256 | `3D263DF4D7AB8B2B408713ED42B87EC355E33617B8B8249FCBD8BE52D1A50F25`
 SHA384 | `F39355A0D205CD9C4EB88B98D2BA4CCEF909F783B3FEA6D43E86979E599DA9A16F5C29BC05B867E6BD4FFDC89ABAE85B`
 SHA512 | `5FD8AB89081CD3E20BA93E6F219C43796F4B0679C7C8E6808E89C1C249DE7ED8F8D719CC49BFB29D790427BA03D4949BC3D3385601B382FE6C04985318CE52B9`
 SSDEEP | `768:Ou/msq2r0flBpp4C2f7FNr9Zx2zP+7bbDD3ihyhXxvP8viaAjprTllDyVO1vTzwV:OSmsdeBpparkzG7DcI1PRHuYHwFaUn`
+IMP | `8BB8291E08A891E3DCA4B595B2F1D718`
+PESHA1 | `7AEA782B2689A8ABA57321CA71315A16795251D7`
+PE256 | `30BE3E30CD4DE6B69A850DC74664613F677D37F8BDA1EBB754D2CE14BC94744D`
 
 ## Runtime Data
 
@@ -46,14 +49,6 @@ EXPAND Source.cab -F:Files Destination
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\expand.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -71,7 +66,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/3d263df4d7ab8b2b408713ed42b87ec355e33617b8b8249fcbd8be52d1a50f25/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -106,6 +106,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1095.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1095/T1095.md) | Expand-Archive $zippath $parentpath -Force | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1134.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md) | $ppid=Get-Process #{parent_process_name} \| select -expand id | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1485.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1485/T1485.md) | Expand-Archive $env:TEMP\SDelete.zip $env:TEMP\Sdelete -Force | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1550.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1550.002/T1550.002.md) | Expand-Archive $env:TEMP\mimikatz.zip $env:TEMP\mimikatz -Force | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1555.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md) | After acquiring credentials from web browsers, adversaries may attempt to recycle the credentials across different systems and/or accounts in order to expand access. This can result in significantly furthering an adversary's objective in cases where credentials gained from web browsers overlap with privileged accounts (e.g. domain administrator).</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1555.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md) | Expand-Archive #{file_path}\Modified-SysInternalsSuite.zip #{file_path}\sysinternals -Force | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md) | Expand-Archive $env:TEMP\Sysmon.zip $env:TEMP\Sysmon -Force | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

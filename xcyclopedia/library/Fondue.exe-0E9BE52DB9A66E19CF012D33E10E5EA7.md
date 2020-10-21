@@ -22,6 +22,9 @@ SHA256 | `CE88D88E233A9AB9B47BEA00AF705ECF49869BE78E671BD09AA4F7D5A34C9953`
 SHA384 | `CDEFA2895FA1380C3CF8FD37D450397AFDCEB8C5BCB648E845A0DB94C28EBF22EA435B1002A959D22BAED48474C9BE7E`
 SHA512 | `C4E3C7319C3536BB04312068D5C9BA89ACD0A7EC0D6C6E7EEA0F5881317FAF4FF83EF95E12C2835DEC4401353916275C600D0A6CC6F3A69C6F51808CDDFFA4A7`
 SSDEEP | `3072:DM5ObEaznWfH22ZsuX2xKwMPTnaSrIrvD2:MoznWjZnXeKwMLnaqY`
+IMP | `C90A9B51B5004E7BF81F560D871186E8`
+PESHA1 | `D05AC06EA055F0C25E017EE3170F7EE3FAB8E76D`
+PE256 | `E094A15283B13A324333CDDADC065422790A61F80C2B135AB0B0DC2111B471CA`
 
 ## Runtime Data
 
@@ -34,9 +37,9 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\Fondue.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
@@ -44,7 +47,7 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\RPC Control\DSEC1830 | Section
+\RPC Control\DSECDA4 | Section
 \Sessions\2\BaseNamedObjects\UrlZonesSM_Administrator | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
 
@@ -77,7 +80,12 @@ C:\Windows\SysWOW64\Fondue.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/ce88d88e233a9ab9b47bea00af705ecf49869be78e671bd09aa4f7d5a34c9953/detection/
 
 ## File Similarity (ssdeep match)
 

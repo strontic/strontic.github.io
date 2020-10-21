@@ -25,12 +25,12 @@ PE256 | `F7836E9A0F55AB5F35340797D5FC3F3CB0E76F21EBAEF304400A478C72201264`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall HttpDownloader::HttpDownloader::DownloadToString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class boost::function<void __cdecl(double,double)>,class boost::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,enum HttpDownloader::HttpDownloadResultEnum::HttpDownloadResult)>,long,bool)` | 4 | Exported Function
-`public: void __thiscall HttpDownloader::HttpDownloader::SynchronousDownloadToString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class boost::function<void __cdecl(double,double)>,class boost::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,enum HttpDownloader::HttpDownloadResultEnum::HttpDownloadResult)>,long,bool)` | 5 | Exported Function
-`public: void __thiscall HttpDownloader::HttpDownloader::UploadDataPost(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,class boost::function<void __cdecl(double,double)>,class boost::function<void __cdecl(enum HttpDownloader::HttpDownloadResultEnum::HttpDownloadResult)>,bool)` | 6 | Exported Function
-`public: __thiscall HttpDownloader::HttpDownloader::HttpDownloader(void)` | 1 | Exported Function
-`public: void __thiscall HttpDownloader::HttpDownloader::CancelCurrentTransfer(void)` | 2 | Exported Function
-`public: void __thiscall HttpDownloader::HttpDownloader::DownloadToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class boost::function<void __cdecl(double,double)>,class boost::function<void __cdecl(enum HttpDownloader::HttpDownloadResultEnum::HttpDownloadResult)>,long,bool)` | 3 | Exported Function
+`HttpDownloadResult` | 4 | Exported Function
+`HttpDownloadResult` | 5 | Exported Function
+`HttpDownloadResult` | 6 | Exported Function
+`HttpDownloader` | 1 | Exported Function
+`CancelCurrentTransfer` | 2 | Exported Function
+`HttpDownloadResult` | 3 | Exported Function
 
 
 ## Signature

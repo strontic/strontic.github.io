@@ -38,7 +38,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section

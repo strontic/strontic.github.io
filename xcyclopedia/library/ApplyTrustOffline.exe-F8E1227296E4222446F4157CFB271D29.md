@@ -38,6 +38,11 @@ SSDEEP | `12288:LolAuV9z2EANK58REqU5kx2WrdKjde1BCgWVKNGBtD//Bt3O/5s5Ria:CJ2EN8u3
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ApplyTrustOffline.exe](ApplyTrustOffline.exe-98B12E2A9465260A0315BBA96F82B984.md) | 35
 
 
 

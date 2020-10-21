@@ -18,6 +18,9 @@ SHA256 | `F41A8470C4ECF503B576879A9043DF5781F4F08D688012E3DB391E04C8EB894A`
 SHA384 | `0D365F2EF487A1A395BE136B35E30F9B4B6ED43562854C9C73F2EDA234F7966173B26946091964E0CD6201DFE83F06FC`
 SHA512 | `106FF0B628BBA2D6FD3C55818F0874B75DD93102B351C4219773ED8409547B21C3834A5EC0181A06A8A32C1C83DD68019972F6422764F1A3FA0783414C956BE9`
 SSDEEP | `6144:yCETqMqDmF4vgBiEv8iZv9KypcnIErF/lCE+/GH5enhZhHW:yC9MqCMgBDv8+Kypcnvg/GH0nhZhHW`
+IMP | `B12619881D79C3ACADF45E752A58554A`
+PESHA1 | `881792E752F8D7307AD67D7A9CF0ED051AFC1506`
+PE256 | `3A7726537240CF05BF40F10AA1AEF4912ACD8558F8BDE470E793F4E4FADB5888`
 
 ## Runtime Data
 
@@ -152,11 +155,18 @@ help - Alias not found.
 
 ```
 
+### Child Processes:
+conhost.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wbem\WMIC.exe |
 
 
 ## Signature
@@ -176,7 +186,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f41a8470c4ecf503b576879a9043df5781f4f08d688012e3db391e04c8eb894a/detection/
 
 
 ## Possible Misuse

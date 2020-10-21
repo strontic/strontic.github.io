@@ -73,7 +73,6 @@ File Name / Variants | Description
 **[acwow64.dll](library/acwow64.dll-A9BA138DB55D4B054832DC3261F9AFC6.md)** | Windows Compatibility for 32bit Apps on Win64. 
 **[AcXtrnal.dll](library/AcXtrnal.dll-6714C34AF5710C44F094E231DA53F514.md)** ([2](library/AcXtrnal.dll-C440FBC28A0F97CAABF1E614B49B3C5D.md)) | Windows Compatibility DLL. 
 **[ADAL.DLL](library/ADAL.DLL-659C6186FD2933520125E04CA8D5BDBA.md)** ([2](library/adal.dll-9DE873C8B85E41B4BE3985761C3FC3E9.md)) ([3](library/ADAL.DLL-C7457B164D22F17CA1CB50647CD7EC32.md)) ([4](library/adal.dll-DF0D356FE3AF695DB60449C59F751D26.md)) | ADAL.Native. 
-**[ADAL.DLL](library/ADAL.DLL-659C6186FD2933520125E04CA8D5BDBA.md)** ([2](library/adal.dll-9DE873C8B85E41B4BE3985761C3FC3E9.md)) ([3](library/ADAL.DLL-C7457B164D22F17CA1CB50647CD7EC32.md)) ([4](library/adal.dll-DF0D356FE3AF695DB60449C59F751D26.md)) | ADAL.Native. 
 **[ADALPREVIOUS.DLL](library/ADALPREVIOUS.DLL-B6FAA843E911BB7E37BFC507C920B5D2.md)** ([2](library/ADALPREVIOUS.DLL-C2BE83ADE1292E3F43A0B0C616622010.md)) | ADAL.Native. 
 **[adammigrate.dll](library/adammigrate.dll-08C232848EFD76131E4CDC10BEFF3574.md)** ([2](library/adammigrate.dll-D2CB2B521B61D3F26628CA40E5BD05E9.md)) | Active Directory Lightweight Directory Services migration plugin. 
 **[AdaptiveCards.dll](library/AdaptiveCards.dll-AB3BA285A93B577D736CCE667FD12A77.md)** ([2](library/AdaptiveCards.dll-C8C6B6ED3D00D8D076C9C100315CD445.md)) | Windows Adaptive Cards API Server. 
@@ -132,7 +131,6 @@ File Name / Variants | Description
 **[api-ms-win-core-file-l1-2-0.dll](library/api-ms-win-core-file-l1-2-0.dll-0E39085E743FE241985D51DFE635A577.md)** ([2](library/api-ms-win-core-file-l1-2-0.dll-19DF2B0F78DC3D8C470E836BAE85E1FF.md)) ([3](library/api-ms-win-core-file-l1-2-0.dll-5920340CD13A1F61C9B02096F1636739.md)) ([4](library/api-ms-win-core-file-l1-2-0.dll-C7B0DCD9935DA9BDC9B390B4B0A9ABAC.md)) ([5](library/api-ms-win-core-file-l1-2-0.dll-EA4AE42721460002DC31515F295AD1C4.md)) ([6](library/api-ms-win-core-file-l1-2-0.dll-F6D1216E974FB76585FD350EBDC30648.md)) | ApiSet Stub DLL. 
 **[api-ms-win-core-file-l1-2-1.dll](library/api-ms-win-core-file-l1-2-1.dll-0593ABE17094761B2B01ACDDECF2B57C.md)** ([2](library/api-ms-win-core-file-l1-2-1.dll-CA2F72C1D65B915F252F9945CBDEC989.md)) | ApiSet Stub DLL. 
 **[api-ms-win-core-file-l2-1-0.dll](library/api-ms-win-core-file-l2-1-0.dll-48F0DECAB97C9567D21DDC59204A3AEE.md)** ([2](library/API-MS-Win-core-file-l2-1-0.dll-7BD70A0B41FF61D8A0FAB8DFB0328D92.md)) ([3](library/api-ms-win-core-file-l2-1-0.dll-AD895B2A99A3EC18F1690BBAC1E2037A.md)) ([4](library/api-ms-win-core-file-l2-1-0.dll-ADB3471F89E47CD93B6854D629906809.md)) ([5](library/api-ms-win-core-file-l2-1-0.dll-BFB08FB09E8D68673F2F0213C59E2B97.md)) ([6](library/API-MS-Win-core-file-l2-1-0.dll-FBBF4919089436CAD4D4A7A219F419DA.md)) | ApiSet Stub DLL. 
-**[api-ms-win-core-file-l2-1-0.dll](library/api-ms-win-core-file-l2-1-0.dll-48F0DECAB97C9567D21DDC59204A3AEE.md)** ([2](library/API-MS-Win-core-file-l2-1-0.dll-7BD70A0B41FF61D8A0FAB8DFB0328D92.md)) ([3](library/api-ms-win-core-file-l2-1-0.dll-AD895B2A99A3EC18F1690BBAC1E2037A.md)) ([4](library/api-ms-win-core-file-l2-1-0.dll-ADB3471F89E47CD93B6854D629906809.md)) ([5](library/api-ms-win-core-file-l2-1-0.dll-BFB08FB09E8D68673F2F0213C59E2B97.md)) ([6](library/API-MS-Win-core-file-l2-1-0.dll-FBBF4919089436CAD4D4A7A219F419DA.md)) | ApiSet Stub DLL. 
 **[API-MS-Win-core-file-l2-1-1.dll](library/API-MS-Win-core-file-l2-1-1.dll-0C859F6F10199A156FB9A139CF28507D.md)** ([2](library/API-MS-Win-core-file-l2-1-1.dll-70E072F366C38539B0AE942B08132BC4.md)) | ApiSet Stub DLL. 
 **[api-ms-win-core-handle-l1-1-0.dll](library/api-ms-win-core-handle-l1-1-0.dll-0A0084D4B3635E4D8EBAB587DCFCC16C.md)** ([2](library/api-ms-win-core-handle-l1-1-0.dll-0B5D110A0CD6132F62CBF0017111C920.md)) ([3](library/api-ms-win-core-handle-l1-1-0.dll-7F691E0B6B1341133394608A0C9E00B0.md)) | ApiSet Stub DLL. 
 **[api-ms-win-core-heap-l1-1-0.dll](library/api-ms-win-core-heap-l1-1-0.dll-0AEAF9CE58CBD0AF1E30D03B45C21F81.md)** ([2](library/api-ms-win-core-heap-l1-1-0.dll-28C8DCCD9300103FABD0B946764EA971.md)) ([3](library/api-ms-win-core-heap-l1-1-0.dll-378B68E38537632FB3337B2CF38EB4E1.md)) | ApiSet Stub DLL. 
@@ -188,7 +186,6 @@ File Name / Variants | Description
 **[api-ms-win-core-version-l1-1-0.dll](library/api-ms-win-core-version-l1-1-0.dll-429D8B6498E23908AE7CEDA1123499C9.md)** ([2](library/api-ms-win-core-version-l1-1-0.dll-60C3AA0275AB401269FCC5343CD24942.md)) | ApiSet Stub DLL. 
 **[api-ms-win-core-wow64-l1-1-0.dll](library/api-ms-win-core-wow64-l1-1-0.dll-4C054F9E647DC6CE57CD16AB9953CD6E.md)** ([2](library/api-ms-win-core-wow64-l1-1-0.dll-B599F037E4BB79B6528ED8B02083C21A.md)) | ApiSet Stub DLL. 
 **[api-ms-win-core-xstate-l1-1-0.dll](library/api-ms-win-core-xstate-l1-1-0.dll-10CBB19C6CA333F5FBC4E04C00B96C2A.md)** ([2](library/api-ms-win-core-xstate-l1-1-0.dll-60BFD539C9E9CD108F74BD6F2C3E9DB7.md)) | ApiSet Stub DLL. 
-**[API-MS-Win-core-xstate-l2-1-0.dll](library/API-MS-Win-core-xstate-l2-1-0.dll-268554F2D0B88943FB1040CE7D005F4B.md)** ([2](library/api-ms-win-core-xstate-l2-1-0.dll-42DC903598FF9D2BFB92D3F1F1563A92.md)) ([3](library/API-MS-Win-core-xstate-l2-1-0.dll-BBBF3EC15C02D9BE7FE945A2A88B49A1.md)) ([4](library/api-ms-win-core-xstate-l2-1-0.dll-E20C50CB320A5718AE869D8EC4D460CA.md)) | ApiSet Stub DLL. 
 **[API-MS-Win-core-xstate-l2-1-0.dll](library/API-MS-Win-core-xstate-l2-1-0.dll-268554F2D0B88943FB1040CE7D005F4B.md)** ([2](library/api-ms-win-core-xstate-l2-1-0.dll-42DC903598FF9D2BFB92D3F1F1563A92.md)) ([3](library/API-MS-Win-core-xstate-l2-1-0.dll-BBBF3EC15C02D9BE7FE945A2A88B49A1.md)) ([4](library/api-ms-win-core-xstate-l2-1-0.dll-E20C50CB320A5718AE869D8EC4D460CA.md)) | ApiSet Stub DLL. 
 **[api-ms-win-crt-conio-l1-1-0.dll](library/api-ms-win-crt-conio-l1-1-0.dll-057BD0ABEF440891440A32C9FF22AE4E.md)** ([2](library/api-ms-win-crt-conio-l1-1-0.dll-1C076EC0F179634653EFB5899508D448.md)) ([3](library/api-ms-win-crt-conio-l1-1-0.dll-3B038338C1EB179D8EEE3883CF42BC3E.md)) ([4](library/api-ms-win-crt-conio-l1-1-0.dll-B0C872C3A8C0AB961A50E44F23AA4EBB.md)) ([5](library/api-ms-win-crt-conio-l1-1-0.dll-E3D0F4E97F07033C1FEAF72362BBB367.md)) | ApiSet Stub DLL. 
 **[api-ms-win-crt-convert-l1-1-0.dll](library/api-ms-win-crt-convert-l1-1-0.dll-38E590DFCA134B56CB7F75298E4EB5C6.md)** ([2](library/api-ms-win-crt-convert-l1-1-0.dll-5245F303E96166B8E625DD0A97E2D66A.md)) ([3](library/api-ms-win-crt-convert-l1-1-0.dll-945D6A6B13160DA2D950A9438EBB1421.md)) ([4](library/api-ms-win-crt-convert-l1-1-0.dll-AFC20D2EF1F6042F34006D01BFE82777.md)) ([5](library/api-ms-win-crt-convert-l1-1-0.dll-C8DBF0CA88FACFE87899168A7F7DB52C.md)) ([6](library/api-ms-win-crt-convert-l1-1-0.dll-CAF0416EB3C991C41DA32ABC58E237A0.md)) | ApiSet Stub DLL. 
@@ -438,7 +435,6 @@ File Name / Variants | Description
 **[BthAvrcpAppSvc.dll](library/BthAvrcpAppSvc.dll-384226DC2D47BA4EDBD0CFF81FEC04F0.md)** | Bluetooth AVRCP Application Bridge Service DLL. 
 **[bthci.dll](library/bthci.dll-A7A6D882A47E9165708376FBA133E3F0.md)** | Bluetooth Class Installer. 
 **[bthmigplugin.dll](library/bthmigplugin.dll-66B04B08355AD31A3832A5ECE6D0EEFF.md)** ([2](library/bthmigplugin.dll-83848771739EBEA43FB72373CB4147CD.md)) ([3](library/BthMigPlugin.dll-9614694FF263B23FC7085D4A0A5F2888.md)) | Offline Files Migration Plugin. 
-**[bthmigplugin.dll](library/bthmigplugin.dll-66B04B08355AD31A3832A5ECE6D0EEFF.md)** ([2](library/bthmigplugin.dll-83848771739EBEA43FB72373CB4147CD.md)) ([3](library/BthMigPlugin.dll-9614694FF263B23FC7085D4A0A5F2888.md)) | Offline Files Migration Plugin. 
 **[BthMtpContextHandler.dll](library/BthMtpContextHandler.dll-94371C6B255C5073BF6962970AD29391.md)** | Bluetooth MTP Context Menu Handler. 
 **[bthpanapi.dll](library/bthpanapi.dll-320EB6F937F1CF89C2FA706800D1A984.md)** | bthpanapi. 
 **[BthpanContextHandler.dll](library/BthpanContextHandler.dll-18CC6144498E3F5C60752E3EB6A68FDE.md)** | Bthpan Context Handler. 
@@ -576,7 +572,6 @@ File Name / Variants | Description
 **[ChtCangjieDS.dll](library/ChtCangjieDS.dll-75C3CE49A71DA48B395B66DBC957453E.md)** | "ChtCangjieDS.DYNLINK". 
 **[ChtChangjieDS.DLL](library/ChtChangjieDS.DLL-7A193AA043AF9C4B734F572E5DA85EF6.md)** | Microsoft IME. 
 **[ChtHkStrokeDS.dll](library/ChtHkStrokeDS.dll-AC8F0F7BF114F914B7C688F7565F4865.md)** | "ChtHkStrokeDS.DYNLINK". 
-**[ChtQuickDS.dll](library/ChtQuickDS.dll-0C8FE2650533D2C32147E56F548D3DDB.md)** ([2](library/ChtQuickDS.DLL-3FE06F854A45CE5BE26C057BC4E69238.md)) | Microsoft IME. 
 **[ChtQuickDS.dll](library/ChtQuickDS.dll-0C8FE2650533D2C32147E56F548D3DDB.md)** ([2](library/ChtQuickDS.DLL-3FE06F854A45CE5BE26C057BC4E69238.md)) | Microsoft IME. 
 **[ChxAdvancedDS.DLL](library/ChxAdvancedDS.DLL-D35B67B0957BFAF9FD8038A8163A7A25.md)** | Microsoft IME. 
 **[ChxAPDS.dll](library/ChxAPDS.dll-222040FA569AE2F9BEC580D86996AA59.md)** | "ChxAPDS.DYNLINK". 
@@ -757,7 +752,6 @@ File Name / Variants | Description
 **[csfnetutils.dll](library/csfnetutils.dll-6D1A8A6F124ABAF9DF2B7516F8EA49FA.md)** | . 
 **[csfstorage.dll](library/csfstorage.dll-DDDF801D88C8DE532FEB6AE75FE04E2B.md)** | . 
 **[Csi.dll](library/Csi.dll-1592DB3DBBB0AF5B3B39CDAECBF4F02C.md)** ([2](library/csi.dll-B29B845FC2F70DF5A80AAC6AB666A861.md)) | Microsoft Office Document Cache. 
-**[Csi.dll](library/Csi.dll-1592DB3DBBB0AF5B3B39CDAECBF4F02C.md)** ([2](library/csi.dll-B29B845FC2F70DF5A80AAC6AB666A861.md)) | Microsoft Office Document Cache. 
 **[csiagent.dll](library/csiagent.dll-D0155538340CD55A284B5012D0EE141B.md)** | CSI Agent. 
 **[CSIRESOURCES.DLL](library/CSIRESOURCES.DLL-FE144875CE829D748C32234FC8FAA894.md)** | Office Document Cache Intl Pluggable UI. 
 **[CspCellularSettings.dll](library/CspCellularSettings.dll-FBD22EF53576E75573C6485FA5C2E33D.md)** | Configuration Service Provider CellSettings. 
@@ -789,7 +783,6 @@ File Name / Variants | Description
 **[d3d9.dll](library/d3d9.dll-7F7CA5C4731B95A497F0A02DE50835B9.md)** ([2](library/d3d9.dll-ACEDDFA9C83B10324EC5F04134834695.md)) | Direct3D 9 Runtime. 
 **[d3d9on12.dll](library/d3d9on12.dll-3ABE3EE2F93E6214B4F4B6082CC7E902.md)** ([2](library/d3d9on12.dll-50F768426629E33DE33660882BD345C6.md)) | Direct3D9 DDI to Direct3D12 API Mapping Layer. 
 **[d3dcompiler_43.dll](library/d3dcompiler_43.dll-1C9B45E87528B8BB8CFA884EA0099A85.md)** | Direct3D HLSL Compiler. 
-**[D3DCompiler_47.dll](library/D3DCompiler_47.dll-108CA222C0E323D630A23B533EEC4819.md)** ([2](library/D3DCompiler_47.dll-831913AA49979B8EEC99961DC870EA15.md)) ([3](library/d3dcompiler_47.dll-F4A9368BACDF73554B2C7E22F0F6FF6D.md)) ([4](library/d3dcompiler_47.dll-F63597DF3B9348FFC0700915768987D1.md)) ([5](library/d3dcompiler_47.dll-F76B1D2CD95385B21E61874761DDB53A.md)) | Direct3D HLSL Compiler for Redistribution. 
 **[D3DCompiler_47.dll](library/D3DCompiler_47.dll-108CA222C0E323D630A23B533EEC4819.md)** ([2](library/D3DCompiler_47.dll-831913AA49979B8EEC99961DC870EA15.md)) ([3](library/d3dcompiler_47.dll-F4A9368BACDF73554B2C7E22F0F6FF6D.md)) ([4](library/d3dcompiler_47.dll-F63597DF3B9348FFC0700915768987D1.md)) ([5](library/d3dcompiler_47.dll-F76B1D2CD95385B21E61874761DDB53A.md)) | Direct3D HLSL Compiler for Redistribution. 
 **[d3dim.dll](library/d3dim.dll-D8BB3D0602FD06BF16C88AFB612C1479.md)** | Microsoft Direct3D. 
 **[d3dim700.dll](library/d3dim700.dll-0CB5CAA5DF14DCF6A23704DCC778E6E1.md)** | Microsoft Direct3D. 
@@ -832,9 +825,7 @@ File Name / Variants | Description
 **[DavSyncProvider.dll](library/DavSyncProvider.dll-2C6494880CD38BD46315A5FC33E51692.md)** ([2](library/DavSyncProvider.dll-9CAC9B7B25FEB7BCB65945F6FAACEDFA.md)) | DAV sync engine for contacts, calendar. 
 **[daxexec.dll](library/daxexec.dll-2EBD4451BB2A93293103C7CED801F44B.md)** ([2](library/daxexec.dll-4BB2F05AD5F524DEA66621EF388CF78D.md)) | daxexec. 
 **[dbgcore.dll](library/dbgcore.dll-4A77035E26FA131A2F639CEA80E89773.md)** ([2](library/dbgcore.dll-5CA8253328BA74B02D867A5F40305F9B.md)) ([3](library/DBGCORE.DLL-A059A0F8636E282DCF14DE1432BB4A53.md)) | Windows Core Debugging Helpers. 
-**[dbgcore.dll](library/dbgcore.dll-4A77035E26FA131A2F639CEA80E89773.md)** ([2](library/dbgcore.dll-5CA8253328BA74B02D867A5F40305F9B.md)) ([3](library/DBGCORE.DLL-A059A0F8636E282DCF14DE1432BB4A53.md)) | Windows Core Debugging Helpers. 
 **[dbgeng.dll](library/dbgeng.dll-E7664F3968776133238C7BF8C6B69F29.md)** ([2](library/dbgeng.dll-EF55173C8516A70B7368525352C2ACAA.md)) | Windows Symbolic Debugger Engine. 
-**[DBGHELP.DLL](library/DBGHELP.DLL-2D79BA335E29077A25BF80D3329C8548.md)** ([2](library/dbghelp.dll-4003E34416EBD25E4C115D49DC15E1A7.md)) ([3](library/dbghelp.dll-536DA2D9D51FA6C0E83F7267B55CEF30.md)) ([4](library/dbghelp.dll-7328F8D7D70D9663C987E36324675DD4.md)) ([5](library/dbghelp.dll-D0DE7DDBC3590657C68F246D53D229A9.md)) | Windows Image Helper. 
 **[DBGHELP.DLL](library/DBGHELP.DLL-2D79BA335E29077A25BF80D3329C8548.md)** ([2](library/dbghelp.dll-4003E34416EBD25E4C115D49DC15E1A7.md)) ([3](library/dbghelp.dll-536DA2D9D51FA6C0E83F7267B55CEF30.md)) ([4](library/dbghelp.dll-7328F8D7D70D9663C987E36324675DD4.md)) ([5](library/dbghelp.dll-D0DE7DDBC3590657C68F246D53D229A9.md)) | Windows Image Helper. 
 **[DbgModel.dll](library/DbgModel.dll-A6D5287F8A41229DD74F25E2B8E80600.md)** ([2](library/DbgModel.dll-CD89BB01FC245826610DA1F19F336A3B.md)) | Windows Debugger Data Model. 
 **[dbnetlib.dll](library/dbnetlib.dll-5DF4C9FE0C55CA7C92E1E766E22A08D9.md)** ([2](library/dbnetlib.dll-C0AE72F705994985C108BFEF00F34518.md)) | Winsock Oriented Net DLL for SQL Clients. 
@@ -1217,7 +1208,6 @@ File Name / Variants | Description
 **[ExpatWrapper.dll](library/ExpatWrapper.dll-FC4C1362AB7BD08B15812067CD9C133F.md)** | . 
 **[ExplorerFrame.dll](library/ExplorerFrame.dll-126075BFE56C561A8353A14AF5AE1455.md)** ([2](library/ExplorerFrame.dll-33C8BE6E42AEA9B75AFD808982228905.md)) | ExplorerFrame. 
 **[expsrv.dll](library/expsrv.dll-394FFD8FACD3F664B84D921FE624D5BE.md)** ([2](library/EXPSRV.DLL-FD4CDDA69C1154D04C794F24DD36D30F.md)) | Visual Basic for Applications Runtime - Expression Service. 
-**[expsrv.dll](library/expsrv.dll-394FFD8FACD3F664B84D921FE624D5BE.md)** ([2](library/EXPSRV.DLL-FD4CDDA69C1154D04C794F24DD36D30F.md)) | Visual Basic for Applications Runtime - Expression Service. 
 **[EXPTOOWS.DLL](library/EXPTOOWS.DLL-79238DE62AA8B482EBA9181AA6745DD8.md)** | Export Excel List to SharePoint. 
 **[EXSEC32.DLL](library/EXSEC32.DLL-3D77661C19828C081B7F7EC45B910585.md)** | digsig32. 
 **[ExSMime.dll](library/ExSMime.dll-4A7C179B0BD93F8ABE1F018CB3BB7781.md)** ([2](library/ExSMime.dll-97951465AA9DA5B17F8357C4C9EE1F08.md)) | LExsmime. 
@@ -1349,7 +1339,6 @@ File Name / Variants | Description
 **[FWPUCLNT.DLL](library/FWPUCLNT.DLL-1A021183AB80F1C28F58D3269E8281E6.md)** ([2](library/FWPUCLNT.DLL-AA60A4FA1A7357C47F547B149B50E5A7.md)) | FWP/IPsec User-Mode API. 
 **[FwRemoteSvr.dll](library/FwRemoteSvr.dll-14AF9B827848EB34090EB4662D919AE9.md)** ([2](library/FwRemoteSvr.dll-9DE6C5C3BD34EB4DD644DA3C0F0EC510.md)) | Windows Defender Firewall Remote APIs Server. 
 **[FXSAPI.dll](library/FXSAPI.dll-1809C63D90C130D5AF1141995E8BCCEF.md)** ([2](library/FXSAPI.dll-24C44EFD7FBDD3F2AB160A2A471327B2.md)) ([3](library/FXSAPI.DLL-A848FD0168022DA9EC9F0042406779FC.md)) | Microsoft  Fax API Support DLL. 
-**[FXSAPI.dll](library/FXSAPI.dll-1809C63D90C130D5AF1141995E8BCCEF.md)** ([2](library/FXSAPI.dll-24C44EFD7FBDD3F2AB160A2A471327B2.md)) ([3](library/FXSAPI.DLL-A848FD0168022DA9EC9F0042406779FC.md)) | Microsoft  Fax API Support DLL. 
 **[FXSCOM.dll](library/FXSCOM.dll-3B690AEA43ADE35B1C2CBD31F4722ED5.md)** ([2](library/FXSCOM.dll-AA414E95872C0410CB345B03315A8557.md)) | Microsoft Fax Server COM Client Interface. 
 **[FXSCOMEX.dll](library/FXSCOMEX.dll-563FE82CB661D130491D333F47FB081B.md)** ([2](library/FXSCOMEX.dll-85A4E708A726E472318207213AA60E5D.md)) | Microsoft Fax Server Extended COM Client Interface. 
 **[FXSCOMPOSE.dll](library/FXSCOMPOSE.dll-9C057D3207BA840799FFDB32EAD1E5FC.md)** | Compose Form. 
@@ -1364,7 +1353,6 @@ File Name / Variants | Description
 **[FXSROUTE.dll](library/FXSROUTE.dll-C6A94AA25AFA6E25DDD7E2BB79CD8E84.md)** | Microsoft  Fax Routing DLL. 
 **[FXSST.dll](library/FXSST.dll-805DA5DFA15387C0528B441B9EE8C4E4.md)** | Fax Service. 
 **[FXST30.dll](library/FXST30.dll-A4D603913DC89791EEE2E1B1F690957F.md)** | Microsoft  Fax T30 Protocol Service Provider. 
-**[FXSTIFF.dll](library/FXSTIFF.dll-4CFC5C904A1AAABF0156B1B042C77302.md)** ([2](library/FXSTIFF.DLL-67D48CC6D1C6181F564962A322C569CE.md)) | Microsoft  Fax TIFF library. 
 **[FXSTIFF.dll](library/FXSTIFF.dll-4CFC5C904A1AAABF0156B1B042C77302.md)** ([2](library/FXSTIFF.DLL-67D48CC6D1C6181F564962A322C569CE.md)) | Microsoft  Fax TIFF library. 
 **[FXSUI.DLL](library/FXSUI.DLL-329D6F02DF4EF832D0E9644814E823A4.md)** | Microsoft  Fax Printer Driver UI. 
 **[FXSUTILITY.dll](library/FXSUTILITY.dll-6D2CA8863B6FCF5FC2CDBD1416A18BEF.md)** | Fax Utility DLL. 
@@ -1537,7 +1525,6 @@ File Name / Variants | Description
 **[ifsutilx.dll](library/ifsutilx.dll-27A7213091CDA31E84967BEAD4D29BD1.md)** ([2](library/ifsutilx.dll-5AF397E2EFC60D018F7B16725F048658.md)) | IFS Utility Extension DLL. 
 **[igdDiag.dll](library/igdDiag.dll-741F85A6E6DA2D99A4275CD21E0CA4F7.md)** | IGD Helper Class. 
 **[IGX.DLL](library/IGX.DLL-2570A3C0C0368C88E4B6BF3756DAE38B.md)** | Microsoft Igx. 
-**[IHDS.DLL](library/IHDS.DLL-41FFF00DEBDD57CED82F902973A5D3DD.md)** ([2](library/IHDS.dll-64F52521EA449854430F08E95F74054E.md)) | . 
 **[IHDS.DLL](library/IHDS.DLL-41FFF00DEBDD57CED82F902973A5D3DD.md)** ([2](library/IHDS.dll-64F52521EA449854430F08E95F74054E.md)) | . 
 **[ihvrilproxy.dll](library/ihvrilproxy.dll-536DE5DFBB752A17789210732292A523.md)** | Windows Cellular RIL Proxy. 
 **[iismig.dll](library/iismig.dll-A640C3C81DB5583DF6CC5D5AEB4FC1EE.md)** | IIS Migration Plugin. 
@@ -1715,14 +1702,9 @@ File Name / Variants | Description
 **[k5sprt32.dll](library/k5sprt32.dll-58F567D00F55541DD937AF7F88FD09BF.md)** | Kerberos v5 support - internal support code for MIT Kerberos for Windows. 
 **[k5sprt64.dll](library/k5sprt64.dll-752F83B01F2B578192B7EC222EBD852E.md)** | Kerberos v5 support - internal support code for MIT Kerberos for Windows. 
 **[kbd101.dll](library/kbd101.dll-620AEC7F506C84E7F2294B68613B33DF.md)** ([2](library/kbd101.DLL-A851DBD2BDE5DB8054A69C033EC10E80.md)) | JP Japanese Keyboard Layout for 101. 
-**[kbd101.dll](library/kbd101.dll-620AEC7F506C84E7F2294B68613B33DF.md)** ([2](library/kbd101.DLL-A851DBD2BDE5DB8054A69C033EC10E80.md)) | JP Japanese Keyboard Layout for 101. 
-**[kbd101a.dll](library/kbd101a.dll-70C9B237F59C0D074DCD8A2BDE21F98C.md)** ([2](library/kbd101a.DLL-E4F681853BD2257EC1212B2D2671985C.md)) | KO Hangeul Keyboard Layout for 101 (Type A). 
 **[kbd101a.dll](library/kbd101a.dll-70C9B237F59C0D074DCD8A2BDE21F98C.md)** ([2](library/kbd101a.DLL-E4F681853BD2257EC1212B2D2671985C.md)) | KO Hangeul Keyboard Layout for 101 (Type A). 
 **[kbd101b.DLL](library/kbd101b.DLL-62CCA1467B39187CA5FBFFEDE02B3895.md)** ([2](library/kbd101b.dll-FB34FA1C14D40CCCA8718FFC5F6353B1.md)) | KO Hangeul Keyboard Layout for 101(Type B). 
-**[kbd101b.DLL](library/kbd101b.DLL-62CCA1467B39187CA5FBFFEDE02B3895.md)** ([2](library/kbd101b.dll-FB34FA1C14D40CCCA8718FFC5F6353B1.md)) | KO Hangeul Keyboard Layout for 101(Type B). 
 **[kbd101c.DLL](library/kbd101c.DLL-CCAC429694CAC90D69625F749ACE3106.md)** ([2](library/kbd101c.dll-D0E3F0D15D7F1963F968B2A8CFC57C6B.md)) | KO Hangeul Keyboard Layout for 101(Type C). 
-**[kbd101c.DLL](library/kbd101c.DLL-CCAC429694CAC90D69625F749ACE3106.md)** ([2](library/kbd101c.dll-D0E3F0D15D7F1963F968B2A8CFC57C6B.md)) | KO Hangeul Keyboard Layout for 101(Type C). 
-**[kbd103.DLL](library/kbd103.DLL-3DE911C5464EE795E3C28AB459350887.md)** ([2](library/kbd103.dll-963AC554EF890B820546E57CAD30A965.md)) | KO Hangeul Keyboard Layout for 103. 
 **[kbd103.DLL](library/kbd103.DLL-3DE911C5464EE795E3C28AB459350887.md)** ([2](library/kbd103.dll-963AC554EF890B820546E57CAD30A965.md)) | KO Hangeul Keyboard Layout for 103. 
 **[kbd106.dll](library/kbd106.dll-09B4D5510B4AB04DF865F8D57A79F7D5.md)** ([2](library/kbd106.dll-E10FD6BACF6A64C940457D7AE03BDF09.md)) | JP Japanese Keyboard Layout for 106. 
 **[kbd106n.dll](library/kbd106n.dll-374F92882A8736A42355543BFF8DB9AC.md)** ([2](library/kbd106n.dll-9726E833242ED931F1975BCFBF2EBDB5.md)) | JP Japanese Keyboard Layout for 106. 
@@ -1798,7 +1780,6 @@ File Name / Variants | Description
 **[KBDHU.DLL](library/KBDHU.DLL-108452A37F3A93AA57E478E5E9D50842.md)** ([2](library/KBDHU.DLL-1DA037553D347FB84D8BB2AEB0E9AEB4.md)) | Hungarian Keyboard Layout. 
 **[KBDHU1.DLL](library/KBDHU1.DLL-354CABC08C71BDFCDEEC095157908591.md)** ([2](library/KBDHU1.DLL-653531730239ED628DD0E25F16FDB4C7.md)) | Hungarian 101-key Keyboard Layout. 
 **[kbdibm02.dll](library/kbdibm02.dll-0509067A57326834A914060E93B77DD1.md)** ([2](library/kbdibm02.DLL-110BB11112903EE1BECE36BABA256754.md)) | JP Japanese Keyboard Layout for IBM 5576-002/003. 
-**[kbdibm02.dll](library/kbdibm02.dll-0509067A57326834A914060E93B77DD1.md)** ([2](library/kbdibm02.DLL-110BB11112903EE1BECE36BABA256754.md)) | JP Japanese Keyboard Layout for IBM 5576-002/003. 
 **[KBDIBO.DLL](library/KBDIBO.DLL-52E1C1680161E53E89A1735B0FCA9E71.md)** ([2](library/KBDIBO.DLL-6B52F3BD777952882CC8F3F369B53A23.md)) | Igbo Keyboard Layout. 
 **[KBDIC.DLL](library/KBDIC.DLL-34B4E8E8687FE822E96C6487D1F6E5E0.md)** ([2](library/KBDIC.DLL-72132E928DB3C95D37A20BA358463000.md)) | Icelandic Keyboard Layout. 
 **[KBDINASA.DLL](library/KBDINASA.DLL-3B235FA7DF91D0BD665C1525DEA09272.md)** ([2](library/KBDINASA.DLL-E124DD28BB5844B13E4059D9C2738563.md)) | Assamese (Inscript) Keyboard Layout. 
@@ -1851,12 +1832,8 @@ File Name / Variants | Description
 **[KBDMYAN.DLL](library/KBDMYAN.DLL-7FB5C6F476ADE5D4A8738FE6BCB68B18.md)** ([2](library/KBDMYAN.DLL-E5C3BDF360993B367653B18583607166.md)) | Myanmar Keyboard Layout. 
 **[KBDNE.DLL](library/KBDNE.DLL-3AA593373903000C59260AED5B10A691.md)** ([2](library/KBDNE.DLL-A69DA340C8DBB87AFF2506A8F4231401.md)) | Dutch Keyboard Layout. 
 **[kbdnec.DLL](library/kbdnec.DLL-69E1A7FAA2093CF9EBF3F76289E55CA0.md)** ([2](library/kbdnec.dll-A02AC3333BC93F0AE236ECF134CF4A40.md)) | JP Japanese Keyboard Layout for (NEC PC-9800). 
-**[kbdnec.DLL](library/kbdnec.DLL-69E1A7FAA2093CF9EBF3F76289E55CA0.md)** ([2](library/kbdnec.dll-A02AC3333BC93F0AE236ECF134CF4A40.md)) | JP Japanese Keyboard Layout for (NEC PC-9800). 
-**[kbdnec95.dll](library/kbdnec95.dll-A722511713E23CE89BDD7E3A7C8150A6.md)** ([2](library/kbdnec95.DLL-DE23650282C12B1A67D744CC2BFF3024.md)) | JP Japanese Keyboard Layout for (NEC PC-9800 Windows 95). 
 **[kbdnec95.dll](library/kbdnec95.dll-A722511713E23CE89BDD7E3A7C8150A6.md)** ([2](library/kbdnec95.DLL-DE23650282C12B1A67D744CC2BFF3024.md)) | JP Japanese Keyboard Layout for (NEC PC-9800 Windows 95). 
 **[kbdnecat.DLL](library/kbdnecat.DLL-2DD9BD09C268093D860F5F9601EB864C.md)** ([2](library/kbdnecat.dll-C7C5181427369A928996260BC1E36C74.md)) | JP Japanese Keyboard Layout for (NEC PC-9800 on PC98-NX). 
-**[kbdnecat.DLL](library/kbdnecat.DLL-2DD9BD09C268093D860F5F9601EB864C.md)** ([2](library/kbdnecat.dll-C7C5181427369A928996260BC1E36C74.md)) | JP Japanese Keyboard Layout for (NEC PC-9800 on PC98-NX). 
-**[kbdnecnt.DLL](library/kbdnecnt.DLL-4E090A52657849839BBFB4E01CB12DD8.md)** ([2](library/kbdnecnt.dll-6F6CF88B3E5836403DD318AAB0ED4625.md)) | JP Japanese NEC PC-9800 Keyboard Layout. 
 **[kbdnecnt.DLL](library/kbdnecnt.DLL-4E090A52657849839BBFB4E01CB12DD8.md)** ([2](library/kbdnecnt.dll-6F6CF88B3E5836403DD318AAB0ED4625.md)) | JP Japanese NEC PC-9800 Keyboard Layout. 
 **[KBDNEPR.DLL](library/KBDNEPR.DLL-D2646BDF7CFC141D676D28670CF28FC1.md)** ([2](library/KBDNEPR.DLL-E492C7D75655396DBCD902085B6C6BD9.md)) | Nepali Keyboard Layout. 
 **[kbdnko.dll](library/kbdnko.dll-55FA7F058C61133E7EA3852E3D451AAA.md)** ([2](library/kbdnko.dll-EF09833E585A5D059047588D6546D8E7.md)) | N'Ko Keyboard Layout. 
@@ -2006,7 +1983,6 @@ File Name / Variants | Description
 **[libgcc_s_seh-1.dll](library/libgcc_s_seh-1.dll-1DBAFB01681EF68052DFD49CB7ADA337.md)** | . 
 **[libgcrypt-20.dll](library/libgcrypt-20.dll-EDA3DB94E8CF5003A2CBF56E7B21DC2F.md)** | Libgcrypt - The GNU Crypto Library. Provided under the terms of the GNU Lesser General Public License (LGPLv2.1+).
 **[libgio-2.0-0.dll](library/libgio-2.0-0.dll-4FEE77FAD641C1AF6CDD5812716AF93D.md)** | Gio. 
-**[libGLESv2.dll](library/libGLESv2.dll-084D3601A035718E1A31FC5633B752D7.md)** ([2](library/libGLESV2.dll-711993FB9DAA83CC2A59DC417C534A82.md)) ([3](library/libGLESv2.dll-81E99CA0CE84E24BDA4E6442E7F9DE14.md)) ([4](library/libGLESv2.dll-9C2CF36FA7D7FADA6E0D9DB118EC9C8C.md)) ([5](library/libGLESv2.dll-BE4381D2E5B924081D59444C6E9CCEB8.md)) | SwiftShader libGLESv2 32-bit Dynamic Link Library. 
 **[libGLESv2.dll](library/libGLESv2.dll-084D3601A035718E1A31FC5633B752D7.md)** ([2](library/libGLESV2.dll-711993FB9DAA83CC2A59DC417C534A82.md)) ([3](library/libGLESv2.dll-81E99CA0CE84E24BDA4E6442E7F9DE14.md)) ([4](library/libGLESv2.dll-9C2CF36FA7D7FADA6E0D9DB118EC9C8C.md)) ([5](library/libGLESv2.dll-BE4381D2E5B924081D59444C6E9CCEB8.md)) | SwiftShader libGLESv2 32-bit Dynamic Link Library. 
 **[libglib-2.0-0.dll](library/libglib-2.0-0.dll-64E5DFF0C118680153C5323AC4D39555.md)** | GLib. 
 **[libgmodule-2.0-0.dll](library/libgmodule-2.0-0.dll-BC52A98452AE7DD52F4E76C66C1A4A03.md)** | GModule. 
@@ -2276,10 +2252,8 @@ File Name / Variants | Description
 **[Microsoft.Data.OData.NetFX35.dll](library/Microsoft.Data.OData.NetFX35.dll-2A36CBC5FEEC59FAAD05CC43AB59C975.md)** | Microsoft.Data.OData.NetFX35.dll. Microsoft.Data.OData.NetFX35.dll
 **[Microsoft.Data.OData.Query.NetFX35.dll](library/Microsoft.Data.OData.Query.NetFX35.dll-14B1C89CB4E00B440439954BC1C1159C.md)** | Microsoft.Data.OData.Query.NetFX35.dll. Microsoft.Data.OData.Query.NetFX35.dll
 **[soft.Data.Recommendation.Client.Core.dll](library/Microsoft.Data.Recommendation.Client.Core.dll-623E096CD8C743062B7AAC415961AF21.md)** ([2](library/MICROSOFT.DATA.RECOMMENDATION.CLIENT.CORE.DLL-A919FDB7B9B8AB3C539FA2556C070C03.md)) | Client.Core. 
-**[soft.Data.Recommendation.Client.Core.dll](library/Microsoft.Data.Recommendation.Client.Core.dll-623E096CD8C743062B7AAC415961AF21.md)** ([2](library/MICROSOFT.DATA.RECOMMENDATION.CLIENT.CORE.DLL-A919FDB7B9B8AB3C539FA2556C070C03.md)) | Client.Core. 
 **[t.Data.Recommendation.Client.Picasso.dll](library/icrosoft.Data.Recommendation.Client.Picasso.dll-936BC81451FE47AB552AD7942BE496B7.md)** |  . 
 **[ecommendation.Client.Picasso.Sampler.dll](library/.Data.Recommendation.Client.Picasso.Sampler.dll-A979E66F1C38A13809E0CD90FC7DDDE4.md)** |  . 
-**[Microsoft.Data.Recommendation.Common.dll](library/Microsoft.Data.Recommendation.Common.dll-4E588DA588282E34DAD799712B51F04B.md)** ([2](library/MICROSOFT.DATA.RECOMMENDATION.COMMON.DLL-D4B07B7445A5B1B38CF14A755973F741.md)) |  . 
 **[Microsoft.Data.Recommendation.Common.dll](library/Microsoft.Data.Recommendation.Common.dll-4E588DA588282E34DAD799712B51F04B.md)** ([2](library/MICROSOFT.DATA.RECOMMENDATION.COMMON.DLL-D4B07B7445A5B1B38CF14A755973F741.md)) |  . 
 **[Microsoft.Data.SapClient.dll](library/Microsoft.Data.SapClient.dll-29AA7F82745A3B92B10E1A73D6755ABB.md)** | . 
 **[rosoft.DataIntegration.FuzzyMatching.dll](library/Microsoft.DataIntegration.FuzzyMatching.dll-CC6769874981EC080B17F7B6DDC143B8.md)** | Microsoft.DataIntegration.FuzzyMatching. 
@@ -3114,7 +3088,6 @@ File Name / Variants | Description
 **[ocsetapi.dll](library/ocsetapi.dll-23BC4F98A5F7B0810CA560BF3DF76EF7.md)** ([2](library/ocsetapi.dll-C21C76EB69C2341726564264A28E8B8B.md)) | Windows Optional Component Setup API. 
 **[ODATACPP.DLL](library/ODATACPP.DLL-2C82D9601786AD25DCB427AAD342B5F3.md)** | . 
 **[ODBC32.DLL](library/ODBC32.DLL-2268D8C6AF8240EC83E8DCE5DB23D18E.md)** ([2](library/odbc32.dll-470EFF3C4939802D1589F193E230C0ED.md)) ([3](library/odbc32.dll-CB615EC6EDDF22E818E496FAE69C2221.md)) | ODBC Driver Manager. 
-**[ODBC32.DLL](library/ODBC32.DLL-2268D8C6AF8240EC83E8DCE5DB23D18E.md)** ([2](library/odbc32.dll-470EFF3C4939802D1589F193E230C0ED.md)) ([3](library/odbc32.dll-CB615EC6EDDF22E818E496FAE69C2221.md)) | ODBC Driver Manager. 
 **[odbcbcp.dll](library/odbcbcp.dll-13B6AA6AF706345F9E1F664FBBFA7412.md)** ([2](library/odbcbcp.dll-F31F09E750893C5CDDD974BCB4946527.md)) | BCP for ODBC. 
 **[odbcconf.dll](library/odbcconf.dll-0DF72F82DBA6D180C4D8B9D41E3B4A6B.md)** ([2](library/odbcconf.dll-E1AEBABC6F8113402FC91FCBD8EB31CB.md)) | ODBC Driver Configuration Program. 
 **[odbccp32.dll](library/odbccp32.dll-7AF13ABCC8D1C54FC64C568DF31DF7A1.md)** ([2](library/odbccp32.dll-D62436FE746D96B8364F22CCF311079C.md)) | ODBC Installer. 
@@ -3123,7 +3096,6 @@ File Name / Variants | Description
 **[odbcint.dll](library/odbcint.dll-60FC498C758436AB861F8FCA7069F629.md)** ([2](library/odbcint.dll-E8A1C9272DDEC13E0FA7FFC17EBB78F5.md)) | ODBC Resources. 
 **[odbcji32.dll](library/odbcji32.dll-5016F3F40B3756201C05C462B45435EC.md)** | Microsoft ODBC Desktop Driver Pack 3.5. 
 **[odbcjt32.dll](library/odbcjt32.dll-FA100EC4ABE6646313B808610B6D1227.md)** | Microsoft ODBC Desktop Driver Pack 3.5. 
-**[ODBCTRAC.DLL](library/ODBCTRAC.DLL-2519D5C827722EB0144F9A4F6884BB25.md)** ([2](library/odbctrac.dll-44A45BBC9100EF87CDE53C3C8B459543.md)) ([3](library/odbctrac.dll-AC1D288710A26F201A499AF9EB2BE3D4.md)) | ODBC Driver Manager Trace. 
 **[ODBCTRAC.DLL](library/ODBCTRAC.DLL-2519D5C827722EB0144F9A4F6884BB25.md)** ([2](library/odbctrac.dll-44A45BBC9100EF87CDE53C3C8B459543.md)) ([3](library/odbctrac.dll-AC1D288710A26F201A499AF9EB2BE3D4.md)) | ODBC Driver Manager Trace. 
 **[oddbse32.dll](library/oddbse32.dll-A3F30C23164C1B79BA769CE920DC98D1.md)** | ODBC (3.0) driver for DBase. 
 **[odexl32.dll](library/odexl32.dll-EB913EDA09F9275474E308D526B4E139.md)** | ODBC (3.0) driver for Excel. 
@@ -3135,7 +3107,6 @@ File Name / Variants | Description
 **[oemlicense.dll](library/oemlicense.dll-2D1224ECDAA8F7560C6E39CBCD720C2E.md)** ([2](library/oemlicense.dll-6386438A973A5C6071A7DF4165285766.md)) | Client Licensing Platform Client Provisioning. 
 **[offfilt.dll](library/offfilt.dll-4B77853032A5D72B4128215FCDBB5C64.md)** ([2](library/offfilt.dll-8B5C7A7149E0782B1BD92D45E637C1B8.md)) | OFFICE Filter. 
 **[offfiltx.dll](library/offfiltx.dll-2CCDA4E046548BE0CF5294BC865617D6.md)** ([2](library/offfiltx.dll-431BF05D594977E0EE6F8DE3AA5AF699.md)) | Microsoft Office Open XML Format Filter. 
-**[Office.dll](library/Office.dll-57FDD8BE6071DFC46128DCCAD5E25863.md)** ([2](library/OFFICE.DLL-745897FC2816625A0E5F1AC0F9AF16A2.md)) | Microsoft.Office.Core. 
 **[Office.dll](library/Office.dll-57FDD8BE6071DFC46128DCCAD5E25863.md)** ([2](library/OFFICE.DLL-745897FC2816625A0E5F1AC0F9AF16A2.md)) | Microsoft.Office.Core. 
 **[OfficeC2RCom.dll](library/OfficeC2RCom.dll-8E106BA5179FFB2C27E116CD68BCEDB5.md)** | Microsoft Office Click-to-Run COM Interface. 
 **[officecsp.dll](library/officecsp.dll-18D14FFDC9612468BCAB2C7EDB59D57C.md)** | Office CSP. 
@@ -3638,7 +3609,6 @@ File Name / Variants | Description
 **[rfxvmt.dll](library/rfxvmt.dll-00A359A94B9AE182F3434266432F04D1.md)** ([2](library/rfxvmt.dll-4210156EE0B0BE3BF76A7A33951BD44A.md)) | Microsoft RemoteFX VM Transport. 
 **[rgb9rast.dll](library/rgb9rast.dll-3412820929803B4F5299D5E6EB877027.md)** ([2](library/rgb9rast.dll-5C1227594207775ABD0FC654E913FAE1.md)) | . 
 **[riched20.dll](library/riched20.dll-1784500A959ADCEA288B845ECCFD7532.md)** ([2](library/RICHED20.DLL-A8AACBF17712C5D6BE27C0A8C925E588.md)) ([3](library/riched20.dll-EDB1973E067EE192A8B4200A80E15731.md)) | Rich Text Edit Control, v3.1. Richedit Version 3.1
-**[riched20.dll](library/riched20.dll-1784500A959ADCEA288B845ECCFD7532.md)** ([2](library/RICHED20.DLL-A8AACBF17712C5D6BE27C0A8C925E588.md)) ([3](library/riched20.dll-EDB1973E067EE192A8B4200A80E15731.md)) | Rich Text Edit Control, v3.1. Richedit Version 3.1
 **[riched32.dll](library/riched32.dll-1CE02C235692362633DD0B6D6FF7E19A.md)** ([2](library/riched32.dll-39D8572666F8786F53D32C8436CE6B99.md)) | Wrapper Dll for Richedit 1.0. 
 **[rilproxy.dll](library/rilproxy.dll-70E5E88231068A5053AEAA4E1D952F9F.md)** | Windows Cellular RIL Proxy. 
 **[RjvClassicApp.dll](library/RjvClassicApp.dll-8F0D51EC64C9D7AE8D4C1B4FE0F1E4F1.md)** | Windows System Reset Platform Plugin for Classic App Migration. 
@@ -3946,7 +3916,6 @@ File Name / Variants | Description
 **[sppcommdlg.dll](library/sppcommdlg.dll-25059CB01909EFC95C978A189C24C20B.md)** | Software Licensing UI API. 
 **[sppinst.dll](library/sppinst.dll-3BB0B80DD106E1AAC40D85B971069CD5.md)** ([2](library/sppinst.dll-5A6DCB82C3F64AAF6AAA7E45CA91CA9B.md)) | SPP CMI Installer Plug-in DLL. 
 **[sppmig.dll](library/sppmig.dll-273CE650954C528D8183896EC36A8C93.md)** ([2](library/sppmig.dll-AEC1CED19EDE84770DD602DE48D9CB39.md)) ([3](library/SppMig.dll-E3762A46DC0F0BA05C4DEAA5021C6518.md)) | SPP migration plug-in DLL. 
-**[sppmig.dll](library/sppmig.dll-273CE650954C528D8183896EC36A8C93.md)** ([2](library/sppmig.dll-AEC1CED19EDE84770DD602DE48D9CB39.md)) ([3](library/SppMig.dll-E3762A46DC0F0BA05C4DEAA5021C6518.md)) | SPP migration plug-in DLL. 
 **[sppnp.dll](library/sppnp.dll-A027229E47184DD200D2920CAA20AFFC.md)** | PnP module of SysPrep. 
 **[sppobjs.dll](library/sppobjs.dll-A2CF3E6A731FE421B6188491BA433D50.md)** | Software Protection Platform Plugins. 
 **[spprgrss.dll](library/spprgrss.dll-3DBA2403B49A2F72B508ECEA43263236.md)** | Setup Progress Framework. 
@@ -4232,7 +4201,6 @@ File Name / Variants | Description
 **[UcmCx.dll](library/UcmCx.dll-328B0131B3A5B88B66DF5DDE39E32B88.md)** | USB Connector Manager UMDF 2.0 Class Extension. 
 **[ucmhc.dll](library/ucmhc.dll-A220EDC8FFCAE4A3045E883A5AA787B1.md)** ([2](library/ucmhc.dll-E0DD62ECB270B3DDE86C657A2B0855B4.md)) | UCM Helper Class. 
 **[UCRTBASE.DLL](library/UCRTBASE.DLL-21E6732EF4EF91B8EFE2F17AD0562093.md)** ([2](library/ucrtbase.dll-34168A4AF676D6A5733BBF7A0905D3C7.md)) ([3](library/ucrtbase.dll-34A153A39639A1DB64761AEDACDFA4AE.md)) ([4](library/ucrtbase.dll-3E0303F978818E5C944F5485792696FD.md)) ([5](library/ucrtbase.dll-443102390481641E6CF3845FAD34C892.md)) ([6](library/ucrtbase.dll-5453676DE3348EF9131FD369CE3A5D61.md)) ([7](library/ucrtbase.dll-C9C70E684CA8E1D74FCFA17DBC6EAAB4.md)) ([8](library/ucrtbase.dll-D2C5233317767EE9329F470C39B046B1.md)) ([9](library/ucrtbase.dll-ED27C615D14DADBE15581E8CB7ABBE1C.md)) ([10](library/ucrtbase.dll-F0163ACCB7C9D9506FA3122FAC2A15A9.md)) | Microsoft C Runtime Library. 
-**[UCRTBASE.DLL](library/UCRTBASE.DLL-21E6732EF4EF91B8EFE2F17AD0562093.md)** ([2](library/ucrtbase.dll-34168A4AF676D6A5733BBF7A0905D3C7.md)) ([3](library/ucrtbase.dll-34A153A39639A1DB64761AEDACDFA4AE.md)) ([4](library/ucrtbase.dll-3E0303F978818E5C944F5485792696FD.md)) ([5](library/ucrtbase.dll-443102390481641E6CF3845FAD34C892.md)) ([6](library/ucrtbase.dll-5453676DE3348EF9131FD369CE3A5D61.md)) ([7](library/ucrtbase.dll-C9C70E684CA8E1D74FCFA17DBC6EAAB4.md)) ([8](library/ucrtbase.dll-D2C5233317767EE9329F470C39B046B1.md)) ([9](library/ucrtbase.dll-ED27C615D14DADBE15581E8CB7ABBE1C.md)) ([10](library/ucrtbase.dll-F0163ACCB7C9D9506FA3122FAC2A15A9.md)) | Microsoft C Runtime Library. 
 **[ucrtbase_clr0400.dll](library/ucrtbase_clr0400.dll-BFE20E1D9BEBE61CD8898663FDACB74E.md)** ([2](library/ucrtbase_clr0400.dll-F8F171BE1820544E15B555847005355C.md)) | Microsoft C Runtime Library. 
 **[ucrtbase_enclave.dll](library/ucrtbase_enclave.dll-96670A776CD429D733BCE405BDCF87D1.md)** | Microsoft C Runtime Library. 
 **[udhisapi.dll](library/udhisapi.dll-1BCE777F1F8F0E504F2B71AFDA5CC823.md)** ([2](library/udhisapi.dll-B70B355AC3D2C3B4F19BF9BB99BC19E9.md)) | UPnP Device Host ISAPI Extension. 
@@ -4352,7 +4320,6 @@ File Name / Variants | Description
 **[vaultcli.dll](library/vaultcli.dll-0EFE7D82BC8B6B61E120B2B372764A79.md)** ([2](library/vaultcli.dll-7B4B47A2DB822854AD6B5E7B30258DF0.md)) | Credential Vault Client Library. 
 **[VaultRoaming.dll](library/VaultRoaming.dll-C65FCBE182A6409AD2A219D09EEC06C3.md)** | Vault Roaming. 
 **[vaultsvc.dll](library/vaultsvc.dll-FF8A7059BCDCB4B57D945948487F604B.md)** | Credential Manager Service. 
-**[VBAJET32.DLL](library/VBAJET32.DLL-749E7D6EEE803711402D759C68E446E7.md)** ([2](library/vbajet32.dll-A8B799B873537232963697D7CDEC2CFA.md)) | Visual Basic for Applications Development Environment - Expression Service Loader. 
 **[VBAJET32.DLL](library/VBAJET32.DLL-749E7D6EEE803711402D759C68E446E7.md)** ([2](library/vbajet32.dll-A8B799B873537232963697D7CDEC2CFA.md)) | Visual Basic for Applications Development Environment - Expression Service Loader. 
 **[VBE7.DLL](library/VBE7.DLL-E44D64F58DBA1EBAEBCF9FBE54488EC1.md)** | Visual Basic Design Time Environment. March 16, 2020
 **[VBE7INTL.DLL](library/VBE7INTL.DLL-351F9A04E55F6ADFED41F48DDBEF6C27.md)** | Visual Basic Environment International Resources. June 17, 2019

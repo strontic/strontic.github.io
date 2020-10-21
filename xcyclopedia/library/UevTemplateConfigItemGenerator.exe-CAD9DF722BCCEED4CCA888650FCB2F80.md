@@ -8,6 +8,10 @@ excerpt: What is UevTemplateConfigItemGenerator.exe?
 * File Path: `C:\WINDOWS\system32\UevTemplateConfigItemGenerator.exe`
 * Description:  
 
+## Screenshot
+
+![UevTemplateConfigItemGenerator.exe](screenshots/UevTemplateConfigItemGenerator.exe-45FB133A09574504B7548E74E3A27992-1.png)
+
 ## Hashes
 
 Type | Hash

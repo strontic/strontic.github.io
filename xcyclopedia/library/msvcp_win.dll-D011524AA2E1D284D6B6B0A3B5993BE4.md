@@ -26,939 +26,939 @@ PE256 | `B5FD671A73F77DF80499EEC685BEA55295D91852F40D94D0205F36E32EE29ACA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(__int64) __ptr64` | 302 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(bool) __ptr64` | 304 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::flush(void) __ptr64` | 875 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::tie(class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 1292 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::tie(void)const __ptr64` | 1293 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 (__cdecl*)(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64)) __ptr64` | 298 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(double) __ptr64` | 295 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(float) __ptr64` | 294 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(class std::ios_base & __ptr64 (__cdecl*)(class std::ios_base & __ptr64)) __ptr64` | 299 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 (__cdecl*)(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64)) __ptr64` | 297 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 300 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::write(unsigned short const * __ptr64,__int64) __ptr64` | 1345 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(unsigned __int64) __ptr64` | 286 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(unsigned int) __ptr64` | 274 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(short) __ptr64` | 271 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(long double) __ptr64` | 279 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(long) __ptr64` | 275 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(unsigned long) __ptr64` | 276 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::seekp(__int64,int) __ptr64` | 1195 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::seekp(class std::fpos<struct _Mbstatet>) __ptr64` | 1194 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::put(unsigned short) __ptr64` | 1123 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(unsigned short) __ptr64` | 272 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(void const * __ptr64) __ptr64` | 284 | Exported Function
-`public: class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64 __cdecl std::basic_ios<char,struct std::char_traits<char> >::rdbuf(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 1159 | Exported Function
-`public: class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64 __cdecl std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const __ptr64` | 1160 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::tie(void)const __ptr64` | 1295 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::write(wchar_t const * __ptr64,__int64) __ptr64` | 1346 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::tie(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 1294 | Exported Function
-`public: class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubsetbuf(char * __ptr64,__int64) __ptr64` | 1116 | Exported Function
-`public: class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::rdbuf(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 1163 | Exported Function
-`public: class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::rdbuf(void)const __ptr64` | 1164 | Exported Function
-`public: class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubsetbuf(unsigned short * __ptr64,__int64) __ptr64` | 1117 | Exported Function
-`public: class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::rdbuf(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 1161 | Exported Function
-`public: class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::rdbuf(void)const __ptr64` | 1162 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::seekp(class std::fpos<struct _Mbstatet>) __ptr64` | 1196 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(short) __ptr64` | 288 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(unsigned __int64) __ptr64` | 303 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(long) __ptr64` | 292 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(int) __ptr64` | 290 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(long double) __ptr64` | 296 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(unsigned int) __ptr64` | 291 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::put(wchar_t) __ptr64` | 1124 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::seekp(__int64,int) __ptr64` | 1197 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(void const * __ptr64) __ptr64` | 301 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(unsigned long) __ptr64` | 293 | Exported Function
-`public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(unsigned short) __ptr64` | 289 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(int) __ptr64` | 273 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(bool) __ptr64` | 270 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ios<char,struct std::char_traits<char> > & __ptr64 (__cdecl*)(class std::basic_ios<char,struct std::char_traits<char> > & __ptr64)) __ptr64` | 264 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(__int64) __ptr64` | 268 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::unget(void) __ptr64` | 1318 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::flush(void) __ptr64` | 873 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64)) __ptr64` | 263 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(float) __ptr64` | 260 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int) __ptr64` | 256 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(double) __ptr64` | 261 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 266 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::ios_base & __ptr64 (__cdecl*)(class std::ios_base & __ptr64)) __ptr64` | 265 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::seekg(class std::fpos<struct _Mbstatet>) __ptr64` | 1187 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(unsigned __int64 & __ptr64) __ptr64` | 248 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(unsigned int & __ptr64) __ptr64` | 240 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(short & __ptr64) __ptr64` | 237 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(long & __ptr64) __ptr64` | 241 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(long double & __ptr64) __ptr64` | 245 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(unsigned long & __ptr64) __ptr64` | 242 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::read(wchar_t * __ptr64,__int64) __ptr64` | 1168 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::seekg(__int64,int) __ptr64` | 1188 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::putback(wchar_t) __ptr64` | 1157 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(unsigned short & __ptr64) __ptr64` | 238 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(void * __ptr64 & __ptr64) __ptr64` | 246 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(__int64) __ptr64` | 285 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(bool) __ptr64` | 287 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::flush(void) __ptr64` | 874 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > * __ptr64 __cdecl std::basic_ios<char,struct std::char_traits<char> >::tie(class std::basic_ostream<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 1290 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > * __ptr64 __cdecl std::basic_ios<char,struct std::char_traits<char> >::tie(void)const __ptr64` | 1291 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 (__cdecl*)(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64)) __ptr64` | 281 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(double) __ptr64` | 278 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(float) __ptr64` | 277 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(class std::ios_base & __ptr64 (__cdecl*)(class std::ios_base & __ptr64)) __ptr64` | 282 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 (__cdecl*)(class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64)) __ptr64` | 280 | Exported Function
-`public: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator<<(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 283 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::write(char const * __ptr64,__int64) __ptr64` | 1344 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(unsigned __int64) __ptr64` | 269 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(unsigned int) __ptr64` | 257 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(short) __ptr64` | 254 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(long double) __ptr64` | 262 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(long) __ptr64` | 258 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(unsigned long) __ptr64` | 259 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::seekp(__int64,int) __ptr64` | 1193 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::seekp(class std::fpos<struct _Mbstatet>) __ptr64` | 1192 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::put(char) __ptr64` | 1122 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(unsigned short) __ptr64` | 255 | Exported Function
-`public: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(void const * __ptr64) __ptr64` | 267 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,long double & __ptr64)const __ptr64` | 928 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned __int64 & __ptr64)const __ptr64` | 931 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,long & __ptr64)const __ptr64` | 924 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,double & __ptr64)const __ptr64` | 927 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,float & __ptr64)const __ptr64` | 926 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned int & __ptr64)const __ptr64` | 923 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char,char)const __ptr64` | 937 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 938 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,void * __ptr64 & __ptr64)const __ptr64` | 929 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned long & __ptr64)const __ptr64` | 925 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned short & __ptr64)const __ptr64` | 922 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,bool & __ptr64)const __ptr64` | 932 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char,char)const __ptr64` | 935 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 936 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,void * __ptr64 & __ptr64)const __ptr64` | 918 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned long & __ptr64)const __ptr64` | 914 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned short & __ptr64)const __ptr64` | 911 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get_date(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 940 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get_year(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 953 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,__int64 & __ptr64)const __ptr64` | 930 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get_weekday(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 950 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get_monthname(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 943 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get_time(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 947 | Exported Function
-`public: class std::locale __cdecl std::ios_base::imbue(class std::locale const & __ptr64) __ptr64` | 1018 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,__int64)const __ptr64` | 1130 | Exported Function
-`public: class std::locale __cdecl std::ios_base::getloc(void)const __ptr64` | 964 | Exported Function
-`public: class std::locale __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::getloc(void)const __ptr64` | 963 | Exported Function
-`public: class std::locale __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubimbue(class std::locale const & __ptr64) __ptr64` | 1103 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,bool)const __ptr64` | 1132 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,unsigned __int64)const __ptr64` | 1131 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,unsigned long)const __ptr64` | 1126 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,long)const __ptr64` | 1125 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,double)const __ptr64` | 1127 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,long double)const __ptr64` | 1128 | Exported Function
-`public: class std::locale __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubimbue(class std::locale const & __ptr64) __ptr64` | 1102 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get_weekday(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 951 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get_year(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 954 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get_time(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 948 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get_date(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 941 | Exported Function
-`public: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::get_monthname(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 944 | Exported Function
-`public: class std::locale __cdecl std::basic_ios<char,struct std::char_traits<char> >::imbue(class std::locale const & __ptr64) __ptr64` | 1012 | Exported Function
-`public: class std::locale __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubimbue(class std::locale const & __ptr64) __ptr64` | 1101 | Exported Function
-`public: class std::locale __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::getloc(void)const __ptr64` | 962 | Exported Function
-`public: class std::locale __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const __ptr64` | 961 | Exported Function
-`public: class std::locale __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::imbue(class std::locale const & __ptr64) __ptr64` | 1013 | Exported Function
-`public: class std::locale __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::imbue(class std::locale const & __ptr64) __ptr64` | 1014 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned int & __ptr64)const __ptr64` | 912 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubseekoff(__int64,int,int) __ptr64` | 1108 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubseekoff(__int64,unsigned int,unsigned int) __ptr64` | 1109 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubseekpos(class std::fpos<struct _Mbstatet>,unsigned int) __ptr64` | 1113 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubseekoff(__int64,unsigned int,unsigned int) __ptr64` | 1107 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubseekpos(class std::fpos<struct _Mbstatet>,int) __ptr64` | 1112 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubseekpos(class std::fpos<struct _Mbstatet>,int) __ptr64` | 1114 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,__int64 & __ptr64)const __ptr64` | 908 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,bool & __ptr64)const __ptr64` | 910 | Exported Function
-`public: class std::ios_base::Init & __ptr64 __cdecl std::ios_base::Init::operator=(class std::ios_base::Init const & __ptr64) __ptr64` | 195 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubseekpos(class std::fpos<struct _Mbstatet>,unsigned int) __ptr64` | 1115 | Exported Function
-`public: class std::ios_base & __ptr64 __cdecl std::ios_base::copyfmt(class std::ios_base const & __ptr64) __ptr64` | 692 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubseekoff(__int64,int,int) __ptr64` | 1106 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::tellg(void) __ptr64` | 1286 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_ostream<char,struct std::char_traits<char> >::tellp(void) __ptr64` | 1287 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::tellg(void) __ptr64` | 1285 | Exported Function
-`public: class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubsetbuf(wchar_t * __ptr64,__int64) __ptr64` | 1118 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_istream<char,struct std::char_traits<char> >::tellg(void) __ptr64` | 1284 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::tellp(void) __ptr64` | 1288 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubseekpos(class std::fpos<struct _Mbstatet>,int) __ptr64` | 1110 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubseekpos(class std::fpos<struct _Mbstatet>,unsigned int) __ptr64` | 1111 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubseekoff(__int64,unsigned int,unsigned int) __ptr64` | 1105 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::tellp(void) __ptr64` | 1289 | Exported Function
-`public: class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubseekoff(__int64,int,int) __ptr64` | 1104 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get_year(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 952 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,__int64 & __ptr64)const __ptr64` | 919 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get_weekday(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 949 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get_monthname(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 942 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get_time(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 946 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,bool & __ptr64)const __ptr64` | 921 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,long double & __ptr64)const __ptr64` | 917 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned __int64 & __ptr64)const __ptr64` | 920 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,long & __ptr64)const __ptr64` | 913 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,double & __ptr64)const __ptr64` | 916 | Exported Function
-`public: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,float & __ptr64)const __ptr64` | 915 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get_date(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 939 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,long double & __ptr64)const __ptr64` | 906 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned __int64 & __ptr64)const __ptr64` | 909 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,long & __ptr64)const __ptr64` | 902 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,double & __ptr64)const __ptr64` | 905 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,float & __ptr64)const __ptr64` | 904 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned int & __ptr64)const __ptr64` | 901 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char const * __ptr64,char const * __ptr64)const __ptr64` | 934 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char,char)const __ptr64` | 933 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,void * __ptr64 & __ptr64)const __ptr64` | 907 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned long & __ptr64)const __ptr64` | 903 | Exported Function
-`public: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned short & __ptr64)const __ptr64` | 900 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(int & __ptr64) __ptr64` | 239 | Exported Function
-`public: bool __cdecl std::ios_base::operator!(void)const __ptr64` | 305 | Exported Function
-`public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(char) __ptr64` | 865 | Exported Function
-`public: bool __cdecl std::ios_base::good(void)const __ptr64` | 966 | Exported Function
-`public: bool __cdecl std::ios_base::eof(void)const __ptr64` | 857 | Exported Function
-`public: bool __cdecl std::ios_base::fail(void)const __ptr64` | 864 | Exported Function
-`public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const __ptr64` | 866 | Exported Function
-`public: char __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::narrow(wchar_t,char)const __ptr64` | 1063 | Exported Function
-`public: char __cdecl std::ctype<char>::narrow(char,char)const __ptr64` | 1064 | Exported Function
-`public: char __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::narrow(unsigned short,char)const __ptr64` | 1062 | Exported Function
-`public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::narrow(char,char)const __ptr64` | 1061 | Exported Function
-`public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::widen(char)const __ptr64` | 1333 | Exported Function
-`public: bool __cdecl std::ios_base::bad(void)const __ptr64` | 671 | Exported Function
-`public: bool __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::ipfx(bool) __ptr64` | 1038 | Exported Function
-`public: bool __cdecl std::basic_ostream<char,struct std::char_traits<char> >::opfx(void) __ptr64` | 1070 | Exported Function
-`public: bool __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::_Ipfx(bool) __ptr64` | 540 | Exported Function
-`public: bool __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::_Ipfx(bool) __ptr64` | 539 | Exported Function
-`public: bool __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::ipfx(bool) __ptr64` | 1037 | Exported Function
-`public: bool __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::opfx(void) __ptr64` | 1071 | Exported Function
-`public: bool __cdecl std::ctype<unsigned short>::is(short,unsigned short)const __ptr64` | 1042 | Exported Function
-`public: bool __cdecl std::ctype<wchar_t>::is(short,wchar_t)const __ptr64` | 1044 | Exported Function
-`public: bool __cdecl std::ctype<char>::is(short,char)const __ptr64` | 1040 | Exported Function
-`public: bool __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::opfx(void) __ptr64` | 1072 | Exported Function
-`public: bool __cdecl std::codecvt_base::always_noconv(void)const __ptr64` | 670 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::scan_not(short,char const * __ptr64,char const * __ptr64)const __ptr64` | 1180 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::tolower(char * __ptr64,char const * __ptr64)const __ptr64` | 1297 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::scan_is(short,char const * __ptr64,char const * __ptr64)const __ptr64` | 1177 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::is(char const * __ptr64,char const * __ptr64,short * __ptr64)const __ptr64` | 1039 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::narrow(char const * __ptr64,char const * __ptr64,char,char * __ptr64)const __ptr64` | 1065 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::toupper(char * __ptr64,char const * __ptr64)const __ptr64` | 1303 | Exported Function
-`public: class std::_Facet_base & __ptr64 __cdecl std::_Facet_base::operator=(class std::_Facet_base const & __ptr64) __ptr64` | 198 | Exported Function
-`public: class std::_Init_locks & __ptr64 __cdecl std::_Init_locks::operator=(class std::_Init_locks const & __ptr64) __ptr64` | 199 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<wchar_t>::widen(char const * __ptr64,char const * __ptr64,wchar_t * __ptr64)const __ptr64` | 1340 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<char>::widen(char const * __ptr64,char const * __ptr64,char * __ptr64)const __ptr64` | 1337 | Exported Function
-`public: char const * __ptr64 __cdecl std::ctype<unsigned short>::widen(char const * __ptr64,char const * __ptr64,unsigned short * __ptr64)const __ptr64` | 1339 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Yarn<char>::c_str(void)const __ptr64` | 672 | Exported Function
-`public: char __cdecl std::ctype<unsigned short>::narrow(unsigned short,char)const __ptr64` | 1066 | Exported Function
-`public: char __cdecl std::ctype<wchar_t>::narrow(wchar_t,char)const __ptr64` | 1068 | Exported Function
-`public: char __cdecl std::ctype<char>::widen(char)const __ptr64` | 1336 | Exported Function
-`public: char __cdecl std::ctype<char>::tolower(char)const __ptr64` | 1296 | Exported Function
-`public: char __cdecl std::ctype<char>::toupper(char)const __ptr64` | 1302 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Locinfo::_Getdays(void)const __ptr64` | 459 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Locinfo::_Gettrue(void)const __ptr64` | 482 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Yarn<char>::_C_str(void)const __ptr64` | 408 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Locinfo::_Getname(void)const __ptr64` | 479 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Locinfo::_Getfalse(void)const __ptr64` | 460 | Exported Function
-`public: char const * __ptr64 __cdecl std::_Locinfo::_Getmonths(void)const __ptr64` | 478 | Exported Function
-`public: bool __cdecl std::basic_istream<char,struct std::char_traits<char> >::ipfx(bool) __ptr64` | 1036 | Exported Function
-`public: __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >(unsigned __int64) __ptr64` | 95 | Exported Function
-`public: __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 97 | Exported Function
-`public: __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 94 | Exported Function
-`public: __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 92 | Exported Function
-`public: __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(unsigned __int64) __ptr64` | 93 | Exported Function
-`public: __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(unsigned __int64) __ptr64` | 98 | Exported Function
-`public: __int64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::readsome(char * __ptr64,__int64) __ptr64` | 1169 | Exported Function
-`public: __int64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::gcount(void)const __ptr64` | 880 | Exported Function
-`public: __int64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::gcount(void)const __ptr64` | 879 | Exported Function
-`public: __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 100 | Exported Function
-`public: __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(unsigned __int64) __ptr64` | 101 | Exported Function
-`public: __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(unsigned __int64) __ptr64` | 90 | Exported Function
-`public: __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 81 | Exported Function
-`public: __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(unsigned __int64) __ptr64` | 82 | Exported Function
-`public: __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >(unsigned __int64) __ptr64` | 80 | Exported Function
-`public: __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(unsigned __int64) __ptr64` | 78 | Exported Function
-`public: __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 79 | Exported Function
-`public: __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 83 | Exported Function
-`public: __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(unsigned __int64) __ptr64` | 87 | Exported Function
-`public: __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 89 | Exported Function
-`public: __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 86 | Exported Function
-`public: __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(unsigned __int64) __ptr64` | 84 | Exported Function
-`public: __cdecl std::time_base::time_base(unsigned __int64) __ptr64` | 122 | Exported Function
-`public: __int64 __cdecl std::ios_base::width(void)const __ptr64` | 1343 | Exported Function
-`public: bool __cdecl std::_Yarn<char>::_Empty(void)const __ptr64` | 420 | Exported Function
-`public: __int64 __cdecl std::ios_base::width(__int64) __ptr64` | 1342 | Exported Function
-`public: __int64 __cdecl std::ios_base::precision(__int64) __ptr64` | 1099 | Exported Function
-`public: __int64 __cdecl std::ios_base::precision(void)const __ptr64` | 1100 | Exported Function
-`public: bool __cdecl std::_Yarn<char>::empty(void)const __ptr64` | 852 | Exported Function
-`public: bool __cdecl std::_Yarn<wchar_t>::empty(void)const __ptr64` | 854 | Exported Function
-`public: bool __cdecl std::basic_istream<char,struct std::char_traits<char> >::_Ipfx(bool) __ptr64` | 538 | Exported Function
-`public: bool __cdecl std::_Yarn<wchar_t>::_Empty(void)const __ptr64` | 422 | Exported Function
-`public: bool __cdecl std::_Yarn<unsigned short>::_Empty(void)const __ptr64` | 421 | Exported Function
-`public: bool __cdecl std::_Yarn<unsigned short>::empty(void)const __ptr64` | 853 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sputn(wchar_t const * __ptr64,__int64) __ptr64` | 1252 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::in_avail(void) __ptr64` | 1024 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sgetn(char * __ptr64,__int64) __ptr64` | 1235 | Exported Function
-`public: __int64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::readsome(wchar_t * __ptr64,__int64) __ptr64` | 1171 | Exported Function
-`public: __int64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::readsome(unsigned short * __ptr64,__int64) __ptr64` | 1170 | Exported Function
-`public: __int64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::gcount(void)const __ptr64` | 881 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const * __ptr64,__int64) __ptr64` | 1250 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::in_avail(void) __ptr64` | 1026 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sgetn(wchar_t * __ptr64,__int64) __ptr64` | 1237 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sputn(unsigned short const * __ptr64,__int64) __ptr64` | 1251 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::in_avail(void) __ptr64` | 1025 | Exported Function
-`public: __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sgetn(unsigned short * __ptr64,__int64) __ptr64` | 1236 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(float & __ptr64) __ptr64` | 226 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(int & __ptr64) __ptr64` | 222 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(double & __ptr64) __ptr64` | 227 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 236 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(class std::ios_base & __ptr64 (__cdecl*)(class std::ios_base & __ptr64)) __ptr64` | 235 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(long & __ptr64) __ptr64` | 224 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(unsigned int & __ptr64) __ptr64` | 223 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(unsigned long & __ptr64) __ptr64` | 225 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(unsigned __int64 & __ptr64) __ptr64` | 231 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(long double & __ptr64) __ptr64` | 228 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(short & __ptr64) __ptr64` | 220 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 (__cdecl*)(class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64)) __ptr64` | 233 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::get(unsigned short * __ptr64,__int64) __ptr64` | 891 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::get(unsigned short * __ptr64,__int64,unsigned short) __ptr64` | 892 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::get(unsigned short & __ptr64) __ptr64` | 888 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::get(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 889 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::get(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,unsigned short) __ptr64` | 890 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::getline(unsigned short * __ptr64,__int64) __ptr64` | 957 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(bool & __ptr64) __ptr64` | 232 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 (__cdecl*)(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64)) __ptr64` | 234 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(__int64 & __ptr64) __ptr64` | 230 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::getline(unsigned short * __ptr64,__int64,unsigned short) __ptr64` | 958 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::ignore(__int64,unsigned short) __ptr64` | 1010 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(__int64 & __ptr64) __ptr64` | 247 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(bool & __ptr64) __ptr64` | 249 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::ignore(__int64,unsigned short) __ptr64` | 1011 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::getline(wchar_t * __ptr64,__int64) __ptr64` | 959 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::getline(wchar_t * __ptr64,__int64,wchar_t) __ptr64` | 960 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 (__cdecl*)(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64)) __ptr64` | 251 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(double & __ptr64) __ptr64` | 244 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(float & __ptr64) __ptr64` | 243 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(class std::ios_base & __ptr64 (__cdecl*)(class std::ios_base & __ptr64)) __ptr64` | 252 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 (__cdecl*)(class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64)) __ptr64` | 250 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator>>(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 253 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::get(wchar_t * __ptr64,__int64,wchar_t) __ptr64` | 898 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::read(unsigned short * __ptr64,__int64) __ptr64` | 1167 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::seekg(__int64,int) __ptr64` | 1186 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::putback(unsigned short) __ptr64` | 1156 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(unsigned short & __ptr64) __ptr64` | 221 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator>>(void * __ptr64 & __ptr64) __ptr64` | 229 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::seekg(class std::fpos<struct _Mbstatet>) __ptr64` | 1185 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::get(wchar_t & __ptr64) __ptr64` | 896 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::get(wchar_t * __ptr64,__int64) __ptr64` | 897 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::get(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,wchar_t) __ptr64` | 895 | Exported Function
-`public: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::unget(void) __ptr64` | 1317 | Exported Function
-`public: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::get(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 894 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::unget(void) __ptr64` | 1316 | Exported Function
-`public: class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::copyfmt(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > const & __ptr64) __ptr64` | 690 | Exported Function
-`public: class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::copyfmt(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > const & __ptr64) __ptr64` | 691 | Exported Function
-`public: class std::basic_ios<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ios<char,struct std::char_traits<char> >::copyfmt(class std::basic_ios<char,struct std::char_traits<char> > const & __ptr64) __ptr64` | 689 | Exported Function
-`public: class std::_Yarn<wchar_t> & __ptr64 __cdecl std::_Yarn<wchar_t>::operator=(class std::_Yarn<wchar_t> const & __ptr64) __ptr64` | 181 | Exported Function
-`public: class std::_Yarn<wchar_t> & __ptr64 __cdecl std::_Yarn<wchar_t>::operator=(wchar_t const * __ptr64) __ptr64` | 182 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::get(char & __ptr64) __ptr64` | 882 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::get(class std::basic_streambuf<char,struct std::char_traits<char> > & __ptr64,char) __ptr64` | 884 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::getline(char * __ptr64,__int64) __ptr64` | 955 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::get(class std::basic_streambuf<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 883 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::get(char * __ptr64,__int64) __ptr64` | 885 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::get(char * __ptr64,__int64,char) __ptr64` | 886 | Exported Function
-`public: class std::_Yarn<unsigned short> & __ptr64 __cdecl std::_Yarn<unsigned short>::operator=(unsigned short const * __ptr64) __ptr64` | 180 | Exported Function
-`public: class std::_Timevec & __ptr64 __cdecl std::_Timevec::operator=(class std::_Timevec const & __ptr64) __ptr64` | 200 | Exported Function
-`public: class std::_Timevec __cdecl std::_Locinfo::_Gettnames(void)const __ptr64` | 481 | Exported Function
-`public: class std::_Locinfo & __ptr64 __cdecl std::_Locinfo::_Addcats(int,char const * __ptr64) __ptr64` | 402 | Exported Function
-`public: class std::_Iosb<int> & __ptr64 __cdecl std::_Iosb<int>::operator=(class std::_Iosb<int> && __ptr64) __ptr64` | 175 | Exported Function
-`public: class std::_Iosb<int> & __ptr64 __cdecl std::_Iosb<int>::operator=(class std::_Iosb<int> const & __ptr64) __ptr64` | 176 | Exported Function
-`public: class std::_Timevec __cdecl std::_Locinfo::_W_Gettnames(void)const __ptr64` | 645 | Exported Function
-`public: class std::_Yarn<char> & __ptr64 __cdecl std::_Yarn<char>::operator=(class std::_Yarn<char> const & __ptr64) __ptr64` | 177 | Exported Function
-`public: class std::_Yarn<unsigned short> & __ptr64 __cdecl std::_Yarn<unsigned short>::operator=(class std::_Yarn<unsigned short> const & __ptr64) __ptr64` | 179 | Exported Function
-`public: class std::_Yarn<char> & __ptr64 __cdecl std::_Yarn<char>::operator=(char const * __ptr64) __ptr64` | 178 | Exported Function
-`public: class std::_UShinit & __ptr64 __cdecl std::_UShinit::operator=(class std::_UShinit const & __ptr64) __ptr64` | 201 | Exported Function
-`public: class std::_Winit & __ptr64 __cdecl std::_Winit::operator=(class std::_Winit const & __ptr64) __ptr64` | 202 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(unsigned int & __ptr64) __ptr64` | 206 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(unsigned long & __ptr64) __ptr64` | 208 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(unsigned __int64 & __ptr64) __ptr64` | 214 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(long double & __ptr64) __ptr64` | 211 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(short & __ptr64) __ptr64` | 203 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(unsigned short & __ptr64) __ptr64` | 204 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::seekg(__int64,int) __ptr64` | 1184 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::seekg(class std::fpos<struct _Mbstatet>) __ptr64` | 1183 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::read(char * __ptr64,__int64) __ptr64` | 1166 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(void * __ptr64 & __ptr64) __ptr64` | 212 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::putback(char) __ptr64` | 1155 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(long & __ptr64) __ptr64` | 207 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(bool & __ptr64) __ptr64` | 215 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(class std::basic_ios<char,struct std::char_traits<char> > & __ptr64 (__cdecl*)(class std::basic_ios<char,struct std::char_traits<char> > & __ptr64)) __ptr64` | 217 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(__int64 & __ptr64) __ptr64` | 213 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::getline(char * __ptr64,__int64,char) __ptr64` | 956 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::ignore(__int64,int) __ptr64` | 1009 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 (__cdecl*)(class std::basic_istream<char,struct std::char_traits<char> > & __ptr64)) __ptr64` | 216 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(float & __ptr64) __ptr64` | 209 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(int & __ptr64) __ptr64` | 205 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(double & __ptr64) __ptr64` | 210 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 219 | Exported Function
-`public: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator>>(class std::ios_base & __ptr64 (__cdecl*)(class std::ios_base & __ptr64)) __ptr64` | 218 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::set_rdbuf(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 1204 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::setstate(int,bool) __ptr64` | 1226 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::move(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 1059 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::clear(unsigned int) __ptr64` | 684 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::move(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 1060 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::setstate(unsigned int) __ptr64` | 1227 | Exported Function
-`public: void __cdecl std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::``vbase destructor'(void) __ptr64` | 364 | Exported Function
-`public: void __cdecl std::basic_istream<char,struct std::char_traits<char> >::``vbase destructor'(void) __ptr64` | 365 | Exported Function
-`public: void __cdecl std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::``vbase destructor'(void) __ptr64` | 363 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::swap(class std::basic_ios<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 1261 | Exported Function
-`public: void __cdecl std::basic_iostream<char,struct std::char_traits<char> >::``vbase destructor'(void) __ptr64` | 362 | Exported Function
-`public: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::clear(int,bool) __ptr64` | 683 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::clear(int,bool) __ptr64` | 681 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::clear(unsigned int) __ptr64` | 682 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::swap(class std::basic_ios<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 1259 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool) __ptr64` | 1222 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(unsigned int) __ptr64` | 1223 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::move(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 1058 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::setstate(unsigned int) __ptr64` | 1225 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::swap(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 1260 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::setstate(int,bool) __ptr64` | 1224 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::move(class std::basic_ios<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 1057 | Exported Function
-`public: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::set_rdbuf(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 1203 | Exported Function
-`public: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::stossc(void) __ptr64` | 1254 | Exported Function
-`public: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::stossc(void) __ptr64` | 1255 | Exported Function
-`public: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::stossc(void) __ptr64` | 1253 | Exported Function
-`public: void __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::``vbase destructor'(void) __ptr64` | 370 | Exported Function
-`public: void __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::osfx(void) __ptr64` | 1075 | Exported Function
-`public: void __cdecl std::codecvt<char,char,struct _Mbstatet>::``default constructor closure'(void) __ptr64` | 371 | Exported Function
-`public: void __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::``default constructor closure'(void) __ptr64` | 375 | Exported Function
-`public: void __cdecl std::codecvt_base::``default constructor closure'(void) __ptr64` | 393 | Exported Function
-`public: void __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::``default constructor closure'(void) __ptr64` | 372 | Exported Function
-`public: void __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::``default constructor closure'(void) __ptr64` | 373 | Exported Function
-`public: void __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::``default constructor closure'(void) __ptr64` | 374 | Exported Function
-`public: void __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::_Osfx(void) __ptr64` | 583 | Exported Function
-`public: void __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::``vbase destructor'(void) __ptr64` | 367 | Exported Function
-`public: void __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::isfx(void) __ptr64` | 1047 | Exported Function
-`public: void __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::isfx(void) __ptr64` | 1046 | Exported Function
-`public: void __cdecl std::basic_istream<char,struct std::char_traits<char> >::isfx(void) __ptr64` | 1045 | Exported Function
-`public: void __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::``vbase destructor'(void) __ptr64` | 366 | Exported Function
-`public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void) __ptr64` | 581 | Exported Function
-`public: void __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::``vbase destructor'(void) __ptr64` | 369 | Exported Function
-`public: void __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::osfx(void) __ptr64` | 1074 | Exported Function
-`public: void __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::_Osfx(void) __ptr64` | 582 | Exported Function
-`public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::``vbase destructor'(void) __ptr64` | 368 | Exported Function
-`public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::osfx(void) __ptr64` | 1073 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::set_rdbuf(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 1202 | Exported Function
-`public: virtual __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::~basic_ostream<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 137 | Exported Function
-`public: virtual __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void) __ptr64` | 138 | Exported Function
-`public: virtual __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::~basic_ostream<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 136 | Exported Function
-`public: virtual __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::~basic_istream<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 134 | Exported Function
-`public: virtual __cdecl std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct std::char_traits<char> >(void) __ptr64` | 135 | Exported Function
-`public: virtual __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::~basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 139 | Exported Function
-`public: virtual __cdecl std::ios_base::~ios_base(void) __ptr64` | 173 | Exported Function
-`public: virtual __cdecl std::time_base::~time_base(void) __ptr64` | 174 | Exported Function
-`public: virtual __cdecl std::ctype_base::~ctype_base(void) __ptr64` | 171 | Exported Function
-`public: virtual __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::~basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 140 | Exported Function
-`public: virtual __cdecl std::codecvt_base::~codecvt_base(void) __ptr64` | 170 | Exported Function
-`public: virtual __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::~basic_istream<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 133 | Exported Function
-`public: virtual __cdecl std::_Facet_base::~_Facet_base(void) __ptr64` | 162 | Exported Function
-`public: virtual __cdecl std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void) __ptr64` | 126 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::toupper(unsigned short * __ptr64,unsigned short const * __ptr64)const __ptr64` | 1305 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::scan_not(short,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 1181 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::tolower(unsigned short * __ptr64,unsigned short const * __ptr64)const __ptr64` | 1299 | Exported Function
-`public: virtual __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::~basic_ios<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 127 | Exported Function
-`public: virtual __cdecl std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::~basic_iostream<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 131 | Exported Function
-`public: virtual __cdecl std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void) __ptr64` | 132 | Exported Function
-`public: virtual __cdecl std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::~basic_iostream<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 130 | Exported Function
-`public: virtual __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::~basic_ios<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 128 | Exported Function
-`public: virtual __cdecl std::basic_iostream<char,struct std::char_traits<char> >::~basic_iostream<char,struct std::char_traits<char> >(void) __ptr64` | 129 | Exported Function
-`public: void __cdecl Concurrency::details::_TaskEventLogger::_LogWorkItemCompleted(void) __ptr64` | 565 | Exported Function
-`public: void __cdecl Concurrency::details::_TaskEventLogger::_LogWorkItemStarted(void) __ptr64` | 566 | Exported Function
-`public: void __cdecl Concurrency::details::_TaskEventLogger::_LogTaskExecutionCompleted(void) __ptr64` | 564 | Exported Function
-`public: void __cdecl Concurrency::details::_TaskEventLogger::_LogScheduleTask(bool) __ptr64` | 562 | Exported Function
-`public: void __cdecl Concurrency::details::_TaskEventLogger::_LogTaskCompleted(void) __ptr64` | 563 | Exported Function
-`public: void __cdecl std::_Locinfo::``default constructor closure'(void) __ptr64` | 391 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::move(class std::basic_ios<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 1056 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::move(class std::basic_ios<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 1055 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::clear(unsigned int) __ptr64` | 680 | Exported Function
-`public: void __cdecl std::_Timevec::``default constructor closure'(void) __ptr64` | 392 | Exported Function
-`public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool) __ptr64` | 679 | Exported Function
-`public: void __cdecl Concurrency::details::_TaskEventLogger::_LogCancelTask(void) __ptr64` | 561 | Exported Function
-`public: virtual void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Lock(void) __ptr64` | 554 | Exported Function
-`public: virtual void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Unlock(void) __ptr64` | 641 | Exported Function
-`public: virtual void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void) __ptr64` | 640 | Exported Function
-`public: virtual class std::_Facet_base * __ptr64 __cdecl std::locale::facet::_Decref(void) __ptr64` | 415 | Exported Function
-`public: virtual void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void) __ptr64` | 553 | Exported Function
-`public: virtual void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Lock(void) __ptr64` | 555 | Exported Function
-`public: void * __ptr64 __cdecl std::_Timevec::_Getptr(void)const __ptr64` | 480 | Exported Function
-`public: void __cdecl Concurrency::details::_ContextCallback::_CallInContext(class std::function<void __cdecl(void)>,bool)const __ptr64` | 411 | Exported Function
-`public: void * __ptr64 & __ptr64 __cdecl std::ios_base::pword(int) __ptr64` | 1158 | Exported Function
-`public: virtual void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Unlock(void) __ptr64` | 642 | Exported Function
-`public: virtual void __cdecl std::locale::facet::_Incref(void) __ptr64` | 499 | Exported Function
+`operator` | 302 | Exported Function
+`operator` | 304 | Exported Function
+`flush` | 875 | Exported Function
+`char_traits` | 1292 | Exported Function
+`tie` | 1293 | Exported Function
+`char_traits` | 298 | Exported Function
+`operator` | 295 | Exported Function
+`operator` | 294 | Exported Function
+`ios_base` | 299 | Exported Function
+`char_traits` | 297 | Exported Function
+`char_traits` | 300 | Exported Function
+`write` | 1345 | Exported Function
+`operator` | 286 | Exported Function
+`operator` | 274 | Exported Function
+`operator` | 271 | Exported Function
+`operator` | 279 | Exported Function
+`operator` | 275 | Exported Function
+`operator` | 276 | Exported Function
+`seekp` | 1195 | Exported Function
+`fpos` | 1194 | Exported Function
+`put` | 1123 | Exported Function
+`operator` | 272 | Exported Function
+`operator` | 284 | Exported Function
+`char_traits` | 1159 | Exported Function
+`rdbuf` | 1160 | Exported Function
+`tie` | 1295 | Exported Function
+`write` | 1346 | Exported Function
+`char_traits` | 1294 | Exported Function
+`pubsetbuf` | 1116 | Exported Function
+`char_traits` | 1163 | Exported Function
+`rdbuf` | 1164 | Exported Function
+`pubsetbuf` | 1117 | Exported Function
+`char_traits` | 1161 | Exported Function
+`rdbuf` | 1162 | Exported Function
+`fpos` | 1196 | Exported Function
+`operator` | 288 | Exported Function
+`operator` | 303 | Exported Function
+`operator` | 292 | Exported Function
+`operator` | 290 | Exported Function
+`operator` | 296 | Exported Function
+`operator` | 291 | Exported Function
+`put` | 1124 | Exported Function
+`seekp` | 1197 | Exported Function
+`operator` | 301 | Exported Function
+`operator` | 293 | Exported Function
+`operator` | 289 | Exported Function
+`operator` | 273 | Exported Function
+`operator` | 270 | Exported Function
+`char_traits` | 264 | Exported Function
+`operator` | 268 | Exported Function
+`unget` | 1318 | Exported Function
+`flush` | 873 | Exported Function
+`char_traits` | 263 | Exported Function
+`operator` | 260 | Exported Function
+`operator` | 256 | Exported Function
+`operator` | 261 | Exported Function
+`char_traits` | 266 | Exported Function
+`ios_base` | 265 | Exported Function
+`fpos` | 1187 | Exported Function
+`operator` | 248 | Exported Function
+`operator` | 240 | Exported Function
+`operator` | 237 | Exported Function
+`operator` | 241 | Exported Function
+`operator` | 245 | Exported Function
+`operator` | 242 | Exported Function
+`read` | 1168 | Exported Function
+`seekg` | 1188 | Exported Function
+`putback` | 1157 | Exported Function
+`operator` | 238 | Exported Function
+`operator` | 246 | Exported Function
+`operator` | 285 | Exported Function
+`operator` | 287 | Exported Function
+`flush` | 874 | Exported Function
+`char_traits` | 1290 | Exported Function
+`tie` | 1291 | Exported Function
+`char_traits` | 281 | Exported Function
+`operator` | 278 | Exported Function
+`operator` | 277 | Exported Function
+`ios_base` | 282 | Exported Function
+`char_traits` | 280 | Exported Function
+`char_traits` | 283 | Exported Function
+`write` | 1344 | Exported Function
+`operator` | 269 | Exported Function
+`operator` | 257 | Exported Function
+`operator` | 254 | Exported Function
+`operator` | 262 | Exported Function
+`operator` | 258 | Exported Function
+`operator` | 259 | Exported Function
+`seekp` | 1193 | Exported Function
+`fpos` | 1192 | Exported Function
+`put` | 1122 | Exported Function
+`operator` | 255 | Exported Function
+`operator` | 267 | Exported Function
+`ios_base` | 928 | Exported Function
+`ios_base` | 931 | Exported Function
+`ios_base` | 924 | Exported Function
+`ios_base` | 927 | Exported Function
+`ios_base` | 926 | Exported Function
+`ios_base` | 923 | Exported Function
+`ios_base` | 937 | Exported Function
+`ios_base` | 938 | Exported Function
+`ios_base` | 929 | Exported Function
+`ios_base` | 925 | Exported Function
+`ios_base` | 922 | Exported Function
+`ios_base` | 932 | Exported Function
+`ios_base` | 935 | Exported Function
+`ios_base` | 936 | Exported Function
+`ios_base` | 918 | Exported Function
+`ios_base` | 914 | Exported Function
+`ios_base` | 911 | Exported Function
+`ios_base` | 940 | Exported Function
+`ios_base` | 953 | Exported Function
+`ios_base` | 930 | Exported Function
+`ios_base` | 950 | Exported Function
+`ios_base` | 943 | Exported Function
+`ios_base` | 947 | Exported Function
+`locale` | 1018 | Exported Function
+`ios_base` | 1130 | Exported Function
+`getloc` | 964 | Exported Function
+`getloc` | 963 | Exported Function
+`locale` | 1103 | Exported Function
+`ios_base` | 1132 | Exported Function
+`ios_base` | 1131 | Exported Function
+`ios_base` | 1126 | Exported Function
+`ios_base` | 1125 | Exported Function
+`ios_base` | 1127 | Exported Function
+`ios_base` | 1128 | Exported Function
+`locale` | 1102 | Exported Function
+`ios_base` | 951 | Exported Function
+`ios_base` | 954 | Exported Function
+`ios_base` | 948 | Exported Function
+`ios_base` | 941 | Exported Function
+`ios_base` | 944 | Exported Function
+`locale` | 1012 | Exported Function
+`locale` | 1101 | Exported Function
+`getloc` | 962 | Exported Function
+`getloc` | 961 | Exported Function
+`locale` | 1013 | Exported Function
+`locale` | 1014 | Exported Function
+`ios_base` | 912 | Exported Function
+`pubseekoff` | 1108 | Exported Function
+`pubseekoff` | 1109 | Exported Function
+`fpos` | 1113 | Exported Function
+`pubseekoff` | 1107 | Exported Function
+`fpos` | 1112 | Exported Function
+`fpos` | 1114 | Exported Function
+`ios_base` | 908 | Exported Function
+`ios_base` | 910 | Exported Function
+`Init` | 195 | Exported Function
+`fpos` | 1115 | Exported Function
+`ios_base` | 692 | Exported Function
+`pubseekoff` | 1106 | Exported Function
+`tellg` | 1286 | Exported Function
+`tellp` | 1287 | Exported Function
+`tellg` | 1285 | Exported Function
+`pubsetbuf` | 1118 | Exported Function
+`tellg` | 1284 | Exported Function
+`tellp` | 1288 | Exported Function
+`fpos` | 1110 | Exported Function
+`fpos` | 1111 | Exported Function
+`pubseekoff` | 1105 | Exported Function
+`tellp` | 1289 | Exported Function
+`pubseekoff` | 1104 | Exported Function
+`ios_base` | 952 | Exported Function
+`ios_base` | 919 | Exported Function
+`ios_base` | 949 | Exported Function
+`ios_base` | 942 | Exported Function
+`ios_base` | 946 | Exported Function
+`ios_base` | 921 | Exported Function
+`ios_base` | 917 | Exported Function
+`ios_base` | 920 | Exported Function
+`ios_base` | 913 | Exported Function
+`ios_base` | 916 | Exported Function
+`ios_base` | 915 | Exported Function
+`ios_base` | 939 | Exported Function
+`ios_base` | 906 | Exported Function
+`ios_base` | 909 | Exported Function
+`ios_base` | 902 | Exported Function
+`ios_base` | 905 | Exported Function
+`ios_base` | 904 | Exported Function
+`ios_base` | 901 | Exported Function
+`ios_base` | 934 | Exported Function
+`ios_base` | 933 | Exported Function
+`ios_base` | 907 | Exported Function
+`ios_base` | 903 | Exported Function
+`ios_base` | 900 | Exported Function
+`operator` | 239 | Exported Function
+`operator` | 305 | Exported Function
+`fill` | 865 | Exported Function
+`good` | 966 | Exported Function
+`eof` | 857 | Exported Function
+`fail` | 864 | Exported Function
+`fill` | 866 | Exported Function
+`narrow` | 1063 | Exported Function
+`narrow` | 1064 | Exported Function
+`narrow` | 1062 | Exported Function
+`narrow` | 1061 | Exported Function
+`widen` | 1333 | Exported Function
+`bad` | 671 | Exported Function
+`ipfx` | 1038 | Exported Function
+`opfx` | 1070 | Exported Function
+`_Ipfx` | 540 | Exported Function
+`_Ipfx` | 539 | Exported Function
+`ipfx` | 1037 | Exported Function
+`opfx` | 1071 | Exported Function
+`is` | 1042 | Exported Function
+`is` | 1044 | Exported Function
+`is` | 1040 | Exported Function
+`opfx` | 1072 | Exported Function
+`always_noconv` | 670 | Exported Function
+`scan_not` | 1180 | Exported Function
+`tolower` | 1297 | Exported Function
+`scan_is` | 1177 | Exported Function
+`is` | 1039 | Exported Function
+`narrow` | 1065 | Exported Function
+`toupper` | 1303 | Exported Function
+`_Facet_base` | 198 | Exported Function
+`_Init_locks` | 199 | Exported Function
+`widen` | 1340 | Exported Function
+`widen` | 1337 | Exported Function
+`widen` | 1339 | Exported Function
+`c_str` | 672 | Exported Function
+`narrow` | 1066 | Exported Function
+`narrow` | 1068 | Exported Function
+`widen` | 1336 | Exported Function
+`tolower` | 1296 | Exported Function
+`toupper` | 1302 | Exported Function
+`_Getdays` | 459 | Exported Function
+`_Gettrue` | 482 | Exported Function
+`_C_str` | 408 | Exported Function
+`_Getname` | 479 | Exported Function
+`_Getfalse` | 460 | Exported Function
+`_Getmonths` | 478 | Exported Function
+`ipfx` | 1036 | Exported Function
+`char_traits` | 95 | Exported Function
+`_Locinfo` | 97 | Exported Function
+`_Locinfo` | 94 | Exported Function
+`_Locinfo` | 92 | Exported Function
+`char_traits` | 93 | Exported Function
+`char_traits` | 98 | Exported Function
+`readsome` | 1169 | Exported Function
+`gcount` | 880 | Exported Function
+`gcount` | 879 | Exported Function
+`_Locinfo` | 100 | Exported Function
+`char_traits` | 101 | Exported Function
+`char_traits` | 90 | Exported Function
+`_Locinfo` | 81 | Exported Function
+`char_traits` | 82 | Exported Function
+`char_traits` | 80 | Exported Function
+`char_traits` | 78 | Exported Function
+`_Locinfo` | 79 | Exported Function
+`_Locinfo` | 83 | Exported Function
+`char_traits` | 87 | Exported Function
+`_Locinfo` | 89 | Exported Function
+`_Locinfo` | 86 | Exported Function
+`char_traits` | 84 | Exported Function
+`time_base` | 122 | Exported Function
+`width` | 1343 | Exported Function
+`_Empty` | 420 | Exported Function
+`width` | 1342 | Exported Function
+`precision` | 1099 | Exported Function
+`precision` | 1100 | Exported Function
+`empty` | 852 | Exported Function
+`empty` | 854 | Exported Function
+`_Ipfx` | 538 | Exported Function
+`_Empty` | 422 | Exported Function
+`_Empty` | 421 | Exported Function
+`empty` | 853 | Exported Function
+`sputn` | 1252 | Exported Function
+`in_avail` | 1024 | Exported Function
+`sgetn` | 1235 | Exported Function
+`readsome` | 1171 | Exported Function
+`readsome` | 1170 | Exported Function
+`gcount` | 881 | Exported Function
+`sputn` | 1250 | Exported Function
+`in_avail` | 1026 | Exported Function
+`sgetn` | 1237 | Exported Function
+`sputn` | 1251 | Exported Function
+`in_avail` | 1025 | Exported Function
+`sgetn` | 1236 | Exported Function
+`operator` | 226 | Exported Function
+`operator` | 222 | Exported Function
+`operator` | 227 | Exported Function
+`char_traits` | 236 | Exported Function
+`ios_base` | 235 | Exported Function
+`operator` | 224 | Exported Function
+`operator` | 223 | Exported Function
+`operator` | 225 | Exported Function
+`operator` | 231 | Exported Function
+`operator` | 228 | Exported Function
+`operator` | 220 | Exported Function
+`char_traits` | 233 | Exported Function
+`get` | 891 | Exported Function
+`get` | 892 | Exported Function
+`get` | 888 | Exported Function
+`char_traits` | 889 | Exported Function
+`char_traits` | 890 | Exported Function
+`getline` | 957 | Exported Function
+`operator` | 232 | Exported Function
+`char_traits` | 234 | Exported Function
+`operator` | 230 | Exported Function
+`getline` | 958 | Exported Function
+`ignore` | 1010 | Exported Function
+`operator` | 247 | Exported Function
+`operator` | 249 | Exported Function
+`ignore` | 1011 | Exported Function
+`getline` | 959 | Exported Function
+`getline` | 960 | Exported Function
+`char_traits` | 251 | Exported Function
+`operator` | 244 | Exported Function
+`operator` | 243 | Exported Function
+`ios_base` | 252 | Exported Function
+`char_traits` | 250 | Exported Function
+`char_traits` | 253 | Exported Function
+`get` | 898 | Exported Function
+`read` | 1167 | Exported Function
+`seekg` | 1186 | Exported Function
+`putback` | 1156 | Exported Function
+`operator` | 221 | Exported Function
+`operator` | 229 | Exported Function
+`fpos` | 1185 | Exported Function
+`get` | 896 | Exported Function
+`get` | 897 | Exported Function
+`char_traits` | 895 | Exported Function
+`unget` | 1317 | Exported Function
+`char_traits` | 894 | Exported Function
+`unget` | 1316 | Exported Function
+`char_traits` | 690 | Exported Function
+`char_traits` | 691 | Exported Function
+`char_traits` | 689 | Exported Function
+`_Yarn` | 181 | Exported Function
+`operator` | 182 | Exported Function
+`get` | 882 | Exported Function
+`char_traits` | 884 | Exported Function
+`getline` | 955 | Exported Function
+`char_traits` | 883 | Exported Function
+`get` | 885 | Exported Function
+`get` | 886 | Exported Function
+`operator` | 180 | Exported Function
+`_Timevec` | 200 | Exported Function
+`_Gettnames` | 481 | Exported Function
+`_Addcats` | 402 | Exported Function
+`_Iosb` | 175 | Exported Function
+`_Iosb` | 176 | Exported Function
+`_W_Gettnames` | 645 | Exported Function
+`_Yarn` | 177 | Exported Function
+`_Yarn` | 179 | Exported Function
+`operator` | 178 | Exported Function
+`_UShinit` | 201 | Exported Function
+`_Winit` | 202 | Exported Function
+`operator` | 206 | Exported Function
+`operator` | 208 | Exported Function
+`operator` | 214 | Exported Function
+`operator` | 211 | Exported Function
+`operator` | 203 | Exported Function
+`operator` | 204 | Exported Function
+`seekg` | 1184 | Exported Function
+`fpos` | 1183 | Exported Function
+`read` | 1166 | Exported Function
+`operator` | 212 | Exported Function
+`putback` | 1155 | Exported Function
+`operator` | 207 | Exported Function
+`operator` | 215 | Exported Function
+`char_traits` | 217 | Exported Function
+`operator` | 213 | Exported Function
+`getline` | 956 | Exported Function
+`ignore` | 1009 | Exported Function
+`char_traits` | 216 | Exported Function
+`operator` | 209 | Exported Function
+`operator` | 205 | Exported Function
+`operator` | 210 | Exported Function
+`char_traits` | 219 | Exported Function
+`ios_base` | 218 | Exported Function
+`char_traits` | 1204 | Exported Function
+`setstate` | 1226 | Exported Function
+`char_traits` | 1059 | Exported Function
+`clear` | 684 | Exported Function
+`char_traits` | 1060 | Exported Function
+`setstate` | 1227 | Exported Function
+`char_traits` | 364 | Exported Function
+`char_traits` | 365 | Exported Function
+`char_traits` | 363 | Exported Function
+`char_traits` | 1261 | Exported Function
+`char_traits` | 362 | Exported Function
+`clear` | 683 | Exported Function
+`clear` | 681 | Exported Function
+`clear` | 682 | Exported Function
+`char_traits` | 1259 | Exported Function
+`setstate` | 1222 | Exported Function
+`setstate` | 1223 | Exported Function
+`char_traits` | 1058 | Exported Function
+`setstate` | 1225 | Exported Function
+`char_traits` | 1260 | Exported Function
+`setstate` | 1224 | Exported Function
+`char_traits` | 1057 | Exported Function
+`char_traits` | 1203 | Exported Function
+`stossc` | 1254 | Exported Function
+`stossc` | 1255 | Exported Function
+`stossc` | 1253 | Exported Function
+`char_traits` | 370 | Exported Function
+`osfx` | 1075 | Exported Function
+`codecvt` | 371 | Exported Function
+`codecvt` | 375 | Exported Function
+`codecvt_base` | 393 | Exported Function
+`codecvt` | 372 | Exported Function
+`codecvt` | 373 | Exported Function
+`codecvt` | 374 | Exported Function
+`_Osfx` | 583 | Exported Function
+`char_traits` | 367 | Exported Function
+`isfx` | 1047 | Exported Function
+`isfx` | 1046 | Exported Function
+`isfx` | 1045 | Exported Function
+`char_traits` | 366 | Exported Function
+`_Osfx` | 581 | Exported Function
+`char_traits` | 369 | Exported Function
+`osfx` | 1074 | Exported Function
+`_Osfx` | 582 | Exported Function
+`char_traits` | 368 | Exported Function
+`osfx` | 1073 | Exported Function
+`char_traits` | 1202 | Exported Function
+`char_traits` | 137 | Exported Function
+`char_traits` | 138 | Exported Function
+`char_traits` | 136 | Exported Function
+`char_traits` | 134 | Exported Function
+`char_traits` | 135 | Exported Function
+`char_traits` | 139 | Exported Function
+`ios_base` | 173 | Exported Function
+`time_base` | 174 | Exported Function
+`ctype_base` | 171 | Exported Function
+`char_traits` | 140 | Exported Function
+`codecvt_base` | 170 | Exported Function
+`char_traits` | 133 | Exported Function
+`_Facet_base` | 162 | Exported Function
+`char_traits` | 126 | Exported Function
+`toupper` | 1305 | Exported Function
+`scan_not` | 1181 | Exported Function
+`tolower` | 1299 | Exported Function
+`char_traits` | 127 | Exported Function
+`char_traits` | 131 | Exported Function
+`char_traits` | 132 | Exported Function
+`char_traits` | 130 | Exported Function
+`char_traits` | 128 | Exported Function
+`char_traits` | 129 | Exported Function
+`_LogWorkItemCompleted` | 565 | Exported Function
+`_LogWorkItemStarted` | 566 | Exported Function
+`_LogTaskExecutionCompleted` | 564 | Exported Function
+`_LogScheduleTask` | 562 | Exported Function
+`_LogTaskCompleted` | 563 | Exported Function
+`_Locinfo` | 391 | Exported Function
+`char_traits` | 1056 | Exported Function
+`char_traits` | 1055 | Exported Function
+`clear` | 680 | Exported Function
+`_Timevec` | 392 | Exported Function
+`clear` | 679 | Exported Function
+`_LogCancelTask` | 561 | Exported Function
+`_Lock` | 554 | Exported Function
+`_Unlock` | 641 | Exported Function
+`_Unlock` | 640 | Exported Function
+`_Decref` | 415 | Exported Function
+`_Lock` | 553 | Exported Function
+`_Lock` | 555 | Exported Function
+`_Getptr` | 480 | Exported Function
+`function` | 411 | Exported Function
+`pword` | 1158 | Exported Function
+`_Unlock` | 642 | Exported Function
+`_Incref` | 499 | Exported Function
 `void __cdecl __ExceptionPtrCopyException(void * __ptr64,void const * __ptr64,void const * __ptr64)` | 663 | Exported Function
 `void __cdecl __ExceptionPtrCreate(void * __ptr64)` | 664 | Exported Function
 `void __cdecl __ExceptionPtrCopy(void * __ptr64,void const * __ptr64)` | 662 | Exported Function
-`void (__cdecl*__cdecl std::set_new_handler(void (__cdecl*)(void)))(void)` | 1201 | Exported Function
+`set_new_handler` | 1201 | Exported Function
 `void __cdecl __ExceptionPtrAssign(void * __ptr64,void const * __ptr64)` | 660 | Exported Function
 `void __cdecl __ExceptionPtrCurrentException(void * __ptr64)` | 665 | Exported Function
 `void __cdecl _Atexit(void (__cdecl*)(void))` | 406 | Exported Function
-`void __cdecl Concurrency::details::_Release_chore(struct Concurrency::details::_Threadpool_chore * __ptr64)` | 607 | Exported Function
+`_Threadpool_chore` | 607 | Exported Function
 `void __cdecl __ExceptionPtrSwap(void * __ptr64,void * __ptr64)` | 668 | Exported Function
 `void __cdecl __ExceptionPtrDestroy(void * __ptr64)` | 666 | Exported Function
 `void __cdecl __ExceptionPtrRethrow(void const * __ptr64)` | 667 | Exported Function
-`void (__cdecl*__cdecl std::get_new_handler(void))(void)` | 945 | Exported Function
-`struct std::_Smanip<int> __cdecl std::setbase(int)` | 1205 | Exported Function
-`struct std::_Smanip<int> __cdecl std::setiosflags(int)` | 1214 | Exported Function
-`struct std::_Smanip<int> __cdecl std::resetiosflags(int)` | 1173 | Exported Function
-`struct std::_Smanip<__int64> __cdecl std::setprecision(__int64)` | 1221 | Exported Function
-`struct std::_Smanip<__int64> __cdecl std::setw(__int64)` | 1231 | Exported Function
-`unsigned __int64 __cdecl Concurrency::details::platform::CaptureCallstack(void * __ptr64 * __ptr64,unsigned __int64,unsigned __int64)` | 398 | Exported Function
-`unsigned long __cdecl std::_Winerror_message(unsigned long,char * __ptr64,unsigned long)` | 647 | Exported Function
-`void (__cdecl* __ptr64 std::_Raise_handler)(class stdext::exception const & __ptr64)` | 605 | Exported Function
-`unsigned int __cdecl std::_Random_device(void)` | 606 | Exported Function
-`unsigned __int64 __cdecl std::_MP_Get(unsigned __int64 * __ptr64 const)` | 568 | Exported Function
-`unsigned int __cdecl Concurrency::details::platform::GetNextAsyncId(void)` | 400 | Exported Function
-`void __cdecl std::_Xoverflow_error(char const * __ptr64)` | 657 | Exported Function
-`void __cdecl std::_Xregex_error(enum std::regex_constants::error_type)` | 658 | Exported Function
-`void __cdecl std::_Xout_of_range(char const * __ptr64)` | 656 | Exported Function
-`void __cdecl std::_Xinvalid_argument(char const * __ptr64)` | 654 | Exported Function
-`void __cdecl std::_Xlength_error(char const * __ptr64)` | 655 | Exported Function
-`void __cdecl std::_Xruntime_error(char const * __ptr64)` | 659 | Exported Function
-`void __cdecl stdext::threads::_Mtx_unlock(void * __ptr64)` | 578 | Exported Function
+`get_new_handler` | 945 | Exported Function
+`setbase` | 1205 | Exported Function
+`setiosflags` | 1214 | Exported Function
+`resetiosflags` | 1173 | Exported Function
+`setprecision` | 1221 | Exported Function
+`setw` | 1231 | Exported Function
+`CaptureCallstack` | 398 | Exported Function
+`_Winerror_message` | 647 | Exported Function
+`exception` | 605 | Exported Function
+`_Random_device` | 606 | Exported Function
+`_MP_Get` | 568 | Exported Function
+`GetNextAsyncId` | 400 | Exported Function
+`_Xoverflow_error` | 657 | Exported Function
+`error_type` | 658 | Exported Function
+`_Xout_of_range` | 656 | Exported Function
+`_Xinvalid_argument` | 654 | Exported Function
+`_Xlength_error` | 655 | Exported Function
+`_Xruntime_error` | 659 | Exported Function
+`_Mtx_unlock` | 578 | Exported Function
 `xtime_get` | 1492 | Exported Function
-`void __cdecl stdext::threads::_Mtx_new(void * __ptr64 & __ptr64)` | 577 | Exported Function
-`void __cdecl stdext::threads::_Mtx_delete(void * __ptr64)` | 575 | Exported Function
-`void __cdecl stdext::threads::_Mtx_lock(void * __ptr64)` | 576 | Exported Function
-`void __cdecl std::_XGetLastError(void)` | 648 | Exported Function
-`void __cdecl std::_MP_Rem(unsigned __int64 * __ptr64 const,unsigned __int64)` | 570 | Exported Function
-`void __cdecl std::_Rethrow_future_exception(class std::exception_ptr)` | 614 | Exported Function
-`void __cdecl std::_MP_Mul(unsigned __int64 * __ptr64 const,unsigned __int64,unsigned __int64)` | 569 | Exported Function
-`void __cdecl Concurrency::details::_ReportUnobservedException(void)` | 611 | Exported Function
-`void __cdecl std::_MP_Add(unsigned __int64 * __ptr64 const,unsigned __int64)` | 567 | Exported Function
-`void __cdecl std::_Rng_abort(char const * __ptr64)` | 615 | Exported Function
-`void __cdecl std::_Xbad_alloc(void)` | 652 | Exported Function
-`void __cdecl std::_Xbad_function_call(void)` | 653 | Exported Function
-`void __cdecl std::_Throw_future_error(class std::error_code const & __ptr64)` | 631 | Exported Function
-`void __cdecl std::_Throw_C_error(int)` | 629 | Exported Function
-`void __cdecl std::_Throw_Cpp_error(int)` | 630 | Exported Function
-`struct _iobuf * __ptr64 __cdecl std::_Fiopen(wchar_t const * __ptr64,int,int)` | 430 | Exported Function
-`public: void __cdecl std::locale::facet::``default constructor closure'(void) __ptr64` | 395 | Exported Function
-`public: void __cdecl std::locale::id::``default constructor closure'(void) __ptr64` | 396 | Exported Function
-`public: void __cdecl std::ios_base::unsetf(int) __ptr64` | 1319 | Exported Function
-`public: void __cdecl std::ios_base::setstate(unsigned int) __ptr64` | 1230 | Exported Function
-`public: void __cdecl std::ios_base::swap(class std::ios_base & __ptr64) __ptr64` | 1274 | Exported Function
-`public: void __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::``default constructor closure'(void) __ptr64` | 379 | Exported Function
-`public: void __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``default constructor closure'(void) __ptr64` | 383 | Exported Function
-`public: void __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``default constructor closure'(void) __ptr64` | 384 | Exported Function
-`public: void __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::``default constructor closure'(void) __ptr64` | 382 | Exported Function
-`public: void __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``default constructor closure'(void) __ptr64` | 380 | Exported Function
-`public: void __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``default constructor closure'(void) __ptr64` | 381 | Exported Function
-`public: void __cdecl std::ios_base::setstate(int,bool) __ptr64` | 1229 | Exported Function
-`public: void __cdecl std::ctype_base::``default constructor closure'(void) __ptr64` | 394 | Exported Function
-`public: void __cdecl std::ios_base::clear(int) __ptr64` | 685 | Exported Function
-`public: void __cdecl std::ctype<wchar_t>::``default constructor closure'(void) __ptr64` | 378 | Exported Function
-`public: void __cdecl std::ctype<char>::``default constructor closure'(void) __ptr64` | 376 | Exported Function
-`public: void __cdecl std::ctype<unsigned short>::``default constructor closure'(void) __ptr64` | 377 | Exported Function
-`public: void __cdecl std::ios_base::clear(int,bool) __ptr64` | 686 | Exported Function
-`public: void __cdecl std::ios_base::register_callback(void (__cdecl*)(enum std::ios_base::event,class std::ios_base & __ptr64,int),int) __ptr64` | 1172 | Exported Function
-`public: void __cdecl std::ios_base::setstate(int) __ptr64` | 1228 | Exported Function
-`public: void __cdecl std::ios_base::exceptions(unsigned int) __ptr64` | 862 | Exported Function
-`public: void __cdecl std::ios_base::clear(unsigned int) __ptr64` | 687 | Exported Function
-`public: void __cdecl std::ios_base::exceptions(int) __ptr64` | 861 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::is(wchar_t const * __ptr64,wchar_t const * __ptr64,short * __ptr64)const __ptr64` | 1043 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::narrow(wchar_t const * __ptr64,wchar_t const * __ptr64,char,char * __ptr64)const __ptr64` | 1069 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::_Yarn<wchar_t>::c_str(void)const __ptr64` | 674 | Exported Function
-`public: wchar_t __cdecl std::ctype<wchar_t>::widen(char)const __ptr64` | 1341 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::_Yarn<wchar_t>::_C_str(void)const __ptr64` | 410 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::scan_is(short,wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 1179 | Exported Function
-`struct _iobuf * __ptr64 __cdecl std::_Fiopen(char const * __ptr64,int,int)` | 428 | Exported Function
-`struct _iobuf * __ptr64 __cdecl std::_Fiopen(unsigned short const * __ptr64,int,int)` | 429 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::toupper(wchar_t * __ptr64,wchar_t const * __ptr64)const __ptr64` | 1306 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::scan_not(short,wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 1182 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::tolower(wchar_t * __ptr64,wchar_t const * __ptr64)const __ptr64` | 1300 | Exported Function
-`public: wchar_t __cdecl std::ctype<wchar_t>::toupper(wchar_t)const __ptr64` | 1307 | Exported Function
-`public: void __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``default constructor closure'(void) __ptr64` | 387 | Exported Function
-`public: void __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::``default constructor closure'(void) __ptr64` | 388 | Exported Function
-`public: void __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``default constructor closure'(void) __ptr64` | 386 | Exported Function
-`public: void __cdecl std::time_base::``default constructor closure'(void) __ptr64` | 397 | Exported Function
-`public: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::``default constructor closure'(void) __ptr64` | 385 | Exported Function
-`public: void __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``default constructor closure'(void) __ptr64` | 389 | Exported Function
-`public: wchar_t __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::widen(char)const __ptr64` | 1335 | Exported Function
-`public: wchar_t __cdecl std::ctype<wchar_t>::tolower(wchar_t)const __ptr64` | 1301 | Exported Function
-`public: wchar_t __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::fill(wchar_t) __ptr64` | 869 | Exported Function
-`public: void __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``default constructor closure'(void) __ptr64` | 390 | Exported Function
-`public: wchar_t __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::fill(void)const __ptr64` | 870 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::scan_is(short,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 1178 | Exported Function
-`public: int __cdecl std::codecvt_base::max_length(void)const __ptr64` | 1054 | Exported Function
-`public: int __cdecl std::ios_base::exceptions(void)const __ptr64` | 863 | Exported Function
-`public: int __cdecl std::codecvt_base::encoding(void)const __ptr64` | 856 | Exported Function
-`public: int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::out(struct _Mbstatet & __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1080 | Exported Function
-`public: int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1324 | Exported Function
-`public: int __cdecl std::ios_base::flags(int) __ptr64` | 871 | Exported Function
-`public: int __cdecl std::ios_base::setf(int,int) __ptr64` | 1210 | Exported Function
-`public: long & __ptr64 __cdecl std::ios_base::iword(int) __ptr64` | 1048 | Exported Function
-`public: int __cdecl std::ios_base::setf(int) __ptr64` | 1209 | Exported Function
-`public: int __cdecl std::ios_base::flags(void)const __ptr64` | 872 | Exported Function
-`public: int __cdecl std::ios_base::rdstate(void)const __ptr64` | 1165 | Exported Function
-`public: int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 1053 | Exported Function
-`public: int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 1052 | Exported Function
-`public: int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::out(struct _Mbstatet & __ptr64,char32_t const * __ptr64,char32_t const * __ptr64,char32_t const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1079 | Exported Function
-`public: int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char32_t * __ptr64,char32_t * __ptr64,char32_t * __ptr64 & __ptr64)const __ptr64` | 1022 | Exported Function
-`public: int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::out(struct _Mbstatet & __ptr64,char16_t const * __ptr64,char16_t const * __ptr64,char16_t const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1078 | Exported Function
-`public: int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1322 | Exported Function
-`public: int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1323 | Exported Function
-`public: int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1321 | Exported Function
-`public: int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,wchar_t * __ptr64,wchar_t * __ptr64,wchar_t * __ptr64 & __ptr64)const __ptr64` | 1023 | Exported Function
-`public: int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::out(struct _Mbstatet & __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1077 | Exported Function
-`public: int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,unsigned short * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64 & __ptr64)const __ptr64` | 1020 | Exported Function
-`public: int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 1050 | Exported Function
-`public: static class std::locale::id std::codecvt<wchar_t,char,struct _Mbstatet>::id` | 972 | Exported Function
-`public: static class std::locale::id std::collate<char>::id` | 973 | Exported Function
-`public: static class std::locale::id std::codecvt<unsigned short,char,struct _Mbstatet>::id` | 971 | Exported Function
-`public: static class std::locale const & __ptr64 __cdecl std::locale::classic(void)` | 677 | Exported Function
-`public: static class std::locale::id std::codecvt<char,char,struct _Mbstatet>::id` | 970 | Exported Function
-`public: static class std::locale::id std::collate<unsigned short>::id` | 974 | Exported Function
-`public: static class std::locale::id std::ctype<wchar_t>::id` | 978 | Exported Function
-`public: static class std::locale::id std::messages<char>::id` | 979 | Exported Function
-`public: static class std::locale::id std::ctype<unsigned short>::id` | 977 | Exported Function
-`public: static class std::locale::id std::collate<wchar_t>::id` | 975 | Exported Function
-`public: static class std::locale::id std::ctype<char>::id` | 976 | Exported Function
-`public: static class std::locale __cdecl std::locale::global(class std::locale const & __ptr64)` | 965 | Exported Function
-`public: static bool const std::moneypunct<char,0>::intl` | 1031 | Exported Function
-`public: static bool const std::moneypunct<char,1>::intl` | 1030 | Exported Function
-`public: static bool __cdecl std::ios_base::sync_with_stdio(bool)` | 1281 | Exported Function
-`public: short const * __ptr64 __cdecl std::ctype<char>::table(void)const __ptr64` | 1282 | Exported Function
-`public: static bool __cdecl Concurrency::details::_Task_impl_base::_IsNonBlockingThread(void)` | 545 | Exported Function
-`public: static bool const std::moneypunct<unsigned short,0>::intl` | 1033 | Exported Function
-`public: static class std::_Locinfo & __ptr64 __cdecl std::_Locinfo::_Locinfo_Addcats(class std::_Locinfo * __ptr64,int,char const * __ptr64)` | 549 | Exported Function
-`public: static class std::locale __cdecl std::locale::empty(void)` | 855 | Exported Function
-`public: static bool const std::moneypunct<wchar_t,1>::intl` | 1034 | Exported Function
-`public: static bool const std::moneypunct<unsigned short,1>::intl` | 1032 | Exported Function
-`public: static bool const std::moneypunct<wchar_t,0>::intl` | 1035 | Exported Function
-`public: int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 1051 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,double)const __ptr64` | 1143 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,long double)const __ptr64` | 1144 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,bool)const __ptr64` | 1148 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,struct tm const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 1152 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,__int64)const __ptr64` | 1146 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,long)const __ptr64` | 1141 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,struct tm const * __ptr64,char,char)const __ptr64` | 1153 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,struct tm const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 1154 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,void const * __ptr64)const __ptr64` | 1145 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,unsigned __int64)const __ptr64` | 1147 | Exported Function
-`public: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,unsigned long)const __ptr64` | 1142 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,struct tm const * __ptr64,char,char)const __ptr64` | 1151 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,__int64)const __ptr64` | 1138 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,bool)const __ptr64` | 1140 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,struct tm const * __ptr64,char,char)const __ptr64` | 1149 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,void const * __ptr64)const __ptr64` | 1129 | Exported Function
-`public: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,struct tm const * __ptr64,char const * __ptr64,char const * __ptr64)const __ptr64` | 1150 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,double)const __ptr64` | 1135 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,unsigned long)const __ptr64` | 1134 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,void const * __ptr64)const __ptr64` | 1137 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,unsigned __int64)const __ptr64` | 1139 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,long double)const __ptr64` | 1136 | Exported Function
-`public: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,long)const __ptr64` | 1133 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sungetc(void) __ptr64` | 1256 | Exported Function
-`public: int __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pubsync(void) __ptr64` | 1120 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char) __ptr64` | 1247 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::snextc(void) __ptr64` | 1241 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputbackc(char) __ptr64` | 1244 | Exported Function
-`public: int __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pubsync(void) __ptr64` | 1121 | Exported Function
-`public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1320 | Exported Function
-`public: int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char16_t * __ptr64,char16_t * __ptr64,char16_t * __ptr64 & __ptr64)const __ptr64` | 1021 | Exported Function
-`public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::out(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1076 | Exported Function
-`public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 1019 | Exported Function
-`public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 1049 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sgetc(void) __ptr64` | 1232 | Exported Function
-`public: int __cdecl std::_Locinfo::_Getdateorder(void)const __ptr64` | 458 | Exported Function
-`public: int __cdecl std::basic_istream<char,struct std::char_traits<char> >::get(void) __ptr64` | 887 | Exported Function
-`public: enum std::time_base::dateorder __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::date_order(void)const __ptr64` | 696 | Exported Function
-`public: enum std::time_base::dateorder __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::date_order(void)const __ptr64` | 694 | Exported Function
-`public: enum std::time_base::dateorder __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::date_order(void)const __ptr64` | 695 | Exported Function
-`public: int __cdecl std::basic_istream<char,struct std::char_traits<char> >::peek(void) __ptr64` | 1093 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pubsync(void) __ptr64` | 1119 | Exported Function
-`public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sbumpc(void) __ptr64` | 1174 | Exported Function
-`public: int __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::sync(void) __ptr64` | 1277 | Exported Function
-`public: int __cdecl std::basic_istream<char,struct std::char_traits<char> >::sync(void) __ptr64` | 1275 | Exported Function
-`public: int __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::sync(void) __ptr64` | 1276 | Exported Function
-`public: struct lconv const * __ptr64 __cdecl std::_Locinfo::_Getlconv(void)const __ptr64` | 477 | Exported Function
-`public: struct std::_Crt_new_delete & __ptr64 __cdecl std::_Crt_new_delete::operator=(struct std::_Crt_new_delete && __ptr64) __ptr64` | 196 | Exported Function
-`public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const __ptr64` | 457 | Exported Function
-`public: struct _Collvec __cdecl std::_Locinfo::_Getcoll(void)const __ptr64` | 455 | Exported Function
-`public: struct _Ctypevec __cdecl std::_Locinfo::_Getctype(void)const __ptr64` | 456 | Exported Function
-`public: struct std::_Crt_new_delete & __ptr64 __cdecl std::_Crt_new_delete::operator=(struct std::_Crt_new_delete const & __ptr64) __ptr64` | 197 | Exported Function
-`public: unsigned short __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::get(void) __ptr64` | 893 | Exported Function
-`public: unsigned short __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::peek(void) __ptr64` | 1094 | Exported Function
-`public: unsigned short __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::widen(char)const __ptr64` | 1334 | Exported Function
-`public: unsigned short __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::fill(unsigned short) __ptr64` | 867 | Exported Function
-`public: unsigned short __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::fill(void)const __ptr64` | 868 | Exported Function
-`public: static void __cdecl std::ios_base::_Addstd(class std::ios_base * __ptr64)` | 404 | Exported Function
-`public: static unsigned __int64 __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 452 | Exported Function
-`public: static unsigned __int64 __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 453 | Exported Function
-`public: static unsigned __int64 __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 451 | Exported Function
-`public: static unsigned __int64 __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 449 | Exported Function
-`public: static unsigned __int64 __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 450 | Exported Function
-`public: static unsigned __int64 const std::ctype<char>::table_size` | 1283 | Exported Function
-`public: static void __cdecl std::_Lockit::_Lockit_ctor(int)` | 558 | Exported Function
-`public: static void __cdecl std::_Lockit::_Lockit_dtor(int)` | 560 | Exported Function
-`public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo * __ptr64)` | 552 | Exported Function
-`public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo * __ptr64,char const * __ptr64)` | 551 | Exported Function
-`public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo * __ptr64,int,char const * __ptr64)` | 550 | Exported Function
-`public: unsigned short __cdecl std::ctype<unsigned short>::toupper(unsigned short)const __ptr64` | 1304 | Exported Function
-`public: unsigned short __cdecl std::ctype<unsigned short>::widen(char)const __ptr64` | 1338 | Exported Function
-`public: unsigned short __cdecl std::ctype<unsigned short>::tolower(unsigned short)const __ptr64` | 1298 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sputc(wchar_t) __ptr64` | 1249 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sungetc(void) __ptr64` | 1258 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::_Locinfo::_W_Getdays(void)const __ptr64` | 643 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::is(unsigned short const * __ptr64,unsigned short const * __ptr64,short * __ptr64)const __ptr64` | 1041 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::narrow(unsigned short const * __ptr64,unsigned short const * __ptr64,char,char * __ptr64)const __ptr64` | 1067 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::_Yarn<unsigned short>::c_str(void)const __ptr64` | 673 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::_Locinfo::_W_Getmonths(void)const __ptr64` | 644 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl std::_Yarn<unsigned short>::_C_str(void)const __ptr64` | 409 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sputbackc(wchar_t) __ptr64` | 1246 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sgetc(void) __ptr64` | 1233 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::snextc(void) __ptr64` | 1242 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sbumpc(void) __ptr64` | 1175 | Exported Function
-`public: unsigned short __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::get(void) __ptr64` | 899 | Exported Function
-`public: unsigned short __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::peek(void) __ptr64` | 1095 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sputbackc(unsigned short) __ptr64` | 1245 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sgetc(void) __ptr64` | 1234 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::snextc(void) __ptr64` | 1243 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sbumpc(void) __ptr64` | 1176 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sputc(unsigned short) __ptr64` | 1248 | Exported Function
-`public: unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sungetc(void) __ptr64` | 1257 | Exported Function
-`public: static unsigned __int64 __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 448 | Exported Function
-`public: static class std::locale::id std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::id` | 995 | Exported Function
-`public: static class std::locale::id std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::id` | 996 | Exported Function
-`public: static class std::locale::id std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::id` | 994 | Exported Function
-`public: static class std::locale::id std::moneypunct<wchar_t,0>::id` | 993 | Exported Function
-`public: static class std::locale::id std::moneypunct<wchar_t,1>::id` | 992 | Exported Function
-`public: static class std::locale::id std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::id` | 997 | Exported Function
-`public: static class std::locale::id std::numpunct<unsigned short>::id` | 1001 | Exported Function
-`public: static class std::locale::id std::numpunct<wchar_t>::id` | 1002 | Exported Function
-`public: static class std::locale::id std::numpunct<char>::id` | 1000 | Exported Function
-`public: static class std::locale::id std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::id` | 998 | Exported Function
-`public: static class std::locale::id std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::id` | 999 | Exported Function
-`public: static class std::locale::id std::moneypunct<unsigned short,1>::id` | 990 | Exported Function
-`public: static class std::locale::id std::money_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::id` | 983 | Exported Function
-`public: static class std::locale::id std::money_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::id` | 984 | Exported Function
-`public: static class std::locale::id std::money_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::id` | 982 | Exported Function
-`public: static class std::locale::id std::messages<unsigned short>::id` | 980 | Exported Function
-`public: static class std::locale::id std::messages<wchar_t>::id` | 981 | Exported Function
-`public: static class std::locale::id std::money_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::id` | 985 | Exported Function
-`public: static class std::locale::id std::moneypunct<char,1>::id` | 988 | Exported Function
-`public: static class std::locale::id std::moneypunct<unsigned short,0>::id` | 991 | Exported Function
-`public: static class std::locale::id std::moneypunct<char,0>::id` | 989 | Exported Function
-`public: static class std::locale::id std::money_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::id` | 986 | Exported Function
-`public: static class std::locale::id std::money_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::id` | 987 | Exported Function
-`public: static unsigned __int64 __cdecl std::ctype<wchar_t>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 441 | Exported Function
-`public: static unsigned __int64 __cdecl std::locale::facet::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 454 | Exported Function
-`public: static unsigned __int64 __cdecl std::ctype<unsigned short>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 440 | Exported Function
-`public: static unsigned __int64 __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 438 | Exported Function
-`public: static unsigned __int64 __cdecl std::ctype<char>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 439 | Exported Function
-`public: static unsigned __int64 __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 442 | Exported Function
-`public: static unsigned __int64 __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 446 | Exported Function
-`public: static unsigned __int64 __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 447 | Exported Function
-`public: static unsigned __int64 __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 445 | Exported Function
-`public: static unsigned __int64 __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 443 | Exported Function
-`public: static unsigned __int64 __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 444 | Exported Function
-`public: static unsigned __int64 __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 435 | Exported Function
-`public: static class std::locale::id std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::id` | 1006 | Exported Function
-`public: static class std::locale::id std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::id` | 1007 | Exported Function
-`public: static class std::locale::id std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::id` | 1005 | Exported Function
-`public: static class std::locale::id std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::id` | 1003 | Exported Function
-`public: static class std::locale::id std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::id` | 1004 | Exported Function
-`public: static class std::locale::id std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::id` | 1008 | Exported Function
-`public: static unsigned __int64 __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 436 | Exported Function
-`public: static unsigned __int64 __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 437 | Exported Function
-`public: static unsigned __int64 __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * __ptr64 * __ptr64,class std::locale const * __ptr64)` | 434 | Exported Function
-`public: static int __cdecl std::ios_base::xalloc(void)` | 1347 | Exported Function
-`public: static short const * __ptr64 __cdecl std::ctype<char>::classic_table(void)` | 678 | Exported Function
-`private: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Iput(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,char * __ptr64,unsigned __int64)const __ptr64` | 541 | Exported Function
-`private: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,char const * __ptr64,unsigned __int64)const __ptr64` | 602 | Exported Function
-`private: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,char const * __ptr64,unsigned __int64)const __ptr64` | 431 | Exported Function
-`private: char * __ptr64 __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Ffmt(char * __ptr64,char,int)const __ptr64` | 426 | Exported Function
-`private: char * __ptr64 __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Ifmt(char * __ptr64,char const * __ptr64,int)const __ptr64` | 498 | Exported Function
-`private: class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Rep(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,char,unsigned __int64)const __ptr64` | 608 | Exported Function
-`private: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Rep(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,unsigned short,unsigned __int64)const __ptr64` | 609 | Exported Function
-`private: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Fput(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,char const * __ptr64,unsigned __int64)const __ptr64` | 433 | Exported Function
-`private: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,unsigned short const * __ptr64,unsigned __int64)const __ptr64` | 603 | Exported Function
-`private: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Fput(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,char const * __ptr64,unsigned __int64)const __ptr64` | 432 | Exported Function
-`private: class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Iput(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,char * __ptr64,unsigned __int64)const __ptr64` | 542 | Exported Function
-`private: char * __ptr64 __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Ifmt(char * __ptr64,char const * __ptr64,int)const __ptr64` | 497 | Exported Function
-`long __cdecl Concurrency::details::platform::GetCurrentThreadId(void)` | 399 | Exported Function
-`long double __cdecl std::_XLgamma(long double)` | 651 | Exported Function
-`int __cdecl std::uncaught_exceptions(void)` | 1312 | Exported Function
-`int __cdecl std::_Execute_once(struct std::once_flag & __ptr64,int (__cdecl*)(void * __ptr64,void * __ptr64,void * __ptr64 * __ptr64),void * __ptr64)` | 423 | Exported Function
-`int __cdecl std::_Winerror_map(int)` | 646 | Exported Function
-`private: __cdecl Concurrency::task_continuation_context::task_continuation_context(void) __ptr64` | 121 | Exported Function
-`private: char * __ptr64 __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Ifmt(char * __ptr64,char const * __ptr64,int)const __ptr64` | 496 | Exported Function
-`private: char * __ptr64 __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Ffmt(char * __ptr64,char,int)const __ptr64` | 425 | Exported Function
-`private: char * __ptr64 __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Ffmt(char * __ptr64,char,int)const __ptr64` | 424 | Exported Function
-`private: __cdecl std::locale::_Locimp::_Locimp(bool) __ptr64` | 107 | Exported Function
-`private: __cdecl std::locale::_Locimp::_Locimp(class std::locale::_Locimp const & __ptr64) __ptr64` | 106 | Exported Function
-`private: static bool __cdecl Concurrency::details::_ContextCallback::_IsCurrentOriginSTA(void)` | 544 | Exported Function
-`private: static bool std::ios_base::_Sync` | 627 | Exported Function
-`private: int __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getint(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,int,int,int & __ptr64,class std::ctype<wchar_t> const & __ptr64)const __ptr64` | 476 | Exported Function
-`private: int __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getint(class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,int,int,int & __ptr64,class std::ctype<char> const & __ptr64)const __ptr64` | 474 | Exported Function
-`private: int __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getint(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,int,int,int & __ptr64,class std::ctype<unsigned short> const & __ptr64)const __ptr64` | 475 | Exported Function
-`private: static class std::locale::_Locimp * __ptr64 __cdecl std::locale::_Getgloballocale(void)` | 470 | Exported Function
-`private: static class std::locale::_Locimp * __ptr64 __cdecl std::locale::_Locimp::_New_Locimp(class std::locale::_Locimp const & __ptr64)` | 579 | Exported Function
-`private: static class std::locale::_Locimp * __ptr64 __ptr64 std::locale::_Locimp::_Clocptr` | 414 | Exported Function
-`private: static class std::locale::_Locimp * __ptr64 __cdecl std::locale::_Locimp::_New_Locimp(bool)` | 580 | Exported Function
-`private: static class std::locale::_Locimp * __ptr64 __cdecl std::locale::_Init(bool)` | 528 | Exported Function
-`private: static class std::locale::_Locimp * __ptr64 __cdecl std::locale::_Locimp::_Makeloc(class std::_Locinfo const & __ptr64,int,class std::locale::_Locimp * __ptr64,class std::locale const * __ptr64)` | 571 | Exported Function
-`private: int __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getifld(char * __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,int,class std::locale const & __ptr64)const __ptr64` | 473 | Exported Function
-`private: int __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getffld(char * __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64` | 461 | Exported Function
-`private: int __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getffldx(char * __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64` | 464 | Exported Function
-`private: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Rep(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,wchar_t,unsigned __int64)const __ptr64` | 610 | Exported Function
-`private: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Iput(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,char * __ptr64,unsigned __int64)const __ptr64` | 543 | Exported Function
-`private: class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,wchar_t const * __ptr64,unsigned __int64)const __ptr64` | 604 | Exported Function
-`private: int __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getifld(char * __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,int,class std::locale const & __ptr64)const __ptr64` | 471 | Exported Function
-`private: int __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getffld(char * __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64` | 463 | Exported Function
-`private: int __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getffldx(char * __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64` | 466 | Exported Function
-`private: int __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getifld(char * __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,int,class std::locale const & __ptr64)const __ptr64` | 472 | Exported Function
-`private: int __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getffld(char * __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64` | 462 | Exported Function
-`private: int __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getffldx(char * __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64` | 465 | Exported Function
-`int __cdecl Concurrency::details::_Schedule_chore(struct Concurrency::details::_Threadpool_chore * __ptr64)` | 616 | Exported Function
-`const std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::``vftable'` | 321 | Exported Function
-`const std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::``vftable'` | 322 | Exported Function
-`const std::basic_streambuf<char,struct std::char_traits<char> >::``vftable'` | 320 | Exported Function
-`const std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::``vbtable'` | 361 | Exported Function
-`const std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::``vftable'` | 319 | Exported Function
-`const std::codecvt<char,char,struct _Mbstatet>::``vftable'` | 323 | Exported Function
-`const std::codecvt<wchar_t,char,struct _Mbstatet>::``vftable'` | 327 | Exported Function
-`const std::codecvt_base::``vftable'` | 345 | Exported Function
-`const std::codecvt<unsigned short,char,struct _Mbstatet>::``vftable'` | 324 | Exported Function
-`const std::codecvt<char16_t,char,struct _Mbstatet>::``vftable'` | 325 | Exported Function
-`const std::codecvt<char32_t,char,struct _Mbstatet>::``vftable'` | 326 | Exported Function
-`const std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::``vftable'` | 318 | Exported Function
-`const std::basic_istream<char,struct std::char_traits<char> >::``vftable'` | 314 | Exported Function
-`const std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::``vbtable'` | 357 | Exported Function
-`const std::basic_istream<char,struct std::char_traits<char> >::``vbtable'` | 356 | Exported Function
-`const std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::``vbtable'{for ``std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >'}` | 355 | Exported Function
-`const std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::``vftable'` | 313 | Exported Function
-`const std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::``vftable'` | 315 | Exported Function
-`const std::basic_ostream<char,struct std::char_traits<char> >::``vftable'` | 317 | Exported Function
-`const std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::``vbtable'` | 360 | Exported Function
-`const std::basic_ostream<char,struct std::char_traits<char> >::``vbtable'` | 359 | Exported Function
-`const std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::``vbtable'` | 358 | Exported Function
-`const std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::``vftable'` | 316 | Exported Function
-`const std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``vftable'` | 338 | Exported Function
-`const std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``vftable'` | 339 | Exported Function
-`const std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::``vftable'` | 337 | Exported Function
-`const std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``vftable'` | 336 | Exported Function
-`const std::time_base::``vftable'` | 349 | Exported Function
-`const std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::``vftable'` | 340 | Exported Function
-`float __cdecl std::_XLgamma(float)` | 649 | Exported Function
-`int __cdecl Concurrency::details::_Reschedule_chore(struct Concurrency::details::_Threadpool_chore const * __ptr64)` | 612 | Exported Function
-`double __cdecl std::_XLgamma(double)` | 650 | Exported Function
-`const std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``vftable'` | 341 | Exported Function
-`const std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``vftable'` | 342 | Exported Function
-`const std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``vftable'` | 335 | Exported Function
-`const std::ctype_base::``vftable'` | 346 | Exported Function
-`const std::ios_base::``vftable'` | 348 | Exported Function
-`const std::ctype<wchar_t>::``vftable'` | 330 | Exported Function
-`const std::ctype<char>::``vftable'` | 328 | Exported Function
-`const std::ctype<unsigned short>::``vftable'` | 329 | Exported Function
-`const std::locale::_Locimp::``vftable'` | 344 | Exported Function
-`const std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::``vftable'` | 333 | Exported Function
-`const std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::``vftable'` | 334 | Exported Function
-`const std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::``vftable'` | 332 | Exported Function
-`const std::locale::facet::``vftable'` | 347 | Exported Function
-`const std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::``vftable'` | 331 | Exported Function
-`protected: __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(char const * __ptr64,unsigned __int64) __ptr64` | 99 | Exported Function
-`protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gnavail(void)const __ptr64` | 483 | Exported Function
-`protected: __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(char const * __ptr64,unsigned __int64) __ptr64` | 96 | Exported Function
-`protected: __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(char const * __ptr64,unsigned __int64) __ptr64` | 88 | Exported Function
-`protected: __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(char const * __ptr64,unsigned __int64) __ptr64` | 91 | Exported Function
-`protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pnavail(void)const __ptr64` | 584 | Exported Function
-`protected: __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Pnavail(void)const __ptr64` | 586 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void) __ptr64` | 486 | Exported Function
-`protected: __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Gnavail(void)const __ptr64` | 485 | Exported Function
-`protected: __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Gnavail(void)const __ptr64` | 484 | Exported Function
-`protected: __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Pnavail(void)const __ptr64` | 585 | Exported Function
-`protected: __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(char const * __ptr64,unsigned __int64) __ptr64` | 85 | Exported Function
-`protected: __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > const & __ptr64) __ptr64` | 49 | Exported Function
-`protected: __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >(enum std::_Uninitialized) __ptr64` | 50 | Exported Function
-`protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void) __ptr64` | 48 | Exported Function
-`protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > const & __ptr64) __ptr64` | 46 | Exported Function
-`protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(enum std::_Uninitialized) __ptr64` | 47 | Exported Function
-`protected: __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 51 | Exported Function
-`protected: __cdecl std::ios_base::ios_base(void) __ptr64` | 120 | Exported Function
-`protected: __cdecl std::locale::facet::facet(unsigned __int64) __ptr64` | 118 | Exported Function
-`protected: __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 54 | Exported Function
-`protected: __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > const & __ptr64) __ptr64` | 52 | Exported Function
-`protected: __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >(enum std::_Uninitialized) __ptr64` | 53 | Exported Function
-`protected: class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::operator=(class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 187 | Exported Function
-`protected: class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::operator=(class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 188 | Exported Function
-`protected: class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_istream<char,struct std::char_traits<char> >::operator=(class std::basic_istream<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 186 | Exported Function
-`protected: class std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::operator=(class std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 184 | Exported Function
-`protected: class std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::operator=(class std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 185 | Exported Function
-`protected: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator=(class std::basic_ostream<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 189 | Exported Function
-`protected: class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::operator=(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > const & __ptr64) __ptr64` | 193 | Exported Function
-`protected: class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::operator=(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > const & __ptr64) __ptr64` | 194 | Exported Function
-`protected: class std::basic_streambuf<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::operator=(class std::basic_streambuf<char,struct std::char_traits<char> > const & __ptr64) __ptr64` | 192 | Exported Function
-`protected: class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64 __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::operator=(class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 190 | Exported Function
-`protected: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64 __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator=(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 191 | Exported Function
-`protected: class std::basic_iostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::basic_iostream<char,struct std::char_traits<char> >::operator=(class std::basic_iostream<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 183 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const __ptr64` | 846 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const __ptr64` | 849 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void) __ptr64` | 587 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void) __ptr64` | 489 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gnpreinc(void) __ptr64` | 492 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const __ptr64` | 858 | Exported Function
-`protected: char __cdecl std::ctype<unsigned short>::_Donarrow(unsigned short,char)const __ptr64` | 416 | Exported Function
-`protected: char __cdecl std::ctype<wchar_t>::_Donarrow(wchar_t,char)const __ptr64` | 417 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const __ptr64` | 1096 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const __ptr64` | 967 | Exported Function
-`protected: char * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbase(void)const __ptr64` | 1087 | Exported Function
-`protected: __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 43 | Exported Function
-`private: static void __cdecl std::locale::_Locimp::_Locimp_ctor(class std::locale::_Locimp * __ptr64,class std::locale::_Locimp const & __ptr64)` | 547 | Exported Function
-`private: static void __cdecl std::locale::_Locimp::_Locimp_dtor(class std::locale::_Locimp * __ptr64)` | 548 | Exported Function
-`private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp * __ptr64,class std::locale::facet * __ptr64,unsigned __int64)` | 546 | Exported Function
-`private: static void __cdecl std::ios_base::Init::_Init_ctor(class std::ios_base::Init * __ptr64)` | 533 | Exported Function
-`private: static void __cdecl std::ios_base::Init::_Init_dtor(class std::ios_base::Init * __ptr64)` | 534 | Exported Function
-`private: static void __cdecl std::locale::_Locimp::_Makeushloc(class std::_Locinfo const & __ptr64,int,class std::locale::_Locimp * __ptr64,class std::locale const * __ptr64)` | 572 | Exported Function
-`private: struct std::ios_base::_Iosarray & __ptr64 __cdecl std::ios_base::_Findarr(int) __ptr64` | 427 | Exported Function
-`private: void __cdecl Concurrency::details::_ContextCallback::_Assign(void * __ptr64) __ptr64` | 405 | Exported Function
-`private: static void __cdecl std::locale::_Setgloballocale(void * __ptr64)` | 617 | Exported Function
-`private: static void __cdecl std::locale::_Locimp::_Makewloc(class std::_Locinfo const & __ptr64,int,class std::locale::_Locimp * __ptr64,class std::locale const * __ptr64)` | 573 | Exported Function
-`private: static void __cdecl std::locale::_Locimp::_Makexloc(class std::_Locinfo const & __ptr64,int,class std::locale::_Locimp * __ptr64,class std::locale const * __ptr64)` | 574 | Exported Function
-`private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base * __ptr64)` | 537 | Exported Function
-`private: static int std::ios_base::_Index` | 500 | Exported Function
-`private: static int std::ios_base::Init::_Init_cnt` | 529 | Exported Function
-`private: static int std::_Winit::_Init_cnt` | 531 | Exported Function
-`private: static int & __ptr64 __cdecl std::ios_base::Init::_Init_cnt_func(void)` | 532 | Exported Function
-`private: static int std::_UShinit::_Init_cnt` | 530 | Exported Function
-`private: static int std::locale::id::_Id_cnt` | 495 | Exported Function
-`private: static void __cdecl std::_Lockit::_Lockit_ctor(class std::_Lockit * __ptr64,int)` | 557 | Exported Function
-`private: static void __cdecl std::_Lockit::_Lockit_dtor(class std::_Lockit * __ptr64)` | 559 | Exported Function
-`private: static void __cdecl std::_Lockit::_Lockit_ctor(class std::_Lockit * __ptr64)` | 556 | Exported Function
-`private: static void __cdecl std::_Init_locks::_Init_locks_ctor(class std::_Init_locks * __ptr64)` | 535 | Exported Function
-`private: static void __cdecl std::_Init_locks::_Init_locks_dtor(class std::_Init_locks * __ptr64)` | 536 | Exported Function
-`protected: __cdecl std::basic_iostream<char,struct std::char_traits<char> >::basic_iostream<char,struct std::char_traits<char> >(class std::basic_iostream<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 19 | Exported Function
-`protected: __cdecl std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 21 | Exported Function
-`protected: __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::basic_ios<wchar_t,struct std::char_traits<wchar_t> >(void) __ptr64` | 17 | Exported Function
-`protected: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void) __ptr64` | 13 | Exported Function
-`protected: __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::basic_ios<unsigned short,struct std::char_traits<unsigned short> >(void) __ptr64` | 15 | Exported Function
-`protected: __cdecl std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 23 | Exported Function
-`protected: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_ostream<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 37 | Exported Function
-`protected: __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 40 | Exported Function
-`protected: __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::basic_istream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > && __ptr64) __ptr64` | 33 | Exported Function
-`protected: __cdecl std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_istream<char,struct std::char_traits<char> > && __ptr64) __ptr64` | 25 | Exported Function
-`protected: __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::basic_istream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > && __ptr64) __ptr64` | 29 | Exported Function
-`private: void __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Tidy(void) __ptr64` | 638 | Exported Function
-`private: void __cdecl std::_Yarn<char>::_Tidy(void) __ptr64` | 632 | Exported Function
-`private: void __cdecl std::_Yarn<unsigned short>::_Tidy(void) __ptr64` | 633 | Exported Function
-`private: void __cdecl Concurrency::details::_ExceptionHolder::ReportUnhandledError(void) __ptr64` | 401 | Exported Function
-`private: void __cdecl Concurrency::details::_ContextCallback::_Capture(void) __ptr64` | 413 | Exported Function
-`private: void __cdecl Concurrency::details::_ContextCallback::_Reset(void) __ptr64` | 613 | Exported Function
-`private: void __cdecl std::_Yarn<wchar_t>::_Tidy(void) __ptr64` | 634 | Exported Function
-`private: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Tidy(void) __ptr64` | 636 | Exported Function
-`private: void __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Tidy(void) __ptr64` | 637 | Exported Function
-`private: void __cdecl std::locale::_Locimp::_Addfac(class std::locale::facet * __ptr64,unsigned __int64) __ptr64` | 403 | Exported Function
-`private: void __cdecl std::ios_base::_Callfns(enum std::ios_base::event) __ptr64` | 412 | Exported Function
-`private: void __cdecl std::ios_base::_Tidy(void) __ptr64` | 639 | Exported Function
-`const std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::``vbtable'{for ``std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >'}` | 354 | Exported Function
+`_Mtx_new` | 577 | Exported Function
+`_Mtx_delete` | 575 | Exported Function
+`_Mtx_lock` | 576 | Exported Function
+`_XGetLastError` | 648 | Exported Function
+`_MP_Rem` | 570 | Exported Function
+`exception_ptr` | 614 | Exported Function
+`_MP_Mul` | 569 | Exported Function
+`_ReportUnobservedException` | 611 | Exported Function
+`_MP_Add` | 567 | Exported Function
+`_Rng_abort` | 615 | Exported Function
+`_Xbad_alloc` | 652 | Exported Function
+`_Xbad_function_call` | 653 | Exported Function
+`error_code` | 631 | Exported Function
+`_Throw_C_error` | 629 | Exported Function
+`_Throw_Cpp_error` | 630 | Exported Function
+`_Fiopen` | 430 | Exported Function
+`facet` | 395 | Exported Function
+`id` | 396 | Exported Function
+`unsetf` | 1319 | Exported Function
+`setstate` | 1230 | Exported Function
+`ios_base` | 1274 | Exported Function
+`char_traits` | 379 | Exported Function
+`char_traits` | 383 | Exported Function
+`char_traits` | 384 | Exported Function
+`char_traits` | 382 | Exported Function
+`char_traits` | 380 | Exported Function
+`char_traits` | 381 | Exported Function
+`setstate` | 1229 | Exported Function
+`ctype_base` | 394 | Exported Function
+`clear` | 685 | Exported Function
+`ctype` | 378 | Exported Function
+`ctype` | 376 | Exported Function
+`ctype` | 377 | Exported Function
+`clear` | 686 | Exported Function
+`ios_base` | 1172 | Exported Function
+`setstate` | 1228 | Exported Function
+`exceptions` | 862 | Exported Function
+`clear` | 687 | Exported Function
+`exceptions` | 861 | Exported Function
+`is` | 1043 | Exported Function
+`narrow` | 1069 | Exported Function
+`c_str` | 674 | Exported Function
+`widen` | 1341 | Exported Function
+`_C_str` | 410 | Exported Function
+`scan_is` | 1179 | Exported Function
+`_Fiopen` | 428 | Exported Function
+`_Fiopen` | 429 | Exported Function
+`toupper` | 1306 | Exported Function
+`scan_not` | 1182 | Exported Function
+`tolower` | 1300 | Exported Function
+`toupper` | 1307 | Exported Function
+`char_traits` | 387 | Exported Function
+`char_traits` | 388 | Exported Function
+`char_traits` | 386 | Exported Function
+`time_base` | 397 | Exported Function
+`char_traits` | 385 | Exported Function
+`char_traits` | 389 | Exported Function
+`widen` | 1335 | Exported Function
+`tolower` | 1301 | Exported Function
+`fill` | 869 | Exported Function
+`char_traits` | 390 | Exported Function
+`fill` | 870 | Exported Function
+`scan_is` | 1178 | Exported Function
+`max_length` | 1054 | Exported Function
+`exceptions` | 863 | Exported Function
+`encoding` | 856 | Exported Function
+`out` | 1080 | Exported Function
+`unshift` | 1324 | Exported Function
+`flags` | 871 | Exported Function
+`setf` | 1210 | Exported Function
+`iword` | 1048 | Exported Function
+`setf` | 1209 | Exported Function
+`flags` | 872 | Exported Function
+`rdstate` | 1165 | Exported Function
+`length` | 1053 | Exported Function
+`length` | 1052 | Exported Function
+`out` | 1079 | Exported Function
+`in` | 1022 | Exported Function
+`out` | 1078 | Exported Function
+`unshift` | 1322 | Exported Function
+`unshift` | 1323 | Exported Function
+`unshift` | 1321 | Exported Function
+`in` | 1023 | Exported Function
+`out` | 1077 | Exported Function
+`in` | 1020 | Exported Function
+`length` | 1050 | Exported Function
+`id` | 972 | Exported Function
+`id` | 973 | Exported Function
+`id` | 971 | Exported Function
+`classic` | 677 | Exported Function
+`id` | 970 | Exported Function
+`id` | 974 | Exported Function
+`id` | 978 | Exported Function
+`id` | 979 | Exported Function
+`id` | 977 | Exported Function
+`id` | 975 | Exported Function
+`id` | 976 | Exported Function
+`locale` | 965 | Exported Function
+`intl` | 1031 | Exported Function
+`intl` | 1030 | Exported Function
+`sync_with_stdio` | 1281 | Exported Function
+`table` | 1282 | Exported Function
+`_IsNonBlockingThread` | 545 | Exported Function
+`intl` | 1033 | Exported Function
+`_Locinfo` | 549 | Exported Function
+`empty` | 855 | Exported Function
+`intl` | 1034 | Exported Function
+`intl` | 1032 | Exported Function
+`intl` | 1035 | Exported Function
+`length` | 1051 | Exported Function
+`ios_base` | 1143 | Exported Function
+`ios_base` | 1144 | Exported Function
+`ios_base` | 1148 | Exported Function
+`ios_base` | 1152 | Exported Function
+`ios_base` | 1146 | Exported Function
+`ios_base` | 1141 | Exported Function
+`ios_base` | 1153 | Exported Function
+`ios_base` | 1154 | Exported Function
+`ios_base` | 1145 | Exported Function
+`ios_base` | 1147 | Exported Function
+`ios_base` | 1142 | Exported Function
+`ios_base` | 1151 | Exported Function
+`ios_base` | 1138 | Exported Function
+`ios_base` | 1140 | Exported Function
+`ios_base` | 1149 | Exported Function
+`ios_base` | 1129 | Exported Function
+`ios_base` | 1150 | Exported Function
+`ios_base` | 1135 | Exported Function
+`ios_base` | 1134 | Exported Function
+`ios_base` | 1137 | Exported Function
+`ios_base` | 1139 | Exported Function
+`ios_base` | 1136 | Exported Function
+`ios_base` | 1133 | Exported Function
+`sungetc` | 1256 | Exported Function
+`pubsync` | 1120 | Exported Function
+`sputc` | 1247 | Exported Function
+`snextc` | 1241 | Exported Function
+`sputbackc` | 1244 | Exported Function
+`pubsync` | 1121 | Exported Function
+`unshift` | 1320 | Exported Function
+`in` | 1021 | Exported Function
+`out` | 1076 | Exported Function
+`in` | 1019 | Exported Function
+`length` | 1049 | Exported Function
+`sgetc` | 1232 | Exported Function
+`_Getdateorder` | 458 | Exported Function
+`get` | 887 | Exported Function
+`date_order` | 696 | Exported Function
+`date_order` | 694 | Exported Function
+`date_order` | 695 | Exported Function
+`peek` | 1093 | Exported Function
+`pubsync` | 1119 | Exported Function
+`sbumpc` | 1174 | Exported Function
+`sync` | 1277 | Exported Function
+`sync` | 1275 | Exported Function
+`sync` | 1276 | Exported Function
+`_Getlconv` | 477 | Exported Function
+`_Crt_new_delete` | 196 | Exported Function
+`_Getcvt` | 457 | Exported Function
+`_Getcoll` | 455 | Exported Function
+`_Getctype` | 456 | Exported Function
+`_Crt_new_delete` | 197 | Exported Function
+`get` | 893 | Exported Function
+`peek` | 1094 | Exported Function
+`widen` | 1334 | Exported Function
+`fill` | 867 | Exported Function
+`fill` | 868 | Exported Function
+`ios_base` | 404 | Exported Function
+`locale` | 452 | Exported Function
+`locale` | 453 | Exported Function
+`locale` | 451 | Exported Function
+`locale` | 449 | Exported Function
+`locale` | 450 | Exported Function
+`table_size` | 1283 | Exported Function
+`_Lockit_ctor` | 558 | Exported Function
+`_Lockit_dtor` | 560 | Exported Function
+`_Locinfo` | 552 | Exported Function
+`_Locinfo` | 551 | Exported Function
+`_Locinfo` | 550 | Exported Function
+`toupper` | 1304 | Exported Function
+`widen` | 1338 | Exported Function
+`tolower` | 1298 | Exported Function
+`sputc` | 1249 | Exported Function
+`sungetc` | 1258 | Exported Function
+`_W_Getdays` | 643 | Exported Function
+`is` | 1041 | Exported Function
+`narrow` | 1067 | Exported Function
+`c_str` | 673 | Exported Function
+`_W_Getmonths` | 644 | Exported Function
+`_C_str` | 409 | Exported Function
+`sputbackc` | 1246 | Exported Function
+`sgetc` | 1233 | Exported Function
+`snextc` | 1242 | Exported Function
+`sbumpc` | 1175 | Exported Function
+`get` | 899 | Exported Function
+`peek` | 1095 | Exported Function
+`sputbackc` | 1245 | Exported Function
+`sgetc` | 1234 | Exported Function
+`snextc` | 1243 | Exported Function
+`sbumpc` | 1176 | Exported Function
+`sputc` | 1248 | Exported Function
+`sungetc` | 1257 | Exported Function
+`locale` | 448 | Exported Function
+`id` | 995 | Exported Function
+`id` | 996 | Exported Function
+`id` | 994 | Exported Function
+`id` | 993 | Exported Function
+`id` | 992 | Exported Function
+`id` | 997 | Exported Function
+`id` | 1001 | Exported Function
+`id` | 1002 | Exported Function
+`id` | 1000 | Exported Function
+`id` | 998 | Exported Function
+`id` | 999 | Exported Function
+`id` | 990 | Exported Function
+`id` | 983 | Exported Function
+`id` | 984 | Exported Function
+`id` | 982 | Exported Function
+`id` | 980 | Exported Function
+`id` | 981 | Exported Function
+`id` | 985 | Exported Function
+`id` | 988 | Exported Function
+`id` | 991 | Exported Function
+`id` | 989 | Exported Function
+`id` | 986 | Exported Function
+`id` | 987 | Exported Function
+`locale` | 441 | Exported Function
+`locale` | 454 | Exported Function
+`locale` | 440 | Exported Function
+`locale` | 438 | Exported Function
+`locale` | 439 | Exported Function
+`locale` | 442 | Exported Function
+`locale` | 446 | Exported Function
+`locale` | 447 | Exported Function
+`locale` | 445 | Exported Function
+`locale` | 443 | Exported Function
+`locale` | 444 | Exported Function
+`locale` | 435 | Exported Function
+`id` | 1006 | Exported Function
+`id` | 1007 | Exported Function
+`id` | 1005 | Exported Function
+`id` | 1003 | Exported Function
+`id` | 1004 | Exported Function
+`id` | 1008 | Exported Function
+`locale` | 436 | Exported Function
+`locale` | 437 | Exported Function
+`locale` | 434 | Exported Function
+`xalloc` | 1347 | Exported Function
+`classic_table` | 678 | Exported Function
+`ios_base` | 541 | Exported Function
+`char_traits` | 602 | Exported Function
+`ios_base` | 431 | Exported Function
+`_Ffmt` | 426 | Exported Function
+`_Ifmt` | 498 | Exported Function
+`char_traits` | 608 | Exported Function
+`char_traits` | 609 | Exported Function
+`ios_base` | 433 | Exported Function
+`char_traits` | 603 | Exported Function
+`ios_base` | 432 | Exported Function
+`ios_base` | 542 | Exported Function
+`_Ifmt` | 497 | Exported Function
+`GetCurrentThreadId` | 399 | Exported Function
+`_XLgamma` | 651 | Exported Function
+`uncaught_exceptions` | 1312 | Exported Function
+`once_flag` | 423 | Exported Function
+`_Winerror_map` | 646 | Exported Function
+`task_continuation_context` | 121 | Exported Function
+`_Ifmt` | 496 | Exported Function
+`_Ffmt` | 425 | Exported Function
+`_Ffmt` | 424 | Exported Function
+`_Locimp` | 107 | Exported Function
+`_Locimp` | 106 | Exported Function
+`_IsCurrentOriginSTA` | 544 | Exported Function
+`_Sync` | 627 | Exported Function
+`ctype` | 476 | Exported Function
+`ctype` | 474 | Exported Function
+`ctype` | 475 | Exported Function
+`_Getgloballocale` | 470 | Exported Function
+`_Locimp` | 579 | Exported Function
+`_Clocptr` | 414 | Exported Function
+`_New_Locimp` | 580 | Exported Function
+`_Init` | 528 | Exported Function
+`locale` | 571 | Exported Function
+`locale` | 473 | Exported Function
+`ios_base` | 461 | Exported Function
+`ios_base` | 464 | Exported Function
+`char_traits` | 610 | Exported Function
+`ios_base` | 543 | Exported Function
+`char_traits` | 604 | Exported Function
+`locale` | 471 | Exported Function
+`ios_base` | 463 | Exported Function
+`ios_base` | 466 | Exported Function
+`locale` | 472 | Exported Function
+`ios_base` | 462 | Exported Function
+`ios_base` | 465 | Exported Function
+`_Threadpool_chore` | 616 | Exported Function
+`char_traits` | 321 | Exported Function
+`char_traits` | 322 | Exported Function
+`char_traits` | 320 | Exported Function
+`char_traits` | 361 | Exported Function
+`char_traits` | 319 | Exported Function
+`codecvt` | 323 | Exported Function
+`codecvt` | 327 | Exported Function
+`codecvt_base` | 345 | Exported Function
+`codecvt` | 324 | Exported Function
+`codecvt` | 325 | Exported Function
+`codecvt` | 326 | Exported Function
+`char_traits` | 318 | Exported Function
+`char_traits` | 314 | Exported Function
+`char_traits` | 357 | Exported Function
+`char_traits` | 356 | Exported Function
+`char_traits` | 355 | Exported Function
+`char_traits` | 313 | Exported Function
+`char_traits` | 315 | Exported Function
+`char_traits` | 317 | Exported Function
+`char_traits` | 360 | Exported Function
+`char_traits` | 359 | Exported Function
+`char_traits` | 358 | Exported Function
+`char_traits` | 316 | Exported Function
+`char_traits` | 338 | Exported Function
+`char_traits` | 339 | Exported Function
+`char_traits` | 337 | Exported Function
+`char_traits` | 336 | Exported Function
+`time_base` | 349 | Exported Function
+`char_traits` | 340 | Exported Function
+`_XLgamma` | 649 | Exported Function
+`_Threadpool_chore` | 612 | Exported Function
+`_XLgamma` | 650 | Exported Function
+`char_traits` | 341 | Exported Function
+`char_traits` | 342 | Exported Function
+`char_traits` | 335 | Exported Function
+`ctype_base` | 346 | Exported Function
+`ios_base` | 348 | Exported Function
+`ctype` | 330 | Exported Function
+`ctype` | 328 | Exported Function
+`ctype` | 329 | Exported Function
+`_Locimp` | 344 | Exported Function
+`char_traits` | 333 | Exported Function
+`char_traits` | 334 | Exported Function
+`char_traits` | 332 | Exported Function
+`facet` | 347 | Exported Function
+`char_traits` | 331 | Exported Function
+`char_traits` | 99 | Exported Function
+`_Gnavail` | 483 | Exported Function
+`char_traits` | 96 | Exported Function
+`char_traits` | 88 | Exported Function
+`char_traits` | 91 | Exported Function
+`_Pnavail` | 584 | Exported Function
+`_Pnavail` | 586 | Exported Function
+`_Gndec` | 486 | Exported Function
+`_Gnavail` | 485 | Exported Function
+`_Gnavail` | 484 | Exported Function
+`_Pnavail` | 585 | Exported Function
+`char_traits` | 85 | Exported Function
+`char_traits` | 49 | Exported Function
+`_Uninitialized` | 50 | Exported Function
+`char_traits` | 48 | Exported Function
+`char_traits` | 46 | Exported Function
+`_Uninitialized` | 47 | Exported Function
+`char_traits` | 51 | Exported Function
+`ios_base` | 120 | Exported Function
+`facet` | 118 | Exported Function
+`char_traits` | 54 | Exported Function
+`char_traits` | 52 | Exported Function
+`_Uninitialized` | 53 | Exported Function
+`char_traits` | 187 | Exported Function
+`char_traits` | 188 | Exported Function
+`char_traits` | 186 | Exported Function
+`char_traits` | 184 | Exported Function
+`char_traits` | 185 | Exported Function
+`char_traits` | 189 | Exported Function
+`char_traits` | 193 | Exported Function
+`char_traits` | 194 | Exported Function
+`char_traits` | 192 | Exported Function
+`char_traits` | 190 | Exported Function
+`char_traits` | 191 | Exported Function
+`char_traits` | 183 | Exported Function
+`eback` | 846 | Exported Function
+`egptr` | 849 | Exported Function
+`_Pninc` | 587 | Exported Function
+`_Gninc` | 489 | Exported Function
+`_Gnpreinc` | 492 | Exported Function
+`epptr` | 858 | Exported Function
+`_Donarrow` | 416 | Exported Function
+`_Donarrow` | 417 | Exported Function
+`pptr` | 1096 | Exported Function
+`gptr` | 967 | Exported Function
+`pbase` | 1087 | Exported Function
+`char_traits` | 43 | Exported Function
+`_Locimp` | 547 | Exported Function
+`_Locimp` | 548 | Exported Function
+`facet` | 546 | Exported Function
+`Init` | 533 | Exported Function
+`Init` | 534 | Exported Function
+`locale` | 572 | Exported Function
+`_Findarr` | 427 | Exported Function
+`_Assign` | 405 | Exported Function
+`_Setgloballocale` | 617 | Exported Function
+`locale` | 573 | Exported Function
+`locale` | 574 | Exported Function
+`ios_base` | 537 | Exported Function
+`_Index` | 500 | Exported Function
+`_Init_cnt` | 529 | Exported Function
+`_Init_cnt` | 531 | Exported Function
+`_Init_cnt_func` | 532 | Exported Function
+`_Init_cnt` | 530 | Exported Function
+`_Id_cnt` | 495 | Exported Function
+`_Lockit` | 557 | Exported Function
+`_Lockit` | 559 | Exported Function
+`_Lockit` | 556 | Exported Function
+`_Init_locks` | 535 | Exported Function
+`_Init_locks` | 536 | Exported Function
+`char_traits` | 19 | Exported Function
+`char_traits` | 21 | Exported Function
+`char_traits` | 17 | Exported Function
+`char_traits` | 13 | Exported Function
+`char_traits` | 15 | Exported Function
+`char_traits` | 23 | Exported Function
+`char_traits` | 37 | Exported Function
+`char_traits` | 40 | Exported Function
+`char_traits` | 33 | Exported Function
+`char_traits` | 25 | Exported Function
+`char_traits` | 29 | Exported Function
+`_Tidy` | 638 | Exported Function
+`_Tidy` | 632 | Exported Function
+`_Tidy` | 633 | Exported Function
+`ReportUnhandledError` | 401 | Exported Function
+`_Capture` | 413 | Exported Function
+`_Reset` | 613 | Exported Function
+`_Tidy` | 634 | Exported Function
+`_Tidy` | 636 | Exported Function
+`_Tidy` | 637 | Exported Function
+`facet` | 403 | Exported Function
+`event` | 412 | Exported Function
+`_Tidy` | 639 | Exported Function
+`char_traits` | 354 | Exported Function
 `_Mtx_destroy` | 1409 | Exported Function
 `_Mtx_destroy_in_situ` | 1410 | Exported Function
 `_Mtx_current_owns` | 1408 | Exported Function
@@ -1019,7 +1019,7 @@ Function Name | Ordinal | Type
 `_Cnd_wait` | 1366 | Exported Function
 `_Cnd_destroy_in_situ` | 1358 | Exported Function
 `__crtLCMapStringW` | 1490 | Exported Function
-`__int64 const std::_BADOFF` | 407 | Exported Function
+`_BADOFF` | 407 | Exported Function
 `__crtLCMapStringA` | 1489 | Exported Function
 `__crtCompareStringA` | 1487 | Exported Function
 `__crtCompareStringW` | 1488 | Exported Function
@@ -1052,52 +1052,52 @@ Function Name | Ordinal | Type
 `_FExp` | 1378 | Exported Function
 `_FDenorm` | 1376 | Exported Function
 `_FDtest` | 1377 | Exported Function
-`class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > std::wcin` | 1327 | Exported Function
-`class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __ptr64 std::_Ptr_wcin` | 597 | Exported Function
-`class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __ptr64 std::_Ptr_wcin` | 596 | Exported Function
-`class std::basic_istream<char,struct std::char_traits<char> > * __ptr64 __ptr64 std::_Ptr_cin` | 591 | Exported Function
-`class std::basic_istream<char,struct std::char_traits<char> > std::cin` | 676 | Exported Function
-`class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > std::wcin` | 1328 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > std::cerr` | 675 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > std::clog` | 688 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > * __ptr64 __ptr64 std::_Ptr_cout` | 593 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > * __ptr64 __ptr64 std::_Ptr_cerr` | 590 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > * __ptr64 __ptr64 std::_Ptr_clog` | 592 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getifld(char * __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,int,class std::locale const & __ptr64)const __ptr64'::``2'::_Src` | 626 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getffld(char * __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64'::``2'::_Src` | 618 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getffldx(char * __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64'::``2'::_Src` | 621 | Exported Function
-`char const * __ptr64 __cdecl std::_Syserror_map(int)` | 628 | Exported Function
+`wcin` | 1327 | Exported Function
+`_Ptr_wcin` | 597 | Exported Function
+`_Ptr_wcin` | 596 | Exported Function
+`_Ptr_cin` | 591 | Exported Function
+`cin` | 676 | Exported Function
+`wcin` | 1328 | Exported Function
+`cerr` | 675 | Exported Function
+`clog` | 688 | Exported Function
+`_Ptr_cout` | 593 | Exported Function
+`_Ptr_cerr` | 590 | Exported Function
+`_Ptr_clog` | 592 | Exported Function
+`_Src` | 626 | Exported Function
+`_Src` | 618 | Exported Function
+`_Src` | 621 | Exported Function
+`_Syserror_map` | 628 | Exported Function
 `bool __cdecl __ExceptionPtrToBool(void const * __ptr64)` | 669 | Exported Function
-`bool __cdecl std::uncaught_exception(void)` | 1311 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getifld(char * __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,class std::istreambuf_iterator<char,struct std::char_traits<char> > & __ptr64,int,class std::locale const & __ptr64)const __ptr64'::``2'::_Src` | 624 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getffld(char * __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64'::``2'::_Src` | 620 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getffldx(char * __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64'::``2'::_Src` | 623 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getifld(char * __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,int,class std::locale const & __ptr64)const __ptr64'::``2'::_Src` | 625 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getffld(char * __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64'::``2'::_Src` | 619 | Exported Function
-`char const * const ``private: int __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getffldx(char * __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > & __ptr64,class std::ios_base & __ptr64,int * __ptr64)const __ptr64'::``2'::_Src` | 622 | Exported Function
-`const std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::``vftable'` | 309 | Exported Function
-`const std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::``vftable'` | 310 | Exported Function
-`const std::basic_ios<char,struct std::char_traits<char> >::``vftable'` | 308 | Exported Function
-`class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > std::wcout` | 1332 | Exported Function
-`const std::_Facet_base::``vftable'` | 343 | Exported Function
-`const std::basic_iostream<char,struct std::char_traits<char> >::``vbtable'{for ``std::basic_istream<char,struct std::char_traits<char> >'}` | 350 | Exported Function
-`const std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::``vbtable'{for ``std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >'}` | 353 | Exported Function
-`const std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::``vftable'` | 312 | Exported Function
-`const std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::``vbtable'{for ``std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >'}` | 352 | Exported Function
-`const std::basic_iostream<char,struct std::char_traits<char> >::``vbtable'{for ``std::basic_ostream<char,struct std::char_traits<char> >'}` | 351 | Exported Function
-`const std::basic_iostream<char,struct std::char_traits<char> >::``vftable'` | 311 | Exported Function
-`class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > std::wclog` | 1330 | Exported Function
-`class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __ptr64 std::_Ptr_wcout` | 600 | Exported Function
-`class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > std::wcerr` | 1325 | Exported Function
-`class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __ptr64 std::_Ptr_wclog` | 598 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > std::cout` | 693 | Exported Function
-`class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __ptr64 std::_Ptr_wcerr` | 594 | Exported Function
-`class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > std::wclog` | 1329 | Exported Function
-`class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __ptr64 std::_Ptr_wcout` | 601 | Exported Function
-`class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > std::wcerr` | 1326 | Exported Function
-`class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __ptr64 std::_Ptr_wclog` | 599 | Exported Function
-`class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > std::wcout` | 1331 | Exported Function
-`class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __ptr64 std::_Ptr_wcerr` | 595 | Exported Function
+`uncaught_exception` | 1311 | Exported Function
+`_Src` | 624 | Exported Function
+`_Src` | 620 | Exported Function
+`_Src` | 623 | Exported Function
+`_Src` | 625 | Exported Function
+`_Src` | 619 | Exported Function
+`_Src` | 622 | Exported Function
+`char_traits` | 309 | Exported Function
+`char_traits` | 310 | Exported Function
+`char_traits` | 308 | Exported Function
+`wcout` | 1332 | Exported Function
+`_Facet_base` | 343 | Exported Function
+`char_traits` | 350 | Exported Function
+`char_traits` | 353 | Exported Function
+`char_traits` | 312 | Exported Function
+`char_traits` | 352 | Exported Function
+`char_traits` | 351 | Exported Function
+`char_traits` | 311 | Exported Function
+`wclog` | 1330 | Exported Function
+`_Ptr_wcout` | 600 | Exported Function
+`wcerr` | 1325 | Exported Function
+`_Ptr_wclog` | 598 | Exported Function
+`cout` | 693 | Exported Function
+`_Ptr_wcerr` | 594 | Exported Function
+`wclog` | 1329 | Exported Function
+`_Ptr_wcout` | 601 | Exported Function
+`wcerr` | 1326 | Exported Function
+`_Ptr_wclog` | 599 | Exported Function
+`wcout` | 1331 | Exported Function
+`_Ptr_wcerr` | 595 | Exported Function
 `bool __cdecl __ExceptionPtrCompare(void const * __ptr64,void const * __ptr64)` | 661 | Exported Function
 `_Thrd_create` | 1455 | Exported Function
 `_Thrd_current` | 1456 | Exported Function
@@ -1145,379 +1145,379 @@ Function Name | Ordinal | Type
 `_Towupper` | 1471 | Exported Function
 `_Toupper` | 1469 | Exported Function
 `_Towlower` | 1470 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Init(void) __ptr64` | 506 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Init(wchar_t * __ptr64 * __ptr64,wchar_t * __ptr64 * __ptr64,int * __ptr64,wchar_t * __ptr64 * __ptr64,wchar_t * __ptr64 * __ptr64,int * __ptr64) __ptr64` | 505 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::swap(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 1272 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::setp(unsigned short * __ptr64,unsigned short * __ptr64) __ptr64` | 1218 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::setp(unsigned short * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64) __ptr64` | 1217 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::gbump(int) __ptr64` | 878 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::setp(wchar_t * __ptr64,wchar_t * __ptr64,wchar_t * __ptr64) __ptr64` | 1219 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::swap(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 1273 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::setp(wchar_t * __ptr64,wchar_t * __ptr64) __ptr64` | 1220 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pbump(int) __ptr64` | 1092 | Exported Function
-`protected: void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::setg(wchar_t * __ptr64,wchar_t * __ptr64,wchar_t * __ptr64) __ptr64` | 1213 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::setg(unsigned short * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64) __ptr64` | 1212 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setg(char * __ptr64,char * __ptr64,char * __ptr64) __ptr64` | 1211 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char * __ptr64,char * __ptr64) __ptr64` | 1216 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int) __ptr64` | 1090 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void) __ptr64` | 502 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int) __ptr64` | 876 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char * __ptr64,char * __ptr64,char * __ptr64) __ptr64` | 1215 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::gbump(int) __ptr64` | 877 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pbump(int) __ptr64` | 1091 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Init(void) __ptr64` | 504 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::swap(class std::basic_streambuf<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 1271 | Exported Function
-`protected: void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Init(unsigned short * __ptr64 * __ptr64,unsigned short * __ptr64 * __ptr64,int * __ptr64,unsigned short * __ptr64 * __ptr64,unsigned short * __ptr64 * __ptr64,int * __ptr64) __ptr64` | 503 | Exported Function
-`protected: void __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 520 | Exported Function
-`protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const & __ptr64) __ptr64` | 1 | Exported Function
-`protected: void __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 519 | Exported Function
-`protected: void __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 517 | Exported Function
-`protected: void __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 518 | Exported Function
-`protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 521 | Exported Function
-`protected: void __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 523 | Exported Function
-`protected: void __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 524 | Exported Function
-`protected: void __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const & __ptr64) __ptr64` | 3 | Exported Function
-`protected: void __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const & __ptr64) __ptr64` | 2 | Exported Function
-`protected: void __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 522 | Exported Function
-`protected: void __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 516 | Exported Function
-`protected: void __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 508 | Exported Function
-`protected: void __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 511 | Exported Function
-`protected: void __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 510 | Exported Function
-`protected: void __cdecl std::codecvt<char,char,struct _Mbstatet>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 507 | Exported Function
-`protected: void __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 509 | Exported Function
-`protected: void __cdecl std::ctype<char>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 512 | Exported Function
-`protected: void __cdecl std::ios_base::_Init(void) __ptr64` | 527 | Exported Function
-`protected: void __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 515 | Exported Function
-`protected: void __cdecl std::ctype<wchar_t>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 514 | Exported Function
-`protected: void __cdecl std::ctype<char>::_Tidy(void) __ptr64` | 635 | Exported Function
-`protected: void __cdecl std::ctype<unsigned short>::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 513 | Exported Function
-`protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * __ptr64 * __ptr64,char * __ptr64 * __ptr64,int * __ptr64,char * __ptr64 * __ptr64,char * __ptr64 * __ptr64,int * __ptr64) __ptr64` | 501 | Exported Function
-`protected: virtual unsigned short __cdecl std::ctype<unsigned short>::do_widen(char)const __ptr64` | 842 | Exported Function
-`protected: virtual unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::do_is(unsigned short const * __ptr64,unsigned short const * __ptr64,short * __ptr64)const __ptr64` | 767 | Exported Function
-`protected: virtual unsigned short __cdecl std::ctype<unsigned short>::do_toupper(unsigned short)const __ptr64` | 831 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::underflow(void) __ptr64` | 1315 | Exported Function
-`protected: virtual unsigned short __cdecl std::ctype<unsigned short>::do_tolower(unsigned short)const __ptr64` | 825 | Exported Function
-`protected: virtual unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::do_narrow(unsigned short const * __ptr64,unsigned short const * __ptr64,char,char * __ptr64)const __ptr64` | 784 | Exported Function
-`protected: virtual unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::do_toupper(unsigned short * __ptr64,unsigned short const * __ptr64)const __ptr64` | 832 | Exported Function
-`protected: virtual void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::imbue(class std::locale const & __ptr64) __ptr64` | 1015 | Exported Function
-`protected: virtual unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::do_tolower(unsigned short * __ptr64,unsigned short const * __ptr64)const __ptr64` | 826 | Exported Function
-`protected: virtual unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::do_scan_is(short,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 819 | Exported Function
-`protected: virtual unsigned short const * __ptr64 __cdecl std::ctype<unsigned short>::do_scan_not(short,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 821 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::uflow(void) __ptr64` | 1310 | Exported Function
-`protected: virtual int __cdecl std::codecvt_base::do_encoding(void)const __ptr64` | 710 | Exported Function
-`protected: virtual int __cdecl std::codecvt_base::do_max_length(void)const __ptr64` | 780 | Exported Function
-`protected: virtual int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 839 | Exported Function
-`protected: virtual int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_max_length(void)const __ptr64` | 779 | Exported Function
-`protected: virtual int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_out(struct _Mbstatet & __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 791 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::overflow(unsigned short) __ptr64` | 1082 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::overflow(unsigned short) __ptr64` | 1083 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pbackfail(unsigned short) __ptr64` | 1086 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::underflow(void) __ptr64` | 1314 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pbackfail(unsigned short) __ptr64` | 1085 | Exported Function
-`protected: virtual unsigned short __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::uflow(void) __ptr64` | 1309 | Exported Function
-`protected: void __cdecl std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::swap(class std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 1263 | Exported Function
-`protected: void __cdecl std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::swap(class std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 1264 | Exported Function
-`protected: void __cdecl std::basic_iostream<char,struct std::char_traits<char> >::swap(class std::basic_iostream<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 1262 | Exported Function
-`protected: void __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::init(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64,bool) __ptr64` | 1028 | Exported Function
-`protected: void __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::init(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64,bool) __ptr64` | 1029 | Exported Function
-`protected: void __cdecl std::basic_istream<char,struct std::char_traits<char> >::swap(class std::basic_istream<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 1265 | Exported Function
-`protected: void __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::swap(class std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 1269 | Exported Function
-`protected: void __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::swap(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 1270 | Exported Function
-`protected: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::swap(class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64) __ptr64` | 1268 | Exported Function
-`protected: void __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::swap(class std::basic_istream<unsigned short,struct std::char_traits<unsigned short> > & __ptr64) __ptr64` | 1266 | Exported Function
-`protected: void __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::swap(class std::basic_istream<wchar_t,struct std::char_traits<wchar_t> > & __ptr64) __ptr64` | 1267 | Exported Function
-`protected: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::init(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64,bool) __ptr64` | 1027 | Exported Function
-`protected: virtual wchar_t __cdecl std::ctype<wchar_t>::do_toupper(wchar_t)const __ptr64` | 834 | Exported Function
-`protected: virtual wchar_t __cdecl std::ctype<wchar_t>::do_widen(char)const __ptr64` | 845 | Exported Function
-`protected: virtual wchar_t __cdecl std::ctype<wchar_t>::do_tolower(wchar_t)const __ptr64` | 828 | Exported Function
-`protected: virtual void __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::imbue(class std::locale const & __ptr64) __ptr64` | 1016 | Exported Function
-`protected: virtual void __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::imbue(class std::locale const & __ptr64) __ptr64` | 1017 | Exported Function
-`protected: virtual wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::do_is(wchar_t const * __ptr64,wchar_t const * __ptr64,short * __ptr64)const __ptr64` | 769 | Exported Function
-`protected: virtual wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::do_tolower(wchar_t * __ptr64,wchar_t const * __ptr64)const __ptr64` | 827 | Exported Function
-`protected: virtual wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::do_toupper(wchar_t * __ptr64,wchar_t const * __ptr64)const __ptr64` | 833 | Exported Function
-`protected: virtual wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::do_scan_not(short,wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 822 | Exported Function
-`protected: virtual wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::do_narrow(wchar_t const * __ptr64,wchar_t const * __ptr64,char,char * __ptr64)const __ptr64` | 786 | Exported Function
-`protected: virtual wchar_t const * __ptr64 __cdecl std::ctype<wchar_t>::do_scan_is(short,wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 820 | Exported Function
-`public: __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >(enum std::_Uninitialized,bool) __ptr64` | 45 | Exported Function
-`public: __cdecl std::codecvt<char,char,struct _Mbstatet>::codecvt<char,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 55 | Exported Function
-`public: __cdecl std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64,bool) __ptr64` | 44 | Exported Function
-`public: __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64,bool) __ptr64` | 41 | Exported Function
-`public: __cdecl std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >(enum std::_Uninitialized,bool) __ptr64` | 42 | Exported Function
-`public: __cdecl std::codecvt<char,char,struct _Mbstatet>::codecvt<char,char,struct _Mbstatet>(unsigned __int64) __ptr64` | 56 | Exported Function
-`public: __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::codecvt<char32_t,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 63 | Exported Function
-`public: __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::codecvt<char32_t,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned long,enum std::_Codecvt_mode,unsigned __int64) __ptr64` | 62 | Exported Function
-`public: __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::codecvt<char16_t,char,struct _Mbstatet>(unsigned __int64) __ptr64` | 61 | Exported Function
-`public: __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::codecvt<char16_t,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 60 | Exported Function
-`public: __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::codecvt<char16_t,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned long,enum std::_Codecvt_mode,unsigned __int64) __ptr64` | 59 | Exported Function
-`public: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(enum std::_Uninitialized,bool) __ptr64` | 39 | Exported Function
-`public: __cdecl std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(enum std::_Uninitialized) __ptr64` | 28 | Exported Function
-`public: __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::basic_istream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64,bool) __ptr64` | 31 | Exported Function
-`public: __cdecl std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64,bool,bool) __ptr64` | 26 | Exported Function
-`public: __cdecl std::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >::basic_iostream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 24 | Exported Function
-`public: __cdecl std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64,bool) __ptr64` | 27 | Exported Function
-`public: __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::basic_istream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64,bool,bool) __ptr64` | 30 | Exported Function
-`public: __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::basic_istream<wchar_t,struct std::char_traits<wchar_t> >(enum std::_Uninitialized) __ptr64` | 36 | Exported Function
-`public: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64,bool) __ptr64` | 38 | Exported Function
-`public: __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::basic_istream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64,bool,bool) __ptr64` | 34 | Exported Function
-`public: __cdecl std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::basic_istream<unsigned short,struct std::char_traits<unsigned short> >(enum std::_Uninitialized) __ptr64` | 32 | Exported Function
-`public: __cdecl std::basic_istream<wchar_t,struct std::char_traits<wchar_t> >::basic_istream<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64,bool) __ptr64` | 35 | Exported Function
-`public: __cdecl std::ios_base::operator bool(void)const __ptr64` | 307 | Exported Function
-`public: __cdecl std::locale::id::id(unsigned __int64) __ptr64` | 119 | Exported Function
-`public: __cdecl std::ios_base::Init::~Init(void) __ptr64` | 161 | Exported Function
-`public: __cdecl std::ctype_base::ctype_base(unsigned __int64) __ptr64` | 117 | Exported Function
-`public: __cdecl std::ios_base::Init::Init(void) __ptr64` | 102 | Exported Function
-`public: __cdecl std::locale::id::operator unsigned __int64(void) __ptr64` | 306 | Exported Function
-`public: __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(unsigned __int64) __ptr64` | 76 | Exported Function
-`public: __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 77 | Exported Function
-`public: __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 75 | Exported Function
-`public: __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 73 | Exported Function
-`public: __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(unsigned __int64) __ptr64` | 74 | Exported Function
-`public: __cdecl std::ctype<wchar_t>::ctype<wchar_t>(unsigned __int64) __ptr64` | 72 | Exported Function
-`public: __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::codecvt<wchar_t,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 65 | Exported Function
-`public: __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::codecvt<wchar_t,char,struct _Mbstatet>(unsigned __int64) __ptr64` | 66 | Exported Function
-`public: __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::codecvt<unsigned short,char,struct _Mbstatet>(unsigned __int64) __ptr64` | 58 | Exported Function
-`public: __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::codecvt<char32_t,char,struct _Mbstatet>(unsigned __int64) __ptr64` | 64 | Exported Function
-`public: __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::codecvt<unsigned short,char,struct _Mbstatet>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 57 | Exported Function
-`public: __cdecl std::codecvt_base::codecvt_base(unsigned __int64) __ptr64` | 116 | Exported Function
-`public: __cdecl std::ctype<unsigned short>::ctype<unsigned short>(unsigned __int64) __ptr64` | 70 | Exported Function
-`public: __cdecl std::ctype<wchar_t>::ctype<wchar_t>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 71 | Exported Function
-`public: __cdecl std::ctype<unsigned short>::ctype<unsigned short>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 69 | Exported Function
-`public: __cdecl std::ctype<char>::ctype<char>(class std::_Locinfo const & __ptr64,unsigned __int64) __ptr64` | 67 | Exported Function
-`public: __cdecl std::ctype<char>::ctype<char>(short const * __ptr64,bool,unsigned __int64) __ptr64` | 68 | Exported Function
-`public: __cdecl std::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >::basic_iostream<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 22 | Exported Function
-`public: __cdecl std::_Init_locks::_Init_locks(void) __ptr64` | 105 | Exported Function
-`public: __cdecl std::_Init_locks::~_Init_locks(void) __ptr64` | 163 | Exported Function
-`public: __cdecl std::_Facet_base::_Facet_base(void) __ptr64` | 104 | Exported Function
-`protected: wchar_t __cdecl std::ctype<wchar_t>::_Dowiden(char)const __ptr64` | 419 | Exported Function
-`public: __cdecl std::_Facet_base::_Facet_base(class std::_Facet_base const & __ptr64) __ptr64` | 103 | Exported Function
-`public: __cdecl std::_Locinfo::_Locinfo(char const * __ptr64) __ptr64` | 109 | Exported Function
-`public: __cdecl std::_Lockit::_Lockit(void) __ptr64` | 111 | Exported Function
-`public: __cdecl std::_Lockit::~_Lockit(void) __ptr64` | 166 | Exported Function
-`public: __cdecl std::_Lockit::_Lockit(int) __ptr64` | 110 | Exported Function
-`public: __cdecl std::_Locinfo::_Locinfo(int,char const * __ptr64) __ptr64` | 108 | Exported Function
-`public: __cdecl std::_Locinfo::~_Locinfo(void) __ptr64` | 165 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pptr(void)const __ptr64` | 1098 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Gninc(void) __ptr64` | 491 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Gnpreinc(void) __ptr64` | 494 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Gndec(void) __ptr64` | 488 | Exported Function
-`protected: void __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 525 | Exported Function
-`protected: void __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Init(class std::_Locinfo const & __ptr64) __ptr64` | 526 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Pninc(void) __ptr64` | 589 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::gptr(void)const __ptr64` | 969 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::pbase(void)const __ptr64` | 1089 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::epptr(void)const __ptr64` | 860 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::eback(void)const __ptr64` | 848 | Exported Function
-`protected: wchar_t * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::egptr(void)const __ptr64` | 851 | Exported Function
-`public: __cdecl std::_Yarn<wchar_t>::_Yarn<wchar_t>(class std::_Yarn<wchar_t> const & __ptr64) __ptr64` | 10 | Exported Function
-`public: __cdecl std::_Yarn<wchar_t>::_Yarn<wchar_t>(void) __ptr64` | 12 | Exported Function
-`public: __cdecl std::_Yarn<unsigned short>::~_Yarn<unsigned short>(void) __ptr64` | 124 | Exported Function
-`public: __cdecl std::_Yarn<unsigned short>::_Yarn<unsigned short>(unsigned short const * __ptr64) __ptr64` | 8 | Exported Function
-`public: __cdecl std::_Yarn<unsigned short>::_Yarn<unsigned short>(void) __ptr64` | 9 | Exported Function
-`public: __cdecl std::_Yarn<wchar_t>::_Yarn<wchar_t>(wchar_t const * __ptr64) __ptr64` | 11 | Exported Function
-`public: __cdecl std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::basic_ios<wchar_t,struct std::char_traits<wchar_t> >(class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64) __ptr64` | 18 | Exported Function
-`public: __cdecl std::basic_iostream<char,struct std::char_traits<char> >::basic_iostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 20 | Exported Function
-`public: __cdecl std::basic_ios<unsigned short,struct std::char_traits<unsigned short> >::basic_ios<unsigned short,struct std::char_traits<unsigned short> >(class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64) __ptr64` | 16 | Exported Function
-`public: __cdecl std::_Yarn<wchar_t>::~_Yarn<wchar_t>(void) __ptr64` | 125 | Exported Function
-`public: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64) __ptr64` | 14 | Exported Function
-`public: __cdecl std::_Yarn<unsigned short>::_Yarn<unsigned short>(class std::_Yarn<unsigned short> const & __ptr64) __ptr64` | 7 | Exported Function
-`public: __cdecl std::_UShinit::_UShinit(void) __ptr64` | 114 | Exported Function
-`public: __cdecl std::_UShinit::~_UShinit(void) __ptr64` | 168 | Exported Function
-`public: __cdecl std::_Timevec::~_Timevec(void) __ptr64` | 167 | Exported Function
-`public: __cdecl std::_Timevec::_Timevec(class std::_Timevec const & __ptr64) __ptr64` | 112 | Exported Function
-`public: __cdecl std::_Timevec::_Timevec(void * __ptr64) __ptr64` | 113 | Exported Function
-`public: __cdecl std::_Winit::_Winit(void) __ptr64` | 115 | Exported Function
-`public: __cdecl std::_Yarn<char>::_Yarn<char>(void) __ptr64` | 6 | Exported Function
-`public: __cdecl std::_Yarn<char>::~_Yarn<char>(void) __ptr64` | 123 | Exported Function
-`public: __cdecl std::_Yarn<char>::_Yarn<char>(class std::_Yarn<char> const & __ptr64) __ptr64` | 4 | Exported Function
-`public: __cdecl std::_Winit::~_Winit(void) __ptr64` | 169 | Exported Function
-`public: __cdecl std::_Yarn<char>::_Yarn<char>(char const * __ptr64) __ptr64` | 5 | Exported Function
-`protected: virtual int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 775 | Exported Function
-`protected: virtual char const * __ptr64 __cdecl std::ctype<char>::do_widen(char const * __ptr64,char const * __ptr64,char * __ptr64)const __ptr64` | 841 | Exported Function
-`protected: virtual char const * __ptr64 __cdecl std::ctype<unsigned short>::do_widen(char const * __ptr64,char const * __ptr64,unsigned short * __ptr64)const __ptr64` | 843 | Exported Function
-`protected: virtual char const * __ptr64 __cdecl std::ctype<char>::do_toupper(char * __ptr64,char const * __ptr64)const __ptr64` | 830 | Exported Function
-`protected: virtual char const * __ptr64 __cdecl std::ctype<char>::do_narrow(char const * __ptr64,char const * __ptr64,char,char * __ptr64)const __ptr64` | 782 | Exported Function
-`protected: virtual char const * __ptr64 __cdecl std::ctype<char>::do_tolower(char * __ptr64,char const * __ptr64)const __ptr64` | 824 | Exported Function
-`protected: virtual char const * __ptr64 __cdecl std::ctype<wchar_t>::do_widen(char const * __ptr64,char const * __ptr64,wchar_t * __ptr64)const __ptr64` | 844 | Exported Function
-`protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int) __ptr64` | 1189 | Exported Function
-`protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::seekpos(class std::fpos<struct _Mbstatet>,int) __ptr64` | 1198 | Exported Function
-`protected: virtual class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __ptr64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::setbuf(wchar_t * __ptr64,__int64) __ptr64` | 1208 | Exported Function
-`protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __ptr64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setbuf(char * __ptr64,__int64) __ptr64` | 1206 | Exported Function
-`protected: virtual class std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> > * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::setbuf(unsigned short * __ptr64,__int64) __ptr64` | 1207 | Exported Function
-`protected: virtual char __cdecl std::ctype<wchar_t>::do_narrow(wchar_t,char)const __ptr64` | 785 | Exported Function
-`protected: virtual bool __cdecl std::codecvt_base::do_always_noconv(void)const __ptr64` | 702 | Exported Function
-`protected: virtual bool __cdecl std::ctype<unsigned short>::do_is(short,unsigned short)const __ptr64` | 768 | Exported Function
-`protected: virtual bool __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_always_noconv(void)const __ptr64` | 701 | Exported Function
-`protected: virtual bool __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_always_noconv(void)const __ptr64` | 700 | Exported Function
-`protected: virtual bool __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_always_noconv(void)const __ptr64` | 698 | Exported Function
-`protected: virtual bool __cdecl std::ctype<wchar_t>::do_is(short,wchar_t)const __ptr64` | 770 | Exported Function
-`protected: virtual char __cdecl std::ctype<char>::do_widen(char)const __ptr64` | 840 | Exported Function
-`protected: virtual char __cdecl std::ctype<unsigned short>::do_narrow(unsigned short,char)const __ptr64` | 783 | Exported Function
-`protected: virtual char __cdecl std::ctype<char>::do_toupper(char)const __ptr64` | 829 | Exported Function
-`protected: virtual char __cdecl std::ctype<char>::do_narrow(char,char)const __ptr64` | 781 | Exported Function
-`protected: virtual char __cdecl std::ctype<char>::do_tolower(char)const __ptr64` | 823 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char,char)const __ptr64` | 744 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get_date(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 747 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,void * __ptr64 & __ptr64)const __ptr64` | 718 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned long & __ptr64)const __ptr64` | 714 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned short & __ptr64)const __ptr64` | 711 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get_monthname(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 750 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,__int64 & __ptr64)const __ptr64` | 730 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,bool & __ptr64)const __ptr64` | 732 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get_year(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 759 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get_time(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 753 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get_weekday(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 756 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned int & __ptr64)const __ptr64` | 712 | Exported Function
-`protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::seekpos(class std::fpos<struct _Mbstatet>,int) __ptr64` | 1200 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,__int64 & __ptr64)const __ptr64` | 719 | Exported Function
-`protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::seekoff(__int64,int,int) __ptr64` | 1191 | Exported Function
-`protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::seekoff(__int64,int,int) __ptr64` | 1190 | Exported Function
-`protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::seekpos(class std::fpos<struct _Mbstatet>,int) __ptr64` | 1199 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,bool & __ptr64)const __ptr64` | 721 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,long double & __ptr64)const __ptr64` | 717 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,unsigned __int64 & __ptr64)const __ptr64` | 720 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,long & __ptr64)const __ptr64` | 713 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,double & __ptr64)const __ptr64` | 716 | Exported Function
-`protected: virtual class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,float & __ptr64)const __ptr64` | 715 | Exported Function
-`protected: virtual bool __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_always_noconv(void)const __ptr64` | 699 | Exported Function
-`protected: virtual __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::~codecvt<char16_t,char,struct _Mbstatet>(void) __ptr64` | 143 | Exported Function
-`protected: virtual __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::~codecvt<char32_t,char,struct _Mbstatet>(void) __ptr64` | 144 | Exported Function
-`protected: virtual __cdecl std::codecvt<char,char,struct _Mbstatet>::~codecvt<char,char,struct _Mbstatet>(void) __ptr64` | 141 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pptr(void)const __ptr64` | 1097 | Exported Function
-`protected: unsigned short __cdecl std::ctype<unsigned short>::_Dowiden(char)const __ptr64` | 418 | Exported Function
-`protected: virtual __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::~codecvt<unsigned short,char,struct _Mbstatet>(void) __ptr64` | 142 | Exported Function
-`protected: virtual __cdecl std::ctype<wchar_t>::~ctype<wchar_t>(void) __ptr64` | 148 | Exported Function
-`protected: virtual __cdecl std::locale::_Locimp::~_Locimp(void) __ptr64` | 164 | Exported Function
-`protected: virtual __cdecl std::ctype<unsigned short>::~ctype<unsigned short>(void) __ptr64` | 147 | Exported Function
-`protected: virtual __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::~codecvt<wchar_t,char,struct _Mbstatet>(void) __ptr64` | 145 | Exported Function
-`protected: virtual __cdecl std::ctype<char>::~ctype<char>(void) __ptr64` | 146 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::pbase(void)const __ptr64` | 1088 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Gndec(void) __ptr64` | 487 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Gninc(void) __ptr64` | 490 | Exported Function
-`protected: class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::_Getfmt(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char const * __ptr64)const __ptr64` | 469 | Exported Function
-`protected: class std::istreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getfmt(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char const * __ptr64)const __ptr64` | 467 | Exported Function
-`protected: class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Getfmt(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char const * __ptr64)const __ptr64` | 468 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Gnpreinc(void) __ptr64` | 493 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::epptr(void)const __ptr64` | 859 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::gptr(void)const __ptr64` | 968 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::egptr(void)const __ptr64` | 850 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Pninc(void) __ptr64` | 588 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::eback(void)const __ptr64` | 847 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const * __ptr64,__int64) __ptr64` | 1351 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::showmanyc(void) __ptr64` | 1239 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char * __ptr64,__int64) __ptr64` | 1348 | Exported Function
-`protected: virtual __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::~time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(void) __ptr64` | 160 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc(void) __ptr64` | 1238 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::xsgetn(unsigned short * __ptr64,__int64) __ptr64` | 1349 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::xsputn(wchar_t const * __ptr64,__int64) __ptr64` | 1353 | Exported Function
-`protected: virtual bool __cdecl std::codecvt<char,char,struct _Mbstatet>::do_always_noconv(void)const __ptr64` | 697 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::xsgetn(wchar_t * __ptr64,__int64) __ptr64` | 1350 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::xsputn(unsigned short const * __ptr64,__int64) __ptr64` | 1352 | Exported Function
-`protected: virtual __int64 __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::showmanyc(void) __ptr64` | 1240 | Exported Function
-`protected: virtual __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::~time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(void) __ptr64` | 159 | Exported Function
-`protected: virtual __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::~num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(void) __ptr64` | 151 | Exported Function
-`protected: virtual __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::~num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >(void) __ptr64` | 152 | Exported Function
-`protected: virtual __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::~num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(void) __ptr64` | 150 | Exported Function
-`protected: virtual __cdecl std::locale::facet::~facet(void) __ptr64` | 172 | Exported Function
-`protected: virtual __cdecl std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::~num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(void) __ptr64` | 149 | Exported Function
-`protected: virtual __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::~num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(void) __ptr64` | 153 | Exported Function
-`protected: virtual __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::~time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(void) __ptr64` | 157 | Exported Function
-`protected: virtual __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::~time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >(void) __ptr64` | 158 | Exported Function
-`protected: virtual __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::~time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >(void) __ptr64` | 156 | Exported Function
-`protected: virtual __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::~num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >(void) __ptr64` | 154 | Exported Function
-`protected: virtual __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::~time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(void) __ptr64` | 155 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::overflow(int) __ptr64` | 1081 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbackfail(int) __ptr64` | 1084 | Exported Function
-`protected: virtual enum std::time_base::dateorder __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_date_order(void)const __ptr64` | 705 | Exported Function
-`protected: virtual enum std::time_base::dateorder __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_date_order(void)const __ptr64` | 703 | Exported Function
-`protected: virtual enum std::time_base::dateorder __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_date_order(void)const __ptr64` | 704 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sync(void) __ptr64` | 1278 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sync(void) __ptr64` | 1280 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char,char,struct _Mbstatet>::do_in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 762 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::sync(void) __ptr64` | 1279 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::uflow(void) __ptr64` | 1308 | Exported Function
-`protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::underflow(void) __ptr64` | 1313 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,struct tm const * __ptr64,char,char)const __ptr64` | 818 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,__int64)const __ptr64` | 813 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,bool)const __ptr64` | 815 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,struct tm const * __ptr64,char,char)const __ptr64` | 817 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,unsigned long)const __ptr64` | 801 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,void const * __ptr64)const __ptr64` | 804 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,double)const __ptr64` | 810 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,unsigned long)const __ptr64` | 809 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,void const * __ptr64)const __ptr64` | 812 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,unsigned __int64)const __ptr64` | 814 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,long double)const __ptr64` | 811 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_put(class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,wchar_t,long)const __ptr64` | 808 | Exported Function
-`protected: virtual int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_encoding(void)const __ptr64` | 706 | Exported Function
-`protected: virtual int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,unsigned short * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64 & __ptr64)const __ptr64` | 763 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 838 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_max_length(void)const __ptr64` | 778 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_out(struct _Mbstatet & __ptr64,char32_t const * __ptr64,char32_t const * __ptr64,char32_t const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 790 | Exported Function
-`protected: virtual int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 772 | Exported Function
-`protected: virtual int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_encoding(void)const __ptr64` | 709 | Exported Function
-`protected: virtual int __cdecl std::codecvt<wchar_t,char,struct _Mbstatet>::do_in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,wchar_t * __ptr64,wchar_t * __ptr64,wchar_t * __ptr64 & __ptr64)const __ptr64` | 766 | Exported Function
-`protected: virtual int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 836 | Exported Function
-`protected: virtual int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_max_length(void)const __ptr64` | 776 | Exported Function
-`protected: virtual int __cdecl std::codecvt<unsigned short,char,struct _Mbstatet>::do_out(struct _Mbstatet & __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 788 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 774 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_encoding(void)const __ptr64` | 707 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char16_t * __ptr64,char16_t * __ptr64,char16_t * __ptr64 & __ptr64)const __ptr64` | 764 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char,char,struct _Mbstatet>::do_unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 835 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char,char,struct _Mbstatet>::do_length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 771 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char,char,struct _Mbstatet>::do_out(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 787 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_length(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,unsigned __int64)const __ptr64` | 773 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_encoding(void)const __ptr64` | 708 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char32_t,char,struct _Mbstatet>::do_in(struct _Mbstatet & __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64 & __ptr64,char32_t * __ptr64,char32_t * __ptr64,char32_t * __ptr64 & __ptr64)const __ptr64` | 765 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_unshift(struct _Mbstatet & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 837 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_max_length(void)const __ptr64` | 777 | Exported Function
-`protected: virtual int __cdecl std::codecvt<char16_t,char,struct _Mbstatet>::do_out(struct _Mbstatet & __ptr64,char16_t const * __ptr64,char16_t const * __ptr64,char16_t const * __ptr64 & __ptr64,char * __ptr64,char * __ptr64,char * __ptr64 & __ptr64)const __ptr64` | 789 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,unsigned __int64)const __ptr64` | 806 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,__int64 & __ptr64)const __ptr64` | 741 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,bool & __ptr64)const __ptr64` | 743 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get_year(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 760 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get_time(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 754 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get_weekday(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 757 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,double & __ptr64)const __ptr64` | 738 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned __int64 & __ptr64)const __ptr64` | 742 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned int & __ptr64)const __ptr64` | 734 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,long double & __ptr64)const __ptr64` | 739 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,float & __ptr64)const __ptr64` | 737 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,long & __ptr64)const __ptr64` | 735 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get_monthname(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 751 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,long double & __ptr64)const __ptr64` | 728 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned __int64 & __ptr64)const __ptr64` | 731 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,long & __ptr64)const __ptr64` | 724 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,double & __ptr64)const __ptr64` | 727 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,float & __ptr64)const __ptr64` | 726 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned int & __ptr64)const __ptr64` | 723 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char,char)const __ptr64` | 745 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get_date(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 748 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,void * __ptr64 & __ptr64)const __ptr64` | 729 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned long & __ptr64)const __ptr64` | 725 | Exported Function
-`protected: virtual class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,int & __ptr64,unsigned short & __ptr64)const __ptr64` | 722 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,unsigned long)const __ptr64` | 793 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,void const * __ptr64)const __ptr64` | 796 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,unsigned __int64)const __ptr64` | 798 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,long double)const __ptr64` | 795 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,long)const __ptr64` | 792 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,struct tm const * __ptr64,char,char)const __ptr64` | 816 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,long double)const __ptr64` | 803 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,long)const __ptr64` | 800 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,double)const __ptr64` | 802 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,__int64)const __ptr64` | 805 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base & __ptr64,unsigned short,bool)const __ptr64` | 807 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,double)const __ptr64` | 794 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64,char,char)const __ptr64` | 746 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get_date(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 749 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,void * __ptr64 & __ptr64)const __ptr64` | 740 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned long & __ptr64)const __ptr64` | 736 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,unsigned short & __ptr64)const __ptr64` | 733 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get_monthname(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 752 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,__int64)const __ptr64` | 797 | Exported Function
-`protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base & __ptr64,char,bool)const __ptr64` | 799 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get_year(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 761 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get_time(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 755 | Exported Function
-`protected: virtual class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > __cdecl std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >::do_get_weekday(class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> >,class std::ios_base & __ptr64,int & __ptr64,struct tm * __ptr64)const __ptr64` | 758 | Exported Function
+`_Init` | 506 | Exported Function
+`_Init` | 505 | Exported Function
+`char_traits` | 1272 | Exported Function
+`setp` | 1218 | Exported Function
+`setp` | 1217 | Exported Function
+`gbump` | 878 | Exported Function
+`setp` | 1219 | Exported Function
+`char_traits` | 1273 | Exported Function
+`setp` | 1220 | Exported Function
+`pbump` | 1092 | Exported Function
+`setg` | 1213 | Exported Function
+`setg` | 1212 | Exported Function
+`setg` | 1211 | Exported Function
+`setp` | 1216 | Exported Function
+`pbump` | 1090 | Exported Function
+`_Init` | 502 | Exported Function
+`gbump` | 876 | Exported Function
+`setp` | 1215 | Exported Function
+`gbump` | 877 | Exported Function
+`pbump` | 1091 | Exported Function
+`_Init` | 504 | Exported Function
+`char_traits` | 1271 | Exported Function
+`_Init` | 503 | Exported Function
+`_Locinfo` | 520 | Exported Function
+`_Locinfo` | 1 | Exported Function
+`_Locinfo` | 519 | Exported Function
+`_Locinfo` | 517 | Exported Function
+`_Locinfo` | 518 | Exported Function
+`_Locinfo` | 521 | Exported Function
+`_Locinfo` | 523 | Exported Function
+`_Locinfo` | 524 | Exported Function
+`_Locinfo` | 3 | Exported Function
+`_Locinfo` | 2 | Exported Function
+`_Locinfo` | 522 | Exported Function
+`_Locinfo` | 516 | Exported Function
+`_Locinfo` | 508 | Exported Function
+`_Locinfo` | 511 | Exported Function
+`_Locinfo` | 510 | Exported Function
+`_Locinfo` | 507 | Exported Function
+`_Locinfo` | 509 | Exported Function
+`_Locinfo` | 512 | Exported Function
+`_Init` | 527 | Exported Function
+`_Locinfo` | 515 | Exported Function
+`_Locinfo` | 514 | Exported Function
+`_Tidy` | 635 | Exported Function
+`_Locinfo` | 513 | Exported Function
+`_Init` | 501 | Exported Function
+`do_widen` | 842 | Exported Function
+`do_is` | 767 | Exported Function
+`do_toupper` | 831 | Exported Function
+`underflow` | 1315 | Exported Function
+`do_tolower` | 825 | Exported Function
+`do_narrow` | 784 | Exported Function
+`do_toupper` | 832 | Exported Function
+`locale` | 1015 | Exported Function
+`do_tolower` | 826 | Exported Function
+`do_scan_is` | 819 | Exported Function
+`do_scan_not` | 821 | Exported Function
+`uflow` | 1310 | Exported Function
+`do_encoding` | 710 | Exported Function
+`do_max_length` | 780 | Exported Function
+`do_unshift` | 839 | Exported Function
+`do_max_length` | 779 | Exported Function
+`do_out` | 791 | Exported Function
+`overflow` | 1082 | Exported Function
+`overflow` | 1083 | Exported Function
+`pbackfail` | 1086 | Exported Function
+`underflow` | 1314 | Exported Function
+`pbackfail` | 1085 | Exported Function
+`uflow` | 1309 | Exported Function
+`char_traits` | 1263 | Exported Function
+`char_traits` | 1264 | Exported Function
+`char_traits` | 1262 | Exported Function
+`char_traits` | 1028 | Exported Function
+`char_traits` | 1029 | Exported Function
+`char_traits` | 1265 | Exported Function
+`char_traits` | 1269 | Exported Function
+`char_traits` | 1270 | Exported Function
+`char_traits` | 1268 | Exported Function
+`char_traits` | 1266 | Exported Function
+`char_traits` | 1267 | Exported Function
+`char_traits` | 1027 | Exported Function
+`do_toupper` | 834 | Exported Function
+`do_widen` | 845 | Exported Function
+`do_tolower` | 828 | Exported Function
+`locale` | 1016 | Exported Function
+`locale` | 1017 | Exported Function
+`do_is` | 769 | Exported Function
+`do_tolower` | 827 | Exported Function
+`do_toupper` | 833 | Exported Function
+`do_scan_not` | 822 | Exported Function
+`do_narrow` | 786 | Exported Function
+`do_scan_is` | 820 | Exported Function
+`_Uninitialized` | 45 | Exported Function
+`_Locinfo` | 55 | Exported Function
+`char_traits` | 44 | Exported Function
+`char_traits` | 41 | Exported Function
+`_Uninitialized` | 42 | Exported Function
+`codecvt` | 56 | Exported Function
+`_Locinfo` | 63 | Exported Function
+`_Codecvt_mode` | 62 | Exported Function
+`codecvt` | 61 | Exported Function
+`_Locinfo` | 60 | Exported Function
+`_Codecvt_mode` | 59 | Exported Function
+`_Uninitialized` | 39 | Exported Function
+`_Uninitialized` | 28 | Exported Function
+`char_traits` | 31 | Exported Function
+`char_traits` | 26 | Exported Function
+`char_traits` | 24 | Exported Function
+`char_traits` | 27 | Exported Function
+`char_traits` | 30 | Exported Function
+`_Uninitialized` | 36 | Exported Function
+`char_traits` | 38 | Exported Function
+`char_traits` | 34 | Exported Function
+`_Uninitialized` | 32 | Exported Function
+`char_traits` | 35 | Exported Function
+`operator` | 307 | Exported Function
+`id` | 119 | Exported Function
+`Init` | 161 | Exported Function
+`ctype_base` | 117 | Exported Function
+`Init` | 102 | Exported Function
+`operator` | 306 | Exported Function
+`char_traits` | 76 | Exported Function
+`_Locinfo` | 77 | Exported Function
+`_Locinfo` | 75 | Exported Function
+`_Locinfo` | 73 | Exported Function
+`char_traits` | 74 | Exported Function
+`ctype` | 72 | Exported Function
+`_Locinfo` | 65 | Exported Function
+`codecvt` | 66 | Exported Function
+`codecvt` | 58 | Exported Function
+`codecvt` | 64 | Exported Function
+`_Locinfo` | 57 | Exported Function
+`codecvt_base` | 116 | Exported Function
+`ctype` | 70 | Exported Function
+`_Locinfo` | 71 | Exported Function
+`_Locinfo` | 69 | Exported Function
+`_Locinfo` | 67 | Exported Function
+`ctype` | 68 | Exported Function
+`char_traits` | 22 | Exported Function
+`_Init_locks` | 105 | Exported Function
+`_Init_locks` | 163 | Exported Function
+`_Facet_base` | 104 | Exported Function
+`_Dowiden` | 419 | Exported Function
+`_Facet_base` | 103 | Exported Function
+`_Locinfo` | 109 | Exported Function
+`_Lockit` | 111 | Exported Function
+`_Lockit` | 166 | Exported Function
+`_Lockit` | 110 | Exported Function
+`_Locinfo` | 108 | Exported Function
+`_Locinfo` | 165 | Exported Function
+`pptr` | 1098 | Exported Function
+`_Gninc` | 491 | Exported Function
+`_Gnpreinc` | 494 | Exported Function
+`_Gndec` | 488 | Exported Function
+`_Locinfo` | 525 | Exported Function
+`_Locinfo` | 526 | Exported Function
+`_Pninc` | 589 | Exported Function
+`gptr` | 969 | Exported Function
+`pbase` | 1089 | Exported Function
+`epptr` | 860 | Exported Function
+`eback` | 848 | Exported Function
+`egptr` | 851 | Exported Function
+`_Yarn` | 10 | Exported Function
+`_Yarn` | 12 | Exported Function
+`_Yarn` | 124 | Exported Function
+`_Yarn` | 8 | Exported Function
+`_Yarn` | 9 | Exported Function
+`_Yarn` | 11 | Exported Function
+`char_traits` | 18 | Exported Function
+`char_traits` | 20 | Exported Function
+`char_traits` | 16 | Exported Function
+`_Yarn` | 125 | Exported Function
+`char_traits` | 14 | Exported Function
+`_Yarn` | 7 | Exported Function
+`_UShinit` | 114 | Exported Function
+`_UShinit` | 168 | Exported Function
+`_Timevec` | 167 | Exported Function
+`_Timevec` | 112 | Exported Function
+`_Timevec` | 113 | Exported Function
+`_Winit` | 115 | Exported Function
+`_Yarn` | 6 | Exported Function
+`_Yarn` | 123 | Exported Function
+`_Yarn` | 4 | Exported Function
+`_Winit` | 169 | Exported Function
+`_Yarn` | 5 | Exported Function
+`do_length` | 775 | Exported Function
+`do_widen` | 841 | Exported Function
+`do_widen` | 843 | Exported Function
+`do_toupper` | 830 | Exported Function
+`do_narrow` | 782 | Exported Function
+`do_tolower` | 824 | Exported Function
+`do_widen` | 844 | Exported Function
+`seekoff` | 1189 | Exported Function
+`fpos` | 1198 | Exported Function
+`setbuf` | 1208 | Exported Function
+`setbuf` | 1206 | Exported Function
+`setbuf` | 1207 | Exported Function
+`do_narrow` | 785 | Exported Function
+`do_always_noconv` | 702 | Exported Function
+`do_is` | 768 | Exported Function
+`do_always_noconv` | 701 | Exported Function
+`do_always_noconv` | 700 | Exported Function
+`do_always_noconv` | 698 | Exported Function
+`do_is` | 770 | Exported Function
+`do_widen` | 840 | Exported Function
+`do_narrow` | 783 | Exported Function
+`do_toupper` | 829 | Exported Function
+`do_narrow` | 781 | Exported Function
+`do_tolower` | 823 | Exported Function
+`ios_base` | 744 | Exported Function
+`ios_base` | 747 | Exported Function
+`ios_base` | 718 | Exported Function
+`ios_base` | 714 | Exported Function
+`ios_base` | 711 | Exported Function
+`ios_base` | 750 | Exported Function
+`ios_base` | 730 | Exported Function
+`ios_base` | 732 | Exported Function
+`ios_base` | 759 | Exported Function
+`ios_base` | 753 | Exported Function
+`ios_base` | 756 | Exported Function
+`ios_base` | 712 | Exported Function
+`fpos` | 1200 | Exported Function
+`ios_base` | 719 | Exported Function
+`seekoff` | 1191 | Exported Function
+`seekoff` | 1190 | Exported Function
+`fpos` | 1199 | Exported Function
+`ios_base` | 721 | Exported Function
+`ios_base` | 717 | Exported Function
+`ios_base` | 720 | Exported Function
+`ios_base` | 713 | Exported Function
+`ios_base` | 716 | Exported Function
+`ios_base` | 715 | Exported Function
+`do_always_noconv` | 699 | Exported Function
+`codecvt` | 143 | Exported Function
+`codecvt` | 144 | Exported Function
+`codecvt` | 141 | Exported Function
+`pptr` | 1097 | Exported Function
+`_Dowiden` | 418 | Exported Function
+`codecvt` | 142 | Exported Function
+`ctype` | 148 | Exported Function
+`_Locimp` | 164 | Exported Function
+`ctype` | 147 | Exported Function
+`codecvt` | 145 | Exported Function
+`ctype` | 146 | Exported Function
+`pbase` | 1088 | Exported Function
+`_Gndec` | 487 | Exported Function
+`_Gninc` | 490 | Exported Function
+`ios_base` | 469 | Exported Function
+`ios_base` | 467 | Exported Function
+`ios_base` | 468 | Exported Function
+`_Gnpreinc` | 493 | Exported Function
+`epptr` | 859 | Exported Function
+`gptr` | 968 | Exported Function
+`egptr` | 850 | Exported Function
+`_Pninc` | 588 | Exported Function
+`eback` | 847 | Exported Function
+`xsputn` | 1351 | Exported Function
+`showmanyc` | 1239 | Exported Function
+`xsgetn` | 1348 | Exported Function
+`char_traits` | 160 | Exported Function
+`showmanyc` | 1238 | Exported Function
+`xsgetn` | 1349 | Exported Function
+`xsputn` | 1353 | Exported Function
+`do_always_noconv` | 697 | Exported Function
+`xsgetn` | 1350 | Exported Function
+`xsputn` | 1352 | Exported Function
+`showmanyc` | 1240 | Exported Function
+`char_traits` | 159 | Exported Function
+`char_traits` | 151 | Exported Function
+`char_traits` | 152 | Exported Function
+`char_traits` | 150 | Exported Function
+`facet` | 172 | Exported Function
+`char_traits` | 149 | Exported Function
+`char_traits` | 153 | Exported Function
+`char_traits` | 157 | Exported Function
+`char_traits` | 158 | Exported Function
+`char_traits` | 156 | Exported Function
+`char_traits` | 154 | Exported Function
+`char_traits` | 155 | Exported Function
+`overflow` | 1081 | Exported Function
+`pbackfail` | 1084 | Exported Function
+`do_date_order` | 705 | Exported Function
+`do_date_order` | 703 | Exported Function
+`do_date_order` | 704 | Exported Function
+`sync` | 1278 | Exported Function
+`sync` | 1280 | Exported Function
+`do_in` | 762 | Exported Function
+`sync` | 1279 | Exported Function
+`uflow` | 1308 | Exported Function
+`underflow` | 1313 | Exported Function
+`ios_base` | 818 | Exported Function
+`ios_base` | 813 | Exported Function
+`ios_base` | 815 | Exported Function
+`ios_base` | 817 | Exported Function
+`ios_base` | 801 | Exported Function
+`ios_base` | 804 | Exported Function
+`ios_base` | 810 | Exported Function
+`ios_base` | 809 | Exported Function
+`ios_base` | 812 | Exported Function
+`ios_base` | 814 | Exported Function
+`ios_base` | 811 | Exported Function
+`ios_base` | 808 | Exported Function
+`do_encoding` | 706 | Exported Function
+`do_in` | 763 | Exported Function
+`do_unshift` | 838 | Exported Function
+`do_max_length` | 778 | Exported Function
+`do_out` | 790 | Exported Function
+`do_length` | 772 | Exported Function
+`do_encoding` | 709 | Exported Function
+`do_in` | 766 | Exported Function
+`do_unshift` | 836 | Exported Function
+`do_max_length` | 776 | Exported Function
+`do_out` | 788 | Exported Function
+`do_length` | 774 | Exported Function
+`do_encoding` | 707 | Exported Function
+`do_in` | 764 | Exported Function
+`do_unshift` | 835 | Exported Function
+`do_length` | 771 | Exported Function
+`do_out` | 787 | Exported Function
+`do_length` | 773 | Exported Function
+`do_encoding` | 708 | Exported Function
+`do_in` | 765 | Exported Function
+`do_unshift` | 837 | Exported Function
+`do_max_length` | 777 | Exported Function
+`do_out` | 789 | Exported Function
+`ios_base` | 806 | Exported Function
+`ios_base` | 741 | Exported Function
+`ios_base` | 743 | Exported Function
+`ios_base` | 760 | Exported Function
+`ios_base` | 754 | Exported Function
+`ios_base` | 757 | Exported Function
+`ios_base` | 738 | Exported Function
+`ios_base` | 742 | Exported Function
+`ios_base` | 734 | Exported Function
+`ios_base` | 739 | Exported Function
+`ios_base` | 737 | Exported Function
+`ios_base` | 735 | Exported Function
+`ios_base` | 751 | Exported Function
+`ios_base` | 728 | Exported Function
+`ios_base` | 731 | Exported Function
+`ios_base` | 724 | Exported Function
+`ios_base` | 727 | Exported Function
+`ios_base` | 726 | Exported Function
+`ios_base` | 723 | Exported Function
+`ios_base` | 745 | Exported Function
+`ios_base` | 748 | Exported Function
+`ios_base` | 729 | Exported Function
+`ios_base` | 725 | Exported Function
+`ios_base` | 722 | Exported Function
+`ios_base` | 793 | Exported Function
+`ios_base` | 796 | Exported Function
+`ios_base` | 798 | Exported Function
+`ios_base` | 795 | Exported Function
+`ios_base` | 792 | Exported Function
+`ios_base` | 816 | Exported Function
+`ios_base` | 803 | Exported Function
+`ios_base` | 800 | Exported Function
+`ios_base` | 802 | Exported Function
+`ios_base` | 805 | Exported Function
+`ios_base` | 807 | Exported Function
+`ios_base` | 794 | Exported Function
+`ios_base` | 746 | Exported Function
+`ios_base` | 749 | Exported Function
+`ios_base` | 740 | Exported Function
+`ios_base` | 736 | Exported Function
+`ios_base` | 733 | Exported Function
+`ios_base` | 752 | Exported Function
+`ios_base` | 797 | Exported Function
+`ios_base` | 799 | Exported Function
+`ios_base` | 761 | Exported Function
+`ios_base` | 755 | Exported Function
+`ios_base` | 758 | Exported Function
 
 
 ## Signature

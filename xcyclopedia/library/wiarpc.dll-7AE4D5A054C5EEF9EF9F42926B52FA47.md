@@ -27,17 +27,17 @@ PE256 | `512CCABB56D988AEE52FEE51B7EBB9A799A839A7D0BEEE57FDB17A6B656FDCDF`
 Function Name | Ordinal | Type
 -- | -- | --
 `public: void __cdecl BUFFER::``default constructor closure'(void) __ptr64` | 7 | Exported Function
-`public: void * __ptr64 __cdecl BUFFER::QueryPtr(void)const __ptr64` | 9 | Exported Function
-`public: unsigned long __cdecl BUFFER_CHAIN_ITEM::QueryUsed(void)const __ptr64` | 11 | Exported Function
+`QueryPtr` | 9 | Exported Function
+`QueryUsed` | 11 | Exported Function
 `ServiceMain` | 12 | Exported Function
-`public: void __cdecl BUFFER_CHAIN_ITEM::SetUsed(unsigned long) __ptr64` | 13 | Exported Function
+`SetUsed` | 13 | Exported Function
 `public: void __cdecl BUFFER_CHAIN_ITEM::``default constructor closure'(void) __ptr64` | 8 | Exported Function
-`public: unsigned int __cdecl BUFFER::QuerySize(void)const __ptr64` | 10 | Exported Function
-`public: __cdecl BUFFER_CHAIN::BUFFER_CHAIN(void) __ptr64` | 2 | Exported Function
+`QuerySize` | 10 | Exported Function
+`BUFFER_CHAIN` | 2 | Exported Function
 `public: __cdecl BUFFER::~BUFFER(void) __ptr64` | 4 | Exported Function
-`public: __cdecl BUFFER::BUFFER(unsigned int) __ptr64` | 1 | Exported Function
+`BUFFER` | 1 | Exported Function
 `public: __cdecl BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void) __ptr64` | 6 | Exported Function
-`public: __cdecl BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM(unsigned int) __ptr64` | 3 | Exported Function
+`BUFFER_CHAIN_ITEM` | 3 | Exported Function
 `public: __cdecl BUFFER_CHAIN::~BUFFER_CHAIN(void) __ptr64` | 5 | Exported Function
 
 

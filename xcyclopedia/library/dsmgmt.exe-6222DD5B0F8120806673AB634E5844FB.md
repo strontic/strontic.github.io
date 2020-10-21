@@ -64,7 +64,7 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\dsmgmt.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section

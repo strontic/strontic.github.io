@@ -18,6 +18,9 @@ SHA256 | `F2CAAFC70211041E0D4ED16EF6D6478BAF97D7C0C366DBFE24756D49F66FCEAC`
 SHA384 | `7E790313C7E1FF4259D51F10E81EF53D55ABCC3CE2082A9453D8DCDC0166E6701C0713A4DFCDD327C3FA9EAD3C87DF01`
 SHA512 | `1790910CE1B016499532AF6E097645DDF2764C9C4B40E9AF41BE12A5F5EC8751CAA74C4F42493EE5A400C9595A874E50154AD48EAD187D5579AD2DC2898F602E`
 SSDEEP | `1536:qfjkEpEe1ZEI7oKbHo4KdCXMNoD4vT/3q+UeV2Zv27OTFsqIpk7:GjLGAoznZNVLhUeV2hKO2Npk7`
+IMP | `C1C4CF9A5AC7CC782CC63223FAECF887`
+PESHA1 | `94AE2D60D11B5D88EB27E92127F4823A0E9ADA70`
+PE256 | `A9B0A7B063E08EB6E99ED767114673E128623FDB2EF0BD7F3CA095E4280610D8`
 
 ## Runtime Data
 
@@ -53,8 +56,20 @@ The command completed successfully.
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoncli.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\netdom.exe |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wkscli.dll |
+C:\Windows\System32\WLDAP32.dll |
 
 
 ## Signature
@@ -74,7 +89,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/f2caafc70211041e0d4ed16ef6d6478baf97d7c0c366dbfe24756d49f66fceac/detection/
 
 
 

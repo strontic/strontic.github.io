@@ -18,6 +18,9 @@ SHA256 | `DEBC4F3E7B3D7AA72763170660EC9382021935E675F3BAA5E1A585B3C94FCD73`
 SHA384 | `2E43462033B1146E00E715CD0AB2C7694BD06FE3521792D2EF66571DA797A86F29D51A22F1D0BB67A0E03C1AB2307ACD`
 SHA512 | `5642E65A389B89A98A615D3AC868CAE7CC4CE211193F0C8DDDB380772A32512ECA414FE31FB332A36F2A32A5210C4DAE51CF13B623FD5C5C4228A46CC81862D0`
 SSDEEP | `1536:eicU1pleiOsnoGqfEOF11f1mPgKCftrUtWD0i4c1B2T6TvnF9cWT8YlrDbMtLR3s:Af0otsOFJmuftYWD0ix8rtLFifaYkM`
+IMP | `964F0F5F0131DAC0DAD3E441F0CC521B`
+PESHA1 | `3A06C5DEB3AF4FCF83BED0DD5999AC293DEDE7C4`
+PE256 | `E724BA5AE14BBF5CBE71B1B0CDCB638985C2F125B49061CCDC92FCF9C0238453`
 
 ## Runtime Data
 
@@ -49,10 +52,26 @@ The parameter is incorrect. 0x80070057 (WIN32: 87 ERROR_INVALID_PARAMETER)
 
 Path |
 -- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\certoc.exe |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\ncrypt.dll |
+C:\Windows\system32\NTASN1.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -72,7 +91,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/debc4f3e7b3d7aa72763170660ec9382021935e675f3baa5e1a585b3c94fcd73/detection/
 
 
 

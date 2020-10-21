@@ -17,6 +17,9 @@ SHA256 | `ACE546697CC29946F459EECC3B0C3035530AA603880B811C7D1B0156AD7EB692`
 SHA384 | `49C2D8C6C078CE9D6ECA98B8EF81119244DA0081B704322738266DD5B636FC4E4EA8D380501B709DE0C2EB5753CC8885`
 SHA512 | `CE94C8F96F75273AC85A333E6CF67B51F6D026385DEA21F13275F2B7348168779E142438FA327B57CBF714EFE8B88B947E4A91C82AB82093E1B5AB145F5C3D51`
 SSDEEP | `384:KawV5B6iovfhlJwS7RVmATDoXErbGlx6Omf2AQlWrnctalrqsr5Aer8PpXTWMYnH:U4iovZ/wS7zpeO9Ov6rqsrmeaTWMYkk`
+IMP | `019F88299D7F5E77F17221DA15112A43`
+PESHA1 | `AB526BE00A7FF4CD7684DDB7C76198A0CDF7B522`
+PE256 | `9E7173EB1B2C2079093B12B96E5760ADB60D7BDAD1CD344E0F92980FB8B6D31B`
 
 ## Runtime Data
 
@@ -166,6 +169,17 @@ First parameter must be a file name pattern or "/?"
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\icacls.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -183,7 +197,12 @@ First parameter must be a file name pattern or "/?"
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/ace546697cc29946f459eecc3b0c3035530aa603880b811c7d1b0156ad7eb692/detection/
 
 
 ## Possible Misuse
@@ -197,7 +216,8 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- icacls.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [malware-ioc](https://github.com/eset/malware-ioc) | [oceanlotus-macOS.misp.event.json](https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-macOS.misp.event.json) | `"https:\/\/docs.microsoft.com\/windows-server\/administration\/windows-commands\/icacls",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | Adversaries can interact with the DACLs using built-in Windows commands, such as `icacls`, `takeown`, and `attrib`, which can grant adversaries higher permissions on specific files and folders. Further, [PowerShell](https://attack.mitre.org/techniques/T1059/001) provides cmdlets that can be used to retrieve or modify file and directory DACLs. Specific file and directory modifications may be a required step for many techniques, such as establishing Persistence via [Accessibility Features](https://attack.mitre.org/techniques/T1546/008), [Boot or Logon Initialization Scripts](https://attack.mitre.org/techniques/T1037), or tainting/hijacking other instrumental binary/configuration files via [Hijack Execution Flow](https://attack.mitre.org/techniques/T1574).</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | Icacls.exe #{file_or_folder} /grant #{user_or_group}:F | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | icacls.exe #{file_or_folder} /grant #{user_or_group}:F | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | icacls "C:\*" /grant Everyone:F /T /C /Q | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_blackenergy.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_blackenergy.yar) | $s1 = "system32\\icacls.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_keyboys.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_keyboys.yar) | $s5 = "icacls %s /grant administrators:F" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_wannacry.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_wannacry.yar) | $x1 = "icacls . /grant Everyone:F /T /C /Q" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

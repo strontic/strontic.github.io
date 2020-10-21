@@ -18,15 +18,51 @@ SHA256 | `62DA7F512FADD7821A46E12230D18E3ABA6C0EC6827C1B9DB8E8424CB5E9159B`
 SHA384 | `F36232E4C7076960A246F40CEDFBA4A59FA57028DC64CA8D65E885D2BFFB7F96B2AF0AFE30395BA8BE9599FD43348981`
 SHA512 | `40BEBF97BF8353F9B8BF3B9911A08F58E8AD5454193F9C03B458872D66557B0AF787E1F334EC315245FF1352AC1AAC3A46AEC7A7EAF16777CEA7C69405AB5031`
 SSDEEP | `12288:06RI39AFHJWGNNuh+rpVQzcwXihJTi3uf4j9Pc:ZR1FJpruwlVSaJTi3uAjhc`
+IMP | `0A975696C1EBDA2FE57027FB43C0A3BD`
+PESHA1 | `76916752AE27A0CDD944E2D64BFB4C61937D815A`
+PE256 | `8A1BA1F2A4C950FBD7CC8E6A48AF628905593BBEFF2312EB7AC83933716D42F3`
 
 ## Runtime Data
+
+### Child Processes:
+RdpSa.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTBASE.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\DPAPI.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\system32\msdrm.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
 C:\Windows\system32\RMActivate_ssp_isv.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rsaenh.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
 
 
 ## Signature
@@ -46,7 +82,12 @@ C:\Windows\system32\RMActivate_ssp_isv.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/62da7f512fadd7821a46e12230d18e3aba6c0ec6827c1b9db8e8424cb5e9159b/detection/
 
 ## File Similarity (ssdeep match)
 

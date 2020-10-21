@@ -18,6 +18,9 @@ SHA256 | `BF557534CED01CF06A6D53C9B61CBE7668163C7B3AAB7BFF386FADA0F68A122E`
 SHA384 | `3C9B91F9B69BE30C3B69CC94D0DD98FA0AB0D03B6D44DAF24DB81D890FB3DEFDC101C77D5E8338505A4A80FFBF7D6E18`
 SHA512 | `0E29B55C49DE00458D84802E48D45FB861399C2CB967B2D587432D562284E9FF91090121CE3D42DE2DB02A395EB42072416651594FDF95C6E6BB055C8E948091`
 SSDEEP | `384:TUaax35t3/A2PUTqNL0aRqdKXLsJvIBRjHGCiTGNt8MAW77pOWMJv:TUacUelVRqdOhiTqt8MV7p8Jv`
+IMP | `8C4B70B06FD4E738845E670CA5E4F39B`
+PESHA1 | `42DB6E1B5CE68B0A5726F2E3FF5D2589054A5168`
+PE256 | `30EF1D5208D3C76189E4366CCE5E543641262BC06206C33EE59D5D2094D6C9FB`
 
 ## Runtime Data
 
@@ -41,11 +44,22 @@ Usage:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CheckNetIsolation.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -58,7 +72,12 @@ Usage:
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/bf557534ced01cf06a6d53c9b61cbe7668163c7b3aab7bff386fada0f68a122e/detection/
 
 ## File Similarity (ssdeep match)
 

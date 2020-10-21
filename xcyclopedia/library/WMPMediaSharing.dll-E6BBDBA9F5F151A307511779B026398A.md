@@ -54,11 +54,6 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/adc120c6b9a1edeea7960155d1a272b6337f347a20a62a110c3c3edd25e505e5/detection/
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-
 
 
 

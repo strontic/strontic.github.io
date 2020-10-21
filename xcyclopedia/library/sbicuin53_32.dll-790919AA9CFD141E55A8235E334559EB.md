@@ -28,982 +28,982 @@ PE256 | `126D666140DB70F6464FCB843BB98980D91BBE6E33C63895B64D1D2DA77938AD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::SimpleDateFormat::format(class icu_53::Calendar &,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1560 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::SelectFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1559 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::format(int,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1553 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::SimpleDateFormat::format(class icu_53::Calendar &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1561 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1562 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::SimpleDateFormat::toPattern(class icu_53::UnicodeString &)const ` | 3231 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::SimpleDateFormat::toLocalizedPattern(class icu_53::UnicodeString &,enum UErrorCode &)const ` | 3224 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1552 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RegexMatcher::appendTail(class icu_53::UnicodeString &)` | 1025 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::PluralFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1548 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1537 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1556 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::format(double,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1555 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1554 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::format(__int64,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1557 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RegexMatcher::replaceAll(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2847 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RegexMatcher::group(int,enum UErrorCode &)const ` | 2318 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RegexMatcher::group(enum UErrorCode &)const ` | 2317 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RegexMatcher::replaceFirst(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2851 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RuleBasedNumberFormat::getRules(void)const ` | 2126 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RuleBasedNumberFormat::getDefaultRuleSetName(void)const ` | 1771 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RegexPattern::pattern(void)const ` | 2789 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::PluralFormat::PluralSelectorAdapter::select(void *,double,enum UErrorCode &)const ` | 2908 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::TimeZoneNames::getExemplarLocationName(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)const ` | 1851 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::TimeZoneNames::getDisplayName(class icu_53::UnicodeString const &,enum UTimeZoneNameType,double,class icu_53::UnicodeString &)const ` | 1785 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::format(enum UTimeZoneFormatStyle,class icu_53::TimeZone const &,double,class icu_53::UnicodeString &,enum UTimeZoneFormatTimeType *)const ` | 1563 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::Transliterator::toRules(class icu_53::UnicodeString &,signed char)const ` | 3233 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::NumberingSystem::getDescription(void)const ` | 1773 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::MessageFormat::PluralSelectorProvider::select(void *,double,enum UErrorCode &)const ` | 2909 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::DecimalFormat::getPadCharacterString(void)const ` | 2064 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1536 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1509 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1508 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1507 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::toLocalizedPattern(class icu_53::UnicodeString &)const ` | 3223 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::MeasureFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1521 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::Format::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1520 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::toPattern(class icu_53::UnicodeString &)const ` | 3227 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1512 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1504 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1515 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1514 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1505 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1511 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1510 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(class icu_53::StringPiece const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1506 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1533 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1532 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1531 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1534 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1539 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1538 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(class icu_53::StringPiece const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1535 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1542 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::DummyFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1517 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::DummyFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1518 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::DummyFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1516 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1527 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1541 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1540 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::toPattern(class icu_53::UnicodeString &)const ` | 3228 | Exported Function
-`public: virtual enum UColReorderCode __thiscall icu_53::RuleBasedCollator::getMaxVariable(void)const ` | 1980 | Exported Function
-`public: virtual enum UColReorderCode __thiscall icu_53::Collator::getMaxVariable(void)const ` | 1979 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::RuleBasedCollator::internalCompareUTF8(char const *,int,char const *,int,enum UErrorCode &)const ` | 2484 | Exported Function
-`public: virtual enum UDisplayContext __thiscall icu_53::DateFormat::getContext(enum UDisplayContextType,enum UErrorCode &)const ` | 1732 | Exported Function
-`public: virtual int __thiscall icu_53::AlphabeticIndex::getBucketIndex(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1677 | Exported Function
-`public: virtual int __thiscall icu_53::AlphabeticIndex::getBucketCount(enum UErrorCode &)` | 1675 | Exported Function
-`public: virtual enum UDisplayContext __thiscall icu_53::NumberFormat::getContext(enum UDisplayContextType,enum UErrorCode &)const ` | 1733 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::RuleBasedCollator::compareUTF8(class icu_53::StringPiece const &,class icu_53::StringPiece const &,enum UErrorCode &)const ` | 1169 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::Collator::internalCompareUTF8(char const *,int,char const *,int,enum UErrorCode &)const ` | 2483 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::Collator::compareUTF8(class icu_53::StringPiece const &,class icu_53::StringPiece const &,enum UErrorCode &)const ` | 1168 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::Collator::compare(struct UCharIterator &,struct UCharIterator &,enum UErrorCode &)const ` | 1153 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::RuleBasedCollator::compare(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1156 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::RuleBasedCollator::compare(wchar_t const *,int,wchar_t const *,int,enum UErrorCode &)const ` | 1158 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::RuleBasedCollator::compare(struct UCharIterator &,struct UCharIterator &,enum UErrorCode &)const ` | 1155 | Exported Function
-`public: virtual enum UCollationResult __thiscall icu_53::RuleBasedCollator::compare(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,int,enum UErrorCode &)const ` | 1157 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getLeastMaximum(enum icu_53::Calendar::EDateFields)const ` | 1940 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getGreatestMinimum(enum UCalendarDateFields)const ` | 1892 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getGreatestMinimum(enum icu_53::Calendar::EDateFields)const ` | 1891 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getLeastMaximum(enum UCalendarDateFields)const ` | 1941 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getMinimum(enum icu_53::Calendar::EDateFields)const ` | 1992 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getMaximum(enum UCalendarDateFields)const ` | 1982 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getMaximum(enum icu_53::Calendar::EDateFields)const ` | 1981 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getActualMinimum(enum UCalendarDateFields,enum UErrorCode &)const ` | 1615 | Exported Function
-`public: virtual int __thiscall icu_53::AlphabeticIndex::getMaxLabelCount(void)const ` | 1977 | Exported Function
-`public: virtual int __thiscall icu_53::AlphabeticIndex::getBucketRecordCount(void)const ` | 1682 | Exported Function
-`public: virtual int __thiscall icu_53::AlphabeticIndex::getBucketIndex(void)const ` | 1678 | Exported Function
-`public: virtual int __thiscall icu_53::AlphabeticIndex::getRecordCount(enum UErrorCode &)` | 2095 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getActualMaximum(enum UCalendarDateFields,enum UErrorCode &)const ` | 1612 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::fieldDifference(double,enum UCalendarDateFields,enum UErrorCode &)` | 1439 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::fieldDifference(double,enum icu_53::Calendar::EDateFields,enum UErrorCode &)` | 1438 | Exported Function
-`public: virtual enum UColAttributeValue __thiscall icu_53::RuleBasedCollator::getAttribute(enum UColAttribute,enum UErrorCode &)const ` | 1641 | Exported Function
-`public: virtual class icu_53::UnicodeString const * __thiscall icu_53::ChoiceFormat::getFormats(int &)const ` | 1880 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::Transliterator::getID(void)const ` | 1903 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::RegexMatcher::input(void)const ` | 2475 | Exported Function
-`public: virtual class icu_53::UnicodeString const * __thiscall icu_53::SimpleNumberFormatFactory::getSupportedIDs(int &,enum UErrorCode &)const ` | 2247 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::Measure::clone(void)const ` | 1122 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::CurrencyUnit::clone(void)const ` | 1109 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::CurrencyAmount::clone(void)const ` | 1107 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::AlphabeticIndex::getUnderflowLabel(void)const ` | 2301 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RuleBasedNumberFormat::getRuleSetName(int)const ` | 2121 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RuleBasedNumberFormat::getRuleSetDisplayName(int,class icu_53::Locale const &)` | 2119 | Exported Function
-`public: virtual class icu_53::UnicodeString __thiscall icu_53::RuleBasedNumberFormat::getRuleSetDisplayName(class icu_53::UnicodeString const &,class icu_53::Locale const &)` | 2118 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::AlphabeticIndex::getBucketLabel(void)const ` | 1680 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::AlphabeticIndex::getRecordName(void)const ` | 2097 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::AlphabeticIndex::getOverflowLabel(void)const ` | 2063 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::AlphabeticIndex::getInflowLabel(void)const ` | 1913 | Exported Function
-`public: virtual enum icu_53::Collator::EComparisonResult __thiscall icu_53::Collator::compare(wchar_t const *,int,wchar_t const *,int)const ` | 1152 | Exported Function
-`public: virtual enum icu_53::Collator::EComparisonResult __thiscall icu_53::Collator::compare(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,int)const ` | 1151 | Exported Function
-`public: virtual enum icu_53::Collator::EComparisonResult __thiscall icu_53::Collator::compare(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)const ` | 1150 | Exported Function
-`public: virtual enum icu_53::DecimalFormat::EPadPosition __thiscall icu_53::DecimalFormat::getPadPosition(void)const ` | 2065 | Exported Function
-`public: virtual enum UCalendarWeekdayType __thiscall icu_53::Calendar::getDayOfWeekType(enum UCalendarDaysOfWeek,enum UErrorCode &)const ` | 1757 | Exported Function
-`public: virtual enum UAlphabeticIndexLabelType __thiscall icu_53::AlphabeticIndex::getBucketLabelType(void)const ` | 1681 | Exported Function
-`public: virtual enum icu_53::DecimalFormat::ERoundingMode __thiscall icu_53::DecimalFormat::getRoundingMode(void)const ` | 2111 | Exported Function
-`public: virtual enum icu_53::Collator::ECollationStrength __thiscall icu_53::Collator::getStrength(void)const ` | 2234 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::TimeUnitAmount::clone(void)const ` | 1139 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::TimeUnit::clone(void)const ` | 1138 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::MeasureUnit::clone(void)const ` | 1124 | Exported Function
-`public: virtual double __thiscall icu_53::DateFormat::parse(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 2723 | Exported Function
-`public: virtual double const * __thiscall icu_53::ChoiceFormat::getLimits(int &)const ` | 1944 | Exported Function
-`public: virtual double __thiscall icu_53::GregorianCalendar::defaultCenturyStart(void)const ` | 1362 | Exported Function
-`public: virtual double __thiscall icu_53::DecimalFormat::getRoundingIncrement(void)const ` | 2110 | Exported Function
-`public: virtual class icu_53::DateFormat & __cdecl icu_53::DateFormat::setBooleanAttribute(enum UDateFormatBooleanAttribute,signed char,enum UErrorCode &)` | 2942 | Exported Function
-`public: virtual class icu_53::CurrencyPluralInfo const * __thiscall icu_53::DecimalFormat::getCurrencyPluralInfo(void)const ` | 1739 | Exported Function
-`public: virtual class icu_53::CurrencyAmount * __thiscall icu_53::NumberFormat::parseCurrency(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2743 | Exported Function
-`public: virtual class icu_53::DateFormatSymbols const * __thiscall icu_53::SimpleDateFormat::getDateFormatSymbols(void)const ` | 1752 | Exported Function
-`public: virtual class icu_53::DecimalFormatSymbols const * __thiscall icu_53::DecimalFormat::getDecimalFormatSymbols(void)const ` | 1761 | Exported Function
-`public: virtual class icu_53::DecimalFormat & __thiscall icu_53::DecimalFormat::setAttribute(enum UNumberFormatAttribute,int,enum UErrorCode &)` | 2935 | Exported Function
-`public: virtual class icu_53::DateIntervalInfo * __thiscall icu_53::DateIntervalInfo::clone(void)const ` | 1111 | Exported Function
-`public: virtual class icu_53::CurrencyAmount * __thiscall icu_53::DecimalFormat::parseCurrency(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2742 | Exported Function
-`public: virtual class icu_53::Collator & __thiscall icu_53::Collator::setMaxVariable(enum UColReorderCode,enum UErrorCode &)` | 3058 | Exported Function
-`public: virtual class icu_53::CollationKey & __thiscall icu_53::RuleBasedCollator::getCollationKey(wchar_t const *,int,class icu_53::CollationKey &,enum UErrorCode &)const ` | 1719 | Exported Function
-`public: virtual class icu_53::CollationKey & __thiscall icu_53::RuleBasedCollator::getCollationKey(class icu_53::UnicodeString const &,class icu_53::CollationKey &,enum UErrorCode &)const ` | 1718 | Exported Function
-`public: virtual class icu_53::Collator & __thiscall icu_53::RuleBasedCollator::setMaxVariable(enum UColReorderCode,enum UErrorCode &)` | 3059 | Exported Function
-`public: virtual class icu_53::CurrencyAmount * __thiscall icu_53::CompactDecimalFormat::parseCurrency(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2741 | Exported Function
-`public: virtual class icu_53::Collator * __thiscall icu_53::RuleBasedCollator::clone(void)const ` | 1130 | Exported Function
-`public: virtual class icu_53::Collator * __thiscall icu_53::Collator::safeClone(void)const ` | 2898 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::SelectFormat::clone(void)const ` | 1133 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::RuleBasedNumberFormat::clone(void)const ` | 1131 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::PluralFormat::clone(void)const ` | 1127 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::SimpleDateFormat::clone(void)const ` | 1134 | Exported Function
-`public: virtual class icu_53::Format const * * __thiscall icu_53::MessageFormat::getFormats(int &)const ` | 1881 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::TimeZoneFormat::clone(void)const ` | 1141 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::TimeUnitFormat::clone(void)const ` | 1140 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::MessageFormat::getFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1877 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::DateIntervalFormat::clone(void)const ` | 1110 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::CompactDecimalFormat::clone(void)const ` | 1105 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::ChoiceFormat::clone(void)const ` | 1104 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::DecimalFormat::clone(void)const ` | 1114 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::MessageFormat::DummyFormat::clone(void)const ` | 1115 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::MessageFormat::clone(void)const ` | 1125 | Exported Function
-`public: virtual class icu_53::Format * __thiscall icu_53::MeasureFormat::clone(void)const ` | 1123 | Exported Function
-`public: virtual class icu_53::CollationElementIterator * __thiscall icu_53::RuleBasedCollator::createCollationElementIterator(class icu_53::UnicodeString const &)const ` | 1245 | Exported Function
-`public: virtual char const * __thiscall icu_53::HebrewCalendar::getType(void)const ` | 2295 | Exported Function
-`public: virtual char const * __thiscall icu_53::GregorianCalendar::getType(void)const ` | 2294 | Exported Function
-`public: virtual char const * __thiscall icu_53::ChineseCalendar::getType(void)const ` | 2292 | Exported Function
-`public: virtual char const * __thiscall icu_53::IslamicCalendar::getType(void)const ` | 2296 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::addLabels(class icu_53::UnicodeSet const &,enum UErrorCode &)` | 958 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::addLabels(class icu_53::Locale const &,enum UErrorCode &)` | 957 | Exported Function
-`public: virtual char const * __thiscall icu_53::PluralAvailableLocalesEnumeration::next(int *,enum UErrorCode &)` | 2674 | Exported Function
-`public: virtual __thiscall icu_53::VTimeZone::~VTimeZone(void)` | 427 | Exported Function
-`public: virtual __thiscall icu_53::Transliterator::~Transliterator(void)` | 422 | Exported Function
-`public: virtual __thiscall icu_53::TimeZoneTransition::~TimeZoneTransition(void)` | 421 | Exported Function
-`public: virtual __thiscall icu_53::TimeZoneRule::~TimeZoneRule(void)` | 420 | Exported Function
-`public: virtual __thiscall icu_53::UIterCollationIterator::~UIterCollationIterator(void)` | 423 | Exported Function
-`public: virtual __thiscall icu_53::UTF8CollationIterator::~UTF8CollationIterator(void)` | 425 | Exported Function
-`public: virtual __thiscall icu_53::UTF16CollationIterator::~UTF16CollationIterator(void)` | 424 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeReplacer::~UnicodeReplacer(void)` | 426 | Exported Function
-`public: virtual class icu_53::Calendar * __thiscall icu_53::GregorianCalendar::clone(void)const ` | 1118 | Exported Function
-`public: virtual class icu_53::Calendar * __thiscall icu_53::ChineseCalendar::clone(void)const ` | 1103 | Exported Function
-`public: virtual class icu_53::AnnualTimeZoneRule * __thiscall icu_53::AnnualTimeZoneRule::clone(void)const ` | 1102 | Exported Function
-`public: virtual class icu_53::Calendar * __thiscall icu_53::HebrewCalendar::clone(void)const ` | 1119 | Exported Function
-`public: virtual class icu_53::CollationElementIterator * __thiscall icu_53::RuleBasedCollator::createCollationElementIterator(class icu_53::CharacterIterator const &)const ` | 1244 | Exported Function
-`public: virtual class icu_53::Calendar const * __thiscall icu_53::DateFormat::getCalendar(void)const ` | 1702 | Exported Function
-`public: virtual class icu_53::Calendar * __thiscall icu_53::IslamicCalendar::clone(void)const ` | 1121 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::setUnderflowLabel(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3160 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::resetBucketIterator(enum UErrorCode &)` | 2869 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::clearRecords(enum UErrorCode &)` | 1099 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::addRecord(class icu_53::UnicodeString const &,void const *,enum UErrorCode &)` | 964 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::resetRecordIterator(void)` | 2873 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::setOverflowLabel(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3087 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::setMaxLabelCount(int,enum UErrorCode &)` | 3056 | Exported Function
-`public: virtual class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::setInflowLabel(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3027 | Exported Function
-`public: virtual class icu_53::UnicodeSet * __thiscall icu_53::RuleBasedCollator::getTailoredSet(enum UErrorCode &)const ` | 2253 | Exported Function
-`public: virtual class icu_53::UnicodeSet * __thiscall icu_53::Collator::getTailoredSet(enum UErrorCode &)const ` | 2252 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::Transliterator::getTargetSet(class icu_53::UnicodeSet &)const ` | 2255 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ChoiceFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1487 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ChoiceFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1484 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ChoiceFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1485 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ChoiceFormat::format(class icu_53::Formattable const *,int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1486 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::CompoundTransliterator::getTargetSet(class icu_53::UnicodeSet &)const ` | 2254 | Exported Function
-`public: virtual class icu_53::TimeZoneFormat const * __thiscall icu_53::SimpleDateFormat::getTimeZoneFormat(void)const ` | 2278 | Exported Function
-`public: virtual class icu_53::TimeZone const & __thiscall icu_53::DateIntervalFormat::getTimeZone(void)const ` | 2277 | Exported Function
-`public: virtual class icu_53::TimeZone const & __thiscall icu_53::DateFormat::getTimeZone(void)const ` | 2276 | Exported Function
-`public: virtual class icu_53::TimeZoneGenericNames * __thiscall icu_53::TimeZoneGenericNames::clone(void)const ` | 1142 | Exported Function
-`public: virtual class icu_53::Transliterator const & __thiscall icu_53::CompoundTransliterator::getTransliterator(int)const ` | 2291 | Exported Function
-`public: virtual class icu_53::Transliterator * __thiscall icu_53::Transliterator::clone(void)const ` | 1144 | Exported Function
-`public: virtual class icu_53::Transliterator * __thiscall icu_53::CompoundTransliterator::clone(void)const ` | 1106 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DateFormat::format(class icu_53::Calendar &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1498 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompoundTransliterator::toRules(class icu_53::UnicodeString &,signed char)const ` | 3232 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1492 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DateFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1499 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1513 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DateIntervalFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1503 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::DateFormat::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1500 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1491 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1493 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CollatorFactory::getDisplayName(class icu_53::Locale const &,class icu_53::Locale const &,class icu_53::UnicodeString &)` | 1779 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ChoiceFormat::toPattern(class icu_53::UnicodeString &)const ` | 3225 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1494 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(class icu_53::StringPiece const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1490 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1489 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::CompactDecimalFormat::format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1488 | Exported Function
-`public: virtual class icu_53::TimeZone * __thiscall icu_53::VTimeZone::clone(void)const ` | 1145 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::region(__int64,__int64,__int64,enum UErrorCode &)` | 2830 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::refreshInputText(struct UText *,enum UErrorCode &)` | 2829 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::appendReplacement(struct UText *,struct UText *,enum UErrorCode &)` | 1024 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::region(__int64,__int64,enum UErrorCode &)` | 2831 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::reset(struct UText *)` | 2862 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::reset(class icu_53::UnicodeString const &)` | 2861 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::reset(__int64,enum UErrorCode &)` | 2864 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::appendReplacement(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 1023 | Exported Function
-`public: virtual class icu_53::InitialTimeZoneRule * __thiscall icu_53::InitialTimeZoneRule::clone(void)const ` | 1120 | Exported Function
-`public: virtual class icu_53::Formattable * __thiscall icu_53::MessageFormat::parse(class icu_53::UnicodeString const &,int &,enum UErrorCode &)const ` | 2727 | Exported Function
-`public: virtual class icu_53::Formattable * __thiscall icu_53::MessageFormat::parse(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,int &)const ` | 2728 | Exported Function
-`public: virtual class icu_53::Locale __thiscall icu_53::RuleBasedCollator::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1959 | Exported Function
-`public: virtual class icu_53::NumberFormat const * __thiscall icu_53::DateFormat::getNumberFormat(void)const ` | 2024 | Exported Function
-`public: virtual class icu_53::Locale const & __thiscall icu_53::MessageFormat::getLocale(void)const ` | 1958 | Exported Function
-`public: virtual class icu_53::Locale __thiscall icu_53::RuleBasedNumberFormat::getRuleSetDisplayNameLocale(int,enum UErrorCode &)const ` | 2120 | Exported Function
-`public: virtual class icu_53::TimeArrayTimeZoneRule * __thiscall icu_53::TimeArrayTimeZoneRule::clone(void)const ` | 1137 | Exported Function
-`public: virtual class icu_53::StringEnumeration * __thiscall icu_53::MessageFormat::getFormatNames(enum UErrorCode &)` | 1878 | Exported Function
-`public: virtual class icu_53::SearchIterator * __thiscall icu_53::StringSearch::safeClone(void)const ` | 2899 | Exported Function
-`public: virtual class icu_53::TimeZone * __thiscall icu_53::OlsonTimeZone::clone(void)const ` | 1126 | Exported Function
-`public: virtual class icu_53::TimeZone * __thiscall icu_53::TimeZoneFormat::parse(enum UTimeZoneFormatStyle,class icu_53::UnicodeString const &,class icu_53::ParsePosition &,int,enum UTimeZoneFormatTimeType *)const ` | 2733 | Exported Function
-`public: virtual class icu_53::TimeZone * __thiscall icu_53::SimpleTimeZone::clone(void)const ` | 1135 | Exported Function
-`public: virtual class icu_53::TimeZone * __thiscall icu_53::RuleBasedTimeZone::clone(void)const ` | 1132 | Exported Function
-`public: virtual class icu_53::RuleBasedCollator const & __thiscall icu_53::AlphabeticIndex::getCollator(void)const ` | 1720 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::useTransparentBounds(signed char)` | 3271 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::useAnchoringBounds(signed char)` | 3266 | Exported Function
-`public: virtual class icu_53::RegexMatcher & __thiscall icu_53::RegexMatcher::reset(void)` | 2863 | Exported Function
-`public: virtual class icu_53::RegexMatcher * __thiscall icu_53::RegexPattern::matcher(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 2650 | Exported Function
-`public: virtual class icu_53::RegexPattern const & __thiscall icu_53::RegexMatcher::pattern(void)const ` | 2788 | Exported Function
-`public: virtual class icu_53::RegexPattern * __thiscall icu_53::RegexPattern::clone(void)const ` | 1129 | Exported Function
-`public: virtual class icu_53::RegexMatcher * __thiscall icu_53::RegexPattern::matcher(enum UErrorCode &)const ` | 2649 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleTimeZone::useDaylightTime(void)const ` | 3269 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleTimeZone::operator==(class icu_53::TimeZone const &)const ` | 578 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleTimeZone::inDaylightTime(double,enum UErrorCode &)const ` | 2408 | Exported Function
-`public: virtual signed char __thiscall icu_53::StringSearch::operator==(class icu_53::SearchIterator const &)const ` | 579 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::getNextStart(double,int,int,signed char,double &)const ` | 2017 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::getFirstStart(int,int,double &)const ` | 1871 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::getFinalStart(int,int,double &)const ` | 1861 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleTimeZone::hasSameRules(class icu_53::TimeZone const &)const ` | 2384 | Exported Function
-`public: virtual signed char __thiscall icu_53::SelectFormat::operator==(class icu_53::Format const &)const ` | 576 | Exported Function
-`public: virtual signed char __thiscall icu_53::SelectFormat::operator!=(class icu_53::Format const &)const ` | 618 | Exported Function
-`public: virtual signed char __thiscall icu_53::SearchIterator::operator==(class icu_53::SearchIterator const &)const ` | 575 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleDateFormat::operator==(class icu_53::Format const &)const ` | 577 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleTimeZone::getPreviousTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2081 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleTimeZone::getNextTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2020 | Exported Function
-`public: virtual signed char __thiscall icu_53::SimpleNumberFormatFactory::visible(void)const ` | 3280 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZoneRule::isEquivalentTo(class icu_53::TimeZoneRule const &)const ` | 2541 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZoneGenericNames::operator==(class icu_53::TimeZoneGenericNames const &)const ` | 584 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZoneGenericNames::operator!=(class icu_53::TimeZoneGenericNames const &)const ` | 623 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZoneRule::operator!=(class icu_53::TimeZoneRule const &)const ` | 625 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::getNextTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2021 | Exported Function
-`public: virtual signed char __thiscall icu_53::UTF16CollationIterator::operator==(class icu_53::CollationIterator const &)const ` | 587 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZoneRule::operator==(class icu_53::TimeZoneRule const &)const ` | 585 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZoneFormat::operator==(class icu_53::Format const &)const ` | 583 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::operator!=(class icu_53::TimeZoneRule const &)const ` | 619 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::isEquivalentTo(class icu_53::TimeZoneRule const &)const ` | 2540 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::getPreviousStart(double,int,int,signed char,double &)const ` | 2078 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeArrayTimeZoneRule::operator==(class icu_53::TimeZoneRule const &)const ` | 580 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZone::operator==(class icu_53::TimeZone const &)const ` | 582 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeZone::hasSameRules(class icu_53::TimeZone const &)const ` | 2385 | Exported Function
-`public: virtual signed char __thiscall icu_53::TimeUnitAmount::operator==(class icu_53::UObject const &)const ` | 581 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::useDaylightTime(void)const ` | 3268 | Exported Function
-`public: virtual signed char __thiscall icu_53::PluralRules::operator==(class icu_53::PluralRules const &)const ` | 568 | Exported Function
-`public: virtual signed char __thiscall icu_53::PluralFormat::operator==(class icu_53::Format const &)const ` | 567 | Exported Function
-`public: virtual signed char __thiscall icu_53::PluralFormat::operator!=(class icu_53::Format const &)const ` | 612 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::find(__int64,enum UErrorCode &)` | 1445 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::hasTransparentBounds(void)const ` | 2388 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::hasAnchoringBounds(void)const ` | 2375 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::find(void)` | 1444 | Exported Function
-`public: virtual signed char __thiscall icu_53::OlsonTimeZone::useDaylightTime(void)const ` | 3267 | Exported Function
-`public: virtual signed char __thiscall icu_53::OlsonTimeZone::getNextTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2018 | Exported Function
-`public: virtual signed char __thiscall icu_53::NumberFormat::operator==(class icu_53::Format const &)const ` | 565 | Exported Function
-`public: virtual signed char __thiscall icu_53::NumberFormat::isLenient(void)const ` | 2557 | Exported Function
-`public: virtual signed char __thiscall icu_53::OlsonTimeZone::getPreviousTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2079 | Exported Function
-`public: virtual signed char __thiscall icu_53::OlsonTimeZone::operator==(class icu_53::TimeZone const &)const ` | 566 | Exported Function
-`public: virtual signed char __thiscall icu_53::OlsonTimeZone::inDaylightTime(double,enum UErrorCode &)const ` | 2406 | Exported Function
-`public: virtual signed char __thiscall icu_53::OlsonTimeZone::hasSameRules(class icu_53::TimeZone const &)const ` | 2382 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::getPreviousTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2080 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::getNextTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2019 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedNumberFormat::operator==(class icu_53::Format const &)const ` | 572 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::hasSameRules(class icu_53::TimeZone const &)const ` | 2383 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::operator==(class icu_53::TimeZone const &)const ` | 573 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::operator!=(class icu_53::TimeZone const &)const ` | 616 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedTimeZone::inDaylightTime(double,enum UErrorCode &)const ` | 2407 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedNumberFormat::isLenient(void)const ` | 2558 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::lookingAt(enum UErrorCode &)` | 2620 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::lookingAt(__int64,enum UErrorCode &)` | 2621 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::hitEnd(void)const ` | 2398 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::matches(__int64,enum UErrorCode &)` | 2653 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedCollator::operator==(class icu_53::Collator const &)const ` | 571 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::requireEnd(void)const ` | 2853 | Exported Function
-`public: virtual signed char __thiscall icu_53::RegexMatcher::matches(enum UErrorCode &)` | 2652 | Exported Function
-`public: virtual void * __thiscall icu_53::GregorianCalendar::getDynamicClassID(void)const ` | 1810 | Exported Function
-`public: virtual void * __thiscall icu_53::Formattable::getDynamicClassID(void)const ` | 1809 | Exported Function
-`public: virtual void * __thiscall icu_53::FieldPosition::getDynamicClassID(void)const ` | 1808 | Exported Function
-`public: virtual void * __thiscall icu_53::HebrewCalendar::getDynamicClassID(void)const ` | 1811 | Exported Function
-`public: virtual void * __thiscall icu_53::Measure::getDynamicClassID(void)const ` | 1814 | Exported Function
-`public: virtual void * __thiscall icu_53::IslamicCalendar::getDynamicClassID(void)const ` | 1813 | Exported Function
-`public: virtual void * __thiscall icu_53::InitialTimeZoneRule::getDynamicClassID(void)const ` | 1812 | Exported Function
-`public: virtual void * __thiscall icu_53::DecimalFormatSymbols::getDynamicClassID(void)const ` | 1807 | Exported Function
-`public: virtual void * __thiscall icu_53::DateIntervalFormat::getDynamicClassID(void)const ` | 1802 | Exported Function
-`public: virtual void * __thiscall icu_53::DateFormatSymbols::getDynamicClassID(void)const ` | 1801 | Exported Function
-`public: virtual void * __thiscall icu_53::CurrencyUnit::getDynamicClassID(void)const ` | 1800 | Exported Function
-`public: virtual void * __thiscall icu_53::DateIntervalInfo::getDynamicClassID(void)const ` | 1803 | Exported Function
-`public: virtual void * __thiscall icu_53::DecimalFormat::getDynamicClassID(void)const ` | 1806 | Exported Function
-`public: virtual void * __thiscall icu_53::DateTimeRule::getDynamicClassID(void)const ` | 1805 | Exported Function
-`public: virtual void * __thiscall icu_53::DateTimePatternGenerator::getDynamicClassID(void)const ` | 1804 | Exported Function
-`public: virtual void * __thiscall icu_53::RuleBasedNumberFormat::getDynamicClassID(void)const ` | 1825 | Exported Function
-`public: virtual void * __thiscall icu_53::RuleBasedCollator::getDynamicClassID(void)const ` | 1824 | Exported Function
-`public: virtual void * __thiscall icu_53::RegexPattern::getDynamicClassID(void)const ` | 1823 | Exported Function
-`public: virtual void * __thiscall icu_53::RuleBasedTimeZone::getDynamicClassID(void)const ` | 1826 | Exported Function
-`public: virtual void * __thiscall icu_53::SimpleTimeZone::getDynamicClassID(void)const ` | 1829 | Exported Function
-`public: virtual void * __thiscall icu_53::SimpleDateFormat::getDynamicClassID(void)const ` | 1828 | Exported Function
-`public: virtual void * __thiscall icu_53::SelectFormat::getDynamicClassID(void)const ` | 1827 | Exported Function
-`public: virtual void * __thiscall icu_53::RegexMatcher::getDynamicClassID(void)const ` | 1822 | Exported Function
-`public: virtual void * __thiscall icu_53::MessageFormat::getDynamicClassID(void)const ` | 1817 | Exported Function
-`public: virtual void * __thiscall icu_53::MeasureUnit::getDynamicClassID(void)const ` | 1816 | Exported Function
-`public: virtual void * __thiscall icu_53::MeasureFormat::getDynamicClassID(void)const ` | 1815 | Exported Function
-`public: virtual void * __thiscall icu_53::NumberingSystem::getDynamicClassID(void)const ` | 1818 | Exported Function
-`public: virtual void * __thiscall icu_53::PluralRules::getDynamicClassID(void)const ` | 1821 | Exported Function
-`public: virtual void * __thiscall icu_53::PluralFormat::getDynamicClassID(void)const ` | 1820 | Exported Function
-`public: virtual void * __thiscall icu_53::OlsonTimeZone::getDynamicClassID(void)const ` | 1819 | Exported Function
-`public: virtual void * __thiscall icu_53::CurrencyPluralInfo::getDynamicClassID(void)const ` | 1799 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::group(int,struct UText *,enum UErrorCode &)const ` | 2319 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::group(int,struct UText *,__int64 &,enum UErrorCode &)const ` | 2320 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::getInput(struct UText *,enum UErrorCode &)const ` | 1914 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::group(struct UText *,__int64 &,enum UErrorCode &)const ` | 2321 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::replaceFirst(struct UText *,struct UText *,enum UErrorCode &)` | 2852 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::replaceAll(struct UText *,struct UText *,enum UErrorCode &)` | 2848 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::inputText(void)const ` | 2476 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexMatcher::appendTail(struct UText *,enum UErrorCode &)` | 1026 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::inDaylightTime(double,enum UErrorCode &)const ` | 2409 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::hasSameRules(class icu_53::TimeZone const &)const ` | 2386 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::getPreviousTransition(double,signed char,class icu_53::TimeZoneTransition &)const ` | 2082 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::operator!=(class icu_53::TimeZone const &)const ` | 627 | Exported Function
-`public: virtual signed char const * __thiscall icu_53::ChoiceFormat::getClosures(int &)const ` | 1717 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::useDaylightTime(void)const ` | 3270 | Exported Function
-`public: virtual signed char __thiscall icu_53::VTimeZone::operator==(class icu_53::TimeZone const &)const ` | 588 | Exported Function
-`public: virtual void * __thiscall icu_53::CollationElementIterator::getDynamicClassID(void)const ` | 1794 | Exported Function
-`public: virtual void * __thiscall icu_53::ChoiceFormat::getDynamicClassID(void)const ` | 1793 | Exported Function
-`public: virtual void * __thiscall icu_53::ChineseCalendar::getDynamicClassID(void)const ` | 1792 | Exported Function
-`public: virtual void * __thiscall icu_53::CollationKey::getDynamicClassID(void)const ` | 1795 | Exported Function
-`public: virtual void * __thiscall icu_53::CurrencyAmount::getDynamicClassID(void)const ` | 1798 | Exported Function
-`public: virtual void * __thiscall icu_53::CompoundTransliterator::getDynamicClassID(void)const ` | 1797 | Exported Function
-`public: virtual void * __thiscall icu_53::CompactDecimalFormat::getDynamicClassID(void)const ` | 1796 | Exported Function
-`public: virtual void * __thiscall icu_53::AnnualTimeZoneRule::getDynamicClassID(void)const ` | 1791 | Exported Function
-`public: virtual unsigned int __thiscall icu_53::CollationDataBuilder::encodeCEs(__int64 const * const,int,enum UErrorCode &)` | 1405 | Exported Function
-`public: virtual unsigned int __thiscall icu_53::CollationBaseDataBuilder::encodeCEs(__int64 const * const,int,enum UErrorCode &)` | 1404 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RegexPattern::patternText(enum UErrorCode &)const ` | 2790 | Exported Function
-`public: virtual unsigned int __thiscall icu_53::RegexPattern::flags(void)const ` | 1477 | Exported Function
-`public: virtual unsigned int __thiscall icu_53::RuleBasedCollator::setVariableTop(wchar_t const *,int,enum UErrorCode &)` | 3162 | Exported Function
-`public: virtual unsigned int __thiscall icu_53::RuleBasedCollator::setVariableTop(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3161 | Exported Function
-`public: virtual unsigned int __thiscall icu_53::RuleBasedCollator::getVariableTop(enum UErrorCode &)const ` | 2305 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedCollator::getSortKey(class icu_53::UnicodeString const &,unsigned char *,int)const ` | 2149 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedCollator::getReorderCodes(int *,int,enum UErrorCode &)const ` | 2106 | Exported Function
-`public: virtual int __thiscall icu_53::RegexPattern::split(struct UText *,struct UText * * const,int,enum UErrorCode &)const ` | 3187 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedCollator::getSortKey(wchar_t const *,int,unsigned char *,int)const ` | 2150 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedCollator::internalNextSortKeyPart(struct UCharIterator *,unsigned int * const,unsigned char *,int,enum UErrorCode &)const ` | 2501 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedCollator::internalGetShortDefinitionString(char const *,char *,int,enum UErrorCode &)const ` | 2498 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedCollator::hashCode(void)const ` | 2391 | Exported Function
-`public: virtual int __thiscall icu_53::RegexPattern::split(class icu_53::UnicodeString const &,class icu_53::UnicodeString * const,int,enum UErrorCode &)const ` | 3186 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::regionStart(void)const ` | 2835 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::regionEnd(void)const ` | 2833 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::groupCount(void)const ` | 2322 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::split(class icu_53::UnicodeString const &,class icu_53::UnicodeString * const,int,enum UErrorCode &)` | 3184 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::start(int,enum UErrorCode &)const ` | 3192 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::start(enum UErrorCode &)const ` | 3191 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::split(struct UText *,struct UText * * const,int,enum UErrorCode &)` | 3185 | Exported Function
-`public: virtual int __thiscall icu_53::SimpleTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,int,int,enum UErrorCode &)const ` | 2046 | Exported Function
-`public: virtual int __thiscall icu_53::SimpleTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,int,enum UErrorCode &)const ` | 2045 | Exported Function
-`public: virtual int __thiscall icu_53::SimpleTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,enum UErrorCode &)const ` | 2044 | Exported Function
-`public: virtual int __thiscall icu_53::SimpleTimeZone::getRawOffset(void)const ` | 2092 | Exported Function
-`public: virtual int __thiscall icu_53::Transliterator::transliterate(class icu_53::Replaceable &,int,int)const ` | 3247 | Exported Function
-`public: virtual int __thiscall icu_53::TimeZone::getDSTSavings(void)const ` | 1745 | Exported Function
-`public: virtual int __thiscall icu_53::StringSearch::getOffset(void)const ` | 2048 | Exported Function
-`public: virtual int __thiscall icu_53::SimpleTimeZone::getDSTSavings(void)const ` | 1744 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedTimeZone::countTransitionRules(enum UErrorCode &)const ` | 1229 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedNumberFormat::getNumberOfRuleSetNames(void)const ` | 2029 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedNumberFormat::getNumberOfRuleSetDisplayNameLocales(void)const ` | 2028 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,enum UErrorCode &)const ` | 2041 | Exported Function
-`public: virtual int __thiscall icu_53::SimpleTimeZone::countTransitionRules(enum UErrorCode &)const ` | 1230 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedTimeZone::getRawOffset(void)const ` | 2091 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,int,enum UErrorCode &)const ` | 2042 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::getTimeLimit(void)const ` | 2267 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUIterCollationIterator::nextCodePoint(enum UErrorCode &)` | 2681 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUIterCollationIterator::getOffset(void)const ` | 2034 | Exported Function
-`public: virtual int __thiscall icu_53::DecimalFormat::getFormatWidth(void)const ` | 1879 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUIterCollationIterator::previousCodePoint(enum UErrorCode &)` | 2801 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUTF16CollationIterator::previousCodePoint(enum UErrorCode &)` | 2802 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUTF16CollationIterator::nextCodePoint(enum UErrorCode &)` | 2682 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUTF16CollationIterator::getOffset(void)const ` | 2035 | Exported Function
-`public: virtual int __thiscall icu_53::DecimalFormat::getAttribute(enum UNumberFormatAttribute,enum UErrorCode &)const ` | 1640 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getWeekendTransition(enum UCalendarDaysOfWeek,enum UErrorCode &)const ` | 2310 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getRelatedYear(enum UErrorCode &)const ` | 2103 | Exported Function
-`public: virtual int __thiscall icu_53::Calendar::getMinimum(enum UCalendarDateFields)const ` | 1993 | Exported Function
-`public: virtual int __thiscall icu_53::Collator::getReorderCodes(int *,int,enum UErrorCode &)const ` | 2105 | Exported Function
-`public: virtual int __thiscall icu_53::CompoundTransliterator::getCount(void)const ` | 1734 | Exported Function
-`public: virtual int __thiscall icu_53::Collator::internalNextSortKeyPart(struct UCharIterator *,unsigned int * const,unsigned char *,int,enum UErrorCode &)const ` | 2500 | Exported Function
-`public: virtual int __thiscall icu_53::Collator::internalGetShortDefinitionString(char const *,char *,int,enum UErrorCode &)const ` | 2497 | Exported Function
-`public: virtual int __thiscall icu_53::OlsonTimeZone::getRawOffset(void)const ` | 2090 | Exported Function
-`public: virtual int __thiscall icu_53::OlsonTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,int,enum UErrorCode &)const ` | 2039 | Exported Function
-`public: virtual int __thiscall icu_53::OlsonTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,enum UErrorCode &)const ` | 2038 | Exported Function
-`public: virtual int __thiscall icu_53::PluralAvailableLocalesEnumeration::count(enum UErrorCode &)const ` | 1217 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::getStackLimit(void)const ` | 2153 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::end(int,enum UErrorCode &)const ` | 1417 | Exported Function
-`public: virtual int __thiscall icu_53::RegexMatcher::end(enum UErrorCode &)const ` | 1416 | Exported Function
-`public: virtual int __thiscall icu_53::OlsonTimeZone::getDSTSavings(void)const ` | 1743 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUTF8CollationIterator::previousCodePoint(enum UErrorCode &)` | 2803 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUTF8CollationIterator::nextCodePoint(enum UErrorCode &)` | 2683 | Exported Function
-`public: virtual int __thiscall icu_53::FCDUTF8CollationIterator::getOffset(void)const ` | 2036 | Exported Function
-`public: virtual int __thiscall icu_53::GregorianCalendar::defaultCenturyStartYear(void)const ` | 1366 | Exported Function
-`public: virtual int __thiscall icu_53::OlsonTimeZone::countTransitionRules(enum UErrorCode &)const ` | 1228 | Exported Function
-`public: virtual int __thiscall icu_53::GregorianCalendar::getActualMinimum(enum UCalendarDateFields,enum UErrorCode &)const ` | 1618 | Exported Function
-`public: virtual int __thiscall icu_53::GregorianCalendar::getActualMaximum(enum UCalendarDateFields,enum UErrorCode &)const ` | 1613 | Exported Function
-`public: virtual signed char __thiscall icu_53::DecimalFormat::getMinimumExponentDigits(void)const ` | 1994 | Exported Function
-`public: virtual signed char __thiscall icu_53::DateIntervalInfo::operator==(class icu_53::DateIntervalInfo const &)const ` | 548 | Exported Function
-`public: virtual signed char __thiscall icu_53::DateIntervalFormat::operator==(class icu_53::Format const &)const ` | 547 | Exported Function
-`public: virtual signed char __thiscall icu_53::DecimalFormat::isExponentSignAlwaysShown(void)const ` | 2542 | Exported Function
-`public: virtual signed char __thiscall icu_53::FCDUTF16CollationIterator::operator==(class icu_53::CollationIterator const &)const ` | 555 | Exported Function
-`public: virtual signed char __thiscall icu_53::DecimalFormat::operator==(class icu_53::Format const &)const ` | 551 | Exported Function
-`public: virtual signed char __thiscall icu_53::DecimalFormat::isScientificNotation(void)const ` | 2569 | Exported Function
-`public: virtual signed char __thiscall icu_53::DateFormat::operator==(class icu_53::Format const &)const ` | 545 | Exported Function
-`public: virtual signed char __thiscall icu_53::Collator::operator==(class icu_53::Collator const &)const ` | 542 | Exported Function
-`public: virtual signed char __thiscall icu_53::Collator::operator!=(class icu_53::Collator const &)const ` | 597 | Exported Function
-`public: virtual signed char __thiscall icu_53::CollationIterator::operator==(class icu_53::CollationIterator const &)const ` | 539 | Exported Function
-`public: virtual signed char __thiscall icu_53::CollatorFactory::visible(void)const ` | 3279 | Exported Function
-`public: virtual signed char __thiscall icu_53::DateFormat::isLenient(void)const ` | 2556 | Exported Function
-`public: virtual signed char __thiscall icu_53::DateFormat::isCalendarLenient(void)const ` | 2521 | Exported Function
-`public: virtual signed char __thiscall icu_53::CompactDecimalFormat::operator==(class icu_53::Format const &)const ` | 543 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::operator==(class icu_53::TimeZoneRule const &)const ` | 560 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::operator!=(class icu_53::TimeZoneRule const &)const ` | 610 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::isEquivalentTo(class icu_53::TimeZoneRule const &)const ` | 2539 | Exported Function
-`public: virtual signed char __thiscall icu_53::MeasureFormat::operator==(class icu_53::Format const &)const ` | 562 | Exported Function
-`public: virtual signed char __thiscall icu_53::MessageFormat::operator==(class icu_53::Format const &)const ` | 564 | Exported Function
-`public: virtual signed char __thiscall icu_53::MessageFormat::DummyFormat::operator==(class icu_53::Format const &)const ` | 554 | Exported Function
-`public: virtual signed char __thiscall icu_53::MeasureUnit::operator==(class icu_53::UObject const &)const ` | 563 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::getPreviousStart(double,int,int,signed char,double &)const ` | 2077 | Exported Function
-`public: virtual signed char __thiscall icu_53::GregorianCalendar::inDaylightTime(enum UErrorCode &)const ` | 2403 | Exported Function
-`public: virtual signed char __thiscall icu_53::GregorianCalendar::haveDefaultCentury(void)const ` | 2395 | Exported Function
-`public: virtual signed char __thiscall icu_53::Format::operator==(class icu_53::Format const &)const ` | 558 | Exported Function
-`public: virtual signed char __thiscall icu_53::GregorianCalendar::isEquivalentTo(class icu_53::Calendar const &)const ` | 2538 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::getNextStart(double,int,int,signed char,double &)const ` | 2016 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::getFirstStart(int,int,double &)const ` | 1870 | Exported Function
-`public: virtual signed char __thiscall icu_53::InitialTimeZoneRule::getFinalStart(int,int,double &)const ` | 1860 | Exported Function
-`public: virtual signed char __thiscall icu_53::CollationDataBuilder::isCompressibleLeadByte(unsigned int)const ` | 2527 | Exported Function
-`public: virtual int __thiscall icu_53::VTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,enum UErrorCode &)const ` | 2053 | Exported Function
-`public: virtual int __thiscall icu_53::VTimeZone::countTransitionRules(enum UErrorCode &)const ` | 1231 | Exported Function
-`public: virtual int __thiscall icu_53::UTF8CollationIterator::previousCodePoint(enum UErrorCode &)` | 2806 | Exported Function
-`public: virtual int __thiscall icu_53::VTimeZone::getOffset(unsigned char,int,int,int,unsigned char,int,int,enum UErrorCode &)const ` | 2054 | Exported Function
-`public: virtual signed char __thiscall icu_53::AlphabeticIndex::nextBucket(enum UErrorCode &)` | 2676 | Exported Function
-`public: virtual signed char __cdecl icu_53::DateFormat::getBooleanAttribute(enum UDateFormatBooleanAttribute,enum UErrorCode &)const ` | 1671 | Exported Function
-`public: virtual int __thiscall icu_53::VTimeZone::getRawOffset(void)const ` | 2094 | Exported Function
-`public: virtual int __thiscall icu_53::UTF8CollationIterator::nextCodePoint(enum UErrorCode &)` | 2686 | Exported Function
-`public: virtual int __thiscall icu_53::UIterCollationIterator::previousCodePoint(enum UErrorCode &)` | 2804 | Exported Function
-`public: virtual int __thiscall icu_53::UIterCollationIterator::nextCodePoint(enum UErrorCode &)` | 2684 | Exported Function
-`public: virtual int __thiscall icu_53::UIterCollationIterator::getOffset(void)const ` | 2050 | Exported Function
-`public: virtual int __thiscall icu_53::UTF16CollationIterator::getOffset(void)const ` | 2051 | Exported Function
-`public: virtual int __thiscall icu_53::UTF8CollationIterator::getOffset(void)const ` | 2052 | Exported Function
-`public: virtual int __thiscall icu_53::UTF16CollationIterator::previousCodePoint(enum UErrorCode &)` | 2805 | Exported Function
-`public: virtual int __thiscall icu_53::UTF16CollationIterator::nextCodePoint(enum UErrorCode &)` | 2685 | Exported Function
-`public: virtual signed char __thiscall icu_53::Calendar::isWeekend(double,enum UErrorCode &)const ` | 2589 | Exported Function
-`public: virtual signed char __thiscall icu_53::Calendar::isEquivalentTo(class icu_53::Calendar const &)const ` | 2537 | Exported Function
-`public: virtual signed char __thiscall icu_53::BasicTimeZone::hasEquivalentTransitions(class icu_53::BasicTimeZone const &,double,double,signed char,enum UErrorCode &)const ` | 2378 | Exported Function
-`public: virtual signed char __thiscall icu_53::Calendar::isWeekend(void)const ` | 2590 | Exported Function
-`public: virtual signed char __thiscall icu_53::CollationBaseDataBuilder::isCompressibleLeadByte(unsigned int)const ` | 2525 | Exported Function
-`public: virtual signed char __thiscall icu_53::ChoiceFormat::operator==(class icu_53::Format const &)const ` | 537 | Exported Function
-`public: virtual signed char __thiscall icu_53::Calendar::operator==(class icu_53::Calendar const &)const ` | 536 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::operator==(class icu_53::TimeZoneRule const &)const ` | 535 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::getFirstStart(int,int,double &)const ` | 1869 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::getFinalStart(int,int,double &)const ` | 1859 | Exported Function
-`public: virtual signed char __thiscall icu_53::AlphabeticIndex::nextRecord(enum UErrorCode &)` | 2690 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::getNextStart(double,int,int,signed char,double &)const ` | 2015 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::operator!=(class icu_53::TimeZoneRule const &)const ` | 591 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::isEquivalentTo(class icu_53::TimeZoneRule const &)const ` | 2536 | Exported Function
-`public: virtual signed char __thiscall icu_53::AnnualTimeZoneRule::getPreviousStart(double,int,int,signed char,double &)const ` | 2076 | Exported Function
-`public: static unsigned int const icu_53::Collation::COMMON_TERTIARY_CE` | 764 | Exported Function
-`public: static unsigned int const icu_53::Collation::COMMON_SECONDARY_CE` | 760 | Exported Function
-`public: static unsigned int const icu_53::Collation::COMMON_SEC_AND_TER_CE` | 761 | Exported Function
-`public: static unsigned int const icu_53::Collation::COMMON_WEIGHT16` | 766 | Exported Function
-`public: static unsigned int const icu_53::Collation::CONTRACT_TRAILING_CCC` | 771 | Exported Function
-`public: static unsigned int const icu_53::Collation::CONTRACT_SINGLE_CP_NO_MATCH` | 770 | Exported Function
-`public: static unsigned int const icu_53::Collation::CONTRACT_NEXT_CCC` | 769 | Exported Function
-`public: static unsigned int const icu_53::Collation::CASE_MASK` | 751 | Exported Function
-`public: static unsigned int __cdecl icu_53::CollationSettings::getTertiaryMask(int)` | 2260 | Exported Function
-`public: static unsigned int __cdecl icu_53::CollationData::readCE32(wchar_t const *)` | 2823 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::unassignedPrimaryFromCodePoint(int)` | 3258 | Exported Function
-`public: static unsigned int __cdecl icu_53::JapaneseCalendar::getCurrentEra(void)` | 1741 | Exported Function
-`public: static unsigned int const icu_53::Collation::CASE_LEVEL_FLAG` | 746 | Exported Function
-`public: static unsigned int const icu_53::Collation::CASE_AND_TERTIARY_MASK` | 741 | Exported Function
-`public: static unsigned int const icu_53::Collation::CASE_AND_QUATERNARY_MASK` | 740 | Exported Function
-`public: static unsigned int const icu_53::Collation::LEAD_TYPE_MASK` | 797 | Exported Function
-`public: static unsigned int const icu_53::Collation::LEAD_MIXED` | 796 | Exported Function
-`public: static unsigned int const icu_53::Collation::LEAD_ALL_UNASSIGNED` | 795 | Exported Function
-`public: static unsigned int const icu_53::Collation::MAX_PRIMARY` | 807 | Exported Function
-`public: static unsigned int const icu_53::Collation::MERGE_SEPARATOR_LOWER32` | 819 | Exported Function
-`public: static unsigned int const icu_53::Collation::MERGE_SEPARATOR_CE32` | 818 | Exported Function
-`public: static unsigned int const icu_53::Collation::MAX_REGULAR_CE32` | 808 | Exported Function
-`public: static unsigned int const icu_53::Collation::LEAD_ALL_FALLBACK` | 794 | Exported Function
-`public: static unsigned int const icu_53::Collation::FFFD_PRIMARY` | 778 | Exported Function
-`public: static unsigned int const icu_53::Collation::FFFD_CE32` | 777 | Exported Function
-`public: static unsigned int const icu_53::Collation::FALLBACK_CE32` | 776 | Exported Function
-`public: static unsigned int const icu_53::Collation::FIRST_TRAILING_PRIMARY` | 779 | Exported Function
-`public: static unsigned int const icu_53::Collation::IDENTICAL_LEVEL_FLAG` | 785 | Exported Function
-`public: static unsigned int const icu_53::Collation::HANGUL_NO_SPECIAL_JAMO` | 782 | Exported Function
-`public: static unsigned int const icu_53::Collation::FIRST_UNASSIGNED_PRIMARY` | 780 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::reorder(unsigned char const * const,unsigned int)` | 2846 | Exported Function
-`public: static unsigned char const icu_53::Collation::LEVEL_SEPARATOR_BYTE` | 798 | Exported Function
-`public: static unsigned char const icu_53::Collation::COMMON_BYTE` | 758 | Exported Function
-`public: static union icu_53::Transliterator::Token __cdecl icu_53::Transliterator::pointerToken(void *)` | 2793 | Exported Function
-`public: static unsigned char const icu_53::Collation::LONG_PRIMARY_CE32_LOW_BYTE` | 800 | Exported Function
-`public: static unsigned char const icu_53::Collation::PRIMARY_COMPRESSION_LOW_BYTE` | 846 | Exported Function
-`public: static unsigned char const icu_53::Collation::PRIMARY_COMPRESSION_HIGH_BYTE` | 845 | Exported Function
-`public: static unsigned char const icu_53::Collation::MERGE_SEPARATOR_BYTE` | 817 | Exported Function
-`public: static union icu_53::Transliterator::Token __cdecl icu_53::Transliterator::integerToken(int)` | 2479 | Exported Function
-`public: static signed char __cdecl icu_53::RegexPattern::matches(struct UText *,struct UText *,struct UParseError &,enum UErrorCode &)` | 2655 | Exported Function
-`public: static signed char __cdecl icu_53::RegexPattern::matches(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 2654 | Exported Function
-`public: static signed char __cdecl icu_53::NumberFormat::unregister(void const *,enum UErrorCode &)` | 3262 | Exported Function
-`public: static signed char __cdecl icu_53::SimpleDateFormat::isFieldUnitIgnored(class icu_53::UnicodeString const &,enum UCalendarDateFields)` | 2546 | Exported Function
-`public: static struct icu_53::CollationTailoring const * __cdecl icu_53::CollationRoot::getRoot(enum UErrorCode &)` | 2109 | Exported Function
-`public: static struct icu_53::CollationSettings const * __cdecl icu_53::CollationRoot::getSettings(enum UErrorCode &)` | 2136 | Exported Function
-`public: static struct icu_53::CollationData const * __cdecl icu_53::CollationRoot::getData(enum UErrorCode &)` | 1747 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::makeCE32FromTagAndIndex(int,int)` | 2629 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::incTwoBytePrimaryByOffset(unsigned int,signed char,int)` | 2412 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::incThreeBytePrimaryByOffset(unsigned int,signed char,int)` | 2411 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::makeCE32FromTagIndexAndLength(int,int,int)` | 2630 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::primaryFromLongPrimaryCE32(unsigned int)` | 2812 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::makeLongSecondaryCE32(unsigned int)` | 2637 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::makeLongPrimaryCE32(unsigned int)` | 2636 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::getThreeBytePrimaryForOffsetData(int,__int64)` | 2262 | Exported Function
-`public: static unsigned char const icu_53::Collation::TRAIL_WEIGHT_BYTE` | 899 | Exported Function
-`public: static unsigned char const icu_53::Collation::TERMINATOR_BYTE` | 883 | Exported Function
-`public: static unsigned char const icu_53::Collation::SPECIAL_CE32_LOW_BYTE` | 874 | Exported Function
-`public: static unsigned char const icu_53::Collation::UNASSIGNED_IMPLICIT_BYTE` | 911 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::decTwoBytePrimaryByOneStep(unsigned int,signed char,int)` | 1356 | Exported Function
-`public: static unsigned int __cdecl icu_53::Collation::decThreeBytePrimaryByOneStep(unsigned int,signed char,int)` | 1355 | Exported Function
-`public: static unsigned char const icu_53::CollationRootElements::PRIMARY_STEP_MASK` | 849 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MIN_SEC_AFTER` | 824 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MIN_LONG` | 823 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MERGE_WEIGHT` | 822 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MIN_SEC_BEFORE` | 825 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::SEC_INC` | 868 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MIN_SHORT` | 827 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MIN_SEC_HIGH` | 826 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MAX_TER_AFTER` | 813 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MAX_LONG` | 806 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::LOWER_CASE` | 802 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::LONG_PRIMARY_MASK` | 801 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MAX_SEC_AFTER` | 809 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MAX_SHORT` | 812 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MAX_SEC_HIGH` | 811 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::MAX_SEC_BEFORE` | 810 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_LOWER_CASES` | 904 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_LONG_PRIMARIES_MASK` | 903 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_COMMON_TER_PLUS_OFFSET` | 902 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_SEC_OFFSETS` | 906 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_TER_OFFSETS` | 909 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_SHORT_PRIMARIES_MASK` | 907 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_SECONDARIES_MASK` | 905 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_COMMON_SEC_PLUS_OFFSET` | 901 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::SHORT_INC` | 872 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::SECONDARY_MASK` | 863 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::SEC_OFFSET` | 869 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::SHORT_PRIMARY_MASK` | 873 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_CASES_MASK` | 900 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TERTIARY_MASK` | 885 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TER_OFFSET` | 890 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::LONG_INC` | 799 | Exported Function
-`public: static unsigned int const icu_53::Collation::QUATERNARY_MASK` | 853 | Exported Function
-`public: static unsigned int const icu_53::Collation::QUATERNARY_LEVEL_FLAG` | 852 | Exported Function
-`public: static unsigned int const icu_53::Collation::PRIMARY_LEVEL_FLAG` | 847 | Exported Function
-`public: static unsigned int const icu_53::Collation::SECONDARY_AND_CASE_MASK` | 860 | Exported Function
-`public: static unsigned int const icu_53::Collation::TERTIARY_LEVEL_FLAG` | 884 | Exported Function
-`public: static unsigned int const icu_53::Collation::SECONDARY_MASK` | 862 | Exported Function
-`public: static unsigned int const icu_53::Collation::SECONDARY_LEVEL_FLAG` | 861 | Exported Function
-`public: static unsigned int const icu_53::Collation::ONLY_TERTIARY_MASK` | 840 | Exported Function
-`public: static unsigned int const icu_53::Collation::NO_CE32` | 831 | Exported Function
-`public: static unsigned int const icu_53::Collation::MERGE_SEPARATOR_WEIGHT16` | 821 | Exported Function
-`public: static unsigned int const icu_53::Collation::MERGE_SEPARATOR_PRIMARY` | 820 | Exported Function
-`public: static unsigned int const icu_53::Collation::NO_CE_PRIMARY` | 833 | Exported Function
-`public: static unsigned int const icu_53::Collation::ONLY_SEC_TER_MASK` | 839 | Exported Function
-`public: static unsigned int const icu_53::Collation::NO_LEVEL_FLAG` | 835 | Exported Function
-`public: static unsigned int const icu_53::Collation::NO_CE_WEIGHT16` | 834 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::CONTR_LENGTH_SHIFT` | 773 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::CONTR_CHAR_MASK` | 772 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::COMMON_TER_PLUS_OFFSET` | 765 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::CONTRACTION` | 767 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::INDEX_MASK` | 786 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::EXPANSION` | 775 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::EOS` | 774 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::COMMON_TER` | 763 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::BAIL_OUT` | 737 | Exported Function
-`public: static unsigned int const icu_53::Collation::ZERO_LEVEL_FLAG` | 916 | Exported Function
-`public: static unsigned int const icu_53::Collation::UNASSIGNED_CE32` | 910 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::CASE_AND_TERTIARY_MASK` | 742 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::COMMON_SEC_PLUS_OFFSET` | 762 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::COMMON_SEC` | 759 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::CASE_MASK` | 752 | Exported Function
-`public: static double __cdecl icu_53::Calendar::getNow(void)` | 2022 | Exported Function
-`public: static class icu_53::VTimeZone * __cdecl icu_53::VTimeZone::createVTimeZoneFromBasicTimeZone(class icu_53::BasicTimeZone const &,enum UErrorCode &)` | 1347 | Exported Function
-`public: static class icu_53::VTimeZone * __cdecl icu_53::VTimeZone::createVTimeZoneByID(class icu_53::UnicodeString const &)` | 1346 | Exported Function
-`public: static double __cdecl icu_53::CalendarAstronomer::SUMMER_SOLSTICE(void)` | 880 | Exported Function
-`public: static double const icu_53::CalendarAstronomer::SYNODIC_MONTH` | 881 | Exported Function
-`public: static double const icu_53::CalendarAstronomer::PI` | 842 | Exported Function
-`public: static double __cdecl icu_53::CalendarAstronomer::WINTER_SOLSTICE(void)` | 915 | Exported Function
-`public: static class icu_53::VTimeZone * __cdecl icu_53::VTimeZone::createVTimeZone(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1345 | Exported Function
-`public: static class icu_53::UnicodeString __cdecl icu_53::MessageFormat::autoQuoteApostrophe(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1049 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ZoneMeta::getZoneIdByMetazone(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 2313 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ZoneMeta::getMetazoneID(class icu_53::UnicodeString const &,double,class icu_53::UnicodeString &)` | 1988 | Exported Function
-`public: static class icu_53::UnicodeString const & __cdecl icu_53::Transliterator::getAvailableID(int)` | 1646 | Exported Function
-`public: static class icu_53::UVector const * __cdecl icu_53::ZoneMeta::getMetazoneMappings(class icu_53::UnicodeString const &)` | 1989 | Exported Function
-`public: static class icu_53::UVector const * __cdecl icu_53::ZoneMeta::getAvailableMetazoneIDs(void)` | 1655 | Exported Function
-`public: static class icu_53::UnicodeString const __cdecl icu_53::TimeZone::getEquivalentID(class icu_53::UnicodeString const &,int)` | 1844 | Exported Function
-`public: static int __cdecl icu_53::CollationElementIterator::tertiaryOrder(int)` | 3218 | Exported Function
-`public: static int __cdecl icu_53::CollationElementIterator::secondaryOrder(int)` | 2904 | Exported Function
-`public: static int __cdecl icu_53::CollationElementIterator::primaryOrder(int)` | 2813 | Exported Function
-`public: static int __cdecl icu_53::CollationFastLatin::compareUTF16(unsigned short const *,unsigned short const *,int,wchar_t const *,int,wchar_t const *,int)` | 1166 | Exported Function
-`public: static int __cdecl icu_53::CollationFastLatin::getOptions(struct icu_53::CollationData const *,struct icu_53::CollationSettings const &,unsigned short *,int)` | 2062 | Exported Function
-`public: static int __cdecl icu_53::CollationFastLatin::getCharIndex(wchar_t)` | 1714 | Exported Function
-`public: static int __cdecl icu_53::CollationFastLatin::compareUTF8(unsigned short const *,unsigned short const *,int,unsigned char const *,int,unsigned char const *,int)` | 1167 | Exported Function
-`public: static int __cdecl icu_53::CollationDataWriter::writeTailoring(struct icu_53::CollationTailoring const &,struct icu_53::CollationSettings const &,int * const,unsigned char *,int,enum UErrorCode &)` | 3301 | Exported Function
-`public: static int __cdecl icu_53::Collation::lengthFromCE32(unsigned int)` | 2610 | Exported Function
-`public: static int __cdecl icu_53::Collation::indexFromCE32(unsigned int)` | 2415 | Exported Function
-`public: static enum UCollationResult __cdecl icu_53::CollationCompare::compareUpToQuaternary(class icu_53::CollationIterator &,class icu_53::CollationIterator &,struct icu_53::CollationSettings const &,enum UErrorCode &)` | 1170 | Exported Function
-`public: static int __cdecl icu_53::Collation::tagFromCE32(unsigned int)` | 3214 | Exported Function
-`public: static int __cdecl icu_53::CollationDataWriter::writeBase(struct icu_53::CollationData const &,struct icu_53::CollationSettings const &,void const *,int,int * const,unsigned char *,int,enum UErrorCode &)` | 3291 | Exported Function
-`public: static int __cdecl icu_53::CollationBaseDataBuilder::diffTwoBytePrimaries(unsigned int,unsigned int,signed char)` | 1380 | Exported Function
-`public: static int __cdecl icu_53::CollationBaseDataBuilder::diffThreeBytePrimaries(unsigned int,unsigned int,signed char)` | 1379 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ZoneMeta::getCanonicalCountry(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,signed char *)` | 1706 | Exported Function
-`public: static class icu_53::TimeZoneFormat * __cdecl icu_53::TimeZoneFormat::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1301 | Exported Function
-`public: static class icu_53::TimeZone const * __cdecl icu_53::TimeZone::getGMT(void)` | 1885 | Exported Function
-`public: static class icu_53::TimeZone const & __cdecl icu_53::TimeZone::getUnknown(void)` | 2304 | Exported Function
-`public: static class icu_53::TimeZoneGenericNames * __cdecl icu_53::TimeZoneGenericNames::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1302 | Exported Function
-`public: static class icu_53::Transliterator * __cdecl icu_53::Transliterator::createInstance(class icu_53::UnicodeString const &,enum UTransDirection,enum UErrorCode &)` | 1305 | Exported Function
-`public: static class icu_53::Transliterator * __cdecl icu_53::Transliterator::createFromRules(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UTransDirection,struct UParseError &,enum UErrorCode &)` | 1266 | Exported Function
-`public: static class icu_53::TimeZoneNames * __cdecl icu_53::TimeZoneNames::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1303 | Exported Function
-`public: static class icu_53::TimeZone * __cdecl icu_53::ZoneMeta::createCustomTimeZone(int)` | 1253 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::TimeZone::createTimeZoneIDEnumeration(enum USystemTimeZoneType,char const *,int const *,enum UErrorCode &)` | 1344 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::TimeZone::createEnumeration(void)` | 1263 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::TimeZone::createEnumeration(int)` | 1261 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Transliterator::getAvailableIDs(enum UErrorCode &)` | 1647 | Exported Function
-`public: static class icu_53::TimeZone * __cdecl icu_53::TimeZone::createTimeZone(class icu_53::UnicodeString const &)` | 1342 | Exported Function
-`public: static class icu_53::TimeZone * __cdecl icu_53::TimeZone::createDefault(void)` | 1257 | Exported Function
-`public: static class icu_53::TimeUnit * __cdecl icu_53::TimeUnit::createInstance(enum icu_53::TimeUnit::UTimeUnitFields,enum UErrorCode &)` | 1300 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::getAvailableTarget(int,class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 1658 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::getAvailableSource(int,class icu_53::UnicodeString &)` | 1657 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::TimeZone::getWindowsID(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)` | 2312 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::getAvailableVariant(int,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 1660 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ZoneMeta::getCanonicalCLDRID(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)` | 1703 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::getDisplayName(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 1786 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::getDisplayName(class icu_53::UnicodeString const &,class icu_53::Locale const &,class icu_53::UnicodeString &)` | 1787 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::TimeZone::getIDForWindowsID(class icu_53::UnicodeString const &,char const *,class icu_53::UnicodeString &,enum UErrorCode &)` | 1904 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Collator::getDisplayName(class icu_53::Locale const &,class icu_53::UnicodeString &)` | 1778 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Collator::getDisplayName(class icu_53::Locale const &,class icu_53::Locale const &,class icu_53::UnicodeString &)` | 1777 | Exported Function
-`public: static class icu_53::Transliterator * __cdecl icu_53::Transliterator::createInstance(class icu_53::UnicodeString const &,enum UTransDirection,struct UParseError &,enum UErrorCode &)` | 1304 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::IdentifierInfo::displayAlternates(class icu_53::UnicodeString &,struct UHashtable const *,enum UErrorCode &)` | 1384 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::TimeZone::getCanonicalID(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,signed char &,enum UErrorCode &)` | 1708 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::TimeZone::getCanonicalID(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)` | 1709 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::MessageFormat::format(class icu_53::UnicodeString const &,class icu_53::Formattable const *,int,class icu_53::UnicodeString &,enum UErrorCode &)` | 1526 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::hasCE32Tag(unsigned int,int)` | 2377 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::ce32HasContext(unsigned int)` | 1072 | Exported Function
-`public: static signed char __cdecl icu_53::Calendar::unregister(void const *,enum UErrorCode &)` | 3260 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isAssignedCE32(unsigned int)` | 2515 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isPrefixCE32(unsigned int)` | 2568 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isLongPrimaryCE32(unsigned int)` | 2559 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isContractionCE32(unsigned int)` | 2530 | Exported Function
-`public: static int const icu_53::CollationSettings::UPPER_FIRST` | 912 | Exported Function
-`public: static int const icu_53::CollationSettings::MAX_VARIABLE_SHIFT` | 815 | Exported Function
-`public: static int const icu_53::CollationSettings::MAX_VARIABLE_MASK` | 814 | Exported Function
-`public: static int const icu_53::CollationSettings::CHECK_FCD` | 756 | Exported Function
-`public: static int const icu_53::CollationSettings::NUMERIC` | 836 | Exported Function
-`public: static int const icu_53::CollationSettings::STRENGTH_SHIFT` | 879 | Exported Function
-`public: static int const icu_53::CollationSettings::STRENGTH_MASK` | 878 | Exported Function
-`public: static int const icu_53::CollationSettings::SHIFTED` | 871 | Exported Function
-`public: static signed char __cdecl icu_53::CollationSettings::isTertiaryWithCaseBits(int)` | 2579 | Exported Function
-`public: static signed char __cdecl icu_53::CollationFCD::mayHaveLccc(int)` | 2656 | Exported Function
-`public: static signed char __cdecl icu_53::CollationFCD::maybeTibetanCompositeVowel(int)` | 2658 | Exported Function
-`public: static signed char __cdecl icu_53::CollationSettings::sortsTertiaryUpperCaseFirst(int)` | 3183 | Exported Function
-`public: static signed char __cdecl icu_53::MessageFormat::equalFormats(void const *,void const *)` | 1422 | Exported Function
-`public: static signed char __cdecl icu_53::HebrewCalendar::isLeapYear(int)` | 2554 | Exported Function
-`public: static signed char __cdecl icu_53::Collator::unregister(void const *,enum UErrorCode &)` | 3261 | Exported Function
-`public: static signed char __cdecl icu_53::CollationFCD::isFCD16OfTibetanCompositeVowel(unsigned short)` | 2543 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isSpecialCE32(unsigned int)` | 2573 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isSimpleOrLongCE32(unsigned int)` | 2572 | Exported Function
-`public: static signed char __cdecl icu_53::Collation::isSelfContainedCE32(unsigned int)` | 2570 | Exported Function
-`public: static signed char __cdecl icu_53::CollationDataReader::isAcceptable(void *,char const *,char const *,struct UDataInfo const *)` | 2511 | Exported Function
-`public: static signed char __cdecl icu_53::CollationFCD::hasTccc(int)` | 2387 | Exported Function
-`public: static signed char __cdecl icu_53::CollationFCD::hasLccc(int)` | 2379 | Exported Function
-`public: static signed char __cdecl icu_53::CollationElementIterator::isIgnorable(int)` | 2549 | Exported Function
-`public: static int const icu_53::CollationSettings::CASE_LEVEL` | 745 | Exported Function
-`public: static int __cdecl icu_53::TimeZone::getRegion(class icu_53::UnicodeString const &,char *,int,enum UErrorCode &)` | 2100 | Exported Function
-`public: static int __cdecl icu_53::TimeZone::countEquivalentIDs(class icu_53::UnicodeString const &)` | 1224 | Exported Function
-`public: static int __cdecl icu_53::MeasureUnit::getIndexCount(void)` | 1911 | Exported Function
-`public: static int __cdecl icu_53::Transliterator::countAvailableIDs(void)` | 1218 | Exported Function
-`public: static int __cdecl icu_53::Transliterator::countAvailableVariants(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 1221 | Exported Function
-`public: static int __cdecl icu_53::Transliterator::countAvailableTargets(class icu_53::UnicodeString const &)` | 1220 | Exported Function
-`public: static int __cdecl icu_53::Transliterator::countAvailableSources(void)` | 1219 | Exported Function
-`public: static int __cdecl icu_53::MeasureUnit::getAvailable(class icu_53::MeasureUnit *,int,enum UErrorCode &)` | 1643 | Exported Function
-`public: static int __cdecl icu_53::CollationWeights::lengthOfWeight(unsigned int)` | 2612 | Exported Function
-`public: static int __cdecl icu_53::CollationSettings::getStrength(int)` | 2233 | Exported Function
-`public: static int __cdecl icu_53::CollationRuleParser::getReorderCode(char const *)` | 2104 | Exported Function
-`public: static int __cdecl icu_53::Collator::getBound(unsigned char const *,int,enum UColBoundMode,unsigned int,unsigned char *,int,enum UErrorCode &)` | 1672 | Exported Function
-`public: static int __cdecl icu_53::MeasureUnit::getAvailable(char const *,class icu_53::MeasureUnit *,int,enum UErrorCode &)` | 1644 | Exported Function
-`public: static int __cdecl icu_53::FixedDecimal::decimals(double)` | 1357 | Exported Function
-`public: static int __cdecl icu_53::Collator::getEquivalentReorderCodes(int,int *,int,enum UErrorCode &)` | 1845 | Exported Function
-`public: static int const icu_53::CollationFastLatin::PUNCT_START` | 851 | Exported Function
-`public: static int const icu_53::CollationFastLatin::PUNCT_LIMIT` | 850 | Exported Function
-`public: static int const icu_53::CollationFastLatin::NUM_FAST_CHARS` | 837 | Exported Function
-`public: static int const icu_53::CollationSettings::ALTERNATE_MASK` | 735 | Exported Function
-`public: static int const icu_53::CollationSettings::CASE_FIRST_AND_UPPER_MASK` | 744 | Exported Function
-`public: static int const icu_53::CollationSettings::CASE_FIRST` | 743 | Exported Function
-`public: static int const icu_53::CollationSettings::BACKWARD_SECONDARY` | 736 | Exported Function
-`public: static int const icu_53::CollationFastLatin::LATIN_MAX_UTF8_LEAD` | 793 | Exported Function
-`public: static int const icu_53::Collation::MAX_INDEX` | 804 | Exported Function
-`public: static int const icu_53::Collation::MAX_EXPANSION_LENGTH` | 803 | Exported Function
-`public: static int const icu_53::AnnualTimeZoneRule::MAX_YEAR` | 816 | Exported Function
-`public: static int const icu_53::CollationData::JAMO_CE32S_LENGTH` | 790 | Exported Function
-`public: static int const icu_53::CollationFastLatin::LATIN_MAX` | 792 | Exported Function
-`public: static int const icu_53::CollationFastLatin::LATIN_LIMIT` | 791 | Exported Function
-`public: static int const icu_53::CollationFastLatin::BAIL_OUT_RESULT` | 738 | Exported Function
-`public: virtual __thiscall icu_53::ChoiceFormat::~ChoiceFormat(void)` | 334 | Exported Function
-`public: virtual __thiscall icu_53::ChineseCalendar::~ChineseCalendar(void)` | 333 | Exported Function
-`public: virtual __thiscall icu_53::Calendar::~Calendar(void)` | 331 | Exported Function
-`public: virtual __thiscall icu_53::CollationBaseDataBuilder::~CollationBaseDataBuilder(void)` | 335 | Exported Function
-`public: virtual __thiscall icu_53::CollationElementIterator::~CollationElementIterator(void)` | 338 | Exported Function
-`public: virtual __thiscall icu_53::CollationDataBuilder::~CollationDataBuilder(void)` | 337 | Exported Function
-`public: virtual __thiscall icu_53::CollationBuilder::~CollationBuilder(void)` | 336 | Exported Function
-`public: virtual __thiscall icu_53::BasicTimeZone::~BasicTimeZone(void)` | 328 | Exported Function
-`public: virtual __int64 __thiscall icu_53::RegexMatcher::start64(int,enum UErrorCode &)const ` | 3190 | Exported Function
-`public: virtual __int64 __thiscall icu_53::RegexMatcher::start64(enum UErrorCode &)const ` | 3189 | Exported Function
-`public: virtual __int64 __thiscall icu_53::RegexMatcher::regionStart64(void)const ` | 2834 | Exported Function
-`public: virtual __thiscall icu_53::AlphabeticIndex::Bucket::~Bucket(void)` | 329 | Exported Function
-`public: virtual __thiscall icu_53::AnnualTimeZoneRule::~AnnualTimeZoneRule(void)` | 327 | Exported Function
-`public: virtual __thiscall icu_53::AlphabeticIndex::~AlphabeticIndex(void)` | 326 | Exported Function
-`public: virtual __thiscall icu_53::AlphabeticIndex::ImmutableIndex::~ImmutableIndex(void)` | 373 | Exported Function
-`public: virtual __thiscall icu_53::CompoundTransliterator::~CompoundTransliterator(void)` | 348 | Exported Function
-`public: virtual __thiscall icu_53::CompactDecimalFormat::~CompactDecimalFormat(void)` | 347 | Exported Function
-`public: virtual __thiscall icu_53::CollatorFactory::~CollatorFactory(void)` | 346 | Exported Function
-`public: virtual __thiscall icu_53::CurrencyAmount::~CurrencyAmount(void)` | 349 | Exported Function
-`public: virtual __thiscall icu_53::DateFormat::~DateFormat(void)` | 352 | Exported Function
-`public: virtual __thiscall icu_53::CurrencyUnit::~CurrencyUnit(void)` | 351 | Exported Function
-`public: virtual __thiscall icu_53::CurrencyPluralInfo::~CurrencyPluralInfo(void)` | 350 | Exported Function
-`public: virtual __thiscall icu_53::Collator::~Collator(void)` | 345 | Exported Function
-`public: virtual __thiscall icu_53::CollationKey::~CollationKey(void)` | 341 | Exported Function
-`public: virtual __thiscall icu_53::CollationIterator::~CollationIterator(void)` | 340 | Exported Function
-`public: virtual __thiscall icu_53::CollationFastLatinBuilder::~CollationFastLatinBuilder(void)` | 339 | Exported Function
-`public: virtual __thiscall icu_53::CollationRuleParser::Importer::~Importer(void)` | 374 | Exported Function
-`public: virtual __thiscall icu_53::CollationTailoring::~CollationTailoring(void)` | 344 | Exported Function
-`public: virtual __thiscall icu_53::CollationSettings::~CollationSettings(void)` | 343 | Exported Function
-`public: virtual __thiscall icu_53::CollationRuleParser::Sink::~Sink(void)` | 409 | Exported Function
-`public: virtual __int64 __thiscall icu_53::RegexMatcher::regionEnd64(void)const ` | 2832 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getFirstTertiaryCE(void)const ` | 1872 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getFirstSecondaryCE(void)const ` | 1868 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getFirstPrimary(void)const ` | 1865 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getLastCommonSecondary(void)const ` | 1934 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getPrimaryAfter(unsigned int,int,signed char)const ` | 2084 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getLastTertiaryCE(void)const ` | 1938 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getLastSecondaryCE(void)const ` | 1937 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationDataBuilder::setPrimaryRangeAndReturnNext(int,int,unsigned int,int,enum UErrorCode &)` | 3101 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationData::getFinalCE32(unsigned int)const ` | 1858 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationData::getCE32FromSupplementary(int)const ` | 1690 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationData::getCE32(int)const ` | 1686 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationData::getFirstPrimaryForGroup(int)const ` | 1867 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationDataBuilder::getLongPrimaryIfSingleCE(int)const ` | 1967 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationData::getLastPrimaryForGroup(int)const ` | 1936 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationData::getIndirectCE32(unsigned int)const ` | 1912 | Exported Function
-`public: unsigned int __thiscall icu_53::TimeZoneFormat::getDefaultParseOptions(void)const ` | 1769 | Exported Function
-`public: unsigned int __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::getAll(void)const ` | 1621 | Exported Function
-`public: unsigned int __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::getAll(void)const ` | 1620 | Exported Function
-`public: unsigned short __thiscall icu_53::CollationData::getFCD16(int)const ` | 1852 | Exported Function
-`public: virtual __int64 __thiscall icu_53::RegexMatcher::end64(int,enum UErrorCode &)const ` | 1415 | Exported Function
-`public: virtual __int64 __thiscall icu_53::RegexMatcher::end64(enum UErrorCode &)const ` | 1414 | Exported Function
-`public: unsigned short const * __thiscall icu_53::CollationFastLatinBuilder::getTable(void)const ` | 2251 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationWeights::nextWeight(void)` | 2697 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getSecondaryBefore(unsigned int,unsigned int)const ` | 2133 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getSecondaryAfter(int,unsigned int)const ` | 2132 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getPrimaryBefore(unsigned int,signed char)const ` | 2085 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getSecondaryBoundary(void)const ` | 2134 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getTertiaryBoundary(void)const ` | 2259 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getTertiaryBefore(unsigned int,unsigned int,unsigned int)const ` | 2258 | Exported Function
-`public: unsigned int __thiscall icu_53::CollationRootElements::getTertiaryAfter(int,unsigned int,unsigned int)const ` | 2257 | Exported Function
-`public: virtual __thiscall icu_53::RuleBasedNumberFormat::~RuleBasedNumberFormat(void)` | 399 | Exported Function
-`public: virtual __thiscall icu_53::RuleBasedCollator::~RuleBasedCollator(void)` | 398 | Exported Function
-`public: virtual __thiscall icu_53::RelativeDateTimeFormatter::~RelativeDateTimeFormatter(void)` | 397 | Exported Function
-`public: virtual __thiscall icu_53::RuleBasedTimeZone::~RuleBasedTimeZone(void)` | 400 | Exported Function
-`public: virtual __thiscall icu_53::SharedNumberFormat::~SharedNumberFormat(void)` | 404 | Exported Function
-`public: virtual __thiscall icu_53::SelectFormat::~SelectFormat(void)` | 403 | Exported Function
-`public: virtual __thiscall icu_53::SearchIterator::~SearchIterator(void)` | 402 | Exported Function
-`public: virtual __thiscall icu_53::Region::~Region(void)` | 396 | Exported Function
-`public: virtual __thiscall icu_53::PluralFormat::PluralSelectorAdapter::~PluralSelectorAdapter(void)` | 391 | Exported Function
-`public: virtual __thiscall icu_53::PluralFormat::PluralSelector::~PluralSelector(void)` | 390 | Exported Function
-`public: virtual __thiscall icu_53::PluralAvailableLocalesEnumeration::~PluralAvailableLocalesEnumeration(void)` | 387 | Exported Function
-`public: virtual __thiscall icu_53::PluralFormat::~PluralFormat(void)` | 388 | Exported Function
-`public: virtual __thiscall icu_53::RegexPattern::~RegexPattern(void)` | 395 | Exported Function
-`public: virtual __thiscall icu_53::RegexMatcher::~RegexMatcher(void)` | 394 | Exported Function
-`public: virtual __thiscall icu_53::PluralRules::~PluralRules(void)` | 389 | Exported Function
-`public: virtual __thiscall icu_53::TimeZone::~TimeZone(void)` | 416 | Exported Function
-`public: virtual __thiscall icu_53::TimeUnitFormat::~TimeUnitFormat(void)` | 415 | Exported Function
-`public: virtual __thiscall icu_53::TimeUnitAmount::~TimeUnitAmount(void)` | 414 | Exported Function
-`public: virtual __thiscall icu_53::TimeZoneFormat::~TimeZoneFormat(void)` | 417 | Exported Function
-`public: virtual __thiscall icu_53::TimeZoneNames::~TimeZoneNames(void)` | 419 | Exported Function
-`public: virtual __thiscall icu_53::TimeZoneNames::MatchInfoCollection::~MatchInfoCollection(void)` | 378 | Exported Function
-`public: virtual __thiscall icu_53::TimeZoneGenericNames::~TimeZoneGenericNames(void)` | 418 | Exported Function
-`public: virtual __thiscall icu_53::TimeUnit::~TimeUnit(void)` | 413 | Exported Function
-`public: virtual __thiscall icu_53::SimpleNumberFormatFactory::~SimpleNumberFormatFactory(void)` | 407 | Exported Function
-`public: virtual __thiscall icu_53::SimpleDateFormat::~SimpleDateFormat(void)` | 406 | Exported Function
-`public: virtual __thiscall icu_53::SharedPluralRules::~SharedPluralRules(void)` | 405 | Exported Function
-`public: virtual __thiscall icu_53::SimpleTimeZone::~SimpleTimeZone(void)` | 408 | Exported Function
-`public: virtual __thiscall icu_53::TimeArrayTimeZoneRule::~TimeArrayTimeZoneRule(void)` | 412 | Exported Function
-`public: virtual __thiscall icu_53::TextTrieMap::~TextTrieMap(void)` | 411 | Exported Function
-`public: virtual __thiscall icu_53::StringSearch::~StringSearch(void)` | 410 | Exported Function
-`public: virtual __thiscall icu_53::OlsonTimeZone::~OlsonTimeZone(void)` | 386 | Exported Function
-`public: virtual __thiscall icu_53::FieldPosition::~FieldPosition(void)` | 365 | Exported Function
-`public: virtual __thiscall icu_53::FCDUTF8CollationIterator::~FCDUTF8CollationIterator(void)` | 364 | Exported Function
-`public: virtual __thiscall icu_53::FCDUTF16CollationIterator::~FCDUTF16CollationIterator(void)` | 363 | Exported Function
-`public: virtual __thiscall icu_53::FieldPositionIterator::~FieldPositionIterator(void)` | 366 | Exported Function
-`public: virtual __thiscall icu_53::GenderInfo::~GenderInfo(void)` | 369 | Exported Function
-`public: virtual __thiscall icu_53::Formattable::~Formattable(void)` | 368 | Exported Function
-`public: virtual __thiscall icu_53::Format::~Format(void)` | 367 | Exported Function
-`public: virtual __thiscall icu_53::FCDUIterCollationIterator::~FCDUIterCollationIterator(void)` | 362 | Exported Function
-`public: virtual __thiscall icu_53::DateIntervalInfo::~DateIntervalInfo(void)` | 355 | Exported Function
-`public: virtual __thiscall icu_53::DateIntervalFormat::~DateIntervalFormat(void)` | 354 | Exported Function
-`public: virtual __thiscall icu_53::DateFormatSymbols::~DateFormatSymbols(void)` | 353 | Exported Function
-`public: virtual __thiscall icu_53::DateTimePatternGenerator::~DateTimePatternGenerator(void)` | 356 | Exported Function
-`public: virtual __thiscall icu_53::DecimalFormatSymbols::~DecimalFormatSymbols(void)` | 359 | Exported Function
-`public: virtual __thiscall icu_53::DecimalFormat::~DecimalFormat(void)` | 358 | Exported Function
-`public: virtual __thiscall icu_53::DateTimeRule::~DateTimeRule(void)` | 357 | Exported Function
-`public: virtual __thiscall icu_53::MessageFormat::PluralSelectorProvider::~PluralSelectorProvider(void)` | 392 | Exported Function
-`public: virtual __thiscall icu_53::MessageFormat::DummyFormat::~DummyFormat(void)` | 361 | Exported Function
-`public: virtual __thiscall icu_53::MeasureUnit::~MeasureUnit(void)` | 381 | Exported Function
-`public: virtual __thiscall icu_53::MessageFormat::~MessageFormat(void)` | 382 | Exported Function
-`public: virtual __thiscall icu_53::NumberingSystem::~NumberingSystem(void)` | 385 | Exported Function
-`public: virtual __thiscall icu_53::NumberFormatFactory::~NumberFormatFactory(void)` | 384 | Exported Function
-`public: virtual __thiscall icu_53::NumberFormat::~NumberFormat(void)` | 383 | Exported Function
-`public: virtual __thiscall icu_53::MeasureFormat::~MeasureFormat(void)` | 380 | Exported Function
-`public: virtual __thiscall icu_53::IdentifierInfo::~IdentifierInfo(void)` | 372 | Exported Function
-`public: virtual __thiscall icu_53::HebrewCalendar::~HebrewCalendar(void)` | 371 | Exported Function
-`public: virtual __thiscall icu_53::GregorianCalendar::~GregorianCalendar(void)` | 370 | Exported Function
-`public: virtual __thiscall icu_53::InitialTimeZoneRule::~InitialTimeZoneRule(void)` | 375 | Exported Function
-`public: virtual __thiscall icu_53::Measure::~Measure(void)` | 379 | Exported Function
-`public: virtual __thiscall icu_53::LocaleDisplayNames::~LocaleDisplayNames(void)` | 377 | Exported Function
-`public: virtual __thiscall icu_53::IslamicCalendar::~IslamicCalendar(void)` | 376 | Exported Function
-`public: static void * __cdecl icu_53::MeasureUnit::getStaticClassID(void)` | 2193 | Exported Function
-`public: static void * __cdecl icu_53::MeasureFormat::getStaticClassID(void)` | 2192 | Exported Function
-`public: static void * __cdecl icu_53::Measure::getStaticClassID(void)` | 2191 | Exported Function
-`public: static void * __cdecl icu_53::MessageFormat::getStaticClassID(void)` | 2194 | Exported Function
-`public: static void * __cdecl icu_53::NullTransliterator::getStaticClassID(void)` | 2197 | Exported Function
-`public: static void * __cdecl icu_53::NormalizationTransliterator::getStaticClassID(void)` | 2196 | Exported Function
-`public: static void * __cdecl icu_53::NameUnicodeTransliterator::getStaticClassID(void)` | 2195 | Exported Function
-`public: static void * __cdecl icu_53::LowercaseTransliterator::getStaticClassID(void)` | 2190 | Exported Function
-`public: static void * __cdecl icu_53::HebrewCalendar::getStaticClassID(void)` | 2185 | Exported Function
-`public: static void * __cdecl icu_53::GregorianCalendar::getStaticClassID(void)` | 2184 | Exported Function
-`public: static void * __cdecl icu_53::Formattable::getStaticClassID(void)` | 2183 | Exported Function
-`public: static void * __cdecl icu_53::IndianCalendar::getStaticClassID(void)` | 2186 | Exported Function
-`public: static void * __cdecl icu_53::JapaneseCalendar::getStaticClassID(void)` | 2189 | Exported Function
-`public: static void * __cdecl icu_53::IslamicCalendar::getStaticClassID(void)` | 2188 | Exported Function
-`public: static void * __cdecl icu_53::InitialTimeZoneRule::getStaticClassID(void)` | 2187 | Exported Function
-`public: static void * __cdecl icu_53::RuleBasedCollator::getStaticClassID(void)` | 2208 | Exported Function
-`public: static void * __cdecl icu_53::RemoveTransliterator::getStaticClassID(void)` | 2207 | Exported Function
-`public: static void * __cdecl icu_53::RelativeDateFormat::getStaticClassID(void)` | 2206 | Exported Function
-`public: static void * __cdecl icu_53::RuleBasedNumberFormat::getStaticClassID(void)` | 2209 | Exported Function
-`public: static void * __cdecl icu_53::SelectFormat::getStaticClassID(void)` | 2212 | Exported Function
-`public: static void * __cdecl icu_53::RuleBasedTransliterator::getStaticClassID(void)` | 2211 | Exported Function
-`public: static void * __cdecl icu_53::RuleBasedTimeZone::getStaticClassID(void)` | 2210 | Exported Function
-`public: static void * __cdecl icu_53::RegexPattern::getStaticClassID(void)` | 2205 | Exported Function
-`public: static void * __cdecl icu_53::OlsonTimeZone::getStaticClassID(void)` | 2200 | Exported Function
-`public: static void * __cdecl icu_53::NumberingSystem::getStaticClassID(void)` | 2199 | Exported Function
-`public: static void * __cdecl icu_53::NumberFormat::getStaticClassID(void)` | 2198 | Exported Function
-`public: static void * __cdecl icu_53::PersianCalendar::getStaticClassID(void)` | 2201 | Exported Function
-`public: static void * __cdecl icu_53::RegexMatcher::getStaticClassID(void)` | 2204 | Exported Function
-`public: static void * __cdecl icu_53::PluralRules::getStaticClassID(void)` | 2203 | Exported Function
-`public: static void * __cdecl icu_53::PluralFormat::getStaticClassID(void)` | 2202 | Exported Function
-`public: static void * __cdecl icu_53::FieldPosition::getStaticClassID(void)` | 2182 | Exported Function
-`public: static void * __cdecl icu_53::ChoiceFormat::getStaticClassID(void)` | 2163 | Exported Function
-`public: static void * __cdecl icu_53::ChineseCalendar::getStaticClassID(void)` | 2162 | Exported Function
-`public: static void * __cdecl icu_53::CaseMapTransliterator::getStaticClassID(void)` | 2161 | Exported Function
-`public: static void * __cdecl icu_53::CollationElementIterator::getStaticClassID(void)` | 2164 | Exported Function
-`public: static void * __cdecl icu_53::CompoundTransliterator::getStaticClassID(void)` | 2167 | Exported Function
-`public: static void * __cdecl icu_53::CompactDecimalFormat::getStaticClassID(void)` | 2166 | Exported Function
-`public: static void * __cdecl icu_53::CollationKey::getStaticClassID(void)` | 2165 | Exported Function
-`public: static void * __cdecl icu_53::BuddhistCalendar::getStaticClassID(void)` | 2160 | Exported Function
-`public: static unsigned int const icu_53::CollationRootElements::SEC_TER_DELTA_FLAG` | 870 | Exported Function
-`public: static unsigned int const icu_53::CollationRootElements::PRIMARY_SENTINEL` | 848 | Exported Function
-`public: static unsigned int const icu_53::CollationFastLatin::TWO_TERTIARIES_MASK` | 908 | Exported Function
-`public: static unsigned short const icu_53::CollationFastLatin::VERSION` | 914 | Exported Function
-`public: static void * __cdecl icu_53::BreakTransliterator::getStaticClassID(void)` | 2159 | Exported Function
-`public: static void * __cdecl icu_53::AnyTransliterator::getStaticClassID(void)` | 2158 | Exported Function
-`public: static void * __cdecl icu_53::AnnualTimeZoneRule::getStaticClassID(void)` | 2157 | Exported Function
-`public: static void * __cdecl icu_53::DecimalFormat::getStaticClassID(void)` | 2178 | Exported Function
-`public: static void * __cdecl icu_53::DateTimeRule::getStaticClassID(void)` | 2177 | Exported Function
-`public: static void * __cdecl icu_53::DateTimePatternGenerator::getStaticClassID(void)` | 2176 | Exported Function
-`public: static void * __cdecl icu_53::DecimalFormatSymbols::getStaticClassID(void)` | 2179 | Exported Function
-`public: static void * __cdecl icu_53::EthiopicCalendar::getStaticClassID(void)` | 2181 | Exported Function
-`public: static void * __cdecl icu_53::EscapeTransliterator::getStaticClassID(void)` | 2180 | Exported Function
-`public: static void * __cdecl icu_53::DigitList::operator new(unsigned int,void *,enum icu_53::EStackMode)` | 429 | Exported Function
-`public: static void * __cdecl icu_53::DateIntervalInfo::getStaticClassID(void)` | 2175 | Exported Function
-`public: static void * __cdecl icu_53::CurrencyPluralInfo::getStaticClassID(void)` | 2170 | Exported Function
-`public: static void * __cdecl icu_53::CurrencyAmount::getStaticClassID(void)` | 2169 | Exported Function
-`public: static void * __cdecl icu_53::CopticCalendar::getStaticClassID(void)` | 2168 | Exported Function
-`public: static void * __cdecl icu_53::CurrencyUnit::getStaticClassID(void)` | 2171 | Exported Function
-`public: static void * __cdecl icu_53::DateIntervalFormat::getStaticClassID(void)` | 2174 | Exported Function
-`public: static void * __cdecl icu_53::DateFormatSymbols::getStaticClassID(void)` | 2173 | Exported Function
-`public: static void * __cdecl icu_53::DangiCalendar::getStaticClassID(void)` | 2172 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::ZoneMeta::getShortID(class icu_53::UnicodeString const &)` | 2138 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::ZoneMeta::getShortID(class icu_53::TimeZone const &)` | 2137 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::ZoneMeta::getCanonicalCLDRID(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1705 | Exported Function
-`public: static wchar_t const * const icu_53::CompoundTransliterator::PASS_STRING` | 841 | Exported Function
-`public: struct decNumber * __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::getAlias(void)const ` | 1619 | Exported Function
-`public: static wchar_t const icu_53::CollationRuleParser::POS_LEAD` | 844 | Exported Function
-`public: static wchar_t const icu_53::CollationRuleParser::POS_BASE` | 843 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::ZoneMeta::getCanonicalCLDRID(class icu_53::TimeZone const &)` | 1704 | Exported Function
-`public: static void const * __cdecl icu_53::NumberFormat::registerFactory(class icu_53::NumberFormatFactory *,enum UErrorCode &)` | 2839 | Exported Function
-`public: static void const * __cdecl icu_53::Collator::registerInstance(class icu_53::Collator *,class icu_53::Locale const &,enum UErrorCode &)` | 2841 | Exported Function
-`public: static void const * __cdecl icu_53::Collator::registerFactory(class icu_53::CollatorFactory *,enum UErrorCode &)` | 2838 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::DateFormatSymbols::getPatternUChars(void)` | 2070 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::ZoneMeta::findTimeZoneID(class icu_53::UnicodeString const &)` | 1467 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::ZoneMeta::findMetaZoneID(class icu_53::UnicodeString const &)` | 1451 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::TimeZone::getRegion(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2101 | Exported Function
-`public: struct UHashtable const * __thiscall icu_53::IdentifierInfo::getAlternates(void)const ` | 1624 | Exported Function
-`public: struct UCollator const * __thiscall icu_53::Collator::toUCollator(void)const ` | 3240 | Exported Function
-`public: struct UCollator * __thiscall icu_53::Collator::toUCollator(void)` | 3239 | Exported Function
-`public: unsigned char * __thiscall icu_53::RuleBasedCollator::cloneRuleData(int &,enum UErrorCode &)const ` | 1147 | Exported Function
-`public: unsigned char const * __thiscall icu_53::CollationKey::getByteArray(int &)const ` | 1683 | Exported Function
-`public: unsigned char __thiscall icu_53::DigitList::getDigitValue(int)` | 1776 | Exported Function
-`public: unsigned char __thiscall icu_53::Calendar::getMinimalDaysInFirstWeek(void)const ` | 1991 | Exported Function
-`public: struct UCollationElements const * __thiscall icu_53::CollationElementIterator::toUCollationElements(void)const ` | 3238 | Exported Function
-`public: struct icu_53::CollationDataReader & __thiscall icu_53::CollationDataReader::operator=(struct icu_53::CollationDataReader const &)` | 445 | Exported Function
-`public: struct decNumber * __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::resize(int,int)` | 2882 | Exported Function
-`public: struct decNumber * __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::orphanOrClone(int,int &)` | 2715 | Exported Function
-`public: struct icu_53::CollationSettings & __thiscall icu_53::CollationSettings::operator=(struct icu_53::CollationSettings const &)` | 454 | Exported Function
-`public: struct UCollationElements * __thiscall icu_53::CollationElementIterator::toUCollationElements(void)` | 3237 | Exported Function
-`public: struct icu_53::CollationTailoring * __thiscall icu_53::CollationBuilder::parseAndBuild(class icu_53::UnicodeString const &,unsigned char const * const,class icu_53::CollationRuleParser::Importer *,struct UParseError *,enum UErrorCode &)` | 2738 | Exported Function
-`public: struct icu_53::CollationTailoring & __thiscall icu_53::CollationTailoring::operator=(struct icu_53::CollationTailoring const &)` | 455 | Exported Function
-`public: static void const * __cdecl icu_53::Calendar::registerFactory(class icu_53::ICUServiceFactory *,enum UErrorCode &)` | 2837 | Exported Function
-`public: static void * __cdecl icu_53::TimeZoneTransition::getStaticClassID(void)` | 2223 | Exported Function
-`public: static void * __cdecl icu_53::TimeZoneFormat::getStaticClassID(void)` | 2222 | Exported Function
-`public: static void * __cdecl icu_53::TimeZone::getStaticClassID(void)` | 2221 | Exported Function
-`public: static void * __cdecl icu_53::TitlecaseTransliterator::getStaticClassID(void)` | 2224 | Exported Function
-`public: static void * __cdecl icu_53::UnicodeNameTransliterator::getStaticClassID(void)` | 2227 | Exported Function
-`public: static void * __cdecl icu_53::UnescapeTransliterator::getStaticClassID(void)` | 2226 | Exported Function
-`public: static void * __cdecl icu_53::Transliterator::getStaticClassID(void)` | 2225 | Exported Function
-`public: static void * __cdecl icu_53::TimeUnitFormat::getStaticClassID(void)` | 2220 | Exported Function
-`public: static void * __cdecl icu_53::StringSearch::getStaticClassID(void)` | 2215 | Exported Function
-`public: static void * __cdecl icu_53::SimpleTimeZone::getStaticClassID(void)` | 2214 | Exported Function
-`public: static void * __cdecl icu_53::SimpleDateFormat::getStaticClassID(void)` | 2213 | Exported Function
-`public: static void * __cdecl icu_53::TaiwanCalendar::getStaticClassID(void)` | 2216 | Exported Function
-`public: static void * __cdecl icu_53::TimeUnitAmount::getStaticClassID(void)` | 2219 | Exported Function
-`public: static void * __cdecl icu_53::TimeUnit::getStaticClassID(void)` | 2218 | Exported Function
-`public: static void * __cdecl icu_53::TimeArrayTimeZoneRule::getStaticClassID(void)` | 2217 | Exported Function
-`public: static void __cdecl icu_53::TimeZone::setDefault(class icu_53::TimeZone const &)` | 2984 | Exported Function
-`public: static void __cdecl icu_53::TimeZone::adoptDefault(class icu_53::TimeZone *)` | 987 | Exported Function
-`public: static void __cdecl icu_53::Region::cleanupRegionData(void)` | 1087 | Exported Function
-`public: static void __cdecl icu_53::Transliterator::registerAlias(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 2836 | Exported Function
-`public: static void __cdecl icu_53::Transliterator::unregister(class icu_53::UnicodeString const &)` | 3263 | Exported Function
-`public: static void __cdecl icu_53::Transliterator::registerInstance(class icu_53::Transliterator *)` | 2842 | Exported Function
-`public: static void __cdecl icu_53::Transliterator::registerFactory(class icu_53::UnicodeString const &,class icu_53::Transliterator * (__cdecl*)(class icu_53::UnicodeString const &,union icu_53::Transliterator::Token),union icu_53::Transliterator::Token)` | 2840 | Exported Function
-`public: static void __cdecl icu_53::DigitList::operator delete(void *,void *,enum icu_53::EStackMode)` | 430 | Exported Function
-`public: static void * __cdecl icu_53::Win32DateFormat::getStaticClassID(void)` | 2230 | Exported Function
-`public: static void * __cdecl icu_53::VTimeZone::getStaticClassID(void)` | 2229 | Exported Function
-`public: static void * __cdecl icu_53::UppercaseTransliterator::getStaticClassID(void)` | 2228 | Exported Function
-`public: static void * __cdecl icu_53::Win32NumberFormat::getStaticClassID(void)` | 2231 | Exported Function
-`public: static void __cdecl icu_53::CollationTailoring::makeBaseVersion(unsigned char const * const,unsigned char * const)` | 2627 | Exported Function
-`public: static void __cdecl icu_53::CollationKeys::writeSortKeyUpToQuaternary(class icu_53::CollationIterator &,signed char const *,struct icu_53::CollationSettings const &,class icu_53::SortKeyByteSink &,enum icu_53::Collation::Level,class icu_53::CollationKeys::LevelCallback &,signed char,enum UErrorCode &)` | 3300 | Exported Function
-`public: static void __cdecl icu_53::CollationDataReader::read(struct icu_53::CollationTailoring const *,unsigned char const *,int,struct icu_53::CollationTailoring &,enum UErrorCode &)` | 2822 | Exported Function
+`FieldPosition` | 1560 | Exported Function
+`FieldPosition` | 1559 | Exported Function
+`FieldPosition` | 1553 | Exported Function
+`FieldPositionIterator` | 1561 | Exported Function
+`FieldPosition` | 1562 | Exported Function
+`UnicodeString` | 3231 | Exported Function
+`UnicodeString` | 3224 | Exported Function
+`FieldPosition` | 1552 | Exported Function
+`UnicodeString` | 1025 | Exported Function
+`FieldPosition` | 1548 | Exported Function
+`FieldPositionIterator` | 1537 | Exported Function
+`FieldPosition` | 1556 | Exported Function
+`FieldPosition` | 1555 | Exported Function
+`FieldPosition` | 1554 | Exported Function
+`FieldPosition` | 1557 | Exported Function
+`UnicodeString` | 2847 | Exported Function
+`group` | 2318 | Exported Function
+`group` | 2317 | Exported Function
+`UnicodeString` | 2851 | Exported Function
+`getRules` | 2126 | Exported Function
+`getDefaultRuleSetName` | 1771 | Exported Function
+`pattern` | 2789 | Exported Function
+`select` | 2908 | Exported Function
+`UnicodeString` | 1851 | Exported Function
+`UnicodeString` | 1785 | Exported Function
+`UnicodeString` | 1563 | Exported Function
+`UnicodeString` | 3233 | Exported Function
+`getDescription` | 1773 | Exported Function
+`select` | 2909 | Exported Function
+`getPadCharacterString` | 2064 | Exported Function
+`FieldPosition` | 1536 | Exported Function
+`FieldPositionIterator` | 1509 | Exported Function
+`FieldPosition` | 1508 | Exported Function
+`FieldPosition` | 1507 | Exported Function
+`UnicodeString` | 3223 | Exported Function
+`FieldPosition` | 1521 | Exported Function
+`FieldPositionIterator` | 1520 | Exported Function
+`UnicodeString` | 3227 | Exported Function
+`FieldPositionIterator` | 1512 | Exported Function
+`FieldPosition` | 1504 | Exported Function
+`FieldPositionIterator` | 1515 | Exported Function
+`FieldPosition` | 1514 | Exported Function
+`FieldPositionIterator` | 1505 | Exported Function
+`FieldPosition` | 1511 | Exported Function
+`FieldPosition` | 1510 | Exported Function
+`FieldPositionIterator` | 1506 | Exported Function
+`FieldPosition` | 1533 | Exported Function
+`FieldPositionIterator` | 1532 | Exported Function
+`FieldPosition` | 1531 | Exported Function
+`FieldPositionIterator` | 1534 | Exported Function
+`FieldPositionIterator` | 1539 | Exported Function
+`FieldPosition` | 1538 | Exported Function
+`FieldPositionIterator` | 1535 | Exported Function
+`FieldPositionIterator` | 1542 | Exported Function
+`UnicodeString` | 1517 | Exported Function
+`FieldPositionIterator` | 1518 | Exported Function
+`FieldPosition` | 1516 | Exported Function
+`FieldPosition` | 1527 | Exported Function
+`FieldPosition` | 1541 | Exported Function
+`FieldPosition` | 1540 | Exported Function
+`UnicodeString` | 3228 | Exported Function
+`getMaxVariable` | 1980 | Exported Function
+`getMaxVariable` | 1979 | Exported Function
+`internalCompareUTF8` | 2484 | Exported Function
+`getContext` | 1732 | Exported Function
+`UnicodeString` | 1677 | Exported Function
+`getBucketCount` | 1675 | Exported Function
+`getContext` | 1733 | Exported Function
+`StringPiece` | 1169 | Exported Function
+`internalCompareUTF8` | 2483 | Exported Function
+`StringPiece` | 1168 | Exported Function
+`compare` | 1153 | Exported Function
+`UnicodeString` | 1156 | Exported Function
+`compare` | 1158 | Exported Function
+`compare` | 1155 | Exported Function
+`UnicodeString` | 1157 | Exported Function
+`EDateFields` | 1940 | Exported Function
+`getGreatestMinimum` | 1892 | Exported Function
+`EDateFields` | 1891 | Exported Function
+`getLeastMaximum` | 1941 | Exported Function
+`EDateFields` | 1992 | Exported Function
+`getMaximum` | 1982 | Exported Function
+`EDateFields` | 1981 | Exported Function
+`getActualMinimum` | 1615 | Exported Function
+`getMaxLabelCount` | 1977 | Exported Function
+`getBucketRecordCount` | 1682 | Exported Function
+`getBucketIndex` | 1678 | Exported Function
+`getRecordCount` | 2095 | Exported Function
+`getActualMaximum` | 1612 | Exported Function
+`fieldDifference` | 1439 | Exported Function
+`EDateFields` | 1438 | Exported Function
+`getAttribute` | 1641 | Exported Function
+`getFormats` | 1880 | Exported Function
+`getID` | 1903 | Exported Function
+`input` | 2475 | Exported Function
+`getSupportedIDs` | 2247 | Exported Function
+`clone` | 1122 | Exported Function
+`clone` | 1109 | Exported Function
+`clone` | 1107 | Exported Function
+`getUnderflowLabel` | 2301 | Exported Function
+`getRuleSetName` | 2121 | Exported Function
+`Locale` | 2119 | Exported Function
+`Locale` | 2118 | Exported Function
+`getBucketLabel` | 1680 | Exported Function
+`getRecordName` | 2097 | Exported Function
+`getOverflowLabel` | 2063 | Exported Function
+`getInflowLabel` | 1913 | Exported Function
+`compare` | 1152 | Exported Function
+`UnicodeString` | 1151 | Exported Function
+`UnicodeString` | 1150 | Exported Function
+`getPadPosition` | 2065 | Exported Function
+`getDayOfWeekType` | 1757 | Exported Function
+`getBucketLabelType` | 1681 | Exported Function
+`getRoundingMode` | 2111 | Exported Function
+`getStrength` | 2234 | Exported Function
+`clone` | 1139 | Exported Function
+`clone` | 1138 | Exported Function
+`clone` | 1124 | Exported Function
+`UnicodeString` | 2723 | Exported Function
+`getLimits` | 1944 | Exported Function
+`defaultCenturyStart` | 1362 | Exported Function
+`getRoundingIncrement` | 2110 | Exported Function
+`setBooleanAttribute` | 2942 | Exported Function
+`getCurrencyPluralInfo` | 1739 | Exported Function
+`ParsePosition` | 2743 | Exported Function
+`getDateFormatSymbols` | 1752 | Exported Function
+`getDecimalFormatSymbols` | 1761 | Exported Function
+`setAttribute` | 2935 | Exported Function
+`clone` | 1111 | Exported Function
+`ParsePosition` | 2742 | Exported Function
+`setMaxVariable` | 3058 | Exported Function
+`CollationKey` | 1719 | Exported Function
+`CollationKey` | 1718 | Exported Function
+`setMaxVariable` | 3059 | Exported Function
+`ParsePosition` | 2741 | Exported Function
+`clone` | 1130 | Exported Function
+`safeClone` | 2898 | Exported Function
+`clone` | 1133 | Exported Function
+`clone` | 1131 | Exported Function
+`clone` | 1127 | Exported Function
+`clone` | 1134 | Exported Function
+`getFormats` | 1881 | Exported Function
+`clone` | 1141 | Exported Function
+`clone` | 1140 | Exported Function
+`UnicodeString` | 1877 | Exported Function
+`clone` | 1110 | Exported Function
+`clone` | 1105 | Exported Function
+`clone` | 1104 | Exported Function
+`clone` | 1114 | Exported Function
+`clone` | 1115 | Exported Function
+`clone` | 1125 | Exported Function
+`clone` | 1123 | Exported Function
+`UnicodeString` | 1245 | Exported Function
+`getType` | 2295 | Exported Function
+`getType` | 2294 | Exported Function
+`getType` | 2292 | Exported Function
+`getType` | 2296 | Exported Function
+`UnicodeSet` | 958 | Exported Function
+`Locale` | 957 | Exported Function
+`next` | 2674 | Exported Function
+`VTimeZone` | 427 | Exported Function
+`Transliterator` | 422 | Exported Function
+`TimeZoneTransition` | 421 | Exported Function
+`TimeZoneRule` | 420 | Exported Function
+`UIterCollationIterator` | 423 | Exported Function
+`UTF8CollationIterator` | 425 | Exported Function
+`UTF16CollationIterator` | 424 | Exported Function
+`UnicodeReplacer` | 426 | Exported Function
+`clone` | 1118 | Exported Function
+`clone` | 1103 | Exported Function
+`clone` | 1102 | Exported Function
+`clone` | 1119 | Exported Function
+`CharacterIterator` | 1244 | Exported Function
+`getCalendar` | 1702 | Exported Function
+`clone` | 1121 | Exported Function
+`UnicodeString` | 3160 | Exported Function
+`resetBucketIterator` | 2869 | Exported Function
+`clearRecords` | 1099 | Exported Function
+`UnicodeString` | 964 | Exported Function
+`resetRecordIterator` | 2873 | Exported Function
+`UnicodeString` | 3087 | Exported Function
+`setMaxLabelCount` | 3056 | Exported Function
+`UnicodeString` | 3027 | Exported Function
+`getTailoredSet` | 2253 | Exported Function
+`getTailoredSet` | 2252 | Exported Function
+`UnicodeSet` | 2255 | Exported Function
+`FieldPosition` | 1487 | Exported Function
+`FieldPosition` | 1484 | Exported Function
+`FieldPosition` | 1485 | Exported Function
+`FieldPosition` | 1486 | Exported Function
+`UnicodeSet` | 2254 | Exported Function
+`getTimeZoneFormat` | 2278 | Exported Function
+`getTimeZone` | 2277 | Exported Function
+`getTimeZone` | 2276 | Exported Function
+`clone` | 1142 | Exported Function
+`getTransliterator` | 2291 | Exported Function
+`clone` | 1144 | Exported Function
+`clone` | 1106 | Exported Function
+`FieldPositionIterator` | 1498 | Exported Function
+`UnicodeString` | 3232 | Exported Function
+`FieldPositionIterator` | 1492 | Exported Function
+`FieldPosition` | 1499 | Exported Function
+`FieldPosition` | 1513 | Exported Function
+`FieldPosition` | 1503 | Exported Function
+`FieldPositionIterator` | 1500 | Exported Function
+`FieldPosition` | 1491 | Exported Function
+`FieldPosition` | 1493 | Exported Function
+`UnicodeString` | 1779 | Exported Function
+`UnicodeString` | 3225 | Exported Function
+`FieldPositionIterator` | 1494 | Exported Function
+`FieldPositionIterator` | 1490 | Exported Function
+`FieldPositionIterator` | 1489 | Exported Function
+`FieldPosition` | 1488 | Exported Function
+`clone` | 1145 | Exported Function
+`region` | 2830 | Exported Function
+`refreshInputText` | 2829 | Exported Function
+`appendReplacement` | 1024 | Exported Function
+`region` | 2831 | Exported Function
+`reset` | 2862 | Exported Function
+`UnicodeString` | 2861 | Exported Function
+`reset` | 2864 | Exported Function
+`UnicodeString` | 1023 | Exported Function
+`clone` | 1120 | Exported Function
+`UnicodeString` | 2727 | Exported Function
+`ParsePosition` | 2728 | Exported Function
+`getLocale` | 1959 | Exported Function
+`getNumberFormat` | 2024 | Exported Function
+`getLocale` | 1958 | Exported Function
+`getRuleSetDisplayNameLocale` | 2120 | Exported Function
+`clone` | 1137 | Exported Function
+`getFormatNames` | 1878 | Exported Function
+`safeClone` | 2899 | Exported Function
+`clone` | 1126 | Exported Function
+`ParsePosition` | 2733 | Exported Function
+`clone` | 1135 | Exported Function
+`clone` | 1132 | Exported Function
+`getCollator` | 1720 | Exported Function
+`useTransparentBounds` | 3271 | Exported Function
+`useAnchoringBounds` | 3266 | Exported Function
+`reset` | 2863 | Exported Function
+`UnicodeString` | 2650 | Exported Function
+`pattern` | 2788 | Exported Function
+`clone` | 1129 | Exported Function
+`matcher` | 2649 | Exported Function
+`useDaylightTime` | 3269 | Exported Function
+`TimeZone` | 578 | Exported Function
+`inDaylightTime` | 2408 | Exported Function
+`SearchIterator` | 579 | Exported Function
+`getNextStart` | 2017 | Exported Function
+`getFirstStart` | 1871 | Exported Function
+`getFinalStart` | 1861 | Exported Function
+`TimeZone` | 2384 | Exported Function
+`Format` | 576 | Exported Function
+`Format` | 618 | Exported Function
+`SearchIterator` | 575 | Exported Function
+`Format` | 577 | Exported Function
+`TimeZoneTransition` | 2081 | Exported Function
+`TimeZoneTransition` | 2020 | Exported Function
+`visible` | 3280 | Exported Function
+`TimeZoneRule` | 2541 | Exported Function
+`TimeZoneGenericNames` | 584 | Exported Function
+`TimeZoneGenericNames` | 623 | Exported Function
+`TimeZoneRule` | 625 | Exported Function
+`TimeZoneTransition` | 2021 | Exported Function
+`CollationIterator` | 587 | Exported Function
+`TimeZoneRule` | 585 | Exported Function
+`Format` | 583 | Exported Function
+`TimeZoneRule` | 619 | Exported Function
+`TimeZoneRule` | 2540 | Exported Function
+`getPreviousStart` | 2078 | Exported Function
+`TimeZoneRule` | 580 | Exported Function
+`TimeZone` | 582 | Exported Function
+`TimeZone` | 2385 | Exported Function
+`UObject` | 581 | Exported Function
+`useDaylightTime` | 3268 | Exported Function
+`PluralRules` | 568 | Exported Function
+`Format` | 567 | Exported Function
+`Format` | 612 | Exported Function
+`find` | 1445 | Exported Function
+`hasTransparentBounds` | 2388 | Exported Function
+`hasAnchoringBounds` | 2375 | Exported Function
+`find` | 1444 | Exported Function
+`useDaylightTime` | 3267 | Exported Function
+`TimeZoneTransition` | 2018 | Exported Function
+`Format` | 565 | Exported Function
+`isLenient` | 2557 | Exported Function
+`TimeZoneTransition` | 2079 | Exported Function
+`TimeZone` | 566 | Exported Function
+`inDaylightTime` | 2406 | Exported Function
+`TimeZone` | 2382 | Exported Function
+`TimeZoneTransition` | 2080 | Exported Function
+`TimeZoneTransition` | 2019 | Exported Function
+`Format` | 572 | Exported Function
+`TimeZone` | 2383 | Exported Function
+`TimeZone` | 573 | Exported Function
+`TimeZone` | 616 | Exported Function
+`inDaylightTime` | 2407 | Exported Function
+`isLenient` | 2558 | Exported Function
+`lookingAt` | 2620 | Exported Function
+`lookingAt` | 2621 | Exported Function
+`hitEnd` | 2398 | Exported Function
+`matches` | 2653 | Exported Function
+`Collator` | 571 | Exported Function
+`requireEnd` | 2853 | Exported Function
+`matches` | 2652 | Exported Function
+`getDynamicClassID` | 1810 | Exported Function
+`getDynamicClassID` | 1809 | Exported Function
+`getDynamicClassID` | 1808 | Exported Function
+`getDynamicClassID` | 1811 | Exported Function
+`getDynamicClassID` | 1814 | Exported Function
+`getDynamicClassID` | 1813 | Exported Function
+`getDynamicClassID` | 1812 | Exported Function
+`getDynamicClassID` | 1807 | Exported Function
+`getDynamicClassID` | 1802 | Exported Function
+`getDynamicClassID` | 1801 | Exported Function
+`getDynamicClassID` | 1800 | Exported Function
+`getDynamicClassID` | 1803 | Exported Function
+`getDynamicClassID` | 1806 | Exported Function
+`getDynamicClassID` | 1805 | Exported Function
+`getDynamicClassID` | 1804 | Exported Function
+`getDynamicClassID` | 1825 | Exported Function
+`getDynamicClassID` | 1824 | Exported Function
+`getDynamicClassID` | 1823 | Exported Function
+`getDynamicClassID` | 1826 | Exported Function
+`getDynamicClassID` | 1829 | Exported Function
+`getDynamicClassID` | 1828 | Exported Function
+`getDynamicClassID` | 1827 | Exported Function
+`getDynamicClassID` | 1822 | Exported Function
+`getDynamicClassID` | 1817 | Exported Function
+`getDynamicClassID` | 1816 | Exported Function
+`getDynamicClassID` | 1815 | Exported Function
+`getDynamicClassID` | 1818 | Exported Function
+`getDynamicClassID` | 1821 | Exported Function
+`getDynamicClassID` | 1820 | Exported Function
+`getDynamicClassID` | 1819 | Exported Function
+`getDynamicClassID` | 1799 | Exported Function
+`group` | 2319 | Exported Function
+`group` | 2320 | Exported Function
+`getInput` | 1914 | Exported Function
+`group` | 2321 | Exported Function
+`replaceFirst` | 2852 | Exported Function
+`replaceAll` | 2848 | Exported Function
+`inputText` | 2476 | Exported Function
+`appendTail` | 1026 | Exported Function
+`inDaylightTime` | 2409 | Exported Function
+`TimeZone` | 2386 | Exported Function
+`TimeZoneTransition` | 2082 | Exported Function
+`TimeZone` | 627 | Exported Function
+`getClosures` | 1717 | Exported Function
+`useDaylightTime` | 3270 | Exported Function
+`TimeZone` | 588 | Exported Function
+`getDynamicClassID` | 1794 | Exported Function
+`getDynamicClassID` | 1793 | Exported Function
+`getDynamicClassID` | 1792 | Exported Function
+`getDynamicClassID` | 1795 | Exported Function
+`getDynamicClassID` | 1798 | Exported Function
+`getDynamicClassID` | 1797 | Exported Function
+`getDynamicClassID` | 1796 | Exported Function
+`getDynamicClassID` | 1791 | Exported Function
+`encodeCEs` | 1405 | Exported Function
+`encodeCEs` | 1404 | Exported Function
+`patternText` | 2790 | Exported Function
+`flags` | 1477 | Exported Function
+`setVariableTop` | 3162 | Exported Function
+`UnicodeString` | 3161 | Exported Function
+`getVariableTop` | 2305 | Exported Function
+`UnicodeString` | 2149 | Exported Function
+`getReorderCodes` | 2106 | Exported Function
+`split` | 3187 | Exported Function
+`getSortKey` | 2150 | Exported Function
+`internalNextSortKeyPart` | 2501 | Exported Function
+`internalGetShortDefinitionString` | 2498 | Exported Function
+`hashCode` | 2391 | Exported Function
+`UnicodeString` | 3186 | Exported Function
+`regionStart` | 2835 | Exported Function
+`regionEnd` | 2833 | Exported Function
+`groupCount` | 2322 | Exported Function
+`UnicodeString` | 3184 | Exported Function
+`start` | 3192 | Exported Function
+`start` | 3191 | Exported Function
+`split` | 3185 | Exported Function
+`getOffset` | 2046 | Exported Function
+`getOffset` | 2045 | Exported Function
+`getOffset` | 2044 | Exported Function
+`getRawOffset` | 2092 | Exported Function
+`Replaceable` | 3247 | Exported Function
+`getDSTSavings` | 1745 | Exported Function
+`getOffset` | 2048 | Exported Function
+`getDSTSavings` | 1744 | Exported Function
+`countTransitionRules` | 1229 | Exported Function
+`getNumberOfRuleSetNames` | 2029 | Exported Function
+`getNumberOfRuleSetDisplayNameLocales` | 2028 | Exported Function
+`getOffset` | 2041 | Exported Function
+`countTransitionRules` | 1230 | Exported Function
+`getRawOffset` | 2091 | Exported Function
+`getOffset` | 2042 | Exported Function
+`getTimeLimit` | 2267 | Exported Function
+`nextCodePoint` | 2681 | Exported Function
+`getOffset` | 2034 | Exported Function
+`getFormatWidth` | 1879 | Exported Function
+`previousCodePoint` | 2801 | Exported Function
+`previousCodePoint` | 2802 | Exported Function
+`nextCodePoint` | 2682 | Exported Function
+`getOffset` | 2035 | Exported Function
+`getAttribute` | 1640 | Exported Function
+`getWeekendTransition` | 2310 | Exported Function
+`getRelatedYear` | 2103 | Exported Function
+`getMinimum` | 1993 | Exported Function
+`getReorderCodes` | 2105 | Exported Function
+`getCount` | 1734 | Exported Function
+`internalNextSortKeyPart` | 2500 | Exported Function
+`internalGetShortDefinitionString` | 2497 | Exported Function
+`getRawOffset` | 2090 | Exported Function
+`getOffset` | 2039 | Exported Function
+`getOffset` | 2038 | Exported Function
+`count` | 1217 | Exported Function
+`getStackLimit` | 2153 | Exported Function
+`end` | 1417 | Exported Function
+`end` | 1416 | Exported Function
+`getDSTSavings` | 1743 | Exported Function
+`previousCodePoint` | 2803 | Exported Function
+`nextCodePoint` | 2683 | Exported Function
+`getOffset` | 2036 | Exported Function
+`defaultCenturyStartYear` | 1366 | Exported Function
+`countTransitionRules` | 1228 | Exported Function
+`getActualMinimum` | 1618 | Exported Function
+`getActualMaximum` | 1613 | Exported Function
+`getMinimumExponentDigits` | 1994 | Exported Function
+`DateIntervalInfo` | 548 | Exported Function
+`Format` | 547 | Exported Function
+`isExponentSignAlwaysShown` | 2542 | Exported Function
+`CollationIterator` | 555 | Exported Function
+`Format` | 551 | Exported Function
+`isScientificNotation` | 2569 | Exported Function
+`Format` | 545 | Exported Function
+`Collator` | 542 | Exported Function
+`Collator` | 597 | Exported Function
+`CollationIterator` | 539 | Exported Function
+`visible` | 3279 | Exported Function
+`isLenient` | 2556 | Exported Function
+`isCalendarLenient` | 2521 | Exported Function
+`Format` | 543 | Exported Function
+`TimeZoneRule` | 560 | Exported Function
+`TimeZoneRule` | 610 | Exported Function
+`TimeZoneRule` | 2539 | Exported Function
+`Format` | 562 | Exported Function
+`Format` | 564 | Exported Function
+`Format` | 554 | Exported Function
+`UObject` | 563 | Exported Function
+`getPreviousStart` | 2077 | Exported Function
+`inDaylightTime` | 2403 | Exported Function
+`haveDefaultCentury` | 2395 | Exported Function
+`Format` | 558 | Exported Function
+`Calendar` | 2538 | Exported Function
+`getNextStart` | 2016 | Exported Function
+`getFirstStart` | 1870 | Exported Function
+`getFinalStart` | 1860 | Exported Function
+`isCompressibleLeadByte` | 2527 | Exported Function
+`getOffset` | 2053 | Exported Function
+`countTransitionRules` | 1231 | Exported Function
+`previousCodePoint` | 2806 | Exported Function
+`getOffset` | 2054 | Exported Function
+`nextBucket` | 2676 | Exported Function
+`getBooleanAttribute` | 1671 | Exported Function
+`getRawOffset` | 2094 | Exported Function
+`nextCodePoint` | 2686 | Exported Function
+`previousCodePoint` | 2804 | Exported Function
+`nextCodePoint` | 2684 | Exported Function
+`getOffset` | 2050 | Exported Function
+`getOffset` | 2051 | Exported Function
+`getOffset` | 2052 | Exported Function
+`previousCodePoint` | 2805 | Exported Function
+`nextCodePoint` | 2685 | Exported Function
+`isWeekend` | 2589 | Exported Function
+`Calendar` | 2537 | Exported Function
+`BasicTimeZone` | 2378 | Exported Function
+`isWeekend` | 2590 | Exported Function
+`isCompressibleLeadByte` | 2525 | Exported Function
+`Format` | 537 | Exported Function
+`Calendar` | 536 | Exported Function
+`TimeZoneRule` | 535 | Exported Function
+`getFirstStart` | 1869 | Exported Function
+`getFinalStart` | 1859 | Exported Function
+`nextRecord` | 2690 | Exported Function
+`getNextStart` | 2015 | Exported Function
+`TimeZoneRule` | 591 | Exported Function
+`TimeZoneRule` | 2536 | Exported Function
+`getPreviousStart` | 2076 | Exported Function
+`COMMON_TERTIARY_CE` | 764 | Exported Function
+`COMMON_SECONDARY_CE` | 760 | Exported Function
+`COMMON_SEC_AND_TER_CE` | 761 | Exported Function
+`COMMON_WEIGHT16` | 766 | Exported Function
+`CONTRACT_TRAILING_CCC` | 771 | Exported Function
+`CONTRACT_SINGLE_CP_NO_MATCH` | 770 | Exported Function
+`CONTRACT_NEXT_CCC` | 769 | Exported Function
+`CASE_MASK` | 751 | Exported Function
+`getTertiaryMask` | 2260 | Exported Function
+`readCE32` | 2823 | Exported Function
+`unassignedPrimaryFromCodePoint` | 3258 | Exported Function
+`getCurrentEra` | 1741 | Exported Function
+`CASE_LEVEL_FLAG` | 746 | Exported Function
+`CASE_AND_TERTIARY_MASK` | 741 | Exported Function
+`CASE_AND_QUATERNARY_MASK` | 740 | Exported Function
+`LEAD_TYPE_MASK` | 797 | Exported Function
+`LEAD_MIXED` | 796 | Exported Function
+`LEAD_ALL_UNASSIGNED` | 795 | Exported Function
+`MAX_PRIMARY` | 807 | Exported Function
+`MERGE_SEPARATOR_LOWER32` | 819 | Exported Function
+`MERGE_SEPARATOR_CE32` | 818 | Exported Function
+`MAX_REGULAR_CE32` | 808 | Exported Function
+`LEAD_ALL_FALLBACK` | 794 | Exported Function
+`FFFD_PRIMARY` | 778 | Exported Function
+`FFFD_CE32` | 777 | Exported Function
+`FALLBACK_CE32` | 776 | Exported Function
+`FIRST_TRAILING_PRIMARY` | 779 | Exported Function
+`IDENTICAL_LEVEL_FLAG` | 785 | Exported Function
+`HANGUL_NO_SPECIAL_JAMO` | 782 | Exported Function
+`FIRST_UNASSIGNED_PRIMARY` | 780 | Exported Function
+`reorder` | 2846 | Exported Function
+`LEVEL_SEPARATOR_BYTE` | 798 | Exported Function
+`COMMON_BYTE` | 758 | Exported Function
+`pointerToken` | 2793 | Exported Function
+`LONG_PRIMARY_CE32_LOW_BYTE` | 800 | Exported Function
+`PRIMARY_COMPRESSION_LOW_BYTE` | 846 | Exported Function
+`PRIMARY_COMPRESSION_HIGH_BYTE` | 845 | Exported Function
+`MERGE_SEPARATOR_BYTE` | 817 | Exported Function
+`integerToken` | 2479 | Exported Function
+`matches` | 2655 | Exported Function
+`UnicodeString` | 2654 | Exported Function
+`unregister` | 3262 | Exported Function
+`UnicodeString` | 2546 | Exported Function
+`getRoot` | 2109 | Exported Function
+`getSettings` | 2136 | Exported Function
+`getData` | 1747 | Exported Function
+`makeCE32FromTagAndIndex` | 2629 | Exported Function
+`incTwoBytePrimaryByOffset` | 2412 | Exported Function
+`incThreeBytePrimaryByOffset` | 2411 | Exported Function
+`makeCE32FromTagIndexAndLength` | 2630 | Exported Function
+`primaryFromLongPrimaryCE32` | 2812 | Exported Function
+`makeLongSecondaryCE32` | 2637 | Exported Function
+`makeLongPrimaryCE32` | 2636 | Exported Function
+`getThreeBytePrimaryForOffsetData` | 2262 | Exported Function
+`TRAIL_WEIGHT_BYTE` | 899 | Exported Function
+`TERMINATOR_BYTE` | 883 | Exported Function
+`SPECIAL_CE32_LOW_BYTE` | 874 | Exported Function
+`UNASSIGNED_IMPLICIT_BYTE` | 911 | Exported Function
+`decTwoBytePrimaryByOneStep` | 1356 | Exported Function
+`decThreeBytePrimaryByOneStep` | 1355 | Exported Function
+`PRIMARY_STEP_MASK` | 849 | Exported Function
+`MIN_SEC_AFTER` | 824 | Exported Function
+`MIN_LONG` | 823 | Exported Function
+`MERGE_WEIGHT` | 822 | Exported Function
+`MIN_SEC_BEFORE` | 825 | Exported Function
+`SEC_INC` | 868 | Exported Function
+`MIN_SHORT` | 827 | Exported Function
+`MIN_SEC_HIGH` | 826 | Exported Function
+`MAX_TER_AFTER` | 813 | Exported Function
+`MAX_LONG` | 806 | Exported Function
+`LOWER_CASE` | 802 | Exported Function
+`LONG_PRIMARY_MASK` | 801 | Exported Function
+`MAX_SEC_AFTER` | 809 | Exported Function
+`MAX_SHORT` | 812 | Exported Function
+`MAX_SEC_HIGH` | 811 | Exported Function
+`MAX_SEC_BEFORE` | 810 | Exported Function
+`TWO_LOWER_CASES` | 904 | Exported Function
+`TWO_LONG_PRIMARIES_MASK` | 903 | Exported Function
+`TWO_COMMON_TER_PLUS_OFFSET` | 902 | Exported Function
+`TWO_SEC_OFFSETS` | 906 | Exported Function
+`TWO_TER_OFFSETS` | 909 | Exported Function
+`TWO_SHORT_PRIMARIES_MASK` | 907 | Exported Function
+`TWO_SECONDARIES_MASK` | 905 | Exported Function
+`TWO_COMMON_SEC_PLUS_OFFSET` | 901 | Exported Function
+`SHORT_INC` | 872 | Exported Function
+`SECONDARY_MASK` | 863 | Exported Function
+`SEC_OFFSET` | 869 | Exported Function
+`SHORT_PRIMARY_MASK` | 873 | Exported Function
+`TWO_CASES_MASK` | 900 | Exported Function
+`TERTIARY_MASK` | 885 | Exported Function
+`TER_OFFSET` | 890 | Exported Function
+`LONG_INC` | 799 | Exported Function
+`QUATERNARY_MASK` | 853 | Exported Function
+`QUATERNARY_LEVEL_FLAG` | 852 | Exported Function
+`PRIMARY_LEVEL_FLAG` | 847 | Exported Function
+`SECONDARY_AND_CASE_MASK` | 860 | Exported Function
+`TERTIARY_LEVEL_FLAG` | 884 | Exported Function
+`SECONDARY_MASK` | 862 | Exported Function
+`SECONDARY_LEVEL_FLAG` | 861 | Exported Function
+`ONLY_TERTIARY_MASK` | 840 | Exported Function
+`NO_CE32` | 831 | Exported Function
+`MERGE_SEPARATOR_WEIGHT16` | 821 | Exported Function
+`MERGE_SEPARATOR_PRIMARY` | 820 | Exported Function
+`NO_CE_PRIMARY` | 833 | Exported Function
+`ONLY_SEC_TER_MASK` | 839 | Exported Function
+`NO_LEVEL_FLAG` | 835 | Exported Function
+`NO_CE_WEIGHT16` | 834 | Exported Function
+`CONTR_LENGTH_SHIFT` | 773 | Exported Function
+`CONTR_CHAR_MASK` | 772 | Exported Function
+`COMMON_TER_PLUS_OFFSET` | 765 | Exported Function
+`CONTRACTION` | 767 | Exported Function
+`INDEX_MASK` | 786 | Exported Function
+`EXPANSION` | 775 | Exported Function
+`EOS` | 774 | Exported Function
+`COMMON_TER` | 763 | Exported Function
+`BAIL_OUT` | 737 | Exported Function
+`ZERO_LEVEL_FLAG` | 916 | Exported Function
+`UNASSIGNED_CE32` | 910 | Exported Function
+`CASE_AND_TERTIARY_MASK` | 742 | Exported Function
+`COMMON_SEC_PLUS_OFFSET` | 762 | Exported Function
+`COMMON_SEC` | 759 | Exported Function
+`CASE_MASK` | 752 | Exported Function
+`getNow` | 2022 | Exported Function
+`BasicTimeZone` | 1347 | Exported Function
+`UnicodeString` | 1346 | Exported Function
+`SUMMER_SOLSTICE` | 880 | Exported Function
+`SYNODIC_MONTH` | 881 | Exported Function
+`PI` | 842 | Exported Function
+`WINTER_SOLSTICE` | 915 | Exported Function
+`UnicodeString` | 1345 | Exported Function
+`UnicodeString` | 1049 | Exported Function
+`UnicodeString` | 2313 | Exported Function
+`UnicodeString` | 1988 | Exported Function
+`getAvailableID` | 1646 | Exported Function
+`UnicodeString` | 1989 | Exported Function
+`getAvailableMetazoneIDs` | 1655 | Exported Function
+`UnicodeString` | 1844 | Exported Function
+`tertiaryOrder` | 3218 | Exported Function
+`secondaryOrder` | 2904 | Exported Function
+`primaryOrder` | 2813 | Exported Function
+`compareUTF16` | 1166 | Exported Function
+`CollationSettings` | 2062 | Exported Function
+`getCharIndex` | 1714 | Exported Function
+`compareUTF8` | 1167 | Exported Function
+`CollationSettings` | 3301 | Exported Function
+`lengthFromCE32` | 2610 | Exported Function
+`indexFromCE32` | 2415 | Exported Function
+`CollationSettings` | 1170 | Exported Function
+`tagFromCE32` | 3214 | Exported Function
+`CollationSettings` | 3291 | Exported Function
+`diffTwoBytePrimaries` | 1380 | Exported Function
+`diffThreeBytePrimaries` | 1379 | Exported Function
+`UnicodeString` | 1706 | Exported Function
+`Locale` | 1301 | Exported Function
+`getGMT` | 1885 | Exported Function
+`getUnknown` | 2304 | Exported Function
+`Locale` | 1302 | Exported Function
+`UnicodeString` | 1305 | Exported Function
+`UnicodeString` | 1266 | Exported Function
+`Locale` | 1303 | Exported Function
+`createCustomTimeZone` | 1253 | Exported Function
+`createTimeZoneIDEnumeration` | 1344 | Exported Function
+`createEnumeration` | 1263 | Exported Function
+`createEnumeration` | 1261 | Exported Function
+`getAvailableIDs` | 1647 | Exported Function
+`UnicodeString` | 1342 | Exported Function
+`createDefault` | 1257 | Exported Function
+`UTimeUnitFields` | 1300 | Exported Function
+`UnicodeString` | 1658 | Exported Function
+`UnicodeString` | 1657 | Exported Function
+`UnicodeString` | 2312 | Exported Function
+`UnicodeString` | 1660 | Exported Function
+`UnicodeString` | 1703 | Exported Function
+`UnicodeString` | 1786 | Exported Function
+`UnicodeString` | 1787 | Exported Function
+`UnicodeString` | 1904 | Exported Function
+`UnicodeString` | 1778 | Exported Function
+`UnicodeString` | 1777 | Exported Function
+`UnicodeString` | 1304 | Exported Function
+`UnicodeString` | 1384 | Exported Function
+`UnicodeString` | 1708 | Exported Function
+`UnicodeString` | 1709 | Exported Function
+`UnicodeString` | 1526 | Exported Function
+`hasCE32Tag` | 2377 | Exported Function
+`ce32HasContext` | 1072 | Exported Function
+`unregister` | 3260 | Exported Function
+`isAssignedCE32` | 2515 | Exported Function
+`isPrefixCE32` | 2568 | Exported Function
+`isLongPrimaryCE32` | 2559 | Exported Function
+`isContractionCE32` | 2530 | Exported Function
+`UPPER_FIRST` | 912 | Exported Function
+`MAX_VARIABLE_SHIFT` | 815 | Exported Function
+`MAX_VARIABLE_MASK` | 814 | Exported Function
+`CHECK_FCD` | 756 | Exported Function
+`NUMERIC` | 836 | Exported Function
+`STRENGTH_SHIFT` | 879 | Exported Function
+`STRENGTH_MASK` | 878 | Exported Function
+`SHIFTED` | 871 | Exported Function
+`isTertiaryWithCaseBits` | 2579 | Exported Function
+`mayHaveLccc` | 2656 | Exported Function
+`maybeTibetanCompositeVowel` | 2658 | Exported Function
+`sortsTertiaryUpperCaseFirst` | 3183 | Exported Function
+`equalFormats` | 1422 | Exported Function
+`isLeapYear` | 2554 | Exported Function
+`unregister` | 3261 | Exported Function
+`isFCD16OfTibetanCompositeVowel` | 2543 | Exported Function
+`isSpecialCE32` | 2573 | Exported Function
+`isSimpleOrLongCE32` | 2572 | Exported Function
+`isSelfContainedCE32` | 2570 | Exported Function
+`isAcceptable` | 2511 | Exported Function
+`hasTccc` | 2387 | Exported Function
+`hasLccc` | 2379 | Exported Function
+`isIgnorable` | 2549 | Exported Function
+`CASE_LEVEL` | 745 | Exported Function
+`UnicodeString` | 2100 | Exported Function
+`UnicodeString` | 1224 | Exported Function
+`getIndexCount` | 1911 | Exported Function
+`countAvailableIDs` | 1218 | Exported Function
+`UnicodeString` | 1221 | Exported Function
+`UnicodeString` | 1220 | Exported Function
+`countAvailableSources` | 1219 | Exported Function
+`MeasureUnit` | 1643 | Exported Function
+`lengthOfWeight` | 2612 | Exported Function
+`getStrength` | 2233 | Exported Function
+`getReorderCode` | 2104 | Exported Function
+`getBound` | 1672 | Exported Function
+`MeasureUnit` | 1644 | Exported Function
+`decimals` | 1357 | Exported Function
+`getEquivalentReorderCodes` | 1845 | Exported Function
+`PUNCT_START` | 851 | Exported Function
+`PUNCT_LIMIT` | 850 | Exported Function
+`NUM_FAST_CHARS` | 837 | Exported Function
+`ALTERNATE_MASK` | 735 | Exported Function
+`CASE_FIRST_AND_UPPER_MASK` | 744 | Exported Function
+`CASE_FIRST` | 743 | Exported Function
+`BACKWARD_SECONDARY` | 736 | Exported Function
+`LATIN_MAX_UTF8_LEAD` | 793 | Exported Function
+`MAX_INDEX` | 804 | Exported Function
+`MAX_EXPANSION_LENGTH` | 803 | Exported Function
+`MAX_YEAR` | 816 | Exported Function
+`JAMO_CE32S_LENGTH` | 790 | Exported Function
+`LATIN_MAX` | 792 | Exported Function
+`LATIN_LIMIT` | 791 | Exported Function
+`BAIL_OUT_RESULT` | 738 | Exported Function
+`ChoiceFormat` | 334 | Exported Function
+`ChineseCalendar` | 333 | Exported Function
+`Calendar` | 331 | Exported Function
+`CollationBaseDataBuilder` | 335 | Exported Function
+`CollationElementIterator` | 338 | Exported Function
+`CollationDataBuilder` | 337 | Exported Function
+`CollationBuilder` | 336 | Exported Function
+`BasicTimeZone` | 328 | Exported Function
+`start64` | 3190 | Exported Function
+`start64` | 3189 | Exported Function
+`regionStart64` | 2834 | Exported Function
+`Bucket` | 329 | Exported Function
+`AnnualTimeZoneRule` | 327 | Exported Function
+`AlphabeticIndex` | 326 | Exported Function
+`ImmutableIndex` | 373 | Exported Function
+`CompoundTransliterator` | 348 | Exported Function
+`CompactDecimalFormat` | 347 | Exported Function
+`CollatorFactory` | 346 | Exported Function
+`CurrencyAmount` | 349 | Exported Function
+`DateFormat` | 352 | Exported Function
+`CurrencyUnit` | 351 | Exported Function
+`CurrencyPluralInfo` | 350 | Exported Function
+`Collator` | 345 | Exported Function
+`CollationKey` | 341 | Exported Function
+`CollationIterator` | 340 | Exported Function
+`CollationFastLatinBuilder` | 339 | Exported Function
+`Importer` | 374 | Exported Function
+`CollationTailoring` | 344 | Exported Function
+`CollationSettings` | 343 | Exported Function
+`Sink` | 409 | Exported Function
+`regionEnd64` | 2832 | Exported Function
+`getFirstTertiaryCE` | 1872 | Exported Function
+`getFirstSecondaryCE` | 1868 | Exported Function
+`getFirstPrimary` | 1865 | Exported Function
+`getLastCommonSecondary` | 1934 | Exported Function
+`getPrimaryAfter` | 2084 | Exported Function
+`getLastTertiaryCE` | 1938 | Exported Function
+`getLastSecondaryCE` | 1937 | Exported Function
+`setPrimaryRangeAndReturnNext` | 3101 | Exported Function
+`getFinalCE32` | 1858 | Exported Function
+`getCE32FromSupplementary` | 1690 | Exported Function
+`getCE32` | 1686 | Exported Function
+`getFirstPrimaryForGroup` | 1867 | Exported Function
+`getLongPrimaryIfSingleCE` | 1967 | Exported Function
+`getLastPrimaryForGroup` | 1936 | Exported Function
+`getIndirectCE32` | 1912 | Exported Function
+`getDefaultParseOptions` | 1769 | Exported Function
+`getAll` | 1621 | Exported Function
+`getAll` | 1620 | Exported Function
+`getFCD16` | 1852 | Exported Function
+`end64` | 1415 | Exported Function
+`end64` | 1414 | Exported Function
+`getTable` | 2251 | Exported Function
+`nextWeight` | 2697 | Exported Function
+`getSecondaryBefore` | 2133 | Exported Function
+`getSecondaryAfter` | 2132 | Exported Function
+`getPrimaryBefore` | 2085 | Exported Function
+`getSecondaryBoundary` | 2134 | Exported Function
+`getTertiaryBoundary` | 2259 | Exported Function
+`getTertiaryBefore` | 2258 | Exported Function
+`getTertiaryAfter` | 2257 | Exported Function
+`RuleBasedNumberFormat` | 399 | Exported Function
+`RuleBasedCollator` | 398 | Exported Function
+`RelativeDateTimeFormatter` | 397 | Exported Function
+`RuleBasedTimeZone` | 400 | Exported Function
+`SharedNumberFormat` | 404 | Exported Function
+`SelectFormat` | 403 | Exported Function
+`SearchIterator` | 402 | Exported Function
+`Region` | 396 | Exported Function
+`PluralSelectorAdapter` | 391 | Exported Function
+`PluralSelector` | 390 | Exported Function
+`PluralAvailableLocalesEnumeration` | 387 | Exported Function
+`PluralFormat` | 388 | Exported Function
+`RegexPattern` | 395 | Exported Function
+`RegexMatcher` | 394 | Exported Function
+`PluralRules` | 389 | Exported Function
+`TimeZone` | 416 | Exported Function
+`TimeUnitFormat` | 415 | Exported Function
+`TimeUnitAmount` | 414 | Exported Function
+`TimeZoneFormat` | 417 | Exported Function
+`TimeZoneNames` | 419 | Exported Function
+`MatchInfoCollection` | 378 | Exported Function
+`TimeZoneGenericNames` | 418 | Exported Function
+`TimeUnit` | 413 | Exported Function
+`SimpleNumberFormatFactory` | 407 | Exported Function
+`SimpleDateFormat` | 406 | Exported Function
+`SharedPluralRules` | 405 | Exported Function
+`SimpleTimeZone` | 408 | Exported Function
+`TimeArrayTimeZoneRule` | 412 | Exported Function
+`TextTrieMap` | 411 | Exported Function
+`StringSearch` | 410 | Exported Function
+`OlsonTimeZone` | 386 | Exported Function
+`FieldPosition` | 365 | Exported Function
+`FCDUTF8CollationIterator` | 364 | Exported Function
+`FCDUTF16CollationIterator` | 363 | Exported Function
+`FieldPositionIterator` | 366 | Exported Function
+`GenderInfo` | 369 | Exported Function
+`Formattable` | 368 | Exported Function
+`Format` | 367 | Exported Function
+`FCDUIterCollationIterator` | 362 | Exported Function
+`DateIntervalInfo` | 355 | Exported Function
+`DateIntervalFormat` | 354 | Exported Function
+`DateFormatSymbols` | 353 | Exported Function
+`DateTimePatternGenerator` | 356 | Exported Function
+`DecimalFormatSymbols` | 359 | Exported Function
+`DecimalFormat` | 358 | Exported Function
+`DateTimeRule` | 357 | Exported Function
+`PluralSelectorProvider` | 392 | Exported Function
+`DummyFormat` | 361 | Exported Function
+`MeasureUnit` | 381 | Exported Function
+`MessageFormat` | 382 | Exported Function
+`NumberingSystem` | 385 | Exported Function
+`NumberFormatFactory` | 384 | Exported Function
+`NumberFormat` | 383 | Exported Function
+`MeasureFormat` | 380 | Exported Function
+`IdentifierInfo` | 372 | Exported Function
+`HebrewCalendar` | 371 | Exported Function
+`GregorianCalendar` | 370 | Exported Function
+`InitialTimeZoneRule` | 375 | Exported Function
+`Measure` | 379 | Exported Function
+`LocaleDisplayNames` | 377 | Exported Function
+`IslamicCalendar` | 376 | Exported Function
+`getStaticClassID` | 2193 | Exported Function
+`getStaticClassID` | 2192 | Exported Function
+`getStaticClassID` | 2191 | Exported Function
+`getStaticClassID` | 2194 | Exported Function
+`getStaticClassID` | 2197 | Exported Function
+`getStaticClassID` | 2196 | Exported Function
+`getStaticClassID` | 2195 | Exported Function
+`getStaticClassID` | 2190 | Exported Function
+`getStaticClassID` | 2185 | Exported Function
+`getStaticClassID` | 2184 | Exported Function
+`getStaticClassID` | 2183 | Exported Function
+`getStaticClassID` | 2186 | Exported Function
+`getStaticClassID` | 2189 | Exported Function
+`getStaticClassID` | 2188 | Exported Function
+`getStaticClassID` | 2187 | Exported Function
+`getStaticClassID` | 2208 | Exported Function
+`getStaticClassID` | 2207 | Exported Function
+`getStaticClassID` | 2206 | Exported Function
+`getStaticClassID` | 2209 | Exported Function
+`getStaticClassID` | 2212 | Exported Function
+`getStaticClassID` | 2211 | Exported Function
+`getStaticClassID` | 2210 | Exported Function
+`getStaticClassID` | 2205 | Exported Function
+`getStaticClassID` | 2200 | Exported Function
+`getStaticClassID` | 2199 | Exported Function
+`getStaticClassID` | 2198 | Exported Function
+`getStaticClassID` | 2201 | Exported Function
+`getStaticClassID` | 2204 | Exported Function
+`getStaticClassID` | 2203 | Exported Function
+`getStaticClassID` | 2202 | Exported Function
+`getStaticClassID` | 2182 | Exported Function
+`getStaticClassID` | 2163 | Exported Function
+`getStaticClassID` | 2162 | Exported Function
+`getStaticClassID` | 2161 | Exported Function
+`getStaticClassID` | 2164 | Exported Function
+`getStaticClassID` | 2167 | Exported Function
+`getStaticClassID` | 2166 | Exported Function
+`getStaticClassID` | 2165 | Exported Function
+`getStaticClassID` | 2160 | Exported Function
+`SEC_TER_DELTA_FLAG` | 870 | Exported Function
+`PRIMARY_SENTINEL` | 848 | Exported Function
+`TWO_TERTIARIES_MASK` | 908 | Exported Function
+`VERSION` | 914 | Exported Function
+`getStaticClassID` | 2159 | Exported Function
+`getStaticClassID` | 2158 | Exported Function
+`getStaticClassID` | 2157 | Exported Function
+`getStaticClassID` | 2178 | Exported Function
+`getStaticClassID` | 2177 | Exported Function
+`getStaticClassID` | 2176 | Exported Function
+`getStaticClassID` | 2179 | Exported Function
+`getStaticClassID` | 2181 | Exported Function
+`getStaticClassID` | 2180 | Exported Function
+`EStackMode` | 429 | Exported Function
+`getStaticClassID` | 2175 | Exported Function
+`getStaticClassID` | 2170 | Exported Function
+`getStaticClassID` | 2169 | Exported Function
+`getStaticClassID` | 2168 | Exported Function
+`getStaticClassID` | 2171 | Exported Function
+`getStaticClassID` | 2174 | Exported Function
+`getStaticClassID` | 2173 | Exported Function
+`getStaticClassID` | 2172 | Exported Function
+`UnicodeString` | 2138 | Exported Function
+`TimeZone` | 2137 | Exported Function
+`UnicodeString` | 1705 | Exported Function
+`PASS_STRING` | 841 | Exported Function
+`getAlias` | 1619 | Exported Function
+`POS_LEAD` | 844 | Exported Function
+`POS_BASE` | 843 | Exported Function
+`TimeZone` | 1704 | Exported Function
+`NumberFormatFactory` | 2839 | Exported Function
+`Locale` | 2841 | Exported Function
+`CollatorFactory` | 2838 | Exported Function
+`getPatternUChars` | 2070 | Exported Function
+`UnicodeString` | 1467 | Exported Function
+`UnicodeString` | 1451 | Exported Function
+`UnicodeString` | 2101 | Exported Function
+`getAlternates` | 1624 | Exported Function
+`toUCollator` | 3240 | Exported Function
+`toUCollator` | 3239 | Exported Function
+`cloneRuleData` | 1147 | Exported Function
+`getByteArray` | 1683 | Exported Function
+`getDigitValue` | 1776 | Exported Function
+`getMinimalDaysInFirstWeek` | 1991 | Exported Function
+`toUCollationElements` | 3238 | Exported Function
+`CollationDataReader` | 445 | Exported Function
+`resize` | 2882 | Exported Function
+`orphanOrClone` | 2715 | Exported Function
+`CollationSettings` | 454 | Exported Function
+`toUCollationElements` | 3237 | Exported Function
+`Importer` | 2738 | Exported Function
+`CollationTailoring` | 455 | Exported Function
+`ICUServiceFactory` | 2837 | Exported Function
+`getStaticClassID` | 2223 | Exported Function
+`getStaticClassID` | 2222 | Exported Function
+`getStaticClassID` | 2221 | Exported Function
+`getStaticClassID` | 2224 | Exported Function
+`getStaticClassID` | 2227 | Exported Function
+`getStaticClassID` | 2226 | Exported Function
+`getStaticClassID` | 2225 | Exported Function
+`getStaticClassID` | 2220 | Exported Function
+`getStaticClassID` | 2215 | Exported Function
+`getStaticClassID` | 2214 | Exported Function
+`getStaticClassID` | 2213 | Exported Function
+`getStaticClassID` | 2216 | Exported Function
+`getStaticClassID` | 2219 | Exported Function
+`getStaticClassID` | 2218 | Exported Function
+`getStaticClassID` | 2217 | Exported Function
+`TimeZone` | 2984 | Exported Function
+`TimeZone` | 987 | Exported Function
+`cleanupRegionData` | 1087 | Exported Function
+`UnicodeString` | 2836 | Exported Function
+`UnicodeString` | 3263 | Exported Function
+`Transliterator` | 2842 | Exported Function
+`Token` | 2840 | Exported Function
+`EStackMode` | 430 | Exported Function
+`getStaticClassID` | 2230 | Exported Function
+`getStaticClassID` | 2229 | Exported Function
+`getStaticClassID` | 2228 | Exported Function
+`getStaticClassID` | 2231 | Exported Function
+`makeBaseVersion` | 2627 | Exported Function
+`LevelCallback` | 3300 | Exported Function
+`CollationTailoring` | 2822 | Exported Function
 `umsg_parse_53` | 3581 | Exported Function
 `umsg_open_53` | 3580 | Exported Function
 `umsg_getLocale_53` | 3579 | Exported Function
@@ -1492,250 +1492,250 @@ Function Name | Ordinal | Type
 `uregex_regionStart_53` | 3744 | Exported Function
 `uregex_regionStart64_53` | 3743 | Exported Function
 `uregex_regionEnd_53` | 3742 | Exported Function
-`public: virtual void __thiscall icu_53::TimeZoneFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2760 | Exported Function
-`public: virtual void __thiscall icu_53::TimeZone::getOffset(double,signed char,int &,int &,enum UErrorCode &)const ` | 2049 | Exported Function
-`public: virtual void __thiscall icu_53::TimeUnitFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2759 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::filteredTransliterate(class icu_53::Replaceable &,struct UTransPosition &,signed char)const ` | 1442 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::transliterate(class icu_53::Replaceable &)const ` | 3248 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::handleGetSourceSet(class icu_53::UnicodeSet &)const ` | 2355 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::finishTransliteration(class icu_53::Replaceable &,struct UTransPosition &)const ` | 1469 | Exported Function
-`public: virtual void __thiscall icu_53::StringSearch::setText(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3142 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleTimeZone::getTimeZoneRules(class icu_53::InitialTimeZoneRule const * &,class icu_53::TimeZoneRule const * * const,int &,enum UErrorCode &)const ` | 2285 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleTimeZone::getOffsetFromLocal(double,int,int,int &,int &,enum UErrorCode &)const ` | 2059 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleTimeZone::getOffset(double,signed char,int &,int &,enum UErrorCode &)const ` | 2047 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleTimeZone::setRawOffset(int)` | 3106 | Exported Function
-`public: virtual void __thiscall icu_53::StringSearch::setText(class icu_53::CharacterIterator &,enum UErrorCode &)` | 3141 | Exported Function
-`public: virtual void __thiscall icu_53::StringSearch::setOffset(int,enum UErrorCode &)` | 3086 | Exported Function
-`public: virtual void __thiscall icu_53::StringSearch::reset(void)` | 2867 | Exported Function
-`public: void * * __thiscall icu_53::Formattable::toUFormattable(void)` | 3241 | Exported Function
-`public: virtual void const * __thiscall icu_53::AlphabeticIndex::getRecordData(void)const ` | 2096 | Exported Function
-`public: virtual void __thiscall icu_53::VTimeZone::setRawOffset(int)` | 3107 | Exported Function
-`public: void * const * __thiscall icu_53::Formattable::toUFormattable(void)const ` | 3242 | Exported Function
-`public: void __thiscall icu_53::Calendar::clear(void)` | 1091 | Exported Function
-`public: void __thiscall icu_53::Calendar::clear(enum UCalendarDateFields)` | 1090 | Exported Function
-`public: void __thiscall icu_53::Calendar::adoptTimeZone(class icu_53::TimeZone *)` | 999 | Exported Function
-`public: virtual void __thiscall icu_53::VTimeZone::getTimeZoneRules(class icu_53::InitialTimeZoneRule const * &,class icu_53::TimeZoneRule const * * const,int &,enum UErrorCode &)const ` | 2286 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::transliterate(class icu_53::Replaceable &,struct UTransPosition &,int,enum UErrorCode &)const ` | 3251 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::transliterate(class icu_53::Replaceable &,struct UTransPosition &,enum UErrorCode &)const ` | 3249 | Exported Function
-`public: virtual void __thiscall icu_53::Transliterator::transliterate(class icu_53::Replaceable &,struct UTransPosition &,class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 3250 | Exported Function
-`public: virtual void __thiscall icu_53::UIterCollationIterator::resetToOffset(int)` | 2879 | Exported Function
-`public: virtual void __thiscall icu_53::VTimeZone::getOffset(double,signed char,int &,int &,enum UErrorCode &)const ` | 2055 | Exported Function
-`public: virtual void __thiscall icu_53::UTF8CollationIterator::resetToOffset(int)` | 2881 | Exported Function
-`public: virtual void __thiscall icu_53::UTF16CollationIterator::resetToOffset(int)` | 2880 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::setTimeZoneFormat(class icu_53::TimeZoneFormat const &)` | 3152 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedNumberFormat::setDecimalFormatSymbols(class icu_53::DecimalFormatSymbols const &)` | 2980 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedNumberFormat::setContext(enum UDisplayContext,enum UErrorCode &)` | 2957 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedNumberFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2730 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedNumberFormat::setDefaultRuleSet(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2986 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedTimeZone::getOffsetFromLocal(double,int,int,int &,int &,enum UErrorCode &)const ` | 2058 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedTimeZone::getOffset(double,signed char,int &,int &,enum UErrorCode &)const ` | 2043 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedNumberFormat::setLenient(signed char)` | 3042 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedNumberFormat::adoptDecimalFormatSymbols(class icu_53::DecimalFormatSymbols *)` | 986 | Exported Function
-`public: virtual void __thiscall icu_53::RegexMatcher::setTimeLimit(int,enum UErrorCode &)` | 3148 | Exported Function
-`public: virtual void __thiscall icu_53::RegexMatcher::setStackLimit(int,enum UErrorCode &)` | 3124 | Exported Function
-`public: virtual void __thiscall icu_53::RegexMatcher::setMatchCallback(signed char (__cdecl*)(void const *,int),void const *,enum UErrorCode &)` | 3052 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedCollator::getVersion(unsigned char * const)const ` | 2306 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedCollator::setVariableTop(unsigned int,enum UErrorCode &)` | 3163 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedCollator::setReorderCodes(int const *,int,enum UErrorCode &)` | 3110 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedCollator::setAttribute(enum UColAttribute,enum UColAttributeValue,enum UErrorCode &)` | 2936 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::applyPattern(class icu_53::UnicodeString const &)` | 1041 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::applyLocalizedPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1030 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::adoptTimeZoneFormat(class icu_53::TimeZoneFormat *)` | 1002 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::parse(class icu_53::UnicodeString const &,class icu_53::Calendar &,class icu_53::ParsePosition &)const ` | 2731 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::setDateFormatSymbols(class icu_53::DateFormatSymbols const &)` | 2973 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::setContext(enum UDisplayContext,enum UErrorCode &)` | 2958 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::set2DigitYearStart(double,enum UErrorCode &)` | 2911 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::adoptDateFormatSymbols(class icu_53::DateFormatSymbols *)` | 984 | Exported Function
-`public: virtual void __thiscall icu_53::SearchIterator::reset(void)` | 2866 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedTimeZone::setRawOffset(int)` | 3105 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedTimeZone::getTimeZoneRules(class icu_53::InitialTimeZoneRule const * &,class icu_53::TimeZoneRule const * * const,int &,enum UErrorCode &)const ` | 2284 | Exported Function
-`public: virtual void __thiscall icu_53::SearchIterator::setText(class icu_53::CharacterIterator &,enum UErrorCode &)` | 3139 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleDateFormat::adoptCalendar(class icu_53::Calendar *)` | 982 | Exported Function
-`public: virtual void __thiscall icu_53::SelectFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2758 | Exported Function
-`public: virtual void __thiscall icu_53::SearchIterator::setText(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3140 | Exported Function
-`public: void __thiscall icu_53::CollationElementIterator::reset(void)` | 2854 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::suppressContractions(class icu_53::UnicodeSet const &,enum UErrorCode &)` | 3204 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::optimize(class icu_53::UnicodeSet const &,enum UErrorCode &)` | 2712 | Exported Function
-`public: void __thiscall icu_53::CollationElementIterator::setOffset(int,enum UErrorCode &)` | 3085 | Exported Function
-`public: void __thiscall icu_53::CollationIterator::clearCEs(void)` | 1095 | Exported Function
-`public: void __thiscall icu_53::CollationElementIterator::setText(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3138 | Exported Function
-`public: void __thiscall icu_53::CollationElementIterator::setText(class icu_53::CharacterIterator &,enum UErrorCode &)` | 3137 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::initForTailoring(struct icu_53::CollationData const *,enum UErrorCode &)` | 2440 | Exported Function
-`public: void __thiscall icu_53::CollationData::makeReorderTable(int const *,int,unsigned char * const,enum UErrorCode &)const ` | 2638 | Exported Function
-`public: void __thiscall icu_53::CollationBuilder::disableFastLatin(void)` | 1383 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::setNumericPrimary(unsigned int)` | 3084 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::add(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,__int64 const * const,int,enum UErrorCode &)` | 940 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::enableFastLatin(void)` | 1403 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::copyFrom(class icu_53::CollationDataBuilder const &,class icu_53::CollationDataBuilder::CEModifier const &,enum UErrorCode &)` | 1206 | Exported Function
-`public: void __thiscall icu_53::CollationDataBuilder::addCE32(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,unsigned int,enum UErrorCode &)` | 945 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::setMaxVariable(int,int,enum UErrorCode &)` | 3057 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::setFlag(int,enum UColAttributeValue,int,enum UErrorCode &)` | 3008 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::setCaseFirst(enum UColAttributeValue,int,enum UErrorCode &)` | 2948 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::setStrength(int,int,enum UErrorCode &)` | 3132 | Exported Function
-`public: void __thiscall icu_53::CollationWeights::initForSecondary(void)` | 2439 | Exported Function
-`public: void __thiscall icu_53::CollationWeights::initForPrimary(signed char)` | 2438 | Exported Function
-`public: void __thiscall icu_53::CollationTailoring::setVersion(unsigned char const * const,unsigned char const * const)` | 3164 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::setAlternateHandling(enum UColAttributeValue,int,enum UErrorCode &)` | 2929 | Exported Function
-`public: void __thiscall icu_53::CollationRuleParser::parse(class icu_53::UnicodeString const &,struct icu_53::CollationSettings &,struct UParseError *,enum UErrorCode &)` | 2719 | Exported Function
-`public: void __thiscall icu_53::CollationIterator::setCurrentCE(__int64)` | 2967 | Exported Function
-`public: void __thiscall icu_53::CollationIterator::clearCEsIfNoneRemaining(void)` | 1096 | Exported Function
-`public: void __thiscall icu_53::CollationRuleParser::setImporter(class icu_53::CollationRuleParser::Importer *)` | 3026 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::resetReordering(void)` | 2874 | Exported Function
-`public: void __thiscall icu_53::CollationSettings::aliasReordering(int const *,int,unsigned char const *)` | 1009 | Exported Function
-`public: void __thiscall icu_53::CollationRuleParser::setSink(class icu_53::CollationRuleParser::Sink *)` | 3122 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::setCompressibleLeadByte(unsigned int)` | 2953 | Exported Function
-`public: void __thiscall icu_53::Calendar::setSkippedWallTimeOption(enum UCalendarWallTimeOption)` | 3123 | Exported Function
-`public: void __thiscall icu_53::Calendar::setRepeatedWallTimeOption(enum UCalendarWallTimeOption)` | 3112 | Exported Function
-`public: void __thiscall icu_53::Calendar::setMinimalDaysInFirstWeek(unsigned char)` | 3067 | Exported Function
-`public: void __thiscall icu_53::Calendar::setTime(double,enum UErrorCode &)` | 3144 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::Ecliptic::set(double,double)` | 2922 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::Ecliptic::``default constructor closure'(void)` | 732 | Exported Function
-`public: void __thiscall icu_53::Calendar::setTimeZone(class icu_53::TimeZone const &)` | 3149 | Exported Function
-`public: void __thiscall icu_53::Calendar::setLenient(signed char)` | 3039 | Exported Function
-`public: void __thiscall icu_53::Calendar::set(enum UCalendarDateFields,int)` | 2917 | Exported Function
-`public: void __thiscall icu_53::Calendar::roll(enum UCalendarDateFields,signed char,enum UErrorCode &)` | 2886 | Exported Function
-`public: void __thiscall icu_53::Calendar::roll(enum icu_53::Calendar::EDateFields,signed char,enum UErrorCode &)` | 2885 | Exported Function
-`public: void __thiscall icu_53::Calendar::set(int,int,int)` | 2914 | Exported Function
-`public: void __thiscall icu_53::Calendar::setFirstDayOfWeek(enum UCalendarDaysOfWeek)` | 3007 | Exported Function
-`public: void __thiscall icu_53::Calendar::set(int,int,int,int,int,int)` | 2916 | Exported Function
-`public: void __thiscall icu_53::Calendar::set(int,int,int,int,int)` | 2915 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::addRootElement(__int64,enum UErrorCode &)` | 968 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::addReorderingGroup(unsigned int,unsigned int,class icu_53::UnicodeString const &,enum UErrorCode &)` | 966 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::setTime(double)` | 3145 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::addRootElements(__int64 const * const,int,enum UErrorCode &)` | 969 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::initHanRanges(int const * const,int,enum UErrorCode &)` | 2444 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::init(enum UErrorCode &)` | 2420 | Exported Function
-`public: void __thiscall icu_53::CollationBaseDataBuilder::buildRootElementsTable(class icu_53::UVector32 &,enum UErrorCode &)` | 1068 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::setJulianDay(double)` | 3035 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::getSunLongitude(double,double &,double &)` | 2243 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::Equatorial::set(double,double)` | 2923 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::Equatorial::``default constructor closure'(void)` | 733 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::Horizon::``default constructor closure'(void)` | 734 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::setDate(double)` | 2971 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::MoonAge::set(double)` | 2925 | Exported Function
-`public: void __thiscall icu_53::CalendarAstronomer::Horizon::set(double,double)` | 2924 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::setNumberFormat(class icu_53::NumberFormat const &)` | 3081 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::setLenient(signed char)` | 3040 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::setContext(enum UDisplayContext,enum UErrorCode &)` | 2954 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::setTimeZone(class icu_53::TimeZone const &)` | 3150 | Exported Function
-`public: virtual void __thiscall icu_53::DateIntervalFormat::setTimeZone(class icu_53::TimeZone const &)` | 3151 | Exported Function
-`public: virtual void __thiscall icu_53::DateIntervalFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2751 | Exported Function
-`public: virtual void __thiscall icu_53::DateIntervalFormat::adoptTimeZone(class icu_53::TimeZone *)` | 1001 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::setCalendarLenient(signed char)` | 2946 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::adoptCalendar(class icu_53::Calendar *)` | 981 | Exported Function
-`public: virtual void __thiscall icu_53::CompactDecimalFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,enum UErrorCode &)const ` | 2721 | Exported Function
-`public: virtual void __thiscall icu_53::CompactDecimalFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2720 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::adoptNumberFormat(class icu_53::NumberFormat *)` | 994 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::setCalendar(class icu_53::Calendar const &)` | 2945 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2750 | Exported Function
-`public: virtual void __thiscall icu_53::DateFormat::adoptTimeZone(class icu_53::TimeZone *)` | 1000 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setCurrencyPluralInfo(class icu_53::CurrencyPluralInfo const &)` | 2965 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setCurrency(wchar_t const *,enum UErrorCode &)` | 2961 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setCurrency(wchar_t const *)` | 2960 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setDecimalFormatSymbols(class icu_53::DecimalFormatSymbols const &)` | 2979 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setFormatWidth(int)` | 3011 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setExponentSignAlwaysShown(signed char)` | 3001 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setDecimalSeparatorAlwaysShown(signed char)` | 2982 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setContext(enum UDisplayContext,enum UErrorCode &)` | 2955 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::applyLocalizedPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1029 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::adoptDecimalFormatSymbols(class icu_53::DecimalFormatSymbols *)` | 985 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::adoptCurrencyPluralInfo(class icu_53::CurrencyPluralInfo *)` | 983 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::applyLocalizedPattern(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 1028 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2725 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::applyPattern(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 1034 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::applyPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1035 | Exported Function
-`public: virtual void __thiscall icu_53::Collator::setStrength(enum icu_53::Collator::ECollationStrength)` | 3133 | Exported Function
-`public: virtual void __thiscall icu_53::Calendar::add(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 936 | Exported Function
-`public: virtual void __thiscall icu_53::BasicTimeZone::getSimpleRulesNear(double,class icu_53::InitialTimeZoneRule * &,class icu_53::AnnualTimeZoneRule * &,class icu_53::AnnualTimeZoneRule * &,enum UErrorCode &)const ` | 2143 | Exported Function
-`public: virtual void __thiscall icu_53::BasicTimeZone::getOffsetFromLocal(double,int,int,int &,int &,enum UErrorCode &)const ` | 2056 | Exported Function
-`public: virtual void __thiscall icu_53::Calendar::add(enum UCalendarDateFields,int,enum UErrorCode &)` | 937 | Exported Function
-`public: virtual void __thiscall icu_53::Calendar::setRelatedYear(int)` | 3108 | Exported Function
-`public: virtual void __thiscall icu_53::Calendar::roll(enum UCalendarDateFields,int,enum UErrorCode &)` | 2888 | Exported Function
-`public: virtual void __thiscall icu_53::Calendar::roll(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 2887 | Exported Function
-`public: virtual void * __thiscall icu_53::VTimeZone::getDynamicClassID(void)const ` | 1837 | Exported Function
-`public: virtual void * __thiscall icu_53::TimeUnit::getDynamicClassID(void)const ` | 1832 | Exported Function
-`public: virtual void * __thiscall icu_53::TimeArrayTimeZoneRule::getDynamicClassID(void)const ` | 1831 | Exported Function
-`public: virtual void * __thiscall icu_53::StringSearch::getDynamicClassID(void)const ` | 1830 | Exported Function
-`public: virtual void * __thiscall icu_53::TimeUnitAmount::getDynamicClassID(void)const ` | 1833 | Exported Function
-`public: virtual void * __thiscall icu_53::TimeZoneTransition::getDynamicClassID(void)const ` | 1836 | Exported Function
-`public: virtual void * __thiscall icu_53::TimeZoneFormat::getDynamicClassID(void)const ` | 1835 | Exported Function
-`public: virtual void * __thiscall icu_53::TimeUnitFormat::getDynamicClassID(void)const ` | 1834 | Exported Function
-`public: virtual void __thiscall icu_53::CollationDataBuilder::build(struct icu_53::CollationData &,enum UErrorCode &)` | 1062 | Exported Function
-`public: virtual void __thiscall icu_53::CollationBaseDataBuilder::build(struct icu_53::CollationData &,enum UErrorCode &)` | 1061 | Exported Function
-`public: virtual void __thiscall icu_53::ChoiceFormat::setChoices(double const *,signed char const *,class icu_53::UnicodeString const *,int)` | 2950 | Exported Function
-`public: virtual void __thiscall icu_53::CollationRuleParser::Sink::optimize(class icu_53::UnicodeSet const &,char const * &,enum UErrorCode &)` | 2713 | Exported Function
-`public: virtual void __thiscall icu_53::Collator::setReorderCodes(int const *,int,enum UErrorCode &)` | 3109 | Exported Function
-`public: virtual void __thiscall icu_53::Collator::setLocales(class icu_53::Locale const &,class icu_53::Locale const &,class icu_53::Locale const &)` | 3049 | Exported Function
-`public: virtual void __thiscall icu_53::CollationRuleParser::Sink::suppressContractions(class icu_53::UnicodeSet const &,char const * &,enum UErrorCode &)` | 3205 | Exported Function
-`public: virtual void __thiscall icu_53::ChoiceFormat::setChoices(double const *,class icu_53::UnicodeString const *,int)` | 2951 | Exported Function
-`public: virtual void __thiscall icu_53::ChineseCalendar::roll(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 2889 | Exported Function
-`public: virtual void __thiscall icu_53::ChineseCalendar::add(enum UCalendarDateFields,int,enum UErrorCode &)` | 939 | Exported Function
-`public: virtual void __thiscall icu_53::ChineseCalendar::add(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 938 | Exported Function
-`public: virtual void __thiscall icu_53::ChineseCalendar::roll(enum UCalendarDateFields,int,enum UErrorCode &)` | 2890 | Exported Function
-`public: virtual void __thiscall icu_53::ChoiceFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2717 | Exported Function
-`public: virtual void __thiscall icu_53::ChoiceFormat::applyPattern(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 1031 | Exported Function
-`public: virtual void __thiscall icu_53::ChoiceFormat::applyPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1032 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,enum UErrorCode &)const ` | 2729 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::setLocale(class icu_53::Locale const &)` | 3045 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::setFormats(class icu_53::Format const * *,int)` | 3012 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2756 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setGroupingUsed(signed char)` | 3021 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setCurrency(wchar_t const *,enum UErrorCode &)` | 2962 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setContext(enum UDisplayContext,enum UErrorCode &)` | 2956 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::setFormat(int,class icu_53::Format const &)` | 3010 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::applyPattern(class icu_53::UnicodeString const &,enum UMessagePatternApostropheMode,struct UParseError *,enum UErrorCode &)` | 1038 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::applyPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1037 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::adoptFormats(class icu_53::Format * *,int)` | 992 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::applyPattern(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 1036 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::setFormat(class icu_53::UnicodeString const &,class icu_53::Format const &,enum UErrorCode &)` | 3009 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2755 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::DummyFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2752 | Exported Function
-`public: virtual void __thiscall icu_53::PluralAvailableLocalesEnumeration::reset(enum UErrorCode &)` | 2857 | Exported Function
-`public: virtual void __thiscall icu_53::OlsonTimeZone::setRawOffset(int)` | 3104 | Exported Function
-`public: virtual void __thiscall icu_53::OlsonTimeZone::getTimeZoneRules(class icu_53::InitialTimeZoneRule const * &,class icu_53::TimeZoneRule const * * const,int &,enum UErrorCode &)const ` | 2283 | Exported Function
-`public: virtual void __thiscall icu_53::PluralFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2757 | Exported Function
-`public: virtual void __thiscall icu_53::RegexMatcher::setFindProgressCallback(signed char (__cdecl*)(void const *,__int64),void const *,enum UErrorCode &)` | 3006 | Exported Function
-`public: virtual void __thiscall icu_53::RegexMatcher::getMatchCallback(signed char (__cdecl*&)(void const *,int),void const * &,enum UErrorCode &)` | 1969 | Exported Function
-`public: virtual void __thiscall icu_53::RegexMatcher::getFindProgressCallback(signed char (__cdecl*&)(void const *,__int64),void const * &,enum UErrorCode &)` | 1862 | Exported Function
-`public: virtual void __thiscall icu_53::OlsonTimeZone::getOffsetFromLocal(double,int,int,int &,int &,enum UErrorCode &)const ` | 2057 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setMaximumIntegerDigits(int)` | 3064 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setMaximumFractionDigits(int)` | 3062 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setLenient(signed char)` | 3041 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setMinimumFractionDigits(int)` | 3070 | Exported Function
-`public: virtual void __thiscall icu_53::OlsonTimeZone::getOffset(double,signed char,int &,int &,enum UErrorCode &)const ` | 2040 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setParseIntegerOnly(signed char)` | 3093 | Exported Function
-`public: virtual void __thiscall icu_53::NumberFormat::setMinimumIntegerDigits(int)` | 3072 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::adoptFormat(int,class icu_53::Format *)` | 991 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setPadCharacter(class icu_53::UnicodeString const &)` | 3088 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setNegativeSuffix(class icu_53::UnicodeString const &)` | 3080 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setNegativePrefix(class icu_53::UnicodeString const &)` | 3079 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setPadPosition(enum icu_53::DecimalFormat::EPadPosition)` | 3089 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setPositiveSuffix(class icu_53::UnicodeString const &)` | 3100 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setPositivePrefix(class icu_53::UnicodeString const &)` | 3099 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setParseIntegerOnly(signed char)` | 3092 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setMultiplier(int)` | 3076 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setMaximumFractionDigits(int)` | 3061 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setGroupingUsed(signed char)` | 3020 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setGroupingSize(int)` | 3019 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setMaximumIntegerDigits(int)` | 3063 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setMinimumIntegerDigits(int)` | 3071 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setMinimumFractionDigits(int)` | 3069 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setMinimumExponentDigits(signed char)` | 3068 | Exported Function
-`public: virtual void __thiscall icu_53::HebrewCalendar::add(enum UCalendarDateFields,int,enum UErrorCode &)` | 942 | Exported Function
-`public: virtual void __thiscall icu_53::HebrewCalendar::add(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 941 | Exported Function
-`public: virtual void __thiscall icu_53::GregorianCalendar::roll(enum UCalendarDateFields,int,enum UErrorCode &)` | 2892 | Exported Function
-`public: virtual void __thiscall icu_53::HebrewCalendar::roll(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 2893 | Exported Function
-`public: virtual void __thiscall icu_53::MessageFormat::adoptFormat(class icu_53::UnicodeString const &,class icu_53::Format *,enum UErrorCode &)` | 990 | Exported Function
-`public: virtual void __thiscall icu_53::MeasureFormat::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &)const ` | 2754 | Exported Function
-`public: virtual void __thiscall icu_53::HebrewCalendar::roll(enum UCalendarDateFields,int,enum UErrorCode &)` | 2894 | Exported Function
-`public: virtual void __thiscall icu_53::GregorianCalendar::roll(enum icu_53::Calendar::EDateFields,int,enum UErrorCode &)` | 2891 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setScientificNotation(signed char)` | 3116 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setRoundingMode(enum icu_53::DecimalFormat::ERoundingMode)` | 3114 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setRoundingIncrement(double)` | 3113 | Exported Function
-`public: virtual void __thiscall icu_53::DecimalFormat::setSecondaryGroupingSize(int)` | 3117 | Exported Function
-`public: virtual void __thiscall icu_53::FCDUTF8CollationIterator::resetToOffset(int)` | 2878 | Exported Function
-`public: virtual void __thiscall icu_53::FCDUTF16CollationIterator::resetToOffset(int)` | 2877 | Exported Function
-`public: virtual void __thiscall icu_53::FCDUIterCollationIterator::resetToOffset(int)` | 2876 | Exported Function
+`ParsePosition` | 2760 | Exported Function
+`getOffset` | 2049 | Exported Function
+`ParsePosition` | 2759 | Exported Function
+`Replaceable` | 1442 | Exported Function
+`Replaceable` | 3248 | Exported Function
+`UnicodeSet` | 2355 | Exported Function
+`Replaceable` | 1469 | Exported Function
+`UnicodeString` | 3142 | Exported Function
+`TimeZoneRule` | 2285 | Exported Function
+`getOffsetFromLocal` | 2059 | Exported Function
+`getOffset` | 2047 | Exported Function
+`setRawOffset` | 3106 | Exported Function
+`CharacterIterator` | 3141 | Exported Function
+`setOffset` | 3086 | Exported Function
+`reset` | 2867 | Exported Function
+`toUFormattable` | 3241 | Exported Function
+`getRecordData` | 2096 | Exported Function
+`setRawOffset` | 3107 | Exported Function
+`toUFormattable` | 3242 | Exported Function
+`clear` | 1091 | Exported Function
+`clear` | 1090 | Exported Function
+`TimeZone` | 999 | Exported Function
+`TimeZoneRule` | 2286 | Exported Function
+`Replaceable` | 3251 | Exported Function
+`Replaceable` | 3249 | Exported Function
+`UnicodeString` | 3250 | Exported Function
+`resetToOffset` | 2879 | Exported Function
+`getOffset` | 2055 | Exported Function
+`resetToOffset` | 2881 | Exported Function
+`resetToOffset` | 2880 | Exported Function
+`TimeZoneFormat` | 3152 | Exported Function
+`DecimalFormatSymbols` | 2980 | Exported Function
+`setContext` | 2957 | Exported Function
+`ParsePosition` | 2730 | Exported Function
+`UnicodeString` | 2986 | Exported Function
+`getOffsetFromLocal` | 2058 | Exported Function
+`getOffset` | 2043 | Exported Function
+`setLenient` | 3042 | Exported Function
+`DecimalFormatSymbols` | 986 | Exported Function
+`setTimeLimit` | 3148 | Exported Function
+`setStackLimit` | 3124 | Exported Function
+`setMatchCallback` | 3052 | Exported Function
+`getVersion` | 2306 | Exported Function
+`setVariableTop` | 3163 | Exported Function
+`setReorderCodes` | 3110 | Exported Function
+`setAttribute` | 2936 | Exported Function
+`UnicodeString` | 1041 | Exported Function
+`UnicodeString` | 1030 | Exported Function
+`TimeZoneFormat` | 1002 | Exported Function
+`ParsePosition` | 2731 | Exported Function
+`DateFormatSymbols` | 2973 | Exported Function
+`setContext` | 2958 | Exported Function
+`set2DigitYearStart` | 2911 | Exported Function
+`DateFormatSymbols` | 984 | Exported Function
+`reset` | 2866 | Exported Function
+`setRawOffset` | 3105 | Exported Function
+`TimeZoneRule` | 2284 | Exported Function
+`CharacterIterator` | 3139 | Exported Function
+`Calendar` | 982 | Exported Function
+`ParsePosition` | 2758 | Exported Function
+`UnicodeString` | 3140 | Exported Function
+`reset` | 2854 | Exported Function
+`UnicodeSet` | 3204 | Exported Function
+`UnicodeSet` | 2712 | Exported Function
+`setOffset` | 3085 | Exported Function
+`clearCEs` | 1095 | Exported Function
+`UnicodeString` | 3138 | Exported Function
+`CharacterIterator` | 3137 | Exported Function
+`CollationData` | 2440 | Exported Function
+`makeReorderTable` | 2638 | Exported Function
+`disableFastLatin` | 1383 | Exported Function
+`setNumericPrimary` | 3084 | Exported Function
+`UnicodeString` | 940 | Exported Function
+`enableFastLatin` | 1403 | Exported Function
+`CEModifier` | 1206 | Exported Function
+`UnicodeString` | 945 | Exported Function
+`setMaxVariable` | 3057 | Exported Function
+`setFlag` | 3008 | Exported Function
+`setCaseFirst` | 2948 | Exported Function
+`setStrength` | 3132 | Exported Function
+`initForSecondary` | 2439 | Exported Function
+`initForPrimary` | 2438 | Exported Function
+`setVersion` | 3164 | Exported Function
+`setAlternateHandling` | 2929 | Exported Function
+`CollationSettings` | 2719 | Exported Function
+`setCurrentCE` | 2967 | Exported Function
+`clearCEsIfNoneRemaining` | 1096 | Exported Function
+`Importer` | 3026 | Exported Function
+`resetReordering` | 2874 | Exported Function
+`aliasReordering` | 1009 | Exported Function
+`Sink` | 3122 | Exported Function
+`setCompressibleLeadByte` | 2953 | Exported Function
+`setSkippedWallTimeOption` | 3123 | Exported Function
+`setRepeatedWallTimeOption` | 3112 | Exported Function
+`setMinimalDaysInFirstWeek` | 3067 | Exported Function
+`setTime` | 3144 | Exported Function
+`set` | 2922 | Exported Function
+`Ecliptic` | 732 | Exported Function
+`TimeZone` | 3149 | Exported Function
+`setLenient` | 3039 | Exported Function
+`set` | 2917 | Exported Function
+`roll` | 2886 | Exported Function
+`EDateFields` | 2885 | Exported Function
+`set` | 2914 | Exported Function
+`setFirstDayOfWeek` | 3007 | Exported Function
+`set` | 2916 | Exported Function
+`set` | 2915 | Exported Function
+`addRootElement` | 968 | Exported Function
+`UnicodeString` | 966 | Exported Function
+`setTime` | 3145 | Exported Function
+`addRootElements` | 969 | Exported Function
+`initHanRanges` | 2444 | Exported Function
+`init` | 2420 | Exported Function
+`UVector32` | 1068 | Exported Function
+`setJulianDay` | 3035 | Exported Function
+`getSunLongitude` | 2243 | Exported Function
+`set` | 2923 | Exported Function
+`Equatorial` | 733 | Exported Function
+`Horizon` | 734 | Exported Function
+`setDate` | 2971 | Exported Function
+`set` | 2925 | Exported Function
+`set` | 2924 | Exported Function
+`NumberFormat` | 3081 | Exported Function
+`setLenient` | 3040 | Exported Function
+`setContext` | 2954 | Exported Function
+`TimeZone` | 3150 | Exported Function
+`TimeZone` | 3151 | Exported Function
+`ParsePosition` | 2751 | Exported Function
+`TimeZone` | 1001 | Exported Function
+`setCalendarLenient` | 2946 | Exported Function
+`Calendar` | 981 | Exported Function
+`Formattable` | 2721 | Exported Function
+`ParsePosition` | 2720 | Exported Function
+`NumberFormat` | 994 | Exported Function
+`Calendar` | 2945 | Exported Function
+`ParsePosition` | 2750 | Exported Function
+`TimeZone` | 1000 | Exported Function
+`CurrencyPluralInfo` | 2965 | Exported Function
+`setCurrency` | 2961 | Exported Function
+`setCurrency` | 2960 | Exported Function
+`DecimalFormatSymbols` | 2979 | Exported Function
+`setFormatWidth` | 3011 | Exported Function
+`setExponentSignAlwaysShown` | 3001 | Exported Function
+`setDecimalSeparatorAlwaysShown` | 2982 | Exported Function
+`setContext` | 2955 | Exported Function
+`UnicodeString` | 1029 | Exported Function
+`DecimalFormatSymbols` | 985 | Exported Function
+`CurrencyPluralInfo` | 983 | Exported Function
+`UnicodeString` | 1028 | Exported Function
+`ParsePosition` | 2725 | Exported Function
+`UnicodeString` | 1034 | Exported Function
+`UnicodeString` | 1035 | Exported Function
+`ECollationStrength` | 3133 | Exported Function
+`EDateFields` | 936 | Exported Function
+`AnnualTimeZoneRule` | 2143 | Exported Function
+`getOffsetFromLocal` | 2056 | Exported Function
+`add` | 937 | Exported Function
+`setRelatedYear` | 3108 | Exported Function
+`roll` | 2888 | Exported Function
+`EDateFields` | 2887 | Exported Function
+`getDynamicClassID` | 1837 | Exported Function
+`getDynamicClassID` | 1832 | Exported Function
+`getDynamicClassID` | 1831 | Exported Function
+`getDynamicClassID` | 1830 | Exported Function
+`getDynamicClassID` | 1833 | Exported Function
+`getDynamicClassID` | 1836 | Exported Function
+`getDynamicClassID` | 1835 | Exported Function
+`getDynamicClassID` | 1834 | Exported Function
+`CollationData` | 1062 | Exported Function
+`CollationData` | 1061 | Exported Function
+`UnicodeString` | 2950 | Exported Function
+`UnicodeSet` | 2713 | Exported Function
+`setReorderCodes` | 3109 | Exported Function
+`Locale` | 3049 | Exported Function
+`UnicodeSet` | 3205 | Exported Function
+`UnicodeString` | 2951 | Exported Function
+`EDateFields` | 2889 | Exported Function
+`add` | 939 | Exported Function
+`EDateFields` | 938 | Exported Function
+`roll` | 2890 | Exported Function
+`ParsePosition` | 2717 | Exported Function
+`UnicodeString` | 1031 | Exported Function
+`UnicodeString` | 1032 | Exported Function
+`Formattable` | 2729 | Exported Function
+`Locale` | 3045 | Exported Function
+`Format` | 3012 | Exported Function
+`ParsePosition` | 2756 | Exported Function
+`setGroupingUsed` | 3021 | Exported Function
+`setCurrency` | 2962 | Exported Function
+`setContext` | 2956 | Exported Function
+`Format` | 3010 | Exported Function
+`UnicodeString` | 1038 | Exported Function
+`UnicodeString` | 1037 | Exported Function
+`Format` | 992 | Exported Function
+`UnicodeString` | 1036 | Exported Function
+`Format` | 3009 | Exported Function
+`ParsePosition` | 2755 | Exported Function
+`ParsePosition` | 2752 | Exported Function
+`reset` | 2857 | Exported Function
+`setRawOffset` | 3104 | Exported Function
+`TimeZoneRule` | 2283 | Exported Function
+`ParsePosition` | 2757 | Exported Function
+`setFindProgressCallback` | 3006 | Exported Function
+`getMatchCallback` | 1969 | Exported Function
+`getFindProgressCallback` | 1862 | Exported Function
+`getOffsetFromLocal` | 2057 | Exported Function
+`setMaximumIntegerDigits` | 3064 | Exported Function
+`setMaximumFractionDigits` | 3062 | Exported Function
+`setLenient` | 3041 | Exported Function
+`setMinimumFractionDigits` | 3070 | Exported Function
+`getOffset` | 2040 | Exported Function
+`setParseIntegerOnly` | 3093 | Exported Function
+`setMinimumIntegerDigits` | 3072 | Exported Function
+`Format` | 991 | Exported Function
+`UnicodeString` | 3088 | Exported Function
+`UnicodeString` | 3080 | Exported Function
+`UnicodeString` | 3079 | Exported Function
+`EPadPosition` | 3089 | Exported Function
+`UnicodeString` | 3100 | Exported Function
+`UnicodeString` | 3099 | Exported Function
+`setParseIntegerOnly` | 3092 | Exported Function
+`setMultiplier` | 3076 | Exported Function
+`setMaximumFractionDigits` | 3061 | Exported Function
+`setGroupingUsed` | 3020 | Exported Function
+`setGroupingSize` | 3019 | Exported Function
+`setMaximumIntegerDigits` | 3063 | Exported Function
+`setMinimumIntegerDigits` | 3071 | Exported Function
+`setMinimumFractionDigits` | 3069 | Exported Function
+`setMinimumExponentDigits` | 3068 | Exported Function
+`add` | 942 | Exported Function
+`EDateFields` | 941 | Exported Function
+`roll` | 2892 | Exported Function
+`EDateFields` | 2893 | Exported Function
+`Format` | 990 | Exported Function
+`ParsePosition` | 2754 | Exported Function
+`roll` | 2894 | Exported Function
+`EDateFields` | 2891 | Exported Function
+`setScientificNotation` | 3116 | Exported Function
+`ERoundingMode` | 3114 | Exported Function
+`setRoundingIncrement` | 3113 | Exported Function
+`setSecondaryGroupingSize` | 3117 | Exported Function
+`resetToOffset` | 2878 | Exported Function
+`resetToOffset` | 2877 | Exported Function
+`resetToOffset` | 2876 | Exported Function
 `u_vparseMessageWithError_53` | 3336 | Exported Function
 `u_vparseMessage_53` | 3337 | Exported Function
 `u_vformatMessageWithError_53` | 3334 | Exported Function
@@ -1744,9 +1744,9 @@ Function Name | Ordinal | Type
 `ucal_clearField_53` | 3339 | Exported Function
 `ucal_clear_53` | 3340 | Exported Function
 `u_vformatMessage_53` | 3335 | Exported Function
-`public: wchar_t const * __thiscall icu_53::ZNStringPool::get(wchar_t const *,enum UErrorCode &)` | 1610 | Exported Function
-`public: wchar_t const * __thiscall icu_53::ZNStringPool::get(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1609 | Exported Function
-`public: wchar_t const * __thiscall icu_53::ZNStringPool::adopt(wchar_t const *,enum UErrorCode &)` | 979 | Exported Function
+`get` | 1610 | Exported Function
+`UnicodeString` | 1609 | Exported Function
+`adopt` | 979 | Exported Function
 `u_formatMessage_53` | 3331 | Exported Function
 `u_parseMessageWithError_53` | 3332 | Exported Function
 `u_parseMessage_53` | 3333 | Exported Function
@@ -1766,37 +1766,37 @@ Function Name | Ordinal | Type
 `ucal_getCanonicalTimeZoneID_53` | 3347 | Exported Function
 `ucal_getAvailable_53` | 3346 | Exported Function
 `ucal_getAttribute_53` | 3345 | Exported Function
-`public: wchar_t const * __thiscall icu_53::OlsonTimeZone::getCanonicalID(void)const ` | 1707 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::setTimeZoneNames(class icu_53::TimeZoneNames const &)` | 3153 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::setGMTZeroFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3017 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::setGMTPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3016 | Exported Function
-`public: void __thiscall icu_53::TimeZoneNames::MatchInfoCollection::addMetaZone(enum UTimeZoneNameType,int,class icu_53::UnicodeString const &,enum UErrorCode &)` | 959 | Exported Function
-`public: void __thiscall icu_53::TimeZoneTransition::adoptTo(class icu_53::TimeZoneRule *)` | 1004 | Exported Function
-`public: void __thiscall icu_53::TimeZoneTransition::adoptFrom(class icu_53::TimeZoneRule *)` | 993 | Exported Function
-`public: void __thiscall icu_53::TimeZoneNames::MatchInfoCollection::addZone(enum UTimeZoneNameType,int,class icu_53::UnicodeString const &,enum UErrorCode &)` | 974 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::setGMTOffsetPattern(enum UTimeZoneFormatGMTOffsetPatternType,class icu_53::UnicodeString const &,enum UErrorCode &)` | 3015 | Exported Function
-`public: void __thiscall icu_53::TimeUnitFormat::setNumberFormat(class icu_53::NumberFormat const &,enum UErrorCode &)` | 3083 | Exported Function
-`public: void __thiscall icu_53::TimeUnitFormat::setLocale(class icu_53::Locale const &,enum UErrorCode &)` | 3047 | Exported Function
-`public: void __thiscall icu_53::TextTrieMap::search(class icu_53::UnicodeString const &,int,class icu_53::TextTrieMapSearchResultHandler *,enum UErrorCode &)const ` | 2902 | Exported Function
-`public: void __thiscall icu_53::TimeZone::setID(class icu_53::UnicodeString const &)` | 3022 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::setGMTOffsetDigits(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3014 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::setDefaultParseOptions(unsigned int)` | 2985 | Exported Function
-`public: void __thiscall icu_53::TimeZoneFormat::adoptTimeZoneNames(class icu_53::TimeZoneNames *)` | 1003 | Exported Function
-`public: void __thiscall icu_53::ZNStringPool::freeze(void)` | 1594 | Exported Function
-`public: void __thiscall icu_53::VTimeZone::writeSimple(double,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 3298 | Exported Function
-`public: void __thiscall icu_53::VTimeZone::write(double,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 3290 | Exported Function
-`public: wchar_t const * __thiscall icu_53::CurrencyAmount::getISOCurrency(void)const ` | 1905 | Exported Function
-`public: wchar_t const * __thiscall icu_53::NumberFormat::getCurrency(void)const ` | 1737 | Exported Function
-`public: wchar_t const * __thiscall icu_53::DecimalFormatSymbols::getCurrencyPattern(void)const ` | 1738 | Exported Function
-`public: wchar_t const * __thiscall icu_53::CurrencyUnit::getISOCurrency(void)const ` | 1906 | Exported Function
-`public: void __thiscall icu_53::VTimeZone::write(class icu_53::UnicodeString &,enum UErrorCode &)const ` | 3289 | Exported Function
-`public: void __thiscall icu_53::TimeZoneTransition::setTo(class icu_53::TimeZoneRule const &)` | 3155 | Exported Function
-`public: void __thiscall icu_53::TimeZoneTransition::setTime(double)` | 3146 | Exported Function
-`public: void __thiscall icu_53::TimeZoneTransition::setFrom(class icu_53::TimeZoneRule const &)` | 3013 | Exported Function
-`public: void __thiscall icu_53::Transliterator::adoptFilter(class icu_53::UnicodeFilter *)` | 989 | Exported Function
-`public: void __thiscall icu_53::VTimeZone::setTZURL(class icu_53::UnicodeString const &)` | 3136 | Exported Function
-`public: void __thiscall icu_53::VTimeZone::setLastModified(double)` | 3036 | Exported Function
-`public: void __thiscall icu_53::UTF16CollationIterator::setText(wchar_t const *,wchar_t const *)` | 3143 | Exported Function
+`getCanonicalID` | 1707 | Exported Function
+`TimeZoneNames` | 3153 | Exported Function
+`UnicodeString` | 3017 | Exported Function
+`UnicodeString` | 3016 | Exported Function
+`UnicodeString` | 959 | Exported Function
+`TimeZoneRule` | 1004 | Exported Function
+`TimeZoneRule` | 993 | Exported Function
+`UnicodeString` | 974 | Exported Function
+`UnicodeString` | 3015 | Exported Function
+`NumberFormat` | 3083 | Exported Function
+`Locale` | 3047 | Exported Function
+`TextTrieMapSearchResultHandler` | 2902 | Exported Function
+`UnicodeString` | 3022 | Exported Function
+`UnicodeString` | 3014 | Exported Function
+`setDefaultParseOptions` | 2985 | Exported Function
+`TimeZoneNames` | 1003 | Exported Function
+`freeze` | 1594 | Exported Function
+`UnicodeString` | 3298 | Exported Function
+`UnicodeString` | 3290 | Exported Function
+`getISOCurrency` | 1905 | Exported Function
+`getCurrency` | 1737 | Exported Function
+`getCurrencyPattern` | 1738 | Exported Function
+`getISOCurrency` | 1906 | Exported Function
+`UnicodeString` | 3289 | Exported Function
+`TimeZoneRule` | 3155 | Exported Function
+`setTime` | 3146 | Exported Function
+`TimeZoneRule` | 3013 | Exported Function
+`UnicodeFilter` | 989 | Exported Function
+`UnicodeString` | 3136 | Exported Function
+`setLastModified` | 3036 | Exported Function
+`setText` | 3143 | Exported Function
 `ucol_getKeywordValues_53` | 3398 | Exported Function
 `ucol_getKeywords_53` | 3399 | Exported Function
 `ucol_getFunctionalEquivalent_53` | 3396 | Exported Function
@@ -1858,800 +1858,800 @@ Function Name | Ordinal | Type
 `ucal_setDateTime_53` | 3376 | Exported Function
 `ucal_setDate_53` | 3377 | Exported Function
 `ucal_setAttribute_53` | 3375 | Exported Function
-`public: void __thiscall icu_53::DigitList::set(__int64)` | 2921 | Exported Function
-`public: void __thiscall icu_53::DigitList::roundFixedPoint(int)` | 2896 | Exported Function
-`public: void __thiscall icu_53::DigitList::round(int)` | 2895 | Exported Function
-`public: void __thiscall icu_53::DigitList::set(class icu_53::StringPiece const &,enum UErrorCode &,unsigned int)` | 2918 | Exported Function
-`public: void __thiscall icu_53::DigitList::setCount(int)` | 2959 | Exported Function
-`public: void __thiscall icu_53::DigitList::set(int)` | 2919 | Exported Function
-`public: void __thiscall icu_53::DigitList::set(double)` | 2920 | Exported Function
-`public: void __thiscall icu_53::DigitList::reduce(void)` | 2828 | Exported Function
-`public: void __thiscall icu_53::DigitList::clear(void)` | 1092 | Exported Function
-`public: void __thiscall icu_53::DigitList::append(char)` | 1014 | Exported Function
-`public: void __thiscall icu_53::DecimalFormatSymbols::setSymbol(enum icu_53::DecimalFormatSymbols::ENumberFormatSymbol,class icu_53::UnicodeString const &,signed char)` | 3135 | Exported Function
-`public: void __thiscall icu_53::DigitList::div(class icu_53::DigitList const &,enum UErrorCode &)` | 1390 | Exported Function
-`public: void __thiscall icu_53::DigitList::mult(class icu_53::DigitList const &,enum UErrorCode &)` | 2667 | Exported Function
-`public: void __thiscall icu_53::DigitList::getDecimal(class icu_53::CharString &,enum UErrorCode &)` | 1759 | Exported Function
-`public: void __thiscall icu_53::DigitList::ensureCapacity(int,enum UErrorCode &)` | 1419 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::remove(enum UDateFormatBooleanAttribute)` | 2844 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::clear(void)` | 1088 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::add(enum UDateFormatBooleanAttribute)` | 934 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::set(enum UDateFormatBooleanAttribute,int)` | 2912 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::remove(enum UNumberFormatAttribute)` | 2845 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::clear(void)` | 1089 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::add(enum UNumberFormatAttribute)` | 935 | Exported Function
-`public: void __thiscall icu_53::DigitList::trim(void)` | 3252 | Exported Function
-`public: void __thiscall icu_53::DigitList::setInteger(__int64)` | 3029 | Exported Function
-`public: void __thiscall icu_53::DigitList::setDigit(int,char)` | 2988 | Exported Function
-`public: void __thiscall icu_53::DigitList::setDecimalAt(int)` | 2978 | Exported Function
-`public: void __thiscall icu_53::DigitList::setPositive(signed char)` | 3098 | Exported Function
-`public: void __thiscall icu_53::DigitList::toIntegralValue(void)` | 3222 | Exported Function
-`public: void __thiscall icu_53::DigitList::setToZero(void)` | 3157 | Exported Function
-`public: void __thiscall icu_53::DigitList::setRoundingMode(enum icu_53::DecimalFormat::ERoundingMode)` | 3115 | Exported Function
-`public: void __thiscall icu_53::DecimalFormatSymbols::setPatternForCurrencySpacing(enum UCurrencySpacing,signed char,class icu_53::UnicodeString const &)` | 3095 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setMonths(class icu_53::UnicodeString const *,int)` | 3074 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setLocalPatternChars(class icu_53::UnicodeString const &)` | 3043 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setEras(class icu_53::UnicodeString const *,int)` | 2999 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setMonths(class icu_53::UnicodeString const *,int,enum icu_53::DateFormatSymbols::DtContextType,enum icu_53::DateFormatSymbols::DtWidthType)` | 3075 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setShortMonths(class icu_53::UnicodeString const *,int)` | 3119 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setQuarters(class icu_53::UnicodeString const *,int,enum icu_53::DateFormatSymbols::DtContextType,enum icu_53::DateFormatSymbols::DtWidthType)` | 3102 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setNarrowEras(class icu_53::UnicodeString const *,int)` | 3078 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setEraNames(class icu_53::UnicodeString const *,int)` | 2998 | Exported Function
-`public: void __thiscall icu_53::CompoundTransliterator::setTransliterators(class icu_53::Transliterator * const * const,int)` | 3159 | Exported Function
-`public: void __thiscall icu_53::CompoundTransliterator::adoptTransliterators(class icu_53::Transliterator * * const,int)` | 1005 | Exported Function
-`public: void __thiscall icu_53::CollationWeights::initForTertiary(void)` | 2441 | Exported Function
-`public: void __thiscall icu_53::CurrencyPluralInfo::setCurrencyPluralPattern(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 2966 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setAmPmStrings(class icu_53::UnicodeString const *,int)` | 2930 | Exported Function
-`public: void __thiscall icu_53::CurrencyPluralInfo::setPluralRules(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3097 | Exported Function
-`public: void __thiscall icu_53::CurrencyPluralInfo::setLocale(class icu_53::Locale const &,enum UErrorCode &)` | 3044 | Exported Function
-`public: void __thiscall icu_53::DateTimePatternGenerator::setDecimal(class icu_53::UnicodeString const &)` | 2977 | Exported Function
-`public: void __thiscall icu_53::DateTimePatternGenerator::setDateTimeFormat(class icu_53::UnicodeString const &)` | 2975 | Exported Function
-`public: void __thiscall icu_53::DateTimePatternGenerator::setAppendItemName(enum UDateTimePatternField,class icu_53::UnicodeString const &)` | 2932 | Exported Function
-`public: void __thiscall icu_53::DecimalFormat::setMaximumSignificantDigits(int)` | 3065 | Exported Function
-`public: void __thiscall icu_53::DecimalFormat::setSignificantDigitsUsed(signed char)` | 3121 | Exported Function
-`public: void __thiscall icu_53::DecimalFormat::setParseAllInput(enum UNumberFormatAttributeValue)` | 3090 | Exported Function
-`public: void __thiscall icu_53::DecimalFormat::setMinimumSignificantDigits(int)` | 3073 | Exported Function
-`public: void __thiscall icu_53::DateTimePatternGenerator::setAppendItemFormat(enum UDateTimePatternField,class icu_53::UnicodeString const &)` | 2931 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setWeekdays(class icu_53::UnicodeString const *,int,enum icu_53::DateFormatSymbols::DtContextType,enum icu_53::DateFormatSymbols::DtWidthType)` | 3167 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setWeekdays(class icu_53::UnicodeString const *,int)` | 3166 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setShortWeekdays(class icu_53::UnicodeString const *,int)` | 3120 | Exported Function
-`public: void __thiscall icu_53::DateFormatSymbols::setZoneStrings(class icu_53::UnicodeString const * const *,int,int)` | 3168 | Exported Function
-`public: void __thiscall icu_53::DateIntervalInfo::setIntervalPattern(class icu_53::UnicodeString const &,enum UCalendarDateFields,class icu_53::UnicodeString const &,enum UErrorCode &)` | 3033 | Exported Function
-`public: void __thiscall icu_53::DateIntervalInfo::setFallbackIntervalPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3002 | Exported Function
-`public: void __thiscall icu_53::DateIntervalFormat::setDateIntervalInfo(class icu_53::DateIntervalInfo const &,enum UErrorCode &)` | 2974 | Exported Function
-`public: void __thiscall icu_53::SearchIterator::setBreakIterator(class icu_53::BreakIterator *,enum UErrorCode &)` | 2943 | Exported Function
-`public: void __thiscall icu_53::SearchIterator::setAttribute(enum USearchAttribute,enum USearchAttributeValue,enum UErrorCode &)` | 2937 | Exported Function
-`public: void __thiscall icu_53::SearchIterator::getMatchedText(class icu_53::UnicodeString &)const ` | 1973 | Exported Function
-`public: void __thiscall icu_53::SelectFormat::applyPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1040 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setEndRule(int,int,int,enum UErrorCode &)` | 2992 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setEndRule(int,int,int,enum icu_53::SimpleTimeZone::TimeMode,enum UErrorCode &)` | 2997 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setDSTSavings(int,enum UErrorCode &)` | 2969 | Exported Function
-`public: void __thiscall icu_53::RuleBasedTimeZone::complete(enum UErrorCode &)` | 1178 | Exported Function
-`public: void __thiscall icu_53::RuleBasedCollator::internalAddContractions(int,class icu_53::UnicodeSet &,enum UErrorCode &)const ` | 2480 | Exported Function
-`public: void __thiscall icu_53::RuleBasedCollator::getRules(enum UColRuleOption,class icu_53::UnicodeString &)const ` | 2125 | Exported Function
-`public: void __thiscall icu_53::RegexPattern::dumpPattern(void)const ` | 1397 | Exported Function
-`public: void __thiscall icu_53::RuleBasedCollator::internalBuildTailoring(class icu_53::UnicodeString const &,int,enum UColAttributeValue,struct UParseError *,class icu_53::UnicodeString *,enum UErrorCode &)` | 2481 | Exported Function
-`public: void __thiscall icu_53::RuleBasedTimeZone::addTransitionRule(class icu_53::TimeZoneRule *,enum UErrorCode &)` | 971 | Exported Function
-`public: void __thiscall icu_53::RuleBasedCollator::internalGetContractionsAndExpansions(class icu_53::UnicodeSet *,class icu_53::UnicodeSet *,signed char,enum UErrorCode &)const ` | 2492 | Exported Function
-`public: void __thiscall icu_53::RuleBasedCollator::internalGetCEs(class icu_53::UnicodeString const &,class icu_53::UVector64 &,enum UErrorCode &)const ` | 2490 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartYear(int)` | 3131 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartRule(int,int,int,int,signed char,enum UErrorCode &)` | 3127 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartRule(int,int,int,int,enum UErrorCode &)` | 3126 | Exported Function
-`public: void __thiscall icu_53::StringSearch::setCollator(class icu_53::RuleBasedCollator *,enum UErrorCode &)` | 2952 | Exported Function
-`public: void __thiscall icu_53::TextTrieMap::put(wchar_t const *,void *,enum UErrorCode &)` | 2816 | Exported Function
-`public: void __thiscall icu_53::TextTrieMap::put(class icu_53::UnicodeString const &,void *,class icu_53::ZNStringPool &,enum UErrorCode &)` | 2815 | Exported Function
-`public: void __thiscall icu_53::StringSearch::setPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3094 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartRule(int,int,int,int,enum icu_53::SimpleTimeZone::TimeMode,signed char,enum UErrorCode &)` | 3129 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setEndRule(int,int,int,int,enum UErrorCode &)` | 2993 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setEndRule(int,int,int,int,enum icu_53::SimpleTimeZone::TimeMode,signed char,enum UErrorCode &)` | 2996 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setEndRule(int,int,int,int,enum icu_53::SimpleTimeZone::TimeMode,enum UErrorCode &)` | 2995 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setEndRule(int,int,int,int,signed char,enum UErrorCode &)` | 2994 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartRule(int,int,int,int,enum icu_53::SimpleTimeZone::TimeMode,enum UErrorCode &)` | 3128 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartRule(int,int,int,enum UErrorCode &)` | 3125 | Exported Function
-`public: void __thiscall icu_53::SimpleTimeZone::setStartRule(int,int,int,enum icu_53::SimpleTimeZone::TimeMode,enum UErrorCode &)` | 3130 | Exported Function
-`public: void __thiscall icu_53::RegexMatcher::setTrace(signed char)` | 3158 | Exported Function
-`public: void __thiscall icu_53::Formattable::adoptObject(class icu_53::UObject *)` | 996 | Exported Function
-`public: void __thiscall icu_53::Formattable::adoptDigitList(class icu_53::DigitList *)` | 988 | Exported Function
-`public: void __thiscall icu_53::Formattable::adoptArray(class icu_53::Formattable *,int)` | 980 | Exported Function
-`public: void __thiscall icu_53::Formattable::adoptString(class icu_53::UnicodeString *)` | 997 | Exported Function
-`public: void __thiscall icu_53::Formattable::setDecimalNumber(class icu_53::StringPiece const &,enum UErrorCode &)` | 2981 | Exported Function
-`public: void __thiscall icu_53::Formattable::setDate(double)` | 2972 | Exported Function
-`public: void __thiscall icu_53::Formattable::setArray(class icu_53::Formattable const *,int)` | 2934 | Exported Function
-`public: void __thiscall icu_53::Format::parseObject(class icu_53::UnicodeString const &,class icu_53::Formattable &,enum UErrorCode &)const ` | 2753 | Exported Function
-`public: void __thiscall icu_53::FieldPosition::setEndIndex(int)` | 2991 | Exported Function
-`public: void __thiscall icu_53::FieldPosition::setBeginIndex(int)` | 2941 | Exported Function
-`public: void __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::set(enum UNumberFormatAttribute,int)` | 2913 | Exported Function
-`public: void __thiscall icu_53::FieldPosition::setField(int)` | 3005 | Exported Function
-`public: void __thiscall icu_53::FixedDecimal::init(double,int,__int64)` | 2425 | Exported Function
-`public: void __thiscall icu_53::FixedDecimal::init(double)` | 2424 | Exported Function
-`public: void __thiscall icu_53::FixedDecimal::adjustForMinFractionDigits(int)` | 978 | Exported Function
-`public: void __thiscall icu_53::PluralFormat::PluralSelectorAdapter::reset(void)` | 2858 | Exported Function
-`public: void __thiscall icu_53::PluralFormat::applyPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1039 | Exported Function
-`public: void __thiscall icu_53::OlsonTimeZone::initTransitionRules(enum UErrorCode &)` | 2457 | Exported Function
-`public: void __thiscall icu_53::PluralFormat::setLocale(class icu_53::Locale const &,enum UErrorCode &)` | 3046 | Exported Function
-`public: void __thiscall icu_53::RegexMatcher::resetPreserveRegion(void)` | 2872 | Exported Function
-`public: void __thiscall icu_53::QuantityFormatter::reset(void)` | 2860 | Exported Function
-`public: void __thiscall icu_53::PluralFormat::setNumberFormat(class icu_53::NumberFormat const *,enum UErrorCode &)` | 3082 | Exported Function
-`public: void __thiscall icu_53::MessageFormat::PluralSelectorProvider::reset(void)` | 2859 | Exported Function
-`public: void __thiscall icu_53::Formattable::setLong(int)` | 3051 | Exported Function
-`public: void __thiscall icu_53::Formattable::setInt64(__int64)` | 3028 | Exported Function
-`public: void __thiscall icu_53::Formattable::setDouble(double)` | 2990 | Exported Function
-`public: void __thiscall icu_53::Formattable::setString(class icu_53::UnicodeString const &)` | 3134 | Exported Function
-`public: void __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::aliasInstead(struct decNumber *,int)` | 1008 | Exported Function
-`public: void __thiscall icu_53::IslamicCalendar::setCalculationType(enum icu_53::IslamicCalendar::ECalculationType,enum UErrorCode &)` | 2944 | Exported Function
-`public: void __thiscall icu_53::GregorianCalendar::setGregorianChange(double,enum UErrorCode &)` | 3018 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::TimeZone::createEnumeration(char const *)` | 1262 | Exported Function
-`private: void __thiscall icu_53::DecimalFormatSymbols::initialize(class icu_53::Locale const &,enum UErrorCode &,signed char)` | 2463 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::setupCurrencyAffixPatterns(enum UErrorCode &)` | 3170 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::setupCurrencyAffixes(class icu_53::UnicodeString const &,signed char,signed char,enum UErrorCode &)` | 3171 | Exported Function
-`private: void __thiscall icu_53::DecimalFormatSymbols::initialize(void)` | 2464 | Exported Function
-`private: void __thiscall icu_53::DigitList::internalSetInt64(__int64)` | 2506 | Exported Function
-`private: void __thiscall icu_53::DigitList::internalSetDouble(double)` | 2505 | Exported Function
-`private: void __thiscall icu_53::DigitList::internalClear(void)` | 2482 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::setCurrencyForSymbols(void)` | 2963 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::expandAffixAdjustWidth(class icu_53::UnicodeString const *)` | 1427 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::expandAffix(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,double,class icu_53::FieldPositionHandler &,signed char,class icu_53::UnicodeString const *)const ` | 1426 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::deleteHashForAffixPattern(void)` | 1373 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::expandAffixes(class icu_53::UnicodeString const *)` | 1428 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::parse(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &,wchar_t *)const ` | 2724 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::init(void)` | 2423 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::handleChanged(void)` | 2325 | Exported Function
-`private: void __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::releaseMemory(void)` | 2843 | Exported Function
-`private: void __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::operator=(class icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40> const &)` | 433 | Exported Function
-`private: void __thiscall icu_53::Formattable::init(void)` | 2426 | Exported Function
-`private: void __thiscall icu_53::MeasureUnit::setTo(int,int)` | 3154 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::format(int,void const *,class icu_53::Formattable const *,class icu_53::UnicodeString const *,int,class icu_53::AppendableWrapper &,class icu_53::FieldPosition *,enum UErrorCode &)const ` | 1523 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::copyObjects(class icu_53::MessageFormat const &,enum UErrorCode &)` | 1214 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::cacheExplicitFormats(enum UErrorCode &)` | 1070 | Exported Function
-`private: void __thiscall icu_53::Formattable::dispose(void)` | 1387 | Exported Function
-`private: void __thiscall icu_53::FCDUTF16CollationIterator::switchToBackward(void)` | 3207 | Exported Function
-`private: void __thiscall icu_53::FCDUIterCollationIterator::switchToForward(void)` | 3209 | Exported Function
-`private: void __thiscall icu_53::FCDUIterCollationIterator::switchToBackward(void)` | 3206 | Exported Function
-`private: void __thiscall icu_53::FCDUTF16CollationIterator::switchToForward(void)` | 3210 | Exported Function
-`private: void __thiscall icu_53::FieldPositionIterator::setData(class icu_53::UVector32 *,enum UErrorCode &)` | 2970 | Exported Function
-`private: void __thiscall icu_53::FCDUTF8CollationIterator::switchToForward(void)` | 3211 | Exported Function
-`private: void __thiscall icu_53::FCDUTF8CollationIterator::switchToBackward(void)` | 3208 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::deleteHashForAffix(class icu_53::Hashtable * &)` | 1372 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::addCanonicalItems(void)` | 948 | Exported Function
-`private: void __thiscall icu_53::DateIntervalInfo::setIntervalPatternInternally(class icu_53::UnicodeString const &,enum UCalendarDateFields,class icu_53::UnicodeString const &,enum UErrorCode &)` | 3034 | Exported Function
-`private: void __thiscall icu_53::DateIntervalInfo::initializeData(class icu_53::Locale const &,enum UErrorCode &)` | 2469 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::addCLDRData(class icu_53::Locale const &,enum UErrorCode &)` | 947 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::getAppendName(enum UDateTimePatternField,class icu_53::UnicodeString &)` | 1630 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::copyHashtable(class icu_53::Hashtable *,enum UErrorCode &)` | 1213 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::addICUPatterns(class icu_53::Locale const &,enum UErrorCode &)` | 954 | Exported Function
-`private: void __thiscall icu_53::DateIntervalInfo::deleteHash(class icu_53::Hashtable *)` | 1370 | Exported Function
-`private: void __thiscall icu_53::DateIntervalFormat::setFallbackPattern(enum UCalendarDateFields,class icu_53::UnicodeString const &,enum UErrorCode &)` | 3003 | Exported Function
-`private: void __thiscall icu_53::DateIntervalFormat::initializePattern(enum UErrorCode &)` | 2471 | Exported Function
-`private: void __thiscall icu_53::DateIntervalFormat::concatSingleDate2TimeInterval(wchar_t const *,int,class icu_53::UnicodeString const &,enum UCalendarDateFields,enum UErrorCode &)` | 1193 | Exported Function
-`private: void __thiscall icu_53::DateIntervalFormat::setIntervalPattern(enum UCalendarDateFields,class icu_53::UnicodeString const &)` | 3031 | Exported Function
-`private: void __thiscall icu_53::DateIntervalInfo::copyHash(class icu_53::Hashtable const *,class icu_53::Hashtable *,enum UErrorCode &)` | 1209 | Exported Function
-`private: void __thiscall icu_53::DateIntervalFormat::setPatternInfo(enum UCalendarDateFields,class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,signed char)` | 3096 | Exported Function
-`private: void __thiscall icu_53::DateIntervalFormat::setIntervalPattern(enum UCalendarDateFields,class icu_53::UnicodeString const &,signed char)` | 3032 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::applyPatternInternally(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,signed char,struct UParseError &,enum UErrorCode &)` | 1042 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::applyPattern(class icu_53::UnicodeString const &,signed char,struct UParseError &,enum UErrorCode &)` | 1033 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::appendAffixPattern(class icu_53::UnicodeString &,class icu_53::UnicodeString const *,class icu_53::UnicodeString const &,signed char)const ` | 1017 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::applyPatternWithoutExpandAffix(class icu_53::UnicodeString const &,signed char,struct UParseError &,enum UErrorCode &)` | 1043 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::copyHashForAffixPattern(class icu_53::Hashtable const *,class icu_53::Hashtable *,enum UErrorCode &)` | 1212 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::copyHashForAffix(class icu_53::Hashtable const *,class icu_53::Hashtable *,enum UErrorCode &)` | 1211 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::construct(enum UErrorCode &,struct UParseError &,class icu_53::UnicodeString const *,class icu_53::DecimalFormatSymbols *)` | 1194 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::appendAffixPattern(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,signed char)const ` | 1016 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::initHashtable(enum UErrorCode &)` | 2450 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::initData(class icu_53::Locale const &,enum UErrorCode &)` | 2435 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::hackTimes(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2324 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::setAvailableFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2940 | Exported Function
-`private: void __thiscall icu_53::DecimalFormat::addPadding(class icu_53::UnicodeString &,class icu_53::FieldPositionHandler &,int,int)const ` | 961 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::setDecimalSymbols(class icu_53::Locale const &,enum UErrorCode &)` | 2983 | Exported Function
-`private: void __thiscall icu_53::DateTimePatternGenerator::setDateTimeFromCalendar(class icu_53::Locale const &,enum UErrorCode &)` | 2976 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::initializeBooleanAttributes(void)` | 2466 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::initialize(class icu_53::Locale const &,enum UErrorCode &)` | 2465 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::construct(enum icu_53::DateFormat::EStyle,enum icu_53::DateFormat::EStyle,class icu_53::Locale const &,enum UErrorCode &)` | 1195 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::initializeDefaultCentury(void)` | 2470 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::parseAmbiguousDatesAsAfter(double,enum UErrorCode &)` | 2737 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::initNumberFormatters(class icu_53::Locale const &,enum UErrorCode &)` | 2454 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::initializeSymbols(class icu_53::Locale const &,class icu_53::Calendar *,enum UErrorCode &)` | 2473 | Exported Function
-`private: void __thiscall icu_53::RuleBasedTimeZone::getOffsetInternal(double,signed char,int,int,int &,int &,enum UErrorCode &)const ` | 2060 | Exported Function
-`private: void __thiscall icu_53::RuleBasedNumberFormat::initDefaultRuleSet(void)` | 2437 | Exported Function
-`private: void __thiscall icu_53::RuleBasedNumberFormat::initCapitalizationContextInfo(class icu_53::Locale const &)` | 2433 | Exported Function
-`private: void __thiscall icu_53::RuleBasedNumberFormat::init(class icu_53::UnicodeString const &,class icu_53::LocalizationInfo *,struct UParseError &,enum UErrorCode &)` | 2431 | Exported Function
-`private: void __thiscall icu_53::RuleBasedNumberFormat::stripWhitespace(class icu_53::UnicodeString &)` | 3198 | Exported Function
-`private: void __thiscall icu_53::RuleBasedTimeZone::deleteTransitions(void)` | 1377 | Exported Function
-`private: void __thiscall icu_53::RuleBasedTimeZone::deleteRules(void)` | 1374 | Exported Function
-`private: void __thiscall icu_53::RuleBasedTimeZone::completeConst(enum UErrorCode &)const ` | 1179 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::decodeStartRule(enum UErrorCode &)` | 1360 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::decodeRules(enum UErrorCode &)` | 1359 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::decodeEndRule(enum UErrorCode &)` | 1358 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::deleteTransitionRules(void)` | 1376 | Exported Function
-`private: void __thiscall icu_53::TextTrieMap::putImpl(class icu_53::UnicodeString const &,void *,enum UErrorCode &)` | 2817 | Exported Function
-`private: void __thiscall icu_53::TextTrieMap::buildTrie(enum UErrorCode &)` | 1069 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::initTransitionRules(enum UErrorCode &)` | 2458 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::construct(int,signed char,signed char,signed char,int,enum icu_53::SimpleTimeZone::TimeMode,signed char,signed char,signed char,int,enum icu_53::SimpleTimeZone::TimeMode,int,enum UErrorCode &)` | 1196 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::processOverrideString(class icu_53::Locale const &,class icu_53::UnicodeString const &,signed char,enum UErrorCode &)` | 2814 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::parseInt(class icu_53::UnicodeString const &,class icu_53::Formattable &,int,class icu_53::ParsePosition &,signed char,class icu_53::NumberFormat *)const ` | 2749 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::parseInt(class icu_53::UnicodeString const &,class icu_53::Formattable &,class icu_53::ParsePosition &,signed char,class icu_53::NumberFormat *)const ` | 2748 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::subFormat(class icu_53::UnicodeString &,wchar_t,int,enum UDisplayContext,int,class icu_53::FieldPositionHandler &,class icu_53::Calendar &,enum UErrorCode &)const ` | 3199 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::clearTransitionRules(void)` | 1101 | Exported Function
-`private: void __thiscall icu_53::SimpleTimeZone::checkTransitionRules(enum UErrorCode &)const ` | 1085 | Exported Function
-`private: void __thiscall icu_53::SimpleDateFormat::zeroPaddingNumber(class icu_53::NumberFormat *,class icu_53::UnicodeString &,int,int,int)const ` | 3314 | Exported Function
-`private: void __thiscall icu_53::RuleBasedNumberFormat::dispose(void)` | 1388 | Exported Function
-`private: void __thiscall icu_53::OlsonTimeZone::constructEmpty(void)` | 1197 | Exported Function
-`private: void __thiscall icu_53::OlsonTimeZone::clearTransitionRules(void)` | 1100 | Exported Function
-`private: void __thiscall icu_53::OlsonTimeZone::checkTransitionRules(enum UErrorCode &)const ` | 1084 | Exported Function
-`private: void __thiscall icu_53::OlsonTimeZone::deleteTransitionRules(void)` | 1375 | Exported Function
-`private: void __thiscall icu_53::PluralFormat::init(class icu_53::PluralRules const *,enum UPluralType,enum UErrorCode &)` | 2427 | Exported Function
-`private: void __thiscall icu_53::PluralFormat::copyObjects(class icu_53::PluralFormat const &)` | 1215 | Exported Function
-`private: void __thiscall icu_53::OlsonTimeZone::getHistoricalOffset(double,signed char,int,int,int &,int &)const ` | 1901 | Exported Function
-`private: void __thiscall icu_53::NumberingSystem::setRadix(int)` | 3103 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::setArgStartFormat(int,class icu_53::Format *,enum UErrorCode &)` | 2933 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::resetPattern(void)` | 2871 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::formatComplexSubMessage(int,void const *,class icu_53::Formattable const *,class icu_53::UnicodeString const *,int,class icu_53::AppendableWrapper &,enum UErrorCode &)const ` | 1564 | Exported Function
-`private: void __thiscall icu_53::MessageFormat::setCustomArgStartFormat(int,class icu_53::Format *,enum UErrorCode &)` | 2968 | Exported Function
-`private: void __thiscall icu_53::NumberingSystem::setName(char const *)` | 3077 | Exported Function
-`private: void __thiscall icu_53::NumberingSystem::setDesc(class icu_53::UnicodeString)` | 2987 | Exported Function
-`private: void __thiscall icu_53::NumberingSystem::setAlgorithmic(signed char)` | 2927 | Exported Function
-`private: void __thiscall icu_53::RuleBasedCollator::setAttributeDefault(int)` | 2938 | Exported Function
-`private: void __thiscall icu_53::RuleBasedCollator::adoptTailoring(struct icu_53::CollationTailoring *)` | 998 | Exported Function
-`private: void __thiscall icu_53::RelativeDateTimeFormatter::init(class icu_53::Locale const &,class icu_53::NumberFormat *,enum UErrorCode &)` | 2430 | Exported Function
-`private: void __thiscall icu_53::RuleBasedCollator::setAttributeExplicitly(int)` | 2939 | Exported Function
-`private: void __thiscall icu_53::RuleBasedCollator::writeSortKey(wchar_t const *,int,class icu_53::SortKeyByteSink &,enum UErrorCode &)const ` | 3299 | Exported Function
-`private: void __thiscall icu_53::RuleBasedCollator::writeIdenticalLevel(wchar_t const *,wchar_t const *,class icu_53::SortKeyByteSink &,enum UErrorCode &)const ` | 3295 | Exported Function
-`private: void __thiscall icu_53::RuleBasedCollator::setFastLatinOptions(struct icu_53::CollationSettings &)const ` | 3004 | Exported Function
-`private: void __thiscall icu_53::RegexPattern::zap(void)` | 3313 | Exported Function
-`private: void __thiscall icu_53::RegexMatcher::init2(struct UText *,enum UErrorCode &)` | 2418 | Exported Function
-`private: void __thiscall icu_53::RegexMatcher::init(enum UErrorCode &)` | 2428 | Exported Function
-`private: void __thiscall icu_53::RegexMatcher::IncrementTime(enum UErrorCode &)` | 789 | Exported Function
-`private: void __thiscall icu_53::RegexMatcher::MatchAt(__int64,signed char,enum UErrorCode &)` | 828 | Exported Function
-`private: void __thiscall icu_53::RegexPattern::init(void)` | 2429 | Exported Function
-`private: void __thiscall icu_53::RegexPattern::dumpOp(int)const ` | 1396 | Exported Function
-`private: void __thiscall icu_53::RegexMatcher::MatchChunkAt(int,signed char,enum UErrorCode &)` | 829 | Exported Function
-`private: unsigned char const * __thiscall icu_53::CollationKey::getBytes(void)const ` | 1685 | Exported Function
-`private: unsigned char * __thiscall icu_53::CollationKey::reallocate(int,int)` | 2826 | Exported Function
-`private: unsigned char * __thiscall icu_53::CollationKey::getBytes(void)` | 1684 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationBuilder::addIfDifferent(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,__int64 const * const,int,unsigned int,enum UErrorCode &)` | 955 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationFastLatinBuilder::encodeTwoCEs(__int64,__int64)const ` | 1412 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationBuilder::addWithClosure(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,__int64 const * const,int,unsigned int,enum UErrorCode &)` | 973 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationBuilder::addOnlyClosure(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,__int64 const * const,int,unsigned int,enum UErrorCode &)` | 960 | Exported Function
-`private: struct icu_53::REStackFrame * __thiscall icu_53::RegexMatcher::StateSave(struct icu_53::REStackFrame *,__int64,enum UErrorCode &)` | 882 | Exported Function
-`private: static wchar_t const * const icu_53::DateIntervalFormat::fgCalendarFieldToPatternLetter` | 1433 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::ZoneMeta::getShortIDFromCanonical(wchar_t const *)` | 2139 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::TimeZone::getRegion(class icu_53::UnicodeString const &)` | 2099 | Exported Function
-`private: struct icu_53::CharacterNode * __thiscall icu_53::TextTrieMap::addChildNode(struct icu_53::CharacterNode *,wchar_t,enum UErrorCode &)` | 949 | Exported Function
-`private: struct icu_53::REStackFrame * __thiscall icu_53::RegexMatcher::resetStack(void)` | 2875 | Exported Function
-`private: struct icu_53::CollationSettings const & __thiscall icu_53::RuleBasedCollator::getDefaultSettings(void)const ` | 1772 | Exported Function
-`private: struct icu_53::CharacterNode * __thiscall icu_53::TextTrieMap::getChildNode(struct icu_53::CharacterNode *,wchar_t)const ` | 1715 | Exported Function
-`private: virtual int __thiscall icu_53::ChineseCalendar::newYear(int)const ` | 2669 | Exported Function
-`private: virtual int __thiscall icu_53::ChineseCalendar::newMoonNear(double,signed char)const ` | 2668 | Exported Function
-`private: virtual int __thiscall icu_53::ChineseCalendar::majorSolarTerm(int)const ` | 2626 | Exported Function
-`private: virtual int __thiscall icu_53::ChineseCalendar::synodicMonthsBetween(int,int)const ` | 3212 | Exported Function
-`private: virtual signed char __thiscall icu_53::AlphabeticIndex::operator==(class icu_53::AlphabeticIndex const &)const ` | 534 | Exported Function
-`private: virtual signed char __thiscall icu_53::AlphabeticIndex::operator!=(class icu_53::AlphabeticIndex const &)const ` | 590 | Exported Function
-`private: virtual int __thiscall icu_53::ChineseCalendar::winterSolstice(int)const ` | 3285 | Exported Function
-`private: unsigned int __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::flag(enum UNumberFormatAttribute)const ` | 1476 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationIterator::nextCE32FromContraction(struct icu_53::CollationData const *,unsigned int,wchar_t const *,unsigned int,int,enum UErrorCode &)` | 2677 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationIterator::getCE32FromPrefix(struct icu_53::CollationData const *,unsigned int,enum UErrorCode &)` | 1689 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationFastLatinBuilder::getMiniCE(__int64)const ` | 1990 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationIterator::nextCE32FromDiscontiguousContraction(struct icu_53::CollationData const *,class icu_53::UCharsTrie &,unsigned int,int,int,enum UErrorCode &)` | 2678 | Exported Function
-`private: unsigned int __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::flag(enum UDateFormatBooleanAttribute)const ` | 1475 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationWeights::incWeightByOffset(unsigned int,int,int)const ` | 2414 | Exported Function
-`private: unsigned int __thiscall icu_53::CollationWeights::incWeight(unsigned int,int)const ` | 2413 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::TimeZone::findID(class icu_53::UnicodeString const &)` | 1449 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_LOWER_FIRST_COMMON_HIGH` | 886 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::SEC_COMMON_MIDDLE` | 867 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::SEC_COMMON_LOW` | 865 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_LOWER_FIRST_COMMON_LOW` | 887 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_ONLY_COMMON_LOW` | 892 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_ONLY_COMMON_HIGH` | 891 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_LOWER_FIRST_COMMON_MIDDLE` | 889 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::SEC_COMMON_HIGH` | 864 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::CASE_UPPER_FIRST_COMMON_LOW` | 754 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::CASE_UPPER_FIRST_COMMON_HIGH` | 753 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::CASE_LOWER_FIRST_COMMON_MIDDLE` | 750 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::QUAT_COMMON_HIGH` | 854 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::QUAT_SHIFTED_LIMIT_BYTE` | 858 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::QUAT_COMMON_MIDDLE` | 857 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::QUAT_COMMON_LOW` | 855 | Exported Function
-`private: static void __cdecl icu_53::IslamicCalendar::initializeSystemDefaultCentury(void)` | 2474 | Exported Function
-`private: static void __cdecl icu_53::DateIntervalInfo::parseSkeleton(class icu_53::UnicodeString const &,int *)` | 2781 | Exported Function
-`private: static void __cdecl icu_53::DateIntervalFormat::getDateTimeSkeleton(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::UnicodeString &,class icu_53::UnicodeString &,class icu_53::UnicodeString &)` | 1756 | Exported Function
-`private: static void __cdecl icu_53::Region::loadRegionData(void)` | 2618 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::TimeZone::dereferOlsonLink(class icu_53::UnicodeString const &)` | 1378 | Exported Function
-`private: static void __cdecl icu_53::SimpleDateFormat::translatePattern(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 3246 | Exported Function
-`private: static void __cdecl icu_53::RuleBasedCollator::computeMaxExpansions(struct icu_53::CollationTailoring const *,enum UErrorCode &)` | 1187 | Exported Function
-`private: static void __cdecl icu_53::DateIntervalFormat::adjustFieldWidth(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,signed char,class icu_53::UnicodeString &)` | 976 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_UPPER_FIRST_COMMON_LOW` | 896 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_UPPER_FIRST_COMMON_HIGH` | 895 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_ONLY_COMMON_MIDDLE` | 894 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::TER_UPPER_FIRST_COMMON_MIDDLE` | 898 | Exported Function
-`private: static void __cdecl icu_53::DateFormatSymbols::assignArray(class icu_53::UnicodeString * &,int &,class icu_53::UnicodeString const *,int)` | 1047 | Exported Function
-`private: static void __cdecl icu_53::CollationRoot::load(enum UErrorCode &)` | 2614 | Exported Function
-`private: static void __cdecl icu_53::CollationDataWriter::copyData(int const * const,int,void const *,unsigned char *)` | 1204 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::parseRuleChain(enum UErrorCode &)` | 2776 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::parseReordering(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2774 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::parseRelationStrings(int,int,enum UErrorCode &)` | 2773 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::parseSetting(enum UErrorCode &)` | 2778 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::setParseError(char const *,enum UErrorCode &)` | 3091 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::setErrorContext(void)` | 3000 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::parseStarredCharacters(int,int,enum UErrorCode &)` | 2783 | Exported Function
-`private: void __thiscall icu_53::CollationRuleParser::parse(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2718 | Exported Function
-`private: void __thiscall icu_53::CollationFastLatinBuilder::resetCEs(void)` | 2870 | Exported Function
-`private: void __thiscall icu_53::CollationFastLatinBuilder::getCEs(struct icu_53::CollationData const &,enum UErrorCode &)` | 1696 | Exported Function
-`private: void __thiscall icu_53::CollationFastLatinBuilder::addUniqueCE(__int64,enum UErrorCode &)` | 972 | Exported Function
-`private: void __thiscall icu_53::CollationIterator::appendNumericCEs(unsigned int,signed char,enum UErrorCode &)` | 1020 | Exported Function
-`private: void __thiscall icu_53::CollationKey::setLength(int)` | 3038 | Exported Function
-`private: void __thiscall icu_53::CollationIterator::backwardNumSkipped(int,enum UErrorCode &)` | 1056 | Exported Function
-`private: void __thiscall icu_53::CollationIterator::appendNumericSegmentCEs(char const *,int,enum UErrorCode &)` | 1021 | Exported Function
-`private: void __thiscall icu_53::DateFormatSymbols::createZoneStrings(class icu_53::UnicodeString const * const *)` | 1353 | Exported Function
-`private: void __thiscall icu_53::DateFormatSymbols::copyData(class icu_53::DateFormatSymbols const &)` | 1205 | Exported Function
-`private: void __thiscall icu_53::CurrencyPluralInfo::setupCurrencyPluralPattern(class icu_53::Locale const &,enum UErrorCode &)` | 3172 | Exported Function
-`private: void __thiscall icu_53::DateFormatSymbols::dispose(void)` | 1386 | Exported Function
-`private: void __thiscall icu_53::DateFormatSymbols::initZoneStringsArray(void)` | 2459 | Exported Function
-`private: void __thiscall icu_53::DateFormatSymbols::initializeData(class icu_53::Locale const &,char const *,enum UErrorCode &,signed char)` | 2468 | Exported Function
-`private: void __thiscall icu_53::DateFormatSymbols::disposeZoneStrings(void)` | 1389 | Exported Function
-`private: void __thiscall icu_53::CurrencyPluralInfo::initialize(class icu_53::Locale const &,enum UErrorCode &)` | 2462 | Exported Function
-`private: void __thiscall icu_53::CompoundTransliterator::freeTransliterators(void)` | 1593 | Exported Function
-`private: void __thiscall icu_53::CompoundTransliterator::computeMaximumContextLength(void)` | 1188 | Exported Function
-`private: void __thiscall icu_53::CollationWeights::lengthenRange(struct icu_53::CollationWeights::WeightRange &)const ` | 2613 | Exported Function
-`private: void __thiscall icu_53::CompoundTransliterator::init(class icu_53::UnicodeString const &,enum UTransDirection,signed char,enum UErrorCode &)` | 2422 | Exported Function
-`private: void __thiscall icu_53::CurrencyPluralInfo::deleteHash(class icu_53::Hashtable *)` | 1369 | Exported Function
-`private: void __thiscall icu_53::CurrencyPluralInfo::copyHash(class icu_53::Hashtable const *,class icu_53::Hashtable *,enum UErrorCode &)` | 1208 | Exported Function
-`private: void __thiscall icu_53::CompoundTransliterator::init(class icu_53::UVector &,enum UTransDirection,signed char,enum UErrorCode &)` | 2421 | Exported Function
-`private: void __thiscall icu_53::CollationFastLatinBuilder::addContractionEntry(int,__int64,__int64,enum UErrorCode &)` | 953 | Exported Function
-`private: virtual void __thiscall icu_53::Transliterator::filteredTransliterate(class icu_53::Replaceable &,struct UTransPosition &,signed char,signed char)const ` | 1441 | Exported Function
-`private: virtual void __thiscall icu_53::DecimalFormat::setCurrencyInternally(wchar_t const *,enum UErrorCode &)` | 2964 | Exported Function
-`private: virtual void __thiscall icu_53::CollationBuilder::suppressContractions(class icu_53::UnicodeSet const &,char const * &,enum UErrorCode &)` | 3203 | Exported Function
-`private: void __thiscall icu_53::AlphabeticIndex::addIndexExemplars(class icu_53::Locale const &,enum UErrorCode &)` | 956 | Exported Function
-`private: void __thiscall icu_53::AlphabeticIndex::initBuckets(enum UErrorCode &)` | 2432 | Exported Function
-`private: void __thiscall icu_53::AlphabeticIndex::init(class icu_53::Locale const *,enum UErrorCode &)` | 2419 | Exported Function
-`private: void __thiscall icu_53::AlphabeticIndex::clearBuckets(void)` | 1094 | Exported Function
-`private: virtual void __thiscall icu_53::CollationBuilder::optimize(class icu_53::UnicodeSet const &,char const * &,enum UErrorCode &)` | 2711 | Exported Function
-`private: virtual void __thiscall icu_53::ChineseCalendar::computeChineseFields(int,int,int,signed char)` | 1180 | Exported Function
-`private: virtual signed char __thiscall icu_53::ChineseCalendar::isLeapMonthBetween(int,int)const ` | 2552 | Exported Function
-`private: virtual signed char __thiscall icu_53::ChineseCalendar::hasNoMajorSolarTerm(int)const ` | 2381 | Exported Function
-`private: virtual void __thiscall icu_53::ChineseCalendar::offsetMonth(int,int,int)` | 2710 | Exported Function
-`private: virtual void __thiscall icu_53::CollationBuilder::addReset(int,class icu_53::UnicodeString const &,char const * &,enum UErrorCode &)` | 967 | Exported Function
-`private: virtual void __thiscall icu_53::CollationBuilder::addRelation(int,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,char const * &,enum UErrorCode &)` | 965 | Exported Function
-`private: virtual void __thiscall icu_53::ChoiceFormat::setChoices(double const *,signed char const *,class icu_53::UnicodeString const *,int,enum UErrorCode &)` | 2949 | Exported Function
-`private: void __thiscall icu_53::CollationBuilder::addTailComposites(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 970 | Exported Function
-`private: void __thiscall icu_53::CalendarAstronomer::clearCache(void)` | 1097 | Exported Function
-`private: void __thiscall icu_53::Calendar::validateFields(enum UErrorCode &)` | 3277 | Exported Function
-`private: void __thiscall icu_53::CollationBuilder::closeOverComposites(enum UErrorCode &)` | 1148 | Exported Function
-`private: void __thiscall icu_53::CollationBuilder::setCaseBits(class icu_53::UnicodeString const &,char const * &,enum UErrorCode &)` | 2947 | Exported Function
-`private: void __thiscall icu_53::CollationBuilder::makeTailoredCEs(enum UErrorCode &)` | 2639 | Exported Function
-`private: void __thiscall icu_53::CollationBuilder::finalizeCEs(enum UErrorCode &)` | 1443 | Exported Function
-`private: void __thiscall icu_53::Calendar::validateField(enum UCalendarDateFields,int,int,enum UErrorCode &)` | 3274 | Exported Function
-`private: void __thiscall icu_53::Calendar::computeGregorianAndDOWFields(int,enum UErrorCode &)` | 1182 | Exported Function
-`private: void __thiscall icu_53::AlphabeticIndex::internalResetBucketIterator(void)` | 2502 | Exported Function
-`private: void __thiscall icu_53::AlphabeticIndex::initLabels(class icu_53::UVector &,enum UErrorCode &)const ` | 2451 | Exported Function
-`private: void __thiscall icu_53::Calendar::computeWeekFields(enum UErrorCode &)` | 1191 | Exported Function
-`private: void __thiscall icu_53::Calendar::updateTime(enum UErrorCode &)` | 3265 | Exported Function
-`private: void __thiscall icu_53::Calendar::setWeekData(class icu_53::Locale const &,char const *,enum UErrorCode &)` | 3165 | Exported Function
-`private: void __thiscall icu_53::Calendar::recalculateStamp(void)` | 2827 | Exported Function
-`protected: virtual int __thiscall icu_53::ChineseCalendar::defaultCenturyStartYear(void)const ` | 1365 | Exported Function
-`protected: virtual int __thiscall icu_53::CECalendar::handleGetLimit(enum UCalendarDateFields,enum icu_53::Calendar::ELimitType)const ` | 2344 | Exported Function
-`protected: virtual int __thiscall icu_53::CECalendar::handleComputeMonthStart(int,int,signed char)const ` | 2333 | Exported Function
-`protected: virtual int __thiscall icu_53::ChineseCalendar::handleComputeMonthStart(int,int,signed char)const ` | 2334 | Exported Function
-`protected: virtual int __thiscall icu_53::ChineseCalendar::handleGetMonthLength(int,int)const ` | 2350 | Exported Function
-`protected: virtual int __thiscall icu_53::ChineseCalendar::handleGetLimit(enum UCalendarDateFields,enum icu_53::Calendar::ELimitType)const ` | 2345 | Exported Function
-`protected: virtual int __thiscall icu_53::ChineseCalendar::handleGetExtendedYear(void)` | 2338 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::handleGetYearLength(int)const ` | 2361 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::getDefaultMonthInYear(int)` | 1766 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::getDefaultDayInMonth(int,int)` | 1765 | Exported Function
-`protected: virtual double __thiscall icu_53::IslamicCalendar::defaultCenturyStart(void)const ` | 1364 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::getLimit(enum UCalendarDateFields,enum icu_53::Calendar::ELimitType)const ` | 1943 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::handleGetMonthLength(int,int)const ` | 2349 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::handleGetExtendedYearFromWeekFields(int,int)` | 2342 | Exported Function
-`protected: virtual int __thiscall icu_53::Calendar::handleComputeJulianDay(enum UCalendarDateFields)` | 2331 | Exported Function
-`protected: virtual int __thiscall icu_53::HebrewCalendar::defaultCenturyStartYear(void)const ` | 1367 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::monthLength(int,int)const ` | 2663 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::monthLength(int)const ` | 2662 | Exported Function
-`protected: virtual int __thiscall icu_53::HebrewCalendar::handleComputeMonthStart(int,int,signed char)const ` | 2336 | Exported Function
-`protected: virtual int __thiscall icu_53::HebrewCalendar::handleGetMonthLength(int,int)const ` | 2352 | Exported Function
-`protected: virtual int __thiscall icu_53::HebrewCalendar::handleGetLimit(enum UCalendarDateFields,enum icu_53::Calendar::ELimitType)const ` | 2347 | Exported Function
-`protected: virtual int __thiscall icu_53::HebrewCalendar::handleGetExtendedYear(void)` | 2340 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::internalGetEra(void)const ` | 2495 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleGetExtendedYear(void)` | 2339 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleComputeMonthStart(int,int,signed char)const ` | 2335 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleComputeJulianDay(enum UCalendarDateFields)` | 2332 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleGetExtendedYearFromWeekFields(int,int)` | 2343 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleGetYearLength(int)const ` | 2362 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleGetMonthLength(int,int)const ` | 2351 | Exported Function
-`protected: virtual int __thiscall icu_53::GregorianCalendar::handleGetLimit(enum UCalendarDateFields,enum icu_53::Calendar::ELimitType)const ` | 2346 | Exported Function
-`protected: virtual double __thiscall icu_53::HebrewCalendar::defaultCenturyStart(void)const ` | 1363 | Exported Function
-`protected: static unsigned int __cdecl icu_53::CollationDataBuilder::encodeOneCEAsCE32(__int64)` | 1411 | Exported Function
-`protected: static unsigned char __cdecl icu_53::Calendar::julianDayToDayOfWeek(double)` | 2596 | Exported Function
-`protected: static struct UResourceBundle * __cdecl icu_53::TimeZone::loadRule(struct UResourceBundle const *,class icu_53::UnicodeString const &,struct UResourceBundle *,enum UErrorCode &)` | 2619 | Exported Function
-`protected: static unsigned int __cdecl icu_53::CollationDataBuilder::makeBuilderContextCE32(int)` | 2628 | Exported Function
-`protected: static void __cdecl icu_53::Format::syntaxError(class icu_53::UnicodeString const &,int,struct UParseError &)` | 3213 | Exported Function
-`protected: static void __cdecl icu_53::CECalendar::jdToCE(int,int,int &,int &,int &)` | 2594 | Exported Function
-`protected: static unsigned int const icu_53::CollationDataBuilder::IS_BUILDER_JAMO_CE32` | 787 | Exported Function
-`protected: static signed char __cdecl icu_53::CollationDataBuilder::isBuilderContextCE32(unsigned int)` | 2520 | Exported Function
-`protected: static int const icu_53::DecimalFormat::kDoubleFractionDigits` | 2600 | Exported Function
-`protected: static int const (* icu_53::Calendar::kYearPrecedence)[12][8]` | 2603 | Exported Function
-`protected: static int const (* icu_53::Calendar::kDOWPrecedence)[12][8]` | 2598 | Exported Function
-`protected: static int const icu_53::DecimalFormat::kDoubleIntegerDigits` | 2601 | Exported Function
-`protected: static int const icu_53::NumberFormat::gDefaultMinIntegerDigits` | 1602 | Exported Function
-`protected: static int const icu_53::NumberFormat::gDefaultMaxIntegerDigits` | 1601 | Exported Function
-`protected: static int const icu_53::DecimalFormat::kMaxScientificIntegerDigits` | 2602 | Exported Function
-`protected: unsigned int __thiscall icu_53::CollationDataBuilder::encodeOneCE(__int64,enum UErrorCode &)` | 1410 | Exported Function
-`protected: unsigned int __thiscall icu_53::CollationDataBuilder::encodeExpansion32(int const * const,int,enum UErrorCode &)` | 1408 | Exported Function
-`protected: unsigned int __thiscall icu_53::CollationDataBuilder::encodeExpansion(__int64 const * const,int,enum UErrorCode &)` | 1409 | Exported Function
-`protected: unsigned int __thiscall icu_53::CollationDataBuilder::getCE32FromOffsetCE32(signed char,int,unsigned int)const ` | 1688 | Exported Function
-`protected: virtual double __thiscall icu_53::GregorianCalendar::getEpochDay(enum UErrorCode &)` | 1843 | Exported Function
-`protected: virtual double __thiscall icu_53::ChineseCalendar::defaultCenturyStart(void)const ` | 1361 | Exported Function
-`protected: virtual __thiscall icu_53::CECalendar::~CECalendar(void)` | 330 | Exported Function
-`protected: unsigned int __thiscall icu_53::CollationDataBuilder::copyFromBaseCE32(int,unsigned int,signed char,enum UErrorCode &)` | 1207 | Exported Function
-`protected: static void __cdecl icu_53::Transliterator::_registerInstance(class icu_53::Transliterator *)` | 929 | Exported Function
-`protected: static void __cdecl icu_53::Transliterator::_registerFactory(class icu_53::UnicodeString const &,class icu_53::Transliterator * (__cdecl*)(class icu_53::UnicodeString const &,union icu_53::Transliterator::Token),union icu_53::Transliterator::Token)` | 928 | Exported Function
-`protected: static void __cdecl icu_53::Transliterator::_registerAlias(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 927 | Exported Function
-`protected: static void __cdecl icu_53::Transliterator::_registerSpecialInverse(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,signed char)` | 930 | Exported Function
-`protected: unsigned int __thiscall icu_53::CollationDataBuilder::buildContext(struct icu_53::ConditionalCE32 *,enum UErrorCode &)` | 1063 | Exported Function
-`protected: struct icu_53::ConditionalCE32 * __thiscall icu_53::CollationDataBuilder::getConditionalCE32ForCE32(unsigned int)const ` | 1725 | Exported Function
-`protected: struct icu_53::ConditionalCE32 * __thiscall icu_53::CollationDataBuilder::getConditionalCE32(int)const ` | 1724 | Exported Function
-`protected: virtual void __thiscall icu_53::ChineseCalendar::handleComputeFields(int,enum UErrorCode &)` | 2327 | Exported Function
-`protected: virtual void __thiscall icu_53::Calendar::validateField(enum UCalendarDateFields,enum UErrorCode &)` | 3275 | Exported Function
-`protected: virtual void __thiscall icu_53::Calendar::prepareGetActual(enum UCalendarDateFields,signed char,enum UErrorCode &)` | 2796 | Exported Function
-`protected: virtual void __thiscall icu_53::CompoundTransliterator::handleGetSourceSet(class icu_53::UnicodeSet &)const ` | 2354 | Exported Function
-`protected: virtual void __thiscall icu_53::FCDUIterCollationIterator::backwardNumCodePoints(int,enum UErrorCode &)` | 1050 | Exported Function
-`protected: virtual void __thiscall icu_53::DecimalFormat::getEffectiveCurrency(wchar_t *,enum UErrorCode &)const ` | 1838 | Exported Function
-`protected: virtual void __thiscall icu_53::CompoundTransliterator::handleTransliterate(class icu_53::Replaceable &,struct UTransPosition &,signed char)const ` | 2374 | Exported Function
-`protected: virtual void __thiscall icu_53::Calendar::pinField(enum UCalendarDateFields,enum UErrorCode &)` | 2792 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::UTF16CollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2371 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::UIterCollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2370 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::FCDUTF8CollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2369 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::UTF8CollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2372 | Exported Function
-`protected: virtual void __thiscall icu_53::Calendar::handleComputeFields(int,enum UErrorCode &)` | 2326 | Exported Function
-`protected: virtual void __thiscall icu_53::Calendar::computeTime(enum UErrorCode &)` | 1190 | Exported Function
-`protected: virtual void __thiscall icu_53::Calendar::computeFields(enum UErrorCode &)` | 1181 | Exported Function
-`protected: virtual void __thiscall icu_53::RuleBasedCollator::setLocales(class icu_53::Locale const &,class icu_53::Locale const &,class icu_53::Locale const &)` | 3050 | Exported Function
-`protected: virtual void __thiscall icu_53::NumberFormat::getEffectiveCurrency(wchar_t *,enum UErrorCode &)const ` | 1839 | Exported Function
-`protected: virtual void __thiscall icu_53::IslamicCalendar::handleComputeFields(int,enum UErrorCode &)` | 2330 | Exported Function
-`protected: virtual void __thiscall icu_53::SearchIterator::setMatchLength(int)` | 3053 | Exported Function
-`protected: virtual void __thiscall icu_53::UIterCollationIterator::forwardNumCodePoints(int,enum UErrorCode &)` | 1585 | Exported Function
-`protected: virtual void __thiscall icu_53::UIterCollationIterator::backwardNumCodePoints(int,enum UErrorCode &)` | 1053 | Exported Function
-`protected: virtual void __thiscall icu_53::SearchIterator::setMatchStart(int)` | 3055 | Exported Function
-`protected: virtual void __thiscall icu_53::HebrewCalendar::validateField(enum UCalendarDateFields,enum UErrorCode &)` | 3276 | Exported Function
-`protected: virtual void __thiscall icu_53::FCDUTF16CollationIterator::forwardNumCodePoints(int,enum UErrorCode &)` | 1583 | Exported Function
-`protected: virtual void __thiscall icu_53::FCDUTF16CollationIterator::backwardNumCodePoints(int,enum UErrorCode &)` | 1051 | Exported Function
-`protected: virtual void __thiscall icu_53::FCDUIterCollationIterator::forwardNumCodePoints(int,enum UErrorCode &)` | 1582 | Exported Function
-`protected: virtual void __thiscall icu_53::FCDUTF8CollationIterator::backwardNumCodePoints(int,enum UErrorCode &)` | 1052 | Exported Function
-`protected: virtual void __thiscall icu_53::HebrewCalendar::handleComputeFields(int,enum UErrorCode &)` | 2329 | Exported Function
-`protected: virtual void __thiscall icu_53::GregorianCalendar::handleComputeFields(int,enum UErrorCode &)` | 2328 | Exported Function
-`protected: virtual void __thiscall icu_53::FCDUTF8CollationIterator::forwardNumCodePoints(int,enum UErrorCode &)` | 1584 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::FCDUTF16CollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2368 | Exported Function
-`protected: virtual int const (* __thiscall icu_53::ChineseCalendar::getFieldResolutionTable(void)const )[12][8]` | 1856 | Exported Function
-`protected: virtual int const (* __thiscall icu_53::Calendar::getFieldResolutionTable(void)const )[12][8]` | 1855 | Exported Function
-`protected: virtual int __thiscall icu_53::StringSearch::handlePrev(int,enum UErrorCode &)` | 2373 | Exported Function
-`protected: virtual signed char __thiscall icu_53::CECalendar::haveDefaultCentury(void)const ` | 2393 | Exported Function
-`protected: virtual signed char __thiscall icu_53::ChineseCalendar::inDaylightTime(enum UErrorCode &)const ` | 2402 | Exported Function
-`protected: virtual signed char __thiscall icu_53::ChineseCalendar::haveDefaultCentury(void)const ` | 2394 | Exported Function
-`protected: virtual signed char __thiscall icu_53::CECalendar::inDaylightTime(enum UErrorCode &)const ` | 2401 | Exported Function
-`protected: virtual int __thiscall icu_53::StringSearch::handleNext(int,enum UErrorCode &)` | 2365 | Exported Function
-`protected: virtual int __thiscall icu_53::IslamicCalendar::handleComputeMonthStart(int,int,signed char)const ` | 2337 | Exported Function
-`protected: virtual int __thiscall icu_53::IslamicCalendar::defaultCenturyStartYear(void)const ` | 1368 | Exported Function
-`protected: virtual int __thiscall icu_53::HebrewCalendar::handleGetYearLength(int)const ` | 2363 | Exported Function
-`protected: virtual int __thiscall icu_53::IslamicCalendar::handleGetExtendedYear(void)` | 2341 | Exported Function
-`protected: virtual int __thiscall icu_53::IslamicCalendar::handleGetYearLength(int)const ` | 2364 | Exported Function
-`protected: virtual int __thiscall icu_53::IslamicCalendar::handleGetMonthLength(int,int)const ` | 2353 | Exported Function
-`protected: virtual int __thiscall icu_53::IslamicCalendar::handleGetLimit(enum UCalendarDateFields,enum icu_53::Calendar::ELimitType)const ` | 2348 | Exported Function
-`protected: virtual signed char __thiscall icu_53::UTF8CollationIterator::foundNULTerminator(void)` | 1592 | Exported Function
-`protected: virtual signed char __thiscall icu_53::UTF8CollationIterator::forbidSurrogateCodePoints(void)const ` | 1483 | Exported Function
-`protected: virtual signed char __thiscall icu_53::UTF16CollationIterator::foundNULTerminator(void)` | 1591 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::CollationIterator::getCE32FromBuilderData(unsigned int,enum UErrorCode &)` | 1687 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::FCDUIterCollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2367 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::CollationIterator::handleNextCE32(int &,enum UErrorCode &)` | 2366 | Exported Function
-`protected: virtual unsigned int __thiscall icu_53::CollationIterator::getDataCE32(int)const ` | 1748 | Exported Function
-`protected: virtual signed char __thiscall icu_53::IslamicCalendar::inDaylightTime(enum UErrorCode &)const ` | 2405 | Exported Function
-`protected: virtual signed char __thiscall icu_53::FCDUTF16CollationIterator::foundNULTerminator(void)` | 1589 | Exported Function
-`protected: virtual signed char __thiscall icu_53::CollationIterator::foundNULTerminator(void)` | 1588 | Exported Function
-`protected: virtual signed char __thiscall icu_53::CollationIterator::forbidSurrogateCodePoints(void)const ` | 1482 | Exported Function
-`protected: virtual signed char __thiscall icu_53::FCDUTF8CollationIterator::foundNULTerminator(void)` | 1590 | Exported Function
-`protected: virtual signed char __thiscall icu_53::IslamicCalendar::haveDefaultCentury(void)const ` | 2397 | Exported Function
-`protected: virtual signed char __thiscall icu_53::HebrewCalendar::inDaylightTime(enum UErrorCode &)const ` | 2404 | Exported Function
-`protected: virtual signed char __thiscall icu_53::HebrewCalendar::haveDefaultCentury(void)const ` | 2396 | Exported Function
-`protected: __thiscall icu_53::CECalendar::CECalendar(class icu_53::Locale const &,enum UErrorCode &)` | 18 | Exported Function
-`protected: __thiscall icu_53::CECalendar::CECalendar(class icu_53::CECalendar const &)` | 17 | Exported Function
-`protected: __thiscall icu_53::Calendar::Calendar(enum UErrorCode &)` | 19 | Exported Function
-`protected: __thiscall icu_53::ChineseCalendar::ChineseCalendar(class icu_53::Locale const &,int,class icu_53::TimeZone const *,enum UErrorCode &)` | 26 | Exported Function
-`protected: __thiscall icu_53::Collator::Collator(enum UColAttributeValue,enum UNormalizationMode)` | 54 | Exported Function
-`protected: __thiscall icu_53::Collator::Collator(class icu_53::Collator const &)` | 53 | Exported Function
-`protected: __thiscall icu_53::CollationIterator::CollationIterator(class icu_53::CollationIterator const &)` | 42 | Exported Function
-`protected: __thiscall icu_53::Calendar::Calendar(class icu_53::TimeZone const &,class icu_53::Locale const &,enum UErrorCode &)` | 21 | Exported Function
-`protected: __thiscall icu_53::BasicTimeZone::BasicTimeZone(class icu_53::BasicTimeZone const &)` | 12 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZonePropsByTime(class icu_53::VTZWriter &,signed char,class icu_53::UnicodeString const &,int,int,double,signed char,enum UErrorCode &)const ` | 3308 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZonePropsByDOW_LEQ_DOM(class icu_53::VTZWriter &,signed char,class icu_53::UnicodeString const &,int,int,int,int,int,double,double,enum UErrorCode &)const ` | 3307 | Exported Function
-`protected: __thiscall icu_53::BasicTimeZone::BasicTimeZone(class icu_53::UnicodeString const &)` | 13 | Exported Function
-`protected: __thiscall icu_53::Calendar::Calendar(class icu_53::TimeZone *,class icu_53::Locale const &,enum UErrorCode &)` | 22 | Exported Function
-`protected: __thiscall icu_53::Calendar::Calendar(class icu_53::Calendar const &)` | 20 | Exported Function
-`protected: __thiscall icu_53::BasicTimeZone::BasicTimeZone(void)` | 14 | Exported Function
-`protected: __thiscall icu_53::SearchIterator::SearchIterator(class icu_53::CharacterIterator &,class icu_53::BreakIterator *)` | 250 | Exported Function
-`protected: __thiscall icu_53::NumberFormat::NumberFormat(void)` | 187 | Exported Function
-`protected: __thiscall icu_53::NumberFormat::NumberFormat(class icu_53::NumberFormat const &)` | 186 | Exported Function
-`protected: __thiscall icu_53::SearchIterator::SearchIterator(class icu_53::UnicodeString const &,class icu_53::BreakIterator *)` | 251 | Exported Function
-`protected: __thiscall icu_53::TimeZone::TimeZone(class icu_53::UnicodeString const &)` | 296 | Exported Function
-`protected: __thiscall icu_53::TimeZone::TimeZone(class icu_53::TimeZone const &)` | 295 | Exported Function
-`protected: __thiscall icu_53::SearchIterator::SearchIterator(void)` | 252 | Exported Function
-`protected: __thiscall icu_53::MeasureFormat::MeasureFormat(void)` | 174 | Exported Function
-`protected: __thiscall icu_53::DateFormat::DateFormat(void)` | 76 | Exported Function
-`protected: __thiscall icu_53::DateFormat::DateFormat(class icu_53::DateFormat const &)` | 75 | Exported Function
-`protected: __thiscall icu_53::Collator::Collator(void)` | 55 | Exported Function
-`protected: __thiscall icu_53::DateIntervalFormat::DateIntervalFormat(class icu_53::DateIntervalFormat const &)` | 84 | Exported Function
-`protected: __thiscall icu_53::Measure::Measure(void)` | 171 | Exported Function
-`protected: __thiscall icu_53::Format::Format(void)` | 131 | Exported Function
-`protected: __thiscall icu_53::Format::Format(class icu_53::Format const &)` | 130 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZonePropsByDOW_GEQ_DOM_sub(class icu_53::VTZWriter &,int,int,int,int,double,int,enum UErrorCode &)const ` | 3306 | Exported Function
-`private: void __thiscall icu_53::TimeZoneFormat::checkAbuttingHoursAndMinutes(void)` | 1081 | Exported Function
-`private: void __thiscall icu_53::TimeZoneFormat::appendOffsetDigits(class icu_53::UnicodeString &,int,unsigned char)const ` | 1022 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::setup(enum UErrorCode &)` | 3169 | Exported Function
-`private: void __thiscall icu_53::TimeZoneFormat::initGMTOffsetPatterns(enum UErrorCode &)` | 2442 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::appendUNTIL(class icu_53::VTZWriter &,class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1027 | Exported Function
-`private: void __thiscall icu_53::Transliterator::_transliterate(class icu_53::Replaceable &,struct UTransPosition &,class icu_53::UnicodeString const *,enum UErrorCode &)const ` | 932 | Exported Function
-`private: void __thiscall icu_53::TimeZoneFormat::initGMTPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2443 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::searchInLocaleChain(enum UTimeUnitFormatStyle,char const *,char const *,enum icu_53::TimeUnit::UTimeUnitFields,class icu_53::UnicodeString const &,char const *,class icu_53::Hashtable *,enum UErrorCode &)` | 2903 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::copyHash(class icu_53::Hashtable const *,class icu_53::Hashtable *,enum UErrorCode &)` | 1210 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::checkConsistency(enum UTimeUnitFormatStyle,char const *,enum UErrorCode &)` | 1082 | Exported Function
-`private: void __thiscall icu_53::TextTrieMap::search(struct icu_53::CharacterNode *,class icu_53::UnicodeString const &,int,int,class icu_53::TextTrieMapSearchResultHandler *,enum UErrorCode &)const ` | 2901 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::create(enum UTimeUnitFormatStyle,enum UErrorCode &)` | 1235 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::readFromCurrentLocale(enum UTimeUnitFormatStyle,char const *,class icu_53::UVector const &,enum UErrorCode &)` | 2824 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::initDataMembers(enum UErrorCode &)` | 2436 | Exported Function
-`private: void __thiscall icu_53::TimeUnitFormat::deleteHash(class icu_53::Hashtable *)` | 1371 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeSimple(double,class icu_53::VTZWriter &,enum UErrorCode &)const ` | 3297 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeHeaders(class icu_53::VTZWriter &,enum UErrorCode &)const ` | 3294 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeFooter(class icu_53::VTZWriter &,enum UErrorCode &)const ` | 3293 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZone(class icu_53::VTZWriter &,class icu_53::BasicTimeZone &,class icu_53::UVector *,enum UErrorCode &)const ` | 3302 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZonePropsByDOW_GEQ_DOM(class icu_53::VTZWriter &,signed char,class icu_53::UnicodeString const &,int,int,int,int,int,double,double,enum UErrorCode &)const ` | 3305 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZonePropsByDOW(class icu_53::VTZWriter &,signed char,class icu_53::UnicodeString const &,int,int,int,int,int,double,double,enum UErrorCode &)const ` | 3304 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeZonePropsByDOM(class icu_53::VTZWriter &,signed char,class icu_53::UnicodeString const &,int,int,int,int,double,double,enum UErrorCode &)const ` | 3303 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::writeFinalRule(class icu_53::VTZWriter &,signed char,class icu_53::AnnualTimeZoneRule const *,int,int,double,enum UErrorCode &)const ` | 3292 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::endZoneProps(class icu_53::VTZWriter &,signed char,enum UErrorCode &)const ` | 1418 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::beginZoneProps(class icu_53::VTZWriter &,signed char,class icu_53::UnicodeString const &,int,int,double,enum UErrorCode &)const ` | 1059 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::beginRRULE(class icu_53::VTZWriter &,int,enum UErrorCode &)const ` | 1058 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::load(class icu_53::VTZReader &,enum UErrorCode &)` | 2615 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::write(double,class icu_53::VTZWriter &,enum UErrorCode &)const ` | 3288 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::write(class icu_53::VTZWriter &,enum UErrorCode &)const ` | 3287 | Exported Function
-`private: void __thiscall icu_53::VTimeZone::parse(enum UErrorCode &)` | 2734 | Exported Function
-`protected: int __thiscall icu_53::CollationDataBuilder::addCE32(unsigned int,enum UErrorCode &)` | 944 | Exported Function
-`protected: int __thiscall icu_53::CollationDataBuilder::addCE(__int64,enum UErrorCode &)` | 946 | Exported Function
-`protected: int __thiscall icu_53::Calendar::weekNumber(int,int,int)` | 3282 | Exported Function
-`protected: int __thiscall icu_53::CollationDataBuilder::addConditionalCE32(class icu_53::UnicodeString const &,unsigned int,enum UErrorCode &)` | 951 | Exported Function
-`protected: int __thiscall icu_53::CollationDataBuilder::getCEs(class icu_53::UnicodeString const &,int,__int64 * const,int)` | 1693 | Exported Function
-`protected: int __thiscall icu_53::CollationDataBuilder::copyContractionsFromBaseCE32(class icu_53::UnicodeString &,int,unsigned int,struct icu_53::ConditionalCE32 *,enum UErrorCode &)` | 1203 | Exported Function
-`protected: int __thiscall icu_53::CollationDataBuilder::addContextTrie(unsigned int,class icu_53::UCharsTrieBuilder &,enum UErrorCode &)` | 952 | Exported Function
-`protected: int __thiscall icu_53::Calendar::weekNumber(int,int)` | 3281 | Exported Function
-`protected: int __thiscall icu_53::Calendar::getLocalDOW(void)` | 1947 | Exported Function
-`protected: int __thiscall icu_53::Calendar::getGregorianYear(void)const ` | 1898 | Exported Function
-`protected: int __thiscall icu_53::Calendar::getGregorianMonth(void)const ` | 1897 | Exported Function
-`protected: int __thiscall icu_53::Calendar::internalGet(enum icu_53::Calendar::EDateFields)const ` | 2487 | Exported Function
-`protected: int __thiscall icu_53::Calendar::newestStamp(enum UCalendarDateFields,enum UCalendarDateFields,int)const ` | 2671 | Exported Function
-`protected: int __thiscall icu_53::Calendar::internalGet(enum UCalendarDateFields,int)const ` | 2489 | Exported Function
-`protected: int __thiscall icu_53::Calendar::internalGet(enum UCalendarDateFields)const ` | 2488 | Exported Function
-`protected: static int __cdecl icu_53::CollationDataBuilder::jamoCpFromIndex(int)` | 2593 | Exported Function
-`protected: static int __cdecl icu_53::CECalendar::ceToJD(int,int,int,int)` | 1078 | Exported Function
-`protected: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::_getAvailableVariant(int,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 926 | Exported Function
-`protected: static int __cdecl icu_53::Transliterator::_countAvailableSources(void)` | 917 | Exported Function
-`protected: static int const (* icu_53::Calendar::kDatePrecedence)[12][8]` | 2599 | Exported Function
-`protected: static int __cdecl icu_53::Transliterator::_countAvailableVariants(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 919 | Exported Function
-`protected: static int __cdecl icu_53::Transliterator::_countAvailableTargets(class icu_53::UnicodeString const &)` | 918 | Exported Function
-`protected: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::_getAvailableTarget(int,class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 925 | Exported Function
-`protected: signed char __thiscall icu_53::CollationDataBuilder::getJamoCE32s(unsigned int * const,enum UErrorCode &)` | 1923 | Exported Function
-`protected: int __thiscall icu_53::GregorianCalendar::yearLength(void)const ` | 3310 | Exported Function
-`protected: int __thiscall icu_53::GregorianCalendar::yearLength(int)const ` | 3309 | Exported Function
-`protected: signed char __thiscall icu_53::MeasureFormat::setMeasureFormatLocale(class icu_53::Locale const &,enum UErrorCode &)` | 3066 | Exported Function
-`protected: static class icu_53::UnicodeString & __cdecl icu_53::Transliterator::_getAvailableSource(int,class icu_53::UnicodeString &)` | 924 | Exported Function
-`protected: static class icu_53::Transliterator * __cdecl icu_53::Transliterator::createBasicInstance(class icu_53::UnicodeString const &,class icu_53::UnicodeString const *)` | 1240 | Exported Function
-`protected: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::makeInstance(class icu_53::Locale const &,enum UNumberFormatStyle,signed char,enum UErrorCode &)` | 2635 | Exported Function
-`protected: int __thiscall icu_53::Calendar::getGregorianDayOfYear(void)const ` | 1896 | Exported Function
-`protected: class icu_53::DateFormat & __thiscall icu_53::DateFormat::operator=(class icu_53::DateFormat const &)` | 463 | Exported Function
-`protected: class icu_53::CECalendar & __thiscall icu_53::CECalendar::operator=(class icu_53::CECalendar const &)` | 438 | Exported Function
-`protected: class icu_53::Calendar & __thiscall icu_53::Calendar::operator=(class icu_53::Calendar const &)` | 439 | Exported Function
-`protected: class icu_53::DateIntervalFormat & __thiscall icu_53::DateIntervalFormat::operator=(class icu_53::DateIntervalFormat const &)` | 465 | Exported Function
-`protected: class icu_53::Locale __thiscall icu_53::MeasureFormat::getLocale(enum UErrorCode &)const ` | 1957 | Exported Function
-`protected: class icu_53::Format & __thiscall icu_53::Format::operator=(class icu_53::Format const &)` | 478 | Exported Function
-`protected: class icu_53::DigitList & __thiscall icu_53::DecimalFormat::_round(class icu_53::DigitList const &,class icu_53::DigitList &,signed char &,enum UErrorCode &)const ` | 931 | Exported Function
-`protected: char const * __thiscall icu_53::MeasureFormat::getLocaleID(enum UErrorCode &)const ` | 1962 | Exported Function
-`protected: __thiscall icu_53::TimeZoneRule::TimeZoneRule(class icu_53::TimeZoneRule const &)` | 304 | Exported Function
-`protected: __thiscall icu_53::TimeZoneFormat::TimeZoneFormat(class icu_53::Locale const &,enum UErrorCode &)` | 298 | Exported Function
-`protected: __thiscall icu_53::TimeZone::TimeZone(void)` | 297 | Exported Function
-`protected: __thiscall icu_53::TimeZoneRule::TimeZoneRule(class icu_53::UnicodeString const &,int,int)` | 305 | Exported Function
-`protected: __thiscall icu_53::UTF16CollationIterator::UTF16CollationIterator(class icu_53::UTF16CollationIterator const &)` | 313 | Exported Function
-`protected: __thiscall icu_53::Transliterator::Transliterator(class icu_53::UnicodeString const &,class icu_53::UnicodeFilter *)` | 310 | Exported Function
-`protected: __thiscall icu_53::Transliterator::Transliterator(class icu_53::Transliterator const &)` | 309 | Exported Function
-`protected: enum UCalendarDateFields __thiscall icu_53::Calendar::resolveFields(int const (*)[12][8])` | 2883 | Exported Function
-`protected: enum UCalendarDateFields __thiscall icu_53::Calendar::newerField(enum UCalendarDateFields,enum UCalendarDateFields)const ` | 2670 | Exported Function
-`protected: double __thiscall icu_53::Calendar::internalGetTime(void)const ` | 2499 | Exported Function
-`protected: int __thiscall icu_53::Calendar::computeJulianDay(void)` | 1184 | Exported Function
-`protected: int __thiscall icu_53::Calendar::getGregorianDayOfMonth(void)const ` | 1895 | Exported Function
-`protected: int __thiscall icu_53::Calendar::computeZoneOffset(double,int,enum UErrorCode &)` | 1192 | Exported Function
-`protected: int __thiscall icu_53::Calendar::computeMillisInDay(void)` | 1189 | Exported Function
-`protected: double __thiscall icu_53::Calendar::getTimeInMillis(enum UErrorCode &)const ` | 2266 | Exported Function
-`protected: class icu_53::PluralRules const & __thiscall icu_53::MeasureFormat::getPluralRules(void)const ` | 2072 | Exported Function
-`protected: class icu_53::NumberFormat const & __thiscall icu_53::MeasureFormat::getNumberFormat(void)const ` | 2025 | Exported Function
-`protected: class icu_53::NumberFormat & __thiscall icu_53::NumberFormat::operator=(class icu_53::NumberFormat const &)` | 494 | Exported Function
-`protected: class icu_53::SearchIterator & __thiscall icu_53::SearchIterator::operator=(class icu_53::SearchIterator const &)` | 511 | Exported Function
-`protected: class icu_53::Transliterator & __thiscall icu_53::Transliterator::operator=(class icu_53::Transliterator const &)` | 528 | Exported Function
-`protected: class icu_53::TimeZoneRule & __thiscall icu_53::TimeZoneRule::operator=(class icu_53::TimeZoneRule const &)` | 526 | Exported Function
-`protected: class icu_53::TimeZone & __thiscall icu_53::TimeZone::operator=(class icu_53::TimeZone const &)` | 522 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::DateIntervalInfo::initHash(enum UErrorCode &)` | 2446 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::CurrencyPluralInfo::initHash(enum UErrorCode &)` | 2445 | Exported Function
-`private: class icu_53::Formattable const * __thiscall icu_53::MessageFormat::getArgFromListByName(class icu_53::Formattable const *,class icu_53::UnicodeString const *,int,class icu_53::UnicodeString &)const ` | 1632 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::DecimalFormat::initHashForAffix(enum UErrorCode &)` | 2448 | Exported Function
-`private: class icu_53::IdentifierInfo & __thiscall icu_53::IdentifierInfo::clear(void)` | 1093 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::TimeUnitFormat::initHash(enum UErrorCode &)` | 2447 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::DecimalFormat::initHashForAffixPattern(enum UErrorCode &)` | 2449 | Exported Function
-`private: class icu_53::Formattable * __thiscall icu_53::MessageFormat::parse(int,class icu_53::UnicodeString const &,class icu_53::ParsePosition &,int &,enum UErrorCode &)const ` | 2726 | Exported Function
-`private: class icu_53::DateTimePatternGenerator & __thiscall icu_53::DateTimePatternGenerator::operator=(class icu_53::DateTimePatternGenerator const &)` | 467 | Exported Function
-`private: class icu_53::DateFormat const * __thiscall icu_53::MessageFormat::getDefaultDateFormat(enum UErrorCode &)const ` | 1764 | Exported Function
-`private: class icu_53::CompoundTransliterator & __thiscall icu_53::CompoundTransliterator::operator=(class icu_53::CompoundTransliterator const &)` | 459 | Exported Function
-`private: class icu_53::DecimalFormatSymbols * __thiscall icu_53::RuleBasedNumberFormat::getDecimalFormatSymbols(void)const ` | 1762 | Exported Function
-`private: class icu_53::Format * __thiscall icu_53::MessageFormat::getCachedFormatter(int)const ` | 1701 | Exported Function
-`private: class icu_53::Format * __thiscall icu_53::MessageFormat::createAppropriateFormat(class icu_53::UnicodeString &,class icu_53::UnicodeString &,enum icu_53::Formattable::Type &,struct UParseError &,enum UErrorCode &)` | 1237 | Exported Function
-`private: class icu_53::FieldPosition * __thiscall icu_53::MessageFormat::updateMetaData(class icu_53::AppendableWrapper &,int,class icu_53::FieldPosition *,class icu_53::Formattable const *)const ` | 3264 | Exported Function
-`private: class icu_53::TimeZoneFormat * __thiscall icu_53::SimpleDateFormat::tzFormat(void)const ` | 3256 | Exported Function
-`private: class icu_53::TimeZone const * __thiscall icu_53::ChineseCalendar::getChineseCalZoneAstroCalc(void)const ` | 1716 | Exported Function
-`private: class icu_53::TimeZone * __thiscall icu_53::TimeZoneFormat::createTimeZoneForOffset(int)const ` | 1343 | Exported Function
-`private: class icu_53::TimeZoneGenericNames const * __thiscall icu_53::TimeZoneFormat::getTimeZoneGenericNames(enum UErrorCode &)const ` | 2279 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::_format(__int64,class icu_53::UnicodeString &,class icu_53::FieldPositionHandler &,enum UErrorCode &)const ` | 922 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::DateIntervalFormat::fallbackFormat(class icu_53::Calendar &,class icu_53::Calendar &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1430 | Exported Function
-`private: class icu_53::TimeZoneRule * __thiscall icu_53::RuleBasedTimeZone::findRuleInFinal(double,signed char,int,int)const ` | 1461 | Exported Function
-`private: class icu_53::RuleChain * __thiscall icu_53::PluralRules::rulesForKeyword(class icu_53::UnicodeString const &)const ` | 2897 | Exported Function
-`private: class icu_53::NumberFormat * __thiscall icu_53::MessageFormat::createIntegerFormat(class icu_53::Locale const &,enum UErrorCode &)const ` | 1307 | Exported Function
-`private: class icu_53::NFRuleSet * __thiscall icu_53::RuleBasedNumberFormat::getDefaultRuleSet(void)const ` | 1770 | Exported Function
-`private: class icu_53::NFRuleSet * __thiscall icu_53::RuleBasedNumberFormat::findRuleSet(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1462 | Exported Function
-`private: class icu_53::NumberFormat * __thiscall icu_53::SimpleDateFormat::getNumberFormatByIndex(enum UDateFormatField)const ` | 2027 | Exported Function
-`private: class icu_53::RuleBasedCollator const * __thiscall icu_53::RuleBasedNumberFormat::getCollator(void)const ` | 1721 | Exported Function
-`private: class icu_53::QuantityFormatter const * __thiscall icu_53::MeasureFormat::getQuantityFormatter(int,int,enum UErrorCode &)const ` | 2086 | Exported Function
-`private: class icu_53::NumberFormat const * __thiscall icu_53::MessageFormat::getDefaultNumberFormat(enum UErrorCode &)const ` | 1767 | Exported Function
-`private: class icu_53::CollationKey & __thiscall icu_53::CollationKey::setToBogus(void)` | 3156 | Exported Function
-`private: __thiscall icu_53::GenderInfo::GenderInfo(void)` | 144 | Exported Function
-`private: __thiscall icu_53::DecimalFormatSymbols::DecimalFormatSymbols(void)` | 102 | Exported Function
-`private: __thiscall icu_53::DateTimePatternGenerator::DateTimePatternGenerator(enum UErrorCode &)` | 88 | Exported Function
-`private: __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::MaybeStackHeaderAndArray<struct decNumber,char,40>(class icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40> const &)` | 5 | Exported Function
-`private: __thiscall icu_53::Region::Region(void)` | 224 | Exported Function
-`private: __thiscall icu_53::RegexMatcher::RegexMatcher(class icu_53::RegexPattern const *)` | 217 | Exported Function
-`private: __thiscall icu_53::MeasureUnit::MeasureUnit(int,int)` | 178 | Exported Function
-`private: __thiscall icu_53::DateTimePatternGenerator::DateTimePatternGenerator(class icu_53::Locale const &,enum UErrorCode &)` | 90 | Exported Function
-`private: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::UVector &,int,struct UParseError &,enum UErrorCode &)` | 61 | Exported Function
-`private: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::UnicodeString const &,class icu_53::UVector &,class icu_53::UnicodeFilter *,int,struct UParseError &,enum UErrorCode &)` | 62 | Exported Function
-`private: __thiscall icu_53::CompactDecimalFormat::CompactDecimalFormat(class icu_53::DecimalFormat const &,struct UHashtable const *,double const *,class icu_53::PluralRules *)` | 58 | Exported Function
-`private: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::UVector &,struct UParseError &,enum UErrorCode &)` | 60 | Exported Function
-`private: __thiscall icu_53::DateTimePatternGenerator::DateTimePatternGenerator(class icu_53::DateTimePatternGenerator const &)` | 89 | Exported Function
-`private: __thiscall icu_53::DateIntervalFormat::DateIntervalFormat(void)` | 83 | Exported Function
-`private: __thiscall icu_53::DateIntervalFormat::DateIntervalFormat(class icu_53::Locale const &,class icu_53::DateIntervalInfo *,class icu_53::UnicodeString const *,enum UErrorCode &)` | 82 | Exported Function
-`private: class icu_53::BasicTimeZone * __thiscall icu_53::Calendar::getBasicTimeZone(void)const ` | 1663 | Exported Function
-`private: class icu_53::AlphabeticIndex & __thiscall icu_53::AlphabeticIndex::operator=(class icu_53::AlphabeticIndex const &)` | 434 | Exported Function
-`private: bool __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::operator==(class icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40> const &)` | 533 | Exported Function
-`private: class icu_53::BucketList * __thiscall icu_53::AlphabeticIndex::createBucketList(enum UErrorCode &)const ` | 1241 | Exported Function
-`private: class icu_53::CollationKey & __thiscall icu_53::CollationKey::reset(void)` | 2856 | Exported Function
-`private: class icu_53::CollationElementIterator const & __thiscall icu_53::CollationElementIterator::operator=(class icu_53::CollationElementIterator const &)` | 447 | Exported Function
-`private: class icu_53::Calendar * __thiscall icu_53::SimpleDateFormat::initializeCalendar(class icu_53::TimeZone *,class icu_53::Locale const &,enum UErrorCode &)` | 2467 | Exported Function
-`private: bool __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::operator!=(class icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40> const &)` | 589 | Exported Function
-`private: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::Locale const &,enum UErrorCode &)` | 258 | Exported Function
-`private: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(class icu_53::UnicodeString const &,class icu_53::LocalizationInfo *,class icu_53::Locale const &,struct UParseError &,enum UErrorCode &)` | 239 | Exported Function
-`private: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(struct icu_53::CollationTailoring const *,class icu_53::Locale const &)` | 230 | Exported Function
-`private: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(enum icu_53::DateFormat::EStyle,enum icu_53::DateFormat::EStyle,class icu_53::Locale const &,enum UErrorCode &)` | 259 | Exported Function
-`private: __thiscall icu_53::VTimeZone::VTimeZone(void)` | 320 | Exported Function
-`private: __thiscall icu_53::TimeZoneGenericNames::TimeZoneGenericNames(void)` | 300 | Exported Function
-`private: __thiscall icu_53::TimeUnit::TimeUnit(enum icu_53::TimeUnit::UTimeUnitFields)` | 286 | Exported Function
-`private: double __thiscall icu_53::TimeArrayTimeZoneRule::getUTC(double,int,int)const ` | 2300 | Exported Function
-`private: double __thiscall icu_53::RuleBasedTimeZone::getTransitionTime(struct icu_53::Transition *,signed char,int,int)const ` | 2290 | Exported Function
-`private: double __thiscall icu_53::OlsonTimeZone::transitionTime(short)const ` | 3244 | Exported Function
-`private: enum icu_53::Formattable::Type const * __thiscall icu_53::MessageFormat::getArgTypeList(int &)const ` | 1635 | Exported Function
-`private: enum UDateTimePatternConflict __thiscall icu_53::DateTimePatternGenerator::addPatternWithSkeleton(class icu_53::UnicodeString const &,class icu_53::UnicodeString const *,signed char,class icu_53::UnicodeString &,enum UErrorCode &)` | 963 | Exported Function
-`private: enum UCollationResult __thiscall icu_53::RuleBasedCollator::doCompare(wchar_t const *,int,wchar_t const *,int,enum UErrorCode &)const ` | 1392 | Exported Function
-`private: enum UCollationResult __thiscall icu_53::RuleBasedCollator::doCompare(unsigned char const *,int,unsigned char const *,int,enum UErrorCode &)const ` | 1391 | Exported Function
-`private: double __thiscall icu_53::ChineseCalendar::millisToDays(double)const ` | 2660 | Exported Function
-`private: class icu_53::UVector * __thiscall icu_53::TimeZoneNames::MatchInfoCollection::matches(enum UErrorCode &)` | 2651 | Exported Function
-`private: class icu_53::UVector * __thiscall icu_53::RuleBasedTimeZone::copyRules(class icu_53::UVector *)` | 1216 | Exported Function
-`private: class icu_53::UVector * __thiscall icu_53::AlphabeticIndex::firstStringsInScript(enum UErrorCode &)` | 1472 | Exported Function
-`private: double __thiscall icu_53::CalendarAstronomer::eclipticObliquity(void)` | 1398 | Exported Function
-`private: double __thiscall icu_53::ChineseCalendar::internalGetDefaultCenturyStart(void)const ` | 2493 | Exported Function
-`private: double __thiscall icu_53::ChineseCalendar::daysToMillis(double)const ` | 1354 | Exported Function
-`private: double __thiscall icu_53::CalendarAstronomer::getSiderealOffset(void)` | 2142 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::insertNodeBetween(int,int,__int64,enum UErrorCode &)` | 2477 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::findOrInsertWeakNode(int,unsigned int,int,enum UErrorCode &)` | 1456 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::findOrInsertNodeForRootCE(__int64,int,enum UErrorCode &)` | 1455 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::insertTailoredNodeAfter(int,int,enum UErrorCode &)` | 2478 | Exported Function
-`private: int __thiscall icu_53::CollationKey::getCapacity(void)const ` | 1711 | Exported Function
-`private: int __thiscall icu_53::CollationIterator::nextSkippedCodePoint(enum UErrorCode &)` | 2695 | Exported Function
-`private: int __thiscall icu_53::CollationData::findScript(int)const ` | 1463 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::findOrInsertNodeForPrimary(unsigned int,enum UErrorCode &)` | 1454 | Exported Function
-`private: int __thiscall icu_53::Calendar::getActualHelper(enum UCalendarDateFields,int,int,enum UErrorCode &)const ` | 1611 | Exported Function
-`private: enum UDateTimePatternField __thiscall icu_53::DateTimePatternGenerator::getAppendNameNumber(char const *)const ` | 1631 | Exported Function
-`private: enum UDateTimePatternField __thiscall icu_53::DateTimePatternGenerator::getAppendFormatNumber(char const *)const ` | 1627 | Exported Function
-`private: int __thiscall icu_53::ChineseCalendar::internalGetDefaultCenturyStartYear(void)const ` | 2494 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::findOrInsertNodeForCEs(int,char const * &,enum UErrorCode &)` | 1453 | Exported Function
-`private: int __thiscall icu_53::CollationBuilder::findCommonNode(int,int)const ` | 1447 | Exported Function
-`private: int __thiscall icu_53::CollationBaseDataBuilder::writeRootElementsRange(unsigned int,unsigned int,int,class icu_53::UVector32 &,enum UErrorCode &)` | 3296 | Exported Function
-`private: class icu_53::UnicodeString const * __thiscall icu_53::DateTimePatternGenerator::getBestRaw(class icu_53::DateTimeMatcher &,int,class icu_53::DistanceInfo *,class icu_53::PtnSkeleton const * *)` | 1668 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::RuleBasedNumberFormat::adjustForCapitalizationContext(int,class icu_53::UnicodeString &)const ` | 977 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::PluralFormat::format(class icu_53::Formattable const &,double,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1543 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::format(class icu_53::Formattable const *,class icu_53::UnicodeString const *,int,class icu_53::UnicodeString &,class icu_53::FieldPosition *,enum UErrorCode &)const ` | 1522 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::SimpleDateFormat::_format(class icu_53::Calendar &,class icu_53::UnicodeString &,class icu_53::FieldPositionHandler &,enum UErrorCode &)const ` | 923 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatOffsetISO8601(int,signed char,signed char,signed char,signed char,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1574 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatGeneric(class icu_53::TimeZone const &,int,double,class icu_53::UnicodeString &)const ` | 1568 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatExemplarLocation(class icu_53::TimeZone const &,class icu_53::UnicodeString &)const ` | 1567 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::MeasureFormat::formatNumeric(double,class icu_53::DateFormat const &,enum UDateFormatField,class icu_53::Formattable const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1572 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::subformat(class icu_53::UnicodeString &,class icu_53::FieldPositionHandler &,class icu_53::DigitList &,signed char,enum UErrorCode &)const ` | 3201 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::_format(double,class icu_53::UnicodeString &,class icu_53::FieldPositionHandler &,enum UErrorCode &)const ` | 921 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::_format(class icu_53::DigitList const &,class icu_53::UnicodeString &,class icu_53::FieldPositionHandler &,enum UErrorCode &)const ` | 920 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::toPattern(class icu_53::UnicodeString &,signed char)const ` | 3226 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::MeasureFormat::formatNumeric(class icu_53::Formattable const *,int,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1573 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::MeasureFormat::formatMeasuresSlowTrack(class icu_53::Measure const *,int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1571 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::MeasureFormat::formatMeasure(class icu_53::Measure const &,class icu_53::NumberFormat const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1569 | Exported Function
-`private: class icu_53::UnicodeString __thiscall icu_53::MessageFormat::getArgName(int)` | 1633 | Exported Function
-`private: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::getBestAppending(int,int,enum UDateTimePatternMatchOptions)` | 1665 | Exported Function
-`private: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::adjustFieldTypes(class icu_53::UnicodeString const &,class icu_53::PtnSkeleton const *,int,enum UDateTimePatternMatchOptions)` | 975 | Exported Function
-`private: class icu_53::UnicodeString __thiscall icu_53::MessageFormat::getLiteralStringUntilNextArgument(int)const ` | 1946 | Exported Function
-`private: class icu_53::UnicodeString const * __thiscall icu_53::DateIntervalInfo::getBestSkeleton(class icu_53::UnicodeString const &,signed char &)const ` | 1669 | Exported Function
-`private: class icu_53::UnicodeString const & __thiscall icu_53::DecimalFormat::getConstSymbol(enum icu_53::DecimalFormatSymbols::ENumberFormatSymbol)const ` | 1726 | Exported Function
-`private: class icu_53::UnicodeString __thiscall icu_53::PluralRules::getRuleFromResource(class icu_53::Locale const &,enum UPluralType,enum UErrorCode &)` | 2115 | Exported Function
-`private: class icu_53::UnicodeString __thiscall icu_53::CompoundTransliterator::joinIDs(class icu_53::Transliterator * const * const,int)` | 2595 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::getTimeZoneID(class icu_53::TimeZoneNames::MatchInfoCollection const *,int,class icu_53::UnicodeString &)const ` | 2280 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatSpecific(class icu_53::TimeZone const &,enum UTimeZoneNameType,enum UTimeZoneNameType,double,class icu_53::UnicodeString &,enum UTimeZoneFormatTimeType *)const ` | 1581 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatOffsetLocalizedGMT(int,signed char,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1577 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::parseExemplarLocation(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,class icu_53::UnicodeString &)const ` | 2746 | Exported Function
-`private: class icu_53::UnicodeString * __thiscall icu_53::Formattable::getBogus(void)const ` | 1670 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::parseZoneID(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,class icu_53::UnicodeString &)const ` | 2787 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::parseShortZoneID(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,class icu_53::UnicodeString &)const ` | 2779 | Exported Function
-`const icu_53::Format::``vftable'` | 673 | Exported Function
-`const icu_53::FieldPositionIterator::``vftable'` | 672 | Exported Function
-`const icu_53::FieldPosition::``vftable'` | 671 | Exported Function
-`const icu_53::Formattable::``vftable'` | 674 | Exported Function
-`const icu_53::HebrewCalendar::``vftable'` | 677 | Exported Function
-`const icu_53::GregorianCalendar::``vftable'` | 676 | Exported Function
-`const icu_53::GenderInfo::``vftable'` | 675 | Exported Function
-`const icu_53::FCDUTF8CollationIterator::``vftable'` | 670 | Exported Function
-`const icu_53::DateTimeRule::``vftable'` | 664 | Exported Function
-`const icu_53::DateTimePatternGenerator::``vftable'` | 663 | Exported Function
-`const icu_53::DateIntervalInfo::``vftable'` | 662 | Exported Function
-`const icu_53::DecimalFormat::``vftable'` | 665 | Exported Function
-`const icu_53::FCDUTF16CollationIterator::``vftable'` | 669 | Exported Function
-`const icu_53::FCDUIterCollationIterator::``vftable'` | 668 | Exported Function
-`const icu_53::DecimalFormatSymbols::``vftable'` | 666 | Exported Function
-`const icu_53::NumberFormat::``vftable'` | 689 | Exported Function
-`const icu_53::MessageFormat::PluralSelectorProvider::``vftable'` | 698 | Exported Function
-`const icu_53::MessageFormat::DummyFormat::``vftable'` | 667 | Exported Function
-`const icu_53::NumberFormatFactory::``vftable'` | 690 | Exported Function
-`const icu_53::PluralAvailableLocalesEnumeration::``vftable'` | 693 | Exported Function
-`const icu_53::OlsonTimeZone::``vftable'` | 692 | Exported Function
-`const icu_53::NumberingSystem::``vftable'` | 691 | Exported Function
-`const icu_53::MessageFormat::``vftable'` | 688 | Exported Function
-`const icu_53::IslamicCalendar::``vftable'` | 682 | Exported Function
-`const icu_53::InitialTimeZoneRule::``vftable'` | 681 | Exported Function
-`const icu_53::IdentifierInfo::``vftable'` | 678 | Exported Function
-`const icu_53::LocaleDisplayNames::``vftable'` | 683 | Exported Function
-`const icu_53::MeasureUnit::``vftable'` | 687 | Exported Function
-`const icu_53::MeasureFormat::``vftable'` | 686 | Exported Function
-`const icu_53::Measure::``vftable'` | 685 | Exported Function
-`const icu_53::DateIntervalFormat::``vftable'` | 661 | Exported Function
-`const icu_53::CollationBaseDataBuilder::``vftable'` | 643 | Exported Function
-`const icu_53::ChoiceFormat::``vftable'` | 642 | Exported Function
-`const icu_53::ChineseCalendar::``vftable'` | 641 | Exported Function
-`const icu_53::CollationBuilder::``vftable'` | 644 | Exported Function
-`const icu_53::CollationFastLatinBuilder::``vftable'` | 647 | Exported Function
-`const icu_53::CollationElementIterator::``vftable'` | 646 | Exported Function
-`const icu_53::CollationDataBuilder::``vftable'` | 645 | Exported Function
-`const icu_53::CECalendar::``vftable'` | 639 | Exported Function
-`const icu_53::AlphabeticIndex::Bucket::``vftable'` | 638 | Exported Function
-`const icu_53::AlphabeticIndex::``vftable'` | 635 | Exported Function
-`class icu_53::UnicodeString & __cdecl uspoof_getSkeletonUnicodeString_53(struct USpoofChecker const *,unsigned int,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode *)` | 3273 | Exported Function
-`const icu_53::AlphabeticIndex::ImmutableIndex::``vftable'` | 679 | Exported Function
-`const icu_53::Calendar::``vftable'` | 640 | Exported Function
-`const icu_53::BasicTimeZone::``vftable'` | 637 | Exported Function
-`const icu_53::AnnualTimeZoneRule::``vftable'` | 636 | Exported Function
-`const icu_53::CurrencyAmount::``vftable'` | 656 | Exported Function
-`const icu_53::CompoundTransliterator::``vftable'` | 655 | Exported Function
-`const icu_53::CompactDecimalFormat::``vftable'` | 654 | Exported Function
-`const icu_53::CurrencyPluralInfo::``vftable'` | 657 | Exported Function
-`const icu_53::DateFormatSymbols::``vftable'` | 660 | Exported Function
-`const icu_53::DateFormat::``vftable'` | 659 | Exported Function
-`const icu_53::CurrencyUnit::``vftable'` | 658 | Exported Function
-`const icu_53::CollatorFactory::``vftable'` | 653 | Exported Function
-`const icu_53::CollationRuleParser::Importer::``vftable'` | 680 | Exported Function
-`const icu_53::CollationKey::``vftable'` | 649 | Exported Function
-`const icu_53::CollationIterator::``vftable'` | 648 | Exported Function
-`const icu_53::CollationRuleParser::Sink::``vftable'` | 713 | Exported Function
-`const icu_53::Collator::``vftable'` | 652 | Exported Function
-`const icu_53::CollationTailoring::``vftable'` | 651 | Exported Function
-`const icu_53::CollationSettings::``vftable'` | 650 | Exported Function
+`set` | 2921 | Exported Function
+`roundFixedPoint` | 2896 | Exported Function
+`round` | 2895 | Exported Function
+`StringPiece` | 2918 | Exported Function
+`setCount` | 2959 | Exported Function
+`set` | 2919 | Exported Function
+`set` | 2920 | Exported Function
+`reduce` | 2828 | Exported Function
+`clear` | 1092 | Exported Function
+`append` | 1014 | Exported Function
+`UnicodeString` | 3135 | Exported Function
+`DigitList` | 1390 | Exported Function
+`DigitList` | 2667 | Exported Function
+`CharString` | 1759 | Exported Function
+`ensureCapacity` | 1419 | Exported Function
+`remove` | 2844 | Exported Function
+`clear` | 1088 | Exported Function
+`add` | 934 | Exported Function
+`set` | 2912 | Exported Function
+`remove` | 2845 | Exported Function
+`clear` | 1089 | Exported Function
+`add` | 935 | Exported Function
+`trim` | 3252 | Exported Function
+`setInteger` | 3029 | Exported Function
+`setDigit` | 2988 | Exported Function
+`setDecimalAt` | 2978 | Exported Function
+`setPositive` | 3098 | Exported Function
+`toIntegralValue` | 3222 | Exported Function
+`setToZero` | 3157 | Exported Function
+`ERoundingMode` | 3115 | Exported Function
+`UnicodeString` | 3095 | Exported Function
+`UnicodeString` | 3074 | Exported Function
+`UnicodeString` | 3043 | Exported Function
+`UnicodeString` | 2999 | Exported Function
+`DtWidthType` | 3075 | Exported Function
+`UnicodeString` | 3119 | Exported Function
+`DtWidthType` | 3102 | Exported Function
+`UnicodeString` | 3078 | Exported Function
+`UnicodeString` | 2998 | Exported Function
+`Transliterator` | 3159 | Exported Function
+`Transliterator` | 1005 | Exported Function
+`initForTertiary` | 2441 | Exported Function
+`UnicodeString` | 2966 | Exported Function
+`UnicodeString` | 2930 | Exported Function
+`UnicodeString` | 3097 | Exported Function
+`Locale` | 3044 | Exported Function
+`UnicodeString` | 2977 | Exported Function
+`UnicodeString` | 2975 | Exported Function
+`UnicodeString` | 2932 | Exported Function
+`setMaximumSignificantDigits` | 3065 | Exported Function
+`setSignificantDigitsUsed` | 3121 | Exported Function
+`setParseAllInput` | 3090 | Exported Function
+`setMinimumSignificantDigits` | 3073 | Exported Function
+`UnicodeString` | 2931 | Exported Function
+`DtWidthType` | 3167 | Exported Function
+`UnicodeString` | 3166 | Exported Function
+`UnicodeString` | 3120 | Exported Function
+`UnicodeString` | 3168 | Exported Function
+`UnicodeString` | 3033 | Exported Function
+`UnicodeString` | 3002 | Exported Function
+`DateIntervalInfo` | 2974 | Exported Function
+`BreakIterator` | 2943 | Exported Function
+`setAttribute` | 2937 | Exported Function
+`UnicodeString` | 1973 | Exported Function
+`UnicodeString` | 1040 | Exported Function
+`setEndRule` | 2992 | Exported Function
+`TimeMode` | 2997 | Exported Function
+`setDSTSavings` | 2969 | Exported Function
+`complete` | 1178 | Exported Function
+`UnicodeSet` | 2480 | Exported Function
+`UnicodeString` | 2125 | Exported Function
+`dumpPattern` | 1397 | Exported Function
+`UnicodeString` | 2481 | Exported Function
+`TimeZoneRule` | 971 | Exported Function
+`UnicodeSet` | 2492 | Exported Function
+`UVector64` | 2490 | Exported Function
+`setStartYear` | 3131 | Exported Function
+`setStartRule` | 3127 | Exported Function
+`setStartRule` | 3126 | Exported Function
+`RuleBasedCollator` | 2952 | Exported Function
+`put` | 2816 | Exported Function
+`ZNStringPool` | 2815 | Exported Function
+`UnicodeString` | 3094 | Exported Function
+`TimeMode` | 3129 | Exported Function
+`setEndRule` | 2993 | Exported Function
+`TimeMode` | 2996 | Exported Function
+`TimeMode` | 2995 | Exported Function
+`setEndRule` | 2994 | Exported Function
+`TimeMode` | 3128 | Exported Function
+`setStartRule` | 3125 | Exported Function
+`TimeMode` | 3130 | Exported Function
+`setTrace` | 3158 | Exported Function
+`UObject` | 996 | Exported Function
+`DigitList` | 988 | Exported Function
+`Formattable` | 980 | Exported Function
+`UnicodeString` | 997 | Exported Function
+`StringPiece` | 2981 | Exported Function
+`setDate` | 2972 | Exported Function
+`Formattable` | 2934 | Exported Function
+`Formattable` | 2753 | Exported Function
+`setEndIndex` | 2991 | Exported Function
+`setBeginIndex` | 2941 | Exported Function
+`set` | 2913 | Exported Function
+`setField` | 3005 | Exported Function
+`init` | 2425 | Exported Function
+`init` | 2424 | Exported Function
+`adjustForMinFractionDigits` | 978 | Exported Function
+`reset` | 2858 | Exported Function
+`UnicodeString` | 1039 | Exported Function
+`initTransitionRules` | 2457 | Exported Function
+`Locale` | 3046 | Exported Function
+`resetPreserveRegion` | 2872 | Exported Function
+`reset` | 2860 | Exported Function
+`NumberFormat` | 3082 | Exported Function
+`reset` | 2859 | Exported Function
+`setLong` | 3051 | Exported Function
+`setInt64` | 3028 | Exported Function
+`setDouble` | 2990 | Exported Function
+`UnicodeString` | 3134 | Exported Function
+`aliasInstead` | 1008 | Exported Function
+`ECalculationType` | 2944 | Exported Function
+`setGregorianChange` | 3018 | Exported Function
+`createEnumeration` | 1262 | Exported Function
+`Locale` | 2463 | Exported Function
+`setupCurrencyAffixPatterns` | 3170 | Exported Function
+`UnicodeString` | 3171 | Exported Function
+`initialize` | 2464 | Exported Function
+`internalSetInt64` | 2506 | Exported Function
+`internalSetDouble` | 2505 | Exported Function
+`internalClear` | 2482 | Exported Function
+`setCurrencyForSymbols` | 2963 | Exported Function
+`UnicodeString` | 1427 | Exported Function
+`UnicodeString` | 1426 | Exported Function
+`deleteHashForAffixPattern` | 1373 | Exported Function
+`UnicodeString` | 1428 | Exported Function
+`ParsePosition` | 2724 | Exported Function
+`init` | 2423 | Exported Function
+`handleChanged` | 2325 | Exported Function
+`releaseMemory` | 2843 | Exported Function
+`MaybeStackHeaderAndArray` | 433 | Exported Function
+`init` | 2426 | Exported Function
+`setTo` | 3154 | Exported Function
+`FieldPosition` | 1523 | Exported Function
+`MessageFormat` | 1214 | Exported Function
+`cacheExplicitFormats` | 1070 | Exported Function
+`dispose` | 1387 | Exported Function
+`switchToBackward` | 3207 | Exported Function
+`switchToForward` | 3209 | Exported Function
+`switchToBackward` | 3206 | Exported Function
+`switchToForward` | 3210 | Exported Function
+`UVector32` | 2970 | Exported Function
+`switchToForward` | 3211 | Exported Function
+`switchToBackward` | 3208 | Exported Function
+`Hashtable` | 1372 | Exported Function
+`addCanonicalItems` | 948 | Exported Function
+`UnicodeString` | 3034 | Exported Function
+`Locale` | 2469 | Exported Function
+`Locale` | 947 | Exported Function
+`UnicodeString` | 1630 | Exported Function
+`Hashtable` | 1213 | Exported Function
+`Locale` | 954 | Exported Function
+`Hashtable` | 1370 | Exported Function
+`UnicodeString` | 3003 | Exported Function
+`initializePattern` | 2471 | Exported Function
+`UnicodeString` | 1193 | Exported Function
+`UnicodeString` | 3031 | Exported Function
+`Hashtable` | 1209 | Exported Function
+`UnicodeString` | 3096 | Exported Function
+`UnicodeString` | 3032 | Exported Function
+`UnicodeString` | 1042 | Exported Function
+`UnicodeString` | 1033 | Exported Function
+`UnicodeString` | 1017 | Exported Function
+`UnicodeString` | 1043 | Exported Function
+`Hashtable` | 1212 | Exported Function
+`Hashtable` | 1211 | Exported Function
+`DecimalFormatSymbols` | 1194 | Exported Function
+`UnicodeString` | 1016 | Exported Function
+`initHashtable` | 2450 | Exported Function
+`Locale` | 2435 | Exported Function
+`UnicodeString` | 2324 | Exported Function
+`UnicodeString` | 2940 | Exported Function
+`FieldPositionHandler` | 961 | Exported Function
+`Locale` | 2983 | Exported Function
+`Locale` | 2976 | Exported Function
+`initializeBooleanAttributes` | 2466 | Exported Function
+`Locale` | 2465 | Exported Function
+`Locale` | 1195 | Exported Function
+`initializeDefaultCentury` | 2470 | Exported Function
+`parseAmbiguousDatesAsAfter` | 2737 | Exported Function
+`Locale` | 2454 | Exported Function
+`Calendar` | 2473 | Exported Function
+`getOffsetInternal` | 2060 | Exported Function
+`initDefaultRuleSet` | 2437 | Exported Function
+`Locale` | 2433 | Exported Function
+`LocalizationInfo` | 2431 | Exported Function
+`UnicodeString` | 3198 | Exported Function
+`deleteTransitions` | 1377 | Exported Function
+`deleteRules` | 1374 | Exported Function
+`completeConst` | 1179 | Exported Function
+`decodeStartRule` | 1360 | Exported Function
+`decodeRules` | 1359 | Exported Function
+`decodeEndRule` | 1358 | Exported Function
+`deleteTransitionRules` | 1376 | Exported Function
+`UnicodeString` | 2817 | Exported Function
+`buildTrie` | 1069 | Exported Function
+`initTransitionRules` | 2458 | Exported Function
+`TimeMode` | 1196 | Exported Function
+`UnicodeString` | 2814 | Exported Function
+`NumberFormat` | 2749 | Exported Function
+`NumberFormat` | 2748 | Exported Function
+`Calendar` | 3199 | Exported Function
+`clearTransitionRules` | 1101 | Exported Function
+`checkTransitionRules` | 1085 | Exported Function
+`UnicodeString` | 3314 | Exported Function
+`dispose` | 1388 | Exported Function
+`constructEmpty` | 1197 | Exported Function
+`clearTransitionRules` | 1100 | Exported Function
+`checkTransitionRules` | 1084 | Exported Function
+`deleteTransitionRules` | 1375 | Exported Function
+`PluralRules` | 2427 | Exported Function
+`PluralFormat` | 1215 | Exported Function
+`getHistoricalOffset` | 1901 | Exported Function
+`setRadix` | 3103 | Exported Function
+`Format` | 2933 | Exported Function
+`resetPattern` | 2871 | Exported Function
+`AppendableWrapper` | 1564 | Exported Function
+`Format` | 2968 | Exported Function
+`setName` | 3077 | Exported Function
+`UnicodeString` | 2987 | Exported Function
+`setAlgorithmic` | 2927 | Exported Function
+`setAttributeDefault` | 2938 | Exported Function
+`CollationTailoring` | 998 | Exported Function
+`NumberFormat` | 2430 | Exported Function
+`setAttributeExplicitly` | 2939 | Exported Function
+`SortKeyByteSink` | 3299 | Exported Function
+`SortKeyByteSink` | 3295 | Exported Function
+`CollationSettings` | 3004 | Exported Function
+`zap` | 3313 | Exported Function
+`init2` | 2418 | Exported Function
+`init` | 2428 | Exported Function
+`IncrementTime` | 789 | Exported Function
+`MatchAt` | 828 | Exported Function
+`init` | 2429 | Exported Function
+`dumpOp` | 1396 | Exported Function
+`MatchChunkAt` | 829 | Exported Function
+`getBytes` | 1685 | Exported Function
+`reallocate` | 2826 | Exported Function
+`getBytes` | 1684 | Exported Function
+`UnicodeString` | 955 | Exported Function
+`encodeTwoCEs` | 1412 | Exported Function
+`UnicodeString` | 973 | Exported Function
+`UnicodeString` | 960 | Exported Function
+`REStackFrame` | 882 | Exported Function
+`fgCalendarFieldToPatternLetter` | 1433 | Exported Function
+`getShortIDFromCanonical` | 2139 | Exported Function
+`UnicodeString` | 2099 | Exported Function
+`CharacterNode` | 949 | Exported Function
+`resetStack` | 2875 | Exported Function
+`getDefaultSettings` | 1772 | Exported Function
+`CharacterNode` | 1715 | Exported Function
+`newYear` | 2669 | Exported Function
+`newMoonNear` | 2668 | Exported Function
+`majorSolarTerm` | 2626 | Exported Function
+`synodicMonthsBetween` | 3212 | Exported Function
+`AlphabeticIndex` | 534 | Exported Function
+`AlphabeticIndex` | 590 | Exported Function
+`winterSolstice` | 3285 | Exported Function
+`flag` | 1476 | Exported Function
+`CollationData` | 2677 | Exported Function
+`CollationData` | 1689 | Exported Function
+`getMiniCE` | 1990 | Exported Function
+`UCharsTrie` | 2678 | Exported Function
+`flag` | 1475 | Exported Function
+`incWeightByOffset` | 2414 | Exported Function
+`incWeight` | 2413 | Exported Function
+`UnicodeString` | 1449 | Exported Function
+`TER_LOWER_FIRST_COMMON_HIGH` | 886 | Exported Function
+`SEC_COMMON_MIDDLE` | 867 | Exported Function
+`SEC_COMMON_LOW` | 865 | Exported Function
+`TER_LOWER_FIRST_COMMON_LOW` | 887 | Exported Function
+`TER_ONLY_COMMON_LOW` | 892 | Exported Function
+`TER_ONLY_COMMON_HIGH` | 891 | Exported Function
+`TER_LOWER_FIRST_COMMON_MIDDLE` | 889 | Exported Function
+`SEC_COMMON_HIGH` | 864 | Exported Function
+`CASE_UPPER_FIRST_COMMON_LOW` | 754 | Exported Function
+`CASE_UPPER_FIRST_COMMON_HIGH` | 753 | Exported Function
+`CASE_LOWER_FIRST_COMMON_MIDDLE` | 750 | Exported Function
+`QUAT_COMMON_HIGH` | 854 | Exported Function
+`QUAT_SHIFTED_LIMIT_BYTE` | 858 | Exported Function
+`QUAT_COMMON_MIDDLE` | 857 | Exported Function
+`QUAT_COMMON_LOW` | 855 | Exported Function
+`initializeSystemDefaultCentury` | 2474 | Exported Function
+`UnicodeString` | 2781 | Exported Function
+`UnicodeString` | 1756 | Exported Function
+`loadRegionData` | 2618 | Exported Function
+`UnicodeString` | 1378 | Exported Function
+`UnicodeString` | 3246 | Exported Function
+`CollationTailoring` | 1187 | Exported Function
+`UnicodeString` | 976 | Exported Function
+`TER_UPPER_FIRST_COMMON_LOW` | 896 | Exported Function
+`TER_UPPER_FIRST_COMMON_HIGH` | 895 | Exported Function
+`TER_ONLY_COMMON_MIDDLE` | 894 | Exported Function
+`TER_UPPER_FIRST_COMMON_MIDDLE` | 898 | Exported Function
+`UnicodeString` | 1047 | Exported Function
+`load` | 2614 | Exported Function
+`copyData` | 1204 | Exported Function
+`parseRuleChain` | 2776 | Exported Function
+`UnicodeString` | 2774 | Exported Function
+`parseRelationStrings` | 2773 | Exported Function
+`parseSetting` | 2778 | Exported Function
+`setParseError` | 3091 | Exported Function
+`setErrorContext` | 3000 | Exported Function
+`parseStarredCharacters` | 2783 | Exported Function
+`UnicodeString` | 2718 | Exported Function
+`resetCEs` | 2870 | Exported Function
+`CollationData` | 1696 | Exported Function
+`addUniqueCE` | 972 | Exported Function
+`appendNumericCEs` | 1020 | Exported Function
+`setLength` | 3038 | Exported Function
+`backwardNumSkipped` | 1056 | Exported Function
+`appendNumericSegmentCEs` | 1021 | Exported Function
+`UnicodeString` | 1353 | Exported Function
+`DateFormatSymbols` | 1205 | Exported Function
+`Locale` | 3172 | Exported Function
+`dispose` | 1386 | Exported Function
+`initZoneStringsArray` | 2459 | Exported Function
+`Locale` | 2468 | Exported Function
+`disposeZoneStrings` | 1389 | Exported Function
+`Locale` | 2462 | Exported Function
+`freeTransliterators` | 1593 | Exported Function
+`computeMaximumContextLength` | 1188 | Exported Function
+`WeightRange` | 2613 | Exported Function
+`UnicodeString` | 2422 | Exported Function
+`Hashtable` | 1369 | Exported Function
+`Hashtable` | 1208 | Exported Function
+`UVector` | 2421 | Exported Function
+`addContractionEntry` | 953 | Exported Function
+`Replaceable` | 1441 | Exported Function
+`setCurrencyInternally` | 2964 | Exported Function
+`UnicodeSet` | 3203 | Exported Function
+`Locale` | 956 | Exported Function
+`initBuckets` | 2432 | Exported Function
+`Locale` | 2419 | Exported Function
+`clearBuckets` | 1094 | Exported Function
+`UnicodeSet` | 2711 | Exported Function
+`computeChineseFields` | 1180 | Exported Function
+`isLeapMonthBetween` | 2552 | Exported Function
+`hasNoMajorSolarTerm` | 2381 | Exported Function
+`offsetMonth` | 2710 | Exported Function
+`UnicodeString` | 967 | Exported Function
+`UnicodeString` | 965 | Exported Function
+`UnicodeString` | 2949 | Exported Function
+`UnicodeString` | 970 | Exported Function
+`clearCache` | 1097 | Exported Function
+`validateFields` | 3277 | Exported Function
+`closeOverComposites` | 1148 | Exported Function
+`UnicodeString` | 2947 | Exported Function
+`makeTailoredCEs` | 2639 | Exported Function
+`finalizeCEs` | 1443 | Exported Function
+`validateField` | 3274 | Exported Function
+`computeGregorianAndDOWFields` | 1182 | Exported Function
+`internalResetBucketIterator` | 2502 | Exported Function
+`UVector` | 2451 | Exported Function
+`computeWeekFields` | 1191 | Exported Function
+`updateTime` | 3265 | Exported Function
+`Locale` | 3165 | Exported Function
+`recalculateStamp` | 2827 | Exported Function
+`defaultCenturyStartYear` | 1365 | Exported Function
+`ELimitType` | 2344 | Exported Function
+`handleComputeMonthStart` | 2333 | Exported Function
+`handleComputeMonthStart` | 2334 | Exported Function
+`handleGetMonthLength` | 2350 | Exported Function
+`ELimitType` | 2345 | Exported Function
+`handleGetExtendedYear` | 2338 | Exported Function
+`handleGetYearLength` | 2361 | Exported Function
+`getDefaultMonthInYear` | 1766 | Exported Function
+`getDefaultDayInMonth` | 1765 | Exported Function
+`defaultCenturyStart` | 1364 | Exported Function
+`ELimitType` | 1943 | Exported Function
+`handleGetMonthLength` | 2349 | Exported Function
+`handleGetExtendedYearFromWeekFields` | 2342 | Exported Function
+`handleComputeJulianDay` | 2331 | Exported Function
+`defaultCenturyStartYear` | 1367 | Exported Function
+`monthLength` | 2663 | Exported Function
+`monthLength` | 2662 | Exported Function
+`handleComputeMonthStart` | 2336 | Exported Function
+`handleGetMonthLength` | 2352 | Exported Function
+`ELimitType` | 2347 | Exported Function
+`handleGetExtendedYear` | 2340 | Exported Function
+`internalGetEra` | 2495 | Exported Function
+`handleGetExtendedYear` | 2339 | Exported Function
+`handleComputeMonthStart` | 2335 | Exported Function
+`handleComputeJulianDay` | 2332 | Exported Function
+`handleGetExtendedYearFromWeekFields` | 2343 | Exported Function
+`handleGetYearLength` | 2362 | Exported Function
+`handleGetMonthLength` | 2351 | Exported Function
+`ELimitType` | 2346 | Exported Function
+`defaultCenturyStart` | 1363 | Exported Function
+`encodeOneCEAsCE32` | 1411 | Exported Function
+`julianDayToDayOfWeek` | 2596 | Exported Function
+`UnicodeString` | 2619 | Exported Function
+`makeBuilderContextCE32` | 2628 | Exported Function
+`UnicodeString` | 3213 | Exported Function
+`jdToCE` | 2594 | Exported Function
+`IS_BUILDER_JAMO_CE32` | 787 | Exported Function
+`isBuilderContextCE32` | 2520 | Exported Function
+`kDoubleFractionDigits` | 2600 | Exported Function
+`kYearPrecedence` | 2603 | Exported Function
+`kDOWPrecedence` | 2598 | Exported Function
+`kDoubleIntegerDigits` | 2601 | Exported Function
+`gDefaultMinIntegerDigits` | 1602 | Exported Function
+`gDefaultMaxIntegerDigits` | 1601 | Exported Function
+`kMaxScientificIntegerDigits` | 2602 | Exported Function
+`encodeOneCE` | 1410 | Exported Function
+`encodeExpansion32` | 1408 | Exported Function
+`encodeExpansion` | 1409 | Exported Function
+`getCE32FromOffsetCE32` | 1688 | Exported Function
+`getEpochDay` | 1843 | Exported Function
+`defaultCenturyStart` | 1361 | Exported Function
+`CECalendar` | 330 | Exported Function
+`copyFromBaseCE32` | 1207 | Exported Function
+`Transliterator` | 929 | Exported Function
+`Token` | 928 | Exported Function
+`UnicodeString` | 927 | Exported Function
+`UnicodeString` | 930 | Exported Function
+`ConditionalCE32` | 1063 | Exported Function
+`getConditionalCE32ForCE32` | 1725 | Exported Function
+`getConditionalCE32` | 1724 | Exported Function
+`handleComputeFields` | 2327 | Exported Function
+`validateField` | 3275 | Exported Function
+`prepareGetActual` | 2796 | Exported Function
+`UnicodeSet` | 2354 | Exported Function
+`backwardNumCodePoints` | 1050 | Exported Function
+`getEffectiveCurrency` | 1838 | Exported Function
+`Replaceable` | 2374 | Exported Function
+`pinField` | 2792 | Exported Function
+`handleNextCE32` | 2371 | Exported Function
+`handleNextCE32` | 2370 | Exported Function
+`handleNextCE32` | 2369 | Exported Function
+`handleNextCE32` | 2372 | Exported Function
+`handleComputeFields` | 2326 | Exported Function
+`computeTime` | 1190 | Exported Function
+`computeFields` | 1181 | Exported Function
+`Locale` | 3050 | Exported Function
+`getEffectiveCurrency` | 1839 | Exported Function
+`handleComputeFields` | 2330 | Exported Function
+`setMatchLength` | 3053 | Exported Function
+`forwardNumCodePoints` | 1585 | Exported Function
+`backwardNumCodePoints` | 1053 | Exported Function
+`setMatchStart` | 3055 | Exported Function
+`validateField` | 3276 | Exported Function
+`forwardNumCodePoints` | 1583 | Exported Function
+`backwardNumCodePoints` | 1051 | Exported Function
+`forwardNumCodePoints` | 1582 | Exported Function
+`backwardNumCodePoints` | 1052 | Exported Function
+`handleComputeFields` | 2329 | Exported Function
+`handleComputeFields` | 2328 | Exported Function
+`forwardNumCodePoints` | 1584 | Exported Function
+`handleNextCE32` | 2368 | Exported Function
+`getFieldResolutionTable` | 1856 | Exported Function
+`getFieldResolutionTable` | 1855 | Exported Function
+`handlePrev` | 2373 | Exported Function
+`haveDefaultCentury` | 2393 | Exported Function
+`inDaylightTime` | 2402 | Exported Function
+`haveDefaultCentury` | 2394 | Exported Function
+`inDaylightTime` | 2401 | Exported Function
+`handleNext` | 2365 | Exported Function
+`handleComputeMonthStart` | 2337 | Exported Function
+`defaultCenturyStartYear` | 1368 | Exported Function
+`handleGetYearLength` | 2363 | Exported Function
+`handleGetExtendedYear` | 2341 | Exported Function
+`handleGetYearLength` | 2364 | Exported Function
+`handleGetMonthLength` | 2353 | Exported Function
+`ELimitType` | 2348 | Exported Function
+`foundNULTerminator` | 1592 | Exported Function
+`forbidSurrogateCodePoints` | 1483 | Exported Function
+`foundNULTerminator` | 1591 | Exported Function
+`getCE32FromBuilderData` | 1687 | Exported Function
+`handleNextCE32` | 2367 | Exported Function
+`handleNextCE32` | 2366 | Exported Function
+`getDataCE32` | 1748 | Exported Function
+`inDaylightTime` | 2405 | Exported Function
+`foundNULTerminator` | 1589 | Exported Function
+`foundNULTerminator` | 1588 | Exported Function
+`forbidSurrogateCodePoints` | 1482 | Exported Function
+`foundNULTerminator` | 1590 | Exported Function
+`haveDefaultCentury` | 2397 | Exported Function
+`inDaylightTime` | 2404 | Exported Function
+`haveDefaultCentury` | 2396 | Exported Function
+`Locale` | 18 | Exported Function
+`CECalendar` | 17 | Exported Function
+`Calendar` | 19 | Exported Function
+`TimeZone` | 26 | Exported Function
+`Collator` | 54 | Exported Function
+`Collator` | 53 | Exported Function
+`CollationIterator` | 42 | Exported Function
+`Locale` | 21 | Exported Function
+`BasicTimeZone` | 12 | Exported Function
+`UnicodeString` | 3308 | Exported Function
+`UnicodeString` | 3307 | Exported Function
+`UnicodeString` | 13 | Exported Function
+`Locale` | 22 | Exported Function
+`Calendar` | 20 | Exported Function
+`BasicTimeZone` | 14 | Exported Function
+`BreakIterator` | 250 | Exported Function
+`NumberFormat` | 187 | Exported Function
+`NumberFormat` | 186 | Exported Function
+`BreakIterator` | 251 | Exported Function
+`UnicodeString` | 296 | Exported Function
+`TimeZone` | 295 | Exported Function
+`SearchIterator` | 252 | Exported Function
+`MeasureFormat` | 174 | Exported Function
+`DateFormat` | 76 | Exported Function
+`DateFormat` | 75 | Exported Function
+`Collator` | 55 | Exported Function
+`DateIntervalFormat` | 84 | Exported Function
+`Measure` | 171 | Exported Function
+`Format` | 131 | Exported Function
+`Format` | 130 | Exported Function
+`VTZWriter` | 3306 | Exported Function
+`checkAbuttingHoursAndMinutes` | 1081 | Exported Function
+`UnicodeString` | 1022 | Exported Function
+`setup` | 3169 | Exported Function
+`initGMTOffsetPatterns` | 2442 | Exported Function
+`UnicodeString` | 1027 | Exported Function
+`UnicodeString` | 932 | Exported Function
+`UnicodeString` | 2443 | Exported Function
+`Hashtable` | 2903 | Exported Function
+`Hashtable` | 1210 | Exported Function
+`checkConsistency` | 1082 | Exported Function
+`TextTrieMapSearchResultHandler` | 2901 | Exported Function
+`create` | 1235 | Exported Function
+`UVector` | 2824 | Exported Function
+`initDataMembers` | 2436 | Exported Function
+`Hashtable` | 1371 | Exported Function
+`VTZWriter` | 3297 | Exported Function
+`VTZWriter` | 3294 | Exported Function
+`VTZWriter` | 3293 | Exported Function
+`UVector` | 3302 | Exported Function
+`UnicodeString` | 3305 | Exported Function
+`UnicodeString` | 3304 | Exported Function
+`UnicodeString` | 3303 | Exported Function
+`AnnualTimeZoneRule` | 3292 | Exported Function
+`VTZWriter` | 1418 | Exported Function
+`UnicodeString` | 1059 | Exported Function
+`VTZWriter` | 1058 | Exported Function
+`VTZReader` | 2615 | Exported Function
+`VTZWriter` | 3288 | Exported Function
+`VTZWriter` | 3287 | Exported Function
+`parse` | 2734 | Exported Function
+`addCE32` | 944 | Exported Function
+`addCE` | 946 | Exported Function
+`weekNumber` | 3282 | Exported Function
+`UnicodeString` | 951 | Exported Function
+`UnicodeString` | 1693 | Exported Function
+`ConditionalCE32` | 1203 | Exported Function
+`UCharsTrieBuilder` | 952 | Exported Function
+`weekNumber` | 3281 | Exported Function
+`getLocalDOW` | 1947 | Exported Function
+`getGregorianYear` | 1898 | Exported Function
+`getGregorianMonth` | 1897 | Exported Function
+`EDateFields` | 2487 | Exported Function
+`newestStamp` | 2671 | Exported Function
+`internalGet` | 2489 | Exported Function
+`internalGet` | 2488 | Exported Function
+`jamoCpFromIndex` | 2593 | Exported Function
+`ceToJD` | 1078 | Exported Function
+`UnicodeString` | 926 | Exported Function
+`_countAvailableSources` | 917 | Exported Function
+`kDatePrecedence` | 2599 | Exported Function
+`UnicodeString` | 919 | Exported Function
+`UnicodeString` | 918 | Exported Function
+`UnicodeString` | 925 | Exported Function
+`getJamoCE32s` | 1923 | Exported Function
+`yearLength` | 3310 | Exported Function
+`yearLength` | 3309 | Exported Function
+`Locale` | 3066 | Exported Function
+`UnicodeString` | 924 | Exported Function
+`UnicodeString` | 1240 | Exported Function
+`Locale` | 2635 | Exported Function
+`getGregorianDayOfYear` | 1896 | Exported Function
+`DateFormat` | 463 | Exported Function
+`CECalendar` | 438 | Exported Function
+`Calendar` | 439 | Exported Function
+`DateIntervalFormat` | 465 | Exported Function
+`getLocale` | 1957 | Exported Function
+`Format` | 478 | Exported Function
+`DigitList` | 931 | Exported Function
+`getLocaleID` | 1962 | Exported Function
+`TimeZoneRule` | 304 | Exported Function
+`Locale` | 298 | Exported Function
+`TimeZone` | 297 | Exported Function
+`UnicodeString` | 305 | Exported Function
+`UTF16CollationIterator` | 313 | Exported Function
+`UnicodeFilter` | 310 | Exported Function
+`Transliterator` | 309 | Exported Function
+`resolveFields` | 2883 | Exported Function
+`newerField` | 2670 | Exported Function
+`internalGetTime` | 2499 | Exported Function
+`computeJulianDay` | 1184 | Exported Function
+`getGregorianDayOfMonth` | 1895 | Exported Function
+`computeZoneOffset` | 1192 | Exported Function
+`computeMillisInDay` | 1189 | Exported Function
+`getTimeInMillis` | 2266 | Exported Function
+`getPluralRules` | 2072 | Exported Function
+`getNumberFormat` | 2025 | Exported Function
+`NumberFormat` | 494 | Exported Function
+`SearchIterator` | 511 | Exported Function
+`Transliterator` | 528 | Exported Function
+`TimeZoneRule` | 526 | Exported Function
+`TimeZone` | 522 | Exported Function
+`initHash` | 2446 | Exported Function
+`initHash` | 2445 | Exported Function
+`UnicodeString` | 1632 | Exported Function
+`initHashForAffix` | 2448 | Exported Function
+`clear` | 1093 | Exported Function
+`initHash` | 2447 | Exported Function
+`initHashForAffixPattern` | 2449 | Exported Function
+`ParsePosition` | 2726 | Exported Function
+`DateTimePatternGenerator` | 467 | Exported Function
+`getDefaultDateFormat` | 1764 | Exported Function
+`CompoundTransliterator` | 459 | Exported Function
+`getDecimalFormatSymbols` | 1762 | Exported Function
+`getCachedFormatter` | 1701 | Exported Function
+`Type` | 1237 | Exported Function
+`Formattable` | 3264 | Exported Function
+`tzFormat` | 3256 | Exported Function
+`getChineseCalZoneAstroCalc` | 1716 | Exported Function
+`createTimeZoneForOffset` | 1343 | Exported Function
+`getTimeZoneGenericNames` | 2279 | Exported Function
+`FieldPositionHandler` | 922 | Exported Function
+`FieldPosition` | 1430 | Exported Function
+`findRuleInFinal` | 1461 | Exported Function
+`UnicodeString` | 2897 | Exported Function
+`Locale` | 1307 | Exported Function
+`getDefaultRuleSet` | 1770 | Exported Function
+`UnicodeString` | 1462 | Exported Function
+`getNumberFormatByIndex` | 2027 | Exported Function
+`getCollator` | 1721 | Exported Function
+`getQuantityFormatter` | 2086 | Exported Function
+`getDefaultNumberFormat` | 1767 | Exported Function
+`setToBogus` | 3156 | Exported Function
+`GenderInfo` | 144 | Exported Function
+`DecimalFormatSymbols` | 102 | Exported Function
+`DateTimePatternGenerator` | 88 | Exported Function
+`MaybeStackHeaderAndArray` | 5 | Exported Function
+`Region` | 224 | Exported Function
+`RegexPattern` | 217 | Exported Function
+`MeasureUnit` | 178 | Exported Function
+`Locale` | 90 | Exported Function
+`UVector` | 61 | Exported Function
+`UnicodeFilter` | 62 | Exported Function
+`PluralRules` | 58 | Exported Function
+`UVector` | 60 | Exported Function
+`DateTimePatternGenerator` | 89 | Exported Function
+`DateIntervalFormat` | 83 | Exported Function
+`UnicodeString` | 82 | Exported Function
+`getBasicTimeZone` | 1663 | Exported Function
+`AlphabeticIndex` | 434 | Exported Function
+`MaybeStackHeaderAndArray` | 533 | Exported Function
+`createBucketList` | 1241 | Exported Function
+`reset` | 2856 | Exported Function
+`CollationElementIterator` | 447 | Exported Function
+`Locale` | 2467 | Exported Function
+`MaybeStackHeaderAndArray` | 589 | Exported Function
+`Locale` | 258 | Exported Function
+`Locale` | 239 | Exported Function
+`Locale` | 230 | Exported Function
+`Locale` | 259 | Exported Function
+`VTimeZone` | 320 | Exported Function
+`TimeZoneGenericNames` | 300 | Exported Function
+`UTimeUnitFields` | 286 | Exported Function
+`getUTC` | 2300 | Exported Function
+`Transition` | 2290 | Exported Function
+`transitionTime` | 3244 | Exported Function
+`getArgTypeList` | 1635 | Exported Function
+`UnicodeString` | 963 | Exported Function
+`doCompare` | 1392 | Exported Function
+`doCompare` | 1391 | Exported Function
+`millisToDays` | 2660 | Exported Function
+`matches` | 2651 | Exported Function
+`UVector` | 1216 | Exported Function
+`firstStringsInScript` | 1472 | Exported Function
+`eclipticObliquity` | 1398 | Exported Function
+`internalGetDefaultCenturyStart` | 2493 | Exported Function
+`daysToMillis` | 1354 | Exported Function
+`getSiderealOffset` | 2142 | Exported Function
+`insertNodeBetween` | 2477 | Exported Function
+`findOrInsertWeakNode` | 1456 | Exported Function
+`findOrInsertNodeForRootCE` | 1455 | Exported Function
+`insertTailoredNodeAfter` | 2478 | Exported Function
+`getCapacity` | 1711 | Exported Function
+`nextSkippedCodePoint` | 2695 | Exported Function
+`findScript` | 1463 | Exported Function
+`findOrInsertNodeForPrimary` | 1454 | Exported Function
+`getActualHelper` | 1611 | Exported Function
+`getAppendNameNumber` | 1631 | Exported Function
+`getAppendFormatNumber` | 1627 | Exported Function
+`internalGetDefaultCenturyStartYear` | 2494 | Exported Function
+`findOrInsertNodeForCEs` | 1453 | Exported Function
+`findCommonNode` | 1447 | Exported Function
+`UVector32` | 3296 | Exported Function
+`PtnSkeleton` | 1668 | Exported Function
+`UnicodeString` | 977 | Exported Function
+`FieldPosition` | 1543 | Exported Function
+`FieldPosition` | 1522 | Exported Function
+`FieldPositionHandler` | 923 | Exported Function
+`UnicodeString` | 1574 | Exported Function
+`UnicodeString` | 1568 | Exported Function
+`UnicodeString` | 1567 | Exported Function
+`UnicodeString` | 1572 | Exported Function
+`DigitList` | 3201 | Exported Function
+`FieldPositionHandler` | 921 | Exported Function
+`FieldPositionHandler` | 920 | Exported Function
+`UnicodeString` | 3226 | Exported Function
+`UnicodeString` | 1573 | Exported Function
+`FieldPosition` | 1571 | Exported Function
+`FieldPosition` | 1569 | Exported Function
+`getArgName` | 1633 | Exported Function
+`getBestAppending` | 1665 | Exported Function
+`PtnSkeleton` | 975 | Exported Function
+`getLiteralStringUntilNextArgument` | 1946 | Exported Function
+`UnicodeString` | 1669 | Exported Function
+`ENumberFormatSymbol` | 1726 | Exported Function
+`Locale` | 2115 | Exported Function
+`Transliterator` | 2595 | Exported Function
+`UnicodeString` | 2280 | Exported Function
+`UnicodeString` | 1581 | Exported Function
+`UnicodeString` | 1577 | Exported Function
+`UnicodeString` | 2746 | Exported Function
+`getBogus` | 1670 | Exported Function
+`UnicodeString` | 2787 | Exported Function
+`UnicodeString` | 2779 | Exported Function
+`Format` | 673 | Exported Function
+`FieldPositionIterator` | 672 | Exported Function
+`FieldPosition` | 671 | Exported Function
+`Formattable` | 674 | Exported Function
+`HebrewCalendar` | 677 | Exported Function
+`GregorianCalendar` | 676 | Exported Function
+`GenderInfo` | 675 | Exported Function
+`FCDUTF8CollationIterator` | 670 | Exported Function
+`DateTimeRule` | 664 | Exported Function
+`DateTimePatternGenerator` | 663 | Exported Function
+`DateIntervalInfo` | 662 | Exported Function
+`DecimalFormat` | 665 | Exported Function
+`FCDUTF16CollationIterator` | 669 | Exported Function
+`FCDUIterCollationIterator` | 668 | Exported Function
+`DecimalFormatSymbols` | 666 | Exported Function
+`NumberFormat` | 689 | Exported Function
+`PluralSelectorProvider` | 698 | Exported Function
+`DummyFormat` | 667 | Exported Function
+`NumberFormatFactory` | 690 | Exported Function
+`PluralAvailableLocalesEnumeration` | 693 | Exported Function
+`OlsonTimeZone` | 692 | Exported Function
+`NumberingSystem` | 691 | Exported Function
+`MessageFormat` | 688 | Exported Function
+`IslamicCalendar` | 682 | Exported Function
+`InitialTimeZoneRule` | 681 | Exported Function
+`IdentifierInfo` | 678 | Exported Function
+`LocaleDisplayNames` | 683 | Exported Function
+`MeasureUnit` | 687 | Exported Function
+`MeasureFormat` | 686 | Exported Function
+`Measure` | 685 | Exported Function
+`DateIntervalFormat` | 661 | Exported Function
+`CollationBaseDataBuilder` | 643 | Exported Function
+`ChoiceFormat` | 642 | Exported Function
+`ChineseCalendar` | 641 | Exported Function
+`CollationBuilder` | 644 | Exported Function
+`CollationFastLatinBuilder` | 647 | Exported Function
+`CollationElementIterator` | 646 | Exported Function
+`CollationDataBuilder` | 645 | Exported Function
+`CECalendar` | 639 | Exported Function
+`Bucket` | 638 | Exported Function
+`AlphabeticIndex` | 635 | Exported Function
+`UnicodeString` | 3273 | Exported Function
+`ImmutableIndex` | 679 | Exported Function
+`Calendar` | 640 | Exported Function
+`BasicTimeZone` | 637 | Exported Function
+`AnnualTimeZoneRule` | 636 | Exported Function
+`CurrencyAmount` | 656 | Exported Function
+`CompoundTransliterator` | 655 | Exported Function
+`CompactDecimalFormat` | 654 | Exported Function
+`CurrencyPluralInfo` | 657 | Exported Function
+`DateFormatSymbols` | 660 | Exported Function
+`DateFormat` | 659 | Exported Function
+`CurrencyUnit` | 658 | Exported Function
+`CollatorFactory` | 653 | Exported Function
+`Importer` | 680 | Exported Function
+`CollationKey` | 649 | Exported Function
+`CollationIterator` | 648 | Exported Function
+`Sink` | 713 | Exported Function
+`Collator` | 652 | Exported Function
+`CollationTailoring` | 651 | Exported Function
+`CollationSettings` | 650 | Exported Function
 `izrule_getDynamicClassID_53` | 3320 | Exported Function
 `izrule_getDSTSavings_53` | 3319 | Exported Function
 `izrule_equals_53` | 3318 | Exported Function
@@ -2660,1279 +2660,1279 @@ Function Name | Ordinal | Type
 `izrule_getName_53` | 3323 | Exported Function
 `izrule_getFirstStart_53` | 3322 | Exported Function
 `izrule_close_53` | 3317 | Exported Function
-`const icu_53::UnicodeReplacer::``vftable'` | 730 | Exported Function
-`const icu_53::UIterCollationIterator::``vftable'` | 727 | Exported Function
-`const icu_53::Transliterator::``vftable'` | 726 | Exported Function
-`const icu_53::UTF16CollationIterator::``vftable'` | 728 | Exported Function
+`UnicodeReplacer` | 730 | Exported Function
+`UIterCollationIterator` | 727 | Exported Function
+`Transliterator` | 726 | Exported Function
+`UTF16CollationIterator` | 728 | Exported Function
 `izrule_clone_53` | 3316 | Exported Function
-`const icu_53::VTimeZone::``vftable'` | 731 | Exported Function
-`const icu_53::UTF8CollationIterator::``vftable'` | 729 | Exported Function
-`private: __thiscall icu_53::AlphabeticIndex::Bucket::Bucket(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UAlphabeticIndexLabelType)` | 15 | Exported Function
-`private: __int64 __thiscall icu_53::RegexMatcher::appendGroup(int,struct UText *,enum UErrorCode &)const ` | 1019 | Exported Function
-`private: __int64 __thiscall icu_53::OlsonTimeZone::transitionTimeInSeconds(short)const ` | 3245 | Exported Function
-`private: __thiscall icu_53::AlphabeticIndex::ImmutableIndex::ImmutableIndex(class icu_53::BucketList *,class icu_53::Collator *)` | 159 | Exported Function
-`private: __thiscall icu_53::CollationElementIterator::CollationElementIterator(class icu_53::UnicodeString const &,class icu_53::RuleBasedCollator const *,enum UErrorCode &)` | 39 | Exported Function
-`private: __thiscall icu_53::CollationElementIterator::CollationElementIterator(class icu_53::CharacterIterator const &,class icu_53::RuleBasedCollator const *,enum UErrorCode &)` | 38 | Exported Function
-`private: __thiscall icu_53::ChoiceFormat::ChoiceFormat(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 29 | Exported Function
-`private: __int64 __thiscall icu_53::CollationIterator::previousCEUnsafe(int,class icu_53::UVector32 &,enum UErrorCode &)` | 2800 | Exported Function
+`VTimeZone` | 731 | Exported Function
+`UTF8CollationIterator` | 729 | Exported Function
+`UnicodeString` | 15 | Exported Function
+`appendGroup` | 1019 | Exported Function
+`transitionTimeInSeconds` | 3245 | Exported Function
+`Collator` | 159 | Exported Function
+`RuleBasedCollator` | 39 | Exported Function
+`RuleBasedCollator` | 38 | Exported Function
+`UnicodeString` | 29 | Exported Function
+`UVector32` | 2800 | Exported Function
 `izrule_getStaticClassID_53` | 3327 | Exported Function
 `izrule_getRawOffset_53` | 3326 | Exported Function
 `izrule_getPreviousStart_53` | 3325 | Exported Function
 `izrule_isEquivalentTo_53` | 3328 | Exported Function
-`private: __int64 __thiscall icu_53::CollationIterator::nextCEFromCE32(struct icu_53::CollationData const *,int,unsigned int,enum UErrorCode &)` | 2680 | Exported Function
-`private: __int64 __thiscall icu_53::CollationBuilder::getSpecialResetPosition(class icu_53::UnicodeString const &,char const * &,enum UErrorCode &)` | 2152 | Exported Function
+`CollationData` | 2680 | Exported Function
+`UnicodeString` | 2152 | Exported Function
 `izrule_open_53` | 3329 | Exported Function
-`const icu_53::TimeZoneTransition::``vftable'` | 725 | Exported Function
-`const icu_53::RuleBasedTimeZone::``vftable'` | 705 | Exported Function
-`const icu_53::RuleBasedNumberFormat::``vftable'` | 704 | Exported Function
-`const icu_53::RuleBasedCollator::``vftable'` | 703 | Exported Function
-`const icu_53::SearchIterator::``vftable'` | 706 | Exported Function
-`const icu_53::SharedPluralRules::``vftable'` | 709 | Exported Function
-`const icu_53::SharedNumberFormat::``vftable'` | 708 | Exported Function
-`const icu_53::SelectFormat::``vftable'` | 707 | Exported Function
-`const icu_53::RelativeDateTimeFormatter::``vftable'` | 702 | Exported Function
-`const icu_53::PluralFormat::PluralSelectorAdapter::``vftable'` | 697 | Exported Function
-`const icu_53::PluralFormat::PluralSelector::``vftable'` | 696 | Exported Function
-`const icu_53::PluralFormat::``vftable'` | 694 | Exported Function
-`const icu_53::PluralRules::``vftable'` | 695 | Exported Function
-`const icu_53::Region::``vftable'` | 701 | Exported Function
-`const icu_53::RegexPattern::``vftable'` | 700 | Exported Function
-`const icu_53::RegexMatcher::``vftable'` | 699 | Exported Function
-`const icu_53::TimeZoneFormat::``vftable'` | 721 | Exported Function
-`const icu_53::TimeZone::``vftable'` | 720 | Exported Function
-`const icu_53::TimeUnitFormat::``vftable'` | 719 | Exported Function
-`const icu_53::TimeZoneGenericNames::``vftable'` | 722 | Exported Function
-`const icu_53::TimeZoneRule::``vftable'` | 724 | Exported Function
-`const icu_53::TimeZoneNames::MatchInfoCollection::``vftable'` | 684 | Exported Function
-`const icu_53::TimeZoneNames::``vftable'` | 723 | Exported Function
-`const icu_53::TimeUnitAmount::``vftable'` | 718 | Exported Function
-`const icu_53::SimpleTimeZone::``vftable'` | 712 | Exported Function
-`const icu_53::SimpleNumberFormatFactory::``vftable'` | 711 | Exported Function
-`const icu_53::SimpleDateFormat::``vftable'` | 710 | Exported Function
-`const icu_53::StringSearch::``vftable'` | 714 | Exported Function
-`const icu_53::TimeUnit::``vftable'` | 717 | Exported Function
-`const icu_53::TimeArrayTimeZoneRule::``vftable'` | 716 | Exported Function
-`const icu_53::TextTrieMap::``vftable'` | 715 | Exported Function
-`private: static int __cdecl icu_53::DecimalFormat::match(class icu_53::UnicodeString const &,int,int)` | 2641 | Exported Function
-`private: static int __cdecl icu_53::DecimalFormat::match(class icu_53::UnicodeString const &,int,class icu_53::UnicodeString const &)` | 2640 | Exported Function
-`private: static int __cdecl icu_53::DateIntervalFormat::splitPatternInto2Part(class icu_53::UnicodeString const &)` | 3188 | Exported Function
-`private: static int __cdecl icu_53::DecimalFormat::skipBidiMarks(class icu_53::UnicodeString const &,int)` | 3174 | Exported Function
-`private: static int __cdecl icu_53::DecimalFormat::skipUWhiteSpaceAndMarks(class icu_53::UnicodeString const &,int)` | 3181 | Exported Function
-`private: static int __cdecl icu_53::DecimalFormat::skipUWhiteSpace(class icu_53::UnicodeString const &,int)` | 3179 | Exported Function
-`private: static int __cdecl icu_53::DecimalFormat::skipPatternWhiteSpace(class icu_53::UnicodeString const &,int)` | 3177 | Exported Function
-`private: static int __cdecl icu_53::CollationElementIterator::getMaxExpansion(struct UHashtable const *,int)` | 1974 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::nextIndexFromNode(__int64)` | 2688 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::indexFromTempCE32(unsigned int)` | 2416 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::indexFromTempCE(__int64)` | 2417 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::previousIndexFromNode(__int64)` | 2808 | Exported Function
-`private: static int __cdecl icu_53::CollationDataWriter::write(signed char,unsigned char const * const,struct icu_53::CollationData const &,struct icu_53::CollationSettings const &,void const *,int,int * const,unsigned char *,int,enum UErrorCode &)` | 3286 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::strengthFromTempCE(__int64)` | 3195 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::strengthFromNode(__int64)` | 3194 | Exported Function
-`private: static int const * const icu_53::SimpleDateFormat::fgCalendarFieldToLevel` | 1432 | Exported Function
-`private: static int const (* icu_53::ChineseCalendar::CHINESE_DATE_PRECEDENCE)[12][8]` | 757 | Exported Function
-`private: static int __cdecl icu_53::TimeZoneFormat::parseAsciiOffsetFields(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,wchar_t,enum icu_53::TimeZoneFormat::OffsetFields,enum icu_53::TimeZoneFormat::OffsetFields)` | 2740 | Exported Function
-`private: static int const * const icu_53::SimpleDateFormat::fgPatternCharToLevel` | 1435 | Exported Function
-`private: static int const icu_53::CollationBuilder::IS_TAILORED` | 788 | Exported Function
-`private: static int const icu_53::CollationBuilder::HAS_BEFORE3` | 784 | Exported Function
-`private: static int const icu_53::CollationBuilder::HAS_BEFORE2` | 783 | Exported Function
-`private: static int __cdecl icu_53::TimeZoneFormat::parseAbuttingAsciiOffsetFields(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,enum icu_53::TimeZoneFormat::OffsetFields,enum icu_53::TimeZoneFormat::OffsetFields,signed char)` | 2735 | Exported Function
-`private: static int __cdecl icu_53::HebrewCalendar::startOfYear(int,enum UErrorCode &)` | 3193 | Exported Function
-`private: static int __cdecl icu_53::HebrewCalendar::monthsInYear(int)` | 2665 | Exported Function
-`private: static int __cdecl icu_53::HebrewCalendar::absoluteDayToDayOfWeek(int)` | 933 | Exported Function
-`private: static int __cdecl icu_53::MessageFormat::findKeyword(class icu_53::UnicodeString const &,wchar_t const * const *)` | 1450 | Exported Function
-`private: static int __cdecl icu_53::SimpleTimeZone::compareToRule(signed char,signed char,signed char,signed char,signed char,int,int,enum icu_53::SimpleTimeZone::EMode,signed char,signed char,signed char,int)` | 1165 | Exported Function
-`private: static int __cdecl icu_53::SelectFormat::findSubMessage(class icu_53::MessagePattern const &,int,class icu_53::UnicodeString const &,enum UErrorCode &)` | 1466 | Exported Function
-`private: static int __cdecl icu_53::PluralFormat::findSubMessage(class icu_53::MessagePattern const &,int,class icu_53::PluralFormat::PluralSelector const &,void *,double,enum UErrorCode &)` | 1465 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::countTailoredNodes(__int64 const *,int,int)` | 1227 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::TimeZoneFormat::truncateOffsetPattern(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)` | 3255 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::TimeZoneFormat::formatOffsetWithAsciiDigits(int,wchar_t,enum icu_53::TimeZoneFormat::OffsetFields,enum icu_53::TimeZoneFormat::OffsetFields,class icu_53::UnicodeString &)` | 1580 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::TimeZoneFormat::expandOffsetPattern(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)` | 1429 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::TimeZoneFormat::unquote(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 3259 | Exported Function
-`private: static class icu_53::UVector * __cdecl icu_53::TimeZoneFormat::parseOffsetPattern(class icu_53::UnicodeString const &,enum icu_53::TimeZoneFormat::OffsetFields,enum UErrorCode &)` | 2770 | Exported Function
-`private: static class icu_53::UnicodeString __cdecl icu_53::AlphabeticIndex::separated(class icu_53::UnicodeString const &)` | 2910 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::ZoneMeta::formatCustomID(unsigned char,unsigned char,unsigned char,signed char,class icu_53::UnicodeString &)` | 1566 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::TimeZone::getCustomID(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)` | 1742 | Exported Function
-`private: static class icu_53::SimpleDateFormat * __cdecl icu_53::DateIntervalFormat::createSDFPatternInstance(class icu_53::UnicodeString const &,class icu_53::Locale const &,class icu_53::DateTimePatternGenerator *,enum UErrorCode &)` | 1331 | Exported Function
-`private: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::makeInstance(class icu_53::Locale const &,enum UNumberFormatStyle,enum UErrorCode &)` | 2634 | Exported Function
-`private: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::create(int,int,enum UErrorCode &)` | 1234 | Exported Function
-`private: static class icu_53::TimeZone * __cdecl icu_53::TimeZone::createCustomTimeZone(class icu_53::UnicodeString const &)` | 1252 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::TimeZone::formatCustomID(int,int,int,signed char,class icu_53::UnicodeString &)` | 1565 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::DecimalFormat::trimMarksFromAffix(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)` | 3253 | Exported Function
-`private: static class icu_53::UnicodeString & __cdecl icu_53::ChoiceFormat::dtos(double,class icu_53::UnicodeString &)` | 1395 | Exported Function
-`private: static enum UDateFormatField const * const icu_53::SimpleDateFormat::fgPatternIndexToDateFormatField` | 1437 | Exported Function
-`private: static enum UDateFormatField __cdecl icu_53::DateFormatSymbols::getPatternCharIndex(wchar_t)` | 2067 | Exported Function
-`private: static enum UColAttributeValue __cdecl icu_53::CollationRuleParser::getOnOffValue(class icu_53::UnicodeString const &)` | 2061 | Exported Function
-`private: static enum UTimeZoneFormatTimeType __cdecl icu_53::TimeZoneFormat::getTimeType(enum UTimeZoneNameType)` | 2270 | Exported Function
-`private: static int __cdecl icu_53::CollationBuilder::ceStrength(__int64)` | 1077 | Exported Function
-`private: static int __cdecl icu_53::ChoiceFormat::matchStringUntilLimitPart(class icu_53::MessagePattern const &,int,int,class icu_53::UnicodeString const &,int)` | 2647 | Exported Function
-`private: static int __cdecl icu_53::ChoiceFormat::findSubMessage(class icu_53::MessagePattern const &,int,double)` | 1464 | Exported Function
-`private: static enum UCalendarDateFields const * const icu_53::SimpleDateFormat::fgPatternIndexToCalendarField` | 1436 | Exported Function
-`private: static double __cdecl icu_53::GregorianCalendar::computeJulianDayOfYear(signed char,int,signed char &)` | 1185 | Exported Function
-`private: static double __cdecl icu_53::ChoiceFormat::parseArgument(class icu_53::MessagePattern const &,int,class icu_53::UnicodeString const &,class icu_53::ParsePosition &)` | 2739 | Exported Function
-`private: static class icu_53::UVector * __cdecl icu_53::ZoneMeta::createMetazoneMappings(class icu_53::UnicodeString const &)` | 1315 | Exported Function
-`private: static double __cdecl icu_53::GregorianCalendar::julianDayToMillis(double)` | 2597 | Exported Function
-`private: static enum icu_53::DateIntervalInfo::IntervalPatternIndex __cdecl icu_53::DateIntervalInfo::calendarFieldToIntervalIndex(enum UCalendarDateFields,enum UErrorCode &)` | 1071 | Exported Function
-`private: static double __cdecl icu_53::IslamicCalendar::moonAge(double,enum UErrorCode &)` | 2666 | Exported Function
-`private: static double __cdecl icu_53::GregorianCalendar::millisToJulianDay(double)` | 2661 | Exported Function
-`private: static unsigned char const * const icu_53::CollationFCD::lcccIndex` | 2609 | Exported Function
-`private: static struct UHashtable * __cdecl icu_53::CollationElementIterator::computeMaxExpansions(struct icu_53::CollationData const *,enum UErrorCode &)` | 1186 | Exported Function
-`private: static signed char const * const icu_53::SimpleTimeZone::STATICMONTHLENGTH` | 876 | Exported Function
-`private: static unsigned char const * const icu_53::CollationFCD::tcccIndex` | 3216 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::getCases(unsigned int,signed char,unsigned int)` | 1713 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationBuilder::weight32FromNode(__int64)` | 3284 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationBuilder::weight16FromNode(__int64)` | 3283 | Exported Function
-`private: static signed char __cdecl icu_53::Transliterator::initializeRegistry(enum UErrorCode &)` | 2472 | Exported Function
-`private: static signed char __cdecl icu_53::SimpleDateFormat::isAtNumericField(class icu_53::UnicodeString const &,int)` | 2516 | Exported Function
-`private: static signed char __cdecl icu_53::SimpleDateFormat::isAfterNonNumericField(class icu_53::UnicodeString const &,int)` | 2512 | Exported Function
-`private: static signed char __cdecl icu_53::NumberingSystem::isValidDigitString(class icu_53::UnicodeString const &)` | 2584 | Exported Function
-`private: static signed char __cdecl icu_53::SimpleDateFormat::isNumeric(wchar_t,int)` | 2563 | Exported Function
-`private: static signed char __cdecl icu_53::TimeZoneFormat::toCodePoints(class icu_53::UnicodeString const &,int *,int)` | 3221 | Exported Function
-`private: static signed char __cdecl icu_53::TimeZone::parseCustomID(class icu_53::UnicodeString const &,int &,int &,int &,int &)` | 2744 | Exported Function
-`private: static signed char __cdecl icu_53::SimpleDateFormat::matchLiterals(class icu_53::UnicodeString const &,int &,class icu_53::UnicodeString const &,int &,signed char,signed char)` | 2644 | Exported Function
-`private: static unsigned int const * const icu_53::CollationFCD::tcccBits` | 3215 | Exported Function
-`private: static unsigned int const * const icu_53::CollationFCD::lcccBits` | 2608 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::nextPair(unsigned short const *,int,unsigned int,wchar_t const *,unsigned char const *,int &,int &)` | 2689 | Exported Function
-`private: static unsigned int const icu_53::CollationBuilder::BEFORE_WEIGHT16` | 739 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::CASE_LOWER_FIRST_COMMON_LOW` | 748 | Exported Function
-`private: static unsigned int const icu_53::CollationKeys::CASE_LOWER_FIRST_COMMON_HIGH` | 747 | Exported Function
-`private: static unsigned int const icu_53::CollationFastLatinBuilder::CONTRACTION_FLAG` | 768 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::lookupUTF8Unsafe(unsigned short const *,int,unsigned char const *,int &)` | 2624 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::getSecondaries(unsigned int,unsigned int)` | 2130 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::getQuaternaries(unsigned int,unsigned int)` | 2088 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::getPrimaries(unsigned int,unsigned int)` | 2083 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::getSecondariesFromOneShortCE(unsigned int)` | 2131 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::lookupUTF8(unsigned short const *,int,unsigned char const *,int &,int)` | 2623 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::lookup(unsigned short const *,int)` | 2622 | Exported Function
-`private: static unsigned int __cdecl icu_53::CollationFastLatin::getTertiaries(unsigned int,signed char,unsigned int)` | 2256 | Exported Function
-`private: static signed char __cdecl icu_53::NumberFormat::isStyleSupported(enum UNumberFormatStyle)` | 2574 | Exported Function
-`private: static int const icu_53::CollationRuleParser::STRENGTH_MASK` | 877 | Exported Function
-`private: static int const icu_53::CollationRuleParser::STARRED_FLAG` | 875 | Exported Function
-`private: static int const icu_53::CollationRuleParser::OFFSET_SHIFT` | 838 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::isTailoredNode(__int64)` | 2576 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::nodeHasAnyBefore(__int64)` | 2703 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::isTempCE32(unsigned int)` | 2577 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::isTempCE(__int64)` | 2578 | Exported Function
-`private: static int const icu_53::CollationKeys::TER_UPPER_FIRST_COMMON_MAX_COUNT` | 897 | Exported Function
-`private: static int const icu_53::CollationKeys::CASE_UPPER_FIRST_COMMON_MAX_COUNT` | 755 | Exported Function
-`private: static int const icu_53::CollationKeys::CASE_LOWER_FIRST_COMMON_MAX_COUNT` | 749 | Exported Function
-`private: static int const icu_53::CollationBuilder::MAX_INDEX` | 805 | Exported Function
-`private: static int const icu_53::CollationKeys::QUAT_COMMON_MAX_COUNT` | 856 | Exported Function
-`private: static int const icu_53::CollationKeys::TER_ONLY_COMMON_MAX_COUNT` | 893 | Exported Function
-`private: static int const icu_53::CollationKeys::TER_LOWER_FIRST_COMMON_MAX_COUNT` | 888 | Exported Function
-`private: static int const icu_53::CollationKeys::SEC_COMMON_MAX_COUNT` | 866 | Exported Function
-`private: static signed char __cdecl icu_53::DateIntervalInfo::stringNumeric(int,int,char)` | 3197 | Exported Function
-`private: static signed char __cdecl icu_53::DateIntervalFormat::fieldExistsInSkeleton(enum UCalendarDateFields,class icu_53::UnicodeString const &)` | 1440 | Exported Function
-`private: static signed char __cdecl icu_53::DateFormatSymbols::isNumericPatternChar(wchar_t,int)` | 2565 | Exported Function
-`private: static signed char __cdecl icu_53::DecimalFormat::matchDecimal(int,signed char,int,class icu_53::UnicodeSet const *,int)` | 2642 | Exported Function
-`private: static signed char __cdecl icu_53::IslamicCalendar::civilLeapYear(int)` | 1086 | Exported Function
-`private: static signed char __cdecl icu_53::DecimalFormat::matchSymbol(class icu_53::UnicodeString const &,int,int,class icu_53::UnicodeString const &,class icu_53::UnicodeSet *,int)` | 2648 | Exported Function
-`private: static signed char __cdecl icu_53::DecimalFormat::matchGrouping(int,signed char,int,class icu_53::UnicodeSet const *,int,class icu_53::UnicodeSet const *,int)` | 2643 | Exported Function
-`private: static signed char __cdecl icu_53::DateFormatSymbols::isNumericField(enum UDateFormatField,int)` | 2564 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::sameCEs(__int64 const * const,int,__int64 const * const,int)` | 2900 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::nodeHasBefore3(__int64)` | 2705 | Exported Function
-`private: static signed char __cdecl icu_53::CollationBuilder::nodeHasBefore2(__int64)` | 2704 | Exported Function
-`private: static signed char __cdecl icu_53::CollationFastLatinBuilder::isContractionCharCE(__int64)` | 2531 | Exported Function
-`private: static signed char __cdecl icu_53::DateFormatSymbols::arrayCompare(class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,int)` | 1046 | Exported Function
-`private: static signed char __cdecl icu_53::CollationRuleParser::isSyntaxChar(int)` | 2575 | Exported Function
-`private: static signed char __cdecl icu_53::CollationRootElements::isEndOfPrimaryRange(unsigned int)` | 2535 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseAbuttingOffsetFields(class icu_53::UnicodeString const &,int,int &)const ` | 2736 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::subParse(class icu_53::UnicodeString const &,int &,wchar_t,int,signed char,signed char,signed char * const,int &,class icu_53::Calendar &,int,class icu_53::MessageFormat *,enum UTimeZoneFormatTimeType *)const ` | 3200 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::skipUWhiteSpace(class icu_53::UnicodeString const &,int)const ` | 3180 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseDefaultOffsetFields(class icu_53::UnicodeString const &,int,wchar_t,int &)const ` | 2745 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetFieldsWithPattern(class icu_53::UnicodeString const &,int,class icu_53::UVector *,signed char,int &,int &,int &)const ` | 2764 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetFields(class icu_53::UnicodeString const &,int,signed char,int &)const ` | 2763 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetDefaultLocalizedGMT(class icu_53::UnicodeString const &,int,int &)const ` | 2761 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::skipPatternWhiteSpace(class icu_53::UnicodeString const &,int)const ` | 3178 | Exported Function
-`private: int __thiscall icu_53::RuleBasedTimeZone::getLocalDelta(int,int,int,int,int,int)const ` | 1948 | Exported Function
-`private: int __thiscall icu_53::OlsonTimeZone::zoneOffsetAt(short)const ` | 3315 | Exported Function
-`private: int __thiscall icu_53::OlsonTimeZone::rawOffsetAt(short)const ` | 2819 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::checkIntSuffix(class icu_53::UnicodeString const &,int,int,signed char)const ` | 1083 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::matchString(class icu_53::UnicodeString const &,int,enum UCalendarDateFields,class icu_53::UnicodeString const *,int,class icu_53::UnicodeString const *,class icu_53::Calendar &)const ` | 2646 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::matchQuarterString(class icu_53::UnicodeString const &,int,enum UCalendarDateFields,class icu_53::UnicodeString const *,int,class icu_53::Calendar &)const ` | 2645 | Exported Function
-`private: int __thiscall icu_53::SimpleDateFormat::compareSimpleAffix(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,int)const ` | 1162 | Exported Function
-`private: signed char __thiscall icu_53::CollationBuilder::isFCD(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 2544 | Exported Function
-`private: signed char __thiscall icu_53::CollationBuilder::ignoreString(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 2400 | Exported Function
-`private: signed char __thiscall icu_53::CollationBuilder::ignorePrefix(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 2399 | Exported Function
-`private: signed char __thiscall icu_53::CollationBuilder::mergeCompositeIntoString(class icu_53::UnicodeString const &,int,int,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 2659 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::encodeContractions(enum UErrorCode &)` | 1407 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::encodeCharCEs(enum UErrorCode &)` | 1406 | Exported Function
-`private: signed char __thiscall icu_53::CollationElementIterator::normalizeDir(void)const ` | 2709 | Exported Function
-`private: signed char __thiscall icu_53::Calendar::getImmediatePreviousZoneTransition(double,double *,enum UErrorCode &)const ` | 1909 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetLocalizedGMT(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,signed char,signed char *)const ` | 2767 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetISO8601(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,signed char,signed char *)const ` | 2765 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetFieldWithLocalizedDigits(class icu_53::UnicodeString const &,int,unsigned char,unsigned char,unsigned short,unsigned short,int &)const ` | 2762 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseOffsetLocalizedGMTPattern(class icu_53::UnicodeString const &,int,signed char,int &)const ` | 2769 | Exported Function
-`private: signed char __thiscall icu_53::AlphabeticIndex::addChineseIndexCharacters(enum UErrorCode &)` | 950 | Exported Function
-`private: short __thiscall icu_53::OlsonTimeZone::transitionCount(void)const ` | 3243 | Exported Function
-`private: int __thiscall icu_53::TimeZoneFormat::parseSingleLocalizedDigit(class icu_53::UnicodeString const &,int,int &)const ` | 2780 | Exported Function
-`private: int __thiscall icu_53::OlsonTimeZone::initialRawOffset(void)const ` | 2461 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::skipWhiteSpace(int)const ` | 3182 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::skipComment(int)const ` | 3175 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::readWords(int,class icu_53::UnicodeString &)const ` | 2825 | Exported Function
-`private: int __thiscall icu_53::CollationWeights::countBytes(int)const ` | 1222 | Exported Function
-`private: int __thiscall icu_53::DecimalFormat::compareAffix(class icu_53::UnicodeString const &,int,signed char,signed char,class icu_53::UnicodeString const *,signed char,signed char,wchar_t *)const ` | 1159 | Exported Function
-`private: int __thiscall icu_53::DecimalFormat::appendAffix(class icu_53::UnicodeString &,double,class icu_53::FieldPositionHandler &,signed char,signed char)const ` | 1015 | Exported Function
-`private: int __thiscall icu_53::DateTimePatternGenerator::getTopBitNumber(int)` | 2289 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::parseUnicodeSet(int,class icu_53::UnicodeSet &,enum UErrorCode &)` | 2786 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::parseRelationOperator(enum UErrorCode &)` | 2772 | Exported Function
-`private: int __thiscall icu_53::CollationRootElements::findP(unsigned int)const ` | 1458 | Exported Function
-`private: int __thiscall icu_53::CollationKey::getLength(void)const ` | 1942 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::parseResetAndPosition(enum UErrorCode &)` | 2775 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::parseTailoringString(int,class icu_53::UnicodeString &,enum UErrorCode &)` | 2785 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::parseString(int,class icu_53::UnicodeString &,enum UErrorCode &)` | 2784 | Exported Function
-`private: int __thiscall icu_53::CollationRuleParser::parseSpecialPosition(int,class icu_53::UnicodeString &,enum UErrorCode &)` | 2782 | Exported Function
-`private: int __thiscall icu_53::MessageFormat::findFirstPluralNumberArg(int,class icu_53::UnicodeString const &)const ` | 1448 | Exported Function
-`private: int __thiscall icu_53::MeasureUnit::getOffset(void)const ` | 2037 | Exported Function
-`private: int __thiscall icu_53::IslamicCalendar::yearStart(int)const ` | 3311 | Exported Function
-`private: int __thiscall icu_53::MessageFormat::findOtherSubMessage(int)const ` | 1457 | Exported Function
-`private: int __thiscall icu_53::OlsonTimeZone::initialDstOffset(void)const ` | 2460 | Exported Function
-`private: int __thiscall icu_53::OlsonTimeZone::dstOffsetAt(short)const ` | 1394 | Exported Function
-`private: int __thiscall icu_53::MessageFormat::nextTopLevelArgStart(int)const ` | 2696 | Exported Function
-`private: int __thiscall icu_53::IslamicCalendar::trueMonthStart(int)const ` | 3254 | Exported Function
-`private: int __thiscall icu_53::DecimalFormat::precision(void)const ` | 2795 | Exported Function
-`private: int __thiscall icu_53::DecimalFormat::compareSimpleAffix(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,int,signed char)const ` | 1161 | Exported Function
-`private: int __thiscall icu_53::DecimalFormat::compareComplexAffix(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,int,signed char,wchar_t *)const ` | 1160 | Exported Function
-`private: int __thiscall icu_53::DecimalFormat::skipPadding(class icu_53::UnicodeString const &,int)const ` | 3176 | Exported Function
-`private: int __thiscall icu_53::IslamicCalendar::monthStart(int,int)const ` | 2664 | Exported Function
-`private: int __thiscall icu_53::HebrewCalendar::yearType(int)const ` | 3312 | Exported Function
-`private: int __thiscall icu_53::GregorianCalendar::aggregateStamp(int,int)` | 1007 | Exported Function
-`private: signed char __thiscall icu_53::RuleBasedTimeZone::findNext(double,signed char,double &,class icu_53::TimeZoneRule * &,class icu_53::TimeZoneRule * &)const ` | 1452 | Exported Function
-`private: signed char __thiscall icu_53::RuleBasedCollator::isUnsafe(int)const ` | 2581 | Exported Function
-`private: signed char __thiscall icu_53::RuleBasedCollator::initMaxExpansions(enum UErrorCode &)const ` | 2452 | Exported Function
-`private: signed char __thiscall icu_53::RuleBasedTimeZone::findPrev(double,signed char,double &,class icu_53::TimeZoneRule * &,class icu_53::TimeZoneRule * &)const ` | 1459 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::changeNodeNextIndex(__int64,int)` | 1079 | Exported Function
-`private: signed char __thiscall icu_53::TimeArrayTimeZoneRule::initStartTimes(double const * const,int,enum UErrorCode &)` | 2455 | Exported Function
-`private: signed char __thiscall icu_53::TextTrieMap::growNodes(void)` | 2323 | Exported Function
-`private: signed char __thiscall icu_53::RuleBasedCollator::attributeHasBeenSetExplicitly(int)const ` | 1048 | Exported Function
-`private: signed char __thiscall icu_53::RegexMatcher::findUsingChunk(void)` | 1468 | Exported Function
-`private: signed char __thiscall icu_53::MessageFormat::argNameMatches(int,class icu_53::UnicodeString const &,int)` | 1045 | Exported Function
-`private: signed char __thiscall icu_53::MessageFormat::allocateArgTypes(int,enum UErrorCode &)` | 1013 | Exported Function
-`private: signed char __thiscall icu_53::RegexMatcher::isChunkWordBoundary(int)` | 2523 | Exported Function
-`private: signed char __thiscall icu_53::RegexMatcher::ReportFindProgress(__int64,enum UErrorCode &)` | 859 | Exported Function
-`private: signed char __thiscall icu_53::RegexMatcher::isWordBoundary(__int64)` | 2591 | Exported Function
-`private: signed char __thiscall icu_53::RegexMatcher::isUWordBoundary(__int64)` | 2580 | Exported Function
-`private: static class icu_53::DateIntervalFormat * __cdecl icu_53::DateIntervalFormat::create(class icu_53::Locale const &,class icu_53::DateIntervalInfo *,class icu_53::UnicodeString const *,enum UErrorCode &)` | 1233 | Exported Function
-`private: static class icu_53::DateFormat * __cdecl icu_53::DateFormat::create(enum icu_53::DateFormat::EStyle,enum icu_53::DateFormat::EStyle,class icu_53::Locale const &)` | 1232 | Exported Function
-`private: static class icu_53::Collator * __cdecl icu_53::Collator::makeInstance(class icu_53::Locale const &,enum UErrorCode &)` | 2633 | Exported Function
-`private: static class icu_53::GenderInfo const * __cdecl icu_53::GenderInfo::getMaleTaintsInstance(void)` | 1968 | Exported Function
-`private: static class icu_53::GenderInfo const * __cdecl icu_53::GenderInfo::loadInstance(class icu_53::Locale const &,enum UErrorCode &)` | 2617 | Exported Function
-`private: static class icu_53::GenderInfo const * __cdecl icu_53::GenderInfo::getNeutralInstance(void)` | 2014 | Exported Function
-`private: static class icu_53::GenderInfo const * __cdecl icu_53::GenderInfo::getMixedNeutralInstance(void)` | 1998 | Exported Function
-`private: static char const * __cdecl icu_53::TimeUnitFormat::getTimeUnitName(enum icu_53::TimeUnit::UTimeUnitFields,enum UErrorCode &)` | 2274 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::nodeFromPreviousIndex(int)` | 2699 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::nodeFromNextIndex(int)` | 2698 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::changeNodePreviousIndex(__int64,int)` | 1080 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::nodeFromStrength(int)` | 2700 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::tempCEFromIndexAndStrength(int,int)` | 3217 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::nodeFromWeight32(unsigned int)` | 2702 | Exported Function
-`private: static __int64 __cdecl icu_53::CollationBuilder::nodeFromWeight16(unsigned int)` | 2701 | Exported Function
-`private: signed char __thiscall icu_53::IdentifierInfo::containsWithAlternates(class icu_53::ScriptSet const &,class icu_53::ScriptSet const &)const ` | 1202 | Exported Function
-`private: signed char __thiscall icu_53::DateIntervalFormat::setSeparateDateTimePtn(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 3118 | Exported Function
-`private: signed char __thiscall icu_53::DateIntervalFormat::setIntervalPattern(enum UCalendarDateFields,class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,signed char,class icu_53::UnicodeString *,class icu_53::UnicodeString *)` | 3030 | Exported Function
-`private: signed char __thiscall icu_53::CompactDecimalFormat::eqHelper(class icu_53::CompactDecimalFormat const &)const ` | 1421 | Exported Function
-`private: signed char __thiscall icu_53::DateTimePatternGenerator::isAvailableFormatSet(class icu_53::UnicodeString const &)const ` | 2517 | Exported Function
-`private: signed char __thiscall icu_53::DecimalFormat::isGroupingPosition(int)const ` | 2547 | Exported Function
-`private: signed char __thiscall icu_53::DecimalFormat::equalWithSignCompatibility(int,int)const ` | 1423 | Exported Function
-`private: signed char __thiscall icu_53::DateTimePatternGenerator::isCanonicalItem(class icu_53::UnicodeString const &)const ` | 2522 | Exported Function
-`private: signed char __thiscall icu_53::CollationWeights::getWeightRanges(unsigned int,unsigned int)` | 2311 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::getCEsFromContractionCE32(struct icu_53::CollationData const &,unsigned int,enum UErrorCode &)` | 1699 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::getCEsFromCE32(struct icu_53::CollationData const &,int,unsigned int,enum UErrorCode &)` | 1698 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::encodeUniqueCEs(enum UErrorCode &)` | 1413 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::inSameGroup(unsigned int,unsigned int)const ` | 2410 | Exported Function
-`private: signed char __thiscall icu_53::CollationWeights::allocWeightsInShortRanges(int,int)` | 1012 | Exported Function
-`private: signed char __thiscall icu_53::CollationWeights::allocWeightsInMinLengthRanges(int,int)` | 1011 | Exported Function
-`private: signed char __thiscall icu_53::CollationFastLatinBuilder::loadGroups(struct icu_53::CollationData const &,enum UErrorCode &)` | 2616 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF8CollationIterator::normalize(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2708 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF8CollationIterator::nextSegment(enum UErrorCode &)` | 2693 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF8CollationIterator::nextHasLccc(void)const ` | 2687 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF8CollationIterator::previousHasTccc(void)const ` | 2807 | Exported Function
-`private: signed char __thiscall icu_53::GregorianCalendar::validateFields(void)const ` | 3278 | Exported Function
-`private: signed char __thiscall icu_53::GregorianCalendar::boundsCheck(int,enum UCalendarDateFields)const ` | 1060 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF8CollationIterator::previousSegment(enum UErrorCode &)` | 2811 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF16CollationIterator::previousSegment(enum UErrorCode &)` | 2810 | Exported Function
-`private: signed char __thiscall icu_53::FCDUIterCollationIterator::nextSegment(enum UErrorCode &)` | 2691 | Exported Function
-`private: signed char __thiscall icu_53::DecimalFormat::subparse(class icu_53::UnicodeString const &,class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,signed char,signed char,class icu_53::ParsePosition &,class icu_53::DigitList &,signed char *,wchar_t *)const ` | 3202 | Exported Function
-`private: signed char __thiscall icu_53::DecimalFormat::parseForCurrency(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,class icu_53::DigitList &,signed char *,wchar_t *)const ` | 2747 | Exported Function
-`private: signed char __thiscall icu_53::FCDUIterCollationIterator::normalize(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2706 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF16CollationIterator::normalize(wchar_t const *,wchar_t const *,enum UErrorCode &)` | 2707 | Exported Function
-`private: signed char __thiscall icu_53::FCDUTF16CollationIterator::nextSegment(enum UErrorCode &)` | 2692 | Exported Function
-`private: signed char __thiscall icu_53::FCDUIterCollationIterator::previousSegment(enum UErrorCode &)` | 2809 | Exported Function
-`public: int __thiscall icu_53::CollationDataBuilder::getCEs(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,__int64 * const,int)` | 1694 | Exported Function
-`public: int __thiscall icu_53::CollationDataBuilder::getCEs(class icu_53::UnicodeString const &,__int64 * const,int)` | 1695 | Exported Function
-`public: int __thiscall icu_53::CollationData::getGroupForPrimary(unsigned int)const ` | 1899 | Exported Function
-`public: int __thiscall icu_53::CollationElementIterator::getMaxExpansion(int)const ` | 1975 | Exported Function
-`public: int __thiscall icu_53::CollationElementIterator::previous(enum UErrorCode &)` | 2797 | Exported Function
-`public: int __thiscall icu_53::CollationElementIterator::next(enum UErrorCode &)` | 2672 | Exported Function
-`public: int __thiscall icu_53::CollationElementIterator::getOffset(void)const ` | 2033 | Exported Function
-`public: int __thiscall icu_53::CollationData::getEquivalentScripts(int,int * const,int,enum UErrorCode &)const ` | 1846 | Exported Function
-`public: int __thiscall icu_53::AlphabeticIndex::ImmutableIndex::getBucketIndex(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1679 | Exported Function
-`public: int __thiscall icu_53::AlphabeticIndex::ImmutableIndex::getBucketCount(void)const ` | 1676 | Exported Function
-`public: enum UTimeZoneNameType __thiscall icu_53::TimeZoneNames::MatchInfoCollection::getNameTypeAt(int)const ` | 2010 | Exported Function
-`public: int __thiscall icu_53::AnnualTimeZoneRule::getEndYear(void)const ` | 1842 | Exported Function
-`public: int __thiscall icu_53::Calendar::getActualMinimum(enum icu_53::Calendar::EDateFields,enum UErrorCode &)const ` | 1614 | Exported Function
-`public: int __thiscall icu_53::Calendar::get(enum UCalendarDateFields,enum UErrorCode &)const ` | 1606 | Exported Function
-`public: int __thiscall icu_53::AnnualTimeZoneRule::getStartYear(void)const ` | 2156 | Exported Function
-`public: int __thiscall icu_53::DateTimeRule::getRuleDayOfWeek(void)const ` | 2114 | Exported Function
-`public: int __thiscall icu_53::DateTimeRule::getRuleDayOfMonth(void)const ` | 2113 | Exported Function
-`public: int __thiscall icu_53::CollationTailoring::getUCAVersion(void)const ` | 2299 | Exported Function
-`public: int __thiscall icu_53::DateTimeRule::getRuleMillisInDay(void)const ` | 2116 | Exported Function
-`public: int __thiscall icu_53::DecimalFormat::getGroupingSize(void)const ` | 1900 | Exported Function
-`public: int __thiscall icu_53::DateTimeRule::getRuleWeekInMonth(void)const ` | 2122 | Exported Function
-`public: int __thiscall icu_53::DateTimeRule::getRuleMonth(void)const ` | 2117 | Exported Function
-`public: int __thiscall icu_53::CollationSettings::hashCode(void)const ` | 2390 | Exported Function
-`public: int __thiscall icu_53::CollationIterator::fetchCEs(enum UErrorCode &)` | 1431 | Exported Function
-`public: int __thiscall icu_53::CollationFastLatinBuilder::lengthOfTable(void)const ` | 2611 | Exported Function
-`public: int __thiscall icu_53::CollationElementIterator::strengthOrder(int)const ` | 3196 | Exported Function
-`public: int __thiscall icu_53::CollationIterator::getCEsLength(void)const ` | 1700 | Exported Function
-`public: int __thiscall icu_53::CollationSettings::getStrength(void)const ` | 2232 | Exported Function
-`public: int __thiscall icu_53::CollationRootElements::findPrimary(unsigned int)const ` | 1460 | Exported Function
-`public: int __thiscall icu_53::CollationKey::hashCode(void)const ` | 2389 | Exported Function
-`public: enum USearchAttributeValue __thiscall icu_53::SearchIterator::getAttribute(enum USearchAttribute)const ` | 1642 | Exported Function
-`public: enum icu_53::Collator::EComparisonResult __thiscall icu_53::CollationKey::compareTo(class icu_53::CollationKey const &)const ` | 1163 | Exported Function
-`public: enum icu_53::CollationSettings::MaxVariable __thiscall icu_53::CollationSettings::getMaxVariable(void)const ` | 1978 | Exported Function
-`public: enum icu_53::Calendar::EDaysOfWeek __thiscall icu_53::Calendar::getFirstDayOfWeek(void)const ` | 1863 | Exported Function
-`public: enum icu_53::DateTimeRule::DateRuleType __thiscall icu_53::DateTimeRule::getDateRuleType(void)const ` | 1754 | Exported Function
-`public: enum icu_53::Formattable::Type __thiscall icu_53::Formattable::getType(void)const ` | 2293 | Exported Function
-`public: enum icu_53::DateTimeRule::TimeRuleType __thiscall icu_53::TimeArrayTimeZoneRule::getTimeType(void)const ` | 2269 | Exported Function
-`public: enum icu_53::DateTimeRule::TimeRuleType __thiscall icu_53::DateTimeRule::getTimeRuleType(void)const ` | 2268 | Exported Function
-`public: double __thiscall icu_53::TimeZoneTransition::getTime(void)const ` | 2265 | Exported Function
-`public: double __thiscall icu_53::Formattable::getDouble(enum UErrorCode &)const ` | 1789 | Exported Function
-`public: double __thiscall icu_53::Formattable::getDate(void)const ` | 1750 | Exported Function
-`public: double __thiscall icu_53::Formattable::getDate(enum UErrorCode &)const ` | 1749 | Exported Function
-`public: double __thiscall icu_53::Formattable::getDouble(void)const ` | 1790 | Exported Function
-`public: double __thiscall icu_53::SimpleDateFormat::get2DigitYearStart(enum UErrorCode &)const ` | 1603 | Exported Function
-`public: double __thiscall icu_53::PluralRules::getUniqueKeywordValue(class icu_53::UnicodeString const &)` | 2302 | Exported Function
-`public: double __thiscall icu_53::GregorianCalendar::getGregorianChange(void)const ` | 1894 | Exported Function
-`public: enum UDateTimePatternConflict __thiscall icu_53::DateTimePatternGenerator::addPattern(class icu_53::UnicodeString const &,signed char,class icu_53::UnicodeString &,enum UErrorCode &)` | 962 | Exported Function
-`public: enum UCollationResult __thiscall icu_53::CollationKey::compareTo(class icu_53::CollationKey const &,enum UErrorCode &)const ` | 1164 | Exported Function
-`public: enum UColAttributeValue __thiscall icu_53::CollationSettings::getFlag(int)const ` | 1876 | Exported Function
-`public: enum UGender __thiscall icu_53::GenderInfo::getListGender(enum UGender const *,int,enum UErrorCode &)const ` | 1945 | Exported Function
-`public: enum URestrictionLevel __thiscall icu_53::IdentifierInfo::getRestrictionLevel(enum UErrorCode &)const ` | 2108 | Exported Function
-`public: enum URegionType __thiscall icu_53::Region::getType(void)const ` | 2298 | Exported Function
-`public: enum UMessagePatternApostropheMode __thiscall icu_53::MessageFormat::getApostropheMode(void)const ` | 1626 | Exported Function
-`public: enum UColAttributeValue __thiscall icu_53::CollationSettings::getCaseFirst(void)const ` | 1712 | Exported Function
-`public: enum UAlphabeticIndexLabelType __thiscall icu_53::AlphabeticIndex::Bucket::getLabelType(void)const ` | 1933 | Exported Function
-`public: enum icu_53::TimeUnit::UTimeUnitFields __thiscall icu_53::TimeUnitAmount::getTimeUnitField(void)const ` | 2273 | Exported Function
-`public: enum icu_53::TimeUnit::UTimeUnitFields __thiscall icu_53::TimeUnit::getTimeUnitField(void)const ` | 2272 | Exported Function
-`public: enum UCalendarDaysOfWeek __thiscall icu_53::Calendar::getFirstDayOfWeek(enum UErrorCode &)const ` | 1864 | Exported Function
-`public: enum UColAttributeValue __thiscall icu_53::CollationSettings::getAlternateHandling(void)const ` | 1623 | Exported Function
-`public: enum UCalendarWallTimeOption __thiscall icu_53::Calendar::getSkippedWallTimeOption(void)const ` | 2147 | Exported Function
-`public: enum UCalendarWallTimeOption __thiscall icu_53::Calendar::getRepeatedWallTimeOption(void)const ` | 2107 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::getMatchedLength(void)const ` | 1971 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::following(int,enum UErrorCode &)` | 1478 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::first(enum UErrorCode &)` | 1470 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::getMatchedStart(void)const ` | 1972 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::preceding(int,enum UErrorCode &)` | 2794 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::next(enum UErrorCode &)` | 2675 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::last(enum UErrorCode &)` | 2604 | Exported Function
-`public: int __thiscall icu_53::ScriptSet::nextSetBit(int)const ` | 2694 | Exported Function
-`public: int __thiscall icu_53::Region::getNumericCode(void)const ` | 2030 | Exported Function
-`public: int __thiscall icu_53::PluralRules::getSamples(class icu_53::UnicodeString const &,double *,int,enum UErrorCode &)` | 2127 | Exported Function
-`public: int __thiscall icu_53::PluralRules::getAllKeywordValues(class icu_53::UnicodeString const &,double *,int,enum UErrorCode &)` | 1622 | Exported Function
-`public: int __thiscall icu_53::RuleBasedCollator::cloneBinary(unsigned char *,int,enum UErrorCode &)const ` | 1146 | Exported Function
-`public: int __thiscall icu_53::ScriptSet::hashCode(void)const ` | 2392 | Exported Function
-`public: int __thiscall icu_53::ScriptSet::countMembers(void)const ` | 1225 | Exported Function
-`public: int __thiscall icu_53::RuleBasedCollator::getMaxExpansion(int)const ` | 1976 | Exported Function
-`public: int __thiscall icu_53::TimeZoneRule::getRawOffset(void)const ` | 2093 | Exported Function
-`public: int __thiscall icu_53::TimeZoneRule::getDSTSavings(void)const ` | 1746 | Exported Function
-`public: int __thiscall icu_53::TimeZoneNames::MatchInfoCollection::size(void)const ` | 3173 | Exported Function
-`public: int __thiscall icu_53::Transliterator::countElements(void)const ` | 1223 | Exported Function
-`public: signed char __thiscall icu_53::Calendar::after(class icu_53::Calendar const &,enum UErrorCode &)const ` | 1006 | Exported Function
-`public: signed char __thiscall icu_53::AnnualTimeZoneRule::getStartInYear(int,int,int,double &)const ` | 2154 | Exported Function
-`public: int __thiscall icu_53::Transliterator::getMaximumContextLength(void)const ` | 1983 | Exported Function
-`public: int __thiscall icu_53::TimeZoneNames::MatchInfoCollection::getMatchLengthAt(int)const ` | 1970 | Exported Function
-`public: int __thiscall icu_53::TimeArrayTimeZoneRule::countStartTimes(void)const ` | 1226 | Exported Function
-`public: int __thiscall icu_53::TextTrieMap::isEmpty(void)const ` | 2534 | Exported Function
-`public: int __thiscall icu_53::SearchIterator::previous(enum UErrorCode &)` | 2798 | Exported Function
-`public: int __thiscall icu_53::TimeZoneFormat::parseOffsetISO8601(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2766 | Exported Function
-`public: int __thiscall icu_53::TimeZoneGenericNames::findBestMatch(class icu_53::UnicodeString const &,int,unsigned int,class icu_53::UnicodeString &,enum UTimeZoneFormatTimeType &,enum UErrorCode &)const ` | 1446 | Exported Function
-`public: int __thiscall icu_53::TimeZoneFormat::parseOffsetShortLocalizedGMT(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2771 | Exported Function
-`public: int __thiscall icu_53::TimeZoneFormat::parseOffsetLocalizedGMT(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2768 | Exported Function
-`public: int __thiscall icu_53::NumberingSystem::getRadix(void)const ` | 2089 | Exported Function
-`public: int __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::get(enum UDateFormatBooleanAttribute)const ` | 1604 | Exported Function
-`public: int __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::contains(enum UDateFormatBooleanAttribute)const ` | 1198 | Exported Function
-`public: int __thiscall icu_53::DigitList::getLong(void)` | 1963 | Exported Function
-`public: int __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::contains(enum UNumberFormatAttribute)const ` | 1199 | Exported Function
-`public: int __thiscall icu_53::FieldPosition::getEndIndex(void)const ` | 1841 | Exported Function
-`public: int __thiscall icu_53::FieldPosition::getBeginIndex(void)const ` | 1664 | Exported Function
-`public: int __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::get(enum UNumberFormatAttribute)const ` | 1605 | Exported Function
-`public: int __thiscall icu_53::DigitList::getDecimalAt(void)` | 1760 | Exported Function
-`public: int __thiscall icu_53::DecimalFormat::getMultiplier(void)const ` | 2007 | Exported Function
-`public: int __thiscall icu_53::DecimalFormat::getMinimumSignificantDigits(void)const ` | 1997 | Exported Function
-`public: int __thiscall icu_53::DecimalFormat::getMaximumSignificantDigits(void)const ` | 1986 | Exported Function
-`public: int __thiscall icu_53::DecimalFormat::getSecondaryGroupingSize(void)const ` | 2135 | Exported Function
-`public: int __thiscall icu_53::DigitList::getCount(void)const ` | 1735 | Exported Function
-`public: int __thiscall icu_53::DigitList::digits(void)const ` | 1382 | Exported Function
-`public: int __thiscall icu_53::DigitList::compare(class icu_53::DigitList const &)` | 1154 | Exported Function
-`public: int __thiscall icu_53::MessageFormat::getArgTypeCount(void)const ` | 1634 | Exported Function
-`public: int __thiscall icu_53::MeasureUnit::getIndex(void)const ` | 1910 | Exported Function
-`public: int __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::getCapacity(void)const ` | 1710 | Exported Function
-`public: int __thiscall icu_53::NumberFormat::getMaximumFractionDigits(void)const ` | 1984 | Exported Function
-`public: int __thiscall icu_53::NumberFormat::getMinimumIntegerDigits(void)const ` | 1996 | Exported Function
-`public: int __thiscall icu_53::NumberFormat::getMinimumFractionDigits(void)const ` | 1995 | Exported Function
-`public: int __thiscall icu_53::NumberFormat::getMaximumIntegerDigits(void)const ` | 1985 | Exported Function
-`public: int __thiscall icu_53::IdentifierInfo::getScriptCount(void)const ` | 2128 | Exported Function
-`public: int __thiscall icu_53::Formattable::getLong(enum UErrorCode &)const ` | 1964 | Exported Function
-`public: int __thiscall icu_53::FixedDecimal::getVisibleFractionDigitCount(void)const ` | 2307 | Exported Function
-`public: int __thiscall icu_53::FieldPosition::getField(void)const ` | 1854 | Exported Function
-`public: int __thiscall icu_53::Formattable::getLong(enum UErrorCode *)const ` | 1965 | Exported Function
-`public: int __thiscall icu_53::GregorianCalendar::getActualMinimum(enum icu_53::Calendar::EDateFields,enum UErrorCode &)const ` | 1617 | Exported Function
-`public: int __thiscall icu_53::GregorianCalendar::getActualMinimum(enum icu_53::Calendar::EDateFields)const ` | 1616 | Exported Function
-`public: int __thiscall icu_53::Formattable::getLong(void)const ` | 1966 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZone::getDisplayName(signed char,enum icu_53::TimeZone::EDisplayType,class icu_53::UnicodeString &)const ` | 1782 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZone::getDisplayName(signed char,enum icu_53::TimeZone::EDisplayType,class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 1783 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZone::getDisplayName(class icu_53::UnicodeString &)const ` | 1780 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZone::getID(class icu_53::UnicodeString &)const ` | 1902 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatOffsetLocalizedGMT(int,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1578 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatOffsetISO8601Extended(int,signed char,signed char,signed char,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1576 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatOffsetISO8601Basic(int,signed char,signed char,signed char,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1575 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZone::getDisplayName(class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 1781 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::RelativeDateTimeFormatter::format(double,enum UDateDirection,enum UDateRelativeUnit,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1550 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::RelativeDateTimeFormatter::combineDateAndTime(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1149 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::QuantityFormatter::format(class icu_53::Formattable const &,class icu_53::NumberFormat const &,class icu_53::PluralRules const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1549 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::RelativeDateTimeFormatter::format(enum UDateDirection,enum UDateAbsoluteUnit,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1551 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::SelectFormat::toPattern(class icu_53::UnicodeString &)` | 3230 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::SelectFormat::format(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1558 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::ScriptSet::displayScripts(class icu_53::UnicodeString &)const ` | 1385 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::CalendarAstronomer::Horizon::toString(void)const ` | 3236 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::CalendarAstronomer::Equatorial::toString(void)const ` | 3235 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::CalendarAstronomer::Ecliptic::toString(void)const ` | 3234 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::getBaseSkeleton(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1661 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::getSkeleton(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2145 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::getBestPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1666 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::getBestPattern(class icu_53::UnicodeString const &,enum UDateTimePatternMatchOptions,enum UErrorCode &)` | 1667 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneRule::getName(class icu_53::UnicodeString &)const ` | 2009 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::getGMTOffsetPattern(enum UTimeZoneFormatGMTOffsetPatternType,class icu_53::UnicodeString &)const ` | 1887 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::getGMTOffsetDigits(class icu_53::UnicodeString &)const ` | 1886 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::formatOffsetShortLocalizedGMT(int,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1579 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::getGMTPattern(class icu_53::UnicodeString &)const ` | 1888 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneGenericNames::getGenericLocationName(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)const ` | 1890 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneGenericNames::getDisplayName(class icu_53::TimeZone const &,enum UTimeZoneGenericNameType,double,class icu_53::UnicodeString &)const ` | 1784 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::TimeZoneFormat::getGMTZeroFormat(class icu_53::UnicodeString &)const ` | 1889 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::PluralFormat::toPattern(class icu_53::UnicodeString &)` | 3229 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateIntervalFormat::format(class icu_53::DateInterval const *,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1502 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateIntervalFormat::format(class icu_53::Calendar &,class icu_53::Calendar &,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1501 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateFormatSymbols::getLocalPatternChars(class icu_53::UnicodeString &)const ` | 1949 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateIntervalInfo::getFallbackIntervalPattern(class icu_53::UnicodeString &)const ` | 1853 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::getNegativeSuffix(class icu_53::UnicodeString &)const ` | 2013 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::getNegativePrefix(class icu_53::UnicodeString &)const ` | 2012 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateIntervalInfo::getIntervalPattern(class icu_53::UnicodeString const &,enum UCalendarDateFields,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1922 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPositionIterator *,enum UErrorCode &)const ` | 1497 | Exported Function
-`public: class icu_53::UnicodeSet const & __thiscall icu_53::IdentifierInfo::getIdentifierProfile(void)const ` | 1908 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::Transliterator::getSourceSet(class icu_53::UnicodeSet &)const ` | 2151 | Exported Function
-`public: class icu_53::UnicodeReplacer & __thiscall icu_53::UnicodeReplacer::operator=(class icu_53::UnicodeReplacer const &)` | 529 | Exported Function
-`public: class icu_53::UnicodeSet const * __thiscall icu_53::IdentifierInfo::getNumerics(void)const ` | 2031 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &)const ` | 1496 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DateFormat::format(double,class icu_53::UnicodeString &)const ` | 1495 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::CurrencyPluralInfo::getCurrencyPluralPattern(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)const ` | 1740 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(__int64,class icu_53::UnicodeString &)const ` | 1530 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::format(class icu_53::UnicodeString const *,class icu_53::Formattable const *,int,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1524 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::MessageFormat::format(class icu_53::Formattable const *,int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1525 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(double,class icu_53::UnicodeString &)const ` | 1529 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::PluralFormat::format(int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1546 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::PluralFormat::format(double,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1547 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::NumberFormat::format(int,class icu_53::UnicodeString &)const ` | 1528 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::MeasureFormat::formatMeasures(class icu_53::Measure const *,int,class icu_53::UnicodeString &,class icu_53::FieldPosition &,enum UErrorCode &)const ` | 1570 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Format::format(class icu_53::Formattable const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1519 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::getPositiveSuffix(class icu_53::UnicodeString &)const ` | 2074 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::DecimalFormat::getPositivePrefix(class icu_53::UnicodeString &)const ` | 2073 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Formattable::getString(class icu_53::UnicodeString &)const ` | 2237 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Formattable::getString(void)` | 2236 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Formattable::getString(enum UErrorCode &)` | 2235 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Formattable::getString(class icu_53::UnicodeString &,enum UErrorCode &)const ` | 2238 | Exported Function
-`public: double __thiscall icu_53::Calendar::getTime(enum UErrorCode &)const ` | 2263 | Exported Function
-`public: class icu_53::ZoneMeta & __thiscall icu_53::ZoneMeta::operator=(class icu_53::ZoneMeta const &)` | 532 | Exported Function
-`public: class icu_53::ZNStringPool & __thiscall icu_53::ZNStringPool::operator=(class icu_53::ZNStringPool const &)` | 531 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getGreenwichSidereal(void)` | 1893 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getLocalSidereal(void)` | 1950 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getJulianDay(void)` | 1925 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getJulianCentury(void)` | 1924 | Exported Function
-`public: class icu_53::VTimeZone & __thiscall icu_53::VTimeZone::operator=(class icu_53::VTimeZone const &)` | 530 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getShortWeekdays(int &)const ` | 2141 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getShortMonths(int &)const ` | 2140 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getQuarters(int &,enum icu_53::DateFormatSymbols::DtContextType,enum icu_53::DateFormatSymbols::DtWidthType)const ` | 2087 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getWeekdays(int &)const ` | 2308 | Exported Function
-`public: class icu_53::UObject const * __thiscall icu_53::Formattable::getObject(void)const ` | 2032 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::IdentifierInfo::getIdentifier(void)const ` | 1907 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getWeekdays(int &,enum icu_53::DateFormatSymbols::DtContextType,enum icu_53::DateFormatSymbols::DtWidthType)const ` | 2309 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::riseOrSet(class icu_53::CalendarAstronomer::CoordFunc &,signed char,double,double,double)` | 2884 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::lstToUT(double)` | 2625 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getTime(void)` | 2264 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::timeOfAngle(class icu_53::CalendarAstronomer::AngleFunc &,double,double,double,signed char)` | 3220 | Exported Function
-`public: double __thiscall icu_53::FixedDecimal::get(enum icu_53::tokenType)const ` | 1607 | Exported Function
-`public: double __thiscall icu_53::DigitList::getDouble(void)const ` | 1788 | Exported Function
-`public: double __thiscall icu_53::DateFormat::parse(class icu_53::UnicodeString const &,class icu_53::ParsePosition &)const ` | 2722 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getSunTime(double,signed char)` | 2246 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getMoonRiseSet(signed char)` | 2004 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getMoonPhase(void)` | 2002 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getMoonAge(void)` | 2001 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getMoonTime(class icu_53::CalendarAstronomer::MoonAge const &,signed char)` | 2005 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getSunRiseSet(signed char)` | 2245 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getSunLongitude(void)` | 2242 | Exported Function
-`public: double __thiscall icu_53::CalendarAstronomer::getMoonTime(double,signed char)` | 2006 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getNarrowEras(int &)const ` | 2011 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::AlphabeticIndex::Bucket::getLabel(void)const ` | 1932 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralRules::select(int)const ` | 2906 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralRules::select(double)const ` | 2907 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DateTimePatternGenerator::getAppendItemFormat(enum UDateTimePatternField)const ` | 1628 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DateTimePatternGenerator::getDecimal(void)const ` | 1758 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DateTimePatternGenerator::getDateTimeFormat(void)const ` | 1755 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DateTimePatternGenerator::getAppendItemName(enum UDateTimePatternField)const ` | 1629 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralRules::select(class icu_53::FixedDecimal const &)const ` | 2905 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DecimalFormatSymbols::getSymbol(enum icu_53::DecimalFormatSymbols::ENumberFormatSymbol)const ` | 2248 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::replaceFieldTypes(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 2849 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::DateTimePatternGenerator::replaceFieldTypes(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UDateTimePatternMatchOptions,enum UErrorCode &)` | 2850 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralFormat::format(double,enum UErrorCode &)const ` | 1545 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralRules::getRules(void)const ` | 2123 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralRules::getKeywordOther(void)const ` | 1926 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::PluralFormat::format(int,enum UErrorCode &)const ` | 1544 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getEraNames(int &)const ` | 1847 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getAmPmStrings(int &)const ` | 1625 | Exported Function
-`public: class icu_53::UnicodeString const * * __thiscall icu_53::DateFormatSymbols::getZoneStrings(int &,int &)const ` | 2314 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getEras(int &)const ` | 1848 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getMonths(int &,enum icu_53::DateFormatSymbols::DtContextType,enum icu_53::DateFormatSymbols::DtWidthType)const ` | 2000 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getMonths(int &)const ` | 1999 | Exported Function
-`public: class icu_53::UnicodeString const * __thiscall icu_53::DateFormatSymbols::getLeapMonthPatterns(int &)const ` | 1939 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::StringSearch::getPattern(void)const ` | 2066 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DecimalFormatSymbols::getPatternForCurrencySpacing(enum UCurrencySpacing,signed char,enum UErrorCode &)const ` | 2068 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DecimalFormatSymbols::getConstSymbol(enum icu_53::DecimalFormatSymbols::ENumberFormatSymbol)const ` | 1727 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::DateTimePatternGenerator::getPatternForSkeleton(class icu_53::UnicodeString const &)const ` | 2069 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::Formattable::getString(enum UErrorCode &)const ` | 2239 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::SearchIterator::getText(void)const ` | 2261 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::RuleBasedCollator::getRules(void)const ` | 2124 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::Formattable::getString(void)const ` | 2240 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createCubicMile(enum UErrorCode &)` | 1247 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createCubicKilometer(enum UErrorCode &)` | 1246 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createCentimeter(enum UErrorCode &)` | 1243 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createDay(enum UErrorCode &)` | 1256 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createFoot(enum UErrorCode &)` | 1265 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createFahrenheit(enum UErrorCode &)` | 1264 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createDegree(enum UErrorCode &)` | 1259 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createCelsius(enum UErrorCode &)` | 1242 | Exported Function
-`public: static class icu_53::MeasureFormat * __cdecl icu_53::MeasureFormat::createCurrencyFormat(class icu_53::Locale const &,enum UErrorCode &)` | 1249 | Exported Function
-`public: static class icu_53::LocaleDisplayNames * __cdecl icu_53::LocaleDisplayNames::createInstance(class icu_53::Locale const &,enum UDisplayContext *,int)` | 1292 | Exported Function
-`public: static class icu_53::LocaleDisplayNames * __cdecl icu_53::LocaleDisplayNames::createInstance(class icu_53::Locale const &,enum UDialectHandling)` | 1293 | Exported Function
-`public: static class icu_53::MeasureFormat * __cdecl icu_53::MeasureFormat::createCurrencyFormat(enum UErrorCode &)` | 1248 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createArcSecond(enum UErrorCode &)` | 1239 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createArcMinute(enum UErrorCode &)` | 1238 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createAcre(enum UErrorCode &)` | 1236 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createKilometerPerHour(enum UErrorCode &)` | 1311 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createKilometer(enum UErrorCode &)` | 1310 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createKilogram(enum UErrorCode &)` | 1309 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createKilowatt(enum UErrorCode &)` | 1312 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMeter(enum UErrorCode &)` | 1316 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createLiter(enum UErrorCode &)` | 1314 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createLightYear(enum UErrorCode &)` | 1313 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createInchHg(enum UErrorCode &)` | 1274 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createHectare(enum UErrorCode &)` | 1269 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createGram(enum UErrorCode &)` | 1268 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createGForce(enum UErrorCode &)` | 1267 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createHectopascal(enum UErrorCode &)` | 1270 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createInch(enum UErrorCode &)` | 1273 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createHour(enum UErrorCode &)` | 1272 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createHorsepower(enum UErrorCode &)` | 1271 | Exported Function
-`public: static class icu_53::LocaleDisplayNames * __cdecl icu_53::LocaleDisplayNames::createInstance(class icu_53::Locale const &)` | 1291 | Exported Function
-`public: static class icu_53::DateFormat * __cdecl icu_53::DateFormat::createDateInstance(enum icu_53::DateFormat::EStyle,class icu_53::Locale const &)` | 1254 | Exported Function
-`public: static class icu_53::CompactDecimalFormat * __cdecl icu_53::CompactDecimalFormat::createInstance(class icu_53::Locale const &,enum UNumberCompactStyle,enum UErrorCode &)` | 1283 | Exported Function
-`public: static class icu_53::Collator const * __cdecl icu_53::Collator::fromUCollator(struct UCollator const *)` | 1598 | Exported Function
-`public: static class icu_53::DateFormat * __cdecl icu_53::DateFormat::createDateTimeInstance(enum icu_53::DateFormat::EStyle,enum icu_53::DateFormat::EStyle,class icu_53::Locale const &)` | 1255 | Exported Function
-`public: static class icu_53::DateIntervalFormat * __cdecl icu_53::DateIntervalFormat::createInstance(class icu_53::UnicodeString const &,class icu_53::DateIntervalInfo const &,enum UErrorCode &)` | 1286 | Exported Function
-`public: static class icu_53::DateFormat * __cdecl icu_53::DateFormat::createTimeInstance(enum icu_53::DateFormat::EStyle,class icu_53::Locale const &)` | 1341 | Exported Function
-`public: static class icu_53::DateFormat * __cdecl icu_53::DateFormat::createInstance(void)` | 1284 | Exported Function
-`public: static class icu_53::Collator * __cdecl icu_53::Collator::fromUCollator(struct UCollator *)` | 1597 | Exported Function
-`public: static class icu_53::CalendarAstronomer::MoonAge const __cdecl icu_53::CalendarAstronomer::NEW_MOON(void)` | 830 | Exported Function
-`public: static class icu_53::CalendarAstronomer::MoonAge const __cdecl icu_53::CalendarAstronomer::FULL_MOON(void)` | 781 | Exported Function
-`public: static class icu_53::Calendar * __cdecl icu_53::Calendar::createInstance(enum UErrorCode &)` | 1275 | Exported Function
-`public: static class icu_53::CollationElementIterator * __cdecl icu_53::CollationElementIterator::fromUCollationElements(struct UCollationElements *)` | 1595 | Exported Function
-`public: static class icu_53::Collator * __cdecl icu_53::Collator::createInstance(enum UErrorCode &)` | 1281 | Exported Function
-`public: static class icu_53::Collator * __cdecl icu_53::Collator::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1282 | Exported Function
-`public: static class icu_53::CollationElementIterator const * __cdecl icu_53::CollationElementIterator::fromUCollationElements(struct UCollationElements const *)` | 1596 | Exported Function
-`public: static class icu_53::Locale __cdecl icu_53::Collator::getFunctionalEquivalent(char const *,class icu_53::Locale const &,signed char &,enum UErrorCode &)` | 1884 | Exported Function
-`public: static class icu_53::GenderInfo const * __cdecl icu_53::GenderInfo::getInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1915 | Exported Function
-`public: static class icu_53::Formattable const * __cdecl icu_53::Formattable::fromUFormattable(void * const *)` | 1600 | Exported Function
-`public: static class icu_53::Locale const * __cdecl icu_53::Calendar::getAvailableLocales(int &)` | 1648 | Exported Function
-`public: static class icu_53::Locale const * __cdecl icu_53::NumberFormat::getAvailableLocales(int &)` | 1653 | Exported Function
-`public: static class icu_53::Locale const * __cdecl icu_53::DateFormat::getAvailableLocales(int &)` | 1651 | Exported Function
-`public: static class icu_53::Locale const * __cdecl icu_53::Collator::getAvailableLocales(int &)` | 1650 | Exported Function
-`public: static class icu_53::Formattable * __cdecl icu_53::Formattable::fromUFormattable(void * *)` | 1599 | Exported Function
-`public: static class icu_53::DateIntervalFormat * __cdecl icu_53::DateIntervalFormat::createInstance(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1285 | Exported Function
-`public: static class icu_53::DateIntervalFormat * __cdecl icu_53::DateIntervalFormat::createInstance(class icu_53::UnicodeString const &,class icu_53::Locale const &,enum UErrorCode &)` | 1287 | Exported Function
-`public: static class icu_53::DateIntervalFormat * __cdecl icu_53::DateIntervalFormat::createInstance(class icu_53::UnicodeString const &,class icu_53::Locale const &,class icu_53::DateIntervalInfo const &,enum UErrorCode &)` | 1288 | Exported Function
-`public: static class icu_53::DateTimePatternGenerator * __cdecl icu_53::DateTimePatternGenerator::createEmptyInstance(enum UErrorCode &)` | 1260 | Exported Function
-`public: static class icu_53::DecimalFormatSymbols * __cdecl icu_53::DecimalFormatSymbols::createWithLastResortData(enum UErrorCode &)` | 1350 | Exported Function
-`public: static class icu_53::DateTimePatternGenerator * __cdecl icu_53::DateTimePatternGenerator::createInstance(enum UErrorCode &)` | 1289 | Exported Function
-`public: static class icu_53::DateTimePatternGenerator * __cdecl icu_53::DateTimePatternGenerator::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1290 | Exported Function
-`public: static class icu_53::RegexPattern * __cdecl icu_53::RegexPattern::compile(class icu_53::UnicodeString const &,unsigned int,struct UParseError &,enum UErrorCode &)` | 1172 | Exported Function
-`public: static class icu_53::RegexPattern * __cdecl icu_53::RegexPattern::compile(class icu_53::UnicodeString const &,unsigned int,enum UErrorCode &)` | 1173 | Exported Function
-`public: static class icu_53::RegexPattern * __cdecl icu_53::RegexPattern::compile(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 1171 | Exported Function
-`public: static class icu_53::RegexPattern * __cdecl icu_53::RegexPattern::compile(struct UText *,struct UParseError &,enum UErrorCode &)` | 1174 | Exported Function
-`public: static class icu_53::Region const * __cdecl icu_53::Region::getInstance(char const *,enum UErrorCode &)` | 1917 | Exported Function
-`public: static class icu_53::RegexPattern * __cdecl icu_53::RegexPattern::compile(struct UText *,unsigned int,struct UParseError &,enum UErrorCode &)` | 1175 | Exported Function
-`public: static class icu_53::RegexPattern * __cdecl icu_53::RegexPattern::compile(struct UText *,unsigned int,enum UErrorCode &)` | 1176 | Exported Function
-`public: static class icu_53::PluralRules * __cdecl icu_53::PluralRules::internalForLocale(class icu_53::Locale const &,enum UPluralType,enum UErrorCode &)` | 2486 | Exported Function
-`public: static class icu_53::NumberingSystem * __cdecl icu_53::NumberingSystem::createInstanceByName(char const *,enum UErrorCode &)` | 1306 | Exported Function
-`public: static class icu_53::NumberingSystem * __cdecl icu_53::NumberingSystem::createInstance(int,signed char,class icu_53::UnicodeString const &,enum UErrorCode &)` | 1299 | Exported Function
-`public: static class icu_53::NumberingSystem * __cdecl icu_53::NumberingSystem::createInstance(enum UErrorCode &)` | 1297 | Exported Function
-`public: static class icu_53::PluralRules * __cdecl icu_53::PluralRules::createDefaultRules(enum UErrorCode &)` | 1258 | Exported Function
-`public: static class icu_53::PluralRules * __cdecl icu_53::PluralRules::forLocale(class icu_53::Locale const &,enum UPluralType,enum UErrorCode &)` | 1481 | Exported Function
-`public: static class icu_53::PluralRules * __cdecl icu_53::PluralRules::forLocale(class icu_53::Locale const &,enum UErrorCode &)` | 1480 | Exported Function
-`public: static class icu_53::PluralRules * __cdecl icu_53::PluralRules::createRules(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1330 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::MeasureUnit::getAvailableTypes(enum UErrorCode &)` | 1659 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Collator::getKeywordValuesForLocale(char const *,class icu_53::Locale const &,signed char,enum UErrorCode &)` | 1929 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Collator::getKeywordValues(char const *,enum UErrorCode &)` | 1927 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::NumberFormat::getAvailableLocales(void)` | 1652 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Region::getAvailable(enum URegionType)` | 1645 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::PluralRules::getAvailableLocales(enum UErrorCode &)` | 1654 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::NumberingSystem::getAvailableNames(enum UErrorCode &)` | 1656 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Collator::getKeywords(enum UErrorCode &)` | 1930 | Exported Function
-`public: static class icu_53::RuleBasedCollator const * __cdecl icu_53::RuleBasedCollator::rbcFromUCollator(struct UCollator const *)` | 2821 | Exported Function
-`public: static class icu_53::RuleBasedCollator * __cdecl icu_53::RuleBasedCollator::rbcFromUCollator(struct UCollator *)` | 2820 | Exported Function
-`public: static class icu_53::Region const * __cdecl icu_53::Region::getInstance(int,enum UErrorCode &)` | 1916 | Exported Function
-`public: static class icu_53::SharedNumberFormat const * __cdecl icu_53::NumberFormat::createSharedInstance(class icu_53::Locale const &,enum UNumberFormatStyle,enum UErrorCode &)` | 1335 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Collator::getAvailableLocales(void)` | 1649 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::Calendar::getKeywordValuesForLocale(char const *,class icu_53::Locale const &,signed char,enum UErrorCode &)` | 1928 | Exported Function
-`public: static class icu_53::SharedPluralRules const * __cdecl icu_53::PluralRules::createSharedInstance(class icu_53::Locale const &,enum UPluralType,enum UErrorCode &)` | 1336 | Exported Function
-`public: static class icu_53::NumberingSystem * __cdecl icu_53::NumberingSystem::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1298 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createPound(enum UErrorCode &)` | 1329 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createPicometer(enum UErrorCode &)` | 1328 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createOunce(enum UErrorCode &)` | 1325 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createSecond(enum UErrorCode &)` | 1334 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createSquareMeter(enum UErrorCode &)` | 1339 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createSquareKilometer(enum UErrorCode &)` | 1338 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createSquareFoot(enum UErrorCode &)` | 1337 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMonth(enum UErrorCode &)` | 1324 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMilePerHour(enum UErrorCode &)` | 1319 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMile(enum UErrorCode &)` | 1318 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMeterPerSecond(enum UErrorCode &)` | 1317 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMillibar(enum UErrorCode &)` | 1320 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMinute(enum UErrorCode &)` | 1323 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMillisecond(enum UErrorCode &)` | 1322 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createMillimeter(enum UErrorCode &)` | 1321 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createPercentInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1327 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createInstance(enum UErrorCode &)` | 1294 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createInstance(class icu_53::Locale const &,enum UNumberFormatStyle,enum UErrorCode &)` | 1296 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createPercentInstance(enum UErrorCode &)` | 1326 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::internalCreateInstance(class icu_53::Locale const &,enum UNumberFormatStyle,enum UErrorCode &)` | 2485 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createScientificInstance(enum UErrorCode &)` | 1332 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createScientificInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1333 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1295 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createWeek(enum UErrorCode &)` | 1349 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createWatt(enum UErrorCode &)` | 1348 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createSquareMile(enum UErrorCode &)` | 1340 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createYard(enum UErrorCode &)` | 1351 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createCurrencyInstance(enum UErrorCode &)` | 1250 | Exported Function
-`public: static class icu_53::NumberFormat * __cdecl icu_53::NumberFormat::createCurrencyInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1251 | Exported Function
-`public: static class icu_53::MeasureUnit * __cdecl icu_53::MeasureUnit::createYear(enum UErrorCode &)` | 1352 | Exported Function
-`public: signed char __thiscall icu_53::DateTimeRule::operator!=(class icu_53::DateTimeRule const &)const ` | 603 | Exported Function
-`public: signed char __thiscall icu_53::DateTimePatternGenerator::operator==(class icu_53::DateTimePatternGenerator const &)const ` | 549 | Exported Function
-`public: signed char __thiscall icu_53::DateTimePatternGenerator::operator!=(class icu_53::DateTimePatternGenerator const &)const ` | 602 | Exported Function
-`public: signed char __thiscall icu_53::DateTimeRule::operator==(class icu_53::DateTimeRule const &)const ` | 550 | Exported Function
-`public: signed char __thiscall icu_53::DecimalFormatSymbols::operator!=(class icu_53::DecimalFormatSymbols const &)const ` | 604 | Exported Function
-`public: signed char __thiscall icu_53::DecimalFormat::isDecimalSeparatorAlwaysShown(void)const ` | 2532 | Exported Function
-`public: signed char __thiscall icu_53::DecimalFormat::areSignificantDigitsUsed(void)const ` | 1044 | Exported Function
-`public: signed char __thiscall icu_53::DateIntervalInfo::operator!=(class icu_53::DateIntervalInfo const &)const ` | 601 | Exported Function
-`public: signed char __thiscall icu_53::CurrencyPluralInfo::operator==(class icu_53::CurrencyPluralInfo const &)const ` | 544 | Exported Function
-`public: signed char __thiscall icu_53::CurrencyPluralInfo::operator!=(class icu_53::CurrencyPluralInfo const &)const ` | 598 | Exported Function
-`public: signed char __thiscall icu_53::Collator::greaterOrEqual(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)const ` | 2316 | Exported Function
-`public: signed char __thiscall icu_53::DateFormatSymbols::operator!=(class icu_53::DateFormatSymbols const &)const ` | 599 | Exported Function
-`public: signed char __thiscall icu_53::DateIntervalInfo::getDefaultOrder(void)const ` | 1768 | Exported Function
-`public: signed char __thiscall icu_53::DateIntervalFormat::operator!=(class icu_53::Format const &)const ` | 600 | Exported Function
-`public: signed char __thiscall icu_53::DateFormatSymbols::operator==(class icu_53::DateFormatSymbols const &)const ` | 546 | Exported Function
-`public: signed char __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::isValidValue(int)const ` | 2587 | Exported Function
-`public: signed char __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::isValidEnum(enum UDateFormatBooleanAttribute)const ` | 2585 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::operator==(class icu_53::DigitList const &)const ` | 553 | Exported Function
-`public: signed char __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::isValidEnum(enum UNumberFormatAttribute)const ` | 2586 | Exported Function
-`public: signed char __thiscall icu_53::FieldPosition::operator==(class icu_53::FieldPosition const &)const ` | 556 | Exported Function
-`public: signed char __thiscall icu_53::FieldPosition::operator!=(class icu_53::FieldPosition const &)const ` | 606 | Exported Function
-`public: signed char __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::isValidValue(int)const ` | 2588 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::operator!=(class icu_53::DigitList const &)const ` | 605 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::fitsIntoLong(signed char)` | 1474 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::fitsIntoInt64(signed char)` | 1473 | Exported Function
-`public: signed char __thiscall icu_53::DecimalFormatSymbols::operator==(class icu_53::DecimalFormatSymbols const &)const ` | 552 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::isInfinite(void)const ` | 2550 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::isZero(void)const ` | 2592 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::isPositive(void)const ` | 2567 | Exported Function
-`public: signed char __thiscall icu_53::DigitList::isNaN(void)const ` | 2560 | Exported Function
-`public: signed char __thiscall icu_53::Collator::greater(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)const ` | 2315 | Exported Function
-`public: signed char __thiscall icu_53::CollationDataBuilder::isAssigned(int)const ` | 2514 | Exported Function
-`public: signed char __thiscall icu_53::CollationDataBuilder::hasMappings(void)const ` | 2380 | Exported Function
-`public: signed char __thiscall icu_53::CollationData::isUnsafeBackward(int,signed char)const ` | 2582 | Exported Function
-`public: signed char __thiscall icu_53::CollationDataBuilder::isCompressiblePrimary(unsigned int)const ` | 2529 | Exported Function
-`public: signed char __thiscall icu_53::CollationElementIterator::operator==(class icu_53::CollationElementIterator const &)const ` | 538 | Exported Function
-`public: signed char __thiscall icu_53::CollationElementIterator::operator!=(class icu_53::CollationElementIterator const &)const ` | 593 | Exported Function
-`public: signed char __thiscall icu_53::CollationDataBuilder::maybeSetPrimaryRange(int,int,unsigned int,int,enum UErrorCode &)` | 2657 | Exported Function
-`public: signed char __thiscall icu_53::CollationData::isDigit(int)const ` | 2533 | Exported Function
-`public: signed char __thiscall icu_53::Calendar::isLenient(void)const ` | 2555 | Exported Function
-`public: signed char __thiscall icu_53::Calendar::equals(class icu_53::Calendar const &,enum UErrorCode &)const ` | 1424 | Exported Function
-`public: signed char __thiscall icu_53::Calendar::before(class icu_53::Calendar const &,enum UErrorCode &)const ` | 1057 | Exported Function
-`public: signed char __thiscall icu_53::Calendar::isSet(enum UCalendarDateFields)const ` | 2571 | Exported Function
-`public: signed char __thiscall icu_53::CollationData::isCompressiblePrimary(unsigned int)const ` | 2528 | Exported Function
-`public: signed char __thiscall icu_53::CollationData::isCompressibleLeadByte(unsigned int)const ` | 2526 | Exported Function
-`public: signed char __thiscall icu_53::Calendar::operator!=(class icu_53::Calendar const &)const ` | 592 | Exported Function
-`public: signed char __thiscall icu_53::CollationSettings::setReordering(int const *,int,unsigned char const * const)` | 3111 | Exported Function
-`public: signed char __thiscall icu_53::CollationSettings::operator==(struct icu_53::CollationSettings const &)const ` | 541 | Exported Function
-`public: signed char __thiscall icu_53::CollationSettings::operator!=(struct icu_53::CollationSettings const &)const ` | 596 | Exported Function
-`public: signed char __thiscall icu_53::CollationTailoring::ensureOwnedData(enum UErrorCode &)` | 1420 | Exported Function
-`public: signed char __thiscall icu_53::Collator::equals(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)const ` | 1425 | Exported Function
-`public: signed char __thiscall icu_53::CollationWeights::allocWeights(unsigned int,unsigned int,int)` | 1010 | Exported Function
-`public: signed char __thiscall icu_53::CollationTailoring::isBogus(void)` | 2519 | Exported Function
-`public: signed char __thiscall icu_53::CollationSettings::isNumeric(void)const ` | 2561 | Exported Function
-`public: signed char __thiscall icu_53::CollationKey::isBogus(void)const ` | 2518 | Exported Function
-`public: signed char __thiscall icu_53::CollationIterator::operator!=(class icu_53::CollationIterator const &)const ` | 594 | Exported Function
-`public: signed char __thiscall icu_53::CollationFastLatinBuilder::forData(struct icu_53::CollationData const &,enum UErrorCode &)` | 1479 | Exported Function
-`public: signed char __thiscall icu_53::CollationKey::operator!=(class icu_53::CollationKey const &)const ` | 595 | Exported Function
-`public: signed char __thiscall icu_53::CollationSettings::hasBackwardSecondary(void)const ` | 2376 | Exported Function
-`public: signed char __thiscall icu_53::CollationSettings::dontCheckFCD(void)const ` | 1393 | Exported Function
-`public: signed char __thiscall icu_53::CollationKey::operator==(class icu_53::CollationKey const &)const ` | 540 | Exported Function
-`public: signed char __thiscall icu_53::VTimeZone::getTZURL(class icu_53::UnicodeString &)const ` | 2250 | Exported Function
-`public: signed char __thiscall icu_53::VTimeZone::getLastModified(double &)const ` | 1935 | Exported Function
-`public: signed char __thiscall icu_53::TimeZoneTransition::operator==(class icu_53::TimeZoneTransition const &)const ` | 586 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::ceFromCE32(unsigned int)` | 1073 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::ceFromSimpleCE32(unsigned int)` | 1076 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::ceFromLongSecondaryCE32(unsigned int)` | 1075 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::ceFromLongPrimaryCE32(unsigned int)` | 1074 | Exported Function
-`public: signed char __thiscall icu_53::TimeZoneTransition::operator!=(class icu_53::TimeZoneTransition const &)const ` | 626 | Exported Function
-`public: signed char __thiscall icu_53::TimeUnitFormat::operator!=(class icu_53::Format const &)const ` | 621 | Exported Function
-`public: signed char __thiscall icu_53::TimeUnitAmount::operator!=(class icu_53::UObject const &)const ` | 620 | Exported Function
-`public: signed char __thiscall icu_53::TimeArrayTimeZoneRule::getStartTimeAt(int,double &)const ` | 2155 | Exported Function
-`public: signed char __thiscall icu_53::TimeZone::operator!=(class icu_53::TimeZone const &)const ` | 622 | Exported Function
-`public: signed char __thiscall icu_53::TimeZoneNames::operator!=(class icu_53::TimeZoneNames const &)const ` | 624 | Exported Function
-`public: signed char __thiscall icu_53::TimeZoneNames::MatchInfoCollection::getTimeZoneIDAt(int,class icu_53::UnicodeString &)const ` | 2281 | Exported Function
-`public: signed char __thiscall icu_53::TimeZoneNames::MatchInfoCollection::getMetaZoneIDAt(int,class icu_53::UnicodeString &)const ` | 1987 | Exported Function
-`public: static class icu_53::Calendar * __cdecl icu_53::Calendar::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 1276 | Exported Function
-`public: static char const * const icu_53::DecimalFormat::fgNumberPatterns` | 1434 | Exported Function
-`public: static char const * __cdecl icu_53::TimeZone::getTZDataVersion(enum UErrorCode &)` | 2249 | Exported Function
-`public: static class icu_53::Calendar * __cdecl icu_53::Calendar::createInstance(class icu_53::TimeZone *,class icu_53::Locale const &,enum UErrorCode &)` | 1280 | Exported Function
-`public: static class icu_53::Calendar * __cdecl icu_53::Calendar::createInstance(class icu_53::TimeZone const &,enum UErrorCode &)` | 1277 | Exported Function
-`public: static class icu_53::Calendar * __cdecl icu_53::Calendar::createInstance(class icu_53::TimeZone const &,class icu_53::Locale const &,enum UErrorCode &)` | 1278 | Exported Function
-`public: static class icu_53::Calendar * __cdecl icu_53::Calendar::createInstance(class icu_53::TimeZone *,enum UErrorCode &)` | 1279 | Exported Function
-`public: static char __cdecl icu_53::Collation::digitFromCE32(unsigned int)` | 1381 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::makeCE(unsigned int)` | 2631 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::latinCE1FromCE32(unsigned int)` | 2607 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::latinCE0FromCE32(unsigned int)` | 2606 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::makeCE(unsigned int,unsigned int,unsigned int,unsigned int)` | 2632 | Exported Function
-`public: static __int64 const icu_53::Collation::NO_CE` | 832 | Exported Function
-`public: static __int64 __cdecl icu_53::FixedDecimal::getFractionalDigits(double,int)` | 1882 | Exported Function
-`public: static __int64 __cdecl icu_53::Collation::unassignedCEFromCodePoint(int)` | 3257 | Exported Function
-`public: signed char __thiscall icu_53::SimpleDateFormat::isFieldUnitIgnored(enum UCalendarDateFields)const ` | 2545 | Exported Function
-`public: signed char __thiscall icu_53::Measure::operator==(class icu_53::UObject const &)const ` | 561 | Exported Function
-`public: signed char __thiscall icu_53::IslamicCalendar::isCivil(void)` | 2524 | Exported Function
-`public: signed char __thiscall icu_53::GregorianCalendar::isLeapYear(int)const ` | 2553 | Exported Function
-`public: signed char __thiscall icu_53::MeasureUnit::operator!=(class icu_53::UObject const &)const ` | 611 | Exported Function
-`public: signed char __thiscall icu_53::NumberFormat::isParseIntegerOnly(void)const ` | 2566 | Exported Function
-`public: signed char __thiscall icu_53::NumberFormat::isGroupingUsed(void)const ` | 2548 | Exported Function
-`public: signed char __thiscall icu_53::MessageFormat::usesNamedArguments(void)const ` | 3272 | Exported Function
-`public: signed char __thiscall icu_53::Formattable::operator==(class icu_53::Formattable const &)const ` | 559 | Exported Function
-`public: signed char __thiscall icu_53::FieldPositionIterator::operator==(class icu_53::FieldPositionIterator const &)const ` | 557 | Exported Function
-`public: signed char __thiscall icu_53::FieldPositionIterator::operator!=(class icu_53::FieldPositionIterator const &)const ` | 607 | Exported Function
-`public: signed char __thiscall icu_53::FieldPositionIterator::next(class icu_53::FieldPosition &)` | 2673 | Exported Function
-`public: signed char __thiscall icu_53::FixedDecimal::quickInit(double)` | 2818 | Exported Function
-`public: signed char __thiscall icu_53::Formattable::operator!=(class icu_53::Formattable const &)const ` | 609 | Exported Function
-`public: signed char __thiscall icu_53::Formattable::isNumeric(void)const ` | 2562 | Exported Function
-`public: signed char __thiscall icu_53::Format::operator!=(class icu_53::Format const &)const ` | 608 | Exported Function
-`public: signed char __thiscall icu_53::ScriptSet::contains(class icu_53::ScriptSet const &)const ` | 1201 | Exported Function
-`public: signed char __thiscall icu_53::Region::operator==(class icu_53::Region const &)const ` | 570 | Exported Function
-`public: signed char __thiscall icu_53::Region::operator!=(class icu_53::Region const &)const ` | 615 | Exported Function
-`public: signed char __thiscall icu_53::ScriptSet::intersects(class icu_53::ScriptSet const &)const ` | 2510 | Exported Function
-`public: signed char __thiscall icu_53::SearchIterator::operator!=(class icu_53::SearchIterator const &)const ` | 617 | Exported Function
-`public: signed char __thiscall icu_53::ScriptSet::test(enum UScriptCode,enum UErrorCode &)const ` | 3219 | Exported Function
-`public: signed char __thiscall icu_53::ScriptSet::operator==(class icu_53::ScriptSet const &)const ` | 574 | Exported Function
-`public: signed char __thiscall icu_53::Region::contains(class icu_53::Region const &)const ` | 1200 | Exported Function
-`public: signed char __thiscall icu_53::PluralRules::operator!=(class icu_53::PluralRules const &)const ` | 613 | Exported Function
-`public: signed char __thiscall icu_53::PluralRules::isKeyword(class icu_53::UnicodeString const &)const ` | 2551 | Exported Function
-`public: signed char __thiscall icu_53::NumberingSystem::isAlgorithmic(void)const ` | 2513 | Exported Function
-`public: signed char __thiscall icu_53::QuantityFormatter::add(char const *,class icu_53::UnicodeString const &,enum UErrorCode &)` | 943 | Exported Function
-`public: signed char __thiscall icu_53::RegexPattern::operator==(class icu_53::RegexPattern const &)const ` | 569 | Exported Function
-`public: signed char __thiscall icu_53::RegexPattern::operator!=(class icu_53::RegexPattern const &)const ` | 614 | Exported Function
-`public: signed char __thiscall icu_53::QuantityFormatter::isValid(void)const ` | 2583 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(class icu_53::GregorianCalendar const &)` | 146 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(void)` | 142 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(int)` | 135 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(class icu_53::Locale const &,enum UErrorCode &)` | 147 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(class icu_53::TimeZone const &,class icu_53::Locale const &,enum UErrorCode &)` | 149 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(class icu_53::TimeZone *,enum UErrorCode &)` | 153 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(class icu_53::TimeZone *,class icu_53::Locale const &,enum UErrorCode &)` | 154 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(double,enum icu_53::Formattable::ISDATE)` | 137 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(class icu_53::StringPiece const &,enum UErrorCode &)` | 133 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(class icu_53::Formattable const *,int)` | 141 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(class icu_53::Formattable const &)` | 132 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(class icu_53::UnicodeString *)` | 139 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(double)` | 136 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(class icu_53::UObject *)` | 138 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(class icu_53::UnicodeString const &)` | 134 | Exported Function
-`public: __thiscall icu_53::IslamicCalendar::IslamicCalendar(class icu_53::IslamicCalendar const &)` | 165 | Exported Function
-`public: __thiscall icu_53::InitialTimeZoneRule::InitialTimeZoneRule(class icu_53::UnicodeString const &,int,int)` | 164 | Exported Function
-`public: __thiscall icu_53::InitialTimeZoneRule::InitialTimeZoneRule(class icu_53::InitialTimeZoneRule const &)` | 163 | Exported Function
-`public: __thiscall icu_53::IslamicCalendar::IslamicCalendar(class icu_53::Locale const &,enum UErrorCode &,enum icu_53::IslamicCalendar::ECalculationType)` | 166 | Exported Function
-`public: __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::MaybeStackHeaderAndArray<struct decNumber,char,40>(void)` | 6 | Exported Function
-`public: __thiscall icu_53::LocaleDisplayNames::LocaleDisplayNames(void)` | 168 | Exported Function
-`public: __thiscall icu_53::LocaleDisplayNames::LocaleDisplayNames(class icu_53::LocaleDisplayNames const &)` | 167 | Exported Function
-`public: __thiscall icu_53::IdentifierInfo::IdentifierInfo(enum UErrorCode &)` | 158 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(int,int,int,enum UErrorCode &)` | 150 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(enum UErrorCode &)` | 145 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(class icu_53::TimeZone const &,enum UErrorCode &)` | 148 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(int,int,int,int,int,enum UErrorCode &)` | 151 | Exported Function
-`public: __thiscall icu_53::HebrewCalendar::HebrewCalendar(class icu_53::Locale const &,enum UErrorCode &)` | 156 | Exported Function
-`public: __thiscall icu_53::HebrewCalendar::HebrewCalendar(class icu_53::HebrewCalendar const &)` | 155 | Exported Function
-`public: __thiscall icu_53::GregorianCalendar::GregorianCalendar(int,int,int,int,int,int,enum UErrorCode &)` | 152 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(char const *)` | 140 | Exported Function
-`public: __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::~EnumSet<enum UNumberFormatAttribute,4096,4098>(void)` | 324 | Exported Function
-`public: __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::EnumSet<enum UNumberFormatAttribute,4096,4098>(void)` | 4 | Exported Function
-`public: __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::EnumSet<enum UNumberFormatAttribute,4096,4098>(class icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098> const &)` | 3 | Exported Function
-`public: __thiscall icu_53::FCDUIterCollationIterator::FCDUIterCollationIterator(class icu_53::FCDUIterCollationIterator const &)` | 112 | Exported Function
-`public: __thiscall icu_53::FCDUTF16CollationIterator::FCDUTF16CollationIterator(class icu_53::FCDUTF16CollationIterator const &,wchar_t const *)` | 115 | Exported Function
-`public: __thiscall icu_53::FCDUTF16CollationIterator::FCDUTF16CollationIterator(class icu_53::FCDUTF16CollationIterator const &)` | 114 | Exported Function
-`public: __thiscall icu_53::FCDUIterCollationIterator::FCDUIterCollationIterator(struct icu_53::CollationData const *,signed char,struct UCharIterator &,int)` | 113 | Exported Function
-`public: __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::~EnumSet<enum UDateFormatBooleanAttribute,0,4>(void)` | 323 | Exported Function
-`public: __thiscall icu_53::DigitList::DigitList(class icu_53::DigitList const &)` | 106 | Exported Function
-`public: __thiscall icu_53::DecimalFormatSymbols::DecimalFormatSymbols(enum UErrorCode &)` | 103 | Exported Function
-`public: __thiscall icu_53::DecimalFormatSymbols::DecimalFormatSymbols(class icu_53::Locale const &,enum UErrorCode &)` | 105 | Exported Function
-`public: __thiscall icu_53::DigitList::DigitList(void)` | 107 | Exported Function
-`public: __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::EnumSet<enum UDateFormatBooleanAttribute,0,4>(void)` | 2 | Exported Function
-`public: __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::EnumSet<enum UDateFormatBooleanAttribute,0,4>(class icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4> const &)` | 1 | Exported Function
-`public: __thiscall icu_53::DigitList::~DigitList(void)` | 360 | Exported Function
-`public: __thiscall icu_53::FixedDecimal::FixedDecimal(double)` | 126 | Exported Function
-`public: __thiscall icu_53::FixedDecimal::FixedDecimal(class icu_53::UnicodeString const &,enum UErrorCode &)` | 125 | Exported Function
-`public: __thiscall icu_53::FixedDecimal::FixedDecimal(class icu_53::FixedDecimal const &)` | 124 | Exported Function
-`public: __thiscall icu_53::FixedDecimal::FixedDecimal(double,int)` | 127 | Exported Function
-`public: __thiscall icu_53::Formattable::Formattable(__int64)` | 143 | Exported Function
-`public: __thiscall icu_53::FixedDecimal::FixedDecimal(void)` | 129 | Exported Function
-`public: __thiscall icu_53::FixedDecimal::FixedDecimal(double,int,__int64)` | 128 | Exported Function
-`public: __thiscall icu_53::FieldPositionIterator::FieldPositionIterator(void)` | 123 | Exported Function
-`public: __thiscall icu_53::FCDUTF8CollationIterator::FCDUTF8CollationIterator(struct icu_53::CollationData const *,signed char,unsigned char const *,int,int)` | 118 | Exported Function
-`public: __thiscall icu_53::FCDUTF8CollationIterator::FCDUTF8CollationIterator(class icu_53::FCDUTF8CollationIterator const &)` | 117 | Exported Function
-`public: __thiscall icu_53::FCDUTF16CollationIterator::FCDUTF16CollationIterator(struct icu_53::CollationData const *,signed char,wchar_t const *,wchar_t const *,wchar_t const *)` | 116 | Exported Function
-`public: __thiscall icu_53::FieldPosition::FieldPosition(class icu_53::FieldPosition const &)` | 119 | Exported Function
-`public: __thiscall icu_53::FieldPositionIterator::FieldPositionIterator(class icu_53::FieldPositionIterator const &)` | 122 | Exported Function
-`public: __thiscall icu_53::FieldPosition::FieldPosition(void)` | 121 | Exported Function
-`public: __thiscall icu_53::FieldPosition::FieldPosition(int)` | 120 | Exported Function
-`public: __thiscall icu_53::PluralRules::PluralRules(enum UErrorCode &)` | 207 | Exported Function
-`public: __thiscall icu_53::PluralRules::PluralRules(class icu_53::PluralRules const &)` | 208 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralSelectorAdapter::PluralSelectorAdapter(void)` | 212 | Exported Function
-`public: __thiscall icu_53::QuantityFormatter::QuantityFormatter(class icu_53::QuantityFormatter const &)` | 215 | Exported Function
-`public: __thiscall icu_53::RegexMatcher::RegexMatcher(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,unsigned int,enum UErrorCode &)` | 218 | Exported Function
-`public: __thiscall icu_53::QuantityFormatter::~QuantityFormatter(void)` | 393 | Exported Function
-`public: __thiscall icu_53::QuantityFormatter::QuantityFormatter(void)` | 216 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralSelectorAdapter::PluralSelectorAdapter(class icu_53::PluralFormat::PluralSelectorAdapter const &)` | 211 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::PluralRules const &,enum UErrorCode &)` | 204 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::PluralRules const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 205 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::PluralFormat const &)` | 197 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 206 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralSelector::PluralSelector(void)` | 210 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralSelector::PluralSelector(class icu_53::PluralFormat::PluralSelector const &)` | 209 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(enum UErrorCode &)` | 196 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(class icu_53::RuleBasedCollator const &)` | 231 | Exported Function
-`public: __thiscall icu_53::RelativeDateTimeFormatter::RelativeDateTimeFormatter(enum UErrorCode &)` | 226 | Exported Function
-`public: __thiscall icu_53::RelativeDateTimeFormatter::RelativeDateTimeFormatter(class icu_53::RelativeDateTimeFormatter const &)` | 227 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(class icu_53::UnicodeString const &,enum icu_53::Collator::ECollationStrength,enum UColAttributeValue,enum UErrorCode &)` | 235 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(class icu_53::UnicodeString const &,enum UErrorCode &)` | 233 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(class icu_53::UnicodeString const &,enum UColAttributeValue,enum UErrorCode &)` | 236 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(class icu_53::UnicodeString const &,enum icu_53::Collator::ECollationStrength,enum UErrorCode &)` | 234 | Exported Function
-`public: __thiscall icu_53::RelativeDateTimeFormatter::RelativeDateTimeFormatter(class icu_53::Locale const &,enum UErrorCode &)` | 228 | Exported Function
-`public: __thiscall icu_53::RegexMatcher::RegexMatcher(struct UText *,unsigned int,enum UErrorCode &)` | 221 | Exported Function
-`public: __thiscall icu_53::RegexMatcher::RegexMatcher(struct UText *,struct UText *,unsigned int,enum UErrorCode &)` | 220 | Exported Function
-`public: __thiscall icu_53::RegexMatcher::RegexMatcher(class icu_53::UnicodeString const &,unsigned int,enum UErrorCode &)` | 219 | Exported Function
-`public: __thiscall icu_53::RegexPattern::RegexPattern(class icu_53::RegexPattern const &)` | 222 | Exported Function
-`public: __thiscall icu_53::RelativeDateTimeFormatter::RelativeDateTimeFormatter(class icu_53::Locale const &,class icu_53::NumberFormat *,enum UErrorCode &)` | 229 | Exported Function
-`public: __thiscall icu_53::Region::Region(class icu_53::Region const &)` | 225 | Exported Function
-`public: __thiscall icu_53::RegexPattern::RegexPattern(void)` | 223 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::Locale const &,enum UPluralType,enum UErrorCode &)` | 202 | Exported Function
-`public: __thiscall icu_53::MessageFormat::DummyFormat::DummyFormat(void)` | 109 | Exported Function
-`public: __thiscall icu_53::MessageFormat::DummyFormat::DummyFormat(class icu_53::MessageFormat::DummyFormat const &)` | 108 | Exported Function
-`public: __thiscall icu_53::MeasureUnit::MeasureUnit(void)` | 180 | Exported Function
-`public: __thiscall icu_53::MessageFormat::MessageFormat(class icu_53::MessageFormat const &)` | 181 | Exported Function
-`public: __thiscall icu_53::MessageFormat::MessageFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 182 | Exported Function
-`public: __thiscall icu_53::MessageFormat::MessageFormat(class icu_53::UnicodeString const &,class icu_53::Locale const &,struct UParseError &,enum UErrorCode &)` | 183 | Exported Function
-`public: __thiscall icu_53::MessageFormat::MessageFormat(class icu_53::UnicodeString const &,class icu_53::Locale const &,enum UErrorCode &)` | 184 | Exported Function
-`public: __thiscall icu_53::MeasureUnit::MeasureUnit(class icu_53::MeasureUnit const &)` | 179 | Exported Function
-`public: __thiscall icu_53::Measure::Measure(class icu_53::Formattable const &,class icu_53::MeasureUnit *,enum UErrorCode &)` | 173 | Exported Function
-`public: __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::~MaybeStackHeaderAndArray<struct decNumber,char,40>(void)` | 325 | Exported Function
-`public: __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::operator struct decNumber *(void)const ` | 630 | Exported Function
-`public: __thiscall icu_53::Measure::Measure(class icu_53::Measure const &)` | 172 | Exported Function
-`public: __thiscall icu_53::MeasureFormat::MeasureFormat(class icu_53::MeasureFormat const &)` | 175 | Exported Function
-`public: __thiscall icu_53::MeasureFormat::MeasureFormat(class icu_53::Locale const &,enum UMeasureFormatWidth,enum UErrorCode &)` | 176 | Exported Function
-`public: __thiscall icu_53::MeasureFormat::MeasureFormat(class icu_53::Locale const &,enum UMeasureFormatWidth,class icu_53::NumberFormat *,enum UErrorCode &)` | 177 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::Locale const &,class icu_53::PluralRules const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 200 | Exported Function
-`public: __thiscall icu_53::PluralAvailableLocalesEnumeration::PluralAvailableLocalesEnumeration(enum UErrorCode &)` | 194 | Exported Function
-`public: __thiscall icu_53::PluralAvailableLocalesEnumeration::PluralAvailableLocalesEnumeration(class icu_53::PluralAvailableLocalesEnumeration const &)` | 195 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::Locale const &,class icu_53::PluralRules const &,enum UErrorCode &)` | 199 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::Locale const &,enum UPluralType,class icu_53::UnicodeString const &,enum UErrorCode &)` | 203 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::Locale const &,enum UErrorCode &)` | 198 | Exported Function
-`public: __thiscall icu_53::PluralFormat::PluralFormat(class icu_53::Locale const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 201 | Exported Function
-`public: __thiscall icu_53::OlsonTimeZone::OlsonTimeZone(struct UResourceBundle const *,struct UResourceBundle const *,class icu_53::UnicodeString const &,enum UErrorCode &)` | 193 | Exported Function
-`public: __thiscall icu_53::NumberFormatFactory::NumberFormatFactory(class icu_53::NumberFormatFactory const &)` | 188 | Exported Function
-`public: __thiscall icu_53::MessageFormat::PluralSelectorProvider::PluralSelectorProvider(class icu_53::MessageFormat::PluralSelectorProvider const &)` | 213 | Exported Function
-`public: __thiscall icu_53::MessageFormat::PluralSelectorProvider::PluralSelectorProvider(class icu_53::MessageFormat const &,enum UPluralType)` | 214 | Exported Function
-`public: __thiscall icu_53::NumberFormatFactory::NumberFormatFactory(void)` | 189 | Exported Function
-`public: __thiscall icu_53::OlsonTimeZone::OlsonTimeZone(class icu_53::OlsonTimeZone const &)` | 192 | Exported Function
-`public: __thiscall icu_53::NumberingSystem::NumberingSystem(void)` | 191 | Exported Function
-`public: __thiscall icu_53::NumberingSystem::NumberingSystem(class icu_53::NumberingSystem const &)` | 190 | Exported Function
-`public: __int64 __thiscall icu_53::DigitList::getInt64(void)` | 1918 | Exported Function
-`public: __int64 __thiscall icu_53::CollationRootElements::lastCEWithPrimaryBefore(unsigned int)const ` | 2605 | Exported Function
-`public: __int64 __thiscall icu_53::CollationRootElements::getFirstPrimaryCE(void)const ` | 1866 | Exported Function
-`public: __int64 __thiscall icu_53::Formattable::getInt64(enum UErrorCode &)const ` | 1919 | Exported Function
-`public: __thiscall icu_53::AlphabeticIndex::AlphabeticIndex(class icu_53::Locale const &,enum UErrorCode &)` | 7 | Exported Function
-`public: __int64 const * __thiscall icu_53::CollationIterator::getCEs(void)const ` | 1697 | Exported Function
-`public: __int64 __thiscall icu_53::Formattable::getInt64(void)const ` | 1920 | Exported Function
-`public: __int64 __thiscall icu_53::CollationRootElements::firstCEWithPrimaryAtLeast(unsigned int)const ` | 1471 | Exported Function
-`public: __int64 __thiscall icu_53::CollationData::getCEFromOffsetCE32(int,unsigned int)const ` | 1692 | Exported Function
-`protected: void __thiscall icu_53::Transliterator::setMaximumContextLength(int)` | 3060 | Exported Function
-`protected: void __thiscall icu_53::Transliterator::setID(class icu_53::UnicodeString const &)` | 3023 | Exported Function
-`public: __int64 __thiscall icu_53::CollationDataBuilder::getSingleCE(int,enum UErrorCode &)const ` | 2144 | Exported Function
-`public: __int64 __thiscall icu_53::CollationIterator::previousCE(class icu_53::UVector32 &,enum UErrorCode &)` | 2799 | Exported Function
-`public: __int64 __thiscall icu_53::CollationIterator::nextCE(enum UErrorCode &)` | 2679 | Exported Function
-`public: __int64 __thiscall icu_53::CollationIterator::getCE(int)const ` | 1691 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::Equatorial::Equatorial(double,double)` | 111 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::Ecliptic::Ecliptic(double,double)` | 110 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::CalendarAstronomer(void)` | 25 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::Horizon::Horizon(double,double)` | 157 | Exported Function
-`public: __thiscall icu_53::ChineseCalendar::ChineseCalendar(class icu_53::ChineseCalendar const &)` | 27 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::~CalendarAstronomer(void)` | 332 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::MoonAge::MoonAge(double)` | 185 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::CalendarAstronomer(double,double)` | 24 | Exported Function
-`public: __thiscall icu_53::AlphabeticIndex::ImmutableIndex::ImmutableIndex(class icu_53::AlphabeticIndex::ImmutableIndex const &)` | 160 | Exported Function
-`public: __thiscall icu_53::AlphabeticIndex::Bucket::Bucket(class icu_53::AlphabeticIndex::Bucket const &)` | 16 | Exported Function
-`public: __thiscall icu_53::AlphabeticIndex::AlphabeticIndex(class icu_53::RuleBasedCollator *,enum UErrorCode &)` | 8 | Exported Function
-`public: __thiscall icu_53::AnnualTimeZoneRule::AnnualTimeZoneRule(class icu_53::AnnualTimeZoneRule const &)` | 9 | Exported Function
-`public: __thiscall icu_53::CalendarAstronomer::CalendarAstronomer(double)` | 23 | Exported Function
-`public: __thiscall icu_53::AnnualTimeZoneRule::AnnualTimeZoneRule(class icu_53::UnicodeString const &,int,int,class icu_53::DateTimeRule const &,int,int)` | 10 | Exported Function
-`public: __thiscall icu_53::AnnualTimeZoneRule::AnnualTimeZoneRule(class icu_53::UnicodeString const &,int,int,class icu_53::DateTimeRule *,int,int)` | 11 | Exported Function
-`protected: void __thiscall icu_53::SearchIterator::setMatchNotFound(void)` | 3054 | Exported Function
-`protected: void __thiscall icu_53::Calendar::complete(enum UErrorCode &)` | 1177 | Exported Function
-`protected: void __thiscall icu_53::BasicTimeZone::getTimeZoneRulesAfter(double,class icu_53::InitialTimeZoneRule * &,class icu_53::UVector * &,enum UErrorCode &)const ` | 2287 | Exported Function
-`protected: virtual wchar_t __thiscall icu_53::UTF16CollationIterator::handleGetTrailSurrogate(void)` | 2360 | Exported Function
-`protected: void __thiscall icu_53::Calendar::computeGregorianFields(int,enum UErrorCode &)` | 1183 | Exported Function
-`protected: void __thiscall icu_53::Calendar::internalSetTime(double)` | 2507 | Exported Function
-`protected: void __thiscall icu_53::Calendar::internalSet(enum UCalendarDateFields,int)` | 2504 | Exported Function
-`protected: void __thiscall icu_53::Calendar::internalSet(enum icu_53::Calendar::EDateFields,int)` | 2503 | Exported Function
-`protected: virtual wchar_t __thiscall icu_53::UIterCollationIterator::handleGetTrailSurrogate(void)` | 2359 | Exported Function
-`protected: virtual void __thiscall icu_53::UTF8CollationIterator::backwardNumCodePoints(int,enum UErrorCode &)` | 1055 | Exported Function
-`protected: virtual void __thiscall icu_53::UTF16CollationIterator::forwardNumCodePoints(int,enum UErrorCode &)` | 1586 | Exported Function
-`protected: virtual void __thiscall icu_53::UTF16CollationIterator::backwardNumCodePoints(int,enum UErrorCode &)` | 1054 | Exported Function
-`protected: virtual void __thiscall icu_53::UTF8CollationIterator::forwardNumCodePoints(int,enum UErrorCode &)` | 1587 | Exported Function
-`protected: virtual wchar_t __thiscall icu_53::FCDUTF8CollationIterator::handleGetTrailSurrogate(void)` | 2358 | Exported Function
-`protected: virtual wchar_t __thiscall icu_53::FCDUIterCollationIterator::handleGetTrailSurrogate(void)` | 2357 | Exported Function
-`protected: virtual wchar_t __thiscall icu_53::CollationIterator::handleGetTrailSurrogate(void)` | 2356 | Exported Function
-`protected: void __thiscall icu_53::GregorianCalendar::pinDayOfMonth(void)` | 2791 | Exported Function
-`protected: void __thiscall icu_53::Format::setLocaleIDs(char const *,char const *)` | 3048 | Exported Function
-`protected: void __thiscall icu_53::CollationIterator::reset(void)` | 2855 | Exported Function
-`protected: void __thiscall icu_53::MeasureFormat::adoptNumberFormat(class icu_53::NumberFormat *,enum UErrorCode &)` | 995 | Exported Function
-`protected: void __thiscall icu_53::MeasureUnit::initTime(char const *)` | 2456 | Exported Function
-`protected: void __thiscall icu_53::MeasureUnit::initCurrency(char const *)` | 2434 | Exported Function
-`protected: void __thiscall icu_53::MeasureFormat::initMeasureFormat(class icu_53::Locale const &,enum UMeasureFormatWidth,class icu_53::NumberFormat *,enum UErrorCode &)` | 2453 | Exported Function
-`protected: void __thiscall icu_53::CollationIterator::appendCEsFromCE32(struct icu_53::CollationData const *,int,unsigned int,signed char,enum UErrorCode &)` | 1018 | Exported Function
-`protected: void __thiscall icu_53::CollationDataBuilder::buildFastLatinTable(struct icu_53::CollationData &,enum UErrorCode &)` | 1065 | Exported Function
-`protected: void __thiscall icu_53::CollationDataBuilder::buildContexts(enum UErrorCode &)` | 1064 | Exported Function
-`protected: void __thiscall icu_53::Calendar::setTimeInMillis(double,enum UErrorCode &)` | 3147 | Exported Function
-`protected: void __thiscall icu_53::CollationDataBuilder::buildMappings(struct icu_53::CollationData &,enum UErrorCode &)` | 1067 | Exported Function
-`protected: void __thiscall icu_53::CollationDataBuilder::setLeadSurrogates(enum UErrorCode &)` | 3037 | Exported Function
-`protected: void __thiscall icu_53::CollationDataBuilder::setDigitTags(enum UErrorCode &)` | 2989 | Exported Function
-`protected: void __thiscall icu_53::CollationDataBuilder::clearContexts(void)` | 1098 | Exported Function
-`public: __thiscall icu_53::DateFormatSymbols::DateFormatSymbols(char const *,enum UErrorCode &)` | 81 | Exported Function
-`public: __thiscall icu_53::CurrencyUnit::CurrencyUnit(wchar_t const *,enum UErrorCode &)` | 74 | Exported Function
-`public: __thiscall icu_53::CurrencyUnit::CurrencyUnit(class icu_53::CurrencyUnit const &)` | 73 | Exported Function
-`public: __thiscall icu_53::DateFormatSymbols::DateFormatSymbols(class icu_53::DateFormatSymbols const &)` | 78 | Exported Function
-`public: __thiscall icu_53::DateFormatSymbols::DateFormatSymbols(enum UErrorCode &)` | 77 | Exported Function
-`public: __thiscall icu_53::DateFormatSymbols::DateFormatSymbols(class icu_53::Locale const &,enum UErrorCode &)` | 79 | Exported Function
-`public: __thiscall icu_53::DateFormatSymbols::DateFormatSymbols(class icu_53::Locale const &,char const *,enum UErrorCode &)` | 80 | Exported Function
-`public: __thiscall icu_53::CurrencyPluralInfo::CurrencyPluralInfo(enum UErrorCode &)` | 70 | Exported Function
-`public: __thiscall icu_53::CurrencyAmount::CurrencyAmount(class icu_53::CurrencyAmount const &)` | 67 | Exported Function
-`public: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 64 | Exported Function
-`public: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::UnicodeString const &,enum UTransDirection,class icu_53::UnicodeFilter *,struct UParseError &,enum UErrorCode &)` | 65 | Exported Function
-`public: __thiscall icu_53::CurrencyAmount::CurrencyAmount(class icu_53::Formattable const &,wchar_t const *,enum UErrorCode &)` | 68 | Exported Function
-`public: __thiscall icu_53::CurrencyPluralInfo::CurrencyPluralInfo(class icu_53::Locale const &,enum UErrorCode &)` | 72 | Exported Function
-`public: __thiscall icu_53::CurrencyPluralInfo::CurrencyPluralInfo(class icu_53::CurrencyPluralInfo const &)` | 71 | Exported Function
-`public: __thiscall icu_53::CurrencyAmount::CurrencyAmount(double,wchar_t const *,enum UErrorCode &)` | 69 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(class icu_53::UnicodeString const &,class icu_53::DecimalFormatSymbols *,struct UParseError &,enum UErrorCode &)` | 99 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(class icu_53::UnicodeString const &,class icu_53::DecimalFormatSymbols *,enum UNumberFormatStyle,enum UErrorCode &)` | 101 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(class icu_53::UnicodeString const &,class icu_53::DecimalFormatSymbols *,enum UErrorCode &)` | 100 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(class icu_53::UnicodeString const &,class icu_53::DecimalFormatSymbols const &,enum UErrorCode &)` | 98 | Exported Function
-`public: __thiscall icu_53::DecimalFormatSymbols::DecimalFormatSymbols(class icu_53::DecimalFormatSymbols const &)` | 104 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(enum UErrorCode &)` | 95 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 97 | Exported Function
-`public: __thiscall icu_53::DecimalFormat::DecimalFormat(class icu_53::DecimalFormat const &)` | 96 | Exported Function
-`public: __thiscall icu_53::DateIntervalInfo::DateIntervalInfo(enum UErrorCode &)` | 85 | Exported Function
-`public: __thiscall icu_53::DateIntervalInfo::DateIntervalInfo(class icu_53::Locale const &,enum UErrorCode &)` | 87 | Exported Function
-`public: __thiscall icu_53::DateIntervalInfo::DateIntervalInfo(class icu_53::DateIntervalInfo const &)` | 86 | Exported Function
-`public: __thiscall icu_53::DateTimeRule::DateTimeRule(class icu_53::DateTimeRule const &)` | 91 | Exported Function
-`public: __thiscall icu_53::DateTimeRule::DateTimeRule(int,int,int,signed char,int,enum icu_53::DateTimeRule::TimeRuleType)` | 92 | Exported Function
-`public: __thiscall icu_53::DateTimeRule::DateTimeRule(int,int,int,int,enum icu_53::DateTimeRule::TimeRuleType)` | 93 | Exported Function
-`public: __thiscall icu_53::DateTimeRule::DateTimeRule(int,int,int,enum icu_53::DateTimeRule::TimeRuleType)` | 94 | Exported Function
-`public: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::Transliterator * const * const,int,class icu_53::UnicodeFilter *)` | 66 | Exported Function
-`public: __thiscall icu_53::CollationFastLatinBuilder::CollationFastLatinBuilder(enum UErrorCode &)` | 41 | Exported Function
-`public: __thiscall icu_53::CollationElementIterator::CollationElementIterator(class icu_53::CollationElementIterator const &)` | 40 | Exported Function
-`public: __thiscall icu_53::CollationDataBuilder::CollationDataBuilder(enum UErrorCode &)` | 37 | Exported Function
-`public: __thiscall icu_53::CollationIterator::CollationIterator(struct icu_53::CollationData const *,signed char)` | 43 | Exported Function
-`public: __thiscall icu_53::CollationKey::CollationKey(void)` | 46 | Exported Function
-`public: __thiscall icu_53::CollationKey::CollationKey(unsigned char const *,int)` | 45 | Exported Function
-`public: __thiscall icu_53::CollationKey::CollationKey(class icu_53::CollationKey const &)` | 44 | Exported Function
-`public: __thiscall icu_53::CollationData::CollationData(class icu_53::Normalizer2Impl const &)` | 36 | Exported Function
-`public: __thiscall icu_53::ChoiceFormat::ChoiceFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 31 | Exported Function
-`public: __thiscall icu_53::ChoiceFormat::ChoiceFormat(class icu_53::ChoiceFormat const &)` | 30 | Exported Function
-`public: __thiscall icu_53::ChineseCalendar::ChineseCalendar(class icu_53::Locale const &,enum UErrorCode &)` | 28 | Exported Function
-`public: __thiscall icu_53::ChoiceFormat::ChoiceFormat(double const *,class icu_53::UnicodeString const *,int)` | 33 | Exported Function
-`public: __thiscall icu_53::CollationBuilder::CollationBuilder(struct icu_53::CollationTailoring const *,enum UErrorCode &)` | 35 | Exported Function
-`public: __thiscall icu_53::CollationBaseDataBuilder::CollationBaseDataBuilder(enum UErrorCode &)` | 34 | Exported Function
-`public: __thiscall icu_53::ChoiceFormat::ChoiceFormat(double const *,signed char const *,class icu_53::UnicodeString const *,int)` | 32 | Exported Function
-`public: __thiscall icu_53::CollationWeights::CollationWeights(void)` | 52 | Exported Function
-`public: __thiscall icu_53::CollationTailoring::CollationTailoring(struct icu_53::CollationSettings const *)` | 51 | Exported Function
-`public: __thiscall icu_53::CollationSettings::CollationSettings(void)` | 50 | Exported Function
-`public: __thiscall icu_53::CollatorFactory::CollatorFactory(class icu_53::CollatorFactory const &)` | 56 | Exported Function
-`public: __thiscall icu_53::CompoundTransliterator::CompoundTransliterator(class icu_53::CompoundTransliterator const &)` | 63 | Exported Function
-`public: __thiscall icu_53::CompactDecimalFormat::CompactDecimalFormat(class icu_53::CompactDecimalFormat const &)` | 59 | Exported Function
-`public: __thiscall icu_53::CollatorFactory::CollatorFactory(void)` | 57 | Exported Function
-`public: __thiscall icu_53::CollationSettings::CollationSettings(struct icu_53::CollationSettings const &)` | 49 | Exported Function
-`public: __thiscall icu_53::CollationRuleParser::Importer::Importer(class icu_53::CollationRuleParser::Importer const &)` | 161 | Exported Function
-`public: __thiscall icu_53::CollationRuleParser::CollationRuleParser(struct icu_53::CollationData const *,enum UErrorCode &)` | 48 | Exported Function
-`public: __thiscall icu_53::CollationRootElements::CollationRootElements(unsigned int const *,int)` | 47 | Exported Function
-`public: __thiscall icu_53::CollationRuleParser::Importer::Importer(void)` | 162 | Exported Function
-`public: __thiscall icu_53::CollationRuleParser::~CollationRuleParser(void)` | 342 | Exported Function
-`public: __thiscall icu_53::CollationRuleParser::Sink::Sink(void)` | 276 | Exported Function
-`public: __thiscall icu_53::CollationRuleParser::Sink::Sink(class icu_53::CollationRuleParser::Sink const &)` | 275 | Exported Function
-`public: class icu_53::Locale const & __thiscall icu_53::CurrencyPluralInfo::getLocale(void)const ` | 1952 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::Format::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1956 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::DecimalFormatSymbols::getLocale(void)const ` | 1955 | Exported Function
-`public: class icu_53::Locale const & __thiscall icu_53::SimpleDateFormat::getSmpFmtLocale(void)const ` | 2148 | Exported Function
-`public: class icu_53::MeasureFormat & __thiscall icu_53::MeasureFormat::operator=(class icu_53::MeasureFormat const &)` | 490 | Exported Function
-`public: class icu_53::Measure & __thiscall icu_53::Measure::operator=(class icu_53::Measure const &)` | 489 | Exported Function
-`public: class icu_53::LocaleDisplayNames & __thiscall icu_53::LocaleDisplayNames::operator=(class icu_53::LocaleDisplayNames const &)` | 487 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::DecimalFormatSymbols::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1954 | Exported Function
-`public: class icu_53::IdentifierInfo & __thiscall icu_53::IdentifierInfo::setIdentifierProfile(class icu_53::UnicodeSet const &)` | 3025 | Exported Function
-`public: class icu_53::IdentifierInfo & __thiscall icu_53::IdentifierInfo::setIdentifier(class icu_53::UnicodeString const &,enum UErrorCode &)` | 3024 | Exported Function
-`public: class icu_53::IdentifierInfo & __thiscall icu_53::IdentifierInfo::operator=(class icu_53::IdentifierInfo const &)` | 482 | Exported Function
-`public: class icu_53::InitialTimeZoneRule & __thiscall icu_53::InitialTimeZoneRule::operator=(class icu_53::InitialTimeZoneRule const &)` | 485 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::DateFormatSymbols::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1953 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::Calendar::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1951 | Exported Function
-`public: class icu_53::IslamicCalendar & __thiscall icu_53::IslamicCalendar::operator=(class icu_53::IslamicCalendar const &)` | 486 | Exported Function
-`public: class icu_53::OlsonTimeZone & __thiscall icu_53::OlsonTimeZone::operator=(class icu_53::OlsonTimeZone const &)` | 497 | Exported Function
-`public: class icu_53::NumberingSystem & __thiscall icu_53::NumberingSystem::operator=(class icu_53::NumberingSystem const &)` | 496 | Exported Function
-`public: class icu_53::NumberFormatFactory & __thiscall icu_53::NumberFormatFactory::operator=(class icu_53::NumberFormatFactory const &)` | 495 | Exported Function
-`public: class icu_53::PluralAvailableLocalesEnumeration & __thiscall icu_53::PluralAvailableLocalesEnumeration::operator=(class icu_53::PluralAvailableLocalesEnumeration const &)` | 498 | Exported Function
-`public: class icu_53::PluralFormat::PluralSelectorAdapter & __thiscall icu_53::PluralFormat::PluralSelectorAdapter::operator=(class icu_53::PluralFormat::PluralSelectorAdapter const &)` | 502 | Exported Function
-`public: class icu_53::PluralFormat::PluralSelector & __thiscall icu_53::PluralFormat::PluralSelector::operator=(class icu_53::PluralFormat::PluralSelector const &)` | 501 | Exported Function
-`public: class icu_53::PluralFormat & __thiscall icu_53::PluralFormat::operator=(class icu_53::PluralFormat const &)` | 499 | Exported Function
-`public: class icu_53::NumberFormat const * __thiscall icu_53::SharedNumberFormat::operator->(void)const ` | 631 | Exported Function
-`public: class icu_53::MessageFormat const & __thiscall icu_53::MessageFormat::operator=(class icu_53::MessageFormat const &)` | 492 | Exported Function
-`public: class icu_53::MeasureUnit const & __thiscall icu_53::Measure::getUnit(void)const ` | 2303 | Exported Function
-`public: class icu_53::MeasureUnit & __thiscall icu_53::MeasureUnit::operator=(class icu_53::MeasureUnit const &)` | 491 | Exported Function
-`public: class icu_53::MessageFormat::DummyFormat & __thiscall icu_53::MessageFormat::DummyFormat::operator=(class icu_53::MessageFormat::DummyFormat const &)` | 472 | Exported Function
-`public: class icu_53::NumberFormat const * __thiscall icu_53::SharedNumberFormat::get(void)const ` | 1608 | Exported Function
-`public: class icu_53::NumberFormat const & __thiscall icu_53::SharedNumberFormat::operator*(void)const ` | 633 | Exported Function
-`public: class icu_53::NumberFormat const & __thiscall icu_53::RelativeDateTimeFormatter::getNumberFormat(void)const ` | 2026 | Exported Function
-`public: class icu_53::GregorianCalendar & __thiscall icu_53::GregorianCalendar::operator=(class icu_53::GregorianCalendar const &)` | 480 | Exported Function
-`public: class icu_53::DecimalFormat & __thiscall icu_53::DecimalFormat::operator=(class icu_53::DecimalFormat const &)` | 469 | Exported Function
-`public: class icu_53::DateTimeRule const * __thiscall icu_53::AnnualTimeZoneRule::getRule(void)const ` | 2112 | Exported Function
-`public: class icu_53::DateTimeRule * __thiscall icu_53::DateTimeRule::clone(void)const ` | 1113 | Exported Function
-`public: class icu_53::DecimalFormatSymbols & __thiscall icu_53::DecimalFormatSymbols::operator=(class icu_53::DecimalFormatSymbols const &)` | 470 | Exported Function
-`public: class icu_53::DigitList * __thiscall icu_53::Formattable::getInternalDigitList(void)` | 1921 | Exported Function
-`public: class icu_53::DigitList * __thiscall icu_53::Formattable::getDigitList(void)const ` | 1775 | Exported Function
-`public: class icu_53::DigitList & __thiscall icu_53::DigitList::operator=(class icu_53::DigitList const &)` | 471 | Exported Function
-`public: class icu_53::DateTimeRule & __thiscall icu_53::DateTimeRule::operator=(class icu_53::DateTimeRule const &)` | 468 | Exported Function
-`public: class icu_53::DateFormat const * __thiscall icu_53::DateIntervalFormat::getDateFormat(void)const ` | 1751 | Exported Function
-`public: class icu_53::CurrencyUnit const & __thiscall icu_53::CurrencyAmount::getCurrency(void)const ` | 1736 | Exported Function
-`public: class icu_53::CurrencyUnit & __thiscall icu_53::CurrencyUnit::operator=(class icu_53::CurrencyUnit const &)` | 462 | Exported Function
-`public: class icu_53::DateFormatSymbols & __thiscall icu_53::DateFormatSymbols::operator=(class icu_53::DateFormatSymbols const &)` | 464 | Exported Function
-`public: class icu_53::DateTimePatternGenerator * __thiscall icu_53::DateTimePatternGenerator::clone(void)const ` | 1112 | Exported Function
-`public: class icu_53::DateIntervalInfo const * __thiscall icu_53::DateIntervalFormat::getDateIntervalInfo(void)const ` | 1753 | Exported Function
-`public: class icu_53::DateIntervalInfo & __thiscall icu_53::DateIntervalInfo::operator=(class icu_53::DateIntervalInfo const &)` | 466 | Exported Function
-`public: class icu_53::Formattable & __thiscall icu_53::Formattable::operator[](int)` | 629 | Exported Function
-`public: class icu_53::Formattable & __thiscall icu_53::Formattable::operator=(class icu_53::Formattable const &)` | 479 | Exported Function
-`public: class icu_53::FixedDecimal __thiscall icu_53::DecimalFormat::getFixedDecimal(double,enum UErrorCode &)const ` | 1875 | Exported Function
-`public: class icu_53::Formattable * __thiscall icu_53::Formattable::clone(void)const ` | 1117 | Exported Function
-`public: class icu_53::Formattable const * __thiscall icu_53::Formattable::getArray(int &,enum UErrorCode &)const ` | 1637 | Exported Function
-`public: class icu_53::Formattable const * __thiscall icu_53::Formattable::getArray(int &)const ` | 1636 | Exported Function
-`public: class icu_53::Formattable const & __thiscall icu_53::Measure::getNumber(void)const ` | 2023 | Exported Function
-`public: class icu_53::FixedDecimal __thiscall icu_53::DecimalFormat::getFixedDecimal(class icu_53::Formattable const &,enum UErrorCode &)const ` | 1874 | Exported Function
-`public: class icu_53::FieldPosition & __thiscall icu_53::FieldPosition::operator=(class icu_53::FieldPosition const &)` | 475 | Exported Function
-`public: class icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098> const & __thiscall icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098>::operator=(class icu_53::EnumSet<enum UNumberFormatAttribute,4096,4098> const &)` | 432 | Exported Function
-`public: class icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4> const & __thiscall icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4>::operator=(class icu_53::EnumSet<enum UDateFormatBooleanAttribute,0,4> const &)` | 431 | Exported Function
-`public: class icu_53::FieldPosition * __thiscall icu_53::FieldPosition::clone(void)const ` | 1116 | Exported Function
-`public: class icu_53::FixedDecimal __thiscall icu_53::DecimalFormat::getFixedDecimal(class icu_53::DigitList &,enum UErrorCode &)const ` | 1873 | Exported Function
-`public: class icu_53::FixedDecimal & __thiscall icu_53::FixedDecimal::operator=(class icu_53::FixedDecimal const &)` | 477 | Exported Function
-`public: class icu_53::FieldPositionIterator & __thiscall icu_53::FieldPositionIterator::operator=(class icu_53::FieldPositionIterator const &)` | 476 | Exported Function
-`public: class icu_53::TimeUnit & __thiscall icu_53::TimeUnit::operator=(class icu_53::TimeUnit const &)` | 519 | Exported Function
-`public: class icu_53::TimeArrayTimeZoneRule & __thiscall icu_53::TimeArrayTimeZoneRule::operator=(class icu_53::TimeArrayTimeZoneRule const &)` | 518 | Exported Function
-`public: class icu_53::TextTrieMap & __thiscall icu_53::TextTrieMap::operator=(class icu_53::TextTrieMap const &)` | 517 | Exported Function
-`public: class icu_53::TimeUnit const & __thiscall icu_53::TimeUnitAmount::getTimeUnit(void)const ` | 2271 | Exported Function
-`public: class icu_53::TimeZone * __thiscall icu_53::Calendar::orphanTimeZone(void)` | 2716 | Exported Function
-`public: class icu_53::TimeUnitFormat & __thiscall icu_53::TimeUnitFormat::operator=(class icu_53::TimeUnitFormat const &)` | 521 | Exported Function
-`public: class icu_53::TimeUnitAmount & __thiscall icu_53::TimeUnitAmount::operator=(class icu_53::TimeUnitAmount const &)` | 520 | Exported Function
-`public: class icu_53::StringSearch * __thiscall icu_53::StringSearch::clone(void)const ` | 1136 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::Region::getContainedRegions(enum URegionType)const ` | 1728 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::PluralRules::getKeywords(enum UErrorCode &)const ` | 1931 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::DateTimePatternGenerator::getSkeletons(enum UErrorCode &)const ` | 2146 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::Region::getContainedRegions(void)const ` | 1729 | Exported Function
-`public: class icu_53::StringSearch & __thiscall icu_53::StringSearch::operator=(class icu_53::StringSearch const &)` | 516 | Exported Function
-`public: class icu_53::StringPiece __thiscall icu_53::Formattable::getDecimalNumber(enum UErrorCode &)` | 1763 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::Region::getPreferredValues(void)const ` | 2075 | Exported Function
-`public: class icu_53::TimeZoneTransition * __thiscall icu_53::TimeZoneTransition::clone(void)const ` | 1143 | Exported Function
-`public: class icu_53::TimeZoneTransition & __thiscall icu_53::TimeZoneTransition::operator=(class icu_53::TimeZoneTransition const &)` | 527 | Exported Function
-`public: class icu_53::TimeZoneRule const * __thiscall icu_53::TimeZoneTransition::getTo(void)const ` | 2288 | Exported Function
-`public: class icu_53::Transliterator * __thiscall icu_53::Transliterator::createInverse(enum UErrorCode &)const ` | 1308 | Exported Function
-`public: class icu_53::UnicodeFilter const * __thiscall icu_53::Transliterator::getFilter(void)const ` | 1857 | Exported Function
-`public: class icu_53::UnicodeFilter * __thiscall icu_53::Transliterator::orphanFilter(void)` | 2714 | Exported Function
-`public: class icu_53::Transliterator const & __thiscall icu_53::Transliterator::getElement(int,enum UErrorCode &)const ` | 1840 | Exported Function
-`public: class icu_53::TimeZoneRule const * __thiscall icu_53::TimeZoneTransition::getFrom(void)const ` | 1883 | Exported Function
-`public: class icu_53::TimeZoneFormat & __thiscall icu_53::TimeZoneFormat::operator=(class icu_53::TimeZoneFormat const &)` | 523 | Exported Function
-`public: class icu_53::TimeZone const & __thiscall icu_53::Calendar::getTimeZone(void)const ` | 2275 | Exported Function
-`public: class icu_53::TimeZone * __thiscall icu_53::TimeZoneFormat::parse(enum UTimeZoneFormatStyle,class icu_53::UnicodeString const &,class icu_53::ParsePosition &,enum UTimeZoneFormatTimeType *)const ` | 2732 | Exported Function
-`public: class icu_53::TimeZoneGenericNames & __thiscall icu_53::TimeZoneGenericNames::operator=(class icu_53::TimeZoneGenericNames const &)` | 524 | Exported Function
-`public: class icu_53::TimeZoneNames::MatchInfoCollection & __thiscall icu_53::TimeZoneNames::MatchInfoCollection::operator=(class icu_53::TimeZoneNames::MatchInfoCollection const &)` | 488 | Exported Function
-`public: class icu_53::TimeZoneNames const * __thiscall icu_53::TimeZoneFormat::getTimeZoneNames(void)const ` | 2282 | Exported Function
-`public: class icu_53::TimeZoneNames & __thiscall icu_53::TimeZoneNames::operator=(class icu_53::TimeZoneNames const &)` | 525 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::DateTimePatternGenerator::getRedundants(enum UErrorCode &)` | 2098 | Exported Function
-`public: class icu_53::RelativeDateTimeFormatter & __thiscall icu_53::RelativeDateTimeFormatter::operator=(class icu_53::RelativeDateTimeFormatter const &)` | 506 | Exported Function
-`public: class icu_53::Region const * __thiscall icu_53::Region::getContainingRegion(void)const ` | 1731 | Exported Function
-`public: class icu_53::Region const * __thiscall icu_53::Region::getContainingRegion(enum URegionType)const ` | 1730 | Exported Function
-`public: class icu_53::RuleBasedCollator & __thiscall icu_53::RuleBasedCollator::operator=(class icu_53::RuleBasedCollator const &)` | 507 | Exported Function
-`public: class icu_53::RuleBasedTimeZone & __thiscall icu_53::RuleBasedTimeZone::operator=(class icu_53::RuleBasedTimeZone const &)` | 509 | Exported Function
-`public: class icu_53::RuleBasedNumberFormat & __thiscall icu_53::RuleBasedNumberFormat::operator=(class icu_53::RuleBasedNumberFormat const &)` | 508 | Exported Function
-`public: class icu_53::RuleBasedCollator * __thiscall icu_53::StringSearch::getCollator(void)const ` | 1722 | Exported Function
-`public: class icu_53::Region & __thiscall icu_53::Region::operator=(class icu_53::Region const &)` | 505 | Exported Function
-`public: class icu_53::PluralRules const & __thiscall icu_53::SharedPluralRules::operator*(void)const ` | 634 | Exported Function
-`public: class icu_53::PluralRules * __thiscall icu_53::PluralRules::clone(void)const ` | 1128 | Exported Function
-`public: class icu_53::PluralRules & __thiscall icu_53::PluralRules::operator=(class icu_53::PluralRules const &)` | 500 | Exported Function
-`public: class icu_53::PluralRules const * __thiscall icu_53::CurrencyPluralInfo::getPluralRules(void)const ` | 2071 | Exported Function
-`public: class icu_53::RegexPattern & __thiscall icu_53::RegexPattern::operator=(class icu_53::RegexPattern const &)` | 504 | Exported Function
-`public: class icu_53::QuantityFormatter & __thiscall icu_53::QuantityFormatter::operator=(class icu_53::QuantityFormatter const &)` | 503 | Exported Function
-`public: class icu_53::PluralRules const * __thiscall icu_53::SharedPluralRules::operator->(void)const ` | 632 | Exported Function
-`public: class icu_53::ScriptSet const * __thiscall icu_53::IdentifierInfo::getScripts(void)const ` | 2129 | Exported Function
-`public: class icu_53::ScriptSet const * __thiscall icu_53::IdentifierInfo::getCommonAmongAlternates(void)const ` | 1723 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::Union(class icu_53::ScriptSet const &)` | 913 | Exported Function
-`public: class icu_53::SelectFormat & __thiscall icu_53::SelectFormat::operator=(class icu_53::SelectFormat const &)` | 512 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::DateTimePatternGenerator::getBaseSkeletons(enum UErrorCode &)const ` | 1662 | Exported Function
-`public: class icu_53::SimpleTimeZone & __thiscall icu_53::SimpleTimeZone::operator=(class icu_53::SimpleTimeZone const &)` | 514 | Exported Function
-`public: class icu_53::SimpleDateFormat & __thiscall icu_53::SimpleDateFormat::operator=(class icu_53::SimpleDateFormat const &)` | 513 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::setAll(void)` | 2928 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::operator=(class icu_53::ScriptSet const &)` | 510 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::intersect(enum UScriptCode,enum UErrorCode &)` | 2509 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::intersect(class icu_53::ScriptSet const &)` | 2508 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::parseScripts(class icu_53::UnicodeString const &,enum UErrorCode &)` | 2777 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::set(enum UScriptCode,enum UErrorCode &)` | 2926 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::resetAll(void)` | 2868 | Exported Function
-`public: class icu_53::ScriptSet & __thiscall icu_53::ScriptSet::reset(enum UScriptCode,enum UErrorCode &)` | 2865 | Exported Function
-`public: __thiscall icu_53::TimeArrayTimeZoneRule::TimeArrayTimeZoneRule(class icu_53::TimeArrayTimeZoneRule const &)` | 284 | Exported Function
-`public: __thiscall icu_53::TextTrieMap::TextTrieMap(signed char,void (__cdecl*)(void *))` | 283 | Exported Function
-`public: __thiscall icu_53::TextTrieMap::TextTrieMap(class icu_53::TextTrieMap const &)` | 282 | Exported Function
-`public: __thiscall icu_53::TimeArrayTimeZoneRule::TimeArrayTimeZoneRule(class icu_53::UnicodeString const &,int,int,double const *,int,enum icu_53::DateTimeRule::TimeRuleType)` | 285 | Exported Function
-`public: __thiscall icu_53::TimeUnitAmount::TimeUnitAmount(class icu_53::TimeUnitAmount const &)` | 288 | Exported Function
-`public: __thiscall icu_53::TimeUnitAmount::TimeUnitAmount(class icu_53::Formattable const &,enum icu_53::TimeUnit::UTimeUnitFields,enum UErrorCode &)` | 289 | Exported Function
-`public: __thiscall icu_53::TimeUnit::TimeUnit(class icu_53::TimeUnit const &)` | 287 | Exported Function
-`public: __thiscall icu_53::StringSearch::StringSearch(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::RuleBasedCollator *,class icu_53::BreakIterator *,enum UErrorCode &)` | 279 | Exported Function
-`public: __thiscall icu_53::SimpleTimeZone::SimpleTimeZone(int,class icu_53::UnicodeString const &,signed char,signed char,signed char,int,signed char,signed char,signed char,int,int,enum UErrorCode &)` | 273 | Exported Function
-`public: __thiscall icu_53::SimpleTimeZone::SimpleTimeZone(int,class icu_53::UnicodeString const &,signed char,signed char,signed char,int,signed char,signed char,signed char,int,enum UErrorCode &)` | 272 | Exported Function
-`public: __thiscall icu_53::SimpleTimeZone::SimpleTimeZone(int,class icu_53::UnicodeString const &,signed char,signed char,signed char,int,enum icu_53::SimpleTimeZone::TimeMode,signed char,signed char,signed char,int,enum icu_53::SimpleTimeZone::TimeMode,int,enum UErrorCode &)` | 274 | Exported Function
-`public: __thiscall icu_53::StringSearch::StringSearch(class icu_53::StringSearch const &)` | 277 | Exported Function
-`public: __thiscall icu_53::StringSearch::StringSearch(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::Locale const &,class icu_53::BreakIterator *,enum UErrorCode &)` | 278 | Exported Function
-`public: __thiscall icu_53::StringSearch::StringSearch(class icu_53::UnicodeString const &,class icu_53::CharacterIterator &,class icu_53::RuleBasedCollator *,class icu_53::BreakIterator *,enum UErrorCode &)` | 281 | Exported Function
-`public: __thiscall icu_53::StringSearch::StringSearch(class icu_53::UnicodeString const &,class icu_53::CharacterIterator &,class icu_53::Locale const &,class icu_53::BreakIterator *,enum UErrorCode &)` | 280 | Exported Function
-`public: __thiscall icu_53::TimeZoneNames::TimeZoneNames(void)` | 303 | Exported Function
-`public: __thiscall icu_53::TimeZoneNames::TimeZoneNames(class icu_53::TimeZoneNames const &)` | 302 | Exported Function
-`public: __thiscall icu_53::TimeZoneNames::MatchInfoCollection::MatchInfoCollection(void)` | 170 | Exported Function
-`public: __thiscall icu_53::TimeZoneTransition::TimeZoneTransition(class icu_53::TimeZoneTransition const &)` | 306 | Exported Function
-`public: __thiscall icu_53::UIterCollationIterator::UIterCollationIterator(class icu_53::UIterCollationIterator const &)` | 311 | Exported Function
-`public: __thiscall icu_53::TimeZoneTransition::TimeZoneTransition(void)` | 308 | Exported Function
-`public: __thiscall icu_53::TimeZoneTransition::TimeZoneTransition(double,class icu_53::TimeZoneRule const &,class icu_53::TimeZoneRule const &)` | 307 | Exported Function
-`public: __thiscall icu_53::TimeZoneNames::MatchInfoCollection::MatchInfoCollection(class icu_53::TimeZoneNames::MatchInfoCollection const &)` | 169 | Exported Function
-`public: __thiscall icu_53::TimeUnitFormat::TimeUnitFormat(class icu_53::Locale const &,enum UTimeUnitFormatStyle,enum UErrorCode &)` | 294 | Exported Function
-`public: __thiscall icu_53::TimeUnitFormat::TimeUnitFormat(class icu_53::Locale const &,enum UErrorCode &)` | 293 | Exported Function
-`public: __thiscall icu_53::TimeUnitAmount::TimeUnitAmount(double,enum icu_53::TimeUnit::UTimeUnitFields,enum UErrorCode &)` | 290 | Exported Function
-`public: __thiscall icu_53::TimeUnitFormat::TimeUnitFormat(class icu_53::TimeUnitFormat const &)` | 292 | Exported Function
-`public: __thiscall icu_53::TimeZoneGenericNames::TimeZoneGenericNames(class icu_53::TimeZoneGenericNames const &)` | 301 | Exported Function
-`public: __thiscall icu_53::TimeZoneFormat::TimeZoneFormat(class icu_53::TimeZoneFormat const &)` | 299 | Exported Function
-`public: __thiscall icu_53::TimeUnitFormat::TimeUnitFormat(enum UErrorCode &)` | 291 | Exported Function
-`public: __thiscall icu_53::SimpleTimeZone::SimpleTimeZone(int,class icu_53::UnicodeString const &)` | 271 | Exported Function
-`public: __thiscall icu_53::RuleBasedTimeZone::RuleBasedTimeZone(class icu_53::UnicodeString const &,class icu_53::InitialTimeZoneRule *)` | 247 | Exported Function
-`public: __thiscall icu_53::RuleBasedTimeZone::RuleBasedTimeZone(class icu_53::RuleBasedTimeZone const &)` | 246 | Exported Function
-`public: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(enum icu_53::URBNFRuleSetTag,class icu_53::Locale const &,enum UErrorCode &)` | 245 | Exported Function
-`public: __thiscall icu_53::ScriptSet::ScriptSet(class icu_53::ScriptSet const &)` | 248 | Exported Function
-`public: __thiscall icu_53::SearchIterator::SearchIterator(class icu_53::SearchIterator const &)` | 253 | Exported Function
-`public: __thiscall icu_53::ScriptSet::~ScriptSet(void)` | 401 | Exported Function
-`public: __thiscall icu_53::ScriptSet::ScriptSet(void)` | 249 | Exported Function
-`public: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 243 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(void)` | 238 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(unsigned char const *,int,class icu_53::RuleBasedCollator const *,enum UErrorCode &)` | 237 | Exported Function
-`public: __thiscall icu_53::RuleBasedCollator::RuleBasedCollator(class icu_53::UnicodeString const &,struct UParseError &,class icu_53::UnicodeString &,enum UErrorCode &)` | 232 | Exported Function
-`public: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(class icu_53::RuleBasedNumberFormat const &)` | 240 | Exported Function
-`public: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 241 | Exported Function
-`public: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::Locale const &,struct UParseError &,enum UErrorCode &)` | 242 | Exported Function
-`public: __thiscall icu_53::RuleBasedNumberFormat::RuleBasedNumberFormat(class icu_53::UnicodeString const &,class icu_53::Locale const &,struct UParseError &,enum UErrorCode &)` | 244 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 264 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 262 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::Locale const &,enum UErrorCode &)` | 263 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(enum UErrorCode &)` | 260 | Exported Function
-`public: __thiscall icu_53::SimpleTimeZone::SimpleTimeZone(class icu_53::SimpleTimeZone const &)` | 270 | Exported Function
-`public: __thiscall icu_53::SimpleNumberFormatFactory::SimpleNumberFormatFactory(class icu_53::SimpleNumberFormatFactory const &)` | 268 | Exported Function
-`public: __thiscall icu_53::SimpleNumberFormatFactory::SimpleNumberFormatFactory(class icu_53::Locale const &,signed char)` | 269 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::UnicodeString const &,class icu_53::Locale const &,enum UErrorCode &)` | 266 | Exported Function
-`public: __thiscall icu_53::SharedNumberFormat::SharedNumberFormat(class icu_53::NumberFormat *)` | 256 | Exported Function
-`public: __thiscall icu_53::SelectFormat::SelectFormat(class icu_53::UnicodeString const &,enum UErrorCode &)` | 255 | Exported Function
-`public: __thiscall icu_53::SelectFormat::SelectFormat(class icu_53::SelectFormat const &)` | 254 | Exported Function
-`public: __thiscall icu_53::SharedPluralRules::SharedPluralRules(class icu_53::PluralRules *)` | 257 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::UnicodeString const &,class icu_53::DateFormatSymbols const &,enum UErrorCode &)` | 265 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::UnicodeString const &,class icu_53::DateFormatSymbols *,enum UErrorCode &)` | 267 | Exported Function
-`public: __thiscall icu_53::SimpleDateFormat::SimpleDateFormat(class icu_53::SimpleDateFormat const &)` | 261 | Exported Function
-`public: class icu_53::CharString * __thiscall icu_53::Formattable::internalGetCharString(enum UErrorCode &)` | 2491 | Exported Function
-`public: class icu_53::CalendarAstronomer::MoonAge & __thiscall icu_53::CalendarAstronomer::MoonAge::operator=(class icu_53::CalendarAstronomer::MoonAge const &)` | 493 | Exported Function
-`public: class icu_53::CalendarAstronomer::Horizon & __thiscall icu_53::CalendarAstronomer::Horizon::operator=(class icu_53::CalendarAstronomer::Horizon const &)` | 481 | Exported Function
-`public: class icu_53::ChineseCalendar & __thiscall icu_53::ChineseCalendar::operator=(class icu_53::ChineseCalendar const &)` | 441 | Exported Function
-`public: class icu_53::CollationCompare & __thiscall icu_53::CollationCompare::operator=(class icu_53::CollationCompare const &)` | 444 | Exported Function
-`public: class icu_53::Collation & __thiscall icu_53::Collation::operator=(class icu_53::Collation const &)` | 443 | Exported Function
-`public: class icu_53::ChoiceFormat const & __thiscall icu_53::ChoiceFormat::operator=(class icu_53::ChoiceFormat const &)` | 442 | Exported Function
-`public: class icu_53::CalendarAstronomer::Horizon & __thiscall icu_53::CalendarAstronomer::eclipticToHorizon(class icu_53::CalendarAstronomer::Horizon &,double)` | 1402 | Exported Function
-`public: class icu_53::CalendarAstronomer::Equatorial & __thiscall icu_53::CalendarAstronomer::eclipticToEquatorial(class icu_53::CalendarAstronomer::Equatorial &,double)` | 1400 | Exported Function
-`public: class icu_53::CalendarAstronomer::Equatorial & __thiscall icu_53::CalendarAstronomer::eclipticToEquatorial(class icu_53::CalendarAstronomer::Equatorial &,class icu_53::CalendarAstronomer::Ecliptic const &)` | 1399 | Exported Function
-`public: class icu_53::CalendarAstronomer::Ecliptic & __thiscall icu_53::CalendarAstronomer::Ecliptic::operator=(class icu_53::CalendarAstronomer::Ecliptic const &)` | 473 | Exported Function
-`public: class icu_53::CalendarAstronomer::Equatorial & __thiscall icu_53::CalendarAstronomer::eclipticToEquatorial(class icu_53::CalendarAstronomer::Equatorial &,double,double)` | 1401 | Exported Function
-`public: class icu_53::CalendarAstronomer::Equatorial const & __thiscall icu_53::CalendarAstronomer::getMoonPosition(void)` | 2003 | Exported Function
-`public: class icu_53::CalendarAstronomer::Equatorial & __thiscall icu_53::CalendarAstronomer::getSunPosition(class icu_53::CalendarAstronomer::Equatorial &)` | 2244 | Exported Function
-`public: class icu_53::CalendarAstronomer::Equatorial & __thiscall icu_53::CalendarAstronomer::Equatorial::operator=(class icu_53::CalendarAstronomer::Equatorial const &)` | 474 | Exported Function
-`public: class icu_53::CollatorFactory & __thiscall icu_53::CollatorFactory::operator=(class icu_53::CollatorFactory const &)` | 457 | Exported Function
-`public: class icu_53::CollationWeights & __thiscall icu_53::CollationWeights::operator=(class icu_53::CollationWeights const &)` | 456 | Exported Function
-`public: class icu_53::CollationRuleParser::Sink & __thiscall icu_53::CollationRuleParser::Sink::operator=(class icu_53::CollationRuleParser::Sink const &)` | 515 | Exported Function
-`public: class icu_53::CompactDecimalFormat & __thiscall icu_53::CompactDecimalFormat::operator=(class icu_53::CompactDecimalFormat const &)` | 458 | Exported Function
-`public: class icu_53::CurrencyPluralInfo * __thiscall icu_53::CurrencyPluralInfo::clone(void)const ` | 1108 | Exported Function
-`public: class icu_53::CurrencyPluralInfo & __thiscall icu_53::CurrencyPluralInfo::operator=(class icu_53::CurrencyPluralInfo const &)` | 461 | Exported Function
-`public: class icu_53::CurrencyAmount & __thiscall icu_53::CurrencyAmount::operator=(class icu_53::CurrencyAmount const &)` | 460 | Exported Function
-`public: class icu_53::CollationRuleParser::Importer & __thiscall icu_53::CollationRuleParser::Importer::operator=(class icu_53::CollationRuleParser::Importer const &)` | 484 | Exported Function
-`public: class icu_53::CollationFCD & __thiscall icu_53::CollationFCD::operator=(class icu_53::CollationFCD const &)` | 448 | Exported Function
-`public: class icu_53::CollationFastLatin & __thiscall icu_53::CollationFastLatin::operator=(class icu_53::CollationFastLatin const &)` | 449 | Exported Function
-`public: class icu_53::CollationDataWriter & __thiscall icu_53::CollationDataWriter::operator=(class icu_53::CollationDataWriter const &)` | 446 | Exported Function
-`public: class icu_53::CollationKey const & __thiscall icu_53::CollationKey::operator=(class icu_53::CollationKey const &)` | 450 | Exported Function
-`public: class icu_53::CollationRootElements & __thiscall icu_53::CollationRootElements::operator=(class icu_53::CollationRootElements const &)` | 453 | Exported Function
-`public: class icu_53::CollationRoot & __thiscall icu_53::CollationRoot::operator=(class icu_53::CollationRoot const &)` | 452 | Exported Function
-`public: class icu_53::CollationKeys & __thiscall icu_53::CollationKeys::operator=(class icu_53::CollationKeys const &)` | 451 | Exported Function
-`public: class icu_53::CalendarAstronomer & __thiscall icu_53::CalendarAstronomer::operator=(class icu_53::CalendarAstronomer const &)` | 440 | Exported Function
-`public: char & __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::operator[](int)` | 628 | Exported Function
-`public: __thiscall icu_53::ZNStringPool::~ZNStringPool(void)` | 428 | Exported Function
-`public: __thiscall icu_53::ZNStringPool::ZNStringPool(enum UErrorCode &)` | 322 | Exported Function
-`public: char * __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::getArrayLimit(void)const ` | 1638 | Exported Function
-`public: char const * __thiscall icu_53::Calendar::getLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1960 | Exported Function
-`public: char __thiscall icu_53::DigitList::getDigit(int)` | 1774 | Exported Function
-`public: char * __thiscall icu_53::MaybeStackHeaderAndArray<struct decNumber,char,40>::getArrayStart(void)const ` | 1639 | Exported Function
-`public: __thiscall icu_53::VTimeZone::VTimeZone(class icu_53::VTimeZone const &)` | 321 | Exported Function
-`public: __thiscall icu_53::UnicodeReplacer::UnicodeReplacer(void)` | 319 | Exported Function
-`public: __thiscall icu_53::UnicodeReplacer::UnicodeReplacer(class icu_53::UnicodeReplacer const &)` | 318 | Exported Function
-`public: __thiscall icu_53::UIterCollationIterator::UIterCollationIterator(struct icu_53::CollationData const *,signed char,struct UCharIterator &)` | 312 | Exported Function
-`public: __thiscall icu_53::UTF16CollationIterator::UTF16CollationIterator(class icu_53::UTF16CollationIterator const &,wchar_t const *)` | 314 | Exported Function
-`public: __thiscall icu_53::UTF8CollationIterator::UTF8CollationIterator(struct icu_53::CollationData const *,signed char,unsigned char const *,int,int)` | 317 | Exported Function
-`public: __thiscall icu_53::UTF8CollationIterator::UTF8CollationIterator(class icu_53::UTF8CollationIterator const &)` | 316 | Exported Function
-`public: __thiscall icu_53::UTF16CollationIterator::UTF16CollationIterator(struct icu_53::CollationData const *,signed char,wchar_t const *,wchar_t const *,wchar_t const *)` | 315 | Exported Function
-`public: class icu_53::AlphabeticIndex::ImmutableIndex & __thiscall icu_53::AlphabeticIndex::ImmutableIndex::operator=(class icu_53::AlphabeticIndex::ImmutableIndex const &)` | 483 | Exported Function
-`public: class icu_53::AlphabeticIndex::Bucket const * __thiscall icu_53::AlphabeticIndex::ImmutableIndex::getBucket(int)const ` | 1674 | Exported Function
-`public: class icu_53::AlphabeticIndex::Bucket & __thiscall icu_53::AlphabeticIndex::Bucket::operator=(class icu_53::AlphabeticIndex::Bucket const &)` | 437 | Exported Function
-`public: class icu_53::AlphabeticIndex::ImmutableIndex * __thiscall icu_53::AlphabeticIndex::buildImmutableIndex(enum UErrorCode &)` | 1066 | Exported Function
-`public: class icu_53::BreakIterator const * __thiscall icu_53::SearchIterator::getBreakIterator(void)const ` | 1673 | Exported Function
-`public: class icu_53::BasicTimeZone & __thiscall icu_53::BasicTimeZone::operator=(class icu_53::BasicTimeZone const &)` | 436 | Exported Function
-`public: class icu_53::AnnualTimeZoneRule & __thiscall icu_53::AnnualTimeZoneRule::operator=(class icu_53::AnnualTimeZoneRule const &)` | 435 | Exported Function
-`public: char const * __thiscall icu_53::RuleBasedCollator::internalGetLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 2496 | Exported Function
-`public: char const * __thiscall icu_53::Format::getLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1961 | Exported Function
-`public: char const * __thiscall icu_53::CollationRuleParser::getErrorReason(void)const ` | 1850 | Exported Function
-`public: char const * __thiscall icu_53::CollationBuilder::getErrorReason(void)const ` | 1849 | Exported Function
-`public: char const * __thiscall icu_53::MeasureUnit::getSubtype(void)const ` | 2241 | Exported Function
-`public: char const * __thiscall icu_53::Region::getRegionCode(void)const ` | 2102 | Exported Function
-`public: char const * __thiscall icu_53::NumberingSystem::getName(void)const ` | 2008 | Exported Function
-`public: char const * __thiscall icu_53::MeasureUnit::getType(void)const ` | 2297 | Exported Function
+`TimeZoneTransition` | 725 | Exported Function
+`RuleBasedTimeZone` | 705 | Exported Function
+`RuleBasedNumberFormat` | 704 | Exported Function
+`RuleBasedCollator` | 703 | Exported Function
+`SearchIterator` | 706 | Exported Function
+`SharedPluralRules` | 709 | Exported Function
+`SharedNumberFormat` | 708 | Exported Function
+`SelectFormat` | 707 | Exported Function
+`RelativeDateTimeFormatter` | 702 | Exported Function
+`PluralSelectorAdapter` | 697 | Exported Function
+`PluralSelector` | 696 | Exported Function
+`PluralFormat` | 694 | Exported Function
+`PluralRules` | 695 | Exported Function
+`Region` | 701 | Exported Function
+`RegexPattern` | 700 | Exported Function
+`RegexMatcher` | 699 | Exported Function
+`TimeZoneFormat` | 721 | Exported Function
+`TimeZone` | 720 | Exported Function
+`TimeUnitFormat` | 719 | Exported Function
+`TimeZoneGenericNames` | 722 | Exported Function
+`TimeZoneRule` | 724 | Exported Function
+`MatchInfoCollection` | 684 | Exported Function
+`TimeZoneNames` | 723 | Exported Function
+`TimeUnitAmount` | 718 | Exported Function
+`SimpleTimeZone` | 712 | Exported Function
+`SimpleNumberFormatFactory` | 711 | Exported Function
+`SimpleDateFormat` | 710 | Exported Function
+`StringSearch` | 714 | Exported Function
+`TimeUnit` | 717 | Exported Function
+`TimeArrayTimeZoneRule` | 716 | Exported Function
+`TextTrieMap` | 715 | Exported Function
+`UnicodeString` | 2641 | Exported Function
+`UnicodeString` | 2640 | Exported Function
+`UnicodeString` | 3188 | Exported Function
+`UnicodeString` | 3174 | Exported Function
+`UnicodeString` | 3181 | Exported Function
+`UnicodeString` | 3179 | Exported Function
+`UnicodeString` | 3177 | Exported Function
+`getMaxExpansion` | 1974 | Exported Function
+`nextIndexFromNode` | 2688 | Exported Function
+`indexFromTempCE32` | 2416 | Exported Function
+`indexFromTempCE` | 2417 | Exported Function
+`previousIndexFromNode` | 2808 | Exported Function
+`CollationSettings` | 3286 | Exported Function
+`strengthFromTempCE` | 3195 | Exported Function
+`strengthFromNode` | 3194 | Exported Function
+`fgCalendarFieldToLevel` | 1432 | Exported Function
+`CHINESE_DATE_PRECEDENCE` | 757 | Exported Function
+`OffsetFields` | 2740 | Exported Function
+`fgPatternCharToLevel` | 1435 | Exported Function
+`IS_TAILORED` | 788 | Exported Function
+`HAS_BEFORE3` | 784 | Exported Function
+`HAS_BEFORE2` | 783 | Exported Function
+`OffsetFields` | 2735 | Exported Function
+`startOfYear` | 3193 | Exported Function
+`monthsInYear` | 2665 | Exported Function
+`absoluteDayToDayOfWeek` | 933 | Exported Function
+`UnicodeString` | 1450 | Exported Function
+`EMode` | 1165 | Exported Function
+`UnicodeString` | 1466 | Exported Function
+`PluralSelector` | 1465 | Exported Function
+`countTailoredNodes` | 1227 | Exported Function
+`UnicodeString` | 3255 | Exported Function
+`UnicodeString` | 1580 | Exported Function
+`UnicodeString` | 1429 | Exported Function
+`UnicodeString` | 3259 | Exported Function
+`OffsetFields` | 2770 | Exported Function
+`UnicodeString` | 2910 | Exported Function
+`UnicodeString` | 1566 | Exported Function
+`UnicodeString` | 1742 | Exported Function
+`DateTimePatternGenerator` | 1331 | Exported Function
+`Locale` | 2634 | Exported Function
+`create` | 1234 | Exported Function
+`UnicodeString` | 1252 | Exported Function
+`UnicodeString` | 1565 | Exported Function
+`UnicodeString` | 3253 | Exported Function
+`UnicodeString` | 1395 | Exported Function
+`fgPatternIndexToDateFormatField` | 1437 | Exported Function
+`getPatternCharIndex` | 2067 | Exported Function
+`UnicodeString` | 2061 | Exported Function
+`getTimeType` | 2270 | Exported Function
+`ceStrength` | 1077 | Exported Function
+`UnicodeString` | 2647 | Exported Function
+`MessagePattern` | 1464 | Exported Function
+`fgPatternIndexToCalendarField` | 1436 | Exported Function
+`computeJulianDayOfYear` | 1185 | Exported Function
+`ParsePosition` | 2739 | Exported Function
+`UnicodeString` | 1315 | Exported Function
+`julianDayToMillis` | 2597 | Exported Function
+`calendarFieldToIntervalIndex` | 1071 | Exported Function
+`moonAge` | 2666 | Exported Function
+`millisToJulianDay` | 2661 | Exported Function
+`lcccIndex` | 2609 | Exported Function
+`CollationData` | 1186 | Exported Function
+`STATICMONTHLENGTH` | 876 | Exported Function
+`tcccIndex` | 3216 | Exported Function
+`getCases` | 1713 | Exported Function
+`weight32FromNode` | 3284 | Exported Function
+`weight16FromNode` | 3283 | Exported Function
+`initializeRegistry` | 2472 | Exported Function
+`UnicodeString` | 2516 | Exported Function
+`UnicodeString` | 2512 | Exported Function
+`UnicodeString` | 2584 | Exported Function
+`isNumeric` | 2563 | Exported Function
+`UnicodeString` | 3221 | Exported Function
+`UnicodeString` | 2744 | Exported Function
+`UnicodeString` | 2644 | Exported Function
+`tcccBits` | 3215 | Exported Function
+`lcccBits` | 2608 | Exported Function
+`nextPair` | 2689 | Exported Function
+`BEFORE_WEIGHT16` | 739 | Exported Function
+`CASE_LOWER_FIRST_COMMON_LOW` | 748 | Exported Function
+`CASE_LOWER_FIRST_COMMON_HIGH` | 747 | Exported Function
+`CONTRACTION_FLAG` | 768 | Exported Function
+`lookupUTF8Unsafe` | 2624 | Exported Function
+`getSecondaries` | 2130 | Exported Function
+`getQuaternaries` | 2088 | Exported Function
+`getPrimaries` | 2083 | Exported Function
+`getSecondariesFromOneShortCE` | 2131 | Exported Function
+`lookupUTF8` | 2623 | Exported Function
+`lookup` | 2622 | Exported Function
+`getTertiaries` | 2256 | Exported Function
+`isStyleSupported` | 2574 | Exported Function
+`STRENGTH_MASK` | 877 | Exported Function
+`STARRED_FLAG` | 875 | Exported Function
+`OFFSET_SHIFT` | 838 | Exported Function
+`isTailoredNode` | 2576 | Exported Function
+`nodeHasAnyBefore` | 2703 | Exported Function
+`isTempCE32` | 2577 | Exported Function
+`isTempCE` | 2578 | Exported Function
+`TER_UPPER_FIRST_COMMON_MAX_COUNT` | 897 | Exported Function
+`CASE_UPPER_FIRST_COMMON_MAX_COUNT` | 755 | Exported Function
+`CASE_LOWER_FIRST_COMMON_MAX_COUNT` | 749 | Exported Function
+`MAX_INDEX` | 805 | Exported Function
+`QUAT_COMMON_MAX_COUNT` | 856 | Exported Function
+`TER_ONLY_COMMON_MAX_COUNT` | 893 | Exported Function
+`TER_LOWER_FIRST_COMMON_MAX_COUNT` | 888 | Exported Function
+`SEC_COMMON_MAX_COUNT` | 866 | Exported Function
+`stringNumeric` | 3197 | Exported Function
+`UnicodeString` | 1440 | Exported Function
+`isNumericPatternChar` | 2565 | Exported Function
+`UnicodeSet` | 2642 | Exported Function
+`civilLeapYear` | 1086 | Exported Function
+`UnicodeSet` | 2648 | Exported Function
+`UnicodeSet` | 2643 | Exported Function
+`isNumericField` | 2564 | Exported Function
+`sameCEs` | 2900 | Exported Function
+`nodeHasBefore3` | 2705 | Exported Function
+`nodeHasBefore2` | 2704 | Exported Function
+`isContractionCharCE` | 2531 | Exported Function
+`UnicodeString` | 1046 | Exported Function
+`isSyntaxChar` | 2575 | Exported Function
+`isEndOfPrimaryRange` | 2535 | Exported Function
+`UnicodeString` | 2736 | Exported Function
+`MessageFormat` | 3200 | Exported Function
+`UnicodeString` | 3180 | Exported Function
+`UnicodeString` | 2745 | Exported Function
+`UVector` | 2764 | Exported Function
+`UnicodeString` | 2763 | Exported Function
+`UnicodeString` | 2761 | Exported Function
+`UnicodeString` | 3178 | Exported Function
+`getLocalDelta` | 1948 | Exported Function
+`zoneOffsetAt` | 3315 | Exported Function
+`rawOffsetAt` | 2819 | Exported Function
+`UnicodeString` | 1083 | Exported Function
+`Calendar` | 2646 | Exported Function
+`Calendar` | 2645 | Exported Function
+`UnicodeString` | 1162 | Exported Function
+`UnicodeString` | 2544 | Exported Function
+`UnicodeString` | 2400 | Exported Function
+`UnicodeString` | 2399 | Exported Function
+`UnicodeString` | 2659 | Exported Function
+`encodeContractions` | 1407 | Exported Function
+`encodeCharCEs` | 1406 | Exported Function
+`normalizeDir` | 2709 | Exported Function
+`getImmediatePreviousZoneTransition` | 1909 | Exported Function
+`ParsePosition` | 2767 | Exported Function
+`ParsePosition` | 2765 | Exported Function
+`UnicodeString` | 2762 | Exported Function
+`UnicodeString` | 2769 | Exported Function
+`addChineseIndexCharacters` | 950 | Exported Function
+`transitionCount` | 3243 | Exported Function
+`UnicodeString` | 2780 | Exported Function
+`initialRawOffset` | 2461 | Exported Function
+`skipWhiteSpace` | 3182 | Exported Function
+`skipComment` | 3175 | Exported Function
+`UnicodeString` | 2825 | Exported Function
+`countBytes` | 1222 | Exported Function
+`UnicodeString` | 1159 | Exported Function
+`FieldPositionHandler` | 1015 | Exported Function
+`getTopBitNumber` | 2289 | Exported Function
+`UnicodeSet` | 2786 | Exported Function
+`parseRelationOperator` | 2772 | Exported Function
+`findP` | 1458 | Exported Function
+`getLength` | 1942 | Exported Function
+`parseResetAndPosition` | 2775 | Exported Function
+`UnicodeString` | 2785 | Exported Function
+`UnicodeString` | 2784 | Exported Function
+`UnicodeString` | 2782 | Exported Function
+`UnicodeString` | 1448 | Exported Function
+`getOffset` | 2037 | Exported Function
+`yearStart` | 3311 | Exported Function
+`findOtherSubMessage` | 1457 | Exported Function
+`initialDstOffset` | 2460 | Exported Function
+`dstOffsetAt` | 1394 | Exported Function
+`nextTopLevelArgStart` | 2696 | Exported Function
+`trueMonthStart` | 3254 | Exported Function
+`precision` | 2795 | Exported Function
+`UnicodeString` | 1161 | Exported Function
+`UnicodeString` | 1160 | Exported Function
+`UnicodeString` | 3176 | Exported Function
+`monthStart` | 2664 | Exported Function
+`yearType` | 3312 | Exported Function
+`aggregateStamp` | 1007 | Exported Function
+`TimeZoneRule` | 1452 | Exported Function
+`isUnsafe` | 2581 | Exported Function
+`initMaxExpansions` | 2452 | Exported Function
+`TimeZoneRule` | 1459 | Exported Function
+`changeNodeNextIndex` | 1079 | Exported Function
+`initStartTimes` | 2455 | Exported Function
+`growNodes` | 2323 | Exported Function
+`attributeHasBeenSetExplicitly` | 1048 | Exported Function
+`findUsingChunk` | 1468 | Exported Function
+`UnicodeString` | 1045 | Exported Function
+`allocateArgTypes` | 1013 | Exported Function
+`isChunkWordBoundary` | 2523 | Exported Function
+`ReportFindProgress` | 859 | Exported Function
+`isWordBoundary` | 2591 | Exported Function
+`isUWordBoundary` | 2580 | Exported Function
+`UnicodeString` | 1233 | Exported Function
+`Locale` | 1232 | Exported Function
+`Locale` | 2633 | Exported Function
+`getMaleTaintsInstance` | 1968 | Exported Function
+`Locale` | 2617 | Exported Function
+`getNeutralInstance` | 2014 | Exported Function
+`getMixedNeutralInstance` | 1998 | Exported Function
+`UTimeUnitFields` | 2274 | Exported Function
+`nodeFromPreviousIndex` | 2699 | Exported Function
+`nodeFromNextIndex` | 2698 | Exported Function
+`changeNodePreviousIndex` | 1080 | Exported Function
+`nodeFromStrength` | 2700 | Exported Function
+`tempCEFromIndexAndStrength` | 3217 | Exported Function
+`nodeFromWeight32` | 2702 | Exported Function
+`nodeFromWeight16` | 2701 | Exported Function
+`ScriptSet` | 1202 | Exported Function
+`UnicodeString` | 3118 | Exported Function
+`UnicodeString` | 3030 | Exported Function
+`CompactDecimalFormat` | 1421 | Exported Function
+`UnicodeString` | 2517 | Exported Function
+`isGroupingPosition` | 2547 | Exported Function
+`equalWithSignCompatibility` | 1423 | Exported Function
+`UnicodeString` | 2522 | Exported Function
+`getWeightRanges` | 2311 | Exported Function
+`CollationData` | 1699 | Exported Function
+`CollationData` | 1698 | Exported Function
+`encodeUniqueCEs` | 1413 | Exported Function
+`inSameGroup` | 2410 | Exported Function
+`allocWeightsInShortRanges` | 1012 | Exported Function
+`allocWeightsInMinLengthRanges` | 1011 | Exported Function
+`CollationData` | 2616 | Exported Function
+`UnicodeString` | 2708 | Exported Function
+`nextSegment` | 2693 | Exported Function
+`nextHasLccc` | 2687 | Exported Function
+`previousHasTccc` | 2807 | Exported Function
+`validateFields` | 3278 | Exported Function
+`boundsCheck` | 1060 | Exported Function
+`previousSegment` | 2811 | Exported Function
+`previousSegment` | 2810 | Exported Function
+`nextSegment` | 2691 | Exported Function
+`DigitList` | 3202 | Exported Function
+`DigitList` | 2747 | Exported Function
+`UnicodeString` | 2706 | Exported Function
+`normalize` | 2707 | Exported Function
+`nextSegment` | 2692 | Exported Function
+`previousSegment` | 2809 | Exported Function
+`UnicodeString` | 1694 | Exported Function
+`UnicodeString` | 1695 | Exported Function
+`getGroupForPrimary` | 1899 | Exported Function
+`getMaxExpansion` | 1975 | Exported Function
+`previous` | 2797 | Exported Function
+`next` | 2672 | Exported Function
+`getOffset` | 2033 | Exported Function
+`getEquivalentScripts` | 1846 | Exported Function
+`UnicodeString` | 1679 | Exported Function
+`getBucketCount` | 1676 | Exported Function
+`getNameTypeAt` | 2010 | Exported Function
+`getEndYear` | 1842 | Exported Function
+`EDateFields` | 1614 | Exported Function
+`get` | 1606 | Exported Function
+`getStartYear` | 2156 | Exported Function
+`getRuleDayOfWeek` | 2114 | Exported Function
+`getRuleDayOfMonth` | 2113 | Exported Function
+`getUCAVersion` | 2299 | Exported Function
+`getRuleMillisInDay` | 2116 | Exported Function
+`getGroupingSize` | 1900 | Exported Function
+`getRuleWeekInMonth` | 2122 | Exported Function
+`getRuleMonth` | 2117 | Exported Function
+`hashCode` | 2390 | Exported Function
+`fetchCEs` | 1431 | Exported Function
+`lengthOfTable` | 2611 | Exported Function
+`strengthOrder` | 3196 | Exported Function
+`getCEsLength` | 1700 | Exported Function
+`getStrength` | 2232 | Exported Function
+`findPrimary` | 1460 | Exported Function
+`hashCode` | 2389 | Exported Function
+`getAttribute` | 1642 | Exported Function
+`CollationKey` | 1163 | Exported Function
+`getMaxVariable` | 1978 | Exported Function
+`getFirstDayOfWeek` | 1863 | Exported Function
+`getDateRuleType` | 1754 | Exported Function
+`getType` | 2293 | Exported Function
+`getTimeType` | 2269 | Exported Function
+`getTimeRuleType` | 2268 | Exported Function
+`getTime` | 2265 | Exported Function
+`getDouble` | 1789 | Exported Function
+`getDate` | 1750 | Exported Function
+`getDate` | 1749 | Exported Function
+`getDouble` | 1790 | Exported Function
+`get2DigitYearStart` | 1603 | Exported Function
+`UnicodeString` | 2302 | Exported Function
+`getGregorianChange` | 1894 | Exported Function
+`UnicodeString` | 962 | Exported Function
+`CollationKey` | 1164 | Exported Function
+`getFlag` | 1876 | Exported Function
+`getListGender` | 1945 | Exported Function
+`getRestrictionLevel` | 2108 | Exported Function
+`getType` | 2298 | Exported Function
+`getApostropheMode` | 1626 | Exported Function
+`getCaseFirst` | 1712 | Exported Function
+`getLabelType` | 1933 | Exported Function
+`getTimeUnitField` | 2273 | Exported Function
+`getTimeUnitField` | 2272 | Exported Function
+`getFirstDayOfWeek` | 1864 | Exported Function
+`getAlternateHandling` | 1623 | Exported Function
+`getSkippedWallTimeOption` | 2147 | Exported Function
+`getRepeatedWallTimeOption` | 2107 | Exported Function
+`getMatchedLength` | 1971 | Exported Function
+`following` | 1478 | Exported Function
+`first` | 1470 | Exported Function
+`getMatchedStart` | 1972 | Exported Function
+`preceding` | 2794 | Exported Function
+`next` | 2675 | Exported Function
+`last` | 2604 | Exported Function
+`nextSetBit` | 2694 | Exported Function
+`getNumericCode` | 2030 | Exported Function
+`UnicodeString` | 2127 | Exported Function
+`UnicodeString` | 1622 | Exported Function
+`cloneBinary` | 1146 | Exported Function
+`hashCode` | 2392 | Exported Function
+`countMembers` | 1225 | Exported Function
+`getMaxExpansion` | 1976 | Exported Function
+`getRawOffset` | 2093 | Exported Function
+`getDSTSavings` | 1746 | Exported Function
+`size` | 3173 | Exported Function
+`countElements` | 1223 | Exported Function
+`Calendar` | 1006 | Exported Function
+`getStartInYear` | 2154 | Exported Function
+`getMaximumContextLength` | 1983 | Exported Function
+`getMatchLengthAt` | 1970 | Exported Function
+`countStartTimes` | 1226 | Exported Function
+`isEmpty` | 2534 | Exported Function
+`previous` | 2798 | Exported Function
+`ParsePosition` | 2766 | Exported Function
+`UnicodeString` | 1446 | Exported Function
+`ParsePosition` | 2771 | Exported Function
+`ParsePosition` | 2768 | Exported Function
+`getRadix` | 2089 | Exported Function
+`get` | 1604 | Exported Function
+`contains` | 1198 | Exported Function
+`getLong` | 1963 | Exported Function
+`contains` | 1199 | Exported Function
+`getEndIndex` | 1841 | Exported Function
+`getBeginIndex` | 1664 | Exported Function
+`get` | 1605 | Exported Function
+`getDecimalAt` | 1760 | Exported Function
+`getMultiplier` | 2007 | Exported Function
+`getMinimumSignificantDigits` | 1997 | Exported Function
+`getMaximumSignificantDigits` | 1986 | Exported Function
+`getSecondaryGroupingSize` | 2135 | Exported Function
+`getCount` | 1735 | Exported Function
+`digits` | 1382 | Exported Function
+`DigitList` | 1154 | Exported Function
+`getArgTypeCount` | 1634 | Exported Function
+`getIndex` | 1910 | Exported Function
+`getCapacity` | 1710 | Exported Function
+`getMaximumFractionDigits` | 1984 | Exported Function
+`getMinimumIntegerDigits` | 1996 | Exported Function
+`getMinimumFractionDigits` | 1995 | Exported Function
+`getMaximumIntegerDigits` | 1985 | Exported Function
+`getScriptCount` | 2128 | Exported Function
+`getLong` | 1964 | Exported Function
+`getVisibleFractionDigitCount` | 2307 | Exported Function
+`getField` | 1854 | Exported Function
+`getLong` | 1965 | Exported Function
+`EDateFields` | 1617 | Exported Function
+`EDateFields` | 1616 | Exported Function
+`getLong` | 1966 | Exported Function
+`UnicodeString` | 1782 | Exported Function
+`UnicodeString` | 1783 | Exported Function
+`UnicodeString` | 1780 | Exported Function
+`UnicodeString` | 1902 | Exported Function
+`UnicodeString` | 1578 | Exported Function
+`UnicodeString` | 1576 | Exported Function
+`UnicodeString` | 1575 | Exported Function
+`UnicodeString` | 1781 | Exported Function
+`UnicodeString` | 1550 | Exported Function
+`UnicodeString` | 1149 | Exported Function
+`FieldPosition` | 1549 | Exported Function
+`UnicodeString` | 1551 | Exported Function
+`UnicodeString` | 3230 | Exported Function
+`FieldPosition` | 1558 | Exported Function
+`UnicodeString` | 1385 | Exported Function
+`toString` | 3236 | Exported Function
+`toString` | 3235 | Exported Function
+`toString` | 3234 | Exported Function
+`UnicodeString` | 1661 | Exported Function
+`UnicodeString` | 2145 | Exported Function
+`UnicodeString` | 1666 | Exported Function
+`UnicodeString` | 1667 | Exported Function
+`UnicodeString` | 2009 | Exported Function
+`UnicodeString` | 1887 | Exported Function
+`UnicodeString` | 1886 | Exported Function
+`UnicodeString` | 1579 | Exported Function
+`UnicodeString` | 1888 | Exported Function
+`UnicodeString` | 1890 | Exported Function
+`UnicodeString` | 1784 | Exported Function
+`UnicodeString` | 1889 | Exported Function
+`UnicodeString` | 3229 | Exported Function
+`FieldPosition` | 1502 | Exported Function
+`FieldPosition` | 1501 | Exported Function
+`UnicodeString` | 1949 | Exported Function
+`UnicodeString` | 1853 | Exported Function
+`UnicodeString` | 2013 | Exported Function
+`UnicodeString` | 2012 | Exported Function
+`UnicodeString` | 1922 | Exported Function
+`FieldPositionIterator` | 1497 | Exported Function
+`getIdentifierProfile` | 1908 | Exported Function
+`UnicodeSet` | 2151 | Exported Function
+`UnicodeReplacer` | 529 | Exported Function
+`getNumerics` | 2031 | Exported Function
+`FieldPosition` | 1496 | Exported Function
+`UnicodeString` | 1495 | Exported Function
+`UnicodeString` | 1740 | Exported Function
+`UnicodeString` | 1530 | Exported Function
+`UnicodeString` | 1524 | Exported Function
+`FieldPosition` | 1525 | Exported Function
+`UnicodeString` | 1529 | Exported Function
+`FieldPosition` | 1546 | Exported Function
+`FieldPosition` | 1547 | Exported Function
+`UnicodeString` | 1528 | Exported Function
+`FieldPosition` | 1570 | Exported Function
+`UnicodeString` | 1519 | Exported Function
+`UnicodeString` | 2074 | Exported Function
+`UnicodeString` | 2073 | Exported Function
+`UnicodeString` | 2237 | Exported Function
+`getString` | 2236 | Exported Function
+`getString` | 2235 | Exported Function
+`UnicodeString` | 2238 | Exported Function
+`getTime` | 2263 | Exported Function
+`ZoneMeta` | 532 | Exported Function
+`ZNStringPool` | 531 | Exported Function
+`getGreenwichSidereal` | 1893 | Exported Function
+`getLocalSidereal` | 1950 | Exported Function
+`getJulianDay` | 1925 | Exported Function
+`getJulianCentury` | 1924 | Exported Function
+`VTimeZone` | 530 | Exported Function
+`getShortWeekdays` | 2141 | Exported Function
+`getShortMonths` | 2140 | Exported Function
+`DtWidthType` | 2087 | Exported Function
+`getWeekdays` | 2308 | Exported Function
+`getObject` | 2032 | Exported Function
+`getIdentifier` | 1907 | Exported Function
+`DtWidthType` | 2309 | Exported Function
+`CoordFunc` | 2884 | Exported Function
+`lstToUT` | 2625 | Exported Function
+`getTime` | 2264 | Exported Function
+`AngleFunc` | 3220 | Exported Function
+`tokenType` | 1607 | Exported Function
+`getDouble` | 1788 | Exported Function
+`ParsePosition` | 2722 | Exported Function
+`getSunTime` | 2246 | Exported Function
+`getMoonRiseSet` | 2004 | Exported Function
+`getMoonPhase` | 2002 | Exported Function
+`getMoonAge` | 2001 | Exported Function
+`MoonAge` | 2005 | Exported Function
+`getSunRiseSet` | 2245 | Exported Function
+`getSunLongitude` | 2242 | Exported Function
+`getMoonTime` | 2006 | Exported Function
+`getNarrowEras` | 2011 | Exported Function
+`getLabel` | 1932 | Exported Function
+`select` | 2906 | Exported Function
+`select` | 2907 | Exported Function
+`getAppendItemFormat` | 1628 | Exported Function
+`getDecimal` | 1758 | Exported Function
+`getDateTimeFormat` | 1755 | Exported Function
+`getAppendItemName` | 1629 | Exported Function
+`FixedDecimal` | 2905 | Exported Function
+`ENumberFormatSymbol` | 2248 | Exported Function
+`UnicodeString` | 2849 | Exported Function
+`UnicodeString` | 2850 | Exported Function
+`format` | 1545 | Exported Function
+`getRules` | 2123 | Exported Function
+`getKeywordOther` | 1926 | Exported Function
+`format` | 1544 | Exported Function
+`getEraNames` | 1847 | Exported Function
+`getAmPmStrings` | 1625 | Exported Function
+`getZoneStrings` | 2314 | Exported Function
+`getEras` | 1848 | Exported Function
+`DtWidthType` | 2000 | Exported Function
+`getMonths` | 1999 | Exported Function
+`getLeapMonthPatterns` | 1939 | Exported Function
+`getPattern` | 2066 | Exported Function
+`getPatternForCurrencySpacing` | 2068 | Exported Function
+`ENumberFormatSymbol` | 1727 | Exported Function
+`UnicodeString` | 2069 | Exported Function
+`getString` | 2239 | Exported Function
+`getText` | 2261 | Exported Function
+`getRules` | 2124 | Exported Function
+`getString` | 2240 | Exported Function
+`createCubicMile` | 1247 | Exported Function
+`createCubicKilometer` | 1246 | Exported Function
+`createCentimeter` | 1243 | Exported Function
+`createDay` | 1256 | Exported Function
+`createFoot` | 1265 | Exported Function
+`createFahrenheit` | 1264 | Exported Function
+`createDegree` | 1259 | Exported Function
+`createCelsius` | 1242 | Exported Function
+`Locale` | 1249 | Exported Function
+`Locale` | 1292 | Exported Function
+`Locale` | 1293 | Exported Function
+`createCurrencyFormat` | 1248 | Exported Function
+`createArcSecond` | 1239 | Exported Function
+`createArcMinute` | 1238 | Exported Function
+`createAcre` | 1236 | Exported Function
+`createKilometerPerHour` | 1311 | Exported Function
+`createKilometer` | 1310 | Exported Function
+`createKilogram` | 1309 | Exported Function
+`createKilowatt` | 1312 | Exported Function
+`createMeter` | 1316 | Exported Function
+`createLiter` | 1314 | Exported Function
+`createLightYear` | 1313 | Exported Function
+`createInchHg` | 1274 | Exported Function
+`createHectare` | 1269 | Exported Function
+`createGram` | 1268 | Exported Function
+`createGForce` | 1267 | Exported Function
+`createHectopascal` | 1270 | Exported Function
+`createInch` | 1273 | Exported Function
+`createHour` | 1272 | Exported Function
+`createHorsepower` | 1271 | Exported Function
+`Locale` | 1291 | Exported Function
+`Locale` | 1254 | Exported Function
+`Locale` | 1283 | Exported Function
+`fromUCollator` | 1598 | Exported Function
+`Locale` | 1255 | Exported Function
+`DateIntervalInfo` | 1286 | Exported Function
+`Locale` | 1341 | Exported Function
+`createInstance` | 1284 | Exported Function
+`fromUCollator` | 1597 | Exported Function
+`NEW_MOON` | 830 | Exported Function
+`FULL_MOON` | 781 | Exported Function
+`createInstance` | 1275 | Exported Function
+`fromUCollationElements` | 1595 | Exported Function
+`createInstance` | 1281 | Exported Function
+`Locale` | 1282 | Exported Function
+`fromUCollationElements` | 1596 | Exported Function
+`Locale` | 1884 | Exported Function
+`Locale` | 1915 | Exported Function
+`fromUFormattable` | 1600 | Exported Function
+`getAvailableLocales` | 1648 | Exported Function
+`getAvailableLocales` | 1653 | Exported Function
+`getAvailableLocales` | 1651 | Exported Function
+`getAvailableLocales` | 1650 | Exported Function
+`fromUFormattable` | 1599 | Exported Function
+`UnicodeString` | 1285 | Exported Function
+`Locale` | 1287 | Exported Function
+`DateIntervalInfo` | 1288 | Exported Function
+`createEmptyInstance` | 1260 | Exported Function
+`createWithLastResortData` | 1350 | Exported Function
+`createInstance` | 1289 | Exported Function
+`Locale` | 1290 | Exported Function
+`UnicodeString` | 1172 | Exported Function
+`UnicodeString` | 1173 | Exported Function
+`UnicodeString` | 1171 | Exported Function
+`compile` | 1174 | Exported Function
+`getInstance` | 1917 | Exported Function
+`compile` | 1175 | Exported Function
+`compile` | 1176 | Exported Function
+`Locale` | 2486 | Exported Function
+`createInstanceByName` | 1306 | Exported Function
+`UnicodeString` | 1299 | Exported Function
+`createInstance` | 1297 | Exported Function
+`createDefaultRules` | 1258 | Exported Function
+`Locale` | 1481 | Exported Function
+`Locale` | 1480 | Exported Function
+`UnicodeString` | 1330 | Exported Function
+`getAvailableTypes` | 1659 | Exported Function
+`Locale` | 1929 | Exported Function
+`getKeywordValues` | 1927 | Exported Function
+`getAvailableLocales` | 1652 | Exported Function
+`getAvailable` | 1645 | Exported Function
+`getAvailableLocales` | 1654 | Exported Function
+`getAvailableNames` | 1656 | Exported Function
+`getKeywords` | 1930 | Exported Function
+`rbcFromUCollator` | 2821 | Exported Function
+`rbcFromUCollator` | 2820 | Exported Function
+`getInstance` | 1916 | Exported Function
+`Locale` | 1335 | Exported Function
+`getAvailableLocales` | 1649 | Exported Function
+`Locale` | 1928 | Exported Function
+`Locale` | 1336 | Exported Function
+`Locale` | 1298 | Exported Function
+`createPound` | 1329 | Exported Function
+`createPicometer` | 1328 | Exported Function
+`createOunce` | 1325 | Exported Function
+`createSecond` | 1334 | Exported Function
+`createSquareMeter` | 1339 | Exported Function
+`createSquareKilometer` | 1338 | Exported Function
+`createSquareFoot` | 1337 | Exported Function
+`createMonth` | 1324 | Exported Function
+`createMilePerHour` | 1319 | Exported Function
+`createMile` | 1318 | Exported Function
+`createMeterPerSecond` | 1317 | Exported Function
+`createMillibar` | 1320 | Exported Function
+`createMinute` | 1323 | Exported Function
+`createMillisecond` | 1322 | Exported Function
+`createMillimeter` | 1321 | Exported Function
+`Locale` | 1327 | Exported Function
+`createInstance` | 1294 | Exported Function
+`Locale` | 1296 | Exported Function
+`createPercentInstance` | 1326 | Exported Function
+`Locale` | 2485 | Exported Function
+`createScientificInstance` | 1332 | Exported Function
+`Locale` | 1333 | Exported Function
+`Locale` | 1295 | Exported Function
+`createWeek` | 1349 | Exported Function
+`createWatt` | 1348 | Exported Function
+`createSquareMile` | 1340 | Exported Function
+`createYard` | 1351 | Exported Function
+`createCurrencyInstance` | 1250 | Exported Function
+`Locale` | 1251 | Exported Function
+`createYear` | 1352 | Exported Function
+`DateTimeRule` | 603 | Exported Function
+`DateTimePatternGenerator` | 549 | Exported Function
+`DateTimePatternGenerator` | 602 | Exported Function
+`DateTimeRule` | 550 | Exported Function
+`DecimalFormatSymbols` | 604 | Exported Function
+`isDecimalSeparatorAlwaysShown` | 2532 | Exported Function
+`areSignificantDigitsUsed` | 1044 | Exported Function
+`DateIntervalInfo` | 601 | Exported Function
+`CurrencyPluralInfo` | 544 | Exported Function
+`CurrencyPluralInfo` | 598 | Exported Function
+`UnicodeString` | 2316 | Exported Function
+`DateFormatSymbols` | 599 | Exported Function
+`getDefaultOrder` | 1768 | Exported Function
+`Format` | 600 | Exported Function
+`DateFormatSymbols` | 546 | Exported Function
+`isValidValue` | 2587 | Exported Function
+`isValidEnum` | 2585 | Exported Function
+`DigitList` | 553 | Exported Function
+`isValidEnum` | 2586 | Exported Function
+`FieldPosition` | 556 | Exported Function
+`FieldPosition` | 606 | Exported Function
+`isValidValue` | 2588 | Exported Function
+`DigitList` | 605 | Exported Function
+`fitsIntoLong` | 1474 | Exported Function
+`fitsIntoInt64` | 1473 | Exported Function
+`DecimalFormatSymbols` | 552 | Exported Function
+`isInfinite` | 2550 | Exported Function
+`isZero` | 2592 | Exported Function
+`isPositive` | 2567 | Exported Function
+`isNaN` | 2560 | Exported Function
+`UnicodeString` | 2315 | Exported Function
+`isAssigned` | 2514 | Exported Function
+`hasMappings` | 2380 | Exported Function
+`isUnsafeBackward` | 2582 | Exported Function
+`isCompressiblePrimary` | 2529 | Exported Function
+`CollationElementIterator` | 538 | Exported Function
+`CollationElementIterator` | 593 | Exported Function
+`maybeSetPrimaryRange` | 2657 | Exported Function
+`isDigit` | 2533 | Exported Function
+`isLenient` | 2555 | Exported Function
+`Calendar` | 1424 | Exported Function
+`Calendar` | 1057 | Exported Function
+`isSet` | 2571 | Exported Function
+`isCompressiblePrimary` | 2528 | Exported Function
+`isCompressibleLeadByte` | 2526 | Exported Function
+`Calendar` | 592 | Exported Function
+`setReordering` | 3111 | Exported Function
+`CollationSettings` | 541 | Exported Function
+`CollationSettings` | 596 | Exported Function
+`ensureOwnedData` | 1420 | Exported Function
+`UnicodeString` | 1425 | Exported Function
+`allocWeights` | 1010 | Exported Function
+`isBogus` | 2519 | Exported Function
+`isNumeric` | 2561 | Exported Function
+`isBogus` | 2518 | Exported Function
+`CollationIterator` | 594 | Exported Function
+`CollationData` | 1479 | Exported Function
+`CollationKey` | 595 | Exported Function
+`hasBackwardSecondary` | 2376 | Exported Function
+`dontCheckFCD` | 1393 | Exported Function
+`CollationKey` | 540 | Exported Function
+`UnicodeString` | 2250 | Exported Function
+`getLastModified` | 1935 | Exported Function
+`TimeZoneTransition` | 586 | Exported Function
+`ceFromCE32` | 1073 | Exported Function
+`ceFromSimpleCE32` | 1076 | Exported Function
+`ceFromLongSecondaryCE32` | 1075 | Exported Function
+`ceFromLongPrimaryCE32` | 1074 | Exported Function
+`TimeZoneTransition` | 626 | Exported Function
+`Format` | 621 | Exported Function
+`UObject` | 620 | Exported Function
+`getStartTimeAt` | 2155 | Exported Function
+`TimeZone` | 622 | Exported Function
+`TimeZoneNames` | 624 | Exported Function
+`UnicodeString` | 2281 | Exported Function
+`UnicodeString` | 1987 | Exported Function
+`Locale` | 1276 | Exported Function
+`fgNumberPatterns` | 1434 | Exported Function
+`getTZDataVersion` | 2249 | Exported Function
+`Locale` | 1280 | Exported Function
+`TimeZone` | 1277 | Exported Function
+`Locale` | 1278 | Exported Function
+`TimeZone` | 1279 | Exported Function
+`digitFromCE32` | 1381 | Exported Function
+`makeCE` | 2631 | Exported Function
+`latinCE1FromCE32` | 2607 | Exported Function
+`latinCE0FromCE32` | 2606 | Exported Function
+`makeCE` | 2632 | Exported Function
+`NO_CE` | 832 | Exported Function
+`getFractionalDigits` | 1882 | Exported Function
+`unassignedCEFromCodePoint` | 3257 | Exported Function
+`isFieldUnitIgnored` | 2545 | Exported Function
+`UObject` | 561 | Exported Function
+`isCivil` | 2524 | Exported Function
+`isLeapYear` | 2553 | Exported Function
+`UObject` | 611 | Exported Function
+`isParseIntegerOnly` | 2566 | Exported Function
+`isGroupingUsed` | 2548 | Exported Function
+`usesNamedArguments` | 3272 | Exported Function
+`Formattable` | 559 | Exported Function
+`FieldPositionIterator` | 557 | Exported Function
+`FieldPositionIterator` | 607 | Exported Function
+`FieldPosition` | 2673 | Exported Function
+`quickInit` | 2818 | Exported Function
+`Formattable` | 609 | Exported Function
+`isNumeric` | 2562 | Exported Function
+`Format` | 608 | Exported Function
+`ScriptSet` | 1201 | Exported Function
+`Region` | 570 | Exported Function
+`Region` | 615 | Exported Function
+`ScriptSet` | 2510 | Exported Function
+`SearchIterator` | 617 | Exported Function
+`test` | 3219 | Exported Function
+`ScriptSet` | 574 | Exported Function
+`Region` | 1200 | Exported Function
+`PluralRules` | 613 | Exported Function
+`UnicodeString` | 2551 | Exported Function
+`isAlgorithmic` | 2513 | Exported Function
+`UnicodeString` | 943 | Exported Function
+`RegexPattern` | 569 | Exported Function
+`RegexPattern` | 614 | Exported Function
+`isValid` | 2583 | Exported Function
+`GregorianCalendar` | 146 | Exported Function
+`Formattable` | 142 | Exported Function
+`Formattable` | 135 | Exported Function
+`Locale` | 147 | Exported Function
+`Locale` | 149 | Exported Function
+`TimeZone` | 153 | Exported Function
+`Locale` | 154 | Exported Function
+`ISDATE` | 137 | Exported Function
+`StringPiece` | 133 | Exported Function
+`Formattable` | 141 | Exported Function
+`Formattable` | 132 | Exported Function
+`UnicodeString` | 139 | Exported Function
+`Formattable` | 136 | Exported Function
+`UObject` | 138 | Exported Function
+`UnicodeString` | 134 | Exported Function
+`IslamicCalendar` | 165 | Exported Function
+`UnicodeString` | 164 | Exported Function
+`InitialTimeZoneRule` | 163 | Exported Function
+`ECalculationType` | 166 | Exported Function
+`MaybeStackHeaderAndArray` | 6 | Exported Function
+`LocaleDisplayNames` | 168 | Exported Function
+`LocaleDisplayNames` | 167 | Exported Function
+`IdentifierInfo` | 158 | Exported Function
+`GregorianCalendar` | 150 | Exported Function
+`GregorianCalendar` | 145 | Exported Function
+`TimeZone` | 148 | Exported Function
+`GregorianCalendar` | 151 | Exported Function
+`Locale` | 156 | Exported Function
+`HebrewCalendar` | 155 | Exported Function
+`GregorianCalendar` | 152 | Exported Function
+`Formattable` | 140 | Exported Function
+`EnumSet` | 324 | Exported Function
+`EnumSet` | 4 | Exported Function
+`EnumSet` | 3 | Exported Function
+`FCDUIterCollationIterator` | 112 | Exported Function
+`FCDUTF16CollationIterator` | 115 | Exported Function
+`FCDUTF16CollationIterator` | 114 | Exported Function
+`CollationData` | 113 | Exported Function
+`EnumSet` | 323 | Exported Function
+`DigitList` | 106 | Exported Function
+`DecimalFormatSymbols` | 103 | Exported Function
+`Locale` | 105 | Exported Function
+`DigitList` | 107 | Exported Function
+`EnumSet` | 2 | Exported Function
+`EnumSet` | 1 | Exported Function
+`DigitList` | 360 | Exported Function
+`FixedDecimal` | 126 | Exported Function
+`UnicodeString` | 125 | Exported Function
+`FixedDecimal` | 124 | Exported Function
+`FixedDecimal` | 127 | Exported Function
+`Formattable` | 143 | Exported Function
+`FixedDecimal` | 129 | Exported Function
+`FixedDecimal` | 128 | Exported Function
+`FieldPositionIterator` | 123 | Exported Function
+`CollationData` | 118 | Exported Function
+`FCDUTF8CollationIterator` | 117 | Exported Function
+`CollationData` | 116 | Exported Function
+`FieldPosition` | 119 | Exported Function
+`FieldPositionIterator` | 122 | Exported Function
+`FieldPosition` | 121 | Exported Function
+`FieldPosition` | 120 | Exported Function
+`PluralRules` | 207 | Exported Function
+`PluralRules` | 208 | Exported Function
+`PluralSelectorAdapter` | 212 | Exported Function
+`QuantityFormatter` | 215 | Exported Function
+`UnicodeString` | 218 | Exported Function
+`QuantityFormatter` | 393 | Exported Function
+`QuantityFormatter` | 216 | Exported Function
+`PluralSelectorAdapter` | 211 | Exported Function
+`PluralRules` | 204 | Exported Function
+`UnicodeString` | 205 | Exported Function
+`PluralFormat` | 197 | Exported Function
+`UnicodeString` | 206 | Exported Function
+`PluralSelector` | 210 | Exported Function
+`PluralSelector` | 209 | Exported Function
+`PluralFormat` | 196 | Exported Function
+`RuleBasedCollator` | 231 | Exported Function
+`RelativeDateTimeFormatter` | 226 | Exported Function
+`RelativeDateTimeFormatter` | 227 | Exported Function
+`ECollationStrength` | 235 | Exported Function
+`UnicodeString` | 233 | Exported Function
+`UnicodeString` | 236 | Exported Function
+`ECollationStrength` | 234 | Exported Function
+`Locale` | 228 | Exported Function
+`RegexMatcher` | 221 | Exported Function
+`RegexMatcher` | 220 | Exported Function
+`UnicodeString` | 219 | Exported Function
+`RegexPattern` | 222 | Exported Function
+`NumberFormat` | 229 | Exported Function
+`Region` | 225 | Exported Function
+`RegexPattern` | 223 | Exported Function
+`Locale` | 202 | Exported Function
+`DummyFormat` | 109 | Exported Function
+`DummyFormat` | 108 | Exported Function
+`MeasureUnit` | 180 | Exported Function
+`MessageFormat` | 181 | Exported Function
+`UnicodeString` | 182 | Exported Function
+`Locale` | 183 | Exported Function
+`Locale` | 184 | Exported Function
+`MeasureUnit` | 179 | Exported Function
+`MeasureUnit` | 173 | Exported Function
+`MaybeStackHeaderAndArray` | 325 | Exported Function
+`operator` | 630 | Exported Function
+`Measure` | 172 | Exported Function
+`MeasureFormat` | 175 | Exported Function
+`Locale` | 176 | Exported Function
+`NumberFormat` | 177 | Exported Function
+`UnicodeString` | 200 | Exported Function
+`PluralAvailableLocalesEnumeration` | 194 | Exported Function
+`PluralAvailableLocalesEnumeration` | 195 | Exported Function
+`PluralRules` | 199 | Exported Function
+`UnicodeString` | 203 | Exported Function
+`Locale` | 198 | Exported Function
+`UnicodeString` | 201 | Exported Function
+`UnicodeString` | 193 | Exported Function
+`NumberFormatFactory` | 188 | Exported Function
+`PluralSelectorProvider` | 213 | Exported Function
+`MessageFormat` | 214 | Exported Function
+`NumberFormatFactory` | 189 | Exported Function
+`OlsonTimeZone` | 192 | Exported Function
+`NumberingSystem` | 191 | Exported Function
+`NumberingSystem` | 190 | Exported Function
+`getInt64` | 1918 | Exported Function
+`lastCEWithPrimaryBefore` | 2605 | Exported Function
+`getFirstPrimaryCE` | 1866 | Exported Function
+`getInt64` | 1919 | Exported Function
+`Locale` | 7 | Exported Function
+`getCEs` | 1697 | Exported Function
+`getInt64` | 1920 | Exported Function
+`firstCEWithPrimaryAtLeast` | 1471 | Exported Function
+`getCEFromOffsetCE32` | 1692 | Exported Function
+`setMaximumContextLength` | 3060 | Exported Function
+`UnicodeString` | 3023 | Exported Function
+`getSingleCE` | 2144 | Exported Function
+`UVector32` | 2799 | Exported Function
+`nextCE` | 2679 | Exported Function
+`getCE` | 1691 | Exported Function
+`Equatorial` | 111 | Exported Function
+`Ecliptic` | 110 | Exported Function
+`CalendarAstronomer` | 25 | Exported Function
+`Horizon` | 157 | Exported Function
+`ChineseCalendar` | 27 | Exported Function
+`CalendarAstronomer` | 332 | Exported Function
+`MoonAge` | 185 | Exported Function
+`CalendarAstronomer` | 24 | Exported Function
+`ImmutableIndex` | 160 | Exported Function
+`Bucket` | 16 | Exported Function
+`RuleBasedCollator` | 8 | Exported Function
+`AnnualTimeZoneRule` | 9 | Exported Function
+`CalendarAstronomer` | 23 | Exported Function
+`DateTimeRule` | 10 | Exported Function
+`DateTimeRule` | 11 | Exported Function
+`setMatchNotFound` | 3054 | Exported Function
+`complete` | 1177 | Exported Function
+`UVector` | 2287 | Exported Function
+`handleGetTrailSurrogate` | 2360 | Exported Function
+`computeGregorianFields` | 1183 | Exported Function
+`internalSetTime` | 2507 | Exported Function
+`internalSet` | 2504 | Exported Function
+`EDateFields` | 2503 | Exported Function
+`handleGetTrailSurrogate` | 2359 | Exported Function
+`backwardNumCodePoints` | 1055 | Exported Function
+`forwardNumCodePoints` | 1586 | Exported Function
+`backwardNumCodePoints` | 1054 | Exported Function
+`forwardNumCodePoints` | 1587 | Exported Function
+`handleGetTrailSurrogate` | 2358 | Exported Function
+`handleGetTrailSurrogate` | 2357 | Exported Function
+`handleGetTrailSurrogate` | 2356 | Exported Function
+`pinDayOfMonth` | 2791 | Exported Function
+`setLocaleIDs` | 3048 | Exported Function
+`reset` | 2855 | Exported Function
+`NumberFormat` | 995 | Exported Function
+`initTime` | 2456 | Exported Function
+`initCurrency` | 2434 | Exported Function
+`NumberFormat` | 2453 | Exported Function
+`CollationData` | 1018 | Exported Function
+`CollationData` | 1065 | Exported Function
+`buildContexts` | 1064 | Exported Function
+`setTimeInMillis` | 3147 | Exported Function
+`CollationData` | 1067 | Exported Function
+`setLeadSurrogates` | 3037 | Exported Function
+`setDigitTags` | 2989 | Exported Function
+`clearContexts` | 1098 | Exported Function
+`DateFormatSymbols` | 81 | Exported Function
+`CurrencyUnit` | 74 | Exported Function
+`CurrencyUnit` | 73 | Exported Function
+`DateFormatSymbols` | 78 | Exported Function
+`DateFormatSymbols` | 77 | Exported Function
+`Locale` | 79 | Exported Function
+`Locale` | 80 | Exported Function
+`CurrencyPluralInfo` | 70 | Exported Function
+`CurrencyAmount` | 67 | Exported Function
+`UnicodeString` | 64 | Exported Function
+`UnicodeFilter` | 65 | Exported Function
+`Formattable` | 68 | Exported Function
+`Locale` | 72 | Exported Function
+`CurrencyPluralInfo` | 71 | Exported Function
+`CurrencyAmount` | 69 | Exported Function
+`DecimalFormatSymbols` | 99 | Exported Function
+`DecimalFormatSymbols` | 101 | Exported Function
+`DecimalFormatSymbols` | 100 | Exported Function
+`DecimalFormatSymbols` | 98 | Exported Function
+`DecimalFormatSymbols` | 104 | Exported Function
+`DecimalFormat` | 95 | Exported Function
+`UnicodeString` | 97 | Exported Function
+`DecimalFormat` | 96 | Exported Function
+`DateIntervalInfo` | 85 | Exported Function
+`Locale` | 87 | Exported Function
+`DateIntervalInfo` | 86 | Exported Function
+`DateTimeRule` | 91 | Exported Function
+`TimeRuleType` | 92 | Exported Function
+`TimeRuleType` | 93 | Exported Function
+`TimeRuleType` | 94 | Exported Function
+`UnicodeFilter` | 66 | Exported Function
+`CollationFastLatinBuilder` | 41 | Exported Function
+`CollationElementIterator` | 40 | Exported Function
+`CollationDataBuilder` | 37 | Exported Function
+`CollationData` | 43 | Exported Function
+`CollationKey` | 46 | Exported Function
+`CollationKey` | 45 | Exported Function
+`CollationKey` | 44 | Exported Function
+`Normalizer2Impl` | 36 | Exported Function
+`UnicodeString` | 31 | Exported Function
+`ChoiceFormat` | 30 | Exported Function
+`Locale` | 28 | Exported Function
+`UnicodeString` | 33 | Exported Function
+`CollationTailoring` | 35 | Exported Function
+`CollationBaseDataBuilder` | 34 | Exported Function
+`UnicodeString` | 32 | Exported Function
+`CollationWeights` | 52 | Exported Function
+`CollationSettings` | 51 | Exported Function
+`CollationSettings` | 50 | Exported Function
+`CollatorFactory` | 56 | Exported Function
+`CompoundTransliterator` | 63 | Exported Function
+`CompactDecimalFormat` | 59 | Exported Function
+`CollatorFactory` | 57 | Exported Function
+`CollationSettings` | 49 | Exported Function
+`Importer` | 161 | Exported Function
+`CollationData` | 48 | Exported Function
+`CollationRootElements` | 47 | Exported Function
+`Importer` | 162 | Exported Function
+`CollationRuleParser` | 342 | Exported Function
+`Sink` | 276 | Exported Function
+`Sink` | 275 | Exported Function
+`getLocale` | 1952 | Exported Function
+`getLocale` | 1956 | Exported Function
+`getLocale` | 1955 | Exported Function
+`getSmpFmtLocale` | 2148 | Exported Function
+`MeasureFormat` | 490 | Exported Function
+`Measure` | 489 | Exported Function
+`LocaleDisplayNames` | 487 | Exported Function
+`getLocale` | 1954 | Exported Function
+`UnicodeSet` | 3025 | Exported Function
+`UnicodeString` | 3024 | Exported Function
+`IdentifierInfo` | 482 | Exported Function
+`InitialTimeZoneRule` | 485 | Exported Function
+`getLocale` | 1953 | Exported Function
+`getLocale` | 1951 | Exported Function
+`IslamicCalendar` | 486 | Exported Function
+`OlsonTimeZone` | 497 | Exported Function
+`NumberingSystem` | 496 | Exported Function
+`NumberFormatFactory` | 495 | Exported Function
+`PluralAvailableLocalesEnumeration` | 498 | Exported Function
+`PluralSelectorAdapter` | 502 | Exported Function
+`PluralSelector` | 501 | Exported Function
+`PluralFormat` | 499 | Exported Function
+`operator` | 631 | Exported Function
+`MessageFormat` | 492 | Exported Function
+`getUnit` | 2303 | Exported Function
+`MeasureUnit` | 491 | Exported Function
+`DummyFormat` | 472 | Exported Function
+`get` | 1608 | Exported Function
+`operator` | 633 | Exported Function
+`getNumberFormat` | 2026 | Exported Function
+`GregorianCalendar` | 480 | Exported Function
+`DecimalFormat` | 469 | Exported Function
+`getRule` | 2112 | Exported Function
+`clone` | 1113 | Exported Function
+`DecimalFormatSymbols` | 470 | Exported Function
+`getInternalDigitList` | 1921 | Exported Function
+`getDigitList` | 1775 | Exported Function
+`DigitList` | 471 | Exported Function
+`DateTimeRule` | 468 | Exported Function
+`getDateFormat` | 1751 | Exported Function
+`getCurrency` | 1736 | Exported Function
+`CurrencyUnit` | 462 | Exported Function
+`DateFormatSymbols` | 464 | Exported Function
+`clone` | 1112 | Exported Function
+`getDateIntervalInfo` | 1753 | Exported Function
+`DateIntervalInfo` | 466 | Exported Function
+`operator` | 629 | Exported Function
+`Formattable` | 479 | Exported Function
+`getFixedDecimal` | 1875 | Exported Function
+`clone` | 1117 | Exported Function
+`getArray` | 1637 | Exported Function
+`getArray` | 1636 | Exported Function
+`getNumber` | 2023 | Exported Function
+`Formattable` | 1874 | Exported Function
+`FieldPosition` | 475 | Exported Function
+`EnumSet` | 432 | Exported Function
+`EnumSet` | 431 | Exported Function
+`clone` | 1116 | Exported Function
+`DigitList` | 1873 | Exported Function
+`FixedDecimal` | 477 | Exported Function
+`FieldPositionIterator` | 476 | Exported Function
+`TimeUnit` | 519 | Exported Function
+`TimeArrayTimeZoneRule` | 518 | Exported Function
+`TextTrieMap` | 517 | Exported Function
+`getTimeUnit` | 2271 | Exported Function
+`orphanTimeZone` | 2716 | Exported Function
+`TimeUnitFormat` | 521 | Exported Function
+`TimeUnitAmount` | 520 | Exported Function
+`clone` | 1136 | Exported Function
+`getContainedRegions` | 1728 | Exported Function
+`getKeywords` | 1931 | Exported Function
+`getSkeletons` | 2146 | Exported Function
+`getContainedRegions` | 1729 | Exported Function
+`StringSearch` | 516 | Exported Function
+`getDecimalNumber` | 1763 | Exported Function
+`getPreferredValues` | 2075 | Exported Function
+`clone` | 1143 | Exported Function
+`TimeZoneTransition` | 527 | Exported Function
+`getTo` | 2288 | Exported Function
+`createInverse` | 1308 | Exported Function
+`getFilter` | 1857 | Exported Function
+`orphanFilter` | 2714 | Exported Function
+`getElement` | 1840 | Exported Function
+`getFrom` | 1883 | Exported Function
+`TimeZoneFormat` | 523 | Exported Function
+`getTimeZone` | 2275 | Exported Function
+`ParsePosition` | 2732 | Exported Function
+`TimeZoneGenericNames` | 524 | Exported Function
+`MatchInfoCollection` | 488 | Exported Function
+`getTimeZoneNames` | 2282 | Exported Function
+`TimeZoneNames` | 525 | Exported Function
+`getRedundants` | 2098 | Exported Function
+`RelativeDateTimeFormatter` | 506 | Exported Function
+`getContainingRegion` | 1731 | Exported Function
+`getContainingRegion` | 1730 | Exported Function
+`RuleBasedCollator` | 507 | Exported Function
+`RuleBasedTimeZone` | 509 | Exported Function
+`RuleBasedNumberFormat` | 508 | Exported Function
+`getCollator` | 1722 | Exported Function
+`Region` | 505 | Exported Function
+`operator` | 634 | Exported Function
+`clone` | 1128 | Exported Function
+`PluralRules` | 500 | Exported Function
+`getPluralRules` | 2071 | Exported Function
+`RegexPattern` | 504 | Exported Function
+`QuantityFormatter` | 503 | Exported Function
+`operator` | 632 | Exported Function
+`getScripts` | 2129 | Exported Function
+`getCommonAmongAlternates` | 1723 | Exported Function
+`ScriptSet` | 913 | Exported Function
+`SelectFormat` | 512 | Exported Function
+`getBaseSkeletons` | 1662 | Exported Function
+`SimpleTimeZone` | 514 | Exported Function
+`SimpleDateFormat` | 513 | Exported Function
+`setAll` | 2928 | Exported Function
+`ScriptSet` | 510 | Exported Function
+`intersect` | 2509 | Exported Function
+`ScriptSet` | 2508 | Exported Function
+`UnicodeString` | 2777 | Exported Function
+`set` | 2926 | Exported Function
+`resetAll` | 2868 | Exported Function
+`reset` | 2865 | Exported Function
+`TimeArrayTimeZoneRule` | 284 | Exported Function
+`TextTrieMap` | 283 | Exported Function
+`TextTrieMap` | 282 | Exported Function
+`TimeRuleType` | 285 | Exported Function
+`TimeUnitAmount` | 288 | Exported Function
+`UTimeUnitFields` | 289 | Exported Function
+`TimeUnit` | 287 | Exported Function
+`BreakIterator` | 279 | Exported Function
+`UnicodeString` | 273 | Exported Function
+`UnicodeString` | 272 | Exported Function
+`TimeMode` | 274 | Exported Function
+`StringSearch` | 277 | Exported Function
+`BreakIterator` | 278 | Exported Function
+`BreakIterator` | 281 | Exported Function
+`BreakIterator` | 280 | Exported Function
+`TimeZoneNames` | 303 | Exported Function
+`TimeZoneNames` | 302 | Exported Function
+`MatchInfoCollection` | 170 | Exported Function
+`TimeZoneTransition` | 306 | Exported Function
+`UIterCollationIterator` | 311 | Exported Function
+`TimeZoneTransition` | 308 | Exported Function
+`TimeZoneRule` | 307 | Exported Function
+`MatchInfoCollection` | 169 | Exported Function
+`Locale` | 294 | Exported Function
+`Locale` | 293 | Exported Function
+`UTimeUnitFields` | 290 | Exported Function
+`TimeUnitFormat` | 292 | Exported Function
+`TimeZoneGenericNames` | 301 | Exported Function
+`TimeZoneFormat` | 299 | Exported Function
+`TimeUnitFormat` | 291 | Exported Function
+`UnicodeString` | 271 | Exported Function
+`InitialTimeZoneRule` | 247 | Exported Function
+`RuleBasedTimeZone` | 246 | Exported Function
+`Locale` | 245 | Exported Function
+`ScriptSet` | 248 | Exported Function
+`SearchIterator` | 253 | Exported Function
+`ScriptSet` | 401 | Exported Function
+`ScriptSet` | 249 | Exported Function
+`UnicodeString` | 243 | Exported Function
+`RuleBasedCollator` | 238 | Exported Function
+`RuleBasedCollator` | 237 | Exported Function
+`UnicodeString` | 232 | Exported Function
+`RuleBasedNumberFormat` | 240 | Exported Function
+`UnicodeString` | 241 | Exported Function
+`Locale` | 242 | Exported Function
+`Locale` | 244 | Exported Function
+`UnicodeString` | 264 | Exported Function
+`UnicodeString` | 262 | Exported Function
+`Locale` | 263 | Exported Function
+`SimpleDateFormat` | 260 | Exported Function
+`SimpleTimeZone` | 270 | Exported Function
+`SimpleNumberFormatFactory` | 268 | Exported Function
+`Locale` | 269 | Exported Function
+`Locale` | 266 | Exported Function
+`NumberFormat` | 256 | Exported Function
+`UnicodeString` | 255 | Exported Function
+`SelectFormat` | 254 | Exported Function
+`PluralRules` | 257 | Exported Function
+`DateFormatSymbols` | 265 | Exported Function
+`DateFormatSymbols` | 267 | Exported Function
+`SimpleDateFormat` | 261 | Exported Function
+`internalGetCharString` | 2491 | Exported Function
+`MoonAge` | 493 | Exported Function
+`Horizon` | 481 | Exported Function
+`ChineseCalendar` | 441 | Exported Function
+`CollationCompare` | 444 | Exported Function
+`Collation` | 443 | Exported Function
+`ChoiceFormat` | 442 | Exported Function
+`Horizon` | 1402 | Exported Function
+`Equatorial` | 1400 | Exported Function
+`Ecliptic` | 1399 | Exported Function
+`Ecliptic` | 473 | Exported Function
+`Equatorial` | 1401 | Exported Function
+`getMoonPosition` | 2003 | Exported Function
+`Equatorial` | 2244 | Exported Function
+`Equatorial` | 474 | Exported Function
+`CollatorFactory` | 457 | Exported Function
+`CollationWeights` | 456 | Exported Function
+`Sink` | 515 | Exported Function
+`CompactDecimalFormat` | 458 | Exported Function
+`clone` | 1108 | Exported Function
+`CurrencyPluralInfo` | 461 | Exported Function
+`CurrencyAmount` | 460 | Exported Function
+`Importer` | 484 | Exported Function
+`CollationFCD` | 448 | Exported Function
+`CollationFastLatin` | 449 | Exported Function
+`CollationDataWriter` | 446 | Exported Function
+`CollationKey` | 450 | Exported Function
+`CollationRootElements` | 453 | Exported Function
+`CollationRoot` | 452 | Exported Function
+`CollationKeys` | 451 | Exported Function
+`CalendarAstronomer` | 440 | Exported Function
+`operator` | 628 | Exported Function
+`ZNStringPool` | 428 | Exported Function
+`ZNStringPool` | 322 | Exported Function
+`getArrayLimit` | 1638 | Exported Function
+`getLocaleID` | 1960 | Exported Function
+`getDigit` | 1774 | Exported Function
+`getArrayStart` | 1639 | Exported Function
+`VTimeZone` | 321 | Exported Function
+`UnicodeReplacer` | 319 | Exported Function
+`UnicodeReplacer` | 318 | Exported Function
+`CollationData` | 312 | Exported Function
+`UTF16CollationIterator` | 314 | Exported Function
+`CollationData` | 317 | Exported Function
+`UTF8CollationIterator` | 316 | Exported Function
+`CollationData` | 315 | Exported Function
+`ImmutableIndex` | 483 | Exported Function
+`getBucket` | 1674 | Exported Function
+`Bucket` | 437 | Exported Function
+`buildImmutableIndex` | 1066 | Exported Function
+`getBreakIterator` | 1673 | Exported Function
+`BasicTimeZone` | 436 | Exported Function
+`AnnualTimeZoneRule` | 435 | Exported Function
+`internalGetLocaleID` | 2496 | Exported Function
+`getLocaleID` | 1961 | Exported Function
+`getErrorReason` | 1850 | Exported Function
+`getErrorReason` | 1849 | Exported Function
+`getSubtype` | 2241 | Exported Function
+`getRegionCode` | 2102 | Exported Function
+`getName` | 2008 | Exported Function
+`getType` | 2297 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `98F4FC7CDCFAE6DD038290553A7B8FF5265AE652755D6F74510E5E98736FE4FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned long __cdecl CDataCache::GetVolumeCount(void) __ptr64` | 10 | Exported Function
-`public: unsigned long __cdecl CDataCache::GetDiskCount(void) __ptr64` | 4 | Exported Function
-`public: unsigned long __cdecl CDMNodeObj::GetNumMembers(void) __ptr64` | 6 | Exported Function
-`public: void __cdecl CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * __ptr64 * __ptr64,int & __ptr64) __ptr64` | 8 | Exported Function
-`public: void __cdecl CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY * __ptr64) __ptr64` | 1 | Exported Function
-`public: class CWnd * __ptr64 __cdecl CTaskData::GetOcxFrameCWndPtr(void) __ptr64` | 7 | Exported Function
+`GetVolumeCount` | 10 | Exported Function
+`GetDiskCount` | 4 | Exported Function
+`GetNumMembers` | 6 | Exported Function
+`GetRegionColorStructPtr` | 8 | Exported Function
+`AddLDMObjMapEntry` | 1 | Exported Function
+`GetOcxFrameCWndPtr` | 7 | Exported Function
 `CreateServerRequestsZ` | 3 | Exported Function
 `CreateDataCacheZ` | 2 | Exported Function
 `LoadPropertyPageData` | 11 | Exported Function
-`public: class CString __cdecl CDataCache::GetServerName(void) __ptr64` | 9 | Exported Function
-`public: __int64 __cdecl CDMNodeObj::GetLdmObjectId(void) __ptr64` | 5 | Exported Function
+`GetServerName` | 9 | Exported Function
+`GetLdmObjectId` | 5 | Exported Function
 
 
 ## Signature

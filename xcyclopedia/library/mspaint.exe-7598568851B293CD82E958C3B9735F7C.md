@@ -22,6 +22,9 @@ SHA256 | `C6CA40EFB55F70C704B7686DE8FF1DB7CC9B1C8DFE1754CB046F77DF73D99FB4`
 SHA384 | `A4F69FEEA2765C7EC764DCACEF8311BDEF5F65C1DFE4A25CDE14021A6D19F6F2C34CF7FE136E18D49AA538FA53648CB5`
 SHA512 | `D2DBC87814E8ADF1C2E166D3D34C35F967ECEF292871126BFEE4DDD357D6487BA34C4451C2F9C5D51A6ADB91831F8A34C2DDD155EE29FB396037BC92FE55F43E`
 SSDEEP | `98304:0mHdN2u7InCOgQwyRPM1mlawYL260GBGrGrGWAub7jPhivQv:0mHdN6n/gQw4MIlawYVb7jP8vE`
+IMP | `3733CF0F57E520DAEA85AF65FAF8D8E3`
+PESHA1 | `CED507FCFF5F47A3CEED41EA7B5FE9D5B37E5393`
+PE256 | `85A1262C9E590D2DF1767E9DAE9447DA37B4A30220D269B95C25869B3CAED048`
 
 ## Runtime Data
 
@@ -32,24 +35,28 @@ Paint
 
 Path | Type
 -- | --
-(R--)   C:\Users\Administrator\Documents\--help | File
+(R--)   C:\Users\user\--help | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\mspaint.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\UIRibbon.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\debug\WIA\wiatrace.log | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_570e6eecc25578b0 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_5706558cc25cc83b | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\RotHintTable | Section
-\RPC Control\DSEC19DC | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\RPC Control\DSEC1084 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -57,6 +64,10 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\mspaint.exe |
 
 
 ## Signature
@@ -76,7 +87,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/c6ca40efb55f70c704b7686de8ff1db7cc9b1c8dfe1754cb046f77df73d99fb4/detection/
 
 ## File Similarity (ssdeep match)
 

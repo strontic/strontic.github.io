@@ -18,6 +18,9 @@ SHA256 | `3A6D5E97DC08B85EA6E0372791D4F68CB93DC0020D195823C0CE1AD8B891B3F5`
 SHA384 | `F245B0EDA2D8D186344C1EDF0795720B8DDC3F3B54E69436FFEEC6E268258A8416619564EC8CA4A18EA277CD38EAE648`
 SHA512 | `154C9CD4B6E75210F70AEF305C88236B814421D76B159C8199F7E82FD8CC76EC2D6E1B6F5D25B3967836CF6B4401E3424D7943F30684EC4E71DBA7AD8D1142A5`
 SSDEEP | `384:zxEB938kEwctfXzJD1etM47N7WfUry8AihfgiOMyAsN7cK74Zv/FWoJW:zBkE9JD1epWEA2fgiOMy57cKkZ3x`
+IMP | `BE6FE1119CB4F6C79CE34221D93EACE6`
+PESHA1 | `7F7D1E9A6F5725528293EDE35F38781D840EE0ED`
+PE256 | `5420F757265CD540ED864A691627C7E436DBBA065B2020798B707E9384340F8F`
 
 ## Runtime Data
 
@@ -68,15 +71,22 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\system32\diskperf.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -89,7 +99,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/3a6d5e97dc08b85ea6e0372791d4f68cb93dc0020d195823c0ce1ad8b891b3f5/detection/
 
 ## File Similarity (ssdeep match)
 

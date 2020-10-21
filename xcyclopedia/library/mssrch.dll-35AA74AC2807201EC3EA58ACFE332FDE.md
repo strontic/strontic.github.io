@@ -26,26 +26,26 @@ PE256 | `66F5D9A1F1F8488AA589EEB46EBE8E7057964FEC2EFDC52407B364F74D138756`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual long __cdecl CSearchServiceObj::Initialize(bool,unsigned long,class std::vector<class ReIndexPatternInfo,class std::allocator<class ReIndexPatternInfo> > const * __ptr64) __ptr64` | 9 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::LogoffNotification(unsigned long) __ptr64` | 10 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::HandleDplKeyChange(void) __ptr64` | 8 | Exported Function
-`public: class CSearchServiceObj & __ptr64 __cdecl CSearchServiceObj::operator=(class CSearchServiceObj const & __ptr64) __ptr64` | 4 | Exported Function
-`public: static void __cdecl CSearchServiceObj::Cleanup(void)` | 6 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::LogonNotification(unsigned long) __ptr64` | 11 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::Start(void) __ptr64` | 15 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::Stop(int) __ptr64` | 16 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::Shutdown(void) __ptr64` | 14 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::PostServiceStartup(void) __ptr64` | 12 | Exported Function
-`public: virtual long __cdecl CSearchServiceObj::SetServiceStatusObj(struct IDCOMServiceStatus * __ptr64) __ptr64` | 13 | Exported Function
+`allocator` | 9 | Exported Function
+`LogoffNotification` | 10 | Exported Function
+`HandleDplKeyChange` | 8 | Exported Function
+`operator` | 4 | Exported Function
+`Cleanup` | 6 | Exported Function
+`LogonNotification` | 11 | Exported Function
+`Start` | 15 | Exported Function
+`Stop` | 16 | Exported Function
+`Shutdown` | 14 | Exported Function
+`PostServiceStartup` | 12 | Exported Function
+`SetServiceStatusObj` | 13 | Exported Function
 `DllGetClassObject` | 18 | Exported Function
 `DllRegisterServer` | 19 | Exported Function
 `DllCanUnloadNow` | 17 | Exported Function
-`class std::shared_ptr<struct Windows::ChangeTracking::IFileChangeClientManager> __cdecl GetFileChangeClientManagerInstance(void)` | 7 | Exported Function
+`IFileChangeClientManager` | 7 | Exported Function
 `const CSearchServiceObj::``vftable'` | 5 | Exported Function
 `DllUnregisterServer` | 20 | Exported Function
-`public: __cdecl CSearchServiceObj::CSearchServiceObj(void) __ptr64` | 2 | Exported Function
+`CSearchServiceObj` | 2 | Exported Function
 `public: __cdecl CSearchServiceObj::~CSearchServiceObj(void) __ptr64` | 3 | Exported Function
-`public: __cdecl CSearchServiceObj::CSearchServiceObj(class CSearchServiceObj const & __ptr64) __ptr64` | 1 | Exported Function
+`CSearchServiceObj` | 1 | Exported Function
 `GetCatalogManager` | 21 | Exported Function
 `MSSrch_SysPrep_Cleanup` | 22 | Exported Function
 

@@ -18,6 +18,9 @@ SHA256 | `663B831A79CE13D456C375D7CF28081164FC0E5CA513B7BEB3C07A0D1E1B1C4D`
 SHA384 | `1E61A278CBCFC9A06B344653760D96330A957DC1294FA8F087B696A5CA5C90D91BA571C0229CDB1CEF72D60E63A15553`
 SHA512 | `CD81E5009B33FE037A775EE36F7FFBED1DAE82D2DE8BEA95D4E9C036013AB85277DF9A16CCAF5F37D06EEDC362822AD843646030774C131089F0B29BEF17D64E`
 SSDEEP | `384:Ax0+V/mMGgXRW/JhcyV6/LzCpkLi5FYhAey4xZjxONzWncW:R+NJSJh5SK+i5mhXjxO2`
+IMP | `02B63B93BB0FF42FF5BEB4C6E62D06B7`
+PESHA1 | `E45C8BB4526EA3F60BA9AE668556B42DB5FA6449`
+PE256 | `B396FD7FC05857BAC8FE48C4551FAA02C8A2349F105E25A8337284188E8B29E9`
 
 ## Runtime Data
 
@@ -54,7 +57,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -64,9 +70,12 @@ Path | Type
 Path |
 -- |
 C:\Windows\system32\comp.exe |
+C:\Windows\SYSTEM32\fsutilext.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ulib.dll |
 
 
 ## Signature
@@ -86,7 +95,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/663b831a79ce13d456c375d7cf28081164fc0e5ca513b7beb3c07a0d1e1b1c4d/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -18,6 +18,9 @@ SHA256 | `ACA66F4BC15E1B8EDE8F05F59DFAFB15FA47D9E89EA1D4CF59264BA3D483F47C`
 SHA384 | `0534EDE1327E1C16BA05A1372150EB7E2E865D6859D20434A10C570DA76F9C22788B33CF973EB061E121DE8D888F5131`
 SHA512 | `9DCFC6BE4CB9CDE4B240222F3C20366CC8EDCD17558E3AA6F2F84DC4CE2164BFD3CFDC089810B9E95AA41F35FA38D5916615961ACED61D7BE534B1F357D33B4A`
 SSDEEP | `384:cS5vXEHf5q3+JwWH2ePKC/Rvnt3uD8r2slOUdAHqiY0tkCJh4gDi9t1WlQWup2:cS5v0xGLyfwIVQr/Y06uif8`
+IMP | `4A124D4C214DBB24BCE7F0447B727173`
+PESHA1 | `4F5844826A001548A4F0456C63960C387D01946E`
+PE256 | `6C50455D5C128BAC3CF093D0D8FE4DC2FAE956DD55FA938D5D31CC6F48CBD255`
 
 ## Runtime Data
 
@@ -68,6 +71,9 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |
@@ -82,8 +88,8 @@ C:\Windows\SysWOW64\NETSTAT.EXE |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -96,7 +102,12 @@ C:\Windows\SysWOW64\NETSTAT.EXE |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/aca66f4bc15e1b8ede8f05f59dfafb15fa47d9e89ea1d4cf59264ba3d483f47c/detection/
 
 
 ## Possible Misuse

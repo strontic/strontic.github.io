@@ -26,62 +26,62 @@ PE256 | `EA93891A45EB8DF86DAF92D2C6BE14C2E44C5DAEC33901991312F26256DF2DB4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::registerAudioFile(wchar_t const * const,wchar_t const *,wchar_t const *)` | 45 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::getStatistics(int &,float &)` | 42 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::getIndexedAudioFile(wchar_t const *,wchar_t const *,wchar_t *,int)const ` | 38 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::remove(wchar_t const *)` | 46 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CRetrievalSession::cancel(void)` | 31 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CQuery::set(wchar_t const *)` | 48 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CQuery::set(wchar_t const * *,int,enum MSRA::AudioSearchAPI::QUERY_OPERATOR)` | 47 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::cancel(void)` | 30 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::buildIndexedAudioFile(wchar_t const *,wchar_t const *)` | 29 | Exported Function
-`public: virtual struct MSRA::AudioSearchAPI::LIMITS __thiscall MSRA::AudioSearchAPI::CRetrievalSession::setLimits(struct MSRA::AudioSearchAPI::LIMITS const &)` | 50 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::clearIndex(void)` | 32 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::getDocumentSet(struct MSRA::AudioSearchAPI::DOCUMENT_IN_INDEX const * &,int &)` | 37 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::freeDocumentSet(struct MSRA::AudioSearchAPI::DOCUMENT_IN_INDEX const *)` | 35 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CIndexingSession::deleteIndex(void)` | 33 | Exported Function
-`struct MSRA::AudioSearchAPI::IRetrievalSession * __stdcall MSRA::AudioSearchAPI::CreateRetrievalSessionImpl(class MSRA::AudioSearchAPI::CIndexManager const &,struct MSRA::AudioSearchAPI::IRetrievalSessionNotify &)` | 22 | Exported Function
-`struct MSRA::AudioSearchAPI::IQuery * __stdcall MSRA::AudioSearchAPI::CreateQueryImpl(class MSRA::AudioSearchAPI::CIndexManager const &)` | 21 | Exported Function
-`struct MSRA::AudioSearchAPI::IIndexingSession * __stdcall MSRA::AudioSearchAPI::CreateIndexingSessionImpl(class MSRA::AudioSearchAPI::CIndexManager &,struct MSRA::AudioSearchAPI::IIndexingSessionNotify &)` | 20 | Exported Function
-`void __stdcall MSRA::AudioSearchAPI::CopyQuery(struct MSRA::AudioSearchAPI::IQuery const &,struct MSRA::AudioSearchAPI::IQuery &)` | 18 | Exported Function
-`void __stdcall MSRA::AudioSearchAPI::ReleaseRetrievalSessionImpl(struct MSRA::AudioSearchAPI::IRetrievalSession *)` | 26 | Exported Function
-`void __stdcall MSRA::AudioSearchAPI::ReleaseQueryImpl(struct MSRA::AudioSearchAPI::IQuery *)` | 25 | Exported Function
-`void __stdcall MSRA::AudioSearchAPI::ReleaseIndexingSessionImpl(struct MSRA::AudioSearchAPI::IIndexingSession *)` | 24 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CRetrievalSession::setQuery(class MSRA::AudioSearchAPI::CQuery const &)` | 51 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CRetrievalSession::goAndWait(void)` | 44 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CRetrievalSession::go(void)` | 43 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CRetrievalSession::setScope(struct MSRA::AudioSearchAPI::SCOPE_DOCUMENT const *,int,wchar_t const * const *,int)` | 54 | Exported Function
-`public: void __thiscall MSRA::AudioSearchAPI::CRetrievalSessionImpl::FILELISTENTRY::setError(struct MSRA::AudioSearchAPI::EXCEPTION &)` | 49 | Exported Function
-`public: virtual wchar_t const * __thiscall MSRA::AudioSearchAPI::CQuery::get(int)const ` | 36 | Exported Function
-`public: virtual void __thiscall MSRA::AudioSearchAPI::CRetrievalSessionImpl::setQuery(class MSRA::AudioSearchAPI::CQuery const &)` | 52 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CQuery::~CQuery(void)` | 12 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CQuery::CQuery(class MSRA::AudioSearchAPI::CIndexManager const &)` | 5 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CIndexManagerImpl::CIndexManagerImpl(struct MSRA::AudioSearchAPI::CIndexManager::CONFIG const &)` | 2 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CQueryImpl::CQueryImpl(class MSRA::AudioSearchAPI::CIndexManager const &)` | 6 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CRetrievalSessionImpl::CRetrievalSessionImpl(class MSRA::AudioSearchAPI::CIndexManager const &,struct MSRA::AudioSearchAPI::IRetrievalSessionNotify &)` | 8 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CRetrievalSession::~CRetrievalSession(void)` | 13 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CRetrievalSession::CRetrievalSession(class MSRA::AudioSearchAPI::CIndexManager const &,struct MSRA::AudioSearchAPI::IRetrievalSessionNotify &)` | 7 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CIndexingSession::CIndexingSession(class MSRA::AudioSearchAPI::CIndexManager &,struct MSRA::AudioSearchAPI::IIndexingSessionNotify &)` | 3 | Exported Function
-`class MSRA::AudioSearchAPI::CIndexManagerImpl * __stdcall MSRA::AudioSearchAPI::CreateIndexManagerImpl(struct MSRA::AudioSearchAPI::CIndexManager::CONFIG const &)` | 19 | Exported Function
-`bool __stdcall MSRA::AudioSearchAPI::IsQueryEqual(struct MSRA::AudioSearchAPI::IQuery const &,struct MSRA::AudioSearchAPI::IQuery const &)` | 23 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CIndexingSession::~CIndexingSession(void)` | 11 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CIndexManager::~CIndexManager(void)` | 10 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CIndexManager::CIndexManager(struct MSRA::AudioSearchAPI::CIndexManager::CONFIG const &)` | 1 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::CIndexingSessionImpl::CIndexingSessionImpl(class MSRA::AudioSearchAPI::CIndexManager &,struct MSRA::AudioSearchAPI::IIndexingSessionNotify &)` | 4 | Exported Function
-`public: virtual enum MSRA::AudioSearchAPI::QUERY_OPERATOR __thiscall MSRA::AudioSearchAPI::CQuery::getOperator(void)const ` | 40 | Exported Function
-`public: virtual bool __thiscall MSRA::AudioSearchAPI::CRetrievalSession::wait(int)` | 56 | Exported Function
-`public: virtual bool __thiscall MSRA::AudioSearchAPI::CIndexingSession::wait(int)` | 55 | Exported Function
-`public: virtual enum MSRA::AudioSearchAPI::RESOLUTION __thiscall MSRA::AudioSearchAPI::CRetrievalSession::setResolution(enum MSRA::AudioSearchAPI::RESOLUTION)` | 53 | Exported Function
-`public: virtual int __thiscall MSRA::AudioSearchAPI::CQuery::getPhonetic(int,wchar_t *,int)const ` | 41 | Exported Function
-`public: virtual int __thiscall MSRA::AudioSearchAPI::CQuery::getNumTerms(void)const ` | 39 | Exported Function
-`public: virtual int __thiscall MSRA::AudioSearchAPI::CIndexingSession::documentExists(wchar_t const * const)` | 34 | Exported Function
-`public: bool __thiscall MSRA::AudioSearchAPI::CQueryImpl::operator==(struct MSRA::AudioSearchAPI::IQuery const &)const ` | 17 | Exported Function
-`public: bool __thiscall MSRA::AudioSearchAPI::CQuery::operator==(class MSRA::AudioSearchAPI::CQuery const &)const ` | 16 | Exported Function
-`public: __thiscall MSRA::AudioSearchAPI::EXCEPTION::EXCEPTION(char const *,long,wchar_t const *,char const *)` | 9 | Exported Function
-`public: class MSRA::AudioSearchAPI::CQuery & __thiscall MSRA::AudioSearchAPI::CQuery::operator=(class MSRA::AudioSearchAPI::CQuery const &)` | 14 | Exported Function
-`public: virtual bool __thiscall MSRA::AudioSearchAPI::CIndexingSession::addIndexedAudioFile(wchar_t const * const,wchar_t const *,wchar_t const *)` | 28 | Exported Function
-`public: virtual bool __thiscall MSRA::AudioSearchAPI::CIndexingSession::addAudioFile(wchar_t const * const,wchar_t const *,wchar_t const *)` | 27 | Exported Function
-`public: struct MSRA::AudioSearchAPI::IQuery & __thiscall MSRA::AudioSearchAPI::CQueryImpl::operator=(struct MSRA::AudioSearchAPI::IQuery const &)` | 15 | Exported Function
+`registerAudioFile` | 45 | Exported Function
+`getStatistics` | 42 | Exported Function
+`getIndexedAudioFile` | 38 | Exported Function
+`remove` | 46 | Exported Function
+`cancel` | 31 | Exported Function
+`set` | 48 | Exported Function
+`QUERY_OPERATOR` | 47 | Exported Function
+`cancel` | 30 | Exported Function
+`buildIndexedAudioFile` | 29 | Exported Function
+`LIMITS` | 50 | Exported Function
+`clearIndex` | 32 | Exported Function
+`DOCUMENT_IN_INDEX` | 37 | Exported Function
+`DOCUMENT_IN_INDEX` | 35 | Exported Function
+`deleteIndex` | 33 | Exported Function
+`IRetrievalSessionNotify` | 22 | Exported Function
+`CIndexManager` | 21 | Exported Function
+`IIndexingSessionNotify` | 20 | Exported Function
+`IQuery` | 18 | Exported Function
+`IRetrievalSession` | 26 | Exported Function
+`IQuery` | 25 | Exported Function
+`IIndexingSession` | 24 | Exported Function
+`CQuery` | 51 | Exported Function
+`goAndWait` | 44 | Exported Function
+`go` | 43 | Exported Function
+`SCOPE_DOCUMENT` | 54 | Exported Function
+`EXCEPTION` | 49 | Exported Function
+`get` | 36 | Exported Function
+`CQuery` | 52 | Exported Function
+`CQuery` | 12 | Exported Function
+`CIndexManager` | 5 | Exported Function
+`CONFIG` | 2 | Exported Function
+`CIndexManager` | 6 | Exported Function
+`IRetrievalSessionNotify` | 8 | Exported Function
+`CRetrievalSession` | 13 | Exported Function
+`IRetrievalSessionNotify` | 7 | Exported Function
+`IIndexingSessionNotify` | 3 | Exported Function
+`CONFIG` | 19 | Exported Function
+`IQuery` | 23 | Exported Function
+`CIndexingSession` | 11 | Exported Function
+`CIndexManager` | 10 | Exported Function
+`CONFIG` | 1 | Exported Function
+`IIndexingSessionNotify` | 4 | Exported Function
+`getOperator` | 40 | Exported Function
+`wait` | 56 | Exported Function
+`wait` | 55 | Exported Function
+`RESOLUTION` | 53 | Exported Function
+`getPhonetic` | 41 | Exported Function
+`getNumTerms` | 39 | Exported Function
+`documentExists` | 34 | Exported Function
+`IQuery` | 17 | Exported Function
+`CQuery` | 16 | Exported Function
+`EXCEPTION` | 9 | Exported Function
+`CQuery` | 14 | Exported Function
+`addIndexedAudioFile` | 28 | Exported Function
+`addAudioFile` | 27 | Exported Function
+`IQuery` | 15 | Exported Function
 
 
 ## Signature

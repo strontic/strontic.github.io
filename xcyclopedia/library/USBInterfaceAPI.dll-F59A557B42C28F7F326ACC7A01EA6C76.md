@@ -26,25 +26,25 @@ PE256 | `C7B4302A3E55A1550009D4616091A625CBCC32A733FF07952ADEBE29B927B5D0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class IHSEventListener & __thiscall IHSEventListener::operator=(class IHSEventListener const &)` | 10 | Exported Function
-`public: static class std::shared_ptr<class SecomUsbHidAdapterImpl::CUsbHidImpl> __cdecl SecomUsbHidAdapterImpl::CUsbHidImpl::getInstance(class IHSEventListener *,class std::shared_ptr<class SecomLogManager::CLogManager>)` | 18 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 11 | Exported Function
-`public: class HSStackInterface::IStackInterface & __thiscall HSStackInterface::IStackInterface::operator=(class HSStackInterface::IStackInterface const &)` | 12 | Exported Function
-`public: static unsigned long __stdcall SecomUsbHidAdapterImpl::CUsbHidImpl::CreateWindowAndMessageLoop(void)` | 16 | Exported Function
-`public: virtual void __thiscall SecomUsbHidAdapterImpl::CUsbHidImpl::destroy(void)` | 17 | Exported Function
-`public: void __thiscall SecomUsbHidAdapterImpl::CUsbHidImpl::startEventThread(void)` | 19 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 7 | Exported Function
-`public: virtual __thiscall HSStackInterface::IStackInterface::~IStackInterface(void)` | 8 | Exported Function
-`public: class CCommonUtilities & __thiscall CCommonUtilities::operator=(class CCommonUtilities const &)` | 9 | Exported Function
+`operator` | 10 | Exported Function
+`CLogManager` | 18 | Exported Function
+`IHSInterface` | 11 | Exported Function
+`IStackInterface` | 12 | Exported Function
+`CreateWindowAndMessageLoop` | 16 | Exported Function
+`destroy` | 17 | Exported Function
+`startEventThread` | 19 | Exported Function
+`IHSInterface` | 7 | Exported Function
+`IStackInterface` | 8 | Exported Function
+`operator` | 9 | Exported Function
 `const IHSEventListener::``vftable'` | 13 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 3 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 14 | Exported Function
-`const HSStackInterface::IStackInterface::``vftable'` | 15 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 4 | Exported Function
-`public: __thiscall IHSEventListener::IHSEventListener(class IHSEventListener const &)` | 1 | Exported Function
-`public: __thiscall IHSEventListener::IHSEventListener(void)` | 2 | Exported Function
-`public: __thiscall HSStackInterface::IStackInterface::IStackInterface(class HSStackInterface::IStackInterface const &)` | 5 | Exported Function
-`public: __thiscall HSStackInterface::IStackInterface::IStackInterface(void)` | 6 | Exported Function
+`IHSInterface` | 3 | Exported Function
+`IHSInterface` | 14 | Exported Function
+`IStackInterface` | 15 | Exported Function
+`IHSInterface` | 4 | Exported Function
+`IHSEventListener` | 1 | Exported Function
+`IHSEventListener` | 2 | Exported Function
+`IStackInterface` | 5 | Exported Function
+`IStackInterface` | 6 | Exported Function
 
 
 ## Signature

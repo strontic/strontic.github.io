@@ -8,6 +8,10 @@ excerpt: What is SDPESetup.exe?
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDPESetup.exe`
 * Description: Basic configuration for systems running PE
 
+## Screenshot
+
+![SDPESetup.exe](screenshots/SDPESetup.exe-5670AFC902C825722CFE16F281916874-1.png)
+
 ## Hashes
 
 Type | Hash

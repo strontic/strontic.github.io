@@ -26,147 +26,147 @@ PE256 | `D4A4F58D23A1C03B6391DDCE9862CDB5340B677A84C1F58206DD8CE5AAB90CD1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual long __thiscall NumericalSummaryCalculator::HrReset(class SeriesSummary *)` | 107 | Exported Function
-`public: virtual long __thiscall NumericalSummaryCalculator::HrProcess(struct _chartdataitem const *,int)` | 103 | Exported Function
-`public: virtual long __thiscall StringAttributesCalculator::HrReset(class SeriesSummary *)` | 108 | Exported Function
-`public: virtual long __thiscall StringAttributesCalculator::HrProcess(struct _chartdataitem const *,int)` | 104 | Exported Function
-`public: virtual int __thiscall CHART::ACEElementGalleryUser::GetHighlightedItem(void)` | 76 | Exported Function
-`public: virtual class Ofc::TWeakPtr<class Art::IUndoStringMaker> __thiscall ChartAnonymous::CommandAddUndo::GetUndoStringMaker(void)` | 81 | Exported Function
-`public: virtual long __thiscall CountDistinctValuesCalculator::HrReset(class SeriesSummary *)` | 106 | Exported Function
-`public: virtual long __thiscall CountDistinctValuesCalculator::HrProcess(struct _chartdataitem const *,int)` | 102 | Exported Function
-`public: virtual long __thiscall ValueTypeCalculator::HrProcess(struct _chartdataitem const *,int)` | 105 | Exported Function
-`public: virtual void __thiscall NumericalSummaryCalculator::Finalize(int,int)` | 66 | Exported Function
-`public: virtual void __thiscall CountDistinctValuesCalculator::Finalize(int,int)` | 65 | Exported Function
-`public: virtual void __thiscall ValueTypeCalculator::Finalize(int,int)` | 68 | Exported Function
-`public: virtual void __thiscall StringAttributesCalculator::Finalize(int,int)` | 67 | Exported Function
-`public: virtual void __thiscall CHART::InsertChartCommand::AfterE2oActivate(class Ofc::TWeakPtr<class Art::View> const &)` | 12 | Exported Function
-`public: virtual long __thiscall ValueTypeCalculator::HrReset(class SeriesSummary *)` | 109 | Exported Function
-`public: virtual void __thiscall CHART::InsertChartCommand::Perform(class Art::Transaction &,class Art::Selection &)const ` | 124 | Exported Function
-`public: virtual void __thiscall CHART::InsertChartCommand::Duplicate(class Ofc::TOwnerPtr<class Art::Command> &)const ` | 34 | Exported Function
-`public: virtual class Ofc::TWeakPtr<class Art::IUndoStringMaker> __thiscall CHART::InsertChartCommand::GetUndoStringMaker(void)` | 82 | Exported Function
-`public: virtual bool __thiscall CHART::ACEFlyoutGalleryUser::FOnLivePreview(class GalleryItemSP const &,struct IPropertyBag &)const ` | 56 | Exported Function
-`public: virtual bool __thiscall CHART::ACEFlyoutGalleryUser::FOnCommand(class GalleryItemSP &)` | 51 | Exported Function
-`public: virtual bool __thiscall CHART::ACEMoreGalleryUser::FOnCommand(class GalleryItemSP &)` | 52 | Exported Function
-`public: virtual bool __thiscall CHART::ACEFlyoutGalleryUser::FOnPopulating(void)` | 60 | Exported Function
-`public: virtual bool __thiscall CHART::ACEElementGalleryUser::FOnCommand(class GalleryItemSP &)` | 50 | Exported Function
-`public: virtual __thiscall CHART::InsertChartFromDefinitionCommand::~InsertChartFromDefinitionCommand(void)` | 10 | Exported Function
-`public: virtual bool __thiscall CHART::ACEElementGalleryUser::FOnPopulating(void)` | 59 | Exported Function
-`public: virtual bool __thiscall CHART::ACEElementGalleryUser::FOnLivePreview(class GalleryItemSP const &,struct IPropertyBag &)const ` | 55 | Exported Function
-`public: virtual bool __thiscall CHART::ACEMoreGalleryUser::FOnPopulating(void)` | 61 | Exported Function
-`public: virtual bool __thiscall CHART::ChartStylesColorGalleryUser::FOnPopulating(void)` | 63 | Exported Function
-`public: virtual bool __thiscall CHART::ChartStylesColorGalleryUser::FOnLivePreview(class GalleryItemSP const &,struct IPropertyBag &)const ` | 58 | Exported Function
-`public: virtual bool __thiscall ChartViewElementBase::FSetHitInfo(class Art::View::HitTestInfo &)` | 64 | Exported Function
-`public: virtual bool __thiscall CHART::XLChartConversionInfo::FGetTextInfo(class Ofc::TReferringPtr<class Art::TextBody const > &,class Art::TextBodyPropertyBag &)const ` | 41 | Exported Function
-`public: virtual bool __thiscall CHART::ChartPreviewsGalleryUser::FOnLivePreview(class GalleryItemSP const &,struct IPropertyBag &)const ` | 57 | Exported Function
-`public: virtual bool __thiscall CHART::ChartPreviewsGalleryUser::FOnCommand(class GalleryItemSP &)` | 53 | Exported Function
-`public: virtual bool __thiscall CHART::ChartStylesColorGalleryUser::FOnCommand(class GalleryItemSP &)` | 54 | Exported Function
-`public: virtual bool __thiscall CHART::ChartPreviewsGalleryUser::FOnPopulating(void)` | 62 | Exported Function
-`void __stdcall ChartShared::Fini(void)` | 69 | Exported Function
-`void __stdcall Charting::DataLayer::CreateSeriesDimensionInfoProviderForChartType(struct Charting::ChartTypeParams,struct Charting::DataLayer::ISeriesDimensionInfoProvider const * &)` | 32 | Exported Function
-`void __stdcall ChartShared::UI::CreateChartNativeControlUser(class Ofc::TWeakPtr<class Art::UserInterface> const &,class ChartShared::UI::E2oUserInterface const *,struct OfficeSpace::IControl &,class Ofc::TCntPtr<struct OfficeSpace::IDataSource> &)` | 28 | Exported Function
-`void __stdcall ChartShared::Init(void)` | 113 | Exported Function
-`void __stdcall Charting::DataGrid::CreateChartDataSource(struct Charting::DataLayer::IChartDataSource * &)` | 23 | Exported Function
-`void __stdcall Charting::CreatDefaultChartInsert(class Ofc::TCntPtr<class Charting::IDefaultChartInsert> &)` | 17 | Exported Function
-`void __stdcall Charting::DataLayer::CreateChartStringArray(unsigned int,struct Charting::DataLayer::IChartStringArray * &)` | 29 | Exported Function
-`void __stdcall Charting::DataLayer::CreateChartingHostInterfaceFactoryProxy(struct Charting::DataLayer::IHostInterfaceFactory * &)` | 30 | Exported Function
-`void __stdcall ChartShared::UI::CreateChartNativeControlUser2(class Ofc::TWeakPtr<class Art::UserInterface> const &,class ChartShared::UI::E2oUserInterface const *,struct OfficeSpace::IControl2 &,class Ofc::TCntPtr<struct OfficeSpace::IDataSource> &)` | 26 | Exported Function
-`void __stdcall ProtectE2oFrameDrawingElement(class Ofc::TReferringPtr<class Dr::E2oFrameDrawingElement>,bool)` | 125 | Exported Function
-`void __stdcall IvyOffice::CreateAnimator(struct Mso::ApplicationModel::IExecutionContext &,struct IvyOffice::IAnimator * &)` | 19 | Exported Function
-`void __stdcall SetChartClientDataBounds(class Ofc::TReferringPtr<class Dr::IClientData>,class Ofc::CTransaction &,class RectDouble const &)` | 129 | Exported Function
-`void __stdcall RunInsertChartPlyCommand(class Ofc::TReferringPtr<class Art::DocumentContext>,class Ofc::TSharedPtr<class Art::View>,class Ofc::TReferringPtr<class Art::IE2o> const &,int,class Ofc::CStr const &,bool,class Ofc::TWeakPtr<class Art::IE2o> &,bool,int)` | 128 | Exported Function
-`void __stdcall CreateChartClientData(class Ofc::TWeakPtr<class Dr::DrawingE2o>,class Ofc::TOwningPtr<class Dr::IClientData> &)` | 21 | Exported Function
-`void __stdcall ChartUtils::SetHostAppType(enum ChartUtils::HostAppType,bool)` | 132 | Exported Function
-`void __stdcall IvyOffice::CreateAirSpaceChartView(struct Ivy::IChart &,struct AirSpace::ILayer &,struct IvyOffice::IAirSpaceChartViewHost &,struct IvyOffice::IAirSpaceChartView * &)` | 18 | Exported Function
-`void __stdcall GetChartClientDataBounds(class Ofc::TReferringPtr<class Dr::IClientData const >,class RectDouble *)` | 71 | Exported Function
-`void __stdcall ChartEx::NotifyIvyCreate(class Ofc::TReferringPtr<class Art::IE2o> const &)` | 116 | Exported Function
+`HrReset` | 107 | Exported Function
+`HrProcess` | 103 | Exported Function
+`HrReset` | 108 | Exported Function
+`HrProcess` | 104 | Exported Function
+`GetHighlightedItem` | 76 | Exported Function
+`GetUndoStringMaker` | 81 | Exported Function
+`HrReset` | 106 | Exported Function
+`HrProcess` | 102 | Exported Function
+`HrProcess` | 105 | Exported Function
+`Finalize` | 66 | Exported Function
+`Finalize` | 65 | Exported Function
+`Finalize` | 68 | Exported Function
+`Finalize` | 67 | Exported Function
+`View` | 12 | Exported Function
+`HrReset` | 109 | Exported Function
+`Selection` | 124 | Exported Function
+`Command` | 34 | Exported Function
+`GetUndoStringMaker` | 82 | Exported Function
+`FOnLivePreview` | 56 | Exported Function
+`FOnCommand` | 51 | Exported Function
+`FOnCommand` | 52 | Exported Function
+`FOnPopulating` | 60 | Exported Function
+`FOnCommand` | 50 | Exported Function
+`InsertChartFromDefinitionCommand` | 10 | Exported Function
+`FOnPopulating` | 59 | Exported Function
+`FOnLivePreview` | 55 | Exported Function
+`FOnPopulating` | 61 | Exported Function
+`FOnPopulating` | 63 | Exported Function
+`FOnLivePreview` | 58 | Exported Function
+`HitTestInfo` | 64 | Exported Function
+`TextBodyPropertyBag` | 41 | Exported Function
+`FOnLivePreview` | 57 | Exported Function
+`FOnCommand` | 53 | Exported Function
+`FOnCommand` | 54 | Exported Function
+`FOnPopulating` | 62 | Exported Function
+`Fini` | 69 | Exported Function
+`ISeriesDimensionInfoProvider` | 32 | Exported Function
+`IDataSource` | 28 | Exported Function
+`Init` | 113 | Exported Function
+`IChartDataSource` | 23 | Exported Function
+`IDefaultChartInsert` | 17 | Exported Function
+`IChartStringArray` | 29 | Exported Function
+`IHostInterfaceFactory` | 30 | Exported Function
+`IDataSource` | 26 | Exported Function
+`E2oFrameDrawingElement` | 125 | Exported Function
+`IAnimator` | 19 | Exported Function
+`CTransaction` | 129 | Exported Function
+`IE2o` | 128 | Exported Function
+`IClientData` | 21 | Exported Function
+`HostAppType` | 132 | Exported Function
+`IAirSpaceChartView` | 18 | Exported Function
+`IClientData` | 71 | Exported Function
+`IE2o` | 116 | Exported Function
 `void * __stdcall GetPChChartSpaceFromE2oPtr(class ChartE2o const *)` | 79 | Exported Function
-`struct IMsoChart * __stdcall CHART::GetChartObject(void *)` | 72 | Exported Function
-`void __stdcall CHART::CheckChartE2oCompat(class Ofc::TReferringPtr<class Art::IE2o>,class Ofc::TMap<unsigned int,unsigned int> *)` | 14 | Exported Function
-`void * __stdcall GetPChChartSpaceFromE2oRef(class Ofc::TReferringPtr<class ChartE2o const > const &)` | 80 | Exported Function
-`public: void __thiscall ChartOper::Free(void)` | 70 | Exported Function
-`public: void __thiscall CHART::ACEMoreGalleryUser::ResetImage(int,bool)` | 126 | Exported Function
-`struct Art::IChartComponent * __stdcall CHART::CreateChartComponent(void)` | 22 | Exported Function
-`public: void __thiscall ChartOper::Initialize(void)` | 114 | Exported Function
-`void __stdcall CHART::CreateChartE2o(class Ofc::TReferringPtr<class Art::DocumentContext> const &,class Ofc::TOwningPtr<class Art::IE2o> &)` | 24 | Exported Function
-`void __stdcall CHART::SetOMHost(void *,void *)` | 134 | Exported Function
-`void __stdcall CHART::SetInsertChartCommandOutput(class Ofc::TOwnerPtr<class Art::InsertE2oCommand> const &,class Ofc::TSharedPtr<class Ofc::TWeakPtr<class Art::IE2o> > const &)` | 133 | Exported Function
-`void __stdcall ChartEx::CreateIvyE2o(class Ofc::TReferringPtr<class Art::DocumentContext> const &,class Ofc::TOwningPtr<class Art::IE2o> &)` | 31 | Exported Function
-`void __stdcall CHART::SetOMWrapper(void *,struct IDispatch *)` | 135 | Exported Function
-`void __stdcall CHART::Details::SetFAllowCloseDataGrid(int)` | 130 | Exported Function
-`void __stdcall CHART::CreateChartNativeControlUser(class Ofc::TWeakPtr<class Art::UserInterface> const &,class ChartShared::UI::E2oUserInterface const *,struct OfficeSpace::IControl &,class Ofc::TCntPtr<struct OfficeSpace::IDataSource> &)` | 27 | Exported Function
-`void __stdcall CHART::SetHinstChartResourceAndLcidForTests(struct HINSTANCE__ *,unsigned long)` | 131 | Exported Function
-`void __stdcall CHART::Details::TermChartAtlModule(void)` | 136 | Exported Function
-`public: virtual __thiscall CHART::InsertChartCommand::~InsertChartCommand(void)` | 9 | Exported Function
-`long __stdcall CHART::GetMSODispatchFromChDispatchWrapper(struct IDispatch *,int,struct IDispatch * *,void *)` | 77 | Exported Function
-`long __stdcall CHART::GetEnumObjectForBobj(long (__stdcall*)(struct IUnknown *,int *),long (__stdcall*)(struct IUnknown *,struct tagVARIANT,struct IUnknown * *),struct IUnknown *,struct IUnknown * *,int)` | 74 | Exported Function
-`long __stdcall CHART::HrConvertToOleChart(class Ofc::TReferringPtr<class Art::IE2o>,struct IUnknown * *,struct IStorage * *,class Art::Rect64 const &,bool)` | 90 | Exported Function
-`long __stdcall CHART::HrConvertToChartE2o(class Ofc::TReferringPtr<class Art::DocumentContext> const &,class Art::ShapePropertyBag const &,class Ofc::TReferringPtr<struct IMsoDrawing> const &,struct MSOSP * const,struct IStorage *,struct IUnknown * *,bool,class Art::Rect64 const *,class Ofc::TOwningPtr<class Art::IE2o> &,class Art::Rect64 &,enum ChartRecolor)` | 89 | Exported Function
-`int __stdcall GUIAddRemoveHelper::IsValid(enum ChartGUIAddRemoveEnum,struct ChChart *)` | 115 | Exported Function
-`int __stdcall ChartUtils::CmdChartTypeFromOwcTypeAsInt(enum ChartChartTypeEnum)` | 16 | Exported Function
-`long __stdcall CHART::Details::HrCloseDataGridForHostDoc(void const *)` | 88 | Exported Function
-`long __stdcall CHART::Details::HrChartActivateOrDeactivateDataGrid(int,struct HWND__ *)` | 87 | Exported Function
-`long __stdcall CHART::HrGetChAxis(void *,enum XlAxisType,enum XlAxisGroup,void * *)` | 94 | Exported Function
-`long __stdcall ChartApi::HrCreateApiChart(class Art::IE2o *,class Mso::TCntPtr<struct ChartApi::IApiChart> &)` | 92 | Exported Function
-`long __stdcall ChartApi::FormatHelper::HrRgbHexOrEmptyFromChartColor(struct tagVARIANT const *,struct tagVARIANT *)` | 110 | Exported Function
-`long __stdcall GUIAddRemoveHelper::ApplyGUI(enum ChartGUIAddRemoveEnum,struct ChChart *,bool,int)` | 13 | Exported Function
-`long __stdcall ChartApiCommand::HrNewChart(class Art::DocumentContext *,int,struct Mso::BI::IDataSourceDefinition *,class Ofc::TWeakPtr<class Art::IE2o> &,class Ofc::TWeakPtr<class Art::View> const &)` | 99 | Exported Function
-`long __stdcall ChartApi::FormatHelper::HrBstrColorToRgb(wchar_t * const,int *)` | 84 | Exported Function
-`long __stdcall CHART::HrSetDefaultChart(struct tagVARIANT)` | 112 | Exported Function
-`long __stdcall ChartApi::FormatHelper::HrIntToRgbHex(int,wchar_t * *)` | 97 | Exported Function
-`long __stdcall ChartApi::FormatHelper::HrBstrColorToRgbBytes(wchar_t * const,unsigned char &,unsigned char &,unsigned char &)` | 85 | Exported Function
-`int __stdcall ChartApi::FormatHelper::RgbBytesToInt(unsigned char,unsigned char,unsigned char)` | 127 | Exported Function
-`bool __stdcall FIsDecoupledPivotChartDrawingElement(class Ofc::TReferringPtr<class Dr::DrawingElement> const &)` | 44 | Exported Function
-`bool __stdcall FIsChartClientData(class Ofc::TReferringPtr<class Dr::IClientData const > const &)` | 43 | Exported Function
-`class Art::IE2o * __stdcall PChartE2oFromPChChartSpaceVoid(void const *)` | 123 | Exported Function
-`bool __stdcall FMustDrawChartE2o(class Ofc::TWeakPtr<class Art::IE2o const > const &,class Art::View const &)` | 49 | Exported Function
-`bool __stdcall CHART::Details::FChartDataGridAllowClickThroughOnHost(void)` | 38 | Exported Function
-`bool __stdcall CHART::CreateBlankChartE2o(class Ofc::TReferringPtr<class Art::DocumentContext> const &,class Ofc::TOwningPtr<class Art::IE2o> &)` | 20 | Exported Function
-`bool __stdcall ChartShared::FIsSupportedPivotChart(enum tagXlChartType)` | 47 | Exported Function
-`bool __stdcall ChartShared::FIsIvyChartType(enum tagXlChartType)` | 46 | Exported Function
-`class Mso::TCntPtr<struct Mso::BI::IVisualClass> __stdcall Charting::EnsureChartE2oVisualClass(void)` | 36 | Exported Function
+`GetChartObject` | 72 | Exported Function
+`TMap` | 14 | Exported Function
+`TReferringPtr` | 80 | Exported Function
+`Free` | 70 | Exported Function
+`ResetImage` | 126 | Exported Function
+`CreateChartComponent` | 22 | Exported Function
+`Initialize` | 114 | Exported Function
+`IE2o` | 24 | Exported Function
+`SetOMHost` | 134 | Exported Function
+`IE2o` | 133 | Exported Function
+`IE2o` | 31 | Exported Function
+`SetOMWrapper` | 135 | Exported Function
+`SetFAllowCloseDataGrid` | 130 | Exported Function
+`IDataSource` | 27 | Exported Function
+`SetHinstChartResourceAndLcidForTests` | 131 | Exported Function
+`TermChartAtlModule` | 136 | Exported Function
+`InsertChartCommand` | 9 | Exported Function
+`GetMSODispatchFromChDispatchWrapper` | 77 | Exported Function
+`GetEnumObjectForBobj` | 74 | Exported Function
+`Rect64` | 90 | Exported Function
+`Rect64` | 89 | Exported Function
+`IsValid` | 115 | Exported Function
+`CmdChartTypeFromOwcTypeAsInt` | 16 | Exported Function
+`HrCloseDataGridForHostDoc` | 88 | Exported Function
+`HrChartActivateOrDeactivateDataGrid` | 87 | Exported Function
+`HrGetChAxis` | 94 | Exported Function
+`IApiChart` | 92 | Exported Function
+`HrRgbHexOrEmptyFromChartColor` | 110 | Exported Function
+`ApplyGUI` | 13 | Exported Function
+`View` | 99 | Exported Function
+`HrBstrColorToRgb` | 84 | Exported Function
+`HrSetDefaultChart` | 112 | Exported Function
+`HrIntToRgbHex` | 97 | Exported Function
+`HrBstrColorToRgbBytes` | 85 | Exported Function
+`RgbBytesToInt` | 127 | Exported Function
+`DrawingElement` | 44 | Exported Function
+`IClientData` | 43 | Exported Function
+`IE2o` | 123 | Exported Function
+`View` | 49 | Exported Function
+`FChartDataGridAllowClickThroughOnHost` | 38 | Exported Function
+`IE2o` | 20 | Exported Function
+`FIsSupportedPivotChart` | 47 | Exported Function
+`FIsIvyChartType` | 46 | Exported Function
+`EnsureChartE2oVisualClass` | 36 | Exported Function
 `DllRegisterServer` | 140 | Exported Function
 `DllGetClassObject` | 139 | Exported Function
-`int __stdcall CHART::GetChartTypeFromInsertChartCommand(class Ofc::TOwnerPtr<class Art::InsertE2oCommand> const &)` | 73 | Exported Function
+`InsertE2oCommand` | 73 | Exported Function
 `DllUnregisterServer` | 141 | Exported Function
-`class Ofc::TCntPtr<class Charting::IChartFactory> __stdcall Charting::CreateChartFactory(void)` | 25 | Exported Function
-`class Mso::TCntPtr<struct Mso::BI::IVisualClass> __stdcall Charting::EnsureIvyE2oVisualClass(void)` | 37 | Exported Function
+`CreateChartFactory` | 25 | Exported Function
+`EnsureIvyE2oVisualClass` | 37 | Exported Function
 `DllCanUnloadNow` | 138 | Exported Function
-`class Ofc::TCntPtr<struct IMsoChart> __stdcall ChartShared::GetMsoChart(class Art::IE2o &,class Art::IOMHost *)` | 78 | Exported Function
-`public: __thiscall DatasetSummaryCollection::DatasetSummaryCollection(void)` | 4 | Exported Function
-`public: __thiscall ChartInitHelper::ChartInitHelper(void)` | 2 | Exported Function
-`public: __thiscall StringAttributesCalculator::StringAttributesCalculator(void)` | 7 | Exported Function
+`IOMHost` | 78 | Exported Function
+`DatasetSummaryCollection` | 4 | Exported Function
+`ChartInitHelper` | 2 | Exported Function
+`StringAttributesCalculator` | 7 | Exported Function
 `public: __thiscall DatasetSummaryCollection::~DatasetSummaryCollection(void)` | 8 | Exported Function
-`public: __thiscall CHART::ChartOMDrawingTarget::ChartOMDrawingTarget(class Ofc::TWeakPtr<class Art::IE2o> const &)` | 3 | Exported Function
-`public: __thiscall CHART::ACEElementGalleryUser::ACEElementGalleryUser(class GalleryDSSP const &,class CHART::ACECalloutRunner &)` | 1 | Exported Function
-`public: __thiscall CHART::InsertChartFromDefinitionCommand::InsertChartFromDefinitionCommand(class Ofc::TWeakPtr<class Art::DocumentContext> const &,class Ofc::TWeakPtr<class Art::IE2o> const &,class Ofc::TWeakPtr<class Art::UserInterface> const &,class Ofc::TWeakPtr<struct ICrtSugMan> const &,int,int,class Ofc::CStr const &,bool,class Ofc::TWeakPtr<class Art::IE2o> const &,bool,bool,bool,int,bool,struct Mso::BI::IDataSourceDefinition *)` | 6 | Exported Function
-`public: __thiscall CHART::InsertChartCommand::InsertChartCommand(class Ofc::TWeakPtr<class Art::DocumentContext> const &,class Ofc::TWeakPtr<class Art::IE2o> const &,class Ofc::TWeakPtr<class Art::UserInterface> const &,class Ofc::TWeakPtr<struct ICrtSugMan> const &,int,int,class Ofc::CStr const &,bool,class Ofc::TWeakPtr<class Art::IE2o> const &,bool,bool,bool,int,bool)` | 5 | Exported Function
+`IE2o` | 3 | Exported Function
+`ACECalloutRunner` | 1 | Exported Function
+`IDataSourceDefinition` | 6 | Exported Function
+`IE2o` | 5 | Exported Function
 `public: __thiscall StringAttributesCalculator::~StringAttributesCalculator(void)` | 11 | Exported Function
-`public: static long __stdcall ChartShared::Styles::ChartStyleCollection::HrInitializeStyles(void)` | 96 | Exported Function
-`public: static bool __stdcall ChartHelper::FChartShapeSelected(class Art::Selection const &)` | 39 | Exported Function
-`public: static void __stdcall ChartWrapper::DeleteSLRenderer(class SparklineRenderer *)` | 33 | Exported Function
-`public: static long __stdcall ChartWrapper::HrNewSLRenderer(class SparklineRenderer * *)` | 100 | Exported Function
-`public: long __thiscall DatasetSummaryCollection::HrCalculate(int,class CrtNFManager *,struct Gfx::IAbortSignal const *)` | 86 | Exported Function
-`public: int __thiscall ChartInitHelper::FInit(void)` | 42 | Exported Function
-`public: long __thiscall SeriesSummary::HrInit(void)` | 95 | Exported Function
-`public: long __thiscall DatasetSummaryCollection::HrCopyCdcs(struct _chartdatacolumns const *)` | 91 | Exported Function
-`protected: void __thiscall StringAttributesCalculator::CheckLocaleInfo(wchar_t *,bool &,bool &)` | 15 | Exported Function
-`private: virtual class Ofc::TWeakPtr<class Art::ITextLayout> __thiscall ChartTextFrame::GetWysiwygLayout(void)const ` | 83 | Exported Function
-`private: int __thiscall CHART::ACEFlyoutGalleryUser::GetFlyoutIndex(int)const ` | 75 | Exported Function
-`private: virtual void __thiscall ChartTextEditorTextSelection::Validate(void)` | 137 | Exported Function
-`private: virtual void * __thiscall ChartTextEditorTextSelection::OnQuerySelectionInfo(class Ofc::TypeInfo const &)` | 122 | Exported Function
-`long __stdcall HrLensChartAdvisor(class ILensChartAdvisor * *,class Ofc::TWeakPtr<class Art::UserInterface> const &)` | 98 | Exported Function
-`long __stdcall HrForecastChartGenerator(class IForecastChartGenerator * *,struct FlexUI::IDataSource *,int,class Ofc::TWeakPtr<class Art::UserInterface> const &,class ILocaleInfo const *)` | 93 | Exported Function
-`long __stdcall HrRunCalculators(class ISeriesCalculator * *,int,class IDataIterator &,class DatasetSummary const *,int,int,class SeriesSummary &,struct Gfx::IAbortSignal const *)` | 111 | Exported Function
+`HrInitializeStyles` | 96 | Exported Function
+`Selection` | 39 | Exported Function
+`DeleteSLRenderer` | 33 | Exported Function
+`HrNewSLRenderer` | 100 | Exported Function
+`IAbortSignal` | 86 | Exported Function
+`FInit` | 42 | Exported Function
+`HrInit` | 95 | Exported Function
+`HrCopyCdcs` | 91 | Exported Function
+`CheckLocaleInfo` | 15 | Exported Function
+`GetWysiwygLayout` | 83 | Exported Function
+`GetFlyoutIndex` | 75 | Exported Function
+`Validate` | 137 | Exported Function
+`TypeInfo` | 122 | Exported Function
+`UserInterface` | 98 | Exported Function
+`UserInterface` | 93 | Exported Function
+`IAbortSignal` | 111 | Exported Function
 `long __stdcall HrNewSparklineManager(class SparklineRenderer * *,int,int)` | 101 | Exported Function
-`protected: int __thiscall ExVectorVoid::FIsExceptionItem(int)const ` | 45 | Exported Function
-`protected: virtual struct Ofc::CObject::CRuntimeClass const & __thiscall ChartAnonymous::CommandAddUndo::OnGetRuntimeClass(void)const ` | 119 | Exported Function
-`protected: virtual struct Ofc::CObject::CRuntimeClass const & __thiscall CHART::InsertChartCommandBase::OnGetRuntimeClass(void)const ` | 121 | Exported Function
-`protected: void * __thiscall ExVectorVoid::ElementAt(int)` | 35 | Exported Function
-`protected: virtual struct Ofc::CObject::CRuntimeClass const & __thiscall ChartDrawingEditor::OnGetRuntimeClass(void)const ` | 117 | Exported Function
-`protected: static int __stdcall StringAttributesCalculator::FMatch(wchar_t const *,enum RegularExpressions)` | 48 | Exported Function
-`protected: static int __stdcall StringAttributesCalculator::FExtractFirstDouble(wchar_t const *,enum RegularExpressions,double &)` | 40 | Exported Function
-`protected: virtual struct Ofc::CObject::CRuntimeClass const & __thiscall CHART::InsertChartCommand::OnGetRuntimeClass(void)const ` | 120 | Exported Function
-`protected: virtual struct Ofc::CObject::CRuntimeClass const & __thiscall CHART::ChartOMDrawingTarget::OnGetRuntimeClass(void)const ` | 118 | Exported Function
+`FIsExceptionItem` | 45 | Exported Function
+`OnGetRuntimeClass` | 119 | Exported Function
+`OnGetRuntimeClass` | 121 | Exported Function
+`ElementAt` | 35 | Exported Function
+`OnGetRuntimeClass` | 117 | Exported Function
+`FMatch` | 48 | Exported Function
+`FExtractFirstDouble` | 40 | Exported Function
+`OnGetRuntimeClass` | 120 | Exported Function
+`OnGetRuntimeClass` | 118 | Exported Function
 
 
 ## Signature

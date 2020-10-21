@@ -26,445 +26,445 @@ PE256 | `40C1154D34AE255F05C977B7C1DD6D9B80610BAA18CE642CB1EB59CEC15E05A2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::compare(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)const ` | 350 | Exported Function
-`public: long __thiscall std::_Ptr_base<void>::use_count(void)const ` | 437 | Exported Function
-`public: static class WBCCListener::CWBCCManager * __cdecl WBCCListener::CWBCCManager::GetWBCCManagerInstance(class ISFEventListener *,bool,class WBCCListener::IWBCCFactory *,unsigned int,unsigned int,unsigned int,unsigned int)` | 135 | Exported Function
-`public: int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::compare(unsigned int,unsigned int,char const *)const ` | 351 | Exported Function
-`public: int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::compare(unsigned int,unsigned int,char const *,unsigned int)const ` | 352 | Exported Function
-`public: int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::compare(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 349 | Exported Function
-`public: static unsigned int __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Pdif(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 302 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy_s(char *,unsigned int,unsigned int,unsigned int)const ` | 233 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::capacity(void)const ` | 344 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::copy(char *,unsigned int,unsigned int)const ` | 354 | Exported Function
-`public: static unsigned int const std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::npos` | 403 | Exported Function
-`public: static void __cdecl WBCCListener::CWBCCManager::DestroyWBCCManager(void)` | 118 | Exported Function
-`public: struct std::_Wrap_alloc<class std::allocator<char> > __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Getal(void)const ` | 241 | Exported Function
-`public: int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::compare(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 348 | Exported Function
-`public: class std::reverse_iterator<class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::crend(void)const ` | 356 | Exported Function
-`public: class std::reverse_iterator<class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rbegin(void)const ` | 407 | Exported Function
-`public: class std::reverse_iterator<class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rend(void)const ` | 409 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::substr(unsigned int,unsigned int)const ` | 434 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall CRestAPI::GetRestAPI(void)` | 127 | Exported Function
-`public: class std::reverse_iterator<class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::crbegin(void)const ` | 355 | Exported Function
-`public: class std::reverse_iterator<class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rbegin(void)` | 406 | Exported Function
-`public: class WBCCListener::CWBCCManager & __thiscall WBCCListener::CWBCCManager::operator=(class WBCCListener::CWBCCManager const &)` | 58 | Exported Function
-`public: int __thiscall CRestAPI::GetRestAPIValue(void)const ` | 129 | Exported Function
-`public: int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::compare(char const *)const ` | 353 | Exported Function
-`public: class std::reverse_iterator<class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rend(void)` | 408 | Exported Function
-`public: class std::shared_ptr<void> __thiscall std::weak_ptr<void>::lock(void)const ` | 401 | Exported Function
-`public: class std::weak_ptr<void> & __thiscall std::weak_ptr<void>::operator=(class std::weak_ptr<void> const &)` | 57 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_of(char const *,unsigned int,unsigned int)const ` | 385 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_of(char,unsigned int)const ` | 383 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_of(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)const ` | 382 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_not_of(char,unsigned int)const ` | 379 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_not_of(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)const ` | 378 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_of(char const *,unsigned int)const ` | 384 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::length(void)const ` | 400 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rfind(char,unsigned int)const ` | 429 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rfind(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)const ` | 428 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::size(void)const ` | 433 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::max_size(void)const ` | 402 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rfind(char const *,unsigned int)const ` | 430 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::rfind(char const *,unsigned int,unsigned int)const ` | 431 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_not_of(char const *,unsigned int,unsigned int)const ` | 381 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)const ` | 366 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_not_of(char const *,unsigned int)const ` | 372 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_not_of(char const *,unsigned int,unsigned int)const ` | 373 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find(char const *,unsigned int)const ` | 368 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find(char const *,unsigned int,unsigned int)const ` | 369 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find(char,unsigned int)const ` | 367 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_not_of(char,unsigned int)const ` | 371 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_of(char,unsigned int)const ` | 375 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_of(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)const ` | 374 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_last_not_of(char const *,unsigned int)const ` | 380 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_not_of(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)const ` | 370 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_of(char const *,unsigned int)const ` | 376 | Exported Function
-`public: unsigned int __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::find_first_of(char const *,unsigned int,unsigned int)const ` | 377 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CRestAPI::GetRestAPIL(void)` | 128 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *,unsigned int)` | 334 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 335 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)` | 328 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(unsigned int,char)` | 322 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *)` | 333 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *,char const *)` | 332 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 329 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int)` | 363 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int,unsigned int)` | 364 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned int,char const *)` | 398 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)` | 330 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::initializer_list<char>)` | 336 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(unsigned int,char)` | 331 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(class std::initializer_list<char>)` | 327 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::initializer_list<char>)` | 394 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,unsigned int,char)` | 392 | Exported Function
-`public: class std::_String_val<struct std::_Simple_types<char> > & __thiscall std::_String_val<struct std::_Simple_types<char> >::operator=(class std::_String_val<struct std::_Simple_types<char> > const &)` | 51 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char const *,char const *)` | 393 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char)` | 391 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 389 | Exported Function
-`public: class std::allocator<char> __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::get_allocator(void)const ` | 388 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 326 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 320 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)` | 321 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(char const *)` | 324 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(char const *,char const *)` | 323 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(char const *,unsigned int)` | 325 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 415 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 422 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 416 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char const *)` | 420 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char const *,char const *)` | 419 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char const *,unsigned int)` | 421 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::initializer_list<char>)` | 423 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 410 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)` | 411 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,unsigned int,char)` | 412 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,unsigned int,char)` | 417 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,char const *)` | 413 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(unsigned int,unsigned int,char const *,unsigned int)` | 414 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::replace(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char *,char *)` | 418 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned int,unsigned int,char)` | 397 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator+=(char const *)` | 65 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator+=(char)` | 64 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned int,char const *,unsigned int)` | 399 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 395 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)` | 396 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator+=(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 63 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator=(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)` | 52 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator=(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 53 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator=(class std::initializer_list<char>)` | 56 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator+=(class std::initializer_list<char>)` | 66 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator=(char const *)` | 55 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator=(char)` | 54 | Exported Function
+`allocator` | 350 | Exported Function
+`use_count` | 437 | Exported Function
+`IWBCCFactory` | 135 | Exported Function
+`compare` | 351 | Exported Function
+`compare` | 352 | Exported Function
+`allocator` | 349 | Exported Function
+`_Simple_types` | 302 | Exported Function
+`_Copy_s` | 233 | Exported Function
+`capacity` | 344 | Exported Function
+`copy` | 354 | Exported Function
+`npos` | 403 | Exported Function
+`DestroyWBCCManager` | 118 | Exported Function
+`_Getal` | 241 | Exported Function
+`allocator` | 348 | Exported Function
+`crend` | 356 | Exported Function
+`rbegin` | 407 | Exported Function
+`rend` | 409 | Exported Function
+`substr` | 434 | Exported Function
+`GetRestAPI` | 127 | Exported Function
+`crbegin` | 355 | Exported Function
+`rbegin` | 406 | Exported Function
+`CWBCCManager` | 58 | Exported Function
+`GetRestAPIValue` | 129 | Exported Function
+`compare` | 353 | Exported Function
+`rend` | 408 | Exported Function
+`lock` | 401 | Exported Function
+`weak_ptr` | 57 | Exported Function
+`find_last_of` | 385 | Exported Function
+`find_last_of` | 383 | Exported Function
+`allocator` | 382 | Exported Function
+`find_last_not_of` | 379 | Exported Function
+`allocator` | 378 | Exported Function
+`find_last_of` | 384 | Exported Function
+`length` | 400 | Exported Function
+`rfind` | 429 | Exported Function
+`allocator` | 428 | Exported Function
+`size` | 433 | Exported Function
+`max_size` | 402 | Exported Function
+`rfind` | 430 | Exported Function
+`rfind` | 431 | Exported Function
+`find_last_not_of` | 381 | Exported Function
+`allocator` | 366 | Exported Function
+`find_first_not_of` | 372 | Exported Function
+`find_first_not_of` | 373 | Exported Function
+`find` | 368 | Exported Function
+`find` | 369 | Exported Function
+`find` | 367 | Exported Function
+`find_first_not_of` | 371 | Exported Function
+`find_first_of` | 375 | Exported Function
+`allocator` | 374 | Exported Function
+`find_last_not_of` | 380 | Exported Function
+`allocator` | 370 | Exported Function
+`find_first_of` | 376 | Exported Function
+`find_first_of` | 377 | Exported Function
+`GetRestAPIL` | 128 | Exported Function
+`assign` | 334 | Exported Function
+`_Simple_types` | 335 | Exported Function
+`allocator` | 328 | Exported Function
+`append` | 322 | Exported Function
+`assign` | 333 | Exported Function
+`assign` | 332 | Exported Function
+`allocator` | 329 | Exported Function
+`erase` | 363 | Exported Function
+`erase` | 364 | Exported Function
+`insert` | 398 | Exported Function
+`allocator` | 330 | Exported Function
+`initializer_list` | 336 | Exported Function
+`assign` | 331 | Exported Function
+`initializer_list` | 327 | Exported Function
+`initializer_list` | 394 | Exported Function
+`_Simple_types` | 392 | Exported Function
+`_Simple_types` | 51 | Exported Function
+`_Simple_types` | 393 | Exported Function
+`_Simple_types` | 391 | Exported Function
+`_Simple_types` | 389 | Exported Function
+`get_allocator` | 388 | Exported Function
+`_Simple_types` | 326 | Exported Function
+`allocator` | 320 | Exported Function
+`allocator` | 321 | Exported Function
+`append` | 324 | Exported Function
+`append` | 323 | Exported Function
+`append` | 325 | Exported Function
+`_Simple_types` | 415 | Exported Function
+`_Simple_types` | 422 | Exported Function
+`allocator` | 416 | Exported Function
+`_Simple_types` | 420 | Exported Function
+`_Simple_types` | 419 | Exported Function
+`_Simple_types` | 421 | Exported Function
+`initializer_list` | 423 | Exported Function
+`allocator` | 410 | Exported Function
+`allocator` | 411 | Exported Function
+`replace` | 412 | Exported Function
+`_Simple_types` | 417 | Exported Function
+`replace` | 413 | Exported Function
+`replace` | 414 | Exported Function
+`_Simple_types` | 418 | Exported Function
+`insert` | 397 | Exported Function
+`operator` | 65 | Exported Function
+`operator` | 64 | Exported Function
+`insert` | 399 | Exported Function
+`allocator` | 395 | Exported Function
+`allocator` | 396 | Exported Function
+`allocator` | 63 | Exported Function
+`allocator` | 52 | Exported Function
+`allocator` | 53 | Exported Function
+`initializer_list` | 56 | Exported Function
+`initializer_list` | 66 | Exported Function
+`operator` | 55 | Exported Function
+`operator` | 54 | Exported Function
 `public: virtual __thiscall CRestAPI::~CRestAPI(void)` | 42 | Exported Function
-`public: void * __thiscall std::_Ptr_base<void>::_Get_deleter(class type_info const &)const ` | 240 | Exported Function
-`public: void __thiscall CRestAPI::AddChildAPI(class CRestAPI *)` | 78 | Exported Function
-`public: void __thiscall CRestAPI::HandleRequest(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class Poco::Net::HTTPServerRequest &,class Poco::Net::HTTPServerResponse &)` | 153 | Exported Function
-`public: virtual void __thiscall SeComRestSF::CRestSFHandler::GetSFIconPath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)const ` | 130 | Exported Function
-`public: virtual void __thiscall SeComRestSF::CRestSFHandler::GetSFName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)const ` | 131 | Exported Function
-`public: void * __thiscall std::_Ptr_base<void>::_Get(void)const ` | 238 | Exported Function
-`public: void __thiscall CRestAPI::RemoveChildAPI(class CRestAPI *,bool)` | 181 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Decref(void)` | 234 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Decwref(void)` | 235 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Reset(void *,class std::_Ref_count_base *)` | 305 | Exported Function
-`public: void __thiscall SeComRestSF::CRestSFHandler::SetMuteStatus(bool)` | 218 | Exported Function
-`public: void __thiscall SeComRestSF::CRestSFHandler::writeToLog(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 438 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Assign_rv(class std::_Ptr_base<void> &&)` | 227 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::WSSoftPhoneUnRegister(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 226 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::ConfCallEnded(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 107 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::ConfCallOnHold(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 110 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::ConfCallResumed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 113 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallRejected(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 98 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallResumed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 101 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::ConfCallCreated(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 104 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::DisableLogging(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 120 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::RedialLastUserResponse(int,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 179 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::WSSoftPhoneConnectionChanged(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 222 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::WSSoftPhoneRegister(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 224 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::DNDCallAccepted(int,enum WBCC::CallDirection,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 116 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::EnableLogging(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 123 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::OffHookResponse(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 173 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::pop_back(void)` | 404 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::push_back(char)` | 405 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::reserve(unsigned int)` | 424 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xlen(void)const ` | 315 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xran(void)const ` | 316 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::clear(void)` | 347 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::resize(unsigned int)` | 426 | Exported Function
-`public: void __thiscall std::weak_ptr<void>::reset(void)` | 425 | Exported Function
-`public: void __thiscall std::weak_ptr<void>::swap(class std::weak_ptr<void> &)` | 436 | Exported Function
-`public: void __thiscall WBCCListener::CWBCCManager::writeToLog(enum SecomLogManager::LogTypes,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 439 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::resize(unsigned int,char)` | 427 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::shrink_to_fit(void)` | 432 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::swap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 435 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Tidy(bool,unsigned int)` | 314 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Resetw(void)` | 308 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Swap(class std::_Ptr_base<void> &)` | 311 | Exported Function
-`public: void __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Change_alloc(struct std::_Wrap_alloc<class std::allocator<char> > const &)` | 230 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Reset(void *,class std::_Ref_count_base *,bool)` | 306 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Reset(void)` | 307 | Exported Function
-`public: void __thiscall std::_Ptr_base<void>::_Reset0(void *,class std::_Ref_count_base *)` | 304 | Exported Function
-`public: void __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Swap_alloc(class std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > > &)` | 312 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int,unsigned int)` | 232 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Eos(unsigned int)` | 236 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Swap_bx(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 313 | Exported Function
-`public: void __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::``default constructor closure'(void)` | 74 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Assign_rv(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)` | 228 | Exported Function
-`public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Chassign(unsigned int,unsigned int,char)` | 231 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallMuted(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 95 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::DisableLogging(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 121 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::DNDCallAccepted(int,enum WBCC::CallDirection,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 117 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::EnableLogging(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 124 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::ConfCallEnded(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 108 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::ConfCallOnHold(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 111 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::ConfCallResumed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 114 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::GetSystemInformation(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 134 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::RESTSoftPhoneConnectionChanged(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 175 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::RESTSoftPhoneRegister(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 176 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::RESTSoftPhoneUnRegister(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 177 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::HandleMessage(enum WBCC::WBCCEvents,class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 150 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::OffHookResponse(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 174 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::RedialLastUserResponse(int,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 180 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::ConfCallCreated(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 105 | Exported Function
-`public: virtual bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::GetSystemInformation(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 133 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::ActiveDeviceChanged(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 77 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallAccepted(int,enum WBCC::CallDirection,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 81 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 45 | Exported Function
-`public: virtual __thiscall SeComRestSF::CRestSFHandler::~CRestSFHandler(void)` | 43 | Exported Function
-`public: virtual bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::GetSystemInformation(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 132 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallCreated(enum WBCC::CallDirection,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 84 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallMuted(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 96 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallRejected(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 99 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallResumed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 102 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallEnded(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 87 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallFailed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 90 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::CallHeld(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 93 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::RedialLastUserResponse(int,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 178 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::WSSoftPhoneConnectionChanged(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 221 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::WSSoftPhoneRegister(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 223 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::DNDCallAccepted(int,enum WBCC::CallDirection,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 115 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::EnableLogging(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 122 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::OffHookResponse(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 172 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::WSSoftPhoneUnRegister(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 225 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallEnded(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 86 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallFailed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 89 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallHeld(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 92 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::ActiveDeviceChanged(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 76 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallAccepted(int,enum WBCC::CallDirection,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 80 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CallCreated(enum WBCC::CallDirection,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 83 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::DisableLogging(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 119 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallEnded(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 85 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallFailed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 88 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallHeld(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 91 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::ActiveDeviceChanged(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 75 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallAccepted(int,enum WBCC::CallDirection,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 79 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallCreated(enum WBCC::CallDirection,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 82 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallMuted(bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 94 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::ConfCallEnded(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 106 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::ConfCallOnHold(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 109 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::ConfCallResumed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 112 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallRejected(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 97 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CallResumed(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 100 | Exported Function
-`public: virtual enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::ConfCallCreated(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 103 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 390 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleCallCreationEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 137 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleCallHoldEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 139 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleCallRejectedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 141 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleRedialEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 287 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleSystemInformationEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 293 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleUnmuteHSEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 296 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleCallResumeEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 143 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleSFLogout(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 157 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleTerminateConnection(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 159 | Exported Function
-`private: static class WBCCListener::CWBCCManager * WBCCListener::CWBCCManager::_pWBCCManagerInstance` | 319 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleEstablishConnection(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 146 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleMessage(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 149 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::HandleSFLogin(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 155 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleOffHookEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 284 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleCallFailedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 251 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleCallUpdationEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 257 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleConferenceCallEndEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 260 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleTerminateConnection(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 158 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleActiveDeviceChangedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 244 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleCallDeleteEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 248 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleConferenceCallOnHoldEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 264 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleEnableLoggingEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 276 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleHeldConfCallResumedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 279 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleMuteHSEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 282 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleConferenceCallStartEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 267 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleDisableLoggingEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 273 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_HandleDNDIncomingCallAccept(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 270 | Exported Function
-`public: __thiscall CRestAPI::CRestAPI(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 30 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 36 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 37 | Exported Function
-`protected: void __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_SetMuteStatus(bool)` | 309 | Exported Function
-`protected: void __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_SetMuteStatus(bool)` | 310 | Exported Function
-`public: __thiscall CRestAPI::CRestAPI(class CRestAPI const &)` | 29 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 34 | Exported Function
-`public: __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CWebSocketSFHandler<struct websocketpp::config::asio>(class websocketpp::server<struct websocketpp::config::asio> *,class std::weak_ptr<void>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 2 | Exported Function
-`public: __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::~CWebSocketSFHandler<struct websocketpp::config::asio>(void)` | 38 | Exported Function
-`public: __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CWebSocketSFHandler<struct websocketpp::config::asio_tls>(class SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls> const &)` | 3 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 35 | Exported Function
-`public: __thiscall SeComRestSF::CRestSFHandler::CRestSFHandler(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 31 | Exported Function
-`public: __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::CWebSocketSFHandler<struct websocketpp::config::asio>(class SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio> const &)` | 1 | Exported Function
-`protected: virtual bool __thiscall CRestAPI::HandlePUT(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class Poco::Net::HTTPServerRequest &,class Poco::Net::HTTPServerResponse &)` | 152 | Exported Function
-`private: void __thiscall CRestAPI::_CalculateRestAPIValue(void)` | 229 | Exported Function
-`private: void __thiscall SeComRestSF::CRestSFHandler::_RESTSFTerminateProc(void)` | 303 | Exported Function
-`private: void __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_OnWSMessage(class websocketpp::server<struct websocketpp::config::asio> *,class std::weak_ptr<void>,class std::shared_ptr<class websocketpp::message_buffer::message<class websocketpp::message_buffer::alloc::con_msg_manager> >)` | 300 | Exported Function
-`private: static int __cdecl CRestAPI::GetLoweStringValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 125 | Exported Function
-`private: static int SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_iSFCount` | 317 | Exported Function
-`private: static int SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_iSFCount` | 318 | Exported Function
-`private: void __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::_OnWSMessage(class websocketpp::server<struct websocketpp::config::asio_tls> *,class std::weak_ptr<void>,class std::shared_ptr<class websocketpp::message_buffer::message<class websocketpp::message_buffer::alloc::con_msg_manager> >)` | 301 | Exported Function
-`protected: virtual bool __thiscall CRestAPI::HandleDELETE(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class Poco::Net::HTTPServerRequest &,class Poco::Net::HTTPServerResponse &)` | 144 | Exported Function
-`protected: virtual bool __thiscall CRestAPI::HandleGET(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class Poco::Net::HTTPServerRequest &,class Poco::Net::HTTPServerResponse &)` | 147 | Exported Function
-`protected: virtual bool __thiscall CRestAPI::HandlePOST(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class Poco::Net::HTTPServerRequest &,class Poco::Net::HTTPServerResponse &)` | 151 | Exported Function
-`protected: bool __thiscall CRestAPI::SendResponse(class Poco::Net::HTTPServerResponse &,enum Poco::Net::HTTPResponse::HTTPStatus const &,enum WBCC::WBCCErrorCodes const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 215 | Exported Function
-`protected: static bool __cdecl CRestAPI::GetPocoJSONObjectPtr(class jsoncons::basic_json<char,class std::allocator<char> > const &,class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >)` | 126 | Exported Function
-`protected: static class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> > __cdecl CRestAPI::_GetRequestJsonData(class Poco::Net::HTTPServerRequest &)` | 239 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleSFLogout(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 156 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleConferenceCallEndEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 261 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleConferenceCallHoldEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 262 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleConferenceCallResumeEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 265 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallRejectedEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 254 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallResumeEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 255 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallUpdationEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 258 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleConferenceCallStartEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 268 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleMuteEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 280 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleOffhookAcknowledgement(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 285 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleRedialEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 288 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleDisableLoggingEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 274 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleDNDIncomingCallAccept(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 271 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleEnableLoggingEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 277 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallHoldEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 253 | Exported Function
-`const SeComRestSF::CRestSFHandler::``vftable'{for ``CRestAPI'}` | 70 | Exported Function
-`const SeComRestSF::CRestSFHandler::``vftable'{for ``SeComRestSF::RestMessageHandler'}` | 71 | Exported Function
-`const SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::``vftable'` | 67 | Exported Function
+`_Get_deleter` | 240 | Exported Function
+`AddChildAPI` | 78 | Exported Function
+`HTTPServerResponse` | 153 | Exported Function
+`allocator` | 130 | Exported Function
+`allocator` | 131 | Exported Function
+`_Get` | 238 | Exported Function
+`RemoveChildAPI` | 181 | Exported Function
+`_Decref` | 234 | Exported Function
+`_Decwref` | 235 | Exported Function
+`_Ref_count_base` | 305 | Exported Function
+`SetMuteStatus` | 218 | Exported Function
+`allocator` | 438 | Exported Function
+`_Ptr_base` | 227 | Exported Function
+`allocator` | 226 | Exported Function
+`allocator` | 107 | Exported Function
+`allocator` | 110 | Exported Function
+`allocator` | 113 | Exported Function
+`allocator` | 98 | Exported Function
+`allocator` | 101 | Exported Function
+`allocator` | 104 | Exported Function
+`allocator` | 120 | Exported Function
+`allocator` | 179 | Exported Function
+`allocator` | 222 | Exported Function
+`allocator` | 224 | Exported Function
+`allocator` | 116 | Exported Function
+`allocator` | 123 | Exported Function
+`allocator` | 173 | Exported Function
+`pop_back` | 404 | Exported Function
+`push_back` | 405 | Exported Function
+`reserve` | 424 | Exported Function
+`_Xlen` | 315 | Exported Function
+`_Xran` | 316 | Exported Function
+`clear` | 347 | Exported Function
+`resize` | 426 | Exported Function
+`reset` | 425 | Exported Function
+`weak_ptr` | 436 | Exported Function
+`allocator` | 439 | Exported Function
+`resize` | 427 | Exported Function
+`shrink_to_fit` | 432 | Exported Function
+`allocator` | 435 | Exported Function
+`_Tidy` | 314 | Exported Function
+`_Resetw` | 308 | Exported Function
+`_Ptr_base` | 311 | Exported Function
+`allocator` | 230 | Exported Function
+`_Ref_count_base` | 306 | Exported Function
+`_Reset` | 307 | Exported Function
+`_Ref_count_base` | 304 | Exported Function
+`allocator` | 312 | Exported Function
+`_Copy` | 232 | Exported Function
+`_Eos` | 236 | Exported Function
+`allocator` | 313 | Exported Function
+`allocator` | 74 | Exported Function
+`allocator` | 228 | Exported Function
+`_Chassign` | 231 | Exported Function
+`allocator` | 95 | Exported Function
+`allocator` | 121 | Exported Function
+`allocator` | 117 | Exported Function
+`allocator` | 124 | Exported Function
+`allocator` | 108 | Exported Function
+`allocator` | 111 | Exported Function
+`allocator` | 114 | Exported Function
+`allocator` | 134 | Exported Function
+`allocator` | 175 | Exported Function
+`allocator` | 176 | Exported Function
+`allocator` | 177 | Exported Function
+`allocator` | 150 | Exported Function
+`allocator` | 174 | Exported Function
+`allocator` | 180 | Exported Function
+`allocator` | 105 | Exported Function
+`allocator` | 133 | Exported Function
+`allocator` | 77 | Exported Function
+`allocator` | 81 | Exported Function
+`ICall` | 45 | Exported Function
+`CRestSFHandler` | 43 | Exported Function
+`allocator` | 132 | Exported Function
+`allocator` | 84 | Exported Function
+`allocator` | 96 | Exported Function
+`allocator` | 99 | Exported Function
+`allocator` | 102 | Exported Function
+`allocator` | 87 | Exported Function
+`allocator` | 90 | Exported Function
+`allocator` | 93 | Exported Function
+`allocator` | 178 | Exported Function
+`allocator` | 221 | Exported Function
+`allocator` | 223 | Exported Function
+`allocator` | 115 | Exported Function
+`allocator` | 122 | Exported Function
+`allocator` | 172 | Exported Function
+`allocator` | 225 | Exported Function
+`allocator` | 86 | Exported Function
+`allocator` | 89 | Exported Function
+`allocator` | 92 | Exported Function
+`allocator` | 76 | Exported Function
+`allocator` | 80 | Exported Function
+`allocator` | 83 | Exported Function
+`allocator` | 119 | Exported Function
+`allocator` | 85 | Exported Function
+`allocator` | 88 | Exported Function
+`allocator` | 91 | Exported Function
+`allocator` | 75 | Exported Function
+`allocator` | 79 | Exported Function
+`allocator` | 82 | Exported Function
+`allocator` | 94 | Exported Function
+`allocator` | 106 | Exported Function
+`allocator` | 109 | Exported Function
+`allocator` | 112 | Exported Function
+`allocator` | 97 | Exported Function
+`allocator` | 100 | Exported Function
+`allocator` | 103 | Exported Function
+`_Simple_types` | 390 | Exported Function
+`allocator` | 137 | Exported Function
+`allocator` | 139 | Exported Function
+`allocator` | 141 | Exported Function
+`allocator` | 287 | Exported Function
+`allocator` | 293 | Exported Function
+`allocator` | 296 | Exported Function
+`allocator` | 143 | Exported Function
+`allocator` | 157 | Exported Function
+`allocator` | 159 | Exported Function
+`_pWBCCManagerInstance` | 319 | Exported Function
+`allocator` | 146 | Exported Function
+`allocator` | 149 | Exported Function
+`allocator` | 155 | Exported Function
+`allocator` | 284 | Exported Function
+`allocator` | 251 | Exported Function
+`allocator` | 257 | Exported Function
+`allocator` | 260 | Exported Function
+`allocator` | 158 | Exported Function
+`allocator` | 244 | Exported Function
+`allocator` | 248 | Exported Function
+`allocator` | 264 | Exported Function
+`allocator` | 276 | Exported Function
+`allocator` | 279 | Exported Function
+`allocator` | 282 | Exported Function
+`allocator` | 267 | Exported Function
+`allocator` | 273 | Exported Function
+`allocator` | 270 | Exported Function
+`allocator` | 30 | Exported Function
+`ISFEventListener` | 36 | Exported Function
+`ISFEventListener` | 37 | Exported Function
+`_SetMuteStatus` | 309 | Exported Function
+`_SetMuteStatus` | 310 | Exported Function
+`CRestAPI` | 29 | Exported Function
+`ICall` | 34 | Exported Function
+`allocator` | 2 | Exported Function
+`asio` | 38 | Exported Function
+`asio_tls` | 3 | Exported Function
+`ICall` | 35 | Exported Function
+`allocator` | 31 | Exported Function
+`asio` | 1 | Exported Function
+`HTTPServerResponse` | 152 | Exported Function
+`_CalculateRestAPIValue` | 229 | Exported Function
+`_RESTSFTerminateProc` | 303 | Exported Function
+`con_msg_manager` | 300 | Exported Function
+`allocator` | 125 | Exported Function
+`_iSFCount` | 317 | Exported Function
+`_iSFCount` | 318 | Exported Function
+`con_msg_manager` | 301 | Exported Function
+`HTTPServerResponse` | 144 | Exported Function
+`HTTPServerResponse` | 147 | Exported Function
+`HTTPServerResponse` | 151 | Exported Function
+`allocator` | 215 | Exported Function
+`Object` | 126 | Exported Function
+`HTTPServerRequest` | 239 | Exported Function
+`allocator` | 156 | Exported Function
+`allocator` | 261 | Exported Function
+`allocator` | 262 | Exported Function
+`allocator` | 265 | Exported Function
+`allocator` | 254 | Exported Function
+`allocator` | 255 | Exported Function
+`allocator` | 258 | Exported Function
+`allocator` | 268 | Exported Function
+`allocator` | 280 | Exported Function
+`allocator` | 285 | Exported Function
+`allocator` | 288 | Exported Function
+`allocator` | 274 | Exported Function
+`allocator` | 271 | Exported Function
+`allocator` | 277 | Exported Function
+`allocator` | 253 | Exported Function
+`CRestSFHandler` | 70 | Exported Function
+`RestMessageHandler` | 71 | Exported Function
+`asio` | 67 | Exported Function
 `const CRestAPI::``vftable'` | 69 | Exported Function
 `const ISFEventListener::``vftable'` | 73 | Exported Function
-`const SeComCall::ICall::``vftable'` | 72 | Exported Function
-`const SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::``vftable'` | 68 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallCreationEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 246 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallDeleteEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 249 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleCallFailedEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 252 | Exported Function
-`private: __thiscall WBCCListener::CWBCCManager::CWBCCManager(class ISFEventListener *,class WBCCListener::IWBCCFactory *,unsigned int,unsigned int,unsigned int,unsigned int)` | 32 | Exported Function
-`private: __thiscall WBCCListener::CWBCCManager::~CWBCCManager(void)` | 44 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleActiveDeviceChangedEvent(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 245 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleRedialEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 286 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleSystemInformationEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 292 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleUnmuteHSEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 295 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleHeldConfCallResumedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 278 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleMuteHSEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 281 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleOffHookEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 283 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleCallCreationEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 136 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleEstablishConnection(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 145 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleMessage(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 148 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleSFLogin(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 154 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleCallHoldEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 138 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleCallRejectedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 140 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::HandleCallResumeEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 142 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleEnableLoggingEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 275 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleSystemInformationRequest(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 294 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleActiveDeviceChangedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 243 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleCallDeleteEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 247 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleSFLogin(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 289 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleSFLogout(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 290 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComRestSF::CRestSFHandler::_HandleSoftPhoneMuteStatus(class Poco::SharedPtr<class Poco::JSON::Object,class Poco::ReferenceCounter,class Poco::ReleasePolicy<class Poco::JSON::Object> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 291 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleCallFailedEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 250 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleConferenceCallStartEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 266 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleDisableLoggingEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 272 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleDNDIncomingCallAccept(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 269 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleCallUpdationEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 256 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleConferenceCallEndEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 259 | Exported Function
-`private: enum WBCC::WBCCErrorCodes __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::_HandleConferenceCallOnHoldEvent(class SeComWebSocketSF::WebSFMessage *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 263 | Exported Function
-`public: __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::CWebSocketSFHandler<struct websocketpp::config::asio_tls>(class websocketpp::server<struct websocketpp::config::asio_tls> *,class std::weak_ptr<void>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 4 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendOnHookMessage(void)` | 210 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendRedialMessage(int,char const *)` | 213 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendSocketConnectionNotification(bool)` | 217 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendListenerClosingEvent(void)` | 201 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendMuteEvent(bool)` | 204 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendOffHookMessage(int,char const *)` | 207 | Exported Function
-`public: bool __thiscall std::_Ptr_base<void>::_Expired(void)const ` | 237 | Exported Function
-`public: bool __thiscall std::weak_ptr<void>::expired(void)const ` | 365 | Exported Function
-`public: bool __thiscall WBCCListener::CWBCCManager::StartServices(void)` | 219 | Exported Function
-`public: bool __thiscall WBCCListener::CWBCCManager::StopServices(void)` | 220 | Exported Function
-`public: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Grow(unsigned int,bool)` | 242 | Exported Function
-`public: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Inside(char const *)` | 297 | Exported Function
-`public: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::empty(void)const ` | 358 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendInCallAcceptOffHookMessage(int const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 198 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendSocketConnectionNotification(bool)` | 216 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::IsMuteSupported(void)const ` | 161 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::IsRedialSupported(void)const ` | 164 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendOffHookMessage(int,char const *)` | 206 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendOnHookMessage(void)` | 209 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendRedialMessage(int,char const *)` | 212 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::IsSoftphoneLoggedIn(void)const ` | 167 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendCallHoldEvent(int)` | 189 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendCallResumeEvent(int)` | 192 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendHeadsetConnectionMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 195 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::IsSoftphoneMuted(void)const ` | 170 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendCallAcceptEvent(int)` | 183 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::SendCallEndEvent(int,bool,bool)` | 186 | Exported Function
-`public: class std::_Ptr_base<void> & __thiscall std::_Ptr_base<void>::operator=(class std::_Ptr_base<void> const &)` | 49 | Exported Function
-`public: class std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > > & __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::operator=(class std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > > const &)` | 50 | Exported Function
-`public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::begin(void)const ` | 342 | Exported Function
-`public: class SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio> & __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::operator=(class SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio> const &)` | 46 | Exported Function
-`public: class SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls> & __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::operator=(class SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls> const &)` | 47 | Exported Function
-`public: class std::_Ptr_base<void> & __thiscall std::_Ptr_base<void>::operator=(class std::_Ptr_base<void> &&)` | 48 | Exported Function
-`public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::cbegin(void)const ` | 345 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::end(void)` | 359 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 362 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 361 | Exported Function
-`public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::cend(void)const ` | 346 | Exported Function
-`public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::end(void)const ` | 360 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::begin(void)` | 341 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 59 | Exported Function
-`public: char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator[](unsigned int)` | 61 | Exported Function
-`public: char * __thiscall std::_String_val<struct std::_Simple_types<char> >::_Myptr(void)` | 298 | Exported Function
-`public: char const & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::at(unsigned int)const ` | 338 | Exported Function
-`public: char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::at(unsigned int)` | 337 | Exported Function
-`public: char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::back(void)` | 339 | Exported Function
-`public: char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::front(void)` | 386 | Exported Function
-`public: char const & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::back(void)const ` | 340 | Exported Function
-`public: char const * __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::c_str(void)const ` | 343 | Exported Function
-`public: char const * __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::data(void)const ` | 357 | Exported Function
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 60 | Exported Function
-`public: char const & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::front(void)const ` | 387 | Exported Function
-`public: char const & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator[](unsigned int)const ` | 62 | Exported Function
-`public: char const * __thiscall std::_String_val<struct std::_Simple_types<char> >::_Myptr(void)const ` | 299 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendMuteEvent(bool)` | 203 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)` | 13 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int,class std::allocator<char> const &)` | 14 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::initializer_list<char>,class std::allocator<char> const &)` | 25 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class std::allocator<char> const &)` | 10 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 11 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::allocator<char> const &)` | 12 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(unsigned int,char)` | 16 | Exported Function
-`public: __thiscall std::weak_ptr<void>::weak_ptr<void>(class std::weak_ptr<void> const &)` | 27 | Exported Function
-`public: __thiscall std::weak_ptr<void>::weak_ptr<void>(void)` | 28 | Exported Function
-`public: __thiscall std::weak_ptr<void>::~weak_ptr<void>(void)` | 41 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(unsigned int,char,class std::allocator<char> const &)` | 17 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)` | 26 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)` | 40 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)` | 9 | Exported Function
-`public: __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >(class std::allocator<char> const &)` | 7 | Exported Function
-`public: __thiscall std::_String_val<struct std::_Simple_types<char> >::_String_val<struct std::_Simple_types<char> >(void)` | 8 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *)` | 20 | Exported Function
-`public: __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio_tls>::~CWebSocketSFHandler<struct websocketpp::config::asio_tls>(void)` | 39 | Exported Function
-`public: __thiscall std::_Ptr_base<void>::_Ptr_base<void>(class std::_Ptr_base<void> &&)` | 5 | Exported Function
-`public: __thiscall std::_Ptr_base<void>::_Ptr_base<void>(void)` | 6 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *,char const *)` | 18 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *,unsigned int,class std::allocator<char> const &)` | 23 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 24 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::allocator<char> const &)` | 15 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *,char const *,class std::allocator<char> const &)` | 19 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *,class std::allocator<char> const &)` | 21 | Exported Function
-`public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *,unsigned int)` | 22 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::IsRedialSupported(void)const ` | 163 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::IsSoftphoneLoggedIn(void)const ` | 166 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::IsSoftphoneMuted(void)const ` | 169 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendOnHookMessage(void)` | 211 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendRedialMessage(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 214 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::IsMuteSupported(void)const ` | 160 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendCallAcceptEvent(int)` | 182 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendHeadsetConnectionMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 194 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendInCallAcceptOffHookMessage(int const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 197 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendListenerClosingEvent(void)` | 200 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendCallEndEvent(int,bool,bool)` | 185 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendCallHoldEvent(int)` | 188 | Exported Function
-`public: bool __thiscall SeComWebSocketSF::CWebSocketSFHandler<struct websocketpp::config::asio>::SendCallResumeEvent(int)` | 191 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendOffHookMessage(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 208 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::IsSoftphoneLoggedIn(void)const ` | 168 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::IsSoftphoneMuted(void)` | 171 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendCallAcceptEvent(int)` | 184 | Exported Function
-`public: __thiscall WBCCListener::CWBCCManager::CWBCCManager(class WBCCListener::CWBCCManager const &)` | 33 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::IsMuteSupported(void)const ` | 162 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::IsRedialSupported(void)const ` | 165 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendCallEndEvent(int,bool,bool)` | 187 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendInCallAcceptOffHookMessage(int const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 199 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendListenerClosingEvent(void)` | 202 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendMuteEvent(bool)` | 205 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendCallHoldEvent(int)` | 190 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendCallResumeEvent(int)` | 193 | Exported Function
-`public: bool __thiscall SeComRestSF::CRestSFHandler::SendHeadsetConnectionMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 196 | Exported Function
+`ICall` | 72 | Exported Function
+`asio_tls` | 68 | Exported Function
+`allocator` | 246 | Exported Function
+`allocator` | 249 | Exported Function
+`allocator` | 252 | Exported Function
+`IWBCCFactory` | 32 | Exported Function
+`CWBCCManager` | 44 | Exported Function
+`allocator` | 245 | Exported Function
+`allocator` | 286 | Exported Function
+`allocator` | 292 | Exported Function
+`allocator` | 295 | Exported Function
+`allocator` | 278 | Exported Function
+`allocator` | 281 | Exported Function
+`allocator` | 283 | Exported Function
+`allocator` | 136 | Exported Function
+`allocator` | 145 | Exported Function
+`allocator` | 148 | Exported Function
+`allocator` | 154 | Exported Function
+`allocator` | 138 | Exported Function
+`allocator` | 140 | Exported Function
+`allocator` | 142 | Exported Function
+`allocator` | 275 | Exported Function
+`allocator` | 294 | Exported Function
+`allocator` | 243 | Exported Function
+`allocator` | 247 | Exported Function
+`allocator` | 289 | Exported Function
+`allocator` | 290 | Exported Function
+`allocator` | 291 | Exported Function
+`allocator` | 250 | Exported Function
+`allocator` | 266 | Exported Function
+`allocator` | 272 | Exported Function
+`allocator` | 269 | Exported Function
+`allocator` | 256 | Exported Function
+`allocator` | 259 | Exported Function
+`allocator` | 263 | Exported Function
+`allocator` | 4 | Exported Function
+`SendOnHookMessage` | 210 | Exported Function
+`SendRedialMessage` | 213 | Exported Function
+`SendSocketConnectionNotification` | 217 | Exported Function
+`SendListenerClosingEvent` | 201 | Exported Function
+`SendMuteEvent` | 204 | Exported Function
+`SendOffHookMessage` | 207 | Exported Function
+`_Expired` | 237 | Exported Function
+`expired` | 365 | Exported Function
+`StartServices` | 219 | Exported Function
+`StopServices` | 220 | Exported Function
+`_Grow` | 242 | Exported Function
+`_Inside` | 297 | Exported Function
+`empty` | 358 | Exported Function
+`allocator` | 198 | Exported Function
+`SendSocketConnectionNotification` | 216 | Exported Function
+`IsMuteSupported` | 161 | Exported Function
+`IsRedialSupported` | 164 | Exported Function
+`SendOffHookMessage` | 206 | Exported Function
+`SendOnHookMessage` | 209 | Exported Function
+`SendRedialMessage` | 212 | Exported Function
+`IsSoftphoneLoggedIn` | 167 | Exported Function
+`SendCallHoldEvent` | 189 | Exported Function
+`SendCallResumeEvent` | 192 | Exported Function
+`allocator` | 195 | Exported Function
+`IsSoftphoneMuted` | 170 | Exported Function
+`SendCallAcceptEvent` | 183 | Exported Function
+`SendCallEndEvent` | 186 | Exported Function
+`_Ptr_base` | 49 | Exported Function
+`allocator` | 50 | Exported Function
+`begin` | 342 | Exported Function
+`asio` | 46 | Exported Function
+`asio_tls` | 47 | Exported Function
+`_Ptr_base` | 48 | Exported Function
+`cbegin` | 345 | Exported Function
+`end` | 359 | Exported Function
+`_Simple_types` | 362 | Exported Function
+`_Simple_types` | 361 | Exported Function
+`cend` | 346 | Exported Function
+`end` | 360 | Exported Function
+`begin` | 341 | Exported Function
+`ICall` | 59 | Exported Function
+`operator` | 61 | Exported Function
+`_Myptr` | 298 | Exported Function
+`at` | 338 | Exported Function
+`at` | 337 | Exported Function
+`back` | 339 | Exported Function
+`front` | 386 | Exported Function
+`back` | 340 | Exported Function
+`c_str` | 343 | Exported Function
+`data` | 357 | Exported Function
+`operator` | 60 | Exported Function
+`front` | 387 | Exported Function
+`operator` | 62 | Exported Function
+`_Myptr` | 299 | Exported Function
+`SendMuteEvent` | 203 | Exported Function
+`allocator` | 13 | Exported Function
+`allocator` | 14 | Exported Function
+`allocator` | 25 | Exported Function
+`allocator` | 10 | Exported Function
+`allocator` | 11 | Exported Function
+`allocator` | 12 | Exported Function
+`allocator` | 16 | Exported Function
+`weak_ptr` | 27 | Exported Function
+`weak_ptr` | 28 | Exported Function
+`weak_ptr` | 41 | Exported Function
+`allocator` | 17 | Exported Function
+`allocator` | 26 | Exported Function
+`allocator` | 40 | Exported Function
+`allocator` | 9 | Exported Function
+`allocator` | 7 | Exported Function
+`_Simple_types` | 8 | Exported Function
+`allocator` | 20 | Exported Function
+`asio_tls` | 39 | Exported Function
+`_Ptr_base` | 5 | Exported Function
+`_Ptr_base` | 6 | Exported Function
+`allocator` | 18 | Exported Function
+`allocator` | 23 | Exported Function
+`_Simple_types` | 24 | Exported Function
+`allocator` | 15 | Exported Function
+`allocator` | 19 | Exported Function
+`allocator` | 21 | Exported Function
+`allocator` | 22 | Exported Function
+`IsRedialSupported` | 163 | Exported Function
+`IsSoftphoneLoggedIn` | 166 | Exported Function
+`IsSoftphoneMuted` | 169 | Exported Function
+`SendOnHookMessage` | 211 | Exported Function
+`allocator` | 214 | Exported Function
+`IsMuteSupported` | 160 | Exported Function
+`SendCallAcceptEvent` | 182 | Exported Function
+`allocator` | 194 | Exported Function
+`allocator` | 197 | Exported Function
+`SendListenerClosingEvent` | 200 | Exported Function
+`SendCallEndEvent` | 185 | Exported Function
+`SendCallHoldEvent` | 188 | Exported Function
+`SendCallResumeEvent` | 191 | Exported Function
+`allocator` | 208 | Exported Function
+`IsSoftphoneLoggedIn` | 168 | Exported Function
+`IsSoftphoneMuted` | 171 | Exported Function
+`SendCallAcceptEvent` | 184 | Exported Function
+`CWBCCManager` | 33 | Exported Function
+`IsMuteSupported` | 162 | Exported Function
+`IsRedialSupported` | 165 | Exported Function
+`SendCallEndEvent` | 187 | Exported Function
+`allocator` | 199 | Exported Function
+`SendListenerClosingEvent` | 202 | Exported Function
+`SendMuteEvent` | 205 | Exported Function
+`SendCallHoldEvent` | 190 | Exported Function
+`SendCallResumeEvent` | 193 | Exported Function
+`allocator` | 196 | Exported Function
 
 
 ## Signature

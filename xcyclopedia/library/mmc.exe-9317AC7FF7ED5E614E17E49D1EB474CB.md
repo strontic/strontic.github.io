@@ -23,6 +23,9 @@ SHA256 | `B82E5D5E2EEBE6EE0AFD1C233148BF5A46DC83A7358FEB86C83E46A388D23B13`
 SHA384 | `AB9C6CB001538BDD48D8C352B5DB7567B146D337929B4DB59057F7E837EB3A1D9F88C4EA8B79918C415B3C9B0257947C`
 SHA512 | `D88B56A8E57B28FAA2735B10340BDFAABE849BA3200AD3FBF92385A30BBCBE07A639F1E73318D322A57BE95622E058B3FB1F09FCE524EC639F95F7AE0705EF93`
 SSDEEP | `24576:sd4qiadffSbED3FULzf+WbnIVqiSdrvMo7wMo7DHO:sOQdffPD3FYfTbYqiSdr77e7DHO`
+IMP | `B8EE2D6252332A68B70B22E3D6E377D2`
+PESHA1 | `EBC3A0429E5B44BDDCB4EADAD12F78AACCD759C5`
+PE256 | `7DCA8CDC524AF33333145710A984D183BB36A12C82E976E2DD20B96E698CA9DF`
 
 ## Runtime Data
 
@@ -39,27 +42,66 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\mmcbase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\mmcndmgr.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_6d06464259f9d059 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1518_none_6d08fefc59f73326 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1538 | Section
-\Sessions\2\BaseNamedObjects\1538HWNDInterface:503a6 | Section
-\Sessions\2\BaseNamedObjects\1538HWNDInterface:503d8 | Section
+\RPC Control\DSEC10C8 | Section
+\Sessions\2\BaseNamedObjects\10c8HWNDInterface:802fa | Section
+\Sessions\2\BaseNamedObjects\10c8HWNDInterface:a02e6 | Section
 \Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\SYSTEM32\AcGenral.dll |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MFC42u.dll |
 C:\Windows\system32\mmc.exe |
+C:\Windows\system32\mmcbase.DLL |
+C:\Windows\SYSTEM32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ninput.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\SYSTEM32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
 
 
 ## Signature
@@ -79,7 +121,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/b82e5d5e2eebe6ee0afd1c233148bf5a46dc83a7358feb86c83e46a388d23b13/detection/
 
 ## File Similarity (ssdeep match)
 

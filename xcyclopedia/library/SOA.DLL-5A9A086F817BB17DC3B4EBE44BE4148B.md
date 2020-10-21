@@ -31,11 +31,11 @@ Function Name | Ordinal | Type
 `SOA_AddStyle` | 20 | Exported Function
 `SOA_ChangeOutputFile` | 31 | Exported Function
 `SOA_CchClipWrap` | 21 | Exported Function
-`public: __thiscall IParseXML::IParseXML(void)` | 15 | Exported Function
-`public: __thiscall IParseXML::IParseXML(class IParseXML const &)` | 14 | Exported Function
-`public: class ICX & __thiscall ICX::operator=(class ICX const &)` | 17 | Exported Function
-`public: class IParseXML & __thiscall IParseXML::operator=(class IParseXML const &)` | 19 | Exported Function
-`public: class IParseXML & __thiscall IParseXML::operator=(class IParseXML &&)` | 18 | Exported Function
+`IParseXML` | 15 | Exported Function
+`IParseXML` | 14 | Exported Function
+`operator` | 17 | Exported Function
+`operator` | 19 | Exported Function
+`operator` | 18 | Exported Function
 `SOA_End` | 22 | Exported Function
 `SOA_IdBegin` | 23 | Exported Function
 `SOA_GetFilename` | 33 | Exported Function
@@ -47,7 +47,7 @@ Function Name | Ordinal | Type
 `SOA_ErrSetNextRowAttrs` | 27 | Exported Function
 `SOA_ErrWriteFtyp` | 29 | Exported Function
 `SOA_ErrWrite` | 28 | Exported Function
-`public: __thiscall IParseXML::IParseXML(class IParseXML &&)` | 13 | Exported Function
+`IParseXML` | 13 | Exported Function
 `GetXMLFormatList` | 50 | Exported Function
 `FreeXMLFormatList` | 51 | Exported Function
 `LpBiff8CxfmtNew` | 39 | Exported Function
@@ -62,8 +62,8 @@ Function Name | Ordinal | Type
 `LpTtextCxfmtNew` | 10 | Exported Function
 `LpTrtfCxfmtNew` | 9 | Exported Function
 `LpXmlCxfmtNew` | 40 | Exported Function
-`public: __thiscall ICX::ICX(void)` | 12 | Exported Function
-`public: __thiscall ICX::ICX(class ICX const &)` | 11 | Exported Function
+`ICX` | 12 | Exported Function
+`ICX` | 11 | Exported Function
 `LpExcel12XmlCxfmtNew` | 107 | Exported Function
 `LpExcel12BiffCxfmtNew` | 108 | Exported Function
 `LpInitParseXML` | 101 | Exported Function

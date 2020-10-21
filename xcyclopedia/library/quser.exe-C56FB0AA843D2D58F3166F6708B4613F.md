@@ -18,6 +18,9 @@ SHA256 | `8A56B2B043ED340FFEEC3845498005EBF972AF3B937340F0FBA064EA014AB1BB`
 SHA384 | `294DE575B62F43C68F615CD7775D445CD45820321B4F0DE8B64CF75181EC708D4F56A244A0E9A4AA33ED8B6A27962BE6`
 SHA512 | `7DF28E5D792F52270E51FF355EF3F067C84AAD90425F6287E4D7C9038F9D2B1195A416B742C3D190321641215158FE7244BF9664E401DA8E670AF5C943700485`
 SSDEEP | `384:2DFv6/9BVUogQjfR+/kyF7rASHJwnhHVJPwWU273XWSjFWu5:2DBgBKoFQ/MHK2TXp5`
+IMP | `E9E1589ED6F2469789346FC3BDABFCE5`
+PESHA1 | `E80BF2159DB6CC9D10B87FC1A8ED263444B9020E`
+PE256 | `9F21FA1546849608346AA60553292B7E253698FF22B624D7327A2F2BC258FCD3`
 
 ## Runtime Data
 
@@ -50,11 +53,18 @@ QUERY USER [username | sessionname | sessionid] [/SERVER:servername]
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\quser.exe |
 
 
 ## Signature
@@ -74,7 +84,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/8a56b2b043ed340ffeec3845498005ebf972af3b937340f0fba064ea014ab1bb/detection/
 
 
 ## Possible Misuse

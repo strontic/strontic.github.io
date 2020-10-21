@@ -26,54 +26,54 @@ PE256 | `B4433685A3BC2F23EF1700F3307DFB65358C6CF0DC048A77D0D5A6D99BB81D29`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual long __stdcall OptionsTabPlugin::onDefaultActionRequested(class std::shared_ptr<class JabberSelectionContextStruct>,wchar_t *,bool &)` | 39 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onCreateTabs(void)` | 38 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onClosing(void)` | 37 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onTabDisabled(wchar_t *)` | 42 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onRegistered(wchar_t *,unsigned int,unsigned int)` | 41 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onOKPressed(void)` | 40 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onApplyPressed(void)` | 33 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onApplicationStateChanged(enum ApplicationState)` | 32 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::logoutRequested(bool *)` | 31 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onClosed(void)` | 36 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onCancelPressed(void)` | 35 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onBroadcastMessageReceived(wchar_t *)` | 34 | Exported Function
-`public: virtual unsigned long __stdcall OptionsTabPlugin::Release(void)` | 24 | Exported Function
-`public: virtual unsigned long __stdcall OptionsTabPlugin::AddRef(void)` | 20 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::startPlugin(void)` | 48 | Exported Function
-`public: virtual void __thiscall ConfigOverride::Set(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 26 | Exported Function
-`public: virtual void __thiscall ConfigOverride::Save(void)` | 25 | Exported Function
-`public: virtual void __thiscall ConfigOverride::Init(class CSFUnified::ServiceFactory *)` | 22 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onTabSelected(wchar_t *)` | 45 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onTabFocus(wchar_t *)` | 44 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onTabEnabled(wchar_t *)` | 43 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::QueryInterface(struct _GUID const &,void * *)` | 23 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::processLocalEvent(wchar_t *,unsigned int,long)` | 47 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::onUnRegistered(wchar_t *)` | 46 | Exported Function
-`public: __thiscall IOptionsTab::IOptionsTab(class IOptionsTab const &)` | 5 | Exported Function
-`public: __thiscall IOptionsTab::IOptionsTab(class IOptionsTab &&)` | 4 | Exported Function
-`public: __thiscall ConfigOverride::ConfigOverride(void)` | 3 | Exported Function
-`public: __thiscall OptionsTabPlugin::OptionsTabPlugin(long &,wchar_t const *)` | 7 | Exported Function
-`public: __thiscall OptionsTabPlugin::OptionsTabPlugin(class OptionsTabPlugin const &)` | 8 | Exported Function
-`public: __thiscall IOptionsTab::IOptionsTab(void)` | 6 | Exported Function
+`shared_ptr` | 39 | Exported Function
+`onCreateTabs` | 38 | Exported Function
+`onClosing` | 37 | Exported Function
+`onTabDisabled` | 42 | Exported Function
+`onRegistered` | 41 | Exported Function
+`onOKPressed` | 40 | Exported Function
+`onApplyPressed` | 33 | Exported Function
+`onApplicationStateChanged` | 32 | Exported Function
+`logoutRequested` | 31 | Exported Function
+`onClosed` | 36 | Exported Function
+`onCancelPressed` | 35 | Exported Function
+`onBroadcastMessageReceived` | 34 | Exported Function
+`Release` | 24 | Exported Function
+`AddRef` | 20 | Exported Function
+`startPlugin` | 48 | Exported Function
+`allocator` | 26 | Exported Function
+`Save` | 25 | Exported Function
+`ServiceFactory` | 22 | Exported Function
+`onTabSelected` | 45 | Exported Function
+`onTabFocus` | 44 | Exported Function
+`onTabEnabled` | 43 | Exported Function
+`QueryInterface` | 23 | Exported Function
+`processLocalEvent` | 47 | Exported Function
+`onUnRegistered` | 46 | Exported Function
+`IOptionsTab` | 5 | Exported Function
+`IOptionsTab` | 4 | Exported Function
+`ConfigOverride` | 3 | Exported Function
+`OptionsTabPlugin` | 7 | Exported Function
+`OptionsTabPlugin` | 8 | Exported Function
+`IOptionsTab` | 6 | Exported Function
 `const OptionsTabPlugin::``vftable'{for ``IJabberOptionsWindowTab'}` | 18 | Exported Function
 `const IOptionsTab::``vftable'` | 17 | Exported Function
 `const ConfigOverride::``vftable'` | 16 | Exported Function
-`public: __thiscall ConfigOverride::ConfigOverride(class CSFUnified::ServiceFactory *)` | 2 | Exported Function
-`public: __thiscall ConfigOverride::ConfigOverride(class ConfigOverride const &)` | 1 | Exported Function
+`ServiceFactory` | 2 | Exported Function
+`ConfigOverride` | 1 | Exported Function
 `const OptionsTabPlugin::``vftable'{for ``IJabberPlugin'}` | 19 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::destroy(bool &)` | 27 | Exported Function
-`public: virtual class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __thiscall ConfigOverride::Get(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 21 | Exported Function
-`public: virtual class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __thiscall ConfigOverride::operator[](class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 15 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::loggedOut(void)` | 30 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::loggedIn(void)` | 29 | Exported Function
-`public: virtual long __stdcall OptionsTabPlugin::initPlugin(struct IPluginRuntime *,class IJabberContext *)` | 28 | Exported Function
-`public: class IOptionsTab & __thiscall IOptionsTab::operator=(class IOptionsTab const &)` | 13 | Exported Function
-`public: class IOptionsTab & __thiscall IOptionsTab::operator=(class IOptionsTab &&)` | 12 | Exported Function
-`public: class ConfigOverride & __thiscall ConfigOverride::operator=(class ConfigOverride const &)` | 11 | Exported Function
+`destroy` | 27 | Exported Function
+`allocator` | 21 | Exported Function
+`allocator` | 15 | Exported Function
+`loggedOut` | 30 | Exported Function
+`loggedIn` | 29 | Exported Function
+`initPlugin` | 28 | Exported Function
+`operator` | 13 | Exported Function
+`operator` | 12 | Exported Function
+`operator` | 11 | Exported Function
 `public: virtual __thiscall OptionsTabPlugin::~OptionsTabPlugin(void)` | 10 | Exported Function
 `public: virtual __thiscall ConfigOverride::~ConfigOverride(void)` | 9 | Exported Function
-`public: class OptionsTabPlugin & __thiscall OptionsTabPlugin::operator=(class OptionsTabPlugin const &)` | 14 | Exported Function
+`operator` | 14 | Exported Function
 
 
 ## Signature

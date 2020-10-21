@@ -98,6 +98,11 @@ Value                      Description
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\gpupdate.exe](gpupdate.exe-24402960F8F624BA9189AE62748C0D3D.md) | 47
 
 ## Possible Misuse
 

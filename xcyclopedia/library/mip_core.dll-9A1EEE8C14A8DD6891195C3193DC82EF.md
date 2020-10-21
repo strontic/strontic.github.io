@@ -29,21 +29,21 @@ Function Name | Ordinal | Type
 `QueueTask` | 17 | Exported Function
 `SendHttpRequest` | 18 | Exported Function
 `HasCustomTaskHandler` | 16 | Exported Function
-`public: static class std::shared_ptr<class mip::HttpClient> __cdecl mip::HttpClient::Create(void)` | 1 | Exported Function
-`void __cdecl mip::logger::SetIsInitialized(void)` | 12 | Exported Function
-`void __cdecl mip::SetAriaHttpDelegate(class std::shared_ptr<class mip::HttpDelegate> const &)` | 10 | Exported Function
-`void __cdecl mip::SetAriaTaskDispatcherDelegate(class std::shared_ptr<class mip::TaskDispatcherDelegate> const &)` | 11 | Exported Function
-`void __cdecl mip::logger::SetLoggerDelegateInstance(class std::shared_ptr<class mip::LoggerDelegate> const &)` | 13 | Exported Function
-`void __cdecl mip::SendHttp(bool,class std::shared_ptr<class mip::HttpDelegate> const &,class std::shared_ptr<class mip::HttpRequest> const &,class std::shared_ptr<void> const &,class std::function<void __cdecl(class std::shared_ptr<class mip::HttpOperation> const &)> const &)` | 9 | Exported Function
+`Create` | 1 | Exported Function
+`SetIsInitialized` | 12 | Exported Function
+`HttpDelegate` | 10 | Exported Function
+`TaskDispatcherDelegate` | 11 | Exported Function
+`LoggerDelegate` | 13 | Exported Function
+`HttpOperation` | 9 | Exported Function
 `CancelTask` | 15 | Exported Function
-`class mip::LoggerDelegate & __cdecl mip::logger::GetLoggerDelegateInstance(void)` | 7 | Exported Function
-`bool __cdecl mip::logger::IsInitialized(void)` | 8 | Exported Function
+`GetLoggerDelegateInstance` | 7 | Exported Function
+`IsInitialized` | 8 | Exported Function
 `CancelHttpOperation` | 14 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl mip::GetAuthToken(class std::shared_ptr<class mip::AuthDelegate> const &,class mip::Identity const &,class mip::AuthDelegate::OAuth2Challenge const &)` | 5 | Exported Function
-`class std::shared_ptr<class mip::HttpRequestBase> __cdecl mip::CreateHttpRequest(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum mip::HttpRequestType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 2 | Exported Function
-`class std::unique_ptr<class mip::Uri,struct std::default_delete<class mip::Uri> > __cdecl mip::CreateUri(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 4 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl mip::GetHeaderValueFromHttpResponse(class mip::HttpResponse const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 6 | Exported Function
-`class std::shared_ptr<class mip::HttpRequestBase> __cdecl mip::CreateHttpRequest(class mip::HttpRequestBase const &)` | 3 | Exported Function
+`OAuth2Challenge` | 5 | Exported Function
+`allocator` | 2 | Exported Function
+`allocator` | 4 | Exported Function
+`allocator` | 6 | Exported Function
+`HttpRequestBase` | 3 | Exported Function
 
 
 ## Signature

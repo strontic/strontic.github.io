@@ -31,7 +31,7 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\ldp.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section

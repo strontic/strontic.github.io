@@ -18,6 +18,9 @@ SHA256 | `35E08AE5AE1D826C5FC8E41CFA5CFD30A0463975059BD4E8FF710A94F7D9F31A`
 SHA384 | `5BA0178C66DBEC7802E5DB3CD073C2201A1FAD11077D7722ECF607E49836C78966F636CEF99E10B4803761FB207F1057`
 SHA512 | `FB15BDE58A85EB7F445AEDD51EA9D85321B5D0CB3AEBFD89BFF33A799D1740B24A0D2266DFC1B9C6585B4C27B844C392AF82ED5ABCAB2A75AD342F0D49E845C4`
 SSDEEP | `1536:y4azWKEoXLhu42lDc/ApSi894HlHAJTtUaPduz:DKrXVj2lDcCSi89NtUaF`
+IMP | `5AD2D88C0BF8CBFEFAEC540D70672C23`
+PESHA1 | `DD5562A48B2B74BB01D1BDBBEA757CA401911411`
+PE256 | `AEA7E9C4895B6061DD41B81652E13466CF3CBD4E9E1BEE3F7F902EBE519B1D71`
 
 ## Runtime Data
 
@@ -68,17 +71,6 @@ Type "GETMAC /?" for usage.
 
 ```
 
-### Child Processes:
-csrss.exe winlogon.exe
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\getmac.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -96,7 +88,12 @@ C:\Windows\SysWOW64\getmac.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/35e08ae5ae1d826c5fc8e41cfa5cfd30a0463975059bd4e8ff710a94f7d9f31a/detection/
 
 
 

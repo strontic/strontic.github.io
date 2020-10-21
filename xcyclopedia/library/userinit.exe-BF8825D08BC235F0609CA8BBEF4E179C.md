@@ -18,6 +18,9 @@ SHA256 | `1FE7F7C59EC7EAA276739FA85F7DDA6136D81184E0AEB385B6AC9FEAAA8C4394`
 SHA384 | `2F6C88E35212D628149451D95FE10F37B8ECDDADA4CA9216451573415C9DF440A3C1FF432C6E4EE5D12161BC87808BA6`
 SHA512 | `0D54F15CDD2245A540B588566C3F5FE70E1401AABE08C2052C72CB7A8E10741A37817816C29E41FD50F9BE57D01AA0DAC911120E7CBB44E9DBD6B07D3BD6E70C`
 SSDEEP | `384:UPn1lWx3jWG/eBjZH7ehyFQQ65SEvhmaB9YQTpkEBVSC+lfPIeb51MQneA6pgWxk:UPnyWG/e1Zbo/rSiPTpr+Rh5XnhMa`
+IMP | `8419D97ABDFEB6C320F0C39028647572`
+PESHA1 | `DF688108336B5E2AC79D652521CAE6F14BC4D450`
+PE256 | `A5160EF5F4B97E938DA7E956A3331FB66EA3F9EA7E7D8BEEF313F318F2C11B98`
 
 ## Runtime Data
 
@@ -26,7 +29,10 @@ SSDEEP | `384:UPn1lWx3jWG/eBjZH7ehyFQQ65SEvhmaB9YQTpkEBVSC+lfPIeb51MQneA6pgWxk:U
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\userinit.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -35,7 +41,27 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\system32\userinit.exe |
+C:\Windows\SYSTEM32\userinitext.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\winsta.dll |
 
 
 ## Signature
@@ -55,7 +81,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/1fe7f7c59ec7eaa276739fa85f7dda6136d81184e0aeb385b6ac9feaaa8c4394/detection/
 
 ## File Similarity (ssdeep match)
 

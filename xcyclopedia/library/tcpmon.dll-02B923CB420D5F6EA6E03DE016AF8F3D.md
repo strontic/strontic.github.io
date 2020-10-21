@@ -26,18 +26,18 @@ PE256 | `9A8100388C653719871353463EB1E053BE9F7F4A1A746F31D0089E6858379118`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class CTcpMibABC & __ptr64 __cdecl CTcpMibABC::operator=(class CTcpMibABC const & __ptr64) __ptr64` | 8 | Exported Function
-`public: class CPortABC & __ptr64 __cdecl CPortABC::operator=(class CPortABC const & __ptr64) __ptr64` | 7 | Exported Function
-`public: __cdecl CTcpMibABC::CTcpMibABC(void) __ptr64` | 4 | Exported Function
-`public: virtual unsigned long __cdecl CPortABC::Read(void * __ptr64 const,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 11 | Exported Function
+`operator` | 8 | Exported Function
+`operator` | 7 | Exported Function
+`CTcpMibABC` | 4 | Exported Function
+`Read` | 11 | Exported Function
 `public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 | Exported Function
 `public: virtual __cdecl CPortABC::~CPortABC(void) __ptr64` | 5 | Exported Function
 `InitializePrintMonitor2` | 12 | Exported Function
 `const CTcpMibABC::``vftable'` | 10 | Exported Function
 `const CPortABC::``vftable'` | 9 | Exported Function
-`public: __cdecl CTcpMibABC::CTcpMibABC(class CTcpMibABC const & __ptr64) __ptr64` | 3 | Exported Function
-`public: __cdecl CPortABC::CPortABC(void) __ptr64` | 2 | Exported Function
-`public: __cdecl CPortABC::CPortABC(class CPortABC const & __ptr64) __ptr64` | 1 | Exported Function
+`CTcpMibABC` | 3 | Exported Function
+`CPortABC` | 2 | Exported Function
+`CPortABC` | 1 | Exported Function
 
 
 ## Signature

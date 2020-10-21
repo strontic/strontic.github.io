@@ -18,6 +18,9 @@ SHA256 | `524A6F2366533C30C6F447215C7BCCB6F5C8F20B7DC377C791A7B3E886EC1A76`
 SHA384 | `8961FA96AB86AD51D655E2864E5FD303F28D9246F7D2CED6BEC651D851EC257CC659AAB51848DF0D3EFBF5C983FCC639`
 SHA512 | `F6EFF640FCE9DC89B76352F7D44AC71859ECBB5DA4EDFF2614B34D48080A3ED24E207FC487ABEF15C517BA8D14B2B20999BE89D43AB1CFE306F9DA309AA29C14`
 SSDEEP | `384:gLz1Ta0f0pScSlHS4cGZoDb7ILHigFKXC08fPCdjWoskS2CRmsi1jdc6emPW/JFW:U0pSlfcWGk+XCaqLQN1jkm2`
+IMP | `34133D53B90A18DF679C80EB178CA803`
+PESHA1 | `261FE7D8C49608AD49044E35108E30048F914D14`
+PE256 | `9549C15CD113D15E7743897510D9AD08AF28AC49FEF7A09C8BA92A6E850B8941`
 
 ## Runtime Data
 
@@ -25,8 +28,23 @@ SSDEEP | `384:gLz1Ta0f0pScSlHS4cGZoDb7ILHigFKXC08fPCdjWoskS2CRmsi1jdc6emPW/JFW:U
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\system32\IPHLPAPI.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\netbtugc.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wdscore.dll |
 
 
 ## Signature
@@ -46,7 +64,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/524a6f2366533c30c6f447215c7bccb6f5c8f20b7dc377c791a7b3e886ec1a76/detection/
 
 ## File Similarity (ssdeep match)
 

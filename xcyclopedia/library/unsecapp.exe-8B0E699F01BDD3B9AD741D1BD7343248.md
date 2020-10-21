@@ -18,6 +18,9 @@ SHA256 | `8095D4D7726438F8665E00C1A405AB94DB6358DC14740783795CF8617A64F19E`
 SHA384 | `330F3C4E9F8A4D15A435C6B113F8D96BA8A61DE979261433385B26E5F6118150C03BBC1F5B92EBD0804AB70EFD2A55F8`
 SHA512 | `699B796C26DE15D4017CD5156431BD392A591BEB6ACDD2A692C5982E0140173D67ADBE39320C0580B1BC2F1E12C975ED7F23B2D3DF975C617FBBAE033AF80602`
 SSDEEP | `768:UGq5NFAcMTnRsAvQCo1CLImfqTgzjKPH+15jf520AfSHIT+4OX/L+kKVBfu:UGAFMLSmQmImfegzjUH+1tf5LAfo+fu`
+IMP | `9E0E0DA3FF0E183298AEDC6F7ECB7E05`
+PESHA1 | `921B609CBF6FCAB16D07C036C394E5A5E7A49DAA`
+PE256 | `2853A942EADCAC74FE5C1222787F117CDCB024BC905C2839F826F718441DBD06`
 
 ## Runtime Data
 
@@ -31,15 +34,26 @@ Cannot run standalone
 
 Path |
 -- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wbem\unsecapp.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -52,7 +66,12 @@ C:\Windows\system32\wbem\unsecapp.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8095d4d7726438f8665e00c1a405ab94db6358dc14740783795cf8617a64f19e/detection/
 
 ## File Similarity (ssdeep match)
 

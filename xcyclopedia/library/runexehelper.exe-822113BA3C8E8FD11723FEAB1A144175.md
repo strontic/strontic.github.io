@@ -1,0 +1,54 @@
+﻿---
+title: runexehelper.exe | 
+excerpt: What is runexehelper.exe?
+---
+
+# runexehelper.exe 
+
+* File Path: `C:\Windows\system32\runexehelper.exe`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `822113BA3C8E8FD11723FEAB1A144175`
+SHA1 | `79203AAE7D83419809378405770C380C774048EA`
+SHA256 | `3424FAF87604930DAEB0F98BD820E9288422BB847471993D927A8C77F345FDB6`
+SHA384 | `F0514020D209F5F22D0938451CC23204B1C93CB6CA2C406046A5582209EF5E2A342ADA14FCC6360BA832161F9EDBF208`
+SHA512 | `053CA49DB9E50DEF8A19D735C51EB7527A9F68BDE458AD539DFE2D641E40CA04E699FA5CCE6326BF551D2AB8D4431D93C5CF278BA0E449D8EA9E7009A6384DE8`
+SSDEEP | `1536:gyXzOMgKLMfE+rVMJDokHccTyBMj61X45ujDRlvi:gsNaE+rVMJDok88kQ6RSuj`
+IMP | `C3F7EF5A2F0F2AF4CEF56598F5E44D36`
+PESHA1 | `91B8E4CE91486DD123D41EDC54B622B0313D240D`
+PE256 | `F08B0AEBC822B587E90C6612966DB5CD6C5D697CF8A352B83170E7385A7FC449`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/50
+* VirusTotal Link: https://www.virustotal.com/gui/file/3424faf87604930daeb0f98bd820e9288422bb847471993d927a8c77f345fdb6/detection/
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

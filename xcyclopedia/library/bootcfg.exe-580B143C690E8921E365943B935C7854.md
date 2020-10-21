@@ -18,6 +18,9 @@ SHA256 | `BE45A65C9A57A9B47B2656C057230D0C37C18299761AF5DBB24EE5DCE2429EC5`
 SHA384 | `98D377B8B6A89336872951B5B16D89338A7CA90383575DEAE76D05CF7426245E369C25FC22E7DBAE150A3B7319DC824A`
 SHA512 | `9ACA418370E5978848637003C64A4B5FF7457B7447EFAB9384AA0F5397E24A225DD25C3E5835DABF725304750B26620F13E819D6F2AF77F5F1E6BDEA1F4D4980`
 SSDEEP | `1536:rijQlcYBI2AlQM8yBTSCUiC4dTLFjJwpH/sy0OJQv+KE5PFa+ctf:rijBlQZu+/iCYJwpH0p3+KaPFa+cp`
+IMP | `F3ADCD04B0BF69589B2B3643D6CF3803`
+PESHA1 | `70EF04C5F328873F96EA91725CA43850ED829E28`
+PE256 | `F21E2382DDAB11FA7E01CBE0CD8E7013EAEA5B63727785625B5EAB6EE42B5618`
 
 ## Runtime Data
 
@@ -88,10 +91,21 @@ Type "BOOTCFG /?" for usage.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\system32\bootcfg.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\NETAPI32.dll |
+C:\Windows\system32\NETUTILS.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SRVCLI.DLL |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -111,7 +125,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/be45a65c9a57a9b47b2656c057230d0c37c18299761af5dbb24ee5dce2429ec5/detection/
 
 
 

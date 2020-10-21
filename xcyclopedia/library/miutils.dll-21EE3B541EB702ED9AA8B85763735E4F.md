@@ -49,11 +49,11 @@ Function Name | Ordinal | Type
 `PublishClientOperationInfo` | 80 | Exported Function
 `PublishProviderResult` | 83 | Exported Function
 `PublishDebugMessage` | 82 | Exported Function
-`public: void __cdecl WMISchema::Initialize(bool) __ptr64` | 25 | Exported Function
-`public: virtual long __cdecl WMISchema::GetNoneCachedWmiClass(unsigned short const * __ptr64,struct IWbemServices * __ptr64,class ATL::CComPtr<struct IWbemClassObject> & __ptr64,struct IConversionContext * __ptr64) __ptr64` | 21 | Exported Function
-`public: virtual long __cdecl StaticSchema::GetMiClass(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct _MI_Class const * __ptr64 * __ptr64) __ptr64` | 20 | Exported Function
-`public: virtual long __cdecl WMISchema::GetWmiIWbemServices(unsigned short const * __ptr64,class ATL::CComPtr<struct IWbemServices> & __ptr64) __ptr64` | 23 | Exported Function
-`public: virtual long __cdecl WMISchema::GetWmiClass(unsigned short const * __ptr64,unsigned short const * __ptr64,class ATL::CComPtr<struct IWbemClassObject> & __ptr64,struct IConversionContext * __ptr64) __ptr64` | 22 | Exported Function
+`Initialize` | 25 | Exported Function
+`CComPtr` | 21 | Exported Function
+`GetMiClass` | 20 | Exported Function
+`CComPtr` | 23 | Exported Function
+`CComPtr` | 22 | Exported Function
 `RCClass_AddElement` | 90 | Exported Function
 `RCClass_AddClassQualifierArrayItem` | 89 | Exported Function
 `RCClass_AddElementArrayItem` | 92 | Exported Function
@@ -137,23 +137,23 @@ Function Name | Ordinal | Type
 `CompareInstance` | 36 | Exported Function
 `Config_GetRegString` | 39 | Exported Function
 `Config_GetProtocolHandlerDetails` | 38 | Exported Function
-`public: __cdecl WMISchema::WMISchema(void) __ptr64` | 6 | Exported Function
-`public: __cdecl WMISchema::WMISchema(bool) __ptr64` | 7 | Exported Function
-`public: class CCritSec & __ptr64 __cdecl CCritSec::operator=(class CCritSec const & __ptr64) __ptr64` | 12 | Exported Function
-`public: class CAutoSetActivityId & __ptr64 __cdecl CAutoSetActivityId::operator=(class CAutoSetActivityId const & __ptr64) __ptr64` | 11 | Exported Function
-`public: __cdecl StaticSchema::StaticSchema(void) __ptr64` | 5 | Exported Function
+`WMISchema` | 6 | Exported Function
+`WMISchema` | 7 | Exported Function
+`operator` | 12 | Exported Function
+`operator` | 11 | Exported Function
+`StaticSchema` | 5 | Exported Function
 `public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 9 | Exported Function
-`public: __cdecl CCritSec::CCritSec(void) __ptr64` | 2 | Exported Function
-`public: __cdecl IndicationSchema::IndicationSchema(void) __ptr64` | 4 | Exported Function
-`public: __cdecl DynamicSchema::DynamicSchema(void) __ptr64` | 3 | Exported Function
-`public: virtual long __cdecl IndicationSchema::GetMiClass(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct _MI_Class const * __ptr64 * __ptr64) __ptr64` | 19 | Exported Function
-`public: virtual long __cdecl IndicationSchema::CreateInstance(unsigned short const * __ptr64,struct IWbemClassObject * __ptr64,unsigned long,struct _MI_PropertySet const * __ptr64,bool,struct _MI_Instance * __ptr64 & __ptr64,struct IConversionContext * __ptr64) __ptr64` | 14 | Exported Function
-`public: virtual long __cdecl StaticSchema::CreateInstance(unsigned short const * __ptr64,struct IWbemClassObject * __ptr64,unsigned long,struct _MI_PropertySet const * __ptr64,bool,struct _MI_Instance * __ptr64 & __ptr64,struct IConversionContext * __ptr64) __ptr64` | 15 | Exported Function
-`public: virtual long __cdecl MiSchema::GetFlags(void)const __ptr64` | 17 | Exported Function
-`public: virtual long __cdecl DynamicSchema::GetMiClass(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,struct _MI_Class const * __ptr64 * __ptr64) __ptr64` | 18 | Exported Function
-`public: long __cdecl WMISchema::DeInitialize(void) __ptr64` | 16 | Exported Function
-`public: long __cdecl StaticSchema::Initialize(struct _MI_Module const * __ptr64) __ptr64` | 24 | Exported Function
-`public: virtual long __cdecl DynamicSchema::CreateInstance(unsigned short const * __ptr64,struct IWbemClassObject * __ptr64,unsigned long,struct _MI_PropertySet const * __ptr64,bool,struct _MI_Instance * __ptr64 & __ptr64,struct IConversionContext * __ptr64) __ptr64` | 13 | Exported Function
+`CCritSec` | 2 | Exported Function
+`IndicationSchema` | 4 | Exported Function
+`DynamicSchema` | 3 | Exported Function
+`GetMiClass` | 19 | Exported Function
+`CreateInstance` | 14 | Exported Function
+`CreateInstance` | 15 | Exported Function
+`GetFlags` | 17 | Exported Function
+`GetMiClass` | 18 | Exported Function
+`DeInitialize` | 16 | Exported Function
+`Initialize` | 24 | Exported Function
+`CreateInstance` | 13 | Exported Function
 `public: virtual __cdecl WMISchema::~WMISchema(void) __ptr64` | 10 | Exported Function
 `public: __cdecl CAutoSetActivityId::~CAutoSetActivityId(void) __ptr64` | 8 | Exported Function
 `Options_FindValue` | 76 | Exported Function
@@ -167,8 +167,8 @@ Function Name | Ordinal | Type
 `MiErrorCategoryFromWindowsError` | 66 | Exported Function
 `PropertyToVariant` | 79 | Exported Function
 `PropertySet_New` | 78 | Exported Function
-`public: __cdecl CAutoSetActivityId::CAutoSetActivityId(void) __ptr64` | 1 | Exported Function
-`protected: virtual long __cdecl MiSchema::SetFlags(long) __ptr64` | 26 | Exported Function
+`CAutoSetActivityId` | 1 | Exported Function
+`SetFlags` | 26 | Exported Function
 `ParametersToWMIObject` | 77 | Exported Function
 `OSC_Batch_Strdup` | 69 | Exported Function
 `OSC_Batch_Get` | 68 | Exported Function

@@ -26,28 +26,28 @@ PE256 | `617B3F80F8B69493347325AF37D8F69DB8525E8D7DAFFF747BE9762D7DDA0B33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 14 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 12 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 13 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 7 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 8 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 15 | Exported Function
+`operator` | 14 | Exported Function
+`ICall` | 12 | Exported Function
+`IHSInterface` | 13 | Exported Function
+`ISFInterface` | 7 | Exported Function
+`ISFInterface` | 8 | Exported Function
+`ISFInterface` | 15 | Exported Function
 `StartWBCCServices` | 21 | Exported Function
 `WBSFFactoryCreater` | 22 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 11 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 10 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 9 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 19 | Exported Function
+`ISFInterface` | 11 | Exported Function
+`IHSInterface` | 10 | Exported Function
+`ICall` | 9 | Exported Function
+`ISFInterface` | 19 | Exported Function
 `DestroyWBSFFactory` | 20 | Exported Function
-`const SeComCall::ICall::``vftable'` | 16 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 17 | Exported Function
+`ICall` | 16 | Exported Function
+`IHSInterface` | 17 | Exported Function
 `const ISFEventListener::``vftable'` | 18 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 3 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 1 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 2 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 6 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 4 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 5 | Exported Function
+`IHSInterface` | 3 | Exported Function
+`ICall` | 1 | Exported Function
+`ICall` | 2 | Exported Function
+`ISFEventListener` | 6 | Exported Function
+`IHSInterface` | 4 | Exported Function
+`ISFEventListener` | 5 | Exported Function
 
 
 ## Signature

@@ -18,6 +18,9 @@ SHA256 | `CE02C12CFF31E588EE786462599F38528F899EAB8690EDA74744D04215107DFF`
 SHA384 | `46129E47A56245F7A7E036FDA610EE78B36DEB8BDEFFB35A2ADCC5922BE92A8A4B6B8E33878CA83A71EFCBA7E2CF3C50`
 SHA512 | `4CFD9DFC2F2F122DED375E494A374632699C51902D14C1C20424B97DD94BEE9579344329421E5905023A3C1D4AEF40A9F6DBB3DE6DF5F102C8C03A308F16BE17`
 SSDEEP | `768:my2UkLBpkMEkutacvTKWU5X1Py+cP7MHliYw82i/PGlVogExyylwIcgSz:mJUWlEkz5Wmy+cMERi/pUu/Sz`
+IMP | `59EADF2E64B87E9C2B8F545B5E2B4A03`
+PESHA1 | `8D40760C3E2D5F42983B914544D2A943224EA9C5`
+PE256 | `34D0E1F681813A46DA43B1E02F69D3006E754DDE8B083F7A2A8F780920DEB060`
 
 ## Runtime Data
 
@@ -185,8 +188,14 @@ REGINI: Missing parameter(s) for -h switch
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\regini.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -206,7 +215,12 @@ C:\Windows\system32\regini.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/ce02c12cff31e588ee786462599f38528f899eab8690eda74744d04215107dff/detection/
 
 ## File Similarity (ssdeep match)
 

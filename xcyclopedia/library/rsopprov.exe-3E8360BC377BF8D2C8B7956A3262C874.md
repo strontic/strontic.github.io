@@ -52,6 +52,7 @@ C:\Windows\system32\rsopprov.exe |
 
 File | Score
 -- | --
+[C:\Windows\system32\rsopprov.exe](rsopprov.exe-36AF828F5600E4EF4FFC280EE0ACC2F8.md) | 49
 [C:\Windows\system32\rsopprov.exe](rsopprov.exe-926A6F7773D8CAE9BFC0026B878100B7.md) | 43
 
 

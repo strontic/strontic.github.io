@@ -18,6 +18,9 @@ SHA256 | `3369E8FEA09C3C226D636B13108DA357093D0D98214236417839A94F56D3BA02`
 SHA384 | `DB9ED4EACEEB20C1F895DC2066E0F1AD08B2485EDA4A0D1864B463180B2A0EF1B635E34287AD824EA614C9A651F4B093`
 SHA512 | `A0643B80F86B18F40BF7717B131341AFCB43158705B8339C717BC78D79F3BFA318759CF8A548427F2D3AD59EF5296B1EA70CEA0E1E812417CB2D02AA61D7D48D`
 SSDEEP | `384:5yKvwEHdWH1ZMqxdBeEh+98XfGHK2aKPoWW3W:8Kv5SVBA984vP8`
+IMP | `CCC9DA4A55E90DFE34CBCDB066D6A6B3`
+PESHA1 | `A4493A79E3020E560A71C4B67CE78FAE8ABC66D4`
+PE256 | `720EBD80DA487D87055B12A3596F6EEAD620FB458CCEF94CB0F51532EEC87FB3`
 
 ## Runtime Data
 
@@ -38,8 +41,19 @@ QUERY { PROCESS | SESSION | TERMSERVER | USER }
 
 Path |
 -- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\query.exe |
+C:\Windows\system32\REGAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -59,7 +73,12 @@ C:\Windows\system32\query.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/3369e8fea09c3c226d636b13108da357093d0d98214236417839a94f56d3ba02/detection/
 
 ## File Similarity (ssdeep match)
 

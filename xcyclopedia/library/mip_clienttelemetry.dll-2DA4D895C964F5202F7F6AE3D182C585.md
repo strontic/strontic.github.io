@@ -26,253 +26,253 @@ PE256 | `866841AA288F6CA114B685C9D86C2F7ED374E81B8A6A08D73BE7138F311C5AAF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(unsigned int)` | 93 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(unsigned char)` | 89 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(unsigned __int64)` | 100 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(unsigned short)` | 91 | Exported Function
-`public: struct Microsoft::Applications::Telemetry::LogConfiguration & __thiscall Microsoft::Applications::Telemetry::LogConfiguration::operator=(struct Microsoft::Applications::Telemetry::LogConfiguration &&)` | 113 | Exported Function
-`public: struct Microsoft::Applications::Events::time_ticks_t & __thiscall Microsoft::Applications::Events::time_ticks_t::operator=(struct Microsoft::Applications::Events::time_ticks_t const &)` | 117 | Exported Function
-`public: struct Microsoft::Applications::Events::GUID_t & __thiscall Microsoft::Applications::Events::GUID_t::operator=(struct Microsoft::Applications::Events::GUID_t const &)` | 102 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(struct Microsoft::Applications::Events::time_ticks_t)` | 98 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(long)` | 94 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(int)` | 92 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(double)` | 95 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(short)` | 90 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(struct Microsoft::Applications::Events::GUID_t)` | 97 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(struct Microsoft::Applications::Events::EventProperty const &)` | 82 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(signed char)` | 88 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::ILogManager::~ILogManager(void)` | 71 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::ILogger::~ILogger(void)` | 72 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::IAuthTokensController::~IAuthTokensController(void)` | 70 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::ISemanticContext::~ISemanticContext(void)` | 73 | Exported Function
-`public: virtual bool __thiscall Microsoft::Applications::Events::DebugEventSource::DispatchEvent(class Microsoft::Applications::Events::DebugEvent)` | 150 | Exported Function
-`public: virtual bool __thiscall Microsoft::Applications::Events::DebugEventSource::DetachEventSource(class Microsoft::Applications::Events::DebugEventSource &)` | 149 | Exported Function
-`public: virtual bool __thiscall Microsoft::Applications::Events::DebugEventSource::AttachEventSource(class Microsoft::Applications::Events::DebugEventSource &)` | 137 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::EventProperty::~EventProperty(void)` | 69 | Exported Function
-`public: unsigned int __thiscall Microsoft::Applications::Events::EventProperties::erase(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum Microsoft::Applications::Events::DataCategory)` | 240 | Exported Function
-`public: unsigned __int64 __thiscall Microsoft::Applications::Events::EventProperties::GetPolicyBitFlags(void)const ` | 163 | Exported Function
-`public: struct Microsoft::Applications::Telemetry::LogConfiguration & __thiscall Microsoft::Applications::Telemetry::LogConfiguration::operator=(struct Microsoft::Applications::Telemetry::LogConfiguration const &)` | 114 | Exported Function
-`public: unsigned int __thiscall Microsoft::Applications::Events::GUID_t::Hash(void)const ` | 170 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::EventProperties::~EventProperties(void)` | 68 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::DebugEventSource::~DebugEventSource(void)` | 67 | Exported Function
-`public: virtual __thiscall Microsoft::Applications::Events::DebugEventListener::~DebugEventListener(void)` | 66 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(class std::vector<struct Microsoft::Applications::Events::GUID_t,class std::allocator<struct Microsoft::Applications::Events::GUID_t> > const &)` | 85 | Exported Function
-`public: static char const * __cdecl Microsoft::Applications::Events::EventProperty::type_name(unsigned int)` | 245 | Exported Function
-`public: static bool __cdecl Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast(class Microsoft::Applications::Events::DebugEvent)` | 151 | Exported Function
-`public: enum Microsoft::Applications::Events::EventPriority __thiscall Microsoft::Applications::Events::EventProperties::GetPriority(void)const ` | 165 | Exported Function
-`public: static class Microsoft::Applications::Events::ILogManager * __cdecl Microsoft::Applications::Events::LogManagerProvider::CreateLogManager(char const *,bool,class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > &,enum Microsoft::Applications::Events::status_t &,unsigned __int64)` | 145 | Exported Function
-`public: static class Microsoft::Applications::Experimentation::AFD::IAFDClient * __cdecl Microsoft::Applications::Experimentation::AFD::IAFDClient::CreateInstance(void)` | 141 | Exported Function
-`public: static class Microsoft::Applications::Events::ILogManager * __cdecl Microsoft::Applications::Events::LogManagerProvider::CreateLogManager(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > &,enum Microsoft::Applications::Events::status_t &)` | 143 | Exported Function
-`public: static class Microsoft::Applications::Events::ILogManager * __cdecl Microsoft::Applications::Events::LogManagerProvider::CreateLogManager(char const *,enum Microsoft::Applications::Events::status_t &,unsigned __int64)` | 144 | Exported Function
-`public: enum Microsoft::Applications::Events::EventPersistence __thiscall Microsoft::Applications::Events::EventProperties::GetPersistence(void)const ` | 161 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Microsoft::Applications::Events::EventProperties::GetType(void)const ` | 168 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Microsoft::Applications::Events::EventProperties::GetName(void)const ` | 159 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Microsoft::Applications::Events::GUID_t::to_string(void)const ` | 244 | Exported Function
-`public: class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct Microsoft::Applications::Events::EventProperty,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct Microsoft::Applications::Events::EventProperty> > > const & __thiscall Microsoft::Applications::Events::EventProperties::GetProperties(enum Microsoft::Applications::Events::DataCategory)const ` | 166 | Exported Function
-`public: enum Microsoft::Applications::Events::EventLatency __thiscall Microsoft::Applications::Events::EventProperties::GetLatency(void)const ` | 158 | Exported Function
-`public: double __thiscall Microsoft::Applications::Events::EventProperties::GetPopSample(void)const ` | 164 | Exported Function
-`public: class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum Microsoft::Applications::Events::PiiKind>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum Microsoft::Applications::Events::PiiKind> > > > const __thiscall Microsoft::Applications::Events::EventProperties::GetPiiProperties(enum Microsoft::Applications::Events::DataCategory)const ` | 162 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(char const *)` | 96 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(bool)` | 101 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(__int64)` | 99 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 83 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(class std::vector<double,class std::allocator<double> > const &)` | 84 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &)` | 86 | Exported Function
-`public: struct Microsoft::Applications::Events::EventProperty & __thiscall Microsoft::Applications::Events::EventProperty::operator=(class std::vector<__int64,class std::allocator<__int64> > const &)` | 87 | Exported Function
-`public: struct evt_prop * __thiscall Microsoft::Applications::Events::EventProperties::pack(void)` | 241 | Exported Function
-`public: static enum Microsoft::Applications::Events::status_t __cdecl Microsoft::Applications::Events::LogManagerProvider::Release(char const *)` | 175 | Exported Function
-`public: static enum Microsoft::Applications::Events::status_t __cdecl Microsoft::Applications::Events::LogManagerProvider::DestroyLogManager(char const *)` | 148 | Exported Function
-`public: static class Microsoft::Applications::Experimentation::ECS::IECSClient * __cdecl Microsoft::Applications::Experimentation::ECS::IECSClient::CreateInstance(void)` | 142 | Exported Function
-`public: static enum Microsoft::Applications::Events::status_t __cdecl Microsoft::Applications::Events::LogManagerProvider::Release(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > &)` | 174 | Exported Function
-`public: static void __cdecl Microsoft::Applications::Experimentation::ECS::IECSClient::DestroyInstance(class Microsoft::Applications::Experimentation::ECS::IECSClient * *)` | 147 | Exported Function
-`public: static void __cdecl Microsoft::Applications::Experimentation::AFD::IAFDClient::DestroyInstance(class Microsoft::Applications::Experimentation::AFD::IAFDClient * *)` | 146 | Exported Function
-`public: static struct _GUID __cdecl Microsoft::Applications::Events::GUID_t::convertUintVectorToGUID(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 237 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Microsoft::Applications::Events::EventProperty::to_string(void)const ` | 243 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 216 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 222 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,__int64,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 220 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 204 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<double,class std::allocator<double> > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 205 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 207 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<__int64,class std::allocator<__int64> > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 208 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetPriority(enum Microsoft::Applications::Events::EventPriority)` | 203 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetLatency(enum Microsoft::Applications::Events::EventLatency)` | 191 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::__autoclassinit2(unsigned int)` | 235 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::DebugEventSource::__autoclassinit2(unsigned int)` | 234 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetLevel(unsigned char)` | 192 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetPopsample(double)` | 202 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetPolicyBitFlags(unsigned __int64)` | 201 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetPersistence(enum Microsoft::Applications::Events::EventPersistence)` | 200 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 214 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned char,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 210 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 221 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 212 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::GUID_t::to_bytes(unsigned char (&)[16])const ` | 242 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperty::clear(void)` | 236 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetTimestamp(__int64)` | 224 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct Microsoft::Applications::Events::time_ticks_t,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 219 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 213 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,double,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 215 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<struct Microsoft::Applications::Events::GUID_t,class std::allocator<struct Microsoft::Applications::Events::GUID_t> > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 206 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,short,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 211 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct Microsoft::Applications::Events::GUID_t,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 218 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct Microsoft::Applications::Events::EventProperty)` | 217 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::EventProperties::SetProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,signed char,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 209 | Exported Function
-`public: void __thiscall Microsoft::Applications::Events::CorrelationVector::Uninitialize(void)` | 233 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetCommonField(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct Microsoft::Applications::Events::EventProperty const &)` | 184 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetCommercialId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 183 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetAppVersion(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 182 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetCustomField(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct Microsoft::Applications::Events::EventProperty const &)` | 185 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetDeviceMake(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 188 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetDeviceId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 187 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetDeviceClass(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 186 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetAppLanguage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 181 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::ClearExperimentIds(void)` | 140 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::DebugEventSource::RemoveEventListener(enum Microsoft::Applications::Events::DebugEventType,class Microsoft::Applications::Events::DebugEventListener &)` | 176 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::DebugEventSource::AddEventListener(enum Microsoft::Applications::Events::DebugEventType,class Microsoft::Applications::Events::DebugEventListener &)` | 136 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetAppExperimentETag(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 177 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetAppId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 180 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetAppExperimentImpressionId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 179 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetAppExperimentIds(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 178 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetUserANID(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 226 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetUserAdvertisingId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 227 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetTicket(enum Microsoft::Applications::Events::TicketType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 223 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetUserId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Microsoft::Applications::Events::PiiKind)` | 228 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetUserTimeZone(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 231 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetUserMsaId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 230 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetUserLanguage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 229 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetOsVersion(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 199 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetNetworkCost(enum Microsoft::Applications::Events::NetworkCost)` | 194 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetEventExperimentIds(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 190 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetDeviceModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 189 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetNetworkProvider(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 195 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetOsName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 198 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetOsBuild(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 197 | Exported Function
-`public: virtual void __thiscall Microsoft::Applications::Events::ISemanticContext::SetNetworkType(enum Microsoft::Applications::Events::NetworkType)` | 196 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Microsoft::Applications::Events::CorrelationVector::GetValue(void)` | 169 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(class std::vector<double,class std::allocator<double> > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 15 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 17 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(class std::vector<__int64,class std::allocator<__int64> > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 18 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(class std::vector<struct Microsoft::Applications::Events::GUID_t,class std::allocator<struct Microsoft::Applications::Events::GUID_t> > &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 16 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(long,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 27 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(int,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 25 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(double,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 28 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 20 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperties::EventProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct Microsoft::Applications::Events::EventProperty,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct Microsoft::Applications::Events::EventProperty> > > const &)` | 11 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperties::EventProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::initializer_list<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct Microsoft::Applications::Events::EventProperty> >)` | 12 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperties::EventProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 10 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperties::EventProperties(void)` | 13 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(char const *,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 29 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(bool,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 35 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(__int64,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 33 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(void)` | 32 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(unsigned short,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 24 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(unsigned int,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 26 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::GUID_t::GUID_t(char const *)` | 38 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::GUID_t::GUID_t(struct Microsoft::Applications::Events::GUID_t const &)` | 36 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::GUID_t::GUID_t(struct _GUID)` | 40 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::GUID_t::GUID_t(int,int,int,class std::initializer_list<unsigned char> const &)` | 37 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(unsigned char,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 22 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(struct Microsoft::Applications::Events::EventProperty &&)` | 14 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(signed char,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 21 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(short,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 23 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(struct Microsoft::Applications::Events::EventProperty const &)` | 19 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(unsigned __int64,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 34 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(struct Microsoft::Applications::Events::time_ticks_t,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 31 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperty::EventProperty(struct Microsoft::Applications::Events::GUID_t,enum Microsoft::Applications::Events::PiiKind,enum Microsoft::Applications::Events::DataCategory)` | 30 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::EventProperties::EventProperties(class Microsoft::Applications::Events::EventProperties const &)` | 9 | Exported Function
-`const Microsoft::Applications::Events::ILogger::``vftable'` | 134 | Exported Function
-`const Microsoft::Applications::Events::ILogController::``vftable'` | 130 | Exported Function
-`const Microsoft::Applications::Events::IAuthTokensController::``vftable'` | 128 | Exported Function
-`const Microsoft::Applications::Events::ILogManager::``vftable'{for ``Microsoft::Applications::Events::DebugEventDispatcher'}` | 131 | Exported Function
-`const Microsoft::Applications::Events::ISemanticContext::``vftable'` | 135 | Exported Function
-`const Microsoft::Applications::Events::ILogManager::``vftable'{for ``Microsoft::Applications::Events::ILogController'}` | 133 | Exported Function
-`const Microsoft::Applications::Events::ILogManager::``vftable'{for ``Microsoft::Applications::Events::IContextProvider'}` | 132 | Exported Function
-`const Microsoft::Applications::Events::EventProperty::``vftable'` | 126 | Exported Function
-`class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > const & __cdecl Microsoft::Applications::Events::GetDefaultConfiguration(void)` | 157 | Exported Function
-`class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > __cdecl Microsoft::Applications::Events::FromLogConfiguration(struct Microsoft::Applications::Telemetry::LogConfiguration &)` | 154 | Exported Function
-`class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > __cdecl Microsoft::Applications::Events::FromJSON(char const *)` | 153 | Exported Function
-`const Microsoft::Applications::Events::DebugEventDispatcher::``vftable'` | 122 | Exported Function
-`const Microsoft::Applications::Events::EventProperties::``vftable'` | 125 | Exported Function
-`const Microsoft::Applications::Events::DebugEventSource::``vftable'` | 124 | Exported Function
-`const Microsoft::Applications::Events::DebugEventListener::``vftable'` | 123 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventDispatcher::DebugEventDispatcher(void)` | 4 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventDispatcher::DebugEventDispatcher(class Microsoft::Applications::Events::DebugEventDispatcher const &)` | 3 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventDispatcher::DebugEventDispatcher(class Microsoft::Applications::Events::DebugEventDispatcher &&)` | 2 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventListener::DebugEventListener(class Microsoft::Applications::Events::DebugEventListener const &)` | 5 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventSource::DebugEventSource(void)` | 8 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventSource::DebugEventSource(class Microsoft::Applications::Events::DebugEventSource const &)` | 7 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::DebugEventListener::DebugEventListener(void)` | 6 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::CorrelationVector::CorrelationVector(void)` | 1 | Exported Function
+`operator` | 93 | Exported Function
+`operator` | 89 | Exported Function
+`operator` | 100 | Exported Function
+`operator` | 91 | Exported Function
+`LogConfiguration` | 113 | Exported Function
+`time_ticks_t` | 117 | Exported Function
+`GUID_t` | 102 | Exported Function
+`time_ticks_t` | 98 | Exported Function
+`operator` | 94 | Exported Function
+`operator` | 92 | Exported Function
+`operator` | 95 | Exported Function
+`operator` | 90 | Exported Function
+`GUID_t` | 97 | Exported Function
+`EventProperty` | 82 | Exported Function
+`operator` | 88 | Exported Function
+`ILogManager` | 71 | Exported Function
+`ILogger` | 72 | Exported Function
+`IAuthTokensController` | 70 | Exported Function
+`ISemanticContext` | 73 | Exported Function
+`DebugEvent` | 150 | Exported Function
+`DebugEventSource` | 149 | Exported Function
+`DebugEventSource` | 137 | Exported Function
+`EventProperty` | 69 | Exported Function
+`DataCategory` | 240 | Exported Function
+`GetPolicyBitFlags` | 163 | Exported Function
+`LogConfiguration` | 114 | Exported Function
+`Hash` | 170 | Exported Function
+`EventProperties` | 68 | Exported Function
+`DebugEventSource` | 67 | Exported Function
+`DebugEventListener` | 66 | Exported Function
+`GUID_t` | 85 | Exported Function
+`type_name` | 245 | Exported Function
+`DebugEvent` | 151 | Exported Function
+`GetPriority` | 165 | Exported Function
+`status_t` | 145 | Exported Function
+`CreateInstance` | 141 | Exported Function
+`status_t` | 143 | Exported Function
+`status_t` | 144 | Exported Function
+`GetPersistence` | 161 | Exported Function
+`GetType` | 168 | Exported Function
+`GetName` | 159 | Exported Function
+`to_string` | 244 | Exported Function
+`DataCategory` | 166 | Exported Function
+`GetLatency` | 158 | Exported Function
+`GetPopSample` | 164 | Exported Function
+`DataCategory` | 162 | Exported Function
+`operator` | 96 | Exported Function
+`operator` | 101 | Exported Function
+`operator` | 99 | Exported Function
+`allocator` | 83 | Exported Function
+`allocator` | 84 | Exported Function
+`allocator` | 86 | Exported Function
+`allocator` | 87 | Exported Function
+`pack` | 241 | Exported Function
+`Release` | 175 | Exported Function
+`DestroyLogManager` | 148 | Exported Function
+`CreateInstance` | 142 | Exported Function
+`Variant` | 174 | Exported Function
+`IECSClient` | 147 | Exported Function
+`IAFDClient` | 146 | Exported Function
+`allocator` | 237 | Exported Function
+`to_string` | 243 | Exported Function
+`DataCategory` | 216 | Exported Function
+`DataCategory` | 222 | Exported Function
+`DataCategory` | 220 | Exported Function
+`DataCategory` | 204 | Exported Function
+`DataCategory` | 205 | Exported Function
+`DataCategory` | 207 | Exported Function
+`DataCategory` | 208 | Exported Function
+`EventPriority` | 203 | Exported Function
+`EventLatency` | 191 | Exported Function
+`__autoclassinit2` | 235 | Exported Function
+`__autoclassinit2` | 234 | Exported Function
+`SetLevel` | 192 | Exported Function
+`SetPopsample` | 202 | Exported Function
+`SetPolicyBitFlags` | 201 | Exported Function
+`EventPersistence` | 200 | Exported Function
+`DataCategory` | 214 | Exported Function
+`DataCategory` | 210 | Exported Function
+`DataCategory` | 221 | Exported Function
+`DataCategory` | 212 | Exported Function
+`to_bytes` | 242 | Exported Function
+`clear` | 236 | Exported Function
+`SetTimestamp` | 224 | Exported Function
+`DataCategory` | 219 | Exported Function
+`DataCategory` | 213 | Exported Function
+`DataCategory` | 215 | Exported Function
+`DataCategory` | 206 | Exported Function
+`DataCategory` | 211 | Exported Function
+`DataCategory` | 218 | Exported Function
+`EventProperty` | 217 | Exported Function
+`DataCategory` | 209 | Exported Function
+`Uninitialize` | 233 | Exported Function
+`EventProperty` | 184 | Exported Function
+`allocator` | 183 | Exported Function
+`allocator` | 182 | Exported Function
+`EventProperty` | 185 | Exported Function
+`allocator` | 188 | Exported Function
+`allocator` | 187 | Exported Function
+`allocator` | 186 | Exported Function
+`allocator` | 181 | Exported Function
+`ClearExperimentIds` | 140 | Exported Function
+`DebugEventListener` | 176 | Exported Function
+`DebugEventListener` | 136 | Exported Function
+`allocator` | 177 | Exported Function
+`allocator` | 180 | Exported Function
+`allocator` | 179 | Exported Function
+`allocator` | 178 | Exported Function
+`allocator` | 226 | Exported Function
+`allocator` | 227 | Exported Function
+`allocator` | 223 | Exported Function
+`PiiKind` | 228 | Exported Function
+`allocator` | 231 | Exported Function
+`allocator` | 230 | Exported Function
+`allocator` | 229 | Exported Function
+`allocator` | 199 | Exported Function
+`NetworkCost` | 194 | Exported Function
+`allocator` | 190 | Exported Function
+`allocator` | 189 | Exported Function
+`allocator` | 195 | Exported Function
+`allocator` | 198 | Exported Function
+`allocator` | 197 | Exported Function
+`NetworkType` | 196 | Exported Function
+`GetValue` | 169 | Exported Function
+`DataCategory` | 15 | Exported Function
+`DataCategory` | 17 | Exported Function
+`DataCategory` | 18 | Exported Function
+`DataCategory` | 16 | Exported Function
+`DataCategory` | 27 | Exported Function
+`DataCategory` | 25 | Exported Function
+`DataCategory` | 28 | Exported Function
+`DataCategory` | 20 | Exported Function
+`EventProperty` | 11 | Exported Function
+`EventProperty` | 12 | Exported Function
+`allocator` | 10 | Exported Function
+`EventProperties` | 13 | Exported Function
+`DataCategory` | 29 | Exported Function
+`DataCategory` | 35 | Exported Function
+`DataCategory` | 33 | Exported Function
+`EventProperty` | 32 | Exported Function
+`DataCategory` | 24 | Exported Function
+`DataCategory` | 26 | Exported Function
+`GUID_t` | 38 | Exported Function
+`GUID_t` | 36 | Exported Function
+`GUID_t` | 40 | Exported Function
+`initializer_list` | 37 | Exported Function
+`DataCategory` | 22 | Exported Function
+`EventProperty` | 14 | Exported Function
+`DataCategory` | 21 | Exported Function
+`DataCategory` | 23 | Exported Function
+`EventProperty` | 19 | Exported Function
+`DataCategory` | 34 | Exported Function
+`DataCategory` | 31 | Exported Function
+`DataCategory` | 30 | Exported Function
+`EventProperties` | 9 | Exported Function
+`ILogger` | 134 | Exported Function
+`ILogController` | 130 | Exported Function
+`IAuthTokensController` | 128 | Exported Function
+`DebugEventDispatcher` | 131 | Exported Function
+`ISemanticContext` | 135 | Exported Function
+`ILogController` | 133 | Exported Function
+`IContextProvider` | 132 | Exported Function
+`EventProperty` | 126 | Exported Function
+`GetDefaultConfiguration` | 157 | Exported Function
+`LogConfiguration` | 154 | Exported Function
+`FromJSON` | 153 | Exported Function
+`DebugEventDispatcher` | 122 | Exported Function
+`EventProperties` | 125 | Exported Function
+`DebugEventSource` | 124 | Exported Function
+`DebugEventListener` | 123 | Exported Function
+`DebugEventDispatcher` | 4 | Exported Function
+`DebugEventDispatcher` | 3 | Exported Function
+`DebugEventDispatcher` | 2 | Exported Function
+`DebugEventListener` | 5 | Exported Function
+`DebugEventSource` | 8 | Exported Function
+`DebugEventSource` | 7 | Exported Function
+`DebugEventListener` | 6 | Exported Function
+`CorrelationVector` | 1 | Exported Function
 `evt_api_call_default` | 247 | Exported Function
-`const Microsoft::Applications::Experimentation::ECS::IECSClient::``vftable'` | 129 | Exported Function
-`const Microsoft::Applications::Experimentation::AFD::IAFDClient::``vftable'` | 127 | Exported Function
-`private: static class Microsoft::Applications::Events::ILogManager * __cdecl Microsoft::Applications::Events::LogManagerProvider::Get(char const *,enum Microsoft::Applications::Events::status_t &)` | 156 | Exported Function
-`public: __int64 __thiscall Microsoft::Applications::Events::EventProperties::GetTimestamp(void)const ` | 167 | Exported Function
-`private: void __thiscall Microsoft::Applications::Events::EventProperty::copydata(struct Microsoft::Applications::Events::EventProperty const *)` | 238 | Exported Function
-`private: static class Microsoft::Applications::Events::ILogManager * __cdecl Microsoft::Applications::Events::LogManagerProvider::Get(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Microsoft::Applications::Events::Variant,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Microsoft::Applications::Events::Variant> > > &,enum Microsoft::Applications::Events::status_t &)` | 155 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::GUID_t::GUID_t(unsigned char const * const,bool)` | 39 | Exported Function
-`public: class Microsoft::Applications::Events::DebugEventDispatcher & __thiscall Microsoft::Applications::Events::DebugEventDispatcher::operator=(class Microsoft::Applications::Events::DebugEventDispatcher const &)` | 76 | Exported Function
-`public: class Microsoft::Applications::Events::DebugEventDispatcher & __thiscall Microsoft::Applications::Events::DebugEventDispatcher::operator=(class Microsoft::Applications::Events::DebugEventDispatcher &&)` | 75 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::GUID_t::operator==(struct Microsoft::Applications::Events::GUID_t const &)const ` | 119 | Exported Function
-`public: class Microsoft::Applications::Events::DebugEventListener & __thiscall Microsoft::Applications::Events::DebugEventListener::operator=(class Microsoft::Applications::Events::DebugEventListener const &)` | 77 | Exported Function
-`public: class Microsoft::Applications::Events::EventProperties & __thiscall Microsoft::Applications::Events::EventProperties::operator=(class Microsoft::Applications::Events::EventProperties const &)` | 79 | Exported Function
-`public: class Microsoft::Applications::Events::EventProperties & __thiscall Microsoft::Applications::Events::EventProperties::operator+=(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct Microsoft::Applications::Events::EventProperty,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct Microsoft::Applications::Events::EventProperty> > > const &)` | 121 | Exported Function
-`public: class Microsoft::Applications::Events::DebugEventSource & __thiscall Microsoft::Applications::Events::DebugEventSource::operator=(class Microsoft::Applications::Events::DebugEventSource const &)` | 78 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::GUID_t::operator<(struct Microsoft::Applications::Events::GUID_t const &)const ` | 120 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::EventProperties::SetName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 193 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::SetValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 232 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::IsInitialized(void)` | 173 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::EventProperties::SetType(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 225 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::EventProperty::operator==(struct Microsoft::Applications::Events::EventProperty const &)const ` | 118 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::EventProperty::empty(void)` | 239 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::EventProperties::unpack(struct evt_prop *,unsigned int)` | 246 | Exported Function
-`public: class Microsoft::Applications::Experimentation::AFD::IAFDClient & __thiscall Microsoft::Applications::Experimentation::AFD::IAFDClient::operator=(class Microsoft::Applications::Experimentation::AFD::IAFDClient &&)` | 103 | Exported Function
-`public: class Microsoft::Applications::Events::LogManagerProvider & __thiscall Microsoft::Applications::Events::LogManagerProvider::operator=(class Microsoft::Applications::Events::LogManagerProvider const &)` | 116 | Exported Function
-`public: class Microsoft::Applications::Events::LogManagerProvider & __thiscall Microsoft::Applications::Events::LogManagerProvider::operator=(class Microsoft::Applications::Events::LogManagerProvider &&)` | 115 | Exported Function
-`public: class Microsoft::Applications::Experimentation::AFD::IAFDClient & __thiscall Microsoft::Applications::Experimentation::AFD::IAFDClient::operator=(class Microsoft::Applications::Experimentation::AFD::IAFDClient const &)` | 104 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Microsoft::Applications::Events::CorrelationVector::GetNextValue(void)` | 160 | Exported Function
-`public: class Microsoft::Applications::Experimentation::ECS::IECSClient & __thiscall Microsoft::Applications::Experimentation::ECS::IECSClient::operator=(class Microsoft::Applications::Experimentation::ECS::IECSClient const &)` | 107 | Exported Function
-`public: class Microsoft::Applications::Experimentation::ECS::IECSClient & __thiscall Microsoft::Applications::Experimentation::ECS::IECSClient::operator=(class Microsoft::Applications::Experimentation::ECS::IECSClient &&)` | 106 | Exported Function
-`public: class Microsoft::Applications::Events::ISemanticContext & __thiscall Microsoft::Applications::Events::ISemanticContext::operator=(class Microsoft::Applications::Events::ISemanticContext const &)` | 112 | Exported Function
-`public: class Microsoft::Applications::Events::IAuthTokensController & __thiscall Microsoft::Applications::Events::IAuthTokensController::operator=(class Microsoft::Applications::Events::IAuthTokensController const &)` | 105 | Exported Function
-`public: class Microsoft::Applications::Events::EventProperties & __thiscall Microsoft::Applications::Events::EventProperties::operator=(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct Microsoft::Applications::Events::EventProperty,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct Microsoft::Applications::Events::EventProperty> > > const &)` | 80 | Exported Function
-`public: class Microsoft::Applications::Events::EventProperties & __thiscall Microsoft::Applications::Events::EventProperties::operator=(class std::initializer_list<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct Microsoft::Applications::Events::EventProperty> >)` | 81 | Exported Function
-`public: class Microsoft::Applications::Events::ILogController & __thiscall Microsoft::Applications::Events::ILogController::operator=(class Microsoft::Applications::Events::ILogController &&)` | 108 | Exported Function
-`public: class Microsoft::Applications::Events::ILogManager & __thiscall Microsoft::Applications::Events::ILogManager::operator=(class Microsoft::Applications::Events::ILogManager const &)` | 110 | Exported Function
-`public: class Microsoft::Applications::Events::ILogger & __thiscall Microsoft::Applications::Events::ILogger::operator=(class Microsoft::Applications::Events::ILogger const &)` | 111 | Exported Function
-`public: class Microsoft::Applications::Events::ILogController & __thiscall Microsoft::Applications::Events::ILogController::operator=(class Microsoft::Applications::Events::ILogController const &)` | 109 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::Initialize(int)` | 172 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ISemanticContext::ISemanticContext(class Microsoft::Applications::Events::ISemanticContext const &)` | 57 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogManager::ILogManager(void)` | 54 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogManager::ILogManager(class Microsoft::Applications::Events::ILogManager const &)` | 53 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ISemanticContext::ISemanticContext(void)` | 58 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::time_ticks_t::time_ticks_t(unsigned __int64)` | 65 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::time_ticks_t::time_ticks_t(struct Microsoft::Applications::Events::time_ticks_t const &)` | 62 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::time_ticks_t::time_ticks_t(__int64 const *)` | 63 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogger::ILogger(void)` | 56 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::IAuthTokensController::IAuthTokensController(void)` | 46 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::IAuthTokensController::IAuthTokensController(class Microsoft::Applications::Events::IAuthTokensController const &)` | 45 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::GUID_t::GUID_t(void)` | 41 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogController::ILogController(class Microsoft::Applications::Events::ILogController &&)` | 50 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogger::ILogger(class Microsoft::Applications::Events::ILogger const &)` | 55 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogController::ILogController(void)` | 52 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::ILogController::ILogController(class Microsoft::Applications::Events::ILogController const &)` | 51 | Exported Function
-`public: __thiscall Microsoft::Applications::Telemetry::LogConfiguration::~LogConfiguration(void)` | 74 | Exported Function
-`public: __thiscall Microsoft::Applications::Telemetry::LogConfiguration::LogConfiguration(void)` | 61 | Exported Function
-`public: __thiscall Microsoft::Applications::Telemetry::LogConfiguration::LogConfiguration(struct Microsoft::Applications::Telemetry::LogConfiguration const &)` | 60 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::CanExtend(void)` | 138 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::Increment(void)` | 171 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::Extend(void)` | 152 | Exported Function
-`public: bool __thiscall Microsoft::Applications::Events::CorrelationVector::CanIncrement(void)` | 139 | Exported Function
-`public: __thiscall Microsoft::Applications::Telemetry::LogConfiguration::LogConfiguration(struct Microsoft::Applications::Telemetry::LogConfiguration &&)` | 59 | Exported Function
-`public: __thiscall Microsoft::Applications::Experimentation::AFD::IAFDClient::IAFDClient(class Microsoft::Applications::Experimentation::AFD::IAFDClient const &)` | 43 | Exported Function
-`public: __thiscall Microsoft::Applications::Experimentation::AFD::IAFDClient::IAFDClient(class Microsoft::Applications::Experimentation::AFD::IAFDClient &&)` | 42 | Exported Function
-`public: __thiscall Microsoft::Applications::Events::time_ticks_t::time_ticks_t(void)` | 64 | Exported Function
-`public: __thiscall Microsoft::Applications::Experimentation::AFD::IAFDClient::IAFDClient(void)` | 44 | Exported Function
-`public: __thiscall Microsoft::Applications::Experimentation::ECS::IECSClient::IECSClient(void)` | 49 | Exported Function
-`public: __thiscall Microsoft::Applications::Experimentation::ECS::IECSClient::IECSClient(class Microsoft::Applications::Experimentation::ECS::IECSClient const &)` | 48 | Exported Function
-`public: __thiscall Microsoft::Applications::Experimentation::ECS::IECSClient::IECSClient(class Microsoft::Applications::Experimentation::ECS::IECSClient &&)` | 47 | Exported Function
+`IECSClient` | 129 | Exported Function
+`IAFDClient` | 127 | Exported Function
+`status_t` | 156 | Exported Function
+`GetTimestamp` | 167 | Exported Function
+`EventProperty` | 238 | Exported Function
+`status_t` | 155 | Exported Function
+`GUID_t` | 39 | Exported Function
+`DebugEventDispatcher` | 76 | Exported Function
+`DebugEventDispatcher` | 75 | Exported Function
+`GUID_t` | 119 | Exported Function
+`DebugEventListener` | 77 | Exported Function
+`EventProperties` | 79 | Exported Function
+`EventProperty` | 121 | Exported Function
+`DebugEventSource` | 78 | Exported Function
+`GUID_t` | 120 | Exported Function
+`allocator` | 193 | Exported Function
+`allocator` | 232 | Exported Function
+`IsInitialized` | 173 | Exported Function
+`allocator` | 225 | Exported Function
+`EventProperty` | 118 | Exported Function
+`empty` | 239 | Exported Function
+`unpack` | 246 | Exported Function
+`IAFDClient` | 103 | Exported Function
+`LogManagerProvider` | 116 | Exported Function
+`LogManagerProvider` | 115 | Exported Function
+`IAFDClient` | 104 | Exported Function
+`GetNextValue` | 160 | Exported Function
+`IECSClient` | 107 | Exported Function
+`IECSClient` | 106 | Exported Function
+`ISemanticContext` | 112 | Exported Function
+`IAuthTokensController` | 105 | Exported Function
+`EventProperty` | 80 | Exported Function
+`EventProperty` | 81 | Exported Function
+`ILogController` | 108 | Exported Function
+`ILogManager` | 110 | Exported Function
+`ILogger` | 111 | Exported Function
+`ILogController` | 109 | Exported Function
+`Initialize` | 172 | Exported Function
+`ISemanticContext` | 57 | Exported Function
+`ILogManager` | 54 | Exported Function
+`ILogManager` | 53 | Exported Function
+`ISemanticContext` | 58 | Exported Function
+`time_ticks_t` | 65 | Exported Function
+`time_ticks_t` | 62 | Exported Function
+`time_ticks_t` | 63 | Exported Function
+`ILogger` | 56 | Exported Function
+`IAuthTokensController` | 46 | Exported Function
+`IAuthTokensController` | 45 | Exported Function
+`GUID_t` | 41 | Exported Function
+`ILogController` | 50 | Exported Function
+`ILogger` | 55 | Exported Function
+`ILogController` | 52 | Exported Function
+`ILogController` | 51 | Exported Function
+`LogConfiguration` | 74 | Exported Function
+`LogConfiguration` | 61 | Exported Function
+`LogConfiguration` | 60 | Exported Function
+`CanExtend` | 138 | Exported Function
+`Increment` | 171 | Exported Function
+`Extend` | 152 | Exported Function
+`CanIncrement` | 139 | Exported Function
+`LogConfiguration` | 59 | Exported Function
+`IAFDClient` | 43 | Exported Function
+`IAFDClient` | 42 | Exported Function
+`time_ticks_t` | 64 | Exported Function
+`IAFDClient` | 44 | Exported Function
+`IECSClient` | 49 | Exported Function
+`IECSClient` | 48 | Exported Function
+`IECSClient` | 47 | Exported Function
 
 
 ## Signature

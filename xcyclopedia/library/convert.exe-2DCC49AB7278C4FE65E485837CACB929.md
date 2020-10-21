@@ -18,6 +18,9 @@ SHA256 | `91C6B20A6D953A3B0769323918D0EAC216C9F9BBDD5880A1A1CCFB9E43179F69`
 SHA384 | `CF8786462B72F16D5DF2C9F6E6F5E3A4BE91204A7A7F696B4E873AF71B148341A1E43B559D284E770D3C82C395289CC7`
 SHA512 | `A349DB8154472F10979CD7CE4E4C8DCCF420723DD13F531E9A9A585684FC2506EC4702B89A6A7C9A9C33FAE2433E932D2D5C88B8B875DDDC9410CD0F6B581437`
 SSDEEP | `384:XNWxTBrvw5Fz/Zc8bY3piv5R6QUZqhKsy7jNTW9qW:M9Lw7LWMY8xRlWjo`
+IMP | `D950A0891AA3651B49F0BAFE5E2CEF68`
+PESHA1 | `89CE0F9C02539D5E1C9A9E9A8EE20E4D7607EF3A`
+PE256 | `378F14AF93B8DC8BC06FC97E8C2059DBB7BC155B1606937F35B01F68ABF9B609`
 
 ## Runtime Data
 
@@ -52,17 +55,23 @@ Invalid drive specification.
 
 Path |
 -- |
+C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\system32\convert.exe |
+C:\Windows\system32\IfsUtil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SCECLI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\ulib.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -75,7 +84,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/91c6b20a6d953a3b0769323918d0eac216c9f9bbdd5880a1a1ccfb9e43179f69/detection/
 
 
 ## Possible Misuse

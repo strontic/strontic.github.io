@@ -43,6 +43,7 @@ SSDEEP | `3072:H3ssvkyH7qu400RzVj8zjMR3QgghCGzJ+iW4roAzuiGesThKV7b:HnrOu1WzxkV0w
 File | Score
 -- | --
 [C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-3B741ECE0E18DD2F16F1BD999111232F.md) | 97
+[C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-EAF509BCE23BB6D62F517E5DC569C682.md) | 96
 
 
 

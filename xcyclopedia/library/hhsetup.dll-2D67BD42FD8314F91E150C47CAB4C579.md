@@ -26,151 +26,151 @@ PE256 | `9522E9A41665DD79C4980FB051FAF6FAA903A5A7DE404EF202655F74799FC4EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned short __thiscall CCollection::GetLangId(char const *)` | 66 | Exported Function
-`public: unsigned long __thiscall CTitle::AddLocationHistory(unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,class CLocation const *,unsigned short const *,unsigned short const *,int)` | 29 | Exported Function
-`public: unsigned short __thiscall CFolder::GetLanguage(void)` | 68 | Exported Function
-`public: unsigned short __thiscall CCollection::GetLangId(unsigned short const *)` | 67 | Exported Function
-`public: unsigned long __thiscall CTitle::AddLocationHistory(unsigned long,char const *,char const *,char const *,class CLocation const *,char const *,char const *,int)` | 28 | Exported Function
-`public: unsigned long __thiscall CFIFOString::GetTail(char * *)` | 84 | Exported Function
-`public: unsigned long __thiscall CFIFOString::AddTail(char *)` | 32 | Exported Function
-`public: unsigned long __thiscall CFolder::GetOrder(void)` | 76 | Exported Function
-`public: unsigned long __thiscall CFolder::AddChildFolder(class CFolder *)` | 20 | Exported Function
-`public: unsigned short const * __thiscall CLocation::GetTitleW(void)` | 88 | Exported Function
-`public: unsigned short const * __thiscall CLocation::GetPathW(void)` | 79 | Exported Function
-`public: unsigned short const * __thiscall CTitle::GetIdW(void)` | 65 | Exported Function
-`public: unsigned short const * __thiscall CLocation::GetVolumeW(void)` | 92 | Exported Function
-`public: unsigned short const * __thiscall CLocation::GetIdW(void)` | 64 | Exported Function
-`public: unsigned short const * __thiscall CCollection::GetCollectionFileNameW(void)` | 58 | Exported Function
-`public: unsigned short __thiscall CTitle::GetLanguage(void)` | 69 | Exported Function
-`public: unsigned short const * __thiscall CFolder::GetTitleW(void)` | 87 | Exported Function
-`public: unsigned short const * __thiscall CCollection::GetSampleLocationW(void)` | 83 | Exported Function
-`public: struct ListItem * __thiscall CPointerList::Next(struct ListItem *)` | 105 | Exported Function
-`public: struct ListItem * __thiscall CPointerList::First(void)` | 54 | Exported Function
-`public: struct LocationHistory * __thiscall CTitle::NewLocationHistory(void)` | 103 | Exported Function
-`public: struct LocationHistory * __thiscall CTitle::GetLocation(unsigned long)` | 70 | Exported Function
-`public: struct ListItem * __thiscall CPointerList::Add(void *)` | 19 | Exported Function
-`public: int __thiscall CCollection::MergeKeywords(char *)` | 100 | Exported Function
-`public: int __thiscall CCollection::IsDirty(void)` | 99 | Exported Function
-`public: int __thiscall CFolder::bIsVisable(void)` | 144 | Exported Function
-`public: int __thiscall CCollection::MergeKeywords(unsigned short *)` | 101 | Exported Function
-`public: unsigned long __thiscall CCollection::Open(unsigned short const *)` | 107 | Exported Function
-`public: unsigned long __thiscall CCollection::Open(char const *)` | 106 | Exported Function
-`public: unsigned long __thiscall CCollection::Save(void)` | 114 | Exported Function
-`public: unsigned long __thiscall CCollection::RemoveCollection(int)` | 112 | Exported Function
-`public: unsigned long __thiscall CCollection::GetVersion(void)` | 89 | Exported Function
-`public: unsigned long __thiscall CCollection::DeleteFolder(class CFolder *)` | 43 | Exported Function
-`public: unsigned long __thiscall CCollection::Close(void)` | 39 | Exported Function
-`public: unsigned long __thiscall CCollection::GetRefTitleCount(void)` | 80 | Exported Function
-`public: unsigned long __thiscall CCollection::GetColNo(void)` | 56 | Exported Function
-`public: void __thiscall CLocation::SetPath(char const *)` | 131 | Exported Function
-`public: void __thiscall CLocation::SetNextLocation(class CLocation *)` | 127 | Exported Function
-`public: void __thiscall CLocation::SetTitle(char const *)` | 137 | Exported Function
-`public: void __thiscall CLocation::SetPath(unsigned short const *)` | 132 | Exported Function
-`public: void __thiscall CLocation::SetId(unsigned short const *)` | 119 | Exported Function
-`public: void __thiscall CFolder::SetTitle(char const *)` | 135 | Exported Function
-`public: void __thiscall CFolder::SetParent(class CFolder *)` | 130 | Exported Function
-`public: void __thiscall CLocation::SetId(char const *)` | 118 | Exported Function
-`public: void __thiscall CFolder::SetTitle(unsigned short const *)` | 136 | Exported Function
-`public: void __thiscall CTitle::SetLanguage(unsigned short)` | 123 | Exported Function
-`public: void __thiscall CTitle::SetId(unsigned short const *)` | 121 | Exported Function
+`GetLangId` | 66 | Exported Function
+`AddLocationHistory` | 29 | Exported Function
+`GetLanguage` | 68 | Exported Function
+`GetLangId` | 67 | Exported Function
+`AddLocationHistory` | 28 | Exported Function
+`GetTail` | 84 | Exported Function
+`AddTail` | 32 | Exported Function
+`GetOrder` | 76 | Exported Function
+`AddChildFolder` | 20 | Exported Function
+`GetTitleW` | 88 | Exported Function
+`GetPathW` | 79 | Exported Function
+`GetIdW` | 65 | Exported Function
+`GetVolumeW` | 92 | Exported Function
+`GetIdW` | 64 | Exported Function
+`GetCollectionFileNameW` | 58 | Exported Function
+`GetLanguage` | 69 | Exported Function
+`GetTitleW` | 87 | Exported Function
+`GetSampleLocationW` | 83 | Exported Function
+`Next` | 105 | Exported Function
+`First` | 54 | Exported Function
+`NewLocationHistory` | 103 | Exported Function
+`GetLocation` | 70 | Exported Function
+`Add` | 19 | Exported Function
+`MergeKeywords` | 100 | Exported Function
+`IsDirty` | 99 | Exported Function
+`bIsVisable` | 144 | Exported Function
+`MergeKeywords` | 101 | Exported Function
+`Open` | 107 | Exported Function
+`Open` | 106 | Exported Function
+`Save` | 114 | Exported Function
+`RemoveCollection` | 112 | Exported Function
+`GetVersion` | 89 | Exported Function
+`DeleteFolder` | 43 | Exported Function
+`Close` | 39 | Exported Function
+`GetRefTitleCount` | 80 | Exported Function
+`GetColNo` | 56 | Exported Function
+`SetPath` | 131 | Exported Function
+`SetNextLocation` | 127 | Exported Function
+`SetTitle` | 137 | Exported Function
+`SetPath` | 132 | Exported Function
+`SetId` | 119 | Exported Function
+`SetTitle` | 135 | Exported Function
+`SetParent` | 130 | Exported Function
+`SetId` | 118 | Exported Function
+`SetTitle` | 136 | Exported Function
+`SetLanguage` | 123 | Exported Function
+`SetId` | 121 | Exported Function
 `unsigned long __stdcall AllocSetValue(char const *,char * *)` | 36 | Exported Function
-`public: void __thiscall CTitle::SetNextTitle(class CTitle *)` | 128 | Exported Function
-`public: void __thiscall CTitle::SetId(char const *)` | 120 | Exported Function
-`public: void __thiscall CLocation::SetVolume(char const *)` | 140 | Exported Function
-`public: void __thiscall CLocation::SetTitle(unsigned short const *)` | 138 | Exported Function
-`public: void __thiscall CPointerList::RemoveAll(void)` | 111 | Exported Function
-`public: void __thiscall CLocation::SetVolume(unsigned short const *)` | 141 | Exported Function
-`public: void __thiscall CCollection::SetFindMergedCHMS(int)` | 116 | Exported Function
-`public: void __thiscall CCollection::RemoveCollectionEntry(char const *)` | 113 | Exported Function
-`public: void __thiscall CCollection::SetMasterCHM(unsigned short const *,unsigned short)` | 125 | Exported Function
-`public: void __thiscall CCollection::SetMasterCHM(char const *,unsigned short)` | 124 | Exported Function
-`public: void __thiscall CCollection::IncrementRefTitleCount(void)` | 98 | Exported Function
-`public: void __thiscall CCollection::ConfirmTitles(void)` | 40 | Exported Function
-`public: void __thiscall CCollection::AddRef(void)` | 30 | Exported Function
-`public: void __thiscall CCollection::Dirty(void)` | 48 | Exported Function
-`public: void __thiscall CCollection::DecrementRefTitleCount(void)` | 41 | Exported Function
-`public: void __thiscall CFolder::SetLanguage(unsigned short)` | 122 | Exported Function
-`public: void __thiscall CFolder::SetFirstChildFolder(class CFolder *)` | 117 | Exported Function
-`public: void __thiscall CFolder::SetOrder(unsigned long)` | 129 | Exported Function
-`public: void __thiscall CFolder::SetNextFolder(class CFolder *)` | 126 | Exported Function
-`public: void __thiscall CFolder::SetExTitlePtr(class CExTitle *)` | 115 | Exported Function
-`public: void __thiscall CCollection::SetSampleLocation(unsigned short const *)` | 134 | Exported Function
-`public: void __thiscall CCollection::SetSampleLocation(char const *)` | 133 | Exported Function
-`public: void __thiscall CFIFOString::RemoveAll(void)` | 110 | Exported Function
-`public: void __thiscall CCollection::SetVersion(unsigned long)` | 139 | Exported Function
-`public: int __thiscall CCollection::GetMasterCHM(unsigned short * *,unsigned short *)` | 72 | Exported Function
+`SetNextTitle` | 128 | Exported Function
+`SetId` | 120 | Exported Function
+`SetVolume` | 140 | Exported Function
+`SetTitle` | 138 | Exported Function
+`RemoveAll` | 111 | Exported Function
+`SetVolume` | 141 | Exported Function
+`SetFindMergedCHMS` | 116 | Exported Function
+`RemoveCollectionEntry` | 113 | Exported Function
+`SetMasterCHM` | 125 | Exported Function
+`SetMasterCHM` | 124 | Exported Function
+`IncrementRefTitleCount` | 98 | Exported Function
+`ConfirmTitles` | 40 | Exported Function
+`AddRef` | 30 | Exported Function
+`Dirty` | 48 | Exported Function
+`DecrementRefTitleCount` | 41 | Exported Function
+`SetLanguage` | 122 | Exported Function
+`SetFirstChildFolder` | 117 | Exported Function
+`SetOrder` | 129 | Exported Function
+`SetNextFolder` | 126 | Exported Function
+`SetExTitlePtr` | 115 | Exported Function
+`SetSampleLocation` | 134 | Exported Function
+`SetSampleLocation` | 133 | Exported Function
+`RemoveAll` | 110 | Exported Function
+`SetVersion` | 139 | Exported Function
+`GetMasterCHM` | 72 | Exported Function
 `public: __thiscall CFIFOString::~CFIFOString(void)` | 8 | Exported Function
-`public: __thiscall CFIFOString::CFIFOString(void)` | 2 | Exported Function
+`CFIFOString` | 2 | Exported Function
 `public: __thiscall CFolder::~CFolder(void)` | 9 | Exported Function
-`public: __thiscall CFolder::CFolder(void)` | 3 | Exported Function
+`CFolder` | 3 | Exported Function
 `public: __thiscall CCollection::~CCollection(void)` | 7 | Exported Function
-`private: void __thiscall CCollection::DeleteLocalFiles(struct LocationHistory *,class CTitle *)` | 45 | Exported Function
-`private: void __thiscall CCollection::DeleteFolders(class CFolder * *)` | 44 | Exported Function
-`public: __thiscall CCollection::CCollection(void)` | 1 | Exported Function
-`private: void __thiscall CCollection::wssResetNextColNum(void)` | 145 | Exported Function
-`public: char * __thiscall CCollection::GetSampleLocation(void)` | 82 | Exported Function
+`DeleteLocalFiles` | 45 | Exported Function
+`DeleteFolders` | 44 | Exported Function
+`CCollection` | 1 | Exported Function
+`wssResetNextColNum` | 145 | Exported Function
+`GetSampleLocation` | 82 | Exported Function
 `public: __thiscall CTitle::~CTitle(void)` | 12 | Exported Function
-`public: char * __thiscall CLocation::GetId(void)const ` | 62 | Exported Function
-`public: char * __thiscall CFolder::GetTitle(void)` | 85 | Exported Function
-`public: __thiscall CTitle::CTitle(void)` | 6 | Exported Function
+`GetId` | 62 | Exported Function
+`GetTitle` | 85 | Exported Function
+`CTitle` | 6 | Exported Function
 `public: __thiscall CLocation::~CLocation(void)` | 10 | Exported Function
-`public: __thiscall CLocation::CLocation(void)` | 4 | Exported Function
+`CLocation` | 4 | Exported Function
 `public: __thiscall CPointerList::~CPointerList(void)` | 11 | Exported Function
-`public: __thiscall CPointerList::CPointerList(void)` | 5 | Exported Function
-`private: unsigned long __thiscall CCollection::CheckTitleRef(char const *,unsigned short)` | 37 | Exported Function
-`private: unsigned long __thiscall CCollection::AllocCopyValue(class CParseXML *,char *,char * *)` | 35 | Exported Function
-`private: unsigned long __thiscall CCollection::DeleteLocation(class CLocation *)` | 46 | Exported Function
-`private: unsigned long __thiscall CCollection::CheckTitleRef(unsigned short const *,unsigned short)` | 38 | Exported Function
-`private: unsigned long __thiscall CCollection::AddRefedTitle(class CFolder *)` | 31 | Exported Function
-`private: class CTitle * __thiscall CCollection::NewTitle(void)` | 104 | Exported Function
-`private: class CLocation * __thiscall CCollection::NewLocation(void)` | 102 | Exported Function
-`private: int __thiscall CCollection::WriteFolders(class CFolder * *)` | 143 | Exported Function
-`private: int __thiscall CCollection::WriteFolder(class CFolder * *)` | 142 | Exported Function
-`private: unsigned long __thiscall CCollection::ParseFile(char const *)` | 108 | Exported Function
-`private: unsigned long __thiscall CCollection::HandleTitle(class CParseXML *,char *)` | 97 | Exported Function
-`private: void __thiscall CCollection::DeleteChildren(class CFolder * *)` | 42 | Exported Function
-`private: unsigned long __thiscall CCollection::Release(void)` | 109 | Exported Function
-`private: unsigned long __thiscall CCollection::HandleLocation(class CParseXML *,char *)` | 96 | Exported Function
-`private: unsigned long __thiscall CCollection::HandleCollection(class CParseXML *,char *)` | 93 | Exported Function
-`private: unsigned long __thiscall CCollection::DeleteTitle(class CTitle *)` | 47 | Exported Function
-`private: unsigned long __thiscall CCollection::HandleFolder(class CParseXML *,char *)` | 95 | Exported Function
-`private: unsigned long __thiscall CCollection::HandleCollectionEntry(class CParseXML *,char *)` | 94 | Exported Function
-`public: class CLocation * __thiscall CCollection::FirstLocation(void)` | 55 | Exported Function
-`public: class CLocation * __thiscall CCollection::FindLocation(unsigned short const *,unsigned int *)` | 51 | Exported Function
-`public: class CPointerList & __thiscall CPointerList::operator=(class CPointerList const &)` | 17 | Exported Function
-`public: class CLocation * __thiscall CLocation::GetNextLocation(void)` | 74 | Exported Function
-`public: class CLocation * __thiscall CCollection::FindLocation(char const *,unsigned int *)` | 50 | Exported Function
-`public: class CLocation & __thiscall CLocation::operator=(class CLocation const &)` | 16 | Exported Function
-`public: class CFolder * __thiscall CFolder::GetParent(void)` | 77 | Exported Function
-`public: class CLocation * __thiscall CCollection::AddLocation(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long *)` | 27 | Exported Function
-`public: class CLocation * __thiscall CCollection::AddLocation(char const *,char const *,char const *,char const *,unsigned long *)` | 26 | Exported Function
-`public: class CTitle * __thiscall CTitle::GetNextTitle(void)` | 75 | Exported Function
-`public: class CTitle * __thiscall CCollection::GetFirstTitle(void)` | 61 | Exported Function
-`public: int __thiscall CCollection::GetMasterCHM(char * *,unsigned short *)` | 71 | Exported Function
-`public: int __thiscall CCollection::GetFindMergedCHMS(void)` | 59 | Exported Function
-`public: class CTitle * __thiscall CCollection::FindTitle(unsigned short const *,unsigned short)` | 53 | Exported Function
-`public: class CTitle * __thiscall CCollection::AddTitle(char const *,char const *,char const *,char const *,char const *,unsigned short,unsigned int,class CLocation *,unsigned long *,int,char const *)` | 33 | Exported Function
-`public: class CTitle & __thiscall CTitle::operator=(class CTitle const &)` | 18 | Exported Function
-`public: class CTitle * __thiscall CCollection::FindTitle(char const *,unsigned short)` | 52 | Exported Function
-`public: class CTitle * __thiscall CCollection::AddTitle(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short,unsigned int,class CLocation *,unsigned long *,int,unsigned short const *)` | 34 | Exported Function
-`public: class CColList * __thiscall CCollection::AddCollection(void)` | 23 | Exported Function
-`public: class CCollection & __thiscall CCollection::operator=(class CCollection const &)` | 13 | Exported Function
-`public: class CFIFOString & __thiscall CFIFOString::operator=(class CFIFOString const &)` | 14 | Exported Function
-`public: class CColList * __thiscall CCollection::FindCollection(char const *)` | 49 | Exported Function
-`public: char const * __thiscall CCollection::GetCollectionFileName(void)` | 57 | Exported Function
-`public: char * __thiscall CLocation::GetTitle(void)` | 86 | Exported Function
-`public: char * __thiscall CLocation::GetPath(void)` | 78 | Exported Function
-`public: char * __thiscall CTitle::GetId(void)` | 63 | Exported Function
-`public: char * __thiscall CLocation::GetVolume(void)` | 91 | Exported Function
-`public: class CFolder * __thiscall CFolder::AddChildFolder(unsigned short const *,unsigned long,unsigned long *,unsigned short)` | 22 | Exported Function
-`public: class CFolder * __thiscall CFolder::AddChildFolder(char const *,unsigned long,unsigned long *,unsigned short)` | 21 | Exported Function
-`public: class CFolder * __thiscall CFolder::GetNextFolder(void)` | 73 | Exported Function
-`public: class CFolder * __thiscall CFolder::GetFirstChildFolder(void)` | 60 | Exported Function
-`public: class CFolder * __thiscall CCollection::GetVisableRootFolder(void)` | 90 | Exported Function
-`public: class CFolder * __thiscall CCollection::AddFolder(char const *,unsigned long,unsigned long *,unsigned short)` | 24 | Exported Function
-`public: class CFolder & __thiscall CFolder::operator=(class CFolder const &)` | 15 | Exported Function
-`public: class CFolder * __thiscall CCollection::GetRootFolder(void)` | 81 | Exported Function
-`public: class CFolder * __thiscall CCollection::AddFolder(unsigned short const *,unsigned long,unsigned long *,unsigned short)` | 25 | Exported Function
+`CPointerList` | 5 | Exported Function
+`CheckTitleRef` | 37 | Exported Function
+`AllocCopyValue` | 35 | Exported Function
+`DeleteLocation` | 46 | Exported Function
+`CheckTitleRef` | 38 | Exported Function
+`AddRefedTitle` | 31 | Exported Function
+`NewTitle` | 104 | Exported Function
+`NewLocation` | 102 | Exported Function
+`WriteFolders` | 143 | Exported Function
+`WriteFolder` | 142 | Exported Function
+`ParseFile` | 108 | Exported Function
+`HandleTitle` | 97 | Exported Function
+`DeleteChildren` | 42 | Exported Function
+`Release` | 109 | Exported Function
+`HandleLocation` | 96 | Exported Function
+`HandleCollection` | 93 | Exported Function
+`DeleteTitle` | 47 | Exported Function
+`HandleFolder` | 95 | Exported Function
+`HandleCollectionEntry` | 94 | Exported Function
+`FirstLocation` | 55 | Exported Function
+`FindLocation` | 51 | Exported Function
+`operator` | 17 | Exported Function
+`GetNextLocation` | 74 | Exported Function
+`FindLocation` | 50 | Exported Function
+`operator` | 16 | Exported Function
+`GetParent` | 77 | Exported Function
+`AddLocation` | 27 | Exported Function
+`AddLocation` | 26 | Exported Function
+`GetNextTitle` | 75 | Exported Function
+`GetFirstTitle` | 61 | Exported Function
+`GetMasterCHM` | 71 | Exported Function
+`GetFindMergedCHMS` | 59 | Exported Function
+`FindTitle` | 53 | Exported Function
+`AddTitle` | 33 | Exported Function
+`operator` | 18 | Exported Function
+`FindTitle` | 52 | Exported Function
+`AddTitle` | 34 | Exported Function
+`AddCollection` | 23 | Exported Function
+`operator` | 13 | Exported Function
+`operator` | 14 | Exported Function
+`FindCollection` | 49 | Exported Function
+`GetCollectionFileName` | 57 | Exported Function
+`GetTitle` | 86 | Exported Function
+`GetPath` | 78 | Exported Function
+`GetId` | 63 | Exported Function
+`GetVolume` | 91 | Exported Function
+`AddChildFolder` | 22 | Exported Function
+`AddChildFolder` | 21 | Exported Function
+`GetNextFolder` | 73 | Exported Function
+`GetFirstChildFolder` | 60 | Exported Function
+`GetVisableRootFolder` | 90 | Exported Function
+`AddFolder` | 24 | Exported Function
+`operator` | 15 | Exported Function
+`GetRootFolder` | 81 | Exported Function
+`AddFolder` | 25 | Exported Function
 
 
 ## Signature

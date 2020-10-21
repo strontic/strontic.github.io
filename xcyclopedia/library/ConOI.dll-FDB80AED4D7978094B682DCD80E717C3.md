@@ -26,36 +26,36 @@ PE256 | `FFE485085FB7C31B1D35C9EADAC6747DD8AB8B9B15C685AED4F43B6DDA1F7B44`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall AT::CChain::Detach(void)` | 19 | Exported Function
-`public: void __thiscall AT::CChain::Insert(class AT::CChain *)` | 22 | Exported Function
-`public: static void __cdecl AT::CObject::operator delete(void *)` | 10 | Exported Function
-`public: int __thiscall AT::CChain::IsEmpty(void)const ` | 24 | Exported Function
-`public: static void * __cdecl AT::CObject::operator new(unsigned int)` | 9 | Exported Function
+`Detach` | 19 | Exported Function
+`CChain` | 22 | Exported Function
+`operator` | 10 | Exported Function
+`IsEmpty` | 24 | Exported Function
+`operator` | 9 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 37 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 38 | Exported Function
-`unsigned int __cdecl at_range_spliteline(class AT::CStrRangeT<wchar_t>,unsigned int,class AT::CStrRangeT<wchar_t> &)` | 36 | Exported Function
-`public: void __thiscall AT::CSearchDir::Search(wchar_t const *)` | 25 | Exported Function
-`unsigned int __cdecl at_range_spliteline(class AT::CStrRangeT<char>,unsigned int,class AT::CStrRangeT<char> &)` | 35 | Exported Function
-`public: int __thiscall AT::CChain::IsChain(void)const ` | 23 | Exported Function
-`public: class AT::CChain & __thiscall AT::CChain::operator=(class AT::CChain const &)` | 11 | Exported Function
-`public: class AT::CChain * __thiscall AT::CChain::GetNext(void)const ` | 20 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(void)` | 6 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(class AT::CSearchDir &&)` | 4 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(class AT::CSearchDir const &)` | 5 | Exported Function
-`public: class AT::CSearchDir & __thiscall AT::CSearchDir::operator=(class AT::CSearchDir &&)` | 14 | Exported Function
-`public: class AT::CSearchDir & __thiscall AT::CSearchDir::operator=(class AT::CSearchDir const &)` | 15 | Exported Function
-`public: class AT::CObject & __thiscall AT::CObject::operator=(class AT::CObject const &)` | 13 | Exported Function
-`public: class AT::CChain * __thiscall AT::CChain::GetPrev(void)const ` | 21 | Exported Function
-`public: class AT::CObject & __thiscall AT::CObject::operator=(class AT::CObject &&)` | 12 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<char> &,unsigned int,wchar_t const *,unsigned int)` | 28 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<wchar_t> &,unsigned int,char const *,unsigned int)` | 29 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<char> &,unsigned int,char const *,unsigned int)` | 27 | Exported Function
+`CStrRangeT` | 36 | Exported Function
+`Search` | 25 | Exported Function
+`CStrRangeT` | 35 | Exported Function
+`IsChain` | 23 | Exported Function
+`CChain` | 11 | Exported Function
+`GetNext` | 20 | Exported Function
+`CSearchDir` | 6 | Exported Function
+`CSearchDir` | 4 | Exported Function
+`CSearchDir` | 5 | Exported Function
+`CSearchDir` | 14 | Exported Function
+`CSearchDir` | 15 | Exported Function
+`CObject` | 13 | Exported Function
+`GetPrev` | 21 | Exported Function
+`CObject` | 12 | Exported Function
+`CStringT` | 28 | Exported Function
+`CStringT` | 29 | Exported Function
+`CStringT` | 27 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 32 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 34 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 51 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 53 | Exported Function
 `void __cdecl setConOIMgrEvent(class _conIConOIMgrEvent *)` | 55 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<wchar_t> &,unsigned int,wchar_t const *,unsigned int)` | 30 | Exported Function
+`CStringT` | 30 | Exported Function
 `void __cdecl at_mem_free(void *)` | 33 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 49 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 42 | Exported Function
@@ -89,16 +89,16 @@ Function Name | Ordinal | Type
 `at_astr_stri` | 63 | Exported Function
 `at_astr_rchri` | 61 | Exported Function
 `at_astr_rstri` | 62 | Exported Function
-`private: void __thiscall AT::CHexString::Create(void const *,void const *)` | 18 | Exported Function
-`public: __thiscall AT::CChain::CChain(void)` | 1 | Exported Function
-`private: static void __cdecl AT::CSearchDir::_Search(struct ATDir const *,int,int *,void *)` | 26 | Exported Function
-`const AT::CSearchDir::``vftable'` | 17 | Exported Function
-`int __cdecl at_fs_read(wchar_t const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 31 | Exported Function
-`public: __thiscall AT::CHexString::operator char *(void)const ` | 16 | Exported Function
-`public: __thiscall AT::CHexString::~CHexString(void)` | 8 | Exported Function
-`public: __thiscall AT::CHexString::CHexString(void const *,void const *)` | 2 | Exported Function
-`public: __thiscall AT::CChain::~CChain(void)` | 7 | Exported Function
-`public: __thiscall AT::CHexString::CHexString(void const *,unsigned int)` | 3 | Exported Function
+`Create` | 18 | Exported Function
+`CChain` | 1 | Exported Function
+`_Search` | 26 | Exported Function
+`CSearchDir` | 17 | Exported Function
+`allocator` | 31 | Exported Function
+`operator` | 16 | Exported Function
+`CHexString` | 8 | Exported Function
+`CHexString` | 2 | Exported Function
+`CChain` | 7 | Exported Function
+`CHexString` | 3 | Exported Function
 `class conIConOIMgr * __cdecl getConOIMgr(void)` | 54 | Exported Function
 `at_wstr_rstri` | 80 | Exported Function
 `at_wstr_stri` | 81 | Exported Function

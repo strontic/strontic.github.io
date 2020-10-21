@@ -18,6 +18,9 @@ SHA256 | `6E28C875BFA690D77CDC3FE2E9E1209EC9517034DAEDE8BD28903E3FB6915D40`
 SHA384 | `6F036A7E56BD3B6136A533DD145D19B2F01FAF8B05DBE974CDBCE7BBCD9838E73EA9A07DB211A48093FFB91FC8181401`
 SHA512 | `00C6F9CABACB77698D2B3F0695C912562510FE881678358FAEE5098583B78EAE7707639E81BCC9C784A440112ADD4CE68BAA8F0DA14DBE3A61AFE2D410375CB0`
 SSDEEP | `1536:ZN0Dytv3Jrz6q9EyYt9FlUIlbvBjIloW:ZN0UUKI9jo`
+IMP | `5EA6AB8804656F81EFFBB0E2F39649E5`
+PESHA1 | `D3A4EA8C17239592AD58AB39E6A580ABFE8B5849`
+PE256 | `1E03F77AC553A859F9DECC480AC9C386D178D8B794E930A1A01BE4AF70EFBC99`
 
 ## Runtime Data
 
@@ -31,15 +34,18 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\odbcad32.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\odbcint.dll.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -70,7 +76,12 @@ C:\Windows\SysWOW64\odbcad32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/6e28c875bfa690d77cdc3fe2e9e1209ec9517034daede8bd28903e3fb6915d40/detection/
 
 ## File Similarity (ssdeep match)
 

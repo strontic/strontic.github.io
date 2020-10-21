@@ -18,6 +18,9 @@ SHA256 | `7810A59464D4BD915B3225471FF32F8B4CEC67D09BBBC90C67326AB264B96007`
 SHA384 | `2BF3F6272E00524B9A3562308CE1E8E2B1A5562961AB373E36D6AB26DE58E5574867CF30E3A741D664B48F4A3A2B4B6D`
 SHA512 | `6716C5C1BFC7CC2D4F6298F15F93116C08691AAE94358E499B2CF1EBB05171AE564D3FF168C28B2D69E07E7D4A6DBBCD6FD227900F604F8213D126E039801006`
 SSDEEP | `768:nFh9FLaBw3r06I4y6XlnLAsoUq6iomo2TjMDmOtHplMcJc2mJHfwNAdAk:T8AJrBtBUomHjMDmOvlMcZ8HfwCdAk`
+IMP | `5CD21FCBA296BDF1A70DBEDF29A58AE1`
+PESHA1 | `6032B7447CB864FF3607B92871CAE28375E1E120`
+PE256 | `2878A8AA21199B1E59F97FC6DE22B8D5B46A0E092D8C5C8C3C1527112C18329B`
 
 ## Runtime Data
 
@@ -71,7 +74,15 @@ Double Quotation marks.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\loadperf.dll |
+C:\Windows\system32\lodctr.exe |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -91,7 +102,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/7810a59464d4bd915b3225471ff32f8b4cec67d09bbbc90c67326ab264b96007/detection/
 
 ## File Similarity (ssdeep match)
 

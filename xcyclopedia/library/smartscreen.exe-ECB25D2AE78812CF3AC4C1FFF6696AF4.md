@@ -18,19 +18,41 @@ SHA256 | `F740FBA7B6791ABF3E000A6C4A04DDEE68D0A0722A3F5C0B44EB4E4D713BF7C9`
 SHA384 | `3104230C2296629A9241D0465882EE46902757A034FF10D4E1F82B8052450D54C1238D75EC5DC1108B182FF815FF104D`
 SHA512 | `6313AD8B68A1BA4CB4948A58F7395FE78F61A5018DE40FEC43A3EFEE1F4207B2579E02555CB3EEE3C60C529109A6293649C6D1F86CEB32040E2A32F66C2C3B2E`
 SSDEEP | `49152:yf8eXaDPX9+m7rAIIqZA3IlvQpefUiHZDZdVeJ6aUFwNDVahv3nmUb:MI3VgNshv39b`
+IMP | `C204EBCC4372F95F645AF852BFE02ADB`
+PESHA1 | `C372CE6D7B1F734D951CCD05A89190C47FFD77FA`
+PE256 | `00A098A9B958131AA6C7275D466E97E355D6D0ECC8BD5D34C8C863A99702B62F`
 
 ## Runtime Data
-
-### Child Processes:
-RdpSa.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
 C:\Windows\system32\smartscreen.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WINTRUST.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -50,7 +72,12 @@ C:\Windows\system32\smartscreen.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f740fba7b6791abf3e000a6c4a04ddee68d0a0722a3f5c0b44eb4e4d713bf7c9/detection/
 
 
 ## Possible Misuse

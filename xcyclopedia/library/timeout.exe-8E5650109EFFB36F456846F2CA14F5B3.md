@@ -18,6 +18,9 @@ SHA256 | `9DE395721EEE865D97F27734B0EAA3D204384EEE005FC247BE026C24D277AA1C`
 SHA384 | `908394BAF7B330DB406601C054B217153895A335C0EB590EB9F6F696BB468ED1665206089354101E68F3818FDA70B9D1`
 SHA512 | `82A8F86779B8F22FEA1B48070DBC0AA0CE2C514CF1B36BF8AEB1CC1FD4EFBD8CC39B398941BF1076C5E8EA391940080B44F885F3D11E959BABCE384059AD0B3D`
 SSDEEP | `384:qy2AeK9bJOLsn92DjOZ66KwJNpkE3KCqb3cMmm+WkUIER80fa/SCMV6Hfs15MQx0:qybe61UOiE3W9m6DqdHfs15MQxv8KC`
+IMP | `0C91A5CE0FB26F4C5CE39E340F43873B`
+PESHA1 | `9C8E5A99D8207FA55A027D76C6C6806097D2A579`
+PE256 | `BADA66A6E887A9DC6D878FF554F6E49BC3EC6FE0DDA7DF3AA1FAECD7DB139306`
 
 ## Runtime Data
 
@@ -56,14 +59,7 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 ```
 
 ### Child Processes:
-explorer.exe
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
+csrss.exe wininit.exe
 
 ## Signature
 
@@ -82,7 +78,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9de395721eee865d97f27734b0eaa3d204384eee005fc247be026c24d277aa1c/detection/
 
 
 ## Possible Misuse
@@ -131,6 +132,62 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | $s1 = "usage: %s <fisier ipuri> <fisier useri:parole> <connect timeout> <fail2ban wait> <threads> <outfile> <port>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s3 = "$sock = @ftp_connect($host,$port,$timeout);" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s0 = "function ftp_check($host,$user,$pass,$timeout){" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## timeout
+
+Pauses the command processor for the specified number of seconds. This command is typically used in batch files.
+
+### Syntax
+
+```
+timeout /t <timeoutinseconds> [/nobreak]
+```
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /t `<timeoutinseconds>` | Specifies the decimal number of seconds (between -1 and 99999) to wait before the command processor continues processing. The value **-1** causes the computer to wait indefinitely for a keystroke. |
+| /nobreak | Specifies to ignore user key strokes. |
+| /? | Displays help at the command prompt. |
+
+##### Remarks
+
+- A user keystroke resumes the command processor execution immediately, even if the timeout period has not expired.
+
+- When used in conjunction with the resource kit's **Sleep** tool, **timeout** is similar to the **pause** command.
+
+### Examples
+
+To pause the command processor for ten seconds, type:
+
+```
+timeout /t 10
+```
+
+To pause the command processor for 100 seconds and ignore any keystroke, type:
+
+```
+timeout /t 100 /nobreak
+```
+
+To pause the command processor indefinitely until a key is pressed, type:
+
+```
+timeout /t -1
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
 
 
 

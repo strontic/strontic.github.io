@@ -18,6 +18,9 @@ SHA256 | `D7577FB88CCA3169C7931DC0D8EC9A444227DC14F6C71D6D39D86A0C5CAD1976`
 SHA384 | `A5CC6C58F275621BC479BAD4FACB612857EBC45684E1426CE1EB37C63A5641758775666C87CDE674106B0558629D39F5`
 SHA512 | `CFED1C11B8383F548F623123F3AA5063A695010727E94FF66577D460C2714BCA9DBEA2AF4C9D0E0DE4458DE7FCB011ED5CB03E56ED54B3DCC19873479F19C82E`
 SSDEEP | `3072:m8wU1BVAWWu70choKR5517xpMHm47pyePYYoC3I5f0g8IQ:m+BVsu7rhoG551t+m47pdPYYB3I5f0gb`
+IMP | `C1EDC431CD345F0A0F32019895D13FCE`
+PESHA1 | `1B3592D410EBB8BC0CE5B4F5B261945755C8D852`
+PE256 | `148E98E363B30F648E8CC116B6BED69428A05DADB6F738521833C0FA9C06AC2C`
 
 ## Runtime Data
 
@@ -72,7 +75,12 @@ C:\Windows\system32\vssadmin.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/d7577fb88cca3169c7931dc0d8ec9a444227dc14f6c71d6d39d86a0c5cad1976/detection/
 
 
 ## Possible Misuse
@@ -106,24 +114,23 @@ Source | Source File | Example | License
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-## Vssadmin
+
+## vssadmin
 
 > Applies to: Windows 10, Windows 8.1, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008
 
 Displays current volume shadow copy backups and all installed shadow copy writers and providers. Select a command name in the following table view its command syntax.
 
-|Command|Description|Availability
-|---|---|---
-|[Vssadmin add shadowstorage](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788051(v%3dws.11))|Adds a volume shadow copy storage association.| Server only
-|[Vssadmin create shadow](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788055(v%3dws.11))|Creates a new volume shadow copy.| Server only
-|[Vssadmin delete shadows](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-delete-shadows.md)|Deletes volume shadow copies.| Client and Server
-|[Vssadmin delete shadowstorage](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc785461(v%3dws.11))|Deletes volume shadow copy storage associations.| Server only
-|[Vssadmin list providers](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788108(v%3dws.11))|Lists registered volume shadow copy providers.| Client and Server
-|[Vssadmin list shadows](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-list-shadows.md)|Lists existing volume shadow copies.| Client and Server
-|[Vssadmin list shadowstorage](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788045(v%3dws.11))|Lists all shadow copy storage associations on the system.| Client and Server
-|[Vssadmin list volumes](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788064(v%3dws.11))|Lists volumes that are eligible for shadow copies.| Client and Server
-|[Vssadmin list writers](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-list-writers.md)|Lists all subscribed volume shadow copy writers on the system.| Client and Server
-|[Vssadmin resize shadowstorage](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-resize-shadowstorage.md)|Resizes the maximum size for a shadow copy storage association.| Client and Server
+| Command | Description | Availability |
+|--|--|--|
+| [vssadmin delete shadows](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-delete-shadows.md) | Deletes volume shadow copies. | Client and Server |
+| [vssadmin list shadows](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-list-shadows.md) | Lists existing volume shadow copies. | Client and Server |
+| [vssadmin list writers](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-list-writers.md) | Lists all subscribed volume shadow copy writers on the system. | Client and Server |
+| [vssadmin resize shadowstorage](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/vssadmin-resize-shadowstorage.md) | Resizes the maximum size for a shadow copy storage association. | Client and Server |
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
 

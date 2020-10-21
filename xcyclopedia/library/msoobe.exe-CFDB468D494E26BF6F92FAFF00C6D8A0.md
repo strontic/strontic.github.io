@@ -8,6 +8,10 @@ excerpt: What is msoobe.exe?
 * File Path: `C:\Windows\system32\oobe\msoobe.exe`
 * Description: MSOOBE EXE
 
+## Screenshot
+
+![msoobe.exe](screenshots/msoobe.exe-A1C5AE013FA1BB8BBE2D2FCA6BA28341-3.png)
+
 ## Hashes
 
 Type | Hash
@@ -38,7 +42,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\profext.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
 (R-D)   C:\Windows\System32\oobe\en-US\msoobedui.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagerr.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagwrn.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\setupact.log | File

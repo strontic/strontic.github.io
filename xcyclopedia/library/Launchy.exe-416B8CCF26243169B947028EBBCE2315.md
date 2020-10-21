@@ -7,6 +7,10 @@ excerpt: What is Launchy.exe?
 
 * File Path: `C:\Program Files (x86)\Launchy\Launchy.exe`
 
+## Screenshot
+
+![Launchy.exe](screenshots/Launchy.exe-416B8CCF26243169B947028EBBCE2315-1.png)
+
 ## Hashes
 
 Type | Hash

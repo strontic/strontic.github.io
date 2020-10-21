@@ -58,7 +58,7 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section

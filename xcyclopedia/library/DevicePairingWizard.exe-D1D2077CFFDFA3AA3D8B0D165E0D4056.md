@@ -22,6 +22,9 @@ SHA256 | `1003A2E8786EF3F2BDB2C9A017DD5712192EB2C2AC88C296FA290B7F15C47EFB`
 SHA384 | `0DD7CAFD3D412FF8F248FFBA85CB1B8F5C115A23BF750963D68FC3ACCD5D4CE46463E2C1FB329C04A4B61F9029F76EE1`
 SHA512 | `9706DB92DA5939A5704085C8F22E5BD9586BB2BDC468EE988A1962AE7FBCEE3FB7D844EB9C99FF02A864CDA2DD8F3DB40CAE21BAAC544E1FFD096A7993617D39`
 SSDEEP | `768:pjNfqeerm2QoU47ltKE92Djb+e7Ynn7IiE1+t3+kxGyTHA4G0In3BhzhWM1GOVzh:tN72QoptKDwn7IiEwtLxGyTHqZ3qOTf`
+IMP | `048D96A843A6DF20276E268A873746A7`
+PESHA1 | `1287FD773F3A100EEFF201A546D1BCACE45F29A5`
+PE256 | `FA8E9F5F57B9D27ED492F1E6E06ACECD25A44C1CB5E1B85F0AA87020725D9E0F`
 
 ## Runtime Data
 
@@ -37,26 +40,77 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSECF94 | Section
+\RPC Control\DSEC504 | Section
 \Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\atlthunk.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\deviceassociation.dll |
+C:\Windows\System32\DevicePairing.dll |
+C:\Windows\System32\DevicePairingProxy.dll |
 C:\Windows\system32\DevicePairingWizard.exe |
+C:\Windows\System32\DUI70.dll |
+C:\Windows\System32\DUser.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MFC42u.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\system32\OLEACC.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHCORE.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\Windows.UI.Immersive.dll |
+C:\Windows\system32\xmllite.dll |
+C:\Windows\system32\xwizards.dll |
+C:\Windows\system32\xwtpw32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\Comctl32.dll |
 
 
 ## Signature
@@ -76,7 +130,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/1003a2e8786ef3f2bdb2c9a017dd5712192eb2c2ac88c296fa290b7f15c47efb/detection/
 
 ## File Similarity (ssdeep match)
 

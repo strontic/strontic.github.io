@@ -18,6 +18,9 @@ SHA256 | `158075D730A7A6ACBE7739251EE9BEA4349268597CA576B3E0CB8442140865FD`
 SHA384 | `5B9E712A8206203CD51970A79EB1E76A51114AE5F71838DB40741CCE2A1CE16BFA36A0E5160E1883CEF11E4745EDDF5C`
 SHA512 | `24E893670872DA8688F6957975500C26B97DB41E7A3982BB2C475A1912453DB25E719FF22BEB1445A969248E3D7F6F39A97A4A8A9E7EBCFD47A7BD8B0C14D3F9`
 SSDEEP | `6144:aSqTCo9s07xGgY8AqUb6BjZoXzj9yzhDePDXxRp:tqTCo9s07038AqUb6sXNcJ8DXxR`
+IMP | `322419B2AF40F7FE09109E4C2F461902`
+PESHA1 | `AD05F43008A7B15B79CBBE95ACAE494991D8B50E`
+PE256 | `5C683F78243472A859A1D912BFC4E0AF0647132A910B196F5E29F30F7AD573A9`
 
 ## Runtime Data
 
@@ -26,14 +29,17 @@ SSDEEP | `6144:aSqTCo9s07xGgY8AqUb6BjZoXzj9yzhDePDXxRp:tqTCo9s07038AqUb6sXNcJ8DX
 Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC12F4 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\RPC Control\DSEC64 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -42,6 +48,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\wbem\WmiPrvSE.exe |
 
 
@@ -62,7 +70,12 @@ C:\Windows\SysWOW64\wbem\WmiPrvSE.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/158075d730a7a6acbe7739251ee9bea4349268597ca576b3e0cb8442140865fd/detection/
 
 
 ## Possible Misuse

@@ -30,7 +30,7 @@ Path | Type
 -- | --
 (R-D)   C:\ProgramData\Package Cache\{4d6154c1-7b11-4968-825b-0b2aa6e1bf14}\AmazonSSMAgentSetup.exe | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
@@ -66,6 +66,11 @@ C:\Windows\System32\wow64.dll |
 * Legal Copyright: Copyright (c) Amazon Web Services. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Package Cache\{00df870a-cc28-4be9-941b-6a4679dd0ead}\AmazonSSMAgentSetup.exe](AmazonSSMAgentSetup.exe-3CEF27949E14E0D0D06FD4313A9F76C6.md) | 69
 
 
 

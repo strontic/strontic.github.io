@@ -25,27 +25,27 @@ PE256 | `494D312A0A76D97458A5EC1D079AC71867F612C3C39FC2104B4957427AF7A62B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual long __cdecl TextInputMethodFormatter::Initialize(struct IMessagePort * __ptr64) __ptr64` | 14 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::SetCIVMTarget(struct IRemoteCoreInputViewManager * __ptr64) __ptr64` | 16 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::GetTVKRImpl(struct ITextVirtualizationKeyRouting * __ptr64 * __ptr64) __ptr64` | 11 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::GetTISImpl(struct IRemoteTextInputServer * __ptr64 * __ptr64) __ptr64` | 9 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::GetTVIImpl(struct ITextVirtualizationInternal * __ptr64 * __ptr64) __ptr64` | 10 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::SetTVKRTarget(struct ITextVirtualizationKeyRouting * __ptr64) __ptr64` | 20 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::Uninitialize(void) __ptr64` | 21 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::SetTISTarget(struct IRemoteTextInputServer * __ptr64) __ptr64` | 19 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::SetCIVTarget(struct IRemoteCoreInputView * __ptr64,class VirtCoreInputViewForwarder * __ptr64) __ptr64` | 17 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::SetTICTarget(struct IRemoteTextInputClient * __ptr64,class VirtTextInputClient * __ptr64) __ptr64` | 18 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::GetTICImpl(struct IRemoteTextInputClient * __ptr64 * __ptr64) __ptr64` | 8 | Exported Function
-`public: long __cdecl TextInputMethodFormatter::GetVirtTIS(struct IRemoteTextInputServer * __ptr64 * __ptr64) __ptr64` | 12 | Exported Function
-`public: long __cdecl TextInputMethodFormatter::Initialize(struct IMessagePort * __ptr64,enum VirtualizationEnvironment,struct IVirtualizedTextDataSender * __ptr64,struct _GUID) __ptr64` | 13 | Exported Function
+`Initialize` | 14 | Exported Function
+`SetCIVMTarget` | 16 | Exported Function
+`GetTVKRImpl` | 11 | Exported Function
+`GetTISImpl` | 9 | Exported Function
+`GetTVIImpl` | 10 | Exported Function
+`SetTVKRTarget` | 20 | Exported Function
+`Uninitialize` | 21 | Exported Function
+`SetTISTarget` | 19 | Exported Function
+`SetCIVTarget` | 17 | Exported Function
+`SetTICTarget` | 18 | Exported Function
+`GetTICImpl` | 8 | Exported Function
+`GetVirtTIS` | 12 | Exported Function
+`Initialize` | 13 | Exported Function
 `public: __cdecl TextInputMethodFormatter::~TextInputMethodFormatter(void) __ptr64` | 2 | Exported Function
-`protected: long __cdecl TextInputMethodFormatter::ConnectToHost(void) __ptr64` | 3 | Exported Function
-`public: __cdecl TextInputMethodFormatter::TextInputMethodFormatter(void) __ptr64` | 1 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::GetCIVMSender(struct IRemoteCoreInputViewManager * __ptr64 * __ptr64) __ptr64` | 5 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::GetCIVSender(struct IRemoteCoreInputView * __ptr64 * __ptr64) __ptr64` | 6 | Exported Function
-`public: virtual long __cdecl TextInputMethodFormatter::DataReceived(unsigned int,class std::vector<char,class std::allocator<char> > & __ptr64) __ptr64` | 4 | Exported Function
-`public: long __cdecl TextInputMethodFormatter::ProcessQueue(void) __ptr64` | 15 | Exported Function
-`public: virtual bool __cdecl TextInputMethodFormatter::GetIsHost(void) __ptr64` | 7 | Exported Function
+`ConnectToHost` | 3 | Exported Function
+`TextInputMethodFormatter` | 1 | Exported Function
+`GetCIVMSender` | 5 | Exported Function
+`GetCIVSender` | 6 | Exported Function
+`allocator` | 4 | Exported Function
+`ProcessQueue` | 15 | Exported Function
+`GetIsHost` | 7 | Exported Function
 
 
 ## Signature

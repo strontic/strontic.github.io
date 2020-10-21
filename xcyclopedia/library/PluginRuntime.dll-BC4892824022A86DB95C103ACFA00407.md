@@ -25,15 +25,15 @@ PE256 | `B691553BADC0E80A7284E1EB5F404DA2E91D39A3EFF5EFDD7D64721054E291B5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class PluginRuntime * __cdecl PluginRuntime::Inst(class std::shared_ptr<class IPluginContainer>,class std::shared_ptr<class IPluginRuntimeConfig>)` | 4 | Exported Function
-`public: class ATL::CComPtr<struct IPluginRuntime> __thiscall PluginRuntime::getIPluginRuntime(void)` | 5 | Exported Function
-`public: unsigned int __thiscall PluginRuntime::nrPluginsLoaded(void)` | 7 | Exported Function
+`shared_ptr` | 4 | Exported Function
+`getIPluginRuntime` | 5 | Exported Function
+`nrPluginsLoaded` | 7 | Exported Function
 `unInitializePluginRuntime` | 10 | Exported Function
 `public: void __thiscall PluginRuntime::``default constructor closure'(void)` | 3 | Exported Function
 `jtf_initializeAndStartPluginRuntime` | 9 | Exported Function
 `initializeAndStartPluginRuntime` | 8 | Exported Function
-`public: __thiscall PluginRuntime::PluginRuntime(class std::shared_ptr<class IPluginContainer>,class std::shared_ptr<class IPluginRuntimeConfig>)` | 1 | Exported Function
-`public: bool __thiscall PluginRuntime::isInitialized(void)const ` | 6 | Exported Function
+`shared_ptr` | 1 | Exported Function
+`isInitialized` | 6 | Exported Function
 `public: __thiscall PluginRuntime::~PluginRuntime(void)` | 2 | Exported Function
 
 

@@ -26,33 +26,33 @@ PE256 | `A6C1C29BA90CF67722DA0206E748BC6CAEC9E846CBB84ED58423975608F82639`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned char __cdecl REGISTRY::RestoreKeyFromFile(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class WSTRING const * __ptr64,unsigned char,unsigned long * __ptr64) __ptr64` | 23 | Exported Function
-`public: unsigned char __cdecl REGISTRY::SaveKeyToFile(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 24 | Exported Function
-`public: unsigned char __cdecl REGISTRY::SetKeySecurity(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,unsigned long,void * __ptr64,unsigned long * __ptr64,unsigned char) __ptr64` | 25 | Exported Function
-`public: unsigned char __cdecl REGISTRY::QueryKeySecurity(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO const * __ptr64,unsigned long,void * __ptr64 * __ptr64,unsigned long * __ptr64) __ptr64` | 20 | Exported Function
-`public: unsigned char __cdecl REGISTRY::QuerySubKeysInfo(enum _PREDEFINED_KEY,class WSTRING const * __ptr64,class WSTRING const * __ptr64,class ARRAY * __ptr64,unsigned long * __ptr64) __ptr64` | 21 | Exported Function
-`public: unsigned char __cdecl REGISTRY::QueryValues(enum _PREDEFINED_KEY,class WSTRING const * __ptr64,class WSTRING const * __ptr64,class ARRAY * __ptr64,unsigned long * __ptr64) __ptr64` | 22 | Exported Function
-`public: unsigned char __cdecl REGISTRY::UnLoadHive(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,unsigned long * __ptr64) __ptr64` | 26 | Exported Function
+`RestoreKeyFromFile` | 23 | Exported Function
+`SaveKeyToFile` | 24 | Exported Function
+`SetKeySecurity` | 25 | Exported Function
+`QueryKeySecurity` | 20 | Exported Function
+`QuerySubKeysInfo` | 21 | Exported Function
+`QueryValues` | 22 | Exported Function
+`UnLoadHive` | 26 | Exported Function
 `public: virtual __cdecl REGISTRY::~REGISTRY(void) __ptr64` | 4 | Exported Function
 `public: virtual __cdecl REGISTRY_KEY_INFO::~REGISTRY_KEY_INFO(void) __ptr64` | 5 | Exported Function
 `public: virtual __cdecl REGISTRY_VALUE_ENTRY::~REGISTRY_VALUE_ENTRY(void) __ptr64` | 6 | Exported Function
-`public: unsigned char __cdecl REGISTRY::UpdateKeyInfo(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,unsigned long * __ptr64) __ptr64` | 27 | Exported Function
-`public: unsigned char __cdecl REGISTRY_KEY_INFO::Initialize(class WSTRING const * __ptr64,class WSTRING const * __ptr64,unsigned long,class WSTRING const * __ptr64,struct _SECURITY_ATTRIBUTES * __ptr64) __ptr64` | 15 | Exported Function
-`public: unsigned char __cdecl REGISTRY_VALUE_ENTRY::Initialize(class WSTRING const * __ptr64,unsigned long,enum _REG_TYPE,unsigned char const * __ptr64,unsigned long) __ptr64` | 16 | Exported Function
-`public: unsigned char __cdecl REGISTRY::QueryKeyInfo(enum _PREDEFINED_KEY,class WSTRING const * __ptr64,class WSTRING const * __ptr64,class REGISTRY_KEY_INFO * __ptr64,unsigned long * __ptr64) __ptr64` | 19 | Exported Function
-`public: unsigned char __cdecl REGISTRY::AddValueEntry(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class REGISTRY_VALUE_ENTRY const * __ptr64,unsigned char,unsigned long * __ptr64) __ptr64` | 7 | Exported Function
-`public: unsigned char __cdecl REGISTRY::CreateKey(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class REGISTRY_KEY_INFO * __ptr64,unsigned long * __ptr64,unsigned char) __ptr64` | 8 | Exported Function
-`public: unsigned char __cdecl REGISTRY::DeleteKey(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl REGISTRY::REGISTRY(void) __ptr64` | 1 | Exported Function
-`public: __cdecl REGISTRY_KEY_INFO::REGISTRY_KEY_INFO(void) __ptr64` | 2 | Exported Function
-`public: __cdecl REGISTRY_VALUE_ENTRY::REGISTRY_VALUE_ENTRY(void) __ptr64` | 3 | Exported Function
-`public: unsigned char __cdecl REGISTRY::DeleteValueEntry(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 10 | Exported Function
-`public: unsigned char __cdecl REGISTRY::Initialize(class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 14 | Exported Function
-`public: unsigned char __cdecl REGISTRY::IsAccessAllowed(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 17 | Exported Function
-`public: unsigned char __cdecl REGISTRY::LoadHive(enum _PREDEFINED_KEY,class REGISTRY_KEY_INFO * __ptr64,class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 18 | Exported Function
-`public: unsigned char __cdecl REGISTRY::DoesKeyExist(enum _PREDEFINED_KEY,class WSTRING const * __ptr64,class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 11 | Exported Function
-`public: unsigned char __cdecl REGISTRY::DoesValueExist(enum _PREDEFINED_KEY,class WSTRING const * __ptr64,class WSTRING const * __ptr64,class WSTRING const * __ptr64,unsigned long * __ptr64) __ptr64` | 12 | Exported Function
-`public: unsigned char __cdecl REGISTRY::EnableRootNotification(enum _PREDEFINED_KEY,void * __ptr64,unsigned long,unsigned char) __ptr64` | 13 | Exported Function
+`UpdateKeyInfo` | 27 | Exported Function
+`Initialize` | 15 | Exported Function
+`Initialize` | 16 | Exported Function
+`QueryKeyInfo` | 19 | Exported Function
+`AddValueEntry` | 7 | Exported Function
+`CreateKey` | 8 | Exported Function
+`DeleteKey` | 9 | Exported Function
+`REGISTRY` | 1 | Exported Function
+`REGISTRY_KEY_INFO` | 2 | Exported Function
+`REGISTRY_VALUE_ENTRY` | 3 | Exported Function
+`DeleteValueEntry` | 10 | Exported Function
+`Initialize` | 14 | Exported Function
+`IsAccessAllowed` | 17 | Exported Function
+`LoadHive` | 18 | Exported Function
+`DoesKeyExist` | 11 | Exported Function
+`DoesValueExist` | 12 | Exported Function
+`EnableRootNotification` | 13 | Exported Function
 
 
 ## Signature

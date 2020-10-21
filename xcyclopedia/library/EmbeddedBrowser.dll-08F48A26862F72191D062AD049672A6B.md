@@ -26,46 +26,46 @@ PE256 | `90DB02C785823D6CCE98F6F2D1F366910E6EA2D527DEA110F239CE30F4896D0B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class IScriptingPlugin & __thiscall IScriptingPlugin::operator=(class IScriptingPlugin const &)` | 61 | Exported Function
-`public: class IScriptingPlugin & __thiscall IScriptingPlugin::operator=(class IScriptingPlugin &&)` | 60 | Exported Function
-`public: class IWebBrowserEvent & __thiscall IWebBrowserEvent::operator=(class IWebBrowserEvent const &)` | 62 | Exported Function
-`public: class IWebBrowserMessage & __thiscall IWebBrowserMessage::operator=(class IWebBrowserMessage const &)` | 64 | Exported Function
-`public: class IWebBrowserMessage & __thiscall IWebBrowserMessage::operator=(class IWebBrowserMessage &&)` | 63 | Exported Function
-`public: class ICustomCallback & __thiscall ICustomCallback::operator=(class ICustomCallback const &)` | 56 | Exported Function
-`public: class IConWebBrowser & __thiscall IConWebBrowser::operator=(class IConWebBrowser const &)` | 55 | Exported Function
-`public: class IDragDropCallback & __thiscall IDragDropCallback::operator=(class IDragDropCallback const &)` | 57 | Exported Function
-`public: class IEditor & __thiscall IEditor::operator=(class IEditor const &)` | 59 | Exported Function
-`public: class IEditor & __thiscall IEditor::operator=(class IEditor &&)` | 58 | Exported Function
-`public: unsigned int __thiscall CScriptingParam::get_count(void)const ` | 120 | Exported Function
-`public: static void __cdecl AT::CObject::operator delete(void *)` | 43 | Exported Function
+`operator` | 61 | Exported Function
+`operator` | 60 | Exported Function
+`operator` | 62 | Exported Function
+`operator` | 64 | Exported Function
+`operator` | 63 | Exported Function
+`operator` | 56 | Exported Function
+`operator` | 55 | Exported Function
+`operator` | 57 | Exported Function
+`operator` | 59 | Exported Function
+`operator` | 58 | Exported Function
+`get_count` | 120 | Exported Function
+`operator` | 43 | Exported Function
 `public: virtual __thiscall CScriptingParam::~CScriptingParam(void)` | 38 | Exported Function
 `public: virtual __thiscall IDragDropCallback::~IDragDropCallback(void)` | 40 | Exported Function
 `public: virtual __thiscall ICustomCallback::~ICustomCallback(void)` | 39 | Exported Function
-`public: class IWebElement & __thiscall IWebElement::operator=(class IWebElement const &)` | 66 | Exported Function
-`public: class IWebElement & __thiscall IWebElement::operator=(class IWebElement &&)` | 65 | Exported Function
-`public: int __thiscall AT::CChain::IsChain(void)const ` | 85 | Exported Function
-`public: static void * __cdecl AT::CObject::operator new(unsigned int)` | 42 | Exported Function
-`public: int __thiscall AT::CChain::IsEmpty(void)const ` | 86 | Exported Function
-`public: bool __thiscall CScriptingParam::set(struct wb_variant const &,unsigned int)` | 127 | Exported Function
-`public: bool __thiscall CScriptingParam::get(struct wb_variant &,unsigned int)` | 119 | Exported Function
-`public: class AT::CChain & __thiscall AT::CChain::operator=(class AT::CChain const &)` | 44 | Exported Function
-`public: class AT::CChain * __thiscall AT::CChain::GetPrev(void)const ` | 83 | Exported Function
-`public: class AT::CChain * __thiscall AT::CChain::GetNext(void)const ` | 82 | Exported Function
-`public: __thiscall IWebBrowserMessage::IWebBrowserMessage(void)` | 32 | Exported Function
-`public: __thiscall IWebBrowserMessage::IWebBrowserMessage(class IWebBrowserMessage const &)` | 31 | Exported Function
-`public: __thiscall IWebElement::IWebElement(class IWebElement &&)` | 33 | Exported Function
-`public: __thiscall IWebElement::IWebElement(void)` | 35 | Exported Function
-`public: __thiscall IWebElement::IWebElement(class IWebElement const &)` | 34 | Exported Function
-`public: class IBrowser & __thiscall IBrowser::operator=(class IBrowser const &)` | 51 | Exported Function
-`public: class IBrowser & __thiscall IBrowser::operator=(class IBrowser &&)` | 50 | Exported Function
-`public: class IClipboardDataFilter & __thiscall IClipboardDataFilter::operator=(class IClipboardDataFilter &&)` | 52 | Exported Function
-`public: class IConWebBrowser & __thiscall IConWebBrowser::operator=(class IConWebBrowser &&)` | 54 | Exported Function
-`public: class IClipboardDataFilter & __thiscall IClipboardDataFilter::operator=(class IClipboardDataFilter const &)` | 53 | Exported Function
-`public: class AT::CObject & __thiscall AT::CObject::operator=(class AT::CObject const &)` | 46 | Exported Function
-`public: class AT::CObject & __thiscall AT::CObject::operator=(class AT::CObject &&)` | 45 | Exported Function
-`public: class AT::CSearchDir & __thiscall AT::CSearchDir::operator=(class AT::CSearchDir &&)` | 48 | Exported Function
-`public: class CScriptingParam & __thiscall CScriptingParam::operator=(class CScriptingParam const &)` | 47 | Exported Function
-`public: class AT::CSearchDir & __thiscall AT::CSearchDir::operator=(class AT::CSearchDir const &)` | 49 | Exported Function
+`operator` | 66 | Exported Function
+`operator` | 65 | Exported Function
+`IsChain` | 85 | Exported Function
+`operator` | 42 | Exported Function
+`IsEmpty` | 86 | Exported Function
+`set` | 127 | Exported Function
+`get` | 119 | Exported Function
+`CChain` | 44 | Exported Function
+`GetPrev` | 83 | Exported Function
+`GetNext` | 82 | Exported Function
+`IWebBrowserMessage` | 32 | Exported Function
+`IWebBrowserMessage` | 31 | Exported Function
+`IWebElement` | 33 | Exported Function
+`IWebElement` | 35 | Exported Function
+`IWebElement` | 34 | Exported Function
+`operator` | 51 | Exported Function
+`operator` | 50 | Exported Function
+`operator` | 52 | Exported Function
+`operator` | 54 | Exported Function
+`operator` | 53 | Exported Function
+`CObject` | 46 | Exported Function
+`CObject` | 45 | Exported Function
+`CSearchDir` | 48 | Exported Function
+`operator` | 47 | Exported Function
+`CSearchDir` | 49 | Exported Function
 `unsigned int __cdecl at_rstr_stri(char const *,unsigned int,char const *,unsigned int)` | 108 | Exported Function
 `unsigned int __cdecl at_rstr_str(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 107 | Exported Function
 `unsigned int __cdecl at_rstr_stri(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 109 | Exported Function
@@ -76,37 +76,37 @@ Function Name | Ordinal | Type
 `unsigned int __cdecl at_rstr_convert(unsigned char *,unsigned int,wchar_t const *,unsigned int)` | 104 | Exported Function
 `unsigned int __cdecl at_rstr_str(char const *,unsigned int,char const *,unsigned int)` | 106 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 105 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<wchar_t> &,unsigned int,wchar_t const *,unsigned int)` | 92 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<wchar_t> &,unsigned int,char const *,unsigned int)` | 91 | Exported Function
+`CStringT` | 92 | Exported Function
+`CStringT` | 91 | Exported Function
 `void __cdecl at_mem_free(void *)` | 96 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 116 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 114 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 95 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 112 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 97 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<char> &,unsigned int,wchar_t const *,unsigned int)` | 90 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<char> &,unsigned int,char const *,unsigned int)` | 89 | Exported Function
-`public: virtual bool __thiscall IDragDropCallback::on_drag_over(long,long,struct wb_point,long *)` | 124 | Exported Function
-`public: virtual bool __thiscall IDragDropCallback::on_drag_leave(long)` | 123 | Exported Function
-`public: virtual bool __thiscall IDragDropCallback::on_drop(long,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long,struct wb_point,long *)` | 125 | Exported Function
-`public: virtual unsigned long __thiscall IScriptingPlugin::addref(void)` | 93 | Exported Function
-`public: virtual bool __thiscall IWebBrowserEvent::before_navigate(long,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 117 | Exported Function
-`public: virtual bool __thiscall ICustomCallback::show_context_menu(long,class IWebElement *)` | 128 | Exported Function
+`CStringT` | 90 | Exported Function
+`CStringT` | 89 | Exported Function
+`on_drag_over` | 124 | Exported Function
+`on_drag_leave` | 123 | Exported Function
+`allocator` | 125 | Exported Function
+`addref` | 93 | Exported Function
+`allocator` | 117 | Exported Function
+`show_context_menu` | 128 | Exported Function
 `public: virtual __thiscall IWebBrowserEvent::~IWebBrowserEvent(void)` | 41 | Exported Function
-`public: virtual bool __thiscall ICustomCallback::show_message(long,void *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long)` | 129 | Exported Function
-`public: virtual bool __thiscall IDragDropCallback::on_drag_enter(long,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long,struct wb_point,long *)` | 122 | Exported Function
-`public: virtual bool __thiscall ICustomCallback::translate_accelerator(long,struct wb_msg *)` | 130 | Exported Function
-`unsigned int __cdecl at_range_spliteline(class AT::CStrRangeT<char>,unsigned int,class AT::CStrRangeT<char> &)` | 98 | Exported Function
-`public: void __thiscall AT::CSearchDir::Search(wchar_t const *)` | 87 | Exported Function
-`unsigned int __cdecl at_range_spliteline(class AT::CStrRangeT<wchar_t>,unsigned int,class AT::CStrRangeT<wchar_t> &)` | 99 | Exported Function
+`allocator` | 129 | Exported Function
+`allocator` | 122 | Exported Function
+`translate_accelerator` | 130 | Exported Function
+`CStrRangeT` | 98 | Exported Function
+`Search` | 87 | Exported Function
+`CStrRangeT` | 99 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 101 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 100 | Exported Function
-`public: virtual void __thiscall IWebBrowserEvent::document_complete(long,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 118 | Exported Function
-`public: virtual unsigned long __thiscall IScriptingPlugin::release(void)` | 126 | Exported Function
-`public: virtual void __thiscall IWebBrowserEvent::navigate_error(long,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long)` | 121 | Exported Function
-`public: void __thiscall AT::CChain::Insert(class AT::CChain *)` | 84 | Exported Function
-`public: void __thiscall AT::CChain::Detach(void)` | 81 | Exported Function
-`public: __thiscall IWebBrowserMessage::IWebBrowserMessage(class IWebBrowserMessage &&)` | 30 | Exported Function
+`allocator` | 118 | Exported Function
+`release` | 126 | Exported Function
+`allocator` | 121 | Exported Function
+`CChain` | 84 | Exported Function
+`Detach` | 81 | Exported Function
+`IWebBrowserMessage` | 30 | Exported Function
 `at_wstr_upr` | 157 | Exported Function
 `at_wstr_stri` | 156 | Exported Function
 `ata_urldec` | 158 | Exported Function
@@ -122,7 +122,7 @@ Function Name | Ordinal | Type
 `const IDragDropCallback::``vftable'` | 74 | Exported Function
 `const IScriptingPlugin::``vftable'` | 76 | Exported Function
 `const IEditor::``vftable'` | 75 | Exported Function
-`const AT::CSearchDir::``vftable'` | 69 | Exported Function
+`CSearchDir` | 69 | Exported Function
 `char * __cdecl at_str_tol(char const *,char const *,long &,int)` | 115 | Exported Function
 `const CScriptingParam::``vftable'` | 68 | Exported Function
 `const IClipboardDataFilter::``vftable'` | 71 | Exported Function
@@ -147,46 +147,46 @@ Function Name | Ordinal | Type
 `at_fs_tmpfile` | 143 | Exported Function
 `at_fs_write` | 145 | Exported Function
 `at_fs_tmppath` | 144 | Exported Function
-`public: __thiscall IConWebBrowser::IConWebBrowser(class IConWebBrowser const &)` | 16 | Exported Function
-`public: __thiscall IConWebBrowser::IConWebBrowser(class IConWebBrowser &&)` | 15 | Exported Function
-`public: __thiscall IConWebBrowser::IConWebBrowser(void)` | 17 | Exported Function
-`public: __thiscall ICustomCallback::ICustomCallback(void)` | 19 | Exported Function
-`public: __thiscall ICustomCallback::ICustomCallback(class ICustomCallback const &)` | 18 | Exported Function
-`public: __thiscall IBrowser::IBrowser(void)` | 11 | Exported Function
-`public: __thiscall IBrowser::IBrowser(class IBrowser const &)` | 10 | Exported Function
-`public: __thiscall IClipboardDataFilter::IClipboardDataFilter(class IClipboardDataFilter &&)` | 12 | Exported Function
-`public: __thiscall IClipboardDataFilter::IClipboardDataFilter(void)` | 14 | Exported Function
-`public: __thiscall IClipboardDataFilter::IClipboardDataFilter(class IClipboardDataFilter const &)` | 13 | Exported Function
-`public: __thiscall IScriptingPlugin::IScriptingPlugin(class IScriptingPlugin const &)` | 26 | Exported Function
-`public: __thiscall IScriptingPlugin::IScriptingPlugin(class IScriptingPlugin &&)` | 25 | Exported Function
-`public: __thiscall IScriptingPlugin::IScriptingPlugin(void)` | 27 | Exported Function
-`public: __thiscall IWebBrowserEvent::IWebBrowserEvent(void)` | 29 | Exported Function
-`public: __thiscall IWebBrowserEvent::IWebBrowserEvent(class IWebBrowserEvent const &)` | 28 | Exported Function
-`public: __thiscall IDragDropCallback::IDragDropCallback(void)` | 21 | Exported Function
-`public: __thiscall IDragDropCallback::IDragDropCallback(class IDragDropCallback const &)` | 20 | Exported Function
-`public: __thiscall IEditor::IEditor(class IEditor &&)` | 22 | Exported Function
-`public: __thiscall IEditor::IEditor(void)` | 24 | Exported Function
-`public: __thiscall IEditor::IEditor(class IEditor const &)` | 23 | Exported Function
-`private: static void __cdecl AT::CSearchDir::_Search(struct ATDir const *,int,int *,void *)` | 88 | Exported Function
-`int __cdecl at_fs_read(wchar_t const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 94 | Exported Function
-`private: void __thiscall AT::CHexString::Create(void const *,void const *)` | 80 | Exported Function
-`public: __thiscall AT::CChain::~CChain(void)` | 36 | Exported Function
-`public: __thiscall AT::CChain::CChain(void)` | 1 | Exported Function
+`IConWebBrowser` | 16 | Exported Function
+`IConWebBrowser` | 15 | Exported Function
+`IConWebBrowser` | 17 | Exported Function
+`ICustomCallback` | 19 | Exported Function
+`ICustomCallback` | 18 | Exported Function
+`IBrowser` | 11 | Exported Function
+`IBrowser` | 10 | Exported Function
+`IClipboardDataFilter` | 12 | Exported Function
+`IClipboardDataFilter` | 14 | Exported Function
+`IClipboardDataFilter` | 13 | Exported Function
+`IScriptingPlugin` | 26 | Exported Function
+`IScriptingPlugin` | 25 | Exported Function
+`IScriptingPlugin` | 27 | Exported Function
+`IWebBrowserEvent` | 29 | Exported Function
+`IWebBrowserEvent` | 28 | Exported Function
+`IDragDropCallback` | 21 | Exported Function
+`IDragDropCallback` | 20 | Exported Function
+`IEditor` | 22 | Exported Function
+`IEditor` | 24 | Exported Function
+`IEditor` | 23 | Exported Function
+`_Search` | 88 | Exported Function
+`allocator` | 94 | Exported Function
+`Create` | 80 | Exported Function
+`CChain` | 36 | Exported Function
+`CChain` | 1 | Exported Function
 `const IWebBrowserMessage::``vftable'` | 78 | Exported Function
 `const IWebBrowserEvent::``vftable'` | 77 | Exported Function
 `const IWebElement::``vftable'` | 79 | Exported Function
 `destroy_web_browser` | 161 | Exported Function
 `create_web_browser` | 160 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(void)` | 8 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(class AT::CSearchDir const &)` | 7 | Exported Function
-`public: __thiscall CScriptingParam::CScriptingParam(class CScriptingParam const &)` | 4 | Exported Function
-`public: __thiscall IBrowser::IBrowser(class IBrowser &&)` | 9 | Exported Function
-`public: __thiscall CScriptingParam::CScriptingParam(unsigned int)` | 5 | Exported Function
-`public: __thiscall AT::CHexString::CHexString(void const *,void const *)` | 2 | Exported Function
-`public: __thiscall AT::CHexString::CHexString(void const *,unsigned int)` | 3 | Exported Function
-`public: __thiscall AT::CHexString::operator char *(void)const ` | 67 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(class AT::CSearchDir &&)` | 6 | Exported Function
-`public: __thiscall AT::CHexString::~CHexString(void)` | 37 | Exported Function
+`CSearchDir` | 8 | Exported Function
+`CSearchDir` | 7 | Exported Function
+`CScriptingParam` | 4 | Exported Function
+`IBrowser` | 9 | Exported Function
+`CScriptingParam` | 5 | Exported Function
+`CHexString` | 2 | Exported Function
+`CHexString` | 3 | Exported Function
+`operator` | 67 | Exported Function
+`CSearchDir` | 6 | Exported Function
+`CHexString` | 37 | Exported Function
 
 
 ## Signature

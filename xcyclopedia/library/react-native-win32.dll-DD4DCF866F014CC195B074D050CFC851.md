@@ -71,52 +71,52 @@ Function Name | Ordinal | Type
 `_YGNodeStyleSetFlexShrink@8` | 152 | Exported Function
 `_YGNodeStyleSetHeight@8` | 154 | Exported Function
 `_YGNodeStyleSetFlexWrap@8` | 153 | Exported Function
-`class folly::ConversionError __stdcall folly::makeConversionError(enum folly::ConversionCode,class folly::Range<char const *>)` | 34 | Exported Function
-`public: struct folly::dynamic & __thiscall folly::dynamic::operator[](class folly::Range<char const *>)& ` | 14 | Exported Function
-`public: struct folly::dynamic & __thiscall folly::dynamic::operator=(struct folly::dynamic const &)` | 12 | Exported Function
-`public: struct folly::dynamic const & __thiscall folly::dynamic::at(class folly::Range<char const *>)const & ` | 23 | Exported Function
-`public: unsigned int __thiscall folly::dynamic::hash(void)const ` | 33 | Exported Function
-`public: struct folly::dynamic const * __thiscall folly::dynamic::get_ptr(class folly::Range<char const *>)const & ` | 31 | Exported Function
-`public: struct folly::dynamic & __thiscall folly::dynamic::operator=(struct folly::dynamic &&)` | 11 | Exported Function
-`public: char const * __thiscall folly::dynamic::typeName(void)const ` | 40 | Exported Function
-`public: bool __thiscall folly::dynamic::operator==(struct folly::dynamic const &)const ` | 13 | Exported Function
-`public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __thiscall facebook::react::ModuleRegistry::moduleNames(void)` | 35 | Exported Function
-`public: static class std::unique_ptr<struct Microsoft::React::IWebSocket,struct std::default_delete<struct Microsoft::React::IWebSocket> > __stdcall Microsoft::React::IWebSocket::Make(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 20 | Exported Function
-`public: static class std::unique_ptr<struct facebook::react::JSBigAbiString const ,struct std::default_delete<struct facebook::react::JSBigAbiString const > > __stdcall facebook::react::JSBigAbiString::Make(class std::unique_ptr<struct AbiSafe::IAbiArray<char>,struct AbiSafe::AbiObjectDeleter> &&)` | 21 | Exported Function
-`void __stdcall facebook::react::InitializeLogging(class std::function<void __stdcall(enum facebook::react::RCTLogLevel,char const *)> &&)` | 18 | Exported Function
-`struct folly::dynamic __stdcall folly::parseJson(class folly::Range<char const *>)` | 36 | Exported Function
-`void __stdcall facebook::react::InitializeTracing(struct facebook::react::INativeTraceHandler *)` | 19 | Exported Function
+`Range` | 34 | Exported Function
+`Range` | 14 | Exported Function
+`dynamic` | 12 | Exported Function
+`Range` | 23 | Exported Function
+`hash` | 33 | Exported Function
+`Range` | 31 | Exported Function
+`dynamic` | 11 | Exported Function
+`typeName` | 40 | Exported Function
+`dynamic` | 13 | Exported Function
+`moduleNames` | 35 | Exported Function
+`allocator` | 20 | Exported Function
+`AbiObjectDeleter` | 21 | Exported Function
+`RCTLogLevel` | 18 | Exported Function
+`Range` | 36 | Exported Function
+`INativeTraceHandler` | 19 | Exported Function
 `YGLogWithConfig` | 73 | Exported Function
 `YGLog` | 71 | Exported Function
-`public: virtual void __thiscall facebook::react::ShadowNode::updateProperties(struct folly::dynamic const &&)` | 41 | Exported Function
-`public: virtual __thiscall facebook::react::ShadowNode::~ShadowNode(void)` | 9 | Exported Function
-`public: unsigned int __thiscall folly::dynamic::size(void)const ` | 37 | Exported Function
-`public: virtual __thiscall folly::TypeError::~TypeError(void)` | 10 | Exported Function
-`public: virtual void __thiscall facebook::react::ShadowNode::dispatchCommand(__int64,struct folly::dynamic const &)` | 29 | Exported Function
-`public: virtual struct folly::dynamic __thiscall facebook::react::ViewManagerBase::GetConstants(void)const ` | 17 | Exported Function
-`public: __thiscall folly::TypeError::TypeError(struct folly::TypeError const &)` | 6 | Exported Function
-`class std::shared_ptr<class facebook::react::MemoryTracker> __stdcall facebook::react::CreateMemoryTracker(class std::shared_ptr<class facebook::react::MessageQueueThread> &&)` | 15 | Exported Function
-`class std::shared_ptr<class facebook::react::IUIManager> __stdcall facebook::react::createIUIManager(class std::vector<class std::unique_ptr<class facebook::react::IViewManager,struct std::default_delete<class facebook::react::IViewManager> >,class std::allocator<class std::unique_ptr<class facebook::react::IViewManager,struct std::default_delete<class facebook::react::IViewManager> > > > &&,struct facebook::react::INativeUIManager *)` | 26 | Exported Function
-`class std::shared_ptr<struct facebook::react::InstanceWrapper> __stdcall facebook::react::CreateReactInstance(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class std::vector<class std::tuple<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::unique_ptr<class facebook::xplat::module::CxxModule,struct std::default_delete<class facebook::xplat::module::CxxModule> > __stdcall(void)>,class std::shared_ptr<class facebook::react::MessageQueueThread> >,class std::allocator<class std::tuple<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::unique_ptr<class facebook::xplat::module::CxxModule,struct std::default_delete<class facebook::xplat::module::CxxModule> > __stdcall(void)>,class std::shared_ptr<class facebook::react::MessageQueueThread> > > > &&,class std::shared_ptr<class facebook::react::IUIManager>,class std::shared_ptr<class f` | 16 | Exported Function
-`class std::unique_ptr<class facebook::xplat::module::CxxModule,struct std::default_delete<class facebook::xplat::module::CxxModule> > __stdcall react::windows::createI18nModule(class std::unique_ptr<struct react::windows::II18nModule,struct std::default_delete<struct react::windows::II18nModule> >)` | 25 | Exported Function
-`class std::unique_ptr<class facebook::xplat::module::CxxModule,struct std::default_delete<class facebook::xplat::module::CxxModule> > __stdcall facebook::react::createUIManagerModule(class std::shared_ptr<class facebook::react::IUIManager>)` | 27 | Exported Function
-`class std::shared_ptr<class facebook::jsi::Buffer> __stdcall Microsoft::JSI::MakeMemoryMappedBuffer(wchar_t const * const,unsigned int)` | 22 | Exported Function
-`class folly::Expected<bool,enum folly::ConversionCode> __stdcall folly::detail::str_to_bool(class folly::Range<char const *> *)` | 38 | Exported Function
-`class folly::Expected<__int64,enum folly::ConversionCode> __stdcall folly::detail::str_to_integral<__int64>(class folly::Range<char const *> *)` | 2 | Exported Function
-`class folly::Expected<double,enum folly::ConversionCode> __stdcall folly::detail::str_to_floating<double>(class folly::Range<char const *> *)` | 1 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __stdcall folly::toJson(struct folly::dynamic const &)` | 39 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __stdcall facebook::react::unicode::utf16ToUtf8(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 42 | Exported Function
-`public: __thiscall folly::cold_detail::ColdClass::ColdClass(void)` | 3 | Exported Function
-`public: __thiscall facebook::react::LayoutAnimation::LayoutAnimation(struct folly::dynamic)` | 4 | Exported Function
-`public: __thiscall folly::TypeError::TypeError(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum folly::dynamic::Type)` | 8 | Exported Function
-`public: __thiscall folly::TypeError::TypeError(struct folly::TypeError &&)` | 5 | Exported Function
-`public: __thiscall folly::TypeError::TypeError(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum folly::dynamic::Type,enum folly::dynamic::Type)` | 7 | Exported Function
-`public: __int64 __thiscall facebook::react::Instance::getPeakJsMemoryUsage(void)const ` | 30 | Exported Function
+`dynamic` | 41 | Exported Function
+`ShadowNode` | 9 | Exported Function
+`size` | 37 | Exported Function
+`TypeError` | 10 | Exported Function
+`dynamic` | 29 | Exported Function
+`GetConstants` | 17 | Exported Function
+`TypeError` | 6 | Exported Function
+`MessageQueueThread` | 15 | Exported Function
+`INativeUIManager` | 26 | Exported Function
+`shared_ptr` | 16 | Exported Function
+`II18nModule` | 25 | Exported Function
+`IUIManager` | 27 | Exported Function
+`MakeMemoryMappedBuffer` | 22 | Exported Function
+`Range` | 38 | Exported Function
+`Range` | 2 | Exported Function
+`Range` | 1 | Exported Function
+`dynamic` | 39 | Exported Function
+`allocator` | 42 | Exported Function
+`ColdClass` | 3 | Exported Function
+`dynamic` | 4 | Exported Function
+`Type` | 8 | Exported Function
+`TypeError` | 5 | Exported Function
+`Type` | 7 | Exported Function
+`getPeakJsMemoryUsage` | 30 | Exported Function
 `DllGetActivationFactory` | 44 | Exported Function
 `DllCanUnloadNow` | 43 | Exported Function
-`private: struct folly::dynamic const & __thiscall folly::dynamic::atImpl(struct folly::dynamic const &)const & ` | 24 | Exported Function
-`private: void __thiscall folly::dynamic::destroy(void)` | 28 | Exported Function
-`private: struct folly::dynamic const * __thiscall folly::dynamic::get_ptrImpl(struct folly::dynamic const &)const & ` | 32 | Exported Function
+`dynamic` | 24 | Exported Function
+`destroy` | 28 | Exported Function
+`dynamic` | 32 | Exported Function
 `_YGNodeStyleGetWidth@4` | 138 | Exported Function
 `_YGNodeCopyStyle@8` | 77 | Exported Function
 `_YGNodeCanUseCachedMeasurement@52` | 76 | Exported Function

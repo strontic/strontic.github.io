@@ -18,6 +18,9 @@ SHA256 | `E15AD3001AC462DA9BDD9510F85E19FB0397C4D467C16DB1067FFC72E9EE8DC6`
 SHA384 | `8154305C6630EA9410E915B15DD6349FF5938CDB2ADCECE3E79B69D812D395850B4F8EE14EE75CE0699B2DB14C8E7F26`
 SHA512 | `68C477302367D3282EE63E8604AA1A08FC566048FA80BD025F1D9EDAB17C57A3AA135CF52F171BB0EEA1EF078D8B5705F5E3174204EAACC20A1C5F378CAFED1D`
 SSDEEP | `1536:GvZMtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jk:aMzECTMpuDhjRVJGu`
+IMP | `68CA080EE65AE9EA92581804B773ECBD`
+PESHA1 | `3A1CC464411ECA0157A81E72FC02B4A309968A41`
+PE256 | `3ACA2A8D5FD19831D1DA4B09A5469ECB52F94FB5B33389334F8D31B57FFED034`
 
 ## Runtime Data
 
@@ -30,24 +33,89 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\sysdm.cpl.mui | File
 (R-D)   C:\Windows\System32\en-US\SystemPropertiesHardware.exe.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\apphelp.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DNSAPI.dll |
+C:\Windows\system32\DPAPI.dll |
+C:\Windows\system32\DSROLE.DLL |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LOGONCLI.DLL |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\SYSTEM32\MsftEdit.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\NETAPI32.dll |
+C:\Windows\system32\netid.dll |
+C:\Windows\system32\NETUTILS.DLL |
+C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\REGAPI.dll |
+C:\Windows\system32\remotepg.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SRVCLI.DLL |
+C:\Windows\system32\SYSDM.CPL |
 C:\Windows\system32\SystemPropertiesHardware.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINBRAND.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WindowsCodecs.dll |
+C:\Windows\system32\WINSTA.dll |
+C:\Windows\system32\WKSCLI.DLL |
+C:\Windows\System32\WLDAP32.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -67,7 +135,12 @@ C:\Windows\system32\SystemPropertiesHardware.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/e15ad3001ac462da9bdd9510f85e19fb0397c4d467c16db1067ffc72e9ee8dc6/detection/
 
 ## File Similarity (ssdeep match)
 

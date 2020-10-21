@@ -18,6 +18,9 @@ SHA256 | `E518E9415190BC504C9E4FE8B477006D9F8CA6901B9D4888A5B09C848C5C1246`
 SHA384 | `5C3AB79A4A5FED55E844638A2E889C566DF5F2E001728F521CC63ACCE655DC128BC9CAE28D3ED75549AA76A02E0E99BA`
 SHA512 | `BB329283227428591F6572CB176126E1483904E1EE26EA848C3B27AFA03EF85E4C41309C0D188465FBD00133365E9568F2FC17F4AA9633174ABAE15D7EF761B9`
 SSDEEP | `768:Qg4kVzTa9BiS9MokYewhPEWFye8ahBLnIBkP5OWjark:QFkVzTa9BiS+okY1s2j55OWjar`
+IMP | `D828BC7E8EC746DCF6700668A6129CF1`
+PESHA1 | `88101BC839483B93681924BEED04E43983750095`
+PE256 | `98485539C5529F60F0F9BED05E39F795C47A9044B689837FCEC4648BB2BFE20B`
 
 ## Runtime Data
 
@@ -26,12 +29,15 @@ SSDEEP | `768:Qg4kVzTa9BiS9MokYewhPEWFye8ahBLnIBkP5OWjark:QFkVzTa9BiS+okY1s2j55O
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\TSTheme.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1428 | Section
+\RPC Control\DSEC1318 | Section
 
 
 ### Loaded Modules:
@@ -40,6 +46,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\TSTheme.exe |
 
 
@@ -60,7 +68,12 @@ C:\Windows\SysWOW64\TSTheme.exe |
 * Product Version: 10.0.17763.771
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/e518e9415190bc504c9e4fe8b477006d9f8ca6901b9d4888a5b09c848c5c1246/detection/
 
 
 ## Possible Misuse

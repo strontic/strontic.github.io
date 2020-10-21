@@ -18,6 +18,9 @@ SHA256 | `C53B0901C262071DA3F3FBB69C30C2C26E2AB7866C7C42183C830B9A609C7994`
 SHA384 | `7A6BA899D9161FA16A78F06F9D67BA8121CDB4DF27451A32F9CEB18ED2FD26265967BEA6A9401CD3773061A811D8FCD7`
 SHA512 | `096C15AF30DB0D69682FB120C5C2E24584D95F4F751F59DD482B65EC513056A046EE9FB6E1AEC99AE44E1EE4053AE226E9D394F9A7AA5CAA974B0A6D1FEE84C6`
 SSDEEP | `6144:AycXoA0oHKhKkkNc48DD4w8u8L1GtnzuQEqAqM+BbTQhGKgcvQsFME1P9YRS:oxSzx48PlqQsNYFE1P9YRS`
+IMP | `93009B50C3F15A001009BCDE9939BF92`
+PESHA1 | `C3284E0828587E2D7842DD1693D059F99B90E1B0`
+PE256 | `8078AC680C937FF8419C0763CF6D51BB66ACB4B7BB0AEAFDBDEED88D609CE908`
 
 ## Runtime Data
 
@@ -241,7 +244,7 @@ Usage: curl [options...] <url>
 ```cmhg
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
 ```
 
 ### Child Processes:
@@ -251,7 +254,10 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -260,14 +266,27 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\curl.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\system32\mswsock.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\secur32.dll |
+C:\Windows\SYSTEM32\SSPICLI.DLL |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -280,7 +299,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.55.1
 * Language: English (United States)
 * Legal Copyright:  1996 - 2017 Daniel Stenberg, <daniel@haxx.se>.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/c53b0901c262071da3f3fbb69c30c2c26e2ab7866c7c42183c830b9a609c7994/detection/
 
 
 ## Possible Misuse

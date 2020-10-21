@@ -26,30 +26,30 @@ PE256 | `940CB36CD3CC4010C68B5A8559491FA7D8B441C36CE4B26DB28354BEF45E19BE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 17 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 15 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 18 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 9 | Exported Function
-`public: class CCommonUtilities & __thiscall CCommonUtilities::operator=(class CCommonUtilities const &)` | 14 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 16 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 11 | Exported Function
-`public: virtual __thiscall SeComVSFAdapter::CVSFImpl::~CVSFImpl(void)` | 10 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 13 | Exported Function
-`public: long __thiscall SecomVSFCall::CVSFCallImpl::getCallID(void)` | 23 | Exported Function
-`public: static class std::shared_ptr<class SeComVSFAdapter::CVSFImpl> __cdecl SeComVSFAdapter::CVSFImpl::getInstance(class ISFEventListener *,int,int)` | 24 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 12 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 22 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 4 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 5 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 20 | Exported Function
+`operator` | 17 | Exported Function
+`ICall` | 15 | Exported Function
+`ISFInterface` | 18 | Exported Function
+`ISFInterface` | 9 | Exported Function
+`operator` | 14 | Exported Function
+`IHSInterface` | 16 | Exported Function
+`ICall` | 11 | Exported Function
+`CVSFImpl` | 10 | Exported Function
+`ISFInterface` | 13 | Exported Function
+`getCallID` | 23 | Exported Function
+`getInstance` | 24 | Exported Function
+`IHSInterface` | 12 | Exported Function
+`ISFInterface` | 22 | Exported Function
+`IHSInterface` | 4 | Exported Function
+`IHSInterface` | 5 | Exported Function
+`IHSInterface` | 20 | Exported Function
 `const ISFEventListener::``vftable'` | 21 | Exported Function
-`const SeComCall::ICall::``vftable'` | 19 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 3 | Exported Function
-`public: __thiscall SeComVSFAdapter::CVSFImpl::CVSFImpl(class ISFEventListener *,int,int)` | 1 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 8 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 6 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 7 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 2 | Exported Function
+`ICall` | 19 | Exported Function
+`ICall` | 3 | Exported Function
+`CVSFImpl` | 1 | Exported Function
+`ISFInterface` | 8 | Exported Function
+`ISFEventListener` | 6 | Exported Function
+`ISFEventListener` | 7 | Exported Function
+`ICall` | 2 | Exported Function
 
 
 ## Signature

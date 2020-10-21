@@ -22,6 +22,9 @@ SHA256 | `0FD82B7B6F97DF74DF7C02B2CD79E9AE306AC5B66709874146F5D042AA8C38FC`
 SHA384 | `56BDC6681A89C9C4C59FB99D46CC5E906CD728EB10156FACA8845422B21D20145BD176427892C9D04821EF8EE8E2ADDF`
 SHA512 | `BA8B7277A6A600930676C3AB4FD216A6CF5779EC899B3FF1D71C7303D996CC4D86D58C4428FAF058959F3E37F6314D5A2DAA251C6592079638F9D3239B218AAA`
 SSDEEP | `768:Q0gL0CJheuF5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnA:bCJh1VIPd4n+lbeRZIbSQPPA7t`
+IMP | `6F4EF9E489C40856B4C2A7590D1E7B05`
+PESHA1 | `9CE1A6EBD2BD308B3D6B4C2C0BFFBC0FC937A5B7`
+PE256 | `F3659F17E92939F52D1CBCCFFEBE6ABB6639AFFA9BD80A28BFDE141D76240ADE`
 
 ## Runtime Data
 
@@ -37,15 +40,18 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\printui.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\printui.exe.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -76,7 +82,12 @@ C:\Windows\SysWOW64\printui.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/0fd82b7b6f97df74df7c02b2cd79e9ae306ac5b66709874146f5d042aa8c38fc/detection/
 
 ## File Similarity (ssdeep match)
 

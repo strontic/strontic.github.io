@@ -42,22 +42,22 @@ Function Name | Ordinal | Type
 `WcIsContainerQuiescent` | 25 | Exported Function
 `WcRegisterForContainerTerminationNotification` | 28 | Exported Function
 `WcLaunchContainer` | 27 | Exported Function
-`void * __ptr64 __cdecl container::LaunchApplicationContainer(void * __ptr64,unsigned short const * __ptr64,unsigned long)` | 9 | Exported Function
-`void * __ptr64 __cdecl container::GetComRegistryRoot(void * __ptr64)` | 4 | Exported Function
-`void __cdecl container::CleanupContainer(void * __ptr64,unsigned short const * __ptr64)` | 2 | Exported Function
-`void __cdecl container::AddRuntimeVirtualKeysToContainer(void * __ptr64,unsigned long,struct _WC_VKEY_INFO * __ptr64)` | 1 | Exported Function
-`class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > __cdecl container::GetContainerIdentifierString(void * __ptr64)` | 5 | Exported Function
-`bool __cdecl container::ShutdownAppContainer(void * __ptr64)` | 14 | Exported Function
-`unsigned char __cdecl container::IsContainerQuiescent(void * __ptr64)` | 8 | Exported Function
-`struct _WC_CONTAINER_NOTIFICATION * __ptr64 __cdecl container::RegisterForContainerTerminationNotification(void * __ptr64,void (__cdecl*)(void * __ptr64,enum _WC_CONTAINER_TERMINATION_REASON,struct _WC_CONTAINER_NOTIFICATION * __ptr64,void * __ptr64),void * __ptr64)` | 11 | Exported Function
-`void __cdecl container::SetRegistryFlushState(void * __ptr64,unsigned char)` | 13 | Exported Function
-`void __cdecl container::ReleaseContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION * __ptr64)` | 12 | Exported Function
+`LaunchApplicationContainer` | 9 | Exported Function
+`GetComRegistryRoot` | 4 | Exported Function
+`CleanupContainer` | 2 | Exported Function
+`AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`GetContainerIdentifierString` | 5 | Exported Function
+`ShutdownAppContainer` | 14 | Exported Function
+`IsContainerQuiescent` | 8 | Exported Function
+`RegisterForContainerTerminationNotification` | 11 | Exported Function
+`SetRegistryFlushState` | 13 | Exported Function
+`ReleaseContainerTerminationNotification` | 12 | Exported Function
 `WcAddRuntimeVirtualKeysToContainer` | 16 | Exported Function
-`void __cdecl container::WaitForContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION * __ptr64)` | 15 | Exported Function
-`void __cdecl container::GetContainerObjectRootPath(void * __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > & __ptr64)` | 6 | Exported Function
-`void __cdecl container::CreateContainer(void * __ptr64,struct container::DefinitionFile::Container const & __ptr64,bool,void * __ptr64)` | 3 | Exported Function
-`void __cdecl container::LaunchContainer(void * __ptr64)` | 10 | Exported Function
-`void __cdecl container::GetRegistryRootPath(void * __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > const & __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > & __ptr64)` | 7 | Exported Function
+`WaitForContainerTerminationNotification` | 15 | Exported Function
+`allocator` | 6 | Exported Function
+`Container` | 3 | Exported Function
+`LaunchContainer` | 10 | Exported Function
+`allocator` | 7 | Exported Function
 
 
 ## Signature

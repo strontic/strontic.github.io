@@ -18,6 +18,9 @@ SHA256 | `9372044B501FEFAE7333A59624379DBFC7E4ECCBEA965EE7058F2583709C2287`
 SHA384 | `0688A0EC78134C6A911B0F117481641D589B32E566C0F582848A97085D780CA5C5BDD7B3D74EC39C140307FE3220CB17`
 SHA512 | `41313807AC23F551FE63CC5E7C5863862793CFC936E7D59486784527AC5DE64B00DC4D23E78C44948929B554B65F0D4D041A7D89D059059499A495E1806C4382`
 SSDEEP | `768:oCyJjjv6Nd/4GzTzvr+JcOCoORiGpU6OsOHphRiyRHJ:Xz3ycOC5q6tOHtiyRHJ`
+IMP | `F495C58FFEE3A623AD7AAA6BE78756D5`
+PESHA1 | `2A3BD0E10F041E22857A071EC9E00D07A18FA66F`
+PE256 | `7252EEDF33F3A7D1FE88633B789226FAE9D801B91DD0B705F6F02015719657D9`
 
 ## Runtime Data
 
@@ -72,10 +75,16 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 
 Path |
 -- |
+C:\Windows\system32\IPHLPAPI.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\NETSTAT.EXE |
+C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\snmpapi.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -95,7 +104,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/9372044b501fefae7333a59624379dbfc7e4eccbea965ee7058f2583709c2287/detection/
 
 
 ## Possible Misuse

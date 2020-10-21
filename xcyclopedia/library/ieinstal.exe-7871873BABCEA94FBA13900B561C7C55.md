@@ -63,8 +63,12 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Internet Explorer\ieinstal.exe](ieinstal.exe-22B06EAB26C89C0AD59071593442716E.md) | 85
 [C:\Program Files (x86)\Internet Explorer\ielowutil.exe](ielowutil.exe-650FE7460630188008BF8C8153526CEB.md) | 57
+[C:\Program Files (x86)\Internet Explorer\ielowutil.exe](ielowutil.exe-CE5D25E64B5CB96681659196EB6147E9.md) | 55
+[C:\Program Files\internet explorer\ieinstal.exe](ieinstal.exe-58646B0C0417C0E01BECB6C922C0C10A.md) | 82
 [C:\Program Files\Internet Explorer\ieinstal.exe](ieinstal.exe-C9EDD394EB4D0996EE43CB67563DF50C.md) | 80
+[C:\Program Files\internet explorer\ielowutil.exe](ielowutil.exe-97484E82D101785A7BE817FCF9C4CBD3.md) | 54
 [C:\Program Files\Internet Explorer\ielowutil.exe](ielowutil.exe-D831180F7596E0D2BB87B2CC57ECFCA2.md) | 54
 
 

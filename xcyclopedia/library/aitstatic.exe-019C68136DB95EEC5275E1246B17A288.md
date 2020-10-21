@@ -63,6 +63,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\windows\system32\aitstatic.exe](aitstatic.exe-0B422732D5DB83AB9F533E002751BD88.md) | 68
+[C:\Windows\system32\aitstatic.exe](aitstatic.exe-27D53636B86A9CE2366BA584DF09227F.md) | 86
 [C:\WINDOWS\system32\aitstatic.exe](aitstatic.exe-2C02288BFAFB12E33BAB55AB06A6EF23.md) | 66
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-84BED4FA529D5F89B4E2AE8947F33C6A.md) | 66
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-901E2BAC6E0292AD04CA8423A3A2C384.md) | 66

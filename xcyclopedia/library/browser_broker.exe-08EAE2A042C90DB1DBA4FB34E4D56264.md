@@ -18,28 +18,9 @@ SHA256 | `609A3A73A983A1C47511282D31D9FCFE7909950944AC5324344596215CD778AA`
 SHA384 | `CF52DCDDC438BD501ACA067B4F290BEA98A5F4B125353702D34B084DE762DBB2AEA755E86176FD6606C317E366EE00D0`
 SHA512 | `CC46D7F0639E91ED5F3299B6CC85A9E527C183E5EEA6CC00B26180B5DB2ED1C92B67547ECF42CD28C644C4A29BCC855C5B96F3235896655DC68E4C40B153FB86`
 SSDEEP | `768:m5DLT73BzR6tz6fzM7eIU6mvKue4GEXj1PMYC:mBLH3hR6CzEU6oKue4G6pPLC`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\browser_broker.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-
+IMP | `DB359A050881ECD06E06DC1C90FF4448`
+PESHA1 | `004F27B4EC8386ED6C72B49B93A69580389F80D3`
+PE256 | `7F8B28791DAC5B0980B96CCE650F2A00EAA834C8D7B12C5130029A75EDA52D3A`
 
 ## Signature
 
@@ -58,7 +39,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 11.00.17763.316
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/609a3a73a983a1c47511282d31d9fcfe7909950944ac5324344596215cd778aa/detection/
 
 
 

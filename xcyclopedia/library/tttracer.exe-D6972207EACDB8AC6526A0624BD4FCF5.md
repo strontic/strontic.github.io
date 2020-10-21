@@ -18,6 +18,9 @@ SHA256 | `F501B18D8270CE7802E724C84D1EBA5C5D77ADB9113739605FB45E302EDF9C4C`
 SHA384 | `5C2AA92C40DAB06E2D0F5F25D08250BFEF78CF4ECA71774DA85EA202D97F74278E1CDC6B14615245C2E015B63ABB120C`
 SHA512 | `B9289CED19CEB996E8B6CD987FC12F725F2A9E74EF68207368FCD6030AAE793B2FAB17BD0B72E04875C866DD2A3C7CDC646815E12B70FD808524370D7A40A872`
 SSDEEP | `3072:NqmrA6A5XVO/DNT/J7rnOoXAlXZ3ptkeuOwinfX9EJTJx4VniXOFZ9nkTvcx8MxB:AmrR0XVOhTBNwv3XkOYJHlOFZpevcx88`
+IMP | `1399989C3CE962B011C51F54F5BD96A1`
+PESHA1 | `280067D88E2855B202458003BF509F861172D5AF`
+PE256 | `CB0C6ADBC8EB0F5F6F715C5346FFDCDD0EA26B1B950A5DB3F631510ADAFB2B37`
 
 ## Runtime Data
 
@@ -36,8 +39,11 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -70,7 +76,12 @@ C:\Windows\SysWOW64\tttracer.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f501b18d8270ce7802e724c84d1eba5c5d77adb9113739605fb45e302edf9c4c/detection/
 
 
 ## Possible Misuse

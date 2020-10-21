@@ -18,6 +18,9 @@ SHA256 | `741AD992403C78A8A7DBD97C74FDA06594A247E9E2FA05A40BB6945403A90056`
 SHA384 | `67594E897FF8564B57F201DD62462F553D5B51362AE76ED4AEAB7B56E6341B403343D408BED54B1FBFE680999E54E432`
 SHA512 | `6FD34F6EADD44E39C19A7B50732D4B85CC18F96F9D7E360AC4597F3D8DFC2611A5B72009A8C235AEC49D7528DCF9BE53E752F47CC5B31C343446A512E02C9737`
 SSDEEP | `384:DL97irkr1hp22PeQw78T5HfjQ1H6PE7Apvu0pFjSbuLmq1mLQhWE2WmlW:DLFfASeQw78TpYGuO4CL11mLQG`
+IMP | `8C3BE1286CDAD6AC1136D0BB6C83FF41`
+PESHA1 | `37E12A30BC0CC01FE4AEF5A4718F006B3774FEE4`
+PE256 | `3482ED866C391A8E2EE9E65545D65BCBC7A76EFF8C416B80D434CC6D0E2F1627`
 
 ## Runtime Data
 
@@ -67,7 +70,10 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -76,10 +82,18 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\SYSTEM32\DNSAPI.dll |
+C:\Windows\system32\IPHLPAPI.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\mswsock.dll |
+C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\PING.EXE |
+C:\Windows\System32\rasadhlp.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -99,7 +113,12 @@ C:\Windows\system32\PING.EXE |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/741ad992403c78a8a7dbd97c74fda06594a247e9e2fa05a40bb6945403a90056/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -115,7 +134,8 @@ Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_malware_qbot.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_qbot.yml) | `CommandLine: '* /c ping.exe -n 6 127.0.0.1 & type *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- ping.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ping_hex_ip.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml) | `- '*\ping.exe 0x*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ping_hex_ip.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml) | `- '\ping.exe 0x'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ping_hex_ip.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml) | `- 'ping.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\ping.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [signature-base](https://github.com/Neo23x0/signature-base) | [spy_regin_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_regin_fiveeyes.yar) | $a7="ping.exe" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 

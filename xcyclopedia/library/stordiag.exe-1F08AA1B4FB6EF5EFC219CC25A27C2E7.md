@@ -18,6 +18,9 @@ SHA256 | `D706DC037C51B48E412E6CA00129FC34F06830C27260A5D84F7D30D61237E980`
 SHA384 | `EEC1A09610AAF32BB8E2A5EA47294B9AD14F1723B912D125DED85FD4F5E65D9CA5814A185DD1CC4DCB891A849230494A`
 SHA512 | `47514CFDC13281FFE3FFBF3C53EC55BC53F3DACD96DEC6AFA58AC8B064FC2D144BBE4B744161E172A102FAD2C44CDB3B58962C0DAF7CF6F1A417F1B28660D05F`
 SSDEEP | `1536:LSXiToaguRN2LT0SA6Tny2esoOCrcLbJWE4KWh+fbyJ:OXBagGA0SAGy8/bJWE4t2byJ`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `EF32A573149F3BFF31FA622A8D1771C250B4CA3F`
+PE256 | `EFB192C80026823F3FE2A59C2BD9E3319CF03F68034FAEAC10816E6473940A6C`
 
 ## Runtime Data
 
@@ -46,10 +49,13 @@ conhost.exe systeminfo.exe
 
 Path | Type
 -- | --
-(R--)   C:\Users\Administrator\AppData\Local\Temp\2\StorDiag\PSLogs.txt | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R--)   C:\Users\user\AppData\Local\Temp\2\StorDiag\PSLogs.txt | File
+(RW-)   C:\Users\user | File
 \...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_5004 | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_2300 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -58,10 +64,38 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\5543cca0df435801e2303ff46a482ed5\mscorlib.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Management\35d31e1630335aeb7e7cb2ed836e7230\System.Management.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System\6885802f40fd803e49150d8a2b43a09b\System.ni.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rsaenh.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
 C:\Windows\SysWOW64\stordiag.exe |
 
 
@@ -82,7 +116,12 @@ C:\Windows\SysWOW64\stordiag.exe |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/d706dc037c51b48e412e6ca00129fc34f06830c27260a5d84f7d30d61237e980/detection/
 
 ## File Similarity (ssdeep match)
 

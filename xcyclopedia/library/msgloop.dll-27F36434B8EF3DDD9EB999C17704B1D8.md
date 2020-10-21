@@ -33,7 +33,7 @@ Function Name | Ordinal | Type
 `run_on_thread` | 10 | Exported Function
 `create_timer` | 2 | Exported Function
 `create_thread_with_message_loop` | 1 | Exported Function
-`bool __cdecl msgloop::post_thread_message(class std::thread::id const &,struct msgloop::msg_item const &,void *)` | 7 | Exported Function
+`msg_item` | 7 | Exported Function
 `kill_timer` | 5 | Exported Function
 `kill_messages` | 4 | Exported Function
 `hook_message_loop` | 3 | Exported Function

@@ -26,26 +26,26 @@ PE256 | `1653AA88DAF72E2D8AE0BCA50DCE483802B0B6B43B0C13A3D5BB18CD62FA95AD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual void __cdecl Mig::CMXEAgent::AddGatherInfo(class Mig::CMigUnit * __ptr64,struct ICancelable * __ptr64) __ptr64` | 12 | Exported Function
-`public: virtual void __cdecl Mig::CMXEAgent::AdjustRules(class Mig::CMigUnit * __ptr64,class Mig::CMigUnit * __ptr64) __ptr64` | 14 | Exported Function
-`public: virtual void __cdecl Mig::CMXEAgent::AddApplyInfo(class Mig::CMigUnit * __ptr64) __ptr64` | 11 | Exported Function
-`public: virtual __cdecl Mig::CMXEAgent::~CMXEAgent(void) __ptr64` | 4 | Exported Function
-`public: virtual class Mig::CMigUnitList * __ptr64 __cdecl Mig::CMXEAgent::Detect(class Mig::CUserContext * __ptr64,struct ICancelable * __ptr64) __ptr64` | 15 | Exported Function
-`public: virtual void __cdecl Mig::CMXEAgent::InitApply(class Mig::CPlatform * __ptr64,class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 19 | Exported Function
-`public: void __cdecl Mig::CMXEAgent::``vbase destructor'(void) __ptr64` | 10 | Exported Function
-`public: virtual void __cdecl Mig::CMXEAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 18 | Exported Function
-`public: virtual void __cdecl Mig::CMXEAgent::Done(int) __ptr64` | 16 | Exported Function
-`public: virtual void __cdecl Mig::CMXEAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 17 | Exported Function
+`CMigUnit` | 12 | Exported Function
+`CMigUnit` | 14 | Exported Function
+`CMigUnit` | 11 | Exported Function
+`CMXEAgent` | 4 | Exported Function
+`CUserContext` | 15 | Exported Function
+`String` | 19 | Exported Function
+`CMXEAgent` | 10 | Exported Function
+`String` | 18 | Exported Function
+`Done` | 16 | Exported Function
+`String` | 17 | Exported Function
 `LoadAgent` | 20 | Exported Function
-`protected: void __cdecl Mig::CMXEAgent::AddXmlFile(class UnBCL::String * __ptr64) __ptr64` | 13 | Exported Function
-`const Mig::CMXEAgent::``vftable'{for ``Mig::CMXEAgent'}` | 7 | Exported Function
-`const Mig::CMXEAgent::``vbtable'` | 9 | Exported Function
-`const Mig::CMXEAgent::``vftable'{for ``Mig::CAgent'}` | 8 | Exported Function
-`public: class Mig::CMXEAgent & __ptr64 __cdecl Mig::CMXEAgent::operator=(class Mig::CMXEAgent && __ptr64) __ptr64` | 5 | Exported Function
-`public: class Mig::CMXEAgent & __ptr64 __cdecl Mig::CMXEAgent::operator=(class Mig::CMXEAgent const & __ptr64) __ptr64` | 6 | Exported Function
-`public: __cdecl Mig::CMXEAgent::CMXEAgent(class UnBCL::String * __ptr64) __ptr64` | 3 | Exported Function
-`public: __cdecl Mig::CMXEAgent::CMXEAgent(class Mig::CMXEAgent && __ptr64) __ptr64` | 1 | Exported Function
-`public: __cdecl Mig::CMXEAgent::CMXEAgent(class Mig::CMXEAgent const & __ptr64) __ptr64` | 2 | Exported Function
+`String` | 13 | Exported Function
+`CMXEAgent` | 7 | Exported Function
+`CMXEAgent` | 9 | Exported Function
+`CAgent` | 8 | Exported Function
+`CMXEAgent` | 5 | Exported Function
+`CMXEAgent` | 6 | Exported Function
+`String` | 3 | Exported Function
+`CMXEAgent` | 1 | Exported Function
+`CMXEAgent` | 2 | Exported Function
 
 
 ## Signature

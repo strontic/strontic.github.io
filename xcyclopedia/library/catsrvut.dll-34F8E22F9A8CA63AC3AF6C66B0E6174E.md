@@ -26,15 +26,15 @@ PE256 | `170105ADA2B58314FFF43A4FB6B3FAABCC6E4731C7F0315FB0339C558F7F2730`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class CComPlusObject & __ptr64 __cdecl CComPlusObject::operator=(class CComPlusObject const & __ptr64) __ptr64` | 14 | Exported Function
-`public: class CComPlusMethod & __ptr64 __cdecl CComPlusMethod::operator=(class CComPlusMethod const & __ptr64) __ptr64` | 13 | Exported Function
-`public: struct ITypeLib * __ptr64 __cdecl CComPlusTypelib::GetITypeLib(void) __ptr64` | 20 | Exported Function
-`public: class CComPlusTypelib & __ptr64 __cdecl CComPlusTypelib::operator=(class CComPlusTypelib const & __ptr64) __ptr64` | 15 | Exported Function
-`public: class CComPlusInterface & __ptr64 __cdecl CComPlusInterface::operator=(class CComPlusInterface const & __ptr64) __ptr64` | 12 | Exported Function
-`public: class CComPlusComponent & __ptr64 __cdecl CComPlusComponent::operator=(class CComPlusComponent && __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl CComPlusObject::CComPlusObject(class CComPlusObject const & __ptr64) __ptr64` | 6 | Exported Function
-`public: class CComPlusInterface & __ptr64 __cdecl CComPlusInterface::operator=(class CComPlusInterface && __ptr64) __ptr64` | 11 | Exported Function
-`public: class CComPlusComponent & __ptr64 __cdecl CComPlusComponent::operator=(class CComPlusComponent const & __ptr64) __ptr64` | 10 | Exported Function
+`operator` | 14 | Exported Function
+`operator` | 13 | Exported Function
+`GetITypeLib` | 20 | Exported Function
+`operator` | 15 | Exported Function
+`operator` | 12 | Exported Function
+`operator` | 9 | Exported Function
+`CComPlusObject` | 6 | Exported Function
+`operator` | 11 | Exported Function
+`operator` | 10 | Exported Function
 `public: virtual __cdecl CComPlusComponent::~CComPlusComponent(void) __ptr64` | 7 | Exported Function
 `SysprepComplus` | 37 | Exported Function
 `StartMTSTOCOM` | 23 | Exported Function
@@ -55,11 +55,11 @@ Function Name | Ordinal | Type
 `const CComPlusInterface::``vftable'` | 17 | Exported Function
 `const CComPlusComponent::``vftable'` | 16 | Exported Function
 `DllGetClassObject` | 30 | Exported Function
-`public: __cdecl CComPlusInterface::CComPlusInterface(class CComPlusInterface && __ptr64) __ptr64` | 3 | Exported Function
-`public: __cdecl CComPlusComponent::CComPlusComponent(class CComPlusComponent const & __ptr64) __ptr64` | 2 | Exported Function
-`public: __cdecl CComPlusMethod::CComPlusMethod(class CComPlusMethod const & __ptr64) __ptr64` | 5 | Exported Function
-`public: __cdecl CComPlusInterface::CComPlusInterface(class CComPlusInterface const & __ptr64) __ptr64` | 4 | Exported Function
-`public: __cdecl CComPlusComponent::CComPlusComponent(class CComPlusComponent && __ptr64) __ptr64` | 1 | Exported Function
+`CComPlusInterface` | 3 | Exported Function
+`CComPlusComponent` | 2 | Exported Function
+`CComPlusMethod` | 5 | Exported Function
+`CComPlusInterface` | 4 | Exported Function
+`CComPlusComponent` | 1 | Exported Function
 `DllUnregisterServer` | 32 | Exported Function
 `DllRegisterServer` | 31 | Exported Function
 `ManagedRequestW` | 34 | Exported Function

@@ -18,6 +18,9 @@ SHA256 | `837C16C1CA64E6DB32421FC56EFBD80BFCA8E9C8888E9240AB859C43ADAC1442`
 SHA384 | `089BCE4CFE6AA2906C5809A55BC5144FB25AF25B28AEF6EF484D2F84413024B89FE9ED9094AB676F84CB07CB63CA84C4`
 SHA512 | `D4490E47F58B0229FD368974103A1F3B7F5696B613856AA09E26658823F098AFADE8D050B2D944D7FDE530325053D8A29204EA9E387F9913D3A5654C9833DD29`
 SSDEEP | `384:5ahy/EnSJIKqKziIyt4RRcHAnl+5nRl7Sew1sYmsPDErjWngWuTu:5aJZ+ziI9RRM6IlGUYmsPDEro0Tu`
+IMP | `DC04DAC563E65A0D0DAE0ACCC2AC61E2`
+PESHA1 | `F504937E50FF3801235B252D9689880AF701E6AF`
+PE256 | `545CB407B1D1B3C283F1A225F495530AE151256E9A5FF8E11C33080908A20E1F`
 
 ## Runtime Data
 
@@ -40,6 +43,10 @@ Usage: C:\Windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\sdbinst.exe |
 
 
 ## Signature
@@ -59,7 +66,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/837c16c1ca64e6db32421fc56efbd80bfca8e9c8888e9240ab859c43adac1442/detection/
 
 ## File Similarity (ssdeep match)
 

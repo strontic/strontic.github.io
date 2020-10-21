@@ -22,6 +22,9 @@ SHA256 | `EC39F8FDBDA62DC70392D7EFFF271FD189C087336DC716E51ABAE888CAEF5A32`
 SHA384 | `E78D7676FAD475A2B5BAF5096D4A4C5369474EE7A2A7524E496797346B4C70483C2D31914AEBDF8C285EAF8AC689F7D2`
 SHA512 | `669703BCF5CFC8CD4E233C1A3703C211CE6E381ED213375F336D839EFD605B284263A5F2FCE429E27AED0331E289234A562ACA760BDA1AB4A7732E69F6F11CAB`
 SSDEEP | `12288:7V4uURvVDA75nRr08YbVe0TIrf8NbywLkRLgLBAgV:54ub75nRo82VLTIrfMy8oLg`
+IMP | `D707EC2D8BBC3B3E102C7CE118F1E271`
+PESHA1 | `E8A363987FD851F95DBA525FDC3D19D000BA3B7A`
+PE256 | `ECF8409D267299582E7826D39F412CD4F15DB6DFFB4CA45D502119EA42BA3DE8`
 
 ## Runtime Data
 
@@ -37,16 +40,19 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\shlwapi.dll.mui | File
 (R-D)   C:\Windows\System32\Speech\SpeechUX\en-US\SpeechUXWiz.exe.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -54,23 +60,38 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\SYSTEM32\DUI70.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
 C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\SYSTEM32\wer.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35\gdiplus.dll |
 
 
 ## Signature
@@ -90,7 +111,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/ec39f8fdbda62dc70392d7efff271fd189c087336dc716e51abae888caef5a32/detection/
 
 ## File Similarity (ssdeep match)
 

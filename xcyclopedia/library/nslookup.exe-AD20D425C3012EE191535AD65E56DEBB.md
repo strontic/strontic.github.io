@@ -18,6 +18,9 @@ SHA256 | `54DAF167F8DBE7FE0F23B37A600BD8D9D16B756D3B83F0804B5037CBBE895EB6`
 SHA384 | `3389C98384E113765999B5F313078BBF667BACC75C51A64AC80C11B23C428C2DBAE394EA350356CC6F37CAC7F98C6C0A`
 SHA512 | `FC6C0C4CD72803F411F3E9BC30940B2C18C3EA3C5D692AEF7301EC13763D3EDFF341F341E0E2DDFD3A89FD1230FF7F0BB4196E9C548CE550216A79A73E14C25C`
 SSDEEP | `768:3xx2FQe580dMI0GA4/YQFRWsWlYviTs3lvW22Mn1tZRyNXVkjheTFRYnM0qLdYG6:wazQFSI1j/cFRy9ydF9+5lK2hJLxf`
+IMP | `F9A02896E71DF610AF20835CEAEF5BE9`
+PESHA1 | `957A8337DBB7F3378EAE64EB17EED2842C6A08FF`
+PE256 | `5ADB10A6860293DF7CFA3B66F22AF056DCFFF4818E28F273925539470489D1CA`
 
 ## Runtime Data
 
@@ -47,7 +50,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\nslookup.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -56,7 +62,28 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\SYSTEM32\dhcpcsvc.DLL |
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL |
+C:\Windows\system32\DNSAPI.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\MSWSOCK.dll |
+C:\Windows\System32\NSI.dll |
+C:\Windows\system32\nslookup.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\WINNSI.DLL |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -76,7 +103,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/54daf167f8dbe7fe0f23b37a600bd8d9d16b756d3b83f0804b5037cbbe895eb6/detection/
 
 
 ## Possible Misuse

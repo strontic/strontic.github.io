@@ -18,6 +18,9 @@ SHA256 | `FA84D5B043EAD140FE304CBC71A9BFB3D24D3542FAB45DB65606C47808BD9272`
 SHA384 | `142305263B02C68060B7BD6861A674726B0B6C54E0D1F9EEF9173703A7BD21C73640F0990C7B79B362E8D91146598795`
 SHA512 | `3BBAE247D9DB0A44273E27F5A1ACBCDA91C989D749D40A8D5CCCCF68AF1C9E2CE4DC780DDCC10B21A48007E7CFC85C9C2A9F864238865E7FD83075E1AFDC616E`
 SSDEEP | `768:o7s33yWDc3PBXmk1cE+aB3bUbauvk43Y3bFE0d/O18MNt6QbTduQxBTjFLhw:oArc3P47aB3bUb1Ey518at601xBhhw`
+IMP | `BB3BC1A3FEF88F916302D61DDC886F80`
+PESHA1 | `D54A3AA417202B108DDAF3CF8F49B304722FB18C`
+PE256 | `8B1F68E285EAC6735A6B0C2840D4AF5DED78C737304C2E874FCC9D56EBA6B29E`
 
 ## Runtime Data
 
@@ -96,7 +99,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +8/30/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +10/19/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"
@@ -109,13 +112,6 @@ ERROR: Invalid argument/option - '--help'.
 Type "FORFILES /?" for usage.
 
 ```
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
 
 ## Signature
 
@@ -134,7 +130,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/fa84d5b043ead140fe304cbc71a9bfb3d24d3542fab45db65606c47808bd9272/detection/
 
 
 ## Possible Misuse

@@ -18,6 +18,9 @@ SHA256 | `AA82381AEFF9D1908F76D5FFCF7DBF2492CE4725AF7DF06818E6D574B97EA1CB`
 SHA384 | `EC5E9EBEA0EF12E3823C17F0A47513D02BEEA52DE2FF14B9E0494194A2D467ABB2345CB90231D6621FD951DB0038CCED`
 SHA512 | `93A7CA1D2898A572F26426B81783B6AB63CBFFC74F7A318CC95CC9C928AD897C08C29C5F2CB265954C39CC99DD21FC38EA2521A4C75FB3C0558C76F733A03664`
 SSDEEP | `3072:TFHbEbEaznWfH22ZsuX2xKwMPTnaSrIrvDe:J7KznWjZnXeKwMLnaqY`
+IMP | `B1DA23E5BF146552E38FA70DEE47601E`
+PESHA1 | `A2836E0E0FE37DF9786293CD43D270CA0BF2205C`
+PE256 | `B971805EEEFB5DFA684B579112A2B217E90AB884259A917B94DCCB70EE1C5A2F`
 
 ## Runtime Data
 
@@ -25,7 +28,37 @@ SSDEEP | `3072:TFHbEbEaznWfH22ZsuX2xKwMPTnaSrIrvDe:J7KznWjZnXeKwMLnaqY`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\appwiz.cpl |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\OptionalFeatures.exe |
+C:\Windows\system32\osbaseln.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHCORE.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
 
 
 ## Signature
@@ -45,7 +78,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/aa82381aeff9d1908f76d5ffcf7dbf2492ce4725af7df06818e6d574b97ea1cb/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -18,6 +18,9 @@ SHA256 | `FE90F56D6830C6A908B113BBA48BF4101F14B54AE7423801AE499050605FC350`
 SHA384 | `B4FE56E8DE99F4BEE5C84FD124D544AF408DCE2B338C0CBE65E1823035A881A20E917DA605FBEC40039BC91C7AA61135`
 SHA512 | `F5E92D5A3913C3C30C7715F5B05E22576B2C90B414376F08D5187333B7CCC5F4854ED64C1BC56CF40658762B2D2326EFEC350B71EFDF7F710FFC14B89795864C`
 SSDEEP | `384:8ZpTvaEfkbGhoLwP33/koPHS/UFdt8Hq9zW2oOdWLaWUeh:8Zp+ocGhoK/qn2Fm/`
+IMP | `1A15C5ED7BC4BF3801523763FB69275D`
+PESHA1 | `D5408E96D5A0C8903AF2D1CCEA13E1212473CF62`
+PE256 | `E948351D3756F6EC6BD7CE6F1AEA4232565DB4E6DB5172C37E6E2DD80609B22C`
 
 ## Runtime Data
 
@@ -60,8 +63,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\qappsrv.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -94,7 +100,12 @@ C:\Windows\SysWOW64\qappsrv.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/fe90f56d6830c6a908b113bba48bf4101f14b54ae7423801ae499050605fc350/detection/
 
 
 

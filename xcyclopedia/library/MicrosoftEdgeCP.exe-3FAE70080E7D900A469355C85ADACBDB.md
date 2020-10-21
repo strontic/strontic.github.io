@@ -18,6 +18,9 @@ SHA256 | `34B6D32D2345DB5DFE803573F4AA74479EA961004B2F72D25A486D55369AECD8`
 SHA384 | `A0AC924BDB2BC8B264BE59D9A3C29B7A511D0BB1A603319215849FDFC589F8A61A19248E3256A0CBC2EFD913A67B2E01`
 SHA512 | `C8909FAD5F3FCEAB7A825C30B033844645E49F171C285A560CF8E0DFD0D848356B8E2CC0DF8019E42B1EFE69623B715BF3237D7DD42D3EC63A462D2682711ABD`
 SSDEEP | `1536:zermIcat/7LnbR8l/DNRo04HwnVC8AknP8RsK:zeryK3V8l/804oV3TP8Rs`
+IMP | `0D3AB4A466B72F3ECB4D7E053A19134B`
+PESHA1 | `DA7999586252647430728A1B6E2F7027596B0256`
+PE256 | `DD31F49F1D8F63BC55BAFF847A74D28C6D0408298B0E211B48CA5AE03E36F7B4`
 
 ## Runtime Data
 
@@ -25,8 +28,20 @@ SSDEEP | `1536:zermIcat/7LnbR8l/DNRo04HwnVC8AknP8RsK:zeryK3V8l/804oV3TP8Rs`
 
 Path |
 -- |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MicrosoftEdgeCP.exe |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WINTRUST.dll |
 
 
 ## Signature
@@ -46,7 +61,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/34b6d32d2345db5dfe803573f4aa74479ea961004b2f72d25a486d55369aecd8/detection/
 
 
 ## Possible Misuse

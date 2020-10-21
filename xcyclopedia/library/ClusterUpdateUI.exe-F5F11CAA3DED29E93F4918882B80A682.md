@@ -28,7 +28,7 @@ Cluster-Aware Updating
 
 Path | Type
 -- | --
-(R--)   C:\Users\Administrator\AppData\Local\Temp\2\ClusterUpdateUi.log | File
+(R--)   C:\Users\user\AppData\Local\Temp\2\ClusterUpdateUi.log | File
 (R-D)   C:\Windows\Cluster\FailoverClusters.Agent.Interop.dll | File
 (R-D)   C:\Windows\Cluster\FailoverClusters.Common.dll | File
 (R-D)   C:\Windows\Cluster\FailoverClusters.FcAgent.Interop.dll | File
@@ -48,7 +48,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\UIAutomationCore.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
 (R-D)   C:\Windows\System32\WindowsPowerShell\v1.0\Modules\ClusterAwareUpdating\ClusterAwareUpdating.dll | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\System32 | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\__ComCatalogCache__ | Section

@@ -26,882 +26,882 @@ PE256 | `64E5E1ECAA46E5238BAD127D6CA38592169A26F8836E6C599D10E838EEB8E60B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual __cdecl Mig::CUNCTransport::~CUNCTransport(void) __ptr64` | 164 | Exported Function
-`public: virtual __cdecl Mig::CSplitFileStream::~CSplitFileStream(void) __ptr64` | 163 | Exported Function
-`public: virtual __cdecl Mig::CSimulationTrimableStream::~CSimulationTrimableStream(void) __ptr64` | 162 | Exported Function
-`public: virtual __cdecl Mig::IDeviceInitializationData::~IDeviceInitializationData(void) __ptr64` | 167 | Exported Function
-`public: virtual __cdecl Mig::IDevice::~IDevice(void) __ptr64` | 166 | Exported Function
-`public: virtual __cdecl Mig::CUNCTransportInitializationData::~CUNCTransportInitializationData(void) __ptr64` | 165 | Exported Function
-`public: virtual __cdecl Mig::CNonTrimableFileStream::~CNonTrimableFileStream(void) __ptr64` | 160 | Exported Function
-`public: virtual __cdecl Mig::CLibTransport::~CLibTransport(void) __ptr64` | 155 | Exported Function
-`public: virtual __cdecl Mig::CLibrarian::~CLibrarian(void) __ptr64` | 157 | Exported Function
-`public: virtual __cdecl Mig::CIMGTransport::~CIMGTransport(void) __ptr64` | 154 | Exported Function
-`public: virtual __cdecl Mig::CMediaManagerStreamProxy::~CMediaManagerStreamProxy(void) __ptr64` | 159 | Exported Function
-`public: virtual __cdecl Mig::CMediaManager::~CMediaManager(void) __ptr64` | 158 | Exported Function
-`public: virtual __cdecl Mig::CLibTransportInitializationData::~CLibTransportInitializationData(void) __ptr64` | 156 | Exported Function
-`public: virtual __cdecl Mig::IStoreInterface::~IStoreInterface(void) __ptr64` | 168 | Exported Function
-`public: virtual __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::~SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >(void) __ptr64` | 132 | Exported Function
-`public: virtual __cdecl UnBCL::IList<class Mig::CCatalogUser * __ptr64>::~IList<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 129 | Exported Function
-`public: virtual __cdecl UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>::~IDictionary<unsigned int,struct Mig::IDevice * __ptr64>(void) __ptr64` | 128 | Exported Function
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 131 | Exported Function
-`public: virtual __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::~SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >(void) __ptr64` | 134 | Exported Function
-`public: virtual __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::~SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >(void) __ptr64` | 133 | Exported Function
-`public: virtual __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::~ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >(void) __ptr64` | 127 | Exported Function
-`public: virtual __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::~SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 130 | Exported Function
-`public: virtual __cdecl Mig::SendState::~SendState(void) __ptr64` | 170 | Exported Function
-`public: virtual __cdecl Mig::ITrimableStream::~ITrimableStream(void) __ptr64` | 169 | Exported Function
-`public: virtual __cdecl UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>::~ICollection<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 126 | Exported Function
-`public: virtual __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::~Hashtable<unsigned int,struct Mig::IDevice * __ptr64>(void) __ptr64` | 125 | Exported Function
-`public: virtual __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::~ArrayList<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 124 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Mig::CLibTransportInitializationData::get_StorePath(void) __ptr64` | 843 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Mig::CAlternateStreamHolder::get_StoragePath(void) __ptr64` | 841 | Exported Function
-`public: unsigned long __cdecl Mig::CCatalogEntry::get_Flags(void) __ptr64` | 788 | Exported Function
+`CUNCTransport` | 164 | Exported Function
+`CSplitFileStream` | 163 | Exported Function
+`CSimulationTrimableStream` | 162 | Exported Function
+`IDeviceInitializationData` | 167 | Exported Function
+`IDevice` | 166 | Exported Function
+`CUNCTransportInitializationData` | 165 | Exported Function
+`CNonTrimableFileStream` | 160 | Exported Function
+`CLibTransport` | 155 | Exported Function
+`CLibrarian` | 157 | Exported Function
+`CIMGTransport` | 154 | Exported Function
+`CMediaManagerStreamProxy` | 159 | Exported Function
+`CMediaManager` | 158 | Exported Function
+`CLibTransportInitializationData` | 156 | Exported Function
+`IStoreInterface` | 168 | Exported Function
+`CCatalogEntry` | 132 | Exported Function
+`CCatalogUser` | 129 | Exported Function
+`IDevice` | 128 | Exported Function
+`OperatorNew` | 131 | Exported Function
+`CCatalogUserList` | 134 | Exported Function
+`CCatalogUser` | 133 | Exported Function
+`IDevice` | 127 | Exported Function
+`CCatalogUser` | 130 | Exported Function
+`SendState` | 170 | Exported Function
+`ITrimableStream` | 169 | Exported Function
+`CCatalogUser` | 126 | Exported Function
+`IDevice` | 125 | Exported Function
+`CCatalogUser` | 124 | Exported Function
+`get_StorePath` | 843 | Exported Function
+`get_StoragePath` | 841 | Exported Function
+`get_Flags` | 788 | Exported Function
 `public: virtual __cdecl CSimulationTableStream::~CSimulationTableStream(void) __ptr64` | 161 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Mig::CUNCTransportInitializationData::get_StorePath(void) __ptr64` | 844 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl Mig::CLibTransportInitializationData::get_TempPath(void) __ptr64` | 849 | Exported Function
-`public: unsigned int __cdecl Mig::CCatalog::get_EntryCount(void) __ptr64` | 783 | Exported Function
-`public: unsigned __int64 __cdecl Mig::CCatalogUser::get_BeginOffset(void)const __ptr64` | 767 | Exported Function
-`public: unsigned __int64 __cdecl Mig::CCatalogLinearIterator::get_CurrentOffset(void) __ptr64` | 778 | Exported Function
-`public: struct UnBCL::IList<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::IList<class Mig::CCatalogUser * __ptr64>::operator=(struct UnBCL::IList<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 184 | Exported Function
-`public: unsigned __int64 __cdecl Mig::SendState::get_ObjectStoredCount(void) __ptr64` | 821 | Exported Function
-`public: unsigned __int64 __cdecl Mig::SendState::get_LastStoredObjectIndex(void) __ptr64` | 808 | Exported Function
-`public: unsigned __int64 __cdecl Mig::CCatalogUser::get_EndOffset(void)const __ptr64` | 782 | Exported Function
-`public: virtual __cdecl Mig::CAlternateStreamHolder::~CAlternateStreamHolder(void) __ptr64` | 140 | Exported Function
-`public: virtual __cdecl Mig::CExternalTransport::~CExternalTransport(void) __ptr64` | 150 | Exported Function
-`public: virtual __cdecl Mig::CDeviceProgressAdapter::~CDeviceProgressAdapter(void) __ptr64` | 149 | Exported Function
-`public: virtual __cdecl Mig::CDeviceLockedObject::~CDeviceLockedObject(void) __ptr64` | 148 | Exported Function
-`public: virtual __cdecl Mig::CHardLinkTransportStreamProxy::~CHardLinkTransportStreamProxy(void) __ptr64` | 153 | Exported Function
-`public: virtual __cdecl Mig::CExternalTransportStreamProxy::~CExternalTransportStreamProxy(void) __ptr64` | 152 | Exported Function
-`public: virtual __cdecl Mig::CExternalTransportInitializationData::~CExternalTransportInitializationData(void) __ptr64` | 151 | Exported Function
-`public: virtual __cdecl Mig::CConnectionPipeTransportStreamProxy::~CConnectionPipeTransportStreamProxy(void) __ptr64` | 147 | Exported Function
-`public: virtual __cdecl Mig::CCatalogLinearIterator::~CCatalogLinearIterator(void) __ptr64` | 143 | Exported Function
-`public: virtual __cdecl Mig::CCatalogEntry::~CCatalogEntry(void) __ptr64` | 142 | Exported Function
-`public: virtual __cdecl Mig::CCatalog::~CCatalog(void) __ptr64` | 141 | Exported Function
-`public: virtual __cdecl Mig::CCatalogUserList::~CCatalogUserList(void) __ptr64` | 146 | Exported Function
-`public: virtual __cdecl Mig::CCatalogUser::~CCatalogUser(void) __ptr64` | 145 | Exported Function
-`public: virtual __cdecl Mig::CCatalogNavigator::~CCatalogNavigator(void) __ptr64` | 144 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::~SmartPtr<class Mig::CLibrarian>(void) __ptr64` | 138 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Clone(void)const __ptr64` | 472 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl Mig::CMediaManagerStreamProxy::Clone(void)const __ptr64` | 478 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl Mig::CHardLinkTransportStreamProxy::Clone(void)const __ptr64` | 477 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CExternalTransportStreamProxy::OpenReadOnlyStream(void) __ptr64` | 649 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CExternalTransport::OpenObject(unsigned short const * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 644 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Clone(void)const __ptr64` | 473 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl Mig::CExternalTransportStreamProxy::Clone(void)const __ptr64` | 476 | Exported Function
-`public: virtual class UnBCL::Array<class Mig::CCatalogUser * __ptr64> * __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::ToArray(void)const __ptr64` | 743 | Exported Function
-`public: virtual class Mig::CPhysicalFile * __ptr64 __cdecl Mig::CMediaManagerStreamProxy::GetPhysicalFile(void) __ptr64` | 575 | Exported Function
-`public: virtual class Mig::CDeviceLockedObject * __ptr64 __cdecl Mig::CUNCTransport::GetLockedObject(unsigned short const * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 564 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl Mig::CDeviceLockedObject::Clone(void)const __ptr64` | 475 | Exported Function
-`public: virtual class UnBCL::Object * __ptr64 __cdecl Mig::CConnectionPipeTransportStreamProxy::Clone(void)const __ptr64` | 474 | Exported Function
-`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl Mig::CMediaManager::GetAttributes(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 541 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CHardLinkTransportStreamProxy::OpenReadOnlyStream(void) __ptr64` | 650 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransport::StoreObjectDirect(class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,class Mig::CFileSystemRootMapping * __ptr64) __ptr64` | 722 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransport::StoreObject(class UnBCL::Stream * __ptr64,class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,struct ILocalProgress * __ptr64,int,int,int) __ptr64` | 718 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransport::get_Name(void) __ptr64` | 818 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CIMGTransport::get_Name(void) __ptr64` | 819 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransportInitializationData::ToString(void)const __ptr64` | 745 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransport::ToString(void)const __ptr64` | 744 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CUNCTransport::OpenObject(unsigned short const * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 648 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CMediaManager::RetrieveSpecial(class UnBCL::String * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 689 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CMediaManager::GetStream(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 581 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CLibTransport::OpenObject(unsigned short const * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 645 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CUNCTransport::OpenObject(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 647 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CMediaManagerStreamProxy::OpenReadOnlyStream(void) __ptr64` | 652 | Exported Function
-`public: virtual class UnBCL::Stream * __ptr64 __cdecl Mig::CMediaManagerStreamProxy::OpenReadOnlyStream(int) __ptr64` | 651 | Exported Function
-`public: virtual __int64 __cdecl Mig::CNonTrimableFileStream::get_Length(void)const __ptr64` | 809 | Exported Function
-`public: virtual __int64 __cdecl Mig::CIMGTransport::get_MaxEmbeddedObjectSize(void) __ptr64` | 815 | Exported Function
-`public: virtual __int64 __cdecl Mig::CExternalTransport::get_MaxEmbeddedObjectSize(void) __ptr64` | 814 | Exported Function
-`public: virtual __int64 __cdecl Mig::CSimulationTrimableStream::get_Length(void)const __ptr64` | 811 | Exported Function
-`public: virtual __int64 __cdecl Mig::CNonTrimableFileStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 696 | Exported Function
-`public: virtual __int64 __cdecl Mig::CNonTrimableFileStream::get_Position(void)const __ptr64` | 830 | Exported Function
-`public: virtual __int64 __cdecl CSimulationTableStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 697 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::~SmartPtr<class UnBCL::ArrayList<unsigned short> >(void) __ptr64` | 136 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::~SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >(void) __ptr64` | 137 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<class Mig::SendState>::~SmartPtr<class Mig::SendState>(void) __ptr64` | 139 | Exported Function
-`public: virtual __int64 __cdecl CSimulationTableStream::get_Position(void)const __ptr64` | 831 | Exported Function
-`public: virtual __int64 __cdecl CSimulationTableStream::get_Length(void)const __ptr64` | 810 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::~SmartPtr<struct Mig::ITrimableStream>(void) __ptr64` | 135 | Exported Function
-`public: virtual __int64 __cdecl Mig::CSimulationTrimableStream::get_Position(void)const __ptr64` | 832 | Exported Function
-`public: virtual class Mig::CCatalogUser * __ptr64 const * __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::GetBuffer(int)const __ptr64` | 543 | Exported Function
-`public: virtual class Mig::CCatalogUser * __ptr64 const & __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_Item(int)const __ptr64` | 805 | Exported Function
-`public: virtual class Mig::CCatalogUser * __ptr64 * __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::GetBuffer(int) __ptr64` | 542 | Exported Function
-`public: virtual class Mig::CDeviceLockedObject * __ptr64 __cdecl Mig::CLibTransport::GetLockedObject(unsigned short const * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 563 | Exported Function
-`public: virtual class Mig::CDeviceLockedObject * __ptr64 __cdecl Mig::CExternalTransport::GetLockedObject(unsigned short const * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 562 | Exported Function
-`public: virtual class Mig::CDataUnit * __ptr64 __cdecl Mig::CMediaManager::GetObjectW(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 574 | Exported Function
-`public: virtual class Mig::CCatalogUser * __ptr64 & __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_Item(int) __ptr64` | 804 | Exported Function
-`public: virtual __int64 __cdecl Mig::CSplitFileStream::get_Position(void)const __ptr64` | 833 | Exported Function
-`public: virtual __int64 __cdecl Mig::CSplitFileStream::get_Length(void)const __ptr64` | 812 | Exported Function
-`public: virtual __int64 __cdecl Mig::CSimulationTrimableStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 698 | Exported Function
-`public: virtual class Mig::CCatalogNavigator * __ptr64 __cdecl Mig::CMediaManager::GetNavigator(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 570 | Exported Function
-`public: virtual __int64 __cdecl Mig::CUNCTransport::get_MaxEmbeddedObjectSize(void) __ptr64` | 816 | Exported Function
-`public: virtual __int64 __cdecl Mig::CSplitFileStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 699 | Exported Function
-`public: struct UnBCL::IList<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::IList<class Mig::CCatalogUser * __ptr64>::operator=(struct UnBCL::IList<class Mig::CCatalogUser * __ptr64> && __ptr64) __ptr64` | 183 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::Nullify(void) __ptr64` | 635 | Exported Function
-`public: class UnBCL::SmartPtr<class Mig::SendState> & __ptr64 __cdecl UnBCL::SmartPtr<class Mig::SendState>::operator=(class UnBCL::SmartPtr<class Mig::SendState> const & __ptr64) __ptr64` | 199 | Exported Function
-`public: class UnBCL::SmartPtr<class Mig::SendState> & __ptr64 __cdecl UnBCL::SmartPtr<class Mig::SendState>::Nullify(void) __ptr64` | 637 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::operator=(class UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> > const & __ptr64) __ptr64` | 196 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::Nullify(void) __ptr64` | 634 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::operator=(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> > const & __ptr64) __ptr64` | 197 | Exported Function
-`public: class UnBCL::SmartPtr<class Mig::CLibrarian> & __ptr64 __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::operator=(class UnBCL::SmartPtr<class Mig::CLibrarian> const & __ptr64) __ptr64` | 198 | Exported Function
-`public: class UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> > & __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::operator=(class UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> > const & __ptr64) __ptr64` | 194 | Exported Function
-`public: class UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> > & __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::operator=(class UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> > && __ptr64) __ptr64` | 193 | Exported Function
-`public: class UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> > & __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::operator=(class UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> > const & __ptr64) __ptr64` | 192 | Exported Function
-`public: class UnBCL::SmartPtr<class Mig::CLibrarian> & __ptr64 __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::Nullify(void) __ptr64` | 636 | Exported Function
-`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 188 | Exported Function
-`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> > && __ptr64) __ptr64` | 187 | Exported Function
-`public: class UnBCL::SmartPtr<struct Mig::ITrimableStream> & __ptr64 __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::Nullify(void) __ptr64` | 633 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CDeviceLockedObject::get_PhysicalPath(void)const __ptr64` | 829 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CCatalogUser::get_Name(void)const __ptr64` | 817 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CCatalogEntry::get_UserID(void) __ptr64` | 851 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::SendState::ToString(void) __ptr64` | 750 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::FindObjectFilePath(unsigned short const * __ptr64) __ptr64` | 534 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransportInitializationData::get_TempPath(void) __ptr64` | 847 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CCatalogEntry::get_StorageLocation(void) __ptr64` | 840 | Exported Function
-`public: class UnBCL::Stream * __ptr64 __cdecl Mig::CCatalog::GetReadOnlyStream(void)const __ptr64` | 579 | Exported Function
-`public: class UnBCL::Stream * __ptr64 __cdecl Mig::CAlternateStreamHolder::get_EmbeddedStream(void) __ptr64` | 780 | Exported Function
-`public: class UnBCL::SmartPtr<struct Mig::ITrimableStream> & __ptr64 __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::operator=(class UnBCL::SmartPtr<struct Mig::ITrimableStream> const & __ptr64) __ptr64` | 195 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CCatalog::get_FileName(void) __ptr64` | 787 | Exported Function
-`public: class UnBCL::Stream * __ptr64 __cdecl Mig::CLibrarian::OpenObject(__int64) __ptr64` | 646 | Exported Function
-`public: class UnBCL::Stream * __ptr64 __cdecl Mig::CCatalogEntry::get_EmbeddedStream(void) __ptr64` | 781 | Exported Function
-`public: class UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::operator=(class UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64> && __ptr64) __ptr64` | 185 | Exported Function
-`public: class Mig::SendState * __ptr64 __cdecl UnBCL::SmartPtr<class Mig::SendState>::Steal(void) __ptr64` | 717 | Exported Function
-`public: class Mig::SendState * __ptr64 __cdecl UnBCL::SmartPtr<class Mig::SendState>::operator->(void)const __ptr64` | 257 | Exported Function
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl Mig::CCatalogEntry::get_SecurityInfo(void) __ptr64` | 838 | Exported Function
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl Mig::CCatalogEntry::get_Attributes(void) __ptr64` | 763 | Exported Function
-`public: class UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::operator=(class UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 186 | Exported Function
-`public: class Mig::SendState * __ptr64 __cdecl UnBCL::SmartPtr<class Mig::SendState>::get_P(void)const __ptr64` | 828 | Exported Function
-`public: class Mig::CUNCTransportInitializationData & __ptr64 __cdecl Mig::CUNCTransportInitializationData::operator=(class Mig::CUNCTransportInitializationData const & __ptr64) __ptr64` | 232 | Exported Function
-`public: class Mig::CUNCTransportInitializationData & __ptr64 __cdecl Mig::CUNCTransportInitializationData::operator=(class Mig::CUNCTransportInitializationData && __ptr64) __ptr64` | 231 | Exported Function
-`public: class Mig::CUNCTransport & __ptr64 __cdecl Mig::CUNCTransport::operator=(class Mig::CUNCTransport const & __ptr64) __ptr64` | 230 | Exported Function
-`public: class Mig::SendState & __ptr64 __cdecl UnBCL::SmartPtr<class Mig::SendState>::operator*(void)const __ptr64` | 262 | Exported Function
-`public: class Mig::SendState & __ptr64 __cdecl Mig::SendState::operator=(class Mig::SendState const & __ptr64) __ptr64` | 242 | Exported Function
-`public: class Mig::SendState & __ptr64 __cdecl Mig::SendState::operator=(class Mig::SendState && __ptr64) __ptr64` | 241 | Exported Function
-`public: class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::operator=(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 171 | Exported Function
-`public: class UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64> & __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::operator=(class UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64> const & __ptr64) __ptr64` | 172 | Exported Function
-`public: class UnBCL::ArrayList<unsigned short> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::Steal(void) __ptr64` | 714 | Exported Function
-`public: class UnBCL::ArrayList<unsigned short> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::operator->(void)const __ptr64` | 254 | Exported Function
-`public: class UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> > & __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::operator=(class UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> > && __ptr64) __ptr64` | 191 | Exported Function
-`public: class UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> > & __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::operator=(class UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> > const & __ptr64) __ptr64` | 190 | Exported Function
-`public: class UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> > & __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::operator=(class UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> > && __ptr64) __ptr64` | 189 | Exported Function
-`public: class UnBCL::ArrayList<unsigned short> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::get_P(void)const __ptr64` | 825 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::operator->(void)const __ptr64` | 255 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::get_P(void)const __ptr64` | 826 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::operator*(void)const __ptr64` | 260 | Exported Function
-`public: class UnBCL::ArrayList<unsigned short> * __ptr64 __cdecl Mig::CUNCTransportInitializationData::get_HardLinkDriveLetterExclusion(void) __ptr64` | 789 | Exported Function
-`public: class UnBCL::ArrayList<unsigned short> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::operator*(void)const __ptr64` | 259 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::Steal(void) __ptr64` | 715 | Exported Function
-`public: enum Mig::SendState::SendStateEnum __cdecl Mig::SendState::get_Position(void) __ptr64` | 834 | Exported Function
-`public: struct Mig::IStoreInterface & __ptr64 __cdecl Mig::IStoreInterface::operator=(struct Mig::IStoreInterface const & __ptr64) __ptr64` | 238 | Exported Function
-`public: struct Mig::IStoreInterface & __ptr64 __cdecl Mig::IStoreInterface::operator=(struct Mig::IStoreInterface && __ptr64) __ptr64` | 237 | Exported Function
-`public: struct Mig::IMigLocation * __ptr64 __cdecl Mig::CCatalogEntry::get_SegmentAliasLocation(void) __ptr64` | 839 | Exported Function
-`public: struct Mig::ITrimableStream & __ptr64 __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::operator*(void)const __ptr64` | 258 | Exported Function
-`public: struct Mig::ITrimableStream & __ptr64 __cdecl Mig::ITrimableStream::operator=(struct Mig::ITrimableStream const & __ptr64) __ptr64` | 240 | Exported Function
-`public: struct Mig::ITrimableStream & __ptr64 __cdecl Mig::ITrimableStream::operator=(struct Mig::ITrimableStream && __ptr64) __ptr64` | 239 | Exported Function
-`public: struct Mig::IMigLocation * __ptr64 __cdecl Mig::CCatalogEntry::get_OriginalLocation(void) __ptr64` | 823 | Exported Function
-`public: struct Mig::IDevice & __ptr64 __cdecl Mig::IDevice::operator=(struct Mig::IDevice const & __ptr64) __ptr64` | 234 | Exported Function
-`public: struct Mig::IDevice & __ptr64 __cdecl Mig::IDevice::operator=(struct Mig::IDevice && __ptr64) __ptr64` | 233 | Exported Function
-`public: struct Mig::IDataStoreNavigator * __ptr64 __cdecl Mig::CMediaManager::GetNavigator(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 569 | Exported Function
-`public: struct Mig::IMigLocation * __ptr64 __cdecl Mig::CCatalogEntry::get_AliasLocation(void) __ptr64` | 761 | Exported Function
-`public: struct Mig::IDeviceInitializationData & __ptr64 __cdecl Mig::IDeviceInitializationData::operator=(struct Mig::IDeviceInitializationData const & __ptr64) __ptr64` | 236 | Exported Function
-`public: struct Mig::IDeviceInitializationData & __ptr64 __cdecl Mig::IDeviceInitializationData::operator=(struct Mig::IDeviceInitializationData && __ptr64) __ptr64` | 235 | Exported Function
-`public: struct Mig::ITrimableStream * __ptr64 __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::get_P(void)const __ptr64` | 824 | Exported Function
-`public: struct UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>::operator=(struct UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64> && __ptr64) __ptr64` | 179 | Exported Function
-`public: struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> & __ptr64 __cdecl UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>::operator=(struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> const & __ptr64) __ptr64` | 178 | Exported Function
-`public: struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> & __ptr64 __cdecl UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>::operator=(struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> && __ptr64) __ptr64` | 177 | Exported Function
-`public: struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::operator=(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > const & __ptr64) __ptr64` | 182 | Exported Function
-`public: struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::operator=(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > && __ptr64) __ptr64` | 181 | Exported Function
-`public: struct UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>::operator=(struct UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 180 | Exported Function
-`public: struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class Mig::CAlternateStreamHolder * __ptr64> * __ptr64 __cdecl Mig::CCatalogEntry::get_AlternateStreams(void) __ptr64` | 762 | Exported Function
-`public: struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>::operator=(struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> && __ptr64) __ptr64` | 173 | Exported Function
-`public: struct Mig::ITrimableStream * __ptr64 __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::Steal(void) __ptr64` | 713 | Exported Function
-`public: struct Mig::ITrimableStream * __ptr64 __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::operator->(void)const __ptr64` | 253 | Exported Function
-`public: struct UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::operator=(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > const & __ptr64) __ptr64` | 176 | Exported Function
-`public: struct UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::operator=(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > && __ptr64) __ptr64` | 175 | Exported Function
-`public: struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>::operator=(struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 174 | Exported Function
-`public: int __cdecl Mig::CDeviceLockedObject::get_DeleteWhenDone(void)const __ptr64` | 779 | Exported Function
-`public: int __cdecl Mig::CCatalogNavigator::Invariant(void) __ptr64` | 612 | Exported Function
-`public: int __cdecl Mig::CCatalogLinearIterator::MoveNext(void) __ptr64` | 626 | Exported Function
-`public: static enum MIGSTATUS __cdecl Mig::CLibrarian::TestHeader(class UnBCL::Stream * __ptr64,unsigned __int64)` | 735 | Exported Function
-`public: int __cdecl Mig::CLibrarian::RecoverIndex(__int64,class UnBCL::Stream * __ptr64) __ptr64` | 671 | Exported Function
-`public: int __cdecl Mig::CLibrarian::IsValidIndex(__int64,class UnBCL::String * __ptr64 * __ptr64) __ptr64` | 618 | Exported Function
-`public: int __cdecl Mig::CCatalogEntry::get_ContextSpecific(void) __ptr64` | 774 | Exported Function
-`public: int __cdecl Mig::CCatalog::AddObjectToUserView(enum Mig::CatalogNamespace,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 443 | Exported Function
-`public: int __cdecl Mig::CCatalog::AddObject(enum Mig::CatalogNamespace,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64,class UnBCL::Stream * __ptr64,class UnBCL::Array<unsigned char> * __ptr64,class UnBCL::Array<unsigned char> * __ptr64,class UnBCL::String * __ptr64,unsigned long,struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class Mig::CAlternateStreamHolder * __ptr64> * __ptr64) __ptr64` | 439 | Exported Function
-`public: int __cdecl Mig::CCatalog::AddNonExistEntry(enum Mig::CatalogNamespace,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 438 | Exported Function
-`public: int __cdecl Mig::CCatalogEntry::get_ContainsEmbeddedStream(void) __ptr64` | 773 | Exported Function
-`public: int __cdecl Mig::CCatalog::DoesObjectExist(enum Mig::CatalogNamespace,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64) __ptr64` | 525 | Exported Function
-`public: int __cdecl Mig::CCatalog::DoesObjectExist(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64) __ptr64` | 524 | Exported Function
-`public: static int __cdecl Mig::CIMGTransport::HeaderValidator(unsigned char * __ptr64,unsigned int,int)` | 605 | Exported Function
-`public: struct IMigHardLinkPolicy * __ptr64 __cdecl Mig::CUNCTransportInitializationData::get_HardLinkPolicy(void) __ptr64` | 790 | Exported Function
-`public: struct IExternalStore * __ptr64 __cdecl Mig::CExternalTransportInitializationData::get_ExternalStore(void) __ptr64` | 786 | Exported Function
-`public: static void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Sort(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> * __ptr64)` | 711 | Exported Function
-`public: struct ITransportUI * __ptr64 __cdecl Mig::CLibTransportInitializationData::get_TransportUI(void) __ptr64` | 850 | Exported Function
-`public: struct IMigStreamSizeRecorder * __ptr64 __cdecl Mig::CUNCTransportInitializationData::get_EstimationRecorder(void) __ptr64` | 785 | Exported Function
-`public: struct IMigStreamSizeRecorder * __ptr64 __cdecl Mig::CLibTransportInitializationData::get_EstimationRecorder(void) __ptr64` | 784 | Exported Function
-`public: static void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Copy(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> const * __ptr64,int,class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> * __ptr64,int,int)` | 497 | Exported Function
-`public: static int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::LastIndexOf(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> const * __ptr64,class Mig::CCatalogUser * __ptr64,int,int)` | 620 | Exported Function
-`public: static int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::IndexOf(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> const * __ptr64,class Mig::CCatalogUser * __ptr64,int,int)` | 606 | Exported Function
-`public: static int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::BinarySearch(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> * __ptr64,class Mig::CCatalogUser * __ptr64,struct UnBCL::IComparer<class Mig::CCatalogUser * __ptr64> * __ptr64)` | 458 | Exported Function
-`public: static void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Copy(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> const * __ptr64,class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> * __ptr64,int)` | 498 | Exported Function
-`public: static void __cdecl Mig::CIMGTransport::HeaderBuilder(unsigned char * __ptr64,unsigned int,int)` | 604 | Exported Function
-`public: static unsigned int __cdecl Mig::CCatalog::GetVersion(class UnBCL::String * __ptr64)` | 595 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::Flush(void) __ptr64` | 536 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::Dispose(void) __ptr64` | 519 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::Commit(__int64) __ptr64` | 489 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::AbandonCommited(void) __ptr64` | 432 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 755 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::set_Position(__int64) __ptr64` | 870 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::Close(void) __ptr64` | 483 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::SelectExternalTransport(int,struct IExternalStore * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 701 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::SelectConnectionPipeTransport(int,class Mig::CCxnPipe * __ptr64,class UnBCL::String * __ptr64,class Mig::CPlatform * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64,void * __ptr64) __ptr64` | 700 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::Release(void) __ptr64` | 676 | Exported Function
-`public: virtual void __cdecl Mig::CNonTrimableFileStream::AbandonCommited(void) __ptr64` | 431 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::SelectUNCTransport(int,class UnBCL::String * __ptr64,struct IMigStreamSizeRecorder * __ptr64,int,int,unsigned __int64,struct IMigHardLinkPolicy * __ptr64,class UnBCL::ArrayList<unsigned short> * __ptr64) __ptr64` | 704 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::SelectIMGTransport(int,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,struct IMigStreamSizeRecorder * __ptr64,int,int,unsigned __int64,struct ITransportUI * __ptr64) __ptr64` | 702 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::Close(void) __ptr64` | 485 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::Flush(void) __ptr64` | 539 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::Dispose(void) __ptr64` | 522 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::Commit(__int64) __ptr64` | 491 | Exported Function
-`public: virtual void __cdecl Mig::CUNCTransport::Close(int) __ptr64` | 487 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 758 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::set_Position(__int64) __ptr64` | 873 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::Close(void) __ptr64` | 486 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::Flush(void) __ptr64` | 538 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::Dispose(void) __ptr64` | 521 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::Commit(__int64) __ptr64` | 490 | Exported Function
-`public: virtual void __cdecl Mig::CSplitFileStream::AbandonCommited(void) __ptr64` | 433 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 757 | Exported Function
-`public: virtual void __cdecl Mig::CSimulationTrimableStream::set_Position(__int64) __ptr64` | 872 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransport::GetCapabilities(int * __ptr64,int * __ptr64,int * __ptr64,int * __ptr64) __ptr64` | 545 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransport::Close(int) __ptr64` | 479 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::ObjectToProcess(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,unsigned __int64,int) __ptr64` | 640 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransport::set_IsReopeningNeeded(int) __ptr64` | 863 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransport::ReopenDevice(void) __ptr64` | 681 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransport::OpenDevice(struct Mig::IDeviceInitializationData * __ptr64,int,int,int,int,unsigned __int64) __ptr64` | 641 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::ObjectStored(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,unsigned __int64,int) __ptr64` | 639 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::BeginMigrationUnit(struct IMigUnit * __ptr64,enum EXECUTION_PHASE) __ptr64` | 456 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::BeginContext(class UnBCL::String * __ptr64) __ptr64` | 455 | Exported Function
-`public: virtual void __cdecl Mig::CConnectionPipeTransportStreamProxy::CreateFileW(class UnBCL::String * __ptr64,unsigned long,int * __ptr64,int * __ptr64,struct ILocalProgress * __ptr64) __ptr64` | 501 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::ObjectProcessed(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,unsigned __int64,int,unsigned long,int,class UnBCL::String * __ptr64) __ptr64` | 638 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::EndMigrationUnit(void) __ptr64` | 530 | Exported Function
-`public: virtual void __cdecl Mig::CDeviceProgressAdapter::EndContext(class UnBCL::String * __ptr64) __ptr64` | 529 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransport::SetTransferDone(class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 707 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::AddObject(class Mig::CUserContext * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDataUnit * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64,struct ILocalProgress * __ptr64,int,int) __ptr64` | 441 | Exported Function
-`public: virtual void __cdecl Mig::CLibTransport::Close(int) __ptr64` | 481 | Exported Function
-`public: virtual void __cdecl Mig::CIMGTransport::SetTransferDone(class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 708 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::LockContext(class Mig::CUserContext * __ptr64) __ptr64` | 623 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::CreateSpecial(class UnBCL::String * __ptr64,class UnBCL::Stream * __ptr64) __ptr64` | 506 | Exported Function
-`public: virtual void __cdecl Mig::CMediaManager::CloseTransport(int) __ptr64` | 488 | Exported Function
-`public: virtual void __cdecl Mig::CIMGTransport::set_IsReopeningNeeded(int) __ptr64` | 864 | Exported Function
-`public: virtual void __cdecl Mig::CIMGTransport::Close(int) __ptr64` | 480 | Exported Function
-`public: virtual void __cdecl Mig::CHardLinkTransportStreamProxy::CreateFileW(class UnBCL::String * __ptr64,unsigned long,int * __ptr64,int * __ptr64,struct ILocalProgress * __ptr64) __ptr64` | 503 | Exported Function
-`public: virtual void __cdecl Mig::CExternalTransportStreamProxy::CreateFileW(class UnBCL::String * __ptr64,unsigned long,int * __ptr64,int * __ptr64,struct ILocalProgress * __ptr64) __ptr64` | 502 | Exported Function
-`public: virtual void __cdecl Mig::CIMGTransport::ReopenDevice(void) __ptr64` | 682 | Exported Function
-`public: virtual void __cdecl Mig::CIMGTransport::OpenDevice(struct Mig::IDeviceInitializationData * __ptr64,int,int,int,int,unsigned __int64) __ptr64` | 642 | Exported Function
-`public: virtual void __cdecl Mig::CIMGTransport::GetCapabilities(int * __ptr64,int * __ptr64,int * __ptr64,int * __ptr64) __ptr64` | 546 | Exported Function
-`public: virtual void __cdecl Mig::CUNCTransport::GetCapabilities(int * __ptr64,int * __ptr64,int * __ptr64,int * __ptr64) __ptr64` | 547 | Exported Function
-`public: void __cdecl Mig::CCatalogUserList::``vbase destructor'(void) __ptr64` | 421 | Exported Function
-`public: void __cdecl Mig::CCatalogUser::set_EndOffset(unsigned __int64) __ptr64` | 862 | Exported Function
-`public: void __cdecl Mig::CCatalogUser::set_BeginOffset(unsigned __int64) __ptr64` | 860 | Exported Function
-`public: void __cdecl Mig::CHardLinkTransportStreamProxy::``vbase destructor'(void) __ptr64` | 424 | Exported Function
-`public: void __cdecl Mig::CExternalTransportStreamProxy::``vbase destructor'(void) __ptr64` | 423 | Exported Function
-`public: void __cdecl Mig::CConnectionPipeTransportStreamProxy::``vbase destructor'(void) __ptr64` | 422 | Exported Function
-`public: void __cdecl Mig::CCatalogUser::``vbase destructor'(void) __ptr64` | 420 | Exported Function
-`public: void __cdecl Mig::CCatalog::Finalize(int) __ptr64` | 533 | Exported Function
-`public: void __cdecl Mig::CCatalog::DiscardUserID(class UnBCL::String * __ptr64) __ptr64` | 518 | Exported Function
+`get_StorePath` | 844 | Exported Function
+`get_TempPath` | 849 | Exported Function
+`get_EntryCount` | 783 | Exported Function
+`get_BeginOffset` | 767 | Exported Function
+`get_CurrentOffset` | 778 | Exported Function
+`CCatalogUser` | 184 | Exported Function
+`get_ObjectStoredCount` | 821 | Exported Function
+`get_LastStoredObjectIndex` | 808 | Exported Function
+`get_EndOffset` | 782 | Exported Function
+`CAlternateStreamHolder` | 140 | Exported Function
+`CExternalTransport` | 150 | Exported Function
+`CDeviceProgressAdapter` | 149 | Exported Function
+`CDeviceLockedObject` | 148 | Exported Function
+`CHardLinkTransportStreamProxy` | 153 | Exported Function
+`CExternalTransportStreamProxy` | 152 | Exported Function
+`CExternalTransportInitializationData` | 151 | Exported Function
+`CConnectionPipeTransportStreamProxy` | 147 | Exported Function
+`CCatalogLinearIterator` | 143 | Exported Function
+`CCatalogEntry` | 142 | Exported Function
+`CCatalog` | 141 | Exported Function
+`CCatalogUserList` | 146 | Exported Function
+`CCatalogUser` | 145 | Exported Function
+`CCatalogNavigator` | 144 | Exported Function
+`CLibrarian` | 138 | Exported Function
+`Clone` | 472 | Exported Function
+`Clone` | 478 | Exported Function
+`Clone` | 477 | Exported Function
+`OpenReadOnlyStream` | 649 | Exported Function
+`CDeviceProgressAdapter` | 644 | Exported Function
+`Clone` | 473 | Exported Function
+`Clone` | 476 | Exported Function
+`ToArray` | 743 | Exported Function
+`GetPhysicalFile` | 575 | Exported Function
+`CDeviceProgressAdapter` | 564 | Exported Function
+`Clone` | 475 | Exported Function
+`Clone` | 474 | Exported Function
+`IMigLocation` | 541 | Exported Function
+`OpenReadOnlyStream` | 650 | Exported Function
+`CFileSystemRootMapping` | 722 | Exported Function
+`CDataUnit` | 718 | Exported Function
+`get_Name` | 818 | Exported Function
+`get_Name` | 819 | Exported Function
+`ToString` | 745 | Exported Function
+`ToString` | 744 | Exported Function
+`CDeviceProgressAdapter` | 648 | Exported Function
+`CDeviceProgressAdapter` | 689 | Exported Function
+`CDeviceProgressAdapter` | 581 | Exported Function
+`CDeviceProgressAdapter` | 645 | Exported Function
+`CDeviceProgressAdapter` | 647 | Exported Function
+`OpenReadOnlyStream` | 652 | Exported Function
+`OpenReadOnlyStream` | 651 | Exported Function
+`get_Length` | 809 | Exported Function
+`get_MaxEmbeddedObjectSize` | 815 | Exported Function
+`get_MaxEmbeddedObjectSize` | 814 | Exported Function
+`get_Length` | 811 | Exported Function
+`SeekOrigin` | 696 | Exported Function
+`get_Position` | 830 | Exported Function
+`SeekOrigin` | 697 | Exported Function
+`ArrayList` | 136 | Exported Function
+`CFileLocation` | 137 | Exported Function
+`SendState` | 139 | Exported Function
+`get_Position` | 831 | Exported Function
+`get_Length` | 810 | Exported Function
+`ITrimableStream` | 135 | Exported Function
+`get_Position` | 832 | Exported Function
+`GetBuffer` | 543 | Exported Function
+`get_Item` | 805 | Exported Function
+`GetBuffer` | 542 | Exported Function
+`CDeviceProgressAdapter` | 563 | Exported Function
+`CDeviceProgressAdapter` | 562 | Exported Function
+`CDeviceProgressAdapter` | 574 | Exported Function
+`get_Item` | 804 | Exported Function
+`get_Position` | 833 | Exported Function
+`get_Length` | 812 | Exported Function
+`SeekOrigin` | 698 | Exported Function
+`IMigLocation` | 570 | Exported Function
+`get_MaxEmbeddedObjectSize` | 816 | Exported Function
+`SeekOrigin` | 699 | Exported Function
+`CCatalogUser` | 183 | Exported Function
+`Nullify` | 635 | Exported Function
+`SendState` | 199 | Exported Function
+`Nullify` | 637 | Exported Function
+`ArrayList` | 196 | Exported Function
+`Nullify` | 634 | Exported Function
+`CFileLocation` | 197 | Exported Function
+`CLibrarian` | 198 | Exported Function
+`CCatalogUserList` | 194 | Exported Function
+`CCatalogUserList` | 193 | Exported Function
+`CCatalogUser` | 192 | Exported Function
+`Nullify` | 636 | Exported Function
+`OperatorNew` | 188 | Exported Function
+`OperatorNew` | 187 | Exported Function
+`Nullify` | 633 | Exported Function
+`get_PhysicalPath` | 829 | Exported Function
+`get_Name` | 817 | Exported Function
+`get_UserID` | 851 | Exported Function
+`ToString` | 750 | Exported Function
+`FindObjectFilePath` | 534 | Exported Function
+`get_TempPath` | 847 | Exported Function
+`get_StorageLocation` | 840 | Exported Function
+`GetReadOnlyStream` | 579 | Exported Function
+`get_EmbeddedStream` | 780 | Exported Function
+`ITrimableStream` | 195 | Exported Function
+`get_FileName` | 787 | Exported Function
+`OpenObject` | 646 | Exported Function
+`get_EmbeddedStream` | 781 | Exported Function
+`CCatalogUser` | 185 | Exported Function
+`Steal` | 717 | Exported Function
+`operator` | 257 | Exported Function
+`get_SecurityInfo` | 838 | Exported Function
+`get_Attributes` | 763 | Exported Function
+`CCatalogUser` | 186 | Exported Function
+`get_P` | 828 | Exported Function
+`CUNCTransportInitializationData` | 232 | Exported Function
+`CUNCTransportInitializationData` | 231 | Exported Function
+`CUNCTransport` | 230 | Exported Function
+`operator` | 262 | Exported Function
+`SendState` | 242 | Exported Function
+`SendState` | 241 | Exported Function
+`CCatalogUser` | 171 | Exported Function
+`IDevice` | 172 | Exported Function
+`Steal` | 714 | Exported Function
+`operator` | 254 | Exported Function
+`CCatalogUser` | 191 | Exported Function
+`CCatalogEntry` | 190 | Exported Function
+`CCatalogEntry` | 189 | Exported Function
+`get_P` | 825 | Exported Function
+`operator` | 255 | Exported Function
+`get_P` | 826 | Exported Function
+`operator` | 260 | Exported Function
+`get_HardLinkDriveLetterExclusion` | 789 | Exported Function
+`operator` | 259 | Exported Function
+`Steal` | 715 | Exported Function
+`get_Position` | 834 | Exported Function
+`IStoreInterface` | 238 | Exported Function
+`IStoreInterface` | 237 | Exported Function
+`get_SegmentAliasLocation` | 839 | Exported Function
+`operator` | 258 | Exported Function
+`ITrimableStream` | 240 | Exported Function
+`ITrimableStream` | 239 | Exported Function
+`get_OriginalLocation` | 823 | Exported Function
+`IDevice` | 234 | Exported Function
+`IDevice` | 233 | Exported Function
+`IMigLocation` | 569 | Exported Function
+`get_AliasLocation` | 761 | Exported Function
+`IDeviceInitializationData` | 236 | Exported Function
+`IDeviceInitializationData` | 235 | Exported Function
+`get_P` | 824 | Exported Function
+`CCatalogUser` | 179 | Exported Function
+`IDevice` | 178 | Exported Function
+`IDevice` | 177 | Exported Function
+`IDevice` | 182 | Exported Function
+`IDevice` | 181 | Exported Function
+`CCatalogUser` | 180 | Exported Function
+`get_AlternateStreams` | 762 | Exported Function
+`CCatalogUser` | 173 | Exported Function
+`Steal` | 713 | Exported Function
+`operator` | 253 | Exported Function
+`IDevice` | 176 | Exported Function
+`IDevice` | 175 | Exported Function
+`CCatalogUser` | 174 | Exported Function
+`get_DeleteWhenDone` | 779 | Exported Function
+`Invariant` | 612 | Exported Function
+`MoveNext` | 626 | Exported Function
+`Stream` | 735 | Exported Function
+`Stream` | 671 | Exported Function
+`String` | 618 | Exported Function
+`get_ContextSpecific` | 774 | Exported Function
+`IMigLocation` | 443 | Exported Function
+`CAlternateStreamHolder` | 439 | Exported Function
+`IMigLocation` | 438 | Exported Function
+`get_ContainsEmbeddedStream` | 773 | Exported Function
+`IMigLocation` | 525 | Exported Function
+`IMigLocation` | 524 | Exported Function
+`HeaderValidator` | 605 | Exported Function
+`get_HardLinkPolicy` | 790 | Exported Function
+`get_ExternalStore` | 786 | Exported Function
+`CCatalogUser` | 711 | Exported Function
+`get_TransportUI` | 850 | Exported Function
+`get_EstimationRecorder` | 785 | Exported Function
+`get_EstimationRecorder` | 784 | Exported Function
+`CCatalogUser` | 497 | Exported Function
+`CCatalogUser` | 620 | Exported Function
+`CCatalogUser` | 606 | Exported Function
+`CCatalogUser` | 458 | Exported Function
+`CCatalogUser` | 498 | Exported Function
+`HeaderBuilder` | 604 | Exported Function
+`String` | 595 | Exported Function
+`Flush` | 536 | Exported Function
+`Dispose` | 519 | Exported Function
+`Commit` | 489 | Exported Function
+`AbandonCommited` | 432 | Exported Function
+`Write` | 755 | Exported Function
+`set_Position` | 870 | Exported Function
+`Close` | 483 | Exported Function
+`String` | 701 | Exported Function
+`CDeviceProgressAdapter` | 700 | Exported Function
+`Release` | 676 | Exported Function
+`AbandonCommited` | 431 | Exported Function
+`ArrayList` | 704 | Exported Function
+`String` | 702 | Exported Function
+`Close` | 485 | Exported Function
+`Flush` | 539 | Exported Function
+`Dispose` | 522 | Exported Function
+`Commit` | 491 | Exported Function
+`Close` | 487 | Exported Function
+`Write` | 758 | Exported Function
+`set_Position` | 873 | Exported Function
+`Close` | 486 | Exported Function
+`Flush` | 538 | Exported Function
+`Dispose` | 521 | Exported Function
+`Commit` | 490 | Exported Function
+`AbandonCommited` | 433 | Exported Function
+`Write` | 757 | Exported Function
+`set_Position` | 872 | Exported Function
+`GetCapabilities` | 545 | Exported Function
+`Close` | 479 | Exported Function
+`String` | 640 | Exported Function
+`set_IsReopeningNeeded` | 863 | Exported Function
+`ReopenDevice` | 681 | Exported Function
+`IDeviceInitializationData` | 641 | Exported Function
+`String` | 639 | Exported Function
+`BeginMigrationUnit` | 456 | Exported Function
+`String` | 455 | Exported Function
+`String` | 501 | Exported Function
+`String` | 638 | Exported Function
+`EndMigrationUnit` | 530 | Exported Function
+`String` | 529 | Exported Function
+`CDeviceProgressAdapter` | 707 | Exported Function
+`IMigLocation` | 441 | Exported Function
+`Close` | 481 | Exported Function
+`CDeviceProgressAdapter` | 708 | Exported Function
+`CUserContext` | 623 | Exported Function
+`Stream` | 506 | Exported Function
+`CloseTransport` | 488 | Exported Function
+`set_IsReopeningNeeded` | 864 | Exported Function
+`Close` | 480 | Exported Function
+`String` | 503 | Exported Function
+`String` | 502 | Exported Function
+`ReopenDevice` | 682 | Exported Function
+`IDeviceInitializationData` | 642 | Exported Function
+`GetCapabilities` | 546 | Exported Function
+`GetCapabilities` | 547 | Exported Function
+`CCatalogUserList` | 421 | Exported Function
+`set_EndOffset` | 862 | Exported Function
+`set_BeginOffset` | 860 | Exported Function
+`CHardLinkTransportStreamProxy` | 424 | Exported Function
+`CExternalTransportStreamProxy` | 423 | Exported Function
+`CConnectionPipeTransportStreamProxy` | 422 | Exported Function
+`CCatalogUser` | 420 | Exported Function
+`Finalize` | 533 | Exported Function
+`String` | 518 | Exported Function
 `public: void __cdecl CSimulationTableStream::``vbase destructor'(void) __ptr64` | 428 | Exported Function
-`public: void __cdecl Mig::CCatalogNavigator::``vbase destructor'(void) __ptr64` | 419 | Exported Function
-`public: void __cdecl Mig::CCatalogEntry::``vbase destructor'(void) __ptr64` | 418 | Exported Function
-`public: void __cdecl Mig::CCatalog::PrepareUserID(class UnBCL::String * __ptr64) __ptr64` | 655 | Exported Function
-`public: void __cdecl Mig::CLibrarian::AddObject(class UnBCL::Stream * __ptr64,class UnBCL::String * __ptr64,struct ILocalProgress * __ptr64,__int64 * __ptr64) __ptr64` | 440 | Exported Function
-`public: void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbase destructor'(void) __ptr64` | 416 | Exported Function
-`public: void __cdecl Mig::SendState::set_Position(enum Mig::SendState::SendStateEnum) __ptr64` | 874 | Exported Function
-`public: void __cdecl Mig::SendState::set_ObjectStoredCount(unsigned __int64) __ptr64` | 869 | Exported Function
-`public: void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::ThawHash(void) __ptr64` | 742 | Exported Function
-`public: void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::FreezeHash(void) __ptr64` | 540 | Exported Function
-`public: void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vbase destructor'(void) __ptr64` | 417 | Exported Function
-`public: void __cdecl Mig::SendState::set_LastStoredObjectIndex(unsigned __int64) __ptr64` | 868 | Exported Function
-`public: void __cdecl Mig::CMediaManagerStreamProxy::``vbase destructor'(void) __ptr64` | 426 | Exported Function
-`public: void __cdecl Mig::CMediaManager::``vbase destructor'(void) __ptr64` | 425 | Exported Function
-`public: void __cdecl Mig::CLibrarian::Close(int) __ptr64` | 482 | Exported Function
-`public: void __cdecl Mig::CSplitFileStream::``vbase destructor'(void) __ptr64` | 430 | Exported Function
-`public: void __cdecl Mig::CSimulationTrimableStream::``vbase destructor'(void) __ptr64` | 429 | Exported Function
-`public: void __cdecl Mig::CNonTrimableFileStream::``vbase destructor'(void) __ptr64` | 427 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::CopyTo(class UnBCL::Array<class Mig::CCatalogUser * __ptr64> * __ptr64,int)const __ptr64` | 499 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Clear(void) __ptr64` | 470 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::AddRange(struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> const * __ptr64) __ptr64` | 444 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::RemoveAt(int) __ptr64` | 679 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Remove(class Mig::CCatalogUser * __ptr64) __ptr64` | 677 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Insert(int,class Mig::CCatalogUser * __ptr64) __ptr64` | 610 | Exported Function
-`public: virtual void __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 729 | Exported Function
-`public: virtual void __cdecl Mig::CUNCTransport::set_IsReopeningNeeded(int) __ptr64` | 865 | Exported Function
-`public: virtual void __cdecl Mig::CUNCTransport::ReopenDevice(void) __ptr64` | 683 | Exported Function
-`public: virtual void __cdecl Mig::CUNCTransport::OpenDevice(struct Mig::IDeviceInitializationData * __ptr64,int,int,int,int,unsigned __int64) __ptr64` | 643 | Exported Function
-`public: virtual void __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 725 | Exported Function
-`public: virtual void __cdecl Mig::IDevice::InvalidSourceContent(unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 611 | Exported Function
-`public: virtual void __cdecl Mig::CUNCTransport::SetTransferDone(class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 709 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::RemoveTail(void) __ptr64` | 680 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Remove(unsigned int) __ptr64` | 678 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > * __ptr64,int)const __ptr64` | 500 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Clear(void) __ptr64` | 471 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::set_Item(unsigned int,struct Mig::IDevice * __ptr64) __ptr64` | 867 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::set_AutoDeleteValue(int) __ptr64` | 859 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::set_AutoDeleteKey(int) __ptr64` | 858 | Exported Function
-`public: virtual void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Add(unsigned int,struct Mig::IDevice * __ptr64) __ptr64` | 435 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::set_AutoDelete(int) __ptr64` | 857 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Reverse(void) __ptr64` | 691 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Resize(int,int) __ptr64` | 685 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Sort(void) __ptr64` | 712 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::set_Item(int,class Mig::CCatalogUser * __ptr64) __ptr64` | 866 | Exported Function
-`public: virtual void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::set_Capacity(int) __ptr64` | 861 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogUserList::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 732 | Exported Function
-`public: virtual int __cdecl Mig::CExternalTransportStreamProxy::CanCreateFile(void) __ptr64` | 466 | Exported Function
-`public: virtual int __cdecl Mig::CExternalTransport::get_IsReopeningNeeded(void) __ptr64` | 800 | Exported Function
-`public: virtual int __cdecl Mig::CConnectionPipeTransportStreamProxy::CanCreateFile(void) __ptr64` | 465 | Exported Function
-`public: virtual int __cdecl Mig::CLibrarian::get_ReadOnly(void) __ptr64` | 835 | Exported Function
-`public: virtual int __cdecl Mig::CIMGTransport::get_IsReopeningNeeded(void) __ptr64` | 801 | Exported Function
-`public: virtual int __cdecl Mig::CHardLinkTransportStreamProxy::CanCreateFile(void) __ptr64` | 467 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogUserList::GetVersionId(void)const __ptr64` | 601 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::MoveToFirstChildNode(void) __ptr64` | 628 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::MoveToFirstChildLeaf(void) __ptr64` | 627 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::get_IsRoot(void) __ptr64` | 803 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogUser::GetVersionId(void)const __ptr64` | 600 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::MoveToParent(void) __ptr64` | 631 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::MoveToNext(void) __ptr64` | 630 | Exported Function
-`public: virtual int __cdecl Mig::CMediaManager::DoesObjectExist(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64) __ptr64` | 526 | Exported Function
-`public: virtual int __cdecl Mig::CSplitFileStream::get_CanWrite(void)const __ptr64` | 771 | Exported Function
-`public: virtual int __cdecl Mig::CSimulationTrimableStream::ReadByte(void) __ptr64` | 664 | Exported Function
-`public: virtual int __cdecl Mig::CSimulationTrimableStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 660 | Exported Function
-`public: virtual int __cdecl Mig::CUNCTransport::get_IsReopeningNeeded(void) __ptr64` | 802 | Exported Function
-`public: virtual int __cdecl Mig::CSplitFileStream::ReadByte(void) __ptr64` | 665 | Exported Function
-`public: virtual int __cdecl Mig::CSplitFileStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 661 | Exported Function
-`public: virtual int __cdecl Mig::CSimulationTrimableStream::get_CanWrite(void)const __ptr64` | 770 | Exported Function
-`public: virtual int __cdecl Mig::CMediaManagerStreamProxy::IsPhysicalFile(void) __ptr64` | 614 | Exported Function
-`public: virtual int __cdecl Mig::CMediaManager::Send(class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 705 | Exported Function
-`public: virtual int __cdecl Mig::CMediaManager::IsTransportSelected(void) __ptr64` | 617 | Exported Function
-`public: virtual int __cdecl Mig::CNonTrimableFileStream::ReadByte(void) __ptr64` | 662 | Exported Function
-`public: virtual int __cdecl Mig::CNonTrimableFileStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 658 | Exported Function
-`public: virtual int __cdecl Mig::CNonTrimableFileStream::get_CanWrite(void)const __ptr64` | 768 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::IDevice::StoreObjectDirect(class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,class Mig::CFileSystemRootMapping * __ptr64) __ptr64` | 724 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::IDevice::StoreObject(class UnBCL::Stream * __ptr64,class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,struct ILocalProgress * __ptr64,int,int,int) __ptr64` | 721 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransportInitializationData::ToString(void)const __ptr64` | 749 | Exported Function
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::GetTypeName(void)const __ptr64` | 587 | Exported Function
-`public: virtual class UnBCL::String const * __ptr64 __cdecl Mig::CCatalogUserList::GetTypeName(void)const __ptr64` | 591 | Exported Function
-`public: virtual class UnBCL::String const * __ptr64 __cdecl Mig::CCatalogUser::GetTypeName(void)const __ptr64` | 590 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::ToString(void)const __ptr64` | 748 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CLibTransportInitializationData::ToString(void)const __ptr64` | 747 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CLibTransport::StoreObject(class UnBCL::Stream * __ptr64,class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,struct ILocalProgress * __ptr64,int,int,int) __ptr64` | 719 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CIMGTransport::ToString(void)const __ptr64` | 746 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::StoreObjectDirect(class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,class Mig::CFileSystemRootMapping * __ptr64) __ptr64` | 723 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::StoreObject(class UnBCL::Stream * __ptr64,class UnBCL::String * __ptr64,class Mig::CDataUnit * __ptr64,struct ILocalProgress * __ptr64,int,int,int) __ptr64` | 720 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::get_Name(void) __ptr64` | 820 | Exported Function
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::GetTypeName(void)const __ptr64` | 588 | Exported Function
-`public: virtual int __cdecl CSimulationTableStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 659 | Exported Function
-`public: virtual int __cdecl CSimulationTableStream::get_CanWrite(void)const __ptr64` | 769 | Exported Function
-`public: virtual enum PROBLEM_ANSWER __cdecl Mig::CDeviceProgressAdapter::ProblemEncountered(struct IMigEnvironment * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,enum PROBLEM_TYPE,unsigned long,int) __ptr64` | 656 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::get_IsRealObject(void) __ptr64` | 799 | Exported Function
-`public: virtual int __cdecl Mig::CCatalogNavigator::get_IsLeaf(void) __ptr64` | 796 | Exported Function
-`public: virtual int __cdecl CSimulationTableStream::ReadByte(void) __ptr64` | 663 | Exported Function
-`public: virtual enum MIGSTATUS __cdecl Mig::CUNCTransport::TestMediaEncoding(struct Mig::IDeviceInitializationData * __ptr64,int,unsigned __int64) __ptr64` | 739 | Exported Function
-`public: virtual enum MIGSTATUS __cdecl Mig::CExternalTransport::TestMediaEncoding(struct Mig::IDeviceInitializationData * __ptr64,int,unsigned __int64) __ptr64` | 737 | Exported Function
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 586 | Exported Function
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::GetTypeName(void)const __ptr64` | 589 | Exported Function
-`public: virtual enum MIGSTATUS __cdecl Mig::CMediaManager::TestUNCMediaEncoding(class UnBCL::String * __ptr64,unsigned __int64,struct IMigHardLinkPolicy * __ptr64) __ptr64` | 741 | Exported Function
-`public: virtual enum MIGSTATUS __cdecl Mig::CMediaManager::TestIMGMediaEncoding(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,unsigned __int64,struct ITransportUI * __ptr64) __ptr64` | 736 | Exported Function
-`public: virtual enum MIGSTATUS __cdecl Mig::CIMGTransport::TestMediaEncoding(struct Mig::IDeviceInitializationData * __ptr64,int,unsigned __int64) __ptr64` | 738 | Exported Function
-`public: virtual int __cdecl Mig::CUNCTransport::IsPhysicalFile(unsigned short const * __ptr64) __ptr64` | 615 | Exported Function
-`public: virtual struct UnBCL::IDictionaryEnumerator<unsigned int,struct Mig::IDevice * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::GetDictionaryEnumerator(void)const __ptr64` | 549 | Exported Function
-`public: virtual struct UnBCL::ICollection<unsigned int> * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_Keys(void)const __ptr64` | 807 | Exported Function
-`public: virtual struct UnBCL::ICollection<struct Mig::IDevice * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_Values(void)const __ptr64` | 852 | Exported Function
-`public: virtual unsigned int __cdecl Mig::CExternalTransport::get_ID(void) __ptr64` | 791 | Exported Function
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::GetEnumerator(void)const __ptr64` | 554 | Exported Function
-`public: virtual struct UnBCL::IEnumerator<class Mig::CCatalogUser * __ptr64> * __ptr64 __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::GetEnumerator(void)const __ptr64` | 553 | Exported Function
-`public: virtual struct Mig::IStreamProxy * __ptr64 __cdecl Mig::IDevice::GetProxyDirect(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 578 | Exported Function
-`public: virtual struct Mig::IMigLocation * __ptr64 __cdecl Mig::CCatalogNavigator::get_Location(void) __ptr64` | 813 | Exported Function
-`public: virtual struct Mig::IDevice * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_Item(unsigned int)const __ptr64` | 806 | Exported Function
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 596 | Exported Function
-`public: virtual struct Mig::IStreamProxy * __ptr64 __cdecl Mig::CUNCTransport::GetProxyDirect(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 577 | Exported Function
-`public: virtual struct Mig::IStreamProxy * __ptr64 __cdecl Mig::CExternalTransport::GetProxyDirect(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 576 | Exported Function
-`public: virtual struct Mig::ISecurityInfo * __ptr64 __cdecl Mig::CMediaManager::GetSecurityInformation(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 580 | Exported Function
-`public: virtual unsigned int __cdecl Mig::CIMGTransport::get_ID(void) __ptr64` | 792 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogNavigator::MoveToRoot(void) __ptr64` | 632 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogEntry::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 730 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogEntry::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 726 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogUserList::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 728 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogUser::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 731 | Exported Function
-`public: virtual void __cdecl Mig::CCatalogUser::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 727 | Exported Function
-`public: virtual void __cdecl CSimulationTableStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 756 | Exported Function
-`public: virtual void __cdecl CSimulationTableStream::Close(void) __ptr64` | 484 | Exported Function
-`public: virtual void * __ptr64 __cdecl Mig::CDeviceProgressAdapter::GetCancelEvent(void) __ptr64` | 544 | Exported Function
-`public: virtual unsigned int __cdecl Mig::CUNCTransport::get_ID(void) __ptr64` | 793 | Exported Function
-`public: virtual void __cdecl CSimulationTableStream::set_Position(__int64) __ptr64` | 871 | Exported Function
-`public: virtual void __cdecl CSimulationTableStream::Flush(void) __ptr64` | 537 | Exported Function
-`public: virtual void __cdecl CSimulationTableStream::Dispose(void) __ptr64` | 520 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_Count(void)const __ptr64` | 775 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_Capacity(void)const __ptr64` | 772 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_AutoDelete(void)const __ptr64` | 764 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::IndexOf(class Mig::CCatalogUser * __ptr64)const __ptr64` | 607 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_IsReadOnly(void)const __ptr64` | 797 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::get_IsFixedSize(void)const __ptr64` | 794 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 531 | Exported Function
-`public: virtual int __cdecl Mig::IDevice::ShouldUseInPlaceTransport(unsigned short const * __ptr64) __ptr64` | 710 | Exported Function
-`public: virtual int __cdecl Mig::IDevice::IsPhysicalFile(unsigned short const * __ptr64) __ptr64` | 616 | Exported Function
-`public: virtual int __cdecl Mig::IDevice::HasInvalidSourceContent(unsigned short const * __ptr64) __ptr64` | 602 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Contains(class Mig::CCatalogUser * __ptr64 const)const __ptr64` | 493 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::BinarySearch(class Mig::CCatalogUser * __ptr64,struct UnBCL::IComparer<class Mig::CCatalogUser * __ptr64> * __ptr64) __ptr64` | 459 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::Add(class Mig::CCatalogUser * __ptr64) __ptr64` | 434 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::IndexOf(class Mig::CCatalogUser * __ptr64,int,int)const __ptr64` | 608 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Retrieve(unsigned int,struct Mig::IDevice * __ptr64 & __ptr64)const __ptr64` | 686 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_IsReadOnly(void)const __ptr64` | 798 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_IsFixedSize(void)const __ptr64` | 795 | Exported Function
-`public: virtual int __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::GetVersionId(void)const __ptr64` | 599 | Exported Function
-`public: virtual int __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::GetVersionId(void)const __ptr64` | 598 | Exported Function
-`public: virtual int __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::GetVersionId(void)const __ptr64` | 597 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_Count(void)const __ptr64` | 776 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::ContainsKey(unsigned int)const __ptr64` | 495 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Contains(unsigned int)const __ptr64` | 494 | Exported Function
-`public: virtual int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::LastIndexOf(class Mig::CCatalogUser * __ptr64,int,int)const __ptr64` | 621 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_AutoDeleteValue(void)const __ptr64` | 766 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::get_AutoDeleteKey(void)const __ptr64` | 765 | Exported Function
-`public: virtual int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::ContainsValue(struct Mig::IDevice * __ptr64)const __ptr64` | 496 | Exported Function
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 282 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::``vftable'{for ``UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >'}` | 290 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::``vftable'{for ``UnBCL::Object'}` | 292 | Exported Function
-`const UnBCL::SmartPtr<class Mig::CLibrarian>::``vftable'` | 296 | Exported Function
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >'}` | 281 | Exported Function
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 283 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::``vftable'{for ``UnBCL::ISerializable'}` | 291 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::``vftable'{for ``UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >'}` | 284 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::``vftable'{for ``UnBCL::Object'}` | 286 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::``vftable'{for ``UnBCL::ISerializable'}` | 285 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::``vftable'{for ``UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >'}` | 287 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::``vftable'{for ``UnBCL::Object'}` | 289 | Exported Function
-`const UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::``vftable'{for ``UnBCL::ISerializable'}` | 288 | Exported Function
-`const UnBCL::SmartPtr<class Mig::SendState>::``vftable'` | 297 | Exported Function
-`private: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CCatalog::ReadEntryRaw(unsigned int,int,unsigned long & __ptr64) __ptr64` | 669 | Exported Function
-`private: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CCatalog::ReadEntry(union _ULARGE_INTEGER & __ptr64,int & __ptr64,int) __ptr64` | 667 | Exported Function
-`private: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CCatalog::GetEntry(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,class Mig::CCatalogTreeData const & __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64) __ptr64` | 550 | Exported Function
-`private: class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64 __cdecl Mig::CCatalog::AddObjectNode(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 442 | Exported Function
-`private: class Mig::CCatalogUserList * __ptr64 __cdecl Mig::CCatalog::LoadHeader(int,union _ULARGE_INTEGER & __ptr64) __ptr64` | 622 | Exported Function
-`private: class Mig::CCatalogNavigator * __ptr64 __cdecl Mig::CCatalog::GetNavigator(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,class Mig::CCatalogTreeData const & __ptr64) __ptr64` | 566 | Exported Function
-`private: __int64 __cdecl Mig::CCatalog::SerializeToBuffer(struct UnBCL::ISerializable const * __ptr64) __ptr64` | 706 | Exported Function
-`const UnBCL::SmartPtr<struct Mig::ITrimableStream>::``vftable'` | 293 | Exported Function
-`const UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::``vftable'` | 294 | Exported Function
-`const UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::``vftable'` | 295 | Exported Function
-`private: __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::ArrayList<class Mig::CCatalogUser * __ptr64>(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 1 | Exported Function
-`private: __cdecl Mig::CCatalogLinearIterator::CCatalogLinearIterator(class Mig::CCatalog & __ptr64) __ptr64` | 55 | Exported Function
+`CCatalogNavigator` | 419 | Exported Function
+`CCatalogEntry` | 418 | Exported Function
+`String` | 655 | Exported Function
+`String` | 440 | Exported Function
+`CCatalogUser` | 416 | Exported Function
+`SendStateEnum` | 874 | Exported Function
+`set_ObjectStoredCount` | 869 | Exported Function
+`ThawHash` | 742 | Exported Function
+`FreezeHash` | 540 | Exported Function
+`IDevice` | 417 | Exported Function
+`set_LastStoredObjectIndex` | 868 | Exported Function
+`CMediaManagerStreamProxy` | 426 | Exported Function
+`CMediaManager` | 425 | Exported Function
+`Close` | 482 | Exported Function
+`CSplitFileStream` | 430 | Exported Function
+`CSimulationTrimableStream` | 429 | Exported Function
+`CNonTrimableFileStream` | 427 | Exported Function
+`CCatalogUser` | 499 | Exported Function
+`Clear` | 470 | Exported Function
+`CCatalogUser` | 444 | Exported Function
+`RemoveAt` | 679 | Exported Function
+`CCatalogUser` | 677 | Exported Function
+`CCatalogUser` | 610 | Exported Function
+`SerializationStream` | 729 | Exported Function
+`set_IsReopeningNeeded` | 865 | Exported Function
+`ReopenDevice` | 683 | Exported Function
+`IDeviceInitializationData` | 643 | Exported Function
+`SerializationStream` | 725 | Exported Function
+`InvalidSourceContent` | 611 | Exported Function
+`CDeviceProgressAdapter` | 709 | Exported Function
+`RemoveTail` | 680 | Exported Function
+`Remove` | 678 | Exported Function
+`IDevice` | 500 | Exported Function
+`Clear` | 471 | Exported Function
+`IDevice` | 867 | Exported Function
+`set_AutoDeleteValue` | 859 | Exported Function
+`set_AutoDeleteKey` | 858 | Exported Function
+`IDevice` | 435 | Exported Function
+`set_AutoDelete` | 857 | Exported Function
+`Reverse` | 691 | Exported Function
+`Resize` | 685 | Exported Function
+`Sort` | 712 | Exported Function
+`CCatalogUser` | 866 | Exported Function
+`set_Capacity` | 861 | Exported Function
+`SerializationStream` | 732 | Exported Function
+`CanCreateFile` | 466 | Exported Function
+`get_IsReopeningNeeded` | 800 | Exported Function
+`CanCreateFile` | 465 | Exported Function
+`get_ReadOnly` | 835 | Exported Function
+`get_IsReopeningNeeded` | 801 | Exported Function
+`CanCreateFile` | 467 | Exported Function
+`GetVersionId` | 601 | Exported Function
+`MoveToFirstChildNode` | 628 | Exported Function
+`MoveToFirstChildLeaf` | 627 | Exported Function
+`get_IsRoot` | 803 | Exported Function
+`GetVersionId` | 600 | Exported Function
+`MoveToParent` | 631 | Exported Function
+`MoveToNext` | 630 | Exported Function
+`IMigLocation` | 526 | Exported Function
+`get_CanWrite` | 771 | Exported Function
+`ReadByte` | 664 | Exported Function
+`Read` | 660 | Exported Function
+`get_IsReopeningNeeded` | 802 | Exported Function
+`ReadByte` | 665 | Exported Function
+`Read` | 661 | Exported Function
+`get_CanWrite` | 770 | Exported Function
+`IsPhysicalFile` | 614 | Exported Function
+`CDeviceProgressAdapter` | 705 | Exported Function
+`IsTransportSelected` | 617 | Exported Function
+`ReadByte` | 662 | Exported Function
+`Read` | 658 | Exported Function
+`get_CanWrite` | 768 | Exported Function
+`CFileSystemRootMapping` | 724 | Exported Function
+`CDataUnit` | 721 | Exported Function
+`ToString` | 749 | Exported Function
+`GetTypeName` | 587 | Exported Function
+`GetTypeName` | 591 | Exported Function
+`GetTypeName` | 590 | Exported Function
+`ToString` | 748 | Exported Function
+`ToString` | 747 | Exported Function
+`CDataUnit` | 719 | Exported Function
+`ToString` | 746 | Exported Function
+`CFileSystemRootMapping` | 723 | Exported Function
+`CDataUnit` | 720 | Exported Function
+`get_Name` | 820 | Exported Function
+`GetTypeName` | 588 | Exported Function
+`Read` | 659 | Exported Function
+`get_CanWrite` | 769 | Exported Function
+`String` | 656 | Exported Function
+`get_IsRealObject` | 799 | Exported Function
+`get_IsLeaf` | 796 | Exported Function
+`ReadByte` | 663 | Exported Function
+`IDeviceInitializationData` | 739 | Exported Function
+`IDeviceInitializationData` | 737 | Exported Function
+`GetTypeName` | 586 | Exported Function
+`GetTypeName` | 589 | Exported Function
+`String` | 741 | Exported Function
+`String` | 736 | Exported Function
+`IDeviceInitializationData` | 738 | Exported Function
+`IsPhysicalFile` | 615 | Exported Function
+`GetDictionaryEnumerator` | 549 | Exported Function
+`get_Keys` | 807 | Exported Function
+`get_Values` | 852 | Exported Function
+`get_ID` | 791 | Exported Function
+`GetEnumerator` | 554 | Exported Function
+`GetEnumerator` | 553 | Exported Function
+`CDeviceProgressAdapter` | 578 | Exported Function
+`get_Location` | 813 | Exported Function
+`get_Item` | 806 | Exported Function
+`GetVersionId` | 596 | Exported Function
+`CDeviceProgressAdapter` | 577 | Exported Function
+`CDeviceProgressAdapter` | 576 | Exported Function
+`IMigLocation` | 580 | Exported Function
+`get_ID` | 792 | Exported Function
+`MoveToRoot` | 632 | Exported Function
+`SerializationStream` | 730 | Exported Function
+`SerializationStream` | 726 | Exported Function
+`SerializationStream` | 728 | Exported Function
+`SerializationStream` | 731 | Exported Function
+`SerializationStream` | 727 | Exported Function
+`Write` | 756 | Exported Function
+`Close` | 484 | Exported Function
+`GetCancelEvent` | 544 | Exported Function
+`get_ID` | 793 | Exported Function
+`set_Position` | 871 | Exported Function
+`Flush` | 537 | Exported Function
+`Dispose` | 520 | Exported Function
+`get_Count` | 775 | Exported Function
+`get_Capacity` | 772 | Exported Function
+`get_AutoDelete` | 764 | Exported Function
+`CCatalogUser` | 607 | Exported Function
+`get_IsReadOnly` | 797 | Exported Function
+`get_IsFixedSize` | 794 | Exported Function
+`Object` | 531 | Exported Function
+`ShouldUseInPlaceTransport` | 710 | Exported Function
+`IsPhysicalFile` | 616 | Exported Function
+`HasInvalidSourceContent` | 602 | Exported Function
+`CCatalogUser` | 493 | Exported Function
+`CCatalogUser` | 459 | Exported Function
+`CCatalogUser` | 434 | Exported Function
+`CCatalogUser` | 608 | Exported Function
+`IDevice` | 686 | Exported Function
+`get_IsReadOnly` | 798 | Exported Function
+`get_IsFixedSize` | 795 | Exported Function
+`GetVersionId` | 599 | Exported Function
+`GetVersionId` | 598 | Exported Function
+`GetVersionId` | 597 | Exported Function
+`get_Count` | 776 | Exported Function
+`ContainsKey` | 495 | Exported Function
+`Contains` | 494 | Exported Function
+`CCatalogUser` | 621 | Exported Function
+`get_AutoDeleteValue` | 766 | Exported Function
+`get_AutoDeleteKey` | 765 | Exported Function
+`IDevice` | 496 | Exported Function
+`ISerializable` | 282 | Exported Function
+`CCatalogUserList` | 290 | Exported Function
+`Object` | 292 | Exported Function
+`CLibrarian` | 296 | Exported Function
+`OperatorNew` | 281 | Exported Function
+`Object` | 283 | Exported Function
+`ISerializable` | 291 | Exported Function
+`CCatalogEntry` | 284 | Exported Function
+`Object` | 286 | Exported Function
+`ISerializable` | 285 | Exported Function
+`CCatalogUser` | 287 | Exported Function
+`Object` | 289 | Exported Function
+`ISerializable` | 288 | Exported Function
+`SendState` | 297 | Exported Function
+`ReadEntryRaw` | 669 | Exported Function
+`ReadEntry` | 667 | Exported Function
+`IMigLocation` | 550 | Exported Function
+`IMigLocation` | 442 | Exported Function
+`LoadHeader` | 622 | Exported Function
+`CCatalogTreeData` | 566 | Exported Function
+`ISerializable` | 706 | Exported Function
+`ITrimableStream` | 293 | Exported Function
+`ArrayList` | 294 | Exported Function
+`CFileLocation` | 295 | Exported Function
+`CCatalogUser` | 1 | Exported Function
+`CCatalog` | 55 | Exported Function
 `DllMain` | 876 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbtable'{for ``UnBCL::IList<class Mig::CCatalogUser * __ptr64>'}` | 363 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>'}` | 362 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>'}` | 364 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>'}` | 263 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >'}` | 365 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 367 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vbtable'` | 366 | Exported Function
-`const UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::IList<class Mig::CCatalogUser * __ptr64>'}` | 277 | Exported Function
-`const UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>'}` | 276 | Exported Function
-`const UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>'}` | 275 | Exported Function
-`const UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >'}` | 278 | Exported Function
-`const UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 280 | Exported Function
-`const UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 279 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>'}` | 264 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >'}` | 271 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vftable'{for ``UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>'}` | 270 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vbtable'{for ``UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>'}` | 369 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 274 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >'}` | 273 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vftable'{for ``UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>'}` | 272 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >'}` | 368 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 268 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::IList<class Mig::CCatalogUser * __ptr64>'}` | 266 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>'}` | 265 | Exported Function
-`const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::``vbtable'` | 370 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >'}` | 267 | Exported Function
-`const UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 269 | Exported Function
-`private: class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64 __cdecl Mig::CCatalog::GetObjectNode(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,class Mig::CCatalogTreeData const * __ptr64) __ptr64` | 573 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::Assign(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> > const & __ptr64) __ptr64` | 449 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::Assign(class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> * __ptr64) __ptr64` | 450 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class Mig::SendState>::DeAssign(void) __ptr64` | 511 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::Assign(class UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> > const & __ptr64) __ptr64` | 447 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::Assign(class UnBCL::ArrayList<unsigned short> * __ptr64) __ptr64` | 448 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::DeAssign(void) __ptr64` | 509 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class Mig::SendState>::Assign(class UnBCL::SmartPtr<class Mig::SendState> const & __ptr64) __ptr64` | 453 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::Assign(class Mig::CLibrarian * __ptr64) __ptr64` | 452 | Exported Function
-`private: void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::AddDictionary(struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> const * __ptr64) __ptr64` | 437 | Exported Function
-`private: void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::QuickSort(class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> * __ptr64,class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> * __ptr64,int,int) __ptr64` | 657 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class Mig::SendState>::Assign(class Mig::SendState * __ptr64) __ptr64` | 454 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::DeAssign(void) __ptr64` | 510 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::Assign(class UnBCL::SmartPtr<class Mig::CLibrarian> const & __ptr64) __ptr64` | 451 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::DeAssign(void) __ptr64` | 508 | Exported Function
-`protected: __cdecl Mig::CMediaManagerStreamProxy::CMediaManagerStreamProxy(class Mig::CMediaManagerStreamProxy const & __ptr64) __ptr64` | 93 | Exported Function
-`protected: __cdecl Mig::CHardLinkTransportStreamProxy::CHardLinkTransportStreamProxy(class Mig::CHardLinkTransportStreamProxy const & __ptr64) __ptr64` | 78 | Exported Function
-`protected: __cdecl Mig::CExternalTransportStreamProxy::CExternalTransportStreamProxy(class Mig::CExternalTransportStreamProxy const & __ptr64) __ptr64` | 76 | Exported Function
-`protected: __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >(void) __ptr64` | 30 | Exported Function
-`protected: __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >(void) __ptr64` | 28 | Exported Function
-`protected: __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >(void) __ptr64` | 26 | Exported Function
-`protected: __cdecl Mig::CDeviceLockedObject::CDeviceLockedObject(class Mig::CDeviceLockedObject const & __ptr64) __ptr64` | 66 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::DeAssign(void) __ptr64` | 507 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::Assign(struct Mig::ITrimableStream * __ptr64) __ptr64` | 446 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::Assign(class UnBCL::SmartPtr<struct Mig::ITrimableStream> const & __ptr64) __ptr64` | 445 | Exported Function
-`protected: __cdecl Mig::CConnectionPipeTransportStreamProxy::CConnectionPipeTransportStreamProxy(class Mig::CConnectionPipeTransportStreamProxy const & __ptr64) __ptr64` | 64 | Exported Function
-`protected: __cdecl Mig::CCatalogNavigator::CCatalogNavigator(struct Mig::IMigLocation * __ptr64,class UnBCL::String * __ptr64,class Mig::CCatalogTreeData const * __ptr64,class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64) __ptr64` | 57 | Exported Function
-`protected: __cdecl Mig::CCatalogEntry::CCatalogEntry(void) __ptr64` | 52 | Exported Function
-`private: static struct UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::StaticTypeRegistration UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::s_Registration` | 856 | Exported Function
-`private: static struct UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::StaticTypeRegistration UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::s_Registration` | 855 | Exported Function
-`private: static struct UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::StaticTypeRegistration UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::s_Registration` | 854 | Exported Function
-`private: unsigned char __cdecl Mig::CCatalog::GetNameSpaceIndex(enum Mig::CatalogNamespace) __ptr64` | 565 | Exported Function
-`private: static unsigned int const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::DefaultBins` | 512 | Exported Function
-`private: static struct UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::s_Registration` | 853 | Exported Function
-`private: static float const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::DefaultLow` | 515 | Exported Function
-`private: int __cdecl Mig::CCatalog::Seek(union _ULARGE_INTEGER const & __ptr64) __ptr64` | 695 | Exported Function
-`private: int __cdecl Mig::CCatalog::ReadEntryHeader(struct Mig::SEntryHeader & __ptr64,unsigned long & __ptr64) __ptr64` | 668 | Exported Function
-`private: int __cdecl Mig::CCatalog::DoesObjectExist(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,class Mig::CCatalogTreeData const & __ptr64) __ptr64` | 523 | Exported Function
-`private: static float const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::DefaultLoad` | 514 | Exported Function
-`private: static float const UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::DefaultHigh` | 513 | Exported Function
-`private: int __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::BinarySearch(int,int,class Mig::CCatalogUser * __ptr64,struct UnBCL::IComparer<class Mig::CCatalogUser * __ptr64> * __ptr64) __ptr64` | 457 | Exported Function
-`private: unsigned short __cdecl Mig::CCatalog::GetUserCount(void) __ptr64` | 592 | Exported Function
-`private: void __cdecl Mig::CCatalog::TagNodePathForAllUsers(class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64,unsigned char) __ptr64` | 734 | Exported Function
-`private: void __cdecl Mig::CCatalog::TagNodePath(class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64,unsigned short,unsigned char) __ptr64` | 733 | Exported Function
-`private: void __cdecl Mig::CCatalog::ReadCatalogHeader(struct Mig::SCatalogHeader & __ptr64,unsigned long & __ptr64) __ptr64` | 666 | Exported Function
-`private: void __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::DeleteRange(int,int) __ptr64` | 516 | Exported Function
-`private: void __cdecl Mig::CCatalog::WriteEntry(class Mig::CCatalogEntry & __ptr64) __ptr64` | 760 | Exported Function
-`private: void __cdecl Mig::CCatalog::WriteCatalogHeader(struct Mig::SCatalogHeader & __ptr64,unsigned long & __ptr64) __ptr64` | 759 | Exported Function
-`private: void __cdecl Mig::CCatalog::Destroy(void) __ptr64` | 517 | Exported Function
-`private: void __cdecl Mig::CCatalog::BuildSearchTree(union _ULARGE_INTEGER,int,class UnBCL::String * __ptr64) __ptr64` | 462 | Exported Function
-`private: void __cdecl Mig::CCatalog::AddComplexNode(class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64 * __ptr64,class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64 * __ptr64,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 436 | Exported Function
-`private: unsigned short __cdecl Mig::CCatalog::GetUserIndex(class UnBCL::String * __ptr64) __ptr64` | 594 | Exported Function
-`private: void __cdecl Mig::CCatalog::CreateHeader(void) __ptr64` | 504 | Exported Function
-`private: void __cdecl Mig::CCatalog::BuildUserMap(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 463 | Exported Function
-`private: void __cdecl Mig::CCatalog::BuildUserMap(class Mig::CCatalogUserList * __ptr64) __ptr64` | 464 | Exported Function
-`const Mig::SendState::``vftable'` | 361 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::IList<class Mig::CCatalogUser * __ptr64>'}` | 312 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>'}` | 311 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>'}` | 310 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >'}` | 314 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::Object'}` | 316 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::ISerializable'}` | 315 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>'}` | 309 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::IList<class Mig::CCatalogUser * __ptr64>'}` | 382 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>'}` | 381 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>'}` | 380 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >'}` | 384 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >'}` | 385 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::ISerializable'}` | 386 | Exported Function
-`const Mig::CCatalogUserList::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >'}` | 313 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vftable'{for ``UnBCL::Object'}` | 321 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vftable'{for ``Mig::IStreamProxy'}` | 320 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vftable'{for ``Mig::IOptimizedFileStreamProxy'}` | 319 | Exported Function
-`const Mig::CExternalTransport::``vftable'` | 324 | Exported Function
-`const Mig::CDeviceProgressAdapter::``vftable'` | 323 | Exported Function
-`const Mig::CDeviceLockedObject::``vftable'` | 322 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vftable'{for ``Mig::IFileStreamProxy'}` | 318 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vbtable'{for ``Mig::IFileStreamProxy'}` | 389 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vbtable'{for ``Mig::CMediaManagerStreamProxy'}` | 388 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vbtable'` | 387 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vftable'` | 317 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vbtable'{for ``Mig::IStreamProxy'}` | 391 | Exported Function
-`const Mig::CConnectionPipeTransportStreamProxy::``vbtable'{for ``Mig::IOptimizedFileStreamProxy'}` | 390 | Exported Function
-`const Mig::CCatalogEntry::``vbtable'{for ``UnBCL::ISerializable'}` | 373 | Exported Function
-`const Mig::CCatalogEntry::``vbtable'{for ``Mig::CCatalogEntry'}` | 371 | Exported Function
-`const Mig::CCatalog::``vftable'` | 299 | Exported Function
-`const Mig::CCatalogEntry::``vftable'{for ``UnBCL::ISerializable'}` | 302 | Exported Function
-`const Mig::CCatalogEntry::``vftable'` | 301 | Exported Function
-`const Mig::CCatalogEntry::``vbtable'{for ``UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >'}` | 372 | Exported Function
-`const Mig::CAlternateStreamHolder::``vftable'` | 298 | Exported Function
-`const CSimulationTableStream::``vbtable'{for ``UnBCL::Stream'}` | 411 | Exported Function
-`const CSimulationTableStream::``vbtable'{for ``UnBCL::IDisposable'}` | 410 | Exported Function
+`CCatalogUser` | 363 | Exported Function
+`CCatalogUser` | 362 | Exported Function
+`CCatalogUser` | 364 | Exported Function
+`CCatalogUser` | 263 | Exported Function
+`OperatorNew` | 365 | Exported Function
+`ISerializable` | 367 | Exported Function
+`CCatalogUser` | 366 | Exported Function
+`CCatalogUser` | 277 | Exported Function
+`CCatalogUser` | 276 | Exported Function
+`CCatalogUser` | 275 | Exported Function
+`OperatorNew` | 278 | Exported Function
+`Object` | 280 | Exported Function
+`ISerializable` | 279 | Exported Function
+`CCatalogUser` | 264 | Exported Function
+`IDevice` | 271 | Exported Function
+`IDevice` | 270 | Exported Function
+`IDevice` | 369 | Exported Function
+`Object` | 274 | Exported Function
+`IDevice` | 273 | Exported Function
+`IDevice` | 272 | Exported Function
+`IDevice` | 368 | Exported Function
+`ISerializable` | 268 | Exported Function
+`CCatalogUser` | 266 | Exported Function
+`CCatalogUser` | 265 | Exported Function
+`IDevice` | 370 | Exported Function
+`OperatorNew` | 267 | Exported Function
+`Object` | 269 | Exported Function
+`CCatalogTreeData` | 573 | Exported Function
+`CFileLocation` | 449 | Exported Function
+`CFileLocation` | 450 | Exported Function
+`DeAssign` | 511 | Exported Function
+`ArrayList` | 447 | Exported Function
+`ArrayList` | 448 | Exported Function
+`DeAssign` | 509 | Exported Function
+`SendState` | 453 | Exported Function
+`CLibrarian` | 452 | Exported Function
+`IDevice` | 437 | Exported Function
+`CCatalogUser` | 657 | Exported Function
+`SendState` | 454 | Exported Function
+`DeAssign` | 510 | Exported Function
+`CLibrarian` | 451 | Exported Function
+`DeAssign` | 508 | Exported Function
+`CMediaManagerStreamProxy` | 93 | Exported Function
+`CHardLinkTransportStreamProxy` | 78 | Exported Function
+`CExternalTransportStreamProxy` | 76 | Exported Function
+`CCatalogUserList` | 30 | Exported Function
+`CCatalogUser` | 28 | Exported Function
+`CCatalogEntry` | 26 | Exported Function
+`CDeviceLockedObject` | 66 | Exported Function
+`DeAssign` | 507 | Exported Function
+`ITrimableStream` | 446 | Exported Function
+`ITrimableStream` | 445 | Exported Function
+`CConnectionPipeTransportStreamProxy` | 64 | Exported Function
+`CCatalogTreeData` | 57 | Exported Function
+`CCatalogEntry` | 52 | Exported Function
+`s_Registration` | 856 | Exported Function
+`s_Registration` | 855 | Exported Function
+`s_Registration` | 854 | Exported Function
+`CatalogNamespace` | 565 | Exported Function
+`DefaultBins` | 512 | Exported Function
+`s_Registration` | 853 | Exported Function
+`DefaultLow` | 515 | Exported Function
+`Seek` | 695 | Exported Function
+`SEntryHeader` | 668 | Exported Function
+`CCatalogTreeData` | 523 | Exported Function
+`DefaultLoad` | 514 | Exported Function
+`DefaultHigh` | 513 | Exported Function
+`CCatalogUser` | 457 | Exported Function
+`GetUserCount` | 592 | Exported Function
+`CCatalogTreeData` | 734 | Exported Function
+`CCatalogTreeData` | 733 | Exported Function
+`SCatalogHeader` | 666 | Exported Function
+`DeleteRange` | 516 | Exported Function
+`CCatalogEntry` | 760 | Exported Function
+`SCatalogHeader` | 759 | Exported Function
+`Destroy` | 517 | Exported Function
+`String` | 462 | Exported Function
+`IMigLocation` | 436 | Exported Function
+`String` | 594 | Exported Function
+`CreateHeader` | 504 | Exported Function
+`String` | 463 | Exported Function
+`CCatalogUserList` | 464 | Exported Function
+`SendState` | 361 | Exported Function
+`CCatalogUser` | 312 | Exported Function
+`CCatalogUser` | 311 | Exported Function
+`CCatalogUser` | 310 | Exported Function
+`CCatalogUserList` | 314 | Exported Function
+`Object` | 316 | Exported Function
+`ISerializable` | 315 | Exported Function
+`CCatalogUser` | 309 | Exported Function
+`CCatalogUser` | 382 | Exported Function
+`CCatalogUser` | 381 | Exported Function
+`CCatalogUser` | 380 | Exported Function
+`OperatorNew` | 384 | Exported Function
+`CCatalogUserList` | 385 | Exported Function
+`ISerializable` | 386 | Exported Function
+`OperatorNew` | 313 | Exported Function
+`Object` | 321 | Exported Function
+`IStreamProxy` | 320 | Exported Function
+`IOptimizedFileStreamProxy` | 319 | Exported Function
+`CExternalTransport` | 324 | Exported Function
+`CDeviceProgressAdapter` | 323 | Exported Function
+`CDeviceLockedObject` | 322 | Exported Function
+`IFileStreamProxy` | 318 | Exported Function
+`IFileStreamProxy` | 389 | Exported Function
+`CMediaManagerStreamProxy` | 388 | Exported Function
+`CConnectionPipeTransportStreamProxy` | 387 | Exported Function
+`CConnectionPipeTransportStreamProxy` | 317 | Exported Function
+`IStreamProxy` | 391 | Exported Function
+`IOptimizedFileStreamProxy` | 390 | Exported Function
+`ISerializable` | 373 | Exported Function
+`CCatalogEntry` | 371 | Exported Function
+`CCatalog` | 299 | Exported Function
+`ISerializable` | 302 | Exported Function
+`CCatalogEntry` | 301 | Exported Function
+`CCatalogEntry` | 372 | Exported Function
+`CAlternateStreamHolder` | 298 | Exported Function
+`Stream` | 411 | Exported Function
+`IDisposable` | 410 | Exported Function
 `BuildStoreInterface` | 875 | Exported Function
-`const CSimulationTableStream::``vftable'{for ``UnBCL::Stream'}` | 352 | Exported Function
-`const CSimulationTableStream::``vftable'{for ``UnBCL::Object'}` | 351 | Exported Function
-`const CSimulationTableStream::``vftable'{for ``UnBCL::IDisposable'}` | 350 | Exported Function
-`const Mig::CCatalogEntry::``vftable'{for ``UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >'}` | 300 | Exported Function
-`const Mig::CCatalogUser::``vftable'{for ``UnBCL::ISerializable'}` | 308 | Exported Function
-`const Mig::CCatalogUser::``vftable'` | 307 | Exported Function
-`const Mig::CCatalogUser::``vbtable'{for ``UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >'}` | 376 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>'}` | 383 | Exported Function
-`const Mig::CCatalogUserList::``vbtable'{for ``Mig::CCatalogUserList'}` | 379 | Exported Function
-`const Mig::CCatalogUser::``vftable'{for ``UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >'}` | 306 | Exported Function
-`const Mig::CCatalogUser::``vbtable'{for ``UnBCL::ISerializable'}` | 378 | Exported Function
-`const Mig::CCatalogNavigator::``vbtable'{for ``Mig::IDataStoreNavigator'}` | 375 | Exported Function
-`const Mig::CCatalogNavigator::``vbtable'{for ``Mig::CCatalogNavigator'}` | 374 | Exported Function
-`const Mig::CCatalogLinearIterator::``vftable'` | 303 | Exported Function
-`const Mig::CCatalogUser::``vbtable'` | 377 | Exported Function
-`const Mig::CCatalogNavigator::``vftable'{for ``Mig::IDataStoreNavigator'}` | 305 | Exported Function
-`const Mig::CCatalogNavigator::``vftable'` | 304 | Exported Function
-`const Mig::CExternalTransportInitializationData::``vftable'` | 325 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vftable'{for ``UnBCL::Object'}` | 346 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vftable'{for ``Mig::IStreamProxy'}` | 345 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vftable'{for ``Mig::IOptimizedFileStreamProxy'}` | 344 | Exported Function
-`const Mig::CNonTrimableFileStream::``vftable'{for ``UnBCL::IDisposable'}` | 347 | Exported Function
-`const Mig::CNonTrimableFileStream::``vbtable'{for ``UnBCL::Stream'}` | 409 | Exported Function
-`const Mig::CNonTrimableFileStream::``vbtable'{for ``UnBCL::IDisposable'}` | 408 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vftable'{for ``Mig::IFileStreamProxy'}` | 343 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vbtable'{for ``Mig::IFileStreamProxy'}` | 405 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vbtable'{for ``Mig::CMediaManagerStreamProxy'}` | 404 | Exported Function
-`const Mig::CMediaManager::``vftable'{for ``Mig::IStoreInterface'}` | 341 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vftable'` | 342 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vbtable'{for ``Mig::IStreamProxy'}` | 407 | Exported Function
-`const Mig::CMediaManagerStreamProxy::``vbtable'{for ``Mig::IOptimizedFileStreamProxy'}` | 406 | Exported Function
-`const Mig::CNonTrimableFileStream::``vftable'{for ``UnBCL::Object'}` | 348 | Exported Function
-`const Mig::CSplitFileStream::``vftable'{for ``UnBCL::Object'}` | 357 | Exported Function
-`const Mig::CSplitFileStream::``vftable'{for ``UnBCL::IDisposable'}` | 356 | Exported Function
-`const Mig::CSplitFileStream::``vbtable'{for ``UnBCL::Stream'}` | 415 | Exported Function
-`const Mig::CUNCTransportInitializationData::``vftable'` | 360 | Exported Function
-`const Mig::CUNCTransport::``vftable'` | 359 | Exported Function
-`const Mig::CSplitFileStream::``vftable'{for ``UnBCL::Stream'}` | 358 | Exported Function
-`const Mig::CSplitFileStream::``vbtable'{for ``UnBCL::IDisposable'}` | 414 | Exported Function
-`const Mig::CSimulationTrimableStream::``vbtable'{for ``UnBCL::Stream'}` | 413 | Exported Function
-`const Mig::CSimulationTrimableStream::``vbtable'{for ``UnBCL::IDisposable'}` | 412 | Exported Function
-`const Mig::CNonTrimableFileStream::``vftable'{for ``UnBCL::Stream'}` | 349 | Exported Function
-`const Mig::CSimulationTrimableStream::``vftable'{for ``UnBCL::Stream'}` | 355 | Exported Function
-`const Mig::CSimulationTrimableStream::``vftable'{for ``UnBCL::Object'}` | 354 | Exported Function
-`const Mig::CSimulationTrimableStream::``vftable'{for ``UnBCL::IDisposable'}` | 353 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vftable'{for ``UnBCL::Object'}` | 330 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vftable'{for ``Mig::IStreamProxy'}` | 329 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vftable'{for ``Mig::IOptimizedFileStreamProxy'}` | 328 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vbtable'{for ``Mig::IFileStreamProxy'}` | 399 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vbtable'{for ``Mig::CMediaManagerStreamProxy'}` | 398 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vbtable'` | 397 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vftable'{for ``Mig::IFileStreamProxy'}` | 327 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vbtable'{for ``Mig::IFileStreamProxy'}` | 394 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vbtable'{for ``Mig::CMediaManagerStreamProxy'}` | 393 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vbtable'` | 392 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vftable'` | 326 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vbtable'{for ``Mig::IStreamProxy'}` | 396 | Exported Function
-`const Mig::CExternalTransportStreamProxy::``vbtable'{for ``Mig::IOptimizedFileStreamProxy'}` | 395 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vbtable'{for ``Mig::IOptimizedFileStreamProxy'}` | 400 | Exported Function
-`const Mig::CLibTransportInitializationData::``vftable'` | 338 | Exported Function
-`const Mig::CLibTransport::``vftable'` | 337 | Exported Function
-`const Mig::CLibrarian::``vftable'` | 339 | Exported Function
-`const Mig::CMediaManager::``vftable'` | 340 | Exported Function
-`const Mig::CMediaManager::``vbtable'{for ``Mig::IStoreInterface'}` | 403 | Exported Function
-`const Mig::CMediaManager::``vbtable'{for ``Mig::CMediaManager'}` | 402 | Exported Function
-`const Mig::CIMGTransport::``vftable'` | 336 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vftable'{for ``Mig::IFileStreamProxy'}` | 332 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vftable'` | 331 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vbtable'{for ``Mig::IStreamProxy'}` | 401 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vftable'{for ``UnBCL::Object'}` | 335 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vftable'{for ``Mig::IStreamProxy'}` | 334 | Exported Function
-`const Mig::CHardLinkTransportStreamProxy::``vftable'{for ``Mig::IOptimizedFileStreamProxy'}` | 333 | Exported Function
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 25 | Exported Function
-`public: __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >(class UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> > const & __ptr64) __ptr64` | 31 | Exported Function
-`public: __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >(class UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> > const & __ptr64) __ptr64` | 29 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::SmartPtr<class Mig::CLibrarian>(class UnBCL::SmartPtr<class Mig::CLibrarian> const & __ptr64) __ptr64` | 41 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::SmartPtr<class Mig::CLibrarian>(class Mig::CLibrarian * __ptr64) __ptr64` | 42 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::operator class UnBCL::SmartPtr<class Mig::CLibrarian>::NullTest * __ptr64(void)const __ptr64` | 251 | Exported Function
-`public: __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >(class UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> > const & __ptr64) __ptr64` | 27 | Exported Function
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > const & __ptr64) __ptr64` | 18 | Exported Function
-`public: __cdecl UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>::IEnumerable<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 17 | Exported Function
-`public: __cdecl UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64>::IEnumerable<class Mig::CCatalogUser * __ptr64>(struct UnBCL::IEnumerable<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 16 | Exported Function
-`public: __cdecl UnBCL::IList<class Mig::CCatalogUser * __ptr64>::IList<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 21 | Exported Function
-`public: __cdecl UnBCL::IList<class Mig::CCatalogUser * __ptr64>::IList<class Mig::CCatalogUser * __ptr64>(struct UnBCL::IList<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 20 | Exported Function
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::IEnumerable<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >(void) __ptr64` | 19 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::SmartPtr<class Mig::CLibrarian>(void) __ptr64` | 43 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::SmartPtr<class UnBCL::ArrayList<unsigned short> >(class UnBCL::ArrayList<unsigned short> * __ptr64) __ptr64` | 36 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::operator class UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::NullTest * __ptr64(void)const __ptr64` | 249 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >(void) __ptr64` | 40 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::operator class UnBCL::SmartPtr<struct Mig::ITrimableStream>::NullTest * __ptr64(void)const __ptr64` | 248 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::SmartPtr<class UnBCL::ArrayList<unsigned short> >(void) __ptr64` | 37 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::SmartPtr<class UnBCL::ArrayList<unsigned short> >(class UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> > const & __ptr64) __ptr64` | 35 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> > const & __ptr64) __ptr64` | 38 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::SendState>::SmartPtr<class Mig::SendState>(class UnBCL::SmartPtr<class Mig::SendState> const & __ptr64) __ptr64` | 44 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::SendState>::SmartPtr<class Mig::SendState>(class Mig::SendState * __ptr64) __ptr64` | 45 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::SendState>::operator class UnBCL::SmartPtr<class Mig::SendState>::NullTest * __ptr64(void)const __ptr64` | 252 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >(class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> * __ptr64) __ptr64` | 39 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::operator class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::NullTest * __ptr64(void)const __ptr64` | 250 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class Mig::SendState>::SmartPtr<class Mig::SendState>(void) __ptr64` | 46 | Exported Function
-`public: __cdecl Mig::SendState::SendState(class Mig::SendState const & __ptr64) __ptr64` | 122 | Exported Function
-`public: __cdecl Mig::SendState::SendState(class Mig::SendState && __ptr64) __ptr64` | 121 | Exported Function
-`public: __cdecl Mig::ITrimableStream::ITrimableStream(void) __ptr64` | 120 | Exported Function
-`public: __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 23 | Exported Function
-`public: __cdecl UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64>(class UnBCL::_::SerializableArrayListBase<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 22 | Exported Function
-`public: __cdecl Mig::SendState::SendState(void) __ptr64` | 123 | Exported Function
-`public: __cdecl Mig::ITrimableStream::ITrimableStream(struct Mig::ITrimableStream const & __ptr64) __ptr64` | 119 | Exported Function
-`public: __cdecl Mig::IStoreInterface::IStoreInterface(struct Mig::IStoreInterface && __ptr64) __ptr64` | 115 | Exported Function
-`public: __cdecl Mig::IDeviceInitializationData::IDeviceInitializationData(void) __ptr64` | 114 | Exported Function
-`public: __cdecl Mig::IDeviceInitializationData::IDeviceInitializationData(struct Mig::IDeviceInitializationData const & __ptr64) __ptr64` | 113 | Exported Function
-`public: __cdecl Mig::ITrimableStream::ITrimableStream(struct Mig::ITrimableStream && __ptr64) __ptr64` | 118 | Exported Function
-`public: __cdecl Mig::IStoreInterface::IStoreInterface(void) __ptr64` | 117 | Exported Function
-`public: __cdecl Mig::IStoreInterface::IStoreInterface(struct Mig::IStoreInterface const & __ptr64) __ptr64` | 116 | Exported Function
-`public: __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::ArrayList<class Mig::CCatalogUser * __ptr64>(int,int) __ptr64` | 2 | Exported Function
-`public: __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> > const & __ptr64) __ptr64` | 12 | Exported Function
-`public: __cdecl UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>::ICollection<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 11 | Exported Function
-`public: __cdecl UnBCL::ICollection<class Mig::CCatalogUser * __ptr64>::ICollection<class Mig::CCatalogUser * __ptr64>(struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> const & __ptr64) __ptr64` | 10 | Exported Function
-`public: __cdecl UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>(void) __ptr64` | 15 | Exported Function
-`public: __cdecl UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>::IDictionary<unsigned int,struct Mig::IDevice * __ptr64>(struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> const & __ptr64) __ptr64` | 14 | Exported Function
-`public: __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >::ICollection<class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> >(void) __ptr64` | 13 | Exported Function
-`public: __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>(void) __ptr64` | 9 | Exported Function
-`public: __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>(class UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64> const & __ptr64) __ptr64` | 5 | Exported Function
-`public: __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::ArrayList<class Mig::CCatalogUser * __ptr64>(void) __ptr64` | 4 | Exported Function
-`public: __cdecl UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>::ArrayList<class Mig::CCatalogUser * __ptr64>(struct UnBCL::ICollection<class Mig::CCatalogUser * __ptr64> const * __ptr64) __ptr64` | 3 | Exported Function
-`public: __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>(struct UnBCL::IDictionary<unsigned int,struct Mig::IDevice * __ptr64> const * __ptr64) __ptr64` | 8 | Exported Function
-`public: __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>(int,int) __ptr64` | 7 | Exported Function
-`public: __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>(int) __ptr64` | 6 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::SmartPtr<struct Mig::ITrimableStream>(class UnBCL::SmartPtr<struct Mig::ITrimableStream> const & __ptr64) __ptr64` | 32 | Exported Function
-`public: class Mig::CIMGTransport & __ptr64 __cdecl Mig::CIMGTransport::operator=(class Mig::CIMGTransport const & __ptr64) __ptr64` | 217 | Exported Function
-`public: class Mig::CHardLinkTransportStreamProxy & __ptr64 __cdecl Mig::CHardLinkTransportStreamProxy::operator=(class Mig::CHardLinkTransportStreamProxy const & __ptr64) __ptr64` | 216 | Exported Function
-`public: class Mig::CExternalTransportStreamProxy & __ptr64 __cdecl Mig::CExternalTransportStreamProxy::operator=(class Mig::CExternalTransportStreamProxy const & __ptr64) __ptr64` | 215 | Exported Function
-`public: class Mig::CLibrarian * __ptr64 __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::get_P(void)const __ptr64` | 827 | Exported Function
-`public: class Mig::CLibrarian & __ptr64 __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::operator*(void)const __ptr64` | 261 | Exported Function
-`public: class Mig::CLibrarian & __ptr64 __cdecl Mig::CLibrarian::operator=(class Mig::CLibrarian const & __ptr64) __ptr64` | 222 | Exported Function
-`public: class Mig::CExternalTransportInitializationData & __ptr64 __cdecl Mig::CExternalTransportInitializationData::operator=(class Mig::CExternalTransportInitializationData const & __ptr64) __ptr64` | 214 | Exported Function
-`public: class Mig::CDeviceProgressAdapter & __ptr64 __cdecl Mig::CDeviceProgressAdapter::operator=(class Mig::CDeviceProgressAdapter && __ptr64) __ptr64` | 210 | Exported Function
-`public: class Mig::CDeviceLockedObject & __ptr64 __cdecl Mig::CDeviceLockedObject::operator=(class Mig::CDeviceLockedObject const & __ptr64) __ptr64` | 209 | Exported Function
-`public: class Mig::CConnectionPipeTransportStreamProxy & __ptr64 __cdecl Mig::CConnectionPipeTransportStreamProxy::operator=(class Mig::CConnectionPipeTransportStreamProxy const & __ptr64) __ptr64` | 208 | Exported Function
-`public: class Mig::CExternalTransportInitializationData & __ptr64 __cdecl Mig::CExternalTransportInitializationData::operator=(class Mig::CExternalTransportInitializationData && __ptr64) __ptr64` | 213 | Exported Function
-`public: class Mig::CExternalTransport & __ptr64 __cdecl Mig::CExternalTransport::operator=(class Mig::CExternalTransport const & __ptr64) __ptr64` | 212 | Exported Function
-`public: class Mig::CDeviceProgressAdapter & __ptr64 __cdecl Mig::CDeviceProgressAdapter::operator=(class Mig::CDeviceProgressAdapter const & __ptr64) __ptr64` | 211 | Exported Function
-`public: class Mig::CLibrarian * __ptr64 __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::operator->(void)const __ptr64` | 256 | Exported Function
-`public: class Mig::CPlatform * __ptr64 __cdecl Mig::CUNCTransportInitializationData::get_RealPlatform(void) __ptr64` | 837 | Exported Function
-`public: class Mig::CPlatform * __ptr64 __cdecl Mig::CExternalTransportInitializationData::get_RealPlatform(void) __ptr64` | 836 | Exported Function
-`public: class Mig::CNonTrimableFileStream & __ptr64 __cdecl Mig::CNonTrimableFileStream::operator=(class Mig::CNonTrimableFileStream const & __ptr64) __ptr64` | 225 | Exported Function
-`public: class Mig::CSplitFileStream & __ptr64 __cdecl Mig::CSplitFileStream::operator=(class Mig::CSplitFileStream const & __ptr64) __ptr64` | 229 | Exported Function
-`public: class Mig::CSimulationTrimableStream & __ptr64 __cdecl Mig::CSimulationTrimableStream::operator=(class Mig::CSimulationTrimableStream const & __ptr64) __ptr64` | 228 | Exported Function
-`public: class Mig::CSimulationTrimableStream & __ptr64 __cdecl Mig::CSimulationTrimableStream::operator=(class Mig::CSimulationTrimableStream && __ptr64) __ptr64` | 227 | Exported Function
-`public: class Mig::CMediaManagerStreamProxy & __ptr64 __cdecl Mig::CMediaManagerStreamProxy::operator=(class Mig::CMediaManagerStreamProxy const & __ptr64) __ptr64` | 224 | Exported Function
-`public: class Mig::CLibTransport & __ptr64 __cdecl Mig::CLibTransport::operator=(class Mig::CLibTransport const & __ptr64) __ptr64` | 219 | Exported Function
-`public: class Mig::CLibTransport & __ptr64 __cdecl Mig::CLibTransport::operator=(class Mig::CLibTransport && __ptr64) __ptr64` | 218 | Exported Function
-`public: class Mig::CLibrarian * __ptr64 __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::Steal(void) __ptr64` | 716 | Exported Function
-`public: class Mig::CMediaManager & __ptr64 __cdecl Mig::CMediaManager::operator=(class Mig::CMediaManager const & __ptr64) __ptr64` | 223 | Exported Function
-`public: class Mig::CLibTransportInitializationData & __ptr64 __cdecl Mig::CLibTransportInitializationData::operator=(class Mig::CLibTransportInitializationData const & __ptr64) __ptr64` | 221 | Exported Function
-`public: class Mig::CLibTransportInitializationData & __ptr64 __cdecl Mig::CLibTransportInitializationData::operator=(class Mig::CLibTransportInitializationData && __ptr64) __ptr64` | 220 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<unsigned short> >::operator!(void)const __ptr64` | 244 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class Mig::CFileLocation * __ptr64,class Mig::CFileLocation * __ptr64> * __ptr64> >::operator!(void)const __ptr64` | 245 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<class Mig::SendState>::operator!(void)const __ptr64` | 247 | Exported Function
-`public: class Mig::CAlternateStreamHolder & __ptr64 __cdecl Mig::CAlternateStreamHolder::operator=(class Mig::CAlternateStreamHolder const & __ptr64) __ptr64` | 200 | Exported Function
-`public: class CSimulationTableStream & __ptr64 __cdecl CSimulationTableStream::operator=(class CSimulationTableStream const & __ptr64) __ptr64` | 226 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::operator!(void)const __ptr64` | 243 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<class Mig::CLibrarian>::operator!(void)const __ptr64` | 246 | Exported Function
-`public: __int64 __cdecl Mig::CLibrarian::GetFirstIndex(class UnBCL::String * __ptr64 * __ptr64) __ptr64` | 555 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::SmartPtr<struct Mig::ITrimableStream>(void) __ptr64` | 34 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<struct Mig::ITrimableStream>::SmartPtr<struct Mig::ITrimableStream>(struct Mig::ITrimableStream * __ptr64) __ptr64` | 33 | Exported Function
-`public: __int64 __cdecl Mig::CLibrarian::SearchNextIndex(__int64) __ptr64` | 694 | Exported Function
-`public: __int64 __cdecl Mig::CLibrarian::GetNextIndex(__int64,class UnBCL::String * __ptr64 * __ptr64) __ptr64` | 571 | Exported Function
-`public: __int64 __cdecl Mig::CLibrarian::GetLastIndex(class UnBCL::String * __ptr64 * __ptr64) __ptr64` | 560 | Exported Function
-`public: class Mig::CBitVector2D<2> & __ptr64 __cdecl Mig::CCatalogEntry::get_Tags(void) __ptr64` | 845 | Exported Function
-`public: class Mig::CCatalogUser & __ptr64 __cdecl Mig::CCatalogUser::operator=(class Mig::CCatalogUser && __ptr64) __ptr64` | 204 | Exported Function
-`public: class Mig::CCatalogNavigator * __ptr64 __cdecl Mig::CCatalog::GetNavigator(enum Mig::CatalogNamespace,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 568 | Exported Function
-`public: class Mig::CCatalogNavigator * __ptr64 __cdecl Mig::CCatalog::GetNavigator(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 567 | Exported Function
-`public: class Mig::CCatalogUserList & __ptr64 __cdecl Mig::CCatalogUserList::operator=(class Mig::CCatalogUserList const & __ptr64) __ptr64` | 207 | Exported Function
-`public: class Mig::CCatalogUserList & __ptr64 __cdecl Mig::CCatalogUserList::operator=(class Mig::CCatalogUserList && __ptr64) __ptr64` | 206 | Exported Function
-`public: class Mig::CCatalogUser & __ptr64 __cdecl Mig::CCatalogUser::operator=(class Mig::CCatalogUser const & __ptr64) __ptr64` | 205 | Exported Function
-`public: class Mig::CCatalogNavigator & __ptr64 __cdecl Mig::CCatalogNavigator::operator=(class Mig::CCatalogNavigator const & __ptr64) __ptr64` | 203 | Exported Function
-`public: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CCatalog::GetEntry(class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64) __ptr64` | 551 | Exported Function
-`public: class Mig::CCatalogEntry & __ptr64 __cdecl Mig::CCatalogEntry::operator=(class Mig::CCatalogEntry const & __ptr64) __ptr64` | 202 | Exported Function
-`public: class Mig::CCatalog & __ptr64 __cdecl Mig::CCatalog::operator=(class Mig::CCatalog const & __ptr64) __ptr64` | 201 | Exported Function
-`public: class Mig::CCatalogLinearIterator * __ptr64 __cdecl Mig::CCatalog::GetLinearIterator(void) __ptr64` | 561 | Exported Function
-`public: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CCatalogLinearIterator::get_Current(void) __ptr64` | 777 | Exported Function
-`public: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CCatalog::GetEntry(enum Mig::CatalogNamespace,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64) __ptr64` | 552 | Exported Function
-`public: __cdecl Mig::IDeviceInitializationData::IDeviceInitializationData(struct Mig::IDeviceInitializationData && __ptr64) __ptr64` | 112 | Exported Function
-`protected: virtual void __cdecl UnBCL::SerializableBase<class Mig::CCatalogUserList,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUserList> >::RegisterVersion(int)const __ptr64` | 675 | Exported Function
-`protected: virtual void __cdecl UnBCL::SerializableBase<class Mig::CCatalogUser,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogUser> >::RegisterVersion(int)const __ptr64` | 674 | Exported Function
-`protected: virtual void __cdecl UnBCL::SerializableBase<class Mig::CCatalogEntry,0,class UnBCL::DefaultInstanceFactory<class Mig::CCatalogEntry> >::RegisterVersion(int)const __ptr64` | 673 | Exported Function
-`protected: void __cdecl Mig::CLibrarian::CompressAndEncryptBuffer(unsigned long,int) __ptr64` | 492 | Exported Function
-`protected: void __cdecl Mig::CIMGTransport::ValidatePath(class UnBCL::String * __ptr64,int) __ptr64` | 751 | Exported Function
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 672 | Exported Function
-`protected: virtual int __cdecl Mig::CIMGTransport::get_Opened(void) __ptr64` | 822 | Exported Function
-`protected: virtual class UnBCL::String * __ptr64 __cdecl Mig::CExternalTransport::get_TempPath(void) __ptr64` | 846 | Exported Function
-`protected: virtual class UnBCL::String * __ptr64 __cdecl Mig::CConnectionPipeTransportStreamProxy::GetFullObjectName(void) __ptr64` | 556 | Exported Function
-`protected: struct Mig::ITrimableStream * __ptr64 __cdecl Mig::CIMGTransport::CreateReadStream(class UnBCL::String * __ptr64) __ptr64` | 505 | Exported Function
-`protected: virtual class UnBCL::String * __ptr64 __cdecl Mig::CMediaManagerStreamProxy::GetFullObjectName(void) __ptr64` | 557 | Exported Function
-`protected: virtual class UnBCL::String * __ptr64 __cdecl Mig::CIMGTransport::get_TempPath(void) __ptr64` | 848 | Exported Function
-`protected: virtual class UnBCL::String * __ptr64 __cdecl Mig::CIMGTransport::get_StorePath(void) __ptr64` | 842 | Exported Function
-`protected: void __cdecl Mig::CLibrarian::FinishWriteStream(__int64) __ptr64` | 535 | Exported Function
-`protected: void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::KeyDestroy(unsigned int)const __ptr64` | 619 | Exported Function
-`protected: void __cdecl Mig::CUNCTransport::ValidatePath(unsigned short const * __ptr64,int) __ptr64` | 752 | Exported Function
-`protected: void __cdecl Mig::CUNCTransport::EnableEncryption(void) __ptr64` | 528 | Exported Function
-`public: __cdecl CSimulationTableStream::CSimulationTableStream(struct IMigStreamSizeRecorder * __ptr64,unsigned short const * __ptr64) __ptr64` | 98 | Exported Function
-`public: __cdecl CSimulationTableStream::CSimulationTableStream(class CSimulationTableStream const & __ptr64) __ptr64` | 97 | Exported Function
-`protected: void __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::ValueDestroy(struct Mig::IDevice * __ptr64)const __ptr64` | 753 | Exported Function
-`protected: void __cdecl Mig::CUNCTransport::EnableCompression(void) __ptr64` | 527 | Exported Function
-`protected: void __cdecl Mig::CMediaManager::SelectTransportInternal(int,unsigned int,struct Mig::IDeviceInitializationData * __ptr64,int,int,int,unsigned __int64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 703 | Exported Function
-`protected: void __cdecl Mig::CMediaManager::PrepareUser(class Mig::CUserContext * __ptr64) __ptr64` | 654 | Exported Function
-`protected: void __cdecl Mig::CMediaManager::InitializeCatalog(class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 609 | Exported Function
-`protected: void __cdecl Mig::CSplitFileStream::ResetAll(void) __ptr64` | 684 | Exported Function
-`protected: void __cdecl Mig::CSplitFileStream::CheckForDeviceErrors(class UnBCL::Exception * __ptr64)const __ptr64` | 469 | Exported Function
-`protected: void __cdecl Mig::CNonTrimableFileStream::CheckForDeviceErrors(class UnBCL::Exception * __ptr64)const __ptr64` | 468 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CLibTransport::GetStringFromLongIndex(__int64) __ptr64` | 584 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CLibTransport::GetStringFromIndex(unsigned long) __ptr64` | 583 | Exported Function
-`protected: class UnBCL::Stream * __ptr64 __cdecl Mig::CMediaManager::OpenSourceStream(class Mig::CDataUnit * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 653 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CSplitFileStream::GetStreamName(int)const __ptr64` | 582 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CMediaManager::SaveSourceStream(class UnBCL::String * __ptr64,class UnBCL::Stream * __ptr64,class Mig::CDataUnit * __ptr64,struct ILocalProgress * __ptr64) __ptr64` | 693 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CMediaManager::GetUserID(unsigned int,class Mig::CUserContext * __ptr64) __ptr64` | 593 | Exported Function
-`protected: class Mig::SideAwareWin32Exception * __ptr64 __cdecl Mig::CSplitFileStream::MakeExceptionSideAwareWin32Exception(class UnBCL::Exception * __ptr64)const __ptr64` | 625 | Exported Function
-`protected: __int64 __cdecl Mig::CLibTransport::GetIndexFromString(unsigned short const * __ptr64,int * __ptr64) __ptr64` | 559 | Exported Function
-`protected: __int64 __cdecl Mig::CLibTransport::GetIndexByLabel(class UnBCL::String * __ptr64) __ptr64` | 558 | Exported Function
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class Mig::CCatalogUser * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 24 | Exported Function
-`protected: class Mig::SideAwareWin32Exception * __ptr64 __cdecl Mig::CNonTrimableFileStream::MakeExceptionSideAwareWin32Exception(class UnBCL::Exception * __ptr64)const __ptr64` | 624 | Exported Function
-`protected: class Mig::CTreeNode<class Mig::CCatalogTreeData> * __ptr64 __cdecl Mig::CCatalogNavigator::GetNextSibling(int & __ptr64) __ptr64` | 572 | Exported Function
-`protected: class Mig::CCatalogEntry * __ptr64 __cdecl Mig::CMediaManager::GetCatalogEntry(class Mig::CUserContext * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64,struct Mig::IMigLocation * __ptr64 * __ptr64) __ptr64` | 548 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::BuildObjectFilePath(unsigned short const * __ptr64,int,class UnBCL::String * __ptr64 * __ptr64) __ptr64` | 461 | Exported Function
-`protected: int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::ValueEquals(struct Mig::IDevice * __ptr64,struct Mig::IDevice * __ptr64)const __ptr64` | 754 | Exported Function
-`protected: int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::HashFunction(unsigned int)const __ptr64` | 603 | Exported Function
-`protected: int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::EqualsFunction(unsigned int,unsigned int)const __ptr64` | 532 | Exported Function
-`protected: static unsigned int __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::RetrieveKey(class ATL::CAtlMap<struct UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::TableKey,struct Mig::IDevice * __ptr64,struct UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::KeyTraits,class ATL::CElementTraits<struct Mig::IDevice * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 688 | Exported Function
-`protected: static struct Mig::IDevice * __ptr64 __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::RetrieveValue(class ATL::CAtlMap<struct UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::TableKey,struct Mig::IDevice * __ptr64,struct UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::KeyTraits,class ATL::CElementTraits<struct Mig::IDevice * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 690 | Exported Function
-`protected: static class UnBCL::DictionaryEntry<unsigned int,struct Mig::IDevice * __ptr64> __cdecl UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::RetrieveEntry(class ATL::CAtlMap<struct UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::TableKey,struct Mig::IDevice * __ptr64,struct UnBCL::Hashtable<unsigned int,struct Mig::IDevice * __ptr64>::KeyTraits,class ATL::CElementTraits<struct Mig::IDevice * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 687 | Exported Function
-`protected: int __cdecl Mig::CSplitFileStream::ReadOrWriteHeader(int,int) __ptr64` | 670 | Exported Function
-`protected: enum Mig::TransportMode __cdecl Mig::CMediaManager::GetTransportMode(void) __ptr64` | 585 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::SanitizePath(unsigned short const * __ptr64) __ptr64` | 692 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CUNCTransport::BuildObjectFilePath(unsigned short const * __ptr64,unsigned short,unsigned short) __ptr64` | 460 | Exported Function
-`protected: int __cdecl Mig::CMediaManager::IsEmbedded(class Mig::CDataUnit * __ptr64) __ptr64` | 613 | Exported Function
-`protected: int __cdecl Mig::CCatalogNavigator::MoveToFirstX(int) __ptr64` | 629 | Exported Function
-`protected: enum MIGSTATUS __cdecl Mig::CMediaManager::TestMediaEncodingInternal(unsigned int,struct Mig::IDeviceInitializationData * __ptr64,unsigned __int64) __ptr64` | 740 | Exported Function
-`public: __cdecl Mig::CAlternateStreamHolder::CAlternateStreamHolder(class Mig::CAlternateStreamHolder const & __ptr64) __ptr64` | 47 | Exported Function
-`public: __cdecl Mig::CMediaManager::CMediaManager(class Mig::CMediaManager const & __ptr64) __ptr64` | 91 | Exported Function
-`public: __cdecl Mig::CLibTransportInitializationData::CLibTransportInitializationData(unsigned short const * __ptr64,unsigned short const * __ptr64,struct ITransportUI * __ptr64,struct IMigStreamSizeRecorder * __ptr64) __ptr64` | 87 | Exported Function
-`public: __cdecl Mig::CLibTransportInitializationData::CLibTransportInitializationData(class Mig::CLibTransportInitializationData const & __ptr64) __ptr64` | 86 | Exported Function
-`public: __cdecl Mig::CNonTrimableFileStream::CNonTrimableFileStream(class Mig::CNonTrimableFileStream const & __ptr64) __ptr64` | 95 | Exported Function
-`public: __cdecl Mig::CMediaManagerStreamProxy::CMediaManagerStreamProxy(struct Mig::IDevice * __ptr64,class UnBCL::String * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 94 | Exported Function
-`public: __cdecl Mig::CMediaManager::CMediaManager(class Mig::CPlatform * __ptr64) __ptr64` | 92 | Exported Function
-`public: __cdecl Mig::CLibTransportInitializationData::CLibTransportInitializationData(class Mig::CLibTransportInitializationData && __ptr64) __ptr64` | 85 | Exported Function
-`public: __cdecl Mig::CLibrarian::CLibrarian(struct Mig::ITrimableStream * __ptr64,int,int,unsigned __int64,int * __ptr64,int * __ptr64) __ptr64` | 90 | Exported Function
-`public: __cdecl Mig::CLibrarian::CLibrarian(struct Mig::ITrimableStream * __ptr64,int,int,unsigned __int64) __ptr64` | 89 | Exported Function
-`public: __cdecl Mig::CLibrarian::CLibrarian(class Mig::CLibrarian const & __ptr64) __ptr64` | 88 | Exported Function
-`public: __cdecl Mig::CLibTransport::CLibTransport(void) __ptr64` | 84 | Exported Function
-`public: __cdecl Mig::CLibTransport::CLibTransport(class Mig::CLibTransport const & __ptr64) __ptr64` | 83 | Exported Function
-`public: __cdecl Mig::CLibTransport::CLibTransport(class Mig::CLibTransport && __ptr64) __ptr64` | 82 | Exported Function
-`public: __cdecl Mig::CNonTrimableFileStream::CNonTrimableFileStream(class UnBCL::String const * __ptr64,enum UnBCL::FileMode,enum UnBCL::FileAccess,enum UnBCL::FileShare,unsigned long,struct Mig::IDevice * __ptr64) __ptr64` | 96 | Exported Function
-`public: __cdecl Mig::CUNCTransportInitializationData::CUNCTransportInitializationData(unsigned short const * __ptr64,struct IMigHardLinkPolicy * __ptr64,class UnBCL::ArrayList<unsigned short> * __ptr64,class Mig::CPlatform * __ptr64,struct IMigStreamSizeRecorder * __ptr64) __ptr64` | 108 | Exported Function
-`public: __cdecl Mig::CUNCTransportInitializationData::CUNCTransportInitializationData(class Mig::CUNCTransportInitializationData const & __ptr64) __ptr64` | 107 | Exported Function
-`public: __cdecl Mig::CUNCTransportInitializationData::CUNCTransportInitializationData(class Mig::CUNCTransportInitializationData && __ptr64) __ptr64` | 106 | Exported Function
-`public: __cdecl Mig::IDevice::IDevice(void) __ptr64` | 111 | Exported Function
-`public: __cdecl Mig::IDevice::IDevice(struct Mig::IDevice const & __ptr64) __ptr64` | 110 | Exported Function
-`public: __cdecl Mig::IDevice::IDevice(struct Mig::IDevice && __ptr64) __ptr64` | 109 | Exported Function
-`public: __cdecl Mig::CUNCTransport::CUNCTransport(void) __ptr64` | 105 | Exported Function
-`public: __cdecl Mig::CSimulationTrimableStream::CSimulationTrimableStream(struct IMigStreamSizeRecorder * __ptr64) __ptr64` | 101 | Exported Function
-`public: __cdecl Mig::CSimulationTrimableStream::CSimulationTrimableStream(class Mig::CSimulationTrimableStream const & __ptr64) __ptr64` | 100 | Exported Function
-`public: __cdecl Mig::CSimulationTrimableStream::CSimulationTrimableStream(class Mig::CSimulationTrimableStream && __ptr64) __ptr64` | 99 | Exported Function
-`public: __cdecl Mig::CUNCTransport::CUNCTransport(class Mig::CUNCTransport const & __ptr64) __ptr64` | 104 | Exported Function
-`public: __cdecl Mig::CSplitFileStream::CSplitFileStream(class UnBCL::String * __ptr64,unsigned int,void (__cdecl*)(unsigned char * __ptr64,unsigned int,int),int (__cdecl*)(unsigned char * __ptr64,unsigned int,int),__int64,int,struct Mig::IDevice * __ptr64) __ptr64` | 103 | Exported Function
-`public: __cdecl Mig::CSplitFileStream::CSplitFileStream(class Mig::CSplitFileStream const & __ptr64) __ptr64` | 102 | Exported Function
-`public: __cdecl Mig::CCatalogUser::CCatalogUser(class Mig::CCatalogUser const & __ptr64) __ptr64` | 60 | Exported Function
-`public: __cdecl Mig::CCatalogUser::CCatalogUser(class Mig::CCatalogUser && __ptr64) __ptr64` | 59 | Exported Function
-`public: __cdecl Mig::CCatalogNavigator::CCatalogNavigator(class Mig::CCatalogNavigator const & __ptr64) __ptr64` | 58 | Exported Function
-`public: __cdecl Mig::CCatalogUserList::CCatalogUserList(void) __ptr64` | 63 | Exported Function
-`public: __cdecl Mig::CCatalogUser::CCatalogUser(void) __ptr64` | 62 | Exported Function
-`public: __cdecl Mig::CCatalogUser::CCatalogUser(class UnBCL::String * __ptr64) __ptr64` | 61 | Exported Function
-`public: __cdecl Mig::CCatalogLinearIterator::CCatalogLinearIterator(class Mig::CCatalogLinearIterator const & __ptr64) __ptr64` | 56 | Exported Function
-`public: __cdecl Mig::CCatalog::CCatalog(class Mig::CCatalog const & __ptr64) __ptr64` | 50 | Exported Function
-`public: __cdecl Mig::CAlternateStreamHolder::CAlternateStreamHolder(class UnBCL::String * __ptr64) __ptr64` | 49 | Exported Function
-`public: __cdecl Mig::CAlternateStreamHolder::CAlternateStreamHolder(class UnBCL::Stream * __ptr64) __ptr64` | 48 | Exported Function
-`public: __cdecl Mig::CCatalogEntry::CCatalogEntry(class Mig::CCatalogEntry const & __ptr64) __ptr64` | 54 | Exported Function
-`public: __cdecl Mig::CCatalogEntry::CCatalogEntry(class Mig::CBitVector2D<2> & __ptr64,class UnBCL::String * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64,struct Mig::IMigLocation * __ptr64,class UnBCL::Stream * __ptr64,class UnBCL::Array<unsigned char> * __ptr64,class UnBCL::Array<unsigned char> * __ptr64,class UnBCL::String * __ptr64,struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class Mig::CAlternateStreamHolder * __ptr64> * __ptr64,unsigned long) __ptr64` | 53 | Exported Function
-`public: __cdecl Mig::CCatalog::CCatalog(class UnBCL::String * __ptr64,int,int,class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64,int,int,int) __ptr64` | 51 | Exported Function
-`public: __cdecl Mig::CConnectionPipeTransportStreamProxy::CConnectionPipeTransportStreamProxy(class Mig::CConnectionPipeTransport * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64,void * __ptr64) __ptr64` | 65 | Exported Function
-`public: __cdecl Mig::CExternalTransportStreamProxy::CExternalTransportStreamProxy(class Mig::CExternalTransport * __ptr64,struct IExternalStore * __ptr64,class UnBCL::String * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 77 | Exported Function
-`public: __cdecl Mig::CExternalTransportInitializationData::CExternalTransportInitializationData(class Mig::CPlatform * __ptr64,struct IExternalStore * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 75 | Exported Function
-`public: __cdecl Mig::CExternalTransportInitializationData::CExternalTransportInitializationData(class Mig::CExternalTransportInitializationData const & __ptr64) __ptr64` | 74 | Exported Function
-`public: __cdecl Mig::CIMGTransport::CIMGTransport(void) __ptr64` | 81 | Exported Function
-`public: __cdecl Mig::CIMGTransport::CIMGTransport(class Mig::CIMGTransport const & __ptr64) __ptr64` | 80 | Exported Function
-`public: __cdecl Mig::CHardLinkTransportStreamProxy::CHardLinkTransportStreamProxy(class Mig::CUNCTransport * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class Mig::CFileSystemRootMapping * __ptr64,class Mig::CDeviceProgressAdapter * __ptr64) __ptr64` | 79 | Exported Function
-`public: __cdecl Mig::CExternalTransportInitializationData::CExternalTransportInitializationData(class Mig::CExternalTransportInitializationData && __ptr64) __ptr64` | 73 | Exported Function
-`public: __cdecl Mig::CDeviceProgressAdapter::CDeviceProgressAdapter(class Mig::CDeviceProgressAdapter const & __ptr64) __ptr64` | 69 | Exported Function
-`public: __cdecl Mig::CDeviceProgressAdapter::CDeviceProgressAdapter(class Mig::CDeviceProgressAdapter && __ptr64) __ptr64` | 68 | Exported Function
-`public: __cdecl Mig::CDeviceLockedObject::CDeviceLockedObject(class UnBCL::String * __ptr64,int) __ptr64` | 67 | Exported Function
-`public: __cdecl Mig::CExternalTransport::CExternalTransport(void) __ptr64` | 72 | Exported Function
-`public: __cdecl Mig::CExternalTransport::CExternalTransport(class Mig::CExternalTransport const & __ptr64) __ptr64` | 71 | Exported Function
-`public: __cdecl Mig::CDeviceProgressAdapter::CDeviceProgressAdapter(void) __ptr64` | 70 | Exported Function
+`Stream` | 352 | Exported Function
+`Object` | 351 | Exported Function
+`IDisposable` | 350 | Exported Function
+`CCatalogEntry` | 300 | Exported Function
+`ISerializable` | 308 | Exported Function
+`CCatalogUser` | 307 | Exported Function
+`CCatalogUser` | 376 | Exported Function
+`CCatalogUser` | 383 | Exported Function
+`CCatalogUserList` | 379 | Exported Function
+`CCatalogUser` | 306 | Exported Function
+`ISerializable` | 378 | Exported Function
+`IDataStoreNavigator` | 375 | Exported Function
+`CCatalogNavigator` | 374 | Exported Function
+`CCatalogLinearIterator` | 303 | Exported Function
+`CCatalogUser` | 377 | Exported Function
+`IDataStoreNavigator` | 305 | Exported Function
+`CCatalogNavigator` | 304 | Exported Function
+`CExternalTransportInitializationData` | 325 | Exported Function
+`Object` | 346 | Exported Function
+`IStreamProxy` | 345 | Exported Function
+`IOptimizedFileStreamProxy` | 344 | Exported Function
+`IDisposable` | 347 | Exported Function
+`Stream` | 409 | Exported Function
+`IDisposable` | 408 | Exported Function
+`IFileStreamProxy` | 343 | Exported Function
+`IFileStreamProxy` | 405 | Exported Function
+`CMediaManagerStreamProxy` | 404 | Exported Function
+`IStoreInterface` | 341 | Exported Function
+`CMediaManagerStreamProxy` | 342 | Exported Function
+`IStreamProxy` | 407 | Exported Function
+`IOptimizedFileStreamProxy` | 406 | Exported Function
+`Object` | 348 | Exported Function
+`Object` | 357 | Exported Function
+`IDisposable` | 356 | Exported Function
+`Stream` | 415 | Exported Function
+`CUNCTransportInitializationData` | 360 | Exported Function
+`CUNCTransport` | 359 | Exported Function
+`Stream` | 358 | Exported Function
+`IDisposable` | 414 | Exported Function
+`Stream` | 413 | Exported Function
+`IDisposable` | 412 | Exported Function
+`Stream` | 349 | Exported Function
+`Stream` | 355 | Exported Function
+`Object` | 354 | Exported Function
+`IDisposable` | 353 | Exported Function
+`Object` | 330 | Exported Function
+`IStreamProxy` | 329 | Exported Function
+`IOptimizedFileStreamProxy` | 328 | Exported Function
+`IFileStreamProxy` | 399 | Exported Function
+`CMediaManagerStreamProxy` | 398 | Exported Function
+`CHardLinkTransportStreamProxy` | 397 | Exported Function
+`IFileStreamProxy` | 327 | Exported Function
+`IFileStreamProxy` | 394 | Exported Function
+`CMediaManagerStreamProxy` | 393 | Exported Function
+`CExternalTransportStreamProxy` | 392 | Exported Function
+`CExternalTransportStreamProxy` | 326 | Exported Function
+`IStreamProxy` | 396 | Exported Function
+`IOptimizedFileStreamProxy` | 395 | Exported Function
+`IOptimizedFileStreamProxy` | 400 | Exported Function
+`CLibTransportInitializationData` | 338 | Exported Function
+`CLibTransport` | 337 | Exported Function
+`CLibrarian` | 339 | Exported Function
+`CMediaManager` | 340 | Exported Function
+`IStoreInterface` | 403 | Exported Function
+`CMediaManager` | 402 | Exported Function
+`CIMGTransport` | 336 | Exported Function
+`IFileStreamProxy` | 332 | Exported Function
+`CHardLinkTransportStreamProxy` | 331 | Exported Function
+`IStreamProxy` | 401 | Exported Function
+`Object` | 335 | Exported Function
+`IStreamProxy` | 334 | Exported Function
+`IOptimizedFileStreamProxy` | 333 | Exported Function
+`OperatorNew` | 25 | Exported Function
+`CCatalogUserList` | 31 | Exported Function
+`CCatalogUser` | 29 | Exported Function
+`CLibrarian` | 41 | Exported Function
+`CLibrarian` | 42 | Exported Function
+`NullTest` | 251 | Exported Function
+`CCatalogEntry` | 27 | Exported Function
+`IDevice` | 18 | Exported Function
+`CCatalogUser` | 17 | Exported Function
+`CCatalogUser` | 16 | Exported Function
+`CCatalogUser` | 21 | Exported Function
+`CCatalogUser` | 20 | Exported Function
+`IDevice` | 19 | Exported Function
+`CLibrarian` | 43 | Exported Function
+`ArrayList` | 36 | Exported Function
+`NullTest` | 249 | Exported Function
+`CFileLocation` | 40 | Exported Function
+`NullTest` | 248 | Exported Function
+`ArrayList` | 37 | Exported Function
+`ArrayList` | 35 | Exported Function
+`CFileLocation` | 38 | Exported Function
+`SendState` | 44 | Exported Function
+`SendState` | 45 | Exported Function
+`NullTest` | 252 | Exported Function
+`CFileLocation` | 39 | Exported Function
+`NullTest` | 250 | Exported Function
+`SendState` | 46 | Exported Function
+`SendState` | 122 | Exported Function
+`SendState` | 121 | Exported Function
+`ITrimableStream` | 120 | Exported Function
+`CCatalogUser` | 23 | Exported Function
+`CCatalogUser` | 22 | Exported Function
+`SendState` | 123 | Exported Function
+`ITrimableStream` | 119 | Exported Function
+`IStoreInterface` | 115 | Exported Function
+`IDeviceInitializationData` | 114 | Exported Function
+`IDeviceInitializationData` | 113 | Exported Function
+`ITrimableStream` | 118 | Exported Function
+`IStoreInterface` | 117 | Exported Function
+`IStoreInterface` | 116 | Exported Function
+`CCatalogUser` | 2 | Exported Function
+`IDevice` | 12 | Exported Function
+`CCatalogUser` | 11 | Exported Function
+`CCatalogUser` | 10 | Exported Function
+`IDevice` | 15 | Exported Function
+`IDevice` | 14 | Exported Function
+`IDevice` | 13 | Exported Function
+`IDevice` | 9 | Exported Function
+`IDevice` | 5 | Exported Function
+`CCatalogUser` | 4 | Exported Function
+`CCatalogUser` | 3 | Exported Function
+`IDevice` | 8 | Exported Function
+`IDevice` | 7 | Exported Function
+`IDevice` | 6 | Exported Function
+`ITrimableStream` | 32 | Exported Function
+`CIMGTransport` | 217 | Exported Function
+`CHardLinkTransportStreamProxy` | 216 | Exported Function
+`CExternalTransportStreamProxy` | 215 | Exported Function
+`get_P` | 827 | Exported Function
+`operator` | 261 | Exported Function
+`CLibrarian` | 222 | Exported Function
+`CExternalTransportInitializationData` | 214 | Exported Function
+`CDeviceProgressAdapter` | 210 | Exported Function
+`CDeviceLockedObject` | 209 | Exported Function
+`CConnectionPipeTransportStreamProxy` | 208 | Exported Function
+`CExternalTransportInitializationData` | 213 | Exported Function
+`CExternalTransport` | 212 | Exported Function
+`CDeviceProgressAdapter` | 211 | Exported Function
+`operator` | 256 | Exported Function
+`get_RealPlatform` | 837 | Exported Function
+`get_RealPlatform` | 836 | Exported Function
+`CNonTrimableFileStream` | 225 | Exported Function
+`CSplitFileStream` | 229 | Exported Function
+`CSimulationTrimableStream` | 228 | Exported Function
+`CSimulationTrimableStream` | 227 | Exported Function
+`CMediaManagerStreamProxy` | 224 | Exported Function
+`CLibTransport` | 219 | Exported Function
+`CLibTransport` | 218 | Exported Function
+`Steal` | 716 | Exported Function
+`CMediaManager` | 223 | Exported Function
+`CLibTransportInitializationData` | 221 | Exported Function
+`CLibTransportInitializationData` | 220 | Exported Function
+`operator` | 244 | Exported Function
+`operator` | 245 | Exported Function
+`operator` | 247 | Exported Function
+`CAlternateStreamHolder` | 200 | Exported Function
+`operator` | 226 | Exported Function
+`operator` | 243 | Exported Function
+`operator` | 246 | Exported Function
+`String` | 555 | Exported Function
+`ITrimableStream` | 34 | Exported Function
+`ITrimableStream` | 33 | Exported Function
+`SearchNextIndex` | 694 | Exported Function
+`String` | 571 | Exported Function
+`String` | 560 | Exported Function
+`get_Tags` | 845 | Exported Function
+`CCatalogUser` | 204 | Exported Function
+`IMigLocation` | 568 | Exported Function
+`IMigLocation` | 567 | Exported Function
+`CCatalogUserList` | 207 | Exported Function
+`CCatalogUserList` | 206 | Exported Function
+`CCatalogUser` | 205 | Exported Function
+`CCatalogNavigator` | 203 | Exported Function
+`IMigLocation` | 551 | Exported Function
+`CCatalogEntry` | 202 | Exported Function
+`CCatalog` | 201 | Exported Function
+`GetLinearIterator` | 561 | Exported Function
+`get_Current` | 777 | Exported Function
+`IMigLocation` | 552 | Exported Function
+`IDeviceInitializationData` | 112 | Exported Function
+`RegisterVersion` | 675 | Exported Function
+`RegisterVersion` | 674 | Exported Function
+`RegisterVersion` | 673 | Exported Function
+`CompressAndEncryptBuffer` | 492 | Exported Function
+`String` | 751 | Exported Function
+`RegisterVersion` | 672 | Exported Function
+`get_Opened` | 822 | Exported Function
+`get_TempPath` | 846 | Exported Function
+`GetFullObjectName` | 556 | Exported Function
+`String` | 505 | Exported Function
+`GetFullObjectName` | 557 | Exported Function
+`get_TempPath` | 848 | Exported Function
+`get_StorePath` | 842 | Exported Function
+`FinishWriteStream` | 535 | Exported Function
+`KeyDestroy` | 619 | Exported Function
+`ValidatePath` | 752 | Exported Function
+`EnableEncryption` | 528 | Exported Function
+`CSimulationTableStream` | 98 | Exported Function
+`CSimulationTableStream` | 97 | Exported Function
+`IDevice` | 753 | Exported Function
+`EnableCompression` | 527 | Exported Function
+`CDeviceProgressAdapter` | 703 | Exported Function
+`CUserContext` | 654 | Exported Function
+`CDeviceProgressAdapter` | 609 | Exported Function
+`ResetAll` | 684 | Exported Function
+`Exception` | 469 | Exported Function
+`Exception` | 468 | Exported Function
+`GetStringFromLongIndex` | 584 | Exported Function
+`GetStringFromIndex` | 583 | Exported Function
+`String` | 653 | Exported Function
+`GetStreamName` | 582 | Exported Function
+`CDataUnit` | 693 | Exported Function
+`CUserContext` | 593 | Exported Function
+`Exception` | 625 | Exported Function
+`GetIndexFromString` | 559 | Exported Function
+`String` | 558 | Exported Function
+`OperatorNew` | 24 | Exported Function
+`Exception` | 624 | Exported Function
+`GetNextSibling` | 572 | Exported Function
+`IMigLocation` | 548 | Exported Function
+`String` | 461 | Exported Function
+`IDevice` | 754 | Exported Function
+`HashFunction` | 603 | Exported Function
+`EqualsFunction` | 532 | Exported Function
+`IDevice` | 688 | Exported Function
+`IDevice` | 690 | Exported Function
+`IDevice` | 687 | Exported Function
+`ReadOrWriteHeader` | 670 | Exported Function
+`GetTransportMode` | 585 | Exported Function
+`SanitizePath` | 692 | Exported Function
+`BuildObjectFilePath` | 460 | Exported Function
+`CDataUnit` | 613 | Exported Function
+`MoveToFirstX` | 629 | Exported Function
+`IDeviceInitializationData` | 740 | Exported Function
+`CAlternateStreamHolder` | 47 | Exported Function
+`CMediaManager` | 91 | Exported Function
+`CLibTransportInitializationData` | 87 | Exported Function
+`CLibTransportInitializationData` | 86 | Exported Function
+`CNonTrimableFileStream` | 95 | Exported Function
+`CDeviceProgressAdapter` | 94 | Exported Function
+`CPlatform` | 92 | Exported Function
+`CLibTransportInitializationData` | 85 | Exported Function
+`ITrimableStream` | 90 | Exported Function
+`ITrimableStream` | 89 | Exported Function
+`CLibrarian` | 88 | Exported Function
+`CLibTransport` | 84 | Exported Function
+`CLibTransport` | 83 | Exported Function
+`CLibTransport` | 82 | Exported Function
+`IDevice` | 96 | Exported Function
+`CPlatform` | 108 | Exported Function
+`CUNCTransportInitializationData` | 107 | Exported Function
+`CUNCTransportInitializationData` | 106 | Exported Function
+`IDevice` | 111 | Exported Function
+`IDevice` | 110 | Exported Function
+`IDevice` | 109 | Exported Function
+`CUNCTransport` | 105 | Exported Function
+`CSimulationTrimableStream` | 101 | Exported Function
+`CSimulationTrimableStream` | 100 | Exported Function
+`CSimulationTrimableStream` | 99 | Exported Function
+`CUNCTransport` | 104 | Exported Function
+`IDevice` | 103 | Exported Function
+`CSplitFileStream` | 102 | Exported Function
+`CCatalogUser` | 60 | Exported Function
+`CCatalogUser` | 59 | Exported Function
+`CCatalogNavigator` | 58 | Exported Function
+`CCatalogUserList` | 63 | Exported Function
+`CCatalogUser` | 62 | Exported Function
+`String` | 61 | Exported Function
+`CCatalogLinearIterator` | 56 | Exported Function
+`CCatalog` | 50 | Exported Function
+`String` | 49 | Exported Function
+`Stream` | 48 | Exported Function
+`CCatalogEntry` | 54 | Exported Function
+`CAlternateStreamHolder` | 53 | Exported Function
+`String` | 51 | Exported Function
+`CDeviceProgressAdapter` | 65 | Exported Function
+`CDeviceProgressAdapter` | 77 | Exported Function
+`String` | 75 | Exported Function
+`CExternalTransportInitializationData` | 74 | Exported Function
+`CIMGTransport` | 81 | Exported Function
+`CIMGTransport` | 80 | Exported Function
+`CDeviceProgressAdapter` | 79 | Exported Function
+`CExternalTransportInitializationData` | 73 | Exported Function
+`CDeviceProgressAdapter` | 69 | Exported Function
+`CDeviceProgressAdapter` | 68 | Exported Function
+`String` | 67 | Exported Function
+`CExternalTransport` | 72 | Exported Function
+`CExternalTransport` | 71 | Exported Function
+`CDeviceProgressAdapter` | 70 | Exported Function
 
 
 ## Signature

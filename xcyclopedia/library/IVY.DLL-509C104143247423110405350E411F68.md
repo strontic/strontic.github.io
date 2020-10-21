@@ -26,70 +26,70 @@ PE256 | `2B08E8723DD251D713006323072CF6713BC07424950D44C6C760584590BE9761`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __stdcall Ivy::Extras::CreateHierarchyDataTransform(struct Ivy::Extras::IHierarchyDataTransform * &)` | 28 | Exported Function
-`void __stdcall Ivy::Extras::CreateInteractivityStack(struct Ivy::Extras::IInteractivityStack * &)` | 30 | Exported Function
-`void __stdcall Ivy::Extras::CreateGestureRecognizer(struct Ivy::Extras::IGestureRecognizerHost &,struct Ivy::Extras::IGestureRecognizerParams &,struct Ivy::Extras::IGestureRecognizer * &)` | 26 | Exported Function
-`void __stdcall Ivy::Extras::CreateGestureRecognizerParams(struct Ivy::Extras::IGestureRecognizerParams * &)` | 27 | Exported Function
-`void __stdcall Ivy::Extras::CreateSketchEffectTransform(struct Ivy::Extras::ISketchEffectTransform * &)` | 39 | Exported Function
-`void __stdcall Ivy::Extras::CreateSortingTransform(struct Ivy::Extras::SortConfig const *,unsigned int,struct Ivy::Extras::ISortingTransform * &)` | 40 | Exported Function
-`void __stdcall Ivy::Extras::CreateNumDataArray(struct Ivy::Extras::INumDataArray * &)` | 33 | Exported Function
-`void __stdcall Ivy::Extras::CreateSimpleColorCycleFormatter(struct Ivy::Extras::ISimpleColorCycleFormatter * &)` | 38 | Exported Function
-`void __stdcall Ivy::Extras::CreateD2dChartElementRenderer(struct IDWriteFactory &,struct Ivy::Extras::ID2dChartElementRenderer * &)` | 15 | Exported Function
-`void __stdcall Ivy::Extras::CreateDataOverrideTransform(enum Ivy::ChartDataDimension,unsigned int,double,enum Ivy::Extras::DataOverridePolicy,struct Ivy::Extras::DataOverrideRange const *,unsigned int,struct Ivy::Extras::IChartDataTransform * &)` | 16 | Exported Function
-`void __stdcall Ivy::Extras::CreateCachingDataSource(struct Ivy::Extras::ICachingDataSource * &)` | 9 | Exported Function
-`void __stdcall Ivy::Extras::CreateChartDataTransformChain(struct Ivy::Extras::IChartDataTransformChain * &)` | 13 | Exported Function
-`void __stdcall Ivy::Extras::CreateGeometryExtentsCalculator(struct Ivy::Extras::IGeometryExtentsCalculator * &)` | 23 | Exported Function
-`void __stdcall Ivy::Extras::CreateGeometryFilter(struct Ivy::Extras::IGeometryFilter * &)` | 24 | Exported Function
-`void __stdcall Ivy::Extras::CreateGdiplusChartElementRenderer(struct Ivy::Extras::IGdiplusChartElementRenderer * &)` | 19 | Exported Function
-`void __stdcall Ivy::Extras::CreateGeometryEmphasizer(struct Ivy::Extras::IGeometryEmphasizer * &)` | 22 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::CreateMover(struct Ivy::IChartElement &,struct Ivy::Extras::Interactivities::IMoverHandler &,struct Ivy::Extras::IGestureRecognizerParams &,struct Ivy::Extras::Interactivities::IMover * &)` | 32 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::CreatePushButton(struct Ivy::IChart &,struct Ivy::Extras::Interactivities::IPushButtonHandler &,struct Ivy::Extras::Interactivities::IPushButton * &)` | 35 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::CreateGenericInteractivity(struct Ivy::Extras::IGestureRecognizer &,struct Ivy::Extras::Interactivities::IGenericInteractivity * &)` | 20 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::CreateHighlighter(struct Ivy::IChart &,struct Ivy::Extras::Interactivities::IHighlighterHandler &,struct Ivy::Extras::Interactivities::IHighlighter * &)` | 29 | Exported Function
-`void __stdcall Ivy::Extras::RenderChartElementTree(struct Ivy::IChartElement &,class Gdiplus::Graphics &,struct Ivy::Extras::IGdiplusChartElementRenderer &,struct Ivy::IGeometryTransform *)` | 59 | Exported Function
-`void __stdcall Ivy::Extras::RenderChartElementTree(struct Ivy::IChartElement &,struct ID2D1RenderTarget &,struct Ivy::Extras::ID2dChartElementRenderer &,struct Ivy::IGeometryTransform *)` | 58 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::CreateTooltip(struct Ivy::IChart &,struct Ivy::Extras::Interactivities::ITooltip * &)` | 46 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::UnregisterWin32Control(void)` | 64 | Exported Function
-`void __stdcall Ivy::Extras::CreateStringToIndexDataTransform(enum Ivy::ChartDataDimension,unsigned int,enum Ivy::ChartDataDimension,struct Ivy::Extras::IStringToIndexDataTransform * &,enum Ivy::Extras::StringToIndexTargetMode)` | 43 | Exported Function
-`void __stdcall Ivy::Extras::CreateStringToValueDataTransform(enum Ivy::ChartDataDimension,enum Ivy::ChartDataDimension,double,struct Ivy::Extras::IStringToValueDataTransform * &)` | 44 | Exported Function
-`void __stdcall Ivy::Extras::CreateStatisticalSummaryTransform(struct Ivy::Extras::IStatisticalSummaryTransform * &)` | 41 | Exported Function
-`void __stdcall Ivy::Extras::CreateStringDataArray(struct Ivy::Extras::IStringDataArray * &)` | 42 | Exported Function
-`void __stdcall Ivy::Extras::EnumerateChartPartGeometry(struct Ivy::IChartPart &,struct Ivy::IGeometrySink &,enum Ivy::Extras::EnumerateChartPartGeometryOptions,struct Ivy::IChartElement *)` | 52 | Exported Function
-`void __stdcall Ivy::Extras::Interactivities::CreateChartBanner(struct Ivy::IChart &,struct Ivy::Extras::Interactivities::IChartBannerHandler &,struct Ivy::Extras::Interactivities::IChartBanner * &)` | 11 | Exported Function
-`void __stdcall Ivy::Extras::CreateSumToDeltaTransform(enum Ivy::ChartDataDimension,struct Ivy::Extras::IChartDataTransform * &)` | 45 | Exported Function
-`void __stdcall Ivy::Extras::CreateUiaProvider(struct Ivy::IChartPart &,struct Ivy::IGeometryTransform *,struct IRawElementProviderSimple &,double,double,struct IRawElementProviderSimple * &)` | 47 | Exported Function
-`struct ChartPlayer::IString * __stdcall ChartPlayer::Detail::ProduceJsonSceneGraphImpl(struct ChartPlayer::ISceneGraph &,struct ChartPlayer::ResultInfo *)` | 55 | Exported Function
-`void * __stdcall Ivy::DownCast(struct Ivy::IElement &,enum Ivy::ElementType)` | 50 | Exported Function
-`enum Ivy::Extras::RenderJsonResultType __stdcall Ivy::Extras::TryRenderJsonSceneGraph(struct Ivy::IChart &,struct Ivy::ILineMetricsHost &,struct Ivy::IGeometryTransform *,struct Ivy::Extras::IRenderJsonHost *,struct Ivy::Extras::IString * &)` | 63 | Exported Function
-`struct ChartPlayer::IString * __stdcall ChartPlayer::Detail::ProduceJsonInteractivityImpl(struct ChartPlayer::IInteractivity &,struct ChartPlayer::ResultInfo *)` | 54 | Exported Function
-`void __stdcall Ivy::CreateChartData(struct Ivy::IChartData * &)` | 12 | Exported Function
-`void __stdcall Ivy::CreateChartPart(struct Ivy::IChartPart * &,struct Ivy::IChartElement *,unsigned int,unsigned int)` | 14 | Exported Function
-`void __stdcall ChartPlayer::Detail::ChartPlayerDeleter(struct ChartPlayer::IDeletable *)` | 1 | Exported Function
-`void __stdcall Ivy::CreateChart(struct Ivy::IHost &,struct Ivy::IChart * &)` | 10 | Exported Function
-`bool __stdcall Ivy::ConvertDecimalToDateTime(double,struct Ivy::DateTime &)` | 3 | Exported Function
-`bool __stdcall Ivy::Extras::Interactivities::RegisterWin32Control(struct ID2D1Factory &,struct IDWriteFactory &)` | 57 | Exported Function
-`bool __stdcall Ivy::BaseCharts::RegisterAll(struct Ivy::IExtensionsRegistrar &)` | 56 | Exported Function
-`bool __stdcall Ivy::ConvertDateTimeToDecimal(struct Ivy::DateTime const &,double &)` | 2 | Exported Function
-`bool __stdcall Ivy::Extras::TryCreateJsonFromChart(struct Ivy::IChart &,struct Ivy::Extras::IString * &)` | 61 | Exported Function
-`enum Ivy::Extras::RenderJsonResultType __stdcall Ivy::Extras::TryRenderJsonInteractivity(struct Ivy::IChart &,struct Ivy::Extras::IInteractivityJsonHost *,struct Ivy::Extras::IString * &)` | 62 | Exported Function
-`bool __stdcall Ivy::Extras::PointerInputMsgFilter(struct HWND__ *,unsigned int,unsigned int,long,long *,struct Ivy::Extras::IPointerInput &)` | 53 | Exported Function
-`bool __stdcall Ivy::Extras::TryCreateChartFromJson(char const *,struct Ivy::IHost &,struct Ivy::IChart * &)` | 60 | Exported Function
-`void __stdcall Ivy::Extensions::MapSeriesLayout::CreateRegion(struct Ivy::Extensions::MapSeriesLayout::IRegion * &)` | 36 | Exported Function
-`void __stdcall Ivy::Extras::CreateAccElement(struct Ivy::IChartPart &,struct Ivy::IGeometryTransform *,struct Ivy::Extras::IAccElement * &)` | 4 | Exported Function
-`void __stdcall Ivy::DisableTelemetry(void)` | 49 | Exported Function
-`void __stdcall Ivy::EnableTelemetry(struct Ivy::ITelemetryListener *,enum Ivy::TraceSeverity)` | 51 | Exported Function
-`void __stdcall Ivy::Extras::CreateAutoContentClipper(struct ID2D1RenderTarget &,struct Ivy::IChartElement &,struct Ivy::ITransform &,struct Ivy::IRefCounted * &)` | 6 | Exported Function
-`void __stdcall Ivy::Extras::CreateBinningTransform(enum Ivy::ChartDataDimension,enum Ivy::ChartDataDimension,enum Ivy::ChartDataDimension,enum Ivy::ChartDataDimension,struct Ivy::Extras::IBinningTransform * &)` | 8 | Exported Function
-`void __stdcall Ivy::Extras::CreateAddNumericDimensionTransform(enum Ivy::ChartDataDimension,unsigned int,enum Ivy::ChartDataDimension,struct Ivy::Extras::IAddNumericDimensionTransform * &)` | 5 | Exported Function
-`void __stdcall Ivy::Extras::CreateAutoContentClipper(class Gdiplus::Graphics &,struct Ivy::IChartElement &,struct Ivy::ITransform &,struct Ivy::IRefCounted * &)` | 7 | Exported Function
-`void __stdcall Ivy::CreateGeometryColorizer(struct Ivy::IGeometryColorizer * &)` | 21 | Exported Function
-`void __stdcall Ivy::CreateGeometryTransformChain(struct Ivy::IGeometryTransformChain * &)` | 25 | Exported Function
-`void __stdcall Ivy::CreateDefaultElementFormats(struct Ivy::IDefaultElementFormats * &)` | 17 | Exported Function
-`void __stdcall Ivy::CreateExtensionsRegistrar(struct Ivy::IExtensionsRegistrar * &)` | 18 | Exported Function
-`void __stdcall Ivy::CreateRenderFormat(struct Ivy::IRenderFormat * &)` | 37 | Exported Function
-`void __stdcall Ivy::CreateViewSurface(struct Ivy::IViewSurface * &)` | 48 | Exported Function
-`void __stdcall Ivy::CreateLocaleInfo(struct Ivy::ILocaleInfo * &)` | 31 | Exported Function
-`void __stdcall Ivy::CreateNumberFormatter(struct Ivy::INumberFormatter * &)` | 34 | Exported Function
+`IHierarchyDataTransform` | 28 | Exported Function
+`IInteractivityStack` | 30 | Exported Function
+`IGestureRecognizer` | 26 | Exported Function
+`IGestureRecognizerParams` | 27 | Exported Function
+`ISketchEffectTransform` | 39 | Exported Function
+`ISortingTransform` | 40 | Exported Function
+`INumDataArray` | 33 | Exported Function
+`ISimpleColorCycleFormatter` | 38 | Exported Function
+`ID2dChartElementRenderer` | 15 | Exported Function
+`IChartDataTransform` | 16 | Exported Function
+`ICachingDataSource` | 9 | Exported Function
+`IChartDataTransformChain` | 13 | Exported Function
+`IGeometryExtentsCalculator` | 23 | Exported Function
+`IGeometryFilter` | 24 | Exported Function
+`IGdiplusChartElementRenderer` | 19 | Exported Function
+`IGeometryEmphasizer` | 22 | Exported Function
+`IMover` | 32 | Exported Function
+`IPushButton` | 35 | Exported Function
+`IGenericInteractivity` | 20 | Exported Function
+`IHighlighter` | 29 | Exported Function
+`IGeometryTransform` | 59 | Exported Function
+`IGeometryTransform` | 58 | Exported Function
+`ITooltip` | 46 | Exported Function
+`UnregisterWin32Control` | 64 | Exported Function
+`StringToIndexTargetMode` | 43 | Exported Function
+`IStringToValueDataTransform` | 44 | Exported Function
+`IStatisticalSummaryTransform` | 41 | Exported Function
+`IStringDataArray` | 42 | Exported Function
+`IChartElement` | 52 | Exported Function
+`IChartBanner` | 11 | Exported Function
+`IChartDataTransform` | 45 | Exported Function
+`IGeometryTransform` | 47 | Exported Function
+`ResultInfo` | 55 | Exported Function
+`ElementType` | 50 | Exported Function
+`IString` | 63 | Exported Function
+`ResultInfo` | 54 | Exported Function
+`IChartData` | 12 | Exported Function
+`IChartElement` | 14 | Exported Function
+`IDeletable` | 1 | Exported Function
+`IChart` | 10 | Exported Function
+`DateTime` | 3 | Exported Function
+`RegisterWin32Control` | 57 | Exported Function
+`IExtensionsRegistrar` | 56 | Exported Function
+`DateTime` | 2 | Exported Function
+`IString` | 61 | Exported Function
+`IString` | 62 | Exported Function
+`IPointerInput` | 53 | Exported Function
+`IChart` | 60 | Exported Function
+`IRegion` | 36 | Exported Function
+`IAccElement` | 4 | Exported Function
+`DisableTelemetry` | 49 | Exported Function
+`TraceSeverity` | 51 | Exported Function
+`IRefCounted` | 6 | Exported Function
+`IBinningTransform` | 8 | Exported Function
+`IAddNumericDimensionTransform` | 5 | Exported Function
+`IRefCounted` | 7 | Exported Function
+`IGeometryColorizer` | 21 | Exported Function
+`IGeometryTransformChain` | 25 | Exported Function
+`IDefaultElementFormats` | 17 | Exported Function
+`IExtensionsRegistrar` | 18 | Exported Function
+`IRenderFormat` | 37 | Exported Function
+`IViewSurface` | 48 | Exported Function
+`ILocaleInfo` | 31 | Exported Function
+`INumberFormatter` | 34 | Exported Function
 
 
 ## Signature

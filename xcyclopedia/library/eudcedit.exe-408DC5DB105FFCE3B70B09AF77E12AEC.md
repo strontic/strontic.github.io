@@ -22,6 +22,9 @@ SHA256 | `69A75AF2A72D2BB5BDFE7FBED5D155BD0CA0F466C8AFF9F762C3C8CB182CE8ED`
 SHA384 | `4274D7F7FA166225260E99FFB79CBF22A2D2B3810A0C5462D8795E6722778287BE92CEAD3809252FF430E540C4582241`
 SHA512 | `E5EA5BB824933FA65EED59ED2EA2CD3289211FE5EF8CEC03C891BCAF1914D22641E9501CA7797B61E56767E09FD667E205D935EE7DC4E24249BFA04B7A3B8AA2`
 SSDEEP | `6144:CjbJp4VmCeYhDnyyEdRFs4ds4WTRANeEpCem6j4TPhqyF1PZSqtYVY:Cjn4tdERFsxTRnTB13tYC`
+IMP | `55BB7E6E402D2FD81031D28641F5F78D`
+PESHA1 | `D39282C9E4BB9107B50DE674ED9B127AE3E4E680`
+PE256 | `7E24572911F575E0EC53D3D3A1D53EA0ADCDADA347B7EFD3A75E91F76D694A3C`
 
 ## Runtime Data
 
@@ -36,13 +39,16 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\eudcedit.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -80,7 +86,7 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -100,7 +106,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/69a75af2a72d2bb5bdfe7fbed5d155bd0ca0f466c8aff9f762c3c8cb182ce8ed/detection/
 
 ## File Similarity (ssdeep match)
 

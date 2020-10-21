@@ -26,60 +26,60 @@ PE256 | `E1695836C8D5CE4CB5BCB9F3AA4D5005D25CEF946C41D1C1532FB8C6930B1D7D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 6 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 5 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::MessageReceived(char const *)` | 30 | Exported Function
-`public: __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::AvayaEquinox(class SecomAvayaEquinoxAdapter::AvayaEquinox const &)` | 2 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 8 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 7 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::informHeadsetDisconnected(class SecomHeadset::CHeadsetInfo *)` | 47 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::ConnectionChanged(bool)` | 28 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::CallEnded(class SecomAvayaEquinoxAdapter::AvayaEquinoxCall *,bool)` | 27 | Exported Function
-`protected: virtual enum SeComAppDefs::CONNECTION_TYPE __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::getConnectionType(void)` | 42 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::informHeadsetConnected(class std::shared_ptr<class SecomHeadset::CHeadsetInfo>)` | 46 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::informConnectedHsListToAdapters(class std::list<class std::shared_ptr<class SecomHeadset::CHeadsetInfo>,class std::allocator<class std::shared_ptr<class SecomHeadset::CHeadsetInfo> > > *)` | 45 | Exported Function
-`protected: virtual void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::destroy(void)` | 40 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 3 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 13 | Exported Function
-`public: static class std::shared_ptr<class SecomAvayaEquinoxAdapter::AvayaEquinox> __cdecl SecomAvayaEquinoxAdapter::AvayaEquinox::GetInstance(class ISFEventListener *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 29 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 19 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 14 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 12 | Exported Function
-`public: virtual __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::~AvayaEquinox(void)` | 11 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 16 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 10 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 9 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 4 | Exported Function
-`public: class SecomAvayaEquinoxAdapter::AvayaEquinox & __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::operator=(class SecomAvayaEquinoxAdapter::AvayaEquinox const &)` | 15 | Exported Function
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 18 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 17 | Exported Function
-`private: class SecomAvayaEquinoxAdapter::AvayaEquinoxCall * __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::_GetCallWithID(int)` | 31 | Exported Function
-`private: bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::_RemoveCallFromList(class SecomAvayaEquinoxAdapter::AvayaEquinoxCall *,bool)` | 35 | Exported Function
-`private: __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::AvayaEquinox(class ISFEventListener *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 1 | Exported Function
-`private: void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::_HandleCallEventMsg(struct SecomAvayaEquinoxAdapter::EquinoxMessage const &)` | 32 | Exported Function
-`private: static class std::shared_ptr<class SecomAvayaEquinoxAdapter::AvayaEquinox> SecomAvayaEquinoxAdapter::AvayaEquinox::_pEquinoxInstance` | 36 | Exported Function
-`private: static class ISFEventListener * SecomAvayaEquinoxAdapter::AvayaEquinox::_pEvtlistener` | 37 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 26 | Exported Function
-`const SecomAvayaEquinoxAdapter::AvayaEquinox::``vftable'{for ``SecomAvayaEquinoxAdapter::EquinoxCallEventHandler'}` | 20 | Exported Function
+`IHSInterface` | 6 | Exported Function
+`IHSInterface` | 5 | Exported Function
+`MessageReceived` | 30 | Exported Function
+`AvayaEquinox` | 2 | Exported Function
+`ISFEventListener` | 8 | Exported Function
+`ISFEventListener` | 7 | Exported Function
+`CHeadsetInfo` | 47 | Exported Function
+`ConnectionChanged` | 28 | Exported Function
+`AvayaEquinoxCall` | 27 | Exported Function
+`getConnectionType` | 42 | Exported Function
+`CHeadsetInfo` | 46 | Exported Function
+`CHeadsetInfo` | 45 | Exported Function
+`destroy` | 40 | Exported Function
+`ICall` | 3 | Exported Function
+`IHSInterface` | 13 | Exported Function
+`allocator` | 29 | Exported Function
+`ISFInterface` | 19 | Exported Function
+`ISFInterface` | 14 | Exported Function
+`ICall` | 12 | Exported Function
+`AvayaEquinox` | 11 | Exported Function
+`ICall` | 16 | Exported Function
+`ISFInterface` | 10 | Exported Function
+`ISFInterface` | 9 | Exported Function
+`ICall` | 4 | Exported Function
+`AvayaEquinox` | 15 | Exported Function
+`operator` | 18 | Exported Function
+`IHSInterface` | 17 | Exported Function
+`_GetCallWithID` | 31 | Exported Function
+`AvayaEquinoxCall` | 35 | Exported Function
+`allocator` | 1 | Exported Function
+`EquinoxMessage` | 32 | Exported Function
+`_pEquinoxInstance` | 36 | Exported Function
+`_pEvtlistener` | 37 | Exported Function
+`ISFInterface` | 26 | Exported Function
+`EquinoxCallEventHandler` | 20 | Exported Function
 `const ISFEventListener::``vftable'` | 25 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 24 | Exported Function
-`const SeComCall::ICall::``vftable'` | 23 | Exported Function
-`const SecomAvayaEquinoxAdapter::AvayaEquinox::``vftable'{for ``SFAdapterInterface::ISFInterface'}` | 22 | Exported Function
-`const SecomAvayaEquinoxAdapter::AvayaEquinox::``vftable'{for ``SecomAvayaEquinoxAdapter::EquinoxClientObserver'}` | 21 | Exported Function
-`private: void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::_HandleEquinoxMsg(struct SecomAvayaEquinoxAdapter::EquinoxMessage const &)` | 33 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::offHook(void)` | 51 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::muteCall(bool)` | 50 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::isRedialNotSupported(void)` | 49 | Exported Function
-`protected: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::getID(void)` | 43 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::redial(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 53 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::onHook(void)` | 52 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::isOffHookNotSupported(void)` | 48 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::activeDeviceChangedFromSDK(void)` | 38 | Exported Function
-`private: void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::writeToLog(enum SecomLogManager::LogTypes,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 54 | Exported Function
-`private: void __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::_HandleRegistrationMsg(struct SecomAvayaEquinoxAdapter::EquinoxMessage const &)` | 34 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::getMuteStatus(void)` | 44 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::disconnect(void)` | 41 | Exported Function
-`protected: virtual bool __thiscall SecomAvayaEquinoxAdapter::AvayaEquinox::connect(void)` | 39 | Exported Function
+`IHSInterface` | 24 | Exported Function
+`ICall` | 23 | Exported Function
+`ISFInterface` | 22 | Exported Function
+`EquinoxClientObserver` | 21 | Exported Function
+`EquinoxMessage` | 33 | Exported Function
+`offHook` | 51 | Exported Function
+`muteCall` | 50 | Exported Function
+`isRedialNotSupported` | 49 | Exported Function
+`getID` | 43 | Exported Function
+`allocator` | 53 | Exported Function
+`onHook` | 52 | Exported Function
+`isOffHookNotSupported` | 48 | Exported Function
+`activeDeviceChangedFromSDK` | 38 | Exported Function
+`allocator` | 54 | Exported Function
+`EquinoxMessage` | 34 | Exported Function
+`getMuteStatus` | 44 | Exported Function
+`disconnect` | 41 | Exported Function
+`connect` | 39 | Exported Function
 
 
 ## Signature

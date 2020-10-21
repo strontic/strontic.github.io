@@ -18,6 +18,9 @@ SHA256 | `9FAAC81785C13368908C6A64C0A0B88D58060CF9F0148717EA3DEB64ADD1A874`
 SHA384 | `B84609538C6B0B3D6C686F05B4A6305F3DDDEDAF79307BCD82AF7C5BD418C051DBD658EE759F7419182E8C9CEBFCDF4A`
 SHA512 | `5F4A102D6034E535F51D70876F6E22523D481BB1417921758208F3B4D3A28BB41B39D28B6BB9509F15AC07FF9B6651E5D0EE66B51C7ECE13DE3E146AA7CA0918`
 SSDEEP | `384:T9zXIqagu/0Ei6GmtpWowWcmXjDBRJDRjY1lxd:BzdG/0TZ8VzXj1P`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `F6E0DA3F1D552F1013E29F01F86467AC3E1E0598`
+PE256 | `A6C9478E691C65D19AD9C6B03C7D53F1217BFA766876BF72949C89618C59B04D`
 
 ## Runtime Data
 
@@ -41,15 +44,47 @@ Error: Invalid argument specified
 
 Path |
 -- |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\5543cca0df435801e2303ff46a482ed5\mscorlib.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\f29b1120627489754c4b8dd317bbe950\System.Core.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System\6885802f40fd803e49150d8a2b43a09b\System.ni.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\CRYPTBASE.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rsaenh.dll |
 C:\Windows\system32\ScriptRunner.exe |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -62,12 +97,18 @@ C:\Windows\system32\ScriptRunner.exe |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9faac81785c13368908c6a64c0a0b88d58060cf9f0148717ea3deb64add1a874/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Common Files\microsoft shared\Ink\TabTip32.exe](TabTip32.exe-725AAEFD55B6DEA9663EEAA04E881C0E.md) | 32
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-50D5FD1290D94D46ACCA0585311E74D5.md) | 35
 [C:\WINDOWS\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-E22E7BD6B146BDE93DC48643B772D8BB.md) | 38
 [C:\Windows\system32\browser_broker.exe](browser_broker.exe-C7C56DB13D5F1A2BB6DE92B8BBD22CA0.md) | 35

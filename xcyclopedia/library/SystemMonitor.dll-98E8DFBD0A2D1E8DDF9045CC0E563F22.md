@@ -25,25 +25,25 @@ PE256 | `2D9081542319E7BA82AA16E9D2F547AB9C23D3F3E06E3A2FCD185191C6A4EEF1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class CSFSystemMonitor::AppEventObserver & __thiscall CSFSystemMonitor::AppEventObserver::operator=(class CSFSystemMonitor::AppEventObserver &&)` | 10 | Exported Function
-`public: class CSFSystemMonitor::AppEventObserver & __thiscall CSFSystemMonitor::AppEventObserver::operator=(class CSFSystemMonitor::AppEventObserver const &)` | 11 | Exported Function
-`public: __thiscall CSFSystemMonitor::SystemMonitor::SystemMonitor(class CSFSystemMonitor::SystemMonitor const &)` | 7 | Exported Function
-`public: __thiscall CSFSystemMonitor::SystemMonitor::SystemMonitor(void)` | 8 | Exported Function
-`public: class CSFSystemMonitor::PowerEventObserver & __thiscall CSFSystemMonitor::PowerEventObserver::operator=(class CSFSystemMonitor::PowerEventObserver &&)` | 12 | Exported Function
-`public: static class std::shared_ptr<class CSFSystemMonitor::SystemMonitor> __cdecl CSFSystemMonitor::SystemMonitorFactory::getInstance(void)` | 18 | Exported Function
-`public: virtual __thiscall CSFSystemMonitor::SystemMonitor::~SystemMonitor(void)` | 9 | Exported Function
-`public: class CSFSystemMonitor::PowerEventObserver & __thiscall CSFSystemMonitor::PowerEventObserver::operator=(class CSFSystemMonitor::PowerEventObserver const &)` | 13 | Exported Function
-`public: class CSFSystemMonitor::SystemMonitor & __thiscall CSFSystemMonitor::SystemMonitor::operator=(class CSFSystemMonitor::SystemMonitor const &)` | 14 | Exported Function
-`public: __thiscall CSFSystemMonitor::PowerEventObserver::PowerEventObserver(void)` | 6 | Exported Function
-`const CSFSystemMonitor::PowerEventObserver::``vftable'` | 16 | Exported Function
-`const CSFSystemMonitor::SystemMonitor::``vftable'` | 17 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFSystemMonitor::AppStateEventTypeEnum::toString(enum CSFSystemMonitor::AppStateEventTypeEnum::AppEventType)` | 19 | Exported Function
-`const CSFSystemMonitor::AppEventObserver::``vftable'` | 15 | Exported Function
-`public: __thiscall CSFSystemMonitor::AppEventObserver::AppEventObserver(class CSFSystemMonitor::AppEventObserver &&)` | 1 | Exported Function
-`public: __thiscall CSFSystemMonitor::PowerEventObserver::PowerEventObserver(class CSFSystemMonitor::PowerEventObserver &&)` | 4 | Exported Function
-`public: __thiscall CSFSystemMonitor::PowerEventObserver::PowerEventObserver(class CSFSystemMonitor::PowerEventObserver const &)` | 5 | Exported Function
-`public: __thiscall CSFSystemMonitor::AppEventObserver::AppEventObserver(class CSFSystemMonitor::AppEventObserver const &)` | 2 | Exported Function
-`public: __thiscall CSFSystemMonitor::AppEventObserver::AppEventObserver(void)` | 3 | Exported Function
+`AppEventObserver` | 10 | Exported Function
+`AppEventObserver` | 11 | Exported Function
+`SystemMonitor` | 7 | Exported Function
+`SystemMonitor` | 8 | Exported Function
+`PowerEventObserver` | 12 | Exported Function
+`getInstance` | 18 | Exported Function
+`SystemMonitor` | 9 | Exported Function
+`PowerEventObserver` | 13 | Exported Function
+`SystemMonitor` | 14 | Exported Function
+`PowerEventObserver` | 6 | Exported Function
+`PowerEventObserver` | 16 | Exported Function
+`SystemMonitor` | 17 | Exported Function
+`AppEventType` | 19 | Exported Function
+`AppEventObserver` | 15 | Exported Function
+`AppEventObserver` | 1 | Exported Function
+`PowerEventObserver` | 4 | Exported Function
+`PowerEventObserver` | 5 | Exported Function
+`AppEventObserver` | 2 | Exported Function
+`AppEventObserver` | 3 | Exported Function
 
 
 ## Signature

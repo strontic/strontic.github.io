@@ -23,6 +23,9 @@ SHA256 | `7E125B3AF9E9BC1FAF52C24E5E0A4E287D362EC07AF491FA8D7F27609BEFBE43`
 SHA384 | `49F3B4ED6F01852DC9B8153C3FB92C6EEBAFF7E287F45A6DE58E5931D028F7E19A5E447DD6E8CCFA9B483CD51DD8FB6F`
 SHA512 | `93BBAB4D25053D5590938F78612FF5EC407E3D9C5B3D98DF61596E35F1442234794A633D3CF051A6B3EFDBCBD083DB0427439956D3F9B2CEC42496324D247A02`
 SSDEEP | `3072:Sn9/1I5mkNKPKR1VNDnGOb+ahXNqJohePnq45L84ciFB:e1IE4U+NDGOb+asEwv5LbFB`
+IMP | `74C91AAB7B963325BC9BC79D27993FB4`
+PESHA1 | `A8EAC0B7689C94F9F649DF08E6248FB61303BA43`
+PE256 | `DFBA78E085EA0F717EA01BD65077CE43146240D004C1EB785BAB873DC22152E6`
 
 ## Runtime Data
 
@@ -35,15 +38,18 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\iexpress.exe.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1397_en-us_cabec5fe9b1c2b4c\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1518_en-us_cac17eb89b198e19\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1397_en-us_cabec5fe9b1c2b4c | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1518_en-us_cac17eb89b198e19 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1518_none_b4b635d36e735c2c | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -74,7 +80,12 @@ C:\Windows\SysWOW64\iexpress.exe |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/7e125b3af9e9bc1faf52c24e5e0a4e287d362ec07af491fa8d7f27609befbe43/detection/
 
 ## File Similarity (ssdeep match)
 

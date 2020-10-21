@@ -44,57 +44,64 @@ SSDEEP | `768:C/j1yRTXpMQ/6rbRpBwtx+PeqT+R9mUqekpva2lkCI8kMjjf4BSx8VgfxO69uGUr:C
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
+
 ## tlntadmn
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Administers a local or remote computer that is running the telnet Server Service.
+Administers a local or remote computer that is running the telnet Server Service. If used without parameters, **tlntadmn** displays the current server settings.
+
+This command requires you to log on to the local computer with administrative credentials. To administer a remote computer, you must also provide administrative credentials for the remote computer. You can do so by logging on to the local computer with an account that has administrative credentials for both the local computer and the remote computer. If you can't use this method, you can use the **-u** and **-p** parameters to provide administrative credentials for the remote computer.
 
 ### Syntax
-```
-tlntadmn [<computerName>] [-u <UserName>] [-p <Password>] [{start | stop | pause | continue}] [-s {<SessionID> | all}] [-k {<SessionID> | all}] [-m {<SessionID> | all}  <Message>] [config [dom = <Domain>] [ctrlakeymap = {yes | no}] [timeout = <hh>:<mm>:<ss>] [timeoutactive = {yes | no}] [maxfail = <attempts>] [maxconn = <Connections>] [port = <Number>] [sec {+ | -}NTLM {+ | -}passwd] [mode = {console | stream}]] [-?]
-```
-##### Parameters
 
-|                   Parameter                    |                                                                                                                                                       Description                                                                                                                                                        |
-|------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                \<computerName>                 |                                                                                                                    Specifies the name of the server to connect to. The default is the local computer.                                                                                                                    |
-|         -u \<UserName> -p \<Password>          |                                                Specifies administrative credentials for a remote server that you want to administer. This parameter is required if you want to administer a remote server to which you are not logged on with administrative credentials.                                                |
-|                     start                      |                                                                                                                                            starts the telnet Server Service.                                                                                                                                             |
-|                      stop                      |                                                                                                                                             Stops the telnet Server Service                                                                                                                                              |
-|                     pause                      |                                                                                                                          pauses the telnet Server Service. No new connections will be accepted.                                                                                                                          |
-|                    continue                    |                                                                                                                                            Resumes the telnet Server Service.                                                                                                                                            |
-|          -s {\<SessionID> &#124; all}          |                                                                                                                                             Displays active telnet sessions.                                                                                                                                             |
-|          -k {\<SessionID> &#124; all}          |                                                                                                        Ends telnet sessions. type the Session ID to end a specific session, or type all to end all the sessions.                                                                                                         |
-|    -m {\<SessionID> &#124; all}  <Message>     |                                                   Sends a message to one or more sessions. type the session ID to send a message to a specific session, or type all to send a message to all sessions. type the message that you want to send between quotation marks.                                                   |
-|             config dom = \<Domain>             |                                                                                                                                      Configures the default domain for the server.                                                                                                                                       |
-|      config ctrlakeymap = {yes &#124; no}      |                                                                                     Specifies if you want the telnet server to interpret CTRL+A as ALT. type **yes** to map the shortcut key, or type **no** to prevent the mapping.                                                                                     |
-|       config timeout = \<hh>:\<mm>:\<ss>       |                                                                                                                                 Sets the time-out period in hours, minutes, and seconds.                                                                                                                                 |
-|     config timeoutactive = {yes &#124; no      |                                                                                                                                            Enables the idle session timeout.                                                                                                                                             |
-|          config maxfail = \<attempts>          |                                                                                                                          Sets the maximum number of failed logon attempts before disconnecting.                                                                                                                          |
-|        config maxconn = \<Connections>         |                                                                                                                                         Sets the maximum number of connections.                                                                                                                                          |
-|            config port = <\Number>             |                                                                                                                    Sets the telnet port. You must specify the port with an integer smaller than 1024.                                                                                                                    |
-| config sec {+ &#124; -}NTLM {+ &#124; -}passwd | Specifies whether you want to use NTLM, a password, or both to authenticate logon attempts. To use a particular type of authentication, type a plus sign (**+**) before that type of authentication. To prevent using a particular type of authentication, type a minus sign (**-**) before that type of authentication. |
-|     config mode = {console &#124; stream}      |                                                                                                                                             Specifies the mode of operation.                                                                                                                                             |
-|                       -?                       |                                                                                                                                           Displays help at the command prompt.                                                                                                                                           |
+```
+tlntadmn [<computername>] [-u <username>] [-p <password>] [{start | stop | pause | continue}] [-s {<sessionID> | all}] [-k {<sessionID> | all}] [-m {<sessionID> | all}  <message>] [config [dom = <domain>] [ctrlakeymap = {yes | no}] [timeout = <hh>:<mm>:<ss>] [timeoutactive = {yes | no}] [maxfail = <attempts>] [maxconn = <connections>] [port = <number>] [sec {+ | -}NTLM {+ | -}passwd] [mode = {console | stream}]] [-?]
+```
 
-### Remarks
--   To display the server settings, type **tlntadmn** without any parameters.
--   To use the **tlntadmn** command, you must log on to the local computer with administrative credentials. To administer a remote computer, you must also provide administrative credentials for the remote computer. You can do so by logging on to the local computer with an account that has administrative credentials for both the local computer and the remote computer. If you cannot use this method, you can use the **-u** and **-p** parameters to provide administrative credentials for the remote computer.
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| `<computername>` | Specifies the name of the server to connect to. The default is the local computer. |
+| -u `<username> -p <password>` | Specifies administrative credentials for a remote server that you want to administer. This parameter is required if you want to administer a remote server to which you are not logged on with administrative credentials. |
+| start | starts the telnet Server Service. |
+| stop | Stops the telnet Server Service |
+| pause | Pauses the telnet Server Service. No new connections will be accepted. |
+| continue | Resumes the telnet Server Service. |
+| -s `{<sessionID> | all}` | Displays active telnet sessions. |
+| -k `{<sessionID> | all}` | Ends telnet sessions. Type the Session ID to end a specific session, or type all to end all the sessions. |
+| -m `{<sessionID> | all}  <message>` | Sends a message to one or more sessions. Type the session ID to send a message to a specific session, or type all to send a message to all sessions. type the message that you want to send between quotation marks. |
+| config dom = `<domain>` | Configures the default domain for the server. |
+| config ctrlakeymap = `{yes | no}` | Specifies if you want the telnet server to interpret CTRL+A as ALT. Type **yes** to map the shortcut key, or type **no** to prevent the mapping. |
+| config timeout = `<hh>:<mm>:<ss>` | Sets the time-out period in hours, minutes, and seconds. |
+| config timeoutactive = `{yes | no}` | Enables the idle session timeout. |
+| config maxfail = `<attempts>` | Sets the maximum number of failed logon attempts before disconnecting. |
+| config maxconn = `<connections>` | Sets the maximum number of connections. |
+| config port = `<number>` | Sets the telnet port. You must specify the port with an integer smaller than 1024. |
+| config sec `{+ | -}NTLM {+ | -}passwd` | Specifies whether you want to use NTLM, a password, or both to authenticate logon attempts. To use a particular type of authentication, type a plus sign (**+**) before that type of authentication. To prevent using a particular type of authentication, type a minus sign (**-**) before that type of authentication. |
+| config mode = `{console | stream}` | Specifies the mode of operation. |
+| -? | Displays help at the command prompt. |
 
 ### Examples
-Configure the idle session timeout to 30 minutes.
+
+To configure the idle session timeout to 30 minutes, type:
+
 ```
 tlntadmn config timeout=0:30:0
 ```
-Display active telnet sessions.
+
+To display active telnet sessions, type:
+
 ```
 tlntadmn -s
 ```
 
 ### Additional References
--   [telnet Operations Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753164(v=ws.10))
+
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [telnet Operations Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753164(v=ws.10))
 
 ---
 

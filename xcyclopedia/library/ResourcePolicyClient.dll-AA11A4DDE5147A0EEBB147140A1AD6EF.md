@@ -71,6 +71,7 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-ABA7E7513886979AF8A3B68A1F4E591D.md) | 36
 [C:\Windows\system32\SysResetErr.exe](SysResetErr.exe-3CAB51BC753E5A3B1C029CD7B987BC1F.md) | 29
 
 

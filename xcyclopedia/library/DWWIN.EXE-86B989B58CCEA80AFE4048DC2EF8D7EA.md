@@ -48,6 +48,11 @@ C:\Windows\SysWOW64\DWWIN.EXE |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\DWWIN.EXE](DWWIN.EXE-D99D78D1814071C80407766FBE4D74A9.md) | 91
 
 
 

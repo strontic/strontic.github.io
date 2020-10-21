@@ -26,76 +26,76 @@ PE256 | `0542429ECD2F20B0F959834357B42B5E6ABD6D93BC7775A39AB1E882F44F7C98`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class Math::TUnits<float,struct Math::TUnitsRatioTag<struct Math::DevicePixels,struct Math::Inches> > __stdcall Osf::DpiUtils::GetPixelsPerInch(struct HWND__ *)` | 52 | Exported Function
-`public: static int __stdcall Osf::DpiUtils::ScaleForHwnd(struct HWND__ *,int)` | 66 | Exported Function
-`public: static bool __stdcall Osf::DpiUtils::IsDynamicDpiEnabled(void)` | 59 | Exported Function
-`public: static class Math::TUnits<float,struct Math::TUnitsRatioTag<struct Math::DevicePixels,struct Math::DeviceIndependentPixels> > __stdcall Osf::DpiUtils::GetScaleFactorForHwnd(struct HWND__ *)` | 54 | Exported Function
-`public: static long __stdcall Osf::ContextMenuExtensionPoint::Create(class Mso::TCntPtr<class Osf::ContextMenuExtensionPoint> &)` | 6 | Exported Function
-`public: static long __stdcall Osf::CustomPaneExtensionPoint::Create(class Mso::TCntPtr<class Osf::CustomPaneExtensionPoint> &)` | 7 | Exported Function
-`public: static long __stdcall Osf::BackgroundTaskExtensionPoint::Create(class Mso::TCntPtr<class Osf::BackgroundTaskExtensionPoint> &)` | 4 | Exported Function
-`public: static long __stdcall Osf::ButtonExtensionElement::Create(struct Osf::IExtensionPoint *,class Mso::TCntPtr<class Osf::ButtonExtensionElement> &)` | 5 | Exported Function
-`long __stdcall Osf::SuppressFlighting(enum Osf::OsfFlightingId)` | 69 | Exported Function
-`long __stdcall Osf::HrReadCustomFunctionFromCache(struct tagVARIANT *)` | 56 | Exported Function
-`long __stdcall Osf::HrWriteCustomFunctionToCache(wchar_t const *,wchar_t const *)` | 57 | Exported Function
-`long __stdcall Osf::FillMarketplacesFromSolutionRef(struct IOsfSolutionReference const *,struct OsfMarketplace &,struct OsfMarketplace &)` | 45 | Exported Function
-`long __stdcall Osf::GetAppCommandNoUIControlWindow(bool,struct HWND__ * *)` | 46 | Exported Function
-`long __stdcall Osf::ResetSolutionReferenceTrustFlags(struct IOsfSolutionReference *)` | 65 | Exported Function
-`long __stdcall Osf::ShutdownOsfAddinMiniCacheReader(void)` | 67 | Exported Function
-`long __stdcall Osf::ManifestParser::ParseIdHelper(enum OsfStoreType,wchar_t const *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 64 | Exported Function
-`long __stdcall Osf::MsoUtils::GetUNCPath(wchar_t const *,class ATL::CComBSTR &)` | 55 | Exported Function
-`public: static long __stdcall Osf::DetectedEntityExtensionPoint::Create(class Mso::TCntPtr<class Osf::DetectedEntityExtensionPoint> &)` | 8 | Exported Function
-`public: static void __stdcall Osf::DpiUtils::Initialize(enum OsfHost)` | 58 | Exported Function
-`void __cdecl Osf::LogOsfRuntimeEvent(wchar_t const *,enum Mso::Logging::Severity,wchar_t const *,...)` | 61 | Exported Function
-`public: static long __stdcall Osf::OsfSolutionHostExtender::Create(wchar_t const *,enum Osf::OfficeFormFactor::Enum,struct Osf::IWebAddInStringCollection *,class Mso::TCntPtr<class Osf::OsfSolutionHostExtender> &)` | 18 | Exported Function
-`public: static long __stdcall Osf::WebAddInStringCollection::Create(class Mso::TCntPtr<class Osf::WebAddInStringCollection> &)` | 19 | Exported Function
-`void __stdcall Osf::ShutdownOsfRuntimeLogging(void)` | 68 | Exported Function
-`wchar_t const * __stdcall Osf::GetCompatExtensionIdForHost(enum OsfHost)` | 47 | Exported Function
-`void __stdcall Osf::DeleteOsfRibbonExtensibilityManager(void)` | 42 | Exported Function
-`void __stdcall Osf::LogOsfRuntimeEvent(enum Mso::Logging::Severity,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *)` | 62 | Exported Function
-`public: static long __stdcall Osf::OsfAppCommandAction::Create(class Mso::TCntPtr<class Osf::OsfAppCommandAction> &)` | 17 | Exported Function
-`public: static long __stdcall Osf::GraphicalExtensionElement::Create(enum Osf::ExtensionElementType::Enum,struct Osf::IExtensionPoint *,class Mso::TCntPtr<class Osf::GraphicalExtensionElement> &)` | 11 | Exported Function
-`public: static long __stdcall Osf::LaunchEventExtensionElement::Create(struct Osf::IExtensionPoint *,class Mso::TCntPtr<class Osf::LaunchEventExtensionElement> &)` | 12 | Exported Function
-`public: static long __stdcall Osf::EventExtensionElement::Create(struct Osf::IExtensionPoint *,class Mso::TCntPtr<class Osf::EventExtensionElement> &)` | 9 | Exported Function
-`public: static long __stdcall Osf::ExtensionPoint::Create(enum Osf::ExtensionPointType::Enum,class Mso::TCntPtr<class Osf::ExtensionPoint> &)` | 10 | Exported Function
-`public: static long __stdcall Osf::ModuleExtensionPoint::Create(class Mso::TCntPtr<class Osf::ModuleExtensionPoint> &)` | 15 | Exported Function
-`public: static long __stdcall Osf::NavNodeExtensionElement::Create(struct Osf::IExtensionPoint *,class Mso::TCntPtr<class Osf::NavNodeExtensionElement> &)` | 16 | Exported Function
-`public: static long __stdcall Osf::LaunchEventsExtensionPoint::Create(class Mso::TCntPtr<class Osf::LaunchEventsExtensionPoint> &)` | 13 | Exported Function
-`public: static long __stdcall Osf::MenuExtensionElement::Create(struct Osf::IExtensionPoint *,class Mso::TCntPtr<class Osf::MenuExtensionElement> &)` | 14 | Exported Function
-`class Mso::TCntPtr<struct Osf::IOsfRibbonExtensibilityManager> __stdcall Osf::CreateOsfRibbonExtensibilityManagerEx(struct Osf::IUIExtensibilityRegistry *,enum OsfHost,struct Osf::IOsfSolutionAppCommandCallback *,bool,struct Osf::IOsfIdentityManager *)` | 30 | Exported Function
-`class Mso::TCntPtr<struct Osf::IOsfRibbonExtensibilityManager> __stdcall Osf::GetRibbonExtensibilityManager(void)` | 53 | Exported Function
-`class Mso::TCntPtr<struct Osf::IOsfRibbonExtensibilityManager> __stdcall Osf::CreateOsfRibbonExtensibilityManager(class NetUI::CntPtrTo<struct OfficeSpace::IOfficeSpaceEx>,enum OsfHost,struct Osf::IOsfSolutionAppCommandCallback *)` | 29 | Exported Function
-`class Mso::TCntPtr<struct Osf::IOsfRibbonExtensibilityManager> __stdcall Osf::CreateOsfRibbonExtensibilityManager(struct Osf::IUIExtensibilityRegistry *,enum OsfHost,struct Osf::IOsfSolutionAppCommandCallback *)` | 28 | Exported Function
-`enum Osf::ExtensionPointType::Enum __stdcall Osf::ExtensionPointType::ValFromName(wchar_t const *)` | 70 | Exported Function
-`enum Osf::MsoUtils::MsoAddinXStatus __stdcall Osf::MsoUtils::GetMsoAddinXStatus(class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > const &)` | 51 | Exported Function
-`class Mso::TCntPtr<struct SDX::SDK::IExtensionIdentity> __stdcall SDX::SDK::CreateExtensionIdentity(wchar_t const *,struct AppVersion const &,wchar_t const *,wchar_t const *)` | 26 | Exported Function
-`class std::shared_ptr<struct SDX::SDK::IExtensionLaunchProperties> __stdcall SDX::MSO::CreateLaunchProperties(void)` | 27 | Exported Function
-`bool __stdcall Osf::MsoUtils::OsfIsCatalogEqual(wchar_t const *,wchar_t const *,enum OsfStoreType)` | 63 | Exported Function
-`bool __stdcall Osf::CompareSolutionReferences(struct IOsfSolutionReference const *,struct IOsfSolutionReference const *,bool,bool &)` | 2 | Exported Function
-`bool __stdcall Osf::FOsfRuntimeLoggingUserEnabled(void)` | 44 | Exported Function
-`bool __stdcall Osf::CompareSolutionReferences(struct IOsfSolutionReference const *,struct IOsfExtensionPersistence const *)` | 3 | Exported Function
-`bool __stdcall Osf::CompareSolutionReferences(struct IOsfSolutionReference const *,struct IOsfSolutionReference const *)` | 1 | Exported Function
-`bool __stdcall Osf::GetFlightingStatusForFlag(enum Osf::OsfFlightingId,int,enum OsfHost)` | 50 | Exported Function
-`bool __stdcall Osf::IsStorageCompatibleWithOsfSolutionReference(struct IOsfSolutionReference const *,struct IOsfExtensionPersistence const *)` | 60 | Exported Function
-`bool __stdcall Osf::GetFlightingStatus(enum Osf::OsfFlightingId,enum OsfHost)` | 48 | Exported Function
-`bool __stdcall Osf::GetFlightingStatusEx(enum Osf::OsfFlightingId)` | 49 | Exported Function
-`long __stdcall Osf::CreateAppCommandNoUIControlContainer(struct IOsfAppManager *,struct IOsfExtensionPersistence *,struct IOsfControlContainer * *)` | 20 | Exported Function
-`long __stdcall Osf::CreateWebAddInOptionalProperties(struct IWebAddInReferenceInstance const &,class Mso::TCntPtr<struct IWebAddInOptionalProperties> &)` | 37 | Exported Function
-`long __stdcall Osf::CreateWebAddInReferenceInstance(enum OsfHost,enum Osf::OfficeFormFactor::Enum,wchar_t const *,wchar_t const *,struct IOsfSolutionReference &,class Mso::TCntPtr<struct IWebAddInReferenceInstance> &,struct IWebAddInOptionalProperties const *)` | 39 | Exported Function
-`long __stdcall Osf::CreateWebAddInInstance(struct IWebAddInReferenceInstance const *,struct IOsfSolutionManifest &,class Mso::TCntPtr<struct IWebAddInInstance> &)` | 34 | Exported Function
-`long __stdcall Osf::CreateWebAddInOptionalProperties(class Mso::TCntPtr<struct IWebAddInOptionalProperties> &)` | 36 | Exported Function
-`long __stdcall Osf::CreateWebAddInSummaryInstance(struct IWebAddInReferenceInstance const *,struct IOsfSolutionSummary &,class Mso::TCntPtr<struct IWebAddInSummaryInstance> &)` | 40 | Exported Function
-`long __stdcall Osf::DestroyAppCommandNoUIWindow(void)` | 43 | Exported Function
-`long __stdcall Osf::CreateWebAddInReferenceInstance(struct IWebAddInReferenceInstance const *,struct IOsfSolutionReference &,class Mso::TCntPtr<struct IWebAddInReferenceInstance> &)` | 38 | Exported Function
-`long __stdcall Osf::CreateWebAddInSummaryInstance(enum OsfHost,enum Osf::OfficeFormFactor::Enum,wchar_t const *,wchar_t const *,struct IOsfSolutionSummary &,class Mso::TCntPtr<struct IWebAddInSummaryInstance> &,struct IWebAddInOptionalProperties const *)` | 41 | Exported Function
-`long __stdcall Osf::CreateWebAddInInstance(enum OsfHost,enum Osf::OfficeFormFactor::Enum,wchar_t const *,wchar_t const *,struct IOsfSolutionManifest &,class Mso::TCntPtr<struct IWebAddInInstance> &,struct IWebAddInOptionalProperties const *)` | 35 | Exported Function
-`long __stdcall Osf::CreateAppCommandSolutionRef(wchar_t const *,struct AppVersion const &,enum OsfStoreType,wchar_t const *,wchar_t const *,wchar_t const *,struct Osf::IOsfAppCommandReference *,struct IOsfSolutionReference * *)` | 23 | Exported Function
-`long __stdcall Osf::CreateAppCommandSource(struct Osf::IExtensionElement *,wchar_t const *,unsigned long,class Mso::TCntPtr<struct Osf::IOsfAppCommandSource> &)` | 24 | Exported Function
-`long __stdcall Osf::CreateAppCommandReference(struct Osf::IExtensionElement *,class Mso::TCntPtr<struct Osf::IOsfAppCommandReference> &)` | 21 | Exported Function
-`long __stdcall Osf::CreateAppCommandReference(struct Osf::IOsfAppCommandSource *,enum Osf::CommandActionType::Enum,enum Osf::AppCommandArgument::Enum,wchar_t const *,enum Osf::AppCommandArgument::Enum,wchar_t const *,class Mso::TCntPtr<struct Osf::IOsfAppCommandReference> &)` | 22 | Exported Function
-`long __stdcall Osf::CreateSolutionRefFromMarketplaces(struct OsfMarketplace const &,struct OsfMarketplace const &,bool,struct IOsfSolutionReference * *)` | 32 | Exported Function
-`long __stdcall Osf::CreateSolutionRefFromPersistence(struct IOsfExtensionPersistence const *,bool,struct IOsfSolutionReference * *)` | 33 | Exported Function
-`long __stdcall Osf::CreateEmptyAppCommandReference(class Mso::TCntPtr<struct Osf::IOsfAppCommandReference> &)` | 25 | Exported Function
-`long __stdcall Osf::CreateSolutionRef(wchar_t const *,struct AppVersion const &,enum OsfStoreType,wchar_t const *,wchar_t const *,wchar_t const *,bool,struct IOsfSolutionReference * *)` | 31 | Exported Function
+`GetPixelsPerInch` | 52 | Exported Function
+`ScaleForHwnd` | 66 | Exported Function
+`IsDynamicDpiEnabled` | 59 | Exported Function
+`GetScaleFactorForHwnd` | 54 | Exported Function
+`ContextMenuExtensionPoint` | 6 | Exported Function
+`CustomPaneExtensionPoint` | 7 | Exported Function
+`BackgroundTaskExtensionPoint` | 4 | Exported Function
+`ButtonExtensionElement` | 5 | Exported Function
+`OsfFlightingId` | 69 | Exported Function
+`HrReadCustomFunctionFromCache` | 56 | Exported Function
+`HrWriteCustomFunctionToCache` | 57 | Exported Function
+`FillMarketplacesFromSolutionRef` | 45 | Exported Function
+`GetAppCommandNoUIControlWindow` | 46 | Exported Function
+`ResetSolutionReferenceTrustFlags` | 65 | Exported Function
+`ShutdownOsfAddinMiniCacheReader` | 67 | Exported Function
+`allocator` | 64 | Exported Function
+`CComBSTR` | 55 | Exported Function
+`DetectedEntityExtensionPoint` | 8 | Exported Function
+`Initialize` | 58 | Exported Function
+`Severity` | 61 | Exported Function
+`OsfSolutionHostExtender` | 18 | Exported Function
+`WebAddInStringCollection` | 19 | Exported Function
+`ShutdownOsfRuntimeLogging` | 68 | Exported Function
+`GetCompatExtensionIdForHost` | 47 | Exported Function
+`DeleteOsfRibbonExtensibilityManager` | 42 | Exported Function
+`Severity` | 62 | Exported Function
+`OsfAppCommandAction` | 17 | Exported Function
+`GraphicalExtensionElement` | 11 | Exported Function
+`LaunchEventExtensionElement` | 12 | Exported Function
+`EventExtensionElement` | 9 | Exported Function
+`ExtensionPoint` | 10 | Exported Function
+`ModuleExtensionPoint` | 15 | Exported Function
+`NavNodeExtensionElement` | 16 | Exported Function
+`LaunchEventsExtensionPoint` | 13 | Exported Function
+`MenuExtensionElement` | 14 | Exported Function
+`IOsfIdentityManager` | 30 | Exported Function
+`GetRibbonExtensibilityManager` | 53 | Exported Function
+`IOsfSolutionAppCommandCallback` | 29 | Exported Function
+`IOsfSolutionAppCommandCallback` | 28 | Exported Function
+`ValFromName` | 70 | Exported Function
+`allocator` | 51 | Exported Function
+`CreateExtensionIdentity` | 26 | Exported Function
+`CreateLaunchProperties` | 27 | Exported Function
+`OsfIsCatalogEqual` | 63 | Exported Function
+`CompareSolutionReferences` | 2 | Exported Function
+`FOsfRuntimeLoggingUserEnabled` | 44 | Exported Function
+`CompareSolutionReferences` | 3 | Exported Function
+`CompareSolutionReferences` | 1 | Exported Function
+`OsfFlightingId` | 50 | Exported Function
+`IsStorageCompatibleWithOsfSolutionReference` | 60 | Exported Function
+`OsfFlightingId` | 48 | Exported Function
+`OsfFlightingId` | 49 | Exported Function
+`CreateAppCommandNoUIControlContainer` | 20 | Exported Function
+`TCntPtr` | 37 | Exported Function
+`TCntPtr` | 39 | Exported Function
+`TCntPtr` | 34 | Exported Function
+`TCntPtr` | 36 | Exported Function
+`TCntPtr` | 40 | Exported Function
+`DestroyAppCommandNoUIWindow` | 43 | Exported Function
+`TCntPtr` | 38 | Exported Function
+`TCntPtr` | 41 | Exported Function
+`TCntPtr` | 35 | Exported Function
+`IOsfAppCommandReference` | 23 | Exported Function
+`IOsfAppCommandSource` | 24 | Exported Function
+`IOsfAppCommandReference` | 21 | Exported Function
+`IOsfAppCommandReference` | 22 | Exported Function
+`CreateSolutionRefFromMarketplaces` | 32 | Exported Function
+`CreateSolutionRefFromPersistence` | 33 | Exported Function
+`IOsfAppCommandReference` | 25 | Exported Function
+`CreateSolutionRef` | 31 | Exported Function
 
 
 ## Signature

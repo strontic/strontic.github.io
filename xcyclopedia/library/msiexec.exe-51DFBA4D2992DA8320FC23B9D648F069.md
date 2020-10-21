@@ -22,6 +22,9 @@ SHA256 | `DC52A89F2FCBD8E31F2D466BD2D35414A86BB907382251FABB88CD3969FB3EC8`
 SHA384 | `3666E1BA7A450C4128870113990760356A2EFBD841AEFED7C8245219DC5D596AEC27FA8BCE1B330BE07FB12B36737CF3`
 SHA512 | `E6CFC66AE78EA372922E54CFE7DE804E73F05267C9722704BEB56F73FE7E1D31A599E07B27803DA2E110748D45845E2DAC5C5FAC6917F7FA44A236F98EEAB8C3`
 SSDEEP | `768:1bzmTyNIJ8gxZ8HCOz6yapzBoHFV0sNi4BVAF25hSMizYlv/u57sHrWTx4rn15CJ:kXIB4zuA4zAFq8zzY+5nTx4r15L6V`
+IMP | `13C7ACE23F99CD5FBC3ABD5C16BF2DCE`
+PESHA1 | `23CEF38308A823B64132C2ACCFC48FC12DB3309D`
+PE256 | `A931ED4E42E33738C4AEA8494966E8FE71211C0107CE7612E417B5B322D56491`
 
 ## Runtime Data
 
@@ -35,20 +38,65 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\msiexec.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\msimsg.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\SYSTEM32\AcLayers.DLL |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\system32\msi.dll |
 C:\Windows\system32\msiexec.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\SYSTEM32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\sfc.dll |
+C:\Windows\SYSTEM32\sfc_os.DLL |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\system32\VERSION.DLL |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\SYSTEM32\WINSPOOL.DRV |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.DLL |
 
 
 ## Signature
@@ -68,7 +116,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/dc52a89f2fcbd8e31f2d466bd2d35414a86bb907382251fabb88cd3969fb3ec8/detection/
 
 
 ## Possible Misuse

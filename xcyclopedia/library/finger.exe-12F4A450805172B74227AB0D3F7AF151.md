@@ -18,13 +18,16 @@ SHA256 | `621F2CC798234A31B17B90CFC91B6E6F9A3A249E37EA9C235AB83E39FA4C7E63`
 SHA384 | `83DE091890CE4A0A327616CC1B52E3BE755F13F79B18C54DEDBC691AFBB816B12204370AB3D0E1371798DA92D86688A7`
 SHA512 | `384B922062077EED7983E751180C61F34716CF94777AF9C4C6EE7B4B3559DDCAADE662060D0B8C9A34F85201B1099410F3C1E8405CBAE9CD87ED022A6D07DECB`
 SSDEEP | `192:W9W/jd6t+vAJLcH9CXDYqTgDmXfmXp6MvERjJ6wWAW60WjTFf:9bLvAJY9C0qTDX+XROjJ15W60Wj`
+IMP | `DD36F61A81704582E5C476E946B3969A`
+PESHA1 | `F35A8B7999B3C0354CDDDF79B5A9E10C21133ADF`
+PE256 | `64686262DCA3231F4D8D55DB4065E57BEE0946B9DC27B790ACF7D072979F6BB1`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
 
-[EC2AMAZ-0F59E47]
+[Default-PC]
 
 ```
 
@@ -54,8 +57,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\finger.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -74,8 +80,8 @@ C:\Windows\SysWOW64\finger.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -88,7 +94,12 @@ C:\Windows\SysWOW64\finger.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/621f2cc798234a31b17b90cfc91b6e6f9a3a249e37ea9c235ab83e39fa4c7e63/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -22,11 +22,11 @@ SHA256 | `496FEEBC8BECE33F0D6B5F11B7D03A6A7826EA3D72AC253FBC528C5C3AEE72FF`
 SHA384 | `BA610FFC108ADF4AC320831535D8BE04357260CC9459CCB9207AE50E30D54F42C19C23168889644484DE9B0DFB77AB91`
 SHA512 | `CC5718701FFB6BD48A34F86F8261AF2B2A4D0CE64E9935D632430ED2019DFF5A2742C5E2EA5651921BB1A7BE311C9A10247365D358B2761684532A006E2C967E`
 SSDEEP | `3072:GnKtvVY2qCA4eXt+e0k95N4HfRyqPAP/PKiAcLfJ9sBjbEyB7HbIHP/:GnKYCA5XEed5N4HfRVjcrJ9fy103`
+IMP | `C9F852C96B7C3A52C280EB97D52DA386`
+PESHA1 | `A1C46DD7126E0BAECCD5E10A8EB62E158336C226`
+PE256 | `C04C30469D9133F1FF35D753EEB1D31AE1DFDC742C508C1A39340E2281809D0D`
 
 ## Runtime Data
-
-### Child Processes:
-explorer.exe
 
 ### Window Title:
 Volume Mixer
@@ -38,14 +38,17 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\sndvol.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -84,8 +87,8 @@ C:\Windows\System32\USER32.dll |
 C:\Windows\system32\UxTheme.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa\gdiplus.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35\gdiplus.dll |
 
 
 ## Signature
@@ -105,7 +108,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.139
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/496feebc8bece33f0d6b5f11b7d03a6a7826ea3d72ac253fbc528c5c3aee72ff/detection/
 
 ## File Similarity (ssdeep match)
 

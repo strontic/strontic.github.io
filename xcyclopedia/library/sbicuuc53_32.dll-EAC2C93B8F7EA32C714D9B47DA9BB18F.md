@@ -28,53 +28,53 @@ PE256 | `1CA9C11804C59713FF3CF58F765AB1ACDC3DE88C2D10B3243473C7E58B214545`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall icu_53::UVector::setElementAt(int,int)` | 1558 | Exported Function
-`public: void __thiscall icu_53::UVector::removeElementAt(int)` | 1489 | Exported Function
-`public: void __thiscall icu_53::UVector::setSize(int,enum UErrorCode &)` | 1582 | Exported Function
-`public: void __thiscall icu_53::UVector::setElementAt(void *,int)` | 1559 | Exported Function
-`public: void __thiscall icu_53::UVector::removeAllElements(void)` | 1484 | Exported Function
-`public: void __thiscall icu_53::UVector::assign(class icu_53::UVector const &,void (__cdecl*)(union UElement *,union UElement *),enum UErrorCode &)` | 540 | Exported Function
-`public: void __thiscall icu_53::UVector::addElement(void *,enum UErrorCode &)` | 482 | Exported Function
-`public: void __thiscall icu_53::UVector::insertElementAt(void *,int,enum UErrorCode &)` | 1201 | Exported Function
-`public: void __thiscall icu_53::UVector::insertElementAt(int,int,enum UErrorCode &)` | 1200 | Exported Function
-`public: void __thiscall icu_53::UVector::sort(signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1632 | Exported Function
-`public: wchar_t * __thiscall icu_53::ReorderingBuffer::getStart(void)` | 1053 | Exported Function
-`public: wchar_t * __thiscall icu_53::ReorderingBuffer::getLimit(void)` | 979 | Exported Function
-`public: wchar_t __thiscall icu_53::Replaceable::charAt(int)const ` | 568 | Exported Function
-`public: wchar_t * __thiscall icu_53::UnicodeString::getBuffer(int)` | 852 | Exported Function
-`public: void const * __thiscall icu_53::ICUService::registerInstance(class icu_53::UObject *,class icu_53::UnicodeString const &,enum UErrorCode &)` | 1463 | Exported Function
-`public: void __thiscall icu_53::UVector::sortedInsert(void *,signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1637 | Exported Function
-`public: void __thiscall icu_53::UVector::sortedInsert(int,signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1636 | Exported Function
-`public: void __thiscall icu_53::UVector::sortWithUComparator(int (__cdecl*)(void const *,void const *,void const *),void const *,enum UErrorCode &)` | 1633 | Exported Function
-`public: void __thiscall icu_53::UVector::sorti(enum UErrorCode &)` | 1638 | Exported Function
-`public: void __thiscall icu_53::UVector::addElement(int,enum UErrorCode &)` | 481 | Exported Function
-`public: void __thiscall icu_53::UVector32::removeAllElements(void)` | 1482 | Exported Function
-`public: void __thiscall icu_53::UVector32::insertElementAt(int,int,enum UErrorCode &)` | 1198 | Exported Function
-`public: void __thiscall icu_53::UVector32::setElementAt(int,int)` | 1556 | Exported Function
-`public: void __thiscall icu_53::UVector32::removeElementAt(int)` | 1488 | Exported Function
-`public: void __thiscall icu_53::UVector32::assign(class icu_53::UVector32 const &,enum UErrorCode &)` | 538 | Exported Function
-`public: void __thiscall icu_53::UnicodeString::setToBogus(void)` | 1601 | Exported Function
-`public: void __thiscall icu_53::UnicodeString::releaseBuffer(int)` | 1468 | Exported Function
-`public: void __thiscall icu_53::UVector32::addElement(int,enum UErrorCode &)` | 479 | Exported Function
-`public: void __thiscall icu_53::UnicodeString::toUTF8(class icu_53::ByteSink &)const ` | 1673 | Exported Function
-`public: void __thiscall icu_53::UVector32::setMaxCapacity(int)` | 1573 | Exported Function
-`public: void __thiscall icu_53::UVector64::setElementAt(__int64,int)` | 1557 | Exported Function
-`public: void __thiscall icu_53::UVector64::removeAllElements(void)` | 1483 | Exported Function
-`public: void __thiscall icu_53::UVector64::setSize(int)` | 1581 | Exported Function
-`public: void __thiscall icu_53::UVector64::setMaxCapacity(int)` | 1574 | Exported Function
-`public: void __thiscall icu_53::UVector64::insertElementAt(__int64,int,enum UErrorCode &)` | 1199 | Exported Function
-`public: void __thiscall icu_53::UVector32::sortedInsert(int,enum UErrorCode &)` | 1634 | Exported Function
-`public: void __thiscall icu_53::UVector32::setSize(int)` | 1580 | Exported Function
-`public: void __thiscall icu_53::UVector64::assign(class icu_53::UVector64 const &,enum UErrorCode &)` | 539 | Exported Function
-`public: void __thiscall icu_53::UVector64::addElement(__int64,enum UErrorCode &)` | 480 | Exported Function
-`public: wchar_t __thiscall icu_53::UnicodeString::charAt(int)const ` | 570 | Exported Function
+`setElementAt` | 1558 | Exported Function
+`removeElementAt` | 1489 | Exported Function
+`setSize` | 1582 | Exported Function
+`setElementAt` | 1559 | Exported Function
+`removeAllElements` | 1484 | Exported Function
+`UVector` | 540 | Exported Function
+`addElement` | 482 | Exported Function
+`insertElementAt` | 1201 | Exported Function
+`insertElementAt` | 1200 | Exported Function
+`sort` | 1632 | Exported Function
+`getStart` | 1053 | Exported Function
+`getLimit` | 979 | Exported Function
+`charAt` | 568 | Exported Function
+`getBuffer` | 852 | Exported Function
+`UnicodeString` | 1463 | Exported Function
+`sortedInsert` | 1637 | Exported Function
+`sortedInsert` | 1636 | Exported Function
+`sortWithUComparator` | 1633 | Exported Function
+`sorti` | 1638 | Exported Function
+`addElement` | 481 | Exported Function
+`removeAllElements` | 1482 | Exported Function
+`insertElementAt` | 1198 | Exported Function
+`setElementAt` | 1556 | Exported Function
+`removeElementAt` | 1488 | Exported Function
+`UVector32` | 538 | Exported Function
+`setToBogus` | 1601 | Exported Function
+`releaseBuffer` | 1468 | Exported Function
+`addElement` | 479 | Exported Function
+`ByteSink` | 1673 | Exported Function
+`setMaxCapacity` | 1573 | Exported Function
+`setElementAt` | 1557 | Exported Function
+`removeAllElements` | 1483 | Exported Function
+`setSize` | 1581 | Exported Function
+`setMaxCapacity` | 1574 | Exported Function
+`insertElementAt` | 1199 | Exported Function
+`sortedInsert` | 1634 | Exported Function
+`setSize` | 1580 | Exported Function
+`UVector64` | 539 | Exported Function
+`addElement` | 480 | Exported Function
+`charAt` | 570 | Exported Function
 `u_austrcpy_53` | 1740 | Exported Function
 `T_CString_toUpperCase_53` | 1718 | Exported Function
 `u_catclose_53` | 1742 | Exported Function
 `u_austrncpy_53` | 1741 | Exported Function
 `T_CString_toLowerCase_53` | 1717 | Exported Function
 `T_CString_int64ToString_53` | 1714 | Exported Function
-`signed char __cdecl icu_53::umtx_initImplPreInit(struct icu_53::UInitOnce &)` | 1684 | Exported Function
+`UInitOnce` | 1684 | Exported Function
 `T_CString_stringToInteger_53` | 1716 | Exported Function
 `T_CString_integerToString_53` | 1715 | Exported Function
 `u_catgets_53` | 1743 | Exported Function
@@ -87,16 +87,16 @@ Function Name | Ordinal | Type
 `u_catopen_53` | 1744 | Exported Function
 `u_charDirection_53` | 1747 | Exported Function
 `u_charDigitValue_53` | 1746 | Exported Function
-`signed char __cdecl icu_53::operator==(class icu_53::StringPiece const &,class icu_53::StringPiece const &)` | 347 | Exported Function
-`public: wchar_t const * __thiscall icu_53::UnicodeString::getBuffer(void)const ` | 853 | Exported Function
-`public: wchar_t const * __thiscall icu_53::Normalizer2Impl::makeFCD(wchar_t const *,wchar_t const *,class icu_53::ReorderingBuffer *,enum UErrorCode &)const ` | 1337 | Exported Function
+`StringPiece` | 347 | Exported Function
+`getBuffer` | 853 | Exported Function
+`ReorderingBuffer` | 1337 | Exported Function
 `res_countArrayItems_53` | 1728 | Exported Function
-`public: wchar_t const * __thiscall icu_53::UnicodeString::getTerminatedBuffer(void)` | 1093 | Exported Function
-`public: wchar_t const * __thiscall icu_53::Normalizer2Impl::getRawDecomposition(int,wchar_t * const,int &)const ` | 1040 | Exported Function
-`public: wchar_t const * __thiscall icu_53::Normalizer2Impl::composeQuickCheck(wchar_t const *,wchar_t const *,signed char,enum UNormalizationCheckResult *)const ` | 628 | Exported Function
-`public: wchar_t __thiscall icu_53::UnicodeString::operator[](int)const ` | 367 | Exported Function
-`public: wchar_t const * __thiscall icu_53::Normalizer2Impl::getDecomposition(int,wchar_t * const,int &)const ` | 880 | Exported Function
-`public: wchar_t const * __thiscall icu_53::Normalizer2Impl::decompose(wchar_t const *,wchar_t const *,class icu_53::ReorderingBuffer *,enum UErrorCode &)const ` | 710 | Exported Function
+`getTerminatedBuffer` | 1093 | Exported Function
+`getRawDecomposition` | 1040 | Exported Function
+`composeQuickCheck` | 628 | Exported Function
+`operator` | 367 | Exported Function
+`getDecomposition` | 880 | Exported Function
+`ReorderingBuffer` | 710 | Exported Function
 `res_getAlias_53` | 1729 | Exported Function
 `res_getTableItemByIndex_53` | 1736 | Exported Function
 `res_getString_53` | 1735 | Exported Function
@@ -107,85 +107,85 @@ Function Name | Ordinal | Type
 `res_getArrayItem_53` | 1730 | Exported Function
 `res_getPublicType_53` | 1733 | Exported Function
 `res_getIntVector_53` | 1732 | Exported Function
-`public: void __thiscall icu_53::ErrorCode::assertSuccess(void)const ` | 537 | Exported Function
-`public: void __thiscall icu_53::CanonicalIterator::setSource(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1583 | Exported Function
-`public: void __thiscall icu_53::Hashtable::removeAll(void)` | 1477 | Exported Function
-`public: void __thiscall icu_53::ErrorCode::set(enum UErrorCode)` | 1544 | Exported Function
-`public: void __thiscall icu_53::CanonicalIterator::reset(void)` | 1513 | Exported Function
-`public: void * __thiscall icu_53::UVector::lastElement(void)const ` | 1311 | Exported Function
-`public: void * __thiscall icu_53::UVector::firstElement(void)const ` | 807 | Exported Function
-`public: void * __thiscall icu_53::UVector::orphanElementAt(int)` | 1391 | Exported Function
-`public: void * __thiscall icu_53::UVector::operator[](int)const ` | 366 | Exported Function
-`public: void __thiscall icu_53::Locale::setKeywordValue(char const *,char const *,enum UErrorCode &)` | 1568 | Exported Function
-`public: void __thiscall icu_53::Mutex::``default constructor closure'(void)` | 438 | Exported Function
-`public: void __thiscall icu_53::MessagePattern::clearPatternAndSetApostropheMode(enum UMessagePatternApostropheMode)` | 581 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::addLcccChars(class icu_53::UnicodeSet &)const ` | 483 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::addCanonIterPropertyStarts(struct USetAdder const *,enum UErrorCode &)const ` | 477 | Exported Function
-`public: void __thiscall icu_53::MessagePattern::clear(void)` | 575 | Exported Function
-`public: void __thiscall icu_53::LocaleBased::setLocaleIDs(char const *,char const *)` | 1572 | Exported Function
-`public: void __thiscall icu_53::Locale::setToBogus(void)` | 1599 | Exported Function
-`public: void __thiscall icu_53::MaybeStackArray<char,40>::aliasInstead(char *,int)` | 493 | Exported Function
-`public: void __thiscall icu_53::LocaleBased::setLocaleIDs(class icu_53::Locale const &,class icu_53::Locale const &)` | 1571 | Exported Function
-`public: void * __thiscall icu_53::UVector::elementAt(int)const ` | 738 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::nextPostInc(void)` | 1380 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::next(void)` | 1369 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::setIndex(int)` | 1564 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::previous(void)` | 1436 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::last(void)` | 1310 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::current(void)const ` | 697 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::CharacterIterator::firstPostInc(void)` | 809 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::firstPostInc(void)` | 810 | Exported Function
-`public: virtual wchar_t __thiscall icu_53::UCharCharacterIterator::first(void)` | 805 | Exported Function
-`public: virtual wchar_t const * __thiscall icu_53::StringEnumeration::unext(int *,enum UErrorCode &)` | 1688 | Exported Function
-`public: void * __thiscall icu_53::UStack::peek(void)const ` | 1416 | Exported Function
-`public: void * __thiscall icu_53::Hashtable::remove(class icu_53::UnicodeString const &)` | 1470 | Exported Function
-`public: void * __thiscall icu_53::UStack::push(void *,enum UErrorCode &)` | 1441 | Exported Function
-`public: void * __thiscall icu_53::UStack::pop(void)` | 1422 | Exported Function
-`public: void * __thiscall icu_53::Hashtable::put(class icu_53::UnicodeString const &,void *,enum UErrorCode &)` | 1444 | Exported Function
-`public: void (__cdecl*__thiscall icu_53::UVector::setDeleter(void (__cdecl*)(void *)))(void *)` | 1555 | Exported Function
-`public: void (__cdecl*__thiscall icu_53::Hashtable::setValueDeleter(void (__cdecl*)(void *)))(void *)` | 1607 | Exported Function
-`public: void * __thiscall icu_53::Hashtable::get(class icu_53::UnicodeString const &)const ` | 825 | Exported Function
-`public: void * * __thiscall icu_53::UVector::toArray(void * *)const ` | 1658 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::addPropertyStarts(struct USetAdder const *,enum UErrorCode &)const ` | 489 | Exported Function
-`public: void __thiscall icu_53::StringCharacterIterator::setText(class icu_53::UnicodeString const &)` | 1589 | Exported Function
-`public: void __thiscall icu_53::SharedObject::removeRef(void)const ` | 1491 | Exported Function
-`public: void __thiscall icu_53::StringPiece::remove_prefix(int)` | 1494 | Exported Function
-`public: void __thiscall icu_53::StringPiece::clear(void)` | 576 | Exported Function
-`public: void __thiscall icu_53::SharedObject::deleteIfZeroRefCount(void)const ` | 716 | Exported Function
-`public: void __thiscall icu_53::ResourceBundle::getVersion(unsigned char * const)const ` | 1115 | Exported Function
-`public: void __thiscall icu_53::ReorderingBuffer::setReorderingLimit(wchar_t *)` | 1579 | Exported Function
-`public: void __thiscall icu_53::SharedObject::addRef(void)const ` | 490 | Exported Function
-`public: void __thiscall icu_53::ResourceBundle::resetIterator(void)` | 1525 | Exported Function
-`public: void __thiscall icu_53::StringPiece::remove_suffix(int)` | 1495 | Exported Function
-`public: void __thiscall icu_53::UnicodeString::extract(int,int,class icu_53::UnicodeString &)const ` | 779 | Exported Function
-`public: void __thiscall icu_53::UnicodeSetIterator::reset(void)` | 1524 | Exported Function
-`public: void __thiscall icu_53::UnicodeString::extractBetween(int,int,wchar_t *,int)const ` | 781 | Exported Function
-`public: void __thiscall icu_53::UnicodeString::extract(int,int,wchar_t *,int)const ` | 780 | Exported Function
-`public: void __thiscall icu_53::UnicodeSetIterator::reset(class icu_53::UnicodeSet const &)` | 1523 | Exported Function
-`public: void __thiscall icu_53::StringPiece::set(char const *,int)` | 1546 | Exported Function
-`public: void __thiscall icu_53::StringPiece::set(char const *)` | 1545 | Exported Function
-`public: void __thiscall icu_53::UnicodeSet::setToBogus(void)` | 1600 | Exported Function
-`public: void __thiscall icu_53::UCharCharacterIterator::setText(wchar_t const *,int)` | 1590 | Exported Function
-`public: void __thiscall icu_53::ReorderingBuffer::setLastChar(wchar_t)` | 1569 | Exported Function
-`public: void __thiscall icu_53::Normalizer::getText(class icu_53::UnicodeString &)` | 1094 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::makeFCDAndAppend(wchar_t const *,wchar_t const *,signed char,class icu_53::UnicodeString &,class icu_53::ReorderingBuffer &,enum UErrorCode &)const ` | 1338 | Exported Function
-`public: void __thiscall icu_53::Normalizer::setIndexOnly(int)` | 1565 | Exported Function
-`public: void __thiscall icu_53::Normalizer::reset(void)` | 1519 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::makeCanonIterDataFromNorm16(int,int,unsigned short,struct icu_53::CanonIterData &,enum UErrorCode &)const ` | 1336 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::decompose(wchar_t const *,wchar_t const *,class icu_53::UnicodeString &,int,enum UErrorCode &)const ` | 711 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::composeAndAppend(wchar_t const *,wchar_t const *,signed char,signed char,class icu_53::UnicodeString &,class icu_53::ReorderingBuffer &,enum UErrorCode &)const ` | 624 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::load(char const *,char const *,enum UErrorCode &)` | 1333 | Exported Function
-`public: void __thiscall icu_53::Normalizer2Impl::decomposeAndAppend(wchar_t const *,wchar_t const *,signed char,class icu_53::UnicodeString &,class icu_53::ReorderingBuffer &,enum UErrorCode &)const ` | 713 | Exported Function
-`public: void __thiscall icu_53::Normalizer::setMode(enum UNormalizationMode)` | 1575 | Exported Function
-`public: void __thiscall icu_53::ReorderingBuffer::copyReorderableSuffixTo(class icu_53::UnicodeString &)const ` | 654 | Exported Function
-`public: void __thiscall icu_53::ParsePosition::setIndex(int)` | 1563 | Exported Function
-`public: void __thiscall icu_53::ReorderingBuffer::removeSuffix(int)` | 1493 | Exported Function
-`public: void __thiscall icu_53::ReorderingBuffer::remove(void)` | 1471 | Exported Function
-`public: void __thiscall icu_53::ParsePosition::setErrorIndex(int)` | 1560 | Exported Function
-`public: void __thiscall icu_53::Normalizer::setText(class icu_53::CharacterIterator const &,enum UErrorCode &)` | 1584 | Exported Function
-`public: void __thiscall icu_53::Normalizer::setOption(int,signed char)` | 1576 | Exported Function
-`public: void __thiscall icu_53::Normalizer::setText(wchar_t const *,int,enum UErrorCode &)` | 1586 | Exported Function
-`public: void __thiscall icu_53::Normalizer::setText(class icu_53::UnicodeString const &,enum UErrorCode &)` | 1585 | Exported Function
+`assertSuccess` | 537 | Exported Function
+`UnicodeString` | 1583 | Exported Function
+`removeAll` | 1477 | Exported Function
+`set` | 1544 | Exported Function
+`reset` | 1513 | Exported Function
+`lastElement` | 1311 | Exported Function
+`firstElement` | 807 | Exported Function
+`orphanElementAt` | 1391 | Exported Function
+`operator` | 366 | Exported Function
+`setKeywordValue` | 1568 | Exported Function
+`Mutex` | 438 | Exported Function
+`clearPatternAndSetApostropheMode` | 581 | Exported Function
+`UnicodeSet` | 483 | Exported Function
+`addCanonIterPropertyStarts` | 477 | Exported Function
+`clear` | 575 | Exported Function
+`setLocaleIDs` | 1572 | Exported Function
+`setToBogus` | 1599 | Exported Function
+`aliasInstead` | 493 | Exported Function
+`Locale` | 1571 | Exported Function
+`elementAt` | 738 | Exported Function
+`nextPostInc` | 1380 | Exported Function
+`next` | 1369 | Exported Function
+`setIndex` | 1564 | Exported Function
+`previous` | 1436 | Exported Function
+`last` | 1310 | Exported Function
+`current` | 697 | Exported Function
+`firstPostInc` | 809 | Exported Function
+`firstPostInc` | 810 | Exported Function
+`first` | 805 | Exported Function
+`unext` | 1688 | Exported Function
+`peek` | 1416 | Exported Function
+`UnicodeString` | 1470 | Exported Function
+`push` | 1441 | Exported Function
+`pop` | 1422 | Exported Function
+`UnicodeString` | 1444 | Exported Function
+`setDeleter` | 1555 | Exported Function
+`setValueDeleter` | 1607 | Exported Function
+`UnicodeString` | 825 | Exported Function
+`toArray` | 1658 | Exported Function
+`addPropertyStarts` | 489 | Exported Function
+`UnicodeString` | 1589 | Exported Function
+`removeRef` | 1491 | Exported Function
+`remove_prefix` | 1494 | Exported Function
+`clear` | 576 | Exported Function
+`deleteIfZeroRefCount` | 716 | Exported Function
+`getVersion` | 1115 | Exported Function
+`setReorderingLimit` | 1579 | Exported Function
+`addRef` | 490 | Exported Function
+`resetIterator` | 1525 | Exported Function
+`remove_suffix` | 1495 | Exported Function
+`UnicodeString` | 779 | Exported Function
+`reset` | 1524 | Exported Function
+`extractBetween` | 781 | Exported Function
+`extract` | 780 | Exported Function
+`UnicodeSet` | 1523 | Exported Function
+`set` | 1546 | Exported Function
+`set` | 1545 | Exported Function
+`setToBogus` | 1600 | Exported Function
+`setText` | 1590 | Exported Function
+`setLastChar` | 1569 | Exported Function
+`UnicodeString` | 1094 | Exported Function
+`ReorderingBuffer` | 1338 | Exported Function
+`setIndexOnly` | 1565 | Exported Function
+`reset` | 1519 | Exported Function
+`CanonIterData` | 1336 | Exported Function
+`UnicodeString` | 711 | Exported Function
+`ReorderingBuffer` | 624 | Exported Function
+`load` | 1333 | Exported Function
+`ReorderingBuffer` | 713 | Exported Function
+`setMode` | 1575 | Exported Function
+`UnicodeString` | 654 | Exported Function
+`setIndex` | 1563 | Exported Function
+`removeSuffix` | 1493 | Exported Function
+`remove` | 1471 | Exported Function
+`setErrorIndex` | 1560 | Exported Function
+`CharacterIterator` | 1584 | Exported Function
+`setOption` | 1576 | Exported Function
+`setText` | 1586 | Exported Function
+`UnicodeString` | 1585 | Exported Function
 `u_strstr_53` | 1867 | Exported Function
 `u_strspn_53` | 1866 | Exported Function
 `u_strtok_r_53` | 1868 | Exported Function
@@ -344,323 +344,323 @@ Function Name | Ordinal | Type
 `u_isULowercase_53` | 1790 | Exported Function
 `u_isUWhiteSpace_53` | 1792 | Exported Function
 `u_isUUppercase_53` | 1791 | Exported Function
-`public: virtual wchar_t * __thiscall icu_53::UnicodeStringAppendable::getAppendBuffer(int,int,wchar_t *,int,int *)` | 838 | Exported Function
-`public: virtual __thiscall icu_53::UCharsDictionaryMatcher::~UCharsDictionaryMatcher(void)` | 259 | Exported Function
-`public: virtual __thiscall icu_53::UCharCharacterIterator::~UCharCharacterIterator(void)` | 258 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeFilter::~UnicodeFilter(void)` | 268 | Exported Function
-`public: virtual __thiscall icu_53::UCharsTrieBuilder::~UCharsTrieBuilder(void)` | 261 | Exported Function
-`public: virtual __thiscall icu_53::SymbolTable::~SymbolTable(void)` | 257 | Exported Function
-`public: virtual __thiscall icu_53::SimpleLRUCache::~SimpleLRUCache(void)` | 250 | Exported Function
-`public: virtual __thiscall icu_53::SimpleLocaleKeyFactory::~SimpleLocaleKeyFactory(void)` | 251 | Exported Function
-`public: virtual __thiscall icu_53::StringEnumeration::~StringEnumeration(void)` | 254 | Exported Function
-`public: virtual __thiscall icu_53::StringCharacterIterator::~StringCharacterIterator(void)` | 253 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeFunctor::~UnicodeFunctor(void)` | 269 | Exported Function
-`public: virtual __thiscall icu_53::UStack::~UStack(void)` | 263 | Exported Function
-`public: virtual __thiscall icu_53::UObject::~UObject(void)` | 262 | Exported Function
-`public: virtual __thiscall icu_53::UVector32::~UVector32(void)` | 265 | Exported Function
-`public: virtual __thiscall icu_53::UStringEnumeration::~UStringEnumeration(void)` | 264 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeStringAppendable::~UnicodeStringAppendable(void)` | 274 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeSet::~UnicodeSet(void)` | 271 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeMatcher::~UnicodeMatcher(void)` | 270 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeString::~UnicodeString(void)` | 273 | Exported Function
-`public: virtual __thiscall icu_53::UnicodeSetIterator::~UnicodeSetIterator(void)` | 272 | Exported Function
-`public: virtual __thiscall icu_53::SimpleFactory::~SimpleFactory(void)` | 249 | Exported Function
-`public: virtual __thiscall icu_53::Locale::~Locale(void)` | 234 | Exported Function
-`public: virtual __thiscall icu_53::ListFormatter::~ListFormatter(void)` | 233 | Exported Function
-`public: virtual __thiscall icu_53::LocaleKeyFactory::~LocaleKeyFactory(void)` | 236 | Exported Function
-`public: virtual __thiscall icu_53::LocaleKey::~LocaleKey(void)` | 235 | Exported Function
-`public: virtual __thiscall icu_53::IDNA::~IDNA(void)` | 229 | Exported Function
-`public: virtual __thiscall icu_53::ICUService::~ICUService(void)` | 226 | Exported Function
-`public: virtual __thiscall icu_53::ICUResourceBundleFactory::~ICUResourceBundleFactory(void)` | 225 | Exported Function
-`public: virtual __thiscall icu_53::ICUServiceKey::~ICUServiceKey(void)` | 228 | Exported Function
-`public: virtual __thiscall icu_53::ICUServiceFactory::~ICUServiceFactory(void)` | 227 | Exported Function
-`public: virtual __thiscall icu_53::LRUCache::~LRUCache(void)` | 232 | Exported Function
-`public: virtual __thiscall icu_53::RuleBasedBreakIterator::~RuleBasedBreakIterator(void)` | 246 | Exported Function
-`public: virtual __thiscall icu_53::ResourceBundle::~ResourceBundle(void)` | 245 | Exported Function
-`public: virtual __thiscall icu_53::SharedObject::~SharedObject(void)` | 248 | Exported Function
-`public: virtual __thiscall icu_53::ServiceListener::~ServiceListener(void)` | 247 | Exported Function
-`public: virtual __thiscall icu_53::Replaceable::~Replaceable(void)` | 244 | Exported Function
-`public: virtual __thiscall icu_53::Normalizer2::~Normalizer2(void)` | 239 | Exported Function
-`public: virtual __thiscall icu_53::MessagePattern::~MessagePattern(void)` | 237 | Exported Function
-`public: virtual __thiscall icu_53::ParsePosition::~ParsePosition(void)` | 242 | Exported Function
-`public: virtual __thiscall icu_53::Normalizer::~Normalizer(void)` | 241 | Exported Function
-`public: virtual __thiscall icu_53::UVector64::~UVector64(void)` | 266 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::clear(void)` | 578 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::addAll(class icu_53::UnicodeSet const &)` | 475 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::complement(int,int)` | 618 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::compact(void)` | 599 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::add(int,int)` | 473 | Exported Function
-`public: virtual class icu_53::UnicodeMatcher * __thiscall icu_53::UnicodeFilter::toMatcher(void)const ` | 1661 | Exported Function
-`public: virtual class icu_53::UnicodeFunctor * __thiscall icu_53::UnicodeSet::clone(void)const ` | 593 | Exported Function
-`public: virtual class icu_53::UnicodeReplacer * __thiscall icu_53::UnicodeFunctor::toReplacer(void)const ` | 1664 | Exported Function
-`public: virtual class icu_53::UnicodeMatcher * __thiscall icu_53::UnicodeFunctor::toMatcher(void)const ` | 1662 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::complement(void)` | 619 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::FilteredNormalizer2::append(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 501 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::retainAll(class icu_53::UnicodeSet const &)` | 1536 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::FilteredNormalizer2::normalizeSecondAndAppend(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1387 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::FilteredNormalizer2::normalize(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 1383 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::retain(int,int)` | 1532 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::remove(int,int)` | 1474 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::complementAll(class icu_53::UnicodeSet const &)` | 621 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::removeAllStrings(void)` | 1485 | Exported Function
-`public: virtual class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::removeAll(class icu_53::UnicodeSet const &)` | 1481 | Exported Function
-`public: virtual class icu_53::StringEnumeration * __thiscall icu_53::StringEnumeration::clone(void)const ` | 591 | Exported Function
-`public: virtual class icu_53::BreakIterator * __thiscall icu_53::RuleBasedBreakIterator::createBufferClone(void *,int &,enum UErrorCode &)` | 668 | Exported Function
-`public: virtual class icu_53::BreakIterator * __thiscall icu_53::RuleBasedBreakIterator::clone(void)const ` | 589 | Exported Function
-`public: virtual class icu_53::CharacterIterator * __thiscall icu_53::StringCharacterIterator::clone(void)const ` | 590 | Exported Function
-`public: virtual class icu_53::CharacterIterator & __thiscall icu_53::RuleBasedBreakIterator::getText(void)const ` | 1095 | Exported Function
-`public: virtual char const * __thiscall icu_53::UStringEnumeration::next(int *,enum UErrorCode &)` | 1372 | Exported Function
-`public: virtual char * __thiscall icu_53::ByteSink::GetAppendBuffer(int,int,char *,int,int *)` | 443 | Exported Function
-`public: virtual __thiscall icu_53::UVector::~UVector(void)` | 267 | Exported Function
-`public: virtual char const * __thiscall icu_53::StringEnumeration::next(int *,enum UErrorCode &)` | 1368 | Exported Function
-`public: virtual char * __thiscall icu_53::CheckedArrayByteSink::GetAppendBuffer(int,int,char *,int,int *)` | 444 | Exported Function
-`public: virtual class icu_53::CharacterIterator * __thiscall icu_53::UCharCharacterIterator::clone(void)const ` | 592 | Exported Function
-`public: virtual class icu_53::Replaceable * __thiscall icu_53::UnicodeString::clone(void)const ` | 594 | Exported Function
-`public: virtual class icu_53::Replaceable * __thiscall icu_53::Replaceable::clone(void)const ` | 587 | Exported Function
-`public: virtual class icu_53::StringEnumeration * __thiscall icu_53::ICULocaleService::getAvailableLocales(void)const ` | 845 | Exported Function
-`public: virtual class icu_53::RuleBasedBreakIterator & __thiscall icu_53::RuleBasedBreakIterator::refreshInputText(struct UText *,enum UErrorCode &)` | 1455 | Exported Function
-`public: virtual class icu_53::Locale & __thiscall icu_53::LocaleKey::currentLocale(class icu_53::Locale &)const ` | 703 | Exported Function
-`public: virtual class icu_53::DateInterval * __thiscall icu_53::DateInterval::clone(void)const ` | 583 | Exported Function
-`public: virtual class icu_53::CheckedArrayByteSink & __thiscall icu_53::CheckedArrayByteSink::Reset(void)` | 449 | Exported Function
-`public: virtual class icu_53::Locale & __thiscall icu_53::LocaleKey::canonicalLocale(class icu_53::Locale &)const ` | 556 | Exported Function
-`public: virtual class icu_53::ICUServiceKey * __thiscall icu_53::ICUService::createKey(class icu_53::UnicodeString const *,enum UErrorCode &)const ` | 681 | Exported Function
-`public: static void * __cdecl icu_53::UVector64::getStaticClassID(void)` | 1074 | Exported Function
-`public: static void * __cdecl icu_53::UVector32::getStaticClassID(void)` | 1073 | Exported Function
-`public: static void __cdecl icu_53::CanonicalIterator::permute(class icu_53::UnicodeString &,signed char,class icu_53::Hashtable *,enum UErrorCode &)` | 1419 | Exported Function
-`public: static void * __cdecl icu_53::UVector::getStaticClassID(void)` | 1075 | Exported Function
-`public: static void * __cdecl icu_53::UStringEnumeration::getStaticClassID(void)` | 1072 | Exported Function
-`public: static void * __cdecl icu_53::UnicodeSetIterator::getStaticClassID(void)` | 1079 | Exported Function
-`public: static void * __cdecl icu_53::UnicodeSet::getStaticClassID(void)` | 1078 | Exported Function
-`public: static void * __cdecl icu_53::UStack::getStaticClassID(void)` | 1071 | Exported Function
-`public: static void * __cdecl icu_53::UnicodeString::getStaticClassID(void)` | 1080 | Exported Function
-`public: static void __cdecl icu_53::Hangul::getRawDecomposition(int,wchar_t * const)` | 1038 | Exported Function
-`public: static void __cdecl icu_53::Normalizer::decompose(class icu_53::UnicodeString const &,signed char,int,class icu_53::UnicodeString &,enum UErrorCode &)` | 712 | Exported Function
-`public: static void __cdecl icu_53::Normalizer::compose(class icu_53::UnicodeString const &,signed char,int,class icu_53::UnicodeString &,enum UErrorCode &)` | 623 | Exported Function
-`public: static void __cdecl icu_53::UMemory::operator delete(void *)` | 279 | Exported Function
-`public: static void __cdecl icu_53::Normalizer::normalize(class icu_53::UnicodeString const &,enum UNormalizationMode,int,class icu_53::UnicodeString &,enum UErrorCode &)` | 1385 | Exported Function
-`public: static void __cdecl icu_53::MessageImpl::appendReducedApostrophes(class icu_53::UnicodeString const &,int,int,class icu_53::UnicodeString &)` | 517 | Exported Function
-`public: static void __cdecl icu_53::ICU_Utility::appendToRule(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,signed char,signed char,class icu_53::UnicodeString &)` | 522 | Exported Function
-`public: static void __cdecl icu_53::ICU_Utility::appendToRule(class icu_53::UnicodeString &,class icu_53::UnicodeMatcher const *,signed char,class icu_53::UnicodeString &)` | 524 | Exported Function
-`public: static void __cdecl icu_53::Locale::setDefault(class icu_53::Locale const &,enum UErrorCode &)` | 1554 | Exported Function
-`public: static void __cdecl icu_53::ICU_Utility::appendToRule(class icu_53::UnicodeString &,int,signed char,signed char,class icu_53::UnicodeString &)` | 523 | Exported Function
-`public: static void * __cdecl icu_53::UnicodeFunctor::getStaticClassID(void)` | 1077 | Exported Function
-`public: static void * __cdecl icu_53::ParsePosition::getStaticClassID(void)` | 1063 | Exported Function
-`public: static void * __cdecl icu_53::Normalizer::getStaticClassID(void)` | 1062 | Exported Function
-`public: static void * __cdecl icu_53::RuleBasedBreakIterator::getStaticClassID(void)` | 1065 | Exported Function
-`public: static void * __cdecl icu_53::ResourceBundle::getStaticClassID(void)` | 1064 | Exported Function
-`public: static void * __cdecl icu_53::LocaleKeyFactory::getStaticClassID(void)` | 1061 | Exported Function
-`public: static void * __cdecl icu_53::ICUServiceKey::getStaticClassID(void)` | 1058 | Exported Function
-`public: static void * __cdecl icu_53::ICUResourceBundleFactory::getStaticClassID(void)` | 1057 | Exported Function
-`public: static void * __cdecl icu_53::LocaleKey::getStaticClassID(void)` | 1060 | Exported Function
-`public: static void * __cdecl icu_53::Locale::getStaticClassID(void)` | 1059 | Exported Function
-`public: static void * __cdecl icu_53::ServiceListener::getStaticClassID(void)` | 1066 | Exported Function
-`public: static void * __cdecl icu_53::UMemory::operator new(unsigned int,void *)` | 276 | Exported Function
-`public: static void * __cdecl icu_53::UMemory::operator new(unsigned int,char const *,int)` | 277 | Exported Function
-`public: static void * __cdecl icu_53::UnicodeFilter::getStaticClassID(void)` | 1076 | Exported Function
-`public: static void * __cdecl icu_53::UMemory::operator new[](unsigned int)` | 439 | Exported Function
-`public: static void * __cdecl icu_53::UMemory::operator new(unsigned int)` | 275 | Exported Function
-`public: static void * __cdecl icu_53::SimpleLocaleKeyFactory::getStaticClassID(void)` | 1068 | Exported Function
-`public: static void * __cdecl icu_53::SimpleFactory::getStaticClassID(void)` | 1067 | Exported Function
-`public: static void * __cdecl icu_53::UCharCharacterIterator::getStaticClassID(void)` | 1070 | Exported Function
-`public: static void * __cdecl icu_53::StringCharacterIterator::getStaticClassID(void)` | 1069 | Exported Function
-`public: static void __cdecl icu_53::UMemory::operator delete(void *,char const *,int)` | 280 | Exported Function
-`public: virtual __thiscall icu_53::ByteSink::~ByteSink(void)` | 208 | Exported Function
-`public: virtual __thiscall icu_53::BytesDictionaryMatcher::~BytesDictionaryMatcher(void)` | 209 | Exported Function
-`public: virtual __thiscall icu_53::CanonicalIterator::~CanonicalIterator(void)` | 212 | Exported Function
-`public: virtual __thiscall icu_53::BytesTrieBuilder::~BytesTrieBuilder(void)` | 211 | Exported Function
-`public: virtual __thiscall icu_53::BreakIterator::~BreakIterator(void)` | 207 | Exported Function
-`public: unsigned short __thiscall icu_53::Normalizer2Impl::nextFCD16(wchar_t const * &,wchar_t const *)const ` | 1375 | Exported Function
-`public: unsigned short __thiscall icu_53::Normalizer2Impl::getNorm16(int)const ` | 1023 | Exported Function
-`public: virtual __thiscall icu_53::Appendable::~Appendable(void)` | 206 | Exported Function
-`public: unsigned short __thiscall icu_53::Normalizer2Impl::previousFCD16(wchar_t const *,wchar_t const * &)const ` | 1438 | Exported Function
-`public: virtual __thiscall icu_53::CharacterIterator::~CharacterIterator(void)` | 214 | Exported Function
-`public: virtual __thiscall icu_53::ForwardCharacterIterator::~ForwardCharacterIterator(void)` | 221 | Exported Function
-`public: virtual __thiscall icu_53::FilteredNormalizer2::~FilteredNormalizer2(void)` | 220 | Exported Function
-`public: virtual __thiscall icu_53::ICUNotifier::~ICUNotifier(void)` | 224 | Exported Function
-`public: virtual __thiscall icu_53::ICULocaleService::~ICULocaleService(void)` | 223 | Exported Function
-`public: virtual __thiscall icu_53::EventListener::~EventListener(void)` | 219 | Exported Function
-`public: virtual __thiscall icu_53::DateInterval::~DateInterval(void)` | 216 | Exported Function
-`public: virtual __thiscall icu_53::CheckedArrayByteSink::~CheckedArrayByteSink(void)` | 215 | Exported Function
-`public: virtual __thiscall icu_53::ErrorCode::~ErrorCode(void)` | 218 | Exported Function
-`public: virtual __thiscall icu_53::DictionaryMatcher::~DictionaryMatcher(void)` | 217 | Exported Function
-`public: unsigned short __thiscall icu_53::Normalizer2Impl::getFCD16FromNormData(int)const ` | 941 | Exported Function
-`public: struct UHashElement const * __thiscall icu_53::Hashtable::find(class icu_53::UnicodeString const &)const ` | 786 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::PatternProps::trimWhiteSpace(wchar_t const *,int &)` | 1678 | Exported Function
-`public: struct USet * __thiscall icu_53::UnicodeSet::toUSet(void)` | 1669 | Exported Function
-`public: struct UHashElement const * __thiscall icu_53::Hashtable::nextElement(int &)const ` | 1374 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::PatternProps::skipWhiteSpace(wchar_t const *,int)` | 1628 | Exported Function
-`public: static void __cdecl icu_53::UMemory::operator delete[](void *)` | 440 | Exported Function
-`public: static void __cdecl icu_53::UMemory::operator delete(void *,void *)` | 278 | Exported Function
-`public: static wchar_t const * __cdecl icu_53::PatternProps::skipIdentifier(wchar_t const *,int)` | 1620 | Exported Function
-`public: static void const * __cdecl icu_53::BreakIterator::registerInstance(class icu_53::BreakIterator *,class icu_53::Locale const &,enum UBreakIteratorType,enum UErrorCode &)` | 1458 | Exported Function
-`public: struct USet const * __thiscall icu_53::UnicodeSet::toUSet(void)const ` | 1670 | Exported Function
-`public: unsigned int __thiscall icu_53::ResourceBundle::getUInt(enum UErrorCode &)const ` | 1105 | Exported Function
-`public: unsigned int __thiscall icu_53::Locale::getLCID(void)const ` | 973 | Exported Function
-`public: unsigned short __thiscall icu_53::Normalizer2Impl::getFCD16FromBelow180(int)const ` | 940 | Exported Function
-`public: unsigned short __thiscall icu_53::Normalizer2Impl::getFCD16(int)const ` | 939 | Exported Function
-`public: unsigned int __thiscall icu_53::IDNAInfo::getErrors(void)const ` | 937 | Exported Function
-`public: unsigned char __thiscall icu_53::Normalizer2Impl::getCC(unsigned short)const ` | 854 | Exported Function
-`public: struct UTrie2 const * __thiscall icu_53::Normalizer2Impl::getNormTrie(void)const ` | 1024 | Exported Function
-`public: unsigned char const * __thiscall icu_53::ResourceBundle::getBinary(int &,enum UErrorCode &)const ` | 848 | Exported Function
-`public: unsigned char __thiscall icu_53::ReorderingBuffer::getLastCC(void)const ` | 976 | Exported Function
-`public: virtual void * __thiscall icu_53::ICUServiceKey::getDynamicClassID(void)const ` | 905 | Exported Function
-`public: virtual void * __thiscall icu_53::ICUResourceBundleFactory::getDynamicClassID(void)const ` | 904 | Exported Function
-`public: virtual void * __thiscall icu_53::LocaleKey::getDynamicClassID(void)const ` | 907 | Exported Function
-`public: virtual void * __thiscall icu_53::Locale::getDynamicClassID(void)const ` | 906 | Exported Function
-`public: virtual void * __thiscall icu_53::EventListener::getDynamicClassID(void)const ` | 903 | Exported Function
-`public: virtual unsigned char const * __thiscall icu_53::RuleBasedBreakIterator::getBinaryRules(unsigned int &)` | 849 | Exported Function
-`public: virtual unsigned char __thiscall icu_53::Normalizer2::getCombiningClass(int)const ` | 873 | Exported Function
-`public: virtual void * __thiscall icu_53::DateInterval::getDynamicClassID(void)const ` | 902 | Exported Function
-`public: virtual void * __thiscall icu_53::CanonicalIterator::getDynamicClassID(void)const ` | 901 | Exported Function
-`public: virtual void * __thiscall icu_53::LocaleKeyFactory::getDynamicClassID(void)const ` | 908 | Exported Function
-`public: virtual void * __thiscall icu_53::SimpleLocaleKeyFactory::getDynamicClassID(void)const ` | 915 | Exported Function
-`public: virtual void * __thiscall icu_53::SimpleFactory::getDynamicClassID(void)const ` | 914 | Exported Function
-`public: virtual void * __thiscall icu_53::UCharCharacterIterator::getDynamicClassID(void)const ` | 917 | Exported Function
-`public: virtual void * __thiscall icu_53::StringCharacterIterator::getDynamicClassID(void)const ` | 916 | Exported Function
-`public: virtual void * __thiscall icu_53::ServiceListener::getDynamicClassID(void)const ` | 913 | Exported Function
-`public: virtual void * __thiscall icu_53::ParsePosition::getDynamicClassID(void)const ` | 910 | Exported Function
-`public: virtual void * __thiscall icu_53::Normalizer::getDynamicClassID(void)const ` | 909 | Exported Function
-`public: virtual void * __thiscall icu_53::RuleBasedBreakIterator::getDynamicClassID(void)const ` | 912 | Exported Function
-`public: virtual void * __thiscall icu_53::ResourceBundle::getDynamicClassID(void)const ` | 911 | Exported Function
-`public: virtual unsigned char __thiscall icu_53::FilteredNormalizer2::getCombiningClass(int)const ` | 872 | Exported Function
-`public: virtual signed char __thiscall icu_53::UCharCharacterIterator::hasPrevious(void)` | 1148 | Exported Function
-`public: virtual signed char __thiscall icu_53::UCharCharacterIterator::hasNext(void)` | 1146 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeSet::contains(int)const ` | 636 | Exported Function
-`public: virtual signed char __thiscall icu_53::UCharCharacterIterator::operator==(class icu_53::ForwardCharacterIterator const &)const ` | 341 | Exported Function
-`public: virtual signed char __thiscall icu_53::StringEnumeration::operator==(class icu_53::StringEnumeration const &)const ` | 340 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedBreakIterator::operator==(class icu_53::BreakIterator const &)const ` | 338 | Exported Function
-`public: virtual signed char __thiscall icu_53::RuleBasedBreakIterator::isBoundary(int)` | 1209 | Exported Function
-`public: virtual signed char __thiscall icu_53::StringEnumeration::operator!=(class icu_53::StringEnumeration const &)const ` | 357 | Exported Function
-`public: virtual signed char __thiscall icu_53::StringCharacterIterator::operator==(class icu_53::ForwardCharacterIterator const &)const ` | 339 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeSet::contains(int,int)const ` | 637 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeStringAppendable::appendString(wchar_t const *,int)` | 519 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeStringAppendable::appendCodeUnit(wchar_t)` | 513 | Exported Function
-`public: virtual struct UText * __thiscall icu_53::RuleBasedBreakIterator::getUText(struct UText *,enum UErrorCode &)const ` | 1109 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeStringAppendable::reserveAppendCapacity(int)` | 1509 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeStringAppendable::appendCodePoint(int)` | 512 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeSet::isEmpty(void)const ` | 1226 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeSet::containsAll(class icu_53::UnicodeSet const &)const ` | 641 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeString::hasMetaData(void)const ` | 1140 | Exported Function
-`public: virtual signed char __thiscall icu_53::UnicodeSet::operator==(class icu_53::UnicodeSet const &)const ` | 345 | Exported Function
-`public: virtual void * __thiscall icu_53::UnicodeSet::getDynamicClassID(void)const ` | 924 | Exported Function
-`public: virtual void __thiscall icu_53::UnicodeFilter::setData(class icu_53::TransliterationRuleData const *)` | 1553 | Exported Function
-`public: virtual void __thiscall icu_53::UCharCharacterIterator::getText(class icu_53::UnicodeString &)` | 1097 | Exported Function
-`public: virtual void __thiscall icu_53::UnicodeString::copy(int,int,int)` | 650 | Exported Function
-`public: virtual void __thiscall icu_53::UnicodeSet::addMatchSetTo(class icu_53::UnicodeSet &)const ` | 486 | Exported Function
-`public: virtual void __thiscall icu_53::StringCharacterIterator::getText(class icu_53::UnicodeString &)` | 1096 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedBreakIterator::setText(struct UText *,enum UErrorCode &)` | 1588 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedBreakIterator::setText(class icu_53::UnicodeString const &)` | 1587 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleLocaleKeyFactory::updateVisibleIDs(class icu_53::Hashtable &,enum UErrorCode &)const ` | 1693 | Exported Function
-`public: virtual void __thiscall icu_53::SimpleFactory::updateVisibleIDs(class icu_53::Hashtable &,enum UErrorCode &)const ` | 1692 | Exported Function
-`public: virtual void __thiscall icu_53::UnicodeString::extractBetween(int,int,class icu_53::UnicodeString &)const ` | 782 | Exported Function
-`public: virtual void const * __thiscall icu_53::ICUService::registerFactory(class icu_53::ICUServiceFactory *,enum UErrorCode &)` | 1456 | Exported Function
-`public: virtual void const * __thiscall icu_53::ICULocaleService::registerInstance(class icu_53::UObject *,class icu_53::UnicodeString const &,signed char,enum UErrorCode &)` | 1462 | Exported Function
-`public: virtual wchar_t * __thiscall icu_53::Appendable::getAppendBuffer(int,int,wchar_t *,int,int *)` | 836 | Exported Function
-`public: virtual void const * __thiscall icu_53::ICUService::registerInstance(class icu_53::UObject *,class icu_53::UnicodeString const &,signed char,enum UErrorCode &)` | 1464 | Exported Function
-`public: virtual void const * __thiscall icu_53::ICULocaleService::registerInstance(class icu_53::UObject *,class icu_53::Locale const &,int,int,enum UErrorCode &)` | 1461 | Exported Function
-`public: virtual void __thiscall icu_53::UStringEnumeration::reset(enum UErrorCode &)` | 1522 | Exported Function
-`public: virtual void __thiscall icu_53::UnicodeString::handleReplaceBetween(int,int,class icu_53::UnicodeString const &)` | 1128 | Exported Function
-`public: virtual void const * __thiscall icu_53::ICULocaleService::registerInstance(class icu_53::UObject *,class icu_53::Locale const &,int,enum UErrorCode &)` | 1460 | Exported Function
-`public: virtual void const * __thiscall icu_53::ICULocaleService::registerInstance(class icu_53::UObject *,class icu_53::Locale const &,enum UErrorCode &)` | 1459 | Exported Function
-`public: virtual void __thiscall icu_53::RuleBasedBreakIterator::adoptText(class icu_53::CharacterIterator *)` | 492 | Exported Function
-`public: virtual void * __thiscall icu_53::UVector64::getDynamicClassID(void)const ` | 922 | Exported Function
-`public: virtual void * __thiscall icu_53::UVector32::getDynamicClassID(void)const ` | 921 | Exported Function
-`public: virtual void __thiscall icu_53::ByteSink::Flush(void)` | 442 | Exported Function
-`public: virtual void * __thiscall icu_53::UVector::getDynamicClassID(void)const ` | 923 | Exported Function
-`public: virtual void * __thiscall icu_53::UStringEnumeration::getDynamicClassID(void)const ` | 920 | Exported Function
-`public: virtual void * __thiscall icu_53::UnicodeString::getDynamicClassID(void)const ` | 926 | Exported Function
-`public: virtual void * __thiscall icu_53::UnicodeSetIterator::getDynamicClassID(void)const ` | 925 | Exported Function
-`public: virtual void * __thiscall icu_53::UStack::getDynamicClassID(void)const ` | 919 | Exported Function
-`public: virtual void * __thiscall icu_53::UObject::getDynamicClassID(void)const ` | 918 | Exported Function
-`public: virtual void __thiscall icu_53::CheckedArrayByteSink::Append(char const *,int)` | 441 | Exported Function
-`public: virtual void __thiscall icu_53::IDNA::nameToASCII_UTF8(class icu_53::StringPiece const &,class icu_53::ByteSink &,class icu_53::IDNAInfo &,enum UErrorCode &)const ` | 1355 | Exported Function
-`public: virtual void __thiscall icu_53::IDNA::labelToUnicodeUTF8(class icu_53::StringPiece const &,class icu_53::ByteSink &,class icu_53::IDNAInfo &,enum UErrorCode &)const ` | 1306 | Exported Function
-`public: virtual void __thiscall icu_53::LocaleKeyFactory::updateVisibleIDs(class icu_53::Hashtable &,enum UErrorCode &)const ` | 1691 | Exported Function
-`public: virtual void __thiscall icu_53::IDNA::nameToUnicodeUTF8(class icu_53::StringPiece const &,class icu_53::ByteSink &,class icu_53::IDNAInfo &,enum UErrorCode &)const ` | 1356 | Exported Function
-`public: virtual void __thiscall icu_53::IDNA::labelToASCII_UTF8(class icu_53::StringPiece const &,class icu_53::ByteSink &,class icu_53::IDNAInfo &,enum UErrorCode &)const ` | 1305 | Exported Function
-`public: virtual void __thiscall icu_53::ICUNotifier::notifyChanged(void)` | 1388 | Exported Function
-`public: virtual void __thiscall icu_53::ICUNotifier::addListener(class icu_53::EventListener const *,enum UErrorCode &)` | 485 | Exported Function
-`public: virtual void __thiscall icu_53::ICUService::reset(void)` | 1515 | Exported Function
-`public: virtual void __thiscall icu_53::ICUNotifier::removeListener(class icu_53::EventListener const *,enum UErrorCode &)` | 1490 | Exported Function
-`public: virtual int __thiscall icu_53::CharacterIterator::first32PostInc(void)` | 800 | Exported Function
-`public: virtual int __thiscall icu_53::BytesDictionaryMatcher::matches(struct UText *,int,int *,int &,int,int *)const ` | 1346 | Exported Function
-`public: virtual int __thiscall icu_53::FilteredNormalizer2::spanQuickCheckYes(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1644 | Exported Function
-`public: virtual int __thiscall icu_53::FilteredNormalizer2::composePair(int,int)const ` | 625 | Exported Function
-`public: virtual int __thiscall icu_53::BytesDictionaryMatcher::getType(void)const ` | 1102 | Exported Function
-`public: virtual enum UNormalizationCheckResult __thiscall icu_53::FilteredNormalizer2::quickCheck(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1446 | Exported Function
-`public: virtual enum icu_53::UMatchDegree __thiscall icu_53::UnicodeSet::matches(class icu_53::Replaceable const &,int &,int,signed char)` | 1349 | Exported Function
-`public: virtual int __thiscall icu_53::BreakIterator::getRuleStatusVec(int *,int,enum UErrorCode &)` | 1045 | Exported Function
-`public: virtual int __thiscall icu_53::BreakIterator::getRuleStatus(void)const ` | 1043 | Exported Function
-`public: virtual int __thiscall icu_53::LocaleKey::kind(void)const ` | 1304 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::hashCode(void)const ` | 1154 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::getRuleStatusVec(int *,int,enum UErrorCode &)` | 1046 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::next(int)` | 1366 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::last(void)` | 1309 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::getRuleStatus(void)const ` | 1044 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::current(void)const ` | 696 | Exported Function
-`public: virtual int __thiscall icu_53::Normalizer2::composePair(int,int)const ` | 626 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::following(int)` | 812 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::first(void)` | 804 | Exported Function
-`public: virtual enum icu_53::UMatchDegree __thiscall icu_53::UnicodeFilter::matches(class icu_53::Replaceable const &,int &,int,signed char)` | 1348 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::LocaleKey::currentID(class icu_53::UnicodeString &)const ` | 702 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::LocaleKey::currentDescriptor(class icu_53::UnicodeString &)const ` | 700 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::LocaleKeyFactory::getDisplayName(class icu_53::UnicodeString const &,class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 892 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::LocaleKey::prefix(class icu_53::UnicodeString &)const ` | 1432 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::LocaleKey::canonicalID(class icu_53::UnicodeString &)const ` | 555 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ICUServiceKey::currentDescriptor(class icu_53::UnicodeString &)const ` | 699 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ICUServiceKey::canonicalID(class icu_53::UnicodeString &)const ` | 554 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ICUServiceKey::prefix(class icu_53::UnicodeString &)const ` | 1431 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::ICUServiceKey::currentID(class icu_53::UnicodeString &)const ` | 701 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::SimpleFactory::getDisplayName(class icu_53::UnicodeString const &,class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 893 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::LocaleKeyFactory::create(class icu_53::ICUServiceKey const &,class icu_53::ICUService const *,enum UErrorCode &)const ` | 663 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::ICUService::getKey(class icu_53::ICUServiceKey &,class icu_53::UnicodeString *,enum UErrorCode &)const ` | 968 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::SimpleLocaleKeyFactory::create(class icu_53::ICUServiceKey const &,class icu_53::ICUService const *,enum UErrorCode &)const ` | 666 | Exported Function
-`public: virtual class icu_53::UObject * __thiscall icu_53::SimpleFactory::create(class icu_53::ICUServiceKey const &,class icu_53::ICUService const *,enum UErrorCode &)const ` | 664 | Exported Function
-`public: virtual class icu_53::UnicodeString const * __thiscall icu_53::UStringEnumeration::snext(enum UErrorCode &)` | 1631 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::ICUServiceKey::getID(void)const ` | 948 | Exported Function
-`public: virtual class icu_53::UnicodeString & __thiscall icu_53::UnicodeSet::toPattern(class icu_53::UnicodeString &,signed char)const ` | 1663 | Exported Function
-`public: virtual class icu_53::UnicodeString const * __thiscall icu_53::StringEnumeration::snext(enum UErrorCode &)` | 1630 | Exported Function
-`public: virtual class icu_53::UnicodeString const & __thiscall icu_53::RuleBasedBreakIterator::getRules(void)const ` | 1047 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::next(void)` | 1367 | Exported Function
-`public: virtual signed char __thiscall icu_53::FilteredNormalizer2::getRawDecomposition(int,class icu_53::UnicodeString &)const ` | 1037 | Exported Function
-`public: virtual signed char __thiscall icu_53::FilteredNormalizer2::getDecomposition(int,class icu_53::UnicodeString &)const ` | 879 | Exported Function
-`public: virtual signed char __thiscall icu_53::FilteredNormalizer2::hasBoundaryBefore(int)const ` | 1131 | Exported Function
-`public: virtual signed char __thiscall icu_53::FilteredNormalizer2::hasBoundaryAfter(int)const ` | 1130 | Exported Function
-`public: virtual signed char __thiscall icu_53::DateInterval::operator==(class icu_53::DateInterval const &)const ` | 333 | Exported Function
-`public: virtual signed char __thiscall icu_53::Appendable::appendCodePoint(int)` | 511 | Exported Function
-`public: virtual int __thiscall icu_53::UStringEnumeration::count(enum UErrorCode &)const ` | 657 | Exported Function
-`public: virtual signed char __thiscall icu_53::Appendable::reserveAppendCapacity(int)` | 1508 | Exported Function
-`public: virtual signed char __thiscall icu_53::Appendable::appendString(wchar_t const *,int)` | 518 | Exported Function
-`public: virtual signed char __thiscall icu_53::FilteredNormalizer2::isInert(int)const ` | 1238 | Exported Function
-`public: virtual signed char __thiscall icu_53::LocaleKey::isFallbackOf(class icu_53::UnicodeString const &)const ` | 1231 | Exported Function
-`public: virtual signed char __thiscall icu_53::LocaleKey::fallback(void)` | 784 | Exported Function
-`public: virtual signed char __thiscall icu_53::Replaceable::hasMetaData(void)const ` | 1139 | Exported Function
-`public: virtual signed char __thiscall icu_53::Normalizer2::getRawDecomposition(int,class icu_53::UnicodeString &)const ` | 1039 | Exported Function
-`public: virtual signed char __thiscall icu_53::ICUServiceKey::isFallbackOf(class icu_53::UnicodeString const &)const ` | 1230 | Exported Function
-`public: virtual signed char __thiscall icu_53::ICUService::isDefault(void)const ` | 1220 | Exported Function
-`public: virtual signed char __thiscall icu_53::FilteredNormalizer2::isNormalized(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1247 | Exported Function
-`public: virtual signed char __thiscall icu_53::ICUServiceKey::fallback(void)` | 783 | Exported Function
-`public: virtual signed char __thiscall icu_53::ICUService::unregister(void const *,enum UErrorCode &)` | 1690 | Exported Function
-`public: virtual int __thiscall icu_53::UnicodeSet::size(void)const ` | 1613 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::last32(void)` | 1307 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::hashCode(void)const ` | 1155 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::move32(int,enum icu_53::CharacterIterator::EOrigin)` | 1351 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::move(int,enum icu_53::CharacterIterator::EOrigin)` | 1352 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::first32PostInc(void)` | 801 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::previous(void)` | 1435 | Exported Function
-`public: virtual int __thiscall icu_53::RuleBasedBreakIterator::preceding(int)` | 1430 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::first32(void)` | 799 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::current32(void)const ` | 693 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::next32(void)` | 1357 | Exported Function
-`public: virtual int __thiscall icu_53::UnicodeSet::getRangeEnd(int)const ` | 1035 | Exported Function
-`public: virtual int __thiscall icu_53::UnicodeSet::getRangeCount(void)const ` | 1034 | Exported Function
-`public: virtual int __thiscall icu_53::UnicodeSet::hashCode(void)const ` | 1156 | Exported Function
-`public: virtual int __thiscall icu_53::UnicodeSet::getRangeStart(int)const ` | 1036 | Exported Function
-`public: virtual int __thiscall icu_53::UCharsDictionaryMatcher::matches(struct UText *,int,int *,int &,int,int *)const ` | 1347 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::previous32(void)` | 1433 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::next32PostInc(void)` | 1358 | Exported Function
-`public: virtual int __thiscall icu_53::UCharsDictionaryMatcher::getType(void)const ` | 1104 | Exported Function
-`public: virtual int __thiscall icu_53::UCharCharacterIterator::setIndex32(int)` | 1562 | Exported Function
+`getAppendBuffer` | 838 | Exported Function
+`UCharsDictionaryMatcher` | 259 | Exported Function
+`UCharCharacterIterator` | 258 | Exported Function
+`UnicodeFilter` | 268 | Exported Function
+`UCharsTrieBuilder` | 261 | Exported Function
+`SymbolTable` | 257 | Exported Function
+`SimpleLRUCache` | 250 | Exported Function
+`SimpleLocaleKeyFactory` | 251 | Exported Function
+`StringEnumeration` | 254 | Exported Function
+`StringCharacterIterator` | 253 | Exported Function
+`UnicodeFunctor` | 269 | Exported Function
+`UStack` | 263 | Exported Function
+`UObject` | 262 | Exported Function
+`UVector32` | 265 | Exported Function
+`UStringEnumeration` | 264 | Exported Function
+`UnicodeStringAppendable` | 274 | Exported Function
+`UnicodeSet` | 271 | Exported Function
+`UnicodeMatcher` | 270 | Exported Function
+`UnicodeString` | 273 | Exported Function
+`UnicodeSetIterator` | 272 | Exported Function
+`SimpleFactory` | 249 | Exported Function
+`Locale` | 234 | Exported Function
+`ListFormatter` | 233 | Exported Function
+`LocaleKeyFactory` | 236 | Exported Function
+`LocaleKey` | 235 | Exported Function
+`IDNA` | 229 | Exported Function
+`ICUService` | 226 | Exported Function
+`ICUResourceBundleFactory` | 225 | Exported Function
+`ICUServiceKey` | 228 | Exported Function
+`ICUServiceFactory` | 227 | Exported Function
+`LRUCache` | 232 | Exported Function
+`RuleBasedBreakIterator` | 246 | Exported Function
+`ResourceBundle` | 245 | Exported Function
+`SharedObject` | 248 | Exported Function
+`ServiceListener` | 247 | Exported Function
+`Replaceable` | 244 | Exported Function
+`Normalizer2` | 239 | Exported Function
+`MessagePattern` | 237 | Exported Function
+`ParsePosition` | 242 | Exported Function
+`Normalizer` | 241 | Exported Function
+`UVector64` | 266 | Exported Function
+`clear` | 578 | Exported Function
+`UnicodeSet` | 475 | Exported Function
+`complement` | 618 | Exported Function
+`compact` | 599 | Exported Function
+`add` | 473 | Exported Function
+`toMatcher` | 1661 | Exported Function
+`clone` | 593 | Exported Function
+`toReplacer` | 1664 | Exported Function
+`toMatcher` | 1662 | Exported Function
+`complement` | 619 | Exported Function
+`UnicodeString` | 501 | Exported Function
+`UnicodeSet` | 1536 | Exported Function
+`UnicodeString` | 1387 | Exported Function
+`UnicodeString` | 1383 | Exported Function
+`retain` | 1532 | Exported Function
+`remove` | 1474 | Exported Function
+`UnicodeSet` | 621 | Exported Function
+`removeAllStrings` | 1485 | Exported Function
+`UnicodeSet` | 1481 | Exported Function
+`clone` | 591 | Exported Function
+`createBufferClone` | 668 | Exported Function
+`clone` | 589 | Exported Function
+`clone` | 590 | Exported Function
+`getText` | 1095 | Exported Function
+`next` | 1372 | Exported Function
+`GetAppendBuffer` | 443 | Exported Function
+`UVector` | 267 | Exported Function
+`next` | 1368 | Exported Function
+`GetAppendBuffer` | 444 | Exported Function
+`clone` | 592 | Exported Function
+`clone` | 594 | Exported Function
+`clone` | 587 | Exported Function
+`getAvailableLocales` | 845 | Exported Function
+`refreshInputText` | 1455 | Exported Function
+`Locale` | 703 | Exported Function
+`clone` | 583 | Exported Function
+`Reset` | 449 | Exported Function
+`Locale` | 556 | Exported Function
+`UnicodeString` | 681 | Exported Function
+`getStaticClassID` | 1074 | Exported Function
+`getStaticClassID` | 1073 | Exported Function
+`Hashtable` | 1419 | Exported Function
+`getStaticClassID` | 1075 | Exported Function
+`getStaticClassID` | 1072 | Exported Function
+`getStaticClassID` | 1079 | Exported Function
+`getStaticClassID` | 1078 | Exported Function
+`getStaticClassID` | 1071 | Exported Function
+`getStaticClassID` | 1080 | Exported Function
+`getRawDecomposition` | 1038 | Exported Function
+`UnicodeString` | 712 | Exported Function
+`UnicodeString` | 623 | Exported Function
+`operator` | 279 | Exported Function
+`UnicodeString` | 1385 | Exported Function
+`UnicodeString` | 517 | Exported Function
+`UnicodeString` | 522 | Exported Function
+`UnicodeString` | 524 | Exported Function
+`Locale` | 1554 | Exported Function
+`UnicodeString` | 523 | Exported Function
+`getStaticClassID` | 1077 | Exported Function
+`getStaticClassID` | 1063 | Exported Function
+`getStaticClassID` | 1062 | Exported Function
+`getStaticClassID` | 1065 | Exported Function
+`getStaticClassID` | 1064 | Exported Function
+`getStaticClassID` | 1061 | Exported Function
+`getStaticClassID` | 1058 | Exported Function
+`getStaticClassID` | 1057 | Exported Function
+`getStaticClassID` | 1060 | Exported Function
+`getStaticClassID` | 1059 | Exported Function
+`getStaticClassID` | 1066 | Exported Function
+`operator` | 276 | Exported Function
+`operator` | 277 | Exported Function
+`getStaticClassID` | 1076 | Exported Function
+`operator` | 439 | Exported Function
+`operator` | 275 | Exported Function
+`getStaticClassID` | 1068 | Exported Function
+`getStaticClassID` | 1067 | Exported Function
+`getStaticClassID` | 1070 | Exported Function
+`getStaticClassID` | 1069 | Exported Function
+`operator` | 280 | Exported Function
+`ByteSink` | 208 | Exported Function
+`BytesDictionaryMatcher` | 209 | Exported Function
+`CanonicalIterator` | 212 | Exported Function
+`BytesTrieBuilder` | 211 | Exported Function
+`BreakIterator` | 207 | Exported Function
+`nextFCD16` | 1375 | Exported Function
+`getNorm16` | 1023 | Exported Function
+`Appendable` | 206 | Exported Function
+`previousFCD16` | 1438 | Exported Function
+`CharacterIterator` | 214 | Exported Function
+`ForwardCharacterIterator` | 221 | Exported Function
+`FilteredNormalizer2` | 220 | Exported Function
+`ICUNotifier` | 224 | Exported Function
+`ICULocaleService` | 223 | Exported Function
+`EventListener` | 219 | Exported Function
+`DateInterval` | 216 | Exported Function
+`CheckedArrayByteSink` | 215 | Exported Function
+`ErrorCode` | 218 | Exported Function
+`DictionaryMatcher` | 217 | Exported Function
+`getFCD16FromNormData` | 941 | Exported Function
+`UnicodeString` | 786 | Exported Function
+`trimWhiteSpace` | 1678 | Exported Function
+`toUSet` | 1669 | Exported Function
+`nextElement` | 1374 | Exported Function
+`skipWhiteSpace` | 1628 | Exported Function
+`operator` | 440 | Exported Function
+`operator` | 278 | Exported Function
+`skipIdentifier` | 1620 | Exported Function
+`Locale` | 1458 | Exported Function
+`toUSet` | 1670 | Exported Function
+`getUInt` | 1105 | Exported Function
+`getLCID` | 973 | Exported Function
+`getFCD16FromBelow180` | 940 | Exported Function
+`getFCD16` | 939 | Exported Function
+`getErrors` | 937 | Exported Function
+`getCC` | 854 | Exported Function
+`getNormTrie` | 1024 | Exported Function
+`getBinary` | 848 | Exported Function
+`getLastCC` | 976 | Exported Function
+`getDynamicClassID` | 905 | Exported Function
+`getDynamicClassID` | 904 | Exported Function
+`getDynamicClassID` | 907 | Exported Function
+`getDynamicClassID` | 906 | Exported Function
+`getDynamicClassID` | 903 | Exported Function
+`getBinaryRules` | 849 | Exported Function
+`getCombiningClass` | 873 | Exported Function
+`getDynamicClassID` | 902 | Exported Function
+`getDynamicClassID` | 901 | Exported Function
+`getDynamicClassID` | 908 | Exported Function
+`getDynamicClassID` | 915 | Exported Function
+`getDynamicClassID` | 914 | Exported Function
+`getDynamicClassID` | 917 | Exported Function
+`getDynamicClassID` | 916 | Exported Function
+`getDynamicClassID` | 913 | Exported Function
+`getDynamicClassID` | 910 | Exported Function
+`getDynamicClassID` | 909 | Exported Function
+`getDynamicClassID` | 912 | Exported Function
+`getDynamicClassID` | 911 | Exported Function
+`getCombiningClass` | 872 | Exported Function
+`hasPrevious` | 1148 | Exported Function
+`hasNext` | 1146 | Exported Function
+`contains` | 636 | Exported Function
+`ForwardCharacterIterator` | 341 | Exported Function
+`StringEnumeration` | 340 | Exported Function
+`BreakIterator` | 338 | Exported Function
+`isBoundary` | 1209 | Exported Function
+`StringEnumeration` | 357 | Exported Function
+`ForwardCharacterIterator` | 339 | Exported Function
+`contains` | 637 | Exported Function
+`appendString` | 519 | Exported Function
+`appendCodeUnit` | 513 | Exported Function
+`getUText` | 1109 | Exported Function
+`reserveAppendCapacity` | 1509 | Exported Function
+`appendCodePoint` | 512 | Exported Function
+`isEmpty` | 1226 | Exported Function
+`UnicodeSet` | 641 | Exported Function
+`hasMetaData` | 1140 | Exported Function
+`UnicodeSet` | 345 | Exported Function
+`getDynamicClassID` | 924 | Exported Function
+`TransliterationRuleData` | 1553 | Exported Function
+`UnicodeString` | 1097 | Exported Function
+`copy` | 650 | Exported Function
+`UnicodeSet` | 486 | Exported Function
+`UnicodeString` | 1096 | Exported Function
+`setText` | 1588 | Exported Function
+`UnicodeString` | 1587 | Exported Function
+`Hashtable` | 1693 | Exported Function
+`Hashtable` | 1692 | Exported Function
+`UnicodeString` | 782 | Exported Function
+`ICUServiceFactory` | 1456 | Exported Function
+`UnicodeString` | 1462 | Exported Function
+`getAppendBuffer` | 836 | Exported Function
+`UnicodeString` | 1464 | Exported Function
+`Locale` | 1461 | Exported Function
+`reset` | 1522 | Exported Function
+`UnicodeString` | 1128 | Exported Function
+`Locale` | 1460 | Exported Function
+`Locale` | 1459 | Exported Function
+`CharacterIterator` | 492 | Exported Function
+`getDynamicClassID` | 922 | Exported Function
+`getDynamicClassID` | 921 | Exported Function
+`Flush` | 442 | Exported Function
+`getDynamicClassID` | 923 | Exported Function
+`getDynamicClassID` | 920 | Exported Function
+`getDynamicClassID` | 926 | Exported Function
+`getDynamicClassID` | 925 | Exported Function
+`getDynamicClassID` | 919 | Exported Function
+`getDynamicClassID` | 918 | Exported Function
+`Append` | 441 | Exported Function
+`IDNAInfo` | 1355 | Exported Function
+`IDNAInfo` | 1306 | Exported Function
+`Hashtable` | 1691 | Exported Function
+`IDNAInfo` | 1356 | Exported Function
+`IDNAInfo` | 1305 | Exported Function
+`notifyChanged` | 1388 | Exported Function
+`EventListener` | 485 | Exported Function
+`reset` | 1515 | Exported Function
+`EventListener` | 1490 | Exported Function
+`first32PostInc` | 800 | Exported Function
+`matches` | 1346 | Exported Function
+`UnicodeString` | 1644 | Exported Function
+`composePair` | 625 | Exported Function
+`getType` | 1102 | Exported Function
+`UnicodeString` | 1446 | Exported Function
+`Replaceable` | 1349 | Exported Function
+`getRuleStatusVec` | 1045 | Exported Function
+`getRuleStatus` | 1043 | Exported Function
+`kind` | 1304 | Exported Function
+`hashCode` | 1154 | Exported Function
+`getRuleStatusVec` | 1046 | Exported Function
+`next` | 1366 | Exported Function
+`last` | 1309 | Exported Function
+`getRuleStatus` | 1044 | Exported Function
+`current` | 696 | Exported Function
+`composePair` | 626 | Exported Function
+`following` | 812 | Exported Function
+`first` | 804 | Exported Function
+`Replaceable` | 1348 | Exported Function
+`UnicodeString` | 702 | Exported Function
+`UnicodeString` | 700 | Exported Function
+`UnicodeString` | 892 | Exported Function
+`UnicodeString` | 1432 | Exported Function
+`UnicodeString` | 555 | Exported Function
+`UnicodeString` | 699 | Exported Function
+`UnicodeString` | 554 | Exported Function
+`UnicodeString` | 1431 | Exported Function
+`UnicodeString` | 701 | Exported Function
+`UnicodeString` | 893 | Exported Function
+`ICUService` | 663 | Exported Function
+`UnicodeString` | 968 | Exported Function
+`ICUService` | 666 | Exported Function
+`ICUService` | 664 | Exported Function
+`snext` | 1631 | Exported Function
+`getID` | 948 | Exported Function
+`UnicodeString` | 1663 | Exported Function
+`snext` | 1630 | Exported Function
+`getRules` | 1047 | Exported Function
+`next` | 1367 | Exported Function
+`UnicodeString` | 1037 | Exported Function
+`UnicodeString` | 879 | Exported Function
+`hasBoundaryBefore` | 1131 | Exported Function
+`hasBoundaryAfter` | 1130 | Exported Function
+`DateInterval` | 333 | Exported Function
+`appendCodePoint` | 511 | Exported Function
+`count` | 657 | Exported Function
+`reserveAppendCapacity` | 1508 | Exported Function
+`appendString` | 518 | Exported Function
+`isInert` | 1238 | Exported Function
+`UnicodeString` | 1231 | Exported Function
+`fallback` | 784 | Exported Function
+`hasMetaData` | 1139 | Exported Function
+`UnicodeString` | 1039 | Exported Function
+`UnicodeString` | 1230 | Exported Function
+`isDefault` | 1220 | Exported Function
+`UnicodeString` | 1247 | Exported Function
+`fallback` | 783 | Exported Function
+`unregister` | 1690 | Exported Function
+`size` | 1613 | Exported Function
+`last32` | 1307 | Exported Function
+`hashCode` | 1155 | Exported Function
+`EOrigin` | 1351 | Exported Function
+`EOrigin` | 1352 | Exported Function
+`first32PostInc` | 801 | Exported Function
+`previous` | 1435 | Exported Function
+`preceding` | 1430 | Exported Function
+`first32` | 799 | Exported Function
+`current32` | 693 | Exported Function
+`next32` | 1357 | Exported Function
+`getRangeEnd` | 1035 | Exported Function
+`getRangeCount` | 1034 | Exported Function
+`hashCode` | 1156 | Exported Function
+`getRangeStart` | 1036 | Exported Function
+`matches` | 1347 | Exported Function
+`previous32` | 1433 | Exported Function
+`next32PostInc` | 1358 | Exported Function
+`getType` | 1104 | Exported Function
+`setIndex32` | 1562 | Exported Function
 `ubidi_isOrderParagraphsLTR_53` | 1910 | Exported Function
 `upvec_cloneArray_53` | 2325 | Exported Function
 `uprv_uint32Comparator_53` | 2324 | Exported Function
@@ -872,7 +872,7 @@ Function Name | Ordinal | Type
 `utrie_get32_53` | 2526 | Exported Function
 `utrie_unserialize_53` | 2534 | Exported Function
 `utrie_swap_53` | 2532 | Exported Function
-`void __cdecl icu_53::umtx_initImplPostInit(struct icu_53::UInitOnce &)` | 1683 | Exported Function
+`UInitOnce` | 1683 | Exported Function
 `utrie_unserializeDummy_53` | 2533 | Exported Function
 `utrie_setRange32_53` | 2531 | Exported Function
 `utrie_open_53` | 2528 | Exported Function
@@ -1295,1273 +1295,1273 @@ Function Name | Ordinal | Type
 `uhash_nextElement_53` | 2111 | Exported Function
 `uhash_put_53` | 2114 | Exported Function
 `uhash_openSize_53` | 2112 | Exported Function
-`public: __int64 __thiscall icu_53::UVector64::elementAti(int)const ` | 740 | Exported Function
-`public: __int64 * __thiscall icu_53::UVector64::reserveBlock(int,enum UErrorCode &)` | 1511 | Exported Function
-`public: __int64 __thiscall icu_53::UVector64::popi(void)` | 1427 | Exported Function
-`public: __int64 __thiscall icu_53::UVector64::lastElementi(void)const ` | 1313 | Exported Function
-`public: __int64 * __thiscall icu_53::UVector64::popFrame(int)` | 1424 | Exported Function
-`protected: void __thiscall icu_53::StringTrieBuilder::createCompactBuilder(int,enum UErrorCode &)` | 671 | Exported Function
-`protected: void __thiscall icu_53::StringTrieBuilder::build(enum UStringTrieBuildOption,int,enum UErrorCode &)` | 547 | Exported Function
-`public: __int64 * __thiscall icu_53::UVector64::getBuffer(void)const ` | 851 | Exported Function
-`protected: void __thiscall icu_53::StringTrieBuilder::deleteCompactBuilder(void)` | 715 | Exported Function
-`public: __int64 __thiscall icu_53::UVector64::push(__int64,enum UErrorCode &)` | 1443 | Exported Function
-`public: __thiscall icu_53::BytesTrie::BytesTrie(void const *)` | 13 | Exported Function
-`public: __thiscall icu_53::BytesTrie::BytesTrie(class icu_53::BytesTrie const &)` | 12 | Exported Function
-`public: __thiscall icu_53::BytesTrie::Iterator::Iterator(void const *,int,enum UErrorCode &)` | 62 | Exported Function
-`public: __thiscall icu_53::BytesTrie::Iterator::Iterator(class icu_53::BytesTrie const &,int,enum UErrorCode &)` | 61 | Exported Function
-`public: __thiscall icu_53::ByteSink::ByteSink(void)` | 8 | Exported Function
-`public: __thiscall icu_53::Appendable::Appendable(void)` | 4 | Exported Function
-`public: __thiscall icu_53::Appendable::Appendable(class icu_53::Appendable const &)` | 3 | Exported Function
-`public: __thiscall icu_53::BytesDictionaryMatcher::BytesDictionaryMatcher(class icu_53::BytesDictionaryMatcher const &)` | 9 | Exported Function
-`public: __thiscall icu_53::BytesDictionaryMatcher::BytesDictionaryMatcher(char const *,int,struct UDataMemory *)` | 10 | Exported Function
-`protected: void __thiscall icu_53::StringEnumeration::ensureCharsCapacity(int,enum UErrorCode &)` | 761 | Exported Function
-`protected: virtual signed char __thiscall icu_53::ICUService::acceptsListener(class icu_53::EventListener const &)const ` | 467 | Exported Function
-`protected: virtual int __thiscall icu_53::UnicodeString::getLength(void)const ` | 978 | Exported Function
-`protected: virtual void __thiscall icu_53::ErrorCode::handleFailure(void)const ` | 1125 | Exported Function
-`protected: virtual signed char __thiscall icu_53::LocaleKeyFactory::handlesKey(class icu_53::ICUServiceKey const &,enum UErrorCode &)const ` | 1129 | Exported Function
-`protected: virtual int __thiscall icu_53::UnicodeString::getChar32At(int)const ` | 864 | Exported Function
-`protected: virtual class icu_53::UObject * __thiscall icu_53::ICUResourceBundleFactory::handleCreate(class icu_53::Locale const &,int,class icu_53::ICUService const *,enum UErrorCode &)const ` | 1122 | Exported Function
-`protected: virtual class icu_53::SharedObject * __thiscall icu_53::SimpleLRUCache::create(char const *,enum UErrorCode &)` | 665 | Exported Function
-`protected: virtual class icu_53::UObject * __thiscall icu_53::LocaleKeyFactory::handleCreate(class icu_53::Locale const &,int,class icu_53::ICUService const *,enum UErrorCode &)const ` | 1123 | Exported Function
-`protected: virtual class icu_53::UObject * __thiscall icu_53::ICUService::handleDefault(class icu_53::ICUServiceKey const &,class icu_53::UnicodeString *,enum UErrorCode &)const ` | 1124 | Exported Function
-`protected: virtual void __thiscall icu_53::ICUService::clearCaches(void)` | 580 | Exported Function
-`protected: void __thiscall icu_53::ICUService::clearServiceCache(void)` | 582 | Exported Function
-`protected: virtual wchar_t __thiscall icu_53::UnicodeString::getCharAt(int)const ` | 867 | Exported Function
-`protected: void __thiscall icu_53::RuleBasedBreakIterator::init(void)` | 1187 | Exported Function
-`protected: void __thiscall icu_53::Locale::setFromPOSIXID(char const *)` | 1561 | Exported Function
-`protected: virtual void __thiscall icu_53::UnicodeSetIterator::loadRange(int)` | 1334 | Exported Function
-`protected: virtual void __thiscall icu_53::ICUService::reInitializeFactories(void)` | 1449 | Exported Function
-`protected: virtual void __thiscall icu_53::ICUService::notifyListener(class icu_53::EventListener &)const ` | 1389 | Exported Function
-`protected: virtual void __thiscall icu_53::RuleBasedBreakIterator::setBreakType(int)` | 1549 | Exported Function
-`protected: virtual void __thiscall icu_53::RuleBasedBreakIterator::reset(void)` | 1520 | Exported Function
-`public: __thiscall icu_53::BytesTrie::Iterator::~Iterator(void)` | 230 | Exported Function
-`public: __thiscall icu_53::Hashtable::~Hashtable(void)` | 222 | Exported Function
-`public: __thiscall icu_53::Hashtable::Hashtable(void)` | 42 | Exported Function
-`public: __thiscall icu_53::ICULocaleService::ICULocaleService(class icu_53::UnicodeString const &)` | 44 | Exported Function
-`public: __thiscall icu_53::ICULocaleService::ICULocaleService(class icu_53::ICULocaleService const &)` | 43 | Exported Function
-`public: __thiscall icu_53::Hashtable::Hashtable(signed char,enum UErrorCode &)` | 40 | Exported Function
-`public: __thiscall icu_53::FullCaseFoldingIterator::FullCaseFoldingIterator(void)` | 38 | Exported Function
-`public: __thiscall icu_53::FilteredNormalizer2::FilteredNormalizer2(class icu_53::Normalizer2 const &,class icu_53::UnicodeSet const &)` | 35 | Exported Function
-`public: __thiscall icu_53::Hashtable::Hashtable(signed char (__cdecl*)(union UElement,union UElement),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 41 | Exported Function
-`public: __thiscall icu_53::Hashtable::Hashtable(enum UErrorCode &)` | 39 | Exported Function
-`public: __thiscall icu_53::ICULocaleService::ICULocaleService(void)` | 45 | Exported Function
-`public: __thiscall icu_53::ICUService::ICUService(class icu_53::UnicodeString const &)` | 52 | Exported Function
-`public: __thiscall icu_53::ICUService::ICUService(class icu_53::ICUService const &)` | 51 | Exported Function
-`public: __thiscall icu_53::ICUServiceFactory::ICUServiceFactory(class icu_53::ICUServiceFactory const &)` | 54 | Exported Function
-`public: __thiscall icu_53::ICUService::ICUService(void)` | 53 | Exported Function
-`public: __thiscall icu_53::ICUResourceBundleFactory::ICUResourceBundleFactory(void)` | 50 | Exported Function
-`public: __thiscall icu_53::ICUNotifier::ICUNotifier(void)` | 47 | Exported Function
-`public: __thiscall icu_53::ICUNotifier::ICUNotifier(class icu_53::ICUNotifier const &)` | 46 | Exported Function
-`public: __thiscall icu_53::ICUResourceBundleFactory::ICUResourceBundleFactory(class icu_53::UnicodeString const &)` | 49 | Exported Function
-`public: __thiscall icu_53::ICUResourceBundleFactory::ICUResourceBundleFactory(class icu_53::ICUResourceBundleFactory const &)` | 48 | Exported Function
-`public: __thiscall icu_53::FilteredNormalizer2::FilteredNormalizer2(class icu_53::FilteredNormalizer2 const &)` | 34 | Exported Function
-`public: __thiscall icu_53::CharString::CharString(void)` | 19 | Exported Function
-`public: __thiscall icu_53::CharString::CharString(class icu_53::StringPiece const &,enum UErrorCode &)` | 17 | Exported Function
-`public: __thiscall icu_53::CheckedArrayByteSink::CheckedArrayByteSink(char *,int)` | 25 | Exported Function
-`public: __thiscall icu_53::CharString::~CharString(void)` | 213 | Exported Function
-`public: __thiscall icu_53::CharString::CharString(class icu_53::CharString const &,enum UErrorCode &)` | 16 | Exported Function
-`public: __thiscall icu_53::BytesTrieBuilder::BytesTrieBuilder(enum UErrorCode &)` | 14 | Exported Function
-`public: __thiscall icu_53::BytesTrie::~BytesTrie(void)` | 210 | Exported Function
-`public: __thiscall icu_53::CharString::CharString(char const *,int,enum UErrorCode &)` | 18 | Exported Function
-`public: __thiscall icu_53::CanonicalIterator::CanonicalIterator(class icu_53::UnicodeString const &,enum UErrorCode &)` | 15 | Exported Function
-`public: __thiscall icu_53::DateInterval::DateInterval(class icu_53::DateInterval const &)` | 26 | Exported Function
-`public: __thiscall icu_53::ErrorCode::operator enum UErrorCode *(void)` | 369 | Exported Function
-`public: __thiscall icu_53::ErrorCode::operator enum UErrorCode &(void)` | 368 | Exported Function
-`public: __thiscall icu_53::EventListener::EventListener(void)` | 33 | Exported Function
-`public: __thiscall icu_53::EventListener::EventListener(class icu_53::EventListener const &)` | 32 | Exported Function
-`public: __thiscall icu_53::ErrorCode::ErrorCode(void)` | 31 | Exported Function
-`public: __thiscall icu_53::DictionaryMatcher::DictionaryMatcher(class icu_53::DictionaryMatcher const &)` | 28 | Exported Function
-`public: __thiscall icu_53::DateInterval::DateInterval(double,double)` | 27 | Exported Function
-`public: __thiscall icu_53::ErrorCode::ErrorCode(class icu_53::ErrorCode const &)` | 30 | Exported Function
-`public: __thiscall icu_53::DictionaryMatcher::DictionaryMatcher(void)` | 29 | Exported Function
-`private: wchar_t * __thiscall icu_53::UnicodeString::getArrayStart(void)` | 840 | Exported Function
-`private: void __thiscall icu_53::UVector::sortedInsert(union UElement,signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1635 | Exported Function
-`private: wchar_t const * __thiscall icu_53::Normalizer2Impl::copyLowPrefixFromNulTerminated(wchar_t const *,int,class icu_53::ReorderingBuffer *,enum UErrorCode &)const ` | 653 | Exported Function
-`private: wchar_t __thiscall icu_53::UnicodeString::doCharAt(int)const ` | 719 | Exported Function
-`private: void __thiscall icu_53::UVector::_init(int,enum UErrorCode &)` | 465 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::unBogus(void)` | 1685 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::setToEmpty(void)` | 1602 | Exported Function
-`private: void __thiscall icu_53::UVector64::_init(int,enum UErrorCode &)` | 464 | Exported Function
-`private: void __thiscall icu_53::UVector32::_init(int,enum UErrorCode &)` | 463 | Exported Function
-`private: wchar_t const * __thiscall icu_53::Normalizer2Impl::findNextCompBoundary(wchar_t const *,wchar_t const *)const ` | 791 | Exported Function
-`protected: __thiscall icu_53::BreakIterator::BreakIterator(class icu_53::Locale const &,class icu_53::Locale const &)` | 6 | Exported Function
-`protected: __thiscall icu_53::BreakIterator::BreakIterator(class icu_53::BreakIterator const &)` | 5 | Exported Function
-`protected: __thiscall icu_53::CharacterIterator::CharacterIterator(class icu_53::CharacterIterator const &)` | 20 | Exported Function
-`protected: __thiscall icu_53::BreakIterator::BreakIterator(void)` | 7 | Exported Function
-`private: wchar_t const * __thiscall icu_53::UnicodeString::getArrayStart(void)const ` | 841 | Exported Function
-`private: wchar_t const * __thiscall icu_53::Normalizer2Impl::findPreviousCompBoundary(wchar_t const *,wchar_t const *)const ` | 793 | Exported Function
-`private: wchar_t const * __thiscall icu_53::Normalizer2Impl::findNextFCDBoundary(wchar_t const *,wchar_t const *)const ` | 792 | Exported Function
-`private: wchar_t const * __thiscall icu_53::UCharsTrie::Iterator::branchNext(wchar_t const *,int,enum UErrorCode &)` | 544 | Exported Function
-`private: wchar_t const * __thiscall icu_53::Normalizer2Impl::findPreviousFCDBoundary(wchar_t const *,wchar_t const *)const ` | 794 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::setLength(int)` | 1570 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::releasePattern(void)` | 1469 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::exclusiveOr(int const *,int,signed char)` | 769 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::setPattern(class icu_53::UnicodeString const &)` | 1578 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::retain(int const *,int,signed char)` | 1530 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::ensureCapacity(int,enum UErrorCode &)` | 760 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::applyPatternIgnoreSpace(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,class icu_53::SymbolTable const *,enum UErrorCode &)` | 533 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::applyPattern(class icu_53::RuleCharacterIterator &,class icu_53::SymbolTable const *,class icu_53::UnicodeString &,unsigned int,class icu_53::UnicodeSet & (__thiscall icu_53::UnicodeSet::*)(int),enum UErrorCode &)` | 529 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::ensureBufferCapacity(int,enum UErrorCode &)` | 751 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::applyPropertyPattern(class icu_53::RuleCharacterIterator &,class icu_53::UnicodeString &,enum UErrorCode &)` | 536 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::swapBuffers(void)` | 1655 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::pinIndices(int &,int &)const ` | 1421 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::pinIndex(int &)const ` | 1420 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::setArray(wchar_t *,int,int)` | 1548 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::releaseArray(void)` | 1467 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::doExtract(int,int,wchar_t *,int)const ` | 729 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::doCodepageCreate(char const *,int,char const *)` | 720 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::addRef(void)` | 491 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::doExtract(int,int,class icu_53::UnicodeString &)const ` | 728 | Exported Function
-`private: void __thiscall icu_53::UnicodeString::doCodepageCreate(char const *,int,struct UConverter *,enum UErrorCode &)` | 721 | Exported Function
-`protected: __thiscall icu_53::CharacterIterator::CharacterIterator(int)` | 21 | Exported Function
-`protected: int __thiscall icu_53::ICUService::getTimestamp(void)const ` | 1098 | Exported Function
-`protected: int __thiscall icu_53::ICUService::countFactories(void)const ` | 661 | Exported Function
-`protected: int __thiscall icu_53::StringTrieBuilder::writeBranchSubNode(int,int,int,int)` | 1703 | Exported Function
-`protected: int __thiscall icu_53::RuleBasedBreakIterator::checkDictionary(int,int,signed char)` | 571 | Exported Function
-`protected: class icu_53::UnicodeString const & __thiscall icu_53::ICULocaleService::validateFallbackLocale(void)const ` | 1696 | Exported Function
-`protected: class icu_53::StringTrieBuilder::Node * __thiscall icu_53::StringTrieBuilder::registerFinalValue(int,enum UErrorCode &)` | 1457 | Exported Function
-`protected: class icu_53::StringTrieBuilder::Node * __thiscall icu_53::StringTrieBuilder::makeNode(int,int,int,enum UErrorCode &)` | 1340 | Exported Function
-`protected: class icu_53::UnicodeString * __thiscall icu_53::StringEnumeration::setChars(char const *,int,enum UErrorCode &)` | 1551 | Exported Function
-`protected: class icu_53::StringTrieBuilder::Node * __thiscall icu_53::StringTrieBuilder::registerNode(class icu_53::StringTrieBuilder::Node *,enum UErrorCode &)` | 1465 | Exported Function
-`protected: int __thiscall icu_53::StringTrieBuilder::writeNode(int,int,int)` | 1709 | Exported Function
-`protected: virtual class icu_53::ICUServiceFactory * __thiscall icu_53::ICUService::createSimpleFactory(class icu_53::UObject *,class icu_53::UnicodeString const &,signed char,enum UErrorCode &)` | 687 | Exported Function
-`protected: virtual class icu_53::Hashtable const * __thiscall icu_53::LocaleKeyFactory::getSupportedIDs(enum UErrorCode &)const ` | 1091 | Exported Function
-`protected: virtual class icu_53::ICUServiceKey * __thiscall icu_53::ICULocaleService::createKey(class icu_53::UnicodeString const *,int,enum UErrorCode &)const ` | 680 | Exported Function
-`protected: virtual class icu_53::ICUServiceKey * __thiscall icu_53::ICULocaleService::createKey(class icu_53::UnicodeString const *,enum UErrorCode &)const ` | 679 | Exported Function
-`protected: virtual class icu_53::Hashtable const * __thiscall icu_53::ICUResourceBundleFactory::getSupportedIDs(enum UErrorCode &)const ` | 1090 | Exported Function
-`protected: static int const icu_53::StringTrieBuilder::kMaxSplitBranchLevels` | 1278 | Exported Function
-`protected: static int const icu_53::StringTrieBuilder::kMaxBranchLinearSubNodeLength` | 1269 | Exported Function
-`protected: virtual __thiscall icu_53::StringTrieBuilder::~StringTrieBuilder(void)` | 256 | Exported Function
-`protected: static wchar_t const icu_53::ICUServiceKey::PREFIX_DELIMITER` | 448 | Exported Function
-`protected: class icu_53::StringTrieBuilder::Node * __thiscall icu_53::StringTrieBuilder::makeBranchSubNode(int,int,int,int,enum UErrorCode &)` | 1335 | Exported Function
-`protected: __thiscall icu_53::LocaleKeyFactory::LocaleKeyFactory(int)` | 78 | Exported Function
-`protected: __thiscall icu_53::LocaleKey::LocaleKey(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString const *,int)` | 76 | Exported Function
-`protected: __thiscall icu_53::LRUCache::LRUCache(int,enum UErrorCode &)` | 66 | Exported Function
-`protected: __thiscall icu_53::LocaleKeyFactory::LocaleKeyFactory(int,class icu_53::UnicodeString const &)` | 79 | Exported Function
-`protected: __thiscall icu_53::ForwardCharacterIterator::ForwardCharacterIterator(void)` | 37 | Exported Function
-`protected: __thiscall icu_53::CharacterIterator::CharacterIterator(int,int,int,int)` | 23 | Exported Function
-`protected: __thiscall icu_53::CharacterIterator::CharacterIterator(int,int)` | 22 | Exported Function
-`protected: __thiscall icu_53::ForwardCharacterIterator::ForwardCharacterIterator(class icu_53::ForwardCharacterIterator const &)` | 36 | Exported Function
-`protected: __thiscall icu_53::CharacterIterator::CharacterIterator(void)` | 24 | Exported Function
-`protected: __thiscall icu_53::Replaceable::Replaceable(void)` | 97 | Exported Function
-`protected: class icu_53::CharacterIterator & __thiscall icu_53::CharacterIterator::operator=(class icu_53::CharacterIterator const &)` | 284 | Exported Function
-`protected: __thiscall icu_53::UCharCharacterIterator::UCharCharacterIterator(void)` | 144 | Exported Function
-`protected: class icu_53::Hashtable const * __thiscall icu_53::ICUService::getVisibleIDMap(enum UErrorCode &)const ` | 1117 | Exported Function
-`protected: class icu_53::ForwardCharacterIterator & __thiscall icu_53::ForwardCharacterIterator::operator=(class icu_53::ForwardCharacterIterator const &)` | 290 | Exported Function
-`protected: __thiscall icu_53::StringTrieBuilder::StringTrieBuilder(void)` | 140 | Exported Function
-`protected: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(struct icu_53::RBBIDataHeader const *,enum icu_53::RuleBasedBreakIterator::EDontAdopt,enum UErrorCode &)` | 106 | Exported Function
-`protected: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(struct icu_53::RBBIDataHeader *,enum UErrorCode &)` | 105 | Exported Function
-`protected: __thiscall icu_53::StringEnumeration::StringEnumeration(void)` | 130 | Exported Function
-`protected: __thiscall icu_53::StringCharacterIterator::StringCharacterIterator(void)` | 125 | Exported Function
-`public: __thiscall icu_53::UnicodeSetIterator::UnicodeSetIterator(class icu_53::UnicodeSet const &)` | 184 | Exported Function
-`public: __thiscall icu_53::UnicodeSet::UnicodeSet(void)` | 183 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(char const *)` | 194 | Exported Function
-`public: __thiscall icu_53::UnicodeSetIterator::UnicodeSetIterator(void)` | 185 | Exported Function
-`public: __thiscall icu_53::UnicodeSet::UnicodeSet(int,int)` | 182 | Exported Function
-`public: __thiscall icu_53::UnicodeSet::UnicodeSet(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,unsigned int,class icu_53::SymbolTable const *,enum UErrorCode &)` | 179 | Exported Function
-`public: __thiscall icu_53::UnicodeSet::UnicodeSet(class icu_53::UnicodeSet const &)` | 178 | Exported Function
-`public: __thiscall icu_53::UnicodeSet::UnicodeSet(class icu_53::UnicodeString const &,unsigned int,class icu_53::SymbolTable const *,enum UErrorCode &)` | 181 | Exported Function
-`public: __thiscall icu_53::UnicodeSet::UnicodeSet(class icu_53::UnicodeString const &,enum UErrorCode &)` | 180 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(char const *,char const *)` | 193 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(class icu_53::UnicodeString const &,int,int)` | 188 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(class icu_53::UnicodeString const &,int)` | 187 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(int,int,int)` | 191 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(int)` | 190 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(class icu_53::UnicodeString const &)` | 186 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(char const *,int,char const *)` | 195 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(char const *,int)` | 196 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(char const *,int,struct UConverter *,enum UErrorCode &)` | 197 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(char const *,int,enum icu_53::UnicodeString::EInvariant)` | 198 | Exported Function
-`public: __thiscall icu_53::UnicodeMatcher::UnicodeMatcher(void)` | 176 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::Iterator::Iterator(class icu_53::UCharsTrie const &,int,enum UErrorCode &)` | 64 | Exported Function
-`public: __thiscall icu_53::UCharsDictionaryMatcher::UCharsDictionaryMatcher(wchar_t const *,struct UDataMemory *)` | 150 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::Iterator::Iterator(wchar_t const *,int,enum UErrorCode &)` | 65 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::Iterator::Iterator(class icu_53::UCharsTrie::Iterator const &)` | 63 | Exported Function
-`public: __thiscall icu_53::UCharsDictionaryMatcher::UCharsDictionaryMatcher(class icu_53::UCharsDictionaryMatcher const &)` | 149 | Exported Function
-`public: __thiscall icu_53::UCharCharacterIterator::UCharCharacterIterator(wchar_t const *,int)` | 146 | Exported Function
-`public: __thiscall icu_53::UCharCharacterIterator::UCharCharacterIterator(class icu_53::UCharCharacterIterator const &)` | 145 | Exported Function
-`public: __thiscall icu_53::UCharCharacterIterator::UCharCharacterIterator(wchar_t const *,int,int,int,int)` | 148 | Exported Function
-`public: __thiscall icu_53::UCharCharacterIterator::UCharCharacterIterator(wchar_t const *,int,int)` | 147 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::Iterator::~Iterator(void)` | 231 | Exported Function
-`public: __thiscall icu_53::UnicodeFunctor::UnicodeFunctor(class icu_53::UnicodeFunctor const &)` | 173 | Exported Function
-`public: __thiscall icu_53::UnicodeFilter::UnicodeFilter(void)` | 172 | Exported Function
-`public: __thiscall icu_53::UnicodeMatcher::UnicodeMatcher(class icu_53::UnicodeMatcher const &)` | 175 | Exported Function
-`public: __thiscall icu_53::UnicodeFunctor::UnicodeFunctor(void)` | 174 | Exported Function
-`public: __thiscall icu_53::UnicodeFilter::UnicodeFilter(class icu_53::UnicodeFilter const &)` | 171 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::UCharsTrie(wchar_t const *)` | 153 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::UCharsTrie(class icu_53::UCharsTrie const &)` | 152 | Exported Function
-`public: __thiscall icu_53::UCharsTrieBuilder::UCharsTrieBuilder(enum UErrorCode &)` | 154 | Exported Function
-`public: __thiscall icu_53::UCharsTrie::~UCharsTrie(void)` | 260 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(signed char,wchar_t const *,int)` | 189 | Exported Function
-`public: char * __thiscall icu_53::MaybeStackArray<char,40>::getAlias(void)const ` | 834 | Exported Function
-`public: char * __thiscall icu_53::CharString::getAppendBuffer(int,int,int &,enum UErrorCode &)` | 837 | Exported Function
-`public: char * __thiscall icu_53::MaybeStackArray<char,40>::orphanOrClone(int,int &)` | 1392 | Exported Function
-`public: char * __thiscall icu_53::MaybeStackArray<char,40>::getArrayLimit(void)const ` | 839 | Exported Function
-`public: char * __thiscall icu_53::CharString::data(void)` | 704 | Exported Function
-`public: __thiscall icu_53::UVector::UVector(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 169 | Exported Function
-`public: __thiscall icu_53::UVector::UVector(int,enum UErrorCode &)` | 168 | Exported Function
-`public: char & __thiscall icu_53::MaybeStackArray<char,40>::operator[](int)` | 363 | Exported Function
-`public: __thiscall icu_53::UVector::UVector(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),int,enum UErrorCode &)` | 170 | Exported Function
-`public: char * __thiscall icu_53::MaybeStackArray<char,40>::resize(int,int)` | 1528 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getCountry(void)const ` | 878 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getBaseName(void)const ` | 847 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getISO3Language(void)const ` | 950 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getISO3Country(void)const ` | 949 | Exported Function
-`public: char const * __thiscall icu_53::ErrorCode::errorName(void)const ` | 767 | Exported Function
-`public: char const & __thiscall icu_53::MaybeStackArray<char,40>::operator[](int)const ` | 364 | Exported Function
-`public: char __thiscall icu_53::CharString::operator[](int)const ` | 365 | Exported Function
-`public: char const * __thiscall icu_53::CharString::data(void)const ` | 705 | Exported Function
-`public: char const * __thiscall icu_53::BreakIterator::getLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 990 | Exported Function
-`public: __thiscall icu_53::UVector::UVector(enum UErrorCode &)` | 167 | Exported Function
-`public: __thiscall icu_53::UnicodeStringAppendable::UnicodeStringAppendable(class icu_53::UnicodeStringAppendable const &)` | 204 | Exported Function
-`public: __thiscall icu_53::UnicodeStringAppendable::UnicodeStringAppendable(class icu_53::UnicodeString &)` | 203 | Exported Function
-`public: __thiscall icu_53::UObject::UObject(void)` | 156 | Exported Function
-`public: __thiscall icu_53::UObject::UObject(class icu_53::UObject const &)` | 155 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(wchar_t)` | 202 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(wchar_t *,int,int)` | 192 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(void)` | 201 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(wchar_t const *,int)` | 200 | Exported Function
-`public: __thiscall icu_53::UnicodeString::UnicodeString(wchar_t const *)` | 199 | Exported Function
-`public: __thiscall icu_53::UStack::UStack(enum UErrorCode &)` | 157 | Exported Function
-`public: __thiscall icu_53::UVector32::UVector32(int,enum UErrorCode &)` | 164 | Exported Function
-`public: __thiscall icu_53::UVector32::UVector32(enum UErrorCode &)` | 163 | Exported Function
-`public: __thiscall icu_53::UVector64::UVector64(int,enum UErrorCode &)` | 166 | Exported Function
-`public: __thiscall icu_53::UVector64::UVector64(enum UErrorCode &)` | 165 | Exported Function
-`public: __thiscall icu_53::UStringEnumeration::UStringEnumeration(struct UEnumeration *)` | 162 | Exported Function
-`public: __thiscall icu_53::UStack::UStack(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 159 | Exported Function
-`public: __thiscall icu_53::UStack::UStack(int,enum UErrorCode &)` | 158 | Exported Function
-`public: __thiscall icu_53::UStringEnumeration::UStringEnumeration(class icu_53::UStringEnumeration const &)` | 161 | Exported Function
-`public: __thiscall icu_53::UStack::UStack(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),int,enum UErrorCode &)` | 160 | Exported Function
-`public: __thiscall icu_53::Normalizer2Impl::Normalizer2Impl(void)` | 88 | Exported Function
-`public: __thiscall icu_53::Normalizer2::Normalizer2(void)` | 87 | Exported Function
-`public: __thiscall icu_53::Normalizer::Normalizer(class icu_53::CharacterIterator const &,enum UNormalizationMode)` | 90 | Exported Function
-`public: __thiscall icu_53::Normalizer2Impl::~Normalizer2Impl(void)` | 240 | Exported Function
-`public: __thiscall icu_53::Normalizer2::Normalizer2(class icu_53::Normalizer2 const &)` | 86 | Exported Function
-`public: __thiscall icu_53::MessagePattern::MessagePattern(enum UMessagePatternApostropheMode,enum UErrorCode &)` | 84 | Exported Function
-`public: __thiscall icu_53::MessagePattern::MessagePattern(enum UErrorCode &)` | 81 | Exported Function
-`public: __thiscall icu_53::Mutex::~Mutex(void)` | 238 | Exported Function
-`public: __thiscall icu_53::Mutex::Mutex(struct UMutex *)` | 85 | Exported Function
-`public: __thiscall icu_53::Normalizer::Normalizer(class icu_53::Normalizer const &)` | 89 | Exported Function
-`public: __thiscall icu_53::ReorderingBuffer::~ReorderingBuffer(void)` | 243 | Exported Function
-`public: __thiscall icu_53::ReorderingBuffer::ReorderingBuffer(class icu_53::Normalizer2Impl const &,class icu_53::UnicodeString &)` | 96 | Exported Function
-`public: __thiscall icu_53::ResourceBundle::ResourceBundle(char const *,class icu_53::Locale const &,enum UErrorCode &)` | 104 | Exported Function
-`public: __thiscall icu_53::Replaceable::Replaceable(class icu_53::Replaceable const &)` | 98 | Exported Function
-`public: __thiscall icu_53::ParsePosition::ParsePosition(void)` | 95 | Exported Function
-`public: __thiscall icu_53::Normalizer::Normalizer(wchar_t const *,int,enum UNormalizationMode)` | 92 | Exported Function
-`public: __thiscall icu_53::Normalizer::Normalizer(class icu_53::UnicodeString const &,enum UNormalizationMode)` | 91 | Exported Function
-`public: __thiscall icu_53::ParsePosition::ParsePosition(int)` | 94 | Exported Function
-`public: __thiscall icu_53::ParsePosition::ParsePosition(class icu_53::ParsePosition const &)` | 93 | Exported Function
-`public: __thiscall icu_53::MessagePattern::MessagePattern(class icu_53::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 83 | Exported Function
-`public: __thiscall icu_53::ListFormatter::ListFormatter(class icu_53::ListFormatter const &)` | 68 | Exported Function
-`public: __thiscall icu_53::IDNAInfo::IDNAInfo(void)` | 60 | Exported Function
-`public: __thiscall icu_53::ListFormatter::ListFormatter(struct icu_53::ListFormatInternal const *)` | 69 | Exported Function
-`public: __thiscall icu_53::ListFormatter::ListFormatter(struct icu_53::ListFormatData const &)` | 67 | Exported Function
-`public: __thiscall icu_53::IDNA::IDNA(void)` | 59 | Exported Function
-`public: __thiscall icu_53::ICUServiceKey::ICUServiceKey(class icu_53::ICUServiceKey const &)` | 56 | Exported Function
-`public: __thiscall icu_53::ICUServiceFactory::ICUServiceFactory(void)` | 55 | Exported Function
-`public: __thiscall icu_53::IDNA::IDNA(class icu_53::IDNA const &)` | 58 | Exported Function
-`public: __thiscall icu_53::ICUServiceKey::ICUServiceKey(class icu_53::UnicodeString const &)` | 57 | Exported Function
-`public: __thiscall icu_53::Locale::Locale(char const *,char const *,char const *,char const *)` | 72 | Exported Function
-`public: __thiscall icu_53::MaybeStackArray<char,40>::MaybeStackArray<char,40>(void)` | 2 | Exported Function
-`public: __thiscall icu_53::LocaleKeyFactory::LocaleKeyFactory(class icu_53::LocaleKeyFactory const &)` | 80 | Exported Function
-`public: __thiscall icu_53::MessagePattern::MessagePattern(class icu_53::MessagePattern const &)` | 82 | Exported Function
-`public: __thiscall icu_53::MaybeStackArray<char,40>::~MaybeStackArray<char,40>(void)` | 205 | Exported Function
-`public: __thiscall icu_53::LocaleKey::LocaleKey(class icu_53::LocaleKey const &)` | 77 | Exported Function
-`public: __thiscall icu_53::Locale::Locale(void)` | 73 | Exported Function
-`public: __thiscall icu_53::Locale::Locale(class icu_53::Locale const &)` | 71 | Exported Function
-`public: __thiscall icu_53::LocaleBased::LocaleBased(char const *,char const *)` | 75 | Exported Function
-`public: __thiscall icu_53::LocaleBased::LocaleBased(char *,char *)` | 74 | Exported Function
-`public: __thiscall icu_53::ResourceBundle::ResourceBundle(class icu_53::ResourceBundle const &)` | 100 | Exported Function
-`public: __thiscall icu_53::StringCharacterIterator::StringCharacterIterator(class icu_53::UnicodeString const &,int,int,int)` | 129 | Exported Function
-`public: __thiscall icu_53::StringCharacterIterator::StringCharacterIterator(class icu_53::UnicodeString const &,int)` | 128 | Exported Function
-`public: __thiscall icu_53::StringPair::StringPair(class icu_53::StringPair const &)` | 133 | Exported Function
-`public: __thiscall icu_53::StringEnumeration::StringEnumeration(class icu_53::StringEnumeration const &)` | 131 | Exported Function
-`public: __thiscall icu_53::StringCharacterIterator::StringCharacterIterator(class icu_53::UnicodeString const &)` | 127 | Exported Function
-`public: __thiscall icu_53::SimplePatternFormatter::SimplePatternFormatter(void)` | 124 | Exported Function
-`public: __thiscall icu_53::SimplePatternFormatter::SimplePatternFormatter(class icu_53::UnicodeString const &)` | 123 | Exported Function
-`public: __thiscall icu_53::StringCharacterIterator::StringCharacterIterator(class icu_53::StringCharacterIterator const &)` | 126 | Exported Function
-`public: __thiscall icu_53::SimplePatternFormatter::~SimplePatternFormatter(void)` | 252 | Exported Function
-`public: __thiscall icu_53::StringPair::~StringPair(void)` | 255 | Exported Function
-`public: __thiscall icu_53::StringTrieBuilder::StringTrieBuilder(class icu_53::StringTrieBuilder const &)` | 141 | Exported Function
-`public: __thiscall icu_53::StringPiece::StringPiece(void)` | 139 | Exported Function
-`public: __thiscall icu_53::SymbolTable::SymbolTable(void)` | 143 | Exported Function
-`public: __thiscall icu_53::SymbolTable::SymbolTable(class icu_53::SymbolTable const &)` | 142 | Exported Function
-`public: __thiscall icu_53::StringPiece::StringPiece(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 136 | Exported Function
-`public: __thiscall icu_53::StringPiece::StringPiece(char const *,int)` | 138 | Exported Function
-`public: __thiscall icu_53::StringPiece::StringPiece(char const *)` | 137 | Exported Function
-`public: __thiscall icu_53::StringPiece::StringPiece(class icu_53::StringPiece const &,int,int)` | 135 | Exported Function
-`public: __thiscall icu_53::StringPiece::StringPiece(class icu_53::StringPiece const &,int)` | 134 | Exported Function
-`public: __thiscall icu_53::SimplePatternFormatter::SimplePatternFormatter(class icu_53::SimplePatternFormatter const &)` | 122 | Exported Function
-`public: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(struct UDataMemory *,enum UErrorCode &)` | 109 | Exported Function
-`public: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(class icu_53::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 108 | Exported Function
-`public: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(void)` | 111 | Exported Function
-`public: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(unsigned char const *,unsigned int,enum UErrorCode &)` | 110 | Exported Function
-`public: __thiscall icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(class icu_53::RuleBasedBreakIterator const &)` | 107 | Exported Function
-`public: __thiscall icu_53::ResourceBundle::ResourceBundle(class icu_53::UnicodeString const &,enum UErrorCode &)` | 101 | Exported Function
-`public: __thiscall icu_53::ResourceBundle::ResourceBundle(class icu_53::UnicodeString const &,class icu_53::Locale const &,enum UErrorCode &)` | 102 | Exported Function
-`public: __thiscall icu_53::ResourceBundle::ResourceBundle(struct UResourceBundle *,enum UErrorCode &)` | 103 | Exported Function
-`public: __thiscall icu_53::ResourceBundle::ResourceBundle(enum UErrorCode &)` | 99 | Exported Function
-`public: __thiscall icu_53::ServiceListener::ServiceListener(class icu_53::ServiceListener const &)` | 112 | Exported Function
-`public: __thiscall icu_53::SimpleLocaleKeyFactory::SimpleLocaleKeyFactory(class icu_53::UObject *,class icu_53::Locale const &,int,int)` | 120 | Exported Function
-`public: __thiscall icu_53::SimpleLocaleKeyFactory::SimpleLocaleKeyFactory(class icu_53::SimpleLocaleKeyFactory const &)` | 119 | Exported Function
-`public: __thiscall icu_53::SimpleLRUCache::SimpleLRUCache(int,class icu_53::SharedObject * (__cdecl*)(char const *,enum UErrorCode &),enum UErrorCode &)` | 118 | Exported Function
-`public: __thiscall icu_53::SimpleLocaleKeyFactory::SimpleLocaleKeyFactory(class icu_53::UObject *,class icu_53::UnicodeString const &,int,int)` | 121 | Exported Function
-`public: __thiscall icu_53::SimpleFactory::SimpleFactory(class icu_53::UObject *,class icu_53::UnicodeString const &,signed char)` | 117 | Exported Function
-`public: __thiscall icu_53::SharedObject::SharedObject(class icu_53::SharedObject const &)` | 114 | Exported Function
-`public: __thiscall icu_53::ServiceListener::ServiceListener(void)` | 113 | Exported Function
-`public: __thiscall icu_53::SimpleFactory::SimpleFactory(class icu_53::SimpleFactory const &)` | 116 | Exported Function
-`public: __thiscall icu_53::SharedObject::SharedObject(void)` | 115 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::applyFilter(signed char (__cdecl*)(int,void *),void *,int,enum UErrorCode &)` | 527 | Exported Function
-`private: int __thiscall icu_53::Normalizer2Impl::getCanonValue(int)const ` | 861 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::skipWhiteSpace(int)` | 1627 | Exported Function
-`private: int __thiscall icu_53::RuleBasedBreakIterator::handleNext(struct icu_53::RBBIStateTable const *)` | 1126 | Exported Function
-`private: int __thiscall icu_53::Normalizer2Impl::mapAlgorithmic(int,unsigned short)const ` | 1342 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::skipIdentifier(int)` | 1619 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::parsePluralOrSelectStyle(enum UMessagePatternArgType,int,int,struct UParseError *,enum UErrorCode &)` | 1408 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::parseMessage(int,int,int,enum UMessagePatternArgType,struct UParseError *,enum UErrorCode &)` | 1404 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::skipDouble(int)` | 1616 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::parseSimpleStyle(int,struct UParseError *,enum UErrorCode &)` | 1412 | Exported Function
-`private: int __thiscall icu_53::RuleBasedBreakIterator::handlePrevious(struct icu_53::RBBIStateTable const *)` | 1127 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::doIndexOf(int,int,int)const ` | 731 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::doHashCode(void)const ` | 730 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::doLastIndexOf(int,int,int)const ` | 733 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::doIndexOf(wchar_t,int,int)const ` | 732 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::doExtract(int,int,char *,int,struct UConverter *,enum UErrorCode &)const ` | 727 | Exported Function
-`private: int __thiscall icu_53::UCharsTrieBuilder::write(wchar_t const *,int)` | 1701 | Exported Function
-`private: int __thiscall icu_53::SimplePatternFormatter::ensureCapacity(int)` | 755 | Exported Function
-`private: int __thiscall icu_53::UnicodeSet::getStringCount(void)const ` | 1086 | Exported Function
-`private: int __thiscall icu_53::UnicodeSet::findCodePoint(int)const ` | 790 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::parseChoiceStyle(int,int,struct UParseError *,enum UErrorCode &)` | 1400 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::doReplace(int,int,wchar_t const *,int,int)` | 736 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::doReplace(int,int,class icu_53::UnicodeString const &,int,int)` | 735 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setToUTF8(class icu_53::StringPiece const &)` | 1605 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::doReverse(int,int)` | 737 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::copyFrom(class icu_53::UnicodeString const &,signed char)` | 652 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeSet::_generatePattern(class icu_53::UnicodeString &,signed char)const ` | 461 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::FilteredNormalizer2::normalizeSecondAndAppend(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,signed char,enum UErrorCode &)const ` | 1386 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::caseMap(struct UCaseMap const *,int (__cdecl*)(struct UCaseMap const *,wchar_t *,int,wchar_t const *,int,enum UErrorCode *))` | 565 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::UnicodeSet::_toPattern(class icu_53::UnicodeString &,signed char)const ` | 466 | Exported Function
-`private: class icu_53::UnicodeString * __thiscall icu_53::CanonicalIterator::getEquivalents(class icu_53::UnicodeString const &,int &,enum UErrorCode &)` | 935 | Exported Function
-`private: int __thiscall icu_53::BytesTrieBuilder::write(char const *,int)` | 1699 | Exported Function
-`private: int __thiscall icu_53::BytesDictionaryMatcher::transform(int)const ` | 1676 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::parseArgNumber(int,int)` | 1397 | Exported Function
-`private: int __thiscall icu_53::MessagePattern::parseArg(int,int,int,struct UParseError *,enum UErrorCode &)` | 1396 | Exported Function
-`private: enum UStringTrieResult __thiscall icu_53::UCharsTrie::nextImpl(wchar_t const *,int)` | 1378 | Exported Function
-`private: enum UStringTrieResult __thiscall icu_53::BytesTrie::branchNext(unsigned char const *,int,int)` | 542 | Exported Function
-`private: class icu_53::UnicodeString const * __thiscall icu_53::UnicodeSet::getString(int)const ` | 1084 | Exported Function
-`private: enum UStringTrieResult __thiscall icu_53::UCharsTrie::branchNext(wchar_t const *,int,int)` | 545 | Exported Function
-`private: enum UStringTrieResult __thiscall icu_53::BytesTrie::nextImpl(unsigned char const *,int)` | 1377 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::doLastIndexOf(wchar_t,int,int)const ` | 734 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer::previousNormalize(void)` | 1439 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer::nextNormalize(void)` | 1379 | Exported Function
-`private: signed char __thiscall icu_53::ReorderingBuffer::resize(int,enum UErrorCode &)` | 1529 | Exported Function
-`private: signed char __thiscall icu_53::ReorderingBuffer::appendSupplementary(int,unsigned char,enum UErrorCode &)` | 521 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isMostDecompYesAndZeroCC(unsigned short)const ` | 1246 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isHangul(unsigned short)const ` | 1235 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isDecompYesAndZeroCC(unsigned short)const ` | 1219 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isMaybeOrNonZeroCC(unsigned short)const ` | 1245 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isMaybe(unsigned short)const ` | 1244 | Exported Function
-`private: signed char __thiscall icu_53::SimplePatternFormatter::addPlaceholder(int,int)` | 488 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doCaseCompare(int,int,wchar_t const *,int,int,unsigned int)const ` | 718 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doCaseCompare(int,int,class icu_53::UnicodeString const &,int,int,unsigned int)const ` | 717 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doCompare(int,int,wchar_t const *,int,int)const ` | 723 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doCompare(int,int,class icu_53::UnicodeString const &,int,int)const ` | 722 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::cloneArrayIfNeeded(int,int,signed char,int * *,signed char)` | 595 | Exported Function
-`private: signed char __thiscall icu_53::UCharsTrieBuilder::ensureCapacity(int)` | 756 | Exported Function
-`private: signed char __thiscall icu_53::UCharsTrie::Iterator::truncateAndStop(void)` | 1682 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::allocate(int)` | 494 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeSet::allocateStrings(enum UErrorCode &)` | 495 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isDecompNoAlgorithmic(unsigned short)const ` | 1217 | Exported Function
-`private: signed char __thiscall icu_53::CharString::ensureCapacity(int,int,enum UErrorCode &)` | 754 | Exported Function
-`private: signed char __thiscall icu_53::BytesTrieBuilder::ensureCapacity(int)` | 753 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::init(enum UErrorCode &)` | 1184 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::copyStorage(class icu_53::MessagePattern const &,enum UErrorCode &)` | 655 | Exported Function
-`private: signed char __thiscall icu_53::BytesTrie::Iterator::truncateAndStop(void)` | 1681 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::removeRef(void)` | 1492 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::refCount(void)const ` | 1454 | Exported Function
-`private: int __thiscall icu_53::UVector::indexOf(union UElement,int,signed char)const ` | 1162 | Exported Function
-`private: int __thiscall icu_53::UnicodeString::toUTF8(int,int,char *,int)const ` | 1672 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::inMessageFormatPattern(int)` | 1159 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::decomposeShort(wchar_t const *,wchar_t const *,class icu_53::ReorderingBuffer &,enum UErrorCode &)const ` | 714 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::decompose(int,unsigned short,class icu_53::ReorderingBuffer &,enum UErrorCode &)const ` | 708 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::isCompYesAndZeroCC(unsigned short)const ` | 1215 | Exported Function
-`private: signed char __thiscall icu_53::Normalizer2Impl::hasCompBoundaryBefore(int,unsigned short)const ` | 1133 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::isSelect(int)` | 1252 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::isChoice(int)` | 1213 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::inTopLevelChoiceMessage(int,enum UMessagePatternArgType)` | 1160 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::isPlural(int)` | 1251 | Exported Function
-`private: signed char __thiscall icu_53::MessagePattern::isOrdinal(int)` | 1250 | Exported Function
-`const icu_53::LocaleKeyFactory::``vftable'` | 403 | Exported Function
-`const icu_53::LocaleKey::``vftable'` | 402 | Exported Function
-`const icu_53::MessagePattern::``vftable'` | 404 | Exported Function
-`const icu_53::LRUCache::``vftable'` | 399 | Exported Function
-`const icu_53::Locale::``vftable'` | 401 | Exported Function
-`const icu_53::ICUServiceKey::``vftable'` | 397 | Exported Function
-`const icu_53::ICUServiceFactory::``vftable'` | 396 | Exported Function
-`const icu_53::ListFormatter::``vftable'` | 400 | Exported Function
-`const icu_53::IDNA::``vftable'` | 398 | Exported Function
-`const icu_53::Normalizer2::``vftable'` | 405 | Exported Function
-`const icu_53::SharedObject::``vftable'` | 412 | Exported Function
-`const icu_53::ServiceListener::``vftable'` | 411 | Exported Function
-`const icu_53::SimpleLocaleKeyFactory::``vftable'` | 415 | Exported Function
-`const icu_53::SimpleFactory::``vftable'` | 413 | Exported Function
-`const icu_53::RuleBasedBreakIterator::``vftable'` | 410 | Exported Function
-`const icu_53::ParsePosition::``vftable'` | 407 | Exported Function
-`const icu_53::Normalizer::``vftable'` | 406 | Exported Function
-`const icu_53::ResourceBundle::``vftable'` | 409 | Exported Function
-`const icu_53::Replaceable::``vftable'` | 408 | Exported Function
-`const icu_53::ICUService::``vftable'` | 395 | Exported Function
-`const icu_53::BytesTrieBuilder::``vftable'` | 382 | Exported Function
-`const icu_53::ByteSink::``vftable'` | 380 | Exported Function
-`const icu_53::CharacterIterator::``vftable'` | 384 | Exported Function
-`const icu_53::CanonicalIterator::``vftable'` | 383 | Exported Function
-`const icu_53::BytesDictionaryMatcher::``vftable'` | 381 | Exported Function
-`class icu_53::UnicodeString __cdecl uscript_getSampleUnicodeString_53(enum UScriptCode)` | 1694 | Exported Function
-`class icu_53::UnicodeString __cdecl icu_53::operator+(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 370 | Exported Function
-`const icu_53::BreakIterator::``vftable'` | 379 | Exported Function
-`const icu_53::Appendable::``vftable'` | 378 | Exported Function
-`const icu_53::CheckedArrayByteSink::``vftable'` | 385 | Exported Function
-`const icu_53::ICULocaleService::``vftable'` | 392 | Exported Function
-`const icu_53::ForwardCharacterIterator::``vftable'` | 391 | Exported Function
-`const icu_53::ICUResourceBundleFactory::``vftable'` | 394 | Exported Function
-`const icu_53::ICUNotifier::``vftable'` | 393 | Exported Function
-`const icu_53::FilteredNormalizer2::``vftable'` | 390 | Exported Function
-`const icu_53::DictionaryMatcher::``vftable'` | 387 | Exported Function
-`const icu_53::DateInterval::``vftable'` | 386 | Exported Function
-`const icu_53::EventListener::``vftable'` | 389 | Exported Function
-`const icu_53::ErrorCode::``vftable'` | 388 | Exported Function
-`const icu_53::SimpleLRUCache::``vftable'` | 414 | Exported Function
-`private: __thiscall icu_53::StringPair::StringPair(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 132 | Exported Function
-`private: __thiscall icu_53::MaybeStackArray<char,40>::MaybeStackArray<char,40>(class icu_53::MaybeStackArray<char,40> const &)` | 1 | Exported Function
-`private: __thiscall icu_53::UnicodeSet::UnicodeSet(class icu_53::UnicodeSet const &,signed char)` | 177 | Exported Function
-`private: __thiscall icu_53::UCharsTrie::UCharsTrie(wchar_t *,wchar_t const *)` | 151 | Exported Function
-`private: __thiscall icu_53::Locale::Locale(enum icu_53::Locale::ELocaleType)` | 70 | Exported Function
-`const icu_53::UVector::``vftable'` | 428 | Exported Function
-`const icu_53::UVector64::``vftable'` | 427 | Exported Function
-`private: __thiscall icu_53::BytesTrie::BytesTrie(void *,void const *)` | 11 | Exported Function
+`elementAti` | 740 | Exported Function
+`reserveBlock` | 1511 | Exported Function
+`popi` | 1427 | Exported Function
+`lastElementi` | 1313 | Exported Function
+`popFrame` | 1424 | Exported Function
+`createCompactBuilder` | 671 | Exported Function
+`build` | 547 | Exported Function
+`getBuffer` | 851 | Exported Function
+`deleteCompactBuilder` | 715 | Exported Function
+`push` | 1443 | Exported Function
+`BytesTrie` | 13 | Exported Function
+`BytesTrie` | 12 | Exported Function
+`Iterator` | 62 | Exported Function
+`BytesTrie` | 61 | Exported Function
+`ByteSink` | 8 | Exported Function
+`Appendable` | 4 | Exported Function
+`Appendable` | 3 | Exported Function
+`BytesDictionaryMatcher` | 9 | Exported Function
+`BytesDictionaryMatcher` | 10 | Exported Function
+`ensureCharsCapacity` | 761 | Exported Function
+`EventListener` | 467 | Exported Function
+`getLength` | 978 | Exported Function
+`handleFailure` | 1125 | Exported Function
+`ICUServiceKey` | 1129 | Exported Function
+`getChar32At` | 864 | Exported Function
+`ICUService` | 1122 | Exported Function
+`create` | 665 | Exported Function
+`ICUService` | 1123 | Exported Function
+`UnicodeString` | 1124 | Exported Function
+`clearCaches` | 580 | Exported Function
+`clearServiceCache` | 582 | Exported Function
+`getCharAt` | 867 | Exported Function
+`init` | 1187 | Exported Function
+`setFromPOSIXID` | 1561 | Exported Function
+`loadRange` | 1334 | Exported Function
+`reInitializeFactories` | 1449 | Exported Function
+`EventListener` | 1389 | Exported Function
+`setBreakType` | 1549 | Exported Function
+`reset` | 1520 | Exported Function
+`Iterator` | 230 | Exported Function
+`Hashtable` | 222 | Exported Function
+`Hashtable` | 42 | Exported Function
+`UnicodeString` | 44 | Exported Function
+`ICULocaleService` | 43 | Exported Function
+`Hashtable` | 40 | Exported Function
+`FullCaseFoldingIterator` | 38 | Exported Function
+`UnicodeSet` | 35 | Exported Function
+`Hashtable` | 41 | Exported Function
+`Hashtable` | 39 | Exported Function
+`ICULocaleService` | 45 | Exported Function
+`UnicodeString` | 52 | Exported Function
+`ICUService` | 51 | Exported Function
+`ICUServiceFactory` | 54 | Exported Function
+`ICUService` | 53 | Exported Function
+`ICUResourceBundleFactory` | 50 | Exported Function
+`ICUNotifier` | 47 | Exported Function
+`ICUNotifier` | 46 | Exported Function
+`UnicodeString` | 49 | Exported Function
+`ICUResourceBundleFactory` | 48 | Exported Function
+`FilteredNormalizer2` | 34 | Exported Function
+`CharString` | 19 | Exported Function
+`StringPiece` | 17 | Exported Function
+`CheckedArrayByteSink` | 25 | Exported Function
+`CharString` | 213 | Exported Function
+`CharString` | 16 | Exported Function
+`BytesTrieBuilder` | 14 | Exported Function
+`BytesTrie` | 210 | Exported Function
+`CharString` | 18 | Exported Function
+`UnicodeString` | 15 | Exported Function
+`DateInterval` | 26 | Exported Function
+`operator` | 369 | Exported Function
+`operator` | 368 | Exported Function
+`EventListener` | 33 | Exported Function
+`EventListener` | 32 | Exported Function
+`ErrorCode` | 31 | Exported Function
+`DictionaryMatcher` | 28 | Exported Function
+`DateInterval` | 27 | Exported Function
+`ErrorCode` | 30 | Exported Function
+`DictionaryMatcher` | 29 | Exported Function
+`getArrayStart` | 840 | Exported Function
+`sortedInsert` | 1635 | Exported Function
+`ReorderingBuffer` | 653 | Exported Function
+`doCharAt` | 719 | Exported Function
+`_init` | 465 | Exported Function
+`unBogus` | 1685 | Exported Function
+`setToEmpty` | 1602 | Exported Function
+`_init` | 464 | Exported Function
+`_init` | 463 | Exported Function
+`findNextCompBoundary` | 791 | Exported Function
+`Locale` | 6 | Exported Function
+`BreakIterator` | 5 | Exported Function
+`CharacterIterator` | 20 | Exported Function
+`BreakIterator` | 7 | Exported Function
+`getArrayStart` | 841 | Exported Function
+`findPreviousCompBoundary` | 793 | Exported Function
+`findNextFCDBoundary` | 792 | Exported Function
+`branchNext` | 544 | Exported Function
+`findPreviousFCDBoundary` | 794 | Exported Function
+`setLength` | 1570 | Exported Function
+`releasePattern` | 1469 | Exported Function
+`exclusiveOr` | 769 | Exported Function
+`UnicodeString` | 1578 | Exported Function
+`retain` | 1530 | Exported Function
+`ensureCapacity` | 760 | Exported Function
+`SymbolTable` | 533 | Exported Function
+`UnicodeSet` | 529 | Exported Function
+`ensureBufferCapacity` | 751 | Exported Function
+`UnicodeString` | 536 | Exported Function
+`swapBuffers` | 1655 | Exported Function
+`pinIndices` | 1421 | Exported Function
+`pinIndex` | 1420 | Exported Function
+`setArray` | 1548 | Exported Function
+`releaseArray` | 1467 | Exported Function
+`doExtract` | 729 | Exported Function
+`doCodepageCreate` | 720 | Exported Function
+`addRef` | 491 | Exported Function
+`UnicodeString` | 728 | Exported Function
+`doCodepageCreate` | 721 | Exported Function
+`CharacterIterator` | 21 | Exported Function
+`getTimestamp` | 1098 | Exported Function
+`countFactories` | 661 | Exported Function
+`writeBranchSubNode` | 1703 | Exported Function
+`checkDictionary` | 571 | Exported Function
+`validateFallbackLocale` | 1696 | Exported Function
+`registerFinalValue` | 1457 | Exported Function
+`makeNode` | 1340 | Exported Function
+`setChars` | 1551 | Exported Function
+`Node` | 1465 | Exported Function
+`writeNode` | 1709 | Exported Function
+`UnicodeString` | 687 | Exported Function
+`getSupportedIDs` | 1091 | Exported Function
+`UnicodeString` | 680 | Exported Function
+`UnicodeString` | 679 | Exported Function
+`getSupportedIDs` | 1090 | Exported Function
+`kMaxSplitBranchLevels` | 1278 | Exported Function
+`kMaxBranchLinearSubNodeLength` | 1269 | Exported Function
+`StringTrieBuilder` | 256 | Exported Function
+`PREFIX_DELIMITER` | 448 | Exported Function
+`makeBranchSubNode` | 1335 | Exported Function
+`LocaleKeyFactory` | 78 | Exported Function
+`UnicodeString` | 76 | Exported Function
+`LRUCache` | 66 | Exported Function
+`UnicodeString` | 79 | Exported Function
+`ForwardCharacterIterator` | 37 | Exported Function
+`CharacterIterator` | 23 | Exported Function
+`CharacterIterator` | 22 | Exported Function
+`ForwardCharacterIterator` | 36 | Exported Function
+`CharacterIterator` | 24 | Exported Function
+`Replaceable` | 97 | Exported Function
+`CharacterIterator` | 284 | Exported Function
+`UCharCharacterIterator` | 144 | Exported Function
+`getVisibleIDMap` | 1117 | Exported Function
+`ForwardCharacterIterator` | 290 | Exported Function
+`StringTrieBuilder` | 140 | Exported Function
+`EDontAdopt` | 106 | Exported Function
+`RBBIDataHeader` | 105 | Exported Function
+`StringEnumeration` | 130 | Exported Function
+`StringCharacterIterator` | 125 | Exported Function
+`UnicodeSet` | 184 | Exported Function
+`UnicodeSet` | 183 | Exported Function
+`UnicodeString` | 194 | Exported Function
+`UnicodeSetIterator` | 185 | Exported Function
+`UnicodeSet` | 182 | Exported Function
+`SymbolTable` | 179 | Exported Function
+`UnicodeSet` | 178 | Exported Function
+`SymbolTable` | 181 | Exported Function
+`UnicodeString` | 180 | Exported Function
+`UnicodeString` | 193 | Exported Function
+`UnicodeString` | 188 | Exported Function
+`UnicodeString` | 187 | Exported Function
+`UnicodeString` | 191 | Exported Function
+`UnicodeString` | 190 | Exported Function
+`UnicodeString` | 186 | Exported Function
+`UnicodeString` | 195 | Exported Function
+`UnicodeString` | 196 | Exported Function
+`UnicodeString` | 197 | Exported Function
+`EInvariant` | 198 | Exported Function
+`UnicodeMatcher` | 176 | Exported Function
+`UCharsTrie` | 64 | Exported Function
+`UCharsDictionaryMatcher` | 150 | Exported Function
+`Iterator` | 65 | Exported Function
+`Iterator` | 63 | Exported Function
+`UCharsDictionaryMatcher` | 149 | Exported Function
+`UCharCharacterIterator` | 146 | Exported Function
+`UCharCharacterIterator` | 145 | Exported Function
+`UCharCharacterIterator` | 148 | Exported Function
+`UCharCharacterIterator` | 147 | Exported Function
+`Iterator` | 231 | Exported Function
+`UnicodeFunctor` | 173 | Exported Function
+`UnicodeFilter` | 172 | Exported Function
+`UnicodeMatcher` | 175 | Exported Function
+`UnicodeFunctor` | 174 | Exported Function
+`UnicodeFilter` | 171 | Exported Function
+`UCharsTrie` | 153 | Exported Function
+`UCharsTrie` | 152 | Exported Function
+`UCharsTrieBuilder` | 154 | Exported Function
+`UCharsTrie` | 260 | Exported Function
+`UnicodeString` | 189 | Exported Function
+`getAlias` | 834 | Exported Function
+`getAppendBuffer` | 837 | Exported Function
+`orphanOrClone` | 1392 | Exported Function
+`getArrayLimit` | 839 | Exported Function
+`data` | 704 | Exported Function
+`UVector` | 169 | Exported Function
+`UVector` | 168 | Exported Function
+`operator` | 363 | Exported Function
+`UVector` | 170 | Exported Function
+`resize` | 1528 | Exported Function
+`getCountry` | 878 | Exported Function
+`getBaseName` | 847 | Exported Function
+`getISO3Language` | 950 | Exported Function
+`getISO3Country` | 949 | Exported Function
+`errorName` | 767 | Exported Function
+`operator` | 364 | Exported Function
+`operator` | 365 | Exported Function
+`data` | 705 | Exported Function
+`getLocaleID` | 990 | Exported Function
+`UVector` | 167 | Exported Function
+`UnicodeStringAppendable` | 204 | Exported Function
+`UnicodeString` | 203 | Exported Function
+`UObject` | 156 | Exported Function
+`UObject` | 155 | Exported Function
+`UnicodeString` | 202 | Exported Function
+`UnicodeString` | 192 | Exported Function
+`UnicodeString` | 201 | Exported Function
+`UnicodeString` | 200 | Exported Function
+`UnicodeString` | 199 | Exported Function
+`UStack` | 157 | Exported Function
+`UVector32` | 164 | Exported Function
+`UVector32` | 163 | Exported Function
+`UVector64` | 166 | Exported Function
+`UVector64` | 165 | Exported Function
+`UStringEnumeration` | 162 | Exported Function
+`UStack` | 159 | Exported Function
+`UStack` | 158 | Exported Function
+`UStringEnumeration` | 161 | Exported Function
+`UStack` | 160 | Exported Function
+`Normalizer2Impl` | 88 | Exported Function
+`Normalizer2` | 87 | Exported Function
+`CharacterIterator` | 90 | Exported Function
+`Normalizer2Impl` | 240 | Exported Function
+`Normalizer2` | 86 | Exported Function
+`MessagePattern` | 84 | Exported Function
+`MessagePattern` | 81 | Exported Function
+`Mutex` | 238 | Exported Function
+`Mutex` | 85 | Exported Function
+`Normalizer` | 89 | Exported Function
+`ReorderingBuffer` | 243 | Exported Function
+`UnicodeString` | 96 | Exported Function
+`Locale` | 104 | Exported Function
+`Replaceable` | 98 | Exported Function
+`ParsePosition` | 95 | Exported Function
+`Normalizer` | 92 | Exported Function
+`UnicodeString` | 91 | Exported Function
+`ParsePosition` | 94 | Exported Function
+`ParsePosition` | 93 | Exported Function
+`UnicodeString` | 83 | Exported Function
+`ListFormatter` | 68 | Exported Function
+`IDNAInfo` | 60 | Exported Function
+`ListFormatInternal` | 69 | Exported Function
+`ListFormatData` | 67 | Exported Function
+`IDNA` | 59 | Exported Function
+`ICUServiceKey` | 56 | Exported Function
+`ICUServiceFactory` | 55 | Exported Function
+`IDNA` | 58 | Exported Function
+`UnicodeString` | 57 | Exported Function
+`Locale` | 72 | Exported Function
+`MaybeStackArray` | 2 | Exported Function
+`LocaleKeyFactory` | 80 | Exported Function
+`MessagePattern` | 82 | Exported Function
+`MaybeStackArray` | 205 | Exported Function
+`LocaleKey` | 77 | Exported Function
+`Locale` | 73 | Exported Function
+`Locale` | 71 | Exported Function
+`LocaleBased` | 75 | Exported Function
+`LocaleBased` | 74 | Exported Function
+`ResourceBundle` | 100 | Exported Function
+`UnicodeString` | 129 | Exported Function
+`UnicodeString` | 128 | Exported Function
+`StringPair` | 133 | Exported Function
+`StringEnumeration` | 131 | Exported Function
+`UnicodeString` | 127 | Exported Function
+`SimplePatternFormatter` | 124 | Exported Function
+`UnicodeString` | 123 | Exported Function
+`StringCharacterIterator` | 126 | Exported Function
+`SimplePatternFormatter` | 252 | Exported Function
+`StringPair` | 255 | Exported Function
+`StringTrieBuilder` | 141 | Exported Function
+`StringPiece` | 139 | Exported Function
+`SymbolTable` | 143 | Exported Function
+`SymbolTable` | 142 | Exported Function
+`allocator` | 136 | Exported Function
+`StringPiece` | 138 | Exported Function
+`StringPiece` | 137 | Exported Function
+`StringPiece` | 135 | Exported Function
+`StringPiece` | 134 | Exported Function
+`SimplePatternFormatter` | 122 | Exported Function
+`RuleBasedBreakIterator` | 109 | Exported Function
+`UnicodeString` | 108 | Exported Function
+`RuleBasedBreakIterator` | 111 | Exported Function
+`RuleBasedBreakIterator` | 110 | Exported Function
+`RuleBasedBreakIterator` | 107 | Exported Function
+`UnicodeString` | 101 | Exported Function
+`Locale` | 102 | Exported Function
+`ResourceBundle` | 103 | Exported Function
+`ResourceBundle` | 99 | Exported Function
+`ServiceListener` | 112 | Exported Function
+`Locale` | 120 | Exported Function
+`SimpleLocaleKeyFactory` | 119 | Exported Function
+`SharedObject` | 118 | Exported Function
+`UnicodeString` | 121 | Exported Function
+`UnicodeString` | 117 | Exported Function
+`SharedObject` | 114 | Exported Function
+`ServiceListener` | 113 | Exported Function
+`SimpleFactory` | 116 | Exported Function
+`SharedObject` | 115 | Exported Function
+`applyFilter` | 527 | Exported Function
+`getCanonValue` | 861 | Exported Function
+`skipWhiteSpace` | 1627 | Exported Function
+`RBBIStateTable` | 1126 | Exported Function
+`mapAlgorithmic` | 1342 | Exported Function
+`skipIdentifier` | 1619 | Exported Function
+`parsePluralOrSelectStyle` | 1408 | Exported Function
+`parseMessage` | 1404 | Exported Function
+`skipDouble` | 1616 | Exported Function
+`parseSimpleStyle` | 1412 | Exported Function
+`RBBIStateTable` | 1127 | Exported Function
+`doIndexOf` | 731 | Exported Function
+`doHashCode` | 730 | Exported Function
+`doLastIndexOf` | 733 | Exported Function
+`doIndexOf` | 732 | Exported Function
+`doExtract` | 727 | Exported Function
+`write` | 1701 | Exported Function
+`ensureCapacity` | 755 | Exported Function
+`getStringCount` | 1086 | Exported Function
+`findCodePoint` | 790 | Exported Function
+`parseChoiceStyle` | 1400 | Exported Function
+`doReplace` | 736 | Exported Function
+`UnicodeString` | 735 | Exported Function
+`StringPiece` | 1605 | Exported Function
+`doReverse` | 737 | Exported Function
+`UnicodeString` | 652 | Exported Function
+`UnicodeString` | 461 | Exported Function
+`UnicodeString` | 1386 | Exported Function
+`caseMap` | 565 | Exported Function
+`UnicodeString` | 466 | Exported Function
+`UnicodeString` | 935 | Exported Function
+`write` | 1699 | Exported Function
+`transform` | 1676 | Exported Function
+`parseArgNumber` | 1397 | Exported Function
+`parseArg` | 1396 | Exported Function
+`nextImpl` | 1378 | Exported Function
+`branchNext` | 542 | Exported Function
+`getString` | 1084 | Exported Function
+`branchNext` | 545 | Exported Function
+`nextImpl` | 1377 | Exported Function
+`doLastIndexOf` | 734 | Exported Function
+`previousNormalize` | 1439 | Exported Function
+`nextNormalize` | 1379 | Exported Function
+`resize` | 1529 | Exported Function
+`appendSupplementary` | 521 | Exported Function
+`isMostDecompYesAndZeroCC` | 1246 | Exported Function
+`isHangul` | 1235 | Exported Function
+`isDecompYesAndZeroCC` | 1219 | Exported Function
+`isMaybeOrNonZeroCC` | 1245 | Exported Function
+`isMaybe` | 1244 | Exported Function
+`addPlaceholder` | 488 | Exported Function
+`doCaseCompare` | 718 | Exported Function
+`UnicodeString` | 717 | Exported Function
+`doCompare` | 723 | Exported Function
+`UnicodeString` | 722 | Exported Function
+`cloneArrayIfNeeded` | 595 | Exported Function
+`ensureCapacity` | 756 | Exported Function
+`truncateAndStop` | 1682 | Exported Function
+`allocate` | 494 | Exported Function
+`allocateStrings` | 495 | Exported Function
+`isDecompNoAlgorithmic` | 1217 | Exported Function
+`ensureCapacity` | 754 | Exported Function
+`ensureCapacity` | 753 | Exported Function
+`init` | 1184 | Exported Function
+`MessagePattern` | 655 | Exported Function
+`truncateAndStop` | 1681 | Exported Function
+`removeRef` | 1492 | Exported Function
+`refCount` | 1454 | Exported Function
+`indexOf` | 1162 | Exported Function
+`toUTF8` | 1672 | Exported Function
+`inMessageFormatPattern` | 1159 | Exported Function
+`ReorderingBuffer` | 714 | Exported Function
+`ReorderingBuffer` | 708 | Exported Function
+`isCompYesAndZeroCC` | 1215 | Exported Function
+`hasCompBoundaryBefore` | 1133 | Exported Function
+`isSelect` | 1252 | Exported Function
+`isChoice` | 1213 | Exported Function
+`inTopLevelChoiceMessage` | 1160 | Exported Function
+`isPlural` | 1251 | Exported Function
+`isOrdinal` | 1250 | Exported Function
+`LocaleKeyFactory` | 403 | Exported Function
+`LocaleKey` | 402 | Exported Function
+`MessagePattern` | 404 | Exported Function
+`LRUCache` | 399 | Exported Function
+`Locale` | 401 | Exported Function
+`ICUServiceKey` | 397 | Exported Function
+`ICUServiceFactory` | 396 | Exported Function
+`ListFormatter` | 400 | Exported Function
+`IDNA` | 398 | Exported Function
+`Normalizer2` | 405 | Exported Function
+`SharedObject` | 412 | Exported Function
+`ServiceListener` | 411 | Exported Function
+`SimpleLocaleKeyFactory` | 415 | Exported Function
+`SimpleFactory` | 413 | Exported Function
+`RuleBasedBreakIterator` | 410 | Exported Function
+`ParsePosition` | 407 | Exported Function
+`Normalizer` | 406 | Exported Function
+`ResourceBundle` | 409 | Exported Function
+`Replaceable` | 408 | Exported Function
+`ICUService` | 395 | Exported Function
+`BytesTrieBuilder` | 382 | Exported Function
+`ByteSink` | 380 | Exported Function
+`CharacterIterator` | 384 | Exported Function
+`CanonicalIterator` | 383 | Exported Function
+`BytesDictionaryMatcher` | 381 | Exported Function
+`UnicodeString` | 1694 | Exported Function
+`UnicodeString` | 370 | Exported Function
+`BreakIterator` | 379 | Exported Function
+`Appendable` | 378 | Exported Function
+`CheckedArrayByteSink` | 385 | Exported Function
+`ICULocaleService` | 392 | Exported Function
+`ForwardCharacterIterator` | 391 | Exported Function
+`ICUResourceBundleFactory` | 394 | Exported Function
+`ICUNotifier` | 393 | Exported Function
+`FilteredNormalizer2` | 390 | Exported Function
+`DictionaryMatcher` | 387 | Exported Function
+`DateInterval` | 386 | Exported Function
+`EventListener` | 389 | Exported Function
+`ErrorCode` | 388 | Exported Function
+`SimpleLRUCache` | 414 | Exported Function
+`UnicodeString` | 132 | Exported Function
+`MaybeStackArray` | 1 | Exported Function
+`UnicodeSet` | 177 | Exported Function
+`UCharsTrie` | 151 | Exported Function
+`ELocaleType` | 70 | Exported Function
+`UVector` | 428 | Exported Function
+`UVector64` | 427 | Exported Function
+`BytesTrie` | 11 | Exported Function
 `locale_getKeywordsStart_53` | 1727 | Exported Function
-`private: bool __thiscall icu_53::MaybeStackArray<char,40>::operator!=(class icu_53::MaybeStackArray<char,40> const &)` | 348 | Exported Function
-`private: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::applyPropertyPattern(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,enum UErrorCode &)` | 535 | Exported Function
-`private: class icu_53::SharedObject const * __thiscall icu_53::LRUCache::_get(char const *,enum UErrorCode &)` | 462 | Exported Function
-`private: class icu_53::UnicodeString & __thiscall icu_53::FilteredNormalizer2::normalize(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum USetSpanCondition,enum UErrorCode &)const ` | 1382 | Exported Function
-`private: class icu_53::UnicodeSet const & __thiscall icu_53::Normalizer2Impl::getCanonStartSet(int)const ` | 859 | Exported Function
-`private: class icu_53::Locale & __thiscall icu_53::Locale::init(char const *,signed char)` | 1183 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::CanonicalIterator::extract(class icu_53::Hashtable *,int,wchar_t const *,int,int,enum UErrorCode &)` | 772 | Exported Function
-`private: bool __thiscall icu_53::MaybeStackArray<char,40>::operator==(class icu_53::MaybeStackArray<char,40> const &)` | 332 | Exported Function
-`private: class icu_53::LanguageBreakEngine const * __thiscall icu_53::RuleBasedBreakIterator::getLanguageBreakEngine(int)` | 975 | Exported Function
-`private: class icu_53::Hashtable * __thiscall icu_53::CanonicalIterator::getEquivalents2(class icu_53::Hashtable *,wchar_t const *,int,enum UErrorCode &)` | 934 | Exported Function
-`const icu_53::UVector32::``vftable'` | 426 | Exported Function
-`const icu_53::UCharsTrieBuilder::``vftable'` | 422 | Exported Function
-`const icu_53::UCharsDictionaryMatcher::``vftable'` | 421 | Exported Function
-`const icu_53::UnicodeFilter::``vftable'{for ``icu_53::UnicodeMatcher'}` | 430 | Exported Function
-`const icu_53::UnicodeFilter::``vftable'{for ``icu_53::UnicodeFunctor'}` | 429 | Exported Function
-`const icu_53::UCharCharacterIterator::``vftable'` | 420 | Exported Function
-`const icu_53::StringEnumeration::``vftable'` | 417 | Exported Function
-`const icu_53::StringCharacterIterator::``vftable'` | 416 | Exported Function
-`const icu_53::SymbolTable::``vftable'` | 419 | Exported Function
-`const icu_53::StringTrieBuilder::``vftable'` | 418 | Exported Function
-`const icu_53::UnicodeFunctor::``vftable'` | 431 | Exported Function
-`const icu_53::UObject::``vftable'` | 423 | Exported Function
-`const icu_53::UnicodeStringAppendable::``vftable'` | 437 | Exported Function
-`const icu_53::UStringEnumeration::``vftable'` | 425 | Exported Function
-`const icu_53::UStack::``vftable'` | 424 | Exported Function
-`const icu_53::UnicodeString::``vftable'` | 436 | Exported Function
-`const icu_53::UnicodeSet::``vftable'{for ``icu_53::UnicodeFunctor'}` | 433 | Exported Function
-`const icu_53::UnicodeMatcher::``vftable'` | 432 | Exported Function
-`const icu_53::UnicodeSetIterator::``vftable'` | 435 | Exported Function
-`const icu_53::UnicodeSet::``vftable'{for ``icu_53::UnicodeMatcher'}` | 434 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::write(int)` | 1700 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::skipElementsBySomeUnits(int,int,int)const ` | 1617 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::writeElementUnits(int,int,int)` | 1707 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::writeDeltaTo(int)` | 1705 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::indexOfElementWithNextUnit(int,int,wchar_t)const ` | 1179 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::getMaxBranchLinearSubNodeLength(void)const ` | 993 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::getLimitOfLinearMatch(int,int,int)const ` | 980 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::getMinLinearMatch(void)const ` | 997 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::getMaxLinearMatchLength(void)const ` | 995 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::writeValueAndFinal(int,signed char)` | 1710 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::getMaxLinearMatchLength(void)const ` | 996 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::getMaxBranchLinearSubNodeLength(void)const ` | 994 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::indexOfElementWithNextUnit(int,int,wchar_t)const ` | 1180 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::getMinLinearMatch(void)const ` | 998 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::getLimitOfLinearMatch(int,int,int)const ` | 981 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::countElementUnits(int,int,int)const ` | 660 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::writeValueAndType(signed char,int,int)` | 1712 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::getElementValue(int)const ` | 932 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::getElementStringLength(int)const ` | 928 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::getElementValue(int)const ` | 931 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::UCharsTrie::skipValue(wchar_t const *,int)` | 1626 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::UCharsTrie::skipValue(wchar_t const *)` | 1625 | Exported Function
-`private: unsigned char __thiscall icu_53::Normalizer2Impl::getTrailCCFromCompYesAndZeroCC(wchar_t const *,wchar_t const *)const ` | 1101 | Exported Function
-`private: unsigned char __thiscall icu_53::Normalizer2Impl::getCCFromNoNo(unsigned short)const ` | 855 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::UCharsTrie::skipNodeValue(wchar_t const *,int)` | 1621 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::UCharsTrie::findUniqueValueFromBranch(wchar_t const *,int,signed char,int &)` | 798 | Exported Function
-`private: static void __cdecl icu_53::UnicodeSet::_appendToPat(class icu_53::UnicodeString &,int,signed char)` | 460 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::UCharsTrie::skipDelta(wchar_t const *)` | 1615 | Exported Function
-`private: static wchar_t const * __cdecl icu_53::UCharsTrie::jumpByDelta(wchar_t const *)` | 1263 | Exported Function
-`private: unsigned char __thiscall icu_53::ReorderingBuffer::previousCC(void)` | 1437 | Exported Function
-`private: virtual class icu_53::StringTrieBuilder::Node * __thiscall icu_53::UCharsTrieBuilder::createLinearMatchNode(int,int,int,class icu_53::StringTrieBuilder::Node *)const ` | 685 | Exported Function
-`private: virtual class icu_53::StringTrieBuilder::Node * __thiscall icu_53::BytesTrieBuilder::createLinearMatchNode(int,int,int,class icu_53::StringTrieBuilder::Node *)const ` | 684 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::getElementStringLength(int)const ` | 927 | Exported Function
-`private: virtual int __thiscall icu_53::BytesTrieBuilder::countElementUnits(int,int,int)const ` | 659 | Exported Function
-`private: unsigned short const * __thiscall icu_53::Normalizer2Impl::getMapping(unsigned short)const ` | 992 | Exported Function
-`private: unsigned short const * __thiscall icu_53::Normalizer2Impl::getCompositionsList(unsigned short)const ` | 875 | Exported Function
-`private: unsigned char const * __thiscall icu_53::BytesTrie::Iterator::branchNext(unsigned char const *,int,enum UErrorCode &)` | 543 | Exported Function
-`private: unsigned short const * __thiscall icu_53::Normalizer2Impl::getCompositionsListForDecompYes(unsigned short)const ` | 877 | Exported Function
-`private: unsigned short const * __thiscall icu_53::Normalizer2Impl::getCompositionsListForComposite(unsigned short)const ` | 876 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::skipElementsBySomeUnits(int,int,int)const ` | 1618 | Exported Function
-`private: void __thiscall icu_53::Normalizer2Impl::addComposites(unsigned short const *,class icu_53::UnicodeSet &)const ` | 478 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::setParseError(struct UParseError *,int)` | 1577 | Exported Function
-`private: void __thiscall icu_53::Normalizer::clearBuffer(void)` | 579 | Exported Function
-`private: void __thiscall icu_53::Normalizer2Impl::recompose(class icu_53::ReorderingBuffer &,int,signed char)const ` | 1453 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::preParse(class icu_53::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1429 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::addPart(enum UMessagePatternPartType,int,int,int,enum UErrorCode &)` | 487 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::addLimitPart(int,enum UMessagePatternPartType,int,int,int,enum UErrorCode &)` | 484 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::postParse(void)` | 1428 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::parseDouble(int,int,signed char,struct UParseError *,enum UErrorCode &)` | 1402 | Exported Function
-`private: void __thiscall icu_53::Normalizer::init(void)` | 1185 | Exported Function
-`private: void __thiscall icu_53::UCharsTrieBuilder::buildUChars(enum UStringTrieBuildOption,enum UErrorCode &)` | 552 | Exported Function
-`private: void __thiscall icu_53::UCharsTrie::stop(void)` | 1653 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::add(int const *,int,signed char)` | 470 | Exported Function
-`private: void __thiscall icu_53::UnicodeSet::_add(class icu_53::UnicodeString const &)` | 458 | Exported Function
-`private: void __thiscall icu_53::RuleBasedBreakIterator::makeRuleStatusValid(void)` | 1341 | Exported Function
-`private: void __thiscall icu_53::ReorderingBuffer::setIterator(void)` | 1566 | Exported Function
-`private: void __thiscall icu_53::ReorderingBuffer::insert(int,unsigned char)` | 1191 | Exported Function
-`private: void __thiscall icu_53::ResourceBundle::constructForLocale(class icu_53::UnicodeString const &,class icu_53::Locale const &,enum UErrorCode &)` | 630 | Exported Function
-`private: void __thiscall icu_53::ReorderingBuffer::skipPrevious(void)` | 1622 | Exported Function
-`private: void __thiscall icu_53::MessagePattern::addArgDoublePart(double,int,int,enum UErrorCode &)` | 476 | Exported Function
-`private: virtual signed char __thiscall icu_53::UCharsTrieBuilder::matchNodesCanHaveValues(void)const ` | 1344 | Exported Function
-`private: virtual signed char __thiscall icu_53::BytesTrieBuilder::matchNodesCanHaveValues(void)const ` | 1343 | Exported Function
-`private: virtual wchar_t __thiscall icu_53::BytesTrieBuilder::getElementUnit(int,int)const ` | 929 | Exported Function
-`private: virtual signed char __thiscall icu_53::UnicodeSet::matchesIndexValue(unsigned char)const ` | 1350 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::writeValueAndType(signed char,int,int)` | 1713 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::writeDeltaTo(int)` | 1706 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::write(int)` | 1702 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::writeValueAndFinal(int,signed char)` | 1711 | Exported Function
-`private: virtual int __thiscall icu_53::UCharsTrieBuilder::writeElementUnits(int,int,int)` | 1708 | Exported Function
-`private: virtual wchar_t __thiscall icu_53::UCharsTrieBuilder::getElementUnit(int,int)const ` | 930 | Exported Function
-`private: void __thiscall icu_53::LRUCache::moveToMostRecent(class icu_53::LRUCache::CacheEntry *)` | 1354 | Exported Function
-`private: void __thiscall icu_53::LRUCache::init(char *,class icu_53::LRUCache::CacheEntry *)` | 1182 | Exported Function
-`private: void __thiscall icu_53::MaybeStackArray<char,40>::releaseArray(void)` | 1466 | Exported Function
-`private: void __thiscall icu_53::MaybeStackArray<char,40>::operator=(class icu_53::MaybeStackArray<char,40> const &)` | 281 | Exported Function
-`private: void __thiscall icu_53::IDNAInfo::reset(void)` | 1516 | Exported Function
-`private: void __thiscall icu_53::BytesTrieBuilder::buildBytes(enum UStringTrieBuildOption,enum UErrorCode &)` | 549 | Exported Function
-`private: void __thiscall icu_53::BytesTrie::stop(void)` | 1652 | Exported Function
-`private: void __thiscall icu_53::Hashtable::init(int (__cdecl*)(union UElement),signed char (__cdecl*)(union UElement,union UElement),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1181 | Exported Function
-`private: void __thiscall icu_53::CanonicalIterator::cleanPieces(void)` | 572 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxOneByteDelta` | 1273 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxLinearMatchLength` | 1271 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxThreeByteDelta` | 1279 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxOneByteValue` | 1274 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxBranchLinearSubNodeLength` | 1268 | Exported Function
-`private: static int const icu_53::BytesTrie::kFiveByteValueLead` | 1265 | Exported Function
-`private: static int const icu_53::BytesTrie::kFiveByteDeltaLead` | 1264 | Exported Function
-`private: static int const icu_53::BytesTrie::kFourByteValueLead` | 1267 | Exported Function
-`private: static int const icu_53::BytesTrie::kFourByteDeltaLead` | 1266 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxThreeByteValue` | 1280 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinTwoByteDeltaLead` | 1291 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinThreeByteValueLead` | 1290 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinValueLead` | 1296 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinTwoByteValueLead` | 1292 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinThreeByteDeltaLead` | 1289 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxTwoByteValue` | 1282 | Exported Function
-`private: static int const icu_53::BytesTrie::kMaxTwoByteDelta` | 1281 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinOneByteValueLead` | 1288 | Exported Function
-`private: static int const icu_53::BytesTrie::kMinLinearMatch` | 1286 | Exported Function
-`private: static int __cdecl icu_53::UnicodeSet::matchRest(class icu_53::Replaceable const &,int,int,class icu_53::UnicodeString const &)` | 1345 | Exported Function
-`private: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::createInstance(class icu_53::Locale const &,int,enum UErrorCode &)` | 675 | Exported Function
-`private: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::buildInstance(class icu_53::Locale const &,char const *,int,enum UErrorCode &)` | 550 | Exported Function
-`private: static class icu_53::Locale * __cdecl icu_53::Locale::getLocaleCache(void)` | 989 | Exported Function
-`private: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::makeInstance(class icu_53::Locale const &,int,enum UErrorCode &)` | 1339 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::isWritable(void)const ` | 1260 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doCompareCodePointOrder(int,int,wchar_t const *,int,int)const ` | 725 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doCompareCodePointOrder(int,int,class icu_53::UnicodeString const &,int,int)const ` | 724 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::isBufferWritable(void)const ` | 1211 | Exported Function
-`private: signed char __thiscall icu_53::UnicodeString::doEquals(class icu_53::UnicodeString const &,int)const ` | 726 | Exported Function
-`private: static class icu_53::Locale const & __cdecl icu_53::Locale::getLocale(int)` | 985 | Exported Function
-`private: static int __cdecl icu_53::UCharsTrie::readNodeValue(wchar_t const *,int)` | 1450 | Exported Function
-`private: static int __cdecl icu_53::Normalizer2Impl::combine(unsigned short const *,int)` | 598 | Exported Function
-`private: static int __cdecl icu_53::UnicodeSet::getSingleCP(class icu_53::UnicodeString const &)` | 1050 | Exported Function
-`private: static int __cdecl icu_53::UCharsTrie::readValue(wchar_t const *,int)` | 1452 | Exported Function
-`private: static int __cdecl icu_53::MessagePattern::parseArgNumber(class icu_53::UnicodeString const &,int,int)` | 1398 | Exported Function
-`private: static enum UStringTrieResult __cdecl icu_53::BytesTrie::valueResult(int)` | 1697 | Exported Function
-`private: static class icu_53::UnicodeSet const * __cdecl icu_53::UnicodeSet::getInclusions(int,enum UErrorCode &)` | 954 | Exported Function
-`private: static int __cdecl icu_53::BytesTrie::readValue(unsigned char const *,int)` | 1451 | Exported Function
-`private: static enum UStringTrieResult __cdecl icu_53::UCharsTrie::valueResult(int)` | 1698 | Exported Function
-`private: static int const icu_53::BytesTrie::kValueIsFinal` | 1302 | Exported Function
-`private: static signed char __cdecl icu_53::UnicodeSet::resemblesPropertyPattern(class icu_53::UnicodeString const &,int)` | 1507 | Exported Function
-`private: static signed char __cdecl icu_53::UnicodeSet::resemblesPropertyPattern(class icu_53::RuleCharacterIterator &,int)` | 1506 | Exported Function
-`private: static unsigned char const * __cdecl icu_53::BytesTrie::findUniqueValueFromBranch(unsigned char const *,int,signed char,int &)` | 797 | Exported Function
-`private: static struct icu_53::ListFormatInternal const * __cdecl icu_53::ListFormatter::getListFormatInternal(class icu_53::Locale const &,char const *,enum UErrorCode &)` | 983 | Exported Function
-`private: static signed char __cdecl icu_53::UCharsTrie::findUniqueValue(wchar_t const *,signed char,int &)` | 796 | Exported Function
-`private: static signed char __cdecl icu_53::Normalizer2Impl::isInert(unsigned short)` | 1239 | Exported Function
-`private: static signed char __cdecl icu_53::Normalizer2Impl::isAcceptable(void *,char const *,char const *,struct UDataInfo const *)` | 1202 | Exported Function
-`private: static signed char __cdecl icu_53::Normalizer2Impl::isJamoVT(unsigned short)` | 1243 | Exported Function
-`private: static signed char __cdecl icu_53::Normalizer2Impl::isJamoL(unsigned short)` | 1241 | Exported Function
-`private: static unsigned char const * __cdecl icu_53::BytesTrie::jumpByDelta(unsigned char const *)` | 1262 | Exported Function
-`private: static void __cdecl icu_53::ReorderingBuffer::writeCodePoint(wchar_t *,int)` | 1704 | Exported Function
-`private: static void __cdecl icu_53::ListFormatter::initializeHash(enum UErrorCode &)` | 1190 | Exported Function
-`private: static void __cdecl icu_53::UnicodeSet::_appendToPat(class icu_53::UnicodeString &,class icu_53::UnicodeString const &,signed char)` | 459 | Exported Function
-`private: static void __cdecl icu_53::UCharsTrie::getNextBranchUChars(wchar_t const *,int,class icu_53::Appendable &)` | 1017 | Exported Function
-`private: static void __cdecl icu_53::BytesTrie::getNextBranchBytes(unsigned char const *,int,class icu_53::ByteSink &)` | 1016 | Exported Function
-`private: static unsigned char const * __cdecl icu_53::BytesTrie::skipValue(unsigned char const *)` | 1623 | Exported Function
-`private: static unsigned char const * __cdecl icu_53::BytesTrie::skipDelta(unsigned char const *)` | 1614 | Exported Function
-`private: static void __cdecl icu_53::BytesTrie::append(class icu_53::ByteSink &,int)` | 496 | Exported Function
-`private: static unsigned char const * __cdecl icu_53::BytesTrie::skipValue(unsigned char const *,int)` | 1624 | Exported Function
-`private: static signed char __cdecl icu_53::MessagePattern::isArgTypeChar(int)` | 1204 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxTwoUnitNodeValue` | 1284 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxTwoUnitDelta` | 1283 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMinLinearMatch` | 1287 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxTwoUnitValue` | 1285 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxOneUnitValue` | 1277 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxLinearMatchLength` | 1272 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxBranchLinearSubNodeLength` | 1270 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxOneUnitNodeValue` | 1276 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMaxOneUnitDelta` | 1275 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMinTwoUnitDeltaLead` | 1293 | Exported Function
-`private: static int const icu_53::UCharsTrie::kThreeUnitValueLead` | 1301 | Exported Function
-`private: static int const icu_53::UCharsTrie::kThreeUnitNodeValueLead` | 1300 | Exported Function
-`private: static signed char __cdecl icu_53::BytesTrie::findUniqueValue(unsigned char const *,signed char,int &)` | 795 | Exported Function
-`private: static int const icu_53::UCharsTrie::kValueIsFinal` | 1303 | Exported Function
-`private: static int const icu_53::UCharsTrie::kThreeUnitDeltaLead` | 1299 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMinTwoUnitValueLead` | 1295 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMinTwoUnitNodeValueLead` | 1294 | Exported Function
-`private: static int const icu_53::UCharsTrie::kNodeTypeMask` | 1298 | Exported Function
-`private: static int const icu_53::UCharsTrie::kMinValueLead` | 1297 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getLanguage(void)const ` | 974 | Exported Function
-`public: signed char __thiscall icu_53::StringPair::isBogus(void)const ` | 1206 | Exported Function
-`public: signed char __thiscall icu_53::SimplePatternFormatter::compile(class icu_53::UnicodeString const &,enum UErrorCode &)` | 615 | Exported Function
-`public: signed char __thiscall icu_53::UCharsTrie::hasUniqueValue(int &)const ` | 1150 | Exported Function
-`public: signed char __thiscall icu_53::StringPiece::empty(void)const ` | 742 | Exported Function
-`public: signed char __thiscall icu_53::RuleBasedBreakIterator::operator!=(class icu_53::BreakIterator const &)const ` | 356 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::init(int,enum UErrorCode &)` | 1186 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::equals(wchar_t const *,wchar_t const *)const ` | 764 | Exported Function
-`public: signed char __thiscall icu_53::ResourceBundle::hasNext(void)const ` | 1145 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::isEmpty(void)const ` | 1222 | Exported Function
-`public: signed char __thiscall icu_53::UCharsTrie::Iterator::hasNext(void)const ` | 1144 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsSome(class icu_53::UnicodeSet const &)const ` | 647 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsNone(int,int)const ` | 646 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsSome(int,int)const ` | 649 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsSome(class icu_53::UnicodeString const &)const ` | 648 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsNone(class icu_53::UnicodeString const &)const ` | 645 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::contains(class icu_53::UnicodeString const &)const ` | 635 | Exported Function
-`public: signed char __thiscall icu_53::UCharsTrie::Iterator::next(enum UErrorCode &)` | 1364 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsNone(class icu_53::UnicodeSet const &)const ` | 644 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::containsAll(class icu_53::UnicodeString const &)const ` | 640 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::appendZeroCC(wchar_t const *,wchar_t const *,enum UErrorCode &)` | 526 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::isDecompInert(int)const ` | 1216 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::isCompNo(unsigned short)const ` | 1214 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::isFCDInert(int)const ` | 1228 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::isDecompYes(unsigned short)const ` | 1218 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::isCanonSegmentStarter(int)const ` | 1212 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::hasFCDBoundaryAfter(int)const ` | 1137 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::hasDecompBoundary(int,signed char)const ` | 1135 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::isAlgorithmicNoNo(unsigned short)const ` | 1203 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::hasFCDBoundaryBefore(int)const ` | 1138 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::singleLeadMightHaveNonZeroFCD16(int)const ` | 1608 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::append(wchar_t const *,int,unsigned char,unsigned char,enum UErrorCode &)` | 503 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::append(int,unsigned char,enum UErrorCode &)` | 502 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::appendZeroCC(int,enum UErrorCode &)` | 525 | Exported Function
-`public: signed char __thiscall icu_53::ReorderingBuffer::appendBMP(wchar_t,unsigned char,enum UErrorCode &)` | 510 | Exported Function
-`public: signed char __thiscall icu_53::ParsePosition::operator==(class icu_53::ParsePosition const &)const ` | 337 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer::operator!=(class icu_53::Normalizer const &)const ` | 354 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer::getOption(int)const ` | 1026 | Exported Function
-`public: signed char __thiscall icu_53::ParsePosition::operator!=(class icu_53::ParsePosition const &)const ` | 355 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer::operator==(class icu_53::Normalizer const &)const ` | 336 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::isBogus(void)const ` | 1207 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::endsWith(class icu_53::UnicodeString const &)const ` | 747 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrderBetween(int,int,class icu_53::UnicodeString const &,int,int)const ` | 614 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::endsWith(wchar_t const *,int)const ` | 749 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::endsWith(class icu_53::UnicodeString const &,int,int)const ` | 748 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrder(wchar_t const *,int)const ` | 613 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrder(int,int,class icu_53::UnicodeString const &,int,int)const ` | 610 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrder(int,int,class icu_53::UnicodeString const &)const ` | 609 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrder(int,int,wchar_t const *,int,int)const ` | 612 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrder(int,int,wchar_t const *)const ` | 611 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::endsWith(wchar_t const *,int,int)const ` | 750 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::operator==(class icu_53::UnicodeString const &)const ` | 346 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::operator<=(class icu_53::UnicodeString const &)const ` | 372 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::operator>=(class icu_53::UnicodeString const &)const ` | 374 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::operator>(class icu_53::UnicodeString const &)const ` | 373 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::operator<(class icu_53::UnicodeString const &)const ` | 371 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::isBogus(void)const ` | 1208 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::hasMoreChar32Than(int,int,int)const ` | 1141 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::operator!=(class icu_53::UnicodeString const &)const ` | 362 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::isEmpty(void)const ` | 1227 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareCodePointOrder(class icu_53::UnicodeString const &)const ` | 608 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompare(int,int,class icu_53::UnicodeString const &,int,int,unsigned int)const ` | 559 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompare(class icu_53::UnicodeString const &,unsigned int)const ` | 558 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompare(int,int,wchar_t const *,int,int,unsigned int)const ` | 561 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompare(int,int,class icu_53::UnicodeString const &,unsigned int)const ` | 560 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSetIterator::nextRange(void)` | 1381 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::operator!=(class icu_53::UnicodeSet const &)const ` | 361 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSet::isFrozen(void)const ` | 1233 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSetIterator::next(void)` | 1373 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeSetIterator::isString(void)const ` | 1253 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompare(int,int,wchar_t const *,unsigned int)const ` | 562 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compare(int,int,wchar_t const *,int,int)const ` | 605 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compare(int,int,wchar_t const *)const ` | 604 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compareBetween(int,int,class icu_53::UnicodeString const &,int,int)const ` | 607 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compare(wchar_t const *,int)const ` | 606 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compare(int,int,class icu_53::UnicodeString const &,int,int)const ` | 603 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompareBetween(int,int,class icu_53::UnicodeString const &,int,int,unsigned int)const ` | 564 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::caseCompare(wchar_t const *,int,unsigned int)const ` | 563 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compare(int,int,class icu_53::UnicodeString const &)const ` | 602 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::compare(class icu_53::UnicodeString const &)const ` | 601 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::length(void)const ` | 1332 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(wchar_t,int,int)const ` | 1327 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::toUTF32(int *,int,enum UErrorCode &)const ` | 1671 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::moveIndex32(int,int)const ` | 1353 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(wchar_t,int)const ` | 1326 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(wchar_t const *,int,int,int)const ` | 1323 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(wchar_t const *,int,int)const ` | 1322 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(wchar_t)const ` | 1325 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(wchar_t const *,int,int,int,int)const ` | 1324 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::unescapeAt(int &)const ` | 1687 | Exported Function
-`public: int __thiscall icu_53::UVector32::lastElementi(void)const ` | 1312 | Exported Function
-`public: int __thiscall icu_53::UVector32::indexOf(int,int)const ` | 1161 | Exported Function
-`public: int __thiscall icu_53::UVector32::popi(void)` | 1426 | Exported Function
-`public: int __thiscall icu_53::UVector32::peeki(void)const ` | 1418 | Exported Function
-`public: int __thiscall icu_53::UVector32::elementAti(int)const ` | 739 | Exported Function
-`public: int __thiscall icu_53::UStack::popi(void)` | 1425 | Exported Function
-`public: int __thiscall icu_53::UStack::peeki(void)const ` | 1417 | Exported Function
-`public: int __thiscall icu_53::UStack::search(void *)const ` | 1542 | Exported Function
-`public: int __thiscall icu_53::UStack::push(int,enum UErrorCode &)` | 1440 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(int,int,int)const ` | 1321 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(int,int,int)const ` | 1172 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(int,int)const ` | 1171 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(wchar_t const *,int,int,int)const ` | 1174 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(wchar_t const *,int,int)const ` | 1173 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(int)const ` | 1170 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(class icu_53::UnicodeString const &,int)const ` | 1167 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(class icu_53::UnicodeString const &)const ` | 1166 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(class icu_53::UnicodeString const &,int,int,int,int)const ` | 1169 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(class icu_53::UnicodeString const &,int,int)const ` | 1168 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(wchar_t const *,int,int,int,int)const ` | 1175 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(class icu_53::UnicodeString const &,int,int,int,int)const ` | 1318 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(class icu_53::UnicodeString const &,int,int)const ` | 1317 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(int,int)const ` | 1320 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(int)const ` | 1319 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(class icu_53::UnicodeString const &,int)const ` | 1316 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(wchar_t,int)const ` | 1177 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(wchar_t)const ` | 1176 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::lastIndexOf(class icu_53::UnicodeString const &)const ` | 1315 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::indexOf(wchar_t,int,int)const ` | 1178 | Exported Function
-`public: int __thiscall icu_53::UVector32::push(int,enum UErrorCode &)` | 1442 | Exported Function
-`public: signed char __thiscall icu_53::Locale::operator!=(class icu_53::Locale const &)const ` | 352 | Exported Function
-`public: signed char __thiscall icu_53::Locale::isBogus(void)const ` | 1205 | Exported Function
-`public: signed char __thiscall icu_53::LRUCache::contains(char const *)const ` | 631 | Exported Function
-`public: signed char __thiscall icu_53::Locale::operator==(class icu_53::Locale const &)const ` | 334 | Exported Function
-`public: signed char __thiscall icu_53::IDNAInfo::isTransitionalDifferent(void)const ` | 1257 | Exported Function
-`public: signed char __thiscall icu_53::ForwardCharacterIterator::operator!=(class icu_53::ForwardCharacterIterator const &)const ` | 351 | Exported Function
-`public: signed char __thiscall icu_53::ErrorCode::isSuccess(void)const ` | 1254 | Exported Function
-`public: signed char __thiscall icu_53::IDNAInfo::hasErrors(void)const ` | 1136 | Exported Function
-`public: signed char __thiscall icu_53::Hashtable::equals(class icu_53::Hashtable const &)const ` | 763 | Exported Function
-`public: signed char __thiscall icu_53::MessagePattern::hasNamedArguments(void)const ` | 1142 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::getCanonStartSet(int,class icu_53::UnicodeSet &)const ` | 860 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::ensureCanonIterData(enum UErrorCode &)const ` | 752 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::hasCompBoundaryBefore(int)const ` | 1134 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::hasCompBoundaryAfter(int,signed char,signed char)const ` | 1132 | Exported Function
-`public: signed char __thiscall icu_53::Normalizer2Impl::compose(wchar_t const *,wchar_t const *,signed char,signed char,class icu_53::ReorderingBuffer &,enum UErrorCode &)const ` | 622 | Exported Function
-`public: signed char __thiscall icu_53::MessagePattern::operator!=(class icu_53::MessagePattern const &)const ` | 353 | Exported Function
-`public: signed char __thiscall icu_53::MessagePattern::hasNumberedArguments(void)const ` | 1147 | Exported Function
-`public: signed char __thiscall icu_53::MessagePattern::partSubstringMatches(class icu_53::MessagePattern::Part const &,class icu_53::UnicodeString const &)const ` | 1415 | Exported Function
-`public: signed char __thiscall icu_53::MessagePattern::operator==(class icu_53::MessagePattern const &)const ` | 335 | Exported Function
-`public: signed char __thiscall icu_53::ErrorCode::isFailure(void)const ` | 1229 | Exported Function
-`public: int __thiscall icu_53::UVector::size(void)const ` | 1612 | Exported Function
-`public: int __thiscall icu_53::UVector::lastElementi(void)const ` | 1314 | Exported Function
-`public: signed char (__cdecl*__thiscall icu_53::Hashtable::setKeyComparator(signed char (__cdecl*)(union UElement,union UElement)))(union UElement,union UElement)` | 1567 | Exported Function
-`public: int const * __thiscall icu_53::ResourceBundle::getIntVector(int &,enum UErrorCode &)const ` | 961 | Exported Function
-`public: int __thiscall icu_53::UVector::indexOf(void *,int)const ` | 1164 | Exported Function
-`public: int __thiscall icu_53::UVector64::size(void)const ` | 1611 | Exported Function
-`public: int __thiscall icu_53::UVector32::size(void)const ` | 1610 | Exported Function
-`public: int __thiscall icu_53::UVector::indexOf(int,int)const ` | 1163 | Exported Function
-`public: int __thiscall icu_53::UVector::elementAti(int)const ` | 741 | Exported Function
-`public: signed char (__cdecl*__thiscall icu_53::Hashtable::setValueComparator(signed char (__cdecl*)(union UElement,union UElement)))(union UElement,union UElement)` | 1606 | Exported Function
-`public: signed char __thiscall icu_53::CharString::isEmpty(void)const ` | 1221 | Exported Function
-`public: signed char __thiscall icu_53::BytesTrie::Iterator::next(enum UErrorCode &)` | 1363 | Exported Function
-`public: signed char __thiscall icu_53::DateInterval::operator!=(class icu_53::DateInterval const &)const ` | 350 | Exported Function
-`public: signed char __thiscall icu_53::CheckedArrayByteSink::Overflowed(void)const ` | 447 | Exported Function
-`public: signed char __thiscall icu_53::BytesTrie::Iterator::hasNext(void)const ` | 1143 | Exported Function
-`public: signed char __thiscall icu_53::BreakIterator::isBufferClone(void)` | 1210 | Exported Function
-`public: signed char (__cdecl*__thiscall icu_53::UVector::setComparer(signed char (__cdecl*)(union UElement,union UElement)))(union UElement,union UElement)` | 1552 | Exported Function
-`public: signed char __thiscall icu_53::BytesTrie::hasUniqueValue(int &)const ` | 1149 | Exported Function
-`public: signed char __thiscall icu_53::BreakIterator::operator!=(class icu_53::BreakIterator const &)const ` | 349 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::BreakIterator::getDisplayName(class icu_53::Locale const &,class icu_53::UnicodeString &)` | 887 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::BreakIterator::getDisplayName(class icu_53::Locale const &,class icu_53::Locale const &,class icu_53::UnicodeString &)` | 886 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ICUServiceKey::parsePrefix(class icu_53::UnicodeString &)` | 1410 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ICU_Utility::appendNumber(class icu_53::UnicodeString &,int,int,int)` | 515 | Exported Function
-`public: static class icu_53::UnicodeSet const * __cdecl icu_53::UnicodeSet::fromUSet(struct USet const *)` | 821 | Exported Function
-`public: static class icu_53::UnicodeSet * __cdecl icu_53::UnicodeSet::createFrom(class icu_53::UnicodeString const &)` | 672 | Exported Function
-`public: static class icu_53::StringPair * __cdecl icu_53::StringPair::create(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 667 | Exported Function
-`public: static class icu_53::UnicodeSet * __cdecl icu_53::UnicodeSet::fromUSet(struct USet *)` | 820 | Exported Function
-`public: static class icu_53::UnicodeSet * __cdecl icu_53::UnicodeSet::createFromAll(class icu_53::UnicodeString const &)` | 673 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::ICUServiceKey::parseSuffix(class icu_53::UnicodeString &)` | 1413 | Exported Function
-`public: static class icu_53::UnicodeString __cdecl icu_53::UnicodeString::fromUTF8(class icu_53::StringPiece const &)` | 823 | Exported Function
-`public: static class icu_53::UnicodeString __cdecl icu_53::UnicodeString::fromUTF32(int const *,int)` | 822 | Exported Function
-`public: static enum UNormalizationCheckResult __cdecl icu_53::Normalizer::quickCheck(class icu_53::UnicodeString const &,enum UNormalizationMode,int,enum UErrorCode &)` | 1448 | Exported Function
-`public: static enum UNormalizationCheckResult __cdecl icu_53::Normalizer::quickCheck(class icu_53::UnicodeString const &,enum UNormalizationMode,enum UErrorCode &)` | 1447 | Exported Function
-`public: static class icu_53::UnicodeString __cdecl icu_53::ICU_Utility::parseUnicodeIdentifier(class icu_53::UnicodeString const &,int &)` | 1414 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::LocaleUtility::initNameFromLocale(class icu_53::Locale const &,class icu_53::UnicodeString &)` | 1189 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::LocaleUtility::canonicalLocaleString(class icu_53::UnicodeString const *,class icu_53::UnicodeString &)` | 557 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::Normalizer::concatenate(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UNormalizationMode,int,enum UErrorCode &)` | 629 | Exported Function
-`public: static class icu_53::UnicodeString & __cdecl icu_53::MessageImpl::appendSubMessageWithoutSkipSyntax(class icu_53::MessagePattern const &,int,class icu_53::UnicodeString &)` | 520 | Exported Function
-`public: static class icu_53::StringEnumeration * __cdecl icu_53::BreakIterator::getAvailableLocales(void)` | 843 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getFCCInstance(enum UErrorCode &)` | 938 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2::getNFKDInstance(enum UErrorCode &)` | 1010 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getInstance(enum UNormalizationMode,enum UErrorCode &)` | 959 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getFCDInstance(enum UErrorCode &)` | 942 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2::getNFKCInstance(enum UErrorCode &)` | 1006 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2::getNFCInstance(enum UErrorCode &)` | 1000 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2::getInstance(char const *,char const *,enum UNormalization2Mode,enum UErrorCode &)` | 958 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2::getNFKCCasefoldInstance(enum UErrorCode &)` | 1004 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2::getNFDInstance(enum UErrorCode &)` | 1002 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getNFCInstance(enum UErrorCode &)` | 1001 | Exported Function
-`public: static class icu_53::Normalizer2Impl const * __cdecl icu_53::Normalizer2Factory::getNFCImpl(enum UErrorCode &)` | 999 | Exported Function
-`public: static class icu_53::Normalizer2Impl const * __cdecl icu_53::Normalizer2Factory::getImpl(class icu_53::Normalizer2 const *)` | 953 | Exported Function
-`public: static class icu_53::Normalizer2Impl const * __cdecl icu_53::Normalizer2Factory::getNFKCImpl(enum UErrorCode &)` | 1005 | Exported Function
-`public: static class icu_53::Normalizer2Impl const * __cdecl icu_53::Normalizer2Factory::getNFKC_CFImpl(enum UErrorCode &)` | 1008 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getNoopInstance(enum UErrorCode &)` | 1022 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getNFKC_CFInstance(enum UErrorCode &)` | 1009 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getNFDInstance(enum UErrorCode &)` | 1003 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getNFKDInstance(enum UErrorCode &)` | 1011 | Exported Function
-`public: static class icu_53::Normalizer2 const * __cdecl icu_53::Normalizer2Factory::getNFKCInstance(enum UErrorCode &)` | 1007 | Exported Function
-`public: static int __cdecl icu_53::Hangul::decompose(int,wchar_t * const)` | 707 | Exported Function
-`public: static signed char __cdecl icu_53::Normalizer::isNormalized(class icu_53::UnicodeString const &,enum UNormalizationMode,enum UErrorCode &)` | 1248 | Exported Function
-`public: static signed char __cdecl icu_53::MessageImpl::jdkAposMode(class icu_53::MessagePattern const &)` | 1261 | Exported Function
-`public: static signed char __cdecl icu_53::PatternProps::isIdentifier(wchar_t const *,int)` | 1237 | Exported Function
-`public: static signed char __cdecl icu_53::Normalizer::isNormalized(class icu_53::UnicodeString const &,enum UNormalizationMode,int,enum UErrorCode &)` | 1249 | Exported Function
-`public: static signed char __cdecl icu_53::LocaleUtility::isFallbackOf(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 1232 | Exported Function
-`public: static signed char __cdecl icu_53::ICU_Utility::escapeUnprintable(class icu_53::UnicodeString &,int)` | 768 | Exported Function
-`public: static signed char __cdecl icu_53::Hangul::isJamoV(int)` | 1242 | Exported Function
-`public: static signed char __cdecl icu_53::ICU_Utility::parseChar(class icu_53::UnicodeString const &,int &,wchar_t)` | 1399 | Exported Function
-`public: static signed char __cdecl icu_53::ICU_Utility::isUnprintable(int)` | 1258 | Exported Function
-`public: static signed char __cdecl icu_53::PatternProps::isSyntax(int)` | 1255 | Exported Function
-`public: static void * __cdecl icu_53::CanonicalIterator::getStaticClassID(void)` | 1054 | Exported Function
-`public: static unsigned char __cdecl icu_53::Normalizer2Impl::getCCFromYesOrMaybe(unsigned short)` | 856 | Exported Function
-`public: static void * __cdecl icu_53::EventListener::getStaticClassID(void)` | 1056 | Exported Function
-`public: static void * __cdecl icu_53::DateInterval::getStaticClassID(void)` | 1055 | Exported Function
-`public: static signed char __cdecl icu_53::UnicodeSet::resemblesPattern(class icu_53::UnicodeString const &,int)` | 1505 | Exported Function
-`public: static signed char __cdecl icu_53::PatternProps::isWhiteSpace(int)` | 1259 | Exported Function
-`public: static signed char __cdecl icu_53::PatternProps::isSyntaxOrWhiteSpace(int)` | 1256 | Exported Function
-`public: static signed char __cdecl icu_53::StringTrieBuilder::hashNode(void const *)` | 1158 | Exported Function
-`public: static signed char __cdecl icu_53::StringTrieBuilder::equalNodes(void const *,void const *)` | 762 | Exported Function
-`public: static signed char __cdecl icu_53::Hangul::isJamoL(int)` | 1240 | Exported Function
-`public: static int __cdecl icu_53::Normalizer::compare(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,unsigned int,enum UErrorCode &)` | 600 | Exported Function
-`public: static int __cdecl icu_53::MessagePattern::validateArgumentName(class icu_53::UnicodeString const &)` | 1695 | Exported Function
-`public: static int const icu_53::DictionaryData::TRANSFORM_OFFSET_MASK` | 451 | Exported Function
-`public: static int const icu_53::DictionaryData::TRANSFORM_NONE` | 450 | Exported Function
-`public: static int __cdecl icu_53::ICU_Utility::skipWhitespace(class icu_53::UnicodeString const &,int &,signed char)` | 1629 | Exported Function
-`public: static int __cdecl icu_53::ICU_Utility::parseNumber(class icu_53::UnicodeString const &,int &,signed char)` | 1405 | Exported Function
-`public: static int __cdecl icu_53::ICU_Utility::parseInteger(class icu_53::UnicodeString const &,int &,int)` | 1403 | Exported Function
-`public: static int __cdecl icu_53::ICU_Utility::parsePattern(class icu_53::UnicodeString const &,int,int,class icu_53::UnicodeString const &,int *)` | 1407 | Exported Function
-`public: static int __cdecl icu_53::ICU_Utility::parsePattern(class icu_53::UnicodeString const &,class icu_53::Replaceable const &,int,int)` | 1406 | Exported Function
-`public: static int const icu_53::DictionaryData::TRANSFORM_TYPE_MASK` | 452 | Exported Function
-`public: static signed char __cdecl icu_53::BreakIterator::unregister(void const *,enum UErrorCode &)` | 1689 | Exported Function
-`public: static int const icu_53::StringPiece::npos` | 1390 | Exported Function
-`public: static signed char __cdecl icu_53::Hangul::isHangulWithoutJamoT(wchar_t)` | 1236 | Exported Function
-`public: static signed char __cdecl icu_53::Hangul::isHangul(int)` | 1234 | Exported Function
-`public: static int const icu_53::DictionaryData::TRIE_TYPE_UCHARS` | 457 | Exported Function
-`public: static int const icu_53::DictionaryData::TRIE_HAS_VALUES` | 454 | Exported Function
-`public: static int const icu_53::DictionaryData::TRANSFORM_TYPE_OFFSET` | 453 | Exported Function
-`public: static int const icu_53::DictionaryData::TRIE_TYPE_MASK` | 456 | Exported Function
-`public: static int const icu_53::DictionaryData::TRIE_TYPE_BYTES` | 455 | Exported Function
-`public: signed char __thiscall icu_53::UVector::contains(void *)const ` | 634 | Exported Function
-`public: signed char __thiscall icu_53::UVector::contains(int)const ` | 633 | Exported Function
-`public: signed char __thiscall icu_53::UVector::containsNone(class icu_53::UVector const &)const ` | 643 | Exported Function
-`public: signed char __thiscall icu_53::UVector::containsAll(class icu_53::UVector const &)const ` | 639 | Exported Function
-`public: signed char __thiscall icu_53::UVector64::operator==(class icu_53::UVector64 const &)` | 343 | Exported Function
-`public: signed char __thiscall icu_53::UVector64::expandCapacity(int,enum UErrorCode &)` | 771 | Exported Function
-`public: signed char __thiscall icu_53::UVector64::ensureCapacity(int,enum UErrorCode &)` | 758 | Exported Function
-`public: signed char __thiscall icu_53::UVector64::operator!=(class icu_53::UVector64 const &)` | 359 | Exported Function
-`public: signed char __thiscall icu_53::UVector64::isEmpty(void)const ` | 1224 | Exported Function
-`public: signed char __thiscall icu_53::UVector::ensureCapacity(int,enum UErrorCode &)` | 759 | Exported Function
-`public: signed char __thiscall icu_53::UVector::retainAll(class icu_53::UVector const &)` | 1534 | Exported Function
-`public: signed char __thiscall icu_53::UVector::removeElement(void *)` | 1487 | Exported Function
-`public: static char const * const * __cdecl icu_53::Locale::getISOLanguages(void)` | 952 | Exported Function
-`public: static char const * const * __cdecl icu_53::Locale::getISOCountries(void)` | 951 | Exported Function
-`public: signed char __thiscall icu_53::UVector::removeAll(class icu_53::UVector const &)` | 1479 | Exported Function
-`public: signed char __thiscall icu_53::UVector::isEmpty(void)const ` | 1225 | Exported Function
-`public: signed char __thiscall icu_53::UVector::equals(class icu_53::UVector const &)const ` | 766 | Exported Function
-`public: signed char __thiscall icu_53::UVector::operator==(class icu_53::UVector const &)` | 344 | Exported Function
-`public: signed char __thiscall icu_53::UVector::operator!=(class icu_53::UVector const &)` | 360 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::retainAll(class icu_53::UVector32 const &)` | 1533 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::truncate(int)` | 1680 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::startsWith(wchar_t const *,int,int)const ` | 1651 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::contains(int)const ` | 632 | Exported Function
-`public: signed char __thiscall icu_53::UStack::empty(void)const ` | 743 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::startsWith(wchar_t const *,int)const ` | 1650 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::padTrailing(int,wchar_t)` | 1394 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::padLeading(int,wchar_t)` | 1393 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::startsWith(class icu_53::UnicodeString const &,int,int)const ` | 1649 | Exported Function
-`public: signed char __thiscall icu_53::UnicodeString::startsWith(class icu_53::UnicodeString const &)const ` | 1648 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::containsAll(class icu_53::UVector32 const &)const ` | 638 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::operator!=(class icu_53::UVector32 const &)` | 358 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::isEmpty(void)const ` | 1223 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::removeAll(class icu_53::UVector32 const &)` | 1478 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::operator==(class icu_53::UVector32 const &)` | 342 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::expandCapacity(int,enum UErrorCode &)` | 770 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::empty(void)const ` | 744 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::containsNone(class icu_53::UVector32 const &)const ` | 642 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::equals(class icu_53::UVector32 const &)const ` | 765 | Exported Function
-`public: signed char __thiscall icu_53::UVector32::ensureCapacity(int,enum UErrorCode &)` | 757 | Exported Function
-`public: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::createCharacterInstance(class icu_53::Locale const &,enum UErrorCode &)` | 670 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getKorea(void)` | 971 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getJapanese(void)` | 965 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getPRC(void)` | 1027 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getKorean(void)` | 972 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getJapan(void)` | 964 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getGermany(void)` | 947 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getGerman(void)` | 946 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getItaly(void)` | 963 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getItalian(void)` | 962 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getRoot(void)` | 1042 | Exported Function
-`public: static class icu_53::Locale const * __cdecl icu_53::Locale::getAvailableLocales(int &)` | 846 | Exported Function
-`public: static class icu_53::Locale const * __cdecl icu_53::BreakIterator::getAvailableLocales(int &)` | 844 | Exported Function
-`public: static class icu_53::LocaleKey * __cdecl icu_53::LocaleKey::createWithCanonicalFallback(class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,int,enum UErrorCode &)` | 691 | Exported Function
-`public: static class icu_53::LocaleKey * __cdecl icu_53::LocaleKey::createWithCanonicalFallback(class icu_53::UnicodeString const *,class icu_53::UnicodeString const *,enum UErrorCode &)` | 690 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getUS(void)` | 1108 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getTaiwan(void)` | 1092 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getSimplifiedChinese(void)` | 1049 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getUK(void)` | 1106 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getTraditionalChinese(void)` | 1100 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getFrench(void)` | 944 | Exported Function
-`public: static class icu_53::ListFormatter * __cdecl icu_53::ListFormatter::createInstance(class icu_53::Locale const &,char const *,enum UErrorCode &)` | 678 | Exported Function
-`public: static class icu_53::IDNA * __cdecl icu_53::IDNA::createUTS46Instance(unsigned int,enum UErrorCode &)` | 689 | Exported Function
-`public: static class icu_53::ListFormatter * __cdecl icu_53::ListFormatter::createInstance(enum UErrorCode &)` | 676 | Exported Function
-`public: static class icu_53::ListFormatter * __cdecl icu_53::ListFormatter::createInstance(class icu_53::Locale const &,enum UErrorCode &)` | 677 | Exported Function
-`public: static class icu_53::Hashtable const * __cdecl icu_53::LocaleUtility::getAvailableLocaleNames(class icu_53::UnicodeString const &)` | 842 | Exported Function
-`public: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::createSentenceInstance(class icu_53::Locale const &,enum UErrorCode &)` | 686 | Exported Function
-`public: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::createLineInstance(class icu_53::Locale const &,enum UErrorCode &)` | 683 | Exported Function
-`public: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::createWordInstance(class icu_53::Locale const &,enum UErrorCode &)` | 692 | Exported Function
-`public: static class icu_53::BreakIterator * __cdecl icu_53::BreakIterator::createTitleInstance(class icu_53::Locale const &,enum UErrorCode &)` | 688 | Exported Function
-`public: static class icu_53::Locale & __cdecl icu_53::LocaleUtility::initLocaleFromName(class icu_53::UnicodeString const &,class icu_53::Locale &)` | 1188 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getDefault(void)` | 881 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getChinese(void)` | 869 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getFrance(void)` | 943 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getEnglish(void)` | 933 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getChina(void)` | 868 | Exported Function
-`public: static class icu_53::Locale __cdecl icu_53::Locale::createFromName(char const *)` | 674 | Exported Function
-`public: static class icu_53::Locale __cdecl icu_53::Locale::createCanonical(char const *)` | 669 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getCanadaFrench(void)` | 858 | Exported Function
-`public: static class icu_53::Locale const & __cdecl icu_53::Locale::getCanada(void)` | 857 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::hashCode(void)const ` | 1157 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::closeOver(int)` | 597 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::applyPropertyAlias(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,enum UErrorCode &)` | 534 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::complement(int)` | 617 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::complement(class icu_53::UnicodeString const &)` | 616 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::applyPattern(class icu_53::UnicodeString const &,unsigned int,class icu_53::SymbolTable const *,enum UErrorCode &)` | 532 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::applyIntPropertyValue(enum UProperty,int,enum UErrorCode &)` | 528 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::addAll(class icu_53::UnicodeString const &)` | 474 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::applyPattern(class icu_53::UnicodeString const &,enum UErrorCode &)` | 531 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::applyPattern(class icu_53::UnicodeString const &,class icu_53::ParsePosition &,unsigned int,class icu_53::SymbolTable const *,enum UErrorCode &)` | 530 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::complementAll(class icu_53::UnicodeString const &)` | 620 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::set(int,int)` | 1547 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::retainAll(class icu_53::UnicodeString const &)` | 1535 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::ICUService::getDisplayName(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,class icu_53::Locale const &)const ` | 889 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::ICUService::getDisplayName(class icu_53::UnicodeString const &,class icu_53::UnicodeString &)const ` | 888 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::retain(int)` | 1531 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::remove(class icu_53::UnicodeString const &)` | 1472 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::operator=(class icu_53::UnicodeSet const &)` | 328 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::removeAll(class icu_53::UnicodeString const &)` | 1480 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::remove(int)` | 1473 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::add(int)` | 472 | Exported Function
-`public: class icu_53::UCharsTrie * __thiscall icu_53::UCharsTrieBuilder::build(enum UStringTrieBuildOption,enum UErrorCode &)` | 548 | Exported Function
-`public: class icu_53::UCharsTrie & __thiscall icu_53::UCharsTrie::resetToState(class icu_53::UCharsTrie::State const &)` | 1527 | Exported Function
-`public: class icu_53::UCharsTrie::Iterator & __thiscall icu_53::UCharsTrie::Iterator::operator=(class icu_53::UCharsTrie::Iterator const &)` | 297 | Exported Function
-`public: class icu_53::UCharsTrie const & __thiscall icu_53::UCharsTrie::saveState(class icu_53::UCharsTrie::State &)const ` | 1541 | Exported Function
-`public: class icu_53::UCharsTrie & __thiscall icu_53::UCharsTrie::reset(void)` | 1521 | Exported Function
-`public: class icu_53::SymbolTable & __thiscall icu_53::SymbolTable::operator=(class icu_53::SymbolTable const &)` | 319 | Exported Function
-`public: class icu_53::StringTrieBuilder & __thiscall icu_53::StringTrieBuilder::operator=(class icu_53::StringTrieBuilder const &)` | 318 | Exported Function
-`public: class icu_53::UCharsDictionaryMatcher & __thiscall icu_53::UCharsDictionaryMatcher::operator=(class icu_53::UCharsDictionaryMatcher const &)` | 321 | Exported Function
-`public: class icu_53::UCharCharacterIterator & __thiscall icu_53::UCharCharacterIterator::operator=(class icu_53::UCharCharacterIterator const &)` | 320 | Exported Function
-`public: class icu_53::UCharsTrie::Iterator & __thiscall icu_53::UCharsTrie::Iterator::reset(void)` | 1518 | Exported Function
-`public: class icu_53::UnicodeFunctor * __thiscall icu_53::UnicodeSet::freeze(void)` | 819 | Exported Function
-`public: class icu_53::UnicodeFunctor * __thiscall icu_53::UnicodeSet::cloneAsThawed(void)const ` | 596 | Exported Function
-`public: class icu_53::UnicodeSet & __thiscall icu_53::UnicodeSet::add(class icu_53::UnicodeString const &)` | 471 | Exported Function
-`public: class icu_53::UnicodeMatcher & __thiscall icu_53::UnicodeMatcher::operator=(class icu_53::UnicodeMatcher const &)` | 327 | Exported Function
-`public: class icu_53::UnicodeFunctor & __thiscall icu_53::UnicodeFunctor::operator=(class icu_53::UnicodeFunctor const &)` | 326 | Exported Function
-`public: class icu_53::UCharsTrieBuilder & __thiscall icu_53::UCharsTrieBuilder::clear(void)` | 577 | Exported Function
-`public: class icu_53::UCharsTrieBuilder & __thiscall icu_53::UCharsTrieBuilder::add(class icu_53::UnicodeString const &,int,enum UErrorCode &)` | 469 | Exported Function
-`public: class icu_53::UnicodeFilter & __thiscall icu_53::UnicodeFilter::operator=(class icu_53::UnicodeFilter const &)` | 325 | Exported Function
-`public: class icu_53::UMemory & __thiscall icu_53::UMemory::operator=(class icu_53::UMemory const &)` | 322 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::ICUService::getName(class icu_53::UnicodeString &)const ` | 1012 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::findAndReplace(int,int,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 788 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::findAndReplace(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &)` | 787 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::foldCase(unsigned int)` | 811 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::findAndReplace(int,int,class icu_53::UnicodeString const &,int,int,class icu_53::UnicodeString const &,int,int)` | 789 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::fastCopyFrom(class icu_53::UnicodeString const &)` | 785 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::append(wchar_t const *,int)` | 507 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::append(int)` | 506 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::append(wchar_t)` | 509 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::append(wchar_t const *,int,int)` | 508 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::insert(int,class icu_53::UnicodeString const &)` | 1192 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::operator+=(int)` | 376 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::operator+=(class icu_53::UnicodeString const &)` | 375 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::operator=(class icu_53::UnicodeString const &)` | 329 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::operator+=(wchar_t)` | 377 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::insert(int,wchar_t)` | 1197 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::insert(int,int)` | 1194 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::insert(int,class icu_53::UnicodeString const &,int,int)` | 1193 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::insert(int,wchar_t const *,int,int)` | 1196 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::insert(int,wchar_t const *,int)` | 1195 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::append(class icu_53::UnicodeString const &,int,int)` | 505 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayName(class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 891 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayLanguage(class icu_53::UnicodeString &)const ` | 884 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayScript(class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 898 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayName(class icu_53::UnicodeString &)const ` | 890 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayLanguage(class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 885 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::ListFormatter::format(class icu_53::UnicodeString const * const,int,class icu_53::UnicodeString &,int,int &,enum UErrorCode &)const ` | 814 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::ListFormatter::format(class icu_53::UnicodeString const * const,int,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 813 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayCountry(class icu_53::UnicodeString &)const ` | 882 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayCountry(class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 883 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayScript(class icu_53::UnicodeString &)const ` | 897 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::SimplePatternFormatter::format(class icu_53::UnicodeString const * const *,int,class icu_53::UnicodeString &,int *,int,enum UErrorCode &)const ` | 818 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::SimplePatternFormatter::format(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 815 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::append(class icu_53::UnicodeString const &)` | 504 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UCharsTrieBuilder::buildUnicodeString(enum UStringTrieBuildOption,class icu_53::UnicodeString &,enum UErrorCode &)` | 553 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::SimplePatternFormatter::format(class icu_53::UnicodeString const &,class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 816 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayVariant(class icu_53::UnicodeString &)const ` | 899 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Locale::getDisplayVariant(class icu_53::Locale const &,class icu_53::UnicodeString &)const ` | 900 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::SimplePatternFormatter::format(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 817 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::Normalizer2Impl::decompose(class icu_53::UnicodeString const &,class icu_53::UnicodeString &,enum UErrorCode &)const ` | 709 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::truncate(int)` | 1679 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::copyFrom(class icu_53::CharString const &,enum UErrorCode &)` | 651 | Exported Function
-`public: class icu_53::DictionaryData & __thiscall icu_53::DictionaryData::operator=(class icu_53::DictionaryData const &)` | 286 | Exported Function
-`public: class icu_53::DateInterval & __thiscall icu_53::DateInterval::operator=(class icu_53::DateInterval const &)` | 285 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::clear(void)` | 574 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::append(class icu_53::StringPiece const &,enum UErrorCode &)` | 498 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::append(class icu_53::CharString const &,enum UErrorCode &)` | 497 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::appendPathPart(class icu_53::StringPiece const &,enum UErrorCode &)` | 516 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::appendInvariantChars(class icu_53::UnicodeString const &,enum UErrorCode &)` | 514 | Exported Function
-`public: class icu_53::DictionaryMatcher & __thiscall icu_53::DictionaryMatcher::operator=(class icu_53::DictionaryMatcher const &)` | 287 | Exported Function
-`public: class icu_53::IDNA & __thiscall icu_53::IDNA::operator=(class icu_53::IDNA const &)` | 295 | Exported Function
-`public: class icu_53::ICUServiceFactory & __thiscall icu_53::ICUServiceFactory::operator=(class icu_53::ICUServiceFactory const &)` | 293 | Exported Function
-`public: class icu_53::Locale & __thiscall icu_53::Locale::operator=(class icu_53::Locale const &)` | 299 | Exported Function
-`public: class icu_53::ListFormatter & __thiscall icu_53::ListFormatter::operator=(class icu_53::ListFormatter const &)` | 298 | Exported Function
-`public: class icu_53::ICUNotifier & __thiscall icu_53::ICUNotifier::operator=(class icu_53::ICUNotifier const &)` | 292 | Exported Function
-`public: class icu_53::EventListener & __thiscall icu_53::EventListener::operator=(class icu_53::EventListener const &)` | 289 | Exported Function
-`public: class icu_53::ErrorCode & __thiscall icu_53::ErrorCode::operator=(class icu_53::ErrorCode const &)` | 288 | Exported Function
-`public: class icu_53::ICU_Utility & __thiscall icu_53::ICU_Utility::operator=(class icu_53::ICU_Utility const &)` | 294 | Exported Function
-`public: class icu_53::Hangul & __thiscall icu_53::Hangul::operator=(class icu_53::Hangul const &)` | 291 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::append(char,enum UErrorCode &)` | 499 | Exported Function
-`public: char const * __thiscall icu_53::ResourceBundle::getVersionNumber(void)const ` | 1116 | Exported Function
-`public: char const * __thiscall icu_53::ResourceBundle::getName(void)const ` | 1014 | Exported Function
-`public: class icu_53::Appendable & __thiscall icu_53::Appendable::operator=(class icu_53::Appendable const &)` | 282 | Exported Function
-`public: char const * __thiscall icu_53::StringPiece::data(void)const ` | 706 | Exported Function
-`public: char const * __thiscall icu_53::ResourceBundle::getKey(void)const ` | 969 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getScript(void)const ` | 1048 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getName(void)const ` | 1013 | Exported Function
-`public: char const * __thiscall icu_53::LocaleBased::getLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 991 | Exported Function
-`public: char const * __thiscall icu_53::Locale::getVariant(void)const ` | 1114 | Exported Function
-`public: class icu_53::BytesDictionaryMatcher & __thiscall icu_53::BytesDictionaryMatcher::operator=(class icu_53::BytesDictionaryMatcher const &)` | 283 | Exported Function
-`public: class icu_53::BytesTrieBuilder & __thiscall icu_53::BytesTrieBuilder::add(class icu_53::StringPiece const &,int,enum UErrorCode &)` | 468 | Exported Function
-`public: class icu_53::BytesTrie::Iterator & __thiscall icu_53::BytesTrie::Iterator::reset(void)` | 1517 | Exported Function
-`public: class icu_53::CharString & __thiscall icu_53::CharString::append(char const *,int,enum UErrorCode &)` | 500 | Exported Function
-`public: class icu_53::BytesTrieBuilder & __thiscall icu_53::BytesTrieBuilder::clear(void)` | 573 | Exported Function
-`public: class icu_53::BytesTrie::Iterator & __thiscall icu_53::BytesTrie::Iterator::operator=(class icu_53::BytesTrie::Iterator const &)` | 296 | Exported Function
-`public: class icu_53::BytesTrie & __thiscall icu_53::BytesTrie::resetToState(class icu_53::BytesTrie::State const &)` | 1526 | Exported Function
-`public: class icu_53::BytesTrie & __thiscall icu_53::BytesTrie::reset(void)` | 1512 | Exported Function
-`public: class icu_53::BytesTrie const & __thiscall icu_53::BytesTrie::saveState(class icu_53::BytesTrie::State &)const ` | 1540 | Exported Function
-`public: class icu_53::BytesTrie * __thiscall icu_53::BytesTrieBuilder::build(enum UStringTrieBuildOption,enum UErrorCode &)` | 546 | Exported Function
-`public: class icu_53::Locale * __thiscall icu_53::Locale::clone(void)const ` | 584 | Exported Function
-`public: class icu_53::ResourceBundle __thiscall icu_53::ResourceBundle::getWithFallback(char const *,enum UErrorCode &)` | 1120 | Exported Function
-`public: class icu_53::ResourceBundle __thiscall icu_53::ResourceBundle::getNext(enum UErrorCode &)` | 1015 | Exported Function
-`public: class icu_53::ServiceListener & __thiscall icu_53::ServiceListener::operator=(class icu_53::ServiceListener const &)` | 312 | Exported Function
-`public: class icu_53::RuleBasedBreakIterator & __thiscall icu_53::RuleBasedBreakIterator::operator=(class icu_53::RuleBasedBreakIterator const &)` | 311 | Exported Function
-`public: class icu_53::ResourceBundle __thiscall icu_53::ResourceBundle::get(int,enum UErrorCode &)const ` | 832 | Exported Function
-`public: class icu_53::ResourceBundle & __thiscall icu_53::ResourceBundle::operator=(class icu_53::ResourceBundle const &)` | 310 | Exported Function
-`public: class icu_53::Replaceable & __thiscall icu_53::Replaceable::operator=(class icu_53::Replaceable const &)` | 309 | Exported Function
-`public: class icu_53::ResourceBundle __thiscall icu_53::ResourceBundle::get(char const *,enum UErrorCode &)const ` | 833 | Exported Function
-`public: class icu_53::ResourceBundle * __thiscall icu_53::ResourceBundle::clone(void)const ` | 588 | Exported Function
-`public: class icu_53::SharedObject & __thiscall icu_53::SharedObject::operator=(class icu_53::SharedObject const &)` | 313 | Exported Function
-`public: class icu_53::StringPiece __thiscall icu_53::CharString::toStringPiece(void)const ` | 1665 | Exported Function
-`public: class icu_53::StringPiece __thiscall icu_53::BytesTrieBuilder::buildStringPiece(enum UStringTrieBuildOption,enum UErrorCode &)` | 551 | Exported Function
-`public: class icu_53::StringPiece const & __thiscall icu_53::BytesTrie::Iterator::getString(void)const ` | 1081 | Exported Function
-`public: class icu_53::StringPiece __thiscall icu_53::StringPiece::substr(int,int)const ` | 1654 | Exported Function
-`public: class icu_53::StringPiece & __thiscall icu_53::StringPiece::operator=(class icu_53::StringPiece const &)` | 317 | Exported Function
-`public: class icu_53::StringCharacterIterator & __thiscall icu_53::StringCharacterIterator::operator=(class icu_53::StringCharacterIterator const &)` | 315 | Exported Function
-`public: class icu_53::SimplePatternFormatter & __thiscall icu_53::SimplePatternFormatter::operator=(class icu_53::SimplePatternFormatter const &)` | 314 | Exported Function
-`public: class icu_53::StringEnumeration * __thiscall icu_53::Locale::createKeywords(enum UErrorCode &)const ` | 682 | Exported Function
-`public: class icu_53::StringEnumeration & __thiscall icu_53::StringEnumeration::operator=(class icu_53::StringEnumeration const &)` | 316 | Exported Function
-`public: class icu_53::PatternProps & __thiscall icu_53::PatternProps::operator=(class icu_53::PatternProps const &)` | 308 | Exported Function
-`public: class icu_53::MessageImpl & __thiscall icu_53::MessageImpl::operator=(class icu_53::MessageImpl const &)` | 302 | Exported Function
-`public: class icu_53::LocaleUtility & __thiscall icu_53::LocaleUtility::operator=(class icu_53::LocaleUtility const &)` | 301 | Exported Function
-`public: class icu_53::MessagePattern & __thiscall icu_53::MessagePattern::parse(class icu_53::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1395 | Exported Function
-`public: class icu_53::MessagePattern & __thiscall icu_53::MessagePattern::operator=(class icu_53::MessagePattern const &)` | 303 | Exported Function
-`public: class icu_53::LocaleBased & __thiscall icu_53::LocaleBased::operator=(class icu_53::LocaleBased const &)` | 300 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::LocaleBased::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 986 | Exported Function
-`public: class icu_53::Locale __thiscall icu_53::BreakIterator::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 984 | Exported Function
-`public: class icu_53::Locale const __thiscall icu_53::ResourceBundle::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 987 | Exported Function
-`public: class icu_53::Locale const & __thiscall icu_53::ResourceBundle::getLocale(void)const ` | 988 | Exported Function
-`public: class icu_53::MessagePattern & __thiscall icu_53::MessagePattern::parseChoiceStyle(class icu_53::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1401 | Exported Function
-`public: class icu_53::Normalizer2Impl & __thiscall icu_53::Normalizer2Impl::operator=(class icu_53::Normalizer2Impl const &)` | 306 | Exported Function
-`public: class icu_53::Normalizer2Factory & __thiscall icu_53::Normalizer2Factory::operator=(class icu_53::Normalizer2Factory const &)` | 305 | Exported Function
-`public: class icu_53::ParsePosition * __thiscall icu_53::ParsePosition::clone(void)const ` | 586 | Exported Function
-`public: class icu_53::ParsePosition & __thiscall icu_53::ParsePosition::operator=(class icu_53::ParsePosition const &)` | 307 | Exported Function
-`public: class icu_53::Normalizer2 & __thiscall icu_53::Normalizer2::operator=(class icu_53::Normalizer2 const &)` | 304 | Exported Function
-`public: class icu_53::MessagePattern & __thiscall icu_53::MessagePattern::parseSelectStyle(class icu_53::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1411 | Exported Function
-`public: class icu_53::MessagePattern & __thiscall icu_53::MessagePattern::parsePluralStyle(class icu_53::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1409 | Exported Function
-`public: class icu_53::Normalizer * __thiscall icu_53::Normalizer::clone(void)const ` | 585 | Exported Function
-`public: class icu_53::MessagePattern::Part const & __thiscall icu_53::MessagePattern::getPart(int)const ` | 1028 | Exported Function
-`public: int __thiscall icu_53::Locale::getKeywordValue(char const *,char *,int,enum UErrorCode &)const ` | 970 | Exported Function
-`public: int __thiscall icu_53::Hashtable::removei(class icu_53::UnicodeString const &)` | 1496 | Exported Function
-`public: int __thiscall icu_53::MaybeStackArray<char,40>::getCapacity(void)const ` | 862 | Exported Function
-`public: int __thiscall icu_53::Locale::hashCode(void)const ` | 1151 | Exported Function
-`public: int __thiscall icu_53::Hashtable::puti(class icu_53::UnicodeString const &,int,enum UErrorCode &)` | 1445 | Exported Function
-`public: int __thiscall icu_53::FullCaseFoldingIterator::next(class icu_53::UnicodeString &)` | 1362 | Exported Function
-`public: int __thiscall icu_53::CheckedArrayByteSink::NumberOfBytesWritten(void)const ` | 446 | Exported Function
-`public: int __thiscall icu_53::Hashtable::geti(class icu_53::UnicodeString const &)const ` | 1121 | Exported Function
-`public: int __thiscall icu_53::Hashtable::count(void)const ` | 656 | Exported Function
-`public: int __thiscall icu_53::MessagePattern::countParts(void)const ` | 662 | Exported Function
-`public: int __thiscall icu_53::Normalizer::first(void)` | 803 | Exported Function
-`public: int __thiscall icu_53::Normalizer::endIndex(void)const ` | 746 | Exported Function
-`public: int __thiscall icu_53::Normalizer::hashCode(void)const ` | 1153 | Exported Function
-`public: int __thiscall icu_53::Normalizer::getIndex(void)const ` | 956 | Exported Function
-`public: int __thiscall icu_53::Normalizer::current(void)` | 695 | Exported Function
-`public: int __thiscall icu_53::MessagePattern::getPatternIndex(int)const ` | 1030 | Exported Function
-`public: int __thiscall icu_53::MessagePattern::getLimitPartIndex(int)const ` | 982 | Exported Function
-`public: int __thiscall icu_53::Normalizer2Impl::composePair(int,int)const ` | 627 | Exported Function
-`public: int __thiscall icu_53::MessagePattern::hashCode(void)const ` | 1152 | Exported Function
-`public: int __thiscall icu_53::CheckedArrayByteSink::NumberOfBytesAppended(void)const ` | 445 | Exported Function
-`public: int * __thiscall icu_53::UVector32::getBuffer(void)const ` | 850 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::UCharsTrie::nextForCodePoint(int)` | 1376 | Exported Function
-`public: int * __thiscall icu_53::UVector32::reserveBlock(int,enum UErrorCode &)` | 1510 | Exported Function
-`public: int * __thiscall icu_53::UVector32::popFrame(int)` | 1423 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::UCharsTrie::next(wchar_t const *,int)` | 1371 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::UCharsTrie::first(int)` | 806 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::UCharsTrie::current(void)const ` | 698 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::UCharsTrie::next(int)` | 1370 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::UCharsTrie::firstForCodePoint(int)` | 808 | Exported Function
-`public: int __thiscall icu_53::BytesTrie::getNextBytes(class icu_53::ByteSink &)const ` | 1018 | Exported Function
-`public: int __thiscall icu_53::CharacterIterator::setToStart(void)` | 1604 | Exported Function
-`public: int __thiscall icu_53::CharacterIterator::setToEnd(void)` | 1603 | Exported Function
-`public: int __thiscall icu_53::CharString::length(void)const ` | 1328 | Exported Function
-`public: int __thiscall icu_53::CharacterIterator::startIndex(void)const ` | 1646 | Exported Function
-`public: int __thiscall icu_53::CharacterIterator::getLength(void)const ` | 977 | Exported Function
-`public: int __thiscall icu_53::BytesTrie::Iterator::getValue(void)const ` | 1111 | Exported Function
-`public: int __thiscall icu_53::BytesTrie::getValue(void)const ` | 1110 | Exported Function
-`public: int __thiscall icu_53::CharacterIterator::getIndex(void)const ` | 955 | Exported Function
-`public: int __thiscall icu_53::CharacterIterator::endIndex(void)const ` | 745 | Exported Function
-`public: int __thiscall icu_53::Normalizer::last(void)` | 1308 | Exported Function
-`public: int __thiscall icu_53::UnicodeSetIterator::getCodepoint(void)const ` | 870 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::spanUTF8(char const *,int,enum USetSpanCondition)const ` | 1645 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::char32At(int)const ` | 567 | Exported Function
-`public: int __thiscall icu_53::UnicodeSetIterator::getCodepointEnd(void)const ` | 871 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::spanBackUTF8(char const *,int,enum USetSpanCondition)const ` | 1643 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::span(wchar_t const *,int,enum USetSpanCondition)const ` | 1640 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::span(class icu_53::UnicodeString const &,int,enum USetSpanCondition)const ` | 1639 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::spanBack(wchar_t const *,int,enum USetSpanCondition)const ` | 1642 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::spanBack(class icu_53::UnicodeString const &,int,enum USetSpanCondition)const ` | 1641 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::countChar32(int,int)const ` | 658 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::getCapacity(void)const ` | 863 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::extract(wchar_t *,int,enum UErrorCode &)const ` | 778 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::getChar32Start(int)const ` | 866 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::getChar32Limit(int)const ` | 865 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::extract(int,int,char *,unsigned int,char const *)const ` | 775 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::extract(int,int,char *,char const *)const ` | 776 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::extract(char *,int,struct UConverter *,enum UErrorCode &)const ` | 777 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::extract(int,int,char *,unsigned int)const ` | 774 | Exported Function
-`public: int __thiscall icu_53::UnicodeString::extract(int,int,char *,int,enum icu_53::UnicodeString::EInvariant)const ` | 773 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::serialize(unsigned short *,int,enum UErrorCode &)const ` | 1543 | Exported Function
-`public: int __thiscall icu_53::Replaceable::char32At(int)const ` | 566 | Exported Function
-`public: int __thiscall icu_53::ReorderingBuffer::length(void)const ` | 1329 | Exported Function
-`public: int __thiscall icu_53::ResourceBundle::getInt(enum UErrorCode &)const ` | 960 | Exported Function
-`public: int __thiscall icu_53::Replaceable::length(void)const ` | 1330 | Exported Function
-`public: int __thiscall icu_53::ParsePosition::getIndex(void)const ` | 957 | Exported Function
-`public: int __thiscall icu_53::Normalizer::previous(void)` | 1434 | Exported Function
-`public: int __thiscall icu_53::Normalizer::next(void)` | 1365 | Exported Function
-`public: int __thiscall icu_53::ParsePosition::getErrorIndex(void)const ` | 936 | Exported Function
-`public: int __thiscall icu_53::Normalizer::startIndex(void)const ` | 1647 | Exported Function
-`public: int __thiscall icu_53::ResourceBundle::getSize(void)const ` | 1051 | Exported Function
-`public: int __thiscall icu_53::UCharsTrie::Iterator::getValue(void)const ` | 1112 | Exported Function
-`public: int __thiscall icu_53::UCharsTrie::getValue(void)const ` | 1113 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::indexOf(int)const ` | 1165 | Exported Function
-`public: int __thiscall icu_53::UnicodeSet::charAt(int)const ` | 569 | Exported Function
-`public: int __thiscall icu_53::UCharsTrie::getNextUChars(class icu_53::Appendable &)const ` | 1021 | Exported Function
-`public: int __thiscall icu_53::SimplePatternFormatter::getPlaceholderCount(void)const ` | 1032 | Exported Function
-`public: int __thiscall icu_53::SharedObject::getRefCount(void)const ` | 1041 | Exported Function
-`public: int __thiscall icu_53::StringPiece::size(void)const ` | 1609 | Exported Function
-`public: int __thiscall icu_53::StringPiece::length(void)const ` | 1331 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toLower(void)` | 1660 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toLower(class icu_53::Locale const &)` | 1659 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toTitle(class icu_53::BreakIterator *,class icu_53::Locale const &)` | 1667 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toTitle(class icu_53::BreakIterator *)` | 1666 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(wchar_t)` | 1598 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(signed char,wchar_t const *,int)` | 1594 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(int)` | 1595 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(wchar_t const *,int)` | 1597 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(wchar_t *,int,int)` | 1596 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toTitle(class icu_53::BreakIterator *,class icu_53::Locale const &,unsigned int)` | 1668 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::MessagePattern::getSubstring(class icu_53::MessagePattern::Part const &)const ` | 1089 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::MessagePattern::autoQuoteApostropheDeep(void)const ` | 541 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::ResourceBundle::getNextString(char const * *,enum UErrorCode &)` | 1020 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::Normalizer2::normalize(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 1384 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::CanonicalIterator::next(void)` | 1361 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toUpper(void)` | 1675 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::toUpper(class icu_53::Locale const &)` | 1674 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::CanonicalIterator::getSource(void)` | 1052 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::trim(void)` | 1677 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(class icu_53::UnicodeString const &,int,int)` | 1593 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replace(int,int,class icu_53::UnicodeString const &,int,int)` | 1498 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replace(int,int,class icu_53::UnicodeString const &)` | 1497 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replace(int,int,wchar_t const *,int)` | 1500 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replace(int,int,int)` | 1499 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::removeBetween(int,int)` | 1486 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::operator=(wchar_t)` | 331 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::operator=(int)` | 330 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::remove(void)` | 1476 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::remove(int,int)` | 1475 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replace(int,int,wchar_t const *,int,int)` | 1501 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setCharAt(int,wchar_t)` | 1550 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::reverse(void)` | 1539 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(class icu_53::UnicodeString const &,int)` | 1592 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::setTo(class icu_53::UnicodeString const &)` | 1591 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::reverse(int,int)` | 1538 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replaceBetween(int,int,class icu_53::UnicodeString const &)` | 1503 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replace(int,int,wchar_t)` | 1502 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::retainBetween(int,int)` | 1537 | Exported Function
-`public: class icu_53::UnicodeString & __thiscall icu_53::UnicodeString::replaceBetween(int,int,class icu_53::UnicodeString const &,int,int)` | 1504 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::ResourceBundle::getNextString(enum UErrorCode &)` | 1019 | Exported Function
-`public: double __thiscall icu_53::MessagePattern::getNumericValue(class icu_53::MessagePattern::Part const &)const ` | 1025 | Exported Function
-`public: double __thiscall icu_53::DateInterval::getToDate(void)const ` | 1099 | Exported Function
-`public: enum UErrorCode __thiscall icu_53::ErrorCode::get(void)const ` | 824 | Exported Function
-`public: double __thiscall icu_53::MessagePattern::getPluralOffset(int)const ` | 1033 | Exported Function
-`public: double __thiscall icu_53::DateInterval::getFromDate(void)const ` | 945 | Exported Function
-`public: class icu_53::UVector & __thiscall icu_53::ICUService::getDisplayNames(class icu_53::UVector &,enum UErrorCode &)const ` | 894 | Exported Function
-`public: class icu_53::UVector & __thiscall icu_53::ICUService::getDisplayNames(class icu_53::UVector &,class icu_53::Locale const &,enum UErrorCode &)const ` | 895 | Exported Function
-`public: class icu_53::UVector & __thiscall icu_53::ICUService::getVisibleIDs(class icu_53::UVector &,enum UErrorCode &)const ` | 1118 | Exported Function
-`public: class icu_53::UVector & __thiscall icu_53::ICUService::getVisibleIDs(class icu_53::UVector &,class icu_53::UnicodeString const *,enum UErrorCode &)const ` | 1119 | Exported Function
-`public: enum UErrorCode __thiscall icu_53::ErrorCode::reset(void)` | 1514 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::BytesTrie::first(int)` | 802 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::BytesTrie::current(void)const ` | 694 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::BytesTrie::next(int)` | 1359 | Exported Function
-`public: enum UStringTrieResult __thiscall icu_53::BytesTrie::next(char const *,int)` | 1360 | Exported Function
-`public: enum UResType __thiscall icu_53::ResourceBundle::getType(void)const ` | 1103 | Exported Function
-`public: enum UMessagePatternPartType __thiscall icu_53::MessagePattern::getPartType(int)const ` | 1029 | Exported Function
-`public: enum UMessagePatternApostropheMode __thiscall icu_53::MessagePattern::getApostropheMode(void)const ` | 835 | Exported Function
-`public: enum UNormalizationMode __thiscall icu_53::Normalizer::getUMode(void)const ` | 1107 | Exported Function
-`public: enum UNormalizationCheckResult __thiscall icu_53::Normalizer2Impl::getCompQuickCheck(unsigned short)const ` | 874 | Exported Function
-`public: class icu_53::UVector & __thiscall icu_53::ICUService::getDisplayNames(class icu_53::UVector &,class icu_53::Locale const &,class icu_53::UnicodeString const *,enum UErrorCode &)const ` | 896 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::MessagePattern::getPatternString(void)const ` | 1031 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::UnicodeString::unescape(void)const ` | 1686 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::UnicodeSetIterator::getString(void)` | 1085 | Exported Function
-`public: class icu_53::UnicodeString const & __thiscall icu_53::UCharsTrie::Iterator::getString(void)const ` | 1082 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::UnicodeString::tempSubStringBetween(int,int)const ` | 1657 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::ResourceBundle::getStringEx(char const *,enum UErrorCode &)const ` | 1088 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::ResourceBundle::getString(enum UErrorCode &)const ` | 1083 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::UnicodeString::tempSubString(int,int)const ` | 1656 | Exported Function
-`public: class icu_53::UnicodeString __thiscall icu_53::ResourceBundle::getStringEx(int,enum UErrorCode &)const ` | 1087 | Exported Function
-`public: class icu_53::UObject & __thiscall icu_53::UObject::operator=(class icu_53::UObject const &)` | 323 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICUService::getKey(class icu_53::ICUServiceKey &,class icu_53::UnicodeString *,class icu_53::ICUServiceFactory const *,enum UErrorCode &)const ` | 967 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICUService::get(class icu_53::UnicodeString const &,enum UErrorCode &)const ` | 830 | Exported Function
-`public: class icu_53::UStringEnumeration & __thiscall icu_53::UStringEnumeration::operator=(class icu_53::UStringEnumeration const &)` | 324 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICUService::getKey(class icu_53::ICUServiceKey &,enum UErrorCode &)const ` | 966 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICUService::get(class icu_53::UnicodeString const &,class icu_53::UnicodeString *,enum UErrorCode &)const ` | 831 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICULocaleService::get(class icu_53::Locale const &,enum UErrorCode &)const ` | 826 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICULocaleService::get(class icu_53::Locale const &,class icu_53::Locale *,enum UErrorCode &)const ` | 829 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICULocaleService::get(class icu_53::Locale const &,int,enum UErrorCode &)const ` | 827 | Exported Function
-`public: class icu_53::UObject * __thiscall icu_53::ICULocaleService::get(class icu_53::Locale const &,int,class icu_53::Locale *,enum UErrorCode &)const ` | 828 | Exported Function
+`MaybeStackArray` | 348 | Exported Function
+`ParsePosition` | 535 | Exported Function
+`_get` | 462 | Exported Function
+`UnicodeString` | 1382 | Exported Function
+`getCanonStartSet` | 859 | Exported Function
+`init` | 1183 | Exported Function
+`Hashtable` | 772 | Exported Function
+`MaybeStackArray` | 332 | Exported Function
+`getLanguageBreakEngine` | 975 | Exported Function
+`Hashtable` | 934 | Exported Function
+`UVector32` | 426 | Exported Function
+`UCharsTrieBuilder` | 422 | Exported Function
+`UCharsDictionaryMatcher` | 421 | Exported Function
+`UnicodeMatcher` | 430 | Exported Function
+`UnicodeFunctor` | 429 | Exported Function
+`UCharCharacterIterator` | 420 | Exported Function
+`StringEnumeration` | 417 | Exported Function
+`StringCharacterIterator` | 416 | Exported Function
+`SymbolTable` | 419 | Exported Function
+`StringTrieBuilder` | 418 | Exported Function
+`UnicodeFunctor` | 431 | Exported Function
+`UObject` | 423 | Exported Function
+`UnicodeStringAppendable` | 437 | Exported Function
+`UStringEnumeration` | 425 | Exported Function
+`UStack` | 424 | Exported Function
+`UnicodeString` | 436 | Exported Function
+`UnicodeFunctor` | 433 | Exported Function
+`UnicodeMatcher` | 432 | Exported Function
+`UnicodeSetIterator` | 435 | Exported Function
+`UnicodeMatcher` | 434 | Exported Function
+`write` | 1700 | Exported Function
+`skipElementsBySomeUnits` | 1617 | Exported Function
+`writeElementUnits` | 1707 | Exported Function
+`writeDeltaTo` | 1705 | Exported Function
+`indexOfElementWithNextUnit` | 1179 | Exported Function
+`getMaxBranchLinearSubNodeLength` | 993 | Exported Function
+`getLimitOfLinearMatch` | 980 | Exported Function
+`getMinLinearMatch` | 997 | Exported Function
+`getMaxLinearMatchLength` | 995 | Exported Function
+`writeValueAndFinal` | 1710 | Exported Function
+`getMaxLinearMatchLength` | 996 | Exported Function
+`getMaxBranchLinearSubNodeLength` | 994 | Exported Function
+`indexOfElementWithNextUnit` | 1180 | Exported Function
+`getMinLinearMatch` | 998 | Exported Function
+`getLimitOfLinearMatch` | 981 | Exported Function
+`countElementUnits` | 660 | Exported Function
+`writeValueAndType` | 1712 | Exported Function
+`getElementValue` | 932 | Exported Function
+`getElementStringLength` | 928 | Exported Function
+`getElementValue` | 931 | Exported Function
+`skipValue` | 1626 | Exported Function
+`skipValue` | 1625 | Exported Function
+`getTrailCCFromCompYesAndZeroCC` | 1101 | Exported Function
+`getCCFromNoNo` | 855 | Exported Function
+`skipNodeValue` | 1621 | Exported Function
+`findUniqueValueFromBranch` | 798 | Exported Function
+`UnicodeString` | 460 | Exported Function
+`skipDelta` | 1615 | Exported Function
+`jumpByDelta` | 1263 | Exported Function
+`previousCC` | 1437 | Exported Function
+`Node` | 685 | Exported Function
+`Node` | 684 | Exported Function
+`getElementStringLength` | 927 | Exported Function
+`countElementUnits` | 659 | Exported Function
+`getMapping` | 992 | Exported Function
+`getCompositionsList` | 875 | Exported Function
+`branchNext` | 543 | Exported Function
+`getCompositionsListForDecompYes` | 877 | Exported Function
+`getCompositionsListForComposite` | 876 | Exported Function
+`skipElementsBySomeUnits` | 1618 | Exported Function
+`UnicodeSet` | 478 | Exported Function
+`setParseError` | 1577 | Exported Function
+`clearBuffer` | 579 | Exported Function
+`ReorderingBuffer` | 1453 | Exported Function
+`UnicodeString` | 1429 | Exported Function
+`addPart` | 487 | Exported Function
+`addLimitPart` | 484 | Exported Function
+`postParse` | 1428 | Exported Function
+`parseDouble` | 1402 | Exported Function
+`init` | 1185 | Exported Function
+`buildUChars` | 552 | Exported Function
+`stop` | 1653 | Exported Function
+`add` | 470 | Exported Function
+`UnicodeString` | 458 | Exported Function
+`makeRuleStatusValid` | 1341 | Exported Function
+`setIterator` | 1566 | Exported Function
+`insert` | 1191 | Exported Function
+`Locale` | 630 | Exported Function
+`skipPrevious` | 1622 | Exported Function
+`addArgDoublePart` | 476 | Exported Function
+`matchNodesCanHaveValues` | 1344 | Exported Function
+`matchNodesCanHaveValues` | 1343 | Exported Function
+`getElementUnit` | 929 | Exported Function
+`matchesIndexValue` | 1350 | Exported Function
+`writeValueAndType` | 1713 | Exported Function
+`writeDeltaTo` | 1706 | Exported Function
+`write` | 1702 | Exported Function
+`writeValueAndFinal` | 1711 | Exported Function
+`writeElementUnits` | 1708 | Exported Function
+`getElementUnit` | 930 | Exported Function
+`CacheEntry` | 1354 | Exported Function
+`CacheEntry` | 1182 | Exported Function
+`releaseArray` | 1466 | Exported Function
+`MaybeStackArray` | 281 | Exported Function
+`reset` | 1516 | Exported Function
+`buildBytes` | 549 | Exported Function
+`stop` | 1652 | Exported Function
+`init` | 1181 | Exported Function
+`cleanPieces` | 572 | Exported Function
+`kMaxOneByteDelta` | 1273 | Exported Function
+`kMaxLinearMatchLength` | 1271 | Exported Function
+`kMaxThreeByteDelta` | 1279 | Exported Function
+`kMaxOneByteValue` | 1274 | Exported Function
+`kMaxBranchLinearSubNodeLength` | 1268 | Exported Function
+`kFiveByteValueLead` | 1265 | Exported Function
+`kFiveByteDeltaLead` | 1264 | Exported Function
+`kFourByteValueLead` | 1267 | Exported Function
+`kFourByteDeltaLead` | 1266 | Exported Function
+`kMaxThreeByteValue` | 1280 | Exported Function
+`kMinTwoByteDeltaLead` | 1291 | Exported Function
+`kMinThreeByteValueLead` | 1290 | Exported Function
+`kMinValueLead` | 1296 | Exported Function
+`kMinTwoByteValueLead` | 1292 | Exported Function
+`kMinThreeByteDeltaLead` | 1289 | Exported Function
+`kMaxTwoByteValue` | 1282 | Exported Function
+`kMaxTwoByteDelta` | 1281 | Exported Function
+`kMinOneByteValueLead` | 1288 | Exported Function
+`kMinLinearMatch` | 1286 | Exported Function
+`UnicodeString` | 1345 | Exported Function
+`Locale` | 675 | Exported Function
+`Locale` | 550 | Exported Function
+`getLocaleCache` | 989 | Exported Function
+`Locale` | 1339 | Exported Function
+`isWritable` | 1260 | Exported Function
+`doCompareCodePointOrder` | 725 | Exported Function
+`UnicodeString` | 724 | Exported Function
+`isBufferWritable` | 1211 | Exported Function
+`UnicodeString` | 726 | Exported Function
+`getLocale` | 985 | Exported Function
+`readNodeValue` | 1450 | Exported Function
+`combine` | 598 | Exported Function
+`UnicodeString` | 1050 | Exported Function
+`readValue` | 1452 | Exported Function
+`UnicodeString` | 1398 | Exported Function
+`valueResult` | 1697 | Exported Function
+`getInclusions` | 954 | Exported Function
+`readValue` | 1451 | Exported Function
+`valueResult` | 1698 | Exported Function
+`kValueIsFinal` | 1302 | Exported Function
+`UnicodeString` | 1507 | Exported Function
+`RuleCharacterIterator` | 1506 | Exported Function
+`findUniqueValueFromBranch` | 797 | Exported Function
+`Locale` | 983 | Exported Function
+`findUniqueValue` | 796 | Exported Function
+`isInert` | 1239 | Exported Function
+`isAcceptable` | 1202 | Exported Function
+`isJamoVT` | 1243 | Exported Function
+`isJamoL` | 1241 | Exported Function
+`jumpByDelta` | 1262 | Exported Function
+`writeCodePoint` | 1704 | Exported Function
+`initializeHash` | 1190 | Exported Function
+`UnicodeString` | 459 | Exported Function
+`Appendable` | 1017 | Exported Function
+`ByteSink` | 1016 | Exported Function
+`skipValue` | 1623 | Exported Function
+`skipDelta` | 1614 | Exported Function
+`ByteSink` | 496 | Exported Function
+`skipValue` | 1624 | Exported Function
+`isArgTypeChar` | 1204 | Exported Function
+`kMaxTwoUnitNodeValue` | 1284 | Exported Function
+`kMaxTwoUnitDelta` | 1283 | Exported Function
+`kMinLinearMatch` | 1287 | Exported Function
+`kMaxTwoUnitValue` | 1285 | Exported Function
+`kMaxOneUnitValue` | 1277 | Exported Function
+`kMaxLinearMatchLength` | 1272 | Exported Function
+`kMaxBranchLinearSubNodeLength` | 1270 | Exported Function
+`kMaxOneUnitNodeValue` | 1276 | Exported Function
+`kMaxOneUnitDelta` | 1275 | Exported Function
+`kMinTwoUnitDeltaLead` | 1293 | Exported Function
+`kThreeUnitValueLead` | 1301 | Exported Function
+`kThreeUnitNodeValueLead` | 1300 | Exported Function
+`findUniqueValue` | 795 | Exported Function
+`kValueIsFinal` | 1303 | Exported Function
+`kThreeUnitDeltaLead` | 1299 | Exported Function
+`kMinTwoUnitValueLead` | 1295 | Exported Function
+`kMinTwoUnitNodeValueLead` | 1294 | Exported Function
+`kNodeTypeMask` | 1298 | Exported Function
+`kMinValueLead` | 1297 | Exported Function
+`getLanguage` | 974 | Exported Function
+`isBogus` | 1206 | Exported Function
+`UnicodeString` | 615 | Exported Function
+`hasUniqueValue` | 1150 | Exported Function
+`empty` | 742 | Exported Function
+`BreakIterator` | 356 | Exported Function
+`init` | 1186 | Exported Function
+`equals` | 764 | Exported Function
+`hasNext` | 1145 | Exported Function
+`isEmpty` | 1222 | Exported Function
+`hasNext` | 1144 | Exported Function
+`UnicodeSet` | 647 | Exported Function
+`containsNone` | 646 | Exported Function
+`containsSome` | 649 | Exported Function
+`UnicodeString` | 648 | Exported Function
+`UnicodeString` | 645 | Exported Function
+`UnicodeString` | 635 | Exported Function
+`next` | 1364 | Exported Function
+`UnicodeSet` | 644 | Exported Function
+`UnicodeString` | 640 | Exported Function
+`appendZeroCC` | 526 | Exported Function
+`isDecompInert` | 1216 | Exported Function
+`isCompNo` | 1214 | Exported Function
+`isFCDInert` | 1228 | Exported Function
+`isDecompYes` | 1218 | Exported Function
+`isCanonSegmentStarter` | 1212 | Exported Function
+`hasFCDBoundaryAfter` | 1137 | Exported Function
+`hasDecompBoundary` | 1135 | Exported Function
+`isAlgorithmicNoNo` | 1203 | Exported Function
+`hasFCDBoundaryBefore` | 1138 | Exported Function
+`singleLeadMightHaveNonZeroFCD16` | 1608 | Exported Function
+`append` | 503 | Exported Function
+`append` | 502 | Exported Function
+`appendZeroCC` | 525 | Exported Function
+`appendBMP` | 510 | Exported Function
+`ParsePosition` | 337 | Exported Function
+`Normalizer` | 354 | Exported Function
+`getOption` | 1026 | Exported Function
+`ParsePosition` | 355 | Exported Function
+`Normalizer` | 336 | Exported Function
+`isBogus` | 1207 | Exported Function
+`UnicodeString` | 747 | Exported Function
+`UnicodeString` | 614 | Exported Function
+`endsWith` | 749 | Exported Function
+`UnicodeString` | 748 | Exported Function
+`compareCodePointOrder` | 613 | Exported Function
+`UnicodeString` | 610 | Exported Function
+`UnicodeString` | 609 | Exported Function
+`compareCodePointOrder` | 612 | Exported Function
+`compareCodePointOrder` | 611 | Exported Function
+`endsWith` | 750 | Exported Function
+`UnicodeString` | 346 | Exported Function
+`UnicodeString` | 372 | Exported Function
+`UnicodeString` | 374 | Exported Function
+`UnicodeString` | 373 | Exported Function
+`UnicodeString` | 371 | Exported Function
+`isBogus` | 1208 | Exported Function
+`hasMoreChar32Than` | 1141 | Exported Function
+`UnicodeString` | 362 | Exported Function
+`isEmpty` | 1227 | Exported Function
+`UnicodeString` | 608 | Exported Function
+`UnicodeString` | 559 | Exported Function
+`UnicodeString` | 558 | Exported Function
+`caseCompare` | 561 | Exported Function
+`UnicodeString` | 560 | Exported Function
+`nextRange` | 1381 | Exported Function
+`UnicodeSet` | 361 | Exported Function
+`isFrozen` | 1233 | Exported Function
+`next` | 1373 | Exported Function
+`isString` | 1253 | Exported Function
+`caseCompare` | 562 | Exported Function
+`compare` | 605 | Exported Function
+`compare` | 604 | Exported Function
+`UnicodeString` | 607 | Exported Function
+`compare` | 606 | Exported Function
+`UnicodeString` | 603 | Exported Function
+`UnicodeString` | 564 | Exported Function
+`caseCompare` | 563 | Exported Function
+`UnicodeString` | 602 | Exported Function
+`UnicodeString` | 601 | Exported Function
+`length` | 1332 | Exported Function
+`lastIndexOf` | 1327 | Exported Function
+`toUTF32` | 1671 | Exported Function
+`moveIndex32` | 1353 | Exported Function
+`lastIndexOf` | 1326 | Exported Function
+`lastIndexOf` | 1323 | Exported Function
+`lastIndexOf` | 1322 | Exported Function
+`lastIndexOf` | 1325 | Exported Function
+`lastIndexOf` | 1324 | Exported Function
+`unescapeAt` | 1687 | Exported Function
+`lastElementi` | 1312 | Exported Function
+`indexOf` | 1161 | Exported Function
+`popi` | 1426 | Exported Function
+`peeki` | 1418 | Exported Function
+`elementAti` | 739 | Exported Function
+`popi` | 1425 | Exported Function
+`peeki` | 1417 | Exported Function
+`search` | 1542 | Exported Function
+`push` | 1440 | Exported Function
+`lastIndexOf` | 1321 | Exported Function
+`indexOf` | 1172 | Exported Function
+`indexOf` | 1171 | Exported Function
+`indexOf` | 1174 | Exported Function
+`indexOf` | 1173 | Exported Function
+`indexOf` | 1170 | Exported Function
+`UnicodeString` | 1167 | Exported Function
+`UnicodeString` | 1166 | Exported Function
+`UnicodeString` | 1169 | Exported Function
+`UnicodeString` | 1168 | Exported Function
+`indexOf` | 1175 | Exported Function
+`UnicodeString` | 1318 | Exported Function
+`UnicodeString` | 1317 | Exported Function
+`lastIndexOf` | 1320 | Exported Function
+`lastIndexOf` | 1319 | Exported Function
+`UnicodeString` | 1316 | Exported Function
+`indexOf` | 1177 | Exported Function
+`indexOf` | 1176 | Exported Function
+`UnicodeString` | 1315 | Exported Function
+`indexOf` | 1178 | Exported Function
+`push` | 1442 | Exported Function
+`Locale` | 352 | Exported Function
+`isBogus` | 1205 | Exported Function
+`contains` | 631 | Exported Function
+`Locale` | 334 | Exported Function
+`isTransitionalDifferent` | 1257 | Exported Function
+`ForwardCharacterIterator` | 351 | Exported Function
+`isSuccess` | 1254 | Exported Function
+`hasErrors` | 1136 | Exported Function
+`Hashtable` | 763 | Exported Function
+`hasNamedArguments` | 1142 | Exported Function
+`UnicodeSet` | 860 | Exported Function
+`ensureCanonIterData` | 752 | Exported Function
+`hasCompBoundaryBefore` | 1134 | Exported Function
+`hasCompBoundaryAfter` | 1132 | Exported Function
+`ReorderingBuffer` | 622 | Exported Function
+`MessagePattern` | 353 | Exported Function
+`hasNumberedArguments` | 1147 | Exported Function
+`UnicodeString` | 1415 | Exported Function
+`MessagePattern` | 335 | Exported Function
+`isFailure` | 1229 | Exported Function
+`size` | 1612 | Exported Function
+`lastElementi` | 1314 | Exported Function
+`setKeyComparator` | 1567 | Exported Function
+`getIntVector` | 961 | Exported Function
+`indexOf` | 1164 | Exported Function
+`size` | 1611 | Exported Function
+`size` | 1610 | Exported Function
+`indexOf` | 1163 | Exported Function
+`elementAti` | 741 | Exported Function
+`setValueComparator` | 1606 | Exported Function
+`isEmpty` | 1221 | Exported Function
+`next` | 1363 | Exported Function
+`DateInterval` | 350 | Exported Function
+`Overflowed` | 447 | Exported Function
+`hasNext` | 1143 | Exported Function
+`isBufferClone` | 1210 | Exported Function
+`setComparer` | 1552 | Exported Function
+`hasUniqueValue` | 1149 | Exported Function
+`BreakIterator` | 349 | Exported Function
+`UnicodeString` | 887 | Exported Function
+`UnicodeString` | 886 | Exported Function
+`UnicodeString` | 1410 | Exported Function
+`UnicodeString` | 515 | Exported Function
+`fromUSet` | 821 | Exported Function
+`UnicodeString` | 672 | Exported Function
+`UnicodeString` | 667 | Exported Function
+`fromUSet` | 820 | Exported Function
+`UnicodeString` | 673 | Exported Function
+`UnicodeString` | 1413 | Exported Function
+`StringPiece` | 823 | Exported Function
+`fromUTF32` | 822 | Exported Function
+`UnicodeString` | 1448 | Exported Function
+`UnicodeString` | 1447 | Exported Function
+`UnicodeString` | 1414 | Exported Function
+`UnicodeString` | 1189 | Exported Function
+`UnicodeString` | 557 | Exported Function
+`UnicodeString` | 629 | Exported Function
+`UnicodeString` | 520 | Exported Function
+`getAvailableLocales` | 843 | Exported Function
+`getFCCInstance` | 938 | Exported Function
+`getNFKDInstance` | 1010 | Exported Function
+`getInstance` | 959 | Exported Function
+`getFCDInstance` | 942 | Exported Function
+`getNFKCInstance` | 1006 | Exported Function
+`getNFCInstance` | 1000 | Exported Function
+`getInstance` | 958 | Exported Function
+`getNFKCCasefoldInstance` | 1004 | Exported Function
+`getNFDInstance` | 1002 | Exported Function
+`getNFCInstance` | 1001 | Exported Function
+`getNFCImpl` | 999 | Exported Function
+`Normalizer2` | 953 | Exported Function
+`getNFKCImpl` | 1005 | Exported Function
+`getNFKC_CFImpl` | 1008 | Exported Function
+`getNoopInstance` | 1022 | Exported Function
+`getNFKC_CFInstance` | 1009 | Exported Function
+`getNFDInstance` | 1003 | Exported Function
+`getNFKDInstance` | 1011 | Exported Function
+`getNFKCInstance` | 1007 | Exported Function
+`decompose` | 707 | Exported Function
+`UnicodeString` | 1248 | Exported Function
+`MessagePattern` | 1261 | Exported Function
+`isIdentifier` | 1237 | Exported Function
+`UnicodeString` | 1249 | Exported Function
+`UnicodeString` | 1232 | Exported Function
+`UnicodeString` | 768 | Exported Function
+`isJamoV` | 1242 | Exported Function
+`UnicodeString` | 1399 | Exported Function
+`isUnprintable` | 1258 | Exported Function
+`isSyntax` | 1255 | Exported Function
+`getStaticClassID` | 1054 | Exported Function
+`getCCFromYesOrMaybe` | 856 | Exported Function
+`getStaticClassID` | 1056 | Exported Function
+`getStaticClassID` | 1055 | Exported Function
+`UnicodeString` | 1505 | Exported Function
+`isWhiteSpace` | 1259 | Exported Function
+`isSyntaxOrWhiteSpace` | 1256 | Exported Function
+`hashNode` | 1158 | Exported Function
+`equalNodes` | 762 | Exported Function
+`isJamoL` | 1240 | Exported Function
+`UnicodeString` | 600 | Exported Function
+`UnicodeString` | 1695 | Exported Function
+`TRANSFORM_OFFSET_MASK` | 451 | Exported Function
+`TRANSFORM_NONE` | 450 | Exported Function
+`UnicodeString` | 1629 | Exported Function
+`UnicodeString` | 1405 | Exported Function
+`UnicodeString` | 1403 | Exported Function
+`UnicodeString` | 1407 | Exported Function
+`Replaceable` | 1406 | Exported Function
+`TRANSFORM_TYPE_MASK` | 452 | Exported Function
+`unregister` | 1689 | Exported Function
+`npos` | 1390 | Exported Function
+`isHangulWithoutJamoT` | 1236 | Exported Function
+`isHangul` | 1234 | Exported Function
+`TRIE_TYPE_UCHARS` | 457 | Exported Function
+`TRIE_HAS_VALUES` | 454 | Exported Function
+`TRANSFORM_TYPE_OFFSET` | 453 | Exported Function
+`TRIE_TYPE_MASK` | 456 | Exported Function
+`TRIE_TYPE_BYTES` | 455 | Exported Function
+`contains` | 634 | Exported Function
+`contains` | 633 | Exported Function
+`UVector` | 643 | Exported Function
+`UVector` | 639 | Exported Function
+`UVector64` | 343 | Exported Function
+`expandCapacity` | 771 | Exported Function
+`ensureCapacity` | 758 | Exported Function
+`UVector64` | 359 | Exported Function
+`isEmpty` | 1224 | Exported Function
+`ensureCapacity` | 759 | Exported Function
+`UVector` | 1534 | Exported Function
+`removeElement` | 1487 | Exported Function
+`getISOLanguages` | 952 | Exported Function
+`getISOCountries` | 951 | Exported Function
+`UVector` | 1479 | Exported Function
+`isEmpty` | 1225 | Exported Function
+`UVector` | 766 | Exported Function
+`UVector` | 344 | Exported Function
+`UVector` | 360 | Exported Function
+`UVector32` | 1533 | Exported Function
+`truncate` | 1680 | Exported Function
+`startsWith` | 1651 | Exported Function
+`contains` | 632 | Exported Function
+`empty` | 743 | Exported Function
+`startsWith` | 1650 | Exported Function
+`padTrailing` | 1394 | Exported Function
+`padLeading` | 1393 | Exported Function
+`UnicodeString` | 1649 | Exported Function
+`UnicodeString` | 1648 | Exported Function
+`UVector32` | 638 | Exported Function
+`UVector32` | 358 | Exported Function
+`isEmpty` | 1223 | Exported Function
+`UVector32` | 1478 | Exported Function
+`UVector32` | 342 | Exported Function
+`expandCapacity` | 770 | Exported Function
+`empty` | 744 | Exported Function
+`UVector32` | 642 | Exported Function
+`UVector32` | 765 | Exported Function
+`ensureCapacity` | 757 | Exported Function
+`Locale` | 670 | Exported Function
+`getKorea` | 971 | Exported Function
+`getJapanese` | 965 | Exported Function
+`getPRC` | 1027 | Exported Function
+`getKorean` | 972 | Exported Function
+`getJapan` | 964 | Exported Function
+`getGermany` | 947 | Exported Function
+`getGerman` | 946 | Exported Function
+`getItaly` | 963 | Exported Function
+`getItalian` | 962 | Exported Function
+`getRoot` | 1042 | Exported Function
+`getAvailableLocales` | 846 | Exported Function
+`getAvailableLocales` | 844 | Exported Function
+`UnicodeString` | 691 | Exported Function
+`UnicodeString` | 690 | Exported Function
+`getUS` | 1108 | Exported Function
+`getTaiwan` | 1092 | Exported Function
+`getSimplifiedChinese` | 1049 | Exported Function
+`getUK` | 1106 | Exported Function
+`getTraditionalChinese` | 1100 | Exported Function
+`getFrench` | 944 | Exported Function
+`Locale` | 678 | Exported Function
+`createUTS46Instance` | 689 | Exported Function
+`createInstance` | 676 | Exported Function
+`Locale` | 677 | Exported Function
+`UnicodeString` | 842 | Exported Function
+`Locale` | 686 | Exported Function
+`Locale` | 683 | Exported Function
+`Locale` | 692 | Exported Function
+`Locale` | 688 | Exported Function
+`Locale` | 1188 | Exported Function
+`getDefault` | 881 | Exported Function
+`getChinese` | 869 | Exported Function
+`getFrance` | 943 | Exported Function
+`getEnglish` | 933 | Exported Function
+`getChina` | 868 | Exported Function
+`createFromName` | 674 | Exported Function
+`createCanonical` | 669 | Exported Function
+`getCanadaFrench` | 858 | Exported Function
+`getCanada` | 857 | Exported Function
+`hashCode` | 1157 | Exported Function
+`closeOver` | 597 | Exported Function
+`UnicodeString` | 534 | Exported Function
+`complement` | 617 | Exported Function
+`UnicodeString` | 616 | Exported Function
+`SymbolTable` | 532 | Exported Function
+`applyIntPropertyValue` | 528 | Exported Function
+`UnicodeString` | 474 | Exported Function
+`UnicodeString` | 531 | Exported Function
+`SymbolTable` | 530 | Exported Function
+`UnicodeString` | 620 | Exported Function
+`set` | 1547 | Exported Function
+`UnicodeString` | 1535 | Exported Function
+`Locale` | 889 | Exported Function
+`UnicodeString` | 888 | Exported Function
+`retain` | 1531 | Exported Function
+`UnicodeString` | 1472 | Exported Function
+`UnicodeSet` | 328 | Exported Function
+`UnicodeString` | 1480 | Exported Function
+`remove` | 1473 | Exported Function
+`add` | 472 | Exported Function
+`build` | 548 | Exported Function
+`State` | 1527 | Exported Function
+`Iterator` | 297 | Exported Function
+`State` | 1541 | Exported Function
+`reset` | 1521 | Exported Function
+`SymbolTable` | 319 | Exported Function
+`StringTrieBuilder` | 318 | Exported Function
+`UCharsDictionaryMatcher` | 321 | Exported Function
+`UCharCharacterIterator` | 320 | Exported Function
+`reset` | 1518 | Exported Function
+`freeze` | 819 | Exported Function
+`cloneAsThawed` | 596 | Exported Function
+`UnicodeString` | 471 | Exported Function
+`UnicodeMatcher` | 327 | Exported Function
+`UnicodeFunctor` | 326 | Exported Function
+`clear` | 577 | Exported Function
+`UnicodeString` | 469 | Exported Function
+`UnicodeFilter` | 325 | Exported Function
+`UMemory` | 322 | Exported Function
+`UnicodeString` | 1012 | Exported Function
+`UnicodeString` | 788 | Exported Function
+`UnicodeString` | 787 | Exported Function
+`foldCase` | 811 | Exported Function
+`UnicodeString` | 789 | Exported Function
+`UnicodeString` | 785 | Exported Function
+`append` | 507 | Exported Function
+`append` | 506 | Exported Function
+`append` | 509 | Exported Function
+`append` | 508 | Exported Function
+`UnicodeString` | 1192 | Exported Function
+`operator` | 376 | Exported Function
+`UnicodeString` | 375 | Exported Function
+`UnicodeString` | 329 | Exported Function
+`operator` | 377 | Exported Function
+`insert` | 1197 | Exported Function
+`insert` | 1194 | Exported Function
+`UnicodeString` | 1193 | Exported Function
+`insert` | 1196 | Exported Function
+`insert` | 1195 | Exported Function
+`UnicodeString` | 505 | Exported Function
+`UnicodeString` | 891 | Exported Function
+`UnicodeString` | 884 | Exported Function
+`UnicodeString` | 898 | Exported Function
+`UnicodeString` | 890 | Exported Function
+`UnicodeString` | 885 | Exported Function
+`UnicodeString` | 814 | Exported Function
+`UnicodeString` | 813 | Exported Function
+`UnicodeString` | 882 | Exported Function
+`UnicodeString` | 883 | Exported Function
+`UnicodeString` | 897 | Exported Function
+`UnicodeString` | 818 | Exported Function
+`UnicodeString` | 815 | Exported Function
+`UnicodeString` | 504 | Exported Function
+`UnicodeString` | 553 | Exported Function
+`UnicodeString` | 816 | Exported Function
+`UnicodeString` | 899 | Exported Function
+`UnicodeString` | 900 | Exported Function
+`UnicodeString` | 817 | Exported Function
+`UnicodeString` | 709 | Exported Function
+`truncate` | 1679 | Exported Function
+`CharString` | 651 | Exported Function
+`DictionaryData` | 286 | Exported Function
+`DateInterval` | 285 | Exported Function
+`clear` | 574 | Exported Function
+`StringPiece` | 498 | Exported Function
+`CharString` | 497 | Exported Function
+`StringPiece` | 516 | Exported Function
+`UnicodeString` | 514 | Exported Function
+`DictionaryMatcher` | 287 | Exported Function
+`IDNA` | 295 | Exported Function
+`ICUServiceFactory` | 293 | Exported Function
+`Locale` | 299 | Exported Function
+`ListFormatter` | 298 | Exported Function
+`ICUNotifier` | 292 | Exported Function
+`EventListener` | 289 | Exported Function
+`ErrorCode` | 288 | Exported Function
+`ICU_Utility` | 294 | Exported Function
+`Hangul` | 291 | Exported Function
+`append` | 499 | Exported Function
+`getVersionNumber` | 1116 | Exported Function
+`getName` | 1014 | Exported Function
+`Appendable` | 282 | Exported Function
+`data` | 706 | Exported Function
+`getKey` | 969 | Exported Function
+`getScript` | 1048 | Exported Function
+`getName` | 1013 | Exported Function
+`getLocaleID` | 991 | Exported Function
+`getVariant` | 1114 | Exported Function
+`BytesDictionaryMatcher` | 283 | Exported Function
+`StringPiece` | 468 | Exported Function
+`reset` | 1517 | Exported Function
+`append` | 500 | Exported Function
+`clear` | 573 | Exported Function
+`Iterator` | 296 | Exported Function
+`State` | 1526 | Exported Function
+`reset` | 1512 | Exported Function
+`State` | 1540 | Exported Function
+`build` | 546 | Exported Function
+`clone` | 584 | Exported Function
+`getWithFallback` | 1120 | Exported Function
+`getNext` | 1015 | Exported Function
+`ServiceListener` | 312 | Exported Function
+`RuleBasedBreakIterator` | 311 | Exported Function
+`get` | 832 | Exported Function
+`ResourceBundle` | 310 | Exported Function
+`Replaceable` | 309 | Exported Function
+`get` | 833 | Exported Function
+`clone` | 588 | Exported Function
+`SharedObject` | 313 | Exported Function
+`toStringPiece` | 1665 | Exported Function
+`buildStringPiece` | 551 | Exported Function
+`getString` | 1081 | Exported Function
+`substr` | 1654 | Exported Function
+`StringPiece` | 317 | Exported Function
+`StringCharacterIterator` | 315 | Exported Function
+`SimplePatternFormatter` | 314 | Exported Function
+`createKeywords` | 682 | Exported Function
+`StringEnumeration` | 316 | Exported Function
+`PatternProps` | 308 | Exported Function
+`MessageImpl` | 302 | Exported Function
+`LocaleUtility` | 301 | Exported Function
+`UnicodeString` | 1395 | Exported Function
+`MessagePattern` | 303 | Exported Function
+`LocaleBased` | 300 | Exported Function
+`getLocale` | 986 | Exported Function
+`getLocale` | 984 | Exported Function
+`getLocale` | 987 | Exported Function
+`getLocale` | 988 | Exported Function
+`UnicodeString` | 1401 | Exported Function
+`Normalizer2Impl` | 306 | Exported Function
+`Normalizer2Factory` | 305 | Exported Function
+`clone` | 586 | Exported Function
+`ParsePosition` | 307 | Exported Function
+`Normalizer2` | 304 | Exported Function
+`UnicodeString` | 1411 | Exported Function
+`UnicodeString` | 1409 | Exported Function
+`clone` | 585 | Exported Function
+`getPart` | 1028 | Exported Function
+`getKeywordValue` | 970 | Exported Function
+`UnicodeString` | 1496 | Exported Function
+`getCapacity` | 862 | Exported Function
+`hashCode` | 1151 | Exported Function
+`UnicodeString` | 1445 | Exported Function
+`UnicodeString` | 1362 | Exported Function
+`NumberOfBytesWritten` | 446 | Exported Function
+`UnicodeString` | 1121 | Exported Function
+`count` | 656 | Exported Function
+`countParts` | 662 | Exported Function
+`first` | 803 | Exported Function
+`endIndex` | 746 | Exported Function
+`hashCode` | 1153 | Exported Function
+`getIndex` | 956 | Exported Function
+`current` | 695 | Exported Function
+`getPatternIndex` | 1030 | Exported Function
+`getLimitPartIndex` | 982 | Exported Function
+`composePair` | 627 | Exported Function
+`hashCode` | 1152 | Exported Function
+`NumberOfBytesAppended` | 445 | Exported Function
+`getBuffer` | 850 | Exported Function
+`nextForCodePoint` | 1376 | Exported Function
+`reserveBlock` | 1510 | Exported Function
+`popFrame` | 1423 | Exported Function
+`next` | 1371 | Exported Function
+`first` | 806 | Exported Function
+`current` | 698 | Exported Function
+`next` | 1370 | Exported Function
+`firstForCodePoint` | 808 | Exported Function
+`ByteSink` | 1018 | Exported Function
+`setToStart` | 1604 | Exported Function
+`setToEnd` | 1603 | Exported Function
+`length` | 1328 | Exported Function
+`startIndex` | 1646 | Exported Function
+`getLength` | 977 | Exported Function
+`getValue` | 1111 | Exported Function
+`getValue` | 1110 | Exported Function
+`getIndex` | 955 | Exported Function
+`endIndex` | 745 | Exported Function
+`last` | 1308 | Exported Function
+`getCodepoint` | 870 | Exported Function
+`spanUTF8` | 1645 | Exported Function
+`char32At` | 567 | Exported Function
+`getCodepointEnd` | 871 | Exported Function
+`spanBackUTF8` | 1643 | Exported Function
+`span` | 1640 | Exported Function
+`UnicodeString` | 1639 | Exported Function
+`spanBack` | 1642 | Exported Function
+`UnicodeString` | 1641 | Exported Function
+`countChar32` | 658 | Exported Function
+`getCapacity` | 863 | Exported Function
+`extract` | 778 | Exported Function
+`getChar32Start` | 866 | Exported Function
+`getChar32Limit` | 865 | Exported Function
+`extract` | 775 | Exported Function
+`extract` | 776 | Exported Function
+`extract` | 777 | Exported Function
+`extract` | 774 | Exported Function
+`EInvariant` | 773 | Exported Function
+`serialize` | 1543 | Exported Function
+`char32At` | 566 | Exported Function
+`length` | 1329 | Exported Function
+`getInt` | 960 | Exported Function
+`length` | 1330 | Exported Function
+`getIndex` | 957 | Exported Function
+`previous` | 1434 | Exported Function
+`next` | 1365 | Exported Function
+`getErrorIndex` | 936 | Exported Function
+`startIndex` | 1647 | Exported Function
+`getSize` | 1051 | Exported Function
+`getValue` | 1112 | Exported Function
+`getValue` | 1113 | Exported Function
+`indexOf` | 1165 | Exported Function
+`charAt` | 569 | Exported Function
+`Appendable` | 1021 | Exported Function
+`getPlaceholderCount` | 1032 | Exported Function
+`getRefCount` | 1041 | Exported Function
+`size` | 1609 | Exported Function
+`length` | 1331 | Exported Function
+`toLower` | 1660 | Exported Function
+`Locale` | 1659 | Exported Function
+`Locale` | 1667 | Exported Function
+`BreakIterator` | 1666 | Exported Function
+`setTo` | 1598 | Exported Function
+`setTo` | 1594 | Exported Function
+`setTo` | 1595 | Exported Function
+`setTo` | 1597 | Exported Function
+`setTo` | 1596 | Exported Function
+`Locale` | 1668 | Exported Function
+`Part` | 1089 | Exported Function
+`autoQuoteApostropheDeep` | 541 | Exported Function
+`getNextString` | 1020 | Exported Function
+`UnicodeString` | 1384 | Exported Function
+`next` | 1361 | Exported Function
+`toUpper` | 1675 | Exported Function
+`Locale` | 1674 | Exported Function
+`getSource` | 1052 | Exported Function
+`trim` | 1677 | Exported Function
+`UnicodeString` | 1593 | Exported Function
+`UnicodeString` | 1498 | Exported Function
+`UnicodeString` | 1497 | Exported Function
+`replace` | 1500 | Exported Function
+`replace` | 1499 | Exported Function
+`removeBetween` | 1486 | Exported Function
+`operator` | 331 | Exported Function
+`operator` | 330 | Exported Function
+`remove` | 1476 | Exported Function
+`remove` | 1475 | Exported Function
+`replace` | 1501 | Exported Function
+`setCharAt` | 1550 | Exported Function
+`reverse` | 1539 | Exported Function
+`UnicodeString` | 1592 | Exported Function
+`UnicodeString` | 1591 | Exported Function
+`reverse` | 1538 | Exported Function
+`UnicodeString` | 1503 | Exported Function
+`replace` | 1502 | Exported Function
+`retainBetween` | 1537 | Exported Function
+`UnicodeString` | 1504 | Exported Function
+`getNextString` | 1019 | Exported Function
+`Part` | 1025 | Exported Function
+`getToDate` | 1099 | Exported Function
+`get` | 824 | Exported Function
+`getPluralOffset` | 1033 | Exported Function
+`getFromDate` | 945 | Exported Function
+`UVector` | 894 | Exported Function
+`Locale` | 895 | Exported Function
+`UVector` | 1118 | Exported Function
+`UnicodeString` | 1119 | Exported Function
+`reset` | 1514 | Exported Function
+`first` | 802 | Exported Function
+`current` | 694 | Exported Function
+`next` | 1359 | Exported Function
+`next` | 1360 | Exported Function
+`getType` | 1103 | Exported Function
+`getPartType` | 1029 | Exported Function
+`getApostropheMode` | 835 | Exported Function
+`getUMode` | 1107 | Exported Function
+`getCompQuickCheck` | 874 | Exported Function
+`UnicodeString` | 896 | Exported Function
+`getPatternString` | 1031 | Exported Function
+`unescape` | 1686 | Exported Function
+`getString` | 1085 | Exported Function
+`getString` | 1082 | Exported Function
+`tempSubStringBetween` | 1657 | Exported Function
+`getStringEx` | 1088 | Exported Function
+`getString` | 1083 | Exported Function
+`tempSubString` | 1656 | Exported Function
+`getStringEx` | 1087 | Exported Function
+`UObject` | 323 | Exported Function
+`ICUServiceFactory` | 967 | Exported Function
+`UnicodeString` | 830 | Exported Function
+`UStringEnumeration` | 324 | Exported Function
+`ICUServiceKey` | 966 | Exported Function
+`UnicodeString` | 831 | Exported Function
+`Locale` | 826 | Exported Function
+`Locale` | 829 | Exported Function
+`Locale` | 827 | Exported Function
+`Locale` | 828 | Exported Function
 
 
 ## Signature

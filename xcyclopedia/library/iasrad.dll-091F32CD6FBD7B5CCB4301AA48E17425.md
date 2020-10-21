@@ -26,11 +26,11 @@ PE256 | `F91C1042C9C6F5DBFE2FC3D7FB843D43A62A4C08CFDDB1BF95B104718523DAB4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: long __cdecl VSAFilter::radiusToIAS(struct IAttributesRaw * __ptr64)const __ptr64` | 4 | Exported Function
-`public: long __cdecl VSAFilter::radiusFromIAS(struct IAttributesRaw * __ptr64,int)const __ptr64` | 2 | Exported Function
-`public: long __cdecl VSAFilter::shutdown(void) __ptr64` | 5 | Exported Function
-`public: long __cdecl VSAFilter::radiusToIAS(unsigned char * __ptr64,unsigned long,class IASTL::IASAttributeVector & __ptr64)const __ptr64` | 3 | Exported Function
-`public: long __cdecl VSAFilter::initialize(void) __ptr64` | 1 | Exported Function
+`radiusToIAS` | 4 | Exported Function
+`radiusFromIAS` | 2 | Exported Function
+`shutdown` | 5 | Exported Function
+`IASAttributeVector` | 3 | Exported Function
+`initialize` | 1 | Exported Function
 `DllGetClassObject` | 7 | Exported Function
 `DllCanUnloadNow` | 6 | Exported Function
 `DllUnregisterServer` | 9 | Exported Function

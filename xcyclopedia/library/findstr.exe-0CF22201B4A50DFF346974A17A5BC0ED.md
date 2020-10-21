@@ -18,6 +18,9 @@ SHA256 | `6212E4EB194109C71815ACE1ED8D56139DDA04BE2F6E1BB01EAC9315C6FB5ABF`
 SHA384 | `FB133FF62EAFA075219B0E4262644EE5B3D7EFB8E051356FB3EDD24227885FA2175EC60944B320E91D6C86118E4A2476`
 SHA512 | `5A19CC9C2EF879B69F9C71FCBC0AFFDF9AA1D8F193D8BACBC3CCF6788B83704F19CA2784F73E5D539552902C44EB7AD58CBD42519B03CBE344BF2BBC479A7AF5`
 SSDEEP | `384:ZpHel/BQrlTB7hfbKoq0dhRUb+AZu8Lx9XyFkBRonD1VQjWf5GNYoCPUh0D3fWXv:Wl/GhN9OuJuHaCqgYAh0zdvQ`
+IMP | `AD72E3C04C1BC40AB74532464B40A96E`
+PESHA1 | `CCA78180816B48FACD56DB7695C240F3C85736E9`
+PE256 | `DCD06C4C41F3FB9138489761B47105F15CCF49A292AB14115032E1B20BD4FEBB`
 
 ## Runtime Data
 
@@ -90,8 +93,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\findstr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -124,7 +130,12 @@ C:\Windows\SysWOW64\findstr.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/6212e4eb194109c71815ace1ed8d56139dda04be2f6e1bb01eac9315c6fb5abf/detection/
 
 
 ## Possible Misuse

@@ -26,27 +26,27 @@ PE256 | `C398495A3D2EFAB89FE85F98EB5118BABA0ECF2257CF7CC2C606BA13C85FFC17`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void * __thiscall BUFFER::QueryPtr(void)const ` | 9 | Exported Function
+`QueryPtr` | 9 | Exported Function
 `public: void __thiscall BUFFER::``default constructor closure'(void)` | 7 | Exported Function
-`public: unsigned long __thiscall BUFFER_CHAIN_ITEM::QueryUsed(void)const ` | 11 | Exported Function
+`QueryUsed` | 11 | Exported Function
 `public: __thiscall BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void)` | 6 | Exported Function
-`public: unsigned int __thiscall BUFFER::QuerySize(void)const ` | 10 | Exported Function
+`QuerySize` | 10 | Exported Function
 `StiCreateInstance` | 20 | Exported Function
 `StiCreateInstanceW` | 21 | Exported Function
 `SelectDeviceDialog2` | 19 | Exported Function
 `public: void __thiscall BUFFER_CHAIN_ITEM::``default constructor closure'(void)` | 8 | Exported Function
-`public: void __thiscall BUFFER_CHAIN_ITEM::SetUsed(unsigned long)` | 12 | Exported Function
-`public: __thiscall BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM(unsigned int)` | 3 | Exported Function
+`SetUsed` | 12 | Exported Function
+`BUFFER_CHAIN_ITEM` | 3 | Exported Function
 `DllUnregisterServer` | 16 | Exported Function
 `GetProxyDllInfo` | 17 | Exported Function
 `DllRegisterServer` | 15 | Exported Function
 `DllCanUnloadNow` | 13 | Exported Function
 `DllGetClassObject` | 14 | Exported Function
-`public: __thiscall BUFFER_CHAIN::BUFFER_CHAIN(void)` | 2 | Exported Function
+`BUFFER_CHAIN` | 2 | Exported Function
 `public: __thiscall BUFFER_CHAIN::~BUFFER_CHAIN(void)` | 5 | Exported Function
 `public: __thiscall BUFFER::~BUFFER(void)` | 4 | Exported Function
 `MigrateRegisteredSTIAppsForWIAEvents` | 18 | Exported Function
-`public: __thiscall BUFFER::BUFFER(unsigned int)` | 1 | Exported Function
+`BUFFER` | 1 | Exported Function
 
 
 ## Signature

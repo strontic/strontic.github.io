@@ -18,6 +18,9 @@ SHA256 | `93BAC4D5013074DBE590BEDED6CF4A9CFF601AC0DACFAAFA79D8CFB698FE7B4C`
 SHA384 | `1E19B3AD6FC2625B4FC1AAACEB970C56F804769BC66ED18352B5FCDF4091851F0182F5B38AEEA4B4AAEF7C7CB8089B99`
 SHA512 | `7AA40899E945FF69E7568D6FF97E032BE0E7DC88756CAAEB76C16D42661111FC4632F9CEB96A3FC41C3321A956637E26EF8D42E55809166AE6A2BA03D1249672`
 SSDEEP | `3072:K9qC82ZNmaPEhdt/yFvYH9K6hr277WvvJia8xDUPeO35:K9XV2hh9eGvB6O`
+IMP | `E7BC6345875250D0B05D11D154C20848`
+PESHA1 | `5E50A49D35DF9B18214B5A8BFAA5611D1EA1ED38`
+PE256 | `A39DD1B03FF9DEDD7AE9C0D1AB07D6D8B6B775DD1ED02D5368BD113648551001`
 
 ## Runtime Data
 
@@ -114,14 +117,30 @@ TpmVscMgr.exe
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\CRYPTBASE.DLL |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\tpmvscmgr.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -141,7 +160,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/93bac4d5013074dbe590beded6cf4a9cff601ac0dacfaafa79d8cfb698fe7b4c/detection/
 
 
 
@@ -153,68 +177,77 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## tpmvscmgr
 
-The Tpmvscmgr command-line tool allows users with Administrative credentials to create and delete TPM virtual smart cards on a computer.
+The tpmvscmgr command-line tool allows users with Administrative credentials to create and delete TPM virtual smart cards on a computer.
 
 ### Syntax
 
 ```
-Tpmvscmgr create [/name] [/AdminKey DEFAULT | PROMPT | RANDOM] [/PIN DEFAULT | PROMPT] [/PUK DEFAULT | PROMPT] [/generate] [/machine] [/?]
-```
-```
-Tpmvscmgr destroy [/instance <instance ID>] [/?]
+tpmvscmgr create [/name] [/adminkey DEFAULT | PROMPT | RANDOM] [/PIN DEFAULT | PROMPT] [/PUK DEFAULT | PROMPT] [/generate] [/machine] [/?]
 ```
 
-##### Parameters for Create command
+```
+tpmvscmgr destroy [/instance <instanceID>] [/?]
+```
 
-The Create command sets up new virtual smart cards on the user's system. It returns the instance ID of the newly created card for later reference if deletion is required. The instance ID is in the format **ROOT\SMARTCARDREADER\000n** where **n** starts from 0 and is increased by 1 each time you create a new virtual smart card.
+#### Create parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/name|Required. Indicates the name of the new virtual smart card.|
-|/AdminKey|Indicates the desired administrator key that can be used to reset the PIN of the card if the user forgets the PIN.</br>**DEFAULT** Specifies the default value of 010203040506070801020304050607080102030405060708.</br>**PROMPT** Prompts the user to enter a value for the administrator key.</br>**RANDOM** Results in a random setting for the administrator key for a card that is not returned to the user. This creates a card that might not be manageable by using smart card management tools. When generated with RANDOM, the administrator key must be entered as 48 hexadecimal characters.|
-|/PIN|Indicates desired user PIN value.</br>**DEFAULT** Specifies the default PIN of 12345678.</br>**PROMPT** Prompts the user to enter a PIN at the command line. The PIN must be a minimum of eight characters, and it can contain numerals, characters, and special characters.|
-|/PUK|Indicates the desired PIN Unlock Key (PUK) value. The PUK value must be a minimum of eight characters, and it can contain numerals, characters, and special characters. If the parameter is omitted, the card is created without a PUK.</br>**DEFAULT** Specifies the default PUK of 12345678.</br>**PROMPT** Prompts to the user to enter a PUK at the command line.|
-|/generate|Generates the files in storage that are necessary for the virtual smart card to function. If the /generate parameter is omitted, it is equivalent to creating a card without this file system. A card without a file system can be managed only by a smart card management system such as Microsoft Configuration Manager.|
-|/machine|Allows you to specify the name of a remote computer on which the virtual smart card can be created. This can be used in a domain environment only, and it relies on DCOM. For the command to succeed in creating a virtual smart card on a different computer, the user running this command must be a member in the local administrators group on the remote computer.|
-|/?|Displays Help for this command.|
+The **Create** command sets up new virtual smart cards on the user's system. It also returns the instance ID of the newly-created card for later reference, if deletion is required. The instance ID is in the format **ROOT\SMARTCARDREADER\000n** where **n** starts from 0 and is increased by 1 each time you create a new virtual smart card.
 
-##### Parameters for Destroy command
+| Parameter | Description |
+|--|--|
+| /name | Required. Indicates the name of the new virtual smart card. |
+| /adminkey | Indicates the desired administrator key that can be used to reset the PIN of the card if the user forgets the PIN. This can include:<ul><li>**DEFAULT** - Specifies the default value of *010203040506070801020304050607080102030405060708*.</li><li>**PROMPT** - Prompts the user to enter a value for the administrator key.</li><li>**RANDOM** - Results in a random setting for the administrator key for a card that is not returned to the user. This creates a card that might not be manageable by using smart card management tools. When using the RANDOM option, the administrator key must be entered as 48 hexadecimal characters.</li></ul> |
+| /PIN | Indicates desired user PIN value.<ul><li>**DEFAULT** - Specifies the default PIN of 12345678.</li><li>**PROMPT** - Prompts the user to enter a PIN at the command line. The PIN must be a minimum of eight characters, and it can contain numerals, characters, and special characters.</li></ul> |
+| /PUK | Indicates the desired PIN Unlock Key (PUK) value. The PUK value must be a minimum of eight characters, and it can contain numerals, characters, and special characters. If the parameter is omitted, the card is created without a PUK. The options include:<ul><li>**DEFAULT** - Specifies the default PUK of *12345678*.</li><li>**PROMPT** - Prompts to the user to enter a PUK at the command line.</li></ul> |
+| /generate | Generates the files in storage that are necessary for the virtual smart card to function. If you don't use the **/generate** parameter, it's like you created the card without the underlying file system. A card without a file system can be managed only by a smart card management system such as Microsoft Configuration Manager. |
+| /machine | Allows you to specify the name of a remote computer on which the virtual smart card can be created. This can be used in a domain environment only, and it relies on DCOM. For the command to succeed in creating a virtual smart card on a different computer, the user running this command must be a member in the local administrators group on the remote computer. |
+| /? | Displays Help for this command. |
 
-The Destroy command securely deletes a virtual smart card from the user's computer.
+#### Destroy parameters
+
+The **Destroy** command securely deletes a virtual smart card from the user's computer.
 
 > [!WARNING]
-> When a virtual smart card is deleted, it cannot be recovered.
+> If a virtual smart card is deleted, it cannot be recovered.
 
-|Parameter|Description|
-|---------|-----------|
-|/instance|Specifies the instance ID of the virtual smart card to be removed. The instanceID was generated as output by Tpmvscmgr.exe when the card was created. The /instance parameter is a required field for the Destroy command.|
-|/?|Displays Help for this command.|
+| Parameter | Description |
+|--|--|
+| /instance | Specifies the instance ID of the virtual smart card to be removed. The instanceID was generated as output by tpmvscmgr.exe when the card was created. The **/instance** parameter is a required field for the **Destroy** command. |
+| /? | Displays help at the command prompt. |
 
-### Remarks
+##### Remarks
 
-Membership in the **Administrators** group (or equivalent) on the target computer is the minimum required to run all the parameters of this command.
-
-For alphanumeric inputs, the full 127 character ASCII set is allowed.
+- For alphanumeric inputs, the full 127 character ASCII set is allowed.
 
 ### Examples
 
-The following command shows how to create a virtual smart card that can be later managed by a smart card management tool launched from another computer.
+To create a virtual smart card that can be later managed by a smart card management tool launched from another computer, type:
+
 ```
 tpmvscmgr.exe create /name VirtualSmartCardForCorpAccess /AdminKey DEFAULT /PIN PROMPT
 ```
+
 Alternatively, instead of using a default administrator key, you can create an administrator key at the command line. The following command shows how to create an administrator key.
+
 ```
 tpmvscmgr.exe create /name VirtualSmartCardForCorpAccess /AdminKey PROMPT /PIN PROMPT
 ```
-The following command will create the unmanaged virtual smart card that can be used to enroll certificates.
+
+To create an unmanaged virtual smart card that can be used to enroll certificates, type:
+
 ```
 tpmvscmgr.exe create /name VirtualSmartCardForCorpAccess /AdminKey RANDOM /PIN PROMPT /generate
 ```
-The following command will create a virtual smart card with a randomized administrator key. The key is automatically discarded after the cardis created. This means that if the user forgets the PIN or wants to the change the PIN, the user needs to delete the card and create it again. To delete the card, the user can run the following command.
+
+A virtual smart card is created with a randomized administrator key. The key is automatically discarded after the card is created. This means that if the user forgets the PIN or wants to the change the PIN, the user needs to delete the card and create it again.
+
+To delete the card, type:
+
 ```
 tpmvscmgr.exe destroy /instance <instance ID>
 ```
-where \<instance ID> is the value printed on the screen when the user created the card. Specifically, for the first card created, the instance ID is ROOT\SMARTCARDREADER\0000.
+
+Where `<instanceID>` is the value printed on the screen when the user created the card. Specifically, for the first card created, the instance ID is *ROOT\SMARTCARDREADER\0000*.
 
 ### Additional References
 

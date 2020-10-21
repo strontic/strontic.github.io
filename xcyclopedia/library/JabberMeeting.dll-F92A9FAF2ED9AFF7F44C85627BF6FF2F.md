@@ -31,11 +31,11 @@ Function Name | Ordinal | Type
 `jm_remove_meetingaccountmgrhandler` | 17 | Exported Function
 `jm_remove_instantmeetinghandler` | 15 | Exported Function
 `jm_remove_logger` | 16 | Exported Function
-`public: class session_context & __thiscall session_context::operator=(class session_context const &)` | 4 | Exported Function
+`operator` | 4 | Exported Function
 `public: virtual __thiscall session_context::~session_context(void)` | 3 | Exported Function
-`public: __thiscall session_context::session_context(void)` | 2 | Exported Function
+`session_context` | 2 | Exported Function
 `jmsdk_function_get` | 20 | Exported Function
-`public: __thiscall session_context::session_context(class session_context const &)` | 1 | Exported Function
+`session_context` | 1 | Exported Function
 `jm_get_meeting_sdk_mgr` | 8 | Exported Function
 `jm_get_meetingaccountmgr` | 9 | Exported Function
 `jm_get_meeting_dependence` | 7 | Exported Function

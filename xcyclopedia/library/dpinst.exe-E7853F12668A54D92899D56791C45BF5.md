@@ -8,6 +8,10 @@ excerpt: What is dpinst.exe?
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\dpinst.exe`
 * Description: Driver Package Installer
 
+## Screenshot
+
+![dpinst.exe](screenshots/dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4-1.png)
+
 ## Hashes
 
 Type | Hash
@@ -42,6 +46,12 @@ SSDEEP | `6144:9sSOzpPId26dQcEaUrPvwgwkRVagRoDHTj8K1sqI6VLp4XOigSbduP/1HHm/hHAZ:
 
 File | Score
 -- | --
+[C:\Program Files\Amazon\XenTools\dpinst.exe](dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4.md) | 63
+[C:\Program Files\Amazon\XenTools\Drivers\xenbus\dpinst.exe](dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4.md) | 63
+[C:\Program Files\Amazon\XenTools\Drivers\xeniface\dpinst.exe](dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4.md) | 63
+[C:\Program Files\Amazon\XenTools\Drivers\xennet\dpinst.exe](dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4.md) | 63
+[C:\Program Files\Amazon\XenTools\Drivers\xenvbd\dpinst.exe](dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4.md) | 63
+[C:\Program Files\Amazon\XenTools\Drivers\xenvif\dpinst.exe](dpinst.exe-B5F75FCCE7C32239378983A3A3C331D4.md) | 63
 [C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\dpinst.exe](dpinst.exe-52A859895F34399FA89DB37D40A20BC0.md) | 97
 
 

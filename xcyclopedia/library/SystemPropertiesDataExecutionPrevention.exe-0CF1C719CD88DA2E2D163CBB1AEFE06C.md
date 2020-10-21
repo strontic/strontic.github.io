@@ -18,6 +18,9 @@ SHA256 | `51259F775BE738CE33C857B7777E88C8B6A9AFE0C3202E99D4C76F688F315424`
 SHA384 | `26052E4943DC40D68BE2CFCD7832846B20B94F4B90DC667DD88BD36FB7D78699E51337C9DDF0CF8F1B947662748D0E7C`
 SHA512 | `A7C31DFF653EE6180310349AE8EF63486F3CD1E03518DFB408553E1AAD3C3B0DD0A9DDBF681F7F23801FD6B2288FC19607BA1425E44E2165DF8752FC6DBF0A65`
 SSDEEP | `1536:SzbZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5J0:SJKzECTMpuDhjRVJGe`
+IMP | `B788892AE84BA86201A726810F01CB07`
+PESHA1 | `BD480DA5144A194F1AFE00FE54CDCFE6B2A28F23`
+PE256 | `20EEA9D7BBC2A7339ADCC110D1B08C5B6D7D2B1A8E9B4BF121B1CE57EF133117`
 
 ## Runtime Data
 
@@ -28,16 +31,19 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\SystemPropertiesDataExecutionPrevention.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -68,7 +74,12 @@ C:\Windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/51259f775be738ce33c857b7777e88c8b6a9afe0c3202e99d4c76f688f315424/detection/
 
 ## File Similarity (ssdeep match)
 

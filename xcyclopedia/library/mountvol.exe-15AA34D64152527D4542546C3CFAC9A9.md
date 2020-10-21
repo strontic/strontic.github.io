@@ -18,6 +18,9 @@ SHA256 | `3408B443926447C03A7575C563163B8E9ADF54AAE9F4FAD959A4A61D588FA234`
 SHA384 | `079A6267617262F1C837C9DAB84D2A291B2E6DC379172D2B35FCB1DA958396256EEAE58ED8711EB9FE1FA5B1F29FBCED`
 SHA512 | `926341DEC7FBF72519B58E92A76BAA125D1AEC9EE58BE294E0D2014BAD8334C3AD9B91940D804121C6F3FCAD22B144E46B376D5655A258E75059B9B529B6BBD6`
 SSDEEP | `192:/lI1xnAe4RQEXUbgOW0xDAGpfO2cjt9aO0uUOxPtLHwI7ER2NuzkkWQFWfK+:/sGUEOWgAG1OtGO0YxVLQIXNuIkWQFW`
+IMP | `30F2C65A9103A7536B77118A741917B8`
+PESHA1 | `89037692831A333ECFE83B1AFC3D87E5AE107B20`
+PE256 | `6162604C611198C68377DD4FB97E71ED68B5F59BCD9A32AD51A5A59AD27FE1C8`
 
 ## Runtime Data
 
@@ -50,7 +53,7 @@ MOUNTVOL /E
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{77d2a80b-0000-0000-0000-100000000000}\
+    \\?\Volume{7c775138-0000-0000-0000-100000000000}\
         C:\
 
 
@@ -61,6 +64,10 @@ Possible values for VolumeName along with current mount points are:
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\mountvol.exe |
 
 
 ## Signature
@@ -80,7 +87,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/3408b443926447c03a7575c563163b8e9adf54aae9f4fad959a4a61d588fa234/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -27,9 +27,9 @@ PE256 | `B3F67B1AA37EE270AB44D77F527D5BE3CB1160DFF08A02D462506AD36BC0CE92`
 Function Name | Ordinal | Type
 -- | -- | --
 `public: __cdecl MIFree::~MIFree(void) __ptr64` | 2 | Exported Function
-`public: __cdecl MIFree::MIFree(void * __ptr64) __ptr64` | 1 | Exported Function
-`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer const & __ptr64) __ptr64` | 4 | Exported Function
-`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer && __ptr64) __ptr64` | 3 | Exported Function
+`MIFree` | 1 | Exported Function
+`operator` | 4 | Exported Function
+`operator` | 3 | Exported Function
 `CreateRegisterParameter` | 6 | Exported Function
 `CompileSchemaToWMI` | 5 | Exported Function
 `GetProviderSchemaFile` | 8 | Exported Function

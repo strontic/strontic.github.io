@@ -18,6 +18,9 @@ SHA256 | `73A9A6A4C9CF19FCD117EB3C430E1C9ACADED31B42875BA4F02FA61DA1B8A6DC`
 SHA384 | `2862687074918DC554A4C300F887D68B48E5967E670B499DB8B188072FB8DC412B1E4B18DC49FD8C5BE9C12F3013F701`
 SHA512 | `AE12DD30AFD9D9EFA45A22BF256D1E6BF781F407A07208DD9B832E3B8FC78AF31FEA5E77CEC2F3B83471F20462DF4626E68AECA8BC4D940B169E72B2003EF380`
 SSDEEP | `768:ddvxiSkGxY6ZQppLMVt+QFZ7Xu9qAJ9jq2g:ncXGhcC+QFBFAJJdg`
+IMP | `FA9A9B0D471E4B5F3683C346C3D880BD`
+PESHA1 | `50100574B4582C8F47E396B53381740431C28B06`
+PE256 | `AA623094D8EE1C822CBB5EB044FFC58EB085E49733DF47F4382840EF1C35C8B2`
 
 ## Runtime Data
 
@@ -57,11 +60,16 @@ time               Specifies the time when command is to run.
 
 ```
 
+### Child Processes:
+csrss.exe wininit.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\system32\at.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 
 
@@ -82,7 +90,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/73a9a6a4c9cf19fcd117eb3c430e1c9acaded31b42875ba4f02fa61da1b8a6dc/detection/
 
 
 ## Possible Misuse

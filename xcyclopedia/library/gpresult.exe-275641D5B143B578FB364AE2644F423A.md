@@ -18,6 +18,9 @@ SHA256 | `E71A9E7D0B66976B97A7E6411D5F15581698B48AAC2D225B98F0C70B2859B451`
 SHA384 | `F24DB3B823C5504B775BB03C608A42BC331750C59398EAD82E718F3EF9D2AF773B6AFEB71C05446E91B72BB933F3DD1D`
 SHA512 | `9FF3B3C2EA1B061BBBE4B8736DA6D8348FC555C4D1C2CBB97CF9B0AB0064FDEA8EC95CA3BFF3B66FB718407BB83BE9F17584961BDC216DAC2C2CB95BF6EE5258`
 SSDEEP | `6144:Ek1bBIyNQupCGdgCqX3zXjBcr3ogZebWuYM/hkMazb:Ek1lpQuE/DXjBiZ6mMa`
+IMP | `21D279ACCB0EB1F3C23C57EB6C9C576B`
+PESHA1 | `8E45AA5480AFA37872065C2DC881B30E088910DE`
+PE256 | `1D540B5906546629CA2108426D816A829B8E5AAD88075BA9CF2EAEF7627BD0EA`
 
 ## Runtime Data
 
@@ -101,17 +104,46 @@ Type "GPRESULT /?" for usage.
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\framedynos.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\gpresult.exe |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoncli.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\NTDSAPI.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\Secur32.dll |
+C:\Windows\system32\srvcli.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\system32\wbem\wbemprox.dll |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -124,7 +156,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/e71a9e7d0b66976b97a7e6411d5f15581698b48aac2d225b98f0c70b2859b451/detection/
 
 
 

@@ -18,6 +18,9 @@ SHA256 | `A414E8721A683EC797508EB8DB094398BA35D4980416DEAEAEC9683C813BB844`
 SHA384 | `9409E21B56B2ABF07A36C313FFD5E1C42024C9F44BBA7826B07B4A24C96E176462AF1C05ACD5683683D2D1983335C188`
 SHA512 | `A922E00A81BB008E1B89611325995FF7D1E1BF933F17EEB5EF6E64A1D8D925B53DB621646F1F33BCDD3A5FC704F152226A10C6BD2C629A29338DDC502637FF0B`
 SSDEEP | `768:1WCxySqrC5SHa/zzsuPuyX3mmVFUpu4cxLBPHKSa2sx6nDCS:P54ctwu4CHKdx6DCS`
+IMP | `8275F58C1058DF4BAFF590DA991AC78C`
+PESHA1 | `FD76B78A17107F0F2F9301539222020391526202`
+PE256 | `67EEA8832BC9E946D0A018D22AFDCEFC887A9259570128894A0BED06A877DBC0`
 
 ## Runtime Data
 
@@ -84,7 +87,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\waitfor.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -93,7 +99,29 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\system32\srvcli.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\system32\waitfor.exe |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -113,7 +141,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/a414e8721a683ec797508eb8db094398ba35d4980416deaeaec9683c813bb844/detection/
 
 
 ## Possible Misuse
@@ -132,54 +165,53 @@ Source | Source File | Example | License
 
 ## waitfor
 
-
-
-Sends or waits for a signal on a system. **Waitfor** is used to synchronize computers across a network.
-
-
+Sends or waits for a signal on a system. This command is used to synchronize computers across a network.
 
 ### Syntax
 
 ```
-waitfor [/s <Computer> [/u [<Domain>\]<User> [/p [<Password>]]]] /si <SignalName>
-waitfor [/t <Timeout>] <SignalName>
+waitfor [/s <computer> [/u [<domain>\]<user> [/p [<password>]]]] /si <signalname>
+waitfor [/t <timeout>] <signalname>
 ```
 
 #### Parameters
 
-|       Parameter       |                                                                                         Description                                                                                          |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    /s \<Computer>     | Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer. This parameter applies to all files and folders specified in the command. |
-| /u [\<Domain>\]<User> |                              Runs the script using the credentials of the specified user account. By default, **waitfor** uses the current user's credentials.                               |
-|   /p [\<Password>]    |                                                    Specifies the password of the user account that is specified in the **/u** parameter.                                                     |
-|          /si          |                                                                        Sends the specified signal across the network.                                                                        |
-|     /t \<Timeout>     |                                              Specifies the number of seconds to wait for a signal. By default, **waitfor** waits indefinitely.                                               |
-|     \<SignalName>     |                                                Specifies the signal that **waitfor** waits for or sends. *SignalName* is not case-sensitive.                                                 |
-|          /?           |                                                                             Displays help at the command prompt.                                                                             |
+| Parameter | Description |
+|--|--|
+| /s `<computer>` | Specifies the name or IP address of a remote computer (don't use backslashes). The default is the local computer. This parameter applies to all files and folders specified in the command. If you don't use this parameter, the signal is broadcast to all the systems in a domain. If you do use this parameter, the signal is sent only to the specified system. |
+| /u `[<domain>]<user>` | Runs the script using the credentials of the specified user account. By default, **waitfor** uses the current user's credentials. |
+| /p `[\<password>]` | Specifies the password of the user account that is specified in the **/u** parameter. |
+| /si | Sends the specified signal across the network. This parameter also lets you manually activate a signal. |
+| /t `<timeout>` | Specifies the number of seconds to wait for a signal. By default, **waitfor** waits indefinitely. |
+| `<signalname>` | Specifies the signal that **waitfor** waits for or sends. This parameter isn't case-sensitive and can't exceed 225 characters. Valid characters include a-z, A-Z, 0-9, and the ASCII extended character set (128-255). |
+| /? | Displays help at the command prompt. |
 
-### Remarks
+##### Remarks
 
--   Signal names cannot exceed 225 characters. Valid characters include a-z, A-Z, 0-9, and the ASCII extended character set (128-255).
--   If you do not use **/s**, the signal is broadcast to all the systems in a domain. If you use **/s**, the signal is sent only to the specified system.
--   You can run multiple instances of **waitfor** on a single computer, but each instance of **waitfor** must wait for a different signal. Only one instance of **waitfor** can wait for a given signal on a given computer.
--   You can activate a signal manually by using the **/si** command-line option.
--   **Waitfor** runs only on Windows XP and servers running a Windows Server 2003 operating system, but it can send signals to any computer running a Windows operating system.
--   Computers can only receive signals if they are in the same domain as the computer sending the signal.
--   You can use **waitfor** when you test software builds. For example, the compiling computer can send a signal to several computers running **waitfor** after the compile has completed successfully. On receipt of the signal, the batch file that includes **waitfor** can instruct the computers to immediately start installing software or running tests on the compiled build.
+- You can run multiple instances of **waitfor** on a single computer, but each instance of **waitfor** must wait for a different signal. Only one instance of **waitfor** can wait for a given signal on a given computer.
+
+- Computers can only receive signals if they are in the same domain as the computer sending the signal.
+
+- You can use this command when you test software builds. For example, the compiling computer can send a signal to several computers running **waitfor** after the compile has completed successfully. On receipt of the signal, the batch file that includes **waitfor** can instruct the computers to immediately start installing software or running tests on the compiled build.
 
 ### Examples
 
-To wait until the espresso\build007 signal is received, type:
+To wait until the *espresso\build007* signal is received, type:
+
 ```
 waitfor espresso\build007
 ```
+
 By default, **waitfor** waits indefinitely for a signal.
 
-To wait 10 seconds for the espresso\compile007 signal to be received before timing out, type:
+To wait *10 seconds* for the *espresso\compile007* signal to be received before timing out, type:
+
 ```
 waitfor /t 10 espresso\build007
 ```
-To manually activate the espresso\build007 signal, type:
+
+To manually activate the *espresso\build007* signal, type:
+
 ```
 waitfor /si espresso\build007
 ```

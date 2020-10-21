@@ -42,7 +42,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\prntvpt.dll.mui | File
 (R-D)   C:\Windows\System32\msxml6.dll | File
 (R-D)   C:\Windows\System32\stdole2.tlb | File
-(RW-)   C:\Users\Administrator\Documents\Fax\Personal CoverPages | File
+(RW-)   C:\Users\user\Documents\Fax\Personal CoverPages | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section

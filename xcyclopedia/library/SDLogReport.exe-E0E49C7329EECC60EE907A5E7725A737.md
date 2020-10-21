@@ -8,6 +8,10 @@ excerpt: What is SDLogReport.exe?
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDLogReport.exe`
 * Description: Create report archive
 
+## Screenshot
+
+![SDLogReport.exe](screenshots/SDLogReport.exe-E0E49C7329EECC60EE907A5E7725A737-8.png)
+
 ## Hashes
 
 Type | Hash

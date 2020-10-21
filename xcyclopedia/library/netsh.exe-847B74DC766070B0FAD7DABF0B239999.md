@@ -18,6 +18,9 @@ SHA256 | `C94D41B92D051C1D7F30FC60196958799B4ACFF3FA2A2CDF8CED9D0B8B42B583`
 SHA384 | `F6D8BA25B3718C15609F4ADB26CF6DF79CB051339B67F18BA466B1DE7258A73383F67ABAD27D894E8EC8FCC1A4277937`
 SHA512 | `2B82E26694F7096379B6BDC4C9DC84DB9B9743330004BD25ABAD489205A61C4AAFA3A9824DC8581EAB8A47F38AC80AA18B2802D65C7DA9FFB987FDCF5F5E2334`
 SSDEEP | `768:pLsMGla4aMvfv84lJ6TAMO5QZt6ljIbfSotJZy:Zs7p1/8O6DOy3GIbfS8D`
+IMP | `C8D91522FEEE1152DC40833F6A4717E7`
+PESHA1 | `4414A44A9AA719CEEE1CD50E5BB8ADC659D92280`
+PE256 | `990D6E2C3869DADD8574957C363B38CD20FFCE2AB41D31D373B118D5C8E1E8E1`
 
 ## Runtime Data
 
@@ -36,7 +39,6 @@ advfirewall    - Changes to the `netsh advfirewall' context.
 branchcache    - Changes to the `netsh branchcache' context.
 bridge         - Changes to the `netsh bridge' context.
 delete         - Deletes a configuration entry from a list of entries.
-dhcp           - Changes to the `netsh dhcp' context.
 dhcpclient     - Changes to the `netsh dhcpclient' context.
 dnsclient      - Changes to the `netsh dnsclient' context.
 dump           - Displays a configuration script.
@@ -59,7 +61,7 @@ winhttp        - Changes to the `netsh winhttp' context.
 winsock        - Changes to the `netsh winsock' context.
 
 The following sub-contexts are available:
- advfirewall branchcache bridge dhcp dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio ras rpc wfp winhttp winsock
+ advfirewall branchcache bridge dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio ras rpc wfp winhttp winsock
 
 To view help for a command, type the command, followed by a space, and then
  type ?.
@@ -71,6 +73,9 @@ To view help for a command, type the command, followed by a space, and then
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\netsh.exe |
 
 
@@ -91,7 +96,12 @@ C:\Windows\SysWOW64\netsh.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/c94d41b92d051c1d7f30fc60196958799b4acff3fa2a2cdf8ced9d0b8b42b583/detection/
 
 
 ## Possible Misuse

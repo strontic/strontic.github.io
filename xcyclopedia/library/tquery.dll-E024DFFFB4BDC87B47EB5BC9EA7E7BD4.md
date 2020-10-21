@@ -26,51 +26,51 @@ PE256 | `E6449724E7FD3441AADEB950A22C31F668DDDA86B380AB1A04C1D5C6FFDD2325`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual void __thiscall CMemDeSerStream::SkipChar(unsigned long)` | 59 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipDouble(void)` | 60 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipByte(void)` | 58 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::GetWChar(unsigned short *,unsigned long)` | 32 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipBlob(unsigned long)` | 57 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipFloat(void)` | 61 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipUShort(void)` | 65 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipWChar(unsigned long)` | 66 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipULong(void)` | 64 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipGUID(void)` | 62 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::SkipLong(void)` | 63 | Exported Function
-`public: virtual unsigned char __thiscall CMemDeSerStream::GetByte(void)` | 20 | Exported Function
-`public: virtual unsigned long __thiscall CMemDeSerStream::GetULong(void)` | 30 | Exported Function
-`public: virtual long __thiscall CMemDeSerStream::GetLong(void)` | 27 | Exported Function
-`public: virtual double __thiscall CMemDeSerStream::GetDouble(void)` | 23 | Exported Function
-`public: virtual float __thiscall CMemDeSerStream::GetFloat(void)` | 25 | Exported Function
-`public: virtual unsigned long __thiscall CMemDeSerStream::PeekULong(void)` | 38 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::GetChar(char *,unsigned long)` | 21 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::GetGUID(struct _GUID &)` | 26 | Exported Function
-`public: virtual void __thiscall CMemDeSerStream::GetBlob(unsigned char *,unsigned long)` | 19 | Exported Function
-`public: virtual unsigned short * __thiscall CMemDeSerStream::GetWString(void)` | 33 | Exported Function
-`public: virtual unsigned short __thiscall CMemDeSerStream::GetUShort(void)` | 31 | Exported Function
-`public: void __thiscall CFullPath::MakePath(unsigned short const *)` | 37 | Exported Function
-`public: void __thiscall CFullPropSpec::SetProperty(unsigned long)` | 56 | Exported Function
-`public: void __thiscall CDriveInfo::GetDiskSpace(__int64 &,__int64 &)` | 22 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutWString(unsigned short const *)` | 50 | Exported Function
-`public: void __thiscall CCiFile::Read(void)` | 52 | Exported Function
-`public: void __thiscall CStorageVariant::SetLPWSTR(unsigned short const *,unsigned int)` | 54 | Exported Function
+`SkipChar` | 59 | Exported Function
+`SkipDouble` | 60 | Exported Function
+`SkipByte` | 58 | Exported Function
+`GetWChar` | 32 | Exported Function
+`SkipBlob` | 57 | Exported Function
+`SkipFloat` | 61 | Exported Function
+`SkipUShort` | 65 | Exported Function
+`SkipWChar` | 66 | Exported Function
+`SkipULong` | 64 | Exported Function
+`SkipGUID` | 62 | Exported Function
+`SkipLong` | 63 | Exported Function
+`GetByte` | 20 | Exported Function
+`GetULong` | 30 | Exported Function
+`GetLong` | 27 | Exported Function
+`GetDouble` | 23 | Exported Function
+`GetFloat` | 25 | Exported Function
+`PeekULong` | 38 | Exported Function
+`GetChar` | 21 | Exported Function
+`GetGUID` | 26 | Exported Function
+`GetBlob` | 19 | Exported Function
+`GetWString` | 33 | Exported Function
+`GetUShort` | 31 | Exported Function
+`MakePath` | 37 | Exported Function
+`SetProperty` | 56 | Exported Function
+`GetDiskSpace` | 22 | Exported Function
+`PutWString` | 50 | Exported Function
+`Read` | 52 | Exported Function
+`SetLPWSTR` | 54 | Exported Function
 `RetailTracerReleaseAll` | 89 | Exported Function
 `UseLowFragmentationHeap` | 68 | Exported Function
 `RetailTracerEnable` | 88 | Exported Function
-`public: void __thiscall CUnNormalizer::UnNormalizeKey(class CKeyBuf const &,struct tagPROPVARIANT &,unsigned short *,unsigned long)` | 67 | Exported Function
+`UnNormalizeKey` | 67 | Exported Function
 `RetailTracerDisable` | 87 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutDouble(double)` | 42 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutFloat(float)` | 43 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutChar(char const *,unsigned long)` | 41 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutBlob(unsigned char const *,unsigned long)` | 39 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutByte(unsigned char)` | 40 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutGUID(struct _GUID const &)` | 44 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutUShort(unsigned short)` | 48 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutWChar(unsigned short const *,unsigned long)` | 49 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutULong(unsigned long)` | 47 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutLong(long)` | 45 | Exported Function
-`public: virtual void __thiscall CMemSerStream::PutString(char const *)` | 46 | Exported Function
-`public: virtual char * __thiscall CMemDeSerStream::GetString(void)` | 29 | Exported Function
+`PutDouble` | 42 | Exported Function
+`PutFloat` | 43 | Exported Function
+`PutChar` | 41 | Exported Function
+`PutBlob` | 39 | Exported Function
+`PutByte` | 40 | Exported Function
+`PutGUID` | 44 | Exported Function
+`PutUShort` | 48 | Exported Function
+`PutWChar` | 49 | Exported Function
+`PutULong` | 47 | Exported Function
+`PutLong` | 45 | Exported Function
+`PutString` | 46 | Exported Function
+`GetString` | 29 | Exported Function
 `DllRegisterServer` | 76 | Exported Function
 `DllUnregisterServer` | 77 | Exported Function
 `DllGetClassObject` | 75 | Exported Function
@@ -93,28 +93,28 @@ Function Name | Ordinal | Type
 `class CCoTaskAllocator CoTaskAllocator` | 13 | Exported Function
 `ciNewNoThrow` | 71 | Exported Function
 `CIState` | 12 | Exported Function
-`public: int __thiscall CDriveInfo::IsWriteProtected(void)` | 36 | Exported Function
-`public: int __thiscall CFullPropSpec::SetProperty(unsigned short const *)` | 55 | Exported Function
-`public: int __thiscall CDriveInfo::IsSameDrive(unsigned short const *)` | 35 | Exported Function
-`public: __thiscall XAct::XAct(void)` | 8 | Exported Function
-`public: class PRcovStorageObj * __thiscall CiStorage::QueryPidLookupTable(unsigned long)` | 51 | Exported Function
-`public: int __thiscall CPidLookupTable::Init(class PRcovStorageObj *)` | 34 | Exported Function
+`IsWriteProtected` | 36 | Exported Function
+`SetProperty` | 55 | Exported Function
+`IsSameDrive` | 35 | Exported Function
+`XAct` | 8 | Exported Function
+`QueryPidLookupTable` | 51 | Exported Function
+`Init` | 34 | Exported Function
 `public: virtual __thiscall CMemSerStream::~CMemSerStream(void)` | 9 | Exported Function
 `public: virtual __thiscall CPhysStorage::~CPhysStorage(void)` | 10 | Exported Function
-`public: unsigned long __thiscall CDriveInfo::GetSectorSize(void)` | 28 | Exported Function
-`public: static int __stdcall CDriveInfo::ContainsDrive(unsigned short const *)` | 14 | Exported Function
-`public: static void __stdcall CDriveInfo::GetDrive(unsigned short const *,unsigned short *)` | 24 | Exported Function
-`public: __thiscall CDriveInfo::CDriveInfo(unsigned short const *,unsigned long)` | 1 | Exported Function
-`public: __thiscall CFullPath::CFullPath(unsigned short const *)` | 2 | Exported Function
-`protected: void __thiscall CAllocStorageVariant::ResetType(class PMemoryAllocator &)` | 53 | Exported Function
+`GetSectorSize` | 28 | Exported Function
+`ContainsDrive` | 14 | Exported Function
+`GetDrive` | 24 | Exported Function
+`CDriveInfo` | 1 | Exported Function
+`CFullPath` | 2 | Exported Function
+`ResetType` | 53 | Exported Function
 `PerfmonIDXOpen` | 85 | Exported Function
 `PerfmonOpen` | 86 | Exported Function
-`public: __thiscall CFullPropSpec::CFullPropSpec(class CFullPropSpec const &)` | 3 | Exported Function
+`CFullPropSpec` | 3 | Exported Function
 `public: __thiscall CPidLookupTable::~CPidLookupTable(void)` | 11 | Exported Function
-`public: __thiscall CUnNormalizer::CUnNormalizer(void)` | 6 | Exported Function
-`public: __thiscall CPidLookupTable::CPidLookupTable(void)` | 5 | Exported Function
-`public: __thiscall CiStorage::CiStorage(unsigned short const *,unsigned long,struct ICiCAdviseStatus *,unsigned long,int)` | 7 | Exported Function
-`public: __thiscall CMemSerStream::CMemSerStream(unsigned char *,unsigned long)` | 4 | Exported Function
+`CUnNormalizer` | 6 | Exported Function
+`CPidLookupTable` | 5 | Exported Function
+`CiStorage` | 7 | Exported Function
+`CMemSerStream` | 4 | Exported Function
 
 
 ## Signature

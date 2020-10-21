@@ -26,280 +26,280 @@ PE256 | `68379EEB936CC660855F0B488A45D1E7715CBBB94D1EA8FA4DC4BBE8F534BBE1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::ECDSADigestEngine::signature(void)` | 254 | Exported Function
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::RSADigestEngine::signature(void)` | 255 | Exported Function
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::CipherKey::getIV(void)const ` | 195 | Exported Function
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::CipherKey::getKey(void)const ` | 196 | Exported Function
-`public: int __thiscall Poco::Crypto::CipherKey::blockSize(void)const ` | 154 | Exported Function
-`public: int __thiscall Poco::Crypto::CipherKey::ivSize(void)const ` | 215 | Exported Function
-`public: enum Poco::Crypto::CipherKeyImpl::Mode __thiscall Poco::Crypto::CipherKey::mode(void)const ` | 221 | Exported Function
-`public: enum Poco::Crypto::KeyPair::Type __thiscall Poco::Crypto::KeyPair::type(void)const ` | 263 | Exported Function
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > __thiscall Poco::Crypto::RSAKey::modulus(void)const ` | 222 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::X509Certificate::serialNumber(void)const ` | 245 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::X509Certificate::subjectName(void)const ` | 259 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::PKCS12Container::getFriendlyName(void)const ` | 193 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::X509Certificate::issuerName(void)const ` | 214 | Exported Function
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > __thiscall Poco::Crypto::RSAKey::decryptionExponent(void)const ` | 169 | Exported Function
-`public: class std::vector<unsigned char,class std::allocator<unsigned char> > __thiscall Poco::Crypto::RSAKey::encryptionExponent(void)const ` | 185 | Exported Function
-`public: class std::vector<class Poco::Crypto::X509Certificate,class std::allocator<class Poco::Crypto::X509Certificate> > const & __thiscall Poco::Crypto::PKCS12Container::getCACerts(void)const ` | 190 | Exported Function
-`public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const & __thiscall Poco::Crypto::PKCS12Container::getFriendlyNamesCA(void)const ` | 194 | Exported Function
-`public: static void __cdecl Poco::Crypto::OpenSSLInitializer::enableFIPSMode(bool)` | 182 | Exported Function
-`public: static void __cdecl Poco::Crypto::OpenSSLInitializer::initialize(void)` | 208 | Exported Function
-`public: static int __cdecl Poco::Crypto::ECKey::getCurveNID(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 191 | Exported Function
-`public: static struct evp_pkey_st * __cdecl Poco::Crypto::EVPPKey::duplicate(struct evp_pkey_st const *,struct evp_pkey_st * *)` | 178 | Exported Function
-`public: struct x509_st * __thiscall Poco::Crypto::X509Certificate::dup(void)const ` | 177 | Exported Function
-`public: struct x509_st const * __thiscall Poco::Crypto::X509Certificate::certificate(void)const ` | 155 | Exported Function
-`public: static void __cdecl Poco::Crypto::OpenSSLInitializer::uninitialize(void)` | 264 | Exported Function
-`public: static void __cdecl Poco::Crypto::X509Certificate::writePEM(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class Poco::Crypto::X509Certificate,class std::allocator<class Poco::Crypto::X509Certificate> > const &)` | 273 | Exported Function
-`public: static class std::vector<class Poco::Crypto::X509Certificate,class std::allocator<class Poco::Crypto::X509Certificate> > __cdecl Poco::Crypto::X509Certificate::readPEM(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 233 | Exported Function
-`public: int __thiscall Poco::Crypto::EVPPKey::type(void)const ` | 262 | Exported Function
-`public: long __thiscall Poco::Crypto::X509Certificate::version(void)const ` | 272 | Exported Function
-`public: int __thiscall Poco::Crypto::CipherKey::keySize(void)const ` | 216 | Exported Function
-`public: int __thiscall Poco::Crypto::DigestEngine::nid(void)const ` | 228 | Exported Function
-`public: static class Poco::Crypto::CipherFactory & __cdecl Poco::Crypto::CipherFactory::defaultFactory(void)` | 170 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Poco::Crypto::ECKey::getCurveName(int)` | 192 | Exported Function
-`public: static bool __cdecl Poco::Crypto::ECKey::hasCurve(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 199 | Exported Function
-`public: static bool __cdecl Poco::Crypto::OpenSSLInitializer::isFIPSEnabled(void)` | 210 | Exported Function
-`public: class Poco::Crypto::CryptoStreamBuf * __thiscall Poco::Crypto::CryptoIOS::rdbuf(void)` | 231 | Exported Function
-`public: class Poco::Crypto::CryptoTransform & __thiscall Poco::Crypto::CryptoTransform::operator=(class Poco::Crypto::CryptoTransform const &)` | 94 | Exported Function
-`public: class Poco::Crypto::CipherKey & __thiscall Poco::Crypto::CipherKey::operator=(class Poco::Crypto::CipherKey const &)` | 92 | Exported Function
-`public: class Poco::Crypto::CryptoException & __thiscall Poco::Crypto::CryptoException::operator=(class Poco::Crypto::CryptoException const &)` | 93 | Exported Function
-`public: class Poco::Crypto::EVPPKey & __thiscall Poco::Crypto::EVPPKey::operator=(class Poco::Crypto::EVPPKey const &)` | 97 | Exported Function
-`public: class Poco::Crypto::EVPPKey __thiscall Poco::Crypto::PKCS12Container::getKey(void)const ` | 197 | Exported Function
-`public: class Poco::Crypto::ECKey & __thiscall Poco::Crypto::ECKey::operator=(class Poco::Crypto::ECKey const &)` | 95 | Exported Function
-`public: class Poco::Crypto::EVPPKey & __thiscall Poco::Crypto::EVPPKey::operator=(class Poco::Crypto::EVPPKey &&)` | 96 | Exported Function
-`public: class Poco::Crypto::Cipher * __thiscall Poco::Crypto::CipherFactory::createCipher(class Poco::Crypto::RSAKey const &,enum RSAPaddingMode)` | 166 | Exported Function
-`public: bool __thiscall Poco::Crypto::X509Certificate::issuedBy(class Poco::Crypto::X509Certificate const &)const ` | 212 | Exported Function
-`public: class Poco::AutoPtr<class Poco::Crypto::CipherKeyImpl> __thiscall Poco::Crypto::CipherKey::impl(void)` | 203 | Exported Function
-`public: bool __thiscall Poco::Crypto::RSADigestEngine::verify(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 271 | Exported Function
-`public: bool __thiscall Poco::Crypto::X509Certificate::equals(class Poco::Crypto::X509Certificate const &)const ` | 186 | Exported Function
-`public: class Poco::AutoPtr<class Poco::Crypto::RSAKeyImpl> __thiscall Poco::Crypto::RSAKey::impl(void)const ` | 206 | Exported Function
-`public: class Poco::Crypto::Cipher * __thiscall Poco::Crypto::CipherFactory::createCipher(class Poco::Crypto::CipherKey const &)` | 165 | Exported Function
-`public: class Poco::AutoPtr<class Poco::Crypto::ECKeyImpl> __thiscall Poco::Crypto::ECKey::impl(void)const ` | 204 | Exported Function
-`public: class Poco::AutoPtr<class Poco::Crypto::KeyPairImpl> __thiscall Poco::Crypto::KeyPair::impl(void)const ` | 205 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::X509Certificate::issuerName(enum Poco::Crypto::X509Certificate::NID)const ` | 213 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::X509Certificate::signatureAlgorithm(void)const ` | 256 | Exported Function
-`public: class Poco::DateTime __thiscall Poco::Crypto::X509Certificate::validFrom(void)const ` | 269 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::X509Certificate::commonName(void)const ` | 164 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::DigestEngine::algorithm(void)const ` | 153 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::KeyPair::name(void)const ` | 225 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::X509Certificate::subjectName(enum Poco::Crypto::X509Certificate::NID)const ` | 258 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall Poco::Crypto::CipherKey::name(void)const ` | 223 | Exported Function
-`public: class Poco::DateTime __thiscall Poco::Crypto::X509Certificate::expiresOn(void)const ` | 187 | Exported Function
-`public: class Poco::Crypto::OpenSSLInitializer & __thiscall Poco::Crypto::OpenSSLInitializer::operator=(class Poco::Crypto::OpenSSLInitializer const &)` | 100 | Exported Function
-`public: class Poco::Crypto::PKCS12Container & __thiscall Poco::Crypto::PKCS12Container::operator=(class Poco::Crypto::PKCS12Container &&)` | 101 | Exported Function
-`public: class Poco::Crypto::KeyPair & __thiscall Poco::Crypto::KeyPair::operator=(class Poco::Crypto::KeyPair const &)` | 98 | Exported Function
-`public: class Poco::Crypto::OpenSSLException & __thiscall Poco::Crypto::OpenSSLException::operator=(class Poco::Crypto::OpenSSLException const &)` | 99 | Exported Function
-`public: class Poco::Crypto::X509Certificate & __thiscall Poco::Crypto::X509Certificate::operator=(class Poco::Crypto::X509Certificate const &)` | 104 | Exported Function
-`public: class Poco::Crypto::X509Certificate const & __thiscall Poco::Crypto::PKCS12Container::getX509Certificate(void)const ` | 198 | Exported Function
-`public: class Poco::Crypto::PKCS12Container & __thiscall Poco::Crypto::PKCS12Container::operator=(class Poco::Crypto::PKCS12Container const &)` | 102 | Exported Function
-`public: class Poco::Crypto::RSAKey & __thiscall Poco::Crypto::RSAKey::operator=(class Poco::Crypto::RSAKey const &)` | 103 | Exported Function
-`public: virtual __thiscall Poco::Crypto::Cipher::~Cipher(void)` | 68 | Exported Function
-`public: void __thiscall Poco::Crypto::CryptoException::``default constructor closure'(void)` | 148 | Exported Function
-`public: void __thiscall Poco::Crypto::CryptoInputStream::``vbase destructor'(void)` | 142 | Exported Function
-`public: void __thiscall Poco::Crypto::CipherKey::setIV(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 247 | Exported Function
-`public: void __thiscall Poco::Crypto::CipherKey::setKey(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 248 | Exported Function
-`public: void __thiscall Poco::Crypto::CryptoOutputStream::close(void)` | 160 | Exported Function
-`public: void __thiscall Poco::Crypto::CryptoStreamBuf::close(void)` | 161 | Exported Function
-`public: void __thiscall Poco::Crypto::CryptoIOS::``vbase destructor'(void)` | 141 | Exported Function
-`public: void __thiscall Poco::Crypto::CryptoOutputStream::``vbase destructor'(void)` | 143 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::RSADigestEngine::reset(void)` | 236 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::CryptoException::rethrow(void)const ` | 237 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::DigestEngine::reset(void)` | 234 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::Cipher::decrypt(class std::basic_istream<char,struct std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &,enum Poco::Crypto::Cipher::Encoding)` | 167 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::Cipher::encrypt(class std::basic_istream<char,struct std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &,enum Poco::Crypto::Cipher::Encoding)` | 183 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::KeyPair::save(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 241 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::OpenSSLException::rethrow(void)const ` | 238 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::ECDSADigestEngine::reset(void)` | 235 | Exported Function
-`public: virtual void __thiscall Poco::Crypto::KeyPair::save(class std::basic_ostream<char,struct std::char_traits<char> > *,class std::basic_ostream<char,struct std::char_traits<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 242 | Exported Function
-`public: void __thiscall Poco::Crypto::X509Certificate::print(class std::basic_ostream<char,struct std::char_traits<char> > &)const ` | 230 | Exported Function
-`public: void __thiscall Poco::Crypto::X509Certificate::save(class std::basic_ostream<char,struct std::char_traits<char> > &)const ` | 243 | Exported Function
-`public: void __thiscall Poco::Crypto::OpenSSLException::``default constructor closure'(void)` | 150 | Exported Function
-`public: void __thiscall Poco::Crypto::X509Certificate::extractNames(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::set<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)const ` | 189 | Exported Function
-`void __cdecl Poco::Crypto::initializeCrypto(void)` | 209 | Exported Function
-`void __cdecl Poco::Crypto::uninitializeCrypto(void)` | 265 | Exported Function
-`public: void __thiscall Poco::Crypto::X509Certificate::save(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 244 | Exported Function
-`public: void __thiscall Poco::Crypto::X509Certificate::swap(class Poco::Crypto::X509Certificate &)` | 260 | Exported Function
-`public: void __thiscall Poco::Crypto::KeyPair::``default constructor closure'(void)` | 149 | Exported Function
-`public: void __thiscall Poco::Crypto::DecryptingOutputStream::close(void)` | 162 | Exported Function
-`public: void __thiscall Poco::Crypto::EncryptingInputStream::``vbase destructor'(void)` | 146 | Exported Function
-`public: void __thiscall Poco::Crypto::DecryptingInputStream::``vbase destructor'(void)` | 144 | Exported Function
-`public: void __thiscall Poco::Crypto::DecryptingOutputStream::``vbase destructor'(void)` | 145 | Exported Function
-`public: void __thiscall Poco::Crypto::EVPPKey::save(class std::basic_ostream<char,struct std::char_traits<char> > *,class std::basic_ostream<char,struct std::char_traits<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 240 | Exported Function
-`public: void __thiscall Poco::Crypto::EVPPKey::save(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const ` | 239 | Exported Function
-`public: void __thiscall Poco::Crypto::EncryptingOutputStream::``vbase destructor'(void)` | 147 | Exported Function
-`public: void __thiscall Poco::Crypto::EncryptingOutputStream::close(void)` | 163 | Exported Function
-`public: virtual __thiscall Poco::Crypto::ECKey::~ECKey(void)` | 81 | Exported Function
-`public: virtual __thiscall Poco::Crypto::EncryptingInputStream::~EncryptingInputStream(void)` | 83 | Exported Function
-`public: virtual __thiscall Poco::Crypto::DigestEngine::~DigestEngine(void)` | 79 | Exported Function
-`public: virtual __thiscall Poco::Crypto::ECDSADigestEngine::~ECDSADigestEngine(void)` | 80 | Exported Function
-`public: virtual __thiscall Poco::Crypto::OpenSSLException::~OpenSSLException(void)` | 86 | Exported Function
-`public: virtual __thiscall Poco::Crypto::RSADigestEngine::~RSADigestEngine(void)` | 89 | Exported Function
-`public: virtual __thiscall Poco::Crypto::EncryptingOutputStream::~EncryptingOutputStream(void)` | 84 | Exported Function
-`public: virtual __thiscall Poco::Crypto::KeyPair::~KeyPair(void)` | 85 | Exported Function
-`public: virtual __thiscall Poco::Crypto::DecryptingOutputStream::~DecryptingOutputStream(void)` | 78 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CryptoInputStream::~CryptoInputStream(void)` | 73 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CryptoIOS::~CryptoIOS(void)` | 72 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CipherFactory::~CipherFactory(void)` | 69 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CryptoException::~CryptoException(void)` | 71 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CryptoTransform::~CryptoTransform(void)` | 76 | Exported Function
-`public: virtual __thiscall Poco::Crypto::DecryptingInputStream::~DecryptingInputStream(void)` | 77 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CryptoOutputStream::~CryptoOutputStream(void)` | 74 | Exported Function
-`public: virtual __thiscall Poco::Crypto::CryptoStreamBuf::~CryptoStreamBuf(void)` | 75 | Exported Function
-`public: virtual class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::RSADigestEngine::digest(void)` | 173 | Exported Function
-`public: virtual int __thiscall Poco::Crypto::CryptoTransform::setPadding(int)` | 253 | Exported Function
-`public: virtual class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::DigestEngine::digest(void)` | 171 | Exported Function
-`public: virtual class std::vector<unsigned char,class std::allocator<unsigned char> > const & __thiscall Poco::Crypto::ECDSADigestEngine::digest(void)` | 172 | Exported Function
-`public: virtual unsigned int __thiscall Poco::Crypto::ECDSADigestEngine::digestLength(void)const ` | 175 | Exported Function
-`public: virtual unsigned int __thiscall Poco::Crypto::RSADigestEngine::digestLength(void)const ` | 176 | Exported Function
-`public: virtual int __thiscall Poco::Crypto::KeyPair::size(void)const ` | 257 | Exported Function
-`public: virtual unsigned int __thiscall Poco::Crypto::DigestEngine::digestLength(void)const ` | 174 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::Cipher::encryptString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Poco::Crypto::Cipher::Encoding)` | 184 | Exported Function
-`public: virtual char const * __thiscall Poco::Crypto::CryptoException::name(void)const ` | 224 | Exported Function
-`public: virtual char const * __thiscall Poco::Crypto::OpenSSLException::className(void)const ` | 157 | Exported Function
-`public: virtual __thiscall Poco::Crypto::RSAKey::~RSAKey(void)` | 90 | Exported Function
-`public: virtual char const * __thiscall Poco::Crypto::CryptoException::className(void)const ` | 156 | Exported Function
-`public: virtual class Poco::Exception * __thiscall Poco::Crypto::OpenSSLException::clone(void)const ` | 159 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::Cipher::decryptString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Poco::Crypto::Cipher::Encoding)` | 168 | Exported Function
-`public: virtual char const * __thiscall Poco::Crypto::OpenSSLException::name(void)const ` | 226 | Exported Function
-`public: virtual class Poco::Exception * __thiscall Poco::Crypto::CryptoException::clone(void)const ` | 158 | Exported Function
-`protected: static struct CRYPTO_dynlock_value * __cdecl Poco::Crypto::OpenSSLInitializer::dynlockCreate(char const *,int)` | 180 | Exported Function
-`protected: static unsigned long __cdecl Poco::Crypto::OpenSSLInitializer::id(void)` | 202 | Exported Function
-`private: void __thiscall Poco::Crypto::PKCS12Container::load(struct PKCS12_st *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 217 | Exported Function
-`protected: __thiscall Poco::Crypto::Cipher::Cipher(void)` | 1 | Exported Function
-`protected: static void __cdecl Poco::Crypto::OpenSSLInitializer::lock(int,int,char const *,int)` | 220 | Exported Function
-`protected: virtual int __thiscall Poco::Crypto::CryptoStreamBuf::readFromDevice(char *,__int64)` | 232 | Exported Function
-`protected: static void __cdecl Poco::Crypto::OpenSSLInitializer::dynlock(int,struct CRYPTO_dynlock_value *,char const *,int)` | 179 | Exported Function
-`protected: static void __cdecl Poco::Crypto::OpenSSLInitializer::dynlockDestroy(struct CRYPTO_dynlock_value *,char const *,int)` | 181 | Exported Function
-`private: void __thiscall Poco::Crypto::OpenSSLException::setExtMessage(void)` | 246 | Exported Function
-`private: static int __cdecl Poco::Crypto::EVPPKey::type(struct evp_pkey_st const *)` | 261 | Exported Function
-`private: void __thiscall Poco::Crypto::EVPPKey::newECKey(char const *)` | 227 | Exported Function
-`private: static class Poco::FastMutex * Poco::Crypto::OpenSSLInitializer::_mutexes` | 151 | Exported Function
-`private: static int __cdecl Poco::Crypto::EVPPKey::passCB(char *,int,int,void *)` | 229 | Exported Function
-`private: void __thiscall Poco::Crypto::EVPPKey::setKey(struct ec_key_st *)` | 249 | Exported Function
-`private: void __thiscall Poco::Crypto::EVPPKey::setKey(struct rsa_st *)` | 250 | Exported Function
-`private: void __thiscall Poco::Crypto::EVPPKey::setKey(class Poco::Crypto::ECKey *)` | 251 | Exported Function
-`private: void __thiscall Poco::Crypto::EVPPKey::setKey(class Poco::Crypto::RSAKey *)` | 252 | Exported Function
-`public: __thiscall Poco::Crypto::CipherKey::CipherKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 6 | Exported Function
-`public: __thiscall Poco::Crypto::CipherKey::~CipherKey(void)` | 70 | Exported Function
-`public: __thiscall Poco::Crypto::CipherKey::CipherKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 5 | Exported Function
-`public: __thiscall Poco::Crypto::CipherKey::CipherKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 4 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoException::CryptoException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 8 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoException::CryptoException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 10 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoException::CryptoException(class Poco::Crypto::CryptoException const &)` | 7 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoException::CryptoException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class Poco::Exception const &,int)` | 9 | Exported Function
-`public: __thiscall Poco::Crypto::CipherKey::CipherKey(class Poco::Crypto::CipherKey const &)` | 3 | Exported Function
-`protected: virtual void __thiscall Poco::Crypto::ECDSADigestEngine::updateImpl(void const *,unsigned int)` | 267 | Exported Function
-`protected: virtual void __thiscall Poco::Crypto::RSADigestEngine::updateImpl(void const *,unsigned int)` | 268 | Exported Function
-`protected: virtual int __thiscall Poco::Crypto::CryptoStreamBuf::writeToDevice(char const *,__int64)` | 274 | Exported Function
-`protected: virtual void __thiscall Poco::Crypto::DigestEngine::updateImpl(void const *,unsigned int)` | 266 | Exported Function
-`protected: void __thiscall Poco::Crypto::X509Certificate::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 219 | Exported Function
-`public: __thiscall Poco::Crypto::CipherFactory::CipherFactory(void)` | 2 | Exported Function
-`protected: void __thiscall Poco::Crypto::X509Certificate::init(void)` | 207 | Exported Function
-`protected: void __thiscall Poco::Crypto::X509Certificate::load(class std::basic_istream<char,struct std::char_traits<char> > &)` | 218 | Exported Function
-`const Poco::Crypto::CryptoStreamBuf::``vftable'` | 115 | Exported Function
-`const Poco::Crypto::CryptoTransform::``vftable'` | 116 | Exported Function
-`const Poco::Crypto::CryptoOutputStream::``vbtable'{for ``std::basic_ostream<char,struct std::char_traits<char> >'}` | 131 | Exported Function
-`const Poco::Crypto::CryptoOutputStream::``vftable'` | 114 | Exported Function
-`const Poco::Crypto::DecryptingInputStream::``vftable'` | 117 | Exported Function
-`const Poco::Crypto::DecryptingOutputStream::``vbtable'{for ``Poco::Crypto::CryptoIOS'}` | 136 | Exported Function
-`const Poco::Crypto::DecryptingInputStream::``vbtable'{for ``Poco::Crypto::CryptoIOS'}` | 134 | Exported Function
-`const Poco::Crypto::DecryptingInputStream::``vbtable'{for ``std::basic_istream<char,struct std::char_traits<char> >'}` | 133 | Exported Function
-`const Poco::Crypto::CryptoOutputStream::``vbtable'{for ``Poco::Crypto::CryptoIOS'}` | 132 | Exported Function
-`const Poco::Crypto::CryptoException::``vftable'` | 111 | Exported Function
-`const Poco::Crypto::CryptoInputStream::``vbtable'{for ``Poco::Crypto::CryptoIOS'}` | 130 | Exported Function
-`const Poco::Crypto::Cipher::``vftable'` | 109 | Exported Function
-`const Poco::Crypto::CipherFactory::``vftable'` | 110 | Exported Function
-`const Poco::Crypto::CryptoIOS::``vbtable'` | 128 | Exported Function
-`const Poco::Crypto::CryptoIOS::``vftable'` | 112 | Exported Function
-`const Poco::Crypto::CryptoInputStream::``vbtable'{for ``std::basic_istream<char,struct std::char_traits<char> >'}` | 129 | Exported Function
-`const Poco::Crypto::CryptoInputStream::``vftable'` | 113 | Exported Function
-`const Poco::Crypto::KeyPair::``vftable'` | 124 | Exported Function
-`const Poco::Crypto::OpenSSLException::``vftable'` | 125 | Exported Function
-`const Poco::Crypto::EncryptingOutputStream::``vbtable'{for ``std::basic_ostream<char,struct std::char_traits<char> >'}` | 139 | Exported Function
-`const Poco::Crypto::EncryptingOutputStream::``vftable'` | 123 | Exported Function
-`private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Poco::Crypto::PKCS12Container::extractFriendlyName(struct x509_st *)` | 188 | Exported Function
-`private: static class Poco::AtomicCounter Poco::Crypto::OpenSSLInitializer::_rc` | 152 | Exported Function
-`const Poco::Crypto::RSADigestEngine::``vftable'` | 126 | Exported Function
-`const Poco::Crypto::RSAKey::``vftable'` | 127 | Exported Function
-`const Poco::Crypto::EncryptingOutputStream::``vbtable'{for ``Poco::Crypto::CryptoIOS'}` | 140 | Exported Function
-`const Poco::Crypto::DigestEngine::``vftable'` | 119 | Exported Function
-`const Poco::Crypto::ECDSADigestEngine::``vftable'` | 120 | Exported Function
-`const Poco::Crypto::DecryptingOutputStream::``vbtable'{for ``std::basic_ostream<char,struct std::char_traits<char> >'}` | 135 | Exported Function
-`const Poco::Crypto::DecryptingOutputStream::``vftable'` | 118 | Exported Function
-`const Poco::Crypto::EncryptingInputStream::``vbtable'{for ``std::basic_istream<char,struct std::char_traits<char> >'}` | 137 | Exported Function
-`const Poco::Crypto::EncryptingInputStream::``vftable'` | 122 | Exported Function
-`const Poco::Crypto::ECKey::``vftable'` | 121 | Exported Function
-`const Poco::Crypto::EncryptingInputStream::``vbtable'{for ``Poco::Crypto::CryptoIOS'}` | 138 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoException::CryptoException(int)` | 11 | Exported Function
-`public: __thiscall Poco::Crypto::PKCS12Container::PKCS12Container(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 53 | Exported Function
-`public: __thiscall Poco::Crypto::PKCS12Container::~PKCS12Container(void)` | 88 | Exported Function
-`public: __thiscall Poco::Crypto::PKCS12Container::PKCS12Container(class Poco::Crypto::PKCS12Container const &)` | 52 | Exported Function
-`public: __thiscall Poco::Crypto::PKCS12Container::PKCS12Container(class std::basic_istream<char,struct std::char_traits<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 51 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(class Poco::Crypto::EVPPKey const &)` | 58 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(class Poco::Crypto::PKCS12Container const &)` | 59 | Exported Function
-`public: __thiscall Poco::Crypto::RSADigestEngine::RSADigestEngine(class Poco::Crypto::RSAKey const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 54 | Exported Function
-`public: __thiscall Poco::Crypto::RSADigestEngine::RSADigestEngine(class Poco::Crypto::RSAKey const &,enum Poco::Crypto::RSADigestEngine::DigestType)` | 55 | Exported Function
-`public: __thiscall Poco::Crypto::PKCS12Container::PKCS12Container(class Poco::Crypto::PKCS12Container &&)` | 50 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLException::OpenSSLException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class Poco::Exception const &,int)` | 46 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLException::OpenSSLException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 45 | Exported Function
-`public: __thiscall Poco::Crypto::KeyPair::KeyPair(class Poco::Crypto::KeyPair const &)` | 42 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLException::OpenSSLException(class Poco::Crypto::OpenSSLException const &)` | 44 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLInitializer::OpenSSLInitializer(void)` | 49 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLInitializer::~OpenSSLInitializer(void)` | 87 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLException::OpenSSLException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 47 | Exported Function
-`public: __thiscall Poco::Crypto::OpenSSLException::OpenSSLException(int)` | 48 | Exported Function
-`public: bool __thiscall Poco::Crypto::ECDSADigestEngine::verify(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)` | 270 | Exported Function
-`public: bool __thiscall Poco::Crypto::EVPPKey::isSupported(int)const ` | 211 | Exported Function
-`public: __thiscall Poco::Crypto::X509Certificate::X509Certificate(struct x509_st *,bool)` | 67 | Exported Function
-`public: __thiscall Poco::Crypto::X509Certificate::~X509Certificate(void)` | 91 | Exported Function
-`public: bool __thiscall Poco::Crypto::PKCS12Container::hasKey(void)const ` | 200 | Exported Function
-`public: bool __thiscall Poco::Crypto::PKCS12Container::hasX509Certificate(void)const ` | 201 | Exported Function
-`public: bool __thiscall Poco::Crypto::EVPPKey::operator!=(class Poco::Crypto::EVPPKey const &)const ` | 106 | Exported Function
-`public: bool __thiscall Poco::Crypto::EVPPKey::operator==(class Poco::Crypto::EVPPKey const &)const ` | 105 | Exported Function
-`public: __thiscall Poco::Crypto::X509Certificate::X509Certificate(struct x509_st *)` | 66 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 61 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 57 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(class Poco::Crypto::RSAKey const &)` | 56 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(class Poco::Crypto::X509Certificate const &)` | 60 | Exported Function
-`public: __thiscall Poco::Crypto::X509Certificate::X509Certificate(class std::basic_istream<char,struct std::char_traits<char> > &)` | 63 | Exported Function
-`public: __thiscall Poco::Crypto::X509Certificate::X509Certificate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 65 | Exported Function
-`public: __thiscall Poco::Crypto::RSAKey::RSAKey(enum Poco::Crypto::RSAKey::KeyLength,enum Poco::Crypto::RSAKey::Exponent)` | 62 | Exported Function
-`public: __thiscall Poco::Crypto::X509Certificate::X509Certificate(class Poco::Crypto::X509Certificate const &)` | 64 | Exported Function
-`public: __thiscall Poco::Crypto::DecryptingOutputStream::DecryptingOutputStream(class std::basic_ostream<char,struct std::char_traits<char> > &,class Poco::Crypto::Cipher &,__int64)` | 23 | Exported Function
-`public: __thiscall Poco::Crypto::DigestEngine::DigestEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 24 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoTransform::CryptoTransform(void)` | 21 | Exported Function
-`public: __thiscall Poco::Crypto::DecryptingInputStream::DecryptingInputStream(class std::basic_istream<char,struct std::char_traits<char> > &,class Poco::Crypto::Cipher &,__int64)` | 22 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class Poco::Crypto::EVPPKey const &)` | 29 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class Poco::Crypto::PKCS12Container const &)` | 30 | Exported Function
-`public: __thiscall Poco::Crypto::ECDSADigestEngine::ECDSADigestEngine(class Poco::Crypto::ECKey const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 25 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class Poco::Crypto::ECKey const &)` | 26 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoTransform::CryptoTransform(class Poco::Crypto::CryptoTransform const &)` | 20 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoIOS::CryptoIOS(class std::basic_istream<char,struct std::char_traits<char> > &,class Poco::Crypto::CryptoTransform *,__int64)` | 12 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoIOS::CryptoIOS(class std::basic_ostream<char,struct std::char_traits<char> > &,class Poco::Crypto::CryptoTransform *,__int64)` | 13 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoInputStream::CryptoInputStream(class std::basic_istream<char,struct std::char_traits<char> > &,class Poco::Crypto::Cipher &,__int64)` | 14 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoInputStream::CryptoInputStream(class std::basic_istream<char,struct std::char_traits<char> > &,class Poco::Crypto::CryptoTransform *,__int64)` | 15 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoStreamBuf::CryptoStreamBuf(class std::basic_istream<char,struct std::char_traits<char> > &,class Poco::Crypto::CryptoTransform *,__int64)` | 18 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoStreamBuf::CryptoStreamBuf(class std::basic_ostream<char,struct std::char_traits<char> > &,class Poco::Crypto::CryptoTransform *,__int64)` | 19 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoOutputStream::CryptoOutputStream(class std::basic_ostream<char,struct std::char_traits<char> > &,class Poco::Crypto::Cipher &,__int64)` | 16 | Exported Function
-`public: __thiscall Poco::Crypto::CryptoOutputStream::CryptoOutputStream(class std::basic_ostream<char,struct std::char_traits<char> > &,class Poco::Crypto::CryptoTransform *,__int64)` | 17 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 35 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(struct evp_pkey_st *)` | 37 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 38 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 36 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::~EVPPKey(void)` | 82 | Exported Function
-`public: __thiscall Poco::Crypto::KeyPair::KeyPair(class Poco::AutoPtr<class Poco::Crypto::KeyPairImpl>)` | 43 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::operator struct evp_pkey_st *(void)` | 107 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::operator struct evp_pkey_st const *(void)const ` | 108 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(class Poco::Crypto::EVPPKey const &)` | 34 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 28 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 27 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class Poco::Crypto::X509Certificate const &)` | 31 | Exported Function
-`public: __thiscall Poco::Crypto::ECKey::ECKey(class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 32 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(char const *)` | 39 | Exported Function
-`public: __thiscall Poco::Crypto::EVPPKey::EVPPKey(class Poco::Crypto::EVPPKey &&)` | 33 | Exported Function
-`public: __thiscall Poco::Crypto::EncryptingInputStream::EncryptingInputStream(class std::basic_istream<char,struct std::char_traits<char> > &,class Poco::Crypto::Cipher &,__int64)` | 40 | Exported Function
-`public: __thiscall Poco::Crypto::EncryptingOutputStream::EncryptingOutputStream(class std::basic_ostream<char,struct std::char_traits<char> > &,class Poco::Crypto::Cipher &,__int64)` | 41 | Exported Function
+`signature` | 254 | Exported Function
+`signature` | 255 | Exported Function
+`getIV` | 195 | Exported Function
+`getKey` | 196 | Exported Function
+`blockSize` | 154 | Exported Function
+`ivSize` | 215 | Exported Function
+`mode` | 221 | Exported Function
+`type` | 263 | Exported Function
+`modulus` | 222 | Exported Function
+`serialNumber` | 245 | Exported Function
+`subjectName` | 259 | Exported Function
+`getFriendlyName` | 193 | Exported Function
+`issuerName` | 214 | Exported Function
+`decryptionExponent` | 169 | Exported Function
+`encryptionExponent` | 185 | Exported Function
+`getCACerts` | 190 | Exported Function
+`getFriendlyNamesCA` | 194 | Exported Function
+`enableFIPSMode` | 182 | Exported Function
+`initialize` | 208 | Exported Function
+`allocator` | 191 | Exported Function
+`duplicate` | 178 | Exported Function
+`dup` | 177 | Exported Function
+`certificate` | 155 | Exported Function
+`uninitialize` | 264 | Exported Function
+`X509Certificate` | 273 | Exported Function
+`allocator` | 233 | Exported Function
+`type` | 262 | Exported Function
+`version` | 272 | Exported Function
+`keySize` | 216 | Exported Function
+`nid` | 228 | Exported Function
+`defaultFactory` | 170 | Exported Function
+`getCurveName` | 192 | Exported Function
+`allocator` | 199 | Exported Function
+`isFIPSEnabled` | 210 | Exported Function
+`rdbuf` | 231 | Exported Function
+`CryptoTransform` | 94 | Exported Function
+`CipherKey` | 92 | Exported Function
+`CryptoException` | 93 | Exported Function
+`EVPPKey` | 97 | Exported Function
+`getKey` | 197 | Exported Function
+`ECKey` | 95 | Exported Function
+`EVPPKey` | 96 | Exported Function
+`RSAKey` | 166 | Exported Function
+`X509Certificate` | 212 | Exported Function
+`impl` | 203 | Exported Function
+`allocator` | 271 | Exported Function
+`X509Certificate` | 186 | Exported Function
+`impl` | 206 | Exported Function
+`CipherKey` | 165 | Exported Function
+`impl` | 204 | Exported Function
+`impl` | 205 | Exported Function
+`NID` | 213 | Exported Function
+`signatureAlgorithm` | 256 | Exported Function
+`validFrom` | 269 | Exported Function
+`commonName` | 164 | Exported Function
+`algorithm` | 153 | Exported Function
+`name` | 225 | Exported Function
+`NID` | 258 | Exported Function
+`name` | 223 | Exported Function
+`expiresOn` | 187 | Exported Function
+`OpenSSLInitializer` | 100 | Exported Function
+`PKCS12Container` | 101 | Exported Function
+`KeyPair` | 98 | Exported Function
+`OpenSSLException` | 99 | Exported Function
+`X509Certificate` | 104 | Exported Function
+`getX509Certificate` | 198 | Exported Function
+`PKCS12Container` | 102 | Exported Function
+`RSAKey` | 103 | Exported Function
+`Cipher` | 68 | Exported Function
+`CryptoException` | 148 | Exported Function
+`CryptoInputStream` | 142 | Exported Function
+`allocator` | 247 | Exported Function
+`allocator` | 248 | Exported Function
+`close` | 160 | Exported Function
+`close` | 161 | Exported Function
+`CryptoIOS` | 141 | Exported Function
+`CryptoOutputStream` | 143 | Exported Function
+`reset` | 236 | Exported Function
+`rethrow` | 237 | Exported Function
+`reset` | 234 | Exported Function
+`Encoding` | 167 | Exported Function
+`Encoding` | 183 | Exported Function
+`allocator` | 241 | Exported Function
+`rethrow` | 238 | Exported Function
+`reset` | 235 | Exported Function
+`allocator` | 242 | Exported Function
+`char_traits` | 230 | Exported Function
+`char_traits` | 243 | Exported Function
+`OpenSSLException` | 150 | Exported Function
+`allocator` | 189 | Exported Function
+`initializeCrypto` | 209 | Exported Function
+`uninitializeCrypto` | 265 | Exported Function
+`allocator` | 244 | Exported Function
+`X509Certificate` | 260 | Exported Function
+`KeyPair` | 149 | Exported Function
+`close` | 162 | Exported Function
+`EncryptingInputStream` | 146 | Exported Function
+`DecryptingInputStream` | 144 | Exported Function
+`DecryptingOutputStream` | 145 | Exported Function
+`allocator` | 240 | Exported Function
+`allocator` | 239 | Exported Function
+`EncryptingOutputStream` | 147 | Exported Function
+`close` | 163 | Exported Function
+`ECKey` | 81 | Exported Function
+`EncryptingInputStream` | 83 | Exported Function
+`DigestEngine` | 79 | Exported Function
+`ECDSADigestEngine` | 80 | Exported Function
+`OpenSSLException` | 86 | Exported Function
+`RSADigestEngine` | 89 | Exported Function
+`EncryptingOutputStream` | 84 | Exported Function
+`KeyPair` | 85 | Exported Function
+`DecryptingOutputStream` | 78 | Exported Function
+`CryptoInputStream` | 73 | Exported Function
+`CryptoIOS` | 72 | Exported Function
+`CipherFactory` | 69 | Exported Function
+`CryptoException` | 71 | Exported Function
+`CryptoTransform` | 76 | Exported Function
+`DecryptingInputStream` | 77 | Exported Function
+`CryptoOutputStream` | 74 | Exported Function
+`CryptoStreamBuf` | 75 | Exported Function
+`digest` | 173 | Exported Function
+`setPadding` | 253 | Exported Function
+`digest` | 171 | Exported Function
+`digest` | 172 | Exported Function
+`digestLength` | 175 | Exported Function
+`digestLength` | 176 | Exported Function
+`size` | 257 | Exported Function
+`digestLength` | 174 | Exported Function
+`Encoding` | 184 | Exported Function
+`name` | 224 | Exported Function
+`className` | 157 | Exported Function
+`RSAKey` | 90 | Exported Function
+`className` | 156 | Exported Function
+`clone` | 159 | Exported Function
+`Encoding` | 168 | Exported Function
+`name` | 226 | Exported Function
+`clone` | 158 | Exported Function
+`dynlockCreate` | 180 | Exported Function
+`id` | 202 | Exported Function
+`allocator` | 217 | Exported Function
+`Cipher` | 1 | Exported Function
+`lock` | 220 | Exported Function
+`readFromDevice` | 232 | Exported Function
+`dynlock` | 179 | Exported Function
+`dynlockDestroy` | 181 | Exported Function
+`setExtMessage` | 246 | Exported Function
+`type` | 261 | Exported Function
+`newECKey` | 227 | Exported Function
+`_mutexes` | 151 | Exported Function
+`passCB` | 229 | Exported Function
+`setKey` | 249 | Exported Function
+`setKey` | 250 | Exported Function
+`ECKey` | 251 | Exported Function
+`RSAKey` | 252 | Exported Function
+`allocator` | 6 | Exported Function
+`CipherKey` | 70 | Exported Function
+`allocator` | 5 | Exported Function
+`allocator` | 4 | Exported Function
+`allocator` | 8 | Exported Function
+`allocator` | 10 | Exported Function
+`CryptoException` | 7 | Exported Function
+`Exception` | 9 | Exported Function
+`CipherKey` | 3 | Exported Function
+`updateImpl` | 267 | Exported Function
+`updateImpl` | 268 | Exported Function
+`writeToDevice` | 274 | Exported Function
+`updateImpl` | 266 | Exported Function
+`allocator` | 219 | Exported Function
+`CipherFactory` | 2 | Exported Function
+`init` | 207 | Exported Function
+`char_traits` | 218 | Exported Function
+`CryptoStreamBuf` | 115 | Exported Function
+`CryptoTransform` | 116 | Exported Function
+`char_traits` | 131 | Exported Function
+`CryptoOutputStream` | 114 | Exported Function
+`DecryptingInputStream` | 117 | Exported Function
+`CryptoIOS` | 136 | Exported Function
+`CryptoIOS` | 134 | Exported Function
+`char_traits` | 133 | Exported Function
+`CryptoIOS` | 132 | Exported Function
+`CryptoException` | 111 | Exported Function
+`CryptoIOS` | 130 | Exported Function
+`Cipher` | 109 | Exported Function
+`CipherFactory` | 110 | Exported Function
+`CryptoIOS` | 128 | Exported Function
+`CryptoIOS` | 112 | Exported Function
+`char_traits` | 129 | Exported Function
+`CryptoInputStream` | 113 | Exported Function
+`KeyPair` | 124 | Exported Function
+`OpenSSLException` | 125 | Exported Function
+`char_traits` | 139 | Exported Function
+`EncryptingOutputStream` | 123 | Exported Function
+`extractFriendlyName` | 188 | Exported Function
+`_rc` | 152 | Exported Function
+`RSADigestEngine` | 126 | Exported Function
+`RSAKey` | 127 | Exported Function
+`CryptoIOS` | 140 | Exported Function
+`DigestEngine` | 119 | Exported Function
+`ECDSADigestEngine` | 120 | Exported Function
+`char_traits` | 135 | Exported Function
+`DecryptingOutputStream` | 118 | Exported Function
+`char_traits` | 137 | Exported Function
+`EncryptingInputStream` | 122 | Exported Function
+`ECKey` | 121 | Exported Function
+`CryptoIOS` | 138 | Exported Function
+`CryptoException` | 11 | Exported Function
+`allocator` | 53 | Exported Function
+`PKCS12Container` | 88 | Exported Function
+`PKCS12Container` | 52 | Exported Function
+`allocator` | 51 | Exported Function
+`EVPPKey` | 58 | Exported Function
+`PKCS12Container` | 59 | Exported Function
+`allocator` | 54 | Exported Function
+`DigestType` | 55 | Exported Function
+`PKCS12Container` | 50 | Exported Function
+`Exception` | 46 | Exported Function
+`allocator` | 45 | Exported Function
+`KeyPair` | 42 | Exported Function
+`OpenSSLException` | 44 | Exported Function
+`OpenSSLInitializer` | 49 | Exported Function
+`OpenSSLInitializer` | 87 | Exported Function
+`allocator` | 47 | Exported Function
+`OpenSSLException` | 48 | Exported Function
+`allocator` | 270 | Exported Function
+`isSupported` | 211 | Exported Function
+`X509Certificate` | 67 | Exported Function
+`X509Certificate` | 91 | Exported Function
+`hasKey` | 200 | Exported Function
+`hasX509Certificate` | 201 | Exported Function
+`EVPPKey` | 106 | Exported Function
+`EVPPKey` | 105 | Exported Function
+`X509Certificate` | 66 | Exported Function
+`allocator` | 61 | Exported Function
+`allocator` | 57 | Exported Function
+`RSAKey` | 56 | Exported Function
+`X509Certificate` | 60 | Exported Function
+`char_traits` | 63 | Exported Function
+`allocator` | 65 | Exported Function
+`Exponent` | 62 | Exported Function
+`X509Certificate` | 64 | Exported Function
+`Cipher` | 23 | Exported Function
+`allocator` | 24 | Exported Function
+`CryptoTransform` | 21 | Exported Function
+`Cipher` | 22 | Exported Function
+`EVPPKey` | 29 | Exported Function
+`PKCS12Container` | 30 | Exported Function
+`allocator` | 25 | Exported Function
+`ECKey` | 26 | Exported Function
+`CryptoTransform` | 20 | Exported Function
+`CryptoTransform` | 12 | Exported Function
+`CryptoTransform` | 13 | Exported Function
+`Cipher` | 14 | Exported Function
+`CryptoTransform` | 15 | Exported Function
+`CryptoTransform` | 18 | Exported Function
+`CryptoTransform` | 19 | Exported Function
+`Cipher` | 16 | Exported Function
+`CryptoTransform` | 17 | Exported Function
+`allocator` | 35 | Exported Function
+`EVPPKey` | 37 | Exported Function
+`allocator` | 38 | Exported Function
+`allocator` | 36 | Exported Function
+`EVPPKey` | 82 | Exported Function
+`KeyPairImpl` | 43 | Exported Function
+`operator` | 107 | Exported Function
+`operator` | 108 | Exported Function
+`EVPPKey` | 34 | Exported Function
+`allocator` | 28 | Exported Function
+`allocator` | 27 | Exported Function
+`X509Certificate` | 31 | Exported Function
+`allocator` | 32 | Exported Function
+`EVPPKey` | 39 | Exported Function
+`EVPPKey` | 33 | Exported Function
+`Cipher` | 40 | Exported Function
+`Cipher` | 41 | Exported Function
 
 
 ## Signature

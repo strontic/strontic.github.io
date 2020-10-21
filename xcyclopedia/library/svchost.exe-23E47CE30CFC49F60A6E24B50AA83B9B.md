@@ -18,11 +18,11 @@ SHA256 | `D8ECEAC9D02F7E8AAACA7BEEB8DC3FF28A0574E07FB34CA8E6720A6BC1126292`
 SHA384 | `C0EF72F60CAAC2A9D243116CC5782656F3BC0A33C7CE4895D62306598E03448D38262732D76CA0194E9710539E425221`
 SHA512 | `C86F077FEE11E732E05DD49F4AAA5CDA3CCC5BA1E3BF12E41E8C4830E99A8AC68DD1545A46FAE04504F2824D2462C9EB2AF640A4C7C54693535C6854F0050FBE`
 SSDEEP | `768:asS9ve0lF/t7hl1IuwpPZCP8cVpmm6/oy1P7lA:a/lF/t7hlSuwpPZ16mm6FPJA`
+IMP | `EC10F5BE711CB724C2D4D18A3C10AD6D`
+PESHA1 | `6F6983E1CE13F7E2DCFB76BFE65369143983AD45`
+PE256 | `9C878AF3109C48E7685578A05D8532D45E95DA65ECCF138D26200FDC7401A2A2`
 
 ## Runtime Data
-
-### Child Processes:
-RdpSa.exe
 
 ### Loaded Modules:
 
@@ -52,7 +52,12 @@ C:\Windows\SysWOW64\svchost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/d8eceac9d02f7e8aaaca7beeb8dc3ff28a0574e07fb34ca8e6720a6bc1126292/detection/
 
 
 ## Possible Misuse
@@ -127,6 +132,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | C:\svchost.exe /c echo T1105 > \\localhost\c$\T1105.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | del C:\\svchost.exe >nul 2>&1 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1134.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md) | <blockquote>Adversaries may spoof the parent process identifier (PPID) of a new process to evade process-monitoring defenses or to elevate privileges. New processes are typically spawned directly from their parent, or calling, process unless explicitly specified. One way of explicitly assigning the PPID of a new process is via the <code>CreateProcess</code> API call, which supports a parameter that defines the PPID to use.(Citation: DidierStevens SelectMyParent Nov 2009) This functionality is used by Windows features such as User Account Control (UAC) to correctly set the PPID after a requested elevated process is spawned by SYSTEM (typically via <code>svchost.exe</code> or <code>consent.exe</code>) rather than the current user context.(Citation: Microsoft UAC Nov 2018) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This has the interesting side effect of causing the executable (e.g. notepad) to run with an Initiating Process of "svchost.exe" and an Initiating Process Command Line of "svchost.exe -k netsvcs -p -s BITS" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | the TCP connection and creates the file on the disk is a svchost process (“-k netsvc -p -s BITS”)  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt15.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt15.yar) | $= "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt15.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt15.yar) | $= "%SystemRoot%\\System32\\svchost.exe -k netsvcs" wide ascii fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

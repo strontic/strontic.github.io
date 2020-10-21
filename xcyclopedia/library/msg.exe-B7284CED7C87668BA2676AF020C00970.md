@@ -18,6 +18,9 @@ SHA256 | `BCDD7F71B81BB24F6DCC0DDDA5280E2DB3E268CD8E0EE869B7DAA768F1DB7438`
 SHA384 | `9ECF1BFC9533974AFA9B8367C2C7E1F0B95E3CFF51D00609E18B40948F503C6C4475BCE4FB73E18BBED3DDAE50AF7C60`
 SHA512 | `81964618F0A01A3B2C2613CCD3D50DEBFB2D95E141C7DDCBD368254E31ECB1D2548F13CCA041B42914117B6A407D4765C52AC89AF54193E1778C4C10E62448BE`
 SSDEEP | `384:NrZ4yzjcon07xz6E//Y1SFRxXFuL3CcwKKeDoPYLXyqW4UWZz3:9Z7jcoMjNHXF9cpoPD0L`
+IMP | `E0786872A185609E8E4F301D75F409EF`
+PESHA1 | `E9F361D65D1080559C0B175B3ED600D174FF5D22`
+PE256 | `A909AD0EC94B056BB6A530B2D5E0F7CC6353C3A2E31D8FA053668861CFAFE4AB`
 
 ## Runtime Data
 
@@ -76,8 +79,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\msg.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -110,7 +116,12 @@ C:\Windows\SysWOW64\msg.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/bcdd7f71b81bb24f6dcc0ddda5280e2db3e268cd8e0ee869b7daa768f1db7438/detection/
 
 
 

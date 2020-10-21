@@ -44,25 +44,25 @@ Function Name | Ordinal | Type
 `RCClass_AddElement` | 90 | Exported Function
 `RCClass_AddElementQualifier` | 93 | Exported Function
 `RCClass_AddElementArrayItem` | 92 | Exported Function
-`public: void __thiscall WMISchema::Initialize(bool)` | 25 | Exported Function
-`public: long __stdcall WMISchema::DeInitialize(void)` | 16 | Exported Function
-`public: long __stdcall StaticSchema::Initialize(struct _MI_Module const *)` | 24 | Exported Function
-`public: virtual long __stdcall DynamicSchema::CreateInstance(unsigned short const *,struct IWbemClassObject *,unsigned long,struct _MI_PropertySet const *,bool,struct _MI_Instance * &,struct IConversionContext *)` | 13 | Exported Function
+`Initialize` | 25 | Exported Function
+`DeInitialize` | 16 | Exported Function
+`Initialize` | 24 | Exported Function
+`CreateInstance` | 13 | Exported Function
 `public: virtual __thiscall WMISchema::~WMISchema(void)` | 10 | Exported Function
-`public: class CCritSec & __thiscall CCritSec::operator=(class CCritSec const &)` | 12 | Exported Function
-`public: __thiscall WMISchema::WMISchema(bool)` | 7 | Exported Function
-`public: __thiscall StaticSchema::StaticSchema(void)` | 5 | Exported Function
-`public: class CAutoSetActivityId & __thiscall CAutoSetActivityId::operator=(class CAutoSetActivityId const &)` | 11 | Exported Function
-`public: __thiscall WMISchema::WMISchema(void)` | 6 | Exported Function
-`public: virtual long __stdcall WMISchema::GetNoneCachedWmiClass(unsigned short const *,struct IWbemServices *,class ATL::CComPtr<struct IWbemClassObject> &,struct IConversionContext *)` | 21 | Exported Function
-`public: virtual long __stdcall StaticSchema::GetMiClass(unsigned short const *,unsigned short const *,unsigned short const *,struct _MI_Class const * *)` | 20 | Exported Function
-`public: virtual long __stdcall WMISchema::GetWmiIWbemServices(unsigned short const *,class ATL::CComPtr<struct IWbemServices> &)` | 23 | Exported Function
-`public: virtual long __stdcall WMISchema::GetWmiClass(unsigned short const *,unsigned short const *,class ATL::CComPtr<struct IWbemClassObject> &,struct IConversionContext *)` | 22 | Exported Function
-`public: virtual long __stdcall StaticSchema::CreateInstance(unsigned short const *,struct IWbemClassObject *,unsigned long,struct _MI_PropertySet const *,bool,struct _MI_Instance * &,struct IConversionContext *)` | 15 | Exported Function
-`public: virtual long __stdcall IndicationSchema::CreateInstance(unsigned short const *,struct IWbemClassObject *,unsigned long,struct _MI_PropertySet const *,bool,struct _MI_Instance * &,struct IConversionContext *)` | 14 | Exported Function
-`public: virtual long __stdcall DynamicSchema::GetMiClass(unsigned short const *,unsigned short const *,unsigned short const *,struct _MI_Class const * *)` | 18 | Exported Function
-`public: virtual long __stdcall MiSchema::GetFlags(void)const ` | 17 | Exported Function
-`public: virtual long __stdcall IndicationSchema::GetMiClass(unsigned short const *,unsigned short const *,unsigned short const *,struct _MI_Class const * *)` | 19 | Exported Function
+`operator` | 12 | Exported Function
+`WMISchema` | 7 | Exported Function
+`StaticSchema` | 5 | Exported Function
+`operator` | 11 | Exported Function
+`WMISchema` | 6 | Exported Function
+`CComPtr` | 21 | Exported Function
+`GetMiClass` | 20 | Exported Function
+`CComPtr` | 23 | Exported Function
+`CComPtr` | 22 | Exported Function
+`CreateInstance` | 15 | Exported Function
+`CreateInstance` | 14 | Exported Function
+`GetMiClass` | 18 | Exported Function
+`GetFlags` | 17 | Exported Function
+`GetMiClass` | 19 | Exported Function
 `SetCorrelationIdToWbemContext` | 124 | Exported Function
 `RtlTryAcquireFastLockShared` | 121 | Exported Function
 `WriteWBEM_MC_CLIENT_REQUEST_FAILURE` | 139 | Exported Function
@@ -147,14 +147,14 @@ Function Name | Ordinal | Type
 `MI_Hash` | 65 | Exported Function
 `Instance_SetServerName` | 63 | Exported Function
 `public: __thiscall CCritSec::~CCritSec(void)` | 9 | Exported Function
-`public: __thiscall CCritSec::CCritSec(void)` | 2 | Exported Function
-`public: __thiscall IndicationSchema::IndicationSchema(void)` | 4 | Exported Function
-`public: __thiscall DynamicSchema::DynamicSchema(void)` | 3 | Exported Function
+`CCritSec` | 2 | Exported Function
+`IndicationSchema` | 4 | Exported Function
+`DynamicSchema` | 3 | Exported Function
 `public: __thiscall CAutoSetActivityId::~CAutoSetActivityId(void)` | 8 | Exported Function
 `PropertySet_New` | 78 | Exported Function
 `OSC_Type_GetSize` | 71 | Exported Function
-`public: __thiscall CAutoSetActivityId::CAutoSetActivityId(void)` | 1 | Exported Function
-`protected: virtual long __stdcall MiSchema::SetFlags(long)` | 26 | Exported Function
+`CAutoSetActivityId` | 1 | Exported Function
+`SetFlags` | 26 | Exported Function
 `Instance_SetElementArray` | 60 | Exported Function
 `ClassCache_New` | 34 | Exported Function
 `ClassCache_GetClass` | 33 | Exported Function

@@ -18,6 +18,9 @@ SHA256 | `58037E8767CAFF16722C3DBC1E3B733B9FD269C5A244CE1FA3973E3D31C13FA8`
 SHA384 | `B633D9052D9A79327564F58FE47B8A5A96A2074F9B5EF33495684053B107C9ACA65B18A63C0F3B58BE5F10BC0CEB8C01`
 SHA512 | `4867B681E106876C67EE2FF1D13E53F2110A84CBFB7223D6AD3F5D4A836CF0715ECA9EC4F9AF96FFBA257F73F8C9FDBE3CB090468B9214E54CB98AF8D4FE3513`
 SSDEEP | `384:JbcztcANGb1BwYRn2mirBrvm6L8fzSW6AW3:JFwYR8ru6L8S1`
+IMP | `ECB4C43808A5E78D58E2DCAEA3958691`
+PESHA1 | `5EAB4F841621458E358381FE34ED62640FDD57D5`
+PE256 | `81180135A8C84935DBD8F63BD91C9517D3CF40059EEF1FB0E3032A59B26A60DE`
 
 ## Runtime Data
 
@@ -49,8 +52,11 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -60,6 +66,9 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\PATHPING.EXE |
 
 
@@ -80,7 +89,12 @@ C:\Windows\SysWOW64\PATHPING.EXE |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/58037e8767caff16722c3dbc1e3b733b9fd269c5a244ce1fa3973e3d31c13fa8/detection/
 
 ## File Similarity (ssdeep match)
 

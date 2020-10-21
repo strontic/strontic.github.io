@@ -23,6 +23,9 @@ SHA256 | `F098FA150D9199732B4EC2E81528A951503A30F75AFEBF7E7A48360301758C67`
 SHA384 | `6C3A7F8CA950E09AD85D774B4DB80781E9715A2A7011D784CFB86AC28A63A75AE8EE49F7BB12574412439FC0F94AD960`
 SHA512 | `1ED60C4D41EAE79A85F975891A018951503A53F083D2140B1F537A88AB5976D1DA239C8ACE57173B8CE3BA8CBD3DE07D5AEA5FA1B7C271E5F7B4444594D04D7D`
 SSDEEP | `384:JPDotrdGJJHqNFYJypeqMKMPlhd5QkSg4rT9m/iGcQlUHB2rAOWrnLHWB:lDotrdGCNFR4XP9+khi9m/iGc4Uh2cL`
+IMP | `0235FF9A007804882636BCCCFB4D1A2F`
+PESHA1 | `3F560BAEF52531C6A0A2935525802A9B82066D76`
+PE256 | `FA2F47546E63D978C53CB703509435FCBE34CD8560B35D9C17AA2FA13E1CADCA`
 
 ## Runtime Data
 
@@ -36,20 +39,49 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\regsvr32.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\SYSTEM32\AcLayers.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\SYSTEM32\PROPSYS.dll |
 C:\Windows\system32\regsvr32.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\sfc.dll |
+C:\Windows\SYSTEM32\sfc_os.DLL |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\WINSPOOL.DRV |
 
 
 ## Signature
@@ -69,7 +101,12 @@ C:\Windows\system32\regsvr32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/f098fa150d9199732b4ec2e81528a951503a30f75afebf7e7a48360301758c67/detection/
 
 ## File Similarity (ssdeep match)
 

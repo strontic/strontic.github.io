@@ -18,24 +18,15 @@ SHA256 | `E04A7680D80E671A20641680C062AF29B8021FE3A8BFCE93810DC978F1635EE1`
 SHA384 | `9BCB4EBA66A1D12D78DF5DDE81288F6FA31E7FE5FA71C82754E7BEACBFF970B2F46AEF5EFB913238C7ECF8E09F577500`
 SHA512 | `E21329AE32C4BEABDC139D0444E92075DE1B34756B44F945BDA923C50359CC0DBDF40D37F499EBE9F2F5A54CA7BA07CFBD4CF4574D47D331CD2EE79AE07BE7C0`
 SSDEEP | `3072:0dYlE+eJ6uuhfRMVTMPzZAWGNU6ITLJcW+K6hqIFp:gLJ6uugTM2WGNU6ITLJChqE`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\AppVNice.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
+IMP | `0D7E940177BCA133F6A9A67319DF7115`
+PESHA1 | `4FB8695500B5854296D99365D0BDC52D48DEE61F`
+PE256 | `C480F8859FC9DC4B1864EF9C6999DD21AEC822D5883CB21ECA68DFA74552BB47`
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,7 +39,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/e04a7680d80e671a20641680c062af29b8021fe3a8bfce93810dc978f1635ee1/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -74,6 +70,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 36
 [C:\Windows\system32\mavinject.exe](mavinject.exe-72D5E2A3FF5D88C891E0DF1AA28B6422.md) | 38
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 47
+[C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 32
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 36
 
 

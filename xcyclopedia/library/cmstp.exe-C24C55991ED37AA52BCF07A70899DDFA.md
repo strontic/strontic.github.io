@@ -23,6 +23,9 @@ SHA256 | `E3EA8B0B905F0CB4B355C0650672962A18212420AA75732B689439FBD956B208`
 SHA384 | `FF7C2EE1B5E000A68781AA95866B26CD8014B91D0A790463FD80CB0633787F3612FBB9572B8A418F8139220B68CCA4EF`
 SHA512 | `B9D37CE30D1FB631ECC04D0893D85ED65F5E5D5A79788EEB1DD5BED8012D89A3CCD3D3D1A4FB8AE4ADE8D910BC57A75FE0A95398FC3323A5C5F90EF39B5EAC16`
 SSDEEP | `1536:PvsrU8+dzwKsTCmxywevV9mi2oLIYYAXraLY1qYqNRe1uZZbNDa:PErU8+JwKsTpymmjmkqYqNRe12ZJDa`
+IMP | `1BFCD0AAD19887A1035BF48D79219292`
+PESHA1 | `152DE521B2A480FA2D99D337CE84C52789CF7241`
+PE256 | `1AFC585FC5A6F5A5B803CBB5E521783B2367C86CC6D6FE3620514A159AA8B345`
 
 ## Runtime Data
 
@@ -35,12 +38,15 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\cmstp.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -71,7 +77,12 @@ C:\Windows\SysWOW64\cmstp.exe |
 * Product Version: 7.2.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/e3ea8b0b905f0cb4b355c0650672962a18212420aa75732b689439fbd956b208/detection/
 
 
 ## Possible Misuse

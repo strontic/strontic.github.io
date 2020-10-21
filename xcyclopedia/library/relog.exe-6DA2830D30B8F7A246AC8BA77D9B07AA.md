@@ -18,6 +18,9 @@ SHA256 | `74F5B521D214D9DBBDFBB46F2124B87B9585098AC68A23C6FF101055E7A1C3B3`
 SHA384 | `7B41025DFB4CE2162E35AF118401B18582668734329290D15014BE04E1DB021217286E01F3F1F7F73DD3E48643CF2D95`
 SHA512 | `9EE647451ADEF60323531941C863654A9C4D05E803B680BFC7CFB16D4AADF86BB97E507CF0E46ECFC9D1F3F7A27ACD28E798C7801DC6933B2218C49431E43F59`
 SSDEEP | `768:vzdUhTX4I/Y8bPgtS1S4Y+SH5KiNdiDNVbtpFGPm+v6E22MkiQXtn:vzeB4m4OY+SEpD9pFGPF6E2MiQXh`
+IMP | `5712881CA4CBAAD4AB8F619CFA1616DF`
+PESHA1 | `24EBADDDA5FBFE670F1A8F53C7C501B9A15BB450`
+PE256 | `ADC19BEDC70262136C254E6A740607AC7777CA991A1B63C0340F2856F8092D59`
 
 ## Runtime Data
 
@@ -26,10 +29,14 @@ SSDEEP | `768:vzdUhTX4I/Y8bPgtS1S4Y+SH5KiNdiDNVbtpFGPm+v6E22MkiQXtn:vzeB4m4OY+SE
 
 Microsoft r Relog.exe (10.0.17763.1)
 
-Relog creates new performance logs from data in existing performance logs by changing the sampling rate and/or converting the file format. Supports all performance log formats, including Windows NT 4.0 compressed logs.
+Relog
+creates
+new
+performance logs from data in existing performance logs by changing the sampling rate and/or converting the file format. Supports all performance log formats, including Windows NT 4.0 compressed logs.
 
 Usage:
-C:\Windows\SysWOW64\relog.exe <filename [filename ...]> [options]
+C:\Windows\SysWOW64\relog.exe <filename [filename ...]> 
+                                [options]
 
 Parameters:
   <filename [filename ...]>     Performance file to relog.
@@ -38,12 +45,17 @@ Options:
   -?                            Displays context sensitive help.
   -a                            Append output to the existing binary file.
   -c <path [path ...]>          Counters to filter from the input log.
-  -cf <filename>                File listing performance counters to filter from the input log. Default is all counters in the original log file.
+  -cf <filename>                File listing performance counters to filter
+                                from the input log. Default is all counters
+                                in the original log file.
   -f <CSV|TSV|BIN|SQL>          Output file format.
-  -t <value>                    Only write every nth record into the output file. Default is to write every record.
+  -t <value>                    Only write every nth record into the output
+                                file. Default is to write every record.
   -o                            Output file path or SQL database.
-  -b <M/d/yyyy h:mm:ss[AM|PM]>  Begin time for the first record to write into the output file.
-  -e <M/d/yyyy h:mm:ss[AM|PM]>  End time for the last record to write into the output file.
+  -b <M/d/yyyy h:mm:ss[AM|PM]>  Begin time for the first record to write into
+                                the output file.
+  -e <M/d/yyyy h:mm:ss[AM|PM]>  End time for the last record to write into
+                                the output file.
   -config <filename>            Settings file containing command options.
   -q                            List performance counters in the input file.
   -y                            Answer yes to all questions without prompting.
@@ -70,8 +82,8 @@ C:\Windows\SysWOW64\relog.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,7 +96,12 @@ C:\Windows\SysWOW64\relog.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/74f5b521d214d9dbbdfbb46f2124b87b9585098ac68a23c6ff101055e7a1c3b3/detection/
 
 
 

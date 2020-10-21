@@ -8,6 +8,10 @@ excerpt: What is TracksEraser.exe?
 * File Path: `C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe`
 * Description: Glary Utilities TracksEraser
 
+## Screenshot
+
+![TracksEraser.exe](screenshots/TracksEraser.exe-54C83AE9F55B299D7AEC2B59ACF4E688-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -26,34 +26,34 @@ PE256 | `4D463CC137F953B237943BECB3AB25C22D5407475E1810C11826F58BAF1C06CC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 19 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 17 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 20 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 18 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 10 | Exported Function
-`public: bool __thiscall SeComVSFAdapterForSDK::CVSFImplForSDK::connectVSFImplToSDK(int)` | 25 | Exported Function
-`public: class CCommonUtilities & __thiscall CCommonUtilities::operator=(class CCommonUtilities const &)` | 16 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 13 | Exported Function
-`public: virtual __thiscall SeComVSFAdapterForSDK::CVSFImplForSDK::~CVSFImplForSDK(void)` | 12 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 15 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 14 | Exported Function
-`public: long __thiscall SecomVSFCallForSDK::CVSFCallImplForSDK::getCallID(void)` | 26 | Exported Function
-`public: static class std::shared_ptr<class CSDKListener> __cdecl CSDKListener::getInstance(class ISDKEventListener *)` | 27 | Exported Function
-`public: static class std::shared_ptr<class SeComVSFAdapterForSDK::CVSFImplForSDK> __cdecl SeComVSFAdapterForSDK::CVSFImplForSDK::getInstance(class ISFEventListener *,int,int)` | 28 | Exported Function
-`public: __thiscall CSDKListener::CSDKListener(class ISDKEventListener *)` | 1 | Exported Function
+`operator` | 19 | Exported Function
+`ICall` | 17 | Exported Function
+`ISFInterface` | 20 | Exported Function
+`IHSInterface` | 18 | Exported Function
+`ISFInterface` | 10 | Exported Function
+`connectVSFImplToSDK` | 25 | Exported Function
+`operator` | 16 | Exported Function
+`ICall` | 13 | Exported Function
+`CVSFImplForSDK` | 12 | Exported Function
+`ISFInterface` | 15 | Exported Function
+`IHSInterface` | 14 | Exported Function
+`getCallID` | 26 | Exported Function
+`getInstance` | 27 | Exported Function
+`getInstance` | 28 | Exported Function
+`CSDKListener` | 1 | Exported Function
 `public: __thiscall CSDKListener::~CSDKListener(void)` | 11 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 5 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 24 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 22 | Exported Function
+`IHSInterface` | 5 | Exported Function
+`ISFInterface` | 24 | Exported Function
+`IHSInterface` | 22 | Exported Function
 `const ISFEventListener::``vftable'` | 23 | Exported Function
-`const SeComCall::ICall::``vftable'` | 21 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 4 | Exported Function
-`public: __thiscall SeComVSFAdapterForSDK::CVSFImplForSDK::CVSFImplForSDK(class ISFEventListener *,int,int)` | 2 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 9 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 3 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 6 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 7 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 8 | Exported Function
+`ICall` | 21 | Exported Function
+`ICall` | 4 | Exported Function
+`CVSFImplForSDK` | 2 | Exported Function
+`ISFInterface` | 9 | Exported Function
+`ICall` | 3 | Exported Function
+`IHSInterface` | 6 | Exported Function
+`ISFEventListener` | 7 | Exported Function
+`ISFEventListener` | 8 | Exported Function
 
 
 ## Signature

@@ -26,407 +26,407 @@ PE256 | `04C53C6D87B14DD73BE3639B09A977958ECD24CBBC650BFC7C3F706F6FCFCF8A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: long __thiscall CInstance::Release(void)` | 473 | Exported Function
-`public: long __thiscall CInstance::Commit(void)` | 194 | Exported Function
-`public: long __thiscall CRegistry::DeleteKey(class CHString *)` | 227 | Exported Function
-`public: long __thiscall CRegistry::CreateOpen(struct HKEY__ *,unsigned short const *,unsigned short *,unsigned long,unsigned long,struct _SECURITY_ATTRIBUTES *,unsigned long *)` | 214 | Exported Function
-`public: long __thiscall CInstance::AddRef(void)` | 167 | Exported Function
-`public: long __thiscall CFrameworkQuery::Init(unsigned short * const,unsigned short * const,long,class CHString &)` | 398 | Exported Function
-`public: long __thiscall CFrameworkQuery::Init(struct ParsedObjectPath *,struct IWbemContext *,unsigned short const *,class CHString &)` | 397 | Exported Function
-`public: long __thiscall CFrameworkQueryEx::GetValuesForProp(unsigned short const *,class std::vector<int,class std::allocator<int> > &)` | 380 | Exported Function
-`public: long __thiscall CFrameworkQueryEx::GetValuesForProp(unsigned short const *,class std::vector<class _variant_t,class std::allocator<class _variant_t> > &)` | 381 | Exported Function
-`public: long __thiscall CRegistry::DeleteValue(unsigned short const *)` | 228 | Exported Function
-`public: long __thiscall MethodContext::AddRef(void)` | 171 | Exported Function
-`public: long __thiscall CThreadBase::Release(void)` | 474 | Exported Function
-`public: static bool __stdcall CWbemProviderGlue::IsDerivedFrom(unsigned short const *,unsigned short const *,class MethodContext *,unsigned short const *)` | 411 | Exported Function
-`public: long __thiscall MethodContext::Release(void)` | 477 | Exported Function
-`public: long __thiscall CThreadBase::AddRef(void)` | 168 | Exported Function
-`public: long __thiscall CRegistry::Open(struct HKEY__ *,unsigned short const *,unsigned long)` | 451 | Exported Function
-`public: long __thiscall CRegistry::EnumerateAndGetValues(unsigned long &,unsigned short * &,unsigned char * &)` | 237 | Exported Function
-`public: long __thiscall CRegistry::OpenLocalMachineKeyAndReadValue(unsigned short const *,unsigned short const *,class CHString &)` | 454 | Exported Function
-`public: long __thiscall CRegistry::OpenAndEnumerateSubKeys(struct HKEY__ *,unsigned short const *,unsigned long)` | 452 | Exported Function
-`public: int __thiscall WBEMTime::operator>(class WBEMTime const &)const ` | 135 | Exported Function
-`public: int __thiscall WBEMTime::operator==(class WBEMTime const &)const ` | 111 | Exported Function
-`public: int __thiscall WBEMTime::SetDMTF(unsigned short * const)` | 513 | Exported Function
-`public: int __thiscall WBEMTime::operator>=(class WBEMTime const &)const ` | 137 | Exported Function
-`public: int __thiscall WBEMTime::operator<=(class WBEMTime const &)const ` | 133 | Exported Function
-`public: int __thiscall WBEMTime::Gettime_t(long *)const ` | 391 | Exported Function
-`public: int __thiscall WBEMTime::GetSYSTEMTIME(struct _SYSTEMTIME *)const ` | 364 | Exported Function
-`public: int __thiscall WBEMTime::operator<(class WBEMTime const &)const ` | 131 | Exported Function
-`public: int __thiscall WBEMTime::operator!=(class WBEMTime const &)const ` | 113 | Exported Function
-`public: int __thiscall WBEMTimeSpan::GetFILETIME(struct _FILETIME *)const ` | 322 | Exported Function
-`public: int __thiscall WBEMTimeSpan::operator>=(class WBEMTimeSpan const &)const ` | 138 | Exported Function
-`public: int __thiscall WBEMTimeSpan::operator>(class WBEMTimeSpan const &)const ` | 136 | Exported Function
-`public: long __thiscall CFrameworkQuery::GetValuesForProp(unsigned short const *,class std::vector<class _bstr_t,class std::allocator<class _bstr_t> > &)` | 378 | Exported Function
-`public: long __thiscall CFrameworkQuery::GetValuesForProp(unsigned short const *,class CHStringArray &)` | 379 | Exported Function
-`public: int __thiscall WBEMTimeSpan::operator==(class WBEMTimeSpan const &)const ` | 112 | Exported Function
-`public: int __thiscall WBEMTimeSpan::operator!=(class WBEMTimeSpan const &)const ` | 114 | Exported Function
-`public: int __thiscall WBEMTimeSpan::Gettime_t(long *)const ` | 392 | Exported Function
-`public: int __thiscall WBEMTimeSpan::operator<=(class WBEMTimeSpan const &)const ` | 134 | Exported Function
-`public: int __thiscall WBEMTimeSpan::operator<(class WBEMTimeSpan const &)const ` | 132 | Exported Function
-`public: static long __stdcall WBEMTime::GetLocalOffsetForDate(struct _SYSTEMTIME const *)` | 336 | Exported Function
-`public: static long __stdcall WBEMTime::GetLocalOffsetForDate(struct _FILETIME const *)` | 335 | Exported Function
-`public: static struct IWbemServices * __stdcall CWbemProviderGlue::GetNamespaceConnection(unsigned short const *)` | 346 | Exported Function
-`public: static long __stdcall WBEMTime::GetLocalOffsetForDate(struct tm const *)` | 337 | Exported Function
-`public: static long __stdcall WBEMTime::GetLocalOffsetForDate(long const &)` | 334 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetInstancePropertiesByPath(unsigned short const *,class CInstance * *,class MethodContext *,class CHStringArray &)` | 327 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetInstanceKeysByPath(unsigned short const *,class CInstance * *,class MethodContext *)` | 326 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetInstancesByQueryAsynch(unsigned short const *,class Provider *,long (__stdcall*)(class Provider *,class CInstance *,class MethodContext *,void *),unsigned short const *,class MethodContext *,void *)` | 329 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetInstancesByQuery(unsigned short const *,class TRefPointerCollection<class CInstance> *,class MethodContext *,unsigned short const *)` | 328 | Exported Function
-`public: static struct IWbemServices * __stdcall CWbemProviderGlue::GetNamespaceConnection(unsigned short const *,class MethodContext *)` | 347 | Exported Function
-`public: static void __stdcall CWbemProviderGlue::FrameworkLogoff(unsigned short const *,unsigned short const *)` | 264 | Exported Function
-`public: static void __stdcall CWbemProviderGlue::FrameworkLogin(unsigned short const *,class Provider *,unsigned short const *)` | 261 | Exported Function
-`public: struct HKEY__ * __thiscall CRegistry::GethKey(void)` | 390 | Exported Function
-`public: static void __stdcall CWbemProviderGlue::IncrementObjectCount(void)` | 395 | Exported Function
-`public: static void __stdcall CHString::Release(struct CHStringData *)` | 472 | Exported Function
-`public: static unsigned long __stdcall CWbemProviderGlue::GetPlatform(void)` | 356 | Exported Function
-`public: static unsigned long __stdcall CWbemProviderGlue::GetOSMajorVersion(void)` | 349 | Exported Function
-`public: static unsigned short const * __stdcall CWbemProviderGlue::GetCSDVersion(void)` | 286 | Exported Function
-`public: static unsigned short * __stdcall CObjectPathParser::GetRelativePath(unsigned short *)` | 362 | Exported Function
-`public: static int __stdcall CWbemProviderGlue::FrameworkLogoffDLL(unsigned short const *)` | 265 | Exported Function
-`public: static int __stdcall CWbemProviderGlue::FrameworkLoginDLL(unsigned short const *,long *)` | 263 | Exported Function
-`public: static int __stdcall Provider::initFailed(void)` | 565 | Exported Function
-`public: static int __stdcall CWbemProviderGlue::FrameworkLogoffDLL(unsigned short const *,long *)` | 266 | Exported Function
-`public: static int __stdcall CWbemProviderGlue::FrameworkLoginDLL(unsigned short const *)` | 262 | Exported Function
-`public: static class CWbemGlueFactory * __stdcall CWbemGlueFactory::Create(long *)` | 203 | Exported Function
-`public: static bool __stdcall CWbemProviderGlue::SetStatusObject(class MethodContext *,unsigned short const *,unsigned short const *,long,struct tagSAFEARRAY const *,struct tagSAFEARRAY const *)` | 524 | Exported Function
-`public: static int __stdcall CObjectPathParser::Unparse(struct ParsedObjectPath *,unsigned short * *)` | 548 | Exported Function
-`public: static class CWbemGlueFactory * __stdcall CWbemGlueFactory::Create(void)` | 204 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::DecrementObjectCount(void)` | 218 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetEmptyInstance(class MethodContext *,unsigned short const *,class CInstance * *,unsigned short const *)` | 319 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetAllInstancesAsynch(unsigned short const *,class Provider *,long (__stdcall*)(class Provider *,class CInstance *,class MethodContext *,void *),unsigned short const *,class MethodContext *,void *)` | 275 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetInstanceByPath(unsigned short const *,class CInstance * *,class MethodContext *)` | 324 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetEmptyInstance(unsigned short const *,class CInstance * *,unsigned short const *)` | 320 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetAllInstances(unsigned short const *,class TRefPointerCollection<class CInstance> *,unsigned short const *,class MethodContext *)` | 274 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::FillInstance(class MethodContext *,class CInstance *)` | 250 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::FillInstance(class CInstance *,unsigned short const *)` | 249 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetAllDerivedInstancesAsynch(unsigned short const *,class Provider *,long (__stdcall*)(class Provider *,class CInstance *,class MethodContext *,void *),unsigned short const *,class MethodContext *,void *)` | 273 | Exported Function
-`public: static long __stdcall CWbemProviderGlue::GetAllDerivedInstances(unsigned short const *,class TRefPointerCollection<class CInstance> *,class MethodContext *,unsigned short const *)` | 272 | Exported Function
-`public: class WBEMTimeSpan & __thiscall WBEMTimeSpan::operator=(class WBEMTimeSpan &&)` | 106 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator=(unsigned short * const)` | 105 | Exported Function
-`public: class WBEMTimeSpan __thiscall WBEMTime::operator-(class WBEMTime const &)` | 121 | Exported Function
-`public: class WBEMTimeSpan & __thiscall WBEMTimeSpan::operator=(class WBEMTimeSpan const &)` | 107 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator=(struct tm const &)` | 104 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator=(long const &)` | 101 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator-=(class WBEMTimeSpan const &)` | 145 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator=(struct _SYSTEMTIME const &)` | 103 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator=(struct _FILETIME const &)` | 102 | Exported Function
-`public: class WBEMTimeSpan __thiscall WBEMTimeSpan::operator+(class WBEMTimeSpan const &)const ` | 130 | Exported Function
-`public: enum ProviderLog::LogLevel __thiscall ProviderLog::IsLoggingOn(class CHString *)` | 417 | Exported Function
-`public: class WBEMTimeSpan const & __thiscall WBEMTimeSpan::operator=(unsigned short * const)` | 110 | Exported Function
-`public: int __thiscall CFrameworkQueryEx::Is3TokenOR(unsigned short const *,unsigned short const *,struct tagVARIANT &,struct tagVARIANT &)` | 409 | Exported Function
-`public: int __thiscall CAutoEvent::Signal(void)` | 536 | Exported Function
-`public: class WBEMTimeSpan const & __thiscall WBEMTimeSpan::operator=(struct _FILETIME const &)` | 109 | Exported Function
-`public: class WBEMTimeSpan const & __thiscall WBEMTimeSpan::operator+=(class WBEMTimeSpan const &)` | 144 | Exported Function
-`public: class WBEMTimeSpan __thiscall WBEMTimeSpan::operator-(class WBEMTimeSpan const &)const ` | 123 | Exported Function
-`public: class WBEMTimeSpan const & __thiscall WBEMTimeSpan::operator=(long const &)` | 108 | Exported Function
-`public: class WBEMTimeSpan const & __thiscall WBEMTimeSpan::operator-=(class WBEMTimeSpan const &)` | 146 | Exported Function
-`public: class CThreadBase & __thiscall CThreadBase::operator=(class CThreadBase const &)` | 89 | Exported Function
-`public: class CRegistrySearch & __thiscall CRegistrySearch::operator=(class CRegistrySearch const &)` | 88 | Exported Function
-`public: class CWbemProviderGlue & __thiscall CWbemProviderGlue::operator=(class CWbemProviderGlue const &)` | 91 | Exported Function
-`public: class CWbemGlueFactory & __thiscall CWbemGlueFactory::operator=(class CWbemGlueFactory const &)` | 90 | Exported Function
-`public: class CRegistry & __thiscall CRegistry::operator=(class CRegistry const &)` | 87 | Exported Function
-`public: class CInstance & __thiscall CInstance::operator=(class CInstance const &)` | 85 | Exported Function
-`public: class CHStringArray & __thiscall CHStringArray::operator=(class CHStringArray const &)` | 84 | Exported Function
-`public: class CreateMutexAsProcess & __thiscall CreateMutexAsProcess::operator=(class CreateMutexAsProcess const &)` | 93 | Exported Function
-`public: class CObjectPathParser & __thiscall CObjectPathParser::operator=(class CObjectPathParser const &)` | 86 | Exported Function
-`public: class CWinMsgEvent & __thiscall CWinMsgEvent::operator=(class CWinMsgEvent const &)` | 92 | Exported Function
-`public: class WBEMTime __thiscall WBEMTime::operator+(class WBEMTimeSpan const &)const ` | 129 | Exported Function
-`public: class WBEMTime & __thiscall WBEMTime::operator=(class WBEMTime const &)` | 100 | Exported Function
-`public: class WBEMTime const & __thiscall WBEMTime::operator+=(class WBEMTimeSpan const &)` | 143 | Exported Function
-`public: class WBEMTime __thiscall WBEMTime::operator-(class WBEMTimeSpan const &)const ` | 122 | Exported Function
-`public: class WBEMTime & __thiscall WBEMTime::operator=(class WBEMTime &&)` | 99 | Exported Function
-`public: class MethodContext * __thiscall CInstance::GetMethodContext(void)const ` | 343 | Exported Function
-`public: class MethodContext & __thiscall MethodContext::operator=(class MethodContext const &)` | 95 | Exported Function
-`public: class ProviderLog & __thiscall ProviderLog::operator=(class ProviderLog const &)` | 98 | Exported Function
-`public: class Provider & __thiscall Provider::operator=(class Provider const &)` | 97 | Exported Function
-`public: int __thiscall CThreadBase::BeginWrite(unsigned long)` | 182 | Exported Function
-`public: int __thiscall CThreadBase::BeginRead(unsigned long)` | 181 | Exported Function
-`public: int __thiscall ParsedObjectPath::AddKeyRef(unsigned short const *,struct tagVARIANT const *)` | 163 | Exported Function
-`public: int __thiscall ParsedObjectPath::AddKeyRef(struct KeyRef *)` | 162 | Exported Function
-`public: int __thiscall CRegistrySearch::SearchAndBuildList(class CHString,class CHPtrArray &,class CHString,class CHString,int,struct HKEY__ *)` | 489 | Exported Function
-`public: int __thiscall CObjectPathParser::Parse(unsigned short const *,struct ParsedObjectPath * *)` | 457 | Exported Function
-`public: int __thiscall CHStringArray::GetUpperBound(void)const ` | 376 | Exported Function
-`public: int __thiscall CRegistrySearch::LocateKeyByNameOrValueName(struct HKEY__ *,unsigned short const *,unsigned short const *,unsigned short const * *,unsigned long,class CHString &,class CHString &)` | 432 | Exported Function
-`public: int __thiscall CRegistrySearch::FreeSearchList(int,class CHPtrArray &)` | 271 | Exported Function
-`public: int __thiscall ParsedObjectPath::AddKeyRefEx(unsigned short const *,struct tagVARIANT const *)` | 164 | Exported Function
-`public: int __thiscall ParsedObjectPath::SetClassName(unsigned short const *)` | 504 | Exported Function
-`public: int __thiscall ParsedObjectPath::IsRelative(unsigned short const *,unsigned short const *)` | 425 | Exported Function
-`public: int __thiscall WBEMTime::GetStructtm(struct tm *)const ` | 371 | Exported Function
-`public: int __thiscall WBEMTime::GetFILETIME(struct _FILETIME *)const ` | 321 | Exported Function
-`public: int __thiscall ParsedObjectPath::IsObject(void)` | 420 | Exported Function
-`public: int __thiscall ParsedObjectPath::IsClass(void)` | 410 | Exported Function
-`public: int __thiscall ParsedObjectPath::AddNamespace(unsigned short const *)` | 165 | Exported Function
-`public: int __thiscall ParsedObjectPath::IsLocal(unsigned short const *)` | 416 | Exported Function
-`public: int __thiscall ParsedObjectPath::IsInstance(void)` | 415 | Exported Function
-`public: int __thiscall CHString::Compare(unsigned short const *)const ` | 196 | Exported Function
-`public: int __thiscall CHString::Collate(unsigned short const *)const ` | 193 | Exported Function
-`public: int __thiscall CHString::Find(unsigned short const *)const ` | 252 | Exported Function
-`public: int __thiscall CHString::CompareNoCase(unsigned short const *)const ` | 197 | Exported Function
-`public: int __thiscall CHPtrArray::GetUpperBound(void)const ` | 375 | Exported Function
-`public: int __thiscall CHPtrArray::Add(void *)` | 159 | Exported Function
-`public: int __thiscall CFrameworkQueryEx::IsNTokenAnd(class CHStringArray &,class CHPtrArray &)` | 418 | Exported Function
-`public: int __thiscall CHPtrArray::GetSize(void)const ` | 365 | Exported Function
-`public: int __thiscall CHPtrArray::Append(class CHPtrArray const &)` | 178 | Exported Function
-`public: int __thiscall CHString::Find(unsigned short)const ` | 251 | Exported Function
-`public: int __thiscall CHStringArray::Add(unsigned short const *)` | 160 | Exported Function
-`public: int __thiscall CHString::ReverseFind(unsigned short)const ` | 485 | Exported Function
-`public: int __thiscall CHStringArray::GetSize(void)const ` | 366 | Exported Function
-`public: int __thiscall CHStringArray::Append(class CHStringArray const &)` | 179 | Exported Function
-`public: int __thiscall CHString::LoadStringW(unsigned int)` | 429 | Exported Function
-`public: int __thiscall CHString::GetAllocLength(void)const ` | 276 | Exported Function
-`public: int __thiscall CHString::FindOneOf(unsigned short const *)const ` | 253 | Exported Function
-`public: int __thiscall CHString::IsEmpty(void)const ` | 412 | Exported Function
-`public: int __thiscall CHString::GetLength(void)const ` | 331 | Exported Function
-`public: struct IWbemClassObject * __thiscall CInstance::GetClassObjectInterface(void)` | 288 | Exported Function
-`public: void __cdecl CHString::FormatMessageW(unsigned int,...)` | 258 | Exported Function
-`public: void __cdecl CHString::Format(unsigned short const *,...)` | 257 | Exported Function
-`public: void __cdecl ProviderLog::LocalLogMessage(unsigned short const *,int,enum ProviderLog::LogLevel,unsigned short const *,...)` | 430 | Exported Function
-`public: void __cdecl CHString::FormatMessageW(unsigned short const *,...)` | 259 | Exported Function
-`public: void __cdecl CHString::Format(unsigned int,...)` | 256 | Exported Function
-`public: void * * __thiscall CHPtrArray::GetData(void)` | 312 | Exported Function
-`public: void * & __thiscall CHPtrArray::operator[](int)` | 115 | Exported Function
-`public: void * __thiscall CHPtrArray::operator[](int)const ` | 116 | Exported Function
-`public: void * __thiscall CHPtrArray::GetAt(int)const ` | 277 | Exported Function
-`public: void __thiscall CFrameworkQuery::GetRequiredProperties(class CHStringArray &)` | 363 | Exported Function
-`public: void __thiscall CHPtrArray::RemoveAll(void)` | 479 | Exported Function
-`public: void __thiscall CHPtrArray::InsertAt(int,void *,int)` | 405 | Exported Function
-`public: void __thiscall CHPtrArray::SetAt(int,void *)` | 491 | Exported Function
-`public: void __thiscall CHPtrArray::RemoveAt(int,int)` | 481 | Exported Function
-`public: void __thiscall CHPtrArray::InsertAt(int,class CHPtrArray *)` | 404 | Exported Function
-`public: void __thiscall CFrameworkQueryEx::GetPropertyBitMask(class CHPtrArray const &,void *)` | 357 | Exported Function
-`public: void __thiscall CFrameworkQuery::Init2(struct IWbemClassObject *)` | 396 | Exported Function
-`public: void __thiscall CHPtrArray::FreeExtra(void)` | 268 | Exported Function
-`public: void __thiscall CHPtrArray::Copy(class CHPtrArray const &)` | 200 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::PutClassAsync(struct IWbemClassObject *,long,struct IWbemContext *,struct IWbemObjectSink *)` | 461 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::PutClass(struct IWbemClassObject *,long,struct IWbemContext *,struct IWbemCallResult * *)` | 460 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::PutInstanceAsync(struct IWbemClassObject *,long,struct IWbemContext *,struct IWbemObjectSink *)` | 465 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::PutInstance(struct IWbemClassObject *,long,struct IWbemContext *,struct IWbemCallResult * *)` | 462 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::OpenNamespace(unsigned short * const,long,struct IWbemContext *,struct IWbemServices * *,struct IWbemCallResult * *)` | 455 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::GetObject(unsigned short * const,long,struct IWbemContext *,struct IWbemClassObject * *,struct IWbemCallResult * *)` | 350 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::ExecQueryAsync(unsigned short * const,unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 247 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::Initialize(unsigned short *,long,unsigned short *,unsigned short *,struct IWbemServices *,struct IWbemContext *,struct IWbemProviderInitSink *)` | 403 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::GetObjectAsync(unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 354 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::QueryInterface(struct _GUID const &,void * *)` | 467 | Exported Function
-`public: virtual unsigned long __stdcall CWbemProviderGlue::Release(void)` | 476 | Exported Function
-`public: virtual unsigned long __stdcall CWbemProviderGlue::AddRef(void)` | 170 | Exported Function
-`public: void * & __thiscall CHPtrArray::ElementAt(int)` | 231 | Exported Function
-`public: virtual void __thiscall MethodContext::QueryPostProcess(void)` | 469 | Exported Function
-`public: virtual unsigned long __stdcall CWbemGlueFactory::Release(void)` | 475 | Exported Function
-`public: virtual long __thiscall CFrameworkQueryEx::InitEx(unsigned short * const,unsigned short * const,long,class CHString &)` | 402 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::QueryObjectSink(long,struct IWbemObjectSink * *)` | 468 | Exported Function
-`public: virtual unsigned long __stdcall CWbemGlueFactory::AddRef(void)` | 169 | Exported Function
-`public: virtual struct IWbemContext * __thiscall MethodContext::GetIWBEMContext(void)` | 323 | Exported Function
-`public: void __thiscall CRegistry::Close(void)` | 191 | Exported Function
-`public: void __thiscall CObjectPathParser::Free(struct ParsedObjectPath *)` | 267 | Exported Function
+`Release` | 473 | Exported Function
+`Commit` | 194 | Exported Function
+`DeleteKey` | 227 | Exported Function
+`CreateOpen` | 214 | Exported Function
+`AddRef` | 167 | Exported Function
+`Init` | 398 | Exported Function
+`Init` | 397 | Exported Function
+`allocator` | 380 | Exported Function
+`allocator` | 381 | Exported Function
+`DeleteValue` | 228 | Exported Function
+`AddRef` | 171 | Exported Function
+`Release` | 474 | Exported Function
+`IsDerivedFrom` | 411 | Exported Function
+`Release` | 477 | Exported Function
+`AddRef` | 168 | Exported Function
+`Open` | 451 | Exported Function
+`EnumerateAndGetValues` | 237 | Exported Function
+`OpenLocalMachineKeyAndReadValue` | 454 | Exported Function
+`OpenAndEnumerateSubKeys` | 452 | Exported Function
+`operator` | 135 | Exported Function
+`operator` | 111 | Exported Function
+`SetDMTF` | 513 | Exported Function
+`operator` | 137 | Exported Function
+`operator` | 133 | Exported Function
+`Gettime_t` | 391 | Exported Function
+`GetSYSTEMTIME` | 364 | Exported Function
+`operator` | 131 | Exported Function
+`operator` | 113 | Exported Function
+`GetFILETIME` | 322 | Exported Function
+`operator` | 138 | Exported Function
+`operator` | 136 | Exported Function
+`allocator` | 378 | Exported Function
+`GetValuesForProp` | 379 | Exported Function
+`operator` | 112 | Exported Function
+`operator` | 114 | Exported Function
+`Gettime_t` | 392 | Exported Function
+`operator` | 134 | Exported Function
+`operator` | 132 | Exported Function
+`GetLocalOffsetForDate` | 336 | Exported Function
+`GetLocalOffsetForDate` | 335 | Exported Function
+`GetNamespaceConnection` | 346 | Exported Function
+`GetLocalOffsetForDate` | 337 | Exported Function
+`GetLocalOffsetForDate` | 334 | Exported Function
+`GetInstancePropertiesByPath` | 327 | Exported Function
+`GetInstanceKeysByPath` | 326 | Exported Function
+`GetInstancesByQueryAsynch` | 329 | Exported Function
+`GetInstancesByQuery` | 328 | Exported Function
+`GetNamespaceConnection` | 347 | Exported Function
+`FrameworkLogoff` | 264 | Exported Function
+`FrameworkLogin` | 261 | Exported Function
+`GethKey` | 390 | Exported Function
+`IncrementObjectCount` | 395 | Exported Function
+`Release` | 472 | Exported Function
+`GetPlatform` | 356 | Exported Function
+`GetOSMajorVersion` | 349 | Exported Function
+`GetCSDVersion` | 286 | Exported Function
+`GetRelativePath` | 362 | Exported Function
+`FrameworkLogoffDLL` | 265 | Exported Function
+`FrameworkLoginDLL` | 263 | Exported Function
+`initFailed` | 565 | Exported Function
+`FrameworkLogoffDLL` | 266 | Exported Function
+`FrameworkLoginDLL` | 262 | Exported Function
+`Create` | 203 | Exported Function
+`SetStatusObject` | 524 | Exported Function
+`Unparse` | 548 | Exported Function
+`Create` | 204 | Exported Function
+`DecrementObjectCount` | 218 | Exported Function
+`GetEmptyInstance` | 319 | Exported Function
+`GetAllInstancesAsynch` | 275 | Exported Function
+`GetInstanceByPath` | 324 | Exported Function
+`GetEmptyInstance` | 320 | Exported Function
+`GetAllInstances` | 274 | Exported Function
+`FillInstance` | 250 | Exported Function
+`FillInstance` | 249 | Exported Function
+`GetAllDerivedInstancesAsynch` | 273 | Exported Function
+`GetAllDerivedInstances` | 272 | Exported Function
+`operator` | 106 | Exported Function
+`operator` | 105 | Exported Function
+`operator` | 121 | Exported Function
+`operator` | 107 | Exported Function
+`operator` | 104 | Exported Function
+`operator` | 101 | Exported Function
+`operator` | 145 | Exported Function
+`operator` | 103 | Exported Function
+`operator` | 102 | Exported Function
+`operator` | 130 | Exported Function
+`IsLoggingOn` | 417 | Exported Function
+`operator` | 110 | Exported Function
+`Is3TokenOR` | 409 | Exported Function
+`Signal` | 536 | Exported Function
+`operator` | 109 | Exported Function
+`operator` | 144 | Exported Function
+`operator` | 123 | Exported Function
+`operator` | 108 | Exported Function
+`operator` | 146 | Exported Function
+`operator` | 89 | Exported Function
+`operator` | 88 | Exported Function
+`operator` | 91 | Exported Function
+`operator` | 90 | Exported Function
+`operator` | 87 | Exported Function
+`operator` | 85 | Exported Function
+`operator` | 84 | Exported Function
+`operator` | 93 | Exported Function
+`operator` | 86 | Exported Function
+`operator` | 92 | Exported Function
+`operator` | 129 | Exported Function
+`operator` | 100 | Exported Function
+`operator` | 143 | Exported Function
+`operator` | 122 | Exported Function
+`operator` | 99 | Exported Function
+`GetMethodContext` | 343 | Exported Function
+`operator` | 95 | Exported Function
+`operator` | 98 | Exported Function
+`operator` | 97 | Exported Function
+`BeginWrite` | 182 | Exported Function
+`BeginRead` | 181 | Exported Function
+`AddKeyRef` | 163 | Exported Function
+`AddKeyRef` | 162 | Exported Function
+`SearchAndBuildList` | 489 | Exported Function
+`Parse` | 457 | Exported Function
+`GetUpperBound` | 376 | Exported Function
+`LocateKeyByNameOrValueName` | 432 | Exported Function
+`FreeSearchList` | 271 | Exported Function
+`AddKeyRefEx` | 164 | Exported Function
+`SetClassName` | 504 | Exported Function
+`IsRelative` | 425 | Exported Function
+`GetStructtm` | 371 | Exported Function
+`GetFILETIME` | 321 | Exported Function
+`IsObject` | 420 | Exported Function
+`IsClass` | 410 | Exported Function
+`AddNamespace` | 165 | Exported Function
+`IsLocal` | 416 | Exported Function
+`IsInstance` | 415 | Exported Function
+`Compare` | 196 | Exported Function
+`Collate` | 193 | Exported Function
+`Find` | 252 | Exported Function
+`CompareNoCase` | 197 | Exported Function
+`GetUpperBound` | 375 | Exported Function
+`Add` | 159 | Exported Function
+`IsNTokenAnd` | 418 | Exported Function
+`GetSize` | 365 | Exported Function
+`Append` | 178 | Exported Function
+`Find` | 251 | Exported Function
+`Add` | 160 | Exported Function
+`ReverseFind` | 485 | Exported Function
+`GetSize` | 366 | Exported Function
+`Append` | 179 | Exported Function
+`LoadStringW` | 429 | Exported Function
+`GetAllocLength` | 276 | Exported Function
+`FindOneOf` | 253 | Exported Function
+`IsEmpty` | 412 | Exported Function
+`GetLength` | 331 | Exported Function
+`GetClassObjectInterface` | 288 | Exported Function
+`FormatMessageW` | 258 | Exported Function
+`Format` | 257 | Exported Function
+`LogLevel` | 430 | Exported Function
+`FormatMessageW` | 259 | Exported Function
+`Format` | 256 | Exported Function
+`GetData` | 312 | Exported Function
+`operator` | 115 | Exported Function
+`operator` | 116 | Exported Function
+`GetAt` | 277 | Exported Function
+`GetRequiredProperties` | 363 | Exported Function
+`RemoveAll` | 479 | Exported Function
+`InsertAt` | 405 | Exported Function
+`SetAt` | 491 | Exported Function
+`RemoveAt` | 481 | Exported Function
+`InsertAt` | 404 | Exported Function
+`GetPropertyBitMask` | 357 | Exported Function
+`Init2` | 396 | Exported Function
+`FreeExtra` | 268 | Exported Function
+`Copy` | 200 | Exported Function
+`PutClassAsync` | 461 | Exported Function
+`PutClass` | 460 | Exported Function
+`PutInstanceAsync` | 465 | Exported Function
+`PutInstance` | 462 | Exported Function
+`OpenNamespace` | 455 | Exported Function
+`GetObject` | 350 | Exported Function
+`ExecQueryAsync` | 247 | Exported Function
+`Initialize` | 403 | Exported Function
+`GetObjectAsync` | 354 | Exported Function
+`QueryInterface` | 467 | Exported Function
+`Release` | 476 | Exported Function
+`AddRef` | 170 | Exported Function
+`ElementAt` | 231 | Exported Function
+`QueryPostProcess` | 469 | Exported Function
+`Release` | 475 | Exported Function
+`InitEx` | 402 | Exported Function
+`QueryObjectSink` | 468 | Exported Function
+`AddRef` | 169 | Exported Function
+`GetIWBEMContext` | 323 | Exported Function
+`Close` | 191 | Exported Function
+`Free` | 267 | Exported Function
 `public: void __thiscall CThreadBase::``default constructor closure'(void)` | 158 | Exported Function
-`public: void __thiscall CRegistry::RewindSubKeys(void)` | 486 | Exported Function
+`RewindSubKeys` | 486 | Exported Function
 `public: void __thiscall CObjectPathParser::``default constructor closure'(void)` | 157 | Exported Function
-`public: void __thiscall CHStringArray::SetAt(int,unsigned short const *)` | 493 | Exported Function
-`public: void __thiscall CHStringArray::RemoveAt(int,int)` | 482 | Exported Function
-`public: void __thiscall CHStringArray::SetSize(int,int)` | 523 | Exported Function
-`public: void __thiscall CHStringArray::SetAtGrow(int,unsigned short const *)` | 495 | Exported Function
-`public: void __thiscall CThreadBase::EndRead(void)` | 235 | Exported Function
-`public: void const * * __thiscall CHPtrArray::GetData(void)const ` | 313 | Exported Function
-`public: void __thiscall WBEMTimeSpan::Clear(void)` | 189 | Exported Function
+`SetAt` | 493 | Exported Function
+`RemoveAt` | 482 | Exported Function
+`SetSize` | 523 | Exported Function
+`SetAtGrow` | 495 | Exported Function
+`EndRead` | 235 | Exported Function
+`GetData` | 313 | Exported Function
+`Clear` | 189 | Exported Function
 `void __stdcall SetCHStringResourceHandle(struct HINSTANCE__ *)` | 500 | Exported Function
 `unsigned long __stdcall NormalizePath(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,class CHString &)` | 448 | Exported Function
-`public: void __thiscall WBEMTime::Clear(void)` | 188 | Exported Function
-`public: void __thiscall CWbemGlueFactory::Destroy(void)` | 229 | Exported Function
-`public: void __thiscall CThreadBase::EndWrite(void)` | 236 | Exported Function
-`public: void __thiscall ProviderLog::LocalLogMessage(unsigned short const *,unsigned short const *,int,enum ProviderLog::LogLevel)` | 431 | Exported Function
-`public: void __thiscall ParsedObjectPath::ClearKeys(void)` | 190 | Exported Function
-`public: void __thiscall CHString::MakeReverse(void)` | 441 | Exported Function
-`public: void __thiscall CHString::MakeLower(void)` | 440 | Exported Function
-`public: void __thiscall CHString::Release(void)` | 471 | Exported Function
-`public: void __thiscall CHString::MakeUpper(void)` | 442 | Exported Function
-`public: void __thiscall CHString::FreeExtra(void)` | 269 | Exported Function
-`public: void __thiscall CHPtrArray::SetSize(int,int)` | 522 | Exported Function
-`public: void __thiscall CHPtrArray::SetAtGrow(int,void *)` | 494 | Exported Function
-`public: void __thiscall CHString::FormatV(unsigned short const *,char *)` | 260 | Exported Function
-`public: void __thiscall CHString::Empty(void)` | 233 | Exported Function
-`public: void __thiscall CHString::ReleaseBuffer(int)` | 478 | Exported Function
-`public: void __thiscall CHStringArray::InsertAt(int,class CHStringArray *)` | 406 | Exported Function
-`public: void __thiscall CHStringArray::FreeExtra(void)` | 270 | Exported Function
-`public: void __thiscall CHStringArray::RemoveAll(void)` | 480 | Exported Function
-`public: void __thiscall CHStringArray::InsertAt(int,unsigned short const *,int)` | 407 | Exported Function
-`public: void __thiscall CHStringArray::Copy(class CHStringArray const &)` | 201 | Exported Function
-`public: void __thiscall CHString::TrimLeft(void)` | 539 | Exported Function
-`public: void __thiscall CHString::SetAt(int,unsigned short)` | 492 | Exported Function
-`public: void __thiscall CHString::UnlockBuffer(void)` | 545 | Exported Function
-`public: void __thiscall CHString::TrimRight(void)` | 540 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetLongestValueData(void)` | 340 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetLongestSubKeySize(void)` | 339 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetValueCount(void)` | 377 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetLongestValueName(void)` | 341 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetLongestClassStringSize(void)` | 338 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentSubKeyValue(unsigned short const *,class CHString &)` | 306 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentSubKeyPath(class CHString &)` | 304 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentSubKeyValue(unsigned short const *,void *,unsigned long *)` | 307 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentSubKeyValue(unsigned short const *,unsigned long &)` | 305 | Exported Function
-`public: unsigned long __thiscall CRegistry::NextSubKey(void)` | 446 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValue(unsigned short const *,unsigned long &)` | 509 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValue(unsigned short const *,class CHStringArray &)` | 511 | Exported Function
-`public: unsigned short * __thiscall CFrameworkQuery::GetQueryClassName(void)` | 361 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValueExpand(struct HKEY__ *,unsigned short const *,class CHString &)` | 512 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValue(unsigned short const *,class CHString &)` | 510 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValue(struct HKEY__ *,unsigned short const *,class CHString &)` | 507 | Exported Function
-`public: unsigned long __thiscall CRegistry::OpenCurrentUser(unsigned short const *,unsigned long)` | 453 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValue(struct HKEY__ *,unsigned short const *,unsigned long &)` | 506 | Exported Function
-`public: unsigned long __thiscall CRegistry::SetCurrentKeyValue(struct HKEY__ *,unsigned short const *,class CHStringArray &)` | 508 | Exported Function
-`public: unsigned long __thiscall CRegistry::DeleteCurrentKeyValue(struct HKEY__ *,unsigned short const *)` | 221 | Exported Function
-`public: unsigned long __thiscall CAutoEvent::Wait(unsigned long)` | 557 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentBinaryKeyValue(struct HKEY__ *,unsigned short const *,unsigned char *,unsigned long *)` | 291 | Exported Function
-`public: unsigned long __thiscall CRegistry::DeleteCurrentKeyValue(unsigned short const *)` | 222 | Exported Function
-`public: unsigned __int64 __thiscall WBEMTimeSpan::GetTime(void)const ` | 373 | Exported Function
-`public: struct KeyRef & __thiscall KeyRef::operator=(struct KeyRef const &)` | 94 | Exported Function
-`public: struct IWbemClassObject * __thiscall MethodContext::GetStatusObject(void)` | 369 | Exported Function
-`public: unsigned __int64 __thiscall WBEMTime::GetTime(void)const ` | 372 | Exported Function
-`public: struct ParsedObjectPath & __thiscall ParsedObjectPath::operator=(struct ParsedObjectPath const &)` | 96 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentBinaryKeyValue(unsigned short const *,class CHString &)` | 292 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentKeyValue(unsigned short const *,unsigned long &)` | 297 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentKeyValue(unsigned short const *,class CHStringArray &)` | 299 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentSubKeyName(class CHString &)` | 303 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentSubKeyCount(void)` | 302 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentKeyValue(unsigned short const *,class CHString &)` | 298 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentKeyValue(struct HKEY__ *,unsigned short const *,class CHString &)` | 295 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentBinaryKeyValue(unsigned short const *,unsigned char *,unsigned long *)` | 293 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentKeyValue(struct HKEY__ *,unsigned short const *,unsigned long &)` | 294 | Exported Function
-`public: unsigned long __thiscall CRegistry::GetCurrentKeyValue(struct HKEY__ *,unsigned short const *,class CHStringArray &)` | 296 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::CreateClassEnum(unsigned short * const,long,struct IWbemContext *,struct IEnumWbemClassObject * *)` | 205 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::CancelAsyncRequest(long)` | 184 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::CreateInstanceEnum(unsigned short * const,long,struct IWbemContext *,struct IEnumWbemClassObject * *)` | 208 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::CreateClassEnumAsync(unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 206 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::CancelAsyncCall(struct IWbemObjectSink *)` | 183 | Exported Function
-`public: virtual long __stdcall CWbemGlueFactory::CreateInstance(struct IUnknown *,struct _GUID const &,void * *)` | 207 | Exported Function
-`public: virtual bool __thiscall CFrameworkQueryEx::IsExtended(void)` | 413 | Exported Function
-`public: virtual long __stdcall CWbemGlueFactory::QueryInterface(struct _GUID const &,void * *)` | 466 | Exported Function
-`public: virtual long __stdcall CWbemGlueFactory::LockServer(int)` | 437 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::CreateInstanceEnumAsync(unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 210 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::ExecNotificationQuery(unsigned short * const,unsigned short * const,long,struct IWbemContext *,struct IEnumWbemClassObject * *)` | 243 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::ExecMethodAsync(unsigned short * const,unsigned short * const,long,struct IWbemContext *,struct IWbemClassObject *,struct IWbemObjectSink *)` | 242 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::ExecQuery(unsigned short * const,unsigned short * const,long,struct IWbemContext *,struct IEnumWbemClassObject * *)` | 245 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::ExecNotificationQueryAsync(unsigned short * const,unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 244 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::ExecMethod(unsigned short * const,unsigned short * const,long,struct IWbemContext *,struct IWbemClassObject *,struct IWbemClassObject * *,struct IWbemCallResult * *)` | 239 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::DeleteClassAsync(unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 220 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::DeleteClass(unsigned short * const,long,struct IWbemContext *,struct IWbemCallResult * *)` | 219 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::DeleteInstanceAsync(unsigned short * const,long,struct IWbemContext *,struct IWbemObjectSink *)` | 226 | Exported Function
-`public: virtual long __stdcall CWbemProviderGlue::DeleteInstance(unsigned short * const,long,struct IWbemContext *,struct IWbemCallResult * *)` | 223 | Exported Function
-`public: unsigned short * __thiscall ParsedObjectPath::GetNamespacePart(void)` | 348 | Exported Function
-`public: unsigned short * __thiscall ParsedObjectPath::GetKeyString(void)` | 330 | Exported Function
-`public: unsigned short * __thiscall WBEMTime::GetBSTR(void)const ` | 280 | Exported Function
-`public: unsigned short * __thiscall ParsedObjectPath::GetParentNamespacePart(void)` | 355 | Exported Function
-`public: unsigned short * __thiscall CRegistry::GetClassNameW(void)` | 287 | Exported Function
-`public: unsigned short * __thiscall CHString::GetBuffer(int)` | 282 | Exported Function
-`public: unsigned short * __thiscall CHString::AllocSysString(void)const ` | 177 | Exported Function
-`public: unsigned short * __thiscall CHString::LockBuffer(void)` | 434 | Exported Function
-`public: unsigned short * __thiscall CHString::GetBufferSetLength(int)` | 283 | Exported Function
-`public: unsigned short * __thiscall WBEMTime::GetDMTF(int)const ` | 308 | Exported Function
+`Clear` | 188 | Exported Function
+`Destroy` | 229 | Exported Function
+`EndWrite` | 236 | Exported Function
+`LogLevel` | 431 | Exported Function
+`ClearKeys` | 190 | Exported Function
+`MakeReverse` | 441 | Exported Function
+`MakeLower` | 440 | Exported Function
+`Release` | 471 | Exported Function
+`MakeUpper` | 442 | Exported Function
+`FreeExtra` | 269 | Exported Function
+`SetSize` | 522 | Exported Function
+`SetAtGrow` | 494 | Exported Function
+`FormatV` | 260 | Exported Function
+`Empty` | 233 | Exported Function
+`ReleaseBuffer` | 478 | Exported Function
+`InsertAt` | 406 | Exported Function
+`FreeExtra` | 270 | Exported Function
+`RemoveAll` | 480 | Exported Function
+`InsertAt` | 407 | Exported Function
+`Copy` | 201 | Exported Function
+`TrimLeft` | 539 | Exported Function
+`SetAt` | 492 | Exported Function
+`UnlockBuffer` | 545 | Exported Function
+`TrimRight` | 540 | Exported Function
+`GetLongestValueData` | 340 | Exported Function
+`GetLongestSubKeySize` | 339 | Exported Function
+`GetValueCount` | 377 | Exported Function
+`GetLongestValueName` | 341 | Exported Function
+`GetLongestClassStringSize` | 338 | Exported Function
+`GetCurrentSubKeyValue` | 306 | Exported Function
+`GetCurrentSubKeyPath` | 304 | Exported Function
+`GetCurrentSubKeyValue` | 307 | Exported Function
+`GetCurrentSubKeyValue` | 305 | Exported Function
+`NextSubKey` | 446 | Exported Function
+`SetCurrentKeyValue` | 509 | Exported Function
+`SetCurrentKeyValue` | 511 | Exported Function
+`GetQueryClassName` | 361 | Exported Function
+`SetCurrentKeyValueExpand` | 512 | Exported Function
+`SetCurrentKeyValue` | 510 | Exported Function
+`SetCurrentKeyValue` | 507 | Exported Function
+`OpenCurrentUser` | 453 | Exported Function
+`SetCurrentKeyValue` | 506 | Exported Function
+`SetCurrentKeyValue` | 508 | Exported Function
+`DeleteCurrentKeyValue` | 221 | Exported Function
+`Wait` | 557 | Exported Function
+`GetCurrentBinaryKeyValue` | 291 | Exported Function
+`DeleteCurrentKeyValue` | 222 | Exported Function
+`GetTime` | 373 | Exported Function
+`operator` | 94 | Exported Function
+`GetStatusObject` | 369 | Exported Function
+`GetTime` | 372 | Exported Function
+`operator` | 96 | Exported Function
+`GetCurrentBinaryKeyValue` | 292 | Exported Function
+`GetCurrentKeyValue` | 297 | Exported Function
+`GetCurrentKeyValue` | 299 | Exported Function
+`GetCurrentSubKeyName` | 303 | Exported Function
+`GetCurrentSubKeyCount` | 302 | Exported Function
+`GetCurrentKeyValue` | 298 | Exported Function
+`GetCurrentKeyValue` | 295 | Exported Function
+`GetCurrentBinaryKeyValue` | 293 | Exported Function
+`GetCurrentKeyValue` | 294 | Exported Function
+`GetCurrentKeyValue` | 296 | Exported Function
+`CreateClassEnum` | 205 | Exported Function
+`CancelAsyncRequest` | 184 | Exported Function
+`CreateInstanceEnum` | 208 | Exported Function
+`CreateClassEnumAsync` | 206 | Exported Function
+`CancelAsyncCall` | 183 | Exported Function
+`CreateInstance` | 207 | Exported Function
+`IsExtended` | 413 | Exported Function
+`QueryInterface` | 466 | Exported Function
+`LockServer` | 437 | Exported Function
+`CreateInstanceEnumAsync` | 210 | Exported Function
+`ExecNotificationQuery` | 243 | Exported Function
+`ExecMethodAsync` | 242 | Exported Function
+`ExecQuery` | 245 | Exported Function
+`ExecNotificationQueryAsync` | 244 | Exported Function
+`ExecMethod` | 239 | Exported Function
+`DeleteClassAsync` | 220 | Exported Function
+`DeleteClass` | 219 | Exported Function
+`DeleteInstanceAsync` | 226 | Exported Function
+`DeleteInstance` | 223 | Exported Function
+`GetNamespacePart` | 348 | Exported Function
+`GetKeyString` | 330 | Exported Function
+`GetBSTR` | 280 | Exported Function
+`GetParentNamespacePart` | 355 | Exported Function
+`GetClassNameW` | 287 | Exported Function
+`GetBuffer` | 282 | Exported Function
+`AllocSysString` | 177 | Exported Function
+`LockBuffer` | 434 | Exported Function
+`GetBufferSetLength` | 283 | Exported Function
+`GetDMTF` | 308 | Exported Function
 `public: virtual __thiscall MethodContext::~MethodContext(void)` | 69 | Exported Function
 `public: virtual __thiscall CThreadBase::~CThreadBase(void)` | 63 | Exported Function
 `public: virtual __thiscall ProviderLog::~ProviderLog(void)` | 72 | Exported Function
 `public: virtual __thiscall Provider::~Provider(void)` | 71 | Exported Function
 `public: virtual __thiscall CInstance::~CInstance(void)` | 59 | Exported Function
-`public: unsigned short * __thiscall WBEMTimeSpan::GetBSTR(void)const ` | 281 | Exported Function
-`public: unsigned short * __thiscall WBEMTime::GetDMTFNonNtfs(void)const ` | 309 | Exported Function
-`public: unsigned short __thiscall CHString::operator[](int)const ` | 117 | Exported Function
-`public: unsigned short __thiscall CHString::GetAt(int)const ` | 278 | Exported Function
-`public: class CHString const * __thiscall CHStringArray::GetData(void)const ` | 316 | Exported Function
-`private: unsigned long __thiscall CRegistry::GetCurrentRawSubKeyValue(unsigned short const *,void *,unsigned long *,unsigned long *)` | 301 | Exported Function
-`private: unsigned long __thiscall CRegistry::GetCurrentRawKeyValue(struct HKEY__ *,unsigned short const *,void *,unsigned long *,unsigned long *)` | 300 | Exported Function
-`private: void __thiscall CFrameworkQuery::Reset(void)` | 484 | Exported Function
-`private: unsigned long __thiscall CRegistry::OpenSubKey(void)` | 456 | Exported Function
-`private: struct IWbemServices * __stdcall CWbemProviderGlue::InternalGetNamespaceConnection(unsigned short const *)` | 408 | Exported Function
-`private: static void __stdcall CWinMsgEvent::WindowsDispatch(void)` | 558 | Exported Function
-`private: static void __stdcall CWinMsgEvent::DestroyMsgWindow(void)` | 230 | Exported Function
-`private: struct IWbemClassObject * __thiscall Provider::GetClassObjectInterface(class MethodContext *)` | 289 | Exported Function
-`private: static void __stdcall Provider::InitComputerName(void)` | 401 | Exported Function
-`private: void __thiscall CObjectPathParser::Empty(void)` | 234 | Exported Function
-`private: void __thiscall CThreadBase::Unlock(void)` | 544 | Exported Function
-`private: void __thiscall CThreadBase::Lock(void)` | 433 | Exported Function
-`private: void __thiscall CWbemProviderGlue::FlushAll(void)` | 255 | Exported Function
-`private: void __thiscall CWbemProviderGlue::AddFlushPtr(void *)` | 161 | Exported Function
-`private: void __thiscall CRegistrySearch::CheckAndAddToList(class CRegistry *,class CHString,class CHString,class CHPtrArray &,class CHString,class CHString,int)` | 185 | Exported Function
-`private: void __thiscall CRegistry::CloseSubKey(void)` | 192 | Exported Function
-`private: void __thiscall CObjectPathParser::Zero(void)` | 559 | Exported Function
-`private: void __thiscall CRegistry::SetDefaultValues(void)` | 517 | Exported Function
-`private: void __thiscall CRegistry::PrepareToReOpen(void)` | 459 | Exported Function
-`private: static unsigned long CWbemProviderGlue::s_dwMajorVersion` | 602 | Exported Function
-`private: static unsigned long CRegistry::s_dwPlatform` | 603 | Exported Function
-`private: static unsigned short * CWbemProviderGlue::s_wstrCSDVersion` | 610 | Exported Function
-`private: static unsigned long CWbemProviderGlue::s_dwPlatform` | 604 | Exported Function
-`private: static unsigned long __stdcall CWinMsgEvent::dwThreadProc(void *)` | 562 | Exported Function
-`private: static struct HWND__ * CWinMsgEvent::mg_hWnd` | 580 | Exported Function
-`private: static struct HWND__ * __stdcall CWinMsgEvent::CreateMsgWindow(void)` | 212 | Exported Function
-`private: static struct IWbemClassObject * CWbemProviderGlue::m_pStatusObject` | 574 | Exported Function
-`private: static struct IWbemClassObject * __stdcall CWbemProviderGlue::GetStatusObject(class MethodContext *,unsigned short const *)` | 368 | Exported Function
-`private: static void * CWinMsgEvent::mg_hDevNotify` | 578 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::UnlockFactoryMap(void)` | 546 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::UnInit(void)` | 541 | Exported Function
-`private: static void __stdcall CWinMsgEvent::CreateMsgProvider(void)` | 211 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::UnlockProviderMap(void)` | 547 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::LockProviderMap(void)` | 436 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::GetComputerNameW(class CHString &)` | 290 | Exported Function
-`private: static void * CWinMsgEvent::mg_hThreadPumpHandle` | 579 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::LockFactoryMap(void)` | 435 | Exported Function
-`private: static void __stdcall CWbemProviderGlue::Init(void)` | 400 | Exported Function
-`protected: virtual long __thiscall Provider::EnumerateInstances(class MethodContext *,long)` | 238 | Exported Function
-`protected: virtual long __thiscall Provider::DeleteInstance(class CInstance const &,long)` | 225 | Exported Function
-`protected: virtual long __thiscall Provider::ExecQuery(class MethodContext *,class CFrameworkQuery &,long)` | 246 | Exported Function
-`protected: virtual long __thiscall Provider::ExecMethod(class CInstance const &,unsigned short * const,class CInstance *,class CInstance *,long)` | 241 | Exported Function
-`protected: unsigned long __thiscall CFrameworkQuery::IsInList(class CHStringArray const &,unsigned short const *)` | 414 | Exported Function
-`protected: static void __stdcall CWbemProviderGlue::AddToFactoryMap(class CWbemGlueFactory const *,long *)` | 172 | Exported Function
-`protected: static long __stdcall CWbemProviderGlue::IncrementMapCount(long *)` | 393 | Exported Function
-`protected: struct CHStringData * __thiscall CHString::GetData(void)const ` | 314 | Exported Function
-`protected: static void __stdcall CWbemProviderGlue::RemoveFromFactoryMap(class CWbemGlueFactory const *)` | 483 | Exported Function
-`protected: virtual long __thiscall Provider::GetObject(class CInstance *,long)` | 352 | Exported Function
-`protected: virtual long __thiscall Provider::ValidatePutInstanceFlags(long)` | 555 | Exported Function
-`protected: virtual long __thiscall Provider::ValidateMethodFlags(long)` | 554 | Exported Function
-`protected: virtual void __thiscall CThreadBase::OnFinalRelease(void)` | 450 | Exported Function
-`protected: virtual long __thiscall Provider::ValidateQueryFlags(long)` | 556 | Exported Function
-`protected: virtual long __thiscall Provider::ValidateGetObjFlags(long)` | 552 | Exported Function
-`protected: virtual long __thiscall Provider::PutInstance(class CInstance const &,long)` | 464 | Exported Function
-`protected: virtual long __thiscall Provider::GetObject(class CInstance *,long,class CFrameworkQuery &)` | 353 | Exported Function
-`protected: virtual long __thiscall Provider::ValidateEnumerationFlags(long)` | 550 | Exported Function
-`protected: virtual long __thiscall Provider::ValidateDeletionFlags(long)` | 549 | Exported Function
-`protected: class CHString const & __thiscall Provider::GetLocalComputerName(void)` | 332 | Exported Function
-`protected: class CHString const & __thiscall CFrameworkQuery::GetNamespace(void)` | 344 | Exported Function
-`protected: class CHString const & __thiscall Provider::GetProviderName(void)` | 359 | Exported Function
-`protected: class CHString const & __thiscall Provider::GetNamespace(void)` | 345 | Exported Function
-`protected: class CHString __thiscall Provider::MakeLocalPath(class CHString const &)` | 439 | Exported Function
-`protected: bool __thiscall CWinMsgEvent::UnRegisterMessage(unsigned int,int)` | 543 | Exported Function
-`private: void __thiscall ProviderLog::CheckFileSize(union _LARGE_INTEGER &,class CHString const &)` | 186 | Exported Function
-`protected: bool __thiscall Provider::SetCreationClassName(class CInstance *)` | 505 | Exported Function
-`protected: bool __thiscall Provider::GetLocalInstancePath(class CInstance const *,class CHString &)` | 333 | Exported Function
-`protected: class CInstance * __thiscall Provider::CreateNewInstance(class MethodContext *)` | 213 | Exported Function
-`protected: static long __stdcall CWbemProviderGlue::DecrementMapCount(class CWbemGlueFactory const *)` | 217 | Exported Function
-`protected: static long * __stdcall CWbemProviderGlue::GetMapCountPtr(class CWbemGlueFactory const *)` | 342 | Exported Function
-`protected: static long __stdcall CWbemProviderGlue::IncrementMapCount(class CWbemGlueFactory const *)` | 394 | Exported Function
-`protected: static long __stdcall CWbemProviderGlue::DecrementMapCount(long *)` | 216 | Exported Function
-`protected: static int __stdcall CHString::SafeStrlen(unsigned short const *)` | 488 | Exported Function
-`protected: int __thiscall CHString::LoadStringW(unsigned int,unsigned short *,unsigned int)` | 428 | Exported Function
-`protected: int __thiscall CFrameworkQuery::IsReference(unsigned short const *)` | 424 | Exported Function
-`protected: long __thiscall Provider::ValidateFlags(long,enum Provider::FlagDefs)` | 551 | Exported Function
-`protected: long __thiscall Provider::Commit(class CInstance *,bool)` | 195 | Exported Function
-`private: int __thiscall CObjectPathParser::NextToken(void)` | 447 | Exported Function
-`private: int __thiscall CObjectPathParser::keyref_term(void)` | 570 | Exported Function
-`private: int __thiscall CObjectPathParser::ns_list_rest(void)` | 592 | Exported Function
-`private: int __thiscall CObjectPathParser::ns_list(void)` | 591 | Exported Function
-`private: int __thiscall CObjectPathParser::keyref_list(void)` | 569 | Exported Function
-`private: int __thiscall CObjectPathParser::ident_becomes_ns(void)` | 564 | Exported Function
-`private: int __thiscall CObjectPathParser::ident_becomes_class(void)` | 563 | Exported Function
-`private: int __thiscall CObjectPathParser::keyref(void)` | 568 | Exported Function
-`private: int __thiscall CObjectPathParser::key_const(void)` | 567 | Exported Function
-`private: int __thiscall CObjectPathParser::ns_or_class(void)` | 593 | Exported Function
-`private: int __thiscall Provider::ValidateIMOSPointer(void)` | 553 | Exported Function
-`private: int __thiscall Provider::SetKeyFromParsedObjectPath(class CInstance *,struct ParsedObjectPath *)` | 519 | Exported Function
-`private: long __thiscall CRegistry::myRegDeleteKey(struct HKEY__ *,unsigned short const *)` | 583 | Exported Function
-`private: long __thiscall CRegistry::myRegCreateKeyEx(struct HKEY__ *,unsigned short const *,unsigned long,unsigned short *,unsigned long,unsigned long,struct _SECURITY_ATTRIBUTES * const,struct HKEY__ * *,unsigned long *)` | 582 | Exported Function
-`private: int __thiscall CObjectPathParser::propname(void)` | 598 | Exported Function
-`private: int __thiscall CObjectPathParser::objref(void)` | 595 | Exported Function
-`private: int __thiscall CObjectPathParser::ns_or_server(void)` | 594 | Exported Function
-`private: int __thiscall CObjectPathParser::optional_objref(void)` | 597 | Exported Function
-`private: int __thiscall CObjectPathParser::objref_rest(void)` | 596 | Exported Function
+`GetBSTR` | 281 | Exported Function
+`GetDMTFNonNtfs` | 309 | Exported Function
+`operator` | 117 | Exported Function
+`GetAt` | 278 | Exported Function
+`GetData` | 316 | Exported Function
+`GetCurrentRawSubKeyValue` | 301 | Exported Function
+`GetCurrentRawKeyValue` | 300 | Exported Function
+`Reset` | 484 | Exported Function
+`OpenSubKey` | 456 | Exported Function
+`InternalGetNamespaceConnection` | 408 | Exported Function
+`WindowsDispatch` | 558 | Exported Function
+`DestroyMsgWindow` | 230 | Exported Function
+`GetClassObjectInterface` | 289 | Exported Function
+`InitComputerName` | 401 | Exported Function
+`Empty` | 234 | Exported Function
+`Unlock` | 544 | Exported Function
+`Lock` | 433 | Exported Function
+`FlushAll` | 255 | Exported Function
+`AddFlushPtr` | 161 | Exported Function
+`CheckAndAddToList` | 185 | Exported Function
+`CloseSubKey` | 192 | Exported Function
+`Zero` | 559 | Exported Function
+`SetDefaultValues` | 517 | Exported Function
+`PrepareToReOpen` | 459 | Exported Function
+`s_dwMajorVersion` | 602 | Exported Function
+`s_dwPlatform` | 603 | Exported Function
+`s_wstrCSDVersion` | 610 | Exported Function
+`s_dwPlatform` | 604 | Exported Function
+`dwThreadProc` | 562 | Exported Function
+`mg_hWnd` | 580 | Exported Function
+`CreateMsgWindow` | 212 | Exported Function
+`m_pStatusObject` | 574 | Exported Function
+`GetStatusObject` | 368 | Exported Function
+`mg_hDevNotify` | 578 | Exported Function
+`UnlockFactoryMap` | 546 | Exported Function
+`UnInit` | 541 | Exported Function
+`CreateMsgProvider` | 211 | Exported Function
+`UnlockProviderMap` | 547 | Exported Function
+`LockProviderMap` | 436 | Exported Function
+`GetComputerNameW` | 290 | Exported Function
+`mg_hThreadPumpHandle` | 579 | Exported Function
+`LockFactoryMap` | 435 | Exported Function
+`Init` | 400 | Exported Function
+`EnumerateInstances` | 238 | Exported Function
+`DeleteInstance` | 225 | Exported Function
+`ExecQuery` | 246 | Exported Function
+`ExecMethod` | 241 | Exported Function
+`IsInList` | 414 | Exported Function
+`AddToFactoryMap` | 172 | Exported Function
+`IncrementMapCount` | 393 | Exported Function
+`GetData` | 314 | Exported Function
+`RemoveFromFactoryMap` | 483 | Exported Function
+`GetObject` | 352 | Exported Function
+`ValidatePutInstanceFlags` | 555 | Exported Function
+`ValidateMethodFlags` | 554 | Exported Function
+`OnFinalRelease` | 450 | Exported Function
+`ValidateQueryFlags` | 556 | Exported Function
+`ValidateGetObjFlags` | 552 | Exported Function
+`PutInstance` | 464 | Exported Function
+`GetObject` | 353 | Exported Function
+`ValidateEnumerationFlags` | 550 | Exported Function
+`ValidateDeletionFlags` | 549 | Exported Function
+`GetLocalComputerName` | 332 | Exported Function
+`GetNamespace` | 344 | Exported Function
+`GetProviderName` | 359 | Exported Function
+`GetNamespace` | 345 | Exported Function
+`MakeLocalPath` | 439 | Exported Function
+`UnRegisterMessage` | 543 | Exported Function
+`CheckFileSize` | 186 | Exported Function
+`SetCreationClassName` | 505 | Exported Function
+`GetLocalInstancePath` | 333 | Exported Function
+`CreateNewInstance` | 213 | Exported Function
+`DecrementMapCount` | 217 | Exported Function
+`GetMapCountPtr` | 342 | Exported Function
+`IncrementMapCount` | 394 | Exported Function
+`DecrementMapCount` | 216 | Exported Function
+`SafeStrlen` | 488 | Exported Function
+`LoadStringW` | 428 | Exported Function
+`IsReference` | 424 | Exported Function
+`FlagDefs` | 551 | Exported Function
+`Commit` | 195 | Exported Function
+`NextToken` | 447 | Exported Function
+`keyref_term` | 570 | Exported Function
+`ns_list_rest` | 592 | Exported Function
+`ns_list` | 591 | Exported Function
+`keyref_list` | 569 | Exported Function
+`ident_becomes_ns` | 564 | Exported Function
+`ident_becomes_class` | 563 | Exported Function
+`keyref` | 568 | Exported Function
+`key_const` | 567 | Exported Function
+`ns_or_class` | 593 | Exported Function
+`ValidateIMOSPointer` | 553 | Exported Function
+`SetKeyFromParsedObjectPath` | 519 | Exported Function
+`myRegDeleteKey` | 583 | Exported Function
+`myRegCreateKeyEx` | 582 | Exported Function
+`propname` | 598 | Exported Function
+`objref` | 595 | Exported Function
+`ns_or_server` | 594 | Exported Function
+`optional_objref` | 597 | Exported Function
+`objref_rest` | 596 | Exported Function
 `class ProviderLog captainsLog` | 561 | Exported Function
 `class CHString __stdcall operator+(unsigned short,class CHString const &)` | 127 | Exported Function
 `const CInstance::``vftable'` | 148 | Exported Function
@@ -439,204 +439,204 @@ Function Name | Ordinal | Type
 `const CThreadBase::``vftable'` | 149 | Exported Function
 `const ProviderLog::``vftable'` | 156 | Exported Function
 `const Provider::``vftable'` | 155 | Exported Function
-`private: int __thiscall CObjectPathParser::begin_parse(void)` | 560 | Exported Function
-`private: class CWbemProviderGlue * __thiscall MethodContext::GetProviderGlue(void)` | 358 | Exported Function
+`begin_parse` | 560 | Exported Function
+`GetProviderGlue` | 358 | Exported Function
 `const MethodContext::``vftable'` | 154 | Exported Function
 `const CWbemProviderGlue::``vftable'{for ``IWbemProviderInit'}` | 151 | Exported Function
 `const CWbemGlueFactory::``vftable'` | 150 | Exported Function
 `const CWinMsgEvent::``vftable'` | 153 | Exported Function
 `const CWbemProviderGlue::``vftable'{for ``IWbemServices'}` | 152 | Exported Function
-`private: static class std::map<class CHString,void *,struct std::less<class CHString>,class std::allocator<struct std::pair<class CHString const ,void *> > > CWbemProviderGlue::s_providersmap` | 608 | Exported Function
-`private: static class Provider * __stdcall CWbemProviderGlue::SearchMapForProvider(unsigned short const *,unsigned short const *)` | 490 | Exported Function
-`private: static class std::multimap<unsigned int,class CWinMsgEvent *,struct std::less<unsigned int>,class std::allocator<struct std::pair<unsigned int const ,class CWinMsgEvent *> > > CWinMsgEvent::mg_oSinkMap` | 581 | Exported Function
-`private: static class std::map<void const *,long *,struct std::less<void const *>,class std::allocator<struct std::pair<void const * const,long *> > > CWbemProviderGlue::s_factorymap` | 606 | Exported Function
-`private: static class Provider * __stdcall CWbemProviderGlue::AddProviderToMap(unsigned short const *,unsigned short const *,class Provider *)` | 166 | Exported Function
-`private: static class CCritSec CWinMsgEvent::mg_csMapLock` | 576 | Exported Function
-`private: static class CCritSec CWbemProviderGlue::s_csProviderMap` | 601 | Exported Function
-`private: static class CHString Provider::s_strComputerName` | 609 | Exported Function
-`private: static class CCritSec CWinMsgEvent::mg_csWindowLock` | 577 | Exported Function
-`private: static class std::set<void *,struct std::less<void *>,class std::allocator<void *> > CWbemProviderGlue::m_FlushPtrs` | 571 | Exported Function
-`private: static long __stdcall CWbemProviderGlue::GetInstanceFromCIMOM(unsigned short const *,unsigned short const *,class MethodContext *,class CInstance * *)` | 325 | Exported Function
-`private: static long __stdcall CWbemProviderGlue::CheckImpersonationLevel(void)` | 187 | Exported Function
-`private: static long CWbemProviderGlue::s_lObjects` | 607 | Exported Function
-`private: static long __stdcall CWinMsgEvent::MsgWndProc(struct HWND__ *,unsigned int,unsigned int,long)` | 445 | Exported Function
-`private: static int Provider::initFailed_` | 566 | Exported Function
-`private: static int __stdcall CWinMsgEvent::CtrlHandlerRoutine(unsigned long)` | 215 | Exported Function
-`private: static int __stdcall CRegistry::SetPlatformID(void)` | 521 | Exported Function
-`private: static int CWbemProviderGlue::s_bInitted` | 599 | Exported Function
-`private: static int CRegistry::s_fPlatformSet` | 605 | Exported Function
-`private: long __thiscall CRegistry::myRegSetValueEx(struct HKEY__ *,unsigned short const *,unsigned long,unsigned long,unsigned char const *,unsigned long)` | 590 | Exported Function
-`private: long __thiscall CRegistry::myRegQueryValueEx(struct HKEY__ *,unsigned short const *,unsigned long *,unsigned long *,unsigned char *,unsigned long *)` | 589 | Exported Function
-`private: long __thiscall CWbemProviderGlue::PreProcessPutInstanceParms(struct IWbemClassObject *,struct IWbemClassObject * *,struct IWbemContext *)` | 458 | Exported Function
-`private: long __thiscall CWbemProviderGlue::NullOutUnsetProperties(struct IWbemClassObject *,struct IWbemClassObject * *,struct tagVARIANT const &)` | 449 | Exported Function
-`private: long __thiscall CRegistry::myRegQueryInfoKey(struct HKEY__ *,unsigned short *,unsigned long *,unsigned long *,unsigned long *,unsigned long *,unsigned long *,unsigned long *,unsigned long *,unsigned long *,unsigned long *,struct _FILETIME *)` | 588 | Exported Function
-`private: long __thiscall CRegistry::myRegEnumKey(struct HKEY__ *,unsigned long,unsigned short *,unsigned long)` | 585 | Exported Function
-`private: long __thiscall CRegistry::myRegDeleteValue(struct HKEY__ *,unsigned short const *)` | 584 | Exported Function
-`private: long __thiscall CRegistry::myRegOpenKeyEx(struct HKEY__ *,unsigned short const *,unsigned long,unsigned long,struct HKEY__ * *)` | 587 | Exported Function
-`private: long __thiscall CRegistry::myRegEnumValue(struct HKEY__ *,unsigned long,unsigned short *,unsigned long *,unsigned long *,unsigned long *,unsigned char *,unsigned long *)` | 586 | Exported Function
-`private: long __thiscall Provider::CreateInstanceEnum(class MethodContext *,long)` | 209 | Exported Function
-`private: static class CCritSec CWbemProviderGlue::m_csFlushPtrs` | 572 | Exported Function
-`private: static class CAutoEvent CWinMsgEvent::mg_aeCreateWindow` | 575 | Exported Function
-`private: static class CCritSec CWbemProviderGlue::s_csFactoryMap` | 600 | Exported Function
-`private: static class CCritSec CWbemProviderGlue::m_csStatusObject` | 573 | Exported Function
-`private: long __thiscall Provider::PutInstance(struct IWbemClassObject *,long,class MethodContext *)` | 463 | Exported Function
-`private: long __thiscall Provider::ExecMethod(struct ParsedObjectPath *,unsigned short *,long,class CInstance *,class CInstance *,class MethodContext *)` | 240 | Exported Function
-`private: long __thiscall Provider::DeleteInstance(struct ParsedObjectPath *,long,class MethodContext *)` | 224 | Exported Function
-`private: long __thiscall Provider::GetObject(struct ParsedObjectPath *,class MethodContext *,long)` | 351 | Exported Function
-`private: long __thiscall Provider::ExecuteQuery(class MethodContext *,class CFrameworkQuery &,long)` | 248 | Exported Function
-`protected: virtual void __thiscall Provider::Flush(void)` | 254 | Exported Function
-`public: bool __thiscall CInstance::SetByte(unsigned short const *,unsigned char)` | 496 | Exported Function
-`public: bool __thiscall CInstance::Setbool(unsigned short const *,bool)` | 535 | Exported Function
-`public: bool __thiscall CInstance::SetCharSplat(unsigned short const *,unsigned long)` | 502 | Exported Function
-`public: bool __thiscall CInstance::SetCharSplat(unsigned short const *,char const *)` | 503 | Exported Function
-`public: bool __thiscall CInstance::IsNull(unsigned short const *)const ` | 419 | Exported Function
-`public: bool __thiscall CInstance::GetWBEMINT64(unsigned short const *,unsigned __int64 &)const ` | 386 | Exported Function
-`public: bool __thiscall CInstance::GetWBEMINT64(unsigned short const *,class CHString &)const ` | 384 | Exported Function
-`public: bool __thiscall CInstance::GetWORD(unsigned short const *,unsigned short &)const ` | 388 | Exported Function
-`public: bool __thiscall CInstance::GetWCHAR(unsigned short const *,unsigned short * *)const ` | 387 | Exported Function
-`public: bool __thiscall CInstance::SetCharSplat(unsigned short const *,unsigned short const *)` | 501 | Exported Function
-`public: bool __thiscall CInstance::SetEmbeddedObject(unsigned short const *,class CInstance &)` | 518 | Exported Function
-`public: bool __thiscall CInstance::SetDWORD(unsigned short const *,unsigned long)` | 515 | Exported Function
-`public: bool __thiscall CInstance::SetStringArray(unsigned short const *,struct tagSAFEARRAY const &)` | 526 | Exported Function
-`public: bool __thiscall CInstance::SetNull(unsigned short const *)` | 520 | Exported Function
-`public: bool __thiscall CInstance::SetDOUBLE(unsigned short const *,double)` | 514 | Exported Function
-`public: bool __thiscall CInstance::SetCHString(unsigned short const *,class CHString const &)` | 498 | Exported Function
-`public: bool __thiscall CInstance::SetCHString(unsigned short const *,char const *)` | 499 | Exported Function
-`public: bool __thiscall CInstance::SetDateTime(unsigned short const *,class WBEMTime const &)` | 516 | Exported Function
-`public: bool __thiscall CInstance::SetCHString(unsigned short const *,unsigned short const *)` | 497 | Exported Function
-`public: bool __thiscall CInstance::Getbool(unsigned short const *,bool &)const ` | 389 | Exported Function
-`public: bool __thiscall CFrameworkQuery::KeysOnly(void)` | 426 | Exported Function
-`public: bool __thiscall CInstance::GetCHString(unsigned short const *,class CHString &)const ` | 285 | Exported Function
-`public: bool __thiscall CInstance::GetByte(unsigned short const *,unsigned char &)const ` | 284 | Exported Function
-`public: bool __thiscall CFrameworkQuery::IsPropertyRequired(unsigned short const *)` | 423 | Exported Function
-`public: __thiscall WBEMTimeSpan::WBEMTimeSpan(unsigned short * const)` | 51 | Exported Function
-`public: __thiscall WBEMTimeSpan::WBEMTimeSpan(struct _FILETIME const &)` | 49 | Exported Function
-`public: bool __thiscall CFrameworkQuery::AllPropertiesAreRequired(void)` | 173 | Exported Function
-`public: __thiscall WBEMTimeSpan::WBEMTimeSpan(void)` | 52 | Exported Function
-`public: bool __thiscall CInstance::GetDateTime(unsigned short const *,class WBEMTime &)const ` | 317 | Exported Function
-`public: bool __thiscall CInstance::GetVariant(unsigned short const *,struct tagVARIANT &)const ` | 382 | Exported Function
-`public: bool __thiscall CInstance::GetTimeSpan(unsigned short const *,class WBEMTimeSpan &)const ` | 374 | Exported Function
-`public: bool __thiscall CInstance::GetWBEMINT64(unsigned short const *,__int64 &)const ` | 385 | Exported Function
-`public: bool __thiscall CInstance::GetWBEMINT16(unsigned short const *,short &)const ` | 383 | Exported Function
-`public: bool __thiscall CInstance::GetStringArray(unsigned short const *,struct tagSAFEARRAY * &)const ` | 370 | Exported Function
-`public: bool __thiscall CInstance::GetDWORD(unsigned short const *,unsigned long &)const ` | 311 | Exported Function
-`public: bool __thiscall CInstance::GetDOUBLE(unsigned short const *,double &)const ` | 310 | Exported Function
-`public: bool __thiscall CInstance::GetStatus(unsigned short const *,bool &,unsigned short &)const ` | 367 | Exported Function
-`public: bool __thiscall CInstance::GetEmbeddedObject(unsigned short const *,class CInstance * *,class MethodContext *)const ` | 318 | Exported Function
-`public: class CHString __thiscall CHStringArray::operator[](int)const ` | 119 | Exported Function
-`public: class CHString __thiscall CHStringArray::GetAt(int)const ` | 279 | Exported Function
-`public: class CHString const & __thiscall CHString::operator+=(char)` | 140 | Exported Function
-`public: class CHString const & __thiscall CFrameworkQuery::GetQuery(void)` | 360 | Exported Function
-`public: class CHString __thiscall CHString::SpanIncluding(unsigned short const *)const ` | 538 | Exported Function
-`public: class CHString __thiscall CHString::Mid(int,int)const ` | 444 | Exported Function
-`public: class CHString __thiscall CHString::Mid(int)const ` | 443 | Exported Function
-`public: class CHString __thiscall CHString::SpanExcluding(unsigned short const *)const ` | 537 | Exported Function
-`public: class CHString __thiscall CHString::Right(int)const ` | 487 | Exported Function
-`public: class CHString const & __thiscall CHString::operator+=(class CHString const &)` | 139 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(unsigned char const *)` | 82 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(class CHString const &)` | 77 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(unsigned short)` | 79 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(unsigned short const *)` | 83 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(class CHString *)` | 80 | Exported Function
-`public: class CHString const & __thiscall CHString::operator+=(unsigned short)` | 141 | Exported Function
-`public: class CHString const & __thiscall CHString::operator+=(unsigned short const *)` | 142 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(char)` | 78 | Exported Function
-`public: class CHString const & __thiscall CHString::operator=(char const *)` | 81 | Exported Function
-`public: bool __thiscall CInstance::SetWCHARSplat(unsigned short const *,unsigned short const *)` | 533 | Exported Function
-`public: bool __thiscall CInstance::SetWBEMINT64(unsigned short const *,unsigned __int64)` | 532 | Exported Function
-`public: bool __thiscall MethodContext::SetStatusObject(struct IWbemClassObject *)` | 525 | Exported Function
-`public: bool __thiscall CInstance::SetWORD(unsigned short const *,unsigned short)` | 534 | Exported Function
-`public: bool __thiscall CInstance::SetWBEMINT64(unsigned short const *,class CHString const &)` | 530 | Exported Function
-`public: bool __thiscall CInstance::SetVariant(unsigned short const *,struct tagVARIANT const &)` | 528 | Exported Function
-`public: bool __thiscall CInstance::SetTimeSpan(unsigned short const *,class WBEMTimeSpan const &)` | 527 | Exported Function
-`public: bool __thiscall CInstance::SetWBEMINT64(unsigned short const *,__int64)` | 531 | Exported Function
-`public: bool __thiscall CInstance::SetWBEMINT16(unsigned short const *,short const &)` | 529 | Exported Function
-`public: bool __thiscall WBEMTime::IsOk(void)const ` | 421 | Exported Function
-`public: class CHString & __thiscall CHStringArray::operator[](int)` | 118 | Exported Function
-`public: class CHString & __thiscall CHStringArray::ElementAt(int)` | 232 | Exported Function
-`public: class CHString __thiscall CHString::Left(int)const ` | 427 | Exported Function
-`public: class CHString * __thiscall CHStringArray::GetData(void)` | 315 | Exported Function
-`public: class CHPtrArray & __thiscall CHPtrArray::operator=(class CHPtrArray const &)` | 76 | Exported Function
-`public: class CAutoEvent & __thiscall CAutoEvent::operator=(class CAutoEvent const &)` | 73 | Exported Function
-`public: bool __thiscall WBEMTimeSpan::IsOk(void)const ` | 422 | Exported Function
-`public: class CFrameworkQueryEx & __thiscall CFrameworkQueryEx::operator=(class CFrameworkQueryEx const &)` | 75 | Exported Function
-`public: class CFrameworkQuery & __thiscall CFrameworkQuery::operator=(class CFrameworkQuery const &)` | 74 | Exported Function
-`public: __thiscall CHString::CHString(unsigned short const *,int)` | 12 | Exported Function
-`public: __thiscall CHString::CHString(unsigned short const *)` | 11 | Exported Function
-`public: __thiscall CHString::CHString(void)` | 13 | Exported Function
-`public: __thiscall CHString::CHString(unsigned short,int)` | 8 | Exported Function
-`public: __thiscall CHString::CHString(unsigned char const *)` | 10 | Exported Function
+`s_providersmap` | 608 | Exported Function
+`SearchMapForProvider` | 490 | Exported Function
+`mg_oSinkMap` | 581 | Exported Function
+`s_factorymap` | 606 | Exported Function
+`AddProviderToMap` | 166 | Exported Function
+`mg_csMapLock` | 576 | Exported Function
+`s_csProviderMap` | 601 | Exported Function
+`s_strComputerName` | 609 | Exported Function
+`mg_csWindowLock` | 577 | Exported Function
+`m_FlushPtrs` | 571 | Exported Function
+`GetInstanceFromCIMOM` | 325 | Exported Function
+`CheckImpersonationLevel` | 187 | Exported Function
+`s_lObjects` | 607 | Exported Function
+`MsgWndProc` | 445 | Exported Function
+`initFailed_` | 566 | Exported Function
+`CtrlHandlerRoutine` | 215 | Exported Function
+`SetPlatformID` | 521 | Exported Function
+`s_bInitted` | 599 | Exported Function
+`s_fPlatformSet` | 605 | Exported Function
+`myRegSetValueEx` | 590 | Exported Function
+`myRegQueryValueEx` | 589 | Exported Function
+`PreProcessPutInstanceParms` | 458 | Exported Function
+`NullOutUnsetProperties` | 449 | Exported Function
+`myRegQueryInfoKey` | 588 | Exported Function
+`myRegEnumKey` | 585 | Exported Function
+`myRegDeleteValue` | 584 | Exported Function
+`myRegOpenKeyEx` | 587 | Exported Function
+`myRegEnumValue` | 586 | Exported Function
+`CreateInstanceEnum` | 209 | Exported Function
+`m_csFlushPtrs` | 572 | Exported Function
+`mg_aeCreateWindow` | 575 | Exported Function
+`s_csFactoryMap` | 600 | Exported Function
+`m_csStatusObject` | 573 | Exported Function
+`PutInstance` | 463 | Exported Function
+`ExecMethod` | 240 | Exported Function
+`DeleteInstance` | 224 | Exported Function
+`GetObject` | 351 | Exported Function
+`ExecuteQuery` | 248 | Exported Function
+`Flush` | 254 | Exported Function
+`SetByte` | 496 | Exported Function
+`Setbool` | 535 | Exported Function
+`SetCharSplat` | 502 | Exported Function
+`SetCharSplat` | 503 | Exported Function
+`IsNull` | 419 | Exported Function
+`GetWBEMINT64` | 386 | Exported Function
+`GetWBEMINT64` | 384 | Exported Function
+`GetWORD` | 388 | Exported Function
+`GetWCHAR` | 387 | Exported Function
+`SetCharSplat` | 501 | Exported Function
+`SetEmbeddedObject` | 518 | Exported Function
+`SetDWORD` | 515 | Exported Function
+`SetStringArray` | 526 | Exported Function
+`SetNull` | 520 | Exported Function
+`SetDOUBLE` | 514 | Exported Function
+`SetCHString` | 498 | Exported Function
+`SetCHString` | 499 | Exported Function
+`SetDateTime` | 516 | Exported Function
+`SetCHString` | 497 | Exported Function
+`Getbool` | 389 | Exported Function
+`KeysOnly` | 426 | Exported Function
+`GetCHString` | 285 | Exported Function
+`GetByte` | 284 | Exported Function
+`IsPropertyRequired` | 423 | Exported Function
+`WBEMTimeSpan` | 51 | Exported Function
+`WBEMTimeSpan` | 49 | Exported Function
+`AllPropertiesAreRequired` | 173 | Exported Function
+`WBEMTimeSpan` | 52 | Exported Function
+`GetDateTime` | 317 | Exported Function
+`GetVariant` | 382 | Exported Function
+`GetTimeSpan` | 374 | Exported Function
+`GetWBEMINT64` | 385 | Exported Function
+`GetWBEMINT16` | 383 | Exported Function
+`GetStringArray` | 370 | Exported Function
+`GetDWORD` | 311 | Exported Function
+`GetDOUBLE` | 310 | Exported Function
+`GetStatus` | 367 | Exported Function
+`GetEmbeddedObject` | 318 | Exported Function
+`operator` | 119 | Exported Function
+`GetAt` | 279 | Exported Function
+`operator` | 140 | Exported Function
+`GetQuery` | 360 | Exported Function
+`SpanIncluding` | 538 | Exported Function
+`Mid` | 444 | Exported Function
+`Mid` | 443 | Exported Function
+`SpanExcluding` | 537 | Exported Function
+`Right` | 487 | Exported Function
+`operator` | 139 | Exported Function
+`operator` | 82 | Exported Function
+`operator` | 77 | Exported Function
+`operator` | 79 | Exported Function
+`operator` | 83 | Exported Function
+`operator` | 80 | Exported Function
+`operator` | 141 | Exported Function
+`operator` | 142 | Exported Function
+`operator` | 78 | Exported Function
+`operator` | 81 | Exported Function
+`SetWCHARSplat` | 533 | Exported Function
+`SetWBEMINT64` | 532 | Exported Function
+`SetStatusObject` | 525 | Exported Function
+`SetWORD` | 534 | Exported Function
+`SetWBEMINT64` | 530 | Exported Function
+`SetVariant` | 528 | Exported Function
+`SetTimeSpan` | 527 | Exported Function
+`SetWBEMINT64` | 531 | Exported Function
+`SetWBEMINT16` | 529 | Exported Function
+`IsOk` | 421 | Exported Function
+`operator` | 118 | Exported Function
+`ElementAt` | 232 | Exported Function
+`Left` | 427 | Exported Function
+`GetData` | 315 | Exported Function
+`operator` | 76 | Exported Function
+`operator` | 73 | Exported Function
+`IsOk` | 422 | Exported Function
+`operator` | 75 | Exported Function
+`operator` | 74 | Exported Function
+`CHString` | 12 | Exported Function
+`CHString` | 11 | Exported Function
+`CHString` | 13 | Exported Function
+`CHString` | 8 | Exported Function
+`CHString` | 10 | Exported Function
 `public: __thiscall CHPtrArray::~CHPtrArray(void)` | 56 | Exported Function
-`public: __thiscall CHPtrArray::CHPtrArray(void)` | 6 | Exported Function
-`public: __thiscall CHString::CHString(class CHString const &)` | 7 | Exported Function
-`public: __thiscall CHString::CHString(char const *)` | 9 | Exported Function
-`public: __thiscall CHString::operator unsigned short const *(void)const ` | 120 | Exported Function
+`CHPtrArray` | 6 | Exported Function
+`CHString` | 7 | Exported Function
+`CHString` | 9 | Exported Function
+`operator` | 120 | Exported Function
 `public: __thiscall CObjectPathParser::~CObjectPathParser(void)` | 60 | Exported Function
-`public: __thiscall CObjectPathParser::CObjectPathParser(enum ObjectParserFlags)` | 17 | Exported Function
+`CObjectPathParser` | 17 | Exported Function
 `public: __thiscall CreateMutexAsProcess::~CreateMutexAsProcess(void)` | 67 | Exported Function
-`public: __thiscall CreateMutexAsProcess::CreateMutexAsProcess(unsigned short const *)` | 32 | Exported Function
-`public: __thiscall CInstance::CInstance(struct IWbemClassObject *,class MethodContext *)` | 16 | Exported Function
-`public: __thiscall CHStringArray::CHStringArray(void)` | 14 | Exported Function
+`CreateMutexAsProcess` | 32 | Exported Function
+`CInstance` | 16 | Exported Function
+`CHStringArray` | 14 | Exported Function
 `public: __thiscall CHString::~CHString(void)` | 57 | Exported Function
-`public: __thiscall CInstance::CInstance(class CInstance const &)` | 15 | Exported Function
+`CInstance` | 15 | Exported Function
 `public: __thiscall CHStringArray::~CHStringArray(void)` | 58 | Exported Function
-`protected: void __thiscall CHString::CopyBeforeWrite(void)` | 202 | Exported Function
-`protected: void __thiscall CHString::ConcatInPlace(int,unsigned short const *)` | 199 | Exported Function
-`protected: void __thiscall CInstance::LogError(unsigned short const *,unsigned short const *,unsigned short const *,long)const ` | 438 | Exported Function
-`protected: void __thiscall CHString::Init(void)` | 399 | Exported Function
-`protected: void __thiscall CHString::ConcatCopy(int,unsigned short const *,int,unsigned short const *)` | 198 | Exported Function
-`protected: void __thiscall CHString::AllocBuffer(int)` | 175 | Exported Function
-`protected: void __thiscall CHString::AllocBeforeWrite(int)` | 174 | Exported Function
-`protected: void __thiscall CHString::AssignCopy(int,unsigned short const *)` | 180 | Exported Function
-`protected: void __thiscall CHString::AllocCopy(class CHString &,int,int,int)const ` | 176 | Exported Function
-`protected: void __thiscall CWinMsgEvent::RegisterForMessage(unsigned int,int)` | 470 | Exported Function
-`public: __thiscall CFrameworkQueryEx::CFrameworkQueryEx(class CFrameworkQueryEx const &)` | 4 | Exported Function
+`CopyBeforeWrite` | 202 | Exported Function
+`ConcatInPlace` | 199 | Exported Function
+`LogError` | 438 | Exported Function
+`Init` | 399 | Exported Function
+`ConcatCopy` | 198 | Exported Function
+`AllocBuffer` | 175 | Exported Function
+`AllocBeforeWrite` | 174 | Exported Function
+`AssignCopy` | 180 | Exported Function
+`AllocCopy` | 176 | Exported Function
+`RegisterForMessage` | 470 | Exported Function
+`CFrameworkQueryEx` | 4 | Exported Function
 `public: __thiscall CFrameworkQuery::~CFrameworkQuery(void)` | 54 | Exported Function
 `public: __thiscall CFrameworkQueryEx::~CFrameworkQueryEx(void)` | 55 | Exported Function
-`public: __thiscall CFrameworkQueryEx::CFrameworkQueryEx(void)` | 5 | Exported Function
-`public: __thiscall CFrameworkQuery::CFrameworkQuery(void)` | 3 | Exported Function
-`public: __thiscall CAutoEvent::CAutoEvent(void)` | 1 | Exported Function
-`protected: void __thiscall CWinMsgEvent::UnRegisterAllMessages(void)` | 542 | Exported Function
-`public: __thiscall CFrameworkQuery::CFrameworkQuery(class CFrameworkQuery const &)` | 2 | Exported Function
+`CFrameworkQueryEx` | 5 | Exported Function
+`CFrameworkQuery` | 3 | Exported Function
+`CAutoEvent` | 1 | Exported Function
+`UnRegisterAllMessages` | 542 | Exported Function
+`CFrameworkQuery` | 2 | Exported Function
 `public: __thiscall CAutoEvent::~CAutoEvent(void)` | 53 | Exported Function
 `public: __thiscall ParsedObjectPath::~ParsedObjectPath(void)` | 70 | Exported Function
-`public: __thiscall ParsedObjectPath::ParsedObjectPath(void)` | 37 | Exported Function
-`public: __thiscall Provider::Provider(unsigned short const *,unsigned short const *)` | 39 | Exported Function
-`public: __thiscall Provider::Provider(class Provider const &)` | 38 | Exported Function
-`public: __thiscall MethodContext::MethodContext(struct IWbemContext *,class CWbemProviderGlue *)` | 36 | Exported Function
-`public: __thiscall KeyRef::KeyRef(void)` | 34 | Exported Function
-`public: __thiscall KeyRef::KeyRef(unsigned short const *,struct tagVARIANT const *)` | 33 | Exported Function
-`public: __thiscall MethodContext::MethodContext(class MethodContext const &)` | 35 | Exported Function
+`ParsedObjectPath` | 37 | Exported Function
+`Provider` | 39 | Exported Function
+`Provider` | 38 | Exported Function
+`MethodContext` | 36 | Exported Function
+`KeyRef` | 34 | Exported Function
+`KeyRef` | 33 | Exported Function
+`MethodContext` | 35 | Exported Function
 `public: __thiscall KeyRef::~KeyRef(void)` | 68 | Exported Function
-`public: __thiscall ProviderLog::ProviderLog(class ProviderLog const &)` | 40 | Exported Function
-`public: __thiscall WBEMTime::WBEMTime(void)` | 47 | Exported Function
-`public: __thiscall WBEMTime::WBEMTime(unsigned short * const)` | 46 | Exported Function
-`public: __thiscall WBEMTimeSpan::WBEMTimeSpan(long const &)` | 48 | Exported Function
-`public: __thiscall WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int)` | 50 | Exported Function
-`public: __thiscall WBEMTime::WBEMTime(struct tm const &)` | 45 | Exported Function
-`public: __thiscall WBEMTime::WBEMTime(long const &)` | 42 | Exported Function
-`public: __thiscall ProviderLog::ProviderLog(void)` | 41 | Exported Function
-`public: __thiscall WBEMTime::WBEMTime(struct _SYSTEMTIME const &)` | 44 | Exported Function
-`public: __thiscall WBEMTime::WBEMTime(struct _FILETIME const &)` | 43 | Exported Function
-`public: __thiscall CThreadBase::CThreadBase(class CThreadBase const &)` | 22 | Exported Function
+`ProviderLog` | 40 | Exported Function
+`WBEMTime` | 47 | Exported Function
+`WBEMTime` | 46 | Exported Function
+`WBEMTimeSpan` | 48 | Exported Function
+`WBEMTimeSpan` | 50 | Exported Function
+`WBEMTime` | 45 | Exported Function
+`WBEMTime` | 42 | Exported Function
+`ProviderLog` | 41 | Exported Function
+`WBEMTime` | 44 | Exported Function
+`WBEMTime` | 43 | Exported Function
+`CThreadBase` | 22 | Exported Function
 `public: __thiscall CRegistrySearch::~CRegistrySearch(void)` | 62 | Exported Function
-`public: __thiscall CWbemGlueFactory::CWbemGlueFactory(class CWbemGlueFactory const &)` | 24 | Exported Function
-`public: __thiscall CThreadBase::CThreadBase(enum CThreadBase::THREAD_SAFETY_MECHANISM)` | 23 | Exported Function
-`public: __thiscall CRegistrySearch::CRegistrySearch(void)` | 21 | Exported Function
-`public: __thiscall CRegistry::CRegistry(void)` | 19 | Exported Function
-`public: __thiscall CRegistry::CRegistry(class CRegistry const &)` | 18 | Exported Function
-`public: __thiscall CRegistrySearch::CRegistrySearch(class CRegistrySearch const &)` | 20 | Exported Function
+`CWbemGlueFactory` | 24 | Exported Function
+`THREAD_SAFETY_MECHANISM` | 23 | Exported Function
+`CRegistrySearch` | 21 | Exported Function
+`CRegistry` | 19 | Exported Function
+`CRegistry` | 18 | Exported Function
+`CRegistrySearch` | 20 | Exported Function
 `public: __thiscall CRegistry::~CRegistry(void)` | 61 | Exported Function
-`public: __thiscall CWbemGlueFactory::CWbemGlueFactory(long *)` | 25 | Exported Function
-`public: __thiscall CWinMsgEvent::CWinMsgEvent(class CWinMsgEvent const &)` | 30 | Exported Function
+`CWbemGlueFactory` | 25 | Exported Function
+`CWinMsgEvent` | 30 | Exported Function
 `public: __thiscall CWbemProviderGlue::~CWbemProviderGlue(void)` | 65 | Exported Function
 `public: __thiscall CWinMsgEvent::~CWinMsgEvent(void)` | 66 | Exported Function
-`public: __thiscall CWinMsgEvent::CWinMsgEvent(void)` | 31 | Exported Function
-`public: __thiscall CWbemProviderGlue::CWbemProviderGlue(void)` | 29 | Exported Function
+`CWinMsgEvent` | 31 | Exported Function
+`CWbemProviderGlue` | 29 | Exported Function
 `public: __thiscall CWbemGlueFactory::~CWbemGlueFactory(void)` | 64 | Exported Function
-`public: __thiscall CWbemGlueFactory::CWbemGlueFactory(void)` | 26 | Exported Function
-`public: __thiscall CWbemProviderGlue::CWbemProviderGlue(long *)` | 28 | Exported Function
-`public: __thiscall CWbemProviderGlue::CWbemProviderGlue(class CWbemProviderGlue const &)` | 27 | Exported Function
+`CWbemGlueFactory` | 26 | Exported Function
+`CWbemProviderGlue` | 28 | Exported Function
+`CWbemProviderGlue` | 27 | Exported Function
 
 
 ## Signature

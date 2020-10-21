@@ -18,6 +18,9 @@ SHA256 | `C071BA0575AC5C43A97AAC99AB5AFC12B0D8B753FC575DE07E893906C1DC003E`
 SHA384 | `EAE5F5F58810D22249D9753487138AC0EC4CEE44896F75ACC2784200840695059DE16975391BDAFFAF253017B64919AC`
 SHA512 | `4CECB003425901BCB12ECE2F20862850C115D6359D4214E5B34DB11E6EAEB2BE024293F5B89526217264B10164DB9CD899028D0678BF50C3A37A9E8D0C221312`
 SSDEEP | `6144:UXqEDI4QDdGJl7DSkMVIvQ6mkwgzj7vckk5kVbRle/CMrVMb/7Gv:UXtgip/fYKbRcDrVMr`
+IMP | `8D51D50F8F759EDF48244E7F3AC1AE0A`
+PESHA1 | `3C956A54504C62CA445F94362ABCA9342C325F9F`
+PE256 | `7B1041097B7DD406D73CD77513376730A77BD32B0DBCFE8AF28CD26E88B6012E`
 
 ## Runtime Data
 
@@ -37,12 +40,8 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
+### Child Processes:
+csrss.exe wininit.exe
 
 ## Signature
 
@@ -61,7 +60,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c071ba0575ac5c43a97aac99ab5afc12b0d8b753fc575de07e893906c1dc003e/detection/
 
 
 ## Possible Misuse

@@ -34,13 +34,13 @@ Function Name | Ordinal | Type
 `RDP_RC4` | 201 | Exported Function
 `RDP_MD5Update` | 200 | Exported Function
 `RDP_HMACMD5Final` | 195 | Exported Function
-`public: virtual long __thiscall PipeETWEvents::Initialize(struct IUnknown *)` | 40 | Exported Function
-`public: virtual long __thiscall PipeETWEvents::Enable(unsigned long,unsigned long)` | 27 | Exported Function
-`public: virtual long __stdcall CRDPENCConnectorStringSerializer::XMLSerialize(unsigned short * *)` | 69 | Exported Function
-`public: void __thiscall Evict::InsertEntry(struct _SCORE_ENTRY *,unsigned long)` | 42 | Exported Function
-`public: void __thiscall Evict::UnevictEntry(struct _SCORE_ENTRY *)` | 66 | Exported Function
-`public: void __thiscall Evict::PromoteEntry(unsigned long,unsigned long)` | 51 | Exported Function
-`public: void __thiscall Evict::ParkEntry(struct _SCORE_ENTRY *)` | 46 | Exported Function
+`Initialize` | 40 | Exported Function
+`Enable` | 27 | Exported Function
+`XMLSerialize` | 69 | Exported Function
+`InsertEntry` | 42 | Exported Function
+`UnevictEntry` | 66 | Exported Function
+`PromoteEntry` | 51 | Exported Function
+`ParkEntry` | 46 | Exported Function
 `RDP_SHAInit` | 213 | Exported Function
 `RDP_SHAFinal` | 212 | Exported Function
 `RDP_RsaGetPublicKeyLength` | 211 | Exported Function
@@ -56,36 +56,36 @@ Function Name | Ordinal | Type
 `RDP_RsaBSafeEncPublic` | 209 | Exported Function
 `RDP_RsaBCryptPubKeyToBSafePubKey` | 208 | Exported Function
 `RDP_RsaBCryptGenerateRsaKeyPair` | 207 | Exported Function
-`public: static long __stdcall Evict::CreateInstance(unsigned long,unsigned long,unsigned long,unsigned long,unsigned long,class Evict * *)` | 20 | Exported Function
-`public: static long __stdcall CRdpGfxCapsSet::CreateInstance(void *,unsigned long,struct IRdpGfxCapsSet * *)` | 19 | Exported Function
-`public: static long __stdcall CRDPENCONPort::CreateInstance(struct addrinfo *,int,void *,class CRDPENCONPort * *)` | 18 | Exported Function
-`public: static long __stdcall HashTable::CreateInstance(unsigned long,unsigned long,struct IHashBucket * *)` | 21 | Exported Function
-`public: struct _SCORE_ENTRY * __thiscall Evict::EvictEntry(void)` | 28 | Exported Function
-`public: static long __stdcall RdpEncodeBuffer::CreateInstance(class RdpEncodeBufferPool *,unsigned long,class RdpEncodeBuffer * *)` | 24 | Exported Function
-`public: static long __stdcall PlanarCompressor::CreateInstance(unsigned short,unsigned short,unsigned char,int,int,int,struct IRdpImageCompressor * *)` | 23 | Exported Function
-`public: static int __stdcall CRdpGfxCaps::IsSupportedVersion(unsigned long)` | 43 | Exported Function
-`public: long __thiscall CRDPENCONIPHelper::Terminate(void)` | 65 | Exported Function
-`public: long __thiscall CRDPENCONIPHelper::Initialize(unsigned long,int,unsigned short *)` | 39 | Exported Function
-`public: long __thiscall CRDPENCConnectorStringDeserializer::XMLDeserialize(unsigned short *)` | 68 | Exported Function
-`public: long __thiscall CRDPENCONResolver::AddConnection(unsigned short *,unsigned long,int)` | 12 | Exported Function
-`public: static class PipelineClock & __stdcall PipelineClock::GetInstance(void)` | 30 | Exported Function
-`public: static bool __stdcall NSCodecCompressor::CreateInstance(bool,bool,bool,unsigned char,class TCntPtr<class NSCodecCompressor> &)` | 22 | Exported Function
-`public: long __thiscall CRDPENCONResolver::SortAddresses(void)` | 61 | Exported Function
-`public: virtual long __stdcall CRDPCache::SetCacheEntry(unsigned int,unsigned int,struct IUnknown *,unsigned int *)` | 57 | Exported Function
-`public: virtual long __stdcall CRDPCache::SearchCache(unsigned int,unsigned int,struct IUnknown * *,unsigned int *)` | 56 | Exported Function
-`public: virtual long __stdcall CRDPCache::Reset(unsigned int)` | 55 | Exported Function
-`public: virtual long __stdcall CRDPENCConnectorStringSerializer::AddPortMapping(unsigned short *,unsigned long)` | 13 | Exported Function
-`public: virtual long __stdcall CRDPENCConnectorStringSerializer::SetSessionId(unsigned int)` | 60 | Exported Function
-`public: virtual long __stdcall CRDPENCConnectorStringSerializer::SetConnectorId(unsigned long)` | 58 | Exported Function
-`public: virtual long __stdcall CRDPENCConnectorStringSerializer::InitializeInstance(void)` | 41 | Exported Function
-`public: virtual long __stdcall CRDPCache::ClearCache(void)` | 15 | Exported Function
-`public: unsigned __int64 __thiscall PipelineClock::GetMillisecondCount64(void)` | 31 | Exported Function
-`public: struct _SOCKET_ADDRESS * __thiscall CRDPENCONIPHelper::GetNext(void)` | 33 | Exported Function
-`public: struct _SCORE_ENTRY * __thiscall Evict::GetFreeEntry(void)` | 29 | Exported Function
-`public: unsigned int __thiscall CRDPENCONResolver::StartEnum(void)` | 63 | Exported Function
+`CreateInstance` | 20 | Exported Function
+`CreateInstance` | 19 | Exported Function
+`CreateInstance` | 18 | Exported Function
+`CreateInstance` | 21 | Exported Function
+`EvictEntry` | 28 | Exported Function
+`CreateInstance` | 24 | Exported Function
+`CreateInstance` | 23 | Exported Function
+`IsSupportedVersion` | 43 | Exported Function
+`Terminate` | 65 | Exported Function
+`Initialize` | 39 | Exported Function
+`XMLDeserialize` | 68 | Exported Function
+`AddConnection` | 12 | Exported Function
+`GetInstance` | 30 | Exported Function
+`CreateInstance` | 22 | Exported Function
+`SortAddresses` | 61 | Exported Function
+`SetCacheEntry` | 57 | Exported Function
+`SearchCache` | 56 | Exported Function
+`Reset` | 55 | Exported Function
+`AddPortMapping` | 13 | Exported Function
+`SetSessionId` | 60 | Exported Function
+`SetConnectorId` | 58 | Exported Function
+`InitializeInstance` | 41 | Exported Function
+`ClearCache` | 15 | Exported Function
+`GetMillisecondCount64` | 31 | Exported Function
+`GetNext` | 33 | Exported Function
+`GetFreeEntry` | 29 | Exported Function
+`StartEnum` | 63 | Exported Function
 `public: virtual __thiscall CRDPCache::~CRDPCache(void)` | 8 | Exported Function
-`public: unsigned int __thiscall PipelineClock::GetTickCount(void)` | 36 | Exported Function
-`public: unsigned int __thiscall PipelineClock::GetMillisecondCount(void)` | 32 | Exported Function
+`GetTickCount` | 36 | Exported Function
+`GetMillisecondCount` | 32 | Exported Function
 `RDPBASE_CreateInstance` | 167 | Exported Function
 `TsAddRectsToRegion` | 234 | Exported Function
 `TRC_TraceBufferW` | 227 | Exported Function
@@ -147,7 +147,7 @@ Function Name | Ordinal | Type
 `RdpIntersectRect` | 215 | Exported Function
 `RDPENCORE_AddGlobalObject` | 188 | Exported Function
 `RDPENCHLPWSErr2Hr` | 180 | Exported Function
-`public: long __thiscall CRDPENCConnectorStringDeserializer::GetPortMapping(unsigned long,unsigned short * *,unsigned long *)` | 35 | Exported Function
+`GetPortMapping` | 35 | Exported Function
 `PAL_System_AtomicCompareAndExchange` | 104 | Exported Function
 `MemMoveReverseAligned_SSE` | 103 | Exported Function
 `MemEqual` | 102 | Exported Function
@@ -209,13 +209,13 @@ Function Name | Ordinal | Type
 `DrawHLine` | 92 | Exported Function
 `DrawBox` | 91 | Exported Function
 `PAL_System_CritSecTerminate` | 124 | Exported Function
-`private: void __thiscall SSECBCHash2::ProcessAlignedData_SSE2(unsigned int const *,unsigned int,unsigned int,unsigned int)` | 48 | Exported Function
-`private: void __thiscall SSECBCHash2::ProcessAlignedData_AVX(unsigned int const *,unsigned int,unsigned int,unsigned int)` | 47 | Exported Function
+`ProcessAlignedData_SSE2` | 48 | Exported Function
+`ProcessAlignedData_AVX` | 47 | Exported Function
 `PAL_System_WideCharToUnicode16` | 163 | Exported Function
-`private: void __thiscall SSECBCHash2::ProcessAlignedData_SSE41(unsigned int const *,unsigned int,unsigned int,unsigned int)` | 49 | Exported Function
-`protected: __thiscall RdpGfxProtocolBaseDecoder::RdpGfxProtocolBaseDecoder(void)` | 6 | Exported Function
-`private: void __thiscall SSECBCHash2::UpdateKeys(void)const ` | 67 | Exported Function
-`private: void __thiscall SSECBCHash2::ProcessUnalignedData_REG(unsigned int const *,unsigned int,unsigned int,unsigned int)` | 50 | Exported Function
+`ProcessAlignedData_SSE41` | 49 | Exported Function
+`RdpGfxProtocolBaseDecoder` | 6 | Exported Function
+`UpdateKeys` | 67 | Exported Function
+`ProcessUnalignedData_REG` | 50 | Exported Function
 `PAL_System_TimerSet` | 162 | Exported Function
 `PAL_System_TimeGetTimeZoneInformation` | 157 | Exported Function
 `PAL_System_TimeGetTickCount64` | 155 | Exported Function
@@ -224,21 +224,21 @@ Function Name | Ordinal | Type
 `PAL_System_TimerIsSet` | 161 | Exported Function
 `PAL_System_TimerInit` | 160 | Exported Function
 `PAL_System_TimerDelete` | 159 | Exported Function
-`public: __thiscall SSECBCHash2::SSECBCHash2(void)` | 7 | Exported Function
-`public: __thiscall RdpEncodeBuffer::RdpEncodeBuffer(class ITSObjectPool *)` | 5 | Exported Function
-`public: __thiscall PipeETWEvents::PipeETWEvents(void)` | 4 | Exported Function
-`public: bool __thiscall NSCodecCompressor::Compress(class PixelMap const &,bool,unsigned char *,unsigned int,unsigned int &)` | 16 | Exported Function
-`public: int __thiscall CRDPENCONResolver::GetNext(struct sockaddr * *,unsigned int *)` | 34 | Exported Function
-`public: int __thiscall CRDPENCONIPHelper::StartEnum(void)` | 62 | Exported Function
-`public: bool __thiscall NSCodecDecompressor::Decompress(unsigned char const *,unsigned int,class PixelMap &)` | 25 | Exported Function
-`public: __thiscall NSCodecDecompressor::NSCodecDecompressor(bool)` | 3 | Exported Function
-`public: __int64 __thiscall PipelineClock::GetTimeHNS(void)` | 37 | Exported Function
-`protected: void __thiscall RdpGfxProtocolBaseDecoder::SetDecodeBuffer(unsigned char const *,unsigned int)` | 59 | Exported Function
+`SSECBCHash2` | 7 | Exported Function
+`RdpEncodeBuffer` | 5 | Exported Function
+`PipeETWEvents` | 4 | Exported Function
+`Compress` | 16 | Exported Function
+`GetNext` | 34 | Exported Function
+`StartEnum` | 62 | Exported Function
+`Decompress` | 25 | Exported Function
+`NSCodecDecompressor` | 3 | Exported Function
+`GetTimeHNS` | 37 | Exported Function
+`SetDecodeBuffer` | 59 | Exported Function
 `protected: __thiscall RdpGfxProtocolBaseDecoder::~RdpGfxProtocolBaseDecoder(void)` | 11 | Exported Function
-`public: __thiscall CRDPCache::CRDPCache(void)` | 1 | Exported Function
+`CRDPCache` | 1 | Exported Function
 `public: __thiscall Evict::~Evict(void)` | 10 | Exported Function
 `public: __thiscall CRDPENCONResolver::~CRDPENCONResolver(void)` | 9 | Exported Function
-`public: __thiscall CRDPENCONResolver::CRDPENCONResolver(void)` | 2 | Exported Function
+`CRDPENCONResolver` | 2 | Exported Function
 `PAL_System_GetModuleFilename` | 135 | Exported Function
 `PAL_System_GetLocalSessionId` | 134 | Exported Function
 `PAL_System_GetFIPSAlgorithmEnabled` | 133 | Exported Function

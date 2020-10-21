@@ -25,7 +25,7 @@ SSDEEP | `768:yd4kPN5Tk+6TTHEYIYLPdVMVLY9Pk7+XyNEHYLxQZNw0U3/gPGvprto9U8d:yOOTk+
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section

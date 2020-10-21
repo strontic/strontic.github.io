@@ -26,15 +26,15 @@ PE256 | `9C412E62205186927DDF32000D3874592411468F69AC994C4C43ACB2E07104FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static void __stdcall Outlook::WebHost::IWebViewFactory::Shutdown(void)` | 7 | Exported Function
-`public: static void __stdcall Outlook::WebHost::IWebViewFactory::Restart(struct Outlook::WebHost::FactoryConfig)` | 6 | Exported Function
-`public: void __thiscall Outlook::WebHost::IReference::Release(void)` | 5 | Exported Function
-`public: void __thiscall Outlook::WebHost::IReference::AddRef(void)` | 3 | Exported Function
-`public: static struct Outlook::WebHost::ReferencePtr<struct Outlook::WebHost::IWebViewFactory> __stdcall Outlook::WebHost::IWebViewFactory::Get(wchar_t const * (__stdcall*)(void) noexcept,struct Outlook::WebHost::FactoryConfig)` | 4 | Exported Function
-`protected: virtual __thiscall Outlook::WebHost::IReference::~IReference(void)` | 2 | Exported Function
-`protected: __thiscall Outlook::WebHost::IReference::IReference(void)` | 1 | Exported Function
-`public: static struct Outlook::WebHost::OWAEvents const & __stdcall Outlook::WebHost::OWAEvents::Use(void)` | 9 | Exported Function
-`public: static struct Outlook::WebHost::AMEvents const & __stdcall Outlook::WebHost::AMEvents::Use(void)` | 8 | Exported Function
+`Shutdown` | 7 | Exported Function
+`FactoryConfig` | 6 | Exported Function
+`Release` | 5 | Exported Function
+`AddRef` | 3 | Exported Function
+`FactoryConfig` | 4 | Exported Function
+`IReference` | 2 | Exported Function
+`IReference` | 1 | Exported Function
+`Use` | 9 | Exported Function
+`Use` | 8 | Exported Function
 
 
 ## Signature

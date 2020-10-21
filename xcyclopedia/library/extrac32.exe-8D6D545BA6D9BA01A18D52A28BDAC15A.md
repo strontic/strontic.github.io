@@ -18,6 +18,9 @@ SHA256 | `53BEF52AA01713756DB903DC6A6983543217219D898B78E75B0E0642C02BBD45`
 SHA384 | `5FC9344F054962E3DFBA2FCCC25F3C4CCADFD44489BC98C5948FD027C0EFEC8E6E447C721C9801CE9B4765410076A128`
 SHA512 | `3636BA749CFCC9DC072F2A91B420D2752649AE25A0A58835D78386F7F13B74CBA27B3D8B51A84713DC5BFED6DECBB8C5D01ED24B0585B5D085088E95ED88963A`
 SSDEEP | `768:LGR0UuK1ZZEAYPE9i1q5FhlNzxTfjz7zaoDxeaP9OUe2TvKA:QT5EJE9iwxxTfjz7zaexeq9OUeiKA`
+IMP | `9E8A016B1763601647B4DFBEF00DAC86`
+PESHA1 | `C4448FCB9F8F8DFEA2E74540763EC3B5D926C3CA`
+PE256 | `D9C629DFA7D64A5E0F3E9B51999D7274934AB09D1A0D8C6058D5A3A56BCCEF64`
 
 ## Runtime Data
 
@@ -48,14 +51,6 @@ EXTRACT [/Y] /C source destination
   /Y         Do not prompt before overwriting an existing file.
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\extrac32.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -73,7 +68,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/53bef52aa01713756db903dc6a6983543217219d898b78e75b0e0642c02bbd45/detection/
 
 ## File Similarity (ssdeep match)
 

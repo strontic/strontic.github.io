@@ -18,6 +18,9 @@ SHA256 | `4774A931C9D97828323C9E829917D82C27A05DAB9FEA6A0CEF9EBBA59942231F`
 SHA384 | `2D51CBBBEA71C5A687265880F9217579E944B4B2FD674EFF2084346B091B17F0837AA760802D1B7DDC40735BD10B7E45`
 SHA512 | `D816977F9B9B147050937DF7663BE074FD44AA6DBFF608A0E673BC2739FC1A1DBEE506668A252D0A3A0B7E430A9B084502A9E7F7D4BB5EE69621FEFE861D5646`
 SSDEEP | `1536:trl0+A4FF/P4yXBe/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:tyt43/g4B7Sp5+1k12b/Af885RK`
+IMP | `7A8EC2645C24D85DE8216D63022623C0`
+PESHA1 | `02AAB43D7AC03E57605ED06AC76CC4341940D632`
+PE256 | `B634DD6A48F90C911758842BE7ED72324363CDE8EF7C72BB37813EC2B67DFAE0`
 
 ## Runtime Data
 
@@ -28,9 +31,11 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\control.exe |
 C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\edputil.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.DLL |
@@ -40,8 +45,11 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
+C:\Windows\system32\PROPSYS.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
@@ -49,6 +57,7 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
 
@@ -70,7 +79,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/4774a931c9d97828323c9e829917d82c27a05dab9fea6a0cef9ebba59942231f/detection/
 
 ## File Similarity (ssdeep match)
 

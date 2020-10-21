@@ -42,6 +42,7 @@ SSDEEP | `384:DoMBNKWwgKphXv9cZQ+WixWaHmXjDBRJZlApl9qKt:DrBcYKphFcZQCtGXj1PYv`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Common Files\microsoft shared\Ink\TabTip32.exe](TabTip32.exe-725AAEFD55B6DEA9663EEAA04E881C0E.md) | 41
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-50D5FD1290D94D46ACCA0585311E74D5.md) | 30
 [C:\WINDOWS\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-E22E7BD6B146BDE93DC48643B772D8BB.md) | 43
 [C:\Windows\system32\browser_broker.exe](browser_broker.exe-C7C56DB13D5F1A2BB6DE92B8BBD22CA0.md) | 36

@@ -45,20 +45,20 @@ Function Name | Ordinal | Type
 `Module_Init_SourceMedia` | 51 | Exported Function
 `SetFileCopyErrorResult` | 56 | Exported Function
 `SetFileCopyErrorResultFromStruct` | 57 | Exported Function
-`public: void __cdecl DUMgr::SetModuleId(void * __ptr64) __ptr64` | 58 | Exported Function
+`SetModuleId` | 58 | Exported Function
 `PublishDiskInfoOnBlackboard` | 55 | Exported Function
 `Sysprep_Specialize_Pnp_Compat` | 62 | Exported Function
 `UnattendErrorFromResults` | 63 | Exported Function
 `SetResourceHandle` | 60 | Exported Function
 `Sysprep_Specialize_Offline_Pnp_Compat` | 61 | Exported Function
 `Module_Init_Unattend` | 54 | Exported Function
-`private: int __cdecl DUMgr::IsCancelled(void) __ptr64` | 9 | Exported Function
+`IsCancelled` | 9 | Exported Function
 `Module_Init_Sysprep` | 52 | Exported Function
 `Module_Init_SystemRestore` | 53 | Exported Function
-`public: static class DUMgr * __ptr64 __cdecl DUMgr::Instance(void)` | 8 | Exported Function
-`public: void * __ptr64 const & __ptr64 __cdecl DUMgr::GetModuleId(void) __ptr64` | 3 | Exported Function
-`private: void __cdecl DUMgr::SetPhase(enum DUPhase) __ptr64` | 59 | Exported Function
-`public: class DUMgr & __ptr64 __cdecl DUMgr::operator=(class DUMgr const & __ptr64) __ptr64` | 1 | Exported Function
+`Instance` | 8 | Exported Function
+`GetModuleId` | 3 | Exported Function
+`SetPhase` | 59 | Exported Function
+`operator` | 1 | Exported Function
 `Module_Init_CBS` | 12 | Exported Function
 `Module_Init_Cleanup` | 13 | Exported Function
 `Module_Init_BootPrepare` | 10 | Exported Function

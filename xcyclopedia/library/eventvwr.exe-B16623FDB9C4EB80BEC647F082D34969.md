@@ -22,11 +22,14 @@ SHA256 | `963E6A79B77518FA2D4E45604764A5065EB4563F7AF7D1526DAD76AED49CD96E`
 SHA384 | `A64A1B527D3268E91D7BE70794E07F2EA0E8D14A4E8945E9F05F85C921B2B00B5D5E6917146510F4A4694D811796F471`
 SHA512 | `169F7707283F1892D092F620755A4E9F21DA8796AF945D9EB65DD2B7730B7A41CF6E8A15019D5EBC7AE2A762E5BCAC9C03BD3094BCF6C261A515B153DB85CD90`
 SSDEEP | `1536:MzS4hIMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY1kEF:W3lhzslTZJ9j7Heb8C1k`
+IMP | `6202C13AD7EF6559EA1F41430390B2E0`
+PESHA1 | `5A271F0C36E75AB154EF6C6407DB2F1632D7FEE8`
+PE256 | `1A21AD1A97FD1C026FF7AB3EF546DF116F4F4FC14722AE3F5CF6F14DA1CDB3D8`
 
 ## Runtime Data
 
 ### Child Processes:
-mmc.exe
+explorer.exe
 
 ### Window Title:
 Event Viewer
@@ -37,12 +40,15 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\eventvwr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -73,7 +79,12 @@ C:\Windows\SysWOW64\eventvwr.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/963e6a79b77518fa2d4e45604764a5065eb4563f7af7d1526dad76aed49cd96e/detection/
 
 ## File Similarity (ssdeep match)
 

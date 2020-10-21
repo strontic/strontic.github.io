@@ -68,9 +68,9 @@ Function Name | Ordinal | Type
 `MessagingMultiSimConverter_CreateInstanceWithSimOM` | 29 | Exported Function
 `Messaging_ChatTransportIdToStoreId` | 31 | Exported Function
 `Messaging_CreateMessageInConversation` | 32 | Exported Function
-`long __cdecl MessagingDeferredAttachment::GetDeferredAttachmentFilePath(struct ISmMessage * __ptr64,unsigned long,int * __ptr64,class utl::basic_string<unsigned short,struct utl::char_traits<unsigned short>,class utl::allocator<unsigned short> > * __ptr64)` | 7 | Exported Function
-`long __cdecl MessagingDeferredAttachment::DeleteTempFiles(struct ISmMessage * __ptr64)` | 4 | Exported Function
-`long __cdecl MessagingDeferredAttachment::GetData(struct ISmAttachment * __ptr64,struct IStream * __ptr64 * __ptr64,struct IStream * __ptr64 * __ptr64)` | 6 | Exported Function
+`allocator` | 7 | Exported Function
+`DeleteTempFiles` | 4 | Exported Function
+`GetData` | 6 | Exported Function
 `Messaging_FormatRecipient` | 36 | Exported Function
 `Messaging_FormatRecipientFromAggregate` | 37 | Exported Function
 `Messaging_FormatPhoneNumber` | 35 | Exported Function
@@ -81,9 +81,9 @@ Function Name | Ordinal | Type
 `DllGetClassObject` | 23 | Exported Function
 `CellMessagingHelper_CreateInstance` | 21 | Exported Function
 `DllCanUnloadNow` | 22 | Exported Function
-`long __cdecl MessagingDeferredAttachment::CommitDeferredContent(struct IStream * __ptr64,struct IStream * __ptr64)` | 2 | Exported Function
-`long __cdecl MessagingDeferredAttachment::DeleteMessageAndTempFiles(struct ISmMessage * __ptr64)` | 3 | Exported Function
-`long __cdecl MessagingDeferredAttachment::CommitAllAttachments(struct ISmMessage * __ptr64)` | 1 | Exported Function
+`CommitDeferredContent` | 2 | Exported Function
+`DeleteMessageAndTempFiles` | 3 | Exported Function
+`CommitAllAttachments` | 1 | Exported Function
 `GetHasInternationalCapability` | 24 | Exported Function
 `GetMaxAuthorizedSizeOfMMS` | 9 | Exported Function
 `Messaging_GetSmsCharacterCount` | 50 | Exported Function

@@ -25,36 +25,36 @@ PE256 | `D9F9747B052EED22A67FFBB0C9F4A89AC72722E9D4D2137A58AF85A01D319B9B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: long __thiscall PrimProcessor::Line(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 16 | Exported Function
-`public: long __thiscall PrimProcessor::Point(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 21 | Exported Function
-`public: long __thiscall PrimProcessor::Tri(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 28 | Exported Function
-`public: long __thiscall PrimProcessor::Initialize(void)` | 15 | Exported Function
-`public: class PrimProcessor & __thiscall PrimProcessor::operator=(class PrimProcessor const &)` | 3 | Exported Function
-`public: long __thiscall PrimProcessor::AllocSpans(unsigned int *,struct tagD3DI_RASTSPAN * *)` | 4 | Exported Function
-`public: long __thiscall PrimProcessor::End(void)` | 9 | Exported Function
-`public: unsigned int __thiscall PrimProcessor::GetFlags(void)` | 14 | Exported Function
-`public: void __thiscall PrimProcessor::SetCtx(struct tagD3DI_RASTCTX *)` | 24 | Exported Function
-`public: void __thiscall PrimProcessor::SetFlags(unsigned int)` | 25 | Exported Function
-`public: void __thiscall PrimProcessor::StateChanged(void)` | 27 | Exported Function
-`public: void __thiscall PrimProcessor::FreeSpans(unsigned int)` | 13 | Exported Function
-`public: void __thiscall PrimProcessor::Begin(void)` | 6 | Exported Function
-`public: void __thiscall PrimProcessor::BeginPrimSet(enum _D3DPRIMITIVETYPE,enum _RAST_VERTEX_TYPE)` | 7 | Exported Function
-`public: void __thiscall PrimProcessor::ClrFlags(unsigned int)` | 8 | Exported Function
-`private: long __thiscall PrimProcessor::AppendPrim(void)` | 5 | Exported Function
-`private: long __thiscall PrimProcessor::Flush(void)` | 11 | Exported Function
-`private: long __thiscall PrimProcessor::FlushPartial(void)` | 12 | Exported Function
-`private: int __thiscall PrimProcessor::TriSetup(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 29 | Exported Function
+`Line` | 16 | Exported Function
+`Point` | 21 | Exported Function
+`Tri` | 28 | Exported Function
+`Initialize` | 15 | Exported Function
+`operator` | 3 | Exported Function
+`AllocSpans` | 4 | Exported Function
+`End` | 9 | Exported Function
+`GetFlags` | 14 | Exported Function
+`SetCtx` | 24 | Exported Function
+`SetFlags` | 25 | Exported Function
+`StateChanged` | 27 | Exported Function
+`FreeSpans` | 13 | Exported Function
+`Begin` | 6 | Exported Function
+`BeginPrimSet` | 7 | Exported Function
+`ClrFlags` | 8 | Exported Function
+`AppendPrim` | 5 | Exported Function
+`Flush` | 11 | Exported Function
+`FlushPartial` | 12 | Exported Function
+`TriSetup` | 29 | Exported Function
 `D3D9GetSWInfo` | 30 | Exported Function
-`private: int __thiscall PrimProcessor::LineSetup(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 17 | Exported Function
-`private: int __thiscall PrimProcessor::PointDiamondCheck(int,int,int,int)` | 22 | Exported Function
-`private: void __thiscall PrimProcessor::FillPointSpan(struct _D3DTLVERTEX *,struct tagD3DI_RASTSPAN *)` | 10 | Exported Function
-`private: void __thiscall PrimProcessor::SetTriFunctions(void)` | 26 | Exported Function
-`public: __thiscall PrimProcessor::PrimProcessor(void)` | 1 | Exported Function
+`LineSetup` | 17 | Exported Function
+`PointDiamondCheck` | 22 | Exported Function
+`FillPointSpan` | 10 | Exported Function
+`SetTriFunctions` | 26 | Exported Function
+`PrimProcessor` | 1 | Exported Function
 `public: __thiscall PrimProcessor::~PrimProcessor(void)` | 2 | Exported Function
-`private: void __thiscall PrimProcessor::ResetBuffer(void)` | 23 | Exported Function
-`private: void __thiscall PrimProcessor::NormalizeLineRHW(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 18 | Exported Function
-`private: void __thiscall PrimProcessor::NormalizePointRHW(struct _D3DTLVERTEX *)` | 19 | Exported Function
-`private: void __thiscall PrimProcessor::NormalizeTriRHW(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 20 | Exported Function
+`ResetBuffer` | 23 | Exported Function
+`NormalizeLineRHW` | 18 | Exported Function
+`NormalizePointRHW` | 19 | Exported Function
+`NormalizeTriRHW` | 20 | Exported Function
 
 
 ## Signature

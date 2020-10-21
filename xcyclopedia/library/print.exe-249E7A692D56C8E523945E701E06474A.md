@@ -18,6 +18,9 @@ SHA256 | `9EB93FBDE0A661888A0ACE44906DC7DA3872FE610A348CAFA81E56F8B8EA4975`
 SHA384 | `61516B45AC3FFF8894CF5F966665208850000C22E76A40201BDDC0478BBE6A25A1A99F05316636CFFA6C83E812AF423E`
 SHA512 | `9A534454170444C9EAA6D705859D540C1433BFB245C61175F4B8EF524DB1D1C093DCAA677DD084251950EFEDD889D35B8A37798F340A318BFF17B6B5294ED5E2`
 SSDEEP | `192:ni//XcIBtPIgNqzPfsj0DlGTIIB8U6Sp+DcliQlixtU3CtmYk1WIUW1:i//80MIj6SpHl5l8UOs1WIUW`
+IMP | `EC8AF21EA60135BB82EBEBEAF1752064`
+PESHA1 | `FFA9B0CD1D302B929E8D9A83ECE765D8FCD624DF`
+PE256 | `D9B2A1D44FECBF416CB0641704D0BF597D23C9A7D806AFCC73C737395A269434`
 
 ## Runtime Data
 
@@ -32,14 +35,15 @@ PRINT [/D:device] [[drive:][path]filename[...]]
 
 ```
 
-### Child Processes:
-powershell_ise.exe SystemSettingsAdminFlows.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\print.exe |
 
 
 ## Signature
@@ -59,7 +63,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/9eb93fbde0a661888a0ace44906dc7da3872fe610a348cafa81e56f8b8ea4975/detection/
 
 
 ## Possible Misuse

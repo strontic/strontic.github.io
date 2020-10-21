@@ -70,7 +70,9 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Internet Explorer\iexplore.exe](iexplore.exe-A2CD9CF67DEB267D7A2813F00D47245C.md) | 94
 [C:\Program Files\Internet Explorer\iexplore.exe](iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE.md) | 94
+[C:\Program Files\internet explorer\iexplore.exe](iexplore.exe-F640445694FD65DEC07CA3A84F560534.md) | 97
 
 ## Possible Misuse
 

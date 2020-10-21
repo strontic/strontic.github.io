@@ -8,6 +8,10 @@ excerpt: What is SDFiles.exe?
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDFiles.exe`
 * Description: Single file on-demand scanner
 
+## Screenshot
+
+![SDFiles.exe](screenshots/SDFiles.exe-D4973562BFA8E178EF72A8816C1C5557-2.png)
+
 ## Hashes
 
 Type | Hash

@@ -57,6 +57,13 @@ Function Name | Ordinal | Type
 * VirusTotal Link: https://www.virustotal.com/gui/file/906bcc87ef1b194133a3cf3d20e6ea5334da1336a1dbe06ab0f1155010cce57e/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `taskschd.dll` being misused. While `taskschd.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_cn_reddelta.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_cn_reddelta.yar) | $s1 = "Taskschd.dll" ascii fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

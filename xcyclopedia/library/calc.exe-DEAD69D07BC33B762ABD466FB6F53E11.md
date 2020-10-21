@@ -18,6 +18,9 @@ SHA256 | `3091E2ABFB55D05D6284B6C4B058B62C8C28AFC1D883B699E9A2B5482EC6FD51`
 SHA384 | `3F375EA1E6F6A82213CF665066557B16DFDCA4E56EAE36CFC2CCBBE6E82CAA7D905F6EEFD60B42A8D6901866AEEC6424`
 SHA512 | `F33A402E96474FC10F870293058B7252517456B4053D85885EBF21D0F9166F9A8A86457327A3E307624864B30CA9888AE0399A90C6248C50B781B28D9981C0C6`
 SSDEEP | `384:S3B2ChTCfxWqHPuOOLE8eWS0YWbiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiLih:a2CwxTmOv8zG`
+IMP | `8EEAA9499666119D13B3F44ECD77A729`
+PESHA1 | `79396B68649B074C8E305418072B543D6C9C4C81`
+PE256 | `9BD6A9258FDB68AC01A937BB26848A27FCC508C985B780F7186642F0BE756500`
 
 ## Runtime Data
 
@@ -43,8 +46,11 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
+C:\Windows\system32\PROPSYS.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
@@ -52,6 +58,7 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\shlwapi.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
 
@@ -73,7 +80,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/3091e2abfb55d05d6284b6c4b058b62c8c28afc1d883b699e9a2b5482ec6fd51/detection/
 
 ## File Similarity (ssdeep match)
 

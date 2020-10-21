@@ -26,12 +26,12 @@ PE256 | `F3C4641BD05A3D86F2D3DFBE3DD5E888344CC96C17AE28B8D48DCABD16AD3178`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: __cdecl CTcpMib::CTcpMib(void) __ptr64` | 2 | Exported Function
-`public: __cdecl CTcpMib::CTcpMib(class CTcpMib const & __ptr64) __ptr64` | 1 | Exported Function
+`CTcpMib` | 2 | Exported Function
+`CTcpMib` | 1 | Exported Function
 `GetSDFromWin32SecurityDescriptor` | 11 | Exported Function
 `SetWin32SecurityDescriptorFromSD` | 12 | Exported Function
 `public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 3 | Exported Function
-`public: class CTcpMib & __ptr64 __cdecl CTcpMib::operator=(class CTcpMib const & __ptr64) __ptr64` | 4 | Exported Function
+`operator` | 4 | Exported Function
 `DllCanUnloadNow` | 7 | Exported Function
 `const CTcpMib::``vftable'` | 5 | Exported Function
 `class Win32SecurityDescriptor MySecurityDescriptor` | 6 | Exported Function

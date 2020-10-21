@@ -34,7 +34,7 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
@@ -82,6 +82,7 @@ C:\Windows\SysWOW64\FlashPlayerApp.exe |
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\FlashPlayerApp.exe](FlashPlayerApp.exe-418C7E05EA340C6CEE3129B037560451.md) | 96
 [C:\WINDOWS\SysWOW64\FlashPlayerApp.exe](FlashPlayerApp.exe-6A54EEB33860B37DCE52149FE7F8713A.md) | 96
 [C:\windows\SysWOW64\FlashPlayerApp.exe](FlashPlayerApp.exe-D283ACC1C4AC03C1356D215E90C0875C.md) | 60
 

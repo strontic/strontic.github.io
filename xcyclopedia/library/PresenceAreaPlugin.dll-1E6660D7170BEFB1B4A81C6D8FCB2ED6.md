@@ -25,41 +25,41 @@ PE256 | `6B8ADD036B044F0A1CBA7DAA34B5966266B8884D6300C21F99EC4E44D476CF81`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`protected: void __thiscall IdleManager::SetIdle(bool)` | 17 | Exported Function
-`protected: void __thiscall IdleManager::OnIdleTimerCheck(void)` | 15 | Exported Function
-`public: __thiscall IdleManager::IdleManager(struct IPluginRuntime *,class CSFUnified::ServiceFactory *)` | 4 | Exported Function
-`public: __thiscall IdleManager::IdleManager(class IdleManager const &)` | 3 | Exported Function
-`protected: virtual class std::shared_ptr<class CSFUnified::PresenceService> __thiscall IdleManager::getPresenceService(void)` | 23 | Exported Function
-`protected: virtual __int64 __thiscall IdleManager::getMsInterval(void)` | 22 | Exported Function
-`protected: virtual void __thiscall IdleManager::onPowerEvent(enum CSFSystemMonitor::PowerEventTypeEnum::PowerEventType)` | 25 | Exported Function
-`protected: virtual void __thiscall IdleManager::dispatchSetIdleToMain(bool)` | 20 | Exported Function
-`public: class IdleManager & __thiscall IdleManager::operator=(class IdleManager const &)` | 8 | Exported Function
-`public: void __thiscall IdleManager::SetConnected(bool)` | 16 | Exported Function
+`SetIdle` | 17 | Exported Function
+`OnIdleTimerCheck` | 15 | Exported Function
+`ServiceFactory` | 4 | Exported Function
+`IdleManager` | 3 | Exported Function
+`getPresenceService` | 23 | Exported Function
+`getMsInterval` | 22 | Exported Function
+`PowerEventType` | 25 | Exported Function
+`dispatchSetIdleToMain` | 20 | Exported Function
+`operator` | 8 | Exported Function
+`SetConnected` | 16 | Exported Function
 `public: virtual __thiscall IdleManager::~IdleManager(void)` | 6 | Exported Function
-`public: void __thiscall IdleManager::SetSessionLocked(bool)` | 19 | Exported Function
-`public: void __thiscall IdleManager::SetLoggedIn(bool)` | 18 | Exported Function
-`public: class std::shared_ptr<class IdleManager> __thiscall std::enable_shared_from_this<class IdleManager>::shared_from_this(void)` | 27 | Exported Function
-`public: class std::shared_ptr<class IdleManager const > __thiscall std::enable_shared_from_this<class IdleManager>::shared_from_this(void)const ` | 28 | Exported Function
-`public: class std::weak_ptr<class IdleManager> __thiscall std::enable_shared_from_this<class IdleManager>::weak_from_this(void)` | 30 | Exported Function
-`public: class std::weak_ptr<class IdleManager const > __thiscall std::enable_shared_from_this<class IdleManager>::weak_from_this(void)const ` | 31 | Exported Function
-`protected: static int const IdleManager::IDLE_CHECK_PERIOD` | 14 | Exported Function
+`SetSessionLocked` | 19 | Exported Function
+`SetLoggedIn` | 18 | Exported Function
+`shared_from_this` | 27 | Exported Function
+`shared_from_this` | 28 | Exported Function
+`weak_from_this` | 30 | Exported Function
+`weak_from_this` | 31 | Exported Function
+`IDLE_CHECK_PERIOD` | 14 | Exported Function
 `DllUnregisterServer` | 35 | Exported Function
 `DllRegisterServer` | 34 | Exported Function
-`private: bool __thiscall IdleManager::CheckAwayOnLockEnabled(void)` | 12 | Exported Function
-`private: bool __thiscall IdleManager::CheckAutoAwayEnabled(void)` | 11 | Exported Function
-`const IdleManager::``vftable'{for ``CSFUnified::IntervalFromPreActiveProvider'}` | 9 | Exported Function
-`const IdleManager::``vftable'{for ``CSFSystemMonitor::PowerEventObserver'}` | 10 | Exported Function
+`CheckAwayOnLockEnabled` | 12 | Exported Function
+`CheckAutoAwayEnabled` | 11 | Exported Function
+`IntervalFromPreActiveProvider` | 9 | Exported Function
+`PowerEventObserver` | 10 | Exported Function
 `DllGetClassObject` | 33 | Exported Function
 `DllCanUnloadNow` | 32 | Exported Function
-`private: unsigned long __thiscall IdleManager::getAutoAwayTime(void)` | 21 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class IdleManager>::~enable_shared_from_this<class IdleManager>(void)` | 5 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class IdleManager>::enable_shared_from_this<class IdleManager>(void)` | 2 | Exported Function
-`protected: static int const IdleManager::DEFAULT_IDLE_TIME` | 13 | Exported Function
-`protected: class std::enable_shared_from_this<class IdleManager> & __thiscall std::enable_shared_from_this<class IdleManager>::operator=(class std::enable_shared_from_this<class IdleManager> const &)` | 7 | Exported Function
-`private: void __thiscall IdleManager::regAwayStatusChange(void)` | 26 | Exported Function
-`private: void __thiscall IdleManager::onConfigChanged(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 24 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class IdleManager>::enable_shared_from_this<class IdleManager>(class std::enable_shared_from_this<class IdleManager> const &)` | 1 | Exported Function
-`private: void __thiscall IdleManager::unregAwayStatusChange(void)` | 29 | Exported Function
+`getAutoAwayTime` | 21 | Exported Function
+`enable_shared_from_this` | 5 | Exported Function
+`enable_shared_from_this` | 2 | Exported Function
+`DEFAULT_IDLE_TIME` | 13 | Exported Function
+`enable_shared_from_this` | 7 | Exported Function
+`regAwayStatusChange` | 26 | Exported Function
+`allocator` | 24 | Exported Function
+`enable_shared_from_this` | 1 | Exported Function
+`unregAwayStatusChange` | 29 | Exported Function
 
 
 ## Signature

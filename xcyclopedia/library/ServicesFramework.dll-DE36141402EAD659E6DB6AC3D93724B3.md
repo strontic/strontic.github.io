@@ -25,945 +25,945 @@ PE256 | `A8FE4D580CCD8E903185EDE26373D44827FC009BD20021656DAFCEA422E88E2F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::FormalParameter::getParameterType(void)` | 746 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::FormalParameter::getParameterName(void)` | 745 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::getParameterValue(void)` | 747 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::getErrorMessage(void)` | 710 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Method::getParameters(void)` | 748 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Method::getMethodName(void)` | 736 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::getErrorMessage(void)` | 711 | Exported Function
-`public: class CSFUnified::UnifiedServiceObserver & __thiscall CSFUnified::UnifiedServiceObserver::operator=(class CSFUnified::UnifiedServiceObserver &&)` | 499 | Exported Function
-`public: class CSFUnified::UnifiedServiceNotifiers & __thiscall CSFUnified::UnifiedServiceNotifiers::operator=(class CSFUnified::UnifiedServiceNotifiers const &)` | 498 | Exported Function
-`public: class CSFUnified::UnifiedServiceNotifiers & __thiscall CSFUnified::UnifiedServiceNotifiers::operator=(class CSFUnified::UnifiedServiceNotifiers &&)` | 497 | Exported Function
-`public: class CSFUnified::UnifiedServiceObserver & __thiscall CSFUnified::UnifiedServiceObserver::operator=(class CSFUnified::UnifiedServiceObserver const &)` | 500 | Exported Function
-`public: class CSFUnified::VoidReturnValue & __thiscall CSFUnified::VoidReturnValue::operator=(class CSFUnified::VoidReturnValue const &)` | 503 | Exported Function
-`public: class CSFUnified::VoidReturnValue & __thiscall CSFUnified::VoidReturnValue::operator=(class CSFUnified::VoidReturnValue &&)` | 502 | Exported Function
-`public: class CSFUnified::UntypedObjectReturnValue & __thiscall CSFUnified::UntypedObjectReturnValue::operator=(class CSFUnified::UntypedObjectReturnValue const &)` | 501 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Method::getReturnType(void)` | 779 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedFactory::getAuthenticatorDisplayName(unsigned int)` | 700 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::getReturnValue(void)` | 787 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Subscription::getFriendlyIdentifier(void)` | 715 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedFactory::getAuthenticatorName(unsigned int)` | 702 | Exported Function
-`public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::getReturnValue(void)` | 788 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::VoidReturnValue::getReturnValue(void)` | 792 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedFactory::getDefaultAuthenticatorName(unsigned int)` | 709 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Reflector::getBaseName(void)` | 704 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Property::getType(void)` | 810 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Property::getPropertyName(void)` | 751 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Request::getExecutionPath(void)` | 712 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::ServicesDispatcher::getLastTaskName(void)` | 731 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Request::getNextMethod(void)` | 741 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::Request::getLastMethod(void)` | 730 | Exported Function
-`public: class CSFUnified::TypedReturnValue<float> & __thiscall CSFUnified::TypedReturnValue<float>::operator=(class CSFUnified::TypedReturnValue<float> const &)` | 403 | Exported Function
-`public: class CSFUnified::TypedReturnValue<float> & __thiscall CSFUnified::TypedReturnValue<float>::operator=(class CSFUnified::TypedReturnValue<float> &&)` | 402 | Exported Function
-`public: class CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > & __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::operator=(class CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > const &)` | 407 | Exported Function
-`public: class CSFUnified::TypedReturnValue<int> & __thiscall CSFUnified::TypedReturnValue<int>::operator=(class CSFUnified::TypedReturnValue<int> &&)` | 396 | Exported Function
-`public: class CSFUnified::TypedReturnValue<long> & __thiscall CSFUnified::TypedReturnValue<long>::operator=(class CSFUnified::TypedReturnValue<long> const &)` | 401 | Exported Function
-`public: class CSFUnified::TypedReturnValue<long> & __thiscall CSFUnified::TypedReturnValue<long>::operator=(class CSFUnified::TypedReturnValue<long> &&)` | 400 | Exported Function
-`public: class CSFUnified::TypedReturnValue<int> & __thiscall CSFUnified::TypedReturnValue<int>::operator=(class CSFUnified::TypedReturnValue<int> const &)` | 397 | Exported Function
-`public: class CSFUnified::TypedReturnValue<class csf::SecureString> & __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::operator=(class CSFUnified::TypedReturnValue<class csf::SecureString> &&)` | 408 | Exported Function
-`public: class CSFUnified::TypedReturnValue<char> & __thiscall CSFUnified::TypedReturnValue<char>::operator=(class CSFUnified::TypedReturnValue<char> const &)` | 395 | Exported Function
-`public: class CSFUnified::TypedReturnValue<char> & __thiscall CSFUnified::TypedReturnValue<char>::operator=(class CSFUnified::TypedReturnValue<char> &&)` | 394 | Exported Function
-`public: class CSFUnified::TypedReturnValue<class csf::SecureString> & __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::operator=(class CSFUnified::TypedReturnValue<class csf::SecureString> const &)` | 409 | Exported Function
-`public: class CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > & __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::operator=(class CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > &&)` | 406 | Exported Function
-`public: class CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > & __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::operator=(class CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > const &)` | 405 | Exported Function
-`public: class CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > & __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::operator=(class CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &&)` | 404 | Exported Function
-`public: class CSFUnified::TypedReturnValue<unsigned int> & __thiscall CSFUnified::TypedReturnValue<unsigned int>::operator=(class CSFUnified::TypedReturnValue<unsigned int> &&)` | 398 | Exported Function
-`public: class CSFUnified::UnifiedExceptionImpl & __thiscall CSFUnified::UnifiedExceptionImpl::operator=(class CSFUnified::UnifiedExceptionImpl &&)` | 492 | Exported Function
-`public: class CSFUnified::UnifiedException & __thiscall CSFUnified::UnifiedException::operator=(class CSFUnified::UnifiedException const &)` | 491 | Exported Function
-`public: class CSFUnified::UnifiedException & __thiscall CSFUnified::UnifiedException::operator=(class CSFUnified::UnifiedException &&)` | 490 | Exported Function
-`public: class CSFUnified::UnifiedExceptionImpl & __thiscall CSFUnified::UnifiedExceptionImpl::operator=(class CSFUnified::UnifiedExceptionImpl const &)` | 493 | Exported Function
-`public: class CSFUnified::UnifiedService & __thiscall CSFUnified::UnifiedService::operator=(class CSFUnified::UnifiedService const &)` | 496 | Exported Function
-`public: class CSFUnified::UnifiedService & __thiscall CSFUnified::UnifiedService::operator=(class CSFUnified::UnifiedService &&)` | 495 | Exported Function
-`public: class CSFUnified::UnifiedFactory & __thiscall CSFUnified::UnifiedFactory::operator=(class CSFUnified::UnifiedFactory const &)` | 494 | Exported Function
-`public: class CSFUnified::UnifiedBusinessObjectNotifiers & __thiscall CSFUnified::UnifiedBusinessObjectNotifiers::operator=(class CSFUnified::UnifiedBusinessObjectNotifiers const &)` | 485 | Exported Function
-`public: class CSFUnified::UnifiedBusinessObject & __thiscall CSFUnified::UnifiedBusinessObject::operator=(class CSFUnified::UnifiedBusinessObject const &)` | 484 | Exported Function
-`public: class CSFUnified::TypedReturnValue<unsigned int> & __thiscall CSFUnified::TypedReturnValue<unsigned int>::operator=(class CSFUnified::TypedReturnValue<unsigned int> const &)` | 399 | Exported Function
-`public: class CSFUnified::UnifiedBusinessObjectNotifiersImpl & __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::operator=(class CSFUnified::UnifiedBusinessObjectNotifiersImpl &&)` | 486 | Exported Function
-`public: class CSFUnified::UnifiedCallback & __thiscall CSFUnified::UnifiedCallback::operator=(class CSFUnified::UnifiedCallback const &)` | 489 | Exported Function
-`public: class CSFUnified::UnifiedBusinessObjectObserver & __thiscall CSFUnified::UnifiedBusinessObjectObserver::operator=(class CSFUnified::UnifiedBusinessObjectObserver const &)` | 488 | Exported Function
-`public: class CSFUnified::UnifiedBusinessObjectNotifiersImpl & __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::operator=(class CSFUnified::UnifiedBusinessObjectNotifiersImpl const &)` | 487 | Exported Function
-`public: class std::chrono::duration<__int64,struct std::ratio<1,1000> > __thiscall CSFUnified::Processing::TaskQueue::getFirstTaskQueuedTime(void)` | 714 | Exported Function
-`public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __thiscall CSFUnified::Properties::getPropertyNames(void)` | 752 | Exported Function
-`public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __thiscall CSFUnified::Methods::getMethodNames(void)` | 737 | Exported Function
-`public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __thiscall CSFUnified::Interpreter::getSupportedServiceNames(void)` | 809 | Exported Function
-`public: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __thiscall CSFUnified::Request::getMethodNames(void)` | 738 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::DispatcherAccessExceptionImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::weak_from_this(void)const ` | 932 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::CapabilitiesExceptionImpl> __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::weak_from_this(void)` | 929 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::CapabilitiesExceptionImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::weak_from_this(void)const ` | 930 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedBusinessObjectNotifiersImpl> __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::shared_from_this(void)` | 907 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedBusinessObjectNotifiersImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::shared_from_this(void)const ` | 908 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::getResult(void)` | 767 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedFactory const > __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::shared_from_this(void)const ` | 910 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedService> __thiscall CSFUnified::UnifiedFactory::getService(unsigned int)` | 796 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedFactory> __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::shared_from_this(void)` | 909 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::UnifiedFactory> __thiscall CSFUnified::ServiceFactoryImpl::getUnifiedFactory(void)` | 812 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::DispatcherAccessExceptionImpl> __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::weak_from_this(void)` | 931 | Exported Function
-`public: float __thiscall CSFUnified::TypedReturnValue<float>::getReturnValue(void)` | 786 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::UnifiedFactory> __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::weak_from_this(void)` | 937 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::UnifiedFactory const > __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::weak_from_this(void)const ` | 938 | Exported Function
-`public: int __thiscall CSFUnified::Methods::size(void)` | 911 | Exported Function
-`public: int __thiscall CSFUnified::Properties::size(void)` | 913 | Exported Function
-`public: int __thiscall CSFUnified::Processing::TaskQueue::size(void)` | 914 | Exported Function
-`public: int __thiscall CSFUnified::ParametersCollection::size(void)` | 912 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> const > __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::weak_from_this(void)const ` | 928 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> > __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::weak_from_this(void)` | 927 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> __thiscall CSFUnified::NonListProperty::subscribe(class std::function<void __cdecl(void)>)` | 916 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::PropertyNotifierImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::weak_from_this(void)const ` | 934 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::UnifiedBusinessObjectNotifiersImpl> __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::weak_from_this(void)` | 935 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::UnifiedBusinessObjectNotifiersImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::weak_from_this(void)const ` | 936 | Exported Function
-`public: class std::weak_ptr<class CSFUnified::PropertyNotifierImpl> __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::weak_from_this(void)` | 933 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::CapabilitiesExceptionImpl> __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::shared_from_this(void)` | 901 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::CapabilitiesExceptionImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::shared_from_this(void)const ` | 902 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Authenticator> __thiscall CSFUnified::UnifiedFactory::getAuthenticator(unsigned int)` | 699 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::DispatcherAccessExceptionImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::shared_from_this(void)const ` | 904 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > > __thiscall CSFUnified::Interpreter::execute(class std::shared_ptr<class CSFUnified::Request>)` | 676 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::FormalParameter> __thiscall CSFUnified::ParametersCollection::at(int)` | 646 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::DispatcherAccessExceptionImpl> __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::shared_from_this(void)` | 903 | Exported Function
-`public: class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int)> __thiscall CSFUnified::Subscription::getObjectListPropertyCallback(void)` | 743 | Exported Function
-`public: class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int)> __thiscall CSFUnified::Subscription::getBasicListPropertyCallback(void)` | 705 | Exported Function
-`public: class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>)> __thiscall CSFUnified::Subscription::getNonListPropertyCallback(void)` | 742 | Exported Function
-`public: class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int,int)> __thiscall CSFUnified::Subscription::getMutableObjectListPropertyCallback(void)` | 739 | Exported Function
-`public: class std::shared_ptr<class csf::Task> __thiscall CSFUnified::Processing::TaskQueue::waitDequeueTask(long)` | 919 | Exported Function
-`public: class std::shared_ptr<class csf::Task> __thiscall CSFUnified::Processing::TaskQueue::dequeueTask(void)` | 661 | Exported Function
-`public: class std::function<void __cdecl(void)> __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::getFxn(void)` | 716 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > > __thiscall CSFUnified::Interpreter::subscribe(class std::shared_ptr<class CSFUnified::Subscription>)` | 915 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> const > __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::shared_from_this(void)const ` | 900 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> > __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::shared_from_this(void)` | 899 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Property> __thiscall CSFUnified::Properties::getProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class CSFUnified::ParametersCollection>)` | 750 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::PropertyNotifierImpl const > __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::shared_from_this(void)const ` | 906 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::ReturnValue> __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::getResult(void)` | 766 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::ReflectionCallback> __thiscall CSFUnified::Interpreter::createReflectionCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 660 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::PropertyNotifierImpl> __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::shared_from_this(void)` | 905 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Method> __thiscall CSFUnified::Methods::getMethod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class CSFUnified::ParametersCollection>)` | 735 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Method> __thiscall CSFUnified::Methods::getMethod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 734 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::LibraryRecord> __thiscall CSFUnified::UnifiedFactory::getLibraryRecord(unsigned int)` | 732 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Methods> __thiscall CSFUnified::Reflector::Methods(void)` | 634 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Property> __thiscall CSFUnified::Properties::getProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 749 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::Properties> __thiscall CSFUnified::Reflector::Properties(void)` | 637 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::ParametersCollection> __thiscall CSFUnified::Request::getParameterCollectionByMethod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 744 | Exported Function
-`public: class CSFUnified::ActualParameter<int> & __thiscall CSFUnified::ActualParameter<int>::operator=(class CSFUnified::ActualParameter<int> const &)` | 349 | Exported Function
-`public: class CSFUnified::ActualParameter<int> & __thiscall CSFUnified::ActualParameter<int>::operator=(class CSFUnified::ActualParameter<int> &&)` | 348 | Exported Function
-`public: class CSFUnified::ActualParameter<float> & __thiscall CSFUnified::ActualParameter<float>::operator=(class CSFUnified::ActualParameter<float> const &)` | 355 | Exported Function
-`public: class CSFUnified::ActualParameter<long> & __thiscall CSFUnified::ActualParameter<long>::operator=(class CSFUnified::ActualParameter<long> &&)` | 352 | Exported Function
-`public: class CSFUnified::ActualParameter<unsigned int> & __thiscall CSFUnified::ActualParameter<unsigned int>::operator=(class CSFUnified::ActualParameter<unsigned int> const &)` | 351 | Exported Function
-`public: class CSFUnified::ActualParameter<unsigned int> & __thiscall CSFUnified::ActualParameter<unsigned int>::operator=(class CSFUnified::ActualParameter<unsigned int> &&)` | 350 | Exported Function
-`public: class CSFUnified::ActualParameter<long> & __thiscall CSFUnified::ActualParameter<long>::operator=(class CSFUnified::ActualParameter<long> const &)` | 353 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > > &&)` | 366 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > > const &)` | 363 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > > &&)` | 362 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > > const &)` | 367 | Exported Function
-`public: class CSFUnified::ActualParameter<float> & __thiscall CSFUnified::ActualParameter<float>::operator=(class CSFUnified::ActualParameter<float> &&)` | 354 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > > const &)` | 365 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > > &&)` | 364 | Exported Function
-`public: class CSFUnified::ActualParameterFactory & __thiscall CSFUnified::ActualParameterFactory::operator=(class CSFUnified::ActualParameterFactory &&)` | 422 | Exported Function
-`public: class CSFUnified::DispatcherAccessExceptionImpl & __thiscall CSFUnified::DispatcherAccessExceptionImpl::operator=(class CSFUnified::DispatcherAccessExceptionImpl const &)` | 432 | Exported Function
-`public: class CSFUnified::DispatcherAccessExceptionImpl & __thiscall CSFUnified::DispatcherAccessExceptionImpl::operator=(class CSFUnified::DispatcherAccessExceptionImpl &&)` | 431 | Exported Function
-`public: class CSFUnified::DispatcherAccessException & __thiscall CSFUnified::DispatcherAccessException::operator=(class CSFUnified::DispatcherAccessException const &)` | 430 | Exported Function
-`public: class CSFUnified::FeatureSet & __thiscall CSFUnified::FeatureSet::operator=(class CSFUnified::FeatureSet const &)` | 433 | Exported Function
-`public: class CSFUnified::FormalParameter & __thiscall CSFUnified::FormalParameter::operator=(class CSFUnified::FormalParameter const &)` | 436 | Exported Function
-`public: class CSFUnified::FeatureSetAdapter & __thiscall CSFUnified::FeatureSetAdapter::operator=(class CSFUnified::FeatureSetAdapter const &)` | 435 | Exported Function
-`public: class CSFUnified::FeatureSetAdapter & __thiscall CSFUnified::FeatureSetAdapter::operator=(class CSFUnified::FeatureSetAdapter &&)` | 434 | Exported Function
-`public: class CSFUnified::CapabilitiesException & __thiscall CSFUnified::CapabilitiesException::operator=(class CSFUnified::CapabilitiesException &&)` | 425 | Exported Function
-`public: class CSFUnified::Authenticator & __thiscall CSFUnified::Authenticator::operator=(class CSFUnified::Authenticator const &)` | 424 | Exported Function
-`public: class CSFUnified::ActualParameterFactory & __thiscall CSFUnified::ActualParameterFactory::operator=(class CSFUnified::ActualParameterFactory const &)` | 423 | Exported Function
-`public: class CSFUnified::CapabilitiesException & __thiscall CSFUnified::CapabilitiesException::operator=(class CSFUnified::CapabilitiesException const &)` | 426 | Exported Function
-`public: class CSFUnified::DispatcherAccessException & __thiscall CSFUnified::DispatcherAccessException::operator=(class CSFUnified::DispatcherAccessException &&)` | 429 | Exported Function
-`public: class CSFUnified::CapabilitiesExceptionImpl & __thiscall CSFUnified::CapabilitiesExceptionImpl::operator=(class CSFUnified::CapabilitiesExceptionImpl const &)` | 428 | Exported Function
-`public: class CSFUnified::CapabilitiesExceptionImpl & __thiscall CSFUnified::CapabilitiesExceptionImpl::operator=(class CSFUnified::CapabilitiesExceptionImpl &&)` | 427 | Exported Function
-`public: class CSFUnified::ActualParameter<class csf::SecureString> & __thiscall CSFUnified::ActualParameter<class csf::SecureString>::operator=(class CSFUnified::ActualParameter<class csf::SecureString> &&)` | 380 | Exported Function
-`public: class CSFUnified::ActualParameter<char> & __thiscall CSFUnified::ActualParameter<char>::operator=(class CSFUnified::ActualParameter<char> const &)` | 347 | Exported Function
-`public: class CSFUnified::ActualParameter<char> & __thiscall CSFUnified::ActualParameter<char>::operator=(class CSFUnified::ActualParameter<char> &&)` | 346 | Exported Function
-`public: class CSFUnified::ActualParameter<class csf::SecureString> & __thiscall CSFUnified::ActualParameter<class csf::SecureString>::operator=(class CSFUnified::ActualParameter<class csf::SecureString> const &)` | 381 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > & __thiscall CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::operator=(class CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > &&)` | 358 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > & __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::operator=(class CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > const &)` | 357 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > & __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::operator=(class CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &&)` | 356 | Exported Function
-`public: class CSFUnified::AccessGuard & __thiscall CSFUnified::AccessGuard::operator=(class CSFUnified::AccessGuard const &)` | 421 | Exported Function
-`public: class CSFUnified::AccessGuard & __thiscall CSFUnified::AccessGuard::operator=(class CSFUnified::AccessGuard &&)` | 420 | Exported Function
-`public: class csf::SecureString __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::getReturnValue(void)` | 789 | Exported Function
-`public: class CSFUnified::ActualParameter<__int64> & __thiscall CSFUnified::ActualParameter<__int64>::operator=(class CSFUnified::ActualParameter<__int64> &&)` | 382 | Exported Function
-`public: class CSFUnified::ActualParameter<bool> & __thiscall CSFUnified::ActualParameter<bool>::operator=(class CSFUnified::ActualParameter<bool> const &)` | 385 | Exported Function
-`public: class CSFUnified::ActualParameter<bool> & __thiscall CSFUnified::ActualParameter<bool>::operator=(class CSFUnified::ActualParameter<bool> &&)` | 384 | Exported Function
-`public: class CSFUnified::ActualParameter<__int64> & __thiscall CSFUnified::ActualParameter<__int64>::operator=(class CSFUnified::ActualParameter<__int64> const &)` | 383 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > & __thiscall CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::operator=(class CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > const &)` | 359 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > const &)` | 371 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > &&)` | 370 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > > const &)` | 375 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > > &&)` | 372 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > > const &)` | 369 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > > &&)` | 368 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > > const &)` | 373 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > > &&)` | 378 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > > const &)` | 377 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > > &&)` | 376 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > > const &)` | 379 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > > &&)` | 374 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > > const &)` | 361 | Exported Function
-`public: class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > > & __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::operator=(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > > &&)` | 360 | Exported Function
-`public: class CSFUnified::IDataPersistor & __thiscall CSFUnified::IDataPersistor::operator=(class CSFUnified::IDataPersistor const &)` | 437 | Exported Function
-`public: class CSFUnified::ReflectorFactory & __thiscall CSFUnified::ReflectorFactory::operator=(class CSFUnified::ReflectorFactory const &)` | 466 | Exported Function
-`public: class CSFUnified::ReflectorFactory & __thiscall CSFUnified::ReflectorFactory::operator=(class CSFUnified::ReflectorFactory &&)` | 465 | Exported Function
-`public: class CSFUnified::Reflector & __thiscall CSFUnified::Reflector::operator=(class CSFUnified::Reflector const &)` | 464 | Exported Function
-`public: class CSFUnified::Request & __thiscall CSFUnified::Request::operator=(class CSFUnified::Request &&)` | 467 | Exported Function
-`public: class CSFUnified::ServiceEvent & __thiscall CSFUnified::ServiceEvent::operator=(class CSFUnified::ServiceEvent &&)` | 470 | Exported Function
-`public: class CSFUnified::ReturnValue & __thiscall CSFUnified::ReturnValue::operator=(class CSFUnified::ReturnValue const &)` | 469 | Exported Function
-`public: class CSFUnified::Request & __thiscall CSFUnified::Request::operator=(class CSFUnified::Request const &)` | 468 | Exported Function
-`public: class CSFUnified::PropertyNotifierImpl & __thiscall CSFUnified::PropertyNotifierImpl::operator=(class CSFUnified::PropertyNotifierImpl &&)` | 459 | Exported Function
-`public: class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> & __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::operator=(class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> const &)` | 393 | Exported Function
-`public: class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> & __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::operator=(class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> &&)` | 392 | Exported Function
-`public: class CSFUnified::PropertyNotifierImpl & __thiscall CSFUnified::PropertyNotifierImpl::operator=(class CSFUnified::PropertyNotifierImpl const &)` | 460 | Exported Function
-`public: class CSFUnified::ReflectionCallbackFactory & __thiscall CSFUnified::ReflectionCallbackFactory::operator=(class CSFUnified::ReflectionCallbackFactory const &)` | 463 | Exported Function
-`public: class CSFUnified::ReflectionCallbackFactory & __thiscall CSFUnified::ReflectionCallbackFactory::operator=(class CSFUnified::ReflectionCallbackFactory &&)` | 462 | Exported Function
-`public: class CSFUnified::ReflectionCallback & __thiscall CSFUnified::ReflectionCallback::operator=(class CSFUnified::ReflectionCallback const &)` | 461 | Exported Function
-`public: class CSFUnified::ServiceEvent & __thiscall CSFUnified::ServiceEvent::operator=(class CSFUnified::ServiceEvent const &)` | 471 | Exported Function
-`public: class CSFUnified::Subscription & __thiscall CSFUnified::Subscription::operator=(class CSFUnified::Subscription const &)` | 481 | Exported Function
-`public: class CSFUnified::Subscription & __thiscall CSFUnified::Subscription::operator=(class CSFUnified::Subscription &&)` | 480 | Exported Function
-`public: class CSFUnified::ServicesDispatcherCallback & __thiscall CSFUnified::ServicesDispatcherCallback::operator=(class CSFUnified::ServicesDispatcherCallback const &)` | 479 | Exported Function
-`public: class CSFUnified::TypedReturnValue<__int64> & __thiscall CSFUnified::TypedReturnValue<__int64>::operator=(class CSFUnified::TypedReturnValue<__int64> &&)` | 410 | Exported Function
-`public: class CSFUnified::TypedReturnValue<bool> & __thiscall CSFUnified::TypedReturnValue<bool>::operator=(class CSFUnified::TypedReturnValue<bool> const &)` | 413 | Exported Function
-`public: class CSFUnified::TypedReturnValue<bool> & __thiscall CSFUnified::TypedReturnValue<bool>::operator=(class CSFUnified::TypedReturnValue<bool> &&)` | 412 | Exported Function
-`public: class CSFUnified::TypedReturnValue<__int64> & __thiscall CSFUnified::TypedReturnValue<__int64>::operator=(class CSFUnified::TypedReturnValue<__int64> const &)` | 411 | Exported Function
-`public: class CSFUnified::ServiceEventObserver & __thiscall CSFUnified::ServiceEventObserver::operator=(class CSFUnified::ServiceEventObserver &&)` | 474 | Exported Function
-`public: class CSFUnified::ServiceEventNotifiers & __thiscall CSFUnified::ServiceEventNotifiers::operator=(class CSFUnified::ServiceEventNotifiers const &)` | 473 | Exported Function
-`public: class CSFUnified::ServiceEventNotifiers & __thiscall CSFUnified::ServiceEventNotifiers::operator=(class CSFUnified::ServiceEventNotifiers &&)` | 472 | Exported Function
-`public: class CSFUnified::ServiceEventObserver & __thiscall CSFUnified::ServiceEventObserver::operator=(class CSFUnified::ServiceEventObserver const &)` | 475 | Exported Function
-`public: class CSFUnified::ServiceFactoryImpl & __thiscall CSFUnified::ServiceFactoryImpl::operator=(class CSFUnified::ServiceFactoryImpl const &)` | 478 | Exported Function
-`public: class CSFUnified::ServiceFactoryImpl & __thiscall CSFUnified::ServiceFactoryImpl::operator=(class CSFUnified::ServiceFactoryImpl &&)` | 477 | Exported Function
-`public: class CSFUnified::ServiceFactory & __thiscall CSFUnified::ServiceFactory::operator=(class CSFUnified::ServiceFactory const &)` | 476 | Exported Function
-`public: class CSFUnified::ListProperty & __thiscall CSFUnified::ListProperty::operator=(class CSFUnified::ListProperty &&)` | 441 | Exported Function
-`public: class CSFUnified::LibraryRecord & __thiscall CSFUnified::LibraryRecord::operator=(class CSFUnified::LibraryRecord const &)` | 440 | Exported Function
-`public: class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > & __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::operator=(class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > const &)` | 391 | Exported Function
-`public: class CSFUnified::ListProperty & __thiscall CSFUnified::ListProperty::operator=(class CSFUnified::ListProperty const &)` | 442 | Exported Function
-`public: class CSFUnified::Method & __thiscall CSFUnified::Method::operator=(class CSFUnified::Method const &)` | 445 | Exported Function
-`public: class CSFUnified::ListReturnValue & __thiscall CSFUnified::ListReturnValue::operator=(class CSFUnified::ListReturnValue const &)` | 444 | Exported Function
-`public: class CSFUnified::ListReturnValue & __thiscall CSFUnified::ListReturnValue::operator=(class CSFUnified::ListReturnValue &&)` | 443 | Exported Function
-`public: class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > & __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::operator=(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > &&)` | 386 | Exported Function
-`public: class CSFUnified::Interpreter & __thiscall CSFUnified::Interpreter::operator=(class CSFUnified::Interpreter const &)` | 439 | Exported Function
-`public: class CSFUnified::Interpreter & __thiscall CSFUnified::Interpreter::operator=(class CSFUnified::Interpreter &&)` | 438 | Exported Function
-`public: class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > & __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::operator=(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > const &)` | 387 | Exported Function
-`public: class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > & __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::operator=(class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > &&)` | 390 | Exported Function
-`public: class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > & __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::operator=(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > const &)` | 389 | Exported Function
-`public: class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > & __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::operator=(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > &&)` | 388 | Exported Function
-`public: class CSFUnified::Methods & __thiscall CSFUnified::Methods::operator=(class CSFUnified::Methods &&)` | 446 | Exported Function
-`public: class CSFUnified::Properties & __thiscall CSFUnified::Properties::operator=(class CSFUnified::Properties &&)` | 454 | Exported Function
-`public: class CSFUnified::Processing::TaskDispatcher & __thiscall CSFUnified::Processing::TaskDispatcher::operator=(class CSFUnified::Processing::TaskDispatcher const &)` | 483 | Exported Function
-`public: class CSFUnified::Processing::TaskDispatcher & __thiscall CSFUnified::Processing::TaskDispatcher::operator=(class CSFUnified::Processing::TaskDispatcher &&)` | 482 | Exported Function
-`public: class CSFUnified::Properties & __thiscall CSFUnified::Properties::operator=(class CSFUnified::Properties const &)` | 455 | Exported Function
-`public: class CSFUnified::PropertyNotifierConnection & __thiscall CSFUnified::PropertyNotifierConnection::operator=(class CSFUnified::PropertyNotifierConnection const &)` | 458 | Exported Function
-`public: class CSFUnified::PropertyNotifier & __thiscall CSFUnified::PropertyNotifier::operator=(class CSFUnified::PropertyNotifier const &)` | 457 | Exported Function
-`public: class CSFUnified::Property & __thiscall CSFUnified::Property::operator=(class CSFUnified::Property const &)` | 456 | Exported Function
-`public: class CSFUnified::MutableListProperty & __thiscall CSFUnified::MutableListProperty::operator=(class CSFUnified::MutableListProperty const &)` | 449 | Exported Function
-`public: class CSFUnified::MutableListProperty & __thiscall CSFUnified::MutableListProperty::operator=(class CSFUnified::MutableListProperty &&)` | 448 | Exported Function
-`public: class CSFUnified::Methods & __thiscall CSFUnified::Methods::operator=(class CSFUnified::Methods const &)` | 447 | Exported Function
-`public: class CSFUnified::NonListProperty & __thiscall CSFUnified::NonListProperty::operator=(class CSFUnified::NonListProperty const &)` | 450 | Exported Function
-`public: class CSFUnified::ParametersCollection & __thiscall CSFUnified::ParametersCollection::operator=(class CSFUnified::ParametersCollection const &)` | 453 | Exported Function
-`public: class CSFUnified::ParametersCollection & __thiscall CSFUnified::ParametersCollection::operator=(class CSFUnified::ParametersCollection &&)` | 452 | Exported Function
-`public: class CSFUnified::NonListReturnValue & __thiscall CSFUnified::NonListReturnValue::operator=(class CSFUnified::NonListReturnValue const &)` | 451 | Exported Function
-`public: int __thiscall CSFUnified::ServicesDispatcher::getQueueSize(void)` | 753 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::getReflector(void)` | 761 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<char>::getReflector(void)` | 754 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<bool>::getReflector(void)` | 763 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::getReflector(void)` | 759 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<int>::getReflector(void)` | 755 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<float>::getReflector(void)` | 758 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::getReflector(void)` | 760 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::FeatureSetAdapter> __thiscall CSFUnified::UnifiedFactory::getFeatureSetAdapter(unsigned int)` | 713 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::VoidReturnValue::getString(void)` | 808 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::VoidReturnValue::getReturnType(void)` | 781 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::IDataPersistor> __thiscall CSFUnified::UnifiedFactory::getDataPersistor(void)` | 707 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<__int64>::getReflector(void)` | 762 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::PropertyNotifier> __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::getGuidNotifier(void)` | 718 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Processing::TaskDispatcher> __thiscall CSFUnified::UnifiedFactory::getBackgroundDispatcher(void)` | 703 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<long>::getReflector(void)` | 757 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::pumpAllDispatcherTasks(void)` | 877 | Exported Function
-`public: virtual void __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::disconnect(void)` | 662 | Exported Function
-`public: virtual class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> __thiscall CSFUnified::PropertyNotifierImpl::connect(class std::function<void __cdecl(void)>)` | 658 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::pumpNextDispatcherTask(void)` | 879 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::setDispatcherCallback(class std::shared_ptr<class CSFUnified::ServicesDispatcherCallback>)` | 893 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::resetDispatcherThread(void)` | 884 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::reset(void)` | 883 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::ResourceMonitor> __thiscall CSFUnified::UnifiedFactory::getResourceMonitor(void)` | 765 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::VoidReturnValue::getReflector(void)` | 764 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::TypedReturnValue<unsigned int>::getReflector(void)` | 756 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::ServicesDispatcher> __thiscall CSFUnified::UnifiedFactory::getServicesDispatcher(void)` | 797 | Exported Function
-`public: virtual class std::vector<unsigned int,class std::allocator<unsigned int> > __thiscall CSFUnified::UnifiedFactory::GetFeatureSetDependencies(unsigned int)` | 623 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::UnifiedService> __thiscall CSFUnified::ServiceFactoryImpl::getService(unsigned int)` | 794 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::UnifiedBusinessObjectNotifiers> __thiscall CSFUnified::UnifiedBusinessObjectImpl::getUnifiedBusinessObjectNotifiers(void)` | 811 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::getReturnType(void)` | 774 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::getString(void)` | 803 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::getReturnType(void)` | 773 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::getString(void)` | 804 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<int>::getReturnType(void)` | 769 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<float>::getString(void)` | 802 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<float>::getReturnType(void)` | 772 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<bool>::getString(void)` | 807 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<bool>::getReturnType(void)` | 777 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<__int64>::getString(void)` | 806 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<char>::getReturnType(void)` | 768 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::getString(void)` | 805 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::getReturnType(void)` | 775 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<char>::getString(void)` | 798 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<int>::getString(void)` | 799 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedException::getInterfaceName(void)` | 727 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedCallback::getInterfaceName(void)` | 726 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedBusinessObjectObserver::getInterfaceName(void)` | 725 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedExceptionImpl::getMessage(void)` | 733 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UntypedObjectReturnValue::getReturnType(void)` | 780 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedServiceObserver::getInterfaceName(void)` | 729 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedService::getInterfaceName(void)` | 728 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<unsigned int>::getReturnType(void)` | 770 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<long>::getString(void)` | 801 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<long>::getReturnType(void)` | 771 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<unsigned int>::getString(void)` | 800 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedBusinessObjectImpl::toString(void)` | 918 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedBusinessObjectImpl::getGuid(void)` | 717 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedBusinessObject::getInterfaceName(void)` | 724 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::waitForDispatcherTask(long)` | 920 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::pumpAll(void)` | 876 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::ensureUpdateAccess(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 675 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::enqueueBlock(class std::shared_ptr<class csf::Task>,bool)` | 668 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::pumpNext(void)` | 878 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::waitForDispatcherTask(long)` | 922 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::setDispatcherCallback(class std::shared_ptr<class CSFUnified::ServicesDispatcherCallback>)` | 894 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::resetDispatcherThread(void)` | 885 | Exported Function
-`public: void __thiscall CSFUnified::ServiceFactoryImpl::resetForTest(void)` | 886 | Exported Function
-`public: void __thiscall CSFUnified::Request::addParameterToMethod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::FormalParameter>)` | 644 | Exported Function
-`public: void __thiscall CSFUnified::Request::addParameterCollectionToMethod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::ParametersCollection>)` | 643 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::clear(void)` | 651 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::enqueueBlock(class std::function<void __cdecl(void)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 667 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::enqueue(class std::shared_ptr<class csf::Task>,bool)` | 664 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::enqueue(class std::function<void __cdecl(void)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 663 | Exported Function
-`public: void __thiscall CSFUnified::ServicesDispatcher::waitForDispatcherTask(void)` | 923 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedFactory::setAuthenticator(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class CSFUnified::Authenticator>)` | 887 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedFactory::Reset(void)` | 638 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::``vbase destructor'(void)` | 597 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedFactory::setAuthenticator(unsigned int,class std::shared_ptr<class CSFUnified::Authenticator>)` | 888 | Exported Function
-`unsigned int __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeUnsignedInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 852 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedFactory::setAuthenticatorName(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 890 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedFactory::setAuthenticatorDisplayName(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 889 | Exported Function
-`public: void __thiscall CSFUnified::Subscription::setNonListPropertyCallback(class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>)>)` | 896 | Exported Function
-`public: void __thiscall CSFUnified::Subscription::setMutableObjectListPropertyCallback(class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int,int)>)` | 895 | Exported Function
-`public: void __thiscall CSFUnified::Subscription::setBasicListPropertyCallback(class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int)>)` | 891 | Exported Function
-`public: void __thiscall CSFUnified::Subscription::setObjectListPropertyCallback(class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int)>)` | 897 | Exported Function
-`public: void __thiscall CSFUnified::UnifiedBusinessObjectImpl::fireOnInfoChanged(void)` | 697 | Exported Function
-`public: void __thiscall CSFUnified::TypeMap<class CSFUnified::UnifiedService>::clear(void)` | 650 | Exported Function
-`public: void __thiscall CSFUnified::TypeMap<class CSFUnified::FeatureSet>::clear(void)` | 649 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedFactory::StartFeatureSet(unsigned int,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::ServiceEvent>,class std::allocator<class std::shared_ptr<class CSFUnified::ServiceEvent> > > >)` | 639 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedFactory::setDataPersistor(class std::shared_ptr<class CSFUnified::IDataPersistor>)` | 892 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedFactory::Init(void)` | 631 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedFactory::StopFeatureSet(unsigned int,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::ServiceEvent>,class std::allocator<class std::shared_ptr<class CSFUnified::ServiceEvent> > > >)` | 640 | Exported Function
-`public: void __thiscall CSFUnified::Methods::addMethod(class std::shared_ptr<class CSFUnified::Method>)` | 641 | Exported Function
-`public: void __thiscall CSFUnified::Interpreter::setUnifiedBusinessObjectMap(class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)` | 898 | Exported Function
-`public: void __thiscall CSFUnified::AccessGuard::check(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)` | 647 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedBusinessObjectImpl::commitToServicesDispatcher(void)` | 653 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedBusinessObjectImpl::addObserver(class std::weak_ptr<class CSFUnified::UnifiedBusinessObjectObserver>)` | 642 | Exported Function
-`public: virtual void __thiscall CSFUnified::ServiceFactoryImpl::waitForDispatcherTask(void)` | 921 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedBusinessObjectImpl::removeObserver(class std::weak_ptr<class CSFUnified::UnifiedBusinessObjectObserver>)` | 882 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedFactory::Destroy(void)` | 612 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::OnInfoChanged(void)` | 636 | Exported Function
-`public: virtual void __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::OnGuidChanged(void)` | 635 | Exported Function
-`public: void __thiscall CSFUnified::ParametersCollection::push_back(class std::shared_ptr<class CSFUnified::FormalParameter>)` | 880 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskQueue::wakeUpAll(void)` | 924 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskQueue::enqueueUrgentTask(class std::shared_ptr<class csf::Task>)` | 674 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskQueue::enqueueTask(class std::shared_ptr<class csf::Task>,bool)` | 671 | Exported Function
-`public: void __thiscall CSFUnified::Properties::addProperty(class std::shared_ptr<class CSFUnified::Property>)` | 645 | Exported Function
-`public: void __thiscall CSFUnified::PropertyNotifierImpl::fire(void)` | 696 | Exported Function
-`public: void __thiscall CSFUnified::PropertyNotifierImpl::``vbase destructor'(void)` | 596 | Exported Function
-`public: void __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::connect(void)` | 657 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskDispatcher::enqueueBlock(class std::function<void __cdecl(void)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 669 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskDispatcher::enqueue(class std::shared_ptr<class csf::Task>)` | 666 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskDispatcher::enqueue(class std::function<void __cdecl(void)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 665 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskDispatcher::enqueueBlock(class std::shared_ptr<class csf::Task>)` | 670 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskQueue::clear(void)` | 652 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskDispatcher::enqueueUrgent(class std::shared_ptr<class csf::Task>)` | 673 | Exported Function
-`public: void __thiscall CSFUnified::Processing::TaskDispatcher::enqueueUrgent(class std::function<void __cdecl(void)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 672 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class csf::SecureString>::~ActualParameter<class csf::SecureString>(void)` | 272 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<char>::~ActualParameter<char>(void)` | 255 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<bool>::~ActualParameter<bool>(void)` | 274 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::~ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(void)` | 260 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::~ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >(void)` | 271 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::~ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >(void)` | 270 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::~ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(void)` | 261 | Exported Function
-`public: unsigned int __thiscall CSFUnified::Processing::TaskDispatcher::queueSize(void)` | 881 | Exported Function
-`public: static void __cdecl CSFUnified::ReflectorFactory::AddReflectorFactoryMethodForStruct(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<void>)>)` | 611 | Exported Function
-`public: static void __cdecl CSFUnified::ReflectorFactory::AddReflectorFactoryMethodForEnum(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>)` | 610 | Exported Function
-`public: unsigned int __thiscall CSFUnified::TypedReturnValue<unsigned int>::getReturnValue(void)` | 784 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<__int64>::~ActualParameter<__int64>(void)` | 273 | Exported Function
-`public: unsigned int __thiscall CSFUnified::UnifiedFactory::getDefaultAuthenticatorId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 708 | Exported Function
-`public: unsigned int __thiscall CSFUnified::UnifiedFactory::getAuthenticatorId(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 701 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::~ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >(void)` | 262 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<long>::~ActualParameter<long>(void)` | 258 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<int>::~ActualParameter<int>(void)` | 256 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<float>::~ActualParameter<float>(void)` | 259 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<unsigned int>::~ActualParameter<unsigned int>(void)` | 257 | Exported Function
-`public: virtual __thiscall CSFUnified::FormalParameter::~FormalParameter(void)` | 302 | Exported Function
-`public: virtual __thiscall CSFUnified::FeatureSet::~FeatureSet(void)` | 301 | Exported Function
-`public: virtual __thiscall CSFUnified::Authenticator::~Authenticator(void)` | 298 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::~ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >(void)` | 268 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::~ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >(void)` | 267 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::~ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >(void)` | 269 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::~ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >(void)` | 266 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::~ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >(void)` | 264 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::~ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >(void)` | 265 | Exported Function
-`public: virtual __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::~ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >(void)` | 263 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForStruct(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 621 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForNullUnifiedBusinessObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 620 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForListOfUnifiedBusinessObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)` | 619 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForUnifiedBusinessObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)` | 622 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::Reflector> __cdecl CSFUnified::ReflectorFactory::GetReflectorForCallback(class std::shared_ptr<class CSFUnified::UnifiedCallback>)` | 627 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::Reflector> __cdecl CSFUnified::ReflectorFactory::GetReflector(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)` | 626 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::ReflectionCallback> __cdecl CSFUnified::ReflectionCallbackFactory::GetReflectionCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 625 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedCallback>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedCallback> > > > >)` | 614 | Exported Function
-`public: long __thiscall CSFUnified::TypedReturnValue<long>::getReturnValue(void)` | 785 | Exported Function
-`public: int __thiscall CSFUnified::TypedReturnValue<int>::getReturnValue(void)` | 783 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForEnum(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 615 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForListOfStruct(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 618 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForListOfEnum(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 617 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ActualParameterFactory::GetActualParameterForListOfCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedCallback>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedCallback> > > > >)` | 616 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::Reflector> __cdecl CSFUnified::ReflectorFactory::GetReflectorForEnum(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 628 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForStruct(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>)` | 605 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForNullUnifiedBusinessObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(void)>)` | 604 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForListOfUnifiedBusinessObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)>)` | 603 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForUnifiedBusinessObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)>)` | 606 | Exported Function
-`public: static void __cdecl CSFUnified::ReflectorFactory::AddReflectorFactoryMethodForCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<class CSFUnified::UnifiedCallback>)>)` | 609 | Exported Function
-`public: static void __cdecl CSFUnified::ReflectorFactory::AddReflectorFactoryMethod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)>)` | 608 | Exported Function
-`public: static void __cdecl CSFUnified::ReflectionCallbackFactory::AddCallbackFactoryMethodForCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReflectionCallback> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>)` | 607 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedCallback>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedCallback> > > > >)>)` | 598 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::ServiceFactory> __cdecl CSFUnified::ServiceFactory::getInstance(void)` | 719 | Exported Function
-`public: static class std::shared_ptr<class CSFUnified::Reflector> __cdecl CSFUnified::ReflectorFactory::GetReflectorForStruct(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<void>)` | 629 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForEnum(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>)` | 599 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForListOfStruct(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>)` | 602 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForListOfEnum(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>)` | 601 | Exported Function
-`public: static void __cdecl CSFUnified::ActualParameterFactory::AddActualParameterFactoryMethodForListOfCallback(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedCallback>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedCallback> > > > >)>)` | 600 | Exported Function
-`public: virtual __thiscall CSFUnified::IDataPersistor::~IDataPersistor(void)` | 303 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedServiceNotifiers::~UnifiedServiceNotifiers(void)` | 342 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedService::~UnifiedService(void)` | 341 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedFactory::~UnifiedFactory(void)` | 340 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedServiceObserver::~UnifiedServiceObserver(void)` | 343 | Exported Function
-`public: virtual bool __thiscall CSFUnified::ListProperty::isList(void)` | 818 | Exported Function
-`public: virtual __thiscall CSFUnified::VoidReturnValue::~VoidReturnValue(void)` | 345 | Exported Function
-`public: virtual __thiscall CSFUnified::UntypedObjectReturnValue::~UntypedObjectReturnValue(void)` | 344 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedBusinessObjectImpl::~UnifiedBusinessObjectImpl(void)` | 334 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedBusinessObject::~UnifiedBusinessObject(void)` | 333 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<unsigned int>::~TypedReturnValue<unsigned int>(void)` | 283 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedBusinessObjectNotifiers::~UnifiedBusinessObjectNotifiers(void)` | 335 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedCallback::~UnifiedCallback(void)` | 338 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedBusinessObjectObserver::~UnifiedBusinessObjectObserver(void)` | 337 | Exported Function
-`public: virtual __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::~UnifiedBusinessObjectNotifiersImpl(void)` | 336 | Exported Function
-`public: virtual bool __thiscall CSFUnified::ListReturnValue::isList(void)` | 819 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::DispatcherAccessExceptionImpl::getName(void)` | 740 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::DispatcherAccessException::getInterfaceName(void)` | 721 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::CapabilitiesExceptionImpl::getCapability(void)` | 706 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::ListReturnValue::getReturnType(void)` | 778 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::TypedReturnValue<__int64>::getReturnType(void)` | 776 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::ServiceEventObserver::getInterfaceName(void)` | 723 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::ServiceEvent::getInterfaceName(void)` | 722 | Exported Function
-`public: virtual bool __thiscall CSFUnified::Property::isPrimitive(void)` | 822 | Exported Function
-`public: virtual bool __thiscall CSFUnified::Property::isList(void)` | 821 | Exported Function
-`public: virtual bool __thiscall CSFUnified::NonListReturnValue::isList(void)` | 820 | Exported Function
-`public: virtual bool __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::connected(void)` | 659 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::CapabilitiesException::getInterfaceName(void)` | 720 | Exported Function
-`public: virtual bool __thiscall CSFUnified::UnifiedFactory::IsFeatureSetStarted(unsigned int)` | 633 | Exported Function
-`public: virtual bool __thiscall CSFUnified::UnifiedFactory::IsFeatureSetProvisioned(unsigned int)` | 632 | Exported Function
-`public: virtual __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::~PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>(void)` | 278 | Exported Function
-`public: virtual __thiscall CSFUnified::PropertyNotifierConnection::~PropertyNotifierConnection(void)` | 317 | Exported Function
-`public: virtual __thiscall CSFUnified::PropertyNotifier::~PropertyNotifier(void)` | 316 | Exported Function
-`public: virtual __thiscall CSFUnified::PropertyNotifierImpl::~PropertyNotifierImpl(void)` | 318 | Exported Function
-`public: virtual __thiscall CSFUnified::ReturnValue::~ReturnValue(void)` | 322 | Exported Function
-`public: virtual __thiscall CSFUnified::Reflector::~Reflector(void)` | 320 | Exported Function
-`public: virtual __thiscall CSFUnified::ReflectionCallback::~ReflectionCallback(void)` | 319 | Exported Function
-`public: virtual __thiscall CSFUnified::Method::~Method(void)` | 308 | Exported Function
-`public: virtual __thiscall CSFUnified::ListReturnValue::~ListReturnValue(void)` | 307 | Exported Function
-`public: virtual __thiscall CSFUnified::ListProperty::~ListProperty(void)` | 306 | Exported Function
-`public: virtual __thiscall CSFUnified::MutableListProperty::~MutableListProperty(void)` | 310 | Exported Function
-`public: virtual __thiscall CSFUnified::Property::~Property(void)` | 315 | Exported Function
-`public: virtual __thiscall CSFUnified::NonListReturnValue::~NonListReturnValue(void)` | 312 | Exported Function
-`public: virtual __thiscall CSFUnified::NonListProperty::~NonListProperty(void)` | 311 | Exported Function
-`public: virtual __thiscall CSFUnified::ServiceEvent::~ServiceEvent(void)` | 323 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::~TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(void)` | 286 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::~TypedReturnValue<class csf::SecureString>(void)` | 288 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<char>::~TypedReturnValue<char>(void)` | 281 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::~TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(void)` | 287 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<long>::~TypedReturnValue<long>(void)` | 284 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<int>::~TypedReturnValue<int>(void)` | 282 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<float>::~TypedReturnValue<float>(void)` | 285 | Exported Function
-`public: virtual __thiscall CSFUnified::ServiceFactory::~ServiceFactory(void)` | 326 | Exported Function
-`public: virtual __thiscall CSFUnified::ServiceEventObserver::~ServiceEventObserver(void)` | 325 | Exported Function
-`public: virtual __thiscall CSFUnified::ServiceEventNotifiers::~ServiceEventNotifiers(void)` | 324 | Exported Function
-`public: virtual __thiscall CSFUnified::ServiceFactoryImpl::~ServiceFactoryImpl(void)` | 327 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<bool>::~TypedReturnValue<bool>(void)` | 290 | Exported Function
-`public: virtual __thiscall CSFUnified::TypedReturnValue<__int64>::~TypedReturnValue<__int64>(void)` | 289 | Exported Function
-`public: virtual __thiscall CSFUnified::ServicesDispatcherCallback::~ServicesDispatcherCallback(void)` | 329 | Exported Function
-`public: char __thiscall CSFUnified::TypedReturnValue<char>::getReturnValue(void)` | 782 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > > __thiscall CSFUnified::Interpreter::executeMethod(class std::shared_ptr<class CSFUnified::Reflector>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::ParametersCollection>)` | 677 | Exported Function
-`private: class std::shared_ptr<class csf::Task> __thiscall CSFUnified::ServicesDispatcher::nextTask(void)` | 832 | Exported Function
-`private: class std::chrono::duration<__int64,struct std::ratio<1,1000> > __thiscall CSFUnified::ServicesDispatcher::computeWaitingTime(class std::shared_ptr<class csf::Task>)` | 656 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > __thiscall CSFUnified::Interpreter::findUnifiedBusinessObjectByGuid(class std::shared_ptr<class CSFUnified::ParametersCollection>)` | 695 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::Interpreter::findScriptableRefectorForServiceName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 694 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::Reflector> __thiscall CSFUnified::Interpreter::findScriptableRefectorByUnifiedBusinessObject(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)` | 693 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > > __thiscall CSFUnified::Interpreter::subscribeToPropertyUsingCorrectCallback(class std::shared_ptr<class CSFUnified::Subscription>,class std::shared_ptr<class CSFUnified::Property>)` | 917 | Exported Function
-`private: bool __thiscall CSFUnified::ServicesDispatcher::hasGuardQueuedTimeBeenExceeded(void)` | 814 | Exported Function
-`private: bool __thiscall CSFUnified::ServicesDispatcher::hasAnyTaskBeenPickedUp(void)` | 813 | Exported Function
-`long __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeLong(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 848 | Exported Function
-`private: bool __thiscall CSFUnified::ServicesDispatcher::wasLastPickedUpTaskCompleted(void)` | 926 | Exported Function
-`private: class std::chrono::duration<__int64,struct std::ratio<1,1000> > __thiscall CSFUnified::ServicesDispatcher::computeTimeElapsedSinceLastTaskCompletion(void)` | 655 | Exported Function
-`private: class std::chrono::duration<__int64,struct std::ratio<1,1000> > __thiscall CSFUnified::ServicesDispatcher::computeElapsedTime(void)` | 654 | Exported Function
-`private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CSFUnified::UnifiedBusinessObjectImpl::generateGuid(void)` | 698 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::UnifiedService> __thiscall CSFUnified::UnifiedFactory::getService(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 795 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReflectionCallback> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::ReflectionCallback> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)> > > > CSFUnified::ReflectionCallbackFactory::factoryMethodMap` | 679 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(void)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(void)> > > > CSFUnified::ActualParameterFactory::factoryMethodMapForNullUnifiedBusinessObjects` | 689 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedCallback>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedCallback> > > > >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,` | 681 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)> > > > CSFUnified::ReflectorFactory::factoryMethodMapForEnums` | 684 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<void>)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<void>)> > > > CSFUnified::ReflectorFactory::factoryMethodMapForStructs` | 691 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<class CSFUnified::UnifiedCallback>)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<class CSFUnified::UnifiedCallback>)> > > > CSFUnified::ReflectorFactory::factoryMethodMapForCallbacks` | 682 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::Reflector> __cdecl(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)> > > > CSFUnified::ReflectorFactory::factoryMethodMap` | 680 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)> > > > CSFUnified::ActualParameterFactory::factoryMethodMapForListOfStructs` | 687 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)> > > > CSFUnified::ActualParameterFactory::factoryMethodMapForListOfEnums` | 686 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)> > > > CSFUnified::ActualParameterFactory::factoryMethodMapForEnums` | 683 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)> > > > CSFUnified::ActualParameterFactory::factoryMethodMapForStructs` | 690 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedCallback>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedCallback> > > > >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,` | 685 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<cha` | 692 | Exported Function
-`private: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >)>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<cha` | 688 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectNotifiersImpl::``vbtable'` | 594 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectNotifiers::``vftable'` | 573 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectImpl::``vftable'{for ``CSFUnified::UnifiedBusinessObjectImpl'}` | 571 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectNotifiersImpl::``vftable'{for ``CSFUnified::UnifiedBusinessObjectNotifiers'}` | 574 | Exported Function
-`const CSFUnified::UnifiedCallback::``vftable'` | 577 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectObserver::``vftable'` | 576 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectNotifiersImpl::``vftable'{for ``CSFUnified::UnifiedBusinessObjectObserver'}` | 575 | Exported Function
-`const CSFUnified::TypedReturnValue<int>::``vftable'` | 526 | Exported Function
-`const CSFUnified::TypedReturnValue<float>::``vftable'` | 529 | Exported Function
-`const CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::``vftable'` | 531 | Exported Function
-`const CSFUnified::TypedReturnValue<long>::``vftable'` | 528 | Exported Function
-`const CSFUnified::UnifiedBusinessObjectImpl::``vftable'{for ``CSFUnified::UnifiedBusinessObject'}` | 572 | Exported Function
-`const CSFUnified::UnifiedBusinessObject::``vftable'` | 570 | Exported Function
-`const CSFUnified::TypedReturnValue<unsigned int>::``vftable'` | 527 | Exported Function
-`const CSFUnified::UnifiedException::``vftable'` | 578 | Exported Function
-`const CSFUnified::UntypedObjectReturnValue::``vftable'` | 587 | Exported Function
-`const CSFUnified::UnifiedServiceObserver::``vftable'{for ``CSFUnified::UnifiedServiceObserver'}` | 585 | Exported Function
-`const CSFUnified::UnifiedServiceObserver::``vftable'{for ``CSFUnified::UnifiedBusinessObjectObserver'}` | 586 | Exported Function
-`const CSFUnified::VoidReturnValue::``vftable'` | 588 | Exported Function
-`int __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 847 | Exported Function
+`getParameterType` | 746 | Exported Function
+`getParameterName` | 745 | Exported Function
+`getParameterValue` | 747 | Exported Function
+`getErrorMessage` | 710 | Exported Function
+`getParameters` | 748 | Exported Function
+`getMethodName` | 736 | Exported Function
+`getErrorMessage` | 711 | Exported Function
+`UnifiedServiceObserver` | 499 | Exported Function
+`UnifiedServiceNotifiers` | 498 | Exported Function
+`UnifiedServiceNotifiers` | 497 | Exported Function
+`UnifiedServiceObserver` | 500 | Exported Function
+`VoidReturnValue` | 503 | Exported Function
+`VoidReturnValue` | 502 | Exported Function
+`UntypedObjectReturnValue` | 501 | Exported Function
+`getReturnType` | 779 | Exported Function
+`getAuthenticatorDisplayName` | 700 | Exported Function
+`getReturnValue` | 787 | Exported Function
+`getFriendlyIdentifier` | 715 | Exported Function
+`getAuthenticatorName` | 702 | Exported Function
+`getReturnValue` | 788 | Exported Function
+`getReturnValue` | 792 | Exported Function
+`getDefaultAuthenticatorName` | 709 | Exported Function
+`getBaseName` | 704 | Exported Function
+`getType` | 810 | Exported Function
+`getPropertyName` | 751 | Exported Function
+`getExecutionPath` | 712 | Exported Function
+`getLastTaskName` | 731 | Exported Function
+`getNextMethod` | 741 | Exported Function
+`getLastMethod` | 730 | Exported Function
+`TypedReturnValue` | 403 | Exported Function
+`TypedReturnValue` | 402 | Exported Function
+`allocator` | 407 | Exported Function
+`TypedReturnValue` | 396 | Exported Function
+`TypedReturnValue` | 401 | Exported Function
+`TypedReturnValue` | 400 | Exported Function
+`TypedReturnValue` | 397 | Exported Function
+`SecureString` | 408 | Exported Function
+`TypedReturnValue` | 395 | Exported Function
+`TypedReturnValue` | 394 | Exported Function
+`SecureString` | 409 | Exported Function
+`allocator` | 406 | Exported Function
+`allocator` | 405 | Exported Function
+`allocator` | 404 | Exported Function
+`TypedReturnValue` | 398 | Exported Function
+`UnifiedExceptionImpl` | 492 | Exported Function
+`UnifiedException` | 491 | Exported Function
+`UnifiedException` | 490 | Exported Function
+`UnifiedExceptionImpl` | 493 | Exported Function
+`UnifiedService` | 496 | Exported Function
+`UnifiedService` | 495 | Exported Function
+`UnifiedFactory` | 494 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 485 | Exported Function
+`UnifiedBusinessObject` | 484 | Exported Function
+`TypedReturnValue` | 399 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 486 | Exported Function
+`UnifiedCallback` | 489 | Exported Function
+`UnifiedBusinessObjectObserver` | 488 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 487 | Exported Function
+`getFirstTaskQueuedTime` | 714 | Exported Function
+`getPropertyNames` | 752 | Exported Function
+`getMethodNames` | 737 | Exported Function
+`getSupportedServiceNames` | 809 | Exported Function
+`getMethodNames` | 738 | Exported Function
+`weak_from_this` | 932 | Exported Function
+`weak_from_this` | 929 | Exported Function
+`weak_from_this` | 930 | Exported Function
+`shared_from_this` | 907 | Exported Function
+`shared_from_this` | 908 | Exported Function
+`getResult` | 767 | Exported Function
+`shared_from_this` | 910 | Exported Function
+`getService` | 796 | Exported Function
+`shared_from_this` | 909 | Exported Function
+`getUnifiedFactory` | 812 | Exported Function
+`weak_from_this` | 931 | Exported Function
+`getReturnValue` | 786 | Exported Function
+`weak_from_this` | 937 | Exported Function
+`weak_from_this` | 938 | Exported Function
+`size` | 911 | Exported Function
+`size` | 913 | Exported Function
+`size` | 914 | Exported Function
+`size` | 912 | Exported Function
+`weak_from_this` | 928 | Exported Function
+`weak_from_this` | 927 | Exported Function
+`function` | 916 | Exported Function
+`weak_from_this` | 934 | Exported Function
+`weak_from_this` | 935 | Exported Function
+`weak_from_this` | 936 | Exported Function
+`weak_from_this` | 933 | Exported Function
+`shared_from_this` | 901 | Exported Function
+`shared_from_this` | 902 | Exported Function
+`getAuthenticator` | 699 | Exported Function
+`shared_from_this` | 904 | Exported Function
+`Request` | 676 | Exported Function
+`at` | 646 | Exported Function
+`shared_from_this` | 903 | Exported Function
+`getObjectListPropertyCallback` | 743 | Exported Function
+`getBasicListPropertyCallback` | 705 | Exported Function
+`getNonListPropertyCallback` | 742 | Exported Function
+`getMutableObjectListPropertyCallback` | 739 | Exported Function
+`waitDequeueTask` | 919 | Exported Function
+`dequeueTask` | 661 | Exported Function
+`getFxn` | 716 | Exported Function
+`Subscription` | 915 | Exported Function
+`shared_from_this` | 900 | Exported Function
+`shared_from_this` | 899 | Exported Function
+`ParametersCollection` | 750 | Exported Function
+`shared_from_this` | 906 | Exported Function
+`getResult` | 766 | Exported Function
+`allocator` | 660 | Exported Function
+`shared_from_this` | 905 | Exported Function
+`ParametersCollection` | 735 | Exported Function
+`allocator` | 734 | Exported Function
+`getLibraryRecord` | 732 | Exported Function
+`Methods` | 634 | Exported Function
+`allocator` | 749 | Exported Function
+`Properties` | 637 | Exported Function
+`allocator` | 744 | Exported Function
+`ActualParameter` | 349 | Exported Function
+`ActualParameter` | 348 | Exported Function
+`ActualParameter` | 355 | Exported Function
+`ActualParameter` | 352 | Exported Function
+`ActualParameter` | 351 | Exported Function
+`ActualParameter` | 350 | Exported Function
+`ActualParameter` | 353 | Exported Function
+`allocator` | 366 | Exported Function
+`allocator` | 363 | Exported Function
+`allocator` | 362 | Exported Function
+`allocator` | 367 | Exported Function
+`ActualParameter` | 354 | Exported Function
+`allocator` | 365 | Exported Function
+`allocator` | 364 | Exported Function
+`ActualParameterFactory` | 422 | Exported Function
+`DispatcherAccessExceptionImpl` | 432 | Exported Function
+`DispatcherAccessExceptionImpl` | 431 | Exported Function
+`DispatcherAccessException` | 430 | Exported Function
+`FeatureSet` | 433 | Exported Function
+`FormalParameter` | 436 | Exported Function
+`FeatureSetAdapter` | 435 | Exported Function
+`FeatureSetAdapter` | 434 | Exported Function
+`CapabilitiesException` | 425 | Exported Function
+`Authenticator` | 424 | Exported Function
+`ActualParameterFactory` | 423 | Exported Function
+`CapabilitiesException` | 426 | Exported Function
+`DispatcherAccessException` | 429 | Exported Function
+`CapabilitiesExceptionImpl` | 428 | Exported Function
+`CapabilitiesExceptionImpl` | 427 | Exported Function
+`SecureString` | 380 | Exported Function
+`ActualParameter` | 347 | Exported Function
+`ActualParameter` | 346 | Exported Function
+`SecureString` | 381 | Exported Function
+`allocator` | 358 | Exported Function
+`allocator` | 357 | Exported Function
+`allocator` | 356 | Exported Function
+`AccessGuard` | 421 | Exported Function
+`AccessGuard` | 420 | Exported Function
+`getReturnValue` | 789 | Exported Function
+`ActualParameter` | 382 | Exported Function
+`ActualParameter` | 385 | Exported Function
+`ActualParameter` | 384 | Exported Function
+`ActualParameter` | 383 | Exported Function
+`allocator` | 359 | Exported Function
+`allocator` | 371 | Exported Function
+`allocator` | 370 | Exported Function
+`SecureString` | 375 | Exported Function
+`allocator` | 372 | Exported Function
+`allocator` | 369 | Exported Function
+`allocator` | 368 | Exported Function
+`allocator` | 373 | Exported Function
+`allocator` | 378 | Exported Function
+`allocator` | 377 | Exported Function
+`allocator` | 376 | Exported Function
+`allocator` | 379 | Exported Function
+`SecureString` | 374 | Exported Function
+`allocator` | 361 | Exported Function
+`allocator` | 360 | Exported Function
+`IDataPersistor` | 437 | Exported Function
+`ReflectorFactory` | 466 | Exported Function
+`ReflectorFactory` | 465 | Exported Function
+`Reflector` | 464 | Exported Function
+`Request` | 467 | Exported Function
+`ServiceEvent` | 470 | Exported Function
+`ReturnValue` | 469 | Exported Function
+`Request` | 468 | Exported Function
+`PropertyNotifierImpl` | 459 | Exported Function
+`PropertyNotifierImpl` | 393 | Exported Function
+`PropertyNotifierImpl` | 392 | Exported Function
+`PropertyNotifierImpl` | 460 | Exported Function
+`ReflectionCallbackFactory` | 463 | Exported Function
+`ReflectionCallbackFactory` | 462 | Exported Function
+`ReflectionCallback` | 461 | Exported Function
+`ServiceEvent` | 471 | Exported Function
+`Subscription` | 481 | Exported Function
+`Subscription` | 480 | Exported Function
+`ServicesDispatcherCallback` | 479 | Exported Function
+`TypedReturnValue` | 410 | Exported Function
+`TypedReturnValue` | 413 | Exported Function
+`TypedReturnValue` | 412 | Exported Function
+`TypedReturnValue` | 411 | Exported Function
+`ServiceEventObserver` | 474 | Exported Function
+`ServiceEventNotifiers` | 473 | Exported Function
+`ServiceEventNotifiers` | 472 | Exported Function
+`ServiceEventObserver` | 475 | Exported Function
+`ServiceFactoryImpl` | 478 | Exported Function
+`ServiceFactoryImpl` | 477 | Exported Function
+`ServiceFactory` | 476 | Exported Function
+`ListProperty` | 441 | Exported Function
+`LibraryRecord` | 440 | Exported Function
+`PropertyNotifierConnection` | 391 | Exported Function
+`ListProperty` | 442 | Exported Function
+`Method` | 445 | Exported Function
+`ListReturnValue` | 444 | Exported Function
+`ListReturnValue` | 443 | Exported Function
+`ReturnValue` | 386 | Exported Function
+`Interpreter` | 439 | Exported Function
+`Interpreter` | 438 | Exported Function
+`ReturnValue` | 387 | Exported Function
+`PropertyNotifierConnection` | 390 | Exported Function
+`UnifiedBusinessObject` | 389 | Exported Function
+`UnifiedBusinessObject` | 388 | Exported Function
+`Methods` | 446 | Exported Function
+`Properties` | 454 | Exported Function
+`TaskDispatcher` | 483 | Exported Function
+`TaskDispatcher` | 482 | Exported Function
+`Properties` | 455 | Exported Function
+`PropertyNotifierConnection` | 458 | Exported Function
+`PropertyNotifier` | 457 | Exported Function
+`Property` | 456 | Exported Function
+`MutableListProperty` | 449 | Exported Function
+`MutableListProperty` | 448 | Exported Function
+`Methods` | 447 | Exported Function
+`NonListProperty` | 450 | Exported Function
+`ParametersCollection` | 453 | Exported Function
+`ParametersCollection` | 452 | Exported Function
+`NonListReturnValue` | 451 | Exported Function
+`getQueueSize` | 753 | Exported Function
+`getReflector` | 761 | Exported Function
+`getReflector` | 754 | Exported Function
+`getReflector` | 763 | Exported Function
+`getReflector` | 759 | Exported Function
+`getReflector` | 755 | Exported Function
+`getReflector` | 758 | Exported Function
+`getReflector` | 760 | Exported Function
+`getFeatureSetAdapter` | 713 | Exported Function
+`getString` | 808 | Exported Function
+`getReturnType` | 781 | Exported Function
+`getDataPersistor` | 707 | Exported Function
+`getReflector` | 762 | Exported Function
+`getGuidNotifier` | 718 | Exported Function
+`getBackgroundDispatcher` | 703 | Exported Function
+`getReflector` | 757 | Exported Function
+`pumpAllDispatcherTasks` | 877 | Exported Function
+`disconnect` | 662 | Exported Function
+`function` | 658 | Exported Function
+`pumpNextDispatcherTask` | 879 | Exported Function
+`ServicesDispatcherCallback` | 893 | Exported Function
+`resetDispatcherThread` | 884 | Exported Function
+`reset` | 883 | Exported Function
+`getResourceMonitor` | 765 | Exported Function
+`getReflector` | 764 | Exported Function
+`getReflector` | 756 | Exported Function
+`getServicesDispatcher` | 797 | Exported Function
+`GetFeatureSetDependencies` | 623 | Exported Function
+`getService` | 794 | Exported Function
+`getUnifiedBusinessObjectNotifiers` | 811 | Exported Function
+`getReturnType` | 774 | Exported Function
+`getString` | 803 | Exported Function
+`getReturnType` | 773 | Exported Function
+`getString` | 804 | Exported Function
+`getReturnType` | 769 | Exported Function
+`getString` | 802 | Exported Function
+`getReturnType` | 772 | Exported Function
+`getString` | 807 | Exported Function
+`getReturnType` | 777 | Exported Function
+`getString` | 806 | Exported Function
+`getReturnType` | 768 | Exported Function
+`getString` | 805 | Exported Function
+`getReturnType` | 775 | Exported Function
+`getString` | 798 | Exported Function
+`getString` | 799 | Exported Function
+`getInterfaceName` | 727 | Exported Function
+`getInterfaceName` | 726 | Exported Function
+`getInterfaceName` | 725 | Exported Function
+`getMessage` | 733 | Exported Function
+`getReturnType` | 780 | Exported Function
+`getInterfaceName` | 729 | Exported Function
+`getInterfaceName` | 728 | Exported Function
+`getReturnType` | 770 | Exported Function
+`getString` | 801 | Exported Function
+`getReturnType` | 771 | Exported Function
+`getString` | 800 | Exported Function
+`toString` | 918 | Exported Function
+`getGuid` | 717 | Exported Function
+`getInterfaceName` | 724 | Exported Function
+`waitForDispatcherTask` | 920 | Exported Function
+`pumpAll` | 876 | Exported Function
+`allocator` | 675 | Exported Function
+`Task` | 668 | Exported Function
+`pumpNext` | 878 | Exported Function
+`waitForDispatcherTask` | 922 | Exported Function
+`ServicesDispatcherCallback` | 894 | Exported Function
+`resetDispatcherThread` | 885 | Exported Function
+`resetForTest` | 886 | Exported Function
+`FormalParameter` | 644 | Exported Function
+`ParametersCollection` | 643 | Exported Function
+`clear` | 651 | Exported Function
+`allocator` | 667 | Exported Function
+`Task` | 664 | Exported Function
+`allocator` | 663 | Exported Function
+`waitForDispatcherTask` | 923 | Exported Function
+`Authenticator` | 887 | Exported Function
+`Reset` | 638 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 597 | Exported Function
+`Authenticator` | 888 | Exported Function
+`allocator` | 852 | Exported Function
+`allocator` | 890 | Exported Function
+`allocator` | 889 | Exported Function
+`ReturnValue` | 896 | Exported Function
+`ReturnValue` | 895 | Exported Function
+`ReturnValue` | 891 | Exported Function
+`ReturnValue` | 897 | Exported Function
+`fireOnInfoChanged` | 697 | Exported Function
+`clear` | 650 | Exported Function
+`clear` | 649 | Exported Function
+`ServiceEvent` | 639 | Exported Function
+`IDataPersistor` | 892 | Exported Function
+`Init` | 631 | Exported Function
+`ServiceEvent` | 640 | Exported Function
+`Method` | 641 | Exported Function
+`UnifiedBusinessObject` | 898 | Exported Function
+`allocator` | 647 | Exported Function
+`commitToServicesDispatcher` | 653 | Exported Function
+`UnifiedBusinessObjectObserver` | 642 | Exported Function
+`waitForDispatcherTask` | 921 | Exported Function
+`UnifiedBusinessObjectObserver` | 882 | Exported Function
+`Destroy` | 612 | Exported Function
+`OnInfoChanged` | 636 | Exported Function
+`OnGuidChanged` | 635 | Exported Function
+`FormalParameter` | 880 | Exported Function
+`wakeUpAll` | 924 | Exported Function
+`Task` | 674 | Exported Function
+`Task` | 671 | Exported Function
+`Property` | 645 | Exported Function
+`fire` | 696 | Exported Function
+`PropertyNotifierImpl` | 596 | Exported Function
+`connect` | 657 | Exported Function
+`allocator` | 669 | Exported Function
+`Task` | 666 | Exported Function
+`allocator` | 665 | Exported Function
+`Task` | 670 | Exported Function
+`clear` | 652 | Exported Function
+`Task` | 673 | Exported Function
+`allocator` | 672 | Exported Function
+`SecureString` | 272 | Exported Function
+`ActualParameter` | 255 | Exported Function
+`ActualParameter` | 274 | Exported Function
+`allocator` | 260 | Exported Function
+`allocator` | 271 | Exported Function
+`allocator` | 270 | Exported Function
+`allocator` | 261 | Exported Function
+`queueSize` | 881 | Exported Function
+`shared_ptr` | 611 | Exported Function
+`allocator` | 610 | Exported Function
+`getReturnValue` | 784 | Exported Function
+`ActualParameter` | 273 | Exported Function
+`allocator` | 708 | Exported Function
+`allocator` | 701 | Exported Function
+`allocator` | 262 | Exported Function
+`ActualParameter` | 258 | Exported Function
+`ActualParameter` | 256 | Exported Function
+`ActualParameter` | 259 | Exported Function
+`ActualParameter` | 257 | Exported Function
+`FormalParameter` | 302 | Exported Function
+`FeatureSet` | 301 | Exported Function
+`Authenticator` | 298 | Exported Function
+`allocator` | 268 | Exported Function
+`allocator` | 267 | Exported Function
+`SecureString` | 269 | Exported Function
+`allocator` | 266 | Exported Function
+`allocator` | 264 | Exported Function
+`allocator` | 265 | Exported Function
+`allocator` | 263 | Exported Function
+`allocator` | 621 | Exported Function
+`allocator` | 620 | Exported Function
+`UnifiedBusinessObject` | 619 | Exported Function
+`UnifiedBusinessObject` | 622 | Exported Function
+`UnifiedCallback` | 627 | Exported Function
+`UnifiedBusinessObject` | 626 | Exported Function
+`allocator` | 625 | Exported Function
+`UnifiedCallback` | 614 | Exported Function
+`getReturnValue` | 785 | Exported Function
+`getReturnValue` | 783 | Exported Function
+`allocator` | 615 | Exported Function
+`allocator` | 618 | Exported Function
+`allocator` | 617 | Exported Function
+`UnifiedCallback` | 616 | Exported Function
+`allocator` | 628 | Exported Function
+`allocator` | 605 | Exported Function
+`FormalParameter` | 604 | Exported Function
+`UnifiedBusinessObject` | 603 | Exported Function
+`UnifiedBusinessObject` | 606 | Exported Function
+`UnifiedCallback` | 609 | Exported Function
+`UnifiedBusinessObject` | 608 | Exported Function
+`allocator` | 607 | Exported Function
+`UnifiedCallback` | 598 | Exported Function
+`getInstance` | 719 | Exported Function
+`shared_ptr` | 629 | Exported Function
+`allocator` | 599 | Exported Function
+`allocator` | 602 | Exported Function
+`allocator` | 601 | Exported Function
+`UnifiedCallback` | 600 | Exported Function
+`IDataPersistor` | 303 | Exported Function
+`UnifiedServiceNotifiers` | 342 | Exported Function
+`UnifiedService` | 341 | Exported Function
+`UnifiedFactory` | 340 | Exported Function
+`UnifiedServiceObserver` | 343 | Exported Function
+`isList` | 818 | Exported Function
+`VoidReturnValue` | 345 | Exported Function
+`UntypedObjectReturnValue` | 344 | Exported Function
+`UnifiedBusinessObjectImpl` | 334 | Exported Function
+`UnifiedBusinessObject` | 333 | Exported Function
+`TypedReturnValue` | 283 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 335 | Exported Function
+`UnifiedCallback` | 338 | Exported Function
+`UnifiedBusinessObjectObserver` | 337 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 336 | Exported Function
+`isList` | 819 | Exported Function
+`getName` | 740 | Exported Function
+`getInterfaceName` | 721 | Exported Function
+`getCapability` | 706 | Exported Function
+`getReturnType` | 778 | Exported Function
+`getReturnType` | 776 | Exported Function
+`getInterfaceName` | 723 | Exported Function
+`getInterfaceName` | 722 | Exported Function
+`isPrimitive` | 822 | Exported Function
+`isList` | 821 | Exported Function
+`isList` | 820 | Exported Function
+`connected` | 659 | Exported Function
+`getInterfaceName` | 720 | Exported Function
+`IsFeatureSetStarted` | 633 | Exported Function
+`IsFeatureSetProvisioned` | 632 | Exported Function
+`PropertyNotifierImpl` | 278 | Exported Function
+`PropertyNotifierConnection` | 317 | Exported Function
+`PropertyNotifier` | 316 | Exported Function
+`PropertyNotifierImpl` | 318 | Exported Function
+`ReturnValue` | 322 | Exported Function
+`Reflector` | 320 | Exported Function
+`ReflectionCallback` | 319 | Exported Function
+`Method` | 308 | Exported Function
+`ListReturnValue` | 307 | Exported Function
+`ListProperty` | 306 | Exported Function
+`MutableListProperty` | 310 | Exported Function
+`Property` | 315 | Exported Function
+`NonListReturnValue` | 312 | Exported Function
+`NonListProperty` | 311 | Exported Function
+`ServiceEvent` | 323 | Exported Function
+`allocator` | 286 | Exported Function
+`SecureString` | 288 | Exported Function
+`TypedReturnValue` | 281 | Exported Function
+`allocator` | 287 | Exported Function
+`TypedReturnValue` | 284 | Exported Function
+`TypedReturnValue` | 282 | Exported Function
+`TypedReturnValue` | 285 | Exported Function
+`ServiceFactory` | 326 | Exported Function
+`ServiceEventObserver` | 325 | Exported Function
+`ServiceEventNotifiers` | 324 | Exported Function
+`ServiceFactoryImpl` | 327 | Exported Function
+`TypedReturnValue` | 290 | Exported Function
+`TypedReturnValue` | 289 | Exported Function
+`ServicesDispatcherCallback` | 329 | Exported Function
+`getReturnValue` | 782 | Exported Function
+`ParametersCollection` | 677 | Exported Function
+`nextTask` | 832 | Exported Function
+`Task` | 656 | Exported Function
+`ParametersCollection` | 695 | Exported Function
+`allocator` | 694 | Exported Function
+`UnifiedBusinessObject` | 693 | Exported Function
+`Property` | 917 | Exported Function
+`hasGuardQueuedTimeBeenExceeded` | 814 | Exported Function
+`hasAnyTaskBeenPickedUp` | 813 | Exported Function
+`allocator` | 848 | Exported Function
+`wasLastPickedUpTaskCompleted` | 926 | Exported Function
+`computeTimeElapsedSinceLastTaskCompletion` | 655 | Exported Function
+`computeElapsedTime` | 654 | Exported Function
+`generateGuid` | 698 | Exported Function
+`allocator` | 795 | Exported Function
+`factoryMethodMap` | 679 | Exported Function
+`factoryMethodMapForNullUnifiedBusinessObjects` | 689 | Exported Function
+`allocator` | 681 | Exported Function
+`factoryMethodMapForEnums` | 684 | Exported Function
+`factoryMethodMapForStructs` | 691 | Exported Function
+`factoryMethodMapForCallbacks` | 682 | Exported Function
+`factoryMethodMap` | 680 | Exported Function
+`factoryMethodMapForListOfStructs` | 687 | Exported Function
+`factoryMethodMapForListOfEnums` | 686 | Exported Function
+`factoryMethodMapForEnums` | 683 | Exported Function
+`factoryMethodMapForStructs` | 690 | Exported Function
+`allocator` | 685 | Exported Function
+`allocator` | 692 | Exported Function
+`allocator` | 688 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 594 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 573 | Exported Function
+`UnifiedBusinessObjectImpl` | 571 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 574 | Exported Function
+`UnifiedCallback` | 577 | Exported Function
+`UnifiedBusinessObjectObserver` | 576 | Exported Function
+`UnifiedBusinessObjectObserver` | 575 | Exported Function
+`TypedReturnValue` | 526 | Exported Function
+`TypedReturnValue` | 529 | Exported Function
+`allocator` | 531 | Exported Function
+`TypedReturnValue` | 528 | Exported Function
+`UnifiedBusinessObject` | 572 | Exported Function
+`UnifiedBusinessObject` | 570 | Exported Function
+`TypedReturnValue` | 527 | Exported Function
+`UnifiedException` | 578 | Exported Function
+`UntypedObjectReturnValue` | 587 | Exported Function
+`UnifiedServiceObserver` | 585 | Exported Function
+`UnifiedBusinessObjectObserver` | 586 | Exported Function
+`VoidReturnValue` | 588 | Exported Function
+`allocator` | 847 | Exported Function
 `GetFactory` | 939 | Exported Function
-`float __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeFloat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 846 | Exported Function
-`const CSFUnified::UnifiedFactory::``vftable'` | 580 | Exported Function
-`const CSFUnified::UnifiedExceptionImpl::``vftable'` | 579 | Exported Function
-`const CSFUnified::UnifiedExceptionImpl::``vbtable'` | 595 | Exported Function
-`const CSFUnified::UnifiedService::``vftable'{for ``CSFUnified::UnifiedBusinessObject'}` | 582 | Exported Function
-`const CSFUnified::UnifiedServiceNotifiers::``vftable'{for ``CSFUnified::UnifiedServiceNotifiers'}` | 583 | Exported Function
-`const CSFUnified::UnifiedServiceNotifiers::``vftable'{for ``CSFUnified::UnifiedBusinessObjectNotifiers'}` | 584 | Exported Function
-`const CSFUnified::UnifiedService::``vftable'{for ``CSFUnified::UnifiedService'}` | 581 | Exported Function
-`private: static class std::shared_ptr<class CSFUnified::ServiceFactory> CSFUnified::ServiceFactory::instance` | 816 | Exported Function
-`public: __thiscall CSFUnified::AccessGuard::AccessGuard(class std::shared_ptr<class CSFUnified::ServicesDispatcher>)` | 122 | Exported Function
-`public: __thiscall CSFUnified::AccessGuard::AccessGuard(class CSFUnified::AccessGuard const &)` | 121 | Exported Function
-`public: __thiscall CSFUnified::AccessGuard::AccessGuard(class CSFUnified::AccessGuard &&)` | 120 | Exported Function
-`public: __thiscall CSFUnified::AccessGuard::~AccessGuard(void)` | 297 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<__int64>::ActualParameter<__int64>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,__int64)` | 67 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<__int64>::ActualParameter<__int64>(class CSFUnified::ActualParameter<__int64> const &)` | 66 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<__int64>::ActualParameter<__int64>(class CSFUnified::ActualParameter<__int64> &&)` | 65 | Exported Function
-`protected: class std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl> & __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::operator=(class std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl> const &)` | 417 | Exported Function
-`protected: class std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> > & __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::operator=(class std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> > const &)` | 414 | Exported Function
-`protected: class std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl> & __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::operator=(class std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl> const &)` | 416 | Exported Function
-`protected: class std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl> & __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::operator=(class std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl> const &)` | 418 | Exported Function
-`public: __int64 __thiscall CSFUnified::TypedReturnValue<__int64>::getReturnValue(void)` | 790 | Exported Function
-`protected: void __thiscall CSFUnified::UnifiedBusinessObjectImpl::EnsureUpdateAccess(bool)const ` | 613 | Exported Function
-`protected: class std::enable_shared_from_this<class CSFUnified::UnifiedFactory> & __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::operator=(class std::enable_shared_from_this<class CSFUnified::UnifiedFactory> const &)` | 419 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<bool>::ActualParameter<bool>(class CSFUnified::ActualParameter<bool> &&)` | 68 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > const &)` | 27 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &&)` | 26 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class csf::SecureString>::ActualParameter<class csf::SecureString>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString)` | 64 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 28 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 31 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > const &)` | 30 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > &&)` | 29 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<char>::ActualParameter<char>(class CSFUnified::ActualParameter<char> &&)` | 11 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<bool>::ActualParameter<bool>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 70 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<bool>::ActualParameter<bool>(class CSFUnified::ActualParameter<bool> const &)` | 69 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<char>::ActualParameter<char>(class CSFUnified::ActualParameter<char> const &)` | 12 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class csf::SecureString>::ActualParameter<class csf::SecureString>(class CSFUnified::ActualParameter<class csf::SecureString> const &)` | 63 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class csf::SecureString>::ActualParameter<class csf::SecureString>(class CSFUnified::ActualParameter<class csf::SecureString> &&)` | 62 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<char>::ActualParameter<char>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char)` | 13 | Exported Function
-`private: void __thiscall CSFUnified::UnifiedFactory::loadService(unsigned int)` | 831 | Exported Function
-`private: void __thiscall CSFUnified::UnifiedFactory::loadService(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 830 | Exported Function
-`private: void __thiscall CSFUnified::UnifiedFactory::loadFeatureSet(unsigned int)` | 829 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>(class std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl> const &)` | 110 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>(class std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl> const &)` | 112 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::~enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>(void)` | 292 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>(void)` | 111 | Exported Function
-`private: void __thiscall CSFUnified::ServicesDispatcher::executeTask(class std::shared_ptr<class csf::Task>)` | 678 | Exported Function
-`private: void __thiscall CSFUnified::ServiceFactoryImpl::initializeServiceFactory(void)` | 815 | Exported Function
-`private: virtual class std::shared_ptr<class CSFUnified::UnifiedService> __thiscall CSFUnified::ServiceFactoryImpl::getService(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 793 | Exported Function
-`private: void __thiscall CSFUnified::ServicesDispatcher::warnOnDispatcherThreadBusy(void)` | 925 | Exported Function
-`private: void __thiscall CSFUnified::UnifiedFactory::loadFeatureSet(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 828 | Exported Function
-`private: void __thiscall CSFUnified::UnifiedFactory::loadAuthenticator(unsigned int)` | 827 | Exported Function
-`private: void __thiscall CSFUnified::UnifiedFactory::loadAuthenticator(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 826 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>(void)` | 113 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::~enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>(void)` | 295 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>(void)` | 117 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl>(class std::enable_shared_from_this<class CSFUnified::UnifiedBusinessObjectNotifiersImpl> const &)` | 116 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::enable_shared_from_this<class CSFUnified::UnifiedFactory>(class std::enable_shared_from_this<class CSFUnified::UnifiedFactory> const &)` | 118 | Exported Function
-`protected: class std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl> & __thiscall std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl>::operator=(class std::enable_shared_from_this<class CSFUnified::CapabilitiesExceptionImpl> const &)` | 415 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::~enable_shared_from_this<class CSFUnified::UnifiedFactory>(void)` | 296 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::UnifiedFactory>::enable_shared_from_this<class CSFUnified::UnifiedFactory>(void)` | 119 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >(void)` | 109 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >(class std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> > const &)` | 108 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>::~enable_shared_from_this<class CSFUnified::DispatcherAccessExceptionImpl>(void)` | 293 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >::~enable_shared_from_this<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >(void)` | 291 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::~enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>(void)` | 294 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>(void)` | 115 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl>(class std::enable_shared_from_this<class CSFUnified::PropertyNotifierImpl> const &)` | 114 | Exported Function
-`class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeSecureString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 840 | Exported Function
-`class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<class csf::SecureString>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class csf::SecureString (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 8 | Exported Function
-`class std::shared_ptr<class std::vector<char,class std::allocator<char> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeChar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 835 | Exported Function
-`class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 6 | Exported Function
-`class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeWString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 843 | Exported Function
-`class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 7 | Exported Function
-`class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 841 | Exported Function
-`class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<__int64>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,__int64 (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 9 | Exported Function
-`class std::shared_ptr<class CSFUnified::FormalParameter> __cdecl CSFUnified::ReflectionTypeConversion::ToFormalParameterConversions::GetFormalParameterFromStrings(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > > > >,class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>` | 624 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeWString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 853 | Exported Function
-`class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeLongLong(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 839 | Exported Function
-`class std::shared_ptr<class std::vector<char,class std::allocator<char> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<char>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,char (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 1 | Exported Function
-`class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 834 | Exported Function
-`class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<bool>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 10 | Exported Function
-`class std::shared_ptr<class std::vector<float,class std::allocator<float> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<float>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 5 | Exported Function
-`const CSFUnified::ActualParameter<char>::``vftable'` | 504 | Exported Function
-`const CSFUnified::ActualParameter<bool>::``vftable'` | 523 | Exported Function
-`const CSFUnified::ActualParameter<__int64>::``vftable'` | 522 | Exported Function
-`const CSFUnified::ActualParameter<class csf::SecureString>::``vftable'` | 521 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::``vftable'` | 519 | Exported Function
-`const CSFUnified::ActualParameter<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::``vftable'` | 510 | Exported Function
-`const CSFUnified::ActualParameter<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::``vftable'` | 509 | Exported Function
-`class std::shared_ptr<class std::vector<int,class std::allocator<int> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 837 | Exported Function
-`class std::shared_ptr<class std::vector<int,class std::allocator<int> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 2 | Exported Function
-`class std::shared_ptr<class std::vector<float,class std::allocator<float> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeFloat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 836 | Exported Function
-`class std::shared_ptr<class std::vector<long,class std::allocator<long> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<long>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,long (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 4 | Exported Function
-`class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeUnsignedInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 842 | Exported Function
-`class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsList<unsigned int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int (__cdecl*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))` | 3 | Exported Function
-`class std::shared_ptr<class std::vector<long,class std::allocator<long> > > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsListOfPrimitiveTypeLong(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 838 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(char const &)` | 855 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(bool const &)` | 864 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(__int64 const &)` | 863 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(class csf::SecureString const &)` | 862 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(class std::shared_ptr<class CSFUnified::Image> &)` | 854 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 861 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 860 | Exported Function
-`char __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeChar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 845 | Exported Function
-`bool __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 844 | Exported Function
-`__int64 __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeLongLong(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 849 | Exported Function
-`class csf::SecureString __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeSecureString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 850 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::objectReturnTypeAsString(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)` | 833 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ReturnTypeToStringConversions::GetReturnValueAsString(class std::shared_ptr<class CSFUnified::ReturnValue>)` | 630 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::FromStringConversions::parameterTypeStringAsPrimitiveTypeString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 851 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(float const &)` | 859 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeLongLongAsString(__int64 const &)` | 871 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeLongAsString(long const &)` | 870 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeIntAsString(int const &)` | 869 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeSecureStringAsString(class csf::SecureString const &)` | 872 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeWStringAsString(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 875 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeUnsignedIntAsString(unsigned int const &)` | 874 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeStringAsString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 873 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(unsigned int const &)` | 857 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(long const &)` | 858 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeAsString(int const &)` | 856 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeBoolAsString(bool const &)` | 865 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeImageAsString(class std::shared_ptr<class CSFUnified::Image> &)` | 868 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeFloatAsString(float const &)` | 867 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CSFUnified::ReflectionTypeConversion::ToStringConversions::primitiveReturnTypeCharAsString(char const &)` | 866 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::``vftable'` | 520 | Exported Function
-`const CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::``vftable'` | 524 | Exported Function
-`const CSFUnified::PropertyNotifierConnection::``vftable'` | 556 | Exported Function
-`const CSFUnified::PropertyNotifier::``vftable'` | 555 | Exported Function
-`const CSFUnified::PropertyNotifierImpl::``vbtable'` | 593 | Exported Function
-`const CSFUnified::Reflector::``vftable'` | 559 | Exported Function
-`const CSFUnified::ReflectionCallback::``vftable'` | 558 | Exported Function
-`const CSFUnified::PropertyNotifierImpl::``vftable'` | 557 | Exported Function
-`const CSFUnified::Method::``vftable'` | 550 | Exported Function
-`const CSFUnified::ListReturnValue::``vftable'` | 549 | Exported Function
-`const CSFUnified::ListProperty::``vftable'` | 548 | Exported Function
-`const CSFUnified::MutableListProperty::``vftable'` | 551 | Exported Function
-`const CSFUnified::Property::``vftable'` | 554 | Exported Function
-`const CSFUnified::NonListReturnValue::``vftable'` | 553 | Exported Function
-`const CSFUnified::NonListProperty::``vftable'` | 552 | Exported Function
-`const CSFUnified::ReturnValue::``vftable'` | 560 | Exported Function
-`const CSFUnified::TypedReturnValue<__int64>::``vftable'` | 533 | Exported Function
-`const CSFUnified::ServicesDispatcherCallback::``vftable'` | 569 | Exported Function
-`const CSFUnified::ServiceFactoryImpl::``vftable'` | 568 | Exported Function
-`const CSFUnified::TypedReturnValue<bool>::``vftable'` | 534 | Exported Function
-`const CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::``vftable'` | 530 | Exported Function
-`const CSFUnified::TypedReturnValue<class csf::SecureString>::``vftable'` | 532 | Exported Function
-`const CSFUnified::TypedReturnValue<char>::``vftable'` | 525 | Exported Function
-`const CSFUnified::ServiceEventNotifiers::``vftable'{for ``CSFUnified::ServiceEventNotifiers'}` | 563 | Exported Function
-`const CSFUnified::ServiceEvent::``vftable'{for ``CSFUnified::UnifiedBusinessObject'}` | 562 | Exported Function
-`const CSFUnified::ServiceEvent::``vftable'{for ``CSFUnified::ServiceEvent'}` | 561 | Exported Function
-`const CSFUnified::ServiceEventNotifiers::``vftable'{for ``CSFUnified::UnifiedBusinessObjectNotifiers'}` | 564 | Exported Function
-`const CSFUnified::ServiceFactory::``vftable'` | 567 | Exported Function
-`const CSFUnified::ServiceEventObserver::``vftable'{for ``CSFUnified::UnifiedBusinessObjectObserver'}` | 566 | Exported Function
-`const CSFUnified::ServiceEventObserver::``vftable'{for ``CSFUnified::ServiceEventObserver'}` | 565 | Exported Function
-`const CSFUnified::ActualParameter<int>::``vftable'` | 505 | Exported Function
-`const CSFUnified::ActualParameter<float>::``vftable'` | 508 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::``vftable'` | 513 | Exported Function
-`const CSFUnified::ActualParameter<long>::``vftable'` | 507 | Exported Function
-`const CSFUnified::CapabilitiesException::``vftable'{for ``CSFUnified::CapabilitiesException'}` | 536 | Exported Function
-`const CSFUnified::Authenticator::``vftable'` | 535 | Exported Function
-`const CSFUnified::ActualParameter<unsigned int>::``vftable'` | 506 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::``vftable'` | 516 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::``vftable'` | 518 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::``vftable'` | 511 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::``vftable'` | 517 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::``vftable'` | 514 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::``vftable'` | 512 | Exported Function
-`const CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::``vftable'` | 515 | Exported Function
-`const CSFUnified::CapabilitiesException::``vftable'{for ``CSFUnified::UnifiedException'}` | 537 | Exported Function
-`const CSFUnified::DispatcherAccessExceptionImpl::``vftable'{for ``CSFUnified::DispatcherAccessException'}` | 543 | Exported Function
-`const CSFUnified::DispatcherAccessExceptionImpl::``vftable'` | 542 | Exported Function
-`const CSFUnified::DispatcherAccessExceptionImpl::``vbtable'{for ``CSFUnified::UnifiedExceptionImpl'}` | 592 | Exported Function
-`const CSFUnified::FeatureSet::``vftable'` | 544 | Exported Function
-`const CSFUnified::IDataPersistor::``vftable'` | 547 | Exported Function
-`const CSFUnified::FormalParameter::``vftable'` | 546 | Exported Function
-`const CSFUnified::FeatureSetAdapter::``vftable'` | 545 | Exported Function
-`const CSFUnified::CapabilitiesExceptionImpl::``vftable'` | 538 | Exported Function
-`const CSFUnified::CapabilitiesExceptionImpl::``vbtable'{for ``CSFUnified::UnifiedExceptionImpl'}` | 590 | Exported Function
-`const CSFUnified::CapabilitiesExceptionImpl::``vbtable'{for ``CSFUnified::CapabilitiesException'}` | 589 | Exported Function
-`const CSFUnified::CapabilitiesExceptionImpl::``vftable'{for ``CSFUnified::CapabilitiesException'}` | 539 | Exported Function
-`const CSFUnified::DispatcherAccessExceptionImpl::``vbtable'{for ``CSFUnified::DispatcherAccessException'}` | 591 | Exported Function
-`const CSFUnified::DispatcherAccessException::``vftable'{for ``CSFUnified::UnifiedException'}` | 541 | Exported Function
-`const CSFUnified::DispatcherAccessException::``vftable'{for ``CSFUnified::DispatcherAccessException'}` | 540 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > > &&)` | 56 | Exported Function
-`public: __thiscall CSFUnified::ServiceFactoryImpl::ServiceFactoryImpl(class CSFUnified::ServiceFactoryImpl &&)` | 205 | Exported Function
-`public: __thiscall CSFUnified::ServiceFactory::ServiceFactory(void)` | 204 | Exported Function
-`public: __thiscall CSFUnified::ServiceFactory::ServiceFactory(class CSFUnified::ServiceFactory const &)` | 203 | Exported Function
-`public: __thiscall CSFUnified::ServiceFactoryImpl::ServiceFactoryImpl(class CSFUnified::ServiceFactoryImpl const &)` | 206 | Exported Function
-`public: __thiscall CSFUnified::ServicesDispatcher::~ServicesDispatcher(void)` | 328 | Exported Function
-`public: __thiscall CSFUnified::ServicesDispatcher::ServicesDispatcher(void)` | 208 | Exported Function
-`public: __thiscall CSFUnified::ServiceFactoryImpl::ServiceFactoryImpl(void)` | 207 | Exported Function
-`public: __thiscall CSFUnified::ServiceEventNotifiers::ServiceEventNotifiers(class CSFUnified::ServiceEventNotifiers const &)` | 198 | Exported Function
-`public: __thiscall CSFUnified::ServiceEventNotifiers::ServiceEventNotifiers(class CSFUnified::ServiceEventNotifiers &&)` | 197 | Exported Function
-`public: __thiscall CSFUnified::ServiceEvent::ServiceEvent(void)` | 196 | Exported Function
-`public: __thiscall CSFUnified::ServiceEventNotifiers::ServiceEventNotifiers(void)` | 199 | Exported Function
-`public: __thiscall CSFUnified::ServiceEventObserver::ServiceEventObserver(void)` | 202 | Exported Function
-`public: __thiscall CSFUnified::ServiceEventObserver::ServiceEventObserver(class CSFUnified::ServiceEventObserver const &)` | 201 | Exported Function
-`public: __thiscall CSFUnified::ServiceEventObserver::ServiceEventObserver(class CSFUnified::ServiceEventObserver &&)` | 200 | Exported Function
-`public: __thiscall CSFUnified::ServicesDispatcherCallback::ServicesDispatcherCallback(class CSFUnified::ServicesDispatcherCallback const &)` | 209 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<bool>::TypedReturnValue<bool>(class CSFUnified::TypedReturnValue<bool> const &)` | 107 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<bool>::TypedReturnValue<bool>(class CSFUnified::TypedReturnValue<bool> &&)` | 106 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<__int64>::TypedReturnValue<__int64>(class CSFUnified::TypedReturnValue<__int64> const &)` | 105 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<char>::TypedReturnValue<char>(class CSFUnified::TypedReturnValue<char> &&)` | 88 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::TypedReturnValue<class csf::SecureString>(class CSFUnified::TypedReturnValue<class csf::SecureString> const &)` | 103 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<class csf::SecureString>::TypedReturnValue<class csf::SecureString>(class CSFUnified::TypedReturnValue<class csf::SecureString> &&)` | 102 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<char>::TypedReturnValue<char>(class CSFUnified::TypedReturnValue<char> const &)` | 89 | Exported Function
-`public: __thiscall CSFUnified::Subscription::Subscription(class CSFUnified::Subscription const &)` | 212 | Exported Function
-`public: __thiscall CSFUnified::Subscription::Subscription(class CSFUnified::Subscription &&)` | 211 | Exported Function
-`public: __thiscall CSFUnified::ServicesDispatcherCallback::ServicesDispatcherCallback(void)` | 210 | Exported Function
-`public: __thiscall CSFUnified::Subscription::Subscription(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 213 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<__int64>::TypedReturnValue<__int64>(class CSFUnified::TypedReturnValue<__int64> &&)` | 104 | Exported Function
-`public: __thiscall CSFUnified::Subscription::~Subscription(void)` | 330 | Exported Function
-`public: __thiscall CSFUnified::Subscription::Subscription(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>)>,class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int)>,class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<class std::shared_ptr<class CSFUnified::ReturnValue> __cdecl(void)>,bool,int,int)>,class std::function<void __cdecl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class` | 214 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierConnection::PropertyNotifierConnection(class CSFUnified::PropertyNotifierConnection const &)` | 180 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifier::PropertyNotifier(void)` | 179 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifier::PropertyNotifier(class CSFUnified::PropertyNotifier const &)` | 178 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierConnection::PropertyNotifierConnection(void)` | 181 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>(class std::function<void __cdecl(void)>,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> >,class std::allocator<class std::shared_ptr<class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> > > > >)` | 85 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>(class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> const &)` | 84 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl>(class CSFUnified::PropertyNotifierConnectionImpl<class std::function<void __cdecl(void)>,class CSFUnified::PropertyNotifierImpl> &&)` | 83 | Exported Function
-`public: __thiscall CSFUnified::Properties::Properties(class CSFUnified::Properties const &)` | 174 | Exported Function
-`public: __thiscall CSFUnified::Properties::Properties(class CSFUnified::Properties &&)` | 173 | Exported Function
-`public: __thiscall CSFUnified::Processing::TaskQueue::~TaskQueue(void)` | 332 | Exported Function
-`public: __thiscall CSFUnified::Properties::Properties(void)` | 175 | Exported Function
-`public: __thiscall CSFUnified::Property::Property(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool const &,bool const &)` | 177 | Exported Function
-`public: __thiscall CSFUnified::Property::Property(class CSFUnified::Property const &)` | 176 | Exported Function
-`public: __thiscall CSFUnified::Properties::~Properties(void)` | 314 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierImpl::PropertyNotifierImpl(class CSFUnified::PropertyNotifierImpl &&)` | 182 | Exported Function
-`public: __thiscall CSFUnified::Request::~Request(void)` | 321 | Exported Function
-`public: __thiscall CSFUnified::Request::Request(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 191 | Exported Function
-`public: __thiscall CSFUnified::Request::Request(class CSFUnified::Request const &)` | 190 | Exported Function
-`public: __thiscall CSFUnified::ReturnValue::ReturnValue(class CSFUnified::ReturnValue const &)` | 192 | Exported Function
-`public: __thiscall CSFUnified::ServiceEvent::ServiceEvent(class CSFUnified::ServiceEvent const &)` | 195 | Exported Function
-`public: __thiscall CSFUnified::ServiceEvent::ServiceEvent(class CSFUnified::ServiceEvent &&)` | 194 | Exported Function
-`public: __thiscall CSFUnified::ReturnValue::ReturnValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 193 | Exported Function
-`public: __thiscall CSFUnified::ReflectionCallback::ReflectionCallback(class CSFUnified::ReflectionCallback const &)` | 185 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierImpl::PropertyNotifierImpl(void)` | 184 | Exported Function
-`public: __thiscall CSFUnified::PropertyNotifierImpl::PropertyNotifierImpl(class CSFUnified::PropertyNotifierImpl const &)` | 183 | Exported Function
-`public: __thiscall CSFUnified::ReflectionCallback::ReflectionCallback(void)` | 186 | Exported Function
-`public: __thiscall CSFUnified::Request::Request(class CSFUnified::Request &&)` | 189 | Exported Function
-`public: __thiscall CSFUnified::Reflector::Reflector(void)` | 188 | Exported Function
-`public: __thiscall CSFUnified::Reflector::Reflector(class CSFUnified::Reflector const &)` | 187 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &&)` | 98 | Exported Function
-`public: __thiscall CSFUnified::UnifiedService::UnifiedService(class CSFUnified::UnifiedService &&)` | 241 | Exported Function
-`public: __thiscall CSFUnified::UnifiedFactory::UnifiedFactory(void)` | 240 | Exported Function
-`public: __thiscall CSFUnified::UnifiedFactory::UnifiedFactory(class CSFUnified::UnifiedFactory const &)` | 239 | Exported Function
-`public: __thiscall CSFUnified::UnifiedService::UnifiedService(class CSFUnified::UnifiedService const &)` | 242 | Exported Function
-`public: __thiscall CSFUnified::UnifiedServiceNotifiers::UnifiedServiceNotifiers(class CSFUnified::UnifiedServiceNotifiers const &)` | 245 | Exported Function
-`public: __thiscall CSFUnified::UnifiedServiceNotifiers::UnifiedServiceNotifiers(class CSFUnified::UnifiedServiceNotifiers &&)` | 244 | Exported Function
-`public: __thiscall CSFUnified::UnifiedService::UnifiedService(void)` | 243 | Exported Function
-`public: __thiscall CSFUnified::UnifiedExceptionImpl::UnifiedExceptionImpl(class CSFUnified::UnifiedExceptionImpl &&)` | 235 | Exported Function
-`public: __thiscall CSFUnified::UnifiedException::UnifiedException(void)` | 234 | Exported Function
-`public: __thiscall CSFUnified::UnifiedException::UnifiedException(class CSFUnified::UnifiedException const &)` | 233 | Exported Function
-`public: __thiscall CSFUnified::UnifiedExceptionImpl::UnifiedExceptionImpl(class CSFUnified::UnifiedExceptionImpl const &)` | 236 | Exported Function
-`public: __thiscall CSFUnified::UnifiedExceptionImpl::~UnifiedExceptionImpl(void)` | 339 | Exported Function
-`public: __thiscall CSFUnified::UnifiedExceptionImpl::UnifiedExceptionImpl(void)` | 238 | Exported Function
-`public: __thiscall CSFUnified::UnifiedExceptionImpl::UnifiedExceptionImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 237 | Exported Function
-`public: __thiscall CSFUnified::UnifiedServiceNotifiers::UnifiedServiceNotifiers(void)` | 246 | Exported Function
-`public: bool __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::isSuccess(void)` | 825 | Exported Function
-`public: bool __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::isSuccess(void)` | 824 | Exported Function
-`public: __thiscall CSFUnified::VoidReturnValue::VoidReturnValue(void)` | 254 | Exported Function
-`public: bool __thiscall CSFUnified::Property::isReadOnly(void)` | 823 | Exported Function
-`public: bool __thiscall CSFUnified::TypedReturnValue<bool>::getReturnValue(void)` | 791 | Exported Function
-`public: bool __thiscall CSFUnified::ServicesDispatcher::checkForUpdateAccess(void)` | 648 | Exported Function
-`public: bool __thiscall CSFUnified::PropertyNotifierImpl::isEmpty(void)` | 817 | Exported Function
-`public: __thiscall CSFUnified::UnifiedServiceObserver::UnifiedServiceObserver(void)` | 249 | Exported Function
-`public: __thiscall CSFUnified::UnifiedServiceObserver::UnifiedServiceObserver(class CSFUnified::UnifiedServiceObserver const &)` | 248 | Exported Function
-`public: __thiscall CSFUnified::UnifiedServiceObserver::UnifiedServiceObserver(class CSFUnified::UnifiedServiceObserver &&)` | 247 | Exported Function
-`public: __thiscall CSFUnified::UntypedObjectReturnValue::UntypedObjectReturnValue(class CSFUnified::UntypedObjectReturnValue const &)` | 250 | Exported Function
-`public: __thiscall CSFUnified::VoidReturnValue::VoidReturnValue(class CSFUnified::VoidReturnValue const &)` | 253 | Exported Function
-`public: __thiscall CSFUnified::VoidReturnValue::VoidReturnValue(class CSFUnified::VoidReturnValue &&)` | 252 | Exported Function
-`public: __thiscall CSFUnified::UntypedObjectReturnValue::UntypedObjectReturnValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 251 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<unsigned int>::TypedReturnValue<unsigned int>(class CSFUnified::TypedReturnValue<unsigned int> &&)` | 92 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<long>::TypedReturnValue<long>(class CSFUnified::TypedReturnValue<long> const &)` | 95 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<long>::TypedReturnValue<long>(class CSFUnified::TypedReturnValue<long> &&)` | 94 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<unsigned int>::TypedReturnValue<unsigned int>(class CSFUnified::TypedReturnValue<unsigned int> const &)` | 93 | Exported Function
-`public: __thiscall CSFUnified::TypeMap<class CSFUnified::UnifiedService>::TypeMap<class CSFUnified::UnifiedService>(void)` | 87 | Exported Function
-`public: __thiscall CSFUnified::TypeMap<class CSFUnified::FeatureSet>::~TypeMap<class CSFUnified::FeatureSet>(void)` | 279 | Exported Function
-`public: __thiscall CSFUnified::TypeMap<class CSFUnified::FeatureSet>::TypeMap<class CSFUnified::FeatureSet>(void)` | 86 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > const &)` | 101 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class CSFUnified::TypedReturnValue<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > &&)` | 100 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class CSFUnified::TypedReturnValue<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > const &)` | 99 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<float>::TypedReturnValue<float>(class CSFUnified::TypedReturnValue<float> &&)` | 96 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<int>::TypedReturnValue<int>(class CSFUnified::TypedReturnValue<int> const &)` | 91 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<int>::TypedReturnValue<int>(class CSFUnified::TypedReturnValue<int> &&)` | 90 | Exported Function
-`public: __thiscall CSFUnified::TypedReturnValue<float>::TypedReturnValue<float>(class CSFUnified::TypedReturnValue<float> const &)` | 97 | Exported Function
-`public: __thiscall CSFUnified::TypeMap<class CSFUnified::UnifiedService>::~TypeMap<class CSFUnified::UnifiedService>(void)` | 280 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectObserver::UnifiedBusinessObjectObserver(class CSFUnified::UnifiedBusinessObjectObserver const &)` | 228 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::UnifiedBusinessObjectNotifiersImpl(void)` | 227 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::UnifiedBusinessObjectNotifiersImpl(class CSFUnified::UnifiedBusinessObjectNotifiersImpl const &)` | 226 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectObserver::UnifiedBusinessObjectObserver(void)` | 229 | Exported Function
-`public: __thiscall CSFUnified::UnifiedException::UnifiedException(class CSFUnified::UnifiedException &&)` | 232 | Exported Function
-`public: __thiscall CSFUnified::UnifiedCallback::UnifiedCallback(void)` | 231 | Exported Function
-`public: __thiscall CSFUnified::UnifiedCallback::UnifiedCallback(class CSFUnified::UnifiedCallback const &)` | 230 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectImpl::UnifiedBusinessObjectImpl(class std::shared_ptr<class CSFUnified::UnifiedFactory>,bool,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 222 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObject::UnifiedBusinessObject(void)` | 220 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObject::UnifiedBusinessObject(class CSFUnified::UnifiedBusinessObject const &)` | 219 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectImpl::UnifiedBusinessObjectImpl(class std::shared_ptr<class CSFUnified::UnifiedFactory>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 221 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectNotifiersImpl::UnifiedBusinessObjectNotifiersImpl(class CSFUnified::UnifiedBusinessObjectNotifiersImpl &&)` | 225 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectNotifiers::UnifiedBusinessObjectNotifiers(void)` | 224 | Exported Function
-`public: __thiscall CSFUnified::UnifiedBusinessObjectNotifiers::UnifiedBusinessObjectNotifiers(class CSFUnified::UnifiedBusinessObjectNotifiers const &)` | 223 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<unsigned int>::ActualParameter<unsigned int>(class CSFUnified::ActualParameter<unsigned int> &&)` | 17 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<long>::ActualParameter<long>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long)` | 22 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<long>::ActualParameter<long>(class CSFUnified::ActualParameter<long> const &)` | 21 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<unsigned int>::ActualParameter<unsigned int>(class CSFUnified::ActualParameter<unsigned int> const &)` | 18 | Exported Function
-`public: __thiscall CSFUnified::Authenticator::Authenticator(void)` | 124 | Exported Function
-`public: __thiscall CSFUnified::Authenticator::Authenticator(class CSFUnified::Authenticator const &)` | 123 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<unsigned int>::ActualParameter<unsigned int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)` | 19 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<float>::ActualParameter<float>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float)` | 25 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<float>::ActualParameter<float>(class CSFUnified::ActualParameter<float> const &)` | 24 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<float>::ActualParameter<float>(class CSFUnified::ActualParameter<float> &&)` | 23 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<int>::ActualParameter<int>(class CSFUnified::ActualParameter<int> &&)` | 14 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<long>::ActualParameter<long>(class CSFUnified::ActualParameter<long> &&)` | 20 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<int>::ActualParameter<int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 16 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<int>::ActualParameter<int>(class CSFUnified::ActualParameter<int> const &)` | 15 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesException::CapabilitiesException(class CSFUnified::CapabilitiesException &&)` | 125 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessExceptionImpl::DispatcherAccessExceptionImpl(class CSFUnified::DispatcherAccessExceptionImpl &&)` | 134 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessException::DispatcherAccessException(void)` | 133 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessException::DispatcherAccessException(class CSFUnified::DispatcherAccessException const &)` | 132 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessExceptionImpl::DispatcherAccessExceptionImpl(class CSFUnified::DispatcherAccessExceptionImpl const &)` | 135 | Exported Function
-`public: __thiscall CSFUnified::FeatureSet::FeatureSet(class CSFUnified::FeatureSet const &)` | 137 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessExceptionImpl::~DispatcherAccessExceptionImpl(void)` | 300 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessExceptionImpl::DispatcherAccessExceptionImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 136 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesExceptionImpl::CapabilitiesExceptionImpl(class CSFUnified::CapabilitiesExceptionImpl &&)` | 128 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesException::CapabilitiesException(void)` | 127 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesException::CapabilitiesException(class CSFUnified::CapabilitiesException const &)` | 126 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesExceptionImpl::CapabilitiesExceptionImpl(class CSFUnified::CapabilitiesExceptionImpl const &)` | 129 | Exported Function
-`public: __thiscall CSFUnified::DispatcherAccessException::DispatcherAccessException(class CSFUnified::DispatcherAccessException &&)` | 131 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesExceptionImpl::~CapabilitiesExceptionImpl(void)` | 299 | Exported Function
-`public: __thiscall CSFUnified::CapabilitiesExceptionImpl::CapabilitiesExceptionImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 130 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > > const &)` | 54 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > > &&)` | 53 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<char,class std::allocator<char> > >)` | 34 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >::ActualParameter<class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<class csf::SecureString,class std::allocator<class csf::SecureString> > >)` | 55 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > >)` | 49 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > const &)` | 48 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > > &&)` | 47 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > > &&)` | 59 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > >)` | 58 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<__int64,class std::allocator<__int64> > > > const &)` | 57 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > > const &)` | 60 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > > const &)` | 33 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<char,class std::allocator<char> > > > &&)` | 32 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >::ActualParameter<class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<bool,class std::allocator<bool> > >)` | 61 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > > &&)` | 50 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > > const &)` | 42 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > > &&)` | 41 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<int,class std::allocator<int> > >)` | 37 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >::ActualParameter<class std::shared_ptr<class std::vector<long,class std::allocator<long> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<long,class std::allocator<long> > >)` | 43 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > >)` | 40 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > > const &)` | 39 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<unsigned int,class std::allocator<unsigned int> > > > &&)` | 38 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > > &&)` | 44 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::alloca` | 52 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > > > const &)` | 51 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > > const &)` | 45 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > > const &)` | 36 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > >(class CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<int,class std::allocator<int> > > > &&)` | 35 | Exported Function
-`public: __thiscall CSFUnified::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >::ActualParameter<class std::shared_ptr<class std::vector<float,class std::allocator<float> > > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::shared_ptr<class std::vector<float,class std::allocator<float> > >)` | 46 | Exported Function
-`public: __thiscall CSFUnified::FeatureSet::FeatureSet(void)` | 138 | Exported Function
-`public: __thiscall CSFUnified::Methods::Methods(class CSFUnified::Methods &&)` | 160 | Exported Function
-`public: __thiscall CSFUnified::Method::Method(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 159 | Exported Function
-`public: __thiscall CSFUnified::Method::Method(class CSFUnified::Method const &)` | 158 | Exported Function
-`public: __thiscall CSFUnified::Methods::Methods(class CSFUnified::Methods const &)` | 161 | Exported Function
-`public: __thiscall CSFUnified::MutableListProperty::MutableListProperty(class CSFUnified::MutableListProperty &&)` | 163 | Exported Function
-`public: __thiscall CSFUnified::Methods::~Methods(void)` | 309 | Exported Function
-`public: __thiscall CSFUnified::Methods::Methods(void)` | 162 | Exported Function
-`public: __thiscall CSFUnified::ListProperty::ListProperty(class CSFUnified::ListProperty const &)` | 153 | Exported Function
-`public: __thiscall CSFUnified::ListProperty::ListProperty(class CSFUnified::ListProperty &&)` | 152 | Exported Function
-`public: __thiscall CSFUnified::LibraryRecord::~LibraryRecord(void)` | 305 | Exported Function
-`public: __thiscall CSFUnified::ListProperty::ListProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool const &,bool const &)` | 154 | Exported Function
-`public: __thiscall CSFUnified::ListReturnValue::ListReturnValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 157 | Exported Function
-`public: __thiscall CSFUnified::ListReturnValue::ListReturnValue(class CSFUnified::ListReturnValue const &)` | 156 | Exported Function
-`public: __thiscall CSFUnified::ListReturnValue::ListReturnValue(class CSFUnified::ListReturnValue &&)` | 155 | Exported Function
-`public: __thiscall CSFUnified::MutableListProperty::MutableListProperty(class CSFUnified::MutableListProperty const &)` | 164 | Exported Function
-`public: __thiscall CSFUnified::Processing::TaskDispatcher::TaskDispatcher(class CSFUnified::Processing::TaskDispatcher &&)` | 215 | Exported Function
-`public: __thiscall CSFUnified::ParametersCollection::~ParametersCollection(void)` | 313 | Exported Function
-`public: __thiscall CSFUnified::ParametersCollection::ParametersCollection(void)` | 172 | Exported Function
-`public: __thiscall CSFUnified::Processing::TaskDispatcher::TaskDispatcher(class CSFUnified::Processing::TaskDispatcher const &)` | 216 | Exported Function
-`public: __thiscall CSFUnified::Processing::TaskQueue::TaskQueue(void)` | 218 | Exported Function
-`public: __thiscall CSFUnified::Processing::TaskDispatcher::~TaskDispatcher(void)` | 331 | Exported Function
-`public: __thiscall CSFUnified::Processing::TaskDispatcher::TaskDispatcher(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,long)` | 217 | Exported Function
-`public: __thiscall CSFUnified::NonListProperty::NonListProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool const &,bool const &,class std::shared_ptr<class CSFUnified::PropertyNotifier>)` | 167 | Exported Function
-`public: __thiscall CSFUnified::NonListProperty::NonListProperty(class CSFUnified::NonListProperty const &)` | 166 | Exported Function
-`public: __thiscall CSFUnified::MutableListProperty::MutableListProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool const &,bool const &)` | 165 | Exported Function
-`public: __thiscall CSFUnified::NonListReturnValue::NonListReturnValue(class CSFUnified::NonListReturnValue const &)` | 168 | Exported Function
-`public: __thiscall CSFUnified::ParametersCollection::ParametersCollection(class CSFUnified::ParametersCollection const &)` | 171 | Exported Function
-`public: __thiscall CSFUnified::ParametersCollection::ParametersCollection(class CSFUnified::ParametersCollection &&)` | 170 | Exported Function
-`public: __thiscall CSFUnified::NonListReturnValue::NonListReturnValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 169 | Exported Function
-`public: __thiscall CSFUnified::Interpreter::Interpreter(class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::Reflector>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::Reflector> > > > >)` | 148 | Exported Function
-`public: __thiscall CSFUnified::Interpreter::Interpreter(class CSFUnified::Interpreter const &)` | 147 | Exported Function
-`public: __thiscall CSFUnified::Interpreter::Interpreter(class CSFUnified::Interpreter &&)` | 146 | Exported Function
-`public: __thiscall CSFUnified::Interpreter::Interpreter(class std::shared_ptr<class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::UnifiedService>,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::shared_ptr<class CSFUnified::UnifiedService> > > > >)` | 149 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > const &)` | 72 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> > &&)` | 71 | Exported Function
-`public: __thiscall CSFUnified::Interpreter::~Interpreter(void)` | 304 | Exported Function
-`public: __thiscall CSFUnified::FeatureSetAdapter::FeatureSetAdapter(void)` | 141 | Exported Function
-`public: __thiscall CSFUnified::FeatureSetAdapter::FeatureSetAdapter(class CSFUnified::FeatureSetAdapter const &)` | 140 | Exported Function
-`public: __thiscall CSFUnified::FeatureSetAdapter::FeatureSetAdapter(class CSFUnified::FeatureSetAdapter &&)` | 139 | Exported Function
-`public: __thiscall CSFUnified::FormalParameter::FormalParameter(class CSFUnified::FormalParameter const &)` | 142 | Exported Function
-`public: __thiscall CSFUnified::IDataPersistor::IDataPersistor(void)` | 145 | Exported Function
-`public: __thiscall CSFUnified::IDataPersistor::IDataPersistor(class CSFUnified::IDataPersistor const &)` | 144 | Exported Function
-`public: __thiscall CSFUnified::FormalParameter::FormalParameter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 143 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >(class std::shared_ptr<class CSFUnified::ReturnValue>)` | 73 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >(class std::weak_ptr<class CSFUnified::PropertyNotifierConnection>)` | 81 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >(class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > const &)` | 80 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >(class CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> > &&)` | 79 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >(class std::weak_ptr<class CSFUnified::PropertyNotifierConnection>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 82 | Exported Function
-`public: __thiscall CSFUnified::LibraryRecord::LibraryRecord(void)` | 151 | Exported Function
-`public: __thiscall CSFUnified::LibraryRecord::LibraryRecord(class CSFUnified::LibraryRecord const &)` | 150 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >::~InterpreterResult<class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> >(void)` | 277 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > &&)` | 75 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::~InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >(void)` | 275 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >::InterpreterResult<class std::shared_ptr<class CSFUnified::ReturnValue> >(class std::shared_ptr<class CSFUnified::ReturnValue>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 74 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >(class CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> > const &)` | 76 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::~InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >(void)` | 276 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 78 | Exported Function
-`public: __thiscall CSFUnified::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >::InterpreterResult<class std::shared_ptr<class CSFUnified::UnifiedBusinessObject> >(class std::shared_ptr<class CSFUnified::UnifiedBusinessObject>)` | 77 | Exported Function
+`allocator` | 846 | Exported Function
+`UnifiedFactory` | 580 | Exported Function
+`UnifiedExceptionImpl` | 579 | Exported Function
+`UnifiedExceptionImpl` | 595 | Exported Function
+`UnifiedBusinessObject` | 582 | Exported Function
+`UnifiedServiceNotifiers` | 583 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 584 | Exported Function
+`UnifiedService` | 581 | Exported Function
+`instance` | 816 | Exported Function
+`ServicesDispatcher` | 122 | Exported Function
+`AccessGuard` | 121 | Exported Function
+`AccessGuard` | 120 | Exported Function
+`AccessGuard` | 297 | Exported Function
+`allocator` | 67 | Exported Function
+`ActualParameter` | 66 | Exported Function
+`ActualParameter` | 65 | Exported Function
+`PropertyNotifierImpl` | 417 | Exported Function
+`PropertyNotifierImpl` | 414 | Exported Function
+`DispatcherAccessExceptionImpl` | 416 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 418 | Exported Function
+`getReturnValue` | 790 | Exported Function
+`EnsureUpdateAccess` | 613 | Exported Function
+`UnifiedFactory` | 419 | Exported Function
+`ActualParameter` | 68 | Exported Function
+`allocator` | 27 | Exported Function
+`allocator` | 26 | Exported Function
+`SecureString` | 64 | Exported Function
+`allocator` | 28 | Exported Function
+`allocator` | 31 | Exported Function
+`allocator` | 30 | Exported Function
+`allocator` | 29 | Exported Function
+`ActualParameter` | 11 | Exported Function
+`allocator` | 70 | Exported Function
+`ActualParameter` | 69 | Exported Function
+`ActualParameter` | 12 | Exported Function
+`SecureString` | 63 | Exported Function
+`SecureString` | 62 | Exported Function
+`allocator` | 13 | Exported Function
+`loadService` | 831 | Exported Function
+`allocator` | 830 | Exported Function
+`loadFeatureSet` | 829 | Exported Function
+`CapabilitiesExceptionImpl` | 110 | Exported Function
+`DispatcherAccessExceptionImpl` | 112 | Exported Function
+`CapabilitiesExceptionImpl` | 292 | Exported Function
+`CapabilitiesExceptionImpl` | 111 | Exported Function
+`Task` | 678 | Exported Function
+`initializeServiceFactory` | 815 | Exported Function
+`allocator` | 793 | Exported Function
+`warnOnDispatcherThreadBusy` | 925 | Exported Function
+`allocator` | 828 | Exported Function
+`loadAuthenticator` | 827 | Exported Function
+`allocator` | 826 | Exported Function
+`DispatcherAccessExceptionImpl` | 113 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 295 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 117 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 116 | Exported Function
+`UnifiedFactory` | 118 | Exported Function
+`CapabilitiesExceptionImpl` | 415 | Exported Function
+`UnifiedFactory` | 296 | Exported Function
+`UnifiedFactory` | 119 | Exported Function
+`PropertyNotifierImpl` | 109 | Exported Function
+`PropertyNotifierImpl` | 108 | Exported Function
+`DispatcherAccessExceptionImpl` | 293 | Exported Function
+`PropertyNotifierImpl` | 291 | Exported Function
+`PropertyNotifierImpl` | 294 | Exported Function
+`PropertyNotifierImpl` | 115 | Exported Function
+`PropertyNotifierImpl` | 114 | Exported Function
+`allocator` | 840 | Exported Function
+`allocator` | 8 | Exported Function
+`allocator` | 835 | Exported Function
+`allocator` | 6 | Exported Function
+`allocator` | 843 | Exported Function
+`allocator` | 7 | Exported Function
+`allocator` | 841 | Exported Function
+`allocator` | 9 | Exported Function
+`char_traits` | 624 | Exported Function
+`allocator` | 853 | Exported Function
+`allocator` | 839 | Exported Function
+`allocator` | 1 | Exported Function
+`allocator` | 834 | Exported Function
+`allocator` | 10 | Exported Function
+`allocator` | 5 | Exported Function
+`ActualParameter` | 504 | Exported Function
+`ActualParameter` | 523 | Exported Function
+`ActualParameter` | 522 | Exported Function
+`SecureString` | 521 | Exported Function
+`allocator` | 519 | Exported Function
+`allocator` | 510 | Exported Function
+`allocator` | 509 | Exported Function
+`allocator` | 837 | Exported Function
+`allocator` | 2 | Exported Function
+`allocator` | 836 | Exported Function
+`allocator` | 4 | Exported Function
+`allocator` | 842 | Exported Function
+`allocator` | 3 | Exported Function
+`allocator` | 838 | Exported Function
+`primitiveReturnTypeAsString` | 855 | Exported Function
+`primitiveReturnTypeAsString` | 864 | Exported Function
+`primitiveReturnTypeAsString` | 863 | Exported Function
+`SecureString` | 862 | Exported Function
+`Image` | 854 | Exported Function
+`allocator` | 861 | Exported Function
+`allocator` | 860 | Exported Function
+`allocator` | 845 | Exported Function
+`allocator` | 844 | Exported Function
+`allocator` | 849 | Exported Function
+`allocator` | 850 | Exported Function
+`UnifiedBusinessObject` | 833 | Exported Function
+`ReturnValue` | 630 | Exported Function
+`allocator` | 851 | Exported Function
+`primitiveReturnTypeAsString` | 859 | Exported Function
+`primitiveReturnTypeLongLongAsString` | 871 | Exported Function
+`primitiveReturnTypeLongAsString` | 870 | Exported Function
+`primitiveReturnTypeIntAsString` | 869 | Exported Function
+`SecureString` | 872 | Exported Function
+`allocator` | 875 | Exported Function
+`primitiveReturnTypeUnsignedIntAsString` | 874 | Exported Function
+`allocator` | 873 | Exported Function
+`primitiveReturnTypeAsString` | 857 | Exported Function
+`primitiveReturnTypeAsString` | 858 | Exported Function
+`primitiveReturnTypeAsString` | 856 | Exported Function
+`primitiveReturnTypeBoolAsString` | 865 | Exported Function
+`Image` | 868 | Exported Function
+`primitiveReturnTypeFloatAsString` | 867 | Exported Function
+`primitiveReturnTypeCharAsString` | 866 | Exported Function
+`allocator` | 520 | Exported Function
+`PropertyNotifierImpl` | 524 | Exported Function
+`PropertyNotifierConnection` | 556 | Exported Function
+`PropertyNotifier` | 555 | Exported Function
+`PropertyNotifierImpl` | 593 | Exported Function
+`Reflector` | 559 | Exported Function
+`ReflectionCallback` | 558 | Exported Function
+`PropertyNotifierImpl` | 557 | Exported Function
+`Method` | 550 | Exported Function
+`ListReturnValue` | 549 | Exported Function
+`ListProperty` | 548 | Exported Function
+`MutableListProperty` | 551 | Exported Function
+`Property` | 554 | Exported Function
+`NonListReturnValue` | 553 | Exported Function
+`NonListProperty` | 552 | Exported Function
+`ReturnValue` | 560 | Exported Function
+`TypedReturnValue` | 533 | Exported Function
+`ServicesDispatcherCallback` | 569 | Exported Function
+`ServiceFactoryImpl` | 568 | Exported Function
+`TypedReturnValue` | 534 | Exported Function
+`allocator` | 530 | Exported Function
+`SecureString` | 532 | Exported Function
+`TypedReturnValue` | 525 | Exported Function
+`ServiceEventNotifiers` | 563 | Exported Function
+`UnifiedBusinessObject` | 562 | Exported Function
+`ServiceEvent` | 561 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 564 | Exported Function
+`ServiceFactory` | 567 | Exported Function
+`UnifiedBusinessObjectObserver` | 566 | Exported Function
+`ServiceEventObserver` | 565 | Exported Function
+`ActualParameter` | 505 | Exported Function
+`ActualParameter` | 508 | Exported Function
+`allocator` | 513 | Exported Function
+`ActualParameter` | 507 | Exported Function
+`CapabilitiesException` | 536 | Exported Function
+`Authenticator` | 535 | Exported Function
+`ActualParameter` | 506 | Exported Function
+`allocator` | 516 | Exported Function
+`SecureString` | 518 | Exported Function
+`allocator` | 511 | Exported Function
+`allocator` | 517 | Exported Function
+`allocator` | 514 | Exported Function
+`allocator` | 512 | Exported Function
+`allocator` | 515 | Exported Function
+`UnifiedException` | 537 | Exported Function
+`DispatcherAccessException` | 543 | Exported Function
+`DispatcherAccessExceptionImpl` | 542 | Exported Function
+`UnifiedExceptionImpl` | 592 | Exported Function
+`FeatureSet` | 544 | Exported Function
+`IDataPersistor` | 547 | Exported Function
+`FormalParameter` | 546 | Exported Function
+`FeatureSetAdapter` | 545 | Exported Function
+`CapabilitiesExceptionImpl` | 538 | Exported Function
+`UnifiedExceptionImpl` | 590 | Exported Function
+`CapabilitiesException` | 589 | Exported Function
+`CapabilitiesException` | 539 | Exported Function
+`DispatcherAccessException` | 591 | Exported Function
+`UnifiedException` | 541 | Exported Function
+`DispatcherAccessException` | 540 | Exported Function
+`allocator` | 56 | Exported Function
+`ServiceFactoryImpl` | 205 | Exported Function
+`ServiceFactory` | 204 | Exported Function
+`ServiceFactory` | 203 | Exported Function
+`ServiceFactoryImpl` | 206 | Exported Function
+`ServicesDispatcher` | 328 | Exported Function
+`ServicesDispatcher` | 208 | Exported Function
+`ServiceFactoryImpl` | 207 | Exported Function
+`ServiceEventNotifiers` | 198 | Exported Function
+`ServiceEventNotifiers` | 197 | Exported Function
+`ServiceEvent` | 196 | Exported Function
+`ServiceEventNotifiers` | 199 | Exported Function
+`ServiceEventObserver` | 202 | Exported Function
+`ServiceEventObserver` | 201 | Exported Function
+`ServiceEventObserver` | 200 | Exported Function
+`ServicesDispatcherCallback` | 209 | Exported Function
+`TypedReturnValue` | 107 | Exported Function
+`TypedReturnValue` | 106 | Exported Function
+`TypedReturnValue` | 105 | Exported Function
+`TypedReturnValue` | 88 | Exported Function
+`SecureString` | 103 | Exported Function
+`SecureString` | 102 | Exported Function
+`TypedReturnValue` | 89 | Exported Function
+`Subscription` | 212 | Exported Function
+`Subscription` | 211 | Exported Function
+`ServicesDispatcherCallback` | 210 | Exported Function
+`allocator` | 213 | Exported Function
+`TypedReturnValue` | 104 | Exported Function
+`Subscription` | 330 | Exported Function
+`allocator` | 214 | Exported Function
+`PropertyNotifierConnection` | 180 | Exported Function
+`PropertyNotifier` | 179 | Exported Function
+`PropertyNotifier` | 178 | Exported Function
+`PropertyNotifierConnection` | 181 | Exported Function
+`PropertyNotifierImpl` | 85 | Exported Function
+`PropertyNotifierImpl` | 84 | Exported Function
+`PropertyNotifierImpl` | 83 | Exported Function
+`Properties` | 174 | Exported Function
+`Properties` | 173 | Exported Function
+`TaskQueue` | 332 | Exported Function
+`Properties` | 175 | Exported Function
+`allocator` | 177 | Exported Function
+`Property` | 176 | Exported Function
+`Properties` | 314 | Exported Function
+`PropertyNotifierImpl` | 182 | Exported Function
+`Request` | 321 | Exported Function
+`allocator` | 191 | Exported Function
+`Request` | 190 | Exported Function
+`ReturnValue` | 192 | Exported Function
+`ServiceEvent` | 195 | Exported Function
+`ServiceEvent` | 194 | Exported Function
+`allocator` | 193 | Exported Function
+`ReflectionCallback` | 185 | Exported Function
+`PropertyNotifierImpl` | 184 | Exported Function
+`PropertyNotifierImpl` | 183 | Exported Function
+`ReflectionCallback` | 186 | Exported Function
+`Request` | 189 | Exported Function
+`Reflector` | 188 | Exported Function
+`Reflector` | 187 | Exported Function
+`allocator` | 98 | Exported Function
+`UnifiedService` | 241 | Exported Function
+`UnifiedFactory` | 240 | Exported Function
+`UnifiedFactory` | 239 | Exported Function
+`UnifiedService` | 242 | Exported Function
+`UnifiedServiceNotifiers` | 245 | Exported Function
+`UnifiedServiceNotifiers` | 244 | Exported Function
+`UnifiedService` | 243 | Exported Function
+`UnifiedExceptionImpl` | 235 | Exported Function
+`UnifiedException` | 234 | Exported Function
+`UnifiedException` | 233 | Exported Function
+`UnifiedExceptionImpl` | 236 | Exported Function
+`UnifiedExceptionImpl` | 339 | Exported Function
+`UnifiedExceptionImpl` | 238 | Exported Function
+`allocator` | 237 | Exported Function
+`UnifiedServiceNotifiers` | 246 | Exported Function
+`isSuccess` | 825 | Exported Function
+`isSuccess` | 824 | Exported Function
+`VoidReturnValue` | 254 | Exported Function
+`isReadOnly` | 823 | Exported Function
+`getReturnValue` | 791 | Exported Function
+`checkForUpdateAccess` | 648 | Exported Function
+`isEmpty` | 817 | Exported Function
+`UnifiedServiceObserver` | 249 | Exported Function
+`UnifiedServiceObserver` | 248 | Exported Function
+`UnifiedServiceObserver` | 247 | Exported Function
+`UntypedObjectReturnValue` | 250 | Exported Function
+`VoidReturnValue` | 253 | Exported Function
+`VoidReturnValue` | 252 | Exported Function
+`allocator` | 251 | Exported Function
+`TypedReturnValue` | 92 | Exported Function
+`TypedReturnValue` | 95 | Exported Function
+`TypedReturnValue` | 94 | Exported Function
+`TypedReturnValue` | 93 | Exported Function
+`UnifiedService` | 87 | Exported Function
+`FeatureSet` | 279 | Exported Function
+`FeatureSet` | 86 | Exported Function
+`allocator` | 101 | Exported Function
+`allocator` | 100 | Exported Function
+`allocator` | 99 | Exported Function
+`TypedReturnValue` | 96 | Exported Function
+`TypedReturnValue` | 91 | Exported Function
+`TypedReturnValue` | 90 | Exported Function
+`TypedReturnValue` | 97 | Exported Function
+`UnifiedService` | 280 | Exported Function
+`UnifiedBusinessObjectObserver` | 228 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 227 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 226 | Exported Function
+`UnifiedBusinessObjectObserver` | 229 | Exported Function
+`UnifiedException` | 232 | Exported Function
+`UnifiedCallback` | 231 | Exported Function
+`UnifiedCallback` | 230 | Exported Function
+`allocator` | 222 | Exported Function
+`UnifiedBusinessObject` | 220 | Exported Function
+`UnifiedBusinessObject` | 219 | Exported Function
+`allocator` | 221 | Exported Function
+`UnifiedBusinessObjectNotifiersImpl` | 225 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 224 | Exported Function
+`UnifiedBusinessObjectNotifiers` | 223 | Exported Function
+`ActualParameter` | 17 | Exported Function
+`allocator` | 22 | Exported Function
+`ActualParameter` | 21 | Exported Function
+`ActualParameter` | 18 | Exported Function
+`Authenticator` | 124 | Exported Function
+`Authenticator` | 123 | Exported Function
+`allocator` | 19 | Exported Function
+`allocator` | 25 | Exported Function
+`ActualParameter` | 24 | Exported Function
+`ActualParameter` | 23 | Exported Function
+`ActualParameter` | 14 | Exported Function
+`ActualParameter` | 20 | Exported Function
+`allocator` | 16 | Exported Function
+`ActualParameter` | 15 | Exported Function
+`CapabilitiesException` | 125 | Exported Function
+`DispatcherAccessExceptionImpl` | 134 | Exported Function
+`DispatcherAccessException` | 133 | Exported Function
+`DispatcherAccessException` | 132 | Exported Function
+`DispatcherAccessExceptionImpl` | 135 | Exported Function
+`FeatureSet` | 137 | Exported Function
+`DispatcherAccessExceptionImpl` | 300 | Exported Function
+`allocator` | 136 | Exported Function
+`CapabilitiesExceptionImpl` | 128 | Exported Function
+`CapabilitiesException` | 127 | Exported Function
+`CapabilitiesException` | 126 | Exported Function
+`CapabilitiesExceptionImpl` | 129 | Exported Function
+`DispatcherAccessException` | 131 | Exported Function
+`CapabilitiesExceptionImpl` | 299 | Exported Function
+`allocator` | 130 | Exported Function
+`SecureString` | 54 | Exported Function
+`SecureString` | 53 | Exported Function
+`allocator` | 34 | Exported Function
+`SecureString` | 55 | Exported Function
+`allocator` | 49 | Exported Function
+`allocator` | 48 | Exported Function
+`allocator` | 47 | Exported Function
+`allocator` | 59 | Exported Function
+`allocator` | 58 | Exported Function
+`allocator` | 57 | Exported Function
+`allocator` | 60 | Exported Function
+`allocator` | 33 | Exported Function
+`allocator` | 32 | Exported Function
+`allocator` | 61 | Exported Function
+`allocator` | 50 | Exported Function
+`allocator` | 42 | Exported Function
+`allocator` | 41 | Exported Function
+`allocator` | 37 | Exported Function
+`allocator` | 43 | Exported Function
+`allocator` | 40 | Exported Function
+`allocator` | 39 | Exported Function
+`allocator` | 38 | Exported Function
+`allocator` | 44 | Exported Function
+`alloca` | 52 | Exported Function
+`allocator` | 51 | Exported Function
+`allocator` | 45 | Exported Function
+`allocator` | 36 | Exported Function
+`allocator` | 35 | Exported Function
+`allocator` | 46 | Exported Function
+`FeatureSet` | 138 | Exported Function
+`Methods` | 160 | Exported Function
+`allocator` | 159 | Exported Function
+`Method` | 158 | Exported Function
+`Methods` | 161 | Exported Function
+`MutableListProperty` | 163 | Exported Function
+`Methods` | 309 | Exported Function
+`Methods` | 162 | Exported Function
+`ListProperty` | 153 | Exported Function
+`ListProperty` | 152 | Exported Function
+`LibraryRecord` | 305 | Exported Function
+`allocator` | 154 | Exported Function
+`allocator` | 157 | Exported Function
+`ListReturnValue` | 156 | Exported Function
+`ListReturnValue` | 155 | Exported Function
+`MutableListProperty` | 164 | Exported Function
+`TaskDispatcher` | 215 | Exported Function
+`ParametersCollection` | 313 | Exported Function
+`ParametersCollection` | 172 | Exported Function
+`TaskDispatcher` | 216 | Exported Function
+`TaskQueue` | 218 | Exported Function
+`TaskDispatcher` | 331 | Exported Function
+`allocator` | 217 | Exported Function
+`PropertyNotifier` | 167 | Exported Function
+`NonListProperty` | 166 | Exported Function
+`allocator` | 165 | Exported Function
+`NonListReturnValue` | 168 | Exported Function
+`ParametersCollection` | 171 | Exported Function
+`ParametersCollection` | 170 | Exported Function
+`allocator` | 169 | Exported Function
+`Reflector` | 148 | Exported Function
+`Interpreter` | 147 | Exported Function
+`Interpreter` | 146 | Exported Function
+`UnifiedService` | 149 | Exported Function
+`ReturnValue` | 72 | Exported Function
+`ReturnValue` | 71 | Exported Function
+`Interpreter` | 304 | Exported Function
+`FeatureSetAdapter` | 141 | Exported Function
+`FeatureSetAdapter` | 140 | Exported Function
+`FeatureSetAdapter` | 139 | Exported Function
+`FormalParameter` | 142 | Exported Function
+`IDataPersistor` | 145 | Exported Function
+`IDataPersistor` | 144 | Exported Function
+`allocator` | 143 | Exported Function
+`ReturnValue` | 73 | Exported Function
+`PropertyNotifierConnection` | 81 | Exported Function
+`PropertyNotifierConnection` | 80 | Exported Function
+`PropertyNotifierConnection` | 79 | Exported Function
+`allocator` | 82 | Exported Function
+`LibraryRecord` | 151 | Exported Function
+`LibraryRecord` | 150 | Exported Function
+`PropertyNotifierConnection` | 277 | Exported Function
+`UnifiedBusinessObject` | 75 | Exported Function
+`ReturnValue` | 275 | Exported Function
+`allocator` | 74 | Exported Function
+`UnifiedBusinessObject` | 76 | Exported Function
+`UnifiedBusinessObject` | 276 | Exported Function
+`allocator` | 78 | Exported Function
+`UnifiedBusinessObject` | 77 | Exported Function
 
 
 ## Signature

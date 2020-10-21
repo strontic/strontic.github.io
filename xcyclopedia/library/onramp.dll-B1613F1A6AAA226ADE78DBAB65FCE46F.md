@@ -39,7 +39,7 @@ Function Name | Ordinal | Type
 `bool __cdecl IsChromePrimaryBrowser(enum BrowserNameEnumeration const & __ptr64)` | 5 | Exported Function
 `bool __cdecl IsEdgePrimaryBrowser(enum BrowserNameEnumeration const & __ptr64)` | 6 | Exported Function
 `bool __cdecl GetPrimaryBrowserForGivenDays(int,enum BrowserNameEnumeration * __ptr64)` | 4 | Exported Function
-`bool __cdecl GetNetworkPrimaryBrowserForGivenDays(int,class std::__1::vector<struct BrowserDataUsageInfo,class std::__1::allocator<struct BrowserDataUsageInfo> > * __ptr64,enum BrowserNameEnumeration * __ptr64)` | 2 | Exported Function
+`allocator` | 2 | Exported Function
 `bool __cdecl GetPrimaryBrowser(enum BrowserNameEnumeration * __ptr64,enum BrowserNameEnumeration * __ptr64)` | 3 | Exported Function
 `GetEdgeAppId` | 10 | Exported Function
 `GetNetworkPrimaryBrowserForGivenDays` | 11 | Exported Function

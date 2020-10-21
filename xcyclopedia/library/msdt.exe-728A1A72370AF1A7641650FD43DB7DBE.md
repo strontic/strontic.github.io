@@ -22,6 +22,9 @@ SHA256 | `7253695FED91C65571BF59A7C61F1F1C72A081CA6EF687043CB039C7B35CA623`
 SHA384 | `244791C3E7B39E32641A985C7D75F0DBD2529FFBB70EF1ADA95BC5855F9AEE5E3DF10E7622BE99D73BD699B5503A3388`
 SHA512 | `DC8155755DA8BD58FD1EAA3C0CBC8416659D1B98B6018FA71C35182036DF8BF2FA1BF77215C1A64F1DDD8B1367ABE7B1F9D1390FA7C7FA6C4F3134859CC6B52C`
 SSDEEP | `24576:6ZE6Yj7JKD6XH4qvIReK1odddGdBnyE0k26kVZnBm:9aqNK7utRB`
+IMP | `321EDF3F2984E7A7F62B38C0675AEA7A`
+PESHA1 | `BE6778D264FE5FF87A374401173E0698EB85743A`
+PE256 | `1392E8A05F5535798A4418899E6E1CCF04CFB353AA3146B4A8CA2E73BA3078DF`
 
 ## Runtime Data
 
@@ -32,19 +35,22 @@ An error occurred
 
 Path | Type
 -- | --
-(---)   C:\Users\ADMINI~1\AppData\Local\Temp\2\msdtadmin\_6400B5E3-9914-4630-A400-C87E9D20F5DF_\inuse | File
+(---)   C:\Users\ADMINI~1\AppData\Local\Temp\2\msdtadmin\_696BBE53-1179-4AE5-910E-DF6CCFEE257F_\inuse | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\msdt.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -53,6 +59,7 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\ATL.DLL |
+C:\Windows\SYSTEM32\atlthunk.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\Cabinet.dll |
 C:\Windows\System32\cfgmgr32.dll |
@@ -62,6 +69,7 @@ C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\cryptsp.dll |
 C:\Windows\system32\DUI70.dll |
 C:\Windows\system32\DUser.dll |
+C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.DLL |
@@ -69,11 +77,14 @@ C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
 C:\Windows\system32\msdt.exe |
+C:\Windows\system32\MSFTEDIT.DLL |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
+C:\Windows\system32\OLEACC.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
@@ -92,7 +103,8 @@ C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
 C:\Windows\system32\WINHTTP.dll |
 C:\Windows\System32\WINTRUST.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+C:\Windows\system32\xmllite.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -112,7 +124,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/7253695fed91c65571bf59a7c61f1f1c72a081ca6ef687043cb039c7b35ca623/detection/
 
 ## File Similarity (ssdeep match)
 

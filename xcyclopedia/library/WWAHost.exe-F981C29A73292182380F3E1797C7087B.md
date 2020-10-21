@@ -18,6 +18,9 @@ SHA256 | `406C71C2BC1C4710EC2A034EA1FA7DC0E689E87C04A6B3A980F485B72ED41E08`
 SHA384 | `4BD0A7FC7F6F55149F78AC522485E3176330E4A93A6F6AFD56B4A5E95B7019B41CCBA88D5005F0AC6E5CEECE31AB7344`
 SHA512 | `6440C185A9ACC3129468DF7D2C6E758BFB256ABE892FDD972068F073BEAAC73E51B0DEBAFC9177725B231861054D5206C672B7B52D9D99EB730CD1CB63FD20A8`
 SSDEEP | `12288:hXBvJB88SecfzGmtkBIHBJqm1EDKlNje+sz8g2ZZ2lrYEIMNR/z3LaLpLbLvL4Lk:hXBvJBvSC9BIqmjh1AlrYENKfLujE`
+IMP | `74B31225FEB2200BE95DD13498C7B16B`
+PESHA1 | `9A6F22A7B473BA4E4197DC1DE022032D4F063373`
+PE256 | `C10C5FEE38DB09C55B51BEEEEE10E5A8CD4161EF80E07BAB14367E2F8D6F831E`
 
 ## Runtime Data
 
@@ -25,7 +28,22 @@ SSDEEP | `12288:hXBvJB88SecfzGmtkBIHBJqm1EDKlNje+sz8g2ZZ2lrYEIMNR/z3LaLpLbLvL4Lk
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
 C:\Windows\system32\WWAHost.exe |
 
 
@@ -46,7 +64,12 @@ C:\Windows\system32\WWAHost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/406c71c2bc1c4710ec2a034ea1fa7dc0e689e87c04a6b3a980f485b72ed41e08/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -18,39 +18,15 @@ SHA256 | `5C9CEB1DF468AF22BF96C87ACAEBE58EC2CC936CFC89DCBD18D0684C72C32C78`
 SHA384 | `EB7CDED00A624942E129EC5CB6BC541C3B82C64C3438D099CDA9601A4E8F9A6BC04598857319A6281364B94EBA8A53DB`
 SHA512 | `7C9A115E2D3D0D867FAFCFEC7239D6D28D967C19FC7820BF8E2B07C2B592223345F7338277DA5F65E9B31B757278C36FE515EFE209A802720EE9343E5DFBA164`
 SSDEEP | `12288:NCutTZFac05kb2k0RSdv9xi+su3Xwp+OVGDsocstlUSMOLgK8wyjvOeTMK9hYLxy:N37VYiPdP8wyjvOeTMK9hYLxP1UpzaJc`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\system32\DNSAPI.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\System32\NSI.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\spoolsv.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WS2_32.dll |
-
+IMP | `73C6E22E27C816FF68B618E9C1CEA622`
+PESHA1 | `0664B1E9329271D118334C95D283FC4C4DB0FBD2`
+PE256 | `2A86C8EE25215716B6B72068E10A1E2598544B7541D31B0222FA93891ABE49BD`
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -63,7 +39,12 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/5c9ceb1df468af22bf96c87acaebe58ec2cc936cfc89dcbd18d0684c72c32c78/detection/
 
 ## File Similarity (ssdeep match)
 

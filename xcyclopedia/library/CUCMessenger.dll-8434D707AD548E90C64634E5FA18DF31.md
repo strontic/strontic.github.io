@@ -28,7 +28,7 @@ Function Name | Ordinal | Type
 -- | -- | --
 `DllUnregisterServer` | 7 | Exported Function
 `void __cdecl StartCUCMessenger(unsigned int)` | 1 | Exported Function
-`void __cdecl StopCUCMessenger(class std::shared_ptr<class CUCMessengerStoppedCallback>)` | 2 | Exported Function
+`shared_ptr` | 2 | Exported Function
 `DllRegisterServer` | 6 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function

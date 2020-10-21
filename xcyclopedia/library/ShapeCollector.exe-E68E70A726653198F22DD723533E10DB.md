@@ -104,6 +104,11 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/98e70dee6e6f8cb0bc86f7fed3df8786285389c79af1e48ceda07e274298e449/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Common Files\microsoft shared\ink\ShapeCollector.exe](ShapeCollector.exe-12E4B4C222C64376DDE03D9FBF93ED55.md) | 36
 
 
 

@@ -18,6 +18,9 @@ SHA256 | `B0837A65F983BF6C8D06E695AD60977F141066F1C8CB84753E75F96B9FAEE66C`
 SHA384 | `891E1A5FE872EAE25AB90DB88231CD5253315D3B4EED7D5248D867B476356EAD0B455C01BD208F7D0BA589B286BA2BEB`
 SHA512 | `C4AB2BEAFC90BF97A83F662E3CE1D09E41C8E59FC469E7F43019196599BA0B56D56B04E72D5C198AC007ADD65C7518C40F0854536BB5C39E73533A08E3761CEF`
 SSDEEP | `384:0oai19OcbTqUcw/kWm9lSteKotZV5uY4x27v7WjigW7dT:0K9OczX/upVG2btD`
+IMP | `A56882D0079E92DB91AA4874A2D331B8`
+PESHA1 | `206F9C4A690F43964B6F44A05D26341F53FCB60A`
+PE256 | `720688F69AA8EB3B1BEC81775CE2ECC1F39C28B5B357E3CAE622316A0087597B`
 
 ## Runtime Data
 
@@ -54,13 +57,6 @@ TSCON {sessionid | sessionname} [/DEST:sessionname]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -78,7 +74,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/b0837a65f983bf6c8d06e695ad60977f141066f1c8cb84753e75f96b9faee66c/detection/
 
 
 ## Possible Misuse
@@ -106,49 +107,61 @@ Source | Source File | Example | License
 
 Connects to another session on a Remote Desktop Session Host server.
 
-
+> [!IMPORTANT]
+> You must have **Full Control access** permission or **Connect special access** permission to connect to another session.
 
 > [!NOTE]
-> To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
+> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ### Syntax
+
 ```
-tscon {<SessionID> | <SessionName>} [/dest:<SessionName>] [/password:<pw> | /password:*] [/v]
+tscon {<sessionID> | <sessionname>} [/dest:<sessionname>] [/password:<pw> | /password:*] [/v]
 ```
+
 #### Parameters
 
-|Parameter|Description|
-|-------|--------|
-|\<SessionID>|Specifies the ID of the session to which you want to connect. If you use the optional **/dest:**<*SessionName*> parameter, this is the ID of the session to which you want to connect.|
-|\<SessionName>|Specifies the name of the session to which you want to connect.|
-|/dest:\<SessionName>|Specifies the name of the current session. This session will disconnect when you connect to the new session.|
-|/password:\<pw>|Specifies the password of the user who owns the session to which you want to connect. This password is required when the connecting user does not own the session.|
-|/password:*|prompts for the password of the user who owns the session to which you want to connect.|
-|/v|Displays information about the actions being performed.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| `<sessionID>` | Specifies the ID of the session to which you want to connect. If you use the optional `/dest:<sessionname>` parameter, you can also specify the name of the current session. |
+| `<sessionname>` | Specifies the name of the session to which you want to connect. |
+| /dest:`<sessionname>` | Specifies the name of the current session. This session will disconnect when you connect to the new session. You can also use this parameter to connect the session of another user to a different session. |
+| /password:`<pw>` | Specifies the password of the user who owns the session to which you want to connect. This password is required when the connecting user does not own the session. |
+| /password:`*` | Prompts for the password of the user who owns the session to which you want to connect. |
+| /v | Displays information about the actions being performed. |
+| /? | Displays help at the command prompt. |
 
-### Remarks
--   You must have Full Control access permission or Connect special access permission to connect to another session.
--   The **/dest:**<*SessionName*> parameter allows you to connect the session of another user to a different session.
--   if you do not specify a password in the <*Password*> parameter, and the target session belongs to a user other than the current one, **tscon** fails.
--   You cannot connect to the console session.
+##### Remarks
+
+- This command fails if you don't specify a password in the **/password** parameter, and the target session belongs to a user other than the current one.
+
+- You can't connect to the console session.
 
 ### Examples
-- To connect to session 12 on the current rd Session Host server and disconnect the current session, type:
-  ```
-  tscon 12
-  ```
-- To connect to session 23 on the current rd Session Host server, by using the password mypass, and disconnect the current session, type:
-  ```
-  tscon 23 /password:mypass
-  ```
-- To connect the session named TERM03 to the session named TERM05, and then disconnect session TERM05, if it is connected, type:
-  ```
-  tscon TERM03 /v /dest:TERM05
-  ```
-  ## Additional References
-  - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
-  [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
+
+To connect to *Session 12* on the current Remote Desktop Services Session Host server, and to disconnect the current session, type:
+
+```
+tscon 12
+```
+
+To connect to *Session 23* on the current Remote Desktop Services Session Host server using the password *mypass*, and to disconnect the current session, type:
+
+```
+tscon 23 /password:mypass
+```
+
+To connect the session named *TERM03* to the session named *TERM05*, and then to disconnect session *TERM05*, type:
+
+```
+tscon TERM03 /v /dest:TERM05
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
 
 ---
 

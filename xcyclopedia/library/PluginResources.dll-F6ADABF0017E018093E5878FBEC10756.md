@@ -25,26 +25,26 @@ PE256 | `8E4340E04C144E98D4B930FD0B8707A2ADF0418682947A988D029D0D35D2593A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::yellowBrush` | 20 | Exported Function
-`public: static struct HICON__ * __cdecl pluginresources::IconsUtils::GetResourceIcon(struct HINSTANCE__ *,unsigned int,enum pluginresources::IconsUtils::IconSize)` | 8 | Exported Function
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::whiteBrush` | 19 | Exported Function
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::redBorder` | 17 | Exported Function
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::selectedBorder` | 18 | Exported Function
-`public: struct pluginresources::CommonBrushes::DesktopShare & __thiscall pluginresources::CommonBrushes::DesktopShare::operator=(struct pluginresources::CommonBrushes::DesktopShare &&)` | 5 | Exported Function
-`public: struct pluginresources::CommonBrushes::DesktopShare & __thiscall pluginresources::CommonBrushes::DesktopShare::operator=(struct pluginresources::CommonBrushes::DesktopShare const &)` | 6 | Exported Function
-`public: struct pluginresources::CommonBrushes & __thiscall pluginresources::CommonBrushes::operator=(struct pluginresources::CommonBrushes const &)` | 4 | Exported Function
-`public: struct HICON__ * __thiscall pluginresources::HIconContainer::get(void)` | 15 | Exported Function
-`public: struct pluginresources::CommonBrushes & __thiscall pluginresources::CommonBrushes::operator=(struct pluginresources::CommonBrushes &&)` | 3 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pluginresources::LoadHTML(struct HINSTANCE__ *,wchar_t const *)` | 12 | Exported Function
-`public: __thiscall pluginresources::HIconContainer::HIconContainer(struct HICON__ *)` | 1 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pluginresources::LoadHTML(struct HINSTANCE__ *,int)` | 11 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pluginresources::LoadCustomTypeTextData(struct HINSTANCE__ *,int,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 9 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pluginresources::LoadCustomTypeTextData(struct HINSTANCE__ *,wchar_t const *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 10 | Exported Function
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::defaultBorder` | 14 | Exported Function
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::hoverBorder` | 16 | Exported Function
-`public: static struct HBRUSH__ * pluginresources::CommonBrushes::DesktopShare::blackBrush` | 13 | Exported Function
-`public: __thiscall pluginresources::HIconContainer::~HIconContainer(void)` | 2 | Exported Function
-`public: class pluginresources::HIconContainer & __thiscall pluginresources::HIconContainer::operator=(class pluginresources::HIconContainer const &)` | 7 | Exported Function
+`yellowBrush` | 20 | Exported Function
+`IconSize` | 8 | Exported Function
+`whiteBrush` | 19 | Exported Function
+`redBorder` | 17 | Exported Function
+`selectedBorder` | 18 | Exported Function
+`DesktopShare` | 5 | Exported Function
+`DesktopShare` | 6 | Exported Function
+`CommonBrushes` | 4 | Exported Function
+`get` | 15 | Exported Function
+`CommonBrushes` | 3 | Exported Function
+`LoadHTML` | 12 | Exported Function
+`HIconContainer` | 1 | Exported Function
+`LoadHTML` | 11 | Exported Function
+`allocator` | 9 | Exported Function
+`allocator` | 10 | Exported Function
+`defaultBorder` | 14 | Exported Function
+`hoverBorder` | 16 | Exported Function
+`blackBrush` | 13 | Exported Function
+`HIconContainer` | 2 | Exported Function
+`HIconContainer` | 7 | Exported Function
 
 
 ## Signature

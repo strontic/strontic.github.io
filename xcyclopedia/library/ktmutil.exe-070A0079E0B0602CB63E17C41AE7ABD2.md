@@ -18,6 +18,9 @@ SHA256 | `A436C4FF2539B2A65F4787A0AF777075A0E40EF019B78F7276273266F439873C`
 SHA384 | `B036C40E3968A313D06B9670D9522493179FAE1B47511AA996216FD65201FF54ABB00B49D6ED06FF17CB3E67D07F6C49`
 SHA512 | `F60B2519147C7E2EF7882BF97FC760738311370A3D37E6E015C94E0B25D9154F8ED274A8334A70CC77876ED737F7E97EF7F06722536CB1928D9C26307AD18917`
 SSDEEP | `192:kSxPqeQrKDmxryckkF11Hvoz217xi1/6qWkR2m1keWIjWW1T:TxPqUarycPJv62Fx6yhhNeWIjWW1`
+IMP | `E096B10874B4B45A595EAE17714B7AEE`
+PESHA1 | `A2D17052C95A3B76A63EF80A5AFC0F4F6FDB8EE6`
+PE256 | `F39E7D59DF0AB467F739B091D631DFF273709FB4E74EEFFE78EF198B0E97DCA4`
 
 ## Runtime Data
 
@@ -30,6 +33,17 @@ tx     Commands related to transactions
 tm     Commands related to transaction managers
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ktmutil.exe |
+
 
 ## Signature
 
@@ -48,7 +62,12 @@ tm     Commands related to transaction managers
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a436c4ff2539b2a65f4787a0af777075a0e40ef019b78f7276273266f439873c/detection/
 
 
 

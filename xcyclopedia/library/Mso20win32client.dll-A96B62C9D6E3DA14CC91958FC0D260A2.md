@@ -980,7 +980,7 @@ Function Name | Ordinal | Type
 `Ordinal997` | 997 | Exported Function
 `Ordinal996` | 996 | Exported Function
 `Ordinal998` | 998 | Exported Function
-`public: virtual int __cdecl CMsoUrlSimple::FIsUnknownProtocol(void)const __ptr64` | 250 | Exported Function
+`FIsUnknownProtocol` | 250 | Exported Function
 `Ordinal999` | 999 | Exported Function
 `Ordinal995` | 995 | Exported Function
 `Ordinal991` | 991 | Exported Function

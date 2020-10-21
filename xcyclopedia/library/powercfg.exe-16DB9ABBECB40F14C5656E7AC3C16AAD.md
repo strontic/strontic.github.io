@@ -18,6 +18,9 @@ SHA256 | `A6E1A555D365AB5F57DE1B077012B2B7AF65D7D9DD2500E6354CE47448EE7A1A`
 SHA384 | `D71B972A49AAF797DD7562E67DE150D09AD963683A4BF8ACA577B343D16A2236A7E158362763B44F1F9372A375A6B5DC`
 SHA512 | `6CFD3BDE155F330DA9BF65F9835C835BF78B5AA82D7F00D01D07FED90DDC9B45FE9729CFF552DB19F7458B0B1D724236CBFADAC11F3044E5876A6029FA29DEA4`
 SSDEEP | `1536:FIatr7fAY77qstV4fZ/WIhDwltMPjl+3n3CW4GGt3mPI:FnA81aVjwlt25+HCWra3r`
+IMP | `AFD7A8191DAF440071BC428C20F25CC4`
+PESHA1 | `04B5EC5E1B7F977DBB42AA1DC61A666D4B3FCF96`
+PE256 | `24CAF0B8A05D9CA378312396B4EBD4F27180BC2C05136E5226BD1F599AAB55BD`
 
 ## Runtime Data
 
@@ -120,10 +123,16 @@ Invalid Parameters -- try "/?" for help
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\powercfg.exe |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -143,7 +152,12 @@ C:\Windows\system32\powercfg.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/a6e1a555d365ab5f57de1b077012b2b7af65d7d9dd2500e6354ce47448ee7a1a/detection/
 
 
 

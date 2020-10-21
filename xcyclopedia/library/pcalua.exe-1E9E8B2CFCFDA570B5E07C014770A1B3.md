@@ -18,6 +18,9 @@ SHA256 | `36EF04735ADFFF417AE761BF6595BADB54A4CCEB3550ABA7CFD4F7234C90EE7D`
 SHA384 | `C12C54FCDB0869AC6D8C688FB39642D5B339EA8792C07BA0E5DCE204F3D7EC3E73B74A3C2B3468B64E33F01681E2A425`
 SHA512 | `3AB25ABEB9764B33A059BA94754ADB73A14D965F908BD36E69132BC2A47F4261691217B7180E091E945C17EF28E2A5291DD12797C78D2E08BE87F4E7B679DB92`
 SSDEEP | `1536:PAIyANGQ0WV0fvIsL57qmPs00DfJw6Bb9v2:P7yA/enIG57q/VDfJLt4`
+IMP | `9580FB84ACAA83C6D353A5A1F7F5E653`
+PESHA1 | `EFF4F417D448B3CAECB9F68D51110BD7B9B2D000`
+PE256 | `F3508F1F5E72DADA6BCF90038A8E29E4207E1CA5BCFE23713E6225A63B089234`
 
 ## Runtime Data
 
@@ -26,7 +29,6 @@ SSDEEP | `1536:PAIyANGQ0WV0fvIsL57qmPs00DfJw6Bb9v2:P7yA/enIG57q/VDfJLt4`
 Path |
 -- |
 C:\Windows\System32\advapi32.dll |
-C:\Windows\system32\apphelp.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
@@ -39,9 +41,7 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\pcalua.exe |
-C:\Windows\system32\pcaui.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
@@ -72,7 +72,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/36ef04735adfff417ae761bf6595badb54a4cceb3550aba7cfd4f7234c90ee7d/detection/
 
 
 ## Possible Misuse

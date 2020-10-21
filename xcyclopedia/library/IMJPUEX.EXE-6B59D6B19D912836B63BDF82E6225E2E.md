@@ -22,8 +22,14 @@ SHA256 | `0BB4E662016AA3F9642CA49F7BE46C3DD5000AF101417D608A114E802E21E522`
 SHA384 | `37A445D42AAE19D71CC80534D1609B64DF80FFDD88BDF85D8E1E54A830BA211B88FC7A5F035CB6EA0317D20B31679F2F`
 SHA512 | `097E41B2FB6D5D0BBAF61F828A84051FAAE1A4F46F253DC32F106BFE8D79A3061E23A7E8E413E7FA6426ADA1BF5D37CFC71B52C8FECC12E85AAD0F4A4E766915`
 SSDEEP | `1536:5BmGeQOGoPsWj0uEhLoYatHz+XNW3hy1cd3cYH67nIWDK2NLPcr:BePPjYatT+XNohyidMYH67IkK2NLPcr`
+IMP | `C22124FFBB1D8A8177B201170462A33E`
+PESHA1 | `AF12A1EC1C769345D91E3CA022B9918418A0D6F6`
+PE256 | `18015D524D075E34AF5E48A291036F4B089DDED6A5D334A98C7DDF29DBD8392B`
 
 ## Runtime Data
+
+### Child Processes:
+csrss.exe wininit.exe
 
 ### Window Title:
 Advanced Settings for Microsoft IME
@@ -34,15 +40,18 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-4075667164-670084373-454571106-500 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -50,23 +59,37 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IME\IMEJP\imjpapi.dll |
+C:\Windows\System32\IME\IMEJP\imjppred.dll |
 C:\Windows\system32\IME\IMEJP\IMJPUEX.EXE |
+C:\Windows\system32\IME\IMEJP\imjputyc.dll |
+C:\Windows\System32\IME\shared\imjkapi.dll |
 C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MFC42u.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
 C:\Windows\System32\ole32.dll |
+C:\Windows\SYSTEM32\oleacc.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\SYSTEM32\policymanager.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
@@ -79,13 +102,14 @@ C:\Windows\System32\USER32.dll |
 C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -98,7 +122,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/0bb4e662016aa3f9642ca49f7be46c3dd5000af101417d608a114e802e21e522/detection/
 
 ## File Similarity (ssdeep match)
 

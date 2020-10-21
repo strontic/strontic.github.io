@@ -18,6 +18,9 @@ SHA256 | `C1D4CE55169A1EE0FB5E11DBF907DF52EBBA5A3914A754F4557CBEC96A857C20`
 SHA384 | `D03345B611046A09424798E9574577EAF26AA9EF9D4F517597453C451D29BD0A64605B403159BEFC7A218CEF1E2FB111`
 SHA512 | `7251D0CF73D44259D0A9FC78FE96F03B56C709BBB615CC9C36C5D2A24CFCE5C3286E7D7221AEA9B51BAFC083C9E24164C322CAD62C7851B67B4DD197EB8AEC28`
 SSDEEP | `1536:Up3uiFiV/3QA1R0y4ZG6zROCEjyXTC/xlkWSZJaGQumre2q6J:we/Jf6zwjQUSZJNQuCe2B`
+IMP | `D704D43E51FEE7E15E186F930CEF45D0`
+PESHA1 | `301FD8BF31E67BCEFFFB0778B9BF664514D61983`
+PE256 | `06B7016A59035F984F1DF6366F4A0E58AF1B0FC63CCC20C69F846FE03AFDE56F`
 
 ## Runtime Data
 
@@ -25,7 +28,16 @@ SSDEEP | `1536:Up3uiFiV/3QA1R0y4ZG6zROCEjyXTC/xlkWSZJaGQumre2q6J:we/Jf6zwjQUSZJN
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wsqmcons.exe |
 
 
@@ -46,7 +58,12 @@ C:\Windows\system32\wsqmcons.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/c1d4ce55169a1ee0fb5e11dbf907df52ebba5a3914a754f4557cbec96a857c20/detection/
 
 ## File Similarity (ssdeep match)
 

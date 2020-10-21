@@ -26,441 +26,441 @@ PE256 | `BD4CB64B5413A4C0D10AE30E3F17AE91C248985BB6324350D57A76FB28C463F6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: int __thiscall XmlNode::getChildCountByName(char const *,bool)const ` | 266 | Exported Function
-`public: int __thiscall XmlNode::getType(void)const ` | 300 | Exported Function
-`public: static bool __cdecl csf::ecc::SoftPhoneDnsHelper::lookup(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 356 | Exported Function
-`public: int __thiscall TcpSocketHelper::read(char *,unsigned int)` | 368 | Exported Function
-`public: int __thiscall TcpSocketHelper::write(char const *,unsigned int)` | 432 | Exported Function
-`public: int __thiscall XmlNode::getChildCount(void)const ` | 265 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::LocationMonitor> __cdecl csf::ecc::LocationMonitor::create(class std::shared_ptr<class csf::ecc::NetworkQuery>,class std::shared_ptr<class csf::ecc::PlatformLocationMonitor>,int)` | 211 | Exported Function
-`public: static int __cdecl Timeout::getActiveCount(void)` | 258 | Exported Function
-`public: static long __cdecl Timer::getCurrentThreadId(void)` | 268 | Exported Function
-`public: static unsigned int const csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::npos` | 364 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::NetworkQuery> __cdecl csf::ecc::NetworkQuery::create(class std::shared_ptr<class csf::ecc::DnsHelper>)` | 212 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::PlatformLocationMonitor> __cdecl csf::ecc::PlatformLocationMonitor::create(void)` | 213 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::SoftPhoneDnsHelper> __cdecl csf::ecc::SoftPhoneDnsHelper::create(void)` | 214 | Exported Function
-`public: int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::compare(unsigned int,unsigned int,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int,unsigned int)const ` | 201 | Exported Function
-`public: class XmlNode __thiscall XmlNode::getNextSiblingByName(void)const ` | 288 | Exported Function
-`public: class XmlNode __thiscall XmlNode::getParent(void)const ` | 289 | Exported Function
-`public: class XmlNode __thiscall XmlNode::nextSibling(void)const ` | 359 | Exported Function
-`public: class XmlNode __thiscall XmlNode::firstChild(void)const ` | 255 | Exported Function
-`public: class XmlNode __thiscall XmlNode::getChildByHierarchy(char const *)const ` | 263 | Exported Function
-`public: class XmlNode __thiscall XmlNode::getChildByName(char const *,bool)const ` | 264 | Exported Function
-`public: enum csf::ecc::NetworkTypeEnum::NetworkType __thiscall csf::ecc::NetworkDetails::getNetworkType(void)const ` | 287 | Exported Function
-`public: int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::compare(unsigned int,unsigned int,char const *)const ` | 202 | Exported Function
-`public: int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::compare(unsigned int,unsigned int,char const *,unsigned int)const ` | 203 | Exported Function
-`public: int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::compare(unsigned int,unsigned int,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)const ` | 200 | Exported Function
-`public: int __thiscall CountDownLatch::countNumber(void)` | 210 | Exported Function
-`public: int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::compare(char const *)const ` | 204 | Exported Function
-`public: int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::compare(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)const ` | 199 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_not_of(char const *,unsigned int)const ` | 249 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_not_of(char const *,unsigned int,unsigned int)const ` | 250 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_not_of(char,unsigned int)const ` | 248 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_of(char const *,unsigned int,unsigned int)const ` | 246 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_of(char,unsigned int)const ` | 244 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_of(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int)const ` | 243 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_not_of(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int)const ` | 247 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_of(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int)const ` | 251 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::length(void)const ` | 355 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::rfind(char const *,unsigned int)const ` | 386 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_of(char const *,unsigned int)const ` | 253 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_of(char const *,unsigned int,unsigned int)const ` | 254 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_last_of(char,unsigned int)const ` | 252 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_of(char const *,unsigned int)const ` | 245 | Exported Function
-`public: static void __cdecl XmlNode::redirectErrorLogging(void)` | 370 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::copy(char *,unsigned int,unsigned int)const ` | 208 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find(char const *,unsigned int)const ` | 235 | Exported Function
-`public: static void * __cdecl Thread::getCurrentThreadId(void)` | 267 | Exported Function
-`public: static void __cdecl csf::ecc::EncrPat::setLogReportHelper(class csf::ecc::LogReportHelper *)` | 407 | Exported Function
-`public: static void __cdecl Timer::sleep(int)` | 416 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find(char const *,unsigned int,unsigned int)const ` | 236 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_not_of(char const *,unsigned int,unsigned int)const ` | 242 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_not_of(char,unsigned int)const ` | 240 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_not_of(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int)const ` | 239 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find(char,unsigned int)const ` | 234 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int)const ` | 233 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::find_first_not_of(char const *,unsigned int)const ` | 241 | Exported Function
-`public: class XmlNode & __thiscall XmlNode::operator=(class XmlNode const &)` | 139 | Exported Function
-`public: class csf::ecc::TestStreamFactory & __thiscall csf::ecc::TestStreamFactory::operator=(class csf::ecc::TestStreamFactory const &)` | 135 | Exported Function
-`public: class csf::ecc::ThinClientStreamFactory & __thiscall csf::ecc::ThinClientStreamFactory::operator=(class csf::ecc::ThinClientStreamFactory const &)` | 136 | Exported Function
-`public: class ScopedWSAStartup & __thiscall ScopedWSAStartup::operator=(class ScopedWSAStartup const &)` | 130 | Exported Function
-`public: class csf::ecc::SoftPhoneDnsHelper & __thiscall csf::ecc::SoftPhoneDnsHelper::operator=(class csf::ecc::SoftPhoneDnsHelper &&)` | 132 | Exported Function
-`public: class csf::ecc::SoftPhoneDnsHelper & __thiscall csf::ecc::SoftPhoneDnsHelper::operator=(class csf::ecc::SoftPhoneDnsHelper const &)` | 133 | Exported Function
-`public: class csf::ecc::StreamFactory & __thiscall csf::ecc::StreamFactory::operator=(class csf::ecc::StreamFactory const &)` | 134 | Exported Function
-`public: class ScopedXmlReadMemory & __thiscall ScopedXmlReadMemory::operator=(class ScopedXmlReadMemory const &)` | 131 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::end(void)` | 224 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::erase(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 231 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::erase(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >)` | 230 | Exported Function
-`public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::begin(void)const ` | 193 | Exported Function
-`public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::end(void)const ` | 225 | Exported Function
-`public: class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::begin(void)` | 192 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::substr(unsigned int,unsigned int)const ` | 419 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::operator=(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >)` | 119 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char const *)` | 378 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,char const *,unsigned int)` | 379 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::operator+=(char const *)` | 152 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::operator+=(char)` | 151 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::operator+=(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 150 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 376 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(unsigned int,unsigned int,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 371 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(unsigned int,unsigned int,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int,unsigned int)` | 372 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(unsigned int,unsigned int,unsigned int,char)` | 373 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >,unsigned int,char)` | 377 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(unsigned int,unsigned int,char const *)` | 374 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::replace(unsigned int,unsigned int,char const *,unsigned int)` | 375 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getIpv6Address(void)const ` | 280 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getIpv6Gateway(void)const ` | 281 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getNetworkIdentifier(void)const ` | 286 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getGateway(void)const ` | 272 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getIpv4Address(void)const ` | 277 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getIpv4Gateway(void)const ` | 278 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::toString(void)const ` | 423 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall csf::ecc::EncrPat::operator*(void)const ` | 149 | Exported Function
-`public: class UdpSocketHelper & __thiscall UdpSocketHelper::operator=(class UdpSocketHelper const &)` | 137 | Exported Function
-`public: class UdpSocketHelperData & __thiscall UdpSocketHelperData::operator=(class UdpSocketHelperData const &)` | 138 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall XmlNode::dumpElementDetails(void)` | 217 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall XmlNode::getAttribute(char const *)const ` | 261 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall XmlNode::getString(void)const ` | 298 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getGateway(enum csf::ecc::IPModeEnum::IPMode)const ` | 271 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getBSSID(void)const ` | 262 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getDeviceId(void)const ` | 269 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getEthernetType(void)const ` | 270 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall csf::ecc::EncrPat::operator*(void)` | 148 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * __thiscall csf::ecc::EncrPat::operator->(void)` | 147 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getAPName(void)const ` | 257 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getIpv4Address(void)const ` | 276 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::toString(void)const ` | 422 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getAddress(enum csf::ecc::IPModeEnum::IPMode)const ` | 259 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::NetworkDetails::getAddress(void)const ` | 260 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getIpv6Address(void)const ` | 279 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getPortId(void)const ` | 291 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::LocationDetails::getSSID(void)const ` | 294 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_dialrules(void)` | 310 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_edge(void)` | 311 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_evt(void)` | 312 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_cast(void)` | 308 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_cdp(void)` | 309 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_ConnectionInfo(void)` | 305 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_handyiron(void)` | 313 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_media_term(void)` | 317 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_media_term_audio(void)` | 318 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_media_term_video(void)` | 319 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_handyiron_api(void)` | 314 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_iphelper(void)` | 315 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_media_ringer(void)` | 316 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_bfcp(void)` | 307 | Exported Function
-`public: void __thiscall Timer::join(void)` | 353 | Exported Function
-`public: void __thiscall Timer::schedule(class csf::ecc::WorkItem *,int)` | 392 | Exported Function
-`public: void __thiscall Timer::schedule(class std::shared_ptr<class csf::ecc::WorkItem>,int)` | 393 | Exported Function
+`getChildCountByName` | 266 | Exported Function
+`getType` | 300 | Exported Function
+`allocator` | 356 | Exported Function
+`read` | 368 | Exported Function
+`write` | 432 | Exported Function
+`getChildCount` | 265 | Exported Function
+`PlatformLocationMonitor` | 211 | Exported Function
+`getActiveCount` | 258 | Exported Function
+`getCurrentThreadId` | 268 | Exported Function
+`npos` | 364 | Exported Function
+`DnsHelper` | 212 | Exported Function
+`create` | 213 | Exported Function
+`create` | 214 | Exported Function
+`SafeAllocator` | 201 | Exported Function
+`getNextSiblingByName` | 288 | Exported Function
+`getParent` | 289 | Exported Function
+`nextSibling` | 359 | Exported Function
+`firstChild` | 255 | Exported Function
+`getChildByHierarchy` | 263 | Exported Function
+`getChildByName` | 264 | Exported Function
+`getNetworkType` | 287 | Exported Function
+`compare` | 202 | Exported Function
+`compare` | 203 | Exported Function
+`SafeAllocator` | 200 | Exported Function
+`countNumber` | 210 | Exported Function
+`compare` | 204 | Exported Function
+`SafeAllocator` | 199 | Exported Function
+`find_last_not_of` | 249 | Exported Function
+`find_last_not_of` | 250 | Exported Function
+`find_last_not_of` | 248 | Exported Function
+`find_first_of` | 246 | Exported Function
+`find_first_of` | 244 | Exported Function
+`SafeAllocator` | 243 | Exported Function
+`SafeAllocator` | 247 | Exported Function
+`SafeAllocator` | 251 | Exported Function
+`length` | 355 | Exported Function
+`rfind` | 386 | Exported Function
+`find_last_of` | 253 | Exported Function
+`find_last_of` | 254 | Exported Function
+`find_last_of` | 252 | Exported Function
+`find_first_of` | 245 | Exported Function
+`redirectErrorLogging` | 370 | Exported Function
+`copy` | 208 | Exported Function
+`find` | 235 | Exported Function
+`getCurrentThreadId` | 267 | Exported Function
+`LogReportHelper` | 407 | Exported Function
+`sleep` | 416 | Exported Function
+`find` | 236 | Exported Function
+`find_first_not_of` | 242 | Exported Function
+`find_first_not_of` | 240 | Exported Function
+`SafeAllocator` | 239 | Exported Function
+`find` | 234 | Exported Function
+`SafeAllocator` | 233 | Exported Function
+`find_first_not_of` | 241 | Exported Function
+`operator` | 139 | Exported Function
+`TestStreamFactory` | 135 | Exported Function
+`ThinClientStreamFactory` | 136 | Exported Function
+`operator` | 130 | Exported Function
+`SoftPhoneDnsHelper` | 132 | Exported Function
+`SoftPhoneDnsHelper` | 133 | Exported Function
+`StreamFactory` | 134 | Exported Function
+`operator` | 131 | Exported Function
+`end` | 224 | Exported Function
+`_Simple_types` | 231 | Exported Function
+`_Simple_types` | 230 | Exported Function
+`begin` | 193 | Exported Function
+`end` | 225 | Exported Function
+`begin` | 192 | Exported Function
+`substr` | 419 | Exported Function
+`SafeAllocator` | 119 | Exported Function
+`_Simple_types` | 378 | Exported Function
+`_Simple_types` | 379 | Exported Function
+`operator` | 152 | Exported Function
+`operator` | 151 | Exported Function
+`SafeAllocator` | 150 | Exported Function
+`SafeAllocator` | 376 | Exported Function
+`SafeAllocator` | 371 | Exported Function
+`SafeAllocator` | 372 | Exported Function
+`replace` | 373 | Exported Function
+`_Simple_types` | 377 | Exported Function
+`replace` | 374 | Exported Function
+`replace` | 375 | Exported Function
+`getIpv6Address` | 280 | Exported Function
+`getIpv6Gateway` | 281 | Exported Function
+`getNetworkIdentifier` | 286 | Exported Function
+`getGateway` | 272 | Exported Function
+`getIpv4Address` | 277 | Exported Function
+`getIpv4Gateway` | 278 | Exported Function
+`toString` | 423 | Exported Function
+`operator` | 149 | Exported Function
+`operator` | 137 | Exported Function
+`operator` | 138 | Exported Function
+`dumpElementDetails` | 217 | Exported Function
+`getAttribute` | 261 | Exported Function
+`getString` | 298 | Exported Function
+`IPMode` | 271 | Exported Function
+`getBSSID` | 262 | Exported Function
+`getDeviceId` | 269 | Exported Function
+`getEthernetType` | 270 | Exported Function
+`operator` | 148 | Exported Function
+`operator` | 147 | Exported Function
+`getAPName` | 257 | Exported Function
+`getIpv4Address` | 276 | Exported Function
+`toString` | 422 | Exported Function
+`IPMode` | 259 | Exported Function
+`getAddress` | 260 | Exported Function
+`getIpv6Address` | 279 | Exported Function
+`getPortId` | 291 | Exported Function
+`getSSID` | 294 | Exported Function
+`get_csf_ecc_dialrules` | 310 | Exported Function
+`get_csf_ecc_edge` | 311 | Exported Function
+`get_csf_ecc_evt` | 312 | Exported Function
+`get_csf_ecc_cast` | 308 | Exported Function
+`get_csf_ecc_cdp` | 309 | Exported Function
+`get_csf_ecc_ConnectionInfo` | 305 | Exported Function
+`get_csf_ecc_handyiron` | 313 | Exported Function
+`get_csf_ecc_media_term` | 317 | Exported Function
+`get_csf_ecc_media_term_audio` | 318 | Exported Function
+`get_csf_ecc_media_term_video` | 319 | Exported Function
+`get_csf_ecc_handyiron_api` | 314 | Exported Function
+`get_csf_ecc_iphelper` | 315 | Exported Function
+`get_csf_ecc_media_ringer` | 316 | Exported Function
+`get_csf_ecc_bfcp` | 307 | Exported Function
+`join` | 353 | Exported Function
+`WorkItem` | 392 | Exported Function
+`WorkItem` | 393 | Exported Function
 `public: void __thiscall ThreadEvent::``default constructor closure'(void)` | 168 | Exported Function
-`public: void __thiscall Timeout::cancel(void)` | 195 | Exported Function
-`public: void __thiscall Timer::cancel(void)` | 196 | Exported Function
-`public: void __thiscall WorkerThread::enqueue(class csf::ecc::WorkItem *)` | 226 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_bfcp(void)` | 303 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc(void)` | 304 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_api(void)` | 306 | Exported Function
-`public: void __thiscall WorkerThread::enqueue(class std::function<void __cdecl(void)>)` | 227 | Exported Function
-`public: void __thiscall WorkerThread::enqueue(class std::shared_ptr<class csf::ecc::WorkItem>)` | 228 | Exported Function
-`public: void __thiscall WorkerThread::join(void)` | 354 | Exported Function
-`void __cdecl csf::ecc::set_sensitive_mask(bool)` | 413 | Exported Function
-`void __cdecl csf::ecc::zeroMemoryBuffer(void *,unsigned int)` | 435 | Exported Function
-`void __cdecl csf::ecc::zeroMemoryString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 436 | Exported Function
-`void __cdecl csf::ecc::get_sensitive_dict(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > &)` | 330 | Exported Function
-`void __cdecl csf::ecc::internal::safeAllocatorZeroMemory(void *,unsigned int)` | 390 | Exported Function
-`void __cdecl csf::ecc::internal::setupSafeAllocatorMemoryManager(void * (__cdecl*)(unsigned int),void (__cdecl*)(void *,unsigned int))` | 414 | Exported Function
-`void __cdecl getSupportedIpvProtocols(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<unsigned short,class std::allocator<unsigned short> > &)` | 299 | Exported Function
-`void __cdecl trim_left(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *)` | 425 | Exported Function
-`void __cdecl trim_left_and_right(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *)` | 426 | Exported Function
-`void __cdecl trim_right(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *)` | 427 | Exported Function
-`void __cdecl splitString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 417 | Exported Function
-`void __cdecl stringSearchAndReplace(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 418 | Exported Function
-`void __cdecl toUpper(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 424 | Exported Function
-`void * (__cdecl* csf::ecc::internal::globalAlloc)(unsigned int)` | 332 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_sipcc(void)` | 323 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_vcm(void)` | 324 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_vcm_api(void)` | 325 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_msi(void)` | 320 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_remote(void)` | 321 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_ecc_singlereg(void)` | 322 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_network_helper(void)` | 326 | Exported Function
+`cancel` | 195 | Exported Function
+`cancel` | 196 | Exported Function
+`WorkItem` | 226 | Exported Function
+`get_csf_bfcp` | 303 | Exported Function
+`get_csf_ecc` | 304 | Exported Function
+`get_csf_ecc_api` | 306 | Exported Function
+`function` | 227 | Exported Function
+`WorkItem` | 228 | Exported Function
+`join` | 354 | Exported Function
+`set_sensitive_mask` | 413 | Exported Function
+`zeroMemoryBuffer` | 435 | Exported Function
+`allocator` | 436 | Exported Function
+`allocator` | 330 | Exported Function
+`safeAllocatorZeroMemory` | 390 | Exported Function
+`setupSafeAllocatorMemoryManager` | 414 | Exported Function
+`allocator` | 299 | Exported Function
+`allocator` | 425 | Exported Function
+`allocator` | 426 | Exported Function
+`allocator` | 427 | Exported Function
+`allocator` | 417 | Exported Function
+`SafeAllocator` | 418 | Exported Function
+`allocator` | 424 | Exported Function
+`globalAlloc` | 332 | Exported Function
+`get_csf_ecc_sipcc` | 323 | Exported Function
+`get_csf_ecc_vcm` | 324 | Exported Function
+`get_csf_ecc_vcm_api` | 325 | Exported Function
+`get_csf_ecc_msi` | 320 | Exported Function
+`get_csf_ecc_remote` | 321 | Exported Function
+`get_csf_ecc_singlereg` | 322 | Exported Function
+`get_csf_network_helper` | 326 | Exported Function
 `unsigned int __cdecl getSocketErrorCode(void)` | 296 | Exported Function
 `unsigned long __cdecl millisecondClock(void)` | 358 | Exported Function
-`void (__cdecl* csf::ecc::internal::globalDealloc)(void *,unsigned int)` | 333 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_provider_system(void)` | 327 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_sip_call_control(void)` | 328 | Exported Function
-`struct CSFLogger * __cdecl csf::ecc::get_csf_udp(void)` | 329 | Exported Function
+`globalDealloc` | 333 | Exported Function
+`get_csf_provider_system` | 327 | Exported Function
+`get_csf_sip_call_control` | 328 | Exported Function
+`get_csf_udp` | 329 | Exported Function
 `public: void __thiscall TcpSocketHelper::``default constructor closure'(void)` | 167 | Exported Function
 `public: virtual __thiscall WorkerThread::~WorkerThread(void)` | 118 | Exported Function
-`public: virtual bool __thiscall UdpSocketHelperImpl::close(void)` | 198 | Exported Function
-`public: virtual bool __thiscall UdpSocketHelperImpl::isOpen(void)` | 347 | Exported Function
+`close` | 198 | Exported Function
+`isOpen` | 347 | Exported Function
 `public: virtual __thiscall Timer::~Timer(void)` | 114 | Exported Function
 `public: virtual __thiscall UdpSocketHelper::~UdpSocketHelper(void)` | 115 | Exported Function
 `public: virtual __thiscall UdpSocketHelperImpl::~UdpSocketHelperImpl(void)` | 117 | Exported Function
-`public: virtual bool __thiscall UdpSocketHelperImpl::open(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short,unsigned short &,enum csf::ecc::IPModeEnum::IPMode,enum csf::ecc::MediaError::MediaErrorCode &)` | 365 | Exported Function
-`public: virtual int __thiscall csf::ecc::ThinClientStreamFactory::CreateStream(class VxcCommunication::IStream * *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)` | 171 | Exported Function
-`public: virtual int __thiscall UdpSocketHelperImpl::readFrom(char *,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,unsigned short &)` | 369 | Exported Function
-`public: virtual int __thiscall UdpSocketHelperImpl::writeTo(char const *,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short)` | 433 | Exported Function
-`public: virtual bool __thiscall UdpSocketHelperImpl::selectForRead(unsigned int)` | 395 | Exported Function
-`public: virtual int __thiscall csf::ecc::HVDStreamFactory::CreateStream(class VxcCommunication::IStream * *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)` | 169 | Exported Function
-`public: virtual int __thiscall csf::ecc::TestStreamFactory::CreateStream(class VxcCommunication::IStream * *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)` | 170 | Exported Function
+`MediaErrorCode` | 365 | Exported Function
+`allocator` | 171 | Exported Function
+`allocator` | 369 | Exported Function
+`allocator` | 433 | Exported Function
+`selectForRead` | 395 | Exported Function
+`allocator` | 169 | Exported Function
+`allocator` | 170 | Exported Function
 `public: virtual __thiscall TcpSocketHelper::~TcpSocketHelper(void)` | 108 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::size(void)const ` | 415 | Exported Function
-`public: unsigned short __thiscall ScopedConnectionData::getPortAllocated(void)` | 290 | Exported Function
-`public: unsigned short __thiscall UdpSocketHelperData::getSocketTransport(void)` | 297 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::rfind(char const *,unsigned int,unsigned int)const ` | 387 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::rfind(char,unsigned int)const ` | 385 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::rfind(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int)const ` | 384 | Exported Function
+`size` | 415 | Exported Function
+`getPortAllocated` | 290 | Exported Function
+`getSocketTransport` | 297 | Exported Function
+`rfind` | 387 | Exported Function
+`rfind` | 385 | Exported Function
+`SafeAllocator` | 384 | Exported Function
 `public: virtual __thiscall CountDownLatch::~CountDownLatch(void)` | 96 | Exported Function
-`public: virtual __thiscall csf::ecc::StreamFactory::~StreamFactory(void)` | 107 | Exported Function
-`public: virtual __thiscall csf::ecc::TestStreamFactory::~TestStreamFactory(void)` | 109 | Exported Function
-`public: virtual __thiscall csf::ecc::ThinClientStreamFactory::~ThinClientStreamFactory(void)` | 110 | Exported Function
-`public: virtual __thiscall csf::ecc::DnsHelper::~DnsHelper(void)` | 97 | Exported Function
-`public: virtual __thiscall csf::ecc::HVDStreamFactory::~HVDStreamFactory(void)` | 99 | Exported Function
-`public: virtual __thiscall csf::ecc::SoftPhoneDnsHelper::~SoftPhoneDnsHelper(void)` | 106 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setNetworkType(enum csf::ecc::NetworkTypeEnum::NetworkType)` | 409 | Exported Function
-`public: void __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::clear(void)` | 197 | Exported Function
-`public: void __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::push_back(char)` | 367 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setIpv6Address(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 401 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setIpv6Gateway(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 402 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setNetworkIdentifier(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 408 | Exported Function
-`public: void __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::reserve(unsigned int)` | 380 | Exported Function
-`public: void __thiscall Mutex::Lock(void)` | 172 | Exported Function
-`public: void __thiscall Mutex::Unlock(void)` | 176 | Exported Function
-`public: void __thiscall ScopedConnectionData::setPortAllocated(unsigned short)` | 410 | Exported Function
-`public: void __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::resize(unsigned int)` | 382 | Exported Function
-`public: void __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::resize(unsigned int,char)` | 383 | Exported Function
-`public: void __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::swap(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > &)` | 420 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setIpv4Gateway(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 400 | Exported Function
-`public: virtual void __thiscall csf::ecc::ThinClientStreamFactory::ReleaseStream(class VxcCommunication::IStream *)` | 175 | Exported Function
+`StreamFactory` | 107 | Exported Function
+`TestStreamFactory` | 109 | Exported Function
+`ThinClientStreamFactory` | 110 | Exported Function
+`DnsHelper` | 97 | Exported Function
+`HVDStreamFactory` | 99 | Exported Function
+`SoftPhoneDnsHelper` | 106 | Exported Function
+`NetworkType` | 409 | Exported Function
+`clear` | 197 | Exported Function
+`push_back` | 367 | Exported Function
+`allocator` | 401 | Exported Function
+`allocator` | 402 | Exported Function
+`allocator` | 408 | Exported Function
+`reserve` | 380 | Exported Function
+`Lock` | 172 | Exported Function
+`Unlock` | 176 | Exported Function
+`setPortAllocated` | 410 | Exported Function
+`resize` | 382 | Exported Function
+`resize` | 383 | Exported Function
+`SafeAllocator` | 420 | Exported Function
+`allocator` | 400 | Exported Function
+`IStream` | 175 | Exported Function
 `public: void __thiscall CountDownLatch::``default constructor closure'(void)` | 165 | Exported Function
-`public: void __thiscall CountDownLatch::countDown(void)` | 209 | Exported Function
-`public: virtual unsigned int __thiscall UdpSocketHelperImpl::getSocket(void)` | 295 | Exported Function
-`public: virtual void __thiscall csf::ecc::HVDStreamFactory::ReleaseStream(class VxcCommunication::IStream *)` | 173 | Exported Function
-`public: virtual void __thiscall csf::ecc::TestStreamFactory::ReleaseStream(class VxcCommunication::IStream *)` | 174 | Exported Function
-`public: void __thiscall CountDownLatch::wait(void)` | 431 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::``default constructor closure'(void)` | 166 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setIPMode(enum csf::ecc::IPModeEnum::IPMode)` | 398 | Exported Function
-`public: void __thiscall csf::ecc::NetworkDetails::setIpv4Address(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 399 | Exported Function
-`public: void __thiscall csf::ecc::LocationDetails::padLeadingZeroForBSSID(void)` | 366 | Exported Function
-`public: void __thiscall csf::ecc::LocationDetails::setIsBlank(void)` | 403 | Exported Function
-`public: void __thiscall csf::ecc::LocationDetails::setIsWifi(bool)` | 404 | Exported Function
+`countDown` | 209 | Exported Function
+`getSocket` | 295 | Exported Function
+`IStream` | 173 | Exported Function
+`IStream` | 174 | Exported Function
+`wait` | 431 | Exported Function
+`NetworkDetails` | 166 | Exported Function
+`IPMode` | 398 | Exported Function
+`allocator` | 399 | Exported Function
+`padLeadingZeroForBSSID` | 366 | Exported Function
+`setIsBlank` | 403 | Exported Function
+`setIsWifi` | 404 | Exported Function
 `const UdpSocketHelperImpl::``vftable'` | 163 | Exported Function
 `const WorkerThread::``vftable'` | 164 | Exported Function
-`int __cdecl getIntValueFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 274 | Exported Function
+`allocator` | 274 | Exported Function
 `const TcpSocketHelper::``vftable'` | 158 | Exported Function
 `const Timer::``vftable'` | 161 | Exported Function
 `const UdpSocketHelper::``vftable'` | 162 | Exported Function
-`private: __thiscall Thread::Thread(void)` | 78 | Exported Function
-`private: struct _xmlNode * __thiscall XmlNode::findNode(struct _xmlNode *)const ` | 237 | Exported Function
-`private: struct _xmlNode * __thiscall XmlNode::findNodeByName(struct _xmlNode *,unsigned char const *,bool)const ` | 238 | Exported Function
-`private: void __thiscall csf::ecc::EncrPat::encrAes(void)` | 219 | Exported Function
+`Thread` | 78 | Exported Function
+`findNode` | 237 | Exported Function
+`findNodeByName` | 238 | Exported Function
+`encrAes` | 219 | Exported Function
 `private: __thiscall Thread::~Thread(void)` | 111 | Exported Function
-`private: int __thiscall TcpSocketHelper::select(void)` | 394 | Exported Function
-`private: static class csf::ecc::LogReportHelper * csf::ecc::EncrPat::mStaLogReportHelper` | 357 | Exported Function
-`const csf::ecc::ThinClientStreamFactory::``vftable'` | 160 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl normalizeIPv4Address(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 362 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl normalizeIPv6Address(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 363 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl toHexString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 421 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl getProtocolIPFamilyName(unsigned short)` | 292 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl getProtocolStringName(unsigned short)` | 293 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl normalizeIPAddress(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short)` | 361 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl xmlEncode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 434 | Exported Function
-`const csf::ecc::SoftPhoneDnsHelper::``vftable'` | 156 | Exported Function
-`const csf::ecc::StreamFactory::``vftable'` | 157 | Exported Function
-`const csf::ecc::TestStreamFactory::``vftable'` | 159 | Exported Function
+`select` | 394 | Exported Function
+`mStaLogReportHelper` | 357 | Exported Function
+`ThinClientStreamFactory` | 160 | Exported Function
+`allocator` | 362 | Exported Function
+`allocator` | 363 | Exported Function
+`allocator` | 421 | Exported Function
+`allocator` | 292 | Exported Function
+`allocator` | 293 | Exported Function
+`allocator` | 361 | Exported Function
+`allocator` | 434 | Exported Function
+`SoftPhoneDnsHelper` | 156 | Exported Function
+`StreamFactory` | 157 | Exported Function
+`TestStreamFactory` | 159 | Exported Function
 `const CountDownLatch::``vftable'` | 153 | Exported Function
-`const csf::ecc::DnsHelper::``vftable'` | 154 | Exported Function
-`const csf::ecc::HVDStreamFactory::``vftable'` | 155 | Exported Function
-`public: __thiscall csf::ecc::EncrPat::~EncrPat(void)` | 98 | Exported Function
-`public: __thiscall csf::ecc::HVDStreamFactory::HVDStreamFactory(class csf::ecc::HVDStreamFactory const &)` | 51 | Exported Function
-`public: __thiscall csf::ecc::HVDStreamFactory::HVDStreamFactory(void)` | 52 | Exported Function
-`public: __thiscall csf::ecc::EncrPat::EncrPat(class csf::ecc::EncrPat const &)` | 48 | Exported Function
-`public: __thiscall csf::ecc::EncrPat::EncrPat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,char const *,enum csf::ecc::EncrPat::EncrMethod)` | 47 | Exported Function
-`public: __thiscall csf::ecc::EncrPat::EncrPat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,enum csf::ecc::EncrPat::EncrMethod)` | 49 | Exported Function
-`public: __thiscall csf::ecc::LocationDetails::LocationDetails(class csf::ecc::LocationDetails &&)` | 53 | Exported Function
-`public: __thiscall csf::ecc::LocationDetails::~LocationDetails(void)` | 100 | Exported Function
-`public: __thiscall csf::ecc::NetworkDetails::NetworkDetails(class csf::ecc::NetworkDetails &&)` | 59 | Exported Function
-`public: __thiscall csf::ecc::NetworkDetails::NetworkDetails(class csf::ecc::NetworkDetails const &)` | 60 | Exported Function
-`public: __thiscall csf::ecc::LocationDetails::LocationDetails(class csf::ecc::LocationDetails const &)` | 54 | Exported Function
-`public: __thiscall csf::ecc::LocationDetails::LocationDetails(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 56 | Exported Function
-`public: __thiscall csf::ecc::LocationDetails::LocationDetails(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 55 | Exported Function
-`public: __thiscall csf::ecc::EncrPat::EncrPat(class csf::ecc::EncrPat &&)` | 46 | Exported Function
-`private: void __thiscall csf::ecc::EncrPat::encrShaAndReport(void)` | 223 | Exported Function
-`private: void __thiscall csf::ecc::NetworkDetails::normalise(void)` | 360 | Exported Function
-`protected: bool __thiscall TcpSocketHelper::connect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short)` | 205 | Exported Function
-`private: void __thiscall csf::ecc::EncrPat::encrAesAndReport(void)` | 220 | Exported Function
-`private: void __thiscall csf::ecc::EncrPat::encrRaw(void)` | 221 | Exported Function
-`private: void __thiscall csf::ecc::EncrPat::encrSha(void)` | 222 | Exported Function
-`protected: static int Timer::activeCount` | 177 | Exported Function
-`public: __thiscall csf::ecc::DnsHelper::DnsHelper(class csf::ecc::DnsHelper const &)` | 44 | Exported Function
-`public: __thiscall csf::ecc::DnsHelper::DnsHelper(void)` | 45 | Exported Function
-`public: __thiscall csf::ecc::EncrPat::EncrPat(char const *,char const *,enum csf::ecc::EncrPat::EncrMethod)` | 50 | Exported Function
-`protected: void __thiscall Timer::run(void)` | 388 | Exported Function
-`protected: void __thiscall WorkerThread::run(void)` | 389 | Exported Function
-`public: __thiscall CountDownLatch::CountDownLatch(int)` | 43 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl getIpAddressByHostname(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short)` | 275 | Exported Function
-`bool __cdecl csf::ecc::operator<=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 21 | Exported Function
-`bool __cdecl csf::ecc::operator<=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 22 | Exported Function
-`bool __cdecl csf::ecc::operator<=<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 24 | Exported Function
-`bool __cdecl csf::ecc::operator<<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 19 | Exported Function
-`bool __cdecl csf::ecc::operator<=<char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 25 | Exported Function
-`bool __cdecl csf::ecc::operator<=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 23 | Exported Function
-`bool __cdecl csf::ecc::operator==<char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 5 | Exported Function
-`bool __cdecl csf::ecc::operator==<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 4 | Exported Function
-`bool __cdecl csf::ecc::operator><char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 30 | Exported Function
-`bool __cdecl csf::ecc::operator><char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 28 | Exported Function
-`bool __cdecl csf::ecc::operator==<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 3 | Exported Function
-`bool __cdecl csf::ecc::operator==<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 1 | Exported Function
-`bool __cdecl csf::ecc::operator==<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 2 | Exported Function
-`bool __cdecl csf::ecc::operator<<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 17 | Exported Function
-`bool __cdecl csf::ecc::network::isValidIPv4(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 349 | Exported Function
-`bool __cdecl csf::ecc::network::isValidIPv6(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 350 | Exported Function
-`bool __cdecl csf::ecc::operator!=<char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 10 | Exported Function
-`bool __cdecl csf::ecc::get_sensitive_mask(void)` | 331 | Exported Function
-`bool __cdecl csf::ecc::network::isEmptyIPv4(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 336 | Exported Function
-`bool __cdecl csf::ecc::network::isEmptyIPv6(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 337 | Exported Function
-`bool __cdecl csf::ecc::operator!=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 8 | Exported Function
-`bool __cdecl csf::ecc::operator<<char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 20 | Exported Function
-`bool __cdecl csf::ecc::operator<<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 18 | Exported Function
-`bool __cdecl csf::ecc::operator<<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 16 | Exported Function
-`bool __cdecl csf::ecc::operator!=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 6 | Exported Function
-`bool __cdecl csf::ecc::operator!=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 7 | Exported Function
-`bool __cdecl csf::ecc::operator!=<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 9 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl csf::ecc::operator+<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 13 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl csf::ecc::operator+<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 11 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl csf::ecc::operator+<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 12 | Exported Function
-`bool __cdecl isValidIpAddress(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 351 | Exported Function
-`bool __cdecl isValidIpForProtocol(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short)` | 352 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl csf::ecc::operator+<char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 15 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl csf::ecc::operator+<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 14 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::urlDecode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 428 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::urlEncode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 429 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl environment::get(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 256 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl csf::ecc::urlEncodeSafe(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 430 | Exported Function
-`class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > __cdecl safeXmlEncode(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 391 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl convertUTF8toISO8859_1(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 207 | Exported Function
-`bool __cdecl hasEnding(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 335 | Exported Function
-`bool __cdecl csf::ecc::operator>=<char,class csf::ecc::SafeAllocator<char> >(char const *,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 35 | Exported Function
-`bool __cdecl csf::ecc::operator>=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,char const *)` | 33 | Exported Function
-`bool __cdecl csf::ecc::operator>=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 31 | Exported Function
-`bool __cdecl csf::ecc::operator><char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 26 | Exported Function
-`bool __cdecl csf::ecc::operator><char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 27 | Exported Function
-`bool __cdecl csf::ecc::operator><char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 29 | Exported Function
-`bool __cdecl csf::ecc::operator>=<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 32 | Exported Function
-`bool __cdecl equalsIgnoreCase(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 229 | Exported Function
-`bool __cdecl getAttribute<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class XmlNode &,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 36 | Exported Function
-`bool __cdecl getValueOfSubElement(class XmlNode,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 301 | Exported Function
-`bool __cdecl csf::ecc::operator>=<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 34 | Exported Function
-`bool __cdecl csf::ecc::set_sensitive_dict(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 412 | Exported Function
-`bool __cdecl environment::set(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 397 | Exported Function
-`public: bool __thiscall ThreadEvent::await(long)` | 191 | Exported Function
-`public: bool __thiscall ThreadEvent::reset(void)` | 381 | Exported Function
-`public: bool __thiscall ThreadEvent::set(void)` | 396 | Exported Function
-`public: bool __thiscall TcpSocketHelper::isOpen(void)const ` | 346 | Exported Function
-`public: bool __thiscall TcpSocketHelper::setLocalIPv4Address(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 405 | Exported Function
-`public: bool __thiscall TcpSocketHelper::setLocalIPv6Address(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 406 | Exported Function
-`public: bool __thiscall Timeout::isExpired(void)` | 338 | Exported Function
-`public: bool __thiscall XmlNode::setString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 411 | Exported Function
-`public: char & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::at(unsigned int)` | 188 | Exported Function
-`public: char & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::operator[](unsigned int)` | 144 | Exported Function
-`public: bool __thiscall Timer::isScheduled(void)` | 348 | Exported Function
-`public: bool __thiscall XmlNode::hasAttribute(char const *)const ` | 334 | Exported Function
-`public: bool __thiscall XmlNode::isName(char const *,bool)const ` | 341 | Exported Function
-`public: bool __thiscall TcpSocketHelper::isIPV6(void)const ` | 340 | Exported Function
-`public: bool __thiscall csf::ecc::NetworkDetails::isNetworkAvailableIPv4(void)const ` | 344 | Exported Function
-`public: bool __thiscall csf::ecc::NetworkDetails::isNetworkAvailableIPv6(void)const ` | 345 | Exported Function
-`public: bool __thiscall csf::ecc::NetworkDetails::operator!=(class csf::ecc::NetworkDetails const &)const ` | 143 | Exported Function
-`public: bool __thiscall csf::ecc::LocationDetails::operator==(class csf::ecc::LocationDetails const &)const ` | 140 | Exported Function
-`public: bool __thiscall csf::ecc::NetworkDetails::isNetworkAvailable(enum csf::ecc::IPModeEnum::IPMode)const ` | 342 | Exported Function
-`public: bool __thiscall csf::ecc::NetworkDetails::isNetworkAvailable(void)const ` | 343 | Exported Function
-`public: bool __thiscall csf::ecc::NetworkDetails::operator==(class csf::ecc::NetworkDetails const &)const ` | 141 | Exported Function
-`public: bool __thiscall TcpSocketHelper::disconnect(void)` | 216 | Exported Function
-`public: bool __thiscall TcpSocketHelper::getLocalAddressAndPort(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,unsigned short &)` | 284 | Exported Function
-`public: bool __thiscall TcpSocketHelper::isIPV4(void)const ` | 339 | Exported Function
-`public: bool __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::empty(void)const ` | 218 | Exported Function
-`public: bool __thiscall ScopedConnectionData::getIPAddressString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 273 | Exported Function
-`public: bool __thiscall TcpSocketHelper::connect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short,enum csf::ecc::IPModeEnum::IPMode)` | 206 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::append(char const *,unsigned int)` | 182 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::append(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 178 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::append(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int,unsigned int)` | 179 | Exported Function
-`public: class csf::ecc::NetworkDetails & __thiscall csf::ecc::NetworkDetails::operator=(class csf::ecc::NetworkDetails const &)` | 129 | Exported Function
-`public: class csf::ecc::SafeAllocator<char> __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::get_allocator(void)const ` | 302 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::append(char const *)` | 181 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::append(unsigned int,char)` | 180 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::assign(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &,unsigned int,unsigned int)` | 184 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::assign(unsigned int,char)` | 185 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::erase(unsigned int,unsigned int)` | 232 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::assign(char const *)` | 186 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::assign(char const *,unsigned int)` | 187 | Exported Function
-`public: class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::assign(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 183 | Exported Function
-`public: class csf::ecc::NetworkDetails & __thiscall csf::ecc::NetworkDetails::operator=(class csf::ecc::NetworkDetails &&)` | 128 | Exported Function
-`public: char const * __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::data(void)const ` | 215 | Exported Function
-`public: char const * __thiscall XmlNode::getName(void)const ` | 285 | Exported Function
-`public: class csf::ecc::CC_CallStreamStatistics & __thiscall csf::ecc::CC_CallStreamStatistics::operator=(class csf::ecc::CC_CallStreamStatistics &&)` | 120 | Exported Function
-`public: char const & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::at(unsigned int)const ` | 189 | Exported Function
-`public: char const & __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::operator[](unsigned int)const ` | 145 | Exported Function
-`public: char const * __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::c_str(void)const ` | 194 | Exported Function
-`public: class csf::ecc::CC_CallStreamStatistics & __thiscall csf::ecc::CC_CallStreamStatistics::operator=(class csf::ecc::CC_CallStreamStatistics const &)` | 121 | Exported Function
-`public: class csf::ecc::HVDStreamFactory & __thiscall csf::ecc::HVDStreamFactory::operator=(class csf::ecc::HVDStreamFactory const &)` | 125 | Exported Function
-`public: class csf::ecc::LocationDetails & __thiscall csf::ecc::LocationDetails::operator=(class csf::ecc::LocationDetails &&)` | 126 | Exported Function
-`public: class csf::ecc::LocationDetails & __thiscall csf::ecc::LocationDetails::operator=(class csf::ecc::LocationDetails const &)` | 127 | Exported Function
-`public: class csf::ecc::DnsHelper & __thiscall csf::ecc::DnsHelper::operator=(class csf::ecc::DnsHelper const &)` | 122 | Exported Function
-`public: class csf::ecc::EncrPat & __thiscall csf::ecc::EncrPat::operator=(class csf::ecc::EncrPat &&)` | 123 | Exported Function
-`public: class csf::ecc::EncrPat & __thiscall csf::ecc::EncrPat::operator=(class csf::ecc::EncrPat const &)` | 124 | Exported Function
-`public: bool __thiscall csf::ecc::LocationDetails::operator!=(class csf::ecc::LocationDetails const &)const ` | 142 | Exported Function
-`public: __thiscall csf::ecc::TestStreamFactory::TestStreamFactory(void)` | 75 | Exported Function
-`public: __thiscall csf::ecc::ThinClientStreamFactory::ThinClientStreamFactory(class csf::ecc::ThinClientStreamFactory const &)` | 76 | Exported Function
-`public: __thiscall csf::ecc::ThinClientStreamFactory::ThinClientStreamFactory(void)` | 77 | Exported Function
-`public: __thiscall csf::ecc::StreamFactory::StreamFactory(class csf::ecc::StreamFactory const &)` | 71 | Exported Function
-`public: __thiscall csf::ecc::StreamFactory::StreamFactory(void)` | 72 | Exported Function
-`public: __thiscall csf::ecc::TestStreamFactory::TestStreamFactory(class csf::ecc::TestStreamFactory const &)` | 74 | Exported Function
-`public: __thiscall Mutex::Mutex(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 57 | Exported Function
+`DnsHelper` | 154 | Exported Function
+`HVDStreamFactory` | 155 | Exported Function
+`EncrPat` | 98 | Exported Function
+`HVDStreamFactory` | 51 | Exported Function
+`HVDStreamFactory` | 52 | Exported Function
+`EncrPat` | 48 | Exported Function
+`EncrMethod` | 47 | Exported Function
+`EncrMethod` | 49 | Exported Function
+`LocationDetails` | 53 | Exported Function
+`LocationDetails` | 100 | Exported Function
+`NetworkDetails` | 59 | Exported Function
+`NetworkDetails` | 60 | Exported Function
+`LocationDetails` | 54 | Exported Function
+`allocator` | 56 | Exported Function
+`allocator` | 55 | Exported Function
+`EncrPat` | 46 | Exported Function
+`encrShaAndReport` | 223 | Exported Function
+`normalise` | 360 | Exported Function
+`allocator` | 205 | Exported Function
+`encrAesAndReport` | 220 | Exported Function
+`encrRaw` | 221 | Exported Function
+`encrSha` | 222 | Exported Function
+`activeCount` | 177 | Exported Function
+`DnsHelper` | 44 | Exported Function
+`DnsHelper` | 45 | Exported Function
+`EncrMethod` | 50 | Exported Function
+`run` | 388 | Exported Function
+`run` | 389 | Exported Function
+`CountDownLatch` | 43 | Exported Function
+`allocator` | 275 | Exported Function
+`SafeAllocator` | 21 | Exported Function
+`allocator` | 22 | Exported Function
+`SafeAllocator` | 24 | Exported Function
+`SafeAllocator` | 19 | Exported Function
+`SafeAllocator` | 25 | Exported Function
+`SafeAllocator` | 23 | Exported Function
+`SafeAllocator` | 5 | Exported Function
+`SafeAllocator` | 4 | Exported Function
+`SafeAllocator` | 30 | Exported Function
+`SafeAllocator` | 28 | Exported Function
+`SafeAllocator` | 3 | Exported Function
+`SafeAllocator` | 1 | Exported Function
+`allocator` | 2 | Exported Function
+`allocator` | 17 | Exported Function
+`allocator` | 349 | Exported Function
+`allocator` | 350 | Exported Function
+`SafeAllocator` | 10 | Exported Function
+`get_sensitive_mask` | 331 | Exported Function
+`allocator` | 336 | Exported Function
+`allocator` | 337 | Exported Function
+`SafeAllocator` | 8 | Exported Function
+`SafeAllocator` | 20 | Exported Function
+`SafeAllocator` | 18 | Exported Function
+`SafeAllocator` | 16 | Exported Function
+`SafeAllocator` | 6 | Exported Function
+`allocator` | 7 | Exported Function
+`SafeAllocator` | 9 | Exported Function
+`SafeAllocator` | 13 | Exported Function
+`SafeAllocator` | 11 | Exported Function
+`allocator` | 12 | Exported Function
+`allocator` | 351 | Exported Function
+`allocator` | 352 | Exported Function
+`SafeAllocator` | 15 | Exported Function
+`SafeAllocator` | 14 | Exported Function
+`allocator` | 428 | Exported Function
+`allocator` | 429 | Exported Function
+`allocator` | 256 | Exported Function
+`SafeAllocator` | 430 | Exported Function
+`SafeAllocator` | 391 | Exported Function
+`allocator` | 207 | Exported Function
+`allocator` | 335 | Exported Function
+`SafeAllocator` | 35 | Exported Function
+`SafeAllocator` | 33 | Exported Function
+`SafeAllocator` | 31 | Exported Function
+`SafeAllocator` | 26 | Exported Function
+`allocator` | 27 | Exported Function
+`SafeAllocator` | 29 | Exported Function
+`allocator` | 32 | Exported Function
+`allocator` | 229 | Exported Function
+`allocator` | 36 | Exported Function
+`allocator` | 301 | Exported Function
+`SafeAllocator` | 34 | Exported Function
+`allocator` | 412 | Exported Function
+`allocator` | 397 | Exported Function
+`await` | 191 | Exported Function
+`reset` | 381 | Exported Function
+`set` | 396 | Exported Function
+`isOpen` | 346 | Exported Function
+`allocator` | 405 | Exported Function
+`allocator` | 406 | Exported Function
+`isExpired` | 338 | Exported Function
+`allocator` | 411 | Exported Function
+`at` | 188 | Exported Function
+`operator` | 144 | Exported Function
+`isScheduled` | 348 | Exported Function
+`hasAttribute` | 334 | Exported Function
+`isName` | 341 | Exported Function
+`isIPV6` | 340 | Exported Function
+`isNetworkAvailableIPv4` | 344 | Exported Function
+`isNetworkAvailableIPv6` | 345 | Exported Function
+`NetworkDetails` | 143 | Exported Function
+`LocationDetails` | 140 | Exported Function
+`IPMode` | 342 | Exported Function
+`isNetworkAvailable` | 343 | Exported Function
+`NetworkDetails` | 141 | Exported Function
+`disconnect` | 216 | Exported Function
+`allocator` | 284 | Exported Function
+`isIPV4` | 339 | Exported Function
+`empty` | 218 | Exported Function
+`allocator` | 273 | Exported Function
+`IPMode` | 206 | Exported Function
+`append` | 182 | Exported Function
+`SafeAllocator` | 178 | Exported Function
+`SafeAllocator` | 179 | Exported Function
+`NetworkDetails` | 129 | Exported Function
+`get_allocator` | 302 | Exported Function
+`append` | 181 | Exported Function
+`append` | 180 | Exported Function
+`SafeAllocator` | 184 | Exported Function
+`assign` | 185 | Exported Function
+`erase` | 232 | Exported Function
+`assign` | 186 | Exported Function
+`assign` | 187 | Exported Function
+`SafeAllocator` | 183 | Exported Function
+`NetworkDetails` | 128 | Exported Function
+`data` | 215 | Exported Function
+`getName` | 285 | Exported Function
+`CC_CallStreamStatistics` | 120 | Exported Function
+`at` | 189 | Exported Function
+`operator` | 145 | Exported Function
+`c_str` | 194 | Exported Function
+`CC_CallStreamStatistics` | 121 | Exported Function
+`HVDStreamFactory` | 125 | Exported Function
+`LocationDetails` | 126 | Exported Function
+`LocationDetails` | 127 | Exported Function
+`DnsHelper` | 122 | Exported Function
+`EncrPat` | 123 | Exported Function
+`EncrPat` | 124 | Exported Function
+`LocationDetails` | 142 | Exported Function
+`TestStreamFactory` | 75 | Exported Function
+`ThinClientStreamFactory` | 76 | Exported Function
+`ThinClientStreamFactory` | 77 | Exported Function
+`StreamFactory` | 71 | Exported Function
+`StreamFactory` | 72 | Exported Function
+`TestStreamFactory` | 74 | Exported Function
+`allocator` | 57 | Exported Function
 `public: __thiscall ScopedConnectionData::~ScopedConnectionData(void)` | 103 | Exported Function
-`public: __thiscall ScopedWSAStartup::ScopedWSAStartup(void)` | 65 | Exported Function
+`ScopedWSAStartup` | 65 | Exported Function
 `public: __thiscall ScopedWSAStartup::~ScopedWSAStartup(void)` | 104 | Exported Function
-`public: __thiscall Mutex::Mutex(void)` | 58 | Exported Function
+`Mutex` | 58 | Exported Function
 `public: __thiscall Mutex::~Mutex(void)` | 101 | Exported Function
-`public: __thiscall ScopedConnectionData::ScopedConnectionData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short,unsigned short)` | 64 | Exported Function
-`public: __thiscall csf::ecc::SoftPhoneDnsHelper::SoftPhoneDnsHelper(void)` | 70 | Exported Function
-`public: __thiscall csf::ecc::NetworkDetails::~NetworkDetails(void)` | 102 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::SafeStringT<char,class csf::ecc::SafeAllocator<char> >(char const *)` | 40 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::SafeStringT<char,class csf::ecc::SafeAllocator<char> >(char const *,unsigned int)` | 41 | Exported Function
-`public: __thiscall csf::ecc::NetworkDetails::NetworkDetails(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum csf::ecc::NetworkTypeEnum::NetworkType,enum csf::ecc::IPModeEnum::IPMode)` | 61 | Exported Function
-`public: __thiscall csf::ecc::NetworkDetails::NetworkDetails(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum csf::ecc::NetworkTypeEnum::NetworkType,enum csf::ecc::IPModeEnum::IPMode)` | 62 | Exported Function
-`public: __thiscall csf::ecc::NetworkDetails::NetworkDetails(enum csf::ecc::IPModeEnum::IPMode)` | 63 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::SafeStringT<char,class csf::ecc::SafeAllocator<char> >(class csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> > const &)` | 37 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::~SafeStringT<char,class csf::ecc::SafeAllocator<char> >(void)` | 95 | Exported Function
-`public: __thiscall csf::ecc::SoftPhoneDnsHelper::SoftPhoneDnsHelper(class csf::ecc::SoftPhoneDnsHelper &&)` | 68 | Exported Function
-`public: __thiscall csf::ecc::SoftPhoneDnsHelper::SoftPhoneDnsHelper(class csf::ecc::SoftPhoneDnsHelper const &)` | 69 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::SafeStringT<char,class csf::ecc::SafeAllocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 38 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::SafeStringT<char,class csf::ecc::SafeAllocator<char> >(unsigned int,char)` | 39 | Exported Function
-`public: __thiscall csf::ecc::SafeStringT<char,class csf::ecc::SafeAllocator<char> >::SafeStringT<char,class csf::ecc::SafeAllocator<char> >(void)` | 42 | Exported Function
-`public: __thiscall WorkerThread::WorkerThread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 89 | Exported Function
-`public: __thiscall WorkerThread::WorkerThread(void)` | 90 | Exported Function
-`public: __thiscall XmlNode::operator bool(void)const ` | 146 | Exported Function
-`public: __thiscall UdpSocketHelperData::UdpSocketHelperData(void)` | 87 | Exported Function
+`allocator` | 64 | Exported Function
+`SoftPhoneDnsHelper` | 70 | Exported Function
+`NetworkDetails` | 102 | Exported Function
+`SafeAllocator` | 40 | Exported Function
+`SafeAllocator` | 41 | Exported Function
+`IPMode` | 61 | Exported Function
+`IPMode` | 62 | Exported Function
+`IPMode` | 63 | Exported Function
+`SafeAllocator` | 37 | Exported Function
+`SafeAllocator` | 95 | Exported Function
+`SoftPhoneDnsHelper` | 68 | Exported Function
+`SoftPhoneDnsHelper` | 69 | Exported Function
+`allocator` | 38 | Exported Function
+`SafeAllocator` | 39 | Exported Function
+`SafeAllocator` | 42 | Exported Function
+`allocator` | 89 | Exported Function
+`WorkerThread` | 90 | Exported Function
+`operator` | 146 | Exported Function
+`UdpSocketHelperData` | 87 | Exported Function
 `public: __thiscall UdpSocketHelperData::~UdpSocketHelperData(void)` | 116 | Exported Function
-`public: __thiscall UdpSocketHelperImpl::UdpSocketHelperImpl(void)` | 88 | Exported Function
-`public: __thiscall XmlNode::XmlNode(class XmlNode const &)` | 91 | Exported Function
-`public: bool __thiscall CountDownLatch::await(int)` | 190 | Exported Function
-`public: bool __thiscall csf::ecc::LocationDetails::getIsBlank(void)const ` | 282 | Exported Function
-`public: bool __thiscall csf::ecc::LocationDetails::getIsWifi(void)const ` | 283 | Exported Function
-`public: __thiscall XmlNode::XmlNode(struct _xmlDoc *)` | 92 | Exported Function
-`public: __thiscall XmlNode::XmlNode(struct _xmlDoc *,struct _xmlNode *)` | 93 | Exported Function
-`public: __thiscall XmlNode::XmlNode(void)` | 94 | Exported Function
-`public: __thiscall UdpSocketHelper::UdpSocketHelper(void)` | 86 | Exported Function
-`public: __thiscall TcpSocketHelper::TcpSocketHelper(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 73 | Exported Function
-`public: __thiscall ThreadEvent::ThreadEvent(bool)` | 79 | Exported Function
+`UdpSocketHelperImpl` | 88 | Exported Function
+`XmlNode` | 91 | Exported Function
+`await` | 190 | Exported Function
+`getIsBlank` | 282 | Exported Function
+`getIsWifi` | 283 | Exported Function
+`XmlNode` | 92 | Exported Function
+`XmlNode` | 93 | Exported Function
+`XmlNode` | 94 | Exported Function
+`UdpSocketHelper` | 86 | Exported Function
+`allocator` | 73 | Exported Function
+`ThreadEvent` | 79 | Exported Function
 `public: __thiscall ThreadEvent::~ThreadEvent(void)` | 112 | Exported Function
-`public: __thiscall ScopedXmlReadMemory::ScopedXmlReadMemory(char const *,char const *)` | 67 | Exported Function
-`public: __thiscall ScopedXmlReadMemory::ScopedXmlReadMemory(struct _xmlDoc *)` | 66 | Exported Function
+`ScopedXmlReadMemory` | 67 | Exported Function
+`ScopedXmlReadMemory` | 66 | Exported Function
 `public: __thiscall ScopedXmlReadMemory::~ScopedXmlReadMemory(void)` | 105 | Exported Function
-`public: __thiscall Timeout::Timeout(class csf::ecc::WorkItem *,int)` | 81 | Exported Function
-`public: __thiscall Timer::Timer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 83 | Exported Function
-`public: __thiscall Timer::Timer(void)` | 84 | Exported Function
-`public: __thiscall UdpSocketHelper::UdpSocketHelper(class UdpSocketHelper const &)` | 85 | Exported Function
-`public: __thiscall Timeout::Timeout(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 80 | Exported Function
-`public: __thiscall Timeout::Timeout(class std::shared_ptr<class csf::ecc::WorkItem>,int)` | 82 | Exported Function
+`WorkItem` | 81 | Exported Function
+`allocator` | 83 | Exported Function
+`Timer` | 84 | Exported Function
+`UdpSocketHelper` | 85 | Exported Function
+`allocator` | 80 | Exported Function
+`WorkItem` | 82 | Exported Function
 `public: __thiscall Timeout::~Timeout(void)` | 113 | Exported Function
 
 

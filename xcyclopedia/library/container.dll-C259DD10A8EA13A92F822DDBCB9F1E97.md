@@ -26,22 +26,22 @@ PE256 | `34E39CE57B3C942C03E4AB698E59C1A7949468D84BF9BD55C5F02519A1BAB7B1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void * __stdcall container::GetComRegistryRoot(void *)` | 4 | Exported Function
-`unsigned char __stdcall container::IsContainerQuiescent(void *)` | 8 | Exported Function
-`void __stdcall container::AddRuntimeVirtualKeysToContainer(void *,unsigned long,struct _WC_VKEY_INFO *)` | 1 | Exported Function
-`void * __stdcall container::LaunchApplicationContainer(void *,unsigned short const *,unsigned long)` | 9 | Exported Function
-`bool __stdcall container::ShutdownAppContainer(void *)` | 14 | Exported Function
+`GetComRegistryRoot` | 4 | Exported Function
+`IsContainerQuiescent` | 8 | Exported Function
+`AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`LaunchApplicationContainer` | 9 | Exported Function
+`ShutdownAppContainer` | 14 | Exported Function
 `_WcWaitForContainerTerminationNotification@4` | 32 | Exported Function
-`struct _WC_CONTAINER_NOTIFICATION * __stdcall container::RegisterForContainerTerminationNotification(void *,void (__stdcall*)(void *,enum _WC_CONTAINER_TERMINATION_REASON,struct _WC_CONTAINER_NOTIFICATION *,void *),void *)` | 11 | Exported Function
-`class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > __stdcall container::GetContainerIdentifierString(void *)` | 5 | Exported Function
-`void __stdcall container::ReleaseContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION *)` | 12 | Exported Function
-`void __stdcall container::LaunchContainer(void *)` | 10 | Exported Function
-`void __stdcall container::WaitForContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION *)` | 15 | Exported Function
-`void __stdcall container::SetRegistryFlushState(void *,unsigned char)` | 13 | Exported Function
-`void __stdcall container::CreateContainer(void *,struct container::DefinitionFile::Container const &,bool,void *)` | 3 | Exported Function
-`void __stdcall container::CleanupContainer(void *,unsigned short const *)` | 2 | Exported Function
-`void __stdcall container::GetRegistryRootPath(void *,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > const &,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)` | 7 | Exported Function
-`void __stdcall container::GetContainerObjectRootPath(void *,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)` | 6 | Exported Function
+`RegisterForContainerTerminationNotification` | 11 | Exported Function
+`GetContainerIdentifierString` | 5 | Exported Function
+`ReleaseContainerTerminationNotification` | 12 | Exported Function
+`LaunchContainer` | 10 | Exported Function
+`WaitForContainerTerminationNotification` | 15 | Exported Function
+`SetRegistryFlushState` | 13 | Exported Function
+`Container` | 3 | Exported Function
+`CleanupContainer` | 2 | Exported Function
+`allocator` | 7 | Exported Function
+`allocator` | 6 | Exported Function
 `_WcGetComRegistryRoot@8` | 21 | Exported Function
 `_WcDestroyDescription@4` | 20 | Exported Function
 `_WcGetContainerObjectRootPath@12` | 23 | Exported Function

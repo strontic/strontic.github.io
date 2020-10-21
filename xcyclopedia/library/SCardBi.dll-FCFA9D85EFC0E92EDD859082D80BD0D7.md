@@ -26,12 +26,12 @@ PE256 | `3A7FD363834B9549671F88802D910F634BA4AB60501E947509B0252A76922084`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class SmartCardBiManager * __ptr64 __cdecl SmartCardBiManager::Instance(void)` | 5 | Exported Function
-`public: static long __cdecl SmartCardBiManager::Initialize(void)` | 4 | Exported Function
+`Instance` | 5 | Exported Function
+`Initialize` | 4 | Exported Function
 `public: virtual __cdecl SmartCardBiManager::~SmartCardBiManager(void) __ptr64` | 2 | Exported Function
 `const SmartCardBiManager::``vftable'` | 3 | Exported Function
 `DllMain` | 6 | Exported Function
-`protected: __cdecl SmartCardBiManager::SmartCardBiManager(void) __ptr64` | 1 | Exported Function
+`SmartCardBiManager` | 1 | Exported Function
 
 
 ## Signature

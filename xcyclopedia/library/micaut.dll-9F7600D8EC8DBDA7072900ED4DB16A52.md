@@ -56,6 +56,12 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/8b9618948774a95669b48b63aae41ed24aeda7a6d99b58b8760cfc0faaea55e9/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Common Files\microsoft shared\ink\mip.exe](mip.exe-259069D594D07D2E7EB064B3CC1A6DD5.md) | 35
+
 
 
 

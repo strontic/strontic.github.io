@@ -26,44 +26,44 @@ PE256 | `7C76AF6A57960451751C76ADDEC2AE15A4883B04CD78A1316FA34424563D8CC0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 20 | Exported Function
-`public: class CCommonUtilities & __thiscall CCommonUtilities::operator=(class CCommonUtilities const &)` | 17 | Exported Function
-`public: class IHSEventListener & __thiscall IHSEventListener::operator=(class IHSEventListener const &)` | 19 | Exported Function
-`public: class HSStackInterface::IStackInterface & __thiscall HSStackInterface::IStackInterface::operator=(class HSStackInterface::IStackInterface const &)` | 23 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 10 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 1 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 8 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 9 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 2 | Exported Function
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 21 | Exported Function
+`IHSInterface` | 20 | Exported Function
+`operator` | 17 | Exported Function
+`operator` | 19 | Exported Function
+`IStackInterface` | 23 | Exported Function
+`ISFInterface` | 10 | Exported Function
+`ICall` | 1 | Exported Function
+`ISFEventListener` | 8 | Exported Function
+`ISFInterface` | 9 | Exported Function
+`ICall` | 2 | Exported Function
+`operator` | 21 | Exported Function
 `setCCSettings` | 36 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 15 | Exported Function
+`ISFInterface` | 15 | Exported Function
 `uninitializeCCEngine` | 38 | Exported Function
 `transferCall` | 37 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 13 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 22 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 18 | Exported Function
-`public: virtual __thiscall HSStackInterface::IStackInterface::~IStackInterface(void)` | 16 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 14 | Exported Function
+`ICall` | 13 | Exported Function
+`ISFInterface` | 22 | Exported Function
+`ICall` | 18 | Exported Function
+`IStackInterface` | 16 | Exported Function
+`IHSInterface` | 14 | Exported Function
 `deviceState` | 30 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 28 | Exported Function
+`ISFInterface` | 28 | Exported Function
 `getAvailableSPDetails` | 32 | Exported Function
 `getAppState` | 31 | Exported Function
-`const SeComCall::ICall::``vftable'` | 24 | Exported Function
-`const HSStackInterface::IStackInterface::``vftable'` | 29 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 26 | Exported Function
+`ICall` | 24 | Exported Function
+`IStackInterface` | 29 | Exported Function
+`IHSInterface` | 26 | Exported Function
 `const ISFEventListener::``vftable'` | 27 | Exported Function
 `const IHSEventListener::``vftable'` | 25 | Exported Function
 `getDefaultSettings` | 33 | Exported Function
-`public: __thiscall IHSEventListener::IHSEventListener(class IHSEventListener const &)` | 3 | Exported Function
-`public: __thiscall HSStackInterface::IStackInterface::IStackInterface(void)` | 12 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 7 | Exported Function
-`public: __thiscall IHSEventListener::IHSEventListener(void)` | 4 | Exported Function
-`public: __thiscall HSStackInterface::IStackInterface::IStackInterface(class HSStackInterface::IStackInterface const &)` | 11 | Exported Function
+`IHSEventListener` | 3 | Exported Function
+`IStackInterface` | 12 | Exported Function
+`ISFEventListener` | 7 | Exported Function
+`IHSEventListener` | 4 | Exported Function
+`IStackInterface` | 11 | Exported Function
 `initializeCCEngine` | 35 | Exported Function
 `getNamesOfConnectedHS` | 34 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 6 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 5 | Exported Function
+`IHSInterface` | 6 | Exported Function
+`IHSInterface` | 5 | Exported Function
 
 
 ## Signature

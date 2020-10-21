@@ -26,11 +26,11 @@ PE256 | `45A731DC216BBA86C6DE699245927C1578CDF49A2F98C525B1A29F4620B6A327`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __cdecl Outlook::Gates::Initialize(void)` | 4 | Exported Function
-`void __cdecl Outlook::Gates::Terminate(void)` | 5 | Exported Function
-`struct Outlook::Logging::ILogManager * __cdecl Outlook::Logging::GetManagerEx(enum Outlook::Logging::GetManagerOption)` | 3 | Exported Function
-`bool __cdecl Outlook::Gates::ComputeRipcordValue(unsigned __int64)` | 1 | Exported Function
-`struct Outlook::Logging::ILogManager * __cdecl Outlook::Logging::GetManager(void)` | 2 | Exported Function
+`Initialize` | 4 | Exported Function
+`Terminate` | 5 | Exported Function
+`GetManagerOption` | 3 | Exported Function
+`ComputeRipcordValue` | 1 | Exported Function
+`GetManager` | 2 | Exported Function
 
 
 ## Signature

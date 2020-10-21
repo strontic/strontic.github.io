@@ -18,6 +18,9 @@ SHA256 | `B137EFEBC097FDA9311A4526E450238B07E15B6EA78F78B0C14C1EB073A171F6`
 SHA384 | `DC339058B58AC2F5B4F3D09FE46F0417F0744587053AE899FA0A1916BB08516679CE693069A6DF6F0E812AE3E0B5584E`
 SHA512 | `728B14DA54BAF8085673C7C0F05AA0190245B9CBF8BA58ABF96247FEA46BE8A01D518652D63BE342ED62FDB9F5076AF1CA36D7ACCF4B64267FF42BC51C523FBC`
 SSDEEP | `1536:zyiuSPDRY4uNQCqTL7HxttSf68XigRoZfYjk:ewFYhqNH7tSf68XB0f`
+IMP | `6A3E1358BC46591E817A18E666B710E4`
+PESHA1 | `0C22C503F29B1DEFBA733185C4F0272153B4DB46`
+PE256 | `085E40CD4016B0A5B7F8248C7F2EA09C901E0C077E52176FB4D8033B90DAB6A3`
 
 ## Runtime Data
 
@@ -47,8 +50,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\nslookup.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -81,7 +87,12 @@ C:\Windows\SysWOW64\nslookup.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/b137efebc097fda9311a4526e450238b07e15b6ea78f78b0c14c1eb073a171f6/detection/
 
 
 ## Possible Misuse

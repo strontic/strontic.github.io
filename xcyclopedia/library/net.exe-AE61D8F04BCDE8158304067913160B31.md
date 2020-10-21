@@ -18,6 +18,9 @@ SHA256 | `25C8266D2BC1D5626DCDF72419838B397D28D44D00AC09F02FF4E421B43EC369`
 SHA384 | `044C249B23A8F7583C7BB20F8CD1F1F7AD4A26CA335F917906D487E792E2E6B23F6051D180952977F37F975A52CFFA85`
 SHA512 | `0B3B8662FF95CD4D9CF42B9179E111C9A51654908938E25F9BD5EAE2A4177F767EA2EBD0EFD9DED5DCA2D7D4FF18ADD7AA945D6638439F7A848B11C630CD153D`
 SSDEEP | `768:MxLuocL47+gV+tNnXJ8t+vsKDaZ3I9eEFJDCtIyLQZ0uZnJ:9ocLQ+DRXOasKDBLD+NsZJJ`
+IMP | `57F0C47AE2A1A2C06C8B987372AB0B07`
+PESHA1 | `EC7616F37AA3C497C111E6DD0F721EB5D2024DCB`
+PE256 | `2D16BF609CB22E6F923D76098B47F619FE2CEF93E28961810069C30ACAF789B8`
 
 ## Runtime Data
 
@@ -63,10 +66,22 @@ NET
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\IPHLPAPI.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\net.exe |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\srvcli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wkscli.dll |
 
 
 ## Signature
@@ -86,7 +101,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/25c8266d2bc1d5626dcdf72419838b397d28d44d00ac09f02ff4e421b43ec369/detection/
 
 
 ## Possible Misuse

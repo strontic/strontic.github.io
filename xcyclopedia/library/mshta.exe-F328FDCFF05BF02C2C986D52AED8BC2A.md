@@ -18,6 +18,9 @@ SHA256 | `E616C5CE71886652C13E2E1FA45A653B44D492B054F16B15A38418B8507F57C7`
 SHA384 | `0E55ADA950494D9A7F6E0425BC2A7B8D9586F3B356F5D1E70427266EB58CFAC06B80FFF0B6ADBE803B46A9E5C9B450E6`
 SHA512 | `EE6EB657562C746737E89ADB7C6E0D142FDDE8CADA1725EDF15BC82DF623A9AB547BDAB5830B811CE87D5F0F6FEED87B3194BC80544780F9914FDF96571023DE`
 SSDEEP | `192:ZA27mrbZUIhKPxwya+TW0/z5S7X6Bz3vEXPXWwG/IR:T7wFXh6mD+TW0kXSvEXfWwG`
+IMP | `42DA177DE2FAA97C3DFAEC9562772A7F`
+PESHA1 | `B52EDABFCEE656CC77281EF1A876BBBF95048EC7`
+PE256 | `3537A373EABD126B60E0A743950C5744271341D06E91491F86F4418886A11EF2`
 
 ## Runtime Data
 
@@ -26,14 +29,50 @@ SSDEEP | `192:ZA27mrbZUIhKPxwya+TW0/z5S7X6Bz3vEXPXWwG/IR:T7wFXh6mD+TW0kXSvEXfWwG
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTBASE.DLL |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
 C:\Windows\system32\mshta.exe |
+C:\Windows\System32\mshtml.dll |
+C:\Windows\system32\msIso.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\srpapi.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\system32\wkscli.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1518_none_6d08fefc59f73326\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\comctl32.dll |
 
 
 ## Signature
@@ -53,7 +92,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/e616c5ce71886652c13e2e1fa45a653b44d492b054f16b15a38418b8507f57c7/detection/
 
 
 ## Possible Misuse

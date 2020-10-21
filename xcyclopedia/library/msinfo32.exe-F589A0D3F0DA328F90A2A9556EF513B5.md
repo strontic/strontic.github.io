@@ -22,6 +22,9 @@ SHA256 | `9D9EFB1655826BC2CC5F0767C2F461BBE6D8E743113EB6B396B5966740373DEC`
 SHA384 | `D8ABCEC2963AD3AFB9067023D10F542F9D3D4C4C7E6E81C374DE24B420FC603760D92E197179C891B2BC96830FDFA952`
 SHA512 | `09F769849517095A491217E5BA65F39F9BD6056BA0C71D6DA82BCE00BFB63ACD1D8088C73A54E51D8D37A9C9C89A7141A65F663FD5728C3BA50AEFFD1660E09F`
 SSDEEP | `6144:uHJ3+9UJO4va8O8Qu0dIlUD7Drj7jmyh27ZEOHHrpm1XUZLxEZEOHHrpm1XUZLxO:uHJ3+9UkMOG0dIlUD7Drj7jmJFtLpm1G`
+IMP | `72E2900DB084B32F54B445BDE1B7E0E8`
+PESHA1 | `13B28A68CD8D2EBF25F62EEAF92B3AE553DEFD4A`
+PE256 | `73CCA4A2956F6225504501A9E49648AF62D0E6B2E87A6B574C23F1200F7DC1EA`
 
 ## Runtime Data
 
@@ -37,15 +40,18 @@ Path | Type
 (R-D)   C:\Windows\SysWOW64\en-US\msinfo32.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1798 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\RPC Control\DSEC13FC | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -76,14 +82,21 @@ C:\Windows\SysWOW64\msinfo32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9d9efb1655826bc2cc5f0767c2f461bbe6d8e743113eb6b396b5966740373dec/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 55
+[C:\Program Files (x86)\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-F589A0D3F0DA328F90A2A9556EF513B5.md) | 100
 [C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 55
+[C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 61
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 55
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 61
 [C:\windows\system32\msinfo32.exe](msinfo32.exe-4BA6D7F9032FE80308C0501E087A54F6.md) | 61

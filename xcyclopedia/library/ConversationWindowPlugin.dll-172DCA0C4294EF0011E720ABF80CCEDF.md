@@ -26,9 +26,9 @@ PE256 | `147CBE6E1AAAAEBEC37B1D4F59E491EF3324FE5349A262C56B3D29D18EE92DCE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static void __cdecl ConversationWindowUtils::CalculateWindowSize(struct tagSIZE &,class std::vector<struct PaneData,class std::allocator<struct PaneData> > &,long,enum ResizeMode)` | 1 | Exported Function
-`public: static void __cdecl ConversationWindowUtils::GetTabViewAreaSizeFromWindow(struct tagSIZE &,struct tagSIZE &,struct IntegratedWindowMetadata)` | 2 | Exported Function
-`public: static void __cdecl ConversationWindowUtils::GetWindowSizeFromTabViewAreaSize(struct tagSIZE &,struct tagSIZE &,struct IntegratedWindowMetadata)` | 3 | Exported Function
+`allocator` | 1 | Exported Function
+`GetTabViewAreaSizeFromWindow` | 2 | Exported Function
+`GetWindowSizeFromTabViewAreaSize` | 3 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
 `DllGetClassObject` | 5 | Exported Function

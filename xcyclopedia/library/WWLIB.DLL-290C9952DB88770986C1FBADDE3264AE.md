@@ -26,16 +26,16 @@ PE256 | `E950DEC8072C8BEC0E5B1CFEBCADBA8384AC081436C27B6CF5D512A76F90B398`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __stdcall WordMailReact::AppendContentAsync(int,struct WordMailReact::CReactPartCreationParams &&)` | 5 | Exported Function
-`public: static class WordMailReact::WordMailReactUser * __stdcall WordMailReact::WordMailReactUser::PUserInstanceGet(void)` | 10 | Exported Function
-`int __stdcall WordMailReact::CreateReadingPaneDocument(bool)` | 7 | Exported Function
-`void __stdcall WordMailReact::ClearDocument(int)` | 6 | Exported Function
+`CReactPartCreationParams` | 5 | Exported Function
+`PUserInstanceGet` | 10 | Exported Function
+`CreateReadingPaneDocument` | 7 | Exported Function
+`ClearDocument` | 6 | Exported Function
 `wdGetApplicationObject` | 2 | Exported Function
 `wdCommandDispatch` | 1 | Exported Function
-`void __stdcall WordMailReact::StartSave(int,class std::vector<enum DocumentSaveFormat,class std::allocator<enum DocumentSaveFormat> > &&,bool,class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > &&)` | 11 | Exported Function
+`allocator` | 11 | Exported Function
 `DllCanUnloadNow` | 12 | Exported Function
-`class std::vector<int,class std::allocator<int> > __stdcall WordMailReact::InsertPartsIntoDocument(int,class std::vector<struct WordMailReact::CReactPartCreationParams,class std::allocator<struct WordMailReact::CReactPartCreationParams> > &&,struct RelativePartInsertionLocation)` | 9 | Exported Function
-`bool __stdcall WordMailReact::FUpdateAttachments(int,class std::vector<struct WordMailReact::InlineAttachmentInfo,class std::allocator<struct WordMailReact::InlineAttachmentInfo> > &&)` | 8 | Exported Function
+`CReactPartCreationParams` | 9 | Exported Function
+`InlineAttachmentInfo` | 8 | Exported Function
 `DllGetClassObject` | 13 | Exported Function
 `FMain` | 3 | Exported Function
 `DllMain` | 4 | Exported Function

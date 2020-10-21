@@ -57,18 +57,18 @@ Function Name | Ordinal | Type
 `mari_wqos_network_monitor_destroy` | 110 | Exported Function
 `newCRsFecHeader` | 117 | Exported Function
 `newMariFecLevel` | 118 | Exported Function
-`unsigned int __cdecl CPVEMARI::wqos::GetFeedbackGeneratorSize(void)` | 12 | Exported Function
+`GetFeedbackGeneratorSize` | 12 | Exported Function
 `newCMariRSRecoveryEncoderWithoutGetFecLevel` | 116 | Exported Function
 `MariFecLevel_setMinimumFecBurstProt` | 94 | Exported Function
 `newCMariRSRecoveryDecoder` | 114 | Exported Function
 `newCMariRSRecoveryEncoderWithGetFecLevel` | 115 | Exported Function
-`void __cdecl CPVEMARI::wqos::DestroyNetworkMonitor(class CPVEMARI::wqos::INetworkMonitor *)` | 9 | Exported Function
-`void __cdecl CPVEMARI::wqos::DestroyNetworkWarn(class CPVEMARI::wqos::INetworkWarn *)` | 10 | Exported Function
-`void __cdecl CPVEMARI::wqos::DestroyQoSViz(class CPVEMARI::wqos::IQoSViz *)` | 11 | Exported Function
-`void __cdecl CPVEMARI::wqos::DestroyFeedbackGenerator(class CPVEMARI::wqos::IQoSFeedbackGenerator *)` | 8 | Exported Function
-`unsigned int __cdecl CPVEMARI::wqos::GetFeedbackItemSize(void)` | 13 | Exported Function
-`void __cdecl CPVEMARI::wqos::DeinitFeedbackGenerator(class CPVEMARI::wqos::IQoSFeedbackGenerator *)` | 6 | Exported Function
-`void __cdecl CPVEMARI::wqos::DestroyBandwidthEvaluator(class CPVEMARI::wqos::IBandwidthEvaluator *)` | 7 | Exported Function
+`INetworkMonitor` | 9 | Exported Function
+`INetworkWarn` | 10 | Exported Function
+`IQoSViz` | 11 | Exported Function
+`IQoSFeedbackGenerator` | 8 | Exported Function
+`GetFeedbackItemSize` | 13 | Exported Function
+`IQoSFeedbackGenerator` | 6 | Exported Function
+`IBandwidthEvaluator` | 7 | Exported Function
 `MariFecLevel_setMaxN` | 93 | Exported Function
 `MariCLossWindow_feedbackReceived` | 83 | Exported Function
 `MariCLossWindow_getHighestLoss` | 84 | Exported Function
@@ -99,13 +99,13 @@ Function Name | Ordinal | Type
 `CMariRSRecoveryDecoder_registerProtectionStatusCBs` | 32 | Exported Function
 `CMariRSRecoveryEncoder_addMediaPacket` | 33 | Exported Function
 `CMariRAFBPacket_get_ssrc` | 23 | Exported Function
-`class CPVEMARI::wqos::IQoSFeedbackGenerator * __cdecl CPVEMARI::wqos::InitFeedbackGenerator(void *,void *,unsigned int,enum CPVEMARI::wqos::AdjustmentPolicy)` | 14 | Exported Function
-`class CPVEMARI::wqos::IQoSViz * __cdecl CPVEMARI::wqos::CreateQoSViz(void)` | 5 | Exported Function
+`AdjustmentPolicy` | 14 | Exported Function
+`CreateQoSViz` | 5 | Exported Function
 `CMariRAFBPacket_decode` | 15 | Exported Function
-`class CPVEMARI::wqos::IQoSFeedbackGenerator * __cdecl CPVEMARI::wqos::CreateFeedbackGenerator(unsigned int,enum CPVEMARI::wqos::AdjustmentPolicy)` | 2 | Exported Function
-`class CPVEMARI::wqos::IBandwidthEvaluator * __cdecl CPVEMARI::wqos::CreateBandwidthEvaluator(enum CPVEMARI::wqos::ConnectionType,unsigned int,enum CPVEMARI::wqos::AdjustmentPolicy)` | 1 | Exported Function
-`class CPVEMARI::wqos::INetworkMonitor * __cdecl CPVEMARI::wqos::CreateNetworkMonitor(enum CPVEMARI::wqos::ConnectionType,enum CPVEMARI::wqos::AdjustmentPolicy)` | 3 | Exported Function
-`class CPVEMARI::wqos::INetworkWarn * __cdecl CPVEMARI::wqos::CreateNetworkWarn(void)` | 4 | Exported Function
+`AdjustmentPolicy` | 2 | Exported Function
+`AdjustmentPolicy` | 1 | Exported Function
+`AdjustmentPolicy` | 3 | Exported Function
+`CreateNetworkWarn` | 4 | Exported Function
 `CMariRAFBPacket_get_loss_ratio` | 20 | Exported Function
 `CMariRAFBPacket_get_qdelay` | 21 | Exported Function
 `CMariRAFBPacket_get_receive_rate` | 22 | Exported Function

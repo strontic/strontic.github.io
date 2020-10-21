@@ -18,6 +18,9 @@ SHA256 | `16C7C773BF7CB099132D30D1ED5160D10918DB0101F5CC3D4D197E1E4D0D4CCA`
 SHA384 | `20F1821B741F0EDB6B55F15BD184C54E0061912ABCAD33BADDBF7CD977F9399C488943F19619BA502F4EA9F85322DD88`
 SHA512 | `4DF25A63EC689FCAD6F1296E1880BDB61B94CA213EC52CA203F808874FD6B867C6F8E2FEB3119CD47FD915281F88B773307C031AA12FD5BE2FC3646E8F7E120E`
 SSDEEP | `384:Nq7VBlo9dJkqeS2ThhUuTX/3dPKLlWIUW:NQBlo9doS2TjX/3dPIR`
+IMP | `D67C73847BD1DC0D9109BA544AD6C11D`
+PESHA1 | `231131C8719BE0CC656B4211868728F1530D2EDC`
+PE256 | `138D25D4900C3AC42E115C2563303D3E8CE613A1B809E9198B2FB07E227759EF`
 
 ## Runtime Data
 
@@ -36,10 +39,15 @@ PRINT [/D:device] [[drive:][path]filename[...]]
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\print.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\ulib.dll |
 
 
 ## Signature
@@ -59,7 +67,12 @@ C:\Windows\system32\print.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/16c7c773bf7cb099132d30d1ed5160d10918db0101f5cc3d4d197e1e4d0d4cca/detection/
 
 
 ## Possible Misuse

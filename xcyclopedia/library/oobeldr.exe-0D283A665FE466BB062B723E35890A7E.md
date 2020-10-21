@@ -8,6 +8,10 @@ excerpt: What is oobeldr.exe?
 * File Path: `C:\Windows\system32\oobe\oobeldr.exe`
 * Description: OOBE Loader
 
+## Screenshot
+
+![oobeldr.exe](screenshots/oobeldr.exe-30B8229A7C3990862504B2F2D62B92FB-1.png)
+
 ## Hashes
 
 Type | Hash
@@ -27,7 +31,7 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\oobe\en-US\oobeldr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagerr.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagwrn.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\setupact.log | File

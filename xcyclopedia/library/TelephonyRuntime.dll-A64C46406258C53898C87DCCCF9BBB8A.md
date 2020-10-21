@@ -26,203 +26,203 @@ PE256 | `860D5FE11F10DD40C4292957C08E058CEA766AC92A6707E80CC7F424F0360354`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`protected: void __thiscall MultilineEventMgr::firePhoneModeSingleLineAvailable(void)` | 73 | Exported Function
-`protected: void __thiscall MultilineEventMgr::enableSingleLine(void)` | 66 | Exported Function
-`protected: void __thiscall MultilineEventMgr::destroySinglelineNotifier(void)` | 61 | Exported Function
-`protected: void __thiscall MultilineEventMgr::firePhoneModeSingleLineEnabled(void)` | 76 | Exported Function
-`protected: void __thiscall MultilineEventMgr::firePhoneModeSingleLineDisconnected(void)` | 75 | Exported Function
-`protected: void __thiscall MultilineEventMgr::firePhoneModeSingleLineDisabled(void)` | 74 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::firePreferredLineUpdated(void)` | 78 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::fireMultilineUnavailable(void)` | 72 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::fireMultilineEnabled(void)` | 71 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::setSinglelineState(enum SINGLELINESTATE)` | 174 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::setMultilineState(enum MULTILINESTATE)` | 173 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::initMultilineNotifier(void)` | 94 | Exported Function
-`public: __thiscall MultilineEventMgr::MultilineEventMgr(class MultilineEventMgr const &)` | 3 | Exported Function
-`protected: void __thiscall MultilineEventMgr::onTelephonyDeviceChanged(bool)` | 154 | Exported Function
-`protected: void __thiscall MultilineEventMgr::onSingleLineConnectionStatusChanged(void)` | 152 | Exported Function
-`public: __thiscall RuntimeToolbarEvents::RuntimeToolbarEvents(class RuntimeToolbarEvents const &)` | 6 | Exported Function
-`public: __thiscall MultilineEventMgr::MultilineEventMgr(void)` | 5 | Exported Function
-`public: __thiscall MultilineEventMgr::MultilineEventMgr(class std::weak_ptr<class CSFUnified::TelephonyService>,struct IPluginRuntime *,class CSFUnified::ServiceFactory *)` | 4 | Exported Function
-`protected: void __thiscall MultilineEventMgr::onConnectionStatusChanged(void)` | 116 | Exported Function
-`protected: void __thiscall MultilineEventMgr::initSinglelineNotifier(void)` | 96 | Exported Function
-`protected: void __thiscall MultilineEventMgr::firePhoneModeSingleLineUnavailable(void)` | 77 | Exported Function
-`protected: void __thiscall MultilineEventMgr::onPreferredLineChanged(bool)` | 133 | Exported Function
-`protected: void __thiscall MultilineEventMgr::onIsSingleLineConfiguredChanged(bool)` | 131 | Exported Function
-`protected: void __thiscall MultilineEventMgr::onIsMultilineConfiguredChanged(bool)` | 130 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::fireMultilineDisconnected(void)` | 70 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::initPlugin(struct IPluginRuntime *,class IJabberContext *)` | 95 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::destroy(bool &)` | 59 | Exported Function
-`protected: virtual enum SINGLELINESTATE __thiscall MultilineEventMgr::getSinglelineState(void)` | 89 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::logoutRequested(bool *)` | 106 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::loggedOut(void)` | 105 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::loggedIn(void)` | 104 | Exported Function
-`protected: virtual class CSFUnified::ServiceFactory * __thiscall MultilineEventMgr::GetServiceFactory(void)` | 29 | Exported Function
-`protected: class std::enable_shared_from_this<class RuntimeToolbarEvents> & __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::operator=(class std::enable_shared_from_this<class RuntimeToolbarEvents> const &)` | 14 | Exported Function
-`protected: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MultilineEventMgr::stateStr(enum MULTILINESTATE)` | 181 | Exported Function
-`protected: virtual enum MULTILINESTATE __thiscall MultilineEventMgr::getMultilineState(void)` | 87 | Exported Function
-`protected: virtual class std::shared_ptr<class CSFUnified::TelephonyService> __thiscall MultilineEventMgr::GetTelephonyService(void)` | 32 | Exported Function
-`protected: virtual class std::shared_ptr<class CSFUnified::TelephonyDevice> __thiscall MultilineEventMgr::GetTelephonyDevice(void)` | 31 | Exported Function
-`protected: virtual unsigned long __stdcall TelephonyRuntime::Release(void)` | 40 | Exported Function
-`protected: virtual unsigned long __stdcall TelephonyRuntime::AddRef(void)` | 23 | Exported Function
-`protected: virtual struct IPluginRuntime * __thiscall MultilineEventMgr::GetPluginRuntime(void)` | 26 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::fireMultilineDisabled(void)` | 69 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::fireMultilineAvailable(void)` | 68 | Exported Function
-`protected: virtual void __thiscall MultilineEventMgr::destroyMultilineNotifier(void)` | 60 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::onDefaultActionRequested(class std::shared_ptr<class JabberSelectionContextStruct>,wchar_t *,bool &)` | 129 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::onBroadcastMessageReceived(wchar_t *)` | 109 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::onApplicationStateChanged(enum ApplicationState)` | 107 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::startPlugin(void)` | 180 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::QueryInterface(struct _GUID const &,void * *)` | 38 | Exported Function
-`protected: virtual long __stdcall TelephonyRuntime::processLocalEvent(wchar_t *,unsigned int,long)` | 165 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarLoaded(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>,enum ToolbarType,wchar_t *,struct HWND__ *)` | 160 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarKeyDown(unsigned int,unsigned int,unsigned int,unsigned int,long)` | 159 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarContextChanged(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>,class std::shared_ptr<class JabberSelectionContextStruct>,struct HWND__ *)` | 158 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarVisibilityChanged(unsigned int,unsigned int,bool)` | 163 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarUnloaded(unsigned int)` | 162 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarStatusAreaAdded(unsigned int,unsigned int,unsigned int)` | 161 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationWindowManagerUnloaded(unsigned int)` | 128 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationWindowManagerLoaded(unsigned int,struct IJabberIntegratedConversationWindow *)` | 127 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationWindowActive(unsigned int,unsigned int,bool)` | 126 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarCommandExecuted(unsigned int,unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>,struct tagRECT,wchar_t *,struct HWND__ *)` | 157 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onToolbarButtonChanged(unsigned int,unsigned int,struct tagRECT)` | 156 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onPopoutWindowClosed(unsigned int,unsigned int,unsigned int)` | 132 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::onSearchboxAction(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 139 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::OnJCFConversationsChanged(bool,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::Conversation>,class std::allocator<class std::shared_ptr<class CSFUnified::Conversation> > > >,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::Conversation>,class std::allocator<class std::shared_ptr<class CSFUnified::Conversation> > > >)` | 36 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::OnBridgeConferencingChanged(int,unsigned int)` | 35 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::onSearchboxSelection(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 148 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::onSearchBoxRemoved(unsigned int)` | 136 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::onSearchBoxInserted(unsigned int,class ATL::CComBSTR,wchar_t *)` | 134 | Exported Function
-`public: virtual unsigned long __stdcall RuntimeToolbarEvents::AddRef(void)` | 22 | Exported Function
-`public: virtual struct IPluginRuntime * __thiscall TelephonyRuntime::GetPluginRuntime(void)` | 27 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::QueryInterface(struct _GUID const &,void * *)` | 37 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::disconnectBindings(void)` | 62 | Exported Function
-`public: void __thiscall RuntimeToolbarEvents::connectBindings(void)` | 53 | Exported Function
-`public: virtual unsigned long __stdcall RuntimeToolbarEvents::Release(void)` | 39 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationUpdated(unsigned int,unsigned int,wchar_t *,wchar_t *)` | 125 | Exported Function
-`public: class std::shared_ptr<class RuntimeToolbarEvents> __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::shared_from_this(void)` | 175 | Exported Function
-`public: class std::shared_ptr<class RuntimeToolbarEvents const > __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::shared_from_this(void)const ` | 176 | Exported Function
-`public: class std::shared_ptr<class RuntimeCompositeDeviceMenuManager> __thiscall RuntimeToolbarEvents::GetRuntimeCompositeDeviceMenuManager(void)` | 28 | Exported Function
-`public: class TelephonyRuntime & __thiscall TelephonyRuntime::operator=(class TelephonyRuntime const &)` | 15 | Exported Function
-`public: class std::weak_ptr<class RuntimeToolbarEvents> __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::weak_from_this(void)` | 192 | Exported Function
-`public: class std::weak_ptr<class RuntimeToolbarEvents const > __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::weak_from_this(void)const ` | 193 | Exported Function
-`public: __thiscall TelephonyRuntime::TelephonyRuntime(class TelephonyRuntime const &)` | 8 | Exported Function
+`firePhoneModeSingleLineAvailable` | 73 | Exported Function
+`enableSingleLine` | 66 | Exported Function
+`destroySinglelineNotifier` | 61 | Exported Function
+`firePhoneModeSingleLineEnabled` | 76 | Exported Function
+`firePhoneModeSingleLineDisconnected` | 75 | Exported Function
+`firePhoneModeSingleLineDisabled` | 74 | Exported Function
+`firePreferredLineUpdated` | 78 | Exported Function
+`fireMultilineUnavailable` | 72 | Exported Function
+`fireMultilineEnabled` | 71 | Exported Function
+`setSinglelineState` | 174 | Exported Function
+`setMultilineState` | 173 | Exported Function
+`initMultilineNotifier` | 94 | Exported Function
+`MultilineEventMgr` | 3 | Exported Function
+`onTelephonyDeviceChanged` | 154 | Exported Function
+`onSingleLineConnectionStatusChanged` | 152 | Exported Function
+`RuntimeToolbarEvents` | 6 | Exported Function
+`MultilineEventMgr` | 5 | Exported Function
+`ServiceFactory` | 4 | Exported Function
+`onConnectionStatusChanged` | 116 | Exported Function
+`initSinglelineNotifier` | 96 | Exported Function
+`firePhoneModeSingleLineUnavailable` | 77 | Exported Function
+`onPreferredLineChanged` | 133 | Exported Function
+`onIsSingleLineConfiguredChanged` | 131 | Exported Function
+`onIsMultilineConfiguredChanged` | 130 | Exported Function
+`fireMultilineDisconnected` | 70 | Exported Function
+`initPlugin` | 95 | Exported Function
+`destroy` | 59 | Exported Function
+`getSinglelineState` | 89 | Exported Function
+`logoutRequested` | 106 | Exported Function
+`loggedOut` | 105 | Exported Function
+`loggedIn` | 104 | Exported Function
+`GetServiceFactory` | 29 | Exported Function
+`enable_shared_from_this` | 14 | Exported Function
+`stateStr` | 181 | Exported Function
+`getMultilineState` | 87 | Exported Function
+`GetTelephonyService` | 32 | Exported Function
+`GetTelephonyDevice` | 31 | Exported Function
+`Release` | 40 | Exported Function
+`AddRef` | 23 | Exported Function
+`GetPluginRuntime` | 26 | Exported Function
+`fireMultilineDisabled` | 69 | Exported Function
+`fireMultilineAvailable` | 68 | Exported Function
+`destroyMultilineNotifier` | 60 | Exported Function
+`shared_ptr` | 129 | Exported Function
+`onBroadcastMessageReceived` | 109 | Exported Function
+`onApplicationStateChanged` | 107 | Exported Function
+`startPlugin` | 180 | Exported Function
+`QueryInterface` | 38 | Exported Function
+`processLocalEvent` | 165 | Exported Function
+`shared_ptr` | 160 | Exported Function
+`onToolbarKeyDown` | 159 | Exported Function
+`shared_ptr` | 158 | Exported Function
+`onToolbarVisibilityChanged` | 163 | Exported Function
+`onToolbarUnloaded` | 162 | Exported Function
+`onToolbarStatusAreaAdded` | 161 | Exported Function
+`onConversationWindowManagerUnloaded` | 128 | Exported Function
+`onConversationWindowManagerLoaded` | 127 | Exported Function
+`onConversationWindowActive` | 126 | Exported Function
+`shared_ptr` | 157 | Exported Function
+`onToolbarButtonChanged` | 156 | Exported Function
+`onPopoutWindowClosed` | 132 | Exported Function
+`shared_ptr` | 139 | Exported Function
+`Conversation` | 36 | Exported Function
+`OnBridgeConferencingChanged` | 35 | Exported Function
+`shared_ptr` | 148 | Exported Function
+`onSearchBoxRemoved` | 136 | Exported Function
+`CComBSTR` | 134 | Exported Function
+`AddRef` | 22 | Exported Function
+`GetPluginRuntime` | 27 | Exported Function
+`QueryInterface` | 37 | Exported Function
+`disconnectBindings` | 62 | Exported Function
+`connectBindings` | 53 | Exported Function
+`Release` | 39 | Exported Function
+`onConversationUpdated` | 125 | Exported Function
+`shared_from_this` | 175 | Exported Function
+`shared_from_this` | 176 | Exported Function
+`GetRuntimeCompositeDeviceMenuManager` | 28 | Exported Function
+`operator` | 15 | Exported Function
+`weak_from_this` | 192 | Exported Function
+`weak_from_this` | 193 | Exported Function
+`TelephonyRuntime` | 8 | Exported Function
 `public: __thiscall RuntimeToolbarEvents::~RuntimeToolbarEvents(void)` | 12 | Exported Function
-`public: __thiscall RuntimeToolbarEvents::RuntimeToolbarEvents(struct IPluginRuntime *,class IRuntimeToolbarEventsStaticsAccessor &,class IToolbarButtonInterface &)` | 7 | Exported Function
-`public: bool __thiscall RuntimeToolbarEvents::isConferenceDlgShown(void)` | 98 | Exported Function
+`RuntimeToolbarEvents` | 7 | Exported Function
+`isConferenceDlgShown` | 98 | Exported Function
 `public: __thiscall TelephonyRuntime::~TelephonyRuntime(void)` | 13 | Exported Function
-`public: __thiscall TelephonyRuntime::TelephonyRuntime(void)` | 9 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationCloseRequested(unsigned int,unsigned int,unsigned int,enum CLOSE_MESSAGE *,wchar_t * *)` | 120 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationClosed(unsigned int,unsigned int,bool,bool)` | 121 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationAdded(unsigned int,unsigned int)` | 119 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationSelected(unsigned int,unsigned int,unsigned int,bool)` | 124 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationRemoved(unsigned int,unsigned int)` | 123 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onConversationPaneAdded(unsigned int,unsigned int,unsigned int,unsigned int,enum PaneOrientation,struct HWND__ *)` | 122 | Exported Function
-`public: virtual class CSFUnified::ServiceFactory * __thiscall TelephonyRuntime::GetServiceFactory(void)` | 30 | Exported Function
+`TelephonyRuntime` | 9 | Exported Function
+`onConversationCloseRequested` | 120 | Exported Function
+`onConversationClosed` | 121 | Exported Function
+`onConversationAdded` | 119 | Exported Function
+`onConversationSelected` | 124 | Exported Function
+`onConversationRemoved` | 123 | Exported Function
+`onConversationPaneAdded` | 122 | Exported Function
+`GetServiceFactory` | 30 | Exported Function
 `public: virtual __thiscall MultilineEventMgr::~MultilineEventMgr(void)` | 11 | Exported Function
-`public: static void * RuntimeToolbarEvents::hModule` | 90 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::onContentDropped(unsigned int,unsigned int,unsigned int,unsigned int)` | 118 | Exported Function
-`public: virtual long __stdcall RuntimeToolbarEvents::isContentDroppable(unsigned int,unsigned int,unsigned int,unsigned int,bool &)` | 99 | Exported Function
-`public: virtual class IJabberContext * __thiscall TelephonyRuntime::GetJabberContext(void)` | 24 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::~enable_shared_from_this<class RuntimeToolbarEvents>(void)` | 10 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallSplitButton(unsigned int,wchar_t *,class std::shared_ptr<class CSFUnified::Contact>,class std::shared_ptr<class JabberSelectionContextStruct>)` | 48 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallGroupButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 47 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallDropDownMenuButton(unsigned int,wchar_t *,class std::shared_ptr<class CSFUnified::Contact>,class std::shared_ptr<class JabberSelectionContextStruct>)` | 46 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::removeCallButtons(unsigned int)` | 170 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::removeAudioDevicesButton(unsigned int)` | 169 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addConferenceOrJoinBridgeButton(int,unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 50 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 42 | Exported Function
-`private: long __stdcall RuntimeToolbarEvents::AddAudioDevicesButton(unsigned int,wchar_t *)` | 21 | Exported Function
-`private: enum CSFUnified::BridgeConferencingStateEnum::BridgeConferencingState __thiscall RuntimeToolbarEvents::getConferencingCapability(int)` | 85 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallContactButton(unsigned int,wchar_t *,class std::shared_ptr<class CSFUnified::Contact>,class std::shared_ptr<class JabberSelectionContextStruct>)` | 45 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallConferenceButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 44 | Exported Function
-`private: long __thiscall RuntimeToolbarEvents::addCallButtonForFederatedContact(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 43 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxFocus(unsigned int,bool)` | 142 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxEscapePressed(unsigned int,bool)` | 141 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxAction(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 140 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxOverlayDisplayed(unsigned int,bool)` | 144 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxKeyDownAction(unsigned int,unsigned int,long)` | 143 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchBoxInserted(unsigned int,wchar_t *,wchar_t *)` | 135 | Exported Function
-`private: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall RuntimeToolbarEvents::createPhoneNumberMenu(struct tagRECT,class std::shared_ptr<class JabberSelectionContextStruct>,struct HWND__ *)` | 57 | Exported Function
-`private: virtual bool __thiscall RuntimeToolbarEvents::callActive(int,wchar_t *)` | 52 | Exported Function
-`private: static class CSFUnified::ServiceFactory * TelephonyRuntime::pServiceFactory` | 164 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onCallButtonFocus(unsigned int,bool)` | 112 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onCallButtonClicked(unsigned int,class csf::SecureString)` | 111 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::HideLinesList(void)` | 34 | Exported Function
-`private: class std::shared_ptr<class CSFUnified::Conversation> __thiscall RuntimeToolbarEvents::getConversation(int)` | 86 | Exported Function
+`hModule` | 90 | Exported Function
+`onContentDropped` | 118 | Exported Function
+`isContentDroppable` | 99 | Exported Function
+`GetJabberContext` | 24 | Exported Function
+`enable_shared_from_this` | 10 | Exported Function
+`shared_ptr` | 48 | Exported Function
+`shared_ptr` | 47 | Exported Function
+`shared_ptr` | 46 | Exported Function
+`removeCallButtons` | 170 | Exported Function
+`removeAudioDevicesButton` | 169 | Exported Function
+`shared_ptr` | 50 | Exported Function
+`shared_ptr` | 42 | Exported Function
+`AddAudioDevicesButton` | 21 | Exported Function
+`getConferencingCapability` | 85 | Exported Function
+`shared_ptr` | 45 | Exported Function
+`shared_ptr` | 44 | Exported Function
+`shared_ptr` | 43 | Exported Function
+`onSearchboxFocus` | 142 | Exported Function
+`onSearchboxEscapePressed` | 141 | Exported Function
+`shared_ptr` | 140 | Exported Function
+`onSearchboxOverlayDisplayed` | 144 | Exported Function
+`onSearchboxKeyDownAction` | 143 | Exported Function
+`onSearchBoxInserted` | 135 | Exported Function
+`shared_ptr` | 57 | Exported Function
+`callActive` | 52 | Exported Function
+`pServiceFactory` | 164 | Exported Function
+`onCallButtonFocus` | 112 | Exported Function
+`SecureString` | 111 | Exported Function
+`HideLinesList` | 34 | Exported Function
+`getConversation` | 86 | Exported Function
 `DllUnregisterServer` | 197 | Exported Function
 `DllRegisterServer` | 196 | Exported Function
 `DllGetClassObject` | 195 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::getBridgeCallButtonIcons(enum CSFUnified::BridgeConferencingStateEnum::BridgeConferencingState,unsigned int,unsigned int &,unsigned int &)` | 80 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::getBridgeCallButtonEnabled(enum CSFUnified::BridgeConferencingStateEnum::BridgeConferencingState,class std::shared_ptr<class JabberSelectionContextStruct>)` | 79 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::contextIsNULL(class std::shared_ptr<class JabberSelectionContextStruct>)` | 56 | Exported Function
+`BridgeConferencingState` | 80 | Exported Function
+`shared_ptr` | 79 | Exported Function
+`shared_ptr` | 56 | Exported Function
 `const RuntimeToolbarEvents::``vftable'{for ``IJabberToolbarEvents'}` | 18 | Exported Function
 `const RuntimeToolbarEvents::``vftable'{for ``IJabberIntegratedConversationWindowEvents'}` | 17 | Exported Function
 `const MultilineEventMgr::``vftable'` | 16 | Exported Function
 `DllCanUnloadNow` | 194 | Exported Function
 `const TelephonyRuntime::``vftable'{for ``IJabberSearchAreaEvents'}` | 20 | Exported Function
 `const TelephonyRuntime::``vftable'{for ``IJabberPlugin'}` | 19 | Exported Function
-`private: class AT::CStringT<wchar_t> __thiscall RuntimeToolbarEvents::GetLocalizedCString(unsigned int)` | 25 | Exported Function
-`private: class AT::CStringT<wchar_t> __thiscall RuntimeToolbarEvents::getCallButtonToolTipForContact(class std::shared_ptr<class CSFUnified::Contact>)` | 84 | Exported Function
-`private: class AT::CStringT<wchar_t> __thiscall RuntimeToolbarEvents::getBridgeCallButtonType(enum CSFUnified::BridgeConferencingStateEnum::BridgeConferencingState)` | 83 | Exported Function
-`private: class JabberToolbarButton __thiscall RuntimeToolbarEvents::createToolbarButton(class AT::CStringT<wchar_t>,unsigned int,unsigned int,bool,bool,class ATL::CComBSTR,unsigned long)` | 58 | Exported Function
-`private: class ATL::CComBSTR __thiscall RuntimeToolbarEvents::getBridgeCallButtonTitle(enum CSFUnified::BridgeConferencingStateEnum::BridgeConferencingState)` | 81 | Exported Function
-`private: class AT::CStringT<wchar_t> __thiscall RuntimeToolbarEvents::GetUnformattedLocalizedCString(unsigned int)` | 33 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::isConversationGroupOrPersistentChat(int)` | 101 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::isConversationConnectedToBridgeConferencingNotifier(int)` | 100 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::isChatTelephonyEscalationLimitReached(int)` | 97 | Exported Function
-`private: class AT::CStringT<wchar_t> __thiscall RuntimeToolbarEvents::getBridgeCallButtonTooltip(enum CSFUnified::BridgeConferencingStateEnum::BridgeConferencingState)` | 82 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::shouldShowCallButtonForToolBar(wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 177 | Exported Function
-`private: bool __thiscall RuntimeToolbarEvents::isConversationPersistentChat(int)` | 102 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateCallConferenceButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 186 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateCallButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 185 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateActiveToolsBars(void)` | 184 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateCallGroupButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 189 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateCallDropDownMenuButton(unsigned int,class std::shared_ptr<class CSFUnified::Contact>)` | 188 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateCallContactButton(unsigned int,class std::shared_ptr<class CSFUnified::Contact>)` | 187 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::refreshMenu(void)` | 166 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onTelephonyCapabilitiesChanged(void)` | 153 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onShowCallMenuCommandExecuted(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>,struct tagRECT,struct HWND__ *)` | 151 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::showWarningDialogIfChatTelephonyEscalationLimitReached(void)` | 179 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::showWarningDialogIfBridgeNumberEmpty(void)` | 178 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::removeCapabilityNotifier(class std::shared_ptr<class CSFUnified::Conversation>)` | 171 | Exported Function
-`private: void __thiscall TelephonyRuntime::unregisterConfigKeyForChanges(class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> &)` | 182 | Exported Function
-`private: void __thiscall TelephonyRuntime::setClickToCallRegistryEntries(void)` | 172 | Exported Function
-`private: void __thiscall TelephonyRuntime::registerForConfigChangeForStatus(void)` | 168 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::enable_shared_from_this<class RuntimeToolbarEvents>(void)` | 2 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class RuntimeToolbarEvents>::enable_shared_from_this<class RuntimeToolbarEvents>(class std::enable_shared_from_this<class RuntimeToolbarEvents> const &)` | 1 | Exported Function
-`private: void __thiscall TelephonyRuntime::unregisterForConfigChangeForStatus(void)` | 183 | Exported Function
-`private: void __thiscall TelephonyRuntime::disconnectNotifier(class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> &)` | 65 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateConferenceOrJoinBridgeButton(int,unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 191 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::updateCallSplitButton(unsigned int,class std::shared_ptr<class CSFUnified::Contact>)` | 190 | Exported Function
-`private: void __thiscall TelephonyRuntime::registerConfigKeyForChanges(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::weak_ptr<class CSFUnified::PropertyNotifierConnection> &)` | 167 | Exported Function
-`private: void __thiscall TelephonyRuntime::onThemeChanged(void)` | 155 | Exported Function
-`private: void __thiscall TelephonyRuntime::onConfigChanged(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 115 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onContactP2PCapabilityChangedForToolbarWithId(unsigned int)` | 117 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::addCapabilityNotifier(class std::shared_ptr<class CSFUnified::Conversation>)` | 49 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::ShowLinesList(void)` | 41 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchOverlayButtonClicked(unsigned int,unsigned int,class csf::SecureString)` | 138 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::connectContactP2PCapabilityNotifier(unsigned int,class std::shared_ptr<class CSFUnified::Contact>)` | 55 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::connectBridgeConferencingNotifier(int,unsigned int)` | 54 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::buildMenu(class std::vector<class std::shared_ptr<class menu_v2::MenuItem>,class std::allocator<class std::shared_ptr<class menu_v2::MenuItem> > > &,class AT::CStringT<wchar_t>,class std::map<unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::less<unsigned int>,class std::allocator<struct std::pair<unsigned int const ,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,wchar_t * &)` | 51 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxPreEscapePressed(unsigned int)` | 147 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxPreActionEnter(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 146 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxOverlaySelection(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 145 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxTextChanged(unsigned int,class csf::SecureString)` | 150 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchboxSelection(unsigned int,class std::shared_ptr<class JabberSelectionContextStruct>)` | 149 | Exported Function
-`private: virtual long __stdcall TelephonyRuntime::onSearchBoxRemoved(unsigned int)` | 137 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onAudioDevicesButtonClicked(struct HWND__ *,struct tagRECT)` | 108 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::logContextNumbers(class std::shared_ptr<class JabberSelectionContextStruct>)` | 103 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::handleToolbarButtons(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>,struct HWND__ *)` | 93 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onCallContactCommandExecuted(class std::shared_ptr<class JabberSelectionContextStruct>)` | 114 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onCallConferenceCommandExecuted(class std::shared_ptr<class JabberSelectionContextStruct>)` | 113 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::onCallBridgeCommandExecuted(class std::shared_ptr<class JabberSelectionContextStruct>)` | 110 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::escalateToBridgeConference(int)` | 67 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::disconnectContactP2PCapabilityNotifier(unsigned int)` | 64 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::disconnectBridgeConferencingNotifier(int)` | 63 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::handleCallButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>)` | 92 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::handleAudioDevicesButton(unsigned int,wchar_t *,class std::shared_ptr<class JabberSelectionContextStruct>,struct HWND__ *)` | 91 | Exported Function
-`private: void __thiscall RuntimeToolbarEvents::getPhoneIconResourceIdsForSingleContact(unsigned int,unsigned int &,unsigned int &)` | 88 | Exported Function
+`GetLocalizedCString` | 25 | Exported Function
+`Contact` | 84 | Exported Function
+`BridgeConferencingState` | 83 | Exported Function
+`CComBSTR` | 58 | Exported Function
+`BridgeConferencingState` | 81 | Exported Function
+`GetUnformattedLocalizedCString` | 33 | Exported Function
+`isConversationGroupOrPersistentChat` | 101 | Exported Function
+`isConversationConnectedToBridgeConferencingNotifier` | 100 | Exported Function
+`isChatTelephonyEscalationLimitReached` | 97 | Exported Function
+`BridgeConferencingState` | 82 | Exported Function
+`shared_ptr` | 177 | Exported Function
+`isConversationPersistentChat` | 102 | Exported Function
+`shared_ptr` | 186 | Exported Function
+`shared_ptr` | 185 | Exported Function
+`updateActiveToolsBars` | 184 | Exported Function
+`shared_ptr` | 189 | Exported Function
+`Contact` | 188 | Exported Function
+`Contact` | 187 | Exported Function
+`refreshMenu` | 166 | Exported Function
+`onTelephonyCapabilitiesChanged` | 153 | Exported Function
+`shared_ptr` | 151 | Exported Function
+`showWarningDialogIfChatTelephonyEscalationLimitReached` | 179 | Exported Function
+`showWarningDialogIfBridgeNumberEmpty` | 178 | Exported Function
+`Conversation` | 171 | Exported Function
+`PropertyNotifierConnection` | 182 | Exported Function
+`setClickToCallRegistryEntries` | 172 | Exported Function
+`registerForConfigChangeForStatus` | 168 | Exported Function
+`enable_shared_from_this` | 2 | Exported Function
+`enable_shared_from_this` | 1 | Exported Function
+`unregisterForConfigChangeForStatus` | 183 | Exported Function
+`PropertyNotifierConnection` | 65 | Exported Function
+`shared_ptr` | 191 | Exported Function
+`Contact` | 190 | Exported Function
+`PropertyNotifierConnection` | 167 | Exported Function
+`onThemeChanged` | 155 | Exported Function
+`allocator` | 115 | Exported Function
+`onContactP2PCapabilityChangedForToolbarWithId` | 117 | Exported Function
+`Conversation` | 49 | Exported Function
+`ShowLinesList` | 41 | Exported Function
+`SecureString` | 138 | Exported Function
+`Contact` | 55 | Exported Function
+`connectBridgeConferencingNotifier` | 54 | Exported Function
+`allocator` | 51 | Exported Function
+`onSearchboxPreEscapePressed` | 147 | Exported Function
+`shared_ptr` | 146 | Exported Function
+`shared_ptr` | 145 | Exported Function
+`SecureString` | 150 | Exported Function
+`shared_ptr` | 149 | Exported Function
+`onSearchBoxRemoved` | 137 | Exported Function
+`onAudioDevicesButtonClicked` | 108 | Exported Function
+`shared_ptr` | 103 | Exported Function
+`shared_ptr` | 93 | Exported Function
+`shared_ptr` | 114 | Exported Function
+`shared_ptr` | 113 | Exported Function
+`shared_ptr` | 110 | Exported Function
+`escalateToBridgeConference` | 67 | Exported Function
+`disconnectContactP2PCapabilityNotifier` | 64 | Exported Function
+`disconnectBridgeConferencingNotifier` | 63 | Exported Function
+`shared_ptr` | 92 | Exported Function
+`shared_ptr` | 91 | Exported Function
+`getPhoneIconResourceIdsForSingleContact` | 88 | Exported Function
 
 
 ## Signature

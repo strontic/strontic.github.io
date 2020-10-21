@@ -26,62 +26,62 @@ PE256 | `4D78A98C316BFA9BE085E642C01222364DE10827FC4816DA9A8A457DA5BB91DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::replaceAll(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 54 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::readValueFromRegistry(struct HKEY__ *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 53 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getSFBVersion(void)` | 38 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::toLower(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 56 | Exported Function
-`public: static class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl CCommonUtilities::enumerateSubKeys(struct HKEY__ *,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 19 | Exported Function
-`public: static class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl CCommonUtilities::stringToWString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 55 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::WStringToString(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 9 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getLocalMachineMACId(void)` | 32 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getLocalMachineGUID(void)` | 31 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getLocalDateTime(void)` | 30 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getOSVersion(void)` | 33 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getSDKCurrentVersion(void)` | 37 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getRainbowAppSDKFolderPath(void)` | 36 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getRainbowAppPath(void)` | 35 | Exported Function
-`public: static void __cdecl CCommonUtilities::copyPDSFileForMac(void)` | 17 | Exported Function
-`public: static void __cdecl CCommonUtilities::compareSPNamesWithRegistry(struct HKEY__ *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,bool &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 15 | Exported Function
-`public: static void __cdecl CCommonUtilities::addDelay(double)` | 10 | Exported Function
-`public: static void __cdecl CCommonUtilities::readSPVersionFrom32BitWindows(class std::list<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo>,class std::allocator<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo> > > &)` | 50 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 3 | Exported Function
-`public: static void __cdecl CCommonUtilities::readSPVersionFromReg(class std::list<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo>,class std::allocator<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo> > > &)` | 52 | Exported Function
-`public: static void __cdecl CCommonUtilities::readSPVersionFrom64BitWindows(class std::list<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo>,class std::allocator<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo> > > &)` | 51 | Exported Function
-`public: static int __cdecl CCommonUtilities::checkIfSFPresentInList(class std::list<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo>,class std::allocator<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 11 | Exported Function
-`public: static class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl CCommonUtilities::getAppsInstalledOnThisMachine(void)` | 23 | Exported Function
-`public: static class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl CCommonUtilities::enumerateSubKeysValues(struct HKEY__ *,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 20 | Exported Function
-`public: static int __cdecl CCommonUtilities::createPath(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 18 | Exported Function
-`public: static unsigned int __cdecl CCommonUtilities::getPseudoRandomNumber(void)` | 34 | Exported Function
-`public: static int __cdecl CCommonUtilities::isMSOCInstalled(void)` | 44 | Exported Function
-`public: static int __cdecl CCommonUtilities::getSoftphoneIndex(class std::list<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo>,class std::allocator<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 39 | Exported Function
-`public: static bool __cdecl CCommonUtilities::copyFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 16 | Exported Function
-`public: static bool __cdecl CCommonUtilities::checkSFBRunning(void)` | 14 | Exported Function
-`public: static bool __cdecl CCommonUtilities::checkMicrosoftTeamsRunning(void)` | 13 | Exported Function
-`public: static bool __cdecl CCommonUtilities::CreateCharArrFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char * *)` | 8 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isBroadsoftInstalled(void)` | 41 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isAvayaEquinoxInstalled(void)` | 40 | Exported Function
-`public: static bool __cdecl CCommonUtilities::fileExists(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 21 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 2 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 1 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 6 | Exported Function
-`public: class CCommonUtilities & __thiscall CCommonUtilities::operator=(class CCommonUtilities const &)` | 4 | Exported Function
-`public: static bool __cdecl CCommonUtilities::CheckIfSPPresentInList(class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 7 | Exported Function
-`public: static bool __cdecl CCommonUtilities::checkIfSoftPhonePresentInList(class std::list<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo>,class std::allocator<class std::shared_ptr<class SecomSFClassDefs::CSoftphoneInfo> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 12 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 5 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getConfigurablesFolder(void)` | 25 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getCCLibrariesPath(void)` | 24 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::findSDKVersionNodeValue(class TiXmlElement *)` | 22 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getCrashReportFolder(void)` | 26 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getLegacySDKFolderPath(void)` | 29 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getExecutablePath(int)` | 28 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CCommonUtilities::getDomainName(void)` | 27 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isProcessRunning(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 45 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isDWODevice(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 42 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isDirectoryExists(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 43 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isSameHeadset(class std::shared_ptr<class SecomHeadset::CHeadsetInfo>,class std::shared_ptr<class SecomHeadset::CHeadsetInfo>)` | 46 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isValidHeadset(class std::shared_ptr<class SecomHeadset::CHeadsetInfo>)` | 49 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isThisSPSupportsMultipleHS(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 47 | Exported Function
-`public: static bool __cdecl CCommonUtilities::isThisSoftphoneInstalled(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct HKEY__ *)` | 48 | Exported Function
+`allocator` | 54 | Exported Function
+`allocator` | 53 | Exported Function
+`getSFBVersion` | 38 | Exported Function
+`allocator` | 56 | Exported Function
+`allocator` | 19 | Exported Function
+`allocator` | 55 | Exported Function
+`allocator` | 9 | Exported Function
+`getLocalMachineMACId` | 32 | Exported Function
+`getLocalMachineGUID` | 31 | Exported Function
+`getLocalDateTime` | 30 | Exported Function
+`getOSVersion` | 33 | Exported Function
+`getSDKCurrentVersion` | 37 | Exported Function
+`getRainbowAppSDKFolderPath` | 36 | Exported Function
+`getRainbowAppPath` | 35 | Exported Function
+`copyPDSFileForMac` | 17 | Exported Function
+`allocator` | 15 | Exported Function
+`addDelay` | 10 | Exported Function
+`CSoftphoneInfo` | 50 | Exported Function
+`IHSInterface` | 3 | Exported Function
+`CSoftphoneInfo` | 52 | Exported Function
+`CSoftphoneInfo` | 51 | Exported Function
+`allocator` | 11 | Exported Function
+`getAppsInstalledOnThisMachine` | 23 | Exported Function
+`allocator` | 20 | Exported Function
+`allocator` | 18 | Exported Function
+`getPseudoRandomNumber` | 34 | Exported Function
+`isMSOCInstalled` | 44 | Exported Function
+`allocator` | 39 | Exported Function
+`allocator` | 16 | Exported Function
+`checkSFBRunning` | 14 | Exported Function
+`checkMicrosoftTeamsRunning` | 13 | Exported Function
+`allocator` | 8 | Exported Function
+`isBroadsoftInstalled` | 41 | Exported Function
+`isAvayaEquinoxInstalled` | 40 | Exported Function
+`allocator` | 21 | Exported Function
+`IHSInterface` | 2 | Exported Function
+`IHSInterface` | 1 | Exported Function
+`IHSInterface` | 6 | Exported Function
+`operator` | 4 | Exported Function
+`allocator` | 7 | Exported Function
+`allocator` | 12 | Exported Function
+`IHSInterface` | 5 | Exported Function
+`getConfigurablesFolder` | 25 | Exported Function
+`getCCLibrariesPath` | 24 | Exported Function
+`findSDKVersionNodeValue` | 22 | Exported Function
+`getCrashReportFolder` | 26 | Exported Function
+`getLegacySDKFolderPath` | 29 | Exported Function
+`getExecutablePath` | 28 | Exported Function
+`getDomainName` | 27 | Exported Function
+`allocator` | 45 | Exported Function
+`allocator` | 42 | Exported Function
+`allocator` | 43 | Exported Function
+`CHeadsetInfo` | 46 | Exported Function
+`CHeadsetInfo` | 49 | Exported Function
+`allocator` | 47 | Exported Function
+`allocator` | 48 | Exported Function
 
 
 ## Signature

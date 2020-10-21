@@ -18,6 +18,9 @@ SHA256 | `72900A86F3BED7570AA708657A76DD76BB80B68DB543D303DA401AC6983E39CE`
 SHA384 | `95783B6CA6815C3661112F307D00FCFFF6D28C0C32F67BA5A4881D196BFAB135AA84A93081D560D9D09AEF3BB6BD317D`
 SHA512 | `CA0B0768BAB2DDF2BB710E25FE81682B380F59CE3D190F411E405120BBDEEDC9DB66A94614E1F317E21959344D6E389B37CD8C678BC9F3AFB02B4A5DDBE306FD`
 SSDEEP | `3072:6Nt0/FwuqP11qVK0tFRdvQLwSKJrBfVxrrccLcPBYe0Aat/t7+pq:g0//qP1cV9FRWjA9VJrccApYe0zlIq`
+IMP | `012D1B3C5FD8B10F0F36DB7243A28CB8`
+PESHA1 | `91B24FB95F24FA5E2BBE5FCA57D37BD6543C56C1`
+PE256 | `45ED92131403AA6F3BC9AB2AF7E677874602F317AA55681ECFC536AE5862FF59`
 
 ## Runtime Data
 
@@ -67,18 +70,6 @@ Type "SCHTASKS /QUERY /?" for usage.
 
 ```
 
-### Child Processes:
-powershell_ise.exe
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\schtasks.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -96,7 +87,12 @@ C:\Windows\SysWOW64\schtasks.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/72900a86f3bed7570aa708657a76dd76bb80b68db543d303da401ac6983e39ce/detection/
 
 
 ## Possible Misuse

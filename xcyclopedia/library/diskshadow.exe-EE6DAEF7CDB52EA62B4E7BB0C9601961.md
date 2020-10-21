@@ -18,6 +18,9 @@ SHA256 | `7D08B3B10F1918135C0270BB0CF1CED0927EF61E7348E908CCAE8CA00132F0D8`
 SHA384 | `C607293A54F2C3584EC64375DD2A483C94ECDCB67B65D95D924213F3A37FA1968539AC7F579580ECE7C21C12C599C3D4`
 SHA512 | `37A181C570252BC6D2DFAE3535B8B67A7123D58818B63B04915E5EBFAE9C281650DBDEAC9B39F7B84B627B742F3ED7BB906F7DE9CD4CE5A4B6620F21E4F8ADBE`
 SSDEEP | `6144:T9zxMYiej4GcxUp6Ki2tXpC98i0e6AQNs3/6dB7RIHrad5t11XEh/SJfcJ+:T9zm1ej1B6990RsS72I5/dOJ+`
+IMP | `FD2A36FBBAEE53A16DE80CA1D24ACE93`
+PESHA1 | `CB8B2FED861C11DBA2BB2063F503EDD37362E89F`
+PE256 | `98F6DEA3CBF9B37DE59935259DE942495A63DC6E57628E2B545533AB90689F45`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `6144:T9zxMYiej4GcxUp6Ki2tXpC98i0e6AQNs3/6dB7RIHrad5t11XEh/SJfcJ+:T9zm1
 ```cmhg
 Microsoft DiskShadow version 1.0
 Copyright (C) 2013 Microsoft Corporation
-On computer:  EC2AMAZ-0F59E47,  8/30/2020 2:19:40 PM
+On computer:  Default-PC,  10/19/2020 8:38:03 PM
 
 DISKSHADOW.EXE  [/s <scriptfile> [param1] [param2] [param3] ...] [/l <logfile>]
                           - Runs script mode
@@ -46,6 +49,8 @@ DISKSHADOW.EXE  [/l <logfile>]
 Path |
 -- |
 C:\Windows\system32\diskshadow.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 
 
@@ -66,7 +71,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/7d08b3b10f1918135c0270bb0cf1ced0927ef61e7348e908ccae8ca00132f0d8/detection/
 
 
 ## Possible Misuse

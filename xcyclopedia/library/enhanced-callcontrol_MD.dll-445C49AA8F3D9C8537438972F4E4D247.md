@@ -26,20 +26,20 @@ PE256 | `E6CC15DE6940F4BE08B585DCDC0F82496CF2787F217766C2F6C626C1FFB97D1D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`private: void __thiscall csf::ecc::EccFeatureConfig::notifyConfigUpdate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 206 | Exported Function
-`protected: __thiscall csf::accessory::AccessoryVersionInfo::AccessoryVersionInfo(void)` | 9 | Exported Function
-`protected: __thiscall csf::ecc::CallControl::CallControl(void)` | 14 | Exported Function
+`allocator` | 206 | Exported Function
+`AccessoryVersionInfo` | 9 | Exported Function
+`CallControl` | 14 | Exported Function
 `message_type_getname` | 379 | Exported Function
-`private: __thiscall csf::ecc::EccFeatureConfig::EccFeatureConfig(void)` | 19 | Exported Function
-`private: virtual __thiscall csf::ecc::EccFeatureConfig::~EccFeatureConfig(void)` | 49 | Exported Function
-`protected: __thiscall csf::ecc::test::ServiceDataAccessor::ServiceDataAccessor(void)` | 37 | Exported Function
-`protected: __thiscall csf::ecc::test::ServicePortal::ServicePortal(void)` | 38 | Exported Function
-`protected: __thiscall csf::ecc::VersionDetails::VersionDetails(void)` | 39 | Exported Function
-`protected: __thiscall csf::ecc::CallControlManager::CallControlManager(void)` | 15 | Exported Function
-`protected: __thiscall csf::ecc::EventPump::EventPump(void)` | 21 | Exported Function
-`protected: __thiscall csf::ecc::RemoteDestination::RemoteDestination(void)` | 24 | Exported Function
+`EccFeatureConfig` | 19 | Exported Function
+`EccFeatureConfig` | 49 | Exported Function
+`ServiceDataAccessor` | 37 | Exported Function
+`ServicePortal` | 38 | Exported Function
+`VersionDetails` | 39 | Exported Function
+`CallControlManager` | 15 | Exported Function
+`EventPump` | 21 | Exported Function
+`RemoteDestination` | 24 | Exported Function
 `hold_reason_getname` | 371 | Exported Function
-`int __cdecl csf::ecc::ToneType::compareTonePriority(enum csf::ecc::ToneType::Tone,enum csf::ecc::ToneType::Tone)` | 180 | Exported Function
+`Tone` | 180 | Exported Function
 `kpml_config_getname` | 372 | Exported Function
 `dnd_type_getname` | 368 | Exported Function
 `dvo_registration_mode_getname` | 369 | Exported Function
@@ -50,106 +50,106 @@ Function Name | Ordinal | Type
 `lamp_state_getname` | 373 | Exported Function
 `line_event_getname` | 374 | Exported Function
 `line_feature_getname` | 375 | Exported Function
-`protected: __thiscall csf::ecc::VideoFormat::VideoFormat(void)` | 40 | Exported Function
-`public: __thiscall csf::ecc::Resolution::Resolution(struct csf::ecc::ResolutionData const &)` | 25 | Exported Function
-`public: __thiscall csf::ecc::Resolution::Resolution(unsigned int,unsigned int)` | 26 | Exported Function
-`public: __thiscall csf::ecc::Resolution::Resolution(void)` | 27 | Exported Function
-`public: __thiscall csf::ecc::EccFeatureConfig::EccFeatureConfig(class csf::ecc::EccFeatureConfig const &)` | 20 | Exported Function
-`public: __thiscall csf::ecc::NativeTelephonyHelper::NativeTelephonyHelper(class csf::ecc::NativeTelephonyHelper const &)` | 22 | Exported Function
-`public: __thiscall csf::ecc::NativeTelephonyHelper::NativeTelephonyHelper(void)` | 23 | Exported Function
-`public: __thiscall csf::ecc::SafeBuffer::~SafeBuffer(void)` | 53 | Exported Function
-`public: __thiscall csf::ecc::SecureString::SecureString(char const *,unsigned long)` | 33 | Exported Function
-`public: __thiscall csf::ecc::SecureString::SecureString(class csf::ecc::SecureString const &)` | 31 | Exported Function
-`public: __thiscall csf::ecc::SafeBuffer::SafeBuffer(char const *,unsigned int)` | 29 | Exported Function
-`public: __thiscall csf::ecc::SafeBuffer::SafeBuffer(class csf::ecc::SafeBuffer const &)` | 28 | Exported Function
-`public: __thiscall csf::ecc::SafeBuffer::SafeBuffer(void)` | 30 | Exported Function
-`public: __thiscall csf::accessory::AccessoryDeviceActionsController::AccessoryDeviceActionsController(void)` | 4 | Exported Function
-`public: __thiscall csf::accessory::AccessoryPreferenceSettings::AccessoryPreferenceSettings(class csf::accessory::AccessoryPreferenceSettings const &)` | 5 | Exported Function
-`public: __thiscall csf::accessory::AccessoryPreferenceSettings::AccessoryPreferenceSettings(void)` | 6 | Exported Function
-`public: __thiscall csf::accessory::AccessoryCallActionsController::AccessoryCallActionsController(class csf::accessory::AccessoryCallActionsController const &)` | 1 | Exported Function
-`public: __thiscall csf::accessory::AccessoryCallActionsController::AccessoryCallActionsController(void)` | 2 | Exported Function
-`public: __thiscall csf::accessory::AccessoryDeviceActionsController::AccessoryDeviceActionsController(class csf::accessory::AccessoryDeviceActionsController const &)` | 3 | Exported Function
-`public: __thiscall csf::ecc::ConnectionInfo::ConnectionInfo(class csf::ecc::ConnectionInfo &&)` | 16 | Exported Function
-`public: __thiscall csf::ecc::ConnectionInfo::ConnectionInfo(class csf::ecc::ConnectionInfo const &)` | 17 | Exported Function
-`public: __thiscall csf::ecc::ConnectionInfo::ConnectionInfo(void)` | 18 | Exported Function
-`public: __thiscall csf::accessory::AccessoryProvider::AccessoryProvider(class csf::accessory::AccessoryProvider const &)` | 7 | Exported Function
-`public: __thiscall csf::accessory::AccessoryProvider::AccessoryProvider(void)` | 8 | Exported Function
-`public: __thiscall csf::ecc::CC_CallStreamStatistics::CC_CallStreamStatistics(void)` | 13 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::UltrasoundDecoderTypeEnum::toString(enum csf::ecc::UltrasoundDecoderTypeEnum::UltrasoundDecoderType)` | 319 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::UltrasoundResultEnum::toString(enum csf::ecc::UltrasoundResultEnum::UltrasoundResult)` | 320 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::UltrasoundTokenTypeEnum::toString(enum csf::ecc::UltrasoundTokenTypeEnum::UltrasoundTokenType)` | 321 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::TransportProtocolEnum::toString(enum csf::ecc::TransportProtocolEnum::TransportProtocol)` | 316 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::TurnTransportTypeEnum::toString(enum csf::ecc::TurnTransportTypeEnum::TurnTransportType)` | 317 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::UDTEventEnum::toString(enum csf::ecc::UDTEventEnum::UDTEvent)` | 318 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::VXIModeEnum::toString(enum csf::ecc::VXIModeEnum::VXIMode)` | 322 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl LineParkStatusEnum::toString(enum LineParkStatusEnum::LineParkStatus)` | 286 | Exported Function
+`VideoFormat` | 40 | Exported Function
+`ResolutionData` | 25 | Exported Function
+`Resolution` | 26 | Exported Function
+`Resolution` | 27 | Exported Function
+`EccFeatureConfig` | 20 | Exported Function
+`NativeTelephonyHelper` | 22 | Exported Function
+`NativeTelephonyHelper` | 23 | Exported Function
+`SafeBuffer` | 53 | Exported Function
+`SecureString` | 33 | Exported Function
+`SecureString` | 31 | Exported Function
+`SafeBuffer` | 29 | Exported Function
+`SafeBuffer` | 28 | Exported Function
+`SafeBuffer` | 30 | Exported Function
+`AccessoryDeviceActionsController` | 4 | Exported Function
+`AccessoryPreferenceSettings` | 5 | Exported Function
+`AccessoryPreferenceSettings` | 6 | Exported Function
+`AccessoryCallActionsController` | 1 | Exported Function
+`AccessoryCallActionsController` | 2 | Exported Function
+`AccessoryDeviceActionsController` | 3 | Exported Function
+`ConnectionInfo` | 16 | Exported Function
+`ConnectionInfo` | 17 | Exported Function
+`ConnectionInfo` | 18 | Exported Function
+`AccessoryProvider` | 7 | Exported Function
+`AccessoryProvider` | 8 | Exported Function
+`CC_CallStreamStatistics` | 13 | Exported Function
+`UltrasoundDecoderType` | 319 | Exported Function
+`UltrasoundResult` | 320 | Exported Function
+`UltrasoundTokenType` | 321 | Exported Function
+`TransportProtocol` | 316 | Exported Function
+`TurnTransportType` | 317 | Exported Function
+`UDTEvent` | 318 | Exported Function
+`VXIMode` | 322 | Exported Function
+`LineParkStatus` | 286 | Exported Function
 `config_set_string` | 362 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::VideoLayoutEnum::toString(enum csf::ecc::VideoLayoutEnum::VideoLayout)` | 323 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::VideoPolicyEnum::toString(enum csf::ecc::VideoPolicyEnum::VideoPolicy)` | 324 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::VideoStreamTypeEnum::toString(enum csf::ecc::VideoStreamTypeEnum::VideoStreamType)` | 325 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ServiceStateType::toString(enum csf::ecc::ServiceStateType::ServiceState)` | 309 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::SsoModeEnum::toString(enum csf::ecc::SsoModeEnum::SsoMode)` | 310 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::SsoTokenTypeEnum::toString(enum csf::ecc::SsoTokenTypeEnum::SsoTokenType)` | 311 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::RingerVolumeEnum::toString(enum csf::ecc::RingerVolumeEnum::RingerVolume)` | 307 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::RingMode::toString(enum csf::ecc::RingMode::Mode)` | 305 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ServiceInterruptReason::toString(enum csf::ecc::ServiceInterruptReason::ReasonType)` | 308 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ToneType::toString(enum csf::ecc::ToneType::Tone)` | 315 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::toString(class csf::ecc::CC_Telemetry const &)` | 337 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::toString(enum csf::ecc::LocusCallEvent)` | 338 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::TelephonyServiceEnum::toString(enum csf::ecc::TelephonyServiceEnum::TelephonyService)` | 312 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::TelephonySessionTelemetryFieldEnum::toString(enum csf::ecc::TelephonySessionTelemetryFieldEnum::TelephonySessionTelemetryField)` | 313 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ToneDirection::toString(enum csf::ecc::ToneDirection::Direction)` | 314 | Exported Function
+`VideoLayout` | 323 | Exported Function
+`VideoPolicy` | 324 | Exported Function
+`VideoStreamType` | 325 | Exported Function
+`ServiceState` | 309 | Exported Function
+`SsoMode` | 310 | Exported Function
+`SsoTokenType` | 311 | Exported Function
+`RingerVolume` | 307 | Exported Function
+`Mode` | 305 | Exported Function
+`ReasonType` | 308 | Exported Function
+`Tone` | 315 | Exported Function
+`CC_Telemetry` | 337 | Exported Function
+`LocusCallEvent` | 338 | Exported Function
+`TelephonyService` | 312 | Exported Function
+`TelephonySessionTelemetryField` | 313 | Exported Function
+`Direction` | 314 | Exported Function
 `config_set_value` | 363 | Exported Function
-`const csf::ecc::test::AdditionalDeskphone::``vftable'{for ``csf::ecc::test::AdditionalDeskphone'}` | 163 | Exported Function
-`const csf::ecc::test::ServiceDataAccessor::``vftable'` | 174 | Exported Function
-`const csf::ecc::test::ServicePortal::``vftable'` | 175 | Exported Function
-`const csf::ecc::NativeTelephonyHelper::``vftable'` | 172 | Exported Function
-`const csf::ecc::RemoteDestination::``vftable'` | 173 | Exported Function
-`const csf::ecc::test::AdditionalDeskphone::``vftable'{for ``csf::ecc::CallControl'}` | 164 | Exported Function
+`AdditionalDeskphone` | 163 | Exported Function
+`ServiceDataAccessor` | 174 | Exported Function
+`ServicePortal` | 175 | Exported Function
+`NativeTelephonyHelper` | 172 | Exported Function
+`RemoteDestination` | 173 | Exported Function
+`CallControl` | 164 | Exported Function
 `debug_category_getname` | 365 | Exported Function
 `device_event_getname` | 366 | Exported Function
 `digit_getname` | 367 | Exported Function
-`const csf::ecc::VersionDetails::``vftable'` | 176 | Exported Function
-`const csf::ecc::VideoFormat::``vftable'` | 177 | Exported Function
+`VersionDetails` | 176 | Exported Function
+`VideoFormat` | 177 | Exported Function
 `cucm_mode_getname` | 364 | Exported Function
-`const csf::accessory::AccessoryProvider::``vftable'` | 161 | Exported Function
-`const csf::accessory::AccessoryVersionInfo::``vftable'` | 162 | Exported Function
-`const csf::ecc::CallControl::``vftable'` | 165 | Exported Function
-`const csf::accessory::AccessoryCallActionsController::``vftable'` | 158 | Exported Function
-`const csf::accessory::AccessoryDeviceActionsController::``vftable'` | 159 | Exported Function
-`const csf::accessory::AccessoryPreferenceSettings::``vftable'` | 160 | Exported Function
-`const csf::ecc::ConnectionInfo::``vftable'` | 169 | Exported Function
-`const csf::ecc::EccFeatureConfig::``vftable'` | 170 | Exported Function
-`const csf::ecc::EventPump::``vftable'` | 171 | Exported Function
-`const csf::ecc::CallControlManager::``vftable'{for ``csf::ecc::CallControl'}` | 166 | Exported Function
-`const csf::ecc::CallControlManager::``vftable'{for ``csf::ecc::EventPump'}` | 167 | Exported Function
-`const csf::ecc::CallControlManager::``vftable'{for ``csf::ecc::test::ServicePortal'}` | 168 | Exported Function
-`public: __thiscall csf::ecc::SecureString::SecureString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 32 | Exported Function
-`public: virtual __thiscall csf::ecc::CallControlManager::~CallControlManager(void)` | 48 | Exported Function
-`public: virtual __thiscall csf::ecc::EventPump::~EventPump(void)` | 50 | Exported Function
-`public: virtual __thiscall csf::ecc::NativeTelephonyHelper::~NativeTelephonyHelper(void)` | 51 | Exported Function
-`public: virtual __thiscall csf::accessory::AccessoryProvider::~AccessoryProvider(void)` | 44 | Exported Function
-`public: virtual __thiscall csf::accessory::AccessoryVersionInfo::~AccessoryVersionInfo(void)` | 45 | Exported Function
-`public: virtual __thiscall csf::ecc::CallControl::~CallControl(void)` | 47 | Exported Function
-`public: virtual __thiscall csf::ecc::test::ServicePortal::~ServicePortal(void)` | 57 | Exported Function
-`public: virtual __thiscall csf::ecc::VersionDetails::~VersionDetails(void)` | 58 | Exported Function
-`public: virtual __thiscall csf::ecc::VideoFormat::~VideoFormat(void)` | 59 | Exported Function
-`public: virtual __thiscall csf::ecc::RemoteDestination::~RemoteDestination(void)` | 52 | Exported Function
-`public: virtual __thiscall csf::ecc::test::AdditionalDeskphone::~AdditionalDeskphone(void)` | 46 | Exported Function
-`public: virtual __thiscall csf::ecc::test::ServiceDataAccessor::~ServiceDataAccessor(void)` | 56 | Exported Function
-`public: struct csf::ecc::ResolutionData & __thiscall csf::ecc::ResolutionData::operator=(struct csf::ecc::ResolutionData &&)` | 74 | Exported Function
-`public: struct csf::ecc::ResolutionData & __thiscall csf::ecc::ResolutionData::operator=(struct csf::ecc::ResolutionData const &)` | 75 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeBuffer::copyToMemory(char *,unsigned int)const ` | 181 | Exported Function
-`public: static void __cdecl csf::accessory::AccessoryProvider::deleteInstance(void)` | 189 | Exported Function
-`public: struct csf::ecc::Resolution & __thiscall csf::ecc::Resolution::operator=(struct csf::ecc::Resolution &&)` | 72 | Exported Function
-`public: struct csf::ecc::Resolution & __thiscall csf::ecc::Resolution::operator=(struct csf::ecc::Resolution const &)` | 73 | Exported Function
-`public: virtual __thiscall csf::accessory::AccessoryCallActionsController::~AccessoryCallActionsController(void)` | 41 | Exported Function
-`public: virtual __thiscall csf::accessory::AccessoryDeviceActionsController::~AccessoryDeviceActionsController(void)` | 42 | Exported Function
-`public: virtual __thiscall csf::accessory::AccessoryPreferenceSettings::~AccessoryPreferenceSettings(void)` | 43 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeBuffer::copyToMemory(unsigned char *,unsigned int)const ` | 182 | Exported Function
-`public: unsigned int __thiscall csf::ecc::SafeBuffer::size(void)const ` | 219 | Exported Function
-`public: unsigned long __thiscall csf::ecc::SecureStringReader::getBufSize(void)const ` | 193 | Exported Function
-`public: virtual bool __thiscall csf::accessory::AccessoryCallActionsController::onAccessoryFirmwareCheckVersionCount(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 207 | Exported Function
+`AccessoryProvider` | 161 | Exported Function
+`AccessoryVersionInfo` | 162 | Exported Function
+`CallControl` | 165 | Exported Function
+`AccessoryCallActionsController` | 158 | Exported Function
+`AccessoryDeviceActionsController` | 159 | Exported Function
+`AccessoryPreferenceSettings` | 160 | Exported Function
+`ConnectionInfo` | 169 | Exported Function
+`EccFeatureConfig` | 170 | Exported Function
+`EventPump` | 171 | Exported Function
+`CallControl` | 166 | Exported Function
+`EventPump` | 167 | Exported Function
+`ServicePortal` | 168 | Exported Function
+`allocator` | 32 | Exported Function
+`CallControlManager` | 48 | Exported Function
+`EventPump` | 50 | Exported Function
+`NativeTelephonyHelper` | 51 | Exported Function
+`AccessoryProvider` | 44 | Exported Function
+`AccessoryVersionInfo` | 45 | Exported Function
+`CallControl` | 47 | Exported Function
+`ServicePortal` | 57 | Exported Function
+`VersionDetails` | 58 | Exported Function
+`VideoFormat` | 59 | Exported Function
+`RemoteDestination` | 52 | Exported Function
+`AdditionalDeskphone` | 46 | Exported Function
+`ServiceDataAccessor` | 56 | Exported Function
+`ResolutionData` | 74 | Exported Function
+`ResolutionData` | 75 | Exported Function
+`copyToMemory` | 181 | Exported Function
+`deleteInstance` | 189 | Exported Function
+`Resolution` | 72 | Exported Function
+`Resolution` | 73 | Exported Function
+`AccessoryCallActionsController` | 41 | Exported Function
+`AccessoryDeviceActionsController` | 42 | Exported Function
+`AccessoryPreferenceSettings` | 43 | Exported Function
+`copyToMemory` | 182 | Exported Function
+`size` | 219 | Exported Function
+`getBufSize` | 193 | Exported Function
+`allocator` | 207 | Exported Function
 `setUpdateVCSeIpCallback` | 386 | Exported Function
 `shutdown_reason_getname` | 387 | Exported Function
 `srv_ctrl_cmd_getname` | 388 | Exported Function
@@ -162,116 +162,116 @@ Function Name | Ordinal | Type
 `srv_ctrl_req_getname` | 389 | Exported Function
 `strdup` | 390 | Exported Function
 `subscriptions_ext_getname` | 391 | Exported Function
-`public: void __thiscall csf::ecc::SafeBuffer::swap(class csf::ecc::SafeBuffer &)` | 220 | Exported Function
-`public: void __thiscall csf::ecc::SecureString::copyValue(class csf::ecc::SecureStringReader &)const ` | 183 | Exported Function
-`public: void __thiscall csf::ecc::SecureString::setAndNullTerminateValue(char const *,unsigned long)` | 211 | Exported Function
-`public: void __thiscall csf::ecc::EccFeatureConfig::addObserver(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<void __cdecl(void)> const &,bool)` | 178 | Exported Function
-`public: void __thiscall csf::ecc::EccFeatureConfig::removeObserver(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::function<void __cdecl(void)> const &)` | 209 | Exported Function
-`public: void __thiscall csf::ecc::SafeBuffer::push_back(char)` | 208 | Exported Function
+`SafeBuffer` | 220 | Exported Function
+`SecureStringReader` | 183 | Exported Function
+`setAndNullTerminateValue` | 211 | Exported Function
+`function` | 178 | Exported Function
+`function` | 209 | Exported Function
+`push_back` | 208 | Exported Function
 `register_types_getname` | 380 | Exported Function
 `sdp_direction_getname` | 381 | Exported Function
 `service_cause_getname` | 382 | Exported Function
-`public: void __thiscall csf::ecc::SecureString::setValue(char const *)` | 216 | Exported Function
-`public: void __thiscall csf::ecc::SecureString::setValue(char const *,unsigned long)` | 217 | Exported Function
-`public: void __thiscall csf::ecc::SecureString::setValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 215 | Exported Function
-`public: bool __thiscall csf::ecc::SecureString::empty(void)const ` | 191 | Exported Function
-`public: bool __thiscall csf::ecc::SecureString::operator!=(class csf::ecc::SecureString const &)const ` | 155 | Exported Function
-`public: bool __thiscall csf::ecc::SecureString::operator==(class csf::ecc::SecureString const &)const ` | 154 | Exported Function
-`public: bool __thiscall csf::ecc::EccFeatureConfig::setIntConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,enum configSrc)` | 213 | Exported Function
-`public: bool __thiscall csf::ecc::EccFeatureConfig::setStringConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum configSrc)` | 214 | Exported Function
-`public: bool __thiscall csf::ecc::SafeBuffer::empty(void)const ` | 190 | Exported Function
-`public: class csf::accessory::AccessoryCallActionsController & __thiscall csf::accessory::AccessoryCallActionsController::operator=(class csf::accessory::AccessoryCallActionsController const &)` | 60 | Exported Function
-`public: class csf::accessory::AccessoryDeviceActionsController & __thiscall csf::accessory::AccessoryDeviceActionsController::operator=(class csf::accessory::AccessoryDeviceActionsController const &)` | 61 | Exported Function
-`public: class csf::accessory::AccessoryPreferenceSettings & __thiscall csf::accessory::AccessoryPreferenceSettings::operator=(class csf::accessory::AccessoryPreferenceSettings const &)` | 62 | Exported Function
-`public: bool __thiscall csf::ecc::SecureStringReader::setValue(char *,unsigned long)` | 218 | Exported Function
-`public: char const * __thiscall csf::ecc::SafeBuffer::data(void)const ` | 187 | Exported Function
-`public: char const * __thiscall csf::ecc::SecureStringReader::data(void)const ` | 188 | Exported Function
-`public: __thiscall csf::ecc::SecureStringReader::SecureStringReader(char *,unsigned long)` | 35 | Exported Function
-`public: __thiscall csf::ecc::SecureStringReader::SecureStringReader(void)` | 36 | Exported Function
-`public: __thiscall csf::ecc::SecureStringReader::~SecureStringReader(void)` | 55 | Exported Function
-`public: __thiscall csf::ecc::SecureString::SecureString(void)` | 34 | Exported Function
-`public: __thiscall csf::ecc::SecureString::~SecureString(void)` | 54 | Exported Function
-`public: __thiscall csf::ecc::SecureStringReader::operator char const *(void)const ` | 156 | Exported Function
-`public: bool __thiscall csf::ecc::EccFeatureConfig::getBoolConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 192 | Exported Function
-`public: bool __thiscall csf::ecc::EccFeatureConfig::lockConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)` | 203 | Exported Function
-`public: bool __thiscall csf::ecc::EccFeatureConfig::setBoolConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,enum configSrc)` | 212 | Exported Function
-`public: __thiscall csf::ecc::test::AdditionalDeskphone::AdditionalDeskphone(class csf::ecc::test::AdditionalDeskphone &&)` | 10 | Exported Function
-`public: __thiscall csf::ecc::test::AdditionalDeskphone::AdditionalDeskphone(class csf::ecc::test::AdditionalDeskphone const &)` | 11 | Exported Function
-`public: __thiscall csf::ecc::test::AdditionalDeskphone::AdditionalDeskphone(void)` | 12 | Exported Function
-`public: class csf::accessory::AccessoryProvider & __thiscall csf::accessory::AccessoryProvider::operator=(class csf::accessory::AccessoryProvider const &)` | 63 | Exported Function
-`public: static class csf::ecc::EccFeatureConfig & __cdecl csf::ecc::EccFeatureConfig::getInstance(void)` | 195 | Exported Function
-`public: static class std::shared_ptr<class csf::accessory::AccessoryProvider> __cdecl csf::accessory::AccessoryProvider::getInstance(class std::shared_ptr<class csf::ecc::CallControlManager>)` | 194 | Exported Function
-`public: static class std::shared_ptr<class csf::accessory::AccessoryVersionInfo> __cdecl csf::accessory::AccessoryVersionInfo::getVersionDetails(void)` | 199 | Exported Function
-`public: class std::shared_ptr<class csf::ecc::IxCall> __thiscall csf::ecc::CC_SIPCCCall::getIxCall(void)` | 197 | Exported Function
-`public: int __thiscall csf::ecc::EccFeatureConfig::getIntConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 196 | Exported Function
-`public: static bool __cdecl csf::ecc::VideoFormat::compare(class std::shared_ptr<class csf::ecc::VideoFormat>,class std::shared_ptr<class csf::ecc::VideoFormat>)` | 179 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::VersionDetails> __cdecl csf::ecc::VersionDetails::getVersionDetails(void)` | 200 | Exported Function
-`public: static void * __cdecl csf::accessory::test::LoadPlugin::loadPlugin(class std::shared_ptr<class csf::accessory::AccessoryProvider>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 201 | Exported Function
-`public: static void * __cdecl csf::accessory::test::LoadPlugin::loadPlugin(class std::shared_ptr<class csf::accessory::AccessoryProvider>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 202 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::CallControlManager> __cdecl csf::ecc::CallControlManager::create(bool,class csf::ecc::MediaProvider *,class std::shared_ptr<class csf::ecc::NetworkQuery>)` | 185 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::RemoteDestination> __cdecl csf::ecc::RemoteDestination::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 186 | Exported Function
-`public: static class std::shared_ptr<class csf::ecc::test::AdditionalDeskphone> __cdecl csf::ecc::test::AdditionalDeskphone::create(void)` | 184 | Exported Function
-`public: class csf::ecc::CC_CallStreamStatistics & __thiscall csf::ecc::CC_CallStreamStatistics::operator=(class csf::ecc::CC_CallStreamStatistics const &)` | 65 | Exported Function
-`public: class csf::ecc::ConnectionInfo & __thiscall csf::ecc::ConnectionInfo::operator=(class csf::ecc::ConnectionInfo &&)` | 66 | Exported Function
-`public: class csf::ecc::ConnectionInfo & __thiscall csf::ecc::ConnectionInfo::operator=(class csf::ecc::ConnectionInfo const &)` | 67 | Exported Function
-`public: class csf::accessory::test::LoadPlugin & __thiscall csf::accessory::test::LoadPlugin::operator=(class csf::accessory::test::LoadPlugin &&)` | 69 | Exported Function
-`public: class csf::accessory::test::LoadPlugin & __thiscall csf::accessory::test::LoadPlugin::operator=(class csf::accessory::test::LoadPlugin const &)` | 70 | Exported Function
-`public: class csf::ecc::CC_CallStreamStatistics & __thiscall csf::ecc::CC_CallStreamStatistics::operator=(class csf::ecc::CC_CallStreamStatistics &&)` | 64 | Exported Function
-`public: class csf::ecc::SecureString & __thiscall csf::ecc::SecureString::operator+=(char const *)` | 157 | Exported Function
-`public: class csf::ecc::SecureString & __thiscall csf::ecc::SecureString::operator=(class csf::ecc::SecureString)` | 77 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall csf::ecc::EccFeatureConfig::getStringConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 198 | Exported Function
-`public: class csf::ecc::EccFeatureConfig & __thiscall csf::ecc::EccFeatureConfig::operator=(class csf::ecc::EccFeatureConfig const &)` | 68 | Exported Function
-`public: class csf::ecc::NativeTelephonyHelper & __thiscall csf::ecc::NativeTelephonyHelper::operator=(class csf::ecc::NativeTelephonyHelper const &)` | 71 | Exported Function
-`public: class csf::ecc::SafeBuffer & __thiscall csf::ecc::SafeBuffer::operator=(class csf::ecc::SafeBuffer)` | 76 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::HttpRequestType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::HttpRequestType::HttpType const &)` | 118 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::HttpResponseEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::HttpResponseEnum::HttpResponse const &)` | 119 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::IceCandidateTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::IceCandidateTypeEnum::IceCandidateType const &)` | 121 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ExtensionMobilityFailureCodeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ExtensionMobilityFailureCodeEnum::ExtensionMobilityFailureCode const &)` | 115 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::FileRetrievalFailureCodeType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::FileRetrievalFailureCodeType::FileRetrievalFailureCode const &)` | 116 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::FileRetrievalProtocolEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::FileRetrievalProtocolEnum::FileRetrievalProtocol const &)` | 117 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::LifecycleStatusEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::LifecycleStatusEnum::LifecycleStatus const &)` | 124 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::MeetingLockedCodeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::MeetingLockedCodeEnum::MeetingLockedCode const &)` | 125 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::NetworkTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::NetworkTypeEnum::NetworkType const &)` | 126 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::IceStateEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::IceStateEnum::IceState const &)` | 122 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::IPModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::IPModeEnum::IPMode const &)` | 120 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::JoinDxferPolicyEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::JoinDxferPolicyEnum::JoinDxferPolicy const &)` | 123 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::DeviceListRetrievalOperationEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class std::vector<enum csf::ecc::DeviceListRetrievalOperationEnum::DeviceListRetrievalOperation,class std::allocator<enum csf::ecc::DeviceListRetrievalOperationEnum::DeviceListRetrievalOperation> > const &)` | 106 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::DeviceListRetrievalOperationEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::DeviceListRetrievalOperationEnum::DeviceListRetrievalOperation const &)` | 107 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::DeviceListRetrievalProtocolEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::DeviceListRetrievalProtocolEnum::DeviceListRetrievalProtocol const &)` | 108 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CryptoDirectionEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CryptoDirectionEnum::CryptoDirection const &)` | 105 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CUCM_DualStackPreferredIPModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CUCM_DualStackPreferredIPModeEnum::CUCM_DualStackPreferredIPMode const &)` | 88 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CUCM_IPAddressModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CUCM_IPAddressModeEnum::CUCM_IPAddressMode const &)` | 89 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::EdgeModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::EdgeModeEnum::EdgeMode const &)` | 112 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::EncryptAlgorithmEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::EncryptAlgorithmEnum::EncryptAlgorithm const &)` | 113 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::Encryption::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::Encryption::Algorithm const &)` | 114 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::DeviceOrientationEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::DeviceOrientationEnum::DeviceOrientation const &)` | 109 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::DeviceRetrievalFailureCodeType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::DeviceRetrievalFailureCodeType::DeviceRetrievalFailureCode const &)` | 110 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::DeviceTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::DeviceTypeEnum::DeviceType const &)` | 111 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class csf::ecc::CC_CallStreamStatistics const &)` | 152 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::SsoTokenTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::SsoTokenTypeEnum::SsoTokenType const &)` | 140 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::TelephonyServiceEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::TelephonyServiceEnum::TelephonyService const &)` | 141 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::TelephonySessionTelemetryFieldEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::TelephonySessionTelemetryFieldEnum::TelephonySessionTelemetryField const &)` | 142 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ServiceInterruptReason::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ServiceInterruptReason::ReasonType const &)` | 137 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ServiceStateType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ServiceStateType::ServiceState const &)` | 138 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::SsoModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::SsoModeEnum::SsoMode const &)` | 139 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::UltrasoundDecoderTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::UltrasoundDecoderTypeEnum::UltrasoundDecoderType)` | 146 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::UltrasoundResultEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::UltrasoundResultEnum::UltrasoundResult)` | 147 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::UltrasoundTokenTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::UltrasoundTokenTypeEnum::UltrasoundTokenType)` | 148 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::TransportProtocolEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::TransportProtocolEnum::TransportProtocol const &)` | 143 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::TurnTransportTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::TurnTransportTypeEnum::TurnTransportType const &)` | 144 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::UDTEventEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::UDTEventEnum::UDTEvent const &)` | 145 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::PhoneConfigStatusEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::PhoneConfigStatusEnum::PhoneConfigStatus const &)` | 129 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::PhoneEventType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::PhoneEventType::PhoneEvent const &)` | 130 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::PowerEventEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::PowerEventEnum::PowerEvent const &)` | 131 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class csf::ecc::CC_Telemetry const &)` | 153 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::P2PCommandEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::P2PCommandEnum::P2PCommand const &)` | 127 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::P2PResponseEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::P2PResponseEnum::P2PResponse const &)` | 128 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ProximitySessionTelemetryFieldEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ProximitySessionTelemetryFieldEnum::ProximitySessionTelemetryField)` | 134 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::RingerTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::RingerTypeEnum::RingerType const &)` | 135 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::RingerVolumeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::RingerVolumeEnum::RingerVolume const &)` | 136 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::PreferredRegistrationModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::PreferredRegistrationModeEnum::PreferredRegistrationMode const &)` | 132 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::proximity::onprem::APIResultEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::proximity::onprem::APIResultEnum::RESULT const &)` | 78 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ProximityModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ProximityModeEnum::ProximityMode const &)` | 133 | Exported Function
+`setValue` | 216 | Exported Function
+`setValue` | 217 | Exported Function
+`allocator` | 215 | Exported Function
+`empty` | 191 | Exported Function
+`SecureString` | 155 | Exported Function
+`SecureString` | 154 | Exported Function
+`allocator` | 213 | Exported Function
+`allocator` | 214 | Exported Function
+`empty` | 190 | Exported Function
+`AccessoryCallActionsController` | 60 | Exported Function
+`AccessoryDeviceActionsController` | 61 | Exported Function
+`AccessoryPreferenceSettings` | 62 | Exported Function
+`setValue` | 218 | Exported Function
+`data` | 187 | Exported Function
+`data` | 188 | Exported Function
+`SecureStringReader` | 35 | Exported Function
+`SecureStringReader` | 36 | Exported Function
+`SecureStringReader` | 55 | Exported Function
+`SecureString` | 34 | Exported Function
+`SecureString` | 54 | Exported Function
+`operator` | 156 | Exported Function
+`allocator` | 192 | Exported Function
+`allocator` | 203 | Exported Function
+`allocator` | 212 | Exported Function
+`AdditionalDeskphone` | 10 | Exported Function
+`AdditionalDeskphone` | 11 | Exported Function
+`AdditionalDeskphone` | 12 | Exported Function
+`AccessoryProvider` | 63 | Exported Function
+`getInstance` | 195 | Exported Function
+`CallControlManager` | 194 | Exported Function
+`getVersionDetails` | 199 | Exported Function
+`getIxCall` | 197 | Exported Function
+`allocator` | 196 | Exported Function
+`VideoFormat` | 179 | Exported Function
+`getVersionDetails` | 200 | Exported Function
+`allocator` | 201 | Exported Function
+`allocator` | 202 | Exported Function
+`NetworkQuery` | 185 | Exported Function
+`allocator` | 186 | Exported Function
+`create` | 184 | Exported Function
+`CC_CallStreamStatistics` | 65 | Exported Function
+`ConnectionInfo` | 66 | Exported Function
+`ConnectionInfo` | 67 | Exported Function
+`LoadPlugin` | 69 | Exported Function
+`LoadPlugin` | 70 | Exported Function
+`CC_CallStreamStatistics` | 64 | Exported Function
+`operator` | 157 | Exported Function
+`SecureString` | 77 | Exported Function
+`allocator` | 198 | Exported Function
+`EccFeatureConfig` | 68 | Exported Function
+`NativeTelephonyHelper` | 71 | Exported Function
+`SafeBuffer` | 76 | Exported Function
+`HttpType` | 118 | Exported Function
+`HttpResponse` | 119 | Exported Function
+`IceCandidateType` | 121 | Exported Function
+`ExtensionMobilityFailureCode` | 115 | Exported Function
+`FileRetrievalFailureCode` | 116 | Exported Function
+`FileRetrievalProtocol` | 117 | Exported Function
+`LifecycleStatus` | 124 | Exported Function
+`MeetingLockedCode` | 125 | Exported Function
+`NetworkType` | 126 | Exported Function
+`IceState` | 122 | Exported Function
+`IPMode` | 120 | Exported Function
+`JoinDxferPolicy` | 123 | Exported Function
+`DeviceListRetrievalOperation` | 106 | Exported Function
+`DeviceListRetrievalOperation` | 107 | Exported Function
+`DeviceListRetrievalProtocol` | 108 | Exported Function
+`CryptoDirection` | 105 | Exported Function
+`CUCM_DualStackPreferredIPMode` | 88 | Exported Function
+`CUCM_IPAddressMode` | 89 | Exported Function
+`EdgeMode` | 112 | Exported Function
+`EncryptAlgorithm` | 113 | Exported Function
+`Algorithm` | 114 | Exported Function
+`DeviceOrientation` | 109 | Exported Function
+`DeviceRetrievalFailureCode` | 110 | Exported Function
+`DeviceType` | 111 | Exported Function
+`CC_CallStreamStatistics` | 152 | Exported Function
+`SsoTokenType` | 140 | Exported Function
+`TelephonyService` | 141 | Exported Function
+`TelephonySessionTelemetryField` | 142 | Exported Function
+`ReasonType` | 137 | Exported Function
+`ServiceState` | 138 | Exported Function
+`SsoMode` | 139 | Exported Function
+`UltrasoundDecoderType` | 146 | Exported Function
+`UltrasoundResult` | 147 | Exported Function
+`UltrasoundTokenType` | 148 | Exported Function
+`TransportProtocol` | 143 | Exported Function
+`TurnTransportType` | 144 | Exported Function
+`UDTEvent` | 145 | Exported Function
+`PhoneConfigStatus` | 129 | Exported Function
+`PhoneEvent` | 130 | Exported Function
+`PowerEvent` | 131 | Exported Function
+`CC_Telemetry` | 153 | Exported Function
+`P2PCommand` | 127 | Exported Function
+`P2PResponse` | 128 | Exported Function
+`ProximitySessionTelemetryField` | 134 | Exported Function
+`RingerType` | 135 | Exported Function
+`RingerVolume` | 136 | Exported Function
+`PreferredRegistrationMode` | 132 | Exported Function
+`RESULT` | 78 | Exported Function
+`ProximityMode` | 133 | Exported Function
 `char const * __cdecl media_interface_type_getname(enum cc_media_interface_type_t)` | 205 | Exported Function
 `char const * __cdecl rtp_ptype_getname(enum rtp_ptype_)` | 210 | Exported Function
 `char const * __cdecl vcm_alert_info_getname(enum vcm_alert_info_t)` | 340 | Exported Function
@@ -297,129 +297,129 @@ Function Name | Ordinal | Type
 `call_privacy_getname` | 355 | Exported Function
 `call_security_getname` | 356 | Exported Function
 `char const * __cdecl vcm_tones_getname(enum vcm_tones_t)` | 347 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionFailureReasonEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionFailureReasonEnum::ConnectionFailureReason const &)` | 96 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionIPProtocolEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionIPProtocolEnum::ConnectionIPProtocol const &)` | 97 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionRoleEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionRoleEnum::ConnectionRole const &)` | 98 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ChannelTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ChannelTypeEnum::ChannelType const &)` | 93 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ClientTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ClientTypeEnum::ClientType const &)` | 94 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionFailureCodeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionFailureCodeEnum::ConnectionFailureCode const &)` | 95 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionTypeEnum::ConnectionType const &)` | 102 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CredentialEventEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CredentialEventEnum::CredentialEvent const &)` | 103 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CredentialServiceEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CredentialServiceEnum::CredentialService const &)` | 104 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionServerTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionServerTypeEnum::ConnectionServerType const &)` | 99 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionStateEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionStateEnum::ConnectionState const &)` | 100 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ConnectionStatusEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ConnectionStatusEnum::ConnectionStatus const &)` | 101 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::AuthenticationFailureCodeType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::AuthenticationFailureCodeType::AuthenticationFailureCode const &)` | 82 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::AuthenticationFormatEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::AuthenticationFormatEnum::AuthenticationFormat const &)` | 83 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::AuthenticationStatusEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::AuthenticationStatusEnum::AuthenticationStatus const &)` | 84 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ActiveConnectionStatusEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ActiveConnectionStatusEnum::ActiveConnectionStatus const &)` | 79 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::ApplicationBackgroundEventEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::ApplicationBackgroundEventEnum::ApplicationBackgroundEvent const &)` | 80 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::AuthenticationCertificateLevelType::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::AuthenticationCertificateLevelType::AuthenticationCertificateLevel const &)` | 81 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CallPickupFailureCodeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CallPickupFailureCodeEnum::CallPickupFailureCode const &)` | 91 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CC_TelemetryValueTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CC_TelemetryValueTypeEnum::TelemetryValueType)` | 87 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CertificateExternalVerificationPolicyEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CertificateExternalVerificationPolicyEnum::CertificateExternalVerificationPolicy const &)` | 92 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::BandwidthModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::BandwidthModeEnum::BandwidthMode const &)` | 85 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::BandwidthReasonEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::BandwidthReasonEnum::BandwidthReason const &)` | 86 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::CallControlModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::CallControlModeEnum::CallControlMode const &)` | 90 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::VideoPolicyEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::VideoPolicyEnum::VideoPolicy const &)` | 150 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::EncryptAlgorithmEnum::toString(enum csf::ecc::EncryptAlgorithmEnum::EncryptAlgorithm)` | 272 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::Encryption::toString(enum csf::ecc::Encryption::Algorithm)` | 273 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ExtensionMobilityFailureCodeEnum::toString(enum csf::ecc::ExtensionMobilityFailureCodeEnum::ExtensionMobilityFailureCode)` | 274 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DeviceTypeEnum::toTelemetryString(enum csf::ecc::DeviceTypeEnum::DeviceType)` | 339 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DTMF::toString(enum csf::ecc::DTMF::Digit)` | 265 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::EdgeModeEnum::toString(enum csf::ecc::EdgeModeEnum::EdgeMode)` | 271 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::HandoffPreferenceEnum::toString(enum csf::ecc::HandoffPreferenceEnum::HandoffPreference)` | 278 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::HttpRequestType::toString(enum csf::ecc::HttpRequestType::HttpType)` | 279 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::HttpResponseEnum::toString(enum csf::ecc::HttpResponseEnum::HttpResponse)` | 280 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::FileRetrievalFailureCodeType::toString(enum csf::ecc::FileRetrievalFailureCodeType::FileRetrievalFailureCode)` | 275 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::FileRetrievalProtocolEnum::toString(enum csf::ecc::FileRetrievalProtocolEnum::FileRetrievalProtocol)` | 276 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::H264::toString(enum csf::ecc::H264::LevelType)` | 277 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CredentialServiceEnum::toString(enum csf::ecc::CredentialServiceEnum::CredentialService)` | 263 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CryptoDirectionEnum::toString(enum csf::ecc::CryptoDirectionEnum::CryptoDirection)` | 264 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CUCM_DualStackPreferredIPModeEnum::toString(enum csf::ecc::CUCM_DualStackPreferredIPModeEnum::CUCM_DualStackPreferredIPMode)` | 246 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionStatusEnum::toString(enum csf::ecc::ConnectionStatusEnum::ConnectionStatus)` | 260 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionTypeEnum::toString(enum csf::ecc::ConnectionTypeEnum::ConnectionType)` | 261 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CredentialEventEnum::toString(enum csf::ecc::CredentialEventEnum::CredentialEvent)` | 262 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DeviceOrientationEnum::toString(enum csf::ecc::DeviceOrientationEnum::DeviceOrientation)` | 268 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DeviceRetrievalFailureCodeType::toString(enum csf::ecc::DeviceRetrievalFailureCodeType::DeviceRetrievalFailureCode)` | 269 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DeviceTypeEnum::toString(enum csf::ecc::DeviceTypeEnum::DeviceType)` | 270 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CUCM_IPAddressModeEnum::toString(enum csf::ecc::CUCM_IPAddressModeEnum::CUCM_IPAddressMode)` | 247 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DeviceListRetrievalOperationEnum::toString(enum csf::ecc::DeviceListRetrievalOperationEnum::DeviceListRetrievalOperation)` | 266 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::DeviceListRetrievalProtocolEnum::toString(enum csf::ecc::DeviceListRetrievalProtocolEnum::DeviceListRetrievalProtocol)` | 267 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::IceCandidateTypeEnum::toString(enum csf::ecc::IceCandidateTypeEnum::IceCandidateType)` | 282 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::PhoneConfigStatusEnum::toString(enum csf::ecc::PhoneConfigStatusEnum::PhoneConfigStatus)` | 298 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::PhoneEventType::toString(enum csf::ecc::PhoneEventType::PhoneEvent)` | 299 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::PowerEventEnum::toString(enum csf::ecc::PowerEventEnum::PowerEvent)` | 300 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::NetworkTypeEnum::toString(enum csf::ecc::NetworkTypeEnum::NetworkType)` | 295 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::P2PCommandEnum::toString(enum csf::ecc::P2PCommandEnum::P2PCommand)` | 296 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::P2PResponseEnum::toString(enum csf::ecc::P2PResponseEnum::P2PResponse)` | 297 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ProximitySessionTelemetryFieldEnum::toString(enum csf::ecc::ProximitySessionTelemetryFieldEnum::ProximitySessionTelemetryField)` | 303 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::RemoteEndPoint::toString(enum csf::ecc::RemoteEndPoint::RemoteEndPointType)` | 304 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::RingerTypeEnum::toString(enum csf::ecc::RingerTypeEnum::RingerType)` | 306 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::PreferredRegistrationModeEnum::toString(enum csf::ecc::PreferredRegistrationModeEnum::PreferredRegistrationMode)` | 301 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::proximity::onprem::APIResultEnum::toString(enum csf::ecc::proximity::onprem::APIResultEnum::RESULT)` | 221 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ProximityModeEnum::toString(enum csf::ecc::ProximityModeEnum::ProximityMode)` | 302 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::LifecycleStatusEnum::toString(enum csf::ecc::LifecycleStatusEnum::LifecycleStatus)` | 285 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MediaCodec::toString(enum csf::ecc::MediaCodec::MediaCodecType)` | 287 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MediaError::toString(enum csf::ecc::MediaError::MediaErrorCode)` | 288 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::IceStateEnum::toString(enum csf::ecc::IceStateEnum::IceState)` | 283 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::IPModeEnum::toString(enum csf::ecc::IPModeEnum::IPMode)` | 281 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::JoinDxferPolicyEnum::toString(enum csf::ecc::JoinDxferPolicyEnum::JoinDxferPolicy)` | 284 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MixingPartyType::toString(enum csf::ecc::MixingPartyType::Type)` | 294 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MixMode::toString(enum csf::ecc::MixMode::MixModeType)` | 292 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MixMode::toString(enum csf::ecc::MixMode::Mode)` | 293 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MediaPayload::toString(enum csf::ecc::MediaPayload::MediaPayloadType)` | 289 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MediaState::toString(enum csf::ecc::MediaState::MediaStateType)` | 290 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::MeetingLockedCodeEnum::toString(enum csf::ecc::MeetingLockedCodeEnum::MeetingLockedCode)` | 291 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ActiveControlRemoteOperationEnum::toString(enum csf::ecc::ActiveControlRemoteOperationEnum::ActiveControlRemoteOperation)` | 224 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ApplicationBackgroundEventEnum::toString(enum csf::ecc::ApplicationBackgroundEventEnum::ApplicationBackgroundEvent)` | 225 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::AudioControlEvent::toString(enum csf::ecc::AudioControlEvent::EventType)` | 226 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_VoicemailPreference)` | 336 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ActiveConnectionStatusEnum::toString(enum csf::ecc::ActiveConnectionStatusEnum::ActiveConnectionStatus)` | 222 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ActiveControlParticipantStatusType::toString(enum csf::ecc::ActiveControlParticipantStatusType::ActiveControlParticipantStatus)` | 223 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::AuthenticationStatusEnum::toString(enum csf::ecc::AuthenticationStatusEnum::AuthenticationStatus)` | 230 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::BandwidthModeEnum::toString(enum csf::ecc::BandwidthModeEnum::BandwidthMode)` | 231 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::BandwidthReasonEnum::toString(enum csf::ecc::BandwidthReasonEnum::BandwidthReason)` | 232 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::AuthenticationCertificateLevelType::toString(enum csf::ecc::AuthenticationCertificateLevelType::AuthenticationCertificateLevel)` | 227 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::AuthenticationFailureCodeType::toString(enum csf::ecc::AuthenticationFailureCodeType::AuthenticationFailureCode)` | 228 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::AuthenticationFormatEnum::toString(enum csf::ecc::AuthenticationFormatEnum::AuthenticationFormat)` | 229 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_AudioType)` | 327 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_CallDirection)` | 328 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_CallState)` | 329 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::VideoStreamTypeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::VideoStreamTypeEnum::VideoStreamType const &)` | 151 | Exported Function
-`class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl csf::ecc::VXIModeEnum::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,enum csf::ecc::VXIModeEnum::VXIMode const &)` | 149 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_AccessoryType)` | 326 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_PluginLoaderResult)` | 333 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_PluginProductName)` | 334 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_VideoPreference)` | 335 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_EventType)` | 330 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_HeadsetCap)` | 331 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::accessory::toString(enum Accessory_PhoneConnectionStatus)` | 332 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::BuildTypeEnum::toString(enum csf::ecc::BuildTypeEnum::BuildType)` | 233 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ChannelTypeEnum::toString(enum csf::ecc::ChannelTypeEnum::ChannelType)` | 251 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ClientTypeEnum::toString(enum csf::ecc::ClientTypeEnum::ClientType)` | 252 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConferenceLayoutEnum::toString(enum csf::ecc::ConferenceLayoutEnum::ConferenceLayout)` | 253 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_LineEventEnum::toString(enum csf::ecc::CC_LineEventEnum::CC_LineEvent)` | 244 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_TelemetryValueTypeEnum::toString(enum csf::ecc::CC_TelemetryValueTypeEnum::TelemetryValueType)` | 245 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CertificateExternalVerificationPolicyEnum::toString(enum csf::ecc::CertificateExternalVerificationPolicyEnum::CertificateExternalVerificationPolicy)` | 250 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionRoleEnum::toString(enum csf::ecc::ConnectionRoleEnum::ConnectionRole)` | 257 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionServerTypeEnum::toString(enum csf::ecc::ConnectionServerTypeEnum::ConnectionServerType)` | 258 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionStateEnum::toString(enum csf::ecc::ConnectionStateEnum::ConnectionState)` | 259 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionFailureCodeEnum::toString(enum csf::ecc::ConnectionFailureCodeEnum::ConnectionFailureCode)` | 254 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionFailureReasonEnum::toString(enum csf::ecc::ConnectionFailureReasonEnum::ConnectionFailureReason)` | 255 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::ConnectionIPProtocolEnum::toString(enum csf::ecc::ConnectionIPProtocolEnum::ConnectionIPProtocol)` | 256 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_CallCapabilityEnum::toString(enum csf::ecc::CC_CallCapabilityEnum::CC_CallCapability)` | 235 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_CallEventEnum::toString(enum csf::ecc::CC_CallEventEnum::CC_CallEvent)` | 236 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_CallStateEnum::toString(enum csf::ecc::CC_CallStateEnum::CC_CallState)` | 237 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CallControlModeEnum::toString(enum csf::ecc::CallControlModeEnum::CallControlMode)` | 248 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CallPickupFailureCodeEnum::toString(enum csf::ecc::CallPickupFailureCodeEnum::CallPickupFailureCode)` | 249 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_CallCapabilityEnum::toString(class std::set<enum csf::ecc::CC_CallCapabilityEnum::CC_CallCapability,struct std::less<enum csf::ecc::CC_CallCapabilityEnum::CC_CallCapability>,class std::allocator<enum csf::ecc::CC_CallCapabilityEnum::CC_CallCapability> >)` | 234 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_DeviceStatusEnum::toString(enum csf::ecc::CC_DeviceStatusEnum::CC_DeviceStatus)` | 241 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_LineCapabilityEnum::toString(class std::set<enum csf::ecc::CC_LineCapabilityEnum::CC_LineCapability,struct std::less<enum csf::ecc::CC_LineCapabilityEnum::CC_LineCapability>,class std::allocator<enum csf::ecc::CC_LineCapabilityEnum::CC_LineCapability> >)` | 242 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_LineCapabilityEnum::toString(enum csf::ecc::CC_LineCapabilityEnum::CC_LineCapability)` | 243 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_DeviceCapabilityEnum::toString(class std::set<enum csf::ecc::CC_DeviceCapabilityEnum::CC_DeviceCapability,struct std::less<enum csf::ecc::CC_DeviceCapabilityEnum::CC_DeviceCapability>,class std::allocator<enum csf::ecc::CC_DeviceCapabilityEnum::CC_DeviceCapability> >)` | 238 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_DeviceCapabilityEnum::toString(enum csf::ecc::CC_DeviceCapabilityEnum::CC_DeviceCapability)` | 239 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl csf::ecc::CC_DeviceEventEnum::toString(enum csf::ecc::CC_DeviceEventEnum::CC_DeviceEvent)` | 240 | Exported Function
+`ConnectionFailureReason` | 96 | Exported Function
+`ConnectionIPProtocol` | 97 | Exported Function
+`ConnectionRole` | 98 | Exported Function
+`ChannelType` | 93 | Exported Function
+`ClientType` | 94 | Exported Function
+`ConnectionFailureCode` | 95 | Exported Function
+`ConnectionType` | 102 | Exported Function
+`CredentialEvent` | 103 | Exported Function
+`CredentialService` | 104 | Exported Function
+`ConnectionServerType` | 99 | Exported Function
+`ConnectionState` | 100 | Exported Function
+`ConnectionStatus` | 101 | Exported Function
+`AuthenticationFailureCode` | 82 | Exported Function
+`AuthenticationFormat` | 83 | Exported Function
+`AuthenticationStatus` | 84 | Exported Function
+`ActiveConnectionStatus` | 79 | Exported Function
+`ApplicationBackgroundEvent` | 80 | Exported Function
+`AuthenticationCertificateLevel` | 81 | Exported Function
+`CallPickupFailureCode` | 91 | Exported Function
+`TelemetryValueType` | 87 | Exported Function
+`CertificateExternalVerificationPolicy` | 92 | Exported Function
+`BandwidthMode` | 85 | Exported Function
+`BandwidthReason` | 86 | Exported Function
+`CallControlMode` | 90 | Exported Function
+`VideoPolicy` | 150 | Exported Function
+`EncryptAlgorithm` | 272 | Exported Function
+`Algorithm` | 273 | Exported Function
+`ExtensionMobilityFailureCode` | 274 | Exported Function
+`DeviceType` | 339 | Exported Function
+`Digit` | 265 | Exported Function
+`EdgeMode` | 271 | Exported Function
+`HandoffPreference` | 278 | Exported Function
+`HttpType` | 279 | Exported Function
+`HttpResponse` | 280 | Exported Function
+`FileRetrievalFailureCode` | 275 | Exported Function
+`FileRetrievalProtocol` | 276 | Exported Function
+`LevelType` | 277 | Exported Function
+`CredentialService` | 263 | Exported Function
+`CryptoDirection` | 264 | Exported Function
+`CUCM_DualStackPreferredIPMode` | 246 | Exported Function
+`ConnectionStatus` | 260 | Exported Function
+`ConnectionType` | 261 | Exported Function
+`CredentialEvent` | 262 | Exported Function
+`DeviceOrientation` | 268 | Exported Function
+`DeviceRetrievalFailureCode` | 269 | Exported Function
+`DeviceType` | 270 | Exported Function
+`CUCM_IPAddressMode` | 247 | Exported Function
+`DeviceListRetrievalOperation` | 266 | Exported Function
+`DeviceListRetrievalProtocol` | 267 | Exported Function
+`IceCandidateType` | 282 | Exported Function
+`PhoneConfigStatus` | 298 | Exported Function
+`PhoneEvent` | 299 | Exported Function
+`PowerEvent` | 300 | Exported Function
+`NetworkType` | 295 | Exported Function
+`P2PCommand` | 296 | Exported Function
+`P2PResponse` | 297 | Exported Function
+`ProximitySessionTelemetryField` | 303 | Exported Function
+`RemoteEndPointType` | 304 | Exported Function
+`RingerType` | 306 | Exported Function
+`PreferredRegistrationMode` | 301 | Exported Function
+`RESULT` | 221 | Exported Function
+`ProximityMode` | 302 | Exported Function
+`LifecycleStatus` | 285 | Exported Function
+`MediaCodecType` | 287 | Exported Function
+`MediaErrorCode` | 288 | Exported Function
+`IceState` | 283 | Exported Function
+`IPMode` | 281 | Exported Function
+`JoinDxferPolicy` | 284 | Exported Function
+`Type` | 294 | Exported Function
+`MixModeType` | 292 | Exported Function
+`Mode` | 293 | Exported Function
+`MediaPayloadType` | 289 | Exported Function
+`MediaStateType` | 290 | Exported Function
+`MeetingLockedCode` | 291 | Exported Function
+`ActiveControlRemoteOperation` | 224 | Exported Function
+`ApplicationBackgroundEvent` | 225 | Exported Function
+`EventType` | 226 | Exported Function
+`toString` | 336 | Exported Function
+`ActiveConnectionStatus` | 222 | Exported Function
+`ActiveControlParticipantStatus` | 223 | Exported Function
+`AuthenticationStatus` | 230 | Exported Function
+`BandwidthMode` | 231 | Exported Function
+`BandwidthReason` | 232 | Exported Function
+`AuthenticationCertificateLevel` | 227 | Exported Function
+`AuthenticationFailureCode` | 228 | Exported Function
+`AuthenticationFormat` | 229 | Exported Function
+`toString` | 327 | Exported Function
+`toString` | 328 | Exported Function
+`toString` | 329 | Exported Function
+`VideoStreamType` | 151 | Exported Function
+`VXIMode` | 149 | Exported Function
+`toString` | 326 | Exported Function
+`toString` | 333 | Exported Function
+`toString` | 334 | Exported Function
+`toString` | 335 | Exported Function
+`toString` | 330 | Exported Function
+`toString` | 331 | Exported Function
+`toString` | 332 | Exported Function
+`BuildType` | 233 | Exported Function
+`ChannelType` | 251 | Exported Function
+`ClientType` | 252 | Exported Function
+`ConferenceLayout` | 253 | Exported Function
+`CC_LineEvent` | 244 | Exported Function
+`TelemetryValueType` | 245 | Exported Function
+`CertificateExternalVerificationPolicy` | 250 | Exported Function
+`ConnectionRole` | 257 | Exported Function
+`ConnectionServerType` | 258 | Exported Function
+`ConnectionState` | 259 | Exported Function
+`ConnectionFailureCode` | 254 | Exported Function
+`ConnectionFailureReason` | 255 | Exported Function
+`ConnectionIPProtocol` | 256 | Exported Function
+`CC_CallCapability` | 235 | Exported Function
+`CC_CallEvent` | 236 | Exported Function
+`CC_CallState` | 237 | Exported Function
+`CallControlMode` | 248 | Exported Function
+`CallPickupFailureCode` | 249 | Exported Function
+`CC_CallCapability` | 234 | Exported Function
+`CC_DeviceStatus` | 241 | Exported Function
+`CC_LineCapability` | 242 | Exported Function
+`CC_LineCapability` | 243 | Exported Function
+`CC_DeviceCapability` | 238 | Exported Function
+`CC_DeviceCapability` | 239 | Exported Function
+`CC_DeviceEvent` | 240 | Exported Function
 
 
 ## Signature

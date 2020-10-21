@@ -18,29 +18,9 @@ SHA256 | `9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071`
 SHA384 | `9FF778D98AD2E947032CB357E64CB3D9BB00B969DEF284B72907B9001403EFDCC255A409D6AAFA48E652E7E544C702E8`
 SHA512 | `0FEE2E5626750AB6B15D82CD12F736790C4C703D02109D2704235186E3E85AAA22114D0E302626ABD960AECCCCFB03C11087668E8778D6523E4635400FB783F3`
 SSDEEP | `192:i/1JmsaTvA/oN+wHKBCB0lJUKsRFdNEuZssvllWjUW:IKTvGq+eKB9JUFTZssvvWjUW`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\LogonUI.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-
+IMP | `B9B0B64B08B38276711093CA94348D39`
+PESHA1 | `A2E16B65814BC4F7537E22EDC67ED47ABDBF7D5E`
+PE256 | `935DEC6642A055C04A4149E9D26FE3F2FA6B82E5F8DE51B5125C6D798DC26F11`
 
 ## Signature
 
@@ -59,7 +39,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/9358ef8cb7fb08581d74274005263bd8fa2e6e0fc443930b25fd345cf6ce9071/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -8,6 +8,10 @@ excerpt: What is audit.exe?
 * File Path: `C:\Windows\system32\oobe\audit.exe`
 * Description: Audit
 
+## Screenshot
+
+![audit.exe](screenshots/audit.exe-0DEAC8D84F1220F2B220EDB1AEFEAF0B-3.png)
+
 ## Hashes
 
 Type | Hash
@@ -27,7 +31,7 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\oobe\en-US\audit.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagerr.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagwrn.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\setupact.log | File

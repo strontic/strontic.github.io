@@ -22,6 +22,9 @@ SHA256 | `61A5F3A9E4307DCBA263F68D6BC470EBDC7DC4BBDF75F872E200E10E97552341`
 SHA384 | `9C80FE46A01D4064FEDEB64CD7530EF84D3698A6BDF73613AAA5F09F76CA88FCDF1A1902CD62CE0B1325FABE2C976728`
 SHA512 | `6AD712CC325DD9D43292267842BA0E364A9316DE3CCD492B59428B1899338B31039222B0801C5243D8523F94DFF6EADD55675E7DA7335AE1781BC2F3E4500827`
 SSDEEP | `6144:LhALu5bNoRvngmNZnzJ4P1inCb0BFkmPHK:LhERvgWB94P1uu0BxP`
+IMP | `565C6ED75710FE55AB5863E72FE6F1D4`
+PESHA1 | `4F9E53EB74336EAB2F0F0D4C60C33036F4F7CC0A`
+PE256 | `25AE5DFC52DF81FAB81B72A201CE9379910F1670E33B742FDB9AF849C7FC6445`
 
 ## Runtime Data
 
@@ -35,13 +38,16 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\dxdiag.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -58,8 +64,8 @@ C:\Windows\SysWOW64\dxdiag.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -72,7 +78,12 @@ C:\Windows\SysWOW64\dxdiag.exe |
 * Product Version: 10.0.17763.475
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/61a5f3a9e4307dcba263f68d6bc470ebdc7dc4bbdf75f872e200e10e97552341/detection/
 
 
 

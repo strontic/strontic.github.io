@@ -18,6 +18,9 @@ SHA256 | `79F13786B0EE6EB813ECD90C739FF48F078DFAE6B8F7AEDFEB526FFE86B81EB2`
 SHA384 | `841A6014E066AF113F1AA9C28DB8D910C86877AB07AA98241DD7E268299701B606ACDB8AACE23CC21154AA9355A1981D`
 SHA512 | `6FC291FD91EF219440D15D46EB7C6C478BA428C0E03F2B59D773CC3096538D3053D5A59A393BDF3994531DE6838AB0D6DE2D9E87F9341756F990A8005C390914`
 SSDEEP | `1536:dDI9ao9Lv8OUqKRrorQoTyU46iz7bKp3GcaBaLy5tpzKQfKQTzBNer+CE+Ge+z8J:89wOmorFWlY3GcaBBkkrer+CE+GF8Vz`
+IMP | `A77B6C517B9F2590BF7CEBD852A3DD71`
+PESHA1 | `47CEBA7C05AEDAD09E6985C0A0789537082AF4C8`
+PE256 | `095E661118F97C30A251A368245D29061C14B8735E1AB0817A83AA7D4690717E`
 
 ## Runtime Data
 
@@ -31,11 +34,11 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\twinui.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows\System32 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
-(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
-(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 (RWD)   C:\Windows\Fonts\seguisb.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
@@ -45,7 +48,7 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\RPC Control\DSEC854 | Section
+\RPC Control\DSEC9E0 | Section
 \Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
 
@@ -54,7 +57,36 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\OpenWith.exe |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHCORE.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\twinui.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -74,7 +106,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/79f13786b0ee6eb813ecd90c739ff48f078dfae6b8f7aedfeb526ffe86b81eb2/detection/
 
 ## File Similarity (ssdeep match)
 

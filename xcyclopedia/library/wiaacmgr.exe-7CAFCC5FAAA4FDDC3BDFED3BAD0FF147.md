@@ -18,6 +18,9 @@ SHA256 | `C485B377A3982A890B91F71495B1D74B7E0244D8B571800D462BFA051B0BF6C3`
 SHA384 | `A902890C79A7D971072526B1EB4E91B98EBDC325A7628C427DE55F1C6B45B92D1629657A251B74CE2AF15D6AF86602F3`
 SHA512 | `51A8F74BA208E45A4288F72E31A2752B1DA5D686226C01D794537481DFF1E5622BD89DD6031494C26CA40311D5623D11BBAA35067877ACBD9EB130098203D3B3`
 SSDEEP | `1536:wL46uxQPZnlN3EIpXey07p352nDXg3Ln6cMFQWd+uYiuWp+UmBo6Atf7:U4r6AIpOy0lEDXM+d+uMGmBo6Q`
+IMP | `A33A978964804D79AED85FB0267A592E`
+PESHA1 | `7B712AE57C98D090A6067966D4E3718E419F6948`
+PE256 | `C3D0A0C7E87F59CB311279F498E7B07042A5BFBA75C4CB5CFAD2C61A52E22800`
 
 ## Runtime Data
 
@@ -28,13 +31,16 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\scansetting.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\wiaacmgr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1B70 | Section
+\RPC Control\DSEC1144 | Section
 
 
 ### Loaded Modules:
@@ -48,7 +54,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\cryptsp.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -73,7 +78,7 @@ C:\Windows\system32\UxTheme.dll |
 C:\Windows\system32\wiaacmgr.exe |
 C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa\gdiplus.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35\gdiplus.dll |
 
 
 ## Signature
@@ -93,7 +98,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.139
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/c485b377a3982a890b91f71495b1d74b7e0244d8b571800d462bfa051b0bf6c3/detection/
 
 ## File Similarity (ssdeep match)
 

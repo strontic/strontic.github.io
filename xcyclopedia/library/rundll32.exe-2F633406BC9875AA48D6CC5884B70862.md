@@ -18,6 +18,9 @@ SHA256 | `26E68D4381774A6FD0BF5CA2EACEF55F2AB28536E3176A1C6362DFFC68B22B8A`
 SHA384 | `B3E247DAE87DBDDE91A31446E84FC04708FC21E83AEE02AB3D0CED93BDCA612B4919812CB0F44D98FFFB8BA84FC0A49F`
 SHA512 | `7F298EEBC0523B4113F4D95A6A02458BCD34D52945DB7ADB8DE0667C00FEDD0D9C2156DCC980E8AE0A1B95F841190A7214AEAFE3B8F771C44F0BD6F3C2244FBA`
 SSDEEP | `768:bcNE1DAVSspt/KWgkXDbmekuTRzbSEln5IyYpamDjobj8Sjj:4+uZatKm0TRNln5IUmDjoX`
+IMP | `BB17B2FBBFF4BBF5EBDCA7D0BB9E4A5B`
+PESHA1 | `DF07BC9FDB1EFEFA6C128E9ABDB2DB8F76F88BD3`
+PE256 | `95F47CDD7803D6CB61765326E8B794B703EB56970898FE1E450376D77A825622`
 
 ## Runtime Data
 
@@ -26,6 +29,9 @@ SSDEEP | `768:bcNE1DAVSspt/KWgkXDbmekuTRzbSEln5IyYpamDjobj8Sjj:4+uZatKm0TRNln5IU
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\rundll32.exe |
 
 
@@ -46,7 +52,12 @@ C:\Windows\SysWOW64\rundll32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/26e68d4381774a6fd0bf5ca2eacef55f2ab28536e3176a1c6362dffc68b22b8a/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -119,6 +130,9 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rundll32_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_activity.yml) | `- '*\rundll32.exe javascript:*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rundll32_by_ordinal.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_by_ordinal.yml) | `description: Detects suspicious calls of DLLs in rundll32.dll exports by ordinal` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rundll32_by_ordinal.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_by_ordinal.yml) | `CommandLine: '*\rundll32.exe *,#*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_proc_create_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) | `title: Suspicious WMI Execution Using Rundll32` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_proc_create_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) | `description: Detects WMI executing rundll32` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_proc_create_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) | `- 'rundll32'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '*\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_powershell_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_powershell_rundll32.yml) | `title: PowerShell Rundll32 Remote Thread Creation` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_powershell_rundll32.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_powershell_rundll32.yml) | `description: Detects PowerShell remote thread creation in Rundll32.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

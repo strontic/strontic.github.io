@@ -3449,7 +3449,7 @@ Function Name | Ordinal | Type
 `Ordinal1007` | 1007 | Exported Function
 `Ordinal1008` | 1008 | Exported Function
 `_MsoPwlfFromFlinfo@8` | 1738 | Exported Function
-`long __stdcall Mso::Clipboard::DoNotUse_OleGetClipboardAndRequestAccessSynchronously(struct IDataObject * *,wchar_t const *,struct HWND__ *)` | 686 | Exported Function
+`DoNotUse_OleGetClipboardAndRequestAccessSynchronously` | 686 | Exported Function
 `_MsoFreeFlinfo@4` | 1117 | Exported Function
 `_MsoCrCbvGet@4` | 1321 | Exported Function
 `_MsoDoFontLinkRgwch@24` | 2476 | Exported Function

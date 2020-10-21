@@ -105,6 +105,7 @@ Usage: nltest [/OPTIONS]
 File | Score
 -- | --
 [C:\Windows\system32\nltest.exe](nltest.exe-83D87F1BD5CC5E9EC2D2B88B82A78C6A.md) | 82
+[C:\Windows\system32\nltest.exe](nltest.exe-D0F2751CA874BAFDB8A263BB1D2D1F87.md) | 80
 
 ## Possible Misuse
 

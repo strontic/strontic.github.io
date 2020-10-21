@@ -26,9 +26,9 @@ PE256 | `72C2593F0F02D820F9395692E9C3F978A72744057870FEF1551960A39CD584C1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`unsigned long __cdecl MsOcr::GetOcrVersion(void)` | 3 | Exported Function
-`float __cdecl MsOcr::GetOcrAccuracyIndex(enum MsOcr::OcrLanguage)` | 2 | Exported Function
-`enum MsOcr::OcrReturnCode __cdecl MsOcr::CreateOcrEngine(wchar_t const *,class MsOcr::IOcrEngine * *)` | 1 | Exported Function
+`GetOcrVersion` | 3 | Exported Function
+`OcrLanguage` | 2 | Exported Function
+`IOcrEngine` | 1 | Exported Function
 
 
 ## Signature

@@ -24,6 +24,9 @@ SHA256 | `3F14C822BD440FEC8458FD11E950315E3D784908629B301526A57A3A623BF70C`
 SHA384 | `837EB427DD3E046D99C8B3E6ADE4FE4F583EB2793DF4331C703D627E781F01B2087E15E5976930B1038D1C1F028FA8C1`
 SHA512 | `4BAB306A87E9EF348D2C2F7051AF3E9ADC2BA0AADA6895CE3370DEF83E2A0A657E9DA9A8F9422093D1C274BFF9DDB0E52C9B7FE0D6D6FDAA85545DBDB2B2EE7B`
 SSDEEP | `1536:I8wNfktLYUqSfzC8wATsq3CRJMdzzOi3d0eFKg:I80ct8dSfmXosgCRJMdfO6FKg`
+IMP | `09B39D9CC248E77D59A084898ED73E6C`
+PESHA1 | `D759828F7F9C3CC9BAF19CD188D8A4F990AB2094`
+PE256 | `D71B72FDAFADA48378D8F5E63A1B65A6EB16D8AFCDE65433C3B7FD7E25036933`
 
 ## Runtime Data
 
@@ -35,13 +38,16 @@ Setup Initialization Error
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1518_none_b4b635d36e735c2c | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -50,6 +56,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\InstallShield\setup.exe |
 
@@ -71,7 +78,12 @@ C:\Windows\SysWOW64\InstallShield\setup.exe |
 * Product Version: 5, 54
 * Language: English (United States)
 * Legal Copyright: Copyright 1990-2000 InstallShield Software Corporation, Phone: (847) 240-9111
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/3f14c822bd440fec8458fd11e950315e3d784908629b301526a57a3a623bf70c/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -139,6 +151,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | description = "Sample from CN Honker Pentest Toolset - file setup.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_fireball.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_fireball.yar) | $s3 = "\\SETUP.dll" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) | $x6 = "wevtutil cl Setup & wevtutil cl System" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_anomalies_keyword_combos.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_anomalies_keyword_combos.yar) | $fp6 = "Paint.NET Setup" wide fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar) | $s2 = "SwitchSniffer Setup" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 

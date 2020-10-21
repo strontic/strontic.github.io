@@ -434,17 +434,17 @@ Function Name | Ordinal | Type
 `strcpy_s` | 1363 | Exported Function
 `strcoll` | 1361 | Exported Function
 `strcpy` | 1362 | Exported Function
-`public: __thiscall std::__non_rtti_object::__non_rtti_object(class std::__non_rtti_object const &)` | 1 | Exported Function
-`public: __thiscall std::bad_cast::bad_cast(char const *)` | 3 | Exported Function
-`private: static void __cdecl type_info::_Type_info_dtor_internal(class type_info *)` | 37 | Exported Function
-`private: static char const * __cdecl type_info::_Name_base_internal(class type_info const *,struct __type_info_node *)` | 35 | Exported Function
-`private: static void __cdecl type_info::_Type_info_dtor(class type_info *)` | 36 | Exported Function
-`public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)` | 2 | Exported Function
-`public: __thiscall std::exception::exception(char const * const &,int)` | 7 | Exported Function
-`public: __thiscall std::exception::exception(class std::exception const &)` | 8 | Exported Function
-`public: __thiscall std::exception::exception(char const * const &)` | 6 | Exported Function
-`public: __thiscall std::bad_typeid::bad_typeid(char const *)` | 5 | Exported Function
-`public: __thiscall std::bad_typeid::bad_typeid(class std::bad_typeid const &)` | 4 | Exported Function
+`__non_rtti_object` | 1 | Exported Function
+`bad_cast` | 3 | Exported Function
+`_Type_info_dtor_internal` | 37 | Exported Function
+`_Name_base_internal` | 35 | Exported Function
+`_Type_info_dtor` | 36 | Exported Function
+`bad_cast` | 2 | Exported Function
+`exception` | 7 | Exported Function
+`exception` | 8 | Exported Function
+`exception` | 6 | Exported Function
+`bad_typeid` | 5 | Exported Function
+`bad_typeid` | 4 | Exported Function
 `memmove_s` | 1322 | Exported Function
 `memset` | 1323 | Exported Function
 `memmove` | 1321 | Exported Function
@@ -452,33 +452,33 @@ Function Name | Ordinal | Type
 `memcpy_s` | 1320 | Exported Function
 `modf` | 1324 | Exported Function
 `printf_s` | 1328 | Exported Function
-`private: static char const * __cdecl type_info::_Name_base(class type_info const *,struct __type_info_node *)` | 34 | Exported Function
+`_Name_base` | 34 | Exported Function
 `printf` | 1327 | Exported Function
 `perror` | 1325 | Exported Function
 `pow` | 1326 | Exported Function
-`public: __thiscall std::exception::exception(void)` | 9 | Exported Function
+`exception` | 9 | Exported Function
 `public: virtual __thiscall type_info::~type_info(void)` | 14 | Exported Function
-`public: virtual char const * __thiscall std::exception::what(void)const ` | 71 | Exported Function
-`public: virtual __thiscall std::exception::~exception(void)` | 13 | Exported Function
-`public: virtual __thiscall std::bad_cast::~bad_cast(void)` | 11 | Exported Function
-`public: virtual __thiscall std::bad_typeid::~bad_typeid(void)` | 12 | Exported Function
-`public: void __thiscall std::bad_cast::``default constructor closure'(void)` | 29 | Exported Function
+`what` | 71 | Exported Function
+`exception` | 13 | Exported Function
+`bad_cast` | 11 | Exported Function
+`bad_typeid` | 12 | Exported Function
+`bad_cast` | 29 | Exported Function
 `putchar` | 1330 | Exported Function
 `puts` | 1331 | Exported Function
 `putc` | 1329 | Exported Function
-`public: void __thiscall std::bad_typeid::``default constructor closure'(void)` | 30 | Exported Function
-`public: void __thiscall type_info::_type_info_dtor_internal_method(void)` | 55 | Exported Function
-`public: char const * __thiscall type_info::name(struct __type_info_node *)const ` | 59 | Exported Function
-`public: char const * __thiscall type_info::raw_name(void)const ` | 60 | Exported Function
-`public: char const * __thiscall type_info::_name_internal_method(struct __type_info_node *)const ` | 45 | Exported Function
-`public: bool __thiscall type_info::operator!=(class type_info const &)const ` | 23 | Exported Function
-`public: bool __thiscall type_info::operator==(class type_info const &)const ` | 22 | Exported Function
-`public: class std::__non_rtti_object & __thiscall std::__non_rtti_object::operator=(class std::__non_rtti_object const &)` | 18 | Exported Function
-`public: int __thiscall type_info::before(class type_info const &)const ` | 58 | Exported Function
-`public: virtual __thiscall std::__non_rtti_object::~__non_rtti_object(void)` | 10 | Exported Function
-`public: class std::exception & __thiscall std::exception::operator=(class std::exception const &)` | 21 | Exported Function
-`public: class std::bad_cast & __thiscall std::bad_cast::operator=(class std::bad_cast const &)` | 19 | Exported Function
-`public: class std::bad_typeid & __thiscall std::bad_typeid::operator=(class std::bad_typeid const &)` | 20 | Exported Function
+`bad_typeid` | 30 | Exported Function
+`_type_info_dtor_internal_method` | 55 | Exported Function
+`name` | 59 | Exported Function
+`raw_name` | 60 | Exported Function
+`_name_internal_method` | 45 | Exported Function
+`operator` | 23 | Exported Function
+`operator` | 22 | Exported Function
+`__non_rtti_object` | 18 | Exported Function
+`before` | 58 | Exported Function
+`__non_rtti_object` | 10 | Exported Function
+`exception` | 21 | Exported Function
+`bad_cast` | 19 | Exported Function
+`bad_typeid` | 20 | Exported Function
 `strspn` | 1377 | Exported Function
 `wcscpy_s` | 1420 | Exported Function
 `wcscspn` | 1421 | Exported Function
@@ -604,11 +604,11 @@ Function Name | Ordinal | Type
 `floor` | 1241 | Exported Function
 `fgetwc` | 1239 | Exported Function
 `fgetws` | 1240 | Exported Function
-`const std::exception::``vftable'` | 28 | Exported Function
+`exception` | 28 | Exported Function
 `cos` | 1226 | Exported Function
-`const std::bad_typeid::``vftable'` | 26 | Exported Function
-`const std::__non_rtti_object::``vftable'` | 24 | Exported Function
-`const std::bad_cast::``vftable'` | 25 | Exported Function
+`bad_typeid` | 26 | Exported Function
+`__non_rtti_object` | 24 | Exported Function
+`bad_cast` | 25 | Exported Function
 `cosh` | 1227 | Exported Function
 `fabs` | 1231 | Exported Function
 `fclose` | 1232 | Exported Function

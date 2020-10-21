@@ -18,6 +18,9 @@ SHA256 | `813C050393486B336E9E3F11742F600F2EB118656881F99D32463BAEDB512DBA`
 SHA384 | `1673E42B819F168F9DAB798417FE3E9A82C38E6C72585F005DAB15681CCB1BBFFBB270294A0010AB71BA939063D84069`
 SHA512 | `63C8FBC590CFA60D7C8A2410F8AAD8B1BAF5DE98D0391B2CDBE9D69149FD87347B641B5570FC6686620C082DB5E1104D574C0BB7321527C520F2BAF81460D7E5`
 SSDEEP | `384:X68TBguhg73tiss79hI7x0+8OQMC483yGRlp9wi0RSnGNyWSFFhW:X68lZEtijIFiOaF39Hp9P0cGaF`
+IMP | `4179F4D327A59B2C4B4F624BAC5C4090`
+PESHA1 | `0BD186926860664D9591E6FE0278B53244A21DCE`
+PE256 | `2B468257660F669AA67BD0AC5E003E60CE42492D4591A6FA9A2FD8E4A2C24D72`
 
 ## Runtime Data
 
@@ -77,7 +80,20 @@ skipping certain checks of the volume.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\system32\chkdsk.exe |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\SYSTEM32\fsutilext.dll |
+C:\Windows\system32\IfsUtil.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\ulib.dll |
 
 
 ## Signature
@@ -97,7 +113,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/813c050393486b336e9e3f11742f600f2eb118656881f99d32463baedb512dba/detection/
 
 
 

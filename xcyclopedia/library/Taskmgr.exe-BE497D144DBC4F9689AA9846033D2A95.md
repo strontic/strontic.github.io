@@ -22,8 +22,14 @@ SHA256 | `8A6B7BCE25506A2D7B2B4449404CC312794051DB3AA1BB964CDAC956E930CAD5`
 SHA384 | `6D6581AF4470650789FDE75013ACB251C5D033A4FC2C4AB3977638DB3A37EC2867EFD90E01DE1175C5040A455832FE26`
 SHA512 | `307C5C225C6B0F48D7E553083AAADE9F86A8779C26F7BB2E99D8D44607F423B5B03D2DA99612DDBA204654EB26059F0126A3B4CF24D09503E297609DE51E5FFD`
 SSDEEP | `24576:IaTZtOf9HXGblr3uYnL/V6kEnnCUaPYULBe7q4D:3GRX43uYnrVannCUa5e7q4`
+IMP | `DA57E277C35794A416E83153D21D8EBB`
+PESHA1 | `3B0733C54FC049076B41F60F38CACE69C3D7F594`
+PE256 | `B8AF303F293599C991735EE466F419650D8CF27CEBDB6A69F9A7FC4A86891CF1`
 
 ## Runtime Data
+
+### Child Processes:
+csrss.exe winlogon.exe
 
 ### Window Title:
 Task Manager
@@ -36,10 +42,8 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Taskmgr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
-(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
-(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
@@ -47,27 +51,65 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\RPC Control\DSECDFC | Section
-\Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*{3DA71D5A-20CC-432F-A115-DFE92379E91F}.3.ver0x0000000000000006.db | Section
+\RPC Control\DSEC13AC | Section
+\Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*{3DA71D5A-20CC-432F-A115-DFE92379E91F}.3.ver0x0000000000000004.db | Section
 \Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*cversions.3.ro | Section
 \Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\d3d11.dll |
+C:\Windows\system32\d3d12.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\system32\dxgi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\pdh.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\system32\Taskmgr.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -80,7 +122,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/8a6b7bce25506a2d7b2b4449404cc312794051db3aa1bb964cdac956e930cad5/detection/
 
 
 ## Possible Misuse

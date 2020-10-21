@@ -273,7 +273,7 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall bad_typeid::~bad_typeid(void)` | 14 | Exported Function
 `public: void __thiscall bad_typeid::``default constructor closure'(void)` | 30 | Exported Function
 `public: void __thiscall bad_cast::``default constructor closure'(void)` | 29 | Exported Function
-`public: virtual char const * __thiscall exception::what(void)const ` | 51 | Exported Function
+`what` | 51 | Exported Function
 `signal` | 766 | Exported Function
 `setvbuf` | 765 | Exported Function
 `setlocale` | 764 | Exported Function
@@ -392,32 +392,32 @@ Function Name | Ordinal | Type
 `fwrite` | 693 | Exported Function
 `fwprintf` | 692 | Exported Function
 `ftell` | 691 | Exported Function
-`public: __thiscall bad_cast::bad_cast(char const *)` | 6 | Exported Function
-`public: __thiscall bad_cast::bad_cast(char const * const &)` | 4 | Exported Function
-`public: __thiscall __non_rtti_object::__non_rtti_object(class __non_rtti_object const &)` | 1 | Exported Function
-`public: __thiscall bad_typeid::bad_typeid(class bad_typeid const &)` | 7 | Exported Function
-`public: __thiscall bad_typeid::bad_typeid(char const *)` | 8 | Exported Function
-`public: __thiscall bad_cast::bad_cast(class bad_cast const &)` | 5 | Exported Function
-`public: __thiscall __non_rtti_object::__non_rtti_object(char const *)` | 2 | Exported Function
+`bad_cast` | 6 | Exported Function
+`bad_cast` | 4 | Exported Function
+`__non_rtti_object` | 1 | Exported Function
+`bad_typeid` | 7 | Exported Function
+`bad_typeid` | 8 | Exported Function
+`bad_cast` | 5 | Exported Function
+`__non_rtti_object` | 2 | Exported Function
 `perror` | 747 | Exported Function
 `modf` | 746 | Exported Function
 `mktime` | 745 | Exported Function
-`private: __thiscall bad_cast::bad_cast(char const * const *)` | 3 | Exported Function
+`bad_cast` | 3 | Exported Function
 `printf` | 749 | Exported Function
 `pow` | 748 | Exported Function
-`public: int __thiscall type_info::before(class type_info const &)const ` | 39 | Exported Function
-`public: class exception & __thiscall exception::operator=(class exception const &)` | 22 | Exported Function
-`public: class bad_typeid & __thiscall bad_typeid::operator=(class bad_typeid const &)` | 21 | Exported Function
+`before` | 39 | Exported Function
+`operator` | 22 | Exported Function
+`operator` | 21 | Exported Function
 `public: virtual __thiscall __non_rtti_object::~__non_rtti_object(void)` | 12 | Exported Function
-`public: int __thiscall type_info::operator==(class type_info const &)const ` | 23 | Exported Function
-`public: int __thiscall type_info::operator!=(class type_info const &)const ` | 24 | Exported Function
-`public: class bad_cast & __thiscall bad_cast::operator=(class bad_cast const &)` | 20 | Exported Function
-`public: __thiscall exception::exception(void)` | 11 | Exported Function
-`public: __thiscall exception::exception(class exception const &)` | 10 | Exported Function
-`public: __thiscall exception::exception(char const * const &)` | 9 | Exported Function
-`public: class __non_rtti_object & __thiscall __non_rtti_object::operator=(class __non_rtti_object const &)` | 19 | Exported Function
-`public: char const * __thiscall type_info::raw_name(void)const ` | 41 | Exported Function
-`public: char const * __thiscall type_info::name(void)const ` | 40 | Exported Function
+`operator` | 23 | Exported Function
+`operator` | 24 | Exported Function
+`operator` | 20 | Exported Function
+`exception` | 11 | Exported Function
+`exception` | 10 | Exported Function
+`exception` | 9 | Exported Function
+`operator` | 19 | Exported Function
+`raw_name` | 41 | Exported Function
+`name` | 40 | Exported Function
 `labs` | 728 | Exported Function
 `isxdigit` | 727 | Exported Function
 `iswxdigit` | 726 | Exported Function

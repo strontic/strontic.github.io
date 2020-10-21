@@ -18,6 +18,9 @@ SHA256 | `C65E9D883299477C6F26AFC78139038B81D33A03CFED9172410D9FEBE5576C12`
 SHA384 | `24DCF30A45BA3F7C4F50AE676D2D2A03614C4D235CEC83B0E8739779235CA788C26128BBD964F5B3E0B4EDE17794907B`
 SHA512 | `AC326949F3399CE7CF5EAFB742AB3BF8DF8AA696F6BDCA4BD4946868125A126945F31FC5E054AD9D4AFA08F1892DE99364F7C4D253A395AD103DB2293450053C`
 SSDEEP | `768:kEhcXK5+RltDFBkyX29DhPMkQRjprTllDyVO1vTzwSI1YCmoBoD2O:JhcX+Yl3+o2WHuYHwAX2oD2O`
+IMP | `2F5915A9C19B98144A69C2036DC4B667`
+PESHA1 | `BC652A6687703FB6DAEAA673A8B7E5BFC631A049`
+PE256 | `F8D8CE39C78321FA3A1FC23C465A7DAEA4C1F87D962728C7EB245CA32CE66B25`
 
 ## Runtime Data
 
@@ -57,7 +60,14 @@ Remarks:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\tzutil.exe |
 
 
 ## Signature
@@ -77,7 +87,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c65e9d883299477c6f26afc78139038b81d33a03cfed9172410d9febe5576c12/detection/
 
 ## File Similarity (ssdeep match)
 

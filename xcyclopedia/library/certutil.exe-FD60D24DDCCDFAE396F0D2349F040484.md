@@ -18,6 +18,9 @@ SHA256 | `555A8B4B7C5E9614E3EF7AF2FAFC6181AA98AD9D10EBFD845D82F33EFEB7E1C7`
 SHA384 | `9B3C4E6CF74C2A032886CEA3A699C41F95C0C019C6F6D7F752DEDC4F4E55E7F424939E01C9147D116F10E661A9D0EB73`
 SHA512 | `8A4E6BCFD7AD9109790C891AAA07F3A27E1A57F860F67691D7F91AD74A167CC31BF48549B0FD229004B5F29073189378EB68C33548C86CE42C86AC44CC7B5544`
 SSDEEP | `24576:tZ4ktHwWTlP5eyZ7fdfZVPta42p2g4qJGY07glXtyxDivUvrr1IJbTVrgYL2lzUb:tRxBdlO2g4l7cMDwLL2lABh3`
+IMP | `E8D77122DFEFBA52E492A9E89B1F9BEB`
+PESHA1 | `CCA99A0725E710E5F5FC5198C754A46FE097B963`
+PE256 | `74903DFA2934DBCCB7039223628B6952F84A1043989A2228151051002CD20762`
 
 ## Runtime Data
 
@@ -163,6 +166,10 @@ CertUtil: -? command completed successfully.
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\certutil.exe |
 
 
 ## Signature
@@ -182,7 +189,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/555a8b4b7c5e9614e3ef7af2fafc6181aa98ad9d10ebfd845d82f33efeb7e1c7/detection/
 
 
 ## Possible Misuse

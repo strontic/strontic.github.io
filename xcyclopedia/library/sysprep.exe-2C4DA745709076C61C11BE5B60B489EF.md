@@ -32,7 +32,7 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\Sysprep\en-US\sysprep.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\System32\Sysprep\Panther\diagerr.xml | File
 (RW-)   C:\Windows\System32\Sysprep\Panther\diagwrn.xml | File
 (RW-)   C:\Windows\System32\Sysprep\Panther\setupact.log | File

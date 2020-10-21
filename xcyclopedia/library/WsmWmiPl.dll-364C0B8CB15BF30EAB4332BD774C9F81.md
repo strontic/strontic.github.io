@@ -26,15 +26,15 @@ PE256 | `E8BF4EC67A9AEC0412387FF19D570F02F03B20838F4FB9E799F2C3421E571373`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void) __ptr64` | 11 | Exported Function
-`public: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void) __ptr64` | 26 | Exported Function
+`Acquire` | 11 | Exported Function
+`Reset` | 26 | Exported Function
 `WSManPluginStartup` | 29 | Exported Function
 `WSManPluginShutdown` | 28 | Exported Function
-`public: virtual void __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const __ptr64` | 25 | Exported Function
-`public: virtual void __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Acquire(void)const __ptr64` | 9 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 21 | Exported Function
-`public: virtual void __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const __ptr64` | 10 | Exported Function
-`public: virtual void __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Release(void)const __ptr64` | 24 | Exported Function
+`Release` | 25 | Exported Function
+`Acquire` | 9 | Exported Function
+`Initialize` | 21 | Exported Function
+`Acquire` | 10 | Exported Function
+`Release` | 24 | Exported Function
 `WSManProvCreate` | 30 | Exported Function
 `WSManProvPut` | 37 | Exported Function
 `WSManProvPullEvents` | 36 | Exported Function
@@ -45,26 +45,26 @@ Function Name | Ordinal | Type
 `WSManProvDelete` | 31 | Exported Function
 `WSManProvIdentify` | 34 | Exported Function
 `WSManProvGet` | 33 | Exported Function
-`public: virtual bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 16 | Exported Function
-`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64,bool) __ptr64` | 2 | Exported Function
-`public: __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 4 | Exported Function
-`public: __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __ptr64,bool) __ptr64` | 3 | Exported Function
-`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void) __ptr64` | 5 | Exported Function
-`public: __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 1 | Exported Function
-`protected: class STLMap<class Locale::Key,unsigned long> & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const __ptr64` | 14 | Exported Function
-`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 8 | Exported Function
+`DeInitialize` | 16 | Exported Function
+`Key` | 2 | Exported Function
+`Key` | 4 | Exported Function
+`Key` | 3 | Exported Function
+`Key` | 5 | Exported Function
+`Key` | 1 | Exported Function
+`Data` | 14 | Exported Function
+`Key` | 8 | Exported Function
 `public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 | Exported Function
-`protected: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void) __ptr64` | 27 | Exported Function
-`public: __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 6 | Exported Function
-`public: unsigned long __cdecl CWSManCriticalSection::GetInitError(void)const __ptr64` | 17 | Exported Function
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __ptr64 __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const __ptr64` | 19 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 20 | Exported Function
-`public: virtual bool __cdecl SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 15 | Exported Function
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const __ptr64` | 18 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const __ptr64` | 23 | Exported Function
-`public: bool __cdecl SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping>::IsValid(void)const __ptr64` | 22 | Exported Function
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64 __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void) __ptr64` | 13 | Exported Function
-`public: bool __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void) __ptr64` | 12 | Exported Function
+`SkipOrphans` | 27 | Exported Function
+`Key` | 6 | Exported Function
+`GetInitError` | 17 | Exported Function
+`GetMap` | 19 | Exported Function
+`Initialize` | 20 | Exported Function
+`DeInitialize` | 15 | Exported Function
+`GetMap` | 18 | Exported Function
+`IsValid` | 23 | Exported Function
+`IsValid` | 22 | Exported Function
+`AsReference` | 13 | Exported Function
+`Acquired` | 12 | Exported Function
 
 
 ## Signature

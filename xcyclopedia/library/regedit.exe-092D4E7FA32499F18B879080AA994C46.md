@@ -23,8 +23,14 @@ SHA256 | `A9BFE5633CED879D8A94B66A06A294BC6D6EF466EAEE46AE4D25CB0E3A1D79A5`
 SHA384 | `74C69C9FE9FA94B6D2DAC1FF1B575563FF605ADE6C0B922470FC02F41BE1E25DD234F8B044C681B9B8A79A2818A78DE5`
 SHA512 | `9996121974FB41F0190E1CB94E8E243124CD475368B6381C491368D3731F19ADBFD450A4EA0B8D3DE66EC5A83D79CB09CA930F5DED746A877AF68D13675A5B26`
 SSDEEP | `6144:6qoAOc6qKhTsywE2KBiBQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNN2:6qvOFhg5KIQRZ66z24VZbdrpgrXN2LWr`
+IMP | `C6E1B8202ADED47B7C2380A87886D20C`
+PESHA1 | `AC8E4DF25B2A578A4212B88F1F73EBF20DBD76C4`
+PE256 | `A2C465D4D011BF9C55835647046EC90AE71E44B8CBAA38B0326C105E2B98D625`
 
 ## Runtime Data
+
+### Child Processes:
+RdpSa.exe
 
 ### Window Title:
 Registry Editor
@@ -38,15 +44,18 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\regedit.exe.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -54,6 +63,10 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\regedit.exe |
 
 
 ## Signature
@@ -73,7 +86,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/a9bfe5633ced879d8a94b66a06a294bc6d6ef466eaee46ae4d25cb0e3a1d79a5/detection/
 
 ## File Similarity (ssdeep match)
 

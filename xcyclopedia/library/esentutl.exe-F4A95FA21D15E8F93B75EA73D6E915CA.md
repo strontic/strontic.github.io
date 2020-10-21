@@ -18,6 +18,9 @@ SHA256 | `A3EE005C46F1DEA44F2AFFD99C3BD1545B7D5448CB54CF774841CF93DA5A7208`
 SHA384 | `575619539856EF93F885FC332233F78491914B33F801855E061A4A22EA4543FC637C71AEBC0ED5DBDD27555F47FD05B6`
 SHA512 | `461D6B69110EF0C948AA85006F8E3A6FC241EE660981FE3D34C3DA237CDDDEB78DE97DEF43DE752AAACA802B3212B172849F95B23C806221273159D856A15624`
 SSDEEP | `6144:fDv96MPOaLjjT3LpVEcZZ06TkVzxtaEpVJo5BeOuLK2G0LaoYd5kHjz:7l6MpjXLpnZUMBeOuLG0Nj`
+IMP | `9CD95101939BE1ED73A8EBE85664EB5E`
+PESHA1 | `1274E5AAEB8442F59EA280E49584E2318B6F2D97`
+PE256 | `3F113AF80182FD3B5475BA9D3C6792976A896839E60099AFF352DC8C3AE866A2`
 
 ## Runtime Data
 
@@ -28,7 +31,10 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -37,9 +43,11 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\system32\ESENT.dll |
 C:\Windows\system32\esentutl.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 
 
@@ -60,7 +68,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.529
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a3ee005c46f1dea44f2affd99c3bd1545b7d5448cb54cf774841cf93da5a7208/detection/
 
 
 ## Possible Misuse

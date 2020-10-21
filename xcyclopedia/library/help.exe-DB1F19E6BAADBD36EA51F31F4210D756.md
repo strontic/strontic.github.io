@@ -18,6 +18,9 @@ SHA256 | `11863176A0FAD587304C0EE21474DBAA8F40650F34BC47F2666D379BD3A7D7AB`
 SHA384 | `84B902BE73C027DAE8C071A1C8EC151F8E91CBCD664B06F23205E7896F2C3C5764A95290A5AA99914096FC5373AC7D54`
 SHA512 | `7F0A6DC92768A609ADAE0B4D078316340E9DDB2D3CDF11D4EA5E81D7BDD371A49B181E6FE63A5D26C59D31F0615AA708D305BD2C827289885E37CB5683267CC4`
 SSDEEP | `192:iPIFjwNw/KqfEyXAS/+aYUebe51RlwOs8e51woGsxcNzmAWncW:igt+wpc/S+Vtbe74Os8e7LXAWncW`
+IMP | `AC4BF9C2AE25ADA7A4716EBEAF3CC839`
+PESHA1 | `10FEF7B93DE3020F5DAC610D4E68C0A8491A91AF`
+PE256 | `64076DC025E18BD2A5B31F96F7F0465C2646E2D1602ED4663ED279EEBBDBE7A2`
 
 ## Runtime Data
 
@@ -36,7 +39,12 @@ HELP [command]
 Path |
 -- |
 C:\Windows\system32\help.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -56,7 +64,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/11863176a0fad587304c0ee21474dbaa8f40650f34bc47f2666d379bd3a7d7ab/detection/
 
 ## File Similarity (ssdeep match)
 

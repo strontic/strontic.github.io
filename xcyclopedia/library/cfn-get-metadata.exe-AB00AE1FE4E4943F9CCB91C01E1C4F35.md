@@ -1,0 +1,197 @@
+﻿---
+title: cfn-get-metadata.exe | An EC2 bootstrapper for CloudFormation
+excerpt: What is cfn-get-metadata.exe?
+---
+
+# cfn-get-metadata.exe 
+
+* File Path: `C:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe`
+* Description: An EC2 bootstrapper for CloudFormation
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `AB00AE1FE4E4943F9CCB91C01E1C4F35`
+SHA1 | `DC028F5118DAC71FC7D7CB651270B40F181C935C`
+SHA256 | `00C060100872F0A5B6C920C9277F2EB31D21E1EEA437BE65679406751617B4CC`
+SHA384 | `FF3319B3A8D0067CA41AA6F0623881846F29E25A6C0C683F9FEEC29E2FA3EA8D6B82B9C4914A9085E870639C25588A7B`
+SHA512 | `057E8DA576E6E87CFD4C328F1614DEF92EC77525F58162962E9D5C7FAB193D5A8CD345B536990099E91849D64220C8FDFD60C824857695896023833674D69BC2`
+SSDEEP | `384:+ytbeSasdkBKuZu/snjycBghtrYh8eknggMl4gKg67WhtrjHqC3V5ipeKMc/ZXIk:xvmBjHgTsfkngjjjHV5ipetc/ZXIxe`
+IMP | `8571CAA1C1E39E800CB623F4B1D233D9`
+PESHA1 | `689BE2D483FE3742350EAD4ACF827A4860866BB7`
+PE256 | `1CC740426E0D4280F1DF38F103052B43CEFE3C98E42EEF4FEA5C48DC107A8917`
+
+## Runtime Data
+
+### Usage (stdout):
+```cmhg
+Usage: cfn-get-metadata.exe [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -s STACK_NAME, --stack=STACK_NAME
+                        A CloudFormation stack
+  -r LOGICAL_RESOURCE_ID, --resource=LOGICAL_RESOURCE_ID
+                        A CloudFormation logical resource ID
+  -k KEY, --key=KEY     Retrieve the value at <key> in the Metadata object;
+                        must be in dotted object notation (parent.child.leaf)
+  -u ENDPOINT, --url=ENDPOINT
+                        The CloudFormation service URL. The endpoint URL must
+                        match the region option. Use of this parameter is
+                        discouraged.
+  --region=REGION       The CloudFormation region. Default: us-east-1.
+  -v, --verbose         Enables verbose logging
+
+  AWS Credentials:
+    Options for specifying AWS Account Credentials.
+
+    -f CREDENTIAL_FILE, --credential-file=CREDENTIAL_FILE
+                        A credential file, readable only by the owner, with
+                        keys 'AWSAccessKeyId' and 'AWSSecretKey'
+    --role=IAM_ROLE     An IAM Role
+    --access-key=ACCESS_KEY
+                        An AWS Access Key
+    --secret-key=SECRET_KEY
+                        An AWS Secret Key
+
+  Proxy:
+    Options for specifying proxies. Format:
+    [scheme://][user:password@]host:port
+
+    --http-proxy=HTTP_PROXY
+                        A (non-SSL) HTTP proxy
+    --https-proxy=HTTPS_PROXY
+                        An HTTPS proxy
+
+```
+
+### Usage (stderr):
+```cmhg
+Error: You must specify both a stack name and logical resource id
+Usage: cfn-get-metadata.exe [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -s STACK_NAME, --stack=STACK_NAME
+                        A CloudFormation stack
+  -r LOGICAL_RESOURCE_ID, --resource=LOGICAL_RESOURCE_ID
+                        A CloudFormation logical resource ID
+  -k KEY, --key=KEY     Retrieve the value at <key> in the Metadata object;
+                        must be in dotted object notation (parent.child.leaf)
+  -u ENDPOINT, --url=ENDPOINT
+                        The CloudFormation service URL. The endpoint URL must
+                        match the region option. Use of this parameter is
+                        discouraged.
+  --region=REGION       The CloudFormation region. Default: us-east-1.
+  -v, --verbose         Enables verbose logging
+
+  AWS Credentials:
+    Options for specifying AWS Account Credentials.
+
+    -f CREDENTIAL_FILE, --credential-file=CREDENTIAL_FILE
+                        A credential file, readable only by the owner, with
+                        keys 'AWSAccessKeyId' and 'AWSSecretKey'
+    --role=IAM_ROLE     An IAM Role
+    --access-key=ACCESS_KEY
+                        An AWS Access Key
+    --secret-key=SECRET_KEY
+                        An AWS Secret Key
+
+  Proxy:
+    Options for specifying proxies. Format:
+    [scheme://][user:password@]host:port
+
+    --http-proxy=HTTP_PROXY
+                        A (non-SSL) HTTP proxy
+    --https-proxy=HTTPS_PROXY
+                        An HTTPS proxy
+
+```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Program Files\Amazon\cfn-bootstrap\_hashlib.pyd |
+C:\Program Files\Amazon\cfn-bootstrap\_socket.pyd |
+C:\Program Files\Amazon\cfn-bootstrap\_ssl.pyd |
+C:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe |
+C:\Program Files\Amazon\cfn-bootstrap\PYTHON27.DLL |
+C:\Program Files\Amazon\cfn-bootstrap\select.pyd |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rsaenh.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_08e07c8fa840efbe\MSVCR90.dll |
+
+
+## Signature
+
+* Status: The file C:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Serial: ``
+* Thumbprint: ``
+* Issuer: 
+* Subject: 
+
+## File Metadata
+
+* Original Filename: cfn-get-metadata.exe
+* Product Name: aws-cfn-bootstrap
+* Company Name: 
+* File Version: 1.4
+* Product Version: 1.4
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/00c060100872f0a5b6c920c9277f2eb31d21e1eea437be65679406751617b4cc/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Amazon\cfn-bootstrap\cfn-elect-cmd-leader.exe](cfn-elect-cmd-leader.exe-381A030E578E8285BF1F462CC036E4D0.md) | 90
+[C:\Program Files\Amazon\cfn-bootstrap\cfn-hup.exe](cfn-hup.exe-FC05F4A7EA27BD5F73BE9016B8F70BD9.md) | 66
+[C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe](cfn-init.exe-5E0F3A7E9C8313FA6889B824EAB63614.md) | 88
+[C:\Program Files\Amazon\cfn-bootstrap\cfn-send-cmd-event.exe](cfn-send-cmd-event.exe-6569521FE751E682B6AF18F84D544079.md) | 63
+[C:\Program Files\Amazon\cfn-bootstrap\cfn-send-cmd-result.exe](cfn-send-cmd-result.exe-3F9A3602A5CC3B5C8C8011A9DCB76006.md) | 86
+[C:\Program Files\Amazon\cfn-bootstrap\cfn-signal.exe](cfn-signal.exe-DDB912A9A7741BCFC2DB4C1DDE995AB1.md) | 66
+[C:\Program Files\Amazon\cfn-bootstrap\winhup.exe](winhup.exe-48FE04D8A6525EBF39345C41CE0D6842.md) | 86
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

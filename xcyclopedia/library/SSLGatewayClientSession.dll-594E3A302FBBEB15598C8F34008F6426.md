@@ -25,191 +25,191 @@ PE256 | `563467BB8B5A719A864874FF6A70FC196EADF0A8D8596B04B5DCDE57017C1F3F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class ICommonConfigurable & __thiscall ICommonConfigurable::operator=(class ICommonConfigurable const &)` | 199 | Exported Function
-`public: class ICommonConnector & __thiscall ICommonConnector::operator=(class ICommonConnector const &)` | 200 | Exported Function
-`public: class ICommonConnectorFactory & __thiscall ICommonConnectorFactory::operator=(class ICommonConnectorFactory const &)` | 201 | Exported Function
-`public: class ICmTransport & __thiscall ICmTransport::operator=(class ICmTransport const &)` | 196 | Exported Function
-`public: class ICmTransportSink & __thiscall ICmTransportSink::operator=(class ICmTransportSink const &)` | 197 | Exported Function
-`public: class ICommonAcceptorFactory & __thiscall ICommonAcceptorFactory::operator=(class ICommonAcceptorFactory const &)` | 198 | Exported Function
-`public: class ICommonConnectorSink & __thiscall ICommonConnectorSink::operator=(class ICommonConnectorSink const &)` | 202 | Exported Function
-`public: class ICommonHandShakeProcessor & __thiscall ICommonHandShakeProcessor::operator=(class ICommonHandShakeProcessor const &)` | 206 | Exported Function
-`public: class ICommonProcessor & __thiscall ICommonProcessor::operator=(class ICommonProcessor const &)` | 207 | Exported Function
-`public: class ICommonSession & __thiscall ICommonSession::operator=(class ICommonSession const &)` | 208 | Exported Function
-`public: class ICommonDestroyable & __thiscall ICommonDestroyable::operator=(class ICommonDestroyable const &)` | 203 | Exported Function
-`public: class ICommonEndPoint & __thiscall ICommonEndPoint::operator=(class ICommonEndPoint const &)` | 204 | Exported Function
-`public: class ICommonEndPointSink & __thiscall ICommonEndPointSink::operator=(class ICommonEndPointSink const &)` | 205 | Exported Function
-`public: class ICmChannelServerSink & __thiscall ICmChannelServerSink::operator=(class ICmChannelServerSink const &)` | 186 | Exported Function
-`public: class ICmChannelSink & __thiscall ICmChannelSink::operator=(class ICmChannelSink const &)` | 187 | Exported Function
-`public: class ICmConnector & __thiscall ICmConnector::operator=(class ICmConnector const &)` | 188 | Exported Function
-`public: class ICmChannelHttpClient & __thiscall ICmChannelHttpClient::operator=(class ICmChannelHttpClient const &)` | 183 | Exported Function
-`public: class ICmChannelHttpServer & __thiscall ICmChannelHttpServer::operator=(class ICmChannelHttpServer const &)` | 184 | Exported Function
-`public: class ICmChannelServerAcceptor & __thiscall ICmChannelServerAcceptor::operator=(class ICmChannelServerAcceptor const &)` | 185 | Exported Function
-`public: class ICmDetectionConnector & __thiscall ICmDetectionConnector::operator=(class ICmDetectionConnector const &)` | 189 | Exported Function
-`public: class ICmReferenceControl & __thiscall ICmReferenceControl::operator=(class ICmReferenceControl const &)` | 193 | Exported Function
-`public: class ICmTimerHandler & __thiscall ICmTimerHandler::operator=(class ICmTimerHandler const &)` | 194 | Exported Function
-`public: class ICmTimerQueue & __thiscall ICmTimerQueue::operator=(class ICmTimerQueue const &)` | 195 | Exported Function
-`public: class ICmEvent & __thiscall ICmEvent::operator=(class ICmEvent const &)` | 190 | Exported Function
-`public: class ICmEventQueue & __thiscall ICmEventQueue::operator=(class ICmEventQueue const &)` | 191 | Exported Function
-`public: class ICmReactor & __thiscall ICmReactor::operator=(class ICmReactor const &)` | 192 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator<=(long)const ` | 238 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator==(long)const ` | 219 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator>(long)const ` | 241 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator>=(long)const ` | 243 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator!=(long)const ` | 222 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator<(long)const ` | 235 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator>=(long)const ` | 244 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator++(void)` | 225 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator+=(long)` | 246 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator--(int)` | 228 | Exported Function
-`public: int __thiscall CCmStopFlag::IsFlagStopped(void)const ` | 360 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::GetValue(void)const ` | 356 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator++(int)` | 224 | Exported Function
-`public: class ISSLGatewayClientSession & __thiscall ISSLGatewayClientSession::operator=(class ISSLGatewayClientSession const &)` | 213 | Exported Function
-`public: class ISSLGatewayClientSessionProxyHandler & __thiscall ISSLGatewayClientSessionProxyHandler::operator=(class ISSLGatewayClientSessionProxyHandler const &)` | 214 | Exported Function
-`public: class ISSLGatewayClientSessionProxyHandlerSink & __thiscall ISSLGatewayClientSessionProxyHandlerSink::operator=(class ISSLGatewayClientSessionProxyHandlerSink const &)` | 215 | Exported Function
-`public: class ICommonSessionSink & __thiscall ICommonSessionSink::operator=(class ICommonSessionSink const &)` | 209 | Exported Function
-`public: class ICommonStartable & __thiscall ICommonStartable::operator=(class ICommonStartable const &)` | 210 | Exported Function
-`public: class ICommonStopable & __thiscall ICommonStopable::operator=(class ICommonStopable const &)` | 211 | Exported Function
-`public: class ISSLGatewayClientSessionSink & __thiscall ISSLGatewayClientSessionSink::operator=(class ISSLGatewayClientSessionSink const &)` | 216 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator<=(long)const ` | 237 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator==(long)const ` | 218 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator>(long)const ` | 240 | Exported Function
-`public: class wbx::IObject & __thiscall wbx::IObject::operator=(class wbx::IObject const &)` | 212 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator!=(long)const ` | 221 | Exported Function
-`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator<(long)const ` | 234 | Exported Function
-`public: class ICmChannel & __thiscall ICmChannel::operator=(class ICmChannel const &)` | 182 | Exported Function
-`public: __thiscall ISSLGatewayClientSessionProxyHandler::ISSLGatewayClientSessionProxyHandler(void)` | 100 | Exported Function
-`public: __thiscall ISSLGatewayClientSessionProxyHandlerSink::ISSLGatewayClientSessionProxyHandlerSink(class ISSLGatewayClientSessionProxyHandlerSink const &)` | 101 | Exported Function
-`public: __thiscall ISSLGatewayClientSessionProxyHandlerSink::ISSLGatewayClientSessionProxyHandlerSink(void)` | 102 | Exported Function
-`public: __thiscall ISSLGatewayClientSession::ISSLGatewayClientSession(class ISSLGatewayClientSession const &)` | 97 | Exported Function
-`public: __thiscall ISSLGatewayClientSession::ISSLGatewayClientSession(void)` | 98 | Exported Function
-`public: __thiscall ISSLGatewayClientSessionProxyHandler::ISSLGatewayClientSessionProxyHandler(class ISSLGatewayClientSessionProxyHandler const &)` | 99 | Exported Function
-`public: __thiscall ISSLGatewayClientSessionSink::ISSLGatewayClientSessionSink(class ISSLGatewayClientSessionSink const &)` | 103 | Exported Function
-`public: char * __thiscall CCmDataBlock::GetBasePtr(void)const ` | 337 | Exported Function
-`public: char * __thiscall CCmMessageBlock::GetTopLevelWritePtr(void)const ` | 353 | Exported Function
-`public: char const * __thiscall CCmMessageBlock::GetTopLevelReadPtr(void)const ` | 351 | Exported Function
-`public: __thiscall ISSLGatewayClientSessionSink::ISSLGatewayClientSessionSink(void)` | 104 | Exported Function
-`public: __thiscall wbx::IObject::IObject(class wbx::IObject const &)` | 95 | Exported Function
-`public: __thiscall wbx::IObject::IObject(void)` | 96 | Exported Function
-`public: __thiscall ICommonProcessor::ICommonProcessor(class ICommonProcessor const &)` | 85 | Exported Function
-`public: __thiscall ICommonProcessor::ICommonProcessor(void)` | 86 | Exported Function
-`public: __thiscall ICommonSession::ICommonSession(class ICommonSession const &)` | 87 | Exported Function
-`public: __thiscall ICommonEndPointSink::ICommonEndPointSink(void)` | 82 | Exported Function
-`public: __thiscall ICommonHandShakeProcessor::ICommonHandShakeProcessor(class ICommonHandShakeProcessor const &)` | 83 | Exported Function
-`public: __thiscall ICommonHandShakeProcessor::ICommonHandShakeProcessor(void)` | 84 | Exported Function
-`public: __thiscall ICommonSession::ICommonSession(void)` | 88 | Exported Function
-`public: __thiscall ICommonStartable::ICommonStartable(void)` | 92 | Exported Function
-`public: __thiscall ICommonStopable::ICommonStopable(class ICommonStopable const &)` | 93 | Exported Function
-`public: __thiscall ICommonStopable::ICommonStopable(void)` | 94 | Exported Function
-`public: __thiscall ICommonSessionSink::ICommonSessionSink(class ICommonSessionSink const &)` | 89 | Exported Function
-`public: __thiscall ICommonSessionSink::ICommonSessionSink(void)` | 90 | Exported Function
-`public: __thiscall ICommonStartable::ICommonStartable(class ICommonStartable const &)` | 91 | Exported Function
-`public: class CCmT120Trace::Text_Formator & __thiscall CCmT120Trace::Text_Formator::operator=(class CCmT120Trace::Text_Formator const &)` | 217 | Exported Function
-`public: class CCmTimerWrapperID & __thiscall CCmTimerWrapperID::operator=(class CCmTimerWrapperID const &)` | 175 | Exported Function
-`public: class CCmTimerWrapperIDSink & __thiscall CCmTimerWrapperIDSink::operator=(class CCmTimerWrapperIDSink const &)` | 176 | Exported Function
-`public: class CCmStopFlag & __thiscall CCmStopFlag::operator=(class CCmStopFlag &&)` | 168 | Exported Function
-`public: class CCmStopFlag & __thiscall CCmStopFlag::operator=(class CCmStopFlag const &)` | 169 | Exported Function
-`public: class CCmT120FuncTracer & __thiscall CCmT120FuncTracer::operator=(class CCmT120FuncTracer const &)` | 170 | Exported Function
-`public: class CCmTimeValue & __thiscall CCmTimeValue::operator=(class CCmTimeValue &&)` | 173 | Exported Function
-`public: class ICmAcceptor & __thiscall ICmAcceptor::operator=(class ICmAcceptor const &)` | 179 | Exported Function
-`public: class ICmAcceptorConnectorId & __thiscall ICmAcceptorConnectorId::operator=(class ICmAcceptorConnectorId const &)` | 180 | Exported Function
-`public: class ICmAcceptorConnectorSink & __thiscall ICmAcceptorConnectorSink::operator=(class ICmAcceptorConnectorSink const &)` | 181 | Exported Function
-`public: class CCmTimeValue & __thiscall CCmTimeValue::operator=(class CCmTimeValue const &)` | 174 | Exported Function
-`public: class CCmTransportParameter & __thiscall CCmTransportParameter::operator=(class CCmTransportParameter &&)` | 177 | Exported Function
-`public: class CCmTransportParameter & __thiscall CCmTransportParameter::operator=(class CCmTransportParameter const &)` | 178 | Exported Function
-`public: class CCmChannelManager & __thiscall CCmChannelManager::operator=(class CCmChannelManager const &)` | 160 | Exported Function
-`public: class CCmConnectionManager & __thiscall CCmConnectionManager::operator=(class CCmConnectionManager const &)` | 161 | Exported Function
-`public: class CCmDataBlockNoMalloc & __thiscall CCmDataBlockNoMalloc::operator=(class CCmDataBlockNoMalloc &&)` | 162 | Exported Function
-`public: class ACmConnectorInternal & __thiscall ACmConnectorInternal::operator=(class ACmConnectorInternal const &)` | 157 | Exported Function
-`public: class ACmEventHandler & __thiscall ACmEventHandler::operator=(class ACmEventHandler const &)` | 158 | Exported Function
-`public: class CCmChannelManager & __thiscall CCmChannelManager::operator=(class CCmChannelManager &&)` | 159 | Exported Function
-`public: class CCmDataBlockNoMalloc & __thiscall CCmDataBlockNoMalloc::operator=(class CCmDataBlockNoMalloc const &)` | 163 | Exported Function
-`public: class CCmMutexThreadBase & __thiscall CCmMutexThreadBase::operator=(class CCmMutexThreadBase const &)` | 166 | Exported Function
-`public: class CCmReferenceControlT<class CCmMutexThread> & __thiscall CCmReferenceControlT<class CCmMutexThread>::operator=(class CCmReferenceControlT<class CCmMutexThread> const &)` | 156 | Exported Function
-`public: class CCmSignalStop & __thiscall CCmSignalStop::operator=(class CCmSignalStop const &)` | 167 | Exported Function
-`public: class CCmEnsureSingleThread & __thiscall CCmEnsureSingleThread::operator=(class CCmEnsureSingleThread &&)` | 164 | Exported Function
-`public: class CCmEnsureSingleThread & __thiscall CCmEnsureSingleThread::operator=(class CCmEnsureSingleThread const &)` | 165 | Exported Function
-`public: class CCmMessageBlock * __thiscall CCmMessageBlock::GetNext(void)` | 341 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator--(void)` | 229 | Exported Function
-`public: virtual unsigned long __thiscall CCmReferenceControlT<class CCmMutexThread>::AddReference(void)` | 326 | Exported Function
-`public: virtual unsigned long __thiscall CCmReferenceControlT<class CCmMutexThread>::GetReference(void)` | 344 | Exported Function
-`public: virtual unsigned long __thiscall CCmReferenceControlT<class CCmMutexThread>::ReleaseReference(void)` | 393 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::SendData(struct tagSSLGData *)` | 400 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::SetOption(unsigned long,void *)` | 411 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::Start(void)` | 413 | Exported Function
-`public: virtual void __thiscall ACmThread::SetStop(void)` | 412 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::OnDisconnect(long,class ICommonEndPoint *)` | 374 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::OnReceive(class ICommonEndPoint *,void *)` | 375 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::OnSend(class ICommonEndPoint *,void *)` | 378 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::Destroy(void)` | 332 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::OnConnect(long,unsigned long,class ICommonObjectID *)` | 372 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::OnConnectIn(long,unsigned long,class ICommonObjectID *)` | 373 | Exported Function
-`public: virtual __thiscall wbx::IObject::~IObject(void)` | 147 | Exported Function
-`public: virtual int __thiscall ACmThread::GetStopFlag(void)` | 348 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::AcceptUser(class ICommonObjectID *)` | 325 | Exported Function
+`operator` | 199 | Exported Function
+`operator` | 200 | Exported Function
+`operator` | 201 | Exported Function
+`operator` | 196 | Exported Function
+`operator` | 197 | Exported Function
+`operator` | 198 | Exported Function
+`operator` | 202 | Exported Function
+`operator` | 206 | Exported Function
+`operator` | 207 | Exported Function
+`operator` | 208 | Exported Function
+`operator` | 203 | Exported Function
+`operator` | 204 | Exported Function
+`operator` | 205 | Exported Function
+`operator` | 186 | Exported Function
+`operator` | 187 | Exported Function
+`operator` | 188 | Exported Function
+`operator` | 183 | Exported Function
+`operator` | 184 | Exported Function
+`operator` | 185 | Exported Function
+`operator` | 189 | Exported Function
+`operator` | 193 | Exported Function
+`operator` | 194 | Exported Function
+`operator` | 195 | Exported Function
+`operator` | 190 | Exported Function
+`operator` | 191 | Exported Function
+`operator` | 192 | Exported Function
+`operator` | 238 | Exported Function
+`operator` | 219 | Exported Function
+`operator` | 241 | Exported Function
+`operator` | 243 | Exported Function
+`operator` | 222 | Exported Function
+`operator` | 235 | Exported Function
+`operator` | 244 | Exported Function
+`operator` | 225 | Exported Function
+`operator` | 246 | Exported Function
+`operator` | 228 | Exported Function
+`IsFlagStopped` | 360 | Exported Function
+`GetValue` | 356 | Exported Function
+`operator` | 224 | Exported Function
+`operator` | 213 | Exported Function
+`operator` | 214 | Exported Function
+`operator` | 215 | Exported Function
+`operator` | 209 | Exported Function
+`operator` | 210 | Exported Function
+`operator` | 211 | Exported Function
+`operator` | 216 | Exported Function
+`operator` | 237 | Exported Function
+`operator` | 218 | Exported Function
+`operator` | 240 | Exported Function
+`IObject` | 212 | Exported Function
+`operator` | 221 | Exported Function
+`operator` | 234 | Exported Function
+`operator` | 182 | Exported Function
+`ISSLGatewayClientSessionProxyHandler` | 100 | Exported Function
+`ISSLGatewayClientSessionProxyHandlerSink` | 101 | Exported Function
+`ISSLGatewayClientSessionProxyHandlerSink` | 102 | Exported Function
+`ISSLGatewayClientSession` | 97 | Exported Function
+`ISSLGatewayClientSession` | 98 | Exported Function
+`ISSLGatewayClientSessionProxyHandler` | 99 | Exported Function
+`ISSLGatewayClientSessionSink` | 103 | Exported Function
+`GetBasePtr` | 337 | Exported Function
+`GetTopLevelWritePtr` | 353 | Exported Function
+`GetTopLevelReadPtr` | 351 | Exported Function
+`ISSLGatewayClientSessionSink` | 104 | Exported Function
+`IObject` | 95 | Exported Function
+`IObject` | 96 | Exported Function
+`ICommonProcessor` | 85 | Exported Function
+`ICommonProcessor` | 86 | Exported Function
+`ICommonSession` | 87 | Exported Function
+`ICommonEndPointSink` | 82 | Exported Function
+`ICommonHandShakeProcessor` | 83 | Exported Function
+`ICommonHandShakeProcessor` | 84 | Exported Function
+`ICommonSession` | 88 | Exported Function
+`ICommonStartable` | 92 | Exported Function
+`ICommonStopable` | 93 | Exported Function
+`ICommonStopable` | 94 | Exported Function
+`ICommonSessionSink` | 89 | Exported Function
+`ICommonSessionSink` | 90 | Exported Function
+`ICommonStartable` | 91 | Exported Function
+`Text_Formator` | 217 | Exported Function
+`operator` | 175 | Exported Function
+`operator` | 176 | Exported Function
+`operator` | 168 | Exported Function
+`operator` | 169 | Exported Function
+`operator` | 170 | Exported Function
+`operator` | 173 | Exported Function
+`operator` | 179 | Exported Function
+`operator` | 180 | Exported Function
+`operator` | 181 | Exported Function
+`operator` | 174 | Exported Function
+`operator` | 177 | Exported Function
+`operator` | 178 | Exported Function
+`operator` | 160 | Exported Function
+`operator` | 161 | Exported Function
+`operator` | 162 | Exported Function
+`operator` | 157 | Exported Function
+`operator` | 158 | Exported Function
+`operator` | 159 | Exported Function
+`operator` | 163 | Exported Function
+`operator` | 166 | Exported Function
+`operator` | 156 | Exported Function
+`operator` | 167 | Exported Function
+`operator` | 164 | Exported Function
+`operator` | 165 | Exported Function
+`GetNext` | 341 | Exported Function
+`operator` | 229 | Exported Function
+`AddReference` | 326 | Exported Function
+`GetReference` | 344 | Exported Function
+`ReleaseReference` | 393 | Exported Function
+`SendData` | 400 | Exported Function
+`SetOption` | 411 | Exported Function
+`Start` | 413 | Exported Function
+`SetStop` | 412 | Exported Function
+`OnDisconnect` | 374 | Exported Function
+`OnReceive` | 375 | Exported Function
+`OnSend` | 378 | Exported Function
+`Destroy` | 332 | Exported Function
+`OnConnect` | 372 | Exported Function
+`OnConnectIn` | 373 | Exported Function
+`IObject` | 147 | Exported Function
+`GetStopFlag` | 348 | Exported Function
+`AcceptUser` | 325 | Exported Function
 `public: virtual __thiscall ISSLGatewayClientSessionProxyHandler::~ISSLGatewayClientSessionProxyHandler(void)` | 149 | Exported Function
 `public: virtual __thiscall ISSLGatewayClientSessionProxyHandlerSink::~ISSLGatewayClientSessionProxyHandlerSink(void)` | 150 | Exported Function
 `public: virtual __thiscall ISSLGatewayClientSessionSink::~ISSLGatewayClientSessionSink(void)` | 151 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::GetOption(unsigned long,void * &)` | 342 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::RemoveUser(class ICommonObjectID *)` | 394 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::SendData(class ICommonObjectID *,unsigned long,class CCmMessageBlock *,unsigned long)` | 402 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::SendData(class ICommonObjectID *,unsigned long,class CCmString const &,unsigned long)` | 401 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::JoinSession(char *,bool,char *,bool)` | 363 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::JoinSession(char *,char *)` | 362 | Exported Function
-`public: virtual long __thiscall CSSLGatewayClientSession::LeaveSession(char *,long)` | 364 | Exported Function
-`public: void __thiscall CCmTimeValue::Set(long,long)` | 408 | Exported Function
-`public: void __thiscall CCmTimeValue::Set(struct timeval const &)` | 407 | Exported Function
-`public: void __thiscall CCmTimeValue::SetByTotalMsec(long)` | 410 | Exported Function
-`public: void __thiscall CCmTimeValue::operator+=(class CCmTimeValue const &)` | 248 | Exported Function
-`public: void __thiscall CCmTimeValue::operator-=(class CCmTimeValue const &)` | 251 | Exported Function
-`public: void __thiscall CCmTimeValue::Set(double)` | 409 | Exported Function
+`GetOption` | 342 | Exported Function
+`RemoveUser` | 394 | Exported Function
+`SendData` | 402 | Exported Function
+`SendData` | 401 | Exported Function
+`JoinSession` | 363 | Exported Function
+`JoinSession` | 362 | Exported Function
+`LeaveSession` | 364 | Exported Function
+`Set` | 408 | Exported Function
+`Set` | 407 | Exported Function
+`SetByTotalMsec` | 410 | Exported Function
+`operator` | 248 | Exported Function
+`operator` | 251 | Exported Function
+`Set` | 409 | Exported Function
 `public: void __thiscall CCmTransportParameter::``default constructor closure'(void)` | 323 | Exported Function
 `SSLGCreateProxyHandler` | 421 | Exported Function
 `SSLGDeleteClientSession` | 422 | Exported Function
 `SSLGDeleteProxyHandler` | 423 | Exported Function
-`public: void __thiscall CSSLGatewayClientSession::ReconnectManual_n(void)` | 392 | Exported Function
+`ReconnectManual_n` | 392 | Exported Function
 `public: void __thiscall ICmEvent::``default constructor closure'(void)` | 324 | Exported Function
 `SSLGCreateClientSession` | 420 | Exported Function
 `public: void __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::``default constructor closure'(void)` | 321 | Exported Function
-`public: void __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator=(class CCmAtomicOperationT<class CCmMutexNullSingleThread> const &)` | 152 | Exported Function
-`public: void __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator=(long)` | 153 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::OnTimer(class CCmTimerWrapperID *)` | 389 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::ReconnectManual(void)` | 391 | Exported Function
-`public: virtual void __thiscall CSSLGatewayClientSession::Stop(void)` | 414 | Exported Function
+`operator` | 152 | Exported Function
+`operator` | 153 | Exported Function
+`OnTimer` | 389 | Exported Function
+`ReconnectManual` | 391 | Exported Function
+`Stop` | 414 | Exported Function
 `public: void __thiscall CCmAtomicOperationT<class CCmMutexThread>::``default constructor closure'(void)` | 322 | Exported Function
-`public: void __thiscall CCmMessageBlock::LockWriting(void)` | 371 | Exported Function
-`public: void __thiscall CCmThreadManager::GetReferenceControlMutex(class CCmMutexThread * &)` | 345 | Exported Function
-`public: void __thiscall CCmThreadManager::GetSingletonMutex(class CCmMutexThreadRecursive * &)` | 347 | Exported Function
-`public: void __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator=(class CCmAtomicOperationT<class CCmMutexThread> const &)` | 154 | Exported Function
-`public: void __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator=(long)` | 155 | Exported Function
-`public: void __thiscall CCmMessageBlock::LockReading(void)` | 370 | Exported Function
+`LockWriting` | 371 | Exported Function
+`GetReferenceControlMutex` | 345 | Exported Function
+`GetSingletonMutex` | 347 | Exported Function
+`operator` | 154 | Exported Function
+`operator` | 155 | Exported Function
+`LockReading` | 370 | Exported Function
 `public: virtual __thiscall ISSLGatewayClientSession::~ISSLGatewayClientSession(void)` | 148 | Exported Function
-`public: long __thiscall CCmMutexNullSingleThread::TryLock(void)` | 416 | Exported Function
-`public: long __thiscall CCmMutexNullSingleThread::UnLock(void)` | 419 | Exported Function
-`public: long __thiscall CCmTimeValue::GetSec(void)const ` | 346 | Exported Function
-`public: long __thiscall CCmMutexNull::TryLock(void)` | 415 | Exported Function
-`public: long __thiscall CCmMutexNull::UnLock(void)` | 418 | Exported Function
-`public: long __thiscall CCmMutexNullSingleThread::Lock(void)` | 369 | Exported Function
-`public: long __thiscall CCmTimeValue::GetTotalInMsec(void)const ` | 354 | Exported Function
-`public: static int __cdecl CCmThreadManager::IsThreadEqual(unsigned long,unsigned long)` | 361 | Exported Function
-`public: static unsigned long __cdecl CCmThreadManager::GetThreadSelfId(void)` | 349 | Exported Function
-`public: static void __cdecl wbx::IObject::DumpObject(void)` | 335 | Exported Function
-`public: long __thiscall CCmTimeValue::GetUsec(void)const ` | 355 | Exported Function
-`public: long __thiscall ICmReactor::GetProperty(void)` | 343 | Exported Function
-`public: static int __cdecl CCmThreadManager::IsEqualCurrentThread(unsigned long)` | 359 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator++(void)` | 227 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator+=(long)` | 247 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator--(int)` | 230 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator-=(long)` | 249 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::GetValue(void)const ` | 357 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator++(int)` | 226 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator--(void)` | 231 | Exported Function
-`public: long __thiscall CCmMutexGuardT<class CCmMutexThread>::Lock(void)` | 367 | Exported Function
-`public: long __thiscall CCmMutexGuardT<class CCmMutexThread>::UnLock(void)` | 417 | Exported Function
-`public: long __thiscall CCmMutexNull::Lock(void)` | 368 | Exported Function
-`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator-=(long)` | 250 | Exported Function
-`public: long __thiscall CCmMessageBlock::AdvanceTopLevelReadPtr(unsigned long)` | 327 | Exported Function
-`public: long __thiscall CCmMessageBlock::AdvanceTopLevelWritePtr(unsigned long)` | 328 | Exported Function
+`TryLock` | 416 | Exported Function
+`UnLock` | 419 | Exported Function
+`GetSec` | 346 | Exported Function
+`TryLock` | 415 | Exported Function
+`UnLock` | 418 | Exported Function
+`Lock` | 369 | Exported Function
+`GetTotalInMsec` | 354 | Exported Function
+`IsThreadEqual` | 361 | Exported Function
+`GetThreadSelfId` | 349 | Exported Function
+`DumpObject` | 335 | Exported Function
+`GetUsec` | 355 | Exported Function
+`GetProperty` | 343 | Exported Function
+`IsEqualCurrentThread` | 359 | Exported Function
+`operator` | 227 | Exported Function
+`operator` | 247 | Exported Function
+`operator` | 230 | Exported Function
+`operator` | 249 | Exported Function
+`GetValue` | 357 | Exported Function
+`operator` | 226 | Exported Function
+`operator` | 231 | Exported Function
+`Lock` | 367 | Exported Function
+`UnLock` | 417 | Exported Function
+`Lock` | 368 | Exported Function
+`operator` | 250 | Exported Function
+`AdvanceTopLevelReadPtr` | 327 | Exported Function
+`AdvanceTopLevelWritePtr` | 328 | Exported Function
 `public: virtual __thiscall ICommonConnectorSink::~ICommonConnectorSink(void)` | 137 | Exported Function
 `public: virtual __thiscall ICommonDestroyable::~ICommonDestroyable(void)` | 138 | Exported Function
 `public: virtual __thiscall ICommonEndPoint::~ICommonEndPoint(void)` | 139 | Exported Function
@@ -223,30 +223,30 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall ICommonHandShakeProcessor::~ICommonHandShakeProcessor(void)` | 141 | Exported Function
 `public: virtual __thiscall ICommonProcessor::~ICommonProcessor(void)` | 142 | Exported Function
 `public: virtual __thiscall ICommonSession::~ICommonSession(void)` | 143 | Exported Function
-`public: unsigned long __thiscall CCmDataBlock::GetCapacity(void)const ` | 338 | Exported Function
-`public: unsigned long __thiscall CCmDataBlock::GetLength(void)const ` | 339 | Exported Function
-`public: unsigned long __thiscall CCmMessageBlock::GetTopLevelLength(void)const ` | 350 | Exported Function
-`public: struct _RTL_CRITICAL_SECTION & __thiscall CCmMutexThreadBase::GetMutexType(void)` | 340 | Exported Function
-`public: struct CCmT120TraceMapEntry & __thiscall CCmT120TraceMapEntry::operator=(struct CCmT120TraceMapEntry &&)` | 171 | Exported Function
-`public: struct CCmT120TraceMapEntry & __thiscall CCmT120TraceMapEntry::operator=(struct CCmT120TraceMapEntry const &)` | 172 | Exported Function
-`public: unsigned long __thiscall CCmMessageBlock::GetTopLevelSpace(void)const ` | 352 | Exported Function
+`GetCapacity` | 338 | Exported Function
+`GetLength` | 339 | Exported Function
+`GetTopLevelLength` | 350 | Exported Function
+`GetMutexType` | 340 | Exported Function
+`operator` | 171 | Exported Function
+`operator` | 172 | Exported Function
+`GetTopLevelSpace` | 352 | Exported Function
 `public: virtual __thiscall CCmT120Trace2::~CCmT120Trace2(void)` | 113 | Exported Function
 `public: virtual __thiscall CSSLGatewayClientSession::~CSSLGatewayClientSession(void)` | 114 | Exported Function
 `public: virtual __thiscall ICommonAcceptorFactory::~ICommonAcceptorFactory(void)` | 133 | Exported Function
 `public: virtual __thiscall ACmConnectorInternal::~ACmConnectorInternal(void)` | 108 | Exported Function
 `public: virtual __thiscall CCmReferenceControlT<class CCmMutexThread>::~CCmReferenceControlT<class CCmMutexThread>(void)` | 107 | Exported Function
 `public: virtual __thiscall CCmT120FuncTracer::~CCmT120FuncTracer(void)` | 112 | Exported Function
-`public: __thiscall ICommonEndPointSink::ICommonEndPointSink(class ICommonEndPointSink const &)` | 81 | Exported Function
+`ICommonEndPointSink` | 81 | Exported Function
 `const ISSLGatewayClientSessionSink::``vftable'` | 319 | Exported Function
-`const wbx::IObject::``vftable'` | 315 | Exported Function
+`IObject` | 315 | Exported Function
 `int __cdecl operator!=(class CCmTimeValue const &,class CCmTimeValue const &)` | 223 | Exported Function
 `const ISSLGatewayClientSession::``vftable'` | 316 | Exported Function
 `const ISSLGatewayClientSessionProxyHandler::``vftable'` | 317 | Exported Function
 `const ISSLGatewayClientSessionProxyHandlerSink::``vftable'` | 318 | Exported Function
 `int __cdecl operator<(class CCmTimeValue const &,class CCmTimeValue const &)` | 236 | Exported Function
 `int __cdecl operator>=(class CCmTimeValue const &,class CCmTimeValue const &)` | 245 | Exported Function
-`private: class CCmString & __thiscall CSSLGatewayClientSession::GenerateBindID(int)` | 336 | Exported Function
-`private: int __thiscall CSSLGatewayClientSession::SafeCheck(void *)` | 397 | Exported Function
+`GenerateBindID` | 336 | Exported Function
+`SafeCheck` | 397 | Exported Function
 `int __cdecl operator<=(class CCmTimeValue const &,class CCmTimeValue const &)` | 239 | Exported Function
 `int __cdecl operator==(class CCmTimeValue const &,class CCmTimeValue const &)` | 220 | Exported Function
 `int __cdecl operator>(class CCmTimeValue const &,class CCmTimeValue const &)` | 242 | Exported Function
@@ -263,32 +263,32 @@ Function Name | Ordinal | Type
 `const ICommonSession::``vftable'{for ``ICommonEndPointSink'}` | 309 | Exported Function
 `const ICommonSession::``vftable'{for ``ICommonStartable'}` | 310 | Exported Function
 `const ICommonSession::``vftable'{for ``ICommonStopable'}` | 311 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionLeave_u(class CSSLGClientLeave *)` | 384 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionLeave_u(long)` | 383 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionReconnect_u(long)` | 386 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionJoin_u(long,unsigned long)` | 382 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionJoinRequest_u(class CSSLGClientJoinRequest *)` | 380 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionJoinResponse_u(class CSSLGClientJoinResponse *)` | 381 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSessionReJoinResponse_u(class CSSLGClientReJoinResponse *)` | 385 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::Reset(void)` | 395 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::SendCache(void)` | 399 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::SendJoinRequest(int)` | 404 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnStartHeartBeat_n(void)` | 387 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnStartKeepAlive_n(void)` | 388 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::Reconnect(void)` | 390 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::CheckServerLeave(void)` | 329 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::ClearCache(void)` | 330 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::Connect_n(void)` | 331 | Exported Function
-`private: long __thiscall CSSLGatewayClientSession::SendAck_n(unsigned long)` | 398 | Exported Function
-`private: long __thiscall CSSLGatewayClientSession::SendData_n(class CCmString const &,unsigned long)` | 403 | Exported Function
-`private: void __thiscall CCmMessageBlock::Reset_i(class CCmDataBlock *)` | 396 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::Destroy_n(void)` | 333 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::Listen_n(void)` | 366 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnReceiveData_u(class CSSLGClientApplicationData *)` | 376 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::OnSend_u(void)` | 379 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::Disconnect(class ICommonObjectID *)` | 334 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::HandleServerData(class CCmMessageBlock *)` | 358 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::LeaveSession_n(void)` | 365 | Exported Function
+`OnSessionLeave_u` | 384 | Exported Function
+`OnSessionLeave_u` | 383 | Exported Function
+`OnSessionReconnect_u` | 386 | Exported Function
+`OnSessionJoin_u` | 382 | Exported Function
+`OnSessionJoinRequest_u` | 380 | Exported Function
+`OnSessionJoinResponse_u` | 381 | Exported Function
+`OnSessionReJoinResponse_u` | 385 | Exported Function
+`Reset` | 395 | Exported Function
+`SendCache` | 399 | Exported Function
+`SendJoinRequest` | 404 | Exported Function
+`OnStartHeartBeat_n` | 387 | Exported Function
+`OnStartKeepAlive_n` | 388 | Exported Function
+`Reconnect` | 390 | Exported Function
+`CheckServerLeave` | 329 | Exported Function
+`ClearCache` | 330 | Exported Function
+`Connect_n` | 331 | Exported Function
+`SendAck_n` | 398 | Exported Function
+`SendData_n` | 403 | Exported Function
+`Reset_i` | 396 | Exported Function
+`Destroy_n` | 333 | Exported Function
+`Listen_n` | 366 | Exported Function
+`OnReceiveData_u` | 376 | Exported Function
+`OnSend_u` | 379 | Exported Function
+`Disconnect` | 334 | Exported Function
+`HandleServerData` | 358 | Exported Function
+`LeaveSession_n` | 365 | Exported Function
 `const ICommonEndPoint::``vftable'{for ``ICommonDestroyable'}` | 301 | Exported Function
 `const CSSLGatewayClientSession::``vftable'{for ``ICommonEndPointSink'}` | 265 | Exported Function
 `const CSSLGatewayClientSession::``vftable'{for ``ICommonStartable'}` | 266 | Exported Function
@@ -314,7 +314,7 @@ Function Name | Ordinal | Type
 `const CSSLGatewayClientSession::``vftable'{for ``CCmTimerWrapperIDSink'}` | 260 | Exported Function
 `const CSSLGatewayClientSession::``vftable'{for ``ICommonAcceptorSink'}` | 261 | Exported Function
 `const CCmT120FuncTracer::``vftable'` | 257 | Exported Function
-`const CCmT120Trace::Text_Formator::``vftable'` | 320 | Exported Function
+`Text_Formator` | 320 | Exported Function
 `const CCmTimerWrapperID::``vftable'` | 258 | Exported Function
 `const ICommonConnector::``vftable'{for ``ICommonConfigurable'}` | 291 | Exported Function
 `const ICommonConnector::``vftable'{for ``ICommonDestroyable'}` | 292 | Exported Function
@@ -342,77 +342,77 @@ Function Name | Ordinal | Type
 `const ICmReactor::``vftable'{for ``ICmEventQueue'}` | 282 | Exported Function
 `const ICmReactor::``vftable'{for ``ICmTimerQueue'}` | 283 | Exported Function
 `const ICmReferenceControl::``vftable'` | 284 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::SendJoinResponse_n(class CCmString const &)` | 405 | Exported Function
-`public: __thiscall ICmChannelSink::ICmChannelSink(class ICmChannelSink const &)` | 45 | Exported Function
-`public: __thiscall ICmChannelSink::ICmChannelSink(void)` | 46 | Exported Function
-`public: __thiscall ICmConnector::ICmConnector(class ICmConnector const &)` | 47 | Exported Function
-`public: __thiscall ICmChannelServerAcceptor::ICmChannelServerAcceptor(void)` | 42 | Exported Function
-`public: __thiscall ICmChannelServerSink::ICmChannelServerSink(class ICmChannelServerSink const &)` | 43 | Exported Function
-`public: __thiscall ICmChannelServerSink::ICmChannelServerSink(void)` | 44 | Exported Function
-`public: __thiscall ICmConnector::ICmConnector(void)` | 48 | Exported Function
-`public: __thiscall ICmEvent::ICmEvent(unsigned long)` | 52 | Exported Function
-`public: __thiscall ICmEventQueue::ICmEventQueue(class ICmEventQueue const &)` | 53 | Exported Function
-`public: __thiscall ICmEventQueue::ICmEventQueue(void)` | 54 | Exported Function
-`public: __thiscall ICmDetectionConnector::ICmDetectionConnector(class ICmDetectionConnector const &)` | 49 | Exported Function
-`public: __thiscall ICmDetectionConnector::ICmDetectionConnector(void)` | 50 | Exported Function
-`public: __thiscall ICmEvent::ICmEvent(class ICmEvent const &)` | 51 | Exported Function
-`public: __thiscall ICmAcceptorConnectorId::ICmAcceptorConnectorId(void)` | 32 | Exported Function
-`public: __thiscall ICmAcceptorConnectorSink::ICmAcceptorConnectorSink(class ICmAcceptorConnectorSink const &)` | 33 | Exported Function
-`public: __thiscall ICmAcceptorConnectorSink::ICmAcceptorConnectorSink(void)` | 34 | Exported Function
-`public: __thiscall ICmAcceptor::ICmAcceptor(class ICmAcceptor const &)` | 29 | Exported Function
-`public: __thiscall ICmAcceptor::ICmAcceptor(void)` | 30 | Exported Function
-`public: __thiscall ICmAcceptorConnectorId::ICmAcceptorConnectorId(class ICmAcceptorConnectorId const &)` | 31 | Exported Function
-`public: __thiscall ICmChannel::ICmChannel(class ICmChannel const &)` | 35 | Exported Function
-`public: __thiscall ICmChannelHttpServer::ICmChannelHttpServer(class ICmChannelHttpServer const &)` | 39 | Exported Function
-`public: __thiscall ICmChannelHttpServer::ICmChannelHttpServer(void)` | 40 | Exported Function
-`public: __thiscall ICmChannelServerAcceptor::ICmChannelServerAcceptor(class ICmChannelServerAcceptor const &)` | 41 | Exported Function
-`public: __thiscall ICmChannel::ICmChannel(void)` | 36 | Exported Function
-`public: __thiscall ICmChannelHttpClient::ICmChannelHttpClient(class ICmChannelHttpClient const &)` | 37 | Exported Function
-`public: __thiscall ICmChannelHttpClient::ICmChannelHttpClient(void)` | 38 | Exported Function
-`public: __thiscall ICommonConnector::ICommonConnector(class ICommonConnector const &)` | 71 | Exported Function
-`public: __thiscall ICommonConnector::ICommonConnector(void)` | 72 | Exported Function
-`public: __thiscall ICommonConnectorFactory::ICommonConnectorFactory(class ICommonConnectorFactory const &)` | 73 | Exported Function
-`public: __thiscall ICommonAcceptorFactory::ICommonAcceptorFactory(void)` | 68 | Exported Function
-`public: __thiscall ICommonConfigurable::ICommonConfigurable(class ICommonConfigurable const &)` | 69 | Exported Function
-`public: __thiscall ICommonConfigurable::ICommonConfigurable(void)` | 70 | Exported Function
-`public: __thiscall ICommonConnectorFactory::ICommonConnectorFactory(void)` | 74 | Exported Function
-`public: __thiscall ICommonDestroyable::ICommonDestroyable(void)` | 78 | Exported Function
-`public: __thiscall ICommonEndPoint::ICommonEndPoint(class ICommonEndPoint const &)` | 79 | Exported Function
-`public: __thiscall ICommonEndPoint::ICommonEndPoint(void)` | 80 | Exported Function
-`public: __thiscall ICommonConnectorSink::ICommonConnectorSink(class ICommonConnectorSink const &)` | 75 | Exported Function
-`public: __thiscall ICommonConnectorSink::ICommonConnectorSink(void)` | 76 | Exported Function
-`public: __thiscall ICommonDestroyable::ICommonDestroyable(class ICommonDestroyable const &)` | 77 | Exported Function
-`public: __thiscall ICmReferenceControl::ICmReferenceControl(void)` | 58 | Exported Function
-`public: __thiscall ICmTimerHandler::ICmTimerHandler(class ICmTimerHandler const &)` | 59 | Exported Function
-`public: __thiscall ICmTimerHandler::ICmTimerHandler(void)` | 60 | Exported Function
-`public: __thiscall ICmReactor::ICmReactor(class ICmReactor const &)` | 55 | Exported Function
-`public: __thiscall ICmReactor::ICmReactor(long)` | 56 | Exported Function
-`public: __thiscall ICmReferenceControl::ICmReferenceControl(class ICmReferenceControl const &)` | 57 | Exported Function
-`public: __thiscall ICmTimerQueue::ICmTimerQueue(class ICmTimerQueue const &)` | 61 | Exported Function
-`public: __thiscall ICmTransportSink::ICmTransportSink(class ICmTransportSink const &)` | 65 | Exported Function
-`public: __thiscall ICmTransportSink::ICmTransportSink(void)` | 66 | Exported Function
-`public: __thiscall ICommonAcceptorFactory::ICommonAcceptorFactory(class ICommonAcceptorFactory const &)` | 67 | Exported Function
-`public: __thiscall ICmTimerQueue::ICmTimerQueue(void)` | 62 | Exported Function
-`public: __thiscall ICmTransport::ICmTransport(class ICmTransport const &)` | 63 | Exported Function
-`public: __thiscall ICmTransport::ICmTransport(void)` | 64 | Exported Function
-`public: __thiscall CSSLGatewayClientSession::CSSLGatewayClientSession(unsigned char,class ISSLGatewayClientSessionSink *)` | 28 | Exported Function
+`SendJoinResponse_n` | 405 | Exported Function
+`ICmChannelSink` | 45 | Exported Function
+`ICmChannelSink` | 46 | Exported Function
+`ICmConnector` | 47 | Exported Function
+`ICmChannelServerAcceptor` | 42 | Exported Function
+`ICmChannelServerSink` | 43 | Exported Function
+`ICmChannelServerSink` | 44 | Exported Function
+`ICmConnector` | 48 | Exported Function
+`ICmEvent` | 52 | Exported Function
+`ICmEventQueue` | 53 | Exported Function
+`ICmEventQueue` | 54 | Exported Function
+`ICmDetectionConnector` | 49 | Exported Function
+`ICmDetectionConnector` | 50 | Exported Function
+`ICmEvent` | 51 | Exported Function
+`ICmAcceptorConnectorId` | 32 | Exported Function
+`ICmAcceptorConnectorSink` | 33 | Exported Function
+`ICmAcceptorConnectorSink` | 34 | Exported Function
+`ICmAcceptor` | 29 | Exported Function
+`ICmAcceptor` | 30 | Exported Function
+`ICmAcceptorConnectorId` | 31 | Exported Function
+`ICmChannel` | 35 | Exported Function
+`ICmChannelHttpServer` | 39 | Exported Function
+`ICmChannelHttpServer` | 40 | Exported Function
+`ICmChannelServerAcceptor` | 41 | Exported Function
+`ICmChannel` | 36 | Exported Function
+`ICmChannelHttpClient` | 37 | Exported Function
+`ICmChannelHttpClient` | 38 | Exported Function
+`ICommonConnector` | 71 | Exported Function
+`ICommonConnector` | 72 | Exported Function
+`ICommonConnectorFactory` | 73 | Exported Function
+`ICommonAcceptorFactory` | 68 | Exported Function
+`ICommonConfigurable` | 69 | Exported Function
+`ICommonConfigurable` | 70 | Exported Function
+`ICommonConnectorFactory` | 74 | Exported Function
+`ICommonDestroyable` | 78 | Exported Function
+`ICommonEndPoint` | 79 | Exported Function
+`ICommonEndPoint` | 80 | Exported Function
+`ICommonConnectorSink` | 75 | Exported Function
+`ICommonConnectorSink` | 76 | Exported Function
+`ICommonDestroyable` | 77 | Exported Function
+`ICmReferenceControl` | 58 | Exported Function
+`ICmTimerHandler` | 59 | Exported Function
+`ICmTimerHandler` | 60 | Exported Function
+`ICmReactor` | 55 | Exported Function
+`ICmReactor` | 56 | Exported Function
+`ICmReferenceControl` | 57 | Exported Function
+`ICmTimerQueue` | 61 | Exported Function
+`ICmTransportSink` | 65 | Exported Function
+`ICmTransportSink` | 66 | Exported Function
+`ICommonAcceptorFactory` | 67 | Exported Function
+`ICmTimerQueue` | 62 | Exported Function
+`ICmTransport` | 63 | Exported Function
+`ICmTransport` | 64 | Exported Function
+`CSSLGatewayClientSession` | 28 | Exported Function
 `protected: virtual __thiscall ICmTimerQueue::~ICmTimerQueue(void)` | 130 | Exported Function
 `protected: virtual __thiscall ICmTransport::~ICmTransport(void)` | 131 | Exported Function
 `protected: virtual __thiscall ICmTransportSink::~ICmTransportSink(void)` | 132 | Exported Function
 `protected: virtual __thiscall ICmEventQueue::~ICmEventQueue(void)` | 127 | Exported Function
 `protected: virtual __thiscall ICmReferenceControl::~ICmReferenceControl(void)` | 128 | Exported Function
 `protected: virtual __thiscall ICmTimerHandler::~ICmTimerHandler(void)` | 129 | Exported Function
-`protected: virtual void __thiscall CCmReferenceControlT<class CCmMutexThread>::OnReferenceDestory(void)` | 377 | Exported Function
-`public: __thiscall ACmEventHandler::ACmEventHandler(void)` | 11 | Exported Function
-`public: __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::CCmAtomicOperationT<class CCmMutexNullSingleThread>(class CCmAtomicOperationT<class CCmMutexNullSingleThread> const &)` | 1 | Exported Function
-`public: __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::CCmAtomicOperationT<class CCmMutexNullSingleThread>(long)` | 2 | Exported Function
-`public: __thiscall ACmConnectorInternal::ACmConnectorInternal(class ACmConnectorInternal const &)` | 8 | Exported Function
-`public: __thiscall ACmConnectorInternal::ACmConnectorInternal(void)` | 9 | Exported Function
-`public: __thiscall ACmEventHandler::ACmEventHandler(class ACmEventHandler const &)` | 10 | Exported Function
+`OnReferenceDestory` | 377 | Exported Function
+`ACmEventHandler` | 11 | Exported Function
+`CCmAtomicOperationT` | 1 | Exported Function
+`CCmAtomicOperationT` | 2 | Exported Function
+`ACmConnectorInternal` | 8 | Exported Function
+`ACmConnectorInternal` | 9 | Exported Function
+`ACmEventHandler` | 10 | Exported Function
 `protected: virtual __thiscall ICmAcceptorConnectorSink::~ICmAcceptorConnectorSink(void)` | 117 | Exported Function
 `protected: virtual __thiscall ICmChannel::~ICmChannel(void)` | 118 | Exported Function
 `protected: virtual __thiscall ICmChannelHttpClient::~ICmChannelHttpClient(void)` | 119 | Exported Function
-`private: void __thiscall CSSLGatewayClientSession::SendKeepAlive_n(void)` | 406 | Exported Function
+`SendKeepAlive_n` | 406 | Exported Function
 `protected: virtual __thiscall ICmAcceptor::~ICmAcceptor(void)` | 115 | Exported Function
 `protected: virtual __thiscall ICmAcceptorConnectorId::~ICmAcceptorConnectorId(void)` | 116 | Exported Function
 `protected: virtual __thiscall ICmChannelHttpServer::~ICmChannelHttpServer(void)` | 120 | Exported Function
@@ -422,32 +422,32 @@ Function Name | Ordinal | Type
 `protected: virtual __thiscall ICmChannelServerAcceptor::~ICmChannelServerAcceptor(void)` | 121 | Exported Function
 `protected: virtual __thiscall ICmChannelServerSink::~ICmChannelServerSink(void)` | 122 | Exported Function
 `protected: virtual __thiscall ICmChannelSink::~ICmChannelSink(void)` | 123 | Exported Function
-`public: __thiscall CCmT120Trace::Text_Formator::Text_Formator(class CCmT120Trace::Text_Formator const &)` | 105 | Exported Function
-`public: __thiscall CCmTimerWrapperID::CCmTimerWrapperID(class CCmTimerWrapperID const &)` | 24 | Exported Function
-`public: __thiscall CCmTimerWrapperIDSink::CCmTimerWrapperIDSink(class CCmTimerWrapperIDSink const &)` | 25 | Exported Function
-`public: __thiscall CCmStopFlag::CCmStopFlag(void)` | 16 | Exported Function
-`public: __thiscall CCmT120FuncTracer::CCmT120FuncTracer(char const *)` | 18 | Exported Function
-`public: __thiscall CCmT120FuncTracer::CCmT120FuncTracer(class CCmT120FuncTracer const &)` | 17 | Exported Function
-`public: __thiscall CCmTimerWrapperIDSink::CCmTimerWrapperIDSink(void)` | 26 | Exported Function
-`public: __thiscall CCmTimeValue::CCmTimeValue(struct timeval const &)` | 19 | Exported Function
-`public: __thiscall CCmTimeValue::CCmTimeValue(void)` | 23 | Exported Function
-`public: __thiscall CCmTransportParameter::CCmTransportParameter(enum CCmConnectionManager::CPriority)` | 27 | Exported Function
-`public: __thiscall CCmTimeValue::CCmTimeValue(double)` | 22 | Exported Function
-`public: __thiscall CCmTimeValue::CCmTimeValue(long)` | 20 | Exported Function
-`public: __thiscall CCmTimeValue::CCmTimeValue(long,long)` | 21 | Exported Function
-`public: __thiscall CCmMutexGuardT<class CCmMutexThread>::CCmMutexGuardT<class CCmMutexThread>(class CCmMutexThread &)` | 5 | Exported Function
+`Text_Formator` | 105 | Exported Function
+`CCmTimerWrapperID` | 24 | Exported Function
+`CCmTimerWrapperIDSink` | 25 | Exported Function
+`CCmStopFlag` | 16 | Exported Function
+`CCmT120FuncTracer` | 18 | Exported Function
+`CCmT120FuncTracer` | 17 | Exported Function
+`CCmTimerWrapperIDSink` | 26 | Exported Function
+`CCmTimeValue` | 19 | Exported Function
+`CCmTimeValue` | 23 | Exported Function
+`CPriority` | 27 | Exported Function
+`CCmTimeValue` | 22 | Exported Function
+`CCmTimeValue` | 20 | Exported Function
+`CCmTimeValue` | 21 | Exported Function
+`CCmMutexGuardT` | 5 | Exported Function
 `public: __thiscall CCmMutexGuardT<class CCmMutexThread>::~CCmMutexGuardT<class CCmMutexThread>(void)` | 106 | Exported Function
-`public: __thiscall CCmMutexNull::CCmMutexNull(void)` | 12 | Exported Function
-`public: __thiscall CCmAtomicOperationT<class CCmMutexThread>::CCmAtomicOperationT<class CCmMutexThread>(class CCmAtomicOperationT<class CCmMutexThread> const &)` | 3 | Exported Function
-`public: __thiscall CCmAtomicOperationT<class CCmMutexThread>::CCmAtomicOperationT<class CCmMutexThread>(long)` | 4 | Exported Function
+`CCmMutexNull` | 12 | Exported Function
+`CCmAtomicOperationT` | 3 | Exported Function
+`CCmAtomicOperationT` | 4 | Exported Function
 `public: __thiscall CCmMessageBlock::~CCmMessageBlock(void)` | 109 | Exported Function
 `public: __thiscall CCmMutexNull::~CCmMutexNull(void)` | 110 | Exported Function
-`public: __thiscall CCmReferenceControlT<class CCmMutexThread>::CCmReferenceControlT<class CCmMutexThread>(class CCmReferenceControlT<class CCmMutexThread> const &)` | 6 | Exported Function
-`public: __thiscall CCmReferenceControlT<class CCmMutexThread>::CCmReferenceControlT<class CCmMutexThread>(void)` | 7 | Exported Function
-`public: __thiscall CCmSignalStop::CCmSignalStop(class CCmSignalStop const &)` | 15 | Exported Function
-`public: __thiscall CCmMutexNullSingleThread::CCmMutexNullSingleThread(void)` | 13 | Exported Function
+`CCmReferenceControlT` | 6 | Exported Function
+`CCmReferenceControlT` | 7 | Exported Function
+`CCmSignalStop` | 15 | Exported Function
+`CCmMutexNullSingleThread` | 13 | Exported Function
 `public: __thiscall CCmMutexNullSingleThread::~CCmMutexNullSingleThread(void)` | 111 | Exported Function
-`public: __thiscall CCmMutexThreadBase::CCmMutexThreadBase(class CCmMutexThreadBase const &)` | 14 | Exported Function
+`CCmMutexThreadBase` | 14 | Exported Function
 
 
 ## Signature

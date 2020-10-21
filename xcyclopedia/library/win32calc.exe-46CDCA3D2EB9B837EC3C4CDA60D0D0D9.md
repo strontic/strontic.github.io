@@ -22,6 +22,9 @@ SHA256 | `3E2300394C15B59A964EAB45D9EB96D317650E2F7448FD1B4AE825A134402B7A`
 SHA384 | `8A2859D7B84CC78C77610FADCD00809C3616EB378279516EB9170DA0693409174E4F37463CBB3D63D285948494BD4C44`
 SHA512 | `D7264A701B04E4AF1344018E99EA9E4199EA4B5AEDAB29222D9FB01AFF2AD201E77A9E57A82133053379C327F686D3278749A1A160596614FB1C6BB4A026BFB3`
 SSDEEP | `12288:P8aCOcE5uPG8aoSyTc7wGlsOOwCXDYferUAHeeN7c6O:PbP5mGzL7wYOwCXDY2rUmeh`
+IMP | `BDE48881DABC2774907583E3DE072A63`
+PESHA1 | `BB8A214B9E1EB2FA49ACBE08C899571CEAE6AD57`
+PE256 | `F4A61C49F81E474373C38CC4B57104FED8E7A4C21636953C75A85047C1A7CCC3`
 
 ## Runtime Data
 
@@ -34,14 +37,17 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\win32calc.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -78,8 +84,8 @@ C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
 C:\Windows\system32\WINMM.dll |
 C:\Windows\system32\WINMMBASE.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa\gdiplus.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35\gdiplus.dll |
 
 
 ## Signature
@@ -99,7 +105,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.139
 * Product Version: 10.0.17763.771
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/3e2300394c15b59a964eab45d9eb96d317650e2f7448fd1b4ae825a134402b7a/detection/
 
 ## File Similarity (ssdeep match)
 

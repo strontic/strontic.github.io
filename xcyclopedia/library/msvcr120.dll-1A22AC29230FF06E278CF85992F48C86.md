@@ -46,7 +46,7 @@ Function Name | Ordinal | Type
 `erff` | 1613 | Exported Function
 `erfc` | 1610 | Exported Function
 `div` | 1608 | Exported Function
-`enum Concurrency::IResourceManager::OSVersion __cdecl Concurrency::GetOSVersion(void)` | 156 | Exported Function
+`GetOSVersion` | 156 | Exported Function
 `erf` | 1609 | Exported Function
 `erfl` | 1614 | Exported Function
 `exp2l` | 1619 | Exported Function
@@ -96,8 +96,8 @@ Function Name | Ordinal | Type
 `clearerr_s` | 1568 | Exported Function
 `clog10l` | 1573 | Exported Function
 `conjl` | 1578 | Exported Function
-`const std::__non_rtti_object::``vftable'` | 125 | Exported Function
-`const std::bad_cast::``vftable'` | 126 | Exported Function
+`__non_rtti_object` | 125 | Exported Function
+`bad_cast` | 126 | Exported Function
 `conjf` | 1577 | Exported Function
 `clogf` | 1574 | Exported Function
 `clogl` | 1575 | Exported Function
@@ -117,7 +117,7 @@ Function Name | Ordinal | Type
 `ccosl` | 1559 | Exported Function
 `ceil` | 1560 | Exported Function
 `cexp` | 1561 | Exported Function
-`const std::bad_typeid::``vftable'` | 127 | Exported Function
+`bad_typeid` | 127 | Exported Function
 `csinhl` | 1597 | Exported Function
 `csinl` | 1598 | Exported Function
 `csqrt` | 1599 | Exported Function
@@ -137,7 +137,7 @@ Function Name | Ordinal | Type
 `cosh` | 1583 | Exported Function
 `cpow` | 1584 | Exported Function
 `copysignl` | 1581 | Exported Function
-`const std::exception::``vftable'` | 128 | Exported Function
+`exception` | 128 | Exported Function
 `copysign` | 1579 | Exported Function
 `copysignf` | 1580 | Exported Function
 `cpowf` | 1585 | Exported Function
@@ -195,9 +195,9 @@ Function Name | Ordinal | Type
 `memchr` | 1765 | Exported Function
 `memcmp` | 1766 | Exported Function
 `memcpy` | 1767 | Exported Function
-`long __cdecl Concurrency::details::platform::GetCurrentThreadId(void)` | 153 | Exported Function
-`long __cdecl Concurrency::DisableTracing(void)` | 149 | Exported Function
-`long __cdecl Concurrency::EnableTracing(void)` | 150 | Exported Function
+`GetCurrentThreadId` | 153 | Exported Function
+`DisableTracing` | 149 | Exported Function
+`EnableTracing` | 150 | Exported Function
 `logbl` | 1748 | Exported Function
 `log2l` | 1745 | Exported Function
 `logb` | 1746 | Exported Function
@@ -576,16 +576,16 @@ Function Name | Ordinal | Type
 `swscanf_s` | 1874 | Exported Function
 `system` | 1875 | Exported Function
 `swprintf_s` | 1872 | Exported Function
-`struct Concurrency::details::_CONCRT_TRACE_INFO const * __cdecl Concurrency::_GetConcRTTraceInfo(void)` | 201 | Exported Function
-`struct Concurrency::IResourceManager * __cdecl Concurrency::CreateResourceManager(void)` | 144 | Exported Function
+`_GetConcRTTraceInfo` | 201 | Exported Function
+`CreateResourceManager` | 144 | Exported Function
 `strxfrm` | 1871 | Exported Function
-`public: void __thiscall std::bad_typeid::``default constructor closure'(void)` | 134 | Exported Function
-`public: void __thiscall type_info::_type_info_dtor_internal_method(void)` | 284 | Exported Function
+`bad_typeid` | 134 | Exported Function
+`_type_info_dtor_internal_method` | 284 | Exported Function
 `putc` | 1792 | Exported Function
-`public: void __thiscall std::bad_cast::``default constructor closure'(void)` | 133 | Exported Function
-`public: void __thiscall Concurrency::reader_writer_lock::lock_read(void)` | 293 | Exported Function
-`public: void __thiscall Concurrency::reader_writer_lock::unlock(void)` | 317 | Exported Function
-`public: void __thiscall Concurrency::SchedulerPolicy::SetConcurrencyLimits(unsigned int,unsigned int)` | 174 | Exported Function
+`bad_cast` | 133 | Exported Function
+`lock_read` | 293 | Exported Function
+`unlock` | 317 | Exported Function
+`SetConcurrencyLimits` | 174 | Exported Function
 `putchar` | 1793 | Exported Function
 `qsort_s` | 1798 | Exported Function
 `raise` | 1799 | Exported Function
@@ -594,21 +594,21 @@ Function Name | Ordinal | Type
 `puts` | 1794 | Exported Function
 `putwc` | 1795 | Exported Function
 `putwchar` | 1796 | Exported Function
-`public: void __thiscall Concurrency::details::_SpinWait<1>::_SetSpinCount(unsigned int)` | 235 | Exported Function
-`public: void __thiscall Concurrency::details::_SpinWait<1>::``default constructor closure'(void)` | 129 | Exported Function
-`public: void __thiscall Concurrency::details::_StructuredTaskCollection::_Cancel(void)` | 187 | Exported Function
-`public: void __thiscall Concurrency::details::_SpinWait<0>::``default constructor closure'(void)` | 130 | Exported Function
-`public: void __thiscall Concurrency::details::_ReentrantPPLLock::_Release(void)` | 221 | Exported Function
-`public: void __thiscall Concurrency::details::_Scheduler::``default constructor closure'(void)` | 132 | Exported Function
-`public: void __thiscall Concurrency::details::_SpinWait<0>::_SetSpinCount(unsigned int)` | 236 | Exported Function
-`public: void __thiscall Concurrency::details::_StructuredTaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *)` | 230 | Exported Function
-`public: void __thiscall Concurrency::event::reset(void)` | 299 | Exported Function
-`public: void __thiscall Concurrency::event::set(void)` | 300 | Exported Function
-`public: void __thiscall Concurrency::reader_writer_lock::lock(void)` | 292 | Exported Function
-`public: void __thiscall Concurrency::details::_TaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *,class Concurrency::location *)` | 233 | Exported Function
-`public: void __thiscall Concurrency::details::_StructuredTaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *,class Concurrency::location *)` | 231 | Exported Function
-`public: void __thiscall Concurrency::details::_TaskCollection::_Cancel(void)` | 188 | Exported Function
-`public: void __thiscall Concurrency::details::_TaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *)` | 232 | Exported Function
+`_SetSpinCount` | 235 | Exported Function
+`_SpinWait` | 129 | Exported Function
+`_Cancel` | 187 | Exported Function
+`_SpinWait` | 130 | Exported Function
+`_Release` | 221 | Exported Function
+`_Scheduler` | 132 | Exported Function
+`_SetSpinCount` | 236 | Exported Function
+`_UnrealizedChore` | 230 | Exported Function
+`reset` | 299 | Exported Function
+`set` | 300 | Exported Function
+`lock` | 292 | Exported Function
+`location` | 233 | Exported Function
+`location` | 231 | Exported Function
+`_Cancel` | 188 | Exported Function
+`_UnrealizedChore` | 232 | Exported Function
 `rand_s` | 1801 | Exported Function
 `scalbn` | 1821 | Exported Function
 `scalbnf` | 1822 | Exported Function
@@ -713,33 +713,33 @@ Function Name | Ordinal | Type
 `void * __cdecl operator new(unsigned int)` | 112 | Exported Function
 `void * __cdecl operator new(unsigned int,int,char const *,int)` | 113 | Exported Function
 `void * __cdecl operator new[](unsigned int)` | 135 | Exported Function
-`void * __cdecl Concurrency::details::GetSharedTimerQueue(void)` | 162 | Exported Function
+`GetSharedTimerQueue` | 162 | Exported Function
 `void (__cdecl*__cdecl set_unexpected(int))(void)` | 306 | Exported Function
 `void (__cdecl*__cdecl set_unexpected(void (__cdecl*)(void)))(void)` | 307 | Exported Function
-`void * __cdecl Concurrency::Alloc(unsigned int)` | 139 | Exported Function
-`unsigned int __cdecl Concurrency::details::platform::CaptureCallstack(void * *,unsigned int,unsigned int)` | 141 | Exported Function
-`unsigned int __cdecl Concurrency::GetExecutionContextId(void)` | 154 | Exported Function
-`unsigned int __cdecl Concurrency::GetProcessorCount(void)` | 159 | Exported Function
-`unsigned int __cdecl Concurrency::details::_GetConcurrency(void)` | 202 | Exported Function
+`Alloc` | 139 | Exported Function
+`CaptureCallstack` | 141 | Exported Function
+`GetExecutionContextId` | 154 | Exported Function
+`GetProcessorCount` | 159 | Exported Function
+`_GetConcurrency` | 202 | Exported Function
 `truncl` | 1892 | Exported Function
 `ungetc` | 1893 | Exported Function
 `ungetwc` | 1894 | Exported Function
-`unsigned int __cdecl Concurrency::GetProcessorNodeCount(void)` | 160 | Exported Function
+`GetProcessorNodeCount` | 160 | Exported Function
 `vfscanf` | 1897 | Exported Function
 `vfscanf_s` | 1898 | Exported Function
 `vfwprintf` | 1899 | Exported Function
 `vfprintf_s` | 1896 | Exported Function
-`unsigned int __cdecl Concurrency::GetSchedulerId(void)` | 161 | Exported Function
-`unsigned long __cdecl Concurrency::details::Log2(unsigned int)` | 167 | Exported Function
+`GetSchedulerId` | 161 | Exported Function
+`Log2` | 167 | Exported Function
 `vfprintf` | 1895 | Exported Function
 `void * __cdecl operator new[](unsigned int,int,char const *,int)` | 136 | Exported Function
-`void __cdecl Concurrency::set_task_execution_resources(unsigned short,struct _GROUP_AFFINITY *)` | 302 | Exported Function
-`void __cdecl Concurrency::wait(unsigned int)` | 319 | Exported Function
+`set_task_execution_resources` | 302 | Exported Function
+`wait` | 319 | Exported Function
 `void __cdecl operator delete(void *)` | 114 | Exported Function
-`void __cdecl Concurrency::set_task_execution_resources(unsigned long)` | 303 | Exported Function
-`void __cdecl Concurrency::details::_SetUnobservedExceptionHandler(void (__cdecl*)(void))` | 237 | Exported Function
-`void __cdecl Concurrency::details::_UnderlyingYield(void)` | 254 | Exported Function
-`void __cdecl Concurrency::Free(void *)` | 151 | Exported Function
+`set_task_execution_resources` | 303 | Exported Function
+`_SetUnobservedExceptionHandler` | 237 | Exported Function
+`_UnderlyingYield` | 254 | Exported Function
+`Free` | 151 | Exported Function
 `void __cdecl operator delete(void *,int,char const *,int)` | 115 | Exported Function
 `vprintf` | 1903 | Exported Function
 `vprintf_s` | 1904 | Exported Function
@@ -756,90 +756,90 @@ Function Name | Ordinal | Type
 `void __cdecl __ExceptionPtrCopy(void *,void const *)` | 262 | Exported Function
 `void __cdecl __ExceptionPtrCopyException(void *,void const *,void const *)` | 263 | Exported Function
 `void __cdecl __ExceptionPtrSwap(void *,void *)` | 268 | Exported Function
-`void __cdecl Concurrency::details::_ConcRT_CoreAssert(char const *,char const *,int)` | 191 | Exported Function
-`void __cdecl Concurrency::details::_ConcRT_Trace(int,wchar_t const *,...)` | 192 | Exported Function
-`void __cdecl Concurrency::details::_ReportUnobservedException(void)` | 225 | Exported Function
-`void __cdecl Concurrency::_Trace_ppl_function(struct _GUID const &,unsigned char,enum Concurrency::ConcRT_EventType)` | 247 | Exported Function
+`_ConcRT_CoreAssert` | 191 | Exported Function
+`_ConcRT_Trace` | 192 | Exported Function
+`_ReportUnobservedException` | 225 | Exported Function
+`ConcRT_EventType` | 247 | Exported Function
 `void __cdecl _inconsistency(void)` | 271 | Exported Function
 `void __cdecl _invalid_parameter(unsigned short const *,unsigned short const *,unsigned short const *,unsigned int,unsigned int)` | 272 | Exported Function
-`void __cdecl Concurrency::_Trace_agents(enum Concurrency::Agents_EventType,__int64,...)` | 246 | Exported Function
-`public: void __thiscall Concurrency::details::_ReentrantPPLLock::_Acquire(void *)` | 184 | Exported Function
-`public: __thiscall Concurrency::details::_StructuredTaskCollection::_StructuredTaskCollection(class Concurrency::details::_CancellationTokenState *)` | 21 | Exported Function
-`public: __thiscall Concurrency::details::_StructuredTaskCollection::~_StructuredTaskCollection(void)` | 98 | Exported Function
-`public: __thiscall Concurrency::details::_TaskCollection::_TaskCollection(class Concurrency::details::_CancellationTokenState *)` | 22 | Exported Function
-`public: __thiscall Concurrency::details::_SpinWait<1>::_SpinWait<1>(void (__cdecl*)(void))` | 1 | Exported Function
-`public: __thiscall Concurrency::details::_SpinLock::_SpinLock(long volatile &)` | 20 | Exported Function
-`public: __thiscall Concurrency::details::_SpinLock::~_SpinLock(void)` | 97 | Exported Function
-`public: __thiscall Concurrency::details::_SpinWait<0>::_SpinWait<0>(void (__cdecl*)(void))` | 2 | Exported Function
-`public: __thiscall Concurrency::details::_TaskCollection::_TaskCollection(void)` | 23 | Exported Function
-`public: __thiscall Concurrency::improper_lock::improper_lock(void)` | 47 | Exported Function
-`public: __thiscall Concurrency::improper_scheduler_attach::improper_scheduler_attach(char const *)` | 48 | Exported Function
-`public: __thiscall Concurrency::improper_scheduler_attach::improper_scheduler_attach(void)` | 49 | Exported Function
-`public: __thiscall Concurrency::improper_lock::improper_lock(char const *)` | 46 | Exported Function
-`public: __thiscall Concurrency::details::_TaskCollection::~_TaskCollection(void)` | 99 | Exported Function
-`public: __thiscall Concurrency::event::event(void)` | 41 | Exported Function
-`public: __thiscall Concurrency::event::~event(void)` | 105 | Exported Function
-`public: __thiscall Concurrency::details::_NonReentrantPPLLock::_NonReentrantPPLLock(void)` | 12 | Exported Function
-`public: __thiscall Concurrency::details::_NonReentrantPPLLock::_Scoped_lock::_Scoped_lock(class Concurrency::details::_NonReentrantPPLLock &)` | 18 | Exported Function
-`public: __thiscall Concurrency::details::_NonReentrantPPLLock::_Scoped_lock::~_Scoped_lock(void)` | 95 | Exported Function
-`public: __thiscall Concurrency::details::_NonReentrantBlockingLock::~_NonReentrantBlockingLock(void)` | 93 | Exported Function
-`public: __thiscall Concurrency::details::_Interruption_exception::_Interruption_exception(char const *)` | 9 | Exported Function
-`public: __thiscall Concurrency::details::_Interruption_exception::_Interruption_exception(void)` | 10 | Exported Function
-`public: __thiscall Concurrency::details::_NonReentrantBlockingLock::_NonReentrantBlockingLock(void)` | 11 | Exported Function
-`public: __thiscall Concurrency::details::_ReaderWriterLock::_ReaderWriterLock(void)` | 13 | Exported Function
-`public: __thiscall Concurrency::details::_ReentrantPPLLock::_Scoped_lock::_Scoped_lock(class Concurrency::details::_ReentrantPPLLock &)` | 19 | Exported Function
-`public: __thiscall Concurrency::details::_ReentrantPPLLock::_Scoped_lock::~_Scoped_lock(void)` | 96 | Exported Function
-`public: __thiscall Concurrency::details::_Scheduler::_Scheduler(class Concurrency::Scheduler *)` | 17 | Exported Function
-`public: __thiscall Concurrency::details::_ReentrantPPLLock::_ReentrantPPLLock(void)` | 16 | Exported Function
-`public: __thiscall Concurrency::details::_ReentrantBlockingLock::_ReentrantBlockingLock(void)` | 14 | Exported Function
-`public: __thiscall Concurrency::details::_ReentrantBlockingLock::~_ReentrantBlockingLock(void)` | 94 | Exported Function
-`public: __thiscall Concurrency::details::_ReentrantLock::_ReentrantLock(void)` | 15 | Exported Function
-`public: __thiscall Concurrency::improper_scheduler_detach::improper_scheduler_detach(char const *)` | 50 | Exported Function
-`public: __thiscall Concurrency::missing_wait::missing_wait(char const *)` | 70 | Exported Function
-`public: __thiscall Concurrency::missing_wait::missing_wait(void)` | 71 | Exported Function
-`public: __thiscall Concurrency::nested_scheduler_missing_detach::nested_scheduler_missing_detach(char const *)` | 72 | Exported Function
-`public: __thiscall Concurrency::message_not_found::message_not_found(void)` | 69 | Exported Function
-`public: __thiscall Concurrency::invalid_scheduler_policy_value::invalid_scheduler_policy_value(char const *)` | 66 | Exported Function
-`public: __thiscall Concurrency::invalid_scheduler_policy_value::invalid_scheduler_policy_value(void)` | 67 | Exported Function
-`public: __thiscall Concurrency::message_not_found::message_not_found(char const *)` | 68 | Exported Function
-`public: __thiscall Concurrency::nested_scheduler_missing_detach::nested_scheduler_missing_detach(void)` | 73 | Exported Function
-`public: __thiscall Concurrency::reader_writer_lock::scoped_lock::~scoped_lock(void)` | 109 | Exported Function
-`public: __thiscall Concurrency::reader_writer_lock::scoped_lock_read::scoped_lock_read(class Concurrency::reader_writer_lock &)` | 85 | Exported Function
-`public: __thiscall Concurrency::reader_writer_lock::scoped_lock_read::~scoped_lock_read(void)` | 110 | Exported Function
-`public: __thiscall Concurrency::reader_writer_lock::scoped_lock::scoped_lock(class Concurrency::reader_writer_lock &)` | 84 | Exported Function
-`public: __thiscall Concurrency::operation_timed_out::operation_timed_out(char const *)` | 74 | Exported Function
-`public: __thiscall Concurrency::operation_timed_out::operation_timed_out(void)` | 75 | Exported Function
-`public: __thiscall Concurrency::reader_writer_lock::reader_writer_lock(void)` | 76 | Exported Function
-`public: __thiscall Concurrency::invalid_link_target::invalid_link_target(void)` | 55 | Exported Function
-`public: __thiscall Concurrency::invalid_multiple_scheduling::invalid_multiple_scheduling(char const *)` | 56 | Exported Function
-`public: __thiscall Concurrency::invalid_multiple_scheduling::invalid_multiple_scheduling(void)` | 57 | Exported Function
-`public: __thiscall Concurrency::invalid_link_target::invalid_link_target(char const *)` | 54 | Exported Function
-`public: __thiscall Concurrency::improper_scheduler_detach::improper_scheduler_detach(void)` | 51 | Exported Function
-`public: __thiscall Concurrency::improper_scheduler_reference::improper_scheduler_reference(char const *)` | 52 | Exported Function
-`public: __thiscall Concurrency::improper_scheduler_reference::improper_scheduler_reference(void)` | 53 | Exported Function
-`public: __thiscall Concurrency::invalid_operation::invalid_operation(char const *)` | 58 | Exported Function
-`public: __thiscall Concurrency::invalid_scheduler_policy_key::invalid_scheduler_policy_key(void)` | 63 | Exported Function
-`public: __thiscall Concurrency::invalid_scheduler_policy_thread_specification::invalid_scheduler_policy_thread_specification(char const *)` | 64 | Exported Function
-`public: __thiscall Concurrency::invalid_scheduler_policy_thread_specification::invalid_scheduler_policy_thread_specification(void)` | 65 | Exported Function
-`public: __thiscall Concurrency::invalid_scheduler_policy_key::invalid_scheduler_policy_key(char const *)` | 62 | Exported Function
-`public: __thiscall Concurrency::invalid_operation::invalid_operation(void)` | 59 | Exported Function
-`public: __thiscall Concurrency::invalid_oversubscribe_operation::invalid_oversubscribe_operation(char const *)` | 60 | Exported Function
-`public: __thiscall Concurrency::invalid_oversubscribe_operation::invalid_oversubscribe_operation(void)` | 61 | Exported Function
-`private: __thiscall std::bad_cast::bad_cast(char const * const *)` | 27 | Exported Function
-`private: static char const * __cdecl type_info::_Name_base(class type_info const *,struct __type_info_node *)` | 210 | Exported Function
-`private: static char const * __cdecl type_info::_Name_base_internal(class type_info const *,struct __type_info_node *)` | 211 | Exported Function
+`Agents_EventType` | 246 | Exported Function
+`_Acquire` | 184 | Exported Function
+`_CancellationTokenState` | 21 | Exported Function
+`_StructuredTaskCollection` | 98 | Exported Function
+`_CancellationTokenState` | 22 | Exported Function
+`_SpinWait` | 1 | Exported Function
+`_SpinLock` | 20 | Exported Function
+`_SpinLock` | 97 | Exported Function
+`_SpinWait` | 2 | Exported Function
+`_TaskCollection` | 23 | Exported Function
+`improper_lock` | 47 | Exported Function
+`improper_scheduler_attach` | 48 | Exported Function
+`improper_scheduler_attach` | 49 | Exported Function
+`improper_lock` | 46 | Exported Function
+`_TaskCollection` | 99 | Exported Function
+`event` | 41 | Exported Function
+`event` | 105 | Exported Function
+`_NonReentrantPPLLock` | 12 | Exported Function
+`_NonReentrantPPLLock` | 18 | Exported Function
+`_Scoped_lock` | 95 | Exported Function
+`_NonReentrantBlockingLock` | 93 | Exported Function
+`_Interruption_exception` | 9 | Exported Function
+`_Interruption_exception` | 10 | Exported Function
+`_NonReentrantBlockingLock` | 11 | Exported Function
+`_ReaderWriterLock` | 13 | Exported Function
+`_ReentrantPPLLock` | 19 | Exported Function
+`_Scoped_lock` | 96 | Exported Function
+`Scheduler` | 17 | Exported Function
+`_ReentrantPPLLock` | 16 | Exported Function
+`_ReentrantBlockingLock` | 14 | Exported Function
+`_ReentrantBlockingLock` | 94 | Exported Function
+`_ReentrantLock` | 15 | Exported Function
+`improper_scheduler_detach` | 50 | Exported Function
+`missing_wait` | 70 | Exported Function
+`missing_wait` | 71 | Exported Function
+`nested_scheduler_missing_detach` | 72 | Exported Function
+`message_not_found` | 69 | Exported Function
+`invalid_scheduler_policy_value` | 66 | Exported Function
+`invalid_scheduler_policy_value` | 67 | Exported Function
+`message_not_found` | 68 | Exported Function
+`nested_scheduler_missing_detach` | 73 | Exported Function
+`scoped_lock` | 109 | Exported Function
+`reader_writer_lock` | 85 | Exported Function
+`scoped_lock_read` | 110 | Exported Function
+`reader_writer_lock` | 84 | Exported Function
+`operation_timed_out` | 74 | Exported Function
+`operation_timed_out` | 75 | Exported Function
+`reader_writer_lock` | 76 | Exported Function
+`invalid_link_target` | 55 | Exported Function
+`invalid_multiple_scheduling` | 56 | Exported Function
+`invalid_multiple_scheduling` | 57 | Exported Function
+`invalid_link_target` | 54 | Exported Function
+`improper_scheduler_detach` | 51 | Exported Function
+`improper_scheduler_reference` | 52 | Exported Function
+`improper_scheduler_reference` | 53 | Exported Function
+`invalid_operation` | 58 | Exported Function
+`invalid_scheduler_policy_key` | 63 | Exported Function
+`invalid_scheduler_policy_thread_specification` | 64 | Exported Function
+`invalid_scheduler_policy_thread_specification` | 65 | Exported Function
+`invalid_scheduler_policy_key` | 62 | Exported Function
+`invalid_operation` | 59 | Exported Function
+`invalid_oversubscribe_operation` | 60 | Exported Function
+`invalid_oversubscribe_operation` | 61 | Exported Function
+`bad_cast` | 27 | Exported Function
+`_Name_base` | 210 | Exported Function
+`_Name_base_internal` | 211 | Exported Function
 `printf_s` | 1791 | Exported Function
 `perror` | 1788 | Exported Function
 `pow` | 1789 | Exported Function
 `printf` | 1790 | Exported Function
-`private: static unsigned int & __cdecl Concurrency::details::_StackGuard::_GetCurrentInlineDepth(void)` | 203 | Exported Function
-`private: void __thiscall Concurrency::details::_StructuredTaskCollection::_CleanupToken(void)` | 190 | Exported Function
-`private: void __thiscall std::exception::_Copy_str(char const *)` | 194 | Exported Function
-`private: void __thiscall std::exception::_Tidy(void)` | 245 | Exported Function
-`private: void __thiscall Concurrency::details::_StructuredTaskCollection::_Abort(void)` | 179 | Exported Function
-`private: static void __cdecl type_info::_Type_info_dtor(class type_info *)` | 252 | Exported Function
-`private: static void __cdecl type_info::_Type_info_dtor_internal(class type_info *)` | 253 | Exported Function
-`private: virtual void __thiscall Concurrency::details::_AsyncTaskCollection::_Destroy(void)` | 197 | Exported Function
+`_GetCurrentInlineDepth` | 203 | Exported Function
+`_CleanupToken` | 190 | Exported Function
+`_Copy_str` | 194 | Exported Function
+`_Tidy` | 245 | Exported Function
+`_Abort` | 179 | Exported Function
+`_Type_info_dtor` | 252 | Exported Function
+`_Type_info_dtor_internal` | 253 | Exported Function
+`_Destroy` | 197 | Exported Function
 `nearbyintf` | 1777 | Exported Function
 `nearbyintl` | 1778 | Exported Function
 `nextafter` | 1779 | Exported Function
@@ -855,160 +855,160 @@ Function Name | Ordinal | Type
 `nextafterl` | 1781 | Exported Function
 `nexttoward` | 1782 | Exported Function
 `nexttowardf` | 1783 | Exported Function
-`protected: __thiscall Concurrency::details::_Timer::_Timer(unsigned int,bool)` | 24 | Exported Function
-`public: __thiscall Concurrency::critical_section::critical_section(void)` | 38 | Exported Function
-`public: __thiscall Concurrency::critical_section::scoped_lock::scoped_lock(class Concurrency::critical_section &)` | 83 | Exported Function
-`public: __thiscall Concurrency::critical_section::scoped_lock::~scoped_lock(void)` | 108 | Exported Function
-`public: __thiscall Concurrency::context_unblock_unbalanced::context_unblock_unbalanced(void)` | 37 | Exported Function
-`public: __thiscall Concurrency::context_self_unblock::context_self_unblock(char const *)` | 34 | Exported Function
-`public: __thiscall Concurrency::context_self_unblock::context_self_unblock(void)` | 35 | Exported Function
-`public: __thiscall Concurrency::context_unblock_unbalanced::context_unblock_unbalanced(char const *)` | 36 | Exported Function
-`public: __thiscall Concurrency::critical_section::~critical_section(void)` | 104 | Exported Function
-`public: __thiscall Concurrency::details::_Condition_variable::_Condition_variable(void)` | 7 | Exported Function
-`public: __thiscall Concurrency::details::_Condition_variable::~_Condition_variable(void)` | 92 | Exported Function
-`public: __thiscall Concurrency::details::_Context::_Context(class Concurrency::Context *)` | 8 | Exported Function
-`public: __thiscall Concurrency::details::_Cancellation_beacon::~_Cancellation_beacon(void)` | 91 | Exported Function
-`public: __thiscall Concurrency::default_scheduler_exists::default_scheduler_exists(char const *)` | 39 | Exported Function
-`public: __thiscall Concurrency::default_scheduler_exists::default_scheduler_exists(void)` | 40 | Exported Function
-`public: __thiscall Concurrency::details::_Cancellation_beacon::_Cancellation_beacon(void)` | 6 | Exported Function
-`protected: virtual __thiscall Concurrency::details::_Timer::~_Timer(void)` | 100 | Exported Function
-`protected: void __thiscall Concurrency::details::_SpinWait<0>::_DoYield(void)` | 199 | Exported Function
-`protected: void __thiscall Concurrency::details::_SpinWait<0>::_Reset(void)` | 227 | Exported Function
-`protected: unsigned long __thiscall Concurrency::details::_SpinWait<1>::_NumberOfSpins(void)` | 213 | Exported Function
-`protected: bool __thiscall Concurrency::details::_SpinWait<0>::_ShouldSpinAgain(void)` | 239 | Exported Function
-`protected: bool __thiscall Concurrency::details::_SpinWait<1>::_ShouldSpinAgain(void)` | 238 | Exported Function
-`protected: unsigned long __thiscall Concurrency::details::_SpinWait<0>::_NumberOfSpins(void)` | 214 | Exported Function
-`protected: void __thiscall Concurrency::details::_SpinWait<1>::_DoYield(void)` | 198 | Exported Function
-`public: __cdecl Concurrency::SchedulerPolicy::SchedulerPolicy(unsigned int,...)` | 3 | Exported Function
-`public: __thiscall Concurrency::bad_target::bad_target(char const *)` | 30 | Exported Function
-`public: __thiscall Concurrency::bad_target::bad_target(void)` | 31 | Exported Function
-`protected: void __thiscall Concurrency::details::_UnrealizedChore::_CheckTaskCollection(void)` | 189 | Exported Function
-`protected: void __thiscall Concurrency::details::_SpinWait<1>::_Reset(void)` | 226 | Exported Function
-`protected: void __thiscall Concurrency::details::_Timer::_Start(void)` | 243 | Exported Function
-`protected: void __thiscall Concurrency::details::_Timer::_Stop(void)` | 244 | Exported Function
-`public: __thiscall Concurrency::reader_writer_lock::~reader_writer_lock(void)` | 107 | Exported Function
-`public: static void __cdecl Concurrency::Context::Block(void)` | 140 | Exported Function
-`public: static void __cdecl Concurrency::Context::Oversubscribe(bool)` | 168 | Exported Function
-`public: static void __cdecl Concurrency::Context::Yield(void)` | 178 | Exported Function
-`public: static void __cdecl Concurrency::Context::_SpinYield(void)` | 242 | Exported Function
-`public: static unsigned int __cdecl Concurrency::details::_CurrentScheduler::_Id(void)` | 206 | Exported Function
-`public: static unsigned int __cdecl Concurrency::details::_SpinCount::_Value(void)` | 258 | Exported Function
-`public: static unsigned int __cdecl Concurrency::event::wait_for_multiple(class Concurrency::event * *,unsigned int,bool,unsigned int)` | 323 | Exported Function
-`public: static void __cdecl Concurrency::CurrentScheduler::Create(class Concurrency::SchedulerPolicy const &)` | 142 | Exported Function
-`public: static void __cdecl Concurrency::details::_Context::_Oversubscribe(bool)` | 215 | Exported Function
-`public: static void __cdecl Concurrency::details::_Context::_Yield(void)` | 259 | Exported Function
-`public: static void __cdecl Concurrency::details::_CurrentScheduler::_ScheduleTask(void (__cdecl*)(void *),void *)` | 234 | Exported Function
-`public: static void __cdecl Concurrency::CurrentScheduler::ScheduleTask(void (__cdecl*)(void *),void *,class Concurrency::location &)` | 173 | Exported Function
-`public: static void __cdecl Concurrency::CurrentScheduler::Detach(void)` | 148 | Exported Function
-`public: static void __cdecl Concurrency::CurrentScheduler::RegisterShutdownEvent(void *)` | 169 | Exported Function
-`public: static void __cdecl Concurrency::CurrentScheduler::ScheduleTask(void (__cdecl*)(void *),void *)` | 172 | Exported Function
-`public: static class Concurrency::ScheduleGroup * __cdecl Concurrency::CurrentScheduler::CreateScheduleGroup(class Concurrency::location &)` | 145 | Exported Function
-`public: static class Concurrency::ScheduleGroup * __cdecl Concurrency::CurrentScheduler::CreateScheduleGroup(void)` | 146 | Exported Function
-`public: static class Concurrency::Scheduler * __cdecl Concurrency::CurrentScheduler::Get(void)` | 152 | Exported Function
-`public: static class Concurrency::location __cdecl Concurrency::location::from_numa_node(unsigned short)` | 289 | Exported Function
-`public: static class Concurrency::details::_Scheduler __cdecl Concurrency::details::_CurrentScheduler::_Get(void)` | 200 | Exported Function
-`public: static class Concurrency::location __cdecl Concurrency::location::_Current_node(void)` | 196 | Exported Function
-`public: static class Concurrency::location __cdecl Concurrency::location::current(void)` | 288 | Exported Function
-`public: static class Concurrency::Scheduler * __cdecl Concurrency::Scheduler::Create(class Concurrency::SchedulerPolicy const &)` | 143 | Exported Function
-`public: static unsigned int __cdecl Concurrency::CurrentScheduler::GetNumberOfVirtualProcessors(void)` | 155 | Exported Function
-`public: static unsigned int __cdecl Concurrency::CurrentScheduler::Id(void)` | 164 | Exported Function
-`public: static unsigned int __cdecl Concurrency::details::_CurrentScheduler::_GetNumberOfVirtualProcessors(void)` | 204 | Exported Function
-`public: static unsigned int __cdecl Concurrency::Context::VirtualProcessorId(void)` | 177 | Exported Function
-`public: static class Concurrency::SchedulerPolicy __cdecl Concurrency::CurrentScheduler::GetPolicy(void)` | 157 | Exported Function
-`public: static unsigned int __cdecl Concurrency::Context::Id(void)` | 163 | Exported Function
-`public: static unsigned int __cdecl Concurrency::Context::ScheduleGroupId(void)` | 171 | Exported Function
-`public: static void __cdecl Concurrency::Scheduler::ResetDefaultSchedulerPolicy(void)` | 170 | Exported Function
-`public: void __thiscall Concurrency::details::_NonReentrantBlockingLock::_Release(void)` | 217 | Exported Function
-`public: void __thiscall Concurrency::details::_NonReentrantPPLLock::_Acquire(void *)` | 181 | Exported Function
-`public: void __thiscall Concurrency::details::_NonReentrantPPLLock::_Release(void)` | 218 | Exported Function
-`public: void __thiscall Concurrency::details::_NonReentrantBlockingLock::_Acquire(void)` | 180 | Exported Function
-`public: void __thiscall Concurrency::details::_Condition_variable::notify_one(void)` | 297 | Exported Function
-`public: void __thiscall Concurrency::details::_Condition_variable::wait(class Concurrency::critical_section &)` | 320 | Exported Function
-`public: void __thiscall Concurrency::details::_Context::``default constructor closure'(void)` | 131 | Exported Function
-`public: void __thiscall Concurrency::details::_ReaderWriterLock::_AcquireRead(void)` | 185 | Exported Function
-`public: void __thiscall Concurrency::details::_ReentrantBlockingLock::_Release(void)` | 219 | Exported Function
-`public: void __thiscall Concurrency::details::_ReentrantLock::_Acquire(void)` | 183 | Exported Function
-`public: void __thiscall Concurrency::details::_ReentrantLock::_Release(void)` | 220 | Exported Function
-`public: void __thiscall Concurrency::details::_ReentrantBlockingLock::_Acquire(void)` | 182 | Exported Function
-`public: void __thiscall Concurrency::details::_ReaderWriterLock::_AcquireWrite(void)` | 186 | Exported Function
-`public: void __thiscall Concurrency::details::_ReaderWriterLock::_ReleaseRead(void)` | 223 | Exported Function
-`public: void __thiscall Concurrency::details::_ReaderWriterLock::_ReleaseWrite(void)` | 224 | Exported Function
-`public: unsigned int __thiscall Concurrency::SchedulerPolicy::GetPolicyValue(enum Concurrency::PolicyElementKey)const ` | 158 | Exported Function
-`public: unsigned int __thiscall Concurrency::SchedulerPolicy::SetPolicyValue(enum Concurrency::PolicyElementKey,unsigned int)` | 176 | Exported Function
-`public: virtual __thiscall std::__non_rtti_object::~__non_rtti_object(void)` | 101 | Exported Function
-`public: unsigned int __thiscall Concurrency::event::wait(unsigned int)` | 321 | Exported Function
-`public: static void __cdecl Concurrency::Scheduler::SetDefaultSchedulerPolicy(class Concurrency::SchedulerPolicy const &)` | 175 | Exported Function
-`public: unsigned int __thiscall Concurrency::details::_Scheduler::_Reference(void)` | 216 | Exported Function
-`public: unsigned int __thiscall Concurrency::details::_Scheduler::_Release(void)` | 222 | Exported Function
-`public: virtual __thiscall std::bad_cast::~bad_cast(void)` | 102 | Exported Function
-`public: void __thiscall Concurrency::critical_section::lock(void)` | 291 | Exported Function
-`public: void __thiscall Concurrency::critical_section::unlock(void)` | 316 | Exported Function
-`public: void __thiscall Concurrency::details::_Condition_variable::notify_all(void)` | 296 | Exported Function
-`public: virtual char const * __thiscall std::exception::what(void)const ` | 324 | Exported Function
-`public: virtual __thiscall std::bad_typeid::~bad_typeid(void)` | 103 | Exported Function
-`public: virtual __thiscall std::exception::~exception(void)` | 106 | Exported Function
+`_Timer` | 24 | Exported Function
+`critical_section` | 38 | Exported Function
+`critical_section` | 83 | Exported Function
+`scoped_lock` | 108 | Exported Function
+`context_unblock_unbalanced` | 37 | Exported Function
+`context_self_unblock` | 34 | Exported Function
+`context_self_unblock` | 35 | Exported Function
+`context_unblock_unbalanced` | 36 | Exported Function
+`critical_section` | 104 | Exported Function
+`_Condition_variable` | 7 | Exported Function
+`_Condition_variable` | 92 | Exported Function
+`Context` | 8 | Exported Function
+`_Cancellation_beacon` | 91 | Exported Function
+`default_scheduler_exists` | 39 | Exported Function
+`default_scheduler_exists` | 40 | Exported Function
+`_Cancellation_beacon` | 6 | Exported Function
+`_Timer` | 100 | Exported Function
+`_DoYield` | 199 | Exported Function
+`_Reset` | 227 | Exported Function
+`_NumberOfSpins` | 213 | Exported Function
+`_ShouldSpinAgain` | 239 | Exported Function
+`_ShouldSpinAgain` | 238 | Exported Function
+`_NumberOfSpins` | 214 | Exported Function
+`_DoYield` | 198 | Exported Function
+`SchedulerPolicy` | 3 | Exported Function
+`bad_target` | 30 | Exported Function
+`bad_target` | 31 | Exported Function
+`_CheckTaskCollection` | 189 | Exported Function
+`_Reset` | 226 | Exported Function
+`_Start` | 243 | Exported Function
+`_Stop` | 244 | Exported Function
+`reader_writer_lock` | 107 | Exported Function
+`Block` | 140 | Exported Function
+`Oversubscribe` | 168 | Exported Function
+`Yield` | 178 | Exported Function
+`_SpinYield` | 242 | Exported Function
+`_Id` | 206 | Exported Function
+`_Value` | 258 | Exported Function
+`event` | 323 | Exported Function
+`SchedulerPolicy` | 142 | Exported Function
+`_Oversubscribe` | 215 | Exported Function
+`_Yield` | 259 | Exported Function
+`_ScheduleTask` | 234 | Exported Function
+`location` | 173 | Exported Function
+`Detach` | 148 | Exported Function
+`RegisterShutdownEvent` | 169 | Exported Function
+`ScheduleTask` | 172 | Exported Function
+`location` | 145 | Exported Function
+`CreateScheduleGroup` | 146 | Exported Function
+`Get` | 152 | Exported Function
+`from_numa_node` | 289 | Exported Function
+`_Get` | 200 | Exported Function
+`_Current_node` | 196 | Exported Function
+`current` | 288 | Exported Function
+`SchedulerPolicy` | 143 | Exported Function
+`GetNumberOfVirtualProcessors` | 155 | Exported Function
+`Id` | 164 | Exported Function
+`_GetNumberOfVirtualProcessors` | 204 | Exported Function
+`VirtualProcessorId` | 177 | Exported Function
+`GetPolicy` | 157 | Exported Function
+`Id` | 163 | Exported Function
+`ScheduleGroupId` | 171 | Exported Function
+`ResetDefaultSchedulerPolicy` | 170 | Exported Function
+`_Release` | 217 | Exported Function
+`_Acquire` | 181 | Exported Function
+`_Release` | 218 | Exported Function
+`_Acquire` | 180 | Exported Function
+`notify_one` | 297 | Exported Function
+`critical_section` | 320 | Exported Function
+`_Context` | 131 | Exported Function
+`_AcquireRead` | 185 | Exported Function
+`_Release` | 219 | Exported Function
+`_Acquire` | 183 | Exported Function
+`_Release` | 220 | Exported Function
+`_Acquire` | 182 | Exported Function
+`_AcquireWrite` | 186 | Exported Function
+`_ReleaseRead` | 223 | Exported Function
+`_ReleaseWrite` | 224 | Exported Function
+`PolicyElementKey` | 158 | Exported Function
+`PolicyElementKey` | 176 | Exported Function
+`__non_rtti_object` | 101 | Exported Function
+`wait` | 321 | Exported Function
+`SchedulerPolicy` | 175 | Exported Function
+`_Reference` | 216 | Exported Function
+`_Release` | 222 | Exported Function
+`bad_cast` | 102 | Exported Function
+`lock` | 291 | Exported Function
+`unlock` | 316 | Exported Function
+`notify_all` | 296 | Exported Function
+`what` | 324 | Exported Function
+`bad_typeid` | 103 | Exported Function
+`exception` | 106 | Exported Function
 `public: virtual __thiscall type_info::~type_info(void)` | 111 | Exported Function
-`public: __thiscall std::exception::exception(char const * const &)` | 42 | Exported Function
-`public: __thiscall std::exception::exception(char const * const &,int)` | 43 | Exported Function
-`public: __thiscall std::exception::exception(class std::exception const &)` | 44 | Exported Function
-`public: __thiscall std::bad_typeid::bad_typeid(class std::bad_typeid const &)` | 32 | Exported Function
-`public: __thiscall std::bad_cast::bad_cast(char const *)` | 29 | Exported Function
-`public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)` | 28 | Exported Function
-`public: __thiscall std::bad_typeid::bad_typeid(char const *)` | 33 | Exported Function
-`public: __thiscall std::exception::exception(void)` | 45 | Exported Function
-`public: bool __thiscall Concurrency::details::_Context::_IsSynchronouslyBlocked(void)const ` | 209 | Exported Function
-`public: bool __thiscall Concurrency::details::_NonReentrantBlockingLock::_TryAcquire(void)` | 248 | Exported Function
-`public: bool __thiscall Concurrency::details::_ReaderWriterLock::_TryAcquireWrite(void)` | 251 | Exported Function
-`public: bool __thiscall Concurrency::details::_Condition_variable::wait_for(class Concurrency::critical_section &,unsigned int)` | 322 | Exported Function
-`public: bool __thiscall Concurrency::critical_section::try_lock(void)` | 311 | Exported Function
-`public: bool __thiscall Concurrency::critical_section::try_lock_for(unsigned int)` | 313 | Exported Function
-`public: bool __thiscall Concurrency::details::_Cancellation_beacon::_Confirm_cancel(void)` | 193 | Exported Function
-`public: __thiscall Concurrency::scheduler_worker_creation_error::scheduler_worker_creation_error(char const *,long)` | 82 | Exported Function
-`public: __thiscall Concurrency::scheduler_worker_creation_error::scheduler_worker_creation_error(long)` | 81 | Exported Function
-`public: __thiscall Concurrency::SchedulerPolicy::SchedulerPolicy(class Concurrency::SchedulerPolicy const &)` | 4 | Exported Function
-`public: __thiscall Concurrency::scheduler_resource_allocation_error::scheduler_resource_allocation_error(long)` | 79 | Exported Function
-`public: __thiscall Concurrency::scheduler_not_attached::scheduler_not_attached(char const *)` | 77 | Exported Function
-`public: __thiscall Concurrency::scheduler_not_attached::scheduler_not_attached(void)` | 78 | Exported Function
-`public: __thiscall Concurrency::scheduler_resource_allocation_error::scheduler_resource_allocation_error(char const *,long)` | 80 | Exported Function
-`public: __thiscall Concurrency::SchedulerPolicy::SchedulerPolicy(void)` | 5 | Exported Function
-`public: __thiscall Concurrency::unsupported_os::unsupported_os(void)` | 89 | Exported Function
-`public: __thiscall std::__non_rtti_object::__non_rtti_object(char const *)` | 26 | Exported Function
-`public: __thiscall std::__non_rtti_object::__non_rtti_object(class std::__non_rtti_object const &)` | 25 | Exported Function
-`public: __thiscall Concurrency::unsupported_os::unsupported_os(char const *)` | 88 | Exported Function
-`public: __thiscall Concurrency::SchedulerPolicy::~SchedulerPolicy(void)` | 90 | Exported Function
-`public: __thiscall Concurrency::task_canceled::task_canceled(char const *)` | 86 | Exported Function
-`public: __thiscall Concurrency::task_canceled::task_canceled(void)` | 87 | Exported Function
-`public: bool __thiscall Concurrency::details::_ReentrantBlockingLock::_TryAcquire(void)` | 249 | Exported Function
-`public: class std::bad_cast & __thiscall std::bad_cast::operator=(class std::bad_cast const &)` | 120 | Exported Function
-`public: class std::bad_typeid & __thiscall std::bad_typeid::operator=(class std::bad_typeid const &)` | 121 | Exported Function
-`public: class std::exception & __thiscall std::exception::operator=(class std::exception const &)` | 122 | Exported Function
-`public: class std::__non_rtti_object & __thiscall std::__non_rtti_object::operator=(class std::__non_rtti_object const &)` | 119 | Exported Function
-`public: class Concurrency::details::_SpinWait<1> & __thiscall Concurrency::details::_SpinWait<1>::operator=(class Concurrency::details::_SpinWait<1> const &)` | 116 | Exported Function
-`public: class Concurrency::Scheduler * __thiscall Concurrency::details::_Scheduler::_GetScheduler(void)` | 205 | Exported Function
-`public: class Concurrency::SchedulerPolicy & __thiscall Concurrency::SchedulerPolicy::operator=(class Concurrency::SchedulerPolicy const &)` | 118 | Exported Function
-`public: enum Concurrency::details::_TaskCollectionStatus __stdcall Concurrency::details::_StructuredTaskCollection::_RunAndWait(class Concurrency::details::_UnrealizedChore *)` | 228 | Exported Function
-`public: static class Concurrency::Context * __cdecl Concurrency::Context::CurrentContext(void)` | 147 | Exported Function
-`public: static class Concurrency::details::_AsyncTaskCollection * __cdecl Concurrency::details::_AsyncTaskCollection::_NewCollection(class Concurrency::details::_CancellationTokenState *)` | 212 | Exported Function
-`public: static class Concurrency::details::_Context __cdecl Concurrency::details::_Context::_CurrentContext(void)` | 195 | Exported Function
-`public: static bool __cdecl Concurrency::CurrentScheduler::IsAvailableLocation(class Concurrency::location const &)` | 165 | Exported Function
-`public: enum Concurrency::details::_TaskCollectionStatus __stdcall Concurrency::details::_TaskCollection::_RunAndWait(class Concurrency::details::_UnrealizedChore *)` | 229 | Exported Function
-`public: long __thiscall Concurrency::scheduler_resource_allocation_error::get_error_code(void)const ` | 290 | Exported Function
-`public: static bool __cdecl Concurrency::Context::IsCurrentTaskCollectionCanceling(void)` | 166 | Exported Function
-`public: bool __thiscall Concurrency::details::_TaskCollection::_IsCanceling(void)` | 208 | Exported Function
-`public: bool __thiscall Concurrency::reader_writer_lock::try_lock(void)` | 312 | Exported Function
-`public: bool __thiscall Concurrency::reader_writer_lock::try_lock_read(void)` | 314 | Exported Function
-`public: bool __thiscall Concurrency::details::_StructuredTaskCollection::_IsCanceling(void)` | 207 | Exported Function
-`public: bool __thiscall Concurrency::details::_ReentrantLock::_TryAcquire(void)` | 250 | Exported Function
-`public: bool __thiscall Concurrency::details::_SpinWait<0>::_SpinOnce(void)` | 241 | Exported Function
-`public: bool __thiscall Concurrency::details::_SpinWait<1>::_SpinOnce(void)` | 240 | Exported Function
-`public: bool __thiscall type_info::before(class type_info const &)const ` | 287 | Exported Function
-`public: char const * __thiscall type_info::raw_name(void)const ` | 298 | Exported Function
-`public: class Concurrency::critical_section & __thiscall Concurrency::critical_section::native_handle(void)` | 295 | Exported Function
-`public: class Concurrency::details::_SpinWait<0> & __thiscall Concurrency::details::_SpinWait<0>::operator=(class Concurrency::details::_SpinWait<0> const &)` | 117 | Exported Function
-`public: char const * __thiscall type_info::name(struct __type_info_node *)const ` | 294 | Exported Function
-`public: bool __thiscall type_info::operator!=(class type_info const &)const ` | 124 | Exported Function
-`public: bool __thiscall type_info::operator==(class type_info const &)const ` | 123 | Exported Function
-`public: char const * __thiscall type_info::_name_internal_method(struct __type_info_node *)const ` | 274 | Exported Function
+`exception` | 42 | Exported Function
+`exception` | 43 | Exported Function
+`exception` | 44 | Exported Function
+`bad_typeid` | 32 | Exported Function
+`bad_cast` | 29 | Exported Function
+`bad_cast` | 28 | Exported Function
+`bad_typeid` | 33 | Exported Function
+`exception` | 45 | Exported Function
+`_IsSynchronouslyBlocked` | 209 | Exported Function
+`_TryAcquire` | 248 | Exported Function
+`_TryAcquireWrite` | 251 | Exported Function
+`critical_section` | 322 | Exported Function
+`try_lock` | 311 | Exported Function
+`try_lock_for` | 313 | Exported Function
+`_Confirm_cancel` | 193 | Exported Function
+`scheduler_worker_creation_error` | 82 | Exported Function
+`scheduler_worker_creation_error` | 81 | Exported Function
+`SchedulerPolicy` | 4 | Exported Function
+`scheduler_resource_allocation_error` | 79 | Exported Function
+`scheduler_not_attached` | 77 | Exported Function
+`scheduler_not_attached` | 78 | Exported Function
+`scheduler_resource_allocation_error` | 80 | Exported Function
+`SchedulerPolicy` | 5 | Exported Function
+`unsupported_os` | 89 | Exported Function
+`__non_rtti_object` | 26 | Exported Function
+`__non_rtti_object` | 25 | Exported Function
+`unsupported_os` | 88 | Exported Function
+`SchedulerPolicy` | 90 | Exported Function
+`task_canceled` | 86 | Exported Function
+`task_canceled` | 87 | Exported Function
+`_TryAcquire` | 249 | Exported Function
+`bad_cast` | 120 | Exported Function
+`bad_typeid` | 121 | Exported Function
+`exception` | 122 | Exported Function
+`__non_rtti_object` | 119 | Exported Function
+`_SpinWait` | 116 | Exported Function
+`_GetScheduler` | 205 | Exported Function
+`SchedulerPolicy` | 118 | Exported Function
+`_UnrealizedChore` | 228 | Exported Function
+`CurrentContext` | 147 | Exported Function
+`_CancellationTokenState` | 212 | Exported Function
+`_CurrentContext` | 195 | Exported Function
+`location` | 165 | Exported Function
+`_UnrealizedChore` | 229 | Exported Function
+`get_error_code` | 290 | Exported Function
+`IsCurrentTaskCollectionCanceling` | 166 | Exported Function
+`_IsCanceling` | 208 | Exported Function
+`try_lock` | 312 | Exported Function
+`try_lock_read` | 314 | Exported Function
+`_IsCanceling` | 207 | Exported Function
+`_TryAcquire` | 250 | Exported Function
+`_SpinOnce` | 241 | Exported Function
+`_SpinOnce` | 240 | Exported Function
+`before` | 287 | Exported Function
+`raw_name` | 298 | Exported Function
+`native_handle` | 295 | Exported Function
+`_SpinWait` | 117 | Exported Function
+`name` | 294 | Exported Function
+`operator` | 124 | Exported Function
+`operator` | 123 | Exported Function
+`_name_internal_method` | 274 | Exported Function
 `_findfirst64` | 666 | Exported Function
 `_findfirst64i32` | 667 | Exported Function
 `_findnext32` | 668 | Exported Function

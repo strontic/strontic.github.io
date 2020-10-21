@@ -18,6 +18,9 @@ SHA256 | `7E6E3F5EC8BF74886709652DEA921BFDBAEB243074715691D890B738A03784C6`
 SHA384 | `A232B7958BA3E1FD5EDC8FE6F17ED43ED62CF2F1DE683AFA348B3D8173FD3BF6813F5028AA6AFD89881ED22F0387F8B6`
 SHA512 | `F3FACAF5A034D0F4F6D7FDEDBA365F9FBD262023BEBDD3B7DC0449195861946C91BAA4B39D600FA051D022C1286068F40DC0B99659D6822DD9D8B89413704814`
 SSDEEP | `1536:y+PMPEytWYnCl2CM0EjOE11wJrePojhSWicQfcg99iNtP/kBPd:y+UP7WYnCzJEjO+1pfpkg998FsBF`
+IMP | `70F69413452F347EA29B67A603D9BC75`
+PESHA1 | `D813BB14B68B1B2CD68EC58469775D82BA5EABC4`
+PE256 | `935FEC0A04D76629FF706A6945B5DD2CA6B0C34D18CF5B08C8A7DBD97ACEE5B0`
 
 ## Runtime Data
 
@@ -25,12 +28,15 @@ SSDEEP | `1536:y+PMPEytWYnCl2CM0EjOE11wJrePojhSWicQfcg99iNtP/kBPd:y+UP7WYnCzJEjO
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1100 | Section
+\RPC Control\DSEC750 | Section
 
 
 ### Loaded Modules:
@@ -38,6 +44,9 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\PickerHost.exe |
 
 
@@ -58,7 +67,12 @@ C:\Windows\SysWOW64\PickerHost.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/7e6e3f5ec8bf74886709652dea921bfdbaeb243074715691d890b738a03784c6/detection/
 
 ## File Similarity (ssdeep match)
 

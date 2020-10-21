@@ -18,6 +18,9 @@ SHA256 | `DD8A449737CA241BF34BE50DF7ACF09BB62AF97CC6AE8E6E5B4CCCB6DA7F4DEC`
 SHA384 | `5D2D71C802D29E84310AB9FDAC5512FEF2D39F4AF09F582CF0CE660C360228DA0B199FDAB9E8079A9B96EABDDF44CCDF`
 SHA512 | `49F90D7AF756F168E0453788BE26674879ACDABD774B90104A75ECD70C5343E317DB1416BF3C1DB05AFE845E688E13523C27B4564B546BC5B11A89AE85435164`
 SSDEEP | `3072:xO+RuXFRkFpIkGFc6aB3TnrdsAw1ihk6kvtfGq0ev3U5WNlEeXR:k5gxn68DnrdswrkR10efUKlr`
+IMP | `5CA6A4101092874D62A3DDE80F619F69`
+PESHA1 | `A608ACAF74869EA3B9CE09DEFD3B9417C2DD4DCC`
+PE256 | `7147AB22E00B8790987EAB1D80BC28E5C51535E91662C0F670FBF4A28D01FD88`
 
 ## Runtime Data
 
@@ -49,7 +52,12 @@ C:\Windows\SysWOW64\SearchFilterHost.exe |
 * Product Version: 7.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/dd8a449737ca241bf34be50df7acf09bb62af97cc6ae8e6e5b4cccb6da7f4dec/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -60,7 +68,9 @@ File | Score
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-334E8E996B23216667D9538CE40D68B5.md) | 35
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-673511D54A34319446EAD0B820D083A6.md) | 40
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-79242AB9AABF63BB91672F67ECE93C31.md) | 43
+[C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-BB3FEB38673DB103CAB1634AECE1DC21.md) | 43
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-DCE97A7B66E0D4A2BA9B52E7D05B334C.md) | 43
+[C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-003B2FB715F4459920E5C0B9F8F7CF7A.md) | 33
 [C:\WINDOWS\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-2EF0A0531B2566153D9A3DF4160F650B.md) | 33
 [C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-67E648DEC1B91543B04463249B7C0E1D.md) | 35
 [C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-9350D231BEDC8A957F8CAA50E83BC446.md) | 36
@@ -77,6 +87,7 @@ File | Score
 [C:\WINDOWS\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E318AF6C41ABF3FB889EC89164A36A37.md) | 33
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E503AEEC8FA45CF5A5B530E41B7E1156.md) | 35
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-EDDF12939FEF7AE88C2C2DA5B12E90B2.md) | 33
+[C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-F71E4867152289828CA8063BA1732507.md) | 32
 
 ## Possible Misuse
 

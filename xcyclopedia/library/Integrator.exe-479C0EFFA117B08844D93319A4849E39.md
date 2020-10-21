@@ -8,6 +8,10 @@ excerpt: What is Integrator.exe?
 * File Path: `C:\Program Files (x86)\Glary Utilities 5\Integrator.exe`
 * Description: Glary Utilities 5
 
+## Screenshot
+
+![Integrator.exe](screenshots/Integrator.exe-479C0EFFA117B08844D93319A4849E39-1.png)
+
 ## Hashes
 
 Type | Hash

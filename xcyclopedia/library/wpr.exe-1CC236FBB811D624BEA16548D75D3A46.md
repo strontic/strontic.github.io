@@ -18,6 +18,9 @@ SHA256 | `37869599B8F17A1D5F7BF91A20A1CE4555919A4758078FFE8DDDAD422BE5CCAA`
 SHA384 | `E1CD5530816B663204511ECEBA8AEACEBB3C859AE77CD921AB6692F29A86DBF884095DAE6D2FF356031A8DDBB4CC2B71`
 SHA512 | `E3AF862AE5D47E0DEE7356A45E740A8FA5F5305FD834C4BE3517E00DA457B0514C7F0E173D1509C653BAF78444EA71AB1C76D2FF41A433110FA33658DC4F4733`
 SSDEEP | `6144:kUgeiahIngARB1uU5cwmwoL59jaTg85YtcpwCXE:FIbuU5cwtoHja01lCX`
+IMP | `0F7365EDF941165E0FACBC5296015670`
+PESHA1 | `26A9828A7837E7F12D2EE098593DD43D74FEEB35`
+PE256 | `61171C07ADCF9258D0C77BDF32D7367C1D29B4A68C91F69FE7BE9443B43E4297`
 
 ## Runtime Data
 
@@ -73,14 +76,29 @@ Copyright (c) 2018 Microsoft Corporation. All rights reserved.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WindowsPerformanceRecorderControl.dll |
+C:\Windows\system32\wpr.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -93,7 +111,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  2018 Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/37869599b8f17a1d5f7bf91a20a1ce4555919a4758078ffe8dddad422be5ccaa/detection/
 
 
 ## Possible Misuse

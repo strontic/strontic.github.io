@@ -18,6 +18,9 @@ SHA256 | `2E40AC8FECF1FF562DE9AAFAEA5192985AC3CC13BE32B508771C885FD43673DA`
 SHA384 | `C7691C4E1506D489DCA966AE98BF2AD6064BCA081494CFCCAE08D7230A4681F2349477ED3AC7B2E3652D9D207DF3465C`
 SHA512 | `A41086312DC2433B0071350F374ABC66345FE97F2F13C1ECDC232ED8C1B86B94FF11CB1A7A2E646ABD280349CD42D9DF8E4E3B5A9CFC5812C5022955740C5A6E`
 SSDEEP | `1536:w/6DGGrJK5ZYkP7poyR4XlGX/lgxnHXKYT2OXmHuYHwMy3O2KY2naCigXly:w0X9kN94XligXDNxecFKRnaD7`
+IMP | `6B33B29610D8D91ACB7A22E2E6972E9D`
+PESHA1 | `A43AE8D4C7B9BAAB58097C80241BCC278F6248F7`
+PE256 | `F71CBF478C814AE710EC8F6587048A8667A6990C6BC767CD4DE8A8758233E336`
 
 ## Runtime Data
 
@@ -173,15 +176,29 @@ Examples:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\logman.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -194,7 +211,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/2e40ac8fecf1ff562de9aafaea5192985ac3cc13be32b508771c885fd43673da/detection/
 
 
 

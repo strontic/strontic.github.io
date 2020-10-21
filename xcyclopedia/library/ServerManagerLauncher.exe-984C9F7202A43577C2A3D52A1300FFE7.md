@@ -18,6 +18,9 @@ SHA256 | `8D583C54E942EE079E6D2F59A5914D1A5C5194385ED42C717648A3106CC0F20B`
 SHA384 | `6AD747E97E59D97CF0BC814019D9A6680EAD4F3757108CEA2AE54C3FFF2D6B35A54E38934090BDF24B60783E5F208D89`
 SHA512 | `A84FA0F6EC5AAE69B34FA7B585AB8CA9DC70D46ECBD3D383286E4CE5CC2A8306F059911CF0E33D5FF68F1B51EE626251EC7989D35BDFC96AA9553E64097C241F`
 SSDEEP | `1536:WJ41FMOgdPNvNAa6iZq0Sv7fWDTkhVzvOmvOj8lOo+vi6Uf:WS1CdNvaXiZNSv7fWDTaVGmvOj8co+Q`
+IMP | `0733094C6B29D3B7ADFAE066B06EF5AF`
+PESHA1 | `C618B2EDB7865534FE1C4BCE9E2BD56D79DACB9E`
+PE256 | `8BD91D2E0BA977B16DC21FB4FFFF885D2F30CA15A9EDD3AD8BAF93BB36F638FB`
 
 ## Runtime Data
 
@@ -25,9 +28,32 @@ SSDEEP | `1536:WJ41FMOgdPNvNAa6iZq0Sv7fWDTkhVzvOmvOj8lOo+vi6Uf:WS1CdNvaXiZNSv7fW
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\system32\ServerManagerLauncher.exe |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
 
 
 ## Signature
@@ -47,7 +73,12 @@ C:\Windows\system32\ServerManagerLauncher.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/8d583c54e942ee079e6d2f59a5914d1a5c5194385ed42c717648a3106cc0f20b/detection/
 
 ## File Similarity (ssdeep match)
 

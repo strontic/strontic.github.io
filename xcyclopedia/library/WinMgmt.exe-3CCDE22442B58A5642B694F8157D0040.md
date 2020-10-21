@@ -18,6 +18,9 @@ SHA256 | `A733B3E7C718371FD75855B43D778710016E3545C9AC3705E26C080C43763140`
 SHA384 | `313CA1ECE44E43CC312F80C84F94EF8568994F86F048CD3AAFA9E11C61096A19AE3B0B1DF7B72FD8BA54F18D2B10B1BE`
 SHA512 | `C48991A41789032037A8AC01D34B80575EAF50FF0D4211F2C5B784BAC14496E4E7205EBDE667E5339A8418497E7E9ADD5D6E8C660FF7B47B12A749A80C644631`
 SSDEEP | `1536:QIA/RMgNqRdShIPoANJLlAXuSXv+qSFEAeOFt:U/RcRshIPFJRAhP2EAeU`
+IMP | `C3B140CA5A161C3F9BAB1E096049951D`
+PESHA1 | `655181DE9550F4E1EC68AC3BEE71B30D7143F671`
+PE256 | `226D034141121C0ECAFA037FF81B5F097D873D4F9F77CACAE1ED793C2EF20DA4`
 
 ## Runtime Data
 
@@ -89,20 +92,11 @@ Usage:  winmgmt	[/backup <filename>] [/restore <filename> <flag>]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\wbem\WinMgmt.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -115,7 +109,12 @@ C:\Windows\SysWOW64\wbem\WinMgmt.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/a733b3e7c718371fd75855b43d778710016e3545c9ac3705e26c080c43763140/detection/
 
 ## File Similarity (ssdeep match)
 

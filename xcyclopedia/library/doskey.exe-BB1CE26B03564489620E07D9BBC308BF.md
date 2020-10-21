@@ -18,6 +18,9 @@ SHA256 | `65182EA1E90CBA3C6369F6111AFE050699966309010F72EBA7707222D949D836`
 SHA384 | `A85392A3A39E4E91AC660764F366F7CFD4ED4F6C4E93990CB749BE02811AE759C05A1601F93101DF0872FBD1F279C64D`
 SHA512 | `D060B46437780B48AEB2316CF46EAA5349D53DDED6179854ACD332D12E8FC7445C2006B07BF34033058835EEBD02187F451F8997BA78BF5ECF3EC7B546E34ED3`
 SSDEEP | `384:TvozV3t9ZnTVSFQMYBIAPtzHtztLmkEUSI/3WTiW:TvozzrnTVkLIlLtyUSI/Q`
+IMP | `A1EA9D934205151494B8180E6C772F08`
+PESHA1 | `47E38690023215E385CF7331F2F9397AAD8489C3`
+PE256 | `688D8C6135B08624EB2EDD5717707D248A6C2082CFCD841DE5F5747056F51AA8`
 
 ## Runtime Data
 
@@ -58,7 +61,12 @@ $*     Symbol replaced by everything following macro name on command line.
 
 Path |
 -- |
+C:\Windows\system32\doskey.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ulib.dll |
 
 
 ## Signature
@@ -78,7 +86,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/65182ea1e90cba3c6369f6111afe050699966309010f72eba7707222d949d836/detection/
 
 ## File Similarity (ssdeep match)
 

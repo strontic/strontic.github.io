@@ -8,6 +8,10 @@ excerpt: What is oobeldr.exe?
 * File Path: `C:\WINDOWS\system32\oobe\oobeldr.exe`
 * Description: OOBE Loader
 
+## Screenshot
+
+![oobeldr.exe](screenshots/oobeldr.exe-30B8229A7C3990862504B2F2D62B92FB-1.png)
+
 ## Hashes
 
 Type | Hash

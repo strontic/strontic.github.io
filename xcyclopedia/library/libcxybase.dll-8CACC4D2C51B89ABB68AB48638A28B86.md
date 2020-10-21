@@ -25,22 +25,22 @@ PE256 | `C15BC5A9CDBD5396403B3F7C2AC9BCA31C4DE6ADB38389957374FC980432132D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual void __thiscall ObjectBase::update_handle(struct _GObject *)` | 15 | Exported Function
-`public: void __thiscall ObjectBase::reference(void)const ` | 12 | Exported Function
-`public: struct _GObject * __thiscall ObjectBase::ref_get_handle(void)` | 11 | Exported Function
+`update_handle` | 15 | Exported Function
+`reference` | 12 | Exported Function
+`ref_get_handle` | 11 | Exported Function
 `public: virtual __thiscall ObjectBase::~ObjectBase(void)` | 2 | Exported Function
 `struct _GMutex * g__cxybase_wrapper_lock` | 8 | Exported Function
 `unsigned int cxybase_wrapper_quark` | 4 | Exported Function
-`public: void __thiscall ObjectBase::unreference(void)const ` | 14 | Exported Function
-`public: void __thiscall ObjectBase::wrap(void)` | 16 | Exported Function
-`public: int __thiscall ObjectBase::ref_count(void)const ` | 10 | Exported Function
-`public: static class ObjectBase * __cdecl ObjectBase::ensure_most_derived_wrapped(struct _GObject *)` | 6 | Exported Function
+`unreference` | 14 | Exported Function
+`wrap` | 16 | Exported Function
+`ref_count` | 10 | Exported Function
+`ensure_most_derived_wrapped` | 6 | Exported Function
 `const ObjectBase::``vftable'` | 3 | Exported Function
-`public: __thiscall ObjectBase::ObjectBase(void)` | 1 | Exported Function
-`public: static void __cdecl ObjectBase::register_type_wrapper(unsigned long,class ObjectBase * (__cdecl*)(struct _GObject *))` | 13 | Exported Function
-`public: struct _GObject * __thiscall ObjectBase::get_handle(void)const ` | 9 | Exported Function
-`public: static void __cdecl ObjectBase::destroy_notify_callback(void *)` | 5 | Exported Function
-`public: static void __cdecl ObjectBase::ensure_quark_initialized(void)` | 7 | Exported Function
+`ObjectBase` | 1 | Exported Function
+`register_type_wrapper` | 13 | Exported Function
+`get_handle` | 9 | Exported Function
+`destroy_notify_callback` | 5 | Exported Function
+`ensure_quark_initialized` | 7 | Exported Function
 
 
 ## Signature

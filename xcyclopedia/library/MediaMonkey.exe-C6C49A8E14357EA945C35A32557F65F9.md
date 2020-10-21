@@ -8,6 +8,10 @@ excerpt: What is MediaMonkey.exe?
 * File Path: `C:\Program Files (x86)\MediaMonkey\MediaMonkey.exe`
 * Description: MediaMonkey
 
+## Screenshot
+
+![MediaMonkey.exe](screenshots/MediaMonkey.exe-C6C49A8E14357EA945C35A32557F65F9-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -26,29 +26,29 @@ PE256 | `9F0C5599C49F5EC61DC4DED142FFC901B94CBC1D4B5524E04B155AE603647FE2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __cdecl RDPGraphicsTraceLogging::LogRDPGraphicsError(struct _GUID,unsigned int,unsigned int,long)` | 8 | Exported Function
-`void __cdecl RDPGraphicsTraceLogging::LogRDPGraphicsFirstNonBlackFrame(unsigned __int64)` | 9 | Exported Function
+`LogRDPGraphicsError` | 8 | Exported Function
+`LogRDPGraphicsFirstNonBlackFrame` | 9 | Exported Function
 `RDPSERVERBASE_CreateInstance` | 23 | Exported Function
 `RDPEncryptionTraceLogging_Register` | 21 | Exported Function
 `RDPEncryptionTraceLogging_Unregister` | 22 | Exported Function
-`void __cdecl RDPGraphicsTraceLogging::LogRDPGraphicsFirstNonBlackFramePostLogon(unsigned int)` | 10 | Exported Function
-`void __cdecl RDPGraphicsTraceLogging::RDPGraphicsTraceLogging_Unregister(void)` | 15 | Exported Function
+`LogRDPGraphicsFirstNonBlackFramePostLogon` | 10 | Exported Function
+`RDPGraphicsTraceLogging_Unregister` | 15 | Exported Function
 `void __cdecl RDPServerStackQOE_Unregister(void)` | 17 | Exported Function
-`void __cdecl RDPGraphicsTraceLogging::LogRDPGraphicsVOBRHint(unsigned int,unsigned __int64,unsigned int,unsigned int)` | 13 | Exported Function
-`void __cdecl RDPGraphicsTraceLogging::LogRDPGraphicsSubsampleAdapter(unsigned short const * __ptr64,unsigned int,unsigned int)` | 11 | Exported Function
-`void __cdecl RDPGraphicsTraceLogging::LogRDPGraphicsSubsampleFailure(long,unsigned int)` | 12 | Exported Function
-`public: long __cdecl Tiler::Initialize(struct RdpRect const * __ptr64,struct RdpRect const * __ptr64) __ptr64` | 7 | Exported Function
+`LogRDPGraphicsVOBRHint` | 13 | Exported Function
+`LogRDPGraphicsSubsampleAdapter` | 11 | Exported Function
+`LogRDPGraphicsSubsampleFailure` | 12 | Exported Function
+`Initialize` | 7 | Exported Function
 `long __cdecl GetGfxPipeSettingBOOL(unsigned short * __ptr64,int,int * __ptr64)` | 2 | Exported Function
 `long __cdecl GetGfxPipeSettingUINT(unsigned short * __ptr64,unsigned int,unsigned int * __ptr64)` | 3 | Exported Function
 `CUpdateDataAccumulator_CreateInstance` | 20 | Exported Function
 `CCompressedUpdateContext_CreateInstance` | 18 | Exported Function
 `CUpdateContext_CreateInstance` | 19 | Exported Function
-`long __cdecl RDPGraphicsTraceLogging::RDPGraphicsTraceLogging_Register(void)` | 14 | Exported Function
-`public: long __cdecl Tiler::GetTileFirst(struct RdpRect const * __ptr64,struct RdpRect * __ptr64) __ptr64` | 5 | Exported Function
-`public: long __cdecl Tiler::GetTileNext(struct RdpRect * __ptr64) __ptr64` | 6 | Exported Function
-`public: long __cdecl RdpSurface::GetGraphicsSourceContext(struct IRdpGFXSourceUpdateContext * __ptr64 * __ptr64) __ptr64` | 4 | Exported Function
+`RDPGraphicsTraceLogging_Register` | 14 | Exported Function
+`GetTileFirst` | 5 | Exported Function
+`GetTileNext` | 6 | Exported Function
+`GetGraphicsSourceContext` | 4 | Exported Function
 `long __cdecl RDPServerStackQOE_Register(void)` | 16 | Exported Function
-`public: long __cdecl RdpSurface::GetEncodingPixelMap(class PixelMap * __ptr64 * __ptr64) __ptr64` | 1 | Exported Function
+`GetEncodingPixelMap` | 1 | Exported Function
 
 
 ## Signature

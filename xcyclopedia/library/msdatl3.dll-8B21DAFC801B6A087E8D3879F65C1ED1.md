@@ -28,261 +28,261 @@ Function Name | Ordinal | Type
 -- | -- | --
 `public: virtual __thiscall IHashTbl::~IHashTbl(void)` | 87 | Exported Function
 `public: virtual __thiscall ISlotList::~ISlotList(void)` | 88 | Exported Function
-`public: virtual int __stdcall CHeapDispenser::CompareResource(void *,void *)` | 179 | Exported Function
+`CompareResource` | 179 | Exported Function
 `public: virtual __thiscall CUtlProps2::~CUtlProps2(void)` | 83 | Exported Function
 `public: virtual __thiscall CUtlPropsFastLookup2::~CUtlPropsFastLookup2(void)` | 84 | Exported Function
 `public: virtual __thiscall IBookmarkObj::~IBookmarkObj(void)` | 86 | Exported Function
-`public: virtual int __thiscall CUtlProps2::ConflictsWithCurrent(unsigned long,unsigned long,struct tagVARIANT const &)` | 182 | Exported Function
-`public: virtual int __thiscall CUtlProps2::FIsValidColId(struct tagDBPROP *)` | 224 | Exported Function
-`public: virtual long __stdcall CClassFactory::LockServer(int)` | 317 | Exported Function
-`public: virtual int __stdcall CHeapDispenser::HashKey(void *,unsigned long,int *)` | 297 | Exported Function
-`public: virtual int __thiscall CSlotListLong::FInit(unsigned long,class ISlotList * *,class IHashTbl * *,unsigned long)` | 217 | Exported Function
-`public: virtual int __thiscall CSlotListShort::FInit(unsigned long,class ISlotList * *,class IHashTbl * *,unsigned long)` | 218 | Exported Function
+`ConflictsWithCurrent` | 182 | Exported Function
+`FIsValidColId` | 224 | Exported Function
+`LockServer` | 317 | Exported Function
+`HashKey` | 297 | Exported Function
+`FInit` | 217 | Exported Function
+`FInit` | 218 | Exported Function
 `public: virtual __thiscall CUtlPropInfo::~CUtlPropInfo(void)` | 82 | Exported Function
-`public: unsigned short __thiscall CWString::operator[](int)const ` | 123 | Exported Function
-`public: unsigned short const * __thiscall CUtlProps2::GetValString(unsigned long,unsigned long)` | 295 | Exported Function
+`operator` | 123 | Exported Function
+`GetValString` | 295 | Exported Function
 `public: virtual __thiscall CBaseObj::~CBaseObj(void)` | 66 | Exported Function
-`public: unsigned short * __thiscall CWString::GetBuffer(int)` | 240 | Exported Function
-`public: unsigned short * __thiscall CWString::GetBufferSetLength(int)` | 241 | Exported Function
-`public: unsigned short __thiscall CUtlProps2::GetExpectedVarType(unsigned long,unsigned long)` | 249 | Exported Function
+`GetBuffer` | 240 | Exported Function
+`GetBufferSetLength` | 241 | Exported Function
+`GetExpectedVarType` | 249 | Exported Function
 `public: virtual __thiscall CHashTblAggr::~CHashTblAggr(void)` | 77 | Exported Function
 `public: virtual __thiscall CSlotListLong::~CSlotListLong(void)` | 80 | Exported Function
 `public: virtual __thiscall CSlotListShort::~CSlotListShort(void)` | 81 | Exported Function
 `public: virtual __thiscall CBaseObjBoko::~CBaseObjBoko(void)` | 67 | Exported Function
 `public: virtual __thiscall CBaseObjZombie::~CBaseObjZombie(void)` | 68 | Exported Function
 `public: virtual __thiscall CHashTbl::~CHashTbl(void)` | 76 | Exported Function
-`public: virtual long __stdcall CClassFactory::QueryInterface(struct _GUID const &,void * *)` | 331 | Exported Function
-`public: virtual long __stdcall CHeapDispenser::QueryInterface(struct _GUID const &,void * *)` | 335 | Exported Function
-`public: virtual long __stdcall CHeapDispenser::RateRes(void *,unsigned long,void *,int *)` | 338 | Exported Function
-`public: virtual long __stdcall CHeapDispenser::ResetResource(void *)` | 363 | Exported Function
-`public: virtual long __stdcall CHashTblAggr::InsertFindBmk(int,unsigned long,unsigned long,unsigned char *,unsigned long *)` | 301 | Exported Function
-`public: virtual long __stdcall CHeapDispenser::CreateResource(void *,unsigned long,void *,void * *,int *)` | 193 | Exported Function
-`public: virtual long __stdcall CHeapDispenser::DestroyResource(void *)` | 201 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPoint::GetConnectionPointContainer(struct IConnectionPointContainer * *)` | 244 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPoint::QueryInterface(struct _GUID const &,void * *)` | 336 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPoint::Unadvise(unsigned long)` | 412 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPoint::Advise(struct IUnknown *,unsigned long *)` | 161 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPoint::EnumConnections(struct IEnumConnections * *)` | 209 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPoint::GetConnectionInterface(struct _GUID *)` | 243 | Exported Function
-`public: virtual long __stdcall CHashTblAggr::DeleteBmk(unsigned long)` | 198 | Exported Function
-`public: virtual long __stdcall CEnumConnectionPoints::Reset(void)` | 358 | Exported Function
-`public: virtual long __stdcall CEnumConnectionPoints::Skip(unsigned long)` | 409 | Exported Function
-`public: virtual long __stdcall CEnumConnections::Clone(struct IEnumConnections * *)` | 175 | Exported Function
-`public: virtual long __stdcall CEnumConnectionPoints::Clone(struct IEnumConnectionPoints * *)` | 174 | Exported Function
-`public: virtual long __stdcall CEnumConnectionPoints::Next(unsigned long,struct IConnectionPoint * *,unsigned long *)` | 322 | Exported Function
-`public: virtual long __stdcall CEnumConnectionPoints::QueryInterface(struct _GUID const &,void * *)` | 333 | Exported Function
-`public: virtual long __stdcall CEnumConnections::Skip(unsigned long)` | 410 | Exported Function
-`public: virtual long __stdcall CHashTbl::DeleteBmk(unsigned long)` | 197 | Exported Function
-`public: virtual long __stdcall CHashTbl::InsertFindBmk(int,unsigned long,unsigned long,unsigned char *,unsigned long *)` | 300 | Exported Function
-`public: virtual long __stdcall CEnumConnections::Next(unsigned long,struct tagCONNECTDATA *,unsigned long *)` | 323 | Exported Function
-`public: virtual long __stdcall CEnumConnections::QueryInterface(struct _GUID const &,void * *)` | 334 | Exported Function
-`public: virtual long __stdcall CEnumConnections::Reset(void)` | 359 | Exported Function
-`public: long __thiscall CUtlProps2::GetProperties(unsigned long,struct tagDBPROPIDSET const * const,unsigned long *,struct tagDBPROPSET * *,struct _GUID const *)` | 275 | Exported Function
-`public: long __thiscall CUtlProps2::GetPropertiesArgChk(unsigned long,struct tagDBPROPIDSET const * const,unsigned long *,struct tagDBPROPSET * *)` | 276 | Exported Function
-`public: long __thiscall CUtlProps2::GetPropValue(struct _GUID const *,unsigned long,struct tagVARIANT *)` | 273 | Exported Function
-`public: long __thiscall CUtlProps2::CopyUPropVal(unsigned long,struct tagUPROPVAL *,class CColumnIds *)` | 190 | Exported Function
-`public: long __thiscall CUtlProps2::FillDefaultValues(unsigned long)` | 225 | Exported Function
-`public: long __thiscall CUtlProps2::GetProperties(unsigned long,struct tagDBPROPIDSET const * const,unsigned long *,struct tagDBPROPSET * *)` | 274 | Exported Function
-`public: long __thiscall CUtlProps2::SetVariant(unsigned long,unsigned long,struct tagVARIANT *)` | 407 | Exported Function
-`public: short __thiscall CUtlProps2::GetValBool(unsigned long,unsigned long)const ` | 292 | Exported Function
-`public: short __thiscall CUtlProps2::GetValShort(unsigned long,unsigned long)const ` | 294 | Exported Function
-`public: long __thiscall CUtlProps2::GetValLong(unsigned long,unsigned long)const ` | 293 | Exported Function
-`public: long __thiscall CUtlProps2::SetProperties(unsigned long,struct tagDBPROPSET const * const,int)` | 391 | Exported Function
-`public: long __thiscall CUtlProps2::SetPropValue(struct _GUID const *,unsigned long,struct tagVARIANT *)` | 390 | Exported Function
-`public: long __thiscall CUtlProps2::ConvertRowsetIIDtoDBPROPSET(struct _GUID const *,struct tagDBPROPSET *)` | 183 | Exported Function
-`public: long __stdcall CExtBuffer::WriteWCharToExtBuffer(unsigned short,unsigned long)` | 414 | Exported Function
-`public: long __thiscall CGenericPooler::GetResource(void * *,struct IGPHolder *,struct IGPDispenser *,void * *,void *)` | 282 | Exported Function
-`public: long __thiscall CRowsetConnectionPoint::DoNotify(enum DBREASONENUM,enum DBEVENTPHASEENUM,enum ENOTIFICATIONTYPE,struct IRowset *,union tagNOTIFYARGS *)` | 203 | Exported Function
-`public: long __stdcall CExtBuffer::InsertIntoExtBuffer(void *,unsigned long &)` | 302 | Exported Function
-`public: long __stdcall CExtBuffer::ReplaceInExtBuffer(unsigned long,unsigned long,void const *,unsigned long)` | 355 | Exported Function
-`public: long __stdcall CExtBuffer::WriteIntoExtBuffer(void const *,unsigned long)` | 413 | Exported Function
-`public: long __thiscall CRowsetConnectionPointContainer::Init(void)` | 298 | Exported Function
-`public: long __thiscall CUtlPropInfo::FInit(void)` | 219 | Exported Function
-`public: long __thiscall CUtlPropInfo::GetPropertyInfo(unsigned long,struct tagDBPROPIDSET const * const,unsigned long *,struct tagDBPROPINFOSET * *,unsigned short * *)` | 277 | Exported Function
-`public: long __thiscall CRowsetConnectionPointContainer::DoFcNotify(unsigned long,enum DBREASONENUM,enum DBEVENTPHASEENUM,struct IRowset *,unsigned long,unsigned long,unsigned long * const)` | 202 | Exported Function
-`public: long __thiscall CRowsetConnectionPointContainer::DoRcNotify(unsigned long,enum DBREASONENUM,enum DBEVENTPHASEENUM,struct IRowset *,unsigned long,unsigned long * const)` | 204 | Exported Function
-`public: long __thiscall CRowsetConnectionPointContainer::DoRscNotify(unsigned long,enum DBREASONENUM,enum DBEVENTPHASEENUM,struct IRowset *)` | 205 | Exported Function
-`public: short __thiscall CUtlProps2::OkToPersistSensitiveAuthInfo(void)` | 330 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetInternalStatus(unsigned long,unsigned long)` | 257 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetPropID(unsigned long,unsigned long)` | 270 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetPropOption(unsigned long,unsigned long)` | 271 | Exported Function
-`public: unsigned long __stdcall CExtBuffer::GetItemMax(void)const ` | 259 | Exported Function
-`public: unsigned long __stdcall CExtBuffer::GetItemSize(void)const ` | 261 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetInternalFlags(unsigned long,unsigned long)` | 256 | Exported Function
-`public: unsigned long __thiscall CWString::NumElements(unsigned short * const)const ` | 328 | Exported Function
-`public: unsigned short * __thiscall CBaseObj::GetBaseObjectTypeName(void)` | 237 | Exported Function
-`public: unsigned short * __thiscall CExtBuffer::GetNameFromOffset(unsigned long)` | 264 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetPropStatus(struct tagUPROPVAL *)` | 272 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetStatus(unsigned long,unsigned long)` | 285 | Exported Function
-`public: unsigned long __thiscall CUtlProps2::GetUPropSetCount(void)` | 289 | Exported Function
-`public: unsigned long __stdcall CExtBuffer::GetItemCount(void)const ` | 258 | Exported Function
-`public: struct IGPHolder * __thiscall CGenericPooler::GetHeapHolder(void)` | 252 | Exported Function
-`public: struct IUnknown * __thiscall CBaseObj::GetOuterUnknown(void)` | 269 | Exported Function
-`public: struct tagCONNECTDATA * __thiscall CConnectData::GetCd(void)` | 242 | Exported Function
-`public: static long __cdecl CUtlProps2::SetPropertiesArgChk(unsigned long,struct tagDBPROPSET const * const)` | 392 | Exported Function
-`public: static unsigned long __stdcall CHashTbl::CbHashTblSize(unsigned long)` | 168 | Exported Function
-`public: struct _GUID const * __thiscall CUtlProps2::GetGuid(unsigned long)` | 250 | Exported Function
-`public: unsigned long __stdcall CEnum::AddRef(void)` | 153 | Exported Function
-`public: unsigned long __stdcall CEnum::Release(void)` | 342 | Exported Function
-`public: unsigned long __stdcall CExtBuffer::GetDWORDOfExtBuffer(unsigned long)` | 248 | Exported Function
-`public: struct tagVARIANT * __thiscall CUtlProps2::GetVariant(unsigned long,unsigned long)` | 296 | Exported Function
-`public: unsigned char * __stdcall CExtBuffer::AllocItems(unsigned long)` | 164 | Exported Function
-`public: unsigned long * __thiscall CUtlProps2::GetPropsInErrorPtr(void)` | 279 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPointContainer::EnumConnectionPoints(struct IEnumConnectionPoints * *)` | 208 | Exported Function
-`public: void __thiscall CUtlProps2::ClearPropertyInError(void)` | 172 | Exported Function
-`public: void __thiscall CUtlProps2::ClearPropsSupported(void)` | 173 | Exported Function
-`public: void __thiscall CUtlProps2::ClearPropSupported(unsigned long,unsigned long)` | 171 | Exported Function
-`public: void __thiscall CGenericPooler::ReleaseResource(void *,struct IGPHolder *,struct IGPDispenser *,void *)` | 350 | Exported Function
+`QueryInterface` | 331 | Exported Function
+`QueryInterface` | 335 | Exported Function
+`RateRes` | 338 | Exported Function
+`ResetResource` | 363 | Exported Function
+`InsertFindBmk` | 301 | Exported Function
+`CreateResource` | 193 | Exported Function
+`DestroyResource` | 201 | Exported Function
+`GetConnectionPointContainer` | 244 | Exported Function
+`QueryInterface` | 336 | Exported Function
+`Unadvise` | 412 | Exported Function
+`Advise` | 161 | Exported Function
+`EnumConnections` | 209 | Exported Function
+`GetConnectionInterface` | 243 | Exported Function
+`DeleteBmk` | 198 | Exported Function
+`Reset` | 358 | Exported Function
+`Skip` | 409 | Exported Function
+`Clone` | 175 | Exported Function
+`Clone` | 174 | Exported Function
+`Next` | 322 | Exported Function
+`QueryInterface` | 333 | Exported Function
+`Skip` | 410 | Exported Function
+`DeleteBmk` | 197 | Exported Function
+`InsertFindBmk` | 300 | Exported Function
+`Next` | 323 | Exported Function
+`QueryInterface` | 334 | Exported Function
+`Reset` | 359 | Exported Function
+`GetProperties` | 275 | Exported Function
+`GetPropertiesArgChk` | 276 | Exported Function
+`GetPropValue` | 273 | Exported Function
+`CopyUPropVal` | 190 | Exported Function
+`FillDefaultValues` | 225 | Exported Function
+`GetProperties` | 274 | Exported Function
+`SetVariant` | 407 | Exported Function
+`GetValBool` | 292 | Exported Function
+`GetValShort` | 294 | Exported Function
+`GetValLong` | 293 | Exported Function
+`SetProperties` | 391 | Exported Function
+`SetPropValue` | 390 | Exported Function
+`ConvertRowsetIIDtoDBPROPSET` | 183 | Exported Function
+`WriteWCharToExtBuffer` | 414 | Exported Function
+`GetResource` | 282 | Exported Function
+`DoNotify` | 203 | Exported Function
+`InsertIntoExtBuffer` | 302 | Exported Function
+`ReplaceInExtBuffer` | 355 | Exported Function
+`WriteIntoExtBuffer` | 413 | Exported Function
+`Init` | 298 | Exported Function
+`FInit` | 219 | Exported Function
+`GetPropertyInfo` | 277 | Exported Function
+`DoFcNotify` | 202 | Exported Function
+`DoRcNotify` | 204 | Exported Function
+`DoRscNotify` | 205 | Exported Function
+`OkToPersistSensitiveAuthInfo` | 330 | Exported Function
+`GetInternalStatus` | 257 | Exported Function
+`GetPropID` | 270 | Exported Function
+`GetPropOption` | 271 | Exported Function
+`GetItemMax` | 259 | Exported Function
+`GetItemSize` | 261 | Exported Function
+`GetInternalFlags` | 256 | Exported Function
+`NumElements` | 328 | Exported Function
+`GetBaseObjectTypeName` | 237 | Exported Function
+`GetNameFromOffset` | 264 | Exported Function
+`GetPropStatus` | 272 | Exported Function
+`GetStatus` | 285 | Exported Function
+`GetUPropSetCount` | 289 | Exported Function
+`GetItemCount` | 258 | Exported Function
+`GetHeapHolder` | 252 | Exported Function
+`GetOuterUnknown` | 269 | Exported Function
+`GetCd` | 242 | Exported Function
+`SetPropertiesArgChk` | 392 | Exported Function
+`CbHashTblSize` | 168 | Exported Function
+`GetGuid` | 250 | Exported Function
+`AddRef` | 153 | Exported Function
+`Release` | 342 | Exported Function
+`GetDWORDOfExtBuffer` | 248 | Exported Function
+`GetVariant` | 296 | Exported Function
+`AllocItems` | 164 | Exported Function
+`GetPropsInErrorPtr` | 279 | Exported Function
+`EnumConnectionPoints` | 208 | Exported Function
+`ClearPropertyInError` | 172 | Exported Function
+`ClearPropsSupported` | 173 | Exported Function
+`ClearPropSupported` | 171 | Exported Function
+`ReleaseResource` | 350 | Exported Function
 `public: void __thiscall CUtlProps2::``default constructor closure'(void)` | 148 | Exported Function
-`public: void __thiscall CUtlProps2::AddInternalFlags(unsigned long,unsigned long,unsigned long)` | 151 | Exported Function
-`public: void __thiscall CUtlProps2::CopyUPropInfo(unsigned long,struct tagUPROPINFO * *)` | 188 | Exported Function
-`public: void __thiscall CUtlProps2::CopyUPropSetsSupported(unsigned long *)` | 189 | Exported Function
-`public: void __thiscall CUtlProps2::RemoveInternalFlags(unsigned long,unsigned long,unsigned long)` | 353 | Exported Function
-`public: void __thiscall CUtlProps2::CopyAvailUPropSets(unsigned long *,struct tagUPROPSET const * *,unsigned long *)` | 184 | Exported Function
-`public: void __thiscall CUtlProps2::CopyPropsInError(class CUtlProps2 *)` | 187 | Exported Function
-`public: void __thiscall CUtlProps2::CopyPropsInError(unsigned long *)` | 186 | Exported Function
-`public: void __thiscall CGenericPooler::ReleaseHolders(void)` | 349 | Exported Function
-`public: void __thiscall CBaseObjBoko::GetTimestamp(unsigned long *)` | 286 | Exported Function
-`public: void __thiscall CBaseObjBoko::MakeZombies(void)` | 318 | Exported Function
-`public: void __thiscall CBaseObjZombie::GetBokoTimestamp(void)` | 239 | Exported Function
-`public: void __stdcall CExtBuffer::GetItemOfExtBuffer(unsigned long,void *)` | 260 | Exported Function
-`public: void __stdcall CExtBuffer::GetLastItemHandle(unsigned long &)` | 262 | Exported Function
-`public: void __stdcall CExtBuffer::SetItemCount(unsigned long)` | 382 | Exported Function
-`public: void __thiscall CExtBuffer::Free(void)` | 231 | Exported Function
-`public: void __thiscall CExtBuffer::Transfer(class CExtBuffer *)` | 411 | Exported Function
-`public: void __thiscall CGenericPooler::FInitializeGPStructures(void)` | 222 | Exported Function
-`public: void __thiscall CBaseObjZombie::SetBoko(class CBaseObjBoko *)` | 378 | Exported Function
-`public: void __thiscall CConnectData::ForgetEvent(enum DBREASONENUM,enum DBEVENTPHASEENUM)` | 227 | Exported Function
-`public: void __thiscall CConnectData::ForgetReason(enum DBREASONENUM)` | 229 | Exported Function
-`public: void __thiscall CUtlProps2::RestoreInternalFlags(unsigned long,unsigned long)` | 366 | Exported Function
-`public: void __thiscall CWString::ClearError(void)` | 169 | Exported Function
-`public: void __thiscall CWString::ConcatInPlace(int,unsigned short const *)` | 181 | Exported Function
-`public: void __thiscall CWString::Empty(void)` | 207 | Exported Function
-`public: void __thiscall CUtlProps2::SetValLong(unsigned long,unsigned long,long)` | 404 | Exported Function
-`public: void __thiscall CUtlProps2::SetValShort(unsigned long,unsigned long,short)` | 405 | Exported Function
+`AddInternalFlags` | 151 | Exported Function
+`CopyUPropInfo` | 188 | Exported Function
+`CopyUPropSetsSupported` | 189 | Exported Function
+`RemoveInternalFlags` | 353 | Exported Function
+`CopyAvailUPropSets` | 184 | Exported Function
+`CopyPropsInError` | 187 | Exported Function
+`CopyPropsInError` | 186 | Exported Function
+`ReleaseHolders` | 349 | Exported Function
+`GetTimestamp` | 286 | Exported Function
+`MakeZombies` | 318 | Exported Function
+`GetBokoTimestamp` | 239 | Exported Function
+`GetItemOfExtBuffer` | 260 | Exported Function
+`GetLastItemHandle` | 262 | Exported Function
+`SetItemCount` | 382 | Exported Function
+`Free` | 231 | Exported Function
+`Transfer` | 411 | Exported Function
+`FInitializeGPStructures` | 222 | Exported Function
+`SetBoko` | 378 | Exported Function
+`ForgetEvent` | 227 | Exported Function
+`ForgetReason` | 229 | Exported Function
+`RestoreInternalFlags` | 366 | Exported Function
+`ClearError` | 169 | Exported Function
+`ConcatInPlace` | 181 | Exported Function
+`Empty` | 207 | Exported Function
+`SetValLong` | 404 | Exported Function
+`SetValShort` | 405 | Exported Function
 `public: void __thiscall CUtlPropsFastLookup2::``default constructor closure'(void)` | 149 | Exported Function
-`public: void __thiscall CWString::SetAt(int,unsigned short)` | 377 | Exported Function
-`public: void __thiscall CWString::SetError(void)` | 380 | Exported Function
+`SetAt` | 377 | Exported Function
+`SetError` | 380 | Exported Function
 `void __cdecl FreeDBIDs(struct tagDBID *)` | 232 | Exported Function
-`public: void __thiscall CWString::FreeExtra(void)` | 233 | Exported Function
-`public: void __thiscall CWString::ReleaseBuffer(int)` | 348 | Exported Function
-`public: void __thiscall CWString::ReplaceAt(int,int,unsigned short const *,int)` | 354 | Exported Function
-`public: void __thiscall CUtlProps2::SetValEmpty(unsigned long,unsigned long)` | 403 | Exported Function
-`public: void __thiscall CUtlProps2::SetInternalStatus(unsigned long,unsigned long,unsigned long)` | 381 | Exported Function
-`public: void __thiscall CUtlProps2::SetPropertyInError(unsigned long,unsigned long)` | 394 | Exported Function
-`public: void __thiscall CUtlProps2::SetPropertyStatus(unsigned long,struct tagDBPROPSET const * const)` | 395 | Exported Function
-`public: void __thiscall CUtlProps2::RestoreInternalStatus(unsigned long,unsigned long)` | 367 | Exported Function
-`public: void __thiscall CUtlProps2::SaveInternalFlags(unsigned long,unsigned long)` | 373 | Exported Function
-`public: void __thiscall CUtlProps2::SaveInternalStatus(unsigned long,unsigned long)` | 374 | Exported Function
-`public: void __thiscall CUtlProps2::SetStatus(unsigned long,unsigned long,unsigned long)` | 399 | Exported Function
-`public: void __thiscall CUtlProps2::SetUPropSetCount(unsigned long)` | 401 | Exported Function
-`public: void __thiscall CUtlProps2::SetValBool(unsigned long,unsigned long,short)` | 402 | Exported Function
-`public: void __thiscall CUtlProps2::SetPropOption(unsigned long,unsigned long,unsigned long)` | 387 | Exported Function
-`public: void __thiscall CUtlProps2::SetPropRequired(unsigned long,unsigned long,short)` | 388 | Exported Function
-`public: void __thiscall CUtlProps2::SetPropSupported(unsigned long,unsigned long)` | 389 | Exported Function
-`public: virtual long __thiscall CUtlProps2::SetPassThrough(struct tagDBPROPSET const *)` | 383 | Exported Function
-`public: virtual long __thiscall CUtlProps2::SetValString(unsigned long,unsigned long,unsigned short const *)` | 406 | Exported Function
-`public: virtual long __thiscall CUtlPropsFastLookup2::FInit(class CUtlPropsFastLookup2 *)` | 221 | Exported Function
-`public: virtual long __thiscall CUtlProps2::SecureGetValue(unsigned long,unsigned long,struct tagVARIANT *,struct tagVARIANT *)` | 375 | Exported Function
-`public: virtual long __thiscall CUtlProps2::SecureSetValue(unsigned long,unsigned long,struct tagVARIANT *,struct tagVARIANT *)` | 376 | Exported Function
-`public: virtual long __thiscall CUtlProps2::SetCombinedPassThrough(struct tagDBPROPSET const *,unsigned long)` | 379 | Exported Function
-`public: virtual unsigned long __stdcall CClassFactory::Release(void)` | 341 | Exported Function
-`public: virtual unsigned long __stdcall CEnumConnectionPoints::AddRef(void)` | 154 | Exported Function
-`public: virtual unsigned long __stdcall CEnumConnectionPoints::Release(void)` | 343 | Exported Function
-`public: virtual struct tagRowBuff * __fastcall CSlotListLong::GetRowBuff(unsigned long)` | 283 | Exported Function
-`public: virtual struct tagRowBuff * __fastcall CSlotListShort::GetRowBuff(unsigned long)` | 284 | Exported Function
-`public: virtual unsigned long __stdcall CClassFactory::AddRef(void)` | 152 | Exported Function
-`public: virtual long __thiscall CUtlProps2::GetIndexofPropSet(struct _GUID const *,unsigned long *)` | 255 | Exported Function
-`public: virtual long __stdcall CSlotListLong::IsValidSlot(unsigned long)` | 311 | Exported Function
-`public: virtual long __stdcall CSlotListLong::NextBusySlot(unsigned long *)` | 324 | Exported Function
-`public: virtual long __stdcall CSlotListLong::NoBusySlots(void)` | 326 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPointContainer::FindConnectionPoint(struct _GUID const &,struct IConnectionPoint * *)` | 226 | Exported Function
-`public: virtual long __stdcall CRowsetConnectionPointContainer::QueryInterface(struct _GUID const &,void * *)` | 337 | Exported Function
-`public: virtual long __stdcall CSlotListLong::GetNextSlots(unsigned long,unsigned long,unsigned long *)` | 265 | Exported Function
-`public: virtual long __stdcall CSlotListShort::NoBusySlots(void)` | 327 | Exported Function
-`public: virtual long __thiscall CUtlProps2::FInit(class CUtlProps2 *)` | 220 | Exported Function
-`public: virtual long __thiscall CUtlProps2::GetIndexofPropIdinPropSet(unsigned long,unsigned long,unsigned long *)` | 253 | Exported Function
-`public: virtual long __stdcall CSlotListShort::GetNextSlots(unsigned long,unsigned long,unsigned long *)` | 266 | Exported Function
-`public: virtual long __stdcall CSlotListShort::IsValidSlot(unsigned long)` | 312 | Exported Function
-`public: virtual long __stdcall CSlotListShort::NextBusySlot(unsigned long *)` | 325 | Exported Function
-`public: virtual unsigned long __stdcall CEnumConnections::AddRef(void)` | 155 | Exported Function
-`public: virtual void __stdcall CSlotListShort::ResetBusySlotIteration(void)` | 362 | Exported Function
-`public: void * __stdcall CExtBuffer::GetPtrOfExtBuffer(unsigned long)` | 280 | Exported Function
-`public: void * __stdcall CExtBuffer::GetPtrOfExtBuffer(void)` | 281 | Exported Function
-`public: virtual void __stdcall CSlotListLong::RecordInternalUse(void)` | 339 | Exported Function
-`public: virtual void __stdcall CSlotListLong::ResetBusySlotIteration(void)` | 361 | Exported Function
-`public: virtual void __stdcall CSlotListShort::RecordInternalUse(void)` | 340 | Exported Function
-`public: void __stdcall CExtBuffer::CompactExtBuffer(void)` | 176 | Exported Function
-`public: void __stdcall CExtBuffer::DeleteFromExtBuffer(unsigned long)` | 199 | Exported Function
-`public: void __stdcall CExtBuffer::DeleteWithCompactFromExtBuffer(unsigned long)` | 200 | Exported Function
-`public: void __stdcall CBitArray::ResetAllSlots(void)` | 360 | Exported Function
-`public: void __stdcall CBitArray::ResetSlot(unsigned long)` | 364 | Exported Function
-`public: void __stdcall CBitArray::ResetSlots(unsigned long,unsigned long)` | 365 | Exported Function
-`public: virtual unsigned long __stdcall CSlotListShort::SLSlotCapacity(void)` | 370 | Exported Function
-`public: virtual unsigned long __stdcall CRowsetConnectionPoint::AddRef(void)` | 157 | Exported Function
-`public: virtual unsigned long __stdcall CRowsetConnectionPoint::Release(void)` | 346 | Exported Function
-`public: virtual unsigned long __stdcall CRowsetConnectionPointContainer::AddRef(void)` | 158 | Exported Function
-`public: virtual unsigned long __stdcall CEnumConnections::Release(void)` | 344 | Exported Function
-`public: virtual unsigned long __stdcall CHeapDispenser::AddRef(void)` | 156 | Exported Function
-`public: virtual unsigned long __stdcall CHeapDispenser::Release(void)` | 345 | Exported Function
-`public: virtual unsigned long __stdcall CSlotListLong::SLSlotCapacity(void)` | 369 | Exported Function
-`public: virtual unsigned long __stdcall CSlotListShort::CountOfBusySlots(void)` | 192 | Exported Function
-`public: virtual unsigned long __stdcall CSlotListShort::ReleaseSlots(unsigned long,unsigned long)` | 352 | Exported Function
-`public: virtual unsigned long __stdcall CRowsetConnectionPointContainer::Release(void)` | 347 | Exported Function
-`public: virtual unsigned long __stdcall CSlotListLong::CountOfBusySlots(void)` | 191 | Exported Function
-`public: virtual unsigned long __stdcall CSlotListLong::ReleaseSlots(unsigned long,unsigned long)` | 351 | Exported Function
-`public: long __stdcall CExtBuffer::DWORDIntoExtBuffer(unsigned long)` | 195 | Exported Function
-`public: __thiscall CEnum::CEnum(struct IUnknown *,unsigned long,void * *,struct _GUID,unsigned int,unsigned long,enum CENUMTYPE)` | 22 | Exported Function
+`FreeExtra` | 233 | Exported Function
+`ReleaseBuffer` | 348 | Exported Function
+`ReplaceAt` | 354 | Exported Function
+`SetValEmpty` | 403 | Exported Function
+`SetInternalStatus` | 381 | Exported Function
+`SetPropertyInError` | 394 | Exported Function
+`SetPropertyStatus` | 395 | Exported Function
+`RestoreInternalStatus` | 367 | Exported Function
+`SaveInternalFlags` | 373 | Exported Function
+`SaveInternalStatus` | 374 | Exported Function
+`SetStatus` | 399 | Exported Function
+`SetUPropSetCount` | 401 | Exported Function
+`SetValBool` | 402 | Exported Function
+`SetPropOption` | 387 | Exported Function
+`SetPropRequired` | 388 | Exported Function
+`SetPropSupported` | 389 | Exported Function
+`SetPassThrough` | 383 | Exported Function
+`SetValString` | 406 | Exported Function
+`FInit` | 221 | Exported Function
+`SecureGetValue` | 375 | Exported Function
+`SecureSetValue` | 376 | Exported Function
+`SetCombinedPassThrough` | 379 | Exported Function
+`Release` | 341 | Exported Function
+`AddRef` | 154 | Exported Function
+`Release` | 343 | Exported Function
+`GetRowBuff` | 283 | Exported Function
+`GetRowBuff` | 284 | Exported Function
+`AddRef` | 152 | Exported Function
+`GetIndexofPropSet` | 255 | Exported Function
+`IsValidSlot` | 311 | Exported Function
+`NextBusySlot` | 324 | Exported Function
+`NoBusySlots` | 326 | Exported Function
+`FindConnectionPoint` | 226 | Exported Function
+`QueryInterface` | 337 | Exported Function
+`GetNextSlots` | 265 | Exported Function
+`NoBusySlots` | 327 | Exported Function
+`FInit` | 220 | Exported Function
+`GetIndexofPropIdinPropSet` | 253 | Exported Function
+`GetNextSlots` | 266 | Exported Function
+`IsValidSlot` | 312 | Exported Function
+`NextBusySlot` | 325 | Exported Function
+`AddRef` | 155 | Exported Function
+`ResetBusySlotIteration` | 362 | Exported Function
+`GetPtrOfExtBuffer` | 280 | Exported Function
+`GetPtrOfExtBuffer` | 281 | Exported Function
+`RecordInternalUse` | 339 | Exported Function
+`ResetBusySlotIteration` | 361 | Exported Function
+`RecordInternalUse` | 340 | Exported Function
+`CompactExtBuffer` | 176 | Exported Function
+`DeleteFromExtBuffer` | 199 | Exported Function
+`DeleteWithCompactFromExtBuffer` | 200 | Exported Function
+`ResetAllSlots` | 360 | Exported Function
+`ResetSlot` | 364 | Exported Function
+`ResetSlots` | 365 | Exported Function
+`SLSlotCapacity` | 370 | Exported Function
+`AddRef` | 157 | Exported Function
+`Release` | 346 | Exported Function
+`AddRef` | 158 | Exported Function
+`Release` | 344 | Exported Function
+`AddRef` | 156 | Exported Function
+`Release` | 345 | Exported Function
+`SLSlotCapacity` | 369 | Exported Function
+`CountOfBusySlots` | 192 | Exported Function
+`ReleaseSlots` | 352 | Exported Function
+`Release` | 347 | Exported Function
+`CountOfBusySlots` | 191 | Exported Function
+`ReleaseSlots` | 351 | Exported Function
+`DWORDIntoExtBuffer` | 195 | Exported Function
+`CEnum` | 22 | Exported Function
 `public: __thiscall CEnum::~CEnum(void)` | 72 | Exported Function
-`public: __thiscall CEnumConnectionPoints::CEnumConnectionPoints(class CEnumConnectionPoints const &)` | 23 | Exported Function
+`CEnumConnectionPoints` | 23 | Exported Function
 `public: __thiscall CClassFactory::~CClassFactory(void)` | 70 | Exported Function
-`public: __thiscall CConnectData::CConnectData(void)` | 21 | Exported Function
+`CConnectData` | 21 | Exported Function
 `public: __thiscall CConnectData::~CConnectData(void)` | 71 | Exported Function
-`public: __thiscall CEnumConnections::CEnumConnections(struct IUnknown *,struct tagCONNECTDATA *,unsigned long)` | 26 | Exported Function
+`CEnumConnections` | 26 | Exported Function
 `public: __thiscall CEnumConnections::~CEnumConnections(void)` | 74 | Exported Function
-`public: __thiscall CExtBuffer::CExtBuffer(void)` | 27 | Exported Function
-`public: __thiscall CEnumConnectionPoints::CEnumConnectionPoints(struct IUnknown *,unsigned long,struct IConnectionPoint * *)` | 24 | Exported Function
+`CExtBuffer` | 27 | Exported Function
+`CEnumConnectionPoints` | 24 | Exported Function
 `public: __thiscall CEnumConnectionPoints::~CEnumConnectionPoints(void)` | 73 | Exported Function
-`public: __thiscall CEnumConnections::CEnumConnections(class CEnumConnections const &)` | 25 | Exported Function
-`public: __thiscall CClassFactory::CClassFactory(long *,long *)` | 20 | Exported Function
-`protected: void __thiscall CWString::AllocCopy(class CWString &,int,int,int)const ` | 163 | Exported Function
-`protected: void __thiscall CWString::AssignCopy(int,unsigned short const *)` | 166 | Exported Function
-`protected: void __thiscall CWString::ConcatCopy(int,unsigned short const *,int,unsigned short const *)` | 180 | Exported Function
-`protected: virtual unsigned long __thiscall CUtlPropsFastLookup2::GetUPropValIndex(unsigned long,unsigned long)` | 291 | Exported Function
-`protected: void __thiscall CUtlPropInfo::SetUPropSetCount(unsigned long)` | 400 | Exported Function
-`protected: void __thiscall CWString::AllocBuffer(int)` | 162 | Exported Function
-`public: __thiscall CBitArray::CBitArray(void)` | 17 | Exported Function
+`CEnumConnections` | 25 | Exported Function
+`CClassFactory` | 20 | Exported Function
+`AllocCopy` | 163 | Exported Function
+`AssignCopy` | 166 | Exported Function
+`ConcatCopy` | 180 | Exported Function
+`GetUPropValIndex` | 291 | Exported Function
+`SetUPropSetCount` | 400 | Exported Function
+`AllocBuffer` | 162 | Exported Function
+`CBitArray` | 17 | Exported Function
 `public: __thiscall CBitArray::~CBitArray(void)` | 69 | Exported Function
-`public: __thiscall CClassFactory::CClassFactory(class CClassFactory const &)` | 19 | Exported Function
-`protected: void __thiscall CWString::Init(void)` | 299 | Exported Function
-`public: __thiscall CBaseObjBoko::CBaseObjBoko(enum EBaseObjectType,long *)` | 15 | Exported Function
-`public: __thiscall CBaseObjZombie::CBaseObjZombie(enum EBaseObjectType,long *)` | 16 | Exported Function
+`CClassFactory` | 19 | Exported Function
+`Init` | 299 | Exported Function
+`CBaseObjBoko` | 15 | Exported Function
+`CBaseObjZombie` | 16 | Exported Function
 `public: __thiscall CExtBuffer::~CExtBuffer(void)` | 75 | Exported Function
-`public: __thiscall CSlotListLong::CSlotListLong(class CSlotListLong const &)` | 42 | Exported Function
-`public: __thiscall CSlotListLong::CSlotListLong(void)` | 43 | Exported Function
-`public: __thiscall CSlotListShort::CSlotListShort(class CSlotListShort const &)` | 44 | Exported Function
-`public: __thiscall CRowsetConnectionPointContainer::CRowsetConnectionPointContainer(class CRowsetConnectionPointContainer const &)` | 40 | Exported Function
-`public: __thiscall CRowsetConnectionPointContainer::CRowsetConnectionPointContainer(struct IUnknown *)` | 41 | Exported Function
+`CSlotListLong` | 42 | Exported Function
+`CSlotListLong` | 43 | Exported Function
+`CSlotListShort` | 44 | Exported Function
+`CRowsetConnectionPointContainer` | 40 | Exported Function
+`CRowsetConnectionPointContainer` | 41 | Exported Function
 `public: __thiscall CRowsetConnectionPointContainer::~CRowsetConnectionPointContainer(void)` | 79 | Exported Function
-`public: __thiscall CUtlProps2::CUtlProps2(class CUtlProps2 const &)` | 48 | Exported Function
-`public: __thiscall CUtlProps2::CUtlProps2(unsigned long)` | 49 | Exported Function
-`public: __thiscall CUtlPropsFastLookup2::CUtlPropsFastLookup2(class CUtlPropsFastLookup2 &&)` | 50 | Exported Function
-`public: __thiscall CSlotListShort::CSlotListShort(void)` | 45 | Exported Function
-`public: __thiscall CUtlPropInfo::CUtlPropInfo(class CUtlPropInfo const &)` | 46 | Exported Function
-`public: __thiscall CUtlPropInfo::CUtlPropInfo(void)` | 47 | Exported Function
+`CUtlProps2` | 48 | Exported Function
+`CUtlProps2` | 49 | Exported Function
+`CUtlPropsFastLookup2` | 50 | Exported Function
+`CSlotListShort` | 45 | Exported Function
+`CUtlPropInfo` | 46 | Exported Function
+`CUtlPropInfo` | 47 | Exported Function
 `public: __thiscall CRowsetConnectionPoint::~CRowsetConnectionPoint(void)` | 78 | Exported Function
-`public: __thiscall CHashTbl::CHashTbl(class CHashTbl const &)` | 31 | Exported Function
-`public: __thiscall CHashTbl::CHashTbl(void)` | 32 | Exported Function
-`public: __thiscall CHashTblAggr::CHashTblAggr(class CHashTblAggr const &)` | 33 | Exported Function
-`public: __thiscall CGenericPooler::CGenericPooler(class CGenericPooler &&)` | 28 | Exported Function
-`public: __thiscall CGenericPooler::CGenericPooler(class CGenericPooler const &)` | 29 | Exported Function
-`public: __thiscall CGenericPooler::CGenericPooler(void)` | 30 | Exported Function
-`public: __thiscall CHeapDispenser::CHeapDispenser(void)` | 37 | Exported Function
-`public: __thiscall CRowsetConnectionPoint::CRowsetConnectionPoint(class CRowsetConnectionPoint const &)` | 38 | Exported Function
-`public: __thiscall CRowsetConnectionPoint::CRowsetConnectionPoint(struct IUnknown *,struct _GUID const *,unsigned long)` | 39 | Exported Function
-`public: __thiscall CHashTblAggr::CHashTblAggr(void)` | 34 | Exported Function
-`public: __thiscall CHeapDispenser::CHeapDispenser(class CHeapDispenser &&)` | 35 | Exported Function
-`public: __thiscall CHeapDispenser::CHeapDispenser(class CHeapDispenser const &)` | 36 | Exported Function
+`CHashTbl` | 31 | Exported Function
+`CHashTbl` | 32 | Exported Function
+`CHashTblAggr` | 33 | Exported Function
+`CGenericPooler` | 28 | Exported Function
+`CGenericPooler` | 29 | Exported Function
+`CGenericPooler` | 30 | Exported Function
+`CHeapDispenser` | 37 | Exported Function
+`CRowsetConnectionPoint` | 38 | Exported Function
+`CRowsetConnectionPoint` | 39 | Exported Function
+`CHashTblAggr` | 34 | Exported Function
+`CHeapDispenser` | 35 | Exported Function
+`CHeapDispenser` | 36 | Exported Function
 `const IBookmarkObj::``vftable'` | 145 | Exported Function
 `const IHashTbl::``vftable'` | 146 | Exported Function
 `const ISlotList::``vftable'` | 147 | Exported Function
@@ -308,135 +308,135 @@ Function Name | Ordinal | Type
 `const CHashTbl::``vftable'` | 135 | Exported Function
 `const CHashTblAggr::``vftable'` | 136 | Exported Function
 `const CHeapDispenser::``vftable'` | 137 | Exported Function
-`private: __thiscall CClassFactory::CClassFactory(void)` | 18 | Exported Function
-`private: void __thiscall CUtlProps2::RetrieveColumnIdProps(struct tagDBPROP *,struct tagUPROPVAL *,unsigned long *)` | 368 | Exported Function
-`protected: __thiscall CBaseObj::CBaseObj(enum EBaseObjectType,long *)` | 13 | Exported Function
-`protected: __thiscall CBaseObj::CBaseObj(enum EBaseObjectType,struct IUnknown *,long *,bool)` | 14 | Exported Function
-`private: void __thiscall CRowsetConnectionPoint::SetReasons(void)` | 396 | Exported Function
-`private: void __thiscall CUtlProps2::ClearMemberVars(void)` | 170 | Exported Function
-`private: void __thiscall CUtlProps2::FreeMemory(void)` | 234 | Exported Function
-`protected: unsigned long __thiscall CUtlPropInfo::GetUPropSetCount(void)` | 288 | Exported Function
-`protected: virtual long __thiscall CUtlPropsFastLookup2::GetIndexofPropIdinPropSet(unsigned long,unsigned long,unsigned long *)` | 254 | Exported Function
-`protected: virtual unsigned long __thiscall CUtlProps2::GetUPropValIndex(unsigned long,unsigned long)` | 290 | Exported Function
-`protected: long __thiscall CBaseObj::FInit(void)` | 210 | Exported Function
-`protected: static int __cdecl CWString::SafeStrlen(unsigned short const *)` | 372 | Exported Function
-`protected: static void __cdecl CWString::SafeDelete(unsigned short *)` | 371 | Exported Function
-`private: void __thiscall CRowsetConnectionPoint::ForgetEvent(enum DBREASONENUM,enum DBEVENTPHASEENUM)` | 228 | Exported Function
-`private: static unsigned long __stdcall CHashTbl::AdjustRange(unsigned long)` | 160 | Exported Function
-`private: static unsigned long const * const CUtlProps2::sm_rgPropStatusFromInternStatus` | 422 | Exported Function
-`private: struct IUnknown * __thiscall CEnum::GetNthUnknown(unsigned long)` | 268 | Exported Function
-`private: long __thiscall CUtlPropInfo::GetPropertySetIndex(struct _GUID const *)` | 278 | Exported Function
-`private: long __thiscall CUtlPropInfo::GetUPropInfoPtr(unsigned long,unsigned long,struct tagUPROPINFO * *)` | 287 | Exported Function
-`private: long __thiscall CUtlProps2::SetProperty(unsigned long,unsigned long,struct tagDBPROP *)` | 393 | Exported Function
-`private: void * __thiscall CEnum::GetNthElement(unsigned long)` | 267 | Exported Function
-`private: void __stdcall CSlotListShort::AddSlotToList(struct tagSLOT *)` | 159 | Exported Function
-`private: void __stdcall CSlotListShort::DecoupleSlot(struct tagSLOT *)` | 196 | Exported Function
-`private: unsigned long __thiscall CUtlPropInfo::CalcDescripBuffers(unsigned long,struct tagDBPROPINFOSET *)` | 167 | Exported Function
-`private: unsigned long __thiscall CUtlProps2::GetCountofColids(struct tagUPROP *)` | 245 | Exported Function
-`private: unsigned long __thiscall CUtlProps2::GetCountofWritablePropsInPropSet(unsigned long)` | 246 | Exported Function
-`public: __thiscall CUtlPropsFastLookup2::CUtlPropsFastLookup2(class CUtlPropsFastLookup2 const &)` | 51 | Exported Function
-`public: int __thiscall CConnectData::Reset(void)` | 356 | Exported Function
-`public: int __thiscall CExtBuffer::FInit(class CExtBuffer *)` | 214 | Exported Function
-`public: int __thiscall CExtBuffer::FInit(unsigned long,unsigned long)` | 212 | Exported Function
-`public: int __thiscall CBaseObjZombie::ZombieMustUnprepare(void)` | 416 | Exported Function
-`public: int __thiscall CBitArray::fGetCopyOf(class CBitArray *)` | 417 | Exported Function
-`public: int __thiscall CConnectData::fOkToFire(enum DBREASONENUM,enum DBEVENTPHASEENUM)` | 419 | Exported Function
-`public: int __thiscall CHashTblAggr::FInit(class CHashTbl *)` | 216 | Exported Function
-`public: int __thiscall CRowsetConnectionPoint::fInit(void)` | 418 | Exported Function
-`public: int __thiscall CRowsetConnectionPoint::fReasonNeeded(enum DBREASONENUM,enum DBEVENTPHASEENUM)` | 420 | Exported Function
-`public: int __thiscall CExtBuffer::FInit(unsigned long,void *,unsigned long,unsigned long)` | 213 | Exported Function
-`public: int __thiscall CHashTbl::FInit(unsigned short,class CSlotListShort *,class IBookmarkObj *)` | 215 | Exported Function
-`public: int __thiscall CHashTblAggr::AddHashTbl(class CSlotListShort *)` | 150 | Exported Function
-`public: int __thiscall CBaseObjZombie::IsZombie(void)` | 314 | Exported Function
-`public: class CWString const & __thiscall CWString::operator=(unsigned short const *)` | 119 | Exported Function
-`public: class CWString const & __thiscall CWString::operator=(unsigned short)` | 116 | Exported Function
-`public: class IBookmarkObj & __thiscall IBookmarkObj::operator=(class IBookmarkObj const &)` | 120 | Exported Function
-`public: class CWString const & __thiscall CWString::operator=(char)` | 115 | Exported Function
-`public: class CWString const & __thiscall CWString::operator=(class CWString const &)` | 114 | Exported Function
-`public: class CWString const & __thiscall CWString::operator=(unsigned char const *)` | 118 | Exported Function
-`public: int __thiscall CBaseObj::GetBidID(void)` | 238 | Exported Function
-`public: int __thiscall CBaseObjBoko::IsZombie(unsigned long)` | 313 | Exported Function
-`public: int __thiscall CBaseObjBoko::ZombieMustUnprepare(void)` | 415 | Exported Function
-`public: class IHashTbl & __thiscall IHashTbl::operator=(class IHashTbl const &)` | 121 | Exported Function
-`public: class ISlotList & __thiscall ISlotList::operator=(class ISlotList const &)` | 122 | Exported Function
-`public: enum EBaseObjectType __thiscall CBaseObj::GetBaseObjectType(void)` | 236 | Exported Function
-`public: int __thiscall CRowsetConnectionPointContainer::fReasonNeeded(unsigned long,enum DBREASONENUM,enum DBEVENTPHASEENUM)` | 421 | Exported Function
-`public: long __stdcall CBitArray::SetSlot(unsigned long)` | 397 | Exported Function
-`public: long __stdcall CBitArray::SetSlots(unsigned long,unsigned long)` | 398 | Exported Function
-`public: long __stdcall CEnum::Next(unsigned long,void * *,unsigned long *)` | 321 | Exported Function
-`public: long __stdcall CBitArray::ArrayEmpty(void)` | 165 | Exported Function
-`public: long __stdcall CBitArray::FInit(unsigned long)` | 211 | Exported Function
-`public: long __stdcall CBitArray::IsSlotSet(unsigned long)` | 309 | Exported Function
-`public: long __stdcall CEnum::Skip(unsigned long)` | 408 | Exported Function
-`public: long __stdcall CEnumConnectionPoints::SetPos(unsigned long)` | 385 | Exported Function
-`public: long __stdcall CEnumConnections::SetPos(unsigned long)` | 386 | Exported Function
-`public: long __stdcall CEnum::QueryInterface(struct _GUID const &,void * *,struct IUnknown *)` | 332 | Exported Function
-`public: long __stdcall CEnum::Reset(void)` | 357 | Exported Function
-`public: long __stdcall CEnum::SetPos(unsigned long)` | 384 | Exported Function
-`public: int __thiscall CWString::LoadStringW(void *,unsigned int)` | 316 | Exported Function
-`public: int __thiscall CUtlProps2::IsRequiredFalse(unsigned long,unsigned long)` | 306 | Exported Function
-`public: int __thiscall CUtlProps2::IsRequiredTrue(unsigned long,unsigned long)` | 307 | Exported Function
-`public: int __thiscall CUtlProps2::IsSetIfCan(unsigned long,unsigned long)` | 308 | Exported Function
-`public: int __thiscall CUtlProps2::FIsDefaultValue(unsigned long,unsigned long,struct tagVARIANT *)` | 223 | Exported Function
-`public: int __thiscall CUtlProps2::IsEmpty(unsigned long,unsigned long)` | 303 | Exported Function
-`public: int __thiscall CUtlProps2::IsPropSet(struct _GUID const *,unsigned long)` | 305 | Exported Function
-`public: int __thiscall CWString::GetAllocLength(void)const ` | 235 | Exported Function
-`public: int __thiscall CWString::GetLength(void)const ` | 263 | Exported Function
-`public: int __thiscall CWString::IsEmpty(void)const ` | 304 | Exported Function
-`public: int __thiscall CUtlProps2::IsTrue(unsigned long,unsigned long)` | 310 | Exported Function
-`public: int __thiscall CWString::Compare(unsigned short const *)const ` | 177 | Exported Function
-`public: int __thiscall CWString::FoundError(void)const ` | 230 | Exported Function
-`public: class CBaseObj & __thiscall CBaseObj::operator=(class CBaseObj const &)` | 89 | Exported Function
-`public: class CBaseObjBoko & __thiscall CBaseObjBoko::operator=(class CBaseObjBoko const &)` | 90 | Exported Function
-`public: class CBaseObjZombie & __thiscall CBaseObjZombie::operator=(class CBaseObjZombie const &)` | 91 | Exported Function
-`public: __thiscall IHashTbl::IHashTbl(void)` | 63 | Exported Function
-`public: __thiscall ISlotList::ISlotList(class ISlotList const &)` | 64 | Exported Function
-`public: __thiscall ISlotList::ISlotList(void)` | 65 | Exported Function
-`public: class CConnectData & __thiscall CConnectData::operator=(class CConnectData const &)` | 95 | Exported Function
-`public: class CCriticalSection * * __thiscall CBaseObj::GetCriticalSection(void)` | 247 | Exported Function
-`public: class CEnum & __thiscall CEnum::operator=(class CEnum const &)` | 96 | Exported Function
-`public: class CBitArray & __thiscall CBitArray::operator=(class CBitArray const &)` | 92 | Exported Function
-`public: class CClassFactory & __thiscall CClassFactory::operator=(class CClassFactory const &)` | 93 | Exported Function
-`public: class CConnectData & __thiscall CConnectData::operator=(class CConnectData &&)` | 94 | Exported Function
-`public: __thiscall IHashTbl::IHashTbl(class IHashTbl const &)` | 62 | Exported Function
-`public: __thiscall CWString::CWString(unsigned char const *)` | 56 | Exported Function
-`public: __thiscall CWString::CWString(unsigned short const *)` | 57 | Exported Function
-`public: __thiscall CWString::CWString(unsigned short const *,int)` | 58 | Exported Function
-`public: __thiscall CUtlPropsFastLookup2::CUtlPropsFastLookup2(unsigned long)` | 52 | Exported Function
-`public: __thiscall CWString::CWString(char const *)` | 55 | Exported Function
-`public: __thiscall CWString::CWString(class CWString const &)` | 53 | Exported Function
+`CClassFactory` | 18 | Exported Function
+`RetrieveColumnIdProps` | 368 | Exported Function
+`CBaseObj` | 13 | Exported Function
+`CBaseObj` | 14 | Exported Function
+`SetReasons` | 396 | Exported Function
+`ClearMemberVars` | 170 | Exported Function
+`FreeMemory` | 234 | Exported Function
+`GetUPropSetCount` | 288 | Exported Function
+`GetIndexofPropIdinPropSet` | 254 | Exported Function
+`GetUPropValIndex` | 290 | Exported Function
+`FInit` | 210 | Exported Function
+`SafeStrlen` | 372 | Exported Function
+`SafeDelete` | 371 | Exported Function
+`ForgetEvent` | 228 | Exported Function
+`AdjustRange` | 160 | Exported Function
+`sm_rgPropStatusFromInternStatus` | 422 | Exported Function
+`GetNthUnknown` | 268 | Exported Function
+`GetPropertySetIndex` | 278 | Exported Function
+`GetUPropInfoPtr` | 287 | Exported Function
+`SetProperty` | 393 | Exported Function
+`GetNthElement` | 267 | Exported Function
+`AddSlotToList` | 159 | Exported Function
+`DecoupleSlot` | 196 | Exported Function
+`CalcDescripBuffers` | 167 | Exported Function
+`GetCountofColids` | 245 | Exported Function
+`GetCountofWritablePropsInPropSet` | 246 | Exported Function
+`CUtlPropsFastLookup2` | 51 | Exported Function
+`Reset` | 356 | Exported Function
+`FInit` | 214 | Exported Function
+`FInit` | 212 | Exported Function
+`ZombieMustUnprepare` | 416 | Exported Function
+`fGetCopyOf` | 417 | Exported Function
+`fOkToFire` | 419 | Exported Function
+`FInit` | 216 | Exported Function
+`fInit` | 418 | Exported Function
+`fReasonNeeded` | 420 | Exported Function
+`FInit` | 213 | Exported Function
+`FInit` | 215 | Exported Function
+`AddHashTbl` | 150 | Exported Function
+`IsZombie` | 314 | Exported Function
+`operator` | 119 | Exported Function
+`operator` | 116 | Exported Function
+`operator` | 120 | Exported Function
+`operator` | 115 | Exported Function
+`operator` | 114 | Exported Function
+`operator` | 118 | Exported Function
+`GetBidID` | 238 | Exported Function
+`IsZombie` | 313 | Exported Function
+`ZombieMustUnprepare` | 415 | Exported Function
+`operator` | 121 | Exported Function
+`operator` | 122 | Exported Function
+`GetBaseObjectType` | 236 | Exported Function
+`fReasonNeeded` | 421 | Exported Function
+`SetSlot` | 397 | Exported Function
+`SetSlots` | 398 | Exported Function
+`Next` | 321 | Exported Function
+`ArrayEmpty` | 165 | Exported Function
+`FInit` | 211 | Exported Function
+`IsSlotSet` | 309 | Exported Function
+`Skip` | 408 | Exported Function
+`SetPos` | 385 | Exported Function
+`SetPos` | 386 | Exported Function
+`QueryInterface` | 332 | Exported Function
+`Reset` | 357 | Exported Function
+`SetPos` | 384 | Exported Function
+`LoadStringW` | 316 | Exported Function
+`IsRequiredFalse` | 306 | Exported Function
+`IsRequiredTrue` | 307 | Exported Function
+`IsSetIfCan` | 308 | Exported Function
+`FIsDefaultValue` | 223 | Exported Function
+`IsEmpty` | 303 | Exported Function
+`IsPropSet` | 305 | Exported Function
+`GetAllocLength` | 235 | Exported Function
+`GetLength` | 263 | Exported Function
+`IsEmpty` | 304 | Exported Function
+`IsTrue` | 310 | Exported Function
+`Compare` | 177 | Exported Function
+`FoundError` | 230 | Exported Function
+`operator` | 89 | Exported Function
+`operator` | 90 | Exported Function
+`operator` | 91 | Exported Function
+`IHashTbl` | 63 | Exported Function
+`ISlotList` | 64 | Exported Function
+`ISlotList` | 65 | Exported Function
+`operator` | 95 | Exported Function
+`GetCriticalSection` | 247 | Exported Function
+`operator` | 96 | Exported Function
+`operator` | 92 | Exported Function
+`operator` | 93 | Exported Function
+`operator` | 94 | Exported Function
+`IHashTbl` | 62 | Exported Function
+`CWString` | 56 | Exported Function
+`CWString` | 57 | Exported Function
+`CWString` | 58 | Exported Function
+`CUtlPropsFastLookup2` | 52 | Exported Function
+`CWString` | 55 | Exported Function
+`CWString` | 53 | Exported Function
 `public: __thiscall CWString::~CWString(void)` | 85 | Exported Function
-`public: __thiscall IBookmarkObj::IBookmarkObj(class IBookmarkObj const &)` | 60 | Exported Function
-`public: __thiscall IBookmarkObj::IBookmarkObj(void)` | 61 | Exported Function
-`public: __thiscall CWString::CWString(unsigned short,int)` | 54 | Exported Function
-`public: __thiscall CWString::CWString(void)` | 59 | Exported Function
-`public: __thiscall CWString::operator unsigned short const *(void)const ` | 124 | Exported Function
-`public: class CEnumConnectionPoints & __thiscall CEnumConnectionPoints::operator=(class CEnumConnectionPoints const &)` | 97 | Exported Function
-`public: class CUtlPropsFastLookup2 & __thiscall CUtlPropsFastLookup2::operator=(class CUtlPropsFastLookup2 const &)` | 113 | Exported Function
-`public: class CWString __thiscall CWString::ElementAt(unsigned short * const,int)const ` | 206 | Exported Function
-`public: class CWString __thiscall CWString::Mid(int)const ` | 319 | Exported Function
-`public: class CUtlPropInfo & __thiscall CUtlPropInfo::operator=(class CUtlPropInfo const &)` | 110 | Exported Function
-`public: class CUtlProps2 & __thiscall CUtlProps2::operator=(class CUtlProps2 const &)` | 111 | Exported Function
-`public: class CUtlPropsFastLookup2 & __thiscall CUtlPropsFastLookup2::operator=(class CUtlPropsFastLookup2 &&)` | 112 | Exported Function
-`public: class CWString const & __thiscall CWString::operator+=(unsigned short const *)` | 128 | Exported Function
-`public: class CWString const & __thiscall CWString::operator+=(unsigned short)` | 127 | Exported Function
-`public: class CWString const & __thiscall CWString::operator=(char const *)` | 117 | Exported Function
-`public: class CWString __thiscall CWString::Mid(int,int)const ` | 320 | Exported Function
-`public: class CWString const & __thiscall CWString::operator+=(char)` | 126 | Exported Function
-`public: class CWString const & __thiscall CWString::operator+=(class CWString const &)` | 125 | Exported Function
-`public: class CSlotListShort & __thiscall CSlotListShort::operator=(class CSlotListShort const &)` | 109 | Exported Function
-`public: class CGenericPooler & __thiscall CGenericPooler::operator=(class CGenericPooler const &)` | 101 | Exported Function
-`public: class CHashTbl & __thiscall CHashTbl::operator=(class CHashTbl const &)` | 102 | Exported Function
-`public: class CHashTblAggr & __thiscall CHashTblAggr::operator=(class CHashTblAggr const &)` | 103 | Exported Function
-`public: class CEnumConnections & __thiscall CEnumConnections::operator=(class CEnumConnections const &)` | 98 | Exported Function
-`public: class CExtBuffer & __thiscall CExtBuffer::operator=(class CExtBuffer const &)` | 99 | Exported Function
-`public: class CGenericPooler & __thiscall CGenericPooler::operator=(class CGenericPooler &&)` | 100 | Exported Function
-`public: class CRowsetConnectionPoint & __thiscall CRowsetConnectionPoint::operator=(class CRowsetConnectionPoint const &)` | 106 | Exported Function
-`public: class CRowsetConnectionPointContainer & __thiscall CRowsetConnectionPointContainer::operator=(class CRowsetConnectionPointContainer const &)` | 107 | Exported Function
-`public: class CSlotListLong & __thiscall CSlotListLong::operator=(class CSlotListLong const &)` | 108 | Exported Function
-`public: class CHeapDispenser & __thiscall CHeapDispenser::operator=(class CHeapDispenser &&)` | 104 | Exported Function
-`public: class CHeapDispenser & __thiscall CHeapDispenser::operator=(class CHeapDispenser const &)` | 105 | Exported Function
-`public: class CHeapDispenser * __thiscall CGenericPooler::GetHeapDispenser(void)` | 251 | Exported Function
+`IBookmarkObj` | 60 | Exported Function
+`IBookmarkObj` | 61 | Exported Function
+`CWString` | 54 | Exported Function
+`CWString` | 59 | Exported Function
+`operator` | 124 | Exported Function
+`operator` | 97 | Exported Function
+`operator` | 113 | Exported Function
+`ElementAt` | 206 | Exported Function
+`Mid` | 319 | Exported Function
+`operator` | 110 | Exported Function
+`operator` | 111 | Exported Function
+`operator` | 112 | Exported Function
+`operator` | 128 | Exported Function
+`operator` | 127 | Exported Function
+`operator` | 117 | Exported Function
+`Mid` | 320 | Exported Function
+`operator` | 126 | Exported Function
+`operator` | 125 | Exported Function
+`operator` | 109 | Exported Function
+`operator` | 101 | Exported Function
+`operator` | 102 | Exported Function
+`operator` | 103 | Exported Function
+`operator` | 98 | Exported Function
+`operator` | 99 | Exported Function
+`operator` | 100 | Exported Function
+`operator` | 106 | Exported Function
+`operator` | 107 | Exported Function
+`operator` | 108 | Exported Function
+`operator` | 104 | Exported Function
+`operator` | 105 | Exported Function
+`GetHeapDispenser` | 251 | Exported Function
 
 
 ## Signature

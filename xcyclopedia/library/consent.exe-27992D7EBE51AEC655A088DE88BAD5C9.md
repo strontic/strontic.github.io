@@ -18,6 +18,9 @@ SHA256 | `8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6`
 SHA384 | `E42F693B1A7A4EE8E31FA033FEB4B05367A25C3AEC9835366985357D002BCC46C09C1EE7FA4C987CB51DFE06B5E97BF8`
 SHA512 | `7D129C79A594D57DFB3C0726C8B51C263A551D991F47703BB06811E4AE68A7DD09F17476A540C16E51C0D9CA46527F399581A1A5F3A41C6FA73431F3A2E70ABC`
 SSDEEP | `1536:nzWTXOK1vnpop7BIFFlUDKcCjXifIOAmQt/f4k7eDkXV+JEIuaikX4sVQbf/7X2r:ydKtTqyfumQF7NoJeSX4sC7mzkMv`
+IMP | `522D83761201075834F05037F5307949`
+PESHA1 | `4447852F03AB225E6F4073760A9006AA76498608`
+PE256 | `8EFC32DE5E57A43DADD621C5728E677CAB95411AC9F28CDD0F39E61B19D34F7F`
 
 ## Runtime Data
 
@@ -41,6 +44,7 @@ C:\Windows\System32\MSASN1.dll |
 C:\Windows\System32\MSCTF.dll |
 C:\Windows\SYSTEM32\MsCtfMonitor.DLL |
 C:\Windows\SYSTEM32\MSIMG32.dll |
+C:\Windows\system32\MSUTB.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -56,14 +60,14 @@ C:\Windows\System32\win32u.dll |
 C:\Windows\SYSTEM32\WINSTA.dll |
 C:\Windows\SYSTEM32\WMsgAPI.dll |
 C:\Windows\SYSTEM32\WTSAPI32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -76,7 +80,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8f112431143a22baaafb448eefd63bf90e7691c890ac69a296574fd07ba03ec6/detection/
 
 
 ## Possible Misuse

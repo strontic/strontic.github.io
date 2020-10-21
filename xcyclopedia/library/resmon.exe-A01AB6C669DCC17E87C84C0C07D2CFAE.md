@@ -18,6 +18,9 @@ SHA256 | `956CD8B2C832E631917281B131EE9B137D2702FFC929AEF6FC2C71AD1C761F8B`
 SHA384 | `35A153CBFD8AD962B7E79A6B76A1A109CB446195C4B955413F4CC7743DCE4CCD07F821BB2A4DD0FB818F7E047FED731D`
 SHA512 | `40330B2D3D7E82812E6471E861408832FA637F72F309E12C3F9DC61CA219F117450D93C9D97BAA670045E95F1852C81D872F246E29BE68A501E5600A8FAC27BB`
 SSDEEP | `1536:T7n1b6HBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:TpOHghtYIo9piswTogiqQKy349`
+IMP | `C489853A1F490DCDAEA1E10E57C136E4`
+PESHA1 | `FA1E63FD53EE235DEA2FC7AFE943F978A189AC42`
+PE256 | `9A011C4230ED22092591A8B70B170062FCCE16A117777EE3D9FDA1AEB1D5DF11`
 
 ## Runtime Data
 
@@ -42,11 +45,8 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
-C:\Windows\system32\PROPSYS.dll |
 C:\Windows\system32\resmon.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
@@ -77,7 +77,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/956cd8b2c832e631917281b131ee9b137d2702ffc929aef6fc2c71ad1c761f8b/detection/
 
 ## File Similarity (ssdeep match)
 

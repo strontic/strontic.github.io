@@ -25,10 +25,10 @@ PE256 | `269EA1086A11CF7D9D63AD984FBC3BBDC1327B9E4E042D965847C93B7484800B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class std::shared_ptr<class csf::vmp::VoiceMailPlayback> __cdecl csf::vmp::VoiceMailPlayback::create(void)` | 4 | Exported Function
-`public: virtual __thiscall csf::vmp::VoiceMailPlayback::~VoiceMailPlayback(void)` | 2 | Exported Function
-`const csf::vmp::VoiceMailPlayback::``vftable'` | 3 | Exported Function
-`protected: __thiscall csf::vmp::VoiceMailPlayback::VoiceMailPlayback(void)` | 1 | Exported Function
+`create` | 4 | Exported Function
+`VoiceMailPlayback` | 2 | Exported Function
+`VoiceMailPlayback` | 3 | Exported Function
+`VoiceMailPlayback` | 1 | Exported Function
 
 
 ## Signature

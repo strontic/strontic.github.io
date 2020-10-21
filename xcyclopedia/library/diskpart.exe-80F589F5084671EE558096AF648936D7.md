@@ -18,6 +18,9 @@ SHA256 | `24F001784D68CC80E944422807C052C0D2E9E51C75C3CD578DA610576208ABAA`
 SHA384 | `59ECFE462D5B2A244734E3AF14A426D3AAE3ADFB1DFBE2E9B2DC3DFFCFAA3A3266D57DA8A67A31306C0D2C0C66690E52`
 SHA512 | `21AD20469076D47F76802F6ED7030F2E510C019E9D819AE6E266CB8AC3DD25B99E39C6CF0472106CD7C05CE424396538595A7CE18F1DAA5751D5C5097775F444`
 SSDEEP | `3072:FpPTkkd482hZtTG2IZOmaIoEuImgCh4NYXKAZWcclJDZZflnaK3QxiZeiO:Fpr9drn2MRagCh2CqzDLlnpTzO`
+IMP | `037D23EC0A7AA77EB4DD8BDA72D2A94E`
+PESHA1 | `9E1543FBCB732708A9ACF8522067236B035F998A`
+PE256 | `7E85440B153582A5A2621DE23AB13081A5E63D0821D67ECE594D24EC9C45E67B`
 
 ## Runtime Data
 
@@ -27,7 +30,7 @@ SSDEEP | `3072:FpPTkkd482hZtTG2IZOmaIoEuImgCh4NYXKAZWcclJDZZflnaK3QxiZeiO:Fpr9dr
 Microsoft DiskPart version 10.0.17763.1
 
 Copyright (C) Microsoft Corporation.
-On computer: EC2AMAZ-0F59E47
+On computer: Default-PC
 
 Microsoft DiskPart syntax:
 	diskpart [/s <script>] [/?]
@@ -43,6 +46,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\diskpart.exe |
 
@@ -64,7 +68,12 @@ C:\Windows\SysWOW64\diskpart.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/24f001784d68cc80e944422807c052c0d2e9e51c75c3cd578da610576208abaa/detection/
 
 
 ## Possible Misuse

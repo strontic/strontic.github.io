@@ -8,6 +8,10 @@ excerpt: What is msoobe.exe?
 * File Path: `C:\windows\system32\oobe\msoobe.exe`
 * Description: MSOOBE EXE
 
+## Screenshot
+
+![msoobe.exe](screenshots/msoobe.exe-A1C5AE013FA1BB8BBE2D2FCA6BA28341-3.png)
+
 ## Hashes
 
 Type | Hash

@@ -26,278 +26,278 @@ PE256 | `A9EA8141B89B5052073BE07F35AC8B6EA62ADAE62404953F72BCB689EF6B9607`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: int __thiscall MyUtilString::RemoveString(int,int)` | 330 | Exported Function
-`public: int __thiscall PIDUtilStringView::InsertString(int,unsigned short const *)` | 285 | Exported Function
-`public: int __thiscall PIDUtilStringView::RemoveString(int,int,int)` | 331 | Exported Function
-`public: int __thiscall MyUtilString::InsertChar(int,unsigned short)` | 283 | Exported Function
-`public: int __thiscall MyUtilString::InsertString(int,unsigned short const *)` | 284 | Exported Function
-`public: int __thiscall MyUtilString::RemoveChar(int)` | 329 | Exported Function
-`public: static class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __stdcall CInternationalUtils::GetLocale(void)` | 252 | Exported Function
-`public: static class IImageData * __stdcall CImageData::GetInstance(void)` | 233 | Exported Function
-`public: static class ILoadDriver * __stdcall CLoadDriver::GetInstance(void)` | 234 | Exported Function
-`public: int __thiscall PIDUtilStringView::ReplaceString(int,int,unsigned short const *)` | 334 | Exported Function
-`public: static class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __stdcall CInternationalUtils::GetKeyboard(void)` | 235 | Exported Function
-`public: static class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __stdcall CInternationalUtils::GetLanguage(void)` | 236 | Exported Function
-`public: int __thiscall COSK::CloseOSK(void *)` | 177 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Insert(int,unsigned short)` | 281 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(struct HINSTANCE__ *,unsigned int)` | 297 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(struct HINSTANCE__ *,unsigned int,unsigned short)` | 298 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FindOneOf(unsigned short const *)const ` | 196 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::GetEnvironmentVariableW(unsigned short const *)` | 228 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Insert(int,unsigned short const *)` | 282 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Replace(unsigned short,unsigned short)` | 332 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::ReverseFind(unsigned short)const ` | 335 | Exported Function
-`public: int __thiscall CLanguages::GetLanguageNativeDisplayNameCount(void)` | 242 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(unsigned int)` | 296 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Remove(unsigned short)` | 320 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Replace(unsigned short const *,unsigned short const *)` | 333 | Exported Function
-`public: static int __cdecl ATL::CSimpleStringT<unsigned short,0>::StringLength(char const *)` | 370 | Exported Function
-`public: static void __stdcall CImageData::SetInstance(class IImageData *)` | 347 | Exported Function
-`public: static void __stdcall CLoadDriver::SetInstance(class ILoadDriver *)` | 348 | Exported Function
-`public: struct _BLOCKED_REASON * & __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::operator[](int)` | 117 | Exported Function
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyCharsOverlapped(unsigned short *,unsigned int,unsigned short const *,int)` | 186 | Exported Function
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyCharsOverlapped(unsigned short *,unsigned short const *,int)` | 187 | Exported Function
-`public: static void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Construct(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > *)` | 183 | Exported Function
-`public: struct ATL::IAtlStringMgr * __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::GetManager(void)const ` | 259 | Exported Function
-`public: unsigned short * __thiscall ATL::CSimpleStringT<unsigned short,0>::GetBuffer(int)` | 210 | Exported Function
-`public: unsigned short * __thiscall ATL::CSimpleStringT<unsigned short,0>::GetBuffer(void)` | 211 | Exported Function
-`public: struct _BLOCKED_REASON * * __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::GetData(void)const ` | 216 | Exported Function
-`public: struct _BLOCKED_REASON * const & __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::operator[](int)const ` | 118 | Exported Function
-`public: struct ATL::IAtlStringMgr * __thiscall ATL::CSimpleStringT<unsigned short,0>::GetManager(void)const ` | 258 | Exported Function
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyChars(unsigned short *,unsigned short const *,int)` | 185 | Exported Function
-`public: static int __stdcall CInternationalUtils::IsLanguageEnabled(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 293 | Exported Function
-`public: static int __stdcall CInternationalUtils::SetHideOOBELang(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 346 | Exported Function
-`public: static int __stdcall CInternationalUtils::SetTargetKeyboard(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 356 | Exported Function
-`public: static int __cdecl ATL::CSimpleStringT<unsigned short,0>::StringLength(unsigned short const *)` | 371 | Exported Function
-`public: static int __stdcall CInternationalUtils::GetShowLangKeyboard(void)` | 266 | Exported Function
-`public: static int __stdcall CInternationalUtils::GetShowLangNeutral(void)` | 267 | Exported Function
-`public: static int __stdcall CInternationalUtils::SetUILanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 360 | Exported Function
-`public: static long __stdcall CInternationalUtils::PublishLanguageGatherEvent(void *)` | 312 | Exported Function
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyChars(unsigned short *,unsigned int,unsigned short const *,int)` | 184 | Exported Function
-`public: static int __stdcall CInternationalUtils::SetTargetLanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 357 | Exported Function
-`public: static int __stdcall CInternationalUtils::SetTargetLayeredDriver(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 358 | Exported Function
-`public: static int __stdcall CInternationalUtils::SetTargetLocale(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 359 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Find(unsigned short,int)const ` | 194 | Exported Function
-`public: class MyUtilString & __thiscall MyUtilString::operator=(class MyUtilString &&)` | 114 | Exported Function
-`public: class MyUtilString & __thiscall MyUtilString::operator=(class MyUtilString const &)` | 115 | Exported Function
-`public: class PIDUtilStringView & __thiscall PIDUtilStringView::operator=(class PIDUtilStringView const &)` | 116 | Exported Function
-`public: class IImageData & __thiscall IImageData::operator=(class IImageData const &)` | 111 | Exported Function
-`public: class IProductKeyModule & __thiscall IProductKeyModule::operator=(class IProductKeyModule &&)` | 112 | Exported Function
-`public: class IProductKeyModule & __thiscall IProductKeyModule::operator=(class IProductKeyModule const &)` | 113 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::Remove(class CDriverItem const &)` | 318 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::RemoveAt(int)` | 327 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::SetAtIndex(int,class CDriverItem const &)` | 341 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::Add(class CDriverItem const &)` | 159 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::Find(class CDriverItem const &)const ` | 192 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::GetSize(void)const ` | 270 | Exported Function
-`public: class IImageData & __thiscall IImageData::operator=(class IImageData &&)` | 110 | Exported Function
-`public: class CLayeredDrivers & __thiscall CLayeredDrivers::operator=(class CLayeredDrivers const &)` | 104 | Exported Function
-`public: class CLoadDriver & __thiscall CLoadDriver::operator=(class CLoadDriver const &)` | 105 | Exported Function
-`public: class CLocale & __thiscall CLocale::operator=(class CLocale const &)` | 106 | Exported Function
-`public: class CLanguageItem const & __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::operator[](int)const ` | 124 | Exported Function
-`public: class CLanguages & __thiscall CLanguages::operator=(class CLanguages const &)` | 102 | Exported Function
-`public: class CLayeredDriver & __thiscall CLayeredDriver::operator=(class CLayeredDriver const &)` | 103 | Exported Function
-`public: class CLocales & __thiscall CLocales::operator=(class CLocales const &)` | 107 | Exported Function
-`public: class COSK & __thiscall COSK::operator=(class COSK const &)` | 108 | Exported Function
-`public: class CProductKeyModule & __thiscall CProductKeyModule::operator=(class CProductKeyModule const &)` | 109 | Exported Function
-`public: class CLocale * & __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::operator[](int)` | 119 | Exported Function
-`public: class CLocale * * __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::GetData(void)const ` | 217 | Exported Function
-`public: class CLocale * const & __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::operator[](int)const ` | 120 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::Add(class CLanguageItem const &)` | 160 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::SetAtIndex(int,struct _BLOCKED_REASON * const &)` | 339 | Exported Function
-`public: int __thiscall ATL::CSimpleStringT<unsigned short,0>::GetAllocLength(void)const ` | 208 | Exported Function
-`public: int __thiscall ATL::CSimpleStringT<unsigned short,0>::GetLength(void)const ` | 251 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::GetSize(void)const ` | 268 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::Remove(struct _BLOCKED_REASON * const &)` | 316 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::RemoveAt(int)` | 325 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CompareNoCase(unsigned short const *)const ` | 181 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Delete(int,int)` | 188 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Find(unsigned short const *,int)const ` | 195 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Collate(unsigned short const *)const ` | 178 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CollateNoCase(unsigned short const *)const ` | 179 | Exported Function
-`public: int __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Compare(unsigned short const *)const ` | 180 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::Find(struct _BLOCKED_REASON * const &)const ` | 190 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::RemoveAt(int)` | 328 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::SetAtIndex(int,class CLanguageItem const &)` | 342 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::Add(class CLocale * const &)` | 158 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::Find(class CLanguageItem const &)const ` | 193 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::GetSize(void)const ` | 271 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::Remove(class CLanguageItem const &)` | 319 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::RemoveAt(int)` | 326 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::SetAtIndex(int,class CLocale * const &)` | 340 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::Add(struct _BLOCKED_REASON * const &)` | 157 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::Find(class CLocale * const &)const ` | 191 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::GetSize(void)const ` | 269 | Exported Function
-`public: int __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::Remove(class CLocale * const &)` | 317 | Exported Function
-`public: unsigned short * __thiscall ATL::CSimpleStringT<unsigned short,0>::GetBufferSetLength(int)` | 212 | Exported Function
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormat(unsigned short const *,...)` | 167 | Exported Function
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Format(unsigned int,...)` | 198 | Exported Function
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Format(unsigned short const *,...)` | 199 | Exported Function
-`public: virtual void __thiscall CLoadDriver::ClearDriverList(void)` | 173 | Exported Function
-`public: void * __thiscall COSK::ShowOSK(int,unsigned short *,unsigned short *)` | 365 | Exported Function
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormat(unsigned int,...)` | 166 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::RemoveAll(void)` | 323 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::InternalSetAtIndex(int,class CLanguageItem const &)` | 290 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::RemoveAll(void)` | 324 | Exported Function
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageW(unsigned int,...)` | 201 | Exported Function
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageW(unsigned short const *,...)` | 202 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::InternalSetAtIndex(int,class CDriverItem const &)` | 289 | Exported Function
-`public: virtual void __thiscall CImageData::SetFoundationFlag(int)` | 344 | Exported Function
-`public: virtual unsigned int __thiscall CLoadDriver::GetCount(void)` | 215 | Exported Function
-`public: virtual unsigned int __thiscall CProductKeyModule::OnCallback(struct WDS_DATA const *)` | 306 | Exported Function
-`public: virtual unsigned short * __thiscall CImageData::GetColumnDataAtIndex(unsigned int)` | 213 | Exported Function
-`public: virtual int __thiscall CProductKeyModule::SetActivation(unsigned long)` | 337 | Exported Function
-`public: virtual int __thiscall CProductKeyModule::ValidateProductKey(void *,unsigned short *,void (__stdcall*)(void *,unsigned int))` | 386 | Exported Function
-`public: virtual unsigned int __thiscall CImageData::GetCount(void)` | 214 | Exported Function
-`public: virtual unsigned short * __thiscall CImageData::GetImageIdentifier(void)` | 232 | Exported Function
-`public: virtual void __thiscall CImageData::FreeInstance(void)` | 205 | Exported Function
-`public: virtual void __thiscall CImageData::SetEditionName(unsigned short *)` | 343 | Exported Function
-`public: virtual unsigned short * __thiscall CImageData::GetDefaultLanguage(void)` | 223 | Exported Function
-`public: virtual unsigned short * __thiscall CImageData::GetDescription(void)` | 225 | Exported Function
-`public: virtual unsigned short * __thiscall CImageData::GetEditionName(void)` | 227 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::InternalSetAtIndex(int,class CLocale * const &)` | 288 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Truncate(int)` | 383 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::UnlockBuffer(void)` | 384 | Exported Function
-`public: void __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormatV(unsigned short const *,char *)` | 168 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::SetManager(struct ATL::IAtlStringMgr *)` | 351 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::SetString(unsigned short const *)` | 353 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::SetString(unsigned short const *,int)` | 354 | Exported Function
-`public: void __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::OemToCharA(void)` | 305 | Exported Function
-`public: void __thiscall MyUtilString::ClearString(void)` | 174 | Exported Function
-`public: void __thiscall PIDUtilStringView::ClearString(void)` | 175 | Exported Function
-`public: void __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CharToOemA(void)` | 171 | Exported Function
-`public: void __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageV(unsigned short const *,char * *)` | 200 | Exported Function
-`public: void __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatV(unsigned short const *,char *)` | 203 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::SetAt(int,unsigned short)` | 338 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Append(class ATL::CSimpleStringT<unsigned short,0> const &)` | 162 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Append(unsigned short const *)` | 163 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Append(unsigned short const *,int)` | 164 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::RemoveAll(void)` | 322 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::InternalSetAtIndex(int,struct _BLOCKED_REASON * const &)` | 287 | Exported Function
-`public: void __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::RemoveAll(void)` | 321 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Preallocate(int)` | 309 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::ReleaseBuffer(int)` | 314 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::ReleaseBufferSetLength(int)` | 315 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::AppendChar(unsigned short)` | 165 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Empty(void)` | 189 | Exported Function
-`public: void __thiscall ATL::CSimpleStringT<unsigned short,0>::FreeExtra(void)` | 204 | Exported Function
-`public: virtual int __thiscall CProductKeyModule::Initialize(void *)` | 280 | Exported Function
-`public: virtual class CLanguage __thiscall CLanguages::GetLanguageFromNativeDisplayName(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 240 | Exported Function
-`public: virtual class CLanguage __thiscall CLanguages::GetLanguageFromNativeName(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 241 | Exported Function
-`public: virtual class CLanguage __thiscall CLanguages::operator[](int)` | 128 | Exported Function
-`public: virtual class CLanguage __thiscall CLanguages::GetDefaultFallbackLanguage(void)` | 222 | Exported Function
-`public: virtual class CLanguage __thiscall CLanguages::GetLanguage(int)` | 237 | Exported Function
-`public: virtual class CLanguage __thiscall CLanguages::GetLanguageFromLocalizedName(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 239 | Exported Function
-`public: virtual class CLayeredDriver __thiscall CLayeredDrivers::operator[](int)` | 129 | Exported Function
-`public: virtual class CLocale __thiscall CLocales::GetLocale(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 254 | Exported Function
-`public: virtual class CLocale __thiscall CLocales::GetLocale(int)` | 253 | Exported Function
-`public: virtual class CLanguageItem & __thiscall CImageData::operator[](unsigned int)` | 126 | Exported Function
-`public: virtual class CLayeredDriver __thiscall CLayeredDrivers::GetLayeredDriver(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 244 | Exported Function
-`public: virtual class CLayeredDriver __thiscall CLayeredDrivers::GetLayeredDriver(int)` | 243 | Exported Function
-`public: virtual class CKeyboardLayout __thiscall CKeyboardLayouts::operator[](int)` | 127 | Exported Function
-`public: unsigned short __thiscall ATL::CSimpleStringT<unsigned short,0>::GetAt(int)const ` | 209 | Exported Function
-`public: unsigned short __thiscall ATL::CSimpleStringT<unsigned short,0>::operator[](int)const ` | 125 | Exported Function
-`public: unsigned short const * __thiscall ATL::CSimpleStringT<unsigned short,0>::GetString(void)const ` | 272 | Exported Function
-`public: unsigned short * __thiscall ATL::CSimpleStringT<unsigned short,0>::LockBuffer(void)` | 299 | Exported Function
-`public: unsigned short * __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AllocSysString(void)const ` | 161 | Exported Function
-`public: unsigned short * __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SetSysString(unsigned short * *)const ` | 355 | Exported Function
-`public: virtual class CDriverItem & __thiscall CLoadDriver::operator[](unsigned int)` | 130 | Exported Function
-`public: virtual class CKeyboardLayout __thiscall CKeyboardLayouts::GetLayout(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 247 | Exported Function
-`public: virtual class CKeyboardLayout __thiscall CKeyboardLayouts::GetLayout(int)` | 246 | Exported Function
-`public: unsigned short const * __thiscall MyUtilString::GetString(void)` | 273 | Exported Function
-`public: unsigned short const * __thiscall PIDUtilStringView::GetPidStr(void)` | 263 | Exported Function
+`RemoveString` | 330 | Exported Function
+`InsertString` | 285 | Exported Function
+`RemoveString` | 331 | Exported Function
+`InsertChar` | 283 | Exported Function
+`InsertString` | 284 | Exported Function
+`RemoveChar` | 329 | Exported Function
+`GetLocale` | 252 | Exported Function
+`GetInstance` | 233 | Exported Function
+`GetInstance` | 234 | Exported Function
+`ReplaceString` | 334 | Exported Function
+`GetKeyboard` | 235 | Exported Function
+`GetLanguage` | 236 | Exported Function
+`CloseOSK` | 177 | Exported Function
+`Insert` | 281 | Exported Function
+`LoadStringW` | 297 | Exported Function
+`LoadStringW` | 298 | Exported Function
+`FindOneOf` | 196 | Exported Function
+`GetEnvironmentVariableW` | 228 | Exported Function
+`Insert` | 282 | Exported Function
+`Replace` | 332 | Exported Function
+`ReverseFind` | 335 | Exported Function
+`GetLanguageNativeDisplayNameCount` | 242 | Exported Function
+`LoadStringW` | 296 | Exported Function
+`Remove` | 320 | Exported Function
+`Replace` | 333 | Exported Function
+`StringLength` | 370 | Exported Function
+`SetInstance` | 347 | Exported Function
+`SetInstance` | 348 | Exported Function
+`operator` | 117 | Exported Function
+`CopyCharsOverlapped` | 186 | Exported Function
+`CopyCharsOverlapped` | 187 | Exported Function
+`ChTraitsCRT` | 183 | Exported Function
+`GetManager` | 259 | Exported Function
+`GetBuffer` | 210 | Exported Function
+`GetBuffer` | 211 | Exported Function
+`GetData` | 216 | Exported Function
+`operator` | 118 | Exported Function
+`GetManager` | 258 | Exported Function
+`CopyChars` | 185 | Exported Function
+`ChTraitsCRT` | 293 | Exported Function
+`ChTraitsCRT` | 346 | Exported Function
+`ChTraitsCRT` | 356 | Exported Function
+`StringLength` | 371 | Exported Function
+`GetShowLangKeyboard` | 266 | Exported Function
+`GetShowLangNeutral` | 267 | Exported Function
+`ChTraitsCRT` | 360 | Exported Function
+`PublishLanguageGatherEvent` | 312 | Exported Function
+`CopyChars` | 184 | Exported Function
+`ChTraitsCRT` | 357 | Exported Function
+`ChTraitsCRT` | 358 | Exported Function
+`ChTraitsCRT` | 359 | Exported Function
+`Find` | 194 | Exported Function
+`operator` | 114 | Exported Function
+`operator` | 115 | Exported Function
+`operator` | 116 | Exported Function
+`operator` | 111 | Exported Function
+`operator` | 112 | Exported Function
+`operator` | 113 | Exported Function
+`Remove` | 318 | Exported Function
+`RemoveAt` | 327 | Exported Function
+`SetAtIndex` | 341 | Exported Function
+`Add` | 159 | Exported Function
+`Find` | 192 | Exported Function
+`GetSize` | 270 | Exported Function
+`operator` | 110 | Exported Function
+`operator` | 104 | Exported Function
+`operator` | 105 | Exported Function
+`operator` | 106 | Exported Function
+`operator` | 124 | Exported Function
+`operator` | 102 | Exported Function
+`operator` | 103 | Exported Function
+`operator` | 107 | Exported Function
+`operator` | 108 | Exported Function
+`operator` | 109 | Exported Function
+`operator` | 119 | Exported Function
+`GetData` | 217 | Exported Function
+`operator` | 120 | Exported Function
+`Add` | 160 | Exported Function
+`SetAtIndex` | 339 | Exported Function
+`GetAllocLength` | 208 | Exported Function
+`GetLength` | 251 | Exported Function
+`GetSize` | 268 | Exported Function
+`Remove` | 316 | Exported Function
+`RemoveAt` | 325 | Exported Function
+`CompareNoCase` | 181 | Exported Function
+`Delete` | 188 | Exported Function
+`Find` | 195 | Exported Function
+`Collate` | 178 | Exported Function
+`CollateNoCase` | 179 | Exported Function
+`Compare` | 180 | Exported Function
+`Find` | 190 | Exported Function
+`RemoveAt` | 328 | Exported Function
+`SetAtIndex` | 342 | Exported Function
+`Add` | 158 | Exported Function
+`Find` | 193 | Exported Function
+`GetSize` | 271 | Exported Function
+`Remove` | 319 | Exported Function
+`RemoveAt` | 326 | Exported Function
+`SetAtIndex` | 340 | Exported Function
+`Add` | 157 | Exported Function
+`Find` | 191 | Exported Function
+`GetSize` | 269 | Exported Function
+`Remove` | 317 | Exported Function
+`GetBufferSetLength` | 212 | Exported Function
+`AppendFormat` | 167 | Exported Function
+`Format` | 198 | Exported Function
+`Format` | 199 | Exported Function
+`ClearDriverList` | 173 | Exported Function
+`ShowOSK` | 365 | Exported Function
+`AppendFormat` | 166 | Exported Function
+`RemoveAll` | 323 | Exported Function
+`InternalSetAtIndex` | 290 | Exported Function
+`RemoveAll` | 324 | Exported Function
+`FormatMessageW` | 201 | Exported Function
+`FormatMessageW` | 202 | Exported Function
+`InternalSetAtIndex` | 289 | Exported Function
+`SetFoundationFlag` | 344 | Exported Function
+`GetCount` | 215 | Exported Function
+`OnCallback` | 306 | Exported Function
+`GetColumnDataAtIndex` | 213 | Exported Function
+`SetActivation` | 337 | Exported Function
+`ValidateProductKey` | 386 | Exported Function
+`GetCount` | 214 | Exported Function
+`GetImageIdentifier` | 232 | Exported Function
+`FreeInstance` | 205 | Exported Function
+`SetEditionName` | 343 | Exported Function
+`GetDefaultLanguage` | 223 | Exported Function
+`GetDescription` | 225 | Exported Function
+`GetEditionName` | 227 | Exported Function
+`InternalSetAtIndex` | 288 | Exported Function
+`Truncate` | 383 | Exported Function
+`UnlockBuffer` | 384 | Exported Function
+`AppendFormatV` | 168 | Exported Function
+`IAtlStringMgr` | 351 | Exported Function
+`SetString` | 353 | Exported Function
+`SetString` | 354 | Exported Function
+`OemToCharA` | 305 | Exported Function
+`ClearString` | 174 | Exported Function
+`ClearString` | 175 | Exported Function
+`CharToOemA` | 171 | Exported Function
+`FormatMessageV` | 200 | Exported Function
+`FormatV` | 203 | Exported Function
+`SetAt` | 338 | Exported Function
+`CSimpleStringT` | 162 | Exported Function
+`Append` | 163 | Exported Function
+`Append` | 164 | Exported Function
+`RemoveAll` | 322 | Exported Function
+`InternalSetAtIndex` | 287 | Exported Function
+`RemoveAll` | 321 | Exported Function
+`Preallocate` | 309 | Exported Function
+`ReleaseBuffer` | 314 | Exported Function
+`ReleaseBufferSetLength` | 315 | Exported Function
+`AppendChar` | 165 | Exported Function
+`Empty` | 189 | Exported Function
+`FreeExtra` | 204 | Exported Function
+`Initialize` | 280 | Exported Function
+`ChTraitsCRT` | 240 | Exported Function
+`ChTraitsCRT` | 241 | Exported Function
+`operator` | 128 | Exported Function
+`GetDefaultFallbackLanguage` | 222 | Exported Function
+`GetLanguage` | 237 | Exported Function
+`ChTraitsCRT` | 239 | Exported Function
+`operator` | 129 | Exported Function
+`ChTraitsCRT` | 254 | Exported Function
+`GetLocale` | 253 | Exported Function
+`operator` | 126 | Exported Function
+`ChTraitsCRT` | 244 | Exported Function
+`GetLayeredDriver` | 243 | Exported Function
+`operator` | 127 | Exported Function
+`GetAt` | 209 | Exported Function
+`operator` | 125 | Exported Function
+`GetString` | 272 | Exported Function
+`LockBuffer` | 299 | Exported Function
+`AllocSysString` | 161 | Exported Function
+`SetSysString` | 355 | Exported Function
+`operator` | 130 | Exported Function
+`ChTraitsCRT` | 247 | Exported Function
+`GetLayout` | 246 | Exported Function
+`GetString` | 273 | Exported Function
+`GetPidStr` | 263 | Exported Function
 `public: virtual __thiscall PIDUtilStringView::~PIDUtilStringView(void)` | 82 | Exported Function
-`public: virtual class CLocale __thiscall CLocales::operator[](int)` | 131 | Exported Function
-`public: virtual int __thiscall CLoadDriver::GetHardwareFilter(void)` | 230 | Exported Function
-`public: virtual int __thiscall CLoadDriver::GetShowFlagEarlyF6(void)` | 265 | Exported Function
-`public: virtual int __thiscall CLoadDriver::Initialize(void *)` | 278 | Exported Function
-`public: virtual int __thiscall CLoadDriver::CanReadMedia(void)` | 170 | Exported Function
-`public: virtual int __thiscall CLoadDriver::GetDefault(void)` | 221 | Exported Function
-`public: virtual int __thiscall CLoadDriver::GetDriverListAsync(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,int,void (__stdcall*)(void *,int),void *)` | 226 | Exported Function
-`public: virtual int __thiscall CLocales::Initialize(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 279 | Exported Function
-`public: virtual int __thiscall CLocales::SetUILanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 364 | Exported Function
-`public: virtual int __thiscall CProductKeyModule::GetShowFlag(void)` | 264 | Exported Function
-`public: virtual int __thiscall CLoadDriver::InstallDriver(long,void (__stdcall*)(void *,int),void *)` | 286 | Exported Function
-`public: virtual int __thiscall CLoadDriver::SetHardwareFilter(int)` | 345 | Exported Function
-`public: virtual int __thiscall CLocales::GetLocaleCount(void)` | 255 | Exported Function
-`public: virtual int __thiscall CLayeredDrivers::SetUILanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 363 | Exported Function
-`public: virtual int __thiscall CKeyboardLayouts::GetLayoutCount(void)` | 248 | Exported Function
-`public: virtual int __thiscall CKeyboardLayouts::Initialize(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 275 | Exported Function
-`public: virtual int __thiscall CKeyboardLayouts::SetUILanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 361 | Exported Function
-`public: virtual int __thiscall CImageData::GetFoundationFlag(void)` | 229 | Exported Function
-`public: virtual int __thiscall CImageData::Initialize(void *)` | 274 | Exported Function
-`public: virtual int __thiscall CImageData::PopulateImageData(unsigned short const *,unsigned short *,int,struct HINSTANCE__ *)` | 308 | Exported Function
-`public: virtual int __thiscall CLayeredDrivers::GetLayeredDriverCount(void)` | 245 | Exported Function
-`public: virtual int __thiscall CLayeredDrivers::Initialize(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 277 | Exported Function
-`public: virtual int __thiscall CLayeredDrivers::SetLocale(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 350 | Exported Function
-`public: virtual int __thiscall CLanguages::GetLanguageCount(void)` | 238 | Exported Function
-`public: virtual int __thiscall CLanguages::Initialize(void)` | 276 | Exported Function
-`public: virtual int __thiscall CLanguages::SetUILanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 362 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::~CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >(void)` | 65 | Exported Function
-`public: __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >(class ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> > const &)` | 1 | Exported Function
-`public: __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >(void)` | 2 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::~CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >(void)` | 67 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >(class ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> > const &)` | 3 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >(void)` | 4 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(struct ATL::IAtlStringMgr *)` | 11 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(unsigned short const *,int,struct ATL::IAtlStringMgr *)` | 12 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(unsigned short const *,struct ATL::IAtlStringMgr *)` | 13 | Exported Function
-`public: __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::~CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >(void)` | 64 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(class ATL::CSimpleStringT<unsigned short,0> const &)` | 9 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(class ATL::CSimpleStringT<unsigned short,1> const &)` | 10 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >(void)` | 8 | Exported Function
-`private: void __thiscall CLanguages::v_DeleteLanguages(void)` | 394 | Exported Function
-`private: void __thiscall CLayeredDrivers::v_DeleteLayeredDrivers(void)` | 395 | Exported Function
-`private: void __thiscall CProductKeyModule::SetProductKey(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 352 | Exported Function
-`private: void __thiscall CImageData::v_GetAvailableLanguages(unsigned short const *)` | 400 | Exported Function
-`private: void __thiscall CImageData::v_GetBlockedReasons(unsigned short const *)` | 403 | Exported Function
-`private: void __thiscall CKeyboardLayouts::v_DeleteKeyboardLayouts(void)` | 393 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >(void)` | 6 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::~CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >(void)` | 66 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >(class ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> > const &)` | 7 | Exported Function
-`protected: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::Concatenate(class ATL::CSimpleStringT<unsigned short,0> &,unsigned short const *,int,unsigned short const *,int)` | 182 | Exported Function
-`protected: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::ThrowMemoryException(void)` | 372 | Exported Function
-`public: __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >(class ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> > const &)` | 5 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::operator class ATL::CSimpleStringT<unsigned short,1> &(void)` | 132 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const *,struct ATL::IAtlStringMgr *)` | 29 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short,int)` | 18 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(void)` | 30 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const *)` | 26 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const *,int)` | 27 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const *,int,struct ATL::IAtlStringMgr *)` | 28 | Exported Function
-`public: __thiscall CInternationalUtils::CInternationalUtils(void)` | 33 | Exported Function
+`operator` | 131 | Exported Function
+`GetHardwareFilter` | 230 | Exported Function
+`GetShowFlagEarlyF6` | 265 | Exported Function
+`Initialize` | 278 | Exported Function
+`CanReadMedia` | 170 | Exported Function
+`GetDefault` | 221 | Exported Function
+`ChTraitsCRT` | 226 | Exported Function
+`ChTraitsCRT` | 279 | Exported Function
+`ChTraitsCRT` | 364 | Exported Function
+`GetShowFlag` | 264 | Exported Function
+`InstallDriver` | 286 | Exported Function
+`SetHardwareFilter` | 345 | Exported Function
+`GetLocaleCount` | 255 | Exported Function
+`ChTraitsCRT` | 363 | Exported Function
+`GetLayoutCount` | 248 | Exported Function
+`ChTraitsCRT` | 275 | Exported Function
+`ChTraitsCRT` | 361 | Exported Function
+`GetFoundationFlag` | 229 | Exported Function
+`Initialize` | 274 | Exported Function
+`PopulateImageData` | 308 | Exported Function
+`GetLayeredDriverCount` | 245 | Exported Function
+`ChTraitsCRT` | 277 | Exported Function
+`ChTraitsCRT` | 350 | Exported Function
+`GetLanguageCount` | 238 | Exported Function
+`Initialize` | 276 | Exported Function
+`ChTraitsCRT` | 362 | Exported Function
+`CSimpleArrayEqualHelper` | 65 | Exported Function
+`CSimpleArrayEqualHelper` | 1 | Exported Function
+`CSimpleArrayEqualHelper` | 2 | Exported Function
+`CSimpleArrayEqualHelper` | 67 | Exported Function
+`CSimpleArrayEqualHelper` | 3 | Exported Function
+`CSimpleArrayEqualHelper` | 4 | Exported Function
+`IAtlStringMgr` | 11 | Exported Function
+`IAtlStringMgr` | 12 | Exported Function
+`IAtlStringMgr` | 13 | Exported Function
+`CSimpleArrayEqualHelper` | 64 | Exported Function
+`CSimpleStringT` | 9 | Exported Function
+`CSimpleStringT` | 10 | Exported Function
+`CSimpleArrayEqualHelper` | 8 | Exported Function
+`v_DeleteLanguages` | 394 | Exported Function
+`v_DeleteLayeredDrivers` | 395 | Exported Function
+`ChTraitsCRT` | 352 | Exported Function
+`v_GetAvailableLanguages` | 400 | Exported Function
+`v_GetBlockedReasons` | 403 | Exported Function
+`v_DeleteKeyboardLayouts` | 393 | Exported Function
+`CSimpleArrayEqualHelper` | 6 | Exported Function
+`CSimpleArrayEqualHelper` | 66 | Exported Function
+`CSimpleArrayEqualHelper` | 7 | Exported Function
+`CSimpleStringT` | 182 | Exported Function
+`ThrowMemoryException` | 372 | Exported Function
+`CSimpleArrayEqualHelper` | 5 | Exported Function
+`CSimpleStringT` | 132 | Exported Function
+`IAtlStringMgr` | 29 | Exported Function
+`ChTraitsCRT` | 18 | Exported Function
+`ChTraitsCRT` | 30 | Exported Function
+`ChTraitsCRT` | 26 | Exported Function
+`ChTraitsCRT` | 27 | Exported Function
+`IAtlStringMgr` | 28 | Exported Function
+`CInternationalUtils` | 33 | Exported Function
 `public: __thiscall CInternationalUtils::~CInternationalUtils(void)` | 71 | Exported Function
-`public: __thiscall CKeyboardLayout::CKeyboardLayout(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 35 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator class ATL::CSimpleStringT<unsigned short,1> &(void)` | 134 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::~CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(void)` | 69 | Exported Function
-`public: __thiscall CImageData::CImageData(class CImageData const &)` | 32 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned char const *,struct ATL::IAtlStringMgr *)` | 25 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const *,int)` | 21 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const *,int,struct ATL::IAtlStringMgr *)` | 22 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const *,struct ATL::IAtlStringMgr *)` | 23 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::operator unsigned short const *(void)const ` | 133 | Exported Function
-`public: __thiscall ATL::CSimpleStringT<unsigned short,0>::~CSimpleStringT<unsigned short,0>(void)` | 68 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const *)` | 20 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct tagVARIANT const &)` | 14 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct tagVARIANT const &,struct ATL::IAtlStringMgr *)` | 15 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned char const *)` | 24 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char,int)` | 17 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > const &)` | 16 | Exported Function
-`public: __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct ATL::IAtlStringMgr *)` | 19 | Exported Function
-`private: void __thiscall CImageData::v_FreeReasons(void)` | 398 | Exported Function
-`private: int __thiscall CKeyboardLayouts::v_InitInputProcs(void)` | 405 | Exported Function
-`private: int __thiscall CKeyboardLayouts::v_LoadInputProcs(void)` | 408 | Exported Function
-`private: int __thiscall CKeyboardLayouts::v_PopulateKeyboardLayouts(void)` | 411 | Exported Function
-`private: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLanguages::v_GetLangIniPath(void)` | 404 | Exported Function
-`private: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall PIDUtilStringView::v_MakeValidString(unsigned short const *)` | 410 | Exported Function
-`private: class CLanguage * __thiscall CLanguages::v_InitLanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 406 | Exported Function
-`private: int __thiscall CLocales::v_PopulateLocales(void)` | 414 | Exported Function
-`private: int __thiscall CProductKeyModule::IsDigitalMarkerKeyValid(void)` | 291 | Exported Function
-`private: int __thiscall CProductKeyModule::IsVolumeLicensingKeyValid(void)` | 294 | Exported Function
-`private: int __thiscall CLanguages::v_PopulateLanguages(void)` | 412 | Exported Function
-`private: int __thiscall CLayeredDrivers::v_PopulateLayeredDrivers(void)` | 413 | Exported Function
-`private: int __thiscall CLoadDriver::PopulateDriverList(void)` | 307 | Exported Function
-`private: bool __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CheckImplicitLoad(void const *)` | 172 | Exported Function
+`ChTraitsCRT` | 35 | Exported Function
+`CSimpleStringT` | 134 | Exported Function
+`ChTraitsCRT` | 69 | Exported Function
+`CImageData` | 32 | Exported Function
+`IAtlStringMgr` | 25 | Exported Function
+`ChTraitsCRT` | 21 | Exported Function
+`IAtlStringMgr` | 22 | Exported Function
+`IAtlStringMgr` | 23 | Exported Function
+`operator` | 133 | Exported Function
+`CSimpleStringT` | 68 | Exported Function
+`ChTraitsCRT` | 20 | Exported Function
+`ChTraitsCRT` | 14 | Exported Function
+`IAtlStringMgr` | 15 | Exported Function
+`ChTraitsCRT` | 24 | Exported Function
+`ChTraitsCRT` | 17 | Exported Function
+`ChTraitsCRT` | 16 | Exported Function
+`IAtlStringMgr` | 19 | Exported Function
+`v_FreeReasons` | 398 | Exported Function
+`v_InitInputProcs` | 405 | Exported Function
+`v_LoadInputProcs` | 408 | Exported Function
+`v_PopulateKeyboardLayouts` | 411 | Exported Function
+`v_GetLangIniPath` | 404 | Exported Function
+`v_MakeValidString` | 410 | Exported Function
+`ChTraitsCRT` | 406 | Exported Function
+`v_PopulateLocales` | 414 | Exported Function
+`IsDigitalMarkerKeyValid` | 291 | Exported Function
+`IsVolumeLicensingKeyValid` | 294 | Exported Function
+`v_PopulateLanguages` | 412 | Exported Function
+`v_PopulateLayeredDrivers` | 413 | Exported Function
+`PopulateDriverList` | 307 | Exported Function
+`CheckImplicitLoad` | 172 | Exported Function
 `const CLayeredDrivers::``vftable'` | 150 | Exported Function
 `const CLoadDriver::``vftable'` | 151 | Exported Function
 `const CLocales::``vftable'` | 152 | Exported Function
@@ -305,141 +305,141 @@ Function Name | Ordinal | Type
 `const CKeyboardLayouts::``vftable'` | 148 | Exported Function
 `const CLanguages::``vftable'` | 149 | Exported Function
 `const PIDUtilStringView::``vftable'` | 156 | Exported Function
-`private: __thiscall CImageData::CImageData(void)` | 31 | Exported Function
-`private: __thiscall CLoadDriver::CLoadDriver(void)` | 46 | Exported Function
+`CImageData` | 31 | Exported Function
+`CLoadDriver` | 46 | Exported Function
 `const CProductKeyModule::``vftable'` | 153 | Exported Function
 `const IImageData::``vftable'` | 154 | Exported Function
 `const IProductKeyModule::``vftable'` | 155 | Exported Function
-`private: int __thiscall PIDUtilStringView::v_IsValid(unsigned short)` | 407 | Exported Function
+`v_IsValid` | 407 | Exported Function
 `private: virtual __thiscall CLoadDriver::~CLoadDriver(void)` | 78 | Exported Function
-`private: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Attach(struct ATL::CStringData *)` | 169 | Exported Function
-`private: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Fork(int)` | 197 | Exported Function
-`private: unsigned short * __thiscall CImageData::v_GetArchitectureName(struct HINSTANCE__ *,unsigned long)` | 399 | Exported Function
-`private: unsigned short * __thiscall CImageData::v_GetBBStr(unsigned short const *,unsigned short const *)` | 401 | Exported Function
+`CStringData` | 169 | Exported Function
+`Fork` | 197 | Exported Function
+`v_GetArchitectureName` | 399 | Exported Function
+`v_GetBBStr` | 401 | Exported Function
 `private: virtual __thiscall CImageData::~CImageData(void)` | 70 | Exported Function
-`private: void __thiscall CImageData::v_AddBlockedReason(unsigned short const *,unsigned short const *)` | 389 | Exported Function
-`private: void __thiscall CImageData::v_AddLanguage(unsigned short const *,unsigned short const *,int)` | 390 | Exported Function
-`private: void __thiscall CImageData::v_FreeLanguages(void)` | 397 | Exported Function
-`private: void __thiscall ATL::CSimpleStringT<unsigned short,0>::PrepareWrite2(int)` | 310 | Exported Function
-`private: void __thiscall ATL::CSimpleStringT<unsigned short,0>::Reallocate(int)` | 313 | Exported Function
-`private: void __thiscall ATL::CSimpleStringT<unsigned short,0>::SetLength(int)` | 349 | Exported Function
-`private: unsigned short * __thiscall CImageData::v_CopyStr(unsigned short const *)` | 392 | Exported Function
-`private: static class ILoadDriver * CLoadDriver::s_Instance` | 388 | Exported Function
-`private: static int __stdcall CLocales::v_EnumLocalesProc(unsigned short *,unsigned long,long)` | 396 | Exported Function
-`private: static struct ATL::CStringData * __cdecl ATL::CSimpleStringT<unsigned short,0>::CloneData(struct ATL::CStringData *)` | 176 | Exported Function
-`private: int __thiscall PIDUtilStringView::v_MakePidString(void)` | 409 | Exported Function
-`private: long __thiscall CProductKeyModule::ValidatePid(void)` | 385 | Exported Function
-`private: static class IImageData * CImageData::s_Instance` | 387 | Exported Function
-`private: unsigned long __thiscall CImageData::v_GetBBVal(unsigned short const *,unsigned short const *,unsigned long)` | 402 | Exported Function
-`private: unsigned short * __thiscall ATL::CSimpleStringT<unsigned short,0>::PrepareWrite(int)` | 311 | Exported Function
-`private: unsigned short * __thiscall CImageData::v_BuildKey(unsigned short const *,unsigned short const *)` | 391 | Exported Function
-`private: static void __stdcall CLoadDriver::StaticInstallCallback(enum WDS_EVENT_RESULT,struct WDS_DATA const *,void *)` | 368 | Exported Function
-`private: static void __stdcall CLoadDriver::StaticScanCallback(enum WDS_EVENT_RESULT,struct WDS_DATA const *,void *)` | 369 | Exported Function
-`private: struct ATL::CStringData * __thiscall ATL::CSimpleStringT<unsigned short,0>::GetData(void)const ` | 220 | Exported Function
-`public: __thiscall CKeyboardLayout::CKeyboardLayout(class CKeyboardLayout const &)` | 34 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(void)` | 376 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(unsigned short const *)` | 378 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(unsigned short)` | 377 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned short)` | 93 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(unsigned short const *)` | 375 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(unsigned short)` | 374 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(void)` | 382 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Left(int)const ` | 295 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Mid(int)const ` | 303 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(void)` | 379 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(unsigned short const *)` | 381 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(unsigned short)` | 380 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned short const *)` | 96 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(struct tagVARIANT const &)` | 140 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned char)` | 143 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned short const *)` | 146 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(char const *)` | 145 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(char)` | 142 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(class ATL::CSimpleStringT<unsigned short,0> const &)` | 141 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > const &)` | 91 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(struct tagVARIANT const &)` | 90 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned char const *)` | 95 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned short)` | 144 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(char const *)` | 94 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(char)` | 92 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Mid(int,int)const ` | 304 | Exported Function
-`public: class CDriverItem const & __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::operator[](int)const ` | 122 | Exported Function
-`public: class CImageData & __thiscall CImageData::operator=(class CImageData const &)` | 97 | Exported Function
-`public: class CInternationalUtils & __thiscall CInternationalUtils::operator=(class CInternationalUtils const &)` | 98 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLocale::GetLocaleName(void)` | 256 | Exported Function
-`public: class CDriverItem & __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::operator[](int)` | 121 | Exported Function
-`public: class CDriverItem * __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::GetData(void)const ` | 218 | Exported Function
-`public: class CLanguage & __thiscall CLanguage::operator=(class CLanguage const &)` | 101 | Exported Function
-`public: class CLanguageItem & __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::operator[](int)` | 123 | Exported Function
-`public: class CLanguageItem * __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::GetData(void)const ` | 219 | Exported Function
-`public: class CKeyboardLayout & __thiscall CKeyboardLayout::operator=(class CKeyboardLayout const &)` | 99 | Exported Function
-`public: class CKeyboardLayout __thiscall CKeyboardLayouts::GetDefaultLayout(void)` | 224 | Exported Function
-`public: class CKeyboardLayouts & __thiscall CKeyboardLayouts::operator=(class CKeyboardLayouts const &)` | 100 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLocale::GetAbbrevName(void)` | 207 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Tokenize(unsigned short const *,int &)const ` | 373 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CKeyboardLayout::GetLayoutID(void)` | 249 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CKeyboardLayout::GetLayoutName(void)` | 250 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Right(int)const ` | 336 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SpanExcluding(unsigned short const *)const ` | 366 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SpanIncluding(unsigned short const *)const ` | 367 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLanguage::GetNativeName(void)` | 262 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLayeredDriver::GetID(void)` | 231 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLayeredDriver::GetName(void)` | 260 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLanguage::GetAbbrevName(void)` | 206 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLanguage::GetLocalizedName(void)` | 257 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __thiscall CLanguage::GetNativeDisplayName(void)` | 261 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeUpper(void)` | 302 | Exported Function
-`public: __thiscall CLoadDriver::CLoadDriver(class CLoadDriver const &)` | 47 | Exported Function
-`public: __thiscall CLocale::CLocale(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 49 | Exported Function
-`public: __thiscall CLocale::CLocale(class CLocale const &)` | 48 | Exported Function
-`public: __thiscall CLayeredDrivers::CLayeredDrivers(class CLayeredDrivers const &)` | 44 | Exported Function
-`public: __thiscall CLayeredDrivers::CLayeredDrivers(void)` | 45 | Exported Function
+`v_AddBlockedReason` | 389 | Exported Function
+`v_AddLanguage` | 390 | Exported Function
+`v_FreeLanguages` | 397 | Exported Function
+`PrepareWrite2` | 310 | Exported Function
+`Reallocate` | 313 | Exported Function
+`SetLength` | 349 | Exported Function
+`v_CopyStr` | 392 | Exported Function
+`s_Instance` | 388 | Exported Function
+`v_EnumLocalesProc` | 396 | Exported Function
+`CStringData` | 176 | Exported Function
+`v_MakePidString` | 409 | Exported Function
+`ValidatePid` | 385 | Exported Function
+`s_Instance` | 387 | Exported Function
+`v_GetBBVal` | 402 | Exported Function
+`PrepareWrite` | 311 | Exported Function
+`v_BuildKey` | 391 | Exported Function
+`StaticInstallCallback` | 368 | Exported Function
+`StaticScanCallback` | 369 | Exported Function
+`GetData` | 220 | Exported Function
+`CKeyboardLayout` | 34 | Exported Function
+`Trim` | 376 | Exported Function
+`TrimLeft` | 378 | Exported Function
+`TrimLeft` | 377 | Exported Function
+`operator` | 93 | Exported Function
+`Trim` | 375 | Exported Function
+`Trim` | 374 | Exported Function
+`TrimRight` | 382 | Exported Function
+`Left` | 295 | Exported Function
+`Mid` | 303 | Exported Function
+`TrimLeft` | 379 | Exported Function
+`TrimRight` | 381 | Exported Function
+`TrimRight` | 380 | Exported Function
+`operator` | 96 | Exported Function
+`operator` | 140 | Exported Function
+`operator` | 143 | Exported Function
+`operator` | 146 | Exported Function
+`operator` | 145 | Exported Function
+`operator` | 142 | Exported Function
+`CSimpleStringT` | 141 | Exported Function
+`ChTraitsCRT` | 91 | Exported Function
+`operator` | 90 | Exported Function
+`operator` | 95 | Exported Function
+`operator` | 144 | Exported Function
+`operator` | 94 | Exported Function
+`operator` | 92 | Exported Function
+`Mid` | 304 | Exported Function
+`operator` | 122 | Exported Function
+`operator` | 97 | Exported Function
+`operator` | 98 | Exported Function
+`GetLocaleName` | 256 | Exported Function
+`operator` | 121 | Exported Function
+`GetData` | 218 | Exported Function
+`operator` | 101 | Exported Function
+`operator` | 123 | Exported Function
+`GetData` | 219 | Exported Function
+`operator` | 99 | Exported Function
+`GetDefaultLayout` | 224 | Exported Function
+`operator` | 100 | Exported Function
+`GetAbbrevName` | 207 | Exported Function
+`Tokenize` | 373 | Exported Function
+`GetLayoutID` | 249 | Exported Function
+`GetLayoutName` | 250 | Exported Function
+`Right` | 336 | Exported Function
+`SpanExcluding` | 366 | Exported Function
+`SpanIncluding` | 367 | Exported Function
+`GetNativeName` | 262 | Exported Function
+`GetID` | 231 | Exported Function
+`GetName` | 260 | Exported Function
+`GetAbbrevName` | 206 | Exported Function
+`GetLocalizedName` | 257 | Exported Function
+`GetNativeDisplayName` | 261 | Exported Function
+`MakeUpper` | 302 | Exported Function
+`CLoadDriver` | 47 | Exported Function
+`ChTraitsCRT` | 49 | Exported Function
+`CLocale` | 48 | Exported Function
+`CLayeredDrivers` | 44 | Exported Function
+`CLayeredDrivers` | 45 | Exported Function
 `public: __thiscall CLayeredDrivers::~CLayeredDrivers(void)` | 77 | Exported Function
 `public: __thiscall CLocales::~CLocales(void)` | 80 | Exported Function
-`public: __thiscall COSK::COSK(void)` | 52 | Exported Function
+`COSK` | 52 | Exported Function
 `public: __thiscall COSK::~COSK(void)` | 81 | Exported Function
 `public: __thiscall CLocale::~CLocale(void)` | 79 | Exported Function
-`public: __thiscall CLocales::CLocales(class CLocales const &)` | 50 | Exported Function
-`public: __thiscall CLocales::CLocales(void)` | 51 | Exported Function
+`CLocales` | 50 | Exported Function
+`CLocales` | 51 | Exported Function
 `public: __thiscall CLayeredDriver::~CLayeredDriver(void)` | 76 | Exported Function
 `public: __thiscall CKeyboardLayouts::~CKeyboardLayouts(void)` | 73 | Exported Function
-`public: __thiscall CLanguage::CLanguage(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 39 | Exported Function
-`public: __thiscall CLanguage::CLanguage(class CLanguage const &)` | 38 | Exported Function
+`ChTraitsCRT` | 39 | Exported Function
+`CLanguage` | 38 | Exported Function
 `public: __thiscall CKeyboardLayout::~CKeyboardLayout(void)` | 72 | Exported Function
-`public: __thiscall CKeyboardLayouts::CKeyboardLayouts(class CKeyboardLayouts const &)` | 36 | Exported Function
-`public: __thiscall CKeyboardLayouts::CKeyboardLayouts(void)` | 37 | Exported Function
+`CKeyboardLayouts` | 36 | Exported Function
+`CKeyboardLayouts` | 37 | Exported Function
 `public: __thiscall CLanguages::~CLanguages(void)` | 75 | Exported Function
-`public: __thiscall CLayeredDriver::CLayeredDriver(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >,class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >)` | 43 | Exported Function
-`public: __thiscall CLayeredDriver::CLayeredDriver(class CLayeredDriver const &)` | 42 | Exported Function
+`ChTraitsCRT` | 43 | Exported Function
+`CLayeredDriver` | 42 | Exported Function
 `public: __thiscall CLanguage::~CLanguage(void)` | 74 | Exported Function
-`public: __thiscall CLanguages::CLanguages(class CLanguages const &)` | 40 | Exported Function
-`public: __thiscall CLanguages::CLanguages(void)` | 41 | Exported Function
-`public: __thiscall CProductKeyModule::CProductKeyModule(class CProductKeyModule const &)` | 53 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator+=(class ATL::CSimpleStringT<unsigned short,0> const &)` | 135 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned char)` | 137 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned short const *)` | 139 | Exported Function
-`public: class ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> > & __thiscall ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> >::operator=(class ATL::CSimpleArray<class CLocale *,class ATL::CSimpleArrayEqualHelper<class CLocale *> > const &)` | 84 | Exported Function
-`public: class ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> > & __thiscall ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> >::operator=(class ATL::CSimpleArray<struct _BLOCKED_REASON *,class ATL::CSimpleArrayEqualHelper<struct _BLOCKED_REASON *> > const &)` | 83 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator+=(char)` | 136 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator=(unsigned short const *)` | 89 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeLower(void)` | 300 | Exported Function
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __thiscall ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeReverse(void)` | 301 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned short)` | 138 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator=(class ATL::CSimpleStringT<unsigned short,0> const &)` | 87 | Exported Function
-`public: class ATL::CSimpleStringT<unsigned short,0> & __thiscall ATL::CSimpleStringT<unsigned short,0>::operator=(class ATL::CSimpleStringT<unsigned short,1> const &)` | 88 | Exported Function
-`public: class ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> > & __thiscall ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> >::operator=(class ATL::CSimpleArray<class CLanguageItem,class ATL::CSimpleArrayEqualHelper<class CLanguageItem> > const &)` | 86 | Exported Function
-`public: __thiscall IImageData::IImageData(void)` | 57 | Exported Function
-`public: __thiscall IProductKeyModule::IProductKeyModule(class IProductKeyModule &&)` | 58 | Exported Function
-`public: __thiscall IProductKeyModule::IProductKeyModule(class IProductKeyModule const &)` | 59 | Exported Function
-`public: __thiscall CProductKeyModule::CProductKeyModule(void)` | 54 | Exported Function
-`public: __thiscall IImageData::IImageData(class IImageData &&)` | 55 | Exported Function
-`public: __thiscall IImageData::IImageData(class IImageData const &)` | 56 | Exported Function
-`public: __thiscall PIDUtilStringView::PIDUtilStringView(void)` | 63 | Exported Function
-`public: bool __thiscall ATL::CSimpleStringT<unsigned short,0>::IsEmpty(void)const ` | 292 | Exported Function
-`public: class ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> > & __thiscall ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> >::operator=(class ATL::CSimpleArray<class CDriverItem,class ATL::CSimpleArrayEqualHelper<class CDriverItem> > const &)` | 85 | Exported Function
-`public: __thiscall IProductKeyModule::IProductKeyModule(void)` | 60 | Exported Function
-`public: __thiscall MyUtilString::MyUtilString(void)` | 61 | Exported Function
-`public: __thiscall PIDUtilStringView::PIDUtilStringView(class PIDUtilStringView const &)` | 62 | Exported Function
+`CLanguages` | 40 | Exported Function
+`CLanguages` | 41 | Exported Function
+`CProductKeyModule` | 53 | Exported Function
+`CSimpleStringT` | 135 | Exported Function
+`operator` | 137 | Exported Function
+`operator` | 139 | Exported Function
+`CSimpleArrayEqualHelper` | 84 | Exported Function
+`CSimpleArrayEqualHelper` | 83 | Exported Function
+`operator` | 136 | Exported Function
+`operator` | 89 | Exported Function
+`MakeLower` | 300 | Exported Function
+`MakeReverse` | 301 | Exported Function
+`operator` | 138 | Exported Function
+`CSimpleStringT` | 87 | Exported Function
+`CSimpleStringT` | 88 | Exported Function
+`CSimpleArrayEqualHelper` | 86 | Exported Function
+`IImageData` | 57 | Exported Function
+`IProductKeyModule` | 58 | Exported Function
+`IProductKeyModule` | 59 | Exported Function
+`CProductKeyModule` | 54 | Exported Function
+`IImageData` | 55 | Exported Function
+`IImageData` | 56 | Exported Function
+`PIDUtilStringView` | 63 | Exported Function
+`IsEmpty` | 292 | Exported Function
+`CSimpleArrayEqualHelper` | 85 | Exported Function
+`IProductKeyModule` | 60 | Exported Function
+`MyUtilString` | 61 | Exported Function
+`PIDUtilStringView` | 62 | Exported Function
 
 
 ## Signature

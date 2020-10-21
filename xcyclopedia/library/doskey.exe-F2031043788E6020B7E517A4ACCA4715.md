@@ -18,6 +18,9 @@ SHA256 | `59F8910653EF69DCCD0E1C4EF13FD13E5162AFD8EAE96D8DD75F73A7F0A4D442`
 SHA384 | `0FFC10D64F22270B765377BBCCB80D856D24A6EABA05CF0A878715968A1072016E910DD4CF4EDDB3E6AD132A6A0AB4F1`
 SHA512 | `C1B2D65E7E0D112C4BE8BF38D238DE0FFF23983EEB1DBA64147422EBD7CED40BA7C901617EC0966A0D9064B021D72BEBFA41B15726DF2AB70ADB962AF98CF26F`
 SSDEEP | `192:b7QqWEftZbnLlltRLMRoeXpafGhW4doS2mDXUkSV3tSWRRkXWTiWbVjFC:/xZbnLLIXI8WNS2bFMXWTiWb`
+IMP | `815CEBC8099878FCFC3EEFE858FAB97B`
+PESHA1 | `646C542F9BA2E444FA93820E3302FDDCCD333148`
+PE256 | `B4DF61395DF6A84005D553BAE8E3AE6B2D5F0C811AE6F8610DC14DB215181680`
 
 ## Runtime Data
 
@@ -59,6 +62,9 @@ $*     Symbol replaced by everything following macro name on command line.
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\doskey.exe |
 
 
@@ -79,7 +85,12 @@ C:\Windows\SysWOW64\doskey.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/59f8910653ef69dccd0e1c4ef13fd13e5162afd8eae96d8dd75f73a7f0a4d442/detection/
 
 
 ## Possible Misuse

@@ -60,11 +60,11 @@ Function Name | Ordinal | Type
 `SetTitle` | 85 | Exported Function
 `SetYomiGiven` | 86 | Exported Function
 `POutlookAppManager_CreateInstance` | 70 | Exported Function
-`public: long __cdecl AccountProviderHostJobBase::Submit(unsigned long * __ptr64) __ptr64` | 1 | Exported Function
+`Submit` | 1 | Exported Function
 `PimCreateGlobalObjId` | 73 | Exported Function
 `ParseName` | 71 | Exported Function
 `PimBinaryBodyToString` | 72 | Exported Function
-`public: long __cdecl AccountProviderHostJobBase::SubmitSynchronously(void * __ptr64,unsigned long,union _SNJobOutParams * __ptr64) __ptr64` | 2 | Exported Function
+`SubmitSynchronously` | 2 | Exported Function
 `SetFullName` | 77 | Exported Function
 `SetGiven` | 78 | Exported Function
 `SetDisplayBy` | 76 | Exported Function

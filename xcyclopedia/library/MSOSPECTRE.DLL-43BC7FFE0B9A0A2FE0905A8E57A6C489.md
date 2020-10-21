@@ -39,7 +39,7 @@ Function Name | Ordinal | Type
 `close` | 2 | Exported Function
 `fdopen` | 3 | Exported Function
 `open` | 8 | Exported Function
-`public: static struct OSpectre::IFactory * __stdcall OSpectre::IFactory::Instance(void)` | 1 | Exported Function
+`Instance` | 1 | Exported Function
 `getpid` | 6 | Exported Function
 `isatty` | 7 | Exported Function
 

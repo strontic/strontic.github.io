@@ -18,32 +18,9 @@ SHA256 | `A67110C259924E1DE43D648C700337226E57D6DF55099CAC5D4602137706BC81`
 SHA384 | `59F9D4303E65AA252CADB333A40FEFADBF1B2E2D651EB10502E16FBCFE93C95408371608D79035DD0A5C6CF0363B5688`
 SHA512 | `5279FE7CA4214700944BB1146D160D12E76C62F8F3C9DE24EACD00B25A530FC45286ECA9F675E4CE48DF4DEB94F9608E6A82E244897CC31EB3FDA22A72CCDE92`
 SSDEEP | `768:ugN8V3tWzMtfY6RGK/hc3aZkLmMgMaouZl6iSSpottXT:0dVfY6RGK/hc3aZkLmMgMaouZl6iSZtD`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\ddodiag.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\XmlLite.dll |
-
+IMP | `AD808CB5DB2E29BB8CC94083572DF977`
+PESHA1 | `E1FDACAA2CC91C0213D966DE54F3CF0082C758F4`
+PE256 | `D0619014F04A8ED5D324702E417FE839257BDD116CFEFB070FE923710300742D`
 
 ## Signature
 
@@ -62,7 +39,12 @@ C:\Windows\system32\XmlLite.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a67110c259924e1de43d648c700337226e57d6df55099cac5d4602137706bc81/detection/
 
 ## File Similarity (ssdeep match)
 

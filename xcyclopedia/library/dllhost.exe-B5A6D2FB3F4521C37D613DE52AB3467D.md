@@ -18,16 +18,9 @@ SHA256 | `F95B7BA752C6452DA9D83F84CA7307AE079D220718BCB2BABF145903BAC894DD`
 SHA384 | `C57856474AD5B0067A6576726CB0699C5E0B0EBC5EF67EBE103D9AA6916067E349C6D50E704CA88C897300459A4E5792`
 SHA512 | `FBE13C39C6FC6CD8653F3BCE97F36104D2457F62574336A4E5FFEA0FC51A9D3FBBE657AEA8CF037F492AE4983B2141E116235208EBBBA3CB55F9C291ACB6641E`
 SSDEEP | `384:3bme1zCcDlan3MNcyWL5W6RmXjDBRJadWJZ6lPUs2L:K0XBe3MNc/doXj1PaWb`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\dllhost.exe |
-
+IMP | `FB1328DBA53A95E7775F51164B2E5AEB`
+PESHA1 | `488EDC7DD3B05021B69B3AF76702CAEAD44C9E34`
+PE256 | `1D4128888B571B4DF5E627BAF56E2D6254D43CFC3D08BD94795EFE882AF0EFD3`
 
 ## Signature
 
@@ -46,12 +39,18 @@ C:\Windows\SysWOW64\dllhost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Common Files\microsoft shared\Ink\TabTip32.exe](TabTip32.exe-725AAEFD55B6DEA9663EEAA04E881C0E.md) | 30
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-50D5FD1290D94D46ACCA0585311E74D5.md) | 35
 [C:\WINDOWS\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-E22E7BD6B146BDE93DC48643B772D8BB.md) | 30
 [C:\Windows\system32\browser_broker.exe](browser_broker.exe-C7C56DB13D5F1A2BB6DE92B8BBD22CA0.md) | 30

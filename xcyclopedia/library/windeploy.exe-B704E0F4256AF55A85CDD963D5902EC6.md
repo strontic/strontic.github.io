@@ -26,7 +26,7 @@ SSDEEP | `3072:aag0NhGiLL/m3nDnzgMYjJZkPvAYpZFlKh10+H/aKGfmq4o:xrNhlL+XfboJZ6ZFl
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\oobe\en-US\windeploy.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagerr.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\diagwrn.xml | File
 (RW-)   C:\Windows\Panther\UnattendGC\setupact.log | File

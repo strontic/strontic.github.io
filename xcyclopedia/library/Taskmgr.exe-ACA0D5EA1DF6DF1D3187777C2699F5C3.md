@@ -22,8 +22,43 @@ SHA256 | `B24F923D5A76B34B519F1065C6FBB533F2E52A372A2AEC2F844BC3F1540A1DD5`
 SHA384 | `6B91BBE618D618D753E1C081C8FC612EE1F819766E0F89255B48E067825FCEC30306B91FA4BB5227540CA6B0985B9702`
 SHA512 | `6C61908176E55F37F236D65CF8EA0F9B3F9C04EB3CC7D8318E987848C569902B6A39482522169D6C12A0A19C947DCCFC75A1DC4ACBE8B31C988DFDF22930F882`
 SSDEEP | `24576:Qfq2LeRRFCqknb3yIKbmfqEzLGsw/xUxJm9ESCUa+Be7q4Dq+l:OCI6w0/xUxsLCUaMe7q4eK`
+IMP | `920F3AEC5A928B966C39EE8CE6687BF6`
+PESHA1 | `38D303ACDC0CD3EAA4DDFB2D670DF697B4E29829`
+PE256 | `397297B1FFC64304C466B0E52196C0F583984907DAC0C19F488934626B3CA537`
 
 ## Runtime Data
+
+### Window Title:
+Task Manager
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\Taskmgr.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSECF9C | Section
+\Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*{3DA71D5A-20CC-432F-A115-DFE92379E91F}.3.ver0x0000000000000004.db | Section
+\Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*cversions.3.ro | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
+
 
 ### Loaded Modules:
 
@@ -31,6 +66,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\Taskmgr.exe |
 
 
@@ -51,7 +88,12 @@ C:\Windows\SysWOW64\Taskmgr.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/b24f923d5a76b34b519f1065c6fbb533f2e52a372a2aec2f844bc3f1540a1dd5/detection/
 
 
 ## Possible Misuse

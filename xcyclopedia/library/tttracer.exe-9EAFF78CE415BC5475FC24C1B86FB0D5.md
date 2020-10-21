@@ -18,6 +18,9 @@ SHA256 | `4D94208E7D497B5BEDD481263FEA903C9CD66962A5DBA9F5353CCA15FAF0D9FD`
 SHA384 | `0A305E8279170F3D67CFCC4E9A5941C928A0628F8C6BE3A03C12767001DB7A287C8438B061F02465D6A09A91D4479752`
 SHA512 | `4C1D73D136DE4B57CD3E0F6CAB14B13E26375279D1BB51C0641BE23E9A9B063B50F8FDB29B0F1066255A50113CBA86EF3E4D5EBDAB61AC63B986D12198CA3216`
 SSDEEP | `6144:zRe4oPhepmdFB47+E1q9pyMFOIDixHmev9:g4oP0mcWHRiJm29`
+IMP | `2DD7AC615E10A236D551AAFD2B7BB0B7`
+PESHA1 | `859DC01FD5EA1329D7FC4E112B9B271556B009E2`
+PE256 | `77E3A77906B506DD41C963F003A97DD8CB0EEB88AA779A23D4158626F28856AF`
 
 ## Runtime Data
 
@@ -77,13 +80,16 @@ conhost.exe help.exe ttdinject.exe
 
 Path | Type
 -- | --
-(---)   C:\Users\Administrator\Documents\help01.out | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RWD)   C:\Users\Administrator\Documents\help01.run | File
+(---)   C:\Users\user\help01.out | File
+(RW-)   C:\Users\user | File
+(RWD)   C:\Users\user\help01.run | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\ttdSeq_s_2_01_03 | Section
-\Sessions\2\BaseNamedObjects\ttd_s_2_01_03_920 | Section
+\Sessions\2\BaseNamedObjects\ttd_s_2_01_03_1164 | Section
 
 
 ### Loaded Modules:
@@ -113,7 +119,12 @@ C:\Windows\system32\tttracer.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/4d94208e7d497b5bedd481263fea903c9cd66962a5dba9f5353cca15faf0d9fd/detection/
 
 
 ## Possible Misuse

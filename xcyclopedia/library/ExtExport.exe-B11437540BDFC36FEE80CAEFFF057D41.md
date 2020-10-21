@@ -69,6 +69,8 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-3253FD643C51C133C3489A146781913B.md) | 38
+[C:\Program Files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-72AC703193E2AD95FF112D3BF08DD4B2.md) | 38
+[C:\Program Files\internet explorer\ExtExport.exe](ExtExport.exe-1D71EDDF5BC772FF5AAE7AD292A179D4.md) | 46
 
 ## Possible Misuse
 

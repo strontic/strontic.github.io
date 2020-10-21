@@ -22,6 +22,9 @@ SHA256 | `B4420A7DC8E158E69D0C944CC719B9136599A7AC89CA6F4BCFCB0DD294623AEF`
 SHA384 | `E4BC2C231A6045CF44BB910D8455BFF50A41F6D3A01A0516A5CC6B0DA048B3AE5EB8A39CB24E111CBF12A9CE7FFFBDD9`
 SHA512 | `0887A9A4380C4B9A1931F56C08F977D4E5ECAF1439A81EDED5281BD1F9DBB6AFE1F9C733551C010832B815A85998A5C38A9B545330A4BE888032349B64B0184F`
 SSDEEP | `3072:7FM+PLmZPTAWFwymJVx+YhFWncWyy6aYYH67IkK2NLPcV2zu:hMxLbFwymr0YhsncWyy66mIkCP`
+IMP | `4F6F430AABCB71CD016D423E32E517E1`
+PESHA1 | `106F163909B9146CEC0A443F3119A7D00B26BB87`
+PE256 | `00DE135E79EC09A558FD6DCD17FA13D8CB7FE619BF6FF818684B52FA0600DF40`
 
 ## Runtime Data
 
@@ -33,15 +36,18 @@ Settings for Microsoft IME
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-4075667164-670084373-454571106-500 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -50,6 +56,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
 
@@ -57,8 +64,8 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -71,7 +78,12 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/b4420a7dc8e158e69d0c944cc719b9136599a7ac89ca6f4bcfcb0dd294623aef/detection/
 
 ## File Similarity (ssdeep match)
 

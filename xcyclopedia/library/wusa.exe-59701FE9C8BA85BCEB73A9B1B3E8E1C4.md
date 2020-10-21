@@ -22,6 +22,9 @@ SHA256 | `E0438C5594A4EEB8515518989EE3A773581F414273B857B885D2201F66A95B06`
 SHA384 | `8CF139BA0B9ADF180448ED29660BCE78D19D6BB8FE55CF52104CD5C83B1FB8FC3D9FE61364A3C80D39D765B13E55CC39`
 SHA512 | `197279F4F762D2746E5D67FEC5B94CD569647B9BEB79B0A6069C20A1D4C2DD36808F8B546CD8F0E7E515D744F05654D9D704C3FBD8ECA951F6B4A8E16BAB8C8A`
 SSDEEP | `3072:SjomFcaF4iHSd5bqcoENXK6JRAqs4xjw8m1IRpR9/BRMp3cKAArDZz4N9GhbkUNJ:Sj9FjuiebqcoMHxM8cg9wpxyN90vE`
+IMP | `D5E97853B4CD1F8376A7D9FDA250C21E`
+PESHA1 | `A9F059D328FE2356577499E1448DAB78EC29ACBE`
+PE256 | `D82C40386D1ACC422D41BA0F041D08C4AF97F74CF4177A2DC648E8A7568938F4`
 
 ## Runtime Data
 
@@ -37,14 +40,17 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\wusa.exe.mui | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_f47974b57ff45754 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -52,21 +58,43 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\atlthunk.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dpx.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WindowsCodecs.dll |
+C:\Windows\system32\WTSAPI32.dll |
 C:\Windows\system32\wusa.exe |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -86,7 +114,12 @@ C:\Windows\system32\wusa.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/e0438c5594a4eeb8515518989ee3a773581f414273b857b885d2201f66a95b06/detection/
 
 ## File Similarity (ssdeep match)
 

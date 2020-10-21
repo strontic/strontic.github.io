@@ -26,10 +26,10 @@ PE256 | `069C7D6F6F2D4F1A6D91DD9E624573383AC5B1E22A9EF4B16382B31950B6F0AA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned char __thiscall UDF_LVOL::ReadFromDisk(class UDF_SA *,class MESSAGE *,class VDS *)` | 12 | Exported Function
-`public: unsigned char __thiscall UDF_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *,unsigned short)` | 10 | Exported Function
-`public: enum FORMAT_ERROR_CODE __thiscall UDF_VOL::Initialize(class WSTRING const *,class MESSAGE *,unsigned char,unsigned short,unsigned char,unsigned char,unsigned char)` | 11 | Exported Function
-`public: unsigned char __thiscall UDF_LVOL::CreateOnDisk(class UDF_SA *,class MESSAGE *,class VDS *,struct EXTENTAD *,unsigned long,struct EXTENTAD *)` | 9 | Exported Function
+`ReadFromDisk` | 12 | Exported Function
+`Initialize` | 10 | Exported Function
+`Initialize` | 11 | Exported Function
+`CreateOnDisk` | 9 | Exported Function
 `public: virtual __thiscall METADATA_PARTITION::~METADATA_PARTITION(void)` | 5 | Exported Function
 `public: virtual __thiscall UDF_VOL::~UDF_VOL(void)` | 8 | Exported Function
 `Recover` | 18 | Exported Function
@@ -40,10 +40,10 @@ Function Name | Ordinal | Type
 `Chkdsk` | 13 | Exported Function
 `ChkdskEx` | 14 | Exported Function
 `GetFilesystemInformation` | 17 | Exported Function
-`public: __thiscall UDF_SA::UDF_SA(void)` | 3 | Exported Function
-`public: __thiscall UDF_VOL::UDF_VOL(void)` | 4 | Exported Function
-`public: __thiscall METADATA_PARTITION::METADATA_PARTITION(void)` | 1 | Exported Function
-`public: __thiscall UDF_LVOL::UDF_LVOL(void)` | 2 | Exported Function
+`UDF_SA` | 3 | Exported Function
+`UDF_VOL` | 4 | Exported Function
+`METADATA_PARTITION` | 1 | Exported Function
+`UDF_LVOL` | 2 | Exported Function
 
 
 ## Signature

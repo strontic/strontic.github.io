@@ -25,7 +25,7 @@ SSDEEP | `1536:H5f6mOEJxfUl+RZ0pdUumPQ+xkV28ZyGWibzV:HtK+Ry1mI+x+2VRq`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -60,6 +60,11 @@ C:\Windows\system32\oobe\UserOOBEBroker.exe |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\oobe\UserOOBEBroker.exe](UserOOBEBroker.exe-EB2151FD79952B53F83A3AF9D7F15AA7.md) | 80
 
 
 

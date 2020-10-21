@@ -26,16 +26,16 @@ PE256 | `114D400FF73356645AA6DA98583E533C503A3FF94ACF16F1EAF9121064EC302C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: __int64 * __ptr64 __cdecl CPerfMon::GetCounter64(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 4 | Exported Function
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::ObjectIdToPerfItem(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 7 | Exported Function
-`public: class CPerfMon & __ptr64 __cdecl CPerfMon::operator=(class CPerfMon const & __ptr64) __ptr64` | 1 | Exported Function
+`__INSTANCE_ID` | 4 | Exported Function
+`__OBJECT_ID` | 7 | Exported Function
+`operator` | 1 | Exported Function
 `ServiceMain` | 9 | Exported Function
-`public: long * __ptr64 __cdecl CPerfMon::GetCounter32(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 3 | Exported Function
-`private: int __cdecl CPerfMon::IsValidInstId(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64)const __ptr64` | 5 | Exported Function
+`__INSTANCE_ID` | 3 | Exported Function
+`__INSTANCE_ID` | 5 | Exported Function
 `BITSServiceMain` | 10 | Exported Function
-`private: int __cdecl CPerfMon::IsValidObjOrd(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 6 | Exported Function
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::CounterIdToPerfItem(struct CPerfMon::__COUNTER_ID * __ptr64)const __ptr64` | 2 | Exported Function
-`private: int __cdecl CPerfMon::ObjectIdToPerfItemIndex(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 8 | Exported Function
+`__OBJECT_ORD` | 6 | Exported Function
+`__COUNTER_ID` | 2 | Exported Function
+`__OBJECT_ID` | 8 | Exported Function
 
 
 ## Signature

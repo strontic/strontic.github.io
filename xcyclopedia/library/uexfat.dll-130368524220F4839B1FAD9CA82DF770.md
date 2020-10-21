@@ -26,41 +26,41 @@ PE256 | `1F89707AC80717D5AFF690FC8565EE639B63FB147A22961F51CB83E5AD4882CD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned long __thiscall FAT::QueryAllocatedClusters(void)const ` | 23 | Exported Function
-`public: unsigned long __thiscall FAT::AllocChain(class EXFATBITMAP *,unsigned long,unsigned long *)` | 11 | Exported Function
-`public: unsigned long __thiscall FAT::QueryNthCluster(unsigned long,unsigned long)const ` | 26 | Exported Function
-`public: unsigned long __thiscall FAT::QueryLengthOfChain(unsigned long,unsigned long *)const ` | 25 | Exported Function
-`public: unsigned char __thiscall EXFAT_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *)` | 21 | Exported Function
-`public: unsigned char __thiscall EXFAT_DIRENT::VerifyAndFixPhase2(class EXFATBITMAP *,class EXFATBITMAP *,class WSTRING *,unsigned char,unsigned char,unsigned char,enum FIX_LEVEL,unsigned char *,class MESSAGE *)` | 33 | Exported Function
-`public: unsigned long __thiscall EXFAT_DIRENT::QueryStartingCluster(void)` | 27 | Exported Function
-`public: unsigned char __thiscall EXFATDIR::Initialize(class HMEM *,class LOG_IO_DP_DRIVE *,class EXFAT_SA *,class FAT const *,unsigned long,unsigned __int64,unsigned char)` | 19 | Exported Function
+`QueryAllocatedClusters` | 23 | Exported Function
+`AllocChain` | 11 | Exported Function
+`QueryNthCluster` | 26 | Exported Function
+`QueryLengthOfChain` | 25 | Exported Function
+`Initialize` | 21 | Exported Function
+`VerifyAndFixPhase2` | 33 | Exported Function
+`QueryStartingCluster` | 27 | Exported Function
+`Initialize` | 19 | Exported Function
 `public: virtual __thiscall CLUSTER_CHAIN::~CLUSTER_CHAIN(void)` | 6 | Exported Function
-`public: virtual unsigned char __thiscall CLUSTER_CHAIN::Write(void)` | 34 | Exported Function
-`public: virtual unsigned char __thiscall CLUSTER_CHAIN::Read(void)` | 28 | Exported Function
+`Write` | 34 | Exported Function
+`Read` | 28 | Exported Function
 `Recover` | 30 | Exported Function
-`public: void __thiscall FAT::FreeChain(class EXFATBITMAP *,unsigned long)` | 16 | Exported Function
+`FreeChain` | 16 | Exported Function
 `public: virtual __thiscall EXFAT_SA::~EXFAT_SA(void)` | 9 | Exported Function
 `public: virtual __thiscall EXFAT_DIRENT::~EXFAT_DIRENT(void)` | 8 | Exported Function
 `public: virtual __thiscall EXFATDIR::~EXFATDIR(void)` | 7 | Exported Function
 `public: virtual __thiscall EXFAT_VOL::~EXFAT_VOL(void)` | 10 | Exported Function
-`public: unsigned char __thiscall EXFAT_DIRENT::SetStartingCluster(unsigned long)` | 32 | Exported Function
-`public: __int64 __thiscall EXFAT_DIRENT::QueryFileSize(void)` | 24 | Exported Function
+`SetStartingCluster` | 32 | Exported Function
+`QueryFileSize` | 24 | Exported Function
 `GetFilesystemInformation` | 17 | Exported Function
-`public: __thiscall EXFAT_DIRENT::EXFAT_DIRENT(void)` | 3 | Exported Function
-`public: __thiscall CLUSTER_CHAIN::CLUSTER_CHAIN(void)` | 1 | Exported Function
+`EXFAT_DIRENT` | 3 | Exported Function
+`CLUSTER_CHAIN` | 1 | Exported Function
 `ChkdskEx` | 13 | Exported Function
 `Chkdsk` | 12 | Exported Function
 `FormatEx` | 15 | Exported Function
 `Format` | 14 | Exported Function
-`public: __thiscall EXFAT_SA::EXFAT_SA(void)` | 4 | Exported Function
-`public: unsigned char __thiscall CLUSTER_CHAIN::WriteAndSkipBadSectors(void)` | 35 | Exported Function
-`public: unsigned char __thiscall CLUSTER_CHAIN::ReadAndRecordBadSectors(class EXFATSECRUNBITMAP *)` | 29 | Exported Function
-`public: unsigned char __thiscall EXFAT_DIRENT::SetFileSize(__int64)` | 31 | Exported Function
-`public: unsigned char __thiscall EXFAT_DIRENT::Initialize(class EXFAT_SA *,void *,class EXFATDIR *,unsigned long)` | 20 | Exported Function
-`public: __thiscall EXFATDIR::EXFATDIR(void)` | 2 | Exported Function
-`public: __thiscall EXFAT_VOL::EXFAT_VOL(void)` | 5 | Exported Function
-`public: unsigned char __thiscall CLUSTER_CHAIN::Initialize(class MEM *,class LOG_IO_DP_DRIVE *,class EXFAT_SA *,class FAT const *,unsigned long,unsigned long,unsigned char)` | 18 | Exported Function
-`public: enum FORMAT_ERROR_CODE __thiscall EXFAT_VOL::Initialize(class WSTRING const *,class MESSAGE *,unsigned char,unsigned char,enum _MEDIA_TYPE,unsigned char,unsigned char)` | 22 | Exported Function
+`EXFAT_SA` | 4 | Exported Function
+`WriteAndSkipBadSectors` | 35 | Exported Function
+`ReadAndRecordBadSectors` | 29 | Exported Function
+`SetFileSize` | 31 | Exported Function
+`Initialize` | 20 | Exported Function
+`EXFATDIR` | 2 | Exported Function
+`EXFAT_VOL` | 5 | Exported Function
+`Initialize` | 18 | Exported Function
+`Initialize` | 22 | Exported Function
 
 
 ## Signature

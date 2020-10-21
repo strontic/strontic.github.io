@@ -24,6 +24,9 @@ SHA256 | `0FBB4F848D9FB14D7BF81B0454203810869C527C3435E8747A2213DD86F8129A`
 SHA384 | `128234C6B21A190B4E03ADEF4B33D73CA983AFB3DA764008032831DF3DE5B4EF966D6838544977F35FA07C585FE56A7B`
 SHA512 | `0E1B9102284131769BF960587D11F138948089130EE9366D643874A28013C573508AC2B65FE4BE5CD9608B5CDC4BE266A00CBDED6BA28560348B6E07B4D27E45`
 SSDEEP | `3072:WunWMbPUr753/5oCjz1uJvXXrkpNUmGHruGTxt+G:nWMDUr7fclX7GoHrtT/`
+IMP | `3602F3C025378F418F804C5D183603FE`
+PESHA1 | `6FED2A0A1CC9A1DB4705FE2A3F4F6B5289AA9F42`
+PE256 | `3F6C650C991890B10829C6206EF6E58F34E3D1236E6C4FC584CC0E554A732057`
 
 ## Runtime Data
 
@@ -36,12 +39,15 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\wscript.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -50,6 +56,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\wscript.exe |
 
 
@@ -70,7 +78,12 @@ C:\Windows\SysWOW64\wscript.exe |
 * Product Version: 5.812.10240.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/0fbb4f848d9fb14d7bf81b0454203810869c527c3435e8747a2213dd86f8129a/detection/
 
 ## File Similarity (ssdeep match)
 

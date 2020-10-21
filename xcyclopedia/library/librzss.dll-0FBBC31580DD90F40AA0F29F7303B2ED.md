@@ -25,24 +25,24 @@ PE256 | `101FAFBCAFADF5B612BFEBEB1189AE8E6345CF45DAB9E28856733485781A0E20`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall RzssDecoder::remove441Resampler(void)` | 23 | Exported Function
+`remove441Resampler` | 23 | Exported Function
 `resample_close` | 50 | Exported Function
-`public: void __thiscall RzssDecoder::add441Resampler(void)` | 13 | Exported Function
-`public: void __thiscall RzssDecoder::processAudio(float const *,unsigned int)` | 21 | Exported Function
+`add441Resampler` | 13 | Exported Function
+`processAudio` | 21 | Exported Function
 `resample_open` | 51 | Exported Function
 `ring_buffer_destroy` | 54 | Exported Function
 `ring_buffer_peak` | 55 | Exported Function
 `ring_buffer_advance` | 52 | Exported Function
 `ring_buffer_create` | 53 | Exported Function
-`public: struct RzssDecoder::Message __thiscall RzssDecoder::Retainer::wrongChecksum(void)const ` | 24 | Exported Function
-`public: virtual __thiscall RzssDecoder::Listener::~Listener(void)` | 6 | Exported Function
-`public: class RzssDecoder::Retainer & __thiscall RzssDecoder::Retainer::operator=(class RzssDecoder::Retainer const &)` | 10 | Exported Function
-`public: struct RzssDecoder::Message __thiscall RzssDecoder::Retainer::message(void)const ` | 16 | Exported Function
-`public: virtual __thiscall RzssDecoder::Retainer::~Retainer(void)` | 7 | Exported Function
-`public: virtual void __thiscall RzssDecoder::Retainer::onMessage(struct RzssDecoder::Message)` | 18 | Exported Function
-`public: virtual void __thiscall RzssDecoder::Retainer::onWrongChecksum(struct RzssDecoder::Message)` | 20 | Exported Function
-`public: virtual void __thiscall RzssDecoder::Listener::onChunk(struct RzssDecoder::Chunk)` | 17 | Exported Function
-`public: virtual void __thiscall RzssDecoder::Listener::onWrongChecksum(struct RzssDecoder::Message)` | 19 | Exported Function
+`wrongChecksum` | 24 | Exported Function
+`Listener` | 6 | Exported Function
+`Retainer` | 10 | Exported Function
+`message` | 16 | Exported Function
+`Retainer` | 7 | Exported Function
+`Message` | 18 | Exported Function
+`Message` | 20 | Exported Function
+`Chunk` | 17 | Exported Function
+`Message` | 19 | Exported Function
 `rzss_resample_process` | 67 | Exported Function
 `ss_cfir_filter_create` | 68 | Exported Function
 `rzss_encoder_drain` | 65 | Exported Function
@@ -61,7 +61,7 @@ Function Name | Ordinal | Type
 `rzss_encoder_destroy` | 64 | Exported Function
 `rzss_encoder_chips` | 61 | Exported Function
 `rzss_encoder_create` | 62 | Exported Function
-`public: class RzssDecoder::Listener & __thiscall RzssDecoder::Listener::operator=(class RzssDecoder::Listener const &)` | 9 | Exported Function
+`Listener` | 9 | Exported Function
 `pons_decoder_chunk_b_best_vs_second` | 34 | Exported Function
 `pons_decoder_chunk_sample_distance` | 35 | Exported Function
 `pons_decoder_chunk_a_best_vs_second` | 32 | Exported Function
@@ -71,8 +71,8 @@ Function Name | Ordinal | Type
 `pons_decoder_has_message` | 40 | Exported Function
 `pons_decoder_create` | 37 | Exported Function
 `pons_decoder_decode_chunk` | 38 | Exported Function
-`const RzssDecoder::Listener::``vftable'` | 11 | Exported Function
-`const RzssDecoder::Retainer::``vftable'` | 12 | Exported Function
+`Listener` | 11 | Exported Function
+`Retainer` | 12 | Exported Function
 `cexp_from_imag` | 25 | Exported Function
 `chunk_to_user_vectors` | 26 | Exported Function
 `conv_polyc` | 27 | Exported Function
@@ -80,14 +80,14 @@ Function Name | Ordinal | Type
 `pons_decoder_chunk_a_best_vs_avg` | 31 | Exported Function
 `generate_pons_matrix` | 28 | Exported Function
 `make_complex_float` | 29 | Exported Function
-`public: __thiscall RzssDecoder::Listener::Listener(void)` | 2 | Exported Function
-`public: __thiscall RzssDecoder::Retainer::Retainer(class RzssDecoder::Retainer const &)` | 3 | Exported Function
-`private: void __thiscall RzssDecoder::processChunk(struct complex_float const *)` | 22 | Exported Function
-`public: __thiscall RzssDecoder::Listener::Listener(class RzssDecoder::Listener const &)` | 1 | Exported Function
-`public: __thiscall RzssDecoder::Retainer::Retainer(void)` | 4 | Exported Function
-`public: bool __thiscall RzssDecoder::Retainer::getAndResetMessageFlag(void)` | 14 | Exported Function
-`public: bool __thiscall RzssDecoder::Retainer::getAndResetWrongChecksumFlag(void)` | 15 | Exported Function
-`public: __thiscall RzssDecoder::RzssDecoder(class RzssDecoder::Listener *)` | 5 | Exported Function
+`Listener` | 2 | Exported Function
+`Retainer` | 3 | Exported Function
+`processChunk` | 22 | Exported Function
+`Listener` | 1 | Exported Function
+`Retainer` | 4 | Exported Function
+`getAndResetMessageFlag` | 14 | Exported Function
+`getAndResetWrongChecksumFlag` | 15 | Exported Function
+`Listener` | 5 | Exported Function
 `public: __thiscall RzssDecoder::~RzssDecoder(void)` | 8 | Exported Function
 `pons_doppler_correlator` | 43 | Exported Function
 `pons_encode_to_user_vectors` | 44 | Exported Function

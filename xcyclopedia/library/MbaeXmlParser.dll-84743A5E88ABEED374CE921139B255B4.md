@@ -26,13 +26,13 @@ PE256 | `A9F51445BB341FFF4923435D8CBAAB8C155982A1E368B21782A458BEF4E4E7CE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class MbaeXmlParser & __ptr64 __cdecl MbaeXmlParser::operator=(class MbaeXmlParser && __ptr64) __ptr64` | 4 | Exported Function
-`public: class MbaeXmlParser & __ptr64 __cdecl MbaeXmlParser::operator=(class MbaeXmlParser const & __ptr64) __ptr64` | 5 | Exported Function
-`public: static long __cdecl MbaeXmlParser::Create(class MbaeXmlParser * __ptr64 * __ptr64)` | 7 | Exported Function
-`public: __cdecl MbaeXmlParser::MbaeXmlParser(void) __ptr64` | 3 | Exported Function
+`operator` | 4 | Exported Function
+`operator` | 5 | Exported Function
+`Create` | 7 | Exported Function
+`MbaeXmlParser` | 3 | Exported Function
 `const MbaeXmlParser::``vftable'` | 6 | Exported Function
-`public: __cdecl MbaeXmlParser::MbaeXmlParser(class MbaeXmlParser && __ptr64) __ptr64` | 1 | Exported Function
-`public: __cdecl MbaeXmlParser::MbaeXmlParser(class MbaeXmlParser const & __ptr64) __ptr64` | 2 | Exported Function
+`MbaeXmlParser` | 1 | Exported Function
+`MbaeXmlParser` | 2 | Exported Function
 
 
 ## Signature

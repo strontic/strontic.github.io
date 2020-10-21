@@ -25,31 +25,31 @@ PE256 | `D9BCFCA49B6BB2E426DB9BB6773D240154196FF912806B2783C984F3FA201015`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class migration::IMigrationService & __thiscall migration::IMigrationService::operator=(class migration::IMigrationService const &)` | 10 | Exported Function
-`public: class std::shared_ptr<class migration::MigrationService const > __thiscall std::enable_shared_from_this<class migration::MigrationService>::shared_from_this(void)const ` | 21 | Exported Function
-`public: class std::shared_ptr<class migration::MigrationService> __thiscall std::enable_shared_from_this<class migration::MigrationService>::shared_from_this(void)` | 20 | Exported Function
-`public: __thiscall migration::IMigrationService::IMigrationService(class migration::IMigrationService const &)` | 3 | Exported Function
-`public: __thiscall migration::IMigrationService::IMigrationService(void)` | 4 | Exported Function
-`public: __thiscall migration::MigrationService::MigrationService(class std::shared_ptr<class CSFUnified::ServiceFactory>)` | 5 | Exported Function
-`public: virtual __thiscall migration::MigrationService::~MigrationService(void)` | 8 | Exported Function
-`public: virtual bool __thiscall migration::MigrationService::startMigration(enum migration::MigrationOriginType,enum migration::MigrationType,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::function<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl(enum migration::PreferenceSettingKey)>,class std::function<void __cdecl(enum migration::MigrationState)>)` | 22 | Exported Function
-`public: virtual void __thiscall migration::MigrationService::stopMigration(void)` | 23 | Exported Function
-`public: class std::weak_ptr<class migration::MigrationService const > __thiscall std::enable_shared_from_this<class migration::MigrationService>::weak_from_this(void)const ` | 25 | Exported Function
-`public: class std::weak_ptr<class migration::MigrationService> __thiscall std::enable_shared_from_this<class migration::MigrationService>::weak_from_this(void)` | 24 | Exported Function
-`public: virtual __thiscall migration::IMigrationService::~IMigrationService(void)` | 7 | Exported Function
-`protected: virtual void __thiscall migration::MigrationService::onUnknowMessage(void)` | 19 | Exported Function
-`const migration::MigrationService::``vftable'{for ``migration::IMigrationService'}` | 13 | Exported Function
-`private: void __thiscall migration::MigrationService::notifyMigrationThreadStop(enum migration::MigrationService::StopReason)` | 15 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class migration::MigrationService>::enable_shared_from_this<class migration::MigrationService>(class std::enable_shared_from_this<class migration::MigrationService> const &)` | 1 | Exported Function
-`class std::shared_ptr<class migration::IMigrationService> __cdecl migration::getMigrationService(void)` | 14 | Exported Function
-`const migration::IMigrationService::``vftable'` | 11 | Exported Function
-`const migration::MigrationService::``vftable'{for ``migration::IMigrationIpcMgtCallback'}` | 12 | Exported Function
-`protected: virtual void __thiscall migration::MigrationService::onTeamsIpcFinished(void)` | 16 | Exported Function
-`protected: virtual void __thiscall migration::MigrationService::onTeamsIpcReady(void)` | 17 | Exported Function
-`protected: virtual void __thiscall migration::MigrationService::onTeamsState(enum migration::IpcMessage::TeamsStates)` | 18 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class migration::MigrationService>::enable_shared_from_this<class migration::MigrationService>(void)` | 2 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class migration::MigrationService>::~enable_shared_from_this<class migration::MigrationService>(void)` | 6 | Exported Function
-`protected: class std::enable_shared_from_this<class migration::MigrationService> & __thiscall std::enable_shared_from_this<class migration::MigrationService>::operator=(class std::enable_shared_from_this<class migration::MigrationService> const &)` | 9 | Exported Function
+`IMigrationService` | 10 | Exported Function
+`shared_from_this` | 21 | Exported Function
+`shared_from_this` | 20 | Exported Function
+`IMigrationService` | 3 | Exported Function
+`IMigrationService` | 4 | Exported Function
+`ServiceFactory` | 5 | Exported Function
+`MigrationService` | 8 | Exported Function
+`MigrationState` | 22 | Exported Function
+`stopMigration` | 23 | Exported Function
+`weak_from_this` | 25 | Exported Function
+`weak_from_this` | 24 | Exported Function
+`IMigrationService` | 7 | Exported Function
+`onUnknowMessage` | 19 | Exported Function
+`IMigrationService` | 13 | Exported Function
+`StopReason` | 15 | Exported Function
+`MigrationService` | 1 | Exported Function
+`getMigrationService` | 14 | Exported Function
+`IMigrationService` | 11 | Exported Function
+`IMigrationIpcMgtCallback` | 12 | Exported Function
+`onTeamsIpcFinished` | 16 | Exported Function
+`onTeamsIpcReady` | 17 | Exported Function
+`TeamsStates` | 18 | Exported Function
+`MigrationService` | 2 | Exported Function
+`MigrationService` | 6 | Exported Function
+`MigrationService` | 9 | Exported Function
 
 
 ## Signature

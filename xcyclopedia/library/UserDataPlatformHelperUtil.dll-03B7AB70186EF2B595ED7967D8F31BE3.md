@@ -26,35 +26,35 @@ PE256 | `A765378D6A9B0109FA02173AC8F9CEF1188B91F57EB8D8836C4AB96FB2128A71`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned int __thiscall Comms::CalculateSize::GetTotal(void)const ` | 28 | Exported Function
-`public: virtual __thiscall Comms::SecureRpcClient::~SecureRpcClient(void)` | 8 | Exported Function
-`public: class utl::vector<unsigned char,class utl::allocator<unsigned char> > const * __thiscall Comms::SerializeBuffer::GetBuffer(void)const ` | 23 | Exported Function
-`public: long __thiscall Comms::RpcClient::InitializeBinding(unsigned short const *,void * &)` | 30 | Exported Function
-`public: void * __thiscall Comms::Deserializer::GetBuffer(unsigned int)` | 21 | Exported Function
-`public: void __thiscall Comms::Deserializer::ReleaseBuffer(void const *)` | 33 | Exported Function
-`public: virtual void __thiscall Comms::CalculateSize::CopyBytesIn(void const *,unsigned int,class type_info const &)` | 9 | Exported Function
-`public: virtual void __thiscall Comms::SerializeBuffer::CopyBytesIn(void const *,unsigned int,class type_info const &)` | 10 | Exported Function
-`public: bool __thiscall Comms::SerializeBuffer::Initialize(void)` | 29 | Exported Function
-`public: __thiscall Comms::Deserializer::~Deserializer(void)` | 6 | Exported Function
-`public: __thiscall Comms::RpcClient::RpcClient(void)` | 3 | Exported Function
-`public: __thiscall Comms::CalculateSize::CalculateSize(bool,bool)` | 1 | Exported Function
-`public: __thiscall Comms::Deserializer::Deserializer(unsigned char const *,unsigned char const *,bool,bool)` | 2 | Exported Function
-`public: __thiscall Comms::SerializeBuffer::SerializeBuffer(class Comms::CalculateSize const &,bool,bool)` | 5 | Exported Function
-`public: bool __thiscall Comms::Deserializer::CopyBytesOut(void *,unsigned int,class type_info const &)` | 11 | Exported Function
-`public: __thiscall Comms::RpcClient::~RpcClient(void)` | 7 | Exported Function
-`public: __thiscall Comms::SecureRpcClient::SecureRpcClient(void)` | 4 | Exported Function
+`GetTotal` | 28 | Exported Function
+`SecureRpcClient` | 8 | Exported Function
+`GetBuffer` | 23 | Exported Function
+`InitializeBinding` | 30 | Exported Function
+`GetBuffer` | 21 | Exported Function
+`ReleaseBuffer` | 33 | Exported Function
+`CopyBytesIn` | 9 | Exported Function
+`CopyBytesIn` | 10 | Exported Function
+`Initialize` | 29 | Exported Function
+`Deserializer` | 6 | Exported Function
+`RpcClient` | 3 | Exported Function
+`CalculateSize` | 1 | Exported Function
+`Deserializer` | 2 | Exported Function
+`CalculateSize` | 5 | Exported Function
+`CopyBytesOut` | 11 | Exported Function
+`RpcClient` | 7 | Exported Function
+`SecureRpcClient` | 4 | Exported Function
 `UT_UninitializeTrident` | 68 | Exported Function
-`void __stdcall Comms::SerializeObject(class Comms::SerializeBase &,char const *)` | 39 | Exported Function
+`SerializeBase` | 39 | Exported Function
 `StopAndWaitForFullyNamedService` | 66 | Exported Function
 `StopAndWaitForService` | 67 | Exported Function
-`void __stdcall Comms::SerializeObject(class Comms::SerializeBase &,class utl::vector<unsigned char,class utl::allocator<unsigned char> > const &)` | 37 | Exported Function
-`void __stdcall Comms::SerializeObject(class Comms::SerializeBase &,unsigned short const *)` | 40 | Exported Function
-`void __stdcall Comms::SerializeObject(class Comms::SerializeBase &,class Comms::detail::NullType const &)` | 38 | Exported Function
-`void __stdcall Comms::SerializeObject(class Comms::SerializeBase &,class utl::basic_string<unsigned short,struct utl::char_traits<unsigned short>,class utl::allocator<unsigned short> > const &)` | 36 | Exported Function
+`allocator` | 37 | Exported Function
+`SerializeBase` | 40 | Exported Function
+`NullType` | 38 | Exported Function
+`allocator` | 36 | Exported Function
 `StartAndWaitForServiceForUser` | 65 | Exported Function
 `ResizeImageBySizeToStream` | 35 | Exported Function
 `RunServicesInProc` | 62 | Exported Function
-`public: void __thiscall Comms::SerializeBuffer::GetBuffer(class utl::vector<unsigned char,class utl::allocator<unsigned char> > &)` | 22 | Exported Function
+`allocator` | 22 | Exported Function
 `ResizeImageBySizeInMemory` | 34 | Exported Function
 `SetThreadIOPriority` | 42 | Exported Function
 `StartAndWaitForService` | 64 | Exported Function
@@ -69,20 +69,20 @@ Function Name | Ordinal | Type
 `DllGetClassObject` | 48 | Exported Function
 `FreeEnumColumn` | 49 | Exported Function
 `ConvertHtmlStringToPlainTextStringOneCore` | 45 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,class Comms::detail::NullType &)` | 19 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,class Comms::detail::NullType const &)` | 20 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,char * &)` | 13 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,char const * &)` | 15 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,unsigned short * &)` | 14 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,unsigned short const * &)` | 16 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,class utl::basic_string<unsigned short,struct utl::char_traits<unsigned short>,class utl::allocator<unsigned short> > &)` | 17 | Exported Function
-`bool __stdcall Comms::DeserializeObject(class Comms::Deserializer &,class utl::vector<unsigned char,class utl::allocator<unsigned char> > &)` | 18 | Exported Function
+`NullType` | 19 | Exported Function
+`NullType` | 20 | Exported Function
+`Deserializer` | 13 | Exported Function
+`Deserializer` | 15 | Exported Function
+`Deserializer` | 14 | Exported Function
+`Deserializer` | 16 | Exported Function
+`allocator` | 17 | Exported Function
+`allocator` | 18 | Exported Function
 `IsActiveDebugger` | 31 | Exported Function
 `IsCommsSystemService` | 59 | Exported Function
 `GetUserContextFromHandle` | 57 | Exported Function
 `GetUserTokenFromContext` | 58 | Exported Function
 `PrependHtmlOneCore` | 61 | Exported Function
-`protected: long __thiscall Comms::SecureRpcClient::_InitializeSecureRpcBinding(unsigned short const *,unsigned short const *)` | 43 | Exported Function
+`_InitializeSecureRpcBinding` | 43 | Exported Function
 `IsImageExtension` | 32 | Exported Function
 `JetReallocMethod` | 60 | Exported Function
 `GetThreadIOPriority` | 27 | Exported Function

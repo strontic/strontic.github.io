@@ -18,6 +18,9 @@ SHA256 | `3286F3271943104E023E36323F0ABBB114C2C59E3A95D64951B1AAFE964272A0`
 SHA384 | `434787D367F2E94475DCEA8C7637F04D225B03505F07A0759380FA0320EC6DB9E600E6E3F9CD58E916F73E220D85D59E`
 SHA512 | `835227D54F1BC7222C9575DAB48061A85E8547BD4F4D4986240F08B3EE65B3D6CF577BB537460908545D0E9D8E5E3767AD6B99A1BDDA08DCD823AD1694818FA8`
 SSDEEP | `3072:uQ+sOKvkZ05VarRlyE19HmHmPbVrA/ZbaZ48FfIiPe0mc3CPbuw7MWktI:hBbValME19HmHmPbmRbb8JIirmcyPb9K`
+IMP | `01C94545980BD083D50BD5F70C211D99`
+PESHA1 | `2CCAC1027CED739CAACA9F5FC1FC82734ACED8AE`
+PE256 | `F95F2903F49B5AE1E31220ED7995241F8D14E7B3FCA479719434C3C3739A8632`
 
 ## Runtime Data
 
@@ -103,6 +106,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\gpresult.exe |
 
@@ -110,8 +114,8 @@ C:\Windows\SysWOW64\gpresult.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -124,7 +128,12 @@ C:\Windows\SysWOW64\gpresult.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/3286f3271943104e023e36323f0abbb114c2c59e3a95d64951b1aafe964272a0/detection/
 
 
 

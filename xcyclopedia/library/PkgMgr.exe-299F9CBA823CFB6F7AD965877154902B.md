@@ -23,6 +23,9 @@ SHA256 | `A1F495FB35CC72823BF0C556C59C0A1E7589F7109A3B287ABAA5F803C652009E`
 SHA384 | `A5C549CE421FE3003D54AB16043566FBE290EB57D2A3608B2935C6C37B50B6453B6E400677DFB81DF70576415446E0E8`
 SHA512 | `5B36639EC28DC09D875BE5E837551B246F067F920FBA520F6BDCF064A33F1FC00A7260474483570D78BEA53CDD2F94E46D8EEBEEB68558D8710A983BA6A73C7C`
 SSDEEP | `3072:m/r5ENnKKphw6s4RTQcWl4xEGS2PQo9tW+R/MYg+S:er58nRccMUEGS2PbxR/T`
+IMP | `59565FB94D24BF5F6F2207C5CBF343B0`
+PESHA1 | `6DA67B1A3E596DFBF5BFDA6B50B1D420EB446C2D`
+PE256 | `9C57490182F6793E2FA862398AEDA5710A013035608504B3B587E60C780938A5`
 
 ## Runtime Data
 
@@ -35,12 +38,15 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -48,6 +54,9 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\PkgMgr.exe |
 
 
@@ -68,7 +77,12 @@ C:\Windows\SysWOW64\PkgMgr.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a1f495fb35cc72823bf0c556c59c0a1e7589f7109a3b287abaa5f803c652009e/detection/
 
 ## File Similarity (ssdeep match)
 

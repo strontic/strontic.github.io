@@ -18,6 +18,9 @@ SHA256 | `90168783DBD9AC5CB2899297154B871FF50E218CD4C825FBB60668CAE4463144`
 SHA384 | `40E8A6C0D4E2F3648108DED1847DA881EDDB18914BFDCED00FD37460EB29E24ED60522F9765BCA906F8B5D6448A0DD87`
 SHA512 | `C6F7B837FD50230EC8E44D5F8778C46DCC689069CCE135C42EA6A7B7A2B1DBB49FE4C5414EAF747404E84DA858B415DB2855B9AC64A4A7A1DB93D1ACC572753D`
 SSDEEP | `1536:ckXDC6ACeTd4446jzzzpyp+UmBo6AtfP/:cU7AFdPjzXpymBo6k/`
+IMP | `1A1951DF009B708FE4E471176F4F890E`
+PESHA1 | `66D3CF2EA02AFE46F8BCAC0DF052DB9AE25EAB4A`
+PE256 | `4415E5C5FA788DB461557CA4FBAC44AC14EC19075B677C47AAA632363AF0AA72`
 
 ## Runtime Data
 
@@ -28,14 +31,17 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\scansetting.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\wiaacmgr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_570e6eecc25578b0 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_5706558cc25cc83b | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC18F4 | Section
+\RPC Control\DSEC1204 | Section
 
 
 ### Loaded Modules:
@@ -44,6 +50,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\wiaacmgr.exe |
 
@@ -65,7 +72,12 @@ C:\Windows\SysWOW64\wiaacmgr.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/90168783dbd9ac5cb2899297154b871ff50e218cd4c825fbb60668cae4463144/detection/
 
 ## File Similarity (ssdeep match)
 

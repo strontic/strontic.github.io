@@ -25,10 +25,10 @@ PE256 | `276415232B152D51742D3D1BF6EADFD60AA6D8364DA078417BCF619FA13FD253`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`class std::shared_ptr<struct IODataService> __stdcall Ace::OData::Factory::GetServiceContext(enum ODataProvider,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class ODataError &)` | 4 | Exported Function
-`void __stdcall Ace::OData::Factory::DiscardCachedServiceContexts(void)` | 1 | Exported Function
-`class std::shared_ptr<struct IODataMetaProvider> __stdcall Ace::OData::Factory::GetMetadataProvider(enum ODataProvider,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class ODataError &)` | 2 | Exported Function
-`class std::shared_ptr<struct IODataService> __stdcall Ace::OData::Factory::GetOpenServiceContext(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,enum ODataProvider)` | 3 | Exported Function
+`allocator` | 4 | Exported Function
+`DiscardCachedServiceContexts` | 1 | Exported Function
+`allocator` | 2 | Exported Function
+`allocator` | 3 | Exported Function
 
 
 ## Signature

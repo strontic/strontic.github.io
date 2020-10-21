@@ -18,6 +18,9 @@ SHA256 | `85DD6F8EDF142F53746A51D11DCBA853104BB0207CDF2D6C3529917C3C0FC8DF`
 SHA384 | `6C0D362F4433F3541BBB8D1ACD314C4EDE33A568C99790694E04C5314311E6C6E522657357529764AE77BC8AD312434B`
 SHA512 | `1305A38AB25316BE740A4ACB343FFBE80D314370B95B31168D357C226C872ED79E179EC1B5D646FDC8B625F1B6D4A0D223B8A40E63B939583C56E28DDC43E4DD`
 SSDEEP | `24576:P297/FD95VXqMybmsTDOSChclVDV3NhK+sytIuZSrsRBdUf3s7KD1gOn/Y2:P47/x9/ByyAfVD3syzjRrUfs7KxI2`
+IMP | `683B8A445B00A271FC57848D893BD6C4`
+PESHA1 | `D0DCC9DDD0223E986291A59EBBDC59C8D52D7393`
+PE256 | `15B6EFA463D84060ECA08D543E2EEED2602E0DA295B9E6EADAD53DFB5FA1CD66`
 
 ## Runtime Data
 
@@ -162,10 +165,44 @@ CertUtil: -? command completed successfully.
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\system32\certcli.dll |
 C:\Windows\system32\certutil.exe |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\ncrypt.dll |
+C:\Windows\system32\NETAPI32.dll |
+C:\Windows\System32\Normaliz.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\WLDAP32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1518_none_6d08fefc59f73326\COMCTL32.dll |
 
 
 ## Signature
@@ -185,7 +222,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/85dd6f8edf142f53746a51d11dcba853104bb0207cdf2d6c3529917c3c0fc8df/detection/
 
 
 ## Possible Misuse

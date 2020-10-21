@@ -18,6 +18,9 @@ SHA256 | `03C7E317E277BBD6C9C1159F8718A9D302E6F78E0D80C09D52A994B7598C0F30`
 SHA384 | `781A5959CE3FBD7CA3BB37181ACC90998E249DF75D095C1D7122EEA857571C7EF036E9C670B974942AC78C632D6BB46A`
 SHA512 | `0620F52E3321FDF398326B36C7477E647CBD2A5D5CACB549088284D75E5539A570FA967D9C6B6E4ADE19C2AB7E845960929AE87D99A6F080B3C844FA19063880`
 SSDEEP | `3072:3m6xtJckj/dV6l5LOufzzkyVRj56+YKsdZetQUC6kIvDg/0jok:3m6xEElM5LOWz4yVRkUL1o`
+IMP | `B0A3CFF8CFDE112945189719F82F9EA9`
+PESHA1 | `1294B399E2E7921303B6FE4F76879B36A80D276F`
+PE256 | `2103AE898B3D5E5FE18F51ACC366B5C43F3102825D60F4CEBFF7CE5A00F236F1`
 
 ## Runtime Data
 
@@ -273,10 +276,25 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\bitsadmin.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -296,7 +314,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.8.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/03c7e317e277bbd6c9c1159f8718a9d302e6f78e0d80c09d52a994b7598c0f30/detection/
 
 
 ## Possible Misuse
@@ -350,7 +373,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This test simulates an adversary leveraging bitsadmin.exe to download | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /transfer /Download /priority Foreground #{remote_file} #{local_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | ## Atomic Test #2 - Bitsadmin Download (PowerShell) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This test simulates an adversary leveraging bitsadmin.exe to schedule a BITS transfer | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This test simulates an adversary leveraging bitsadmin.exe to schedule a BITS transferand execute a payload in multiple steps. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /create #{bits_job_name} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /addfile #{bits_job_name} #{remote_file} #{local_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /setnotifycmdline #{bits_job_name} #{command_path} "" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

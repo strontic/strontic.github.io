@@ -18,6 +18,9 @@ SHA256 | `1839A4AAD437B18B30E9FE880EDBDA89EEA9B76DD0725DAD2C99029CEB4E64BC`
 SHA384 | `A7B02C7CD35D8423639FF25116DEDC18B3206E6F685B18B15876B22642D4375226A6C54F03D9A611B013E2ACD728C6C6`
 SHA512 | `3EAD8149FE47CC80F1A27BACEB1BB78040165F91811D8D1DCB8327023533668DF64925D05351110798C1EEF506E31CEF893A325F3B553DA5B0B4F533E531ADE5`
 SSDEEP | `384:gCOMTMpVlHw8jwHmz3Db9SIb/n7RZXdWoJW2:gCOMW/Hw8RjDbljnlZXJB`
+IMP | `241BF50230A3DBE17E5AC2F48DA766C1`
+PESHA1 | `6BF3927BF6FD1243342FBB27ED47480F0F9797D1`
+PE256 | `98F081B297CF768851AD6B0EE314F38A37FC2EC52755F07C84C30E2B301DBE71`
 
 ## Runtime Data
 
@@ -70,6 +73,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\diskperf.exe |
 
@@ -77,8 +81,8 @@ C:\Windows\SysWOW64\diskperf.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -91,7 +95,12 @@ C:\Windows\SysWOW64\diskperf.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/1839a4aad437b18b30e9fe880edbda89eea9b76dd0725dad2c99029ceb4e64bc/detection/
 
 
 

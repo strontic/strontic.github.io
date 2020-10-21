@@ -18,6 +18,9 @@ SHA256 | `7EE7A6FB1BDD972502D1EB23B7BD471A66CAD63CA3B57D787A173FB290808EB6`
 SHA384 | `263838CE532FD563A7CC7887CA39668634858D50201B2FB03F0B966686D708A5705837D78D222140FB7F356989E707BC`
 SHA512 | `DFF0CBDACCA1C850A3C5F8BB851647B60FDA6352F2FB486B90B0005F79E1D3A8651703EE0F634E967047DCB25E396CE2B5E235B3694D5B1C78D97E5B731F6153`
 SSDEEP | `768:w8igjPq3JqPcvSphuU1EK8vB0MCYnvAMODDM:ZGZipYfB06InM`
+IMP | `2C0AA5527727A67BD252EF9D0F3BEB31`
+PESHA1 | `65E412C36503BCCE42A28F99245599158FBAFED2`
+PE256 | `DFEC3B3D0DBA5EF66138F833A7A03F1FF28C3CA20BD8154C5CBE60F5820E72E4`
 
 ## Runtime Data
 
@@ -60,7 +63,31 @@ QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\browcli.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoncli.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\qprocess.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\system32\srvcli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UTILDLL.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINSTA.dll |
 
 
 ## Signature
@@ -80,7 +107,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/7ee7a6fb1bdd972502d1eb23b7bd471a66cad63ca3b57d787a173fb290808eb6/detection/
 
 ## File Similarity (ssdeep match)
 

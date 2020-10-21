@@ -18,6 +18,9 @@ SHA256 | `750AB5E1F3EB18CC42A4A4C7BAB27753F6B26FB9752AD3861833753091044281`
 SHA384 | `E93D7C15A9B9A70C84AB2D796A1FE5445A9DDA1C06AAC0E21EF16EF85273FA06A7DC1FAF1639B6BEC9CB33F3DC7BDF0D`
 SHA512 | `0DFE914706EFE1C3888636029A00C67E10D8E7B0729F6E46BA27B6EC37617A863BFD7838D4634D0CDCFE7894069F5B549BA70225FC334DAB65276EEAFF17F8E5`
 SSDEEP | `768:Nr9pUJQVmhBubVEvVuVXU9/biWClj9RB8BgS7uTyRe6S9th0lTd:hTuH6bVEqEwNlj9RW7umRdSXh0lTd`
+IMP | `A27641A39DA5A6B0717E06BA00E56B7F`
+PESHA1 | `3189BD7DEC888728609B901362829FEDA8E88BD8`
+PE256 | `B92CF70DF5CE8DC6BE224A520679CF467C7FBEDF54433D9A3B54CCAADA95AE3D`
 
 ## Runtime Data
 
@@ -90,9 +93,30 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\findstr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\findstr.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -112,7 +136,12 @@ Path | Type
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/750ab5e1f3eb18cc42a4a4c7bab27753f6b26fb9752ad3861833753091044281/detection/
 
 
 ## Possible Misuse

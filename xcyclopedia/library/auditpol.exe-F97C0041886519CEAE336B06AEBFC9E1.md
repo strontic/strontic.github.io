@@ -18,6 +18,9 @@ SHA256 | `969306E33A469096EFA20BEE264FB37AC4DA86899F2659007D6BE0D1EB666B1C`
 SHA384 | `F4B90A40FA4E52D82DE8F7375E5D2E898DD5E9BA776CB0F272A58086B5242EB44CF84AD5324C443A2D1570B8AA03DD52`
 SHA512 | `CE8A1A2D13D9CB8503F7AD2B03F331275F2361F9F3004C19EEC0EDE24928BD84795202E8FBB3BCE9BCF8B68A390CAB127525B9B4D6797F0B36796B2A82C9F5CC`
 SSDEEP | `768:nVWCDXCmFOv7yG8Ts+m7BwVRRde98Hom3NCWE6gn:1DgeXPm6om3NVgn`
+IMP | `D401223A63DBFDCD11C945B9EEE0BD7E`
+PESHA1 | `30537E917CAC4C56B59C7B640D595F1CBF781CCF`
+PE256 | `CC067F540B96A893DDC9DC8184E5A7DAFBD869751864BB4590DEBB74C966E99D`
 
 ## Runtime Data
 
@@ -54,10 +57,14 @@ The parameter is incorrect.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\system32\auditpol.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -77,7 +84,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/969306e33a469096efa20bee264fb37ac4da86899f2659007d6be0d1eb666b1c/detection/
 
 
 

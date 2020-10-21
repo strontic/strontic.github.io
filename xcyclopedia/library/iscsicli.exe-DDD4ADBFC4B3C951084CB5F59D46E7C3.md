@@ -18,6 +18,9 @@ SHA256 | `B62ED416F061FBF96185743DE993D0EF17F552C91EFA7D0C1001BBC845A03E97`
 SHA384 | `077AFD58C85FA8E7F81C8ED90A4B049F4ED4FE6687EB096D37362B373217BF440CA5A1CB75F187F1CF1B498A9CCD1CB6`
 SHA512 | `1D353DDA46892EBE11EAF603A27E4E0F97484BEE9F1BC451FC7F42720D4D8C816961212DD8D1C963794D290846D4FEBA9C7FBCC398A51C8159B030B6312911AF`
 SSDEEP | `3072:JCspsGa2SxmsYO2uAICgKOKaeqUKOpVk/qfWJTfS1n37MX:U5eOjYORKRaeqUp3WJrM`
+IMP | `AE81E7728A105B6C0D5F14DA87EA23C1`
+PESHA1 | `3753DCAAA8B086F442658ACD72E9498808DFC68C`
+PE256 | `87AAE2C79F94FE0DC2B133D0D7EC2878156FA90B6783851E173B30C1A4166D6C`
 
 ## Runtime Data
 
@@ -218,8 +221,26 @@ The operation completed successfully.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DEVOBJ.dll |
 C:\Windows\system32\iscsicli.exe |
+C:\Windows\system32\ISCSIDSC.dll |
+C:\Windows\system32\ISCSIUM.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WMICLNT.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -239,7 +260,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b62ed416f061fbf96185743de993d0ef17f552c91efa7d0c1001bbc845a03e97/detection/
 
 ## File Similarity (ssdeep match)
 

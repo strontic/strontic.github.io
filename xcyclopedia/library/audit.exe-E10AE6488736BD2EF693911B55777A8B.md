@@ -8,6 +8,10 @@ excerpt: What is audit.exe?
 * File Path: `C:\windows\system32\oobe\audit.exe`
 * Description: Audit
 
+## Screenshot
+
+![audit.exe](screenshots/audit.exe-0DEAC8D84F1220F2B220EDB1AEFEAF0B-3.png)
+
 ## Hashes
 
 Type | Hash

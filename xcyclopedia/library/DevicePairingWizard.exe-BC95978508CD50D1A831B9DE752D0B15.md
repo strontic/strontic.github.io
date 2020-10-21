@@ -22,6 +22,9 @@ SHA256 | `B8E0841130EB3DC73E827E8CDD0CA7A8CAA2DA7AA0D7DE74433B13B0C19AB7A1`
 SHA384 | `B3FFB1A7DA6AB402542FC9F8E751043934615E58EC5C12B3E0C78215305376D483B4FC7F0FE37C9A781763E0E78EB393`
 SHA512 | `F614CB8CE25B1D288CC6256579B5AD734D1EA8C41427696951085AE22695627439F687CE29345691CAD15DE7FF1AB6CD913C9963CE210872030EDFC8FD85832C`
 SSDEEP | `768:KrSiEYEdvml88AVAwsWPitgfvNmWv/6oueZBryb24G0In3BhzhWM1GOVz177c:KrSiEYOY19eed2/6f8ryb8Z3qOTfc`
+IMP | `E22F4F896B9960494DDA33E77FEBFA53`
+PESHA1 | `1747DAB744B2472FF15CA11F741CA42C7A7621CF`
+PE256 | `D0D4323A5C7C0F35AAF1FCB72D5DFC44CF49181DC3514FC845FF8D2EEFAA3F46`
 
 ## Runtime Data
 
@@ -37,19 +40,22 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\DevicePairing.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC760 | Section
+\RPC Control\DSECE20 | Section
 \Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -80,7 +86,12 @@ C:\Windows\SysWOW64\DevicePairingWizard.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/b8e0841130eb3dc73e827e8cdd0ca7a8caa2da7aa0d7de74433b13b0c19ab7a1/detection/
 
 ## File Similarity (ssdeep match)
 

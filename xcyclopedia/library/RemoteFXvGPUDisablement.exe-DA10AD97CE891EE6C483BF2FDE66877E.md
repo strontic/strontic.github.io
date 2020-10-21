@@ -18,6 +18,9 @@ SHA256 | `A42B55BF02179C8676F260EC9FD89EC8AED9FB5117C914D928EC711D96771424`
 SHA384 | `BCE1800AF2CA295A93BC3FE2D5ABC7EBBE3898464389133E9BB19EF645C45447C7E878FE737CCDCC87051F16CE78970D`
 SHA512 | `80ECD40762D80AAE98629A0FF7A1C412F8D567E7115D13FAB36C990B59B01A12CE247004B761DAF6CA6C9BC85CD65F39EBDC1718107849582D2F82D6D974AAFF`
 SSDEEP | `192:+Y2sL84qxeU2VtRjOzRDnEtzMPUOY/0svGS0lTYwWTfWR:+VeU2hjO9Et0UOSokwWTfW`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `078044F770D8C33CD62E9976649783EAF0F4CD7A`
+PE256 | `13FA78246B167A0714DE6EC87FADE1AEAD8D2006E33A6707E701C3605DA9F6FF`
 
 ## Runtime Data
 
@@ -25,15 +28,37 @@ SSDEEP | `192:+Y2sL84qxeU2VtRjOzRDnEtzMPUOY/0svGS0lTYwWTfWR:+VeU2hjO9Et0UOSokwWT
 
 Path |
 -- |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\RemoteFXvGPUDisablement.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -46,7 +71,12 @@ C:\Windows\system32\RemoteFXvGPUDisablement.exe |
 * Product Version: 10.0.17763.1339
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a42b55bf02179c8676f260ec9fd89ec8aed9fb5117c914d928ec711d96771424/detection/
 
 ## File Similarity (ssdeep match)
 

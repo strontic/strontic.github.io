@@ -18,6 +18,9 @@ SHA256 | `5C865D2D1012EBF9F2503F06F2C4B8AFCCAE063D1E79421E0244E0CF627E5FF1`
 SHA384 | `D31413305D3411F81F062A9CCBC448AAF8ADE72BA6F0EA67A12F6F9BAA68495E4E15B0436B47072F87880D67ACD2CC2C`
 SHA512 | `21774ED290C644EE988F30BA65CDDC9CCF43905698519CFB6E991F7DB3E52F7DC77424A47292F402916BEB619F9958EE204469BE9A850F72774F2DB229083B24`
 SSDEEP | `1536:W3W7Cpl/5zR3jkNT1Gf4jViqfPpWfJZaFf6:HUjm0YVi4PpOJZal`
+IMP | `3EFF225872A4BFF594AF402A5BBCC6F4`
+PESHA1 | `6AB04561E19BA177F0EA23D3BAD23FCEA2E86DCB`
+PE256 | `699C07704014D7115430F5FF347C719266113B08336E8CCD72704EE881A63B95`
 
 ## Runtime Data
 
@@ -98,13 +101,6 @@ Type "TAKEOWN /?" for usage.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -122,7 +118,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/5c865d2d1012ebf9f2503f06f2c4b8afccae063d1e79421e0244e0cf627e5ff1/detection/
 
 
 ## Possible Misuse
@@ -150,39 +151,37 @@ Source | Source File | Example | License
 
 ## takeown
 
-Enables an administrator to recover access to a file that previously was denied, by making the administrator the owner of the file.
-
-
+Enables an administrator to recover access to a file that previously was denied, by making the administrator the owner of the file. This command is typically used on batch files.
 
 ### Syntax
 
 ```
-takeown [/s <Computer> [/u [<Domain>\]<User name> [/p [<Password>]]]] /f <File name> [/a] [/r [/d {Y|N}]]
+takeown [/s <computer> [/u [<domain>\]<username> [/p [<password>]]]] /f <filename> [/a] [/r [/d {Y|N}]]
 ```
 
-##### Parameters
+#### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/s \<Computer>|Specifies the name or IP address of a remote computer (do not use backslashes). The default value is the local computer. This parameter applies to all of the files and folders specified in the command.|
-|/u [\<Domain>\]<User name>|Runs the script with the permissions of the specified user account. The default value is system permissions.|
-|/p [\<Password>]|Specifies the password of the user account that is specified in the **/u** parameter.|
-|/f \<File name>|Specifies the file name or directory name pattern. You can use the wildcard character * when specifying the pattern. You can also use the syntax *ShareName*\*FileName*.|
-|/a|Gives ownership to the Administrators group instead of the current user.|
-|/r|Performs a recursive operation on all files in the specified directory and subdirectories.|
-|/d {Y \| N}|Suppresses the confirmation prompt that is displayed when the current user does not have the "List Folder" permission on a specified directory, and instead uses the specified default value. Valid values for the **/d** option are as follows:</br>-   Y: Take ownership of the directory.</br>-   N: Skip the directory.</br>Note that you must use this option in conjunction with the **/r** option.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| /s `<computer>` | Specifies the name or IP address of a remote computer (do not use backslashes). The default value is the local computer. This parameter applies to all of the files and folders specified in the command. |
+| /u `[<domain>\]<username>` | Runs the script with the permissions of the specified user account. The default value is system permissions. |
+| /p `[<[password>]` | Specifies the password of the user account that is specified in the **/u** parameter. |
+| /f `<filename>` | Specifies the file name or directory name pattern. You can use the wildcard character `*` when specifying the pattern. You can also use the syntax `<sharename>\<filename>`. |
+| /a | Gives ownership to the Administrators group instead of the current user. If you don't specify this option, file ownership is given to the user who is currently logged on to the computer. |
+| /r | Performs a recursive operation on all files in the specified directory and subdirectories. |
+| /d `{Y | N}` | Suppresses the confirmation prompt that is displayed when the current user does not have the **List Folder** permission on a specified directory, and instead uses the specified default value. Valid values for the **/d** option are:<ul><li>**Y** - Take ownership of the directory.</li><li>**N** - Skip the directory.<p>**NOTE**<br>You must use this option in conjunction with the **/r** option.</li></ul> |
+| /? | Displays help at the command prompt. |
 
 ### Remarks
 
--   This command is typically used in batch files.
--   If the **/a** parameter is not specified, file ownership is given to the user who is currently logged on to the computer.
--   Mixed patterns using (**?** and **&#42;**) are not supported by **takeown** command.
--   After deleting the lock with **takeown**, you might have to use Windows Explorer or the **cacls** command to give yourself full permissions to the files and directories before you can delete them. For more information about **cacls**, see "Additional References" at the end of this topic.
+- Mixed patterns using (**?** and **&#42;**) aren't supported by **takeown** command.
 
-### <a name="BKMK_examples"></a>Examples
+- After deleting the lock with **takeown**, you might have to use Windows Explorer to give yourself full permissions to the files and directories before you can delete them.
 
-To take ownership of a file named Lostfile, type:
+### Examples
+
+To take ownership of a file named *Lostfile*, type:
+
 ```
 takeown /f lostfile
 ```

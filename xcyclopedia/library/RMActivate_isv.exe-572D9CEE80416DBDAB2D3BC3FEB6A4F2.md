@@ -18,28 +18,23 @@ SHA256 | `F983D1A5EAA26F8300DC6D8CC7B15782E6F0BF3F7B3A57C845BC4B2C470E0879`
 SHA384 | `C6723EB5273D37731CA94759D8CCA7769E5E901E8E2159579CE5BA421462EAD7FEA995BE67DF380C709BAF7DBA4395E3`
 SHA512 | `BCE6F0C4BE19119CE5C731A9FD5ACAD340B466494F096B29961D2F0D929B0775D97A892AD2177B6DD308F3503F06B516ACBCDE2DCA3BF48939F70DF596560994`
 SSDEEP | `12288:HDV+9MjWE/1pLKDRXbEh6OwhKUWr8D0oDpJ2QbMS/Qs4HnTs12vROdBie42WoQD:jV+9MjbpLqpyfUWYDXDpJ2qMS/YTsUOs`
+IMP | `EBCDFF4FE394A3E0CD90455A8A72EF29`
+PESHA1 | `AE5EE9B9EF255397FF3418452716188F985A97B8`
+PE256 | `FC9C9BAF65283983794F1AC6FD05682AEAA1B84599C2A4F1A99791541E05DAB5`
 
 ## Runtime Data
 
 ### Child Processes:
 conhost.exe
 
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\crypt32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\RMActivate_isv.exe |
 
 
@@ -60,7 +55,12 @@ C:\Windows\SysWOW64\RMActivate_isv.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/f983d1a5eaa26f8300dc6d8cc7b15782e6f0bf3f7b3a57c845bc4b2c470e0879/detection/
 
 ## File Similarity (ssdeep match)
 

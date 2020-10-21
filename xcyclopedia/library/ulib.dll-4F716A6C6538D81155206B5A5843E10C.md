@@ -26,180 +26,180 @@ PE256 | `F91AD789115162F967E5C2C63175E3542E29014A50C03023D367AB770D6630EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned char __cdecl TIMEINFO_ARGUMENT::Initialize(char * __ptr64) __ptr64` | 231 | Exported Function
-`public: unsigned char __cdecl WSTRING::Initialize(char const * __ptr64,unsigned long) __ptr64` | 233 | Exported Function
-`public: unsigned char __cdecl WSTRING::Initialize(class WSTRING const * __ptr64,unsigned long,unsigned long) __ptr64` | 235 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::QueryTime(class WSTRING * __ptr64)const __ptr64` | 337 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::operator<(class TIMEINFO)const __ptr64` | 95 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::operator>(class TIMEINFO)const __ptr64` | 98 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::QueryDate(class WSTRING * __ptr64)const __ptr64` | 299 | Exported Function
-`public: unsigned char __cdecl WSTRING::operator!=(class WSTRING const & __ptr64)const __ptr64` | 94 | Exported Function
-`public: unsigned char __cdecl WSTRING::operator<(class WSTRING const & __ptr64)const __ptr64` | 96 | Exported Function
-`public: unsigned char __cdecl WSTRING::operator<=(class WSTRING const & __ptr64)const __ptr64` | 97 | Exported Function
-`public: unsigned char __cdecl WSTRING::InsertString(unsigned long,class WSTRING const * __ptr64,unsigned long,unsigned long) __ptr64` | 239 | Exported Function
-`public: unsigned char __cdecl WSTRING::Initialize(long) __ptr64` | 232 | Exported Function
-`public: unsigned char __cdecl WSTRING::Initialize(unsigned short const * __ptr64,unsigned long) __ptr64` | 234 | Exported Function
-`public: unsigned char __cdecl WSTRING::Initialize(void) __ptr64` | 236 | Exported Function
-`public: unsigned char __cdecl STRING_ARRAY::Initialize(unsigned long,unsigned long,unsigned long) __ptr64` | 226 | Exported Function
-`public: unsigned char __cdecl SVILOGFILES::DeleteOldest(void) __ptr64` | 144 | Exported Function
-`public: unsigned char __cdecl SVILOGFILES::GetHandleNewLogFile(void * __ptr64 * __ptr64) __ptr64` | 179 | Exported Function
-`public: unsigned char __cdecl STRING_ARGUMENT::Initialize(char * __ptr64) __ptr64` | 225 | Exported Function
-`public: unsigned char __cdecl STREAM::ReadWLine(unsigned short * __ptr64,unsigned long,unsigned long * __ptr64,unsigned char,unsigned long) __ptr64` | 346 | Exported Function
-`public: unsigned char __cdecl STREAM::WriteByte(unsigned char) __ptr64` | 452 | Exported Function
-`public: unsigned char __cdecl STREAM_MESSAGE::Initialize(class STREAM * __ptr64,class STREAM * __ptr64,class STREAM * __ptr64) __ptr64` | 224 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::ConvertToUTC(void) __ptr64` | 132 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::Initialize(struct _FILETIME * __ptr64) __ptr64` | 228 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::Initialize(void) __ptr64` | 229 | Exported Function
-`public: unsigned char __cdecl TIMEINFO::ConvertToLocal(void) __ptr64` | 131 | Exported Function
-`public: unsigned char __cdecl SVILOGFILES::Initialize(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 227 | Exported Function
-`public: unsigned char __cdecl SVILOGFILES::NewLogFileName(class WSTRING * __ptr64) __ptr64` | 272 | Exported Function
-`public: unsigned char __cdecl SVILOGFILES::ShiftLogs(unsigned short const * __ptr64) __ptr64` | 403 | Exported Function
-`public: unsigned char __cdecl WSTRING::operator==(class WSTRING const & __ptr64)const __ptr64` | 93 | Exported Function
-`public: unsigned long __cdecl WSTRING::Strspn(class WSTRING const * __ptr64,unsigned long)const __ptr64` | 433 | Exported Function
-`public: unsigned long __cdecl WSTRING::Strstr(class WSTRING const * __ptr64)const __ptr64` | 435 | Exported Function
-`public: unsigned long __cdecl WSTRING::SyncLength(void) __ptr64` | 438 | Exported Function
-`public: unsigned long __cdecl WSTRING::Strrchr(unsigned short,unsigned long)const __ptr64` | 432 | Exported Function
-`public: unsigned long __cdecl WSTRING::QueryChCount(void)const __ptr64` | 294 | Exported Function
-`public: unsigned long __cdecl WSTRING::Strchr(unsigned short,unsigned long)const __ptr64` | 415 | Exported Function
-`public: unsigned long __cdecl WSTRING::Strcspn(class WSTRING const * __ptr64,unsigned long)const __ptr64` | 424 | Exported Function
-`public: unsigned short __cdecl WSTRING::SetChAt(unsigned short,unsigned long) __ptr64` | 377 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl WSTRING::GetWSTR(void)const __ptr64` | 188 | Exported Function
+`Initialize` | 231 | Exported Function
+`Initialize` | 233 | Exported Function
+`Initialize` | 235 | Exported Function
+`QueryTime` | 337 | Exported Function
+`operator` | 95 | Exported Function
+`operator` | 98 | Exported Function
+`QueryDate` | 299 | Exported Function
+`operator` | 94 | Exported Function
+`operator` | 96 | Exported Function
+`operator` | 97 | Exported Function
+`InsertString` | 239 | Exported Function
+`Initialize` | 232 | Exported Function
+`Initialize` | 234 | Exported Function
+`Initialize` | 236 | Exported Function
+`Initialize` | 226 | Exported Function
+`DeleteOldest` | 144 | Exported Function
+`GetHandleNewLogFile` | 179 | Exported Function
+`Initialize` | 225 | Exported Function
+`ReadWLine` | 346 | Exported Function
+`WriteByte` | 452 | Exported Function
+`Initialize` | 224 | Exported Function
+`ConvertToUTC` | 132 | Exported Function
+`Initialize` | 228 | Exported Function
+`Initialize` | 229 | Exported Function
+`ConvertToLocal` | 131 | Exported Function
+`Initialize` | 227 | Exported Function
+`NewLogFileName` | 272 | Exported Function
+`ShiftLogs` | 403 | Exported Function
+`operator` | 93 | Exported Function
+`Strspn` | 433 | Exported Function
+`Strstr` | 435 | Exported Function
+`SyncLength` | 438 | Exported Function
+`Strrchr` | 432 | Exported Function
+`QueryChCount` | 294 | Exported Function
+`Strchr` | 415 | Exported Function
+`Strcspn` | 424 | Exported Function
+`SetChAt` | 377 | Exported Function
+`GetWSTR` | 188 | Exported Function
 `public: virtual __cdecl ARGUMENT_LEXEMIZER::~ARGUMENT_LEXEMIZER(void) __ptr64` | 52 | Exported Function
-`public: unsigned short __cdecl WSTRING::QueryChAt(unsigned long)const __ptr64` | 292 | Exported Function
-`public: unsigned long __cdecl WSTRING::Truncate(unsigned long) __ptr64` | 441 | Exported Function
-`public: unsigned short * __ptr64 __cdecl WSTRING::GetWSTRNonConst(void) __ptr64` | 189 | Exported Function
-`public: unsigned short * __ptr64 __cdecl WSTRING::QueryWSTR(unsigned long,unsigned long,unsigned short * __ptr64,unsigned long,unsigned char)const __ptr64` | 341 | Exported Function
-`public: unsigned char __cdecl WSTRING::ReplaceWithChars(unsigned long,unsigned long,unsigned short,unsigned long) __ptr64` | 352 | Exported Function
-`public: unsigned char __cdecl WSTRING::Split(class ARRAY * __ptr64,class WSTRING const * __ptr64,unsigned char)const __ptr64` | 408 | Exported Function
-`public: unsigned char __cdecl WSTRING::Strcat(class WSTRING const * __ptr64) __ptr64` | 413 | Exported Function
-`public: unsigned char __cdecl WSTRING::Replace(unsigned long,unsigned long,class WSTRING const * __ptr64,unsigned long,unsigned long) __ptr64` | 350 | Exported Function
-`public: unsigned char __cdecl WSTRING::operator>(class WSTRING const & __ptr64)const __ptr64` | 99 | Exported Function
-`public: unsigned char __cdecl WSTRING::operator>=(class WSTRING const & __ptr64)const __ptr64` | 100 | Exported Function
-`public: unsigned char __cdecl WSTRING::QueryNumber(long * __ptr64,unsigned long,unsigned long)const __ptr64` | 322 | Exported Function
-`public: unsigned long __cdecl BSTRING::Strchr(char,unsigned long)const __ptr64` | 414 | Exported Function
-`public: unsigned long __cdecl SCREEN::QueryCodePage(void) __ptr64` | 296 | Exported Function
-`public: unsigned long __cdecl WSTRING::QueryByteCount(void)const __ptr64` | 291 | Exported Function
-`public: unsigned long __cdecl BSTRING::QueryChCount(void)const __ptr64` | 293 | Exported Function
-`public: unsigned char __cdecl WSTRING::Strcat(unsigned short const * __ptr64) __ptr64` | 412 | Exported Function
-`public: unsigned long __cdecl BITVECTOR::SetSize(unsigned long,enum BIT) __ptr64` | 398 | Exported Function
-`public: unsigned long __cdecl BSTRING::NextChar(unsigned long) __ptr64` | 273 | Exported Function
-`public: unsigned char __cdecl STREAM::ReadMbLine(char * __ptr64,unsigned long,unsigned long * __ptr64,unsigned char,unsigned long) __ptr64` | 345 | Exported Function
-`public: unsigned char __cdecl MESSAGE::Log(char const * __ptr64,...) __ptr64` | 258 | Exported Function
-`public: unsigned char __cdecl MESSAGE::LogMessage(class WSTRING const * __ptr64) __ptr64` | 259 | Exported Function
-`public: unsigned char __cdecl MESSAGE::LogMsg(unsigned long) __ptr64` | 260 | Exported Function
-`public: unsigned char __cdecl MESSAGE::IsLoggingEnabled(void) __ptr64` | 248 | Exported Function
-`public: unsigned char __cdecl MESSAGE::DisplayMsg(unsigned long,enum MESSAGE_TYPE,unsigned long,char const * __ptr64,...) __ptr64` | 153 | Exported Function
-`public: unsigned char __cdecl MESSAGE::DumpDataToLog(void * __ptr64,unsigned long) __ptr64` | 158 | Exported Function
-`public: unsigned char __cdecl MESSAGE::Initialize(void) __ptr64` | 213 | Exported Function
-`public: unsigned char __cdecl MESSAGE::SetLogOnly(unsigned char) __ptr64` | 388 | Exported Function
-`public: unsigned char __cdecl MULTIPLE_PATH_ARGUMENT::Initialize(char * __ptr64,unsigned char,unsigned char) __ptr64` | 214 | Exported Function
-`public: unsigned char __cdecl OBJECT::IsSameClass(class OBJECT const * __ptr64)const __ptr64` | 249 | Exported Function
-`public: unsigned char __cdecl MESSAGE::QueryPackedLog(class HMEM * __ptr64,unsigned long * __ptr64) __ptr64` | 323 | Exported Function
-`public: unsigned char __cdecl MESSAGE::LogMsg(unsigned long,char const * __ptr64,...) __ptr64` | 261 | Exported Function
-`public: unsigned char __cdecl MESSAGE::LogOnly(void) __ptr64` | 262 | Exported Function
-`public: unsigned char __cdecl MESSAGE::QueryNextLoggedMessage(class FSTRING * __ptr64) __ptr64` | 321 | Exported Function
-`public: unsigned char __cdecl LIST::Initialize(void) __ptr64` | 209 | Exported Function
-`public: unsigned char __cdecl LIST::Insert(class OBJECT * __ptr64,class ITERATOR * __ptr64) __ptr64` | 238 | Exported Function
-`public: unsigned char __cdecl LONG_ARGUMENT::Initialize(char * __ptr64) __ptr64` | 210 | Exported Function
-`public: unsigned char __cdecl KEYBOARD::IsKeyAvailable(unsigned char * __ptr64)const __ptr64` | 246 | Exported Function
-`public: unsigned char __cdecl KEYBOARD::EnableLineMode(void) __ptr64` | 160 | Exported Function
-`public: unsigned char __cdecl KEYBOARD::Flush(void) __ptr64` | 172 | Exported Function
-`public: unsigned char __cdecl KEYBOARD::Initialize(unsigned char,unsigned char) __ptr64` | 208 | Exported Function
-`public: unsigned char __cdecl MESSAGE::DisplayMsg(unsigned long) __ptr64` | 150 | Exported Function
-`public: unsigned char __cdecl MESSAGE::DisplayMsg(unsigned long,char const * __ptr64,...) __ptr64` | 151 | Exported Function
-`public: unsigned char __cdecl MESSAGE::DisplayMsg(unsigned long,enum MESSAGE_TYPE,unsigned long) __ptr64` | 152 | Exported Function
-`public: unsigned char __cdecl MESSAGE::Display(char const * __ptr64,...) __ptr64` | 147 | Exported Function
-`public: unsigned char __cdecl MEM_ALLOCATOR::Initialize(unsigned __int64,unsigned long) __ptr64` | 211 | Exported Function
-`public: unsigned char __cdecl MEM_BLOCK_MGR::Free(void * __ptr64) __ptr64` | 173 | Exported Function
-`public: unsigned char __cdecl MEM_BLOCK_MGR::Initialize(unsigned long,unsigned long) __ptr64` | 212 | Exported Function
-`public: unsigned char __cdecl OBJECT::IsSameObject(class OBJECT const * __ptr64)const __ptr64` | 250 | Exported Function
-`public: unsigned char __cdecl REST_OF_LINE_ARGUMENT::Initialize(void) __ptr64` | 221 | Exported Function
-`public: unsigned char __cdecl SCREEN::ChangeScreenSize(unsigned short,unsigned short,unsigned char * __ptr64) __ptr64` | 119 | Exported Function
-`public: unsigned char __cdecl SCREEN::EraseScreen(void) __ptr64` | 163 | Exported Function
-`public: unsigned char __cdecl PROGRAM::Initialize(unsigned long,unsigned long,unsigned long) __ptr64` | 220 | Exported Function
-`public: unsigned char __cdecl PATH::TruncateBase(void) __ptr64` | 442 | Exported Function
-`public: unsigned char __cdecl PATH_ARGUMENT::Initialize(char * __ptr64,unsigned char) __ptr64` | 218 | Exported Function
-`public: unsigned char __cdecl PRINT_STREAM::Initialize(class PATH const * __ptr64) __ptr64` | 219 | Exported Function
-`public: unsigned char __cdecl SCREEN::SetOutputCodePage(unsigned long) __ptr64` | 395 | Exported Function
-`public: unsigned char __cdecl SORTED_LIST::Initialize(unsigned char) __ptr64` | 223 | Exported Function
-`public: unsigned char __cdecl STREAM::ReadLine(class WSTRING * __ptr64,unsigned char) __ptr64` | 344 | Exported Function
-`public: unsigned char __cdecl SCREEN::SetCodePage(unsigned long) __ptr64` | 379 | Exported Function
-`public: unsigned char __cdecl SCREEN::EraseScreenAndResetAttribute(void) __ptr64` | 164 | Exported Function
-`public: unsigned char __cdecl SCREEN::Initialize(void) __ptr64` | 222 | Exported Function
-`public: unsigned char __cdecl SCREEN::MoveCursorTo(unsigned short,unsigned short) __ptr64` | 268 | Exported Function
-`public: unsigned char __cdecl PATH::HasWildCard(void)const __ptr64` | 191 | Exported Function
-`public: unsigned char __cdecl PATH::Initialize(class PATH const * __ptr64,unsigned char) __ptr64` | 216 | Exported Function
-`public: unsigned char __cdecl PATH::Initialize(class WSTRING const * __ptr64,unsigned char) __ptr64` | 217 | Exported Function
-`public: unsigned char __cdecl PATH::EndsWithDelimiter(void)const __ptr64` | 162 | Exported Function
-`public: unsigned char __cdecl PATH::AppendBase(class WSTRING const * __ptr64,unsigned char) __ptr64` | 113 | Exported Function
-`public: unsigned char __cdecl PATH::AppendDelimiter(void) __ptr64` | 114 | Exported Function
-`public: unsigned char __cdecl PATH::AppendString(class WSTRING const * __ptr64) __ptr64` | 115 | Exported Function
-`public: unsigned char __cdecl PATH::PathWasTooBig(void) __ptr64` | 276 | Exported Function
-`public: unsigned char __cdecl PATH::SetDevice(class WSTRING const * __ptr64) __ptr64` | 382 | Exported Function
-`public: unsigned char __cdecl PATH::SetName(class WSTRING const * __ptr64) __ptr64` | 390 | Exported Function
-`public: unsigned char __cdecl PATH::ModifyName(class WSTRING const * __ptr64) __ptr64` | 267 | Exported Function
-`public: unsigned char __cdecl PATH::Initialize(unsigned short const * __ptr64,unsigned char) __ptr64` | 215 | Exported Function
-`public: unsigned char __cdecl PATH::IsDrive(void)const __ptr64` | 241 | Exported Function
-`public: unsigned char __cdecl PATH::IsGuidVolName(void) __ptr64` | 243 | Exported Function
+`QueryChAt` | 292 | Exported Function
+`Truncate` | 441 | Exported Function
+`GetWSTRNonConst` | 189 | Exported Function
+`QueryWSTR` | 341 | Exported Function
+`ReplaceWithChars` | 352 | Exported Function
+`Split` | 408 | Exported Function
+`Strcat` | 413 | Exported Function
+`Replace` | 350 | Exported Function
+`operator` | 99 | Exported Function
+`operator` | 100 | Exported Function
+`QueryNumber` | 322 | Exported Function
+`Strchr` | 414 | Exported Function
+`QueryCodePage` | 296 | Exported Function
+`QueryByteCount` | 291 | Exported Function
+`QueryChCount` | 293 | Exported Function
+`Strcat` | 412 | Exported Function
+`SetSize` | 398 | Exported Function
+`NextChar` | 273 | Exported Function
+`ReadMbLine` | 345 | Exported Function
+`Log` | 258 | Exported Function
+`LogMessage` | 259 | Exported Function
+`LogMsg` | 260 | Exported Function
+`IsLoggingEnabled` | 248 | Exported Function
+`DisplayMsg` | 153 | Exported Function
+`DumpDataToLog` | 158 | Exported Function
+`Initialize` | 213 | Exported Function
+`SetLogOnly` | 388 | Exported Function
+`Initialize` | 214 | Exported Function
+`IsSameClass` | 249 | Exported Function
+`QueryPackedLog` | 323 | Exported Function
+`LogMsg` | 261 | Exported Function
+`LogOnly` | 262 | Exported Function
+`QueryNextLoggedMessage` | 321 | Exported Function
+`Initialize` | 209 | Exported Function
+`Insert` | 238 | Exported Function
+`Initialize` | 210 | Exported Function
+`IsKeyAvailable` | 246 | Exported Function
+`EnableLineMode` | 160 | Exported Function
+`Flush` | 172 | Exported Function
+`Initialize` | 208 | Exported Function
+`DisplayMsg` | 150 | Exported Function
+`DisplayMsg` | 151 | Exported Function
+`DisplayMsg` | 152 | Exported Function
+`Display` | 147 | Exported Function
+`Initialize` | 211 | Exported Function
+`Free` | 173 | Exported Function
+`Initialize` | 212 | Exported Function
+`IsSameObject` | 250 | Exported Function
+`Initialize` | 221 | Exported Function
+`ChangeScreenSize` | 119 | Exported Function
+`EraseScreen` | 163 | Exported Function
+`Initialize` | 220 | Exported Function
+`TruncateBase` | 442 | Exported Function
+`Initialize` | 218 | Exported Function
+`Initialize` | 219 | Exported Function
+`SetOutputCodePage` | 395 | Exported Function
+`Initialize` | 223 | Exported Function
+`ReadLine` | 344 | Exported Function
+`SetCodePage` | 379 | Exported Function
+`EraseScreenAndResetAttribute` | 164 | Exported Function
+`Initialize` | 222 | Exported Function
+`MoveCursorTo` | 268 | Exported Function
+`HasWildCard` | 191 | Exported Function
+`Initialize` | 216 | Exported Function
+`Initialize` | 217 | Exported Function
+`EndsWithDelimiter` | 162 | Exported Function
+`AppendBase` | 113 | Exported Function
+`AppendDelimiter` | 114 | Exported Function
+`AppendString` | 115 | Exported Function
+`PathWasTooBig` | 276 | Exported Function
+`SetDevice` | 382 | Exported Function
+`SetName` | 390 | Exported Function
+`ModifyName` | 267 | Exported Function
+`Initialize` | 215 | Exported Function
+`IsDrive` | 241 | Exported Function
+`IsGuidVolName` | 243 | Exported Function
 `public: virtual __cdecl ARRAY::~ARRAY(void) __ptr64` | 53 | Exported Function
-`public: virtual unsigned long __cdecl MESSAGE::SelectResponse(unsigned long,...) __ptr64` | 367 | Exported Function
-`public: virtual unsigned long __cdecl SORTED_LIST::QueryMemberCount(void)const __ptr64` | 317 | Exported Function
-`public: virtual void * __ptr64 __cdecl CONT_MEM::Acquire(unsigned long,unsigned long) __ptr64` | 108 | Exported Function
-`public: virtual unsigned long __cdecl LIST::QueryMemberCount(void)const __ptr64` | 316 | Exported Function
-`public: virtual unsigned char __cdecl STREAM_MESSAGE::Set(unsigned long,enum MESSAGE_TYPE,unsigned long) __ptr64` | 369 | Exported Function
-`public: virtual unsigned char __cdecl STRING_ARRAY::Sort(unsigned char) __ptr64` | 407 | Exported Function
-`public: virtual unsigned long __cdecl ARRAY::QueryMemberCount(void)const __ptr64` | 315 | Exported Function
-`public: virtual void __cdecl PROGRAM::Fatal(void)const __ptr64` | 167 | Exported Function
-`public: virtual void __cdecl PROGRAM::Usage(void)const __ptr64` | 447 | Exported Function
-`public: virtual void __cdecl PROGRAM::ValidateVersion(unsigned long,unsigned long)const __ptr64` | 449 | Exported Function
-`public: virtual void __cdecl PROGRAM::Fatal(unsigned long,unsigned long,char * __ptr64,...)const __ptr64` | 166 | Exported Function
-`public: virtual void * __ptr64 __cdecl HMEM::Acquire(unsigned long,unsigned long) __ptr64` | 109 | Exported Function
-`public: virtual void __cdecl KEYBOARD::DoNotRestoreConsoleMode(void) __ptr64` | 155 | Exported Function
-`public: virtual void __cdecl OBJECT::DebugDump(unsigned char)const __ptr64` | 136 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::IsYesResponse(unsigned char) __ptr64` | 255 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::QueryStringInput(class WSTRING * __ptr64) __ptr64` | 335 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::SetDotsOnly(unsigned char) __ptr64` | 383 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::IsSuppressedMessage(unsigned char) __ptr64` | 252 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::IsInAutoChk(void) __ptr64` | 244 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::IsInSetup(void) __ptr64` | 245 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::IsKeyPressed(unsigned long,unsigned long) __ptr64` | 247 | Exported Function
-`public: virtual unsigned char __cdecl SORTED_LIST::DeleteAllMembers(void) __ptr64` | 140 | Exported Function
-`public: virtual unsigned char __cdecl SORTED_LIST::Put(class OBJECT * __ptr64) __ptr64` | 280 | Exported Function
-`public: virtual unsigned char __cdecl STREAM_MESSAGE::IsYesResponse(unsigned char) __ptr64` | 256 | Exported Function
-`public: virtual unsigned char __cdecl SEQUENTIAL_CONTAINER::DeleteAllMembers(void) __ptr64` | 139 | Exported Function
-`public: virtual unsigned char __cdecl MESSAGE::WaitForUserSignal(void) __ptr64` | 450 | Exported Function
-`public: virtual unsigned char __cdecl PROGRAM::DisplayMessage(unsigned long,enum MESSAGE_TYPE)const __ptr64` | 148 | Exported Function
-`public: virtual unsigned char __cdecl PROGRAM::DisplayMessage(unsigned long,enum MESSAGE_TYPE,char * __ptr64,...)const __ptr64` | 149 | Exported Function
-`public: void * __ptr64 __cdecl MEM_ALLOCATOR::Allocate(unsigned long) __ptr64` | 111 | Exported Function
-`public: void __cdecl MESSAGE::Unlock(void) __ptr64` | 445 | Exported Function
-`public: void __cdecl PATH::TrimTrailingDelimeters(void) __ptr64` | 440 | Exported Function
-`public: void __cdecl PATH::TruncateDelimiter(void) __ptr64` | 443 | Exported Function
-`public: void __cdecl MESSAGE::SetLoggingEnabled(unsigned char) __ptr64` | 389 | Exported Function
-`public: void __cdecl BSTRING::DeleteChAt(unsigned long,unsigned long) __ptr64` | 141 | Exported Function
-`public: void __cdecl MESSAGE::Lock(void) __ptr64` | 257 | Exported Function
-`public: void __cdecl MESSAGE::ResetLoggingIterator(void) __ptr64` | 355 | Exported Function
+`SelectResponse` | 367 | Exported Function
+`QueryMemberCount` | 317 | Exported Function
+`Acquire` | 108 | Exported Function
+`QueryMemberCount` | 316 | Exported Function
+`Set` | 369 | Exported Function
+`Sort` | 407 | Exported Function
+`QueryMemberCount` | 315 | Exported Function
+`Fatal` | 167 | Exported Function
+`Usage` | 447 | Exported Function
+`ValidateVersion` | 449 | Exported Function
+`Fatal` | 166 | Exported Function
+`Acquire` | 109 | Exported Function
+`DoNotRestoreConsoleMode` | 155 | Exported Function
+`DebugDump` | 136 | Exported Function
+`IsYesResponse` | 255 | Exported Function
+`QueryStringInput` | 335 | Exported Function
+`SetDotsOnly` | 383 | Exported Function
+`IsSuppressedMessage` | 252 | Exported Function
+`IsInAutoChk` | 244 | Exported Function
+`IsInSetup` | 245 | Exported Function
+`IsKeyPressed` | 247 | Exported Function
+`DeleteAllMembers` | 140 | Exported Function
+`Put` | 280 | Exported Function
+`IsYesResponse` | 256 | Exported Function
+`DeleteAllMembers` | 139 | Exported Function
+`WaitForUserSignal` | 450 | Exported Function
+`DisplayMessage` | 148 | Exported Function
+`DisplayMessage` | 149 | Exported Function
+`Allocate` | 111 | Exported Function
+`Unlock` | 445 | Exported Function
+`TrimTrailingDelimeters` | 440 | Exported Function
+`TruncateDelimiter` | 443 | Exported Function
+`SetLoggingEnabled` | 389 | Exported Function
+`DeleteChAt` | 141 | Exported Function
+`Lock` | 257 | Exported Function
+`ResetLoggingIterator` | 355 | Exported Function
 `TrackMsgId` | 462 | Exported Function
 `UlibRealloc` | 463 | Exported Function
 `void * __ptr64 __cdecl FindFirstFileW(class PATH const * __ptr64,struct _WIN32_FIND_DATAW * __ptr64)` | 170 | Exported Function
-`public: void __cdecl WSTRING::DeleteChAt(unsigned long,unsigned long) __ptr64` | 142 | Exported Function
-`public: void __cdecl PATH::TruncateNameAtColon(void) __ptr64` | 444 | Exported Function
-`public: void __cdecl SCREEN::QueryScreenSize(unsigned short * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64,unsigned short * __ptr64)const __ptr64` | 331 | Exported Function
-`public: void __cdecl TIMEINFO::Initialize(class TIMEINFO const * __ptr64) __ptr64` | 230 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutMultipleSwitch(class WSTRING const * __ptr64) __ptr64` | 284 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutSeparators(char const * __ptr64) __ptr64` | 285 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutSwitches(char const * __ptr64) __ptr64` | 289 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutMultipleSwitch(char const * __ptr64) __ptr64` | 283 | Exported Function
-`public: void * __ptr64 __cdecl MEM_BLOCK_MGR::Alloc(void) __ptr64` | 110 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutMultiCharSwitch(char const * __ptr64) __ptr64` | 281 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutMultiCharSwitch(unsigned short const * __ptr64) __ptr64` | 282 | Exported Function
-`public: void __cdecl BITVECTOR::Initialize(unsigned long * __ptr64,unsigned long) __ptr64` | 195 | Exported Function
-`public: void __cdecl BITVECTOR::ResetBit(unsigned long,unsigned long) __ptr64` | 353 | Exported Function
-`public: void __cdecl BITVECTOR::SetBit(unsigned long,unsigned long) __ptr64` | 375 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::SetNoSpcBetweenDstAndSwitch(unsigned char) __ptr64` | 391 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::PutSwitches(class WSTRING const * __ptr64) __ptr64` | 290 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::SetAllowSwitchGlomming(unsigned char) __ptr64` | 370 | Exported Function
-`public: void __cdecl ARGUMENT_LEXEMIZER::SetCaseSensitive(unsigned char) __ptr64` | 376 | Exported Function
-`public: virtual unsigned char __cdecl LIST::Put(class OBJECT * __ptr64) __ptr64` | 279 | Exported Function
+`DeleteChAt` | 142 | Exported Function
+`TruncateNameAtColon` | 444 | Exported Function
+`QueryScreenSize` | 331 | Exported Function
+`Initialize` | 230 | Exported Function
+`PutMultipleSwitch` | 284 | Exported Function
+`PutSeparators` | 285 | Exported Function
+`PutSwitches` | 289 | Exported Function
+`PutMultipleSwitch` | 283 | Exported Function
+`Alloc` | 110 | Exported Function
+`PutMultiCharSwitch` | 281 | Exported Function
+`PutMultiCharSwitch` | 282 | Exported Function
+`Initialize` | 195 | Exported Function
+`ResetBit` | 353 | Exported Function
+`SetBit` | 375 | Exported Function
+`SetNoSpcBetweenDstAndSwitch` | 391 | Exported Function
+`PutSwitches` | 290 | Exported Function
+`SetAllowSwitchGlomming` | 370 | Exported Function
+`SetCaseSensitive` | 376 | Exported Function
+`Put` | 279 | Exported Function
 `public: virtual __cdecl PATH::~PATH(void) __ptr64` | 72 | Exported Function
 `public: virtual __cdecl PATH_ARGUMENT::~PATH_ARGUMENT(void) __ptr64` | 73 | Exported Function
 `public: virtual __cdecl PRINT_STREAM::~PRINT_STREAM(void) __ptr64` | 74 | Exported Function
@@ -229,107 +229,107 @@ Function Name | Ordinal | Type
 `public: virtual __cdecl FSTRING::~FSTRING(void) __ptr64` | 62 | Exported Function
 `public: virtual __cdecl HMEM::~HMEM(void) __ptr64` | 63 | Exported Function
 `public: virtual __cdecl WSTRING::~WSTRING(void) __ptr64` | 82 | Exported Function
-`public: virtual unsigned char __cdecl CHKDSK_MESSAGE::Set(unsigned long,enum MESSAGE_TYPE,unsigned long) __ptr64` | 368 | Exported Function
-`public: virtual unsigned char __cdecl CHKDSK_MESSAGE::SqmExport(unsigned char (__cdecl*)(void * __ptr64,unsigned long,unsigned char,char * __ptr64,...),void * __ptr64) __ptr64` | 409 | Exported Function
-`public: virtual unsigned char __cdecl DSTRING::NewBuf(unsigned long) __ptr64` | 270 | Exported Function
-`public: virtual unsigned char __cdecl CHKDSK_MESSAGE::IsYesResponse(unsigned char) __ptr64` | 254 | Exported Function
-`public: virtual unsigned char __cdecl ARRAY::Sort(unsigned char) __ptr64` | 405 | Exported Function
-`public: virtual unsigned char __cdecl BDSTRING::NewBuf(unsigned long) __ptr64` | 269 | Exported Function
-`public: virtual unsigned char __cdecl BDSTRING::Resize(unsigned long) __ptr64` | 356 | Exported Function
-`public: virtual unsigned char __cdecl FSTRING::Resize(unsigned long) __ptr64` | 358 | Exported Function
-`public: virtual unsigned char __cdecl FSTRING::SPrintf(unsigned short const * __ptr64,...) __ptr64` | 362 | Exported Function
-`public: virtual unsigned char __cdecl FSTRING::SPrintfAppend(unsigned short const * __ptr64,...) __ptr64` | 364 | Exported Function
-`public: virtual unsigned char __cdecl FSTRING::NewBuf(unsigned long) __ptr64` | 271 | Exported Function
-`public: virtual unsigned char __cdecl DSTRING::Resize(unsigned long) __ptr64` | 357 | Exported Function
-`public: virtual unsigned char __cdecl DSTRING::SPrintf(unsigned short const * __ptr64,...) __ptr64` | 361 | Exported Function
-`public: virtual unsigned char __cdecl DSTRING::SPrintfAppend(unsigned short const * __ptr64,...) __ptr64` | 363 | Exported Function
-`public: virtual class OBJECT * __ptr64 __cdecl ARRAY::Remove(class ITERATOR * __ptr64) __ptr64` | 347 | Exported Function
-`public: virtual class OBJECT * __ptr64 __cdecl ARRAY::RemoveAt(unsigned long) __ptr64` | 348 | Exported Function
-`public: virtual class OBJECT * __ptr64 __cdecl ITERATOR::FindNext(class OBJECT const * __ptr64) __ptr64` | 171 | Exported Function
-`public: virtual class OBJECT * __ptr64 __cdecl ARRAY::GetAt(unsigned long)const __ptr64` | 175 | Exported Function
-`public: virtual class ITERATOR * __ptr64 __cdecl ARRAY::QueryIterator(void)const __ptr64` | 310 | Exported Function
-`public: virtual class ITERATOR * __ptr64 __cdecl LIST::QueryIterator(void)const __ptr64` | 311 | Exported Function
-`public: virtual class ITERATOR * __ptr64 __cdecl SORTED_LIST::QueryIterator(void)const __ptr64` | 312 | Exported Function
-`public: virtual unsigned char __cdecl ARRAY::DeleteAllMembers(void) __ptr64` | 138 | Exported Function
-`public: virtual unsigned char __cdecl ARRAY::Put(class OBJECT * __ptr64) __ptr64` | 278 | Exported Function
-`public: virtual unsigned char __cdecl ARRAY::Sort(int (__cdecl*)(void * __ptr64,void * __ptr64)) __ptr64` | 406 | Exported Function
-`public: virtual long __cdecl OBJECT::Compare(class OBJECT const * __ptr64)const __ptr64` | 123 | Exported Function
-`public: virtual class STREAM * __ptr64 __cdecl PROGRAM::GetStandardError(void) __ptr64` | 185 | Exported Function
-`public: virtual class STREAM * __ptr64 __cdecl PROGRAM::GetStandardInput(void) __ptr64` | 186 | Exported Function
-`public: virtual class STREAM * __ptr64 __cdecl PROGRAM::GetStandardOutput(void) __ptr64` | 187 | Exported Function
-`public: unsigned char __cdecl KEYBOARD::DisableLineMode(void) __ptr64` | 146 | Exported Function
-`public: __cdecl STRING_ARGUMENT::STRING_ARGUMENT(void) __ptr64` | 44 | Exported Function
-`public: __cdecl STRING_ARRAY::STRING_ARRAY(void) __ptr64` | 45 | Exported Function
-`public: __cdecl TIMEINFO::TIMEINFO(void) __ptr64` | 46 | Exported Function
-`public: __cdecl STREAM_MESSAGE::STREAM_MESSAGE(void) __ptr64` | 43 | Exported Function
-`public: __cdecl SCREEN::SCREEN(void) __ptr64` | 40 | Exported Function
-`public: __cdecl SORTED_LIST::SORTED_LIST(void) __ptr64` | 41 | Exported Function
-`public: __cdecl STACK::STACK(void) __ptr64` | 42 | Exported Function
-`public: char * __ptr64 __cdecl WSTRING::QuerySTR(unsigned long,unsigned long,char * __ptr64,unsigned long,unsigned char)const __ptr64` | 330 | Exported Function
-`public: char const * __ptr64 __cdecl OBJECT::DebugGetClassName(void)const __ptr64` | 137 | Exported Function
-`public: class ARRAY * __ptr64 __cdecl FSN_DIRECTORY::QueryFsnodeArray(class FSN_FILTER * __ptr64)const __ptr64` | 305 | Exported Function
-`public: char * __ptr64 __cdecl BSTRING::QuerySTR(unsigned long,unsigned long,char * __ptr64,unsigned long,unsigned char)const __ptr64` | 329 | Exported Function
-`public: __cdecl TIMEINFO_ARGUMENT::TIMEINFO_ARGUMENT(void) __ptr64` | 47 | Exported Function
-`public: __cdecl WSTRING::WSTRING(class WSTRING && __ptr64) __ptr64` | 49 | Exported Function
-`public: __cdecl WSTRING::WSTRING(class WSTRING const & __ptr64) __ptr64` | 50 | Exported Function
-`public: __cdecl MEM_ALLOCATOR::MEM_ALLOCATOR(void) __ptr64` | 28 | Exported Function
-`public: __cdecl MEM_BLOCK_MGR::MEM_BLOCK_MGR(void) __ptr64` | 29 | Exported Function
-`public: __cdecl MESSAGE::MESSAGE(void) __ptr64` | 30 | Exported Function
-`public: __cdecl LONG_ARGUMENT::LONG_ARGUMENT(void) __ptr64` | 27 | Exported Function
-`public: __cdecl ITERATOR::ITERATOR(class ITERATOR const & __ptr64) __ptr64` | 24 | Exported Function
-`public: __cdecl KEYBOARD::KEYBOARD(void) __ptr64` | 25 | Exported Function
-`public: __cdecl LIST::LIST(void) __ptr64` | 26 | Exported Function
-`public: __cdecl PATH_ARGUMENT::PATH_ARGUMENT(void) __ptr64` | 36 | Exported Function
-`public: __cdecl PRINT_STREAM::PRINT_STREAM(void) __ptr64` | 37 | Exported Function
-`public: __cdecl REST_OF_LINE_ARGUMENT::REST_OF_LINE_ARGUMENT(void) __ptr64` | 39 | Exported Function
-`public: __cdecl PATH::PATH(void) __ptr64` | 35 | Exported Function
-`public: __cdecl MESSAGE_ID_COUNT::MESSAGE_ID_COUNT(void) __ptr64` | 31 | Exported Function
-`public: __cdecl MULTIPLE_PATH_ARGUMENT::MULTIPLE_PATH_ARGUMENT(void) __ptr64` | 32 | Exported Function
-`public: __cdecl OBJECT::OBJECT(class OBJECT const & __ptr64) __ptr64` | 34 | Exported Function
-`public: class ARRAY * __ptr64 __cdecl PATH::QueryComponentArray(class ARRAY * __ptr64)const __ptr64` | 297 | Exported Function
-`public: class WSTRING & __ptr64 __cdecl WSTRING::operator=(class WSTRING const & __ptr64) __ptr64` | 92 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl ARGUMENT::GetLexeme(void) __ptr64` | 180 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl ARGUMENT::GetPattern(void) __ptr64` | 184 | Exported Function
-`public: class WSTRING & __ptr64 __cdecl WSTRING::operator=(class WSTRING && __ptr64) __ptr64` | 91 | Exported Function
-`public: class PATH * __ptr64 __cdecl PATH::QueryMountPointPath(void) __ptr64` | 318 | Exported Function
-`public: class PATH * __ptr64 __cdecl PATH::QueryPath(void)const __ptr64` | 324 | Exported Function
-`public: class PATH * __ptr64 __cdecl PATH::QueryWCExpansion(class PATH * __ptr64) __ptr64` | 340 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl PATH::QueryGuidString(class WSTRING * __ptr64,unsigned char * __ptr64,class WSTRING * __ptr64) __ptr64` | 308 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl PATH::QueryRoot(void) __ptr64` | 328 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl WSTRING::QueryString(unsigned long,unsigned long)const __ptr64` | 334 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl PATH::QueryFullPathString(void)const __ptr64` | 307 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl ARGUMENT_LEXEMIZER::GetLexemeAt(unsigned long) __ptr64` | 181 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl ARGUMENT_LEXEMIZER::QueryInvalidArgument(void) __ptr64` | 309 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl FSTRING::Initialize(unsigned short * __ptr64,unsigned long) __ptr64` | 206 | Exported Function
-`public: class DSTRING & __ptr64 __cdecl DSTRING::operator=(class DSTRING const & __ptr64) __ptr64` | 86 | Exported Function
-`public: class FILE_STREAM * __ptr64 __cdecl FSN_FILE::QueryStream(enum STREAMACCESS,unsigned long) __ptr64` | 333 | Exported Function
-`public: class FSN_DIRECTORY * __ptr64 __cdecl FSN_DIRECTORY::CreateDirectoryPath(class PATH const * __ptr64)const __ptr64` | 135 | Exported Function
-`public: class CLASS_DESCRIPTOR const * __ptr64 __cdecl OBJECT::GetClassDescriptor(void)const __ptr64` | 176 | Exported Function
-`public: class BDSTRING & __ptr64 __cdecl BDSTRING::operator=(class BDSTRING const & __ptr64) __ptr64` | 83 | Exported Function
-`public: class BSTRING & __ptr64 __cdecl BSTRING::operator=(class BSTRING && __ptr64) __ptr64` | 84 | Exported Function
-`public: class BSTRING & __ptr64 __cdecl BSTRING::operator=(class BSTRING const & __ptr64) __ptr64` | 85 | Exported Function
-`public: class OBJECT & __ptr64 __cdecl OBJECT::operator=(class OBJECT const & __ptr64) __ptr64` | 90 | Exported Function
-`public: class OBJECT * __ptr64 __cdecl ARRAY::OrderedSearch(class OBJECT * __ptr64,void * __ptr64 * __ptr64) __ptr64` | 275 | Exported Function
-`public: class PATH * __ptr64 __cdecl PATH::QueryFullPath(void)const __ptr64` | 306 | Exported Function
-`public: class ITERATOR & __ptr64 __cdecl ITERATOR::operator=(class ITERATOR const & __ptr64) __ptr64` | 89 | Exported Function
-`public: class FSNODE * __ptr64 __cdecl FSN_DIRECTORY::GetNext(void * __ptr64 * __ptr64,unsigned long * __ptr64) __ptr64` | 182 | Exported Function
-`public: class FSTRING & __ptr64 __cdecl FSTRING::operator=(class FSTRING && __ptr64) __ptr64` | 87 | Exported Function
-`public: class FSTRING & __ptr64 __cdecl FSTRING::operator=(class FSTRING const & __ptr64) __ptr64` | 88 | Exported Function
-`public: __cdecl HMEM::HMEM(void) __ptr64` | 22 | Exported Function
-`private: static unsigned char WSTRING::_UseConsoleConversionsPrev` | 456 | Exported Function
-`private: unsigned char __cdecl BYTE_STREAM::FillAndReadByte(unsigned char * __ptr64) __ptr64` | 169 | Exported Function
-`private: unsigned char __cdecl DSTRING::SPrintfWorker(unsigned short const * __ptr64,char * __ptr64) __ptr64` | 365 | Exported Function
-`private: static unsigned char WSTRING::_UseConsoleConversions` | 455 | Exported Function
-`private: static unsigned char __cdecl WSTRING::ConvertUnicodeToOemN(char * __ptr64,unsigned long,unsigned long * __ptr64,unsigned short * __ptr64,unsigned long)` | 133 | Exported Function
-`private: static unsigned char WSTRING::_UseAnsiConversions` | 453 | Exported Function
-`private: static unsigned char WSTRING::_UseAnsiConversionsPrev` | 454 | Exported Function
-`protected: __cdecl ITERATOR::ITERATOR(void) __ptr64` | 23 | Exported Function
-`protected: __cdecl OBJECT::OBJECT(void) __ptr64` | 33 | Exported Function
-`protected: __cdecl PROGRAM::PROGRAM(void) __ptr64` | 38 | Exported Function
-`protected: __cdecl BSTRING::BSTRING(void) __ptr64` | 7 | Exported Function
-`private: unsigned long __cdecl BITVECTOR::ComputeCountSet(void)const __ptr64` | 124 | Exported Function
-`private: void __cdecl BDSTRING::Construct(void) __ptr64` | 125 | Exported Function
-`private: void __cdecl DSTRING::Construct(void) __ptr64` | 127 | Exported Function
+`Set` | 368 | Exported Function
+`SqmExport` | 409 | Exported Function
+`NewBuf` | 270 | Exported Function
+`IsYesResponse` | 254 | Exported Function
+`Sort` | 405 | Exported Function
+`NewBuf` | 269 | Exported Function
+`Resize` | 356 | Exported Function
+`Resize` | 358 | Exported Function
+`SPrintf` | 362 | Exported Function
+`SPrintfAppend` | 364 | Exported Function
+`NewBuf` | 271 | Exported Function
+`Resize` | 357 | Exported Function
+`SPrintf` | 361 | Exported Function
+`SPrintfAppend` | 363 | Exported Function
+`Remove` | 347 | Exported Function
+`RemoveAt` | 348 | Exported Function
+`FindNext` | 171 | Exported Function
+`GetAt` | 175 | Exported Function
+`QueryIterator` | 310 | Exported Function
+`QueryIterator` | 311 | Exported Function
+`QueryIterator` | 312 | Exported Function
+`DeleteAllMembers` | 138 | Exported Function
+`Put` | 278 | Exported Function
+`Sort` | 406 | Exported Function
+`Compare` | 123 | Exported Function
+`GetStandardError` | 185 | Exported Function
+`GetStandardInput` | 186 | Exported Function
+`GetStandardOutput` | 187 | Exported Function
+`DisableLineMode` | 146 | Exported Function
+`STRING_ARGUMENT` | 44 | Exported Function
+`STRING_ARRAY` | 45 | Exported Function
+`TIMEINFO` | 46 | Exported Function
+`STREAM_MESSAGE` | 43 | Exported Function
+`SCREEN` | 40 | Exported Function
+`SORTED_LIST` | 41 | Exported Function
+`STACK` | 42 | Exported Function
+`QuerySTR` | 330 | Exported Function
+`DebugGetClassName` | 137 | Exported Function
+`QueryFsnodeArray` | 305 | Exported Function
+`QuerySTR` | 329 | Exported Function
+`TIMEINFO_ARGUMENT` | 47 | Exported Function
+`WSTRING` | 49 | Exported Function
+`WSTRING` | 50 | Exported Function
+`MEM_ALLOCATOR` | 28 | Exported Function
+`MEM_BLOCK_MGR` | 29 | Exported Function
+`MESSAGE` | 30 | Exported Function
+`LONG_ARGUMENT` | 27 | Exported Function
+`ITERATOR` | 24 | Exported Function
+`KEYBOARD` | 25 | Exported Function
+`LIST` | 26 | Exported Function
+`PATH_ARGUMENT` | 36 | Exported Function
+`PRINT_STREAM` | 37 | Exported Function
+`REST_OF_LINE_ARGUMENT` | 39 | Exported Function
+`PATH` | 35 | Exported Function
+`MESSAGE_ID_COUNT` | 31 | Exported Function
+`MULTIPLE_PATH_ARGUMENT` | 32 | Exported Function
+`OBJECT` | 34 | Exported Function
+`QueryComponentArray` | 297 | Exported Function
+`operator` | 92 | Exported Function
+`GetLexeme` | 180 | Exported Function
+`GetPattern` | 184 | Exported Function
+`operator` | 91 | Exported Function
+`QueryMountPointPath` | 318 | Exported Function
+`QueryPath` | 324 | Exported Function
+`QueryWCExpansion` | 340 | Exported Function
+`QueryGuidString` | 308 | Exported Function
+`QueryRoot` | 328 | Exported Function
+`QueryString` | 334 | Exported Function
+`QueryFullPathString` | 307 | Exported Function
+`GetLexemeAt` | 181 | Exported Function
+`QueryInvalidArgument` | 309 | Exported Function
+`Initialize` | 206 | Exported Function
+`operator` | 86 | Exported Function
+`QueryStream` | 333 | Exported Function
+`CreateDirectoryPath` | 135 | Exported Function
+`GetClassDescriptor` | 176 | Exported Function
+`operator` | 83 | Exported Function
+`operator` | 84 | Exported Function
+`operator` | 85 | Exported Function
+`operator` | 90 | Exported Function
+`OrderedSearch` | 275 | Exported Function
+`QueryFullPath` | 306 | Exported Function
+`operator` | 89 | Exported Function
+`GetNext` | 182 | Exported Function
+`operator` | 87 | Exported Function
+`operator` | 88 | Exported Function
+`HMEM` | 22 | Exported Function
+`_UseConsoleConversionsPrev` | 456 | Exported Function
+`FillAndReadByte` | 169 | Exported Function
+`SPrintfWorker` | 365 | Exported Function
+`_UseConsoleConversions` | 455 | Exported Function
+`ConvertUnicodeToOemN` | 133 | Exported Function
+`_UseAnsiConversions` | 453 | Exported Function
+`_UseAnsiConversionsPrev` | 454 | Exported Function
+`ITERATOR` | 23 | Exported Function
+`OBJECT` | 33 | Exported Function
+`PROGRAM` | 38 | Exported Function
+`BSTRING` | 7 | Exported Function
+`ComputeCountSet` | 124 | Exported Function
+`Construct` | 125 | Exported Function
+`Construct` | 127 | Exported Function
 `const ITERATOR::``vftable'` | 105 | Exported Function
 `const OBJECT::``vftable'` | 106 | Exported Function
 `const WSTRING::``vftable'` | 107 | Exported Function
@@ -338,157 +338,157 @@ Function Name | Ordinal | Type
 `const BSTRING::``vftable'` | 102 | Exported Function
 `const DSTRING::``vftable'` | 103 | Exported Function
 `Get_Standard_Output_Stream` | 461 | Exported Function
-`private: static int __cdecl WSTRING::CheckSpace(unsigned short * __ptr64)` | 121 | Exported Function
-`private: static unsigned char __cdecl WSTRING::ConvertOemToUnicodeN(unsigned short * __ptr64,unsigned long,unsigned long * __ptr64,char * __ptr64,unsigned long)` | 130 | Exported Function
+`CheckSpace` | 121 | Exported Function
+`ConvertOemToUnicodeN` | 130 | Exported Function
 `Get_Standard_Input_Stream` | 460 | Exported Function
 `DebugPrintfReal` | 457 | Exported Function
 `Export` | 458 | Exported Function
 `Get_Standard_Error_Stream` | 459 | Exported Function
-`protected: __cdecl WSTRING::WSTRING(void) __ptr64` | 48 | Exported Function
-`public: __cdecl CLASS_DESCRIPTOR::CLASS_DESCRIPTOR(void) __ptr64` | 12 | Exported Function
-`public: __cdecl COMM_DEVICE::COMM_DEVICE(void) __ptr64` | 13 | Exported Function
-`public: __cdecl CONT_MEM::CONT_MEM(void) __ptr64` | 14 | Exported Function
-`public: __cdecl CHKDSK_MESSAGE::CHKDSK_MESSAGE(void) __ptr64` | 11 | Exported Function
-`public: __cdecl BSTRING::BSTRING(class BSTRING && __ptr64) __ptr64` | 8 | Exported Function
-`public: __cdecl BSTRING::BSTRING(class BSTRING const & __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl BYTE_STREAM::BYTE_STREAM(void) __ptr64` | 10 | Exported Function
-`public: __cdecl FSTRING::FSTRING(class FSTRING && __ptr64) __ptr64` | 19 | Exported Function
-`public: __cdecl FSTRING::FSTRING(class FSTRING const & __ptr64) __ptr64` | 20 | Exported Function
-`public: __cdecl FSTRING::FSTRING(void) __ptr64` | 21 | Exported Function
-`public: __cdecl FSN_FILTER::FSN_FILTER(void) __ptr64` | 18 | Exported Function
-`public: __cdecl DSTRING::DSTRING(class DSTRING const & __ptr64) __ptr64` | 15 | Exported Function
-`public: __cdecl DSTRING::DSTRING(void) __ptr64` | 16 | Exported Function
-`public: __cdecl FLAG_ARGUMENT::FLAG_ARGUMENT(void) __ptr64` | 17 | Exported Function
-`protected: void __cdecl WSTRING::Construct(void) __ptr64` | 129 | Exported Function
-`protected: void __cdecl WSTRING::PutString(unsigned short * __ptr64) __ptr64` | 287 | Exported Function
-`protected: void __cdecl WSTRING::PutString(unsigned short * __ptr64,unsigned long) __ptr64` | 288 | Exported Function
-`protected: void __cdecl OBJECT::SetClassDescriptor(class CLASS_DESCRIPTOR const * __ptr64) __ptr64` | 378 | Exported Function
-`protected: void __cdecl BSTRING::Construct(void) __ptr64` | 126 | Exported Function
-`protected: void __cdecl BSTRING::PutString(char * __ptr64,unsigned long) __ptr64` | 286 | Exported Function
-`protected: void __cdecl OBJECT::Construct(void) __ptr64` | 128 | Exported Function
-`public: __cdecl BDSTRING::BDSTRING(class BDSTRING const & __ptr64) __ptr64` | 4 | Exported Function
-`public: __cdecl BDSTRING::BDSTRING(void) __ptr64` | 5 | Exported Function
-`public: __cdecl BITVECTOR::BITVECTOR(void) __ptr64` | 6 | Exported Function
-`public: __cdecl ARRAY::ARRAY(void) __ptr64` | 3 | Exported Function
-`public: __cdecl ADMINFILEPRIVS::ADMINFILEPRIVS(void) __ptr64` | 1 | Exported Function
+`WSTRING` | 48 | Exported Function
+`CLASS_DESCRIPTOR` | 12 | Exported Function
+`COMM_DEVICE` | 13 | Exported Function
+`CONT_MEM` | 14 | Exported Function
+`CHKDSK_MESSAGE` | 11 | Exported Function
+`BSTRING` | 8 | Exported Function
+`BSTRING` | 9 | Exported Function
+`BYTE_STREAM` | 10 | Exported Function
+`FSTRING` | 19 | Exported Function
+`FSTRING` | 20 | Exported Function
+`FSTRING` | 21 | Exported Function
+`FSN_FILTER` | 18 | Exported Function
+`DSTRING` | 15 | Exported Function
+`DSTRING` | 16 | Exported Function
+`FLAG_ARGUMENT` | 17 | Exported Function
+`Construct` | 129 | Exported Function
+`PutString` | 287 | Exported Function
+`PutString` | 288 | Exported Function
+`SetClassDescriptor` | 378 | Exported Function
+`Construct` | 126 | Exported Function
+`PutString` | 286 | Exported Function
+`Construct` | 128 | Exported Function
+`BDSTRING` | 4 | Exported Function
+`BDSTRING` | 5 | Exported Function
+`BITVECTOR` | 6 | Exported Function
+`ARRAY` | 3 | Exported Function
+`ADMINFILEPRIVS` | 1 | Exported Function
 `public: __cdecl ADMINFILEPRIVS::~ADMINFILEPRIVS(void) __ptr64` | 51 | Exported Function
-`public: __cdecl ARGUMENT_LEXEMIZER::ARGUMENT_LEXEMIZER(void) __ptr64` | 2 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl WSTRING::Strlwr(unsigned long,unsigned long) __ptr64` | 430 | Exported Function
-`public: unsigned char __cdecl BSTRING::Initialize(char const * __ptr64,unsigned long) __ptr64` | 196 | Exported Function
-`public: unsigned char __cdecl BSTRING::Initialize(void) __ptr64` | 197 | Exported Function
-`public: unsigned char __cdecl BSTRING::ReplaceWithChars(unsigned long,unsigned long,char,unsigned long) __ptr64` | 351 | Exported Function
-`public: unsigned char __cdecl BITVECTOR::QuerySetBit(unsigned long,unsigned long)const __ptr64` | 332 | Exported Function
-`public: unsigned char __cdecl ARRAY::OrderedInsert(class OBJECT * __ptr64,void * __ptr64 * __ptr64) __ptr64` | 274 | Exported Function
-`public: unsigned char __cdecl BITVECTOR::Initialize(unsigned long,enum BIT,unsigned long * __ptr64) __ptr64` | 194 | Exported Function
-`public: unsigned char __cdecl BITVECTOR::QueryResetBit(unsigned long,unsigned long)const __ptr64` | 325 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::Initialize(class PATH const * __ptr64,unsigned char * __ptr64) __ptr64` | 201 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::QueryTimeOut(void)const __ptr64` | 338 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetBaudRate(unsigned long) __ptr64` | 374 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::CommitState(void) __ptr64` | 122 | Exported Function
-`public: unsigned char __cdecl BYTE_STREAM::Initialize(class STREAM * __ptr64,unsigned long) __ptr64` | 198 | Exported Function
-`public: unsigned char __cdecl CHKDSK_MESSAGE::Initialize(class STREAM * __ptr64,class STREAM * __ptr64,class STREAM * __ptr64) __ptr64` | 199 | Exported Function
-`public: unsigned char __cdecl CLASS_DESCRIPTOR::Initialize(char const * __ptr64) __ptr64` | 200 | Exported Function
-`public: static void __cdecl WSTRING::SetConsoleConversions(void)` | 380 | Exported Function
-`public: static void __cdecl WSTRING::SetOemConversions(void)` | 394 | Exported Function
-`public: unsigned __int64 __cdecl OBJECT::QueryClassId(void)const __ptr64` | 295 | Exported Function
-`public: static void __cdecl WSTRING::SetAnsiConversions(void)` | 371 | Exported Function
-`public: static void __cdecl SYSTEM::DisplaySystemError(unsigned long,int)` | 154 | Exported Function
-`public: static void __cdecl SYSTEM::FreeLibraryHandle(void * __ptr64)` | 174 | Exported Function
-`public: static void __cdecl WSTRING::ResetConversions(void)` | 354 | Exported Function
-`public: unsigned char __cdecl ARGUMENT_LEXEMIZER::QueryMultiCharSwitch(class WSTRING * __ptr64) __ptr64` | 319 | Exported Function
-`public: unsigned char __cdecl ARRAY::Initialize(unsigned long,unsigned long) __ptr64` | 193 | Exported Function
-`public: unsigned char __cdecl ARRAY::Insert(class OBJECT * __ptr64,unsigned long) __ptr64` | 237 | Exported Function
-`public: unsigned char __cdecl ARGUMENT_LEXEMIZER::PrepareToParse(class WSTRING * __ptr64) __ptr64` | 277 | Exported Function
-`public: unsigned char __cdecl ARGUMENT::IsValueSet(void) __ptr64` | 253 | Exported Function
-`public: unsigned char __cdecl ARGUMENT_LEXEMIZER::DoParsing(class ARRAY * __ptr64) __ptr64` | 156 | Exported Function
-`public: unsigned char __cdecl ARGUMENT_LEXEMIZER::Initialize(class ARRAY * __ptr64) __ptr64` | 192 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetDataBits(unsigned long) __ptr64` | 381 | Exported Function
-`public: unsigned char __cdecl FSN_FILTER::Initialize(void) __ptr64` | 205 | Exported Function
-`public: unsigned char __cdecl FSN_FILTER::SetAttributes(unsigned long,unsigned long,unsigned long) __ptr64` | 373 | Exported Function
-`public: unsigned char __cdecl FSN_FILTER::SetFileName(char const * __ptr64) __ptr64` | 385 | Exported Function
-`public: unsigned char __cdecl FSN_FILTER::DoesNodeMatch(class FSNODE * __ptr64) __ptr64` | 157 | Exported Function
-`public: unsigned char __cdecl FSN_DIRECTORY::IsEmpty(void)const __ptr64` | 242 | Exported Function
-`public: unsigned char __cdecl FSN_DIRECTORY::Traverse(void * __ptr64,class FSN_FILTER * __ptr64,class PATH * __ptr64,unsigned char (__cdecl*)(void * __ptr64,class FSNODE * __ptr64,class PATH * __ptr64))const __ptr64` | 439 | Exported Function
-`public: unsigned char __cdecl FSN_FILE::Copy(class PATH * __ptr64,enum _COPY_ERROR * __ptr64,unsigned long,unsigned long (__cdecl*)(union _LARGE_INTEGER,union _LARGE_INTEGER,union _LARGE_INTEGER,union _LARGE_INTEGER,unsigned long,unsigned long,void * __ptr64,void * __ptr64,void * __ptr64),void * __ptr64,int * __ptr64)const __ptr64` | 134 | Exported Function
-`public: unsigned char __cdecl FSNODE::WorkOnReparsePoint(unsigned char) __ptr64` | 451 | Exported Function
-`public: unsigned char __cdecl HMEM::Initialize(void) __ptr64` | 207 | Exported Function
-`public: unsigned char __cdecl HMEM::Resize(unsigned long,unsigned long) __ptr64` | 359 | Exported Function
-`public: unsigned char __cdecl FSNODE::UseAlternateName(void) __ptr64` | 448 | Exported Function
-`public: unsigned char __cdecl FSN_FILTER::SetFileName(class WSTRING const * __ptr64) __ptr64` | 386 | Exported Function
-`public: unsigned char __cdecl FSN_FILTER::SetTimeInfo(class TIMEINFO const * __ptr64,enum FSN_TIME,unsigned short) __ptr64` | 400 | Exported Function
-`public: unsigned char __cdecl FSNODE::SetAttributes(unsigned long,unsigned long * __ptr64) __ptr64` | 372 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetParity(enum PARITY) __ptr64` | 396 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetRtsControl(enum RTS_CONTROL) __ptr64` | 397 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetStopBits(enum STOPBITS) __ptr64` | 399 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetOdsr(unsigned char) __ptr64` | 393 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetDtrControl(enum DTR_CONTROL) __ptr64` | 384 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetIdsr(unsigned char) __ptr64` | 387 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetOcts(unsigned char) __ptr64` | 392 | Exported Function
-`public: unsigned char __cdecl FLAG_ARGUMENT::Initialize(char * __ptr64) __ptr64` | 203 | Exported Function
-`public: unsigned char __cdecl FLAG_ARGUMENT::Initialize(class WSTRING * __ptr64) __ptr64` | 204 | Exported Function
-`public: unsigned char __cdecl FSN_DIRECTORY::DeleteDirectory(void) __ptr64` | 143 | Exported Function
-`public: unsigned char __cdecl FILE_STREAM::ReadAt(unsigned char * __ptr64,unsigned long,__int64,enum SEEKORIGIN,unsigned long * __ptr64) __ptr64` | 343 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetTimeOut(unsigned char) __ptr64` | 401 | Exported Function
-`public: unsigned char __cdecl COMM_DEVICE::SetXon(unsigned char) __ptr64` | 402 | Exported Function
-`public: unsigned char __cdecl CONT_MEM::Initialize(void * __ptr64,unsigned long) __ptr64` | 202 | Exported Function
-`public: static void __cdecl SQMEXPORT::SqmExportOnError(unsigned long,unsigned long,unsigned char,unsigned char,unsigned __int64,struct _GUID)` | 411 | Exported Function
-`public: static class FSN_DIRECTORY * __ptr64 __cdecl SYSTEM::MakeDirectory(class PATH const * __ptr64,class PATH const * __ptr64,enum _COPY_ERROR * __ptr64,unsigned long (__cdecl*)(union _LARGE_INTEGER,union _LARGE_INTEGER,union _LARGE_INTEGER,union _LARGE_INTEGER,unsigned long,unsigned long,void * __ptr64,void * __ptr64,void * __ptr64),void * __ptr64,int * __ptr64,unsigned long)` | 263 | Exported Function
-`public: static class FSN_DIRECTORY * __ptr64 __cdecl SYSTEM::QueryDirectory(class PATH const * __ptr64,unsigned char)` | 300 | Exported Function
-`public: static class FSN_FILE * __ptr64 __cdecl SYSTEM::MakeFile(class PATH const * __ptr64)` | 264 | Exported Function
-`public: static class FILE_STREAM * __ptr64 __cdecl FILE_STREAM::Cast(class OBJECT const * __ptr64)` | 116 | Exported Function
-`public: static __int64 (__cdecl*__cdecl SYSTEM::QueryNextLibraryEntryPoint(void * __ptr64,class WSTRING const * __ptr64))(void)` | 320 | Exported Function
-`public: static char * __ptr64 __cdecl MBSTR::CharNextW(char * __ptr64)` | 120 | Exported Function
-`public: static char * __ptr64 __cdecl MBSTR::Strstr(char * __ptr64,char * __ptr64)` | 434 | Exported Function
-`public: static class PATH * __ptr64 __cdecl SYSTEM::QuerySystemDirectory(void)` | 336 | Exported Function
-`public: static class PATH * __ptr64 __cdecl SYSTEM::SearchPathW(class WSTRING * __ptr64,class WSTRING * __ptr64)` | 366 | Exported Function
-`public: static class SCREEN * __ptr64 __cdecl SCREEN::Cast(class OBJECT const * __ptr64)` | 118 | Exported Function
-`public: static class OBJECT * __ptr64 __cdecl ARRAY::GetCompareArgument(void * __ptr64)` | 177 | Exported Function
-`public: static class FSN_FILE * __ptr64 __cdecl SYSTEM::MakeTemporaryFile(class WSTRING const * __ptr64,class PATH const * __ptr64)` | 266 | Exported Function
-`public: static class FSN_FILE * __ptr64 __cdecl SYSTEM::QueryFile(class PATH const * __ptr64,unsigned char,unsigned char * __ptr64)` | 303 | Exported Function
-`public: static class KEYBOARD * __ptr64 __cdecl KEYBOARD::Cast(class OBJECT const * __ptr64)` | 117 | Exported Function
-`public: int * __ptr64 __cdecl KEYBOARD::GetPFlagBreak(void)const __ptr64` | 183 | Exported Function
-`public: long __cdecl ADMINFILEPRIVS::EnablePrivileges(void) __ptr64` | 161 | Exported Function
-`public: long __cdecl ADMINFILEPRIVS::RestorePrivileges(void) __ptr64` | 360 | Exported Function
-`public: enum PATH_ANALYZE_CODE __cdecl PATH::AnalyzePath(class WSTRING * __ptr64,class PATH * __ptr64,class WSTRING * __ptr64) __ptr64` | 112 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl WSTRING::Strlwr(void) __ptr64` | 431 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl WSTRING::Strupr(unsigned long,unsigned long) __ptr64` | 436 | Exported Function
-`public: class WSTRING * __ptr64 __cdecl WSTRING::Strupr(void) __ptr64` | 437 | Exported Function
-`public: long __cdecl WSTRING::Stricmp(class WSTRING const * __ptr64,unsigned long)const __ptr64` | 427 | Exported Function
-`public: long __cdecl WSTRING::Stricmp(class WSTRING const * __ptr64,unsigned long,unsigned long,unsigned long,unsigned long)const __ptr64` | 428 | Exported Function
-`public: static __int64 (__cdecl*__cdecl SYSTEM::QueryLibraryEntryPoint(class WSTRING const * __ptr64,class WSTRING const * __ptr64,void * __ptr64 * __ptr64))(void)` | 313 | Exported Function
-`public: long __cdecl WSTRING::Stricmp(class WSTRING const * __ptr64)const __ptr64` | 426 | Exported Function
-`public: long __cdecl WSTRING::Strcmp(class WSTRING const * __ptr64)const __ptr64` | 416 | Exported Function
-`public: long __cdecl WSTRING::Strcmp(class WSTRING const * __ptr64,unsigned long)const __ptr64` | 417 | Exported Function
-`public: long __cdecl WSTRING::Strcmp(class WSTRING const * __ptr64,unsigned long,unsigned long,unsigned long,unsigned long)const __ptr64` | 418 | Exported Function
-`public: static class WSTRING * __ptr64 __cdecl SYSTEM::QueryEnvironmentVariable(class WSTRING const * __ptr64)` | 302 | Exported Function
-`public: static unsigned char __cdecl SQMEXPORT::UploadSqmFromFile(void * __ptr64)` | 446 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::GetFileSecurityBackup(class PATH const * __ptr64,unsigned long,struct _SECURITY_ATTRIBUTES * __ptr64,unsigned long * __ptr64)` | 178 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::IsCorrectVersion(void)` | 240 | Exported Function
-`public: static unsigned char __cdecl SQMEXPORT::SqmExport(void * __ptr64,unsigned long,unsigned char,char * __ptr64,...)` | 410 | Exported Function
-`public: static unsigned char __cdecl KEYBOARD::EnableBreakHandling(void)` | 159 | Exported Function
-`public: static unsigned char __cdecl KEYBOARD::GotABreak(void)` | 190 | Exported Function
-`public: static unsigned char __cdecl SQMEXPORT::FileExport(void * __ptr64,unsigned long,unsigned char,char * __ptr64,...)` | 168 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::RemoveNode(class FSNODE * __ptr64 * __ptr64,unsigned char)` | 349 | Exported Function
-`public: static unsigned short * __ptr64 __cdecl WSTRING::SkipWhite(unsigned short * __ptr64)` | 404 | Exported Function
-`public: static void __cdecl PROGRAM::ExitProgram(unsigned long)` | 165 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::QueryWindowsErrorMessage(unsigned long,class WSTRING * __ptr64)` | 342 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::IsStorageDaxCapable(class WSTRING const * __ptr64,unsigned char * __ptr64)` | 251 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::QueryCurrentDosDriveName(class WSTRING * __ptr64)` | 298 | Exported Function
-`public: static unsigned char __cdecl SYSTEM::QueryLocalTimeFromUTime(class TIMEINFO const * __ptr64,class TIMEINFO * __ptr64)` | 314 | Exported Function
-`public: static int __cdecl MBSTR::Strcmps(char * __ptr64,char * __ptr64)` | 422 | Exported Function
-`public: static int __cdecl MBSTR::Stricmp(char * __ptr64,char * __ptr64)` | 425 | Exported Function
-`public: static int __cdecl WSTRING::Strcmp(unsigned short * __ptr64,unsigned short * __ptr64)` | 419 | Exported Function
-`public: static int __cdecl MBSTR::Strcmpis(char * __ptr64,char * __ptr64)` | 420 | Exported Function
-`public: static class WSTRING * __ptr64 __cdecl SYSTEM::QueryVolumeLabel(class PATH * __ptr64,struct _VOL_SERIAL_NUMBER * __ptr64)` | 339 | Exported Function
-`public: static enum DRIVE_TYPE __cdecl SYSTEM::QueryDriveType(class WSTRING const * __ptr64)` | 301 | Exported Function
-`public: static enum FILE_TYPE __cdecl SYSTEM::QueryFileType(class WSTRING const * __ptr64)` | 304 | Exported Function
-`public: static unsigned char __cdecl BASE_SYSTEM::QueryResourceString(class WSTRING * __ptr64,unsigned long,char const * __ptr64,...)` | 326 | Exported Function
-`public: static unsigned char __cdecl BASE_SYSTEM::QueryResourceStringV(class WSTRING * __ptr64,unsigned long,char const * __ptr64,char * __ptr64)` | 327 | Exported Function
-`public: static unsigned char __cdecl KEYBOARD::DisableBreakHandling(void)` | 145 | Exported Function
-`public: static unsigned __int64 __cdecl MESSAGE::MakeFileToken(char const * __ptr64)` | 265 | Exported Function
-`public: static int __cdecl WSTRING::Strcmpis(unsigned short * __ptr64,unsigned short * __ptr64)` | 421 | Exported Function
-`public: static int __cdecl WSTRING::Strcmps(unsigned short * __ptr64,unsigned short * __ptr64)` | 423 | Exported Function
-`public: static int __cdecl WSTRING::Stricmp(unsigned short * __ptr64,unsigned short * __ptr64)` | 429 | Exported Function
+`ARGUMENT_LEXEMIZER` | 2 | Exported Function
+`Strlwr` | 430 | Exported Function
+`Initialize` | 196 | Exported Function
+`Initialize` | 197 | Exported Function
+`ReplaceWithChars` | 351 | Exported Function
+`QuerySetBit` | 332 | Exported Function
+`OrderedInsert` | 274 | Exported Function
+`Initialize` | 194 | Exported Function
+`QueryResetBit` | 325 | Exported Function
+`Initialize` | 201 | Exported Function
+`QueryTimeOut` | 338 | Exported Function
+`SetBaudRate` | 374 | Exported Function
+`CommitState` | 122 | Exported Function
+`Initialize` | 198 | Exported Function
+`Initialize` | 199 | Exported Function
+`Initialize` | 200 | Exported Function
+`SetConsoleConversions` | 380 | Exported Function
+`SetOemConversions` | 394 | Exported Function
+`QueryClassId` | 295 | Exported Function
+`SetAnsiConversions` | 371 | Exported Function
+`DisplaySystemError` | 154 | Exported Function
+`FreeLibraryHandle` | 174 | Exported Function
+`ResetConversions` | 354 | Exported Function
+`QueryMultiCharSwitch` | 319 | Exported Function
+`Initialize` | 193 | Exported Function
+`Insert` | 237 | Exported Function
+`PrepareToParse` | 277 | Exported Function
+`IsValueSet` | 253 | Exported Function
+`DoParsing` | 156 | Exported Function
+`Initialize` | 192 | Exported Function
+`SetDataBits` | 381 | Exported Function
+`Initialize` | 205 | Exported Function
+`SetAttributes` | 373 | Exported Function
+`SetFileName` | 385 | Exported Function
+`DoesNodeMatch` | 157 | Exported Function
+`IsEmpty` | 242 | Exported Function
+`Traverse` | 439 | Exported Function
+`Copy` | 134 | Exported Function
+`WorkOnReparsePoint` | 451 | Exported Function
+`Initialize` | 207 | Exported Function
+`Resize` | 359 | Exported Function
+`UseAlternateName` | 448 | Exported Function
+`SetFileName` | 386 | Exported Function
+`SetTimeInfo` | 400 | Exported Function
+`SetAttributes` | 372 | Exported Function
+`SetParity` | 396 | Exported Function
+`SetRtsControl` | 397 | Exported Function
+`SetStopBits` | 399 | Exported Function
+`SetOdsr` | 393 | Exported Function
+`SetDtrControl` | 384 | Exported Function
+`SetIdsr` | 387 | Exported Function
+`SetOcts` | 392 | Exported Function
+`Initialize` | 203 | Exported Function
+`Initialize` | 204 | Exported Function
+`DeleteDirectory` | 143 | Exported Function
+`ReadAt` | 343 | Exported Function
+`SetTimeOut` | 401 | Exported Function
+`SetXon` | 402 | Exported Function
+`Initialize` | 202 | Exported Function
+`SqmExportOnError` | 411 | Exported Function
+`MakeDirectory` | 263 | Exported Function
+`QueryDirectory` | 300 | Exported Function
+`MakeFile` | 264 | Exported Function
+`Cast` | 116 | Exported Function
+`QueryNextLibraryEntryPoint` | 320 | Exported Function
+`CharNextW` | 120 | Exported Function
+`Strstr` | 434 | Exported Function
+`QuerySystemDirectory` | 336 | Exported Function
+`SearchPathW` | 366 | Exported Function
+`Cast` | 118 | Exported Function
+`GetCompareArgument` | 177 | Exported Function
+`MakeTemporaryFile` | 266 | Exported Function
+`QueryFile` | 303 | Exported Function
+`Cast` | 117 | Exported Function
+`GetPFlagBreak` | 183 | Exported Function
+`EnablePrivileges` | 161 | Exported Function
+`RestorePrivileges` | 360 | Exported Function
+`AnalyzePath` | 112 | Exported Function
+`Strlwr` | 431 | Exported Function
+`Strupr` | 436 | Exported Function
+`Strupr` | 437 | Exported Function
+`Stricmp` | 427 | Exported Function
+`Stricmp` | 428 | Exported Function
+`QueryLibraryEntryPoint` | 313 | Exported Function
+`Stricmp` | 426 | Exported Function
+`Strcmp` | 416 | Exported Function
+`Strcmp` | 417 | Exported Function
+`Strcmp` | 418 | Exported Function
+`QueryEnvironmentVariable` | 302 | Exported Function
+`UploadSqmFromFile` | 446 | Exported Function
+`GetFileSecurityBackup` | 178 | Exported Function
+`IsCorrectVersion` | 240 | Exported Function
+`SqmExport` | 410 | Exported Function
+`EnableBreakHandling` | 159 | Exported Function
+`GotABreak` | 190 | Exported Function
+`FileExport` | 168 | Exported Function
+`RemoveNode` | 349 | Exported Function
+`SkipWhite` | 404 | Exported Function
+`ExitProgram` | 165 | Exported Function
+`QueryWindowsErrorMessage` | 342 | Exported Function
+`IsStorageDaxCapable` | 251 | Exported Function
+`QueryCurrentDosDriveName` | 298 | Exported Function
+`QueryLocalTimeFromUTime` | 314 | Exported Function
+`Strcmps` | 422 | Exported Function
+`Stricmp` | 425 | Exported Function
+`Strcmp` | 419 | Exported Function
+`Strcmpis` | 420 | Exported Function
+`QueryVolumeLabel` | 339 | Exported Function
+`QueryDriveType` | 301 | Exported Function
+`QueryFileType` | 304 | Exported Function
+`QueryResourceString` | 326 | Exported Function
+`QueryResourceStringV` | 327 | Exported Function
+`DisableBreakHandling` | 145 | Exported Function
+`MakeFileToken` | 265 | Exported Function
+`Strcmpis` | 421 | Exported Function
+`Strcmps` | 423 | Exported Function
+`Stricmp` | 429 | Exported Function
 
 
 ## Signature

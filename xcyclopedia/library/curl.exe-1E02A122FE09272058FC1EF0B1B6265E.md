@@ -18,6 +18,9 @@ SHA256 | `F835E15ACEB0E995EAD000641019AEC2162F74D45C5732CEE9E3C77D13FA038A`
 SHA384 | `969526FA4BAF4256E98258CD52255D65A2C12EB13D7A2EDADFC1C610BBFCCCB87DACDDD132FB0DB69A2B85F68F763810`
 SHA512 | `63B1E31D75E3794588AA16CEC9908C7E86A1D40221354E635003CF4CE4651834CD4D19B22D85F9295E27A7BFBBF0A2607B2E6A31D9907CB209DE04CF9BACB367`
 SSDEEP | `6144:IxbPJ8VKmGuGVM2SG0E+l1kJ9XRSG78l9b0Y3m6+Riil9TU9ZNJwZwSDQI50Vvel:IvmGuGVM2SzMR778lpp3n+UYQC0VveRz`
+IMP | `6C8E9C47D7DAB2C7337C88852362AB90`
+PESHA1 | `F02197DFAD89ABF54467EA5F69075E4C05A29BE0`
+PE256 | `9F3F52EA3A9F50ECDCC94BB1E278A7828AB351404565678D054A0845AA8C95E8`
 
 ## Runtime Data
 
@@ -241,7 +244,7 @@ Usage: curl [options...] <url>
 ```cmhg
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
 ```
 
 ### Child Processes:
@@ -251,8 +254,11 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -262,13 +268,17 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\curl.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -281,7 +291,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.55.1
 * Language: English (United States)
 * Legal Copyright:  1996 - 2017 Daniel Stenberg, <daniel@haxx.se>.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f835e15aceb0e995ead000641019aec2162f74d45c5732cee9e3c77d13fa038a/detection/
 
 
 ## Possible Misuse

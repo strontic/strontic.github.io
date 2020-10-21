@@ -8,6 +8,10 @@ excerpt: What is Ec2LaunchSettings.exe?
 * File Path: `C:\ProgramData\Amazon\EC2-Windows\Launch\Settings\Ec2LaunchSettings.exe`
 * Description: Ec2Launch.Settings
 
+## Screenshot
+
+![Ec2LaunchSettings.exe](screenshots/Ec2LaunchSettings.exe-981D6BB8FEE39AF0D1760E1B84ED0EFA-2.png)
+
 ## Hashes
 
 Type | Hash
@@ -31,7 +35,7 @@ Path | Type
 (R-D)   C:\ProgramData\Amazon\EC2-Windows\Launch\Settings\Newtonsoft.Json.dll | File
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll | File
 (R-D)   C:\Windows\System32\en-US\msctfui.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\Cor_Private_IPCBlock_v4_6424 | Section
@@ -86,6 +90,11 @@ C:\Windows\System32\ucrtbase.dll |
 * Legal Copyright: Copyright  Amazon.com 2016
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Amazon\EC2-Windows\Launch\Settings\Ec2LaunchSettings.exe](Ec2LaunchSettings.exe-981D6BB8FEE39AF0D1760E1B84ED0EFA.md) | 88
 
 
 

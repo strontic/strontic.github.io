@@ -24,6 +24,9 @@ SHA256 | `5502BC3DD8F997BEE50DBC9A3445C3B0E6407E916503589E3FDA06A8759C0DE3`
 SHA384 | `70D83A6F91F8D113617250CE5A34BD651CF7ACED2AF94E0DE7DB3C87302545D14B70CDA0C2D918147288473B5C55A7D5`
 SHA512 | `C371045F0C76EB563F95ED1D61BCADF1900AED980FC0D4AE3774D2E94DF4EE93DF8FE4207B919B9FCC840F533DBD965E16CD8CBF4423F9F50F894B5544B08E09`
 SSDEEP | `3072:ldUsMg4kML0HAEPGRvQhRkKqUa9antF5hvvJkuXpeV0:s+S0gE+ohSKq99UF5hvv/`
+IMP | `ED6B85CD7015D439B422F14335CB986C`
+PESHA1 | `6C7EAF11B530D0AD3075289B7C8816272517A6E2`
+PE256 | `2398BA689893CCB294E5EFD4636223D0D1FBB33B2E796332FC6A8CAA12177B85`
 
 ## Runtime Data
 
@@ -36,13 +39,16 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\cleanmgr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -51,6 +57,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\cleanmgr.exe |
 
@@ -72,7 +79,12 @@ C:\Windows\SysWOW64\cleanmgr.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/5502bc3dd8f997bee50dbc9a3445c3b0e6407e916503589e3fda06a8759c0de3/detection/
 
 ## File Similarity (ssdeep match)
 

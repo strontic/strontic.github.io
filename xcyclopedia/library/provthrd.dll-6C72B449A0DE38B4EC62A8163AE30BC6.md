@@ -26,66 +26,66 @@ PE256 | `EE4DCDBBCA28BDCD5B097DECF722F4BCB7CBE010F391173018C29565918B1BEB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned char * __thiscall ProvOpaque::GetValue(void)const ` | 758 | Exported Function
-`public: unsigned char * __thiscall ProvOctetStringType::GetValue(void)const ` | 757 | Exported Function
-`public: unsigned char * __thiscall ProvOctetString::GetValue(void)const ` | 756 | Exported Function
-`public: unsigned char * __thiscall ProvOpaqueType::GetValue(void)const ` | 759 | Exported Function
-`public: unsigned long * __thiscall ProvObjectIdentifierType::GetValue(void)const ` | 755 | Exported Function
-`public: unsigned long * __thiscall ProvObjectIdentifier::GetValue(void)const ` | 754 | Exported Function
-`public: unsigned long & __thiscall ProvObjectIdentifier::operator[](unsigned long)const ` | 392 | Exported Function
-`public: union ProvLexiconValue * __thiscall ProvLexicon::GetValue(void)` | 752 | Exported Function
-`public: static unsigned long __stdcall ProvAnalyser::OctWCharToDecInteger(unsigned short)` | 815 | Exported Function
-`public: static unsigned long __stdcall ProvAnalyser::OctCharToDecInteger(char)` | 814 | Exported Function
-`public: static unsigned long __stdcall ProvAnalyser::HexWCharToDecInteger(unsigned short)` | 774 | Exported Function
-`public: static unsigned short __stdcall ProvAnalyser::DecIntegerToDecWChar(unsigned char)` | 608 | Exported Function
-`public: static void __stdcall ProvDebugLog::Closedown(void)` | 531 | Exported Function
-`public: static unsigned short __stdcall ProvAnalyser::DecIntegerToOctWChar(unsigned char)` | 612 | Exported Function
-`public: static unsigned short __stdcall ProvAnalyser::DecIntegerToHexWChar(unsigned char)` | 610 | Exported Function
-`public: unsigned long __thiscall ProvDebugLog::GetLevel(void)` | 678 | Exported Function
-`public: unsigned long __thiscall ProvCounterType::GetValue(void)const ` | 741 | Exported Function
-`public: unsigned long __thiscall ProvCounter::GetValue(void)const ` | 740 | Exported Function
-`public: unsigned long __thiscall ProvGauge::GetValue(void)const ` | 746 | Exported Function
-`public: unsigned long __thiscall ProvIpAddressType::GetValue(void)const ` | 751 | Exported Function
-`public: unsigned long __thiscall ProvIpAddress::GetValue(void)const ` | 750 | Exported Function
-`public: unsigned long __thiscall ProvGaugeType::GetValue(void)const ` | 747 | Exported Function
-`public: unsigned long __thiscall ProvCounter64::GetLowValue(void)const ` | 680 | Exported Function
-`public: unsigned long __thiscall Disjunctions::GetDisjunctionCount(void)` | 666 | Exported Function
-`public: unsigned long __thiscall Disjunctions::GetConjunctionCount(void)` | 661 | Exported Function
-`public: unsigned long __thiscall Conjunctions::GetRangeCount(void)` | 706 | Exported Function
-`public: unsigned long __thiscall PartitionSet::GetKeyIndex(void)` | 675 | Exported Function
-`public: unsigned long __thiscall ProvCounter64::GetHighValue(void)const ` | 668 | Exported Function
-`public: unsigned long __thiscall ProvBitStringType::GetValue(unsigned short * * &)const ` | 738 | Exported Function
-`public: unsigned long __thiscall PartitionSet::GetPartitionCount(void)` | 689 | Exported Function
-`public: long __thiscall WmiValueNode::ComparePropertyName(class WmiValueNode &)` | 534 | Exported Function
-`public: long __thiscall WmiSignedIntegerRangeNode::UpperBound(void)` | 952 | Exported Function
-`public: long __thiscall WmiSignedIntegerRangeNode::LowerBound(void)` | 807 | Exported Function
-`public: static char __stdcall ProvAnalyser::DecIntegerToDecChar(unsigned char)` | 607 | Exported Function
-`public: static class ProvDebugLog * __stdcall ProvDebugLog::GetProvDebugLog(char)` | 693 | Exported Function
-`public: static char __stdcall ProvAnalyser::DecIntegerToOctChar(unsigned char)` | 611 | Exported Function
-`public: static char __stdcall ProvAnalyser::DecIntegerToHexChar(unsigned char)` | 609 | Exported Function
-`public: long __thiscall WmiSignedIntegerNode::GetValue(void)` | 764 | Exported Function
-`public: long __thiscall ProvInteger::GetValue(void)const ` | 748 | Exported Function
-`public: int __thiscall WmiUnsignedIntegerNode::LexicographicallyBefore(unsigned long &)` | 806 | Exported Function
-`public: int __thiscall WmiUnsignedIntegerNode::LexicographicallyAfter(unsigned long &)` | 803 | Exported Function
-`public: long __thiscall ProvIntegerType::GetValue(void)const ` | 749 | Exported Function
-`public: long __thiscall WmiRangeNode::ComparePropertyName(class WmiRangeNode &)` | 533 | Exported Function
-`public: long __thiscall ProvNegativeRangeType::GetUpperBound(void)` | 736 | Exported Function
-`public: long __thiscall ProvNegativeRangeType::GetLowerBound(void)` | 681 | Exported Function
-`public: static int __stdcall ProvDebugLog::Startup(void)` | 925 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsWhitespace(unsigned short)` | 799 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsOctal(unsigned short)` | 792 | Exported Function
-`public: static long ProvDebugLog::s_ReferenceCount` | 964 | Exported Function
-`public: static unsigned long __stdcall ProvAnalyser::HexCharToDecInteger(char)` | 773 | Exported Function
-`public: static unsigned long __stdcall ProvAnalyser::DecWCharToDecInteger(unsigned short)` | 613 | Exported Function
-`public: static unsigned long __stdcall ProvAnalyser::DecCharToDecInteger(char)` | 606 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsLeadingDecimal(unsigned short)` | 790 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsAlpha(unsigned short)` | 785 | Exported Function
-`public: static class ProvDebugLog * ProvDebugLog::s_ProvDebugLog` | 963 | Exported Function
-`public: static class ProvDebugLog * ProvDebugLog::s_aLogs` | 965 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsAlphaNumeric(unsigned short)` | 786 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsHex(unsigned short)` | 789 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsEof(unsigned short)` | 788 | Exported Function
-`public: static int __stdcall ProvAnalyser::IsDecimal(unsigned short)` | 787 | Exported Function
+`GetValue` | 758 | Exported Function
+`GetValue` | 757 | Exported Function
+`GetValue` | 756 | Exported Function
+`GetValue` | 759 | Exported Function
+`GetValue` | 755 | Exported Function
+`GetValue` | 754 | Exported Function
+`operator` | 392 | Exported Function
+`GetValue` | 752 | Exported Function
+`OctWCharToDecInteger` | 815 | Exported Function
+`OctCharToDecInteger` | 814 | Exported Function
+`HexWCharToDecInteger` | 774 | Exported Function
+`DecIntegerToDecWChar` | 608 | Exported Function
+`Closedown` | 531 | Exported Function
+`DecIntegerToOctWChar` | 612 | Exported Function
+`DecIntegerToHexWChar` | 610 | Exported Function
+`GetLevel` | 678 | Exported Function
+`GetValue` | 741 | Exported Function
+`GetValue` | 740 | Exported Function
+`GetValue` | 746 | Exported Function
+`GetValue` | 751 | Exported Function
+`GetValue` | 750 | Exported Function
+`GetValue` | 747 | Exported Function
+`GetLowValue` | 680 | Exported Function
+`GetDisjunctionCount` | 666 | Exported Function
+`GetConjunctionCount` | 661 | Exported Function
+`GetRangeCount` | 706 | Exported Function
+`GetKeyIndex` | 675 | Exported Function
+`GetHighValue` | 668 | Exported Function
+`GetValue` | 738 | Exported Function
+`GetPartitionCount` | 689 | Exported Function
+`ComparePropertyName` | 534 | Exported Function
+`UpperBound` | 952 | Exported Function
+`LowerBound` | 807 | Exported Function
+`DecIntegerToDecChar` | 607 | Exported Function
+`GetProvDebugLog` | 693 | Exported Function
+`DecIntegerToOctChar` | 611 | Exported Function
+`DecIntegerToHexChar` | 609 | Exported Function
+`GetValue` | 764 | Exported Function
+`GetValue` | 748 | Exported Function
+`LexicographicallyBefore` | 806 | Exported Function
+`LexicographicallyAfter` | 803 | Exported Function
+`GetValue` | 749 | Exported Function
+`ComparePropertyName` | 533 | Exported Function
+`GetUpperBound` | 736 | Exported Function
+`GetLowerBound` | 681 | Exported Function
+`Startup` | 925 | Exported Function
+`IsWhitespace` | 799 | Exported Function
+`IsOctal` | 792 | Exported Function
+`s_ReferenceCount` | 964 | Exported Function
+`HexCharToDecInteger` | 773 | Exported Function
+`DecWCharToDecInteger` | 613 | Exported Function
+`DecCharToDecInteger` | 606 | Exported Function
+`IsLeadingDecimal` | 790 | Exported Function
+`IsAlpha` | 785 | Exported Function
+`s_ProvDebugLog` | 963 | Exported Function
+`s_aLogs` | 965 | Exported Function
+`IsAlphaNumeric` | 786 | Exported Function
+`IsHex` | 789 | Exported Function
+`IsEof` | 788 | Exported Function
+`IsDecimal` | 787 | Exported Function
 `public: virtual __thiscall ProvEventObject::~ProvEventObject(void)` | 241 | Exported Function
 `public: virtual __thiscall ProvEnumeratedType::~ProvEnumeratedType(void)` | 240 | Exported Function
 `public: virtual __thiscall ProvDisplayStringType::~ProvDisplayStringType(void)` | 239 | Exported Function
@@ -96,7 +96,7 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall ProvDateTimeType::~ProvDateTimeType(void)` | 238 | Exported Function
 `public: virtual __thiscall ProvBitStringType::~ProvBitStringType(void)` | 233 | Exported Function
 `public: virtual __thiscall ProvAnalyser::~ProvAnalyser(void)` | 232 | Exported Function
-`public: virtual __thiscall ProvAnalyser::operator void *(void)` | 393 | Exported Function
+`operator` | 393 | Exported Function
 `public: virtual __thiscall ProvCounter64::~ProvCounter64(void)` | 234 | Exported Function
 `public: virtual __thiscall ProvCounterType::~ProvCounterType(void)` | 237 | Exported Function
 `public: virtual __thiscall ProvCounter::~ProvCounter(void)` | 236 | Exported Function
@@ -112,221 +112,221 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall ProvGaugeType::~ProvGaugeType(void)` | 248 | Exported Function
 `public: virtual __thiscall ProvGauge::~ProvGauge(void)` | 247 | Exported Function
 `public: virtual __thiscall ProvFixedType::~ProvFixedType(void)` | 246 | Exported Function
-`public: virtual __thiscall ProvInstanceType::operator void *(void)` | 394 | Exported Function
+`operator` | 394 | Exported Function
 `public: virtual __thiscall ProvIntegerType::~ProvIntegerType(void)` | 251 | Exported Function
 `public: virtual __thiscall ProvInteger::~ProvInteger(void)` | 250 | Exported Function
 `public: virtual __thiscall ProvInstanceType::~ProvInstanceType(void)` | 249 | Exported Function
-`public: unsigned long __thiscall ProvTimeTicksType::GetValue(void)const ` | 762 | Exported Function
-`public: unsigned long __thiscall ProvTimeTicks::GetValue(void)const ` | 761 | Exported Function
-`public: unsigned long __thiscall ProvPositiveRangeType::GetUpperBound(void)` | 737 | Exported Function
-`public: unsigned long __thiscall ProvUInteger32::GetValue(void)const ` | 763 | Exported Function
-`public: unsigned long __thiscall WmiUnsignedIntegerNode::GetValue(void)` | 766 | Exported Function
-`public: unsigned long __thiscall WmiTreeNode::GetType(void)` | 735 | Exported Function
-`public: unsigned long __thiscall WmiRangeNode::GetIndex(void)` | 669 | Exported Function
-`public: unsigned long __thiscall ProvPositiveRangeType::GetLowerBound(void)` | 682 | Exported Function
-`public: unsigned long __thiscall ProvObjectIdentifierType::GetValueLength(void)const ` | 768 | Exported Function
-`public: unsigned long __thiscall ProvObjectIdentifier::GetValueLength(void)const ` | 767 | Exported Function
-`public: unsigned long __thiscall ProvNetworkAddressType::GetValue(void)const ` | 753 | Exported Function
-`public: unsigned long __thiscall ProvOctetString::GetValueLength(void)const ` | 769 | Exported Function
-`public: unsigned long __thiscall ProvOpaqueType::GetValueLength(void)const ` | 772 | Exported Function
-`public: unsigned long __thiscall ProvOpaque::GetValueLength(void)const ` | 771 | Exported Function
-`public: unsigned long __thiscall ProvOctetStringType::GetValueLength(void)const ` | 770 | Exported Function
-`public: unsigned short * __thiscall WmiStringNode::GetValue(void)` | 765 | Exported Function
-`public: unsigned short * __thiscall WmiRangeNode::GetPropertyName(void)` | 691 | Exported Function
-`public: unsigned short * __thiscall ProvRowStatusType::GetValue(void)const ` | 760 | Exported Function
-`public: unsigned short * __thiscall WmiStringRangeNode::LowerBound(void)` | 808 | Exported Function
+`GetValue` | 762 | Exported Function
+`GetValue` | 761 | Exported Function
+`GetUpperBound` | 737 | Exported Function
+`GetValue` | 763 | Exported Function
+`GetValue` | 766 | Exported Function
+`GetType` | 735 | Exported Function
+`GetIndex` | 669 | Exported Function
+`GetLowerBound` | 682 | Exported Function
+`GetValueLength` | 768 | Exported Function
+`GetValueLength` | 767 | Exported Function
+`GetValue` | 753 | Exported Function
+`GetValueLength` | 769 | Exported Function
+`GetValueLength` | 772 | Exported Function
+`GetValueLength` | 771 | Exported Function
+`GetValueLength` | 770 | Exported Function
+`GetValue` | 765 | Exported Function
+`GetPropertyName` | 691 | Exported Function
+`GetValue` | 760 | Exported Function
+`LowerBound` | 808 | Exported Function
 `public: virtual __thiscall PartitionSet::~PartitionSet(void)` | 231 | Exported Function
-`public: unsigned short * __thiscall WmiValueNode::GetPropertyName(void)` | 692 | Exported Function
-`public: unsigned short * __thiscall WmiStringRangeNode::UpperBound(void)` | 953 | Exported Function
-`public: unsigned short * __thiscall ProvFixedLengthDisplayStringType::GetValue(void)const ` | 745 | Exported Function
-`public: unsigned long __thiscall WmiValueNode::GetIndex(void)` | 670 | Exported Function
-`public: unsigned long __thiscall WmiUnsignedIntegerRangeNode::UpperBound(void)` | 954 | Exported Function
-`public: unsigned long __thiscall WmiUnsignedIntegerRangeNode::LowerBound(void)` | 809 | Exported Function
-`public: unsigned short * __thiscall CBString::GetString(void)` | 710 | Exported Function
-`public: unsigned short * __thiscall ProvEnumeratedType::GetValue(void)const ` | 744 | Exported Function
-`public: unsigned short * __thiscall ProvDisplayStringType::GetValue(void)const ` | 743 | Exported Function
-`public: unsigned short * __thiscall ProvDateTimeType::GetValue(void)const ` | 742 | Exported Function
-`public: int __thiscall WmiStringNode::LexicographicallyBefore(unsigned short * &)` | 805 | Exported Function
-`public: class WmiOperatorLikeNode & __thiscall WmiOperatorLikeNode::operator=(class WmiOperatorLikeNode const &)` | 366 | Exported Function
-`public: class WmiOperatorLessNode & __thiscall WmiOperatorLessNode::operator=(class WmiOperatorLessNode const &)` | 365 | Exported Function
-`public: class WmiOperatorIsANode & __thiscall WmiOperatorIsANode::operator=(class WmiOperatorIsANode const &)` | 364 | Exported Function
-`public: class WmiOperatorNode & __thiscall WmiOperatorNode::operator=(class WmiOperatorNode const &)` | 367 | Exported Function
-`public: class WmiOperatorNotLikeNode & __thiscall WmiOperatorNotLikeNode::operator=(class WmiOperatorNotLikeNode const &)` | 370 | Exported Function
-`public: class WmiOperatorNotIsANode & __thiscall WmiOperatorNotIsANode::operator=(class WmiOperatorNotIsANode const &)` | 369 | Exported Function
-`public: class WmiOperatorNotEqualNode & __thiscall WmiOperatorNotEqualNode::operator=(class WmiOperatorNotEqualNode const &)` | 368 | Exported Function
-`public: class WmiOperatorGreaterNode & __thiscall WmiOperatorGreaterNode::operator=(class WmiOperatorGreaterNode const &)` | 363 | Exported Function
-`public: class WmiNullNode & __thiscall WmiNullNode::operator=(class WmiNullNode const &)` | 358 | Exported Function
-`public: class WmiNullNode & __thiscall WmiNullNode::operator=(class WmiNullNode &&)` | 357 | Exported Function
-`public: class WmiNotNode & __thiscall WmiNotNode::operator=(class WmiNotNode const &)` | 356 | Exported Function
-`public: class WmiNullRangeNode & __thiscall WmiNullRangeNode::operator=(class WmiNullRangeNode const &)` | 359 | Exported Function
-`public: class WmiOperatorEqualOrLessNode & __thiscall WmiOperatorEqualOrLessNode::operator=(class WmiOperatorEqualOrLessNode const &)` | 362 | Exported Function
-`public: class WmiOperatorEqualOrGreaterNode & __thiscall WmiOperatorEqualOrGreaterNode::operator=(class WmiOperatorEqualOrGreaterNode const &)` | 361 | Exported Function
-`public: class WmiOperatorEqualNode & __thiscall WmiOperatorEqualNode::operator=(class WmiOperatorEqualNode const &)` | 360 | Exported Function
-`public: class WmiTreeNode & __thiscall WmiTreeNode::operator=(class WmiTreeNode const &)` | 379 | Exported Function
-`public: class WmiStringRangeNode & __thiscall WmiStringRangeNode::operator=(class WmiStringRangeNode const &)` | 378 | Exported Function
-`public: class WmiStringNode & __thiscall WmiStringNode::operator=(class WmiStringNode const &)` | 377 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNode::GetLeft(void)` | 676 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNode::SetLeft(class WmiTreeNode *)` | 897 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNode::GetRight(void)` | 707 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNode::GetParent(void)` | 686 | Exported Function
-`public: class WmiSignedIntegerRangeNode & __thiscall WmiSignedIntegerRangeNode::operator=(class WmiSignedIntegerRangeNode const &)` | 376 | Exported Function
-`public: class WmiRangeNode * __thiscall Conjunctions::GetRange(unsigned long)` | 694 | Exported Function
-`public: class WmiRangeNode & __thiscall WmiRangeNode::operator=(class WmiRangeNode const &)` | 372 | Exported Function
-`public: class WmiOrNode & __thiscall WmiOrNode::operator=(class WmiOrNode const &)` | 371 | Exported Function
-`public: class WmiRangeNode * __thiscall PartitionSet::GetRange(void)` | 695 | Exported Function
-`public: class WmiSignedIntegerRangeNode & __thiscall WmiSignedIntegerRangeNode::operator=(class WmiSignedIntegerRangeNode &&)` | 375 | Exported Function
-`public: class WmiSignedIntegerNode & __thiscall WmiSignedIntegerNode::operator=(class WmiSignedIntegerNode const &)` | 374 | Exported Function
-`public: class WmiSignedIntegerNode & __thiscall WmiSignedIntegerNode::operator=(class WmiSignedIntegerNode &&)` | 373 | Exported Function
-`public: class ProvOSIAddressType & __thiscall ProvOSIAddressType::operator=(class ProvOSIAddressType const &)` | 338 | Exported Function
-`public: class ProvOpaqueType & __thiscall ProvOpaqueType::operator=(class ProvOpaqueType const &)` | 344 | Exported Function
-`public: class ProvOctetStringType & __thiscall ProvOctetStringType::operator=(class ProvOctetStringType const &)` | 342 | Exported Function
-`public: class ProvPhysAddressType & __thiscall ProvPhysAddressType::operator=(class ProvPhysAddressType const &)` | 345 | Exported Function
-`public: class ProvRowStatusType & __thiscall ProvRowStatusType::operator=(class ProvRowStatusType const &)` | 348 | Exported Function
-`public: class ProvPositiveRangeType & __thiscall ProvPositiveRangeType::operator=(class ProvPositiveRangeType const &)` | 346 | Exported Function
-`public: class ProvPositiveRangedType & __thiscall ProvPositiveRangedType::operator=(class ProvPositiveRangedType const &)` | 347 | Exported Function
-`public: class ProvObjectIdentifierType & __thiscall ProvObjectIdentifierType::operator=(class ProvObjectIdentifierType const &)` | 340 | Exported Function
-`public: class ProvNegativeRangeType & __thiscall ProvNegativeRangeType::operator=(class ProvNegativeRangeType const &)` | 334 | Exported Function
-`public: class ProvMacAddressType & __thiscall ProvMacAddressType::operator=(class ProvMacAddressType const &)` | 333 | Exported Function
-`public: class ProvLexicon * __thiscall ProvAnalyser::Get(int,int,int)` | 655 | Exported Function
-`public: class ProvNetworkAddressType & __thiscall ProvNetworkAddressType::operator=(class ProvNetworkAddressType const &)` | 335 | Exported Function
-`public: class ProvObjectIdentifier __thiscall ProvObjectIdentifier::operator+(class ProvObjectIdentifier const &)const ` | 396 | Exported Function
-`public: class ProvObjectIdentifier * __thiscall ProvObjectIdentifier::Cut(class ProvObjectIdentifier &)const ` | 603 | Exported Function
-`public: class ProvNullType & __thiscall ProvNullType::operator=(class ProvNullType const &)` | 337 | Exported Function
-`public: class ProvValue & __thiscall ProvOpaque::operator=(class ProvOpaque const &)` | 343 | Exported Function
-`public: class ProvValue & __thiscall ProvOctetString::operator=(class ProvOctetString const &)` | 341 | Exported Function
-`public: class ProvValue & __thiscall ProvObjectIdentifier::operator=(class ProvObjectIdentifier const &)` | 339 | Exported Function
-`public: class ProvValue & __thiscall ProvTimeTicks::operator=(class ProvTimeTicks const &)` | 349 | Exported Function
-`public: class WmiAndNode & __thiscall WmiAndNode::operator=(class WmiAndNode const &)` | 355 | Exported Function
-`public: class QueryPreprocessor & __thiscall QueryPreprocessor::operator=(class QueryPreprocessor const &)` | 354 | Exported Function
-`public: class ProvValue & __thiscall ProvUInteger32::operator=(class ProvUInteger32 const &)` | 352 | Exported Function
-`public: class ProvValue & __thiscall ProvNull::operator=(class ProvNull const &)` | 336 | Exported Function
-`public: class ProvValue & __thiscall ProvCounter64::operator=(class ProvCounter64 const &)` | 310 | Exported Function
-`public: class ProvUDPAddressType & __thiscall ProvUDPAddressType::operator=(class ProvUDPAddressType const &)` | 351 | Exported Function
-`public: class ProvTimeTicksType & __thiscall ProvTimeTicksType::operator=(class ProvTimeTicksType const &)` | 350 | Exported Function
-`public: class ProvValue & __thiscall ProvCounter::operator=(class ProvCounter const &)` | 312 | Exported Function
-`public: class ProvValue & __thiscall ProvIpAddress::operator=(class ProvIpAddress const &)` | 330 | Exported Function
-`public: class ProvValue & __thiscall ProvInteger::operator=(class ProvInteger const &)` | 328 | Exported Function
-`public: class ProvValue & __thiscall ProvGauge::operator=(class ProvGauge const &)` | 325 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::operator==(class ProvObjectIdentifier const &)const ` | 387 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::operator<=(class ProvObjectIdentifier const &)const ` | 398 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::operator<(class ProvObjectIdentifier const &)const ` | 397 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::operator>(class ProvObjectIdentifier const &)const ` | 399 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::Suffix(unsigned long,class ProvObjectIdentifier &)const ` | 926 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::Prefix(unsigned long,class ProvObjectIdentifier &)const ` | 839 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::operator>=(class ProvObjectIdentifier const &)const ` | 400 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::operator!=(class ProvObjectIdentifier const &)const ` | 390 | Exported Function
-`public: int __thiscall ProvInstanceType::operator!=(class ProvInstanceType const &)const ` | 389 | Exported Function
-`public: int __thiscall ProvGauge::Equivalent(class ProvGauge const &)const ` | 624 | Exported Function
-`public: int __thiscall ProvDebugLog::GetLogging(void)` | 679 | Exported Function
-`public: int __thiscall ProvInstanceType::operator==(class ProvInstanceType const &)const ` | 386 | Exported Function
-`public: int __thiscall ProvObjectIdentifier::Equivalent(class ProvObjectIdentifier const &,unsigned long)const ` | 637 | Exported Function
-`public: int __thiscall ProvIpAddress::Equivalent(class ProvIpAddress const &)const ` | 630 | Exported Function
-`public: int __thiscall ProvInteger::Equivalent(class ProvInteger const &)const ` | 627 | Exported Function
-`public: int __thiscall WmiRangeNode::InfiniteLowerBound(void)` | 775 | Exported Function
-`public: int __thiscall WmiRangeNode::ClosedUpperBound(void)` | 530 | Exported Function
-`public: int __thiscall WmiRangeNode::ClosedLowerBound(void)` | 529 | Exported Function
-`public: int __thiscall WmiRangeNode::InfiniteUpperBound(void)` | 776 | Exported Function
-`public: int __thiscall WmiStringNode::LexicographicallyAfter(unsigned short * &)` | 802 | Exported Function
-`public: int __thiscall WmiSignedIntegerNode::LexicographicallyBefore(long &)` | 804 | Exported Function
-`public: int __thiscall WmiSignedIntegerNode::LexicographicallyAfter(long &)` | 801 | Exported Function
-`public: int __thiscall ProvValue::operator==(class ProvValue const &)const ` | 388 | Exported Function
-`public: int __thiscall ProvPositiveRangedType::Check(unsigned long const &)` | 527 | Exported Function
-`public: int __thiscall ProvOpaque::Equivalent(class ProvOpaque const &)const ` | 643 | Exported Function
-`public: int __thiscall ProvOctetString::Equivalent(class ProvOctetString const &)const ` | 640 | Exported Function
-`public: int __thiscall ProvPositiveRangedType::IsValid(void)` | 798 | Exported Function
-`public: int __thiscall ProvValue::operator!=(class ProvValue const &)const ` | 391 | Exported Function
-`public: int __thiscall ProvUInteger32::Equivalent(class ProvUInteger32 const &)const ` | 649 | Exported Function
-`public: int __thiscall ProvTimeTicks::Equivalent(class ProvTimeTicks const &)const ` | 646 | Exported Function
-`public: enum ProvLexicon::LexiconToken __thiscall ProvLexicon::GetToken(void)` | 734 | Exported Function
-`public: class WmiValueNode & __thiscall WmiValueNode::operator=(class WmiValueNode const &)` | 385 | Exported Function
-`public: class WmiUnsignedIntegerRangeNode & __thiscall WmiUnsignedIntegerRangeNode::operator=(class WmiUnsignedIntegerRangeNode const &)` | 384 | Exported Function
-`public: enum ProvRowStatusType::ProvRowStatusEnum __thiscall ProvRowStatusType::GetRowStatus(void)const ` | 709 | Exported Function
-`public: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::Query(unsigned short *,struct SQL_LEVEL_1_RPN_EXPRESSION * &)` | 869 | Exported Function
-`public: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::PreProcess(void *,struct SQL_LEVEL_1_RPN_EXPRESSION *,class WmiTreeNode *,unsigned long,unsigned short * *,class PartitionSet * &)` | 838 | Exported Function
-`public: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::PreProcess(void *,struct SQL_LEVEL_1_RPN_EXPRESSION *,class WmiTreeNode * &)` | 837 | Exported Function
-`public: class WmiUnsignedIntegerRangeNode & __thiscall WmiUnsignedIntegerRangeNode::operator=(class WmiUnsignedIntegerRangeNode &&)` | 383 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNodeIterator::GetIterator(void)` | 674 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNode::SetRight(class WmiTreeNode *)` | 905 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNode::SetParent(class WmiTreeNode *)` | 901 | Exported Function
-`public: class WmiTreeNode * __thiscall WmiTreeNodeIterator::SetIterator(class WmiTreeNode *)` | 895 | Exported Function
-`public: class WmiUnsignedIntegerNode & __thiscall WmiUnsignedIntegerNode::operator=(class WmiUnsignedIntegerNode const &)` | 382 | Exported Function
-`public: class WmiUnsignedIntegerNode & __thiscall WmiUnsignedIntegerNode::operator=(class WmiUnsignedIntegerNode &&)` | 381 | Exported Function
-`public: class WmiTreeNodeIterator & __thiscall WmiTreeNodeIterator::operator=(class WmiTreeNodeIterator const &)` | 380 | Exported Function
-`public: enum WmiValueNode::WmiValueFunction __thiscall WmiValueNode::GetPropertyFunction(void)` | 690 | Exported Function
-`public: enum WmiValueNode::WmiValueFunction __thiscall WmiValueNode::GetConstantFunction(void)` | 662 | Exported Function
-`public: enum WmiTriState __thiscall WmiUnsignedIntegerRangeNode::GetOverlappingRange(class WmiUnsignedIntegerRangeNode &,class WmiUnsignedIntegerRangeNode * &)` | 685 | Exported Function
-`public: int __thiscall PartitionSet::Leaf(void)` | 800 | Exported Function
-`public: int __thiscall ProvCounter::Equivalent(class ProvCounter const &)const ` | 621 | Exported Function
-`public: int __thiscall ProvCounter64::Equivalent(class ProvCounter64 const &)const ` | 618 | Exported Function
-`public: int __thiscall PartitionSet::Root(void)` | 891 | Exported Function
-`public: enum WmiTriState __thiscall WmiUnsignedIntegerRangeNode::GetIntersectingRange(class WmiUnsignedIntegerRangeNode &,class WmiUnsignedIntegerRangeNode * &)` | 673 | Exported Function
-`public: enum WmiTriState __thiscall PartitionSet::Initialize(unsigned long)` | 780 | Exported Function
-`public: enum WmiTriState __thiscall Disjunctions::Initialize(void)` | 779 | Exported Function
-`public: enum WmiTriState __thiscall Conjunctions::Initialize(void)` | 778 | Exported Function
-`public: enum WmiTriState __thiscall WmiSignedIntegerRangeNode::GetIntersectingRange(class WmiSignedIntegerRangeNode &,class WmiSignedIntegerRangeNode * &)` | 671 | Exported Function
-`public: enum WmiTriState __thiscall WmiStringRangeNode::GetOverlappingRange(class WmiStringRangeNode &,class WmiStringRangeNode * &)` | 684 | Exported Function
-`public: enum WmiTriState __thiscall WmiStringRangeNode::GetIntersectingRange(class WmiStringRangeNode &,class WmiStringRangeNode * &)` | 672 | Exported Function
-`public: enum WmiTriState __thiscall WmiSignedIntegerRangeNode::GetOverlappingRange(class WmiSignedIntegerRangeNode &,class WmiSignedIntegerRangeNode * &)` | 683 | Exported Function
-`public: virtual void __thiscall WmiSignedIntegerRangeNode::Print(void)` | 856 | Exported Function
-`public: virtual void __thiscall WmiSignedIntegerNode::Print(void)` | 855 | Exported Function
-`public: virtual void __thiscall WmiOrNode::Print(void)` | 854 | Exported Function
-`public: virtual void __thiscall WmiStringNode::Print(void)` | 857 | Exported Function
-`public: virtual void __thiscall WmiUnsignedIntegerNode::Print(void)` | 860 | Exported Function
-`public: virtual void __thiscall WmiTreeNode::Print(void)` | 859 | Exported Function
-`public: virtual void __thiscall WmiStringRangeNode::Print(void)` | 858 | Exported Function
-`public: virtual void __thiscall WmiOperatorNotLikeNode::Print(void)` | 853 | Exported Function
-`public: virtual void __thiscall WmiOperatorIsANode::Print(void)` | 848 | Exported Function
-`public: virtual void __thiscall WmiOperatorGreaterNode::Print(void)` | 847 | Exported Function
-`public: virtual void __thiscall WmiOperatorEqualOrLessNode::Print(void)` | 846 | Exported Function
-`public: virtual void __thiscall WmiOperatorLessNode::Print(void)` | 849 | Exported Function
-`public: virtual void __thiscall WmiOperatorNotIsANode::Print(void)` | 852 | Exported Function
-`public: virtual void __thiscall WmiOperatorNotEqualNode::Print(void)` | 851 | Exported Function
-`public: virtual void __thiscall WmiOperatorLikeNode::Print(void)` | 850 | Exported Function
-`public: void __cdecl ProvDebugLog::WriteFileAndLine(char const *,unsigned long,unsigned short const *,...)` | 958 | Exported Function
-`public: void __cdecl ProvDebugLog::WriteA(char const *,...)` | 957 | Exported Function
-`public: void __cdecl ProvDebugLog::Write(unsigned short const *,...)` | 956 | Exported Function
-`public: void __cdecl ProvDebugLog::WriteFileAndLine(unsigned short const *,unsigned long,unsigned short const *,...)` | 959 | Exported Function
-`public: void __cdecl ProvDebugLog::WriteW(unsigned short const *,...)` | 962 | Exported Function
-`public: void __cdecl ProvDebugLog::WriteFileAndLineW(unsigned short const *,unsigned long,unsigned short const *,...)` | 961 | Exported Function
-`public: void __cdecl ProvDebugLog::WriteFileAndLineA(char const *,unsigned long,char const *,...)` | 960 | Exported Function
-`public: void * __thiscall WmiTreeNode::SetData(void *)` | 894 | Exported Function
-`public: void * __thiscall ProvIpAddress::operator()(void)const ` | 401 | Exported Function
-`public: void * __thiscall ProvEventObject::GetHandle(void)` | 667 | Exported Function
-`public: virtual void __thiscall WmiUnsignedIntegerRangeNode::Print(void)` | 861 | Exported Function
-`public: void * __thiscall ProvObjectIdentifier::operator()(void)const ` | 402 | Exported Function
-`public: void * __thiscall WmiTreeNode::GetData(void)` | 663 | Exported Function
-`public: void * __thiscall ProvOpaque::operator()(void)const ` | 404 | Exported Function
-`public: void * __thiscall ProvOctetString::operator()(void)const ` | 403 | Exported Function
-`public: virtual unsigned short * __thiscall ProvIpAddressType::GetStringValue(void)const ` | 721 | Exported Function
-`public: virtual unsigned short * __thiscall ProvIntegerType::GetStringValue(void)const ` | 720 | Exported Function
-`public: virtual unsigned short * __thiscall ProvGaugeType::GetStringValue(void)const ` | 719 | Exported Function
-`public: virtual unsigned short * __thiscall ProvMacAddressType::GetStringValue(void)const ` | 722 | Exported Function
-`public: virtual unsigned short * __thiscall ProvObjectIdentifierType::GetStringValue(void)const ` | 726 | Exported Function
-`public: virtual unsigned short * __thiscall ProvNullType::GetStringValue(void)const ` | 724 | Exported Function
-`public: virtual unsigned short * __thiscall ProvNetworkAddressType::GetStringValue(void)const ` | 723 | Exported Function
-`public: virtual unsigned short * __thiscall ProvFixedLengthPhysAddressType::GetStringValue(void)const ` | 718 | Exported Function
-`public: virtual unsigned short * __thiscall ProvCounterType::GetStringValue(void)const ` | 713 | Exported Function
-`public: virtual unsigned short * __thiscall ProvCounter64Type::GetStringValue(void)const ` | 712 | Exported Function
-`public: virtual unsigned short * __thiscall ProvBitStringType::GetStringValue(void)const ` | 711 | Exported Function
-`public: virtual unsigned short * __thiscall ProvDateTimeType::GetStringValue(void)const ` | 714 | Exported Function
-`public: virtual unsigned short * __thiscall ProvFixedLengthDisplayStringType::GetStringValue(void)const ` | 717 | Exported Function
-`public: virtual unsigned short * __thiscall ProvEnumeratedType::GetStringValue(void)const ` | 716 | Exported Function
-`public: virtual unsigned short * __thiscall ProvDisplayStringType::GetStringValue(void)const ` | 715 | Exported Function
-`public: virtual void __thiscall WmiNotNode::Print(void)` | 841 | Exported Function
-`public: virtual void __thiscall WmiAndNode::Print(void)` | 840 | Exported Function
-`public: virtual void __thiscall ProvEventObject::Process(void)` | 863 | Exported Function
-`public: virtual void __thiscall WmiNullNode::Print(void)` | 842 | Exported Function
-`public: virtual void __thiscall WmiOperatorEqualOrGreaterNode::Print(void)` | 845 | Exported Function
-`public: virtual void __thiscall WmiOperatorEqualNode::Print(void)` | 844 | Exported Function
-`public: virtual void __thiscall WmiNullRangeNode::Print(void)` | 843 | Exported Function
-`public: virtual void __thiscall ProvEventObject::Complete(void)` | 535 | Exported Function
-`public: virtual unsigned short * __thiscall ProvOSIAddressType::GetStringValue(void)const ` | 725 | Exported Function
-`public: virtual unsigned short * __thiscall ProvOpaqueType::GetStringValue(void)const ` | 728 | Exported Function
-`public: virtual unsigned short * __thiscall ProvOctetStringType::GetStringValue(void)const ` | 727 | Exported Function
-`public: virtual unsigned short * __thiscall ProvPhysAddressType::GetStringValue(void)const ` | 729 | Exported Function
-`public: virtual unsigned short * __thiscall ProvUDPAddressType::GetStringValue(void)const ` | 732 | Exported Function
-`public: virtual unsigned short * __thiscall ProvTimeTicksType::GetStringValue(void)const ` | 731 | Exported Function
-`public: virtual unsigned short * __thiscall ProvRowStatusType::GetStringValue(void)const ` | 730 | Exported Function
+`GetPropertyName` | 692 | Exported Function
+`UpperBound` | 953 | Exported Function
+`GetValue` | 745 | Exported Function
+`GetIndex` | 670 | Exported Function
+`UpperBound` | 954 | Exported Function
+`LowerBound` | 809 | Exported Function
+`GetString` | 710 | Exported Function
+`GetValue` | 744 | Exported Function
+`GetValue` | 743 | Exported Function
+`GetValue` | 742 | Exported Function
+`LexicographicallyBefore` | 805 | Exported Function
+`operator` | 366 | Exported Function
+`operator` | 365 | Exported Function
+`operator` | 364 | Exported Function
+`operator` | 367 | Exported Function
+`operator` | 370 | Exported Function
+`operator` | 369 | Exported Function
+`operator` | 368 | Exported Function
+`operator` | 363 | Exported Function
+`operator` | 358 | Exported Function
+`operator` | 357 | Exported Function
+`operator` | 356 | Exported Function
+`operator` | 359 | Exported Function
+`operator` | 362 | Exported Function
+`operator` | 361 | Exported Function
+`operator` | 360 | Exported Function
+`operator` | 379 | Exported Function
+`operator` | 378 | Exported Function
+`operator` | 377 | Exported Function
+`GetLeft` | 676 | Exported Function
+`SetLeft` | 897 | Exported Function
+`GetRight` | 707 | Exported Function
+`GetParent` | 686 | Exported Function
+`operator` | 376 | Exported Function
+`GetRange` | 694 | Exported Function
+`operator` | 372 | Exported Function
+`operator` | 371 | Exported Function
+`GetRange` | 695 | Exported Function
+`operator` | 375 | Exported Function
+`operator` | 374 | Exported Function
+`operator` | 373 | Exported Function
+`operator` | 338 | Exported Function
+`operator` | 344 | Exported Function
+`operator` | 342 | Exported Function
+`operator` | 345 | Exported Function
+`operator` | 348 | Exported Function
+`operator` | 346 | Exported Function
+`operator` | 347 | Exported Function
+`operator` | 340 | Exported Function
+`operator` | 334 | Exported Function
+`operator` | 333 | Exported Function
+`Get` | 655 | Exported Function
+`operator` | 335 | Exported Function
+`operator` | 396 | Exported Function
+`Cut` | 603 | Exported Function
+`operator` | 337 | Exported Function
+`operator` | 343 | Exported Function
+`operator` | 341 | Exported Function
+`operator` | 339 | Exported Function
+`operator` | 349 | Exported Function
+`operator` | 355 | Exported Function
+`operator` | 354 | Exported Function
+`operator` | 352 | Exported Function
+`operator` | 336 | Exported Function
+`operator` | 310 | Exported Function
+`operator` | 351 | Exported Function
+`operator` | 350 | Exported Function
+`operator` | 312 | Exported Function
+`operator` | 330 | Exported Function
+`operator` | 328 | Exported Function
+`operator` | 325 | Exported Function
+`operator` | 387 | Exported Function
+`operator` | 398 | Exported Function
+`operator` | 397 | Exported Function
+`operator` | 399 | Exported Function
+`Suffix` | 926 | Exported Function
+`Prefix` | 839 | Exported Function
+`operator` | 400 | Exported Function
+`operator` | 390 | Exported Function
+`operator` | 389 | Exported Function
+`Equivalent` | 624 | Exported Function
+`GetLogging` | 679 | Exported Function
+`operator` | 386 | Exported Function
+`Equivalent` | 637 | Exported Function
+`Equivalent` | 630 | Exported Function
+`Equivalent` | 627 | Exported Function
+`InfiniteLowerBound` | 775 | Exported Function
+`ClosedUpperBound` | 530 | Exported Function
+`ClosedLowerBound` | 529 | Exported Function
+`InfiniteUpperBound` | 776 | Exported Function
+`LexicographicallyAfter` | 802 | Exported Function
+`LexicographicallyBefore` | 804 | Exported Function
+`LexicographicallyAfter` | 801 | Exported Function
+`operator` | 388 | Exported Function
+`Check` | 527 | Exported Function
+`Equivalent` | 643 | Exported Function
+`Equivalent` | 640 | Exported Function
+`IsValid` | 798 | Exported Function
+`operator` | 391 | Exported Function
+`Equivalent` | 649 | Exported Function
+`Equivalent` | 646 | Exported Function
+`GetToken` | 734 | Exported Function
+`operator` | 385 | Exported Function
+`operator` | 384 | Exported Function
+`GetRowStatus` | 709 | Exported Function
+`Query` | 869 | Exported Function
+`PreProcess` | 838 | Exported Function
+`PreProcess` | 837 | Exported Function
+`operator` | 383 | Exported Function
+`GetIterator` | 674 | Exported Function
+`SetRight` | 905 | Exported Function
+`SetParent` | 901 | Exported Function
+`SetIterator` | 895 | Exported Function
+`operator` | 382 | Exported Function
+`operator` | 381 | Exported Function
+`operator` | 380 | Exported Function
+`GetPropertyFunction` | 690 | Exported Function
+`GetConstantFunction` | 662 | Exported Function
+`GetOverlappingRange` | 685 | Exported Function
+`Leaf` | 800 | Exported Function
+`Equivalent` | 621 | Exported Function
+`Equivalent` | 618 | Exported Function
+`Root` | 891 | Exported Function
+`GetIntersectingRange` | 673 | Exported Function
+`Initialize` | 780 | Exported Function
+`Initialize` | 779 | Exported Function
+`Initialize` | 778 | Exported Function
+`GetIntersectingRange` | 671 | Exported Function
+`GetOverlappingRange` | 684 | Exported Function
+`GetIntersectingRange` | 672 | Exported Function
+`GetOverlappingRange` | 683 | Exported Function
+`Print` | 856 | Exported Function
+`Print` | 855 | Exported Function
+`Print` | 854 | Exported Function
+`Print` | 857 | Exported Function
+`Print` | 860 | Exported Function
+`Print` | 859 | Exported Function
+`Print` | 858 | Exported Function
+`Print` | 853 | Exported Function
+`Print` | 848 | Exported Function
+`Print` | 847 | Exported Function
+`Print` | 846 | Exported Function
+`Print` | 849 | Exported Function
+`Print` | 852 | Exported Function
+`Print` | 851 | Exported Function
+`Print` | 850 | Exported Function
+`WriteFileAndLine` | 958 | Exported Function
+`WriteA` | 957 | Exported Function
+`Write` | 956 | Exported Function
+`WriteFileAndLine` | 959 | Exported Function
+`WriteW` | 962 | Exported Function
+`WriteFileAndLineW` | 961 | Exported Function
+`WriteFileAndLineA` | 960 | Exported Function
+`SetData` | 894 | Exported Function
+`operator` | 401 | Exported Function
+`GetHandle` | 667 | Exported Function
+`Print` | 861 | Exported Function
+`operator` | 402 | Exported Function
+`GetData` | 663 | Exported Function
+`operator` | 404 | Exported Function
+`operator` | 403 | Exported Function
+`GetStringValue` | 721 | Exported Function
+`GetStringValue` | 720 | Exported Function
+`GetStringValue` | 719 | Exported Function
+`GetStringValue` | 722 | Exported Function
+`GetStringValue` | 726 | Exported Function
+`GetStringValue` | 724 | Exported Function
+`GetStringValue` | 723 | Exported Function
+`GetStringValue` | 718 | Exported Function
+`GetStringValue` | 713 | Exported Function
+`GetStringValue` | 712 | Exported Function
+`GetStringValue` | 711 | Exported Function
+`GetStringValue` | 714 | Exported Function
+`GetStringValue` | 717 | Exported Function
+`GetStringValue` | 716 | Exported Function
+`GetStringValue` | 715 | Exported Function
+`Print` | 841 | Exported Function
+`Print` | 840 | Exported Function
+`Process` | 863 | Exported Function
+`Print` | 842 | Exported Function
+`Print` | 845 | Exported Function
+`Print` | 844 | Exported Function
+`Print` | 843 | Exported Function
+`Complete` | 535 | Exported Function
+`GetStringValue` | 725 | Exported Function
+`GetStringValue` | 728 | Exported Function
+`GetStringValue` | 727 | Exported Function
+`GetStringValue` | 729 | Exported Function
+`GetStringValue` | 732 | Exported Function
+`GetStringValue` | 731 | Exported Function
+`GetStringValue` | 730 | Exported Function
 `public: void __thiscall WmiOperatorEqualOrGreaterNode::``default constructor closure'(void)` | 512 | Exported Function
 `public: void __thiscall WmiOperatorEqualNode::``default constructor closure'(void)` | 511 | Exported Function
 `public: void __thiscall WmiNotNode::``default constructor closure'(void)` | 510 | Exported Function
@@ -335,65 +335,65 @@ Function Name | Ordinal | Type
 `public: void __thiscall WmiOperatorIsANode::``default constructor closure'(void)` | 515 | Exported Function
 `public: void __thiscall WmiOperatorGreaterNode::``default constructor closure'(void)` | 514 | Exported Function
 `public: void __thiscall WmiAndNode::``default constructor closure'(void)` | 509 | Exported Function
-`public: void __thiscall ProvPositiveRangedType::SetStatus(int const &)` | 907 | Exported Function
+`SetStatus` | 907 | Exported Function
 `public: void __thiscall ProvPositiveRangedType::``default constructor closure'(void)` | 508 | Exported Function
 `public: void __thiscall ProvPhysAddressType::``default constructor closure'(void)` | 507 | Exported Function
-`public: void __thiscall ProvPositiveRangeType::SetLowerBound(unsigned long const &)` | 899 | Exported Function
-`public: void __thiscall ProvUInteger32::SetValue(unsigned long)` | 921 | Exported Function
-`public: void __thiscall ProvTimeTicks::SetValue(unsigned long)` | 920 | Exported Function
-`public: void __thiscall ProvPositiveRangeType::SetUpperBound(unsigned long const &)` | 911 | Exported Function
-`public: void __thiscall WmiTreeNode::SetType(unsigned long)` | 909 | Exported Function
-`public: void __thiscall WmiTreeNode::GetRight(class WmiTreeNode * * &)` | 708 | Exported Function
-`public: void __thiscall WmiTreeNode::GetParent(class WmiTreeNode * * &)` | 687 | Exported Function
+`SetLowerBound` | 899 | Exported Function
+`SetValue` | 921 | Exported Function
+`SetValue` | 920 | Exported Function
+`SetUpperBound` | 911 | Exported Function
+`SetType` | 909 | Exported Function
+`GetRight` | 708 | Exported Function
+`GetParent` | 687 | Exported Function
 `unsigned int __stdcall HashKey<unsigned short *>(unsigned short *)` | 2 | Exported Function
 `unsigned short * __stdcall UnicodeStringDuplicate(unsigned short const *)` | 950 | Exported Function
 `unsigned short * __stdcall UnicodeStringAppend(unsigned short const *,unsigned short const *)` | 949 | Exported Function
 `unsigned short * __stdcall DbcsToUnicodeString(char const *)` | 605 | Exported Function
-`public: void __thiscall WmiTreeNode::GetLeft(class WmiTreeNode * * &)` | 677 | Exported Function
+`GetLeft` | 677 | Exported Function
 `public: void __thiscall WmiOperatorNotIsANode::``default constructor closure'(void)` | 519 | Exported Function
 `public: void __thiscall WmiOperatorNotEqualNode::``default constructor closure'(void)` | 518 | Exported Function
 `public: void __thiscall WmiOperatorLikeNode::``default constructor closure'(void)` | 517 | Exported Function
 `public: void __thiscall WmiOperatorNotLikeNode::``default constructor closure'(void)` | 520 | Exported Function
-`public: void __thiscall WmiTreeNode::GetData(void * *)` | 664 | Exported Function
+`GetData` | 664 | Exported Function
 `public: void __thiscall WmiTreeNode::``default constructor closure'(void)` | 522 | Exported Function
 `public: void __thiscall WmiOrNode::``default constructor closure'(void)` | 521 | Exported Function
 `public: void __thiscall ProvDisplayStringType::``default constructor closure'(void)` | 500 | Exported Function
-`public: void __thiscall ProvCounter::SetValue(unsigned long)` | 913 | Exported Function
-`public: void __thiscall ProvCounter64Type::GetValue(unsigned long &,unsigned long &)const ` | 739 | Exported Function
+`SetValue` | 913 | Exported Function
+`GetValue` | 739 | Exported Function
 `public: void __thiscall ProvEventObject::``default constructor closure'(void)` | 501 | Exported Function
-`public: void __thiscall ProvGauge::SetValue(unsigned long)` | 914 | Exported Function
-`public: void __thiscall ProvEventObject::Set(void)` | 893 | Exported Function
-`public: void __thiscall ProvEventObject::Clear(void)` | 528 | Exported Function
-`public: void __thiscall ProvCounter64::SetValue(unsigned long,unsigned long)` | 912 | Exported Function
-`public: void __thiscall PartitionSet::SetPartition(unsigned long,class PartitionSet *)` | 902 | Exported Function
-`public: void __thiscall PartitionSet::SetKeyIndex(unsigned long)` | 896 | Exported Function
-`public: void __thiscall Conjunctions::SetRange(unsigned long,class WmiRangeNode *)` | 903 | Exported Function
-`public: void __thiscall PartitionSet::SetRange(class WmiRangeNode *)` | 904 | Exported Function
-`public: void __thiscall ProvAnalyser::Set(unsigned short const *)` | 892 | Exported Function
-`public: void __thiscall ProvAnalyser::PutBack(class ProvLexicon const *)` | 868 | Exported Function
+`SetValue` | 914 | Exported Function
+`Set` | 893 | Exported Function
+`Clear` | 528 | Exported Function
+`SetValue` | 912 | Exported Function
+`SetPartition` | 902 | Exported Function
+`SetKeyIndex` | 896 | Exported Function
+`SetRange` | 903 | Exported Function
+`SetRange` | 904 | Exported Function
+`Set` | 892 | Exported Function
+`PutBack` | 868 | Exported Function
 `public: void __thiscall ProvAnalyser::``default constructor closure'(void)` | 499 | Exported Function
-`public: void __thiscall ProvObjectIdentifier::SetValue(unsigned long const *,unsigned long)` | 917 | Exported Function
-`public: void __thiscall ProvNegativeRangeType::SetUpperBound(long const &)` | 910 | Exported Function
-`public: void __thiscall ProvNegativeRangeType::SetLowerBound(long const &)` | 898 | Exported Function
-`public: void __thiscall ProvOctetString::SetValue(unsigned char const *,unsigned long)` | 918 | Exported Function
+`SetValue` | 917 | Exported Function
+`SetUpperBound` | 910 | Exported Function
+`SetLowerBound` | 898 | Exported Function
+`SetValue` | 918 | Exported Function
 `public: void __thiscall ProvOpaqueType::``default constructor closure'(void)` | 506 | Exported Function
-`public: void __thiscall ProvOpaque::SetValue(unsigned char const *,unsigned long)` | 919 | Exported Function
+`SetValue` | 919 | Exported Function
 `public: void __thiscall ProvOctetStringType::``default constructor closure'(void)` | 505 | Exported Function
-`public: void __thiscall ProvLexicon::SetToken(enum ProvLexicon::LexiconToken)` | 908 | Exported Function
-`public: void __thiscall ProvInstanceType::SetNull(int)` | 900 | Exported Function
+`LexiconToken` | 908 | Exported Function
+`SetNull` | 900 | Exported Function
 `public: void __thiscall ProvInstanceType::``default constructor closure'(void)` | 503 | Exported Function
 `public: void __thiscall ProvGaugeType::``default constructor closure'(void)` | 502 | Exported Function
-`public: void __thiscall ProvInstanceType::SetStatus(int)` | 906 | Exported Function
-`public: void __thiscall ProvIpAddress::SetValue(unsigned long)` | 916 | Exported Function
+`SetStatus` | 906 | Exported Function
+`SetValue` | 916 | Exported Function
 `public: void __thiscall ProvIntegerType::``default constructor closure'(void)` | 504 | Exported Function
-`public: void __thiscall ProvInteger::SetValue(long)` | 915 | Exported Function
-`public: virtual int __thiscall ProvNullType::IsProvV2CType(void)const ` | 796 | Exported Function
+`SetValue` | 915 | Exported Function
+`IsProvV2CType` | 796 | Exported Function
 `public: virtual __thiscall WmiUnsignedIntegerNode::~WmiUnsignedIntegerNode(void)` | 300 | Exported Function
 `public: virtual __thiscall WmiTreeNodeIterator::~WmiTreeNodeIterator(void)` | 299 | Exported Function
 `public: virtual __thiscall WmiTreeNode::~WmiTreeNode(void)` | 298 | Exported Function
 `public: virtual __thiscall WmiUnsignedIntegerRangeNode::~WmiUnsignedIntegerRangeNode(void)` | 301 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvCounter64Type::Copy(void)const ` | 539 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvBitStringType::Copy(void)const ` | 537 | Exported Function
+`Copy` | 539 | Exported Function
+`Copy` | 537 | Exported Function
 `public: virtual __thiscall WmiValueNode::~WmiValueNode(void)` | 302 | Exported Function
 `public: virtual __thiscall WmiStringRangeNode::~WmiStringRangeNode(void)` | 297 | Exported Function
 `public: virtual __thiscall WmiOrNode::~WmiOrNode(void)` | 292 | Exported Function
@@ -403,21 +403,21 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall WmiStringNode::~WmiStringNode(void)` | 296 | Exported Function
 `public: virtual __thiscall WmiSignedIntegerRangeNode::~WmiSignedIntegerRangeNode(void)` | 295 | Exported Function
 `public: virtual __thiscall WmiSignedIntegerNode::~WmiSignedIntegerNode(void)` | 294 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvIpAddressType::Copy(void)const ` | 554 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvIntegerType::Copy(void)const ` | 552 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvGaugeType::Copy(void)const ` | 550 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvMacAddressType::Copy(void)const ` | 555 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvObjectIdentifierType::Copy(void)const ` | 562 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvNullType::Copy(void)const ` | 559 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvNetworkAddressType::Copy(void)const ` | 557 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvFixedLengthPhysAddressType::Copy(void)const ` | 548 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvDisplayStringType::Copy(void)const ` | 543 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvDateTimeType::Copy(void)const ` | 542 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvCounterType::Copy(void)const ` | 541 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvEnumeratedType::Copy(void)const ` | 544 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvFixedLengthOpaqueType::Copy(void)const ` | 547 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvFixedLengthOctetStringType::Copy(void)const ` | 546 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvFixedLengthDisplayStringType::Copy(void)const ` | 545 | Exported Function
+`Copy` | 554 | Exported Function
+`Copy` | 552 | Exported Function
+`Copy` | 550 | Exported Function
+`Copy` | 555 | Exported Function
+`Copy` | 562 | Exported Function
+`Copy` | 559 | Exported Function
+`Copy` | 557 | Exported Function
+`Copy` | 548 | Exported Function
+`Copy` | 543 | Exported Function
+`Copy` | 542 | Exported Function
+`Copy` | 541 | Exported Function
+`Copy` | 544 | Exported Function
+`Copy` | 547 | Exported Function
+`Copy` | 546 | Exported Function
+`Copy` | 545 | Exported Function
 `public: virtual __thiscall ProvRowStatusType::~ProvRowStatusType(void)` | 270 | Exported Function
 `public: virtual __thiscall ProvPositiveRangeType::~ProvPositiveRangeType(void)` | 268 | Exported Function
 `public: virtual __thiscall ProvPositiveRangedType::~ProvPositiveRangedType(void)` | 269 | Exported Function
@@ -425,7 +425,7 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall ProvUInteger32::~ProvUInteger32(void)` | 274 | Exported Function
 `public: virtual __thiscall ProvUDPAddressType::~ProvUDPAddressType(void)` | 273 | Exported Function
 `public: virtual __thiscall ProvTimeTicksType::~ProvTimeTicksType(void)` | 272 | Exported Function
-`public: virtual __thiscall ProvPositiveRangedType::operator void *(void)` | 395 | Exported Function
+`operator` | 395 | Exported Function
 `public: virtual __thiscall ProvOctetStringType::~ProvOctetStringType(void)` | 264 | Exported Function
 `public: virtual __thiscall ProvOctetString::~ProvOctetString(void)` | 263 | Exported Function
 `public: virtual __thiscall ProvObjectIdentifierType::~ProvObjectIdentifierType(void)` | 262 | Exported Function
@@ -448,188 +448,188 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall WmiOperatorEqualNode::~WmiOperatorEqualNode(void)` | 281 | Exported Function
 `public: virtual __thiscall WmiNullRangeNode::~WmiNullRangeNode(void)` | 280 | Exported Function
 `public: virtual __thiscall WmiNullNode::~WmiNullNode(void)` | 279 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorLikeNode::Copy(void)` | 584 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorLessNode::Copy(void)` | 583 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorIsANode::Copy(void)` | 582 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorNotEqualNode::Copy(void)` | 585 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOrNode::Copy(void)` | 588 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorNotLikeNode::Copy(void)` | 587 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorNotIsANode::Copy(void)` | 586 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorGreaterNode::Copy(void)` | 581 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiNullNode::Copy(void)` | 576 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiNotNode::Copy(void)` | 575 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiAndNode::Copy(void)` | 574 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiNullRangeNode::Copy(void)` | 577 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorEqualOrLessNode::Copy(void)` | 580 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorEqualOrGreaterNode::Copy(void)` | 579 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiOperatorEqualNode::Copy(void)` | 578 | Exported Function
-`public: virtual int __thiscall ProvEventObject::Wait(void)` | 955 | Exported Function
-`public: virtual int __thiscall ProvCounter64Type::IsProvV1Type(void)const ` | 793 | Exported Function
-`public: virtual class WmiTreeNodeIterator * __thiscall WmiTreeNodeIterator::Copy(void)` | 594 | Exported Function
-`public: virtual int __thiscall ProvInstanceType::IsNull(void)const ` | 791 | Exported Function
-`public: virtual int __thiscall ProvInstanceType::IsValid(void)const ` | 797 | Exported Function
-`public: virtual int __thiscall ProvInstanceType::IsProvV2CType(void)const ` | 795 | Exported Function
-`public: virtual int __thiscall ProvInstanceType::IsProvV1Type(void)const ` | 794 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiUnsignedIntegerRangeNode::Copy(void)` | 596 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiStringNode::Copy(void)` | 591 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiSignedIntegerRangeNode::Copy(void)` | 590 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiSignedIntegerNode::Copy(void)` | 589 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiStringRangeNode::Copy(void)` | 592 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiUnsignedIntegerNode::Copy(void)` | 595 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiTreeNode::CopyNode(void)` | 597 | Exported Function
-`public: virtual class WmiTreeNode * __thiscall WmiTreeNode::Copy(void)` | 593 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvCounter::Copy(void)const ` | 540 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvCounter64::Copy(void)const ` | 538 | Exported Function
-`public: virtual class ProvPositiveRangeType * __thiscall ProvPositiveRangeType::Copy(void)` | 568 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvGauge::Copy(void)const ` | 549 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvNull::Copy(void)const ` | 558 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvIpAddress::Copy(void)const ` | 553 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvInteger::Copy(void)const ` | 551 | Exported Function
-`public: virtual class ProvNegativeRangeType * __thiscall ProvNegativeRangeType::Copy(void)` | 556 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvOSIAddressType::Copy(void)const ` | 560 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvOpaqueType::Copy(void)const ` | 566 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvOctetStringType::Copy(void)const ` | 564 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvPhysAddressType::Copy(void)const ` | 567 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvUDPAddressType::Copy(void)const ` | 572 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvTimeTicksType::Copy(void)const ` | 571 | Exported Function
-`public: virtual class ProvInstanceType * __thiscall ProvRowStatusType::Copy(void)const ` | 569 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorLessNode::GetRange(void)` | 701 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorIsANode::GetRange(void)` | 700 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorGreaterNode::GetRange(void)` | 699 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorLikeNode::GetRange(void)` | 702 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorNotLikeNode::GetRange(void)` | 705 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorNotIsANode::GetRange(void)` | 704 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorNotEqualNode::GetRange(void)` | 703 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorEqualOrLessNode::GetRange(void)` | 698 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvOpaque::Copy(void)const ` | 565 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvOctetString::Copy(void)const ` | 563 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvObjectIdentifier::Copy(void)const ` | 561 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvTimeTicks::Copy(void)const ` | 570 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorEqualOrGreaterNode::GetRange(void)` | 697 | Exported Function
-`public: virtual class WmiRangeNode * __thiscall WmiOperatorEqualNode::GetRange(void)` | 696 | Exported Function
-`public: virtual class ProvValue * __thiscall ProvUInteger32::Copy(void)const ` | 573 | Exported Function
-`public: class ProvLexicon & __thiscall ProvLexicon::operator=(class ProvLexicon const &)` | 332 | Exported Function
-`protected: int __thiscall ProvPhysAddressType::Parse(unsigned short const *)` | 833 | Exported Function
-`protected: int __thiscall ProvOSIAddressType::Parse(unsigned short const *)` | 829 | Exported Function
-`protected: int __thiscall ProvOpaqueType::Parse(unsigned short const *)` | 832 | Exported Function
-`protected: int __thiscall ProvPositiveRangedType::Parse(unsigned short const *)` | 834 | Exported Function
-`protected: int __thiscall ProvTimeTicksType::Parse(unsigned short const *)` | 835 | Exported Function
-`protected: int __thiscall ProvPositiveRangedType::RecursiveDef(void)` | 875 | Exported Function
-`protected: int __thiscall ProvPositiveRangedType::RangeDef(void)` | 871 | Exported Function
-`protected: int __thiscall ProvOctetStringType::Parse(unsigned short const *)` | 831 | Exported Function
-`protected: int __thiscall ProvIpAddressType::Parse(unsigned short const *)` | 826 | Exported Function
-`protected: int __thiscall ProvIntegerType::Parse(unsigned short const *)` | 825 | Exported Function
-`protected: int __thiscall ProvGaugeType::Parse(unsigned short const *)` | 824 | Exported Function
-`protected: int __thiscall ProvMacAddressType::Parse(unsigned short const *)` | 827 | Exported Function
-`protected: int __thiscall ProvObjectIdentifierType::Parse(unsigned short const *)` | 830 | Exported Function
-`protected: int __thiscall ProvObjectIdentifier::Equivalent(class ProvObjectIdentifier const &)const ` | 635 | Exported Function
-`protected: int __thiscall ProvNetworkAddressType::Parse(unsigned short const *)` | 828 | Exported Function
-`protected: virtual int __thiscall ProvCounter::Equivalent(class ProvValue const &)const ` | 620 | Exported Function
-`protected: virtual int __thiscall ProvCounter64Type::Equivalent(class ProvInstanceType const &)const ` | 619 | Exported Function
-`protected: virtual int __thiscall ProvCounter64::Equivalent(class ProvValue const &)const ` | 617 | Exported Function
-`protected: virtual int __thiscall ProvCounterType::Equivalent(class ProvInstanceType const &)const ` | 622 | Exported Function
-`protected: virtual int __thiscall ProvInteger::Equivalent(class ProvValue const &)const ` | 626 | Exported Function
-`protected: virtual int __thiscall ProvGaugeType::Equivalent(class ProvInstanceType const &)const ` | 625 | Exported Function
-`protected: virtual int __thiscall ProvGauge::Equivalent(class ProvValue const &)const ` | 623 | Exported Function
-`protected: virtual int __thiscall ProvAnalyser::Analyse(class ProvLexicon *,unsigned long &,unsigned short,unsigned short const *,unsigned long &,int,int,int)` | 525 | Exported Function
-`protected: int __thiscall QueryPreprocessor::RecursiveEvaluate(void *,struct SQL_LEVEL_1_RPN_EXPRESSION &,class WmiTreeNode *,class WmiTreeNode * *,int &)` | 877 | Exported Function
-`protected: int __thiscall QueryPreprocessor::Evaluate(void *,struct SQL_LEVEL_1_RPN_EXPRESSION &,class WmiTreeNode * *)` | 650 | Exported Function
-`protected: int __thiscall ProvUDPAddressType::Parse(unsigned short const *)` | 836 | Exported Function
-`protected: virtual class ProvLexicon * __thiscall ProvAnalyser::CreateLexicon(void)` | 601 | Exported Function
-`protected: virtual enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::InvariantEvaluate(void *,class WmiTreeNode *,class WmiTreeNode *)` | 784 | Exported Function
-`protected: virtual class WmiTreeNode * __thiscall QueryPreprocessor::AllocTypeNode(void *,unsigned short *,struct tagVARIANT &,enum WmiValueNode::WmiValueFunction,enum WmiValueNode::WmiValueFunction,class WmiTreeNode *)` | 524 | Exported Function
-`protected: virtual class WmiRangeNode * __thiscall QueryPreprocessor::AllocInfiniteRangeNode(void *,unsigned short *)` | 523 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::ConvertToRanges(class WmiTreeNode * &)` | 536 | Exported Function
-`protected: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::RemoveNonOverlappingRanges(class WmiTreeNode * &)` | 886 | Exported Function
-`protected: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::RemoveInvariants(void *,class WmiTreeNode * &)` | 885 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::CreateDisjunctionContainer(void *,class WmiTreeNode *,unsigned long,unsigned short * *,class Disjunctions * &)` | 599 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::EvaluateAndExpression(class WmiTreeNode * &)` | 651 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::CreatePartitionSet(class Disjunctions *,class PartitionSet * &)` | 602 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::CreateDisjunctions(void *,class WmiTreeNode *,class Disjunctions *,unsigned long,unsigned short * *,unsigned long &)` | 600 | Exported Function
-`protected: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::RecursiveRemoveNonOverlappingRanges(class WmiTreeNode * &,class WmiTreeNode * &)` | 882 | Exported Function
-`protected: class ProvLexicon * __thiscall ProvPositiveRangedType::Match(enum ProvLexicon::LexiconToken)` | 813 | Exported Function
-`protected: class ProvLexicon * __thiscall ProvPositiveRangedType::Get(void)` | 659 | Exported Function
-`protected: __thiscall ProvValue::ProvValue(void)` | 166 | Exported Function
-`protected: enum ProvObjectIdentifier::Comparison __thiscall ProvObjectIdentifier::Compare(class ProvObjectIdentifier const &,class ProvObjectIdentifier const &)const ` | 532 | Exported Function
-`protected: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::RecursiveRemoveInvariants(void *,class WmiTreeNode * &)` | 881 | Exported Function
-`protected: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::RecursiveDisjunctiveNormalForm(class WmiTreeNode * &)` | 876 | Exported Function
-`protected: enum QueryPreprocessor::QuadState __thiscall QueryPreprocessor::DisjunctiveNormalForm(class WmiTreeNode * &)` | 614 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::Sort(class WmiTreeNode * &)` | 922 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::RemoveOverlaps(unsigned long *,unsigned long,unsigned long *,unsigned long *,class WmiRangeNode * *)` | 887 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::RecursiveSortConditionals(class WmiTreeNode * &,class WmiTreeNode * &)` | 884 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::SortConditionals(class WmiTreeNode * &)` | 923 | Exported Function
-`protected: int __thiscall ProvFixedLengthPhysAddressType::Parse(unsigned short const *)` | 823 | Exported Function
-`protected: int __thiscall ProvCounterType::Parse(unsigned short const *)` | 820 | Exported Function
-`protected: int __thiscall ProvCounter64Type::Parse(unsigned short const *)` | 819 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::RecursiveSort(class WmiTreeNode * &)` | 883 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::EvaluateOrExpression(class WmiTreeNode * &)` | 654 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::EvaluateNotExpression(class WmiTreeNode * &)` | 653 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::EvaluateNotEqualExpression(class WmiTreeNode * &)` | 652 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::InsertNode(class WmiTreeNode * &,class WmiTreeNode * &)` | 783 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::RecursivePartitionSet(class Disjunctions *,class PartitionSet * &,unsigned long,unsigned long *,unsigned long)` | 879 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::RecursiveInsertNode(class WmiTreeNode * &,class WmiTreeNode * &)` | 878 | Exported Function
-`protected: enum WmiTriState __thiscall QueryPreprocessor::RecursiveConvertToRanges(class WmiTreeNode * &)` | 872 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorIsAExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 938 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorGreaterExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 937 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorEqualOrLessExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 936 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorLessExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 939 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorNotIsAExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 942 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorNotEqualExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 941 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorLikeExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 940 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorEqualOrGreaterExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 935 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNonIntersectingRange(class WmiTreeNode * &,class WmiTreeNode *)` | 930 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformIntersectingRange(class WmiTreeNode * &,class WmiTreeNode *,class WmiTreeNode *)` | 929 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformAndTrueEvaluation(class WmiTreeNode * &,class WmiTreeNode *)` | 928 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotAndExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 931 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorEqualExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 934 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotNotExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 933 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotEqualExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 932 | Exported Function
-`public: __thiscall Disjunctions::Disjunctions(unsigned long,unsigned long)` | 7 | Exported Function
+`Copy` | 584 | Exported Function
+`Copy` | 583 | Exported Function
+`Copy` | 582 | Exported Function
+`Copy` | 585 | Exported Function
+`Copy` | 588 | Exported Function
+`Copy` | 587 | Exported Function
+`Copy` | 586 | Exported Function
+`Copy` | 581 | Exported Function
+`Copy` | 576 | Exported Function
+`Copy` | 575 | Exported Function
+`Copy` | 574 | Exported Function
+`Copy` | 577 | Exported Function
+`Copy` | 580 | Exported Function
+`Copy` | 579 | Exported Function
+`Copy` | 578 | Exported Function
+`Wait` | 955 | Exported Function
+`IsProvV1Type` | 793 | Exported Function
+`Copy` | 594 | Exported Function
+`IsNull` | 791 | Exported Function
+`IsValid` | 797 | Exported Function
+`IsProvV2CType` | 795 | Exported Function
+`IsProvV1Type` | 794 | Exported Function
+`Copy` | 596 | Exported Function
+`Copy` | 591 | Exported Function
+`Copy` | 590 | Exported Function
+`Copy` | 589 | Exported Function
+`Copy` | 592 | Exported Function
+`Copy` | 595 | Exported Function
+`CopyNode` | 597 | Exported Function
+`Copy` | 593 | Exported Function
+`Copy` | 540 | Exported Function
+`Copy` | 538 | Exported Function
+`Copy` | 568 | Exported Function
+`Copy` | 549 | Exported Function
+`Copy` | 558 | Exported Function
+`Copy` | 553 | Exported Function
+`Copy` | 551 | Exported Function
+`Copy` | 556 | Exported Function
+`Copy` | 560 | Exported Function
+`Copy` | 566 | Exported Function
+`Copy` | 564 | Exported Function
+`Copy` | 567 | Exported Function
+`Copy` | 572 | Exported Function
+`Copy` | 571 | Exported Function
+`Copy` | 569 | Exported Function
+`GetRange` | 701 | Exported Function
+`GetRange` | 700 | Exported Function
+`GetRange` | 699 | Exported Function
+`GetRange` | 702 | Exported Function
+`GetRange` | 705 | Exported Function
+`GetRange` | 704 | Exported Function
+`GetRange` | 703 | Exported Function
+`GetRange` | 698 | Exported Function
+`Copy` | 565 | Exported Function
+`Copy` | 563 | Exported Function
+`Copy` | 561 | Exported Function
+`Copy` | 570 | Exported Function
+`GetRange` | 697 | Exported Function
+`GetRange` | 696 | Exported Function
+`Copy` | 573 | Exported Function
+`operator` | 332 | Exported Function
+`Parse` | 833 | Exported Function
+`Parse` | 829 | Exported Function
+`Parse` | 832 | Exported Function
+`Parse` | 834 | Exported Function
+`Parse` | 835 | Exported Function
+`RecursiveDef` | 875 | Exported Function
+`RangeDef` | 871 | Exported Function
+`Parse` | 831 | Exported Function
+`Parse` | 826 | Exported Function
+`Parse` | 825 | Exported Function
+`Parse` | 824 | Exported Function
+`Parse` | 827 | Exported Function
+`Parse` | 830 | Exported Function
+`Equivalent` | 635 | Exported Function
+`Parse` | 828 | Exported Function
+`Equivalent` | 620 | Exported Function
+`Equivalent` | 619 | Exported Function
+`Equivalent` | 617 | Exported Function
+`Equivalent` | 622 | Exported Function
+`Equivalent` | 626 | Exported Function
+`Equivalent` | 625 | Exported Function
+`Equivalent` | 623 | Exported Function
+`Analyse` | 525 | Exported Function
+`RecursiveEvaluate` | 877 | Exported Function
+`Evaluate` | 650 | Exported Function
+`Parse` | 836 | Exported Function
+`CreateLexicon` | 601 | Exported Function
+`InvariantEvaluate` | 784 | Exported Function
+`WmiValueFunction` | 524 | Exported Function
+`AllocInfiniteRangeNode` | 523 | Exported Function
+`ConvertToRanges` | 536 | Exported Function
+`RemoveNonOverlappingRanges` | 886 | Exported Function
+`RemoveInvariants` | 885 | Exported Function
+`CreateDisjunctionContainer` | 599 | Exported Function
+`EvaluateAndExpression` | 651 | Exported Function
+`CreatePartitionSet` | 602 | Exported Function
+`CreateDisjunctions` | 600 | Exported Function
+`RecursiveRemoveNonOverlappingRanges` | 882 | Exported Function
+`LexiconToken` | 813 | Exported Function
+`Get` | 659 | Exported Function
+`ProvValue` | 166 | Exported Function
+`Compare` | 532 | Exported Function
+`RecursiveRemoveInvariants` | 881 | Exported Function
+`RecursiveDisjunctiveNormalForm` | 876 | Exported Function
+`DisjunctiveNormalForm` | 614 | Exported Function
+`Sort` | 922 | Exported Function
+`RemoveOverlaps` | 887 | Exported Function
+`RecursiveSortConditionals` | 884 | Exported Function
+`SortConditionals` | 923 | Exported Function
+`Parse` | 823 | Exported Function
+`Parse` | 820 | Exported Function
+`Parse` | 819 | Exported Function
+`RecursiveSort` | 883 | Exported Function
+`EvaluateOrExpression` | 654 | Exported Function
+`EvaluateNotExpression` | 653 | Exported Function
+`EvaluateNotEqualExpression` | 652 | Exported Function
+`InsertNode` | 783 | Exported Function
+`RecursivePartitionSet` | 879 | Exported Function
+`RecursiveInsertNode` | 878 | Exported Function
+`RecursiveConvertToRanges` | 872 | Exported Function
+`TransformNotOperatorIsAExpression` | 938 | Exported Function
+`TransformNotOperatorGreaterExpression` | 937 | Exported Function
+`TransformNotOperatorEqualOrLessExpression` | 936 | Exported Function
+`TransformNotOperatorLessExpression` | 939 | Exported Function
+`TransformNotOperatorNotIsAExpression` | 942 | Exported Function
+`TransformNotOperatorNotEqualExpression` | 941 | Exported Function
+`TransformNotOperatorLikeExpression` | 940 | Exported Function
+`TransformNotOperatorEqualOrGreaterExpression` | 935 | Exported Function
+`TransformNonIntersectingRange` | 930 | Exported Function
+`TransformIntersectingRange` | 929 | Exported Function
+`TransformAndTrueEvaluation` | 928 | Exported Function
+`TransformNotAndExpression` | 931 | Exported Function
+`TransformNotOperatorEqualExpression` | 934 | Exported Function
+`TransformNotNotExpression` | 933 | Exported Function
+`TransformNotEqualExpression` | 932 | Exported Function
+`Disjunctions` | 7 | Exported Function
 `public: __thiscall Conjunctions::~Conjunctions(void)` | 229 | Exported Function
-`public: __thiscall Conjunctions::Conjunctions(unsigned long)` | 6 | Exported Function
+`Conjunctions` | 6 | Exported Function
 `public: __thiscall Disjunctions::~Disjunctions(void)` | 230 | Exported Function
-`public: __thiscall ProvAnalyser::ProvAnalyser(class ProvAnalyser const &)` | 10 | Exported Function
-`public: __thiscall PartitionSet::PartitionSet(void)` | 9 | Exported Function
-`public: __thiscall PartitionSet::PartitionSet(class PartitionSet const &)` | 8 | Exported Function
+`ProvAnalyser` | 10 | Exported Function
+`PartitionSet` | 9 | Exported Function
+`PartitionSet` | 8 | Exported Function
 `public: __thiscall CBString::~CBString(void)` | 228 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformOperatorToRange(class WmiTreeNode * &)` | 945 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOrExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 944 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformNotOperatorNotLikeExpression(class WmiTreeNode * &,class WmiTreeNode *)` | 943 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformOrFalseEvaluation(class WmiTreeNode * &,class WmiTreeNode *)` | 946 | Exported Function
-`public: __thiscall CBString::CBString(void)` | 5 | Exported Function
-`public: __thiscall CBString::CBString(unsigned short const *)` | 4 | Exported Function
-`public: __thiscall CBString::CBString(int)` | 3 | Exported Function
-`protected: virtual int __thiscall ProvOpaque::Equivalent(class ProvValue const &)const ` | 642 | Exported Function
-`protected: virtual int __thiscall ProvOctetStringType::Equivalent(class ProvInstanceType const &)const ` | 641 | Exported Function
-`protected: virtual int __thiscall ProvOctetString::Equivalent(class ProvValue const &)const ` | 639 | Exported Function
-`protected: virtual int __thiscall ProvOpaqueType::Equivalent(class ProvInstanceType const &)const ` | 644 | Exported Function
-`protected: virtual int __thiscall ProvUInteger32::Equivalent(class ProvValue const &)const ` | 648 | Exported Function
-`protected: virtual int __thiscall ProvTimeTicksType::Equivalent(class ProvInstanceType const &)const ` | 647 | Exported Function
-`protected: virtual int __thiscall ProvTimeTicks::Equivalent(class ProvValue const &)const ` | 645 | Exported Function
-`protected: virtual int __thiscall ProvObjectIdentifierType::Equivalent(class ProvInstanceType const &)const ` | 638 | Exported Function
-`protected: virtual int __thiscall ProvIpAddressType::Equivalent(class ProvInstanceType const &)const ` | 631 | Exported Function
-`protected: virtual int __thiscall ProvIpAddress::Equivalent(class ProvValue const &)const ` | 629 | Exported Function
-`protected: virtual int __thiscall ProvIntegerType::Equivalent(class ProvInstanceType const &)const ` | 628 | Exported Function
-`protected: virtual int __thiscall ProvNetworkAddressType::Equivalent(class ProvInstanceType const &)const ` | 632 | Exported Function
-`protected: virtual int __thiscall ProvObjectIdentifier::Equivalent(class ProvValue const &)const ` | 636 | Exported Function
-`protected: virtual int __thiscall ProvNullType::Equivalent(class ProvInstanceType const &)const ` | 634 | Exported Function
-`protected: virtual int __thiscall ProvNull::Equivalent(class ProvValue const &)const ` | 633 | Exported Function
-`protected: void __thiscall QueryPreprocessor::PrintTree(class WmiTreeNode *)` | 862 | Exported Function
-`protected: void __thiscall QueryPreprocessor::CountDisjunctions(class WmiTreeNode *,unsigned long &)` | 598 | Exported Function
-`protected: void __thiscall ProvPositiveRangedType::PushBack(void)` | 867 | Exported Function
-`protected: void __thiscall QueryPreprocessor::QuickSort(class WmiRangeNode * *,unsigned long *,unsigned long)` | 870 | Exported Function
-`protected: void __thiscall QueryPreprocessor::TransformAndOrExpression(class WmiTreeNode * &,class WmiTreeNode *,class WmiTreeNode *)` | 927 | Exported Function
-`protected: void __thiscall QueryPreprocessor::SortRanges(unsigned long,unsigned long *,class WmiRangeNode * *)` | 924 | Exported Function
-`protected: void __thiscall QueryPreprocessor::RecursiveQuickSort(class WmiRangeNode * *,unsigned long *,unsigned long,unsigned long)` | 880 | Exported Function
-`protected: virtual void __thiscall ProvOctetString::UnReplicate(unsigned char *)` | 948 | Exported Function
-`protected: virtual unsigned long * __thiscall ProvObjectIdentifier::Replicate(unsigned long const *,unsigned long,unsigned long const *,unsigned long)const ` | 888 | Exported Function
-`protected: virtual unsigned long * __thiscall ProvObjectIdentifier::Replicate(unsigned long const *,unsigned long)const ` | 889 | Exported Function
-`protected: virtual unsigned char * __thiscall ProvOctetString::Replicate(unsigned char const *,unsigned long)` | 890 | Exported Function
-`protected: virtual void __thiscall ProvAnalyser::Initialise(void)` | 777 | Exported Function
-`protected: virtual void __thiscall ProvOctetString::Initialize(unsigned char const *,unsigned long)` | 782 | Exported Function
-`protected: virtual void __thiscall ProvObjectIdentifier::UnReplicate(unsigned long *)` | 947 | Exported Function
-`protected: virtual void __thiscall ProvObjectIdentifier::Initialize(unsigned long const *,unsigned long)` | 781 | Exported Function
-`protected: __thiscall ProvInstanceType::ProvInstanceType(int,int)` | 74 | Exported Function
+`TransformOperatorToRange` | 945 | Exported Function
+`TransformNotOrExpression` | 944 | Exported Function
+`TransformNotOperatorNotLikeExpression` | 943 | Exported Function
+`TransformOrFalseEvaluation` | 946 | Exported Function
+`CBString` | 5 | Exported Function
+`CBString` | 4 | Exported Function
+`CBString` | 3 | Exported Function
+`Equivalent` | 642 | Exported Function
+`Equivalent` | 641 | Exported Function
+`Equivalent` | 639 | Exported Function
+`Equivalent` | 644 | Exported Function
+`Equivalent` | 648 | Exported Function
+`Equivalent` | 647 | Exported Function
+`Equivalent` | 645 | Exported Function
+`Equivalent` | 638 | Exported Function
+`Equivalent` | 631 | Exported Function
+`Equivalent` | 629 | Exported Function
+`Equivalent` | 628 | Exported Function
+`Equivalent` | 632 | Exported Function
+`Equivalent` | 636 | Exported Function
+`Equivalent` | 634 | Exported Function
+`Equivalent` | 633 | Exported Function
+`PrintTree` | 862 | Exported Function
+`CountDisjunctions` | 598 | Exported Function
+`PushBack` | 867 | Exported Function
+`QuickSort` | 870 | Exported Function
+`TransformAndOrExpression` | 927 | Exported Function
+`SortRanges` | 924 | Exported Function
+`RecursiveQuickSort` | 880 | Exported Function
+`UnReplicate` | 948 | Exported Function
+`Replicate` | 888 | Exported Function
+`Replicate` | 889 | Exported Function
+`Replicate` | 890 | Exported Function
+`Initialise` | 777 | Exported Function
+`Initialize` | 782 | Exported Function
+`UnReplicate` | 947 | Exported Function
+`Initialize` | 781 | Exported Function
+`ProvInstanceType` | 74 | Exported Function
 `const ProvMacAddressType::``vftable'{for ``ProvPositiveRangedType'}` | 444 | Exported Function
 `const ProvMacAddressType::``vftable'{for ``ProvInstanceType'}` | 443 | Exported Function
 `const ProvMacAddressType::``vftable'` | 442 | Exported Function
@@ -690,36 +690,36 @@ Function Name | Ordinal | Type
 `const ProvFixedLengthOctetStringType::``vftable'{for ``ProvPositiveRangedType'}` | 425 | Exported Function
 `const ProvFixedLengthOctetStringType::``vftable'{for ``ProvInstanceType'}` | 424 | Exported Function
 `const ProvFixedLengthOctetStringType::``vftable'` | 423 | Exported Function
-`private: class ProvLexicon * __thiscall ProvDateTimeType::Get(void)` | 657 | Exported Function
-`private: class ProvLexicon * __thiscall ProvBitStringType::Match(enum ProvLexicon::LexiconToken)` | 810 | Exported Function
-`private: class ProvLexicon * __thiscall ProvBitStringType::Get(void)` | 656 | Exported Function
-`private: class ProvLexicon * __thiscall ProvDateTimeType::Match(enum ProvLexicon::LexiconToken)` | 811 | Exported Function
-`private: class ProvValue & __thiscall ProvValue::operator=(class ProvValue const &)` | 353 | Exported Function
-`private: class ProvLexicon * __thiscall ProvEnumeratedType::Match(enum ProvLexicon::LexiconToken)` | 812 | Exported Function
-`private: class ProvLexicon * __thiscall ProvEnumeratedType::Get(void)` | 658 | Exported Function
-`private: class ProvLexicon * __thiscall ProvAnalyser::GetToken(int,int,int)` | 733 | Exported Function
+`Get` | 657 | Exported Function
+`LexiconToken` | 810 | Exported Function
+`Get` | 656 | Exported Function
+`LexiconToken` | 811 | Exported Function
+`operator` | 353 | Exported Function
+`LexiconToken` | 812 | Exported Function
+`Get` | 658 | Exported Function
+`GetToken` | 733 | Exported Function
 `const WmiUnsignedIntegerNode::``vftable'` | 496 | Exported Function
 `const WmiTreeNodeIterator::``vftable'` | 495 | Exported Function
 `const WmiTreeNode::``vftable'` | 494 | Exported Function
 `const WmiUnsignedIntegerRangeNode::``vftable'` | 497 | Exported Function
-`private: __thiscall ProvValue::ProvValue(class ProvValue const &)` | 165 | Exported Function
+`ProvValue` | 165 | Exported Function
 `int __stdcall CompareElements<unsigned short *,unsigned short *>(unsigned short * const *,unsigned short * const *)` | 1 | Exported Function
 `const WmiValueNode::``vftable'` | 498 | Exported Function
-`private: void __thiscall ProvDateTimeType::PushBack(void)` | 865 | Exported Function
-`private: void __thiscall ProvDateTimeType::Encode(unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &,unsigned long const &)` | 615 | Exported Function
-`private: void __thiscall ProvBitStringType::PushBack(void)` | 864 | Exported Function
-`private: void __thiscall ProvEnumeratedType::PushBack(void)` | 866 | Exported Function
-`protected: __thiscall ProvInstanceType::ProvInstanceType(class ProvInstanceType const &)` | 73 | Exported Function
-`private: void __thiscall ProvOctetString::OverWrite(unsigned char const *)` | 817 | Exported Function
-`private: void __thiscall ProvObjectIdentifier::OverWrite(unsigned long const *)` | 816 | Exported Function
-`private: int __thiscall ProvEnumeratedType::RecursiveDef(void)` | 874 | Exported Function
-`private: int __thiscall ProvBitStringType::RecursiveDef(void)` | 873 | Exported Function
-`private: int __thiscall ProvBitStringType::Parse(unsigned short const *)` | 818 | Exported Function
-`private: int __thiscall ProvBitStringType::BitStringDef(void)` | 526 | Exported Function
-`private: int __thiscall ProvDateTimeType::DateTimeDef(void)` | 604 | Exported Function
-`private: int __thiscall ProvEnumeratedType::Parse(unsigned short const *)` | 822 | Exported Function
-`private: int __thiscall ProvEnumeratedType::EnumerationDef(void)` | 616 | Exported Function
-`private: int __thiscall ProvDateTimeType::Parse(unsigned short const *)` | 821 | Exported Function
+`PushBack` | 865 | Exported Function
+`Encode` | 615 | Exported Function
+`PushBack` | 864 | Exported Function
+`PushBack` | 866 | Exported Function
+`ProvInstanceType` | 73 | Exported Function
+`OverWrite` | 817 | Exported Function
+`OverWrite` | 816 | Exported Function
+`RecursiveDef` | 874 | Exported Function
+`RecursiveDef` | 873 | Exported Function
+`Parse` | 818 | Exported Function
+`BitStringDef` | 526 | Exported Function
+`DateTimeDef` | 604 | Exported Function
+`Parse` | 822 | Exported Function
+`EnumerationDef` | 616 | Exported Function
+`Parse` | 821 | Exported Function
 `const WmiNotNode::``vftable'` | 474 | Exported Function
 `const WmiAndNode::``vftable'` | 473 | Exported Function
 `const QueryPreprocessor::``vftable'` | 472 | Exported Function
@@ -750,247 +750,247 @@ Function Name | Ordinal | Type
 `const WmiOperatorNotEqualNode::``vftable'` | 485 | Exported Function
 `const WmiOperatorNode::``vftable'` | 484 | Exported Function
 `const WmiOperatorLikeNode::``vftable'` | 483 | Exported Function
-`public: __thiscall WmiNullNode::WmiNullNode(unsigned short *,unsigned long,class WmiTreeNode *)` | 175 | Exported Function
-`public: __thiscall WmiNullNode::WmiNullNode(class WmiNullNode const &)` | 174 | Exported Function
-`public: __thiscall WmiNullNode::WmiNullNode(class WmiNullNode &&)` | 173 | Exported Function
-`public: __thiscall WmiNullRangeNode::WmiNullRangeNode(class WmiNullRangeNode const &)` | 176 | Exported Function
-`public: __thiscall WmiOperatorEqualNode::WmiOperatorEqualNode(class WmiTreeNode *,class WmiTreeNode *)` | 179 | Exported Function
-`public: __thiscall WmiOperatorEqualNode::WmiOperatorEqualNode(class WmiOperatorEqualNode const &)` | 178 | Exported Function
-`public: __thiscall WmiNullRangeNode::WmiNullRangeNode(unsigned short *,unsigned long,class WmiTreeNode *,class WmiTreeNode *)` | 177 | Exported Function
-`public: __thiscall WmiNotNode::WmiNotNode(class WmiTreeNode *,class WmiTreeNode *)` | 172 | Exported Function
-`public: __thiscall QueryPreprocessor::QueryPreprocessor(class QueryPreprocessor const &)` | 167 | Exported Function
-`public: __thiscall ProvUInteger32::ProvUInteger32(long)` | 164 | Exported Function
-`public: __thiscall ProvUInteger32::ProvUInteger32(class ProvUInteger32 const &)` | 163 | Exported Function
-`public: __thiscall QueryPreprocessor::QueryPreprocessor(void)` | 168 | Exported Function
-`public: __thiscall WmiNotNode::WmiNotNode(class WmiNotNode const &)` | 171 | Exported Function
-`public: __thiscall WmiAndNode::WmiAndNode(class WmiTreeNode *,class WmiTreeNode *,class WmiTreeNode *)` | 170 | Exported Function
-`public: __thiscall WmiAndNode::WmiAndNode(class WmiAndNode const &)` | 169 | Exported Function
-`public: __thiscall WmiOperatorLikeNode::WmiOperatorLikeNode(class WmiOperatorLikeNode const &)` | 190 | Exported Function
-`public: __thiscall WmiOperatorLessNode::WmiOperatorLessNode(class WmiTreeNode *,class WmiTreeNode *)` | 189 | Exported Function
-`public: __thiscall WmiOperatorLessNode::WmiOperatorLessNode(class WmiOperatorLessNode const &)` | 188 | Exported Function
-`public: __thiscall WmiOperatorLikeNode::WmiOperatorLikeNode(class WmiTreeNode *,class WmiTreeNode *)` | 191 | Exported Function
-`public: __thiscall WmiOperatorNotEqualNode::WmiOperatorNotEqualNode(class WmiOperatorNotEqualNode const &)` | 194 | Exported Function
-`public: __thiscall WmiOperatorNode::WmiOperatorNode(unsigned long,class WmiTreeNode *,class WmiTreeNode *)` | 193 | Exported Function
-`public: __thiscall WmiOperatorNode::WmiOperatorNode(class WmiOperatorNode const &)` | 192 | Exported Function
-`public: __thiscall WmiOperatorIsANode::WmiOperatorIsANode(class WmiTreeNode *,class WmiTreeNode *)` | 187 | Exported Function
-`public: __thiscall WmiOperatorEqualOrLessNode::WmiOperatorEqualOrLessNode(class WmiOperatorEqualOrLessNode const &)` | 182 | Exported Function
-`public: __thiscall WmiOperatorEqualOrGreaterNode::WmiOperatorEqualOrGreaterNode(class WmiTreeNode *,class WmiTreeNode *)` | 181 | Exported Function
-`public: __thiscall WmiOperatorEqualOrGreaterNode::WmiOperatorEqualOrGreaterNode(class WmiOperatorEqualOrGreaterNode const &)` | 180 | Exported Function
-`public: __thiscall WmiOperatorEqualOrLessNode::WmiOperatorEqualOrLessNode(class WmiTreeNode *,class WmiTreeNode *)` | 183 | Exported Function
-`public: __thiscall WmiOperatorIsANode::WmiOperatorIsANode(class WmiOperatorIsANode const &)` | 186 | Exported Function
-`public: __thiscall WmiOperatorGreaterNode::WmiOperatorGreaterNode(class WmiTreeNode *,class WmiTreeNode *)` | 185 | Exported Function
-`public: __thiscall WmiOperatorGreaterNode::WmiOperatorGreaterNode(class WmiOperatorGreaterNode const &)` | 184 | Exported Function
-`public: __thiscall ProvPositiveRangeType::ProvPositiveRangeType(unsigned long,long)` | 141 | Exported Function
-`public: __thiscall ProvPositiveRangeType::ProvPositiveRangeType(class ProvPositiveRangeType const &)` | 140 | Exported Function
-`public: __thiscall ProvPositiveRangedType::ProvPositiveRangedType(unsigned short const *)` | 144 | Exported Function
-`public: __thiscall ProvPositiveRangeType::ProvPositiveRangeType(void)` | 142 | Exported Function
-`public: __thiscall ProvRowStatusType::ProvRowStatusType(enum ProvRowStatusType::ProvRowStatusEnum const &)` | 148 | Exported Function
-`public: __thiscall ProvRowStatusType::ProvRowStatusType(class ProvRowStatusType const &)` | 146 | Exported Function
-`public: __thiscall ProvRowStatusType::ProvRowStatusType(class ProvInteger const &)` | 147 | Exported Function
-`public: __thiscall ProvPositiveRangedType::ProvPositiveRangedType(class ProvPositiveRangedType const &)` | 143 | Exported Function
-`public: __thiscall ProvPhysAddressType::ProvPhysAddressType(class ProvOctetString const &,unsigned short const *)` | 136 | Exported Function
-`public: __thiscall ProvOSIAddressType::ProvOSIAddressType(void)` | 112 | Exported Function
-`public: __thiscall ProvOSIAddressType::ProvOSIAddressType(unsigned short const *)` | 111 | Exported Function
-`public: __thiscall ProvPhysAddressType::ProvPhysAddressType(class ProvPhysAddressType const &)` | 135 | Exported Function
-`public: __thiscall ProvPhysAddressType::ProvPhysAddressType(unsigned short const *,unsigned short const *)` | 138 | Exported Function
-`public: __thiscall ProvPhysAddressType::ProvPhysAddressType(unsigned short const *)` | 139 | Exported Function
-`public: __thiscall ProvPhysAddressType::ProvPhysAddressType(unsigned char const *,unsigned long,unsigned short const *)` | 137 | Exported Function
-`public: __thiscall ProvUDPAddressType::ProvUDPAddressType(class ProvOctetString const &)` | 159 | Exported Function
-`public: __thiscall ProvTimeTicksType::ProvTimeTicksType(void)` | 157 | Exported Function
-`public: __thiscall ProvTimeTicksType::ProvTimeTicksType(unsigned short const *)` | 156 | Exported Function
-`public: __thiscall ProvUDPAddressType::ProvUDPAddressType(class ProvUDPAddressType const &)` | 158 | Exported Function
-`public: __thiscall ProvUDPAddressType::ProvUDPAddressType(void)` | 162 | Exported Function
-`public: __thiscall ProvUDPAddressType::ProvUDPAddressType(unsigned short const *)` | 161 | Exported Function
-`public: __thiscall ProvUDPAddressType::ProvUDPAddressType(unsigned char const *)` | 160 | Exported Function
-`public: __thiscall ProvTimeTicksType::ProvTimeTicksType(unsigned long)` | 155 | Exported Function
-`public: __thiscall ProvRowStatusType::ProvRowStatusType(void)` | 150 | Exported Function
-`public: __thiscall ProvRowStatusType::ProvRowStatusType(unsigned short const *)` | 149 | Exported Function
-`public: __thiscall ProvRowStatusType::ProvRowStatusType(long const &)` | 145 | Exported Function
-`public: __thiscall ProvTimeTicks::ProvTimeTicks(class ProvTimeTicks const &)` | 151 | Exported Function
-`public: __thiscall ProvTimeTicksType::ProvTimeTicksType(class ProvTimeTicksType const &)` | 153 | Exported Function
-`public: __thiscall ProvTimeTicksType::ProvTimeTicksType(class ProvTimeTicks const &)` | 154 | Exported Function
-`public: __thiscall ProvTimeTicks::ProvTimeTicks(unsigned long)` | 152 | Exported Function
-`public: class PartitionSet * __thiscall PartitionSet::GetPartition(unsigned long)` | 688 | Exported Function
-`public: class PartitionSet & __thiscall PartitionSet::operator=(class PartitionSet const &)` | 307 | Exported Function
-`public: class Disjunctions & __thiscall Disjunctions::operator=(class Disjunctions const &)` | 306 | Exported Function
-`public: class ProvAnalyser & __thiscall ProvAnalyser::operator=(class ProvAnalyser const &)` | 308 | Exported Function
-`public: class ProvCounterType & __thiscall ProvCounterType::operator=(class ProvCounterType const &)` | 313 | Exported Function
-`public: class ProvCounter64Type & __thiscall ProvCounter64Type::operator=(class ProvCounter64Type const &)` | 311 | Exported Function
-`public: class ProvBitStringType & __thiscall ProvBitStringType::operator=(class ProvBitStringType const &)` | 309 | Exported Function
-`public: class Conjunctions * __thiscall Disjunctions::GetDisjunction(unsigned long)` | 665 | Exported Function
-`public: __thiscall WmiValueNode::WmiValueNode(unsigned long,unsigned short *,enum WmiValueNode::WmiValueFunction,enum WmiValueNode::WmiValueFunction,unsigned long,class WmiTreeNode *)` | 227 | Exported Function
-`public: __thiscall WmiValueNode::WmiValueNode(class WmiValueNode const &)` | 226 | Exported Function
-`public: __thiscall WmiUnsignedIntegerRangeNode::WmiUnsignedIntegerRangeNode(unsigned short *,unsigned long,int,int,int,int,unsigned long,unsigned long,class WmiTreeNode *,class WmiTreeNode *)` | 225 | Exported Function
-`public: char * __thiscall ProvObjectIdentifier::GetAllocatedString(void)const ` | 660 | Exported Function
-`public: class Conjunctions & __thiscall Conjunctions::operator=(class Conjunctions const &)` | 305 | Exported Function
-`public: class CBString const & __thiscall CBString::operator=(unsigned short const *)` | 304 | Exported Function
-`public: class CBString & __thiscall CBString::operator=(class CBString const &)` | 303 | Exported Function
-`public: class ProvFixedType & __thiscall ProvFixedType::operator=(class ProvFixedType const &)` | 324 | Exported Function
-`public: class ProvFixedLengthPhysAddressType & __thiscall ProvFixedLengthPhysAddressType::operator=(class ProvFixedLengthPhysAddressType const &)` | 323 | Exported Function
-`public: class ProvFixedLengthOpaqueType & __thiscall ProvFixedLengthOpaqueType::operator=(class ProvFixedLengthOpaqueType const &)` | 322 | Exported Function
-`public: class ProvGaugeType & __thiscall ProvGaugeType::operator=(class ProvGaugeType const &)` | 326 | Exported Function
-`public: class ProvIpAddressType & __thiscall ProvIpAddressType::operator=(class ProvIpAddressType const &)` | 331 | Exported Function
-`public: class ProvIntegerType & __thiscall ProvIntegerType::operator=(class ProvIntegerType const &)` | 329 | Exported Function
-`public: class ProvInstanceType & __thiscall ProvInstanceType::operator=(class ProvInstanceType const &)` | 327 | Exported Function
-`public: class ProvFixedLengthOctetStringType & __thiscall ProvFixedLengthOctetStringType::operator=(class ProvFixedLengthOctetStringType const &)` | 321 | Exported Function
-`public: class ProvDebugLog & __thiscall ProvDebugLog::operator=(class ProvDebugLog const &)` | 316 | Exported Function
-`public: class ProvDebugLog & __thiscall ProvDebugLog::operator=(class ProvDebugLog &&)` | 315 | Exported Function
-`public: class ProvDateTimeType & __thiscall ProvDateTimeType::operator=(class ProvDateTimeType const &)` | 314 | Exported Function
-`public: class ProvDisplayStringType & __thiscall ProvDisplayStringType::operator=(class ProvDisplayStringType const &)` | 317 | Exported Function
-`public: class ProvFixedLengthDisplayStringType & __thiscall ProvFixedLengthDisplayStringType::operator=(class ProvFixedLengthDisplayStringType const &)` | 320 | Exported Function
-`public: class ProvEventObject & __thiscall ProvEventObject::operator=(class ProvEventObject const &)` | 319 | Exported Function
-`public: class ProvEnumeratedType & __thiscall ProvEnumeratedType::operator=(class ProvEnumeratedType const &)` | 318 | Exported Function
-`public: __thiscall WmiSignedIntegerNode::WmiSignedIntegerNode(class WmiSignedIntegerNode const &)` | 205 | Exported Function
-`public: __thiscall WmiSignedIntegerNode::WmiSignedIntegerNode(class WmiSignedIntegerNode &&)` | 204 | Exported Function
-`public: __thiscall WmiRangeNode::WmiRangeNode(unsigned long,unsigned short *,unsigned long,int,int,int,int,class WmiTreeNode *,class WmiTreeNode *)` | 203 | Exported Function
-`public: __thiscall WmiSignedIntegerNode::WmiSignedIntegerNode(unsigned short *,long,unsigned long,class WmiTreeNode *)` | 206 | Exported Function
-`public: __thiscall WmiSignedIntegerRangeNode::WmiSignedIntegerRangeNode(unsigned short *,unsigned long,int,int,int,int,long,long,class WmiTreeNode *,class WmiTreeNode *)` | 209 | Exported Function
-`public: __thiscall WmiSignedIntegerRangeNode::WmiSignedIntegerRangeNode(class WmiSignedIntegerRangeNode const &)` | 208 | Exported Function
-`public: __thiscall WmiSignedIntegerRangeNode::WmiSignedIntegerRangeNode(class WmiSignedIntegerRangeNode &&)` | 207 | Exported Function
-`public: __thiscall WmiRangeNode::WmiRangeNode(class WmiRangeNode const &)` | 202 | Exported Function
-`public: __thiscall WmiOperatorNotIsANode::WmiOperatorNotIsANode(class WmiTreeNode *,class WmiTreeNode *)` | 197 | Exported Function
-`public: __thiscall WmiOperatorNotIsANode::WmiOperatorNotIsANode(class WmiOperatorNotIsANode const &)` | 196 | Exported Function
-`public: __thiscall WmiOperatorNotEqualNode::WmiOperatorNotEqualNode(class WmiTreeNode *,class WmiTreeNode *)` | 195 | Exported Function
-`public: __thiscall WmiOperatorNotLikeNode::WmiOperatorNotLikeNode(class WmiOperatorNotLikeNode const &)` | 198 | Exported Function
-`public: __thiscall WmiOrNode::WmiOrNode(class WmiTreeNode *,class WmiTreeNode *,class WmiTreeNode *)` | 201 | Exported Function
-`public: __thiscall WmiOrNode::WmiOrNode(class WmiOrNode const &)` | 200 | Exported Function
-`public: __thiscall WmiOperatorNotLikeNode::WmiOperatorNotLikeNode(class WmiTreeNode *,class WmiTreeNode *)` | 199 | Exported Function
-`public: __thiscall WmiUnsignedIntegerNode::WmiUnsignedIntegerNode(class WmiUnsignedIntegerNode &&)` | 220 | Exported Function
-`public: __thiscall WmiTreeNodeIterator::WmiTreeNodeIterator(class WmiTreeNodeIterator const &)` | 217 | Exported Function
-`public: __thiscall WmiTreeNodeIterator::WmiTreeNodeIterator(class WmiTreeNodeIterator *)` | 218 | Exported Function
-`public: __thiscall WmiUnsignedIntegerNode::WmiUnsignedIntegerNode(class WmiUnsignedIntegerNode const &)` | 221 | Exported Function
-`public: __thiscall WmiUnsignedIntegerRangeNode::WmiUnsignedIntegerRangeNode(class WmiUnsignedIntegerRangeNode const &)` | 224 | Exported Function
-`public: __thiscall WmiUnsignedIntegerRangeNode::WmiUnsignedIntegerRangeNode(class WmiUnsignedIntegerRangeNode &&)` | 223 | Exported Function
-`public: __thiscall WmiUnsignedIntegerNode::WmiUnsignedIntegerNode(unsigned short *,unsigned long,unsigned long,class WmiTreeNode *)` | 222 | Exported Function
-`public: __thiscall WmiTreeNodeIterator::WmiTreeNodeIterator(class WmiTreeNode *)` | 219 | Exported Function
-`public: __thiscall WmiStringRangeNode::WmiStringRangeNode(class WmiStringRangeNode const &)` | 212 | Exported Function
-`public: __thiscall WmiStringNode::WmiStringNode(unsigned short *,unsigned short *,enum WmiValueNode::WmiValueFunction,enum WmiValueNode::WmiValueFunction,unsigned long,class WmiTreeNode *)` | 211 | Exported Function
-`public: __thiscall WmiStringNode::WmiStringNode(class WmiStringNode const &)` | 210 | Exported Function
-`public: __thiscall WmiStringRangeNode::WmiStringRangeNode(unsigned short *,unsigned long,int,int,int,int,unsigned short *,unsigned short *,class WmiTreeNode *,class WmiTreeNode *)` | 213 | Exported Function
-`public: __thiscall WmiTreeNode::WmiTreeNode(unsigned long,void *,class WmiTreeNode *,class WmiTreeNode *,class WmiTreeNode *)` | 215 | Exported Function
-`public: __thiscall WmiTreeNode::WmiTreeNode(class WmiTreeNode const &)` | 214 | Exported Function
-`public: __thiscall WmiTreeNode::WmiTreeNode(class WmiTreeNode *)` | 216 | Exported Function
-`public: __thiscall ProvOSIAddressType::ProvOSIAddressType(unsigned char const *,unsigned long)` | 110 | Exported Function
-`public: __thiscall ProvFixedLengthOctetStringType::ProvFixedLengthOctetStringType(unsigned long const &)` | 50 | Exported Function
-`public: __thiscall ProvFixedLengthOctetStringType::ProvFixedLengthOctetStringType(class ProvFixedLengthOctetStringType const &)` | 54 | Exported Function
-`public: __thiscall ProvFixedLengthDisplayStringType::ProvFixedLengthDisplayStringType(unsigned long const &,unsigned short const *)` | 48 | Exported Function
-`public: __thiscall ProvFixedLengthOctetStringType::ProvFixedLengthOctetStringType(unsigned long const &,class ProvOctetString const &)` | 51 | Exported Function
-`public: __thiscall ProvFixedLengthOpaqueType::ProvFixedLengthOpaqueType(class ProvFixedLengthOpaqueType const &)` | 59 | Exported Function
-`public: __thiscall ProvFixedLengthOctetStringType::ProvFixedLengthOctetStringType(unsigned long const &,unsigned short const *)` | 53 | Exported Function
-`public: __thiscall ProvFixedLengthOctetStringType::ProvFixedLengthOctetStringType(unsigned long const &,unsigned char const *)` | 52 | Exported Function
-`public: __thiscall ProvFixedLengthDisplayStringType::ProvFixedLengthDisplayStringType(unsigned long const &,class ProvOctetString const &)` | 47 | Exported Function
-`public: __thiscall ProvEnumeratedType::ProvEnumeratedType(unsigned short const *,unsigned short const *)` | 40 | Exported Function
-`public: __thiscall ProvEnumeratedType::ProvEnumeratedType(unsigned short const *,long const &)` | 42 | Exported Function
-`public: __thiscall ProvEnumeratedType::ProvEnumeratedType(unsigned short const *,class ProvInteger const &)` | 43 | Exported Function
-`public: __thiscall ProvEventObject::ProvEventObject(class ProvEventObject const &)` | 44 | Exported Function
-`public: __thiscall ProvFixedLengthDisplayStringType::ProvFixedLengthDisplayStringType(unsigned long const &)` | 46 | Exported Function
-`public: __thiscall ProvFixedLengthDisplayStringType::ProvFixedLengthDisplayStringType(class ProvFixedLengthDisplayStringType const &)` | 49 | Exported Function
-`public: __thiscall ProvEventObject::ProvEventObject(unsigned short const *)` | 45 | Exported Function
-`public: __thiscall ProvGauge::ProvGauge(class ProvGauge const &)` | 66 | Exported Function
-`public: __thiscall ProvFixedType::ProvFixedType(unsigned long)` | 65 | Exported Function
-`public: __thiscall ProvFixedType::ProvFixedType(class ProvFixedType const &)` | 64 | Exported Function
-`public: __thiscall ProvGauge::ProvGauge(long)` | 67 | Exported Function
-`public: __thiscall ProvGaugeType::ProvGaugeType(unsigned long,unsigned short const *)` | 70 | Exported Function
-`public: __thiscall ProvGaugeType::ProvGaugeType(class ProvGaugeType const &)` | 68 | Exported Function
-`public: __thiscall ProvGaugeType::ProvGaugeType(class ProvGauge const &,unsigned short const *)` | 69 | Exported Function
-`public: __thiscall ProvFixedLengthPhysAddressType::ProvFixedLengthPhysAddressType(unsigned long const &,unsigned short const *)` | 62 | Exported Function
-`public: __thiscall ProvFixedLengthOpaqueType::ProvFixedLengthOpaqueType(unsigned long const &,unsigned char const *,unsigned long)` | 57 | Exported Function
-`public: __thiscall ProvFixedLengthOpaqueType::ProvFixedLengthOpaqueType(unsigned long const &,class ProvOpaque const &)` | 56 | Exported Function
-`public: __thiscall ProvFixedLengthOpaqueType::ProvFixedLengthOpaqueType(unsigned long const &)` | 55 | Exported Function
-`public: __thiscall ProvFixedLengthOpaqueType::ProvFixedLengthOpaqueType(unsigned long const &,unsigned short const *)` | 58 | Exported Function
-`public: __thiscall ProvFixedLengthPhysAddressType::ProvFixedLengthPhysAddressType(unsigned long const &,class ProvOctetString const &)` | 61 | Exported Function
-`public: __thiscall ProvFixedLengthPhysAddressType::ProvFixedLengthPhysAddressType(unsigned long const &)` | 60 | Exported Function
-`public: __thiscall ProvFixedLengthPhysAddressType::ProvFixedLengthPhysAddressType(class ProvFixedLengthPhysAddressType const &)` | 63 | Exported Function
-`public: __thiscall ProvCounter64Type::ProvCounter64Type(unsigned short const *)` | 21 | Exported Function
-`public: __thiscall ProvCounter64Type::ProvCounter64Type(unsigned long,unsigned long)` | 20 | Exported Function
-`public: __thiscall ProvCounter64Type::ProvCounter64Type(class ProvCounter64Type const &)` | 18 | Exported Function
-`public: __thiscall ProvCounter64Type::ProvCounter64Type(void)` | 22 | Exported Function
-`public: __thiscall ProvCounterType::ProvCounterType(class ProvCounter const &)` | 26 | Exported Function
-`public: __thiscall ProvCounter::ProvCounter(unsigned long)` | 24 | Exported Function
-`public: __thiscall ProvCounter::ProvCounter(class ProvCounter const &)` | 23 | Exported Function
-`public: __thiscall ProvCounter64Type::ProvCounter64Type(class ProvCounter64 const &)` | 19 | Exported Function
-`public: __thiscall ProvBitStringType::ProvBitStringType(unsigned short const *)` | 13 | Exported Function
-`public: __thiscall ProvBitStringType::ProvBitStringType(class ProvBitStringType const &)` | 12 | Exported Function
-`public: __thiscall ProvAnalyser::ProvAnalyser(unsigned short const *)` | 11 | Exported Function
-`public: __thiscall ProvBitStringType::ProvBitStringType(unsigned short const *,class ProvOctetString const &)` | 14 | Exported Function
-`public: __thiscall ProvCounter64::ProvCounter64(unsigned long,unsigned long)` | 17 | Exported Function
-`public: __thiscall ProvCounter64::ProvCounter64(class ProvCounter64 const &)` | 16 | Exported Function
-`public: __thiscall ProvBitStringType::ProvBitStringType(unsigned short const *,unsigned short const * *,unsigned long const &)` | 15 | Exported Function
-`public: __thiscall ProvDisplayStringType::ProvDisplayStringType(class ProvOctetString const &,unsigned short const *)` | 36 | Exported Function
-`public: __thiscall ProvDisplayStringType::ProvDisplayStringType(class ProvDisplayStringType const &)` | 35 | Exported Function
-`public: __thiscall ProvDebugLog::ProvDebugLog(char)` | 34 | Exported Function
-`public: __thiscall ProvDisplayStringType::ProvDisplayStringType(unsigned short const *)` | 38 | Exported Function
-`public: __thiscall ProvEnumeratedType::ProvEnumeratedType(unsigned short const *)` | 41 | Exported Function
-`public: __thiscall ProvEnumeratedType::ProvEnumeratedType(class ProvEnumeratedType const &)` | 39 | Exported Function
-`public: __thiscall ProvDisplayStringType::ProvDisplayStringType(unsigned short const *,unsigned short const *)` | 37 | Exported Function
-`public: __thiscall ProvDateTimeType::ProvDateTimeType(void)` | 33 | Exported Function
-`public: __thiscall ProvCounterType::ProvCounterType(unsigned short const *)` | 28 | Exported Function
-`public: __thiscall ProvCounterType::ProvCounterType(unsigned long)` | 27 | Exported Function
-`public: __thiscall ProvCounterType::ProvCounterType(class ProvCounterType const &)` | 25 | Exported Function
-`public: __thiscall ProvCounterType::ProvCounterType(void)` | 29 | Exported Function
-`public: __thiscall ProvDateTimeType::ProvDateTimeType(unsigned short const *)` | 32 | Exported Function
-`public: __thiscall ProvDateTimeType::ProvDateTimeType(class ProvOctetString const &)` | 31 | Exported Function
-`public: __thiscall ProvDateTimeType::ProvDateTimeType(class ProvDateTimeType const &)` | 30 | Exported Function
-`public: __thiscall ProvObjectIdentifierType::ProvObjectIdentifierType(class ProvObjectIdentifierType const &)` | 116 | Exported Function
-`public: __thiscall ProvObjectIdentifierType::ProvObjectIdentifierType(class ProvObjectIdentifier const &)` | 117 | Exported Function
-`public: __thiscall ProvObjectIdentifier::ProvObjectIdentifier(unsigned long const *,unsigned long)` | 115 | Exported Function
-`public: __thiscall ProvObjectIdentifierType::ProvObjectIdentifierType(unsigned long const *,unsigned long)` | 119 | Exported Function
-`public: __thiscall ProvOctetString::ProvOctetString(class ProvOctetString const &)` | 121 | Exported Function
-`public: __thiscall ProvObjectIdentifierType::ProvObjectIdentifierType(void)` | 120 | Exported Function
-`public: __thiscall ProvObjectIdentifierType::ProvObjectIdentifierType(unsigned short const *)` | 118 | Exported Function
-`public: __thiscall ProvObjectIdentifier::ProvObjectIdentifier(class ProvObjectIdentifier const &)` | 113 | Exported Function
-`public: __thiscall ProvNull::ProvNull(void)` | 104 | Exported Function
-`public: __thiscall ProvNetworkAddressType::ProvNetworkAddressType(void)` | 103 | Exported Function
-`public: __thiscall ProvNetworkAddressType::ProvNetworkAddressType(unsigned short const *)` | 102 | Exported Function
-`public: __thiscall ProvNullType::ProvNullType(class ProvNull const &)` | 106 | Exported Function
-`public: __thiscall ProvObjectIdentifier::ProvObjectIdentifier(char const *)` | 114 | Exported Function
-`public: __thiscall ProvNullType::ProvNullType(void)` | 107 | Exported Function
-`public: __thiscall ProvNullType::ProvNullType(class ProvNullType const &)` | 105 | Exported Function
-`public: __thiscall ProvOpaqueType::ProvOpaqueType(unsigned char const *,unsigned long,unsigned short const *)` | 132 | Exported Function
-`public: __thiscall ProvOpaqueType::ProvOpaqueType(class ProvOpaqueType const &)` | 130 | Exported Function
-`public: __thiscall ProvOpaqueType::ProvOpaqueType(class ProvOpaque const &,unsigned short const *)` | 131 | Exported Function
-`public: __thiscall ProvOpaqueType::ProvOpaqueType(unsigned short const *)` | 134 | Exported Function
-`public: __thiscall ProvOSIAddressType::ProvOSIAddressType(class ProvOSIAddressType const &)` | 108 | Exported Function
-`public: __thiscall ProvOSIAddressType::ProvOSIAddressType(class ProvOctetString const &)` | 109 | Exported Function
-`public: __thiscall ProvOpaqueType::ProvOpaqueType(unsigned short const *,unsigned short const *)` | 133 | Exported Function
-`public: __thiscall ProvOpaque::ProvOpaque(unsigned char const *,unsigned long)` | 129 | Exported Function
-`public: __thiscall ProvOctetStringType::ProvOctetStringType(class ProvOctetStringType const &)` | 123 | Exported Function
-`public: __thiscall ProvOctetStringType::ProvOctetStringType(class ProvOctetString const &,unsigned short const *)` | 124 | Exported Function
-`public: __thiscall ProvOctetString::ProvOctetString(unsigned char const *,unsigned long)` | 122 | Exported Function
-`public: __thiscall ProvOctetStringType::ProvOctetStringType(unsigned char const *,unsigned long,unsigned short const *)` | 125 | Exported Function
-`public: __thiscall ProvOpaque::ProvOpaque(class ProvOpaque const &)` | 128 | Exported Function
-`public: __thiscall ProvOctetStringType::ProvOctetStringType(unsigned short const *,unsigned short const *)` | 126 | Exported Function
-`public: __thiscall ProvOctetStringType::ProvOctetStringType(unsigned short const *)` | 127 | Exported Function
-`public: __thiscall ProvIpAddress::ProvIpAddress(class ProvIpAddress const &)` | 82 | Exported Function
-`public: __thiscall ProvIpAddress::ProvIpAddress(char const *)` | 84 | Exported Function
-`public: __thiscall ProvIntegerType::ProvIntegerType(unsigned short const *,unsigned short const *)` | 80 | Exported Function
-`public: __thiscall ProvIpAddress::ProvIpAddress(unsigned long)` | 83 | Exported Function
-`public: __thiscall ProvIpAddressType::ProvIpAddressType(unsigned long)` | 87 | Exported Function
-`public: __thiscall ProvIpAddressType::ProvIpAddressType(class ProvIpAddressType const &)` | 85 | Exported Function
-`public: __thiscall ProvIpAddressType::ProvIpAddressType(class ProvIpAddress const &)` | 86 | Exported Function
-`public: __thiscall ProvIntegerType::ProvIntegerType(unsigned short const *)` | 81 | Exported Function
-`public: __thiscall ProvInteger::ProvInteger(class ProvInteger const &)` | 75 | Exported Function
-`public: __thiscall ProvGaugeType::ProvGaugeType(unsigned short const *,unsigned short const *)` | 71 | Exported Function
-`public: __thiscall ProvGaugeType::ProvGaugeType(unsigned short const *)` | 72 | Exported Function
-`public: __thiscall ProvInteger::ProvInteger(long)` | 76 | Exported Function
-`public: __thiscall ProvIntegerType::ProvIntegerType(long,unsigned short const *)` | 79 | Exported Function
-`public: __thiscall ProvIntegerType::ProvIntegerType(class ProvIntegerType const &)` | 77 | Exported Function
-`public: __thiscall ProvIntegerType::ProvIntegerType(class ProvInteger const &,unsigned short const *)` | 78 | Exported Function
-`public: __thiscall ProvNegativeRangeType::ProvNegativeRangeType(long,long)` | 97 | Exported Function
-`public: __thiscall ProvNegativeRangeType::ProvNegativeRangeType(class ProvNegativeRangeType const &)` | 96 | Exported Function
-`public: __thiscall ProvMacAddressType::ProvMacAddressType(void)` | 95 | Exported Function
-`public: __thiscall ProvNegativeRangeType::ProvNegativeRangeType(void)` | 98 | Exported Function
-`public: __thiscall ProvNetworkAddressType::ProvNetworkAddressType(unsigned long)` | 101 | Exported Function
-`public: __thiscall ProvNetworkAddressType::ProvNetworkAddressType(class ProvNetworkAddressType const &)` | 99 | Exported Function
-`public: __thiscall ProvNetworkAddressType::ProvNetworkAddressType(class ProvIpAddress const &)` | 100 | Exported Function
-`public: __thiscall ProvMacAddressType::ProvMacAddressType(unsigned short const *)` | 94 | Exported Function
-`public: __thiscall ProvLexicon::ProvLexicon(void)` | 90 | Exported Function
-`public: __thiscall ProvIpAddressType::ProvIpAddressType(void)` | 89 | Exported Function
-`public: __thiscall ProvIpAddressType::ProvIpAddressType(unsigned short const *)` | 88 | Exported Function
+`WmiNullNode` | 175 | Exported Function
+`WmiNullNode` | 174 | Exported Function
+`WmiNullNode` | 173 | Exported Function
+`WmiNullRangeNode` | 176 | Exported Function
+`WmiOperatorEqualNode` | 179 | Exported Function
+`WmiOperatorEqualNode` | 178 | Exported Function
+`WmiNullRangeNode` | 177 | Exported Function
+`WmiNotNode` | 172 | Exported Function
+`QueryPreprocessor` | 167 | Exported Function
+`ProvUInteger32` | 164 | Exported Function
+`ProvUInteger32` | 163 | Exported Function
+`QueryPreprocessor` | 168 | Exported Function
+`WmiNotNode` | 171 | Exported Function
+`WmiAndNode` | 170 | Exported Function
+`WmiAndNode` | 169 | Exported Function
+`WmiOperatorLikeNode` | 190 | Exported Function
+`WmiOperatorLessNode` | 189 | Exported Function
+`WmiOperatorLessNode` | 188 | Exported Function
+`WmiOperatorLikeNode` | 191 | Exported Function
+`WmiOperatorNotEqualNode` | 194 | Exported Function
+`WmiOperatorNode` | 193 | Exported Function
+`WmiOperatorNode` | 192 | Exported Function
+`WmiOperatorIsANode` | 187 | Exported Function
+`WmiOperatorEqualOrLessNode` | 182 | Exported Function
+`WmiOperatorEqualOrGreaterNode` | 181 | Exported Function
+`WmiOperatorEqualOrGreaterNode` | 180 | Exported Function
+`WmiOperatorEqualOrLessNode` | 183 | Exported Function
+`WmiOperatorIsANode` | 186 | Exported Function
+`WmiOperatorGreaterNode` | 185 | Exported Function
+`WmiOperatorGreaterNode` | 184 | Exported Function
+`ProvPositiveRangeType` | 141 | Exported Function
+`ProvPositiveRangeType` | 140 | Exported Function
+`ProvPositiveRangedType` | 144 | Exported Function
+`ProvPositiveRangeType` | 142 | Exported Function
+`ProvRowStatusEnum` | 148 | Exported Function
+`ProvRowStatusType` | 146 | Exported Function
+`ProvRowStatusType` | 147 | Exported Function
+`ProvPositiveRangedType` | 143 | Exported Function
+`ProvPhysAddressType` | 136 | Exported Function
+`ProvOSIAddressType` | 112 | Exported Function
+`ProvOSIAddressType` | 111 | Exported Function
+`ProvPhysAddressType` | 135 | Exported Function
+`ProvPhysAddressType` | 138 | Exported Function
+`ProvPhysAddressType` | 139 | Exported Function
+`ProvPhysAddressType` | 137 | Exported Function
+`ProvUDPAddressType` | 159 | Exported Function
+`ProvTimeTicksType` | 157 | Exported Function
+`ProvTimeTicksType` | 156 | Exported Function
+`ProvUDPAddressType` | 158 | Exported Function
+`ProvUDPAddressType` | 162 | Exported Function
+`ProvUDPAddressType` | 161 | Exported Function
+`ProvUDPAddressType` | 160 | Exported Function
+`ProvTimeTicksType` | 155 | Exported Function
+`ProvRowStatusType` | 150 | Exported Function
+`ProvRowStatusType` | 149 | Exported Function
+`ProvRowStatusType` | 145 | Exported Function
+`ProvTimeTicks` | 151 | Exported Function
+`ProvTimeTicksType` | 153 | Exported Function
+`ProvTimeTicksType` | 154 | Exported Function
+`ProvTimeTicks` | 152 | Exported Function
+`GetPartition` | 688 | Exported Function
+`operator` | 307 | Exported Function
+`operator` | 306 | Exported Function
+`operator` | 308 | Exported Function
+`operator` | 313 | Exported Function
+`operator` | 311 | Exported Function
+`operator` | 309 | Exported Function
+`GetDisjunction` | 665 | Exported Function
+`WmiValueFunction` | 227 | Exported Function
+`WmiValueNode` | 226 | Exported Function
+`WmiUnsignedIntegerRangeNode` | 225 | Exported Function
+`GetAllocatedString` | 660 | Exported Function
+`operator` | 305 | Exported Function
+`operator` | 304 | Exported Function
+`operator` | 303 | Exported Function
+`operator` | 324 | Exported Function
+`operator` | 323 | Exported Function
+`operator` | 322 | Exported Function
+`operator` | 326 | Exported Function
+`operator` | 331 | Exported Function
+`operator` | 329 | Exported Function
+`operator` | 327 | Exported Function
+`operator` | 321 | Exported Function
+`operator` | 316 | Exported Function
+`operator` | 315 | Exported Function
+`operator` | 314 | Exported Function
+`operator` | 317 | Exported Function
+`operator` | 320 | Exported Function
+`operator` | 319 | Exported Function
+`operator` | 318 | Exported Function
+`WmiSignedIntegerNode` | 205 | Exported Function
+`WmiSignedIntegerNode` | 204 | Exported Function
+`WmiRangeNode` | 203 | Exported Function
+`WmiSignedIntegerNode` | 206 | Exported Function
+`WmiSignedIntegerRangeNode` | 209 | Exported Function
+`WmiSignedIntegerRangeNode` | 208 | Exported Function
+`WmiSignedIntegerRangeNode` | 207 | Exported Function
+`WmiRangeNode` | 202 | Exported Function
+`WmiOperatorNotIsANode` | 197 | Exported Function
+`WmiOperatorNotIsANode` | 196 | Exported Function
+`WmiOperatorNotEqualNode` | 195 | Exported Function
+`WmiOperatorNotLikeNode` | 198 | Exported Function
+`WmiOrNode` | 201 | Exported Function
+`WmiOrNode` | 200 | Exported Function
+`WmiOperatorNotLikeNode` | 199 | Exported Function
+`WmiUnsignedIntegerNode` | 220 | Exported Function
+`WmiTreeNodeIterator` | 217 | Exported Function
+`WmiTreeNodeIterator` | 218 | Exported Function
+`WmiUnsignedIntegerNode` | 221 | Exported Function
+`WmiUnsignedIntegerRangeNode` | 224 | Exported Function
+`WmiUnsignedIntegerRangeNode` | 223 | Exported Function
+`WmiUnsignedIntegerNode` | 222 | Exported Function
+`WmiTreeNodeIterator` | 219 | Exported Function
+`WmiStringRangeNode` | 212 | Exported Function
+`WmiValueFunction` | 211 | Exported Function
+`WmiStringNode` | 210 | Exported Function
+`WmiStringRangeNode` | 213 | Exported Function
+`WmiTreeNode` | 215 | Exported Function
+`WmiTreeNode` | 214 | Exported Function
+`WmiTreeNode` | 216 | Exported Function
+`ProvOSIAddressType` | 110 | Exported Function
+`ProvFixedLengthOctetStringType` | 50 | Exported Function
+`ProvFixedLengthOctetStringType` | 54 | Exported Function
+`ProvFixedLengthDisplayStringType` | 48 | Exported Function
+`ProvFixedLengthOctetStringType` | 51 | Exported Function
+`ProvFixedLengthOpaqueType` | 59 | Exported Function
+`ProvFixedLengthOctetStringType` | 53 | Exported Function
+`ProvFixedLengthOctetStringType` | 52 | Exported Function
+`ProvFixedLengthDisplayStringType` | 47 | Exported Function
+`ProvEnumeratedType` | 40 | Exported Function
+`ProvEnumeratedType` | 42 | Exported Function
+`ProvEnumeratedType` | 43 | Exported Function
+`ProvEventObject` | 44 | Exported Function
+`ProvFixedLengthDisplayStringType` | 46 | Exported Function
+`ProvFixedLengthDisplayStringType` | 49 | Exported Function
+`ProvEventObject` | 45 | Exported Function
+`ProvGauge` | 66 | Exported Function
+`ProvFixedType` | 65 | Exported Function
+`ProvFixedType` | 64 | Exported Function
+`ProvGauge` | 67 | Exported Function
+`ProvGaugeType` | 70 | Exported Function
+`ProvGaugeType` | 68 | Exported Function
+`ProvGaugeType` | 69 | Exported Function
+`ProvFixedLengthPhysAddressType` | 62 | Exported Function
+`ProvFixedLengthOpaqueType` | 57 | Exported Function
+`ProvFixedLengthOpaqueType` | 56 | Exported Function
+`ProvFixedLengthOpaqueType` | 55 | Exported Function
+`ProvFixedLengthOpaqueType` | 58 | Exported Function
+`ProvFixedLengthPhysAddressType` | 61 | Exported Function
+`ProvFixedLengthPhysAddressType` | 60 | Exported Function
+`ProvFixedLengthPhysAddressType` | 63 | Exported Function
+`ProvCounter64Type` | 21 | Exported Function
+`ProvCounter64Type` | 20 | Exported Function
+`ProvCounter64Type` | 18 | Exported Function
+`ProvCounter64Type` | 22 | Exported Function
+`ProvCounterType` | 26 | Exported Function
+`ProvCounter` | 24 | Exported Function
+`ProvCounter` | 23 | Exported Function
+`ProvCounter64Type` | 19 | Exported Function
+`ProvBitStringType` | 13 | Exported Function
+`ProvBitStringType` | 12 | Exported Function
+`ProvAnalyser` | 11 | Exported Function
+`ProvBitStringType` | 14 | Exported Function
+`ProvCounter64` | 17 | Exported Function
+`ProvCounter64` | 16 | Exported Function
+`ProvBitStringType` | 15 | Exported Function
+`ProvDisplayStringType` | 36 | Exported Function
+`ProvDisplayStringType` | 35 | Exported Function
+`ProvDebugLog` | 34 | Exported Function
+`ProvDisplayStringType` | 38 | Exported Function
+`ProvEnumeratedType` | 41 | Exported Function
+`ProvEnumeratedType` | 39 | Exported Function
+`ProvDisplayStringType` | 37 | Exported Function
+`ProvDateTimeType` | 33 | Exported Function
+`ProvCounterType` | 28 | Exported Function
+`ProvCounterType` | 27 | Exported Function
+`ProvCounterType` | 25 | Exported Function
+`ProvCounterType` | 29 | Exported Function
+`ProvDateTimeType` | 32 | Exported Function
+`ProvDateTimeType` | 31 | Exported Function
+`ProvDateTimeType` | 30 | Exported Function
+`ProvObjectIdentifierType` | 116 | Exported Function
+`ProvObjectIdentifierType` | 117 | Exported Function
+`ProvObjectIdentifier` | 115 | Exported Function
+`ProvObjectIdentifierType` | 119 | Exported Function
+`ProvOctetString` | 121 | Exported Function
+`ProvObjectIdentifierType` | 120 | Exported Function
+`ProvObjectIdentifierType` | 118 | Exported Function
+`ProvObjectIdentifier` | 113 | Exported Function
+`ProvNull` | 104 | Exported Function
+`ProvNetworkAddressType` | 103 | Exported Function
+`ProvNetworkAddressType` | 102 | Exported Function
+`ProvNullType` | 106 | Exported Function
+`ProvObjectIdentifier` | 114 | Exported Function
+`ProvNullType` | 107 | Exported Function
+`ProvNullType` | 105 | Exported Function
+`ProvOpaqueType` | 132 | Exported Function
+`ProvOpaqueType` | 130 | Exported Function
+`ProvOpaqueType` | 131 | Exported Function
+`ProvOpaqueType` | 134 | Exported Function
+`ProvOSIAddressType` | 108 | Exported Function
+`ProvOSIAddressType` | 109 | Exported Function
+`ProvOpaqueType` | 133 | Exported Function
+`ProvOpaque` | 129 | Exported Function
+`ProvOctetStringType` | 123 | Exported Function
+`ProvOctetStringType` | 124 | Exported Function
+`ProvOctetString` | 122 | Exported Function
+`ProvOctetStringType` | 125 | Exported Function
+`ProvOpaque` | 128 | Exported Function
+`ProvOctetStringType` | 126 | Exported Function
+`ProvOctetStringType` | 127 | Exported Function
+`ProvIpAddress` | 82 | Exported Function
+`ProvIpAddress` | 84 | Exported Function
+`ProvIntegerType` | 80 | Exported Function
+`ProvIpAddress` | 83 | Exported Function
+`ProvIpAddressType` | 87 | Exported Function
+`ProvIpAddressType` | 85 | Exported Function
+`ProvIpAddressType` | 86 | Exported Function
+`ProvIntegerType` | 81 | Exported Function
+`ProvInteger` | 75 | Exported Function
+`ProvGaugeType` | 71 | Exported Function
+`ProvGaugeType` | 72 | Exported Function
+`ProvInteger` | 76 | Exported Function
+`ProvIntegerType` | 79 | Exported Function
+`ProvIntegerType` | 77 | Exported Function
+`ProvIntegerType` | 78 | Exported Function
+`ProvNegativeRangeType` | 97 | Exported Function
+`ProvNegativeRangeType` | 96 | Exported Function
+`ProvMacAddressType` | 95 | Exported Function
+`ProvNegativeRangeType` | 98 | Exported Function
+`ProvNetworkAddressType` | 101 | Exported Function
+`ProvNetworkAddressType` | 99 | Exported Function
+`ProvNetworkAddressType` | 100 | Exported Function
+`ProvMacAddressType` | 94 | Exported Function
+`ProvLexicon` | 90 | Exported Function
+`ProvIpAddressType` | 89 | Exported Function
+`ProvIpAddressType` | 88 | Exported Function
 `public: __thiscall ProvLexicon::~ProvLexicon(void)` | 254 | Exported Function
-`public: __thiscall ProvMacAddressType::ProvMacAddressType(unsigned char const *)` | 93 | Exported Function
-`public: __thiscall ProvMacAddressType::ProvMacAddressType(class ProvOctetString const &)` | 92 | Exported Function
-`public: __thiscall ProvMacAddressType::ProvMacAddressType(class ProvMacAddressType const &)` | 91 | Exported Function
+`ProvMacAddressType` | 93 | Exported Function
+`ProvMacAddressType` | 92 | Exported Function
+`ProvMacAddressType` | 91 | Exported Function
 
 
 ## Signature

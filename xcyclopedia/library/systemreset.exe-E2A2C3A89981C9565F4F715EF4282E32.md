@@ -45,6 +45,7 @@ File | Score
 [C:\Windows\system32\systemreset.exe](systemreset.exe-1EF0BF1B2B28DC6D2E76DCD0A5C7984C.md) | 41
 [C:\Windows\system32\systemreset.exe](systemreset.exe-298B30CC7188646FAF02118CC603E716.md) | 41
 [C:\Windows\system32\systemreset.exe](systemreset.exe-3C00E9197B70F158351790D472993082.md) | 41
+[C:\Windows\system32\systemreset.exe](systemreset.exe-64E0C3EDF365A23CF76E4C446E16F4FC.md) | 33
 [C:\Windows\system32\systemreset.exe](systemreset.exe-B6968ADCA12A5898AA2F89931B17995A.md) | 36
 
 

@@ -18,6 +18,9 @@ SHA256 | `83790021F6315747DECCE5A9E15006DCDA7A7E7003660B5B3D07D1862261E73A`
 SHA384 | `6F2C899B19ECA3886E9267D2C7AE8A6F34494EA6B2881B56F93917677C2BE387C3780D73B77D816975996255BFDB920D`
 SHA512 | `C40BB8C045623E96F4AA9CD581576E61D39E8B64024C73CBC648A4DB9D176B0E175853D84BF7FAEC0558E561C73CC728D6427A163557D4F53F79B2760936C0B9`
 SSDEEP | `768:pInxbNVlEREoDorHyymOqRnRNOEJZXKhhOYc5DwK+PXcMmkQNsEoKma+GJxXJN5a:gRE6oESy3E/oOdDGXmkkiX`
+IMP | `2A6F61CB3D8B085F04D934C7B0CC98A1`
+PESHA1 | `9B92236C7ADA6BC2B9CB4838F5D84A411C99A12D`
+PE256 | `4F9C63F9C65323675C78041F86818AE419DAADF525DD4FD144E696C56E28E180`
 
 ## Runtime Data
 
@@ -134,8 +137,26 @@ Use "winrs -?" to obtain the usage information
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DSROLE.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mi.dll |
+C:\Windows\system32\miutils.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\pcwum.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\winrs.exe |
+C:\Windows\system32\WsmSvc.DLL |
 
 
 ## Signature
@@ -155,7 +176,12 @@ C:\Windows\system32\winrs.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/83790021f6315747decce5a9e15006dcda7a7e7003660b5b3d07d1862261e73a/detection/
 
 
 

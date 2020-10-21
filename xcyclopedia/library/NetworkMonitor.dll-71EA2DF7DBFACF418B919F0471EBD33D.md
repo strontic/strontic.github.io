@@ -25,20 +25,20 @@ PE256 | `5742E18508DE5DD3B443FE98ACD6049E6BB5876FA336A0E7048DAD2CA1DA2E58`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual bool __thiscall SystemEventMonitor::stopMonitoring(void)` | 14 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::startMonitoring(void)` | 13 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::removeObserver(class SystemEventListener *)` | 11 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SystemEventMonitor::getLocalIpAddress(enum csf::IPModeType::Value,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 6 | Exported Function
-`public: virtual void __thiscall SystemEventMonitor::resetCache(void)` | 12 | Exported Function
-`public: virtual void __thiscall SystemEventMonitor::getMobileNetworkType(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 7 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SystemEventMonitor::getSubnet(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 8 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::addObserver(class SystemEventListener *)` | 2 | Exported Function
-`public: static class std::shared_ptr<class SystemEventMonitor> __cdecl SystemEventMonitor::getInstance(void)` | 5 | Exported Function
-`bool __cdecl IsSameMacAddr(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 1 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::discoverCurrentGatewayAndMacAddress(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,bool)` | 3 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::isLocalNetworkDown(void)` | 10 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::haveLocalIpAddress(enum csf::IPModeType::Value,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 9 | Exported Function
-`public: virtual bool __thiscall SystemEventMonitor::getHostAddress(class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)` | 4 | Exported Function
+`stopMonitoring` | 14 | Exported Function
+`startMonitoring` | 13 | Exported Function
+`removeObserver` | 11 | Exported Function
+`allocator` | 6 | Exported Function
+`resetCache` | 12 | Exported Function
+`allocator` | 7 | Exported Function
+`allocator` | 8 | Exported Function
+`addObserver` | 2 | Exported Function
+`getInstance` | 5 | Exported Function
+`allocator` | 1 | Exported Function
+`allocator` | 3 | Exported Function
+`isLocalNetworkDown` | 10 | Exported Function
+`allocator` | 9 | Exported Function
+`allocator` | 4 | Exported Function
 
 
 ## Signature

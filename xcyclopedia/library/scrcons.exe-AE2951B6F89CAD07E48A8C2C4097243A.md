@@ -18,6 +18,9 @@ SHA256 | `2C91F17DD33E78430451D47F2E26715EB6E1FD8125E530182EC0CACEB4CD755F`
 SHA384 | `D0D746A6089D6D33C76749110630656536984B55D95ED843149E43C34EF827CA7BDD9A7084E11E36A9A625C30DF383A6`
 SHA512 | `B744E20E86C61B84FC1BDDD72F81E080B2A1399CB748F6767D4F563974607249A7FFEC640240A7C87852FBEECDC6314638D149D4A7133D203519E292C93491EC`
 SSDEEP | `768:Wnc2NqrHdzJRSnc+N5QM78l/r70SA/pyf51Gk1Oxju+nzFSTIT+4i/qKVTPnyo:e5yw+w8pr70SAQf51R1OVu+nzFAnyo`
+IMP | `33D9F246D162F5E1E1312E28E566A69E`
+PESHA1 | `83872FBF9C0123F03166DFEA1869362849F3E754`
+PE256 | `A8685B0C5C2688B34E77F45E854DE63F04132C736252077EC40B02A907CDD229`
 
 ## Runtime Data
 
@@ -31,8 +34,29 @@ Cannot run standalone
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\wbem\esscli.dll |
+C:\Windows\system32\wbem\FastProx.dll |
 C:\Windows\system32\wbem\scrcons.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -52,7 +76,12 @@ C:\Windows\system32\wbem\scrcons.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/2c91f17dd33e78430451d47f2e26715eb6e1fd8125e530182ec0caceb4cd755f/detection/
 
 
 ## Possible Misuse

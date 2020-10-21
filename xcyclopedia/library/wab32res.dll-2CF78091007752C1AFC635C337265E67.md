@@ -47,6 +47,13 @@ PE256 | `EC83D8FD99D4F27E7C2F8332B75702F9250EFE164F397DAE216ACAAC04F6E77A`
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/4cd7f926e8e4ec1abd0ad0b5e280b6e5487c922631c44658704e9ea5b9c5c157/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Mail\wab.exe](wab.exe-58CDC40AE57D2F2C6FC787BF66BAA1A6.md) | 35
+[C:\Program Files\Windows Mail\wab.exe](wab.exe-1763CB1756D4DF101F71DBC360C875E1.md) | 35
+
 ## Possible Misuse
 
 *The following table contains possible examples of `wab32res.dll` being misused. While `wab32res.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*

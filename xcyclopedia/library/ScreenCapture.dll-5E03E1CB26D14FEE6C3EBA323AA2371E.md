@@ -26,28 +26,28 @@ PE256 | `B2A9BF76CB1F11D468B4C12CF2894C642CBA8A2D2D6AE0C7244C8B9B6FAB5DD9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class ScreenCaptureObserver & __thiscall ScreenCaptureObserver::operator=(class ScreenCaptureObserver &&)` | 11 | Exported Function
-`public: class ScreenCaptureObserver & __thiscall ScreenCaptureObserver::operator=(class ScreenCaptureObserver const &)` | 12 | Exported Function
-`public: class ScreenCapture & __thiscall ScreenCapture::operator=(class ScreenCapture const &)` | 10 | Exported Function
-`public: __thiscall ScreenCaptureObserver::ScreenCaptureObserver(void)` | 7 | Exported Function
-`public: class ScreenCapture & __thiscall ScreenCapture::operator=(class ScreenCapture &&)` | 9 | Exported Function
-`public: static class std::shared_ptr<class ScreenCapture> __cdecl ScreenCaptureFact::getInstance(void)` | 22 | Exported Function
-`public: virtual void __thiscall ScreenCaptureImpl::StartCapture(wchar_t *,class std::weak_ptr<class ScreenCaptureObserver>)` | 20 | Exported Function
-`public: virtual void __thiscall ScreenCaptureImpl::StopCapture(void)` | 21 | Exported Function
-`public: virtual void __thiscall ScreenCaptureImpl::SetLogger(struct IPluginRuntime *)` | 19 | Exported Function
-`public: virtual int __thiscall ScreenCaptureImpl::SaveFromClipboard(wchar_t *)` | 17 | Exported Function
-`public: virtual void __thiscall ScreenCaptureImpl::SetLanguage(wchar_t const *,unsigned short)` | 18 | Exported Function
-`protected: virtual void __thiscall ScreenCaptureImpl::ResetCaptureDialogInstance(void)` | 16 | Exported Function
-`public: __thiscall ScreenCapture::ScreenCapture(class ScreenCapture &&)` | 1 | Exported Function
-`protected: virtual bool __thiscall ScreenCaptureImpl::CreateCaptureDialog(void)` | 15 | Exported Function
+`operator` | 11 | Exported Function
+`operator` | 12 | Exported Function
+`operator` | 10 | Exported Function
+`ScreenCaptureObserver` | 7 | Exported Function
+`operator` | 9 | Exported Function
+`getInstance` | 22 | Exported Function
+`weak_ptr` | 20 | Exported Function
+`StopCapture` | 21 | Exported Function
+`SetLogger` | 19 | Exported Function
+`SaveFromClipboard` | 17 | Exported Function
+`SetLanguage` | 18 | Exported Function
+`ResetCaptureDialogInstance` | 16 | Exported Function
+`ScreenCapture` | 1 | Exported Function
+`CreateCaptureDialog` | 15 | Exported Function
 `const ScreenCapture::``vftable'` | 13 | Exported Function
 `const ScreenCaptureObserver::``vftable'` | 14 | Exported Function
-`public: __thiscall ScreenCapture::ScreenCapture(class ScreenCapture const &)` | 2 | Exported Function
-`public: __thiscall ScreenCaptureObserver::ScreenCaptureObserver(class ScreenCaptureObserver &&)` | 5 | Exported Function
-`public: __thiscall ScreenCaptureObserver::ScreenCaptureObserver(class ScreenCaptureObserver const &)` | 6 | Exported Function
+`ScreenCapture` | 2 | Exported Function
+`ScreenCaptureObserver` | 5 | Exported Function
+`ScreenCaptureObserver` | 6 | Exported Function
 `public: __thiscall ScreenCaptureImpl::~ScreenCaptureImpl(void)` | 8 | Exported Function
-`public: __thiscall ScreenCapture::ScreenCapture(void)` | 3 | Exported Function
-`public: __thiscall ScreenCaptureImpl::ScreenCaptureImpl(void)` | 4 | Exported Function
+`ScreenCapture` | 3 | Exported Function
+`ScreenCaptureImpl` | 4 | Exported Function
 
 
 ## Signature

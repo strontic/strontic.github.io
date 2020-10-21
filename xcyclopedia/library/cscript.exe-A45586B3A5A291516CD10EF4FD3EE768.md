@@ -18,6 +18,9 @@ SHA256 | `59D3CDC7D51FA34C6B27B8B04EA17992955466EB25022B7BD64880AB35DF0BBC`
 SHA384 | `6E3273A5B9D42EE0156A80A7CE3566F6C8FEEE265917A164A597231581147496EAB6036549C4B6F5394E7DAB13AF10BA`
 SHA512 | `3C2FD1F27F3850B329C0B0854A69FDE140C27AD366D663302FEE16210049CE1E25A04D600C7FE4569E68DE00EDD31EAEA761133977FE7011B21B425DDD99F27A`
 SSDEEP | `3072:7x3CrpEcfyIZEcqQznVzA1ie5CNRwe9K9FNUxrfi66IZxtt:V38pEcbZzznVsMPRzE8fVfZh`
+IMP | `2B44D2206B9865383429E9C1524F1CAC`
+PESHA1 | `5F928AE254B645D6D0B4B3B77FD8C667E18B6994`
+PE256 | `7EA894876FF19F8E2B3D2803BE3D3317FDFD23297BCACC116D79230C8A9E1741`
 
 ## Runtime Data
 
@@ -49,10 +52,29 @@ Options:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\system32\cscript.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\sxs.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -72,7 +94,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.812.10240.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/59d3cdc7d51fa34c6b27b8b04ea17992955466eb25022b7bd64880ab35df0bbc/detection/
 
 
 ## Possible Misuse

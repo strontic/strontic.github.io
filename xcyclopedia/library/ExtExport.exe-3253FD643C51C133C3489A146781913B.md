@@ -63,6 +63,8 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-72AC703193E2AD95FF112D3BF08DD4B2.md) | 66
+[C:\Program Files\internet explorer\ExtExport.exe](ExtExport.exe-1D71EDDF5BC772FF5AAE7AD292A179D4.md) | 33
 [C:\Program Files\Internet Explorer\ExtExport.exe](ExtExport.exe-B11437540BDFC36FEE80CAEFFF057D41.md) | 38
 
 ## Possible Misuse

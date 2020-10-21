@@ -45,12 +45,15 @@ File | Score
 [C:\Windows\system32\Faultrep.dll](Faultrep.dll-AB7462DBE534AA64F8B42445A7DC5A41.md) | 40
 [C:\windows\system32\WerFault.exe](WerFault.exe-5D51C4B5991B8C112E61537B1391E060.md) | 33
 [C:\Windows\system32\WerFault.exe](WerFault.exe-B843354FF4C728A87A5A061E0974FD78.md) | 32
+[C:\Windows\system32\WerFault.exe](WerFault.exe-D6DA73EF6271A7C2B5DD7CE94393470C.md) | 38
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-21753D161716BBC3C1CE40F4EA2ED795.md) | 47
 [C:\WINDOWS\system32\WerFaultSecure.exe](WerFaultSecure.exe-6B384653F71F69C620F18506FF8D5CEB.md) | 49
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-813CD5FD7FB059B4ED2D67A99FCBEEC0.md) | 47
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-9A393C5A2213248F772F6F8AAF26CBC8.md) | 44
+[C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-BBF0F7C628D7487C47CD0B78C2DF0676.md) | 47
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C0055D829C7FF7734EE77EE11B188A05.md) | 47
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C401D20C96E687E9F68DF87D938541EE.md) | 50
+[C:\Windows\system32\wermgr.exe](wermgr.exe-319F191E142B2720AE7E200F31E5413A.md) | 44
 [C:\Windows\system32\wermgr.exe](wermgr.exe-51F8D9C50CCF160D67388651DB19AC28.md) | 46
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 46
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 44
@@ -66,6 +69,7 @@ File | Score
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-3A8ED7F8072921BB83E6C9A143983073.md) | 50
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-504211A31F3A16D3FAD61A8451D08EFD.md) | 41
 [C:\WINDOWS\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-5DF1A6DC202D24CED14830637F145F48.md) | 47
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-8629A5FC8B5A38E6BCA9160BCAE2B817.md) | 50
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-F511182849011A1DBF635A34C1278C63.md) | 47
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-0F652BF7ADA772981E8AAB0D108FCC92.md) | 43
 [C:\windows\SysWOW64\wermgr.exe](wermgr.exe-1908E6DCCB5C330CCF3F0AD7E83FA4FD.md) | 49

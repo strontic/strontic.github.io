@@ -8,6 +8,10 @@ excerpt: What is SDCleaner.exe?
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDCleaner.exe`
 * Description: Search results cleaner
 
+## Screenshot
+
+![SDCleaner.exe](screenshots/SDCleaner.exe-0FDE330837830102673073FA4C5EEAD7-2.png)
+
 ## Hashes
 
 Type | Hash

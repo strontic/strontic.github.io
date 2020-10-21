@@ -18,26 +18,9 @@ SHA256 | `B36628817A85B2491CB70B6F1F7283C5C9CCB7EFDE9ACE06AE09A9360BCDBB53`
 SHA384 | `3BE037524F8C8E0473025E6DF708BCAC99ED1CA5BB7DFED836464F94F2FD698068FD81F690745DC1278A38666C93046A`
 SHA512 | `8BF7E129C2E6B98DB8384D09445242332CF0BB834FCB1E84F07952725A12215A252E43B63A2D92379A8FD9DE0F027FBFFF6526534607CFC7A960BE8ED6817735`
 SSDEEP | `1536:4NXPgCE66sI0vmJr7u4yIUk0vG9m0+oLjvpPY:+g166shuV7u4y60vGIBoHBg`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\ucsvc.exe |
-
+IMP | `0E0328595A346203B68DE1869CCFF8C2`
+PESHA1 | `CE44E04F40A182D28FD67D254418F0B09AA01E06`
+PE256 | `F8D4903DB2B0190D4D3608D0263110977564DEA7B1381EC82C6274A9CAB5CD40`
 
 ## Signature
 
@@ -56,7 +39,12 @@ C:\Windows\system32\ucsvc.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b36628817a85b2491cb70b6f1f7283c5c9ccb7efde9ace06ae09a9360bcdbb53/detection/
 
 
 

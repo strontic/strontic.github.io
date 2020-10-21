@@ -18,6 +18,9 @@ SHA256 | `CA620F4DE4A426F129445E4D8A545B7B08B021080E7375A3EA3ED8C8A7212A8F`
 SHA384 | `927AA22383E339D7A33BB95E4A064E9C3F355B4C0CCC742AB922911FBB591E9E1B22602DBB040618A599B4C740C50331`
 SHA512 | `3FC3638B6178BED7C4D75EFFFC7F276C7D742A20A2513FF69374B69C86D651C0B89390C7F9DD48856C04A9B8413C9C579BCD43EB06CCB34ABEB1D73609C8DE39`
 SSDEEP | `1536:w69m34ldr8tMxKLruZ9CFpfWswrfHK4gAULUVPrT:w69m3ad6MQPkMFpf/QfHK4gAUoV/`
+IMP | `9839C7FD9649496B162F72128209528A`
+PESHA1 | `25F897B00FF613C2C29438BA0B4F2E5B216A63A1`
+PE256 | `5051AD8587E4ECCF5355B2AB3A972ED8899DC61001720C8F3359A2BCBC830AA3`
 
 ## Runtime Data
 
@@ -25,10 +28,22 @@ SSDEEP | `1536:w69m34ldr8tMxKLruZ9CFpfWswrfHK4gAULUVPrT:w69m3ad6MQPkMFpf/QfHK4gA
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imm32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\system32\taskhostw.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -48,7 +63,12 @@ C:\Windows\system32\taskhostw.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/ca620f4de4a426f129445e4d8a545b7b08b021080e7375a3ea3ed8c8a7212a8f/detection/
 
 
 ## Possible Misuse

@@ -26,11 +26,11 @@ PE256 | `9B8E41CD31FDA927DDC5C71A9ED6DFA0D2D1481F83E8DFE0CD2F559C16632CEC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class CAutoSetActivityId & __ptr64 __cdecl CAutoSetActivityId::operator=(class CAutoSetActivityId const & __ptr64) __ptr64` | 3 | Exported Function
-`public: class CCritSec & __ptr64 __cdecl CCritSec::operator=(class CCritSec const & __ptr64) __ptr64` | 4 | Exported Function
+`operator` | 3 | Exported Function
+`operator` | 4 | Exported Function
 `public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 2 | Exported Function
 `MI_Application_InitializeV1` | 5 | Exported Function
-`public: __cdecl CCritSec::CCritSec(void) __ptr64` | 1 | Exported Function
+`CCritSec` | 1 | Exported Function
 
 
 ## Signature

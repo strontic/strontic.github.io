@@ -18,6 +18,9 @@ SHA256 | `96A0FA913D1688D61496B0001F5264FC1727C9A7AF9232D1EB02811252ED1908`
 SHA384 | `FD944F062FF4B8FC0C81F4467245C118AE06D3EE7EA59DF7D66DE3248434C221CD7C53A73106C491B14755C3E688619D`
 SHA512 | `391AE1C8CA8C39DBACA9CCE8F14EFB048F6D8C56B3206BD0E432B2EEE5BE223516303099E88A1ACC9499B4F598DE12BBFDDB867D5A45FC8A189BC2694C5FE881`
 SSDEEP | `384:dmSjRRQsfowYYmUO68sd2HMWU6ltmTL8SdxW6AW:BY+LdL+4TL8I`
+IMP | `527F94868035A5EFB9B24DFA6322F29D`
+PESHA1 | `765D87E1C72DE0F6D71FB333053BF387AAEE0C9F`
+PE256 | `400AFDB027767975109C89D67C661C9F964058094E1B42977DC81140A1AB08BC`
 
 ## Runtime Data
 
@@ -49,7 +52,10 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -58,7 +64,18 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\SYSTEM32\DNSAPI.dll |
+C:\Windows\system32\IPHLPAPI.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\mswsock.dll |
+C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PATHPING.EXE |
+C:\Windows\System32\rasadhlp.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -78,7 +95,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/96a0fa913d1688d61496b0001f5264fc1727c9a7af9232d1eb02811252ed1908/detection/
 
 
 

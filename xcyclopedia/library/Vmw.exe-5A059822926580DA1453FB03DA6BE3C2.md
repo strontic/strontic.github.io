@@ -29,7 +29,7 @@ Volume Activation Tools
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\Cor_Private_IPCBlock_v4_6804 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section

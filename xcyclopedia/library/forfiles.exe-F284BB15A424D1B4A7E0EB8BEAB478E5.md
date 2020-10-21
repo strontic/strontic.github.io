@@ -18,6 +18,9 @@ SHA256 | `FF892CC591BED1B9BA539AEABD86E9D19387D4378F050676553F21E340DF68EF`
 SHA384 | `567A9C2FA8BB9EC74828ABB8B6F01733E210CBFD4EC5BF85DAE6F54DD6590578CC4FF6F5C20B751F08F2D464809792C2`
 SHA512 | `5123E8CF60DF1774615EBFDC8B9E9A5B67216BAAAAACC60BFABE770AA59DB34F012BCCC9760B9C1C3E536A3708F551770AC36023E6242AAC6B4837089B9CCD58`
 SSDEEP | `768:E96R5XpJwwpx7bEXRvCkkkSQU8Diw3szKiaz90JZxtbc9RwzSLn:E967wyYvcka8Dies7BxtMRwzU`
+IMP | `64E68F7B6E212C1F2B12FFE1C1CFE372`
+PESHA1 | `D0DD27DA0DCFD40020CAB67BA0780082F7A7ACD9`
+PE256 | `73249999B49456B3A0EC50AA3E5662606555EE1AFA2EDC6B1561CF4ECAD859CF`
 
 ## Runtime Data
 
@@ -96,7 +99,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +8/30/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +10/19/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"
@@ -127,7 +130,12 @@ Type "FORFILES /?" for usage.
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/ff892cc591bed1b9ba539aeabd86e9d19387d4378f050676553f21e340df68ef/detection/
 
 
 ## Possible Misuse

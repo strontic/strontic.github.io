@@ -18,6 +18,9 @@ SHA256 | `2FF5665B87450D2D81C61C3128DE95418EA99A7B329C99B4FF16EC65DECE2DE2`
 SHA384 | `E7E7B02544A8464CF12231E3F72183A9CB96636C714CAA0BFCC487BE300DCF6F17788A6DC44D778CB3232B888A8E6F18`
 SHA512 | `668655AE0814A188FA32BF2420EF5C1DCC550683AEAEBFC500D0FED515F5DFD149F6E4FC39B5BB21E63A6FE1EE48AA605D3E1090F38156C6048B847C147D6170`
 SSDEEP | `3072:KtHwJOXNE1ntLGA3zlAsMz3rHfrQrE0I5et372xaU62:HJOXNuntiAz3Mvfrv5etrP`
+IMP | `B985D106F2EED6C2BADE4F1EFE2FE39D`
+PESHA1 | `086D327704DB9D924F62B2D6ABE7F1511F4B6A2B`
+PE256 | `1A12AE53ABFB30C8BE488AECEE6B53095B1A8BAEE6A9AACFF68FECA88FC92243`
 
 ## Runtime Data
 
@@ -27,7 +30,7 @@ SSDEEP | `3072:KtHwJOXNE1ntLGA3zlAsMz3rHfrQrE0I5et372xaU62:HJOXNuntiAz3Mvfrv5etr
 Microsoft DiskPart version 10.0.17763.1
 
 Copyright (C) Microsoft Corporation.
-On computer: EC2AMAZ-0F59E47
+On computer: Default-PC
 
 Microsoft DiskPart syntax:
 	diskpart [/s <script>] [/?]
@@ -42,6 +45,8 @@ Microsoft DiskPart syntax:
 Path |
 -- |
 C:\Windows\system32\diskpart.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 
 
@@ -62,7 +67,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/2ff5665b87450d2d81c61c3128de95418ea99a7b329c99b4ff16ec65dece2de2/detection/
 
 
 ## Possible Misuse

@@ -26,15 +26,15 @@ PE256 | `B30C34E24A466DDE9E2A935D7909383F142F5C0942FBE241B53677D9F2AEF731`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class SecomHeadset::CHeadsetInfo * __thiscall SecomHeadset::CHeadsetInfo::operator=(class SecomHeadset::CHeadsetInfo *)` | 6 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 7 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 5 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl SecomHeadset::CHeadsetInfo::trim(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 9 | Exported Function
-`public: __thiscall SecomHeadset::CHeadsetInfo::~CHeadsetInfo(void)` | 4 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 2 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 8 | Exported Function
-`public: __thiscall SecomHeadset::CHeadsetInfo::CHeadsetInfo(void)` | 1 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 3 | Exported Function
+`CHeadsetInfo` | 6 | Exported Function
+`IHSInterface` | 7 | Exported Function
+`IHSInterface` | 5 | Exported Function
+`allocator` | 9 | Exported Function
+`CHeadsetInfo` | 4 | Exported Function
+`IHSInterface` | 2 | Exported Function
+`IHSInterface` | 8 | Exported Function
+`CHeadsetInfo` | 1 | Exported Function
+`IHSInterface` | 3 | Exported Function
 
 
 ## Signature

@@ -48,6 +48,11 @@ C:\Windows\system32\wuauclt.exe |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wuauclt.exe](wuauclt.exe-2DC92DE9298D82A2ADC787E22306239D.md) | 93
 
 ## Possible Misuse
 

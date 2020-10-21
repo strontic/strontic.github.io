@@ -18,6 +18,9 @@ SHA256 | `E1AE2EC83FEC0C8CF01B9E4C3DA910BE61ABF3071E56EDA834590C405E8E4E69`
 SHA384 | `70006E1A37A607F00F63B1222671653C4FF5BDAD6B98DD81DBDE1F88DD7AE585F71509FFCBDE1958CF23197371E428D1`
 SHA512 | `C11682E2229B4A2E7EC2FD1FE2FA4A988109D4743373C5530D7BC45EDB75B78541993B948DA08A63FEF894AC3D8AAA37575F2CF485191AE66BFE235C0DDF5EBD`
 SSDEEP | `768:xLqMld2QHrlnu6X5rJZc1l3SCAKK8rPXugLxVay:0dsBNX5rjGP6y`
+IMP | `45B4A06EB57D86287767753D3ED73862`
+PESHA1 | `CC77569004C78AC0FC628B1AC7ED6987BABDCAEE`
+PE256 | `EC16345A41095FB4A8A3E7B2C26F06B6A149788D23B73B15D44AEEA30853F759`
 
 ## Runtime Data
 
@@ -62,16 +65,6 @@ QUERY SESSION [sessionname | username | sessionid]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\qwinsta.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -89,7 +82,12 @@ C:\Windows\system32\qwinsta.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e1ae2ec83fec0c8cf01b9e4c3da910be61abf3071e56eda834590c405e8e4e69/detection/
 
 ## File Similarity (ssdeep match)
 

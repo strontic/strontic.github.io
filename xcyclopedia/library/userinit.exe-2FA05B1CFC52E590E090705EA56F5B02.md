@@ -18,6 +18,9 @@ SHA256 | `6F1C2FD98615B9B0427ABB5AF0DEF53E3205B4A9E5EEC008E2284E28E839B096`
 SHA384 | `56DCB11112C8E761D5AAF9B814EB16FB0AF9DCF301D15437A6BB5897F406D854595330D29FDC885AAA1E585E2428BA5D`
 SHA512 | `CCEBCAEA3051A05F11EBD0AF5422A43E15CD9469ADEA6BB46644154946234290A388940FA2F19A26774CD3D11E1E4D262ACD0FC5628F193CA8FCDBB14AC24985`
 SSDEEP | `384:BU8ligOwpzLgHTZ4xBlwOHzuommB//QNmYMQnkvWxymW7:BbliwpLgHGvVXmk/QNmYn2`
+IMP | `BCEBEA8627BDCA82019861C4F7DA1EC4`
+PESHA1 | `F98B391884DC3F0855097A09B61D18FA3B9EC629`
+PE256 | `FBA15F653EA57340D3EF26EC9BCBAB47E8AB0DE18B0C169E4BA5AF428B3465A7`
 
 ## Runtime Data
 
@@ -26,8 +29,11 @@ SSDEEP | `384:BU8ligOwpzLgHTZ4xBlwOHzuommB//QNmYMQnkvWxymW7:BbliwpLgHGvVXmk/QNmY
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\userinit.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -37,6 +43,10 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\userinit.exe |
 
 
 ## Signature
@@ -56,7 +66,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/6f1c2fd98615b9b0427abb5af0def53e3205b4a9e5eec008e2284e28e839b096/detection/
 
 
 ## Possible Misuse

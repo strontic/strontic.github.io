@@ -26,82 +26,82 @@ PE256 | `E76F5F43C65D91E93312F3AC2EF81746DDE0A43CCD82E8FA95ED254FAD7B5F02`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned long __cdecl CIniW::GPPI(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long)const __ptr64` | 79 | Exported Function
-`public: unsigned long __cdecl CIniA::GPPI(char const * __ptr64,char const * __ptr64,unsigned long)const __ptr64` | 78 | Exported Function
-`public: unsigned short * __ptr64 __cdecl CIniW::LoadSection(unsigned short const * __ptr64)const __ptr64` | 109 | Exported Function
-`public: unsigned short * __ptr64 __cdecl CIniW::GPPS(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 81 | Exported Function
-`public: struct HINSTANCE__ * __ptr64 __cdecl CIniW::GetHInst(void)const __ptr64` | 86 | Exported Function
-`public: long __cdecl CmLogFile::Stop(void) __ptr64` | 139 | Exported Function
-`public: long __cdecl CmLogFile::Start(int) __ptr64` | 138 | Exported Function
-`public: struct HINSTANCE__ * __ptr64 __cdecl CIniA::GetHInst(void)const __ptr64` | 85 | Exported Function
-`public: static unsigned long const CIniW::kMaxValueLength` | 151 | Exported Function
+`GPPI` | 79 | Exported Function
+`GPPI` | 78 | Exported Function
+`LoadSection` | 109 | Exported Function
+`GPPS` | 81 | Exported Function
+`GetHInst` | 86 | Exported Function
+`Stop` | 139 | Exported Function
+`Start` | 138 | Exported Function
+`GetHInst` | 85 | Exported Function
+`kMaxValueLength` | 151 | Exported Function
 `public: void __cdecl CIniA::``default constructor closure'(void) __ptr64` | 14 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CmLogFile::GetLogFilePath(void) __ptr64` | 87 | Exported Function
-`public: void __cdecl CIniA::SetEntry(char const * __ptr64) __ptr64` | 114 | Exported Function
-`public: void __cdecl CIniA::Clear(void) __ptr64` | 25 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CIniW::GetSection(void)const __ptr64` | 99 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CIniW::GetPrimaryFile(void)const __ptr64` | 93 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CIniW::GetFile(void)const __ptr64` | 84 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CIniW::GetRegPath(void)const __ptr64` | 97 | Exported Function
-`public: unsigned short const * __ptr64 __cdecl CIniW::GetPrimaryRegPath(void)const __ptr64` | 95 | Exported Function
-`public: long __cdecl CmLogFile::SetParams(int,unsigned long,unsigned short const * __ptr64) __ptr64` | 125 | Exported Function
-`public: class CIniW & __ptr64 __cdecl CIniW::operator=(class CIniW const & __ptr64) __ptr64` | 10 | Exported Function
-`public: class CIniA & __ptr64 __cdecl CIniA::operator=(class CIniA const & __ptr64) __ptr64` | 9 | Exported Function
-`public: class CRandom & __ptr64 __cdecl CRandom::operator=(class CRandom && __ptr64) __ptr64` | 11 | Exported Function
-`public: class CmLogFile & __ptr64 __cdecl CmLogFile::operator=(class CmLogFile const & __ptr64) __ptr64` | 13 | Exported Function
-`public: char const * __ptr64 __cdecl CIniA::GetSection(void)const __ptr64` | 98 | Exported Function
-`public: char const * __ptr64 __cdecl CIniA::GetPrimaryFile(void)const __ptr64` | 92 | Exported Function
-`public: char const * __ptr64 __cdecl CIniA::GetFile(void)const __ptr64` | 83 | Exported Function
-`public: char const * __ptr64 __cdecl CIniA::GetRegPath(void)const __ptr64` | 96 | Exported Function
-`public: char const * __ptr64 __cdecl CIniA::GetPrimaryRegPath(void)const __ptr64` | 94 | Exported Function
-`public: long __cdecl CmLogFile::Init(struct HINSTANCE__ * __ptr64,int,char const * __ptr64) __ptr64` | 101 | Exported Function
-`public: long __cdecl CmLogFile::DeInit(void) __ptr64` | 74 | Exported Function
-`public: long __cdecl CmLogFile::SetParams(int,unsigned long,char const * __ptr64) __ptr64` | 124 | Exported Function
-`public: long __cdecl CmLogFile::Init(struct HINSTANCE__ * __ptr64,int,unsigned short const * __ptr64) __ptr64` | 102 | Exported Function
-`public: int __cdecl CRandom::Generate(void) __ptr64` | 82 | Exported Function
-`public: int __cdecl CIniA::GPPB(char const * __ptr64,char const * __ptr64,int)const __ptr64` | 76 | Exported Function
-`public: class CRandom & __ptr64 __cdecl CRandom::operator=(class CRandom const & __ptr64) __ptr64` | 12 | Exported Function
-`public: int __cdecl CmLogFile::IsEnabled(void) __ptr64` | 103 | Exported Function
-`public: int __cdecl CIniW::GPPB(unsigned short const * __ptr64,unsigned short const * __ptr64,int)const __ptr64` | 77 | Exported Function
-`public: void __cdecl CIniA::SetEntryFromIdx(unsigned long) __ptr64` | 116 | Exported Function
-`public: void __cdecl CIniW::WPPB(unsigned short const * __ptr64,unsigned short const * __ptr64,int) __ptr64` | 143 | Exported Function
-`public: void __cdecl CIniW::SetWriteICSData(int) __ptr64` | 137 | Exported Function
-`public: void __cdecl CIniW::WPPS(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 147 | Exported Function
-`public: void __cdecl CIniW::WPPI(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 145 | Exported Function
-`public: void __cdecl CIniW::SetSection(unsigned short const * __ptr64) __ptr64` | 135 | Exported Function
-`public: void __cdecl CIniW::SetPrimaryRegPath(unsigned short const * __ptr64) __ptr64` | 129 | Exported Function
-`public: void __cdecl CIniW::SetPrimaryFile(unsigned short const * __ptr64) __ptr64` | 127 | Exported Function
-`public: void __cdecl CIniW::SetRegPath(unsigned short const * __ptr64) __ptr64` | 133 | Exported Function
-`public: void __cdecl CIniW::SetReadICSData(int) __ptr64` | 131 | Exported Function
+`GetLogFilePath` | 87 | Exported Function
+`SetEntry` | 114 | Exported Function
+`Clear` | 25 | Exported Function
+`GetSection` | 99 | Exported Function
+`GetPrimaryFile` | 93 | Exported Function
+`GetFile` | 84 | Exported Function
+`GetRegPath` | 97 | Exported Function
+`GetPrimaryRegPath` | 95 | Exported Function
+`SetParams` | 125 | Exported Function
+`operator` | 10 | Exported Function
+`operator` | 9 | Exported Function
+`operator` | 11 | Exported Function
+`operator` | 13 | Exported Function
+`GetSection` | 98 | Exported Function
+`GetPrimaryFile` | 92 | Exported Function
+`GetFile` | 83 | Exported Function
+`GetRegPath` | 96 | Exported Function
+`GetPrimaryRegPath` | 94 | Exported Function
+`Init` | 101 | Exported Function
+`DeInit` | 74 | Exported Function
+`SetParams` | 124 | Exported Function
+`Init` | 102 | Exported Function
+`Generate` | 82 | Exported Function
+`GPPB` | 76 | Exported Function
+`operator` | 12 | Exported Function
+`IsEnabled` | 103 | Exported Function
+`GPPB` | 77 | Exported Function
+`SetEntryFromIdx` | 116 | Exported Function
+`WPPB` | 143 | Exported Function
+`SetWriteICSData` | 137 | Exported Function
+`WPPS` | 147 | Exported Function
+`WPPI` | 145 | Exported Function
+`SetSection` | 135 | Exported Function
+`SetPrimaryRegPath` | 129 | Exported Function
+`SetPrimaryFile` | 127 | Exported Function
+`SetRegPath` | 133 | Exported Function
+`SetReadICSData` | 131 | Exported Function
 `SzToWzWithAlloc` | 141 | Exported Function
 `SzToWz` | 140 | Exported Function
 `WzToSzWithAlloc` | 150 | Exported Function
 `WzToSz` | 149 | Exported Function
 `ReleaseBold` | 113 | Exported Function
-`public: void __cdecl CmLogFile::Clear(int) __ptr64` | 27 | Exported Function
-`public: void __cdecl CmLogFile::Banner(void) __ptr64` | 16 | Exported Function
-`public: void __cdecl CRandom::Init(unsigned long) __ptr64` | 100 | Exported Function
-`public: void __cdecl CmLogFile::Log(enum _CMLOG_ITEM,...) __ptr64` | 110 | Exported Function
-`public: void __cdecl CIniW::SetICSDataPath(unsigned short const * __ptr64) __ptr64` | 123 | Exported Function
-`public: void __cdecl CIniA::SetRegPath(char const * __ptr64) __ptr64` | 132 | Exported Function
-`public: void __cdecl CIniA::SetReadICSData(int) __ptr64` | 130 | Exported Function
-`public: void __cdecl CIniA::SetWriteICSData(int) __ptr64` | 136 | Exported Function
-`public: void __cdecl CIniA::SetSection(char const * __ptr64) __ptr64` | 134 | Exported Function
-`public: void __cdecl CIniA::SetPrimaryRegPath(char const * __ptr64) __ptr64` | 128 | Exported Function
-`public: void __cdecl CIniA::SetHInst(struct HINSTANCE__ * __ptr64) __ptr64` | 120 | Exported Function
-`public: void __cdecl CIniA::SetFile(char const * __ptr64) __ptr64` | 118 | Exported Function
-`public: void __cdecl CIniA::SetPrimaryFile(char const * __ptr64) __ptr64` | 126 | Exported Function
-`public: void __cdecl CIniA::SetICSDataPath(char const * __ptr64) __ptr64` | 122 | Exported Function
-`public: void __cdecl CIniW::SetEntryFromIdx(unsigned long) __ptr64` | 117 | Exported Function
-`public: void __cdecl CIniW::SetEntry(unsigned short const * __ptr64) __ptr64` | 115 | Exported Function
-`public: void __cdecl CIniW::SetHInst(struct HINSTANCE__ * __ptr64) __ptr64` | 121 | Exported Function
-`public: void __cdecl CIniW::SetFile(unsigned short const * __ptr64) __ptr64` | 119 | Exported Function
-`public: void __cdecl CIniW::Clear(void) __ptr64` | 26 | Exported Function
-`public: void __cdecl CIniA::WPPI(char const * __ptr64,char const * __ptr64,unsigned long) __ptr64` | 144 | Exported Function
-`public: void __cdecl CIniA::WPPB(char const * __ptr64,char const * __ptr64,int) __ptr64` | 142 | Exported Function
+`Clear` | 27 | Exported Function
+`Banner` | 16 | Exported Function
+`Init` | 100 | Exported Function
+`Log` | 110 | Exported Function
+`SetICSDataPath` | 123 | Exported Function
+`SetRegPath` | 132 | Exported Function
+`SetReadICSData` | 130 | Exported Function
+`SetWriteICSData` | 136 | Exported Function
+`SetSection` | 134 | Exported Function
+`SetPrimaryRegPath` | 128 | Exported Function
+`SetHInst` | 120 | Exported Function
+`SetFile` | 118 | Exported Function
+`SetPrimaryFile` | 126 | Exported Function
+`SetICSDataPath` | 122 | Exported Function
+`SetEntryFromIdx` | 117 | Exported Function
+`SetEntry` | 115 | Exported Function
+`SetHInst` | 121 | Exported Function
+`SetFile` | 119 | Exported Function
+`Clear` | 26 | Exported Function
+`WPPI` | 144 | Exported Function
+`WPPB` | 142 | Exported Function
 `public: void __cdecl CIniW::``default constructor closure'(void) __ptr64` | 15 | Exported Function
-`public: void __cdecl CIniA::WPPS(char const * __ptr64,char const * __ptr64,char const * __ptr64) __ptr64` | 146 | Exported Function
-`public: char * __ptr64 __cdecl CIniA::LoadSection(char const * __ptr64)const __ptr64` | 108 | Exported Function
+`WPPS` | 146 | Exported Function
+`LoadSection` | 108 | Exported Function
 `CmRealloc` | 54 | Exported Function
 `CmParsePathW` | 53 | Exported Function
 `CmStrCatAllocW` | 56 | Exported Function
@@ -140,25 +140,25 @@ Function Name | Ordinal | Type
 `CmFree` | 41 | Exported Function
 `CmFmtMsgW` | 40 | Exported Function
 `CmStripPathAndExtW` | 69 | Exported Function
-`protected: unsigned char * __ptr64 __cdecl CIniA::CIniA_GetEntryFromReg(struct HKEY__ * __ptr64,char const * __ptr64,char const * __ptr64,unsigned long,unsigned long)const __ptr64` | 18 | Exported Function
-`protected: static void __cdecl CIniW::CIni_SetFile(unsigned short * __ptr64 * __ptr64,unsigned short const * __ptr64)` | 24 | Exported Function
-`protected: unsigned short * __ptr64 __cdecl CIniW::LoadEntry(unsigned short const * __ptr64)const __ptr64` | 107 | Exported Function
-`protected: unsigned char * __ptr64 __cdecl CIniW::CIniW_GetEntryFromReg(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long,unsigned long)const __ptr64` | 21 | Exported Function
-`protected: static void __cdecl CIniA::CIni_SetFile(char * __ptr64 * __ptr64,char const * __ptr64)` | 23 | Exported Function
-`protected: int __cdecl CIniA::CIniA_WriteEntryToReg(struct HKEY__ * __ptr64,char const * __ptr64,char const * __ptr64,unsigned char const * __ptr64,unsigned long,unsigned long)const __ptr64` | 19 | Exported Function
-`protected: int __cdecl CIniA::CIniA_DeleteEntryFromReg(struct HKEY__ * __ptr64,char const * __ptr64,char const * __ptr64)const __ptr64` | 17 | Exported Function
-`protected: int __cdecl CIniW::CIniW_WriteEntryToReg(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned char const * __ptr64,unsigned long,unsigned long)const __ptr64` | 22 | Exported Function
-`protected: int __cdecl CIniW::CIniW_DeleteEntryFromReg(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)const __ptr64` | 20 | Exported Function
-`public: __cdecl CRandom::CRandom(unsigned int) __ptr64` | 3 | Exported Function
+`CIniA_GetEntryFromReg` | 18 | Exported Function
+`CIni_SetFile` | 24 | Exported Function
+`LoadEntry` | 107 | Exported Function
+`CIniW_GetEntryFromReg` | 21 | Exported Function
+`CIni_SetFile` | 23 | Exported Function
+`CIniA_WriteEntryToReg` | 19 | Exported Function
+`CIniA_DeleteEntryFromReg` | 17 | Exported Function
+`CIniW_WriteEntryToReg` | 22 | Exported Function
+`CIniW_DeleteEntryFromReg` | 20 | Exported Function
+`CRandom` | 3 | Exported Function
 `public: __cdecl CmLogFile::~CmLogFile(void) __ptr64` | 8 | Exported Function
-`public: char * __ptr64 __cdecl CIniA::GPPS(char const * __ptr64,char const * __ptr64,char const * __ptr64)const __ptr64` | 80 | Exported Function
-`public: __cdecl CRandom::CRandom(void) __ptr64` | 4 | Exported Function
-`public: __cdecl CmLogFile::CmLogFile(void) __ptr64` | 5 | Exported Function
+`GPPS` | 80 | Exported Function
+`CRandom` | 4 | Exported Function
+`CmLogFile` | 5 | Exported Function
 `public: __cdecl CIniA::~CIniA(void) __ptr64` | 6 | Exported Function
-`public: __cdecl CIniA::CIniA(struct HINSTANCE__ * __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64,char const * __ptr64) __ptr64` | 1 | Exported Function
+`CIniA` | 1 | Exported Function
 `public: __cdecl CIniW::~CIniW(void) __ptr64` | 7 | Exported Function
-`public: __cdecl CIniW::CIniW(struct HINSTANCE__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 2 | Exported Function
-`protected: char * __ptr64 __cdecl CIniA::LoadEntry(char const * __ptr64)const __ptr64` | 106 | Exported Function
+`CIniW` | 2 | Exported Function
+`LoadEntry` | 106 | Exported Function
 `CmStrTrimW` | 65 | Exported Function
 `CmStrtokW` | 73 | Exported Function
 `GetOSMajorVersion` | 89 | Exported Function
@@ -168,10 +168,10 @@ Function Name | Ordinal | Type
 `CmStrrchrA` | 70 | Exported Function
 `CmStrStrW` | 64 | Exported Function
 `CmStrStrA` | 63 | Exported Function
-`private: long __cdecl CmLogFile::OpenFile(void) __ptr64` | 112 | Exported Function
-`private: long __cdecl CmLogFile::CloseFile(void) __ptr64` | 28 | Exported Function
-`private: void __cdecl CmLogFile::FormatWrite(enum _CMLOG_ITEM,unsigned short * __ptr64) __ptr64` | 75 | Exported Function
-`private: long __cdecl CmLogFile::Write(unsigned short * __ptr64) __ptr64` | 148 | Exported Function
+`OpenFile` | 112 | Exported Function
+`CloseFile` | 28 | Exported Function
+`FormatWrite` | 75 | Exported Function
+`Write` | 148 | Exported Function
 `MakeBold` | 111 | Exported Function
 `GetOSVersion` | 91 | Exported Function
 `GetOSMinorVersion` | 90 | Exported Function

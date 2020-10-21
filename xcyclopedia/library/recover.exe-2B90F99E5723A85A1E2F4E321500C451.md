@@ -18,6 +18,9 @@ SHA256 | `29F48C967EFD519B84C8FF518BF7F6CAFA13BB34D8FA9AF893C05A10197F3A34`
 SHA384 | `E8148A0A936094245E2315DFC79AC1C444E7713F119145CBA67D31AC7820145B4C66A9EFA92ACD4FF684C83D4D2B5EFD`
 SHA512 | `3065FE4F4FAAF223048B4961DA07BDFEB840FC49350BF634D5AC6D24ECAEB9CF8BF1BA5E6122646DD8830AC26DEB9DF1CCE9754C48F8BBB94D47E06C1C93F479`
 SSDEEP | `192:P94R+sms/RBGk4NFOp+DWt2SHsk2TWPnWnhIBw9Go:+RYCR8kiFOpb2q2TWPnWhIi0o`
+IMP | `CD8185705936323067B6715FDC1BF798`
+PESHA1 | `D79DA7D46E82B7DAAE37A34BAF6A859174F511F8`
+PE256 | `4DBE05B38E4521574AF13F8935D56B3603A7D68465540FA7B3302A7493D1ACCB`
 
 ## Runtime Data
 
@@ -39,8 +42,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -73,7 +79,12 @@ C:\Windows\SysWOW64\recover.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/29f48c967efd519b84c8ff518bf7f6cafa13bb34d8fa9af893c05a10197f3a34/detection/
 
 ## File Similarity (ssdeep match)
 

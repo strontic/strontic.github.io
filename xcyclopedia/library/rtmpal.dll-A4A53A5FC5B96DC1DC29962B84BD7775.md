@@ -153,18 +153,18 @@ Function Name | Ordinal | Type
 `threadCurrentId` | 195 | Exported Function
 `threadYield` | 196 | Exported Function
 `TraceMessage` | 470 | Exported Function
-`struct spl::Sysinfo spl::g_sysInfo` | 121 | Exported Function
-`struct rtnet::X509CertName * __ptr64 __cdecl rtnet::x509NameEncode(char const * __ptr64)` | 212 | Exported Function
-`struct spl::CPUTopology spl::g_CPUTopology` | 108 | Exported Function
-`struct spl::HidingSystemTime __cdecl spl::localTimestamp(void)` | 142 | Exported Function
+`g_sysInfo` | 121 | Exported Function
+`x509NameEncode` | 212 | Exported Function
+`g_CPUTopology` | 108 | Exported Function
+`localTimestamp` | 142 | Exported Function
 `UnregisterTraceGuids` | 471 | Exported Function
-`unsigned __int64 __cdecl spl::strlcpy(char * __ptr64,char const * __ptr64,unsigned __int64)` | 190 | Exported Function
-`unsigned __int64 __cdecl spl::strnlen_s(char const * __ptr64,unsigned __int64)` | 191 | Exported Function
-`unsigned __int64 __cdecl spl::utcHpTimestamp(void)` | 202 | Exported Function
-`unsigned __int64 __cdecl spl::msFromHp(__int64)` | 157 | Exported Function
-`unsigned __int64 __cdecl spl::decodeUtf8(void * __ptr64,unsigned __int64,char const * __ptr64,unsigned __int64,unsigned __int64)` | 73 | Exported Function
-`unsigned __int64 __cdecl spl::encodeUtf8(char * __ptr64,unsigned __int64,void const * __ptr64,unsigned __int64,unsigned __int64)` | 91 | Exported Function
-`unsigned __int64 __cdecl spl::highPrecisionTimestamp(void)` | 128 | Exported Function
+`strlcpy` | 190 | Exported Function
+`strnlen_s` | 191 | Exported Function
+`utcHpTimestamp` | 202 | Exported Function
+`msFromHp` | 157 | Exported Function
+`decodeUtf8` | 73 | Exported Function
+`encodeUtf8` | 91 | Exported Function
+`highPrecisionTimestamp` | 128 | Exported Function
 `RtcPalWaitForAnyObject` | 465 | Exported Function
 `RtcPalWaitForSingleObject` | 466 | Exported Function
 `RtcPalWlanEnterMediaStreamingMode` | 467 | Exported Function
@@ -173,44 +173,44 @@ Function Name | Ordinal | Type
 `RtcPalUninitCollectSystemMetrics` | 462 | Exported Function
 `RtcPalWaitAndCancelPendingCallback` | 463 | Exported Function
 `RtcPalWlanLeaveMediaStreamingMode` | 468 | Exported Function
-`struct rtnet::TlsSession * __ptr64 __cdecl rtnet::dtlsCreate(bool,struct rtnet::X509Cert const * __ptr64)` | 82 | Exported Function
-`struct rtnet::X509Cert * __ptr64 __cdecl rtnet::getSelfSignedCert(struct rtnet::X509CertName const * __ptr64,__int64,__int64,enum spl::HashAlgorithm,void * __ptr64)` | 126 | Exported Function
-`struct rtnet::X509Cert * __ptr64 __cdecl rtnet::tlsGetPeerCert(struct rtnet::TlsSession * __ptr64)` | 200 | Exported Function
+`X509Cert` | 82 | Exported Function
+`HashAlgorithm` | 126 | Exported Function
+`TlsSession` | 200 | Exported Function
 `spl_pii_UserIdW` | 495 | Exported Function
 `SetLastError` | 469 | Exported Function
 `spl_pii_OmitS` | 493 | Exported Function
 `spl_pii_OmitW` | 494 | Exported Function
-`unsigned __int64 auf::g_configMaxObjectWaitUs` | 111 | Exported Function
-`void __cdecl rtnet::tlsBufFree(struct rtnet::TlsBuf * __ptr64)` | 198 | Exported Function
-`void __cdecl rtnet::tlsBufInit(struct rtnet::TlsBuf * __ptr64)` | 199 | Exported Function
-`void __cdecl rtnet::x509NameDestroy(struct rtnet::X509CertName * __ptr64)` | 211 | Exported Function
-`void __cdecl rtnet::dtlsSrtpParametersFreeMkiBuffer(struct rtnet::DtlsSrtpParameters * __ptr64)` | 84 | Exported Function
-`void __cdecl auf::weak_intrusive_ptr_release(class auf::WeakAuxiliary * __ptr64)` | 210 | Exported Function
-`void __cdecl rtnet::destroyCert(struct rtnet::X509Cert * __ptr64)` | 76 | Exported Function
-`void __cdecl rtnet::dtlsDestroy(struct rtnet::TlsSession * __ptr64)` | 83 | Exported Function
-`void __cdecl spl::callOperatorDelete(void * __ptr64)` | 47 | Exported Function
-`void __cdecl spl::sleep(unsigned __int64)` | 181 | Exported Function
-`void __cdecl spl::sysInfoCPUInfo(unsigned int,struct spl::CPUInfo & __ptr64)` | 193 | Exported Function
+`g_configMaxObjectWaitUs` | 111 | Exported Function
+`TlsBuf` | 198 | Exported Function
+`TlsBuf` | 199 | Exported Function
+`X509CertName` | 211 | Exported Function
+`DtlsSrtpParameters` | 84 | Exported Function
+`WeakAuxiliary` | 210 | Exported Function
+`X509Cert` | 76 | Exported Function
+`TlsSession` | 83 | Exported Function
+`callOperatorDelete` | 47 | Exported Function
+`sleep` | 181 | Exported Function
+`CPUInfo` | 193 | Exported Function
 `WideCharToMultiByte` | 472 | Exported Function
-`void __cdecl spl::memFree(void * __ptr64)` | 152 | Exported Function
-`void __cdecl spl::dataBarrier(void)` | 70 | Exported Function
-`void __cdecl spl::fileClose(void * __ptr64)` | 98 | Exported Function
-`void __cdecl spl::logBackTraceInfo(void)` | 148 | Exported Function
-`void * __ptr64 __cdecl spl::callOperatorNew(unsigned __int64)` | 48 | Exported Function
-`void * __ptr64 __cdecl spl::fileOpen(class spl::Path const & __ptr64,enum spl::FileSemantics,int,enum spl::FileError & __ptr64)` | 100 | Exported Function
-`void * __ptr64 __cdecl spl::memMalloc(unsigned __int64)` | 153 | Exported Function
-`unsigned int volatile auf::g_nextObjectId` | 119 | Exported Function
-`unsigned int auf::g_configGlobalLockfreeStackPoolSizeL2` | 110 | Exported Function
-`unsigned int auf::g_configTraceFifoSizeL2` | 112 | Exported Function
-`unsigned int volatile auf::g_nextCallId` | 118 | Exported Function
-`void __cdecl auf::intrusive_ptr_add_ref(class auf::IReferenceCountable const * __ptr64)` | 132 | Exported Function
-`void __cdecl auf::startImp(struct SplOpaqueUpperLayerThread * __ptr64,struct spl::VarBase * __ptr64)` | 183 | Exported Function
-`void __cdecl auf::stopInternal(struct auf::AufInitTag * __ptr64,char const * __ptr64)` | 186 | Exported Function
-`void __cdecl auf::weak_intrusive_ptr_add_ref(class auf::WeakAuxiliary * __ptr64)` | 208 | Exported Function
-`void __cdecl auf::logvln(bool,char const * __ptr64,char * __ptr64)` | 150 | Exported Function
-`void __cdecl auf::intrusive_ptr_release(class auf::IReferenceCountable const * __ptr64)` | 133 | Exported Function
-`void __cdecl auf::lockfreeStackPoolDeallocate(void * __ptr64)` | 145 | Exported Function
-`void __cdecl auf::logFlush(void)` | 149 | Exported Function
+`memFree` | 152 | Exported Function
+`dataBarrier` | 70 | Exported Function
+`fileClose` | 98 | Exported Function
+`logBackTraceInfo` | 148 | Exported Function
+`callOperatorNew` | 48 | Exported Function
+`FileError` | 100 | Exported Function
+`memMalloc` | 153 | Exported Function
+`g_nextObjectId` | 119 | Exported Function
+`g_configGlobalLockfreeStackPoolSizeL2` | 110 | Exported Function
+`g_configTraceFifoSizeL2` | 112 | Exported Function
+`g_nextCallId` | 118 | Exported Function
+`IReferenceCountable` | 132 | Exported Function
+`VarBase` | 183 | Exported Function
+`AufInitTag` | 186 | Exported Function
+`WeakAuxiliary` | 208 | Exported Function
+`logvln` | 150 | Exported Function
+`IReferenceCountable` | 133 | Exported Function
+`lockfreeStackPoolDeallocate` | 145 | Exported Function
+`logFlush` | 149 | Exported Function
 `RtcPalTraceRt` | 460 | Exported Function
 `RtcPalRegDeleteKeyW` | 422 | Exported Function
 `RtcPalRegisterSocket` | 429 | Exported Function
@@ -274,21 +274,21 @@ Function Name | Ordinal | Type
 `RtcPalSetLastError` | 440 | Exported Function
 `RtcPalSetLogPath` | 441 | Exported Function
 `RtcPalCreateSocketIOCP` | 281 | Exported Function
-`int __cdecl spl::exchangeI(int volatile * __ptr64,int)` | 95 | Exported Function
-`int __cdecl spl::localTime(struct spl::HidingSystemTime const & __ptr64,struct tm * __ptr64)` | 141 | Exported Function
-`int __cdecl spl::memcpy_s(void * __ptr64,unsigned __int64,void const * __ptr64,unsigned __int64)` | 154 | Exported Function
-`int __cdecl spl::compareExchangeValI(int volatile * __ptr64,int,int)` | 53 | Exported Function
-`int __cdecl rtnet::dtlsAccept(struct rtnet::TlsSession * __ptr64,struct rtnet::TlsBuf * __ptr64,struct rtnet::TlsBuf * __ptr64,void * __ptr64)` | 80 | Exported Function
-`int __cdecl rtnet::dtlsConnect(struct rtnet::TlsSession * __ptr64,struct rtnet::TlsBuf * __ptr64,struct rtnet::TlsBuf * __ptr64)` | 81 | Exported Function
-`int __cdecl spl::atomicAddI(int volatile * __ptr64,int)` | 45 | Exported Function
-`int __cdecl spl::memmove_s(void * __ptr64,unsigned __int64,void const * __ptr64,unsigned __int64)` | 155 | Exported Function
-`int __cdecl spl::vsnprintf_s(char * __ptr64,unsigned __int64,char const * __ptr64,char * __ptr64)` | 204 | Exported Function
-`int auf::g_aufUp` | 109 | Exported Function
+`exchangeI` | 95 | Exported Function
+`HidingSystemTime` | 141 | Exported Function
+`memcpy_s` | 154 | Exported Function
+`compareExchangeValI` | 53 | Exported Function
+`TlsBuf` | 80 | Exported Function
+`TlsBuf` | 81 | Exported Function
+`atomicAddI` | 45 | Exported Function
+`memmove_s` | 155 | Exported Function
+`vsnprintf_s` | 204 | Exported Function
+`g_aufUp` | 109 | Exported Function
 `InterlockedPopEntrySList` | 239 | Exported Function
-`int __cdecl spl::strcpy_s(char * __ptr64,unsigned __int64,char const * __ptr64)` | 189 | Exported Function
-`int __cdecl spl::memset_s(void volatile * __ptr64,unsigned __int64,int,unsigned __int64)` | 156 | Exported Function
-`int __cdecl spl::snprintf_s(char * __ptr64,unsigned __int64,char const * __ptr64,...)` | 182 | Exported Function
-`int __cdecl spl::strcat_s(char * __ptr64,unsigned __int64,char const * __ptr64)` | 188 | Exported Function
+`strcpy_s` | 189 | Exported Function
+`memset_s` | 156 | Exported Function
+`snprintf_s` | 182 | Exported Function
+`strcat_s` | 188 | Exported Function
 `g_aufLogNumHooks` | 480 | Exported Function
 `GetAddrInfoW` | 229 | Exported Function
 `GetLastError` | 230 | Exported Function
@@ -305,60 +305,60 @@ Function Name | Ordinal | Type
 `GetTraceEnableFlags` | 233 | Exported Function
 `GetTraceEnableLevel` | 234 | Exported Function
 `InterlockedPushEntrySList` | 240 | Exported Function
-`public: __cdecl auf::Flag::Flag(void) __ptr64` | 3 | Exported Function
-`public: __cdecl auf::Flag::~Flag(void) __ptr64` | 18 | Exported Function
-`public: __cdecl auf::LockfreeQueue::LockfreeQueue(class auf::LockfreeStackPool & __ptr64) __ptr64` | 6 | Exported Function
-`public: __cdecl auf::Event::~Event(void) __ptr64` | 17 | Exported Function
-`public: __cdecl auf::CheckedMutex::CheckedMutex(char const * __ptr64,bool) __ptr64` | 1 | Exported Function
-`public: __cdecl auf::CheckedMutex::~CheckedMutex(void) __ptr64` | 16 | Exported Function
-`public: __cdecl auf::Event::Event(void) __ptr64` | 2 | Exported Function
-`public: __cdecl auf::LockfreeQueue::~LockfreeQueue(void) __ptr64` | 21 | Exported Function
-`public: __cdecl auf::ThreadRef::ThreadRef(char const * __ptr64,unsigned int,unsigned __int64) __ptr64` | 13 | Exported Function
-`public: __cdecl auf::ThreadRef::~ThreadRef(void) __ptr64` | 26 | Exported Function
-`public: __cdecl auf::UncheckedMutex::UncheckedMutex(char const * __ptr64,bool) __ptr64` | 14 | Exported Function
-`public: __cdecl auf::RefCounter::~RefCounter(void) __ptr64` | 25 | Exported Function
-`public: __cdecl auf::LockfreeStackPool::LockfreeStackPool(unsigned int) __ptr64` | 7 | Exported Function
-`public: __cdecl auf::LockfreeStackPool::~LockfreeStackPool(void) __ptr64` | 22 | Exported Function
-`public: __cdecl auf::RefCounter::RefCounter(void) __ptr64` | 10 | Exported Function
+`Flag` | 3 | Exported Function
+`Flag` | 18 | Exported Function
+`LockfreeStackPool` | 6 | Exported Function
+`Event` | 17 | Exported Function
+`CheckedMutex` | 1 | Exported Function
+`CheckedMutex` | 16 | Exported Function
+`Event` | 2 | Exported Function
+`LockfreeQueue` | 21 | Exported Function
+`ThreadRef` | 13 | Exported Function
+`ThreadRef` | 26 | Exported Function
+`UncheckedMutex` | 14 | Exported Function
+`RefCounter` | 25 | Exported Function
+`LockfreeStackPool` | 7 | Exported Function
+`LockfreeStackPool` | 22 | Exported Function
+`RefCounter` | 10 | Exported Function
 `lstrcmpW` | 481 | Exported Function
 `lstrlenA` | 483 | Exported Function
 `lstrlenW` | 484 | Exported Function
 `lstrcmpiW` | 482 | Exported Function
 `IsDebuggerPresent` | 241 | Exported Function
-`long __cdecl spl::atomicAddL(long volatile * __ptr64,long)` | 46 | Exported Function
-`long __cdecl spl::exchangeL(long volatile * __ptr64,long)` | 96 | Exported Function
+`atomicAddL` | 46 | Exported Function
+`exchangeL` | 96 | Exported Function
 `MultiByteToWideChar` | 242 | Exported Function
-`private: void __cdecl rtnet::SocketConnectOptions::dtorCore(void) __ptr64` | 85 | Exported Function
-`private: void __cdecl rtnet::SocketOptions::dtorCore(void) __ptr64` | 86 | Exported Function
-`protected: __cdecl rtnet::SocketOptions::SocketOptions(void) __ptr64` | 12 | Exported Function
-`private: void __cdecl rtnet::IStreamSocketDelegate::connectedCore(class auf::IntrusivePtr<class rtnet::StreamSocket> const & __ptr64,struct auf::AsyncTag * __ptr64) __ptr64` | 56 | Exported Function
+`dtorCore` | 85 | Exported Function
+`dtorCore` | 86 | Exported Function
+`SocketOptions` | 12 | Exported Function
+`AsyncTag` | 56 | Exported Function
 `OutputDebugStringA` | 243 | Exported Function
 `OutputDebugStringW` | 244 | Exported Function
-`private: struct SplOpaqueUpperLayerThread * __ptr64 __cdecl auf::ThreadRef::getImp(void)const __ptr64` | 124 | Exported Function
+`getImp` | 124 | Exported Function
 `EventWrite` | 225 | Exported Function
-`bool __cdecl rtnet::getDtlsSrtpParameters(struct rtnet::TlsSession * __ptr64,struct rtnet::DtlsSrtpParameters * __ptr64)` | 123 | Exported Function
-`bool __cdecl rtnet::getNat64Prefixes(class std::chrono::duration<__int64,struct std::ratio<1,1000000> >,class std::vector<class auf::IntrusivePtr<class rtnet::InterfaceAddress>,class std::allocator<class auf::IntrusivePtr<class rtnet::InterfaceAddress> > > & __ptr64)` | 125 | Exported Function
-`bool __cdecl rtnet::tlsBufAlloc(struct rtnet::TlsBuf * __ptr64,unsigned long)` | 197 | Exported Function
-`bool __cdecl rtnet::getCertHash(struct rtnet::X509Cert * __ptr64,enum spl::HashAlgorithm,struct rtnet::CertHash * __ptr64)` | 122 | Exported Function
-`bool __cdecl auf::initInternal(struct auf::AufInitTag * __ptr64,char const * __ptr64,unsigned int,unsigned __int64)` | 130 | Exported Function
-`bool __cdecl auf::internal::setLogComponentSafe(char const * __ptr64,bool)` | 173 | Exported Function
-`bool __cdecl auf::randomBytes(void * __ptr64,unsigned __int64)` | 168 | Exported Function
-`bool __cdecl spl::compareExchangeI(int volatile * __ptr64,int,int)` | 50 | Exported Function
-`bool __cdecl spl::pathFromFilename(class spl::Path & __ptr64,char const * __ptr64)` | 160 | Exported Function
-`bool __cdecl spl::priv::symbolFromAddress(void const * __ptr64,char * __ptr64,unsigned __int64)` | 192 | Exported Function
-`char auf::g_logObjectCountChanges` | 113 | Exported Function
-`bool __cdecl spl::pathAppendComponent(class spl::Path & __ptr64,char const * __ptr64,char const * __ptr64)` | 159 | Exported Function
-`bool __cdecl spl::compareExchangeL(long volatile * __ptr64,long,long)` | 51 | Exported Function
-`bool __cdecl spl::compareExchangePI(__int64 volatile * __ptr64,__int64,__int64)` | 52 | Exported Function
-`bool __cdecl spl::fileFlush(void * __ptr64)` | 99 | Exported Function
-`__int64 __cdecl spl::fileSize(void * __ptr64)` | 103 | Exported Function
-`__int64 __cdecl spl::fileTell(void * __ptr64)` | 104 | Exported Function
-`__int64 __cdecl spl::fileWrite(void * __ptr64,void const * __ptr64,unsigned __int64)` | 105 | Exported Function
-`__int64 __cdecl spl::fileSeekNewReturned(void * __ptr64,__int64,enum spl::SeekType)` | 102 | Exported Function
+`DtlsSrtpParameters` | 123 | Exported Function
+`InterfaceAddress` | 125 | Exported Function
+`TlsBuf` | 197 | Exported Function
+`CertHash` | 122 | Exported Function
+`AufInitTag` | 130 | Exported Function
+`setLogComponentSafe` | 173 | Exported Function
+`randomBytes` | 168 | Exported Function
+`compareExchangeI` | 50 | Exported Function
+`Path` | 160 | Exported Function
+`symbolFromAddress` | 192 | Exported Function
+`g_logObjectCountChanges` | 113 | Exported Function
+`Path` | 159 | Exported Function
+`compareExchangeL` | 51 | Exported Function
+`compareExchangePI` | 52 | Exported Function
+`fileFlush` | 99 | Exported Function
+`fileSize` | 103 | Exported Function
+`fileTell` | 104 | Exported Function
+`fileWrite` | 105 | Exported Function
+`SeekType` | 102 | Exported Function
 `__imp_?PL_TEMP_DIR@spl@@3UPathLocation@1@A` | 473 | Exported Function
-`__int64 __cdecl spl::exchangePI(__int64 volatile * __ptr64,__int64)` | 97 | Exported Function
-`__int64 __cdecl spl::fileRead(void * __ptr64,void * __ptr64,unsigned __int64)` | 101 | Exported Function
-`__int64 __cdecl spl::utcTimestamp(void)` | 203 | Exported Function
+`exchangePI` | 97 | Exported Function
+`fileRead` | 101 | Exported Function
+`utcTimestamp` | 203 | Exported Function
 `auf_logcomponent_isenabled` | 478 | Exported Function
 `aufLogHookInstall` | 474 | Exported Function
 `aufLogHookRemove` | 475 | Exported Function
@@ -366,43 +366,43 @@ Function Name | Ordinal | Type
 `AcquireCredentialsHandleW` | 213 | Exported Function
 `AcquireSRWLockExclusive` | 214 | Exported Function
 `auf_internal_log` | 476 | Exported Function
-`char auf::g_logObjectIds` | 114 | Exported Function
+`g_logObjectIds` | 114 | Exported Function
 `CreateFileW` | 216 | Exported Function
 `DecodePointer` | 217 | Exported Function
 `DeleteSecurityContext` | 218 | Exported Function
 `CreateFileA` | 215 | Exported Function
-`class std::thread __cdecl msrtc::pal::thread(class std::function<void __cdecl(void)> && __ptr64)` | 194 | Exported Function
-`class std::vector<char,struct spl::internal::secure_allocator<char> > __cdecl spl::decryptWithTempKey(char const * __ptr64,unsigned __int64)` | 74 | Exported Function
-`class std::vector<char,struct spl::internal::secure_allocator<char> > __cdecl spl::encryptWithTempKey(void const * __ptr64,unsigned __int64)` | 93 | Exported Function
+`function` | 194 | Exported Function
+`decryptWithTempKey` | 74 | Exported Function
+`encryptWithTempKey` | 93 | Exported Function
 `DisableThreadLibraryCalls` | 219 | Exported Function
 `EnumerateSecurityPackagesW` | 222 | Exported Function
 `EventRegister` | 223 | Exported Function
 `EventUnregister` | 224 | Exported Function
-`enum spl::FileError __cdecl spl::pathInitFromLocation(class spl::Path & __ptr64,struct spl::PathLocation const & __ptr64)` | 161 | Exported Function
+`PathLocation` | 161 | Exported Function
 `EnableTrace` | 220 | Exported Function
 `EncodePointer` | 221 | Exported Function
-`enum spl::FileError __cdecl spl::directoryCreateRecursive(class spl::Path const & __ptr64,int)` | 77 | Exported Function
-`char const * __ptr64 __cdecl auf::internal::setLogComponentDescription(char const * __ptr64,char const * __ptr64)` | 172 | Exported Function
-`char const * __ptr64 __cdecl spl::pathStringValue(class spl::Path const & __ptr64)` | 162 | Exported Function
-`class auf::IntrusivePtr<class auf::AsyncOperation> __cdecl rtnet::connectTCPHostAsync(char const * __ptr64,int,class auf::IntrusivePtr<class auf::ThreadPoolTransport> const & __ptr64,class auf::IntrusivePtr<class rtnet::IStreamSocketDelegate> const & __ptr64,struct auf::AsyncTag * __ptr64,class auf::IntrusivePtr<class rtnet::StreamSocketOptions> const & __ptr64,class auf::IntrusivePtr<class rtnet::StreamSocketConnectOptions> const & __ptr64,unsigned int)` | 55 | Exported Function
-`char auf::internal::g_logObjectLeaks` | 117 | Exported Function
-`char auf::g_logObjectLeaks` | 116 | Exported Function
-`char auf::g_objectCheckDisabled` | 120 | Exported Function
-`char auf::internal::g_logObjectIds` | 115 | Exported Function
-`class auf::IntrusivePtr<class auf::ThreadPoolTransport> __cdecl auf::createStrand(enum spl::ThreadPoolPriority)` | 65 | Exported Function
-`class auf::WeakAuxiliary * __ptr64 __cdecl auf::weak_intrusive_ptr_create(class auf::IReferenceCountable const * __ptr64)` | 209 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl spl::encodeUtf8(void const * __ptr64,unsigned __int64,unsigned __int64)` | 90 | Exported Function
-`class std::basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> > __cdecl spl::decodeToUtf16(char const * __ptr64,unsigned __int64)` | 72 | Exported Function
-`class auf::LogComponent * __ptr64 __cdecl auf::internal::instantiateLogComponent(char const * __ptr64)` | 131 | Exported Function
-`class auf::IntrusivePtr<class auf::ThreadPoolTransport> __cdecl auf::createStrandWithTransport(class auf::IntrusivePtr<class auf::ThreadPoolTransport> const & __ptr64)` | 66 | Exported Function
-`class auf::IntrusivePtr<class auf::ThreadPoolTransport> __cdecl auf::globalThreadPoolTransport2(enum spl::ThreadPoolPriority)` | 127 | Exported Function
-`class auf::IntrusivePtr<class auf::Timer> __cdecl auf::createTimerWithTransport(class auf::IntrusivePtr<class auf::ThreadPoolTransport> const & __ptr64,class std::chrono::duration<__int64,struct std::ratio<1,1000000> >,class std::chrono::duration<__int64,struct std::ratio<1,1000000> >,struct auf::Call * __ptr64)` | 67 | Exported Function
-`public: __cdecl auf::UncheckedMutex::~UncheckedMutex(void) __ptr64` | 27 | Exported Function
+`Path` | 77 | Exported Function
+`setLogComponentDescription` | 172 | Exported Function
+`Path` | 162 | Exported Function
+`StreamSocketConnectOptions` | 55 | Exported Function
+`g_logObjectLeaks` | 117 | Exported Function
+`g_logObjectLeaks` | 116 | Exported Function
+`g_objectCheckDisabled` | 120 | Exported Function
+`g_logObjectIds` | 115 | Exported Function
+`ThreadPoolPriority` | 65 | Exported Function
+`IReferenceCountable` | 209 | Exported Function
+`encodeUtf8` | 90 | Exported Function
+`decodeToUtf16` | 72 | Exported Function
+`instantiateLogComponent` | 131 | Exported Function
+`ThreadPoolTransport` | 66 | Exported Function
+`ThreadPoolPriority` | 127 | Exported Function
+`Call` | 67 | Exported Function
+`UncheckedMutex` | 27 | Exported Function
 `RegCloseKey` | 248 | Exported Function
 `RegCreateKeyExA` | 249 | Exported Function
 `RegCreateKeyExW` | 250 | Exported Function
 `RaiseException` | 247 | Exported Function
-`public: void __cdecl rtnet::StreamSocketOptions::setNoDelayEnabled(bool) __ptr64` | 174 | Exported Function
+`setNoDelayEnabled` | 174 | Exported Function
 `QueryPerformanceCounter` | 245 | Exported Function
 `QueryPerformanceFrequency` | 246 | Exported Function
 `RegDeleteKeyW` | 251 | Exported Function
@@ -413,21 +413,21 @@ Function Name | Ordinal | Type
 `RegEnumKeyExW` | 252 | Exported Function
 `RegisterTraceGuidsW` | 259 | Exported Function
 `RegOpenKeyExA` | 253 | Exported Function
-`public: void __cdecl auf::LogComponent::log(void const * __ptr64,unsigned int,unsigned int,class auf::LogArgs const & __ptr64) __ptr64` | 146 | Exported Function
-`public: void __cdecl auf::ThreadRef::setDone(bool) __ptr64` | 171 | Exported Function
-`public: void __cdecl rtnet::SimpleBuffer::advance(unsigned __int64) __ptr64` | 40 | Exported Function
-`public: void __cdecl auf::LogComponent::log(void const * __ptr64,unsigned int,unsigned int,char const * __ptr64,class auf::LogArgs const & __ptr64) __ptr64` | 147 | Exported Function
-`public: void __cdecl auf::Flag::release(void) __ptr64` | 170 | Exported Function
-`public: void __cdecl auf::internal::MutexCore::lock(void) __ptr64` | 143 | Exported Function
-`public: void __cdecl auf::internal::MutexCore::unlock(void) __ptr64` | 201 | Exported Function
-`public: void __cdecl rtnet::SimpleBuffer::complete(void) __ptr64` | 54 | Exported Function
-`public: void __cdecl rtnet::StreamSocket::clearDelegate(void) __ptr64` | 49 | Exported Function
-`public: void __cdecl rtnet::StreamSocket::disconnect(void) __ptr64` | 78 | Exported Function
-`public: void __cdecl rtnet::StreamSocket::startTlsAsync(char const * __ptr64,struct auf::AsyncTag * __ptr64) __ptr64` | 184 | Exported Function
-`public: void __cdecl rtnet::SocketOptions::setTlsCertificateVerification(bool) __ptr64` | 179 | Exported Function
-`public: void __cdecl rtnet::SocketConnectOptions::setPortSpecification(class std::shared_ptr<class rtnet::PortSpecification> const & __ptr64) __ptr64` | 176 | Exported Function
-`public: void __cdecl rtnet::SocketConnectOptions::setProxy(enum rtnet::ProxyPolicy,class auf::IntrusivePtr<class rtnet::ProxyInfo> const & __ptr64) __ptr64` | 177 | Exported Function
-`public: void __cdecl rtnet::SocketOptions::setQualityOfServiceDSCP(unsigned int) __ptr64` | 178 | Exported Function
+`LogArgs` | 146 | Exported Function
+`setDone` | 171 | Exported Function
+`advance` | 40 | Exported Function
+`LogArgs` | 147 | Exported Function
+`release` | 170 | Exported Function
+`lock` | 143 | Exported Function
+`unlock` | 201 | Exported Function
+`complete` | 54 | Exported Function
+`clearDelegate` | 49 | Exported Function
+`disconnect` | 78 | Exported Function
+`AsyncTag` | 184 | Exported Function
+`setTlsCertificateVerification` | 179 | Exported Function
+`PortSpecification` | 176 | Exported Function
+`ProxyInfo` | 177 | Exported Function
+`setQualityOfServiceDSCP` | 178 | Exported Function
 `RegSetValueExW` | 258 | Exported Function
 `RtcPalClearAssertRecords` | 271 | Exported Function
 `RtcPalCloseSocket` | 272 | Exported Function
@@ -459,68 +459,68 @@ Function Name | Ordinal | Type
 `rtcpal_sendto` | 492 | Exported Function
 `RtcPalAccept` | 261 | Exported Function
 `RtcPalAcquireSlimLock` | 262 | Exported Function
-`public: void __cdecl auf::Event::post(void) __ptr64` | 165 | Exported Function
-`public: bool __cdecl auf::LockfreeQueue::enqueue(void * __ptr64) __ptr64` | 94 | Exported Function
-`public: bool __cdecl auf::LockfreeQueue::isGood(void)const __ptr64` | 136 | Exported Function
-`public: bool __cdecl auf::LockfreeStackPool::isGood(void)const __ptr64` | 137 | Exported Function
-`public: bool __cdecl auf::LockfreeQueue::empty(void) __ptr64` | 88 | Exported Function
-`public: bool __cdecl auf::Flag::wait(class std::chrono::duration<__int64,struct std::ratio<1,1000000> >) __ptr64` | 207 | Exported Function
-`public: bool __cdecl auf::internal::MutexCore::isGood(void)const __ptr64` | 138 | Exported Function
-`public: bool __cdecl auf::internal::MutexCore::lockedByCurrentThread(void)const __ptr64` | 144 | Exported Function
-`public: bool __cdecl auf::ThreadRef::done(void)const __ptr64` | 79 | Exported Function
-`public: bool __cdecl rtnet::IPv4::fromBytes(unsigned char const * __ptr64) __ptr64` | 107 | Exported Function
-`public: bool __cdecl rtnet::IPv6::embedIPv4(class rtnet::IPv4 const & __ptr64,unsigned __int64) __ptr64` | 87 | Exported Function
-`public: bool __cdecl rtnet::StreamSocket::setOptions(class auf::IntrusivePtr<class rtnet::StreamSocketOptions> const & __ptr64) __ptr64` | 175 | Exported Function
-`public: bool __cdecl rtnet::Address::asIPv6(class rtnet::IPv6 & __ptr64)const __ptr64` | 44 | Exported Function
-`public: bool __cdecl auf::ThreadRef::isGood(void)const __ptr64` | 139 | Exported Function
-`public: bool __cdecl auf::ThreadRef::stop(class std::chrono::duration<__int64,struct std::ratio<1,1000000> >,__int64 * __ptr64) __ptr64` | 185 | Exported Function
-`public: bool __cdecl rtnet::Address::asIPv4(class rtnet::IPv4 & __ptr64)const __ptr64` | 43 | Exported Function
-`public: __cdecl rtnet::IPv6::IPv6(void) __ptr64` | 5 | Exported Function
-`public: __cdecl rtnet::IPv6::~IPv6(void) __ptr64` | 20 | Exported Function
-`public: __cdecl rtnet::PortSpecification::PortSpecification(struct std::pair<int,int> const & __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl rtnet::IPv4::~IPv4(void) __ptr64` | 19 | Exported Function
-`public: __cdecl auf::XorshiftRNG::XorshiftRNG(unsigned int) __ptr64` | 15 | Exported Function
-`public: __cdecl auf::XorshiftRNG::~XorshiftRNG(void) __ptr64` | 28 | Exported Function
-`public: __cdecl rtnet::IPv4::IPv4(void) __ptr64` | 4 | Exported Function
-`public: __cdecl rtnet::PortSpecification::~PortSpecification(void) __ptr64` | 24 | Exported Function
-`public: bool __cdecl auf::Event::wait(class std::chrono::duration<__int64,struct std::ratio<1,1000000> >) __ptr64` | 205 | Exported Function
-`public: bool __cdecl auf::Event::wait(unsigned __int64) __ptr64` | 206 | Exported Function
-`public: bool __cdecl auf::Flag::raise(void) __ptr64` | 167 | Exported Function
-`public: bool __cdecl auf::Event::isGood(void)const __ptr64` | 135 | Exported Function
-`public: __cdecl rtnet::SocketConnectOptions::SocketConnectOptions(void) __ptr64` | 11 | Exported Function
-`public: __cdecl spl::Path::Path(void) __ptr64` | 8 | Exported Function
-`public: __cdecl spl::Path::~Path(void) __ptr64` | 23 | Exported Function
-`public: class auf::IntrusivePtr<class rtnet::Address> __cdecl rtnet::InterfaceAddress::address(void)const __ptr64` | 39 | Exported Function
-`public: unsigned __int64 __cdecl auf::ThreadPoolTransport::strandId(void)const __ptr64` | 187 | Exported Function
-`public: unsigned __int64 __cdecl rtnet::InterfaceAddress::prefixLength(void)const __ptr64` | 166 | Exported Function
-`public: unsigned __int64 __cdecl rtnet::SimpleBuffer::size(void)const __ptr64` | 180 | Exported Function
-`public: static void __cdecl spl::BASE64::encode(char * __ptr64,void const * __ptr64,unsigned __int64)` | 89 | Exported Function
-`public: static unsigned __int64 __cdecl spl::BASE64::encodedLength(unsigned __int64)` | 92 | Exported Function
-`public: static void * __ptr64 __cdecl auf::LockfreePacker::allocMem(unsigned __int64)` | 41 | Exported Function
-`public: static void __cdecl auf::LockfreePacker::freeMem(void * __ptr64)` | 106 | Exported Function
-`public: unsigned char & __ptr64 __cdecl rtnet::IPv4::operator[](unsigned __int64) __ptr64` | 29 | Exported Function
-`public: void * __ptr64 __cdecl auf::LockfreeQueue::dequeue(bool * __ptr64) __ptr64` | 75 | Exported Function
-`public: void * __ptr64 __cdecl auf::LockfreeStackPool::allocate(unsigned __int64) __ptr64` | 42 | Exported Function
-`public: void * __ptr64 __cdecl rtnet::SimpleBuffer::data(void) __ptr64` | 69 | Exported Function
-`public: unsigned long __cdecl auf::RefCounter::inc(void) __ptr64` | 129 | Exported Function
-`public: unsigned char & __ptr64 __cdecl rtnet::IPv6::operator[](unsigned __int64) __ptr64` | 30 | Exported Function
-`public: unsigned int __cdecl auf::XorshiftRNG::randomUInt(void) __ptr64` | 169 | Exported Function
-`public: unsigned long __cdecl auf::RefCounter::dec(void) __ptr64` | 71 | Exported Function
-`public: int __cdecl rtnet::Address::port(void)const __ptr64` | 164 | Exported Function
-`public: static class auf::IntrusivePtr<class rtnet::ProxyInfo> __cdecl rtnet::ProxyInfo::make(enum rtnet::ProxyProtocol,char const * __ptr64,unsigned int,char const * __ptr64,char const * __ptr64)` | 151 | Exported Function
-`public: static class auf::IntrusivePtr<class rtnet::SimpleBuffer> __cdecl rtnet::SimpleBuffer::createWithSize(unsigned __int64)` | 68 | Exported Function
-`public: class auf::IntrusivePtr<class rtnet::StreamSocketOptions> __cdecl rtnet::StreamSocket::options(void)const __ptr64` | 158 | Exported Function
-`public: class auf::IntrusivePtr<class rtnet::Address> __cdecl rtnet::StreamSocket::localAddress(void) __ptr64` | 140 | Exported Function
-`public: class auf::IntrusivePtr<class rtnet::Address> __cdecl rtnet::StreamSocket::peerAddress(void) __ptr64` | 163 | Exported Function
-`public: class auf::IntrusivePtr<class rtnet::ISocketIO> __cdecl rtnet::StreamSocket::io(void) __ptr64` | 134 | Exported Function
-`public: static class rtnet::internal::PortSpecificationImpl * __ptr64 __cdecl rtnet::internal::PortSpecificationImpl::create(class rtnet::internal::PortSpecificationImpl const & __ptr64)` | 58 | Exported Function
-`public: static class rtnet::internal::SocketConnectOptionsImpl * __ptr64 __cdecl rtnet::internal::SocketConnectOptionsImpl::create(void)` | 62 | Exported Function
-`public: static class rtnet::internal::SocketOptionsImpl * __ptr64 __cdecl rtnet::internal::SocketOptionsImpl::create(class rtnet::internal::SocketOptionsImpl const & __ptr64)` | 63 | Exported Function
-`public: static class rtnet::internal::SocketOptionsImpl * __ptr64 __cdecl rtnet::internal::SocketOptionsImpl::create(void)` | 64 | Exported Function
-`public: static class rtnet::internal::SocketConnectOptionsImpl * __ptr64 __cdecl rtnet::internal::SocketConnectOptionsImpl::create(class rtnet::internal::SocketConnectOptionsImpl const & __ptr64)` | 61 | Exported Function
-`public: static class rtnet::internal::PortSpecificationImpl * __ptr64 __cdecl rtnet::internal::PortSpecificationImpl::create(int)` | 59 | Exported Function
-`public: static class rtnet::internal::PortSpecificationImpl * __ptr64 __cdecl rtnet::internal::PortSpecificationImpl::create(int,int)` | 60 | Exported Function
-`public: static class rtnet::internal::PortSpecificationImpl * __ptr64 __cdecl rtnet::internal::PortSpecificationImpl::create(struct std::pair<int,int> const & __ptr64)` | 57 | Exported Function
+`post` | 165 | Exported Function
+`enqueue` | 94 | Exported Function
+`isGood` | 136 | Exported Function
+`isGood` | 137 | Exported Function
+`empty` | 88 | Exported Function
+`ratio` | 207 | Exported Function
+`isGood` | 138 | Exported Function
+`lockedByCurrentThread` | 144 | Exported Function
+`done` | 79 | Exported Function
+`fromBytes` | 107 | Exported Function
+`IPv4` | 87 | Exported Function
+`StreamSocketOptions` | 175 | Exported Function
+`IPv6` | 44 | Exported Function
+`isGood` | 139 | Exported Function
+`ratio` | 185 | Exported Function
+`IPv4` | 43 | Exported Function
+`IPv6` | 5 | Exported Function
+`IPv6` | 20 | Exported Function
+`pair` | 9 | Exported Function
+`IPv4` | 19 | Exported Function
+`XorshiftRNG` | 15 | Exported Function
+`XorshiftRNG` | 28 | Exported Function
+`IPv4` | 4 | Exported Function
+`PortSpecification` | 24 | Exported Function
+`ratio` | 205 | Exported Function
+`wait` | 206 | Exported Function
+`raise` | 167 | Exported Function
+`isGood` | 135 | Exported Function
+`SocketConnectOptions` | 11 | Exported Function
+`Path` | 8 | Exported Function
+`Path` | 23 | Exported Function
+`address` | 39 | Exported Function
+`strandId` | 187 | Exported Function
+`prefixLength` | 166 | Exported Function
+`size` | 180 | Exported Function
+`encode` | 89 | Exported Function
+`encodedLength` | 92 | Exported Function
+`allocMem` | 41 | Exported Function
+`freeMem` | 106 | Exported Function
+`operator` | 29 | Exported Function
+`dequeue` | 75 | Exported Function
+`allocate` | 42 | Exported Function
+`data` | 69 | Exported Function
+`inc` | 129 | Exported Function
+`operator` | 30 | Exported Function
+`randomUInt` | 169 | Exported Function
+`dec` | 71 | Exported Function
+`port` | 164 | Exported Function
+`ProxyProtocol` | 151 | Exported Function
+`createWithSize` | 68 | Exported Function
+`options` | 158 | Exported Function
+`localAddress` | 140 | Exported Function
+`peerAddress` | 163 | Exported Function
+`io` | 134 | Exported Function
+`PortSpecificationImpl` | 58 | Exported Function
+`create` | 62 | Exported Function
+`SocketOptionsImpl` | 63 | Exported Function
+`create` | 64 | Exported Function
+`SocketConnectOptionsImpl` | 61 | Exported Function
+`create` | 59 | Exported Function
+`create` | 60 | Exported Function
+`pair` | 57 | Exported Function
 
 
 ## Signature

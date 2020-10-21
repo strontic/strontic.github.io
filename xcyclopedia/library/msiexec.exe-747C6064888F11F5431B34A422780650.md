@@ -22,6 +22,9 @@ SHA256 | `64F5BABD1B013CB35CA489AF2531203261FA0B05A70A77FBC0A3D53ABFDC8CAB`
 SHA384 | `CF1AA47FC3C7EFA673919E1943AAD885AD4B660BE8BC5495C21C6F5C43865A3053A1094CD7C956CD194FABBBE8F62542`
 SHA512 | `DB3144910DD257E1C473EBEB64A56E5A753CEC431089799C9F4C0DC3C2F4880678B7C2D4561392505EC884B300AB62D7546195BA3CA5563A02B9CC07F46EF522`
 SSDEEP | `768:No8HL2TB4LH97PQtGNSNuuNELvInbOv8PAZWmDXIMLXq6CAy/Cc:sTB4LRPOF5ELw81b4MO6bc`
+IMP | `E4E40938E4BF6C66424859ED02171C41`
+PESHA1 | `CF7159A88CB19AF6DC9991704B9EEA3301814AAD`
+PE256 | `62BE64C470C51D3CF71135E25C2F83D3DE7BEF31D111E0528D2013537FBAE5CB`
 
 ## Runtime Data
 
@@ -35,13 +38,16 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\msiexec.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\msimsg.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -49,6 +55,10 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msiexec.exe |
 
 
 ## Signature
@@ -68,7 +78,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.0.17763.404
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/64f5babd1b013cb35ca489af2531203261fa0b05a70a77fbc0a3d53abfdc8cab/detection/
 
 ## File Similarity (ssdeep match)
 

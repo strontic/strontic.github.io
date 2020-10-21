@@ -18,6 +18,9 @@ SHA256 | `CD6013ED67E859A186F43C5964BA877F1A22F36295AA70FD0B68E6D96AA284E8`
 SHA384 | `E0993D7F9070263CF3C264F83CFD8363406F0C364D0D25B372B3437B5E78D5A88C6EB8C135DD36B6DF5654A538CC4D9A`
 SHA512 | `F92F9E5623C7C210B5465A8E8D6B31A642D447C481FD7D5DCA3E4F13074F18F12818183592171ADC264F2964AA12920BDD1DFEEF1AF0F2C4BEA60BAFEAC35834`
 SSDEEP | `768:5KVksgNKSs6yQdqlSlGwE5Dc5sg5IMlz:4yNKnK8SlG75Gsg5Plz`
+IMP | `AA6B2A7321AE60F227BDF8367761D35D`
+PESHA1 | `238E5E06EB10E228FEB5FDEC5CA3785A99093A7B`
+PE256 | `8AF1C4C493AB149BADD47C91FEAC8FB36FFBAF7FD527D62961B431A43FADA556`
 
 ## Runtime Data
 
@@ -224,11 +227,32 @@ the typical profile.
 
 ```
 
+### Child Processes:
+RdpSa.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\mswsock.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\rpchttp.dll |
+C:\Windows\system32\RpcPing.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\Secur32.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -248,7 +272,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/cd6013ed67e859a186f43c5964ba877f1a22f36295aa70fd0b68e6d96aa284e8/detection/
 
 
 ## Possible Misuse

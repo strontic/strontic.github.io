@@ -25,7 +25,7 @@ SSDEEP | `3072:HGssvkyH7qu400RzVj8zjMR3QgghCGzJ+iW4roAzuiGesThNO7b:H+rOu1WzxkV0w
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -66,6 +66,7 @@ C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-1CFDD8EE680AE4B649C4F3B963344B13.md) | 97
+[C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-EAF509BCE23BB6D62F517E5DC569C682.md) | 97
 
 
 

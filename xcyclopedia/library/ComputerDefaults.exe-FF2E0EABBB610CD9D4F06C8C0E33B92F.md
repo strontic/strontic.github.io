@@ -22,8 +22,30 @@ SHA256 | `88A550361C783FE8C807882462A0CC988FEA24426ABF5AA3AB9FD5A300DD296A`
 SHA384 | `7B9A8E9264A3EB7C212785F0B9F1CE64FAFAAAE7E7D2217301CE9130F121F6818E65BD441BF184B2471888F5C75A5DF9`
 SHA512 | `FB03F9449F9C54FA2643D32EA0105037F53550A61C71E655D02C69D926148A0E04A9A1D63A496A9F74F859521F3F09184415099B308BC670E1AE698BEA893176`
 SSDEEP | `1536:0IQOnuDjXYdD0JrePojh6tGryrURDoq4OZZZLlCIibB8:X7ufYdDVwRD68wbB8`
+IMP | `DCF24A295065FCFB6B7F451585917C44`
+PESHA1 | `2738AACDCBE035494E99F1533DE77B870BD3ACE0`
+PE256 | `AFA76271ED7A0C9E2BAFFE9507A3B666C1053827C805CEBB3696DFE4DA0EB1E3`
 
 ## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\ComputerDefaults.exe.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1344 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-4075667164-670084373-454571106-500 | Section
+
 
 ### Loaded Modules:
 
@@ -39,8 +61,8 @@ C:\Windows\SysWOW64\ComputerDefaults.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -53,7 +75,12 @@ C:\Windows\SysWOW64\ComputerDefaults.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/88a550361c783fe8c807882462a0cc988fea24426abf5aa3ab9fd5a300dd296a/detection/
 
 ## File Similarity (ssdeep match)
 

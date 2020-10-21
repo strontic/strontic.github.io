@@ -8,6 +8,10 @@ excerpt: What is Skype.exe?
 * File Path: `C:\program files (x86)\Microsoft\Skype for Desktop\Skype.exe`
 * Description: Skype
 
+## Screenshot
+
+![Skype.exe](screenshots/Skype.exe-C1927E2FD6EC7811302E14CB4134DE16-1.png)
+
 ## Hashes
 
 Type | Hash

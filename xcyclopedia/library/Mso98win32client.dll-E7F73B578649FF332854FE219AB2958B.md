@@ -1636,16 +1636,16 @@ Function Name | Ordinal | Type
 `Ordinal6` | 6 | Exported Function
 `Ordinal598` | 598 | Exported Function
 `Ordinal599` | 599 | Exported Function
-`private: void __cdecl MOX::CDocumentOperationTarget::MoveHelper(class MOX::CDocumentOperationTarget && __ptr64) __ptr64` | 5287 | Exported Function
-`public: __cdecl MOX::CDocumentOperationTarget::CDocumentOperationTarget(class MOX::CDocumentOperationTarget * __ptr64) __ptr64` | 1894 | Exported Function
+`CDocumentOperationTarget` | 5287 | Exported Function
+`CDocumentOperationTarget` | 1894 | Exported Function
 `Ordinal999` | 999 | Exported Function
 `Ordinal997` | 997 | Exported Function
 `Ordinal998` | 998 | Exported Function
-`public: __cdecl Mso::CalloutAnchoring::AnchorInfo::AnchorInfo(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __ptr64,struct HWND__ * __ptr64) __ptr64` | 628 | Exported Function
-`public: __cdecl Mso::CalloutAnchoring::AnchorInfo::AnchorInfo(class std::vector<struct OfficeSpace::FloatiePositionOption,class std::allocator<struct OfficeSpace::FloatiePositionOption> > && __ptr64,struct Math::TRect<double> const & __ptr64) __ptr64` | 1091 | Exported Function
-`public: __cdecl Mso::CalloutAnchoring::AnchorInfo::AnchorInfo(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __ptr64) __ptr64` | 389 | Exported Function
-`public: __cdecl MOX::CDocumentOperationTarget::CDocumentOperationTarget(enum MOX::CDocumentOperationTarget::CtorType) __ptr64` | 2010 | Exported Function
-`public: __cdecl MOX::CDocumentOperationTarget::CDocumentOperationTarget(struct Mso::OfficeServicesManager::IConnectedService const & __ptr64,struct IMsoUrl const & __ptr64,enum Csi::FileLocation) __ptr64` | 1493 | Exported Function
+`allocator` | 628 | Exported Function
+`TRect` | 1091 | Exported Function
+`allocator` | 389 | Exported Function
+`CtorType` | 2010 | Exported Function
+`FileLocation` | 1493 | Exported Function
 `Ordinal990` | 990 | Exported Function
 `Ordinal991` | 991 | Exported Function
 `Ordinal99` | 99 | Exported Function
@@ -1656,26 +1656,26 @@ Function Name | Ordinal | Type
 `Ordinal994` | 994 | Exported Function
 `Ordinal992` | 992 | Exported Function
 `Ordinal993` | 993 | Exported Function
-`public: class Mso::TCntPtr<class Mso::Floodgate::CampaignScope> const & __ptr64 __cdecl Mso::Floodgate::CampaignDefinition::GetCampaignScope(void)const __ptr64` | 5151 | Exported Function
-`public: class Mso::TCntPtr<class OfficeSpace::BackStageNavFolder> __cdecl OfficeSpace::BackStageNavCache::GetFolderByResourceId(wchar_t const * __ptr64,wchar_t const * __ptr64)const __ptr64` | 5162 | Exported Function
-`public: class Mso::Future<class Mso::TCntPtr<struct OfficeSpace::INavCacheReadStatus const > > __cdecl OfficeSpace::BackStageNavFolder::Delete(wchar_t const * __ptr64,wchar_t const * __ptr64,bool) __ptr64` | 4656 | Exported Function
-`public: bool __cdecl TBCB::FInstallCustomFace(struct HDC__ * __ptr64,void * __ptr64,bool,unsigned long) __ptr64` | 5004 | Exported Function
-`public: class MOX::CDocumentOperationTarget & __ptr64 __cdecl MOX::CDocumentOperationTarget::operator=(class MOX::CDocumentOperationTarget && __ptr64) __ptr64` | 2523 | Exported Function
-`public: enum Mso::Floodgate::TreatmentType __cdecl Mso::Floodgate::CampaignDefinition::GetTreatmentType(void)const __ptr64` | 5194 | Exported Function
-`public: int __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::GetKeyFocusedTabIndex(void)const __ptr64` | 5176 | Exported Function
-`public: class NetUI::Element * __ptr64 __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::GetTabElementAtIndex(int)const __ptr64` | 5192 | Exported Function
-`public: class Mso::TCntPtr<struct Mso::Floodgate::IUserFactsProvider> & __ptr64 __cdecl Mso::Floodgate::FloodgateSharedObjectContainer::GetUserFactsProvider(void) __ptr64` | 5197 | Exported Function
-`public: class NetUI::Element * __ptr64 __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::GetCurrentTabElement(void)const __ptr64` | 5158 | Exported Function
-`public: __cdecl NetUI::WinUia::TabbedPaneButtonProvider::TabbedPaneButtonProvider(void) __ptr64` | 2515 | Exported Function
-`public: bool __cdecl MOX::CDocumentOperationTarget::IsEmpty(void)const __ptr64` | 5228 | Exported Function
-`public: __cdecl Mso::Document::MruCsiListener::CMruUpdateRequestParams::CMruUpdateRequestParams(enum MSOAPP,struct Mso::Authentication::IOfficeIdentity const * __ptr64,enum Mso::Document::MruCsiListener::RequestType,enum Mso::MruServiceApi::StorageHost,class Mso::optional<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > && __ptr64,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __ptr64,struct IMsoUrl const & __ptr64,class Mso::TCntPtr<struct IMsoUrl const > && __ptr64,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __ptr64,bool,class Mso::optional<struct _GUID> && __ptr64,unsigned __int64) __ptr64` | 2285 | Exported Function
-`public: __cdecl Mso::CalloutAnchoring::AnchorInfo::AnchorInfo(class std::vector<struct OfficeSpace::FloatiePositionOption,class std::allocator<struct OfficeSpace::FloatiePositionOption> > && __ptr64,struct Math::TRect<double> const & __ptr64,struct HWND__ * __ptr64) __ptr64` | 1154 | Exported Function
-`public: __cdecl Mso::Document::MruCsiListener::CMruUpdateRequestParams::CMruUpdateRequestParams(enum MSOAPP,struct Mso::Authentication::IOfficeIdentity const * __ptr64,enum Mso::Document::MruCsiListener::RequestType,class Mso::optional<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > && __ptr64,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __ptr64,class Mso::optional<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > && __ptr64,struct IMsoUrl const & __ptr64,class Mso::TCntPtr<struct IMsoUrl const > && __ptr64,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __ptr64,unsigned __int64) __ptr64` | 2269 | Exported Function
-`public: bool __cdecl OfficeSpace::FSControl::BlockForAppGuard(void) __ptr64` | 3254 | Exported Function
-`public: bool __cdecl OfficeSpace::FSControl::IsBlockedForAppGuard(void) __ptr64` | 5221 | Exported Function
-`public: bool __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::ShouldShowTeachingUI(void)const __ptr64` | 5325 | Exported Function
-`public: bool __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::HeaderHasKeyFocus(void)const __ptr64` | 5200 | Exported Function
-`public: bool __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::ProcessKey(unsigned __int64) __ptr64` | 5299 | Exported Function
+`GetCampaignScope` | 5151 | Exported Function
+`GetFolderByResourceId` | 5162 | Exported Function
+`Delete` | 4656 | Exported Function
+`FInstallCustomFace` | 5004 | Exported Function
+`CDocumentOperationTarget` | 2523 | Exported Function
+`GetTreatmentType` | 5194 | Exported Function
+`GetKeyFocusedTabIndex` | 5176 | Exported Function
+`GetTabElementAtIndex` | 5192 | Exported Function
+`GetUserFactsProvider` | 5197 | Exported Function
+`GetCurrentTabElement` | 5158 | Exported Function
+`TabbedPaneButtonProvider` | 2515 | Exported Function
+`IsEmpty` | 5228 | Exported Function
+`optional` | 2285 | Exported Function
+`TRect` | 1154 | Exported Function
+`allocator` | 2269 | Exported Function
+`BlockForAppGuard` | 3254 | Exported Function
+`IsBlockedForAppGuard` | 5221 | Exported Function
+`ShouldShowTeachingUI` | 5325 | Exported Function
+`HeaderHasKeyFocus` | 5200 | Exported Function
+`ProcessKey` | 5299 | Exported Function
 `Ordinal961` | 961 | Exported Function
 `Ordinal962` | 962 | Exported Function
 `Ordinal960` | 960 | Exported Function
@@ -1716,87 +1716,87 @@ Function Name | Ordinal | Type
 `Ordinal974` | 974 | Exported Function
 `Ordinal972` | 972 | Exported Function
 `Ordinal973` | 973 | Exported Function
-`public: int __cdecl TBCB::FSetAsHyperlink(int,bool) __ptr64` | 5015 | Exported Function
-`struct Mso::Pcx::LivePersonaCard::IPcxPersonaJsSdxConnector & __ptr64 __cdecl Mso::Pcx::LivePersonaCard::GetPcxPersonaJsSdxConnector(void)` | 5184 | Exported Function
-`struct Mso::Telemetry::TelemetryNamespace const & __ptr64 __cdecl Office::IntelligentServices::PrivacyConsent::GetNamespace(void)` | 5179 | Exported Function
-`struct Mso::OfficeInsider::InsiderLevelMetadata const & __ptr64 __cdecl Mso::OfficeInsider::GetInsiderLevelMetadata(enum Mso::InsiderManagement::InsiderLevel)` | 5174 | Exported Function
-`struct Mso::DocumentTemplates::Organization::ITenants & __ptr64 __cdecl Mso::DocumentTemplates::Organization::GetTenants(void)` | 5193 | Exported Function
-`struct Mso::MessageBoxes::MessageBoxReturnParams __cdecl Mso::MessageBoxes::ShowMessageBox(struct HWND__ * __ptr64,struct Mso::MessageBoxes::MessageBoxParams const & __ptr64)` | 5327 | Exported Function
-`unsigned long __cdecl Mso::CalloutAnchoring::GetCtxDropDirection(enum Mso::CalloutAnchoring::PreferredCalloutDirection)` | 5156 | Exported Function
-`void __cdecl AppGuard::PromotionDialog::UI::ShowTrustPromotionDialogUI(class Mso::Functor<void __cdecl(void)> && __ptr64,enum MSOSAPPID,struct HWND__ * __ptr64)` | 5332 | Exported Function
-`unsigned long __cdecl Mso::CalloutAnchoring::GetCtxCalloutAlignment(enum Mso::CalloutAnchoring::PreferredCalloutAlignment)` | 5155 | Exported Function
-`struct Mso::TextPrediction::ITextPrediction & __ptr64 __cdecl Mso::TextPrediction::Instance(void)` | 5217 | Exported Function
+`FSetAsHyperlink` | 5015 | Exported Function
+`GetPcxPersonaJsSdxConnector` | 5184 | Exported Function
+`GetNamespace` | 5179 | Exported Function
+`InsiderLevel` | 5174 | Exported Function
+`GetTenants` | 5193 | Exported Function
+`MessageBoxParams` | 5327 | Exported Function
+`PreferredCalloutDirection` | 5156 | Exported Function
+`Functor` | 5332 | Exported Function
+`PreferredCalloutAlignment` | 5155 | Exported Function
+`Instance` | 5217 | Exported Function
 `unsigned long __cdecl GetPropValueULONG32(unsigned __int64)` | 5188 | Exported Function
-`public: void __cdecl TBS::SetSuppressHwndCreation(bool) __ptr64` | 5319 | Exported Function
-`public: void __cdecl TBS::UpdateTabbedPaneArea(void) __ptr64` | 5338 | Exported Function
-`public: void __cdecl TBCB::SetIBtnFace(struct _msoctlenv const * __ptr64,int,bool) __ptr64` | 5311 | Exported Function
-`public: void __cdecl OfficeSpace::BackStageNavFolder::RemoveFolderFromNavReaderCache(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64) __ptr64` | 5304 | Exported Function
-`public: void __cdecl OfficeSpace::BackStageNavFolder::SortFolderFileItemsByDateTime(void) __ptr64` | 5333 | Exported Function
-`struct Mso::Document::ErrorDataModel::IErrorDocumentDataModel & __ptr64 __cdecl Mso::Document::ErrorDataModel::Factory::GetDataModelForAllODCDocuments(void)` | 5159 | Exported Function
-`struct Mso::Document::ErrorDataModel::IErrorInfoFactoryManager & __ptr64 __cdecl Mso::Document::ErrorDataModel::Factory::GetErrorInfoFactoryManager(void)` | 5161 | Exported Function
-`struct IMsoOLDocument * __ptr64 __cdecl Mso::Document::Adapter::GetOLDocument(struct Mso::Document::Adapter::IDocumentAdapter const & __ptr64)` | 5181 | Exported Function
-`public: wchar_t const * __ptr64 __cdecl MOX::CDocumentOperationTarget::GetTypeAsString(void)const __ptr64` | 5195 | Exported Function
+`SetSuppressHwndCreation` | 5319 | Exported Function
+`UpdateTabbedPaneArea` | 5338 | Exported Function
+`SetIBtnFace` | 5311 | Exported Function
+`allocator` | 5304 | Exported Function
+`SortFolderFileItemsByDateTime` | 5333 | Exported Function
+`GetDataModelForAllODCDocuments` | 5159 | Exported Function
+`GetErrorInfoFactoryManager` | 5161 | Exported Function
+`IDocumentAdapter` | 5181 | Exported Function
+`GetTypeAsString` | 5195 | Exported Function
 `ScriptRichCleanupInfo` | 5347 | Exported Function
-`void __cdecl Mso::Privacy::UI::Telemetry::LogActionAndHR(enum Mso::Privacy::UI::Telemetry::Action,long)` | 5276 | Exported Function
-`void __cdecl Mso::Privacy::UI::Telemetry::LogPrivacySessionTelemetry(void)` | 5277 | Exported Function
-`void __cdecl Mso::Privacy::UI::NotificationHelpers::SetHasUserSeenRoamingNotification(bool)` | 5310 | Exported Function
-`void __cdecl Mso::Privacy::UI::NotificationHelpers::SendNotificationTelemetry(enum Mso::Privacy::UI::NotificationHelpers::NotificationTelemetryType,class Mso::optional<enum Mso::Privacy::UI::NotificationHelpers::NotificationType>)` | 5308 | Exported Function
-`void __cdecl Mso::Privacy::UI::NotificationHelpers::SetHasUserSeenRestartPrompt(bool)` | 5309 | Exported Function
+`Action` | 5276 | Exported Function
+`LogPrivacySessionTelemetry` | 5277 | Exported Function
+`SetHasUserSeenRoamingNotification` | 5310 | Exported Function
+`NotificationType` | 5308 | Exported Function
+`SetHasUserSeenRestartPrompt` | 5309 | Exported Function
 `void __cdecl SafeSetBSTR(wchar_t const * __ptr64,wchar_t * __ptr64 & __ptr64)` | 5306 | Exported Function
 `void __cdecl SetPropValue(void * __ptr64,unsigned __int64,bool,unsigned __int64)` | 5317 | Exported Function
 `void __cdecl MsoUpdateFrameDocumentSaveStatus(struct HWND__ * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64)` | 5293 | Exported Function
-`void __cdecl Mso::Toolbar::TabbedPanes::CheckAndShowTabbedPaneTeachingCallout(class TBS * __ptr64)` | 3459 | Exported Function
-`void __cdecl MsoEnableFrameDocumentInfo(struct HWND__ * __ptr64,int,struct FlexUI::IDataSource * __ptr64)` | 5288 | Exported Function
-`void __cdecl Mso::DocumentTemplates::Organization::SetNavCacheApis(struct Mso::DocumentTemplates::Organization::INavCacheApis * __ptr64)` | 5315 | Exported Function
-`void __cdecl Mso::License::LicenseAccount::OpenUpdateAccountUrlInBrowser(void)` | 5297 | Exported Function
-`void __cdecl Mso::DM::RegisterMsoDavHelperFactory(class Mso::Functor<class Mso::TCntPtr<class IMsoCsiDavHelper> __cdecl(struct IMsoUrl * __ptr64)> && __ptr64)` | 5303 | Exported Function
+`CheckAndShowTabbedPaneTeachingCallout` | 3459 | Exported Function
+`IDataSource` | 5288 | Exported Function
+`INavCacheApis` | 5315 | Exported Function
+`OpenUpdateAccountUrlInBrowser` | 5297 | Exported Function
+`TCntPtr` | 5303 | Exported Function
 `void __cdecl FireOAEvent(struct MSOINST const * __ptr64,void * __ptr64,struct _GUID const * __ptr64,bool (__cdecl*)(void * __ptr64,class OADISP * __ptr64),bool,long,struct tagDISPPARAMS * __ptr64,struct tagVARIANT * __ptr64)` | 5049 | Exported Function
 `void __cdecl GomInitRichuspPointers(struct GOM_INIT & __ptr64)` | 5198 | Exported Function
-`void __cdecl Mso::Pcx::SetLaunchOutlookFeedbackFunction(void (__cdecl*)(void))` | 5313 | Exported Function
-`void __cdecl Mso::Pcx::SetLaunchPersonaSpyFunc(void (__cdecl*)(void))` | 5314 | Exported Function
-`void __cdecl Mso::Pcx::LivePersonaCard::SetPcxPersonaJsSdxConnector(class std::shared_ptr<struct Mso::Pcx::LivePersonaCard::IPcxPersonaJsSdxConnector> const & __ptr64)` | 5316 | Exported Function
-`void __cdecl Mso::OfficeInsider::RegisterIdentifiedInsider(void)` | 5302 | Exported Function
-`void __cdecl Mso::Pcx::FeatureChecks::Details::SetIsInOutlook(bool)` | 5312 | Exported Function
-`public: struct HBITMAP__ * __ptr64 __cdecl TBCB::FDuplicateFace(struct _msoctlenv * __ptr64,bool) __ptr64` | 4990 | Exported Function
-`public: struct IMsoToolbarEx * __ptr64 __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::GetCurrentPane(void)const __ptr64` | 5157 | Exported Function
-`public: static void __cdecl Mso::UrlReputation::PolicyManager::PrefetchPolicy(void)` | 5298 | Exported Function
-`public: static void __cdecl Mso::Floodgate::FloodgateSharedObjectContainer::Init(class Mso::Floodgate::IFeatureGateProvider & __ptr64,class Mso::Floodgate::IChangeGateProvider & __ptr64,class Mso::Floodgate::ISettingProvider & __ptr64,struct Mso::Floodgate::ICallStackFilter & __ptr64,class Mso::TCntPtr<struct Mso::Floodgate::IUserGovernanceProvider> const & __ptr64,class Mso::TCntPtr<struct Mso::Floodgate::IUserFactsProvider> const & __ptr64)` | 5214 | Exported Function
-`public: static void __cdecl Mso::UrlReputation::PolicyManager::GetSafeDocsPolicy(struct Mso::Authentication::IOfficeIdentity const & __ptr64,bool & __ptr64,bool & __ptr64,unsigned __int64 & __ptr64)` | 5191 | Exported Function
-`public: struct Mso::UserStorage::IFolder & __ptr64 __cdecl MOX::CDocumentOperationTarget::UseFolder(void)const __ptr64` | 5341 | Exported Function
-`public: unsigned int __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::FindIndexOfPane(struct IMsoToolbarEx * __ptr64)const __ptr64` | 5044 | Exported Function
-`public: struct Mso::UserStorage::IFile & __ptr64 __cdecl MOX::CDocumentOperationTarget::UseFile(void)const __ptr64` | 5340 | Exported Function
-`public: struct IMsoUrl const & __ptr64 __cdecl MOX::CDocumentOperationTarget::UseUrl(void)const __ptr64` | 5342 | Exported Function
-`public: struct Mso::OfficeServicesManager::IConnectedService const & __ptr64 __cdecl MOX::CDocumentOperationTarget::UseConnectedService(void)const __ptr64` | 5339 | Exported Function
-`public: static class Mso::TCntPtr<class ServerInfoListener> __cdecl ServerInfoListener::CreateInstance(class Mso::TCntPtr<struct Csi::IDocument> const & __ptr64,struct IMsoOLDocument * __ptr64)` | 3946 | Exported Function
-`public: static class Mso::TCntPtr<struct Mso::VroomClient::OneDrive::OrganizationAssets> __cdecl Mso::VroomClient::Details::Factory<struct Mso::VroomClient::OneDrive::OrganizationAssets>::CreateInstance(void)` | 3861 | Exported Function
-`public: static bool __cdecl Mso::UrlReputation::PolicyManager::ShouldDoPolicyPrefetch(void)` | 5324 | Exported Function
-`public: int __cdecl TBS::FFindF6Toolbar(struct IMsoToolbarEx * __ptr64 * __ptr64,bool) __ptr64` | 5001 | Exported Function
-`public: long __cdecl NetUI::WinUia::TabbedPaneButtonProvider::Init(class NetUI::SimpleButton * __ptr64,struct IRawElementProviderFragmentRoot * __ptr64) __ptr64` | 5215 | Exported Function
-`public: static struct NetUI::PropertyInfo const * __ptr64 __cdecl NetUI::Persona::SelectedStoreUidPropInfo(void)` | 5307 | Exported Function
-`public: static unsigned int __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::GetHeaderWidth(class Math::TUnits<float,struct Math::TUnitsRatioTag<struct Math::DevicePixels,struct Math::DeviceIndependentPixels> >)` | 5166 | Exported Function
-`public: static struct Mso::Authentication::IOfficeIdentity * __ptr64 __cdecl Mso::UrlReputation::PolicyManager::GetPolicyEnabledIdentityForIdentity(struct Mso::Authentication::IOfficeIdentity & __ptr64,bool & __ptr64)` | 5186 | Exported Function
-`public: static class Mso::TCntPtr<struct Mso::VroomClient::Test::ItemList> __cdecl Mso::VroomClient::Details::Factory<struct Mso::VroomClient::Test::ItemList>::CreateInstance(void)` | 3774 | Exported Function
-`public: static long __cdecl NetUI::WinUia::TabbedPaneButtonProvider::CreateInstance(struct IUnknown * __ptr64 * __ptr64,class NetUI::SimpleButton * __ptr64,struct IRawElementProviderFragmentRoot * __ptr64)` | 3950 | Exported Function
-`public: void __cdecl Mso::Floodgate::CampaignState::MarkCurrentSurveyTakenOnDate(class Mso::RecordDateTime const & __ptr64,class std::chrono::duration<__int64,struct std::ratio<1,1> >,bool) __ptr64` | 5286 | Exported Function
-`public: void __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::CheckIfTabbedAndRemovePaneFromListenersList(struct IMsoToolbarEx * __ptr64) __ptr64` | 3461 | Exported Function
-`public: virtual void __cdecl TBS::SetTabbedPanesSuppressed(bool) __ptr64` | 5321 | Exported Function
-`public: virtual void __cdecl Mso::LVUX::AFOSignInDEX::Accept(struct Mso::Logging::IStructuredTracingVisitor & __ptr64)const __ptr64` | 2772 | Exported Function
-`public: virtual void __cdecl NetUI::WinUia::TabbedPaneButtonProvider::OnListenedDestroy(class NetUI::Node * __ptr64) __ptr64` | 5295 | Exported Function
-`public: void __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::ShowTabbedPane(struct IMsoToolbarEx * __ptr64,bool) __ptr64` | 5330 | Exported Function
-`public: void __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::ShowTabbedPaneAtIndex(unsigned int,bool) __ptr64` | 5331 | Exported Function
-`public: void __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::SetTabbedPanesSuppressed(bool) __ptr64` | 5322 | Exported Function
-`public: void __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::SetShouldShowTeachingUI(bool) __ptr64` | 5318 | Exported Function
-`public: void __cdecl Mso::Toolbar::TabbedPanes::TabbedPaneHeader::SetTabbedPaneEnabledState(struct IMsoToolbarEx * __ptr64,bool) __ptr64` | 5320 | Exported Function
-`public: virtual int __cdecl OfficeSpace::OfficeSpaceClassFactory::GetChangeGatePropertyId(void)const __ptr64` | 5152 | Exported Function
-`public: virtual int __cdecl TB::FSetTabStripImage(class FlexUI::FlexValueSP const & __ptr64) __ptr64` | 5016 | Exported Function
-`public: virtual enum NetUI::WinUia::UiaId __cdecl NetUI::WinUia::TabbedPaneButtonProvider::GetControlType(void) __ptr64` | 5154 | Exported Function
-`public: virtual bool __cdecl TBS::IsFocusInTabbedPaneHeader(void) __ptr64` | 5244 | Exported Function
-`public: virtual class std::vector<class Mso::TCntPtr<class OfficeSpace::BackStageNavItem>,class std::allocator<class Mso::TCntPtr<class OfficeSpace::BackStageNavItem> > > __cdecl OfficeSpace::BackStageNavFolder::GetItems(void)const __ptr64` | 5175 | Exported Function
-`public: virtual long __cdecl NetUI::WinUia::TabbedPaneButtonProvider::NondelegatingQueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64` | 5294 | Exported Function
-`public: virtual long __cdecl NetUI::WinUia::TabbedPaneButtonProviderFactory::CreateCustomUiaProvider(struct IRawElementProviderFragmentRoot * __ptr64,class NetUI::Element * __ptr64,struct IRawElementProviderSimple * __ptr64 * __ptr64)const __ptr64` | 3711 | Exported Function
-`public: virtual long __cdecl NetUI::WinUia::TabbedPaneButtonProvider::GetPropertyValue(int,struct tagVARIANT * __ptr64) __ptr64` | 5189 | Exported Function
-`public: virtual long __cdecl CPickerRecipientWell::HrCompleteRecipient(wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,int,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64) __ptr64` | 5203 | Exported Function
-`public: virtual long __cdecl NetUI::WinUia::TabbedPaneButtonProvider::GetPatternProvider(int,struct IUnknown * __ptr64 * __ptr64) __ptr64` | 5182 | Exported Function
+`SetLaunchOutlookFeedbackFunction` | 5313 | Exported Function
+`SetLaunchPersonaSpyFunc` | 5314 | Exported Function
+`IPcxPersonaJsSdxConnector` | 5316 | Exported Function
+`RegisterIdentifiedInsider` | 5302 | Exported Function
+`SetIsInOutlook` | 5312 | Exported Function
+`FDuplicateFace` | 4990 | Exported Function
+`GetCurrentPane` | 5157 | Exported Function
+`PrefetchPolicy` | 5298 | Exported Function
+`IUserFactsProvider` | 5214 | Exported Function
+`IOfficeIdentity` | 5191 | Exported Function
+`UseFolder` | 5341 | Exported Function
+`FindIndexOfPane` | 5044 | Exported Function
+`UseFile` | 5340 | Exported Function
+`UseUrl` | 5342 | Exported Function
+`UseConnectedService` | 5339 | Exported Function
+`IDocument` | 3946 | Exported Function
+`CreateInstance` | 3861 | Exported Function
+`ShouldDoPolicyPrefetch` | 5324 | Exported Function
+`FFindF6Toolbar` | 5001 | Exported Function
+`SimpleButton` | 5215 | Exported Function
+`SelectedStoreUidPropInfo` | 5307 | Exported Function
+`DeviceIndependentPixels` | 5166 | Exported Function
+`IOfficeIdentity` | 5186 | Exported Function
+`CreateInstance` | 3774 | Exported Function
+`SimpleButton` | 3950 | Exported Function
+`ratio` | 5286 | Exported Function
+`CheckIfTabbedAndRemovePaneFromListenersList` | 3461 | Exported Function
+`SetTabbedPanesSuppressed` | 5321 | Exported Function
+`IStructuredTracingVisitor` | 2772 | Exported Function
+`Node` | 5295 | Exported Function
+`ShowTabbedPane` | 5330 | Exported Function
+`ShowTabbedPaneAtIndex` | 5331 | Exported Function
+`SetTabbedPanesSuppressed` | 5322 | Exported Function
+`SetShouldShowTeachingUI` | 5318 | Exported Function
+`SetTabbedPaneEnabledState` | 5320 | Exported Function
+`GetChangeGatePropertyId` | 5152 | Exported Function
+`FlexValueSP` | 5016 | Exported Function
+`GetControlType` | 5154 | Exported Function
+`IsFocusInTabbedPaneHeader` | 5244 | Exported Function
+`GetItems` | 5175 | Exported Function
+`NondelegatingQueryInterface` | 5294 | Exported Function
+`Element` | 3711 | Exported Function
+`GetPropertyValue` | 5189 | Exported Function
+`HrCompleteRecipient` | 5203 | Exported Function
+`GetPatternProvider` | 5182 | Exported Function
 `Ordinal847` | 847 | Exported Function
 `Ordinal848` | 848 | Exported Function
 `Ordinal845` | 845 | Exported Function
@@ -3407,87 +3407,87 @@ Function Name | Ordinal | Type
 `Ordinal1117` | 1117 | Exported Function
 `Ordinal1115` | 1115 | Exported Function
 `Ordinal1116` | 1116 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsUnifiedGroupDialogV4Enabled(void)` | 5269 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsUpdateHeaderDPIChangeUIUpdateOnlyEnabled(void)` | 5270 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsShowExpandedViewOnPersonaClickEnabled(void)` | 5265 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsRNPersonaCardPerfEnabled(void)` | 5260 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsSharedPeopleSearchTracingEnabled(void)` | 5264 | Exported Function
-`bool __cdecl Mso::Pcx::IsX500Address(wchar_t const * __ptr64)` | 5274 | Exported Function
-`bool __cdecl Mso::Pcx::ObjectModel::BindServiceToProfile(wchar_t const * __ptr64,wchar_t const * __ptr64)` | 2960 | Exported Function
-`bool __cdecl Mso::Pcx::IsSmtpAddress(wchar_t const * __ptr64)` | 5266 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsValidateNNCSmtpAddressesEnabled(void)` | 5272 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsValidateSearchResultsAndUseSmtpEnabled(void)` | 5273 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsNarratePeoplePickerErrorMessageEnabled(void)` | 5254 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsNNCSmtpValidationEnabled(void)` | 5253 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsLokiImageShouldNotBeCachedEnabled(void)` | 5252 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsLinkedInCrowdsourcingEnabled(void)` | 5249 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsLinkedInJoinNowCrashFixEnabled(void)` | 5251 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsPersonaSpyEnabled_FlightCheckOnly(void)` | 5259 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsRemoveOnCardActiveCallInHandleDpiChangedEnabled(void)` | 5262 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsPcxMapiUsageFixesEnabled(void)` | 5258 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsOpenContactCardScaleForDpiEnabled(void)` | 5256 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsOptionToDisableFindPeopleThrottlingEnabled(void)` | 5257 | Exported Function
-`class Mso::TCntPtr<class Mso::Floodgate::CampaignScope> __cdecl Mso::Floodgate::ClientCore::Factory::Campaign::Scope::Any::Make(void)` | 5278 | Exported Function
-`class Mso::TCntPtr<class Mso::Floodgate::CampaignScope> __cdecl Mso::Floodgate::ClientCore::Factory::Campaign::Scope::EnvironmentCrossProduct::Make(void)` | 5283 | Exported Function
-`class Mso::optional<enum Mso::Privacy::UI::NotificationHelpers::NotificationType> __cdecl Mso::Privacy::UI::NotificationHelpers::GetNotificationTypeFromFlags(bool,bool)` | 5180 | Exported Function
-`class Mso::Future<long> __cdecl Mso::Document::NotificationAck::ClickAckAsync(struct Mso::Document::NotificationAck::NotificationAckParam const & __ptr64)` | 3491 | Exported Function
-`class Mso::LegacyFuture<struct Mso::Authentication::IOfficeIdentity * __ptr64> __cdecl Mso::Authentication::ShowAccountBindingPromptAsync(struct Mso::Authentication::UIExecutionContext const & __ptr64,struct Mso::OfficeServicesManager::IAvailableService const & __ptr64,struct Mso::Authentication::IOfficeIdentity & __ptr64,class Mso::optional<struct tagSIZE> const & __ptr64,struct _GUID const & __ptr64)` | 5326 | Exported Function
-`class Mso::TCntPtr<class Mso::JSHost::IKeyValueStorage> __cdecl Mso::LivePersonaCard::TryEnsurePersistentKeyValueStorage(void)` | 5335 | Exported Function
-`class Mso::TCntPtr<struct InferenceEngines::IBoostedTreeModel> __cdecl InferenceEngines::CreateBoostedTreeModel(enum InferenceEngines::BoostedTreeModelType)` | 3689 | Exported Function
-`class Mso::TCntPtr<class Mso::JSHost::IKeyValueStorage> __cdecl Mso::LivePersonaCard::CreateMemoryKeyValueStorage(void)` | 4337 | Exported Function
-`class Mso::TCntPtr<class Mso::Floodgate::CampaignScope> __cdecl Mso::Floodgate::ClientCore::Factory::Campaign::Scope::UserFactAll::Make(class std::vector<class Mso::TCntPtr<class Mso::Floodgate::UserFact>,class std::allocator<class Mso::TCntPtr<class Mso::Floodgate::UserFact> > > const & __ptr64,class Mso::TCntPtr<struct Mso::Floodgate::IUserFactsProvider> const & __ptr64)` | 5284 | Exported Function
-`class Mso::TCntPtr<class Mso::Floodgate::CampaignScope> __cdecl Mso::Floodgate::ClientCore::Factory::Campaign::Scope::UserFactAny::Make(class std::vector<class Mso::TCntPtr<class Mso::Floodgate::UserFact>,class std::allocator<class Mso::TCntPtr<class Mso::Floodgate::UserFact> > > const & __ptr64,class Mso::TCntPtr<struct Mso::Floodgate::IUserFactsProvider> const & __ptr64)` | 5285 | Exported Function
-`bool __cdecl Mso::Privacy::UI::NotificationHelpers::GetHasUserSeenRestartPrompt(void)` | 5164 | Exported Function
-`bool __cdecl Mso::Privacy::UI::NotificationHelpers::GetHasUserSeenRoamingNotification(void)` | 5165 | Exported Function
-`bool __cdecl Mso::Pcx::ObjectModel::RecordLinkedInSettingsCompliance(wchar_t const * __ptr64,bool)` | 5301 | Exported Function
-`bool __cdecl Mso::Pcx::ObjectModel::IsInOnlineMode(void)` | 5247 | Exported Function
-`bool __cdecl Mso::Pcx::ObjectModel::IsLinkedInEnabledForOffice(void)` | 5250 | Exported Function
+`IsUnifiedGroupDialogV4Enabled` | 5269 | Exported Function
+`IsUpdateHeaderDPIChangeUIUpdateOnlyEnabled` | 5270 | Exported Function
+`IsShowExpandedViewOnPersonaClickEnabled` | 5265 | Exported Function
+`IsRNPersonaCardPerfEnabled` | 5260 | Exported Function
+`IsSharedPeopleSearchTracingEnabled` | 5264 | Exported Function
+`IsX500Address` | 5274 | Exported Function
+`BindServiceToProfile` | 2960 | Exported Function
+`IsSmtpAddress` | 5266 | Exported Function
+`IsValidateNNCSmtpAddressesEnabled` | 5272 | Exported Function
+`IsValidateSearchResultsAndUseSmtpEnabled` | 5273 | Exported Function
+`IsNarratePeoplePickerErrorMessageEnabled` | 5254 | Exported Function
+`IsNNCSmtpValidationEnabled` | 5253 | Exported Function
+`IsLokiImageShouldNotBeCachedEnabled` | 5252 | Exported Function
+`IsLinkedInCrowdsourcingEnabled` | 5249 | Exported Function
+`IsLinkedInJoinNowCrashFixEnabled` | 5251 | Exported Function
+`IsPersonaSpyEnabled_FlightCheckOnly` | 5259 | Exported Function
+`IsRemoveOnCardActiveCallInHandleDpiChangedEnabled` | 5262 | Exported Function
+`IsPcxMapiUsageFixesEnabled` | 5258 | Exported Function
+`IsOpenContactCardScaleForDpiEnabled` | 5256 | Exported Function
+`IsOptionToDisableFindPeopleThrottlingEnabled` | 5257 | Exported Function
+`Make` | 5278 | Exported Function
+`Make` | 5283 | Exported Function
+`GetNotificationTypeFromFlags` | 5180 | Exported Function
+`NotificationAckParam` | 3491 | Exported Function
+`optional` | 5326 | Exported Function
+`TryEnsurePersistentKeyValueStorage` | 5335 | Exported Function
+`BoostedTreeModelType` | 3689 | Exported Function
+`CreateMemoryKeyValueStorage` | 4337 | Exported Function
+`IUserFactsProvider` | 5284 | Exported Function
+`IUserFactsProvider` | 5285 | Exported Function
+`GetHasUserSeenRestartPrompt` | 5164 | Exported Function
+`GetHasUserSeenRoamingNotification` | 5165 | Exported Function
+`RecordLinkedInSettingsCompliance` | 5301 | Exported Function
+`IsInOnlineMode` | 5247 | Exported Function
+`IsLinkedInEnabledForOffice` | 5250 | Exported Function
 `bool __cdecl ProcessToolbarF6(struct IMsoToolbarSetEx * __ptr64,bool)` | 5300 | Exported Function
-`char const * __ptr64 __cdecl Mso::Pcx::Details::GetNameForPersonaProperty(enum MsoPersonaProperty)` | 5178 | Exported Function
-`bool __cdecl OfficeSpace::IsDateModifiedSortFixEnabled(void)` | 5226 | Exported Function
-`bool __cdecl Mso::Privacy::UI::ShowNotificationDialog(int,int,bool)` | 5328 | Exported Function
-`bool __cdecl Mso::WritingAssistance::FeatureGates::IsSecurityFullEditorExperienceEnabled(void)` | 5263 | Exported Function
-`bool __cdecl Mso::OutSpace::Nav::IsThisPCVirtualRootFolderName(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 5267 | Exported Function
-`bool __cdecl Mso::OutSpace::Nav::IsThisPCVirtualRootFolderName(wchar_t const * __ptr64)` | 5268 | Exported Function
-`bool __cdecl Mso::OfficeInsider::CanShowOfficeInsiderSlab(void)` | 3269 | Exported Function
-`bool __cdecl Mso::GrooveCsiInit::InitializeGrooveCsiDll(struct MsoCF::IError * __ptr64 * __ptr64)` | 5216 | Exported Function
-`bool __cdecl Mso::License::Modes::BlockConvert::ShouldBlockConvert(void)` | 5323 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsCCv2ShowMoreLinkTextUpdatesEnabled(void)` | 5223 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsClassificationDrivenPolicyEnabled(void)` | 5224 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsCCv2ContactCardPerfEnabled(void)` | 5222 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsAddSelectedStoreUidToPersonaEnabled(void)` | 5218 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsAtMentionsPerStoreBugFixEnabled(void)` | 5220 | Exported Function
-`bool __cdecl Mso::CalloutAnchoring::IsUsingAnchorRegistry(wchar_t const * __ptr64)` | 5271 | Exported Function
-`bool __cdecl Mso::CalloutAnchoring::RepositionHWNDBasedOnNewAnchor(struct HWND__ * __ptr64,struct tagRECT const & __ptr64,struct tagRECT const & __ptr64)` | 5305 | Exported Function
+`GetNameForPersonaProperty` | 5178 | Exported Function
+`IsDateModifiedSortFixEnabled` | 5226 | Exported Function
+`ShowNotificationDialog` | 5328 | Exported Function
+`IsSecurityFullEditorExperienceEnabled` | 5263 | Exported Function
+`allocator` | 5267 | Exported Function
+`IsThisPCVirtualRootFolderName` | 5268 | Exported Function
+`CanShowOfficeInsiderSlab` | 3269 | Exported Function
+`IError` | 5216 | Exported Function
+`ShouldBlockConvert` | 5323 | Exported Function
+`IsCCv2ShowMoreLinkTextUpdatesEnabled` | 5223 | Exported Function
+`IsClassificationDrivenPolicyEnabled` | 5224 | Exported Function
+`IsCCv2ContactCardPerfEnabled` | 5222 | Exported Function
+`IsAddSelectedStoreUidToPersonaEnabled` | 5218 | Exported Function
+`IsAtMentionsPerStoreBugFixEnabled` | 5220 | Exported Function
+`IsUsingAnchorRegistry` | 5271 | Exported Function
+`RepositionHWNDBasedOnNewAnchor` | 5305 | Exported Function
 `bool __cdecl IsAppAllowedCacheStartForServerInfo(void)` | 5219 | Exported Function
 `bool __cdecl FCompareTBCForEvents(void * __ptr64,class OADISP * __ptr64)` | 4881 | Exported Function
 `bool __cdecl FPropSigned(struct MSOPINFO const * __ptr64)` | 5010 | Exported Function
-`bool __cdecl Mso::DocumentTemplates::Organization::DoesTenantBelongToTenantList(struct Mso::DocumentTemplates::Organization::ITenant const & __ptr64,class std::vector<class Mso::TCntPtr<struct Mso::DocumentTemplates::Organization::ITenant>,class std::allocator<class Mso::TCntPtr<struct Mso::DocumentTemplates::Organization::ITenant> > > const & __ptr64)` | 4852 | Exported Function
-`bool __cdecl Mso::Feedback::Settings::BlockFeedbackExperienceBasedOnPrivacySettings(bool)` | 3138 | Exported Function
-`bool __cdecl Mso::DocumentPolicy::OpenSaveAs::OnlineServiceFilter::IsRecentPlacesFiltered(void)` | 5261 | Exported Function
-`bool __cdecl Mso::Document::NotificationAck::IsNotificationAckFeatureGateEnabled(void)` | 5255 | Exported Function
-`bool __cdecl Mso::DocumentMru::AggregatedMru::AggregatedItemsIdentityTracker::HasSignedInIdentity(enum Mso::DocumentMru::AggregatedMru::AggregatedItemListType)` | 5199 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixMemoryLeakInOrgNavigationEnabled(void)` | 5240 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixPeoplePickerItemMissingEmsmdbUidEnabled(void)` | 5241 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixMemLeaksCopyRowSetInNNCEnabled(void)` | 5239 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixForRingEnabledCircularDoughBoyCrashEnabled(void)` | 5237 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixInitialInDDPIEnabled(void)` | 5238 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsHidePlannerEnabled(void)` | 5246 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsIncludePDLsInFindPeopleResultsEnabled(void)` | 5248 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsForceSetMuidForFindPeopleEnabled(void)` | 5245 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixPeopleSearchTrachingOacrMinbarIssuesEnabled(void)` | 5242 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixResetButtonEnabled(void)` | 5243 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsEnsureContextIsWarmedUpOnBackgroundThreadEnabled(void)` | 5230 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsExpandHoverCardOnTimerEnabled(void)` | 5231 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsEnableLinkedInInDesktopOutlookEnabled(void)` | 5229 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsCompareLokiAndMapiOrgDataEnabled(void)` | 5225 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsDisableFindPeopleInOfflineModeEnabled(void)` | 5227 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixContactCardSizeBiggerThanMonitorEnabled(void)` | 5235 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixForCrashInCreateCardEnabled(void)` | 5236 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFixCMsoPersonaNeedUpdateOacrErrorEnabled(void)` | 5234 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFeedbackLinkInLPCEnabled(void)` | 5232 | Exported Function
-`bool __cdecl Mso::Pcx::FeatureChecks::IsFindPeopleClientNotificationExtraLogsEnabled(void)` | 5233 | Exported Function
-`class Mso::TCntPtr<struct IPcxPersona> __cdecl Mso::Pcx::MinimalAddressBook::GetPcxPersona(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABPersonaSummary> const & __ptr64)` | 5183 | Exported Function
+`ITenant` | 4852 | Exported Function
+`BlockFeedbackExperienceBasedOnPrivacySettings` | 3138 | Exported Function
+`IsRecentPlacesFiltered` | 5261 | Exported Function
+`IsNotificationAckFeatureGateEnabled` | 5255 | Exported Function
+`AggregatedItemListType` | 5199 | Exported Function
+`IsFixMemoryLeakInOrgNavigationEnabled` | 5240 | Exported Function
+`IsFixPeoplePickerItemMissingEmsmdbUidEnabled` | 5241 | Exported Function
+`IsFixMemLeaksCopyRowSetInNNCEnabled` | 5239 | Exported Function
+`IsFixForRingEnabledCircularDoughBoyCrashEnabled` | 5237 | Exported Function
+`IsFixInitialInDDPIEnabled` | 5238 | Exported Function
+`IsHidePlannerEnabled` | 5246 | Exported Function
+`IsIncludePDLsInFindPeopleResultsEnabled` | 5248 | Exported Function
+`IsForceSetMuidForFindPeopleEnabled` | 5245 | Exported Function
+`IsFixPeopleSearchTrachingOacrMinbarIssuesEnabled` | 5242 | Exported Function
+`IsFixResetButtonEnabled` | 5243 | Exported Function
+`IsEnsureContextIsWarmedUpOnBackgroundThreadEnabled` | 5230 | Exported Function
+`IsExpandHoverCardOnTimerEnabled` | 5231 | Exported Function
+`IsEnableLinkedInInDesktopOutlookEnabled` | 5229 | Exported Function
+`IsCompareLokiAndMapiOrgDataEnabled` | 5225 | Exported Function
+`IsDisableFindPeopleInOfflineModeEnabled` | 5227 | Exported Function
+`IsFixContactCardSizeBiggerThanMonitorEnabled` | 5235 | Exported Function
+`IsFixForCrashInCreateCardEnabled` | 5236 | Exported Function
+`IsFixCMsoPersonaNeedUpdateOacrErrorEnabled` | 5234 | Exported Function
+`IsFeedbackLinkInLPCEnabled` | 5232 | Exported Function
+`IsFindPeopleClientNotificationExtraLogsEnabled` | 5233 | Exported Function
+`IMABPersonaSummary` | 5183 | Exported Function
 `long __cdecl HrCovertRecipientEntryIdToContabEntryId(wchar_t const * __ptr64,unsigned long,unsigned long,wchar_t * __ptr64 * __ptr64)` | 5205 | Exported Function
 `long __cdecl HrFloatFromVariant(struct tagVARIANT const * __ptr64,float * __ptr64)` | 5206 | Exported Function
 `long __cdecl HrCovertRecipientEntryIdToContabEntryId(struct _SBinary const * __ptr64,unsigned long,unsigned long,struct _SBinary * __ptr64 * __ptr64)` | 5204 | Exported Function
@@ -3498,11 +3498,11 @@ Function Name | Ordinal | Type
 `long __cdecl HrIDispFromVariant(struct tagVARIANT const * __ptr64,struct IDispatch * __ptr64 * __ptr64)` | 5209 | Exported Function
 `long __cdecl HrGetWtz255FromBstr(wchar_t const * __ptr64,wchar_t * __ptr64)` | 5207 | Exported Function
 `long __cdecl HrGomPrepareCSInfo(class CGomDC * __ptr64,wchar_t const * __ptr64,int,int,int,unsigned long,int * __ptr64 & __ptr64,struct tagCS_STR_INFO * __ptr64 & __ptr64,bool & __ptr64)` | 5208 | Exported Function
-`enum Mso::InsiderManagement::InsiderLevel __cdecl Mso::OfficeInsider::ShowOfficeInsiderDlg(enum Mso::OfficeInsider::OfficeInsiderEvent)` | 5329 | Exported Function
-`enum Mso::UrlReputation::UrlVerdict __cdecl Mso::UrlReputation::GetUrlReputationForIdentity(wchar_t const * __ptr64,struct Mso::Authentication::IOfficeIdentity & __ptr64,class Mso::optional<struct _GUID> & __ptr64,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __ptr64,enum Mso::UrlReputation::RequestType)` | 5196 | Exported Function
-`enum ExistingCredUseResult __cdecl Mso::CredCollector::Threaded_UseExistingCreds(class Mso::TCntPtr<struct IMsoUrl> const & __ptr64,enum AUTHSCHEME,struct Mso::Authentication::IOfficeIdentity * __ptr64,bool,unsigned int,class Mso::optional<class Mso::Authentication::ConditionalAccessErrorPouch> & __ptr64,class Mso::TCntPtr<struct IMsoUrl> const & __ptr64)` | 5334 | Exported Function
-`class std::vector<class Mso::TCntPtr<class Mso::Floodgate::CampaignDefinition>,class std::allocator<class Mso::TCntPtr<class Mso::Floodgate::CampaignDefinition> > > __cdecl Mso::Floodgate::Factory::Campaign::FromCampaignContent(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 5150 | Exported Function
-`enum DynamicUXManager::GroupRankerModelType __cdecl DynamicUXManager::GetGroupRankerModelType(void)` | 5163 | Exported Function
+`OfficeInsiderEvent` | 5329 | Exported Function
+`RequestType` | 5196 | Exported Function
+`TCntPtr` | 5334 | Exported Function
+`allocator` | 5150 | Exported Function
+`GetGroupRankerModelType` | 5163 | Exported Function
 `int __cdecl FVariantChildIsSelf(struct tagVARIANT const * __ptr64)` | 5027 | Exported Function
 `long __cdecl GetPropValueLONG32(unsigned __int64)` | 5187 | Exported Function
 `int __cdecl FVariantChildIsIndex(struct tagVARIANT const * __ptr64,int * __ptr64)` | 5020 | Exported Function
@@ -3520,7 +3520,7 @@ Function Name | Ordinal | Type
 `Ordinal1007` | 1007 | Exported Function
 `MsoFGetEnvelopeClsid` | 5344 | Exported Function
 `MsoFShowVBAHelpForHelpId` | 5345 | Exported Function
-`long __cdecl Mso::OfficeServicesManager::BindServiceToProfile(wchar_t const * __ptr64,struct Mso::Authentication::IOfficeProfile const & __ptr64,struct _GUID const & __ptr64,struct Mso::OfficeServicesManager::IOfficeServicesManager const & __ptr64)` | 3126 | Exported Function
+`IOfficeServicesManager` | 3126 | Exported Function
 `long __cdecl HrWtz255FromBstr(wchar_t const * __ptr64,wchar_t * __ptr64)` | 5212 | Exported Function
 `long __cdecl HrWtz255FromVariant(struct tagVARIANT const * __ptr64,wchar_t * __ptr64)` | 5213 | Exported Function
 `Ordinal100` | 100 | Exported Function
@@ -3528,46 +3528,46 @@ Function Name | Ordinal | Type
 `Ordinal10` | 10 | Exported Function
 `MsoHrCreateQuickPersonaWithSelectedStore` | 5346 | Exported Function
 `Ordinal1` | 1 | Exported Function
-`class Mso::THolder<class Mso::UserContextApi::ContextScope * __ptr64,struct Mso::UserContextApi::ContextScopeDeleteHelper,struct Mso::EmptyTraits<class Mso::UserContextApi::ContextScope * __ptr64> > __cdecl Mso::UserContextApi::OpenContextScope(void)` | 5296 | Exported Function
-`class NetUI::CntPtrTo<class FlexUI::DataSourceDescription> __cdecl FlexUI::LoadDataSourceDescription(int,unsigned int)` | 5275 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::IReactHost> __cdecl Mso::React::Containers::CreateReactHostFromStringBundle(char const * __ptr64,char const * __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > && __ptr64)` | 4641 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::IReactHost> __cdecl Mso::React::Containers::CreateReactHostForWebDebugger(char const * __ptr64,char const * __ptr64,char const * __ptr64)` | 4528 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::IReactHost> __cdecl Mso::React::Containers::CreateReactHostFromFileBundle(char const * __ptr64,char const * __ptr64,char const * __ptr64)` | 4625 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Mso::Pcx::ObjectModel::TryGetUniqueIdOfProfileForAccount(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 5337 | Exported Function
-`class std::shared_ptr<struct InferenceEngines::IEmbeddingDenseModel> __cdecl InferenceEngines::CreateEmbeddingDenseModel(int const * __ptr64,unsigned int,int)` | 3739 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Mso::DocumentTemplateService::GetClientId(enum MSOAPP,bool)` | 5153 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Mso::Pcx::Details::GetNameForPersonaProperties(int,enum MsoPersonaProperty const * __ptr64)` | 5177 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl ConvertToLower(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 3687 | Exported Function
-`class Mso::TCntPtr<struct Mso::Floodgate::IBusinessBarSurvey> __cdecl Mso::Floodgate::Factory::Survey::BusinessBar::Make(struct Mso::Floodgate::BusinessBarSurveyData && __ptr64)` | 5282 | Exported Function
-`class Mso::TCntPtr<struct Mso::Floodgate::ICampaignDefinitionProvider> __cdecl Mso::Floodgate::CreatePersonalizationBasedCampaignDefinitionProvider(void)` | 4480 | Exported Function
-`class Mso::TCntPtr<struct Mso::Floodgate::IBusinessBarSurvey> __cdecl Mso::Floodgate::ClientCore::Factory::Survey::BusinessBar::Make(struct Mso::Floodgate::BusinessBarSurveyData && __ptr64)` | 5281 | Exported Function
-`class Mso::TCntPtr<struct Mso::CalloutAnchoring::IAnchorTracker> __cdecl Mso::CalloutAnchoring::CreateAnchorTracker(struct Mso::CalloutAnchoring::IAnchorListener * __ptr64)` | 3688 | Exported Function
-`class Mso::TCntPtr<struct Mso::Document::ErrorDataModel::ISingleDocumentErrorDataModel> __cdecl Mso::Document::ErrorDataModel::Factory::GetDataModelForSingleDocument(struct Mso::Document::PropertyProvider::IDocumentPropertyProvider & __ptr64)` | 5160 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::Containers::IReactTaskPaneManager> __cdecl Mso::React::Containers::CreateReactTaskPaneManager(struct HWND__ * __ptr64,struct Mso::React::IReactHost & __ptr64,int (__cdecl*)(int,int,void * __ptr64,void * __ptr64,void * __ptr64))` | 4644 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::Containers::IReactTaskPaneManager> __cdecl Mso::React::Containers::CreateReactTaskPaneManager(struct IMsoToolbarSet * __ptr64,struct Mso::React::IReactHost & __ptr64,int (__cdecl*)(int,int,void * __ptr64,void * __ptr64,void * __ptr64))` | 4647 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::Containers::IReactDialogManager> __cdecl Mso::React::Containers::CreateReactDialogManager(struct Mso::React::IReactHost & __ptr64)` | 4490 | Exported Function
-`class Mso::TCntPtr<struct Mso::JSHost::IRekaService> __cdecl Mso::LivePersonaCard::CreateMemoryStorageDataService(struct Mso::JSHost::IRekaContext & __ptr64)` | 4338 | Exported Function
-`class Mso::TCntPtr<struct Mso::React::Containers::IReactCalloutManager> __cdecl Mso::React::Containers::CreateReactCalloutManager(struct Mso::React::IReactHost & __ptr64)` | 4486 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABPersonaSummaryBuilder> __cdecl Mso::Pcx::MinimalAddressBook::CreatePersonaSummaryBuilderForRecipient(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> const & __ptr64,class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABPersonaSite> const & __ptr64)` | 4479 | Exported Function
-`class std::shared_ptr<struct Mso::TextPrediction::ITextPrediction> __cdecl Mso::TextPrediction::CreateInstance(void)` | 3954 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABPersonaSummary> __cdecl Mso::Pcx::MinimalAddressBook::GetPersonaSummary(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64,class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABPersonaSite> const & __ptr64)` | 5185 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromSmtpAddress(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> const & __ptr64,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>)` | 5172 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromToken(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 5173 | Exported Function
-`class std::unique_ptr<struct Mso::Floodgate::IBusinessBarComponent,struct std::default_delete<struct Mso::Floodgate::IBusinessBarComponent> > __cdecl Mso::Floodgate::ClientCore::Factory::Component::BusinessBar::Make(struct Mso::Floodgate::BusinessBarComponentData && __ptr64)` | 5279 | Exported Function
-`class std::unique_ptr<struct Mso::Floodgate::IBusinessBarComponent,struct std::default_delete<struct Mso::Floodgate::IBusinessBarComponent> > __cdecl Mso::Floodgate::Factory::Component::BusinessBar::Make(struct Mso::Floodgate::BusinessBarComponentData && __ptr64)` | 5280 | Exported Function
-`class std::tuple<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > __cdecl Mso::Pcx::ObjectModel::TryGetLokiUrlAndTokenForAccountId(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 5336 | Exported Function
-`class std::tuple<class Mso::TCntPtr<struct Mso::VroomClient::IError const >,class Mso::TCntPtr<struct Mso::VroomClient::IClient> > __cdecl Mso::VroomClient::CreateClient(struct IMsoUrl const & __ptr64,struct Mso::Authentication::IOfficeIdentity * __ptr64,bool)` | 3690 | Exported Function
-`class std::tuple<class Mso::TCntPtr<struct Mso::VroomClient::IError const >,class Mso::TCntPtr<struct Mso::VroomClient::IClient> > __cdecl Mso::VroomClient::CreateClientForDocumentTemplateOrgAPI(struct IMsoUrl const & __ptr64,struct Mso::Authentication::IOfficeIdentity * __ptr64,bool)` | 3702 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> __cdecl Mso::Pcx::MinimalAddressBook::MsoGetOfficeIdentityPcxAccount(struct Mso::Authentication::IOfficeIdentity & __ptr64)` | 5291 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> __cdecl Mso::Pcx::MinimalAddressBook::MsoGetPcxAccount(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const & __ptr64)` | 5292 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> __cdecl Mso::Pcx::MinimalAddressBook::MsoGetExchangeStorePcxAccount(struct _MAPIUID const & __ptr64)` | 5290 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::IPeopleSearchFilter> __cdecl Mso::Pcx::GetRemoveUnsafeEmailSuggestionsFilter(void)` | 5190 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> __cdecl Mso::Pcx::MinimalAddressBook::MsoGetClientOnlyPcxAccount(void)` | 5289 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromSharePointId(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> const & __ptr64,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>)` | 5170 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromSipAddress(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> const & __ptr64,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>)` | 5171 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromResolutionId(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> const & __ptr64,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>)` | 5169 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromExternalDirectoryObject(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> const & __ptr64,class gsl::span<wchar_t const ,-1>,class gsl::span<wchar_t const ,-1>)` | 5167 | Exported Function
-`class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABIdentity> __cdecl Mso::Pcx::MinimalAddressBook::GetIdentityFromMapiEntryId(class std::shared_ptr<struct Mso::Pcx::MinimalAddressBook::IMABAccount> const & __ptr64,class gsl::span<wchar_t const ,-1>,class gsl::span<unsigned char const ,-1>)` | 5168 | Exported Function
+`OpenContextScope` | 5296 | Exported Function
+`LoadDataSourceDescription` | 5275 | Exported Function
+`allocator` | 4641 | Exported Function
+`CreateReactHostForWebDebugger` | 4528 | Exported Function
+`CreateReactHostFromFileBundle` | 4625 | Exported Function
+`allocator` | 5337 | Exported Function
+`CreateEmbeddingDenseModel` | 3739 | Exported Function
+`GetClientId` | 5153 | Exported Function
+`GetNameForPersonaProperties` | 5177 | Exported Function
+`allocator` | 3687 | Exported Function
+`BusinessBarSurveyData` | 5282 | Exported Function
+`CreatePersonalizationBasedCampaignDefinitionProvider` | 4480 | Exported Function
+`BusinessBarSurveyData` | 5281 | Exported Function
+`IAnchorListener` | 3688 | Exported Function
+`IDocumentPropertyProvider` | 5160 | Exported Function
+`IReactHost` | 4644 | Exported Function
+`IReactHost` | 4647 | Exported Function
+`IReactHost` | 4490 | Exported Function
+`IRekaContext` | 4338 | Exported Function
+`IReactHost` | 4486 | Exported Function
+`IMABPersonaSite` | 4479 | Exported Function
+`CreateInstance` | 3954 | Exported Function
+`IMABPersonaSite` | 5185 | Exported Function
+`span` | 5172 | Exported Function
+`allocator` | 5173 | Exported Function
+`BusinessBarComponentData` | 5279 | Exported Function
+`BusinessBarComponentData` | 5280 | Exported Function
+`allocator` | 5336 | Exported Function
+`IOfficeIdentity` | 3690 | Exported Function
+`IOfficeIdentity` | 3702 | Exported Function
+`IOfficeIdentity` | 5291 | Exported Function
+`allocator` | 5292 | Exported Function
+`MsoGetExchangeStorePcxAccount` | 5290 | Exported Function
+`GetRemoveUnsafeEmailSuggestionsFilter` | 5190 | Exported Function
+`MsoGetClientOnlyPcxAccount` | 5289 | Exported Function
+`span` | 5170 | Exported Function
+`span` | 5171 | Exported Function
+`span` | 5169 | Exported Function
+`span` | 5167 | Exported Function
+`span` | 5168 | Exported Function
 `Ordinal1372` | 1372 | Exported Function
 `Ordinal1373` | 1373 | Exported Function
 `Ordinal1371` | 1371 | Exported Function

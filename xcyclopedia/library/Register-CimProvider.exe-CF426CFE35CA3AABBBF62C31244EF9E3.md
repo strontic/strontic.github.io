@@ -18,6 +18,9 @@ SHA256 | `088DE004B2ABC256739060C61B89A4B3EAA892907B0A61EA30C2EB4533ADD373`
 SHA384 | `F2D9A734C93F39A344C11319B0C244E74D924A941BBD4A8D27AB0B071287121D97D7279252E20A99ECFF52870221B3B3`
 SHA512 | `13874C7A150CF1DFFD1FA5211A738F73FDDBA9F2A55E60A281EF1276D7F1E7B4CE897789BAEBB922CEF639FDA2099B8B70D5BC1E43C6628E80EC7BE13C9F4027`
 SSDEEP | `384:gbeG/bazHusjK0sZT9hm5ACy0io4Sq9JFadXZceP5P23tHj14KVGGx4WV1W:gr4OHk2XS4Fg2AqHj14E5xT`
+IMP | `4AC40E439D637601F5F9F12A23F83148`
+PESHA1 | `5230D677A82A1389E268D06E498462B8C1596CCB`
+PE256 | `B49BDB97F6C0B31F54F209649FD4656D2F774E7D738DAE60B85871A772A81E37`
 
 ## Runtime Data
 
@@ -87,10 +90,16 @@ Usage:  Register-CimProvider.exe
 
 ```
 
+### Child Processes:
+RdpSa.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\Register-CimProvider.exe |
 
@@ -112,7 +121,12 @@ C:\Windows\system32\Register-CimProvider.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/088de004b2abc256739060c61b89a4b3eaa892907b0a61ea30c2eb4533add373/detection/
 
 
 ## Possible Misuse

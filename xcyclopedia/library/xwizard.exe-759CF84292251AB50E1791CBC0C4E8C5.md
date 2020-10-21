@@ -18,6 +18,9 @@ SHA256 | `5CE0B07DBC12F4F9263376047A7A2F269958DF61E1510AC3B817796410CC2B00`
 SHA384 | `99B1F1E16E2F3EFF43D8199F67856F54812DCF879E0603F718103C2009D2DF44615B898A26ECE0DF36B0B3BC9D11F20B`
 SHA512 | `5B3E21D3EC0AC145AEEBE03911D7673CAEEBE6D51BA14C5CEA8E41A69738D1D4B5CDB8ECEAEDD987E2AEDE69C537DF0E78CD5A34A84D586914BB794D9CA79833`
 SSDEEP | `1536:HdR9GlZLXAKaDiTThDURDoq4OZZZLlCIibT:9R9GlZLcDi3hoRD68wbT`
+IMP | `878B18532266618387DC445E265148DD`
+PESHA1 | `826B0F962B039B5A32E01D8F061F72F05CC93CD9`
+PE256 | `43DA55D1F2997B0D9FF4231173DCA39263A5DD70A93F5A05C2B2D4DF1F2A939E`
 
 ## Runtime Data
 
@@ -28,13 +31,16 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\xwizard.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -42,6 +48,10 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\xwizard.exe |
 
 
 ## Signature
@@ -61,7 +71,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/5ce0b07dbc12f4f9263376047a7a2f269958df61e1510ac3b817796410cc2b00/detection/
 
 ## File Similarity (ssdeep match)
 

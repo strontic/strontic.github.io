@@ -18,6 +18,9 @@ SHA256 | `C302730B6088C6E28D1D9692D4D7D512C622979E58A1F6CCEC396AC1231F3DE2`
 SHA384 | `CE1396D7B3A518F1517A9C01E407983BA5A087A27DA9EE4F2F262AE20C6148B80D94AEC3526FB7A011FE30505F7C2EFF`
 SHA512 | `178C9033F513B64DECC15B2DA91BF3AC1D6CCAAE94ADDF557FAED134BB1B4C54355DB191A9A66DEF38C4EF2BD1B6A652B0A57AF3F8E26C286B94BC9BDF9BF7F3`
 SSDEEP | `3072:Ni8n7ZB1tIRkH6VVadIA16IltsV6NSga1PnNlXY1XoD+VlOd2bhhU9+y8fOpr2u1:b7ZTtIRkH6VVadIA16IltsV6NSga1jXe`
+IMP | `2899A95AD421A518591D7F87D363DB79`
+PESHA1 | `1E7F35F87632EC41F35F61E1CD3ABE0ACF5B98A3`
+PE256 | `47FFD67631E0DDB7F139D0D17BCC97112DEDD8C0A5DDDBE99F91E90D428B8E47`
 
 ## Runtime Data
 
@@ -47,21 +50,11 @@ wim             Transparent wim hosting management
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\fsutil.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,7 +67,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.652
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c302730b6088c6e28d1d9692d4d7d512c622979e58a1f6ccec396ac1231f3de2/detection/
 
 
 ## Possible Misuse

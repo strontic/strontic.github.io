@@ -28,7 +28,7 @@ Function Name | Ordinal | Type
 -- | -- | --
 `MI_Main` | 9 | Exported Function
 `GetProviderClassID` | 8 | Exported Function
-`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 2 | Exported Function
+`GetInitError` | 2 | Exported Function
 `public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 1 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
 `DllGetClassObject` | 4 | Exported Function

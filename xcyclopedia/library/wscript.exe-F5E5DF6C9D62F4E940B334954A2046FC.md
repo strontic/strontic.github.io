@@ -24,6 +24,9 @@ SHA256 | `47CACD60D91441137D055184614B1A418C0457992977857A76CA05C75BBC1B56`
 SHA384 | `BA747E5BD43ED901821A72B97CD42BA28171ABCB7383D6C44481A23C4AFFBA116D7AC263DF39564BAF0450604165FCF4`
 SHA512 | `F9A0425AB09706FF070A82B214EABE3F396C427F3EE486DD729B65AF370112DDE10D2BFE8D4670E44E72607BD5881FDECEABEF74B9D79709B007D5EFF82726A5`
 SSDEEP | `3072:JmpjcDrUzmyV5p5zeV3BNUVM1duWUZxtt:JmxcDrU+XzXunZh`
+IMP | `0F71D5F6F4CBB935CE1B09754102419C`
+PESHA1 | `DAFC5BFA9B41BA5A78EBBADF7A87068B3A218419`
+PE256 | `3CA214C85CACDF48F697E9E13137936B85ACC4F6E894632072C5DDA102781295`
 
 ## Runtime Data
 
@@ -36,20 +39,38 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\wscript.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
 C:\Windows\system32\wscript.exe |
 
 
@@ -70,7 +91,12 @@ C:\Windows\system32\wscript.exe |
 * Product Version: 5.812.10240.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/47cacd60d91441137d055184614b1a418c0457992977857a76ca05c75bbc1b56/detection/
 
 ## File Similarity (ssdeep match)
 

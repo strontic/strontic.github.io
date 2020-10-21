@@ -399,23 +399,23 @@ Function Name | Ordinal | Type
 `public: virtual __cdecl bad_typeid::~bad_typeid(void) __ptr64` | 17 | Exported Function
 `public: virtual __cdecl exception::~exception(void) __ptr64` | 18 | Exported Function
 `public: virtual __cdecl bad_cast::~bad_cast(void) __ptr64` | 16 | Exported Function
-`public: int __cdecl type_info::operator==(class type_info const & __ptr64)const __ptr64` | 27 | Exported Function
+`operator` | 27 | Exported Function
 `public: virtual __cdecl __non_rtti_object::~__non_rtti_object(void) __ptr64` | 15 | Exported Function
 `public: void __cdecl bad_typeid::``default constructor closure'(void) __ptr64` | 34 | Exported Function
 `putc` | 1185 | Exported Function
 `public: void __cdecl bad_cast::``default constructor closure'(void) __ptr64` | 33 | Exported Function
 `public: virtual __cdecl type_info::~type_info(void) __ptr64` | 19 | Exported Function
-`public: virtual char const * __ptr64 __cdecl exception::what(void)const __ptr64` | 62 | Exported Function
-`public: char const * __ptr64 __cdecl type_info::raw_name(void)const __ptr64` | 56 | Exported Function
-`public: class __non_rtti_object & __ptr64 __cdecl __non_rtti_object::operator=(class __non_rtti_object const & __ptr64) __ptr64` | 23 | Exported Function
-`public: char const * __ptr64 __cdecl type_info::name(void)const __ptr64` | 55 | Exported Function
-`public: __cdecl exception::exception(void) __ptr64` | 14 | Exported Function
-`public: __thiscall bad_cast::bad_cast(char const * const &)` | 5 | Exported Function
-`public: int __cdecl type_info::before(class type_info const & __ptr64)const __ptr64` | 54 | Exported Function
-`public: int __cdecl type_info::operator!=(class type_info const & __ptr64)const __ptr64` | 28 | Exported Function
-`public: class exception & __ptr64 __cdecl exception::operator=(class exception const & __ptr64) __ptr64` | 26 | Exported Function
-`public: class bad_cast & __ptr64 __cdecl bad_cast::operator=(class bad_cast const & __ptr64) __ptr64` | 24 | Exported Function
-`public: class bad_typeid & __ptr64 __cdecl bad_typeid::operator=(class bad_typeid const & __ptr64) __ptr64` | 25 | Exported Function
+`what` | 62 | Exported Function
+`raw_name` | 56 | Exported Function
+`operator` | 23 | Exported Function
+`name` | 55 | Exported Function
+`exception` | 14 | Exported Function
+`bad_cast` | 5 | Exported Function
+`before` | 54 | Exported Function
+`operator` | 28 | Exported Function
+`operator` | 26 | Exported Function
+`operator` | 24 | Exported Function
+`operator` | 25 | Exported Function
 `putchar` | 1186 | Exported Function
 `scanf_s` | 1200 | Exported Function
 `setbuf` | 1201 | Exported Function
@@ -519,7 +519,7 @@ Function Name | Ordinal | Type
 `void * __ptr64 __cdecl operator new[](unsigned __int64)` | 35 | Exported Function
 `void * __ptr64 __cdecl operator new(unsigned __int64)` | 20 | Exported Function
 `void * __ptr64 __cdecl operator new(unsigned __int64,int,char const * __ptr64,int)` | 21 | Exported Function
-`public: __cdecl exception::exception(class exception const & __ptr64) __ptr64` | 13 | Exported Function
+`exception` | 13 | Exported Function
 `floorf` | 1090 | Exported Function
 `fmod` | 1091 | Exported Function
 `floor` | 1089 | Exported Function
@@ -623,23 +623,23 @@ Function Name | Ordinal | Type
 `malloc` | 1160 | Exported Function
 `mblen` | 1161 | Exported Function
 `memmove_s` | 1175 | Exported Function
-`public: __cdecl bad_cast::bad_cast(char const * __ptr64 const & __ptr64) __ptr64` | 6 | Exported Function
-`public: __cdecl bad_cast::bad_cast(char const * __ptr64) __ptr64` | 8 | Exported Function
-`public: __cdecl __non_rtti_object::__non_rtti_object(class __non_rtti_object const & __ptr64) __ptr64` | 1 | Exported Function
-`private: __thiscall bad_cast::bad_cast(char const * const *)` | 3 | Exported Function
-`public: __cdecl __non_rtti_object::__non_rtti_object(char const * __ptr64) __ptr64` | 2 | Exported Function
-`public: __cdecl exception::exception(char const * __ptr64 const & __ptr64) __ptr64` | 11 | Exported Function
-`public: __cdecl exception::exception(char const * __ptr64 const & __ptr64,int) __ptr64` | 12 | Exported Function
-`public: __cdecl bad_typeid::bad_typeid(class bad_typeid const & __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl bad_cast::bad_cast(class bad_cast const & __ptr64) __ptr64` | 7 | Exported Function
-`public: __cdecl bad_typeid::bad_typeid(char const * __ptr64) __ptr64` | 10 | Exported Function
+`bad_cast` | 6 | Exported Function
+`bad_cast` | 8 | Exported Function
+`__non_rtti_object` | 1 | Exported Function
+`bad_cast` | 3 | Exported Function
+`__non_rtti_object` | 2 | Exported Function
+`exception` | 11 | Exported Function
+`exception` | 12 | Exported Function
+`bad_typeid` | 9 | Exported Function
+`bad_cast` | 7 | Exported Function
+`bad_typeid` | 10 | Exported Function
 `modff` | 1179 | Exported Function
 `perror` | 1180 | Exported Function
 `modf` | 1178 | Exported Function
 `memset` | 1176 | Exported Function
 `mktime` | 1177 | Exported Function
 `printf_s` | 1184 | Exported Function
-`private: __cdecl bad_cast::bad_cast(char const * __ptr64 const * __ptr64) __ptr64` | 4 | Exported Function
+`bad_cast` | 4 | Exported Function
 `printf` | 1183 | Exported Function
 `pow` | 1181 | Exported Function
 `powf` | 1182 | Exported Function

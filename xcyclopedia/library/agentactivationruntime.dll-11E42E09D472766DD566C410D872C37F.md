@@ -26,10 +26,10 @@ PE256 | `ADB338AB5BC0C4C14774B89256032D985872A32468FF725A656F0F4E9BEF9617`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`class std::shared_ptr<class Microsoft::VoiceAgentServices::IAgentActivationRuntime> __stdcall GetAgentActivationRuntime(void)` | 2 | Exported Function
+`IAgentActivationRuntime` | 2 | Exported Function
 `void __stdcall ReleaseAgentActivationRuntime(void)` | 4 | Exported Function
-`class Microsoft::VoiceAgentServices::Logger & __stdcall GetLoggerInstance(void)` | 3 | Exported Function
-`class std::shared_ptr<class Microsoft::VoiceAgentServices::IAgentActivationRuntime> __stdcall CreateAgentActivationRuntime(void)` | 1 | Exported Function
+`Logger` | 3 | Exported Function
+`IAgentActivationRuntime` | 1 | Exported Function
 
 
 ## Signature

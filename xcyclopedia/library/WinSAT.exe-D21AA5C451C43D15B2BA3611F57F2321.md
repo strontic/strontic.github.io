@@ -18,6 +18,9 @@ SHA256 | `2380049E6E56B969990C598A3731E8322E8DEF86B08DFE44E452392CF529498D`
 SHA384 | `534D32F50C97A3BAC33C98C9F586877A66C1B8DE393C53ED50C435D0F4B0D242B770869F6EFBDBAC4138DE7C7EECB2DA`
 SHA512 | `08BE8EB24D22C41623BA482CB89B8995C52BB06555A3F4A24E8075C5C913D760456DFE95C95E347252F2975DB254F32349C55C21E0BD69F4268B48D891915CB7`
 SSDEEP | `49152:/XpiCMrI7ninpTyjY7Q9i9GYmq1dKwdfU2bECbe:PUCUzT1DFE/`
+IMP | `9B913D600A7557750BD6D8AE12F90CF7`
+PESHA1 | `D3A43BACE47FC0DBBDC6B42BB1119CD1ADEC65CA`
+PE256 | `10E07AC825486FBBF203B579EA74FB16F131F4F2757037B9764C067C80E345CD`
 
 ## Runtime Data
 
@@ -175,8 +178,47 @@ ERROR: Cannot process the command line
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\d3d10.dll |
+C:\Windows\system32\d3d10_1.dll |
+C:\Windows\system32\d3d10_1core.dll |
+C:\Windows\system32\d3d10core.dll |
+C:\Windows\system32\d3d11.dll |
+C:\Windows\system32\dxgi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINMM.dll |
+C:\Windows\system32\WINMMBASE.dll |
 C:\Windows\system32\WinSAT.exe |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1518_none_0f591eb5ade09f35\gdiplus.dll |
 
 
 ## Signature
@@ -196,7 +238,12 @@ C:\Windows\system32\WinSAT.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/2380049e6e56b969990c598a3731e8322e8def86b08dfe44e452392cf529498d/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -18,6 +18,9 @@ SHA256 | `B0C08A32F7F9FF3696DFEB67924D873604F20D7561A0800F39148C7B82552710`
 SHA384 | `3E23BB960B5C2378CE90F9C6938ABF10F65AEBD8EEF4DE3709B0149B65D5D4D20C1BAC4BB6393566F04FF7015A44B1D8`
 SHA512 | `53CB82832ABA22AAAD8CB7CA8FECBD87A1BA0FED5FEB2C4D87FF56B1C992B1B38D83A32D570A5B06CE26014B05BAAEF44611C1E2509481106441CA4B41C239B4`
 SSDEEP | `1536:Cpc6rrqCnPKFuT9lt53gbi1SCDURDoq4OZZZLlCIib:Ca6nhnPmuB53H1BoRD68wb`
+IMP | `42465F712C75BD79EB46ECE0D31A4B8D`
+PESHA1 | `554EF3EA22305D641FD1F4A742E434B25419CA08`
+PE256 | `05C211837B116CC94944D8C247CDDFC366AAF0919E1D5ABA3E2A1E2F2930BC45`
 
 ## Runtime Data
 
@@ -28,19 +31,37 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\xwizard.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\xwizard.exe |
 
 
 ## Signature
@@ -60,7 +81,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/b0c08a32f7f9ff3696dfeb67924d873604f20d7561a0800f39148c7b82552710/detection/
 
 ## File Similarity (ssdeep match)
 

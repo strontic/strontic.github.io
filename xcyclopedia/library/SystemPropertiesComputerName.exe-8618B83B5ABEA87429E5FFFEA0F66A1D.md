@@ -18,6 +18,9 @@ SHA256 | `1425D610BEB0E3CC092EBE55CA1817AD0AE703489A20BFCABE52E0E2473A8A54`
 SHA384 | `36CCB4D5719988A4E4682B9E142D358E2586EAD650ADEEC2C8DA9F46013EE942F21AE63CAEE04E1E767ACB840C197031`
 SHA512 | `D4AF7F1578EA27AE4CE1DF6413E5886E4A78E010C9FE2EDCE596C6580F3D3B4726300920BC006404868C9B7E3F11ED6AA271A2FBF3ADE8BC155A5554F1D33B94`
 SSDEEP | `1536:cELZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jx:cAKzECTMpuDhjRVJG7`
+IMP | `B788892AE84BA86201A726810F01CB07`
+PESHA1 | `BB3EA64E377F7407B7F2641545E915A60BFCBF59`
+PE256 | `2786D2AC99F5A3D2AA88E2A59404F70F7C6095B868CF38351DBB564F2CF794F2`
 
 ## Runtime Data
 
@@ -30,17 +33,20 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\SystemPropertiesComputerName.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\netid.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -71,7 +77,12 @@ C:\Windows\SysWOW64\SystemPropertiesComputerName.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/1425d610beb0e3cc092ebe55ca1817ad0ae703489a20bfcabe52e0e2473a8a54/detection/
 
 ## File Similarity (ssdeep match)
 

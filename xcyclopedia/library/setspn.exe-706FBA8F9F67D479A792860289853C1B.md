@@ -18,6 +18,9 @@ SHA256 | `CF095DBD04EBAB55B598E0F27C88304571EDC70F41156567C1700B70CD5E728B`
 SHA384 | `C495F6282D75A4E75C2BC6C39FA09A4DD0BB2D4BB17AD721C0803D130C3A619C246DC8488BF9D72F98D265E9E4B25D92`
 SHA512 | `2DF637F1A0AC31F66330F4A93EB6C2957CA4F4D501DF4718FAA6982208B794A8D34BB7D4890561D07A11B26677DCAC0B5A4E88EF646CEA83EF6820983E9B6CBC`
 SSDEEP | `384:5Q/B9iDavPAwpJt45OYFNIPPvgwYqzzYrdz24w8W4fM3n/NxzCqzv7YyMsUrlYW2:5ZawDOEagwFzYrdi4ZfUvDOq3Yhrla`
+IMP | `1393340AAB23F97BCF1E08682E940E45`
+PESHA1 | `46A4BF73D22A0A0068061BFC471137D153D5FAF6`
+PE256 | `63E5821296D8A1EBAF2124DC0E74C70784E580BB51C1DB64354886F73937C434`
 
 ## Runtime Data
 
@@ -105,8 +108,18 @@ Could not find account help
 Path |
 -- |
 C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoncli.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\NTDSAPI.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\system32\setspn.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WLDAP32.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -126,7 +139,12 @@ C:\Windows\system32\setspn.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/cf095dbd04ebab55b598e0f27c88304571edc70f41156567c1700b70cd5e728b/detection/
 
 
 ## Possible Misuse

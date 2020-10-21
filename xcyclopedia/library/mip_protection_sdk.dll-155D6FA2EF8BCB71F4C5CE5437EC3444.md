@@ -61,20 +61,20 @@ Function Name | Ordinal | Type
 `MIP_CC_ReleaseProtectionProfile` | 108 | Exported Function
 `MIP_CC_TemplateDescriptor_GetNameSize` | 130 | Exported Function
 `MIP_CC_TemplateDescriptor_GetName` | 129 | Exported Function
-`public: static char const * __ptr64 __cdecl mipns::ProtectionProfile::GetVersion(void)` | 14 | Exported Function
-`public: static __int64 __cdecl mipns::CustomProtectedStream::GetBlockSize(class std::shared_ptr<class mipns::ProtectionHandler>)` | 10 | Exported Function
+`GetVersion` | 14 | Exported Function
+`ProtectionHandler` | 10 | Exported Function
 `MIP_CC_TemplateDescriptor_GetDescription` | 126 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetTaskDispatcherDelegate` | 125 | Exported Function
 `MIP_CC_TemplateDescriptor_GetId` | 128 | Exported Function
 `MIP_CC_TemplateDescriptor_GetDescriptionSize` | 127 | Exported Function
-`public: static class std::shared_ptr<class mipns::ProtectionDescriptorBuilder> __cdecl mipns::ProtectionDescriptorBuilder::CreateFromUserRoles(class std::vector<class mipns::UserRoles,class std::allocator<class mipns::UserRoles> > const & __ptr64)` | 4 | Exported Function
-`public: static class std::shared_ptr<class mipns::ProtectionDescriptorBuilder> __cdecl mipns::ProtectionDescriptorBuilder::CreateFromUserRights(class std::vector<class mipns::UserRights,class std::allocator<class mipns::UserRights> > const & __ptr64)` | 3 | Exported Function
-`public: static class std::shared_ptr<class mipns::PublishingLicenseInfo> __cdecl mipns::ProtectionProfile::GetPublishingLicenseInfo(class std::vector<unsigned char,class std::allocator<unsigned char> > const & __ptr64)` | 13 | Exported Function
-`public: static class std::shared_ptr<class mipns::ProtectionProfile> __cdecl mipns::ProtectionProfile::Load(class mipns::ProtectionProfile::Settings const & __ptr64)` | 15 | Exported Function
-`public: static class std::shared_ptr<class mipns::MipContext> __cdecl mipns::MipContext::Create(struct mipns::ApplicationInfo const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::LogLevel,bool,class std::shared_ptr<class mipns::LoggerDelegate> const & __ptr64,class std::shared_ptr<struct mipns::TelemetryConfiguration> const & __ptr64)` | 1 | Exported Function
-`public: static class std::shared_ptr<class mipns::AsyncControl> __cdecl mipns::ProtectionProfile::LoadAsync(class mipns::ProtectionProfile::Settings const & __ptr64,class std::shared_ptr<void> const & __ptr64)` | 16 | Exported Function
-`public: static class std::shared_ptr<class mipns::ProtectionDescriptorBuilder> __cdecl mipns::ProtectionDescriptorBuilder::CreateFromTemplate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64)` | 2 | Exported Function
-`public: static class std::shared_ptr<class mipns::MipContext> __cdecl mipns::MipContext::CreateWithCustomFeatureSettings(struct mipns::ApplicationInfo const & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64,enum mipns::LogLevel,bool,class std::shared_ptr<class mipns::LoggerDelegate> const & __ptr64,class std::shared_ptr<struct mipns::TelemetryConfiguration> const & __ptr64,class std::map<enum mipns::FlightingFeature,bool,struct std::less<enum mipns::FlightingFeature>,class std::allocator<struct std::pair<enum mipns::FlightingFeature const ,bool> > > const & __ptr64)` | 9 | Exported Function
+`UserRoles` | 4 | Exported Function
+`UserRights` | 3 | Exported Function
+`allocator` | 13 | Exported Function
+`Settings` | 15 | Exported Function
+`TelemetryConfiguration` | 1 | Exported Function
+`shared_ptr` | 16 | Exported Function
+`allocator` | 2 | Exported Function
+`FlightingFeature` | 9 | Exported Function
 `MIP_CC_StringList_GetStrings` | 114 | Exported Function
 `MIP_CC_ReleaseTemplateDescriptor` | 113 | Exported Function
 `MIP_CC_TelemetryConfiguration_SetCustomSettings` | 116 | Exported Function
@@ -107,14 +107,14 @@ Function Name | Ordinal | Type
 `MIP_CC_ExecuteDispatchedTask` | 35 | Exported Function
 `MIP_CC_ProtectionDescriptor_DoesAllowOfflineAccess` | 38 | Exported Function
 `MIP_CC_NotifyHttpDelegateResponse` | 37 | Exported Function
-`class std::vector<unsigned char,class std::allocator<unsigned char> > const & __ptr64 __cdecl mipns::GetMsftCert(void)` | 11 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromStdStream(class std::shared_ptr<class std::basic_ostream<char,struct std::char_traits<char> > > const & __ptr64)` | 8 | Exported Function
+`GetMsftCert` | 11 | Exported Function
+`char_traits` | 8 | Exported Function
 `MIP_CC_CreateHttpDelegate` | 18 | Exported Function
 `MIP_CC_CreateDictionary` | 17 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromBuffer(unsigned char * __ptr64,__int64)` | 5 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64 __cdecl mipns::GetMsftCertPEM(void)` | 12 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromStdStream(class std::shared_ptr<class std::basic_istream<char,struct std::char_traits<char> > > const & __ptr64)` | 7 | Exported Function
-`class std::shared_ptr<class mipns::Stream> __cdecl mipns::CreateStreamFromStdStream(class std::shared_ptr<class std::basic_iostream<char,struct std::char_traits<char> > > const & __ptr64)` | 6 | Exported Function
+`CreateStreamFromBuffer` | 5 | Exported Function
+`GetMsftCertPEM` | 12 | Exported Function
+`char_traits` | 7 | Exported Function
+`char_traits` | 6 | Exported Function
 `MIP_CC_CreateProtectionDescriptorFromUserRoles` | 24 | Exported Function
 `MIP_CC_CreateProtectionDescriptorFromUserRights` | 23 | Exported Function
 `MIP_CC_CreateProtectionEngineSettingsWithIdentity` | 26 | Exported Function

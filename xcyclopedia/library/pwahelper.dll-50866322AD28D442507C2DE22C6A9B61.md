@@ -26,20 +26,20 @@ PE256 | `9471BF2EDF33C604A07253AE1B09607907AEB2B5844E6D7C4BB85CB44C600CA5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual void __cdecl edge_pwahelper::PWAHelperHost::SetSingletonProcessId(unsigned int) __ptr64` | 8 | Exported Function
-`public: virtual void __cdecl edge_pwahelper::PWAHelperHost::BadgeNotification(enum edge_pwahelper::mojom::BadgeNotificationType,class std::__1::basic_string<char,struct std::__1::char_traits<char>,class std::__1::allocator<char> > const & __ptr64) __ptr64` | 7 | Exported Function
-`public: virtual __cdecl edge_pwahelper::PWAHelperHost::~PWAHelperHost(void) __ptr64` | 3 | Exported Function
-`public: virtual void __cdecl edge_pwahelper::PWAHelperHost::Terminate(unsigned int) __ptr64` | 11 | Exported Function
+`SetSingletonProcessId` | 8 | Exported Function
+`allocator` | 7 | Exported Function
+`PWAHelperHost` | 3 | Exported Function
+`Terminate` | 11 | Exported Function
 `StartAppWithParameter` | 1 | Exported Function
-`public: void __cdecl edge_pwahelper::PWAHelperHost::StartAppWithPlatformChannel(void) __ptr64` | 9 | Exported Function
-`public: virtual void __cdecl edge_pwahelper::PWAHelperHost::ToastNotification(class std::__1::basic_string<char,struct std::__1::char_traits<char>,class std::__1::allocator<char> > const & __ptr64,class std::__1::basic_string<char,struct std::__1::char_traits<char>,class std::__1::allocator<char> > const & __ptr64) __ptr64` | 12 | Exported Function
-`private: void __cdecl edge_pwahelper::PWAHelperHost::AppendAUMIDInfo(void) __ptr64` | 5 | Exported Function
+`StartAppWithPlatformChannel` | 9 | Exported Function
+`allocator` | 12 | Exported Function
+`AppendAUMIDInfo` | 5 | Exported Function
 `GetHandleVerifier` | 14 | Exported Function
-`const edge_pwahelper::PWAHelperHost::``vftable'` | 4 | Exported Function
-`private: void __cdecl edge_pwahelper::PWAHelperHost::AppendMojoServerBindingInfo(void) __ptr64` | 6 | Exported Function
-`public: unsigned long __cdecl edge_pwahelper::PWAHelperHost::StartProcessWithMojoIPC(void * __ptr64,void * __ptr64,class std::__1::unique_ptr<class base::CommandLine,struct std::__1::default_delete<class base::CommandLine> >,class std::__1::unique_ptr<class base::ScopedTempDir,struct std::__1::default_delete<class base::ScopedTempDir> >) __ptr64` | 10 | Exported Function
-`public: __cdecl edge_pwahelper::PWAHelperHost::PWAHelperHost(void) __ptr64` | 2 | Exported Function
-`private: void __cdecl edge_pwahelper::PWAHelperHost::TryActivateInstance(void) __ptr64` | 13 | Exported Function
+`PWAHelperHost` | 4 | Exported Function
+`AppendMojoServerBindingInfo` | 6 | Exported Function
+`ScopedTempDir` | 10 | Exported Function
+`PWAHelperHost` | 2 | Exported Function
+`TryActivateInstance` | 13 | Exported Function
 
 
 ## Signature

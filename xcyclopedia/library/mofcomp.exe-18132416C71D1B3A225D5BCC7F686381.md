@@ -18,6 +18,9 @@ SHA256 | `6B74BB2BFE0CDA5617EAC3A3EEFCCC9554186B098DC70DA573B153AF36525569`
 SHA384 | `DBA56541E2900942BFA78BBDEAC7944BA359B3A2C76C6FE605B4F219E9043F7B348047C5806C8F9C4CDA3C944F5980B0`
 SHA512 | `40BE189B8971BB968F013AD2CC769B4D14D966BB4F0C5F163E14048AA363ED5AD964E14596C5EAB1AC1C6355A0FC720F086D253156B45EBBBB5D55AAD560DA82`
 SSDEEP | `384:Vt/0delwgfKrQwK79+14CkELZta4L+fyvoahl/liW1oWn1tV:VtMdcB5XfyvoaH/lxB1`
+IMP | `3B603DD27AB650AF3F5B7F82AE17797D`
+PESHA1 | `F73F240758D2FDBD85A2C986559F4BD0FEADBDCE`
+PE256 | `DA0D740311A8C64B8C7BE8743707DAEA640894FD410DACF3894EABF9655A2278`
 
 ## Runtime Data
 
@@ -65,13 +68,17 @@ usage: mofcomp [-check] [-N:<Path>]
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wbem\mofcomp.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,7 +91,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/6b74bb2bfe0cda5617eac3a3eefccc9554186b098dc70da573b153af36525569/detection/
 
 
 

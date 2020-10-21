@@ -28,7 +28,7 @@ Function Name | Ordinal | Type
 -- | -- | --
 `qt_plugin_query_metadata` | 3 | Exported Function
 `qt_plugin_instance` | 2 | Exported Function
-`public: static long __cdecl QEventDispatcherWinRT::runOnXamlThread(class std::function<long __cdecl(void)> const & __ptr64,bool)` | 1 | Exported Function
+`function` | 1 | Exported Function
 
 
 ## Signature

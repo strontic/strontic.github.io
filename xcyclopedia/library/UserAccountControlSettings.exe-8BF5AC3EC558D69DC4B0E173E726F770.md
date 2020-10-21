@@ -18,14 +18,23 @@ SHA256 | `07ADA4F22B7A3CF3B56E3E687A9A03A6517ADA894911E398253DC8D36D84423E`
 SHA384 | `816403B7BAE22BF93FD820962C184BF9E6694D4A49BC46BFFBD39C6F0664920BE70DAE4D20E877817DCFEDDCD436B18F`
 SHA512 | `735C39F059DDFA696D059D19132F79DBB224FD8D6DC2E1E030DB3555DE11C1A7FF0C329166896A9D0D2B4CD1A37330275E0BF63940BD860F152720E9F72237C9`
 SSDEEP | `1536:Y/C/IdmQkArTUJrePojh3vLyPST751sNz0UCdkV/L7:mCQLkAXG+635K`
+IMP | `281B2F62B1066F5953A92A11BC46D367`
+PESHA1 | `908D653535D640F2E9F21B40F71B5960236D7BC5`
+PE256 | `5105D24CC6B8027766793DFB4FE5B2E4ECE9C554D7EEA913756D2838505CE46F`
 
 ## Runtime Data
+
+### Child Processes:
+RdpSa.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\UserAccountControlSettings.exe |
 
 
@@ -46,7 +55,12 @@ C:\Windows\SysWOW64\UserAccountControlSettings.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/07ada4f22b7a3cf3b56e3e687a9a03a6517ada894911e398253dc8d36d84423e/detection/
 
 ## File Similarity (ssdeep match)
 

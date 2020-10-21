@@ -115,6 +115,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\system32\nltest.exe](nltest.exe-5CB1CA56AC1C3E8A703861A583007C60.md) | 82
+[C:\Windows\system32\nltest.exe](nltest.exe-D0F2751CA874BAFDB8A263BB1D2D1F87.md) | 80
 
 ## Possible Misuse
 

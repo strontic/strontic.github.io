@@ -26,21 +26,21 @@ PE256 | `06367718B373FBEE9E05A4B22596036B95163182E172339AB28FC162A8A08A73`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 10 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 11 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 6 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 12 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 9 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 7 | Exported Function
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 8 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 5 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 15 | Exported Function
-`const SeComCall::ICall::``vftable'` | 13 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 14 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 3 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 2 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 1 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 4 | Exported Function
+`ICall` | 10 | Exported Function
+`IHSInterface` | 11 | Exported Function
+`ISFInterface` | 6 | Exported Function
+`ISFInterface` | 12 | Exported Function
+`ISFInterface` | 9 | Exported Function
+`ICall` | 7 | Exported Function
+`IHSInterface` | 8 | Exported Function
+`ISFInterface` | 5 | Exported Function
+`ISFInterface` | 15 | Exported Function
+`ICall` | 13 | Exported Function
+`IHSInterface` | 14 | Exported Function
+`IHSInterface` | 3 | Exported Function
+`ICall` | 2 | Exported Function
+`ICall` | 1 | Exported Function
+`IHSInterface` | 4 | Exported Function
 
 
 ## Signature

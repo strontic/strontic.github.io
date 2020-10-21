@@ -18,6 +18,9 @@ SHA256 | `3D81ACA24167405433617B364C23C51393C31597DA36A48476FD59549A2D0A99`
 SHA384 | `92C4AB6B2B20DB462360F92E3F421E3AE7B2A8019F734ED85E876B418455D67D04F3F79AE16B0B5C7188B55E5FFD49FA`
 SHA512 | `3490BF51E8DCDB307591F22AFDCDF2948716CD2592065A7B0920D47A200AEFB9758C74816B5F5D0FD80C04C6DE36F6736BF20F40AF21D66CD1C39E6EB185A3A9`
 SSDEEP | `192:M8Wc+Sfv9pI82dlXUqYLHhIekoW7acSQvnbvGo/CDf1W0EW:M8WjS3PrclXUqYLBZk57a2vnbvqW0EW`
+IMP | `4C7F165DA8DA80935D61C0512A3469C1`
+PESHA1 | `311AE8188DA4BCC4B033846BB09BEEC9D7CA9940`
+PE256 | `B6360DE206DEF9F808561D24E5D715178AA0DBBAC3D6D8E8E956517272A29C58`
 
 ## Runtime Data
 
@@ -28,7 +31,6 @@ mmc.exe
 
 Path |
 -- |
-C:\Windows\system32\apphelp.dll |
 C:\Windows\system32\dcomcnfg.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
@@ -38,8 +40,6 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -62,7 +62,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/3d81aca24167405433617b364c23c51393c31597da36a48476fd59549a2d0a99/detection/
 
 ## File Similarity (ssdeep match)
 

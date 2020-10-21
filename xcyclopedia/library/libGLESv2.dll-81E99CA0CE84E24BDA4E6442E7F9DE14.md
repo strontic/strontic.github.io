@@ -28,464 +28,464 @@ PE256 | `9E5D5265692ED833597527A6C35F50CEADE88001471B148F1F450312E0427AC4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __cdecl gl::DrawTexsvOESContextANGLE(void * __ptr64,short const * __ptr64)` | 349 | Exported Function
-`void __cdecl gl::DrawTexsvOES(short const * __ptr64)` | 348 | Exported Function
-`void __cdecl gl::DrawTexxOES(int,int,int,int,int)` | 350 | Exported Function
-`void __cdecl gl::DrawTexxvOES(int const * __ptr64)` | 352 | Exported Function
-`void __cdecl gl::DrawTexxOESContextANGLE(void * __ptr64,int,int,int,int,int)` | 351 | Exported Function
-`void __cdecl gl::DrawTexsOESContextANGLE(void * __ptr64,short,short,short,short,short)` | 347 | Exported Function
-`void __cdecl gl::DrawTexiOESContextANGLE(void * __ptr64,int,int,int,int,int)` | 343 | Exported Function
-`void __cdecl gl::DrawTexiOES(int,int,int,int,int)` | 342 | Exported Function
-`void __cdecl gl::DrawTexivOES(int const * __ptr64)` | 344 | Exported Function
-`void __cdecl gl::DrawTexsOES(short,short,short,short,short)` | 346 | Exported Function
-`void __cdecl gl::DrawTexivOESContextANGLE(void * __ptr64,int const * __ptr64)` | 345 | Exported Function
-`void __cdecl gl::EnableClientStateContextANGLE(void * __ptr64,unsigned int)` | 360 | Exported Function
-`void __cdecl gl::EnableClientState(unsigned int)` | 359 | Exported Function
-`void __cdecl gl::EnableContextANGLE(void * __ptr64,unsigned int)` | 361 | Exported Function
-`void __cdecl gl::EnableiContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 365 | Exported Function
-`void __cdecl gl::Enablei(unsigned int,unsigned int)` | 364 | Exported Function
-`void __cdecl gl::Enable(unsigned int)` | 358 | Exported Function
-`void __cdecl gl::EGLImageTargetRenderbufferStorageOES(unsigned int,void * __ptr64)` | 354 | Exported Function
-`void __cdecl gl::DrawTexxvOESContextANGLE(void * __ptr64,int const * __ptr64)` | 353 | Exported Function
-`void __cdecl gl::EGLImageTargetRenderbufferStorageOESContextANGLE(void * __ptr64,unsigned int,void * __ptr64)` | 355 | Exported Function
-`void __cdecl gl::EGLImageTargetTexture2DOESContextANGLE(void * __ptr64,unsigned int,void * __ptr64)` | 357 | Exported Function
-`void __cdecl gl::EGLImageTargetTexture2DOES(unsigned int,void * __ptr64)` | 356 | Exported Function
-`void __cdecl gl::DrawTexfvOESContextANGLE(void * __ptr64,float const * __ptr64)` | 341 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexOESContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int,int)` | 326 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexOES(unsigned int,int,unsigned int,void const * __ptr64,int,int)` | 325 | Exported Function
-`void __cdecl gl::DrawElementsInstancedContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int)` | 327 | Exported Function
-`void __cdecl gl::DrawElementsInstancedEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int)` | 329 | Exported Function
-`void __cdecl gl::DrawElementsInstancedEXT(unsigned int,int,unsigned int,void const * __ptr64,int)` | 328 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int,int)` | 324 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexBaseInstanceANGLE(unsigned int,int,unsigned int,void const * __ptr64,int,int,unsigned int)` | 320 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertex(unsigned int,int,unsigned int,void const * __ptr64,int,int)` | 319 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexBaseInstanceANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int,int,unsigned int)` | 321 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexEXT(unsigned int,int,unsigned int,void const * __ptr64,int,int)` | 323 | Exported Function
-`void __cdecl gl::DrawElementsInstancedBaseVertexContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int,int)` | 322 | Exported Function
-`void __cdecl gl::DrawRangeElementsContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64)` | 337 | Exported Function
-`void __cdecl gl::DrawRangeElementsBaseVertexOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64,int)` | 336 | Exported Function
-`void __cdecl gl::DrawTexfOES(float,float,float,float,float)` | 338 | Exported Function
-`void __cdecl gl::DrawTexfvOES(float const * __ptr64)` | 340 | Exported Function
-`void __cdecl gl::DrawTexfOESContextANGLE(void * __ptr64,float,float,float,float,float)` | 339 | Exported Function
-`void __cdecl gl::DrawRangeElementsBaseVertexOES(unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64,int)` | 335 | Exported Function
-`void __cdecl gl::DrawRangeElementsBaseVertex(unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64,int)` | 331 | Exported Function
-`void __cdecl gl::DrawRangeElements(unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64)` | 330 | Exported Function
-`void __cdecl gl::DrawRangeElementsBaseVertexContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64,int)` | 332 | Exported Function
-`void __cdecl gl::DrawRangeElementsBaseVertexEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64,int)` | 334 | Exported Function
-`void __cdecl gl::DrawRangeElementsBaseVertexEXT(unsigned int,unsigned int,unsigned int,int,unsigned int,void const * __ptr64,int)` | 333 | Exported Function
-`void __cdecl gl::EnableiEXT(unsigned int,unsigned int)` | 366 | Exported Function
-`void __cdecl gl::FramebufferParameteriContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 397 | Exported Function
-`void __cdecl gl::FramebufferParameteri(unsigned int,unsigned int,int)` | 396 | Exported Function
-`void __cdecl gl::FramebufferRenderbuffer(unsigned int,unsigned int,unsigned int,unsigned int)` | 398 | Exported Function
-`void __cdecl gl::FramebufferRenderbufferOES(unsigned int,unsigned int,unsigned int,unsigned int)` | 400 | Exported Function
-`void __cdecl gl::FramebufferRenderbufferContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int)` | 399 | Exported Function
-`void __cdecl gl::FogxvContextANGLE(void * __ptr64,unsigned int,int const * __ptr64)` | 395 | Exported Function
-`void __cdecl gl::FogfvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 391 | Exported Function
-`void __cdecl gl::Fogfv(unsigned int,float const * __ptr64)` | 390 | Exported Function
-`void __cdecl gl::Fogx(unsigned int,int)` | 392 | Exported Function
-`void __cdecl gl::Fogxv(unsigned int,int const * __ptr64)` | 394 | Exported Function
-`void __cdecl gl::FogxContextANGLE(void * __ptr64,unsigned int,int)` | 393 | Exported Function
-`void __cdecl gl::FramebufferTexture2DOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,int)` | 407 | Exported Function
-`void __cdecl gl::FramebufferTexture2DOES(unsigned int,unsigned int,unsigned int,unsigned int,int)` | 406 | Exported Function
-`void __cdecl gl::FramebufferTexture3DOES(unsigned int,unsigned int,unsigned int,unsigned int,int,int)` | 408 | Exported Function
-`void __cdecl gl::FramebufferTextureContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int)` | 411 | Exported Function
-`void __cdecl gl::FramebufferTexture3DOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,int,int)` | 409 | Exported Function
-`void __cdecl gl::FramebufferTexture2DMultisampleEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,int,int)` | 405 | Exported Function
-`void __cdecl gl::FramebufferTexture(unsigned int,unsigned int,unsigned int,int)` | 410 | Exported Function
-`void __cdecl gl::FramebufferRenderbufferOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int)` | 401 | Exported Function
-`void __cdecl gl::FramebufferTexture2D(unsigned int,unsigned int,unsigned int,unsigned int,int)` | 402 | Exported Function
-`void __cdecl gl::FramebufferTexture2DMultisampleEXT(unsigned int,unsigned int,unsigned int,unsigned int,int,int)` | 404 | Exported Function
-`void __cdecl gl::FramebufferTexture2DContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,int)` | 403 | Exported Function
-`void __cdecl gl::FogfContextANGLE(void * __ptr64,unsigned int,float)` | 389 | Exported Function
-`void __cdecl gl::EndQueryEXT(unsigned int)` | 372 | Exported Function
-`void __cdecl gl::EndQueryContextANGLE(void * __ptr64,unsigned int)` | 371 | Exported Function
-`void __cdecl gl::EndQueryEXTContextANGLE(void * __ptr64,unsigned int)` | 373 | Exported Function
-`void __cdecl gl::EndTransformFeedbackContextANGLE(void * __ptr64)` | 375 | Exported Function
-`void __cdecl gl::EndTransformFeedback(void)` | 374 | Exported Function
-`void __cdecl gl::EndQuery(unsigned int)` | 370 | Exported Function
-`void __cdecl gl::EnableiOES(unsigned int,unsigned int)` | 368 | Exported Function
-`void __cdecl gl::EnableiEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 367 | Exported Function
-`void __cdecl gl::EnableiOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 369 | Exported Function
-`void __cdecl gl::EnableVertexAttribArrayContextANGLE(void * __ptr64,unsigned int)` | 363 | Exported Function
-`void __cdecl gl::EnableVertexAttribArray(unsigned int)` | 362 | Exported Function
-`void __cdecl gl::FlushMappedBufferRangeContextANGLE(void * __ptr64,unsigned int,__int64,__int64)` | 385 | Exported Function
-`void __cdecl gl::FlushMappedBufferRange(unsigned int,__int64,__int64)` | 384 | Exported Function
-`void __cdecl gl::FlushMappedBufferRangeEXT(unsigned int,__int64,__int64)` | 386 | Exported Function
-`void __cdecl gl::Fogf(unsigned int,float)` | 388 | Exported Function
-`void __cdecl gl::FlushMappedBufferRangeEXTContextANGLE(void * __ptr64,unsigned int,__int64,__int64)` | 387 | Exported Function
-`void __cdecl gl::FlushContextANGLE(void * __ptr64)` | 383 | Exported Function
-`void __cdecl gl::FinishContextANGLE(void * __ptr64)` | 379 | Exported Function
-`void __cdecl gl::Finish(void)` | 378 | Exported Function
-`void __cdecl gl::FinishFenceNV(unsigned int)` | 380 | Exported Function
-`void __cdecl gl::Flush(void)` | 382 | Exported Function
-`void __cdecl gl::FinishFenceNVContextANGLE(void * __ptr64,unsigned int)` | 381 | Exported Function
-`void __cdecl gl::DrawElementsInstancedANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int)` | 318 | Exported Function
-`void __cdecl gl::DeleteVertexArraysContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 257 | Exported Function
-`void __cdecl gl::DeleteVertexArrays(int,unsigned int const * __ptr64)` | 256 | Exported Function
-`void __cdecl gl::DeleteVertexArraysOES(int,unsigned int const * __ptr64)` | 258 | Exported Function
-`void __cdecl gl::DepthFunc(unsigned int)` | 260 | Exported Function
-`void __cdecl gl::DeleteVertexArraysOESContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 259 | Exported Function
-`void __cdecl gl::DeleteTransformFeedbacksContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 255 | Exported Function
-`void __cdecl gl::DeleteSyncContextANGLE(void * __ptr64,struct __GLsync * __ptr64)` | 251 | Exported Function
-`void __cdecl gl::DeleteSync(struct __GLsync * __ptr64)` | 250 | Exported Function
-`void __cdecl gl::DeleteTextures(int,unsigned int const * __ptr64)` | 252 | Exported Function
-`void __cdecl gl::DeleteTransformFeedbacks(int,unsigned int const * __ptr64)` | 254 | Exported Function
-`void __cdecl gl::DeleteTexturesContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 253 | Exported Function
-`void __cdecl gl::DetachShader(unsigned int,unsigned int)` | 268 | Exported Function
-`void __cdecl gl::DepthRangexContextANGLE(void * __ptr64,int,int)` | 267 | Exported Function
-`void __cdecl gl::DetachShaderContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 269 | Exported Function
-`void __cdecl gl::DisableClientState(unsigned int)` | 271 | Exported Function
-`void __cdecl gl::Disable(unsigned int)` | 270 | Exported Function
-`void __cdecl gl::DepthRangex(int,int)` | 266 | Exported Function
-`void __cdecl gl::DepthMask(unsigned char)` | 262 | Exported Function
-`void __cdecl gl::DepthFuncContextANGLE(void * __ptr64,unsigned int)` | 261 | Exported Function
-`void __cdecl gl::DepthMaskContextANGLE(void * __ptr64,unsigned char)` | 263 | Exported Function
-`void __cdecl gl::DepthRangefContextANGLE(void * __ptr64,float,float)` | 265 | Exported Function
-`void __cdecl gl::DepthRangef(float,float)` | 264 | Exported Function
-`void __cdecl gl::DeleteShaderContextANGLE(void * __ptr64,unsigned int)` | 249 | Exported Function
-`void __cdecl gl::DeleteProgramPipelines(int,unsigned int const * __ptr64)` | 234 | Exported Function
-`void __cdecl gl::DeleteProgramContextANGLE(void * __ptr64,unsigned int)` | 233 | Exported Function
-`void __cdecl gl::DeleteProgramPipelinesContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 235 | Exported Function
-`void __cdecl gl::DeleteQueriesContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 237 | Exported Function
-`void __cdecl gl::DeleteQueries(int,unsigned int const * __ptr64)` | 236 | Exported Function
-`void __cdecl gl::DeleteProgram(unsigned int)` | 232 | Exported Function
-`void __cdecl gl::DeleteFramebuffersOES(int,unsigned int const * __ptr64)` | 228 | Exported Function
-`void __cdecl gl::DeleteFramebuffersContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 227 | Exported Function
-`void __cdecl gl::DeleteFramebuffersOESContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 229 | Exported Function
-`void __cdecl gl::DeleteMemoryObjectsEXTContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 231 | Exported Function
-`void __cdecl gl::DeleteMemoryObjectsEXT(int,unsigned int const * __ptr64)` | 230 | Exported Function
-`void __cdecl gl::DeleteSamplersContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 245 | Exported Function
-`void __cdecl gl::DeleteSamplers(int,unsigned int const * __ptr64)` | 244 | Exported Function
-`void __cdecl gl::DeleteSemaphoresEXT(int,unsigned int const * __ptr64)` | 246 | Exported Function
-`void __cdecl gl::DeleteShader(unsigned int)` | 248 | Exported Function
-`void __cdecl gl::DeleteSemaphoresEXTContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 247 | Exported Function
-`void __cdecl gl::DeleteRenderbuffersOESContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 243 | Exported Function
-`void __cdecl gl::DeleteQueriesEXTContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 239 | Exported Function
-`void __cdecl gl::DeleteQueriesEXT(int,unsigned int const * __ptr64)` | 238 | Exported Function
-`void __cdecl gl::DeleteRenderbuffers(int,unsigned int const * __ptr64)` | 240 | Exported Function
-`void __cdecl gl::DeleteRenderbuffersOES(int,unsigned int const * __ptr64)` | 242 | Exported Function
-`void __cdecl gl::DeleteRenderbuffersContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 241 | Exported Function
-`void __cdecl gl::DisableClientStateContextANGLE(void * __ptr64,unsigned int)` | 272 | Exported Function
-`void __cdecl gl::DrawBuffersContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 303 | Exported Function
-`void __cdecl gl::DrawBuffers(int,unsigned int const * __ptr64)` | 302 | Exported Function
-`void __cdecl gl::DrawBuffersEXT(int,unsigned int const * __ptr64)` | 304 | Exported Function
-`void __cdecl gl::DrawElements(unsigned int,int,unsigned int,void const * __ptr64)` | 306 | Exported Function
-`void __cdecl gl::DrawBuffersEXTContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 305 | Exported Function
-`void __cdecl gl::DrawArraysInstancedEXTContextANGLE(void * __ptr64,unsigned int,int,int,int)` | 301 | Exported Function
-`void __cdecl gl::DrawArraysInstancedBaseInstanceANGLE(unsigned int,int,int,int,unsigned int)` | 297 | Exported Function
-`void __cdecl gl::DrawArraysInstancedANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int)` | 296 | Exported Function
-`void __cdecl gl::DrawArraysInstancedBaseInstanceANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,unsigned int)` | 298 | Exported Function
-`void __cdecl gl::DrawArraysInstancedEXT(unsigned int,int,int,int)` | 300 | Exported Function
-`void __cdecl gl::DrawArraysInstancedContextANGLE(void * __ptr64,unsigned int,int,int,int)` | 299 | Exported Function
-`void __cdecl gl::DrawElementsIndirect(unsigned int,unsigned int,void const * __ptr64)` | 314 | Exported Function
-`void __cdecl gl::DrawElementsContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64)` | 313 | Exported Function
-`void __cdecl gl::DrawElementsIndirectContextANGLE(void * __ptr64,unsigned int,unsigned int,void const * __ptr64)` | 315 | Exported Function
-`void __cdecl gl::DrawElementsInstancedANGLE(unsigned int,int,unsigned int,void const * __ptr64,int)` | 317 | Exported Function
-`void __cdecl gl::DrawElementsInstanced(unsigned int,int,unsigned int,void const * __ptr64,int)` | 316 | Exported Function
-`void __cdecl gl::DrawElementsBaseVertexOESContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int)` | 312 | Exported Function
-`void __cdecl gl::DrawElementsBaseVertexContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int)` | 308 | Exported Function
-`void __cdecl gl::DrawElementsBaseVertex(unsigned int,int,unsigned int,void const * __ptr64,int)` | 307 | Exported Function
-`void __cdecl gl::DrawElementsBaseVertexEXT(unsigned int,int,unsigned int,void const * __ptr64,int)` | 309 | Exported Function
-`void __cdecl gl::DrawElementsBaseVertexOES(unsigned int,int,unsigned int,void const * __ptr64,int)` | 311 | Exported Function
-`void __cdecl gl::DrawElementsBaseVertexEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,void const * __ptr64,int)` | 310 | Exported Function
-`void __cdecl gl::DrawArraysInstancedANGLE(unsigned int,int,int,int)` | 295 | Exported Function
-`void __cdecl gl::DisableiOES(unsigned int,unsigned int)` | 282 | Exported Function
-`void __cdecl gl::DisableiEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 281 | Exported Function
-`void __cdecl gl::DisableiOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 283 | Exported Function
-`void __cdecl gl::DisableVertexAttribArrayContextANGLE(void * __ptr64,unsigned int)` | 277 | Exported Function
-`void __cdecl gl::DisableVertexAttribArray(unsigned int)` | 276 | Exported Function
-`void __cdecl gl::DisableiEXT(unsigned int,unsigned int)` | 280 | Exported Function
-`void __cdecl gl::DisableExtensionANGLE(char const * __ptr64)` | 274 | Exported Function
-`void __cdecl gl::DisableContextANGLE(void * __ptr64,unsigned int)` | 273 | Exported Function
-`void __cdecl gl::DisableExtensionANGLEContextANGLE(void * __ptr64,char const * __ptr64)` | 275 | Exported Function
-`void __cdecl gl::DisableiContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 279 | Exported Function
-`void __cdecl gl::Disablei(unsigned int,unsigned int)` | 278 | Exported Function
-`void __cdecl gl::DrawArraysContextANGLE(void * __ptr64,unsigned int,int,int)` | 291 | Exported Function
-`void __cdecl gl::DrawArrays(unsigned int,int,int)` | 290 | Exported Function
-`void __cdecl gl::DrawArraysIndirect(unsigned int,void const * __ptr64)` | 292 | Exported Function
-`void __cdecl gl::DrawArraysInstanced(unsigned int,int,int,int)` | 294 | Exported Function
-`void __cdecl gl::DrawArraysIndirectContextANGLE(void * __ptr64,unsigned int,void const * __ptr64)` | 293 | Exported Function
-`void __cdecl gl::DispatchComputeIndirectContextANGLE(void * __ptr64,__int64)` | 289 | Exported Function
-`void __cdecl gl::DiscardFramebufferEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int const * __ptr64)` | 285 | Exported Function
-`void __cdecl gl::DiscardFramebufferEXT(unsigned int,int,unsigned int const * __ptr64)` | 284 | Exported Function
-`void __cdecl gl::DispatchCompute(unsigned int,unsigned int,unsigned int)` | 286 | Exported Function
-`void __cdecl gl::DispatchComputeIndirect(__int64)` | 288 | Exported Function
-`void __cdecl gl::DispatchComputeContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 287 | Exported Function
-`void __cdecl gl::GetInternalformativ(unsigned int,unsigned int,unsigned int,int,int * __ptr64)` | 550 | Exported Function
-`void __cdecl gl::GetIntegervRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,int * __ptr64)` | 549 | Exported Function
-`void __cdecl gl::GetInternalformativContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int * __ptr64)` | 551 | Exported Function
-`void __cdecl gl::GetInternalformativRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 553 | Exported Function
-`void __cdecl gl::GetInternalformativRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 552 | Exported Function
-`void __cdecl gl::GetIntegervRobustANGLE(unsigned int,int,int * __ptr64,int * __ptr64)` | 548 | Exported Function
-`void __cdecl gl::GetIntegeri_vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 544 | Exported Function
-`void __cdecl gl::GetIntegeri_vContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 543 | Exported Function
-`void __cdecl gl::GetIntegeri_vRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 545 | Exported Function
-`void __cdecl gl::GetIntegervContextANGLE(void * __ptr64,unsigned int,int * __ptr64)` | 547 | Exported Function
-`void __cdecl gl::GetIntegerv(unsigned int,int * __ptr64)` | 546 | Exported Function
-`void __cdecl gl::GetMaterialxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 561 | Exported Function
-`void __cdecl gl::GetMaterialxv(unsigned int,unsigned int,int * __ptr64)` | 560 | Exported Function
-`void __cdecl gl::GetMemoryObjectParameterivEXT(unsigned int,unsigned int,int * __ptr64)` | 562 | Exported Function
-`void __cdecl gl::GetMultisamplefv(unsigned int,unsigned int,float * __ptr64)` | 564 | Exported Function
-`void __cdecl gl::GetMemoryObjectParameterivEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 563 | Exported Function
-`void __cdecl gl::GetMaterialfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 559 | Exported Function
-`void __cdecl gl::GetLightfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 555 | Exported Function
-`void __cdecl gl::GetLightfv(unsigned int,unsigned int,float * __ptr64)` | 554 | Exported Function
-`void __cdecl gl::GetLightxv(unsigned int,unsigned int,int * __ptr64)` | 556 | Exported Function
-`void __cdecl gl::GetMaterialfv(unsigned int,unsigned int,float * __ptr64)` | 558 | Exported Function
-`void __cdecl gl::GetLightxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 557 | Exported Function
-`void __cdecl gl::GetIntegeri_v(unsigned int,unsigned int,int * __ptr64)` | 542 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 523 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameterivRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 522 | Exported Function
-`void __cdecl gl::GetFramebufferParameteriv(unsigned int,unsigned int,int * __ptr64)` | 524 | Exported Function
-`void __cdecl gl::GetFramebufferParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 526 | Exported Function
-`void __cdecl gl::GetFramebufferParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 525 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameterivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int * __ptr64)` | 521 | Exported Function
-`void __cdecl gl::GetFloatvRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,float * __ptr64)` | 513 | Exported Function
-`void __cdecl gl::GetFloatvRobustANGLE(unsigned int,int,int * __ptr64,float * __ptr64)` | 512 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameteriv(unsigned int,unsigned int,unsigned int,int * __ptr64)` | 518 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameterivOES(unsigned int,unsigned int,unsigned int,int * __ptr64)` | 520 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int * __ptr64)` | 519 | Exported Function
-`void __cdecl gl::GetInteger64vEXT(unsigned int,__int64 * __ptr64)` | 538 | Exported Function
-`void __cdecl gl::GetInteger64vContextANGLE(void * __ptr64,unsigned int,__int64 * __ptr64)` | 537 | Exported Function
-`void __cdecl gl::GetInteger64vEXTContextANGLE(void * __ptr64,unsigned int,__int64 * __ptr64)` | 539 | Exported Function
-`void __cdecl gl::GetInteger64vRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 541 | Exported Function
-`void __cdecl gl::GetInteger64vRobustANGLE(unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 540 | Exported Function
-`void __cdecl gl::GetInteger64v(unsigned int,__int64 * __ptr64)` | 536 | Exported Function
-`void __cdecl gl::GetInteger64i_v(unsigned int,unsigned int,__int64 * __ptr64)` | 532 | Exported Function
-`void __cdecl gl::GetFramebufferParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 527 | Exported Function
-`void __cdecl gl::GetInteger64i_vContextANGLE(void * __ptr64,unsigned int,unsigned int,__int64 * __ptr64)` | 533 | Exported Function
-`void __cdecl gl::GetInteger64i_vRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 535 | Exported Function
-`void __cdecl gl::GetInteger64i_vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 534 | Exported Function
-`void __cdecl gl::GetMultisamplefvANGLE(unsigned int,unsigned int,float * __ptr64)` | 565 | Exported Function
-`void __cdecl gl::GetPointervKHR(unsigned int,void * __ptr64 * __ptr64)` | 580 | Exported Function
-`void __cdecl gl::GetPointervContextANGLE(void * __ptr64,unsigned int,void * __ptr64 * __ptr64)` | 579 | Exported Function
-`void __cdecl gl::GetPointervKHRContextANGLE(void * __ptr64,unsigned int,void * __ptr64 * __ptr64)` | 581 | Exported Function
-`void __cdecl gl::GetPointervRobustANGLERobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 583 | Exported Function
-`void __cdecl gl::GetPointervRobustANGLERobustANGLE(unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 582 | Exported Function
-`void __cdecl gl::GetPointerv(unsigned int,void * __ptr64 * __ptr64)` | 578 | Exported Function
-`void __cdecl gl::GetObjectPtrLabel(void const * __ptr64,int,int * __ptr64,char * __ptr64)` | 574 | Exported Function
-`void __cdecl gl::GetObjectLabelKHRContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 573 | Exported Function
-`void __cdecl gl::GetObjectPtrLabelContextANGLE(void * __ptr64,void const * __ptr64,int,int * __ptr64,char * __ptr64)` | 575 | Exported Function
-`void __cdecl gl::GetObjectPtrLabelKHRContextANGLE(void * __ptr64,void const * __ptr64,int,int * __ptr64,char * __ptr64)` | 577 | Exported Function
-`void __cdecl gl::GetObjectPtrLabelKHR(void const * __ptr64,int,int * __ptr64,char * __ptr64)` | 576 | Exported Function
-`void __cdecl gl::GetProgramInterfaceivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int * __ptr64)` | 591 | Exported Function
-`void __cdecl gl::GetProgramInterfaceiv(unsigned int,unsigned int,unsigned int,int * __ptr64)` | 590 | Exported Function
-`void __cdecl gl::GetProgramInterfaceivRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 592 | Exported Function
-`void __cdecl gl::GetProgramiv(unsigned int,unsigned int,int * __ptr64)` | 608 | Exported Function
-`void __cdecl gl::GetProgramInterfaceivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 593 | Exported Function
-`void __cdecl gl::GetProgramInfoLogContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,char * __ptr64)` | 589 | Exported Function
-`void __cdecl gl::GetProgramBinaryContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,unsigned int * __ptr64,void * __ptr64)` | 585 | Exported Function
-`void __cdecl gl::GetProgramBinary(unsigned int,int,int * __ptr64,unsigned int * __ptr64,void * __ptr64)` | 584 | Exported Function
-`void __cdecl gl::GetProgramBinaryOES(unsigned int,int,int * __ptr64,unsigned int * __ptr64,void * __ptr64)` | 586 | Exported Function
-`void __cdecl gl::GetProgramInfoLog(unsigned int,int,int * __ptr64,char * __ptr64)` | 588 | Exported Function
-`void __cdecl gl::GetProgramBinaryOESContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,unsigned int * __ptr64,void * __ptr64)` | 587 | Exported Function
-`void __cdecl gl::GetObjectLabelKHR(unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 572 | Exported Function
-`void __cdecl gl::GetnUniformfvEXTContextANGLE(void * __ptr64,unsigned int,int,int,float * __ptr64)` | 779 | Exported Function
-`void __cdecl gl::GetnUniformfvEXT(unsigned int,int,int,float * __ptr64)` | 778 | Exported Function
-`void __cdecl gl::GetnUniformfvRobustANGLE(unsigned int,int,int,int * __ptr64,float * __ptr64)` | 780 | Exported Function
-`void __cdecl gl::GetnUniformiv(unsigned int,int,int,int * __ptr64)` | 782 | Exported Function
-`void __cdecl gl::GetnUniformfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64,float * __ptr64)` | 781 | Exported Function
-`void __cdecl gl::GetnUniformfvContextANGLE(void * __ptr64,unsigned int,int,int,float * __ptr64)` | 777 | Exported Function
-`void __cdecl gl::GetMultisamplefvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 567 | Exported Function
-`void __cdecl gl::GetMultisamplefvANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 566 | Exported Function
-`void __cdecl gl::GetMultisamplefvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 568 | Exported Function
-`void __cdecl gl::GetnUniformfv(unsigned int,int,int,float * __ptr64)` | 776 | Exported Function
-`void __cdecl gl::GetMultisamplefvRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 569 | Exported Function
-`void __cdecl gl::GetnUniformuivRobustANGLE(unsigned int,int,int,int * __ptr64,unsigned int * __ptr64)` | 790 | Exported Function
-`void __cdecl gl::GetnUniformuivContextANGLE(void * __ptr64,unsigned int,int,int,unsigned int * __ptr64)` | 789 | Exported Function
-`void __cdecl gl::GetnUniformuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64,unsigned int * __ptr64)` | 791 | Exported Function
-`void __cdecl gl::GetObjectLabelContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 571 | Exported Function
-`void __cdecl gl::GetObjectLabel(unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 570 | Exported Function
-`void __cdecl gl::GetnUniformuiv(unsigned int,int,int,unsigned int * __ptr64)` | 788 | Exported Function
-`void __cdecl gl::GetnUniformivEXT(unsigned int,int,int,int * __ptr64)` | 784 | Exported Function
-`void __cdecl gl::GetnUniformivContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64)` | 783 | Exported Function
-`void __cdecl gl::GetnUniformivEXTContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64)` | 785 | Exported Function
-`void __cdecl gl::GetnUniformivRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64,int * __ptr64)` | 787 | Exported Function
-`void __cdecl gl::GetnUniformivRobustANGLE(unsigned int,int,int,int * __ptr64,int * __ptr64)` | 786 | Exported Function
-`void __cdecl gl::GetFloatvContextANGLE(void * __ptr64,unsigned int,float * __ptr64)` | 511 | Exported Function
-`void __cdecl gl::GenRenderbuffers(int,unsigned int * __ptr64)` | 438 | Exported Function
-`void __cdecl gl::GenQueriesEXTContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 437 | Exported Function
-`void __cdecl gl::GenRenderbuffersContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 439 | Exported Function
-`void __cdecl gl::GenRenderbuffersOESContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 441 | Exported Function
-`void __cdecl gl::GenRenderbuffersOES(int,unsigned int * __ptr64)` | 440 | Exported Function
-`void __cdecl gl::GenQueriesEXT(int,unsigned int * __ptr64)` | 436 | Exported Function
-`void __cdecl gl::GenProgramPipelines(int,unsigned int * __ptr64)` | 432 | Exported Function
-`void __cdecl gl::GenFramebuffersOESContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 431 | Exported Function
-`void __cdecl gl::GenProgramPipelinesContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 433 | Exported Function
-`void __cdecl gl::GenQueriesContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 435 | Exported Function
-`void __cdecl gl::GenQueries(int,unsigned int * __ptr64)` | 434 | Exported Function
-`void __cdecl gl::GenTransformFeedbacksContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 449 | Exported Function
-`void __cdecl gl::GenTransformFeedbacks(int,unsigned int * __ptr64)` | 448 | Exported Function
-`void __cdecl gl::GenVertexArrays(int,unsigned int * __ptr64)` | 450 | Exported Function
-`void __cdecl gl::GenVertexArraysOES(int,unsigned int * __ptr64)` | 452 | Exported Function
-`void __cdecl gl::GenVertexArraysContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 451 | Exported Function
-`void __cdecl gl::GenTexturesContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 447 | Exported Function
-`void __cdecl gl::GenSamplersContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 443 | Exported Function
-`void __cdecl gl::GenSamplers(int,unsigned int * __ptr64)` | 442 | Exported Function
-`void __cdecl gl::GenSemaphoresEXT(int,unsigned int * __ptr64)` | 444 | Exported Function
-`void __cdecl gl::GenTextures(int,unsigned int * __ptr64)` | 446 | Exported Function
-`void __cdecl gl::GenSemaphoresEXTContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 445 | Exported Function
-`void __cdecl gl::GenFramebuffersOES(int,unsigned int * __ptr64)` | 430 | Exported Function
-`void __cdecl gl::FrontFaceContextANGLE(void * __ptr64,unsigned int)` | 419 | Exported Function
-`void __cdecl gl::FrontFace(unsigned int)` | 418 | Exported Function
-`void __cdecl gl::Frustumf(float,float,float,float,float,float)` | 420 | Exported Function
-`void __cdecl gl::Frustumx(int,int,int,int,int,int)` | 422 | Exported Function
-`void __cdecl gl::FrustumfContextANGLE(void * __ptr64,float,float,float,float,float,float)` | 421 | Exported Function
-`void __cdecl gl::FramebufferTextureMultiviewOVRContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int,int)` | 417 | Exported Function
-`void __cdecl gl::FramebufferTextureEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int)` | 413 | Exported Function
-`void __cdecl gl::FramebufferTextureEXT(unsigned int,unsigned int,unsigned int,int)` | 412 | Exported Function
-`void __cdecl gl::FramebufferTextureLayer(unsigned int,unsigned int,unsigned int,int,int)` | 414 | Exported Function
-`void __cdecl gl::FramebufferTextureMultiviewOVR(unsigned int,unsigned int,unsigned int,int,int,int)` | 416 | Exported Function
-`void __cdecl gl::FramebufferTextureLayerContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int)` | 415 | Exported Function
-`void __cdecl gl::GenFencesNV(int,unsigned int * __ptr64)` | 426 | Exported Function
-`void __cdecl gl::GenerateMipmapOESContextANGLE(void * __ptr64,unsigned int)` | 457 | Exported Function
-`void __cdecl gl::GenFencesNVContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 427 | Exported Function
-`void __cdecl gl::GenFramebuffersContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 429 | Exported Function
-`void __cdecl gl::GenFramebuffers(int,unsigned int * __ptr64)` | 428 | Exported Function
-`void __cdecl gl::GenerateMipmapOES(unsigned int)` | 456 | Exported Function
-`void __cdecl gl::GenBuffers(int,unsigned int * __ptr64)` | 424 | Exported Function
-`void __cdecl gl::FrustumxContextANGLE(void * __ptr64,int,int,int,int,int,int)` | 423 | Exported Function
-`void __cdecl gl::GenBuffersContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 425 | Exported Function
-`void __cdecl gl::GenerateMipmapContextANGLE(void * __ptr64,unsigned int)` | 455 | Exported Function
-`void __cdecl gl::GenerateMipmap(unsigned int)` | 454 | Exported Function
-`void __cdecl gl::GenVertexArraysOESContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 453 | Exported Function
-`void __cdecl gl::GetBufferPointerv(unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 490 | Exported Function
-`void __cdecl gl::GetBufferParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 489 | Exported Function
-`void __cdecl gl::GetBufferPointervContextANGLE(void * __ptr64,unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 491 | Exported Function
-`void __cdecl gl::GetBufferPointervOESContextANGLE(void * __ptr64,unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 493 | Exported Function
-`void __cdecl gl::GetBufferPointervOES(unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 492 | Exported Function
-`void __cdecl gl::GetBufferParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 488 | Exported Function
-`void __cdecl gl::GetBufferParameteri64vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 484 | Exported Function
-`void __cdecl gl::GetBufferParameteri64vContextANGLE(void * __ptr64,unsigned int,unsigned int,__int64 * __ptr64)` | 483 | Exported Function
-`void __cdecl gl::GetBufferParameteri64vRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 485 | Exported Function
-`void __cdecl gl::GetBufferParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 487 | Exported Function
-`void __cdecl gl::GetBufferParameteriv(unsigned int,unsigned int,int * __ptr64)` | 486 | Exported Function
-`void __cdecl gl::GetFenceivNVContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 507 | Exported Function
-`void __cdecl gl::GetFenceivNV(unsigned int,unsigned int,int * __ptr64)` | 506 | Exported Function
-`void __cdecl gl::GetFixedv(unsigned int,int * __ptr64)` | 508 | Exported Function
-`void __cdecl gl::GetFloatv(unsigned int,float * __ptr64)` | 510 | Exported Function
-`void __cdecl gl::GetFixedvContextANGLE(void * __ptr64,unsigned int,int * __ptr64)` | 509 | Exported Function
-`void __cdecl gl::GetClipPlanexContextANGLE(void * __ptr64,unsigned int,int * __ptr64)` | 499 | Exported Function
-`void __cdecl gl::GetBufferPointervRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 495 | Exported Function
-`void __cdecl gl::GetBufferPointervRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 494 | Exported Function
-`void __cdecl gl::GetClipPlanef(unsigned int,float * __ptr64)` | 496 | Exported Function
-`void __cdecl gl::GetClipPlanex(unsigned int,int * __ptr64)` | 498 | Exported Function
-`void __cdecl gl::GetClipPlanefContextANGLE(void * __ptr64,unsigned int,float * __ptr64)` | 497 | Exported Function
-`void __cdecl gl::GetBufferParameteri64v(unsigned int,unsigned int,__int64 * __ptr64)` | 482 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockName(unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 461 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 466 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockNameContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 462 | Exported Function
-`void __cdecl gl::GetActiveUniformsiv(unsigned int,int,unsigned int const * __ptr64,unsigned int,int * __ptr64)` | 468 | Exported Function
-`void __cdecl gl::GetActiveUniformContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,unsigned int * __ptr64,char * __ptr64)` | 467 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockivRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 465 | Exported Function
-`void __cdecl gl::GetActiveAttribContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,unsigned int * __ptr64,char * __ptr64)` | 459 | Exported Function
-`void __cdecl gl::GetActiveAttrib(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,unsigned int * __ptr64,char * __ptr64)` | 458 | Exported Function
-`void __cdecl gl::GetActiveUniform(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,unsigned int * __ptr64,char * __ptr64)` | 460 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int * __ptr64)` | 464 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockiv(unsigned int,unsigned int,unsigned int,int * __ptr64)` | 463 | Exported Function
-`void __cdecl gl::GetBooleanv(unsigned int,unsigned char * __ptr64)` | 478 | Exported Function
-`void __cdecl gl::GetBooleani_vRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,unsigned char * __ptr64)` | 477 | Exported Function
-`void __cdecl gl::GetBooleanvContextANGLE(void * __ptr64,unsigned int,unsigned char * __ptr64)` | 479 | Exported Function
-`void __cdecl gl::GetBooleanvRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,unsigned char * __ptr64)` | 481 | Exported Function
-`void __cdecl gl::GetBooleanvRobustANGLE(unsigned int,int,int * __ptr64,unsigned char * __ptr64)` | 480 | Exported Function
-`void __cdecl gl::GetBooleani_vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned char * __ptr64)` | 476 | Exported Function
-`void __cdecl gl::GetAttachedShaders(unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 470 | Exported Function
-`void __cdecl gl::GetActiveUniformsivContextANGLE(void * __ptr64,unsigned int,int,unsigned int const * __ptr64,unsigned int,int * __ptr64)` | 469 | Exported Function
-`void __cdecl gl::GetAttachedShadersContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 471 | Exported Function
-`void __cdecl gl::GetBooleani_vContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned char * __ptr64)` | 475 | Exported Function
-`void __cdecl gl::GetBooleani_v(unsigned int,unsigned int,unsigned char * __ptr64)` | 474 | Exported Function
-`unsigned int __cdecl gl::CheckFramebufferStatusContextANGLE(void * __ptr64,unsigned int)` | 105 | Exported Function
-`unsigned int __cdecl gl::CheckFramebufferStatus(unsigned int)` | 104 | Exported Function
-`unsigned int __cdecl gl::CheckFramebufferStatusOES(unsigned int)` | 106 | Exported Function
-`unsigned int __cdecl gl::ClientWaitSync(struct __GLsync * __ptr64,unsigned int,unsigned __int64)` | 130 | Exported Function
-`unsigned int __cdecl gl::CheckFramebufferStatusOESContextANGLE(void * __ptr64,unsigned int)` | 107 | Exported Function
-`unsigned char const * __ptr64 __cdecl gl::GetStringiContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 679 | Exported Function
-`unsigned char __cdecl gl::UnmapBufferOESContextANGLE(void * __ptr64,unsigned int)` | 1357 | Exported Function
-`unsigned char __cdecl gl::UnmapBufferOES(unsigned int)` | 1356 | Exported Function
-`unsigned char const * __ptr64 __cdecl gl::GetString(unsigned int)` | 676 | Exported Function
-`unsigned char const * __ptr64 __cdecl gl::GetStringi(unsigned int,unsigned int)` | 678 | Exported Function
-`unsigned char const * __ptr64 __cdecl gl::GetStringContextANGLE(void * __ptr64,unsigned int)` | 677 | Exported Function
-`unsigned int __cdecl gl::GetDebugMessageLog(unsigned int,int,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,int * __ptr64,char * __ptr64)` | 500 | Exported Function
-`unsigned int __cdecl gl::CreateShaderProgramvContextANGLE(void * __ptr64,unsigned int,int,char const * __ptr64 const * __ptr64)` | 205 | Exported Function
-`unsigned int __cdecl gl::GetDebugMessageLogContextANGLE(void * __ptr64,unsigned int,int,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,int * __ptr64,char * __ptr64)` | 501 | Exported Function
-`unsigned int __cdecl gl::GetDebugMessageLogKHRContextANGLE(void * __ptr64,unsigned int,int,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,int * __ptr64,char * __ptr64)` | 503 | Exported Function
-`unsigned int __cdecl gl::GetDebugMessageLogKHR(unsigned int,int,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,int * __ptr64,char * __ptr64)` | 502 | Exported Function
-`unsigned int __cdecl gl::CreateShaderProgramv(unsigned int,int,char const * __ptr64 const * __ptr64)` | 204 | Exported Function
-`unsigned int __cdecl gl::CreateProgram(void)` | 200 | Exported Function
-`unsigned int __cdecl gl::ClientWaitSyncContextANGLE(void * __ptr64,struct __GLsync * __ptr64,unsigned int,unsigned __int64)` | 131 | Exported Function
-`unsigned int __cdecl gl::CreateProgramContextANGLE(void * __ptr64)` | 201 | Exported Function
-`unsigned int __cdecl gl::CreateShaderContextANGLE(void * __ptr64,unsigned int)` | 203 | Exported Function
-`unsigned int __cdecl gl::CreateShader(unsigned int)` | 202 | Exported Function
-`unsigned char __cdecl gl::UnmapBufferContextANGLE(void * __ptr64,unsigned int)` | 1355 | Exported Function
-`unsigned char __cdecl gl::IsShader(unsigned int)` | 844 | Exported Function
-`unsigned char __cdecl gl::IsSemaphoreEXTContextANGLE(void * __ptr64,unsigned int)` | 843 | Exported Function
-`unsigned char __cdecl gl::IsShaderContextANGLE(void * __ptr64,unsigned int)` | 845 | Exported Function
-`unsigned char __cdecl gl::IsSyncContextANGLE(void * __ptr64,struct __GLsync * __ptr64)` | 847 | Exported Function
-`unsigned char __cdecl gl::IsSync(struct __GLsync * __ptr64)` | 846 | Exported Function
-`unsigned char __cdecl gl::IsSemaphoreEXT(unsigned int)` | 842 | Exported Function
-`unsigned char __cdecl gl::IsRenderbufferOES(unsigned int)` | 838 | Exported Function
-`unsigned char __cdecl gl::IsRenderbufferContextANGLE(void * __ptr64,unsigned int)` | 837 | Exported Function
-`unsigned char __cdecl gl::IsRenderbufferOESContextANGLE(void * __ptr64,unsigned int)` | 839 | Exported Function
-`unsigned char __cdecl gl::IsSamplerContextANGLE(void * __ptr64,unsigned int)` | 841 | Exported Function
-`unsigned char __cdecl gl::IsSampler(unsigned int)` | 840 | Exported Function
-`unsigned char __cdecl gl::IsVertexArrayOESContextANGLE(void * __ptr64,unsigned int)` | 855 | Exported Function
-`unsigned char __cdecl gl::IsVertexArrayOES(unsigned int)` | 854 | Exported Function
-`unsigned char __cdecl gl::TestFenceNV(unsigned int)` | 1172 | Exported Function
-`unsigned char __cdecl gl::UnmapBuffer(unsigned int)` | 1354 | Exported Function
-`unsigned char __cdecl gl::TestFenceNVContextANGLE(void * __ptr64,unsigned int)` | 1173 | Exported Function
-`unsigned char __cdecl gl::IsVertexArrayContextANGLE(void * __ptr64,unsigned int)` | 853 | Exported Function
-`unsigned char __cdecl gl::IsTextureContextANGLE(void * __ptr64,unsigned int)` | 849 | Exported Function
-`unsigned char __cdecl gl::IsTexture(unsigned int)` | 848 | Exported Function
-`unsigned char __cdecl gl::IsTransformFeedback(unsigned int)` | 850 | Exported Function
-`unsigned char __cdecl gl::IsVertexArray(unsigned int)` | 852 | Exported Function
-`unsigned char __cdecl gl::IsTransformFeedbackContextANGLE(void * __ptr64,unsigned int)` | 851 | Exported Function
-`unsigned int __cdecl gl::GetError(void)` | 504 | Exported Function
-`void __cdecl gl::BeginQueryEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 17 | Exported Function
-`void __cdecl gl::BeginQueryEXT(unsigned int,unsigned int)` | 16 | Exported Function
-`void __cdecl gl::BeginTransformFeedback(unsigned int)` | 18 | Exported Function
-`void __cdecl gl::BindAttribLocation(unsigned int,unsigned int,char const * __ptr64)` | 20 | Exported Function
-`void __cdecl gl::BeginTransformFeedbackContextANGLE(void * __ptr64,unsigned int)` | 19 | Exported Function
-`void __cdecl gl::BeginQueryContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 15 | Exported Function
-`void __cdecl gl::AlphaFuncxContextANGLE(void * __ptr64,unsigned int,int)` | 11 | Exported Function
-`void __cdecl gl::AlphaFuncx(unsigned int,int)` | 10 | Exported Function
-`void __cdecl gl::AttachShader(unsigned int,unsigned int)` | 12 | Exported Function
-`void __cdecl gl::BeginQuery(unsigned int,unsigned int)` | 14 | Exported Function
-`void __cdecl gl::AttachShaderContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 13 | Exported Function
-`void __cdecl gl::BindFragDataLocationEXT(unsigned int,unsigned int,char const * __ptr64)` | 28 | Exported Function
-`void __cdecl gl::BindBufferRangeContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,__int64,__int64)` | 27 | Exported Function
-`void __cdecl gl::BindFragDataLocationEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,char const * __ptr64)` | 29 | Exported Function
-`void __cdecl gl::BindFragDataLocationIndexedEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,char const * __ptr64)` | 31 | Exported Function
-`void __cdecl gl::BindFragDataLocationIndexedEXT(unsigned int,unsigned int,unsigned int,char const * __ptr64)` | 30 | Exported Function
-`void __cdecl gl::BindBufferRange(unsigned int,unsigned int,unsigned int,__int64,__int64)` | 26 | Exported Function
-`void __cdecl gl::BindBuffer(unsigned int,unsigned int)` | 22 | Exported Function
-`void __cdecl gl::BindAttribLocationContextANGLE(void * __ptr64,unsigned int,unsigned int,char const * __ptr64)` | 21 | Exported Function
-`void __cdecl gl::BindBufferBase(unsigned int,unsigned int,unsigned int)` | 23 | Exported Function
-`void __cdecl gl::BindBufferContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 25 | Exported Function
-`void __cdecl gl::BindBufferBaseContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 24 | Exported Function
-`void __cdecl gl::AlphaFuncContextANGLE(void * __ptr64,unsigned int,float)` | 9 | Exported Function
-`unsigned int __cdecl gl::GetUniformBlockIndex(unsigned int,char const * __ptr64)` | 734 | Exported Function
-`unsigned int __cdecl gl::GetProgramResourceIndexContextANGLE(void * __ptr64,unsigned int,unsigned int,char const * __ptr64)` | 599 | Exported Function
-`unsigned int __cdecl gl::GetUniformBlockIndexContextANGLE(void * __ptr64,unsigned int,char const * __ptr64)` | 735 | Exported Function
-`unsigned int __cdecl gl::QueryMatrixxOESContextANGLE(void * __ptr64,int * __ptr64,int * __ptr64)` | 1077 | Exported Function
-`unsigned int __cdecl gl::QueryMatrixxOES(int * __ptr64,int * __ptr64)` | 1076 | Exported Function
-`unsigned int __cdecl gl::GetProgramResourceIndex(unsigned int,unsigned int,char const * __ptr64)` | 598 | Exported Function
-`unsigned int __cdecl gl::GetGraphicsResetStatus(void)` | 528 | Exported Function
-`unsigned int __cdecl gl::GetErrorContextANGLE(void * __ptr64)` | 505 | Exported Function
-`unsigned int __cdecl gl::GetGraphicsResetStatusContextANGLE(void * __ptr64)` | 529 | Exported Function
-`unsigned int __cdecl gl::GetGraphicsResetStatusEXTContextANGLE(void * __ptr64)` | 531 | Exported Function
-`unsigned int __cdecl gl::GetGraphicsResetStatusEXT(void)` | 530 | Exported Function
-`void __cdecl gl::ActiveShaderProgramContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 5 | Exported Function
-`void __cdecl gl::ActiveShaderProgram(unsigned int,unsigned int)` | 4 | Exported Function
-`void __cdecl gl::ActiveTexture(unsigned int)` | 6 | Exported Function
-`void __cdecl gl::AlphaFunc(unsigned int,float)` | 8 | Exported Function
-`void __cdecl gl::ActiveTextureContextANGLE(void * __ptr64,unsigned int)` | 7 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferRangeEXTContextANGLE(void * __ptr64,unsigned int,__int64,__int64,unsigned int)` | 895 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 891 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferOES(unsigned int,unsigned int)` | 890 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferRange(unsigned int,__int64,__int64,unsigned int)` | 892 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferRangeEXT(unsigned int,__int64,__int64,unsigned int)` | 894 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferRangeContextANGLE(void * __ptr64,unsigned int,__int64,__int64,unsigned int)` | 893 | Exported Function
-`unsigned char __cdecl gl::IsRenderbuffer(unsigned int)` | 836 | Exported Function
+`DrawTexsvOESContextANGLE` | 349 | Exported Function
+`DrawTexsvOES` | 348 | Exported Function
+`DrawTexxOES` | 350 | Exported Function
+`DrawTexxvOES` | 352 | Exported Function
+`DrawTexxOESContextANGLE` | 351 | Exported Function
+`DrawTexsOESContextANGLE` | 347 | Exported Function
+`DrawTexiOESContextANGLE` | 343 | Exported Function
+`DrawTexiOES` | 342 | Exported Function
+`DrawTexivOES` | 344 | Exported Function
+`DrawTexsOES` | 346 | Exported Function
+`DrawTexivOESContextANGLE` | 345 | Exported Function
+`EnableClientStateContextANGLE` | 360 | Exported Function
+`EnableClientState` | 359 | Exported Function
+`EnableContextANGLE` | 361 | Exported Function
+`EnableiContextANGLE` | 365 | Exported Function
+`Enablei` | 364 | Exported Function
+`Enable` | 358 | Exported Function
+`EGLImageTargetRenderbufferStorageOES` | 354 | Exported Function
+`DrawTexxvOESContextANGLE` | 353 | Exported Function
+`EGLImageTargetRenderbufferStorageOESContextANGLE` | 355 | Exported Function
+`EGLImageTargetTexture2DOESContextANGLE` | 357 | Exported Function
+`EGLImageTargetTexture2DOES` | 356 | Exported Function
+`DrawTexfvOESContextANGLE` | 341 | Exported Function
+`DrawElementsInstancedBaseVertexOESContextANGLE` | 326 | Exported Function
+`DrawElementsInstancedBaseVertexOES` | 325 | Exported Function
+`DrawElementsInstancedContextANGLE` | 327 | Exported Function
+`DrawElementsInstancedEXTContextANGLE` | 329 | Exported Function
+`DrawElementsInstancedEXT` | 328 | Exported Function
+`DrawElementsInstancedBaseVertexEXTContextANGLE` | 324 | Exported Function
+`DrawElementsInstancedBaseVertexBaseInstanceANGLE` | 320 | Exported Function
+`DrawElementsInstancedBaseVertex` | 319 | Exported Function
+`DrawElementsInstancedBaseVertexBaseInstanceANGLEContextANGLE` | 321 | Exported Function
+`DrawElementsInstancedBaseVertexEXT` | 323 | Exported Function
+`DrawElementsInstancedBaseVertexContextANGLE` | 322 | Exported Function
+`DrawRangeElementsContextANGLE` | 337 | Exported Function
+`DrawRangeElementsBaseVertexOESContextANGLE` | 336 | Exported Function
+`DrawTexfOES` | 338 | Exported Function
+`DrawTexfvOES` | 340 | Exported Function
+`DrawTexfOESContextANGLE` | 339 | Exported Function
+`DrawRangeElementsBaseVertexOES` | 335 | Exported Function
+`DrawRangeElementsBaseVertex` | 331 | Exported Function
+`DrawRangeElements` | 330 | Exported Function
+`DrawRangeElementsBaseVertexContextANGLE` | 332 | Exported Function
+`DrawRangeElementsBaseVertexEXTContextANGLE` | 334 | Exported Function
+`DrawRangeElementsBaseVertexEXT` | 333 | Exported Function
+`EnableiEXT` | 366 | Exported Function
+`FramebufferParameteriContextANGLE` | 397 | Exported Function
+`FramebufferParameteri` | 396 | Exported Function
+`FramebufferRenderbuffer` | 398 | Exported Function
+`FramebufferRenderbufferOES` | 400 | Exported Function
+`FramebufferRenderbufferContextANGLE` | 399 | Exported Function
+`FogxvContextANGLE` | 395 | Exported Function
+`FogfvContextANGLE` | 391 | Exported Function
+`Fogfv` | 390 | Exported Function
+`Fogx` | 392 | Exported Function
+`Fogxv` | 394 | Exported Function
+`FogxContextANGLE` | 393 | Exported Function
+`FramebufferTexture2DOESContextANGLE` | 407 | Exported Function
+`FramebufferTexture2DOES` | 406 | Exported Function
+`FramebufferTexture3DOES` | 408 | Exported Function
+`FramebufferTextureContextANGLE` | 411 | Exported Function
+`FramebufferTexture3DOESContextANGLE` | 409 | Exported Function
+`FramebufferTexture2DMultisampleEXTContextANGLE` | 405 | Exported Function
+`FramebufferTexture` | 410 | Exported Function
+`FramebufferRenderbufferOESContextANGLE` | 401 | Exported Function
+`FramebufferTexture2D` | 402 | Exported Function
+`FramebufferTexture2DMultisampleEXT` | 404 | Exported Function
+`FramebufferTexture2DContextANGLE` | 403 | Exported Function
+`FogfContextANGLE` | 389 | Exported Function
+`EndQueryEXT` | 372 | Exported Function
+`EndQueryContextANGLE` | 371 | Exported Function
+`EndQueryEXTContextANGLE` | 373 | Exported Function
+`EndTransformFeedbackContextANGLE` | 375 | Exported Function
+`EndTransformFeedback` | 374 | Exported Function
+`EndQuery` | 370 | Exported Function
+`EnableiOES` | 368 | Exported Function
+`EnableiEXTContextANGLE` | 367 | Exported Function
+`EnableiOESContextANGLE` | 369 | Exported Function
+`EnableVertexAttribArrayContextANGLE` | 363 | Exported Function
+`EnableVertexAttribArray` | 362 | Exported Function
+`FlushMappedBufferRangeContextANGLE` | 385 | Exported Function
+`FlushMappedBufferRange` | 384 | Exported Function
+`FlushMappedBufferRangeEXT` | 386 | Exported Function
+`Fogf` | 388 | Exported Function
+`FlushMappedBufferRangeEXTContextANGLE` | 387 | Exported Function
+`FlushContextANGLE` | 383 | Exported Function
+`FinishContextANGLE` | 379 | Exported Function
+`Finish` | 378 | Exported Function
+`FinishFenceNV` | 380 | Exported Function
+`Flush` | 382 | Exported Function
+`FinishFenceNVContextANGLE` | 381 | Exported Function
+`DrawElementsInstancedANGLEContextANGLE` | 318 | Exported Function
+`DeleteVertexArraysContextANGLE` | 257 | Exported Function
+`DeleteVertexArrays` | 256 | Exported Function
+`DeleteVertexArraysOES` | 258 | Exported Function
+`DepthFunc` | 260 | Exported Function
+`DeleteVertexArraysOESContextANGLE` | 259 | Exported Function
+`DeleteTransformFeedbacksContextANGLE` | 255 | Exported Function
+`DeleteSyncContextANGLE` | 251 | Exported Function
+`DeleteSync` | 250 | Exported Function
+`DeleteTextures` | 252 | Exported Function
+`DeleteTransformFeedbacks` | 254 | Exported Function
+`DeleteTexturesContextANGLE` | 253 | Exported Function
+`DetachShader` | 268 | Exported Function
+`DepthRangexContextANGLE` | 267 | Exported Function
+`DetachShaderContextANGLE` | 269 | Exported Function
+`DisableClientState` | 271 | Exported Function
+`Disable` | 270 | Exported Function
+`DepthRangex` | 266 | Exported Function
+`DepthMask` | 262 | Exported Function
+`DepthFuncContextANGLE` | 261 | Exported Function
+`DepthMaskContextANGLE` | 263 | Exported Function
+`DepthRangefContextANGLE` | 265 | Exported Function
+`DepthRangef` | 264 | Exported Function
+`DeleteShaderContextANGLE` | 249 | Exported Function
+`DeleteProgramPipelines` | 234 | Exported Function
+`DeleteProgramContextANGLE` | 233 | Exported Function
+`DeleteProgramPipelinesContextANGLE` | 235 | Exported Function
+`DeleteQueriesContextANGLE` | 237 | Exported Function
+`DeleteQueries` | 236 | Exported Function
+`DeleteProgram` | 232 | Exported Function
+`DeleteFramebuffersOES` | 228 | Exported Function
+`DeleteFramebuffersContextANGLE` | 227 | Exported Function
+`DeleteFramebuffersOESContextANGLE` | 229 | Exported Function
+`DeleteMemoryObjectsEXTContextANGLE` | 231 | Exported Function
+`DeleteMemoryObjectsEXT` | 230 | Exported Function
+`DeleteSamplersContextANGLE` | 245 | Exported Function
+`DeleteSamplers` | 244 | Exported Function
+`DeleteSemaphoresEXT` | 246 | Exported Function
+`DeleteShader` | 248 | Exported Function
+`DeleteSemaphoresEXTContextANGLE` | 247 | Exported Function
+`DeleteRenderbuffersOESContextANGLE` | 243 | Exported Function
+`DeleteQueriesEXTContextANGLE` | 239 | Exported Function
+`DeleteQueriesEXT` | 238 | Exported Function
+`DeleteRenderbuffers` | 240 | Exported Function
+`DeleteRenderbuffersOES` | 242 | Exported Function
+`DeleteRenderbuffersContextANGLE` | 241 | Exported Function
+`DisableClientStateContextANGLE` | 272 | Exported Function
+`DrawBuffersContextANGLE` | 303 | Exported Function
+`DrawBuffers` | 302 | Exported Function
+`DrawBuffersEXT` | 304 | Exported Function
+`DrawElements` | 306 | Exported Function
+`DrawBuffersEXTContextANGLE` | 305 | Exported Function
+`DrawArraysInstancedEXTContextANGLE` | 301 | Exported Function
+`DrawArraysInstancedBaseInstanceANGLE` | 297 | Exported Function
+`DrawArraysInstancedANGLEContextANGLE` | 296 | Exported Function
+`DrawArraysInstancedBaseInstanceANGLEContextANGLE` | 298 | Exported Function
+`DrawArraysInstancedEXT` | 300 | Exported Function
+`DrawArraysInstancedContextANGLE` | 299 | Exported Function
+`DrawElementsIndirect` | 314 | Exported Function
+`DrawElementsContextANGLE` | 313 | Exported Function
+`DrawElementsIndirectContextANGLE` | 315 | Exported Function
+`DrawElementsInstancedANGLE` | 317 | Exported Function
+`DrawElementsInstanced` | 316 | Exported Function
+`DrawElementsBaseVertexOESContextANGLE` | 312 | Exported Function
+`DrawElementsBaseVertexContextANGLE` | 308 | Exported Function
+`DrawElementsBaseVertex` | 307 | Exported Function
+`DrawElementsBaseVertexEXT` | 309 | Exported Function
+`DrawElementsBaseVertexOES` | 311 | Exported Function
+`DrawElementsBaseVertexEXTContextANGLE` | 310 | Exported Function
+`DrawArraysInstancedANGLE` | 295 | Exported Function
+`DisableiOES` | 282 | Exported Function
+`DisableiEXTContextANGLE` | 281 | Exported Function
+`DisableiOESContextANGLE` | 283 | Exported Function
+`DisableVertexAttribArrayContextANGLE` | 277 | Exported Function
+`DisableVertexAttribArray` | 276 | Exported Function
+`DisableiEXT` | 280 | Exported Function
+`DisableExtensionANGLE` | 274 | Exported Function
+`DisableContextANGLE` | 273 | Exported Function
+`DisableExtensionANGLEContextANGLE` | 275 | Exported Function
+`DisableiContextANGLE` | 279 | Exported Function
+`Disablei` | 278 | Exported Function
+`DrawArraysContextANGLE` | 291 | Exported Function
+`DrawArrays` | 290 | Exported Function
+`DrawArraysIndirect` | 292 | Exported Function
+`DrawArraysInstanced` | 294 | Exported Function
+`DrawArraysIndirectContextANGLE` | 293 | Exported Function
+`DispatchComputeIndirectContextANGLE` | 289 | Exported Function
+`DiscardFramebufferEXTContextANGLE` | 285 | Exported Function
+`DiscardFramebufferEXT` | 284 | Exported Function
+`DispatchCompute` | 286 | Exported Function
+`DispatchComputeIndirect` | 288 | Exported Function
+`DispatchComputeContextANGLE` | 287 | Exported Function
+`GetInternalformativ` | 550 | Exported Function
+`GetIntegervRobustANGLEContextANGLE` | 549 | Exported Function
+`GetInternalformativContextANGLE` | 551 | Exported Function
+`GetInternalformativRobustANGLEContextANGLE` | 553 | Exported Function
+`GetInternalformativRobustANGLE` | 552 | Exported Function
+`GetIntegervRobustANGLE` | 548 | Exported Function
+`GetIntegeri_vRobustANGLE` | 544 | Exported Function
+`GetIntegeri_vContextANGLE` | 543 | Exported Function
+`GetIntegeri_vRobustANGLEContextANGLE` | 545 | Exported Function
+`GetIntegervContextANGLE` | 547 | Exported Function
+`GetIntegerv` | 546 | Exported Function
+`GetMaterialxvContextANGLE` | 561 | Exported Function
+`GetMaterialxv` | 560 | Exported Function
+`GetMemoryObjectParameterivEXT` | 562 | Exported Function
+`GetMultisamplefv` | 564 | Exported Function
+`GetMemoryObjectParameterivEXTContextANGLE` | 563 | Exported Function
+`GetMaterialfvContextANGLE` | 559 | Exported Function
+`GetLightfvContextANGLE` | 555 | Exported Function
+`GetLightfv` | 554 | Exported Function
+`GetLightxv` | 556 | Exported Function
+`GetMaterialfv` | 558 | Exported Function
+`GetLightxvContextANGLE` | 557 | Exported Function
+`GetIntegeri_v` | 542 | Exported Function
+`GetFramebufferAttachmentParameterivRobustANGLEContextANGLE` | 523 | Exported Function
+`GetFramebufferAttachmentParameterivRobustANGLE` | 522 | Exported Function
+`GetFramebufferParameteriv` | 524 | Exported Function
+`GetFramebufferParameterivRobustANGLE` | 526 | Exported Function
+`GetFramebufferParameterivContextANGLE` | 525 | Exported Function
+`GetFramebufferAttachmentParameterivOESContextANGLE` | 521 | Exported Function
+`GetFloatvRobustANGLEContextANGLE` | 513 | Exported Function
+`GetFloatvRobustANGLE` | 512 | Exported Function
+`GetFramebufferAttachmentParameteriv` | 518 | Exported Function
+`GetFramebufferAttachmentParameterivOES` | 520 | Exported Function
+`GetFramebufferAttachmentParameterivContextANGLE` | 519 | Exported Function
+`GetInteger64vEXT` | 538 | Exported Function
+`GetInteger64vContextANGLE` | 537 | Exported Function
+`GetInteger64vEXTContextANGLE` | 539 | Exported Function
+`GetInteger64vRobustANGLEContextANGLE` | 541 | Exported Function
+`GetInteger64vRobustANGLE` | 540 | Exported Function
+`GetInteger64v` | 536 | Exported Function
+`GetInteger64i_v` | 532 | Exported Function
+`GetFramebufferParameterivRobustANGLEContextANGLE` | 527 | Exported Function
+`GetInteger64i_vContextANGLE` | 533 | Exported Function
+`GetInteger64i_vRobustANGLEContextANGLE` | 535 | Exported Function
+`GetInteger64i_vRobustANGLE` | 534 | Exported Function
+`GetMultisamplefvANGLE` | 565 | Exported Function
+`GetPointervKHR` | 580 | Exported Function
+`GetPointervContextANGLE` | 579 | Exported Function
+`GetPointervKHRContextANGLE` | 581 | Exported Function
+`GetPointervRobustANGLERobustANGLEContextANGLE` | 583 | Exported Function
+`GetPointervRobustANGLERobustANGLE` | 582 | Exported Function
+`GetPointerv` | 578 | Exported Function
+`GetObjectPtrLabel` | 574 | Exported Function
+`GetObjectLabelKHRContextANGLE` | 573 | Exported Function
+`GetObjectPtrLabelContextANGLE` | 575 | Exported Function
+`GetObjectPtrLabelKHRContextANGLE` | 577 | Exported Function
+`GetObjectPtrLabelKHR` | 576 | Exported Function
+`GetProgramInterfaceivContextANGLE` | 591 | Exported Function
+`GetProgramInterfaceiv` | 590 | Exported Function
+`GetProgramInterfaceivRobustANGLE` | 592 | Exported Function
+`GetProgramiv` | 608 | Exported Function
+`GetProgramInterfaceivRobustANGLEContextANGLE` | 593 | Exported Function
+`GetProgramInfoLogContextANGLE` | 589 | Exported Function
+`GetProgramBinaryContextANGLE` | 585 | Exported Function
+`GetProgramBinary` | 584 | Exported Function
+`GetProgramBinaryOES` | 586 | Exported Function
+`GetProgramInfoLog` | 588 | Exported Function
+`GetProgramBinaryOESContextANGLE` | 587 | Exported Function
+`GetObjectLabelKHR` | 572 | Exported Function
+`GetnUniformfvEXTContextANGLE` | 779 | Exported Function
+`GetnUniformfvEXT` | 778 | Exported Function
+`GetnUniformfvRobustANGLE` | 780 | Exported Function
+`GetnUniformiv` | 782 | Exported Function
+`GetnUniformfvRobustANGLEContextANGLE` | 781 | Exported Function
+`GetnUniformfvContextANGLE` | 777 | Exported Function
+`GetMultisamplefvContextANGLE` | 567 | Exported Function
+`GetMultisamplefvANGLEContextANGLE` | 566 | Exported Function
+`GetMultisamplefvRobustANGLE` | 568 | Exported Function
+`GetnUniformfv` | 776 | Exported Function
+`GetMultisamplefvRobustANGLEContextANGLE` | 569 | Exported Function
+`GetnUniformuivRobustANGLE` | 790 | Exported Function
+`GetnUniformuivContextANGLE` | 789 | Exported Function
+`GetnUniformuivRobustANGLEContextANGLE` | 791 | Exported Function
+`GetObjectLabelContextANGLE` | 571 | Exported Function
+`GetObjectLabel` | 570 | Exported Function
+`GetnUniformuiv` | 788 | Exported Function
+`GetnUniformivEXT` | 784 | Exported Function
+`GetnUniformivContextANGLE` | 783 | Exported Function
+`GetnUniformivEXTContextANGLE` | 785 | Exported Function
+`GetnUniformivRobustANGLEContextANGLE` | 787 | Exported Function
+`GetnUniformivRobustANGLE` | 786 | Exported Function
+`GetFloatvContextANGLE` | 511 | Exported Function
+`GenRenderbuffers` | 438 | Exported Function
+`GenQueriesEXTContextANGLE` | 437 | Exported Function
+`GenRenderbuffersContextANGLE` | 439 | Exported Function
+`GenRenderbuffersOESContextANGLE` | 441 | Exported Function
+`GenRenderbuffersOES` | 440 | Exported Function
+`GenQueriesEXT` | 436 | Exported Function
+`GenProgramPipelines` | 432 | Exported Function
+`GenFramebuffersOESContextANGLE` | 431 | Exported Function
+`GenProgramPipelinesContextANGLE` | 433 | Exported Function
+`GenQueriesContextANGLE` | 435 | Exported Function
+`GenQueries` | 434 | Exported Function
+`GenTransformFeedbacksContextANGLE` | 449 | Exported Function
+`GenTransformFeedbacks` | 448 | Exported Function
+`GenVertexArrays` | 450 | Exported Function
+`GenVertexArraysOES` | 452 | Exported Function
+`GenVertexArraysContextANGLE` | 451 | Exported Function
+`GenTexturesContextANGLE` | 447 | Exported Function
+`GenSamplersContextANGLE` | 443 | Exported Function
+`GenSamplers` | 442 | Exported Function
+`GenSemaphoresEXT` | 444 | Exported Function
+`GenTextures` | 446 | Exported Function
+`GenSemaphoresEXTContextANGLE` | 445 | Exported Function
+`GenFramebuffersOES` | 430 | Exported Function
+`FrontFaceContextANGLE` | 419 | Exported Function
+`FrontFace` | 418 | Exported Function
+`Frustumf` | 420 | Exported Function
+`Frustumx` | 422 | Exported Function
+`FrustumfContextANGLE` | 421 | Exported Function
+`FramebufferTextureMultiviewOVRContextANGLE` | 417 | Exported Function
+`FramebufferTextureEXTContextANGLE` | 413 | Exported Function
+`FramebufferTextureEXT` | 412 | Exported Function
+`FramebufferTextureLayer` | 414 | Exported Function
+`FramebufferTextureMultiviewOVR` | 416 | Exported Function
+`FramebufferTextureLayerContextANGLE` | 415 | Exported Function
+`GenFencesNV` | 426 | Exported Function
+`GenerateMipmapOESContextANGLE` | 457 | Exported Function
+`GenFencesNVContextANGLE` | 427 | Exported Function
+`GenFramebuffersContextANGLE` | 429 | Exported Function
+`GenFramebuffers` | 428 | Exported Function
+`GenerateMipmapOES` | 456 | Exported Function
+`GenBuffers` | 424 | Exported Function
+`FrustumxContextANGLE` | 423 | Exported Function
+`GenBuffersContextANGLE` | 425 | Exported Function
+`GenerateMipmapContextANGLE` | 455 | Exported Function
+`GenerateMipmap` | 454 | Exported Function
+`GenVertexArraysOESContextANGLE` | 453 | Exported Function
+`GetBufferPointerv` | 490 | Exported Function
+`GetBufferParameterivRobustANGLEContextANGLE` | 489 | Exported Function
+`GetBufferPointervContextANGLE` | 491 | Exported Function
+`GetBufferPointervOESContextANGLE` | 493 | Exported Function
+`GetBufferPointervOES` | 492 | Exported Function
+`GetBufferParameterivRobustANGLE` | 488 | Exported Function
+`GetBufferParameteri64vRobustANGLE` | 484 | Exported Function
+`GetBufferParameteri64vContextANGLE` | 483 | Exported Function
+`GetBufferParameteri64vRobustANGLEContextANGLE` | 485 | Exported Function
+`GetBufferParameterivContextANGLE` | 487 | Exported Function
+`GetBufferParameteriv` | 486 | Exported Function
+`GetFenceivNVContextANGLE` | 507 | Exported Function
+`GetFenceivNV` | 506 | Exported Function
+`GetFixedv` | 508 | Exported Function
+`GetFloatv` | 510 | Exported Function
+`GetFixedvContextANGLE` | 509 | Exported Function
+`GetClipPlanexContextANGLE` | 499 | Exported Function
+`GetBufferPointervRobustANGLEContextANGLE` | 495 | Exported Function
+`GetBufferPointervRobustANGLE` | 494 | Exported Function
+`GetClipPlanef` | 496 | Exported Function
+`GetClipPlanex` | 498 | Exported Function
+`GetClipPlanefContextANGLE` | 497 | Exported Function
+`GetBufferParameteri64v` | 482 | Exported Function
+`GetActiveUniformBlockName` | 461 | Exported Function
+`GetActiveUniformBlockivRobustANGLEContextANGLE` | 466 | Exported Function
+`GetActiveUniformBlockNameContextANGLE` | 462 | Exported Function
+`GetActiveUniformsiv` | 468 | Exported Function
+`GetActiveUniformContextANGLE` | 467 | Exported Function
+`GetActiveUniformBlockivRobustANGLE` | 465 | Exported Function
+`GetActiveAttribContextANGLE` | 459 | Exported Function
+`GetActiveAttrib` | 458 | Exported Function
+`GetActiveUniform` | 460 | Exported Function
+`GetActiveUniformBlockivContextANGLE` | 464 | Exported Function
+`GetActiveUniformBlockiv` | 463 | Exported Function
+`GetBooleanv` | 478 | Exported Function
+`GetBooleani_vRobustANGLEContextANGLE` | 477 | Exported Function
+`GetBooleanvContextANGLE` | 479 | Exported Function
+`GetBooleanvRobustANGLEContextANGLE` | 481 | Exported Function
+`GetBooleanvRobustANGLE` | 480 | Exported Function
+`GetBooleani_vRobustANGLE` | 476 | Exported Function
+`GetAttachedShaders` | 470 | Exported Function
+`GetActiveUniformsivContextANGLE` | 469 | Exported Function
+`GetAttachedShadersContextANGLE` | 471 | Exported Function
+`GetBooleani_vContextANGLE` | 475 | Exported Function
+`GetBooleani_v` | 474 | Exported Function
+`CheckFramebufferStatusContextANGLE` | 105 | Exported Function
+`CheckFramebufferStatus` | 104 | Exported Function
+`CheckFramebufferStatusOES` | 106 | Exported Function
+`ClientWaitSync` | 130 | Exported Function
+`CheckFramebufferStatusOESContextANGLE` | 107 | Exported Function
+`GetStringiContextANGLE` | 679 | Exported Function
+`UnmapBufferOESContextANGLE` | 1357 | Exported Function
+`UnmapBufferOES` | 1356 | Exported Function
+`GetString` | 676 | Exported Function
+`GetStringi` | 678 | Exported Function
+`GetStringContextANGLE` | 677 | Exported Function
+`GetDebugMessageLog` | 500 | Exported Function
+`CreateShaderProgramvContextANGLE` | 205 | Exported Function
+`GetDebugMessageLogContextANGLE` | 501 | Exported Function
+`GetDebugMessageLogKHRContextANGLE` | 503 | Exported Function
+`GetDebugMessageLogKHR` | 502 | Exported Function
+`CreateShaderProgramv` | 204 | Exported Function
+`CreateProgram` | 200 | Exported Function
+`ClientWaitSyncContextANGLE` | 131 | Exported Function
+`CreateProgramContextANGLE` | 201 | Exported Function
+`CreateShaderContextANGLE` | 203 | Exported Function
+`CreateShader` | 202 | Exported Function
+`UnmapBufferContextANGLE` | 1355 | Exported Function
+`IsShader` | 844 | Exported Function
+`IsSemaphoreEXTContextANGLE` | 843 | Exported Function
+`IsShaderContextANGLE` | 845 | Exported Function
+`IsSyncContextANGLE` | 847 | Exported Function
+`IsSync` | 846 | Exported Function
+`IsSemaphoreEXT` | 842 | Exported Function
+`IsRenderbufferOES` | 838 | Exported Function
+`IsRenderbufferContextANGLE` | 837 | Exported Function
+`IsRenderbufferOESContextANGLE` | 839 | Exported Function
+`IsSamplerContextANGLE` | 841 | Exported Function
+`IsSampler` | 840 | Exported Function
+`IsVertexArrayOESContextANGLE` | 855 | Exported Function
+`IsVertexArrayOES` | 854 | Exported Function
+`TestFenceNV` | 1172 | Exported Function
+`UnmapBuffer` | 1354 | Exported Function
+`TestFenceNVContextANGLE` | 1173 | Exported Function
+`IsVertexArrayContextANGLE` | 853 | Exported Function
+`IsTextureContextANGLE` | 849 | Exported Function
+`IsTexture` | 848 | Exported Function
+`IsTransformFeedback` | 850 | Exported Function
+`IsVertexArray` | 852 | Exported Function
+`IsTransformFeedbackContextANGLE` | 851 | Exported Function
+`GetError` | 504 | Exported Function
+`BeginQueryEXTContextANGLE` | 17 | Exported Function
+`BeginQueryEXT` | 16 | Exported Function
+`BeginTransformFeedback` | 18 | Exported Function
+`BindAttribLocation` | 20 | Exported Function
+`BeginTransformFeedbackContextANGLE` | 19 | Exported Function
+`BeginQueryContextANGLE` | 15 | Exported Function
+`AlphaFuncxContextANGLE` | 11 | Exported Function
+`AlphaFuncx` | 10 | Exported Function
+`AttachShader` | 12 | Exported Function
+`BeginQuery` | 14 | Exported Function
+`AttachShaderContextANGLE` | 13 | Exported Function
+`BindFragDataLocationEXT` | 28 | Exported Function
+`BindBufferRangeContextANGLE` | 27 | Exported Function
+`BindFragDataLocationEXTContextANGLE` | 29 | Exported Function
+`BindFragDataLocationIndexedEXTContextANGLE` | 31 | Exported Function
+`BindFragDataLocationIndexedEXT` | 30 | Exported Function
+`BindBufferRange` | 26 | Exported Function
+`BindBuffer` | 22 | Exported Function
+`BindAttribLocationContextANGLE` | 21 | Exported Function
+`BindBufferBase` | 23 | Exported Function
+`BindBufferContextANGLE` | 25 | Exported Function
+`BindBufferBaseContextANGLE` | 24 | Exported Function
+`AlphaFuncContextANGLE` | 9 | Exported Function
+`GetUniformBlockIndex` | 734 | Exported Function
+`GetProgramResourceIndexContextANGLE` | 599 | Exported Function
+`GetUniformBlockIndexContextANGLE` | 735 | Exported Function
+`QueryMatrixxOESContextANGLE` | 1077 | Exported Function
+`QueryMatrixxOES` | 1076 | Exported Function
+`GetProgramResourceIndex` | 598 | Exported Function
+`GetGraphicsResetStatus` | 528 | Exported Function
+`GetErrorContextANGLE` | 505 | Exported Function
+`GetGraphicsResetStatusContextANGLE` | 529 | Exported Function
+`GetGraphicsResetStatusEXTContextANGLE` | 531 | Exported Function
+`GetGraphicsResetStatusEXT` | 530 | Exported Function
+`ActiveShaderProgramContextANGLE` | 5 | Exported Function
+`ActiveShaderProgram` | 4 | Exported Function
+`ActiveTexture` | 6 | Exported Function
+`AlphaFunc` | 8 | Exported Function
+`ActiveTextureContextANGLE` | 7 | Exported Function
+`MapBufferRangeEXTContextANGLE` | 895 | Exported Function
+`MapBufferOESContextANGLE` | 891 | Exported Function
+`MapBufferOES` | 890 | Exported Function
+`MapBufferRange` | 892 | Exported Function
+`MapBufferRangeEXT` | 894 | Exported Function
+`MapBufferRangeContextANGLE` | 893 | Exported Function
+`IsRenderbuffer` | 836 | Exported Function
 `glVertexAttribIFormat` | 2913 | Exported Function
 `glVertexAttribI4uivContextANGLE` | 2912 | Exported Function
 `glVertexAttribIFormatContextANGLE` | 2914 | Exported Function
@@ -532,967 +532,967 @@ Function Name | Ordinal | Type
 `glVertexAttribDivisorANGLE` | 2898 | Exported Function
 `glVertexAttribDivisor` | 2897 | Exported Function
 `glWaitSyncContextANGLE` | 2928 | Exported Function
-`unsigned char __cdecl gl::IsFenceNVContextANGLE(void * __ptr64,unsigned int)` | 821 | Exported Function
-`unsigned char __cdecl gl::IsFenceNV(unsigned int)` | 820 | Exported Function
-`unsigned char __cdecl gl::IsFramebuffer(unsigned int)` | 822 | Exported Function
-`unsigned char __cdecl gl::IsFramebufferOES(unsigned int)` | 824 | Exported Function
-`unsigned char __cdecl gl::IsFramebufferContextANGLE(void * __ptr64,unsigned int)` | 823 | Exported Function
-`unsigned char __cdecl gl::IsEnablediOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 819 | Exported Function
-`unsigned char __cdecl gl::IsEnablediContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 815 | Exported Function
-`unsigned char __cdecl gl::IsEnabledi(unsigned int,unsigned int)` | 814 | Exported Function
-`unsigned char __cdecl gl::IsEnablediEXT(unsigned int,unsigned int)` | 816 | Exported Function
-`unsigned char __cdecl gl::IsEnablediOES(unsigned int,unsigned int)` | 818 | Exported Function
-`unsigned char __cdecl gl::IsEnablediEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 817 | Exported Function
-`unsigned char __cdecl gl::IsQuery(unsigned int)` | 832 | Exported Function
-`unsigned char __cdecl gl::IsProgramPipelineContextANGLE(void * __ptr64,unsigned int)` | 831 | Exported Function
-`unsigned char __cdecl gl::IsQueryContextANGLE(void * __ptr64,unsigned int)` | 833 | Exported Function
-`unsigned char __cdecl gl::IsQueryEXTContextANGLE(void * __ptr64,unsigned int)` | 835 | Exported Function
-`unsigned char __cdecl gl::IsQueryEXT(unsigned int)` | 834 | Exported Function
-`unsigned char __cdecl gl::IsProgramPipeline(unsigned int)` | 830 | Exported Function
-`unsigned char __cdecl gl::IsMemoryObjectEXT(unsigned int)` | 826 | Exported Function
-`unsigned char __cdecl gl::IsFramebufferOESContextANGLE(void * __ptr64,unsigned int)` | 825 | Exported Function
-`unsigned char __cdecl gl::IsMemoryObjectEXTContextANGLE(void * __ptr64,unsigned int)` | 827 | Exported Function
-`unsigned char __cdecl gl::IsProgramContextANGLE(void * __ptr64,unsigned int)` | 829 | Exported Function
-`unsigned char __cdecl gl::IsProgram(unsigned int)` | 828 | Exported Function
-`unsigned char __cdecl gl::IsEnabledContextANGLE(void * __ptr64,unsigned int)` | 813 | Exported Function
-`int __cdecl gl::GetFragDataLocationContextANGLE(void * __ptr64,unsigned int,char const * __ptr64)` | 517 | Exported Function
-`int __cdecl gl::GetFragDataLocation(unsigned int,char const * __ptr64)` | 516 | Exported Function
-`int __cdecl gl::GetProgramResourceLocation(unsigned int,unsigned int,char const * __ptr64)` | 600 | Exported Function
-`int __cdecl gl::GetProgramResourceLocationIndexEXT(unsigned int,unsigned int,char const * __ptr64)` | 602 | Exported Function
-`int __cdecl gl::GetProgramResourceLocationContextANGLE(void * __ptr64,unsigned int,unsigned int,char const * __ptr64)` | 601 | Exported Function
-`int __cdecl gl::GetFragDataIndexEXTContextANGLE(void * __ptr64,unsigned int,char const * __ptr64)` | 515 | Exported Function
+`IsFenceNVContextANGLE` | 821 | Exported Function
+`IsFenceNV` | 820 | Exported Function
+`IsFramebuffer` | 822 | Exported Function
+`IsFramebufferOES` | 824 | Exported Function
+`IsFramebufferContextANGLE` | 823 | Exported Function
+`IsEnablediOESContextANGLE` | 819 | Exported Function
+`IsEnablediContextANGLE` | 815 | Exported Function
+`IsEnabledi` | 814 | Exported Function
+`IsEnablediEXT` | 816 | Exported Function
+`IsEnablediOES` | 818 | Exported Function
+`IsEnablediEXTContextANGLE` | 817 | Exported Function
+`IsQuery` | 832 | Exported Function
+`IsProgramPipelineContextANGLE` | 831 | Exported Function
+`IsQueryContextANGLE` | 833 | Exported Function
+`IsQueryEXTContextANGLE` | 835 | Exported Function
+`IsQueryEXT` | 834 | Exported Function
+`IsProgramPipeline` | 830 | Exported Function
+`IsMemoryObjectEXT` | 826 | Exported Function
+`IsFramebufferOESContextANGLE` | 825 | Exported Function
+`IsMemoryObjectEXTContextANGLE` | 827 | Exported Function
+`IsProgramContextANGLE` | 829 | Exported Function
+`IsProgram` | 828 | Exported Function
+`IsEnabledContextANGLE` | 813 | Exported Function
+`GetFragDataLocationContextANGLE` | 517 | Exported Function
+`GetFragDataLocation` | 516 | Exported Function
+`GetProgramResourceLocation` | 600 | Exported Function
+`GetProgramResourceLocationIndexEXT` | 602 | Exported Function
+`GetProgramResourceLocationContextANGLE` | 601 | Exported Function
+`GetFragDataIndexEXTContextANGLE` | 515 | Exported Function
 `glWeightPointerOESContextANGLE` | 2930 | Exported Function
 `glWeightPointerOES` | 2929 | Exported Function
-`int __cdecl gl::GetAttribLocation(unsigned int,char const * __ptr64)` | 472 | Exported Function
-`int __cdecl gl::GetFragDataIndexEXT(unsigned int,char const * __ptr64)` | 514 | Exported Function
-`int __cdecl gl::GetAttribLocationContextANGLE(void * __ptr64,unsigned int,char const * __ptr64)` | 473 | Exported Function
-`struct __GLsync * __ptr64 __cdecl gl::FenceSyncContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 377 | Exported Function
-`struct __GLsync * __ptr64 __cdecl gl::FenceSync(unsigned int,unsigned int)` | 376 | Exported Function
-`unsigned char __cdecl gl::IsBuffer(unsigned int)` | 810 | Exported Function
-`unsigned char __cdecl gl::IsEnabled(unsigned int)` | 812 | Exported Function
-`unsigned char __cdecl gl::IsBufferContextANGLE(void * __ptr64,unsigned int)` | 811 | Exported Function
-`public: struct angle::PlatformMethods & __ptr64 __cdecl angle::PlatformMethods::operator=(struct angle::PlatformMethods const & __ptr64) __ptr64` | 3 | Exported Function
-`int __cdecl gl::GetUniformLocation(unsigned int,char const * __ptr64)` | 738 | Exported Function
-`int __cdecl gl::GetProgramResourceLocationIndexEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,char const * __ptr64)` | 603 | Exported Function
-`int __cdecl gl::GetUniformLocationContextANGLE(void * __ptr64,unsigned int,char const * __ptr64)` | 739 | Exported Function
-`public: struct angle::PlatformMethods & __ptr64 __cdecl angle::PlatformMethods::operator=(struct angle::PlatformMethods && __ptr64) __ptr64` | 2 | Exported Function
-`public: __cdecl angle::PlatformMethods::PlatformMethods(void) __ptr64` | 1 | Exported Function
-`void __cdecl gl::CompressedTexImage3D(unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 160 | Exported Function
-`void __cdecl gl::CompressedTexImage2DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 159 | Exported Function
-`void __cdecl gl::CompressedTexImage3DContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 161 | Exported Function
-`void __cdecl gl::CompressedTexImage3DOESContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 163 | Exported Function
-`void __cdecl gl::CompressedTexImage3DOES(unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 162 | Exported Function
-`void __cdecl gl::CompressedTexImage2DRobustANGLE(unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 158 | Exported Function
-`void __cdecl gl::CompressedCopyTextureCHROMIUM(unsigned int,unsigned int)` | 154 | Exported Function
-`void __cdecl gl::CompileShaderContextANGLE(void * __ptr64,unsigned int)` | 153 | Exported Function
-`void __cdecl gl::CompressedCopyTextureCHROMIUMContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 155 | Exported Function
-`void __cdecl gl::CompressedTexImage2DContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,void const * __ptr64)` | 157 | Exported Function
-`void __cdecl gl::CompressedTexImage2D(unsigned int,int,unsigned int,int,int,int,int,void const * __ptr64)` | 156 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,unsigned int,int,void const * __ptr64)` | 171 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3D(unsigned int,int,int,int,int,int,int,int,unsigned int,int,void const * __ptr64)` | 170 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3DOES(unsigned int,int,int,int,int,int,int,int,unsigned int,int,void const * __ptr64)` | 172 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3DRobustANGLE(unsigned int,int,int,int,int,int,int,int,unsigned int,int,int,void const * __ptr64)` | 174 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3DOESContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,unsigned int,int,void const * __ptr64)` | 173 | Exported Function
-`void __cdecl gl::CompressedTexSubImage2DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,int,int,void const * __ptr64)` | 169 | Exported Function
-`void __cdecl gl::CompressedTexImage3DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,int,int,void const * __ptr64)` | 165 | Exported Function
-`void __cdecl gl::CompressedTexImage3DRobustANGLE(unsigned int,int,unsigned int,int,int,int,int,int,int,void const * __ptr64)` | 164 | Exported Function
-`void __cdecl gl::CompressedTexSubImage2D(unsigned int,int,int,int,int,int,unsigned int,int,void const * __ptr64)` | 166 | Exported Function
-`void __cdecl gl::CompressedTexSubImage2DRobustANGLE(unsigned int,int,int,int,int,int,unsigned int,int,int,void const * __ptr64)` | 168 | Exported Function
-`void __cdecl gl::CompressedTexSubImage2DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,int,void const * __ptr64)` | 167 | Exported Function
-`void __cdecl gl::CompileShader(unsigned int)` | 152 | Exported Function
-`void __cdecl gl::Color4fContextANGLE(void * __ptr64,float,float,float,float)` | 137 | Exported Function
-`void __cdecl gl::Color4f(float,float,float,float)` | 136 | Exported Function
-`void __cdecl gl::Color4ub(unsigned char,unsigned char,unsigned char,unsigned char)` | 138 | Exported Function
-`void __cdecl gl::Color4x(int,int,int,int)` | 140 | Exported Function
-`void __cdecl gl::Color4ubContextANGLE(void * __ptr64,unsigned char,unsigned char,unsigned char,unsigned char)` | 139 | Exported Function
-`void __cdecl gl::ClipPlanexContextANGLE(void * __ptr64,unsigned int,int const * __ptr64)` | 135 | Exported Function
-`void __cdecl gl::ClientActiveTextureContextANGLE(void * __ptr64,unsigned int)` | 129 | Exported Function
-`void __cdecl gl::ClientActiveTexture(unsigned int)` | 128 | Exported Function
-`void __cdecl gl::ClipPlanef(unsigned int,float const * __ptr64)` | 132 | Exported Function
-`void __cdecl gl::ClipPlanex(unsigned int,int const * __ptr64)` | 134 | Exported Function
-`void __cdecl gl::ClipPlanefContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 133 | Exported Function
-`void __cdecl gl::ColorMaskiOES(unsigned int,unsigned char,unsigned char,unsigned char,unsigned char)` | 148 | Exported Function
-`void __cdecl gl::ColorMaskiEXTContextANGLE(void * __ptr64,unsigned int,unsigned char,unsigned char,unsigned char,unsigned char)` | 147 | Exported Function
-`void __cdecl gl::ColorMaskiOESContextANGLE(void * __ptr64,unsigned int,unsigned char,unsigned char,unsigned char,unsigned char)` | 149 | Exported Function
-`void __cdecl gl::ColorPointerContextANGLE(void * __ptr64,int,unsigned int,int,void const * __ptr64)` | 151 | Exported Function
-`void __cdecl gl::ColorPointer(int,unsigned int,int,void const * __ptr64)` | 150 | Exported Function
-`void __cdecl gl::ColorMaskiEXT(unsigned int,unsigned char,unsigned char,unsigned char,unsigned char)` | 146 | Exported Function
-`void __cdecl gl::ColorMask(unsigned char,unsigned char,unsigned char,unsigned char)` | 142 | Exported Function
-`void __cdecl gl::Color4xContextANGLE(void * __ptr64,int,int,int,int)` | 141 | Exported Function
-`void __cdecl gl::ColorMaskContextANGLE(void * __ptr64,unsigned char,unsigned char,unsigned char,unsigned char)` | 143 | Exported Function
-`void __cdecl gl::ColorMaskiContextANGLE(void * __ptr64,unsigned int,unsigned char,unsigned char,unsigned char,unsigned char)` | 145 | Exported Function
-`void __cdecl gl::ColorMaski(unsigned int,unsigned char,unsigned char,unsigned char,unsigned char)` | 144 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,unsigned int,int,int,void const * __ptr64)` | 175 | Exported Function
-`void __cdecl gl::DebugMessageCallbackKHR(void (__cdecl*)(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64,void const * __ptr64),void const * __ptr64)` | 212 | Exported Function
-`void __cdecl gl::DebugMessageCallbackContextANGLE(void * __ptr64,void (__cdecl*)(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64,void const * __ptr64),void const * __ptr64)` | 211 | Exported Function
-`void __cdecl gl::DebugMessageCallbackKHRContextANGLE(void * __ptr64,void (__cdecl*)(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64,void const * __ptr64),void const * __ptr64)` | 213 | Exported Function
-`void __cdecl gl::DebugMessageControlContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,unsigned char)` | 215 | Exported Function
-`void __cdecl gl::DebugMessageControl(unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,unsigned char)` | 214 | Exported Function
-`void __cdecl gl::DebugMessageCallback(void (__cdecl*)(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64,void const * __ptr64),void const * __ptr64)` | 210 | Exported Function
-`void __cdecl gl::CullFace(unsigned int)` | 206 | Exported Function
-`void __cdecl gl::CreateMemoryObjectsEXTContextANGLE(void * __ptr64,int,unsigned int * __ptr64)` | 199 | Exported Function
-`void __cdecl gl::CullFaceContextANGLE(void * __ptr64,unsigned int)` | 207 | Exported Function
-`void __cdecl gl::CurrentPaletteMatrixOESContextANGLE(void * __ptr64,unsigned int)` | 209 | Exported Function
-`void __cdecl gl::CurrentPaletteMatrixOES(unsigned int)` | 208 | Exported Function
-`void __cdecl gl::DeleteBuffersContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 223 | Exported Function
-`void __cdecl gl::DeleteBuffers(int,unsigned int const * __ptr64)` | 222 | Exported Function
-`void __cdecl gl::DeleteFencesNV(int,unsigned int const * __ptr64)` | 224 | Exported Function
-`void __cdecl gl::DeleteFramebuffers(int,unsigned int const * __ptr64)` | 226 | Exported Function
-`void __cdecl gl::DeleteFencesNVContextANGLE(void * __ptr64,int,unsigned int const * __ptr64)` | 225 | Exported Function
-`void __cdecl gl::DebugMessageInsertKHRContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64)` | 221 | Exported Function
-`void __cdecl gl::DebugMessageControlKHRContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,unsigned char)` | 217 | Exported Function
-`void __cdecl gl::DebugMessageControlKHR(unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,unsigned char)` | 216 | Exported Function
-`void __cdecl gl::DebugMessageInsert(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64)` | 218 | Exported Function
-`void __cdecl gl::DebugMessageInsertKHR(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64)` | 220 | Exported Function
-`void __cdecl gl::DebugMessageInsertContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64)` | 219 | Exported Function
-`void __cdecl gl::CreateMemoryObjectsEXT(int,unsigned int * __ptr64)` | 198 | Exported Function
-`void __cdecl gl::CopySubTextureCHROMIUMContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,int,int,int,int,int,int,int,unsigned char,unsigned char,unsigned char)` | 183 | Exported Function
-`void __cdecl gl::CopySubTextureCHROMIUM(unsigned int,int,unsigned int,unsigned int,int,int,int,int,int,int,int,unsigned char,unsigned char,unsigned char)` | 182 | Exported Function
-`void __cdecl gl::CopyTexImage2D(unsigned int,int,unsigned int,int,int,int,int,int)` | 184 | Exported Function
-`void __cdecl gl::CopyTexSubImage2D(unsigned int,int,int,int,int,int,int,int)` | 186 | Exported Function
-`void __cdecl gl::CopyTexImage2DContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,int)` | 185 | Exported Function
-`void __cdecl gl::CopySubTexture3DANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,int,int,int,int,int,int,int,int,int,int,unsigned char,unsigned char,unsigned char)` | 181 | Exported Function
-`void __cdecl gl::CopyBufferSubDataContextANGLE(void * __ptr64,unsigned int,unsigned int,__int64,__int64,__int64)` | 177 | Exported Function
-`void __cdecl gl::CopyBufferSubData(unsigned int,unsigned int,__int64,__int64,__int64)` | 176 | Exported Function
-`void __cdecl gl::CopyImageSubData(unsigned int,unsigned int,int,int,int,int,unsigned int,unsigned int,int,int,int,int,int,int,int)` | 178 | Exported Function
-`void __cdecl gl::CopySubTexture3DANGLE(unsigned int,int,unsigned int,unsigned int,int,int,int,int,int,int,int,int,int,int,unsigned char,unsigned char,unsigned char)` | 180 | Exported Function
-`void __cdecl gl::CopyImageSubDataContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int,int,int,unsigned int,unsigned int,int,int,int,int,int,int,int)` | 179 | Exported Function
-`void __cdecl gl::CopyTextureCHROMIUM(unsigned int,int,unsigned int,unsigned int,int,int,unsigned int,unsigned char,unsigned char,unsigned char)` | 194 | Exported Function
-`void __cdecl gl::CopyTexture3DANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,int,int,unsigned int,unsigned char,unsigned char,unsigned char)` | 193 | Exported Function
-`void __cdecl gl::CopyTextureCHROMIUMContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,int,int,unsigned int,unsigned char,unsigned char,unsigned char)` | 195 | Exported Function
-`void __cdecl gl::CoverageModulationCHROMIUMContextANGLE(void * __ptr64,unsigned int)` | 197 | Exported Function
-`void __cdecl gl::CoverageModulationCHROMIUM(unsigned int)` | 196 | Exported Function
-`void __cdecl gl::CopyTexture3DANGLE(unsigned int,int,unsigned int,unsigned int,int,int,unsigned int,unsigned char,unsigned char,unsigned char)` | 192 | Exported Function
-`void __cdecl gl::CopyTexSubImage3D(unsigned int,int,int,int,int,int,int,int,int)` | 188 | Exported Function
-`void __cdecl gl::CopyTexSubImage2DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int)` | 187 | Exported Function
-`void __cdecl gl::CopyTexSubImage3DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,int)` | 189 | Exported Function
-`void __cdecl gl::CopyTexSubImage3DOESContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,int)` | 191 | Exported Function
-`void __cdecl gl::CopyTexSubImage3DOES(unsigned int,int,int,int,int,int,int,int,int)` | 190 | Exported Function
-`void __cdecl gl::ClearStencilContextANGLE(void * __ptr64,int)` | 127 | Exported Function
-`void __cdecl gl::BlendEquation(unsigned int)` | 62 | Exported Function
-`void __cdecl gl::BlendColorContextANGLE(void * __ptr64,float,float,float,float)` | 61 | Exported Function
-`void __cdecl gl::BlendEquationContextANGLE(void * __ptr64,unsigned int)` | 63 | Exported Function
-`void __cdecl gl::BlendEquationiContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 73 | Exported Function
-`void __cdecl gl::BlendEquationi(unsigned int,unsigned int)` | 72 | Exported Function
-`void __cdecl gl::BlendColor(float,float,float,float)` | 60 | Exported Function
-`void __cdecl gl::BindVertexBuffer(unsigned int,unsigned int,__int64,int)` | 56 | Exported Function
-`void __cdecl gl::BindVertexArrayOESContextANGLE(void * __ptr64,unsigned int)` | 55 | Exported Function
-`void __cdecl gl::BindVertexBufferContextANGLE(void * __ptr64,unsigned int,unsigned int,__int64,int)` | 57 | Exported Function
-`void __cdecl gl::BlendBarrierContextANGLE(void * __ptr64)` | 59 | Exported Function
-`void __cdecl gl::BlendBarrier(void)` | 58 | Exported Function
-`void __cdecl gl::BlendEquationSeparateiContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 67 | Exported Function
-`void __cdecl gl::BlendEquationSeparatei(unsigned int,unsigned int,unsigned int)` | 66 | Exported Function
-`void __cdecl gl::BlendEquationSeparateiEXT(unsigned int,unsigned int,unsigned int)` | 68 | Exported Function
-`void __cdecl gl::BlendEquationSeparateiOES(unsigned int,unsigned int,unsigned int)` | 70 | Exported Function
-`void __cdecl gl::BlendEquationSeparateiEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 69 | Exported Function
-`void __cdecl gl::BlendEquationSeparateContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 65 | Exported Function
-`void __cdecl gl::BlendEquationiEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 75 | Exported Function
-`void __cdecl gl::BlendEquationiEXT(unsigned int,unsigned int)` | 74 | Exported Function
-`void __cdecl gl::BlendEquationiOES(unsigned int,unsigned int)` | 76 | Exported Function
-`void __cdecl gl::BlendEquationSeparate(unsigned int,unsigned int)` | 64 | Exported Function
-`void __cdecl gl::BlendEquationiOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 77 | Exported Function
-`void __cdecl gl::BindVertexArrayOES(unsigned int)` | 54 | Exported Function
-`void __cdecl gl::BindProgramPipelineContextANGLE(void * __ptr64,unsigned int)` | 39 | Exported Function
-`void __cdecl gl::BindProgramPipeline(unsigned int)` | 38 | Exported Function
-`void __cdecl gl::BindRenderbuffer(unsigned int,unsigned int)` | 40 | Exported Function
-`void __cdecl gl::BindRenderbufferOES(unsigned int,unsigned int)` | 42 | Exported Function
-`void __cdecl gl::BindRenderbufferContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 41 | Exported Function
-`void __cdecl gl::BindImageTextureContextANGLE(void * __ptr64,unsigned int,unsigned int,int,unsigned char,int,unsigned int,unsigned int)` | 37 | Exported Function
-`void __cdecl gl::BindFramebufferContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 33 | Exported Function
-`void __cdecl gl::BindFramebuffer(unsigned int,unsigned int)` | 32 | Exported Function
-`void __cdecl gl::BindFramebufferOES(unsigned int,unsigned int)` | 34 | Exported Function
-`void __cdecl gl::BindImageTexture(unsigned int,unsigned int,int,unsigned char,int,unsigned int,unsigned int)` | 36 | Exported Function
-`void __cdecl gl::BindFramebufferOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 35 | Exported Function
-`void __cdecl gl::BindUniformLocationCHROMIUM(unsigned int,int,char const * __ptr64)` | 50 | Exported Function
-`void __cdecl gl::BindTransformFeedbackContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 49 | Exported Function
-`void __cdecl gl::BindUniformLocationCHROMIUMContextANGLE(void * __ptr64,unsigned int,int,char const * __ptr64)` | 51 | Exported Function
-`void __cdecl gl::BindVertexArrayContextANGLE(void * __ptr64,unsigned int)` | 53 | Exported Function
-`void __cdecl gl::BindVertexArray(unsigned int)` | 52 | Exported Function
-`void __cdecl gl::BindTransformFeedback(unsigned int,unsigned int)` | 48 | Exported Function
-`void __cdecl gl::BindSampler(unsigned int,unsigned int)` | 44 | Exported Function
-`void __cdecl gl::BindRenderbufferOESContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 43 | Exported Function
-`void __cdecl gl::BindSamplerContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 45 | Exported Function
-`void __cdecl gl::BindTextureContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 47 | Exported Function
-`void __cdecl gl::BindTexture(unsigned int,unsigned int)` | 46 | Exported Function
-`void __cdecl gl::BlendEquationSeparateiOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 71 | Exported Function
-`void __cdecl gl::ClearBufferfvContextANGLE(void * __ptr64,unsigned int,int,float const * __ptr64)` | 112 | Exported Function
-`void __cdecl gl::ClearBufferfv(unsigned int,int,float const * __ptr64)` | 111 | Exported Function
-`void __cdecl gl::ClearBufferiv(unsigned int,int,int const * __ptr64)` | 113 | Exported Function
-`void __cdecl gl::ClearBufferuiv(unsigned int,int,unsigned int const * __ptr64)` | 115 | Exported Function
-`void __cdecl gl::ClearBufferivContextANGLE(void * __ptr64,unsigned int,int,int const * __ptr64)` | 114 | Exported Function
-`void __cdecl gl::ClearBufferfiContextANGLE(void * __ptr64,unsigned int,int,float,int)` | 110 | Exported Function
-`void __cdecl gl::BufferSubData(unsigned int,__int64,__int64,void const * __ptr64)` | 102 | Exported Function
-`void __cdecl gl::BufferStorageMemEXTContextANGLE(void * __ptr64,unsigned int,__int64,unsigned int,unsigned __int64)` | 101 | Exported Function
-`void __cdecl gl::BufferSubDataContextANGLE(void * __ptr64,unsigned int,__int64,__int64,void const * __ptr64)` | 103 | Exported Function
-`void __cdecl gl::ClearBufferfi(unsigned int,int,float,int)` | 109 | Exported Function
-`void __cdecl gl::Clear(unsigned int)` | 108 | Exported Function
-`void __cdecl gl::ClearDepthfContextANGLE(void * __ptr64,float)` | 123 | Exported Function
-`void __cdecl gl::ClearDepthf(float)` | 122 | Exported Function
-`void __cdecl gl::ClearDepthx(int)` | 124 | Exported Function
-`void __cdecl gl::ClearStencil(int)` | 126 | Exported Function
-`void __cdecl gl::ClearDepthxContextANGLE(void * __ptr64,int)` | 125 | Exported Function
-`void __cdecl gl::ClearContextANGLE(void * __ptr64,unsigned int)` | 121 | Exported Function
-`void __cdecl gl::ClearColor(float,float,float,float)` | 117 | Exported Function
-`void __cdecl gl::ClearBufferuivContextANGLE(void * __ptr64,unsigned int,int,unsigned int const * __ptr64)` | 116 | Exported Function
-`void __cdecl gl::ClearColorContextANGLE(void * __ptr64,float,float,float,float)` | 118 | Exported Function
-`void __cdecl gl::ClearColorxContextANGLE(void * __ptr64,int,int,int,int)` | 120 | Exported Function
-`void __cdecl gl::ClearColorx(int,int,int,int)` | 119 | Exported Function
-`void __cdecl gl::BufferStorageMemEXT(unsigned int,__int64,unsigned int,unsigned __int64)` | 100 | Exported Function
-`void __cdecl gl::BlendFunciOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 93 | Exported Function
-`void __cdecl gl::BlendFunciOES(unsigned int,unsigned int,unsigned int)` | 92 | Exported Function
-`void __cdecl gl::BlendFuncSeparate(unsigned int,unsigned int,unsigned int,unsigned int)` | 80 | Exported Function
-`void __cdecl gl::BlendFuncSeparatei(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 82 | Exported Function
-`void __cdecl gl::BlendFuncSeparateContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int)` | 81 | Exported Function
-`void __cdecl gl::BlendFunciEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 91 | Exported Function
-`void __cdecl gl::BlendFuncContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 79 | Exported Function
-`void __cdecl gl::BlendFunc(unsigned int,unsigned int)` | 78 | Exported Function
-`void __cdecl gl::BlendFunci(unsigned int,unsigned int,unsigned int)` | 88 | Exported Function
-`void __cdecl gl::BlendFunciEXT(unsigned int,unsigned int,unsigned int)` | 90 | Exported Function
-`void __cdecl gl::BlendFunciContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 89 | Exported Function
-`void __cdecl gl::BlitFramebufferANGLEContextANGLE(void * __ptr64,int,int,int,int,int,int,int,int,unsigned int,unsigned int)` | 96 | Exported Function
-`void __cdecl gl::BlitFramebufferANGLE(int,int,int,int,int,int,int,int,unsigned int,unsigned int)` | 95 | Exported Function
-`void __cdecl gl::BlitFramebufferContextANGLE(void * __ptr64,int,int,int,int,int,int,int,int,unsigned int,unsigned int)` | 97 | Exported Function
-`void __cdecl gl::BufferDataContextANGLE(void * __ptr64,unsigned int,__int64,void const * __ptr64,unsigned int)` | 99 | Exported Function
-`void __cdecl gl::BufferData(unsigned int,__int64,void const * __ptr64,unsigned int)` | 98 | Exported Function
-`void __cdecl gl::BlitFramebuffer(int,int,int,int,int,int,int,int,unsigned int,unsigned int)` | 94 | Exported Function
-`void __cdecl gl::BlendFuncSeparateiEXT(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 84 | Exported Function
-`void __cdecl gl::BlendFuncSeparateiContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 83 | Exported Function
-`void __cdecl gl::BlendFuncSeparateiEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 85 | Exported Function
-`void __cdecl gl::BlendFuncSeparateiOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 87 | Exported Function
-`void __cdecl gl::BlendFuncSeparateiOES(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 86 | Exported Function
-`void __cdecl gl::GetProgramivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 609 | Exported Function
-`void __cdecl gl::StencilOp(unsigned int,unsigned int,unsigned int)` | 1168 | Exported Function
-`void __cdecl gl::StencilMaskSeparateContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1167 | Exported Function
-`void __cdecl gl::StencilOpContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 1169 | Exported Function
-`void __cdecl gl::StencilOpSeparateContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int)` | 1171 | Exported Function
-`void __cdecl gl::StencilOpSeparate(unsigned int,unsigned int,unsigned int,unsigned int)` | 1170 | Exported Function
-`void __cdecl gl::StencilMaskSeparate(unsigned int,unsigned int)` | 1166 | Exported Function
-`void __cdecl gl::StencilFuncSeparate(unsigned int,unsigned int,int,unsigned int)` | 1162 | Exported Function
-`void __cdecl gl::StencilFuncContextANGLE(void * __ptr64,unsigned int,int,unsigned int)` | 1161 | Exported Function
-`void __cdecl gl::StencilFuncSeparateContextANGLE(void * __ptr64,unsigned int,unsigned int,int,unsigned int)` | 1163 | Exported Function
-`void __cdecl gl::StencilMaskContextANGLE(void * __ptr64,unsigned int)` | 1165 | Exported Function
-`void __cdecl gl::StencilMask(unsigned int)` | 1164 | Exported Function
-`void __cdecl gl::TexEnvfContextANGLE(void * __ptr64,unsigned int,unsigned int,float)` | 1181 | Exported Function
-`void __cdecl gl::TexEnvf(unsigned int,unsigned int,float)` | 1180 | Exported Function
-`void __cdecl gl::TexEnvfv(unsigned int,unsigned int,float const * __ptr64)` | 1182 | Exported Function
-`void __cdecl gl::TexEnvi(unsigned int,unsigned int,int)` | 1184 | Exported Function
-`void __cdecl gl::TexEnvfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float const * __ptr64)` | 1183 | Exported Function
-`void __cdecl gl::TexCoordPointerContextANGLE(void * __ptr64,int,unsigned int,int,void const * __ptr64)` | 1179 | Exported Function
-`void __cdecl gl::TexBufferContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 1175 | Exported Function
-`void __cdecl gl::TexBuffer(unsigned int,unsigned int,unsigned int)` | 1174 | Exported Function
-`void __cdecl gl::TexBufferRange(unsigned int,unsigned int,unsigned int,__int64,__int64)` | 1176 | Exported Function
-`void __cdecl gl::TexCoordPointer(int,unsigned int,int,void const * __ptr64)` | 1178 | Exported Function
-`void __cdecl gl::TexBufferRangeContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,__int64,__int64)` | 1177 | Exported Function
-`void __cdecl gl::StencilFunc(unsigned int,int,unsigned int)` | 1160 | Exported Function
-`void __cdecl gl::ScalexContextANGLE(void * __ptr64,int,int,int)` | 1145 | Exported Function
-`void __cdecl gl::Scalex(int,int,int)` | 1144 | Exported Function
-`void __cdecl gl::Scissor(int,int,int,int)` | 1146 | Exported Function
-`void __cdecl gl::SemaphoreParameterui64vEXT(unsigned int,unsigned int,unsigned __int64 const * __ptr64)` | 1148 | Exported Function
-`void __cdecl gl::ScissorContextANGLE(void * __ptr64,int,int,int,int)` | 1147 | Exported Function
-`void __cdecl gl::ScalefContextANGLE(void * __ptr64,float,float,float)` | 1143 | Exported Function
-`void __cdecl gl::SamplerParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1139 | Exported Function
-`void __cdecl gl::SamplerParameteriv(unsigned int,unsigned int,int const * __ptr64)` | 1138 | Exported Function
-`void __cdecl gl::SamplerParameterivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 1140 | Exported Function
-`void __cdecl gl::Scalef(float,float,float)` | 1142 | Exported Function
-`void __cdecl gl::SamplerParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int const * __ptr64)` | 1141 | Exported Function
-`void __cdecl gl::ShaderSource(unsigned int,int,char const * __ptr64 const * __ptr64,int const * __ptr64)` | 1156 | Exported Function
-`void __cdecl gl::ShaderBinaryContextANGLE(void * __ptr64,int,unsigned int const * __ptr64,unsigned int,void const * __ptr64,int)` | 1155 | Exported Function
-`void __cdecl gl::ShaderSourceContextANGLE(void * __ptr64,unsigned int,int,char const * __ptr64 const * __ptr64,int const * __ptr64)` | 1157 | Exported Function
-`void __cdecl gl::SignalSemaphoreEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int const * __ptr64,unsigned int,unsigned int const * __ptr64,unsigned int const * __ptr64)` | 1159 | Exported Function
-`void __cdecl gl::SignalSemaphoreEXT(unsigned int,unsigned int,unsigned int const * __ptr64,unsigned int,unsigned int const * __ptr64,unsigned int const * __ptr64)` | 1158 | Exported Function
-`void __cdecl gl::ShaderBinary(int,unsigned int const * __ptr64,unsigned int,void const * __ptr64,int)` | 1154 | Exported Function
-`void __cdecl gl::SetFenceNV(unsigned int,unsigned int)` | 1150 | Exported Function
-`void __cdecl gl::SemaphoreParameterui64vEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned __int64 const * __ptr64)` | 1149 | Exported Function
-`void __cdecl gl::SetFenceNVContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1151 | Exported Function
-`void __cdecl gl::ShadeModelContextANGLE(void * __ptr64,unsigned int)` | 1153 | Exported Function
-`void __cdecl gl::ShadeModel(unsigned int)` | 1152 | Exported Function
-`void __cdecl gl::TexEnviContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1185 | Exported Function
-`void __cdecl gl::TexParameterf(unsigned int,unsigned int,float)` | 1228 | Exported Function
-`void __cdecl gl::TexImage3DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1215 | Exported Function
-`void __cdecl gl::TexParameterfContextANGLE(void * __ptr64,unsigned int,unsigned int,float)` | 1229 | Exported Function
-`void __cdecl gl::TexParameterfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float const * __ptr64)` | 1231 | Exported Function
-`void __cdecl gl::TexParameterfv(unsigned int,unsigned int,float const * __ptr64)` | 1230 | Exported Function
-`void __cdecl gl::TexImage3DRobustANGLE(unsigned int,int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1214 | Exported Function
-`void __cdecl gl::TexImage3D(unsigned int,int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1210 | Exported Function
-`void __cdecl gl::TexImage2DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1209 | Exported Function
-`void __cdecl gl::TexImage3DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1211 | Exported Function
-`void __cdecl gl::TexImage3DOESContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1213 | Exported Function
-`void __cdecl gl::TexImage3DOES(unsigned int,int,unsigned int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1212 | Exported Function
-`void __cdecl gl::TexParameterIivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1219 | Exported Function
-`void __cdecl gl::TexParameterIivOES(unsigned int,unsigned int,int const * __ptr64)` | 1218 | Exported Function
-`void __cdecl gl::TexParameterIivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 1220 | Exported Function
-`void __cdecl gl::TexParameterIuiv(unsigned int,unsigned int,unsigned int const * __ptr64)` | 1222 | Exported Function
-`void __cdecl gl::TexParameterIivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int const * __ptr64)` | 1221 | Exported Function
-`void __cdecl gl::TexParameterIivContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1217 | Exported Function
-`void __cdecl gl::TexParameterfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,float const * __ptr64)` | 1233 | Exported Function
-`void __cdecl gl::TexParameterfvRobustANGLE(unsigned int,unsigned int,int,float const * __ptr64)` | 1232 | Exported Function
-`void __cdecl gl::TexParameteri(unsigned int,unsigned int,int)` | 1234 | Exported Function
-`void __cdecl gl::TexParameterIiv(unsigned int,unsigned int,int const * __ptr64)` | 1216 | Exported Function
-`void __cdecl gl::TexParameteriContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1235 | Exported Function
-`void __cdecl gl::TexImage2DRobustANGLE(unsigned int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1208 | Exported Function
-`void __cdecl gl::TexGenfOESContextANGLE(void * __ptr64,unsigned int,unsigned int,float)` | 1193 | Exported Function
-`void __cdecl gl::TexGenfOES(unsigned int,unsigned int,float)` | 1192 | Exported Function
-`void __cdecl gl::TexGenfvOES(unsigned int,unsigned int,float const * __ptr64)` | 1194 | Exported Function
-`void __cdecl gl::TexGeniOES(unsigned int,unsigned int,int)` | 1196 | Exported Function
-`void __cdecl gl::TexGenfvOESContextANGLE(void * __ptr64,unsigned int,unsigned int,float const * __ptr64)` | 1195 | Exported Function
-`void __cdecl gl::TexEnvxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1191 | Exported Function
-`void __cdecl gl::TexEnvivContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1187 | Exported Function
-`void __cdecl gl::TexEnviv(unsigned int,unsigned int,int const * __ptr64)` | 1186 | Exported Function
-`void __cdecl gl::TexEnvx(unsigned int,unsigned int,int)` | 1188 | Exported Function
-`void __cdecl gl::TexEnvxv(unsigned int,unsigned int,int const * __ptr64)` | 1190 | Exported Function
-`void __cdecl gl::TexEnvxContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1189 | Exported Function
-`void __cdecl gl::TexImage2D(unsigned int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1204 | Exported Function
-`void __cdecl gl::TexGenxvOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1203 | Exported Function
-`void __cdecl gl::TexImage2DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1205 | Exported Function
-`void __cdecl gl::TexImage2DExternalANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,unsigned int)` | 1207 | Exported Function
-`void __cdecl gl::TexImage2DExternalANGLE(unsigned int,int,int,int,int,int,unsigned int,unsigned int)` | 1206 | Exported Function
-`void __cdecl gl::TexGenxvOES(unsigned int,unsigned int,int const * __ptr64)` | 1202 | Exported Function
-`void __cdecl gl::TexGenivOES(unsigned int,unsigned int,int const * __ptr64)` | 1198 | Exported Function
-`void __cdecl gl::TexGeniOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1197 | Exported Function
-`void __cdecl gl::TexGenivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1199 | Exported Function
-`void __cdecl gl::TexGenxOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1201 | Exported Function
-`void __cdecl gl::TexGenxOES(unsigned int,unsigned int,int)` | 1200 | Exported Function
-`void __cdecl gl::SamplerParameterIuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,unsigned int const * __ptr64)` | 1129 | Exported Function
-`void __cdecl gl::QueryCounterEXT(unsigned int,unsigned int)` | 1074 | Exported Function
-`void __cdecl gl::PushMatrixContextANGLE(void * __ptr64)` | 1073 | Exported Function
-`void __cdecl gl::QueryCounterEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1075 | Exported Function
-`void __cdecl gl::ReadBufferContextANGLE(void * __ptr64,unsigned int)` | 1079 | Exported Function
-`void __cdecl gl::ReadBuffer(unsigned int)` | 1078 | Exported Function
-`void __cdecl gl::PushMatrix(void)` | 1072 | Exported Function
-`void __cdecl gl::PushDebugGroupKHR(unsigned int,unsigned int,int,char const * __ptr64)` | 1068 | Exported Function
-`void __cdecl gl::PushDebugGroupContextANGLE(void * __ptr64,unsigned int,unsigned int,int,char const * __ptr64)` | 1067 | Exported Function
-`void __cdecl gl::PushDebugGroupKHRContextANGLE(void * __ptr64,unsigned int,unsigned int,int,char const * __ptr64)` | 1069 | Exported Function
-`void __cdecl gl::PushGroupMarkerEXTContextANGLE(void * __ptr64,int,char const * __ptr64)` | 1071 | Exported Function
-`void __cdecl gl::PushGroupMarkerEXT(int,char const * __ptr64)` | 1070 | Exported Function
-`void __cdecl gl::ReadPixelsContextANGLE(void * __ptr64,int,int,int,int,unsigned int,unsigned int,void * __ptr64)` | 1081 | Exported Function
-`void __cdecl gl::ReadPixels(int,int,int,int,unsigned int,unsigned int,void * __ptr64)` | 1080 | Exported Function
-`void __cdecl gl::ReadPixelsRobustANGLE(int,int,int,int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,int * __ptr64,void * __ptr64)` | 1082 | Exported Function
-`void __cdecl gl::ReleaseShaderCompiler(void)` | 1090 | Exported Function
-`void __cdecl gl::ReadPixelsRobustANGLEContextANGLE(void * __ptr64,int,int,int,int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,int * __ptr64,void * __ptr64)` | 1083 | Exported Function
-`void __cdecl gl::ReadnPixelsRobustANGLEContextANGLE(void * __ptr64,int,int,int,int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,int * __ptr64,void * __ptr64)` | 1089 | Exported Function
-`void __cdecl gl::ReadnPixelsContextANGLE(void * __ptr64,int,int,int,int,unsigned int,unsigned int,int,void * __ptr64)` | 1085 | Exported Function
-`void __cdecl gl::ReadnPixels(int,int,int,int,unsigned int,unsigned int,int,void * __ptr64)` | 1084 | Exported Function
-`void __cdecl gl::ReadnPixelsEXT(int,int,int,int,unsigned int,unsigned int,int,void * __ptr64)` | 1086 | Exported Function
-`void __cdecl gl::ReadnPixelsRobustANGLE(int,int,int,int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,int * __ptr64,void * __ptr64)` | 1088 | Exported Function
-`void __cdecl gl::ReadnPixelsEXTContextANGLE(void * __ptr64,int,int,int,int,unsigned int,unsigned int,int,void * __ptr64)` | 1087 | Exported Function
-`void __cdecl gl::PushDebugGroup(unsigned int,unsigned int,int,char const * __ptr64)` | 1066 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix2x4fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1051 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix2x4fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1050 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix3fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1052 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix3x2fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1054 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix3fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1053 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix2x3fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1049 | Exported Function
-`void __cdecl gl::ProgramUniform4uivContextANGLE(void * __ptr64,unsigned int,int,int,unsigned int const * __ptr64)` | 1045 | Exported Function
-`void __cdecl gl::ProgramUniform4uiv(unsigned int,int,int,unsigned int const * __ptr64)` | 1044 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix2fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1046 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix2x3fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1048 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix2fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1047 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix4x3fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1062 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix4x2fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1061 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix4x3fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1063 | Exported Function
-`void __cdecl gl::ProvokingVertexANGLEContextANGLE(void * __ptr64,unsigned int)` | 1065 | Exported Function
-`void __cdecl gl::ProvokingVertexANGLE(unsigned int)` | 1064 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix4x2fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1060 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix3x4fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1056 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix3x2fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1055 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix3x4fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1057 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix4fvContextANGLE(void * __ptr64,unsigned int,int,int,unsigned char,float const * __ptr64)` | 1059 | Exported Function
-`void __cdecl gl::ProgramUniformMatrix4fv(unsigned int,int,int,unsigned char,float const * __ptr64)` | 1058 | Exported Function
-`void __cdecl gl::ReleaseShaderCompilerContextANGLE(void * __ptr64)` | 1091 | Exported Function
-`void __cdecl gl::SamplerParameterfvRobustANGLE(unsigned int,unsigned int,int,float const * __ptr64)` | 1134 | Exported Function
-`void __cdecl gl::SamplerParameterfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float const * __ptr64)` | 1133 | Exported Function
-`void __cdecl gl::SamplerParameterfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,float const * __ptr64)` | 1135 | Exported Function
-`void __cdecl gl::SamplerParameteriContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1137 | Exported Function
-`void __cdecl gl::SamplerParameteri(unsigned int,unsigned int,int)` | 1136 | Exported Function
-`void __cdecl gl::SamplerParameterfv(unsigned int,unsigned int,float const * __ptr64)` | 1132 | Exported Function
-`void __cdecl gl::SampleMaskiANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1116 | Exported Function
-`void __cdecl gl::SampleMaskiANGLE(unsigned int,unsigned int)` | 1115 | Exported Function
-`void __cdecl gl::SampleMaskiContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1117 | Exported Function
-`void __cdecl gl::SamplerParameterfContextANGLE(void * __ptr64,unsigned int,unsigned int,float)` | 1131 | Exported Function
-`void __cdecl gl::SamplerParameterf(unsigned int,unsigned int,float)` | 1130 | Exported Function
-`void __cdecl gl::SamplerParameterIuivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int const * __ptr64)` | 1125 | Exported Function
-`void __cdecl gl::SamplerParameterIuiv(unsigned int,unsigned int,unsigned int const * __ptr64)` | 1124 | Exported Function
-`void __cdecl gl::SamplerParameterIuivOES(unsigned int,unsigned int,unsigned int const * __ptr64)` | 1126 | Exported Function
-`void __cdecl gl::SamplerParameterIuivRobustANGLE(unsigned int,unsigned int,int,unsigned int const * __ptr64)` | 1128 | Exported Function
-`void __cdecl gl::SamplerParameterIuivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int const * __ptr64)` | 1127 | Exported Function
-`void __cdecl gl::SamplerParameterIivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int const * __ptr64)` | 1123 | Exported Function
-`void __cdecl gl::SamplerParameterIivContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1119 | Exported Function
-`void __cdecl gl::SamplerParameterIiv(unsigned int,unsigned int,int const * __ptr64)` | 1118 | Exported Function
-`void __cdecl gl::SamplerParameterIivOES(unsigned int,unsigned int,int const * __ptr64)` | 1120 | Exported Function
-`void __cdecl gl::SamplerParameterIivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 1122 | Exported Function
-`void __cdecl gl::SamplerParameterIivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1121 | Exported Function
-`void __cdecl gl::SampleMaski(unsigned int,unsigned int)` | 1114 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisampleEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int)` | 1099 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisampleEXT(unsigned int,int,unsigned int,int,int)` | 1098 | Exported Function
-`void __cdecl gl::RenderbufferStorageOES(unsigned int,unsigned int,int,int)` | 1100 | Exported Function
-`void __cdecl gl::RequestExtensionANGLE(char const * __ptr64)` | 1102 | Exported Function
-`void __cdecl gl::RenderbufferStorageOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int)` | 1101 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisampleContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int)` | 1097 | Exported Function
-`void __cdecl gl::RenderbufferStorageContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int)` | 1093 | Exported Function
-`void __cdecl gl::RenderbufferStorage(unsigned int,unsigned int,int,int)` | 1092 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisample(unsigned int,int,unsigned int,int,int)` | 1094 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisampleANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int)` | 1096 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisampleANGLE(unsigned int,int,unsigned int,int,int)` | 1095 | Exported Function
-`void __cdecl gl::SampleCoverage(float,unsigned char)` | 1110 | Exported Function
-`void __cdecl gl::RotatexContextANGLE(void * __ptr64,int,int,int,int)` | 1109 | Exported Function
-`void __cdecl gl::SampleCoverageContextANGLE(void * __ptr64,float,unsigned char)` | 1111 | Exported Function
-`void __cdecl gl::SampleCoveragexContextANGLE(void * __ptr64,int,unsigned char)` | 1113 | Exported Function
-`void __cdecl gl::SampleCoveragex(int,unsigned char)` | 1112 | Exported Function
-`void __cdecl gl::Rotatex(int,int,int,int)` | 1108 | Exported Function
-`void __cdecl gl::ResumeTransformFeedback(void)` | 1104 | Exported Function
-`void __cdecl gl::RequestExtensionANGLEContextANGLE(void * __ptr64,char const * __ptr64)` | 1103 | Exported Function
-`void __cdecl gl::ResumeTransformFeedbackContextANGLE(void * __ptr64)` | 1105 | Exported Function
-`void __cdecl gl::RotatefContextANGLE(void * __ptr64,float,float,float,float)` | 1107 | Exported Function
-`void __cdecl gl::Rotatef(float,float,float,float)` | 1106 | Exported Function
-`void __cdecl gl::UniformMatrix4x3fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1353 | Exported Function
-`void __cdecl gl::UniformMatrix4x3fv(int,int,unsigned char,float const * __ptr64)` | 1352 | Exported Function
-`void __cdecl gl::UseProgram(unsigned int)` | 1358 | Exported Function
-`void __cdecl gl::UseProgramStages(unsigned int,unsigned int,unsigned int)` | 1360 | Exported Function
-`void __cdecl gl::UseProgramContextANGLE(void * __ptr64,unsigned int)` | 1359 | Exported Function
-`void __cdecl gl::UniformMatrix4x2fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1351 | Exported Function
-`void __cdecl gl::UniformMatrix3x4fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1347 | Exported Function
-`void __cdecl gl::UniformMatrix3x4fv(int,int,unsigned char,float const * __ptr64)` | 1346 | Exported Function
-`void __cdecl gl::UniformMatrix4fv(int,int,unsigned char,float const * __ptr64)` | 1348 | Exported Function
-`void __cdecl gl::UniformMatrix4x2fv(int,int,unsigned char,float const * __ptr64)` | 1350 | Exported Function
-`void __cdecl gl::UniformMatrix4fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1349 | Exported Function
-`void __cdecl gl::VertexAttrib1fv(unsigned int,float const * __ptr64)` | 1368 | Exported Function
-`void __cdecl gl::VertexAttrib1fContextANGLE(void * __ptr64,unsigned int,float)` | 1367 | Exported Function
-`void __cdecl gl::VertexAttrib1fvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 1369 | Exported Function
-`void __cdecl gl::VertexAttrib2fContextANGLE(void * __ptr64,unsigned int,float,float)` | 1371 | Exported Function
-`void __cdecl gl::VertexAttrib2f(unsigned int,float,float)` | 1370 | Exported Function
-`void __cdecl gl::VertexAttrib1f(unsigned int,float)` | 1366 | Exported Function
-`void __cdecl gl::ValidateProgram(unsigned int)` | 1362 | Exported Function
-`void __cdecl gl::UseProgramStagesContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 1361 | Exported Function
-`void __cdecl gl::ValidateProgramContextANGLE(void * __ptr64,unsigned int)` | 1363 | Exported Function
-`void __cdecl gl::ValidateProgramPipelineContextANGLE(void * __ptr64,unsigned int)` | 1365 | Exported Function
-`void __cdecl gl::ValidateProgramPipeline(unsigned int)` | 1364 | Exported Function
-`void __cdecl gl::UniformMatrix3x2fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1345 | Exported Function
-`void __cdecl gl::Uniform4ui(int,unsigned int,unsigned int,unsigned int,unsigned int)` | 1330 | Exported Function
-`void __cdecl gl::Uniform4ivContextANGLE(void * __ptr64,int,int,int const * __ptr64)` | 1329 | Exported Function
-`void __cdecl gl::Uniform4uiContextANGLE(void * __ptr64,int,unsigned int,unsigned int,unsigned int,unsigned int)` | 1331 | Exported Function
-`void __cdecl gl::Uniform4uivContextANGLE(void * __ptr64,int,int,unsigned int const * __ptr64)` | 1333 | Exported Function
-`void __cdecl gl::Uniform4uiv(int,int,unsigned int const * __ptr64)` | 1332 | Exported Function
-`void __cdecl gl::Uniform4iv(int,int,int const * __ptr64)` | 1328 | Exported Function
-`void __cdecl gl::Uniform4fv(int,int,float const * __ptr64)` | 1324 | Exported Function
-`void __cdecl gl::Uniform4fContextANGLE(void * __ptr64,int,float,float,float,float)` | 1323 | Exported Function
-`void __cdecl gl::Uniform4fvContextANGLE(void * __ptr64,int,int,float const * __ptr64)` | 1325 | Exported Function
-`void __cdecl gl::Uniform4iContextANGLE(void * __ptr64,int,int,int,int,int)` | 1327 | Exported Function
-`void __cdecl gl::Uniform4i(int,int,int,int,int)` | 1326 | Exported Function
-`void __cdecl gl::UniformMatrix2x4fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1341 | Exported Function
-`void __cdecl gl::UniformMatrix2x4fv(int,int,unsigned char,float const * __ptr64)` | 1340 | Exported Function
-`void __cdecl gl::UniformMatrix3fv(int,int,unsigned char,float const * __ptr64)` | 1342 | Exported Function
-`void __cdecl gl::UniformMatrix3x2fv(int,int,unsigned char,float const * __ptr64)` | 1344 | Exported Function
-`void __cdecl gl::UniformMatrix3fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1343 | Exported Function
-`void __cdecl gl::UniformMatrix2x3fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1339 | Exported Function
-`void __cdecl gl::UniformBlockBindingContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 1335 | Exported Function
-`void __cdecl gl::UniformBlockBinding(unsigned int,unsigned int,unsigned int)` | 1334 | Exported Function
-`void __cdecl gl::UniformMatrix2fv(int,int,unsigned char,float const * __ptr64)` | 1336 | Exported Function
-`void __cdecl gl::UniformMatrix2x3fv(int,int,unsigned char,float const * __ptr64)` | 1338 | Exported Function
-`void __cdecl gl::UniformMatrix2fvContextANGLE(void * __ptr64,int,int,unsigned char,float const * __ptr64)` | 1337 | Exported Function
-`void __cdecl gl::VertexAttrib2fv(unsigned int,float const * __ptr64)` | 1372 | Exported Function
-`void __cdecl gl::VertexAttribIPointerContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,void const * __ptr64)` | 1403 | Exported Function
-`void __cdecl gl::VertexAttribIPointer(unsigned int,int,unsigned int,int,void const * __ptr64)` | 1402 | Exported Function
-`void __cdecl gl::VertexAttribPointer(unsigned int,int,unsigned int,unsigned char,int,void const * __ptr64)` | 1404 | Exported Function
-`void __cdecl gl::VertexBindingDivisor(unsigned int,unsigned int)` | 1406 | Exported Function
-`void __cdecl gl::VertexAttribPointerContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned char,int,void const * __ptr64)` | 1405 | Exported Function
-`void __cdecl gl::VertexAttribIFormatContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int)` | 1401 | Exported Function
-`void __cdecl gl::VertexAttribI4uiContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 1397 | Exported Function
-`void __cdecl gl::VertexAttribI4ui(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int)` | 1396 | Exported Function
-`void __cdecl gl::VertexAttribI4uiv(unsigned int,unsigned int const * __ptr64)` | 1398 | Exported Function
-`void __cdecl gl::VertexAttribIFormat(unsigned int,int,unsigned int,unsigned int)` | 1400 | Exported Function
-`void __cdecl gl::VertexAttribI4uivContextANGLE(void * __ptr64,unsigned int,unsigned int const * __ptr64)` | 1399 | Exported Function
-`void __cdecl gl::WaitSync(struct __GLsync * __ptr64,unsigned int,unsigned __int64)` | 1414 | Exported Function
-`void __cdecl gl::WaitSemaphoreEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int const * __ptr64,unsigned int,unsigned int const * __ptr64,unsigned int const * __ptr64)` | 1413 | Exported Function
-`void __cdecl gl::WaitSyncContextANGLE(void * __ptr64,struct __GLsync * __ptr64,unsigned int,unsigned __int64)` | 1415 | Exported Function
-`void __cdecl gl::WeightPointerOESContextANGLE(void * __ptr64,int,unsigned int,int,void const * __ptr64)` | 1417 | Exported Function
-`void __cdecl gl::WeightPointerOES(int,unsigned int,int,void const * __ptr64)` | 1416 | Exported Function
-`void __cdecl gl::WaitSemaphoreEXT(unsigned int,unsigned int,unsigned int const * __ptr64,unsigned int,unsigned int const * __ptr64,unsigned int const * __ptr64)` | 1412 | Exported Function
-`void __cdecl gl::VertexPointer(int,unsigned int,int,void const * __ptr64)` | 1408 | Exported Function
-`void __cdecl gl::VertexBindingDivisorContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1407 | Exported Function
-`void __cdecl gl::VertexPointerContextANGLE(void * __ptr64,int,unsigned int,int,void const * __ptr64)` | 1409 | Exported Function
-`void __cdecl gl::ViewportContextANGLE(void * __ptr64,int,int,int,int)` | 1411 | Exported Function
-`void __cdecl gl::Viewport(int,int,int,int)` | 1410 | Exported Function
-`void __cdecl gl::VertexAttribI4ivContextANGLE(void * __ptr64,unsigned int,int const * __ptr64)` | 1395 | Exported Function
-`void __cdecl gl::VertexAttrib4fv(unsigned int,float const * __ptr64)` | 1380 | Exported Function
-`void __cdecl gl::VertexAttrib4fContextANGLE(void * __ptr64,unsigned int,float,float,float,float)` | 1379 | Exported Function
-`void __cdecl gl::VertexAttrib4fvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 1381 | Exported Function
-`void __cdecl gl::VertexAttribBindingContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1383 | Exported Function
-`void __cdecl gl::VertexAttribBinding(unsigned int,unsigned int)` | 1382 | Exported Function
-`void __cdecl gl::VertexAttrib4f(unsigned int,float,float,float,float)` | 1378 | Exported Function
-`void __cdecl gl::VertexAttrib3f(unsigned int,float,float,float)` | 1374 | Exported Function
-`void __cdecl gl::VertexAttrib2fvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 1373 | Exported Function
-`void __cdecl gl::VertexAttrib3fContextANGLE(void * __ptr64,unsigned int,float,float,float)` | 1375 | Exported Function
-`void __cdecl gl::VertexAttrib3fvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 1377 | Exported Function
-`void __cdecl gl::VertexAttrib3fv(unsigned int,float const * __ptr64)` | 1376 | Exported Function
-`void __cdecl gl::VertexAttribFormatContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned char,unsigned int)` | 1391 | Exported Function
-`void __cdecl gl::VertexAttribFormat(unsigned int,int,unsigned int,unsigned char,unsigned int)` | 1390 | Exported Function
-`void __cdecl gl::VertexAttribI4i(unsigned int,int,int,int,int)` | 1392 | Exported Function
-`void __cdecl gl::VertexAttribI4iv(unsigned int,int const * __ptr64)` | 1394 | Exported Function
-`void __cdecl gl::VertexAttribI4iContextANGLE(void * __ptr64,unsigned int,int,int,int,int)` | 1393 | Exported Function
-`void __cdecl gl::VertexAttribDivisorEXTContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1389 | Exported Function
-`void __cdecl gl::VertexAttribDivisorANGLE(unsigned int,unsigned int)` | 1385 | Exported Function
-`void __cdecl gl::VertexAttribDivisor(unsigned int,unsigned int)` | 1384 | Exported Function
-`void __cdecl gl::VertexAttribDivisorANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1386 | Exported Function
-`void __cdecl gl::VertexAttribDivisorEXT(unsigned int,unsigned int)` | 1388 | Exported Function
-`void __cdecl gl::VertexAttribDivisorContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 1387 | Exported Function
-`void __cdecl gl::Uniform4f(int,float,float,float,float)` | 1322 | Exported Function
-`void __cdecl gl::TexStorage3DMultisampleOESContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,unsigned char)` | 1261 | Exported Function
-`void __cdecl gl::TexStorage3DMultisampleOES(unsigned int,int,unsigned int,int,int,int,unsigned char)` | 1260 | Exported Function
-`void __cdecl gl::TexStorageMem2DEXT(unsigned int,int,unsigned int,int,int,unsigned int,unsigned __int64)` | 1262 | Exported Function
-`void __cdecl gl::TexStorageMem2DMultisampleEXT(unsigned int,int,unsigned int,int,int,unsigned char,unsigned int,unsigned __int64)` | 1264 | Exported Function
-`void __cdecl gl::TexStorageMem2DEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,unsigned int,unsigned __int64)` | 1263 | Exported Function
-`void __cdecl gl::TexStorage3DMultisampleContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,unsigned char)` | 1259 | Exported Function
-`void __cdecl gl::TexStorage3DContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int)` | 1255 | Exported Function
-`void __cdecl gl::TexStorage3D(unsigned int,int,unsigned int,int,int,int)` | 1254 | Exported Function
-`void __cdecl gl::TexStorage3DEXT(unsigned int,int,unsigned int,int,int,int)` | 1256 | Exported Function
-`void __cdecl gl::TexStorage3DMultisample(unsigned int,int,unsigned int,int,int,int,unsigned char)` | 1258 | Exported Function
-`void __cdecl gl::TexStorage3DEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int)` | 1257 | Exported Function
-`void __cdecl gl::TexSubImage2DRobustANGLE(unsigned int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1272 | Exported Function
-`void __cdecl gl::TexSubImage2DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1271 | Exported Function
-`void __cdecl gl::TexSubImage2DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1273 | Exported Function
-`void __cdecl gl::TexSubImage3DContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1275 | Exported Function
-`void __cdecl gl::TexSubImage3D(unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1274 | Exported Function
-`void __cdecl gl::TexSubImage2D(unsigned int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1270 | Exported Function
-`void __cdecl gl::TexStorageMem3DEXT(unsigned int,int,unsigned int,int,int,int,unsigned int,unsigned __int64)` | 1266 | Exported Function
-`void __cdecl gl::TexStorageMem2DMultisampleEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,unsigned char,unsigned int,unsigned __int64)` | 1265 | Exported Function
-`void __cdecl gl::TexStorageMem3DEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,unsigned int,unsigned __int64)` | 1267 | Exported Function
-`void __cdecl gl::TexStorageMem3DMultisampleEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,int,unsigned char,unsigned int,unsigned __int64)` | 1269 | Exported Function
-`void __cdecl gl::TexStorageMem3DMultisampleEXT(unsigned int,int,unsigned int,int,int,int,unsigned char,unsigned int,unsigned __int64)` | 1268 | Exported Function
-`void __cdecl gl::TexStorage2DMultisampleContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,unsigned char)` | 1253 | Exported Function
-`void __cdecl gl::TexParameterivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 1238 | Exported Function
-`void __cdecl gl::TexParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1237 | Exported Function
-`void __cdecl gl::TexParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int const * __ptr64)` | 1239 | Exported Function
-`void __cdecl gl::TexParameterxContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 1241 | Exported Function
-`void __cdecl gl::TexParameterx(unsigned int,unsigned int,int)` | 1240 | Exported Function
-`void __cdecl gl::TexParameteriv(unsigned int,unsigned int,int const * __ptr64)` | 1236 | Exported Function
-`void __cdecl gl::TexParameterIuivOES(unsigned int,unsigned int,unsigned int const * __ptr64)` | 1224 | Exported Function
-`void __cdecl gl::TexParameterIuivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int const * __ptr64)` | 1223 | Exported Function
-`void __cdecl gl::TexParameterIuivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int const * __ptr64)` | 1225 | Exported Function
-`void __cdecl gl::TexParameterIuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,unsigned int const * __ptr64)` | 1227 | Exported Function
-`void __cdecl gl::TexParameterIuivRobustANGLE(unsigned int,unsigned int,int,unsigned int const * __ptr64)` | 1226 | Exported Function
-`void __cdecl gl::TexStorage2DEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int)` | 1249 | Exported Function
-`void __cdecl gl::TexStorage2DEXT(unsigned int,int,unsigned int,int,int)` | 1248 | Exported Function
-`void __cdecl gl::TexStorage2DMultisample(unsigned int,int,unsigned int,int,int,unsigned char)` | 1250 | Exported Function
-`void __cdecl gl::TexStorage2DMultisampleANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int,unsigned char)` | 1252 | Exported Function
-`void __cdecl gl::TexStorage2DMultisampleANGLE(unsigned int,int,unsigned int,int,int,unsigned char)` | 1251 | Exported Function
-`void __cdecl gl::TexStorage2DContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int)` | 1247 | Exported Function
-`void __cdecl gl::TexParameterxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 1243 | Exported Function
-`void __cdecl gl::TexParameterxv(unsigned int,unsigned int,int const * __ptr64)` | 1242 | Exported Function
-`void __cdecl gl::TexStorage1DEXT(unsigned int,int,unsigned int,int)` | 1244 | Exported Function
-`void __cdecl gl::TexStorage2D(unsigned int,int,unsigned int,int,int)` | 1246 | Exported Function
-`void __cdecl gl::TexStorage1DEXTContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int)` | 1245 | Exported Function
-`void __cdecl gl::TexSubImage3DOES(unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1276 | Exported Function
-`void __cdecl gl::Uniform2uiContextANGLE(void * __ptr64,int,unsigned int,unsigned int)` | 1307 | Exported Function
-`void __cdecl gl::Uniform2ui(int,unsigned int,unsigned int)` | 1306 | Exported Function
-`void __cdecl gl::Uniform2uiv(int,int,unsigned int const * __ptr64)` | 1308 | Exported Function
-`void __cdecl gl::Uniform3f(int,float,float,float)` | 1310 | Exported Function
-`void __cdecl gl::Uniform2uivContextANGLE(void * __ptr64,int,int,unsigned int const * __ptr64)` | 1309 | Exported Function
-`void __cdecl gl::Uniform2ivContextANGLE(void * __ptr64,int,int,int const * __ptr64)` | 1305 | Exported Function
-`void __cdecl gl::Uniform2fvContextANGLE(void * __ptr64,int,int,float const * __ptr64)` | 1301 | Exported Function
-`void __cdecl gl::Uniform2fv(int,int,float const * __ptr64)` | 1300 | Exported Function
-`void __cdecl gl::Uniform2i(int,int,int)` | 1302 | Exported Function
-`void __cdecl gl::Uniform2iv(int,int,int const * __ptr64)` | 1304 | Exported Function
-`void __cdecl gl::Uniform2iContextANGLE(void * __ptr64,int,int,int)` | 1303 | Exported Function
-`void __cdecl gl::Uniform3ui(int,unsigned int,unsigned int,unsigned int)` | 1318 | Exported Function
-`void __cdecl gl::Uniform3ivContextANGLE(void * __ptr64,int,int,int const * __ptr64)` | 1317 | Exported Function
-`void __cdecl gl::Uniform3uiContextANGLE(void * __ptr64,int,unsigned int,unsigned int,unsigned int)` | 1319 | Exported Function
-`void __cdecl gl::Uniform3uivContextANGLE(void * __ptr64,int,int,unsigned int const * __ptr64)` | 1321 | Exported Function
-`void __cdecl gl::Uniform3uiv(int,int,unsigned int const * __ptr64)` | 1320 | Exported Function
-`void __cdecl gl::Uniform3iv(int,int,int const * __ptr64)` | 1316 | Exported Function
-`void __cdecl gl::Uniform3fv(int,int,float const * __ptr64)` | 1312 | Exported Function
-`void __cdecl gl::Uniform3fContextANGLE(void * __ptr64,int,float,float,float)` | 1311 | Exported Function
-`void __cdecl gl::Uniform3fvContextANGLE(void * __ptr64,int,int,float const * __ptr64)` | 1313 | Exported Function
-`void __cdecl gl::Uniform3iContextANGLE(void * __ptr64,int,int,int,int)` | 1315 | Exported Function
-`void __cdecl gl::Uniform3i(int,int,int,int)` | 1314 | Exported Function
-`void __cdecl gl::Uniform2fContextANGLE(void * __ptr64,int,float,float)` | 1299 | Exported Function
-`void __cdecl gl::Translatex(int,int,int)` | 1284 | Exported Function
-`void __cdecl gl::TranslatefContextANGLE(void * __ptr64,float,float,float)` | 1283 | Exported Function
-`void __cdecl gl::TranslatexContextANGLE(void * __ptr64,int,int,int)` | 1285 | Exported Function
-`void __cdecl gl::Uniform1fContextANGLE(void * __ptr64,int,float)` | 1287 | Exported Function
-`void __cdecl gl::Uniform1f(int,float)` | 1286 | Exported Function
-`void __cdecl gl::Translatef(float,float,float)` | 1282 | Exported Function
-`void __cdecl gl::TexSubImage3DRobustANGLE(unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1278 | Exported Function
-`void __cdecl gl::TexSubImage3DOESContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,void const * __ptr64)` | 1277 | Exported Function
-`void __cdecl gl::TexSubImage3DRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 1279 | Exported Function
-`void __cdecl gl::TransformFeedbackVaryingsContextANGLE(void * __ptr64,unsigned int,int,char const * __ptr64 const * __ptr64,unsigned int)` | 1281 | Exported Function
-`void __cdecl gl::TransformFeedbackVaryings(unsigned int,int,char const * __ptr64 const * __ptr64,unsigned int)` | 1280 | Exported Function
-`void __cdecl gl::Uniform1uiContextANGLE(void * __ptr64,int,unsigned int)` | 1295 | Exported Function
-`void __cdecl gl::Uniform1ui(int,unsigned int)` | 1294 | Exported Function
-`void __cdecl gl::Uniform1uiv(int,int,unsigned int const * __ptr64)` | 1296 | Exported Function
-`void __cdecl gl::Uniform2f(int,float,float)` | 1298 | Exported Function
-`void __cdecl gl::Uniform1uivContextANGLE(void * __ptr64,int,int,unsigned int const * __ptr64)` | 1297 | Exported Function
-`void __cdecl gl::Uniform1ivContextANGLE(void * __ptr64,int,int,int const * __ptr64)` | 1293 | Exported Function
-`void __cdecl gl::Uniform1fvContextANGLE(void * __ptr64,int,int,float const * __ptr64)` | 1289 | Exported Function
-`void __cdecl gl::Uniform1fv(int,int,float const * __ptr64)` | 1288 | Exported Function
-`void __cdecl gl::Uniform1i(int,int)` | 1290 | Exported Function
-`void __cdecl gl::Uniform1iv(int,int,int const * __ptr64)` | 1292 | Exported Function
-`void __cdecl gl::Uniform1iContextANGLE(void * __ptr64,int,int)` | 1291 | Exported Function
-`void __cdecl gl::GetTexParameterxv(unsigned int,unsigned int,int * __ptr64)` | 728 | Exported Function
-`void __cdecl gl::GetTexParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 727 | Exported Function
-`void __cdecl gl::GetTexParameterxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 729 | Exported Function
-`void __cdecl gl::GetTransformFeedbackVaryingContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,unsigned int * __ptr64,char * __ptr64)` | 731 | Exported Function
-`void __cdecl gl::GetTransformFeedbackVarying(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,unsigned int * __ptr64,char * __ptr64)` | 730 | Exported Function
-`void __cdecl gl::GetTexParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 726 | Exported Function
-`void __cdecl gl::GetTexParameterIuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 718 | Exported Function
-`void __cdecl gl::GetTexParameterIuivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 717 | Exported Function
-`void __cdecl gl::GetTexParameterIuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 719 | Exported Function
-`void __cdecl gl::GetTexParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 725 | Exported Function
-`void __cdecl gl::GetTexParameteriv(unsigned int,unsigned int,int * __ptr64)` | 724 | Exported Function
-`void __cdecl gl::GetUniformIndicesContextANGLE(void * __ptr64,unsigned int,int,char const * __ptr64 const * __ptr64,unsigned int * __ptr64)` | 737 | Exported Function
-`void __cdecl gl::GetUniformIndices(unsigned int,int,char const * __ptr64 const * __ptr64,unsigned int * __ptr64)` | 736 | Exported Function
-`void __cdecl gl::GetUniformiv(unsigned int,int,int * __ptr64)` | 744 | Exported Function
-`void __cdecl gl::GetUniformivRobustANGLE(unsigned int,int,int,int * __ptr64,int * __ptr64)` | 746 | Exported Function
-`void __cdecl gl::GetUniformivContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64)` | 745 | Exported Function
-`void __cdecl gl::GetUniformfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64,float * __ptr64)` | 743 | Exported Function
-`void __cdecl gl::GetTranslatedShaderSourceANGLEContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,char * __ptr64)` | 733 | Exported Function
-`void __cdecl gl::GetTranslatedShaderSourceANGLE(unsigned int,int,int * __ptr64,char * __ptr64)` | 732 | Exported Function
-`void __cdecl gl::GetUniformfv(unsigned int,int,float * __ptr64)` | 740 | Exported Function
-`void __cdecl gl::GetUniformfvRobustANGLE(unsigned int,int,int,int * __ptr64,float * __ptr64)` | 742 | Exported Function
-`void __cdecl gl::GetUniformfvContextANGLE(void * __ptr64,unsigned int,int,float * __ptr64)` | 741 | Exported Function
-`void __cdecl gl::GetTexParameterIuivOES(unsigned int,unsigned int,unsigned int * __ptr64)` | 716 | Exported Function
-`void __cdecl gl::GetTexLevelParameterivContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int * __ptr64)` | 705 | Exported Function
-`void __cdecl gl::GetTexLevelParameterivANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int * __ptr64)` | 704 | Exported Function
-`void __cdecl gl::GetTexLevelParameterivRobustANGLE(unsigned int,int,unsigned int,int,int * __ptr64,int * __ptr64)` | 706 | Exported Function
-`void __cdecl gl::GetTexParameterfv(unsigned int,unsigned int,float * __ptr64)` | 720 | Exported Function
-`void __cdecl gl::GetTexLevelParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int * __ptr64,int * __ptr64)` | 707 | Exported Function
-`void __cdecl gl::GetTexLevelParameterivANGLE(unsigned int,int,unsigned int,int * __ptr64)` | 703 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfvContextANGLE(void * __ptr64,unsigned int,int,unsigned int,float * __ptr64)` | 699 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfvANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,float * __ptr64)` | 698 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfvRobustANGLE(unsigned int,int,unsigned int,int,int * __ptr64,float * __ptr64)` | 700 | Exported Function
-`void __cdecl gl::GetTexLevelParameteriv(unsigned int,int,unsigned int,int * __ptr64)` | 702 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,int,int * __ptr64,float * __ptr64)` | 701 | Exported Function
-`void __cdecl gl::GetTexParameterIivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 712 | Exported Function
-`void __cdecl gl::GetTexParameterIivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 711 | Exported Function
-`void __cdecl gl::GetTexParameterIivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 713 | Exported Function
-`void __cdecl gl::GetTexParameterIuivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 715 | Exported Function
-`void __cdecl gl::GetTexParameterIuiv(unsigned int,unsigned int,unsigned int * __ptr64)` | 714 | Exported Function
-`void __cdecl gl::GetTexParameterIivOES(unsigned int,unsigned int,int * __ptr64)` | 710 | Exported Function
-`void __cdecl gl::GetTexParameterfvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 722 | Exported Function
-`void __cdecl gl::GetTexParameterfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 721 | Exported Function
-`void __cdecl gl::GetTexParameterfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 723 | Exported Function
-`void __cdecl gl::GetTexParameterIivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 709 | Exported Function
-`void __cdecl gl::GetTexParameterIiv(unsigned int,unsigned int,int * __ptr64)` | 708 | Exported Function
-`void __cdecl gl::GetUniformivRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64,int * __ptr64)` | 747 | Exported Function
-`void __cdecl gl::ImportMemoryFdEXT(unsigned int,unsigned __int64,unsigned int,int)` | 794 | Exported Function
-`void __cdecl gl::HintContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 793 | Exported Function
-`void __cdecl gl::ImportMemoryFdEXTContextANGLE(void * __ptr64,unsigned int,unsigned __int64,unsigned int,int)` | 795 | Exported Function
-`void __cdecl gl::ImportMemoryZirconHandleANGLEContextANGLE(void * __ptr64,unsigned int,unsigned __int64,unsigned int,unsigned int)` | 797 | Exported Function
-`void __cdecl gl::ImportMemoryZirconHandleANGLE(unsigned int,unsigned __int64,unsigned int,unsigned int)` | 796 | Exported Function
-`void __cdecl gl::Hint(unsigned int,unsigned int)` | 792 | Exported Function
-`void __cdecl gl::GetVertexAttribPointerv(unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 764 | Exported Function
-`void __cdecl gl::GetVertexAttribivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 775 | Exported Function
-`void __cdecl gl::GetVertexAttribPointervContextANGLE(void * __ptr64,unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 765 | Exported Function
-`void __cdecl gl::GetVertexAttribPointervRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 767 | Exported Function
-`void __cdecl gl::GetVertexAttribPointervRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 766 | Exported Function
-`void __cdecl gl::InvalidateFramebufferContextANGLE(void * __ptr64,unsigned int,int,unsigned int const * __ptr64)` | 805 | Exported Function
-`void __cdecl gl::InvalidateFramebuffer(unsigned int,int,unsigned int const * __ptr64)` | 804 | Exported Function
-`void __cdecl gl::InvalidateSubFramebuffer(unsigned int,int,unsigned int const * __ptr64,int,int,int,int)` | 806 | Exported Function
-`void __cdecl gl::InvalidateTextureANGLE(unsigned int)` | 808 | Exported Function
-`void __cdecl gl::InvalidateSubFramebufferContextANGLE(void * __ptr64,unsigned int,int,unsigned int const * __ptr64,int,int,int,int)` | 807 | Exported Function
-`void __cdecl gl::InsertEventMarkerEXTContextANGLE(void * __ptr64,int,char const * __ptr64)` | 803 | Exported Function
-`void __cdecl gl::ImportSemaphoreFdEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 799 | Exported Function
-`void __cdecl gl::ImportSemaphoreFdEXT(unsigned int,unsigned int,int)` | 798 | Exported Function
-`void __cdecl gl::ImportSemaphoreZirconHandleANGLE(unsigned int,unsigned int,unsigned int)` | 800 | Exported Function
-`void __cdecl gl::InsertEventMarkerEXT(int,char const * __ptr64)` | 802 | Exported Function
-`void __cdecl gl::ImportSemaphoreZirconHandleANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int)` | 801 | Exported Function
-`void __cdecl gl::GetVertexAttribivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 774 | Exported Function
-`void __cdecl gl::GetUnsignedBytevEXTContextANGLE(void * __ptr64,unsigned int,unsigned char * __ptr64)` | 755 | Exported Function
-`void __cdecl gl::GetUnsignedBytevEXT(unsigned int,unsigned char * __ptr64)` | 754 | Exported Function
-`void __cdecl gl::GetVertexAttribfv(unsigned int,unsigned int,float * __ptr64)` | 768 | Exported Function
-`void __cdecl gl::GetVertexAttribfvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 770 | Exported Function
-`void __cdecl gl::GetVertexAttribfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 769 | Exported Function
-`void __cdecl gl::GetUnsignedBytei_vEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned char * __ptr64)` | 753 | Exported Function
-`void __cdecl gl::GetUniformuivContextANGLE(void * __ptr64,unsigned int,int,unsigned int * __ptr64)` | 749 | Exported Function
-`void __cdecl gl::GetUniformuiv(unsigned int,int,unsigned int * __ptr64)` | 748 | Exported Function
-`void __cdecl gl::GetUniformuivRobustANGLE(unsigned int,int,int,int * __ptr64,unsigned int * __ptr64)` | 750 | Exported Function
-`void __cdecl gl::GetUnsignedBytei_vEXT(unsigned int,unsigned int,unsigned char * __ptr64)` | 752 | Exported Function
-`void __cdecl gl::GetUniformuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,int,int,int * __ptr64,unsigned int * __ptr64)` | 751 | Exported Function
-`void __cdecl gl::GetVertexAttribIuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 762 | Exported Function
-`void __cdecl gl::GetVertexAttribIuivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 761 | Exported Function
-`void __cdecl gl::GetVertexAttribIuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 763 | Exported Function
-`void __cdecl gl::GetVertexAttribivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 773 | Exported Function
-`void __cdecl gl::GetVertexAttribiv(unsigned int,unsigned int,int * __ptr64)` | 772 | Exported Function
-`void __cdecl gl::GetVertexAttribIuiv(unsigned int,unsigned int,unsigned int * __ptr64)` | 760 | Exported Function
-`void __cdecl gl::GetVertexAttribIiv(unsigned int,unsigned int,int * __ptr64)` | 756 | Exported Function
-`void __cdecl gl::GetVertexAttribfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 771 | Exported Function
-`void __cdecl gl::GetVertexAttribIivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 757 | Exported Function
-`void __cdecl gl::GetVertexAttribIivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 759 | Exported Function
-`void __cdecl gl::GetVertexAttribIivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 758 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfvANGLE(unsigned int,int,unsigned int,float * __ptr64)` | 697 | Exported Function
-`void __cdecl gl::GetQueryObjectuivEXT(unsigned int,unsigned int,unsigned int * __ptr64)` | 626 | Exported Function
-`void __cdecl gl::GetQueryObjectuivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 625 | Exported Function
-`void __cdecl gl::GetQueryObjectuivEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 627 | Exported Function
-`void __cdecl gl::GetQueryObjectuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 629 | Exported Function
-`void __cdecl gl::GetQueryObjectuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 628 | Exported Function
-`void __cdecl gl::GetQueryObjectuiv(unsigned int,unsigned int,unsigned int * __ptr64)` | 624 | Exported Function
-`void __cdecl gl::GetQueryObjectui64vEXT(unsigned int,unsigned int,unsigned __int64 * __ptr64)` | 620 | Exported Function
-`void __cdecl gl::GetQueryObjectivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 619 | Exported Function
-`void __cdecl gl::GetQueryObjectui64vEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned __int64 * __ptr64)` | 621 | Exported Function
-`void __cdecl gl::GetQueryObjectui64vRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,unsigned __int64 * __ptr64)` | 623 | Exported Function
-`void __cdecl gl::GetQueryObjectui64vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned __int64 * __ptr64)` | 622 | Exported Function
-`void __cdecl gl::GetRenderbufferParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 643 | Exported Function
-`void __cdecl gl::GetRenderbufferParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 642 | Exported Function
-`void __cdecl gl::GetSamplerParameterfv(unsigned int,unsigned int,float * __ptr64)` | 656 | Exported Function
-`void __cdecl gl::GetSamplerParameterfvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 658 | Exported Function
-`void __cdecl gl::GetSamplerParameterfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 657 | Exported Function
-`void __cdecl gl::GetRenderbufferParameterivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 641 | Exported Function
-`void __cdecl gl::GetRenderbufferImageANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,void * __ptr64)` | 637 | Exported Function
-`void __cdecl gl::GetRenderbufferImageANGLE(unsigned int,unsigned int,unsigned int,void * __ptr64)` | 636 | Exported Function
-`void __cdecl gl::GetRenderbufferParameteriv(unsigned int,unsigned int,int * __ptr64)` | 638 | Exported Function
-`void __cdecl gl::GetRenderbufferParameterivOES(unsigned int,unsigned int,int * __ptr64)` | 640 | Exported Function
-`void __cdecl gl::GetRenderbufferParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 639 | Exported Function
-`void __cdecl gl::GetQueryObjectivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 618 | Exported Function
-`void __cdecl gl::GetProgramResourceivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,int,int * __ptr64,int * __ptr64)` | 607 | Exported Function
-`void __cdecl gl::GetProgramResourceiv(unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,int,int * __ptr64,int * __ptr64)` | 606 | Exported Function
-`void __cdecl gl::GetProgramResourceName(unsigned int,unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 604 | Exported Function
-`void __cdecl gl::GetQueryiv(unsigned int,unsigned int,int * __ptr64)` | 630 | Exported Function
-`void __cdecl gl::GetProgramResourceNameContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 605 | Exported Function
-`void __cdecl gl::GetProgramPipelineivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 597 | Exported Function
-`void __cdecl gl::GetProgramivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 611 | Exported Function
-`void __cdecl gl::GetProgramivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 610 | Exported Function
-`void __cdecl gl::GetProgramPipelineInfoLog(unsigned int,int,int * __ptr64,char * __ptr64)` | 594 | Exported Function
-`void __cdecl gl::GetProgramPipelineiv(unsigned int,unsigned int,int * __ptr64)` | 596 | Exported Function
-`void __cdecl gl::GetProgramPipelineInfoLogContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,char * __ptr64)` | 595 | Exported Function
-`void __cdecl gl::GetQueryObjecti64vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 614 | Exported Function
-`void __cdecl gl::GetQueryObjecti64vEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,__int64 * __ptr64)` | 613 | Exported Function
-`void __cdecl gl::GetQueryObjecti64vRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 615 | Exported Function
-`void __cdecl gl::GetQueryObjectivEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 617 | Exported Function
-`void __cdecl gl::GetQueryObjectivEXT(unsigned int,unsigned int,int * __ptr64)` | 616 | Exported Function
-`void __cdecl gl::GetQueryObjecti64vEXT(unsigned int,unsigned int,__int64 * __ptr64)` | 612 | Exported Function
-`void __cdecl gl::GetQueryivEXT(unsigned int,unsigned int,int * __ptr64)` | 632 | Exported Function
-`void __cdecl gl::GetQueryivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 631 | Exported Function
-`void __cdecl gl::GetQueryivEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 633 | Exported Function
-`void __cdecl gl::GetQueryivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 635 | Exported Function
-`void __cdecl gl::GetQueryivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 634 | Exported Function
-`void __cdecl gl::GetSamplerParameterfvRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 659 | Exported Function
-`void __cdecl gl::GetTexEnvfv(unsigned int,unsigned int,float * __ptr64)` | 682 | Exported Function
-`void __cdecl gl::GetSyncivContextANGLE(void * __ptr64,struct __GLsync * __ptr64,unsigned int,int,int * __ptr64,int * __ptr64)` | 681 | Exported Function
-`void __cdecl gl::GetTexEnvfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 683 | Exported Function
-`void __cdecl gl::GetTexEnvivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 685 | Exported Function
-`void __cdecl gl::GetTexEnviv(unsigned int,unsigned int,int * __ptr64)` | 684 | Exported Function
-`void __cdecl gl::GetSynciv(struct __GLsync * __ptr64,unsigned int,int,int * __ptr64,int * __ptr64)` | 680 | Exported Function
-`void __cdecl gl::GetShaderPrecisionFormat(unsigned int,unsigned int,int * __ptr64,int * __ptr64)` | 668 | Exported Function
-`void __cdecl gl::GetShaderivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 675 | Exported Function
-`void __cdecl gl::GetShaderPrecisionFormatContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64,int * __ptr64)` | 669 | Exported Function
-`void __cdecl gl::GetShaderSourceContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,char * __ptr64)` | 671 | Exported Function
-`void __cdecl gl::GetShaderSource(unsigned int,int,int * __ptr64,char * __ptr64)` | 670 | Exported Function
-`void __cdecl gl::GetTexGenxvOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 693 | Exported Function
-`void __cdecl gl::GetTexGenxvOES(unsigned int,unsigned int,int * __ptr64)` | 692 | Exported Function
-`void __cdecl gl::GetTexImageANGLE(unsigned int,int,unsigned int,unsigned int,void * __ptr64)` | 694 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfv(unsigned int,int,unsigned int,float * __ptr64)` | 696 | Exported Function
-`void __cdecl gl::GetTexImageANGLEContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,void * __ptr64)` | 695 | Exported Function
-`void __cdecl gl::GetTexGenivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 691 | Exported Function
-`void __cdecl gl::GetTexEnvxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 687 | Exported Function
-`void __cdecl gl::GetTexEnvxv(unsigned int,unsigned int,int * __ptr64)` | 686 | Exported Function
-`void __cdecl gl::GetTexGenfvOES(unsigned int,unsigned int,float * __ptr64)` | 688 | Exported Function
-`void __cdecl gl::GetTexGenivOES(unsigned int,unsigned int,int * __ptr64)` | 690 | Exported Function
-`void __cdecl gl::GetTexGenfvOESContextANGLE(void * __ptr64,unsigned int,unsigned int,float * __ptr64)` | 689 | Exported Function
-`void __cdecl gl::GetShaderivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 674 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuivContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 651 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuiv(unsigned int,unsigned int,unsigned int * __ptr64)` | 650 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuivOES(unsigned int,unsigned int,unsigned int * __ptr64)` | 652 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 654 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned int * __ptr64)` | 653 | Exported Function
-`void __cdecl gl::GetSamplerParameterIivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 649 | Exported Function
-`void __cdecl gl::GetSamplerParameterIivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 645 | Exported Function
-`void __cdecl gl::GetSamplerParameterIiv(unsigned int,unsigned int,int * __ptr64)` | 644 | Exported Function
-`void __cdecl gl::GetSamplerParameterIivOES(unsigned int,unsigned int,int * __ptr64)` | 646 | Exported Function
-`void __cdecl gl::GetSamplerParameterIivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 648 | Exported Function
-`void __cdecl gl::GetSamplerParameterIivOESContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 647 | Exported Function
-`void __cdecl gl::GetShaderInfoLog(unsigned int,int,int * __ptr64,char * __ptr64)` | 666 | Exported Function
-`void __cdecl gl::GetSemaphoreParameterui64vEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,unsigned __int64 * __ptr64)` | 665 | Exported Function
-`void __cdecl gl::GetShaderInfoLogContextANGLE(void * __ptr64,unsigned int,int,int * __ptr64,char * __ptr64)` | 667 | Exported Function
-`void __cdecl gl::GetShaderivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 673 | Exported Function
-`void __cdecl gl::GetShaderiv(unsigned int,unsigned int,int * __ptr64)` | 672 | Exported Function
-`void __cdecl gl::GetSemaphoreParameterui64vEXT(unsigned int,unsigned int,unsigned __int64 * __ptr64)` | 664 | Exported Function
-`void __cdecl gl::GetSamplerParameteriv(unsigned int,unsigned int,int * __ptr64)` | 660 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 655 | Exported Function
-`void __cdecl gl::GetSamplerParameterivContextANGLE(void * __ptr64,unsigned int,unsigned int,int * __ptr64)` | 661 | Exported Function
-`void __cdecl gl::GetSamplerParameterivRobustANGLEContextANGLE(void * __ptr64,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 663 | Exported Function
-`void __cdecl gl::GetSamplerParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 662 | Exported Function
-`void __cdecl gl::PopDebugGroupContextANGLE(void * __ptr64)` | 983 | Exported Function
-`void __cdecl gl::PopDebugGroup(void)` | 982 | Exported Function
-`void __cdecl gl::PopDebugGroupKHR(void)` | 984 | Exported Function
-`void __cdecl gl::PopGroupMarkerEXT(void)` | 986 | Exported Function
-`void __cdecl gl::PopDebugGroupKHRContextANGLE(void * __ptr64)` | 985 | Exported Function
-`void __cdecl gl::PolygonOffsetxContextANGLE(void * __ptr64,int,int)` | 981 | Exported Function
-`void __cdecl gl::PointSizexContextANGLE(void * __ptr64,int)` | 977 | Exported Function
-`void __cdecl gl::PointSizex(int)` | 976 | Exported Function
-`void __cdecl gl::PolygonOffset(float,float)` | 978 | Exported Function
-`void __cdecl gl::PolygonOffsetx(int,int)` | 980 | Exported Function
-`void __cdecl gl::PolygonOffsetContextANGLE(void * __ptr64,float,float)` | 979 | Exported Function
-`void __cdecl gl::ProgramBinaryOES(unsigned int,unsigned int,void const * __ptr64,int)` | 994 | Exported Function
-`void __cdecl gl::ProgramBinaryContextANGLE(void * __ptr64,unsigned int,unsigned int,void const * __ptr64,int)` | 993 | Exported Function
-`void __cdecl gl::ProgramBinaryOESContextANGLE(void * __ptr64,unsigned int,unsigned int,void const * __ptr64,int)` | 995 | Exported Function
-`void __cdecl gl::ProgramParameteriContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 997 | Exported Function
-`void __cdecl gl::ProgramParameteri(unsigned int,unsigned int,int)` | 996 | Exported Function
-`void __cdecl gl::ProgramBinary(unsigned int,unsigned int,void const * __ptr64,int)` | 992 | Exported Function
-`void __cdecl gl::PopMatrix(void)` | 988 | Exported Function
-`void __cdecl gl::PopGroupMarkerEXTContextANGLE(void * __ptr64)` | 987 | Exported Function
-`void __cdecl gl::PopMatrixContextANGLE(void * __ptr64)` | 989 | Exported Function
-`void __cdecl gl::PrimitiveBoundingBoxContextANGLE(void * __ptr64,float,float,float,float,float,float,float,float)` | 991 | Exported Function
-`void __cdecl gl::PrimitiveBoundingBox(float,float,float,float,float,float,float,float)` | 990 | Exported Function
-`void __cdecl gl::PointSizePointerOESContextANGLE(void * __ptr64,unsigned int,int,void const * __ptr64)` | 975 | Exported Function
-`void __cdecl gl::PauseTransformFeedback(void)` | 960 | Exported Function
-`void __cdecl gl::PatchParameteriContextANGLE(void * __ptr64,unsigned int,int)` | 959 | Exported Function
-`void __cdecl gl::PauseTransformFeedbackContextANGLE(void * __ptr64)` | 961 | Exported Function
-`void __cdecl gl::PixelStoreiContextANGLE(void * __ptr64,unsigned int,int)` | 963 | Exported Function
-`void __cdecl gl::PixelStorei(unsigned int,int)` | 962 | Exported Function
-`void __cdecl gl::PatchParameteri(unsigned int,int)` | 958 | Exported Function
-`void __cdecl gl::Orthof(float,float,float,float,float,float)` | 954 | Exported Function
-`void __cdecl gl::ObjectPtrLabelKHRContextANGLE(void * __ptr64,void const * __ptr64,int,char const * __ptr64)` | 953 | Exported Function
-`void __cdecl gl::OrthofContextANGLE(void * __ptr64,float,float,float,float,float,float)` | 955 | Exported Function
-`void __cdecl gl::OrthoxContextANGLE(void * __ptr64,int,int,int,int,int,int)` | 957 | Exported Function
-`void __cdecl gl::Orthox(int,int,int,int,int,int)` | 956 | Exported Function
-`void __cdecl gl::PointParameterxvContextANGLE(void * __ptr64,unsigned int,int const * __ptr64)` | 971 | Exported Function
-`void __cdecl gl::PointParameterxv(unsigned int,int const * __ptr64)` | 970 | Exported Function
-`void __cdecl gl::PointSize(float)` | 972 | Exported Function
-`void __cdecl gl::PointSizePointerOES(unsigned int,int,void const * __ptr64)` | 974 | Exported Function
-`void __cdecl gl::PointSizeContextANGLE(void * __ptr64,float)` | 973 | Exported Function
-`void __cdecl gl::PointParameterxContextANGLE(void * __ptr64,unsigned int,int)` | 969 | Exported Function
-`void __cdecl gl::PointParameterfContextANGLE(void * __ptr64,unsigned int,float)` | 965 | Exported Function
-`void __cdecl gl::PointParameterf(unsigned int,float)` | 964 | Exported Function
-`void __cdecl gl::PointParameterfv(unsigned int,float const * __ptr64)` | 966 | Exported Function
-`void __cdecl gl::PointParameterx(unsigned int,int)` | 968 | Exported Function
-`void __cdecl gl::PointParameterfvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 967 | Exported Function
-`void __cdecl gl::ProgramUniform1f(unsigned int,int,float)` | 998 | Exported Function
-`void __cdecl gl::ProgramUniform3ivContextANGLE(void * __ptr64,unsigned int,int,int,int const * __ptr64)` | 1029 | Exported Function
-`void __cdecl gl::ProgramUniform3iv(unsigned int,int,int,int const * __ptr64)` | 1028 | Exported Function
-`void __cdecl gl::ProgramUniform3ui(unsigned int,int,unsigned int,unsigned int,unsigned int)` | 1030 | Exported Function
-`void __cdecl gl::ProgramUniform3uiv(unsigned int,int,int,unsigned int const * __ptr64)` | 1032 | Exported Function
-`void __cdecl gl::ProgramUniform3uiContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,unsigned int)` | 1031 | Exported Function
-`void __cdecl gl::ProgramUniform3iContextANGLE(void * __ptr64,unsigned int,int,int,int,int)` | 1027 | Exported Function
-`void __cdecl gl::ProgramUniform3fContextANGLE(void * __ptr64,unsigned int,int,float,float,float)` | 1023 | Exported Function
-`void __cdecl gl::ProgramUniform3f(unsigned int,int,float,float,float)` | 1022 | Exported Function
-`void __cdecl gl::ProgramUniform3fv(unsigned int,int,int,float const * __ptr64)` | 1024 | Exported Function
-`void __cdecl gl::ProgramUniform3i(unsigned int,int,int,int,int)` | 1026 | Exported Function
-`void __cdecl gl::ProgramUniform3fvContextANGLE(void * __ptr64,unsigned int,int,int,float const * __ptr64)` | 1025 | Exported Function
-`void __cdecl gl::ProgramUniform4iv(unsigned int,int,int,int const * __ptr64)` | 1040 | Exported Function
-`void __cdecl gl::ProgramUniform4iContextANGLE(void * __ptr64,unsigned int,int,int,int,int,int)` | 1039 | Exported Function
-`void __cdecl gl::ProgramUniform4ivContextANGLE(void * __ptr64,unsigned int,int,int,int const * __ptr64)` | 1041 | Exported Function
-`void __cdecl gl::ProgramUniform4uiContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int,unsigned int,unsigned int)` | 1043 | Exported Function
-`void __cdecl gl::ProgramUniform4ui(unsigned int,int,unsigned int,unsigned int,unsigned int,unsigned int)` | 1042 | Exported Function
-`void __cdecl gl::ProgramUniform4i(unsigned int,int,int,int,int,int)` | 1038 | Exported Function
-`void __cdecl gl::ProgramUniform4f(unsigned int,int,float,float,float,float)` | 1034 | Exported Function
-`void __cdecl gl::ProgramUniform3uivContextANGLE(void * __ptr64,unsigned int,int,int,unsigned int const * __ptr64)` | 1033 | Exported Function
-`void __cdecl gl::ProgramUniform4fContextANGLE(void * __ptr64,unsigned int,int,float,float,float,float)` | 1035 | Exported Function
-`void __cdecl gl::ProgramUniform4fvContextANGLE(void * __ptr64,unsigned int,int,int,float const * __ptr64)` | 1037 | Exported Function
-`void __cdecl gl::ProgramUniform4fv(unsigned int,int,int,float const * __ptr64)` | 1036 | Exported Function
-`void __cdecl gl::ProgramUniform2uivContextANGLE(void * __ptr64,unsigned int,int,int,unsigned int const * __ptr64)` | 1021 | Exported Function
-`void __cdecl gl::ProgramUniform1ui(unsigned int,int,unsigned int)` | 1006 | Exported Function
-`void __cdecl gl::ProgramUniform1ivContextANGLE(void * __ptr64,unsigned int,int,int,int const * __ptr64)` | 1005 | Exported Function
-`void __cdecl gl::ProgramUniform1uiContextANGLE(void * __ptr64,unsigned int,int,unsigned int)` | 1007 | Exported Function
-`void __cdecl gl::ProgramUniform1uivContextANGLE(void * __ptr64,unsigned int,int,int,unsigned int const * __ptr64)` | 1009 | Exported Function
-`void __cdecl gl::ProgramUniform1uiv(unsigned int,int,int,unsigned int const * __ptr64)` | 1008 | Exported Function
-`void __cdecl gl::ProgramUniform1iv(unsigned int,int,int,int const * __ptr64)` | 1004 | Exported Function
-`void __cdecl gl::ProgramUniform1fv(unsigned int,int,int,float const * __ptr64)` | 1000 | Exported Function
-`void __cdecl gl::ProgramUniform1fContextANGLE(void * __ptr64,unsigned int,int,float)` | 999 | Exported Function
-`void __cdecl gl::ProgramUniform1fvContextANGLE(void * __ptr64,unsigned int,int,int,float const * __ptr64)` | 1001 | Exported Function
-`void __cdecl gl::ProgramUniform1iContextANGLE(void * __ptr64,unsigned int,int,int)` | 1003 | Exported Function
-`void __cdecl gl::ProgramUniform1i(unsigned int,int,int)` | 1002 | Exported Function
-`void __cdecl gl::ProgramUniform2ivContextANGLE(void * __ptr64,unsigned int,int,int,int const * __ptr64)` | 1017 | Exported Function
-`void __cdecl gl::ProgramUniform2iv(unsigned int,int,int,int const * __ptr64)` | 1016 | Exported Function
-`void __cdecl gl::ProgramUniform2ui(unsigned int,int,unsigned int,unsigned int)` | 1018 | Exported Function
-`void __cdecl gl::ProgramUniform2uiv(unsigned int,int,int,unsigned int const * __ptr64)` | 1020 | Exported Function
-`void __cdecl gl::ProgramUniform2uiContextANGLE(void * __ptr64,unsigned int,int,unsigned int,unsigned int)` | 1019 | Exported Function
-`void __cdecl gl::ProgramUniform2iContextANGLE(void * __ptr64,unsigned int,int,int,int)` | 1015 | Exported Function
-`void __cdecl gl::ProgramUniform2fContextANGLE(void * __ptr64,unsigned int,int,float,float)` | 1011 | Exported Function
-`void __cdecl gl::ProgramUniform2f(unsigned int,int,float,float)` | 1010 | Exported Function
-`void __cdecl gl::ProgramUniform2fv(unsigned int,int,int,float const * __ptr64)` | 1012 | Exported Function
-`void __cdecl gl::ProgramUniform2i(unsigned int,int,int,int)` | 1014 | Exported Function
-`void __cdecl gl::ProgramUniform2fvContextANGLE(void * __ptr64,unsigned int,int,int,float const * __ptr64)` | 1013 | Exported Function
-`void __cdecl gl::ObjectPtrLabelKHR(void const * __ptr64,int,char const * __ptr64)` | 952 | Exported Function
-`void __cdecl gl::LoadPaletteFromModelViewMatrixOESContextANGLE(void * __ptr64)` | 885 | Exported Function
-`void __cdecl gl::LoadPaletteFromModelViewMatrixOES(void)` | 884 | Exported Function
-`void __cdecl gl::LogicOp(unsigned int)` | 886 | Exported Function
-`void __cdecl gl::LoseContextCHROMIUM(unsigned int,unsigned int)` | 888 | Exported Function
-`void __cdecl gl::LogicOpContextANGLE(void * __ptr64,unsigned int)` | 887 | Exported Function
-`void __cdecl gl::LoadMatrixxContextANGLE(void * __ptr64,int const * __ptr64)` | 883 | Exported Function
-`void __cdecl gl::LoadIdentityContextANGLE(void * __ptr64)` | 879 | Exported Function
-`void __cdecl gl::LoadIdentity(void)` | 878 | Exported Function
-`void __cdecl gl::LoadMatrixf(float const * __ptr64)` | 880 | Exported Function
-`void __cdecl gl::LoadMatrixx(int const * __ptr64)` | 882 | Exported Function
-`void __cdecl gl::LoadMatrixfContextANGLE(void * __ptr64,float const * __ptr64)` | 881 | Exported Function
-`void __cdecl gl::Materialxv(unsigned int,unsigned int,int const * __ptr64)` | 902 | Exported Function
-`void __cdecl gl::MaterialxContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 901 | Exported Function
-`void __cdecl gl::MaterialxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 903 | Exported Function
-`void __cdecl gl::MatrixIndexPointerOESContextANGLE(void * __ptr64,int,unsigned int,int,void const * __ptr64)` | 905 | Exported Function
-`void __cdecl gl::MatrixIndexPointerOES(int,unsigned int,int,void const * __ptr64)` | 904 | Exported Function
-`void __cdecl gl::Materialx(unsigned int,unsigned int,int)` | 900 | Exported Function
-`void __cdecl gl::Materialf(unsigned int,unsigned int,float)` | 896 | Exported Function
-`void __cdecl gl::LoseContextCHROMIUMContextANGLE(void * __ptr64,unsigned int,unsigned int)` | 889 | Exported Function
-`void __cdecl gl::MaterialfContextANGLE(void * __ptr64,unsigned int,unsigned int,float)` | 897 | Exported Function
-`void __cdecl gl::MaterialfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float const * __ptr64)` | 899 | Exported Function
-`void __cdecl gl::Materialfv(unsigned int,unsigned int,float const * __ptr64)` | 898 | Exported Function
-`void __cdecl gl::LinkProgramContextANGLE(void * __ptr64,unsigned int)` | 877 | Exported Function
-`void __cdecl gl::LightModelfv(unsigned int,float const * __ptr64)` | 858 | Exported Function
-`void __cdecl gl::LightModelfContextANGLE(void * __ptr64,unsigned int,float)` | 857 | Exported Function
-`void __cdecl gl::LightModelfvContextANGLE(void * __ptr64,unsigned int,float const * __ptr64)` | 859 | Exported Function
-`void __cdecl gl::LightModelxContextANGLE(void * __ptr64,unsigned int,int)` | 861 | Exported Function
-`void __cdecl gl::LightModelx(unsigned int,int)` | 860 | Exported Function
-`void __cdecl gl::LightModelf(unsigned int,float)` | 856 | Exported Function
-`void __cdecl gl::Lightf(unsigned int,unsigned int,float)` | 864 | Exported Function
-`void __cdecl gl::InvalidateTextureANGLEContextANGLE(void * __ptr64,unsigned int)` | 809 | Exported Function
-`void __cdecl gl::LightfContextANGLE(void * __ptr64,unsigned int,unsigned int,float)` | 865 | Exported Function
-`void __cdecl gl::LightfvContextANGLE(void * __ptr64,unsigned int,unsigned int,float const * __ptr64)` | 867 | Exported Function
-`void __cdecl gl::Lightfv(unsigned int,unsigned int,float const * __ptr64)` | 866 | Exported Function
-`void __cdecl gl::LineWidthContextANGLE(void * __ptr64,float)` | 873 | Exported Function
-`void __cdecl gl::LineWidth(float)` | 872 | Exported Function
-`void __cdecl gl::LineWidthx(int)` | 874 | Exported Function
-`void __cdecl gl::LinkProgram(unsigned int)` | 876 | Exported Function
-`void __cdecl gl::LineWidthxContextANGLE(void * __ptr64,int)` | 875 | Exported Function
-`void __cdecl gl::LightxvContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 871 | Exported Function
-`void __cdecl gl::LightModelxvContextANGLE(void * __ptr64,unsigned int,int const * __ptr64)` | 863 | Exported Function
-`void __cdecl gl::LightModelxv(unsigned int,int const * __ptr64)` | 862 | Exported Function
-`void __cdecl gl::Lightx(unsigned int,unsigned int,int)` | 868 | Exported Function
-`void __cdecl gl::Lightxv(unsigned int,unsigned int,int const * __ptr64)` | 870 | Exported Function
-`void __cdecl gl::LightxContextANGLE(void * __ptr64,unsigned int,unsigned int,int)` | 869 | Exported Function
-`void __cdecl gl::MatrixMode(unsigned int)` | 906 | Exported Function
-`void __cdecl gl::MultMatrixfContextANGLE(void * __ptr64,float const * __ptr64)` | 919 | Exported Function
-`void __cdecl gl::MultMatrixf(float const * __ptr64)` | 918 | Exported Function
-`void __cdecl gl::MultMatrixx(int const * __ptr64)` | 920 | Exported Function
-`void __cdecl gl::Normal3f(float,float,float)` | 940 | Exported Function
-`void __cdecl gl::MultMatrixxContextANGLE(void * __ptr64,int const * __ptr64)` | 921 | Exported Function
-`void __cdecl gl::MultiTexCoord4xContextANGLE(void * __ptr64,unsigned int,int,int,int,int)` | 939 | Exported Function
-`void __cdecl gl::MultiDrawElementsInstancedBaseVertexBaseInstanceANGLEContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int const * __ptr64,int const * __ptr64,unsigned int const * __ptr64,int)` | 935 | Exported Function
-`void __cdecl gl::MultiDrawElementsInstancedBaseVertexBaseInstanceANGLE(unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int const * __ptr64,int const * __ptr64,unsigned int const * __ptr64,int)` | 934 | Exported Function
-`void __cdecl gl::MultiTexCoord4f(unsigned int,float,float,float,float)` | 936 | Exported Function
-`void __cdecl gl::MultiTexCoord4x(unsigned int,int,int,int,int)` | 938 | Exported Function
-`void __cdecl gl::MultiTexCoord4fContextANGLE(void * __ptr64,unsigned int,float,float,float,float)` | 937 | Exported Function
-`void __cdecl gl::ObjectLabelKHR(unsigned int,unsigned int,int,char const * __ptr64)` | 948 | Exported Function
-`void __cdecl gl::ObjectLabelContextANGLE(void * __ptr64,unsigned int,unsigned int,int,char const * __ptr64)` | 947 | Exported Function
-`void __cdecl gl::ObjectLabelKHRContextANGLE(void * __ptr64,unsigned int,unsigned int,int,char const * __ptr64)` | 949 | Exported Function
-`void __cdecl gl::ObjectPtrLabelContextANGLE(void * __ptr64,void const * __ptr64,int,char const * __ptr64)` | 951 | Exported Function
-`void __cdecl gl::ObjectPtrLabel(void const * __ptr64,int,char const * __ptr64)` | 950 | Exported Function
-`void __cdecl gl::ObjectLabel(unsigned int,unsigned int,int,char const * __ptr64)` | 946 | Exported Function
-`void __cdecl gl::Normal3x(int,int,int)` | 942 | Exported Function
-`void __cdecl gl::Normal3fContextANGLE(void * __ptr64,float,float,float)` | 941 | Exported Function
-`void __cdecl gl::Normal3xContextANGLE(void * __ptr64,int,int,int)` | 943 | Exported Function
-`void __cdecl gl::NormalPointerContextANGLE(void * __ptr64,unsigned int,int,void const * __ptr64)` | 945 | Exported Function
-`void __cdecl gl::NormalPointer(unsigned int,int,void const * __ptr64)` | 944 | Exported Function
-`void __cdecl gl::MultiDrawElementsInstancedANGLEContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int const * __ptr64,int)` | 933 | Exported Function
-`void __cdecl gl::MemoryObjectParameterivEXT(unsigned int,unsigned int,int const * __ptr64)` | 914 | Exported Function
-`void __cdecl gl::MemoryBarrierContextANGLE(void * __ptr64,unsigned int)` | 913 | Exported Function
-`void __cdecl gl::MemoryObjectParameterivEXTContextANGLE(void * __ptr64,unsigned int,unsigned int,int const * __ptr64)` | 915 | Exported Function
-`void __cdecl gl::MinSampleShadingContextANGLE(void * __ptr64,float)` | 917 | Exported Function
-`void __cdecl gl::MinSampleShading(float)` | 916 | Exported Function
-`void __cdecl gl::MemoryBarrierByRegionContextANGLE(void * __ptr64,unsigned int)` | 912 | Exported Function
-`void __cdecl gl::MaxShaderCompilerThreadsKHR(unsigned int)` | 908 | Exported Function
-`void __cdecl gl::MatrixModeContextANGLE(void * __ptr64,unsigned int)` | 907 | Exported Function
-`void __cdecl gl::MaxShaderCompilerThreadsKHRContextANGLE(void * __ptr64,unsigned int)` | 909 | Exported Function
-`void __cdecl gl::MemoryBarrierByRegion(unsigned int)` | 911 | Exported Function
-`void __cdecl gl::MemoryBarrier(unsigned int)` | 910 | Exported Function
-`void __cdecl gl::MultiDrawElementsANGLEContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int)` | 929 | Exported Function
-`void __cdecl gl::MultiDrawElementsANGLE(unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int)` | 928 | Exported Function
-`void __cdecl gl::MultiDrawElementsBaseVertexEXT(unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int,int const * __ptr64)` | 930 | Exported Function
-`void __cdecl gl::MultiDrawElementsInstancedANGLE(unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int const * __ptr64,int)` | 932 | Exported Function
-`void __cdecl gl::MultiDrawElementsBaseVertexEXTContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,unsigned int,void const * __ptr64 const * __ptr64,int,int const * __ptr64)` | 931 | Exported Function
-`void __cdecl gl::MultiDrawArraysInstancedBaseInstanceANGLEContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,int const * __ptr64,int const * __ptr64,unsigned int const * __ptr64,int)` | 927 | Exported Function
-`void __cdecl gl::MultiDrawArraysANGLEContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,int const * __ptr64,int)` | 923 | Exported Function
-`void __cdecl gl::MultiDrawArraysANGLE(unsigned int,int const * __ptr64,int const * __ptr64,int)` | 922 | Exported Function
-`void __cdecl gl::MultiDrawArraysInstancedANGLE(unsigned int,int const * __ptr64,int const * __ptr64,int const * __ptr64,int)` | 924 | Exported Function
-`void __cdecl gl::MultiDrawArraysInstancedBaseInstanceANGLE(unsigned int,int const * __ptr64,int const * __ptr64,int const * __ptr64,unsigned int const * __ptr64,int)` | 926 | Exported Function
-`void __cdecl gl::MultiDrawArraysInstancedANGLEContextANGLE(void * __ptr64,unsigned int,int const * __ptr64,int const * __ptr64,int const * __ptr64,int)` | 925 | Exported Function
+`GetAttribLocation` | 472 | Exported Function
+`GetFragDataIndexEXT` | 514 | Exported Function
+`GetAttribLocationContextANGLE` | 473 | Exported Function
+`FenceSyncContextANGLE` | 377 | Exported Function
+`FenceSync` | 376 | Exported Function
+`IsBuffer` | 810 | Exported Function
+`IsEnabled` | 812 | Exported Function
+`IsBufferContextANGLE` | 811 | Exported Function
+`PlatformMethods` | 3 | Exported Function
+`GetUniformLocation` | 738 | Exported Function
+`GetProgramResourceLocationIndexEXTContextANGLE` | 603 | Exported Function
+`GetUniformLocationContextANGLE` | 739 | Exported Function
+`PlatformMethods` | 2 | Exported Function
+`PlatformMethods` | 1 | Exported Function
+`CompressedTexImage3D` | 160 | Exported Function
+`CompressedTexImage2DRobustANGLEContextANGLE` | 159 | Exported Function
+`CompressedTexImage3DContextANGLE` | 161 | Exported Function
+`CompressedTexImage3DOESContextANGLE` | 163 | Exported Function
+`CompressedTexImage3DOES` | 162 | Exported Function
+`CompressedTexImage2DRobustANGLE` | 158 | Exported Function
+`CompressedCopyTextureCHROMIUM` | 154 | Exported Function
+`CompileShaderContextANGLE` | 153 | Exported Function
+`CompressedCopyTextureCHROMIUMContextANGLE` | 155 | Exported Function
+`CompressedTexImage2DContextANGLE` | 157 | Exported Function
+`CompressedTexImage2D` | 156 | Exported Function
+`CompressedTexSubImage3DContextANGLE` | 171 | Exported Function
+`CompressedTexSubImage3D` | 170 | Exported Function
+`CompressedTexSubImage3DOES` | 172 | Exported Function
+`CompressedTexSubImage3DRobustANGLE` | 174 | Exported Function
+`CompressedTexSubImage3DOESContextANGLE` | 173 | Exported Function
+`CompressedTexSubImage2DRobustANGLEContextANGLE` | 169 | Exported Function
+`CompressedTexImage3DRobustANGLEContextANGLE` | 165 | Exported Function
+`CompressedTexImage3DRobustANGLE` | 164 | Exported Function
+`CompressedTexSubImage2D` | 166 | Exported Function
+`CompressedTexSubImage2DRobustANGLE` | 168 | Exported Function
+`CompressedTexSubImage2DContextANGLE` | 167 | Exported Function
+`CompileShader` | 152 | Exported Function
+`Color4fContextANGLE` | 137 | Exported Function
+`Color4f` | 136 | Exported Function
+`Color4ub` | 138 | Exported Function
+`Color4x` | 140 | Exported Function
+`Color4ubContextANGLE` | 139 | Exported Function
+`ClipPlanexContextANGLE` | 135 | Exported Function
+`ClientActiveTextureContextANGLE` | 129 | Exported Function
+`ClientActiveTexture` | 128 | Exported Function
+`ClipPlanef` | 132 | Exported Function
+`ClipPlanex` | 134 | Exported Function
+`ClipPlanefContextANGLE` | 133 | Exported Function
+`ColorMaskiOES` | 148 | Exported Function
+`ColorMaskiEXTContextANGLE` | 147 | Exported Function
+`ColorMaskiOESContextANGLE` | 149 | Exported Function
+`ColorPointerContextANGLE` | 151 | Exported Function
+`ColorPointer` | 150 | Exported Function
+`ColorMaskiEXT` | 146 | Exported Function
+`ColorMask` | 142 | Exported Function
+`Color4xContextANGLE` | 141 | Exported Function
+`ColorMaskContextANGLE` | 143 | Exported Function
+`ColorMaskiContextANGLE` | 145 | Exported Function
+`ColorMaski` | 144 | Exported Function
+`CompressedTexSubImage3DRobustANGLEContextANGLE` | 175 | Exported Function
+`DebugMessageCallbackKHR` | 212 | Exported Function
+`DebugMessageCallbackContextANGLE` | 211 | Exported Function
+`DebugMessageCallbackKHRContextANGLE` | 213 | Exported Function
+`DebugMessageControlContextANGLE` | 215 | Exported Function
+`DebugMessageControl` | 214 | Exported Function
+`DebugMessageCallback` | 210 | Exported Function
+`CullFace` | 206 | Exported Function
+`CreateMemoryObjectsEXTContextANGLE` | 199 | Exported Function
+`CullFaceContextANGLE` | 207 | Exported Function
+`CurrentPaletteMatrixOESContextANGLE` | 209 | Exported Function
+`CurrentPaletteMatrixOES` | 208 | Exported Function
+`DeleteBuffersContextANGLE` | 223 | Exported Function
+`DeleteBuffers` | 222 | Exported Function
+`DeleteFencesNV` | 224 | Exported Function
+`DeleteFramebuffers` | 226 | Exported Function
+`DeleteFencesNVContextANGLE` | 225 | Exported Function
+`DebugMessageInsertKHRContextANGLE` | 221 | Exported Function
+`DebugMessageControlKHRContextANGLE` | 217 | Exported Function
+`DebugMessageControlKHR` | 216 | Exported Function
+`DebugMessageInsert` | 218 | Exported Function
+`DebugMessageInsertKHR` | 220 | Exported Function
+`DebugMessageInsertContextANGLE` | 219 | Exported Function
+`CreateMemoryObjectsEXT` | 198 | Exported Function
+`CopySubTextureCHROMIUMContextANGLE` | 183 | Exported Function
+`CopySubTextureCHROMIUM` | 182 | Exported Function
+`CopyTexImage2D` | 184 | Exported Function
+`CopyTexSubImage2D` | 186 | Exported Function
+`CopyTexImage2DContextANGLE` | 185 | Exported Function
+`CopySubTexture3DANGLEContextANGLE` | 181 | Exported Function
+`CopyBufferSubDataContextANGLE` | 177 | Exported Function
+`CopyBufferSubData` | 176 | Exported Function
+`CopyImageSubData` | 178 | Exported Function
+`CopySubTexture3DANGLE` | 180 | Exported Function
+`CopyImageSubDataContextANGLE` | 179 | Exported Function
+`CopyTextureCHROMIUM` | 194 | Exported Function
+`CopyTexture3DANGLEContextANGLE` | 193 | Exported Function
+`CopyTextureCHROMIUMContextANGLE` | 195 | Exported Function
+`CoverageModulationCHROMIUMContextANGLE` | 197 | Exported Function
+`CoverageModulationCHROMIUM` | 196 | Exported Function
+`CopyTexture3DANGLE` | 192 | Exported Function
+`CopyTexSubImage3D` | 188 | Exported Function
+`CopyTexSubImage2DContextANGLE` | 187 | Exported Function
+`CopyTexSubImage3DContextANGLE` | 189 | Exported Function
+`CopyTexSubImage3DOESContextANGLE` | 191 | Exported Function
+`CopyTexSubImage3DOES` | 190 | Exported Function
+`ClearStencilContextANGLE` | 127 | Exported Function
+`BlendEquation` | 62 | Exported Function
+`BlendColorContextANGLE` | 61 | Exported Function
+`BlendEquationContextANGLE` | 63 | Exported Function
+`BlendEquationiContextANGLE` | 73 | Exported Function
+`BlendEquationi` | 72 | Exported Function
+`BlendColor` | 60 | Exported Function
+`BindVertexBuffer` | 56 | Exported Function
+`BindVertexArrayOESContextANGLE` | 55 | Exported Function
+`BindVertexBufferContextANGLE` | 57 | Exported Function
+`BlendBarrierContextANGLE` | 59 | Exported Function
+`BlendBarrier` | 58 | Exported Function
+`BlendEquationSeparateiContextANGLE` | 67 | Exported Function
+`BlendEquationSeparatei` | 66 | Exported Function
+`BlendEquationSeparateiEXT` | 68 | Exported Function
+`BlendEquationSeparateiOES` | 70 | Exported Function
+`BlendEquationSeparateiEXTContextANGLE` | 69 | Exported Function
+`BlendEquationSeparateContextANGLE` | 65 | Exported Function
+`BlendEquationiEXTContextANGLE` | 75 | Exported Function
+`BlendEquationiEXT` | 74 | Exported Function
+`BlendEquationiOES` | 76 | Exported Function
+`BlendEquationSeparate` | 64 | Exported Function
+`BlendEquationiOESContextANGLE` | 77 | Exported Function
+`BindVertexArrayOES` | 54 | Exported Function
+`BindProgramPipelineContextANGLE` | 39 | Exported Function
+`BindProgramPipeline` | 38 | Exported Function
+`BindRenderbuffer` | 40 | Exported Function
+`BindRenderbufferOES` | 42 | Exported Function
+`BindRenderbufferContextANGLE` | 41 | Exported Function
+`BindImageTextureContextANGLE` | 37 | Exported Function
+`BindFramebufferContextANGLE` | 33 | Exported Function
+`BindFramebuffer` | 32 | Exported Function
+`BindFramebufferOES` | 34 | Exported Function
+`BindImageTexture` | 36 | Exported Function
+`BindFramebufferOESContextANGLE` | 35 | Exported Function
+`BindUniformLocationCHROMIUM` | 50 | Exported Function
+`BindTransformFeedbackContextANGLE` | 49 | Exported Function
+`BindUniformLocationCHROMIUMContextANGLE` | 51 | Exported Function
+`BindVertexArrayContextANGLE` | 53 | Exported Function
+`BindVertexArray` | 52 | Exported Function
+`BindTransformFeedback` | 48 | Exported Function
+`BindSampler` | 44 | Exported Function
+`BindRenderbufferOESContextANGLE` | 43 | Exported Function
+`BindSamplerContextANGLE` | 45 | Exported Function
+`BindTextureContextANGLE` | 47 | Exported Function
+`BindTexture` | 46 | Exported Function
+`BlendEquationSeparateiOESContextANGLE` | 71 | Exported Function
+`ClearBufferfvContextANGLE` | 112 | Exported Function
+`ClearBufferfv` | 111 | Exported Function
+`ClearBufferiv` | 113 | Exported Function
+`ClearBufferuiv` | 115 | Exported Function
+`ClearBufferivContextANGLE` | 114 | Exported Function
+`ClearBufferfiContextANGLE` | 110 | Exported Function
+`BufferSubData` | 102 | Exported Function
+`BufferStorageMemEXTContextANGLE` | 101 | Exported Function
+`BufferSubDataContextANGLE` | 103 | Exported Function
+`ClearBufferfi` | 109 | Exported Function
+`Clear` | 108 | Exported Function
+`ClearDepthfContextANGLE` | 123 | Exported Function
+`ClearDepthf` | 122 | Exported Function
+`ClearDepthx` | 124 | Exported Function
+`ClearStencil` | 126 | Exported Function
+`ClearDepthxContextANGLE` | 125 | Exported Function
+`ClearContextANGLE` | 121 | Exported Function
+`ClearColor` | 117 | Exported Function
+`ClearBufferuivContextANGLE` | 116 | Exported Function
+`ClearColorContextANGLE` | 118 | Exported Function
+`ClearColorxContextANGLE` | 120 | Exported Function
+`ClearColorx` | 119 | Exported Function
+`BufferStorageMemEXT` | 100 | Exported Function
+`BlendFunciOESContextANGLE` | 93 | Exported Function
+`BlendFunciOES` | 92 | Exported Function
+`BlendFuncSeparate` | 80 | Exported Function
+`BlendFuncSeparatei` | 82 | Exported Function
+`BlendFuncSeparateContextANGLE` | 81 | Exported Function
+`BlendFunciEXTContextANGLE` | 91 | Exported Function
+`BlendFuncContextANGLE` | 79 | Exported Function
+`BlendFunc` | 78 | Exported Function
+`BlendFunci` | 88 | Exported Function
+`BlendFunciEXT` | 90 | Exported Function
+`BlendFunciContextANGLE` | 89 | Exported Function
+`BlitFramebufferANGLEContextANGLE` | 96 | Exported Function
+`BlitFramebufferANGLE` | 95 | Exported Function
+`BlitFramebufferContextANGLE` | 97 | Exported Function
+`BufferDataContextANGLE` | 99 | Exported Function
+`BufferData` | 98 | Exported Function
+`BlitFramebuffer` | 94 | Exported Function
+`BlendFuncSeparateiEXT` | 84 | Exported Function
+`BlendFuncSeparateiContextANGLE` | 83 | Exported Function
+`BlendFuncSeparateiEXTContextANGLE` | 85 | Exported Function
+`BlendFuncSeparateiOESContextANGLE` | 87 | Exported Function
+`BlendFuncSeparateiOES` | 86 | Exported Function
+`GetProgramivContextANGLE` | 609 | Exported Function
+`StencilOp` | 1168 | Exported Function
+`StencilMaskSeparateContextANGLE` | 1167 | Exported Function
+`StencilOpContextANGLE` | 1169 | Exported Function
+`StencilOpSeparateContextANGLE` | 1171 | Exported Function
+`StencilOpSeparate` | 1170 | Exported Function
+`StencilMaskSeparate` | 1166 | Exported Function
+`StencilFuncSeparate` | 1162 | Exported Function
+`StencilFuncContextANGLE` | 1161 | Exported Function
+`StencilFuncSeparateContextANGLE` | 1163 | Exported Function
+`StencilMaskContextANGLE` | 1165 | Exported Function
+`StencilMask` | 1164 | Exported Function
+`TexEnvfContextANGLE` | 1181 | Exported Function
+`TexEnvf` | 1180 | Exported Function
+`TexEnvfv` | 1182 | Exported Function
+`TexEnvi` | 1184 | Exported Function
+`TexEnvfvContextANGLE` | 1183 | Exported Function
+`TexCoordPointerContextANGLE` | 1179 | Exported Function
+`TexBufferContextANGLE` | 1175 | Exported Function
+`TexBuffer` | 1174 | Exported Function
+`TexBufferRange` | 1176 | Exported Function
+`TexCoordPointer` | 1178 | Exported Function
+`TexBufferRangeContextANGLE` | 1177 | Exported Function
+`StencilFunc` | 1160 | Exported Function
+`ScalexContextANGLE` | 1145 | Exported Function
+`Scalex` | 1144 | Exported Function
+`Scissor` | 1146 | Exported Function
+`SemaphoreParameterui64vEXT` | 1148 | Exported Function
+`ScissorContextANGLE` | 1147 | Exported Function
+`ScalefContextANGLE` | 1143 | Exported Function
+`SamplerParameterivContextANGLE` | 1139 | Exported Function
+`SamplerParameteriv` | 1138 | Exported Function
+`SamplerParameterivRobustANGLE` | 1140 | Exported Function
+`Scalef` | 1142 | Exported Function
+`SamplerParameterivRobustANGLEContextANGLE` | 1141 | Exported Function
+`ShaderSource` | 1156 | Exported Function
+`ShaderBinaryContextANGLE` | 1155 | Exported Function
+`ShaderSourceContextANGLE` | 1157 | Exported Function
+`SignalSemaphoreEXTContextANGLE` | 1159 | Exported Function
+`SignalSemaphoreEXT` | 1158 | Exported Function
+`ShaderBinary` | 1154 | Exported Function
+`SetFenceNV` | 1150 | Exported Function
+`SemaphoreParameterui64vEXTContextANGLE` | 1149 | Exported Function
+`SetFenceNVContextANGLE` | 1151 | Exported Function
+`ShadeModelContextANGLE` | 1153 | Exported Function
+`ShadeModel` | 1152 | Exported Function
+`TexEnviContextANGLE` | 1185 | Exported Function
+`TexParameterf` | 1228 | Exported Function
+`TexImage3DRobustANGLEContextANGLE` | 1215 | Exported Function
+`TexParameterfContextANGLE` | 1229 | Exported Function
+`TexParameterfvContextANGLE` | 1231 | Exported Function
+`TexParameterfv` | 1230 | Exported Function
+`TexImage3DRobustANGLE` | 1214 | Exported Function
+`TexImage3D` | 1210 | Exported Function
+`TexImage2DRobustANGLEContextANGLE` | 1209 | Exported Function
+`TexImage3DContextANGLE` | 1211 | Exported Function
+`TexImage3DOESContextANGLE` | 1213 | Exported Function
+`TexImage3DOES` | 1212 | Exported Function
+`TexParameterIivOESContextANGLE` | 1219 | Exported Function
+`TexParameterIivOES` | 1218 | Exported Function
+`TexParameterIivRobustANGLE` | 1220 | Exported Function
+`TexParameterIuiv` | 1222 | Exported Function
+`TexParameterIivRobustANGLEContextANGLE` | 1221 | Exported Function
+`TexParameterIivContextANGLE` | 1217 | Exported Function
+`TexParameterfvRobustANGLEContextANGLE` | 1233 | Exported Function
+`TexParameterfvRobustANGLE` | 1232 | Exported Function
+`TexParameteri` | 1234 | Exported Function
+`TexParameterIiv` | 1216 | Exported Function
+`TexParameteriContextANGLE` | 1235 | Exported Function
+`TexImage2DRobustANGLE` | 1208 | Exported Function
+`TexGenfOESContextANGLE` | 1193 | Exported Function
+`TexGenfOES` | 1192 | Exported Function
+`TexGenfvOES` | 1194 | Exported Function
+`TexGeniOES` | 1196 | Exported Function
+`TexGenfvOESContextANGLE` | 1195 | Exported Function
+`TexEnvxvContextANGLE` | 1191 | Exported Function
+`TexEnvivContextANGLE` | 1187 | Exported Function
+`TexEnviv` | 1186 | Exported Function
+`TexEnvx` | 1188 | Exported Function
+`TexEnvxv` | 1190 | Exported Function
+`TexEnvxContextANGLE` | 1189 | Exported Function
+`TexImage2D` | 1204 | Exported Function
+`TexGenxvOESContextANGLE` | 1203 | Exported Function
+`TexImage2DContextANGLE` | 1205 | Exported Function
+`TexImage2DExternalANGLEContextANGLE` | 1207 | Exported Function
+`TexImage2DExternalANGLE` | 1206 | Exported Function
+`TexGenxvOES` | 1202 | Exported Function
+`TexGenivOES` | 1198 | Exported Function
+`TexGeniOESContextANGLE` | 1197 | Exported Function
+`TexGenivOESContextANGLE` | 1199 | Exported Function
+`TexGenxOESContextANGLE` | 1201 | Exported Function
+`TexGenxOES` | 1200 | Exported Function
+`SamplerParameterIuivRobustANGLEContextANGLE` | 1129 | Exported Function
+`QueryCounterEXT` | 1074 | Exported Function
+`PushMatrixContextANGLE` | 1073 | Exported Function
+`QueryCounterEXTContextANGLE` | 1075 | Exported Function
+`ReadBufferContextANGLE` | 1079 | Exported Function
+`ReadBuffer` | 1078 | Exported Function
+`PushMatrix` | 1072 | Exported Function
+`PushDebugGroupKHR` | 1068 | Exported Function
+`PushDebugGroupContextANGLE` | 1067 | Exported Function
+`PushDebugGroupKHRContextANGLE` | 1069 | Exported Function
+`PushGroupMarkerEXTContextANGLE` | 1071 | Exported Function
+`PushGroupMarkerEXT` | 1070 | Exported Function
+`ReadPixelsContextANGLE` | 1081 | Exported Function
+`ReadPixels` | 1080 | Exported Function
+`ReadPixelsRobustANGLE` | 1082 | Exported Function
+`ReleaseShaderCompiler` | 1090 | Exported Function
+`ReadPixelsRobustANGLEContextANGLE` | 1083 | Exported Function
+`ReadnPixelsRobustANGLEContextANGLE` | 1089 | Exported Function
+`ReadnPixelsContextANGLE` | 1085 | Exported Function
+`ReadnPixels` | 1084 | Exported Function
+`ReadnPixelsEXT` | 1086 | Exported Function
+`ReadnPixelsRobustANGLE` | 1088 | Exported Function
+`ReadnPixelsEXTContextANGLE` | 1087 | Exported Function
+`PushDebugGroup` | 1066 | Exported Function
+`ProgramUniformMatrix2x4fvContextANGLE` | 1051 | Exported Function
+`ProgramUniformMatrix2x4fv` | 1050 | Exported Function
+`ProgramUniformMatrix3fv` | 1052 | Exported Function
+`ProgramUniformMatrix3x2fv` | 1054 | Exported Function
+`ProgramUniformMatrix3fvContextANGLE` | 1053 | Exported Function
+`ProgramUniformMatrix2x3fvContextANGLE` | 1049 | Exported Function
+`ProgramUniform4uivContextANGLE` | 1045 | Exported Function
+`ProgramUniform4uiv` | 1044 | Exported Function
+`ProgramUniformMatrix2fv` | 1046 | Exported Function
+`ProgramUniformMatrix2x3fv` | 1048 | Exported Function
+`ProgramUniformMatrix2fvContextANGLE` | 1047 | Exported Function
+`ProgramUniformMatrix4x3fv` | 1062 | Exported Function
+`ProgramUniformMatrix4x2fvContextANGLE` | 1061 | Exported Function
+`ProgramUniformMatrix4x3fvContextANGLE` | 1063 | Exported Function
+`ProvokingVertexANGLEContextANGLE` | 1065 | Exported Function
+`ProvokingVertexANGLE` | 1064 | Exported Function
+`ProgramUniformMatrix4x2fv` | 1060 | Exported Function
+`ProgramUniformMatrix3x4fv` | 1056 | Exported Function
+`ProgramUniformMatrix3x2fvContextANGLE` | 1055 | Exported Function
+`ProgramUniformMatrix3x4fvContextANGLE` | 1057 | Exported Function
+`ProgramUniformMatrix4fvContextANGLE` | 1059 | Exported Function
+`ProgramUniformMatrix4fv` | 1058 | Exported Function
+`ReleaseShaderCompilerContextANGLE` | 1091 | Exported Function
+`SamplerParameterfvRobustANGLE` | 1134 | Exported Function
+`SamplerParameterfvContextANGLE` | 1133 | Exported Function
+`SamplerParameterfvRobustANGLEContextANGLE` | 1135 | Exported Function
+`SamplerParameteriContextANGLE` | 1137 | Exported Function
+`SamplerParameteri` | 1136 | Exported Function
+`SamplerParameterfv` | 1132 | Exported Function
+`SampleMaskiANGLEContextANGLE` | 1116 | Exported Function
+`SampleMaskiANGLE` | 1115 | Exported Function
+`SampleMaskiContextANGLE` | 1117 | Exported Function
+`SamplerParameterfContextANGLE` | 1131 | Exported Function
+`SamplerParameterf` | 1130 | Exported Function
+`SamplerParameterIuivContextANGLE` | 1125 | Exported Function
+`SamplerParameterIuiv` | 1124 | Exported Function
+`SamplerParameterIuivOES` | 1126 | Exported Function
+`SamplerParameterIuivRobustANGLE` | 1128 | Exported Function
+`SamplerParameterIuivOESContextANGLE` | 1127 | Exported Function
+`SamplerParameterIivRobustANGLEContextANGLE` | 1123 | Exported Function
+`SamplerParameterIivContextANGLE` | 1119 | Exported Function
+`SamplerParameterIiv` | 1118 | Exported Function
+`SamplerParameterIivOES` | 1120 | Exported Function
+`SamplerParameterIivRobustANGLE` | 1122 | Exported Function
+`SamplerParameterIivOESContextANGLE` | 1121 | Exported Function
+`SampleMaski` | 1114 | Exported Function
+`RenderbufferStorageMultisampleEXTContextANGLE` | 1099 | Exported Function
+`RenderbufferStorageMultisampleEXT` | 1098 | Exported Function
+`RenderbufferStorageOES` | 1100 | Exported Function
+`RequestExtensionANGLE` | 1102 | Exported Function
+`RenderbufferStorageOESContextANGLE` | 1101 | Exported Function
+`RenderbufferStorageMultisampleContextANGLE` | 1097 | Exported Function
+`RenderbufferStorageContextANGLE` | 1093 | Exported Function
+`RenderbufferStorage` | 1092 | Exported Function
+`RenderbufferStorageMultisample` | 1094 | Exported Function
+`RenderbufferStorageMultisampleANGLEContextANGLE` | 1096 | Exported Function
+`RenderbufferStorageMultisampleANGLE` | 1095 | Exported Function
+`SampleCoverage` | 1110 | Exported Function
+`RotatexContextANGLE` | 1109 | Exported Function
+`SampleCoverageContextANGLE` | 1111 | Exported Function
+`SampleCoveragexContextANGLE` | 1113 | Exported Function
+`SampleCoveragex` | 1112 | Exported Function
+`Rotatex` | 1108 | Exported Function
+`ResumeTransformFeedback` | 1104 | Exported Function
+`RequestExtensionANGLEContextANGLE` | 1103 | Exported Function
+`ResumeTransformFeedbackContextANGLE` | 1105 | Exported Function
+`RotatefContextANGLE` | 1107 | Exported Function
+`Rotatef` | 1106 | Exported Function
+`UniformMatrix4x3fvContextANGLE` | 1353 | Exported Function
+`UniformMatrix4x3fv` | 1352 | Exported Function
+`UseProgram` | 1358 | Exported Function
+`UseProgramStages` | 1360 | Exported Function
+`UseProgramContextANGLE` | 1359 | Exported Function
+`UniformMatrix4x2fvContextANGLE` | 1351 | Exported Function
+`UniformMatrix3x4fvContextANGLE` | 1347 | Exported Function
+`UniformMatrix3x4fv` | 1346 | Exported Function
+`UniformMatrix4fv` | 1348 | Exported Function
+`UniformMatrix4x2fv` | 1350 | Exported Function
+`UniformMatrix4fvContextANGLE` | 1349 | Exported Function
+`VertexAttrib1fv` | 1368 | Exported Function
+`VertexAttrib1fContextANGLE` | 1367 | Exported Function
+`VertexAttrib1fvContextANGLE` | 1369 | Exported Function
+`VertexAttrib2fContextANGLE` | 1371 | Exported Function
+`VertexAttrib2f` | 1370 | Exported Function
+`VertexAttrib1f` | 1366 | Exported Function
+`ValidateProgram` | 1362 | Exported Function
+`UseProgramStagesContextANGLE` | 1361 | Exported Function
+`ValidateProgramContextANGLE` | 1363 | Exported Function
+`ValidateProgramPipelineContextANGLE` | 1365 | Exported Function
+`ValidateProgramPipeline` | 1364 | Exported Function
+`UniformMatrix3x2fvContextANGLE` | 1345 | Exported Function
+`Uniform4ui` | 1330 | Exported Function
+`Uniform4ivContextANGLE` | 1329 | Exported Function
+`Uniform4uiContextANGLE` | 1331 | Exported Function
+`Uniform4uivContextANGLE` | 1333 | Exported Function
+`Uniform4uiv` | 1332 | Exported Function
+`Uniform4iv` | 1328 | Exported Function
+`Uniform4fv` | 1324 | Exported Function
+`Uniform4fContextANGLE` | 1323 | Exported Function
+`Uniform4fvContextANGLE` | 1325 | Exported Function
+`Uniform4iContextANGLE` | 1327 | Exported Function
+`Uniform4i` | 1326 | Exported Function
+`UniformMatrix2x4fvContextANGLE` | 1341 | Exported Function
+`UniformMatrix2x4fv` | 1340 | Exported Function
+`UniformMatrix3fv` | 1342 | Exported Function
+`UniformMatrix3x2fv` | 1344 | Exported Function
+`UniformMatrix3fvContextANGLE` | 1343 | Exported Function
+`UniformMatrix2x3fvContextANGLE` | 1339 | Exported Function
+`UniformBlockBindingContextANGLE` | 1335 | Exported Function
+`UniformBlockBinding` | 1334 | Exported Function
+`UniformMatrix2fv` | 1336 | Exported Function
+`UniformMatrix2x3fv` | 1338 | Exported Function
+`UniformMatrix2fvContextANGLE` | 1337 | Exported Function
+`VertexAttrib2fv` | 1372 | Exported Function
+`VertexAttribIPointerContextANGLE` | 1403 | Exported Function
+`VertexAttribIPointer` | 1402 | Exported Function
+`VertexAttribPointer` | 1404 | Exported Function
+`VertexBindingDivisor` | 1406 | Exported Function
+`VertexAttribPointerContextANGLE` | 1405 | Exported Function
+`VertexAttribIFormatContextANGLE` | 1401 | Exported Function
+`VertexAttribI4uiContextANGLE` | 1397 | Exported Function
+`VertexAttribI4ui` | 1396 | Exported Function
+`VertexAttribI4uiv` | 1398 | Exported Function
+`VertexAttribIFormat` | 1400 | Exported Function
+`VertexAttribI4uivContextANGLE` | 1399 | Exported Function
+`WaitSync` | 1414 | Exported Function
+`WaitSemaphoreEXTContextANGLE` | 1413 | Exported Function
+`WaitSyncContextANGLE` | 1415 | Exported Function
+`WeightPointerOESContextANGLE` | 1417 | Exported Function
+`WeightPointerOES` | 1416 | Exported Function
+`WaitSemaphoreEXT` | 1412 | Exported Function
+`VertexPointer` | 1408 | Exported Function
+`VertexBindingDivisorContextANGLE` | 1407 | Exported Function
+`VertexPointerContextANGLE` | 1409 | Exported Function
+`ViewportContextANGLE` | 1411 | Exported Function
+`Viewport` | 1410 | Exported Function
+`VertexAttribI4ivContextANGLE` | 1395 | Exported Function
+`VertexAttrib4fv` | 1380 | Exported Function
+`VertexAttrib4fContextANGLE` | 1379 | Exported Function
+`VertexAttrib4fvContextANGLE` | 1381 | Exported Function
+`VertexAttribBindingContextANGLE` | 1383 | Exported Function
+`VertexAttribBinding` | 1382 | Exported Function
+`VertexAttrib4f` | 1378 | Exported Function
+`VertexAttrib3f` | 1374 | Exported Function
+`VertexAttrib2fvContextANGLE` | 1373 | Exported Function
+`VertexAttrib3fContextANGLE` | 1375 | Exported Function
+`VertexAttrib3fvContextANGLE` | 1377 | Exported Function
+`VertexAttrib3fv` | 1376 | Exported Function
+`VertexAttribFormatContextANGLE` | 1391 | Exported Function
+`VertexAttribFormat` | 1390 | Exported Function
+`VertexAttribI4i` | 1392 | Exported Function
+`VertexAttribI4iv` | 1394 | Exported Function
+`VertexAttribI4iContextANGLE` | 1393 | Exported Function
+`VertexAttribDivisorEXTContextANGLE` | 1389 | Exported Function
+`VertexAttribDivisorANGLE` | 1385 | Exported Function
+`VertexAttribDivisor` | 1384 | Exported Function
+`VertexAttribDivisorANGLEContextANGLE` | 1386 | Exported Function
+`VertexAttribDivisorEXT` | 1388 | Exported Function
+`VertexAttribDivisorContextANGLE` | 1387 | Exported Function
+`Uniform4f` | 1322 | Exported Function
+`TexStorage3DMultisampleOESContextANGLE` | 1261 | Exported Function
+`TexStorage3DMultisampleOES` | 1260 | Exported Function
+`TexStorageMem2DEXT` | 1262 | Exported Function
+`TexStorageMem2DMultisampleEXT` | 1264 | Exported Function
+`TexStorageMem2DEXTContextANGLE` | 1263 | Exported Function
+`TexStorage3DMultisampleContextANGLE` | 1259 | Exported Function
+`TexStorage3DContextANGLE` | 1255 | Exported Function
+`TexStorage3D` | 1254 | Exported Function
+`TexStorage3DEXT` | 1256 | Exported Function
+`TexStorage3DMultisample` | 1258 | Exported Function
+`TexStorage3DEXTContextANGLE` | 1257 | Exported Function
+`TexSubImage2DRobustANGLE` | 1272 | Exported Function
+`TexSubImage2DContextANGLE` | 1271 | Exported Function
+`TexSubImage2DRobustANGLEContextANGLE` | 1273 | Exported Function
+`TexSubImage3DContextANGLE` | 1275 | Exported Function
+`TexSubImage3D` | 1274 | Exported Function
+`TexSubImage2D` | 1270 | Exported Function
+`TexStorageMem3DEXT` | 1266 | Exported Function
+`TexStorageMem2DMultisampleEXTContextANGLE` | 1265 | Exported Function
+`TexStorageMem3DEXTContextANGLE` | 1267 | Exported Function
+`TexStorageMem3DMultisampleEXTContextANGLE` | 1269 | Exported Function
+`TexStorageMem3DMultisampleEXT` | 1268 | Exported Function
+`TexStorage2DMultisampleContextANGLE` | 1253 | Exported Function
+`TexParameterivRobustANGLE` | 1238 | Exported Function
+`TexParameterivContextANGLE` | 1237 | Exported Function
+`TexParameterivRobustANGLEContextANGLE` | 1239 | Exported Function
+`TexParameterxContextANGLE` | 1241 | Exported Function
+`TexParameterx` | 1240 | Exported Function
+`TexParameteriv` | 1236 | Exported Function
+`TexParameterIuivOES` | 1224 | Exported Function
+`TexParameterIuivContextANGLE` | 1223 | Exported Function
+`TexParameterIuivOESContextANGLE` | 1225 | Exported Function
+`TexParameterIuivRobustANGLEContextANGLE` | 1227 | Exported Function
+`TexParameterIuivRobustANGLE` | 1226 | Exported Function
+`TexStorage2DEXTContextANGLE` | 1249 | Exported Function
+`TexStorage2DEXT` | 1248 | Exported Function
+`TexStorage2DMultisample` | 1250 | Exported Function
+`TexStorage2DMultisampleANGLEContextANGLE` | 1252 | Exported Function
+`TexStorage2DMultisampleANGLE` | 1251 | Exported Function
+`TexStorage2DContextANGLE` | 1247 | Exported Function
+`TexParameterxvContextANGLE` | 1243 | Exported Function
+`TexParameterxv` | 1242 | Exported Function
+`TexStorage1DEXT` | 1244 | Exported Function
+`TexStorage2D` | 1246 | Exported Function
+`TexStorage1DEXTContextANGLE` | 1245 | Exported Function
+`TexSubImage3DOES` | 1276 | Exported Function
+`Uniform2uiContextANGLE` | 1307 | Exported Function
+`Uniform2ui` | 1306 | Exported Function
+`Uniform2uiv` | 1308 | Exported Function
+`Uniform3f` | 1310 | Exported Function
+`Uniform2uivContextANGLE` | 1309 | Exported Function
+`Uniform2ivContextANGLE` | 1305 | Exported Function
+`Uniform2fvContextANGLE` | 1301 | Exported Function
+`Uniform2fv` | 1300 | Exported Function
+`Uniform2i` | 1302 | Exported Function
+`Uniform2iv` | 1304 | Exported Function
+`Uniform2iContextANGLE` | 1303 | Exported Function
+`Uniform3ui` | 1318 | Exported Function
+`Uniform3ivContextANGLE` | 1317 | Exported Function
+`Uniform3uiContextANGLE` | 1319 | Exported Function
+`Uniform3uivContextANGLE` | 1321 | Exported Function
+`Uniform3uiv` | 1320 | Exported Function
+`Uniform3iv` | 1316 | Exported Function
+`Uniform3fv` | 1312 | Exported Function
+`Uniform3fContextANGLE` | 1311 | Exported Function
+`Uniform3fvContextANGLE` | 1313 | Exported Function
+`Uniform3iContextANGLE` | 1315 | Exported Function
+`Uniform3i` | 1314 | Exported Function
+`Uniform2fContextANGLE` | 1299 | Exported Function
+`Translatex` | 1284 | Exported Function
+`TranslatefContextANGLE` | 1283 | Exported Function
+`TranslatexContextANGLE` | 1285 | Exported Function
+`Uniform1fContextANGLE` | 1287 | Exported Function
+`Uniform1f` | 1286 | Exported Function
+`Translatef` | 1282 | Exported Function
+`TexSubImage3DRobustANGLE` | 1278 | Exported Function
+`TexSubImage3DOESContextANGLE` | 1277 | Exported Function
+`TexSubImage3DRobustANGLEContextANGLE` | 1279 | Exported Function
+`TransformFeedbackVaryingsContextANGLE` | 1281 | Exported Function
+`TransformFeedbackVaryings` | 1280 | Exported Function
+`Uniform1uiContextANGLE` | 1295 | Exported Function
+`Uniform1ui` | 1294 | Exported Function
+`Uniform1uiv` | 1296 | Exported Function
+`Uniform2f` | 1298 | Exported Function
+`Uniform1uivContextANGLE` | 1297 | Exported Function
+`Uniform1ivContextANGLE` | 1293 | Exported Function
+`Uniform1fvContextANGLE` | 1289 | Exported Function
+`Uniform1fv` | 1288 | Exported Function
+`Uniform1i` | 1290 | Exported Function
+`Uniform1iv` | 1292 | Exported Function
+`Uniform1iContextANGLE` | 1291 | Exported Function
+`GetTexParameterxv` | 728 | Exported Function
+`GetTexParameterivRobustANGLEContextANGLE` | 727 | Exported Function
+`GetTexParameterxvContextANGLE` | 729 | Exported Function
+`GetTransformFeedbackVaryingContextANGLE` | 731 | Exported Function
+`GetTransformFeedbackVarying` | 730 | Exported Function
+`GetTexParameterivRobustANGLE` | 726 | Exported Function
+`GetTexParameterIuivRobustANGLE` | 718 | Exported Function
+`GetTexParameterIuivOESContextANGLE` | 717 | Exported Function
+`GetTexParameterIuivRobustANGLEContextANGLE` | 719 | Exported Function
+`GetTexParameterivContextANGLE` | 725 | Exported Function
+`GetTexParameteriv` | 724 | Exported Function
+`GetUniformIndicesContextANGLE` | 737 | Exported Function
+`GetUniformIndices` | 736 | Exported Function
+`GetUniformiv` | 744 | Exported Function
+`GetUniformivRobustANGLE` | 746 | Exported Function
+`GetUniformivContextANGLE` | 745 | Exported Function
+`GetUniformfvRobustANGLEContextANGLE` | 743 | Exported Function
+`GetTranslatedShaderSourceANGLEContextANGLE` | 733 | Exported Function
+`GetTranslatedShaderSourceANGLE` | 732 | Exported Function
+`GetUniformfv` | 740 | Exported Function
+`GetUniformfvRobustANGLE` | 742 | Exported Function
+`GetUniformfvContextANGLE` | 741 | Exported Function
+`GetTexParameterIuivOES` | 716 | Exported Function
+`GetTexLevelParameterivContextANGLE` | 705 | Exported Function
+`GetTexLevelParameterivANGLEContextANGLE` | 704 | Exported Function
+`GetTexLevelParameterivRobustANGLE` | 706 | Exported Function
+`GetTexParameterfv` | 720 | Exported Function
+`GetTexLevelParameterivRobustANGLEContextANGLE` | 707 | Exported Function
+`GetTexLevelParameterivANGLE` | 703 | Exported Function
+`GetTexLevelParameterfvContextANGLE` | 699 | Exported Function
+`GetTexLevelParameterfvANGLEContextANGLE` | 698 | Exported Function
+`GetTexLevelParameterfvRobustANGLE` | 700 | Exported Function
+`GetTexLevelParameteriv` | 702 | Exported Function
+`GetTexLevelParameterfvRobustANGLEContextANGLE` | 701 | Exported Function
+`GetTexParameterIivRobustANGLE` | 712 | Exported Function
+`GetTexParameterIivOESContextANGLE` | 711 | Exported Function
+`GetTexParameterIivRobustANGLEContextANGLE` | 713 | Exported Function
+`GetTexParameterIuivContextANGLE` | 715 | Exported Function
+`GetTexParameterIuiv` | 714 | Exported Function
+`GetTexParameterIivOES` | 710 | Exported Function
+`GetTexParameterfvRobustANGLE` | 722 | Exported Function
+`GetTexParameterfvContextANGLE` | 721 | Exported Function
+`GetTexParameterfvRobustANGLEContextANGLE` | 723 | Exported Function
+`GetTexParameterIivContextANGLE` | 709 | Exported Function
+`GetTexParameterIiv` | 708 | Exported Function
+`GetUniformivRobustANGLEContextANGLE` | 747 | Exported Function
+`ImportMemoryFdEXT` | 794 | Exported Function
+`HintContextANGLE` | 793 | Exported Function
+`ImportMemoryFdEXTContextANGLE` | 795 | Exported Function
+`ImportMemoryZirconHandleANGLEContextANGLE` | 797 | Exported Function
+`ImportMemoryZirconHandleANGLE` | 796 | Exported Function
+`Hint` | 792 | Exported Function
+`GetVertexAttribPointerv` | 764 | Exported Function
+`GetVertexAttribivRobustANGLEContextANGLE` | 775 | Exported Function
+`GetVertexAttribPointervContextANGLE` | 765 | Exported Function
+`GetVertexAttribPointervRobustANGLEContextANGLE` | 767 | Exported Function
+`GetVertexAttribPointervRobustANGLE` | 766 | Exported Function
+`InvalidateFramebufferContextANGLE` | 805 | Exported Function
+`InvalidateFramebuffer` | 804 | Exported Function
+`InvalidateSubFramebuffer` | 806 | Exported Function
+`InvalidateTextureANGLE` | 808 | Exported Function
+`InvalidateSubFramebufferContextANGLE` | 807 | Exported Function
+`InsertEventMarkerEXTContextANGLE` | 803 | Exported Function
+`ImportSemaphoreFdEXTContextANGLE` | 799 | Exported Function
+`ImportSemaphoreFdEXT` | 798 | Exported Function
+`ImportSemaphoreZirconHandleANGLE` | 800 | Exported Function
+`InsertEventMarkerEXT` | 802 | Exported Function
+`ImportSemaphoreZirconHandleANGLEContextANGLE` | 801 | Exported Function
+`GetVertexAttribivRobustANGLE` | 774 | Exported Function
+`GetUnsignedBytevEXTContextANGLE` | 755 | Exported Function
+`GetUnsignedBytevEXT` | 754 | Exported Function
+`GetVertexAttribfv` | 768 | Exported Function
+`GetVertexAttribfvRobustANGLE` | 770 | Exported Function
+`GetVertexAttribfvContextANGLE` | 769 | Exported Function
+`GetUnsignedBytei_vEXTContextANGLE` | 753 | Exported Function
+`GetUniformuivContextANGLE` | 749 | Exported Function
+`GetUniformuiv` | 748 | Exported Function
+`GetUniformuivRobustANGLE` | 750 | Exported Function
+`GetUnsignedBytei_vEXT` | 752 | Exported Function
+`GetUniformuivRobustANGLEContextANGLE` | 751 | Exported Function
+`GetVertexAttribIuivRobustANGLE` | 762 | Exported Function
+`GetVertexAttribIuivContextANGLE` | 761 | Exported Function
+`GetVertexAttribIuivRobustANGLEContextANGLE` | 763 | Exported Function
+`GetVertexAttribivContextANGLE` | 773 | Exported Function
+`GetVertexAttribiv` | 772 | Exported Function
+`GetVertexAttribIuiv` | 760 | Exported Function
+`GetVertexAttribIiv` | 756 | Exported Function
+`GetVertexAttribfvRobustANGLEContextANGLE` | 771 | Exported Function
+`GetVertexAttribIivContextANGLE` | 757 | Exported Function
+`GetVertexAttribIivRobustANGLEContextANGLE` | 759 | Exported Function
+`GetVertexAttribIivRobustANGLE` | 758 | Exported Function
+`GetTexLevelParameterfvANGLE` | 697 | Exported Function
+`GetQueryObjectuivEXT` | 626 | Exported Function
+`GetQueryObjectuivContextANGLE` | 625 | Exported Function
+`GetQueryObjectuivEXTContextANGLE` | 627 | Exported Function
+`GetQueryObjectuivRobustANGLEContextANGLE` | 629 | Exported Function
+`GetQueryObjectuivRobustANGLE` | 628 | Exported Function
+`GetQueryObjectuiv` | 624 | Exported Function
+`GetQueryObjectui64vEXT` | 620 | Exported Function
+`GetQueryObjectivRobustANGLEContextANGLE` | 619 | Exported Function
+`GetQueryObjectui64vEXTContextANGLE` | 621 | Exported Function
+`GetQueryObjectui64vRobustANGLEContextANGLE` | 623 | Exported Function
+`GetQueryObjectui64vRobustANGLE` | 622 | Exported Function
+`GetRenderbufferParameterivRobustANGLEContextANGLE` | 643 | Exported Function
+`GetRenderbufferParameterivRobustANGLE` | 642 | Exported Function
+`GetSamplerParameterfv` | 656 | Exported Function
+`GetSamplerParameterfvRobustANGLE` | 658 | Exported Function
+`GetSamplerParameterfvContextANGLE` | 657 | Exported Function
+`GetRenderbufferParameterivOESContextANGLE` | 641 | Exported Function
+`GetRenderbufferImageANGLEContextANGLE` | 637 | Exported Function
+`GetRenderbufferImageANGLE` | 636 | Exported Function
+`GetRenderbufferParameteriv` | 638 | Exported Function
+`GetRenderbufferParameterivOES` | 640 | Exported Function
+`GetRenderbufferParameterivContextANGLE` | 639 | Exported Function
+`GetQueryObjectivRobustANGLE` | 618 | Exported Function
+`GetProgramResourceivContextANGLE` | 607 | Exported Function
+`GetProgramResourceiv` | 606 | Exported Function
+`GetProgramResourceName` | 604 | Exported Function
+`GetQueryiv` | 630 | Exported Function
+`GetProgramResourceNameContextANGLE` | 605 | Exported Function
+`GetProgramPipelineivContextANGLE` | 597 | Exported Function
+`GetProgramivRobustANGLEContextANGLE` | 611 | Exported Function
+`GetProgramivRobustANGLE` | 610 | Exported Function
+`GetProgramPipelineInfoLog` | 594 | Exported Function
+`GetProgramPipelineiv` | 596 | Exported Function
+`GetProgramPipelineInfoLogContextANGLE` | 595 | Exported Function
+`GetQueryObjecti64vRobustANGLE` | 614 | Exported Function
+`GetQueryObjecti64vEXTContextANGLE` | 613 | Exported Function
+`GetQueryObjecti64vRobustANGLEContextANGLE` | 615 | Exported Function
+`GetQueryObjectivEXTContextANGLE` | 617 | Exported Function
+`GetQueryObjectivEXT` | 616 | Exported Function
+`GetQueryObjecti64vEXT` | 612 | Exported Function
+`GetQueryivEXT` | 632 | Exported Function
+`GetQueryivContextANGLE` | 631 | Exported Function
+`GetQueryivEXTContextANGLE` | 633 | Exported Function
+`GetQueryivRobustANGLEContextANGLE` | 635 | Exported Function
+`GetQueryivRobustANGLE` | 634 | Exported Function
+`GetSamplerParameterfvRobustANGLEContextANGLE` | 659 | Exported Function
+`GetTexEnvfv` | 682 | Exported Function
+`GetSyncivContextANGLE` | 681 | Exported Function
+`GetTexEnvfvContextANGLE` | 683 | Exported Function
+`GetTexEnvivContextANGLE` | 685 | Exported Function
+`GetTexEnviv` | 684 | Exported Function
+`GetSynciv` | 680 | Exported Function
+`GetShaderPrecisionFormat` | 668 | Exported Function
+`GetShaderivRobustANGLEContextANGLE` | 675 | Exported Function
+`GetShaderPrecisionFormatContextANGLE` | 669 | Exported Function
+`GetShaderSourceContextANGLE` | 671 | Exported Function
+`GetShaderSource` | 670 | Exported Function
+`GetTexGenxvOESContextANGLE` | 693 | Exported Function
+`GetTexGenxvOES` | 692 | Exported Function
+`GetTexImageANGLE` | 694 | Exported Function
+`GetTexLevelParameterfv` | 696 | Exported Function
+`GetTexImageANGLEContextANGLE` | 695 | Exported Function
+`GetTexGenivOESContextANGLE` | 691 | Exported Function
+`GetTexEnvxvContextANGLE` | 687 | Exported Function
+`GetTexEnvxv` | 686 | Exported Function
+`GetTexGenfvOES` | 688 | Exported Function
+`GetTexGenivOES` | 690 | Exported Function
+`GetTexGenfvOESContextANGLE` | 689 | Exported Function
+`GetShaderivRobustANGLE` | 674 | Exported Function
+`GetSamplerParameterIuivContextANGLE` | 651 | Exported Function
+`GetSamplerParameterIuiv` | 650 | Exported Function
+`GetSamplerParameterIuivOES` | 652 | Exported Function
+`GetSamplerParameterIuivRobustANGLE` | 654 | Exported Function
+`GetSamplerParameterIuivOESContextANGLE` | 653 | Exported Function
+`GetSamplerParameterIivRobustANGLEContextANGLE` | 649 | Exported Function
+`GetSamplerParameterIivContextANGLE` | 645 | Exported Function
+`GetSamplerParameterIiv` | 644 | Exported Function
+`GetSamplerParameterIivOES` | 646 | Exported Function
+`GetSamplerParameterIivRobustANGLE` | 648 | Exported Function
+`GetSamplerParameterIivOESContextANGLE` | 647 | Exported Function
+`GetShaderInfoLog` | 666 | Exported Function
+`GetSemaphoreParameterui64vEXTContextANGLE` | 665 | Exported Function
+`GetShaderInfoLogContextANGLE` | 667 | Exported Function
+`GetShaderivContextANGLE` | 673 | Exported Function
+`GetShaderiv` | 672 | Exported Function
+`GetSemaphoreParameterui64vEXT` | 664 | Exported Function
+`GetSamplerParameteriv` | 660 | Exported Function
+`GetSamplerParameterIuivRobustANGLEContextANGLE` | 655 | Exported Function
+`GetSamplerParameterivContextANGLE` | 661 | Exported Function
+`GetSamplerParameterivRobustANGLEContextANGLE` | 663 | Exported Function
+`GetSamplerParameterivRobustANGLE` | 662 | Exported Function
+`PopDebugGroupContextANGLE` | 983 | Exported Function
+`PopDebugGroup` | 982 | Exported Function
+`PopDebugGroupKHR` | 984 | Exported Function
+`PopGroupMarkerEXT` | 986 | Exported Function
+`PopDebugGroupKHRContextANGLE` | 985 | Exported Function
+`PolygonOffsetxContextANGLE` | 981 | Exported Function
+`PointSizexContextANGLE` | 977 | Exported Function
+`PointSizex` | 976 | Exported Function
+`PolygonOffset` | 978 | Exported Function
+`PolygonOffsetx` | 980 | Exported Function
+`PolygonOffsetContextANGLE` | 979 | Exported Function
+`ProgramBinaryOES` | 994 | Exported Function
+`ProgramBinaryContextANGLE` | 993 | Exported Function
+`ProgramBinaryOESContextANGLE` | 995 | Exported Function
+`ProgramParameteriContextANGLE` | 997 | Exported Function
+`ProgramParameteri` | 996 | Exported Function
+`ProgramBinary` | 992 | Exported Function
+`PopMatrix` | 988 | Exported Function
+`PopGroupMarkerEXTContextANGLE` | 987 | Exported Function
+`PopMatrixContextANGLE` | 989 | Exported Function
+`PrimitiveBoundingBoxContextANGLE` | 991 | Exported Function
+`PrimitiveBoundingBox` | 990 | Exported Function
+`PointSizePointerOESContextANGLE` | 975 | Exported Function
+`PauseTransformFeedback` | 960 | Exported Function
+`PatchParameteriContextANGLE` | 959 | Exported Function
+`PauseTransformFeedbackContextANGLE` | 961 | Exported Function
+`PixelStoreiContextANGLE` | 963 | Exported Function
+`PixelStorei` | 962 | Exported Function
+`PatchParameteri` | 958 | Exported Function
+`Orthof` | 954 | Exported Function
+`ObjectPtrLabelKHRContextANGLE` | 953 | Exported Function
+`OrthofContextANGLE` | 955 | Exported Function
+`OrthoxContextANGLE` | 957 | Exported Function
+`Orthox` | 956 | Exported Function
+`PointParameterxvContextANGLE` | 971 | Exported Function
+`PointParameterxv` | 970 | Exported Function
+`PointSize` | 972 | Exported Function
+`PointSizePointerOES` | 974 | Exported Function
+`PointSizeContextANGLE` | 973 | Exported Function
+`PointParameterxContextANGLE` | 969 | Exported Function
+`PointParameterfContextANGLE` | 965 | Exported Function
+`PointParameterf` | 964 | Exported Function
+`PointParameterfv` | 966 | Exported Function
+`PointParameterx` | 968 | Exported Function
+`PointParameterfvContextANGLE` | 967 | Exported Function
+`ProgramUniform1f` | 998 | Exported Function
+`ProgramUniform3ivContextANGLE` | 1029 | Exported Function
+`ProgramUniform3iv` | 1028 | Exported Function
+`ProgramUniform3ui` | 1030 | Exported Function
+`ProgramUniform3uiv` | 1032 | Exported Function
+`ProgramUniform3uiContextANGLE` | 1031 | Exported Function
+`ProgramUniform3iContextANGLE` | 1027 | Exported Function
+`ProgramUniform3fContextANGLE` | 1023 | Exported Function
+`ProgramUniform3f` | 1022 | Exported Function
+`ProgramUniform3fv` | 1024 | Exported Function
+`ProgramUniform3i` | 1026 | Exported Function
+`ProgramUniform3fvContextANGLE` | 1025 | Exported Function
+`ProgramUniform4iv` | 1040 | Exported Function
+`ProgramUniform4iContextANGLE` | 1039 | Exported Function
+`ProgramUniform4ivContextANGLE` | 1041 | Exported Function
+`ProgramUniform4uiContextANGLE` | 1043 | Exported Function
+`ProgramUniform4ui` | 1042 | Exported Function
+`ProgramUniform4i` | 1038 | Exported Function
+`ProgramUniform4f` | 1034 | Exported Function
+`ProgramUniform3uivContextANGLE` | 1033 | Exported Function
+`ProgramUniform4fContextANGLE` | 1035 | Exported Function
+`ProgramUniform4fvContextANGLE` | 1037 | Exported Function
+`ProgramUniform4fv` | 1036 | Exported Function
+`ProgramUniform2uivContextANGLE` | 1021 | Exported Function
+`ProgramUniform1ui` | 1006 | Exported Function
+`ProgramUniform1ivContextANGLE` | 1005 | Exported Function
+`ProgramUniform1uiContextANGLE` | 1007 | Exported Function
+`ProgramUniform1uivContextANGLE` | 1009 | Exported Function
+`ProgramUniform1uiv` | 1008 | Exported Function
+`ProgramUniform1iv` | 1004 | Exported Function
+`ProgramUniform1fv` | 1000 | Exported Function
+`ProgramUniform1fContextANGLE` | 999 | Exported Function
+`ProgramUniform1fvContextANGLE` | 1001 | Exported Function
+`ProgramUniform1iContextANGLE` | 1003 | Exported Function
+`ProgramUniform1i` | 1002 | Exported Function
+`ProgramUniform2ivContextANGLE` | 1017 | Exported Function
+`ProgramUniform2iv` | 1016 | Exported Function
+`ProgramUniform2ui` | 1018 | Exported Function
+`ProgramUniform2uiv` | 1020 | Exported Function
+`ProgramUniform2uiContextANGLE` | 1019 | Exported Function
+`ProgramUniform2iContextANGLE` | 1015 | Exported Function
+`ProgramUniform2fContextANGLE` | 1011 | Exported Function
+`ProgramUniform2f` | 1010 | Exported Function
+`ProgramUniform2fv` | 1012 | Exported Function
+`ProgramUniform2i` | 1014 | Exported Function
+`ProgramUniform2fvContextANGLE` | 1013 | Exported Function
+`ObjectPtrLabelKHR` | 952 | Exported Function
+`LoadPaletteFromModelViewMatrixOESContextANGLE` | 885 | Exported Function
+`LoadPaletteFromModelViewMatrixOES` | 884 | Exported Function
+`LogicOp` | 886 | Exported Function
+`LoseContextCHROMIUM` | 888 | Exported Function
+`LogicOpContextANGLE` | 887 | Exported Function
+`LoadMatrixxContextANGLE` | 883 | Exported Function
+`LoadIdentityContextANGLE` | 879 | Exported Function
+`LoadIdentity` | 878 | Exported Function
+`LoadMatrixf` | 880 | Exported Function
+`LoadMatrixx` | 882 | Exported Function
+`LoadMatrixfContextANGLE` | 881 | Exported Function
+`Materialxv` | 902 | Exported Function
+`MaterialxContextANGLE` | 901 | Exported Function
+`MaterialxvContextANGLE` | 903 | Exported Function
+`MatrixIndexPointerOESContextANGLE` | 905 | Exported Function
+`MatrixIndexPointerOES` | 904 | Exported Function
+`Materialx` | 900 | Exported Function
+`Materialf` | 896 | Exported Function
+`LoseContextCHROMIUMContextANGLE` | 889 | Exported Function
+`MaterialfContextANGLE` | 897 | Exported Function
+`MaterialfvContextANGLE` | 899 | Exported Function
+`Materialfv` | 898 | Exported Function
+`LinkProgramContextANGLE` | 877 | Exported Function
+`LightModelfv` | 858 | Exported Function
+`LightModelfContextANGLE` | 857 | Exported Function
+`LightModelfvContextANGLE` | 859 | Exported Function
+`LightModelxContextANGLE` | 861 | Exported Function
+`LightModelx` | 860 | Exported Function
+`LightModelf` | 856 | Exported Function
+`Lightf` | 864 | Exported Function
+`InvalidateTextureANGLEContextANGLE` | 809 | Exported Function
+`LightfContextANGLE` | 865 | Exported Function
+`LightfvContextANGLE` | 867 | Exported Function
+`Lightfv` | 866 | Exported Function
+`LineWidthContextANGLE` | 873 | Exported Function
+`LineWidth` | 872 | Exported Function
+`LineWidthx` | 874 | Exported Function
+`LinkProgram` | 876 | Exported Function
+`LineWidthxContextANGLE` | 875 | Exported Function
+`LightxvContextANGLE` | 871 | Exported Function
+`LightModelxvContextANGLE` | 863 | Exported Function
+`LightModelxv` | 862 | Exported Function
+`Lightx` | 868 | Exported Function
+`Lightxv` | 870 | Exported Function
+`LightxContextANGLE` | 869 | Exported Function
+`MatrixMode` | 906 | Exported Function
+`MultMatrixfContextANGLE` | 919 | Exported Function
+`MultMatrixf` | 918 | Exported Function
+`MultMatrixx` | 920 | Exported Function
+`Normal3f` | 940 | Exported Function
+`MultMatrixxContextANGLE` | 921 | Exported Function
+`MultiTexCoord4xContextANGLE` | 939 | Exported Function
+`MultiDrawElementsInstancedBaseVertexBaseInstanceANGLEContextANGLE` | 935 | Exported Function
+`MultiDrawElementsInstancedBaseVertexBaseInstanceANGLE` | 934 | Exported Function
+`MultiTexCoord4f` | 936 | Exported Function
+`MultiTexCoord4x` | 938 | Exported Function
+`MultiTexCoord4fContextANGLE` | 937 | Exported Function
+`ObjectLabelKHR` | 948 | Exported Function
+`ObjectLabelContextANGLE` | 947 | Exported Function
+`ObjectLabelKHRContextANGLE` | 949 | Exported Function
+`ObjectPtrLabelContextANGLE` | 951 | Exported Function
+`ObjectPtrLabel` | 950 | Exported Function
+`ObjectLabel` | 946 | Exported Function
+`Normal3x` | 942 | Exported Function
+`Normal3fContextANGLE` | 941 | Exported Function
+`Normal3xContextANGLE` | 943 | Exported Function
+`NormalPointerContextANGLE` | 945 | Exported Function
+`NormalPointer` | 944 | Exported Function
+`MultiDrawElementsInstancedANGLEContextANGLE` | 933 | Exported Function
+`MemoryObjectParameterivEXT` | 914 | Exported Function
+`MemoryBarrierContextANGLE` | 913 | Exported Function
+`MemoryObjectParameterivEXTContextANGLE` | 915 | Exported Function
+`MinSampleShadingContextANGLE` | 917 | Exported Function
+`MinSampleShading` | 916 | Exported Function
+`MemoryBarrierByRegionContextANGLE` | 912 | Exported Function
+`MaxShaderCompilerThreadsKHR` | 908 | Exported Function
+`MatrixModeContextANGLE` | 907 | Exported Function
+`MaxShaderCompilerThreadsKHRContextANGLE` | 909 | Exported Function
+`MemoryBarrierByRegion` | 911 | Exported Function
+`MemoryBarrier` | 910 | Exported Function
+`MultiDrawElementsANGLEContextANGLE` | 929 | Exported Function
+`MultiDrawElementsANGLE` | 928 | Exported Function
+`MultiDrawElementsBaseVertexEXT` | 930 | Exported Function
+`MultiDrawElementsInstancedANGLE` | 932 | Exported Function
+`MultiDrawElementsBaseVertexEXTContextANGLE` | 931 | Exported Function
+`MultiDrawArraysInstancedBaseInstanceANGLEContextANGLE` | 927 | Exported Function
+`MultiDrawArraysANGLEContextANGLE` | 923 | Exported Function
+`MultiDrawArraysANGLE` | 922 | Exported Function
+`MultiDrawArraysInstancedANGLE` | 924 | Exported Function
+`MultiDrawArraysInstancedBaseInstanceANGLE` | 926 | Exported Function
+`MultiDrawArraysInstancedANGLEContextANGLE` | 925 | Exported Function
 `glFogxContextANGLE` | 1906 | Exported Function
 `glFogx` | 1905 | Exported Function
 `glFogxv` | 1907 | Exported Function

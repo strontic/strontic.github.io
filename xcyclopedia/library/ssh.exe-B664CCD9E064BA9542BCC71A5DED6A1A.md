@@ -39,21 +39,59 @@ usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\SYSTEM32\DNSAPI.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\libcrypto.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\System32\mswsock.dll |
+C:\Windows\system32\napinsp.dll |
+C:\Windows\system32\NLAapi.dll |
+C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
 C:\Windows\system32\OpenSSH\ssh.exe |
+C:\Windows\System32\rasadhlp.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\winrnr.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\system32\wshbth.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -70,7 +108,7 @@ C:\Windows\system32\OpenSSH\ssh.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
+* VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/0c0e91427a4b0e4cd0b59bdb73054252fb74c0977d13a73ab7423e15528b0485/detection/
 
 

@@ -78,6 +78,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/c6aa1294f6a5aa52dc8ca2800065f22f7a0a8b5c1f5ec3e1761145d2e12024be/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\internet explorer\iediagcmd.exe](iediagcmd.exe-458E8CE16FC3DBE56E8F374E61F77326.md) | 65
 
 
 

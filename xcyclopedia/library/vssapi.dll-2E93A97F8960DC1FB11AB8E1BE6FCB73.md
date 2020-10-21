@@ -26,58 +26,58 @@ PE256 | `7106446C484D201D4BD62C717F45415569541F2030FE950C64B694EB631309B7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual bool __stdcall CVssJetWriter::OnPostRestoreEnd(class IVssWriterComponents *,bool)` | 55 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPostSnapshot(class IVssWriterComponents *)` | 56 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPostRestoreBegin(class IVssWriterComponents *)` | 54 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnFreezeEnd(bool)` | 50 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnIdentify(class IVssCreateWriterMetadata *)` | 51 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotEnd(bool)` | 65 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPreRestoreBegin(class IVssWriterComponents *)` | 59 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotBegin(void)` | 64 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupBegin(class IVssWriterComponents *)` | 62 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupEnd(class IVssWriterComponents *,bool)` | 63 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnFreezeBegin(void)` | 49 | Exported Function
-`public: long __stdcall CVssWriter::InstallAlternateWriter(struct _GUID,struct _GUID)` | 34 | Exported Function
-`public: long __stdcall CVssWriter::Subscribe(unsigned long)` | 72 | Exported Function
-`public: long __stdcall CVssWriter::Initialize(struct _GUID,unsigned short const *,enum VSS_USAGE_TYPE,enum VSS_SOURCE_TYPE,enum _VSS_APPLICATION_LEVEL,unsigned long,enum VSS_ALTERNATE_WRITER_STATE,bool,unsigned short const *)` | 33 | Exported Function
-`public: __thiscall CVssWriter::CVssWriter(void)` | 9 | Exported Function
-`public: long __stdcall CVssJetWriter::Initialize(struct _GUID,unsigned short const *,bool,bool,unsigned short const *,unsigned short const *,unsigned long)` | 32 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteBegin(class IVssWriterComponents *)` | 45 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteEnd(class IVssWriterComponents *,bool)` | 46 | Exported Function
+`OnPostRestoreEnd` | 55 | Exported Function
+`OnPostSnapshot` | 56 | Exported Function
+`OnPostRestoreBegin` | 54 | Exported Function
+`OnFreezeEnd` | 50 | Exported Function
+`OnIdentify` | 51 | Exported Function
+`OnPrepareSnapshotEnd` | 65 | Exported Function
+`OnPreRestoreBegin` | 59 | Exported Function
+`OnPrepareSnapshotBegin` | 64 | Exported Function
+`OnPrepareBackupBegin` | 62 | Exported Function
+`OnPrepareBackupEnd` | 63 | Exported Function
+`OnFreezeBegin` | 49 | Exported Function
+`InstallAlternateWriter` | 34 | Exported Function
+`Subscribe` | 72 | Exported Function
+`Initialize` | 33 | Exported Function
+`CVssWriter` | 9 | Exported Function
+`Initialize` | 32 | Exported Function
+`OnBackupCompleteBegin` | 45 | Exported Function
+`OnBackupCompleteEnd` | 46 | Exported Function
 `public: virtual __thiscall CVssWriter::~CVssWriter(void)` | 11 | Exported Function
-`public: long __stdcall CVssWriter::Unsubscribe(void)` | 74 | Exported Function
+`Unsubscribe` | 74 | Exported Function
 `public: virtual __thiscall CVssJetWriter::~CVssJetWriter(void)` | 10 | Exported Function
-`public: virtual void __stdcall CVssJetWriter::OnAbortBegin(void)` | 41 | Exported Function
-`public: virtual void __stdcall CVssJetWriter::OnAbortEnd(void)` | 42 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnVSSShutdown(void)` | 69 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnPreRestore(class IVssWriterComponents *)` | 58 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnVSSApplicationStartup(void)` | 68 | Exported Function
+`OnAbortBegin` | 41 | Exported Function
+`OnAbortEnd` | 42 | Exported Function
+`OnVSSShutdown` | 69 | Exported Function
+`OnPreRestore` | 58 | Exported Function
+`OnVSSApplicationStartup` | 68 | Exported Function
 `VssFreeSnapshotProperties` | 6 | Exported Function
 `VssFreeSnapshotPropertiesInternal` | 88 | Exported Function
 `ShouldBlockRevertInternal` | 87 | Exported Function
-`public: void __stdcall CVssJetWriter::Uninitialize(void)` | 73 | Exported Function
+`Uninitialize` | 73 | Exported Function
 `ShouldBlockRevert` | 7 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnPrepareBackup(class IVssWriterComponents *)` | 61 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnBackOffIOOnVolume(unsigned short *,struct _GUID,struct _GUID)` | 43 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnBackupComplete(class IVssWriterComponents *)` | 44 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnThawEnd(bool)` | 67 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnPreRestoreEnd(class IVssWriterComponents *,bool)` | 60 | Exported Function
-`public: virtual bool __stdcall CVssJetWriter::OnThawBegin(void)` | 66 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnPostRestore(class IVssWriterComponents *)` | 53 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnPostSnapshot(class IVssWriterComponents *)` | 57 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnIdentify(class IVssCreateWriterMetadata *)` | 52 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnBackupShutdown(struct _GUID)` | 47 | Exported Function
-`public: virtual bool __stdcall CVssWriter::OnContinueIOOnVolume(unsigned short *,struct _GUID,struct _GUID)` | 48 | Exported Function
+`OnPrepareBackup` | 61 | Exported Function
+`OnBackOffIOOnVolume` | 43 | Exported Function
+`OnBackupComplete` | 44 | Exported Function
+`OnThawEnd` | 67 | Exported Function
+`OnPreRestoreEnd` | 60 | Exported Function
+`OnThawBegin` | 66 | Exported Function
+`OnPostRestore` | 53 | Exported Function
+`OnPostSnapshot` | 57 | Exported Function
+`OnIdentify` | 52 | Exported Function
+`OnBackupShutdown` | 47 | Exported Function
+`OnContinueIOOnVolume` | 48 | Exported Function
 `long __stdcall CreateVssExamineWriterMetadata(unsigned short *,class IVssExamineWriterMetadata * *)` | 15 | Exported Function
-`protected: bool __stdcall CVssJetWriter::AreComponentsSelected(void)const ` | 12 | Exported Function
+`AreComponentsSelected` | 12 | Exported Function
 `long __stdcall CreateVssBackupComponents(class IVssBackupComponents * *)` | 14 | Exported Function
 `IsVolumeSnapshottedInternal` | 85 | Exported Function
 `LoadVssSnapshotSetDescription` | 86 | Exported Function
-`protected: bool __stdcall CVssWriter::AreComponentsSelected(void)const ` | 13 | Exported Function
-`protected: bool __stdcall CVssWriter::IsBootableSystemStateBackedUp(void)const ` | 36 | Exported Function
-`protected: bool __stdcall CVssJetWriter::IsPathAffected(unsigned short const *)const ` | 39 | Exported Function
-`protected: bool __stdcall CVssJetWriter::IsBootableSystemStateBackedUp(void)const ` | 35 | Exported Function
-`protected: bool __stdcall CVssJetWriter::IsPartialFileSupportEnabled(void)const ` | 37 | Exported Function
+`AreComponentsSelected` | 13 | Exported Function
+`IsBootableSystemStateBackedUp` | 36 | Exported Function
+`IsPathAffected` | 39 | Exported Function
+`IsBootableSystemStateBackedUp` | 35 | Exported Function
+`IsPartialFileSupportEnabled` | 37 | Exported Function
 `IsVolumeSnapshotted` | 5 | Exported Function
 `CreateVssSnapshotSetDescription` | 78 | Exported Function
 `CreateWriter` | 79 | Exported Function
@@ -89,27 +89,27 @@ Function Name | Ordinal | Type
 `DllGetClassObject` | 82 | Exported Function
 `CreateWriterEx` | 80 | Exported Function
 `DllCanUnloadNow` | 81 | Exported Function
-`protected: struct _GUID __stdcall CVssJetWriter::GetCurrentSnapshotSetId(void)const ` | 22 | Exported Function
-`protected: struct _GUID __stdcall CVssWriter::GetCurrentSnapshotSetId(void)const ` | 23 | Exported Function
-`protected: long __stdcall CVssWriter::SetWriterFailure(long)` | 71 | Exported Function
-`protected: long __stdcall CVssWriter::GetContext(void)const ` | 19 | Exported Function
-`protected: long __stdcall CVssWriter::GetSnapshotDeviceName(unsigned short const *,unsigned short const * *)const ` | 31 | Exported Function
-`protected: unsigned short const * * __stdcall CVssWriter::GetCurrentVolumeArray(void)const ` | 25 | Exported Function
-`public: __thiscall CVssJetWriter::CVssJetWriter(void)` | 8 | Exported Function
-`protected: unsigned short const * * __stdcall CVssJetWriter::GetCurrentVolumeArray(void)const ` | 24 | Exported Function
-`protected: unsigned int __stdcall CVssJetWriter::GetCurrentVolumeCount(void)const ` | 26 | Exported Function
-`protected: unsigned int __stdcall CVssWriter::GetCurrentVolumeCount(void)const ` | 27 | Exported Function
-`protected: long __stdcall CVssJetWriter::SetWriterFailure(long)` | 70 | Exported Function
-`protected: enum _VSS_APPLICATION_LEVEL __stdcall CVssWriter::GetCurrentLevel(void)const ` | 21 | Exported Function
-`protected: enum _VSS_BACKUP_TYPE __stdcall CVssJetWriter::GetBackupType(void)const ` | 16 | Exported Function
-`protected: enum _VSS_APPLICATION_LEVEL __stdcall CVssJetWriter::GetCurrentLevel(void)const ` | 20 | Exported Function
-`protected: bool __stdcall CVssWriter::IsPartialFileSupportEnabled(void)const ` | 38 | Exported Function
-`protected: bool __stdcall CVssWriter::IsPathAffected(unsigned short const *)const ` | 40 | Exported Function
-`protected: long __stdcall CVssJetWriter::GetContext(void)const ` | 18 | Exported Function
-`protected: long __stdcall CVssJetWriter::GetSnapshotDeviceName(unsigned short const *,unsigned short const * *)const ` | 30 | Exported Function
-`protected: enum _VSS_RESTORE_TYPE __stdcall CVssWriter::GetRestoreType(void)const ` | 29 | Exported Function
-`protected: enum _VSS_BACKUP_TYPE __stdcall CVssWriter::GetBackupType(void)const ` | 17 | Exported Function
-`protected: enum _VSS_RESTORE_TYPE __stdcall CVssJetWriter::GetRestoreType(void)const ` | 28 | Exported Function
+`GetCurrentSnapshotSetId` | 22 | Exported Function
+`GetCurrentSnapshotSetId` | 23 | Exported Function
+`SetWriterFailure` | 71 | Exported Function
+`GetContext` | 19 | Exported Function
+`GetSnapshotDeviceName` | 31 | Exported Function
+`GetCurrentVolumeArray` | 25 | Exported Function
+`CVssJetWriter` | 8 | Exported Function
+`GetCurrentVolumeArray` | 24 | Exported Function
+`GetCurrentVolumeCount` | 26 | Exported Function
+`GetCurrentVolumeCount` | 27 | Exported Function
+`SetWriterFailure` | 70 | Exported Function
+`GetCurrentLevel` | 21 | Exported Function
+`GetBackupType` | 16 | Exported Function
+`GetCurrentLevel` | 20 | Exported Function
+`IsPartialFileSupportEnabled` | 38 | Exported Function
+`IsPathAffected` | 40 | Exported Function
+`GetContext` | 18 | Exported Function
+`GetSnapshotDeviceName` | 30 | Exported Function
+`GetRestoreType` | 29 | Exported Function
+`GetBackupType` | 17 | Exported Function
+`GetRestoreType` | 28 | Exported Function
 
 
 ## Signature

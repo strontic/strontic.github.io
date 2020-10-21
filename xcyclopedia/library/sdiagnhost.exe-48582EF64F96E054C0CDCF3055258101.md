@@ -18,6 +18,9 @@ SHA256 | `B2ADF4CB63C8B1B2FF014BD328DEAC96354C6F834FAF0660EFD8F7E89F1B2399`
 SHA384 | `D4EA6A0AE2C8CDD09580F7E40B99213F2C78B28A5ED2468E7C0075CCFD2AF38E98E2B4B14AF9EBE45D2B7AC307772F12`
 SHA512 | `E8AF437B086FF1FE00AA3C372EAEEA00CEEF754A5CC713DD150CDB205DC36EE394FD932321128F4489C60947FBDCC9436669AC0AD0F1A2E8D554113B605D0C1E`
 SSDEEP | `384:QHm8MXAvaaGVWyxfAzfVRmffQ7MPrOrye7mEZxaLelgWG7DWz:F1VnILVRmg7f7mmaLeC2`
+IMP | `1AC4615E680B9BC131EC1F2ADCF60B35`
+PESHA1 | `43F4CDC04527CAA55FCC340F95D7BFB9A1269BF0`
+PE256 | `8638CC4929363E9FFC12D92BE0FEAD6E9E6C7900D65FDBB5454EE3C1B86FFA86`
 
 ## Runtime Data
 
@@ -29,12 +32,15 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\sdiagnhost.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1BA8 | Section
+\RPC Control\DSECB58 | Section
 
 
 ### Loaded Modules:
@@ -65,7 +71,12 @@ C:\Windows\SysWOW64\sdiagnhost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/64
+* VirusTotal Link: https://www.virustotal.com/gui/file/b2adf4cb63c8b1b2ff014bd328deac96354c6f834faf0660efd8f7e89f1b2399/detection/
 
 ## File Similarity (ssdeep match)
 

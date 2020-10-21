@@ -18,6 +18,9 @@ SHA256 | `F0D0591C4CD1A475ED985659B03D16C0FC772A82A7EFB643B8D94AE851B4A2B7`
 SHA384 | `2130ECECF18D51D211742884B51120C229AAAA8F7B4138F45BFBE3FC9252A66EFD8ED3C5D98C3123424AFF35F41CA432`
 SHA512 | `2F92B3C2944EE44DE92D5CE56289D0436C7D5C69B41D9808D626C441D3D7367967958BF3A4D14D0CF4FA80DC837F14B2307D989123CD7A085C0CC844A334293A`
 SSDEEP | `768:RRRK4KNDiSypfg7X195F8VasYdTItA3iQfMQnKnZA7t9G4qW4ne+S/ly+PKAoXRc:c4Eycz8Vt3A7HPd4n+lbeRZIbSQPT`
+IMP | `A72E30CEDC830E820B420B45666127BC`
+PESHA1 | `A3504C95E267C3052FB1A8D00E7314C80DC9E867`
+PE256 | `C5E1D96F676273E5A80A5F65BB1EB983359730D26C63C58AE3C86903E85E8059`
 
 ## Runtime Data
 
@@ -25,11 +28,14 @@ SSDEEP | `768:RRRK4KNDiSypfg7X195F8VasYdTItA3iQfMQnKnZA7t9G4qW4ne+S/ly+PKAoXRc:c
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1228 | Section
+\RPC Control\DSECC74 | Section
 
 
 ### Loaded Modules:
@@ -37,31 +43,21 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\system32\IPHLPAPI.DLL |
-C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\PrintIsolationHost.exe |
-C:\Windows\system32\PrintIsolationProxy.dll |
-C:\Windows\system32\PROPSYS.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\winspool.drv |
 
 
 ## Signature
@@ -81,7 +77,12 @@ C:\Windows\system32\winspool.drv |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f0d0591c4cd1a475ed985659b03d16c0fc772a82a7efb643b8d94ae851b4a2b7/detection/
 
 ## File Similarity (ssdeep match)
 

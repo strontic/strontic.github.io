@@ -1,0 +1,196 @@
+﻿---
+title: Installer.exe | Installer
+excerpt: What is Installer.exe?
+---
+
+# Installer.exe 
+
+* File Path: `C:\Program Files\Amazon\XenTools\Installer.exe`
+* Description: Installer
+
+## Screenshot
+
+![Installer.exe](screenshots/installer.exe-A2CEDCA62CCAA0EFD7ED3A3CA48B1C0C-1.png)
+![Installer.exe](screenshots/installer.exe-A2CEDCA62CCAA0EFD7ED3A3CA48B1C0C-2.png)
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `A2482151B8383952231F9A08E18D5991`
+SHA1 | `82177C46189AD3A2DE0E982E1A8C93FFDF275AE7`
+SHA256 | `491DAEC01109E949162A2B97C550060F2C03C86C3F8B9ACDB8018FFC0B005A3E`
+SHA384 | `160B6FAD92EEE5151C06D3DAF53B15D517CB106D2FFC922BC25C78BCD8AC6E6D275B836CFD6836D8C449D2FF9581BE54`
+SHA512 | `EBA82F8A81F4A403EA845FFE9224B7FAB753EBD2067A4775B3BF3199290C5606B0268A211ED2606753B30CACAF21029B18270EF46BDA1F98757A96E667F8CFFB`
+SSDEEP | `768:Rw3mF9n9Ahyqwr/txj3EXXtVtHmIssDUjpYClRZwWg8npULX+bTwvAuu4VtIfUpx:Rw3iqsWPtHma2YCzZz+c6Yp0PBUfGT`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `5A3465F0073B39997CFA96BA6280223DA08FD471`
+PE256 | `8F8EACC9BA4B93643840F73DBA575CA73219ADFD91B475506FD03180F568D109`
+
+## Runtime Data
+
+### Usage (stdout):
+```cmhg
+2020-10-19 23:02:26,307 [1] ERROR - Installing Drivers (8.3.4) failed.
+2020-10-19 23:02:26,924 [1] INFO  - UninstallServiceIfExist: AWSPVDriverSchedulerService
+2020-10-19 23:02:27,045 [1] INFO  - UninstallServiceIfExist: Service is already uninstalled, do nothing: AWSPVDriverSchedulerService
+2020-10-19 23:02:27,374 [1] INFO  - Deleted directory: C:\Program Files\Amazon\XenTools\.Drivers
+2020-10-19 23:02:27,374 [1] INFO  - Deleted - C:\Program Files\Amazon\XenTools\.Drivers
+2020-10-19 23:02:27,496 [1] INFO  - Deleted directory: C:\Program Files\Amazon\XenTools\.Symbols
+2020-10-19 23:02:27,496 [1] INFO  - Deleted - C:\Program Files\Amazon\XenTools\.Symbols
+
+```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Program Files\Amazon\XenTools\Installer.exe |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `2F83C35B5136353D68CE9EB669FD1B0B`
+* Thumbprint: `4BAD227329ADEF18F215B6475FB7948E1629B505`
+* Issuer: CN=Symantec Class 3 SHA256 Code Signing CA, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+* Subject: CN=Amazon.com Services LLC, OU=Software Services, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: Installer.exe
+* Product Name: Installer
+* Company Name: Amazon Web Services, Inc.
+* File Version: 8.3.4
+* Product Version: 8.3.4
+* Language: Language Neutral
+* Legal Copyright: Copyright (c) Amazon Web Services, Inc. 2016
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: Unknown
+* VirusTotal Link: n/a
+
+
+## Possible Misuse
+
+*The following table contains possible examples of `Installer.exe` being misused. While `Installer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_dbghelp_dbgcore_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml) | `# - '\msiexec.exe'  an installer installing a program using one of those DLL will raise an alert` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_cmstp_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_cmstp_execution.yml) | `description: Detects various indicators of Microsoft Connection Manager Profile Installer execution` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_cmstp_com_object_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cmstp_com_object_access.yml) | `description: Detects UAC Bypass Attempt Using Microsoft Connection Manager Profile Installer Autoelevate-capable COM Objects` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_disable_ie_features.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_ie_features.yml) | `- Unknown, maybe some security software installer disables these features temporarily` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_msiexec_web_install.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_msiexec_web_install.yml) | `- https://blog.trendmicro.com/trendlabs-security-intelligence/attack-using-windows-installer-msiexec-exe-leads-lokibot/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_tap_installer_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_tap_installer_execution.yml) | `title: Tap Installer Execution` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_cmstp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_cmstp.yml) | `description: Detect child processes of automatically elevated instances of Microsoft Connection Manager Profile Installer (cmstp.exe).` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_cmstp_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cmstp_execution.yml) | `description: Detects various indicators of Microsoft Connection Manager Profile Installer execution` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_cmstp_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_cmstp_execution.yml) | `description: Detects various indicators of Microsoft Connection Manager Profile Installer execution` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Installutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml) | `Description: The Installer tool is a command-line utility that allows you to install and uninstall server resources by executing the installer components in specified assemblies` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Installutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml) | `- Link: https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ieadvpack.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieadvpack.yml) | `Description: INF installer for Internet Explorer. Has much of the same functionality as advpack.dll.` | 
+[malware-ioc](https://github.com/eset/malware-ioc) | [casbaneiro](https://github.com/eset/malware-ioc/blob/master/casbaneiro/README.adoc) | `\| `F07932D8A36F3E36F2552DADEDAD3E22EFA7AAE1` \| MSI installer      \| Win32/TrojanDownloader.Banload.YJD trojan` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [casbaneiro](https://github.com/eset/malware-ioc/blob/master/casbaneiro/README.adoc) | `\| `8745197972071EDE08AA9F7FBEC029BED56151C2` \| MSI installer \| JS/TrojanDownloader.Agent.TNX trojan` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [casbaneiro](https://github.com/eset/malware-ioc/blob/master/casbaneiro/README.adoc) | `\| `DD2799C10954293C8E7D75CD4BE2686ADD9AC2D4` \| MSI installer      \| JS/TrojanDownloader.Agent.TNX trojan` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [evilnum](https://github.com/eset/malware-ioc/blob/master/evilnum/README.adoc) | `=== MSI installer` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp_invisimole.json](https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json) | `"value": "%APPDATA%\\Microsoft\\Installer\\kb043921.exe",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [invisimole](https://github.com/eset/malware-ioc/blob/master/invisimole/README.adoc) | `%APPDATA%\Microsoft\Installer\kb043921.exe` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [invisimole](https://github.com/eset/malware-ioc/blob/master/invisimole/README.adoc) | `"command" = ""%APPDATA%\Microsoft\Installer\kb043921.exe" OpenFileMappingW 0xF003F 0 "XVD21x9DC" , MapViewOfFile $$:1 0xF003F 0 0 %installer_size% , CreateThread 0 0 $$:6 $$:6 0 0 , WaitForSingleObject $$:13 -1"` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [mispadu](https://github.com/eset/malware-ioc/blob/master/mispadu/README.adoc) | `\| `A4EDA0DD2C33A644FEEF170F5C24CF7595C19017` \| MSI installer          \| VBS/TrojanDownloader.Agent.RVY` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [mispadu](https://github.com/eset/malware-ioc/blob/master/mispadu/README.adoc) | `\| `CFE21DBFB97C2E93F099D351DE54099A3FC0C98B` \| MSI installer          \| VBS/TrojanDownloader.Agent.RVY` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [oceanlotus](https://github.com/eset/malware-ioc/blob/master/oceanlotus/README.adoc) | `\|`a40ee8ff313e59aa92d48592c494a4c3d81449af`\|Firefox Installer.exe                           \|Win32/TrojanDropper.Agent.RUI` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-ramsay.json](https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json) | `"comment": "Installer Launcher",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-ramsay.json](https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json) | `"comment": "Malware Installer",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-ramsay.json](https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json) | `"comment": "Ramsay Initial Installer",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-ramsay.json](https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json) | `"comment": "Initial Installer",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| udservice.exe \| update.ultimate-discounter[.]com` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| udservice.exe \| udiscount[.]net` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| udservice.exe \| ultimate-discounter[.]org` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| udservice.exe \| upd-discounter[.]com` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| udservice.exe \| udiscounter[.]org` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| udservice.exe \| wannaupdate[.]com` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| ghstore.exe \| ghosterystore[.]com` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| bhctrl32.exe \| nvccupdate[.]com` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [stantinko](https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc) | `\|Stantinko Installer \| redisd.exe \| rdsbase[.]com` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-telebots.json](https://github.com/eset/malware-ioc/blob/master/telebots/misp-telebots.json) | `"comment": "Intercepter-NG and silent WinPCAP installer - Xchecked via VT: 64cb897acc37e12e4f49c4da4dfad606b3976225",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-telebots.json](https://github.com/eset/malware-ioc/blob/master/telebots/misp-telebots.json) | `"comment": "Intercepter-NG and silent WinPCAP installer",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [telebots](https://github.com/eset/malware-ioc/blob/master/telebots/README.adoc) | `=== Intercepter-NG and silent WinPCAP installer` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-mosquito-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-mosquito-event.json) | `"comment": "Powershell backdoor installer",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-mosquito-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-mosquito-event.json) | `"comment": "Installer",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `The blog post about Mosquito is available on WeLiveSecurity at https://www.welivesecurity.com/2018/01/09/turlas-backdoor-laced-flash-player-installer/.` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - T1574.005 Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - T1574.005 Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \| [Windows Command Shell](../../T1059.003/T1059.003.md) \| Domain Account [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Disable or Modify System Firewall](../../T1562.004/T1562.004.md) \| [Password Cracking](../../T1110.002/T1110.002.md) \| [System Service Discovery](../../T1007/T1007.md) \|  \| Web Portal Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| Protocol Impersonation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \|  \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Kernel Modules and Extensions](../../T1547.006/T1547.006.md) \| Elevated Execution with Prompt [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Proc Filesystem [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \| Symmetric Cryptography [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \|  \| Hijack Execution Flow [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [LD_PRELOAD](../../T1574.006/T1574.006.md) \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Securityd Memory [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \| [Web Protocols](../../T1071.001/T1071.001.md) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \| [Windows Command Shell](../../T1059.003/T1059.003.md) \| Domain Account [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Disable or Modify Tools](../../T1562.001/T1562.001.md) \| [NTDS](../../T1003.003/T1003.003.md) \| [System Network Configuration Discovery](../../T1016/T1016.md) \|  \| Remote Data Staging [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| Multi-hop Proxy [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Stored Data Manipulation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Hijack Execution Flow [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Environmental Keying [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Filter DLL](../../T1556.002/T1556.002.md) \| [System Time Discovery](../../T1124/T1124.md) \|  \| Video Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| [Non-Standard Port](../../T1571/T1571.md) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Image File Execution Options Injection](../../T1546.012/T1546.012.md) \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Guessing](../../T1110.001/T1110.001.md) \| Time Based Evasion [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| Web Portal Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| One-Way Communication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1040.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md) | \| wireshark_url \| wireshark installer download URL \| url \| https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.2.6.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1046.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md) | \| nmap_url \| NMap installer download URL \| url \| https://nmap.org/dist/nmap-7.80-setup.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1056.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.002/T1056.002.md) | Adversaries may mimic this functionality to prompt users for credentials with a seemingly legitimate prompt for a number of reasons that mimic normal usage, such as a fake installer requiring additional access or a fake malware removal suite.(Citation: OSX Malware Exploits MacKeeper) This type of prompt can be used to collect credentials via various languages such as AppleScript(Citation: LogRhythm Do You Trust Oct 2014)(Citation: OSX Keydnap malware) and PowerShell(Citation: LogRhythm Do You Trust Oct 2014)(Citation: Enigma Phishing for Credentials Jan 2015). </blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md) | Write-Host  Automated installer not implemented yet, please install PowerShell v2 manually | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1176.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1176/T1176.md) | Malicious extensions can be installed into a browser through malicious app store downloads masquerading as legitimate extensions, through social engineering, or by an adversary that has already compromised a system. Security can be limited on browser app stores so it may not be difficult for malicious extensions to defeat automated scanners. (Citation: Malicious Chrome Extension Numbers) Once the extension is installed, it can browse to websites in the background, (Citation: Chrome Extension Crypto Miner) (Citation: ICEBRG Chrome Extensions) steal all information that a user enters into a browser (including credentials) (Citation: Banker Google Chrome Extension Steals Creds) (Citation: Catch All Chrome Extension) and be used as an installer for a RAT for persistence. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.003/T1218.003.md) | <blockquote>Adversaries may abuse CMSTP to proxy execution of malicious code. The Microsoft Connection Manager Profile Installer (CMSTP.exe) is a command-line program used to install Connection Manager service profiles. (Citation: Microsoft Connection Manager Oct 2009) CMSTP.exe accepts an installation information file (INF) as a parameter and installs a service profile leveraged for remote access connections. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | <blockquote>Adversaries may use InstallUtil to proxy execution of code through a trusted Windows utility. InstallUtil is a command-line utility that allows for installation and uninstallation of resources by executing specific installer components specified in .NET binaries. (Citation: MSDN InstallUtil) InstallUtil is digitally signed by Microsoft and located in the .NET directories on a Windows system: <code>C:\Windows\Microsoft.NET\Framework\v<version>\InstallUtil.exe</code> and <code>C:\Windows\Microsoft.NET\Framework64\v<version>\InstallUtil.exe</code>. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | \| assembly_dir \| directory to drop the compiled installer assembly \| Path \| $Env:TEMP&#92;\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | \| assembly_filename \| filename of the compiled installer assembly \| String \| T1218.004.dll\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | CheckIfInstallable method execution test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | InstallHelper method execution test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | Executes the installer assembly class constructor. Upon execution, version information will be displayed the .NET framework install utility. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | InstallUtil class constructor execution test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | InstallUtil Install method execution test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | InstallUtil Uninstall method execution test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | InstallUtil HelpText property execution test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | Evasive Installutil invocation test failure. Installer assembly execution output did not match the expected output. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.007.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.007/T1218.007.md) | <blockquote>Adversaries may abuse msiexec.exe to proxy execution of malicious payloads. Msiexec.exe is the command-line utility for the Windows Installer and is thus commonly associated with executing installation packages (.msi).(Citation: Microsoft msiexec) Msiexec.exe is digitally signed by Microsoft. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1219.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md) | An adversary may attempt to trick the user into downloading teamviewer and using this to maintain access to the machine. Download of TeamViewer installer will be at the destination location when sucessfully executed. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1219.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md) | An adversary may attempt to trick the user into downloading AnyDesk and use to establish C2. Download of AnyDesk installer will be at the destination location and ran when sucessfully executed. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1219.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md) | An adversary may attempt to trick the user into downloading LogMeIn and use to establish C2. Download of LogMeIn installer will be at the destination location and ran when sucessfully executed. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.011.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md) | A list of all shims currently installed by the default Windows installer (sdbinst.exe) is kept in: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1550.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1550.002/T1550.002.md) | Write-Host Automated installer not implemented yet, please install crackmapexec manually at this location: #{crackmapexec_exe} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1560.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md) | \| rar_installer \| Winrar installer \| Path \| %TEMP%&#92;winrar.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1560.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md) | echo Downloading Winrar installer | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1560.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md) | echo Follow the installer prompts to install Winrar | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) | $a1 = "Adobe Flash Player Installer" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_hellsing_kaspersky.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hellsing_kaspersky.yar) | description = "detection for Hellsing msger irene installer" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_kaspersky_duqu2.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_kaspersky_duqu2.yar) | $s2 = "Sysinternals installer" fullword wide /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_kaspersky_duqu2.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_kaspersky_duqu2.yar) | $s0 = "Installer for printer drivers and applications" fullword wide /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_ms_platinum.yara](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ms_platinum.yara) | description = "Installer component" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_ms_platinum.yara](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ms_platinum.yara) | description = "Installer for Dipsind variant" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wildneutron.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wildneutron.yar) | $s4 = " Player Installer/Uninstaller" fullword wide /* PEStudio Blacklist: strings */ /* score: '11.42' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wildneutron.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wildneutron.yar) | $y1 = "Installer.exe" fullword ascii /* PEStudio Blacklist: strings */ /* score: '25.00' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_anomalies_keyword_combos.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_anomalies_keyword_combos.yar) | description = "Detects suspicious NullSoft Installer combination with common Copyright strings" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_dde_in_office_docs.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_dde_in_office_docs.yar) | $r2 = "Adobe ARM Installer" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [spy_equation_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_equation_fiveeyes.yar) | description = "Equation Group Malware - EquationDrug installer LUTEUSOBSTOS" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [spy_equation_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_equation_fiveeyes.yar) | description = "Equation Group Malware - EquationLaser Installer" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | rule installer { | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | description = "Webshells Auto-generated - file installer.cmd" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

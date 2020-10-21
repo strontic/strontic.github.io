@@ -353,6 +353,7 @@ Source | Source File | Example | License
 [malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `dnsapi.dll` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [part1.adoc](https://github.com/eset/malware-ioc/blob/master/sednit/part1.adoc) | `api-ms-win-samcli-dnsapi-0-0-0.dll` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_codoso.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_codoso.yar) | $s1 = "DnsApi.dll" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_excel_xll_addin_suspicious.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_excel_xll_addin_suspicious.yar) | or (pe.imports("DNSAPI.dll", "DnsQuery_A") or pe.imports("DNSAPI.dll", "DnsQuery_W")) | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -26,62 +26,62 @@ PE256 | `FB8B8AC55A404213B8B39385977A6453B1B0BE0B2C2C97040435BA5EC77C05F0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: unsigned long __thiscall FAT_SA::QueryFileStartingCluster(class WSTRING const *,class HMEM *,class FATDIR * *,unsigned char *,class FAT_DIRENT *)` | 37 | Exported Function
-`public: unsigned long __thiscall FAT::QueryNthCluster(unsigned long,unsigned long)const ` | 44 | Exported Function
-`public: unsigned long __thiscall FAT::QueryLengthOfChain(unsigned long,unsigned long *)const ` | 41 | Exported Function
-`public: unsigned long __thiscall REAL_FAT_SA::QueryFreeSectors(void)const ` | 38 | Exported Function
+`QueryFileStartingCluster` | 37 | Exported Function
+`QueryNthCluster` | 44 | Exported Function
+`QueryLengthOfChain` | 41 | Exported Function
+`QueryFreeSectors` | 38 | Exported Function
 `public: virtual __thiscall EA_HEADER::~EA_HEADER(void)` | 10 | Exported Function
 `public: virtual __thiscall CLUSTER_CHAIN::~CLUSTER_CHAIN(void)` | 9 | Exported Function
-`public: unsigned short __thiscall EA_HEADER::QueryEaSetClusterNumber(unsigned short)const ` | 36 | Exported Function
-`public: unsigned char __thiscall FILEDIR::Initialize(class MEM *,class LOG_IO_DP_DRIVE *,class FAT_SA *,class FAT const *,unsigned long)` | 27 | Exported Function
-`public: unsigned char __thiscall FATDIR::QueryLongName(long,class WSTRING *)` | 42 | Exported Function
-`public: unsigned char __thiscall FAT_SA::QueryCensusAndRelocate(struct _CENSUS_REPORT *,class INTSTACK *,unsigned char *)` | 34 | Exported Function
-`public: unsigned char __thiscall REAL_FAT_SA::InitFATChkDirty(class LOG_IO_DP_DRIVE *,class MESSAGE *)` | 21 | Exported Function
-`public: unsigned long __thiscall FAT::QueryAllocatedClusters(void)const ` | 33 | Exported Function
-`public: unsigned long __thiscall FAT::AllocChain(unsigned long,unsigned long *)` | 17 | Exported Function
-`public: unsigned char __thiscall ROOTDIR::Initialize(class MEM *,class LOG_IO_DP_DRIVE *,unsigned long,long)` | 29 | Exported Function
-`public: virtual unsigned char __thiscall REAL_FAT_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *,unsigned char)` | 28 | Exported Function
-`public: virtual unsigned char __thiscall EA_SET::Read(void)` | 46 | Exported Function
-`public: virtual unsigned char __thiscall CLUSTER_CHAIN::Write(void)` | 50 | Exported Function
-`public: virtual unsigned char __thiscall REAL_FAT_SA::Read(class MESSAGE *)` | 47 | Exported Function
+`QueryEaSetClusterNumber` | 36 | Exported Function
+`Initialize` | 27 | Exported Function
+`QueryLongName` | 42 | Exported Function
+`QueryCensusAndRelocate` | 34 | Exported Function
+`InitFATChkDirty` | 21 | Exported Function
+`QueryAllocatedClusters` | 33 | Exported Function
+`AllocChain` | 17 | Exported Function
+`Initialize` | 29 | Exported Function
+`Initialize` | 28 | Exported Function
+`Read` | 46 | Exported Function
+`Write` | 50 | Exported Function
+`Read` | 47 | Exported Function
 `Recover` | 56 | Exported Function
-`public: void __thiscall FAT::FreeChain(unsigned long)` | 18 | Exported Function
-`public: void * __thiscall FATDIR::SearchForDirEntry(class WSTRING const *)` | 48 | Exported Function
+`FreeChain` | 18 | Exported Function
+`SearchForDirEntry` | 48 | Exported Function
 `public: virtual __thiscall FAT_SA::~FAT_SA(void)` | 13 | Exported Function
 `public: virtual __thiscall FAT_DIRENT::~FAT_DIRENT(void)` | 12 | Exported Function
 `public: virtual __thiscall EA_SET::~EA_SET(void)` | 11 | Exported Function
 `public: virtual __thiscall FILEDIR::~FILEDIR(void)` | 14 | Exported Function
-`public: virtual unsigned char __thiscall CLUSTER_CHAIN::Read(void)` | 45 | Exported Function
+`Read` | 45 | Exported Function
 `public: virtual __thiscall ROOTDIR::~ROOTDIR(void)` | 16 | Exported Function
 `public: virtual __thiscall REAL_FAT_SA::~REAL_FAT_SA(void)` | 15 | Exported Function
-`public: __thiscall EA_SET::EA_SET(void)` | 3 | Exported Function
-`public: __thiscall EA_HEADER::EA_HEADER(void)` | 2 | Exported Function
-`public: __thiscall CLUSTER_CHAIN::CLUSTER_CHAIN(void)` | 1 | Exported Function
-`public: __thiscall FAT_DIRENT::FAT_DIRENT(void)` | 4 | Exported Function
-`public: __thiscall REAL_FAT_SA::REAL_FAT_SA(void)` | 7 | Exported Function
-`public: __thiscall FILEDIR::FILEDIR(void)` | 6 | Exported Function
-`public: __thiscall FAT_SA::FAT_SA(void)` | 5 | Exported Function
+`EA_SET` | 3 | Exported Function
+`EA_HEADER` | 2 | Exported Function
+`CLUSTER_CHAIN` | 1 | Exported Function
+`FAT_DIRENT` | 4 | Exported Function
+`REAL_FAT_SA` | 7 | Exported Function
+`FILEDIR` | 6 | Exported Function
+`FAT_SA` | 5 | Exported Function
 `Format` | 53 | Exported Function
 `ChkdskEx` | 52 | Exported Function
 `Chkdsk` | 51 | Exported Function
 `FormatEx` | 54 | Exported Function
-`private: void __thiscall FAT::Set12(unsigned long,unsigned long)` | 49 | Exported Function
-`private: unsigned long __thiscall FAT::Index12(unsigned long)const ` | 20 | Exported Function
+`Set12` | 49 | Exported Function
+`Index12` | 20 | Exported Function
 `GetFilesystemInformation` | 55 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::IsValidLastWriteTime(void)const ` | 32 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::IsValidLastAccessTime(void)const ` | 31 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::IsValidCreationTime(void)const ` | 30 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::QueryCreationTime(union _LARGE_INTEGER *)const ` | 35 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::QueryName(class WSTRING *)const ` | 43 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::QueryLastWriteTime(union _LARGE_INTEGER *)const ` | 40 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::QueryLastAccessTime(union _LARGE_INTEGER *)const ` | 39 | Exported Function
-`public: unsigned char __thiscall CLUSTER_CHAIN::Initialize(class MEM *,class LOG_IO_DP_DRIVE *,class FAT_SA *,class FAT const *,unsigned long,unsigned long)` | 22 | Exported Function
-`public: struct _EA * __thiscall EA_SET::GetEa(unsigned long,long *,unsigned char *)` | 19 | Exported Function
-`public: __thiscall ROOTDIR::ROOTDIR(void)` | 8 | Exported Function
-`public: unsigned char __thiscall EA_HEADER::Initialize(class MEM *,class LOG_IO_DP_DRIVE *,class FAT_SA *,class FAT const *,unsigned long,unsigned long)` | 23 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::Initialize(void *,unsigned char)` | 26 | Exported Function
-`public: unsigned char __thiscall FAT_DIRENT::Initialize(void *)` | 25 | Exported Function
-`public: unsigned char __thiscall EA_SET::Initialize(class MEM *,class LOG_IO_DP_DRIVE *,class FAT_SA *,class FAT const *,unsigned long,unsigned long)` | 24 | Exported Function
+`IsValidLastWriteTime` | 32 | Exported Function
+`IsValidLastAccessTime` | 31 | Exported Function
+`IsValidCreationTime` | 30 | Exported Function
+`QueryCreationTime` | 35 | Exported Function
+`QueryName` | 43 | Exported Function
+`QueryLastWriteTime` | 40 | Exported Function
+`QueryLastAccessTime` | 39 | Exported Function
+`Initialize` | 22 | Exported Function
+`GetEa` | 19 | Exported Function
+`ROOTDIR` | 8 | Exported Function
+`Initialize` | 23 | Exported Function
+`Initialize` | 26 | Exported Function
+`Initialize` | 25 | Exported Function
+`Initialize` | 24 | Exported Function
 
 
 ## Signature

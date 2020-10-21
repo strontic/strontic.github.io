@@ -18,22 +18,9 @@ SHA256 | `4D2B4AA1114B342C4068E77EE063A4687C1D07CC1E51938CADAC364DF479C5B4`
 SHA384 | `0DB368EBA1C1E0C7D7CF62F614599DD52DCC2054E358D16859E311670A67E3D47D000A4AD980A700174A7DC0AA5727A1`
 SHA512 | `850C35B2BFAA3C089DF5BE24692F544EBC3B7BEB0E7FA07EF64E7D996FAAFE2AE93F4F90456C7FD894FD7ACFF35D82F76D7F6A41FB98D3673013E71950A48E31`
 SSDEEP | `24:eNGS/glSH+q6ooD812UDGKDIILiIZW0gNNZl2Si35WWdPPYPNl:a/glScooDMxIlIZWjXZno5WwHg`
-
-## Runtime Data
-
-### Child Processes:
-RdpSa.exe
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\user.exe |
-
+IMP | `n/a`
+PESHA1 | `0721B7F32EAD7BBE1135D0E7D95838728D443242`
+PE256 | `91DECC042C0A76D51FF5EE1FF183713C9816667B74BD5ED92677E07721C41FB8`
 
 ## Signature
 
@@ -52,7 +39,12 @@ C:\Windows\SysWOW64\user.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/4d2b4aa1114b342c4068e77ee063a4687c1d07cc1e51938cadac364df479c5b4/detection/
 
 ## File Similarity (ssdeep match)
 

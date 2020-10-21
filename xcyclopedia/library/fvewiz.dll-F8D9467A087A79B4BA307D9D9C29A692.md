@@ -26,48 +26,48 @@ PE256 | `102BD27846F3D35F9D5DDD21B1F594D76FBBF30F90E87407D4C223A0F75B9956`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: bool __cdecl VolumeFveStatus::IsPartiallyConverted(void)const __ptr64` | 32 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsOsVolume(void)const __ptr64` | 31 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsPaused(void)const __ptr64` | 33 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsRoamingDevice(void)const __ptr64` | 35 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsPreProvisioned(void)const __ptr64` | 34 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsEncrypting(void)const __ptr64` | 27 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsEncrypted(void)const __ptr64` | 26 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsLocked(void)const __ptr64` | 28 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsOsCriticalVolume(void)const __ptr64` | 30 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsOn(void)const __ptr64` | 29 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsSecure(void)const __ptr64` | 36 | Exported Function
-`public: long __cdecl VolumeFveStatus::GetLastConvertStatus(void)const __ptr64` | 8 | Exported Function
-`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus const & __ptr64) __ptr64` | 5 | Exported Function
-`public: static unsigned int const BuiVolume::NO_DRIVE_LETTER` | 39 | Exported Function
-`public: unsigned long __cdecl VolumeFveStatus::GetStatusFlags(void)const __ptr64` | 9 | Exported Function
-`public: unsigned __int64 __cdecl VolumeFveStatus::GetExtendedFlags(void)const __ptr64` | 7 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsWiping(void)const __ptr64` | 38 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsUnknownFveVersion(void)const __ptr64` | 37 | Exported Function
-`public: bool __cdecl VolumeFveStatus::NeedsRestart(void)const __ptr64` | 40 | Exported Function
-`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus && __ptr64) __ptr64` | 4 | Exported Function
-`public: class BuiVolume & __ptr64 __cdecl BuiVolume::operator=(class BuiVolume const & __ptr64) __ptr64` | 3 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasPassphraseProtector(void)const __ptr64` | 12 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasExternalKey(void)const __ptr64` | 10 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasPBKDF2RecoveryPassword(void)const __ptr64` | 11 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasRecoveryData(void)const __ptr64` | 14 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasPinProtector(void)const __ptr64` | 13 | Exported Function
+`IsPartiallyConverted` | 32 | Exported Function
+`IsOsVolume` | 31 | Exported Function
+`IsPaused` | 33 | Exported Function
+`IsRoamingDevice` | 35 | Exported Function
+`IsPreProvisioned` | 34 | Exported Function
+`IsEncrypting` | 27 | Exported Function
+`IsEncrypted` | 26 | Exported Function
+`IsLocked` | 28 | Exported Function
+`IsOsCriticalVolume` | 30 | Exported Function
+`IsOn` | 29 | Exported Function
+`IsSecure` | 36 | Exported Function
+`GetLastConvertStatus` | 8 | Exported Function
+`operator` | 5 | Exported Function
+`NO_DRIVE_LETTER` | 39 | Exported Function
+`GetStatusFlags` | 9 | Exported Function
+`GetExtendedFlags` | 7 | Exported Function
+`IsWiping` | 38 | Exported Function
+`IsUnknownFveVersion` | 37 | Exported Function
+`NeedsRestart` | 40 | Exported Function
+`operator` | 4 | Exported Function
+`operator` | 3 | Exported Function
+`HasPassphraseProtector` | 12 | Exported Function
+`HasExternalKey` | 10 | Exported Function
+`HasPBKDF2RecoveryPassword` | 11 | Exported Function
+`HasRecoveryData` | 14 | Exported Function
+`HasPinProtector` | 13 | Exported Function
 `FveuiWizard` | 41 | Exported Function
 `FveuipClearFveWizOnStartup` | 42 | Exported Function
-`protected: __cdecl VolumeFveStatus::VolumeFveStatus(void) __ptr64` | 1 | Exported Function
-`public: bool __cdecl VolumeFveStatus::FailedDryRun(void)const __ptr64` | 6 | Exported Function
-`public: __cdecl VolumeFveStatus::VolumeFveStatus(unsigned long,unsigned __int64,long,enum _FVE_WIPING_STATE) __ptr64` | 2 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasRecoveryPassword(void)const __ptr64` | 15 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsDecrypted(void)const __ptr64` | 22 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsDEAutoProvisioned(void)const __ptr64` | 21 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsDecrypting(void)const __ptr64` | 23 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsEDriveVolume(void)const __ptr64` | 25 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsDisabled(void)const __ptr64` | 24 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasStartupKeyProtector(void)const __ptr64` | 17 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasSmartCardProtector(void)const __ptr64` | 16 | Exported Function
-`public: bool __cdecl VolumeFveStatus::HasTpmProtector(void)const __ptr64` | 18 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsCsvMetadataVolume(void)const __ptr64` | 20 | Exported Function
-`public: bool __cdecl VolumeFveStatus::IsConverting(void)const __ptr64` | 19 | Exported Function
+`VolumeFveStatus` | 1 | Exported Function
+`FailedDryRun` | 6 | Exported Function
+`VolumeFveStatus` | 2 | Exported Function
+`HasRecoveryPassword` | 15 | Exported Function
+`IsDecrypted` | 22 | Exported Function
+`IsDEAutoProvisioned` | 21 | Exported Function
+`IsDecrypting` | 23 | Exported Function
+`IsEDriveVolume` | 25 | Exported Function
+`IsDisabled` | 24 | Exported Function
+`HasStartupKeyProtector` | 17 | Exported Function
+`HasSmartCardProtector` | 16 | Exported Function
+`HasTpmProtector` | 18 | Exported Function
+`IsCsvMetadataVolume` | 20 | Exported Function
+`IsConverting` | 19 | Exported Function
 
 
 ## Signature

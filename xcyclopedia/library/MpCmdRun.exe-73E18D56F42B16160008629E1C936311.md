@@ -18,6 +18,9 @@ SHA256 | `F2C04FA5B0BCCD32F7B158C42D67B8242867E2C31058C68F13868035DBB09787`
 SHA384 | `8A4B54CF55DE53B357860352747149B0A5D50673F3219799908BBEC686A143B5BE7E2459DF21DAC1A805887624486D10`
 SHA512 | `EAF82A13A98FC2221B3FBA5B1D3783278741BA24793C1EAF89BE675B4B64B1DB842C2FC45063EBD38D99B25899E978C75B22C252E0B87D0FB04812C92E85DE26`
 SSDEEP | `6144:I4gwwWtvGhP1yfKSMHlzztc17dUB8o0D/Zeh9BpIxenK/IfOnF:IIv4NySSMfcwB8o0D/EXq`
+IMP | `25C9A89434BAA48C69401E0FBFDCEA84`
+PESHA1 | `C317FE3958452650A3217DF2BCF809826C07F0ED`
+PE256 | `56D42EF5A9CA3F5732F7224D30A5D2F0451E6E009488D00A69A11B278792B844`
 
 ## Runtime Data
 
@@ -224,7 +227,29 @@ C:\ProgramData\Microsoft\Windows Defender\Support
 
 Path |
 -- |
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\mpclient.dll |
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\MpCmdRun.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\gpapi.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\system32\version.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -244,7 +269,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 4.18.2007.8
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f2c04fa5b0bccd32f7b158c42d67b8242867e2c31058c68f13868035dbb09787/detection/
 
 
 ## Possible Misuse

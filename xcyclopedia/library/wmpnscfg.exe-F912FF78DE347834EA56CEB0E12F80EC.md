@@ -83,6 +83,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/42cf12cce4c991c6c2c93147fee7d3193341c03b2a65938f521acc7000c4a6d5/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Windows Media Player\wmpnscfg.exe](wmpnscfg.exe-F34C107A55A199694CDBCEE26FC937B3.md) | 60
 
 
 

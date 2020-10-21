@@ -18,6 +18,9 @@ SHA256 | `7468A5DD894AD3B4EAB0CFB10ACF6347336356038EC9446ED3C15862088E4849`
 SHA384 | `5225BB3E6166F781206F42E3144733DB658CD6302052BF819807E00876A8CF765C35D9D855A08C8789F3E9549E0178E9`
 SHA512 | `F48DDBBA460BCB96987811EF6EAD67E4918B3254B9B2010CDA216A0A7F7D40B44F5356F7922E865BEEB4F88373BE8E29E1E4D94BB2DF1C7183839A47CAFA27F0`
 SSDEEP | `384:gR2sOSALmDLzWsch/kWv3t9SDqBVEE9e4A/If27dSW4wQW:ToALmDP6/HwgB2Bx`
+IMP | `82DB08E0613BAB949E41C09B91D85B62`
+PESHA1 | `8770B80B6947C091E883248C5E840FF8C3153682`
+PE256 | `97193706ED6A0A496AD1184A45807D0463BA81713F8277093008262873E74059`
 
 ## Runtime Data
 
@@ -40,14 +43,15 @@ TSKILL processid | processname [/SERVER:servername] [/ID:sessionid | /A] [/V]
 
 ```
 
-### Child Processes:
-powershell_ise.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\tskill.exe |
 
 
 ## Signature
@@ -67,7 +71,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/7468a5dd894ad3b4eab0cfb10acf6347336356038ec9446ed3c15862088e4849/detection/
 
 
 
@@ -76,50 +85,61 @@ C:\Windows\SYSTEM32\ntdll.dll |
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
+
 ## tskill
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Ends a process running in a session on a Remote Desktop Session Host server.
 
-
 > [!NOTE]
-> To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
+> You can use this command to end only those processes that belong to you, unless you are an administrator. Administrators have full access to all **tskill** functions and can end processes that are running in other user sessions.
+>
+> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ### Syntax
+
 ```
-tskill {<ProcessID> | <ProcessName>} [/server:<ServerName>] [/id:<SessionID> | /a] [/v]
+tskill {<processID> | <processname>} [/server:<servername>] [/id:<sessionID> | /a] [/v]
 ```
 
 #### Parameters
 
-|Parameter|Description|
-|-------|--------|
-|\<ProcessID>|Specifies the ID of the process that you want to end.|
-|\<ProcessName>|Specifies the name of the process that you want to end. This parameter can include wildcard characters.|
-|/server:\<ServerName>|Specifies the terminal server that contains the process that you want to end. If **/server** is not specified, the current RD Session Host server is used.|
-|/id:\<SessionID>|Ends the process that is running in the specified session.|
-|/a|Ends the process that is running in all sessions.|
-|/v|Displays information about the actions being performed.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| `<processID>` | Specifies the ID of the process that you want to end. |
+| `<processname>` | Specifies the name of the process that you want to end. This parameter can include wildcard characters. |
+| /server:`<servername>` | Specifies the terminal server that contains the process that you want to end. If **/server** isn't specified, the current Remote Desktop Session Host server is used. |
+| /id:`<sessionID>` | Ends the process that is running in the specified session. |
+| /a | Ends the process that is running in all sessions. |
+| /v | Displays information about the actions being performed. |
+| /? | Displays help at the command prompt. |
 
-### Remarks
-- You can use **tskill** to end only those processes that belong to you, unless you are an administrator. Administrators have full access to all **tskill** functions and can end processes that are running in other user sessions.
+##### Remarks
+
 - When all processes that are running in a session end, the session also ends.
-- if you use the *ProcessName* and the **/server:**<em>ServerName</em> parameters, you must also specify either the **/id:**<em>SessionID</em> or the **/a** parameter.
+
+- If you use the `<processname>` and the `/server:<servername>` parameters, you must also specify either the `/id:<sessionID>` or the **/a** parameter.
 
 ### Examples
-- To end process 6543, type:
-  ```
-  tskill 6543
-  ```
-- To end the process explorer running on session 5, type:
-  ```
-  tskill explorer /id:5
-  ```
-  ## Additional References
-  - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
-  [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
+
+To end process 6543, type:
+
+```
+tskill 6543
+```
+
+To end the process explorer running on session 5, type:
+
+```
+tskill explorer /id:5
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
 
 ---
 

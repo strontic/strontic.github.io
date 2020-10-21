@@ -26,88 +26,88 @@ PE256 | `EACA4D568E242F64B716E9FAF7014507C65A18CC5D30F3684D6794F8B5EEA02C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: long __thiscall CWbemCriticalSection::GetLockCount(void)` | 61 | Exported Function
-`public: long __thiscall CWbemCriticalSection::GetRecursionCount(void)` | 64 | Exported Function
-`public: int __thiscall WString::operator>=(unsigned short const *)const ` | 37 | Exported Function
-`public: int __thiscall WString::operator<=(unsigned short const *)const ` | 35 | Exported Function
-`public: int __thiscall WString::operator>(unsigned short const *)const ` | 36 | Exported Function
-`public: unsigned short * __thiscall CWStringArray::operator[](int)const ` | 31 | Exported Function
-`public: unsigned short const * * __thiscall CWStringArray::GetArrayPtr(void)` | 58 | Exported Function
-`public: unsigned short * __thiscall CWStringArray::GetAt(int)const ` | 60 | Exported Function
-`public: static void __stdcall CWin32DefaultArena::WbemSysFreeString(unsigned short *)` | 78 | Exported Function
-`public: unsigned long __thiscall CWbemCriticalSection::GetOwningThreadId(void)` | 62 | Exported Function
-`public: int __thiscall CFlexQueue::GetQueueSize(void)const ` | 63 | Exported Function
-`public: int __thiscall CSmallArrayBlob::Size(void)const ` | 75 | Exported Function
-`public: int __thiscall CFlexArray::Size(void)const ` | 74 | Exported Function
-`public: int __thiscall CEnterWbemCriticalSection::IsEntered(void)` | 68 | Exported Function
-`public: int __thiscall CFlexArray::Add(void *)` | 44 | Exported Function
-`public: int __thiscall WString::Length(void)const ` | 71 | Exported Function
-`public: int __thiscall WString::operator<(unsigned short const *)const ` | 34 | Exported Function
-`public: int __thiscall WString::EqualNoCase(unsigned short const *)const ` | 52 | Exported Function
-`public: int __thiscall CWStringArray::Size(void)const ` | 76 | Exported Function
-`public: int __thiscall WString::Equal(unsigned short const *)const ` | 51 | Exported Function
-`public: unsigned short const * const & __thiscall WString::GetStringPointerByRef(void)const ` | 65 | Exported Function
-`public: void __thiscall CCritSec::Leave(void)` | 70 | Exported Function
+`GetLockCount` | 61 | Exported Function
+`GetRecursionCount` | 64 | Exported Function
+`operator` | 37 | Exported Function
+`operator` | 35 | Exported Function
+`operator` | 36 | Exported Function
+`operator` | 31 | Exported Function
+`GetArrayPtr` | 58 | Exported Function
+`GetAt` | 60 | Exported Function
+`WbemSysFreeString` | 78 | Exported Function
+`GetOwningThreadId` | 62 | Exported Function
+`GetQueueSize` | 63 | Exported Function
+`Size` | 75 | Exported Function
+`Size` | 74 | Exported Function
+`IsEntered` | 68 | Exported Function
+`Add` | 44 | Exported Function
+`Length` | 71 | Exported Function
+`operator` | 34 | Exported Function
+`EqualNoCase` | 52 | Exported Function
+`Size` | 76 | Exported Function
+`Equal` | 51 | Exported Function
+`GetStringPointerByRef` | 65 | Exported Function
+`Leave` | 70 | Exported Function
 `public: void __thiscall CFlexArray::``default constructor closure'(void)` | 41 | Exported Function
-`public: void __thiscall CCritSec::Enter(void)` | 50 | Exported Function
-`public: void __thiscall CCheckedInCritSec::Enter(void)` | 49 | Exported Function
-`public: void __thiscall CCheckedInCritSec::Leave(void)` | 69 | Exported Function
-`public: void __thiscall CWStringArray::Compress(void)` | 47 | Exported Function
-`public: void __thiscall WString::BindPtr(unsigned short *)` | 46 | Exported Function
+`Enter` | 50 | Exported Function
+`Enter` | 49 | Exported Function
+`Leave` | 69 | Exported Function
+`Compress` | 47 | Exported Function
+`BindPtr` | 46 | Exported Function
 `public: void __thiscall CWStringArray::``default constructor closure'(void)` | 43 | Exported Function
-`public: void __thiscall CFlexArray::SetSize(int)` | 73 | Exported Function
+`SetSize` | 73 | Exported Function
 `public: void __thiscall CFlexQueue::``default constructor closure'(void)` | 42 | Exported Function
-`public: void * * __thiscall CFlexArray::GetArrayPtr(void)` | 54 | Exported Function
-`public: void * * __thiscall CSmallArrayBlob::GetArrayPtr(void)` | 56 | Exported Function
-`public: virtual void * __thiscall CWin32DefaultArena::Realloc(void *,unsigned long)` | 72 | Exported Function
-`public: virtual int __thiscall CWin32DefaultArena::Free(void *)` | 53 | Exported Function
-`public: virtual void * __thiscall CWin32DefaultArena::Alloc(unsigned long)` | 45 | Exported Function
-`public: void * const * __thiscall CFlexArray::GetArrayPtr(void)const ` | 55 | Exported Function
-`public: void * const * __thiscall CSmallArrayBlob::GetArrayPtr(void)const ` | 57 | Exported Function
-`public: void * __thiscall CSmallArrayBlob::operator[](int)const ` | 30 | Exported Function
-`public: void * __thiscall CFlexQueue::Unqueue(void)` | 77 | Exported Function
-`public: void * __thiscall CSmallArrayBlob::GetAt(int)const ` | 59 | Exported Function
-`public: int __thiscall CCheckedInCritSec::IsEntered(void)` | 67 | Exported Function
+`GetArrayPtr` | 54 | Exported Function
+`GetArrayPtr` | 56 | Exported Function
+`Realloc` | 72 | Exported Function
+`Free` | 53 | Exported Function
+`Alloc` | 45 | Exported Function
+`GetArrayPtr` | 55 | Exported Function
+`GetArrayPtr` | 57 | Exported Function
+`operator` | 30 | Exported Function
+`Unqueue` | 77 | Exported Function
+`GetAt` | 59 | Exported Function
+`IsEntered` | 67 | Exported Function
 `public: __thiscall CCheckedInCritSec::~CCheckedInCritSec(void)` | 12 | Exported Function
-`public: __thiscall CCritSec::CCritSec(void)` | 5 | Exported Function
-`public: __thiscall CCheckedInCritSec::CCheckedInCritSec(class CCritSec *)` | 4 | Exported Function
-`public: __thiscall CArena::CArena(class CArena const &)` | 2 | Exported Function
-`public: __thiscall CArena::CArena(void)` | 3 | Exported Function
-`public: __thiscall CHaltable::CHaltable(class CHaltable const &)` | 7 | Exported Function
-`public: __thiscall CInCritSec::CInCritSec(struct _RTL_CRITICAL_SECTION *)` | 8 | Exported Function
+`CCritSec` | 5 | Exported Function
+`CCheckedInCritSec` | 4 | Exported Function
+`CArena` | 2 | Exported Function
+`CArena` | 3 | Exported Function
+`CHaltable` | 7 | Exported Function
+`CInCritSec` | 8 | Exported Function
 `public: __thiscall CEnterWbemCriticalSection::~CEnterWbemCriticalSection(void)` | 14 | Exported Function
 `public: __thiscall CCritSec::~CCritSec(void)` | 13 | Exported Function
-`public: __thiscall CEnterWbemCriticalSection::CEnterWbemCriticalSection(class CWbemCriticalSection *,unsigned long)` | 6 | Exported Function
+`CEnterWbemCriticalSection` | 6 | Exported Function
 `DllCanUnloadNow` | 80 | Exported Function
 `DllGetClassObject` | 81 | Exported Function
 `const CWin32DefaultArena::``vftable'` | 40 | Exported Function
 `const CArena::``vftable'` | 38 | Exported Function
 `const CHaltable::``vftable'` | 39 | Exported Function
-`protected: void __thiscall CFlexQueue::IncrementIndex(int &)` | 66 | Exported Function
-`public: __thiscall CArena::CArena(class CArena &&)` | 1 | Exported Function
-`protected: void __thiscall CFlexQueue::DecrementIndex(int &)` | 48 | Exported Function
+`IncrementIndex` | 66 | Exported Function
+`CArena` | 1 | Exported Function
+`DecrementIndex` | 48 | Exported Function
 `DllRegisterServer` | 82 | Exported Function
 `DllUnregisterServer` | 83 | Exported Function
 `public: __thiscall CInCritSec::~CInCritSec(void)` | 15 | Exported Function
-`public: class CFlexQueue & __thiscall CFlexQueue::operator=(class CFlexQueue const &)` | 23 | Exported Function
-`public: class CHaltable & __thiscall CHaltable::operator=(class CHaltable const &)` | 24 | Exported Function
-`public: class CEnterWbemCriticalSection & __thiscall CEnterWbemCriticalSection::operator=(class CEnterWbemCriticalSection const &)` | 22 | Exported Function
-`public: class CCheckedInCritSec & __thiscall CCheckedInCritSec::operator=(class CCheckedInCritSec const &)` | 20 | Exported Function
-`public: class CCritSec & __thiscall CCritSec::operator=(class CCritSec const &)` | 21 | Exported Function
-`public: class CWbemCriticalSection & __thiscall CWbemCriticalSection::operator=(class CWbemCriticalSection const &)` | 28 | Exported Function
-`public: class CWin32DefaultArena & __thiscall CWin32DefaultArena::operator=(class CWin32DefaultArena const &)` | 29 | Exported Function
-`public: class CSmallArrayBlob & __thiscall CSmallArrayBlob::operator=(class CSmallArrayBlob const &)` | 27 | Exported Function
-`public: class CInCritSec & __thiscall CInCritSec::operator=(class CInCritSec const &)` | 25 | Exported Function
-`public: class CSmallArrayBlob & __thiscall CSmallArrayBlob::operator=(class CSmallArrayBlob &&)` | 26 | Exported Function
-`public: __thiscall WString::operator unsigned short *(void)` | 32 | Exported Function
-`public: __thiscall WString::operator unsigned short const *(void)const ` | 33 | Exported Function
+`operator` | 23 | Exported Function
+`operator` | 24 | Exported Function
+`operator` | 22 | Exported Function
+`operator` | 20 | Exported Function
+`operator` | 21 | Exported Function
+`operator` | 28 | Exported Function
+`operator` | 29 | Exported Function
+`operator` | 27 | Exported Function
+`operator` | 25 | Exported Function
+`operator` | 26 | Exported Function
+`operator` | 32 | Exported Function
+`operator` | 33 | Exported Function
 `public: __thiscall CWin32DefaultArena::~CWin32DefaultArena(void)` | 16 | Exported Function
-`public: __thiscall CWin32DefaultArena::CWin32DefaultArena(class CWin32DefaultArena const &)` | 9 | Exported Function
-`public: __thiscall CWin32DefaultArena::CWin32DefaultArena(void)` | 10 | Exported Function
-`public: class CArena & __thiscall CArena::operator=(class CArena &&)` | 18 | Exported Function
-`public: class CArena & __thiscall CArena::operator=(class CArena const &)` | 19 | Exported Function
-`public: bool __thiscall CHaltable::isValid(void)` | 79 | Exported Function
-`public: __thiscall WString::WString(class WString const &)` | 11 | Exported Function
+`CWin32DefaultArena` | 9 | Exported Function
+`CWin32DefaultArena` | 10 | Exported Function
+`operator` | 18 | Exported Function
+`operator` | 19 | Exported Function
+`isValid` | 79 | Exported Function
+`WString` | 11 | Exported Function
 `public: __thiscall WString::~WString(void)` | 17 | Exported Function
 
 

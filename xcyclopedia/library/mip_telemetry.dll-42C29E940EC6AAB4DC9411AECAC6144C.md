@@ -26,82 +26,82 @@ PE256 | `5F6A0C7EC0D1123DB5F5C85A062E9A14B1A7196DC6E00EF9EBD7BA535F3D4407`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: enum mip::telemetry::Event::PiiKind __thiscall mip::telemetry::Event::EventProperty<__int64>::GetPiiKind(void)const ` | 46 | Exported Function
-`public: enum mip::telemetry::Event::PiiKind __thiscall mip::telemetry::Event::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::GetPiiKind(void)const ` | 45 | Exported Function
-`public: class std::shared_ptr<class mip::telemetry::Event> __thiscall mip::telemetry::AutoEvent::Detach(void)` | 15 | Exported Function
-`public: double const & __thiscall mip::telemetry::Event::EventProperty<double>::GetValue(bool)const ` | 51 | Exported Function
-`public: enum mip::telemetry::Event::PiiKind __thiscall mip::telemetry::Event::EventProperty<double>::GetPiiKind(void)const ` | 44 | Exported Function
-`public: virtual void __thiscall mip::telemetry::Event::AddProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,enum mip::telemetry::Event::PiiKind)` | 14 | Exported Function
-`public: virtual void __thiscall mip::telemetry::Event::AddProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum mip::telemetry::Event::PiiKind,bool)` | 11 | Exported Function
-`public: virtual __thiscall mip::telemetry::Event::~Event(void)` | 8 | Exported Function
-`public: virtual void __thiscall mip::telemetry::Event::AddProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,__int64,enum mip::telemetry::Event::PiiKind)` | 13 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall mip::telemetry::Event::EventProperty<double>::GetName(void)const ` | 41 | Exported Function
-`public: __thiscall mip::telemetry::Event::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum mip::telemetry::Event::PiiKind,bool)` | 3 | Exported Function
-`public: __thiscall mip::telemetry::Event::EventProperty<double>::EventProperty<double>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,double const &,enum mip::telemetry::Event::PiiKind,bool)` | 2 | Exported Function
-`public: __thiscall mip::telemetry::Event::Event(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 6 | Exported Function
-`public: __thiscall mip::telemetry::Event::EventProperty<__int64>::EventProperty<__int64>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,__int64 const &,enum mip::telemetry::Event::PiiKind,bool)` | 4 | Exported Function
-`public: bool __thiscall mip::telemetry::Event::IsNecessaryData(void)const ` | 56 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall mip::telemetry::Event::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::GetName(void)const ` | 42 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall mip::telemetry::Event::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::GetValue(bool)const ` | 52 | Exported Function
-`public: class mip::telemetry::Event & __thiscall mip::telemetry::Event::operator=(class mip::telemetry::Event const &)` | 9 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall mip::telemetry::Event::EventProperty<__int64>::GetName(void)const ` | 43 | Exported Function
-`void __cdecl mip::telemetry::SetEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,__int64,enum mip::telemetry::Event::PiiKind)` | 71 | Exported Function
-`void __cdecl mip::telemetry::SetEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,enum mip::telemetry::Event::PiiKind)` | 72 | Exported Function
-`void __cdecl mip::telemetry::ReleaseThreadResources(void)` | 63 | Exported Function
-`void __cdecl mip::telemetry::SetEventErrorProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::exception const *)` | 68 | Exported Function
-`void __cdecl mip::telemetry::SetEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum mip::telemetry::Event::PiiKind)` | 69 | Exported Function
-`void __cdecl mip::telemetry::SetUseNoop(void)` | 74 | Exported Function
-`void __cdecl mip::telemetry::Uninit(void)` | 75 | Exported Function
-`void __cdecl mip::telemetry::SetEventProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,double,enum mip::telemetry::Event::PiiKind)` | 70 | Exported Function
-`void __cdecl mip::telemetry::SetTelemetryOverride(class std::shared_ptr<class mip::telemetry::TelemetryOverride> const &)` | 73 | Exported Function
-`void __cdecl mip::telemetry::LogEvent(class mip::telemetry::Event &)` | 58 | Exported Function
-`public: void __thiscall mip::telemetry::AutoEvent::SetErrorProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::exception const *)` | 66 | Exported Function
-`public: void __thiscall mip::telemetry::Event::``default constructor closure'(void)` | 10 | Exported Function
-`public: virtual void __thiscall mip::telemetry::Event::AddProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,double,enum mip::telemetry::Event::PiiKind)` | 12 | Exported Function
-`public: virtual void __thiscall mip::telemetry::Event::SetErrorProperties(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::exception const *)` | 67 | Exported Function
-`public: void __thiscall mip::telemetry::Event::SetAsNecessaryData(void)` | 65 | Exported Function
-`void __cdecl mip::telemetry::Init(bool,struct mip::TelemetryConfiguration const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum mip::LogLevel)` | 54 | Exported Function
-`void __cdecl mip::telemetry::LogAuditEvent(class mip::telemetry::Event const &)` | 57 | Exported Function
-`void __cdecl mip::ReleaseAllResources(void)` | 62 | Exported Function
-`void __cdecl mip::telemetry::Flush(void)` | 16 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineTenantIdKey(void)` | 28 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineUserObjectIdKey(void)` | 29 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEnginePolicyDataSourceKey(void)` | 26 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineSessionIdKey(void)` | 27 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEventDurationKey(void)` | 31 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetHttpIsCancelledKey(void)` | 34 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetHttpIsRedirectedKey(void)` | 35 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetHttpCorrelationIdKey(void)` | 32 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetHttpIsAsynchronousKey(void)` | 33 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineLocaleKey(void)` | 25 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetApplicationNameKey(void)` | 18 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetApplicationSessionIdKey(void)` | 19 | Exported Function
-`bool __cdecl mip::telemetry::IsInitialized(void)` | 55 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetApplicationIdKey(void)` | 17 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetApplicationVersionKey(void)` | 20 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineFileIdKey(void)` | 23 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineIdKey(void)` | 24 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetDefaultLabelIdKey(void)` | 21 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetEngineEntryTimeKey(void)` | 22 | Exported Function
-`class std::shared_ptr<class mip::telemetry::Event> __cdecl mip::telemetry::RemoveEvent(void)` | 64 | Exported Function
-`class std::unique_ptr<class mip::telemetry::AutoEvent,struct std::default_delete<class mip::telemetry::AutoEvent> > __cdecl mip::telemetry::NewAutoEvent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 59 | Exported Function
-`class std::shared_ptr<class mip::telemetry::Event> __cdecl mip::telemetry::GetEvent(void)` | 30 | Exported Function
-`class std::shared_ptr<class mip::telemetry::Event> __cdecl mip::telemetry::NewEvent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 61 | Exported Function
-`class std::unique_ptr<class mip::telemetry::AutoEvent,struct std::default_delete<class mip::telemetry::AutoEvent> > __cdecl mip::telemetry::NewAutoEvent(class std::shared_ptr<class mip::telemetry::Event> const &)` | 60 | Exported Function
-`public: __thiscall mip::telemetry::AutoEvent::~AutoEvent(void)` | 7 | Exported Function
-`public: __thiscall mip::telemetry::Event::Event(class mip::telemetry::Event const &)` | 5 | Exported Function
-`int ``public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall mip::telemetry::Event::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::GetValue(bool)const '::``5'::$TSS0` | 1 | Exported Function
-`public: __int64 const & __thiscall mip::telemetry::Event::EventProperty<__int64>::GetValue(bool)const ` | 53 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ``public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall mip::telemetry::Event::EventProperty<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::GetValue(bool)const '::``5'::kSensitiveDataCensoredValue` | 76 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetLabelIdKey(void)` | 38 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetMipVersionKey(void)` | 39 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetHttpStatusCodeKey(void)` | 36 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetHttpUrlKey(void)` | 37 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetMipVersionValue(void)` | 40 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetUseInStorageMemoryIdKey(void)` | 49 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetUserObjectIdKey(void)` | 50 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetTelemetryHostNameOverrideKey(void)` | 47 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl mip::telemetry::GetTenantIdKey(void)` | 48 | Exported Function
+`GetPiiKind` | 46 | Exported Function
+`GetPiiKind` | 45 | Exported Function
+`Detach` | 15 | Exported Function
+`GetValue` | 51 | Exported Function
+`GetPiiKind` | 44 | Exported Function
+`PiiKind` | 14 | Exported Function
+`PiiKind` | 11 | Exported Function
+`Event` | 8 | Exported Function
+`PiiKind` | 13 | Exported Function
+`GetName` | 41 | Exported Function
+`PiiKind` | 3 | Exported Function
+`PiiKind` | 2 | Exported Function
+`allocator` | 6 | Exported Function
+`PiiKind` | 4 | Exported Function
+`IsNecessaryData` | 56 | Exported Function
+`GetName` | 42 | Exported Function
+`GetValue` | 52 | Exported Function
+`Event` | 9 | Exported Function
+`GetName` | 43 | Exported Function
+`PiiKind` | 71 | Exported Function
+`PiiKind` | 72 | Exported Function
+`ReleaseThreadResources` | 63 | Exported Function
+`exception` | 68 | Exported Function
+`PiiKind` | 69 | Exported Function
+`SetUseNoop` | 74 | Exported Function
+`Uninit` | 75 | Exported Function
+`PiiKind` | 70 | Exported Function
+`TelemetryOverride` | 73 | Exported Function
+`Event` | 58 | Exported Function
+`exception` | 66 | Exported Function
+`Event` | 10 | Exported Function
+`PiiKind` | 12 | Exported Function
+`exception` | 67 | Exported Function
+`SetAsNecessaryData` | 65 | Exported Function
+`LogLevel` | 54 | Exported Function
+`Event` | 57 | Exported Function
+`ReleaseAllResources` | 62 | Exported Function
+`Flush` | 16 | Exported Function
+`GetEngineTenantIdKey` | 28 | Exported Function
+`GetEngineUserObjectIdKey` | 29 | Exported Function
+`GetEnginePolicyDataSourceKey` | 26 | Exported Function
+`GetEngineSessionIdKey` | 27 | Exported Function
+`GetEventDurationKey` | 31 | Exported Function
+`GetHttpIsCancelledKey` | 34 | Exported Function
+`GetHttpIsRedirectedKey` | 35 | Exported Function
+`GetHttpCorrelationIdKey` | 32 | Exported Function
+`GetHttpIsAsynchronousKey` | 33 | Exported Function
+`GetEngineLocaleKey` | 25 | Exported Function
+`GetApplicationNameKey` | 18 | Exported Function
+`GetApplicationSessionIdKey` | 19 | Exported Function
+`IsInitialized` | 55 | Exported Function
+`GetApplicationIdKey` | 17 | Exported Function
+`GetApplicationVersionKey` | 20 | Exported Function
+`GetEngineFileIdKey` | 23 | Exported Function
+`GetEngineIdKey` | 24 | Exported Function
+`GetDefaultLabelIdKey` | 21 | Exported Function
+`GetEngineEntryTimeKey` | 22 | Exported Function
+`RemoveEvent` | 64 | Exported Function
+`allocator` | 59 | Exported Function
+`GetEvent` | 30 | Exported Function
+`allocator` | 61 | Exported Function
+`Event` | 60 | Exported Function
+`AutoEvent` | 7 | Exported Function
+`Event` | 5 | Exported Function
+`GetValue` | 1 | Exported Function
+`GetValue` | 53 | Exported Function
+`kSensitiveDataCensoredValue` | 76 | Exported Function
+`GetLabelIdKey` | 38 | Exported Function
+`GetMipVersionKey` | 39 | Exported Function
+`GetHttpStatusCodeKey` | 36 | Exported Function
+`GetHttpUrlKey` | 37 | Exported Function
+`GetMipVersionValue` | 40 | Exported Function
+`GetUseInStorageMemoryIdKey` | 49 | Exported Function
+`GetUserObjectIdKey` | 50 | Exported Function
+`GetTelemetryHostNameOverrideKey` | 47 | Exported Function
+`GetTenantIdKey` | 48 | Exported Function
 
 
 ## Signature

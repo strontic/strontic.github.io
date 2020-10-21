@@ -18,6 +18,9 @@ SHA256 | `E97F31C6A63C8FE8176892DA0D993B6D7DC9FE8850C91F1FA95C7FCB0177AD65`
 SHA384 | `11768410E9FB425D93386AF531435081D1B8F8DDA74EA6A2C2B4144BFE1BE2893FE89EB6CBDFD237C8DC6D89D52518E6`
 SHA512 | `826A7746CD8F52C2F9CC9F72CF021FC16178ED489D1F04E03CCC8302691DBC861ED741A6C11FB25A249D72537F5947E161F5CAF11CE15530D21B2073D52AEFBC`
 SSDEEP | `3072:jraLDabiUpYXN9XK3HbnQb4C6c5Q3eSjlR+8qxLijgJyfFOG83Yj34YFnw6OC2cs:6faOU42rt3lRGOUZGKc4YFnwjCpW`
+IMP | `C451FEB9457D50EB689BA55A85F91B2C`
+PESHA1 | `44CF6DBB2A21F758863F0DC1D4CF10781B0EC98D`
+PE256 | `AC77C2EB356ABDA9D5343F6D35BB960672A1B2AEEB6BC5DBB4757CB579861004`
 
 ## Runtime Data
 
@@ -77,7 +80,18 @@ Examples:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\Defrag.exe |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SXSHARED.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -97,7 +111,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corp.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/e97f31c6a63c8fe8176892da0d993b6d7dc9fe8850c91f1fa95c7fcb0177ad65/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -178,8 +197,6 @@ defrag <volume> [<parameters>]
 
   - File system volumes that aren't **NTFS**, **ReFS**, **Fat** or **Fat32**.
 
-- You can't schedule to defragment a Solid State Drive (SSD) or a volume on a Virtual Hard Disk (VHD) that resides on an SSD.
-
 - To perform this procedure, you must be a member of the Administrators group on the local computer, or you must have been delegated the appropriate authority. If the computer is joined to a domain, members of the Domain Admins group might be able to perform this procedure. As a security best practice, consider using **Run As** to perform this procedure.
 
 - A volume must have at least 15% free space for **defrag** to completely and adequately defragment it. **defrag** uses this space as a sorting area for file fragments. If a volume has less than 15% free space, **defrag** will only partially defragment it. To increase the free space on a volume, delete unneeded files or move them to another disk.
@@ -226,7 +243,7 @@ The defragmentation process runs scheduled task as a maintenance task, which typ
 
 - When run from the scheduled task, **defrag** uses the below policy guidelines for SSDs:
 
-  - **Traditional optimization processes**. Includes **traditional defragmentation**, for example moving files to make them reasonably contiguous and **retrim**. This is done once per month. However, if both **traditional defragmentation** and **retrim** are skipped, then **analysis** isn't run.
+  - **Traditional optimization processes**. Includes **traditional defragmentation**, for example moving files to make them reasonably contiguous and **retrim**. This is done once per month. However, if both **traditional defragmentation** and **retrim** are skipped, then **analysis** isn't run. Changing the frequency of the scheduled task does not affect the once per month cadence for the SSDs.
 
   - If you manually run **traditional defragmentation** on a SSD, between your normally scheduled runs, the next scheduled task run performs **analysis** and **retrim**, but skips **traditional defragmentation** on that SSD.
 

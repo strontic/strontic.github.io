@@ -8,6 +8,10 @@ excerpt: What is Code.exe?
 * File Path: `C:\Program Files\Microsoft VS Code\Code.exe`
 * Description: Visual Studio Code
 
+## Screenshot
+
+![Code.exe](screenshots/Code.exe-51C687B9F501188060644C12152BE7A4-4.png)
+
 ## Hashes
 
 Type | Hash

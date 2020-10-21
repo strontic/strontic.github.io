@@ -18,6 +18,9 @@ SHA256 | `9DBCA701E0A0F9CF7D98F5BC7A5E7D0C844F992EE4E2670F124F6344FA182E42`
 SHA384 | `B4CAE34A447AD7712A48B16A6E8A9F2FB3BB201D64D0B46E9479A7CEA520C4D080EBF965A40F8370581B8623491F5870`
 SHA512 | `D064CC88748D7E15AD0E4E3A586954106040070E5DAA9DE73D7B2A6F009FAB0CE3F9E597113C2FE88C9C39106CF982FC89662BA402BC9772848389022CCBDF48`
 SSDEEP | `384:hd2EwJxreLEQQ8oo9Z0pWPouQmjeeEETz5TwOK8j7eACMivFYKVRfK9bIjLyW4UW:hUEwLrJQgoPEmoupae3yOK8WfvBV4ic`
+IMP | `CD3B5466F111A79E4AC06248B98E0B04`
+PESHA1 | `19A93009DCE54E5D03E6A4FB2E539520960F1600`
+PE256 | `C0A042EEA8C8E4D5F0DE928DFDB36FBFEED9970F70F6F30FE3F182A97DADF694`
 
 ## Runtime Data
 
@@ -76,7 +79,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\msg.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -85,8 +91,20 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\msg.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINSTA.dll |
 
 
 ## Signature
@@ -106,7 +124,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/9dbca701e0a0f9cf7d98f5bc7a5e7d0c844f992ee4e2670f124f6344fa182e42/detection/
 
 ## File Similarity (ssdeep match)
 

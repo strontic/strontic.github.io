@@ -18,6 +18,9 @@ SHA256 | `6219C1BC22930D17997DD21DEC663705ABA0B01FED1D11F73B6A9C721F894CB5`
 SHA384 | `A50F6D8A3EBC3D90AAFB099D3CCB03A0311F3E13BAB9643DA1179D4481C51DB8167A9461DC6272DA016E63373E2C5789`
 SHA512 | `B6269EE18F9F5746D7AC39488A33E9BD4D4452F7E2F4BC4CF7644D55FA3EF0AB2D6225551F101EB415F70264F191D731EF23A68138F9D92541E356318D5CBFCA`
 SSDEEP | `384:Hk8ZkDFqPAkJ5b4EjIuUdo0XcM5VLAtjz+8Xp5Q/WK+SWk6R:HTsiv94EjIndo0X7AtjztXp5u+o6`
+IMP | `8B92347E56758D2E293224C162867097`
+PESHA1 | `B453F501B57166123213A0B121D72C86735D92ED`
+PE256 | `09C96798DE8C2786C91635C1FF3BF605680E3F0DC29301608D81361E5CB66384`
 
 ## Runtime Data
 
@@ -119,6 +122,8 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\shutdown.exe |
 
 
@@ -139,7 +144,12 @@ C:\Windows\SysWOW64\shutdown.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/6219c1bc22930d17997dd21dec663705aba0b01fed1d11f73b6a9c721f894cb5/detection/
 
 
 ## Possible Misuse
@@ -211,54 +221,65 @@ Source | Source File | Example | License
 
 ## shutdown
 
-Enables you to shut down or restart local or remote computers one at a time.
-
-
+Enables you to shut down or restart local or remote computers, one at a time.
 
 ### Syntax
 
 ```
-shutdown [/i | /l | /s | /r | /a | /p | /h | /e] [/f] [/m \\<ComputerName>] [/t <XXX>] [/d [p|u:]<XX>:<YY> [/c "descriptive comment"]]
+shutdown [/i | /l | /s | /r | /a | /p | /h | /e] [/f] [/m \\<computername>] [/t <XXX>] [/d [p|u:]<XX>:<YY> [/c "comment"]]
 ```
 
 #### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/i|Displays the **Remote Shutdown Dialog** box. The **/i** option must be the first parameter following the command. If **/i** is specified, all other options are ignored.|
-|/l|Logs off the current user immediately, with no time-out period. You cannot use **/l** with **/m** or **/t**.|
-|/s|Shuts down the computer.|
-|/r|Restarts the computer after shutdown.|
-|/a|Aborts a system shutdown. Effective only during the timeout period. To use **/a**, you must also use the **/m** option.|
-|/p|Turns off the local computer only (not a remote computer)â€”with no time-out period or warning. You can use **/p** only with **/d** or **/f**. If your computer does not support power-off functionality, it will shut down when you use **/p**, but the power to the computer will remain on.|
-|/h|Puts the local computer into hibernation, if hibernation is enabled. You can use **/h** only with **/f**.|
-|/e|Enables you to document the reason for the unexpected shutdown on the target computer.|
-|/f|Forces running applications to close without warning users.</br>Caution: Using the **/f** option might result in loss of unsaved data.|
-|/m \\\\\<ComputerName>|Specifies the target computer. Cannot be used with the **/l** option.|
-|/t \<XXX>|Sets the time-out period or delay to *XXX* seconds before a restart or shutdown. This causes a warning to display on the local console. You can specify 0-600 seconds. If you do not use **/t**, the time-out period is 30 seconds by default.|
-|/d [p\|u:]\<XX>:\<YY>|Lists the reason for the system restart or shutdown. The following are the parameter values:</br>**p** Indicates that the restart or shutdown is planned.</br>**u** Indicates that the reason is user defined.</br>Note: If **p** or **u** are not specified, the restart or shutdown is unplanned.</br>*XX* Specifies the major reason number (positive integer less than 256).</br>*YY* Specifies the minor reason number (positive integer less than 65536).|
-|/c \<Comment>|Enables you to comment in detail about the reason for the shutdown. You must first provide a reason by using the **/d** option. You must enclose comments in quotation marks. You can use a maximum of 511 characters.|
-|/?|Displays help at the command prompt, including a list of the major and minor reasons that are defined on your local computer.|
+| Parameter | Description |
+|--|--|
+| /i | Displays the **Remote Shutdown** box. The **/i** option must be the first parameter following the command. If **/i** is specified, all other options are ignored. |
+| /l | Logs off the current user immediately, with no time-out period. You cannot use **/l** with **/m** or **/t**. |
+| /s | Shuts down the computer. |
+| /r | Restarts the computer after shutdown. |
+| /a | Aborts a system shutdown. Effective only during the time-out period. To use **/a**, you must also use the **/m** option. |
+| /p | Turns off the local computer only (not a remote computer)â€”with no time-out period or warning. You can use **/p** only with **/d** or **/f**. If your computer doesn't support power-off functionality, it will shut down when you use **/p**, but the power to the computer will remain on. |
+| /h | Puts the local computer into hibernation, if hibernation is enabled. You can use **/h** only with **/f**. |
+| /e | Enables you to document the reason for the unexpected shutdown on the target computer. |
+| /f | Forces running applications to close without warning users.<br>**Caution:** Using the **/f** option might result in loss of unsaved data. |
+| /m `\\<computername>` | Specifies the target computer. Can't be used with the **/l** option. |
+| /t `<n>` | Sets the time-out period or delay to *n* seconds before a restart or shutdown. This causes a warning to display on the local console. You can specify 0-600 seconds. If you don't use **/t**, the time-out period is 30 seconds, by default. |
+| /d `[p | u:]<XX>:<YY>` | Lists the reason for the system restart or shutdown. The supported parameter values are:<ul><li>**p** - Indicates that the restart or shutdown is planned.</li><li>**u** - Indicates that the reason is user-defined.<p>**NOTE**<br>If **p** or **u** aren't specified, the restart or shutdown is unplanned.</li><li>*XX* - Specifies the major reason number (a positive integer, less than 256).</li><li>*YY* Specifies the minor reason number (a positive integer, less than 65536).</li></ul> |
+| /c `<comment>` | Enables you to comment in detail about the reason for the shutdown. You must first provide a reason by using the **/d** option and you must enclose your comments in quotation marks. You can use a maximum of 511 characters. |
+| /? | Displays help at the command prompt, including a list of the major and minor reasons that are defined on your local computer. |
 
-### Remarks
+##### Remarks
 
 - Users must be assigned the **Shut down the system** user right to shut down a local or remotely administered computer that is using the **shutdown** command.
-- Users must be members of the Administrators group to annotate an unexpected shutdown of a local or remotely administered computer. If the target computer is joined to a domain, members of the Domain Admins group might be able to perform this procedure. For more information, see:
-    - [Default local groups](/previous-versions/windows/it-pro/windows-server-2003/cc785098(v=ws.10))
-    - [Default groups](/previous-versions/windows/it-pro/windows-server-2003/cc756898(v=ws.10))
-- If you want to shut down more than one computer at a time, you can call **shutdown** for each computer by using a script, or you can use **shutdown** **/i** to display the Remote Shutdown Dialog box.
-- If you specify major and minor reason codes, you must first define these reason codes on each computer where you plan to use the reasons. If the reason codes are not defined on the target computer, Shutdown Event Tracker cannot log the correct reason text.
-- Remember to indicate that a shutdown is planned by using the **p:** parameter. Omitting **p:** indicates that a shutdown is unplanned. If you type **p:** followed by the reason code for an unplanned shutdown, the command will not carry out the shutdown. Conversely, if you omit **p:** and type in the reason code for a planned shutdown, the command will not carry out the shutdown.
+
+- Users must be members of the **Administrators** group to annotate an unexpected shutdown of a local or remotely administered computer. If the target computer is joined to a domain, members of the **Domain Admins** group might be able to perform this procedure. For more information, see:
+
+  - [Default local groups](/previous-versions/windows/it-pro/windows-server-2003/cc785098(v=ws.10))
+
+  - [Default groups](/previous-versions/windows/it-pro/windows-server-2003/cc756898(v=ws.10))
+
+- If you want to shut down more than one computer at a time, you can call **shutdown** for each computer by using a script, or you can use **shutdown** **/i** to display the **Remote Shutdown** box.
+
+- If you specify major and minor reason codes, you must first define these reason codes on each computer where you plan to use the reasons. If the reason codes aren't defined on the target computer, Shutdown Event Tracker can't log the correct reason text.
+
+- Remember to indicate that a shutdown is planned by using the **p** parameter. Not using the **p** parameter, indicates that the shutdown was unplanned.
+
+  - Using the **p** parameter, along the reason code for an unplanned shutdown, causes the shutdown to fail.
+
+  - Not using the **p** parameter, and only providing the reason code for an planned shutdown, also causes the shutdown to fail
 
 ### Examples
 
-To force applications to close and restart the local computer after a one-minute delay with the reason Application: Maintenance (Planned) and the comment Reconfiguring myapp.exe type:
+To force apps to close and to restart the local computer after a one-minute delay, with the reason *Application: Maintenance (Planned)* and the comment "Reconfiguring myapp.exe", type:
+
 ```
 shutdown /r /t 60 /c "Reconfiguring myapp.exe" /f /d p:4:1
 ```
-To restart the remote computer \\\\ServerName with the same parameters, type:
+
+To restart the remote computer *myremoteserver* with the same parameters as the previous example, type:
+
 ```
-shutdown /r /m \\servername /t 60 /c "Reconfiguring myapp.exe" /f /d p:4:1
+shutdown /r /m \\myremoteserver /t 60 /c "Reconfiguring myapp.exe" /f /d p:4:1
 ```
 
 ### Additional References

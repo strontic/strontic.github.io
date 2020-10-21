@@ -18,6 +18,9 @@ SHA256 | `34C4ED50A3441BD7CB6411749771C637A8C18C791525D8FCB5AE71B0B1969BA6`
 SHA384 | `CEB67964FC8F3B6416F57647DFBCA7EF0CBD3F0B123AFB54097A09E6A5BD7EA490E9D815CA667E747323C799C3B9CB15`
 SHA512 | `E0ED06637262ECD399495BFD61E2DF39EECB8E7F7583B6025A8168D38FCBED7B6712FE62079D9A1DA862C42026AEAB335ABEACB022EEB657FBE3ADB0BB6056E3`
 SSDEEP | `6144:0kQflATq5Otf7DWNaJux0e/bNQnST/iikGy7QZQPGw9ZexWGH5enh:0LizBeoJuec3iikNTF9ZeEGH0nh`
+IMP | `AF8CD6625FCE3244397EE550EFF4091E`
+PESHA1 | `FE44D357705361D3099FA325192BF4EB45FEE139`
+PE256 | `154911087A936359BA936871A2999C56641693630CD64FC6D30E53974A88D790`
 
 ## Runtime Data
 
@@ -156,8 +159,50 @@ help - Alias not found.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\CRYPTBASE.DLL |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\SYSTEM32\framedynos.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\iertutil.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\System32\msxml6.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\SYSTEM32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\system32\wbem\fastprox.dll |
+C:\Windows\system32\wbem\wbemprox.dll |
+C:\Windows\system32\wbem\wbemsvc.dll |
 C:\Windows\system32\wbem\WMIC.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -177,7 +222,12 @@ C:\Windows\system32\wbem\WMIC.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/34c4ed50a3441bd7cb6411749771c637a8c18c791525d8fcb5ae71b0b1969ba6/detection/
 
 
 ## Possible Misuse

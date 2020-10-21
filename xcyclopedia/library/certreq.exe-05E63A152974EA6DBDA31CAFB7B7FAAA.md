@@ -22,6 +22,9 @@ SHA256 | `D973513E4C048829EA1281A7C57A4C352A366B5B8FC9E39F177781AF68E36396`
 SHA384 | `8FC6F2C0CEAD132597667FE10E2C255BBDB6E210FA98962590BCA816B7B67A7E08E833B68E976044725FE12E14816851`
 SHA512 | `6D355F45D4142673048AC0DF8702BB08B90935723C5CCEC31A87E2B53BF9843B9E9BE70678DE34A7E42D2059B58183A581E567261954A605C6EC78CC7CCAC81A`
 SSDEEP | `6144:q2bcvB1l7GpOKAlGNFc0GogbH2Z1VTrj5IwWJtbi+KATSr5F3NC9Nl+:qCil7Ejc0hgbe1VTrywP+VSL9CXl+`
+IMP | `F66C876B7855BFF538606AE262764AC3`
+PESHA1 | `116B8C7FD1114D05B2F38E80C156DAE6BE76135E`
+PE256 | `35C4578B14BC0E63A52AC355E00A99DDE078EB2790852DE8D40B75AC23B4C6D3`
 
 ## Runtime Data
 
@@ -183,12 +186,15 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\certreq.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -196,6 +202,9 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\certreq.exe |
 
 
@@ -216,7 +225,12 @@ C:\Windows\SysWOW64\certreq.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d973513e4c048829ea1281a7c57a4c352a366b5b8fc9e39f177781af68e36396/detection/
 
 
 ## Possible Misuse

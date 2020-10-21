@@ -25,83 +25,83 @@ PE256 | `B0E8C32F1BE4F89A2B43893A0EBD1E74F3215E8046326228386F71ADDE21DC05`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class DataTransformer::StyleSelectorImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateStyleSelector(void)const ` | 56 | Exported Function
-`public: class DataTransformer::Transformer_OptionsImpl & __thiscall DataTransformer::Transformer_OptionsImpl::operator=(class DataTransformer::Transformer_OptionsImpl const &)` | 26 | Exported Function
-`public: class DataTransformer::PropertySchemaImpl * __thiscall DataTransformer::EntityFactoryImpl::CreatePropertySchema(void)const ` | 55 | Exported Function
-`public: class DataTransformer::ReferentImpl & __thiscall DataTransformer::ReferentImpl::operator=(class DataTransformer::ReferentImpl const &)` | 25 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall DataTransformer::Transformer_OptionsImpl::GetInputFileName(void)const ` | 58 | Exported Function
-`public: int __thiscall DataTransformer::ReferentImpl::release(void)` | 75 | Exported Function
-`public: static class DataTransformer::EntityFactoryImpl * __cdecl DataTransformer::EntityFactoryImpl::GetFactory(void)` | 57 | Exported Function
-`public: class std::vector<class DataTransformer::GeoEntityObserverImpl *,class std::allocator<class DataTransformer::GeoEntityObserverImpl *> > * __thiscall DataTransformer::Transformer_OptionsImpl::GetObservers(void)` | 59 | Exported Function
-`public: int __thiscall DataTransformer::ReferentImpl::get_ref_count(void)const ` | 73 | Exported Function
-`public: class DataTransformer::PropertyImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateProperty(void)const ` | 54 | Exported Function
-`public: class DataTransformer::LabelStyleImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateLabelStyle(void)const ` | 48 | Exported Function
-`public: class DataTransformer::LineStringImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateLineString(void)const ` | 49 | Exported Function
-`public: class DataTransformer::GeometryCollectionImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateGeometryCollection(void)const ` | 46 | Exported Function
-`public: class DataTransformer::IconStyleImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateIconStyle(void)const ` | 47 | Exported Function
-`public: class DataTransformer::LineStyleImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateLineStyle(void)const ` | 50 | Exported Function
-`public: class DataTransformer::PolygonImpl * __thiscall DataTransformer::EntityFactoryImpl::CreatePolygon(void)const ` | 53 | Exported Function
-`public: class DataTransformer::PolyStyleImpl * __thiscall DataTransformer::EntityFactoryImpl::CreatePolyStyle(void)const ` | 52 | Exported Function
-`public: class DataTransformer::LocationImpl & __thiscall DataTransformer::LocationImpl::operator=(class DataTransformer::LocationImpl const &)` | 24 | Exported Function
-`public: class DataTransformer::PointImpl * __thiscall DataTransformer::EntityFactoryImpl::CreatePoint(void)const ` | 51 | Exported Function
-`public: void __thiscall DataTransformer::LocationImpl::clear_altitude(void)` | 68 | Exported Function
-`public: void __thiscall DataTransformer::LocationImpl::set(int,double)` | 76 | Exported Function
-`public: virtual enum DataTransformer::Entity_Type __thiscall DataTransformer::EntityBaseImpl::Type(void)const ` | 63 | Exported Function
-`public: virtual enum DataTransformer::Entity_Type __thiscall DataTransformer::LocationImpl::Type(void)const ` | 64 | Exported Function
-`public: void __thiscall DataTransformer::LocationImpl::set_altitude(double)` | 77 | Exported Function
-`public: void __thiscall DataTransformer::TransformerImpl::__autoclassinit2(unsigned int)` | 65 | Exported Function
-`public: void __thiscall DataTransformer::TransformerImpl::StartParsing(class DataTransformer::DataTransformer_Error &)` | 62 | Exported Function
-`public: void __thiscall DataTransformer::ReferentImpl::add_ref(void)` | 67 | Exported Function
-`public: void __thiscall DataTransformer::Transformer_OptionsImpl::__autoclassinit2(unsigned int)` | 66 | Exported Function
-`public: virtual double __thiscall DataTransformer::LocationImpl::get_longitude(void)const ` | 72 | Exported Function
-`public: virtual __thiscall DataTransformer::LocationImpl::~LocationImpl(void)` | 18 | Exported Function
-`public: virtual __thiscall DataTransformer::ReferentImpl::~ReferentImpl(void)` | 19 | Exported Function
-`public: virtual __thiscall DataTransformer::EntityBaseImpl::~EntityBaseImpl(void)` | 16 | Exported Function
-`public: virtual __thiscall DataTransformer::GeoEntityObserverImpl::~GeoEntityObserverImpl(void)` | 17 | Exported Function
-`public: virtual __thiscall DataTransformer::TransformerImpl::~TransformerImpl(void)` | 20 | Exported Function
-`public: virtual double __thiscall DataTransformer::LocationImpl::get_altitude(void)const ` | 70 | Exported Function
-`public: virtual double __thiscall DataTransformer::LocationImpl::get_latitude(void)const ` | 71 | Exported Function
-`public: virtual bool __thiscall DataTransformer::EntityBaseImpl::IsA(enum DataTransformer::Entity_Type)const ` | 60 | Exported Function
-`public: virtual bool __thiscall DataTransformer::LocationImpl::IsA(enum DataTransformer::Entity_Type)const ` | 61 | Exported Function
-`public: class DataTransformer::GeoEntityObserverImpl & __thiscall DataTransformer::GeoEntityObserverImpl::operator=(class DataTransformer::GeoEntityObserverImpl const &)` | 23 | Exported Function
-`const DataTransformer::ReferentImpl::``vftable'` | 35 | Exported Function
-`const DataTransformer::TransformerImpl::``vftable'` | 36 | Exported Function
-`const DataTransformer::LocationImpl::``vftable'{for ``DataTransformer::IEntityBase'}` | 33 | Exported Function
-`const DataTransformer::LocationImpl::``vftable'{for ``DataTransformer::ReferentImpl'}` | 34 | Exported Function
-`private: __thiscall DataTransformer::EntityFactoryImpl::EntityFactoryImpl(void)` | 4 | Exported Function
-`protected: __thiscall DataTransformer::EntityBaseImpl::EntityBaseImpl(void)` | 2 | Exported Function
-`public: __thiscall DataTransformer::EntityBaseImpl::EntityBaseImpl(class DataTransformer::EntityBaseImpl const &)` | 3 | Exported Function
-`private: static class DataTransformer::EntityFactoryImpl * DataTransformer::EntityFactoryImpl::factory_` | 69 | Exported Function
-`protected: __thiscall DataTransformer::EntityBaseImpl::EntityBaseImpl(enum DataTransformer::Entity_Type)` | 1 | Exported Function
-`const DataTransformer::LocationImpl::``vftable'` | 32 | Exported Function
-`class DataTransformer::ILineString * __cdecl DataTransformer::AsLineString(class DataTransformer::IGeometry *)` | 39 | Exported Function
-`class DataTransformer::IPoint * __cdecl DataTransformer::AsPoint(class DataTransformer::IGeometry *)` | 40 | Exported Function
-`class DataTransformer::IEntity * __cdecl DataTransformer::AsEntity(class DataTransformer::IEntityBase *)` | 37 | Exported Function
-`class DataTransformer::IGeometryCollection * __cdecl DataTransformer::AsGeometryCollection(class DataTransformer::IGeometry *)` | 38 | Exported Function
-`class DataTransformer::IPolygon * __cdecl DataTransformer::AsPolygon(class DataTransformer::IGeometry *)` | 41 | Exported Function
-`const DataTransformer::EntityBaseImpl::``vftable'{for ``DataTransformer::ReferentImpl'}` | 30 | Exported Function
-`const DataTransformer::GeoEntityObserverImpl::``vftable'` | 31 | Exported Function
-`class DataTransformer::IPropertySchema * __cdecl DataTransformer::AsPropertySchema(class DataTransformer::IEntityBase *)` | 42 | Exported Function
-`const DataTransformer::EntityBaseImpl::``vftable'{for ``DataTransformer::IEntityBase'}` | 29 | Exported Function
-`public: bool __thiscall DataTransformer::LocationImpl::operator!=(class DataTransformer::LocationImpl const &)const ` | 28 | Exported Function
-`public: bool __thiscall DataTransformer::LocationImpl::operator==(class DataTransformer::LocationImpl const &)const ` | 27 | Exported Function
-`public: __thiscall DataTransformer::TransformerImpl::TransformerImpl(class DataTransformer::TransformerImpl const &)` | 14 | Exported Function
-`public: bool __thiscall DataTransformer::LocationImpl::has_altitude(void)const ` | 74 | Exported Function
-`public: class boost::intrusive_ptr<class DataTransformer::EntityBaseImpl> __thiscall DataTransformer::EntityFactoryImpl::CreateEntityById(enum DataTransformer::Entity_Type)const ` | 45 | Exported Function
-`public: class DataTransformer::EntityFactoryImpl & __thiscall DataTransformer::EntityFactoryImpl::operator=(class DataTransformer::EntityFactoryImpl const &)` | 22 | Exported Function
-`public: class DataTransformer::EntityImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateEntity(void)const ` | 44 | Exported Function
-`public: class DataTransformer::CoordinatesImpl * __thiscall DataTransformer::EntityFactoryImpl::CreateCoordinates(void)const ` | 43 | Exported Function
-`public: class DataTransformer::EntityBaseImpl & __thiscall DataTransformer::EntityBaseImpl::operator=(class DataTransformer::EntityBaseImpl const &)` | 21 | Exported Function
-`public: __thiscall DataTransformer::TransformerImpl::TransformerImpl(class DataTransformer::Transformer_OptionsImpl &)` | 13 | Exported Function
-`public: __thiscall DataTransformer::LocationImpl::LocationImpl(class DataTransformer::LocationImpl const &)` | 7 | Exported Function
-`public: __thiscall DataTransformer::LocationImpl::LocationImpl(double,double)` | 8 | Exported Function
-`public: __thiscall DataTransformer::GeoEntityObserverImpl::GeoEntityObserverImpl(class DataTransformer::GeoEntityObserverImpl const &)` | 5 | Exported Function
-`public: __thiscall DataTransformer::GeoEntityObserverImpl::GeoEntityObserverImpl(void)` | 6 | Exported Function
-`public: __thiscall DataTransformer::LocationImpl::LocationImpl(double,double,double)` | 9 | Exported Function
-`public: __thiscall DataTransformer::ReferentImpl::ReferentImpl(void)` | 12 | Exported Function
-`public: __thiscall DataTransformer::Transformer_OptionsImpl::Transformer_OptionsImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const *,class std::vector<class DataTransformer::GeoEntityObserverImpl *,class std::allocator<class DataTransformer::GeoEntityObserverImpl *> > *)` | 15 | Exported Function
-`public: __thiscall DataTransformer::LocationImpl::LocationImpl(void)` | 10 | Exported Function
-`public: __thiscall DataTransformer::ReferentImpl::ReferentImpl(class DataTransformer::ReferentImpl const &)` | 11 | Exported Function
+`CreateStyleSelector` | 56 | Exported Function
+`Transformer_OptionsImpl` | 26 | Exported Function
+`CreatePropertySchema` | 55 | Exported Function
+`ReferentImpl` | 25 | Exported Function
+`GetInputFileName` | 58 | Exported Function
+`release` | 75 | Exported Function
+`GetFactory` | 57 | Exported Function
+`GetObservers` | 59 | Exported Function
+`get_ref_count` | 73 | Exported Function
+`CreateProperty` | 54 | Exported Function
+`CreateLabelStyle` | 48 | Exported Function
+`CreateLineString` | 49 | Exported Function
+`CreateGeometryCollection` | 46 | Exported Function
+`CreateIconStyle` | 47 | Exported Function
+`CreateLineStyle` | 50 | Exported Function
+`CreatePolygon` | 53 | Exported Function
+`CreatePolyStyle` | 52 | Exported Function
+`LocationImpl` | 24 | Exported Function
+`CreatePoint` | 51 | Exported Function
+`clear_altitude` | 68 | Exported Function
+`set` | 76 | Exported Function
+`Type` | 63 | Exported Function
+`Type` | 64 | Exported Function
+`set_altitude` | 77 | Exported Function
+`__autoclassinit2` | 65 | Exported Function
+`DataTransformer_Error` | 62 | Exported Function
+`add_ref` | 67 | Exported Function
+`__autoclassinit2` | 66 | Exported Function
+`get_longitude` | 72 | Exported Function
+`LocationImpl` | 18 | Exported Function
+`ReferentImpl` | 19 | Exported Function
+`EntityBaseImpl` | 16 | Exported Function
+`GeoEntityObserverImpl` | 17 | Exported Function
+`TransformerImpl` | 20 | Exported Function
+`get_altitude` | 70 | Exported Function
+`get_latitude` | 71 | Exported Function
+`Entity_Type` | 60 | Exported Function
+`Entity_Type` | 61 | Exported Function
+`GeoEntityObserverImpl` | 23 | Exported Function
+`ReferentImpl` | 35 | Exported Function
+`TransformerImpl` | 36 | Exported Function
+`IEntityBase` | 33 | Exported Function
+`ReferentImpl` | 34 | Exported Function
+`EntityFactoryImpl` | 4 | Exported Function
+`EntityBaseImpl` | 2 | Exported Function
+`EntityBaseImpl` | 3 | Exported Function
+`factory_` | 69 | Exported Function
+`Entity_Type` | 1 | Exported Function
+`LocationImpl` | 32 | Exported Function
+`IGeometry` | 39 | Exported Function
+`IGeometry` | 40 | Exported Function
+`IEntityBase` | 37 | Exported Function
+`IGeometry` | 38 | Exported Function
+`IGeometry` | 41 | Exported Function
+`ReferentImpl` | 30 | Exported Function
+`GeoEntityObserverImpl` | 31 | Exported Function
+`IEntityBase` | 42 | Exported Function
+`IEntityBase` | 29 | Exported Function
+`LocationImpl` | 28 | Exported Function
+`LocationImpl` | 27 | Exported Function
+`TransformerImpl` | 14 | Exported Function
+`has_altitude` | 74 | Exported Function
+`Entity_Type` | 45 | Exported Function
+`EntityFactoryImpl` | 22 | Exported Function
+`CreateEntity` | 44 | Exported Function
+`CreateCoordinates` | 43 | Exported Function
+`EntityBaseImpl` | 21 | Exported Function
+`Transformer_OptionsImpl` | 13 | Exported Function
+`LocationImpl` | 7 | Exported Function
+`LocationImpl` | 8 | Exported Function
+`GeoEntityObserverImpl` | 5 | Exported Function
+`GeoEntityObserverImpl` | 6 | Exported Function
+`LocationImpl` | 9 | Exported Function
+`ReferentImpl` | 12 | Exported Function
+`GeoEntityObserverImpl` | 15 | Exported Function
+`LocationImpl` | 10 | Exported Function
+`ReferentImpl` | 11 | Exported Function
 
 
 ## Signature

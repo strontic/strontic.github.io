@@ -18,6 +18,9 @@ SHA256 | `42D13DB2BE5A3B913EF39622F8357752A6CA625AE1280992C21D971CE9B7E701`
 SHA384 | `ACB2778EC999414D4901B276CD96EF8089887A2500897D25E7E3779A91E1EA101B0E595E145DFA29BDEA89129A43C437`
 SHA512 | `69304197C2805F908DFEB79EF48CF3C573A1FDD1C2038A7BB7FC39DA4E8BCF480A6D235DE101DD2F0CD542F20D5CAF1E27111DE3AD75D12B298402B78F931254`
 SSDEEP | `192:kD/feVr4m7RI5cRoW0hmRZec6TXdTuUg52WZXW:kD/fE7K6oWYmyfTXEZ4WZXW`
+IMP | `71297308FDB1BE310422F78B8E23F73C`
+PESHA1 | `39935852666B8505A73EF2E62871ED765354C331`
+PE256 | `445B198C98C12D695843136918042AD02F81475201EB11FA726D9EDE8260C5FD`
 
 ## Runtime Data
 
@@ -25,11 +28,14 @@ SSDEEP | `192:kD/feVr4m7RI5cRoW0hmRZec6TXdTuUg52WZXW:kD/fE7K6oWYmyfTXEZ4WZXW`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC17D8 | Section
+\RPC Control\DSEC90C | Section
 
 
 ### Loaded Modules:
@@ -40,10 +46,12 @@ C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\mintdh.dll |
@@ -51,6 +59,7 @@ C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\pdh.dll |
 C:\Windows\system32\pla.dll |
@@ -83,7 +92,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/42d13db2be5a3b913ef39622f8357752a6ca625ae1280992c21d971ce9b7e701/detection/
 
 ## File Similarity (ssdeep match)
 

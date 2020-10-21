@@ -33,13 +33,13 @@ Function Name | Ordinal | Type
 `EVPSha1` | 19 | Exported Function
 `GetVerifyCertErrorInfo` | 24 | Exported Function
 `GetVerifyCertError` | 23 | Exported Function
-`public: __thiscall ICmCrypto::ICmCrypto(class ICmCrypto const &)` | 1 | Exported Function
+`ICmCrypto` | 1 | Exported Function
 `sha256` | 34 | Exported Function
 `SHA1Algorithm` | 29 | Exported Function
 `VerifyCertificateEx` | 32 | Exported Function
 `UnloadAllAlgorithms` | 31 | Exported Function
-`public: class ICmCrypto & __thiscall ICmCrypto::operator=(class ICmCrypto const &)` | 4 | Exported Function
-`public: __thiscall ICmCrypto::ICmCrypto(void)` | 2 | Exported Function
+`operator` | 4 | Exported Function
+`ICmCrypto` | 2 | Exported Function
 `SaveToFile` | 30 | Exported Function
 `ReadFromFile` | 28 | Exported Function
 `CreateCertKeyPair` | 9 | Exported Function
@@ -48,8 +48,8 @@ Function Name | Ordinal | Type
 `CreateCrypto` | 10 | Exported Function
 `aes_128_cbc` | 33 | Exported Function
 `AddAllAlgorithms` | 8 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl UnSecStringImpl(class csf::SecureString const &)` | 7 | Exported Function
-`class csf::SecureString __cdecl SecStringImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 6 | Exported Function
+`SecureString` | 7 | Exported Function
+`allocator` | 6 | Exported Function
 `CreateSessionKey` | 12 | Exported Function
 `EnvelopSessionKey` | 20 | Exported Function
 `Der2PemPrivateKey` | 17 | Exported Function

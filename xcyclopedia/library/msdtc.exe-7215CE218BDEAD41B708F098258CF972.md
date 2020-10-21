@@ -18,6 +18,9 @@ SHA256 | `1EAB4B9691E9EFA1DA02BDCB84035F65EDA4B525E5AEE925A6E1E4107F8E4F31`
 SHA384 | `DCD1B3A7FA630620C1567F4249B6DA7650A1907F0D593445AB643CADF5B438057BCE08F5A7401F1C20A2DD5D55A31CED`
 SHA512 | `58D10D21AB916A4E1D21DBFD65856ED95D484622989B2CB6A95C0D6EA49757B18C97AE06DC3B9F32AA88A0D534E0121F04ECA9F0597A952E057FFC69B93426D3`
 SSDEEP | `1536:wpfx6C1a800NG/qtbC15ZkuH1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lp:u1aLyMBkNv7fcmEAkyXiqp`
+IMP | `D76D41E51FC79BF5C56F90FE6A798765`
+PESHA1 | `283A9A4B8AA73DB517D2ED2C021263AB3DAE18EA`
+PE256 | `7BC6646161700CC43F520B7684EEB40C0E94E2D0806B12616214DE3AABA0AD00`
 
 ## Runtime Data
 
@@ -25,7 +28,29 @@ SSDEEP | `1536:wpfx6C1a800NG/qtbC15ZkuH1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lp:u1aLyM
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msdtc.exe |
+C:\Windows\system32\MSDTCLOG.dll |
+C:\Windows\system32\MSDTCPRX.dll |
+C:\Windows\system32\MSDTCTM.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -45,7 +70,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/1eab4b9691e9efa1da02bdcb84035f65eda4b525e5aee925a6e1e4107f8e4f31/detection/
 
 ## File Similarity (ssdeep match)
 

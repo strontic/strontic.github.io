@@ -26,51 +26,51 @@ PE256 | `1A097830155623F371DC0ECC2C4B650ABFC70BF11E6A0EFB70B3E7B23729BEA7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __cdecl signalr::connection::set_disconnected(class std::function<void __cdecl(void)> const &)` | 31 | Exported Function
-`public: void __cdecl signalr::connection::set_client_config(class signalr::signalr_client_config const &)` | 27 | Exported Function
-`public: void __cdecl signalr::connection::set_message_received(class std::function<void __cdecl(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)> const &)` | 35 | Exported Function
-`public: void __cdecl signalr::connection::set_reconnecting(class std::function<void __cdecl(void)> const &)` | 39 | Exported Function
-`public: void __cdecl signalr::connection::set_reconnected(class std::function<void __cdecl(void)> const &)` | 37 | Exported Function
-`public: struct signalr::connection_settings __cdecl signalr::signalr_client_config::get_connection_settings(void)const ` | 14 | Exported Function
-`public: class web::http::http_headers __cdecl signalr::signalr_client_config::get_http_headers(void)const ` | 20 | Exported Function
-`public: class web::http::client::http_client_config __cdecl signalr::signalr_client_config::get_http_client_config(void)const ` | 19 | Exported Function
-`public: class web::websockets::client::websocket_client_config __cdecl signalr::signalr_client_config::get_websocket_client_config(void)const ` | 22 | Exported Function
-`public: enum signalr::connection_state __cdecl signalr::hub_connection::get_connection_state(void)const ` | 16 | Exported Function
-`public: enum signalr::connection_state __cdecl signalr::connection::get_connection_state(void)const ` | 15 | Exported Function
-`public: void __cdecl signalr::signalr_client_config::set_http_client_config(class web::http::client::http_client_config const &)` | 33 | Exported Function
-`public: void __cdecl signalr::signalr_client_config::set_credentials(class web::credentials const &)` | 30 | Exported Function
-`public: void __cdecl signalr::signalr_client_config::set_http_headers(class web::http::http_headers const &)` | 34 | Exported Function
-`public: void __cdecl signalr::signalr_client_config::set_websocket_client_config(class web::websockets::client::websocket_client_config const &)` | 41 | Exported Function
-`public: void __cdecl signalr::signalr_client_config::set_proxy(class web::web_proxy const &)` | 36 | Exported Function
-`public: void __cdecl signalr::signalr_client_config::set_connection_settings(struct signalr::connection_settings const &)` | 29 | Exported Function
-`public: void __cdecl signalr::hub_connection::set_disconnected(class std::function<void __cdecl(void)> const &)` | 32 | Exported Function
-`public: void __cdecl signalr::hub_connection::set_client_config(class signalr::signalr_client_config const &)` | 28 | Exported Function
-`public: void __cdecl signalr::hub_connection::set_reconnected(class std::function<void __cdecl(void)> const &)` | 38 | Exported Function
-`public: void __cdecl signalr::hub_proxy::on(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::function<void __cdecl(class web::json::value const &)> const &)` | 25 | Exported Function
-`public: void __cdecl signalr::hub_connection::set_reconnecting(class std::function<void __cdecl(void)> const &)` | 40 | Exported Function
-`public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl signalr::hub_proxy::get_hub_name(void)const ` | 21 | Exported Function
-`public: __thiscall signalr::hub_proxy::hub_proxy(class signalr::hub_proxy const &)` | 4 | Exported Function
-`public: __thiscall signalr::hub_proxy::hub_proxy(class signalr::hub_proxy const &&)` | 3 | Exported Function
-`public: __thiscall signalr::hub_proxy::hub_proxy(void)` | 5 | Exported Function
-`public: class Concurrency::task<void> __cdecl signalr::connection::send(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 26 | Exported Function
-`public: __thiscall signalr::hub_proxy::~hub_proxy(void)` | 8 | Exported Function
-`public: __thiscall signalr::hub_connection::~hub_connection(void)` | 7 | Exported Function
-`private: class Concurrency::task<void> __cdecl signalr::hub_proxy::invoke_void(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class web::json::value const &,class std::function<void __cdecl(class web::json::value const &)> const &)` | 24 | Exported Function
-`private: class Concurrency::task<class web::json::value> __cdecl signalr::hub_proxy::invoke_json(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class web::json::value const &,class std::function<void __cdecl(class web::json::value const &)> const &)` | 23 | Exported Function
-`public: __thiscall signalr::connection::connection(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,enum signalr::trace_level,class std::shared_ptr<class signalr::log_writer>)` | 1 | Exported Function
-`public: __thiscall signalr::hub_connection::hub_connection(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,enum signalr::trace_level,class std::shared_ptr<class signalr::log_writer>,bool,class std::shared_ptr<class signalr::connection_progress>)` | 2 | Exported Function
-`public: __thiscall signalr::connection::~connection(void)` | 6 | Exported Function
-`public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl signalr::connection::get_connection_id(void)const ` | 12 | Exported Function
-`public: class signalr::hub_proxy __cdecl signalr::hub_connection::create_hub_proxy(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 11 | Exported Function
-`public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl signalr::connection::get_connection_token(void)const ` | 17 | Exported Function
-`public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl signalr::hub_connection::get_connection_token(void)const ` | 18 | Exported Function
-`public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl signalr::hub_connection::get_connection_id(void)const ` | 13 | Exported Function
-`public: class signalr::hub_proxy & __cdecl signalr::hub_proxy::operator=(class signalr::hub_proxy const &)` | 10 | Exported Function
-`public: class Concurrency::task<void> __cdecl signalr::connection::stop(void)` | 44 | Exported Function
-`public: class Concurrency::task<void> __cdecl signalr::connection::start(void)` | 42 | Exported Function
-`public: class Concurrency::task<void> __cdecl signalr::hub_connection::start(void)` | 43 | Exported Function
-`public: class signalr::hub_proxy & __cdecl signalr::hub_proxy::operator=(class signalr::hub_proxy const &&)` | 9 | Exported Function
-`public: class Concurrency::task<void> __cdecl signalr::hub_connection::stop(void)` | 45 | Exported Function
+`function` | 31 | Exported Function
+`signalr_client_config` | 27 | Exported Function
+`allocator` | 35 | Exported Function
+`function` | 39 | Exported Function
+`function` | 37 | Exported Function
+`get_connection_settings` | 14 | Exported Function
+`get_http_headers` | 20 | Exported Function
+`get_http_client_config` | 19 | Exported Function
+`get_websocket_client_config` | 22 | Exported Function
+`get_connection_state` | 16 | Exported Function
+`get_connection_state` | 15 | Exported Function
+`http_client_config` | 33 | Exported Function
+`credentials` | 30 | Exported Function
+`http_headers` | 34 | Exported Function
+`websocket_client_config` | 41 | Exported Function
+`web_proxy` | 36 | Exported Function
+`connection_settings` | 29 | Exported Function
+`function` | 32 | Exported Function
+`signalr_client_config` | 28 | Exported Function
+`function` | 38 | Exported Function
+`value` | 25 | Exported Function
+`function` | 40 | Exported Function
+`get_hub_name` | 21 | Exported Function
+`hub_proxy` | 4 | Exported Function
+`hub_proxy` | 3 | Exported Function
+`hub_proxy` | 5 | Exported Function
+`allocator` | 26 | Exported Function
+`hub_proxy` | 8 | Exported Function
+`hub_connection` | 7 | Exported Function
+`value` | 24 | Exported Function
+`value` | 23 | Exported Function
+`log_writer` | 1 | Exported Function
+`connection_progress` | 2 | Exported Function
+`connection` | 6 | Exported Function
+`get_connection_id` | 12 | Exported Function
+`allocator` | 11 | Exported Function
+`get_connection_token` | 17 | Exported Function
+`get_connection_token` | 18 | Exported Function
+`get_connection_id` | 13 | Exported Function
+`hub_proxy` | 10 | Exported Function
+`stop` | 44 | Exported Function
+`start` | 42 | Exported Function
+`start` | 43 | Exported Function
+`hub_proxy` | 9 | Exported Function
+`stop` | 45 | Exported Function
 
 
 ## Signature

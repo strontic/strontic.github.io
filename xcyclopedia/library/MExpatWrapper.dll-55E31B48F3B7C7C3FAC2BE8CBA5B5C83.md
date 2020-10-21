@@ -26,54 +26,54 @@ PE256 | `DBF4452A4748F4D72610AC0EDF0614BDCF4598001455CB90703B7963421D4E49`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall AT::CSearchDir::Search(wchar_t const *)` | 53 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::``default constructor closure'(void)` | 23 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddAttributeEventListener(unsigned int,class AT::CStringT<wchar_t> const &)` | 24 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnStartNodeListEvent(unsigned int)` | 48 | Exported Function
-`public: void __thiscall AT::CChain::Detach(void)` | 36 | Exported Function
-`public: void __thiscall AT::CChain::Insert(class AT::CChain *)` | 39 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddAttributeEventListener(unsigned int,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 25 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddNodeEventListener(unsigned int,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 29 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddNodeListEventListener(unsigned int,class AT::CStringT<wchar_t> const &)` | 30 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddNodeListEventListener(unsigned int,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 31 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddAttributeTextSelecter(unsigned int,class AT::CStringT<wchar_t> const &,class AT::CStringT<wchar_t> *)` | 26 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddAttributeTextSelecter(unsigned int,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > *)` | 27 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddNodeEventListener(unsigned int,class AT::CStringT<wchar_t> const &)` | 28 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnStartNodeEvent(unsigned int)` | 47 | Exported Function
-`public: int __thiscall EXPAT_EX::CXMLHandler::ParseXMLFile(class AT::CStringT<wchar_t>)` | 50 | Exported Function
-`public: int __thiscall EXPAT_EX::CXMLHandler::ParseXmlUtf8(char const *,int)` | 52 | Exported Function
-`public: static void * __cdecl AT::CObject::operator new(unsigned int)` | 12 | Exported Function
-`public: int __thiscall AT::CChain::IsChain(void)const ` | 40 | Exported Function
-`public: int __thiscall AT::CChain::IsEmpty(void)const ` | 41 | Exported Function
-`public: int __thiscall EXPAT_EX::CXMLHandler::ParseXML(class AT::CStringT<wchar_t> const &)` | 49 | Exported Function
-`public: static void __cdecl AT::CObject::operator delete(void *)` | 13 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnEndNodeListEvent(unsigned int)` | 44 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnEndParse(void)` | 45 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnStartAttributeEvent(unsigned int)` | 46 | Exported Function
-`public: virtual __thiscall EXPAT_EX::CXMLHandler::~CXMLHandler(void)` | 11 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnEndAttributeEvent(unsigned int)` | 42 | Exported Function
-`public: virtual void __thiscall EXPAT_EX::CXMLHandler::OnEndNodeEvent(unsigned int)` | 43 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddTextSelecter(class AT::CStringT<wchar_t> const &,class AT::CStringT<wchar_t> *)` | 32 | Exported Function
+`Search` | 53 | Exported Function
+`CXMLHandler` | 23 | Exported Function
+`CStringT` | 24 | Exported Function
+`OnStartNodeListEvent` | 48 | Exported Function
+`Detach` | 36 | Exported Function
+`CChain` | 39 | Exported Function
+`allocator` | 25 | Exported Function
+`allocator` | 29 | Exported Function
+`CStringT` | 30 | Exported Function
+`allocator` | 31 | Exported Function
+`CStringT` | 26 | Exported Function
+`allocator` | 27 | Exported Function
+`CStringT` | 28 | Exported Function
+`OnStartNodeEvent` | 47 | Exported Function
+`CStringT` | 50 | Exported Function
+`ParseXmlUtf8` | 52 | Exported Function
+`operator` | 12 | Exported Function
+`IsChain` | 40 | Exported Function
+`IsEmpty` | 41 | Exported Function
+`CStringT` | 49 | Exported Function
+`operator` | 13 | Exported Function
+`OnEndNodeListEvent` | 44 | Exported Function
+`OnEndParse` | 45 | Exported Function
+`OnStartAttributeEvent` | 46 | Exported Function
+`CXMLHandler` | 11 | Exported Function
+`OnEndAttributeEvent` | 42 | Exported Function
+`OnEndNodeEvent` | 43 | Exported Function
+`CStringT` | 32 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 77 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 60 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 62 | Exported Function
 `unsigned int __cdecl at_rstr_stri(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 74 | Exported Function
 `unsigned int __cdecl at_str_convert(int,char *,unsigned int,int,char const *,unsigned int)` | 75 | Exported Function
 `unsigned int __cdecl at_str_convert(int,char *,unsigned int,wchar_t const *,unsigned int)` | 76 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<char> &,unsigned int,char const *,unsigned int)` | 55 | Exported Function
+`CStringT` | 55 | Exported Function
 `void __cdecl at_mem_free(void *)` | 61 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 79 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 81 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<char> &,unsigned int,wchar_t const *,unsigned int)` | 56 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<wchar_t> &,unsigned int,char const *,unsigned int)` | 57 | Exported Function
-`void __cdecl AT::_cstring_set(class AT::CStringT<wchar_t> &,unsigned int,wchar_t const *,unsigned int)` | 58 | Exported Function
+`CStringT` | 56 | Exported Function
+`CStringT` | 57 | Exported Function
+`CStringT` | 58 | Exported Function
 `unsigned int __cdecl at_rstr_stri(char const *,unsigned int,char const *,unsigned int)` | 73 | Exported Function
-`unsigned int __cdecl at_range_spliteline(class AT::CStrRangeT<char>,unsigned int,class AT::CStrRangeT<char> &)` | 63 | Exported Function
-`unsigned int __cdecl at_range_spliteline(class AT::CStrRangeT<wchar_t>,unsigned int,class AT::CStrRangeT<wchar_t> &)` | 64 | Exported Function
+`CStrRangeT` | 63 | Exported Function
+`CStrRangeT` | 64 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 65 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::AddTextSelecter(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > *)` | 33 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::Create(wchar_t const *)` | 35 | Exported Function
-`public: void __thiscall EXPAT_EX::CXMLHandler::ParseXmlInResource(struct HINSTANCE__ *,unsigned int)` | 51 | Exported Function
+`allocator` | 33 | Exported Function
+`Create` | 35 | Exported Function
+`ParseXmlInResource` | 51 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 66 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 70 | Exported Function
 `unsigned int __cdecl at_rstr_str(char const *,unsigned int,char const *,unsigned int)` | 71 | Exported Function
@@ -109,33 +109,33 @@ Function Name | Ordinal | Type
 `at_astr_upr` | 90 | Exported Function
 `at_fs_find_first` | 91 | Exported Function
 `ata_urldec` | 109 | Exported Function
-`public: __thiscall EXPAT_EX::CXMLHandler::CXMLHandler(class EXPAT_EX::CXMLHandler const &)` | 7 | Exported Function
-`public: __thiscall EXPAT_EX::CXMLHandler::CXMLHandler(wchar_t const *)` | 8 | Exported Function
-`public: class AT::CChain & __thiscall AT::CChain::operator=(class AT::CChain const &)` | 14 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(class AT::CSearchDir &&)` | 4 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(class AT::CSearchDir const &)` | 5 | Exported Function
-`public: __thiscall AT::CSearchDir::CSearchDir(void)` | 6 | Exported Function
-`public: class AT::CChain * __thiscall AT::CChain::GetNext(void)const ` | 37 | Exported Function
-`public: class AT::CSearchDir & __thiscall AT::CSearchDir::operator=(class AT::CSearchDir &&)` | 17 | Exported Function
-`public: class AT::CSearchDir & __thiscall AT::CSearchDir::operator=(class AT::CSearchDir const &)` | 18 | Exported Function
-`public: class EXPAT_EX::CXMLHandler & __thiscall EXPAT_EX::CXMLHandler::operator=(class EXPAT_EX::CXMLHandler const &)` | 19 | Exported Function
-`public: class AT::CChain * __thiscall AT::CChain::GetPrev(void)const ` | 38 | Exported Function
-`public: class AT::CObject & __thiscall AT::CObject::operator=(class AT::CObject &&)` | 15 | Exported Function
-`public: class AT::CObject & __thiscall AT::CObject::operator=(class AT::CObject const &)` | 16 | Exported Function
-`public: __thiscall AT::CHexString::~CHexString(void)` | 10 | Exported Function
-`const AT::CSearchDir::``vftable'` | 21 | Exported Function
-`const EXPAT_EX::CXMLHandler::``vftable'` | 22 | Exported Function
-`int __cdecl at_fs_read(wchar_t const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 59 | Exported Function
+`CXMLHandler` | 7 | Exported Function
+`CXMLHandler` | 8 | Exported Function
+`CChain` | 14 | Exported Function
+`CSearchDir` | 4 | Exported Function
+`CSearchDir` | 5 | Exported Function
+`CSearchDir` | 6 | Exported Function
+`GetNext` | 37 | Exported Function
+`CSearchDir` | 17 | Exported Function
+`CSearchDir` | 18 | Exported Function
+`CXMLHandler` | 19 | Exported Function
+`GetPrev` | 38 | Exported Function
+`CObject` | 15 | Exported Function
+`CObject` | 16 | Exported Function
+`CHexString` | 10 | Exported Function
+`CSearchDir` | 21 | Exported Function
+`CXMLHandler` | 22 | Exported Function
+`allocator` | 59 | Exported Function
 `ata_urlenc` | 110 | Exported Function
 `char * __cdecl at_str_tod(char const *,char const *,double &)` | 78 | Exported Function
 `char * __cdecl at_str_tol(char const *,char const *,long &,int)` | 80 | Exported Function
-`private: static void __cdecl AT::CSearchDir::_Search(struct ATDir const *,int,int *,void *)` | 54 | Exported Function
-`public: __thiscall AT::CHexString::CHexString(void const *,unsigned int)` | 3 | Exported Function
-`public: __thiscall AT::CHexString::CHexString(void const *,void const *)` | 2 | Exported Function
-`public: __thiscall AT::CHexString::operator char *(void)const ` | 20 | Exported Function
-`private: void __thiscall AT::CHexString::Create(void const *,void const *)` | 34 | Exported Function
-`public: __thiscall AT::CChain::CChain(void)` | 1 | Exported Function
-`public: __thiscall AT::CChain::~CChain(void)` | 9 | Exported Function
+`_Search` | 54 | Exported Function
+`CHexString` | 3 | Exported Function
+`CHexString` | 2 | Exported Function
+`operator` | 20 | Exported Function
+`Create` | 34 | Exported Function
+`CChain` | 1 | Exported Function
+`CChain` | 9 | Exported Function
 
 
 ## Signature

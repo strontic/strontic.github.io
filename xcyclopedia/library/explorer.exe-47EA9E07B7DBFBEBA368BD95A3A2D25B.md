@@ -18,23 +18,46 @@ SHA256 | `F45557C0B57DEC4C000D8CB7D7068C8A4DCCF392DE740501B1046994460D77EA`
 SHA384 | `66BE6D55156B6458A156E5F8EEF8CFA54B9507D30DB236AB5208CF838ACA252C69650037A608673586C93ACFBB29F414`
 SHA512 | `F1CC3507592B2F79EC79209865F484743DD7B7BCEE66E26BD2C94BE2491660CA72932927CC543A675164640010E78B00AB0CC1143104941B5C623CF02CEC84B9`
 SSDEEP | `49152:kBJWmpCqeSHfZy/dvEWZ+CEl4/UDX6xSk8g4mfQxHc+lQLGwtqRPLSo/hO5fw8AZ:upgCLgfw8a0cD`
+IMP | `6D78CE65118DF73A9E7BEAC9366C186A`
+PESHA1 | `E450DBEC625AAEE0EC4A2DEE2735082034395AA2`
+PE256 | `EC151D1D1902747A4B7271841F69D3201D642B2019D7406ECF83868A0F5AA009`
 
 ## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\en-US\explorer.exe.mui | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSEC91C | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
 
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\explorer.exe |
+C:\Windows\System32\ActXPrxy.dll |
 C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\cryptsp.dll |
 C:\Windows\SYSTEM32\dwmapi.dll |
 C:\Windows\SYSTEM32\dxgi.dll |
+C:\Windows\system32\explorerframe.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.DLL |
@@ -44,7 +67,9 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\MSASN1.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\NInput.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\powrprof.dll |
 C:\Windows\System32\profapi.dll |
@@ -55,7 +80,7 @@ C:\Windows\System32\sechost.dll |
 C:\Windows\SYSTEM32\settingsynccore.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\shlwapi.dll |
 C:\Windows\SYSTEM32\SspiCli.dll |
 C:\Windows\SYSTEM32\twinapi.appcore.dll |
 C:\Windows\SYSTEM32\TWINAPI.dll |
@@ -67,7 +92,7 @@ C:\Windows\System32\win32u.dll |
 C:\Windows\System32\windows.storage.dll |
 C:\Windows\SYSTEM32\WININET.dll |
 C:\Windows\SYSTEM32\winmm.dll |
-C:\Windows\SYSTEM32\winmmbase.dll |
+C:\Windows\SYSTEM32\WINMMBASE.dll |
 C:\Windows\SYSTEM32\WTSAPI32.dll |
 
 
@@ -88,7 +113,12 @@ C:\Windows\SYSTEM32\WTSAPI32.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/f45557c0b57dec4c000d8cb7d7068c8a4dccf392de740501b1046994460d77ea/detection/
 
 ## File Similarity (ssdeep match)
 

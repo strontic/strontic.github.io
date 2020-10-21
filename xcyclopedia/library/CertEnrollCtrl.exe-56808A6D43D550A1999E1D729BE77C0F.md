@@ -18,6 +18,9 @@ SHA256 | `8DE895A62785C1294F402260671CFDBB2223E3448947C3ACE893B8A298A1D37A`
 SHA384 | `94272C1AF3CE6C5E281882115A800D24AC05A97522F5A45E9205D4CCB17B35519AA204B1B54C7B9B3A761BB7F09856F4`
 SHA512 | `D47E6C3C57330D7B67779D4529F1B51BC766053737C4A3AE6BF316CB66E68C52BB15FD0EBD5BC7A8155DABD3500C48F45FB9361F91CFB59EDB1898C210455DE9`
 SSDEEP | `768:s8tcJ5+iavKHTiPgnwmhHx4RbrbKB1+YAfAihZmt5nBo6K:70PHOonwmBxMNZmt5n/`
+IMP | `53BFF466353268C27743D2EE8757D592`
+PESHA1 | `E617747888D4AE6F8CDE1954E7808A550BFDD8D6`
+PE256 | `6D87E9640941AF761302B4CB758B2B56972E71265FD34C7AAA4FF1E401290D94`
 
 ## Runtime Data
 
@@ -26,12 +29,15 @@ SSDEEP | `768:s8tcJ5+iavKHTiPgnwmhHx4RbrbKB1+YAfAihZmt5nBo6K:70PHOonwmBxMNZmt5n/
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\CertEnrollCtrl.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1AD4 | Section
+\RPC Control\DSEC4C8 | Section
 
 
 ### Loaded Modules:
@@ -62,7 +68,12 @@ C:\Windows\SysWOW64\CertEnrollCtrl.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8de895a62785c1294f402260671cfdbb2223e3448947c3ace893b8a298a1d37a/detection/
 
 ## File Similarity (ssdeep match)
 

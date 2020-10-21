@@ -18,6 +18,9 @@ SHA256 | `3B13A67DD25962BB50AB60ACA722B0AEC4810C9C23F2F8D6E3648AD6D694B194`
 SHA384 | `7D947E0A25C14338E2BDA8B732483CB36C22F21ADC3664CA866141814549FFDA3B57481496B6B04A66ED349855EAB409`
 SHA512 | `3E4B4F5D9F8AF054556AAA03C651360434D7DAA81E46CBE8053E6575807F540A76C1EABAA26C9D878466A9B4889EFBDFF2FBF9267AFACFCB70974C7360781D93`
 SSDEEP | `3072:cysAQ3C2HZ2byEfGCUuyHzy6lMg87j6jUr+87CXbRMuhrG:feZeyEeCUu11fpx7QRMuB`
+IMP | `3AFDA70FA7E12943E4F800C706B88A82`
+PESHA1 | `457097C0BA7F287EEC687EDE16A4542EC1B1ED72`
+PE256 | `FD0933087EE2983678595EEB0E65CF2AD35C54BC7D9B8AA5836C2BE4875CA508`
 
 ## Runtime Data
 
@@ -52,6 +55,10 @@ wim             Transparent wim hosting management
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\fsutil.exe |
 
 
 ## Signature
@@ -71,7 +78,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.652
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/3b13a67dd25962bb50ab60aca722b0aec4810c9c23f2f8d6e3648ad6d694b194/detection/
 
 
 ## Possible Misuse

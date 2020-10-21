@@ -22,6 +22,9 @@ SHA256 | `79CCCF88DD152C2AB8BE92BC8B835CDA56728D381BE3617042620B0A5CD9308B`
 SHA384 | `24A647E19588E14196127CEFA37C842EECD7A6FA44DF5C8D68EBC80691D963EB95B9F37B4C144C4ED2E183C40F846739`
 SHA512 | `50C341D3B5E382B96E6023E75BF457D8A367A5F3AEEF1BDA91F19C48EFEFDEE2A3ADE77AD8BC474CC764C32DBADAC0436218D605623DB312F007EF3D05EFE22D`
 SSDEEP | `768:5f9l5eg2CdmmZy4G0In3BhzhWM1GOVz17Lu:V9begXZ4Z3qOTH`
+IMP | `16C7138C6C79EEC345D753F88CF4C38D`
+PESHA1 | `76B52F2DC406628181A6745DEDDAE87D81637C14`
+PE256 | `1710DE00C714815FD3ACA9B1E3B05A0B96B3D45354B07729655FD568C0B68E2B`
 
 ## Runtime Data
 
@@ -40,15 +43,18 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\setupapi.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
 (R-D)   C:\Windows\System32\shell32.dll | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -79,7 +85,12 @@ C:\Windows\SysWOW64\hdwwiz.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/79cccf88dd152c2ab8be92bc8b835cda56728d381be3617042620b0a5cd9308b/detection/
 
 ## File Similarity (ssdeep match)
 

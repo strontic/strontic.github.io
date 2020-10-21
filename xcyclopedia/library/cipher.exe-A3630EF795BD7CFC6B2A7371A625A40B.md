@@ -18,6 +18,9 @@ SHA256 | `BFFE1B9F0B4139C5FCBF318149E54B71DD53DAECF34D8E1F281549A02DE1F332`
 SHA384 | `ABE55BC6AA8EDEB3837410AFD3343BAA203D348BF6668C6DDFBB227D90D4100D292C17C2AF59C7527FE070EFB14DA0EA`
 SHA512 | `D2DD6FC5A6C297F721F90B1D2330776BE4B69587ED7B0D12155347D0DD65ABF30AC33E489F5D0C0C75124E224984A3B30EC7A6775AECE91062CFA7641A1FE959`
 SSDEEP | `768:jIuxw8oIMaXnge2bDn5RBIM4WXZnuA+ZEYuozDYE:j/x+i3GvBF4ZABozDY`
+IMP | `3709556898BEAA4E2B5F857FFA0F54BA`
+PESHA1 | `EA15B3BFC3A69CCC93C9828FFA7BF1D358E7FD20`
+PE256 | `24A199EFB27A736C5E5BCEA197B1D1A25D27509A911B0529DE57AD1A02972474`
 
 ## Runtime Data
 
@@ -139,6 +142,10 @@ Displays or alters the encryption of directories [files] on NTFS partitions.
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cipher.exe |
 
 
 ## Signature
@@ -158,7 +165,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/bffe1b9f0b4139c5fcbf318149e54b71dd53daecf34d8e1f281549a02de1f332/detection/
 
 
 ## Possible Misuse

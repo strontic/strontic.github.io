@@ -10,6 +10,10 @@ excerpt: What is cdbxpp.exe?
 * Comments: An application to burn audio and data discs
 
 
+## Screenshot
+
+![cdbxpp.exe](screenshots/cdbxpp.exe-24603158A035AC81BE8CCA81922BFF64-5.png)
+
 ## Hashes
 
 Type | Hash

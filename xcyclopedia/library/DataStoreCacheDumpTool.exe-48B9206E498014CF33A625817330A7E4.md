@@ -17,6 +17,9 @@ SHA256 | `2C67D8B1BA2325D61B7A4CCA7F7A491D31C2CB1EA9522146A12E85EC7B19F86C`
 SHA384 | `D853C78D99168E86B1C1709EE1B82B1E644FA9B4DAA39FF5468999B03687C7B910D8689ACBE3D7746439FC123A1B6255`
 SHA512 | `203AD7C2C105E4D75533F68BDBAD8C7D56FE8690AE14C1B0B871698394555A360AB91FFE424F4CBF92AF89EA287F2B73E0FA4985953AABD7C23638D83CEC4453`
 SSDEEP | `3072:VHFMuVLmj9ZD1KzZN4EaVa5kWhPJLpFRkLzC/UdF1xF7/i0:VFVLmjHW49Va5kW1bUzJi`
+IMP | `A01FF0BD6C4A8C092BE972A2EED00430`
+PESHA1 | `E3A95940E75C3EB641AE57462876E1C8FF3D19DF`
+PE256 | `B33ADA85316BA6F1C10E8CF25A5FA417232884988F1EE1E5B1AEC5BD28B27BD7`
 
 ## Runtime Data
 
@@ -24,17 +27,25 @@ SSDEEP | `3072:VHFMuVLmj9ZD1KzZN4EaVa5kWhPJLpFRkLzC/UdF1xF7/i0:VFVLmjHW49Va5kW1b
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\system32\DataStoreCacheDumpTool.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\SYSTEM32\StartTileData.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,7 +58,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/2c67d8b1ba2325d61b7a4cca7f7a491d31c2cb1ea9522146a12e85ec7b19f86c/detection/
 
 
 

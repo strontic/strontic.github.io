@@ -26,9 +26,9 @@ PE256 | `10138BDB1B0826B188050867578909FF0F8C1F74B694DDAE721ADE171F0DCB24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __cdecl mip::ReleaseAllResources(void)` | 3 | Exported Function
-`public: static void __cdecl mip::PolicyProfile::LoadAsync(class mip::PolicyProfile::Settings const &,class std::shared_ptr<void> const &)` | 2 | Exported Function
-`public: static char const * __cdecl mip::PolicyProfile::GetVersion(void)` | 1 | Exported Function
+`ReleaseAllResources` | 3 | Exported Function
+`shared_ptr` | 2 | Exported Function
+`GetVersion` | 1 | Exported Function
 
 
 ## Signature

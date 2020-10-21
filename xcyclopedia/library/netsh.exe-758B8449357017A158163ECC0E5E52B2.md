@@ -18,6 +18,9 @@ SHA256 | `D70D165B6706C61C56F2CA91307F4BBDB9846ACAE1DA3CFD84BF978FFB21AF23`
 SHA384 | `D5ACD229C559F8699783B4B072DE45CC6010F815ECFDBAAE3649BFC72AA1F3AE2833D30F3F8E77B09800A254FFDA1D85`
 SHA512 | `3A8CB1435A6503B9AC100E2CA49C347386143595E40AF81D8334F665740B414B3628DC4E461316E25A33DD9106B9D7D9B157067F368DD9ADB3FA5DC1B4DCC0F0`
 SSDEEP | `1536:xb5iUv5pSTKh6SwRe2nrA56c6PlCNbiA9SDi:xb5i+7SToHwRe2n056vPlCdhke`
+IMP | `90B4317BE51850B8EF9F14EB56FB7DDC`
+PESHA1 | `FD72D611DBDC94D9F3D23A749F2AEEBB8DDFCF90`
+PE256 | `E59EC436DFC12EA561AAE563C414206636EF5A556509A01CA56E45FDD238B14F`
 
 ## Runtime Data
 
@@ -36,7 +39,6 @@ advfirewall    - Changes to the `netsh advfirewall' context.
 branchcache    - Changes to the `netsh branchcache' context.
 bridge         - Changes to the `netsh bridge' context.
 delete         - Deletes a configuration entry from a list of entries.
-dhcp           - Changes to the `netsh dhcp' context.
 dhcpclient     - Changes to the `netsh dhcpclient' context.
 dnsclient      - Changes to the `netsh dnsclient' context.
 dump           - Displays a configuration script.
@@ -50,9 +52,7 @@ ipsecdosprotection - Changes to the `netsh ipsecdosprotection' context.
 lan            - Changes to the `netsh lan' context.
 namespace      - Changes to the `netsh namespace' context.
 netio          - Changes to the `netsh netio' context.
-nps            - Changes to the `netsh nps' context.
 ras            - Changes to the `netsh ras' context.
-routing        - Changes to the `netsh routing' context.
 rpc            - Changes to the `netsh rpc' context.
 set            - Updates configuration settings.
 show           - Displays information.
@@ -62,7 +62,7 @@ winhttp        - Changes to the `netsh winhttp' context.
 winsock        - Changes to the `netsh winsock' context.
 
 The following sub-contexts are available:
- advfirewall branchcache bridge dhcp dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio nps ras routing rpc trace wfp winhttp winsock
+ advfirewall branchcache bridge dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio ras rpc trace wfp winhttp winsock
 
 To view help for a command, type the command, followed by a space, and then
  type ?.
@@ -73,10 +73,18 @@ To view help for a command, type the command, followed by a space, and then
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\netsh.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -96,7 +104,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/d70d165b6706c61c56f2ca91307f4bbdb9846acae1da3cfd84bf978ffb21af23/detection/
 
 
 ## Possible Misuse

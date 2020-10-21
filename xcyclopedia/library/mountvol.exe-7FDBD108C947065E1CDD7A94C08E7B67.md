@@ -18,6 +18,9 @@ SHA256 | `0B6BBFD83C4A34DF78289470FF338E93F5A769317015043A121349A7836D8862`
 SHA384 | `5C7F8E6334E94D3DE95C77764BE96A9C7B1E21728A882C0C11F13E0336694208EB08D56CE4AEF3077E5259DBF69B6383`
 SHA512 | `281B0EB721B914356E8B1EEDF3C5012FC57B6CAC783A767ED17E61709D4E47791BD76A92CD87FB23D9091DDC6914D84A11D97845142CC8FB5559A9EABBD1C2BB`
 SSDEEP | `384:SUWTPFjINDIAUlJhiNljlyGVEnW/3Rl1laIxNves8WQFW:SUWTPADElenJUWvRl1TNvesm`
+IMP | `97872558B429C0A84C0AE62A365088F3`
+PESHA1 | `39EF4249C30E87AC2A8234D19F2859407E05741F`
+PE256 | `6DAC1439A33AA6AD667AB1687E5FEA0557B374507EA76A8228BF3DE833033C42`
 
 ## Runtime Data
 
@@ -50,7 +53,7 @@ MOUNTVOL /E
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{77d2a80b-0000-0000-0000-100000000000}\
+    \\?\Volume{7c775138-0000-0000-0000-100000000000}\
         C:\
 
 
@@ -60,6 +63,9 @@ Possible values for VolumeName along with current mount points are:
 
 Path |
 -- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mountvol.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 
 
@@ -80,7 +86,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/0b6bbfd83c4a34df78289470ff338e93f5a769317015043a121349a7836d8862/detection/
 
 ## File Similarity (ssdeep match)
 

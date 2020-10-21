@@ -26,212 +26,212 @@ PE256 | `4E8D56DCE563F56FBCA85186EBDE5D2566FCBEB2C22DFA83D27C9617A72E29B7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class Mig::CStatePatternRule & __ptr64 __cdecl Mig::CStatePatternRule::operator=(class Mig::CStatePatternRule && __ptr64) __ptr64` | 79 | Exported Function
-`public: class Mig::CSelectRule & __ptr64 __cdecl Mig::CSelectRule::operator=(class Mig::CSelectRule const & __ptr64) __ptr64` | 78 | Exported Function
-`public: class Mig::CNodeInnerTextCopyRule & __ptr64 __cdecl Mig::CNodeInnerTextCopyRule::operator=(class Mig::CNodeInnerTextCopyRule const & __ptr64) __ptr64` | 77 | Exported Function
-`public: class Mig::CSupportedIdRule & __ptr64 __cdecl Mig::CSupportedIdRule::operator=(class Mig::CSupportedIdRule const & __ptr64) __ptr64` | 82 | Exported Function
-`public: class Mig::CSupportedIdRule & __ptr64 __cdecl Mig::CSupportedIdRule::operator=(class Mig::CSupportedIdRule && __ptr64) __ptr64` | 81 | Exported Function
-`public: class Mig::CStatePatternRule & __ptr64 __cdecl Mig::CStatePatternRule::operator=(class Mig::CStatePatternRule const & __ptr64) __ptr64` | 80 | Exported Function
-`public: class Mig::CIdStringAsInnerTextRule & __ptr64 __cdecl Mig::CIdStringAsInnerTextRule::operator=(class Mig::CIdStringAsInnerTextRule && __ptr64) __ptr64` | 73 | Exported Function
-`public: class Mig::CEnvExpandRule & __ptr64 __cdecl Mig::CEnvExpandRule::operator=(class Mig::CEnvExpandRule const & __ptr64) __ptr64` | 72 | Exported Function
-`public: class Mig::CCopyChildrenRule & __ptr64 __cdecl Mig::CCopyChildrenRule::operator=(class Mig::CCopyChildrenRule const & __ptr64) __ptr64` | 71 | Exported Function
-`public: class Mig::CNodeInnerTextCopyRule & __ptr64 __cdecl Mig::CNodeInnerTextCopyRule::operator=(class Mig::CNodeInnerTextCopyRule && __ptr64) __ptr64` | 76 | Exported Function
-`public: class Mig::CLinkedRule & __ptr64 __cdecl Mig::CLinkedRule::operator=(class Mig::CLinkedRule const & __ptr64) __ptr64` | 75 | Exported Function
-`public: class Mig::CIdStringAsInnerTextRule & __ptr64 __cdecl Mig::CIdStringAsInnerTextRule::operator=(class Mig::CIdStringAsInnerTextRule const & __ptr64) __ptr64` | 74 | Exported Function
-`public: class Mig::CTranslationMigAttrib & __ptr64 __cdecl Mig::CTranslationMigAttrib::operator=(class Mig::CTranslationMigAttrib const & __ptr64) __ptr64` | 83 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CTranslationPattern::get_Context(void) __ptr64` | 203 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CTranslationMigAttrib::get_RuleName(void) __ptr64` | 205 | Exported Function
-`public: class Mig::CXPathRule & __ptr64 __cdecl Mig::CXPathRule::operator=(class Mig::CXPathRule const & __ptr64) __ptr64` | 90 | Exported Function
-`public: static struct Mig::ITranslationRule * __ptr64 __cdecl Mig::CTranslationRuleFactory::CreateTranslationRule(class UnBCL::String * __ptr64,int,int)` | 183 | Exported Function
-`public: class UnBCL::XmlNode * __ptr64 __cdecl Mig::CTranslationMigAttrib::get_Attribute(void) __ptr64` | 202 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CTranslationPattern::get_PatternString(void) __ptr64` | 204 | Exported Function
-`public: class Mig::CTranslationRuleFactory & __ptr64 __cdecl Mig::CTranslationRuleFactory::operator=(class Mig::CTranslationRuleFactory && __ptr64) __ptr64` | 86 | Exported Function
-`public: class Mig::CTranslationRuleCollection & __ptr64 __cdecl Mig::CTranslationRuleCollection::operator=(class Mig::CTranslationRuleCollection const & __ptr64) __ptr64` | 85 | Exported Function
-`public: class Mig::CTranslationPattern & __ptr64 __cdecl Mig::CTranslationPattern::operator=(class Mig::CTranslationPattern const & __ptr64) __ptr64` | 84 | Exported Function
-`public: class Mig::CUrlIdRule & __ptr64 __cdecl Mig::CUrlIdRule::operator=(class Mig::CUrlIdRule const & __ptr64) __ptr64` | 89 | Exported Function
-`public: class Mig::CUrlIdRule & __ptr64 __cdecl Mig::CUrlIdRule::operator=(class Mig::CUrlIdRule && __ptr64) __ptr64` | 88 | Exported Function
-`public: class Mig::CTranslationRuleFactory & __ptr64 __cdecl Mig::CTranslationRuleFactory::operator=(class Mig::CTranslationRuleFactory const & __ptr64) __ptr64` | 87 | Exported Function
-`public: class Mig::CCopyChildrenRule & __ptr64 __cdecl Mig::CCopyChildrenRule::operator=(class Mig::CCopyChildrenRule && __ptr64) __ptr64` | 70 | Exported Function
-`public: __cdecl Mig::CTranslationPattern::CTranslationPattern(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 35 | Exported Function
-`public: __cdecl Mig::CTranslationPattern::CTranslationPattern(class Mig::CTranslationPattern const & __ptr64) __ptr64` | 34 | Exported Function
-`public: __cdecl Mig::CTranslationMigAttrib::CTranslationMigAttrib(class UnBCL::String * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 33 | Exported Function
-`public: __cdecl Mig::CUrlIdRule::CUrlIdRule(class Mig::CUrlIdRule && __ptr64) __ptr64` | 38 | Exported Function
-`public: __cdecl Mig::CTranslationRuleCollection::CTranslationRuleCollection(void) __ptr64` | 37 | Exported Function
-`public: __cdecl Mig::CTranslationRuleCollection::CTranslationRuleCollection(class Mig::CTranslationRuleCollection const & __ptr64) __ptr64` | 36 | Exported Function
-`public: __cdecl Mig::CSupportedIdRule::CSupportedIdRule(class Mig::CSupportedIdRule && __ptr64) __ptr64` | 29 | Exported Function
-`public: __cdecl Mig::CStatePatternRule::CStatePatternRule(void) __ptr64` | 28 | Exported Function
-`public: __cdecl Mig::CStatePatternRule::CStatePatternRule(class Mig::CStatePatternRule const & __ptr64) __ptr64` | 27 | Exported Function
-`public: __cdecl Mig::CTranslationMigAttrib::CTranslationMigAttrib(class Mig::CTranslationMigAttrib const & __ptr64) __ptr64` | 32 | Exported Function
-`public: __cdecl Mig::CSupportedIdRule::CSupportedIdRule(void) __ptr64` | 31 | Exported Function
-`public: __cdecl Mig::CSupportedIdRule::CSupportedIdRule(class Mig::CSupportedIdRule const & __ptr64) __ptr64` | 30 | Exported Function
-`public: __cdecl Mig::CUrlIdRule::CUrlIdRule(class Mig::CUrlIdRule const & __ptr64) __ptr64` | 39 | Exported Function
-`public: class Mig::CComponentPathRule & __ptr64 __cdecl Mig::CComponentPathRule::operator=(class Mig::CComponentPathRule && __ptr64) __ptr64` | 66 | Exported Function
-`public: class Mig::CAppendNewChildRule & __ptr64 __cdecl Mig::CAppendNewChildRule::operator=(class Mig::CAppendNewChildRule const & __ptr64) __ptr64` | 65 | Exported Function
-`public: class Mig::CAppendNewAttributeRule & __ptr64 __cdecl Mig::CAppendNewAttributeRule::operator=(class Mig::CAppendNewAttributeRule const & __ptr64) __ptr64` | 64 | Exported Function
-`public: class Mig::CCopyAttributesRule & __ptr64 __cdecl Mig::CCopyAttributesRule::operator=(class Mig::CCopyAttributesRule const & __ptr64) __ptr64` | 69 | Exported Function
-`public: class Mig::CCopyAttributesRule & __ptr64 __cdecl Mig::CCopyAttributesRule::operator=(class Mig::CCopyAttributesRule && __ptr64) __ptr64` | 68 | Exported Function
-`public: class Mig::CComponentPathRule & __ptr64 __cdecl Mig::CComponentPathRule::operator=(class Mig::CComponentPathRule const & __ptr64) __ptr64` | 67 | Exported Function
-`public: __cdecl Mig::CXPathRule::CXPathRule(class UnBCL::String * __ptr64,unsigned int,unsigned int,struct Mig::ITranslationRule * __ptr64) __ptr64` | 42 | Exported Function
-`public: __cdecl Mig::CXPathRule::CXPathRule(class Mig::CXPathRule const & __ptr64) __ptr64` | 41 | Exported Function
-`public: __cdecl Mig::CUrlIdRule::CUrlIdRule(void) __ptr64` | 40 | Exported Function
-`public: __cdecl Mig::ITranslationRule::ITranslationRule(void) __ptr64` | 45 | Exported Function
-`public: __cdecl Mig::ITranslationRule::ITranslationRule(struct Mig::ITranslationRule const & __ptr64) __ptr64` | 44 | Exported Function
-`public: __cdecl Mig::ITranslationRule::ITranslationRule(struct Mig::ITranslationRule && __ptr64) __ptr64` | 43 | Exported Function
-`public: struct Mig::ITranslationRule & __ptr64 __cdecl Mig::ITranslationRule::operator=(struct Mig::ITranslationRule && __ptr64) __ptr64` | 91 | Exported Function
-`public: void __cdecl Mig::CComponentPathRule::``vbase destructor'(void) __ptr64` | 166 | Exported Function
-`public: void __cdecl Mig::CAppendNewChildRule::``vbase destructor'(void) __ptr64` | 165 | Exported Function
-`public: void __cdecl Mig::CAppendNewAttributeRule::``vbase destructor'(void) __ptr64` | 164 | Exported Function
-`public: void __cdecl Mig::CEnvExpandRule::``vbase destructor'(void) __ptr64` | 169 | Exported Function
-`public: void __cdecl Mig::CCopyChildrenRule::``vbase destructor'(void) __ptr64` | 168 | Exported Function
-`public: void __cdecl Mig::CCopyAttributesRule::``vbase destructor'(void) __ptr64` | 167 | Exported Function
-`public: virtual int __cdecl Mig::CSelectRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 197 | Exported Function
-`public: virtual int __cdecl Mig::CNodeInnerTextCopyRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 196 | Exported Function
-`public: virtual int __cdecl Mig::CIdStringAsInnerTextRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 195 | Exported Function
-`public: virtual int __cdecl Mig::CXPathRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 200 | Exported Function
-`public: virtual int __cdecl Mig::CTranslationRuleCollection::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 199 | Exported Function
-`public: virtual int __cdecl Mig::CStatePatternRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 198 | Exported Function
-`public: void __cdecl Mig::CNodeInnerTextCopyRule::``vbase destructor'(void) __ptr64` | 170 | Exported Function
-`public: void __cdecl Mig::CTranslationRuleCollection::AddRule(struct Mig::ITranslationRule * __ptr64) __ptr64` | 180 | Exported Function
-`public: void __cdecl Mig::CTranslationRuleCollection::``vbase destructor'(void) __ptr64` | 176 | Exported Function
-`public: void __cdecl Mig::CTranslationPattern::``vbase destructor'(void) __ptr64` | 175 | Exported Function
+`CStatePatternRule` | 79 | Exported Function
+`CSelectRule` | 78 | Exported Function
+`CNodeInnerTextCopyRule` | 77 | Exported Function
+`CSupportedIdRule` | 82 | Exported Function
+`CSupportedIdRule` | 81 | Exported Function
+`CStatePatternRule` | 80 | Exported Function
+`CIdStringAsInnerTextRule` | 73 | Exported Function
+`CEnvExpandRule` | 72 | Exported Function
+`CCopyChildrenRule` | 71 | Exported Function
+`CNodeInnerTextCopyRule` | 76 | Exported Function
+`CLinkedRule` | 75 | Exported Function
+`CIdStringAsInnerTextRule` | 74 | Exported Function
+`CTranslationMigAttrib` | 83 | Exported Function
+`get_Context` | 203 | Exported Function
+`get_RuleName` | 205 | Exported Function
+`CXPathRule` | 90 | Exported Function
+`String` | 183 | Exported Function
+`get_Attribute` | 202 | Exported Function
+`get_PatternString` | 204 | Exported Function
+`CTranslationRuleFactory` | 86 | Exported Function
+`CTranslationRuleCollection` | 85 | Exported Function
+`CTranslationPattern` | 84 | Exported Function
+`CUrlIdRule` | 89 | Exported Function
+`CUrlIdRule` | 88 | Exported Function
+`CTranslationRuleFactory` | 87 | Exported Function
+`CCopyChildrenRule` | 70 | Exported Function
+`String` | 35 | Exported Function
+`CTranslationPattern` | 34 | Exported Function
+`XmlNode` | 33 | Exported Function
+`CUrlIdRule` | 38 | Exported Function
+`CTranslationRuleCollection` | 37 | Exported Function
+`CTranslationRuleCollection` | 36 | Exported Function
+`CSupportedIdRule` | 29 | Exported Function
+`CStatePatternRule` | 28 | Exported Function
+`CStatePatternRule` | 27 | Exported Function
+`CTranslationMigAttrib` | 32 | Exported Function
+`CSupportedIdRule` | 31 | Exported Function
+`CSupportedIdRule` | 30 | Exported Function
+`CUrlIdRule` | 39 | Exported Function
+`CComponentPathRule` | 66 | Exported Function
+`CAppendNewChildRule` | 65 | Exported Function
+`CAppendNewAttributeRule` | 64 | Exported Function
+`CCopyAttributesRule` | 69 | Exported Function
+`CCopyAttributesRule` | 68 | Exported Function
+`CComponentPathRule` | 67 | Exported Function
+`ITranslationRule` | 42 | Exported Function
+`CXPathRule` | 41 | Exported Function
+`CUrlIdRule` | 40 | Exported Function
+`ITranslationRule` | 45 | Exported Function
+`ITranslationRule` | 44 | Exported Function
+`ITranslationRule` | 43 | Exported Function
+`ITranslationRule` | 91 | Exported Function
+`CComponentPathRule` | 166 | Exported Function
+`CAppendNewChildRule` | 165 | Exported Function
+`CAppendNewAttributeRule` | 164 | Exported Function
+`CEnvExpandRule` | 169 | Exported Function
+`CCopyChildrenRule` | 168 | Exported Function
+`CCopyAttributesRule` | 167 | Exported Function
+`XmlNode` | 197 | Exported Function
+`XmlNode` | 196 | Exported Function
+`XmlNode` | 195 | Exported Function
+`XmlNode` | 200 | Exported Function
+`XmlNode` | 199 | Exported Function
+`XmlNode` | 198 | Exported Function
+`CNodeInnerTextCopyRule` | 170 | Exported Function
+`ITranslationRule` | 180 | Exported Function
+`CTranslationRuleCollection` | 176 | Exported Function
+`CTranslationPattern` | 175 | Exported Function
 `Translate` | 206 | Exported Function
-`public: void __cdecl Mig::CXPathRule::``vbase destructor'(void) __ptr64` | 178 | Exported Function
-`public: void __cdecl Mig::CUrlIdRule::``vbase destructor'(void) __ptr64` | 177 | Exported Function
-`public: void __cdecl Mig::CSelectRule::AddSupportedComponentIdentityRule(struct Mig::ITranslationRule * __ptr64) __ptr64` | 181 | Exported Function
-`public: void __cdecl Mig::CSelectRule::AddAssemblyIdentityRule(struct Mig::ITranslationRule * __ptr64) __ptr64` | 179 | Exported Function
-`public: void __cdecl Mig::CSelectRule::``vbase destructor'(void) __ptr64` | 171 | Exported Function
-`public: void __cdecl Mig::CTranslationMigAttrib::``vbase destructor'(void) __ptr64` | 174 | Exported Function
-`public: void __cdecl Mig::CSupportedIdRule::``vbase destructor'(void) __ptr64` | 173 | Exported Function
-`public: void __cdecl Mig::CStatePatternRule::``vbase destructor'(void) __ptr64` | 172 | Exported Function
-`public: virtual int __cdecl Mig::CEnvExpandRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 194 | Exported Function
-`public: virtual __cdecl Mig::CLinkedRule::~CLinkedRule(void) __ptr64` | 53 | Exported Function
-`public: virtual __cdecl Mig::CIdStringAsInnerTextRule::~CIdStringAsInnerTextRule(void) __ptr64` | 52 | Exported Function
-`public: virtual __cdecl Mig::CEnvExpandRule::~CEnvExpandRule(void) __ptr64` | 51 | Exported Function
-`public: virtual __cdecl Mig::CStatePatternRule::~CStatePatternRule(void) __ptr64` | 56 | Exported Function
-`public: virtual __cdecl Mig::CSelectRule::~CSelectRule(void) __ptr64` | 55 | Exported Function
-`public: virtual __cdecl Mig::CNodeInnerTextCopyRule::~CNodeInnerTextCopyRule(void) __ptr64` | 54 | Exported Function
-`public: virtual __cdecl Mig::CAppendNewChildRule::~CAppendNewChildRule(void) __ptr64` | 47 | Exported Function
-`public: virtual __cdecl Mig::CAppendNewAttributeRule::~CAppendNewAttributeRule(void) __ptr64` | 46 | Exported Function
-`public: struct Mig::ITranslationRule & __ptr64 __cdecl Mig::ITranslationRule::operator=(struct Mig::ITranslationRule const & __ptr64) __ptr64` | 92 | Exported Function
-`public: virtual __cdecl Mig::CCopyChildrenRule::~CCopyChildrenRule(void) __ptr64` | 50 | Exported Function
-`public: virtual __cdecl Mig::CCopyAttributesRule::~CCopyAttributesRule(void) __ptr64` | 49 | Exported Function
-`public: virtual __cdecl Mig::CComponentPathRule::~CComponentPathRule(void) __ptr64` | 48 | Exported Function
-`public: virtual __cdecl Mig::CSupportedIdRule::~CSupportedIdRule(void) __ptr64` | 57 | Exported Function
-`public: virtual int __cdecl Mig::CAppendNewAttributeRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 190 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CSupportedIdRule::TransformIdString(class UnBCL::XmlNode * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 188 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CComponentPathRule::TransformIdString(class UnBCL::XmlNode * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 187 | Exported Function
-`public: virtual int __cdecl Mig::CCopyChildrenRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 193 | Exported Function
-`public: virtual int __cdecl Mig::CCopyAttributesRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 192 | Exported Function
-`public: virtual int __cdecl Mig::CAppendNewChildRule::Translate(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 191 | Exported Function
-`public: virtual __cdecl Mig::CTranslationRuleCollection::~CTranslationRuleCollection(void) __ptr64` | 60 | Exported Function
-`public: virtual __cdecl Mig::CTranslationPattern::~CTranslationPattern(void) __ptr64` | 59 | Exported Function
-`public: virtual __cdecl Mig::CTranslationMigAttrib::~CTranslationMigAttrib(void) __ptr64` | 58 | Exported Function
-`public: virtual __cdecl Mig::ITranslationRule::~ITranslationRule(void) __ptr64` | 63 | Exported Function
-`public: virtual __cdecl Mig::CXPathRule::~CXPathRule(void) __ptr64` | 62 | Exported Function
-`public: virtual __cdecl Mig::CUrlIdRule::~CUrlIdRule(void) __ptr64` | 61 | Exported Function
-`const Mig::CNodeInnerTextCopyRule::``vbtable'{for ``Mig::ITranslationRule'}` | 145 | Exported Function
-`const Mig::CNodeInnerTextCopyRule::``vbtable'{for ``Mig::CNodeInnerTextCopyRule'}` | 144 | Exported Function
-`const Mig::CLinkedRule::``vftable'{for ``UnBCL::Object'}` | 110 | Exported Function
-`const Mig::CSelectRule::``vbtable'{for ``Mig::CSelectRule'}` | 146 | Exported Function
-`const Mig::CNodeInnerTextCopyRule::``vftable'{for ``UnBCL::Object'}` | 112 | Exported Function
-`const Mig::CNodeInnerTextCopyRule::``vftable'{for ``Mig::ITranslationRule'}` | 111 | Exported Function
-`const Mig::CIdStringAsInnerTextRule::``vftable'` | 106 | Exported Function
-`const Mig::CEnvExpandRule::``vftable'{for ``UnBCL::Object'}` | 105 | Exported Function
-`const Mig::CEnvExpandRule::``vftable'{for ``Mig::ITranslationRule'}` | 104 | Exported Function
-`const Mig::CLinkedRule::``vftable'{for ``Mig::ITranslationRule'}` | 109 | Exported Function
-`const Mig::CIdStringAsInnerTextRule::``vftable'{for ``UnBCL::Object'}` | 108 | Exported Function
-`const Mig::CIdStringAsInnerTextRule::``vftable'{for ``Mig::ITranslationRule'}` | 107 | Exported Function
-`const Mig::CSelectRule::``vbtable'{for ``Mig::ITranslationRule'}` | 147 | Exported Function
-`const Mig::CSupportedIdRule::``vbtable'{for ``Mig::CUrlIdRule'}` | 152 | Exported Function
-`const Mig::CSupportedIdRule::``vbtable'{for ``Mig::CSupportedIdRule'}` | 150 | Exported Function
-`const Mig::CSupportedIdRule::``vbtable'{for ``Mig::CIdStringAsInnerTextRule'}` | 151 | Exported Function
-`const Mig::CSupportedIdRule::``vftable'{for ``Mig::ITranslationRule'}` | 118 | Exported Function
-`const Mig::CSupportedIdRule::``vftable'` | 117 | Exported Function
-`const Mig::CSupportedIdRule::``vbtable'{for ``Mig::ITranslationRule'}` | 153 | Exported Function
-`const Mig::CStatePatternRule::``vbtable'{for ``Mig::CStatePatternRule'}` | 148 | Exported Function
-`const Mig::CSelectRule::``vftable'{for ``UnBCL::Object'}` | 114 | Exported Function
-`const Mig::CSelectRule::``vftable'{for ``Mig::ITranslationRule'}` | 113 | Exported Function
-`const Mig::CStatePatternRule::``vftable'{for ``UnBCL::Object'}` | 116 | Exported Function
-`const Mig::CStatePatternRule::``vftable'{for ``Mig::ITranslationRule'}` | 115 | Exported Function
-`const Mig::CStatePatternRule::``vbtable'{for ``Mig::ITranslationRule'}` | 149 | Exported Function
-`const Mig::CEnvExpandRule::``vbtable'{for ``Mig::ITranslationRule'}` | 143 | Exported Function
-`const Mig::CAppendNewChildRule::``vftable'{for ``Mig::ITranslationRule'}` | 95 | Exported Function
-`const Mig::CAppendNewChildRule::``vbtable'{for ``Mig::ITranslationRule'}` | 134 | Exported Function
-`const Mig::CAppendNewChildRule::``vbtable'{for ``Mig::CLinkedRule'}` | 133 | Exported Function
-`const Mig::CComponentPathRule::``vbtable'{for ``Mig::CIdStringAsInnerTextRule'}` | 136 | Exported Function
-`const Mig::CComponentPathRule::``vbtable'` | 135 | Exported Function
-`const Mig::CAppendNewChildRule::``vftable'{for ``UnBCL::Object'}` | 96 | Exported Function
-`const Mig::CAppendNewAttributeRule::``vbtable'{for ``Mig::ITranslationRule'}` | 131 | Exported Function
-`const Mig::CAppendNewAttributeRule::``vbtable'{for ``Mig::CLinkedRule'}` | 130 | Exported Function
-`const Mig::CAppendNewAttributeRule::``vbtable'` | 129 | Exported Function
-`const Mig::CAppendNewChildRule::``vbtable'` | 132 | Exported Function
-`const Mig::CAppendNewAttributeRule::``vftable'{for ``UnBCL::Object'}` | 94 | Exported Function
-`const Mig::CAppendNewAttributeRule::``vftable'{for ``Mig::ITranslationRule'}` | 93 | Exported Function
-`const Mig::CComponentPathRule::``vbtable'{for ``Mig::ITranslationRule'}` | 137 | Exported Function
-`const Mig::CCopyChildrenRule::``vbtable'{for ``Mig::ITranslationRule'}` | 141 | Exported Function
-`const Mig::CCopyChildrenRule::``vbtable'{for ``Mig::CCopyChildrenRule'}` | 140 | Exported Function
-`const Mig::CCopyAttributesRule::``vftable'{for ``UnBCL::Object'}` | 101 | Exported Function
-`const Mig::CEnvExpandRule::``vbtable'{for ``Mig::CEnvExpandRule'}` | 142 | Exported Function
-`const Mig::CCopyChildrenRule::``vftable'{for ``UnBCL::Object'}` | 103 | Exported Function
-`const Mig::CCopyChildrenRule::``vftable'{for ``Mig::ITranslationRule'}` | 102 | Exported Function
-`const Mig::CComponentPathRule::``vftable'{for ``UnBCL::Object'}` | 99 | Exported Function
-`const Mig::CComponentPathRule::``vftable'{for ``Mig::ITranslationRule'}` | 98 | Exported Function
-`const Mig::CComponentPathRule::``vftable'` | 97 | Exported Function
-`const Mig::CCopyAttributesRule::``vftable'{for ``Mig::ITranslationRule'}` | 100 | Exported Function
-`const Mig::CCopyAttributesRule::``vbtable'{for ``Mig::ITranslationRule'}` | 139 | Exported Function
-`const Mig::CCopyAttributesRule::``vbtable'{for ``Mig::CCopyAttributesRule'}` | 138 | Exported Function
-`const Mig::CSupportedIdRule::``vftable'{for ``UnBCL::Object'}` | 119 | Exported Function
-`public: __cdecl Mig::CCopyAttributesRule::CCopyAttributesRule(void) __ptr64` | 10 | Exported Function
-`public: __cdecl Mig::CCopyAttributesRule::CCopyAttributesRule(class Mig::CCopyAttributesRule const & __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl Mig::CCopyAttributesRule::CCopyAttributesRule(class Mig::CCopyAttributesRule && __ptr64) __ptr64` | 8 | Exported Function
-`public: __cdecl Mig::CCopyChildrenRule::CCopyChildrenRule(void) __ptr64` | 13 | Exported Function
-`public: __cdecl Mig::CCopyChildrenRule::CCopyChildrenRule(class Mig::CCopyChildrenRule const & __ptr64) __ptr64` | 12 | Exported Function
-`public: __cdecl Mig::CCopyChildrenRule::CCopyChildrenRule(class Mig::CCopyChildrenRule && __ptr64) __ptr64` | 11 | Exported Function
-`public: __cdecl Mig::CAppendNewChildRule::CAppendNewChildRule(class UnBCL::String * __ptr64,enum UnBCL::XmlNodeType,struct Mig::ITranslationRule * __ptr64,int) __ptr64` | 4 | Exported Function
-`public: __cdecl Mig::CAppendNewChildRule::CAppendNewChildRule(class Mig::CAppendNewChildRule const & __ptr64) __ptr64` | 3 | Exported Function
-`public: __cdecl Mig::CAppendNewAttributeRule::CAppendNewAttributeRule(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,struct Mig::ITranslationRule * __ptr64) __ptr64` | 2 | Exported Function
-`public: __cdecl Mig::CComponentPathRule::CComponentPathRule(void) __ptr64` | 7 | Exported Function
-`public: __cdecl Mig::CComponentPathRule::CComponentPathRule(class Mig::CComponentPathRule const & __ptr64) __ptr64` | 6 | Exported Function
-`public: __cdecl Mig::CComponentPathRule::CComponentPathRule(class Mig::CComponentPathRule && __ptr64) __ptr64` | 5 | Exported Function
-`public: __cdecl Mig::CEnvExpandRule::CEnvExpandRule(class Mig::CEnvExpandRule const & __ptr64) __ptr64` | 14 | Exported Function
-`public: __cdecl Mig::CNodeInnerTextCopyRule::CNodeInnerTextCopyRule(void) __ptr64` | 23 | Exported Function
-`public: __cdecl Mig::CNodeInnerTextCopyRule::CNodeInnerTextCopyRule(class Mig::CNodeInnerTextCopyRule const & __ptr64) __ptr64` | 22 | Exported Function
-`public: __cdecl Mig::CNodeInnerTextCopyRule::CNodeInnerTextCopyRule(class Mig::CNodeInnerTextCopyRule && __ptr64) __ptr64` | 21 | Exported Function
-`public: __cdecl Mig::CStatePatternRule::CStatePatternRule(class Mig::CStatePatternRule && __ptr64) __ptr64` | 26 | Exported Function
-`public: __cdecl Mig::CSelectRule::CSelectRule(void) __ptr64` | 25 | Exported Function
-`public: __cdecl Mig::CSelectRule::CSelectRule(class Mig::CSelectRule const & __ptr64) __ptr64` | 24 | Exported Function
-`public: __cdecl Mig::CIdStringAsInnerTextRule::CIdStringAsInnerTextRule(class Mig::CIdStringAsInnerTextRule const & __ptr64) __ptr64` | 17 | Exported Function
-`public: __cdecl Mig::CIdStringAsInnerTextRule::CIdStringAsInnerTextRule(class Mig::CIdStringAsInnerTextRule && __ptr64) __ptr64` | 16 | Exported Function
-`public: __cdecl Mig::CEnvExpandRule::CEnvExpandRule(class UnBCL::String * __ptr64) __ptr64` | 15 | Exported Function
-`public: __cdecl Mig::CLinkedRule::CLinkedRule(struct Mig::ITranslationRule * __ptr64) __ptr64` | 20 | Exported Function
-`public: __cdecl Mig::CLinkedRule::CLinkedRule(class Mig::CLinkedRule const & __ptr64) __ptr64` | 19 | Exported Function
-`public: __cdecl Mig::CIdStringAsInnerTextRule::CIdStringAsInnerTextRule(void) __ptr64` | 18 | Exported Function
-`public: __cdecl Mig::CAppendNewAttributeRule::CAppendNewAttributeRule(class Mig::CAppendNewAttributeRule const & __ptr64) __ptr64` | 1 | Exported Function
-`const Mig::CUrlIdRule::``vbtable'` | 158 | Exported Function
-`const Mig::CTranslationRuleCollection::``vftable'{for ``UnBCL::Object'}` | 123 | Exported Function
-`const Mig::CTranslationRuleCollection::``vftable'{for ``Mig::ITranslationRule'}` | 122 | Exported Function
-`const Mig::CUrlIdRule::``vftable'` | 124 | Exported Function
-`const Mig::CUrlIdRule::``vbtable'{for ``Mig::ITranslationRule'}` | 160 | Exported Function
-`const Mig::CUrlIdRule::``vbtable'{for ``Mig::CIdStringAsInnerTextRule'}` | 159 | Exported Function
-`const Mig::CTranslationPattern::``vbtable'` | 155 | Exported Function
-`const Mig::CTranslationMigAttrib::``vftable'` | 120 | Exported Function
-`const Mig::CTranslationMigAttrib::``vbtable'` | 154 | Exported Function
-`const Mig::CTranslationRuleCollection::``vbtable'{for ``Mig::ITranslationRule'}` | 157 | Exported Function
-`const Mig::CTranslationRuleCollection::``vbtable'{for ``Mig::CTranslationRuleCollection'}` | 156 | Exported Function
-`const Mig::CTranslationPattern::``vftable'` | 121 | Exported Function
-`const Mig::CUrlIdRule::``vftable'{for ``Mig::ITranslationRule'}` | 125 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CStatePatternRule::GetType(void) __ptr64` | 186 | Exported Function
-`protected: class UnBCL::String * __ptr64 __cdecl Mig::CIdStringAsInnerTextRule::GetIdString(class UnBCL::XmlNode * __ptr64) __ptr64` | 184 | Exported Function
-`protected: class UnBCL::ArrayList<class Mig::CTranslationPattern * __ptr64> * __ptr64 __cdecl Mig::CStatePatternRule::GetPatterns(class UnBCL::XmlNode * __ptr64,int) __ptr64` | 185 | Exported Function
-`protected: virtual class UnBCL::String * __ptr64 __cdecl Mig::CUrlIdRule::TransformIdString(class UnBCL::XmlNode * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 189 | Exported Function
-`protected: class UnBCL::XmlNode * __ptr64 __cdecl Mig::CStatePatternRule::TranslateToMigRule(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64,class Mig::CTranslationMigAttrib * __ptr64) __ptr64` | 201 | Exported Function
-`protected: class UnBCL::XmlNode * __ptr64 __cdecl Mig::CStatePatternRule::CreateRuleNode(class UnBCL::XmlNode * __ptr64,class UnBCL::String * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 182 | Exported Function
-`const Mig::CXPathRule::``vbtable'{for ``Mig::CLinkedRule'}` | 162 | Exported Function
-`const Mig::CXPathRule::``vbtable'` | 161 | Exported Function
-`const Mig::CUrlIdRule::``vftable'{for ``UnBCL::Object'}` | 126 | Exported Function
-`const Mig::CXPathRule::``vftable'{for ``UnBCL::Object'}` | 128 | Exported Function
-`const Mig::CXPathRule::``vftable'{for ``Mig::ITranslationRule'}` | 127 | Exported Function
-`const Mig::CXPathRule::``vbtable'{for ``Mig::ITranslationRule'}` | 163 | Exported Function
+`CXPathRule` | 178 | Exported Function
+`CUrlIdRule` | 177 | Exported Function
+`ITranslationRule` | 181 | Exported Function
+`ITranslationRule` | 179 | Exported Function
+`CSelectRule` | 171 | Exported Function
+`CTranslationMigAttrib` | 174 | Exported Function
+`CSupportedIdRule` | 173 | Exported Function
+`CStatePatternRule` | 172 | Exported Function
+`XmlNode` | 194 | Exported Function
+`CLinkedRule` | 53 | Exported Function
+`CIdStringAsInnerTextRule` | 52 | Exported Function
+`CEnvExpandRule` | 51 | Exported Function
+`CStatePatternRule` | 56 | Exported Function
+`CSelectRule` | 55 | Exported Function
+`CNodeInnerTextCopyRule` | 54 | Exported Function
+`CAppendNewChildRule` | 47 | Exported Function
+`CAppendNewAttributeRule` | 46 | Exported Function
+`ITranslationRule` | 92 | Exported Function
+`CCopyChildrenRule` | 50 | Exported Function
+`CCopyAttributesRule` | 49 | Exported Function
+`CComponentPathRule` | 48 | Exported Function
+`CSupportedIdRule` | 57 | Exported Function
+`XmlNode` | 190 | Exported Function
+`String` | 188 | Exported Function
+`String` | 187 | Exported Function
+`XmlNode` | 193 | Exported Function
+`XmlNode` | 192 | Exported Function
+`XmlNode` | 191 | Exported Function
+`CTranslationRuleCollection` | 60 | Exported Function
+`CTranslationPattern` | 59 | Exported Function
+`CTranslationMigAttrib` | 58 | Exported Function
+`ITranslationRule` | 63 | Exported Function
+`CXPathRule` | 62 | Exported Function
+`CUrlIdRule` | 61 | Exported Function
+`ITranslationRule` | 145 | Exported Function
+`CNodeInnerTextCopyRule` | 144 | Exported Function
+`Object` | 110 | Exported Function
+`CSelectRule` | 146 | Exported Function
+`Object` | 112 | Exported Function
+`ITranslationRule` | 111 | Exported Function
+`CIdStringAsInnerTextRule` | 106 | Exported Function
+`Object` | 105 | Exported Function
+`ITranslationRule` | 104 | Exported Function
+`ITranslationRule` | 109 | Exported Function
+`Object` | 108 | Exported Function
+`ITranslationRule` | 107 | Exported Function
+`ITranslationRule` | 147 | Exported Function
+`CUrlIdRule` | 152 | Exported Function
+`CSupportedIdRule` | 150 | Exported Function
+`CIdStringAsInnerTextRule` | 151 | Exported Function
+`ITranslationRule` | 118 | Exported Function
+`CSupportedIdRule` | 117 | Exported Function
+`ITranslationRule` | 153 | Exported Function
+`CStatePatternRule` | 148 | Exported Function
+`Object` | 114 | Exported Function
+`ITranslationRule` | 113 | Exported Function
+`Object` | 116 | Exported Function
+`ITranslationRule` | 115 | Exported Function
+`ITranslationRule` | 149 | Exported Function
+`ITranslationRule` | 143 | Exported Function
+`ITranslationRule` | 95 | Exported Function
+`ITranslationRule` | 134 | Exported Function
+`CLinkedRule` | 133 | Exported Function
+`CIdStringAsInnerTextRule` | 136 | Exported Function
+`CComponentPathRule` | 135 | Exported Function
+`Object` | 96 | Exported Function
+`ITranslationRule` | 131 | Exported Function
+`CLinkedRule` | 130 | Exported Function
+`CAppendNewAttributeRule` | 129 | Exported Function
+`CAppendNewChildRule` | 132 | Exported Function
+`Object` | 94 | Exported Function
+`ITranslationRule` | 93 | Exported Function
+`ITranslationRule` | 137 | Exported Function
+`ITranslationRule` | 141 | Exported Function
+`CCopyChildrenRule` | 140 | Exported Function
+`Object` | 101 | Exported Function
+`CEnvExpandRule` | 142 | Exported Function
+`Object` | 103 | Exported Function
+`ITranslationRule` | 102 | Exported Function
+`Object` | 99 | Exported Function
+`ITranslationRule` | 98 | Exported Function
+`CComponentPathRule` | 97 | Exported Function
+`ITranslationRule` | 100 | Exported Function
+`ITranslationRule` | 139 | Exported Function
+`CCopyAttributesRule` | 138 | Exported Function
+`Object` | 119 | Exported Function
+`CCopyAttributesRule` | 10 | Exported Function
+`CCopyAttributesRule` | 9 | Exported Function
+`CCopyAttributesRule` | 8 | Exported Function
+`CCopyChildrenRule` | 13 | Exported Function
+`CCopyChildrenRule` | 12 | Exported Function
+`CCopyChildrenRule` | 11 | Exported Function
+`ITranslationRule` | 4 | Exported Function
+`CAppendNewChildRule` | 3 | Exported Function
+`ITranslationRule` | 2 | Exported Function
+`CComponentPathRule` | 7 | Exported Function
+`CComponentPathRule` | 6 | Exported Function
+`CComponentPathRule` | 5 | Exported Function
+`CEnvExpandRule` | 14 | Exported Function
+`CNodeInnerTextCopyRule` | 23 | Exported Function
+`CNodeInnerTextCopyRule` | 22 | Exported Function
+`CNodeInnerTextCopyRule` | 21 | Exported Function
+`CStatePatternRule` | 26 | Exported Function
+`CSelectRule` | 25 | Exported Function
+`CSelectRule` | 24 | Exported Function
+`CIdStringAsInnerTextRule` | 17 | Exported Function
+`CIdStringAsInnerTextRule` | 16 | Exported Function
+`String` | 15 | Exported Function
+`ITranslationRule` | 20 | Exported Function
+`CLinkedRule` | 19 | Exported Function
+`CIdStringAsInnerTextRule` | 18 | Exported Function
+`CAppendNewAttributeRule` | 1 | Exported Function
+`CUrlIdRule` | 158 | Exported Function
+`Object` | 123 | Exported Function
+`ITranslationRule` | 122 | Exported Function
+`CUrlIdRule` | 124 | Exported Function
+`ITranslationRule` | 160 | Exported Function
+`CIdStringAsInnerTextRule` | 159 | Exported Function
+`CTranslationPattern` | 155 | Exported Function
+`CTranslationMigAttrib` | 120 | Exported Function
+`CTranslationMigAttrib` | 154 | Exported Function
+`ITranslationRule` | 157 | Exported Function
+`CTranslationRuleCollection` | 156 | Exported Function
+`CTranslationPattern` | 121 | Exported Function
+`ITranslationRule` | 125 | Exported Function
+`GetType` | 186 | Exported Function
+`XmlNode` | 184 | Exported Function
+`XmlNode` | 185 | Exported Function
+`String` | 189 | Exported Function
+`CTranslationMigAttrib` | 201 | Exported Function
+`XmlNode` | 182 | Exported Function
+`CLinkedRule` | 162 | Exported Function
+`CXPathRule` | 161 | Exported Function
+`Object` | 126 | Exported Function
+`Object` | 128 | Exported Function
+`ITranslationRule` | 127 | Exported Function
+`ITranslationRule` | 163 | Exported Function
 
 
 ## Signature

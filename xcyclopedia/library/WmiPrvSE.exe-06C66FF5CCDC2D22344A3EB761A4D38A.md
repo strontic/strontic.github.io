@@ -18,6 +18,9 @@ SHA256 | `B5C78BEF3883E3099F7EF844DA1446DB29107E5C0223B97F29E7FAFAB5527F15`
 SHA384 | `17849BDEBC360BDD488958A7A7B322ADE0B507DB1C0C15731243AC378426310FA81C196A480E28B873093B28E53471B3`
 SHA512 | `DF9E47A007CC831AB396C83806A3F92F837522759D11FBFC8B069EA513832252CB9C0DDD713AA09A2BA7762B57CFB18CDB13E74B166338EFAA616CD2BD13CDE9`
 SSDEEP | `6144:n55U8ziMJNIlFZVLizDI38GbSgHneOx3sZTSvq4rjyzuJDeP:53+qelFLLiYsGbSgHnD6cvqicuB8`
+IMP | `CFECEDC01015A4FD1BAACAC9E592D88B`
+PESHA1 | `FF50ABF7CC185C0BDE3E41E96EC3656D00AAFE87`
+PE256 | `396DDF55D2A25F460AA96436859A9B82FFC581F1DE9DE425E6168F1D73D03AA5`
 
 ## Runtime Data
 
@@ -26,21 +29,55 @@ SSDEEP | `6144:n55U8ziMJNIlFZVLizDI38GbSgHneOx3sZTSvq4rjyzuJDeP:53+qelFLLiYsGbSg
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC18DC | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\RPC Control\DSEC6F4 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\NCObjAPI.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\system32\wbem\FastProx.dll |
+C:\Windows\system32\wbem\wbemprox.dll |
+C:\Windows\system32\wbem\wbemsvc.dll |
 C:\Windows\system32\wbem\WmiPrvSE.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -60,7 +97,12 @@ C:\Windows\system32\wbem\WmiPrvSE.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/b5c78bef3883e3099f7ef844da1446db29107e5c0223b97f29e7fafab5527f15/detection/
 
 
 ## Possible Misuse

@@ -26,159 +26,159 @@ PE256 | `815A71419C7424B150A7C20A624AC12B6BC170AE4F5BB4DA5D5FBE6B829E874A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall CContextMenu::PopUpInit(class CDMNodeObj *,int &,int &,int)` | 205 | Exported Function
-`public: void __thiscall CContextMenu::DoRevertToNT4(long,int)` | 37 | Exported Function
-`public: void __thiscall CContextMenu::DoDelete(long)` | 36 | Exported Function
-`public: void __thiscall CContextMenu::RefreshFileSys(long)` | 210 | Exported Function
-`public: void __thiscall CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY *)` | 6 | Exported Function
-`public: void __thiscall CDataCache::AddFileSystemInfoToListAndMap(unsigned long,struct filesysteminfo *)` | 5 | Exported Function
-`public: void __thiscall CDataCache::AddFileSystemInfoToCache(unsigned long,struct filesysteminfo *)` | 4 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetNumRegions(void)` | 112 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetNumMembers(void)` | 111 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetMaxPartitionCount(void)` | 107 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetPrimaryPartitionCount(void)` | 123 | Exported Function
+`PopUpInit` | 205 | Exported Function
+`DoRevertToNT4` | 37 | Exported Function
+`DoDelete` | 36 | Exported Function
+`RefreshFileSys` | 210 | Exported Function
+`AddLDMObjMapEntry` | 6 | Exported Function
+`AddFileSystemInfoToListAndMap` | 5 | Exported Function
+`AddFileSystemInfoToCache` | 4 | Exported Function
+`GetNumRegions` | 112 | Exported Function
+`GetNumMembers` | 111 | Exported Function
+`GetMaxPartitionCount` | 107 | Exported Function
+`GetPrimaryPartitionCount` | 123 | Exported Function
 `public: virtual __thiscall CDataCache::~CDataCache(void)` | 3 | Exported Function
-`public: unsigned short * __thiscall CDataCache::FindDeviceInstanceId(__int64)` | 51 | Exported Function
-`public: unsigned long __thiscall CTaskData::GetUIState(void)` | 143 | Exported Function
-`public: void __thiscall CDataCache::AddRegionToVolumeMemberList(class CDMNodeObj *)` | 7 | Exported Function
-`public: void __thiscall CDataCache::EnumNTFSwithDriveLetter(int *,unsigned short * *)` | 43 | Exported Function
-`public: void __thiscall CDataCache::DeleteRegionFromVolumeMemberList(class CDMNodeObj *)` | 34 | Exported Function
-`public: void __thiscall CDataCache::DeleteLists(void)` | 33 | Exported Function
-`public: void __thiscall CDataCache::FillDeviceInstanceId(unsigned short *,unsigned short *)` | 47 | Exported Function
-`public: void __thiscall CDataCache::PopulateEncapsulateData(struct ENCAPSULATE_DATA *)` | 207 | Exported Function
-`public: void __thiscall CDataCache::PopulateDiskGroupData(struct DISK_GROUP_DATA *)` | 206 | Exported Function
-`public: void __thiscall CDataCache::GetFileSystemTypes(unsigned long &,struct ifilesysteminfo * *)` | 93 | Exported Function
-`public: void __thiscall CDataCache::CreateDiskList(void)` | 26 | Exported Function
-`public: void __thiscall CDataCache::AdjustVolumeCountInLegendList(enum _VOLUMELAYOUT,int,class CTaskData *)` | 10 | Exported Function
-`public: void __thiscall CDataCache::AdjustRegionCountInLegendList(enum _REGIONTYPE,int,class CTaskData *)` | 9 | Exported Function
-`public: void __thiscall CDataCache::CreateShortDiskName(struct diskinfoex &)` | 29 | Exported Function
-`public: void __thiscall CDataCache::DeleteEncapsulateData(struct ENCAPSULATE_DATA *)` | 32 | Exported Function
-`public: void __thiscall CDataCache::DeleteDiskGroupData(struct DISK_GROUP_DATA *)` | 31 | Exported Function
-`public: void __thiscall CDataCache::CreateVolumeList(void)` | 30 | Exported Function
-`public: int __thiscall CTaskData::SupportGpt(void)` | 222 | Exported Function
-`public: int __thiscall CTaskData::IsWolfpack(void)` | 199 | Exported Function
-`public: int __thiscall CTaskData::IsSecureSystemPartition(void)` | 192 | Exported Function
-`public: long __thiscall CContextMenu::Command(long,struct IDataObject *,long)` | 13 | Exported Function
-`public: long __thiscall CDMNodeObj::GetVolumeFileSystemTypes(unsigned long &,struct ilhfilesysteminfo * *)` | 148 | Exported Function
-`public: long __thiscall CDMNodeObj::GetFlags(void)` | 95 | Exported Function
-`public: long __thiscall CContextMenu::ShowContextMenu(class CWnd *,long,long,long)` | 220 | Exported Function
-`public: int __thiscall CTaskData::IsLocalMachine(void)` | 177 | Exported Function
-`public: int __thiscall CTaskData::IsEfi(void)` | 169 | Exported Function
-`public: int __thiscall CTaskData::IsAlpha(void)` | 158 | Exported Function
-`public: int __thiscall CTaskData::IsNEC_98Server(void)` | 182 | Exported Function
-`public: int __thiscall CTaskData::IsPreLonghornVdsVersion(void)` | 189 | Exported Function
-`public: int __thiscall CTaskData::IsPostLonghornVdsVersion(void)` | 187 | Exported Function
-`public: int __thiscall CTaskData::IsNTServer(void)` | 183 | Exported Function
-`public: long __thiscall CDMNodeObj::IsConvertSuccess(int)` | 159 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetDeviceAttributes(void)` | 66 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetColorRef(void)` | 63 | Exported Function
-`public: unsigned long __thiscall CDataCache::GetVolumeCount(void)` | 147 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetDeviceState(void)` | 67 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetLogicalDriveCount(void)` | 103 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetExtendedRegionColor(void)` | 87 | Exported Function
-`public: unsigned long __thiscall CDMNodeObj::GetDeviceType(void)` | 68 | Exported Function
-`public: short __thiscall CDMNodeObj::GetIVolumeClientVersion(void)` | 96 | Exported Function
-`public: long __thiscall CDMNodeObj::IsVolumeArrived(__int64,enum _LAYOUT_TYPES)` | 196 | Exported Function
-`public: long __thiscall CDMNodeObj::IsExtendedPartitionCreated(void)` | 170 | Exported Function
-`public: short __thiscall CTaskData::GetIVolumeClientVersion(void)` | 97 | Exported Function
-`public: unsigned long __thiscall CDataCache::GetDiskCount(void)` | 78 | Exported Function
-`public: unsigned int __thiscall CDMNodeObj::GetIconId(int)` | 98 | Exported Function
-`public: struct HWND__ * __thiscall CDMComponentData::GetMMCWindow(void)` | 105 | Exported Function
-`public: void __thiscall CTaskData::EnumNTFSwithDriveLetter(int *,unsigned short * *)` | 44 | Exported Function
-`public: void __thiscall CTaskData::EnumDisks(unsigned long &,long * *)` | 41 | Exported Function
-`public: void __thiscall CDMSnapin::UpDateConsoleView(long)` | 226 | Exported Function
-`public: void __thiscall CTaskData::EnumVolumes(unsigned long &,long * *)` | 46 | Exported Function
-`public: void __thiscall CTaskData::FindDriveLetter(__int64,unsigned short &)` | 54 | Exported Function
-`public: void __thiscall CTaskData::FilterCookiesBigEnoughForRAID5Repair(unsigned long &,long *,long * *,__int64,class CDMNodeObj *)` | 49 | Exported Function
-`public: void __thiscall CTaskData::FilterCookiesBigEnoughForFTRepair(unsigned long &,long *,long * *,__int64,class CDMNodeObj *)` | 48 | Exported Function
-`public: void __thiscall CDMNodeObj::MarkDiskForLastVolume(class CDMNodeObj *)` | 202 | Exported Function
-`public: void __thiscall CDMNodeObj::GetStorageType(class CString &,int)` | 142 | Exported Function
-`public: void __thiscall CDMNodeObj::GetSizeString(class CString &)` | 138 | Exported Function
-`public: void __thiscall CDMNodeObj::MarkDisksForLastVolume(void)` | 203 | Exported Function
-`public: void __thiscall CDMSnapin::SetDescriptionBarText(long)` | 212 | Exported Function
-`public: void __thiscall CDMNodeObj::SetFSId(__int64)` | 215 | Exported Function
-`public: void __thiscall CDMNodeObj::RecalculateSpace(void)` | 208 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookies(unsigned long &,long * *,int,unsigned long,int)` | 70 | Exported Function
-`public: void __thiscall CTaskData::GetFileSystemTypes(unsigned long &,struct ifilesysteminfo * *)` | 94 | Exported Function
-`public: void __thiscall CTaskData::GetDriveLetters(short &,unsigned short * *,unsigned short)` | 86 | Exported Function
-`public: void __thiscall CTaskData::GetDiskInfoFromVolCookie(long,int &,unsigned long &,long * *,unsigned long,int)` | 80 | Exported Function
-`public: void __thiscall CTaskData::GetMinMaxPartitionSizes(long,__int64 &,__int64 &)` | 109 | Exported Function
-`public: void __thiscall CTaskData::SetUIState(unsigned long)` | 218 | Exported Function
-`public: void __thiscall CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * *,int &)` | 126 | Exported Function
-`public: void __thiscall CTaskData::GetOtherDisksFromVolCookie(long,unsigned long &,long * *)` | 116 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesForExtendVolume(long,unsigned long &,long * *)` | 73 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesForCreateVolume(unsigned long &,long * *)` | 72 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesForAddMirror(long,unsigned long &,long * *)` | 71 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesForSig(unsigned long &,long * *)` | 74 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesWithFreeSpace(unsigned long &,long * *)` | 77 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesToEncap(unsigned long &,long * *)` | 76 | Exported Function
-`public: void __thiscall CTaskData::GetDiskCookiesForUpgrade(unsigned long &,long * *)` | 75 | Exported Function
-`public: void __thiscall CDMComponentData::ReloadData(class CDMScopeNode *)` | 211 | Exported Function
-`public: void __thiscall CDMComponentData::RefreshDiskView(class CDMScopeNode *)` | 209 | Exported Function
-`public: void __thiscall CDMComponentData::LoadData(class CDMScopeNode *,long)` | 200 | Exported Function
-`public: void __thiscall CDMComponentData::SetOcxViewType(class CDMScopeNode *)` | 216 | Exported Function
-`public: void __thiscall CDMNodeObj::EnumDiskRegions(long * *,long &)` | 40 | Exported Function
-`public: void __thiscall CDMComponentData::UIStateChange(class CDMScopeNode *,unsigned long)` | 225 | Exported Function
-`public: void __thiscall CDMComponentData::SetOcxViewTypeForce(class CDMScopeNode *)` | 217 | Exported Function
-`public: void __thiscall CDataCache::SetVolumeList(struct volumeinfo *,unsigned long,class CTaskData *)` | 219 | Exported Function
-`public: void __thiscall CDataCache::SetDriveLetterInUse(unsigned short,int)` | 214 | Exported Function
-`public: void __thiscall CDataCache::SetDiskList(struct diskinfoex *,unsigned long)` | 213 | Exported Function
-`public: void __thiscall CDMComponentData::AddRow(class CDMScopeNode *,long)` | 8 | Exported Function
-`public: void __thiscall CDMComponentData::EmptyOcxViewData(class CDMScopeNode *)` | 38 | Exported Function
-`public: void __thiscall CDMComponentData::DeleteRow(class CDMScopeNode *,long)` | 35 | Exported Function
-`public: void __thiscall CDMComponentData::ChangeRow(class CDMScopeNode *,long)` | 12 | Exported Function
-`public: void __thiscall CDMNodeObj::EnumFirstVolumeMember(long &,long &)` | 42 | Exported Function
-`public: void __thiscall CDMNodeObj::GetObjectId(__int64 &)` | 113 | Exported Function
-`public: void __thiscall CDMNodeObj::GetName(class CString &)` | 110 | Exported Function
-`public: void __thiscall CDMNodeObj::GetMaxAdjustedFreeSize(__int64 &)` | 106 | Exported Function
-`public: void __thiscall CDMNodeObj::GetPartitionStyleString(class CString &,int)` | 120 | Exported Function
-`public: void __thiscall CDMNodeObj::GetSizeMB(__int64 &)` | 137 | Exported Function
-`public: void __thiscall CDMNodeObj::GetSize(__int64 &,int)` | 136 | Exported Function
-`public: void __thiscall CDMNodeObj::GetShortName(class CString &)` | 134 | Exported Function
-`public: void __thiscall CDMNodeObj::GetDriveLetter(unsigned short &)` | 84 | Exported Function
-`public: void __thiscall CDMNodeObj::GetDiskTypeName(class CString &)` | 83 | Exported Function
-`public: void __thiscall CDMNodeObj::EnumVolumeMembers(long * *,long &)` | 45 | Exported Function
-`public: void __thiscall CDMNodeObj::GetFileSystemLabel(class CString &)` | 89 | Exported Function
-`public: void __thiscall CDMNodeObj::GetLongName(class CString &,int)` | 104 | Exported Function
-`public: void __thiscall CDMNodeObj::GetFileSystemSize(long &)` | 91 | Exported Function
-`public: void __thiscall CDMNodeObj::GetFileSystemName(class CString &)` | 90 | Exported Function
-`public: int __thiscall CTaskData::HasNTFSwithDriveLetter(void)` | 154 | Exported Function
-`public: int __thiscall CDataCache::FindFileSystem(__int64,struct filesysteminfo &)` | 55 | Exported Function
-`public: int __thiscall CDataCache::FindDriveLetter(__int64,unsigned short &)` | 53 | Exported Function
-`public: int __thiscall CDataCache::FindDiskPtrFromDiskId(__int64,class CDMNodeObj * *)` | 52 | Exported Function
-`public: int __thiscall CDataCache::FindRegionPtrFromRegionId(__int64,class CDMNodeObj * *)` | 57 | Exported Function
-`public: int __thiscall CDataCache::HasNTFSwithDriveLetter(void)` | 153 | Exported Function
-`public: int __thiscall CDataCache::GetBootPort(void)` | 61 | Exported Function
-`public: int __thiscall CDataCache::FindRegionPtrOnDiskFromRegionId(class CDMNodeObj *,__int64,class CDMNodeObj * *,struct __POSITION * &)` | 59 | Exported Function
-`public: class CWnd * __thiscall CTaskData::GetOcxFrameCWndPtr(void)` | 114 | Exported Function
-`public: class CString __thiscall CTaskData::GetServerName(void)` | 133 | Exported Function
-`public: class CString __thiscall CDataCache::GetServerName(void)` | 132 | Exported Function
-`public: enum _LAYOUT_TYPES __thiscall CDMNodeObj::GetLayoutType(void)` | 101 | Exported Function
-`public: int __thiscall CDataCache::FindCookieAndRemoveFromList(long,class CList<class CDMNodeObj *,class CDMNodeObj *> *)` | 50 | Exported Function
-`public: enum _STORAGE_TYPES __thiscall CDMNodeObj::GetStorageType(void)` | 141 | Exported Function
-`public: enum _PARTITIONSTYLE __thiscall CDMNodeObj::GetPartitionStyle(void)` | 119 | Exported Function
-`public: int __thiscall CDataCache::HasVMDisk(void)` | 155 | Exported Function
-`public: int __thiscall CDataCache::SupportMirror(void)` | 223 | Exported Function
-`public: int __thiscall CDataCache::SupportGpt(void)` | 221 | Exported Function
-`public: int __thiscall CDataCache::IsWolfpack(void)` | 198 | Exported Function
-`public: int __thiscall CDataCache::SupportRaid5(void)` | 224 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsActivePartition(void)` | 14 | Exported Function
-`public: int __thiscall CDMNodeObj::CanHaveGPT(void)` | 11 | Exported Function
-`public: int __thiscall CDMComponentData::GetScopeNodeForResultPane(long,class CDMScopeNode * *)` | 131 | Exported Function
-`public: int __thiscall CDataCache::IsEfi(void)` | 168 | Exported Function
-`public: int __thiscall CDataCache::IsDynamic1394(void)` | 165 | Exported Function
-`public: int __thiscall CDataCache::IsAlpha(void)` | 157 | Exported Function
-`public: int __thiscall CDataCache::IsNEC_98Server(void)` | 181 | Exported Function
-`public: int __thiscall CDataCache::IsPreLonghornVdsVersion(void)` | 188 | Exported Function
-`public: int __thiscall CDataCache::IsPostLonghornVdsVersion(void)` | 186 | Exported Function
-`public: int __thiscall CDataCache::IsPersonalOrLapTopServer(void)` | 185 | Exported Function
-`protected: void __thiscall CDataCache::GetDiskCookies(unsigned long &,long * *)` | 69 | Exported Function
+`FindDeviceInstanceId` | 51 | Exported Function
+`GetUIState` | 143 | Exported Function
+`AddRegionToVolumeMemberList` | 7 | Exported Function
+`EnumNTFSwithDriveLetter` | 43 | Exported Function
+`DeleteRegionFromVolumeMemberList` | 34 | Exported Function
+`DeleteLists` | 33 | Exported Function
+`FillDeviceInstanceId` | 47 | Exported Function
+`PopulateEncapsulateData` | 207 | Exported Function
+`PopulateDiskGroupData` | 206 | Exported Function
+`GetFileSystemTypes` | 93 | Exported Function
+`CreateDiskList` | 26 | Exported Function
+`AdjustVolumeCountInLegendList` | 10 | Exported Function
+`AdjustRegionCountInLegendList` | 9 | Exported Function
+`CreateShortDiskName` | 29 | Exported Function
+`DeleteEncapsulateData` | 32 | Exported Function
+`DeleteDiskGroupData` | 31 | Exported Function
+`CreateVolumeList` | 30 | Exported Function
+`SupportGpt` | 222 | Exported Function
+`IsWolfpack` | 199 | Exported Function
+`IsSecureSystemPartition` | 192 | Exported Function
+`Command` | 13 | Exported Function
+`GetVolumeFileSystemTypes` | 148 | Exported Function
+`GetFlags` | 95 | Exported Function
+`ShowContextMenu` | 220 | Exported Function
+`IsLocalMachine` | 177 | Exported Function
+`IsEfi` | 169 | Exported Function
+`IsAlpha` | 158 | Exported Function
+`IsNEC_98Server` | 182 | Exported Function
+`IsPreLonghornVdsVersion` | 189 | Exported Function
+`IsPostLonghornVdsVersion` | 187 | Exported Function
+`IsNTServer` | 183 | Exported Function
+`IsConvertSuccess` | 159 | Exported Function
+`GetDeviceAttributes` | 66 | Exported Function
+`GetColorRef` | 63 | Exported Function
+`GetVolumeCount` | 147 | Exported Function
+`GetDeviceState` | 67 | Exported Function
+`GetLogicalDriveCount` | 103 | Exported Function
+`GetExtendedRegionColor` | 87 | Exported Function
+`GetDeviceType` | 68 | Exported Function
+`GetIVolumeClientVersion` | 96 | Exported Function
+`IsVolumeArrived` | 196 | Exported Function
+`IsExtendedPartitionCreated` | 170 | Exported Function
+`GetIVolumeClientVersion` | 97 | Exported Function
+`GetDiskCount` | 78 | Exported Function
+`GetIconId` | 98 | Exported Function
+`GetMMCWindow` | 105 | Exported Function
+`EnumNTFSwithDriveLetter` | 44 | Exported Function
+`EnumDisks` | 41 | Exported Function
+`UpDateConsoleView` | 226 | Exported Function
+`EnumVolumes` | 46 | Exported Function
+`FindDriveLetter` | 54 | Exported Function
+`FilterCookiesBigEnoughForRAID5Repair` | 49 | Exported Function
+`FilterCookiesBigEnoughForFTRepair` | 48 | Exported Function
+`MarkDiskForLastVolume` | 202 | Exported Function
+`GetStorageType` | 142 | Exported Function
+`GetSizeString` | 138 | Exported Function
+`MarkDisksForLastVolume` | 203 | Exported Function
+`SetDescriptionBarText` | 212 | Exported Function
+`SetFSId` | 215 | Exported Function
+`RecalculateSpace` | 208 | Exported Function
+`GetDiskCookies` | 70 | Exported Function
+`GetFileSystemTypes` | 94 | Exported Function
+`GetDriveLetters` | 86 | Exported Function
+`GetDiskInfoFromVolCookie` | 80 | Exported Function
+`GetMinMaxPartitionSizes` | 109 | Exported Function
+`SetUIState` | 218 | Exported Function
+`GetRegionColorStructPtr` | 126 | Exported Function
+`GetOtherDisksFromVolCookie` | 116 | Exported Function
+`GetDiskCookiesForExtendVolume` | 73 | Exported Function
+`GetDiskCookiesForCreateVolume` | 72 | Exported Function
+`GetDiskCookiesForAddMirror` | 71 | Exported Function
+`GetDiskCookiesForSig` | 74 | Exported Function
+`GetDiskCookiesWithFreeSpace` | 77 | Exported Function
+`GetDiskCookiesToEncap` | 76 | Exported Function
+`GetDiskCookiesForUpgrade` | 75 | Exported Function
+`ReloadData` | 211 | Exported Function
+`RefreshDiskView` | 209 | Exported Function
+`LoadData` | 200 | Exported Function
+`SetOcxViewType` | 216 | Exported Function
+`EnumDiskRegions` | 40 | Exported Function
+`UIStateChange` | 225 | Exported Function
+`SetOcxViewTypeForce` | 217 | Exported Function
+`SetVolumeList` | 219 | Exported Function
+`SetDriveLetterInUse` | 214 | Exported Function
+`SetDiskList` | 213 | Exported Function
+`AddRow` | 8 | Exported Function
+`EmptyOcxViewData` | 38 | Exported Function
+`DeleteRow` | 35 | Exported Function
+`ChangeRow` | 12 | Exported Function
+`EnumFirstVolumeMember` | 42 | Exported Function
+`GetObjectId` | 113 | Exported Function
+`GetName` | 110 | Exported Function
+`GetMaxAdjustedFreeSize` | 106 | Exported Function
+`GetPartitionStyleString` | 120 | Exported Function
+`GetSizeMB` | 137 | Exported Function
+`GetSize` | 136 | Exported Function
+`GetShortName` | 134 | Exported Function
+`GetDriveLetter` | 84 | Exported Function
+`GetDiskTypeName` | 83 | Exported Function
+`EnumVolumeMembers` | 45 | Exported Function
+`GetFileSystemLabel` | 89 | Exported Function
+`GetLongName` | 104 | Exported Function
+`GetFileSystemSize` | 91 | Exported Function
+`GetFileSystemName` | 90 | Exported Function
+`HasNTFSwithDriveLetter` | 154 | Exported Function
+`FindFileSystem` | 55 | Exported Function
+`FindDriveLetter` | 53 | Exported Function
+`FindDiskPtrFromDiskId` | 52 | Exported Function
+`FindRegionPtrFromRegionId` | 57 | Exported Function
+`HasNTFSwithDriveLetter` | 153 | Exported Function
+`GetBootPort` | 61 | Exported Function
+`FindRegionPtrOnDiskFromRegionId` | 59 | Exported Function
+`GetOcxFrameCWndPtr` | 114 | Exported Function
+`GetServerName` | 133 | Exported Function
+`GetServerName` | 132 | Exported Function
+`GetLayoutType` | 101 | Exported Function
+`FindCookieAndRemoveFromList` | 50 | Exported Function
+`GetStorageType` | 141 | Exported Function
+`GetPartitionStyle` | 119 | Exported Function
+`HasVMDisk` | 155 | Exported Function
+`SupportMirror` | 223 | Exported Function
+`SupportGpt` | 221 | Exported Function
+`IsWolfpack` | 198 | Exported Function
+`SupportRaid5` | 224 | Exported Function
+`ContainsActivePartition` | 14 | Exported Function
+`CanHaveGPT` | 11 | Exported Function
+`GetScopeNodeForResultPane` | 131 | Exported Function
+`IsEfi` | 168 | Exported Function
+`IsDynamic1394` | 165 | Exported Function
+`IsAlpha` | 157 | Exported Function
+`IsNEC_98Server` | 181 | Exported Function
+`IsPreLonghornVdsVersion` | 188 | Exported Function
+`IsPostLonghornVdsVersion` | 186 | Exported Function
+`IsPersonalOrLapTopServer` | 185 | Exported Function
+`GetDiskCookies` | 69 | Exported Function
 `namecmp` | 233 | Exported Function
 `LoadPropertyPageData` | 201 | Exported Function
-`protected: void __thiscall CDataCache::GetDriveLetters(short &,unsigned short * *,unsigned short)` | 85 | Exported Function
-`public: __int64 __thiscall CDataCache::GetLastKnownState(__int64)` | 100 | Exported Function
-`protected: void __thiscall CDataCache::GetVolumeCookies(unsigned long &,long * *)` | 146 | Exported Function
-`protected: void __thiscall CDataCache::GetMinMaxPartitionSizes(long,__int64 &,__int64 &)` | 108 | Exported Function
+`GetDriveLetters` | 85 | Exported Function
+`GetLastKnownState` | 100 | Exported Function
+`GetVolumeCookies` | 146 | Exported Function
+`GetMinMaxPartitionSizes` | 108 | Exported Function
 `DllCanUnloadNow` | 230 | Exported Function
 `CookieSort` | 229 | Exported Function
 `CompareDiskNames` | 228 | Exported Function
@@ -186,79 +186,79 @@ Function Name | Ordinal | Type
 `IsRequestPending` | 190 | Exported Function
 `GetPropertyPageData` | 124 | Exported Function
 `DllRegisterServer` | 232 | Exported Function
-`public: __int64 __thiscall CDMNodeObj::GetLdmObjectId(void)` | 102 | Exported Function
-`public: class CDMNodeObj * __thiscall CDataCache::CreateRegionNodeObj(class CDMNodeObj *,struct regioninfoex *)` | 28 | Exported Function
-`public: class CDMNodeObj * __thiscall CDataCache::CreateNodeObjAndAddToMap(int,enum _NODEOBJ_TYPES,class CDataCache *,void *,__int64)` | 27 | Exported Function
-`public: class CDMComponentData * __thiscall CDataCache::GetComponentData(void)` | 64 | Exported Function
-`public: class CDMNodeObj * __thiscall CDMNodeObj::GetParentDiskPtr(void)` | 117 | Exported Function
-`public: class CDMNodeObj * __thiscall CTaskData::GetDMDataObjPtrFromId(__int64)` | 65 | Exported Function
-`public: class CDMNodeObj * __thiscall CDMNodeObj::GetRegionByOffset(__int64)` | 125 | Exported Function
-`public: class CDMNodeObj * __thiscall CDMNodeObj::GetParentVolumePtr(void)` | 118 | Exported Function
-`public: __int64 __thiscall CDMNodeObj::GetUnallocSpace(int)` | 144 | Exported Function
-`public: __int64 __thiscall CDMNodeObj::GetStartOffset(void)` | 139 | Exported Function
-`public: __int64 __thiscall CDMNodeObj::GetShrinkableSizeInMB(void)` | 135 | Exported Function
-`public: __int64 __thiscall CDMNodeObj::GetUsableContiguousSpaceInMB(void)` | 145 | Exported Function
+`GetLdmObjectId` | 102 | Exported Function
+`CreateRegionNodeObj` | 28 | Exported Function
+`CreateNodeObjAndAddToMap` | 27 | Exported Function
+`GetComponentData` | 64 | Exported Function
+`GetParentDiskPtr` | 117 | Exported Function
+`GetDMDataObjPtrFromId` | 65 | Exported Function
+`GetRegionByOffset` | 125 | Exported Function
+`GetParentVolumePtr` | 118 | Exported Function
+`GetUnallocSpace` | 144 | Exported Function
+`GetStartOffset` | 139 | Exported Function
+`GetShrinkableSizeInMB` | 135 | Exported Function
+`GetUsableContiguousSpaceInMB` | 145 | Exported Function
 `public: __thiscall CDMNodeObj::~CDMNodeObj(void)` | 2 | Exported Function
-`public: __thiscall CDataCache::CDataCache(void)` | 1 | Exported Function
-`public: __int64 __thiscall CDMNodeObj::GetVolumeTotalSizeMB(void)` | 151 | Exported Function
-`public: int __thiscall CDMNodeObj::IsFTVolume(void)` | 171 | Exported Function
-`public: int __thiscall CDMNodeObj::IsFreeSpaceFollowed(__int64)` | 174 | Exported Function
-`public: int __thiscall CDMNodeObj::IsFirstFreeRegion(void)` | 173 | Exported Function
-`public: int __thiscall CDMNodeObj::IsHiddenRegion(void)` | 175 | Exported Function
-`public: int __thiscall CDMNodeObj::IsMember(class CDMNodeObj *)` | 179 | Exported Function
-`public: int __thiscall CDMNodeObj::IsMbrEEPartition(void)` | 178 | Exported Function
-`public: int __thiscall CDMNodeObj::IsInFlux(void)` | 176 | Exported Function
-`public: int __thiscall CDMNodeObj::IsDiskOffline(void)` | 163 | Exported Function
-`public: int __thiscall CDMNodeObj::IsDiskEmpty(void)` | 162 | Exported Function
-`public: int __thiscall CDMNodeObj::IsCurrSystemVolume(void)` | 161 | Exported Function
-`public: int __thiscall CDMNodeObj::IsDiskReadOnly(void)` | 164 | Exported Function
-`public: int __thiscall CDMNodeObj::IsFakeVolume(void)` | 172 | Exported Function
-`public: int __thiscall CDMNodeObj::IsESPPartition(void)` | 167 | Exported Function
-`public: int __thiscall CDMNodeObj::IsEECoveredGPTDisk(void)` | 166 | Exported Function
-`public: int __thiscall CDMNodeObj::IsNEC_98Disk(void)` | 180 | Exported Function
-`public: int __thiscall CDMSnapin::GetResultPane(long,class CDMResultPane * *)` | 128 | Exported Function
-`public: int __thiscall CDMScopeNodeCollection::GetScopeNode(long,class CDMScopeNode * *)` | 130 | Exported Function
-`public: int __thiscall CDMNodeObj::VolumeContainsActiveRegion(void)` | 227 | Exported Function
-`public: int __thiscall CTaskData::FindFileSystem(__int64,struct filesysteminfo &)` | 56 | Exported Function
-`public: int __thiscall CTaskData::GetBootPort(void)` | 62 | Exported Function
-`public: int __thiscall CTaskData::GetAssignedDriveLetter(long,unsigned short &)` | 60 | Exported Function
-`public: int __thiscall CTaskData::FindRegionPtrFromRegionId(__int64,class CDMNodeObj * *)` | 58 | Exported Function
-`public: int __thiscall CDMNodeObj::IsSpacesProtectivePartition(void)` | 193 | Exported Function
-`public: int __thiscall CDMNodeObj::IsRevertable(void)` | 191 | Exported Function
-`public: int __thiscall CDMNodeObj::IsOemPartition(void)` | 184 | Exported Function
-`public: int __thiscall CDMNodeObj::IsUnknownPartition(void)` | 194 | Exported Function
-`public: int __thiscall CDMNodeObj::OnlyContiguousExtendAllowed(void)` | 204 | Exported Function
-`public: int __thiscall CDMNodeObj::IsVolumeSimple(void)` | 197 | Exported Function
-`public: int __thiscall CDMNodeObj::IsUpgradeable(void)` | 195 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsSystemInformation(void)` | 24 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsSubDiskNeedResync(void)` | 23 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsRealSystemPartition(void)` | 22 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsSystemPartition(void)` | 25 | Exported Function
-`public: int __thiscall CDMNodeObj::GetDiskSpec(struct diskspec &)` | 81 | Exported Function
-`public: int __thiscall CDMNodeObj::GetDiskInfo(struct diskinfoex &)` | 79 | Exported Function
-`public: int __thiscall CDMNodeObj::EnhancedIsUpgradeable(class CTaskData *)` | 39 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsBootVolumesNumberChange(__int64,int *)` | 17 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsBootIniPartitionForWolfpack(void)` | 16 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsBootIniPartition(void)` | 15 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsESPPartition(void)` | 18 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsPageFile(void)` | 21 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsLogicalDrvBootPartition(void)` | 20 | Exported Function
-`public: int __thiscall CDMNodeObj::ContainsFVEPartition(void)` | 19 | Exported Function
-`public: int __thiscall CDMNodeObj::GetDiskStatus(class CString &)` | 82 | Exported Function
-`public: int __thiscall CDMNodeObj::GetVolumeInfo(struct volumeinfo &)` | 149 | Exported Function
-`public: int __thiscall CDMNodeObj::GetStatus(void)` | 140 | Exported Function
-`public: int __thiscall CDMNodeObj::GetResultStringArray(class CStringArray &)` | 129 | Exported Function
-`public: int __thiscall CDMNodeObj::GetVolumeStatus(class CString &)` | 150 | Exported Function
-`public: int __thiscall CDMNodeObj::IsCurrBootVolume(void)` | 160 | Exported Function
-`public: int __thiscall CDMNodeObj::IsActive(void)` | 156 | Exported Function
-`public: int __thiscall CDMNodeObj::HasExtendedPartition(void)` | 152 | Exported Function
-`public: int __thiscall CDMNodeObj::GetImageNum(void)` | 99 | Exported Function
-`public: int __thiscall CDMNodeObj::GetFileSystemType(void)` | 92 | Exported Function
-`public: int __thiscall CDMNodeObj::GetExtraRegionStatus(class CString &,int)` | 88 | Exported Function
-`public: int __thiscall CDMNodeObj::GetOfflineReasonText(class CString &)` | 115 | Exported Function
-`public: int __thiscall CDMNodeObj::GetRegionInfo(struct regioninfoex &)` | 127 | Exported Function
-`public: int __thiscall CDMNodeObj::GetPort(void)` | 122 | Exported Function
-`public: int __thiscall CDMNodeObj::GetPatternRef(void)` | 121 | Exported Function
+`CDataCache` | 1 | Exported Function
+`GetVolumeTotalSizeMB` | 151 | Exported Function
+`IsFTVolume` | 171 | Exported Function
+`IsFreeSpaceFollowed` | 174 | Exported Function
+`IsFirstFreeRegion` | 173 | Exported Function
+`IsHiddenRegion` | 175 | Exported Function
+`IsMember` | 179 | Exported Function
+`IsMbrEEPartition` | 178 | Exported Function
+`IsInFlux` | 176 | Exported Function
+`IsDiskOffline` | 163 | Exported Function
+`IsDiskEmpty` | 162 | Exported Function
+`IsCurrSystemVolume` | 161 | Exported Function
+`IsDiskReadOnly` | 164 | Exported Function
+`IsFakeVolume` | 172 | Exported Function
+`IsESPPartition` | 167 | Exported Function
+`IsEECoveredGPTDisk` | 166 | Exported Function
+`IsNEC_98Disk` | 180 | Exported Function
+`GetResultPane` | 128 | Exported Function
+`GetScopeNode` | 130 | Exported Function
+`VolumeContainsActiveRegion` | 227 | Exported Function
+`FindFileSystem` | 56 | Exported Function
+`GetBootPort` | 62 | Exported Function
+`GetAssignedDriveLetter` | 60 | Exported Function
+`FindRegionPtrFromRegionId` | 58 | Exported Function
+`IsSpacesProtectivePartition` | 193 | Exported Function
+`IsRevertable` | 191 | Exported Function
+`IsOemPartition` | 184 | Exported Function
+`IsUnknownPartition` | 194 | Exported Function
+`OnlyContiguousExtendAllowed` | 204 | Exported Function
+`IsVolumeSimple` | 197 | Exported Function
+`IsUpgradeable` | 195 | Exported Function
+`ContainsSystemInformation` | 24 | Exported Function
+`ContainsSubDiskNeedResync` | 23 | Exported Function
+`ContainsRealSystemPartition` | 22 | Exported Function
+`ContainsSystemPartition` | 25 | Exported Function
+`GetDiskSpec` | 81 | Exported Function
+`GetDiskInfo` | 79 | Exported Function
+`EnhancedIsUpgradeable` | 39 | Exported Function
+`ContainsBootVolumesNumberChange` | 17 | Exported Function
+`ContainsBootIniPartitionForWolfpack` | 16 | Exported Function
+`ContainsBootIniPartition` | 15 | Exported Function
+`ContainsESPPartition` | 18 | Exported Function
+`ContainsPageFile` | 21 | Exported Function
+`ContainsLogicalDrvBootPartition` | 20 | Exported Function
+`ContainsFVEPartition` | 19 | Exported Function
+`GetDiskStatus` | 82 | Exported Function
+`GetVolumeInfo` | 149 | Exported Function
+`GetStatus` | 140 | Exported Function
+`GetResultStringArray` | 129 | Exported Function
+`GetVolumeStatus` | 150 | Exported Function
+`IsCurrBootVolume` | 160 | Exported Function
+`IsActive` | 156 | Exported Function
+`HasExtendedPartition` | 152 | Exported Function
+`GetImageNum` | 99 | Exported Function
+`GetFileSystemType` | 92 | Exported Function
+`GetExtraRegionStatus` | 88 | Exported Function
+`GetOfflineReasonText` | 115 | Exported Function
+`GetRegionInfo` | 127 | Exported Function
+`GetPort` | 122 | Exported Function
+`GetPatternRef` | 121 | Exported Function
 
 
 ## Signature

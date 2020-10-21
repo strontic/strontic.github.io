@@ -25,34 +25,34 @@ PE256 | `16E909C6DF96094BABE44533CCC5822C796DFA54F1224EE15E895DCC6A6A1E46`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddAttributeTextSelecter(unsigned int,class AT::CStringT const &,class AT::CStringT *)` | 10 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddAttributeTextSelecter(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)` | 9 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddNodeEventListener(unsigned int,class AT::CStringT const &)` | 12 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddAttributeEventListener(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 7 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnStartNodeListEvent(unsigned int)` | 24 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::``default constructor closure'(void)` | 6 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddAttributeEventListener(unsigned int,class AT::CStringT const &)` | 8 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddTextSelecter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)` | 15 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::Create(wchar_t const *)` | 17 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::ParseXmlInResource(struct HINSTANCE__ *,unsigned int)` | 27 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddTextSelecter(class AT::CStringT const &,class AT::CStringT *)` | 16 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddNodeEventListener(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 11 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddNodeListEventListener(unsigned int,class AT::CStringT const &)` | 14 | Exported Function
-`public: void __thiscall LIBXML_EX::CXMLHandler::AddNodeListEventListener(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 13 | Exported Function
-`public: int __thiscall LIBXML_EX::CXMLHandler::ParseXML(class AT::CStringT const &)` | 25 | Exported Function
-`public: int __thiscall LIBXML_EX::CXMLHandler::ParseXMLFile(class AT::CStringT)` | 26 | Exported Function
-`public: int __thiscall LIBXML_EX::CXMLHandler::ParseXmlUtf8(char const *,int)` | 28 | Exported Function
-`public: class LIBXML_EX::CXMLHandler & __thiscall LIBXML_EX::CXMLHandler::operator=(class LIBXML_EX::CXMLHandler const &)` | 4 | Exported Function
-`const LIBXML_EX::CXMLHandler::``vftable'` | 5 | Exported Function
-`public: __thiscall LIBXML_EX::CXMLHandler::CXMLHandler(class LIBXML_EX::CXMLHandler const &)` | 1 | Exported Function
-`public: __thiscall LIBXML_EX::CXMLHandler::CXMLHandler(wchar_t const *)` | 2 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnEndParse(void)` | 21 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnStartAttributeEvent(unsigned int)` | 22 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnStartNodeEvent(unsigned int)` | 23 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnEndNodeListEvent(unsigned int)` | 20 | Exported Function
-`public: virtual __thiscall LIBXML_EX::CXMLHandler::~CXMLHandler(void)` | 3 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnEndAttributeEvent(unsigned int)` | 18 | Exported Function
-`public: virtual void __thiscall LIBXML_EX::CXMLHandler::OnEndNodeEvent(unsigned int)` | 19 | Exported Function
+`CStringT` | 10 | Exported Function
+`allocator` | 9 | Exported Function
+`CStringT` | 12 | Exported Function
+`allocator` | 7 | Exported Function
+`OnStartNodeListEvent` | 24 | Exported Function
+`CXMLHandler` | 6 | Exported Function
+`CStringT` | 8 | Exported Function
+`allocator` | 15 | Exported Function
+`Create` | 17 | Exported Function
+`ParseXmlInResource` | 27 | Exported Function
+`CStringT` | 16 | Exported Function
+`allocator` | 11 | Exported Function
+`CStringT` | 14 | Exported Function
+`allocator` | 13 | Exported Function
+`CStringT` | 25 | Exported Function
+`CStringT` | 26 | Exported Function
+`ParseXmlUtf8` | 28 | Exported Function
+`CXMLHandler` | 4 | Exported Function
+`CXMLHandler` | 5 | Exported Function
+`CXMLHandler` | 1 | Exported Function
+`CXMLHandler` | 2 | Exported Function
+`OnEndParse` | 21 | Exported Function
+`OnStartAttributeEvent` | 22 | Exported Function
+`OnStartNodeEvent` | 23 | Exported Function
+`OnEndNodeListEvent` | 20 | Exported Function
+`CXMLHandler` | 3 | Exported Function
+`OnEndAttributeEvent` | 18 | Exported Function
+`OnEndNodeEvent` | 19 | Exported Function
 
 
 ## Signature

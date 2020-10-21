@@ -43,6 +43,7 @@ SSDEEP | `6144:DcuofCPuZTuDH4SSIs00Tly7UEwqY/W5R02qO7VKCyWQp:DBoanYlT4wq3nyR`
 File | Score
 -- | --
 [C:\WINDOWS\system32\slui.exe](slui.exe-0A26DC4E016E6614991E26CE20DC9466.md) | 41
+[C:\Windows\system32\slui.exe](slui.exe-10B472E52F5F0592076D7E093858A2C3.md) | 55
 [C:\windows\system32\slui.exe](slui.exe-2D8FD9EC935EE270744B5F13F881D16E.md) | 54
 [C:\Windows\system32\slui.exe](slui.exe-68974B8AD1EE9B8F59E93A799474A339.md) | 55
 [C:\Windows\system32\slui.exe](slui.exe-CAF88C49F33FA27D956BC728A041346D.md) | 55

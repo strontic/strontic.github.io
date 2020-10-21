@@ -57,6 +57,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\rsopprov.exe](rsopprov.exe-059D642ED9005D1DC83BBFC217D71644.md) | 47
 [C:\windows\SysWOW64\rsopprov.exe](rsopprov.exe-94E579E399CF030EE23DD9B1A3CC1D8E.md) | 40
+[C:\Windows\SysWOW64\rsopprov.exe](rsopprov.exe-CF2CCD5FEF4CADD5933BBC011B5F6404.md) | 50
 
 
 

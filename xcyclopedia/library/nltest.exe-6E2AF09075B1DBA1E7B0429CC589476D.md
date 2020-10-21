@@ -106,6 +106,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\nltest.exe](nltest.exe-13CD652E2687C1B24DADC5FD219B0084.md) | 55
 [C:\Windows\SysWOW64\nltest.exe](nltest.exe-6201C092902FBBD5F53D3292C6A0130E.md) | 49
+[C:\Windows\SysWOW64\nltest.exe](nltest.exe-F501EFB48F9A5B14626726FE29CD27F9.md) | 54
 
 ## Possible Misuse
 

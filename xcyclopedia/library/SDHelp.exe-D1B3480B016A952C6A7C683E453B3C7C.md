@@ -7,6 +7,10 @@ excerpt: What is SDHelp.exe?
 
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHelp.exe`
 
+## Screenshot
+
+![SDHelp.exe](screenshots/SDHelp.exe-D1B3480B016A952C6A7C683E453B3C7C-1.png)
+
 ## Hashes
 
 Type | Hash

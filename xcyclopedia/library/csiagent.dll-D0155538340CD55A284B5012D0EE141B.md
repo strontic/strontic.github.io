@@ -26,203 +26,203 @@ PE256 | `3C8037F98ECD1B091E433B4E413340BE00449F62BA8A01581F21908819E28A5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: int __cdecl Mig::CReplManData::get_Processed(void) __ptr64` | 188 | Exported Function
-`public: int __cdecl Mig::CComponentState::get_Hidden(void) __ptr64` | 178 | Exported Function
-`public: class UnBCL::XmlDocument * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::Steal(void) __ptr64` | 162 | Exported Function
-`public: struct Mig::IManifestParser & __ptr64 __cdecl Mig::IManifestParser::operator=(struct Mig::IManifestParser && __ptr64) __ptr64` | 91 | Exported Function
-`public: struct Mig::IManifestEnumerator & __ptr64 __cdecl Mig::IManifestEnumerator::operator=(struct Mig::IManifestEnumerator const & __ptr64) __ptr64` | 90 | Exported Function
-`public: struct Mig::IManifestEnumerator & __ptr64 __cdecl Mig::IManifestEnumerator::operator=(struct Mig::IManifestEnumerator && __ptr64) __ptr64` | 89 | Exported Function
-`public: class UnBCL::XmlDocument & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::operator*(void)const __ptr64` | 104 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_VersionRange(void) __ptr64` | 192 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_Version(void) __ptr64` | 191 | Exported Function
-`public: class UnBCL::XmlDocument * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::operator->(void)const __ptr64` | 102 | Exported Function
-`public: class UnBCL::XmlDocument * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::get_P(void)const __ptr64` | 187 | Exported Function
-`public: class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CReplManData::get_Content(void) __ptr64` | 172 | Exported Function
-`public: virtual __cdecl Mig::CDirManifestEnumerator::~CDirManifestEnumerator(void) __ptr64` | 55 | Exported Function
-`public: virtual __cdecl Mig::CCSIAgent::~CCSIAgent(void) __ptr64` | 52 | Exported Function
-`public: virtual __cdecl Mig::CComponentState::~CComponentState(void) __ptr64` | 54 | Exported Function
-`public: virtual __cdecl Mig::CListManifestEnumerator::~CListManifestEnumerator(void) __ptr64` | 58 | Exported Function
-`public: virtual __cdecl Mig::CInstalledManifestEnumerator::~CInstalledManifestEnumerator(void) __ptr64` | 57 | Exported Function
-`public: virtual __cdecl Mig::CDllManifestParser::~CDllManifestParser(void) __ptr64` | 56 | Exported Function
-`public: struct Mig::IManifestSourceFactory & __ptr64 __cdecl Mig::IManifestSourceFactory::operator=(struct Mig::IManifestSourceFactory const & __ptr64) __ptr64` | 94 | Exported Function
-`public: struct Mig::IManifestSourceFactory & __ptr64 __cdecl Mig::IManifestSourceFactory::operator=(struct Mig::IManifestSourceFactory && __ptr64) __ptr64` | 93 | Exported Function
-`public: struct Mig::IManifestParser & __ptr64 __cdecl Mig::IManifestParser::operator=(struct Mig::IManifestParser const & __ptr64) __ptr64` | 92 | Exported Function
-`public: virtual __cdecl Mig::CComponentBuilder::~CComponentBuilder(void) __ptr64` | 53 | Exported Function
-`public: struct Mig::IResourceLocator & __ptr64 __cdecl Mig::IResourceLocator::operator=(struct Mig::IResourceLocator const & __ptr64) __ptr64` | 96 | Exported Function
-`public: struct Mig::IResourceLocator & __ptr64 __cdecl Mig::IResourceLocator::operator=(struct Mig::IResourceLocator && __ptr64) __ptr64` | 95 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_SettingsVersionRange(void) __ptr64` | 190 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::get_P(void)const __ptr64` | 186 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::operator*(void)const __ptr64` | 103 | Exported Function
-`public: class Mig::CResourceLocator & __ptr64 __cdecl Mig::CResourceLocator::operator=(class Mig::CResourceLocator const & __ptr64) __ptr64` | 88 | Exported Function
-`public: class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __cdecl Mig::CComponentState::get_DisplayStringTable(void) __ptr64` | 177 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::Steal(void) __ptr64` | 161 | Exported Function
-`public: class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::operator->(void)const __ptr64` | 101 | Exported Function
-`public: class Mig::CReplManData & __ptr64 __cdecl Mig::CReplManData::operator=(class Mig::CReplManData const & __ptr64) __ptr64` | 84 | Exported Function
-`public: class Mig::CReplManData & __ptr64 __cdecl Mig::CReplManData::operator=(class Mig::CReplManData && __ptr64) __ptr64` | 83 | Exported Function
-`public: class Mig::CMigUnitListGenerator & __ptr64 __cdecl Mig::CMigUnitListGenerator::operator=(class Mig::CMigUnitListGenerator const & __ptr64) __ptr64` | 82 | Exported Function
-`public: class Mig::CResourceLocator & __ptr64 __cdecl Mig::CResourceLocator::operator=(class Mig::CResourceLocator && __ptr64) __ptr64` | 87 | Exported Function
-`public: class Mig::CReplManifestSourceFactory & __ptr64 __cdecl Mig::CReplManifestSourceFactory::operator=(class Mig::CReplManifestSourceFactory const & __ptr64) __ptr64` | 86 | Exported Function
-`public: class Mig::CReplManifestSourceFactory & __ptr64 __cdecl Mig::CReplManifestSourceFactory::operator=(class Mig::CReplManifestSourceFactory && __ptr64) __ptr64` | 85 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_BasePath(void) __ptr64` | 168 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_AlwaysProcessRange(void) __ptr64` | 163 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CComponentState::get_MigXmlID(void) __ptr64` | 184 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_ReplacementVersion(void) __ptr64` | 189 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_Name(void) __ptr64` | 185 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CReplManData::get_ManifestFile(void) __ptr64` | 183 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::XmlDocument> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::Nullify(void) __ptr64` | 155 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::operator=(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> > const & __ptr64) __ptr64` | 69 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::Nullify(void) __ptr64` | 154 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CComponentState::get_DisplayID(void) __ptr64` | 176 | Exported Function
-`public: class UnBCL::String * __ptr64 __cdecl Mig::CComponentState::get_BasePath(void) __ptr64` | 164 | Exported Function
-`public: class UnBCL::SmartPtr<class UnBCL::XmlDocument> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::operator=(class UnBCL::SmartPtr<class UnBCL::XmlDocument> const & __ptr64) __ptr64` | 70 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::AddApplyInfo(class Mig::CMigUnit * __ptr64) __ptr64` | 123 | Exported Function
-`public: virtual struct Mig::IManifestEnumerator * __ptr64 __cdecl Mig::CManifestSource::get_ManifestEnumerator(void) __ptr64` | 179 | Exported Function
-`public: virtual int __cdecl Mig::CListManifestEnumerator::MoveNext(struct ICancelable * __ptr64) __ptr64` | 153 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::Done(int) __ptr64` | 141 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::AdjustRules(class Mig::CMigUnit * __ptr64,class Mig::CMigUnit * __ptr64) __ptr64` | 126 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::AddGatherInfo(class Mig::CMigUnit * __ptr64,struct ICancelable * __ptr64) __ptr64` | 124 | Exported Function
-`public: virtual class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CListManifestEnumerator::get_Current(void) __ptr64` | 175 | Exported Function
-`public: virtual class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CListManifestEnumerator::get_ClonedCurrent(void) __ptr64` | 171 | Exported Function
-`public: virtual class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CInstalledManifestEnumerator::get_Current(void) __ptr64` | 174 | Exported Function
-`public: virtual int __cdecl Mig::CInstalledManifestEnumerator::MoveNext(struct ICancelable * __ptr64) __ptr64` | 152 | Exported Function
-`public: virtual int __cdecl Mig::CDllManifestParser::Parse(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::MutableString * __ptr64) __ptr64` | 156 | Exported Function
-`public: virtual int __cdecl Mig::CDirManifestEnumerator::MoveNext(struct ICancelable * __ptr64) __ptr64` | 151 | Exported Function
-`public: void __cdecl Mig::CComponentState::set_Hidden(int) __ptr64` | 195 | Exported Function
-`public: void __cdecl Mig::CComponentState::set_DisplayStringTable(class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 194 | Exported Function
-`public: void __cdecl Mig::CComponentState::set_DisplayID(class UnBCL::String * __ptr64) __ptr64` | 193 | Exported Function
-`public: void __cdecl Mig::CReplManData::set_Processed(int) __ptr64` | 197 | Exported Function
-`public: void __cdecl Mig::CCSIAgent::``vbase destructor'(void) __ptr64` | 122 | Exported Function
-`public: void __cdecl Mig::CComponentState::set_MigXmlID(class UnBCL::String * __ptr64) __ptr64` | 196 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::InitApply(class Mig::CPlatform * __ptr64,class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 148 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64,struct Mig::IManifestSourceFactory * __ptr64,struct Mig::IManifestSourceFactory * __ptr64) __ptr64` | 147 | Exported Function
-`public: virtual void __cdecl Mig::CCSIAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 146 | Exported Function
-`public: virtual void __cdecl Mig::CListManifestEnumerator::Reset(void) __ptr64` | 160 | Exported Function
-`public: virtual void __cdecl Mig::CInstalledManifestEnumerator::Reset(void) __ptr64` | 159 | Exported Function
-`public: virtual void __cdecl Mig::CDirManifestEnumerator::Reset(void) __ptr64` | 158 | Exported Function
-`public: virtual class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CInstalledManifestEnumerator::get_ClonedCurrent(void) __ptr64` | 170 | Exported Function
-`public: virtual __cdecl Mig::IManifestSourceFactory::~IManifestSourceFactory(void) __ptr64` | 67 | Exported Function
-`public: virtual __cdecl Mig::IManifestParser::~IManifestParser(void) __ptr64` | 66 | Exported Function
-`public: virtual __cdecl Mig::IManifestEnumerator::~IManifestEnumerator(void) __ptr64` | 65 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::~SmartPtr<class UnBCL::XmlDocument>(void) __ptr64` | 51 | Exported Function
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::~SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >(void) __ptr64` | 50 | Exported Function
-`public: virtual __cdecl Mig::IResourceLocator::~IResourceLocator(void) __ptr64` | 68 | Exported Function
-`public: virtual __cdecl Mig::CMigUnitListGenerator::~CMigUnitListGenerator(void) __ptr64` | 61 | Exported Function
-`public: virtual __cdecl Mig::CManifestSourceFactory::~CManifestSourceFactory(void) __ptr64` | 60 | Exported Function
-`public: virtual __cdecl Mig::CManifestSource::~CManifestSource(void) __ptr64` | 59 | Exported Function
-`public: virtual __cdecl Mig::CResourceLocator::~CResourceLocator(void) __ptr64` | 64 | Exported Function
-`public: virtual __cdecl Mig::CReplManifestSourceFactory::~CReplManifestSourceFactory(void) __ptr64` | 63 | Exported Function
-`public: virtual __cdecl Mig::CReplManData::~CReplManData(void) __ptr64` | 62 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CListManifestEnumerator::get_ManifestFile(void) __ptr64` | 182 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CListManifestEnumerator::get_BasePath(void) __ptr64` | 167 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CInstalledManifestEnumerator::get_ManifestFile(void) __ptr64` | 181 | Exported Function
-`public: virtual class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CDirManifestEnumerator::get_Current(void) __ptr64` | 173 | Exported Function
-`public: virtual class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CDirManifestEnumerator::get_ClonedCurrent(void) __ptr64` | 169 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CResourceLocator::GetResourceString(class UnBCL::String * __ptr64) __ptr64` | 145 | Exported Function
-`public: virtual class UnBCL::ArrayList<class Mig::CManifestSource * __ptr64> * __ptr64 __cdecl Mig::CReplManifestSourceFactory::CreateManifestSources(class Mig::CPlatform * __ptr64) __ptr64` | 137 | Exported Function
-`public: virtual class UnBCL::ArrayList<class Mig::CManifestSource * __ptr64> * __ptr64 __cdecl Mig::CManifestSourceFactory::CreateManifestSources(class Mig::CPlatform * __ptr64) __ptr64` | 136 | Exported Function
-`public: virtual class Mig::CMigUnitList * __ptr64 __cdecl Mig::CCSIAgent::Detect(class Mig::CUserContext * __ptr64,struct ICancelable * __ptr64) __ptr64` | 140 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CInstalledManifestEnumerator::get_BasePath(void) __ptr64` | 166 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CDirManifestEnumerator::get_ManifestFile(void) __ptr64` | 180 | Exported Function
-`public: virtual class UnBCL::String * __ptr64 __cdecl Mig::CDirManifestEnumerator::get_BasePath(void) __ptr64` | 165 | Exported Function
-`public: class Mig::CMigUnitList * __ptr64 __cdecl Mig::CMigUnitListGenerator::GenerateMigUnitList(class Mig::CUserContext * __ptr64,struct ICancelable * __ptr64) __ptr64` | 144 | Exported Function
-`public: __cdecl Mig::CComponentBuilder::CComponentBuilder(class Mig::CComponentBuilder const & __ptr64) __ptr64` | 10 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::DeAssign(void) __ptr64` | 139 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::Assign(class UnBCL::XmlDocument * __ptr64) __ptr64` | 130 | Exported Function
-`public: __cdecl Mig::CComponentState::CComponentState(class UnBCL::String * __ptr64) __ptr64` | 13 | Exported Function
-`public: __cdecl Mig::CComponentState::CComponentState(class Mig::CComponentState const & __ptr64) __ptr64` | 12 | Exported Function
-`public: __cdecl Mig::CComponentBuilder::CComponentBuilder(struct Mig::IResourceLocator * __ptr64,class UnBCL::String * __ptr64,struct Mig::IManifestParser * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,int) __ptr64` | 11 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::Assign(class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> * __ptr64) __ptr64` | 128 | Exported Function
-`private: void __cdecl Mig::CMigUnitListGenerator::BuildGlobalDisplayTable(void) __ptr64` | 134 | Exported Function
-`private: void __cdecl Mig::CMigUnitListGenerator::AddMigUnit(class UnBCL::String * __ptr64,class Mig::CUserContext * __ptr64,class Mig::CMigUnitList * __ptr64,class Mig::CMigUnitID * __ptr64,int) __ptr64` | 125 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::Assign(class UnBCL::SmartPtr<class UnBCL::XmlDocument> const & __ptr64) __ptr64` | 129 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::DeAssign(void) __ptr64` | 138 | Exported Function
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::Assign(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> > const & __ptr64) __ptr64` | 127 | Exported Function
-`public: __cdecl Mig::CInstalledManifestEnumerator::CInstalledManifestEnumerator(class Mig::CPlatform * __ptr64) __ptr64` | 19 | Exported Function
-`public: __cdecl Mig::CInstalledManifestEnumerator::CInstalledManifestEnumerator(class Mig::CInstalledManifestEnumerator const & __ptr64) __ptr64` | 18 | Exported Function
-`public: __cdecl Mig::CDllManifestParser::CDllManifestParser(class UnBCL::String * __ptr64) __ptr64` | 17 | Exported Function
-`public: __cdecl Mig::CManifestSource::CManifestSource(class Mig::CManifestSource const & __ptr64) __ptr64` | 22 | Exported Function
-`public: __cdecl Mig::CListManifestEnumerator::CListManifestEnumerator(class UnBCL::String * __ptr64) __ptr64` | 21 | Exported Function
-`public: __cdecl Mig::CListManifestEnumerator::CListManifestEnumerator(class Mig::CListManifestEnumerator const & __ptr64) __ptr64` | 20 | Exported Function
-`public: __cdecl Mig::CCSIAgent::CCSIAgent(class UnBCL::String * __ptr64) __ptr64` | 9 | Exported Function
-`public: __cdecl Mig::CCSIAgent::CCSIAgent(class Mig::CCSIAgent const & __ptr64) __ptr64` | 8 | Exported Function
-`public: __cdecl Mig::CCSIAgent::CCSIAgent(class Mig::CCSIAgent && __ptr64) __ptr64` | 7 | Exported Function
-`public: __cdecl Mig::CDllManifestParser::CDllManifestParser(class Mig::CDllManifestParser const & __ptr64) __ptr64` | 16 | Exported Function
-`public: __cdecl Mig::CDirManifestEnumerator::CDirManifestEnumerator(class UnBCL::String * __ptr64) __ptr64` | 15 | Exported Function
-`public: __cdecl Mig::CDirManifestEnumerator::CDirManifestEnumerator(class Mig::CDirManifestEnumerator const & __ptr64) __ptr64` | 14 | Exported Function
-`private: int __cdecl Mig::CComponentBuilder::FilterByArchitecture(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64,class Mig::CComponentState * __ptr64) __ptr64` | 142 | Exported Function
-`const Mig::CListManifestEnumerator::``vftable'` | 114 | Exported Function
-`const Mig::CInstalledManifestEnumerator::``vftable'` | 113 | Exported Function
-`const Mig::CDllManifestParser::``vftable'` | 112 | Exported Function
-`const Mig::CMigUnitListGenerator::``vftable'` | 117 | Exported Function
-`const Mig::CManifestSourceFactory::``vftable'` | 116 | Exported Function
-`const Mig::CManifestSource::``vftable'` | 115 | Exported Function
-`const Mig::CCSIAgent::``vbtable'` | 121 | Exported Function
-`const Mig::CComponentState::``vftable'` | 110 | Exported Function
-`const Mig::CComponentBuilder::``vftable'` | 109 | Exported Function
-`const Mig::CDirManifestEnumerator::``vftable'` | 111 | Exported Function
-`const Mig::CCSIAgent::``vftable'{for ``Mig::CCSIAgent'}` | 107 | Exported Function
-`const Mig::CCSIAgent::``vftable'{for ``Mig::CAgent'}` | 108 | Exported Function
-`private: class UnBCL::XmlDocument * __ptr64 __cdecl Mig::CCSIAgent::FindReplacementManifest(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64 * __ptr64,class UnBCL::String * __ptr64 * __ptr64) __ptr64` | 143 | Exported Function
-`private: class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::ArrayList<class Mig::CReplManData * __ptr64> * __ptr64> * __ptr64 __cdecl Mig::CCSIAgent::LoadReplacementManifests(void) __ptr64` | 150 | Exported Function
-`private: class Mig::CMigUnitID * __ptr64 __cdecl Mig::CMigUnitListGenerator::ProcessContainer(class UnBCL::String * __ptr64,class Mig::CUserContext * __ptr64,class UnBCL::Hashtable<class UnBCL::String * __ptr64,class Mig::CMigUnit * __ptr64> * __ptr64) __ptr64` | 157 | Exported Function
-`private: int __cdecl Mig::CComponentBuilder::BuildMigXmlID(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64,class Mig::CComponentState * __ptr64) __ptr64` | 135 | Exported Function
-`private: int __cdecl Mig::CComponentBuilder::BuildDisplayStringTable(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64,class Mig::CComponentState * __ptr64) __ptr64` | 133 | Exported Function
-`private: int __cdecl Mig::CComponentBuilder::BuildDisplayID(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64,class Mig::CComponentState * __ptr64) __ptr64` | 132 | Exported Function
-`const Mig::CResourceLocator::``vftable'` | 120 | Exported Function
-`const Mig::CReplManifestSourceFactory::``vftable'` | 119 | Exported Function
-`const Mig::CReplManData::``vftable'` | 118 | Exported Function
+`get_Processed` | 188 | Exported Function
+`get_Hidden` | 178 | Exported Function
+`Steal` | 162 | Exported Function
+`IManifestParser` | 91 | Exported Function
+`IManifestEnumerator` | 90 | Exported Function
+`IManifestEnumerator` | 89 | Exported Function
+`operator` | 104 | Exported Function
+`get_VersionRange` | 192 | Exported Function
+`get_Version` | 191 | Exported Function
+`operator` | 102 | Exported Function
+`get_P` | 187 | Exported Function
+`get_Content` | 172 | Exported Function
+`CDirManifestEnumerator` | 55 | Exported Function
+`CCSIAgent` | 52 | Exported Function
+`CComponentState` | 54 | Exported Function
+`CListManifestEnumerator` | 58 | Exported Function
+`CInstalledManifestEnumerator` | 57 | Exported Function
+`CDllManifestParser` | 56 | Exported Function
+`IManifestSourceFactory` | 94 | Exported Function
+`IManifestSourceFactory` | 93 | Exported Function
+`IManifestParser` | 92 | Exported Function
+`CComponentBuilder` | 53 | Exported Function
+`IResourceLocator` | 96 | Exported Function
+`IResourceLocator` | 95 | Exported Function
+`get_SettingsVersionRange` | 190 | Exported Function
+`get_P` | 186 | Exported Function
+`operator` | 103 | Exported Function
+`CResourceLocator` | 88 | Exported Function
+`get_DisplayStringTable` | 177 | Exported Function
+`Steal` | 161 | Exported Function
+`operator` | 101 | Exported Function
+`CReplManData` | 84 | Exported Function
+`CReplManData` | 83 | Exported Function
+`CMigUnitListGenerator` | 82 | Exported Function
+`CResourceLocator` | 87 | Exported Function
+`CReplManifestSourceFactory` | 86 | Exported Function
+`CReplManifestSourceFactory` | 85 | Exported Function
+`get_BasePath` | 168 | Exported Function
+`get_AlwaysProcessRange` | 163 | Exported Function
+`get_MigXmlID` | 184 | Exported Function
+`get_ReplacementVersion` | 189 | Exported Function
+`get_Name` | 185 | Exported Function
+`get_ManifestFile` | 183 | Exported Function
+`Nullify` | 155 | Exported Function
+`String` | 69 | Exported Function
+`Nullify` | 154 | Exported Function
+`get_DisplayID` | 176 | Exported Function
+`get_BasePath` | 164 | Exported Function
+`XmlDocument` | 70 | Exported Function
+`CMigUnit` | 123 | Exported Function
+`get_ManifestEnumerator` | 179 | Exported Function
+`MoveNext` | 153 | Exported Function
+`Done` | 141 | Exported Function
+`CMigUnit` | 126 | Exported Function
+`CMigUnit` | 124 | Exported Function
+`get_Current` | 175 | Exported Function
+`get_ClonedCurrent` | 171 | Exported Function
+`get_Current` | 174 | Exported Function
+`MoveNext` | 152 | Exported Function
+`MutableString` | 156 | Exported Function
+`MoveNext` | 151 | Exported Function
+`set_Hidden` | 195 | Exported Function
+`String` | 194 | Exported Function
+`String` | 193 | Exported Function
+`set_Processed` | 197 | Exported Function
+`CCSIAgent` | 122 | Exported Function
+`String` | 196 | Exported Function
+`String` | 148 | Exported Function
+`IManifestSourceFactory` | 147 | Exported Function
+`String` | 146 | Exported Function
+`Reset` | 160 | Exported Function
+`Reset` | 159 | Exported Function
+`Reset` | 158 | Exported Function
+`get_ClonedCurrent` | 170 | Exported Function
+`IManifestSourceFactory` | 67 | Exported Function
+`IManifestParser` | 66 | Exported Function
+`IManifestEnumerator` | 65 | Exported Function
+`XmlDocument` | 51 | Exported Function
+`String` | 50 | Exported Function
+`IResourceLocator` | 68 | Exported Function
+`CMigUnitListGenerator` | 61 | Exported Function
+`CManifestSourceFactory` | 60 | Exported Function
+`CManifestSource` | 59 | Exported Function
+`CResourceLocator` | 64 | Exported Function
+`CReplManifestSourceFactory` | 63 | Exported Function
+`CReplManData` | 62 | Exported Function
+`get_ManifestFile` | 182 | Exported Function
+`get_BasePath` | 167 | Exported Function
+`get_ManifestFile` | 181 | Exported Function
+`get_Current` | 173 | Exported Function
+`get_ClonedCurrent` | 169 | Exported Function
+`String` | 145 | Exported Function
+`CPlatform` | 137 | Exported Function
+`CPlatform` | 136 | Exported Function
+`CUserContext` | 140 | Exported Function
+`get_BasePath` | 166 | Exported Function
+`get_ManifestFile` | 180 | Exported Function
+`get_BasePath` | 165 | Exported Function
+`CUserContext` | 144 | Exported Function
+`CComponentBuilder` | 10 | Exported Function
+`DeAssign` | 139 | Exported Function
+`XmlDocument` | 130 | Exported Function
+`String` | 13 | Exported Function
+`CComponentState` | 12 | Exported Function
+`String` | 11 | Exported Function
+`String` | 128 | Exported Function
+`BuildGlobalDisplayTable` | 134 | Exported Function
+`CMigUnitID` | 125 | Exported Function
+`XmlDocument` | 129 | Exported Function
+`DeAssign` | 138 | Exported Function
+`String` | 127 | Exported Function
+`CPlatform` | 19 | Exported Function
+`CInstalledManifestEnumerator` | 18 | Exported Function
+`String` | 17 | Exported Function
+`CManifestSource` | 22 | Exported Function
+`String` | 21 | Exported Function
+`CListManifestEnumerator` | 20 | Exported Function
+`String` | 9 | Exported Function
+`CCSIAgent` | 8 | Exported Function
+`CCSIAgent` | 7 | Exported Function
+`CDllManifestParser` | 16 | Exported Function
+`String` | 15 | Exported Function
+`CDirManifestEnumerator` | 14 | Exported Function
+`CComponentState` | 142 | Exported Function
+`CListManifestEnumerator` | 114 | Exported Function
+`CInstalledManifestEnumerator` | 113 | Exported Function
+`CDllManifestParser` | 112 | Exported Function
+`CMigUnitListGenerator` | 117 | Exported Function
+`CManifestSourceFactory` | 116 | Exported Function
+`CManifestSource` | 115 | Exported Function
+`CCSIAgent` | 121 | Exported Function
+`CComponentState` | 110 | Exported Function
+`CComponentBuilder` | 109 | Exported Function
+`CDirManifestEnumerator` | 111 | Exported Function
+`CCSIAgent` | 107 | Exported Function
+`CAgent` | 108 | Exported Function
+`String` | 143 | Exported Function
+`LoadReplacementManifests` | 150 | Exported Function
+`CMigUnit` | 157 | Exported Function
+`CComponentState` | 135 | Exported Function
+`CComponentState` | 133 | Exported Function
+`CComponentState` | 132 | Exported Function
+`CResourceLocator` | 120 | Exported Function
+`CReplManifestSourceFactory` | 119 | Exported Function
+`CReplManData` | 118 | Exported Function
 `LoadAgent` | 149 | Exported Function
-`const UnBCL::SmartPtr<class UnBCL::XmlDocument>::``vftable'` | 106 | Exported Function
-`const UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::``vftable'` | 105 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::SmartPtr<class UnBCL::XmlDocument>(class UnBCL::XmlDocument * __ptr64) __ptr64` | 5 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::SmartPtr<class UnBCL::XmlDocument>(class UnBCL::SmartPtr<class UnBCL::XmlDocument> const & __ptr64) __ptr64` | 4 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::operator class UnBCL::SmartPtr<class UnBCL::XmlDocument>::NullTest * __ptr64(void)const __ptr64` | 100 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::operator!(void)const __ptr64` | 98 | Exported Function
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::operator!(void)const __ptr64` | 97 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlDocument>::SmartPtr<class UnBCL::XmlDocument>(void) __ptr64` | 6 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::operator class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::NullTest * __ptr64(void)const __ptr64` | 99 | Exported Function
-`public: __cdecl Mig::IResourceLocator::IResourceLocator(void) __ptr64` | 49 | Exported Function
-`public: __cdecl Mig::IResourceLocator::IResourceLocator(struct Mig::IResourceLocator const & __ptr64) __ptr64` | 48 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >(void) __ptr64` | 3 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> > const & __ptr64) __ptr64` | 1 | Exported Function
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> >(class UnBCL::ArrayList<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64> * __ptr64) __ptr64` | 2 | Exported Function
-`public: class Mig::CListManifestEnumerator & __ptr64 __cdecl Mig::CListManifestEnumerator::operator=(class Mig::CListManifestEnumerator const & __ptr64) __ptr64` | 78 | Exported Function
-`public: class Mig::CInstalledManifestEnumerator & __ptr64 __cdecl Mig::CInstalledManifestEnumerator::operator=(class Mig::CInstalledManifestEnumerator const & __ptr64) __ptr64` | 77 | Exported Function
-`public: class Mig::CDllManifestParser & __ptr64 __cdecl Mig::CDllManifestParser::operator=(class Mig::CDllManifestParser const & __ptr64) __ptr64` | 76 | Exported Function
-`public: class Mig::CManifestSourceFactory & __ptr64 __cdecl Mig::CManifestSourceFactory::operator=(class Mig::CManifestSourceFactory const & __ptr64) __ptr64` | 81 | Exported Function
-`public: class Mig::CManifestSourceFactory & __ptr64 __cdecl Mig::CManifestSourceFactory::operator=(class Mig::CManifestSourceFactory && __ptr64) __ptr64` | 80 | Exported Function
-`public: class Mig::CManifestSource & __ptr64 __cdecl Mig::CManifestSource::operator=(class Mig::CManifestSource const & __ptr64) __ptr64` | 79 | Exported Function
-`public: class Mig::CComponentState * __ptr64 __cdecl Mig::CComponentBuilder::BuildComponentState(class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64,class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 131 | Exported Function
-`public: class Mig::CComponentState & __ptr64 __cdecl Mig::CComponentState::operator=(class Mig::CComponentState const & __ptr64) __ptr64` | 74 | Exported Function
-`public: class Mig::CComponentBuilder & __ptr64 __cdecl Mig::CComponentBuilder::operator=(class Mig::CComponentBuilder const & __ptr64) __ptr64` | 73 | Exported Function
-`public: class Mig::CDirManifestEnumerator & __ptr64 __cdecl Mig::CDirManifestEnumerator::operator=(class Mig::CDirManifestEnumerator const & __ptr64) __ptr64` | 75 | Exported Function
-`public: class Mig::CCSIAgent & __ptr64 __cdecl Mig::CCSIAgent::operator=(class Mig::CCSIAgent const & __ptr64) __ptr64` | 72 | Exported Function
-`public: class Mig::CCSIAgent & __ptr64 __cdecl Mig::CCSIAgent::operator=(class Mig::CCSIAgent && __ptr64) __ptr64` | 71 | Exported Function
-`public: __cdecl Mig::IResourceLocator::IResourceLocator(struct Mig::IResourceLocator && __ptr64) __ptr64` | 47 | Exported Function
-`public: __cdecl Mig::CReplManData::CReplManData(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,class UnBCL::XmlDocument * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 31 | Exported Function
-`public: __cdecl Mig::CReplManData::CReplManData(class Mig::CReplManData const & __ptr64) __ptr64` | 30 | Exported Function
-`public: __cdecl Mig::CReplManData::CReplManData(class Mig::CReplManData && __ptr64) __ptr64` | 29 | Exported Function
-`public: __cdecl Mig::CReplManifestSourceFactory::CReplManifestSourceFactory(void) __ptr64` | 34 | Exported Function
-`public: __cdecl Mig::CReplManifestSourceFactory::CReplManifestSourceFactory(class Mig::CReplManifestSourceFactory const & __ptr64) __ptr64` | 33 | Exported Function
-`public: __cdecl Mig::CReplManifestSourceFactory::CReplManifestSourceFactory(class Mig::CReplManifestSourceFactory && __ptr64) __ptr64` | 32 | Exported Function
-`public: __cdecl Mig::CManifestSourceFactory::CManifestSourceFactory(class Mig::CManifestSourceFactory const & __ptr64) __ptr64` | 25 | Exported Function
-`public: __cdecl Mig::CManifestSourceFactory::CManifestSourceFactory(class Mig::CManifestSourceFactory && __ptr64) __ptr64` | 24 | Exported Function
-`public: __cdecl Mig::CManifestSource::CManifestSource(struct Mig::IManifestEnumerator * __ptr64) __ptr64` | 23 | Exported Function
-`public: __cdecl Mig::CMigUnitListGenerator::CMigUnitListGenerator(class UnBCL::ArrayList<class Mig::CComponentState * __ptr64> * __ptr64,class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 28 | Exported Function
-`public: __cdecl Mig::CMigUnitListGenerator::CMigUnitListGenerator(class Mig::CMigUnitListGenerator const & __ptr64) __ptr64` | 27 | Exported Function
-`public: __cdecl Mig::CManifestSourceFactory::CManifestSourceFactory(void) __ptr64` | 26 | Exported Function
-`public: __cdecl Mig::IManifestParser::IManifestParser(void) __ptr64` | 43 | Exported Function
-`public: __cdecl Mig::IManifestParser::IManifestParser(struct Mig::IManifestParser const & __ptr64) __ptr64` | 42 | Exported Function
-`public: __cdecl Mig::IManifestParser::IManifestParser(struct Mig::IManifestParser && __ptr64) __ptr64` | 41 | Exported Function
-`public: __cdecl Mig::IManifestSourceFactory::IManifestSourceFactory(void) __ptr64` | 46 | Exported Function
-`public: __cdecl Mig::IManifestSourceFactory::IManifestSourceFactory(struct Mig::IManifestSourceFactory const & __ptr64) __ptr64` | 45 | Exported Function
-`public: __cdecl Mig::IManifestSourceFactory::IManifestSourceFactory(struct Mig::IManifestSourceFactory && __ptr64) __ptr64` | 44 | Exported Function
-`public: __cdecl Mig::CResourceLocator::CResourceLocator(class Mig::CResourceLocator const & __ptr64) __ptr64` | 36 | Exported Function
-`public: __cdecl Mig::CResourceLocator::CResourceLocator(class Mig::CResourceLocator && __ptr64) __ptr64` | 35 | Exported Function
-`public: __cdecl Mig::CResourceLocator::CResourceLocator(class Mig::CPlatform * __ptr64) __ptr64` | 37 | Exported Function
-`public: __cdecl Mig::IManifestEnumerator::IManifestEnumerator(void) __ptr64` | 40 | Exported Function
-`public: __cdecl Mig::IManifestEnumerator::IManifestEnumerator(struct Mig::IManifestEnumerator const & __ptr64) __ptr64` | 39 | Exported Function
-`public: __cdecl Mig::IManifestEnumerator::IManifestEnumerator(struct Mig::IManifestEnumerator && __ptr64) __ptr64` | 38 | Exported Function
+`XmlDocument` | 106 | Exported Function
+`String` | 105 | Exported Function
+`XmlDocument` | 5 | Exported Function
+`XmlDocument` | 4 | Exported Function
+`NullTest` | 100 | Exported Function
+`operator` | 98 | Exported Function
+`operator` | 97 | Exported Function
+`XmlDocument` | 6 | Exported Function
+`NullTest` | 99 | Exported Function
+`IResourceLocator` | 49 | Exported Function
+`IResourceLocator` | 48 | Exported Function
+`String` | 3 | Exported Function
+`String` | 1 | Exported Function
+`String` | 2 | Exported Function
+`CListManifestEnumerator` | 78 | Exported Function
+`CInstalledManifestEnumerator` | 77 | Exported Function
+`CDllManifestParser` | 76 | Exported Function
+`CManifestSourceFactory` | 81 | Exported Function
+`CManifestSourceFactory` | 80 | Exported Function
+`CManifestSource` | 79 | Exported Function
+`String` | 131 | Exported Function
+`CComponentState` | 74 | Exported Function
+`CComponentBuilder` | 73 | Exported Function
+`CDirManifestEnumerator` | 75 | Exported Function
+`CCSIAgent` | 72 | Exported Function
+`CCSIAgent` | 71 | Exported Function
+`IResourceLocator` | 47 | Exported Function
+`String` | 31 | Exported Function
+`CReplManData` | 30 | Exported Function
+`CReplManData` | 29 | Exported Function
+`CReplManifestSourceFactory` | 34 | Exported Function
+`CReplManifestSourceFactory` | 33 | Exported Function
+`CReplManifestSourceFactory` | 32 | Exported Function
+`CManifestSourceFactory` | 25 | Exported Function
+`CManifestSourceFactory` | 24 | Exported Function
+`IManifestEnumerator` | 23 | Exported Function
+`String` | 28 | Exported Function
+`CMigUnitListGenerator` | 27 | Exported Function
+`CManifestSourceFactory` | 26 | Exported Function
+`IManifestParser` | 43 | Exported Function
+`IManifestParser` | 42 | Exported Function
+`IManifestParser` | 41 | Exported Function
+`IManifestSourceFactory` | 46 | Exported Function
+`IManifestSourceFactory` | 45 | Exported Function
+`IManifestSourceFactory` | 44 | Exported Function
+`CResourceLocator` | 36 | Exported Function
+`CResourceLocator` | 35 | Exported Function
+`CPlatform` | 37 | Exported Function
+`IManifestEnumerator` | 40 | Exported Function
+`IManifestEnumerator` | 39 | Exported Function
+`IManifestEnumerator` | 38 | Exported Function
 
 
 ## Signature

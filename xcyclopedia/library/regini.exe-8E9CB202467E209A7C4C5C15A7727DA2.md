@@ -18,6 +18,9 @@ SHA256 | `40ED5EE39901B8537BCBC487B939ED7F50EC3A86EAF248DB1783641DAA0E47C9`
 SHA384 | `C11A59BEC2AA9E5B920CC20876D3A0A3D288A2A3097239C05BAA4523ECD30540444BD6A88A71EF35AE648A1771590565`
 SHA512 | `D7E0911BD62A451C7A6B58122D3B38C9A5DF9B58FE62359F2AE156B41E9C17D804A68DBB75A08311C8AE715E13A85771CA9966FDA1FA87A85103248ECD2732EE`
 SSDEEP | `768:CvGV2EIgkhyil4RBDxJuAQx40tmVbIPwUWee6cNPYb5JcQHgUWvt4QmODDIxW:C5ERDxJubwbIBWee60PYlJEUWveSDsW`
+IMP | `5356BCBDA656EB8E0846EEAF52BE48B1`
+PESHA1 | `BAF09B72C54DED857E29FB708ED3C91AA0B825ED`
+PE256 | `44E9A114FA5A0856FE7BFE626E6F207E13DE54AB7F4092A530BA799B150583F7`
 
 ## Runtime Data
 
@@ -188,8 +191,11 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -222,7 +228,12 @@ C:\Windows\SysWOW64\regini.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/40ed5ee39901b8537bcbc487b939ed7f50ec3a86eaf248db1783641daa0e47c9/detection/
 
 ## File Similarity (ssdeep match)
 

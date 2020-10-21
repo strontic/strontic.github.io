@@ -26,175 +26,175 @@ PE256 | `8D59AE95577260C31C9DD7D0D229CF5A881ACCFDF49394BDB0BD98A9B0D2CCFE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: bool __thiscall FLAC::Metadata::VorbisComment::operator==(class FLAC::Metadata::VorbisComment const &)const ` | 97 | Exported Function
-`public: bool __thiscall FLAC::Metadata::VorbisComment::operator!=(struct FLAC__StreamMetadata const *)const ` | 125 | Exported Function
-`public: bool __thiscall FLAC::Metadata::VorbisComment::operator==(struct FLAC__StreamMetadata const &)const ` | 96 | Exported Function
-`public: char const * __thiscall FLAC::Decoder::Stream::State::as_cstring(void)const ` | 142 | Exported Function
-`public: bool __thiscall FLAC::Metadata::VorbisComment::operator==(struct FLAC__StreamMetadata const *)const ` | 98 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Unknown::operator==(struct FLAC__StreamMetadata const &)const ` | 93 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Unknown::operator==(class FLAC::Metadata::Unknown const &)const ` | 94 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Unknown::operator==(struct FLAC__StreamMetadata const *)const ` | 95 | Exported Function
-`public: bool __thiscall FLAC::Metadata::VorbisComment::operator!=(struct FLAC__StreamMetadata const &)const ` | 123 | Exported Function
-`public: bool __thiscall FLAC::Metadata::VorbisComment::operator!=(class FLAC::Metadata::VorbisComment const &)const ` | 124 | Exported Function
-`public: char const * __thiscall FLAC::Decoder::Stream::State::resolved_as_cstring(class FLAC::Decoder::Stream const &)const ` | 161 | Exported Function
-`public: class FLAC::Metadata::Application & __thiscall FLAC::Metadata::Application::operator=(class FLAC::Metadata::Application const &)` | 40 | Exported Function
-`public: class FLAC::Metadata::Application & __thiscall FLAC::Metadata::Application::assign(struct FLAC__StreamMetadata *,bool)` | 145 | Exported Function
-`public: class FLAC::Metadata::Application & __thiscall FLAC::Metadata::Application::operator=(struct FLAC__StreamMetadata const &)` | 39 | Exported Function
-`public: class FLAC::Metadata::Chain & __thiscall FLAC::Metadata::Chain::operator=(class FLAC::Metadata::Chain const &)` | 42 | Exported Function
-`public: class FLAC::Metadata::Application & __thiscall FLAC::Metadata::Application::operator=(struct FLAC__StreamMetadata const *)` | 41 | Exported Function
-`public: char const * __thiscall FLAC::Metadata::CueSheet::Track::get_isrc(void)const ` | 153 | Exported Function
-`public: char const * __thiscall FLAC::Metadata::Chain::Status::as_cstring(void)const ` | 143 | Exported Function
-`public: char const * __thiscall FLAC::Metadata::SimpleIterator::Status::as_cstring(void)const ` | 144 | Exported Function
-`public: class FLAC::Decoder::Stream::State & __thiscall FLAC::Decoder::Stream::State::operator=(class FLAC::Decoder::Stream::State const &)` | 58 | Exported Function
-`public: class FLAC::Decoder::Stream::State & __thiscall FLAC::Decoder::Stream::State::operator=(class FLAC::Decoder::Stream::State &&)` | 57 | Exported Function
-`public: bool __thiscall FLAC::Metadata::SeekTable::operator!=(class FLAC::Metadata::SeekTable const &)const ` | 115 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::operator==(struct FLAC__StreamMetadata const *)const ` | 86 | Exported Function
-`public: bool __thiscall FLAC::Metadata::SeekTable::operator!=(struct FLAC__StreamMetadata const &)const ` | 114 | Exported Function
-`public: bool __thiscall FLAC::Metadata::SeekTable::operator==(class FLAC::Metadata::SeekTable const &)const ` | 88 | Exported Function
-`public: bool __thiscall FLAC::Metadata::SeekTable::operator!=(struct FLAC__StreamMetadata const *)const ` | 116 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::operator!=(struct FLAC__StreamMetadata const &)const ` | 111 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::operator!=(class FLAC::Metadata::Prototype const &)const ` | 112 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::operator!=(struct FLAC__StreamMetadata const *)const ` | 113 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::operator==(struct FLAC__StreamMetadata const &)const ` | 84 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::operator==(class FLAC::Metadata::Prototype const &)const ` | 85 | Exported Function
-`public: bool __thiscall FLAC::Metadata::SeekTable::operator==(struct FLAC__StreamMetadata const &)const ` | 87 | Exported Function
-`public: bool __thiscall FLAC::Metadata::StreamInfo::operator==(struct FLAC__StreamMetadata const *)const ` | 92 | Exported Function
-`public: bool __thiscall FLAC::Metadata::StreamInfo::operator==(struct FLAC__StreamMetadata const &)const ` | 90 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Unknown::operator!=(class FLAC::Metadata::Unknown const &)const ` | 121 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Unknown::operator!=(struct FLAC__StreamMetadata const *)const ` | 122 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Unknown::operator!=(struct FLAC__StreamMetadata const &)const ` | 120 | Exported Function
-`public: bool __thiscall FLAC::Metadata::StreamInfo::operator!=(class FLAC::Metadata::StreamInfo const &)const ` | 118 | Exported Function
-`public: bool __thiscall FLAC::Metadata::SeekTable::operator==(struct FLAC__StreamMetadata const *)const ` | 89 | Exported Function
-`public: bool __thiscall FLAC::Metadata::StreamInfo::operator!=(struct FLAC__StreamMetadata const &)const ` | 117 | Exported Function
-`public: bool __thiscall FLAC::Metadata::StreamInfo::operator==(class FLAC::Metadata::StreamInfo const &)const ` | 91 | Exported Function
-`public: bool __thiscall FLAC::Metadata::StreamInfo::operator!=(struct FLAC__StreamMetadata const *)const ` | 119 | Exported Function
-`public: class FLAC::Metadata::Unknown & __thiscall FLAC::Metadata::Unknown::operator=(class FLAC::Metadata::Unknown const &)` | 67 | Exported Function
-`public: class FLAC::Metadata::Unknown & __thiscall FLAC::Metadata::Unknown::assign(struct FLAC__StreamMetadata *,bool)` | 151 | Exported Function
-`public: class FLAC::Metadata::Unknown & __thiscall FLAC::Metadata::Unknown::operator=(struct FLAC__StreamMetadata const &)` | 66 | Exported Function
-`public: class FLAC::Metadata::VorbisComment & __thiscall FLAC::Metadata::VorbisComment::assign(struct FLAC__StreamMetadata *,bool)` | 152 | Exported Function
-`public: class FLAC::Metadata::Unknown & __thiscall FLAC::Metadata::Unknown::operator=(struct FLAC__StreamMetadata const *)` | 68 | Exported Function
-`public: class FLAC::Metadata::StreamInfo & __thiscall FLAC::Metadata::StreamInfo::assign(struct FLAC__StreamMetadata *,bool)` | 150 | Exported Function
-`public: class FLAC::Metadata::SimpleIterator::Status & __thiscall FLAC::Metadata::SimpleIterator::Status::operator=(class FLAC::Metadata::SimpleIterator::Status const &)` | 62 | Exported Function
-`public: class FLAC::Metadata::StreamInfo & __thiscall FLAC::Metadata::StreamInfo::operator=(class FLAC::Metadata::StreamInfo const &)` | 64 | Exported Function
-`public: class FLAC::Metadata::StreamInfo & __thiscall FLAC::Metadata::StreamInfo::operator=(struct FLAC__StreamMetadata const *)` | 65 | Exported Function
-`public: class FLAC::Metadata::StreamInfo & __thiscall FLAC::Metadata::StreamInfo::operator=(struct FLAC__StreamMetadata const &)` | 63 | Exported Function
-`public: class FLAC::Metadata::VorbisComment & __thiscall FLAC::Metadata::VorbisComment::operator=(class FLAC::Metadata::VorbisComment const &)` | 70 | Exported Function
-`public: unsigned int __thiscall FLAC::Metadata::CueSheet::Track::get_type(void)const ` | 159 | Exported Function
-`public: unsigned char __thiscall FLAC::Metadata::CueSheet::Track::get_number(void)const ` | 155 | Exported Function
-`public: void __thiscall FLAC::Metadata::CueSheet::Track::set_number(unsigned char)` | 162 | Exported Function
-`public: void __thiscall FLAC::Metadata::CueSheet::Track::set_pre_emphasis(bool)` | 164 | Exported Function
-`public: void __thiscall FLAC::Metadata::CueSheet::Track::set_offset(unsigned __int64)` | 163 | Exported Function
-`public: class FLAC::Metadata::VorbisComment & __thiscall FLAC::Metadata::VorbisComment::operator=(struct FLAC__StreamMetadata const *)` | 71 | Exported Function
-`public: class FLAC::Metadata::VorbisComment & __thiscall FLAC::Metadata::VorbisComment::operator=(struct FLAC__StreamMetadata const &)` | 69 | Exported Function
-`public: struct FLAC__StreamMetadata_CueSheet_Track const * __thiscall FLAC::Metadata::CueSheet::Track::get_track(void)const ` | 158 | Exported Function
-`public: unsigned char __thiscall FLAC::Metadata::CueSheet::Track::get_num_indices(void)const ` | 154 | Exported Function
-`public: unsigned __int64 __thiscall FLAC::Metadata::CueSheet::Track::get_offset(void)const ` | 156 | Exported Function
-`public: class FLAC::Metadata::Iterator & __thiscall FLAC::Metadata::Iterator::operator=(class FLAC::Metadata::Iterator const &)` | 46 | Exported Function
-`public: class FLAC::Metadata::CueSheet & __thiscall FLAC::Metadata::CueSheet::operator=(struct FLAC__StreamMetadata const *)` | 45 | Exported Function
-`public: class FLAC::Metadata::Padding & __thiscall FLAC::Metadata::Padding::assign(struct FLAC__StreamMetadata *,bool)` | 147 | Exported Function
-`public: class FLAC::Metadata::Padding & __thiscall FLAC::Metadata::Padding::operator=(struct FLAC__StreamMetadata const &)` | 47 | Exported Function
-`public: class FLAC::Metadata::Padding & __thiscall FLAC::Metadata::Padding::operator=(class FLAC::Metadata::Padding const &)` | 48 | Exported Function
-`public: class FLAC::Metadata::Chain::Status & __thiscall FLAC::Metadata::Chain::Status::operator=(class FLAC::Metadata::Chain::Status const &)` | 60 | Exported Function
-`public: class FLAC::Metadata::Chain::Status & __thiscall FLAC::Metadata::Chain::Status::operator=(class FLAC::Metadata::Chain::Status &&)` | 59 | Exported Function
-`public: class FLAC::Metadata::CueSheet & __thiscall FLAC::Metadata::CueSheet::assign(struct FLAC__StreamMetadata *,bool)` | 146 | Exported Function
-`public: class FLAC::Metadata::CueSheet & __thiscall FLAC::Metadata::CueSheet::operator=(struct FLAC__StreamMetadata const &)` | 43 | Exported Function
-`public: class FLAC::Metadata::CueSheet & __thiscall FLAC::Metadata::CueSheet::operator=(class FLAC::Metadata::CueSheet const &)` | 44 | Exported Function
-`public: class FLAC::Metadata::Padding & __thiscall FLAC::Metadata::Padding::operator=(struct FLAC__StreamMetadata const *)` | 49 | Exported Function
-`public: class FLAC::Metadata::SeekTable & __thiscall FLAC::Metadata::SeekTable::operator=(struct FLAC__StreamMetadata const &)` | 53 | Exported Function
-`public: class FLAC::Metadata::SeekTable & __thiscall FLAC::Metadata::SeekTable::operator=(class FLAC::Metadata::SeekTable const &)` | 54 | Exported Function
-`public: class FLAC::Metadata::SeekTable & __thiscall FLAC::Metadata::SeekTable::operator=(struct FLAC__StreamMetadata const *)` | 55 | Exported Function
-`public: class FLAC::Metadata::SimpleIterator::Status & __thiscall FLAC::Metadata::SimpleIterator::Status::operator=(class FLAC::Metadata::SimpleIterator::Status &&)` | 61 | Exported Function
-`public: class FLAC::Metadata::SimpleIterator & __thiscall FLAC::Metadata::SimpleIterator::operator=(class FLAC::Metadata::SimpleIterator const &)` | 56 | Exported Function
-`public: class FLAC::Metadata::Picture & __thiscall FLAC::Metadata::Picture::operator=(class FLAC::Metadata::Picture const &)` | 51 | Exported Function
-`public: class FLAC::Metadata::Picture & __thiscall FLAC::Metadata::Picture::assign(struct FLAC__StreamMetadata *,bool)` | 148 | Exported Function
-`public: class FLAC::Metadata::Picture & __thiscall FLAC::Metadata::Picture::operator=(struct FLAC__StreamMetadata const &)` | 50 | Exported Function
-`public: class FLAC::Metadata::SeekTable & __thiscall FLAC::Metadata::SeekTable::assign(struct FLAC__StreamMetadata *,bool)` | 149 | Exported Function
-`public: class FLAC::Metadata::Picture & __thiscall FLAC::Metadata::Picture::operator=(struct FLAC__StreamMetadata const *)` | 52 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Prototype::is_valid(void)const ` | 160 | Exported Function
-`public: __thiscall FLAC::Metadata::CueSheet::CueSheet(struct FLAC__StreamMetadata *,bool)` | 8 | Exported Function
-`public: __thiscall FLAC::Metadata::CueSheet::CueSheet(class FLAC::Metadata::CueSheet const &)` | 7 | Exported Function
-`public: __thiscall FLAC::Metadata::CueSheet::CueSheet(struct FLAC__StreamMetadata const &)` | 6 | Exported Function
-`public: __thiscall FLAC::Metadata::Iterator::Iterator(class FLAC::Metadata::Iterator const &)` | 10 | Exported Function
-`public: __thiscall FLAC::Metadata::CueSheet::CueSheet(struct FLAC__StreamMetadata const *)` | 9 | Exported Function
-`public: __thiscall FLAC::Metadata::Application::Application(struct FLAC__StreamMetadata const *)` | 4 | Exported Function
-`public: __thiscall FLAC::Metadata::Application::Application(struct FLAC__StreamMetadata const &)` | 1 | Exported Function
-`public: __thiscall FLAC::Metadata::Chain::Chain(class FLAC::Metadata::Chain const &)` | 5 | Exported Function
-`public: __thiscall FLAC::Metadata::Chain::Status::Status(enum FLAC__Metadata_ChainStatus)` | 25 | Exported Function
-`public: __thiscall FLAC::Metadata::Chain::Status::operator enum FLAC__Metadata_ChainStatus(void)const ` | 128 | Exported Function
-`public: __thiscall FLAC::Metadata::Padding::Padding(class FLAC::Metadata::Padding const &)` | 12 | Exported Function
-`public: __thiscall FLAC::Metadata::Picture::Picture(struct FLAC__StreamMetadata const *)` | 18 | Exported Function
-`public: __thiscall FLAC::Metadata::Picture::Picture(struct FLAC__StreamMetadata const &)` | 15 | Exported Function
-`public: __thiscall FLAC::Metadata::Prototype::operator struct FLAC__StreamMetadata const *(void)const ` | 126 | Exported Function
-`public: __thiscall FLAC::Metadata::SeekTable::SeekTable(struct FLAC__StreamMetadata *,bool)` | 21 | Exported Function
-`public: __thiscall FLAC::Metadata::SeekTable::SeekTable(class FLAC::Metadata::SeekTable const &)` | 20 | Exported Function
-`public: __thiscall FLAC::Metadata::Padding::Padding(struct FLAC__StreamMetadata const &)` | 11 | Exported Function
-`public: __thiscall FLAC::Metadata::Padding::Padding(struct FLAC__StreamMetadata *,bool)` | 13 | Exported Function
-`public: __thiscall FLAC::Metadata::Padding::Padding(struct FLAC__StreamMetadata const *)` | 14 | Exported Function
-`public: __thiscall FLAC::Metadata::Picture::Picture(struct FLAC__StreamMetadata *,bool)` | 17 | Exported Function
-`public: __thiscall FLAC::Metadata::Picture::Picture(class FLAC::Metadata::Picture const &)` | 16 | Exported Function
-`const FLAC::Metadata::SeekTable::``vftable'` | 137 | Exported Function
-`const FLAC::Metadata::Picture::``vftable'` | 136 | Exported Function
-`const FLAC::Metadata::SimpleIterator::``vftable'` | 138 | Exported Function
-`const FLAC::Metadata::Unknown::``vftable'` | 140 | Exported Function
-`const FLAC::Metadata::StreamInfo::``vftable'` | 139 | Exported Function
-`const FLAC::Metadata::Chain::``vftable'` | 132 | Exported Function
-`const FLAC::Metadata::Application::``vftable'` | 131 | Exported Function
-`const FLAC::Metadata::CueSheet::``vftable'` | 133 | Exported Function
-`const FLAC::Metadata::Padding::``vftable'` | 135 | Exported Function
-`const FLAC::Metadata::Iterator::``vftable'` | 134 | Exported Function
-`const FLAC::Metadata::VorbisComment::``vftable'` | 141 | Exported Function
-`public: __thiscall FLAC::Decoder::Stream::State::operator enum FLAC__StreamDecoderState(void)const ` | 127 | Exported Function
-`public: __thiscall FLAC::Decoder::Stream::operator bool(void)const ` | 130 | Exported Function
-`public: __thiscall FLAC::Decoder::Stream::State::State(enum FLAC__StreamDecoderState)` | 24 | Exported Function
-`public: __thiscall FLAC::Metadata::Application::Application(struct FLAC__StreamMetadata *,bool)` | 3 | Exported Function
-`public: __thiscall FLAC::Metadata::Application::Application(class FLAC::Metadata::Application const &)` | 2 | Exported Function
+`VorbisComment` | 97 | Exported Function
+`operator` | 125 | Exported Function
+`operator` | 96 | Exported Function
+`as_cstring` | 142 | Exported Function
+`operator` | 98 | Exported Function
+`operator` | 93 | Exported Function
+`Unknown` | 94 | Exported Function
+`operator` | 95 | Exported Function
+`operator` | 123 | Exported Function
+`VorbisComment` | 124 | Exported Function
+`Stream` | 161 | Exported Function
+`Application` | 40 | Exported Function
+`assign` | 145 | Exported Function
+`operator` | 39 | Exported Function
+`Chain` | 42 | Exported Function
+`operator` | 41 | Exported Function
+`get_isrc` | 153 | Exported Function
+`as_cstring` | 143 | Exported Function
+`as_cstring` | 144 | Exported Function
+`State` | 58 | Exported Function
+`State` | 57 | Exported Function
+`SeekTable` | 115 | Exported Function
+`operator` | 86 | Exported Function
+`operator` | 114 | Exported Function
+`SeekTable` | 88 | Exported Function
+`operator` | 116 | Exported Function
+`operator` | 111 | Exported Function
+`Prototype` | 112 | Exported Function
+`operator` | 113 | Exported Function
+`operator` | 84 | Exported Function
+`Prototype` | 85 | Exported Function
+`operator` | 87 | Exported Function
+`operator` | 92 | Exported Function
+`operator` | 90 | Exported Function
+`Unknown` | 121 | Exported Function
+`operator` | 122 | Exported Function
+`operator` | 120 | Exported Function
+`StreamInfo` | 118 | Exported Function
+`operator` | 89 | Exported Function
+`operator` | 117 | Exported Function
+`StreamInfo` | 91 | Exported Function
+`operator` | 119 | Exported Function
+`Unknown` | 67 | Exported Function
+`assign` | 151 | Exported Function
+`operator` | 66 | Exported Function
+`assign` | 152 | Exported Function
+`operator` | 68 | Exported Function
+`assign` | 150 | Exported Function
+`Status` | 62 | Exported Function
+`StreamInfo` | 64 | Exported Function
+`operator` | 65 | Exported Function
+`operator` | 63 | Exported Function
+`VorbisComment` | 70 | Exported Function
+`get_type` | 159 | Exported Function
+`get_number` | 155 | Exported Function
+`set_number` | 162 | Exported Function
+`set_pre_emphasis` | 164 | Exported Function
+`set_offset` | 163 | Exported Function
+`operator` | 71 | Exported Function
+`operator` | 69 | Exported Function
+`get_track` | 158 | Exported Function
+`get_num_indices` | 154 | Exported Function
+`get_offset` | 156 | Exported Function
+`Iterator` | 46 | Exported Function
+`operator` | 45 | Exported Function
+`assign` | 147 | Exported Function
+`operator` | 47 | Exported Function
+`Padding` | 48 | Exported Function
+`Status` | 60 | Exported Function
+`Status` | 59 | Exported Function
+`assign` | 146 | Exported Function
+`operator` | 43 | Exported Function
+`CueSheet` | 44 | Exported Function
+`operator` | 49 | Exported Function
+`operator` | 53 | Exported Function
+`SeekTable` | 54 | Exported Function
+`operator` | 55 | Exported Function
+`Status` | 61 | Exported Function
+`SimpleIterator` | 56 | Exported Function
+`Picture` | 51 | Exported Function
+`assign` | 148 | Exported Function
+`operator` | 50 | Exported Function
+`assign` | 149 | Exported Function
+`operator` | 52 | Exported Function
+`is_valid` | 160 | Exported Function
+`CueSheet` | 8 | Exported Function
+`CueSheet` | 7 | Exported Function
+`CueSheet` | 6 | Exported Function
+`Iterator` | 10 | Exported Function
+`CueSheet` | 9 | Exported Function
+`Application` | 4 | Exported Function
+`Application` | 1 | Exported Function
+`Chain` | 5 | Exported Function
+`Status` | 25 | Exported Function
+`operator` | 128 | Exported Function
+`Padding` | 12 | Exported Function
+`Picture` | 18 | Exported Function
+`Picture` | 15 | Exported Function
+`operator` | 126 | Exported Function
+`SeekTable` | 21 | Exported Function
+`SeekTable` | 20 | Exported Function
+`Padding` | 11 | Exported Function
+`Padding` | 13 | Exported Function
+`Padding` | 14 | Exported Function
+`Picture` | 17 | Exported Function
+`Picture` | 16 | Exported Function
+`SeekTable` | 137 | Exported Function
+`Picture` | 136 | Exported Function
+`SimpleIterator` | 138 | Exported Function
+`Unknown` | 140 | Exported Function
+`StreamInfo` | 139 | Exported Function
+`Chain` | 132 | Exported Function
+`Application` | 131 | Exported Function
+`CueSheet` | 133 | Exported Function
+`Padding` | 135 | Exported Function
+`Iterator` | 134 | Exported Function
+`VorbisComment` | 141 | Exported Function
+`operator` | 127 | Exported Function
+`operator` | 130 | Exported Function
+`State` | 24 | Exported Function
+`Application` | 3 | Exported Function
+`Application` | 2 | Exported Function
 `DllGetClassObject` | 167 | Exported Function
 `DllCanUnloadNow` | 166 | Exported Function
 `DllRegisterServer` | 168 | Exported Function
-`private: void __thiscall FLAC::Metadata::Prototype::set_reference(bool)` | 165 | Exported Function
+`set_reference` | 165 | Exported Function
 `DllUnregisterServer` | 169 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::operator==(struct FLAC__StreamMetadata const &)const ` | 75 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::operator==(class FLAC::Metadata::CueSheet const &)const ` | 76 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::operator==(struct FLAC__StreamMetadata const *)const ` | 77 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Padding::operator!=(class FLAC::Metadata::Padding const &)const ` | 106 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::Track::get_pre_emphasis(void)const ` | 157 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Application::operator==(struct FLAC__StreamMetadata const *)const ` | 74 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Application::operator==(struct FLAC__StreamMetadata const &)const ` | 72 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::operator!=(class FLAC::Metadata::CueSheet const &)const ` | 103 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::operator!=(struct FLAC__StreamMetadata const *)const ` | 104 | Exported Function
-`public: bool __thiscall FLAC::Metadata::CueSheet::operator!=(struct FLAC__StreamMetadata const &)const ` | 102 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Padding::operator!=(struct FLAC__StreamMetadata const &)const ` | 105 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Picture::operator!=(struct FLAC__StreamMetadata const *)const ` | 110 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Picture::operator!=(struct FLAC__StreamMetadata const &)const ` | 108 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Picture::operator==(class FLAC::Metadata::Picture const &)const ` | 82 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Picture::operator==(struct FLAC__StreamMetadata const *)const ` | 83 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Picture::operator==(struct FLAC__StreamMetadata const &)const ` | 81 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Padding::operator==(class FLAC::Metadata::Padding const &)const ` | 79 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Padding::operator!=(struct FLAC__StreamMetadata const *)const ` | 107 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Padding::operator==(struct FLAC__StreamMetadata const &)const ` | 78 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Picture::operator!=(class FLAC::Metadata::Picture const &)const ` | 109 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Padding::operator==(struct FLAC__StreamMetadata const *)const ` | 80 | Exported Function
-`public: __thiscall FLAC::Metadata::StreamInfo::StreamInfo(struct FLAC__StreamMetadata *,bool)` | 29 | Exported Function
-`public: __thiscall FLAC::Metadata::StreamInfo::StreamInfo(class FLAC::Metadata::StreamInfo const &)` | 28 | Exported Function
-`public: __thiscall FLAC::Metadata::StreamInfo::StreamInfo(struct FLAC__StreamMetadata const &)` | 27 | Exported Function
-`public: __thiscall FLAC::Metadata::Unknown::Unknown(class FLAC::Metadata::Unknown const &)` | 32 | Exported Function
-`public: __thiscall FLAC::Metadata::StreamInfo::StreamInfo(struct FLAC__StreamMetadata const *)` | 30 | Exported Function
-`public: __thiscall FLAC::Metadata::SeekTable::SeekTable(struct FLAC__StreamMetadata const *)` | 22 | Exported Function
-`public: __thiscall FLAC::Metadata::SeekTable::SeekTable(struct FLAC__StreamMetadata const &)` | 19 | Exported Function
-`public: __thiscall FLAC::Metadata::SimpleIterator::SimpleIterator(class FLAC::Metadata::SimpleIterator const &)` | 23 | Exported Function
-`public: __thiscall FLAC::Metadata::SimpleIterator::Status::Status(enum FLAC__Metadata_SimpleIteratorStatus)` | 26 | Exported Function
-`public: __thiscall FLAC::Metadata::SimpleIterator::Status::operator enum FLAC__Metadata_SimpleIteratorStatus(void)const ` | 129 | Exported Function
-`public: __thiscall FLAC::Metadata::Unknown::Unknown(struct FLAC__StreamMetadata *,bool)` | 33 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Application::operator!=(class FLAC::Metadata::Application const &)const ` | 100 | Exported Function
-`public: __thiscall FLAC::Metadata::VorbisComment::VorbisComment(struct FLAC__StreamMetadata const *)` | 38 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Application::operator!=(struct FLAC__StreamMetadata const &)const ` | 99 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Application::operator==(class FLAC::Metadata::Application const &)const ` | 73 | Exported Function
-`public: bool __thiscall FLAC::Metadata::Application::operator!=(struct FLAC__StreamMetadata const *)const ` | 101 | Exported Function
-`public: __thiscall FLAC::Metadata::Unknown::Unknown(struct FLAC__StreamMetadata const *)` | 34 | Exported Function
-`public: __thiscall FLAC::Metadata::Unknown::Unknown(struct FLAC__StreamMetadata const &)` | 31 | Exported Function
-`public: __thiscall FLAC::Metadata::VorbisComment::VorbisComment(class FLAC::Metadata::VorbisComment const &)` | 36 | Exported Function
-`public: __thiscall FLAC::Metadata::VorbisComment::VorbisComment(struct FLAC__StreamMetadata const &)` | 35 | Exported Function
-`public: __thiscall FLAC::Metadata::VorbisComment::VorbisComment(struct FLAC__StreamMetadata *,bool)` | 37 | Exported Function
+`operator` | 75 | Exported Function
+`CueSheet` | 76 | Exported Function
+`operator` | 77 | Exported Function
+`Padding` | 106 | Exported Function
+`get_pre_emphasis` | 157 | Exported Function
+`operator` | 74 | Exported Function
+`operator` | 72 | Exported Function
+`CueSheet` | 103 | Exported Function
+`operator` | 104 | Exported Function
+`operator` | 102 | Exported Function
+`operator` | 105 | Exported Function
+`operator` | 110 | Exported Function
+`operator` | 108 | Exported Function
+`Picture` | 82 | Exported Function
+`operator` | 83 | Exported Function
+`operator` | 81 | Exported Function
+`Padding` | 79 | Exported Function
+`operator` | 107 | Exported Function
+`operator` | 78 | Exported Function
+`Picture` | 109 | Exported Function
+`operator` | 80 | Exported Function
+`StreamInfo` | 29 | Exported Function
+`StreamInfo` | 28 | Exported Function
+`StreamInfo` | 27 | Exported Function
+`Unknown` | 32 | Exported Function
+`StreamInfo` | 30 | Exported Function
+`SeekTable` | 22 | Exported Function
+`SeekTable` | 19 | Exported Function
+`SimpleIterator` | 23 | Exported Function
+`Status` | 26 | Exported Function
+`operator` | 129 | Exported Function
+`Unknown` | 33 | Exported Function
+`Application` | 100 | Exported Function
+`VorbisComment` | 38 | Exported Function
+`operator` | 99 | Exported Function
+`Application` | 73 | Exported Function
+`operator` | 101 | Exported Function
+`Unknown` | 34 | Exported Function
+`Unknown` | 31 | Exported Function
+`VorbisComment` | 36 | Exported Function
+`VorbisComment` | 35 | Exported Function
+`VorbisComment` | 37 | Exported Function
 
 
 ## Signature

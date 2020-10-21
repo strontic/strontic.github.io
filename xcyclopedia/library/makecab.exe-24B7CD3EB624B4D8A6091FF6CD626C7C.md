@@ -18,6 +18,9 @@ SHA256 | `F9EBAA95C93AA8CE217A4AD8715CCF2B7A3FC7A951DA44B78A9BB2C53B9BCACE`
 SHA384 | `EC149983E17B7A688CBB3E350C5E4F95A133DD4B3965385038FB56F10925A891E424043434ADEEE8FD994DFA829ECDD6`
 SHA512 | `AC0CB470AF147251644DE15E91B8138A61F4461967881F5F2FC15D19B9BFD0D3BCF06DB2E1B33DD8094200E53D543F7F5523CA4489B04697CA0C1A308646DC57`
 SSDEEP | `1536:MCz/Ppo0HDGxuOevIJGA7wiMrLI6jbdHFmYPmKv3PYyMKT63EDel7Z0vfu:MCzH+aGxuOQIJGgjMrLTpHFHeG3PfFTa`
+IMP | `A9326A6F3C34256D97D8CD7972ACC242`
+PESHA1 | `6F2B92EC6CFF318D76F8BF02F6F4615C0BDA9901`
+PE256 | `D34F579AD2F966DE75647D094AF8100EF2F2E3FE36D0286924AA075FB6C81D94`
 
 ## Runtime Data
 
@@ -40,16 +43,6 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\makecab.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -67,7 +60,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/f9ebaa95c93aa8ce217a4ad8715ccf2b7a3fc7a951da44b78a9bb2c53b9bcace/detection/
 
 
 ## Possible Misuse

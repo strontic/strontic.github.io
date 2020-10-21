@@ -38,6 +38,11 @@ SSDEEP | `6144:TNiTmdIptKNX2OT6i3fZeAmoYlRcpNYHCuFRk0FjcG:TSmdIptw2OTWAmJlRcbYHx
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\rdpinit.exe](rdpinit.exe-EEB9B254BE974EA12826F3441CC8B7F9.md) | 97
 
 
 

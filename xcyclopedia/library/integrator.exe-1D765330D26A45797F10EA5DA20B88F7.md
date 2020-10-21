@@ -8,6 +8,10 @@ excerpt: What is integrator.exe?
 * File Path: `C:\ProgramData\Microsoft\ClickToRun\{00000000-0000-0000-0000-000000000000}\integrator.exe`
 * Description: Microsoft Office Click-to-Run Integrator
 
+## Screenshot
+
+![integrator.exe](screenshots/Integrator.exe-479C0EFFA117B08844D93319A4849E39-1.png)
+
 ## Hashes
 
 Type | Hash

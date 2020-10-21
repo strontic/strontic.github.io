@@ -18,6 +18,9 @@ SHA256 | `85BDD568FEDC81B48FE18F5C4B2E2799ACEAC8049F6F36A42E5A7868E83DE938`
 SHA384 | `CD6CDA3D89867FF7B757278B636E705D78E6962DE19721BA332EA30B2CD1905BDEFBC84961DF3CBD70794E5DD5E302D0`
 SHA512 | `9FB4BBBC3AF7B6F1CA49C078A50F7FD7418CA0BFE9D1CF7DE8C28D8A8458B6D34562807B6E91DF6B4EAB06E34E324D469672A18E520CA2914D713276227FDD51`
 SSDEEP | `768:pDyWlTdSnfYlJmA/GJpAD9aWgrs4a8wxmlmxDoyIC94rK0R8:1JmA/GTO8AZJhoy9KrPR8`
+IMP | `608C121F28B6837B15D6067BE234792E`
+PESHA1 | `3ABDF8163B31F30FBAF610401E8DB41B852BE78E`
+PE256 | `AC119984B238BC3A28C2CD64389196DF08380F1A0A3F3E42A0F88B19374CD54E`
 
 ## Runtime Data
 
@@ -40,13 +43,6 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -64,7 +60,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/85bdd568fedc81b48fe18f5c4b2e2799aceac8049f6f36a42e5a7868e83de938/detection/
 
 
 
@@ -73,6 +74,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
+
 ## sxstrace
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
@@ -80,38 +82,44 @@ C:\Windows\SYSTEM32\ntdll.dll |
 Diagnoses side-by-side problems.
 
 ### Syntax
+
 ```
-sxstrace [{[trace -logfile:<FileName> [-nostop]|[parse -logfile:<FileName> -outfile:<ParsedFile>  [-filter:<AppName>]}]
+sxstrace [{[trace -logfile:<filename> [-nostop]|[parse -logfile:<filename> -outfile:<parsedfile>  [-filter:<appname>]}]
 ```
 
-##### Parameters
-|Parameter|Description|
-|-------|--------|
-|trace|Enables tracing for sxs (side-by-side)|
-|-logfile|Specifies the raw log file.|
-|\<FileName>|Saves tracing log to *FileName*.|
-|-nostop|Specifies no prompt to stop tracing.|
-|parse|Translates the raw trace file.|
-|-outfile|Specifies the output filename.|
-|\<ParsedFile>|Specifies the filename of the parsed file.|
-|-filter|Allows the output to be filtered.|
-|\<AppName>|Specifies the name of the application.|
-|stoptrace|Stop the trace if it is not stopped before.|
-|-?|Displays help at the command prompt.|
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| trace | Enables tracing for side-by-side. |
+| -logfile | Specifies the raw log file. |
+| `<filename>` | Saves tracing log to `<filename`. |
+| -nostop | Specifies that you shouldn't receive a prompt to stop tracing. |
+| parse | Translates the raw trace file. |
+| -outfile | Specifies the output filename. |
+| `<parsedfile>` | Specifies the filename of the parsed file. |
+| -filter | Allows the output to be filtered. |
+| `<appname>` | Specifies the name of the application. |
+| stoptrace | Stops the trace, if it wasn't stopped before. |
+| -? | Displays help at the command prompt. |
 
 ### Examples
-Enable tracing and save trace file to **sxstrace.etl**:
+
+To enable tracing and to save the trace file to *sxstrace.etl*, type:
+
 ```
 sxstrace trace -logfile:sxstrace.etl
 ```
-Translate the raw trace file into a human readable format and save the result to **sxstrace.txt**:
+
+To translate the raw trace file into a human readable format and to save the result to *sxstrace.txt*, type:
+
 ```
 sxstrace parse -logfile:sxstrace.etl -outfile:sxstrace.txt
 ```
 
 ### Additional References
-- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
 

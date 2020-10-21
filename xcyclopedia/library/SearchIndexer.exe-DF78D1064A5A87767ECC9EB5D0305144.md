@@ -51,6 +51,11 @@ C:\Windows\SysWOW64\SearchIndexer.exe |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\SearchIndexer.exe](SearchIndexer.exe-5A0F15EF559F58AFBBA185BFBFE7A423.md) | 44
 
 ## Possible Misuse
 

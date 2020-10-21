@@ -26,28 +26,28 @@ PE256 | `7508AE6704C4C6AFA2C5B7178671E0B4F30AB1077E6456380BE5A8E0C94F93D1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`long __cdecl QueueTaskItem(class std::shared_ptr<class ORpcClient>,struct _GUID)` | 34 | Exported Function
-`long __cdecl QueueUpdate(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64)` | 35 | Exported Function
-`long __cdecl PublishRSOD(class std::shared_ptr<class ORpcClient>,int * __ptr64)` | 33 | Exported Function
-`long __cdecl ModifyOfficeProducts(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,unsigned long,int)` | 31 | Exported Function
-`long __cdecl PromptUser(class std::shared_ptr<class ORpcClient>,unsigned long,unsigned long * __ptr64,wchar_t const * __ptr64)` | 32 | Exported Function
-`long __cdecl RaiseTaskErrorEvent(class std::shared_ptr<class ORpcClient>,unsigned long,unsigned long,unsigned long)` | 41 | Exported Function
-`long __cdecl RaiseTaskErrorEvent2(class std::shared_ptr<class ORpcClient>,unsigned long,unsigned long,unsigned long,wchar_t const * __ptr64)` | 39 | Exported Function
-`long __cdecl RaiseTaskDialogEvent(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,wchar_t const * __ptr64)` | 38 | Exported Function
-`long __cdecl QueueUpdateEx(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,unsigned long)` | 36 | Exported Function
-`long __cdecl QueueUpdateOnlyApply(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64)` | 37 | Exported Function
-`long __cdecl KillQueuedProcesses(class std::shared_ptr<class ORpcClient>)` | 30 | Exported Function
-`long __cdecl HandleMigrateOSPPToSPP(class std::shared_ptr<class ORpcClient>)` | 22 | Exported Function
-`long __cdecl HrStartUpdatesDiscoveryPeriod(class std::shared_ptr<class ORpcClient>)` | 23 | Exported Function
-`long __cdecl HandleHeartbeatScheduledTaskEx(class std::shared_ptr<class ORpcClient>,int,unsigned long)` | 21 | Exported Function
-`long __cdecl GetServiceVersion(class std::shared_ptr<class ORpcClient>,wchar_t * __ptr64,unsigned long)` | 19 | Exported Function
-`long __cdecl HandleHeartbeatScheduledTask(class std::shared_ptr<class ORpcClient>,int)` | 20 | Exported Function
-`long __cdecl InvokeProcessKiller(class std::shared_ptr<class ORpcClient>,int,int,int,wchar_t const * __ptr64,unsigned long * __ptr64)` | 27 | Exported Function
-`long __cdecl InvokeProcessKillerEx(class std::shared_ptr<class ORpcClient>,int,int,int,wchar_t const * __ptr64,wchar_t const * __ptr64,unsigned long * __ptr64)` | 28 | Exported Function
-`long __cdecl InstallPOPEx(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,int,int,wchar_t * __ptr64,int,int,unsigned long)` | 26 | Exported Function
-`long __cdecl HrStartUpdatesDiscoveryPeriodEx(class std::shared_ptr<class ORpcClient>,unsigned long)` | 24 | Exported Function
-`long __cdecl InstallPOP(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,int,int,wchar_t * __ptr64,int,int)` | 25 | Exported Function
-`long __cdecl RaiseTaskErrorEvent3(class std::shared_ptr<class ORpcClient>,unsigned long,unsigned long,unsigned long,unsigned long,wchar_t const * __ptr64)` | 40 | Exported Function
+`shared_ptr` | 34 | Exported Function
+`shared_ptr` | 35 | Exported Function
+`shared_ptr` | 33 | Exported Function
+`shared_ptr` | 31 | Exported Function
+`shared_ptr` | 32 | Exported Function
+`shared_ptr` | 41 | Exported Function
+`shared_ptr` | 39 | Exported Function
+`shared_ptr` | 38 | Exported Function
+`shared_ptr` | 36 | Exported Function
+`shared_ptr` | 37 | Exported Function
+`shared_ptr` | 30 | Exported Function
+`shared_ptr` | 22 | Exported Function
+`shared_ptr` | 23 | Exported Function
+`shared_ptr` | 21 | Exported Function
+`shared_ptr` | 19 | Exported Function
+`shared_ptr` | 20 | Exported Function
+`shared_ptr` | 27 | Exported Function
+`shared_ptr` | 28 | Exported Function
+`shared_ptr` | 26 | Exported Function
+`shared_ptr` | 24 | Exported Function
+`shared_ptr` | 25 | Exported Function
+`shared_ptr` | 40 | Exported Function
 `RaiseTaskErrorEvent` | 80 | Exported Function
 `RaiseTaskErrorEvent2` | 81 | Exported Function
 `RaiseTaskDialogEvent` | 79 | Exported Function
@@ -59,15 +59,15 @@ Function Name | Ordinal | Type
 `RaiseTaskErrorEvent3` | 82 | Exported Function
 `RaiseTaskProgressEvent` | 83 | Exported Function
 `QueueUpdate` | 76 | Exported Function
-`long __cdecl SetPrivacySettings(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,unsigned long,unsigned long,unsigned long,wchar_t const * __ptr64,unsigned long,unsigned long,wchar_t const * __ptr64,unsigned long,unsigned long,wchar_t const * __ptr64,unsigned long,unsigned long,wchar_t const * __ptr64,unsigned long,unsigned long,wchar_t const * __ptr64)` | 47 | Exported Function
-`long __cdecl UninstallPOP(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64)` | 48 | Exported Function
-`long __cdecl RestartKilledProcesses(class std::shared_ptr<class ORpcClient>)` | 44 | Exported Function
-`long __cdecl RaiseTaskProgressEvent(class std::shared_ptr<class ORpcClient>,struct _GUID,unsigned long)` | 42 | Exported Function
-`long __cdecl RaiseTaskToastEvent(class std::shared_ptr<class ORpcClient>,int)` | 43 | Exported Function
+`shared_ptr` | 47 | Exported Function
+`shared_ptr` | 48 | Exported Function
+`shared_ptr` | 44 | Exported Function
+`shared_ptr` | 42 | Exported Function
+`shared_ptr` | 43 | Exported Function
 `PublishRSOD` | 74 | Exported Function
 `QueueTaskItem` | 75 | Exported Function
 `PromptUser` | 73 | Exported Function
-`long __cdecl UninstallPOPEx(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,unsigned long)` | 49 | Exported Function
+`shared_ptr` | 49 | Exported Function
 `ModifyOfficeProducts` | 72 | Exported Function
 `DoRepairForApp` | 58 | Exported Function
 `DoRepairForAppEx` | 59 | Exported Function
@@ -80,38 +80,38 @@ Function Name | Ordinal | Type
 `GetClickToRunData` | 60 | Exported Function
 `GetClickToRunDataEx` | 61 | Exported Function
 `DeleteAFOTask` | 7 | Exported Function
-`bool __cdecl ApplyPolicy(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,int)` | 3 | Exported Function
-`bool __cdecl CollectFileDiagnostics(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,wchar_t * __ptr64,unsigned long,unsigned long * __ptr64)` | 6 | Exported Function
+`shared_ptr` | 3 | Exported Function
+`shared_ptr` | 6 | Exported Function
 `ApplyPolicy` | 52 | Exported Function
 `Activate` | 50 | Exported Function
 `ActivateEx` | 51 | Exported Function
 `CancelUpdate` | 53 | Exported Function
 `CollectFileDiagnostics` | 54 | Exported Function
-`bool __cdecl SetPolicyOverride(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64,wchar_t const * __ptr64)` | 46 | Exported Function
-`bool __cdecl IsFileInVirtualFolder(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64)` | 29 | Exported Function
-`bool __cdecl SetC2RProperty(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,unsigned long,wchar_t const * __ptr64,unsigned long,unsigned long)` | 45 | Exported Function
+`shared_ptr` | 46 | Exported Function
+`shared_ptr` | 29 | Exported Function
+`shared_ptr` | 45 | Exported Function
 `GetServiceVersion` | 65 | Exported Function
-`long __cdecl DoRepairForAppEx(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,unsigned long)` | 12 | Exported Function
-`long __cdecl FetchDBSLicense(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64)` | 13 | Exported Function
-`long __cdecl DoRepairForApp(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64)` | 11 | Exported Function
-`long __cdecl DetermineIsRepairRequiredEx(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,int & __ptr64,unsigned long)` | 9 | Exported Function
-`long __cdecl DiffRSOD(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,int * __ptr64)` | 10 | Exported Function
-`long __cdecl GetPipelineTotalMegabytes(class std::shared_ptr<class ORpcClient>,unsigned long * __ptr64)` | 17 | Exported Function
-`long __cdecl GetProcessPoolProcessId(class std::shared_ptr<class ORpcClient>,unsigned long * __ptr64)` | 18 | Exported Function
-`long __cdecl GetPipelineStreamedMegabytes(class std::shared_ptr<class ORpcClient>,unsigned long * __ptr64)` | 16 | Exported Function
-`long __cdecl GetClickToRunData(class std::shared_ptr<class ORpcClient>,int,wchar_t const * __ptr64,wchar_t * __ptr64,unsigned long)` | 14 | Exported Function
-`long __cdecl GetClickToRunDataEx(class std::shared_ptr<class ORpcClient>,int,wchar_t const * __ptr64,wchar_t * __ptr64,unsigned long,unsigned long)` | 15 | Exported Function
-`long __cdecl DetermineIsRepairRequired(class std::shared_ptr<class ORpcClient>,wchar_t const * __ptr64,int & __ptr64)` | 8 | Exported Function
+`shared_ptr` | 12 | Exported Function
+`shared_ptr` | 13 | Exported Function
+`shared_ptr` | 11 | Exported Function
+`shared_ptr` | 9 | Exported Function
+`shared_ptr` | 10 | Exported Function
+`shared_ptr` | 17 | Exported Function
+`shared_ptr` | 18 | Exported Function
+`shared_ptr` | 16 | Exported Function
+`shared_ptr` | 14 | Exported Function
+`shared_ptr` | 15 | Exported Function
+`shared_ptr` | 8 | Exported Function
 `InvokeProcessKillerEx` | 69 | Exported Function
 `IsFileInVirtualFolder` | 70 | Exported Function
 `InvokeProcessKiller` | 68 | Exported Function
 `HrStartUpdatesDiscoveryPeriod` | 66 | Exported Function
 `HrStartUpdatesDiscoveryPeriodEx` | 67 | Exported Function
-`long __cdecl CallReArm(class std::shared_ptr<class ORpcClient>,struct _GUID const * __ptr64)` | 4 | Exported Function
-`long __cdecl CancelUpdate(class std::shared_ptr<class ORpcClient>)` | 5 | Exported Function
-`long __cdecl ActivateEx(class std::shared_ptr<class ORpcClient>,struct _GUID const * __ptr64,unsigned long)` | 2 | Exported Function
+`shared_ptr` | 4 | Exported Function
+`shared_ptr` | 5 | Exported Function
+`shared_ptr` | 2 | Exported Function
 `KillQueuedProcesses` | 71 | Exported Function
-`long __cdecl Activate(class std::shared_ptr<class ORpcClient>,struct _GUID const * __ptr64)` | 1 | Exported Function
+`shared_ptr` | 1 | Exported Function
 
 
 ## Signature

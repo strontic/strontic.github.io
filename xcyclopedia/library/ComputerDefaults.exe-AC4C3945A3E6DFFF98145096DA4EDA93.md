@@ -22,6 +22,9 @@ SHA256 | `B2C06A97827F403848620CAAE012C284604B5093ED7950AC4EAD2B9EE4D28EB3`
 SHA384 | `1452E7096764F43725E2D6489441052D5BB61AAD9E2EF5A1688255FDD9564F289AD0DA309692CD29C220C094B567C9A6`
 SHA512 | `EA67E6656E87F5DF1ADB718D7B445CD49E89D210C4E4DE94B13FBF4B0B3AF96A665609B8A1AB02765F90012049C3D2B46CAF388E52EC71292F2C46B46C0DF878`
 SSDEEP | `1536:kQOtu50MZS8EVCioHoL6u/a7WryQqURDoq4OZZZLlCIibB:knrWyiILS79KRD68wbB`
+IMP | `00B74CCF8A4820BD574431AE64ECF0C5`
+PESHA1 | `07F68410C832FEDCF539890DCC56BE6392603CC2`
+PE256 | `447E2060FAE609120FB0BC83995F7BEA0EC29C968D2A74DF9D928F9BC1822958`
 
 ## Runtime Data
 
@@ -30,13 +33,33 @@ SSDEEP | `1536:kQOtu50MZS8EVCioHoL6u/a7WryQqURDoq4OZZZLlCIibB:knrWyiILS79KRD68wb
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\system32\ComputerDefaults.exe |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
 
 
 ## Signature
@@ -56,7 +79,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/b2c06a97827f403848620caae012c284604b5093ed7950ac4ead2b9ee4d28eb3/detection/
 
 ## File Similarity (ssdeep match)
 

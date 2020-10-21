@@ -26,38 +26,38 @@ PE256 | `D05232981031DF9ACB82CC12394E753186EDF3A62D15E89000B749BFABECCBB6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`private: unsigned long __cdecl CPerfMon::InitializePerfMon(int) __ptr64` | 21 | Exported Function
-`private: unsigned long __cdecl CPerfMon::CollectAnObject(struct CPerfMon::__OBJECT_ORD * __ptr64,unsigned char * __ptr64 * __ptr64)const __ptr64` | 8 | Exported Function
-`private: void __cdecl CPerfMon::CalcPerfMetrics(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64,struct CPerfMon::_PERF_METRICS * __ptr64,struct CPerfMon::_PERF_ITEM * __ptr64 * __ptr64)const __ptr64` | 5 | Exported Function
-`private: unsigned long __cdecl CPerfMon::VerifyPerfItemTable(void) __ptr64` | 29 | Exported Function
-`private: unsigned char * __ptr64 __cdecl CPerfMon::GetCounter(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 17 | Exported Function
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::ObjectOrdToPerfItem(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 27 | Exported Function
-`private: unsigned long __cdecl CPerfMon::CollectAllObjects(unsigned short * __ptr64,unsigned char * __ptr64 * __ptr64,unsigned long * __ptr64,unsigned long * __ptr64)const __ptr64` | 7 | Exported Function
-`private: unsigned long __cdecl CPerfMon::CalcBytesForPerfObject(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 4 | Exported Function
-`public: long * __ptr64 __cdecl CPerfMon::GetCounter32(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 15 | Exported Function
-`public: class CPerfMon & __ptr64 __cdecl CPerfMon::operator=(class CPerfMon const & __ptr64) __ptr64` | 3 | Exported Function
-`public: unsigned long __cdecl CPerfMon::Initialize(int) __ptr64` | 20 | Exported Function
-`public: unsigned long __cdecl CPerfMon::Collect(unsigned short * __ptr64,unsigned char * __ptr64 * __ptr64,unsigned long * __ptr64,unsigned long * __ptr64) __ptr64` | 6 | Exported Function
-`public: __cdecl CPerfMon::CPerfMon(unsigned short * __ptr64,struct CPerfMon::_PERF_ITEM * __ptr64) __ptr64` | 1 | Exported Function
-`private: void __cdecl CPerfMon::DetermineObjectsToCollect(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 14 | Exported Function
-`public: __int64 * __ptr64 __cdecl CPerfMon::GetCounter64(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 16 | Exported Function
+`InitializePerfMon` | 21 | Exported Function
+`__OBJECT_ORD` | 8 | Exported Function
+`_PERF_ITEM` | 5 | Exported Function
+`VerifyPerfItemTable` | 29 | Exported Function
+`__INSTANCE_ID` | 17 | Exported Function
+`__OBJECT_ORD` | 27 | Exported Function
+`CollectAllObjects` | 7 | Exported Function
+`__OBJECT_ORD` | 4 | Exported Function
+`__INSTANCE_ID` | 15 | Exported Function
+`operator` | 3 | Exported Function
+`Initialize` | 20 | Exported Function
+`Collect` | 6 | Exported Function
+`_PERF_ITEM` | 1 | Exported Function
+`__OBJECT_ORD` | 14 | Exported Function
+`__INSTANCE_ID` | 16 | Exported Function
 `public: __cdecl CPerfMon::~CPerfMon(void) __ptr64` | 2 | Exported Function
-`private: int __cdecl CPerfMon::HowManyInstancesAreInUse(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 18 | Exported Function
-`private: int __cdecl CPerfMon::CounterIdToPerfItemIndex(struct CPerfMon::__COUNTER_ID * __ptr64,int * __ptr64)const __ptr64` | 12 | Exported Function
-`private: int __cdecl CPerfMon::IsValidInstId(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64)const __ptr64` | 22 | Exported Function
-`private: int __cdecl CPerfMon::IdToPerfItemIndex(int,unsigned __int64)const __ptr64` | 19 | Exported Function
+`__OBJECT_ORD` | 18 | Exported Function
+`__COUNTER_ID` | 12 | Exported Function
+`__INSTANCE_ID` | 22 | Exported Function
+`IdToPerfItemIndex` | 19 | Exported Function
 `PerfMon_Collect` | 31 | Exported Function
 `PerfMon_Close` | 30 | Exported Function
-`private: int __cdecl CPerfMon::ConvertInstIdToInUseInstId(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64)const __ptr64` | 9 | Exported Function
+`__INSTANCE_ID` | 9 | Exported Function
 `PerfMon_Open` | 32 | Exported Function
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::CounterIdToPerfItem(struct CPerfMon::__COUNTER_ID * __ptr64)const __ptr64` | 11 | Exported Function
-`private: struct CPerfMon::__OBJECT_ORD * __ptr64 __cdecl CPerfMon::ObjectIdToObjectOrd(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 24 | Exported Function
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::ObjectIdToPerfItem(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 25 | Exported Function
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::CounterOrdToPerfItem(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__COUNTER_ORD * __ptr64)const __ptr64` | 13 | Exported Function
-`private: int __cdecl CPerfMon::ObjectIdToPerfItemIndex(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 26 | Exported Function
-`private: int __cdecl CPerfMon::IsValidObjOrd(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 23 | Exported Function
-`private: struct CPerfMon::__OBJECT_ORD * __ptr64 __cdecl CPerfMon::CounterIdToObjectOrd(struct CPerfMon::__COUNTER_ID * __ptr64,int * __ptr64)const __ptr64` | 10 | Exported Function
-`private: int __cdecl CPerfMon::ObjectOrdToPerfItemIndex(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 28 | Exported Function
+`__COUNTER_ID` | 11 | Exported Function
+`__OBJECT_ID` | 24 | Exported Function
+`__OBJECT_ID` | 25 | Exported Function
+`__COUNTER_ORD` | 13 | Exported Function
+`__OBJECT_ID` | 26 | Exported Function
+`__OBJECT_ORD` | 23 | Exported Function
+`__COUNTER_ID` | 10 | Exported Function
+`__OBJECT_ORD` | 28 | Exported Function
 
 
 ## Signature

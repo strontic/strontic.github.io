@@ -31,9 +31,6 @@ usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -65,7 +62,7 @@ C:\Windows\system32\OpenSSH\scp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
+* VirusTotal Detections: 0/69
 * VirusTotal Link: https://www.virustotal.com/gui/file/8860e4273f59caa71fa585697e291270f94cee83439e5c94726d918d7c72f362/detection/
 
 

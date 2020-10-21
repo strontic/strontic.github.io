@@ -18,6 +18,9 @@ SHA256 | `463180573F43CC8A3C2879E9AE442D751D1B9541C8E81A547FB6449D3E5DD2B5`
 SHA384 | `1337C388C8D861C691B0F4D0D6B706C00D9B4E15762C7AD9A948E2365147C3920781B2CD98134082945325EB3704C516`
 SHA512 | `5DF6523257790DF6F08286F43E1597392C493BBAC04D9A63282E5322962D81238AB720816F8A412A81484F72E48EEC6950653CEDB11D3C784360BC935A88A72E`
 SSDEEP | `384:3V50X9btA8aEdAhh24jHxHvzY+7Qg2qXp0BTW+dW0PAmXjDBRJQ9gl3t3M2U:3T0NbtAIda2+ExBN3pXj1Py/r`
+IMP | `6EFFC501FA8CD22D12C091494401AE22`
+PESHA1 | `1FCC2329BB8F3967D4246A75C0B67AC2C8ED2FB1`
+PE256 | `F732C3397A38CD1B13641AB2CDF78E769FA933A9A55097E667334102A60D0327`
 
 ## Runtime Data
 
@@ -25,12 +28,15 @@ SSDEEP | `384:3V50X9btA8aEdAhh24jHxHvzY+7Qg2qXp0BTW+dW0PAmXjDBRJQ9gl3t3M2U:3T0Nb
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC17E8 | Section
+\RPC Control\DSECA50 | Section
 
 
 ### Loaded Modules:
@@ -61,12 +67,18 @@ C:\Windows\SysWOW64\CameraSettingsUIHost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/463180573f43cc8a3c2879e9ae442d751d1b9541c8e81a547fb6449d3e5dd2b5/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Common Files\microsoft shared\Ink\TabTip32.exe](TabTip32.exe-725AAEFD55B6DEA9663EEAA04E881C0E.md) | 29
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-50D5FD1290D94D46ACCA0585311E74D5.md) | 27
 [C:\WINDOWS\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-E22E7BD6B146BDE93DC48643B772D8BB.md) | 33
 [C:\Windows\system32\browser_broker.exe](browser_broker.exe-C7C56DB13D5F1A2BB6DE92B8BBD22CA0.md) | 30

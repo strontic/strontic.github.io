@@ -18,6 +18,9 @@ SHA256 | `0B5E810C20FC5E8906AA993BB09EA021982C95A8244C2D56518EA16D22F16362`
 SHA384 | `AEF77386BDB4D5F535148CAC9CA82EB1839A9DC14DB3A45281D836B16ADCBF3A0C03FCFEB790EE1217613145FAF29FDE`
 SHA512 | `093B3279097D4676061BB2519F8BA85526E9F9FE0E5A20466FCDD2139074A23B7992B68081405A95C8065C0E1369548CDA669B47DF6DC76B296E8E6CDE7FBD6E`
 SSDEEP | `3072:Hnhcq7iLbXtm9x5X32170rSPQRnzix1qm:BcAiLex5mJcSGnzix1`
+IMP | `CB790495654EEEC1710841B2DBCF3C87`
+PESHA1 | `94370C6B65CE553E33DCE9DE356E8F7C40C9DCEA`
+PE256 | `B3532823499CB049DA44431EAB28FF942B5D1114D188FC0BB820CC4B1FA085CB`
 
 ## Runtime Data
 
@@ -46,7 +49,28 @@ Output:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\dispdiag.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WMICLNT.dll |
 
 
 ## Signature
@@ -66,7 +90,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/0b5e810c20fc5e8906aa993bb09ea021982c95a8244c2d56518ea16d22f16362/detection/
 
 
 

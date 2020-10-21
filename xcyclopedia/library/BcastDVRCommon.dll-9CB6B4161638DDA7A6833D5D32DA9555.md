@@ -26,61 +26,61 @@ PE256 | `5B9898586874F8FF0AEC1969414ED69B24221D3646C3CD119C618BCCE8C958C0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: __cdecl BcastDVR_OutputDebug::BcastDVR_OutputDebug(char const * __ptr64) __ptr64` | 1 | Exported Function
-`public: __cdecl Windows::Media::Capture::Internal::ImpersonateHelper::ImpersonateHelper(void) __ptr64` | 2 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::SetDefaultPlugIn(struct HKEY__ * __ptr64,struct _GUID const & __ptr64)` | 83 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::GetPlugInPackageFullName(struct _GUID const & __ptr64,class Windows::Internal::String * __ptr64)` | 42 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::RegisterCallingPlugIn(struct HKEY__ * __ptr64,struct HSTRING__ * __ptr64,struct HSTRING__ * __ptr64,struct _GUID const & __ptr64)` | 82 | Exported Function
-`public: __cdecl Windows::Media::Capture::Internal::ImpersonateHelper::~ImpersonateHelper(void) __ptr64` | 3 | Exported Function
-`public: static unsigned long __cdecl BcastDVRLogProviderBase::GetErrorHistoryCount(void)` | 25 | Exported Function
-`public: static unsigned long __cdecl BcastDVRLogProviderBase::GetFormattedErrorHistory(class Windows::Internal::String * __ptr64)` | 26 | Exported Function
-`public: static long __cdecl BcastDVRLogProviderBase::MostRecentErrorInHistory(void)` | 59 | Exported Function
-`public: long __cdecl Windows::Media::Capture::Internal::ImpersonateHelper::ImpersonateDefaultUser(void) __ptr64` | 44 | Exported Function
-`public: long __cdecl Windows::Media::Capture::Internal::ImpersonateHelper::ImpersonateUser(struct Windows::System::IUser * __ptr64) __ptr64` | 45 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegSetStringValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,char const * __ptr64,char const * __ptr64)` | 81 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegSetStringValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,class Windows::Internal::String * __ptr64)` | 80 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegSetQwordValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned __int64)` | 79 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegSetBinaryValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned char const * __ptr64,unsigned long)` | 77 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegSetDwordValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long)` | 78 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::CleanupObsoletePlugIns(struct HKEY__ * __ptr64)` | 8 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::GetDefaultPlugIn(struct HKEY__ * __ptr64,struct _GUID * __ptr64)` | 24 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::GetPlugInInfo(struct HKEY__ * __ptr64,struct _GUID const & __ptr64,class Windows::Internal::String * __ptr64,class Windows::Internal::String * __ptr64,class Windows::Internal::String * __ptr64)` | 41 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::GetCallersSebEventId(struct _GUID * __ptr64)` | 23 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::GetBroadcastSebEventIds(unsigned long * __ptr64,struct _GUID * __ptr64 * __ptr64)` | 21 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::PlugInUtility::GetCallersPlugInInfo(struct HKEY__ * __ptr64,struct _GUID const & __ptr64,class Windows::Internal::String * __ptr64,class Windows::Internal::String * __ptr64)` | 22 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,unsigned short const * __ptr64) __ptr64` | 70 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,void * __ptr64) __ptr64` | 69 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,unsigned long) __ptr64` | 67 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,unsigned char) __ptr64` | 64 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,unsigned int) __ptr64` | 66 | Exported Function
-`unsigned short const * __ptr64 __cdecl Windows::Media::Capture::Internal::GameDVRUtility::MapConstantToString(unsigned short const * __ptr64 * __ptr64 const,unsigned long,unsigned long,unsigned long,unsigned long)` | 58 | Exported Function
-`void __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegGetStringValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,class Windows::Internal::String * __ptr64)` | 76 | Exported Function
-`void __cdecl Windows::Media::Capture::Internal::PlugInUtility::FreeBroadcastSebEventIds(struct _GUID * __ptr64 * __ptr64)` | 18 | Exported Function
-`void __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegGetQwordValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned __int64,unsigned __int64 * __ptr64)` | 75 | Exported Function
-`void __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetOSVersionString(class Windows::Internal::String * __ptr64)` | 40 | Exported Function
-`void __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RegGetDwordValue(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long,unsigned long * __ptr64)` | 74 | Exported Function
-`public: static void __cdecl BcastDVRLogProviderBase::LogErrorEx(long,char const * __ptr64,char const * __ptr64,int,char const * __ptr64,char const * __ptr64,bool)` | 57 | Exported Function
-`public: static void __cdecl BcastDVRLogProviderBase::Printf(bool,bool,char const * __ptr64,char const * __ptr64,int,unsigned short const * __ptr64,...)` | 72 | Exported Function
-`public: static void __cdecl BcastDVRLogProviderBase::LogError(long,char const * __ptr64,char const * __ptr64,int,bool)` | 56 | Exported Function
-`public: static void __cdecl BcastDVR_OutputDebug::Initialize(unsigned short const * __ptr64,enum BcastDVR_OutputDebug_TraceToFileType,unsigned short const * __ptr64)` | 46 | Exported Function
-`public: static void __cdecl BcastDVR_OutputDebug::Uninitialize(void)` | 84 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::OutputString(void) __ptr64` | 60 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,int) __ptr64` | 65 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,unsigned __int64) __ptr64` | 71 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,double) __ptr64` | 68 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintHRESULT(long) __ptr64` | 62 | Exported Function
-`public: void __cdecl BcastDVR_OutputDebug::PrintType(char const * __ptr64,char const * __ptr64) __ptr64` | 63 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::EnvironmentManager::GetBroadcastPlugInRegistryPathFromSebEventIdString(unsigned short const * __ptr64,class Windows::Internal::String * __ptr64)` | 20 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::EnvironmentManager::GetKnownFolderSubFolder(struct _GUID const & __ptr64,unsigned short const * __ptr64,class Windows::Internal::String * __ptr64)` | 39 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::EnvironmentManager::GetBroadcastPlugInRegistryPathFromSebEventId(struct _GUID const & __ptr64,class Windows::Internal::String * __ptr64)` | 19 | Exported Function
+`BcastDVR_OutputDebug` | 1 | Exported Function
+`ImpersonateHelper` | 2 | Exported Function
+`SetDefaultPlugIn` | 83 | Exported Function
+`String` | 42 | Exported Function
+`RegisterCallingPlugIn` | 82 | Exported Function
+`ImpersonateHelper` | 3 | Exported Function
+`GetErrorHistoryCount` | 25 | Exported Function
+`String` | 26 | Exported Function
+`MostRecentErrorInHistory` | 59 | Exported Function
+`ImpersonateDefaultUser` | 44 | Exported Function
+`IUser` | 45 | Exported Function
+`RegSetStringValue` | 81 | Exported Function
+`String` | 80 | Exported Function
+`RegSetQwordValue` | 79 | Exported Function
+`RegSetBinaryValue` | 77 | Exported Function
+`RegSetDwordValue` | 78 | Exported Function
+`CleanupObsoletePlugIns` | 8 | Exported Function
+`GetDefaultPlugIn` | 24 | Exported Function
+`String` | 41 | Exported Function
+`GetCallersSebEventId` | 23 | Exported Function
+`GetBroadcastSebEventIds` | 21 | Exported Function
+`String` | 22 | Exported Function
+`PrintType` | 70 | Exported Function
+`PrintType` | 69 | Exported Function
+`PrintType` | 67 | Exported Function
+`PrintType` | 64 | Exported Function
+`PrintType` | 66 | Exported Function
+`MapConstantToString` | 58 | Exported Function
+`String` | 76 | Exported Function
+`FreeBroadcastSebEventIds` | 18 | Exported Function
+`RegGetQwordValue` | 75 | Exported Function
+`String` | 40 | Exported Function
+`RegGetDwordValue` | 74 | Exported Function
+`LogErrorEx` | 57 | Exported Function
+`Printf` | 72 | Exported Function
+`LogError` | 56 | Exported Function
+`Initialize` | 46 | Exported Function
+`Uninitialize` | 84 | Exported Function
+`OutputString` | 60 | Exported Function
+`PrintType` | 65 | Exported Function
+`PrintType` | 71 | Exported Function
+`PrintType` | 68 | Exported Function
+`PrintHRESULT` | 62 | Exported Function
+`PrintType` | 63 | Exported Function
+`String` | 20 | Exported Function
+`String` | 39 | Exported Function
+`String` | 19 | Exported Function
 `GetPreviewSharedMemoryWriter` | 88 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::EnvironmentManager::AppendPath(class Windows::Internal::String const & __ptr64,class Windows::Internal::String const & __ptr64,class Windows::Internal::String * __ptr64)` | 5 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::EnvironmentManager::GetUserGameDVRConfigFolderPath(class Windows::Internal::String * __ptr64,unsigned short const * __ptr64)` | 43 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::CloseDuplicatedHandles(unsigned long,unsigned long,void * __ptr64 * __ptr64 const)` | 10 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetGuidFromGuidString(unsigned short const * __ptr64,struct _GUID * __ptr64)` | 27 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::CloseDuplicatedHandle(unsigned long,void * __ptr64)` | 9 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::CalcPreviewVideoBufferDataSize(unsigned long,unsigned long,unsigned long * __ptr64)` | 6 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::CalcPreviewVideoFrameDataSize(unsigned long,unsigned long,unsigned long * __ptr64)` | 7 | Exported Function
+`String` | 5 | Exported Function
+`String` | 43 | Exported Function
+`CloseDuplicatedHandles` | 10 | Exported Function
+`GetGuidFromGuidString` | 27 | Exported Function
+`CloseDuplicatedHandle` | 9 | Exported Function
+`CalcPreviewVideoBufferDataSize` | 6 | Exported Function
+`CalcPreviewVideoFrameDataSize` | 7 | Exported Function
 `CreateMetadataManagerInstance` | 13 | Exported Function
 `CreateMetadataManagerInstanceForAppId` | 14 | Exported Function
 `CreateCallerManagerInstanceForAppId` | 12 | Exported Function
@@ -92,28 +92,28 @@ Function Name | Ordinal | Type
 `GetBroadcastSharedMemoryReader` | 85 | Exported Function
 `FireCallerManagerEvent` | 16 | Exported Function
 `FireCallerManagerEventForAppId` | 17 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonDouble(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,double)` | 50 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonGuid(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,struct _GUID)` | 51 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonDateTime(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,struct Windows::Foundation::DateTime)` | 49 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonArray(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,struct Windows::Foundation::Collections::IVector<struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64 * __ptr64)` | 47 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonBoolean(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char)` | 48 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonNumber(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,__int64)` | 52 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::PrintGuid(struct _GUID,class Windows::Internal::String * __ptr64)` | 61 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::RecreateStorageFile(struct Windows::Storage::IStorageFile * __ptr64,struct Windows::Storage::IStorageFile * __ptr64 * __ptr64)` | 73 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertNamedJsonEnumBitfields(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned __int64,unsigned short const * __ptr64 const * __ptr64,int)` | 55 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonObject(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonObject * __ptr64 * __ptr64)` | 53 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::InsertJsonString(struct Windows::Data::Json::IJsonValueStatics * __ptr64,struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,struct HSTRING__ * __ptr64)` | 54 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetIUserSID(struct Windows::System::IUser * __ptr64,class Windows::Internal::String * __ptr64)` | 31 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonArray(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,struct Windows::Foundation::Collections::IVector<struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64 * __ptr64)` | 32 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetHKeyCurrentUserForIUser(struct Windows::System::IUser * __ptr64,struct HKEY__ * __ptr64 * __ptr64)` | 30 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetGuidStringFromGuid(struct _GUID const & __ptr64,bool,class Windows::Internal::String * __ptr64)` | 28 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetHKeyCurrentUserForDefaultUser(struct HKEY__ * __ptr64 * __ptr64)` | 29 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonBoolean(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,unsigned char * __ptr64)` | 33 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonNumber(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,__int64 * __ptr64)` | 37 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonString(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,class Windows::Internal::String * __ptr64)` | 38 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonGuid(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,struct _GUID * __ptr64)` | 36 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonDateTime(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,struct Windows::Foundation::DateTime * __ptr64)` | 34 | Exported Function
-`long __cdecl Windows::Media::Capture::Internal::GameDVRUtility::GetJsonDouble(struct Windows::Foundation::Collections::IMap<struct HSTRING__ * __ptr64,struct Windows::Data::Json::IJsonValue * __ptr64> * __ptr64,struct HSTRING__ * __ptr64,unsigned char * __ptr64,double * __ptr64)` | 35 | Exported Function
+`IJsonValue` | 50 | Exported Function
+`IJsonValue` | 51 | Exported Function
+`DateTime` | 49 | Exported Function
+`IJsonValue` | 47 | Exported Function
+`IJsonValue` | 48 | Exported Function
+`IJsonValue` | 52 | Exported Function
+`String` | 61 | Exported Function
+`IStorageFile` | 73 | Exported Function
+`IJsonValue` | 55 | Exported Function
+`IJsonObject` | 53 | Exported Function
+`IJsonValue` | 54 | Exported Function
+`String` | 31 | Exported Function
+`IJsonValue` | 32 | Exported Function
+`IUser` | 30 | Exported Function
+`String` | 28 | Exported Function
+`GetHKeyCurrentUserForDefaultUser` | 29 | Exported Function
+`IJsonValue` | 33 | Exported Function
+`IJsonValue` | 37 | Exported Function
+`String` | 38 | Exported Function
+`IJsonValue` | 36 | Exported Function
+`DateTime` | 34 | Exported Function
+`IJsonValue` | 35 | Exported Function
 
 
 ## Signature

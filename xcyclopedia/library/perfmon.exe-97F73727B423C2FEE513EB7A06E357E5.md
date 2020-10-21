@@ -22,6 +22,9 @@ SHA256 | `5D4C3EF49BB510B7FBB943ACF60BD6B74FC6D295B9CC93933155CBAF535F03EB`
 SHA384 | `909000B6202806525E935D9B55A51949358BE564129857760DE1D3F81F23439623349CE7EF007083A23DA5D2F8D68F9F`
 SHA512 | `E510D43DC2534DE86D2D9826B59353AA3153E14B4B4BF2286C829B37277F4BCFCEFD2E5B044132C56C528A3BC7704535D4B1EED37E90B4CF1F6239FD2BA75C6E`
 SSDEEP | `3072:6utzRwSpaYHrz1m2dyGghtYIo9piswTogiqQKy349tm:ZaSpaAn42dyhqIo9s37iTK24nm`
+IMP | `B9EFBBF3710DB144F0FAEC23B813B32E`
+PESHA1 | `5307B5742DACC8DB9CE4455C63D1405BD50A8C3E`
+PE256 | `F1BC7DFC850BFC45A750CA991ED0556E840CDDFD43F96F620245E0B34CA41531`
 
 ## Runtime Data
 
@@ -43,15 +46,18 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\perfmon.exe.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -59,14 +65,17 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\perfmon.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -79,7 +88,12 @@ C:\Windows\SysWOW64\perfmon.exe |
 * Product Version: 10.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/5d4c3ef49bb510b7fbb943acf60bd6b74fc6d295b9cc93933155cbaf535f03eb/detection/
 
 ## File Similarity (ssdeep match)
 

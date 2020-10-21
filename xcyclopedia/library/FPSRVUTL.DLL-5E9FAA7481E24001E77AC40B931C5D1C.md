@@ -2038,9 +2038,9 @@ Function Name | Ordinal | Type
 `Ordinal992` | 992 | Exported Function
 `Ordinal993` | 993 | Exported Function
 `Ordinal997` | 997 | Exported Function
-`public: int __thiscall RWCString::compareTo(class RWCString const &,enum RWCString::caseCompare)const ` | 136 | Exported Function
-`public: unsigned int __thiscall RWCString::index(char const *,unsigned int,unsigned int,enum RWCString::caseCompare)const ` | 3448 | Exported Function
-`public: int __thiscall RWCString::compareTo(char const *,enum RWCString::caseCompare)const ` | 1962 | Exported Function
+`caseCompare` | 136 | Exported Function
+`caseCompare` | 3448 | Exported Function
+`caseCompare` | 1962 | Exported Function
 `Ordinal998` | 998 | Exported Function
 `Ordinal999` | 999 | Exported Function
 `Ordinal991` | 991 | Exported Function

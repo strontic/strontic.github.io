@@ -18,18 +18,68 @@ SHA256 | `5FDDA5D5E3AE48A72CD3E71410BF0A67512B7793006CAB5878D1361000616AD6`
 SHA384 | `987F38A48EB5B6B940D63F1B301D90777983378D9537DF13DCD59076A448298853F1DB15554B257631B37C61F169B208`
 SHA512 | `A059D2656D2130D26D8195989B6DE11851307FE85073A7473D8F80B74BC14795101663A6C2FBF0F5B23D274B0DDE7A284D38A0D300589B124895389C261B18B4`
 SSDEEP | `768:SnEer5SWnW7Sk0lKdoR9+1Nsn4FOBkStBWX:g/8tSk0lKd1Gg0YX`
+IMP | `AB03184F9306BF7E8482C6F987BA1832`
+PESHA1 | `36C962529458A83A35631E26D965CF559EA4C7A4`
+PE256 | `315FF3F3BB1FEE25AFC0C973173B1404B87FC32759474FCCC841BFB915EDE03D`
 
 ## Runtime Data
-
-### Child Processes:
-csrss.exe winlogon.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\CRYPTBASE.DLL |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\edputil.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\ieframe.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MLANG.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\System32\NETAPI32.dll |
+C:\Windows\System32\NETUTILS.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\Secur32.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SSPICLI.DLL |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\USERENV.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\VERSION.dll |
+C:\Windows\system32\wevtapi.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\Windows.StateRepositoryPS.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\Windows.UI.AppDefaults.dll |
+C:\Windows\System32\WINHTTP.dll |
+C:\Windows\system32\WININET.dll |
+C:\Windows\System32\WKSCLI.DLL |
 C:\Windows\system32\WSReset.exe |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\comctl32.dll |
 
 
 ## Signature
@@ -49,7 +99,12 @@ C:\Windows\system32\WSReset.exe |
 * Product Version: 10.0.17763.592
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/5fdda5d5e3ae48a72cd3e71410bf0a67512b7793006cab5878d1361000616ad6/detection/
 
 ## File Similarity (ssdeep match)
 

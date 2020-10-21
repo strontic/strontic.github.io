@@ -28,48 +28,48 @@ PE256 | `BBACB8ED93B0AED3903808168C058C34C032287BD1984DBB20A42BD3E06C294E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall sbicu_58::UVector64::assign(class sbicu_58::UVector64 const &,enum UErrorCode &)` | 602 | Exported Function
-`public: void __thiscall sbicu_58::UVector64::addElement(__int64,enum UErrorCode &)` | 538 | Exported Function
-`public: void __thiscall sbicu_58::UVector64::insertElementAt(__int64,int,enum UErrorCode &)` | 1292 | Exported Function
-`public: void __thiscall sbicu_58::UVector64::setElementAt(__int64,int)` | 1659 | Exported Function
-`public: void __thiscall sbicu_58::UVector64::removeAllElements(void)` | 1582 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::setElementAt(int,int)` | 1658 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::removeElementAt(int)` | 1587 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::setMaxCapacity(int)` | 1676 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::sortedInsert(int,enum UErrorCode &)` | 1739 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::setSize(int)` | 1684 | Exported Function
-`public: void __thiscall sbicu_58::UVector::insertElementAt(void *,int,enum UErrorCode &)` | 1294 | Exported Function
-`public: void __thiscall sbicu_58::UVector::insertElementAt(int,int,enum UErrorCode &)` | 1293 | Exported Function
-`public: void __thiscall sbicu_58::UVector::removeAllElements(void)` | 1583 | Exported Function
-`public: void __thiscall sbicu_58::UVector::setElementAt(int,int)` | 1660 | Exported Function
-`public: void __thiscall sbicu_58::UVector::removeElementAt(int)` | 1588 | Exported Function
-`public: void __thiscall sbicu_58::UVector64::setSize(int)` | 1685 | Exported Function
-`public: void __thiscall sbicu_58::UVector64::setMaxCapacity(int)` | 1677 | Exported Function
-`public: void __thiscall sbicu_58::UVector::addElement(int,enum UErrorCode &)` | 539 | Exported Function
-`public: void __thiscall sbicu_58::UVector::assign(class sbicu_58::UVector const &,void (__cdecl*)(union UElement *,union UElement *),enum UErrorCode &)` | 603 | Exported Function
-`public: void __thiscall sbicu_58::UVector::addElement(void *,enum UErrorCode &)` | 540 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::removeAllElements(void)` | 1581 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeSetIterator::reset(class sbicu_58::UnicodeSet const &)` | 1625 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeSet::setToBogus(void)` | 1704 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeSetIterator::reset(void)` | 1626 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::extract(int,int,wchar_t *,int)const ` | 855 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::extract(int,int,class sbicu_58::UnicodeString &)const ` | 854 | Exported Function
-`public: void __thiscall sbicu_58::StringPiece::remove_suffix(int)` | 1597 | Exported Function
-`public: void __thiscall sbicu_58::StringPiece::remove_prefix(int)` | 1596 | Exported Function
-`public: void __thiscall sbicu_58::StringPiece::set(char const *)` | 1647 | Exported Function
-`public: void __thiscall sbicu_58::UCharCharacterIterator::setText(wchar_t const *,int)` | 1694 | Exported Function
-`public: void __thiscall sbicu_58::StringPiece::set(char const *,int)` | 1648 | Exported Function
-`public: void __thiscall sbicu_58::UnifiedCache::setEvictionPolicy(int,int,enum UErrorCode &)` | 1663 | Exported Function
-`public: void __thiscall sbicu_58::UnifiedCache::flush(void)const ` | 886 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::addElement(int,enum UErrorCode &)` | 537 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::insertElementAt(int,int,enum UErrorCode &)` | 1291 | Exported Function
-`public: void __thiscall sbicu_58::UVector32::assign(class sbicu_58::UVector32 const &,enum UErrorCode &)` | 601 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::releaseBuffer(int)` | 1566 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::extractBetween(int,int,wchar_t *,int)const ` | 856 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::setToBogus(void)` | 1705 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::toUTF8(class sbicu_58::ByteSink &)const ` | 1783 | Exported Function
-`public: void __thiscall sbicu_58::UnicodeString::swap(class sbicu_58::UnicodeString &)` | 1761 | Exported Function
-`public: void __thiscall sbicu_58::UVector::setElementAt(void *,int)` | 1661 | Exported Function
+`UVector64` | 602 | Exported Function
+`addElement` | 538 | Exported Function
+`insertElementAt` | 1292 | Exported Function
+`setElementAt` | 1659 | Exported Function
+`removeAllElements` | 1582 | Exported Function
+`setElementAt` | 1658 | Exported Function
+`removeElementAt` | 1587 | Exported Function
+`setMaxCapacity` | 1676 | Exported Function
+`sortedInsert` | 1739 | Exported Function
+`setSize` | 1684 | Exported Function
+`insertElementAt` | 1294 | Exported Function
+`insertElementAt` | 1293 | Exported Function
+`removeAllElements` | 1583 | Exported Function
+`setElementAt` | 1660 | Exported Function
+`removeElementAt` | 1588 | Exported Function
+`setSize` | 1685 | Exported Function
+`setMaxCapacity` | 1677 | Exported Function
+`addElement` | 539 | Exported Function
+`UVector` | 603 | Exported Function
+`addElement` | 540 | Exported Function
+`removeAllElements` | 1581 | Exported Function
+`UnicodeSet` | 1625 | Exported Function
+`setToBogus` | 1704 | Exported Function
+`reset` | 1626 | Exported Function
+`extract` | 855 | Exported Function
+`UnicodeString` | 854 | Exported Function
+`remove_suffix` | 1597 | Exported Function
+`remove_prefix` | 1596 | Exported Function
+`set` | 1647 | Exported Function
+`setText` | 1694 | Exported Function
+`set` | 1648 | Exported Function
+`setEvictionPolicy` | 1663 | Exported Function
+`flush` | 886 | Exported Function
+`addElement` | 537 | Exported Function
+`insertElementAt` | 1291 | Exported Function
+`UVector32` | 601 | Exported Function
+`releaseBuffer` | 1566 | Exported Function
+`extractBetween` | 856 | Exported Function
+`setToBogus` | 1705 | Exported Function
+`ByteSink` | 1783 | Exported Function
+`UnicodeString` | 1761 | Exported Function
+`setElementAt` | 1661 | Exported Function
 `res_getString_58` | 1847 | Exported Function
 `res_getResource_58` | 1846 | Exported Function
 `res_getTableItemByIndex_58` | 1848 | Exported Function
@@ -85,116 +85,116 @@ Function Name | Ordinal | Type
 `u_austrcpy_58` | 1852 | Exported Function
 `u_caseInsensitivePrefixMatch_58` | 1854 | Exported Function
 `u_austrncpy_58` | 1853 | Exported Function
-`signed char __cdecl sbicu_58::umtx_initImplPreInit(struct sbicu_58::UInitOnce &)` | 1794 | Exported Function
-`signed char __cdecl sbicu_58::operator==(class sbicu_58::StringPiece const &,class sbicu_58::StringPiece const &)` | 381 | Exported Function
+`UInitOnce` | 1794 | Exported Function
+`StringPiece` | 381 | Exported Function
 `T_CString_int64ToString_58` | 1826 | Exported Function
 `T_CString_stringToInteger_58` | 1828 | Exported Function
 `T_CString_integerToString_58` | 1827 | Exported Function
 `res_countArrayItems_58` | 1840 | Exported Function
-`public: void const * __thiscall sbicu_58::ICUService::registerInstance(class sbicu_58::UObject *,class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 1560 | Exported Function
-`public: void __thiscall sbicu_58::UVector::sortWithUComparator(int (__cdecl*)(void const *,void const *,void const *),void const *,enum UErrorCode &)` | 1738 | Exported Function
-`public: wchar_t * __thiscall sbicu_58::ReorderingBuffer::getLimit(void)` | 1065 | Exported Function
-`public: wchar_t * __thiscall sbicu_58::UnicodeString::getBuffer(int)` | 934 | Exported Function
-`public: wchar_t * __thiscall sbicu_58::ReorderingBuffer::getStart(void)` | 1137 | Exported Function
-`public: void __thiscall sbicu_58::UVector::sort(signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1737 | Exported Function
-`public: void __thiscall sbicu_58::UVector::setSize(int,enum UErrorCode &)` | 1686 | Exported Function
-`public: void __thiscall sbicu_58::UVector::sortedInsert(int,signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1741 | Exported Function
-`public: void __thiscall sbicu_58::UVector::sorti(enum UErrorCode &)` | 1743 | Exported Function
-`public: void __thiscall sbicu_58::UVector::sortedInsert(void *,signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1742 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::getRawDecomposition(int,wchar_t * const,int &)const ` | 1120 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::getDecomposition(int,wchar_t * const,int &)const ` | 963 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::makeFCD(wchar_t const *,wchar_t const *,class sbicu_58::ReorderingBuffer *,enum UErrorCode &)const ` | 1432 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::UnicodeString::getTerminatedBuffer(void)` | 1178 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::UnicodeString::getBuffer(void)const ` | 935 | Exported Function
-`public: wchar_t __thiscall sbicu_58::UnicodeString::charAt(int)const ` | 635 | Exported Function
-`public: wchar_t __thiscall sbicu_58::Replaceable::charAt(int)const ` | 633 | Exported Function
-`public: wchar_t __thiscall sbicu_58::UnicodeString::operator[](int)const ` | 402 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::decompose(wchar_t const *,wchar_t const *,class sbicu_58::ReorderingBuffer *,enum UErrorCode &)const ` | 781 | Exported Function
-`public: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::composeQuickCheck(wchar_t const *,wchar_t const *,signed char,enum UNormalizationCheckResult *)const ` | 693 | Exported Function
-`public: void __thiscall sbicu_58::StringPiece::clear(void)` | 641 | Exported Function
-`public: void * __thiscall sbicu_58::UStack::peek(void)const ` | 1513 | Exported Function
-`public: void * __thiscall sbicu_58::Hashtable::remove(class sbicu_58::UnicodeString const &)` | 1568 | Exported Function
-`public: void * __thiscall sbicu_58::UStack::pop(void)` | 1519 | Exported Function
-`public: void * __thiscall sbicu_58::UVector::elementAt(int)const ` | 813 | Exported Function
-`public: void * __thiscall sbicu_58::UStack::push(void *,enum UErrorCode &)` | 1538 | Exported Function
-`public: void (__cdecl*__thiscall sbicu_58::UVector::setDeleter(void (__cdecl*)(void *)))(void *)` | 1657 | Exported Function
-`public: void (__cdecl*__thiscall sbicu_58::Hashtable::setValueDeleter(void (__cdecl*)(void *)))(void *)` | 1711 | Exported Function
-`public: void * * __thiscall sbicu_58::UVector::toArray(void * *)const ` | 1766 | Exported Function
-`public: void * __thiscall sbicu_58::Hashtable::put(class sbicu_58::UnicodeString const &,void *,enum UErrorCode &)` | 1541 | Exported Function
-`public: void * __thiscall sbicu_58::Hashtable::get(class sbicu_58::UnicodeString const &)const ` | 904 | Exported Function
-`public: void __thiscall sbicu_58::ErrorCode::assertSuccess(void)const ` | 600 | Exported Function
-`public: void __thiscall sbicu_58::CanonicalIterator::setSource(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 1687 | Exported Function
-`public: void __thiscall sbicu_58::ErrorCode::set(enum UErrorCode)` | 1646 | Exported Function
-`public: void __thiscall sbicu_58::Locale::setKeywordValue(char const *,char const *,enum UErrorCode &)` | 1671 | Exported Function
-`public: void __thiscall sbicu_58::Hashtable::removeAll(void)` | 1576 | Exported Function
-`public: void * __thiscall sbicu_58::UVector::lastElement(void)const ` | 1406 | Exported Function
-`public: void * __thiscall sbicu_58::UVector::firstElement(void)const ` | 882 | Exported Function
-`public: void * __thiscall sbicu_58::UVector::operator[](int)const ` | 401 | Exported Function
-`public: void __thiscall sbicu_58::CanonicalIterator::reset(void)` | 1615 | Exported Function
-`public: void * __thiscall sbicu_58::UVector::orphanElementAt(int)` | 1488 | Exported Function
-`public: virtual wchar_t const * __thiscall sbicu_58::StringEnumeration::unext(int *,enum UErrorCode &)` | 1798 | Exported Function
-`public: virtual void const * __thiscall sbicu_58::ICULocaleService::registerInstance(class sbicu_58::UObject *,class sbicu_58::UnicodeString const &,signed char,enum UErrorCode &)` | 1559 | Exported Function
-`public: virtual void const * __thiscall sbicu_58::ICULocaleService::registerInstance(class sbicu_58::UObject *,class sbicu_58::Locale const &,int,int,enum UErrorCode &)` | 1558 | Exported Function
-`public: virtual void const * __thiscall sbicu_58::ICUService::registerFactory(class sbicu_58::ICUServiceFactory *,enum UErrorCode &)` | 1553 | Exported Function
-`public: virtual wchar_t * __thiscall sbicu_58::Appendable::getAppendBuffer(int,int,wchar_t *,int,int *)` | 916 | Exported Function
-`public: virtual void const * __thiscall sbicu_58::ICUService::registerInstance(class sbicu_58::UObject *,class sbicu_58::UnicodeString const &,signed char,enum UErrorCode &)` | 1561 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnifiedCache::incrementItemsInUse(void)const ` | 1252 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnifiedCache::decrementItemsInUseWithLockingAndEviction(void)const ` | 787 | Exported Function
-`public: virtual void __thiscall sbicu_58::UStringEnumeration::reset(enum UErrorCode &)` | 1624 | Exported Function
-`public: virtual void const * __thiscall sbicu_58::ICULocaleService::registerInstance(class sbicu_58::UObject *,class sbicu_58::Locale const &,int,enum UErrorCode &)` | 1557 | Exported Function
-`public: virtual void const * __thiscall sbicu_58::ICULocaleService::registerInstance(class sbicu_58::UObject *,class sbicu_58::Locale const &,enum UErrorCode &)` | 1556 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::next(void)` | 1464 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::last(void)` | 1405 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::nextPostInc(void)` | 1475 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::setIndex(int)` | 1667 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::previous(void)` | 1533 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::CharacterIterator::firstPostInc(void)` | 884 | Exported Function
-`public: virtual wchar_t * __thiscall sbicu_58::UnicodeStringAppendable::getAppendBuffer(int,int,wchar_t *,int,int *)` | 918 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::current(void)const ` | 768 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::firstPostInc(void)` | 885 | Exported Function
-`public: virtual wchar_t __thiscall sbicu_58::UCharCharacterIterator::first(void)` | 880 | Exported Function
-`public: void __thiscall sbicu_58::Locale::setToBogus(void)` | 1703 | Exported Function
-`public: void __thiscall sbicu_58::ReorderingBuffer::removeSuffix(int)` | 1595 | Exported Function
-`public: void __thiscall sbicu_58::ReorderingBuffer::remove(void)` | 1569 | Exported Function
-`public: void __thiscall sbicu_58::ReorderingBuffer::setLastChar(wchar_t)` | 1672 | Exported Function
-`public: void __thiscall sbicu_58::ResourceBundle::getVersion(unsigned char * const)const ` | 1204 | Exported Function
-`public: void __thiscall sbicu_58::ReorderingBuffer::setReorderingLimit(wchar_t *)` | 1682 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::setText(wchar_t const *,int,enum UErrorCode &)` | 1690 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::setText(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 1689 | Exported Function
-`public: void __thiscall sbicu_58::ParsePosition::setErrorIndex(int)` | 1662 | Exported Function
-`public: void __thiscall sbicu_58::ReorderingBuffer::copyReorderableSuffixTo(class sbicu_58::UnicodeString &)const ` | 721 | Exported Function
-`public: void __thiscall sbicu_58::ParsePosition::setIndex(int)` | 1666 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::removeRef(void)const ` | 1591 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::registerWithCache(class sbicu_58::UnifiedCacheBase const *)const ` | 1563 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::removeRefWhileHoldingCacheLock(void)const ` | 1593 | Exported Function
-`public: void __thiscall sbicu_58::StringCharacterIterator::setText(class sbicu_58::UnicodeString const &)` | 1693 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::removeSoftRef(void)const ` | 1594 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::addRef(void)const ` | 548 | Exported Function
-`public: void __thiscall sbicu_58::ResourceBundle::resetIterator(void)` | 1627 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::addRefWhileHoldingCacheLock(void)const ` | 550 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::deleteIfZeroRefCount(void)const ` | 789 | Exported Function
-`public: void __thiscall sbicu_58::SharedObject::addSoftRef(void)const ` | 551 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::setText(class sbicu_58::CharacterIterator const &,enum UErrorCode &)` | 1688 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::addCanonIterPropertyStarts(struct USetAdder const *,enum UErrorCode &)const ` | 535 | Exported Function
-`public: void __thiscall sbicu_58::Mutex::``default constructor closure'(void)` | 482 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::addLcccChars(class sbicu_58::UnicodeSet &)const ` | 541 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::composeAndAppend(wchar_t const *,wchar_t const *,signed char,signed char,class sbicu_58::UnicodeString &,class sbicu_58::ReorderingBuffer &,enum UErrorCode &)const ` | 689 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::addPropertyStarts(struct USetAdder const *,enum UErrorCode &)const ` | 546 | Exported Function
-`public: void __thiscall sbicu_58::LocaleBased::setLocaleIDs(class sbicu_58::Locale const &,class sbicu_58::Locale const &)` | 1674 | Exported Function
-`public: void __thiscall sbicu_58::LocaleBased::setLocaleIDs(char const *,char const *)` | 1675 | Exported Function
-`public: void __thiscall sbicu_58::MaybeStackArray<char,40>::aliasInstead(char *,int)` | 554 | Exported Function
-`public: void __thiscall sbicu_58::MessagePattern::clearPatternAndSetApostropheMode(enum UMessagePatternApostropheMode)` | 646 | Exported Function
-`public: void __thiscall sbicu_58::MessagePattern::clear(void)` | 640 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::reset(void)` | 1621 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::getText(class sbicu_58::UnicodeString &)` | 1179 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::setIndexOnly(int)` | 1668 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::setOption(int,signed char)` | 1679 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer::setMode(enum UNormalizationMode)` | 1678 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::decomposeAndAppend(wchar_t const *,wchar_t const *,signed char,class sbicu_58::UnicodeString &,class sbicu_58::ReorderingBuffer &,enum UErrorCode &)const ` | 784 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::decompose(wchar_t const *,wchar_t const *,class sbicu_58::UnicodeString &,int,enum UErrorCode &)const ` | 782 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::init(int const *,struct UTrie2 const *,unsigned short const *,unsigned char const *)` | 1276 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::makeFCDAndAppend(wchar_t const *,wchar_t const *,signed char,class sbicu_58::UnicodeString &,class sbicu_58::ReorderingBuffer &,enum UErrorCode &)const ` | 1433 | Exported Function
-`public: void __thiscall sbicu_58::Normalizer2Impl::makeCanonIterDataFromNorm16(int,int,unsigned short,struct sbicu_58::CanonIterData &,enum UErrorCode &)const ` | 1431 | Exported Function
+`UnicodeString` | 1560 | Exported Function
+`sortWithUComparator` | 1738 | Exported Function
+`getLimit` | 1065 | Exported Function
+`getBuffer` | 934 | Exported Function
+`getStart` | 1137 | Exported Function
+`sort` | 1737 | Exported Function
+`setSize` | 1686 | Exported Function
+`sortedInsert` | 1741 | Exported Function
+`sorti` | 1743 | Exported Function
+`sortedInsert` | 1742 | Exported Function
+`getRawDecomposition` | 1120 | Exported Function
+`getDecomposition` | 963 | Exported Function
+`ReorderingBuffer` | 1432 | Exported Function
+`getTerminatedBuffer` | 1178 | Exported Function
+`getBuffer` | 935 | Exported Function
+`charAt` | 635 | Exported Function
+`charAt` | 633 | Exported Function
+`operator` | 402 | Exported Function
+`ReorderingBuffer` | 781 | Exported Function
+`composeQuickCheck` | 693 | Exported Function
+`clear` | 641 | Exported Function
+`peek` | 1513 | Exported Function
+`UnicodeString` | 1568 | Exported Function
+`pop` | 1519 | Exported Function
+`elementAt` | 813 | Exported Function
+`push` | 1538 | Exported Function
+`setDeleter` | 1657 | Exported Function
+`setValueDeleter` | 1711 | Exported Function
+`toArray` | 1766 | Exported Function
+`UnicodeString` | 1541 | Exported Function
+`UnicodeString` | 904 | Exported Function
+`assertSuccess` | 600 | Exported Function
+`UnicodeString` | 1687 | Exported Function
+`set` | 1646 | Exported Function
+`setKeywordValue` | 1671 | Exported Function
+`removeAll` | 1576 | Exported Function
+`lastElement` | 1406 | Exported Function
+`firstElement` | 882 | Exported Function
+`operator` | 401 | Exported Function
+`reset` | 1615 | Exported Function
+`orphanElementAt` | 1488 | Exported Function
+`unext` | 1798 | Exported Function
+`UnicodeString` | 1559 | Exported Function
+`Locale` | 1558 | Exported Function
+`ICUServiceFactory` | 1553 | Exported Function
+`getAppendBuffer` | 916 | Exported Function
+`UnicodeString` | 1561 | Exported Function
+`incrementItemsInUse` | 1252 | Exported Function
+`decrementItemsInUseWithLockingAndEviction` | 787 | Exported Function
+`reset` | 1624 | Exported Function
+`Locale` | 1557 | Exported Function
+`Locale` | 1556 | Exported Function
+`next` | 1464 | Exported Function
+`last` | 1405 | Exported Function
+`nextPostInc` | 1475 | Exported Function
+`setIndex` | 1667 | Exported Function
+`previous` | 1533 | Exported Function
+`firstPostInc` | 884 | Exported Function
+`getAppendBuffer` | 918 | Exported Function
+`current` | 768 | Exported Function
+`firstPostInc` | 885 | Exported Function
+`first` | 880 | Exported Function
+`setToBogus` | 1703 | Exported Function
+`removeSuffix` | 1595 | Exported Function
+`remove` | 1569 | Exported Function
+`setLastChar` | 1672 | Exported Function
+`getVersion` | 1204 | Exported Function
+`setReorderingLimit` | 1682 | Exported Function
+`setText` | 1690 | Exported Function
+`UnicodeString` | 1689 | Exported Function
+`setErrorIndex` | 1662 | Exported Function
+`UnicodeString` | 721 | Exported Function
+`setIndex` | 1666 | Exported Function
+`removeRef` | 1591 | Exported Function
+`UnifiedCacheBase` | 1563 | Exported Function
+`removeRefWhileHoldingCacheLock` | 1593 | Exported Function
+`UnicodeString` | 1693 | Exported Function
+`removeSoftRef` | 1594 | Exported Function
+`addRef` | 548 | Exported Function
+`resetIterator` | 1627 | Exported Function
+`addRefWhileHoldingCacheLock` | 550 | Exported Function
+`deleteIfZeroRefCount` | 789 | Exported Function
+`addSoftRef` | 551 | Exported Function
+`CharacterIterator` | 1688 | Exported Function
+`addCanonIterPropertyStarts` | 535 | Exported Function
+`Mutex` | 482 | Exported Function
+`UnicodeSet` | 541 | Exported Function
+`ReorderingBuffer` | 689 | Exported Function
+`addPropertyStarts` | 546 | Exported Function
+`Locale` | 1674 | Exported Function
+`setLocaleIDs` | 1675 | Exported Function
+`aliasInstead` | 554 | Exported Function
+`clearPatternAndSetApostropheMode` | 646 | Exported Function
+`clear` | 640 | Exported Function
+`reset` | 1621 | Exported Function
+`UnicodeString` | 1179 | Exported Function
+`setIndexOnly` | 1668 | Exported Function
+`setOption` | 1679 | Exported Function
+`setMode` | 1678 | Exported Function
+`ReorderingBuffer` | 784 | Exported Function
+`UnicodeString` | 782 | Exported Function
+`init` | 1276 | Exported Function
+`ReorderingBuffer` | 1433 | Exported Function
+`CanonIterData` | 1431 | Exported Function
 `u_catclose_58` | 1855 | Exported Function
 `u_strncpy_58` | 1976 | Exported Function
 `u_strncmpCodePointOrder_58` | 1974 | Exported Function
@@ -363,341 +363,341 @@ Function Name | Ordinal | Type
 `u_islower_58` | 1916 | Exported Function
 `u_isprint_58` | 1917 | Exported Function
 `u_isMirrored_58` | 1902 | Exported Function
-`public: virtual __thiscall sbicu_58::Replaceable::~Replaceable(void)` | 266 | Exported Function
-`public: virtual __thiscall sbicu_58::ParsePosition::~ParsePosition(void)` | 264 | Exported Function
-`public: virtual __thiscall sbicu_58::ResourceBundle::~ResourceBundle(void)` | 267 | Exported Function
-`public: virtual __thiscall sbicu_58::ResourceValue::~ResourceValue(void)` | 269 | Exported Function
-`public: virtual __thiscall sbicu_58::ResourceSink::~ResourceSink(void)` | 268 | Exported Function
-`public: virtual __thiscall sbicu_58::MessagePattern::~MessagePattern(void)` | 259 | Exported Function
-`public: virtual __thiscall sbicu_58::LocaleKeyFactory::~LocaleKeyFactory(void)` | 258 | Exported Function
-`public: virtual __thiscall sbicu_58::Normalizer2::~Normalizer2(void)` | 261 | Exported Function
-`public: virtual __thiscall sbicu_58::Normalizer::~Normalizer(void)` | 263 | Exported Function
-`public: virtual __thiscall sbicu_58::Normalizer2Impl::~Normalizer2Impl(void)` | 262 | Exported Function
-`public: virtual __thiscall sbicu_58::StringCharacterIterator::~StringCharacterIterator(void)` | 277 | Exported Function
-`public: virtual __thiscall sbicu_58::SimpleLocaleKeyFactory::~SimpleLocaleKeyFactory(void)` | 276 | Exported Function
-`public: virtual __thiscall sbicu_58::StringEnumeration::~StringEnumeration(void)` | 278 | Exported Function
-`public: virtual __thiscall sbicu_58::UCharCharacterIterator::~UCharCharacterIterator(void)` | 282 | Exported Function
-`public: virtual __thiscall sbicu_58::SymbolTable::~SymbolTable(void)` | 281 | Exported Function
-`public: virtual __thiscall sbicu_58::ServiceListener::~ServiceListener(void)` | 271 | Exported Function
-`public: virtual __thiscall sbicu_58::RuleBasedBreakIterator::~RuleBasedBreakIterator(void)` | 270 | Exported Function
-`public: virtual __thiscall sbicu_58::SharedObject::~SharedObject(void)` | 272 | Exported Function
-`public: virtual __thiscall sbicu_58::SimpleFilteredBreakIteratorBuilder::~SimpleFilteredBreakIteratorBuilder(void)` | 274 | Exported Function
-`public: virtual __thiscall sbicu_58::SimpleFactory::~SimpleFactory(void)` | 273 | Exported Function
-`public: virtual __thiscall sbicu_58::LocaleKey::~LocaleKey(void)` | 257 | Exported Function
-`public: virtual __thiscall sbicu_58::EventListener::~EventListener(void)` | 240 | Exported Function
-`public: virtual __thiscall sbicu_58::ErrorCode::~ErrorCode(void)` | 239 | Exported Function
-`public: virtual __thiscall sbicu_58::FilteredBreakIteratorBuilder::~FilteredBreakIteratorBuilder(void)` | 241 | Exported Function
-`public: virtual __thiscall sbicu_58::ForwardCharacterIterator::~ForwardCharacterIterator(void)` | 243 | Exported Function
-`public: virtual __thiscall sbicu_58::FilteredNormalizer2::~FilteredNormalizer2(void)` | 242 | Exported Function
-`public: virtual __thiscall sbicu_58::CharacterIterator::~CharacterIterator(void)` | 235 | Exported Function
-`public: virtual __thiscall sbicu_58::CanonicalIterator::~CanonicalIterator(void)` | 233 | Exported Function
-`public: virtual __thiscall sbicu_58::CheckedArrayByteSink::~CheckedArrayByteSink(void)` | 236 | Exported Function
-`public: virtual __thiscall sbicu_58::DictionaryMatcher::~DictionaryMatcher(void)` | 238 | Exported Function
-`public: virtual __thiscall sbicu_58::DateInterval::~DateInterval(void)` | 237 | Exported Function
-`public: virtual __thiscall sbicu_58::IDNA::~IDNA(void)` | 251 | Exported Function
-`public: virtual __thiscall sbicu_58::ICUServiceKey::~ICUServiceKey(void)` | 250 | Exported Function
-`public: virtual __thiscall sbicu_58::ListFormatter::~ListFormatter(void)` | 254 | Exported Function
-`public: virtual __thiscall sbicu_58::LocaleDisplayNames::~LocaleDisplayNames(void)` | 256 | Exported Function
-`public: virtual __thiscall sbicu_58::Locale::~Locale(void)` | 255 | Exported Function
-`public: virtual __thiscall sbicu_58::ICUNotifier::~ICUNotifier(void)` | 246 | Exported Function
-`public: virtual __thiscall sbicu_58::ICULocaleService::~ICULocaleService(void)` | 245 | Exported Function
-`public: virtual __thiscall sbicu_58::ICUResourceBundleFactory::~ICUResourceBundleFactory(void)` | 247 | Exported Function
-`public: virtual __thiscall sbicu_58::ICUServiceFactory::~ICUServiceFactory(void)` | 249 | Exported Function
-`public: virtual __thiscall sbicu_58::ICUService::~ICUService(void)` | 248 | Exported Function
-`public: virtual __thiscall sbicu_58::UCharsDictionaryMatcher::~UCharsDictionaryMatcher(void)` | 283 | Exported Function
-`public: virtual class sbicu_58::CheckedArrayByteSink & __thiscall sbicu_58::CheckedArrayByteSink::Reset(void)` | 493 | Exported Function
-`public: virtual class sbicu_58::CharacterIterator * __thiscall sbicu_58::UCharCharacterIterator::clone(void)const ` | 658 | Exported Function
-`public: virtual class sbicu_58::DateInterval * __thiscall sbicu_58::DateInterval::clone(void)const ` | 649 | Exported Function
-`public: virtual class sbicu_58::Locale & __thiscall sbicu_58::LocaleKey::canonicalLocale(class sbicu_58::Locale &)const ` | 621 | Exported Function
-`public: virtual class sbicu_58::ICUServiceKey * __thiscall sbicu_58::ICUService::createKey(class sbicu_58::UnicodeString const *,enum UErrorCode &)const ` | 752 | Exported Function
-`public: virtual class sbicu_58::BreakIterator * __thiscall sbicu_58::RuleBasedBreakIterator::createBufferClone(void *,int &,enum UErrorCode &)` | 734 | Exported Function
-`public: virtual class sbicu_58::BreakIterator * __thiscall sbicu_58::RuleBasedBreakIterator::clone(void)const ` | 655 | Exported Function
-`public: virtual class sbicu_58::BreakIterator * __thiscall sbicu_58::SimpleFilteredBreakIteratorBuilder::build(class sbicu_58::BreakIterator *,enum UErrorCode &)` | 611 | Exported Function
-`public: virtual class sbicu_58::CharacterIterator * __thiscall sbicu_58::StringCharacterIterator::clone(void)const ` | 656 | Exported Function
-`public: virtual class sbicu_58::CharacterIterator & __thiscall sbicu_58::RuleBasedBreakIterator::getText(void)const ` | 1180 | Exported Function
-`public: virtual class sbicu_58::UnicodeFunctor * __thiscall sbicu_58::UnicodeSet::clone(void)const ` | 659 | Exported Function
-`public: virtual class sbicu_58::StringEnumeration * __thiscall sbicu_58::StringEnumeration::clone(void)const ` | 657 | Exported Function
-`public: virtual class sbicu_58::UnicodeMatcher * __thiscall sbicu_58::UnicodeFilter::toMatcher(void)const ` | 1771 | Exported Function
-`public: virtual class sbicu_58::UnicodeReplacer * __thiscall sbicu_58::UnicodeFunctor::toReplacer(void)const ` | 1774 | Exported Function
-`public: virtual class sbicu_58::UnicodeMatcher * __thiscall sbicu_58::UnicodeFunctor::toMatcher(void)const ` | 1772 | Exported Function
-`public: virtual class sbicu_58::Replaceable * __thiscall sbicu_58::Replaceable::clone(void)const ` | 653 | Exported Function
-`public: virtual class sbicu_58::Locale & __thiscall sbicu_58::LocaleKey::currentLocale(class sbicu_58::Locale &)const ` | 774 | Exported Function
-`public: virtual class sbicu_58::Replaceable * __thiscall sbicu_58::UnicodeString::clone(void)const ` | 660 | Exported Function
-`public: virtual class sbicu_58::StringEnumeration * __thiscall sbicu_58::ICULocaleService::getAvailableLocales(void)const ` | 927 | Exported Function
-`public: virtual class sbicu_58::RuleBasedBreakIterator & __thiscall sbicu_58::RuleBasedBreakIterator::refreshInputText(struct UText *,enum UErrorCode &)` | 1552 | Exported Function
-`public: virtual char const * __thiscall sbicu_58::UStringEnumeration::next(int *,enum UErrorCode &)` | 1467 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeString::~UnicodeString(void)` | 298 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeSetIterator::~UnicodeSetIterator(void)` | 297 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeStringAppendable::~UnicodeStringAppendable(void)` | 299 | Exported Function
-`public: virtual __thiscall sbicu_58::UnifiedCacheBase::~UnifiedCacheBase(void)` | 301 | Exported Function
-`public: virtual __thiscall sbicu_58::UnifiedCache::~UnifiedCache(void)` | 300 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeFilter::~UnicodeFilter(void)` | 293 | Exported Function
-`public: virtual __thiscall sbicu_58::UCharsTrieBuilder::~UCharsTrieBuilder(void)` | 285 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeFunctor::~UnicodeFunctor(void)` | 294 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeSet::~UnicodeSet(void)` | 296 | Exported Function
-`public: virtual __thiscall sbicu_58::UnicodeMatcher::~UnicodeMatcher(void)` | 295 | Exported Function
-`public: virtual __thiscall sbicu_58::UVector::~UVector(void)` | 292 | Exported Function
-`public: virtual __thiscall sbicu_58::UVector64::~UVector64(void)` | 291 | Exported Function
-`public: virtual char * __thiscall sbicu_58::ByteSink::GetAppendBuffer(int,int,char *,int,int *)` | 487 | Exported Function
-`public: virtual char const * __thiscall sbicu_58::StringEnumeration::next(int *,enum UErrorCode &)` | 1463 | Exported Function
-`public: virtual char * __thiscall sbicu_58::CheckedArrayByteSink::GetAppendBuffer(int,int,char *,int,int *)` | 488 | Exported Function
-`public: virtual __thiscall sbicu_58::UStack::~UStack(void)` | 287 | Exported Function
-`public: virtual __thiscall sbicu_58::UObject::~UObject(void)` | 286 | Exported Function
-`public: virtual __thiscall sbicu_58::UStringEnumeration::~UStringEnumeration(void)` | 288 | Exported Function
-`public: virtual __thiscall sbicu_58::UVector32::~UVector32(void)` | 290 | Exported Function
-`public: virtual __thiscall sbicu_58::UStringSet::~UStringSet(void)` | 289 | Exported Function
-`public: virtual __thiscall sbicu_58::CacheKeyBase::~CacheKeyBase(void)` | 232 | Exported Function
-`public: static void * __cdecl sbicu_58::UCharCharacterIterator::getStaticClassID(void)` | 1154 | Exported Function
-`public: static void * __cdecl sbicu_58::StringCharacterIterator::getStaticClassID(void)` | 1153 | Exported Function
-`public: static void * __cdecl sbicu_58::UMemory::operator new(unsigned int)` | 302 | Exported Function
-`public: static void * __cdecl sbicu_58::UMemory::operator new(unsigned int,void *)` | 303 | Exported Function
-`public: static void * __cdecl sbicu_58::UMemory::operator new(unsigned int,char const *,int)` | 304 | Exported Function
-`public: static void * __cdecl sbicu_58::RuleBasedBreakIterator::getStaticClassID(void)` | 1149 | Exported Function
-`public: static void * __cdecl sbicu_58::ResourceBundle::getStaticClassID(void)` | 1148 | Exported Function
-`public: static void * __cdecl sbicu_58::ServiceListener::getStaticClassID(void)` | 1150 | Exported Function
-`public: static void * __cdecl sbicu_58::SimpleLocaleKeyFactory::getStaticClassID(void)` | 1152 | Exported Function
-`public: static void * __cdecl sbicu_58::SimpleFactory::getStaticClassID(void)` | 1151 | Exported Function
-`public: static void * __cdecl sbicu_58::UStack::getStaticClassID(void)` | 1155 | Exported Function
-`public: static void * __cdecl sbicu_58::UnicodeString::getStaticClassID(void)` | 1164 | Exported Function
-`public: static void * __cdecl sbicu_58::UStringEnumeration::getStaticClassID(void)` | 1156 | Exported Function
-`public: static void * __cdecl sbicu_58::UVector64::getStaticClassID(void)` | 1158 | Exported Function
-`public: static void * __cdecl sbicu_58::UVector32::getStaticClassID(void)` | 1157 | Exported Function
-`public: static void * __cdecl sbicu_58::UnicodeFilter::getStaticClassID(void)` | 1160 | Exported Function
-`public: static void * __cdecl sbicu_58::UMemory::operator new[](unsigned int)` | 483 | Exported Function
-`public: static void * __cdecl sbicu_58::UnicodeFunctor::getStaticClassID(void)` | 1161 | Exported Function
-`public: static void * __cdecl sbicu_58::UnicodeSetIterator::getStaticClassID(void)` | 1163 | Exported Function
-`public: static void * __cdecl sbicu_58::UnicodeSet::getStaticClassID(void)` | 1162 | Exported Function
-`public: static void * __cdecl sbicu_58::ParsePosition::getStaticClassID(void)` | 1147 | Exported Function
-`public: static signed char __cdecl sbicu_58::PatternProps::isWhiteSpace(int)` | 1353 | Exported Function
-`public: static signed char __cdecl sbicu_58::PatternProps::isSyntaxOrWhiteSpace(int)` | 1350 | Exported Function
-`public: static signed char __cdecl sbicu_58::StringTrieBuilder::equalNodes(void const *,void const *)` | 837 | Exported Function
-`public: static signed char __cdecl sbicu_58::UnicodeSet::resemblesPattern(class sbicu_58::UnicodeString const &,int)` | 1607 | Exported Function
-`public: static signed char __cdecl sbicu_58::StringTrieBuilder::hashNode(void const *)` | 1249 | Exported Function
-`public: static signed char __cdecl sbicu_58::Normalizer::isNormalized(class sbicu_58::UnicodeString const &,enum UNormalizationMode,enum UErrorCode &)` | 1341 | Exported Function
-`public: static signed char __cdecl sbicu_58::MessageImpl::jdkAposMode(class sbicu_58::MessagePattern const &)` | 1355 | Exported Function
-`public: static signed char __cdecl sbicu_58::Normalizer::isNormalized(class sbicu_58::UnicodeString const &,enum UNormalizationMode,int,enum UErrorCode &)` | 1342 | Exported Function
-`public: static signed char __cdecl sbicu_58::PatternProps::isSyntax(int)` | 1349 | Exported Function
-`public: static signed char __cdecl sbicu_58::PatternProps::isIdentifier(wchar_t const *,int)` | 1330 | Exported Function
-`public: static void * __cdecl sbicu_58::Locale::getStaticClassID(void)` | 1143 | Exported Function
-`public: static void * __cdecl sbicu_58::ICUServiceKey::getStaticClassID(void)` | 1142 | Exported Function
-`public: static void * __cdecl sbicu_58::LocaleKey::getStaticClassID(void)` | 1144 | Exported Function
-`public: static void * __cdecl sbicu_58::Normalizer::getStaticClassID(void)` | 1146 | Exported Function
-`public: static void * __cdecl sbicu_58::LocaleKeyFactory::getStaticClassID(void)` | 1145 | Exported Function
-`public: static void * __cdecl sbicu_58::CanonicalIterator::getStaticClassID(void)` | 1138 | Exported Function
-`public: static unsigned char __cdecl sbicu_58::Normalizer2Impl::getCCFromYesOrMaybe(unsigned short)` | 938 | Exported Function
-`public: static void * __cdecl sbicu_58::DateInterval::getStaticClassID(void)` | 1139 | Exported Function
-`public: static void * __cdecl sbicu_58::ICUResourceBundleFactory::getStaticClassID(void)` | 1141 | Exported Function
-`public: static void * __cdecl sbicu_58::EventListener::getStaticClassID(void)` | 1140 | Exported Function
-`public: static void * __cdecl sbicu_58::UVector::getStaticClassID(void)` | 1159 | Exported Function
-`public: unsigned int __thiscall sbicu_58::Locale::getLCID(void)const ` | 1059 | Exported Function
-`public: unsigned int __thiscall sbicu_58::IDNAInfo::getErrors(void)const ` | 1020 | Exported Function
-`public: unsigned int __thiscall sbicu_58::ResourceArray::internalGetResource(struct ResourceData const *,int)const ` | 1295 | Exported Function
-`public: unsigned short __thiscall sbicu_58::Normalizer2Impl::getFCD16(int)const ` | 1022 | Exported Function
-`public: unsigned int __thiscall sbicu_58::ResourceBundle::getUInt(enum UErrorCode &)const ` | 1192 | Exported Function
-`public: struct UTrie2 const * __thiscall sbicu_58::Normalizer2Impl::getNormTrie(void)const ` | 1105 | Exported Function
-`public: struct USet const * __thiscall sbicu_58::UnicodeSet::toUSet(void)const ` | 1780 | Exported Function
-`public: unsigned char __thiscall sbicu_58::Normalizer2Impl::getCC(unsigned short)const ` | 936 | Exported Function
-`public: unsigned char const * __thiscall sbicu_58::ResourceBundle::getBinary(int &,enum UErrorCode &)const ` | 930 | Exported Function
-`public: unsigned char __thiscall sbicu_58::ReorderingBuffer::getLastCC(void)const ` | 1062 | Exported Function
-`public: virtual __thiscall sbicu_58::BreakIterator::~BreakIterator(void)` | 226 | Exported Function
-`public: virtual __thiscall sbicu_58::Appendable::~Appendable(void)` | 225 | Exported Function
-`public: virtual __thiscall sbicu_58::BytesDictionaryMatcher::~BytesDictionaryMatcher(void)` | 228 | Exported Function
-`public: virtual __thiscall sbicu_58::BytesTrieBuilder::~BytesTrieBuilder(void)` | 230 | Exported Function
-`public: virtual __thiscall sbicu_58::ByteSink::~ByteSink(void)` | 227 | Exported Function
-`public: unsigned short __thiscall sbicu_58::Normalizer2Impl::getFCD16FromNormData(int)const ` | 1024 | Exported Function
-`public: unsigned short __thiscall sbicu_58::Normalizer2Impl::getFCD16FromBelow180(int)const ` | 1023 | Exported Function
-`public: unsigned short __thiscall sbicu_58::Normalizer2Impl::getNorm16(int)const ` | 1104 | Exported Function
-`public: unsigned short __thiscall sbicu_58::Normalizer2Impl::previousFCD16(wchar_t const *,wchar_t const * &)const ` | 1535 | Exported Function
-`public: unsigned short __thiscall sbicu_58::Normalizer2Impl::nextFCD16(wchar_t const * &,wchar_t const *)const ` | 1470 | Exported Function
-`public: struct USet * __thiscall sbicu_58::UnicodeSet::toUSet(void)` | 1779 | Exported Function
-`public: static void __cdecl sbicu_58::MessageImpl::appendReducedApostrophes(class sbicu_58::UnicodeString const &,int,int,class sbicu_58::UnicodeString &)` | 578 | Exported Function
-`public: static void __cdecl sbicu_58::Locale::setDefault(class sbicu_58::Locale const &,enum UErrorCode &)` | 1656 | Exported Function
-`public: static void __cdecl sbicu_58::Normalizer::compose(class sbicu_58::UnicodeString const &,signed char,int,class sbicu_58::UnicodeString &,enum UErrorCode &)` | 688 | Exported Function
-`public: static void __cdecl sbicu_58::Normalizer::normalize(class sbicu_58::UnicodeString const &,enum UNormalizationMode,int,class sbicu_58::UnicodeString &,enum UErrorCode &)` | 1482 | Exported Function
-`public: static void __cdecl sbicu_58::Normalizer::decompose(class sbicu_58::UnicodeString const &,signed char,int,class sbicu_58::UnicodeString &,enum UErrorCode &)` | 783 | Exported Function
-`public: static void __cdecl sbicu_58::Hangul::getRawDecomposition(int,wchar_t * const)` | 1118 | Exported Function
-`public: static void __cdecl sbicu_58::CanonicalIterator::permute(class sbicu_58::UnicodeString &,signed char,class sbicu_58::Hashtable *,enum UErrorCode &)` | 1516 | Exported Function
-`public: static void __cdecl sbicu_58::ICU_Utility::appendToRule(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeMatcher const *,signed char,class sbicu_58::UnicodeString &)` | 585 | Exported Function
-`public: static void __cdecl sbicu_58::ICU_Utility::appendToRule(class sbicu_58::UnicodeString &,int,signed char,signed char,class sbicu_58::UnicodeString &)` | 584 | Exported Function
-`public: static void __cdecl sbicu_58::ICU_Utility::appendToRule(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString const &,signed char,signed char,class sbicu_58::UnicodeString &)` | 583 | Exported Function
-`public: static wchar_t const * __cdecl sbicu_58::PatternProps::skipWhiteSpace(wchar_t const *,int)` | 1733 | Exported Function
-`public: static wchar_t const * __cdecl sbicu_58::PatternProps::skipIdentifier(wchar_t const *,int)` | 1725 | Exported Function
-`public: static wchar_t const * __cdecl sbicu_58::PatternProps::trimWhiteSpace(wchar_t const *,int &)` | 1788 | Exported Function
-`public: struct UHashElement const * __thiscall sbicu_58::Hashtable::nextElement(int &)const ` | 1469 | Exported Function
-`public: struct UHashElement const * __thiscall sbicu_58::Hashtable::find(class sbicu_58::UnicodeString const &)const ` | 861 | Exported Function
-`public: static void __cdecl sbicu_58::UMemory::operator delete(void *,char const *,int)` | 307 | Exported Function
-`public: static void __cdecl sbicu_58::UMemory::operator delete(void *)` | 306 | Exported Function
-`public: static void __cdecl sbicu_58::UMemory::operator delete(void *,void *)` | 305 | Exported Function
-`public: static void const * __cdecl sbicu_58::BreakIterator::registerInstance(class sbicu_58::BreakIterator *,class sbicu_58::Locale const &,enum UBreakIteratorType,enum UErrorCode &)` | 1555 | Exported Function
-`public: static void __cdecl sbicu_58::UMemory::operator delete[](void *)` | 484 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::add(int,int)` | 531 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeStringAppendable::appendString(wchar_t const *,int)` | 580 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeStringAppendable::appendCodeUnit(wchar_t)` | 574 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeStringAppendable::reserveAppendCapacity(int)` | 1611 | Exported Function
-`public: virtual unsigned char __thiscall sbicu_58::FilteredNormalizer2::getCombiningClass(int)const ` | 955 | Exported Function
-`public: virtual struct UText * __thiscall sbicu_58::RuleBasedBreakIterator::getUText(struct UText *,enum UErrorCode &)const ` | 1196 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeSet::isEmpty(void)const ` | 1319 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeSet::containsAll(class sbicu_58::UnicodeSet const &)const ` | 706 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeSet::operator==(class sbicu_58::UnicodeSet const &)const ` | 379 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeStringAppendable::appendCodePoint(int)` | 573 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeString::hasMetaData(void)const ` | 1230 | Exported Function
-`public: virtual void * __thiscall sbicu_58::ICUServiceKey::getDynamicClassID(void)const ` | 988 | Exported Function
-`public: virtual void * __thiscall sbicu_58::ICUResourceBundleFactory::getDynamicClassID(void)const ` | 987 | Exported Function
-`public: virtual void * __thiscall sbicu_58::Locale::getDynamicClassID(void)const ` | 989 | Exported Function
-`public: virtual void * __thiscall sbicu_58::LocaleKeyFactory::getDynamicClassID(void)const ` | 991 | Exported Function
-`public: virtual void * __thiscall sbicu_58::LocaleKey::getDynamicClassID(void)const ` | 990 | Exported Function
-`public: virtual unsigned char const * __thiscall sbicu_58::RuleBasedBreakIterator::getBinaryRules(unsigned int &)` | 931 | Exported Function
-`public: virtual unsigned char __thiscall sbicu_58::Normalizer2::getCombiningClass(int)const ` | 956 | Exported Function
-`public: virtual void * __thiscall sbicu_58::CanonicalIterator::getDynamicClassID(void)const ` | 984 | Exported Function
-`public: virtual void * __thiscall sbicu_58::EventListener::getDynamicClassID(void)const ` | 986 | Exported Function
-`public: virtual void * __thiscall sbicu_58::DateInterval::getDynamicClassID(void)const ` | 985 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeSet::contains(int,int)const ` | 702 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::LocaleKey::isFallbackOf(class sbicu_58::UnicodeString const &)const ` | 1324 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::LocaleKey::fallback(void)` | 859 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::Normalizer2::getRawDecomposition(int,class sbicu_58::UnicodeString &)const ` | 1119 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::RuleBasedBreakIterator::isBoundary(int)` | 1302 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::Replaceable::hasMetaData(void)const ` | 1229 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::ICUService::isDefault(void)const ` | 1313 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::FilteredNormalizer2::isNormalized(class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 1340 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::ICUService::unregister(void const *,enum UErrorCode &)` | 1800 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::ICUServiceKey::isFallbackOf(class sbicu_58::UnicodeString const &)const ` | 1323 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::ICUServiceKey::fallback(void)` | 858 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UCharCharacterIterator::hasNext(void)` | 1236 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::StringEnumeration::operator==(class sbicu_58::StringEnumeration const &)const ` | 374 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UCharCharacterIterator::hasPrevious(void)` | 1238 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UnicodeSet::contains(int)const ` | 701 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::UCharCharacterIterator::operator==(class sbicu_58::ForwardCharacterIterator const &)const ` | 375 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::SimpleFilteredBreakIteratorBuilder::suppressBreakAfter(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 1760 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::RuleBasedBreakIterator::operator==(class sbicu_58::BreakIterator const &)const ` | 372 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::SimpleFilteredBreakIteratorBuilder::unsuppressBreakAfter(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 1801 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::StringEnumeration::operator!=(class sbicu_58::StringEnumeration const &)const ` | 392 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::StringCharacterIterator::operator==(class sbicu_58::ForwardCharacterIterator const &)const ` | 373 | Exported Function
-`public: virtual void * __thiscall sbicu_58::Normalizer::getDynamicClassID(void)const ` | 992 | Exported Function
-`public: virtual void __thiscall sbicu_58::LocaleKeyFactory::updateVisibleIDs(class sbicu_58::Hashtable &,enum UErrorCode &)const ` | 1803 | Exported Function
-`public: virtual void __thiscall sbicu_58::IDNA::nameToUnicodeUTF8(class sbicu_58::StringPiece,class sbicu_58::ByteSink &,class sbicu_58::IDNAInfo &,enum UErrorCode &)const ` | 1451 | Exported Function
-`public: virtual void __thiscall sbicu_58::RuleBasedBreakIterator::adoptText(class sbicu_58::CharacterIterator *)` | 553 | Exported Function
-`public: virtual void __thiscall sbicu_58::RuleBasedBreakIterator::setText(struct UText *,enum UErrorCode &)` | 1692 | Exported Function
-`public: virtual void __thiscall sbicu_58::RuleBasedBreakIterator::setText(class sbicu_58::UnicodeString const &)` | 1691 | Exported Function
-`public: virtual void __thiscall sbicu_58::ICUService::reset(void)` | 1617 | Exported Function
-`public: virtual void __thiscall sbicu_58::ICUNotifier::removeListener(class sbicu_58::EventListener const *,enum UErrorCode &)` | 1589 | Exported Function
-`public: virtual void __thiscall sbicu_58::IDNA::labelToASCII_UTF8(class sbicu_58::StringPiece,class sbicu_58::ByteSink &,class sbicu_58::IDNAInfo &,enum UErrorCode &)const ` | 1400 | Exported Function
-`public: virtual void __thiscall sbicu_58::IDNA::nameToASCII_UTF8(class sbicu_58::StringPiece,class sbicu_58::ByteSink &,class sbicu_58::IDNAInfo &,enum UErrorCode &)const ` | 1450 | Exported Function
-`public: virtual void __thiscall sbicu_58::IDNA::labelToUnicodeUTF8(class sbicu_58::StringPiece,class sbicu_58::ByteSink &,class sbicu_58::IDNAInfo &,enum UErrorCode &)const ` | 1401 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnicodeString::copy(int,int,int)` | 715 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnicodeSet::addMatchSetTo(class sbicu_58::UnicodeSet &)const ` | 544 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnicodeString::extractBetween(int,int,class sbicu_58::UnicodeString &)const ` | 857 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnifiedCache::decrementItemsInUse(void)const ` | 786 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnicodeString::handleReplaceBetween(int,int,class sbicu_58::UnicodeString const &)` | 1217 | Exported Function
-`public: virtual void __thiscall sbicu_58::SimpleLocaleKeyFactory::updateVisibleIDs(class sbicu_58::Hashtable &,enum UErrorCode &)const ` | 1805 | Exported Function
-`public: virtual void __thiscall sbicu_58::SimpleFactory::updateVisibleIDs(class sbicu_58::Hashtable &,enum UErrorCode &)const ` | 1804 | Exported Function
-`public: virtual void __thiscall sbicu_58::StringCharacterIterator::getText(class sbicu_58::UnicodeString &)` | 1181 | Exported Function
-`public: virtual void __thiscall sbicu_58::UnicodeFilter::setData(class sbicu_58::TransliterationRuleData const *)` | 1655 | Exported Function
-`public: virtual void __thiscall sbicu_58::UCharCharacterIterator::getText(class sbicu_58::UnicodeString &)` | 1182 | Exported Function
-`public: virtual void __thiscall sbicu_58::ICUNotifier::notifyChanged(void)` | 1485 | Exported Function
-`public: virtual void * __thiscall sbicu_58::StringCharacterIterator::getDynamicClassID(void)const ` | 999 | Exported Function
-`public: virtual void * __thiscall sbicu_58::SimpleLocaleKeyFactory::getDynamicClassID(void)const ` | 998 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UCharCharacterIterator::getDynamicClassID(void)const ` | 1000 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UnicodeSetIterator::getDynamicClassID(void)const ` | 1008 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UnicodeSet::getDynamicClassID(void)const ` | 1007 | Exported Function
-`public: virtual void * __thiscall sbicu_58::ResourceBundle::getDynamicClassID(void)const ` | 994 | Exported Function
-`public: virtual void * __thiscall sbicu_58::ParsePosition::getDynamicClassID(void)const ` | 993 | Exported Function
-`public: virtual void * __thiscall sbicu_58::RuleBasedBreakIterator::getDynamicClassID(void)const ` | 995 | Exported Function
-`public: virtual void * __thiscall sbicu_58::SimpleFactory::getDynamicClassID(void)const ` | 997 | Exported Function
-`public: virtual void * __thiscall sbicu_58::ServiceListener::getDynamicClassID(void)const ` | 996 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UVector::getDynamicClassID(void)const ` | 1006 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UVector64::getDynamicClassID(void)const ` | 1005 | Exported Function
-`public: virtual void __thiscall sbicu_58::ByteSink::Flush(void)` | 486 | Exported Function
-`public: virtual void __thiscall sbicu_58::ICUNotifier::addListener(class sbicu_58::EventListener const *,enum UErrorCode &)` | 543 | Exported Function
-`public: virtual void __thiscall sbicu_58::CheckedArrayByteSink::Append(char const *,int)` | 485 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UObject::getDynamicClassID(void)const ` | 1001 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UnicodeString::getDynamicClassID(void)const ` | 1009 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UStack::getDynamicClassID(void)const ` | 1002 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UVector32::getDynamicClassID(void)const ` | 1004 | Exported Function
-`public: virtual void * __thiscall sbicu_58::UStringEnumeration::getDynamicClassID(void)const ` | 1003 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::FilteredNormalizer2::isInert(int)const ` | 1331 | Exported Function
-`public: virtual class sbicu_58::UnicodeString const * __thiscall sbicu_58::StringEnumeration::snext(enum UErrorCode &)` | 1735 | Exported Function
-`public: virtual class sbicu_58::UnicodeString const & __thiscall sbicu_58::RuleBasedBreakIterator::getRules(void)const ` | 1127 | Exported Function
-`public: virtual class sbicu_58::UnicodeString const * __thiscall sbicu_58::UStringEnumeration::snext(enum UErrorCode &)` | 1736 | Exported Function
-`public: virtual class sbicu_58::UObject * __thiscall sbicu_58::LocaleKeyFactory::create(class sbicu_58::ICUServiceKey const &,class sbicu_58::ICUService const *,enum UErrorCode &)const ` | 730 | Exported Function
-`public: virtual class sbicu_58::UObject * __thiscall sbicu_58::ICUService::getKey(class sbicu_58::ICUServiceKey &,class sbicu_58::UnicodeString *,enum UErrorCode &)const ` | 1053 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::LocaleKeyFactory::getDisplayName(class sbicu_58::UnicodeString const &,class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 975 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::LocaleKey::prefix(class sbicu_58::UnicodeString &)const ` | 1529 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::SimpleFactory::getDisplayName(class sbicu_58::UnicodeString const &,class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 976 | Exported Function
-`public: virtual class sbicu_58::UnicodeString const & __thiscall sbicu_58::ICUServiceKey::getID(void)const ` | 1032 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeSet::toPattern(class sbicu_58::UnicodeString &,signed char)const ` | 1773 | Exported Function
-`public: virtual int __thiscall sbicu_58::BreakIterator::getRuleStatusVec(int *,int,enum UErrorCode &)` | 1125 | Exported Function
-`public: virtual int __thiscall sbicu_58::BreakIterator::getRuleStatus(void)const ` | 1123 | Exported Function
-`public: virtual int __thiscall sbicu_58::BytesDictionaryMatcher::getType(void)const ` | 1189 | Exported Function
-`public: virtual int __thiscall sbicu_58::CharacterIterator::first32PostInc(void)` | 875 | Exported Function
-`public: virtual int __thiscall sbicu_58::BytesDictionaryMatcher::matches(struct UText *,int,int,int *,int *,int *,int *)const ` | 1441 | Exported Function
-`public: virtual class sbicu_58::UObject * __thiscall sbicu_58::SimpleLocaleKeyFactory::create(class sbicu_58::ICUServiceKey const &,class sbicu_58::ICUService const *,enum UErrorCode &)const ` | 732 | Exported Function
-`public: virtual class sbicu_58::UObject * __thiscall sbicu_58::SimpleFactory::create(class sbicu_58::ICUServiceKey const &,class sbicu_58::ICUService const *,enum UErrorCode &)const ` | 731 | Exported Function
-`public: virtual enum sbicu_58::UMatchDegree __thiscall sbicu_58::UnicodeFilter::matches(class sbicu_58::Replaceable const &,int &,int,signed char)` | 1443 | Exported Function
-`public: virtual enum UNormalizationCheckResult __thiscall sbicu_58::FilteredNormalizer2::quickCheck(class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 1543 | Exported Function
-`public: virtual enum sbicu_58::UMatchDegree __thiscall sbicu_58::UnicodeSet::matches(class sbicu_58::Replaceable const &,int &,int,signed char)` | 1444 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::LocaleKey::currentID(class sbicu_58::UnicodeString &)const ` | 773 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::remove(int,int)` | 1573 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::complementAll(class sbicu_58::UnicodeSet const &)` | 686 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::removeAll(class sbicu_58::UnicodeSet const &)` | 1580 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::retain(int,int)` | 1634 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::removeAllStrings(void)` | 1584 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::clear(void)` | 643 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::addAll(class sbicu_58::UnicodeSet const &)` | 533 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::compact(void)` | 665 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::complement(void)` | 684 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::complement(int,int)` | 683 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUServiceKey::currentID(class sbicu_58::UnicodeString &)const ` | 772 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUServiceKey::currentDescriptor(class sbicu_58::UnicodeString &)const ` | 770 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUServiceKey::prefix(class sbicu_58::UnicodeString &)const ` | 1528 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::LocaleKey::currentDescriptor(class sbicu_58::UnicodeString &)const ` | 771 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::LocaleKey::canonicalID(class sbicu_58::UnicodeString &)const ` | 620 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::FilteredNormalizer2::append(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 562 | Exported Function
-`public: virtual class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::retainAll(class sbicu_58::UnicodeSet const &)` | 1638 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::FilteredNormalizer2::normalize(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum UErrorCode &)const ` | 1480 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUServiceKey::canonicalID(class sbicu_58::UnicodeString &)const ` | 619 | Exported Function
-`public: virtual class sbicu_58::UnicodeString & __thiscall sbicu_58::FilteredNormalizer2::normalizeSecondAndAppend(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 1484 | Exported Function
-`public: virtual int __thiscall sbicu_58::FilteredNormalizer2::composePair(int,int)const ` | 690 | Exported Function
-`public: virtual int __thiscall sbicu_58::UnicodeSet::getRangeCount(void)const ` | 1114 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharsDictionaryMatcher::matches(struct UText *,int,int,int *,int *,int *,int *)const ` | 1442 | Exported Function
-`public: virtual int __thiscall sbicu_58::UnicodeSet::getRangeEnd(int)const ` | 1115 | Exported Function
-`public: virtual int __thiscall sbicu_58::UnicodeSet::hashCode(void)const ` | 1247 | Exported Function
-`public: virtual int __thiscall sbicu_58::UnicodeSet::getRangeStart(int)const ` | 1116 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::next32PostInc(void)` | 1453 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::next32(void)` | 1452 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::previous32(void)` | 1530 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharsDictionaryMatcher::getType(void)const ` | 1191 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::setIndex32(int)` | 1665 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::FilteredNormalizer2::getDecomposition(int,class sbicu_58::UnicodeString &)const ` | 962 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::DateInterval::operator==(class sbicu_58::DateInterval const &)const ` | 367 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::FilteredNormalizer2::getRawDecomposition(int,class sbicu_58::UnicodeString &)const ` | 1117 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::FilteredNormalizer2::hasBoundaryBefore(int)const ` | 1220 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::FilteredNormalizer2::hasBoundaryAfter(int)const ` | 1219 | Exported Function
-`public: virtual int __thiscall sbicu_58::UStringEnumeration::count(enum UErrorCode &)const ` | 724 | Exported Function
-`public: virtual int __thiscall sbicu_58::UnicodeSet::size(void)const ` | 1718 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::Appendable::appendCodePoint(int)` | 572 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::Appendable::reserveAppendCapacity(int)` | 1610 | Exported Function
-`public: virtual signed char __thiscall sbicu_58::Appendable::appendString(wchar_t const *,int)` | 579 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::move32(int,enum sbicu_58::CharacterIterator::EOrigin)` | 1446 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::getRuleStatus(void)const ` | 1124 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::following(int)` | 888 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::getRuleStatusVec(int *,int,enum UErrorCode &)` | 1126 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::last(void)` | 1404 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::hashCode(void)const ` | 1245 | Exported Function
-`public: virtual int __thiscall sbicu_58::LocaleKey::kind(void)const ` | 1399 | Exported Function
-`public: virtual int __thiscall sbicu_58::FilteredNormalizer2::spanQuickCheckYes(class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 1749 | Exported Function
-`public: virtual int __thiscall sbicu_58::Normalizer2::composePair(int,int)const ` | 691 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::first(void)` | 879 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::current(void)const ` | 767 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::first32PostInc(void)` | 876 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::first32(void)` | 874 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::hashCode(void)const ` | 1246 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::move(int,enum sbicu_58::CharacterIterator::EOrigin)` | 1447 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::last32(void)` | 1402 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::next(void)` | 1462 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::next(int)` | 1461 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::preceding(int)` | 1527 | Exported Function
-`public: virtual int __thiscall sbicu_58::UCharCharacterIterator::current32(void)const ` | 764 | Exported Function
-`public: virtual int __thiscall sbicu_58::RuleBasedBreakIterator::previous(void)` | 1532 | Exported Function
+`Replaceable` | 266 | Exported Function
+`ParsePosition` | 264 | Exported Function
+`ResourceBundle` | 267 | Exported Function
+`ResourceValue` | 269 | Exported Function
+`ResourceSink` | 268 | Exported Function
+`MessagePattern` | 259 | Exported Function
+`LocaleKeyFactory` | 258 | Exported Function
+`Normalizer2` | 261 | Exported Function
+`Normalizer` | 263 | Exported Function
+`Normalizer2Impl` | 262 | Exported Function
+`StringCharacterIterator` | 277 | Exported Function
+`SimpleLocaleKeyFactory` | 276 | Exported Function
+`StringEnumeration` | 278 | Exported Function
+`UCharCharacterIterator` | 282 | Exported Function
+`SymbolTable` | 281 | Exported Function
+`ServiceListener` | 271 | Exported Function
+`RuleBasedBreakIterator` | 270 | Exported Function
+`SharedObject` | 272 | Exported Function
+`SimpleFilteredBreakIteratorBuilder` | 274 | Exported Function
+`SimpleFactory` | 273 | Exported Function
+`LocaleKey` | 257 | Exported Function
+`EventListener` | 240 | Exported Function
+`ErrorCode` | 239 | Exported Function
+`FilteredBreakIteratorBuilder` | 241 | Exported Function
+`ForwardCharacterIterator` | 243 | Exported Function
+`FilteredNormalizer2` | 242 | Exported Function
+`CharacterIterator` | 235 | Exported Function
+`CanonicalIterator` | 233 | Exported Function
+`CheckedArrayByteSink` | 236 | Exported Function
+`DictionaryMatcher` | 238 | Exported Function
+`DateInterval` | 237 | Exported Function
+`IDNA` | 251 | Exported Function
+`ICUServiceKey` | 250 | Exported Function
+`ListFormatter` | 254 | Exported Function
+`LocaleDisplayNames` | 256 | Exported Function
+`Locale` | 255 | Exported Function
+`ICUNotifier` | 246 | Exported Function
+`ICULocaleService` | 245 | Exported Function
+`ICUResourceBundleFactory` | 247 | Exported Function
+`ICUServiceFactory` | 249 | Exported Function
+`ICUService` | 248 | Exported Function
+`UCharsDictionaryMatcher` | 283 | Exported Function
+`Reset` | 493 | Exported Function
+`clone` | 658 | Exported Function
+`clone` | 649 | Exported Function
+`Locale` | 621 | Exported Function
+`UnicodeString` | 752 | Exported Function
+`createBufferClone` | 734 | Exported Function
+`clone` | 655 | Exported Function
+`BreakIterator` | 611 | Exported Function
+`clone` | 656 | Exported Function
+`getText` | 1180 | Exported Function
+`clone` | 659 | Exported Function
+`clone` | 657 | Exported Function
+`toMatcher` | 1771 | Exported Function
+`toReplacer` | 1774 | Exported Function
+`toMatcher` | 1772 | Exported Function
+`clone` | 653 | Exported Function
+`Locale` | 774 | Exported Function
+`clone` | 660 | Exported Function
+`getAvailableLocales` | 927 | Exported Function
+`refreshInputText` | 1552 | Exported Function
+`next` | 1467 | Exported Function
+`UnicodeString` | 298 | Exported Function
+`UnicodeSetIterator` | 297 | Exported Function
+`UnicodeStringAppendable` | 299 | Exported Function
+`UnifiedCacheBase` | 301 | Exported Function
+`UnifiedCache` | 300 | Exported Function
+`UnicodeFilter` | 293 | Exported Function
+`UCharsTrieBuilder` | 285 | Exported Function
+`UnicodeFunctor` | 294 | Exported Function
+`UnicodeSet` | 296 | Exported Function
+`UnicodeMatcher` | 295 | Exported Function
+`UVector` | 292 | Exported Function
+`UVector64` | 291 | Exported Function
+`GetAppendBuffer` | 487 | Exported Function
+`next` | 1463 | Exported Function
+`GetAppendBuffer` | 488 | Exported Function
+`UStack` | 287 | Exported Function
+`UObject` | 286 | Exported Function
+`UStringEnumeration` | 288 | Exported Function
+`UVector32` | 290 | Exported Function
+`UStringSet` | 289 | Exported Function
+`CacheKeyBase` | 232 | Exported Function
+`getStaticClassID` | 1154 | Exported Function
+`getStaticClassID` | 1153 | Exported Function
+`operator` | 302 | Exported Function
+`operator` | 303 | Exported Function
+`operator` | 304 | Exported Function
+`getStaticClassID` | 1149 | Exported Function
+`getStaticClassID` | 1148 | Exported Function
+`getStaticClassID` | 1150 | Exported Function
+`getStaticClassID` | 1152 | Exported Function
+`getStaticClassID` | 1151 | Exported Function
+`getStaticClassID` | 1155 | Exported Function
+`getStaticClassID` | 1164 | Exported Function
+`getStaticClassID` | 1156 | Exported Function
+`getStaticClassID` | 1158 | Exported Function
+`getStaticClassID` | 1157 | Exported Function
+`getStaticClassID` | 1160 | Exported Function
+`operator` | 483 | Exported Function
+`getStaticClassID` | 1161 | Exported Function
+`getStaticClassID` | 1163 | Exported Function
+`getStaticClassID` | 1162 | Exported Function
+`getStaticClassID` | 1147 | Exported Function
+`isWhiteSpace` | 1353 | Exported Function
+`isSyntaxOrWhiteSpace` | 1350 | Exported Function
+`equalNodes` | 837 | Exported Function
+`UnicodeString` | 1607 | Exported Function
+`hashNode` | 1249 | Exported Function
+`UnicodeString` | 1341 | Exported Function
+`MessagePattern` | 1355 | Exported Function
+`UnicodeString` | 1342 | Exported Function
+`isSyntax` | 1349 | Exported Function
+`isIdentifier` | 1330 | Exported Function
+`getStaticClassID` | 1143 | Exported Function
+`getStaticClassID` | 1142 | Exported Function
+`getStaticClassID` | 1144 | Exported Function
+`getStaticClassID` | 1146 | Exported Function
+`getStaticClassID` | 1145 | Exported Function
+`getStaticClassID` | 1138 | Exported Function
+`getCCFromYesOrMaybe` | 938 | Exported Function
+`getStaticClassID` | 1139 | Exported Function
+`getStaticClassID` | 1141 | Exported Function
+`getStaticClassID` | 1140 | Exported Function
+`getStaticClassID` | 1159 | Exported Function
+`getLCID` | 1059 | Exported Function
+`getErrors` | 1020 | Exported Function
+`internalGetResource` | 1295 | Exported Function
+`getFCD16` | 1022 | Exported Function
+`getUInt` | 1192 | Exported Function
+`getNormTrie` | 1105 | Exported Function
+`toUSet` | 1780 | Exported Function
+`getCC` | 936 | Exported Function
+`getBinary` | 930 | Exported Function
+`getLastCC` | 1062 | Exported Function
+`BreakIterator` | 226 | Exported Function
+`Appendable` | 225 | Exported Function
+`BytesDictionaryMatcher` | 228 | Exported Function
+`BytesTrieBuilder` | 230 | Exported Function
+`ByteSink` | 227 | Exported Function
+`getFCD16FromNormData` | 1024 | Exported Function
+`getFCD16FromBelow180` | 1023 | Exported Function
+`getNorm16` | 1104 | Exported Function
+`previousFCD16` | 1535 | Exported Function
+`nextFCD16` | 1470 | Exported Function
+`toUSet` | 1779 | Exported Function
+`UnicodeString` | 578 | Exported Function
+`Locale` | 1656 | Exported Function
+`UnicodeString` | 688 | Exported Function
+`UnicodeString` | 1482 | Exported Function
+`UnicodeString` | 783 | Exported Function
+`getRawDecomposition` | 1118 | Exported Function
+`Hashtable` | 1516 | Exported Function
+`UnicodeString` | 585 | Exported Function
+`UnicodeString` | 584 | Exported Function
+`UnicodeString` | 583 | Exported Function
+`skipWhiteSpace` | 1733 | Exported Function
+`skipIdentifier` | 1725 | Exported Function
+`trimWhiteSpace` | 1788 | Exported Function
+`nextElement` | 1469 | Exported Function
+`UnicodeString` | 861 | Exported Function
+`operator` | 307 | Exported Function
+`operator` | 306 | Exported Function
+`operator` | 305 | Exported Function
+`Locale` | 1555 | Exported Function
+`operator` | 484 | Exported Function
+`add` | 531 | Exported Function
+`appendString` | 580 | Exported Function
+`appendCodeUnit` | 574 | Exported Function
+`reserveAppendCapacity` | 1611 | Exported Function
+`getCombiningClass` | 955 | Exported Function
+`getUText` | 1196 | Exported Function
+`isEmpty` | 1319 | Exported Function
+`UnicodeSet` | 706 | Exported Function
+`UnicodeSet` | 379 | Exported Function
+`appendCodePoint` | 573 | Exported Function
+`hasMetaData` | 1230 | Exported Function
+`getDynamicClassID` | 988 | Exported Function
+`getDynamicClassID` | 987 | Exported Function
+`getDynamicClassID` | 989 | Exported Function
+`getDynamicClassID` | 991 | Exported Function
+`getDynamicClassID` | 990 | Exported Function
+`getBinaryRules` | 931 | Exported Function
+`getCombiningClass` | 956 | Exported Function
+`getDynamicClassID` | 984 | Exported Function
+`getDynamicClassID` | 986 | Exported Function
+`getDynamicClassID` | 985 | Exported Function
+`contains` | 702 | Exported Function
+`UnicodeString` | 1324 | Exported Function
+`fallback` | 859 | Exported Function
+`UnicodeString` | 1119 | Exported Function
+`isBoundary` | 1302 | Exported Function
+`hasMetaData` | 1229 | Exported Function
+`isDefault` | 1313 | Exported Function
+`UnicodeString` | 1340 | Exported Function
+`unregister` | 1800 | Exported Function
+`UnicodeString` | 1323 | Exported Function
+`fallback` | 858 | Exported Function
+`hasNext` | 1236 | Exported Function
+`StringEnumeration` | 374 | Exported Function
+`hasPrevious` | 1238 | Exported Function
+`contains` | 701 | Exported Function
+`ForwardCharacterIterator` | 375 | Exported Function
+`UnicodeString` | 1760 | Exported Function
+`BreakIterator` | 372 | Exported Function
+`UnicodeString` | 1801 | Exported Function
+`StringEnumeration` | 392 | Exported Function
+`ForwardCharacterIterator` | 373 | Exported Function
+`getDynamicClassID` | 992 | Exported Function
+`Hashtable` | 1803 | Exported Function
+`IDNAInfo` | 1451 | Exported Function
+`CharacterIterator` | 553 | Exported Function
+`setText` | 1692 | Exported Function
+`UnicodeString` | 1691 | Exported Function
+`reset` | 1617 | Exported Function
+`EventListener` | 1589 | Exported Function
+`IDNAInfo` | 1400 | Exported Function
+`IDNAInfo` | 1450 | Exported Function
+`IDNAInfo` | 1401 | Exported Function
+`copy` | 715 | Exported Function
+`UnicodeSet` | 544 | Exported Function
+`UnicodeString` | 857 | Exported Function
+`decrementItemsInUse` | 786 | Exported Function
+`UnicodeString` | 1217 | Exported Function
+`Hashtable` | 1805 | Exported Function
+`Hashtable` | 1804 | Exported Function
+`UnicodeString` | 1181 | Exported Function
+`TransliterationRuleData` | 1655 | Exported Function
+`UnicodeString` | 1182 | Exported Function
+`notifyChanged` | 1485 | Exported Function
+`getDynamicClassID` | 999 | Exported Function
+`getDynamicClassID` | 998 | Exported Function
+`getDynamicClassID` | 1000 | Exported Function
+`getDynamicClassID` | 1008 | Exported Function
+`getDynamicClassID` | 1007 | Exported Function
+`getDynamicClassID` | 994 | Exported Function
+`getDynamicClassID` | 993 | Exported Function
+`getDynamicClassID` | 995 | Exported Function
+`getDynamicClassID` | 997 | Exported Function
+`getDynamicClassID` | 996 | Exported Function
+`getDynamicClassID` | 1006 | Exported Function
+`getDynamicClassID` | 1005 | Exported Function
+`Flush` | 486 | Exported Function
+`EventListener` | 543 | Exported Function
+`Append` | 485 | Exported Function
+`getDynamicClassID` | 1001 | Exported Function
+`getDynamicClassID` | 1009 | Exported Function
+`getDynamicClassID` | 1002 | Exported Function
+`getDynamicClassID` | 1004 | Exported Function
+`getDynamicClassID` | 1003 | Exported Function
+`isInert` | 1331 | Exported Function
+`snext` | 1735 | Exported Function
+`getRules` | 1127 | Exported Function
+`snext` | 1736 | Exported Function
+`ICUService` | 730 | Exported Function
+`UnicodeString` | 1053 | Exported Function
+`UnicodeString` | 975 | Exported Function
+`UnicodeString` | 1529 | Exported Function
+`UnicodeString` | 976 | Exported Function
+`getID` | 1032 | Exported Function
+`UnicodeString` | 1773 | Exported Function
+`getRuleStatusVec` | 1125 | Exported Function
+`getRuleStatus` | 1123 | Exported Function
+`getType` | 1189 | Exported Function
+`first32PostInc` | 875 | Exported Function
+`matches` | 1441 | Exported Function
+`ICUService` | 732 | Exported Function
+`ICUService` | 731 | Exported Function
+`Replaceable` | 1443 | Exported Function
+`UnicodeString` | 1543 | Exported Function
+`Replaceable` | 1444 | Exported Function
+`UnicodeString` | 773 | Exported Function
+`remove` | 1573 | Exported Function
+`UnicodeSet` | 686 | Exported Function
+`UnicodeSet` | 1580 | Exported Function
+`retain` | 1634 | Exported Function
+`removeAllStrings` | 1584 | Exported Function
+`clear` | 643 | Exported Function
+`UnicodeSet` | 533 | Exported Function
+`compact` | 665 | Exported Function
+`complement` | 684 | Exported Function
+`complement` | 683 | Exported Function
+`UnicodeString` | 772 | Exported Function
+`UnicodeString` | 770 | Exported Function
+`UnicodeString` | 1528 | Exported Function
+`UnicodeString` | 771 | Exported Function
+`UnicodeString` | 620 | Exported Function
+`UnicodeString` | 562 | Exported Function
+`UnicodeSet` | 1638 | Exported Function
+`UnicodeString` | 1480 | Exported Function
+`UnicodeString` | 619 | Exported Function
+`UnicodeString` | 1484 | Exported Function
+`composePair` | 690 | Exported Function
+`getRangeCount` | 1114 | Exported Function
+`matches` | 1442 | Exported Function
+`getRangeEnd` | 1115 | Exported Function
+`hashCode` | 1247 | Exported Function
+`getRangeStart` | 1116 | Exported Function
+`next32PostInc` | 1453 | Exported Function
+`next32` | 1452 | Exported Function
+`previous32` | 1530 | Exported Function
+`getType` | 1191 | Exported Function
+`setIndex32` | 1665 | Exported Function
+`UnicodeString` | 962 | Exported Function
+`DateInterval` | 367 | Exported Function
+`UnicodeString` | 1117 | Exported Function
+`hasBoundaryBefore` | 1220 | Exported Function
+`hasBoundaryAfter` | 1219 | Exported Function
+`count` | 724 | Exported Function
+`size` | 1718 | Exported Function
+`appendCodePoint` | 572 | Exported Function
+`reserveAppendCapacity` | 1610 | Exported Function
+`appendString` | 579 | Exported Function
+`EOrigin` | 1446 | Exported Function
+`getRuleStatus` | 1124 | Exported Function
+`following` | 888 | Exported Function
+`getRuleStatusVec` | 1126 | Exported Function
+`last` | 1404 | Exported Function
+`hashCode` | 1245 | Exported Function
+`kind` | 1399 | Exported Function
+`UnicodeString` | 1749 | Exported Function
+`composePair` | 691 | Exported Function
+`first` | 879 | Exported Function
+`current` | 767 | Exported Function
+`first32PostInc` | 876 | Exported Function
+`first32` | 874 | Exported Function
+`hashCode` | 1246 | Exported Function
+`EOrigin` | 1447 | Exported Function
+`last32` | 1402 | Exported Function
+`next` | 1462 | Exported Function
+`next` | 1461 | Exported Function
+`preceding` | 1527 | Exported Function
+`current32` | 764 | Exported Function
+`previous` | 1532 | Exported Function
 `ubidi_getVisualRun_58` | 2022 | Exported Function
 `uprv_strnicmp_58` | 2461 | Exported Function
 `uprv_strndup_58` | 2460 | Exported Function
@@ -922,8 +922,8 @@ Function Name | Ordinal | Type
 `utrie_unserialize_58` | 2682 | Exported Function
 `utrie_swap_58` | 2680 | Exported Function
 `utrie_unserializeDummy_58` | 2681 | Exported Function
-`void __cdecl sbicu_58::umtx_initImplPostInit(struct sbicu_58::UInitOnce &)` | 1793 | Exported Function
-`void __cdecl sbicu_58::swap(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString &)` | 1762 | Exported Function
+`UInitOnce` | 1793 | Exported Function
+`UnicodeString` | 1762 | Exported Function
 `utrie_open_58` | 2676 | Exported Function
 `utrie_getData_58` | 2675 | Exported Function
 `utrie_serialize_58` | 2677 | Exported Function
@@ -1369,1347 +1369,1347 @@ Function Name | Ordinal | Type
 `uhash_hashChars_58` | 2237 | Exported Function
 `uhash_hashLong_58` | 2239 | Exported Function
 `uhash_hashIChars_58` | 2238 | Exported Function
-`protected: void __thiscall sbicu_58::StringTrieBuilder::build(enum UStringTrieBuildOption,int,enum UErrorCode &)` | 612 | Exported Function
-`protected: void __thiscall sbicu_58::StringEnumeration::ensureCharsCapacity(int,enum UErrorCode &)` | 835 | Exported Function
-`protected: void __thiscall sbicu_58::StringTrieBuilder::createCompactBuilder(int,enum UErrorCode &)` | 737 | Exported Function
-`public: __int64 * __thiscall sbicu_58::UVector64::getBuffer(void)const ` | 933 | Exported Function
-`protected: void __thiscall sbicu_58::StringTrieBuilder::deleteCompactBuilder(void)` | 788 | Exported Function
-`protected: virtual void __thiscall sbicu_58::UnicodeSetIterator::loadRange(int)` | 1429 | Exported Function
-`protected: virtual void __thiscall sbicu_58::ICUService::reInitializeFactories(void)` | 1546 | Exported Function
-`protected: virtual wchar_t __thiscall sbicu_58::UnicodeString::getCharAt(int)const ` | 950 | Exported Function
-`protected: void __thiscall sbicu_58::Locale::setFromPOSIXID(char const *)` | 1664 | Exported Function
-`protected: void __thiscall sbicu_58::ICUService::clearServiceCache(void)` | 648 | Exported Function
-`public: __int64 __thiscall sbicu_58::UVector64::push(__int64,enum UErrorCode &)` | 1540 | Exported Function
-`public: __int64 __thiscall sbicu_58::UVector64::popi(void)` | 1524 | Exported Function
-`public: __thiscall sbicu_58::Appendable::Appendable(class sbicu_58::Appendable const &)` | 3 | Exported Function
-`public: __thiscall sbicu_58::BytesDictionaryMatcher::BytesDictionaryMatcher(char const *,int,struct UDataMemory *)` | 10 | Exported Function
-`public: __thiscall sbicu_58::Appendable::Appendable(void)` | 4 | Exported Function
-`public: __int64 * __thiscall sbicu_58::UVector64::reserveBlock(int,enum UErrorCode &)` | 1613 | Exported Function
-`public: __int64 * __thiscall sbicu_58::UVector64::popFrame(int)` | 1521 | Exported Function
-`public: __int64 __thiscall sbicu_58::UnifiedCache::autoEvictedCount(void)const ` | 604 | Exported Function
-`public: __int64 __thiscall sbicu_58::UVector64::lastElementi(void)const ` | 1408 | Exported Function
-`public: __int64 __thiscall sbicu_58::UVector64::elementAti(int)const ` | 815 | Exported Function
-`protected: virtual void __thiscall sbicu_58::ICUService::notifyListener(class sbicu_58::EventListener &)const ` | 1486 | Exported Function
-`protected: virtual class sbicu_58::Hashtable const * __thiscall sbicu_58::ICUResourceBundleFactory::getSupportedIDs(enum UErrorCode &)const ` | 1175 | Exported Function
-`protected: virtual __thiscall sbicu_58::StringTrieBuilder::~StringTrieBuilder(void)` | 280 | Exported Function
-`protected: virtual class sbicu_58::Hashtable const * __thiscall sbicu_58::LocaleKeyFactory::getSupportedIDs(enum UErrorCode &)const ` | 1176 | Exported Function
-`protected: virtual class sbicu_58::ICUServiceKey * __thiscall sbicu_58::ICULocaleService::createKey(class sbicu_58::UnicodeString const *,enum UErrorCode &)const ` | 750 | Exported Function
-`protected: virtual class sbicu_58::ICUServiceFactory * __thiscall sbicu_58::ICUService::createSimpleFactory(class sbicu_58::UObject *,class sbicu_58::UnicodeString const &,signed char,enum UErrorCode &)` | 758 | Exported Function
-`protected: int __thiscall sbicu_58::StringTrieBuilder::writeNode(int,int,int)` | 1821 | Exported Function
-`protected: int __thiscall sbicu_58::StringTrieBuilder::writeBranchSubNode(int,int,int,int)` | 1815 | Exported Function
-`protected: static int const sbicu_58::StringTrieBuilder::kMaxBranchLinearSubNodeLength` | 1363 | Exported Function
-`protected: static wchar_t const sbicu_58::ICUServiceKey::PREFIX_DELIMITER` | 492 | Exported Function
-`protected: static int const sbicu_58::StringTrieBuilder::kMaxSplitBranchLevels` | 1372 | Exported Function
-`protected: virtual signed char __thiscall sbicu_58::ICUService::acceptsListener(class sbicu_58::EventListener const &)const ` | 524 | Exported Function
-`protected: virtual int __thiscall sbicu_58::UnicodeString::getLength(void)const ` | 1064 | Exported Function
-`protected: virtual signed char __thiscall sbicu_58::LocaleKeyFactory::handlesKey(class sbicu_58::ICUServiceKey const &,enum UErrorCode &)const ` | 1218 | Exported Function
-`protected: virtual void __thiscall sbicu_58::ICUService::clearCaches(void)` | 645 | Exported Function
-`protected: virtual void __thiscall sbicu_58::ErrorCode::handleFailure(void)const ` | 1214 | Exported Function
-`protected: virtual class sbicu_58::UObject * __thiscall sbicu_58::ICUResourceBundleFactory::handleCreate(class sbicu_58::Locale const &,int,class sbicu_58::ICUService const *,enum UErrorCode &)const ` | 1211 | Exported Function
-`protected: virtual class sbicu_58::ICUServiceKey * __thiscall sbicu_58::ICULocaleService::createKey(class sbicu_58::UnicodeString const *,int,enum UErrorCode &)const ` | 751 | Exported Function
-`protected: virtual class sbicu_58::UObject * __thiscall sbicu_58::ICUService::handleDefault(class sbicu_58::ICUServiceKey const &,class sbicu_58::UnicodeString *,enum UErrorCode &)const ` | 1213 | Exported Function
-`protected: virtual int __thiscall sbicu_58::UnicodeString::getChar32At(int)const ` | 947 | Exported Function
-`protected: virtual class sbicu_58::UObject * __thiscall sbicu_58::LocaleKeyFactory::handleCreate(class sbicu_58::Locale const &,int,class sbicu_58::ICUService const *,enum UErrorCode &)const ` | 1212 | Exported Function
-`public: __thiscall sbicu_58::BytesDictionaryMatcher::BytesDictionaryMatcher(class sbicu_58::BytesDictionaryMatcher const &)` | 9 | Exported Function
-`public: __thiscall sbicu_58::EventListener::EventListener(class sbicu_58::EventListener const &)` | 35 | Exported Function
-`public: __thiscall sbicu_58::ErrorCode::operator enum UErrorCode *(void)` | 404 | Exported Function
-`public: __thiscall sbicu_58::EventListener::EventListener(void)` | 36 | Exported Function
-`public: __thiscall sbicu_58::FilteredNormalizer2::FilteredNormalizer2(class sbicu_58::FilteredNormalizer2 const &)` | 39 | Exported Function
-`public: __thiscall sbicu_58::FilteredBreakIteratorBuilder::FilteredBreakIteratorBuilder(class sbicu_58::FilteredBreakIteratorBuilder const &)` | 38 | Exported Function
-`public: __thiscall sbicu_58::DictionaryMatcher::DictionaryMatcher(void)` | 32 | Exported Function
-`public: __thiscall sbicu_58::DictionaryMatcher::DictionaryMatcher(class sbicu_58::DictionaryMatcher const &)` | 31 | Exported Function
-`public: __thiscall sbicu_58::ErrorCode::ErrorCode(class sbicu_58::ErrorCode const &)` | 33 | Exported Function
-`public: __thiscall sbicu_58::ErrorCode::operator enum UErrorCode &(void)` | 403 | Exported Function
-`public: __thiscall sbicu_58::ErrorCode::ErrorCode(void)` | 34 | Exported Function
-`public: __thiscall sbicu_58::Hashtable::~Hashtable(void)` | 244 | Exported Function
-`public: __thiscall sbicu_58::Hashtable::Hashtable(void)` | 47 | Exported Function
-`public: __thiscall sbicu_58::ICULocaleService::ICULocaleService(class sbicu_58::ICULocaleService const &)` | 48 | Exported Function
-`public: __thiscall sbicu_58::ICULocaleService::ICULocaleService(void)` | 50 | Exported Function
-`public: __thiscall sbicu_58::ICULocaleService::ICULocaleService(class sbicu_58::UnicodeString const &)` | 49 | Exported Function
-`public: __thiscall sbicu_58::FullCaseFoldingIterator::FullCaseFoldingIterator(void)` | 43 | Exported Function
-`public: __thiscall sbicu_58::FilteredNormalizer2::FilteredNormalizer2(class sbicu_58::Normalizer2 const &,class sbicu_58::UnicodeSet const &)` | 40 | Exported Function
-`public: __thiscall sbicu_58::Hashtable::Hashtable(enum UErrorCode &)` | 44 | Exported Function
-`public: __thiscall sbicu_58::Hashtable::Hashtable(signed char,enum UErrorCode &)` | 45 | Exported Function
-`public: __thiscall sbicu_58::Hashtable::Hashtable(signed char (__cdecl*)(union UElement,union UElement),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 46 | Exported Function
-`public: __thiscall sbicu_58::DateInterval::DateInterval(double,double)` | 30 | Exported Function
-`public: __thiscall sbicu_58::BytesTrie::~BytesTrie(void)` | 229 | Exported Function
-`public: __thiscall sbicu_58::BytesTrie::Iterator::~Iterator(void)` | 252 | Exported Function
-`public: __thiscall sbicu_58::BytesTrieBuilder::BytesTrieBuilder(enum UErrorCode &)` | 14 | Exported Function
-`public: __thiscall sbicu_58::CacheKeyBase::CacheKeyBase(void)` | 17 | Exported Function
-`public: __thiscall sbicu_58::CacheKeyBase::CacheKeyBase(class sbicu_58::CacheKeyBase const &)` | 16 | Exported Function
-`public: __thiscall sbicu_58::BytesTrie::BytesTrie(class sbicu_58::BytesTrie const &)` | 12 | Exported Function
-`public: __thiscall sbicu_58::ByteSink::ByteSink(void)` | 8 | Exported Function
-`public: __thiscall sbicu_58::BytesTrie::BytesTrie(void const *)` | 13 | Exported Function
-`public: __thiscall sbicu_58::BytesTrie::Iterator::Iterator(void const *,int,enum UErrorCode &)` | 67 | Exported Function
-`public: __thiscall sbicu_58::BytesTrie::Iterator::Iterator(class sbicu_58::BytesTrie const &,int,enum UErrorCode &)` | 66 | Exported Function
-`public: __thiscall sbicu_58::CheckedArrayByteSink::CheckedArrayByteSink(char *,int)` | 28 | Exported Function
-`public: __thiscall sbicu_58::CharString::~CharString(void)` | 234 | Exported Function
-`public: __thiscall sbicu_58::CStr::CStr(class sbicu_58::UnicodeString const &)` | 15 | Exported Function
-`public: __thiscall sbicu_58::DateInterval::DateInterval(class sbicu_58::DateInterval const &)` | 29 | Exported Function
-`public: __thiscall sbicu_58::CStr::~CStr(void)` | 231 | Exported Function
-`public: __thiscall sbicu_58::CharString::CharString(char const *,int,enum UErrorCode &)` | 20 | Exported Function
-`public: __thiscall sbicu_58::CanonicalIterator::CanonicalIterator(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 18 | Exported Function
-`public: __thiscall sbicu_58::CharString::CharString(class sbicu_58::CharString const &,enum UErrorCode &)` | 19 | Exported Function
-`public: __thiscall sbicu_58::CharString::CharString(void)` | 22 | Exported Function
-`public: __thiscall sbicu_58::CharString::CharString(class sbicu_58::StringPiece,enum UErrorCode &)` | 21 | Exported Function
-`protected: int __thiscall sbicu_58::ICUService::getTimestamp(void)const ` | 1185 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::releaseArray(void)` | 1565 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::pinIndices(int &,int &)const ` | 1518 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::setArray(wchar_t *,int,int)` | 1650 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::setShortLength(int)` | 1683 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::setLength(int)` | 1673 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::doCodepageCreate(char const *,int,struct UConverter *,enum UErrorCode &)` | 796 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::doCodepageCreate(char const *,int,char const *)` | 795 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::doExtract(int,int,class sbicu_58::UnicodeString &)const ` | 803 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::pinIndex(int &)const ` | 1517 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::doExtract(int,int,wchar_t *,int)const ` | 804 | Exported Function
-`private: void __thiscall sbicu_58::UnifiedCache::_putNew(class sbicu_58::CacheKeyBase const &,class sbicu_58::SharedObject const *,enum UErrorCode,enum UErrorCode &)const ` | 520 | Exported Function
-`private: void __thiscall sbicu_58::UnifiedCache::_putIfAbsentAndGet(class sbicu_58::CacheKeyBase const &,class sbicu_58::SharedObject const * &,enum UErrorCode &)const ` | 519 | Exported Function
-`private: void __thiscall sbicu_58::UnifiedCache::_registerMaster(class sbicu_58::CacheKeyBase const *,class sbicu_58::SharedObject const *)const ` | 521 | Exported Function
-`private: void __thiscall sbicu_58::UVector32::_init(int,enum UErrorCode &)` | 512 | Exported Function
-`private: void __thiscall sbicu_58::UnifiedCache::_runEvictionSlice(void)const ` | 522 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::setZeroLength(void)` | 1712 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::setToEmpty(void)` | 1706 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::unBogus(void)` | 1795 | Exported Function
-`private: void __thiscall sbicu_58::UnifiedCache::_put(struct UHashElement const *,class sbicu_58::SharedObject const *,enum UErrorCode)const ` | 518 | Exported Function
-`private: void __thiscall sbicu_58::UnifiedCache::_get(class sbicu_58::CacheKeyBase const &,class sbicu_58::SharedObject const * &,void const *,enum UErrorCode &)const ` | 509 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::copyFieldsFrom(class sbicu_58::UnicodeString &,signed char)` | 716 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::_add(class sbicu_58::UnicodeString const &)` | 502 | Exported Function
-`private: void __thiscall sbicu_58::UCharsTrieBuilder::buildUChars(enum UStringTrieBuildOption,enum UErrorCode &)` | 617 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::add(int const *,int,signed char)` | 528 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::applyPattern(class sbicu_58::RuleCharacterIterator &,class sbicu_58::SymbolTable const *,class sbicu_58::UnicodeString &,unsigned int,class sbicu_58::UnicodeSet & (__thiscall sbicu_58::UnicodeSet::*)(int),enum UErrorCode &)` | 591 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::applyFilter(signed char (__cdecl*)(int,void *),void *,int,enum UErrorCode &)` | 588 | Exported Function
-`private: void __thiscall sbicu_58::RuleBasedBreakIterator::setBreakType(int)` | 1651 | Exported Function
-`private: void __thiscall sbicu_58::RuleBasedBreakIterator::reset(void)` | 1622 | Exported Function
-`private: void __thiscall sbicu_58::SharedObject::addRef(signed char)const ` | 547 | Exported Function
-`private: void __thiscall sbicu_58::UCharsTrie::stop(void)` | 1758 | Exported Function
-`private: void __thiscall sbicu_58::SharedObject::removeRef(signed char)const ` | 1590 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::retain(int const *,int,signed char)` | 1632 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::releasePattern(void)` | 1567 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::setPattern(class sbicu_58::UnicodeString const &)` | 1681 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeString::addRef(void)` | 549 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::swapBuffers(void)` | 1763 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::applyPropertyPattern(class sbicu_58::RuleCharacterIterator &,class sbicu_58::UnicodeString &,enum UErrorCode &)` | 599 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::applyPatternIgnoreSpace(class sbicu_58::UnicodeString const &,class sbicu_58::ParsePosition &,class sbicu_58::SymbolTable const *,enum UErrorCode &)` | 595 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::ensureBufferCapacity(int,enum UErrorCode &)` | 826 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::exclusiveOr(int const *,int,signed char)` | 844 | Exported Function
-`private: void __thiscall sbicu_58::UnicodeSet::ensureCapacity(int,enum UErrorCode &)` | 834 | Exported Function
-`private: void __thiscall sbicu_58::UVector64::_init(int,enum UErrorCode &)` | 513 | Exported Function
-`protected: __thiscall sbicu_58::StringCharacterIterator::StringCharacterIterator(void)` | 139 | Exported Function
-`protected: __thiscall sbicu_58::ResourceValue::ResourceValue(void)` | 117 | Exported Function
-`protected: __thiscall sbicu_58::StringEnumeration::StringEnumeration(void)` | 144 | Exported Function
-`protected: __thiscall sbicu_58::UCharCharacterIterator::UCharCharacterIterator(void)` | 158 | Exported Function
-`protected: __thiscall sbicu_58::StringTrieBuilder::StringTrieBuilder(void)` | 154 | Exported Function
-`protected: __thiscall sbicu_58::LocaleKey::LocaleKey(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const *,int)` | 82 | Exported Function
-`protected: __thiscall sbicu_58::ForwardCharacterIterator::ForwardCharacterIterator(void)` | 42 | Exported Function
-`protected: __thiscall sbicu_58::LocaleKeyFactory::LocaleKeyFactory(int)` | 84 | Exported Function
-`protected: __thiscall sbicu_58::Replaceable::Replaceable(void)` | 104 | Exported Function
-`protected: __thiscall sbicu_58::LocaleKeyFactory::LocaleKeyFactory(int,class sbicu_58::UnicodeString const &)` | 85 | Exported Function
-`protected: class sbicu_58::StringTrieBuilder::Node * __thiscall sbicu_58::StringTrieBuilder::registerNode(class sbicu_58::StringTrieBuilder::Node *,enum UErrorCode &)` | 1562 | Exported Function
-`protected: class sbicu_58::StringTrieBuilder::Node * __thiscall sbicu_58::StringTrieBuilder::registerFinalValue(int,enum UErrorCode &)` | 1554 | Exported Function
-`protected: class sbicu_58::UnicodeString * __thiscall sbicu_58::StringEnumeration::setChars(char const *,int,enum UErrorCode &)` | 1653 | Exported Function
-`protected: int __thiscall sbicu_58::ICUService::countFactories(void)const ` | 728 | Exported Function
-`protected: class sbicu_58::UnicodeString const & __thiscall sbicu_58::ICULocaleService::validateFallbackLocale(void)const ` | 1808 | Exported Function
-`protected: class sbicu_58::ForwardCharacterIterator & __thiscall sbicu_58::ForwardCharacterIterator::operator=(class sbicu_58::ForwardCharacterIterator const &)` | 319 | Exported Function
-`protected: class sbicu_58::CharacterIterator & __thiscall sbicu_58::CharacterIterator::operator=(class sbicu_58::CharacterIterator const &)` | 312 | Exported Function
-`protected: class sbicu_58::Hashtable const * __thiscall sbicu_58::ICUService::getVisibleIDMap(enum UErrorCode &)const ` | 1206 | Exported Function
-`protected: class sbicu_58::StringTrieBuilder::Node * __thiscall sbicu_58::StringTrieBuilder::makeNode(int,int,int,enum UErrorCode &)` | 1435 | Exported Function
-`protected: class sbicu_58::StringTrieBuilder::Node * __thiscall sbicu_58::StringTrieBuilder::makeBranchSubNode(int,int,int,int,enum UErrorCode &)` | 1430 | Exported Function
-`protected: __thiscall sbicu_58::ForwardCharacterIterator::ForwardCharacterIterator(class sbicu_58::ForwardCharacterIterator const &)` | 41 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::findNextFCDBoundary(wchar_t const *,wchar_t const *)const ` | 867 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::findNextCompBoundary(wchar_t const *,wchar_t const *)const ` | 866 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::findPreviousCompBoundary(wchar_t const *,wchar_t const *)const ` | 868 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::UCharsTrie::Iterator::branchNext(wchar_t const *,int,enum UErrorCode &)` | 608 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::findPreviousFCDBoundary(wchar_t const *,wchar_t const *)const ` | 869 | Exported Function
-`private: void __thiscall sbicu_58::UVector::sortedInsert(union UElement,signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1740 | Exported Function
-`private: void __thiscall sbicu_58::UVector::_init(int,enum UErrorCode &)` | 514 | Exported Function
-`private: wchar_t * __thiscall sbicu_58::UnicodeString::getArrayStart(void)` | 922 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::Normalizer2Impl::copyLowPrefixFromNulTerminated(wchar_t const *,int,class sbicu_58::ReorderingBuffer *,enum UErrorCode &)const ` | 719 | Exported Function
-`private: wchar_t __thiscall sbicu_58::UnicodeString::doCharAt(int)const ` | 794 | Exported Function
-`protected: __thiscall sbicu_58::CharacterIterator::CharacterIterator(int,int)` | 25 | Exported Function
-`protected: __thiscall sbicu_58::CharacterIterator::CharacterIterator(int)` | 24 | Exported Function
-`protected: __thiscall sbicu_58::CharacterIterator::CharacterIterator(int,int,int,int)` | 26 | Exported Function
-`protected: __thiscall sbicu_58::FilteredBreakIteratorBuilder::FilteredBreakIteratorBuilder(void)` | 37 | Exported Function
-`protected: __thiscall sbicu_58::CharacterIterator::CharacterIterator(void)` | 27 | Exported Function
-`protected: __thiscall sbicu_58::BreakIterator::BreakIterator(class sbicu_58::BreakIterator const &)` | 5 | Exported Function
-`private: wchar_t const * __thiscall sbicu_58::UnicodeString::getArrayStart(void)const ` | 923 | Exported Function
-`protected: __thiscall sbicu_58::BreakIterator::BreakIterator(class sbicu_58::Locale const &,class sbicu_58::Locale const &)` | 6 | Exported Function
-`protected: __thiscall sbicu_58::CharacterIterator::CharacterIterator(class sbicu_58::CharacterIterator const &)` | 23 | Exported Function
-`protected: __thiscall sbicu_58::BreakIterator::BreakIterator(void)` | 7 | Exported Function
-`public: __thiscall sbicu_58::ICUNotifier::ICUNotifier(class sbicu_58::ICUNotifier const &)` | 51 | Exported Function
-`public: __thiscall sbicu_58::UnicodeFilter::UnicodeFilter(void)` | 187 | Exported Function
-`public: __thiscall sbicu_58::UnicodeFilter::UnicodeFilter(class sbicu_58::UnicodeFilter const &)` | 186 | Exported Function
-`public: __thiscall sbicu_58::UnicodeFunctor::UnicodeFunctor(class sbicu_58::UnicodeFunctor const &)` | 188 | Exported Function
-`public: __thiscall sbicu_58::UnicodeMatcher::UnicodeMatcher(class sbicu_58::UnicodeMatcher const &)` | 190 | Exported Function
-`public: __thiscall sbicu_58::UnicodeFunctor::UnicodeFunctor(void)` | 189 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::UCharsTrie(class sbicu_58::UCharsTrie const &)` | 166 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::Iterator::~Iterator(void)` | 253 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::UCharsTrie(wchar_t const *)` | 167 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrieBuilder::UCharsTrieBuilder(enum UErrorCode &)` | 168 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::~UCharsTrie(void)` | 284 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(unsigned short const * const,int,enum sbicu_58::UnicodeSet::ESerialization,enum UErrorCode &)` | 198 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(int,int)` | 197 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(void)` | 199 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSetIterator::UnicodeSetIterator(void)` | 201 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSetIterator::UnicodeSetIterator(class sbicu_58::UnicodeSet const &)` | 200 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(class sbicu_58::UnicodeSet const &)` | 193 | Exported Function
-`public: __thiscall sbicu_58::UnicodeMatcher::UnicodeMatcher(void)` | 191 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(class sbicu_58::UnicodeString const &,class sbicu_58::ParsePosition &,unsigned int,class sbicu_58::SymbolTable const *,enum UErrorCode &)` | 194 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(class sbicu_58::UnicodeString const &,unsigned int,class sbicu_58::SymbolTable const *,enum UErrorCode &)` | 196 | Exported Function
-`public: __thiscall sbicu_58::UnicodeSet::UnicodeSet(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 195 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::Iterator::Iterator(wchar_t const *,int,enum UErrorCode &)` | 70 | Exported Function
-`public: __thiscall sbicu_58::StringPiece::StringPiece(class sbicu_58::StringPiece const &,int,int)` | 149 | Exported Function
-`public: __thiscall sbicu_58::StringPiece::StringPiece(class sbicu_58::StringPiece const &,int)` | 148 | Exported Function
-`public: __thiscall sbicu_58::StringPiece::StringPiece(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 150 | Exported Function
-`public: __thiscall sbicu_58::StringTrieBuilder::StringTrieBuilder(class sbicu_58::StringTrieBuilder const &)` | 155 | Exported Function
-`public: __thiscall sbicu_58::StringPiece::StringPiece(void)` | 153 | Exported Function
-`public: __thiscall sbicu_58::StringPair::StringPair(class sbicu_58::StringPair const &)` | 147 | Exported Function
-`public: __thiscall sbicu_58::StringEnumeration::StringEnumeration(class sbicu_58::StringEnumeration const &)` | 145 | Exported Function
-`public: __thiscall sbicu_58::StringPair::~StringPair(void)` | 279 | Exported Function
-`public: __thiscall sbicu_58::StringPiece::StringPiece(char const *,int)` | 152 | Exported Function
-`public: __thiscall sbicu_58::StringPiece::StringPiece(char const *)` | 151 | Exported Function
-`public: __thiscall sbicu_58::UCharsDictionaryMatcher::UCharsDictionaryMatcher(class sbicu_58::UCharsDictionaryMatcher const &)` | 163 | Exported Function
-`public: __thiscall sbicu_58::UCharCharacterIterator::UCharCharacterIterator(wchar_t const *,int,int,int,int)` | 162 | Exported Function
-`public: __thiscall sbicu_58::UCharsDictionaryMatcher::UCharsDictionaryMatcher(wchar_t const *,struct UDataMemory *)` | 164 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::Iterator::Iterator(class sbicu_58::UCharsTrie::Iterator const &)` | 68 | Exported Function
-`public: __thiscall sbicu_58::UCharsTrie::Iterator::Iterator(class sbicu_58::UCharsTrie const &,int,enum UErrorCode &)` | 69 | Exported Function
-`public: __thiscall sbicu_58::SymbolTable::SymbolTable(void)` | 157 | Exported Function
-`public: __thiscall sbicu_58::SymbolTable::SymbolTable(class sbicu_58::SymbolTable const &)` | 156 | Exported Function
-`public: __thiscall sbicu_58::UCharCharacterIterator::UCharCharacterIterator(class sbicu_58::UCharCharacterIterator const &)` | 159 | Exported Function
-`public: __thiscall sbicu_58::UCharCharacterIterator::UCharCharacterIterator(wchar_t const *,int,int)` | 161 | Exported Function
-`public: __thiscall sbicu_58::UCharCharacterIterator::UCharCharacterIterator(wchar_t const *,int)` | 160 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(char const *)` | 211 | Exported Function
-`public: __thiscall sbicu_58::UStringEnumeration::UStringEnumeration(class sbicu_58::UStringEnumeration const &)` | 175 | Exported Function
-`public: __thiscall sbicu_58::UStack::UStack(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),int,enum UErrorCode &)` | 174 | Exported Function
-`public: __thiscall sbicu_58::UStringEnumeration::UStringEnumeration(struct UEnumeration *)` | 176 | Exported Function
-`public: __thiscall sbicu_58::UVector32::UVector32(enum UErrorCode &)` | 178 | Exported Function
-`public: __thiscall sbicu_58::UStringSet::UStringSet(enum UErrorCode &)` | 177 | Exported Function
-`public: __thiscall sbicu_58::UObject::UObject(void)` | 170 | Exported Function
-`public: __thiscall sbicu_58::UObject::UObject(class sbicu_58::UObject const &)` | 169 | Exported Function
-`public: __thiscall sbicu_58::UStack::UStack(enum UErrorCode &)` | 171 | Exported Function
-`public: __thiscall sbicu_58::UStack::UStack(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 173 | Exported Function
-`public: __thiscall sbicu_58::UStack::UStack(int,enum UErrorCode &)` | 172 | Exported Function
-`public: __thiscall sbicu_58::UVector::UVector(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),int,enum UErrorCode &)` | 185 | Exported Function
-`public: __thiscall sbicu_58::UVector::UVector(void (__cdecl*)(void *),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 184 | Exported Function
-`public: char & __thiscall sbicu_58::MaybeStackArray<char,40>::operator[](int)` | 398 | Exported Function
-`public: char * __thiscall sbicu_58::CharString::getAppendBuffer(int,int,int &,enum UErrorCode &)` | 917 | Exported Function
-`public: char * __thiscall sbicu_58::CharString::data(void)` | 775 | Exported Function
-`public: __thiscall sbicu_58::UVector64::UVector64(enum UErrorCode &)` | 180 | Exported Function
-`public: __thiscall sbicu_58::UVector32::UVector32(int,enum UErrorCode &)` | 179 | Exported Function
-`public: __thiscall sbicu_58::UVector64::UVector64(int,enum UErrorCode &)` | 181 | Exported Function
-`public: __thiscall sbicu_58::UVector::UVector(int,enum UErrorCode &)` | 183 | Exported Function
-`public: __thiscall sbicu_58::UVector::UVector(enum UErrorCode &)` | 182 | Exported Function
-`public: __thiscall sbicu_58::UnifiedCacheBase::UnifiedCacheBase(void)` | 223 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(class sbicu_58::UnicodeString const &)` | 203 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(class sbicu_58::UnicodeString &&)` | 202 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(class sbicu_58::UnicodeString const &,int)` | 204 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(int)` | 207 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(class sbicu_58::UnicodeString const &,int,int)` | 205 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(char const *,int)` | 213 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(char const *,char const *)` | 210 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(char const *,int,char const *)` | 212 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(char const *,int,struct UConverter *,enum UErrorCode &)` | 214 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(char const *,int,enum sbicu_58::UnicodeString::EInvariant)` | 215 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(wchar_t)` | 219 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(wchar_t const *,int)` | 217 | Exported Function
-`public: __thiscall sbicu_58::UnicodeStringAppendable::UnicodeStringAppendable(class sbicu_58::UnicodeString &)` | 220 | Exported Function
-`public: __thiscall sbicu_58::UnifiedCache::UnifiedCache(enum UErrorCode &)` | 222 | Exported Function
-`public: __thiscall sbicu_58::UnicodeStringAppendable::UnicodeStringAppendable(class sbicu_58::UnicodeStringAppendable const &)` | 221 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(signed char,wchar_t const *,int)` | 206 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(int,int,int)` | 208 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(void)` | 218 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(wchar_t const *)` | 216 | Exported Function
-`public: __thiscall sbicu_58::UnicodeString::UnicodeString(wchar_t *,int,int)` | 209 | Exported Function
-`public: __thiscall sbicu_58::StringCharacterIterator::StringCharacterIterator(class sbicu_58::UnicodeString const &,int,int,int)` | 143 | Exported Function
-`public: __thiscall sbicu_58::MaybeStackArray<char,40>::~MaybeStackArray<char,40>(void)` | 224 | Exported Function
-`public: __thiscall sbicu_58::MaybeStackArray<char,40>::MaybeStackArray<char,40>(void)` | 2 | Exported Function
-`public: __thiscall sbicu_58::MessagePattern::MessagePattern(class sbicu_58::MessagePattern const &)` | 88 | Exported Function
-`public: __thiscall sbicu_58::MessagePattern::MessagePattern(enum UErrorCode &)` | 87 | Exported Function
-`public: __thiscall sbicu_58::MessagePattern::MessagePattern(class sbicu_58::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 89 | Exported Function
-`public: __thiscall sbicu_58::LocaleDisplayNames::LocaleDisplayNames(class sbicu_58::LocaleDisplayNames const &)` | 80 | Exported Function
-`public: __thiscall sbicu_58::LocaleBased::LocaleBased(char const *,char const *)` | 79 | Exported Function
-`public: __thiscall sbicu_58::LocaleDisplayNames::LocaleDisplayNames(void)` | 81 | Exported Function
-`public: __thiscall sbicu_58::LocaleKeyFactory::LocaleKeyFactory(class sbicu_58::LocaleKeyFactory const &)` | 86 | Exported Function
-`public: __thiscall sbicu_58::LocaleKey::LocaleKey(class sbicu_58::LocaleKey const &)` | 83 | Exported Function
-`public: __thiscall sbicu_58::Normalizer2Impl::Normalizer2Impl(void)` | 95 | Exported Function
-`public: __thiscall sbicu_58::Normalizer2Impl::Normalizer2Impl(class sbicu_58::Normalizer2Impl const &)` | 94 | Exported Function
-`public: __thiscall sbicu_58::Normalizer::Normalizer(class sbicu_58::CharacterIterator const &,enum UNormalizationMode)` | 97 | Exported Function
-`public: __thiscall sbicu_58::Normalizer::Normalizer(class sbicu_58::UnicodeString const &,enum UNormalizationMode)` | 98 | Exported Function
-`public: __thiscall sbicu_58::Normalizer::Normalizer(class sbicu_58::Normalizer const &)` | 96 | Exported Function
-`public: __thiscall sbicu_58::Mutex::Mutex(struct UMutex *)` | 91 | Exported Function
-`public: __thiscall sbicu_58::MessagePattern::MessagePattern(enum UMessagePatternApostropheMode,enum UErrorCode &)` | 90 | Exported Function
-`public: __thiscall sbicu_58::Mutex::~Mutex(void)` | 260 | Exported Function
-`public: __thiscall sbicu_58::Normalizer2::Normalizer2(void)` | 93 | Exported Function
-`public: __thiscall sbicu_58::Normalizer2::Normalizer2(class sbicu_58::Normalizer2 const &)` | 92 | Exported Function
-`public: __thiscall sbicu_58::LocaleBased::LocaleBased(char *,char *)` | 78 | Exported Function
-`public: __thiscall sbicu_58::ICUService::ICUService(void)` | 58 | Exported Function
-`public: __thiscall sbicu_58::ICUService::ICUService(class sbicu_58::UnicodeString const &)` | 57 | Exported Function
-`public: __thiscall sbicu_58::ICUServiceFactory::ICUServiceFactory(class sbicu_58::ICUServiceFactory const &)` | 59 | Exported Function
-`public: __thiscall sbicu_58::ICUServiceKey::ICUServiceKey(class sbicu_58::ICUServiceKey const &)` | 61 | Exported Function
-`public: __thiscall sbicu_58::ICUServiceFactory::ICUServiceFactory(void)` | 60 | Exported Function
-`public: __thiscall sbicu_58::ICUResourceBundleFactory::ICUResourceBundleFactory(class sbicu_58::ICUResourceBundleFactory const &)` | 53 | Exported Function
-`public: __thiscall sbicu_58::ICUNotifier::ICUNotifier(void)` | 52 | Exported Function
-`public: __thiscall sbicu_58::ICUResourceBundleFactory::ICUResourceBundleFactory(class sbicu_58::UnicodeString const &)` | 54 | Exported Function
-`public: __thiscall sbicu_58::ICUService::ICUService(class sbicu_58::ICUService const &)` | 56 | Exported Function
-`public: __thiscall sbicu_58::ICUResourceBundleFactory::ICUResourceBundleFactory(void)` | 55 | Exported Function
-`public: __thiscall sbicu_58::ListFormatter::ListFormatter(struct sbicu_58::ListFormatInternal const *)` | 73 | Exported Function
-`public: __thiscall sbicu_58::ListFormatter::ListFormatter(struct sbicu_58::ListFormatData const &,enum UErrorCode &)` | 71 | Exported Function
-`public: __thiscall sbicu_58::Locale::Locale(char const *,char const *,char const *,char const *)` | 76 | Exported Function
-`public: __thiscall sbicu_58::Locale::Locale(void)` | 77 | Exported Function
-`public: __thiscall sbicu_58::Locale::Locale(class sbicu_58::Locale const &)` | 75 | Exported Function
-`public: __thiscall sbicu_58::IDNA::IDNA(class sbicu_58::IDNA const &)` | 63 | Exported Function
-`public: __thiscall sbicu_58::ICUServiceKey::ICUServiceKey(class sbicu_58::UnicodeString const &)` | 62 | Exported Function
-`public: __thiscall sbicu_58::IDNA::IDNA(void)` | 64 | Exported Function
-`public: __thiscall sbicu_58::ListFormatter::ListFormatter(class sbicu_58::ListFormatter const &)` | 72 | Exported Function
-`public: __thiscall sbicu_58::IDNAInfo::IDNAInfo(void)` | 65 | Exported Function
-`public: __thiscall sbicu_58::Normalizer::Normalizer(wchar_t const *,int,enum UNormalizationMode)` | 99 | Exported Function
-`public: __thiscall sbicu_58::SimpleFactory::SimpleFactory(class sbicu_58::UObject *,class sbicu_58::UnicodeString const &,signed char)` | 129 | Exported Function
-`public: __thiscall sbicu_58::SimpleFactory::SimpleFactory(class sbicu_58::SimpleFactory const &)` | 128 | Exported Function
-`public: __thiscall sbicu_58::SimpleFilteredBreakIteratorBuilder::SimpleFilteredBreakIteratorBuilder(class sbicu_58::Locale const &,enum UErrorCode &)` | 131 | Exported Function
-`public: __thiscall sbicu_58::SimpleFormatter::SimpleFormatter(class sbicu_58::SimpleFormatter const &)` | 132 | Exported Function
-`public: __thiscall sbicu_58::SimpleFilteredBreakIteratorBuilder::SimpleFilteredBreakIteratorBuilder(enum UErrorCode &)` | 130 | Exported Function
-`public: __thiscall sbicu_58::ServiceListener::ServiceListener(class sbicu_58::ServiceListener const &)` | 124 | Exported Function
-`public: __thiscall sbicu_58::RuleBasedBreakIterator::RuleBasedBreakIterator(void)` | 123 | Exported Function
-`public: __thiscall sbicu_58::ServiceListener::ServiceListener(void)` | 125 | Exported Function
-`public: __thiscall sbicu_58::SharedObject::SharedObject(void)` | 127 | Exported Function
-`public: __thiscall sbicu_58::SharedObject::SharedObject(class sbicu_58::SharedObject const &)` | 126 | Exported Function
-`public: __thiscall sbicu_58::SimpleLocaleKeyFactory::SimpleLocaleKeyFactory(class sbicu_58::UObject *,class sbicu_58::UnicodeString const &,int,int)` | 138 | Exported Function
-`public: __thiscall sbicu_58::SimpleLocaleKeyFactory::SimpleLocaleKeyFactory(class sbicu_58::UObject *,class sbicu_58::Locale const &,int,int)` | 137 | Exported Function
-`public: __thiscall sbicu_58::StringCharacterIterator::StringCharacterIterator(class sbicu_58::StringCharacterIterator const &)` | 140 | Exported Function
-`public: __thiscall sbicu_58::StringCharacterIterator::StringCharacterIterator(class sbicu_58::UnicodeString const &,int)` | 142 | Exported Function
-`public: __thiscall sbicu_58::StringCharacterIterator::StringCharacterIterator(class sbicu_58::UnicodeString const &)` | 141 | Exported Function
-`public: __thiscall sbicu_58::SimpleFormatter::SimpleFormatter(class sbicu_58::UnicodeString const &,int,int,enum UErrorCode &)` | 134 | Exported Function
-`public: __thiscall sbicu_58::SimpleFormatter::SimpleFormatter(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 133 | Exported Function
-`public: __thiscall sbicu_58::SimpleFormatter::SimpleFormatter(void)` | 135 | Exported Function
-`public: __thiscall sbicu_58::SimpleLocaleKeyFactory::SimpleLocaleKeyFactory(class sbicu_58::SimpleLocaleKeyFactory const &)` | 136 | Exported Function
-`public: __thiscall sbicu_58::SimpleFormatter::~SimpleFormatter(void)` | 275 | Exported Function
-`public: __thiscall sbicu_58::RuleBasedBreakIterator::RuleBasedBreakIterator(unsigned char const *,unsigned int,enum UErrorCode &)` | 122 | Exported Function
-`public: __thiscall sbicu_58::ResourceArray::ResourceArray(unsigned short const *,unsigned int const *,int)` | 106 | Exported Function
-`public: __thiscall sbicu_58::Replaceable::Replaceable(class sbicu_58::Replaceable const &)` | 105 | Exported Function
-`public: __thiscall sbicu_58::ResourceArray::ResourceArray(void)` | 107 | Exported Function
-`public: __thiscall sbicu_58::ResourceBundle::ResourceBundle(class sbicu_58::ResourceBundle const &)` | 109 | Exported Function
-`public: __thiscall sbicu_58::ResourceBundle::ResourceBundle(char const *,class sbicu_58::Locale const &,enum UErrorCode &)` | 113 | Exported Function
-`public: __thiscall sbicu_58::ParsePosition::ParsePosition(int)` | 101 | Exported Function
-`public: __thiscall sbicu_58::ParsePosition::ParsePosition(class sbicu_58::ParsePosition const &)` | 100 | Exported Function
-`public: __thiscall sbicu_58::ParsePosition::ParsePosition(void)` | 102 | Exported Function
-`public: __thiscall sbicu_58::ReorderingBuffer::~ReorderingBuffer(void)` | 265 | Exported Function
-`public: __thiscall sbicu_58::ReorderingBuffer::ReorderingBuffer(class sbicu_58::Normalizer2Impl const &,class sbicu_58::UnicodeString &)` | 103 | Exported Function
-`public: __thiscall sbicu_58::ResourceTable::ResourceTable(void)` | 116 | Exported Function
-`public: __thiscall sbicu_58::ResourceTable::ResourceTable(unsigned short const *,int const *,unsigned short const *,unsigned int const *,int)` | 115 | Exported Function
-`public: __thiscall sbicu_58::RuleBasedBreakIterator::RuleBasedBreakIterator(class sbicu_58::RuleBasedBreakIterator const &)` | 119 | Exported Function
-`public: __thiscall sbicu_58::RuleBasedBreakIterator::RuleBasedBreakIterator(struct UDataMemory *,enum UErrorCode &)` | 121 | Exported Function
-`public: __thiscall sbicu_58::RuleBasedBreakIterator::RuleBasedBreakIterator(class sbicu_58::UnicodeString const &,struct UParseError &,enum UErrorCode &)` | 120 | Exported Function
-`public: __thiscall sbicu_58::ResourceBundle::ResourceBundle(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 110 | Exported Function
-`public: __thiscall sbicu_58::ResourceBundle::ResourceBundle(class sbicu_58::UnicodeString const &,class sbicu_58::Locale const &,enum UErrorCode &)` | 111 | Exported Function
-`public: __thiscall sbicu_58::ResourceBundle::ResourceBundle(enum UErrorCode &)` | 108 | Exported Function
-`public: __thiscall sbicu_58::ResourceSink::ResourceSink(void)` | 114 | Exported Function
-`public: __thiscall sbicu_58::ResourceBundle::ResourceBundle(struct UResourceBundle *,enum UErrorCode &)` | 112 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::parseSimpleStyle(int,struct UParseError *,enum UErrorCode &)` | 1509 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::parsePluralOrSelectStyle(enum UMessagePatternArgType,int,int,struct UParseError *,enum UErrorCode &)` | 1505 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::skipDouble(int)` | 1721 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::skipWhiteSpace(int)` | 1732 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::skipIdentifier(int)` | 1724 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::parseArg(int,int,int,struct UParseError *,enum UErrorCode &)` | 1493 | Exported Function
-`private: int __thiscall sbicu_58::BytesTrieBuilder::write(char const *,int)` | 1811 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::parseArgNumber(int,int)` | 1494 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::parseMessage(int,int,int,enum UMessagePatternArgType,struct UParseError *,enum UErrorCode &)` | 1501 | Exported Function
-`private: int __thiscall sbicu_58::MessagePattern::parseChoiceStyle(int,int,struct UParseError *,enum UErrorCode &)` | 1497 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeSet::findCodePoint(int)const ` | 865 | Exported Function
-`private: int __thiscall sbicu_58::UCharsTrieBuilder::write(wchar_t const *,int)` | 1813 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeSet::getStringCount(void)const ` | 1171 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::doHashCode(void)const ` | 805 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::doExtract(int,int,char *,int,struct UConverter *,enum UErrorCode &)const ` | 802 | Exported Function
-`private: int __thiscall sbicu_58::Normalizer2Impl::mapAlgorithmic(int,unsigned short)const ` | 1437 | Exported Function
-`private: int __thiscall sbicu_58::Normalizer2Impl::getCanonValue(int)const ` | 943 | Exported Function
-`private: int __thiscall sbicu_58::RuleBasedBreakIterator::checkDictionary(int,int,signed char)` | 636 | Exported Function
-`private: int __thiscall sbicu_58::RuleBasedBreakIterator::handlePrevious(struct sbicu_58::RBBIStateTable const *)` | 1216 | Exported Function
-`private: int __thiscall sbicu_58::RuleBasedBreakIterator::handleNext(struct sbicu_58::RBBIStateTable const *)` | 1215 | Exported Function
-`private: int __thiscall sbicu_58::BytesDictionaryMatcher::transform(int)const ` | 1786 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::caseMap(struct UCaseMap const *,int (__cdecl*)(struct UCaseMap const *,wchar_t *,int,wchar_t const *,int,enum UErrorCode *))` | 630 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeSet::_toPattern(class sbicu_58::UnicodeString &,signed char)const ` | 523 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::copyFrom(class sbicu_58::UnicodeString const &,signed char)` | 718 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::doAppend(wchar_t const *,int,int)` | 791 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::doAppend(class sbicu_58::UnicodeString const &,int,int)` | 790 | Exported Function
-`private: class sbicu_58::UnicodeSet const & __thiscall sbicu_58::Normalizer2Impl::getCanonStartSet(int)const ` | 941 | Exported Function
-`private: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::applyPropertyPattern(class sbicu_58::UnicodeString const &,class sbicu_58::ParsePosition &,enum UErrorCode &)` | 598 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::FilteredNormalizer2::normalize(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum USetSpanCondition,enum UErrorCode &)const ` | 1479 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeSet::_generatePattern(class sbicu_58::UnicodeString &,signed char)const ` | 508 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::FilteredNormalizer2::normalizeSecondAndAppend(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString const &,signed char,enum UErrorCode &)const ` | 1483 | Exported Function
-`private: enum UStringTrieResult __thiscall sbicu_58::BytesTrie::branchNext(unsigned char const *,int,int)` | 606 | Exported Function
-`private: class sbicu_58::UnicodeString const * __thiscall sbicu_58::UnicodeSet::getString(int)const ` | 1168 | Exported Function
-`private: enum UStringTrieResult __thiscall sbicu_58::BytesTrie::nextImpl(unsigned char const *,int)` | 1472 | Exported Function
-`private: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::nextImpl(wchar_t const *,int)` | 1473 | Exported Function
-`private: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::branchNext(wchar_t const *,int,int)` | 609 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::doReplace(int,int,wchar_t const *,int,int)` | 811 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::doReplace(int,int,class sbicu_58::UnicodeString const &,int,int)` | 810 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::doReverse(int,int)` | 812 | Exported Function
-`private: class sbicu_58::UnicodeString * __thiscall sbicu_58::CanonicalIterator::getEquivalents(class sbicu_58::UnicodeString const &,int &,enum UErrorCode &)` | 1018 | Exported Function
-`private: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setToUTF8(class sbicu_58::StringPiece)` | 1709 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::doIndexOf(int,int,int)const ` | 806 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isMaybe(unsigned short)const ` | 1337 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isHangul(unsigned short)const ` | 1328 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isMaybeOrNonZeroCC(unsigned short)const ` | 1338 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer::nextNormalize(void)` | 1474 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isMostDecompYesAndZeroCC(unsigned short)const ` | 1339 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::hasCompBoundaryBefore(int,unsigned short)const ` | 1222 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::decomposeShort(wchar_t const *,wchar_t const *,class sbicu_58::ReorderingBuffer &,enum UErrorCode &)const ` | 785 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isCompYesAndZeroCC(unsigned short)const ` | 1308 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isDecompYesAndZeroCC(unsigned short)const ` | 1312 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::isDecompNoAlgorithmic(unsigned short)const ` | 1310 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::allocate(int)` | 555 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeSet::allocateStrings(enum UErrorCode &)` | 556 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::cloneArrayIfNeeded(int,int,signed char,int * *,signed char)` | 661 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doCaseCompare(int,int,wchar_t const *,int,int,unsigned int)const ` | 793 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doCaseCompare(int,int,class sbicu_58::UnicodeString const &,int,int,unsigned int)const ` | 792 | Exported Function
-`private: signed char __thiscall sbicu_58::ReorderingBuffer::appendSupplementary(int,unsigned char,enum UErrorCode &)` | 582 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer::previousNormalize(void)` | 1536 | Exported Function
-`private: signed char __thiscall sbicu_58::ReorderingBuffer::resize(int,enum UErrorCode &)` | 1631 | Exported Function
-`private: signed char __thiscall sbicu_58::UCharsTrieBuilder::ensureCapacity(int)` | 830 | Exported Function
-`private: signed char __thiscall sbicu_58::UCharsTrie::Iterator::truncateAndStop(void)` | 1792 | Exported Function
-`private: signed char __thiscall sbicu_58::Normalizer2Impl::decompose(int,unsigned short,class sbicu_58::ReorderingBuffer &,enum UErrorCode &)const ` | 779 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::toUTF8(int,int,char *,int)const ` | 1782 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::removeRef(void)` | 1592 | Exported Function
-`private: int __thiscall sbicu_58::UnifiedCache::_computeCountOfItemsToEvict(void)const ` | 505 | Exported Function
-`private: signed char __thiscall sbicu_58::BytesTrie::Iterator::truncateAndStop(void)` | 1791 | Exported Function
-`private: int __thiscall sbicu_58::UVector::indexOf(union UElement,int,signed char)const ` | 1254 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::doLastIndexOf(int,int,int)const ` | 808 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::doIndexOf(wchar_t,int,int)const ` | 807 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::doLastIndexOf(wchar_t,int,int)const ` | 809 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::refCount(void)const ` | 1551 | Exported Function
-`private: int __thiscall sbicu_58::UnicodeString::getShortLength(void)const ` | 1129 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::isChoice(int)` | 1306 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::inTopLevelChoiceMessage(int,enum UMessagePatternArgType)` | 1251 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::isOrdinal(int)` | 1343 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::isSelect(int)` | 1346 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::isPlural(int)` | 1344 | Exported Function
-`private: signed char __thiscall sbicu_58::CharString::ensureCapacity(int,int,enum UErrorCode &)` | 829 | Exported Function
-`private: signed char __thiscall sbicu_58::BytesTrieBuilder::ensureCapacity(int)` | 828 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::copyStorage(class sbicu_58::MessagePattern const &,enum UErrorCode &)` | 722 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::inMessageFormatPattern(int)` | 1250 | Exported Function
-`private: signed char __thiscall sbicu_58::MessagePattern::init(enum UErrorCode &)` | 1275 | Exported Function
-`private: class sbicu_58::Locale & __thiscall sbicu_58::Locale::init(char const *,signed char)` | 1274 | Exported Function
-`const sbicu_58::LocaleDisplayNames::``vftable'` | 439 | Exported Function
-`const sbicu_58::Locale::``vftable'` | 438 | Exported Function
-`const sbicu_58::LocaleKey::``vftable'` | 440 | Exported Function
-`const sbicu_58::MessagePattern::``vftable'` | 442 | Exported Function
-`const sbicu_58::LocaleKeyFactory::``vftable'` | 441 | Exported Function
-`const sbicu_58::ICUServiceFactory::``vftable'` | 434 | Exported Function
-`const sbicu_58::ICUService::``vftable'` | 433 | Exported Function
-`const sbicu_58::ICUServiceKey::``vftable'` | 435 | Exported Function
-`const sbicu_58::ListFormatter::``vftable'` | 437 | Exported Function
-`const sbicu_58::IDNA::``vftable'` | 436 | Exported Function
-`const sbicu_58::ResourceSink::``vftable'` | 449 | Exported Function
-`const sbicu_58::ResourceBundle::``vftable'` | 448 | Exported Function
-`const sbicu_58::ResourceValue::``vftable'` | 450 | Exported Function
-`const sbicu_58::ServiceListener::``vftable'` | 452 | Exported Function
-`const sbicu_58::RuleBasedBreakIterator::``vftable'` | 451 | Exported Function
-`const sbicu_58::Normalizer2Impl::``vftable'` | 444 | Exported Function
-`const sbicu_58::Normalizer2::``vftable'` | 443 | Exported Function
-`const sbicu_58::Normalizer::``vftable'` | 445 | Exported Function
-`const sbicu_58::Replaceable::``vftable'` | 447 | Exported Function
-`const sbicu_58::ParsePosition::``vftable'` | 446 | Exported Function
-`const sbicu_58::ICUResourceBundleFactory::``vftable'` | 432 | Exported Function
-`const sbicu_58::BytesTrieBuilder::``vftable'` | 418 | Exported Function
-`const sbicu_58::ByteSink::``vftable'` | 416 | Exported Function
-`const sbicu_58::CacheKeyBase::``vftable'` | 419 | Exported Function
-`const sbicu_58::CharacterIterator::``vftable'` | 421 | Exported Function
-`const sbicu_58::CanonicalIterator::``vftable'` | 420 | Exported Function
-`class sbicu_58::UnicodeString __cdecl uscript_getSampleUnicodeString_58(enum UScriptCode)` | 1806 | Exported Function
-`class sbicu_58::UnicodeString __cdecl sbicu_58::operator+(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &)` | 405 | Exported Function
-`const sbicu_58::Appendable::``vftable'` | 414 | Exported Function
-`const sbicu_58::BytesDictionaryMatcher::``vftable'` | 417 | Exported Function
-`const sbicu_58::BreakIterator::``vftable'` | 415 | Exported Function
-`const sbicu_58::FilteredNormalizer2::``vftable'` | 428 | Exported Function
-`const sbicu_58::FilteredBreakIteratorBuilder::``vftable'` | 427 | Exported Function
-`const sbicu_58::ForwardCharacterIterator::``vftable'` | 429 | Exported Function
-`const sbicu_58::ICUNotifier::``vftable'` | 431 | Exported Function
-`const sbicu_58::ICULocaleService::``vftable'` | 430 | Exported Function
-`const sbicu_58::DateInterval::``vftable'` | 423 | Exported Function
-`const sbicu_58::CheckedArrayByteSink::``vftable'` | 422 | Exported Function
-`const sbicu_58::DictionaryMatcher::``vftable'` | 424 | Exported Function
-`const sbicu_58::EventListener::``vftable'` | 426 | Exported Function
-`const sbicu_58::ErrorCode::``vftable'` | 425 | Exported Function
-`const sbicu_58::SharedObject::``vftable'` | 453 | Exported Function
-`const sbicu_58::UVector::``vftable'` | 470 | Exported Function
-`const sbicu_58::UVector64::``vftable'` | 469 | Exported Function
+`build` | 612 | Exported Function
+`ensureCharsCapacity` | 835 | Exported Function
+`createCompactBuilder` | 737 | Exported Function
+`getBuffer` | 933 | Exported Function
+`deleteCompactBuilder` | 788 | Exported Function
+`loadRange` | 1429 | Exported Function
+`reInitializeFactories` | 1546 | Exported Function
+`getCharAt` | 950 | Exported Function
+`setFromPOSIXID` | 1664 | Exported Function
+`clearServiceCache` | 648 | Exported Function
+`push` | 1540 | Exported Function
+`popi` | 1524 | Exported Function
+`Appendable` | 3 | Exported Function
+`BytesDictionaryMatcher` | 10 | Exported Function
+`Appendable` | 4 | Exported Function
+`reserveBlock` | 1613 | Exported Function
+`popFrame` | 1521 | Exported Function
+`autoEvictedCount` | 604 | Exported Function
+`lastElementi` | 1408 | Exported Function
+`elementAti` | 815 | Exported Function
+`EventListener` | 1486 | Exported Function
+`getSupportedIDs` | 1175 | Exported Function
+`StringTrieBuilder` | 280 | Exported Function
+`getSupportedIDs` | 1176 | Exported Function
+`UnicodeString` | 750 | Exported Function
+`UnicodeString` | 758 | Exported Function
+`writeNode` | 1821 | Exported Function
+`writeBranchSubNode` | 1815 | Exported Function
+`kMaxBranchLinearSubNodeLength` | 1363 | Exported Function
+`PREFIX_DELIMITER` | 492 | Exported Function
+`kMaxSplitBranchLevels` | 1372 | Exported Function
+`EventListener` | 524 | Exported Function
+`getLength` | 1064 | Exported Function
+`ICUServiceKey` | 1218 | Exported Function
+`clearCaches` | 645 | Exported Function
+`handleFailure` | 1214 | Exported Function
+`ICUService` | 1211 | Exported Function
+`UnicodeString` | 751 | Exported Function
+`UnicodeString` | 1213 | Exported Function
+`getChar32At` | 947 | Exported Function
+`ICUService` | 1212 | Exported Function
+`BytesDictionaryMatcher` | 9 | Exported Function
+`EventListener` | 35 | Exported Function
+`operator` | 404 | Exported Function
+`EventListener` | 36 | Exported Function
+`FilteredNormalizer2` | 39 | Exported Function
+`FilteredBreakIteratorBuilder` | 38 | Exported Function
+`DictionaryMatcher` | 32 | Exported Function
+`DictionaryMatcher` | 31 | Exported Function
+`ErrorCode` | 33 | Exported Function
+`operator` | 403 | Exported Function
+`ErrorCode` | 34 | Exported Function
+`Hashtable` | 244 | Exported Function
+`Hashtable` | 47 | Exported Function
+`ICULocaleService` | 48 | Exported Function
+`ICULocaleService` | 50 | Exported Function
+`UnicodeString` | 49 | Exported Function
+`FullCaseFoldingIterator` | 43 | Exported Function
+`UnicodeSet` | 40 | Exported Function
+`Hashtable` | 44 | Exported Function
+`Hashtable` | 45 | Exported Function
+`Hashtable` | 46 | Exported Function
+`DateInterval` | 30 | Exported Function
+`BytesTrie` | 229 | Exported Function
+`Iterator` | 252 | Exported Function
+`BytesTrieBuilder` | 14 | Exported Function
+`CacheKeyBase` | 17 | Exported Function
+`CacheKeyBase` | 16 | Exported Function
+`BytesTrie` | 12 | Exported Function
+`ByteSink` | 8 | Exported Function
+`BytesTrie` | 13 | Exported Function
+`Iterator` | 67 | Exported Function
+`BytesTrie` | 66 | Exported Function
+`CheckedArrayByteSink` | 28 | Exported Function
+`CharString` | 234 | Exported Function
+`UnicodeString` | 15 | Exported Function
+`DateInterval` | 29 | Exported Function
+`CStr` | 231 | Exported Function
+`CharString` | 20 | Exported Function
+`UnicodeString` | 18 | Exported Function
+`CharString` | 19 | Exported Function
+`CharString` | 22 | Exported Function
+`StringPiece` | 21 | Exported Function
+`getTimestamp` | 1185 | Exported Function
+`releaseArray` | 1565 | Exported Function
+`pinIndices` | 1518 | Exported Function
+`setArray` | 1650 | Exported Function
+`setShortLength` | 1683 | Exported Function
+`setLength` | 1673 | Exported Function
+`doCodepageCreate` | 796 | Exported Function
+`doCodepageCreate` | 795 | Exported Function
+`UnicodeString` | 803 | Exported Function
+`pinIndex` | 1517 | Exported Function
+`doExtract` | 804 | Exported Function
+`SharedObject` | 520 | Exported Function
+`SharedObject` | 519 | Exported Function
+`SharedObject` | 521 | Exported Function
+`_init` | 512 | Exported Function
+`_runEvictionSlice` | 522 | Exported Function
+`setZeroLength` | 1712 | Exported Function
+`setToEmpty` | 1706 | Exported Function
+`unBogus` | 1795 | Exported Function
+`SharedObject` | 518 | Exported Function
+`SharedObject` | 509 | Exported Function
+`UnicodeString` | 716 | Exported Function
+`UnicodeString` | 502 | Exported Function
+`buildUChars` | 617 | Exported Function
+`add` | 528 | Exported Function
+`UnicodeSet` | 591 | Exported Function
+`applyFilter` | 588 | Exported Function
+`setBreakType` | 1651 | Exported Function
+`reset` | 1622 | Exported Function
+`addRef` | 547 | Exported Function
+`stop` | 1758 | Exported Function
+`removeRef` | 1590 | Exported Function
+`retain` | 1632 | Exported Function
+`releasePattern` | 1567 | Exported Function
+`UnicodeString` | 1681 | Exported Function
+`addRef` | 549 | Exported Function
+`swapBuffers` | 1763 | Exported Function
+`UnicodeString` | 599 | Exported Function
+`SymbolTable` | 595 | Exported Function
+`ensureBufferCapacity` | 826 | Exported Function
+`exclusiveOr` | 844 | Exported Function
+`ensureCapacity` | 834 | Exported Function
+`_init` | 513 | Exported Function
+`StringCharacterIterator` | 139 | Exported Function
+`ResourceValue` | 117 | Exported Function
+`StringEnumeration` | 144 | Exported Function
+`UCharCharacterIterator` | 158 | Exported Function
+`StringTrieBuilder` | 154 | Exported Function
+`UnicodeString` | 82 | Exported Function
+`ForwardCharacterIterator` | 42 | Exported Function
+`LocaleKeyFactory` | 84 | Exported Function
+`Replaceable` | 104 | Exported Function
+`UnicodeString` | 85 | Exported Function
+`Node` | 1562 | Exported Function
+`registerFinalValue` | 1554 | Exported Function
+`setChars` | 1653 | Exported Function
+`countFactories` | 728 | Exported Function
+`validateFallbackLocale` | 1808 | Exported Function
+`ForwardCharacterIterator` | 319 | Exported Function
+`CharacterIterator` | 312 | Exported Function
+`getVisibleIDMap` | 1206 | Exported Function
+`makeNode` | 1435 | Exported Function
+`makeBranchSubNode` | 1430 | Exported Function
+`ForwardCharacterIterator` | 41 | Exported Function
+`findNextFCDBoundary` | 867 | Exported Function
+`findNextCompBoundary` | 866 | Exported Function
+`findPreviousCompBoundary` | 868 | Exported Function
+`branchNext` | 608 | Exported Function
+`findPreviousFCDBoundary` | 869 | Exported Function
+`sortedInsert` | 1740 | Exported Function
+`_init` | 514 | Exported Function
+`getArrayStart` | 922 | Exported Function
+`ReorderingBuffer` | 719 | Exported Function
+`doCharAt` | 794 | Exported Function
+`CharacterIterator` | 25 | Exported Function
+`CharacterIterator` | 24 | Exported Function
+`CharacterIterator` | 26 | Exported Function
+`FilteredBreakIteratorBuilder` | 37 | Exported Function
+`CharacterIterator` | 27 | Exported Function
+`BreakIterator` | 5 | Exported Function
+`getArrayStart` | 923 | Exported Function
+`Locale` | 6 | Exported Function
+`CharacterIterator` | 23 | Exported Function
+`BreakIterator` | 7 | Exported Function
+`ICUNotifier` | 51 | Exported Function
+`UnicodeFilter` | 187 | Exported Function
+`UnicodeFilter` | 186 | Exported Function
+`UnicodeFunctor` | 188 | Exported Function
+`UnicodeMatcher` | 190 | Exported Function
+`UnicodeFunctor` | 189 | Exported Function
+`UCharsTrie` | 166 | Exported Function
+`Iterator` | 253 | Exported Function
+`UCharsTrie` | 167 | Exported Function
+`UCharsTrieBuilder` | 168 | Exported Function
+`UCharsTrie` | 284 | Exported Function
+`ESerialization` | 198 | Exported Function
+`UnicodeSet` | 197 | Exported Function
+`UnicodeSet` | 199 | Exported Function
+`UnicodeSetIterator` | 201 | Exported Function
+`UnicodeSet` | 200 | Exported Function
+`UnicodeSet` | 193 | Exported Function
+`UnicodeMatcher` | 191 | Exported Function
+`SymbolTable` | 194 | Exported Function
+`SymbolTable` | 196 | Exported Function
+`UnicodeString` | 195 | Exported Function
+`Iterator` | 70 | Exported Function
+`StringPiece` | 149 | Exported Function
+`StringPiece` | 148 | Exported Function
+`allocator` | 150 | Exported Function
+`StringTrieBuilder` | 155 | Exported Function
+`StringPiece` | 153 | Exported Function
+`StringPair` | 147 | Exported Function
+`StringEnumeration` | 145 | Exported Function
+`StringPair` | 279 | Exported Function
+`StringPiece` | 152 | Exported Function
+`StringPiece` | 151 | Exported Function
+`UCharsDictionaryMatcher` | 163 | Exported Function
+`UCharCharacterIterator` | 162 | Exported Function
+`UCharsDictionaryMatcher` | 164 | Exported Function
+`Iterator` | 68 | Exported Function
+`UCharsTrie` | 69 | Exported Function
+`SymbolTable` | 157 | Exported Function
+`SymbolTable` | 156 | Exported Function
+`UCharCharacterIterator` | 159 | Exported Function
+`UCharCharacterIterator` | 161 | Exported Function
+`UCharCharacterIterator` | 160 | Exported Function
+`UnicodeString` | 211 | Exported Function
+`UStringEnumeration` | 175 | Exported Function
+`UStack` | 174 | Exported Function
+`UStringEnumeration` | 176 | Exported Function
+`UVector32` | 178 | Exported Function
+`UStringSet` | 177 | Exported Function
+`UObject` | 170 | Exported Function
+`UObject` | 169 | Exported Function
+`UStack` | 171 | Exported Function
+`UStack` | 173 | Exported Function
+`UStack` | 172 | Exported Function
+`UVector` | 185 | Exported Function
+`UVector` | 184 | Exported Function
+`operator` | 398 | Exported Function
+`getAppendBuffer` | 917 | Exported Function
+`data` | 775 | Exported Function
+`UVector64` | 180 | Exported Function
+`UVector32` | 179 | Exported Function
+`UVector64` | 181 | Exported Function
+`UVector` | 183 | Exported Function
+`UVector` | 182 | Exported Function
+`UnifiedCacheBase` | 223 | Exported Function
+`UnicodeString` | 203 | Exported Function
+`UnicodeString` | 202 | Exported Function
+`UnicodeString` | 204 | Exported Function
+`UnicodeString` | 207 | Exported Function
+`UnicodeString` | 205 | Exported Function
+`UnicodeString` | 213 | Exported Function
+`UnicodeString` | 210 | Exported Function
+`UnicodeString` | 212 | Exported Function
+`UnicodeString` | 214 | Exported Function
+`EInvariant` | 215 | Exported Function
+`UnicodeString` | 219 | Exported Function
+`UnicodeString` | 217 | Exported Function
+`UnicodeString` | 220 | Exported Function
+`UnifiedCache` | 222 | Exported Function
+`UnicodeStringAppendable` | 221 | Exported Function
+`UnicodeString` | 206 | Exported Function
+`UnicodeString` | 208 | Exported Function
+`UnicodeString` | 218 | Exported Function
+`UnicodeString` | 216 | Exported Function
+`UnicodeString` | 209 | Exported Function
+`UnicodeString` | 143 | Exported Function
+`MaybeStackArray` | 224 | Exported Function
+`MaybeStackArray` | 2 | Exported Function
+`MessagePattern` | 88 | Exported Function
+`MessagePattern` | 87 | Exported Function
+`UnicodeString` | 89 | Exported Function
+`LocaleDisplayNames` | 80 | Exported Function
+`LocaleBased` | 79 | Exported Function
+`LocaleDisplayNames` | 81 | Exported Function
+`LocaleKeyFactory` | 86 | Exported Function
+`LocaleKey` | 83 | Exported Function
+`Normalizer2Impl` | 95 | Exported Function
+`Normalizer2Impl` | 94 | Exported Function
+`CharacterIterator` | 97 | Exported Function
+`UnicodeString` | 98 | Exported Function
+`Normalizer` | 96 | Exported Function
+`Mutex` | 91 | Exported Function
+`MessagePattern` | 90 | Exported Function
+`Mutex` | 260 | Exported Function
+`Normalizer2` | 93 | Exported Function
+`Normalizer2` | 92 | Exported Function
+`LocaleBased` | 78 | Exported Function
+`ICUService` | 58 | Exported Function
+`UnicodeString` | 57 | Exported Function
+`ICUServiceFactory` | 59 | Exported Function
+`ICUServiceKey` | 61 | Exported Function
+`ICUServiceFactory` | 60 | Exported Function
+`ICUResourceBundleFactory` | 53 | Exported Function
+`ICUNotifier` | 52 | Exported Function
+`UnicodeString` | 54 | Exported Function
+`ICUService` | 56 | Exported Function
+`ICUResourceBundleFactory` | 55 | Exported Function
+`ListFormatInternal` | 73 | Exported Function
+`ListFormatData` | 71 | Exported Function
+`Locale` | 76 | Exported Function
+`Locale` | 77 | Exported Function
+`Locale` | 75 | Exported Function
+`IDNA` | 63 | Exported Function
+`UnicodeString` | 62 | Exported Function
+`IDNA` | 64 | Exported Function
+`ListFormatter` | 72 | Exported Function
+`IDNAInfo` | 65 | Exported Function
+`Normalizer` | 99 | Exported Function
+`UnicodeString` | 129 | Exported Function
+`SimpleFactory` | 128 | Exported Function
+`Locale` | 131 | Exported Function
+`SimpleFormatter` | 132 | Exported Function
+`SimpleFilteredBreakIteratorBuilder` | 130 | Exported Function
+`ServiceListener` | 124 | Exported Function
+`RuleBasedBreakIterator` | 123 | Exported Function
+`ServiceListener` | 125 | Exported Function
+`SharedObject` | 127 | Exported Function
+`SharedObject` | 126 | Exported Function
+`UnicodeString` | 138 | Exported Function
+`Locale` | 137 | Exported Function
+`StringCharacterIterator` | 140 | Exported Function
+`UnicodeString` | 142 | Exported Function
+`UnicodeString` | 141 | Exported Function
+`UnicodeString` | 134 | Exported Function
+`UnicodeString` | 133 | Exported Function
+`SimpleFormatter` | 135 | Exported Function
+`SimpleLocaleKeyFactory` | 136 | Exported Function
+`SimpleFormatter` | 275 | Exported Function
+`RuleBasedBreakIterator` | 122 | Exported Function
+`ResourceArray` | 106 | Exported Function
+`Replaceable` | 105 | Exported Function
+`ResourceArray` | 107 | Exported Function
+`ResourceBundle` | 109 | Exported Function
+`Locale` | 113 | Exported Function
+`ParsePosition` | 101 | Exported Function
+`ParsePosition` | 100 | Exported Function
+`ParsePosition` | 102 | Exported Function
+`ReorderingBuffer` | 265 | Exported Function
+`UnicodeString` | 103 | Exported Function
+`ResourceTable` | 116 | Exported Function
+`ResourceTable` | 115 | Exported Function
+`RuleBasedBreakIterator` | 119 | Exported Function
+`RuleBasedBreakIterator` | 121 | Exported Function
+`UnicodeString` | 120 | Exported Function
+`UnicodeString` | 110 | Exported Function
+`Locale` | 111 | Exported Function
+`ResourceBundle` | 108 | Exported Function
+`ResourceSink` | 114 | Exported Function
+`ResourceBundle` | 112 | Exported Function
+`parseSimpleStyle` | 1509 | Exported Function
+`parsePluralOrSelectStyle` | 1505 | Exported Function
+`skipDouble` | 1721 | Exported Function
+`skipWhiteSpace` | 1732 | Exported Function
+`skipIdentifier` | 1724 | Exported Function
+`parseArg` | 1493 | Exported Function
+`write` | 1811 | Exported Function
+`parseArgNumber` | 1494 | Exported Function
+`parseMessage` | 1501 | Exported Function
+`parseChoiceStyle` | 1497 | Exported Function
+`findCodePoint` | 865 | Exported Function
+`write` | 1813 | Exported Function
+`getStringCount` | 1171 | Exported Function
+`doHashCode` | 805 | Exported Function
+`doExtract` | 802 | Exported Function
+`mapAlgorithmic` | 1437 | Exported Function
+`getCanonValue` | 943 | Exported Function
+`checkDictionary` | 636 | Exported Function
+`RBBIStateTable` | 1216 | Exported Function
+`RBBIStateTable` | 1215 | Exported Function
+`transform` | 1786 | Exported Function
+`caseMap` | 630 | Exported Function
+`UnicodeString` | 523 | Exported Function
+`UnicodeString` | 718 | Exported Function
+`doAppend` | 791 | Exported Function
+`UnicodeString` | 790 | Exported Function
+`getCanonStartSet` | 941 | Exported Function
+`ParsePosition` | 598 | Exported Function
+`UnicodeString` | 1479 | Exported Function
+`UnicodeString` | 508 | Exported Function
+`UnicodeString` | 1483 | Exported Function
+`branchNext` | 606 | Exported Function
+`getString` | 1168 | Exported Function
+`nextImpl` | 1472 | Exported Function
+`nextImpl` | 1473 | Exported Function
+`branchNext` | 609 | Exported Function
+`doReplace` | 811 | Exported Function
+`UnicodeString` | 810 | Exported Function
+`doReverse` | 812 | Exported Function
+`UnicodeString` | 1018 | Exported Function
+`StringPiece` | 1709 | Exported Function
+`doIndexOf` | 806 | Exported Function
+`isMaybe` | 1337 | Exported Function
+`isHangul` | 1328 | Exported Function
+`isMaybeOrNonZeroCC` | 1338 | Exported Function
+`nextNormalize` | 1474 | Exported Function
+`isMostDecompYesAndZeroCC` | 1339 | Exported Function
+`hasCompBoundaryBefore` | 1222 | Exported Function
+`ReorderingBuffer` | 785 | Exported Function
+`isCompYesAndZeroCC` | 1308 | Exported Function
+`isDecompYesAndZeroCC` | 1312 | Exported Function
+`isDecompNoAlgorithmic` | 1310 | Exported Function
+`allocate` | 555 | Exported Function
+`allocateStrings` | 556 | Exported Function
+`cloneArrayIfNeeded` | 661 | Exported Function
+`doCaseCompare` | 793 | Exported Function
+`UnicodeString` | 792 | Exported Function
+`appendSupplementary` | 582 | Exported Function
+`previousNormalize` | 1536 | Exported Function
+`resize` | 1631 | Exported Function
+`ensureCapacity` | 830 | Exported Function
+`truncateAndStop` | 1792 | Exported Function
+`ReorderingBuffer` | 779 | Exported Function
+`toUTF8` | 1782 | Exported Function
+`removeRef` | 1592 | Exported Function
+`_computeCountOfItemsToEvict` | 505 | Exported Function
+`truncateAndStop` | 1791 | Exported Function
+`indexOf` | 1254 | Exported Function
+`doLastIndexOf` | 808 | Exported Function
+`doIndexOf` | 807 | Exported Function
+`doLastIndexOf` | 809 | Exported Function
+`refCount` | 1551 | Exported Function
+`getShortLength` | 1129 | Exported Function
+`isChoice` | 1306 | Exported Function
+`inTopLevelChoiceMessage` | 1251 | Exported Function
+`isOrdinal` | 1343 | Exported Function
+`isSelect` | 1346 | Exported Function
+`isPlural` | 1344 | Exported Function
+`ensureCapacity` | 829 | Exported Function
+`ensureCapacity` | 828 | Exported Function
+`MessagePattern` | 722 | Exported Function
+`inMessageFormatPattern` | 1250 | Exported Function
+`init` | 1275 | Exported Function
+`init` | 1274 | Exported Function
+`LocaleDisplayNames` | 439 | Exported Function
+`Locale` | 438 | Exported Function
+`LocaleKey` | 440 | Exported Function
+`MessagePattern` | 442 | Exported Function
+`LocaleKeyFactory` | 441 | Exported Function
+`ICUServiceFactory` | 434 | Exported Function
+`ICUService` | 433 | Exported Function
+`ICUServiceKey` | 435 | Exported Function
+`ListFormatter` | 437 | Exported Function
+`IDNA` | 436 | Exported Function
+`ResourceSink` | 449 | Exported Function
+`ResourceBundle` | 448 | Exported Function
+`ResourceValue` | 450 | Exported Function
+`ServiceListener` | 452 | Exported Function
+`RuleBasedBreakIterator` | 451 | Exported Function
+`Normalizer2Impl` | 444 | Exported Function
+`Normalizer2` | 443 | Exported Function
+`Normalizer` | 445 | Exported Function
+`Replaceable` | 447 | Exported Function
+`ParsePosition` | 446 | Exported Function
+`ICUResourceBundleFactory` | 432 | Exported Function
+`BytesTrieBuilder` | 418 | Exported Function
+`ByteSink` | 416 | Exported Function
+`CacheKeyBase` | 419 | Exported Function
+`CharacterIterator` | 421 | Exported Function
+`CanonicalIterator` | 420 | Exported Function
+`UnicodeString` | 1806 | Exported Function
+`UnicodeString` | 405 | Exported Function
+`Appendable` | 414 | Exported Function
+`BytesDictionaryMatcher` | 417 | Exported Function
+`BreakIterator` | 415 | Exported Function
+`FilteredNormalizer2` | 428 | Exported Function
+`FilteredBreakIteratorBuilder` | 427 | Exported Function
+`ForwardCharacterIterator` | 429 | Exported Function
+`ICUNotifier` | 431 | Exported Function
+`ICULocaleService` | 430 | Exported Function
+`DateInterval` | 423 | Exported Function
+`CheckedArrayByteSink` | 422 | Exported Function
+`DictionaryMatcher` | 424 | Exported Function
+`EventListener` | 426 | Exported Function
+`ErrorCode` | 425 | Exported Function
+`SharedObject` | 453 | Exported Function
+`UVector` | 470 | Exported Function
+`UVector64` | 469 | Exported Function
 `locale_getKeywordsStart_58` | 1839 | Exported Function
-`private: __thiscall sbicu_58::Locale::Locale(enum sbicu_58::Locale::ELocaleType)` | 74 | Exported Function
-`private: __thiscall sbicu_58::BytesTrie::BytesTrie(void *,void const *)` | 11 | Exported Function
-`const sbicu_58::UStack::``vftable'` | 465 | Exported Function
-`const sbicu_58::UObject::``vftable'` | 464 | Exported Function
-`const sbicu_58::UStringEnumeration::``vftable'` | 466 | Exported Function
-`const sbicu_58::UVector32::``vftable'` | 468 | Exported Function
-`const sbicu_58::UStringSet::``vftable'` | 467 | Exported Function
-`private: bool __thiscall sbicu_58::MaybeStackArray<char,40>::operator==(class sbicu_58::MaybeStackArray<char,40> const &)` | 366 | Exported Function
-`private: bool __thiscall sbicu_58::MaybeStackArray<char,40>::operator!=(class sbicu_58::MaybeStackArray<char,40> const &)` | 382 | Exported Function
-`private: class sbicu_58::Hashtable * __thiscall sbicu_58::CanonicalIterator::extract(class sbicu_58::Hashtable *,int,wchar_t const *,int,int,enum UErrorCode &)` | 847 | Exported Function
-`private: class sbicu_58::LanguageBreakEngine const * __thiscall sbicu_58::RuleBasedBreakIterator::getLanguageBreakEngine(int)` | 1061 | Exported Function
-`private: class sbicu_58::Hashtable * __thiscall sbicu_58::CanonicalIterator::getEquivalents2(class sbicu_58::Hashtable *,wchar_t const *,int,enum UErrorCode &)` | 1017 | Exported Function
-`private: __thiscall sbicu_58::RuleBasedBreakIterator::RuleBasedBreakIterator(struct sbicu_58::RBBIDataHeader *,enum UErrorCode &)` | 118 | Exported Function
-`private: __thiscall sbicu_58::MaybeStackArray<char,40>::MaybeStackArray<char,40>(class sbicu_58::MaybeStackArray<char,40> const &)` | 1 | Exported Function
-`private: __thiscall sbicu_58::StringPair::StringPair(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &)` | 146 | Exported Function
-`private: __thiscall sbicu_58::UnicodeSet::UnicodeSet(class sbicu_58::UnicodeSet const &,signed char)` | 192 | Exported Function
-`private: __thiscall sbicu_58::UCharsTrie::UCharsTrie(wchar_t *,wchar_t const *)` | 165 | Exported Function
-`const sbicu_58::UnifiedCacheBase::``vftable'` | 481 | Exported Function
-`const sbicu_58::SymbolTable::``vftable'` | 460 | Exported Function
-`const sbicu_58::StringTrieBuilder::``vftable'` | 459 | Exported Function
-`const sbicu_58::UCharCharacterIterator::``vftable'` | 461 | Exported Function
-`const sbicu_58::UCharsTrieBuilder::``vftable'` | 463 | Exported Function
-`const sbicu_58::UCharsDictionaryMatcher::``vftable'` | 462 | Exported Function
-`const sbicu_58::SimpleFilteredBreakIteratorBuilder::``vftable'` | 455 | Exported Function
-`const sbicu_58::SimpleFactory::``vftable'` | 454 | Exported Function
-`const sbicu_58::SimpleLocaleKeyFactory::``vftable'` | 456 | Exported Function
-`const sbicu_58::StringEnumeration::``vftable'` | 458 | Exported Function
-`const sbicu_58::StringCharacterIterator::``vftable'` | 457 | Exported Function
-`const sbicu_58::UnicodeSetIterator::``vftable'` | 477 | Exported Function
-`const sbicu_58::UnicodeSet::``vftable'{for ``sbicu_58::UnicodeMatcher'}` | 476 | Exported Function
-`const sbicu_58::UnicodeString::``vftable'` | 478 | Exported Function
-`const sbicu_58::UnifiedCache::``vftable'` | 480 | Exported Function
-`const sbicu_58::UnicodeStringAppendable::``vftable'` | 479 | Exported Function
-`const sbicu_58::UnicodeFilter::``vftable'{for ``sbicu_58::UnicodeMatcher'}` | 472 | Exported Function
-`const sbicu_58::UnicodeFilter::``vftable'{for ``sbicu_58::UnicodeFunctor'}` | 471 | Exported Function
-`const sbicu_58::UnicodeFunctor::``vftable'` | 473 | Exported Function
-`const sbicu_58::UnicodeSet::``vftable'{for ``sbicu_58::UnicodeFunctor'}` | 475 | Exported Function
-`const sbicu_58::UnicodeMatcher::``vftable'` | 474 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doCompare(int,int,class sbicu_58::UnicodeString const &,int,int)const ` | 797 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::getElementValue(int)const ` | 1014 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::getElementStringLength(int)const ` | 1010 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::getLimitOfLinearMatch(int,int,int)const ` | 1066 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::getMaxLinearMatchLength(void)const ` | 1081 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::getMaxBranchLinearSubNodeLength(void)const ` | 1079 | Exported Function
-`private: unsigned short const * __thiscall sbicu_58::Normalizer2Impl::getMapping(unsigned short)const ` | 1078 | Exported Function
-`private: unsigned short const * __thiscall sbicu_58::Normalizer2Impl::getCompositionsListForDecompYes(unsigned short)const ` | 960 | Exported Function
-`private: virtual class sbicu_58::StringTrieBuilder::Node * __thiscall sbicu_58::BytesTrieBuilder::createLinearMatchNode(int,int,int,class sbicu_58::StringTrieBuilder::Node *)const ` | 755 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::countElementUnits(int,int,int)const ` | 726 | Exported Function
-`private: virtual class sbicu_58::StringTrieBuilder::Node * __thiscall sbicu_58::UCharsTrieBuilder::createLinearMatchNode(int,int,int,class sbicu_58::StringTrieBuilder::Node *)const ` | 756 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::writeValueAndFinal(int,signed char)` | 1822 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::writeElementUnits(int,int,int)` | 1819 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::writeValueAndType(signed char,int,int)` | 1824 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::getElementStringLength(int)const ` | 1011 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::countElementUnits(int,int,int)const ` | 727 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::indexOfElementWithNextUnit(int,int,wchar_t)const ` | 1271 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::getMinLinearMatch(void)const ` | 1083 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::skipElementsBySomeUnits(int,int,int)const ` | 1722 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::writeDeltaTo(int)` | 1817 | Exported Function
-`private: virtual int __thiscall sbicu_58::BytesTrieBuilder::write(int)` | 1812 | Exported Function
-`private: unsigned short const * __thiscall sbicu_58::Normalizer2Impl::getCompositionsListForComposite(unsigned short)const ` | 959 | Exported Function
-`private: static void __cdecl sbicu_58::UnifiedCache::clearPtr(class sbicu_58::SharedObject const * &)` | 647 | Exported Function
-`private: static void __cdecl sbicu_58::UnifiedCache::_fetch(struct UHashElement const *,class sbicu_58::SharedObject const * &,enum UErrorCode &)` | 506 | Exported Function
-`private: static void __cdecl sbicu_58::UnifiedCache::copyPtr(class sbicu_58::SharedObject const *,class sbicu_58::SharedObject const * &)` | 720 | Exported Function
-`private: static wchar_t const * __cdecl sbicu_58::UCharsTrie::jumpByDelta(wchar_t const *)` | 1357 | Exported Function
-`private: static wchar_t const * __cdecl sbicu_58::UCharsTrie::findUniqueValueFromBranch(wchar_t const *,int,signed char,int &)` | 873 | Exported Function
-`private: static void __cdecl sbicu_58::ReorderingBuffer::writeCodePoint(wchar_t *,int)` | 1816 | Exported Function
-`private: static void __cdecl sbicu_58::ListFormatter::initializeHash(enum UErrorCode &)` | 1283 | Exported Function
-`private: static void __cdecl sbicu_58::UCharsTrie::getNextBranchUChars(wchar_t const *,int,class sbicu_58::Appendable &)` | 1098 | Exported Function
-`private: static void __cdecl sbicu_58::UnicodeSet::_appendToPat(class sbicu_58::UnicodeString &,int,signed char)` | 504 | Exported Function
-`private: static void __cdecl sbicu_58::UnicodeSet::_appendToPat(class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString const &,signed char)` | 503 | Exported Function
-`private: unsigned char __thiscall sbicu_58::Normalizer2Impl::getTrailCCFromCompYesAndZeroCC(wchar_t const *,wchar_t const *)const ` | 1188 | Exported Function
-`private: unsigned char __thiscall sbicu_58::Normalizer2Impl::getCCFromNoNo(unsigned short)const ` | 937 | Exported Function
-`private: unsigned char __thiscall sbicu_58::ReorderingBuffer::previousCC(void)` | 1534 | Exported Function
-`private: unsigned short const * __thiscall sbicu_58::Normalizer2Impl::getCompositionsList(unsigned short)const ` | 958 | Exported Function
-`private: unsigned char const * __thiscall sbicu_58::BytesTrie::Iterator::branchNext(unsigned char const *,int,enum UErrorCode &)` | 607 | Exported Function
-`private: static wchar_t const * __cdecl sbicu_58::UCharsTrie::skipNodeValue(wchar_t const *,int)` | 1726 | Exported Function
-`private: static wchar_t const * __cdecl sbicu_58::UCharsTrie::skipDelta(wchar_t const *)` | 1720 | Exported Function
-`private: static wchar_t const * __cdecl sbicu_58::UCharsTrie::skipValue(wchar_t const *)` | 1730 | Exported Function
-`private: struct UHashElement const * __thiscall sbicu_58::UnifiedCache::_nextElement(void)const ` | 516 | Exported Function
-`private: static wchar_t const * __cdecl sbicu_58::UCharsTrie::skipValue(wchar_t const *,int)` | 1731 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::getElementValue(int)const ` | 1015 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::parseDouble(int,int,signed char,struct UParseError *,enum UErrorCode &)` | 1499 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::addPart(enum UMessagePatternPartType,int,int,int,enum UErrorCode &)` | 545 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::postParse(void)` | 1525 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::setParseError(struct UParseError *,int)` | 1680 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::preParse(class sbicu_58::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1526 | Exported Function
-`private: void __thiscall sbicu_58::MaybeStackArray<char,40>::operator=(class sbicu_58::MaybeStackArray<char,40> const &)` | 308 | Exported Function
-`private: void __thiscall sbicu_58::Locale::initBaseName(enum UErrorCode &)` | 1280 | Exported Function
-`private: void __thiscall sbicu_58::MaybeStackArray<char,40>::releaseArray(void)` | 1564 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::addLimitPart(int,enum UMessagePatternPartType,int,int,int,enum UErrorCode &)` | 542 | Exported Function
-`private: void __thiscall sbicu_58::MessagePattern::addArgDoublePart(double,int,int,enum UErrorCode &)` | 534 | Exported Function
-`private: void __thiscall sbicu_58::ReorderingBuffer::skipPrevious(void)` | 1727 | Exported Function
-`private: void __thiscall sbicu_58::ReorderingBuffer::setIterator(void)` | 1669 | Exported Function
-`private: void __thiscall sbicu_58::ResourceBundle::constructForLocale(class sbicu_58::UnicodeString const &,class sbicu_58::Locale const &,enum UErrorCode &)` | 695 | Exported Function
-`private: void __thiscall sbicu_58::RuleBasedBreakIterator::makeRuleStatusValid(void)` | 1436 | Exported Function
-`private: void __thiscall sbicu_58::RuleBasedBreakIterator::init(void)` | 1279 | Exported Function
-`private: void __thiscall sbicu_58::Normalizer2Impl::recompose(class sbicu_58::ReorderingBuffer &,int,signed char)const ` | 1550 | Exported Function
-`private: void __thiscall sbicu_58::Normalizer2Impl::addComposites(unsigned short const *,class sbicu_58::UnicodeSet &)const ` | 536 | Exported Function
-`private: void __thiscall sbicu_58::Normalizer::clearBuffer(void)` | 644 | Exported Function
-`private: void __thiscall sbicu_58::ReorderingBuffer::insert(int,unsigned char)` | 1284 | Exported Function
-`private: void __thiscall sbicu_58::Normalizer::init(void)` | 1277 | Exported Function
-`private: void __thiscall sbicu_58::IDNAInfo::reset(void)` | 1618 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::write(int)` | 1814 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::skipElementsBySomeUnits(int,int,int)const ` | 1723 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::writeDeltaTo(int)` | 1818 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::writeValueAndFinal(int,signed char)` | 1823 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::writeElementUnits(int,int,int)` | 1820 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::getMaxBranchLinearSubNodeLength(void)const ` | 1080 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::getLimitOfLinearMatch(int,int,int)const ` | 1067 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::getMaxLinearMatchLength(void)const ` | 1082 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::indexOfElementWithNextUnit(int,int,wchar_t)const ` | 1272 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::getMinLinearMatch(void)const ` | 1084 | Exported Function
-`private: void __thiscall sbicu_58::BytesTrie::stop(void)` | 1757 | Exported Function
-`private: virtual wchar_t __thiscall sbicu_58::UCharsTrieBuilder::getElementUnit(int,int)const ` | 1013 | Exported Function
-`private: void __thiscall sbicu_58::BytesTrieBuilder::buildBytes(enum UStringTrieBuildOption,enum UErrorCode &)` | 614 | Exported Function
-`private: void __thiscall sbicu_58::Hashtable::init(int (__cdecl*)(union UElement),signed char (__cdecl*)(union UElement,union UElement),signed char (__cdecl*)(union UElement,union UElement),enum UErrorCode &)` | 1273 | Exported Function
-`private: void __thiscall sbicu_58::CanonicalIterator::cleanPieces(void)` | 637 | Exported Function
-`private: virtual signed char __thiscall sbicu_58::BytesTrieBuilder::matchNodesCanHaveValues(void)const ` | 1438 | Exported Function
-`private: virtual int __thiscall sbicu_58::UCharsTrieBuilder::writeValueAndType(signed char,int,int)` | 1825 | Exported Function
-`private: virtual signed char __thiscall sbicu_58::UCharsTrieBuilder::matchNodesCanHaveValues(void)const ` | 1439 | Exported Function
-`private: virtual wchar_t __thiscall sbicu_58::BytesTrieBuilder::getElementUnit(int,int)const ` | 1012 | Exported Function
-`private: virtual signed char __thiscall sbicu_58::UnicodeSet::matchesIndexValue(unsigned char)const ` | 1445 | Exported Function
-`private: static void __cdecl sbicu_58::BytesTrie::getNextBranchBytes(unsigned char const *,int,class sbicu_58::ByteSink &)` | 1097 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kFiveByteDeltaLead` | 1358 | Exported Function
-`private: static int __cdecl sbicu_58::UnicodeSet::matchRest(class sbicu_58::Replaceable const &,int,int,class sbicu_58::UnicodeString const &)` | 1440 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kFiveByteValueLead` | 1359 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kFourByteValueLead` | 1361 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kFourByteDeltaLead` | 1360 | Exported Function
-`private: static int __cdecl sbicu_58::SimpleFormatter::getArgumentLimit(wchar_t const *,int)` | 919 | Exported Function
-`private: static int __cdecl sbicu_58::Normalizer2Impl::combine(unsigned short const *,int)` | 664 | Exported Function
-`private: static int __cdecl sbicu_58::UCharsTrie::readNodeValue(wchar_t const *,int)` | 1547 | Exported Function
-`private: static int __cdecl sbicu_58::UnicodeSet::getSingleCP(class sbicu_58::UnicodeString const &)` | 1131 | Exported Function
-`private: static int __cdecl sbicu_58::UCharsTrie::readValue(wchar_t const *,int)` | 1549 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxTwoByteDelta` | 1375 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxThreeByteValue` | 1374 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxTwoByteValue` | 1376 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinOneByteValueLead` | 1382 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinLinearMatch` | 1380 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxLinearMatchLength` | 1365 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxBranchLinearSubNodeLength` | 1362 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxOneByteDelta` | 1367 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxThreeByteDelta` | 1373 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMaxOneByteValue` | 1368 | Exported Function
-`private: static int __cdecl sbicu_58::MessagePattern::parseArgNumber(class sbicu_58::UnicodeString const &,int,int)` | 1495 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::isWritable(void)const ` | 1354 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::isBufferWritable(void)const ` | 1304 | Exported Function
-`private: signed char __thiscall sbicu_58::UnifiedCache::_flush(signed char)const ` | 507 | Exported Function
-`private: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::buildInstance(class sbicu_58::Locale const &,char const *,int,enum UErrorCode &)` | 615 | Exported Function
-`private: signed char __thiscall sbicu_58::UnifiedCache::_poll(class sbicu_58::CacheKeyBase const &,class sbicu_58::SharedObject const * &,enum UErrorCode &)const ` | 517 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doCompareCodePointOrder(int,int,class sbicu_58::UnicodeString const &,int,int)const ` | 799 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doCompare(int,int,wchar_t const *,int,int)const ` | 798 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doCompareCodePointOrder(int,int,wchar_t const *,int,int)const ` | 800 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::hasShortLength(void)const ` | 1239 | Exported Function
-`private: signed char __thiscall sbicu_58::UnicodeString::doEquals(class sbicu_58::UnicodeString const &,int)const ` | 801 | Exported Function
-`private: static class sbicu_58::UnicodeString __cdecl sbicu_58::SimpleFormatter::getTextWithNoArguments(wchar_t const *,int)` | 1183 | Exported Function
-`private: static class sbicu_58::UnicodeString & __cdecl sbicu_58::SimpleFormatter::format(wchar_t const *,int,class sbicu_58::UnicodeString const * const *,class sbicu_58::UnicodeString &,class sbicu_58::UnicodeString const *,signed char,int *,int,enum UErrorCode &)` | 891 | Exported Function
-`private: static enum UStringTrieResult __cdecl sbicu_58::BytesTrie::valueResult(int)` | 1809 | Exported Function
-`private: static int __cdecl sbicu_58::BytesTrie::readValue(unsigned char const *,int)` | 1548 | Exported Function
-`private: static enum UStringTrieResult __cdecl sbicu_58::UCharsTrie::valueResult(int)` | 1810 | Exported Function
-`private: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::makeInstance(class sbicu_58::Locale const &,int,enum UErrorCode &)` | 1434 | Exported Function
-`private: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::createInstance(class sbicu_58::Locale const &,int,enum UErrorCode &)` | 741 | Exported Function
-`private: static class sbicu_58::Locale * __cdecl sbicu_58::Locale::getLocaleCache(void)` | 1075 | Exported Function
-`private: static class sbicu_58::UnicodeSet const * __cdecl sbicu_58::UnicodeSet::getInclusions(int,enum UErrorCode &)` | 1038 | Exported Function
-`private: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getLocale(int)` | 1071 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinThreeByteDeltaLead` | 1383 | Exported Function
-`private: static signed char __cdecl sbicu_58::Normalizer2Impl::isJamoVT(unsigned short)` | 1336 | Exported Function
-`private: static signed char __cdecl sbicu_58::Normalizer2Impl::isJamoL(unsigned short)` | 1334 | Exported Function
-`private: static signed char __cdecl sbicu_58::UCharsTrie::findUniqueValue(wchar_t const *,signed char,int &)` | 871 | Exported Function
-`private: static signed char __cdecl sbicu_58::UnicodeSet::resemblesPropertyPattern(class sbicu_58::UnicodeString const &,int)` | 1609 | Exported Function
-`private: static signed char __cdecl sbicu_58::UnicodeSet::resemblesPropertyPattern(class sbicu_58::RuleCharacterIterator &,int)` | 1608 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kValueIsFinal` | 1397 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kThreeUnitValueLead` | 1395 | Exported Function
-`private: static signed char __cdecl sbicu_58::BytesTrie::findUniqueValue(unsigned char const *,signed char,int &)` | 870 | Exported Function
-`private: static signed char __cdecl sbicu_58::Normalizer2Impl::isInert(unsigned short)` | 1332 | Exported Function
-`private: static signed char __cdecl sbicu_58::MessagePattern::isArgTypeChar(int)` | 1297 | Exported Function
-`private: static unsigned char const * __cdecl sbicu_58::BytesTrie::skipDelta(unsigned char const *)` | 1719 | Exported Function
-`private: static unsigned char const * __cdecl sbicu_58::BytesTrie::jumpByDelta(unsigned char const *)` | 1356 | Exported Function
-`private: static unsigned char const * __cdecl sbicu_58::BytesTrie::skipValue(unsigned char const *)` | 1728 | Exported Function
-`private: static void __cdecl sbicu_58::BytesTrie::append(class sbicu_58::ByteSink &,int)` | 557 | Exported Function
-`private: static unsigned char const * __cdecl sbicu_58::BytesTrie::skipValue(unsigned char const *,int)` | 1729 | Exported Function
-`private: static signed char __cdecl sbicu_58::UnifiedCache::_inProgress(struct UHashElement const *)` | 510 | Exported Function
-`private: static signed char __cdecl sbicu_58::UnifiedCache::_inProgress(class sbicu_58::SharedObject const *,enum UErrorCode)` | 511 | Exported Function
-`private: static signed char __cdecl sbicu_58::UnifiedCache::_isEvictable(struct UHashElement const *)` | 515 | Exported Function
-`private: static unsigned char const * __cdecl sbicu_58::BytesTrie::findUniqueValueFromBranch(unsigned char const *,int,signed char,int &)` | 872 | Exported Function
-`private: static struct sbicu_58::ListFormatInternal const * __cdecl sbicu_58::ListFormatter::getListFormatInternal(class sbicu_58::Locale const &,char const *,enum UErrorCode &)` | 1069 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kThreeUnitNodeValueLead` | 1394 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxLinearMatchLength` | 1366 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxBranchLinearSubNodeLength` | 1364 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxOneUnitDelta` | 1369 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxOneUnitValue` | 1371 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxOneUnitNodeValue` | 1370 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinTwoByteDeltaLead` | 1385 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinThreeByteValueLead` | 1384 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinTwoByteValueLead` | 1386 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kValueIsFinal` | 1396 | Exported Function
-`private: static int const sbicu_58::BytesTrie::kMinValueLead` | 1390 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMinTwoUnitValueLead` | 1389 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMinTwoUnitNodeValueLead` | 1388 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMinValueLead` | 1391 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kThreeUnitDeltaLead` | 1393 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kNodeTypeMask` | 1392 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxTwoUnitNodeValue` | 1378 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxTwoUnitDelta` | 1377 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMaxTwoUnitValue` | 1379 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMinTwoUnitDeltaLead` | 1387 | Exported Function
-`private: static int const sbicu_58::UCharsTrie::kMinLinearMatch` | 1381 | Exported Function
-`public: char * __thiscall sbicu_58::MaybeStackArray<char,40>::getAlias(void)const ` | 913 | Exported Function
-`public: signed char __thiscall sbicu_58::ParsePosition::operator==(class sbicu_58::ParsePosition const &)const ` | 371 | Exported Function
-`public: signed char __thiscall sbicu_58::ParsePosition::operator!=(class sbicu_58::ParsePosition const &)const ` | 390 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::append(int,unsigned char,enum UErrorCode &)` | 563 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::appendBMP(wchar_t,unsigned char,enum UErrorCode &)` | 571 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::append(wchar_t const *,int,unsigned char,unsigned char,enum UErrorCode &)` | 564 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::singleLeadMightHaveNonZeroFCD16(int)const ` | 1713 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::isFCDInert(int)const ` | 1321 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer::getOption(int)const ` | 1107 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer::operator==(class sbicu_58::Normalizer const &)const ` | 370 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer::operator!=(class sbicu_58::Normalizer const &)const ` | 389 | Exported Function
-`public: signed char __thiscall sbicu_58::ResourceBundle::hasNext(void)const ` | 1235 | Exported Function
-`public: signed char __thiscall sbicu_58::ResourceArray::getValue(int,class sbicu_58::ResourceValue &)const ` | 1201 | Exported Function
-`public: signed char __thiscall sbicu_58::ResourceTable::getKeyAndValue(int,char const * &,class sbicu_58::ResourceValue &)const ` | 1055 | Exported Function
-`public: signed char __thiscall sbicu_58::SharedObject::hasHardReferences(void)const ` | 1228 | Exported Function
-`public: signed char __thiscall sbicu_58::RuleBasedBreakIterator::operator!=(class sbicu_58::BreakIterator const &)const ` | 391 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::appendZeroCC(wchar_t const *,wchar_t const *,enum UErrorCode &)` | 587 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::appendZeroCC(int,enum UErrorCode &)` | 586 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::equals(wchar_t const *,wchar_t const *)const ` | 839 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::isEmpty(void)const ` | 1315 | Exported Function
-`public: signed char __thiscall sbicu_58::ReorderingBuffer::init(int,enum UErrorCode &)` | 1278 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::isDecompYes(unsigned short)const ` | 1311 | Exported Function
-`public: signed char __thiscall sbicu_58::MessagePattern::operator==(class sbicu_58::MessagePattern const &)const ` | 369 | Exported Function
-`public: signed char __thiscall sbicu_58::MessagePattern::operator!=(class sbicu_58::MessagePattern const &)const ` | 388 | Exported Function
-`public: signed char __thiscall sbicu_58::MessagePattern::partSubstringMatches(class sbicu_58::MessagePattern::Part const &,class sbicu_58::UnicodeString const &)const ` | 1512 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::ensureCanonIterData(enum UErrorCode &)const ` | 827 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::compose(wchar_t const *,wchar_t const *,signed char,signed char,class sbicu_58::ReorderingBuffer &,enum UErrorCode &)const ` | 687 | Exported Function
-`public: signed char __thiscall sbicu_58::Locale::operator!=(class sbicu_58::Locale const &)const ` | 387 | Exported Function
-`public: signed char __thiscall sbicu_58::Locale::isRightToLeft(void)const ` | 1345 | Exported Function
-`public: signed char __thiscall sbicu_58::Locale::operator==(class sbicu_58::Locale const &)const ` | 368 | Exported Function
-`public: signed char __thiscall sbicu_58::MessagePattern::hasNumberedArguments(void)const ` | 1237 | Exported Function
-`public: signed char __thiscall sbicu_58::MessagePattern::hasNamedArguments(void)const ` | 1232 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::isAlgorithmicNoNo(unsigned short)const ` | 1296 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::hasFCDBoundaryBefore(int)const ` | 1227 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::isCanonSegmentStarter(int)const ` | 1305 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::isDecompInert(int)const ` | 1309 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::isCompNo(unsigned short)const ` | 1307 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::hasCompBoundaryAfter(int,signed char,signed char)const ` | 1221 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::getCanonStartSet(int,class sbicu_58::UnicodeSet &)const ` | 942 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::hasCompBoundaryBefore(int)const ` | 1223 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::hasFCDBoundaryAfter(int)const ` | 1226 | Exported Function
-`public: signed char __thiscall sbicu_58::Normalizer2Impl::hasDecompBoundary(int,signed char)const ` | 1224 | Exported Function
-`public: signed char __thiscall sbicu_58::SharedObject::noHardReferences(void)const ` | 1477 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompare(wchar_t const *,int,unsigned int)const ` | 628 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompare(int,int,wchar_t const *,unsigned int)const ` | 627 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompareBetween(int,int,class sbicu_58::UnicodeString const &,int,int,unsigned int)const ` | 629 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compare(int,int,class sbicu_58::UnicodeString const &)const ` | 668 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compare(class sbicu_58::UnicodeString const &)const ` | 667 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompare(class sbicu_58::UnicodeString const &,unsigned int)const ` | 623 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSetIterator::nextRange(void)` | 1476 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompare(int,int,class sbicu_58::UnicodeString const &,int,int,unsigned int)const ` | 624 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompare(int,int,wchar_t const *,int,int,unsigned int)const ` | 626 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::caseCompare(int,int,class sbicu_58::UnicodeString const &,unsigned int)const ` | 625 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrder(int,int,class sbicu_58::UnicodeString const &)const ` | 675 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrder(class sbicu_58::UnicodeString const &)const ` | 674 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrder(int,int,class sbicu_58::UnicodeString const &,int,int)const ` | 676 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrder(int,int,wchar_t const *,int,int)const ` | 678 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrder(int,int,wchar_t const *)const ` | 677 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compare(int,int,wchar_t const *)const ` | 670 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compare(int,int,class sbicu_58::UnicodeString const &,int,int)const ` | 669 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compare(int,int,wchar_t const *,int,int)const ` | 671 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareBetween(int,int,class sbicu_58::UnicodeString const &,int,int)const ` | 673 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compare(wchar_t const *,int)const ` | 672 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSetIterator::next(void)` | 1468 | Exported Function
-`public: signed char __thiscall sbicu_58::UCharsTrie::Iterator::hasNext(void)const ` | 1234 | Exported Function
-`public: signed char __thiscall sbicu_58::UCharsTrie::hasUniqueValue(int &)const ` | 1241 | Exported Function
-`public: signed char __thiscall sbicu_58::UCharsTrie::Iterator::next(enum UErrorCode &)` | 1459 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsAll(class sbicu_58::UnicodeString const &)const ` | 705 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::contains(class sbicu_58::UnicodeString const &)const ` | 700 | Exported Function
-`public: signed char __thiscall sbicu_58::SimpleFormatter::applyPattern(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 590 | Exported Function
-`public: signed char __thiscall sbicu_58::SharedObject::noSoftReferences(void)const ` | 1478 | Exported Function
-`public: signed char __thiscall sbicu_58::SimpleFormatter::applyPatternMinMaxArguments(class sbicu_58::UnicodeString const &,int,int,enum UErrorCode &)` | 596 | Exported Function
-`public: signed char __thiscall sbicu_58::StringPiece::empty(void)const ` | 817 | Exported Function
-`public: signed char __thiscall sbicu_58::StringPair::isBogus(void)const ` | 1299 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::isBogus(void)const ` | 1300 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsSome(int,int)const ` | 714 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::isFrozen(void)const ` | 1326 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSetIterator::isString(void)const ` | 1347 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::operator!=(class sbicu_58::UnicodeSet const &)const ` | 396 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsNone(class sbicu_58::UnicodeString const &)const ` | 710 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsNone(class sbicu_58::UnicodeSet const &)const ` | 709 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsNone(int,int)const ` | 711 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsSome(class sbicu_58::UnicodeString const &)const ` | 713 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeSet::containsSome(class sbicu_58::UnicodeSet const &)const ` | 712 | Exported Function
-`public: signed char __thiscall sbicu_58::Locale::isBogus(void)const ` | 1298 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(wchar_t,int,int)const ` | 1270 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(wchar_t,int)const ` | 1269 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(class sbicu_58::UnicodeString const &)const ` | 1411 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(class sbicu_58::UnicodeString const &,int,int)const ` | 1413 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(class sbicu_58::UnicodeString const &,int)const ` | 1412 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(wchar_t const *,int,int)const ` | 1265 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(int,int,int)const ` | 1264 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(wchar_t const *,int,int,int)const ` | 1266 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(wchar_t)const ` | 1268 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(wchar_t const *,int,int,int,int)const ` | 1267 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(wchar_t const *,int,int,int,int)const ` | 1420 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(wchar_t const *,int,int,int)const ` | 1419 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(wchar_t)const ` | 1421 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(wchar_t,int,int)const ` | 1423 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(wchar_t,int)const ` | 1422 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(int)const ` | 1415 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(class sbicu_58::UnicodeString const &,int,int,int,int)const ` | 1414 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(int,int)const ` | 1416 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(wchar_t const *,int,int)const ` | 1418 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::lastIndexOf(int,int,int)const ` | 1417 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(int,int)const ` | 1263 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::extract(int,int,char *,char const *)const ` | 851 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::extract(char *,int,struct UConverter *,enum UErrorCode &)const ` | 852 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::extract(int,int,char *,int,enum sbicu_58::UnicodeString::EInvariant)const ` | 848 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::extract(int,int,char *,unsigned int,char const *)const ` | 850 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::extract(int,int,char *,unsigned int)const ` | 849 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSetIterator::getCodepoint(void)const ` | 953 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::spanUTF8(char const *,int,enum USetSpanCondition)const ` | 1750 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSetIterator::getCodepointEnd(void)const ` | 954 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::countChar32(int,int)const ` | 725 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::char32At(int)const ` | 632 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(class sbicu_58::UnicodeString const &,int)const ` | 1259 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(class sbicu_58::UnicodeString const &)const ` | 1258 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(class sbicu_58::UnicodeString const &,int,int)const ` | 1260 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(int)const ` | 1262 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::indexOf(class sbicu_58::UnicodeString const &,int,int,int,int)const ` | 1261 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::getCapacity(void)const ` | 945 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::extract(wchar_t *,int,enum UErrorCode &)const ` | 853 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::getChar32Limit(int)const ` | 948 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::hashCode(void)const ` | 1248 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::getChar32Start(int)const ` | 949 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::length(void)const ` | 1428 | Exported Function
-`public: signed char __thiscall sbicu_58::BreakIterator::operator!=(class sbicu_58::BreakIterator const &)const ` | 383 | Exported Function
-`public: signed char __thiscall sbicu_58::BreakIterator::isBufferClone(void)` | 1303 | Exported Function
-`public: signed char __thiscall sbicu_58::BytesTrie::hasUniqueValue(int &)const ` | 1240 | Exported Function
-`public: signed char __thiscall sbicu_58::BytesTrie::Iterator::next(enum UErrorCode &)` | 1458 | Exported Function
-`public: signed char __thiscall sbicu_58::BytesTrie::Iterator::hasNext(void)const ` | 1233 | Exported Function
-`public: int const * __thiscall sbicu_58::ResourceBundle::getIntVector(int &,enum UErrorCode &)const ` | 1046 | Exported Function
-`public: int __thiscall sbicu_58::UVector::size(void)const ` | 1717 | Exported Function
-`public: signed char (__cdecl*__thiscall sbicu_58::Hashtable::setKeyComparator(signed char (__cdecl*)(union UElement,union UElement)))(union UElement,union UElement)` | 1670 | Exported Function
-`public: signed char (__cdecl*__thiscall sbicu_58::UVector::setComparer(signed char (__cdecl*)(union UElement,union UElement)))(union UElement,union UElement)` | 1654 | Exported Function
-`public: signed char (__cdecl*__thiscall sbicu_58::Hashtable::setValueComparator(signed char (__cdecl*)(union UElement,union UElement)))(union UElement,union UElement)` | 1710 | Exported Function
-`public: signed char __thiscall sbicu_58::ForwardCharacterIterator::operator!=(class sbicu_58::ForwardCharacterIterator const &)const ` | 386 | Exported Function
-`public: signed char __thiscall sbicu_58::ErrorCode::isSuccess(void)const ` | 1348 | Exported Function
-`public: signed char __thiscall sbicu_58::Hashtable::equals(class sbicu_58::Hashtable const &)const ` | 838 | Exported Function
-`public: signed char __thiscall sbicu_58::IDNAInfo::isTransitionalDifferent(void)const ` | 1351 | Exported Function
-`public: signed char __thiscall sbicu_58::IDNAInfo::hasErrors(void)const ` | 1225 | Exported Function
-`public: signed char __thiscall sbicu_58::CharString::isEmpty(void)const ` | 1314 | Exported Function
-`public: signed char __thiscall sbicu_58::CacheKeyBase::operator!=(class sbicu_58::CacheKeyBase const &)const ` | 384 | Exported Function
-`public: signed char __thiscall sbicu_58::CheckedArrayByteSink::Overflowed(void)const ` | 491 | Exported Function
-`public: signed char __thiscall sbicu_58::ErrorCode::isFailure(void)const ` | 1322 | Exported Function
-`public: signed char __thiscall sbicu_58::DateInterval::operator!=(class sbicu_58::DateInterval const &)const ` | 385 | Exported Function
-`public: int __thiscall sbicu_58::UVector::lastElementi(void)const ` | 1409 | Exported Function
-`public: int __thiscall sbicu_58::UStack::popi(void)` | 1522 | Exported Function
-`public: int __thiscall sbicu_58::UStack::peeki(void)const ` | 1514 | Exported Function
-`public: int __thiscall sbicu_58::UStack::push(int,enum UErrorCode &)` | 1537 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::elementAti(int)const ` | 814 | Exported Function
-`public: int __thiscall sbicu_58::UStack::search(void *)const ` | 1644 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::toUTF32(int *,int,enum UErrorCode &)const ` | 1781 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::moveIndex32(int,int)const ` | 1449 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeString::unescapeAt(int &)const ` | 1797 | Exported Function
-`public: int __thiscall sbicu_58::UnifiedCache::unusedCount(void)const ` | 1802 | Exported Function
-`public: int __thiscall sbicu_58::UnifiedCache::keyCount(void)const ` | 1398 | Exported Function
-`public: int __thiscall sbicu_58::UVector64::size(void)const ` | 1716 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::size(void)const ` | 1715 | Exported Function
-`public: int __thiscall sbicu_58::UVector::elementAti(int)const ` | 816 | Exported Function
-`public: int __thiscall sbicu_58::UVector::indexOf(void *,int)const ` | 1256 | Exported Function
-`public: int __thiscall sbicu_58::UVector::indexOf(int,int)const ` | 1255 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::lastElementi(void)const ` | 1407 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::indexOf(int,int)const ` | 1253 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::peeki(void)const ` | 1515 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::push(int,enum UErrorCode &)` | 1539 | Exported Function
-`public: int __thiscall sbicu_58::UVector32::popi(void)` | 1523 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrder(wchar_t const *,int)const ` | 679 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2Factory::getInstance(enum UNormalizationMode,enum UErrorCode &)` | 1043 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2Factory::getFCDInstance(enum UErrorCode &)` | 1025 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2Factory::getNoopInstance(enum UErrorCode &)` | 1103 | Exported Function
-`public: static class sbicu_58::Normalizer2Impl const * __cdecl sbicu_58::Normalizer2Factory::getNFCImpl(enum UErrorCode &)` | 1085 | Exported Function
-`public: static class sbicu_58::Normalizer2Impl const * __cdecl sbicu_58::Normalizer2Factory::getImpl(class sbicu_58::Normalizer2 const *)` | 1037 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2::getNFKCCasefoldInstance(enum UErrorCode &)` | 1088 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2::getNFDInstance(enum UErrorCode &)` | 1087 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2::getNFKCInstance(enum UErrorCode &)` | 1090 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2Factory::getFCCInstance(enum UErrorCode &)` | 1021 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2::getNFKDInstance(enum UErrorCode &)` | 1092 | Exported Function
-`public: static class sbicu_58::UnicodeSet * __cdecl sbicu_58::UnicodeSet::fromUSet(struct USet *)` | 899 | Exported Function
-`public: static class sbicu_58::UnicodeSet * __cdecl sbicu_58::UnicodeSet::createFromAll(class sbicu_58::UnicodeString const &)` | 739 | Exported Function
-`public: static class sbicu_58::UnicodeSet const * __cdecl sbicu_58::UnicodeSet::fromUSet(struct USet const *)` | 900 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::BreakIterator::getDisplayName(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)` | 970 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::BreakIterator::getDisplayName(class sbicu_58::Locale const &,class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)` | 969 | Exported Function
-`public: static class sbicu_58::Normalizer2Impl const * __cdecl sbicu_58::Normalizer2Factory::getNFKCImpl(enum UErrorCode &)` | 1089 | Exported Function
-`public: static class sbicu_58::Normalizer2Impl const * __cdecl sbicu_58::Normalizer2Factory::getNFKC_CFImpl(enum UErrorCode &)` | 1091 | Exported Function
-`public: static class sbicu_58::StringEnumeration * __cdecl sbicu_58::BreakIterator::getAvailableLocales(void)` | 925 | Exported Function
-`public: static class sbicu_58::UnicodeSet * __cdecl sbicu_58::UnicodeSet::createFrom(class sbicu_58::UnicodeString const &)` | 738 | Exported Function
-`public: static class sbicu_58::StringPair * __cdecl sbicu_58::StringPair::create(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 733 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2::getNFCInstance(enum UErrorCode &)` | 1086 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getRoot(void)` | 1122 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getPRC(void)` | 1108 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getSimplifiedChinese(void)` | 1130 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getTraditionalChinese(void)` | 1187 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getTaiwan(void)` | 1177 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getJapan(void)` | 1049 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getItaly(void)` | 1048 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getJapanese(void)` | 1050 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getKorean(void)` | 1058 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getKorea(void)` | 1057 | Exported Function
-`public: static class sbicu_58::LocaleDisplayNames * __cdecl sbicu_58::LocaleDisplayNames::createInstance(class sbicu_58::Locale const &,enum UDisplayContext *,int)` | 748 | Exported Function
-`public: static class sbicu_58::LocaleDisplayNames * __cdecl sbicu_58::LocaleDisplayNames::createInstance(class sbicu_58::Locale const &,enum UDialectHandling)` | 749 | Exported Function
-`public: static class sbicu_58::LocaleKey * __cdecl sbicu_58::LocaleKey::createWithCanonicalFallback(class sbicu_58::UnicodeString const *,class sbicu_58::UnicodeString const *,enum UErrorCode &)` | 761 | Exported Function
-`public: static class sbicu_58::Normalizer2 const * __cdecl sbicu_58::Normalizer2::getInstance(char const *,char const *,enum UNormalization2Mode,enum UErrorCode &)` | 1042 | Exported Function
-`public: static class sbicu_58::LocaleKey * __cdecl sbicu_58::LocaleKey::createWithCanonicalFallback(class sbicu_58::UnicodeString const *,class sbicu_58::UnicodeString const *,int,enum UErrorCode &)` | 762 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getUS(void)` | 1195 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getUK(void)` | 1193 | Exported Function
-`public: static class sbicu_58::Locale const * __cdecl sbicu_58::BreakIterator::getAvailableLocales(int &)` | 926 | Exported Function
-`public: static class sbicu_58::LocaleDisplayNames * __cdecl sbicu_58::LocaleDisplayNames::createInstance(class sbicu_58::Locale const &)` | 747 | Exported Function
-`public: static class sbicu_58::Locale const * __cdecl sbicu_58::Locale::getAvailableLocales(int &)` | 928 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::ICU_Utility::appendNumber(class sbicu_58::UnicodeString &,int,int,int)` | 576 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRIE_HAS_VALUES` | 498 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRANSFORM_TYPE_OFFSET` | 497 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRIE_TYPE_BYTES` | 499 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRIE_TYPE_UCHARS` | 501 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRIE_TYPE_MASK` | 500 | Exported Function
-`public: static int __cdecl sbicu_58::Normalizer::compare(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,unsigned int,enum UErrorCode &)` | 666 | Exported Function
-`public: static int __cdecl sbicu_58::MessagePattern::validateArgumentName(class sbicu_58::UnicodeString const &)` | 1807 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRANSFORM_NONE` | 494 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRANSFORM_TYPE_MASK` | 496 | Exported Function
-`public: static int const sbicu_58::DictionaryData::TRANSFORM_OFFSET_MASK` | 495 | Exported Function
-`public: static signed char __cdecl sbicu_58::ICU_Utility::escapeUnprintable(class sbicu_58::UnicodeString &,int)` | 843 | Exported Function
-`public: static signed char __cdecl sbicu_58::Hangul::isJamoV(int)` | 1335 | Exported Function
-`public: static signed char __cdecl sbicu_58::ICU_Utility::isUnprintable(int)` | 1352 | Exported Function
-`public: static signed char __cdecl sbicu_58::LocaleUtility::isFallbackOf(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &)` | 1325 | Exported Function
-`public: static signed char __cdecl sbicu_58::ICU_Utility::parseChar(class sbicu_58::UnicodeString const &,int &,wchar_t)` | 1496 | Exported Function
-`public: static signed char __cdecl sbicu_58::BreakIterator::unregister(void const *,enum UErrorCode &)` | 1799 | Exported Function
-`public: static int const sbicu_58::StringPiece::npos` | 1487 | Exported Function
-`public: static signed char __cdecl sbicu_58::Hangul::isHangul(int)` | 1327 | Exported Function
-`public: static signed char __cdecl sbicu_58::Hangul::isJamoL(int)` | 1333 | Exported Function
-`public: static signed char __cdecl sbicu_58::Hangul::isHangulWithoutJamoT(wchar_t)` | 1329 | Exported Function
-`public: static int __cdecl sbicu_58::ICU_Utility::skipWhitespace(class sbicu_58::UnicodeString const &,int &,signed char)` | 1734 | Exported Function
-`public: static class sbicu_58::UnicodeString __cdecl sbicu_58::ICU_Utility::parseUnicodeIdentifier(class sbicu_58::UnicodeString const &,int &)` | 1511 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::Normalizer::concatenate(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum UNormalizationMode,int,enum UErrorCode &)` | 694 | Exported Function
-`public: static class sbicu_58::UnicodeString __cdecl sbicu_58::UnicodeString::fromUTF32(int const *,int)` | 901 | Exported Function
-`public: static class sbicu_58::UnifiedCache * __cdecl sbicu_58::UnifiedCache::getInstance(enum UErrorCode &)` | 1044 | Exported Function
-`public: static class sbicu_58::UnicodeString __cdecl sbicu_58::UnicodeString::fromUTF8(class sbicu_58::StringPiece)` | 902 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::ICUServiceKey::parseSuffix(class sbicu_58::UnicodeString &)` | 1510 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::ICUServiceKey::parsePrefix(class sbicu_58::UnicodeString &)` | 1507 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::LocaleUtility::canonicalLocaleString(class sbicu_58::UnicodeString const *,class sbicu_58::UnicodeString &)` | 622 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::MessageImpl::appendSubMessageWithoutSkipSyntax(class sbicu_58::MessagePattern const &,int,class sbicu_58::UnicodeString &)` | 581 | Exported Function
-`public: static class sbicu_58::UnicodeString & __cdecl sbicu_58::LocaleUtility::initNameFromLocale(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)` | 1282 | Exported Function
-`public: static int __cdecl sbicu_58::ICU_Utility::parseInteger(class sbicu_58::UnicodeString const &,int &,int)` | 1500 | Exported Function
-`public: static int __cdecl sbicu_58::Hangul::decompose(int,wchar_t * const)` | 778 | Exported Function
-`public: static int __cdecl sbicu_58::ICU_Utility::parseNumber(class sbicu_58::UnicodeString const &,int &,signed char)` | 1502 | Exported Function
-`public: static int __cdecl sbicu_58::ICU_Utility::parsePattern(class sbicu_58::UnicodeString const &,int,int,class sbicu_58::UnicodeString const &,int *)` | 1504 | Exported Function
-`public: static int __cdecl sbicu_58::ICU_Utility::parsePattern(class sbicu_58::UnicodeString const &,class sbicu_58::Replaceable const &,int,int)` | 1503 | Exported Function
-`public: static enum sbicu_58::PluralMapBase::Category __cdecl sbicu_58::PluralMapBase::toCategory(char const *)` | 1768 | Exported Function
-`public: static class sbicu_58::UStringEnumeration * __cdecl sbicu_58::UStringEnumeration::fromUEnumeration(struct UEnumeration *,enum UErrorCode &)` | 898 | Exported Function
-`public: static enum sbicu_58::PluralMapBase::Category __cdecl sbicu_58::PluralMapBase::toCategory(class sbicu_58::UnicodeString const &)` | 1767 | Exported Function
-`public: static enum UNormalizationCheckResult __cdecl sbicu_58::Normalizer::quickCheck(class sbicu_58::UnicodeString const &,enum UNormalizationMode,int,enum UErrorCode &)` | 1545 | Exported Function
-`public: static enum UNormalizationCheckResult __cdecl sbicu_58::Normalizer::quickCheck(class sbicu_58::UnicodeString const &,enum UNormalizationMode,enum UErrorCode &)` | 1544 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getItalian(void)` | 1047 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::containsAll(class sbicu_58::UVector32 const &)const ` | 703 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::contains(int)const ` | 697 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::containsNone(class sbicu_58::UVector32 const &)const ` | 707 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::ensureCapacity(int,enum UErrorCode &)` | 831 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::empty(void)const ` | 819 | Exported Function
-`public: signed char __thiscall sbicu_58::UStringSet::add(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 527 | Exported Function
-`public: signed char __thiscall sbicu_58::UStack::empty(void)const ` | 818 | Exported Function
-`public: signed char __thiscall sbicu_58::UStringSet::adopt(class sbicu_58::UnicodeString *,enum UErrorCode &)` | 552 | Exported Function
-`public: signed char __thiscall sbicu_58::UStringSet::remove(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 1570 | Exported Function
-`public: signed char __thiscall sbicu_58::UStringSet::contains(class sbicu_58::UnicodeString const &)` | 696 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::retainAll(class sbicu_58::UVector32 const &)` | 1635 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::removeAll(class sbicu_58::UVector32 const &)` | 1577 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector64::ensureCapacity(int,enum UErrorCode &)` | 832 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector64::isEmpty(void)const ` | 1317 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector64::expandCapacity(int,enum UErrorCode &)` | 846 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::expandCapacity(int,enum UErrorCode &)` | 845 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::equals(class sbicu_58::UVector32 const &)const ` | 840 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::isEmpty(void)const ` | 1316 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::operator==(class sbicu_58::UVector32 const &)` | 376 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector32::operator!=(class sbicu_58::UVector32 const &)` | 393 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::truncate(int)` | 1790 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::isBogus(void)const ` | 1301 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::hasMoreChar32Than(int,int,int)const ` | 1231 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::isEmpty(void)const ` | 1320 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::operator<(class sbicu_58::UnicodeString const &)const ` | 406 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::operator!=(class sbicu_58::UnicodeString const &)const ` | 397 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::endsWith(class sbicu_58::UnicodeString const &)const ` | 822 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::compareCodePointOrderBetween(int,int,class sbicu_58::UnicodeString const &,int,int)const ` | 680 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::endsWith(class sbicu_58::UnicodeString const &,int,int)const ` | 823 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::endsWith(wchar_t const *,int,int)const ` | 825 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::endsWith(wchar_t const *,int)const ` | 824 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::startsWith(class sbicu_58::UnicodeString const &)const ` | 1753 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::padTrailing(int,wchar_t)` | 1491 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::startsWith(class sbicu_58::UnicodeString const &,int,int)const ` | 1754 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::startsWith(wchar_t const *,int,int)const ` | 1756 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::startsWith(wchar_t const *,int)const ` | 1755 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::operator==(class sbicu_58::UnicodeString const &)const ` | 380 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::operator<=(class sbicu_58::UnicodeString const &)const ` | 407 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::operator>(class sbicu_58::UnicodeString const &)const ` | 408 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::padLeading(int,wchar_t)` | 1490 | Exported Function
-`public: signed char __thiscall sbicu_58::UnicodeString::operator>=(class sbicu_58::UnicodeString const &)const ` | 409 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector64::operator!=(class sbicu_58::UVector64 const &)` | 394 | Exported Function
-`public: static class sbicu_58::ListFormatter * __cdecl sbicu_58::ListFormatter::createInstance(enum UErrorCode &)` | 744 | Exported Function
-`public: static class sbicu_58::ListFormatter * __cdecl sbicu_58::ListFormatter::createInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 745 | Exported Function
-`public: static class sbicu_58::Locale & __cdecl sbicu_58::LocaleUtility::initLocaleFromName(class sbicu_58::UnicodeString const &,class sbicu_58::Locale &)` | 1281 | Exported Function
-`public: static class sbicu_58::Locale __cdecl sbicu_58::Locale::createFromName(char const *)` | 740 | Exported Function
-`public: static class sbicu_58::Locale __cdecl sbicu_58::Locale::createCanonical(char const *)` | 735 | Exported Function
-`public: static class sbicu_58::FilteredBreakIteratorBuilder * __cdecl sbicu_58::FilteredBreakIteratorBuilder::createInstance(enum UErrorCode &)` | 742 | Exported Function
-`public: static class sbicu_58::FilteredBreakIteratorBuilder * __cdecl sbicu_58::FilteredBreakIteratorBuilder::createInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 743 | Exported Function
-`public: static class sbicu_58::Hashtable const * __cdecl sbicu_58::LocaleUtility::getAvailableLocaleNames(class sbicu_58::UnicodeString const &)` | 924 | Exported Function
-`public: static class sbicu_58::ListFormatter * __cdecl sbicu_58::ListFormatter::createInstance(class sbicu_58::Locale const &,char const *,enum UErrorCode &)` | 746 | Exported Function
-`public: static class sbicu_58::IDNA * __cdecl sbicu_58::IDNA::createUTS46Instance(unsigned int,enum UErrorCode &)` | 760 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getFrance(void)` | 1026 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getEnglish(void)` | 1016 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getFrench(void)` | 1027 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getGermany(void)` | 1030 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getGerman(void)` | 1029 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getCanadaFrench(void)` | 940 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getCanada(void)` | 939 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getChina(void)` | 951 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getDefault(void)` | 964 | Exported Function
-`public: static class sbicu_58::Locale const & __cdecl sbicu_58::Locale::getChinese(void)` | 952 | Exported Function
-`public: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::createWordInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 763 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::equals(class sbicu_58::UVector const &)const ` | 841 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::ensureCapacity(int,enum UErrorCode &)` | 833 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::isEmpty(void)const ` | 1318 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::operator==(class sbicu_58::UVector const &)` | 378 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::operator!=(class sbicu_58::UVector const &)` | 395 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::contains(int)const ` | 698 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector64::operator==(class sbicu_58::UVector64 const &)` | 377 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::contains(void *)const ` | 699 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::containsNone(class sbicu_58::UVector const &)const ` | 708 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::containsAll(class sbicu_58::UVector const &)const ` | 704 | Exported Function
-`public: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::createCharacterInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 736 | Exported Function
-`public: static char const * const * __cdecl sbicu_58::Locale::getISOLanguages(void)` | 1036 | Exported Function
-`public: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::createLineInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 754 | Exported Function
-`public: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::createTitleInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 759 | Exported Function
-`public: static class sbicu_58::BreakIterator * __cdecl sbicu_58::BreakIterator::createSentenceInstance(class sbicu_58::Locale const &,enum UErrorCode &)` | 757 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::removeElement(void *)` | 1586 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::removeAll(class sbicu_58::UVector const &)` | 1578 | Exported Function
-`public: signed char __thiscall sbicu_58::UVector::retainAll(class sbicu_58::UVector const &)` | 1636 | Exported Function
-`public: static char const * const * __cdecl sbicu_58::Locale::getISOCountries(void)` | 1035 | Exported Function
-`public: static char const * __cdecl sbicu_58::PluralMapBase::getCategoryName(enum sbicu_58::PluralMapBase::Category)` | 946 | Exported Function
-`public: class sbicu_58::UCharsTrieBuilder & __thiscall sbicu_58::UCharsTrieBuilder::clear(void)` | 642 | Exported Function
-`public: class sbicu_58::UCharsTrieBuilder & __thiscall sbicu_58::UCharsTrieBuilder::add(class sbicu_58::UnicodeString const &,int,enum UErrorCode &)` | 526 | Exported Function
-`public: class sbicu_58::UMemory & __thiscall sbicu_58::UMemory::operator=(class sbicu_58::UMemory const &)` | 355 | Exported Function
-`public: class sbicu_58::UnicodeFunctor & __thiscall sbicu_58::UnicodeFunctor::operator=(class sbicu_58::UnicodeFunctor const &)` | 359 | Exported Function
-`public: class sbicu_58::UnicodeFilter & __thiscall sbicu_58::UnicodeFilter::operator=(class sbicu_58::UnicodeFilter const &)` | 358 | Exported Function
-`public: class sbicu_58::UCharsTrie * __thiscall sbicu_58::UCharsTrieBuilder::build(enum UStringTrieBuildOption,enum UErrorCode &)` | 613 | Exported Function
-`public: class sbicu_58::UCharsTrie & __thiscall sbicu_58::UCharsTrie::resetToState(class sbicu_58::UCharsTrie::State const &)` | 1629 | Exported Function
-`public: class sbicu_58::UCharsTrie const & __thiscall sbicu_58::UCharsTrie::saveState(class sbicu_58::UCharsTrie::State &)const ` | 1643 | Exported Function
-`public: class sbicu_58::UCharsTrie::Iterator & __thiscall sbicu_58::UCharsTrie::Iterator::reset(void)` | 1620 | Exported Function
-`public: class sbicu_58::UCharsTrie::Iterator & __thiscall sbicu_58::UCharsTrie::Iterator::operator=(class sbicu_58::UCharsTrie::Iterator const &)` | 326 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::applyIntPropertyValue(enum UProperty,int,enum UErrorCode &)` | 589 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::addAll(class sbicu_58::UnicodeString const &)` | 532 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::applyPattern(class sbicu_58::UnicodeString const &,class sbicu_58::ParsePosition &,unsigned int,class sbicu_58::SymbolTable const *,enum UErrorCode &)` | 592 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::applyPattern(class sbicu_58::UnicodeString const &,unsigned int,class sbicu_58::SymbolTable const *,enum UErrorCode &)` | 594 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::applyPattern(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 593 | Exported Function
-`public: class sbicu_58::UnicodeFunctor * __thiscall sbicu_58::UnicodeSet::freeze(void)` | 897 | Exported Function
-`public: class sbicu_58::UnicodeFunctor * __thiscall sbicu_58::UnicodeSet::cloneAsThawed(void)const ` | 662 | Exported Function
-`public: class sbicu_58::UnicodeMatcher & __thiscall sbicu_58::UnicodeMatcher::operator=(class sbicu_58::UnicodeMatcher const &)` | 360 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::add(int)` | 530 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::add(class sbicu_58::UnicodeString const &)` | 529 | Exported Function
-`public: class sbicu_58::UCharsTrie & __thiscall sbicu_58::UCharsTrie::reset(void)` | 1623 | Exported Function
-`public: class sbicu_58::SharedObject & __thiscall sbicu_58::SharedObject::operator=(class sbicu_58::SharedObject const &)` | 346 | Exported Function
-`public: class sbicu_58::ServiceListener & __thiscall sbicu_58::ServiceListener::operator=(class sbicu_58::ServiceListener const &)` | 345 | Exported Function
-`public: class sbicu_58::SimpleFormatter & __thiscall sbicu_58::SimpleFormatter::operator=(class sbicu_58::SimpleFormatter const &)` | 347 | Exported Function
-`public: class sbicu_58::StringEnumeration & __thiscall sbicu_58::StringEnumeration::operator=(class sbicu_58::StringEnumeration const &)` | 349 | Exported Function
-`public: class sbicu_58::StringCharacterIterator & __thiscall sbicu_58::StringCharacterIterator::operator=(class sbicu_58::StringCharacterIterator const &)` | 348 | Exported Function
-`public: class sbicu_58::ResourceBundle __thiscall sbicu_58::ResourceBundle::getNext(enum UErrorCode &)` | 1096 | Exported Function
-`public: class sbicu_58::ResourceBundle __thiscall sbicu_58::ResourceBundle::get(int,enum UErrorCode &)const ` | 911 | Exported Function
-`public: class sbicu_58::ResourceBundle __thiscall sbicu_58::ResourceBundle::getWithFallback(char const *,enum UErrorCode &)` | 1209 | Exported Function
-`public: class sbicu_58::RuleBasedBreakIterator & __thiscall sbicu_58::RuleBasedBreakIterator::operator=(class sbicu_58::RuleBasedBreakIterator const &)` | 344 | Exported Function
-`public: class sbicu_58::ResourceTable & __thiscall sbicu_58::ResourceTable::operator=(class sbicu_58::ResourceTable const &)` | 343 | Exported Function
-`public: class sbicu_58::StringTrieBuilder & __thiscall sbicu_58::StringTrieBuilder::operator=(class sbicu_58::StringTrieBuilder const &)` | 351 | Exported Function
-`public: class sbicu_58::StringPiece __thiscall sbicu_58::StringPiece::substr(int,int)const ` | 1759 | Exported Function
-`public: class sbicu_58::SymbolTable & __thiscall sbicu_58::SymbolTable::operator=(class sbicu_58::SymbolTable const &)` | 352 | Exported Function
-`public: class sbicu_58::UCharsDictionaryMatcher & __thiscall sbicu_58::UCharsDictionaryMatcher::operator=(class sbicu_58::UCharsDictionaryMatcher const &)` | 354 | Exported Function
-`public: class sbicu_58::UCharCharacterIterator & __thiscall sbicu_58::UCharCharacterIterator::operator=(class sbicu_58::UCharCharacterIterator const &)` | 353 | Exported Function
-`public: class sbicu_58::StringPiece & __thiscall sbicu_58::StringPiece::operator=(class sbicu_58::StringPiece const &)` | 350 | Exported Function
-`public: class sbicu_58::StringEnumeration * __thiscall sbicu_58::Locale::createKeywords(enum UErrorCode &)const ` | 753 | Exported Function
-`public: class sbicu_58::StringPiece __thiscall sbicu_58::BytesTrie::Iterator::getString(void)const ` | 1165 | Exported Function
-`public: class sbicu_58::StringPiece __thiscall sbicu_58::CharString::toStringPiece(void)const ` | 1775 | Exported Function
-`public: class sbicu_58::StringPiece __thiscall sbicu_58::BytesTrieBuilder::buildStringPiece(enum UStringTrieBuildOption,enum UErrorCode &)` | 616 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::applyPropertyAlias(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 597 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::SimpleFormatter::format(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum UErrorCode &)const ` | 894 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Normalizer2Impl::decompose(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum UErrorCode &)const ` | 780 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::SimpleFormatter::format(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum UErrorCode &)const ` | 893 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::SimpleFormatter::formatAndAppend(class sbicu_58::UnicodeString const * const *,int,class sbicu_58::UnicodeString &,int *,int,enum UErrorCode &)const ` | 895 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::SimpleFormatter::format(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,enum UErrorCode &)const ` | 892 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayScript(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 981 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayName(class sbicu_58::UnicodeString &)const ` | 973 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayScript(class sbicu_58::UnicodeString &)const ` | 980 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayVariant(class sbicu_58::UnicodeString &)const ` | 982 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayVariant(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 983 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::append(wchar_t const *,int,int)` | 569 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::append(wchar_t const *,int)` | 568 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::append(wchar_t)` | 570 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::findAndReplace(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &)` | 862 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::fastCopyFrom(class sbicu_58::UnicodeString const &)` | 860 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UCharsTrieBuilder::buildUnicodeString(enum UStringTrieBuildOption,class sbicu_58::UnicodeString &,enum UErrorCode &)` | 618 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::SimpleFormatter::formatAndReplace(class sbicu_58::UnicodeString const * const *,int,class sbicu_58::UnicodeString &,int *,int,enum UErrorCode &)const ` | 896 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::append(class sbicu_58::UnicodeString const &)` | 565 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::append(int)` | 567 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::append(class sbicu_58::UnicodeString const &,int,int)` | 566 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayName(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 974 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::remove(int)` | 1572 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::remove(class sbicu_58::UnicodeString const &)` | 1571 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::removeAll(class sbicu_58::UnicodeString const &)` | 1579 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::retainAll(class sbicu_58::UnicodeString const &)` | 1637 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::retain(int)` | 1633 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::complement(class sbicu_58::UnicodeString const &)` | 681 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::closeOver(int)` | 663 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::complement(int)` | 682 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::operator=(class sbicu_58::UnicodeSet const &)` | 361 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::complementAll(class sbicu_58::UnicodeString const &)` | 685 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayCountry(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 966 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::ListFormatter::format(class sbicu_58::UnicodeString const * const,int,class sbicu_58::UnicodeString &,int,int &,enum UErrorCode &)const ` | 890 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayCountry(class sbicu_58::UnicodeString &)const ` | 965 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayLanguage(class sbicu_58::UnicodeString &)const ` | 967 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::Locale::getDisplayLanguage(class sbicu_58::Locale const &,class sbicu_58::UnicodeString &)const ` | 968 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUService::getDisplayName(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &)const ` | 971 | Exported Function
-`public: class sbicu_58::UnicodeSet & __thiscall sbicu_58::UnicodeSet::set(int,int)` | 1649 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUService::getDisplayName(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString &,class sbicu_58::Locale const &)const ` | 972 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::ListFormatter::format(class sbicu_58::UnicodeString const * const,int,class sbicu_58::UnicodeString &,enum UErrorCode &)const ` | 889 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::ICUService::getName(class sbicu_58::UnicodeString &)const ` | 1093 | Exported Function
-`public: class sbicu_58::ResourceBundle __thiscall sbicu_58::ResourceBundle::get(char const *,enum UErrorCode &)const ` | 912 | Exported Function
-`public: class sbicu_58::BytesTrie const & __thiscall sbicu_58::BytesTrie::saveState(class sbicu_58::BytesTrie::State &)const ` | 1642 | Exported Function
-`public: class sbicu_58::BytesTrie * __thiscall sbicu_58::BytesTrieBuilder::build(enum UStringTrieBuildOption,enum UErrorCode &)` | 610 | Exported Function
-`public: class sbicu_58::BytesTrie::Iterator & __thiscall sbicu_58::BytesTrie::Iterator::operator=(class sbicu_58::BytesTrie::Iterator const &)` | 325 | Exported Function
-`public: class sbicu_58::BytesTrieBuilder & __thiscall sbicu_58::BytesTrieBuilder::add(class sbicu_58::StringPiece,int,enum UErrorCode &)` | 525 | Exported Function
-`public: class sbicu_58::BytesTrie::Iterator & __thiscall sbicu_58::BytesTrie::Iterator::reset(void)` | 1619 | Exported Function
-`public: class sbicu_58::Appendable & __thiscall sbicu_58::Appendable::operator=(class sbicu_58::Appendable const &)` | 309 | Exported Function
-`public: char const * __thiscall sbicu_58::StringPiece::data(void)const ` | 777 | Exported Function
-`public: class sbicu_58::BytesDictionaryMatcher & __thiscall sbicu_58::BytesDictionaryMatcher::operator=(class sbicu_58::BytesDictionaryMatcher const &)` | 310 | Exported Function
-`public: class sbicu_58::BytesTrie & __thiscall sbicu_58::BytesTrie::resetToState(class sbicu_58::BytesTrie::State const &)` | 1628 | Exported Function
-`public: class sbicu_58::BytesTrie & __thiscall sbicu_58::BytesTrie::reset(void)` | 1614 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::appendInvariantChars(class sbicu_58::UnicodeString const &,enum UErrorCode &)` | 575 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::append(class sbicu_58::StringPiece,enum UErrorCode &)` | 561 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::appendPathPart(class sbicu_58::StringPiece,enum UErrorCode &)` | 577 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::copyFrom(class sbicu_58::CharString const &,enum UErrorCode &)` | 717 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::clear(void)` | 639 | Exported Function
-`public: class sbicu_58::CacheKeyBase & __thiscall sbicu_58::CacheKeyBase::operator=(class sbicu_58::CacheKeyBase const &)` | 311 | Exported Function
-`public: class sbicu_58::BytesTrieBuilder & __thiscall sbicu_58::BytesTrieBuilder::clear(void)` | 638 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::append(char const *,int,enum UErrorCode &)` | 560 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::append(class sbicu_58::CharString const &,enum UErrorCode &)` | 558 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::append(char,enum UErrorCode &)` | 559 | Exported Function
-`public: char const * __thiscall sbicu_58::ResourceBundle::getVersionNumber(void)const ` | 1205 | Exported Function
-`public: char const * __thiscall sbicu_58::CharString::data(void)const ` | 776 | Exported Function
-`public: char const * __thiscall sbicu_58::BreakIterator::getLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1076 | Exported Function
-`public: char const * __thiscall sbicu_58::CStr::operator()(void)const ` | 410 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getBaseName(void)const ` | 929 | Exported Function
-`public: char const * __thiscall sbicu_58::ErrorCode::errorName(void)const ` | 842 | Exported Function
-`public: char * __thiscall sbicu_58::MaybeStackArray<char,40>::orphanOrClone(int,int &)` | 1489 | Exported Function
-`public: char * __thiscall sbicu_58::MaybeStackArray<char,40>::getArrayLimit(void)const ` | 921 | Exported Function
-`public: char * __thiscall sbicu_58::MaybeStackArray<char,40>::resize(int,int)` | 1630 | Exported Function
-`public: char const & __thiscall sbicu_58::MaybeStackArray<char,40>::operator[](int)const ` | 399 | Exported Function
-`public: char __thiscall sbicu_58::CharString::operator[](int)const ` | 400 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getVariant(void)const ` | 1203 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getScript(void)const ` | 1128 | Exported Function
-`public: char const * __thiscall sbicu_58::LocaleBased::getLocaleID(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1077 | Exported Function
-`public: char const * __thiscall sbicu_58::ResourceBundle::getName(void)const ` | 1095 | Exported Function
-`public: char const * __thiscall sbicu_58::ResourceBundle::getKey(void)const ` | 1054 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getISO3Country(void)const ` | 1033 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getCountry(void)const ` | 961 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getISO3Language(void)const ` | 1034 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getName(void)const ` | 1094 | Exported Function
-`public: char const * __thiscall sbicu_58::Locale::getLanguage(void)const ` | 1060 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::ensureEndsWithFileSeparator(enum UErrorCode &)` | 836 | Exported Function
-`public: class sbicu_58::MessagePattern & __thiscall sbicu_58::MessagePattern::parseSelectStyle(class sbicu_58::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1508 | Exported Function
-`public: class sbicu_58::MessagePattern & __thiscall sbicu_58::MessagePattern::parsePluralStyle(class sbicu_58::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1506 | Exported Function
-`public: class sbicu_58::MessagePattern::Part const & __thiscall sbicu_58::MessagePattern::getPart(int)const ` | 1109 | Exported Function
-`public: class sbicu_58::Normalizer2 & __thiscall sbicu_58::Normalizer2::operator=(class sbicu_58::Normalizer2 const &)` | 334 | Exported Function
-`public: class sbicu_58::Normalizer * __thiscall sbicu_58::Normalizer::clone(void)const ` | 651 | Exported Function
-`public: class sbicu_58::MessageImpl & __thiscall sbicu_58::MessageImpl::operator=(class sbicu_58::MessageImpl const &)` | 332 | Exported Function
-`public: class sbicu_58::LocaleUtility & __thiscall sbicu_58::LocaleUtility::operator=(class sbicu_58::LocaleUtility const &)` | 331 | Exported Function
-`public: class sbicu_58::MessagePattern & __thiscall sbicu_58::MessagePattern::operator=(class sbicu_58::MessagePattern const &)` | 333 | Exported Function
-`public: class sbicu_58::MessagePattern & __thiscall sbicu_58::MessagePattern::parseChoiceStyle(class sbicu_58::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1498 | Exported Function
-`public: class sbicu_58::MessagePattern & __thiscall sbicu_58::MessagePattern::parse(class sbicu_58::UnicodeString const &,struct UParseError *,enum UErrorCode &)` | 1492 | Exported Function
-`public: class sbicu_58::Replaceable & __thiscall sbicu_58::Replaceable::operator=(class sbicu_58::Replaceable const &)` | 340 | Exported Function
-`public: class sbicu_58::PluralMapBase & __thiscall sbicu_58::PluralMapBase::operator=(class sbicu_58::PluralMapBase const &)` | 339 | Exported Function
-`public: class sbicu_58::ResourceArray & __thiscall sbicu_58::ResourceArray::operator=(class sbicu_58::ResourceArray const &)` | 341 | Exported Function
-`public: class sbicu_58::ResourceBundle * __thiscall sbicu_58::ResourceBundle::clone(void)const ` | 654 | Exported Function
-`public: class sbicu_58::ResourceBundle & __thiscall sbicu_58::ResourceBundle::operator=(class sbicu_58::ResourceBundle const &)` | 342 | Exported Function
-`public: class sbicu_58::Normalizer2Impl & __thiscall sbicu_58::Normalizer2Impl::operator=(class sbicu_58::Normalizer2Impl const &)` | 336 | Exported Function
-`public: class sbicu_58::Normalizer2Factory & __thiscall sbicu_58::Normalizer2Factory::operator=(class sbicu_58::Normalizer2Factory const &)` | 335 | Exported Function
-`public: class sbicu_58::ParsePosition & __thiscall sbicu_58::ParsePosition::operator=(class sbicu_58::ParsePosition const &)` | 337 | Exported Function
-`public: class sbicu_58::PatternProps & __thiscall sbicu_58::PatternProps::operator=(class sbicu_58::PatternProps const &)` | 338 | Exported Function
-`public: class sbicu_58::ParsePosition * __thiscall sbicu_58::ParsePosition::clone(void)const ` | 652 | Exported Function
-`public: class sbicu_58::LocaleDisplayNames & __thiscall sbicu_58::LocaleDisplayNames::operator=(class sbicu_58::LocaleDisplayNames const &)` | 330 | Exported Function
-`public: class sbicu_58::FilteredBreakIteratorBuilder & __thiscall sbicu_58::FilteredBreakIteratorBuilder::operator=(class sbicu_58::FilteredBreakIteratorBuilder const &)` | 318 | Exported Function
-`public: class sbicu_58::EventListener & __thiscall sbicu_58::EventListener::operator=(class sbicu_58::EventListener const &)` | 317 | Exported Function
-`public: class sbicu_58::Hangul & __thiscall sbicu_58::Hangul::operator=(class sbicu_58::Hangul const &)` | 320 | Exported Function
-`public: class sbicu_58::ICUNotifier & __thiscall sbicu_58::ICUNotifier::operator=(class sbicu_58::ICUNotifier const &)` | 321 | Exported Function
-`public: class sbicu_58::ICU_Utility & __thiscall sbicu_58::ICU_Utility::operator=(class sbicu_58::ICU_Utility const &)` | 323 | Exported Function
-`public: class sbicu_58::DateInterval & __thiscall sbicu_58::DateInterval::operator=(class sbicu_58::DateInterval const &)` | 313 | Exported Function
-`public: class sbicu_58::CharString & __thiscall sbicu_58::CharString::truncate(int)` | 1789 | Exported Function
-`public: class sbicu_58::DictionaryData & __thiscall sbicu_58::DictionaryData::operator=(class sbicu_58::DictionaryData const &)` | 314 | Exported Function
-`public: class sbicu_58::ErrorCode & __thiscall sbicu_58::ErrorCode::operator=(class sbicu_58::ErrorCode const &)` | 316 | Exported Function
-`public: class sbicu_58::DictionaryMatcher & __thiscall sbicu_58::DictionaryMatcher::operator=(class sbicu_58::DictionaryMatcher const &)` | 315 | Exported Function
-`public: class sbicu_58::Locale __thiscall sbicu_58::LocaleBased::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1072 | Exported Function
-`public: class sbicu_58::Locale __thiscall sbicu_58::BreakIterator::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1070 | Exported Function
-`public: class sbicu_58::Locale const & __thiscall sbicu_58::ResourceBundle::getLocale(void)const ` | 1074 | Exported Function
-`public: class sbicu_58::LocaleBased & __thiscall sbicu_58::LocaleBased::operator=(class sbicu_58::LocaleBased const &)` | 329 | Exported Function
-`public: class sbicu_58::Locale const __thiscall sbicu_58::ResourceBundle::getLocale(enum ULocDataLocaleType,enum UErrorCode &)const ` | 1073 | Exported Function
-`public: class sbicu_58::IDNA & __thiscall sbicu_58::IDNA::operator=(class sbicu_58::IDNA const &)` | 324 | Exported Function
-`public: class sbicu_58::ICUServiceFactory & __thiscall sbicu_58::ICUServiceFactory::operator=(class sbicu_58::ICUServiceFactory const &)` | 322 | Exported Function
-`public: class sbicu_58::ListFormatter & __thiscall sbicu_58::ListFormatter::operator=(class sbicu_58::ListFormatter const &)` | 327 | Exported Function
-`public: class sbicu_58::Locale * __thiscall sbicu_58::Locale::clone(void)const ` | 650 | Exported Function
-`public: class sbicu_58::Locale & __thiscall sbicu_58::Locale::operator=(class sbicu_58::Locale const &)` | 328 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::findAndReplace(int,int,class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString const &)` | 863 | Exported Function
-`public: int __thiscall sbicu_58::CharacterIterator::getLength(void)const ` | 1063 | Exported Function
-`public: int __thiscall sbicu_58::CharacterIterator::getIndex(void)const ` | 1039 | Exported Function
-`public: int __thiscall sbicu_58::CharacterIterator::setToEnd(void)` | 1707 | Exported Function
-`public: int __thiscall sbicu_58::CharacterIterator::startIndex(void)const ` | 1751 | Exported Function
-`public: int __thiscall sbicu_58::CharacterIterator::setToStart(void)` | 1708 | Exported Function
-`public: int __thiscall sbicu_58::BytesTrie::getNextBytes(class sbicu_58::ByteSink &)const ` | 1099 | Exported Function
-`public: int * __thiscall sbicu_58::UVector32::reserveBlock(int,enum UErrorCode &)` | 1612 | Exported Function
-`public: int __thiscall sbicu_58::BytesTrie::getValue(void)const ` | 1198 | Exported Function
-`public: int __thiscall sbicu_58::CharacterIterator::endIndex(void)const ` | 820 | Exported Function
-`public: int __thiscall sbicu_58::BytesTrie::Iterator::getValue(void)const ` | 1199 | Exported Function
-`public: int __thiscall sbicu_58::Hashtable::geti(class sbicu_58::UnicodeString const &)const ` | 1210 | Exported Function
-`public: int __thiscall sbicu_58::Hashtable::count(void)const ` | 723 | Exported Function
-`public: int __thiscall sbicu_58::Hashtable::puti(class sbicu_58::UnicodeString const &,int,enum UErrorCode &)` | 1542 | Exported Function
-`public: int __thiscall sbicu_58::Locale::getKeywordValue(char const *,char *,int,enum UErrorCode &)const ` | 1056 | Exported Function
-`public: int __thiscall sbicu_58::Hashtable::removei(class sbicu_58::UnicodeString const &)` | 1598 | Exported Function
-`public: int __thiscall sbicu_58::CharString::length(void)const ` | 1424 | Exported Function
-`public: int __thiscall sbicu_58::CharString::lastIndexOf(char)const ` | 1410 | Exported Function
-`public: int __thiscall sbicu_58::CheckedArrayByteSink::NumberOfBytesAppended(void)const ` | 489 | Exported Function
-`public: int __thiscall sbicu_58::FullCaseFoldingIterator::next(class sbicu_58::UnicodeString &)` | 1457 | Exported Function
-`public: int __thiscall sbicu_58::CheckedArrayByteSink::NumberOfBytesWritten(void)const ` | 490 | Exported Function
-`public: int * __thiscall sbicu_58::UVector32::popFrame(int)` | 1520 | Exported Function
-`public: enum UNormalizationCheckResult __thiscall sbicu_58::Normalizer2Impl::getCompQuickCheck(unsigned short)const ` | 957 | Exported Function
-`public: enum UMessagePatternPartType __thiscall sbicu_58::MessagePattern::getPartType(int)const ` | 1110 | Exported Function
-`public: enum UNormalizationMode __thiscall sbicu_58::Normalizer::getUMode(void)const ` | 1194 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::BytesTrie::current(void)const ` | 765 | Exported Function
-`public: enum UResType __thiscall sbicu_58::ResourceBundle::getType(void)const ` | 1190 | Exported Function
-`public: double __thiscall sbicu_58::MessagePattern::getPluralOffset(int)const ` | 1113 | Exported Function
-`public: double __thiscall sbicu_58::MessagePattern::getNumericValue(class sbicu_58::MessagePattern::Part const &)const ` | 1106 | Exported Function
-`public: enum UErrorCode __thiscall sbicu_58::ErrorCode::get(void)const ` | 903 | Exported Function
-`public: enum UMessagePatternApostropheMode __thiscall sbicu_58::MessagePattern::getApostropheMode(void)const ` | 915 | Exported Function
-`public: enum UErrorCode __thiscall sbicu_58::ErrorCode::reset(void)` | 1616 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::next(int)` | 1465 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::firstForCodePoint(int)` | 883 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::next(wchar_t const *,int)` | 1466 | Exported Function
-`public: int * __thiscall sbicu_58::UVector32::getBuffer(void)const ` | 932 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::nextForCodePoint(int)` | 1471 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::BytesTrie::next(char const *,int)` | 1455 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::BytesTrie::first(int)` | 877 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::BytesTrie::next(int)` | 1454 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::first(int)` | 881 | Exported Function
-`public: enum UStringTrieResult __thiscall sbicu_58::UCharsTrie::current(void)const ` | 769 | Exported Function
-`public: int __thiscall sbicu_58::Locale::hashCode(void)const ` | 1242 | Exported Function
-`public: int __thiscall sbicu_58::SimpleFormatter::getArgumentLimit(void)const ` | 920 | Exported Function
-`public: int __thiscall sbicu_58::SharedObject::getSoftRefCount(void)const ` | 1135 | Exported Function
-`public: int __thiscall sbicu_58::StringPiece::length(void)const ` | 1427 | Exported Function
-`public: int __thiscall sbicu_58::UCharsTrie::getNextUChars(class sbicu_58::Appendable &)const ` | 1102 | Exported Function
-`public: int __thiscall sbicu_58::StringPiece::size(void)const ` | 1714 | Exported Function
-`public: int __thiscall sbicu_58::ResourceBundle::getSize(void)const ` | 1133 | Exported Function
-`public: int __thiscall sbicu_58::ResourceBundle::getInt(enum UErrorCode &)const ` | 1045 | Exported Function
-`public: int __thiscall sbicu_58::ResourceTable::getSize(void)const ` | 1134 | Exported Function
-`public: int __thiscall sbicu_58::SharedObject::getRefCount(void)const ` | 1121 | Exported Function
-`public: int __thiscall sbicu_58::SharedObject::getHardRefCount(void)const ` | 1031 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::span(wchar_t const *,int,enum USetSpanCondition)const ` | 1745 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::span(class sbicu_58::UnicodeString const &,int,enum USetSpanCondition)const ` | 1744 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::spanBack(class sbicu_58::UnicodeString const &,int,enum USetSpanCondition)const ` | 1746 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::spanBackUTF8(char const *,int,enum USetSpanCondition)const ` | 1748 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::spanBack(wchar_t const *,int,enum USetSpanCondition)const ` | 1747 | Exported Function
-`public: int __thiscall sbicu_58::UCharsTrie::Iterator::getValue(void)const ` | 1200 | Exported Function
-`public: int __thiscall sbicu_58::UCharsTrie::getValue(void)const ` | 1202 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::charAt(int)const ` | 634 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::serialize(unsigned short *,int,enum UErrorCode &)const ` | 1645 | Exported Function
-`public: int __thiscall sbicu_58::UnicodeSet::indexOf(int)const ` | 1257 | Exported Function
-`public: int __thiscall sbicu_58::ResourceArray::getSize(void)const ` | 1132 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::current(void)` | 766 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer2Impl::composePair(int,int)const ` | 692 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::endIndex(void)const ` | 821 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::getIndex(void)const ` | 1040 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::first(void)` | 878 | Exported Function
-`public: int __thiscall sbicu_58::MessagePattern::countParts(void)const ` | 729 | Exported Function
-`public: int __thiscall sbicu_58::MaybeStackArray<char,40>::getCapacity(void)const ` | 944 | Exported Function
-`public: int __thiscall sbicu_58::MessagePattern::getLimitPartIndex(int)const ` | 1068 | Exported Function
-`public: int __thiscall sbicu_58::MessagePattern::hashCode(void)const ` | 1243 | Exported Function
-`public: int __thiscall sbicu_58::MessagePattern::getPatternIndex(int)const ` | 1111 | Exported Function
-`public: int __thiscall sbicu_58::ParsePosition::getIndex(void)const ` | 1041 | Exported Function
-`public: int __thiscall sbicu_58::ParsePosition::getErrorIndex(void)const ` | 1019 | Exported Function
-`public: int __thiscall sbicu_58::ReorderingBuffer::length(void)const ` | 1425 | Exported Function
-`public: int __thiscall sbicu_58::Replaceable::length(void)const ` | 1426 | Exported Function
-`public: int __thiscall sbicu_58::Replaceable::char32At(int)const ` | 631 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::last(void)` | 1403 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::hashCode(void)const ` | 1244 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::next(void)` | 1460 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::startIndex(void)const ` | 1752 | Exported Function
-`public: int __thiscall sbicu_58::Normalizer::previous(void)` | 1531 | Exported Function
-`public: double __thiscall sbicu_58::DateInterval::getToDate(void)const ` | 1186 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::retainBetween(int,int)` | 1639 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replaceBetween(int,int,class sbicu_58::UnicodeString const &,int,int)` | 1606 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::reverse(int,int)` | 1640 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setCharAt(int,wchar_t)` | 1652 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::reverse(void)` | 1641 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replace(int,int,wchar_t const *,int)` | 1602 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replace(int,int,int)` | 1601 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replace(int,int,wchar_t const *,int,int)` | 1603 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replaceBetween(int,int,class sbicu_58::UnicodeString const &)` | 1605 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replace(int,int,wchar_t)` | 1604 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(wchar_t const *,int)` | 1701 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(wchar_t *,int,int)` | 1700 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(wchar_t)` | 1702 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toLower(void)` | 1770 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toLower(class sbicu_58::Locale const &)` | 1769 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(class sbicu_58::UnicodeString const &,int)` | 1696 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(class sbicu_58::UnicodeString const &)` | 1695 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(class sbicu_58::UnicodeString const &,int,int)` | 1697 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(signed char,wchar_t const *,int)` | 1698 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::setTo(int)` | 1699 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replace(int,int,class sbicu_58::UnicodeString const &,int,int)` | 1600 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::insert(int,wchar_t const *,int,int)` | 1289 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::insert(int,wchar_t const *,int)` | 1288 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::insert(int,wchar_t)` | 1290 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator+=(class sbicu_58::UnicodeString const &)` | 411 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::moveFrom(class sbicu_58::UnicodeString &)` | 1448 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::foldCase(unsigned int)` | 887 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::findAndReplace(int,int,class sbicu_58::UnicodeString const &,int,int,class sbicu_58::UnicodeString const &,int,int)` | 864 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::insert(int,class sbicu_58::UnicodeString const &)` | 1285 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::insert(int,int)` | 1287 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::insert(int,class sbicu_58::UnicodeString const &,int,int)` | 1286 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::remove(int,int)` | 1574 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator=(wchar_t)` | 365 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::remove(void)` | 1575 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::replace(int,int,class sbicu_58::UnicodeString const &)` | 1599 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::removeBetween(int,int)` | 1585 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator+=(wchar_t)` | 413 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator+=(int)` | 412 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator=(class sbicu_58::UnicodeString &&)` | 362 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator=(int)` | 364 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::operator=(class sbicu_58::UnicodeString const &)` | 363 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toTitle(class sbicu_58::BreakIterator *)` | 1776 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICULocaleService::get(class sbicu_58::Locale const &,enum UErrorCode &)const ` | 905 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICULocaleService::get(class sbicu_58::Locale const &,class sbicu_58::Locale *,enum UErrorCode &)const ` | 908 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICULocaleService::get(class sbicu_58::Locale const &,int,class sbicu_58::Locale *,enum UErrorCode &)const ` | 907 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICUService::get(class sbicu_58::UnicodeString const &,class sbicu_58::UnicodeString *,enum UErrorCode &)const ` | 910 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICULocaleService::get(class sbicu_58::Locale const &,int,enum UErrorCode &)const ` | 906 | Exported Function
-`public: class sbicu_58::UnicodeString const & __thiscall sbicu_58::UCharsTrie::Iterator::getString(void)const ` | 1166 | Exported Function
-`public: class sbicu_58::UnicodeString const & __thiscall sbicu_58::MessagePattern::getPatternString(void)const ` | 1112 | Exported Function
-`public: class sbicu_58::UnicodeString const & __thiscall sbicu_58::UnicodeSetIterator::getString(void)` | 1169 | Exported Function
-`public: class sbicu_58::UObject & __thiscall sbicu_58::UObject::operator=(class sbicu_58::UObject const &)` | 356 | Exported Function
-`public: class sbicu_58::UnicodeString const * __thiscall sbicu_58::UStringSet::getStringAt(int)const ` | 1170 | Exported Function
-`public: class sbicu_58::UVector & __thiscall sbicu_58::ICUService::getDisplayNames(class sbicu_58::UVector &,enum UErrorCode &)const ` | 977 | Exported Function
-`public: class sbicu_58::UVector & __thiscall sbicu_58::ICUService::getDisplayNames(class sbicu_58::UVector &,class sbicu_58::Locale const &,enum UErrorCode &)const ` | 978 | Exported Function
-`public: class sbicu_58::UVector & __thiscall sbicu_58::ICUService::getVisibleIDs(class sbicu_58::UVector &,class sbicu_58::UnicodeString const *,enum UErrorCode &)const ` | 1208 | Exported Function
-`public: double __thiscall sbicu_58::DateInterval::getFromDate(void)const ` | 1028 | Exported Function
-`public: class sbicu_58::UVector & __thiscall sbicu_58::ICUService::getVisibleIDs(class sbicu_58::UVector &,enum UErrorCode &)const ` | 1207 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICUService::getKey(class sbicu_58::ICUServiceKey &,class sbicu_58::UnicodeString *,class sbicu_58::ICUServiceFactory const *,enum UErrorCode &)const ` | 1052 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICUService::get(class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 909 | Exported Function
-`public: class sbicu_58::UObject * __thiscall sbicu_58::ICUService::getKey(class sbicu_58::ICUServiceKey &,enum UErrorCode &)const ` | 1051 | Exported Function
-`public: class sbicu_58::UVector & __thiscall sbicu_58::ICUService::getDisplayNames(class sbicu_58::UVector &,class sbicu_58::Locale const &,class sbicu_58::UnicodeString const *,enum UErrorCode &)const ` | 979 | Exported Function
-`public: class sbicu_58::UStringEnumeration & __thiscall sbicu_58::UStringEnumeration::operator=(class sbicu_58::UStringEnumeration const &)` | 357 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::UnicodeString::unescape(void)const ` | 1796 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::CanonicalIterator::next(void)` | 1456 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::CanonicalIterator::getSource(void)` | 1136 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::MessagePattern::autoQuoteApostropheDeep(void)const ` | 605 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::Normalizer2::normalize(class sbicu_58::UnicodeString const &,enum UErrorCode &)const ` | 1481 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::MessagePattern::getSubstring(class sbicu_58::MessagePattern::Part const &)const ` | 1174 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toTitle(class sbicu_58::BreakIterator *,class sbicu_58::Locale const &,unsigned int)` | 1778 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toTitle(class sbicu_58::BreakIterator *,class sbicu_58::Locale const &)` | 1777 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toUpper(class sbicu_58::Locale const &)` | 1784 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::trim(void)` | 1787 | Exported Function
-`public: class sbicu_58::UnicodeString & __thiscall sbicu_58::UnicodeString::toUpper(void)` | 1785 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceValue::getUnicodeString(enum UErrorCode &)const ` | 1197 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceValue::getAliasUnicodeString(enum UErrorCode &)const ` | 914 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::SimpleFormatter::getTextWithNoArguments(void)const ` | 1184 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::UnicodeString::tempSubStringBetween(int,int)const ` | 1765 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::UnicodeString::tempSubString(int,int)const ` | 1764 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceBundle::getNextString(enum UErrorCode &)` | 1100 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceBundle::getNextString(char const * *,enum UErrorCode &)` | 1101 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceBundle::getString(enum UErrorCode &)const ` | 1167 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceBundle::getStringEx(int,enum UErrorCode &)const ` | 1172 | Exported Function
-`public: class sbicu_58::UnicodeString __thiscall sbicu_58::ResourceBundle::getStringEx(char const *,enum UErrorCode &)const ` | 1173 | Exported Function
+`ELocaleType` | 74 | Exported Function
+`BytesTrie` | 11 | Exported Function
+`UStack` | 465 | Exported Function
+`UObject` | 464 | Exported Function
+`UStringEnumeration` | 466 | Exported Function
+`UVector32` | 468 | Exported Function
+`UStringSet` | 467 | Exported Function
+`MaybeStackArray` | 366 | Exported Function
+`MaybeStackArray` | 382 | Exported Function
+`Hashtable` | 847 | Exported Function
+`getLanguageBreakEngine` | 1061 | Exported Function
+`Hashtable` | 1017 | Exported Function
+`RBBIDataHeader` | 118 | Exported Function
+`MaybeStackArray` | 1 | Exported Function
+`UnicodeString` | 146 | Exported Function
+`UnicodeSet` | 192 | Exported Function
+`UCharsTrie` | 165 | Exported Function
+`UnifiedCacheBase` | 481 | Exported Function
+`SymbolTable` | 460 | Exported Function
+`StringTrieBuilder` | 459 | Exported Function
+`UCharCharacterIterator` | 461 | Exported Function
+`UCharsTrieBuilder` | 463 | Exported Function
+`UCharsDictionaryMatcher` | 462 | Exported Function
+`SimpleFilteredBreakIteratorBuilder` | 455 | Exported Function
+`SimpleFactory` | 454 | Exported Function
+`SimpleLocaleKeyFactory` | 456 | Exported Function
+`StringEnumeration` | 458 | Exported Function
+`StringCharacterIterator` | 457 | Exported Function
+`UnicodeSetIterator` | 477 | Exported Function
+`UnicodeMatcher` | 476 | Exported Function
+`UnicodeString` | 478 | Exported Function
+`UnifiedCache` | 480 | Exported Function
+`UnicodeStringAppendable` | 479 | Exported Function
+`UnicodeMatcher` | 472 | Exported Function
+`UnicodeFunctor` | 471 | Exported Function
+`UnicodeFunctor` | 473 | Exported Function
+`UnicodeFunctor` | 475 | Exported Function
+`UnicodeMatcher` | 474 | Exported Function
+`UnicodeString` | 797 | Exported Function
+`getElementValue` | 1014 | Exported Function
+`getElementStringLength` | 1010 | Exported Function
+`getLimitOfLinearMatch` | 1066 | Exported Function
+`getMaxLinearMatchLength` | 1081 | Exported Function
+`getMaxBranchLinearSubNodeLength` | 1079 | Exported Function
+`getMapping` | 1078 | Exported Function
+`getCompositionsListForDecompYes` | 960 | Exported Function
+`Node` | 755 | Exported Function
+`countElementUnits` | 726 | Exported Function
+`Node` | 756 | Exported Function
+`writeValueAndFinal` | 1822 | Exported Function
+`writeElementUnits` | 1819 | Exported Function
+`writeValueAndType` | 1824 | Exported Function
+`getElementStringLength` | 1011 | Exported Function
+`countElementUnits` | 727 | Exported Function
+`indexOfElementWithNextUnit` | 1271 | Exported Function
+`getMinLinearMatch` | 1083 | Exported Function
+`skipElementsBySomeUnits` | 1722 | Exported Function
+`writeDeltaTo` | 1817 | Exported Function
+`write` | 1812 | Exported Function
+`getCompositionsListForComposite` | 959 | Exported Function
+`SharedObject` | 647 | Exported Function
+`SharedObject` | 506 | Exported Function
+`SharedObject` | 720 | Exported Function
+`jumpByDelta` | 1357 | Exported Function
+`findUniqueValueFromBranch` | 873 | Exported Function
+`writeCodePoint` | 1816 | Exported Function
+`initializeHash` | 1283 | Exported Function
+`Appendable` | 1098 | Exported Function
+`UnicodeString` | 504 | Exported Function
+`UnicodeString` | 503 | Exported Function
+`getTrailCCFromCompYesAndZeroCC` | 1188 | Exported Function
+`getCCFromNoNo` | 937 | Exported Function
+`previousCC` | 1534 | Exported Function
+`getCompositionsList` | 958 | Exported Function
+`branchNext` | 607 | Exported Function
+`skipNodeValue` | 1726 | Exported Function
+`skipDelta` | 1720 | Exported Function
+`skipValue` | 1730 | Exported Function
+`_nextElement` | 516 | Exported Function
+`skipValue` | 1731 | Exported Function
+`getElementValue` | 1015 | Exported Function
+`parseDouble` | 1499 | Exported Function
+`addPart` | 545 | Exported Function
+`postParse` | 1525 | Exported Function
+`setParseError` | 1680 | Exported Function
+`UnicodeString` | 1526 | Exported Function
+`MaybeStackArray` | 308 | Exported Function
+`initBaseName` | 1280 | Exported Function
+`releaseArray` | 1564 | Exported Function
+`addLimitPart` | 542 | Exported Function
+`addArgDoublePart` | 534 | Exported Function
+`skipPrevious` | 1727 | Exported Function
+`setIterator` | 1669 | Exported Function
+`Locale` | 695 | Exported Function
+`makeRuleStatusValid` | 1436 | Exported Function
+`init` | 1279 | Exported Function
+`ReorderingBuffer` | 1550 | Exported Function
+`UnicodeSet` | 536 | Exported Function
+`clearBuffer` | 644 | Exported Function
+`insert` | 1284 | Exported Function
+`init` | 1277 | Exported Function
+`reset` | 1618 | Exported Function
+`write` | 1814 | Exported Function
+`skipElementsBySomeUnits` | 1723 | Exported Function
+`writeDeltaTo` | 1818 | Exported Function
+`writeValueAndFinal` | 1823 | Exported Function
+`writeElementUnits` | 1820 | Exported Function
+`getMaxBranchLinearSubNodeLength` | 1080 | Exported Function
+`getLimitOfLinearMatch` | 1067 | Exported Function
+`getMaxLinearMatchLength` | 1082 | Exported Function
+`indexOfElementWithNextUnit` | 1272 | Exported Function
+`getMinLinearMatch` | 1084 | Exported Function
+`stop` | 1757 | Exported Function
+`getElementUnit` | 1013 | Exported Function
+`buildBytes` | 614 | Exported Function
+`init` | 1273 | Exported Function
+`cleanPieces` | 637 | Exported Function
+`matchNodesCanHaveValues` | 1438 | Exported Function
+`writeValueAndType` | 1825 | Exported Function
+`matchNodesCanHaveValues` | 1439 | Exported Function
+`getElementUnit` | 1012 | Exported Function
+`matchesIndexValue` | 1445 | Exported Function
+`ByteSink` | 1097 | Exported Function
+`kFiveByteDeltaLead` | 1358 | Exported Function
+`UnicodeString` | 1440 | Exported Function
+`kFiveByteValueLead` | 1359 | Exported Function
+`kFourByteValueLead` | 1361 | Exported Function
+`kFourByteDeltaLead` | 1360 | Exported Function
+`getArgumentLimit` | 919 | Exported Function
+`combine` | 664 | Exported Function
+`readNodeValue` | 1547 | Exported Function
+`UnicodeString` | 1131 | Exported Function
+`readValue` | 1549 | Exported Function
+`kMaxTwoByteDelta` | 1375 | Exported Function
+`kMaxThreeByteValue` | 1374 | Exported Function
+`kMaxTwoByteValue` | 1376 | Exported Function
+`kMinOneByteValueLead` | 1382 | Exported Function
+`kMinLinearMatch` | 1380 | Exported Function
+`kMaxLinearMatchLength` | 1365 | Exported Function
+`kMaxBranchLinearSubNodeLength` | 1362 | Exported Function
+`kMaxOneByteDelta` | 1367 | Exported Function
+`kMaxThreeByteDelta` | 1373 | Exported Function
+`kMaxOneByteValue` | 1368 | Exported Function
+`UnicodeString` | 1495 | Exported Function
+`isWritable` | 1354 | Exported Function
+`isBufferWritable` | 1304 | Exported Function
+`_flush` | 507 | Exported Function
+`Locale` | 615 | Exported Function
+`SharedObject` | 517 | Exported Function
+`UnicodeString` | 799 | Exported Function
+`doCompare` | 798 | Exported Function
+`doCompareCodePointOrder` | 800 | Exported Function
+`hasShortLength` | 1239 | Exported Function
+`UnicodeString` | 801 | Exported Function
+`getTextWithNoArguments` | 1183 | Exported Function
+`UnicodeString` | 891 | Exported Function
+`valueResult` | 1809 | Exported Function
+`readValue` | 1548 | Exported Function
+`valueResult` | 1810 | Exported Function
+`Locale` | 1434 | Exported Function
+`Locale` | 741 | Exported Function
+`getLocaleCache` | 1075 | Exported Function
+`getInclusions` | 1038 | Exported Function
+`getLocale` | 1071 | Exported Function
+`kMinThreeByteDeltaLead` | 1383 | Exported Function
+`isJamoVT` | 1336 | Exported Function
+`isJamoL` | 1334 | Exported Function
+`findUniqueValue` | 871 | Exported Function
+`UnicodeString` | 1609 | Exported Function
+`RuleCharacterIterator` | 1608 | Exported Function
+`kValueIsFinal` | 1397 | Exported Function
+`kThreeUnitValueLead` | 1395 | Exported Function
+`findUniqueValue` | 870 | Exported Function
+`isInert` | 1332 | Exported Function
+`isArgTypeChar` | 1297 | Exported Function
+`skipDelta` | 1719 | Exported Function
+`jumpByDelta` | 1356 | Exported Function
+`skipValue` | 1728 | Exported Function
+`ByteSink` | 557 | Exported Function
+`skipValue` | 1729 | Exported Function
+`_inProgress` | 510 | Exported Function
+`SharedObject` | 511 | Exported Function
+`_isEvictable` | 515 | Exported Function
+`findUniqueValueFromBranch` | 872 | Exported Function
+`Locale` | 1069 | Exported Function
+`kThreeUnitNodeValueLead` | 1394 | Exported Function
+`kMaxLinearMatchLength` | 1366 | Exported Function
+`kMaxBranchLinearSubNodeLength` | 1364 | Exported Function
+`kMaxOneUnitDelta` | 1369 | Exported Function
+`kMaxOneUnitValue` | 1371 | Exported Function
+`kMaxOneUnitNodeValue` | 1370 | Exported Function
+`kMinTwoByteDeltaLead` | 1385 | Exported Function
+`kMinThreeByteValueLead` | 1384 | Exported Function
+`kMinTwoByteValueLead` | 1386 | Exported Function
+`kValueIsFinal` | 1396 | Exported Function
+`kMinValueLead` | 1390 | Exported Function
+`kMinTwoUnitValueLead` | 1389 | Exported Function
+`kMinTwoUnitNodeValueLead` | 1388 | Exported Function
+`kMinValueLead` | 1391 | Exported Function
+`kThreeUnitDeltaLead` | 1393 | Exported Function
+`kNodeTypeMask` | 1392 | Exported Function
+`kMaxTwoUnitNodeValue` | 1378 | Exported Function
+`kMaxTwoUnitDelta` | 1377 | Exported Function
+`kMaxTwoUnitValue` | 1379 | Exported Function
+`kMinTwoUnitDeltaLead` | 1387 | Exported Function
+`kMinLinearMatch` | 1381 | Exported Function
+`getAlias` | 913 | Exported Function
+`ParsePosition` | 371 | Exported Function
+`ParsePosition` | 390 | Exported Function
+`append` | 563 | Exported Function
+`appendBMP` | 571 | Exported Function
+`append` | 564 | Exported Function
+`singleLeadMightHaveNonZeroFCD16` | 1713 | Exported Function
+`isFCDInert` | 1321 | Exported Function
+`getOption` | 1107 | Exported Function
+`Normalizer` | 370 | Exported Function
+`Normalizer` | 389 | Exported Function
+`hasNext` | 1235 | Exported Function
+`ResourceValue` | 1201 | Exported Function
+`ResourceValue` | 1055 | Exported Function
+`hasHardReferences` | 1228 | Exported Function
+`BreakIterator` | 391 | Exported Function
+`appendZeroCC` | 587 | Exported Function
+`appendZeroCC` | 586 | Exported Function
+`equals` | 839 | Exported Function
+`isEmpty` | 1315 | Exported Function
+`init` | 1278 | Exported Function
+`isDecompYes` | 1311 | Exported Function
+`MessagePattern` | 369 | Exported Function
+`MessagePattern` | 388 | Exported Function
+`UnicodeString` | 1512 | Exported Function
+`ensureCanonIterData` | 827 | Exported Function
+`ReorderingBuffer` | 687 | Exported Function
+`Locale` | 387 | Exported Function
+`isRightToLeft` | 1345 | Exported Function
+`Locale` | 368 | Exported Function
+`hasNumberedArguments` | 1237 | Exported Function
+`hasNamedArguments` | 1232 | Exported Function
+`isAlgorithmicNoNo` | 1296 | Exported Function
+`hasFCDBoundaryBefore` | 1227 | Exported Function
+`isCanonSegmentStarter` | 1305 | Exported Function
+`isDecompInert` | 1309 | Exported Function
+`isCompNo` | 1307 | Exported Function
+`hasCompBoundaryAfter` | 1221 | Exported Function
+`UnicodeSet` | 942 | Exported Function
+`hasCompBoundaryBefore` | 1223 | Exported Function
+`hasFCDBoundaryAfter` | 1226 | Exported Function
+`hasDecompBoundary` | 1224 | Exported Function
+`noHardReferences` | 1477 | Exported Function
+`caseCompare` | 628 | Exported Function
+`caseCompare` | 627 | Exported Function
+`UnicodeString` | 629 | Exported Function
+`UnicodeString` | 668 | Exported Function
+`UnicodeString` | 667 | Exported Function
+`UnicodeString` | 623 | Exported Function
+`nextRange` | 1476 | Exported Function
+`UnicodeString` | 624 | Exported Function
+`caseCompare` | 626 | Exported Function
+`UnicodeString` | 625 | Exported Function
+`UnicodeString` | 675 | Exported Function
+`UnicodeString` | 674 | Exported Function
+`UnicodeString` | 676 | Exported Function
+`compareCodePointOrder` | 678 | Exported Function
+`compareCodePointOrder` | 677 | Exported Function
+`compare` | 670 | Exported Function
+`UnicodeString` | 669 | Exported Function
+`compare` | 671 | Exported Function
+`UnicodeString` | 673 | Exported Function
+`compare` | 672 | Exported Function
+`next` | 1468 | Exported Function
+`hasNext` | 1234 | Exported Function
+`hasUniqueValue` | 1241 | Exported Function
+`next` | 1459 | Exported Function
+`UnicodeString` | 705 | Exported Function
+`UnicodeString` | 700 | Exported Function
+`UnicodeString` | 590 | Exported Function
+`noSoftReferences` | 1478 | Exported Function
+`UnicodeString` | 596 | Exported Function
+`empty` | 817 | Exported Function
+`isBogus` | 1299 | Exported Function
+`isBogus` | 1300 | Exported Function
+`containsSome` | 714 | Exported Function
+`isFrozen` | 1326 | Exported Function
+`isString` | 1347 | Exported Function
+`UnicodeSet` | 396 | Exported Function
+`UnicodeString` | 710 | Exported Function
+`UnicodeSet` | 709 | Exported Function
+`containsNone` | 711 | Exported Function
+`UnicodeString` | 713 | Exported Function
+`UnicodeSet` | 712 | Exported Function
+`isBogus` | 1298 | Exported Function
+`indexOf` | 1270 | Exported Function
+`indexOf` | 1269 | Exported Function
+`UnicodeString` | 1411 | Exported Function
+`UnicodeString` | 1413 | Exported Function
+`UnicodeString` | 1412 | Exported Function
+`indexOf` | 1265 | Exported Function
+`indexOf` | 1264 | Exported Function
+`indexOf` | 1266 | Exported Function
+`indexOf` | 1268 | Exported Function
+`indexOf` | 1267 | Exported Function
+`lastIndexOf` | 1420 | Exported Function
+`lastIndexOf` | 1419 | Exported Function
+`lastIndexOf` | 1421 | Exported Function
+`lastIndexOf` | 1423 | Exported Function
+`lastIndexOf` | 1422 | Exported Function
+`lastIndexOf` | 1415 | Exported Function
+`UnicodeString` | 1414 | Exported Function
+`lastIndexOf` | 1416 | Exported Function
+`lastIndexOf` | 1418 | Exported Function
+`lastIndexOf` | 1417 | Exported Function
+`indexOf` | 1263 | Exported Function
+`extract` | 851 | Exported Function
+`extract` | 852 | Exported Function
+`EInvariant` | 848 | Exported Function
+`extract` | 850 | Exported Function
+`extract` | 849 | Exported Function
+`getCodepoint` | 953 | Exported Function
+`spanUTF8` | 1750 | Exported Function
+`getCodepointEnd` | 954 | Exported Function
+`countChar32` | 725 | Exported Function
+`char32At` | 632 | Exported Function
+`UnicodeString` | 1259 | Exported Function
+`UnicodeString` | 1258 | Exported Function
+`UnicodeString` | 1260 | Exported Function
+`indexOf` | 1262 | Exported Function
+`UnicodeString` | 1261 | Exported Function
+`getCapacity` | 945 | Exported Function
+`extract` | 853 | Exported Function
+`getChar32Limit` | 948 | Exported Function
+`hashCode` | 1248 | Exported Function
+`getChar32Start` | 949 | Exported Function
+`length` | 1428 | Exported Function
+`BreakIterator` | 383 | Exported Function
+`isBufferClone` | 1303 | Exported Function
+`hasUniqueValue` | 1240 | Exported Function
+`next` | 1458 | Exported Function
+`hasNext` | 1233 | Exported Function
+`getIntVector` | 1046 | Exported Function
+`size` | 1717 | Exported Function
+`setKeyComparator` | 1670 | Exported Function
+`setComparer` | 1654 | Exported Function
+`setValueComparator` | 1710 | Exported Function
+`ForwardCharacterIterator` | 386 | Exported Function
+`isSuccess` | 1348 | Exported Function
+`Hashtable` | 838 | Exported Function
+`isTransitionalDifferent` | 1351 | Exported Function
+`hasErrors` | 1225 | Exported Function
+`isEmpty` | 1314 | Exported Function
+`CacheKeyBase` | 384 | Exported Function
+`Overflowed` | 491 | Exported Function
+`isFailure` | 1322 | Exported Function
+`DateInterval` | 385 | Exported Function
+`lastElementi` | 1409 | Exported Function
+`popi` | 1522 | Exported Function
+`peeki` | 1514 | Exported Function
+`push` | 1537 | Exported Function
+`elementAti` | 814 | Exported Function
+`search` | 1644 | Exported Function
+`toUTF32` | 1781 | Exported Function
+`moveIndex32` | 1449 | Exported Function
+`unescapeAt` | 1797 | Exported Function
+`unusedCount` | 1802 | Exported Function
+`keyCount` | 1398 | Exported Function
+`size` | 1716 | Exported Function
+`size` | 1715 | Exported Function
+`elementAti` | 816 | Exported Function
+`indexOf` | 1256 | Exported Function
+`indexOf` | 1255 | Exported Function
+`lastElementi` | 1407 | Exported Function
+`indexOf` | 1253 | Exported Function
+`peeki` | 1515 | Exported Function
+`push` | 1539 | Exported Function
+`popi` | 1523 | Exported Function
+`compareCodePointOrder` | 679 | Exported Function
+`getInstance` | 1043 | Exported Function
+`getFCDInstance` | 1025 | Exported Function
+`getNoopInstance` | 1103 | Exported Function
+`getNFCImpl` | 1085 | Exported Function
+`Normalizer2` | 1037 | Exported Function
+`getNFKCCasefoldInstance` | 1088 | Exported Function
+`getNFDInstance` | 1087 | Exported Function
+`getNFKCInstance` | 1090 | Exported Function
+`getFCCInstance` | 1021 | Exported Function
+`getNFKDInstance` | 1092 | Exported Function
+`fromUSet` | 899 | Exported Function
+`UnicodeString` | 739 | Exported Function
+`fromUSet` | 900 | Exported Function
+`UnicodeString` | 970 | Exported Function
+`UnicodeString` | 969 | Exported Function
+`getNFKCImpl` | 1089 | Exported Function
+`getNFKC_CFImpl` | 1091 | Exported Function
+`getAvailableLocales` | 925 | Exported Function
+`UnicodeString` | 738 | Exported Function
+`UnicodeString` | 733 | Exported Function
+`getNFCInstance` | 1086 | Exported Function
+`getRoot` | 1122 | Exported Function
+`getPRC` | 1108 | Exported Function
+`getSimplifiedChinese` | 1130 | Exported Function
+`getTraditionalChinese` | 1187 | Exported Function
+`getTaiwan` | 1177 | Exported Function
+`getJapan` | 1049 | Exported Function
+`getItaly` | 1048 | Exported Function
+`getJapanese` | 1050 | Exported Function
+`getKorean` | 1058 | Exported Function
+`getKorea` | 1057 | Exported Function
+`Locale` | 748 | Exported Function
+`Locale` | 749 | Exported Function
+`UnicodeString` | 761 | Exported Function
+`getInstance` | 1042 | Exported Function
+`UnicodeString` | 762 | Exported Function
+`getUS` | 1195 | Exported Function
+`getUK` | 1193 | Exported Function
+`getAvailableLocales` | 926 | Exported Function
+`Locale` | 747 | Exported Function
+`getAvailableLocales` | 928 | Exported Function
+`UnicodeString` | 576 | Exported Function
+`TRIE_HAS_VALUES` | 498 | Exported Function
+`TRANSFORM_TYPE_OFFSET` | 497 | Exported Function
+`TRIE_TYPE_BYTES` | 499 | Exported Function
+`TRIE_TYPE_UCHARS` | 501 | Exported Function
+`TRIE_TYPE_MASK` | 500 | Exported Function
+`UnicodeString` | 666 | Exported Function
+`UnicodeString` | 1807 | Exported Function
+`TRANSFORM_NONE` | 494 | Exported Function
+`TRANSFORM_TYPE_MASK` | 496 | Exported Function
+`TRANSFORM_OFFSET_MASK` | 495 | Exported Function
+`UnicodeString` | 843 | Exported Function
+`isJamoV` | 1335 | Exported Function
+`isUnprintable` | 1352 | Exported Function
+`UnicodeString` | 1325 | Exported Function
+`UnicodeString` | 1496 | Exported Function
+`unregister` | 1799 | Exported Function
+`npos` | 1487 | Exported Function
+`isHangul` | 1327 | Exported Function
+`isJamoL` | 1333 | Exported Function
+`isHangulWithoutJamoT` | 1329 | Exported Function
+`UnicodeString` | 1734 | Exported Function
+`UnicodeString` | 1511 | Exported Function
+`UnicodeString` | 694 | Exported Function
+`fromUTF32` | 901 | Exported Function
+`getInstance` | 1044 | Exported Function
+`StringPiece` | 902 | Exported Function
+`UnicodeString` | 1510 | Exported Function
+`UnicodeString` | 1507 | Exported Function
+`UnicodeString` | 622 | Exported Function
+`UnicodeString` | 581 | Exported Function
+`UnicodeString` | 1282 | Exported Function
+`UnicodeString` | 1500 | Exported Function
+`decompose` | 778 | Exported Function
+`UnicodeString` | 1502 | Exported Function
+`UnicodeString` | 1504 | Exported Function
+`Replaceable` | 1503 | Exported Function
+`toCategory` | 1768 | Exported Function
+`fromUEnumeration` | 898 | Exported Function
+`UnicodeString` | 1767 | Exported Function
+`UnicodeString` | 1545 | Exported Function
+`UnicodeString` | 1544 | Exported Function
+`getItalian` | 1047 | Exported Function
+`UVector32` | 703 | Exported Function
+`contains` | 697 | Exported Function
+`UVector32` | 707 | Exported Function
+`ensureCapacity` | 831 | Exported Function
+`empty` | 819 | Exported Function
+`UnicodeString` | 527 | Exported Function
+`empty` | 818 | Exported Function
+`UnicodeString` | 552 | Exported Function
+`UnicodeString` | 1570 | Exported Function
+`UnicodeString` | 696 | Exported Function
+`UVector32` | 1635 | Exported Function
+`UVector32` | 1577 | Exported Function
+`ensureCapacity` | 832 | Exported Function
+`isEmpty` | 1317 | Exported Function
+`expandCapacity` | 846 | Exported Function
+`expandCapacity` | 845 | Exported Function
+`UVector32` | 840 | Exported Function
+`isEmpty` | 1316 | Exported Function
+`UVector32` | 376 | Exported Function
+`UVector32` | 393 | Exported Function
+`truncate` | 1790 | Exported Function
+`isBogus` | 1301 | Exported Function
+`hasMoreChar32Than` | 1231 | Exported Function
+`isEmpty` | 1320 | Exported Function
+`UnicodeString` | 406 | Exported Function
+`UnicodeString` | 397 | Exported Function
+`UnicodeString` | 822 | Exported Function
+`UnicodeString` | 680 | Exported Function
+`UnicodeString` | 823 | Exported Function
+`endsWith` | 825 | Exported Function
+`endsWith` | 824 | Exported Function
+`UnicodeString` | 1753 | Exported Function
+`padTrailing` | 1491 | Exported Function
+`UnicodeString` | 1754 | Exported Function
+`startsWith` | 1756 | Exported Function
+`startsWith` | 1755 | Exported Function
+`UnicodeString` | 380 | Exported Function
+`UnicodeString` | 407 | Exported Function
+`UnicodeString` | 408 | Exported Function
+`padLeading` | 1490 | Exported Function
+`UnicodeString` | 409 | Exported Function
+`UVector64` | 394 | Exported Function
+`createInstance` | 744 | Exported Function
+`Locale` | 745 | Exported Function
+`Locale` | 1281 | Exported Function
+`createFromName` | 740 | Exported Function
+`createCanonical` | 735 | Exported Function
+`createInstance` | 742 | Exported Function
+`Locale` | 743 | Exported Function
+`UnicodeString` | 924 | Exported Function
+`Locale` | 746 | Exported Function
+`createUTS46Instance` | 760 | Exported Function
+`getFrance` | 1026 | Exported Function
+`getEnglish` | 1016 | Exported Function
+`getFrench` | 1027 | Exported Function
+`getGermany` | 1030 | Exported Function
+`getGerman` | 1029 | Exported Function
+`getCanadaFrench` | 940 | Exported Function
+`getCanada` | 939 | Exported Function
+`getChina` | 951 | Exported Function
+`getDefault` | 964 | Exported Function
+`getChinese` | 952 | Exported Function
+`Locale` | 763 | Exported Function
+`UVector` | 841 | Exported Function
+`ensureCapacity` | 833 | Exported Function
+`isEmpty` | 1318 | Exported Function
+`UVector` | 378 | Exported Function
+`UVector` | 395 | Exported Function
+`contains` | 698 | Exported Function
+`UVector64` | 377 | Exported Function
+`contains` | 699 | Exported Function
+`UVector` | 708 | Exported Function
+`UVector` | 704 | Exported Function
+`Locale` | 736 | Exported Function
+`getISOLanguages` | 1036 | Exported Function
+`Locale` | 754 | Exported Function
+`Locale` | 759 | Exported Function
+`Locale` | 757 | Exported Function
+`removeElement` | 1586 | Exported Function
+`UVector` | 1578 | Exported Function
+`UVector` | 1636 | Exported Function
+`getISOCountries` | 1035 | Exported Function
+`Category` | 946 | Exported Function
+`clear` | 642 | Exported Function
+`UnicodeString` | 526 | Exported Function
+`UMemory` | 355 | Exported Function
+`UnicodeFunctor` | 359 | Exported Function
+`UnicodeFilter` | 358 | Exported Function
+`build` | 613 | Exported Function
+`State` | 1629 | Exported Function
+`State` | 1643 | Exported Function
+`reset` | 1620 | Exported Function
+`Iterator` | 326 | Exported Function
+`applyIntPropertyValue` | 589 | Exported Function
+`UnicodeString` | 532 | Exported Function
+`SymbolTable` | 592 | Exported Function
+`SymbolTable` | 594 | Exported Function
+`UnicodeString` | 593 | Exported Function
+`freeze` | 897 | Exported Function
+`cloneAsThawed` | 662 | Exported Function
+`UnicodeMatcher` | 360 | Exported Function
+`add` | 530 | Exported Function
+`UnicodeString` | 529 | Exported Function
+`reset` | 1623 | Exported Function
+`SharedObject` | 346 | Exported Function
+`ServiceListener` | 345 | Exported Function
+`SimpleFormatter` | 347 | Exported Function
+`StringEnumeration` | 349 | Exported Function
+`StringCharacterIterator` | 348 | Exported Function
+`getNext` | 1096 | Exported Function
+`get` | 911 | Exported Function
+`getWithFallback` | 1209 | Exported Function
+`RuleBasedBreakIterator` | 344 | Exported Function
+`ResourceTable` | 343 | Exported Function
+`StringTrieBuilder` | 351 | Exported Function
+`substr` | 1759 | Exported Function
+`SymbolTable` | 352 | Exported Function
+`UCharsDictionaryMatcher` | 354 | Exported Function
+`UCharCharacterIterator` | 353 | Exported Function
+`StringPiece` | 350 | Exported Function
+`createKeywords` | 753 | Exported Function
+`getString` | 1165 | Exported Function
+`toStringPiece` | 1775 | Exported Function
+`buildStringPiece` | 616 | Exported Function
+`UnicodeString` | 597 | Exported Function
+`UnicodeString` | 894 | Exported Function
+`UnicodeString` | 780 | Exported Function
+`UnicodeString` | 893 | Exported Function
+`UnicodeString` | 895 | Exported Function
+`UnicodeString` | 892 | Exported Function
+`UnicodeString` | 981 | Exported Function
+`UnicodeString` | 973 | Exported Function
+`UnicodeString` | 980 | Exported Function
+`UnicodeString` | 982 | Exported Function
+`UnicodeString` | 983 | Exported Function
+`append` | 569 | Exported Function
+`append` | 568 | Exported Function
+`append` | 570 | Exported Function
+`UnicodeString` | 862 | Exported Function
+`UnicodeString` | 860 | Exported Function
+`UnicodeString` | 618 | Exported Function
+`UnicodeString` | 896 | Exported Function
+`UnicodeString` | 565 | Exported Function
+`append` | 567 | Exported Function
+`UnicodeString` | 566 | Exported Function
+`UnicodeString` | 974 | Exported Function
+`remove` | 1572 | Exported Function
+`UnicodeString` | 1571 | Exported Function
+`UnicodeString` | 1579 | Exported Function
+`UnicodeString` | 1637 | Exported Function
+`retain` | 1633 | Exported Function
+`UnicodeString` | 681 | Exported Function
+`closeOver` | 663 | Exported Function
+`complement` | 682 | Exported Function
+`UnicodeSet` | 361 | Exported Function
+`UnicodeString` | 685 | Exported Function
+`UnicodeString` | 966 | Exported Function
+`UnicodeString` | 890 | Exported Function
+`UnicodeString` | 965 | Exported Function
+`UnicodeString` | 967 | Exported Function
+`UnicodeString` | 968 | Exported Function
+`UnicodeString` | 971 | Exported Function
+`set` | 1649 | Exported Function
+`Locale` | 972 | Exported Function
+`UnicodeString` | 889 | Exported Function
+`UnicodeString` | 1093 | Exported Function
+`get` | 912 | Exported Function
+`State` | 1642 | Exported Function
+`build` | 610 | Exported Function
+`Iterator` | 325 | Exported Function
+`StringPiece` | 525 | Exported Function
+`reset` | 1619 | Exported Function
+`Appendable` | 309 | Exported Function
+`data` | 777 | Exported Function
+`BytesDictionaryMatcher` | 310 | Exported Function
+`State` | 1628 | Exported Function
+`reset` | 1614 | Exported Function
+`UnicodeString` | 575 | Exported Function
+`StringPiece` | 561 | Exported Function
+`StringPiece` | 577 | Exported Function
+`CharString` | 717 | Exported Function
+`clear` | 639 | Exported Function
+`CacheKeyBase` | 311 | Exported Function
+`clear` | 638 | Exported Function
+`append` | 560 | Exported Function
+`CharString` | 558 | Exported Function
+`append` | 559 | Exported Function
+`getVersionNumber` | 1205 | Exported Function
+`data` | 776 | Exported Function
+`getLocaleID` | 1076 | Exported Function
+`operator` | 410 | Exported Function
+`getBaseName` | 929 | Exported Function
+`errorName` | 842 | Exported Function
+`orphanOrClone` | 1489 | Exported Function
+`getArrayLimit` | 921 | Exported Function
+`resize` | 1630 | Exported Function
+`operator` | 399 | Exported Function
+`operator` | 400 | Exported Function
+`getVariant` | 1203 | Exported Function
+`getScript` | 1128 | Exported Function
+`getLocaleID` | 1077 | Exported Function
+`getName` | 1095 | Exported Function
+`getKey` | 1054 | Exported Function
+`getISO3Country` | 1033 | Exported Function
+`getCountry` | 961 | Exported Function
+`getISO3Language` | 1034 | Exported Function
+`getName` | 1094 | Exported Function
+`getLanguage` | 1060 | Exported Function
+`ensureEndsWithFileSeparator` | 836 | Exported Function
+`UnicodeString` | 1508 | Exported Function
+`UnicodeString` | 1506 | Exported Function
+`getPart` | 1109 | Exported Function
+`Normalizer2` | 334 | Exported Function
+`clone` | 651 | Exported Function
+`MessageImpl` | 332 | Exported Function
+`LocaleUtility` | 331 | Exported Function
+`MessagePattern` | 333 | Exported Function
+`UnicodeString` | 1498 | Exported Function
+`UnicodeString` | 1492 | Exported Function
+`Replaceable` | 340 | Exported Function
+`PluralMapBase` | 339 | Exported Function
+`ResourceArray` | 341 | Exported Function
+`clone` | 654 | Exported Function
+`ResourceBundle` | 342 | Exported Function
+`Normalizer2Impl` | 336 | Exported Function
+`Normalizer2Factory` | 335 | Exported Function
+`ParsePosition` | 337 | Exported Function
+`PatternProps` | 338 | Exported Function
+`clone` | 652 | Exported Function
+`LocaleDisplayNames` | 330 | Exported Function
+`FilteredBreakIteratorBuilder` | 318 | Exported Function
+`EventListener` | 317 | Exported Function
+`Hangul` | 320 | Exported Function
+`ICUNotifier` | 321 | Exported Function
+`ICU_Utility` | 323 | Exported Function
+`DateInterval` | 313 | Exported Function
+`truncate` | 1789 | Exported Function
+`DictionaryData` | 314 | Exported Function
+`ErrorCode` | 316 | Exported Function
+`DictionaryMatcher` | 315 | Exported Function
+`getLocale` | 1072 | Exported Function
+`getLocale` | 1070 | Exported Function
+`getLocale` | 1074 | Exported Function
+`LocaleBased` | 329 | Exported Function
+`getLocale` | 1073 | Exported Function
+`IDNA` | 324 | Exported Function
+`ICUServiceFactory` | 322 | Exported Function
+`ListFormatter` | 327 | Exported Function
+`clone` | 650 | Exported Function
+`Locale` | 328 | Exported Function
+`UnicodeString` | 863 | Exported Function
+`getLength` | 1063 | Exported Function
+`getIndex` | 1039 | Exported Function
+`setToEnd` | 1707 | Exported Function
+`startIndex` | 1751 | Exported Function
+`setToStart` | 1708 | Exported Function
+`ByteSink` | 1099 | Exported Function
+`reserveBlock` | 1612 | Exported Function
+`getValue` | 1198 | Exported Function
+`endIndex` | 820 | Exported Function
+`getValue` | 1199 | Exported Function
+`UnicodeString` | 1210 | Exported Function
+`count` | 723 | Exported Function
+`UnicodeString` | 1542 | Exported Function
+`getKeywordValue` | 1056 | Exported Function
+`UnicodeString` | 1598 | Exported Function
+`length` | 1424 | Exported Function
+`lastIndexOf` | 1410 | Exported Function
+`NumberOfBytesAppended` | 489 | Exported Function
+`UnicodeString` | 1457 | Exported Function
+`NumberOfBytesWritten` | 490 | Exported Function
+`popFrame` | 1520 | Exported Function
+`getCompQuickCheck` | 957 | Exported Function
+`getPartType` | 1110 | Exported Function
+`getUMode` | 1194 | Exported Function
+`current` | 765 | Exported Function
+`getType` | 1190 | Exported Function
+`getPluralOffset` | 1113 | Exported Function
+`Part` | 1106 | Exported Function
+`get` | 903 | Exported Function
+`getApostropheMode` | 915 | Exported Function
+`reset` | 1616 | Exported Function
+`next` | 1465 | Exported Function
+`firstForCodePoint` | 883 | Exported Function
+`next` | 1466 | Exported Function
+`getBuffer` | 932 | Exported Function
+`nextForCodePoint` | 1471 | Exported Function
+`next` | 1455 | Exported Function
+`first` | 877 | Exported Function
+`next` | 1454 | Exported Function
+`first` | 881 | Exported Function
+`current` | 769 | Exported Function
+`hashCode` | 1242 | Exported Function
+`getArgumentLimit` | 920 | Exported Function
+`getSoftRefCount` | 1135 | Exported Function
+`length` | 1427 | Exported Function
+`Appendable` | 1102 | Exported Function
+`size` | 1714 | Exported Function
+`getSize` | 1133 | Exported Function
+`getInt` | 1045 | Exported Function
+`getSize` | 1134 | Exported Function
+`getRefCount` | 1121 | Exported Function
+`getHardRefCount` | 1031 | Exported Function
+`span` | 1745 | Exported Function
+`UnicodeString` | 1744 | Exported Function
+`UnicodeString` | 1746 | Exported Function
+`spanBackUTF8` | 1748 | Exported Function
+`spanBack` | 1747 | Exported Function
+`getValue` | 1200 | Exported Function
+`getValue` | 1202 | Exported Function
+`charAt` | 634 | Exported Function
+`serialize` | 1645 | Exported Function
+`indexOf` | 1257 | Exported Function
+`getSize` | 1132 | Exported Function
+`current` | 766 | Exported Function
+`composePair` | 692 | Exported Function
+`endIndex` | 821 | Exported Function
+`getIndex` | 1040 | Exported Function
+`first` | 878 | Exported Function
+`countParts` | 729 | Exported Function
+`getCapacity` | 944 | Exported Function
+`getLimitPartIndex` | 1068 | Exported Function
+`hashCode` | 1243 | Exported Function
+`getPatternIndex` | 1111 | Exported Function
+`getIndex` | 1041 | Exported Function
+`getErrorIndex` | 1019 | Exported Function
+`length` | 1425 | Exported Function
+`length` | 1426 | Exported Function
+`char32At` | 631 | Exported Function
+`last` | 1403 | Exported Function
+`hashCode` | 1244 | Exported Function
+`next` | 1460 | Exported Function
+`startIndex` | 1752 | Exported Function
+`previous` | 1531 | Exported Function
+`getToDate` | 1186 | Exported Function
+`retainBetween` | 1639 | Exported Function
+`UnicodeString` | 1606 | Exported Function
+`reverse` | 1640 | Exported Function
+`setCharAt` | 1652 | Exported Function
+`reverse` | 1641 | Exported Function
+`replace` | 1602 | Exported Function
+`replace` | 1601 | Exported Function
+`replace` | 1603 | Exported Function
+`UnicodeString` | 1605 | Exported Function
+`replace` | 1604 | Exported Function
+`setTo` | 1701 | Exported Function
+`setTo` | 1700 | Exported Function
+`setTo` | 1702 | Exported Function
+`toLower` | 1770 | Exported Function
+`Locale` | 1769 | Exported Function
+`UnicodeString` | 1696 | Exported Function
+`UnicodeString` | 1695 | Exported Function
+`UnicodeString` | 1697 | Exported Function
+`setTo` | 1698 | Exported Function
+`setTo` | 1699 | Exported Function
+`UnicodeString` | 1600 | Exported Function
+`insert` | 1289 | Exported Function
+`insert` | 1288 | Exported Function
+`insert` | 1290 | Exported Function
+`UnicodeString` | 411 | Exported Function
+`UnicodeString` | 1448 | Exported Function
+`foldCase` | 887 | Exported Function
+`UnicodeString` | 864 | Exported Function
+`UnicodeString` | 1285 | Exported Function
+`insert` | 1287 | Exported Function
+`UnicodeString` | 1286 | Exported Function
+`remove` | 1574 | Exported Function
+`operator` | 365 | Exported Function
+`remove` | 1575 | Exported Function
+`UnicodeString` | 1599 | Exported Function
+`removeBetween` | 1585 | Exported Function
+`operator` | 413 | Exported Function
+`operator` | 412 | Exported Function
+`UnicodeString` | 362 | Exported Function
+`operator` | 364 | Exported Function
+`UnicodeString` | 363 | Exported Function
+`BreakIterator` | 1776 | Exported Function
+`Locale` | 905 | Exported Function
+`Locale` | 908 | Exported Function
+`Locale` | 907 | Exported Function
+`UnicodeString` | 910 | Exported Function
+`Locale` | 906 | Exported Function
+`getString` | 1166 | Exported Function
+`getPatternString` | 1112 | Exported Function
+`getString` | 1169 | Exported Function
+`UObject` | 356 | Exported Function
+`getStringAt` | 1170 | Exported Function
+`UVector` | 977 | Exported Function
+`Locale` | 978 | Exported Function
+`UnicodeString` | 1208 | Exported Function
+`getFromDate` | 1028 | Exported Function
+`UVector` | 1207 | Exported Function
+`ICUServiceFactory` | 1052 | Exported Function
+`UnicodeString` | 909 | Exported Function
+`ICUServiceKey` | 1051 | Exported Function
+`UnicodeString` | 979 | Exported Function
+`UStringEnumeration` | 357 | Exported Function
+`unescape` | 1796 | Exported Function
+`next` | 1456 | Exported Function
+`getSource` | 1136 | Exported Function
+`autoQuoteApostropheDeep` | 605 | Exported Function
+`UnicodeString` | 1481 | Exported Function
+`Part` | 1174 | Exported Function
+`Locale` | 1778 | Exported Function
+`Locale` | 1777 | Exported Function
+`Locale` | 1784 | Exported Function
+`trim` | 1787 | Exported Function
+`toUpper` | 1785 | Exported Function
+`getUnicodeString` | 1197 | Exported Function
+`getAliasUnicodeString` | 914 | Exported Function
+`getTextWithNoArguments` | 1184 | Exported Function
+`tempSubStringBetween` | 1765 | Exported Function
+`tempSubString` | 1764 | Exported Function
+`getNextString` | 1100 | Exported Function
+`getNextString` | 1101 | Exported Function
+`getString` | 1167 | Exported Function
+`getStringEx` | 1172 | Exported Function
+`getStringEx` | 1173 | Exported Function
 
 
 ## Signature

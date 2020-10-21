@@ -27,8 +27,8 @@ PE256 | `23365103AA06217451B06B211C68154A4AF70798FA762A6C63B0539CBCBE1C43`
 Function Name | Ordinal | Type
 -- | -- | --
 `DllUnregisterServer` | 7 | Exported Function
-`public: __thiscall PartOrderRegion::PartOrderRegion(class PartOrderRegion const &)` | 1 | Exported Function
-`public: class PartOrderRegion & __thiscall PartOrderRegion::operator=(class PartOrderRegion const &)` | 2 | Exported Function
+`PartOrderRegion` | 1 | Exported Function
+`operator` | 2 | Exported Function
 `DllRegisterServer` | 6 | Exported Function
 `const PartOrderRegion::``vftable'` | 3 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function

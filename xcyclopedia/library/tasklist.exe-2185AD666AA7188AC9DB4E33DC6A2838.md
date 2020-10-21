@@ -18,6 +18,9 @@ SHA256 | `B4A874C5CCFA9A698E4A56D7453105CC7617802C385ABE1603760A9BB33D39ED`
 SHA384 | `1BDFEE0967B6130650AFA2B676CAF03190D6C2B3A1B3A64E9751967B5768C966AFC5B02F16B4444B214A8043C9AF0AE3`
 SHA512 | `139D7B47A2EF5BB3F3628B8D1BA3C6A1FEE8E7363C66D5478DA4ED702E61BB7CAA712C5AEC3291CF5C2FD83621B18D661463D28666564C78B7310D00B1766653`
 SSDEEP | `1536:SAkPqUMKhUBmkv1/5csEStRcc6PHjYv/3YC/Segb1x1dcOES:0Mvb1xcmtRcc6PH0vfYneI1x/5E`
+IMP | `D16A743355B243B7509AE74891F10F6B`
+PESHA1 | `BEA842A005C5DD023BF37B29742790AAEBFD9B78`
+PE256 | `3CC19BC417DBAE1232C32DD105F3E02FD21C27594AB7614481CC98B3DDD0C768`
 
 ## Runtime Data
 
@@ -111,6 +114,9 @@ Type "TASKLIST /?" for usage.
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\tasklist.exe |
 
 
@@ -131,7 +137,12 @@ C:\Windows\SysWOW64\tasklist.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b4a874c5ccfa9a698e4a56d7453105cc7617802c385abe1603760a9bb33d39ed/detection/
 
 
 ## Possible Misuse
@@ -188,72 +199,80 @@ Source | Source File | Example | License
 
 Displays a list of currently running processes on the local computer or on a remote computer. **Tasklist** replaces the **tlist** tool.
 
-
+> [!NOTE]
+> This command replaces the **tlist** tool.
 
 ### Syntax
 
 ```
-tasklist [/s <Computer> [/u [<Domain>\]<UserName> [/p <Password>]]] [{/m <Module> | /svc | /v}] [/fo {table | list | csv}] [/nh] [/fi <Filter> [/fi <Filter> [ ... ]]]
+tasklist [/s <computer> [/u [<domain>\]<username> [/p <password>]]] [{/m <module> | /svc | /v}] [/fo {table | list | csv}] [/nh] [/fi <filter> [/fi <filter> [ ... ]]]
 ```
 
 #### Parameters
 
-|          Parameter           |                                                                                                                                            Description                                                                                                                                             |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        /s \<Computer>        |                                                                                         Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer.                                                                                         |
-| /u [\<Domain>\\\]\<UserName> | Runs the command with the account permissions of the user who is specified by *UserName* or *Domain*\*UserName<em>. \*\*/u</em>\* can be specified only if **/s** is specified. The default is the permissions of the user who is currently logged on to the computer that is issuing the command. |
-|        /p \<Password>        |                                                                                                       Specifies the password of the user account that is specified in the **/u** parameter.                                                                                                        |
-|         /m \<Module>         |                                                               Lists all tasks with DLL modules loaded that match the given pattern name. If the module name is not specified, this option displays all modules loaded by each task.                                                                |
-|             /svc             |                                                                                    Lists all the service information for each process without truncation. Valid when the **/fo** parameter is set to **table**.                                                                                    |
-|              /v              |                                                                                 Displays verbose task information in the output. For complete verbose output without truncation, use **/v** and **/svc** together.                                                                                 |
-|  /fo {table \| list \| csv}  |                                                                             Specifies the format to use for the output. Valid values are **table**, **list**, and **csv**. The default format for output is **table**.                                                                             |
-|             /nh              |                                                                                             Suppresses column headers in the output. Valid when the **/fo** parameter is set to **table** or **csv**.                                                                                              |
-|        /fi \<Filter>         |                                                                          Specifies the types of processes to include in or exclude from the query. See the following table for valid filter names, operators, and values.                                                                          |
-|              /?              |                                                                                                                                Displays help at the command prompt.                                                                                                                                |
+| Parameter | Description |
+|--|--|
+| /s `<computer>` | Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer. |
+| /u `<domain>\<username>` | Runs the command with the account permissions of the user who is specified by `<username>` or by `<domain>\<username>`. The **/u** parameter can be specified only if **/s** is also specified. The default is the permissions of the user who is currently logged on to the computer that is issuing the command. |
+| /p `<password>` | Specifies the password of the user account that is specified in the **/u** parameter. |
+| /m `<module>` | Lists all tasks with DLL modules loaded that match the given pattern name. If the module name is not specified, this option displays all modules loaded by each task. |
+| svc | Lists all the service information for each process without truncation. Valid when the **/fo** parameter is set to **table**. |
+| /v | Displays verbose task information in the output. For complete verbose output without truncation, use **/v** and **/svc** together. |
+| /fo `{table | list | csv}` | Specifies the format to use for the output. Valid values are **table**, **list**, and **csv**. The default format for output is **table**. |
+| /nh | Suppresses column headers in the output. Valid when the **/fo** parameter is set to **table** or **csv**. |
+| /fi `<filter>` | Specifies the types of processes to include in or exclude from the query. You can use more than one filter or use the wildcard character (`\`) to specify all tasks or image names. The valid filters are listed in the **Filter names, operators, and values** section of this article.  |
+| /? | Displays help at the command prompt. |
 
-#### Filter names, operators, and values
+##### Filter names, operators, and values
 
-| Filter Name |    Valid Operators     |                                                                 Valid Values                                                                 |
-|-------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-|   STATUS    |         eq, ne         |                                                                   RUNNING                                                                    |
-|  IMAGENAME  |         eq, ne         |                                                                  Image name                                                                  |
-|     PID     | eq, ne, gt, lt, ge, le |                                                                  PID value                                                                   |
-|   SESSION   | eq, ne, gt, lt, ge, le |                                                                Session number                                                                |
-| SESSIONNAME |         eq, ne         |                                                                 Session name                                                                 |
-|   CPUTIME   | eq, ne, gt, lt, ge, le | CPU time in the format <em>HH</em>**:**<em>MM</em>**:**<em>SS</em>, where *MM* and *SS* are between 0 and 59 and *HH* is any unsigned number |
-|  MEMUSAGE   | eq, ne, gt, lt, ge, le |                                                              Memory usage in KB                                                              |
-|  USERNAME   |         eq, ne         |                                                             Any valid user name                                                              |
-|  SERVICES   |         eq, ne         |                                                                 Service name                                                                 |
-| WINDOWTITLE |         eq, ne         |                                                                 Window title                                                                 |
-|   MODULES   |         eq, ne         |                                                                   DLL name                                                                   |
+| Filter Name | Valid Operators | Valid Value(s) |
+|--|--|--|
+| STATUS | eq, ne | `RUNNING | NOT RESPONDING | UNKNOWN`. This filter isn't supported if you specify a remote system. |
+| IMAGENAME | eq, ne | Image name |
+| PID | eq, ne, gt, lt, ge, le | PID value |
+| SESSION | eq, ne, gt, lt, ge, le | Session number |
+| SESSIONNAME | eq, ne | Session name |
+| CPUtime | eq, ne, gt, lt, ge, le | CPU time in the format *HH:MM:SS*, where *MM* and *SS* are between 0 and 59 and *HH* is any unsigned number |
+| MEMUSAGE | eq, ne, gt, lt, ge, le | Memory usage in KB |
+| USERNAME | eq, ne | Any valid user name (`<user>` or `<domain\user>`) |
+| SERVICES | eq, ne | Service name |
+| WINDOWTITLE | eq, ne | Window title. This filter isn't supported if you specify a remote system. |
+| MODULES | eq, ne | DLL name |
 
-### Remarks
+### Examples
 
-The WINDOWTITLE and STATUS filters are not supported when a remote system is specified.
+To list all tasks with a *process ID greater than 1000*, and *display them in csv format*, type:
 
-### <a name="BKMK_examples"></a>Examples
-
-To list all tasks with a process ID greater than 1000, and display them in CSV format, type:
 ```
 tasklist /v /fi "PID gt 1000" /fo csv
 ```
+
 To list the system processes that are currently running, type:
+
 ```
 tasklist /fi "USERNAME ne NT AUTHORITY\SYSTEM" /fi "STATUS eq running"
 ```
+
 To list detailed information for all processes that are currently running, type:
+
 ```
 tasklist /v /fi "STATUS eq running"
 ```
-To list all the service information for processes on the remote computer "Srvmain" that have a DLL name beginning with "ntdll," type:
+
+To list all the service information for processes on the remote computer *srvmain*, which has a DLL name *beginning with ntdll*, type:
+
 ```
 tasklist /s srvmain /svc /fi "MODULES eq ntdll*"
 ```
-To list the processes on the remote computer "Srvmain," using the credentials of your currently logged-on user account, type:
+
+To list the processes on the remote computer *srvmain*, using the credentials of your currently logged-on user account, type:
+
 ```
 tasklist /s srvmain
 ```
-To list the processes on the remote computer "Srvmain," using the credentials of the user account Hiropln, type:
+
+To list the processes on the remote computer *srvmain*, using the credentials of the *user account Hiropln*, type:
+
 ```
 tasklist /s srvmain /u maindom\hiropln /p p@ssW23
 ```

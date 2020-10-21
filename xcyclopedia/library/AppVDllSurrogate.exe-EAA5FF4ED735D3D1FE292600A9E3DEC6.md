@@ -18,21 +18,15 @@ SHA256 | `DDEFAEDB6E9DA7E17BE3EE8E0A8563A6AB5751E85ACA55B90666F449B93D92EC`
 SHA384 | `E64E7B0644196B098198A657034A2F70CEB5F42E01EA187167667526389717D701C9DDA53D4D138E35B0A0D7F2F3C7AE`
 SHA512 | `071FB8A66B3B6E487FC0C7256943F0AEAC998508F9DA06689A8C09EB49D9B9A1E30B11619FA0F57AA74E4735A02649D388B4C0F828DC5D73BE7ABCBB4B07C2AC`
 SSDEEP | `3072:2mo1lH61ONQVOmu8OsJOjWGNU6ITLjWIa6b1vC:QEONaFu8OsJMWGNU6ITLjnn1`
-
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
+IMP | `5C1D020956A4CA9FDE213E3BB2F85CAF`
+PESHA1 | `00487821966CA71D2CAEB0A0912AE78768F2D0E1`
+PE256 | `24C31B59762A6FDEB2E2A3794B37DEA095B7ED2F37E982702F4DC61924769900`
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -45,7 +39,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/ddefaedb6e9da7e17be3ee8e0a8563a6ab5751e85aca55b90666f449b93d92ec/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -70,6 +69,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 44
 [C:\Windows\system32\mavinject.exe](mavinject.exe-72D5E2A3FF5D88C891E0DF1AA28B6422.md) | 30
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 41
+[C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 33
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 44
 
 

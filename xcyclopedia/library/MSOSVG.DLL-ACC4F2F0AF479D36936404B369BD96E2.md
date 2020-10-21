@@ -26,22 +26,22 @@ PE256 | `FAB506DC74F3394B84F3714D294F2839C00221A1C07582F90D83FAEB4FA91F19`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class Mso::TCntPtr<struct GEL::ISVGImage> __stdcall GEL::ISVGImageFactory::CreateSVGImage(struct ARC::ICommandList const &,struct GEL::Rect const *,struct Mso::SVG::SVGCreationParams const &)` | 15 | Exported Function
-`public: static class Mso::TCntPtr<struct GEL::ISVGImage> __stdcall GEL::ISVGImageFactory::CreateSVGImage(struct IStream &)` | 11 | Exported Function
-`public: static class Mso::TCntPtr<struct GEL::ISVGImage> __stdcall GEL::ISVGImageFactory::CreateSVGImage(struct ARC::ICommandList const &,struct GEL::Rect const *)` | 13 | Exported Function
-`public: static class Mso::TCntPtr<struct GEL::ISVGImage> __stdcall GEL::ISVGImageFactory::CreateSVGImage(struct ARC::ICommandList const &,struct GEL::Rect const *,struct Math::TVector2<class Math::TUnits<float,struct Math::TUnitsRatioTag<struct Math::DevicePixels,struct Math::Inches> > > const &)` | 14 | Exported Function
-`public: static class Mso::TCntPtr<struct GEL::ISVGImageFactory> __stdcall GEL::ISVGImageFactory::Create(struct IStream &,bool)` | 10 | Exported Function
-`wchar_t const * __stdcall Mso::SVG::GetSVGUnsupportedPropName(enum Mso::SVG::SVGUnsupportedProps)` | 16 | Exported Function
-`public: static class Mso::TCntPtr<struct GEL::ISVGImage> __stdcall GEL::ISVGImageFactory::CreateSVGImage(struct IStream &,bool)` | 12 | Exported Function
-`public: static class Mso::TCntPtr<struct GEL::ISVGImageFactory> __stdcall GEL::ISVGImageFactory::Create(struct IStream &)` | 9 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct Gfx::ISceneIterator &,bool)` | 1 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct Gfx::IShape const &,bool,bool)` | 3 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct GEL::ITopLevelEffect const &,bool)` | 4 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct Gfx::ISceneGraph const &,bool)` | 2 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(struct Mso::SVG::SVGCreationParams const &,class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct Gfx::ISceneIterator &,bool)` | 5 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(struct Mso::SVG::SVGCreationParams const &,class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct Gfx::IShape const &,bool,bool)` | 7 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(struct Mso::SVG::SVGCreationParams const &,class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct GEL::ITopLevelEffect const &,bool)` | 8 | Exported Function
-`bool __stdcall Mso::SVG::CanRenderAsSVG(struct Mso::SVG::SVGCreationParams const &,class std::set<enum Mso::SVG::SVGUnsupportedProps,struct std::less<enum Mso::SVG::SVGUnsupportedProps>,class std::allocator<enum Mso::SVG::SVGUnsupportedProps> > &,struct Gfx::ISceneGraph const &,bool)` | 6 | Exported Function
+`SVGCreationParams` | 15 | Exported Function
+`CreateSVGImage` | 11 | Exported Function
+`Rect` | 13 | Exported Function
+`Inches` | 14 | Exported Function
+`Create` | 10 | Exported Function
+`SVGUnsupportedProps` | 16 | Exported Function
+`CreateSVGImage` | 12 | Exported Function
+`Create` | 9 | Exported Function
+`ISceneIterator` | 1 | Exported Function
+`IShape` | 3 | Exported Function
+`ITopLevelEffect` | 4 | Exported Function
+`ISceneGraph` | 2 | Exported Function
+`ISceneIterator` | 5 | Exported Function
+`IShape` | 7 | Exported Function
+`ITopLevelEffect` | 8 | Exported Function
+`ISceneGraph` | 6 | Exported Function
 
 
 ## Signature

@@ -18,6 +18,9 @@ SHA256 | `4DF07BC2F74879A6F190922CEDAFB9652F6488DE0084FE91C6B62E62955A3A0A`
 SHA384 | `3DB6159930790F1D32ED90976C6535371E3F382FEC13C5E93B147229894524FD381B099F99F4991994D0B148ACE057DA`
 SHA512 | `AEA8E61FFE8F1CF2D3F94C37F8F6FBEA8078EDC7574D05751B788EC7204D590C1872CCE10796F5432D7B7E53EC0CCBBC95AAC51737AC0080D344282940416165`
 SSDEEP | `1536:YgQNdI+cPV6D8KBQTWrY/EKWHWNa1X8R:VKViaQTWOWWNa1Xs`
+IMP | `5D33CC16B4BC3AC1E5495AE857B9B8AB`
+PESHA1 | `9B1286CD25FC8D8D68FB21B1B43D343022BBAE96`
+PE256 | `A74584EFBE23E2E9E8682B6FD4DD914C4439B6223454348BB62587C1909DD9CE`
 
 ## Runtime Data
 
@@ -145,8 +148,16 @@ Type "SETX /?" for usage.
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\system32\setx.exe |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -166,7 +177,12 @@ C:\Windows\system32\setx.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/4df07bc2f74879a6f190922cedafb9652f6488de0084fe91c6b62e62955a3a0a/detection/
 
 
 

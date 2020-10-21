@@ -18,8 +18,14 @@ SHA256 | `0D7CB0B75CD61CDFFE0E53910829FFA5C02C8759EBD27A49E2EF7A907A10E506`
 SHA384 | `9EF43F15495851E67AD8D758B34A318D8331631295C101DBE8FAF7FB1548B6F84795988D9C759F8C8EB03C613D252B33`
 SHA512 | `35ACAD9DA3161873B21F73516F351C8C6F7FD49DD2B8E23105E230D8DAB97C15607AF7F8EA3725F2C013D11CDB0B95CF26DD556E713ADC134EC8354CAB494869`
 SSDEEP | `49152:7LSf3pfF98als35V86y45nxm2GwHEbcOeZaauUgrKo/Ww8A7/eFwjDvv:o3pf38LVs45nI2GwHEY1A9jrcw8a0cD`
+IMP | `FBEBD61CE702929C1F33B522FD572C5D`
+PESHA1 | `C8C30FDF3FD62E19528B0107BF1A200432CB6421`
+PE256 | `435B9896B5C6E8F54F375B5BBCDF1587319DB9B52D2AF7D50D1EB35AEE108DD0`
 
 ## Runtime Data
+
+### Child Processes:
+mmc.exe
 
 ### Loaded Modules:
 
@@ -27,6 +33,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\explorer.exe |
 
@@ -48,7 +55,12 @@ C:\Windows\SysWOW64\explorer.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/0d7cb0b75cd61cdffe0e53910829ffa5c02c8759ebd27a49e2ef7a907a10e506/detection/
 
 ## File Similarity (ssdeep match)
 

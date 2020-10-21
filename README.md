@@ -16,7 +16,7 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 8. `cd Docs`
 9. `git init`
 10. `git add .`
-11. `touch .nojekyll`
+11. (NOT NEEDED) `touch .nojekyll`
 12. `git commit -m "Add Lastest GH-PAGES Files"`
 13. (OPTIONAL?) `git remote add origin git@github.com:strontic/strontic.github.io.git`
 14. `git push --force origin master:gh-pages`

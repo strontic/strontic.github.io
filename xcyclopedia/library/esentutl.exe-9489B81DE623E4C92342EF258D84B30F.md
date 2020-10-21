@@ -18,6 +18,9 @@ SHA256 | `1423E39922CF30ED6A9D0EB9BA463E6723FE166641DAB9F3B27E4A8D30ADDCB5`
 SHA384 | `5FAF132E09805B7822A52AE70A56E6421FCD1E78A413E736428ADC90989C042B0049C5F883C7829BD8A0A49F952DA6BD`
 SHA512 | `92EB6314C75DD04C815873578F34DF5171A58815ED9CC8FB0046B94EFFFA0131AB65565352B2C60C00B6781D85BAB0CF8BCE1024A75E44A4FA1437F6F4786660`
 SSDEEP | `6144:4OrKGG0GHqzPRHGfRldZ+YWvWmA97UX0RA0jPqNBSljUvVF0:4ObG0chfbGvQBUX0RA0jPqHojUvL`
+IMP | `71099B51C33E38DAA19CD45879503390`
+PESHA1 | `889C453A79B4496FB4EAE8EB4322FF31AB70C4B2`
+PE256 | `EBE3C086288597CFF9F6CCA77690CA5B318271488918A3E9E4DC3F2D808F55E5`
 
 ## Runtime Data
 
@@ -28,8 +31,11 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -62,7 +68,12 @@ C:\Windows\SysWOW64\esentutl.exe |
 * Product Version: 10.0.17763.529
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/1423e39922cf30ed6a9d0eb9ba463e6723fe166641dab9f3b27e4a8d30addcb5/detection/
 
 
 ## Possible Misuse

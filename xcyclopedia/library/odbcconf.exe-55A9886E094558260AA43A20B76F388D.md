@@ -22,6 +22,9 @@ SHA256 | `40274D2B55355D30230CEE9C75335290C0692F6D7CFE5FAA529A582D9CDAA232`
 SHA384 | `BBFBDA14C80D13396280B83423B777E9CC8729D0269DE5570B69E4D2A7ECBF6347FD736BD5FB63F1BA35E7013C5C55C4`
 SHA512 | `7040FD42732B424200958C2CB39A8B7FB7D28DD5B370F06A90B86BA9035E8AD2942738189A098AF54DBDE5B707DFB7FBCFC4BD598C3182B50A9FC2DA58BCFC58`
 SSDEEP | `768:FCr3bf1LVAj09N+b8sI/mv9JNBmCPx9NS:FmhLVAQ9N+AmvTmCNS`
+IMP | `09AE8655C843B33D7FA4CDD4F87AD0BF`
+PESHA1 | `AA2E773739DB68BFAC5F1E66959EF76F71B471AD`
+PE256 | `CC90893CEE6188ACC18F77C1DAED0D704AA56A5FA8C1B3357A71195F31244EA5`
 
 ## Runtime Data
 
@@ -34,11 +37,14 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\odbcconf.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -46,19 +52,31 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\odbcconf.dll |
 C:\Windows\system32\odbcconf.exe |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -79,7 +97,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/40274d2b55355d30230cee9c75335290c0692f6d7cfe5faa529a582d9cdaa232/detection/
 
 
 ## Possible Misuse

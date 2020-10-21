@@ -23,6 +23,9 @@ SHA256 | `DB3F360BDB292C0679C13149AC6F454F7DCE768BDE559D87CE718023A6985A0D`
 SHA384 | `80F6CF838D29DF688E727878770F17DE03624A819B6B480C256673A61FDA62BCB098430DF2FF7454EDD4198880615FAA`
 SHA512 | `9330F1929D3F14425F23B508CB9449F44B8BF5BB14C3CFB7130599B20CBAEE9A0DFC5F40C8FA9AE928C4893614DD9787AD7003D1A3072AD8D7774774A3881571`
 SSDEEP | `1536:+ovqTsD+XrQyOWPAfrUetMY7lDUKhyvj2ihR/87BMKM/SO1URZ:nv5HyOWeLeklwv/Rk7BMK6SO1gZ`
+IMP | `109BA8ED3C458360A74EA1216207CA09`
+PESHA1 | `7C6FF4D8E4A744871C99F7C6485BBD63B006835E`
+PE256 | `BC53C3DBC4912885D7AF6D6208268651BD73A670979AA97F7306BA74C1F0315D`
 
 ## Runtime Data
 
@@ -35,11 +38,14 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\cmstp.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -55,7 +61,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\cryptsp.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -94,7 +99,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 7.2.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/db3f360bdb292c0679c13149ac6f454f7dce768bde559d87ce718023a6985a0d/detection/
 
 
 ## Possible Misuse

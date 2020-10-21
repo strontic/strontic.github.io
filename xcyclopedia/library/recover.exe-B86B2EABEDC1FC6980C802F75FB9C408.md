@@ -18,6 +18,9 @@ SHA256 | `B6EC80D55C7BA99165767D74E219D9393E81CA0B7CC1B65E6A697E84E62B9DFD`
 SHA384 | `AEE2FE41FAAF2A2457FC9DC1F4BDB1E87361631FCC608C20D3320890615E058C5611FC334ADCBAD0A878EDBBE3916A9A`
 SHA512 | `C0566422314622CF27D761765CA16AA404686B226496885F5691DDCF3F57D057F01FF8D78347F13B563FDE188AD4B090ED8FE3AF9AF02B3DE3A958B035E6CCF5`
 SSDEEP | `192:E8nsoUysmXLBrQQ/Ao1mzY1RDfN09BpUZTj6qZ2G08lTSm2TWPnWnh:xn5XL51oo1mEPDm9XUZv12jW2TWPnW`
+IMP | `15EC0ACE85D3228ADCC66943670EF7D8`
+PESHA1 | `2F1F2690104C9D62A1A45C1C045BDD361E9B133F`
+PE256 | `1944910EED648E72F490AEE459D2155A0B7FF21D8B405938BD3D17C5407A582A`
 
 ## Runtime Data
 
@@ -39,7 +42,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -48,10 +54,23 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\SYSTEM32\fsutilext.dll |
+C:\Windows\system32\IfsUtil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\recover.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\ulib.dll |
+C:\Windows\system32\UNTFS.DLL |
 
 
 ## Signature
@@ -71,7 +90,12 @@ C:\Windows\system32\recover.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b6ec80d55c7ba99165767d74e219d9393e81ca0b7cc1b65e6a697e84e62b9dfd/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -18,6 +18,9 @@ SHA256 | `1084ADF2DDBE903BD71A496720B0D6616882F120D1B3FFEAE8D47FEB0D9CC123`
 SHA384 | `8C11CE27E114F2816BFA46DFEE23A2EF3C46ADA7E1730163AB81CC29D70EF0D87425864BECFEC2844F72AD7645C88DBD`
 SHA512 | `0B308FDD3E617B104DB0A65DA7D269A199EEA3F829027C59506917B9ED543655787BACACED7BAEAC2BB786E2D276BEEFA673F96D1F036CF97EDFE14AF95E78C9`
 SSDEEP | `1536:xMHrgDS5e4ZpCSoeuktTZXrHkpb+AXIpFkDpQfM0Gff3JyYcpliIjIep6KCNxji7:xsgDSgdEEnIpFkX0Gf/poIesKex27`
+IMP | `C5985EAB8C1ED292344936A4595C1438`
+PESHA1 | `160EC3FAF1C0265584CF7428642A4248F052CEC5`
+PE256 | `094871EB27C44FA77F0E9C7830D4F960ADF6A64D263D8A228A9F410D69BB36B4`
 
 ## Runtime Data
 
@@ -67,13 +70,6 @@ Type "SYSTEMINFO /?" for usage.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -91,7 +87,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/1084adf2ddbe903bd71a496720b0d6616882f120d1b3ffeae8d47feb0d9cc123/detection/
 
 
 ## Possible Misuse
@@ -131,38 +132,42 @@ Source | Source File | Example | License
 
 Displays detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties (such as RAM, disk space, and network cards).
 
-
-
 ### Syntax
 
 ```
-Systeminfo [/s <Computer> [/u <Domain>\<UserName> [/p <Password>]]] [/fo {TABLE | LIST | CSV}] [/nh]
+systeminfo [/s <computer> [/u <domain>\<username> [/p <password>]]] [/fo {TABLE | LIST | CSV}] [/nh]
 ```
 
 #### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/s \<Computer>|Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer.|
-|/u \<Domain>\<UserName>|Runs the command with the account permissions of the specified user account. If **/u** is not specified, this command uses the permissions of the user who is currently logged on to the computer that is issuing the command.|
-|/p \<Password>|Specifies the password of the user account that is specified in the **/u** parameter.|
-|/fo \<Format>|Specifies the output format with one of the following values:</br>TABLE: Displays output in a table.</br>LIST: Displays output in a list.</br>CSV: Displays output in Comma Separated Values format.|
-|/nh|Suppresses column headers in the output. Valid when the **/fo** parameter is set to TABLE or CSV.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| /s `<computer>` | Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer. |
+| /u `<domain>\<username>` | Runs the command with the account permissions of the specified user account. If **/u** is not specified, this command uses the permissions of the user who is currently logged on to the computer that is issuing the command. |
+| /p `<password>` | Specifies the password of the user account that is specified in the **/u** parameter. |
+| /fo `<format>` | Specifies the output format with one of the following values:<ul><li>**TABLE** - Displays output in a table.</li><li>**LIST** - Displays output in a list.</li><li>**CSV** - Displays output in comma-separated values (.csv) format.</li></ul> |
+| /nh | Suppresses column headers in the output. Valid when the **/fo** parameter is set to TABLE or CSV. |
+| /? | Displays help at the command prompt. |
 
 ### Examples
 
-To view configuration information for a computer named Srvmain, type:
+To view configuration information for a computer named *Srvmain*, type:
 
-**systeminfo /s srvmain**
+```
+systeminfo /s srvmain
+```
 
-To remotely view configuration information for a computer named Srvmain2 that is located on the Maindom domain, type:
+To remotely view configuration information for a computer named *Srvmain2* that is located on the *Maindom* domain, type:
 
-**systeminfo /s srvmain2 /u maindom\hiropln**
+```
+systeminfo /s srvmain2 /u maindom\hiropln
+```
 
-To remotely view configuration information (in list format) for a computer named Srvmain2 that is located on the Maindom domain, type:
+To remotely view configuration information (in list format) for a computer named *Srvmain2* that is located on the *Maindom* domain, type:
 
-**systeminfo /s srvmain2 /u maindom\hiropln /p p@ssW23 /fo list**
+```
+systeminfo /s srvmain2 /u maindom\hiropln /p p@ssW23 /fo list
+```
 
 ### Additional References
 

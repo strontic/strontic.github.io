@@ -26,248 +26,248 @@ PE256 | `F58237CE099D89E4B554B4A6B5682A41632A5AB920CE09107FCD57E34ABCAF26`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual int __thiscall CallControlStripController::GetSecondaryMenuButtonState(void)` | 156 | Exported Function
-`public: virtual int __thiscall CallControlStripController::GetShareButtonState(void)` | 157 | Exported Function
-`public: virtual int __thiscall CallControlStripController::GetDialpadButtonState(void)` | 146 | Exported Function
-`public: virtual class std::shared_ptr<class CSFUnified::TelephonyConversation> __thiscall SecondaryCallControlMenuController::GetTelephonyConversation(void)` | 160 | Exported Function
-`public: virtual class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > > __thiscall ActiveConferenceController::GetWaitInLobbyParticipantList(void)` | 161 | Exported Function
-`public: virtual int __thiscall CallControlStripController::GetStartStopVideoButtonState(void)` | 158 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::AddReinviteParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 99 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::AdmitInLobbyParticipants(class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >)` | 104 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::AddParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 98 | Exported Function
-`public: virtual int __thiscall MergeMenuController::SetupMergeMenuItems(void)` | 299 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::AddInvitedParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 96 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsEnabledTransfer(void)` | 154 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetCanPauseResumeRecording(void)` | 143 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetCanRecordConference(void)` | 144 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetCanLockConference(void)` | 142 | Exported Function
-`public: virtual bool __thiscall DialpadController::CanSendDtmf(void)` | 106 | Exported Function
-`public: virtual bool __thiscall DialpadController::IsValidDtmfChar(char)` | 179 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsActiveConference(void)` | 148 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsEnabledMerge(void)` | 152 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsEnabledPark(void)` | 153 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsEnabledConference(void)` | 151 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsConferenceLocked(void)` | 149 | Exported Function
-`public: virtual bool __thiscall SecondaryCallControlMenuController::GetIsConferenceRecorded(void)` | 150 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::SetView(class std::weak_ptr<class IActiveConferenceView>)` | 289 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::ToggleAllParticipantsMute(void)` | 315 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::RemoveReinviteParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 274 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::RemoveInvitedParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 270 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::RemoveParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 272 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::ToggleMute(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 316 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::OnInitDialog(void)` | 214 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::OnIsSpeakerAvailableChanged(void)` | 223 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::DisconnectServices(void)` | 129 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 321 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::ConnectServices(void)` | 108 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnReinviteParticipantRemoved(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 251 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::InitParticipants(void)` | 169 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::InviteParticipant(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 171 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::DropParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 139 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::ConnectServices(void)` | 107 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::DisconnectServices(void)` | 128 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnInvitedParticipantAdded(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 215 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnParticipantRemoved(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 242 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnReinviteParticipantAdded(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 250 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnParticipantAdded(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 233 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnInvitedParticipantRemoved(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 217 | Exported Function
-`public: virtual void __thiscall ActiveConferenceController::OnInvitedParticipantUpdated(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 220 | Exported Function
-`public: class std::weak_ptr<class SecondaryCallControlMenuController const > __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::weak_from_this(void)const ` | 365 | Exported Function
-`public: class std::weak_ptr<class SecondaryCallControlMenuController> __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::weak_from_this(void)` | 364 | Exported Function
-`public: class std::weak_ptr<class LeaveMeetingViewController> __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::weak_from_this(void)` | 362 | Exported Function
-`public: class std::weak_ptr<class DialpadController> __thiscall std::enable_shared_from_this<class DialpadController>::weak_from_this(void)` | 360 | Exported Function
-`public: class std::weak_ptr<class LeaveMeetingViewController const > __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::weak_from_this(void)const ` | 363 | Exported Function
-`public: static class std::shared_ptr<class IActiveConferenceController> __cdecl ActiveConferenceController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::shared_ptr<class CSFUnified::TelephonyService>,struct IPluginRuntime *,void *)` | 115 | Exported Function
-`public: static class std::shared_ptr<class IDialpadController> __cdecl DialpadController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 119 | Exported Function
-`public: static class std::shared_ptr<class IMergeMenuController> __cdecl MergeMenuController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::shared_ptr<class CSFUnified::TelephonyService>)` | 121 | Exported Function
-`public: static class std::shared_ptr<class ICallControlStripController> __cdecl CallControlStripController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::weak_ptr<class ITelephonyControlMgr>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::shared_ptr<class IBFCPShareService>,class std::shared_ptr<class CSFUnified::DesktopShareService>,struct IPluginRuntime *)` | 118 | Exported Function
-`public: static class std::shared_ptr<class IAdjustVolumeController> __cdecl AdjustVolumeController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::MediaDeviceService>,class std::shared_ptr<class CSFUnified::TelephonyService>,class std::shared_ptr<class CSFUnified::ConfigService>)` | 116 | Exported Function
-`public: static class std::shared_ptr<class IAdmitMultiParticipantsController> __cdecl AdmitMultiParticipantsController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,struct IPluginRuntime *)` | 117 | Exported Function
-`public: class std::weak_ptr<class DialpadController const > __thiscall std::enable_shared_from_this<class DialpadController>::weak_from_this(void)const ` | 361 | Exported Function
-`public: class std::weak_ptr<class ActiveConferenceController const > __thiscall std::enable_shared_from_this<class ActiveConferenceController>::weak_from_this(void)const ` | 353 | Exported Function
-`public: class std::weak_ptr<class ActiveConferenceController> __thiscall std::enable_shared_from_this<class ActiveConferenceController>::weak_from_this(void)` | 352 | Exported Function
-`public: class std::shared_ptr<class SecondaryCallControlMenuController> __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::shared_from_this(void)` | 347 | Exported Function
-`public: class std::shared_ptr<class LeaveMeetingViewController> __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::shared_from_this(void)` | 345 | Exported Function
-`public: class std::shared_ptr<class SecondaryCallControlMenuController const > __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::shared_from_this(void)const ` | 348 | Exported Function
-`public: class std::weak_ptr<class AdjustVolumeController const > __thiscall std::enable_shared_from_this<class AdjustVolumeController>::weak_from_this(void)const ` | 355 | Exported Function
-`public: class std::weak_ptr<class CallControlStripController const > __thiscall std::enable_shared_from_this<class CallControlStripController>::weak_from_this(void)const ` | 359 | Exported Function
-`public: class std::weak_ptr<class CallControlStripController> __thiscall std::enable_shared_from_this<class CallControlStripController>::weak_from_this(void)` | 358 | Exported Function
-`public: class std::weak_ptr<class AdmitMultiParticipantsController> __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::weak_from_this(void)` | 356 | Exported Function
-`public: class std::weak_ptr<class AdjustVolumeController> __thiscall std::enable_shared_from_this<class AdjustVolumeController>::weak_from_this(void)` | 354 | Exported Function
-`public: class std::weak_ptr<class AdmitMultiParticipantsController const > __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::weak_from_this(void)const ` | 357 | Exported Function
-`public: virtual bool __thiscall ActiveConferenceController::IsNumberOrSipuriMatch(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 176 | Exported Function
-`public: virtual bool __thiscall ActiveConferenceController::IsNumberOrSipuriMatch(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 177 | Exported Function
-`public: virtual bool __thiscall ActiveConferenceController::HasParticipantMuteCap(void)` | 163 | Exported Function
+`GetSecondaryMenuButtonState` | 156 | Exported Function
+`GetShareButtonState` | 157 | Exported Function
+`GetDialpadButtonState` | 146 | Exported Function
+`GetTelephonyConversation` | 160 | Exported Function
+`GetWaitInLobbyParticipantList` | 161 | Exported Function
+`GetStartStopVideoButtonState` | 158 | Exported Function
+`allocator` | 99 | Exported Function
+`TelephonyConversationParticipant` | 104 | Exported Function
+`TelephonyConversationParticipant` | 98 | Exported Function
+`SetupMergeMenuItems` | 299 | Exported Function
+`TelephonyConversationParticipant` | 96 | Exported Function
+`GetIsEnabledTransfer` | 154 | Exported Function
+`GetCanPauseResumeRecording` | 143 | Exported Function
+`GetCanRecordConference` | 144 | Exported Function
+`GetCanLockConference` | 142 | Exported Function
+`CanSendDtmf` | 106 | Exported Function
+`IsValidDtmfChar` | 179 | Exported Function
+`GetIsActiveConference` | 148 | Exported Function
+`GetIsEnabledMerge` | 152 | Exported Function
+`GetIsEnabledPark` | 153 | Exported Function
+`GetIsEnabledConference` | 151 | Exported Function
+`GetIsConferenceLocked` | 149 | Exported Function
+`GetIsConferenceRecorded` | 150 | Exported Function
+`weak_ptr` | 289 | Exported Function
+`ToggleAllParticipantsMute` | 315 | Exported Function
+`TelephonyConversationParticipant` | 274 | Exported Function
+`TelephonyConversationParticipant` | 270 | Exported Function
+`TelephonyConversationParticipant` | 272 | Exported Function
+`TelephonyConversationParticipant` | 316 | Exported Function
+`OnInitDialog` | 214 | Exported Function
+`OnIsSpeakerAvailableChanged` | 223 | Exported Function
+`DisconnectServices` | 129 | Exported Function
+`TelephonyConversation` | 321 | Exported Function
+`ConnectServices` | 108 | Exported Function
+`TelephonyConversationParticipant` | 251 | Exported Function
+`InitParticipants` | 169 | Exported Function
+`allocator` | 171 | Exported Function
+`TelephonyConversationParticipant` | 139 | Exported Function
+`ConnectServices` | 107 | Exported Function
+`DisconnectServices` | 128 | Exported Function
+`TelephonyConversationParticipant` | 215 | Exported Function
+`TelephonyConversationParticipant` | 242 | Exported Function
+`TelephonyConversationParticipant` | 250 | Exported Function
+`TelephonyConversationParticipant` | 233 | Exported Function
+`TelephonyConversationParticipant` | 217 | Exported Function
+`allocator` | 220 | Exported Function
+`weak_from_this` | 365 | Exported Function
+`weak_from_this` | 364 | Exported Function
+`weak_from_this` | 362 | Exported Function
+`weak_from_this` | 360 | Exported Function
+`weak_from_this` | 363 | Exported Function
+`TelephonyService` | 115 | Exported Function
+`TelephonyConversation` | 119 | Exported Function
+`TelephonyService` | 121 | Exported Function
+`DesktopShareService` | 118 | Exported Function
+`ConfigService` | 116 | Exported Function
+`TelephonyConversation` | 117 | Exported Function
+`weak_from_this` | 361 | Exported Function
+`weak_from_this` | 353 | Exported Function
+`weak_from_this` | 352 | Exported Function
+`shared_from_this` | 347 | Exported Function
+`shared_from_this` | 345 | Exported Function
+`shared_from_this` | 348 | Exported Function
+`weak_from_this` | 355 | Exported Function
+`weak_from_this` | 359 | Exported Function
+`weak_from_this` | 358 | Exported Function
+`weak_from_this` | 356 | Exported Function
+`weak_from_this` | 354 | Exported Function
+`weak_from_this` | 357 | Exported Function
+`TelephonyConversationParticipant` | 176 | Exported Function
+`TelephonyConversationParticipant` | 177 | Exported Function
+`HasParticipantMuteCap` | 163 | Exported Function
 `public: virtual __thiscall SecondaryCallControlMenuController::~SecondaryCallControlMenuController(void)` | 59 | Exported Function
-`public: virtual bool __thiscall ActiveConferenceController::HasParticipantDropCap(void)` | 162 | Exported Function
-`public: virtual bool __thiscall CallControlStripController::CanAssignHostWhenEndMeeting(void)` | 105 | Exported Function
-`public: virtual bool __thiscall CallControlStripController::getMuteAudioEnabled(void)` | 334 | Exported Function
-`public: virtual bool __thiscall CallControlStripController::IsViewFocus(void)` | 180 | Exported Function
-`public: virtual bool __thiscall CallControlStripController::getMoreBtnEnabled(void)` | 333 | Exported Function
-`public: virtual bool __thiscall CallControlStripController::getAudioMuted(void)` | 331 | Exported Function
-`public: virtual bool __thiscall CallControlStripController::getCanUpdateVideo(void)` | 332 | Exported Function
+`HasParticipantDropCap` | 162 | Exported Function
+`CanAssignHostWhenEndMeeting` | 105 | Exported Function
+`getMuteAudioEnabled` | 334 | Exported Function
+`IsViewFocus` | 180 | Exported Function
+`getMoreBtnEnabled` | 333 | Exported Function
+`getAudioMuted` | 331 | Exported Function
+`getCanUpdateVideo` | 332 | Exported Function
 `public: virtual __thiscall PopoutController::~PopoutController(void)` | 58 | Exported Function
-`public: static class std::shared_ptr<class LeaveMeetingViewController> __cdecl LeaveMeetingViewController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::TelephonyService>,class std::shared_ptr<class CSFUnified::ConversationService>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 120 | Exported Function
+`TelephonyConversation` | 120 | Exported Function
 `public: virtual __thiscall ActiveConferenceController::~ActiveConferenceController(void)` | 50 | Exported Function
-`public: static class std::shared_ptr<class ISecondaryCallControlMenuController> __cdecl SecondaryCallControlMenuController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::TelephonyService>,class std::shared_ptr<class CSFUnified::ConversationService>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 124 | Exported Function
-`public: static class std::shared_ptr<class IPopinController> __cdecl PopinController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::weak_ptr<class ITelephonyControlMgr>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 122 | Exported Function
-`public: static class std::shared_ptr<class IPopoutController> __cdecl PopoutController::CreateInstance(class std::weak_ptr<class ITelephonyControlView>,class std::weak_ptr<class ITelephonyControlMgr>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 123 | Exported Function
+`TelephonyConversation` | 124 | Exported Function
+`TelephonyConversation` | 122 | Exported Function
+`TelephonyConversation` | 123 | Exported Function
 `public: virtual __thiscall AdjustVolumeController::~AdjustVolumeController(void)` | 51 | Exported Function
 `public: virtual __thiscall MergeMenuController::~MergeMenuController(void)` | 56 | Exported Function
 `public: virtual __thiscall PopinController::~PopinController(void)` | 57 | Exported Function
 `public: virtual __thiscall DialpadController::~DialpadController(void)` | 54 | Exported Function
 `public: virtual __thiscall AdmitMultiParticipantsController::~AdmitMultiParticipantsController(void)` | 52 | Exported Function
 `public: virtual __thiscall CallControlStripController::~CallControlStripController(void)` | 53 | Exported Function
-`public: virtual void __thiscall MergeMenuController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 327 | Exported Function
-`public: virtual void __thiscall PopinController::OnPopIn(void)` | 248 | Exported Function
-`public: virtual void __thiscall MergeMenuController::SetView(class std::weak_ptr<class IMergeMenuView>)` | 295 | Exported Function
-`public: virtual void __thiscall DialpadController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 325 | Exported Function
-`public: virtual void __thiscall MergeMenuController::MergeConversation(unsigned int)` | 184 | Exported Function
-`public: virtual void __thiscall PopinController::SetView(class std::weak_ptr<class IPopinView>)` | 296 | Exported Function
-`public: virtual void __thiscall PopoutController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 329 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::ConnectServices(void)` | 113 | Exported Function
-`public: virtual void __thiscall PopoutController::SetView(class std::weak_ptr<class IPopoutView>)` | 297 | Exported Function
-`public: virtual void __thiscall PopinController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 328 | Exported Function
-`public: virtual void __thiscall PopoutController::OnPopOut(void)` | 249 | Exported Function
-`public: virtual void __thiscall DialpadController::SetView(class std::weak_ptr<class IDialpadView>)` | 293 | Exported Function
-`public: virtual void __thiscall CallControlStripController::UpdateMutedByDefaultBalloonPosition(void)` | 318 | Exported Function
-`public: virtual void __thiscall CallControlStripController::UpdateOverlays(bool)` | 319 | Exported Function
-`public: virtual void __thiscall CallControlStripController::takeOverShare(bool,class std::shared_ptr<class DisplayMonitor>,int)` | 351 | Exported Function
-`public: virtual void __thiscall CallControlStripController::startShareOnApp(bool,unsigned long,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 349 | Exported Function
-`public: virtual void __thiscall CallControlStripController::startShareOnMonitor(bool,class std::shared_ptr<class DisplayMonitor>)` | 350 | Exported Function
-`public: virtual void __thiscall CallControlStripController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 324 | Exported Function
-`public: virtual void __thiscall DialpadController::SendDtmfDigit(char)` | 280 | Exported Function
-`public: virtual void __thiscall DialpadController::SendDtmfString(class csf::SecureString)` | 281 | Exported Function
-`public: virtual void __thiscall DialpadController::OnCanSendDtmfChanged(void)` | 192 | Exported Function
-`public: virtual void __thiscall DialpadController::ConnectServices(void)` | 111 | Exported Function
-`public: virtual void __thiscall DialpadController::DisconnectServices(void)` | 132 | Exported Function
-`public: void __thiscall AdmitMultiParticipantsController::OnParticipantAdmitCapabilityChanged(void)` | 235 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::ConnectServices(void)` | 112 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 330 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnTransferClicked(void)` | 266 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::SetView(class std::weak_ptr<class ISecondaryCallControlMenuView>)` | 298 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::DisconnectBindings(void)` | 126 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::SetView(class std::weak_ptr<class LeaveMeetingView>)` | 294 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 326 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::OnLeaveMeeting(void)` | 224 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::DisconnectServices(void)` | 133 | Exported Function
-`public: void __thiscall LeaveMeetingViewController::OnEndMeeting(void)` | 210 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnStopRecord(void)` | 257 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnConferenceClick(void)` | 195 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnConferenceLockClick(void)` | 197 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::InitBindings(void)` | 168 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::DisconnectBindings(void)` | 127 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::DisconnectServices(void)` | 134 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnConferenceRecordClick(void)` | 202 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnParkClick(void)` | 230 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnPauseResumeRecord(void)` | 247 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnMergeClick(void)` | 227 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnCopyClick(void)` | 205 | Exported Function
-`public: virtual void __thiscall SecondaryCallControlMenuController::OnHoldClick(void)` | 212 | Exported Function
-`public: virtual void __thiscall CallControlStripController::DisplayStartStopVideoView(bool)` | 138 | Exported Function
-`public: virtual void __thiscall CallControlStripController::EnableShareButton(void)` | 140 | Exported Function
-`public: virtual void __thiscall CallControlStripController::DisplaySecondaryMenu(bool)` | 137 | Exported Function
-`public: virtual void __thiscall CallControlStripController::DisplayDialPad(bool)` | 135 | Exported Function
-`public: virtual void __thiscall CallControlStripController::DisplayLeaveMeetingView(bool)` | 136 | Exported Function
-`public: virtual void __thiscall CallControlStripController::InitBindings(void)` | 167 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnChar(unsigned int,unsigned int,long,int &)` | 194 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnDestroy(void)` | 206 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnCanSendDtmfChanged(void)` | 191 | Exported Function
-`public: virtual void __thiscall CallControlStripController::JvdiBroadcastCallControlStripToVxi(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 181 | Exported Function
-`public: virtual void __thiscall CallControlStripController::JvdiNotifyTargetVersion(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 182 | Exported Function
-`public: virtual void __thiscall CallControlStripController::DisconnectServices(void)` | 131 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::SetView(class std::weak_ptr<class IAdjustVolumeView>)` | 290 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 322 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::OnVolumeChanged(void)` | 268 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::OnTrackBarChange(void)` | 265 | Exported Function
-`public: virtual void __thiscall AdjustVolumeController::OnVolumeAdjust(bool)` | 267 | Exported Function
-`public: virtual void __thiscall AdmitMultiParticipantsController::ConnectServices(void)` | 109 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ConnectServices(void)` | 110 | Exported Function
-`public: virtual void __thiscall CallControlStripController::DisconnectBindings(void)` | 125 | Exported Function
-`public: virtual void __thiscall AdmitMultiParticipantsController::UpdateTelephonyConversation(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 323 | Exported Function
-`public: virtual void __thiscall AdmitMultiParticipantsController::DisconnectServices(void)` | 130 | Exported Function
-`public: virtual void __thiscall AdmitMultiParticipantsController::SetView(class std::weak_ptr<class IAdmitMultiParticipantsView>)` | 291 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowCopiedBoard(void)` | 304 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowDialPad(bool)` | 305 | Exported Function
-`public: virtual void __thiscall CallControlStripController::SetView(class std::shared_ptr<class ICallControlStripView>)` | 292 | Exported Function
-`public: virtual void __thiscall CallControlStripController::SetShareButtonEnabled(bool)` | 287 | Exported Function
-`public: virtual void __thiscall CallControlStripController::SetStartStopVideoButtonState(int)` | 288 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowLeaveMeetingView(bool)` | 306 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowSecondaryMenu(bool)` | 310 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowStartStopVideoView(bool)` | 311 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowRecordBalloon(void)` | 309 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowMutedByDefaultBalloon(bool)` | 307 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ShowMutedByServerBalloon(void)` | 308 | Exported Function
-`public: virtual void __thiscall CallControlStripController::SetPopups(void)` | 286 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnMoreClick(void)` | 228 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnMuteAudioClick(void)` | 229 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnInit(void)` | 213 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnDialpadClick(void)` | 207 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnEndCallClick(void)` | 209 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnRemoteVideoActiveChanged(void)` | 255 | Exported Function
-`public: virtual void __thiscall CallControlStripController::SendViewMessage(unsigned int,unsigned int,long)` | 282 | Exported Function
-`public: virtual void __thiscall CallControlStripController::SetFocus(void)` | 285 | Exported Function
-`public: virtual void __thiscall CallControlStripController::ReorderCallstrip(void)` | 277 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnShareClick(void)` | 256 | Exported Function
-`public: virtual void __thiscall CallControlStripController::OnSwitchViewClick(void)` | 258 | Exported Function
-`public: class std::shared_ptr<class LeaveMeetingViewController const > __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::shared_from_this(void)const ` | 346 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnTelephonyControlHold(void)` | 261 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnTelephonyControlPopin(void)` | 262 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnTelephonyControlExitFullscreen(void)` | 260 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnRemoteParticipantsForInvitedChanged(bool,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >)` | 254 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnTelephonyControlEnterFullscreen(void)` | 259 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnTelephonyControlPopout(void)` | 263 | Exported Function
-`private: void __thiscall ActiveConferenceController::RemoveParticipantNotifier(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 273 | Exported Function
-`private: void __thiscall ActiveConferenceController::RemoveReinviteParticipantNotifier(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 275 | Exported Function
-`private: void __thiscall ActiveConferenceController::RemoveInvitedParticipantNotifier(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 271 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnTelephonyControlResume(void)` | 264 | Exported Function
-`private: void __thiscall ActiveConferenceController::RemoveInvitedHistory(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 269 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnRemoteParticipantsChanged(bool,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >)` | 253 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantDropCapabilityChanged(void)` | 238 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantMuteCapabilityChanged(void)` | 239 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantDisplayNameChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 237 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantAdmitCapabilityChanged(void)` | 234 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantAudioMutedChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 236 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantParentUUIDChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 240 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantVideoMutedChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 246 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnReinviteRemoteParticipantsChanged(bool,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >,class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 252 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantVideoActiveStateChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 245 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantPresentingChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 241 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantStatusChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 243 | Exported Function
-`private: void __thiscall CallControlStripController::ShareScreenRDP(void)` | 302 | Exported Function
-`private: void __thiscall CallControlStripController::StartShare(bool,class std::shared_ptr<class DisplayMonitor>,struct tagPOINT)` | 312 | Exported Function
-`private: void __thiscall CallControlStripController::ShareScreenBFCP(void)` | 301 | Exported Function
-`private: void __thiscall CallControlStripController::SetDialPadControlsEnabled(bool,bool)` | 284 | Exported Function
-`private: void __thiscall CallControlStripController::ShareScreen(bool)` | 300 | Exported Function
-`private: void __thiscall CallControlStripController::StopAndDestroyMutedByDefaultBalloon(void)` | 313 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::AddWindowEnableBinding(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class AT::CWclWin *,class std::shared_ptr<class CSFUnified::PropertyNotifier>,class std::function<bool __cdecl(void)>)` | 102 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::AddWindowVisibleBinding(class AT::CWclWin *,class std::shared_ptr<class CSFUnified::PropertyNotifier>,class std::function<bool __cdecl(void)>)` | 103 | Exported Function
-`private: void __thiscall LeaveMeetingViewController::OnCallStateChanged(void)` | 188 | Exported Function
-`private: void __thiscall CallControlStripController::StopAndDestroyMutedByServerBalloon(void)` | 314 | Exported Function
-`private: void __thiscall LeaveMeetingViewController::AddBinding(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class AT::CWclWin *,class std::shared_ptr<class CSFUnified::PropertyNotifier>,class std::function<bool __cdecl(void)>)` | 95 | Exported Function
-`private: void __thiscall CallControlStripController::ResetActiveControlAudioMuteBindings(void)` | 278 | Exported Function
-`private: void __thiscall AdjustVolumeController::SetDeviceVolume(int)` | 283 | Exported Function
-`private: void __thiscall CallControlStripController::HideCopiedBoard(void)` | 164 | Exported Function
-`private: void __thiscall ActiveConferenceController::UpdateInvitedHistory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 317 | Exported Function
-`private: void __thiscall ActiveConferenceController::RemoveWaitInLobbyParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 276 | Exported Function
-`private: void __thiscall ActiveConferenceController::SaveInvitedHistory(void)` | 279 | Exported Function
-`private: void __thiscall CallControlStripController::HideMergeMenu(void)` | 165 | Exported Function
-`private: void __thiscall CallControlStripController::OnIsLocalVideoActive(void)` | 222 | Exported Function
-`private: void __thiscall CallControlStripController::OnLocalBFCPShareConversationChange(void)` | 225 | Exported Function
-`private: void __thiscall CallControlStripController::OnHoldChanged(void)` | 211 | Exported Function
-`private: void __thiscall CallControlStripController::HideRecordBalloon(void)` | 166 | Exported Function
-`private: void __thiscall CallControlStripController::OnActiveControlChanged(void)` | 185 | Exported Function
-`private: __thiscall AdjustVolumeController::AdjustVolumeController(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::MediaDeviceService>,class std::shared_ptr<class CSFUnified::TelephonyService>,class std::shared_ptr<class CSFUnified::ConfigService>)` | 17 | Exported Function
-`private: __thiscall AdmitMultiParticipantsController::AdmitMultiParticipantsController(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,struct IPluginRuntime *)` | 20 | Exported Function
-`private: __thiscall ActiveConferenceController::ActiveConferenceController(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::shared_ptr<class CSFUnified::TelephonyService>,struct IPluginRuntime *,void *)` | 15 | Exported Function
+`TelephonyConversation` | 327 | Exported Function
+`OnPopIn` | 248 | Exported Function
+`weak_ptr` | 295 | Exported Function
+`TelephonyConversation` | 325 | Exported Function
+`MergeConversation` | 184 | Exported Function
+`weak_ptr` | 296 | Exported Function
+`TelephonyConversation` | 329 | Exported Function
+`ConnectServices` | 113 | Exported Function
+`weak_ptr` | 297 | Exported Function
+`TelephonyConversation` | 328 | Exported Function
+`OnPopOut` | 249 | Exported Function
+`weak_ptr` | 293 | Exported Function
+`UpdateMutedByDefaultBalloonPosition` | 318 | Exported Function
+`UpdateOverlays` | 319 | Exported Function
+`shared_ptr` | 351 | Exported Function
+`allocator` | 349 | Exported Function
+`shared_ptr` | 350 | Exported Function
+`TelephonyConversation` | 324 | Exported Function
+`SendDtmfDigit` | 280 | Exported Function
+`SecureString` | 281 | Exported Function
+`OnCanSendDtmfChanged` | 192 | Exported Function
+`ConnectServices` | 111 | Exported Function
+`DisconnectServices` | 132 | Exported Function
+`OnParticipantAdmitCapabilityChanged` | 235 | Exported Function
+`ConnectServices` | 112 | Exported Function
+`TelephonyConversation` | 330 | Exported Function
+`OnTransferClicked` | 266 | Exported Function
+`weak_ptr` | 298 | Exported Function
+`DisconnectBindings` | 126 | Exported Function
+`weak_ptr` | 294 | Exported Function
+`TelephonyConversation` | 326 | Exported Function
+`OnLeaveMeeting` | 224 | Exported Function
+`DisconnectServices` | 133 | Exported Function
+`OnEndMeeting` | 210 | Exported Function
+`OnStopRecord` | 257 | Exported Function
+`OnConferenceClick` | 195 | Exported Function
+`OnConferenceLockClick` | 197 | Exported Function
+`InitBindings` | 168 | Exported Function
+`DisconnectBindings` | 127 | Exported Function
+`DisconnectServices` | 134 | Exported Function
+`OnConferenceRecordClick` | 202 | Exported Function
+`OnParkClick` | 230 | Exported Function
+`OnPauseResumeRecord` | 247 | Exported Function
+`OnMergeClick` | 227 | Exported Function
+`OnCopyClick` | 205 | Exported Function
+`OnHoldClick` | 212 | Exported Function
+`DisplayStartStopVideoView` | 138 | Exported Function
+`EnableShareButton` | 140 | Exported Function
+`DisplaySecondaryMenu` | 137 | Exported Function
+`DisplayDialPad` | 135 | Exported Function
+`DisplayLeaveMeetingView` | 136 | Exported Function
+`InitBindings` | 167 | Exported Function
+`OnChar` | 194 | Exported Function
+`OnDestroy` | 206 | Exported Function
+`OnCanSendDtmfChanged` | 191 | Exported Function
+`allocator` | 181 | Exported Function
+`allocator` | 182 | Exported Function
+`DisconnectServices` | 131 | Exported Function
+`weak_ptr` | 290 | Exported Function
+`TelephonyConversation` | 322 | Exported Function
+`OnVolumeChanged` | 268 | Exported Function
+`OnTrackBarChange` | 265 | Exported Function
+`OnVolumeAdjust` | 267 | Exported Function
+`ConnectServices` | 109 | Exported Function
+`ConnectServices` | 110 | Exported Function
+`DisconnectBindings` | 125 | Exported Function
+`TelephonyConversation` | 323 | Exported Function
+`DisconnectServices` | 130 | Exported Function
+`weak_ptr` | 291 | Exported Function
+`ShowCopiedBoard` | 304 | Exported Function
+`ShowDialPad` | 305 | Exported Function
+`shared_ptr` | 292 | Exported Function
+`SetShareButtonEnabled` | 287 | Exported Function
+`SetStartStopVideoButtonState` | 288 | Exported Function
+`ShowLeaveMeetingView` | 306 | Exported Function
+`ShowSecondaryMenu` | 310 | Exported Function
+`ShowStartStopVideoView` | 311 | Exported Function
+`ShowRecordBalloon` | 309 | Exported Function
+`ShowMutedByDefaultBalloon` | 307 | Exported Function
+`ShowMutedByServerBalloon` | 308 | Exported Function
+`SetPopups` | 286 | Exported Function
+`OnMoreClick` | 228 | Exported Function
+`OnMuteAudioClick` | 229 | Exported Function
+`OnInit` | 213 | Exported Function
+`OnDialpadClick` | 207 | Exported Function
+`OnEndCallClick` | 209 | Exported Function
+`OnRemoteVideoActiveChanged` | 255 | Exported Function
+`SendViewMessage` | 282 | Exported Function
+`SetFocus` | 285 | Exported Function
+`ReorderCallstrip` | 277 | Exported Function
+`OnShareClick` | 256 | Exported Function
+`OnSwitchViewClick` | 258 | Exported Function
+`shared_from_this` | 346 | Exported Function
+`OnTelephonyControlHold` | 261 | Exported Function
+`OnTelephonyControlPopin` | 262 | Exported Function
+`OnTelephonyControlExitFullscreen` | 260 | Exported Function
+`TelephonyConversationParticipant` | 254 | Exported Function
+`OnTelephonyControlEnterFullscreen` | 259 | Exported Function
+`OnTelephonyControlPopout` | 263 | Exported Function
+`allocator` | 273 | Exported Function
+`TelephonyConversationParticipant` | 275 | Exported Function
+`TelephonyConversationParticipant` | 271 | Exported Function
+`OnTelephonyControlResume` | 264 | Exported Function
+`TelephonyConversationParticipant` | 269 | Exported Function
+`TelephonyConversationParticipant` | 253 | Exported Function
+`OnParticipantDropCapabilityChanged` | 238 | Exported Function
+`OnParticipantMuteCapabilityChanged` | 239 | Exported Function
+`TelephonyConversationParticipant` | 237 | Exported Function
+`OnParticipantAdmitCapabilityChanged` | 234 | Exported Function
+`TelephonyConversationParticipant` | 236 | Exported Function
+`TelephonyConversationParticipant` | 240 | Exported Function
+`TelephonyConversationParticipant` | 246 | Exported Function
+`TelephonyConversationParticipant` | 252 | Exported Function
+`TelephonyConversationParticipant` | 245 | Exported Function
+`TelephonyConversationParticipant` | 241 | Exported Function
+`TelephonyConversationParticipant` | 243 | Exported Function
+`ShareScreenRDP` | 302 | Exported Function
+`shared_ptr` | 312 | Exported Function
+`ShareScreenBFCP` | 301 | Exported Function
+`SetDialPadControlsEnabled` | 284 | Exported Function
+`ShareScreen` | 300 | Exported Function
+`StopAndDestroyMutedByDefaultBalloon` | 313 | Exported Function
+`function` | 102 | Exported Function
+`function` | 103 | Exported Function
+`OnCallStateChanged` | 188 | Exported Function
+`StopAndDestroyMutedByServerBalloon` | 314 | Exported Function
+`function` | 95 | Exported Function
+`ResetActiveControlAudioMuteBindings` | 278 | Exported Function
+`SetDeviceVolume` | 283 | Exported Function
+`HideCopiedBoard` | 164 | Exported Function
+`allocator` | 317 | Exported Function
+`TelephonyConversationParticipant` | 276 | Exported Function
+`SaveInvitedHistory` | 279 | Exported Function
+`HideMergeMenu` | 165 | Exported Function
+`OnIsLocalVideoActive` | 222 | Exported Function
+`OnLocalBFCPShareConversationChange` | 225 | Exported Function
+`OnHoldChanged` | 211 | Exported Function
+`HideRecordBalloon` | 166 | Exported Function
+`OnActiveControlChanged` | 185 | Exported Function
+`ConfigService` | 17 | Exported Function
+`TelephonyConversation` | 20 | Exported Function
+`TelephonyService` | 15 | Exported Function
 `DllRegisterServer` | 368 | Exported Function
 `DllUnregisterServer` | 369 | Exported Function
-`private: __thiscall DialpadController::DialpadController(class std::weak_ptr<class ITelephonyControlView>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 25 | Exported Function
-`private: __thiscall PopoutController::PopoutController(class std::weak_ptr<class ITelephonyControlView>,class std::weak_ptr<class ITelephonyControlMgr>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 37 | Exported Function
-`private: __thiscall SecondaryCallControlMenuController::SecondaryCallControlMenuController(class std::weak_ptr<class ITelephonyControlView>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::TelephonyService>,class std::shared_ptr<class CSFUnified::ConversationService>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 40 | Exported Function
-`private: __thiscall PopinController::PopinController(class std::weak_ptr<class ITelephonyControlView>,class std::weak_ptr<class ITelephonyControlMgr>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 34 | Exported Function
-`private: __thiscall LeaveMeetingViewController::LeaveMeetingViewController(class std::weak_ptr<class ITelephonyControlView>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::TelephonyService>,class std::shared_ptr<class CSFUnified::ConversationService>,class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 28 | Exported Function
-`private: __thiscall MergeMenuController::MergeMenuController(class std::weak_ptr<class ITelephonyControlView>,struct IPluginRuntime *,class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::shared_ptr<class CSFUnified::TelephonyService>)` | 31 | Exported Function
+`TelephonyConversation` | 25 | Exported Function
+`TelephonyConversation` | 37 | Exported Function
+`TelephonyConversation` | 40 | Exported Function
+`TelephonyConversation` | 34 | Exported Function
+`TelephonyConversation` | 28 | Exported Function
+`TelephonyService` | 31 | Exported Function
 `DllGetClassObject` | 367 | Exported Function
 `const CallControlStripController::``vftable'{for ``ICallControlStripController'}` | 88 | Exported Function
 `const CallControlStripController::``vftable'{for ``IShareSelectCallback'}` | 89 | Exported Function
@@ -280,121 +280,121 @@ Function Name | Ordinal | Type
 `const PopoutController::``vftable'` | 93 | Exported Function
 `const MergeMenuController::``vftable'` | 91 | Exported Function
 `const PopinController::``vftable'` | 92 | Exported Function
-`private: void __thiscall ActiveConferenceController::InsertInvitedHistory(void *)` | 170 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnInvitedParticipantNumberChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 216 | Exported Function
-`private: void __thiscall ActiveConferenceController::AddWaitInLobbyParticipant(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 101 | Exported Function
-`private: void __thiscall ActiveConferenceController::AddInvitedParticipantNotifier(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 97 | Exported Function
-`private: void __thiscall ActiveConferenceController::AddReinviteParticipantNotifier(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 100 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnInvitedParticipantSipuriChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 218 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantActiveSpeakerChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 231 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnParticipantAddCapabilityChanged(void)` | 232 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnLocalMuteChanged(void)` | 226 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnInvitedParticipantStatusChanged(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 219 | Exported Function
-`private: void __thiscall ActiveConferenceController::OnInvitedRemoteParticipantsChanged(bool,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >,class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> > > >,class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 221 | Exported Function
-`private: static int const CallControlStripController::MUTED_BALLOON_SHOW_DURATION` | 183 | Exported Function
-`private: bool __thiscall CallControlStripController::IsHostAloneInTheMeeting(void)` | 174 | Exported Function
-`private: bool __thiscall SecondaryCallControlMenuController::CopyMeetingLink(void)` | 114 | Exported Function
-`private: bool __thiscall CallControlStripController::GetIsSparkMessageMode(void)` | 155 | Exported Function
-`private: bool __thiscall ActiveConferenceController::IsParticipantInLobby(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 178 | Exported Function
-`private: bool __thiscall CallControlStripController::GetEnableSelectScreenShare(void)` | 147 | Exported Function
-`private: bool __thiscall SecondaryCallControlMenuController::GetCanConversationMerged(class std::shared_ptr<class CSFUnified::TelephonyConversation>)` | 141 | Exported Function
-`private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ActiveConferenceController::IsInInvitedHistory(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 175 | Exported Function
-`private: class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversation> > > > __thiscall MergeMenuController::GetConversationsPerLine(class std::shared_ptr<class std::vector<class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::allocator<class std::shared_ptr<class CSFUnified::TelephonyConversation> > > >,class std::shared_ptr<class CSFUnified::TelephonyLine>)` | 145 | Exported Function
-`private: class std::_Tree_iterator<class std::_Tree_val<struct std::_Tree_simple_types<struct std::pair<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> const ,struct InvitedParticipantBindingsStruct> > > > __thiscall ActiveConferenceController::IsExistInvitedParticipantNotifier(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 172 | Exported Function
-`private: bool __thiscall SecondaryCallControlMenuController::ShouldEnableCopyButton(void)` | 303 | Exported Function
-`private: class std::_Tree_iterator<class std::_Tree_val<struct std::_Tree_simple_types<struct std::pair<class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant> const ,class std::shared_ptr<class pluginutils::bindings::BasicListBinding<class CSFUnified::TelephonyConversationParticipant,struct CSFUnified::PropertyListNotifierTraits<class CSFUnified::TelephonyConversationParticipant> > > > > > > __thiscall ActiveConferenceController::IsExistReinviteParticipantNotifier(class std::shared_ptr<class CSFUnified::TelephonyConversationParticipant>)` | 173 | Exported Function
-`public: __thiscall SecondaryCallControlMenuController::SecondaryCallControlMenuController(class SecondaryCallControlMenuController &&)` | 41 | Exported Function
-`public: __thiscall SecondaryCallControlMenuController::SecondaryCallControlMenuController(class SecondaryCallControlMenuController const &)` | 42 | Exported Function
-`public: __thiscall PopoutController::PopoutController(class PopoutController const &)` | 39 | Exported Function
-`public: __thiscall PopinController::PopinController(class PopinController const &)` | 36 | Exported Function
-`public: __thiscall PopoutController::PopoutController(class PopoutController &&)` | 38 | Exported Function
-`public: class ActiveConferenceController & __thiscall ActiveConferenceController::operator=(class ActiveConferenceController const &)` | 67 | Exported Function
-`public: class AdmitMultiParticipantsController & __thiscall AdmitMultiParticipantsController::operator=(class AdmitMultiParticipantsController const &)` | 71 | Exported Function
-`public: class CallControlStripController & __thiscall CallControlStripController::operator=(class CallControlStripController const &)` | 72 | Exported Function
-`public: class AdmitMultiParticipantsController & __thiscall AdmitMultiParticipantsController::operator=(class AdmitMultiParticipantsController &&)` | 70 | Exported Function
-`public: class AdjustVolumeController & __thiscall AdjustVolumeController::operator=(class AdjustVolumeController &&)` | 68 | Exported Function
-`public: class AdjustVolumeController & __thiscall AdjustVolumeController::operator=(class AdjustVolumeController const &)` | 69 | Exported Function
-`public: __thiscall PopinController::PopinController(class PopinController &&)` | 35 | Exported Function
-`public: __thiscall CallControlStripController::CallControlStripController(class CallControlStripController const &)` | 24 | Exported Function
-`public: __thiscall DialpadController::DialpadController(class DialpadController &&)` | 26 | Exported Function
-`public: __thiscall AdmitMultiParticipantsController::AdmitMultiParticipantsController(class AdmitMultiParticipantsController const &)` | 22 | Exported Function
-`public: __thiscall AdjustVolumeController::AdjustVolumeController(class AdjustVolumeController const &)` | 19 | Exported Function
-`public: __thiscall AdmitMultiParticipantsController::AdmitMultiParticipantsController(class AdmitMultiParticipantsController &&)` | 21 | Exported Function
-`public: __thiscall DialpadController::DialpadController(class DialpadController const &)` | 27 | Exported Function
-`public: __thiscall MergeMenuController::MergeMenuController(class MergeMenuController &&)` | 32 | Exported Function
-`public: __thiscall MergeMenuController::MergeMenuController(class MergeMenuController const &)` | 33 | Exported Function
+`InsertInvitedHistory` | 170 | Exported Function
+`TelephonyConversationParticipant` | 216 | Exported Function
+`TelephonyConversationParticipant` | 101 | Exported Function
+`TelephonyConversationParticipant` | 97 | Exported Function
+`TelephonyConversationParticipant` | 100 | Exported Function
+`TelephonyConversationParticipant` | 218 | Exported Function
+`TelephonyConversationParticipant` | 231 | Exported Function
+`OnParticipantAddCapabilityChanged` | 232 | Exported Function
+`OnLocalMuteChanged` | 226 | Exported Function
+`TelephonyConversationParticipant` | 219 | Exported Function
+`TelephonyConversationParticipant` | 221 | Exported Function
+`MUTED_BALLOON_SHOW_DURATION` | 183 | Exported Function
+`IsHostAloneInTheMeeting` | 174 | Exported Function
+`CopyMeetingLink` | 114 | Exported Function
+`GetIsSparkMessageMode` | 155 | Exported Function
+`TelephonyConversationParticipant` | 178 | Exported Function
+`GetEnableSelectScreenShare` | 147 | Exported Function
+`TelephonyConversation` | 141 | Exported Function
+`TelephonyConversationParticipant` | 175 | Exported Function
+`TelephonyLine` | 145 | Exported Function
+`TelephonyConversationParticipant` | 172 | Exported Function
+`ShouldEnableCopyButton` | 303 | Exported Function
+`TelephonyConversationParticipant` | 173 | Exported Function
+`SecondaryCallControlMenuController` | 41 | Exported Function
+`SecondaryCallControlMenuController` | 42 | Exported Function
+`PopoutController` | 39 | Exported Function
+`PopinController` | 36 | Exported Function
+`PopoutController` | 38 | Exported Function
+`operator` | 67 | Exported Function
+`operator` | 71 | Exported Function
+`operator` | 72 | Exported Function
+`operator` | 70 | Exported Function
+`operator` | 68 | Exported Function
+`operator` | 69 | Exported Function
+`PopinController` | 35 | Exported Function
+`CallControlStripController` | 24 | Exported Function
+`DialpadController` | 26 | Exported Function
+`AdmitMultiParticipantsController` | 22 | Exported Function
+`AdjustVolumeController` | 19 | Exported Function
+`AdmitMultiParticipantsController` | 21 | Exported Function
+`DialpadController` | 27 | Exported Function
+`MergeMenuController` | 32 | Exported Function
+`MergeMenuController` | 33 | Exported Function
 `public: __thiscall LeaveMeetingViewController::~LeaveMeetingViewController(void)` | 55 | Exported Function
-`public: __thiscall LeaveMeetingViewController::LeaveMeetingViewController(class LeaveMeetingViewController &&)` | 29 | Exported Function
-`public: __thiscall LeaveMeetingViewController::LeaveMeetingViewController(class LeaveMeetingViewController const &)` | 30 | Exported Function
-`public: class std::shared_ptr<class AdjustVolumeController> __thiscall std::enable_shared_from_this<class AdjustVolumeController>::shared_from_this(void)` | 337 | Exported Function
-`public: class std::shared_ptr<class AdmitMultiParticipantsController const > __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::shared_from_this(void)const ` | 340 | Exported Function
-`public: class std::shared_ptr<class AdjustVolumeController const > __thiscall std::enable_shared_from_this<class AdjustVolumeController>::shared_from_this(void)const ` | 338 | Exported Function
-`public: class std::shared_ptr<class ActiveConferenceController const > __thiscall std::enable_shared_from_this<class ActiveConferenceController>::shared_from_this(void)const ` | 336 | Exported Function
-`public: class std::shared_ptr<class ActiveConferenceController> __thiscall std::enable_shared_from_this<class ActiveConferenceController>::shared_from_this(void)` | 335 | Exported Function
-`public: class std::shared_ptr<class AdmitMultiParticipantsController> __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::shared_from_this(void)` | 339 | Exported Function
-`public: class std::shared_ptr<class DialpadController const > __thiscall std::enable_shared_from_this<class DialpadController>::shared_from_this(void)const ` | 344 | Exported Function
-`public: class std::shared_ptr<class DialpadController> __thiscall std::enable_shared_from_this<class DialpadController>::shared_from_this(void)` | 343 | Exported Function
-`public: class std::shared_ptr<class CSFUnified::TelephonyConversation> __thiscall LeaveMeetingViewController::GetTelephonyConversation(void)` | 159 | Exported Function
-`public: class std::shared_ptr<class CallControlStripController const > __thiscall std::enable_shared_from_this<class CallControlStripController>::shared_from_this(void)const ` | 342 | Exported Function
-`public: class std::shared_ptr<class CallControlStripController> __thiscall std::enable_shared_from_this<class CallControlStripController>::shared_from_this(void)` | 341 | Exported Function
-`public: class SecondaryCallControlMenuController & __thiscall SecondaryCallControlMenuController::operator=(class SecondaryCallControlMenuController const &)` | 84 | Exported Function
-`public: class LeaveMeetingViewController & __thiscall LeaveMeetingViewController::operator=(class LeaveMeetingViewController const &)` | 76 | Exported Function
-`public: class MergeMenuController & __thiscall MergeMenuController::operator=(class MergeMenuController &&)` | 77 | Exported Function
-`public: class LeaveMeetingViewController & __thiscall LeaveMeetingViewController::operator=(class LeaveMeetingViewController &&)` | 75 | Exported Function
-`public: class DialpadController & __thiscall DialpadController::operator=(class DialpadController &&)` | 73 | Exported Function
-`public: class DialpadController & __thiscall DialpadController::operator=(class DialpadController const &)` | 74 | Exported Function
-`public: class MergeMenuController & __thiscall MergeMenuController::operator=(class MergeMenuController const &)` | 78 | Exported Function
-`public: class PopoutController & __thiscall PopoutController::operator=(class PopoutController const &)` | 82 | Exported Function
-`public: class SecondaryCallControlMenuController & __thiscall SecondaryCallControlMenuController::operator=(class SecondaryCallControlMenuController &&)` | 83 | Exported Function
-`public: class PopoutController & __thiscall PopoutController::operator=(class PopoutController &&)` | 81 | Exported Function
-`public: class PopinController & __thiscall PopinController::operator=(class PopinController &&)` | 79 | Exported Function
-`public: class PopinController & __thiscall PopinController::operator=(class PopinController const &)` | 80 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class ActiveConferenceController>::enable_shared_from_this<class ActiveConferenceController>(class std::enable_shared_from_this<class ActiveConferenceController> const &)` | 1 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class ActiveConferenceController>::enable_shared_from_this<class ActiveConferenceController>(void)` | 2 | Exported Function
-`protected: __thiscall CallControlStripController::CallControlStripController(class std::weak_ptr<class ITelephonyControlView>,class std::weak_ptr<class ITelephonyControlMgr>,class std::shared_ptr<class CSFUnified::TelephonyConversation>,class std::shared_ptr<class IBFCPShareService>,class std::shared_ptr<class CSFUnified::DesktopShareService>,struct IPluginRuntime *)` | 23 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnParticipantStatusChanged(void)` | 244 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::UpdatePauseState(void)` | 320 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class ActiveConferenceController>::~enable_shared_from_this<class ActiveConferenceController>(void)` | 43 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::enable_shared_from_this<class AdmitMultiParticipantsController>(class std::enable_shared_from_this<class AdmitMultiParticipantsController> const &)` | 5 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::enable_shared_from_this<class AdmitMultiParticipantsController>(void)` | 6 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class AdjustVolumeController>::~enable_shared_from_this<class AdjustVolumeController>(void)` | 44 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class AdjustVolumeController>::enable_shared_from_this<class AdjustVolumeController>(class std::enable_shared_from_this<class AdjustVolumeController> const &)` | 3 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class AdjustVolumeController>::enable_shared_from_this<class AdjustVolumeController>(void)` | 4 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnDirectoryNumberChanged(void)` | 208 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnCanRequestMeetingInfo(void)` | 190 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConferenceLockCapChanged(void)` | 196 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnCallStateChanged(void)` | 189 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnActiveControlChanged(void)` | 186 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnAssociationTypeChanged(void)` | 187 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConferenceLockStateChanged(void)` | 198 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConferenceRecordStateChanged(void)` | 203 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConversationRequestFailureReason(void)` | 204 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConferenceRecordCapChanged(void)` | 201 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConferencePauseCapChanged(void)` | 199 | Exported Function
-`private: void __thiscall SecondaryCallControlMenuController::OnConferencePauseStateChanged(void)` | 200 | Exported Function
-`protected: class std::enable_shared_from_this<class AdmitMultiParticipantsController> & __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::operator=(class std::enable_shared_from_this<class AdmitMultiParticipantsController> const &)` | 62 | Exported Function
-`protected: class std::enable_shared_from_this<class CallControlStripController> & __thiscall std::enable_shared_from_this<class CallControlStripController>::operator=(class std::enable_shared_from_this<class CallControlStripController> const &)` | 63 | Exported Function
-`protected: class std::enable_shared_from_this<class AdjustVolumeController> & __thiscall std::enable_shared_from_this<class AdjustVolumeController>::operator=(class std::enable_shared_from_this<class AdjustVolumeController> const &)` | 61 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::~enable_shared_from_this<class SecondaryCallControlMenuController>(void)` | 49 | Exported Function
-`protected: class std::enable_shared_from_this<class ActiveConferenceController> & __thiscall std::enable_shared_from_this<class ActiveConferenceController>::operator=(class std::enable_shared_from_this<class ActiveConferenceController> const &)` | 60 | Exported Function
-`protected: class std::enable_shared_from_this<class DialpadController> & __thiscall std::enable_shared_from_this<class DialpadController>::operator=(class std::enable_shared_from_this<class DialpadController> const &)` | 64 | Exported Function
-`public: __thiscall ActiveConferenceController::ActiveConferenceController(class ActiveConferenceController const &)` | 16 | Exported Function
-`public: __thiscall AdjustVolumeController::AdjustVolumeController(class AdjustVolumeController &&)` | 18 | Exported Function
-`protected: virtual void __thiscall CallControlStripController::OnCanUpdateVideoChanged(void)` | 193 | Exported Function
-`protected: class std::enable_shared_from_this<class LeaveMeetingViewController> & __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::operator=(class std::enable_shared_from_this<class LeaveMeetingViewController> const &)` | 65 | Exported Function
-`protected: class std::enable_shared_from_this<class SecondaryCallControlMenuController> & __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::operator=(class std::enable_shared_from_this<class SecondaryCallControlMenuController> const &)` | 66 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::enable_shared_from_this<class SecondaryCallControlMenuController>(void)` | 14 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CallControlStripController>::~enable_shared_from_this<class CallControlStripController>(void)` | 46 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class DialpadController>::enable_shared_from_this<class DialpadController>(class std::enable_shared_from_this<class DialpadController> const &)` | 9 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CallControlStripController>::enable_shared_from_this<class CallControlStripController>(void)` | 8 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class AdmitMultiParticipantsController>::~enable_shared_from_this<class AdmitMultiParticipantsController>(void)` | 45 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class CallControlStripController>::enable_shared_from_this<class CallControlStripController>(class std::enable_shared_from_this<class CallControlStripController> const &)` | 7 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class DialpadController>::enable_shared_from_this<class DialpadController>(void)` | 10 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::~enable_shared_from_this<class LeaveMeetingViewController>(void)` | 48 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class SecondaryCallControlMenuController>::enable_shared_from_this<class SecondaryCallControlMenuController>(class std::enable_shared_from_this<class SecondaryCallControlMenuController> const &)` | 13 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::enable_shared_from_this<class LeaveMeetingViewController>(void)` | 12 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class DialpadController>::~enable_shared_from_this<class DialpadController>(void)` | 47 | Exported Function
-`protected: __thiscall std::enable_shared_from_this<class LeaveMeetingViewController>::enable_shared_from_this<class LeaveMeetingViewController>(class std::enable_shared_from_this<class LeaveMeetingViewController> const &)` | 11 | Exported Function
+`LeaveMeetingViewController` | 29 | Exported Function
+`LeaveMeetingViewController` | 30 | Exported Function
+`shared_from_this` | 337 | Exported Function
+`shared_from_this` | 340 | Exported Function
+`shared_from_this` | 338 | Exported Function
+`shared_from_this` | 336 | Exported Function
+`shared_from_this` | 335 | Exported Function
+`shared_from_this` | 339 | Exported Function
+`shared_from_this` | 344 | Exported Function
+`shared_from_this` | 343 | Exported Function
+`GetTelephonyConversation` | 159 | Exported Function
+`shared_from_this` | 342 | Exported Function
+`shared_from_this` | 341 | Exported Function
+`operator` | 84 | Exported Function
+`operator` | 76 | Exported Function
+`operator` | 77 | Exported Function
+`operator` | 75 | Exported Function
+`operator` | 73 | Exported Function
+`operator` | 74 | Exported Function
+`operator` | 78 | Exported Function
+`operator` | 82 | Exported Function
+`operator` | 83 | Exported Function
+`operator` | 81 | Exported Function
+`operator` | 79 | Exported Function
+`operator` | 80 | Exported Function
+`enable_shared_from_this` | 1 | Exported Function
+`enable_shared_from_this` | 2 | Exported Function
+`DesktopShareService` | 23 | Exported Function
+`OnParticipantStatusChanged` | 244 | Exported Function
+`UpdatePauseState` | 320 | Exported Function
+`enable_shared_from_this` | 43 | Exported Function
+`enable_shared_from_this` | 5 | Exported Function
+`enable_shared_from_this` | 6 | Exported Function
+`enable_shared_from_this` | 44 | Exported Function
+`enable_shared_from_this` | 3 | Exported Function
+`enable_shared_from_this` | 4 | Exported Function
+`OnDirectoryNumberChanged` | 208 | Exported Function
+`OnCanRequestMeetingInfo` | 190 | Exported Function
+`OnConferenceLockCapChanged` | 196 | Exported Function
+`OnCallStateChanged` | 189 | Exported Function
+`OnActiveControlChanged` | 186 | Exported Function
+`OnAssociationTypeChanged` | 187 | Exported Function
+`OnConferenceLockStateChanged` | 198 | Exported Function
+`OnConferenceRecordStateChanged` | 203 | Exported Function
+`OnConversationRequestFailureReason` | 204 | Exported Function
+`OnConferenceRecordCapChanged` | 201 | Exported Function
+`OnConferencePauseCapChanged` | 199 | Exported Function
+`OnConferencePauseStateChanged` | 200 | Exported Function
+`enable_shared_from_this` | 62 | Exported Function
+`enable_shared_from_this` | 63 | Exported Function
+`enable_shared_from_this` | 61 | Exported Function
+`enable_shared_from_this` | 49 | Exported Function
+`enable_shared_from_this` | 60 | Exported Function
+`enable_shared_from_this` | 64 | Exported Function
+`ActiveConferenceController` | 16 | Exported Function
+`AdjustVolumeController` | 18 | Exported Function
+`OnCanUpdateVideoChanged` | 193 | Exported Function
+`enable_shared_from_this` | 65 | Exported Function
+`enable_shared_from_this` | 66 | Exported Function
+`enable_shared_from_this` | 14 | Exported Function
+`enable_shared_from_this` | 46 | Exported Function
+`enable_shared_from_this` | 9 | Exported Function
+`enable_shared_from_this` | 8 | Exported Function
+`enable_shared_from_this` | 45 | Exported Function
+`enable_shared_from_this` | 7 | Exported Function
+`enable_shared_from_this` | 10 | Exported Function
+`enable_shared_from_this` | 48 | Exported Function
+`enable_shared_from_this` | 13 | Exported Function
+`enable_shared_from_this` | 12 | Exported Function
+`enable_shared_from_this` | 47 | Exported Function
+`enable_shared_from_this` | 11 | Exported Function
 
 
 ## Signature

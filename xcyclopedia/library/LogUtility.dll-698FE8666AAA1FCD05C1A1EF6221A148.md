@@ -26,15 +26,15 @@ PE256 | `FD56D3C6FD41C20425AA507501A435D7AE60F692574C7F926FF34C4531667CAE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: void __thiscall SecomLogManager::CLogManager::writeLog(enum SecomLogManager::LogTypes,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 9 | Exported Function
-`public: void __thiscall SecomLogManager::CLogManager::resetLogManager(void)` | 6 | Exported Function
-`public: void __thiscall SecomLogManager::CLogManagerOptions::setLogEnableStatus(bool)` | 8 | Exported Function
-`public: void __thiscall SecomLogManager::CLogManagerOptions::setCustomLogFolder(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 7 | Exported Function
-`public: static class std::shared_ptr<class SecomLogManager::CLogManagerOptions> __cdecl SecomLogManager::CLogManagerOptions::getInstance(void)` | 4 | Exported Function
-`public: __thiscall SecomLogManager::CLogManager::~CLogManager(void)` | 2 | Exported Function
-`public: __thiscall SecomLogManager::CLogManager::CLogManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 1 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SecomLogManager::CLogManagerOptions::getCustomLogFolder(void)` | 3 | Exported Function
-`public: bool __thiscall SecomLogManager::CLogManagerOptions::getLogEnableStatus(void)` | 5 | Exported Function
+`allocator` | 9 | Exported Function
+`resetLogManager` | 6 | Exported Function
+`setLogEnableStatus` | 8 | Exported Function
+`allocator` | 7 | Exported Function
+`getInstance` | 4 | Exported Function
+`CLogManager` | 2 | Exported Function
+`allocator` | 1 | Exported Function
+`getCustomLogFolder` | 3 | Exported Function
+`getLogEnableStatus` | 5 | Exported Function
 
 
 ## Signature

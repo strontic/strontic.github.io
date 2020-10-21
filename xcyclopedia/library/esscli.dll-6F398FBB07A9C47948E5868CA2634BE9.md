@@ -26,111 +26,111 @@ PE256 | `B267A5E43686E25C05C7A5CB97E723DAF9096251C8C3DDF5970B013AF2820ABE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static int __stdcall CQueryAnalyser::CompareRequestedToProvided(class CClassInfoArray &,class CClassInfoArray &)` | 83 | Exported Function
-`public: static int __stdcall CEvalTree::Compare(class CEvalNode *,class CEvalNode *)` | 81 | Exported Function
-`public: static long __stdcall CEvalTree::BuildFromToken(class CContextMetaData *,class CImplicationList &,struct QL_LEVEL_1_TOKEN &,class CEvalNode * *)` | 68 | Exported Function
-`public: static long __stdcall CEvalTree::Combine(class CEvalNode *,class CEvalNode *,int,class CContextMetaData *,class CImplicationList &,bool,bool,class CEvalNode * *)` | 78 | Exported Function
-`public: static long __stdcall CEvalTree::BuildTwoPropFromToken(class CContextMetaData *,class CImplicationList &,struct QL_LEVEL_1_TOKEN &,class CEvalNode * *)` | 69 | Exported Function
-`public: static bool __stdcall CEvalNode::IsInvalid(class CEvalNode *)` | 124 | Exported Function
-`public: static bool __stdcall CEvalNode::IsAllFalse(class CEvalNode *)` | 120 | Exported Function
-`public: static bool __stdcall CEvalNode::IsNoop(class CEvalNode *,int)` | 128 | Exported Function
-`public: static int __stdcall CEvalNode::GetType(class CEvalNode *)` | 117 | Exported Function
-`public: static class CEvalNode * __stdcall CEvalNode::CloneNode(class CEvalNode const *)` | 77 | Exported Function
-`public: static long __stdcall CEvalTree::CreateFromConjunction(class CContextMetaData *,class CImplicationList &,class CConjunction *,class CEvalNode * *)` | 87 | Exported Function
-`public: static long __stdcall CQueryAnalyser::GetNecessaryQueryForClass(struct QL_LEVEL_1_RPN_EXPRESSION *,struct IWbemClassObject *,class CWStringArray &,struct QL_LEVEL_1_RPN_EXPRESSION * &)` | 111 | Exported Function
-`public: static long __stdcall CQueryAnalyser::GetLimitingQueryForInstanceClass(struct QL_LEVEL_1_RPN_EXPRESSION *,struct CClassInformation &,unsigned short * &)` | 110 | Exported Function
-`public: static long __stdcall CQueryAnalyser::GetNecessaryQueryForProperty(struct QL_LEVEL_1_RPN_EXPRESSION *,class CPropertyName &,struct QL_LEVEL_1_RPN_EXPRESSION * &)` | 112 | Exported Function
-`public: static long __stdcall CQueryAnalyser::SimplifyQueryForChild(struct QL_LEVEL_1_RPN_EXPRESSION *,unsigned short const *,struct IWbemClassObject *,class CContextMetaData *,struct QL_LEVEL_1_RPN_EXPRESSION * &)` | 160 | Exported Function
-`public: static long __stdcall CQueryAnalyser::GetPossibleInstanceClasses(struct QL_LEVEL_1_RPN_EXPRESSION *,class CClassInfoArray * &)` | 115 | Exported Function
-`public: static long __stdcall CEvalTree::IsMergeAdvisable(class CEvalNode *,class CEvalNode *,class CImplicationList &)` | 127 | Exported Function
-`public: static long __stdcall CEvalTree::Evaluate(class CObjectInfo &,class CEvalNode *,class CSortedArray &)` | 96 | Exported Function
-`public: static long __stdcall CEvalTree::Project(class CContextMetaData *,class CImplicationList &,class CEvalNode *,class CProjectionFilter *,enum EProjectionType,bool,class CEvalNode * *)` | 145 | Exported Function
-`public: static long __stdcall CQueryAnalyser::GetDefiniteInstanceClasses(struct QL_LEVEL_1_RPN_EXPRESSION *,class CClassInfoArray * &)` | 107 | Exported Function
-`public: static long __stdcall CQueryAnalyser::CanPointToClass(struct IWbemClassObject *,unsigned short const *,unsigned short const *,class CContextMetaData *)` | 70 | Exported Function
-`public: long __thiscall CEvalTree::CombineWith(class CEvalTree &,class CContextMetaData *,int,long)` | 80 | Exported Function
-`public: long __thiscall CEvalTree::ApplyPredicate(class CLeafPredicate *)` | 67 | Exported Function
-`public: long __thiscall CEvalTree::CreateFromDNF(class CContextMetaData *,class CImplicationList &,class CDNFExpression *,class CEvalNode * *)` | 88 | Exported Function
-`public: long __thiscall CEvalTree::CreateFromQuery(class CContextMetaData *,unsigned short const *,int,struct QL_LEVEL_1_TOKEN *,long,long)` | 90 | Exported Function
-`public: long __thiscall CEvalTree::CreateFromQuery(class CContextMetaData *,struct QL_LEVEL_1_RPN_EXPRESSION *,long,long)` | 89 | Exported Function
-`public: int __thiscall CSortedArray::Add(unsigned long)` | 55 | Exported Function
-`public: int __thiscall CClassInfoArray::IsLimited(void)` | 126 | Exported Function
-`public: int __thiscall CSortedArray::Compare(class CSortedArray &)` | 82 | Exported Function
-`public: long __thiscall CContextMetaData::GetClass(unsigned short const *,struct _IWmiObject * *)` | 104 | Exported Function
-`public: int __thiscall CSortedArray::Size(void)const ` | 162 | Exported Function
-`public: long __thiscall CEvalTree::CreateFromQuery(class CContextMetaData *,unsigned short const *,long,long)` | 91 | Exported Function
-`public: long __thiscall CSortedArray::AddDataFrom(class CSortedArray const &)` | 57 | Exported Function
-`public: long __thiscall CObjectInfo::GetLength(void)` | 109 | Exported Function
-`public: long __thiscall CSortedArray::AddDataFrom(unsigned long const *,unsigned int)` | 58 | Exported Function
-`public: long __thiscall CSortedArray::CopyDataFrom(unsigned long const *,unsigned int)` | 85 | Exported Function
-`public: long __thiscall CSortedArray::CopyDataFrom(class CSortedArray const &)` | 84 | Exported Function
-`public: long __thiscall CEvalTree::Evaluate(struct IWbemObjectAccess *,class CSortedArray &)` | 95 | Exported Function
-`public: long __thiscall CEvalTree::CreateProjection(class CEvalTree &,class CContextMetaData *,class CProjectionFilter *,enum EProjectionType,bool)` | 92 | Exported Function
-`public: long __thiscall CEvalTree::Optimize(class CContextMetaData *)` | 140 | Exported Function
-`public: long __thiscall CEvalTree::UtilizeGuarantee(class CEvalTree &,class CContextMetaData *)` | 164 | Exported Function
-`public: long __thiscall CEvalTree::RemoveIndex(int)` | 152 | Exported Function
-`public: void __thiscall CEvalTree::operator=(class CEvalTree const &)` | 38 | Exported Function
-`public: void __thiscall CClassInfoArray::SetLimited(int)` | 156 | Exported Function
-`public: void __thiscall CEvalTree::Rebase(unsigned long)` | 147 | Exported Function
-`public: void __thiscall CObjectInfo::SetObjectAt(long,struct _IWmiObject *)` | 157 | Exported Function
-`public: void __thiscall CObjectInfo::Clear(void)` | 73 | Exported Function
-`public: void * __thiscall CReuseMemoryManager::Allocate(void)` | 61 | Exported Function
-`public: virtual unsigned long __stdcall CMetaData::Release(void)` | 149 | Exported Function
-`public: void * __thiscall CTempMemoryManager::Allocate(unsigned int)` | 62 | Exported Function
-`public: void __thiscall CClassInfoArray::RemoveClass(int)` | 151 | Exported Function
-`public: void __thiscall CClassInfoArray::Clear(void)` | 71 | Exported Function
-`public: void __thiscall CReuseMemoryManager::Clear(void)` | 74 | Exported Function
-`public: void __thiscall CSortedArray::SetSize(int)` | 159 | Exported Function
-`public: void __thiscall CSortedArray::Rebase(unsigned long)` | 148 | Exported Function
-`public: void __thiscall CStandardMetaData::Clear(void)` | 75 | Exported Function
-`public: void __thiscall CTempMemoryManager::Free(void *,unsigned int)` | 99 | Exported Function
-`public: void __thiscall CTempMemoryManager::Clear(void)` | 76 | Exported Function
+`CompareRequestedToProvided` | 83 | Exported Function
+`Compare` | 81 | Exported Function
+`BuildFromToken` | 68 | Exported Function
+`Combine` | 78 | Exported Function
+`BuildTwoPropFromToken` | 69 | Exported Function
+`IsInvalid` | 124 | Exported Function
+`IsAllFalse` | 120 | Exported Function
+`IsNoop` | 128 | Exported Function
+`GetType` | 117 | Exported Function
+`CloneNode` | 77 | Exported Function
+`CreateFromConjunction` | 87 | Exported Function
+`GetNecessaryQueryForClass` | 111 | Exported Function
+`GetLimitingQueryForInstanceClass` | 110 | Exported Function
+`GetNecessaryQueryForProperty` | 112 | Exported Function
+`SimplifyQueryForChild` | 160 | Exported Function
+`GetPossibleInstanceClasses` | 115 | Exported Function
+`IsMergeAdvisable` | 127 | Exported Function
+`Evaluate` | 96 | Exported Function
+`Project` | 145 | Exported Function
+`GetDefiniteInstanceClasses` | 107 | Exported Function
+`CanPointToClass` | 70 | Exported Function
+`CombineWith` | 80 | Exported Function
+`ApplyPredicate` | 67 | Exported Function
+`CreateFromDNF` | 88 | Exported Function
+`CreateFromQuery` | 90 | Exported Function
+`CreateFromQuery` | 89 | Exported Function
+`Add` | 55 | Exported Function
+`IsLimited` | 126 | Exported Function
+`Compare` | 82 | Exported Function
+`GetClass` | 104 | Exported Function
+`Size` | 162 | Exported Function
+`CreateFromQuery` | 91 | Exported Function
+`AddDataFrom` | 57 | Exported Function
+`GetLength` | 109 | Exported Function
+`AddDataFrom` | 58 | Exported Function
+`CopyDataFrom` | 85 | Exported Function
+`CopyDataFrom` | 84 | Exported Function
+`Evaluate` | 95 | Exported Function
+`CreateProjection` | 92 | Exported Function
+`Optimize` | 140 | Exported Function
+`UtilizeGuarantee` | 164 | Exported Function
+`RemoveIndex` | 152 | Exported Function
+`operator` | 38 | Exported Function
+`SetLimited` | 156 | Exported Function
+`Rebase` | 147 | Exported Function
+`SetObjectAt` | 157 | Exported Function
+`Clear` | 73 | Exported Function
+`Allocate` | 61 | Exported Function
+`Release` | 149 | Exported Function
+`Allocate` | 62 | Exported Function
+`RemoveClass` | 151 | Exported Function
+`Clear` | 71 | Exported Function
+`Clear` | 74 | Exported Function
+`SetSize` | 159 | Exported Function
+`Rebase` | 148 | Exported Function
+`Clear` | 75 | Exported Function
+`Free` | 99 | Exported Function
+`Clear` | 76 | Exported Function
 `public: void __thiscall CSortedArray::``default constructor closure'(void)` | 54 | Exported Function
-`public: void __thiscall CReuseMemoryManager::Free(void *)` | 98 | Exported Function
-`public: void __thiscall CSortedArray::Empty(void)` | 94 | Exported Function
-`public: void __thiscall CSortedArray::operator=(class CSortedArray const &)` | 45 | Exported Function
-`public: void __thiscall CSortedArray::Insert(unsigned long)` | 119 | Exported Function
-`public: unsigned long * __thiscall CSortedArray::GetArrayPtr(void)` | 101 | Exported Function
-`public: unsigned int __thiscall CSortedArray::Find(unsigned long)` | 97 | Exported Function
-`public: unsigned long * __thiscall CSortedArray::UnbindPtr(void)` | 163 | Exported Function
+`Free` | 98 | Exported Function
+`Empty` | 94 | Exported Function
+`operator` | 45 | Exported Function
+`Insert` | 119 | Exported Function
+`GetArrayPtr` | 101 | Exported Function
+`Find` | 97 | Exported Function
+`UnbindPtr` | 163 | Exported Function
 `public: virtual __thiscall CEvalNode::~CEvalNode(void)` | 25 | Exported Function
-`public: unsigned long __thiscall CSortedArray::GetAt(int)` | 102 | Exported Function
-`public: struct _IWmiObject * __thiscall CObjectInfo::GetObjectAt(long)` | 114 | Exported Function
-`public: static void __stdcall CEvalNode::PrintOffset(struct _iobuf *,int)` | 144 | Exported Function
-`public: struct CClassInformation & __thiscall CClassInformation::operator=(struct CClassInformation const &)` | 36 | Exported Function
-`public: unsigned int __thiscall CSortedArray::CopyTo(unsigned long *,unsigned int)` | 86 | Exported Function
-`public: struct CClassInformation * __thiscall CClassInfoArray::GetClass(int)` | 103 | Exported Function
+`GetAt` | 102 | Exported Function
+`GetObjectAt` | 114 | Exported Function
+`PrintOffset` | 144 | Exported Function
+`operator` | 36 | Exported Function
+`CopyTo` | 86 | Exported Function
+`GetClass` | 103 | Exported Function
 `public: virtual __thiscall CMetaData::~CMetaData(void)` | 27 | Exported Function
-`public: virtual long __stdcall CMetaData::QueryInterface(struct _GUID const &,void * *)` | 146 | Exported Function
-`public: virtual long __stdcall CMetaData::GetClass(unsigned short const *,struct IWbemContext *,struct IWbemClassObject * *)` | 105 | Exported Function
-`public: virtual long __thiscall CEvalNode::Optimize(class CContextMetaData *,class CEvalNode * *)` | 139 | Exported Function
-`public: virtual unsigned long __stdcall CMetaData::AddRef(void)` | 60 | Exported Function
-`public: virtual long __thiscall CStandardMetaData::GetClass(unsigned short const *,struct IWbemContext *,struct _IWmiObject * *)` | 106 | Exported Function
-`public: virtual bool __thiscall CEvalNode::IsAllFalse(void)` | 121 | Exported Function
+`QueryInterface` | 146 | Exported Function
+`GetClass` | 105 | Exported Function
+`Optimize` | 139 | Exported Function
+`AddRef` | 60 | Exported Function
+`GetClass` | 106 | Exported Function
+`IsAllFalse` | 121 | Exported Function
 `public: virtual __thiscall CStandardMetaData::~CStandardMetaData(void)` | 32 | Exported Function
-`public: virtual bool __thiscall CEvalNode::IsInvalid(void)` | 125 | Exported Function
-`public: virtual bool __thiscall CPropertyProjectionFilter::IsInSet(class CEvalNode *)` | 123 | Exported Function
-`public: virtual bool __thiscall CEvalNode::IsNoop(int)` | 129 | Exported Function
-`public: int __thiscall CClassInfoArray::GetNumClasses(void)` | 113 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::OrPossibleClassArrays(class CClassInfoArray *,class CClassInfoArray *,class CClassInfoArray *)` | 142 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::OrDefiniteClassArrays(class CClassInfoArray *,class CClassInfoArray *,class CClassInfoArray *)` | 141 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::OrQueryExpressions(struct QL_LEVEL_1_RPN_EXPRESSION *,struct QL_LEVEL_1_RPN_EXPRESSION *,struct QL_LEVEL_1_RPN_EXPRESSION *)` | 143 | Exported Function
-`protected: unsigned int __thiscall CTempMemoryManager::RoundUp(unsigned int)` | 153 | Exported Function
-`protected: static void __stdcall CQueryAnalyser::AppendQueryExpression(struct QL_LEVEL_1_RPN_EXPRESSION *,struct QL_LEVEL_1_RPN_EXPRESSION *)` | 66 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::GetPropertiesThatMustDiffer(struct QL_LEVEL_1_RPN_EXPRESSION *,struct CClassInformation &,class CWStringArray &)` | 116 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::GetInstanceClasses(struct QL_LEVEL_1_TOKEN &,class CClassInfoArray &)` | 108 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::NegateDefiniteClassArray(class CClassInfoArray *,class CClassInfoArray *)` | 136 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::NegateQueryExpression(struct QL_LEVEL_1_RPN_EXPRESSION *,struct QL_LEVEL_1_RPN_EXPRESSION *)` | 138 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::NegatePossibleClassArray(class CClassInfoArray *,class CClassInfoArray *)` | 137 | Exported Function
-`public: __thiscall CClassInfoArray::CClassInfoArray(void)` | 1 | Exported Function
-`public: __thiscall CEvalNode::CEvalNode(class CEvalNode const &)` | 5 | Exported Function
+`IsInvalid` | 125 | Exported Function
+`IsInSet` | 123 | Exported Function
+`IsNoop` | 129 | Exported Function
+`GetNumClasses` | 113 | Exported Function
+`OrPossibleClassArrays` | 142 | Exported Function
+`OrDefiniteClassArrays` | 141 | Exported Function
+`OrQueryExpressions` | 143 | Exported Function
+`RoundUp` | 153 | Exported Function
+`AppendQueryExpression` | 66 | Exported Function
+`GetPropertiesThatMustDiffer` | 116 | Exported Function
+`GetInstanceClasses` | 108 | Exported Function
+`NegateDefiniteClassArray` | 136 | Exported Function
+`NegateQueryExpression` | 138 | Exported Function
+`NegatePossibleClassArray` | 137 | Exported Function
+`CClassInfoArray` | 1 | Exported Function
+`CEvalNode` | 5 | Exported Function
 `public: __thiscall CContextMetaData::~CContextMetaData(void)` | 24 | Exported Function
-`public: __thiscall CEvalNode::CEvalNode(void)` | 6 | Exported Function
-`public: __thiscall CEvalTree::CEvalTree(void)` | 8 | Exported Function
-`public: __thiscall CEvalTree::CEvalTree(class CEvalTree const &)` | 7 | Exported Function
-`public: __thiscall CClassInformation::CClassInformation(struct CClassInformation const &)` | 2 | Exported Function
+`CEvalNode` | 6 | Exported Function
+`CEvalTree` | 8 | Exported Function
+`CEvalTree` | 7 | Exported Function
+`CClassInformation` | 2 | Exported Function
 `public: __thiscall CClassInfoArray::~CClassInfoArray(void)` | 22 | Exported Function
-`public: __thiscall CClassInformation::CClassInformation(void)` | 3 | Exported Function
-`public: __thiscall CContextMetaData::CContextMetaData(class CMetaData *,struct IWbemContext *)` | 4 | Exported Function
+`CClassInformation` | 3 | Exported Function
+`CContextMetaData` | 4 | Exported Function
 `public: __thiscall CClassInformation::~CClassInformation(void)` | 23 | Exported Function
 `DllRegisterServer` | 168 | Exported Function
 `DllGetClassObject` | 167 | Exported Function
@@ -143,58 +143,58 @@ Function Name | Ordinal | Type
 `DllCanUnloadNow` | 166 | Exported Function
 `const CStandardMetaData::``vftable'` | 53 | Exported Function
 `IsUserInGroup` | 134 | Exported Function
-`protected: static long __stdcall CEvalTree::InnerCombine(class CEvalNode *,class CEvalNode *,int,class CContextMetaData *,class CImplicationList &,bool,bool,class CEvalNode * *)` | 118 | Exported Function
-`protected: static long __stdcall CEvalTree::CombineLeafWithBranch(class CValueNode *,class CBranchingNode *,int,class CContextMetaData *,class CImplicationList &,bool,bool,class CEvalNode * *)` | 79 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::AndDefiniteClassArrays(class CClassInfoArray *,class CClassInfoArray *,class CClassInfoArray *)` | 63 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::AndQueryExpressions(struct QL_LEVEL_1_RPN_EXPRESSION *,struct QL_LEVEL_1_RPN_EXPRESSION *,struct QL_LEVEL_1_RPN_EXPRESSION *)` | 65 | Exported Function
-`protected: static long __stdcall CQueryAnalyser::AndPossibleClassArrays(class CClassInfoArray *,class CClassInfoArray *,class CClassInfoArray *)` | 64 | Exported Function
-`protected: static int __stdcall CQueryAnalyser::IsTokenAboutClass(struct QL_LEVEL_1_TOKEN &,struct IWbemClassObject *,class CWStringArray &)` | 131 | Exported Function
-`protected: static int __stdcall CQueryAnalyser::IsPropertyInClass(class CPropertyName &,struct IWbemClassObject *,class CWStringArray &)` | 130 | Exported Function
-`protected: static int __stdcall CQueryAnalyser::IsTokenAboutProperty(struct QL_LEVEL_1_TOKEN &,class CPropertyName &)` | 132 | Exported Function
-`protected: static int __stdcall CQueryAnalyser::ValidateSQLDateTime(unsigned short const *)` | 165 | Exported Function
-`protected: static int __stdcall CQueryAnalyser::SimplifyTokenForChild(struct QL_LEVEL_1_TOKEN &,unsigned short const *,struct IWbemClassObject *,class CContextMetaData *)` | 161 | Exported Function
-`public: bool __thiscall CObjectInfo::SetLength(long)` | 155 | Exported Function
-`public: bool __thiscall CEvalTree::SetBool(int)` | 154 | Exported Function
-`public: bool __thiscall CPropertyProjectionFilter::AddProperty(class CPropertyName const &)` | 59 | Exported Function
-`public: bool __thiscall CTimeKeeper::DecorateObject(struct _IWmiObject *)` | 93 | Exported Function
-`public: bool __thiscall CSortedArray::Remove(unsigned long)` | 150 | Exported Function
-`public: bool __thiscall CClassInfoArray::SetOne(unsigned short const *,int)` | 158 | Exported Function
-`public: bool __thiscall CClassInfoArray::operator=(class CClassInfoArray &)` | 35 | Exported Function
-`public: bool __thiscall CEvalTree::Clear(void)` | 72 | Exported Function
-`public: bool __thiscall CEvalTree::IsValid(void)` | 135 | Exported Function
-`public: bool __thiscall CEvalTree::IsFalse(void)` | 122 | Exported Function
-`public: class CContextMetaData & __thiscall CContextMetaData::operator=(class CContextMetaData const &)` | 37 | Exported Function
-`public: class CStandardMetaData & __thiscall CStandardMetaData::operator=(class CStandardMetaData const &)` | 46 | Exported Function
-`public: class CReuseMemoryManager & __thiscall CReuseMemoryManager::operator=(class CReuseMemoryManager const &)` | 44 | Exported Function
-`public: class CTempMemoryManager & __thiscall CTempMemoryManager::operator=(class CTempMemoryManager const &)` | 47 | Exported Function
-`public: class CTimeKeeper & __thiscall CTimeKeeper::operator=(class CTimeKeeper const &)` | 49 | Exported Function
-`public: class CTimeKeeper & __thiscall CTimeKeeper::operator=(class CTimeKeeper &&)` | 48 | Exported Function
-`public: class CObjectInfo & __thiscall CObjectInfo::operator=(class CObjectInfo const &)` | 40 | Exported Function
-`public: class CMetaData & __thiscall CMetaData::operator=(class CMetaData const &)` | 39 | Exported Function
-`public: class CPropertyProjectionFilter & __thiscall CPropertyProjectionFilter::operator=(class CPropertyProjectionFilter const &)` | 41 | Exported Function
-`public: class CQueryAnalyser & __thiscall CQueryAnalyser::operator=(class CQueryAnalyser const &)` | 43 | Exported Function
-`public: class CQueryAnalyser & __thiscall CQueryAnalyser::operator=(class CQueryAnalyser &&)` | 42 | Exported Function
-`public: __thiscall CPropertyProjectionFilter::CPropertyProjectionFilter(void)` | 13 | Exported Function
-`public: __thiscall CPropertyProjectionFilter::CPropertyProjectionFilter(class CPropertyProjectionFilter const &)` | 12 | Exported Function
+`InnerCombine` | 118 | Exported Function
+`CombineLeafWithBranch` | 79 | Exported Function
+`AndDefiniteClassArrays` | 63 | Exported Function
+`AndQueryExpressions` | 65 | Exported Function
+`AndPossibleClassArrays` | 64 | Exported Function
+`IsTokenAboutClass` | 131 | Exported Function
+`IsPropertyInClass` | 130 | Exported Function
+`IsTokenAboutProperty` | 132 | Exported Function
+`ValidateSQLDateTime` | 165 | Exported Function
+`SimplifyTokenForChild` | 161 | Exported Function
+`SetLength` | 155 | Exported Function
+`SetBool` | 154 | Exported Function
+`AddProperty` | 59 | Exported Function
+`DecorateObject` | 93 | Exported Function
+`Remove` | 150 | Exported Function
+`SetOne` | 158 | Exported Function
+`operator` | 35 | Exported Function
+`Clear` | 72 | Exported Function
+`IsValid` | 135 | Exported Function
+`IsFalse` | 122 | Exported Function
+`operator` | 37 | Exported Function
+`operator` | 46 | Exported Function
+`operator` | 44 | Exported Function
+`operator` | 47 | Exported Function
+`operator` | 49 | Exported Function
+`operator` | 48 | Exported Function
+`operator` | 40 | Exported Function
+`operator` | 39 | Exported Function
+`operator` | 41 | Exported Function
+`operator` | 43 | Exported Function
+`operator` | 42 | Exported Function
+`CPropertyProjectionFilter` | 13 | Exported Function
+`CPropertyProjectionFilter` | 12 | Exported Function
 `public: __thiscall CPropertyProjectionFilter::~CPropertyProjectionFilter(void)` | 29 | Exported Function
 `public: __thiscall CReuseMemoryManager::~CReuseMemoryManager(void)` | 30 | Exported Function
-`public: __thiscall CReuseMemoryManager::CReuseMemoryManager(unsigned int,unsigned int)` | 14 | Exported Function
-`public: __thiscall CMetaData::CMetaData(class CMetaData const &)` | 9 | Exported Function
+`CReuseMemoryManager` | 14 | Exported Function
+`CMetaData` | 9 | Exported Function
 `public: __thiscall CEvalTree::~CEvalTree(void)` | 26 | Exported Function
-`public: __thiscall CMetaData::CMetaData(void)` | 10 | Exported Function
+`CMetaData` | 10 | Exported Function
 `public: __thiscall CObjectInfo::~CObjectInfo(void)` | 28 | Exported Function
-`public: __thiscall CObjectInfo::CObjectInfo(void)` | 11 | Exported Function
-`public: __thiscall CSortedArray::CSortedArray(class CSortedArray &)` | 15 | Exported Function
+`CObjectInfo` | 11 | Exported Function
+`CSortedArray` | 15 | Exported Function
 `public: __thiscall CTempMemoryManager::~CTempMemoryManager(void)` | 33 | Exported Function
-`public: __thiscall CTempMemoryManager::CTempMemoryManager(void)` | 20 | Exported Function
-`public: __thiscall CTimeKeeper::CTimeKeeper(void)` | 21 | Exported Function
-`public: bool __thiscall CClassInfoArray::AddClass(struct CClassInformation *)` | 56 | Exported Function
+`CTempMemoryManager` | 20 | Exported Function
+`CTimeKeeper` | 21 | Exported Function
+`AddClass` | 56 | Exported Function
 `public: __thiscall CTimeKeeper::~CTimeKeeper(void)` | 34 | Exported Function
-`public: __thiscall CSortedArray::CSortedArray(unsigned int,unsigned long *)` | 17 | Exported Function
-`public: __thiscall CSortedArray::CSortedArray(int,int)` | 16 | Exported Function
+`CSortedArray` | 17 | Exported Function
+`CSortedArray` | 16 | Exported Function
 `public: __thiscall CSortedArray::~CSortedArray(void)` | 31 | Exported Function
-`public: __thiscall CStandardMetaData::CStandardMetaData(struct IWbemServices *)` | 19 | Exported Function
-`public: __thiscall CStandardMetaData::CStandardMetaData(class CStandardMetaData const &)` | 18 | Exported Function
+`CStandardMetaData` | 19 | Exported Function
+`CStandardMetaData` | 18 | Exported Function
 
 
 ## Signature

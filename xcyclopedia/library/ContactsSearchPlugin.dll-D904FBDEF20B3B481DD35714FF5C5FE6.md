@@ -26,49 +26,49 @@ PE256 | `5BA1356254322B9834242CBC094A76489F8402A72C6902D661D4ED9122C7F222`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class ImportContactsFromFile::IImportContactsFromFile & __thiscall ImportContactsFromFile::IImportContactsFromFile::operator=(class ImportContactsFromFile::IImportContactsFromFile const &)` | 23 | Exported Function
-`public: class ImportContactsFromFile::IImportBuddy & __thiscall ImportContactsFromFile::IImportBuddy::operator=(class ImportContactsFromFile::IImportBuddy const &)` | 22 | Exported Function
-`public: class ImportContactsFromFile::IImportFromFileGroupObserverFactory & __thiscall ImportContactsFromFile::IImportFromFileGroupObserverFactory::operator=(class ImportContactsFromFile::IImportFromFileGroupObserverFactory const &)` | 24 | Exported Function
-`public: class ImportContactsFromFile::IImportFromFileJobFactory & __thiscall ImportContactsFromFile::IImportFromFileJobFactory::operator=(class ImportContactsFromFile::IImportFromFileJobFactory const &)` | 26 | Exported Function
-`public: class ImportContactsFromFile::IImportFromFileJob & __thiscall ImportContactsFromFile::IImportFromFileJob::operator=(class ImportContactsFromFile::IImportFromFileJob const &)` | 25 | Exported Function
-`public: __thiscall ImportContactsFromFile::ImportFromFileJobFactory::ImportFromFileJobFactory(class ImportContactsFromFile::ImportFromFileJobFactory const &)` | 11 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportFromFileJobFactory::IImportFromFileJobFactory(void)` | 10 | Exported Function
-`public: __thiscall ImportContactsFromFile::ImportFromFileJobFactory::ImportFromFileJobFactory(void)` | 12 | Exported Function
-`public: __thiscall ImportContactsFromFile::ProcessContactsFile::ProcessContactsFile(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::vector<class ImportContactsFromFile::ImportBuddy *,class std::allocator<class ImportContactsFromFile::ImportBuddy *> > *,class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > *,class std::weak_ptr<class ApiWrappers::CSContext>)` | 14 | Exported Function
-`public: __thiscall ImportContactsFromFile::ProcessContactsFile::ProcessContactsFile(class ImportContactsFromFile::ProcessContactsFile const &)` | 13 | Exported Function
-`public: class ImportContactsFromFile::ImportFromFileJobFactory & __thiscall ImportContactsFromFile::ImportFromFileJobFactory::operator=(class ImportContactsFromFile::ImportFromFileJobFactory const &)` | 27 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::IImportFromFileJobFactory::~IImportFromFileJobFactory(void)` | 19 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::IImportFromFileJob::~IImportFromFileJob(void)` | 18 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::ImportFromFileJobFactory::~ImportFromFileJobFactory(void)` | 20 | Exported Function
-`public: virtual class std::shared_ptr<class ImportContactsFromFile::IImportFromFileJob> __thiscall ImportContactsFromFile::ImportFromFileJobFactory::CreateJob(class std::shared_ptr<class CSFUnified::ContactService>,class ImportContactsFromFile::IImportContactsFromFile *)const ` | 36 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::ProcessContactsFile::~ProcessContactsFile(void)` | 21 | Exported Function
-`public: enum ParseResult __thiscall ImportContactsFromFile::ProcessContactsFile::getLastError(void)` | 39 | Exported Function
-`public: class ImportContactsFromFile::ProcessContactsFile & __thiscall ImportContactsFromFile::ProcessContactsFile::operator=(class ImportContactsFromFile::ProcessContactsFile const &)` | 28 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::IImportBuddy::~IImportBuddy(void)` | 15 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::IImportFromFileGroupObserverFactory::~IImportFromFileGroupObserverFactory(void)` | 17 | Exported Function
-`public: virtual __thiscall ImportContactsFromFile::IImportContactsFromFile::~IImportContactsFromFile(void)` | 16 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportFromFileJobFactory::IImportFromFileJobFactory(class ImportContactsFromFile::IImportFromFileJobFactory const &)` | 9 | Exported Function
-`const ImportContactsFromFile::ProcessContactsFile::``vftable'` | 35 | Exported Function
-`const ImportContactsFromFile::ImportFromFileJobFactory::``vftable'` | 34 | Exported Function
+`IImportContactsFromFile` | 23 | Exported Function
+`IImportBuddy` | 22 | Exported Function
+`IImportFromFileGroupObserverFactory` | 24 | Exported Function
+`IImportFromFileJobFactory` | 26 | Exported Function
+`IImportFromFileJob` | 25 | Exported Function
+`ImportFromFileJobFactory` | 11 | Exported Function
+`IImportFromFileJobFactory` | 10 | Exported Function
+`ImportFromFileJobFactory` | 12 | Exported Function
+`CSContext` | 14 | Exported Function
+`ProcessContactsFile` | 13 | Exported Function
+`ImportFromFileJobFactory` | 27 | Exported Function
+`IImportFromFileJobFactory` | 19 | Exported Function
+`IImportFromFileJob` | 18 | Exported Function
+`ImportFromFileJobFactory` | 20 | Exported Function
+`IImportContactsFromFile` | 36 | Exported Function
+`ProcessContactsFile` | 21 | Exported Function
+`getLastError` | 39 | Exported Function
+`ProcessContactsFile` | 28 | Exported Function
+`IImportBuddy` | 15 | Exported Function
+`IImportFromFileGroupObserverFactory` | 17 | Exported Function
+`IImportContactsFromFile` | 16 | Exported Function
+`IImportFromFileJobFactory` | 9 | Exported Function
+`ProcessContactsFile` | 35 | Exported Function
+`ImportFromFileJobFactory` | 34 | Exported Function
 `DllCanUnloadNow` | 40 | Exported Function
 `DllRegisterServer` | 42 | Exported Function
 `DllGetClassObject` | 41 | Exported Function
-`const ImportContactsFromFile::IImportContactsFromFile::``vftable'` | 30 | Exported Function
-`const ImportContactsFromFile::IImportBuddy::``vftable'` | 29 | Exported Function
-`const ImportContactsFromFile::IImportFromFileGroupObserverFactory::``vftable'` | 31 | Exported Function
-`const ImportContactsFromFile::IImportFromFileJobFactory::``vftable'` | 33 | Exported Function
-`const ImportContactsFromFile::IImportFromFileJob::``vftable'` | 32 | Exported Function
+`IImportContactsFromFile` | 30 | Exported Function
+`IImportBuddy` | 29 | Exported Function
+`IImportFromFileGroupObserverFactory` | 31 | Exported Function
+`IImportFromFileJobFactory` | 33 | Exported Function
+`IImportFromFileJob` | 32 | Exported Function
 `DllUnregisterServer` | 43 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportFromFileGroupObserverFactory::IImportFromFileGroupObserverFactory(class ImportContactsFromFile::IImportFromFileGroupObserverFactory const &)` | 5 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportContactsFromFile::IImportContactsFromFile(void)` | 4 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportFromFileGroupObserverFactory::IImportFromFileGroupObserverFactory(void)` | 6 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportFromFileJob::IImportFromFileJob(void)` | 8 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportFromFileJob::IImportFromFileJob(class ImportContactsFromFile::IImportFromFileJob const &)` | 7 | Exported Function
-`protected: class ImportContactsFromFile::IImportBuddy * __thiscall ImportContactsFromFile::ProcessContactsFile::FindBuddy(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 37 | Exported Function
-`protected: bool __thiscall ImportContactsFromFile::ProcessContactsFile::GroupExists(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 38 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportBuddy::IImportBuddy(class ImportContactsFromFile::IImportBuddy const &)` | 1 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportContactsFromFile::IImportContactsFromFile(class ImportContactsFromFile::IImportContactsFromFile const &)` | 3 | Exported Function
-`public: __thiscall ImportContactsFromFile::IImportBuddy::IImportBuddy(void)` | 2 | Exported Function
+`IImportFromFileGroupObserverFactory` | 5 | Exported Function
+`IImportContactsFromFile` | 4 | Exported Function
+`IImportFromFileGroupObserverFactory` | 6 | Exported Function
+`IImportFromFileJob` | 8 | Exported Function
+`IImportFromFileJob` | 7 | Exported Function
+`allocator` | 37 | Exported Function
+`allocator` | 38 | Exported Function
+`IImportBuddy` | 1 | Exported Function
+`IImportContactsFromFile` | 3 | Exported Function
+`IImportBuddy` | 2 | Exported Function
 
 
 ## Signature

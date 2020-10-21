@@ -26,138 +26,138 @@ PE256 | `ACDE59CAC5CDA24A9F13E5020219F24389E01B390D28D78F923B51EA73CEA0E5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static struct HWND__ * __stdcall mmcerror::SC::SetModalHWND(struct HWND__ *)` | 111 | Exported Function
-`public: static struct HWND__ * __stdcall mmcerror::SC::GetModalHWND(void)` | 58 | Exported Function
-`public: static unsigned long __stdcall CMMCStrongReferences::Release(void)` | 98 | Exported Function
-`public: static unsigned long __stdcall CMMCStrongReferences::AddRef(void)` | 24 | Exported Function
-`public: static long __stdcall CMMCWatsonAPI::ExceptionFilter(struct _EXCEPTION_POINTERS *,int)` | 31 | Exported Function
-`public: static long __stdcall BookKeeping::UnregisterThread(int,unsigned long)` | 122 | Exported Function
-`public: static struct HWND__ * __stdcall mmcerror::SC::GetHWnd(void)` | 53 | Exported Function
-`public: static struct HINSTANCE__ * __stdcall mmcerror::SC::GetHinst(void)` | 56 | Exported Function
-`public: static void __stdcall BookKeeping::InterfaceMethodActivationContextException(int,unsigned short const *,unsigned short const *,unsigned long,struct _EXCEPTION_POINTERS *)` | 68 | Exported Function
-`public: static void __stdcall BookKeeping::InterfaceFailure(int,unsigned short const *,unsigned short const *)` | 67 | Exported Function
-`public: static void __stdcall BookKeeping::InterfaceNotFound(int,unsigned short const *)` | 70 | Exported Function
-`public: static void __stdcall BookKeeping::InterfaceMethodException(int,unsigned short const *,unsigned short const *,unsigned long,struct _EXCEPTION_POINTERS *)` | 69 | Exported Function
-`public: static unsigned short const * __stdcall BookKeeping::GetSnapinModuleName(int)` | 61 | Exported Function
-`public: static unsigned long __stdcall mmcerror::SC::GetMainThreadID(void)` | 57 | Exported Function
-`public: static unsigned short const * __stdcall mmcerror::SC::GetHelpFile(void)` | 54 | Exported Function
-`public: static unsigned short const * __stdcall BookKeeping::GetSnapinName(int)` | 62 | Exported Function
-`public: static long __stdcall BookKeeping::UnregisterAllSnapinInstanceThreads(int)` | 121 | Exported Function
-`public: static int __stdcall BookKeeping::GetNewSnapinInstanceId(void)` | 59 | Exported Function
-`public: static class SnapinBookkeepingInfo const & __stdcall BookKeeping::FindSnapin(unsigned short const *)` | 38 | Exported Function
-`public: static long __stdcall BookKeeping::AddSnapin(unsigned short const *,int &)` | 25 | Exported Function
-`public: static long __stdcall BookKeeping::AddItem(class ItemHandle &)` | 23 | Exported Function
-`public: static class mmcerror::SC __stdcall CConsoleEventDispatcherProvider::ScSetConsoleEventDispatcher(class CConsoleEventDispatcher *)` | 106 | Exported Function
-`public: static class mmcerror::SC __stdcall CConsoleEventDispatcherProvider::ScGetConsoleEventDispatcher(class CConsoleEventDispatcher * &)` | 105 | Exported Function
-`public: static class SnapinBookkeepingInfo const & __stdcall BookKeeping::FindSnapin(struct IUnknown *)` | 37 | Exported Function
-`public: static class SnapinBookkeepingInfo const & __stdcall BookKeeping::FindSnapin(int)` | 36 | Exported Function
-`public: static long __stdcall BookKeeping::RegisterThread(int,int,unsigned long,enum BookKeeping::SnapinThreadFlags)` | 97 | Exported Function
-`public: static long __stdcall BookKeeping::LKResult2HRESULT(long)` | 80 | Exported Function
-`public: static long __stdcall BookKeeping::RemoveItem(void *)` | 100 | Exported Function
-`public: static long __stdcall BookKeeping::ReleaseSnapinInterface(struct IUnknown *,int)` | 99 | Exported Function
-`public: static long __stdcall BookKeeping::FindAllSnapinUIThreads(int,unsigned long * *,unsigned long *)` | 33 | Exported Function
-`public: static long __stdcall BookKeeping::DumpWatsonTables(void *,unsigned short const *,int)` | 29 | Exported Function
-`public: static long __stdcall BookKeeping::InitInstance(void)` | 66 | Exported Function
-`public: static long __stdcall BookKeeping::FindAllSnapinUIThreads(unsigned long * *,unsigned long *)` | 34 | Exported Function
-`public: void __thiscall mmcerror::SC::SetSnapinName(unsigned short const *)` | 112 | Exported Function
-`public: void __thiscall mmcerror::SC::SetFunctionName(unsigned short const *)` | 107 | Exported Function
-`public: void __thiscall mmcerror::SC::Throw(void)` | 114 | Exported Function
-`public: void __thiscall mmcerror::SC::Throw(long)` | 113 | Exported Function
-`public: void __thiscall mmcerror::SC::Clear(void)` | 28 | Exported Function
-`public: void __thiscall mmcerror::SC::CheckCallingThreadID(void)` | 27 | Exported Function
-`public: void __thiscall mmcerror::SC::GetErrorMessage(unsigned int,unsigned short *)const ` | 49 | Exported Function
-`public: void __thiscall mmcerror::SC::FatalError(void)const ` | 32 | Exported Function
-`void __stdcall FormatErrorString(unsigned short const *,class mmcerror::SC,unsigned int,unsigned short *,int)` | 42 | Exported Function
-`void __stdcall FormatErrorShort(class mmcerror::SC,unsigned int,unsigned short *)` | 41 | Exported Function
-`void __stdcall TraceSnapinError(unsigned short const *,class mmcerror::SC const &)` | 118 | Exported Function
-`void __stdcall TraceError(unsigned short const *,class mmcerror::SC const &)` | 117 | Exported Function
-`public: void __thiscall mmcerror::SC::TraceAndClear(void)` | 116 | Exported Function
-`public: void __thiscall mmcerror::SC::Trace_(void)const ` | 119 | Exported Function
-`void __stdcall FormatErrorIds(unsigned int,class mmcerror::SC,unsigned int,unsigned short *)` | 40 | Exported Function
+`SetModalHWND` | 111 | Exported Function
+`GetModalHWND` | 58 | Exported Function
+`Release` | 98 | Exported Function
+`AddRef` | 24 | Exported Function
+`ExceptionFilter` | 31 | Exported Function
+`UnregisterThread` | 122 | Exported Function
+`GetHWnd` | 53 | Exported Function
+`GetHinst` | 56 | Exported Function
+`InterfaceMethodActivationContextException` | 68 | Exported Function
+`InterfaceFailure` | 67 | Exported Function
+`InterfaceNotFound` | 70 | Exported Function
+`InterfaceMethodException` | 69 | Exported Function
+`GetSnapinModuleName` | 61 | Exported Function
+`GetMainThreadID` | 57 | Exported Function
+`GetHelpFile` | 54 | Exported Function
+`GetSnapinName` | 62 | Exported Function
+`UnregisterAllSnapinInstanceThreads` | 121 | Exported Function
+`GetNewSnapinInstanceId` | 59 | Exported Function
+`FindSnapin` | 38 | Exported Function
+`AddSnapin` | 25 | Exported Function
+`AddItem` | 23 | Exported Function
+`ScSetConsoleEventDispatcher` | 106 | Exported Function
+`ScGetConsoleEventDispatcher` | 105 | Exported Function
+`FindSnapin` | 37 | Exported Function
+`FindSnapin` | 36 | Exported Function
+`SnapinThreadFlags` | 97 | Exported Function
+`LKResult2HRESULT` | 80 | Exported Function
+`RemoveItem` | 100 | Exported Function
+`ReleaseSnapinInterface` | 99 | Exported Function
+`FindAllSnapinUIThreads` | 33 | Exported Function
+`DumpWatsonTables` | 29 | Exported Function
+`InitInstance` | 66 | Exported Function
+`FindAllSnapinUIThreads` | 34 | Exported Function
+`SetSnapinName` | 112 | Exported Function
+`SetFunctionName` | 107 | Exported Function
+`Throw` | 114 | Exported Function
+`Throw` | 113 | Exported Function
+`Clear` | 28 | Exported Function
+`CheckCallingThreadID` | 27 | Exported Function
+`GetErrorMessage` | 49 | Exported Function
+`FatalError` | 32 | Exported Function
+`SC` | 42 | Exported Function
+`SC` | 41 | Exported Function
+`SC` | 118 | Exported Function
+`SC` | 117 | Exported Function
+`TraceAndClear` | 116 | Exported Function
+`Trace_` | 119 | Exported Function
+`SC` | 40 | Exported Function
 `ReportFxSnapinException` | 132 | Exported Function
-`public: void __thiscall mmcerror::SC::``default constructor closure'(void)` | 22 | Exported Function
-`public: static void __stdcall BookKeeping::MMCInterfaceMethodException(int,unsigned short const *,unsigned short const *,unsigned long,struct _EXCEPTION_POINTERS *,enum BookKeeping::_SnapinError)` | 91 | Exported Function
-`public: static void __stdcall BookKeeping::MMCInterfaceLeak(int,unsigned short const *)` | 90 | Exported Function
-`public: static void __stdcall CMMCWatsonAPI::ForceException(int)` | 39 | Exported Function
-`public: static void __stdcall BookKeeping::MMCNullInterface(int,unsigned short const *,unsigned short const *)` | 92 | Exported Function
-`public: static void __stdcall BookKeeping::InvalidMMCInterface(int,unsigned short const *,unsigned short const *)` | 75 | Exported Function
-`public: static void __stdcall BookKeeping::InvalidInterface(int,unsigned short const *,unsigned short const *)` | 74 | Exported Function
-`public: static void __stdcall BookKeeping::MMCInterfaceError(int,unsigned short const *,unsigned short const *)` | 89 | Exported Function
-`public: static void __stdcall BookKeeping::InvalidMMCInterfaceRelease(int,unsigned short const *,unsigned short const *)` | 76 | Exported Function
-`public: unsigned short const * __thiscall mmcerror::SC::GetSnapinName(void)const ` | 63 | Exported Function
-`public: unsigned short const * __thiscall mmcerror::SC::GetFunctionName(void)const ` | 52 | Exported Function
-`public: void __thiscall CEventBuffer::Unlock(void)` | 120 | Exported Function
-`public: void __thiscall CEventBuffer::Lock(void)` | 83 | Exported Function
-`public: static void __stdcall mmcerror::SC::SetHWnd(struct HWND__ *)` | 108 | Exported Function
-`public: static void __stdcall mmcerror::SC::SetHinst(struct HINSTANCE__ *)` | 109 | Exported Function
-`public: unsigned long __thiscall mmcerror::SC::GetHelpID(void)` | 55 | Exported Function
-`public: static void __stdcall mmcerror::SC::SetMainThreadID(unsigned long)` | 110 | Exported Function
-`private: static class CMMCStrongReferences & __stdcall CMMCStrongReferences::GetSingletonObject(void)` | 60 | Exported Function
-`private: static class CConsoleEventDispatcher * CConsoleEventDispatcherProvider::s_pDispatcher` | 128 | Exported Function
-`private: static struct HWND__ * mmcerror::SC::s_hWnd` | 126 | Exported Function
-`private: static struct HINSTANCE__ * mmcerror::SC::s_hInst` | 125 | Exported Function
-`private: bool __thiscall CMMCStrongReferences::InternalLastRefReleased(void)` | 72 | Exported Function
-`private: __thiscall CMMCStrongReferences::CMMCStrongReferences(void)` | 4 | Exported Function
-`private: enum mmcerror::SC::facility_type __thiscall mmcerror::SC::GetFacility(void)const ` | 51 | Exported Function
-`private: class mmcerror::SC __thiscall CEventBuffer::ScFlushPostponed(void)` | 103 | Exported Function
-`private: void __thiscall mmcerror::SC::MakeSc(enum mmcerror::SC::facility_type,long)` | 95 | Exported Function
-`private: unsigned long __thiscall CMMCStrongReferences::InternalRelease(void)` | 73 | Exported Function
-`public: __thiscall CEventBuffer::CEventBuffer(void)` | 3 | Exported Function
-`public: __thiscall CEventBuffer::CEventBuffer(class CEventBuffer const &)` | 2 | Exported Function
-`private: static unsigned int mmcerror::SC::s_CallDepth` | 123 | Exported Function
-`private: static struct HWND__ * mmcerror::SC::s_hWndModal` | 127 | Exported Function
-`private: unsigned long __thiscall CMMCStrongReferences::InternalAddRef(void)` | 71 | Exported Function
-`private: static unsigned long mmcerror::SC::s_dwMainThreadID` | 124 | Exported Function
+`SC` | 22 | Exported Function
+`_SnapinError` | 91 | Exported Function
+`MMCInterfaceLeak` | 90 | Exported Function
+`ForceException` | 39 | Exported Function
+`MMCNullInterface` | 92 | Exported Function
+`InvalidMMCInterface` | 75 | Exported Function
+`InvalidInterface` | 74 | Exported Function
+`MMCInterfaceError` | 89 | Exported Function
+`InvalidMMCInterfaceRelease` | 76 | Exported Function
+`GetSnapinName` | 63 | Exported Function
+`GetFunctionName` | 52 | Exported Function
+`Unlock` | 120 | Exported Function
+`Lock` | 83 | Exported Function
+`SetHWnd` | 108 | Exported Function
+`SetHinst` | 109 | Exported Function
+`GetHelpID` | 55 | Exported Function
+`SetMainThreadID` | 110 | Exported Function
+`GetSingletonObject` | 60 | Exported Function
+`s_pDispatcher` | 128 | Exported Function
+`s_hWnd` | 126 | Exported Function
+`s_hInst` | 125 | Exported Function
+`InternalLastRefReleased` | 72 | Exported Function
+`CMMCStrongReferences` | 4 | Exported Function
+`GetFacility` | 51 | Exported Function
+`ScFlushPostponed` | 103 | Exported Function
+`facility_type` | 95 | Exported Function
+`InternalRelease` | 73 | Exported Function
+`CEventBuffer` | 3 | Exported Function
+`CEventBuffer` | 2 | Exported Function
+`s_CallDepth` | 123 | Exported Function
+`s_hWndModal` | 127 | Exported Function
+`InternalAddRef` | 71 | Exported Function
+`s_dwMainThreadID` | 124 | Exported Function
 `MMCUpdateRegistry` | 93 | Exported Function
 `InsideModalLoop` | 130 | Exported Function
 `GetStringModule` | 64 | Exported Function
-`int __stdcall MMCErrorBox(unsigned int,class mmcerror::SC,unsigned int)` | 85 | Exported Function
-`int __stdcall MMCErrorBox(class mmcerror::SC,unsigned int)` | 88 | Exported Function
+`SC` | 85 | Exported Function
+`SC` | 88 | Exported Function
 `EnterModalLoop` | 129 | Exported Function
-`class mmcerror::SC __stdcall ScFromMMC(long)` | 104 | Exported Function
+`SC` | 104 | Exported Function
 `GetEventBuffer` | 50 | Exported Function
 `GetComObjectEventSource` | 48 | Exported Function
-`long __stdcall HrFromSc(class mmcerror::SC const &)` | 65 | Exported Function
+`SC` | 65 | Exported Function
 `LoadStandardOverlays` | 82 | Exported Function
 `MMC_PickIconDlg` | 94 | Exported Function
-`long __stdcall SCODEFromSc(class mmcerror::SC const &)` | 101 | Exported Function
-`int __stdcall MMCErrorBox(unsigned short const *,class mmcerror::SC,unsigned int)` | 87 | Exported Function
+`SC` | 101 | Exported Function
+`SC` | 87 | Exported Function
 `int __stdcall MMCErrorBox(unsigned int,unsigned int)` | 84 | Exported Function
 `LeaveModalLoop` | 131 | Exported Function
 `int __stdcall MMCErrorBox(unsigned short const *,unsigned int)` | 86 | Exported Function
-`public: class mmcerror::SC __thiscall CEventBuffer::ScEmitOrPostpone(struct IDispatch *,long,class ATL::CComVariant *,int)` | 102 | Exported Function
-`public: class mmcerror::SC & __thiscall mmcerror::SC::operator=(long)` | 15 | Exported Function
-`public: long __thiscall mmcerror::SC::GetCode(void)const ` | 47 | Exported Function
-`public: int __thiscall mmcerror::SC::operator!(void)const ` | 16 | Exported Function
-`public: class mmcerror::SC & __thiscall mmcerror::SC::FromMMC(long)` | 44 | Exported Function
-`public: class mmcerror::SC & __thiscall mmcerror::SC::FromLastError(void)` | 43 | Exported Function
-`public: class mmcerror::SC & __thiscall mmcerror::SC::operator=(class mmcerror::SC const &)` | 14 | Exported Function
-`public: class mmcerror::SC & __thiscall mmcerror::SC::FromWin32(long)` | 45 | Exported Function
-`public: static bool __stdcall CMMCStrongReferences::LastRefReleased(void)` | 81 | Exported Function
-`public: static bool __stdcall BookKeeping::FxSnapinException(int,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,int,struct HWND__ *)` | 46 | Exported Function
-`public: static class ItemHandle * __stdcall BookKeeping::FindItem(void *)` | 35 | Exported Function
-`public: static bool __stdcall ItemHandle::IsValid(class ItemHandle const *)` | 79 | Exported Function
-`public: static bool (__stdcall*__stdcall BookKeeping::RegisterSnapinInterfaceErrorHandler(bool (__stdcall*)(class SnapinBookkeepingInfo &,enum BookKeeping::_SnapinError,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,struct _EXCEPTION_POINTERS *)))(class SnapinBookkeepingInfo &,enum BookKeeping::_SnapinError,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,struct _EXCEPTION_POINTERS *)` | 96 | Exported Function
-`public: long __thiscall mmcerror::SC::ToHr(void)const ` | 115 | Exported Function
-`public: static bool __stdcall BookKeeping::EnableDiagnosticMessageBox(bool)` | 30 | Exported Function
-`public: static bool __stdcall BookKeeping::AddSnapinInterface(struct IUnknown *,unsigned short const *,int &)` | 26 | Exported Function
-`public: class CMMCStrongReferences & __thiscall CMMCStrongReferences::operator=(class CMMCStrongReferences const &)` | 13 | Exported Function
-`public: __thiscall mmcerror::SC::SC(long)` | 6 | Exported Function
-`public: __thiscall mmcerror::SC::SC(class mmcerror::SC const &)` | 5 | Exported Function
-`public: bool __thiscall CEventBuffer::IsLocked(void)` | 78 | Exported Function
-`public: __thiscall mmcerror::SC::~SC(void)` | 9 | Exported Function
-`public: __thiscall CEventLock<struct AppEvents>::CEventLock<struct AppEvents>(void)` | 1 | Exported Function
+`CComVariant` | 102 | Exported Function
+`operator` | 15 | Exported Function
+`GetCode` | 47 | Exported Function
+`operator` | 16 | Exported Function
+`FromMMC` | 44 | Exported Function
+`FromLastError` | 43 | Exported Function
+`SC` | 14 | Exported Function
+`FromWin32` | 45 | Exported Function
+`LastRefReleased` | 81 | Exported Function
+`FxSnapinException` | 46 | Exported Function
+`FindItem` | 35 | Exported Function
+`IsValid` | 79 | Exported Function
+`_SnapinError` | 96 | Exported Function
+`ToHr` | 115 | Exported Function
+`EnableDiagnosticMessageBox` | 30 | Exported Function
+`AddSnapinInterface` | 26 | Exported Function
+`operator` | 13 | Exported Function
+`SC` | 6 | Exported Function
+`SC` | 5 | Exported Function
+`IsLocked` | 78 | Exported Function
+`SC` | 9 | Exported Function
+`CEventLock` | 1 | Exported Function
 `public: __thiscall CEventBuffer::~CEventBuffer(void)` | 8 | Exported Function
-`public: __thiscall mmcerror::SC::operator bool(void)const ` | 21 | Exported Function
+`operator` | 21 | Exported Function
 `public: __thiscall CEventLock<struct AppEvents>::~CEventLock<struct AppEvents>(void)` | 7 | Exported Function
-`public: class CEventBuffer & __thiscall CEventBuffer::operator=(class CEventBuffer const &)` | 11 | Exported Function
-`public: bool __thiscall mmcerror::SC::operator==(long)const ` | 18 | Exported Function
-`public: class CMMCStrongReferences & __thiscall CMMCStrongReferences::operator=(class CMMCStrongReferences &&)` | 12 | Exported Function
-`public: class CEventLock<struct AppEvents> & __thiscall CEventLock<struct AppEvents>::operator=(class CEventLock<struct AppEvents> const &)` | 10 | Exported Function
-`public: bool __thiscall mmcerror::SC::operator!=(class mmcerror::SC const &)const ` | 19 | Exported Function
-`public: bool __thiscall mmcerror::SC::IsError(void)const ` | 77 | Exported Function
-`public: bool __thiscall mmcerror::SC::operator==(class mmcerror::SC const &)const ` | 17 | Exported Function
-`public: bool __thiscall mmcerror::SC::operator!=(long)const ` | 20 | Exported Function
+`operator` | 11 | Exported Function
+`operator` | 18 | Exported Function
+`operator` | 12 | Exported Function
+`operator` | 10 | Exported Function
+`SC` | 19 | Exported Function
+`IsError` | 77 | Exported Function
+`SC` | 17 | Exported Function
+`operator` | 20 | Exported Function
 
 
 ## Signature

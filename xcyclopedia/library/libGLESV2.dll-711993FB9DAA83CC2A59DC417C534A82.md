@@ -25,26 +25,26 @@ PE256 | `0E9DE7A0996BB35CD2BA6B438D0443F573484055424B0168A39998AC1CD26597`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`unsigned int __cdecl egl::CopyBuffers(void * __ptr64,void * __ptr64,struct HBITMAP__ * __ptr64)` | 420 | Exported Function
-`unsigned int __cdecl egl::ChooseConfig(void * __ptr64,int const * __ptr64,void * __ptr64 * __ptr64,int,int * __ptr64)` | 290 | Exported Function
-`unsigned int __cdecl egl::DestroyContext(void * __ptr64,void * __ptr64)` | 448 | Exported Function
-`unsigned int __cdecl egl::CreateStreamProducerD3DTextureNV12ANGLE(void * __ptr64,void * __ptr64,__int64 const * __ptr64)` | 438 | Exported Function
-`unsigned int __cdecl egl::BindTexImage(void * __ptr64,void * __ptr64,int)` | 158 | Exported Function
-`unsigned char __cdecl gl::TestFenceNV(unsigned int)` | 616 | Exported Function
-`unsigned char __cdecl gl::IsVertexArrayOES(unsigned int)` | 550 | Exported Function
-`unsigned int __cdecl egl::BindAPI(unsigned int)` | 147 | Exported Function
-`unsigned char __cdecl gl::UnmapBufferOES(unsigned int)` | 626 | Exported Function
-`unsigned int __cdecl egl::DestroyImage(void * __ptr64,void * __ptr64)` | 449 | Exported Function
-`unsigned int __cdecl egl::GetSyncAttrib(void * __ptr64,void * __ptr64,int,__int64 * __ptr64)` | 523 | Exported Function
-`unsigned int __cdecl egl::GetConfigs(void * __ptr64,void * __ptr64 * __ptr64,int,int * __ptr64)` | 477 | Exported Function
-`unsigned int __cdecl egl::Initialize(void * __ptr64,int * __ptr64,int * __ptr64)` | 545 | Exported Function
-`unsigned int __cdecl egl::GetSyncValuesCHROMIUM(void * __ptr64,void * __ptr64,unsigned __int64 * __ptr64,unsigned __int64 * __ptr64,unsigned __int64 * __ptr64)` | 524 | Exported Function
-`unsigned int __cdecl egl::GetConfigAttrib(void * __ptr64,void * __ptr64,int,int * __ptr64)` | 476 | Exported Function
-`unsigned int __cdecl egl::DestroyStreamKHR(void * __ptr64,void * __ptr64)` | 451 | Exported Function
-`unsigned int __cdecl egl::DestroyImageKHR(void * __ptr64,void * __ptr64)` | 450 | Exported Function
-`unsigned int __cdecl egl::DestroySync(void * __ptr64,void * __ptr64)` | 453 | Exported Function
-`unsigned int __cdecl egl::DestroySurface(void * __ptr64,void * __ptr64)` | 452 | Exported Function
-`unsigned char __cdecl gl::IsQueryEXT(unsigned int)` | 549 | Exported Function
+`CopyBuffers` | 420 | Exported Function
+`ChooseConfig` | 290 | Exported Function
+`DestroyContext` | 448 | Exported Function
+`CreateStreamProducerD3DTextureNV12ANGLE` | 438 | Exported Function
+`BindTexImage` | 158 | Exported Function
+`TestFenceNV` | 616 | Exported Function
+`IsVertexArrayOES` | 550 | Exported Function
+`BindAPI` | 147 | Exported Function
+`UnmapBufferOES` | 626 | Exported Function
+`DestroyImage` | 449 | Exported Function
+`GetSyncAttrib` | 523 | Exported Function
+`GetConfigs` | 477 | Exported Function
+`Initialize` | 545 | Exported Function
+`GetSyncValuesCHROMIUM` | 524 | Exported Function
+`GetConfigAttrib` | 476 | Exported Function
+`DestroyStreamKHR` | 451 | Exported Function
+`DestroyImageKHR` | 450 | Exported Function
+`DestroySync` | 453 | Exported Function
+`DestroySurface` | 452 | Exported Function
+`IsQueryEXT` | 549 | Exported Function
 `glVertexAttribPointer` | 141 | Exported Function
 `glVertexAttribIPointer` | 219 | Exported Function
 `glViewport` | 142 | Exported Function
@@ -55,55 +55,55 @@ Function Name | Ordinal | Type
 `glVertexAttribI4uiv` | 225 | Exported Function
 `glVertexAttribI4ui` | 223 | Exported Function
 `glWaitSync` | 254 | Exported Function
-`public: struct angle::PlatformMethods & __ptr64 __cdecl angle::PlatformMethods::operator=(struct angle::PlatformMethods const & __ptr64) __ptr64` | 145 | Exported Function
-`public: struct angle::PlatformMethods & __ptr64 __cdecl angle::PlatformMethods::operator=(struct angle::PlatformMethods && __ptr64) __ptr64` | 144 | Exported Function
-`unsigned char __cdecl gl::IsPathCHROMIUM(unsigned int)` | 548 | Exported Function
-`unsigned char __cdecl gl::IsFenceNV(unsigned int)` | 547 | Exported Function
-`public: __cdecl angle::PlatformMethods::PlatformMethods(void) __ptr64` | 143 | Exported Function
-`int __cdecl egl::GetError(void)` | 483 | Exported Function
-`int __cdecl egl::ClientWaitSync(void * __ptr64,void * __ptr64,int,unsigned __int64)` | 291 | Exported Function
-`int __cdecl egl::ProgramCacheResizeANGLE(void * __ptr64,int,unsigned int)` | 569 | Exported Function
-`int __cdecl egl::ProgramCacheGetAttribANGLE(void * __ptr64,unsigned int)` | 566 | Exported Function
-`unsigned int __cdecl egl::MakeCurrent(void * __ptr64,void * __ptr64,void * __ptr64,void * __ptr64)` | 551 | Exported Function
-`unsigned int __cdecl egl::WaitSync(void * __ptr64,void * __ptr64,int)` | 631 | Exported Function
-`unsigned int __cdecl egl::WaitNative(int)` | 630 | Exported Function
-`unsigned int __cdecl gl::GetDebugMessageLogKHR(unsigned int,int,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,unsigned int * __ptr64,int * __ptr64,char * __ptr64)` | 481 | Exported Function
-`unsigned int __cdecl gl::GenPathsCHROMIUM(int)` | 466 | Exported Function
-`unsigned int __cdecl egl::WaitGL(void)` | 629 | Exported Function
-`unsigned int __cdecl egl::SwapInterval(void * __ptr64,int)` | 614 | Exported Function
-`unsigned int __cdecl egl::SwapBuffersWithDamageEXT(void * __ptr64,void * __ptr64,int * __ptr64,int)` | 613 | Exported Function
-`unsigned int __cdecl egl::WaitClient(void)` | 628 | Exported Function
-`unsigned int __cdecl egl::Terminate(void * __ptr64)` | 615 | Exported Function
-`unsigned int __cdecl gl::GetGraphicsResetStatusEXT(void)` | 488 | Exported Function
-`void * __ptr64 __cdecl egl::CreatePbufferSurface(void * __ptr64,void * __ptr64,int const * __ptr64)` | 433 | Exported Function
-`void * __ptr64 __cdecl egl::CreatePbufferFromClientBuffer(void * __ptr64,unsigned int,void * __ptr64,void * __ptr64,int const * __ptr64)` | 432 | Exported Function
-`void * __ptr64 __cdecl egl::CreatePlatformPixmapSurface(void * __ptr64,void * __ptr64,void * __ptr64,__int64 const * __ptr64)` | 435 | Exported Function
-`void * __ptr64 __cdecl egl::CreatePixmapSurface(void * __ptr64,void * __ptr64,struct HBITMAP__ * __ptr64,int const * __ptr64)` | 434 | Exported Function
-`void * __ptr64 __cdecl egl::CreateImageKHR(void * __ptr64,void * __ptr64,unsigned int,void * __ptr64,int const * __ptr64)` | 431 | Exported Function
-`void * __ptr64 __cdecl egl::CreateContext(void * __ptr64,void * __ptr64,void * __ptr64,int const * __ptr64)` | 428 | Exported Function
-`void (__cdecl*__cdecl egl::GetProcAddress(char const * __ptr64))(void)` | 503 | Exported Function
-`void * __ptr64 __cdecl egl::CreateImage(void * __ptr64,void * __ptr64,unsigned int,void * __ptr64,__int64 const * __ptr64)` | 430 | Exported Function
-`void * __ptr64 __cdecl egl::CreateDeviceANGLE(int,void * __ptr64,__int64 const * __ptr64)` | 429 | Exported Function
-`unsigned int __cdecl egl::SwapBuffers(void * __ptr64,void * __ptr64)` | 612 | Exported Function
-`unsigned int __cdecl egl::QueryStreamu64KHR(void * __ptr64,void * __ptr64,unsigned int,unsigned __int64 * __ptr64)` | 580 | Exported Function
-`unsigned int __cdecl egl::QueryStreamKHR(void * __ptr64,void * __ptr64,unsigned int,int * __ptr64)` | 579 | Exported Function
-`unsigned int __cdecl egl::QuerySurfacePointerANGLE(void * __ptr64,void * __ptr64,int,void * __ptr64 * __ptr64)` | 583 | Exported Function
-`unsigned int __cdecl egl::QuerySurface(void * __ptr64,void * __ptr64,int,int * __ptr64)` | 582 | Exported Function
-`unsigned int __cdecl egl::QueryDisplayAttribEXT(void * __ptr64,int,__int64 * __ptr64)` | 578 | Exported Function
-`unsigned int __cdecl egl::QueryAPI(void)` | 573 | Exported Function
-`unsigned int __cdecl egl::PostSubBufferNV(void * __ptr64,void * __ptr64,int,int,int,int)` | 564 | Exported Function
-`unsigned int __cdecl egl::QueryDeviceAttribEXT(void * __ptr64,int,__int64 * __ptr64)` | 576 | Exported Function
-`unsigned int __cdecl egl::QueryContext(void * __ptr64,void * __ptr64,int,int * __ptr64)` | 574 | Exported Function
-`unsigned int __cdecl egl::ReleaseDeviceANGLE(void * __ptr64)` | 587 | Exported Function
-`unsigned int __cdecl egl::StreamConsumerReleaseKHR(void * __ptr64,void * __ptr64)` | 609 | Exported Function
-`unsigned int __cdecl egl::StreamConsumerGLTextureExternalKHR(void * __ptr64,void * __ptr64)` | 608 | Exported Function
-`unsigned int __cdecl egl::SurfaceAttrib(void * __ptr64,void * __ptr64,int,int)` | 611 | Exported Function
-`unsigned int __cdecl egl::StreamPostD3DTextureNV12ANGLE(void * __ptr64,void * __ptr64,void * __ptr64,__int64 const * __ptr64)` | 610 | Exported Function
-`unsigned int __cdecl egl::StreamConsumerGLTextureExternalAttribsNV(void * __ptr64,void * __ptr64,__int64 const * __ptr64)` | 607 | Exported Function
-`unsigned int __cdecl egl::ReleaseThread(void)` | 589 | Exported Function
-`unsigned int __cdecl egl::ReleaseTexImage(void * __ptr64,void * __ptr64,int)` | 588 | Exported Function
-`unsigned int __cdecl egl::StreamConsumerAcquireKHR(void * __ptr64,void * __ptr64)` | 606 | Exported Function
-`unsigned int __cdecl egl::StreamAttribKHR(void * __ptr64,void * __ptr64,unsigned int,int)` | 605 | Exported Function
+`PlatformMethods` | 145 | Exported Function
+`PlatformMethods` | 144 | Exported Function
+`IsPathCHROMIUM` | 548 | Exported Function
+`IsFenceNV` | 547 | Exported Function
+`PlatformMethods` | 143 | Exported Function
+`GetError` | 483 | Exported Function
+`ClientWaitSync` | 291 | Exported Function
+`ProgramCacheResizeANGLE` | 569 | Exported Function
+`ProgramCacheGetAttribANGLE` | 566 | Exported Function
+`MakeCurrent` | 551 | Exported Function
+`WaitSync` | 631 | Exported Function
+`WaitNative` | 630 | Exported Function
+`GetDebugMessageLogKHR` | 481 | Exported Function
+`GenPathsCHROMIUM` | 466 | Exported Function
+`WaitGL` | 629 | Exported Function
+`SwapInterval` | 614 | Exported Function
+`SwapBuffersWithDamageEXT` | 613 | Exported Function
+`WaitClient` | 628 | Exported Function
+`Terminate` | 615 | Exported Function
+`GetGraphicsResetStatusEXT` | 488 | Exported Function
+`CreatePbufferSurface` | 433 | Exported Function
+`CreatePbufferFromClientBuffer` | 432 | Exported Function
+`CreatePlatformPixmapSurface` | 435 | Exported Function
+`CreatePixmapSurface` | 434 | Exported Function
+`CreateImageKHR` | 431 | Exported Function
+`CreateContext` | 428 | Exported Function
+`GetProcAddress` | 503 | Exported Function
+`CreateImage` | 430 | Exported Function
+`CreateDeviceANGLE` | 429 | Exported Function
+`SwapBuffers` | 612 | Exported Function
+`QueryStreamu64KHR` | 580 | Exported Function
+`QueryStreamKHR` | 579 | Exported Function
+`QuerySurfacePointerANGLE` | 583 | Exported Function
+`QuerySurface` | 582 | Exported Function
+`QueryDisplayAttribEXT` | 578 | Exported Function
+`QueryAPI` | 573 | Exported Function
+`PostSubBufferNV` | 564 | Exported Function
+`QueryDeviceAttribEXT` | 576 | Exported Function
+`QueryContext` | 574 | Exported Function
+`ReleaseDeviceANGLE` | 587 | Exported Function
+`StreamConsumerReleaseKHR` | 609 | Exported Function
+`StreamConsumerGLTextureExternalKHR` | 608 | Exported Function
+`SurfaceAttrib` | 611 | Exported Function
+`StreamPostD3DTextureNV12ANGLE` | 610 | Exported Function
+`StreamConsumerGLTextureExternalAttribsNV` | 607 | Exported Function
+`ReleaseThread` | 589 | Exported Function
+`ReleaseTexImage` | 588 | Exported Function
+`StreamConsumerAcquireKHR` | 606 | Exported Function
+`StreamAttribKHR` | 605 | Exported Function
 `glTransformFeedbackVaryings` | 217 | Exported Function
 `glTexSubImage3D` | 183 | Exported Function
 `glUniform1fv` | 113 | Exported Function
@@ -183,164 +183,164 @@ Function Name | Ordinal | Type
 `glUniform4uiv` | 235 | Exported Function
 `glUniformMatrix2x3fv` | 197 | Exported Function
 `glUniformMatrix2fv` | 128 | Exported Function
-`void __cdecl gl::GetTranslatedShaderSourceANGLE(unsigned int,int,int * __ptr64,char * __ptr64)` | 531 | Exported Function
-`void __cdecl gl::GetTexParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 530 | Exported Function
-`void __cdecl gl::GetUniformivRobustANGLE(unsigned int,int,int,int * __ptr64,int * __ptr64)` | 533 | Exported Function
-`void __cdecl gl::GetUniformfvRobustANGLE(unsigned int,int,int,int * __ptr64,float * __ptr64)` | 532 | Exported Function
-`void __cdecl gl::GetTexParameterIuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 528 | Exported Function
-`void __cdecl gl::GetTexLevelParameterivRobustANGLE(unsigned int,int,unsigned int,int,int * __ptr64,int * __ptr64)` | 526 | Exported Function
-`void __cdecl gl::GetTexLevelParameterfvRobustANGLE(unsigned int,int,unsigned int,int,int * __ptr64,float * __ptr64)` | 525 | Exported Function
-`void __cdecl gl::GetTexParameterIivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 527 | Exported Function
-`void __cdecl gl::GetTexParameterfvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 529 | Exported Function
-`void __cdecl gl::GetUniformuivRobustANGLE(unsigned int,int,int,int * __ptr64,unsigned int * __ptr64)` | 534 | Exported Function
-`void __cdecl gl::MatrixLoadfCHROMIUM(unsigned int,float const * __ptr64)` | 555 | Exported Function
-`void __cdecl gl::InsertEventMarkerEXT(int,char const * __ptr64)` | 546 | Exported Function
-`void __cdecl gl::ObjectLabelKHR(unsigned int,unsigned int,int,char const * __ptr64)` | 556 | Exported Function
-`void __cdecl gl::MatrixLoadIdentityCHROMIUM(unsigned int)` | 554 | Exported Function
-`void __cdecl gl::GetVertexAttribPointervRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 537 | Exported Function
-`void __cdecl gl::GetVertexAttribIivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 535 | Exported Function
-`void __cdecl gl::GetVertexAttribfvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 538 | Exported Function
-`void __cdecl gl::GetVertexAttribivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 539 | Exported Function
-`void __cdecl gl::GetVertexAttribIuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 536 | Exported Function
-`void __cdecl gl::GetShaderivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 522 | Exported Function
-`void __cdecl gl::GetQueryObjecti64vEXT(unsigned int,unsigned int,__int64 * __ptr64)` | 507 | Exported Function
-`void __cdecl gl::GetQueryivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 516 | Exported Function
-`void __cdecl gl::GetQueryObjectivEXT(unsigned int,unsigned int,int * __ptr64)` | 509 | Exported Function
-`void __cdecl gl::GetQueryObjecti64vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 508 | Exported Function
-`void __cdecl gl::GetQueryivEXT(unsigned int,unsigned int,int * __ptr64)` | 515 | Exported Function
-`void __cdecl gl::GetProgramBinaryOES(unsigned int,int,int * __ptr64,unsigned int * __ptr64,void * __ptr64)` | 504 | Exported Function
-`void __cdecl gl::GetPointervRobustANGLERobustANGLE(unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 502 | Exported Function
-`void __cdecl gl::GetProgramivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 506 | Exported Function
-`void __cdecl gl::GetProgramInterfaceivRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 505 | Exported Function
-`void __cdecl gl::GetQueryObjectivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 510 | Exported Function
-`void __cdecl gl::GetSamplerParameterIivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 518 | Exported Function
-`void __cdecl gl::GetSamplerParameterfvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 520 | Exported Function
-`void __cdecl gl::GetSamplerParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 521 | Exported Function
-`void __cdecl gl::GetSamplerParameterIuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 519 | Exported Function
-`void __cdecl gl::GetRenderbufferParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 517 | Exported Function
-`void __cdecl gl::GetQueryObjectui64vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned __int64 * __ptr64)` | 512 | Exported Function
-`void __cdecl gl::GetQueryObjectui64vEXT(unsigned int,unsigned int,unsigned __int64 * __ptr64)` | 511 | Exported Function
-`void __cdecl gl::GetQueryObjectuivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned int * __ptr64)` | 514 | Exported Function
-`void __cdecl gl::GetQueryObjectuivEXT(unsigned int,unsigned int,unsigned int * __ptr64)` | 513 | Exported Function
-`void __cdecl gl::ObjectPtrLabelKHR(void const * __ptr64,int,char const * __ptr64)` | 557 | Exported Function
-`void __cdecl gl::StencilThenCoverFillPathInstancedCHROMIUM(int,unsigned int,void const * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int,float const * __ptr64)` | 602 | Exported Function
-`void __cdecl gl::StencilThenCoverFillPathCHROMIUM(unsigned int,unsigned int,unsigned int,unsigned int)` | 601 | Exported Function
-`void __cdecl gl::StencilThenCoverStrokePathInstancedCHROMIUM(int,unsigned int,void const * __ptr64,unsigned int,int,unsigned int,unsigned int,unsigned int,float const * __ptr64)` | 604 | Exported Function
-`void __cdecl gl::StencilThenCoverStrokePathCHROMIUM(unsigned int,int,unsigned int,unsigned int)` | 603 | Exported Function
-`void __cdecl gl::StencilStrokePathInstancedCHROMIUM(int,unsigned int,void const * __ptr64,unsigned int,int,unsigned int,unsigned int,float const * __ptr64)` | 600 | Exported Function
-`void __cdecl gl::StencilFillPathCHROMIUM(unsigned int,unsigned int,unsigned int)` | 597 | Exported Function
-`void __cdecl gl::SetFenceNV(unsigned int,unsigned int)` | 596 | Exported Function
-`void __cdecl gl::StencilStrokePathCHROMIUM(unsigned int,int,unsigned int)` | 599 | Exported Function
-`void __cdecl gl::StencilFillPathInstancedCHROMIUM(int,unsigned int,void const * __ptr64,unsigned int,unsigned int,unsigned int,unsigned int,float const * __ptr64)` | 598 | Exported Function
-`void __cdecl gl::TexImage2DRobustANGLE(unsigned int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 617 | Exported Function
-`void __cdecl gl::TexSubImage2DRobustANGLE(unsigned int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 624 | Exported Function
-`void __cdecl gl::TexStorage2DEXT(unsigned int,int,unsigned int,int,int)` | 623 | Exported Function
-`void __cdecl gl::VertexAttribDivisorANGLE(unsigned int,unsigned int)` | 627 | Exported Function
-`void __cdecl gl::TexSubImage3DRobustANGLE(unsigned int,int,int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 625 | Exported Function
-`void __cdecl gl::TexParameterivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 622 | Exported Function
-`void __cdecl gl::TexParameterfvRobustANGLE(unsigned int,unsigned int,int,float const * __ptr64)` | 621 | Exported Function
-`void __cdecl gl::TexImage3DRobustANGLE(unsigned int,int,int,int,int,int,int,unsigned int,unsigned int,int,void const * __ptr64)` | 618 | Exported Function
-`void __cdecl gl::TexParameterIuivRobustANGLE(unsigned int,unsigned int,int,unsigned int const * __ptr64)` | 620 | Exported Function
-`void __cdecl gl::TexParameterIivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 619 | Exported Function
-`void __cdecl gl::SamplerParameterivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 595 | Exported Function
-`void __cdecl gl::ProgramBinaryOES(unsigned int,unsigned int,void const * __ptr64,int)` | 565 | Exported Function
-`void __cdecl gl::PopGroupMarkerEXT(void)` | 563 | Exported Function
-`void __cdecl gl::PushDebugGroupKHR(unsigned int,unsigned int,int,char const * __ptr64)` | 571 | Exported Function
-`void __cdecl gl::ProgramPathFragmentInputGenCHROMIUM(unsigned int,int,unsigned int,int,float const * __ptr64)` | 570 | Exported Function
-`void __cdecl gl::PopDebugGroupKHR(void)` | 562 | Exported Function
-`void __cdecl gl::PathParameterfCHROMIUM(unsigned int,unsigned int,float)` | 559 | Exported Function
-`void __cdecl gl::PathCommandsCHROMIUM(unsigned int,int,unsigned char const * __ptr64,int,unsigned int,void const * __ptr64)` | 558 | Exported Function
-`void __cdecl gl::PathStencilFuncCHROMIUM(unsigned int,int,unsigned int)` | 561 | Exported Function
-`void __cdecl gl::PathParameteriCHROMIUM(unsigned int,unsigned int,int)` | 560 | Exported Function
-`void __cdecl gl::PushGroupMarkerEXT(int,char const * __ptr64)` | 572 | Exported Function
-`void __cdecl gl::SamplerParameterfvRobustANGLE(unsigned int,unsigned int,int,float const * __ptr64)` | 594 | Exported Function
-`void __cdecl gl::RequestExtensionANGLE(char const * __ptr64)` | 591 | Exported Function
-`void __cdecl gl::SamplerParameterIuivRobustANGLE(unsigned int,unsigned int,int,unsigned int const * __ptr64)` | 593 | Exported Function
-`void __cdecl gl::SamplerParameterIivRobustANGLE(unsigned int,unsigned int,int,int const * __ptr64)` | 592 | Exported Function
-`void __cdecl gl::RenderbufferStorageMultisampleANGLE(unsigned int,int,unsigned int,int,int)` | 590 | Exported Function
-`void __cdecl gl::ReadnPixelsEXT(int,int,int,int,unsigned int,unsigned int,int,void * __ptr64)` | 585 | Exported Function
-`void __cdecl gl::QueryCounterEXT(unsigned int,unsigned int)` | 575 | Exported Function
-`void __cdecl gl::ReadPixelsRobustANGLE(int,int,int,int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,int * __ptr64,void * __ptr64)` | 584 | Exported Function
-`void __cdecl gl::ReadnPixelsRobustANGLE(int,int,int,int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64,int * __ptr64,void * __ptr64)` | 586 | Exported Function
-`void __cdecl gl::CoverageModulationCHROMIUM(unsigned int)` | 427 | Exported Function
-`void __cdecl gl::CopyTextureCHROMIUM(unsigned int,int,unsigned int,unsigned int,int,int,unsigned int,unsigned char,unsigned char,unsigned char)` | 422 | Exported Function
-`void __cdecl gl::CoverFillPathInstancedCHROMIUM(int,unsigned int,void const * __ptr64,unsigned int,unsigned int,unsigned int,float const * __ptr64)` | 424 | Exported Function
-`void __cdecl gl::CoverFillPathCHROMIUM(unsigned int,unsigned int)` | 423 | Exported Function
-`void __cdecl gl::CopySubTextureCHROMIUM(unsigned int,int,unsigned int,unsigned int,int,int,int,int,int,int,int,unsigned char,unsigned char,unsigned char)` | 421 | Exported Function
-`void __cdecl gl::CompressedTexImage3DRobustANGLE(unsigned int,int,unsigned int,int,int,int,int,int,int,void const * __ptr64)` | 417 | Exported Function
-`void __cdecl gl::CompressedTexImage2DRobustANGLE(unsigned int,int,unsigned int,int,int,int,int,int,void const * __ptr64)` | 416 | Exported Function
-`void __cdecl gl::CompressedTexSubImage3DRobustANGLE(unsigned int,int,int,int,int,int,int,int,unsigned int,int,int,void const * __ptr64)` | 419 | Exported Function
-`void __cdecl gl::CompressedTexSubImage2DRobustANGLE(unsigned int,int,int,int,int,int,unsigned int,int,int,void const * __ptr64)` | 418 | Exported Function
-`void __cdecl gl::CoverStrokePathCHROMIUM(unsigned int,unsigned int)` | 425 | Exported Function
-`void __cdecl gl::DeleteQueriesEXT(int,unsigned int const * __ptr64)` | 446 | Exported Function
-`void __cdecl gl::DeletePathsCHROMIUM(unsigned int,int)` | 445 | Exported Function
-`void __cdecl gl::DiscardFramebufferEXT(unsigned int,int,unsigned int const * __ptr64)` | 454 | Exported Function
-`void __cdecl gl::DeleteVertexArraysOES(int,unsigned int const * __ptr64)` | 447 | Exported Function
-`void __cdecl gl::DeleteFencesNV(int,unsigned int const * __ptr64)` | 444 | Exported Function
-`void __cdecl gl::DebugMessageCallbackKHR(void (__cdecl*)(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64,void const * __ptr64),void const * __ptr64)` | 441 | Exported Function
-`void __cdecl gl::CoverStrokePathInstancedCHROMIUM(int,unsigned int,void const * __ptr64,unsigned int,unsigned int,unsigned int,float const * __ptr64)` | 426 | Exported Function
-`void __cdecl gl::DebugMessageInsertKHR(unsigned int,unsigned int,unsigned int,unsigned int,int,char const * __ptr64)` | 443 | Exported Function
-`void __cdecl gl::DebugMessageControlKHR(unsigned int,unsigned int,unsigned int,int,unsigned int const * __ptr64,unsigned char)` | 442 | Exported Function
-`void __cdecl gl::CompressedCopyTextureCHROMIUM(unsigned int,unsigned int)` | 292 | Exported Function
-`void * __ptr64 __cdecl egl::GetCurrentSurface(int)` | 480 | Exported Function
-`void * __ptr64 __cdecl egl::GetCurrentDisplay(void)` | 479 | Exported Function
-`void * __ptr64 __cdecl egl::GetPlatformDisplay(unsigned int,void * __ptr64,__int64 const * __ptr64)` | 499 | Exported Function
-`void * __ptr64 __cdecl egl::GetDisplay(struct HDC__ * __ptr64)` | 482 | Exported Function
-`void * __ptr64 __cdecl egl::GetCurrentContext(void)` | 478 | Exported Function
-`void * __ptr64 __cdecl egl::CreateStreamKHR(void * __ptr64,int const * __ptr64)` | 437 | Exported Function
-`void * __ptr64 __cdecl egl::CreatePlatformWindowSurface(void * __ptr64,void * __ptr64,void * __ptr64,__int64 const * __ptr64)` | 436 | Exported Function
-`void * __ptr64 __cdecl egl::CreateWindowSurface(void * __ptr64,void * __ptr64,struct HWND__ * __ptr64,int const * __ptr64)` | 440 | Exported Function
-`void * __ptr64 __cdecl egl::CreateSync(void * __ptr64,unsigned int,__int64 const * __ptr64)` | 439 | Exported Function
-`void * __ptr64 __cdecl egl::GetPlatformDisplayEXT(unsigned int,void * __ptr64,int const * __ptr64)` | 500 | Exported Function
-`void __cdecl gl::BindUniformLocationCHROMIUM(unsigned int,int,char const * __ptr64)` | 177 | Exported Function
-`void __cdecl gl::BindFragmentInputLocationCHROMIUM(unsigned int,int,char const * __ptr64)` | 148 | Exported Function
-`void __cdecl gl::BlitFramebufferANGLE(int,int,int,int,int,int,int,int,unsigned int,unsigned int)` | 284 | Exported Function
-`void __cdecl gl::BindVertexArrayOES(unsigned int)` | 178 | Exported Function
-`void __cdecl gl::BeginQueryEXT(unsigned int,unsigned int)` | 146 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferRangeEXT(unsigned int,__int64,__int64,unsigned int)` | 553 | Exported Function
-`void * __ptr64 __cdecl gl::MapBufferOES(unsigned int,unsigned int)` | 552 | Exported Function
-`void __cdecl egl::ProgramCacheQueryANGLE(void * __ptr64,int,void * __ptr64,int * __ptr64,void * __ptr64,int * __ptr64)` | 568 | Exported Function
-`void __cdecl egl::ProgramCachePopulateANGLE(void * __ptr64,void const * __ptr64,int,void const * __ptr64,int)` | 567 | Exported Function
-`void __cdecl gl::DrawArraysInstancedANGLE(unsigned int,int,int,int)` | 455 | Exported Function
-`void __cdecl gl::GetIntegervRobustANGLE(unsigned int,int,int * __ptr64,int * __ptr64)` | 492 | Exported Function
-`void __cdecl gl::GetIntegeri_vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 491 | Exported Function
-`void __cdecl gl::GetMultisamplefvRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,float * __ptr64)` | 494 | Exported Function
-`void __cdecl gl::GetInternalformativRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 493 | Exported Function
-`void __cdecl gl::GetInteger64vRobustANGLE(unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 490 | Exported Function
-`void __cdecl gl::GetFramebufferAttachmentParameterivRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 486 | Exported Function
-`void __cdecl gl::GetFloatvRobustANGLE(unsigned int,int,int * __ptr64,float * __ptr64)` | 485 | Exported Function
-`void __cdecl gl::GetInteger64i_vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 489 | Exported Function
-`void __cdecl gl::GetFramebufferParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 487 | Exported Function
-`void __cdecl gl::GetnUniformfvEXT(unsigned int,int,int,float * __ptr64)` | 540 | Exported Function
-`void __cdecl gl::GetPathParameterfCHROMIUM(unsigned int,unsigned int,float * __ptr64)` | 497 | Exported Function
-`void __cdecl gl::GetObjectPtrLabelKHR(void const * __ptr64,int,int * __ptr64,char * __ptr64)` | 496 | Exported Function
-`void __cdecl gl::GetPointervKHR(unsigned int,void * __ptr64 * __ptr64)` | 501 | Exported Function
-`void __cdecl gl::GetPathParameteriCHROMIUM(unsigned int,unsigned int,int * __ptr64)` | 498 | Exported Function
-`void __cdecl gl::GetObjectLabelKHR(unsigned int,unsigned int,int,int * __ptr64,char * __ptr64)` | 495 | Exported Function
-`void __cdecl gl::GetnUniformivEXT(unsigned int,int,int,int * __ptr64)` | 542 | Exported Function
-`void __cdecl gl::GetnUniformfvRobustANGLE(unsigned int,int,int,int * __ptr64,float * __ptr64)` | 541 | Exported Function
-`void __cdecl gl::GetnUniformuivRobustANGLE(unsigned int,int,int,int * __ptr64,unsigned int * __ptr64)` | 544 | Exported Function
-`void __cdecl gl::GetnUniformivRobustANGLE(unsigned int,int,int,int * __ptr64,int * __ptr64)` | 543 | Exported Function
-`void __cdecl gl::GetFenceivNV(unsigned int,unsigned int,int * __ptr64)` | 484 | Exported Function
-`void __cdecl gl::FlushMappedBufferRangeEXT(unsigned int,__int64,__int64)` | 462 | Exported Function
-`void __cdecl gl::FinishFenceNV(unsigned int)` | 461 | Exported Function
-`void __cdecl gl::FramebufferTextureMultiviewSideBySideANGLE(unsigned int,unsigned int,unsigned int,int,int,int const * __ptr64)` | 464 | Exported Function
-`void __cdecl gl::FramebufferTextureMultiviewLayeredANGLE(unsigned int,unsigned int,unsigned int,int,int,int)` | 463 | Exported Function
-`void __cdecl gl::EndQueryEXT(unsigned int)` | 460 | Exported Function
-`void __cdecl gl::DrawElementsInstancedANGLE(unsigned int,int,unsigned int,void const * __ptr64,int)` | 457 | Exported Function
-`void __cdecl gl::DrawBuffersEXT(int,unsigned int const * __ptr64)` | 456 | Exported Function
-`void __cdecl gl::EGLImageTargetTexture2DOES(unsigned int,void * __ptr64)` | 459 | Exported Function
-`void __cdecl gl::EGLImageTargetRenderbufferStorageOES(unsigned int,void * __ptr64)` | 458 | Exported Function
-`void __cdecl gl::GenFencesNV(int,unsigned int * __ptr64)` | 465 | Exported Function
-`void __cdecl gl::GetBufferParameterivRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 473 | Exported Function
-`void __cdecl gl::GetBufferParameteri64vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,__int64 * __ptr64)` | 472 | Exported Function
-`void __cdecl gl::GetBufferPointervRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,void * __ptr64 * __ptr64)` | 475 | Exported Function
-`void __cdecl gl::GetBufferPointervOES(unsigned int,unsigned int,void * __ptr64 * __ptr64)` | 474 | Exported Function
-`void __cdecl gl::GetBooleanvRobustANGLE(unsigned int,int,int * __ptr64,unsigned char * __ptr64)` | 471 | Exported Function
-`void __cdecl gl::GenVertexArraysOES(int,unsigned int * __ptr64)` | 468 | Exported Function
-`void __cdecl gl::GenQueriesEXT(int,unsigned int * __ptr64)` | 467 | Exported Function
-`void __cdecl gl::GetBooleani_vRobustANGLE(unsigned int,unsigned int,int,int * __ptr64,unsigned char * __ptr64)` | 470 | Exported Function
-`void __cdecl gl::GetActiveUniformBlockivRobustANGLE(unsigned int,unsigned int,unsigned int,int,int * __ptr64,int * __ptr64)` | 469 | Exported Function
+`GetTranslatedShaderSourceANGLE` | 531 | Exported Function
+`GetTexParameterivRobustANGLE` | 530 | Exported Function
+`GetUniformivRobustANGLE` | 533 | Exported Function
+`GetUniformfvRobustANGLE` | 532 | Exported Function
+`GetTexParameterIuivRobustANGLE` | 528 | Exported Function
+`GetTexLevelParameterivRobustANGLE` | 526 | Exported Function
+`GetTexLevelParameterfvRobustANGLE` | 525 | Exported Function
+`GetTexParameterIivRobustANGLE` | 527 | Exported Function
+`GetTexParameterfvRobustANGLE` | 529 | Exported Function
+`GetUniformuivRobustANGLE` | 534 | Exported Function
+`MatrixLoadfCHROMIUM` | 555 | Exported Function
+`InsertEventMarkerEXT` | 546 | Exported Function
+`ObjectLabelKHR` | 556 | Exported Function
+`MatrixLoadIdentityCHROMIUM` | 554 | Exported Function
+`GetVertexAttribPointervRobustANGLE` | 537 | Exported Function
+`GetVertexAttribIivRobustANGLE` | 535 | Exported Function
+`GetVertexAttribfvRobustANGLE` | 538 | Exported Function
+`GetVertexAttribivRobustANGLE` | 539 | Exported Function
+`GetVertexAttribIuivRobustANGLE` | 536 | Exported Function
+`GetShaderivRobustANGLE` | 522 | Exported Function
+`GetQueryObjecti64vEXT` | 507 | Exported Function
+`GetQueryivRobustANGLE` | 516 | Exported Function
+`GetQueryObjectivEXT` | 509 | Exported Function
+`GetQueryObjecti64vRobustANGLE` | 508 | Exported Function
+`GetQueryivEXT` | 515 | Exported Function
+`GetProgramBinaryOES` | 504 | Exported Function
+`GetPointervRobustANGLERobustANGLE` | 502 | Exported Function
+`GetProgramivRobustANGLE` | 506 | Exported Function
+`GetProgramInterfaceivRobustANGLE` | 505 | Exported Function
+`GetQueryObjectivRobustANGLE` | 510 | Exported Function
+`GetSamplerParameterIivRobustANGLE` | 518 | Exported Function
+`GetSamplerParameterfvRobustANGLE` | 520 | Exported Function
+`GetSamplerParameterivRobustANGLE` | 521 | Exported Function
+`GetSamplerParameterIuivRobustANGLE` | 519 | Exported Function
+`GetRenderbufferParameterivRobustANGLE` | 517 | Exported Function
+`GetQueryObjectui64vRobustANGLE` | 512 | Exported Function
+`GetQueryObjectui64vEXT` | 511 | Exported Function
+`GetQueryObjectuivRobustANGLE` | 514 | Exported Function
+`GetQueryObjectuivEXT` | 513 | Exported Function
+`ObjectPtrLabelKHR` | 557 | Exported Function
+`StencilThenCoverFillPathInstancedCHROMIUM` | 602 | Exported Function
+`StencilThenCoverFillPathCHROMIUM` | 601 | Exported Function
+`StencilThenCoverStrokePathInstancedCHROMIUM` | 604 | Exported Function
+`StencilThenCoverStrokePathCHROMIUM` | 603 | Exported Function
+`StencilStrokePathInstancedCHROMIUM` | 600 | Exported Function
+`StencilFillPathCHROMIUM` | 597 | Exported Function
+`SetFenceNV` | 596 | Exported Function
+`StencilStrokePathCHROMIUM` | 599 | Exported Function
+`StencilFillPathInstancedCHROMIUM` | 598 | Exported Function
+`TexImage2DRobustANGLE` | 617 | Exported Function
+`TexSubImage2DRobustANGLE` | 624 | Exported Function
+`TexStorage2DEXT` | 623 | Exported Function
+`VertexAttribDivisorANGLE` | 627 | Exported Function
+`TexSubImage3DRobustANGLE` | 625 | Exported Function
+`TexParameterivRobustANGLE` | 622 | Exported Function
+`TexParameterfvRobustANGLE` | 621 | Exported Function
+`TexImage3DRobustANGLE` | 618 | Exported Function
+`TexParameterIuivRobustANGLE` | 620 | Exported Function
+`TexParameterIivRobustANGLE` | 619 | Exported Function
+`SamplerParameterivRobustANGLE` | 595 | Exported Function
+`ProgramBinaryOES` | 565 | Exported Function
+`PopGroupMarkerEXT` | 563 | Exported Function
+`PushDebugGroupKHR` | 571 | Exported Function
+`ProgramPathFragmentInputGenCHROMIUM` | 570 | Exported Function
+`PopDebugGroupKHR` | 562 | Exported Function
+`PathParameterfCHROMIUM` | 559 | Exported Function
+`PathCommandsCHROMIUM` | 558 | Exported Function
+`PathStencilFuncCHROMIUM` | 561 | Exported Function
+`PathParameteriCHROMIUM` | 560 | Exported Function
+`PushGroupMarkerEXT` | 572 | Exported Function
+`SamplerParameterfvRobustANGLE` | 594 | Exported Function
+`RequestExtensionANGLE` | 591 | Exported Function
+`SamplerParameterIuivRobustANGLE` | 593 | Exported Function
+`SamplerParameterIivRobustANGLE` | 592 | Exported Function
+`RenderbufferStorageMultisampleANGLE` | 590 | Exported Function
+`ReadnPixelsEXT` | 585 | Exported Function
+`QueryCounterEXT` | 575 | Exported Function
+`ReadPixelsRobustANGLE` | 584 | Exported Function
+`ReadnPixelsRobustANGLE` | 586 | Exported Function
+`CoverageModulationCHROMIUM` | 427 | Exported Function
+`CopyTextureCHROMIUM` | 422 | Exported Function
+`CoverFillPathInstancedCHROMIUM` | 424 | Exported Function
+`CoverFillPathCHROMIUM` | 423 | Exported Function
+`CopySubTextureCHROMIUM` | 421 | Exported Function
+`CompressedTexImage3DRobustANGLE` | 417 | Exported Function
+`CompressedTexImage2DRobustANGLE` | 416 | Exported Function
+`CompressedTexSubImage3DRobustANGLE` | 419 | Exported Function
+`CompressedTexSubImage2DRobustANGLE` | 418 | Exported Function
+`CoverStrokePathCHROMIUM` | 425 | Exported Function
+`DeleteQueriesEXT` | 446 | Exported Function
+`DeletePathsCHROMIUM` | 445 | Exported Function
+`DiscardFramebufferEXT` | 454 | Exported Function
+`DeleteVertexArraysOES` | 447 | Exported Function
+`DeleteFencesNV` | 444 | Exported Function
+`DebugMessageCallbackKHR` | 441 | Exported Function
+`CoverStrokePathInstancedCHROMIUM` | 426 | Exported Function
+`DebugMessageInsertKHR` | 443 | Exported Function
+`DebugMessageControlKHR` | 442 | Exported Function
+`CompressedCopyTextureCHROMIUM` | 292 | Exported Function
+`GetCurrentSurface` | 480 | Exported Function
+`GetCurrentDisplay` | 479 | Exported Function
+`GetPlatformDisplay` | 499 | Exported Function
+`GetDisplay` | 482 | Exported Function
+`GetCurrentContext` | 478 | Exported Function
+`CreateStreamKHR` | 437 | Exported Function
+`CreatePlatformWindowSurface` | 436 | Exported Function
+`CreateWindowSurface` | 440 | Exported Function
+`CreateSync` | 439 | Exported Function
+`GetPlatformDisplayEXT` | 500 | Exported Function
+`BindUniformLocationCHROMIUM` | 177 | Exported Function
+`BindFragmentInputLocationCHROMIUM` | 148 | Exported Function
+`BlitFramebufferANGLE` | 284 | Exported Function
+`BindVertexArrayOES` | 178 | Exported Function
+`BeginQueryEXT` | 146 | Exported Function
+`MapBufferRangeEXT` | 553 | Exported Function
+`MapBufferOES` | 552 | Exported Function
+`ProgramCacheQueryANGLE` | 568 | Exported Function
+`ProgramCachePopulateANGLE` | 567 | Exported Function
+`DrawArraysInstancedANGLE` | 455 | Exported Function
+`GetIntegervRobustANGLE` | 492 | Exported Function
+`GetIntegeri_vRobustANGLE` | 491 | Exported Function
+`GetMultisamplefvRobustANGLE` | 494 | Exported Function
+`GetInternalformativRobustANGLE` | 493 | Exported Function
+`GetInteger64vRobustANGLE` | 490 | Exported Function
+`GetFramebufferAttachmentParameterivRobustANGLE` | 486 | Exported Function
+`GetFloatvRobustANGLE` | 485 | Exported Function
+`GetInteger64i_vRobustANGLE` | 489 | Exported Function
+`GetFramebufferParameterivRobustANGLE` | 487 | Exported Function
+`GetnUniformfvEXT` | 540 | Exported Function
+`GetPathParameterfCHROMIUM` | 497 | Exported Function
+`GetObjectPtrLabelKHR` | 496 | Exported Function
+`GetPointervKHR` | 501 | Exported Function
+`GetPathParameteriCHROMIUM` | 498 | Exported Function
+`GetObjectLabelKHR` | 495 | Exported Function
+`GetnUniformivEXT` | 542 | Exported Function
+`GetnUniformfvRobustANGLE` | 541 | Exported Function
+`GetnUniformuivRobustANGLE` | 544 | Exported Function
+`GetnUniformivRobustANGLE` | 543 | Exported Function
+`GetFenceivNV` | 484 | Exported Function
+`FlushMappedBufferRangeEXT` | 462 | Exported Function
+`FinishFenceNV` | 461 | Exported Function
+`FramebufferTextureMultiviewSideBySideANGLE` | 464 | Exported Function
+`FramebufferTextureMultiviewLayeredANGLE` | 463 | Exported Function
+`EndQueryEXT` | 460 | Exported Function
+`DrawElementsInstancedANGLE` | 457 | Exported Function
+`DrawBuffersEXT` | 456 | Exported Function
+`EGLImageTargetTexture2DOES` | 459 | Exported Function
+`EGLImageTargetRenderbufferStorageOES` | 458 | Exported Function
+`GenFencesNV` | 465 | Exported Function
+`GetBufferParameterivRobustANGLE` | 473 | Exported Function
+`GetBufferParameteri64vRobustANGLE` | 472 | Exported Function
+`GetBufferPointervRobustANGLE` | 475 | Exported Function
+`GetBufferPointervOES` | 474 | Exported Function
+`GetBooleanvRobustANGLE` | 471 | Exported Function
+`GenVertexArraysOES` | 468 | Exported Function
+`GenQueriesEXT` | 467 | Exported Function
+`GetBooleani_vRobustANGLE` | 470 | Exported Function
+`GetActiveUniformBlockivRobustANGLE` | 469 | Exported Function
 `glStencilFillPathCHROMIUM` | 331 | Exported Function
 `glEnable` | 43 | Exported Function
 `glEGLImageTargetTexture2DOES` | 297 | Exported Function
@@ -448,8 +448,8 @@ Function Name | Ordinal | Type
 `glActiveShaderProgram` | 357 | Exported Function
 `ANGLEResetDisplayPlatform` | 633 | Exported Function
 `ANGLEGetDisplayPlatform` | 632 | Exported Function
-`char const * __ptr64 __cdecl egl::QueryString(void * __ptr64,int)` | 581 | Exported Function
-`char const * __ptr64 __cdecl egl::QueryDeviceStringEXT(void * __ptr64,int)` | 577 | Exported Function
+`QueryString` | 581 | Exported Function
+`QueryDeviceStringEXT` | 577 | Exported Function
 `glBeginTransformFeedback` | 213 | Exported Function
 `glBindImageTexture` | 399 | Exported Function
 `glBindFramebuffer` | 5 | Exported Function

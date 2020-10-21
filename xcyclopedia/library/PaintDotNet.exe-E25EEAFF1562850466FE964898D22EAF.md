@@ -10,6 +10,10 @@ excerpt: What is PaintDotNet.exe?
 * Comments: Image and photo editing software.
 
 
+## Screenshot
+
+![PaintDotNet.exe](screenshots/PaintDotNet.exe-E25EEAFF1562850466FE964898D22EAF-2.png)
+
 ## Hashes
 
 Type | Hash

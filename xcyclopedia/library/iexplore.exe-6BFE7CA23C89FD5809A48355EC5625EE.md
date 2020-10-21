@@ -126,6 +126,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Internet Explorer\iexplore.exe](iexplore.exe-2E414291458B49ACDA42C80A4C10DE7E.md) | 94
+[C:\Program Files (x86)\Internet Explorer\iexplore.exe](iexplore.exe-A2CD9CF67DEB267D7A2813F00D47245C.md) | 93
+[C:\Program Files\internet explorer\iexplore.exe](iexplore.exe-F640445694FD65DEC07CA3A84F560534.md) | 96
 
 ## Possible Misuse
 

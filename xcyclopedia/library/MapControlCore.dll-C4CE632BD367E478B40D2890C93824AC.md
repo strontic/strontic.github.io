@@ -26,159 +26,159 @@ PE256 | `00AC3A2119AD49E8E2B3B38EA215EFDD33888D38FC4107C4B2413EF0B46045F7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static long __cdecl core::RouteManeuver::FormatString(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &,unsigned long,...)` | 88 | Exported Function
-`public: static double __stdcall core::GeoCoordinates::GetMinLongitude(void)` | 155 | Exported Function
-`public: static double __stdcall core::GeoCoordinates::GetMinLatitude(void)` | 154 | Exported Function
-`public: static long __stdcall ApiAccessCheck::RestrictedAPIAccessCheck(void)` | 220 | Exported Function
-`public: static long __stdcall core::RouteManeuver::GetStringResource(unsigned long,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)` | 169 | Exported Function
-`public: static long __stdcall core::Route::Deserialize(class std::basic_istream<char,struct std::char_traits<char> > &,class core::Route *)` | 87 | Exported Function
-`public: static long __stdcall core::GeoRect::CalculateGeoRect(class std::vector<class core::GeoCoordinates *,class std::allocator<class core::GeoCoordinates *> > &,class core::GeoRect *)` | 79 | Exported Function
-`public: static double __stdcall core::GeoCoordinates::GetMaxLongitude(void)` | 153 | Exported Function
-`public: static bool __stdcall MapsSettings::IsChinaVariant(void)` | 200 | Exported Function
-`public: static bool __stdcall MapsSettings::GetEnableManeuverCondensing(void)` | 117 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetViolatedOptions(int *)` | 188 | Exported Function
-`public: static bool __stdcall MapsSettings::IsOldChinaRegKeySet(void)` | 206 | Exported Function
-`public: static double __stdcall core::GeoCoordinates::GetMaxLatitude(void)` | 152 | Exported Function
-`public: static class core::GeoCoordinates const * __stdcall MapsSettings::GetDefaultCenterFromTimezone(void)` | 110 | Exported Function
-`public: static bool __stdcall MapsSettings::IsWatermarkEnabled(void)` | 213 | Exported Function
-`public: static long __stdcall MapsSettings::GetBingAuthenticationKey(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 99 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserProfileLanguages(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 186 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserProfileLanguage(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 184 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserPreferredUILanguage(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 183 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserProfileLanguages(struct HSTRING__ * *)` | 185 | Exported Function
-`public: static long __stdcall MapsSettings::SetKeyValidationStatus(int)` | 234 | Exported Function
-`public: static long __stdcall MapsSettings::SetBingMapsKey(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > const &)` | 228 | Exported Function
-`public: static long __stdcall MapsSettings::SetBingAuthenticationKey(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > const &)` | 227 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserGeoRegionAsThreeLetterCode(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 182 | Exported Function
-`public: static long __stdcall MapsSettings::GetKeyValidationStatus(int *)` | 135 | Exported Function
-`public: static long __stdcall MapsSettings::GetDataAttribution(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 109 | Exported Function
-`public: static long __stdcall MapsSettings::GetBingMapsKey(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 100 | Exported Function
-`public: static long __stdcall MapsSettings::GetLimitNetworkUsage(bool *)` | 143 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserGeoRegion(struct HSTRING__ * *)` | 180 | Exported Function
-`public: static long __stdcall MapsSettings::GetUserGeoRegion(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > *)` | 181 | Exported Function
-`public: static long __stdcall MapsSettings::GetLocaleMapConfiguration(struct ILocaleMapConfiguration * *)` | 144 | Exported Function
-`public: long __thiscall core::GeoRect::GetCenter(class core::GeoCoordinates *)const ` | 105 | Exported Function
-`public: long __thiscall core::GeoRect::GetBottomRight(class core::GeoCoordinates *)const ` | 102 | Exported Function
-`public: int __thiscall OperationAdapterCore::GetInstanceId(void)const ` | 130 | Exported Function
-`public: long __thiscall core::GeoRect::GetTopLeft(class core::GeoCoordinates *)const ` | 173 | Exported Function
-`public: long __thiscall core::RouteManeuver::GetCurrentRoadName(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 108 | Exported Function
-`public: long __thiscall core::Route::Serialize(class std::basic_ostream<char,struct std::char_traits<char> > &)const ` | 221 | Exported Function
-`public: long __thiscall core::Route::Initialize(class std::shared_ptr<class msnma::IRoute>)` | 191 | Exported Function
-`public: enum QueryStatus __thiscall QueryAdapterCore::GetStatus(void)const ` | 167 | Exported Function
-`public: double __thiscall core::GeoRect::GetLeft(void)const ` | 138 | Exported Function
-`public: double __thiscall core::GeoRect::GetBottom(void)const ` | 101 | Exported Function
-`public: class std::shared_ptr<class msnma::IRoute> __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::GetBackingObject(void)const ` | 94 | Exported Function
-`public: double __thiscall core::GeoRect::GetRight(void)const ` | 162 | Exported Function
-`public: enum core::RouteManeuverType __thiscall core::RouteManeuver::GetManeuverType(void)const ` | 149 | Exported Function
-`public: enum core::CompassHeading __thiscall core::RouteManeuver::GetHeading(void)const ` | 128 | Exported Function
-`public: double __thiscall core::GeoRect::GetTop(void)const ` | 172 | Exported Function
-`public: long __thiscall core::RouteManeuver::GetFreewayExitNumber(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 121 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetAlternateRouteCount(unsigned int *)` | 90 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetAlternateRoute(unsigned int,class core::Route *)` | 89 | Exported Function
-`public: long __thiscall RouterAdapterCore::CalculateRoute(class std::vector<struct engine::RoutePoint,class std::allocator<struct engine::RoutePoint> > &&,enum engine::TravelMode,enum engine::RouteOptimization,unsigned long,unsigned int,struct engine::RouteOptions *)` | 81 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetAlternateRouteViolatedOption(unsigned int,int *)` | 91 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetRoute(class core::Route *)` | 163 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetProvider(enum engine::Provider *)` | 159 | Exported Function
-`public: long __thiscall RouterAdapterCore::GetConnectivityType(enum engine::ConnectivityType *)` | 106 | Exported Function
-`public: long __thiscall RouterAdapterCore::CalculateRoute(class std::vector<struct engine::RoutePoint,class std::allocator<struct engine::RoutePoint> > &&,enum engine::TravelMode,enum engine::RouteOptimization,unsigned long,unsigned int,long,struct engine::RouteOptions *)` | 80 | Exported Function
-`public: long __thiscall core::RouteManeuver::GetStartCoordinates(class core::GeoCoordinates *)const ` | 165 | Exported Function
-`public: long __thiscall core::RouteManeuver::GetManeuverNotice(int *)const ` | 148 | Exported Function
-`public: long __thiscall core::RouteManeuver::GetInstructionText(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 131 | Exported Function
-`public: long __thiscall core::RouteManeuver::GetTargetRoadName(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 171 | Exported Function
-`public: long __thiscall RouterAdapterCore::CalculateRoute(class std::vector<class core::GeoCoordinates,class std::allocator<class core::GeoCoordinates> > const &,enum engine::TravelMode,enum engine::RouteOptimization,unsigned long,struct engine::RouteOptions *)` | 83 | Exported Function
-`public: long __thiscall RouterAdapterCore::CalculateRoute(class std::vector<class core::GeoCoordinates,class std::allocator<class core::GeoCoordinates> > const &,enum engine::TravelMode,enum engine::RouteOptimization,unsigned long,long,struct engine::RouteOptions *)` | 82 | Exported Function
-`public: long __thiscall OperationAdapterCore::GetErrorCode(void)const ` | 120 | Exported Function
-`public: static long __stdcall MapsSettings::SetLimitNetworkUsage(bool)` | 236 | Exported Function
-`public: virtual unsigned long __thiscall core::RouteLeg::GetManeuverCount(void)const ` | 147 | Exported Function
-`public: virtual unsigned long __thiscall core::RouteLeg::GetLengthInMeters(void)const ` | 142 | Exported Function
-`public: virtual unsigned long __thiscall core::RouteLeg::GetGeometryCoordinatesCount(void)const ` | 126 | Exported Function
-`public: virtual unsigned long __thiscall RouterAdapterCore::GetResultSqmId(void)const ` | 161 | Exported Function
-`public: virtual void __thiscall core::GeoCoordinates::SetLongitude(double)` | 237 | Exported Function
-`public: virtual void __thiscall core::GeoCoordinates::SetLatitude(double)` | 235 | Exported Function
-`public: virtual void __thiscall core::GeoCoordinates::SetAltitude(double)` | 222 | Exported Function
-`public: virtual unsigned long __thiscall core::RouteLeg::GetDurationWithoutTrafficInSeconds(void)const ` | 116 | Exported Function
-`public: virtual unsigned long __thiscall core::Route::GetDurationWithoutTrafficInSeconds(void)const ` | 115 | Exported Function
-`public: virtual unsigned long __thiscall core::Route::GetDurationInSeconds(void)const ` | 113 | Exported Function
-`public: virtual long __thiscall UIThreadCore<struct IRouterUI>::GetGenerationNumber(void)const ` | 122 | Exported Function
-`public: virtual unsigned long __thiscall core::Route::GetGeometryCoordinatesCount(void)const ` | 125 | Exported Function
-`public: virtual unsigned long __thiscall core::RouteLeg::GetDurationInSeconds(void)const ` | 114 | Exported Function
-`public: virtual unsigned long __thiscall core::Route::GetLengthInMeters(void)const ` | 141 | Exported Function
-`public: virtual unsigned long __thiscall core::Route::GetLegCount(void)const ` | 140 | Exported Function
-`public: virtual void __thiscall RouterAdapterCore::OnRouteDone(struct engine::RouteResult const &)` | 214 | Exported Function
+`allocator` | 88 | Exported Function
+`GetMinLongitude` | 155 | Exported Function
+`GetMinLatitude` | 154 | Exported Function
+`RestrictedAPIAccessCheck` | 220 | Exported Function
+`allocator` | 169 | Exported Function
+`Route` | 87 | Exported Function
+`GeoRect` | 79 | Exported Function
+`GetMaxLongitude` | 153 | Exported Function
+`IsChinaVariant` | 200 | Exported Function
+`GetEnableManeuverCondensing` | 117 | Exported Function
+`GetViolatedOptions` | 188 | Exported Function
+`IsOldChinaRegKeySet` | 206 | Exported Function
+`GetMaxLatitude` | 152 | Exported Function
+`GetDefaultCenterFromTimezone` | 110 | Exported Function
+`IsWatermarkEnabled` | 213 | Exported Function
+`allocator` | 99 | Exported Function
+`allocator` | 186 | Exported Function
+`allocator` | 184 | Exported Function
+`allocator` | 183 | Exported Function
+`GetUserProfileLanguages` | 185 | Exported Function
+`SetKeyValidationStatus` | 234 | Exported Function
+`allocator` | 228 | Exported Function
+`allocator` | 227 | Exported Function
+`allocator` | 182 | Exported Function
+`GetKeyValidationStatus` | 135 | Exported Function
+`allocator` | 109 | Exported Function
+`allocator` | 100 | Exported Function
+`GetLimitNetworkUsage` | 143 | Exported Function
+`GetUserGeoRegion` | 180 | Exported Function
+`allocator` | 181 | Exported Function
+`GetLocaleMapConfiguration` | 144 | Exported Function
+`GeoCoordinates` | 105 | Exported Function
+`GeoCoordinates` | 102 | Exported Function
+`GetInstanceId` | 130 | Exported Function
+`GeoCoordinates` | 173 | Exported Function
+`allocator` | 108 | Exported Function
+`char_traits` | 221 | Exported Function
+`IRoute` | 191 | Exported Function
+`GetStatus` | 167 | Exported Function
+`GetLeft` | 138 | Exported Function
+`GetBottom` | 101 | Exported Function
+`GetBackingObject` | 94 | Exported Function
+`GetRight` | 162 | Exported Function
+`GetManeuverType` | 149 | Exported Function
+`GetHeading` | 128 | Exported Function
+`GetTop` | 172 | Exported Function
+`allocator` | 121 | Exported Function
+`GetAlternateRouteCount` | 90 | Exported Function
+`Route` | 89 | Exported Function
+`RouteOptions` | 81 | Exported Function
+`GetAlternateRouteViolatedOption` | 91 | Exported Function
+`Route` | 163 | Exported Function
+`Provider` | 159 | Exported Function
+`ConnectivityType` | 106 | Exported Function
+`RouteOptions` | 80 | Exported Function
+`GeoCoordinates` | 165 | Exported Function
+`GetManeuverNotice` | 148 | Exported Function
+`allocator` | 131 | Exported Function
+`allocator` | 171 | Exported Function
+`RouteOptions` | 83 | Exported Function
+`RouteOptions` | 82 | Exported Function
+`GetErrorCode` | 120 | Exported Function
+`SetLimitNetworkUsage` | 236 | Exported Function
+`GetManeuverCount` | 147 | Exported Function
+`GetLengthInMeters` | 142 | Exported Function
+`GetGeometryCoordinatesCount` | 126 | Exported Function
+`GetResultSqmId` | 161 | Exported Function
+`SetLongitude` | 237 | Exported Function
+`SetLatitude` | 235 | Exported Function
+`SetAltitude` | 222 | Exported Function
+`GetDurationWithoutTrafficInSeconds` | 116 | Exported Function
+`GetDurationWithoutTrafficInSeconds` | 115 | Exported Function
+`GetDurationInSeconds` | 113 | Exported Function
+`GetGenerationNumber` | 122 | Exported Function
+`GetGeometryCoordinatesCount` | 125 | Exported Function
+`GetDurationInSeconds` | 114 | Exported Function
+`GetLengthInMeters` | 141 | Exported Function
+`GetLegCount` | 140 | Exported Function
+`RouteResult` | 214 | Exported Function
 `SetDebugThreadId` | 229 | Exported Function
-`public: void __thiscall UIThreadCore<struct IRouterUI>::ProcessDispatchQueue(struct IRouterUI *)` | 217 | Exported Function
-`public: void __thiscall RouterAdapterCore::Cancel(void)` | 84 | Exported Function
+`ProcessDispatchQueue` | 217 | Exported Function
+`Cancel` | 84 | Exported Function
 `SetRenderThreadId` | 240 | Exported Function
 `WaitForMosThreadToClose` | 245 | Exported Function
 `SetUIThreadId` | 243 | Exported Function
 `SetUIThreadChecksEnabled` | 242 | Exported Function
-`public: void __thiscall core::GeoRect::CopyFrom(class core::GeoRect const &)` | 86 | Exported Function
-`public: void __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::SetBackingObject(class Microsoft::ngeo::GeoCoordinates const &)` | 225 | Exported Function
-`public: virtual void __thiscall UIThreadCore<struct IRouterUI>::Post(class TDispatchItem<struct IRouterUI> *)` | 216 | Exported Function
-`public: virtual void __thiscall RouterAdapterCore::OnRouteProgress(unsigned long)` | 215 | Exported Function
-`public: void __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::SetBackingObject(class Microsoft::ngeo::GeoRect const &)` | 226 | Exported Function
-`public: void __thiscall core::DoublePoint::``default constructor closure'(void)` | 78 | Exported Function
-`public: void __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::SetBackingObject(class std::shared_ptr<class msnma::IRoute> const &)` | 224 | Exported Function
-`public: void __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::SetBackingObject(class std::shared_ptr<class msnma::IManeuver> const &)` | 223 | Exported Function
-`public: unsigned long __thiscall core::RouteManeuver::GetManeuverWarningCount(void)const ` | 150 | Exported Function
-`public: unsigned long __thiscall core::RouteManeuver::GetDistanceInMetersToNextManeuver(void)const ` | 112 | Exported Function
-`public: unsigned long __thiscall core::RouteManeuver::GetDistanceInMetersFromPreviousManeuver(void)const ` | 111 | Exported Function
-`public: unsigned long __thiscall core::RouteManeuver::GetTrafficCircleExitNumber(void)const ` | 174 | Exported Function
-`public: virtual __thiscall core::GeoRect::~GeoRect(void)` | 39 | Exported Function
-`public: virtual __thiscall core::GeoCoordinates::~GeoCoordinates(void)` | 38 | Exported Function
-`public: unsigned long __thiscall OperationAdapterCore::GetProgress(void)const ` | 158 | Exported Function
-`public: struct core::DoublePoint & __thiscall core::DoublePoint::operator=(struct core::DoublePoint const &)` | 55 | Exported Function
-`public: static struct engine::RouteOptions const RouterAdapterCore::c_DefaultWalkingRouteOptions` | 250 | Exported Function
-`public: static struct engine::RouteOptions const RouterAdapterCore::c_DefaultDrivingRouteOptions` | 249 | Exported Function
-`public: static long __stdcall SuspendResumeDispatcher::RegisterListener(class ISuspendResumeListener *,bool *)` | 218 | Exported Function
-`public: static void __stdcall MapsSettings::SetEnableManeuverCondensing(bool)` | 231 | Exported Function
-`public: struct core::DoublePoint & __thiscall core::DoublePoint::operator=(struct core::DoublePoint &&)` | 54 | Exported Function
-`public: static void __stdcall SuspendResumeDispatcher::UnregisterListener(class ISuspendResumeListener *)` | 244 | Exported Function
-`public: static void __stdcall MosThread::WaitOnClose(void)` | 246 | Exported Function
-`public: virtual __thiscall core::Route::~Route(void)` | 42 | Exported Function
-`public: virtual long __thiscall core::Route::GetGeometryCoordinates(unsigned long,class core::GeoCoordinates *)const ` | 123 | Exported Function
-`public: virtual long __thiscall core::Route::GetBoundingBox(class core::GeoRect *)const ` | 103 | Exported Function
-`public: virtual enum msnma::IRoute::TrafficCongestionType __thiscall core::RouteLeg::GetTrafficCongestion(void)const ` | 177 | Exported Function
-`public: virtual long __thiscall core::Route::GetLeg(unsigned long,class core::RouteLeg *)const ` | 139 | Exported Function
-`public: virtual long __thiscall core::RouteLeg::GetManeuver(unsigned long,class core::RouteManeuver *)const ` | 146 | Exported Function
-`public: virtual long __thiscall core::RouteLeg::GetGeometryCoordinates(unsigned long,class core::GeoCoordinates *)const ` | 124 | Exported Function
-`public: virtual long __thiscall core::RouteLeg::GetBoundingBox(class core::GeoRect *)const ` | 104 | Exported Function
-`public: virtual enum msnma::IRoute::TrafficCongestionType __thiscall core::Route::GetTrafficCongestion(void)const ` | 176 | Exported Function
-`public: virtual bool __thiscall core::GeoCoordinates::IsValid(void)const ` | 209 | Exported Function
-`public: virtual __thiscall core::RouteManeuver::~RouteManeuver(void)` | 44 | Exported Function
-`public: virtual __thiscall core::RouteLeg::~RouteLeg(void)` | 43 | Exported Function
-`public: virtual bool __thiscall core::GeoRect::IsValid(void)const ` | 210 | Exported Function
-`public: virtual double __thiscall core::GeoCoordinates::GetLongitude(void)const ` | 145 | Exported Function
-`public: virtual double __thiscall core::GeoCoordinates::GetLatitude(void)const ` | 136 | Exported Function
-`public: virtual double __thiscall core::GeoCoordinates::GetAltitude(void)const ` | 92 | Exported Function
-`protected: __thiscall OperationAdapterCore::OperationAdapterCore(void)` | 22 | Exported Function
-`private: static enum core::CompassHeading __stdcall core::RouteManeuver::GetSnappedCompassHeading(unsigned long)` | 164 | Exported Function
-`private: long __thiscall core::RouteManeuver::InitializeInstructionText(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 195 | Exported Function
-`protected: __thiscall QueryAdapterCore::QueryAdapterCore(void)` | 24 | Exported Function
-`protected: bool __thiscall UIThreadCore<struct IRouterUI>::IsDispatchEnabled(void)` | 204 | Exported Function
-`protected: __thiscall UIThreadCore<struct IRouterUI>::UIThreadCore<struct IRouterUI>(void)` | 13 | Exported Function
-`protected: __thiscall RouterAdapterCore::RouterAdapterCore(void)` | 32 | Exported Function
-`private: long __thiscall core::RouteManeuver::Initialize(class std::vector<class std::shared_ptr<class msnma::IManeuver>,class std::allocator<class std::shared_ptr<class msnma::IManeuver> > > const &,int)` | 193 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetTakeFerryInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 170 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetStopoverInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 168 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetStartInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 166 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetTrafficCircleInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 175 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetUturnInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 187 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetUndefinedInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 179 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetTurnInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 178 | Exported Function
-`protected: class Microsoft::ngeo::GeoCoordinates & __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::GetBackingObjectRef(void)` | 95 | Exported Function
-`protected: virtual void __thiscall QueryAdapterCore::SetProgress(unsigned long)` | 239 | Exported Function
-`protected: virtual void __thiscall OperationAdapterCore::SetProgress(unsigned long)` | 238 | Exported Function
-`protected: virtual unsigned long __thiscall OperationAdapterCore::GetResultSqmId(void)const ` | 160 | Exported Function
-`protected: void __thiscall OperationAdapterCore::ResetProgress(void)` | 219 | Exported Function
-`protected: void __thiscall QueryAdapterCore::SetStatus(enum QueryStatus)` | 241 | Exported Function
-`protected: void __thiscall OperationAdapterCore::SetInstanceId(int)` | 233 | Exported Function
-`protected: void __thiscall OperationAdapterCore::SetErrorCode(long)` | 232 | Exported Function
+`GeoRect` | 86 | Exported Function
+`GeoCoordinates` | 225 | Exported Function
+`Post` | 216 | Exported Function
+`OnRouteProgress` | 215 | Exported Function
+`GeoRect` | 226 | Exported Function
+`DoublePoint` | 78 | Exported Function
+`IRoute` | 224 | Exported Function
+`IManeuver` | 223 | Exported Function
+`GetManeuverWarningCount` | 150 | Exported Function
+`GetDistanceInMetersToNextManeuver` | 112 | Exported Function
+`GetDistanceInMetersFromPreviousManeuver` | 111 | Exported Function
+`GetTrafficCircleExitNumber` | 174 | Exported Function
+`GeoRect` | 39 | Exported Function
+`GeoCoordinates` | 38 | Exported Function
+`GetProgress` | 158 | Exported Function
+`DoublePoint` | 55 | Exported Function
+`c_DefaultWalkingRouteOptions` | 250 | Exported Function
+`c_DefaultDrivingRouteOptions` | 249 | Exported Function
+`RegisterListener` | 218 | Exported Function
+`SetEnableManeuverCondensing` | 231 | Exported Function
+`DoublePoint` | 54 | Exported Function
+`UnregisterListener` | 244 | Exported Function
+`WaitOnClose` | 246 | Exported Function
+`Route` | 42 | Exported Function
+`GeoCoordinates` | 123 | Exported Function
+`GeoRect` | 103 | Exported Function
+`GetTrafficCongestion` | 177 | Exported Function
+`RouteLeg` | 139 | Exported Function
+`RouteManeuver` | 146 | Exported Function
+`GeoCoordinates` | 124 | Exported Function
+`GeoRect` | 104 | Exported Function
+`GetTrafficCongestion` | 176 | Exported Function
+`IsValid` | 209 | Exported Function
+`RouteManeuver` | 44 | Exported Function
+`RouteLeg` | 43 | Exported Function
+`IsValid` | 210 | Exported Function
+`GetLongitude` | 145 | Exported Function
+`GetLatitude` | 136 | Exported Function
+`GetAltitude` | 92 | Exported Function
+`OperationAdapterCore` | 22 | Exported Function
+`GetSnappedCompassHeading` | 164 | Exported Function
+`allocator` | 195 | Exported Function
+`QueryAdapterCore` | 24 | Exported Function
+`IsDispatchEnabled` | 204 | Exported Function
+`UIThreadCore` | 13 | Exported Function
+`RouterAdapterCore` | 32 | Exported Function
+`IManeuver` | 193 | Exported Function
+`allocator` | 170 | Exported Function
+`allocator` | 168 | Exported Function
+`allocator` | 166 | Exported Function
+`allocator` | 175 | Exported Function
+`allocator` | 187 | Exported Function
+`allocator` | 179 | Exported Function
+`allocator` | 178 | Exported Function
+`GetBackingObjectRef` | 95 | Exported Function
+`SetProgress` | 239 | Exported Function
+`SetProgress` | 238 | Exported Function
+`GetResultSqmId` | 160 | Exported Function
+`ResetProgress` | 219 | Exported Function
+`SetStatus` | 241 | Exported Function
+`SetInstanceId` | 233 | Exported Function
+`SetErrorCode` | 232 | Exported Function
 `protected: virtual __thiscall UIThreadCore<struct IRouterUI>::~UIThreadCore<struct IRouterUI>(void)` | 37 | Exported Function
-`protected: long __thiscall UIThreadCore<struct IRouterUI>::IncrementGeneration(void)` | 189 | Exported Function
-`protected: long __thiscall RouterAdapterCore::_CoreInitialize(int,class std::unique_ptr<struct IThreadSignal,struct destroy_delete<struct IThreadSignal> >)` | 247 | Exported Function
-`protected: class Microsoft::ngeo::GeoRect & __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::GetBackingObjectRef(void)` | 97 | Exported Function
-`protected: long __thiscall UIThreadCore<struct IRouterUI>::Initialize(class std::unique_ptr<struct IThreadSignal,struct destroy_delete<struct IThreadSignal> >)` | 190 | Exported Function
+`IncrementGeneration` | 189 | Exported Function
+`unique_ptr` | 247 | Exported Function
+`GetBackingObjectRef` | 97 | Exported Function
+`unique_ptr` | 190 | Exported Function
 `protected: virtual __thiscall RouterAdapterCore::~RouterAdapterCore(void)` | 45 | Exported Function
 `protected: virtual __thiscall QueryAdapterCore::~QueryAdapterCore(void)` | 41 | Exported Function
 `protected: virtual __thiscall OperationAdapterCore::~OperationAdapterCore(void)` | 40 | Exported Function
@@ -190,92 +190,92 @@ Function Name | Ordinal | Type
 `IsDebugThread` | 201 | Exported Function
 `GetMosThreadInstanceWithoutWait` | 157 | Exported Function
 `const RouterAdapterCore::``vftable'{for ``IRouterUI'}` | 76 | Exported Function
-`const core::Route::``vftable'` | 72 | Exported Function
-`const core::GeoRect::``vftable'` | 69 | Exported Function
-`const core::GeoCoordinates::``vftable'` | 68 | Exported Function
-`const core::RouteLeg::``vftable'` | 73 | Exported Function
+`Route` | 72 | Exported Function
+`GeoRect` | 69 | Exported Function
+`GeoCoordinates` | 68 | Exported Function
+`RouteLeg` | 73 | Exported Function
 `const QueryAdapterCore::``vftable'` | 71 | Exported Function
 `const OperationAdapterCore::``vftable'` | 70 | Exported Function
-`const core::RouteManeuver::``vftable'` | 74 | Exported Function
+`RouteManeuver` | 74 | Exported Function
 `IsRenderThread` | 207 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetGoStraightInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 127 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetEnterFreewayInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 119 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetEndInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 118 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetInstructionTextFromBacking(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 132 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetLeaveFreewayInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 137 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetInstructionWithTargetAndReplacement(unsigned long,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 134 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetInstructionWithTarget(unsigned long,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 133 | Exported Function
-`private: long __thiscall core::RouteManeuver::GetContinueFreewayInstruction(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)const ` | 107 | Exported Function
-`private: long __thiscall core::Route::InitializeLegs(void)` | 196 | Exported Function
-`private: bool __thiscall core::RouteLeg::IsValid(void)const ` | 212 | Exported Function
+`allocator` | 127 | Exported Function
+`allocator` | 119 | Exported Function
+`allocator` | 118 | Exported Function
+`allocator` | 132 | Exported Function
+`allocator` | 137 | Exported Function
+`allocator` | 134 | Exported Function
+`allocator` | 133 | Exported Function
+`allocator` | 107 | Exported Function
+`InitializeLegs` | 196 | Exported Function
+`IsValid` | 212 | Exported Function
 `IsUIThread` | 208 | Exported Function
-`private: long __thiscall core::RouteLeg::Initialize(class std::shared_ptr<class msnma::IRoute>,unsigned long)` | 192 | Exported Function
-`private: long __thiscall core::RouteLeg::InitializeManeuvers(void)` | 198 | Exported Function
-`private: long __thiscall core::RouteLeg::InitializeManeuverCondensingContexts(bool)` | 197 | Exported Function
-`private: long __thiscall core::RouteLeg::InitializeGeometryCoordinates(void)` | 194 | Exported Function
-`protected: void __thiscall RouterAdapterCore::_CoreUninitialize(void)` | 248 | Exported Function
-`public: bool __thiscall core::Route::IsValid(void)const ` | 211 | Exported Function
-`public: bool __thiscall core::Route::IsDeserialized(void)const ` | 203 | Exported Function
-`public: bool __thiscall core::GeoRect::IsDegenerate(void)const ` | 202 | Exported Function
-`public: class core::BackedType<class Microsoft::ngeo::GeoCoordinates> & __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::operator=(class core::BackedType<class Microsoft::ngeo::GeoCoordinates> &&)` | 50 | Exported Function
-`public: class core::BackedType<class Microsoft::ngeo::GeoRect> & __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::operator=(class core::BackedType<class Microsoft::ngeo::GeoRect> const &)` | 53 | Exported Function
-`public: class core::BackedType<class Microsoft::ngeo::GeoRect> & __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::operator=(class core::BackedType<class Microsoft::ngeo::GeoRect> &&)` | 52 | Exported Function
-`public: class core::BackedType<class Microsoft::ngeo::GeoCoordinates> & __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::operator=(class core::BackedType<class Microsoft::ngeo::GeoCoordinates> const &)` | 51 | Exported Function
-`public: bool __thiscall core::GeoRect::Intersects(class core::GeoRect const *)` | 199 | Exported Function
-`public: bool __thiscall core::DoublePoint::operator!=(struct core::DoublePoint const &)const ` | 65 | Exported Function
-`public: __thiscall QueryAdapterCore::QueryAdapterCore(class QueryAdapterCore const &)` | 25 | Exported Function
-`public: __thiscall OperationAdapterCore::OperationAdapterCore(class OperationAdapterCore const &)` | 23 | Exported Function
-`public: bool __thiscall core::DoublePoint::operator==(struct core::DoublePoint const &)const ` | 63 | Exported Function
-`public: bool __thiscall core::GeoRect::Contains(class core::GeoCoordinates const *)` | 85 | Exported Function
-`public: bool __thiscall core::GeoCoordinates::operator==(class core::GeoCoordinates const &)const ` | 64 | Exported Function
-`public: bool __thiscall core::GeoCoordinates::operator!=(class core::GeoCoordinates const &)const ` | 66 | Exported Function
-`public: class core::BackedType<class std::shared_ptr<class msnma::IManeuver> > & __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::operator=(class core::BackedType<class std::shared_ptr<class msnma::IManeuver> > &&)` | 46 | Exported Function
-`public: class Microsoft::ngeo::GeoRect const & __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::GetBackingObjectRef(void)const ` | 98 | Exported Function
-`public: class Microsoft::ngeo::GeoCoordinates const & __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::GetBackingObjectRef(void)const ` | 96 | Exported Function
-`public: class core::RouteManeuver & __thiscall core::RouteManeuver::operator=(class core::RouteManeuver const &)` | 62 | Exported Function
-`public: class msnma::IItineraryWarning const & __thiscall core::RouteManeuver::GetManeuverWarnings(unsigned long)const ` | 151 | Exported Function
-`public: class std::shared_ptr<class msnma::IManeuver> __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::GetBackingObject(void)const ` | 93 | Exported Function
-`public: class QueryAdapterCore & __thiscall QueryAdapterCore::operator=(class QueryAdapterCore const &)` | 59 | Exported Function
-`public: class OperationAdapterCore & __thiscall OperationAdapterCore::operator=(class OperationAdapterCore const &)` | 58 | Exported Function
-`public: class core::RouteLeg & __thiscall core::RouteLeg::operator=(class core::RouteLeg const &)` | 61 | Exported Function
-`public: class core::BackedType<class std::shared_ptr<class msnma::IRoute> > & __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::operator=(class core::BackedType<class std::shared_ptr<class msnma::IRoute> > const &)` | 49 | Exported Function
-`public: class core::BackedType<class std::shared_ptr<class msnma::IRoute> > & __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::operator=(class core::BackedType<class std::shared_ptr<class msnma::IRoute> > &&)` | 48 | Exported Function
-`public: class core::BackedType<class std::shared_ptr<class msnma::IManeuver> > & __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::operator=(class core::BackedType<class std::shared_ptr<class msnma::IManeuver> > const &)` | 47 | Exported Function
-`public: class core::GeoCoordinates & __thiscall core::GeoCoordinates::operator=(class core::GeoCoordinates const &)` | 56 | Exported Function
-`public: class core::Route & __thiscall core::Route::operator=(class core::Route const &)` | 60 | Exported Function
-`public: class core::GeoRect __thiscall core::GeoRect::GetInflatedGeoRect(void)const ` | 129 | Exported Function
-`public: class core::GeoRect & __thiscall core::GeoRect::operator=(class core::GeoRect const &)` | 57 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::BackedType<class std::shared_ptr<class msnma::IManeuver> >(class core::BackedType<class std::shared_ptr<class msnma::IManeuver> > const &)` | 2 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::BackedType<class std::shared_ptr<class msnma::IManeuver> >(class core::BackedType<class std::shared_ptr<class msnma::IManeuver> > &&)` | 1 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::~BackedType<class Microsoft::ngeo::GeoRect>(void)` | 36 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::BackedType<class std::shared_ptr<class msnma::IManeuver> >(void)` | 3 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::BackedType<class std::shared_ptr<class msnma::IRoute> >(class core::BackedType<class std::shared_ptr<class msnma::IRoute> > const &)` | 5 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::BackedType<class std::shared_ptr<class msnma::IRoute> >(class core::BackedType<class std::shared_ptr<class msnma::IRoute> > &&)` | 4 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IManeuver> >::~BackedType<class std::shared_ptr<class msnma::IManeuver> >(void)` | 33 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::BackedType<class Microsoft::ngeo::GeoRect>(void)` | 12 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::BackedType<class Microsoft::ngeo::GeoCoordinates>(class core::BackedType<class Microsoft::ngeo::GeoCoordinates> const &)` | 8 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::BackedType<class Microsoft::ngeo::GeoCoordinates>(class core::BackedType<class Microsoft::ngeo::GeoCoordinates> &&)` | 7 | Exported Function
-`protected: void __thiscall UIThreadCore<struct IRouterUI>::SetDispatchEnabled(bool)` | 230 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::BackedType<class Microsoft::ngeo::GeoCoordinates>(void)` | 9 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::BackedType<class Microsoft::ngeo::GeoRect>(class core::BackedType<class Microsoft::ngeo::GeoRect> const &)` | 11 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoRect>::BackedType<class Microsoft::ngeo::GeoRect>(class core::BackedType<class Microsoft::ngeo::GeoRect> &&)` | 10 | Exported Function
-`public: __thiscall core::BackedType<class Microsoft::ngeo::GeoCoordinates>::~BackedType<class Microsoft::ngeo::GeoCoordinates>(void)` | 35 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::BackedType<class std::shared_ptr<class msnma::IRoute> >(void)` | 6 | Exported Function
-`public: __thiscall core::Route::Route(void)` | 27 | Exported Function
-`public: __thiscall core::Route::Route(class core::Route const &)` | 26 | Exported Function
-`public: __thiscall core::GeoRect::GeoRect(void)` | 21 | Exported Function
-`public: __thiscall core::RouteLeg::RouteLeg(class core::RouteLeg const &)` | 28 | Exported Function
-`public: __thiscall core::RouteManeuver::RouteManeuver(void)` | 31 | Exported Function
-`public: __thiscall core::RouteManeuver::RouteManeuver(class core::RouteManeuver const &)` | 30 | Exported Function
-`public: __thiscall core::RouteLeg::RouteLeg(void)` | 29 | Exported Function
-`public: __thiscall core::GeoRect::GeoRect(double,double,double,double)` | 19 | Exported Function
-`public: __thiscall core::GeoCoordinates::GeoCoordinates(class core::GeoCoordinates const &)` | 15 | Exported Function
-`public: __thiscall core::DoublePoint::DoublePoint(double,double)` | 14 | Exported Function
-`public: __thiscall core::BackedType<class std::shared_ptr<class msnma::IRoute> >::~BackedType<class std::shared_ptr<class msnma::IRoute> >(void)` | 34 | Exported Function
-`public: __thiscall core::GeoCoordinates::GeoCoordinates(double,double)` | 16 | Exported Function
-`public: __thiscall core::GeoRect::GeoRect(class core::GeoRect const &)` | 18 | Exported Function
-`public: __thiscall core::GeoRect::GeoRect(class core::GeoCoordinates const *,class core::GeoCoordinates const *)` | 20 | Exported Function
-`public: __thiscall core::GeoCoordinates::GeoCoordinates(void)` | 17 | Exported Function
+`IRoute` | 192 | Exported Function
+`InitializeManeuvers` | 198 | Exported Function
+`InitializeManeuverCondensingContexts` | 197 | Exported Function
+`InitializeGeometryCoordinates` | 194 | Exported Function
+`_CoreUninitialize` | 248 | Exported Function
+`IsValid` | 211 | Exported Function
+`IsDeserialized` | 203 | Exported Function
+`IsDegenerate` | 202 | Exported Function
+`GeoCoordinates` | 50 | Exported Function
+`GeoRect` | 53 | Exported Function
+`GeoRect` | 52 | Exported Function
+`GeoCoordinates` | 51 | Exported Function
+`GeoRect` | 199 | Exported Function
+`DoublePoint` | 65 | Exported Function
+`QueryAdapterCore` | 25 | Exported Function
+`OperationAdapterCore` | 23 | Exported Function
+`DoublePoint` | 63 | Exported Function
+`GeoCoordinates` | 85 | Exported Function
+`GeoCoordinates` | 64 | Exported Function
+`GeoCoordinates` | 66 | Exported Function
+`IManeuver` | 46 | Exported Function
+`GetBackingObjectRef` | 98 | Exported Function
+`GetBackingObjectRef` | 96 | Exported Function
+`RouteManeuver` | 62 | Exported Function
+`GetManeuverWarnings` | 151 | Exported Function
+`GetBackingObject` | 93 | Exported Function
+`operator` | 59 | Exported Function
+`operator` | 58 | Exported Function
+`RouteLeg` | 61 | Exported Function
+`IRoute` | 49 | Exported Function
+`IRoute` | 48 | Exported Function
+`IManeuver` | 47 | Exported Function
+`GeoCoordinates` | 56 | Exported Function
+`Route` | 60 | Exported Function
+`GetInflatedGeoRect` | 129 | Exported Function
+`GeoRect` | 57 | Exported Function
+`IManeuver` | 2 | Exported Function
+`IManeuver` | 1 | Exported Function
+`GeoRect` | 36 | Exported Function
+`IManeuver` | 3 | Exported Function
+`IRoute` | 5 | Exported Function
+`IRoute` | 4 | Exported Function
+`IManeuver` | 33 | Exported Function
+`GeoRect` | 12 | Exported Function
+`GeoCoordinates` | 8 | Exported Function
+`GeoCoordinates` | 7 | Exported Function
+`SetDispatchEnabled` | 230 | Exported Function
+`GeoCoordinates` | 9 | Exported Function
+`GeoRect` | 11 | Exported Function
+`GeoRect` | 10 | Exported Function
+`GeoCoordinates` | 35 | Exported Function
+`IRoute` | 6 | Exported Function
+`Route` | 27 | Exported Function
+`Route` | 26 | Exported Function
+`GeoRect` | 21 | Exported Function
+`RouteLeg` | 28 | Exported Function
+`RouteManeuver` | 31 | Exported Function
+`RouteManeuver` | 30 | Exported Function
+`RouteLeg` | 29 | Exported Function
+`GeoRect` | 19 | Exported Function
+`GeoCoordinates` | 15 | Exported Function
+`DoublePoint` | 14 | Exported Function
+`IRoute` | 34 | Exported Function
+`GeoCoordinates` | 16 | Exported Function
+`GeoRect` | 18 | Exported Function
+`GeoCoordinates` | 20 | Exported Function
+`GeoCoordinates` | 17 | Exported Function
 
 
 ## Signature

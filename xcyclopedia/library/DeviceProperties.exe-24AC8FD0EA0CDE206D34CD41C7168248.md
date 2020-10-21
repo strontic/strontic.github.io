@@ -18,6 +18,9 @@ SHA256 | `45AE712FCF3B3F5259C850D4BA0531AD656F6C770155D0BB306E1637C1C7FD6B`
 SHA384 | `6D3159730042AF3D14B750C901F42C2197AC82EDA62896F1B80A6F6733A621D06066C90D9AE8A3405D7C60A9FEB17172`
 SHA512 | `914E76E3CECF4B5209CDDFC8B4D0BDDC37D1A5D96FDD8A2C0F9C6655F0EF5E8667A6DE21A0993191280AE3B772EF397B6B064D9329FCF971EA82557E39B00613`
 SSDEEP | `1536:8Z/fI2y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi658:8xI55NOFpTyIcuz9WzF4Chdlzri6C`
+IMP | `987DCEE8E6AD88968255DA46F110A7CB`
+PESHA1 | `AC6EA470177DBFB8A63FD2461DD729BACFF8F58F`
+PE256 | `99D8894A31C2FD9CF5D588C4C1DE0D70ED3DE48A6A4541B9D9A667001E680876`
 
 ## Runtime Data
 
@@ -26,7 +29,17 @@ SSDEEP | `1536:8Z/fI2y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi658:8xI55NOFpTyIcuz9
 Path |
 -- |
 C:\Windows\system32\DeviceProperties.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -46,7 +59,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/45ae712fcf3b3f5259c850d4ba0531ad656f6c770155d0bb306e1637c1c7fd6b/detection/
 
 ## File Similarity (ssdeep match)
 

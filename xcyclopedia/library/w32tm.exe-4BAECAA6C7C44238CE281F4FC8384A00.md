@@ -189,6 +189,11 @@ C:\Windows\system32\w32tm.exe |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\w32tm.exe](w32tm.exe-EB05B99953C30E25B4CA97F903A0DEA9.md) | 30
 
 ## Possible Misuse
 

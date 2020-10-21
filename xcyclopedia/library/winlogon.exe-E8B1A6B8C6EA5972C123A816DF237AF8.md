@@ -18,6 +18,9 @@ SHA256 | `290C8C4B387B669B3988938D0083AA4B210365FB0855EAE010F49062A9DDEB04`
 SHA384 | `BA07CC249C938A0B59CCBF0642D722DF5B0FA598D844E054997417A97744C70522125847403F88B7A56CDE496D82838F`
 SHA512 | `62DA4D9CF429E2387449C99A6F97E5923EA6B967E29C5EBC78575568B4CA648C790A0897D391495887863F85A910905CDBA04A7F8B9D9D57F7EFA835523BE8AF`
 SSDEEP | `12288:LB6L/iEapA3fCxZJUlZDWuiIUjdZaNu76w4eGK2Tjo/:0DPaK62QCk7p4eGh3o`
+IMP | `A5F3EBEF8618DCA7C7ACCF623BABBB86`
+PESHA1 | `6632D5C085634466C426C6C9D76B01CCB6D8ABBE`
+PE256 | `1024DE27675C11D4A1F6313F24882CC7A83CF74209B02ADF16BE43ECB5F79F34`
 
 ## Runtime Data
 
@@ -25,14 +28,26 @@ SSDEEP | `12288:LB6L/iEapA3fCxZJUlZDWuiIUjdZaNu76w4eGK2Tjo/:0DPaK62QCk7p4eGh3o`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\dwminit.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\winlogon.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -45,7 +60,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/290c8c4b387b669b3988938d0083aa4b210365fb0855eae010f49062a9ddeb04/detection/
 
 
 ## Possible Misuse

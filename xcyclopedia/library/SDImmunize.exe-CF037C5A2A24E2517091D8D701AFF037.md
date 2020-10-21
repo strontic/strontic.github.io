@@ -8,6 +8,10 @@ excerpt: What is SDImmunize.exe?
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDImmunize.exe`
 * Description: Pro-active browser protection
 
+## Screenshot
+
+![SDImmunize.exe](screenshots/SDImmunize.exe-CF037C5A2A24E2517091D8D701AFF037-8.png)
+
 ## Hashes
 
 Type | Hash

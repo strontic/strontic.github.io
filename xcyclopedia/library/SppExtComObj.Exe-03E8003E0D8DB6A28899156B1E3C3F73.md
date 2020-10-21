@@ -79,6 +79,7 @@ C:\Windows\System32\WS2_32.dll |
 File | Score
 -- | --
 [C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-66DCC580E1593F065032533520743FD8.md) | 80
+[C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-D0BAB67DD8B87045A7AFCFF45F7022AA.md) | 80
 
 
 

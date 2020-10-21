@@ -18,6 +18,9 @@ SHA256 | `4ADC7B6E2E43726EFF05BB3FF3DF554F8427AB093EF3EFED6A425769BD52F158`
 SHA384 | `D7F9A79BAF045D55E89D1F6AA8CE88D76A4CA9036734F82EADD843A51DF3347D1FD5C74ACD34BA5046D7156225F929F8`
 SHA512 | `C7B48F99D95EA662933F9FA278862F99D9168BD51CC28F69E70D132B21429AEDC3C62009F2385222E033A2271C7A3EDC645CA1A3693C365768B18BFC6B841A1E`
 SSDEEP | `3072:c356+YK8tJONgEjX0S9JnQtJRHmMF0se0jMIX:REAS/SXGM/R3`
+IMP | `624396CC8A12A6CA65B0467CE6DD9FD3`
+PESHA1 | `ABA984FEB5A599DD55590F98C7546F3E54FCAA89`
+PE256 | `BB577849C929F31510573B4B2BFE47E9AF5A9FC6B51051D29E45563C8F0574C6`
 
 ## Runtime Data
 
@@ -274,6 +277,9 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\bitsadmin.exe |
 
 
@@ -294,7 +300,12 @@ C:\Windows\SysWOW64\bitsadmin.exe |
 * Product Version: 7.8.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/4adc7b6e2e43726eff05bb3ff3df554f8427ab093ef3efed6a425769bd52f158/detection/
 
 
 ## Possible Misuse
@@ -348,7 +359,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This test simulates an adversary leveraging bitsadmin.exe to download | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /transfer /Download /priority Foreground #{remote_file} #{local_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | ## Atomic Test #2 - Bitsadmin Download (PowerShell) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This test simulates an adversary leveraging bitsadmin.exe to schedule a BITS transfer | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | This test simulates an adversary leveraging bitsadmin.exe to schedule a BITS transferand execute a payload in multiple steps. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /create #{bits_job_name} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /addfile #{bits_job_name} #{remote_file} #{local_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1197.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md) | bitsadmin.exe /setnotifycmdline #{bits_job_name} #{command_path} "" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

@@ -25,27 +25,27 @@ PE256 | `8C679CD4609338847CCFB8A4204481C0EFB896032F097A84AEF5578C5A2F0B7F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual long __thiscall TextInputMethodFormatter::Initialize(struct IMessagePort *)` | 14 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::SetCIVMTarget(struct IRemoteCoreInputViewManager *)` | 16 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::GetTVKRImpl(struct ITextVirtualizationKeyRouting * *)` | 11 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::GetTISImpl(struct IRemoteTextInputServer * *)` | 9 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::GetTVIImpl(struct ITextVirtualizationInternal * *)` | 10 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::SetTVKRTarget(struct ITextVirtualizationKeyRouting *)` | 20 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::Uninitialize(void)` | 21 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::SetTISTarget(struct IRemoteTextInputServer *)` | 19 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::SetCIVTarget(struct IRemoteCoreInputView *,class VirtCoreInputViewForwarder *)` | 17 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::SetTICTarget(struct IRemoteTextInputClient *,class VirtTextInputClient *)` | 18 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::GetTICImpl(struct IRemoteTextInputClient * *)` | 8 | Exported Function
-`public: long __thiscall TextInputMethodFormatter::GetVirtTIS(struct IRemoteTextInputServer * *)` | 12 | Exported Function
-`public: long __thiscall TextInputMethodFormatter::Initialize(struct IMessagePort *,enum VirtualizationEnvironment,struct IVirtualizedTextDataSender *,struct _GUID)` | 13 | Exported Function
+`Initialize` | 14 | Exported Function
+`SetCIVMTarget` | 16 | Exported Function
+`GetTVKRImpl` | 11 | Exported Function
+`GetTISImpl` | 9 | Exported Function
+`GetTVIImpl` | 10 | Exported Function
+`SetTVKRTarget` | 20 | Exported Function
+`Uninitialize` | 21 | Exported Function
+`SetTISTarget` | 19 | Exported Function
+`SetCIVTarget` | 17 | Exported Function
+`SetTICTarget` | 18 | Exported Function
+`GetTICImpl` | 8 | Exported Function
+`GetVirtTIS` | 12 | Exported Function
+`Initialize` | 13 | Exported Function
 `public: __thiscall TextInputMethodFormatter::~TextInputMethodFormatter(void)` | 2 | Exported Function
-`protected: long __thiscall TextInputMethodFormatter::ConnectToHost(void)` | 3 | Exported Function
-`public: __thiscall TextInputMethodFormatter::TextInputMethodFormatter(void)` | 1 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::GetCIVMSender(struct IRemoteCoreInputViewManager * *)` | 5 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::GetCIVSender(struct IRemoteCoreInputView * *)` | 6 | Exported Function
-`public: virtual long __thiscall TextInputMethodFormatter::DataReceived(unsigned int,class std::vector<char,class std::allocator<char> > &)` | 4 | Exported Function
-`public: long __thiscall TextInputMethodFormatter::ProcessQueue(void)` | 15 | Exported Function
-`public: virtual bool __thiscall TextInputMethodFormatter::GetIsHost(void)` | 7 | Exported Function
+`ConnectToHost` | 3 | Exported Function
+`TextInputMethodFormatter` | 1 | Exported Function
+`GetCIVMSender` | 5 | Exported Function
+`GetCIVSender` | 6 | Exported Function
+`allocator` | 4 | Exported Function
+`ProcessQueue` | 15 | Exported Function
+`GetIsHost` | 7 | Exported Function
 
 
 ## Signature

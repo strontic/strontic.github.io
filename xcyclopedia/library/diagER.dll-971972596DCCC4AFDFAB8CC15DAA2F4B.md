@@ -29,25 +29,25 @@ Function Name | Ordinal | Type
 `public: virtual __cdecl CWfpER::~CWfpER(void) __ptr64` | 8 | Exported Function
 `public: virtual __cdecl CDwWinER::~CDwWinER(void) __ptr64` | 7 | Exported Function
 `public: virtual __cdecl IDiagER::~IDiagER(void) __ptr64` | 9 | Exported Function
-`public: virtual unsigned long __cdecl CDwWinER::AddFiles(unsigned short const * __ptr64 * __ptr64,unsigned int) __ptr64` | 21 | Exported Function
-`public: virtual unsigned long __cdecl CDwWinER::AddBucketingParameters(unsigned short const * __ptr64 * __ptr64,unsigned int) __ptr64` | 18 | Exported Function
-`public: static void __cdecl CDiagERFactory::ReleaseInstance(void)` | 35 | Exported Function
-`public: class CWfpER & __ptr64 __cdecl CWfpER::operator=(class CWfpER const & __ptr64) __ptr64` | 13 | Exported Function
-`public: class CDwWinER & __ptr64 __cdecl CDwWinER::operator=(class CDwWinER const & __ptr64) __ptr64` | 12 | Exported Function
-`public: class IDiagER & __ptr64 __cdecl IDiagER::operator=(class IDiagER const & __ptr64) __ptr64` | 14 | Exported Function
-`public: static unsigned long __cdecl CDiagERFactory::CreateInstance(unsigned short const * __ptr64,enum _DIAG_REPORT_TYPE,int,class IDiagER * __ptr64 * __ptr64)` | 24 | Exported Function
-`public: static class IDiagER * __ptr64 __cdecl CDiagERFactory::GetErrorReporter(void)` | 32 | Exported Function
-`public: virtual unsigned long __cdecl CWfpER::Submit(unsigned long) __ptr64` | 40 | Exported Function
-`public: virtual unsigned long __cdecl CWfpER::SetHeader(unsigned short const * __ptr64) __ptr64` | 37 | Exported Function
-`public: virtual unsigned long __cdecl IDiagER::AddBucketingParameters(unsigned short const * __ptr64 * __ptr64,unsigned int) __ptr64` | 20 | Exported Function
-`public: virtual unsigned long __cdecl IDiagER::SetHeader(unsigned short const * __ptr64) __ptr64` | 38 | Exported Function
-`public: virtual unsigned long __cdecl IDiagER::AddFiles(unsigned short const * __ptr64 * __ptr64,unsigned int) __ptr64` | 23 | Exported Function
-`public: virtual unsigned long __cdecl CWfpER::Initialize(void) __ptr64` | 34 | Exported Function
-`public: virtual unsigned long __cdecl CDwWinER::SetHeader(unsigned short const * __ptr64) __ptr64` | 36 | Exported Function
-`public: virtual unsigned long __cdecl CDwWinER::Initialize(void) __ptr64` | 33 | Exported Function
-`public: virtual unsigned long __cdecl CDwWinER::Submit(unsigned long) __ptr64` | 39 | Exported Function
-`public: virtual unsigned long __cdecl CWfpER::AddFiles(unsigned short const * __ptr64 * __ptr64,unsigned int) __ptr64` | 22 | Exported Function
-`public: virtual unsigned long __cdecl CWfpER::AddBucketingParameters(unsigned short const * __ptr64 * __ptr64,unsigned int) __ptr64` | 19 | Exported Function
+`AddFiles` | 21 | Exported Function
+`AddBucketingParameters` | 18 | Exported Function
+`ReleaseInstance` | 35 | Exported Function
+`operator` | 13 | Exported Function
+`operator` | 12 | Exported Function
+`operator` | 14 | Exported Function
+`CreateInstance` | 24 | Exported Function
+`GetErrorReporter` | 32 | Exported Function
+`Submit` | 40 | Exported Function
+`SetHeader` | 37 | Exported Function
+`AddBucketingParameters` | 20 | Exported Function
+`SetHeader` | 38 | Exported Function
+`AddFiles` | 23 | Exported Function
+`Initialize` | 34 | Exported Function
+`SetHeader` | 36 | Exported Function
+`Initialize` | 33 | Exported Function
+`Submit` | 39 | Exported Function
+`AddFiles` | 22 | Exported Function
+`AddBucketingParameters` | 19 | Exported Function
 `DiagERSubmit` | 29 | Exported Function
 `DiagERSetHeader` | 28 | Exported Function
 `DiagERSubmitEx` | 30 | Exported Function
@@ -59,17 +59,17 @@ Function Name | Ordinal | Type
 `const IDiagER::``vftable'` | 17 | Exported Function
 `DiagERAddFiles` | 26 | Exported Function
 `DiagERAddBucketingParameters` | 25 | Exported Function
-`public: __cdecl IDiagER::IDiagER(class IDiagER const & __ptr64) __ptr64` | 5 | Exported Function
-`public: __cdecl CWfpER::CWfpER(unsigned short const * __ptr64,enum _DIAG_REPORT_TYPE,int) __ptr64` | 4 | Exported Function
-`public: __cdecl IDiagER::IDiagER(unsigned short const * __ptr64,int) __ptr64` | 6 | Exported Function
-`public: class CDiagERFactory & __ptr64 __cdecl CDiagERFactory::operator=(class CDiagERFactory const & __ptr64) __ptr64` | 11 | Exported Function
-`public: class CDiagERFactory & __ptr64 __cdecl CDiagERFactory::operator=(class CDiagERFactory && __ptr64) __ptr64` | 10 | Exported Function
-`public: __cdecl CWfpER::CWfpER(class CWfpER const & __ptr64) __ptr64` | 3 | Exported Function
+`IDiagER` | 5 | Exported Function
+`CWfpER` | 4 | Exported Function
+`IDiagER` | 6 | Exported Function
+`operator` | 11 | Exported Function
+`operator` | 10 | Exported Function
+`CWfpER` | 3 | Exported Function
 `g_WerApi` | 43 | Exported Function
 `g_Shell32` | 42 | Exported Function
-`private: static class IDiagER * __ptr64 __ptr64 CDiagERFactory::m_diagER` | 44 | Exported Function
-`public: __cdecl CDwWinER::CDwWinER(unsigned short const * __ptr64,int) __ptr64` | 2 | Exported Function
-`public: __cdecl CDwWinER::CDwWinER(class CDwWinER const & __ptr64) __ptr64` | 1 | Exported Function
+`m_diagER` | 44 | Exported Function
+`CDwWinER` | 2 | Exported Function
+`CDwWinER` | 1 | Exported Function
 
 
 ## Signature

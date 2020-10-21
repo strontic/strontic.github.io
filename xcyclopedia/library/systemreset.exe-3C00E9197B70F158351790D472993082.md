@@ -38,7 +38,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
 (RW-)   C:\$SysReset\Logs\setupact.log | File
 (RW-)   C:\$SysReset\Logs\setuperr.log | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\System32 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
 (RWD)   C:\Windows\Fonts\segoeuil.ttf | File
@@ -134,6 +134,7 @@ File | Score
 -- | --
 [C:\Windows\system32\systemreset.exe](systemreset.exe-1EF0BF1B2B28DC6D2E76DCD0A5C7984C.md) | 40
 [C:\Windows\system32\systemreset.exe](systemreset.exe-298B30CC7188646FAF02118CC603E716.md) | 40
+[C:\Windows\system32\systemreset.exe](systemreset.exe-64E0C3EDF365A23CF76E4C446E16F4FC.md) | 35
 [C:\Windows\system32\systemreset.exe](systemreset.exe-B6968ADCA12A5898AA2F89931B17995A.md) | 38
 [C:\WINDOWS\system32\systemreset.exe](systemreset.exe-E2A2C3A89981C9565F4F715EF4282E32.md) | 41
 

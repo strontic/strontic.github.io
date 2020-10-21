@@ -18,6 +18,9 @@ SHA256 | `5D1868E396A185B1893A9092858CDEE53664D5554DF4D3F797B48CFF8E94F7AF`
 SHA384 | `A293CA98B890B1A6453CD6614FACEEF68BB9C61D92FE773C4CC01E6575F084AE754F97FBDDA807EE3B052537CD7CEFE6`
 SHA512 | `25443CF769286BB194B60E62335735080B772ADE98D5131E92CC4076BC4DC3713E229B7DE95149AD1DB738BF8337AB679B24F56BE6B61DD9EEC1C5DF78897CB9`
 SSDEEP | `3072:6uSWXsgFf1R7Wx6maDkCc8XDc5VoJe3+Vcv2JxQQBBEB3BefnjA+Trjq+rfCFG2P:Y7gBjm6g2b2F8a`
+IMP | `21008BDE061FD8E970A7B9F78832EBE1`
+PESHA1 | `DEA8AC30547C25CAD1337F1B6287EEDEFE1949D8`
+PE256 | `766DB8BADA9DC495468BB135ECFAA6495C7A8C9CE8C9C37CFA4BD64C59384D04`
 
 ## Runtime Data
 
@@ -185,7 +188,38 @@ COMMON USAGE:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\verifiergui.exe |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\WINTRUST.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_de6e2bd0534e2567\COMCTL32.dll |
 
 
 ## Signature
@@ -205,7 +239,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/5d1868e396a185b1893a9092858cdee53664d5554df4d3f797b48cff8e94f7af/detection/
 
 ## File Similarity (ssdeep match)
 

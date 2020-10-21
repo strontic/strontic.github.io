@@ -23,6 +23,9 @@ SHA256 | `5BED2AA29ECB2AEF1A41E8B33A0CEFD32DDEFBFA1F7767430A311C064CF13D67`
 SHA384 | `C16C88BE49B555A2FCC4D6AE507D1B1B0E6DD74CD0237EF67725232BD5441D89D185F6CAACBE70BCA3F71AFE5FBC540D`
 SHA512 | `33D2B7A8918EF14996CFB21BDFB8C6DA5BDA937FACB9B7911FCA0D40D4D7F2696FDF65C3F30D45E3186C470CF05D92F33E8E3DBA1C0E7579780EB29E479655BF`
 SSDEEP | `3072:JdN18XlC0HmKIbTENXK6JRAqs4xjw8m1IsF/Xq:fX89HmtbTMHxM8cT/X`
+IMP | `BEE03492F0B5EDD4B94BB7DD6E56B8A1`
+PESHA1 | `4BDF4E683B3E2ECCD0B98802CAC9F07148A3B867`
+PE256 | `3623BDA85D57AAD0EAF2F4729D0849F7A236D6029C3A72E98C0DA70BBC4DD314`
 
 ## Runtime Data
 
@@ -35,11 +38,14 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -49,7 +55,6 @@ Path |
 C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -80,7 +85,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/5bed2aa29ecb2aef1a41e8b33a0cefd32ddefbfa1f7767430a311c064cf13d67/detection/
 
 ## File Similarity (ssdeep match)
 

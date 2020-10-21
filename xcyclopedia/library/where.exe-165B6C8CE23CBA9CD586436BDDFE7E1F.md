@@ -105,6 +105,63 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md) | if ((cmd.exe /c "where.exe Sysmon.exe 2> nul \| findstr Sysmon 2> nul") -or (Test-Path $env:Temp\Sysmon\Sysmon.exe)) { exit 0 } else { exit 1 }  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md) | if(cmd.exe /c "where.exe Sysmon.exe 2> nul \| findstr Sysmon 2> nul") { C:\Windows\Sysmon.exe -accepteula -i } else | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## where
+
+
+
+Displays the location of files that match the given search pattern.
+
+
+
+### Syntax
+
+```
+where [/r <Dir>] [/q] [/f] [/t] [$<ENV>:|<Path>:]<Pattern>[ ...]
+```
+
+#### Parameters
+
+|Parameter|Description|
+|---------|-----------|
+|/r \<Dir>|Indicates a recursive search, starting with the specified directory.|
+|/q|Returns an exit code (**0** for success, **1** for failure) without displaying the list of matched files.|
+|/f|Displays the results of the **where** command in quotation marks.|
+|/t|Displays the file size and the last modified date and time of each matched file.|
+|[$\<ENV>:\|\<Path>:]\<Pattern>[ ...]|Specifies the search pattern for the files to match. At least one pattern is required, and the pattern can include wildcard characters (**&#42;** and **?**). By default, **where** searches the current directory and the paths that are specified in the PATH environment variable. You can specify a different path to search by using the format $*ENV*:*Pattern* (where *ENV* is an existing environment variable containing one or more paths) or by using the format *Path*:*Pattern* (where *Path* is the directory path you want to search). These optional formats should not be used with the **/r** command-line option.|
+|/?|Displays help at the command prompt.|
+
+### Remarks
+
+-   If you do not specify a file name extension, the extensions listed in the PATHEXT environment variable are appended to the pattern by default.
+-   **Where** can run recursive searches, display file information such as date or size, and accept environment variables in place of paths on local computers.
+
+### Examples
+
+To find all files named Test in drive C of the current computer and its subdirectories, type:
+```
+where /r c:\ test
+```
+To list all files in the Public directory, type:
+```
+where $public:*.*
+```
+To find all files named Notepad in drive C of the remote computer, Computer1, and its subdirectories, type:
+```
+where /r \\computer1\c notepad.*
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -18,6 +18,9 @@ SHA256 | `93CD96077494331129E20718A8E9B21E7BAD04DA6CE563FCC56D03AE986DC800`
 SHA384 | `8FADA4FB844BD67154EB96B58CB642EF8B8B4E835B1D7DAC78E1F4181913D84044AE64FA8DEFEE7BA999ACEC6AD7AC8D`
 SHA512 | `FD5A0281392AC56F67E555D14177DE65BA293B69CD0A2315065BA938196AC71073D407A2C1BF40FFECD5AAF1D4E592B5C2585A1751889D312E4E1264127014A1`
 SSDEEP | `768:K+xfqLK+0Snlpr/yLg2oobvPk/l6s9owLptiAJ:KuhgtA9oow/l62owPiAJ`
+IMP | `2455C15D4650B236D7331E66AA15D2CD`
+PESHA1 | `041378BFD205ED4413A85ECD1DD4797FC88E8EF7`
+PE256 | `51703251823B212DD86B746323E9C40FFB09F9F54B113EAF285F88C2A635B68A`
 
 ## Runtime Data
 
@@ -83,10 +86,20 @@ REAGENTC.EXE <command> /?.
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\ReAgentc.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -106,7 +119,12 @@ C:\Windows\system32\ReAgentc.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/93cd96077494331129e20718a8e9b21e7bad04da6ce563fcc56d03ae986dc800/detection/
 
 
 

@@ -23,6 +23,9 @@ SHA256 | `2A7081195ACF53B272040BD4F232691B626B522123D3FE402FCA91B3FD64F158`
 SHA384 | `9A585D718B2150B9CC2EA5E613B397A8729567FAF8341AEEF757CCD0E2B55AD2F2483124586789B2E469EF4CC220C922`
 SHA512 | `7410638DB8B2D46B4E0520B53F3BED53F10B5A7EF1E246356D5D9B5570B020F434DF9463FB3D10DE08FE8F8845A8E280DE8718BA6ECA72F8C4E6569F19DFB761`
 SSDEEP | `1536:OUeKzb+/P25nDmXSHuGiceY0lA3CJHkxUM:Le2b+/P25R+PYfSFkx1`
+IMP | `80D512028EB708EE52E1A6F4BAB6259F`
+PESHA1 | `5E0A6F2AE28E92CC78CE737ED527B3AAB50DF7F4`
+PE256 | `C1F8446BF067457EF6328118675A9ADC92E8101C9E96460471F02957AC49392C`
 
 ## Runtime Data
 
@@ -41,17 +44,20 @@ Path | Type
 (R-D)   C:\Windows\System32\netmsg.dll | File
 (R-D)   C:\Windows\SysWOW64\en-US\netmsg.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\RPC Control\DSEC1568 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\RPC Control\DSECFAC | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -59,6 +65,9 @@ Path | Type
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\TpmInit.exe |
 
 
@@ -79,7 +88,12 @@ C:\Windows\SysWOW64\TpmInit.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/2a7081195acf53b272040bd4f232691b626b522123d3fe402fca91b3fd64f158/detection/
 
 ## File Similarity (ssdeep match)
 

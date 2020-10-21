@@ -25,298 +25,298 @@ PE256 | `997A91200E4B235B1674D7DE640789694A4EB3F42A3C68CD5EC2342D32C7BD80`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getFilePrefixForTests(void)` | 155 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getHistoryDirectory(void)` | 159 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getFileExtension(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 151 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getFileName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 153 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getHistoryFileName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 160 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getLocalAppBaseDirectory(void)` | 165 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getParentDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 169 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getInstallationDirectory(void)` | 162 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getJabberWerxCppTraceDir(void)` | 164 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getAppIdentifier(void)` | 140 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getBootstrapDirectory(void)` | 141 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::FileSeparator(void)` | 55 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getAbsolutePath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 138 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getBootstrapFilePath(void)` | 142 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getConfigDirectory(void)` | 145 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getCredentialsDirectory(void)` | 146 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getCompanyName(void)` | 143 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getConfigDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 144 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SystemUtils::GetLibraryDirectoryPath(void *)` | 59 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SystemUtils::GetLibraryName(void *)` | 60 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SystemUtils::getHttpUserAgent(void)` | 161 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SystemUtils::GetHvdAgentVersion(void)` | 58 | Exported Function
-`public: static class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::FileUtils::FileSeparatorW(void)` | 56 | Exported Function
-`public: static class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::FileUtils::getParentDirectory(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 170 | Exported Function
-`public: static class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::FileUtils::getUserTempDirectory(void)` | 182 | Exported Function
-`public: static class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::FileUtils::getFileExtension(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 152 | Exported Function
-`public: static class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::FileUtils::getFileName(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 154 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getSecurityDirectory(void)` | 174 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getTraceDir(void)` | 178 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getResourcesDirectory(void)` | 172 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getRoamingBaseDirectory(void)` | 173 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getUserDocumentsDir(void)` | 179 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SystemUtils::generateNewKey(void)` | 136 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SystemUtils::getEnvVar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 150 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getUserLocalAppDir(void)` | 180 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::getUserRoamingDir(void)` | 181 | Exported Function
-`public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::FileUtils::escapeFileName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 117 | Exported Function
-`public: long __thiscall Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::getSequence(void)` | 175 | Exported Function
-`public: static __int64 __cdecl JCFCoreUtils::FileUtils::getFileSize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 156 | Exported Function
-`public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall JCFCoreUtils::MicrosecondTime::strftime(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)const ` | 232 | Exported Function
-`public: enum Lifecycle::STATES __thiscall Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::get(void)` | 137 | Exported Function
-`public: static __int64 __cdecl JCFCoreUtils::TimeUtils::getCurrentTimeInSeconds(void)` | 148 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::decrypt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class csf::SecureString &)` | 104 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::decrypt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class csf::SecureString &)` | 103 | Exported Function
-`public: static __int64 __cdecl JCFCoreUtils::TimeUtils::LocalNowInMicroseconds(void)` | 69 | Exported Function
-`public: static __int64 __cdecl JCFCoreUtils::TimeUtils::UTCNowInMicroseconds(void)` | 73 | Exported Function
-`public: class JCFCoreUtils::Random & __thiscall JCFCoreUtils::Random::operator=(class JCFCoreUtils::Random const &)` | 38 | Exported Function
-`public: class JCFCoreUtils::ScopedTimer & __thiscall JCFCoreUtils::ScopedTimer::operator=(class JCFCoreUtils::ScopedTimer const &)` | 39 | Exported Function
-`public: class JCFCoreUtils::MicrosecondTime __thiscall JCFCoreUtils::MicrosecondTime::operator+(__int64 &)const ` | 46 | Exported Function
-`public: class JCFCoreUtils::MicrosecondTime __thiscall JCFCoreUtils::MicrosecondTime::operator-(__int64 &)const ` | 44 | Exported Function
-`public: class JCFCoreUtils::ThreadUtils & __thiscall JCFCoreUtils::ThreadUtils::operator=(class JCFCoreUtils::ThreadUtils &&)` | 40 | Exported Function
-`public: class JCFCoreUtils::XmlUtils::IXmlHandler & __thiscall JCFCoreUtils::XmlUtils::IXmlHandler::operator=(class JCFCoreUtils::XmlUtils::IXmlHandler const &)` | 35 | Exported Function
-`public: class Lifecycle::LifeCycleTransitions & __thiscall Lifecycle::LifeCycleTransitions::operator=(class Lifecycle::LifeCycleTransitions const &)` | 36 | Exported Function
-`public: class JCFCoreUtils::ThreadUtils & __thiscall JCFCoreUtils::ThreadUtils::operator=(class JCFCoreUtils::ThreadUtils const &)` | 41 | Exported Function
-`public: class JCFCoreUtils::XmlUtils::IXmlHandler & __thiscall JCFCoreUtils::XmlUtils::IXmlHandler::operator=(class JCFCoreUtils::XmlUtils::IXmlHandler &&)` | 34 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::FileUtils::getAllBytesFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &)` | 139 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::FileUtils::isDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 187 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::FileUtils::createDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 100 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::FileUtils::fileExists(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 135 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::SystemUtils::IsVirtualisedEnv(void)` | 67 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::XmlUtils::XmlProcessor::processXml(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::shared_ptr<class JCFCoreUtils::XmlUtils::IXmlHandler>,bool,bool)` | 203 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::XmlUtils::XmlProcessor::processXml(class std::shared_ptr<struct _xmlDoc>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::shared_ptr<class JCFCoreUtils::XmlUtils::IXmlHandler>,bool,bool)` | 204 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::SystemUtils::IsWow64(void)` | 68 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::SystemUtils::VerifyVersion(void)` | 74 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::encrypt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &)` | 110 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::encrypt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &)` | 111 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::decryptAES256(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class csf::SecureString &)` | 105 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::decryptAES256(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class csf::SecureString &)` | 106 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::encryptAES256(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &)` | 112 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::publicKeyEncryptToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 205 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::FileUtils::copyFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 98 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::encryptAES256(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class csf::SecureString const &,class std::vector<unsigned char,class std::allocator<unsigned char> > &)` | 113 | Exported Function
-`public: static bool __cdecl JCFCoreUtils::EncryptionUtils::privateKeyDecryptToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class csf::SecureString const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 202 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::caseInsensitiveRFind(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 79 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::toUnsignedInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 255 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::caseInsensitiveFind(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 77 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::caseInsensitiveRFind(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 78 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::toUnsignedInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)` | 256 | Exported Function
-`unsigned long __cdecl JCFCoreUtils::XmlUtils::convertHtmlSizeToPt(unsigned long)` | 94 | Exported Function
-`unsigned long __cdecl JCFCoreUtils::XmlUtils::convertPtToHtmlSize(unsigned long)` | 95 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::toUnsignedInt(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned int)` | 257 | Exported Function
-`unsigned long __cdecl JCFCoreUtils::toUnsignedLong(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 258 | Exported Function
-`public: void __thiscall jcf::encryption::EncryptionKeyReaderWriter::remove(void)` | 210 | Exported Function
-`public: void __thiscall JCFCoreUtils::PropertyFileUtil::eraseAllProperties(void)` | 115 | Exported Function
-`public: virtual __thiscall Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::~StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>(void)` | 21 | Exported Function
-`public: void __thiscall jcf::encryption::EncryptionKeyManager::remove(void)` | 209 | Exported Function
-`public: void __thiscall Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::set(enum Lifecycle::STATES,bool)` | 221 | Exported Function
-`struct _xmlNode * __cdecl JCFCoreUtils::XmlUtils::getFirstXPathResult(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct _xmlNode *,class std::shared_ptr<struct _xmlXPathContext>)` | 158 | Exported Function
-`unsigned int __cdecl JCFCoreUtils::caseInsensitiveFind(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 76 | Exported Function
-`struct _xmlAttr * __cdecl JCFCoreUtils::XmlUtils::extractXmlAttribute(struct _xmlNode * const,unsigned char const *)` | 132 | Exported Function
-`struct _xmlNode * __cdecl JCFCoreUtils::XmlUtils::extractXmlNode(struct _xmlNode * const,unsigned char const *)` | 133 | Exported Function
-`void __cdecl JCFCoreUtils::trim_safe(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 277 | Exported Function
-`void __cdecl JCFCoreUtils::trimleft_safe(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 280 | Exported Function
-`void __cdecl JCFCoreUtils::split(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 229 | Exported Function
-`void __cdecl JCFCoreUtils::trim_safe(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 276 | Exported Function
-`void __cdecl JCFCoreUtils::trimleft_safe(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 281 | Exported Function
-`void __cdecl JCFCoreUtils::XmlUtils::dumpNode(struct _xmlTextReader *,struct _xmlTextWriter *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 108 | Exported Function
-`void __cdecl JCFCoreUtils::XmlUtils::getStringsFromNode(struct _xmlNode * const,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,bool)` | 176 | Exported Function
-`void __cdecl JCFCoreUtils::trimright_safe(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 284 | Exported Function
-`void __cdecl JCFCoreUtils::trimright_safe(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 285 | Exported Function
-`void __cdecl JCFCoreUtils::clearBlanks(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 92 | Exported Function
-`void __cdecl JCFCoreUtils::replaceAll(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char,char)` | 214 | Exported Function
-`unsigned short __cdecl JCFCoreUtils::toUnsignedShort(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 259 | Exported Function
-`void __cdecl JCFCoreUtils::clearBlanks(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 91 | Exported Function
-`void __cdecl JCFCoreUtils::replaceAll(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 215 | Exported Function
-`void __cdecl JCFCoreUtils::sanitizePhoneNumber(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 220 | Exported Function
-`void __cdecl JCFCoreUtils::split(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 228 | Exported Function
-`void __cdecl JCFCoreUtils::replaceAll(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >)` | 216 | Exported Function
-`void __cdecl JCFCoreUtils::replaceAll(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,wchar_t,wchar_t)` | 217 | Exported Function
-`public: virtual __thiscall Lifecycle::LifeCycleStateContainer::~LifeCycleStateContainer(void)` | 24 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::setCompanyName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 223 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::setFilePrefixForTests(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 224 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::removeDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 211 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::setAppIdentifier(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 222 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::setInstallationDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 225 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FstreamUtils::open(class std::basic_fstream<wchar_t,struct std::char_traits<wchar_t> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 197 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FstreamUtils::open(class std::basic_ifstream<char,struct std::char_traits<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 198 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::setResourcesDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 227 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FstreamUtils::open(class std::basic_fstream<char,struct std::char_traits<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 196 | Exported Function
-`public: static int __cdecl JCFCoreUtils::FileUtils::removeFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 212 | Exported Function
-`public: static int __cdecl JCFCoreUtils::FileUtils::renameFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 213 | Exported Function
-`public: static enum JCFCoreUtils::VirtualisationType __cdecl JCFCoreUtils::SystemUtils::GetVirtualisationType(void)` | 65 | Exported Function
-`public: static int __cdecl JCFCoreUtils::FileUtils::moveFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 195 | Exported Function
-`public: static struct JCFCoreUtils::JabberVersion __cdecl JCFCoreUtils::SystemUtils::getJabberVersion(void)` | 163 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::getFilesFromDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)` | 157 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::getSubDirectories(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)` | 177 | Exported Function
-`public: static unsigned int __cdecl JCFCoreUtils::ThreadUtils::getCurrentThreadId(void)` | 147 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FileUtils::createParentDirectory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 101 | Exported Function
-`public: static void __cdecl JCFCoreUtils::ThreadUtils::runInThreadPool(class std::shared_ptr<class csf::Task>)` | 219 | Exported Function
-`public: struct jcf::encryption::EncryptionKeyManager::CreateResult __thiscall jcf::encryption::EncryptionKeyManager::create(void)` | 99 | Exported Function
-`public: static void __cdecl JCFCoreUtils::SystemUtils::setJabberVersion(struct JCFCoreUtils::JabberVersion const &)` | 226 | Exported Function
-`public: static void __cdecl JCFCoreUtils::ThreadUtils::runInThreadPool(class std::function<void __cdecl(void)>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 218 | Exported Function
-`public: struct jcf::encryption::EncryptionKeyManager::ReadResult __thiscall jcf::encryption::EncryptionKeyManager::read(void)` | 206 | Exported Function
-`public: unsigned int __thiscall JCFCoreUtils::MicrosecondTime::GetYear(void)const ` | 66 | Exported Function
-`public: unsigned int __thiscall JCFCoreUtils::Random::getRandom(unsigned int)` | 171 | Exported Function
-`public: unsigned int __thiscall JCFCoreUtils::MicrosecondTime::GetDay(void)const ` | 57 | Exported Function
-`public: unsigned int __thiscall JCFCoreUtils::MicrosecondTime::GetMonth(void)const ` | 63 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FstreamUtils::open(class std::basic_ofstream<wchar_t,struct std::char_traits<wchar_t> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 201 | Exported Function
-`public: static void __cdecl JCFCoreUtils::ScopedTimer::EndAllAsyncFlows(void)` | 54 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FstreamUtils::open(class std::basic_ifstream<wchar_t,struct std::char_traits<wchar_t> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 199 | Exported Function
-`public: static void __cdecl JCFCoreUtils::FstreamUtils::open(class std::basic_ofstream<char,struct std::char_traits<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 200 | Exported Function
-`public: static void __cdecl JCFCoreUtils::ScopedTimer::TagBeginAsyncFlow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 71 | Exported Function
-`public: static void __cdecl JCFCoreUtils::SystemUtils::getMemoryUsage(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 166 | Exported Function
-`public: static void __cdecl JCFCoreUtils::SystemUtils::getVxcPath(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)` | 186 | Exported Function
-`public: static void __cdecl JCFCoreUtils::ScopedTimer::TagEndAsyncFlow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 72 | Exported Function
-`public: static void __cdecl JCFCoreUtils::SystemUtils::addLibrarySearchPath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 75 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::encodePlainTextAsXHTML(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 109 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::escapeXhtmlAsJsonArg(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 120 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::deEscapeJsonArgToXhtml(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 102 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::dumpElementDetails(struct _xmlDoc * const,struct _xmlNode * const)` | 107 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::escapeXmlChars(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 121 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::extractStringUsingXmlPath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 130 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::extractStringUsingXmlPath(struct _xmlDoc *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 129 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::extractStringFromXmlNode(struct _xmlAttr * const)` | 127 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::extractStringFromXmlNode(struct _xmlNode * const)` | 128 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::trimHttpHead(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 273 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::trimleft(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 278 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toUppercase(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 260 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::trim(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 271 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::trimright(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 282 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::convertHTMLToPlainText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)` | 93 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::convertUTF8ToHtml(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 97 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::trimUrl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 274 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::unescapeJid(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 286 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(char const *)` | 270 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 267 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(__int64 const &)` | 268 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(bool const &)` | 269 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(double const &)` | 266 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(long const &)` | 263 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(unsigned int const &)` | 262 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(float const &)` | 265 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(int const &)` | 261 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::getValue(struct _xmlTextReader *)` | 184 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::toString(class std::shared_ptr<unsigned char>)` | 254 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::extractXmlStringFromXmlNode(struct _xmlDoc * const,struct _xmlNode * const)` | 134 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::getName(struct _xmlTextReader *)` | 167 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::unescapeXmlChars(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 288 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::escapeJid(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 119 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toLowercase(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 243 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::unwrapFromOuterTag(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 290 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::XmlUtils::wrapWithOuterTag(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 291 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(wchar_t const *)` | 253 | Exported Function
-`bool __cdecl JCFCoreUtils::toBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 233 | Exported Function
-`bool __cdecl JCFCoreUtils::toBool(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 234 | Exported Function
-`bool __cdecl JCFCoreUtils::isValidUUid(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 193 | Exported Function
-`bool __cdecl JCFCoreUtils::startsWith(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 230 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::checkHTMLContainsImage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 84 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::checkXmlIsWellFormed(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 89 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::checkXmlIsWellFormed_safe(char const *)` | 90 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::checkHtmlIsWellFormed(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int &)` | 85 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::checkHtmlIsWellFormed_safe(char const *,int &)` | 86 | Exported Function
-`bool __cdecl JCFCoreUtils::caseInsensitiveStringEquals(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 83 | Exported Function
-`bool __cdecl JCFCoreUtils::endsWith(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 114 | Exported Function
-`__int64 __cdecl JCFCoreUtils::toLongLong(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 241 | Exported Function
-`bool __cdecl JCFCoreUtils::caseInsensitiveStringEquals(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 82 | Exported Function
-`bool __cdecl JCFCoreUtils::isValidDigit(wchar_t)` | 188 | Exported Function
-`bool __cdecl JCFCoreUtils::isValidSipUri(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 191 | Exported Function
-`bool __cdecl JCFCoreUtils::isValidSparkMeetingNumber(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 192 | Exported Function
-`bool __cdecl JCFCoreUtils::isValidJid(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 189 | Exported Function
-`bool __cdecl JCFCoreUtils::isValidJid(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 190 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 250 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(double const &)` | 249 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(__int64 const &)` | 251 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(bool const &)` | 252 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(float const &)` | 248 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(unsigned int const &)` | 245 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(unsigned long const &)` | 247 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(int const &)` | 244 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toString(long const &)` | 246 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::getName(struct _xmlTextReader *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 168 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::getValue(struct _xmlTextReader *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 185 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::extractBoolFromXmlNode(struct _xmlAttr * const)` | 123 | Exported Function
-`bool __cdecl JCFCoreUtils::XmlUtils::extractBoolFromXmlNode(struct _xmlNode * const)` | 124 | Exported Function
-`char __cdecl JCFCoreUtils::convertToNumericValue(char)` | 96 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::SHA256(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 70 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::toLowercase(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 242 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::escapeJid(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 118 | Exported Function
-`class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl JCFCoreUtils::extractUsernameFromUri(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 131 | Exported Function
-`public: __thiscall JCFCoreUtils::XmlUtils::IXmlHandler::IXmlHandler(void)` | 10 | Exported Function
-`public: __thiscall Lifecycle::LifeCycleStateContainer::LifeCycleStateContainer(void)` | 11 | Exported Function
-`public: __thiscall JCFCoreUtils::XmlUtils::IXmlHandler::IXmlHandler(class JCFCoreUtils::XmlUtils::IXmlHandler &&)` | 8 | Exported Function
-`public: __thiscall JCFCoreUtils::XmlUtils::IXmlHandler::IXmlHandler(class JCFCoreUtils::XmlUtils::IXmlHandler const &)` | 9 | Exported Function
-`public: __thiscall Lifecycle::LifeCycleTransitions::LifeCycleTransitions(void)` | 12 | Exported Function
-`public: bool __thiscall jcf::encryption::EncryptionKeyReaderWriter::write(class csf::SecureString)` | 292 | Exported Function
-`public: bool __thiscall JCFCoreUtils::MicrosecondTime::operator!=(class JCFCoreUtils::MicrosecondTime const &)const ` | 43 | Exported Function
-`public: __thiscall Lifecycle::LifeCycleTransitions::~LifeCycleTransitions(void)` | 25 | Exported Function
-`public: __thiscall Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>(enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions *)` | 1 | Exported Function
-`public: __thiscall JCFCoreUtils::MicrosecondTime::MicrosecondTime(void)` | 15 | Exported Function
-`public: __thiscall JCFCoreUtils::PropertyFileUtil::PropertyFileUtil(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 17 | Exported Function
-`public: __thiscall JCFCoreUtils::MicrosecondTime::MicrosecondTime(class JCFCoreUtils::MicrosecondTime const &)` | 13 | Exported Function
-`public: __thiscall JCFCoreUtils::MicrosecondTime::MicrosecondTime(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int,bool)` | 14 | Exported Function
-`public: __thiscall JCFCoreUtils::Random::Random(void)` | 18 | Exported Function
-`public: __thiscall JCFCoreUtils::ScopedTimer::ScopedTimer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 20 | Exported Function
-`public: __thiscall JCFCoreUtils::ScopedTimer::~ScopedTimer(void)` | 27 | Exported Function
-`public: __thiscall JCFCoreUtils::Random::~Random(void)` | 26 | Exported Function
-`public: __thiscall JCFCoreUtils::ScopedTimer::ScopedTimer(class JCFCoreUtils::ScopedTimer const &)` | 19 | Exported Function
-`public: class jcf::encryption::EncryptionKeyReaderWriter & __thiscall jcf::encryption::EncryptionKeyReaderWriter::operator=(class jcf::encryption::EncryptionKeyReaderWriter const &)` | 31 | Exported Function
-`public: class JCFCoreUtils::FstreamUtils & __thiscall JCFCoreUtils::FstreamUtils::operator=(class JCFCoreUtils::FstreamUtils &&)` | 32 | Exported Function
-`public: class jcf::encryption::EncryptionKeyManager & __thiscall jcf::encryption::EncryptionKeyManager::operator=(class jcf::encryption::EncryptionKeyManager const &)` | 29 | Exported Function
-`public: class jcf::encryption::EncryptionKeyReaderWriter & __thiscall jcf::encryption::EncryptionKeyReaderWriter::operator=(class jcf::encryption::EncryptionKeyReaderWriter &&)` | 30 | Exported Function
-`public: class JCFCoreUtils::FstreamUtils & __thiscall JCFCoreUtils::FstreamUtils::operator=(class JCFCoreUtils::FstreamUtils const &)` | 33 | Exported Function
-`public: class JCFCoreUtils::MicrosecondTime & __thiscall JCFCoreUtils::MicrosecondTime::operator=(class JCFCoreUtils::MicrosecondTime const &)` | 37 | Exported Function
-`public: class JCFCoreUtils::MicrosecondTime __thiscall JCFCoreUtils::MicrosecondTime::GetMidnight(void)const ` | 62 | Exported Function
-`public: class JCFCoreUtils::MicrosecondTime & __thiscall JCFCoreUtils::MicrosecondTime::operator+=(__int64 &)` | 49 | Exported Function
-`public: class JCFCoreUtils::MicrosecondTime & __thiscall JCFCoreUtils::MicrosecondTime::operator-=(__int64 &)` | 50 | Exported Function
-`public: bool __thiscall JCFCoreUtils::MicrosecondTime::operator>(class JCFCoreUtils::MicrosecondTime const &)const ` | 48 | Exported Function
-`public: bool __thiscall JCFCoreUtils::PropertyFileUtil::eraseProperty(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 116 | Exported Function
-`public: bool __thiscall JCFCoreUtils::MicrosecondTime::operator<(class JCFCoreUtils::MicrosecondTime const &)const ` | 47 | Exported Function
-`public: bool __thiscall JCFCoreUtils::MicrosecondTime::operator==(class JCFCoreUtils::MicrosecondTime const &)const ` | 42 | Exported Function
-`public: bool __thiscall JCFCoreUtils::PropertyFileUtil::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 183 | Exported Function
-`public: class csf::SecureString __thiscall jcf::encryption::EncryptionKeyReaderWriter::read(void)` | 207 | Exported Function
-`public: class jcf::encryption::EncryptionKeyManager & __thiscall jcf::encryption::EncryptionKeyManager::operator=(class jcf::encryption::EncryptionKeyManager &&)` | 28 | Exported Function
-`public: bool __thiscall JCFCoreUtils::PropertyFileUtil::storeValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)` | 231 | Exported Function
-`public: bool __thiscall Lifecycle::LifeCycleTransitions::checkLegalTransition(enum Lifecycle::STATES,enum Lifecycle::STATES)` | 88 | Exported Function
-`public: __thiscall JCFCoreUtils::MicrosecondTime::MicrosecondTime(__int64,bool)` | 16 | Exported Function
-`const Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::``vftable'` | 51 | Exported Function
-`double __cdecl JCFCoreUtils::toDouble(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 235 | Exported Function
-`const JCFCoreUtils::XmlUtils::IXmlHandler::``vftable'` | 52 | Exported Function
-`const Lifecycle::LifeCycleStateContainer::``vftable'` | 53 | Exported Function
-`float __cdecl JCFCoreUtils::toFloat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 236 | Exported Function
-`int __cdecl JCFCoreUtils::toInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 237 | Exported Function
-`int __cdecl JCFCoreUtils::toInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)` | 238 | Exported Function
-`int __cdecl JCFCoreUtils::caseInsensitiveStringCompare(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 80 | Exported Function
-`int __cdecl JCFCoreUtils::caseInsensitiveStringCompare(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 81 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::trimleft(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 279 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::trimright(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 283 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::toWideString(unsigned long const &)` | 264 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::trim(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 272 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::trimUrl(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 275 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::XmlUtils::unescapeXmlChars(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 289 | Exported Function
-`class std::vector<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > __cdecl JCFCoreUtils::XmlUtils::readAttributes(struct _xmlTextReader *,bool,bool)` | 208 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::unescapeJid(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 287 | Exported Function
-`class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl JCFCoreUtils::XmlUtils::escapeXmlChars(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)` | 122 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyManager::EncryptionKeyManager(class jcf::encryption::EncryptionKeyManager const &)` | 3 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyManager::EncryptionKeyManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 4 | Exported Function
-`public: __int64 __thiscall JCFCoreUtils::MicrosecondTime::operator-(class JCFCoreUtils::MicrosecondTime const &)const ` | 45 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyManager::EncryptionKeyManager(class jcf::encryption::EncryptionKeyManager &&)` | 2 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyManager::~EncryptionKeyManager(void)` | 22 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyReaderWriter::EncryptionKeyReaderWriter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 7 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyReaderWriter::~EncryptionKeyReaderWriter(void)` | 23 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyReaderWriter::EncryptionKeyReaderWriter(class jcf::encryption::EncryptionKeyReaderWriter &&)` | 5 | Exported Function
-`public: __thiscall jcf::encryption::EncryptionKeyReaderWriter::EncryptionKeyReaderWriter(class jcf::encryption::EncryptionKeyReaderWriter const &)` | 6 | Exported Function
-`int __cdecl JCFCoreUtils::XmlUtils::extractIntFromXmlNode(struct _xmlNode * const)` | 126 | Exported Function
-`long __cdecl JCFCoreUtils::toLong(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 240 | Exported Function
-`int __cdecl JCFCoreUtils::toInt(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,int)` | 239 | Exported Function
-`int __cdecl JCFCoreUtils::XmlUtils::extractIntFromXmlNode(struct _xmlAttr * const)` | 125 | Exported Function
-`private: bool __thiscall Lifecycle::StateContainer<enum Lifecycle::STATES,class Lifecycle::LifeCycleTransitions>::checkLegalTransition(enum Lifecycle::STATES)` | 87 | Exported Function
-`public: __int64 __thiscall JCFCoreUtils::MicrosecondTime::GetLocal(void)const ` | 61 | Exported Function
-`public: __int64 __thiscall JCFCoreUtils::MicrosecondTime::GetUTC(void)const ` | 64 | Exported Function
-`private: static class csf::ThreadPool * JCFCoreUtils::ThreadUtils::m_pThreadPool` | 194 | Exported Function
-`private: static struct JCFCoreUtils::JabberVersion __cdecl JCFCoreUtils::SystemUtils::getDefaultJabberVersion(void)` | 149 | Exported Function
+`getFilePrefixForTests` | 155 | Exported Function
+`getHistoryDirectory` | 159 | Exported Function
+`allocator` | 151 | Exported Function
+`allocator` | 153 | Exported Function
+`allocator` | 160 | Exported Function
+`getLocalAppBaseDirectory` | 165 | Exported Function
+`allocator` | 169 | Exported Function
+`getInstallationDirectory` | 162 | Exported Function
+`getJabberWerxCppTraceDir` | 164 | Exported Function
+`getAppIdentifier` | 140 | Exported Function
+`getBootstrapDirectory` | 141 | Exported Function
+`FileSeparator` | 55 | Exported Function
+`allocator` | 138 | Exported Function
+`getBootstrapFilePath` | 142 | Exported Function
+`getConfigDirectory` | 145 | Exported Function
+`getCredentialsDirectory` | 146 | Exported Function
+`getCompanyName` | 143 | Exported Function
+`allocator` | 144 | Exported Function
+`GetLibraryDirectoryPath` | 59 | Exported Function
+`GetLibraryName` | 60 | Exported Function
+`getHttpUserAgent` | 161 | Exported Function
+`GetHvdAgentVersion` | 58 | Exported Function
+`FileSeparatorW` | 56 | Exported Function
+`allocator` | 170 | Exported Function
+`getUserTempDirectory` | 182 | Exported Function
+`allocator` | 152 | Exported Function
+`allocator` | 154 | Exported Function
+`getSecurityDirectory` | 174 | Exported Function
+`getTraceDir` | 178 | Exported Function
+`getResourcesDirectory` | 172 | Exported Function
+`getRoamingBaseDirectory` | 173 | Exported Function
+`getUserDocumentsDir` | 179 | Exported Function
+`generateNewKey` | 136 | Exported Function
+`allocator` | 150 | Exported Function
+`getUserLocalAppDir` | 180 | Exported Function
+`getUserRoamingDir` | 181 | Exported Function
+`allocator` | 117 | Exported Function
+`getSequence` | 175 | Exported Function
+`allocator` | 156 | Exported Function
+`allocator` | 232 | Exported Function
+`get` | 137 | Exported Function
+`getCurrentTimeInSeconds` | 148 | Exported Function
+`SecureString` | 104 | Exported Function
+`SecureString` | 103 | Exported Function
+`LocalNowInMicroseconds` | 69 | Exported Function
+`UTCNowInMicroseconds` | 73 | Exported Function
+`Random` | 38 | Exported Function
+`ScopedTimer` | 39 | Exported Function
+`operator` | 46 | Exported Function
+`operator` | 44 | Exported Function
+`ThreadUtils` | 40 | Exported Function
+`IXmlHandler` | 35 | Exported Function
+`LifeCycleTransitions` | 36 | Exported Function
+`ThreadUtils` | 41 | Exported Function
+`IXmlHandler` | 34 | Exported Function
+`allocator` | 139 | Exported Function
+`allocator` | 187 | Exported Function
+`allocator` | 100 | Exported Function
+`allocator` | 135 | Exported Function
+`IsVirtualisedEnv` | 67 | Exported Function
+`IXmlHandler` | 203 | Exported Function
+`IXmlHandler` | 204 | Exported Function
+`IsWow64` | 68 | Exported Function
+`VerifyVersion` | 74 | Exported Function
+`allocator` | 110 | Exported Function
+`allocator` | 111 | Exported Function
+`SecureString` | 105 | Exported Function
+`SecureString` | 106 | Exported Function
+`allocator` | 112 | Exported Function
+`allocator` | 205 | Exported Function
+`allocator` | 98 | Exported Function
+`allocator` | 113 | Exported Function
+`allocator` | 202 | Exported Function
+`allocator` | 79 | Exported Function
+`allocator` | 255 | Exported Function
+`allocator` | 77 | Exported Function
+`allocator` | 78 | Exported Function
+`allocator` | 256 | Exported Function
+`convertHtmlSizeToPt` | 94 | Exported Function
+`convertPtToHtmlSize` | 95 | Exported Function
+`allocator` | 257 | Exported Function
+`allocator` | 258 | Exported Function
+`remove` | 210 | Exported Function
+`eraseAllProperties` | 115 | Exported Function
+`LifeCycleTransitions` | 21 | Exported Function
+`remove` | 209 | Exported Function
+`STATES` | 221 | Exported Function
+`shared_ptr` | 158 | Exported Function
+`allocator` | 76 | Exported Function
+`extractXmlAttribute` | 132 | Exported Function
+`extractXmlNode` | 133 | Exported Function
+`allocator` | 277 | Exported Function
+`allocator` | 280 | Exported Function
+`allocator` | 229 | Exported Function
+`allocator` | 276 | Exported Function
+`allocator` | 281 | Exported Function
+`allocator` | 108 | Exported Function
+`allocator` | 176 | Exported Function
+`allocator` | 284 | Exported Function
+`allocator` | 285 | Exported Function
+`allocator` | 92 | Exported Function
+`allocator` | 214 | Exported Function
+`allocator` | 259 | Exported Function
+`allocator` | 91 | Exported Function
+`allocator` | 215 | Exported Function
+`allocator` | 220 | Exported Function
+`allocator` | 228 | Exported Function
+`allocator` | 216 | Exported Function
+`allocator` | 217 | Exported Function
+`LifeCycleStateContainer` | 24 | Exported Function
+`allocator` | 223 | Exported Function
+`allocator` | 224 | Exported Function
+`allocator` | 211 | Exported Function
+`allocator` | 222 | Exported Function
+`allocator` | 225 | Exported Function
+`allocator` | 197 | Exported Function
+`allocator` | 198 | Exported Function
+`allocator` | 227 | Exported Function
+`allocator` | 196 | Exported Function
+`allocator` | 212 | Exported Function
+`allocator` | 213 | Exported Function
+`GetVirtualisationType` | 65 | Exported Function
+`allocator` | 195 | Exported Function
+`getJabberVersion` | 163 | Exported Function
+`allocator` | 157 | Exported Function
+`allocator` | 177 | Exported Function
+`getCurrentThreadId` | 147 | Exported Function
+`allocator` | 101 | Exported Function
+`Task` | 219 | Exported Function
+`create` | 99 | Exported Function
+`JabberVersion` | 226 | Exported Function
+`allocator` | 218 | Exported Function
+`read` | 206 | Exported Function
+`GetYear` | 66 | Exported Function
+`getRandom` | 171 | Exported Function
+`GetDay` | 57 | Exported Function
+`GetMonth` | 63 | Exported Function
+`allocator` | 201 | Exported Function
+`EndAllAsyncFlows` | 54 | Exported Function
+`allocator` | 199 | Exported Function
+`allocator` | 200 | Exported Function
+`allocator` | 71 | Exported Function
+`allocator` | 166 | Exported Function
+`allocator` | 186 | Exported Function
+`allocator` | 72 | Exported Function
+`allocator` | 75 | Exported Function
+`allocator` | 109 | Exported Function
+`allocator` | 120 | Exported Function
+`allocator` | 102 | Exported Function
+`dumpElementDetails` | 107 | Exported Function
+`allocator` | 121 | Exported Function
+`allocator` | 130 | Exported Function
+`allocator` | 129 | Exported Function
+`extractStringFromXmlNode` | 127 | Exported Function
+`extractStringFromXmlNode` | 128 | Exported Function
+`allocator` | 273 | Exported Function
+`allocator` | 278 | Exported Function
+`allocator` | 260 | Exported Function
+`allocator` | 271 | Exported Function
+`allocator` | 282 | Exported Function
+`allocator` | 93 | Exported Function
+`allocator` | 97 | Exported Function
+`allocator` | 274 | Exported Function
+`allocator` | 286 | Exported Function
+`toWideString` | 270 | Exported Function
+`allocator` | 267 | Exported Function
+`toWideString` | 268 | Exported Function
+`toWideString` | 269 | Exported Function
+`toWideString` | 266 | Exported Function
+`toWideString` | 263 | Exported Function
+`toWideString` | 262 | Exported Function
+`toWideString` | 265 | Exported Function
+`toWideString` | 261 | Exported Function
+`getValue` | 184 | Exported Function
+`shared_ptr` | 254 | Exported Function
+`extractXmlStringFromXmlNode` | 134 | Exported Function
+`getName` | 167 | Exported Function
+`allocator` | 288 | Exported Function
+`allocator` | 119 | Exported Function
+`allocator` | 243 | Exported Function
+`allocator` | 290 | Exported Function
+`allocator` | 291 | Exported Function
+`toString` | 253 | Exported Function
+`allocator` | 233 | Exported Function
+`allocator` | 234 | Exported Function
+`allocator` | 193 | Exported Function
+`allocator` | 230 | Exported Function
+`allocator` | 84 | Exported Function
+`allocator` | 89 | Exported Function
+`checkXmlIsWellFormed_safe` | 90 | Exported Function
+`allocator` | 85 | Exported Function
+`checkHtmlIsWellFormed_safe` | 86 | Exported Function
+`allocator` | 83 | Exported Function
+`allocator` | 114 | Exported Function
+`allocator` | 241 | Exported Function
+`allocator` | 82 | Exported Function
+`isValidDigit` | 188 | Exported Function
+`allocator` | 191 | Exported Function
+`allocator` | 192 | Exported Function
+`allocator` | 189 | Exported Function
+`allocator` | 190 | Exported Function
+`allocator` | 250 | Exported Function
+`toString` | 249 | Exported Function
+`toString` | 251 | Exported Function
+`toString` | 252 | Exported Function
+`toString` | 248 | Exported Function
+`toString` | 245 | Exported Function
+`toString` | 247 | Exported Function
+`toString` | 244 | Exported Function
+`toString` | 246 | Exported Function
+`allocator` | 168 | Exported Function
+`allocator` | 185 | Exported Function
+`extractBoolFromXmlNode` | 123 | Exported Function
+`extractBoolFromXmlNode` | 124 | Exported Function
+`convertToNumericValue` | 96 | Exported Function
+`allocator` | 70 | Exported Function
+`allocator` | 242 | Exported Function
+`allocator` | 118 | Exported Function
+`allocator` | 131 | Exported Function
+`IXmlHandler` | 10 | Exported Function
+`LifeCycleStateContainer` | 11 | Exported Function
+`IXmlHandler` | 8 | Exported Function
+`IXmlHandler` | 9 | Exported Function
+`LifeCycleTransitions` | 12 | Exported Function
+`SecureString` | 292 | Exported Function
+`MicrosecondTime` | 43 | Exported Function
+`LifeCycleTransitions` | 25 | Exported Function
+`LifeCycleTransitions` | 1 | Exported Function
+`MicrosecondTime` | 15 | Exported Function
+`allocator` | 17 | Exported Function
+`MicrosecondTime` | 13 | Exported Function
+`MicrosecondTime` | 14 | Exported Function
+`Random` | 18 | Exported Function
+`allocator` | 20 | Exported Function
+`ScopedTimer` | 27 | Exported Function
+`Random` | 26 | Exported Function
+`ScopedTimer` | 19 | Exported Function
+`EncryptionKeyReaderWriter` | 31 | Exported Function
+`FstreamUtils` | 32 | Exported Function
+`EncryptionKeyManager` | 29 | Exported Function
+`EncryptionKeyReaderWriter` | 30 | Exported Function
+`FstreamUtils` | 33 | Exported Function
+`MicrosecondTime` | 37 | Exported Function
+`GetMidnight` | 62 | Exported Function
+`operator` | 49 | Exported Function
+`operator` | 50 | Exported Function
+`MicrosecondTime` | 48 | Exported Function
+`allocator` | 116 | Exported Function
+`MicrosecondTime` | 47 | Exported Function
+`MicrosecondTime` | 42 | Exported Function
+`allocator` | 183 | Exported Function
+`read` | 207 | Exported Function
+`EncryptionKeyManager` | 28 | Exported Function
+`allocator` | 231 | Exported Function
+`STATES` | 88 | Exported Function
+`MicrosecondTime` | 16 | Exported Function
+`LifeCycleTransitions` | 51 | Exported Function
+`allocator` | 235 | Exported Function
+`IXmlHandler` | 52 | Exported Function
+`LifeCycleStateContainer` | 53 | Exported Function
+`allocator` | 236 | Exported Function
+`allocator` | 237 | Exported Function
+`allocator` | 238 | Exported Function
+`allocator` | 80 | Exported Function
+`allocator` | 81 | Exported Function
+`allocator` | 279 | Exported Function
+`allocator` | 283 | Exported Function
+`toWideString` | 264 | Exported Function
+`allocator` | 272 | Exported Function
+`allocator` | 275 | Exported Function
+`allocator` | 289 | Exported Function
+`readAttributes` | 208 | Exported Function
+`allocator` | 287 | Exported Function
+`allocator` | 122 | Exported Function
+`EncryptionKeyManager` | 3 | Exported Function
+`allocator` | 4 | Exported Function
+`MicrosecondTime` | 45 | Exported Function
+`EncryptionKeyManager` | 2 | Exported Function
+`EncryptionKeyManager` | 22 | Exported Function
+`allocator` | 7 | Exported Function
+`EncryptionKeyReaderWriter` | 23 | Exported Function
+`EncryptionKeyReaderWriter` | 5 | Exported Function
+`EncryptionKeyReaderWriter` | 6 | Exported Function
+`extractIntFromXmlNode` | 126 | Exported Function
+`allocator` | 240 | Exported Function
+`allocator` | 239 | Exported Function
+`extractIntFromXmlNode` | 125 | Exported Function
+`STATES` | 87 | Exported Function
+`GetLocal` | 61 | Exported Function
+`GetUTC` | 64 | Exported Function
+`m_pThreadPool` | 194 | Exported Function
+`getDefaultJabberVersion` | 149 | Exported Function
 
 
 ## Signature

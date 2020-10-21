@@ -18,6 +18,9 @@ SHA256 | `496B42AAA7AAF0665E5EDD52D4348EC4105FB758DB674B110FA252DF247C91DC`
 SHA384 | `37463F0B1052A17318A0352226B6833DCAC5BD988C8982F303CDAF00A8D7DAC71EADF2A3939CB722C61E2EAD99C24E96`
 SHA512 | `F81FDA6E7F180D3500125E3B79A3636C71628399DD088E0D861FEEB0BD6F197F240D5AADDCB003A7762FEB0D3255F02433737EF57DFA2730DDE75AD8CC04791C`
 SSDEEP | `384:SHPNPWHYMwZFzEbW1hn3PpREaH4cYCjdn/e35ikyXImnFHsTBx4viGhLI1whUWnN:SHP1zEKhhzjNGpikHmWBxYewhiC1`
+IMP | `80CC4313933D9AFCC64EFD0255D4BD3C`
+PESHA1 | `E8EE7FB8537F99EE3EFF4540EEB4FAF35330224F`
+PE256 | `0E3C4F9FC224B14E25484C4FCE39A887A2EE85456F4F4658C75B9574648C5744`
 
 ## Runtime Data
 
@@ -55,15 +58,6 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\timeout.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -81,7 +75,12 @@ C:\Windows\SysWOW64\timeout.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/496b42aaa7aaf0665e5edd52d4348ec4105fb758db674b110fa252df247c91dc/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -135,6 +134,62 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | $s1 = "usage: %s <fisier ipuri> <fisier useri:parole> <connect timeout> <fail2ban wait> <threads> <outfile> <port>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s3 = "$sock = @ftp_connect($host,$port,$timeout);" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s0 = "function ftp_check($host,$user,$pass,$timeout){" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## timeout
+
+Pauses the command processor for the specified number of seconds. This command is typically used in batch files.
+
+### Syntax
+
+```
+timeout /t <timeoutinseconds> [/nobreak]
+```
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /t `<timeoutinseconds>` | Specifies the decimal number of seconds (between -1 and 99999) to wait before the command processor continues processing. The value **-1** causes the computer to wait indefinitely for a keystroke. |
+| /nobreak | Specifies to ignore user key strokes. |
+| /? | Displays help at the command prompt. |
+
+##### Remarks
+
+- A user keystroke resumes the command processor execution immediately, even if the timeout period has not expired.
+
+- When used in conjunction with the resource kit's **Sleep** tool, **timeout** is similar to the **pause** command.
+
+### Examples
+
+To pause the command processor for ten seconds, type:
+
+```
+timeout /t 10
+```
+
+To pause the command processor for 100 seconds and ignore any keystroke, type:
+
+```
+timeout /t 100 /nobreak
+```
+
+To pause the command processor indefinitely until a key is pressed, type:
+
+```
+timeout /t -1
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
 
 
 

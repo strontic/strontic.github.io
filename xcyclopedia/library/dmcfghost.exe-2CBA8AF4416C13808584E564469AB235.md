@@ -18,6 +18,9 @@ SHA256 | `B9B24776156D0448EC1EA55019AE85F2E17A2D0D133D1A7D1A86D82561073DA5`
 SHA384 | `B0BA80F3FA26552814AE3C67A693D25E3344AE8832FFEB8CE6C4B276A2D1DB9F117AC06E27B8B7440FD0FCB758EAC2C9`
 SHA512 | `7A601FC8B062FB536151D63EF73BFDAF64031031DC3CD6D19B72B0AA0211C55E0B33E2966B6D773652850B34ADDBE92DF36C48AFCB4F3C2E7440858C0670D803`
 SSDEEP | `768:DjrbdtLbBb/NE/n4J14j7RoWMl0ywqJMx2zOlsGQ:D/1/NE/n6WM+y1JMxKOlsGQ`
+IMP | `6FCA673968906FA1EB9C396AD8DFDF7E`
+PESHA1 | `E8212EEC249CD4DE9759A703F954137532EA8A4F`
+PE256 | `5BB76F914B1FA024101E69894D3E3B2FFAC00E94B47FD0AD2B7AA595F94D2F2B`
 
 ## Runtime Data
 
@@ -25,9 +28,17 @@ SSDEEP | `768:DjrbdtLbBb/NE/n4J14j7RoWMl0ywqJMx2zOlsGQ:D/1/NE/n6WM+y1JMxKOlsGQ`
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\system32\dmcfghost.exe |
 C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -47,7 +58,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b9b24776156d0448ec1ea55019ae85f2e17a2d0d133d1a7d1a86d82561073da5/detection/
 
 
 

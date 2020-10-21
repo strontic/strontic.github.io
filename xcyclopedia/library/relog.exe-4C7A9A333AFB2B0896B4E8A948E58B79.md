@@ -18,6 +18,9 @@ SHA256 | `100AF46C952E58105DBC51EB92510F6990377A3FFC57E82074A8BFB64C56C529`
 SHA384 | `01D078341EF753B90A6737429F665524C16F1CED299F33048EB7B285BFEB66E3F2384B307218DF78BA0FEF3CC7B6B6CC`
 SHA512 | `2FBB960AAA2322F0BD5BC14096F9640F0AEAD480BEAB9DF687837516B7EE898E1A2B3C14FFD34BA663B0F11AC1B4B0EA81850AC92176903F324D38D1BADD872D`
 SSDEEP | `768:mC+N6nlPSz0JPC/3c6f7Jl1/zdBNZj99mNUkiyDvkejoLWoe3F22Ms/qc/:7+HMUl5zbNB99mNUkiy4KWWTF2U/qc/`
+IMP | `6043170F48FA2A2802231975BB43BBDA`
+PESHA1 | `F7D903EBBB41E638AB9406B1AAC947604E2C4049`
+PE256 | `8475E6AFC739930ADDAEB208656E9F648A42A43761913D6E00169945B73BD074`
 
 ## Runtime Data
 
@@ -68,15 +71,24 @@ Examples:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\pdh.dll |
 C:\Windows\system32\relog.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -89,7 +101,12 @@ C:\Windows\system32\relog.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/100af46c952e58105dbc51eb92510f6990377a3ffc57e82074a8bfb64c56c529/detection/
 
 
 

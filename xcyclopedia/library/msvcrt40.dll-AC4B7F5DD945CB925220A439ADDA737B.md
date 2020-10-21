@@ -26,152 +26,152 @@ PE256 | `5D8D96A943CD4B48C165410A73E4690F5D3614D1A5376E40FD91D7310BE96A86`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: class filebuf * __thiscall filebuf::close(void)` | 287 | Exported Function
-`public: class filebuf * __thiscall filebuf::open(char const *,int,int)` | 359 | Exported Function
-`public: class filebuf & __thiscall filebuf::operator=(class filebuf const &)` | 103 | Exported Function
-`public: class filebuf * __thiscall filebuf::attach(int)` | 272 | Exported Function
-`public: class filebuf * __thiscall fstream::rdbuf(void)const ` | 386 | Exported Function
-`public: class fstream & __thiscall fstream::operator=(class fstream &)` | 104 | Exported Function
-`public: class ifstream & __thiscall ifstream::operator=(class ifstream const &)` | 105 | Exported Function
-`public: class filebuf * __thiscall ifstream::rdbuf(void)const ` | 387 | Exported Function
-`public: class filebuf * __thiscall ofstream::rdbuf(void)const ` | 390 | Exported Function
-`public: char __thiscall ios::fill(void)const ` | 315 | Exported Function
-`public: char const * __thiscall type_info::name(void)const ` | 357 | Exported Function
-`public: char * __thiscall strstreambuf::str(void)` | 443 | Exported Function
-`public: char __thiscall ios::fill(char)` | 314 | Exported Function
-`public: char const * __thiscall type_info::raw_name(void)const ` | 385 | Exported Function
-`public: class bad_typeid & __thiscall bad_typeid::operator=(class bad_typeid const &)` | 101 | Exported Function
-`public: class exception & __thiscall exception::operator=(class exception const &)` | 102 | Exported Function
-`public: class __non_rtti_object & __thiscall __non_rtti_object::operator=(class __non_rtti_object const &)` | 99 | Exported Function
-`public: class bad_cast & __thiscall bad_cast::operator=(class bad_cast const &)` | 100 | Exported Function
-`public: class istream & __thiscall istream::ignore(int,int)` | 341 | Exported Function
-`public: class istream & __thiscall istream::operator>>(char &)` | 129 | Exported Function
-`public: class istream & __thiscall istream::getline(signed char *,int,char)` | 335 | Exported Function
-`public: class istream & __thiscall istream::getline(unsigned char *,int,char)` | 337 | Exported Function
-`public: class istream & __thiscall istream::operator>>(char *)` | 143 | Exported Function
-`public: class istream & __thiscall istream::operator>>(class streambuf *)` | 145 | Exported Function
-`public: class istream & __thiscall istream::operator>>(double &)` | 138 | Exported Function
-`public: class istream & __thiscall istream::operator>>(class ios & (__cdecl*)(class ios &))` | 141 | Exported Function
-`public: class istream & __thiscall istream::operator>>(class istream & (__cdecl*)(class istream &))` | 140 | Exported Function
-`public: class istream & __thiscall istream::get(char *,int,char)` | 330 | Exported Function
-`public: class istream & __thiscall istream::get(class streambuf &,char)` | 328 | Exported Function
-`public: class Iostream_init & __thiscall Iostream_init::operator=(class Iostream_init const &)` | 98 | Exported Function
-`public: class istream & __thiscall istream::get(char &)` | 326 | Exported Function
-`public: class istream & __thiscall istream::get(signed char &)` | 325 | Exported Function
-`public: class istream & __thiscall istream::get(unsigned char *,int,char)` | 331 | Exported Function
-`public: class istream & __thiscall istream::getline(char *,int,char)` | 336 | Exported Function
-`public: class istream & __thiscall istream::get(signed char *,int,char)` | 329 | Exported Function
-`public: class istream & __thiscall istream::get(unsigned char &)` | 327 | Exported Function
-`public: __thiscall ofstream::ofstream(int,char *,int)` | 45 | Exported Function
-`public: __thiscall ofstream::ofstream(void)` | 47 | Exported Function
-`public: __thiscall ofstream::ofstream(class ofstream const &)` | 43 | Exported Function
-`public: __thiscall ofstream::ofstream(int)` | 44 | Exported Function
-`public: __thiscall ostream::ostream(class streambuf *)` | 50 | Exported Function
-`public: __thiscall ostream_withassign::ostream_withassign(void)` | 53 | Exported Function
-`public: __thiscall ostrstream::ostrstream(char *,int,int)` | 55 | Exported Function
-`public: __thiscall ostream_withassign::ostream_withassign(class ostream_withassign const &)` | 51 | Exported Function
-`public: __thiscall ostream_withassign::ostream_withassign(class streambuf *)` | 52 | Exported Function
-`public: __thiscall istream_withassign::istream_withassign(void)` | 37 | Exported Function
-`public: __thiscall istrstream::istrstream(char *)` | 39 | Exported Function
-`public: __thiscall istream_withassign::istream_withassign(class istream_withassign const &)` | 35 | Exported Function
-`public: __thiscall istream_withassign::istream_withassign(class streambuf *)` | 36 | Exported Function
-`public: __thiscall istrstream::istrstream(char *,int)` | 40 | Exported Function
-`public: __thiscall logic_error::logic_error(class logic_error const &)` | 42 | Exported Function
-`public: __thiscall ofstream::ofstream(char const *,int,int)` | 46 | Exported Function
-`public: __thiscall istrstream::istrstream(class istrstream const &)` | 38 | Exported Function
-`public: __thiscall logic_error::logic_error(char const * const &)` | 41 | Exported Function
-`public: __thiscall strstreambuf::strstreambuf(class strstreambuf const &)` | 67 | Exported Function
-`public: __thiscall strstreambuf::strstreambuf(int)` | 68 | Exported Function
-`public: __thiscall strstream::strstream(void)` | 66 | Exported Function
-`public: __thiscall strstreambuf::strstreambuf(char *,int,char *)` | 70 | Exported Function
-`public: __thiscall strstreambuf::strstreambuf(void * (__cdecl*)(long),void (__cdecl*)(void *))` | 69 | Exported Function
-`public: char * __thiscall ostrstream::str(void)` | 441 | Exported Function
-`public: char * __thiscall strstream::str(void)` | 442 | Exported Function
-`public: __thiscall strstreambuf::strstreambuf(void)` | 71 | Exported Function
-`public: char * __thiscall istrstream::str(void)` | 440 | Exported Function
-`public: __thiscall stdiobuf::stdiobuf(class stdiobuf const &)` | 57 | Exported Function
-`public: __thiscall stdiobuf::stdiobuf(struct _iobuf *)` | 58 | Exported Function
-`public: __thiscall ostrstream::ostrstream(class ostrstream const &)` | 54 | Exported Function
-`public: __thiscall ostrstream::ostrstream(void)` | 56 | Exported Function
-`public: __thiscall stdiostream::stdiostream(class stdiostream const &)` | 59 | Exported Function
-`public: __thiscall strstream::strstream(char *,int,int)` | 65 | Exported Function
-`public: __thiscall strstream::strstream(class strstream const &)` | 64 | Exported Function
-`public: __thiscall stdiostream::stdiostream(struct _iobuf *)` | 60 | Exported Function
-`public: __thiscall streambuf::streambuf(class streambuf const &)` | 63 | Exported Function
-`public: class istream & __thiscall istream::operator>>(float &)` | 137 | Exported Function
-`public: class ostream & __thiscall ostream::seekp(long,enum ios::seek_dir)` | 406 | Exported Function
-`public: class ostream & __thiscall ostream::write(char const *,int)` | 472 | Exported Function
-`public: class ostream & __thiscall ostream::put(unsigned char)` | 382 | Exported Function
-`public: class ostream & __thiscall ostream::seekp(long)` | 405 | Exported Function
-`public: class ostream & __thiscall ostream::write(signed char const *,int)` | 471 | Exported Function
-`public: class ostream & __thiscall ostream_withassign::operator=(class streambuf *)` | 121 | Exported Function
-`public: class ostream * __thiscall ios::tie(class ostream *)` | 455 | Exported Function
-`public: class ostream & __thiscall ostream::write(unsigned char const *,int)` | 473 | Exported Function
-`public: class ostream & __thiscall ostream_withassign::operator=(class ostream const &)` | 120 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(unsigned char)` | 148 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(unsigned int)` | 152 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(signed char)` | 146 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(unsigned char const *)` | 163 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(unsigned long)` | 154 | Exported Function
-`public: class ostream & __thiscall ostream::put(char)` | 381 | Exported Function
-`public: class ostream & __thiscall ostream::put(signed char)` | 380 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(unsigned short)` | 150 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(void const *)` | 164 | Exported Function
-`public: class strstream & __thiscall strstream::operator=(class strstream &)` | 126 | Exported Function
-`public: class strstreambuf & __thiscall strstreambuf::operator=(class strstreambuf const &)` | 127 | Exported Function
-`public: class streambuf * __thiscall ios::rdbuf(void)const ` | 388 | Exported Function
-`public: class streambuf * __thiscall ofstream::setbuf(char *,int)` | 415 | Exported Function
-`public: class strstreambuf * __thiscall istrstream::rdbuf(void)const ` | 389 | Exported Function
-`public: int __thiscall filebuf::fd(void)const ` | 310 | Exported Function
-`public: int __thiscall filebuf::is_open(void)const ` | 345 | Exported Function
-`public: class strstreambuf * __thiscall ostrstream::rdbuf(void)const ` | 391 | Exported Function
-`public: class strstreambuf * __thiscall strstream::rdbuf(void)const ` | 393 | Exported Function
-`public: class ostrstream & __thiscall ostrstream::operator=(class ostrstream const &)` | 122 | Exported Function
-`public: class stdiobuf & __thiscall stdiobuf::operator=(class stdiobuf const &)` | 123 | Exported Function
-`public: class ostream * __thiscall ios::tie(void)const ` | 456 | Exported Function
-`public: class ostream_withassign & __thiscall ostream_withassign::operator=(class ostream_withassign const &)` | 119 | Exported Function
-`public: class stdiobuf * __thiscall stdiostream::rdbuf(void)const ` | 392 | Exported Function
-`public: class streambuf * __thiscall fstream::setbuf(char *,int)` | 413 | Exported Function
-`public: class streambuf * __thiscall ifstream::setbuf(char *,int)` | 414 | Exported Function
-`public: class stdiostream & __thiscall stdiostream::operator=(class stdiostream &)` | 124 | Exported Function
-`public: class streambuf & __thiscall streambuf::operator=(class streambuf const &)` | 125 | Exported Function
-`public: class istream & __thiscall istream::putback(char)` | 383 | Exported Function
-`public: class istream & __thiscall istream::read(char *,int)` | 396 | Exported Function
-`public: class istream & __thiscall istream::operator>>(unsigned long &)` | 136 | Exported Function
-`public: class istream & __thiscall istream::operator>>(unsigned short &)` | 132 | Exported Function
-`public: class istream & __thiscall istream::read(signed char *,int)` | 395 | Exported Function
-`public: class istream & __thiscall istream::seekg(long,enum ios::seek_dir)` | 400 | Exported Function
-`public: class istream & __thiscall istream_withassign::operator=(class istream const &)` | 112 | Exported Function
-`public: class istream & __thiscall istream::read(unsigned char *,int)` | 397 | Exported Function
-`public: class istream & __thiscall istream::seekg(long)` | 399 | Exported Function
-`public: class istream & __thiscall istream::operator>>(long double &)` | 139 | Exported Function
-`public: class istream & __thiscall istream::operator>>(short &)` | 131 | Exported Function
-`public: class istream & __thiscall istream::operator>>(int &)` | 133 | Exported Function
-`public: class istream & __thiscall istream::operator>>(long &)` | 135 | Exported Function
-`public: class istream & __thiscall istream::operator>>(signed char &)` | 128 | Exported Function
-`public: class istream & __thiscall istream::operator>>(unsigned char *)` | 144 | Exported Function
-`public: class istream & __thiscall istream::operator>>(unsigned int &)` | 134 | Exported Function
-`public: class istream & __thiscall istream::operator>>(signed char *)` | 142 | Exported Function
-`public: class istream & __thiscall istream::operator>>(unsigned char &)` | 130 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(double)` | 156 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(float)` | 155 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(class ostream & (__cdecl*)(class ostream &))` | 158 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(class streambuf *)` | 160 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(int)` | 151 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(short)` | 149 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(signed char const *)` | 161 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(long double)` | 157 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(long)` | 153 | Exported Function
-`public: class istrstream & __thiscall istrstream::operator=(class istrstream const &)` | 114 | Exported Function
-`public: class logic_error & __thiscall logic_error::operator=(class logic_error const &)` | 115 | Exported Function
-`public: class istream & __thiscall istream_withassign::operator=(class streambuf *)` | 113 | Exported Function
-`public: class istream_withassign & __thiscall istream_withassign::operator=(class istream_withassign const &)` | 111 | Exported Function
-`public: class ofstream & __thiscall ofstream::operator=(class ofstream const &)` | 116 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(char)` | 147 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(class ios & (__cdecl*)(class ios &))` | 159 | Exported Function
-`public: class ostream & __thiscall ostream::flush(void)` | 320 | Exported Function
-`public: class ostream & __thiscall ostream::operator<<(char const *)` | 162 | Exported Function
-`public: __thiscall istream::istream(class streambuf *)` | 34 | Exported Function
+`close` | 287 | Exported Function
+`open` | 359 | Exported Function
+`operator` | 103 | Exported Function
+`attach` | 272 | Exported Function
+`rdbuf` | 386 | Exported Function
+`operator` | 104 | Exported Function
+`operator` | 105 | Exported Function
+`rdbuf` | 387 | Exported Function
+`rdbuf` | 390 | Exported Function
+`fill` | 315 | Exported Function
+`name` | 357 | Exported Function
+`str` | 443 | Exported Function
+`fill` | 314 | Exported Function
+`raw_name` | 385 | Exported Function
+`operator` | 101 | Exported Function
+`operator` | 102 | Exported Function
+`operator` | 99 | Exported Function
+`operator` | 100 | Exported Function
+`ignore` | 341 | Exported Function
+`operator` | 129 | Exported Function
+`getline` | 335 | Exported Function
+`getline` | 337 | Exported Function
+`operator` | 143 | Exported Function
+`operator` | 145 | Exported Function
+`operator` | 138 | Exported Function
+`operator` | 141 | Exported Function
+`operator` | 140 | Exported Function
+`get` | 330 | Exported Function
+`get` | 328 | Exported Function
+`operator` | 98 | Exported Function
+`get` | 326 | Exported Function
+`get` | 325 | Exported Function
+`get` | 331 | Exported Function
+`getline` | 336 | Exported Function
+`get` | 329 | Exported Function
+`get` | 327 | Exported Function
+`ofstream` | 45 | Exported Function
+`ofstream` | 47 | Exported Function
+`ofstream` | 43 | Exported Function
+`ofstream` | 44 | Exported Function
+`ostream` | 50 | Exported Function
+`ostream_withassign` | 53 | Exported Function
+`ostrstream` | 55 | Exported Function
+`ostream_withassign` | 51 | Exported Function
+`ostream_withassign` | 52 | Exported Function
+`istream_withassign` | 37 | Exported Function
+`istrstream` | 39 | Exported Function
+`istream_withassign` | 35 | Exported Function
+`istream_withassign` | 36 | Exported Function
+`istrstream` | 40 | Exported Function
+`logic_error` | 42 | Exported Function
+`ofstream` | 46 | Exported Function
+`istrstream` | 38 | Exported Function
+`logic_error` | 41 | Exported Function
+`strstreambuf` | 67 | Exported Function
+`strstreambuf` | 68 | Exported Function
+`strstream` | 66 | Exported Function
+`strstreambuf` | 70 | Exported Function
+`strstreambuf` | 69 | Exported Function
+`str` | 441 | Exported Function
+`str` | 442 | Exported Function
+`strstreambuf` | 71 | Exported Function
+`str` | 440 | Exported Function
+`stdiobuf` | 57 | Exported Function
+`stdiobuf` | 58 | Exported Function
+`ostrstream` | 54 | Exported Function
+`ostrstream` | 56 | Exported Function
+`stdiostream` | 59 | Exported Function
+`strstream` | 65 | Exported Function
+`strstream` | 64 | Exported Function
+`stdiostream` | 60 | Exported Function
+`streambuf` | 63 | Exported Function
+`operator` | 137 | Exported Function
+`seek_dir` | 406 | Exported Function
+`write` | 472 | Exported Function
+`put` | 382 | Exported Function
+`seekp` | 405 | Exported Function
+`write` | 471 | Exported Function
+`operator` | 121 | Exported Function
+`tie` | 455 | Exported Function
+`write` | 473 | Exported Function
+`operator` | 120 | Exported Function
+`operator` | 148 | Exported Function
+`operator` | 152 | Exported Function
+`operator` | 146 | Exported Function
+`operator` | 163 | Exported Function
+`operator` | 154 | Exported Function
+`put` | 381 | Exported Function
+`put` | 380 | Exported Function
+`operator` | 150 | Exported Function
+`operator` | 164 | Exported Function
+`operator` | 126 | Exported Function
+`operator` | 127 | Exported Function
+`rdbuf` | 388 | Exported Function
+`setbuf` | 415 | Exported Function
+`rdbuf` | 389 | Exported Function
+`fd` | 310 | Exported Function
+`is_open` | 345 | Exported Function
+`rdbuf` | 391 | Exported Function
+`rdbuf` | 393 | Exported Function
+`operator` | 122 | Exported Function
+`operator` | 123 | Exported Function
+`tie` | 456 | Exported Function
+`operator` | 119 | Exported Function
+`rdbuf` | 392 | Exported Function
+`setbuf` | 413 | Exported Function
+`setbuf` | 414 | Exported Function
+`operator` | 124 | Exported Function
+`operator` | 125 | Exported Function
+`putback` | 383 | Exported Function
+`read` | 396 | Exported Function
+`operator` | 136 | Exported Function
+`operator` | 132 | Exported Function
+`read` | 395 | Exported Function
+`seek_dir` | 400 | Exported Function
+`operator` | 112 | Exported Function
+`read` | 397 | Exported Function
+`seekg` | 399 | Exported Function
+`operator` | 139 | Exported Function
+`operator` | 131 | Exported Function
+`operator` | 133 | Exported Function
+`operator` | 135 | Exported Function
+`operator` | 128 | Exported Function
+`operator` | 144 | Exported Function
+`operator` | 134 | Exported Function
+`operator` | 142 | Exported Function
+`operator` | 130 | Exported Function
+`operator` | 156 | Exported Function
+`operator` | 155 | Exported Function
+`operator` | 158 | Exported Function
+`operator` | 160 | Exported Function
+`operator` | 151 | Exported Function
+`operator` | 149 | Exported Function
+`operator` | 161 | Exported Function
+`operator` | 157 | Exported Function
+`operator` | 153 | Exported Function
+`operator` | 114 | Exported Function
+`operator` | 115 | Exported Function
+`operator` | 113 | Exported Function
+`operator` | 111 | Exported Function
+`operator` | 116 | Exported Function
+`operator` | 147 | Exported Function
+`operator` | 159 | Exported Function
+`flush` | 320 | Exported Function
+`operator` | 162 | Exported Function
+`istream` | 34 | Exported Function
 `localtime` | 1060 | Exported Function
 `log` | 1061 | Exported Function
 `ldiv` | 1058 | Exported Function
@@ -190,15 +190,15 @@ Function Name | Ordinal | Type
 `ldexp` | 1057 | Exported Function
 `iswxdigit` | 1054 | Exported Function
 `isxdigit` | 1055 | Exported Function
-`private: class ostream & __thiscall ostream::writepad(char const *,char const *)` | 474 | Exported Function
-`private: int __thiscall istream::getdouble(char *,int)` | 333 | Exported Function
+`writepad` | 474 | Exported Function
+`getdouble` | 333 | Exported Function
 `pow` | 1076 | Exported Function
 `printf` | 1077 | Exported Function
-`private: int __thiscall istream::getint(char *)` | 334 | Exported Function
-`private: static int ios::x_curindex` | 476 | Exported Function
-`private: static long * ios::x_statebuf` | 479 | Exported Function
-`private: static int ios::fLockcInit` | 308 | Exported Function
-`private: static int ios::sunk_with_stdio` | 444 | Exported Function
+`getint` | 334 | Exported Function
+`x_curindex` | 476 | Exported Function
+`x_statebuf` | 479 | Exported Function
+`fLockcInit` | 308 | Exported Function
+`sunk_with_stdio` | 444 | Exported Function
 `memcmp` | 1069 | Exported Function
 `memcpy` | 1070 | Exported Function
 `mbtowc` | 1067 | Exported Function
@@ -244,83 +244,83 @@ Function Name | Ordinal | Type
 `ispunct` | 1039 | Exported Function
 `isleadbyte` | 1036 | Exported Function
 `islower` | 1037 | Exported Function
-`private: static long ios::x_maxbit` | 478 | Exported Function
-`public: __thiscall bad_typeid::bad_typeid(char const *)` | 8 | Exported Function
-`public: __thiscall bad_typeid::bad_typeid(class bad_typeid const &)` | 7 | Exported Function
-`public: __thiscall bad_cast::bad_cast(char const * const &)` | 5 | Exported Function
-`public: __thiscall bad_cast::bad_cast(class bad_cast const &)` | 6 | Exported Function
-`public: __thiscall exception::exception(char const * const &)` | 9 | Exported Function
-`public: __thiscall filebuf::filebuf(class filebuf const &)` | 12 | Exported Function
-`public: __thiscall filebuf::filebuf(int)` | 13 | Exported Function
-`public: __thiscall exception::exception(class exception const &)` | 10 | Exported Function
-`public: __thiscall exception::exception(void)` | 11 | Exported Function
-`protected: void __thiscall streambuf::pbump(int)` | 373 | Exported Function
-`protected: void __thiscall streambuf::setb(char *,char *,int)` | 411 | Exported Function
-`protected: void __thiscall ios::init(class streambuf *)` | 343 | Exported Function
-`protected: void __thiscall streambuf::gbump(int)` | 322 | Exported Function
-`protected: void __thiscall streambuf::setg(char *,char *,char *)` | 420 | Exported Function
-`public: __thiscall __non_rtti_object::__non_rtti_object(char const *)` | 4 | Exported Function
-`public: __thiscall __non_rtti_object::__non_rtti_object(class __non_rtti_object const &)` | 3 | Exported Function
-`protected: void __thiscall streambuf::setp(char *,char *)` | 427 | Exported Function
-`protected: void __thiscall streambuf::unbuffered(int)` | 457 | Exported Function
-`public: __thiscall ifstream::ifstream(void)` | 25 | Exported Function
-`public: __thiscall ios::ios(class streambuf *)` | 28 | Exported Function
-`public: __thiscall ifstream::ifstream(int)` | 22 | Exported Function
-`public: __thiscall ifstream::ifstream(int,char *,int)` | 23 | Exported Function
-`public: __thiscall ios::operator void *(void)const ` | 168 | Exported Function
-`public: __thiscall Iostream_init::Iostream_init(void)` | 2 | Exported Function
+`x_maxbit` | 478 | Exported Function
+`bad_typeid` | 8 | Exported Function
+`bad_typeid` | 7 | Exported Function
+`bad_cast` | 5 | Exported Function
+`bad_cast` | 6 | Exported Function
+`exception` | 9 | Exported Function
+`filebuf` | 12 | Exported Function
+`filebuf` | 13 | Exported Function
+`exception` | 10 | Exported Function
+`exception` | 11 | Exported Function
+`pbump` | 373 | Exported Function
+`setb` | 411 | Exported Function
+`init` | 343 | Exported Function
+`gbump` | 322 | Exported Function
+`setg` | 420 | Exported Function
+`__non_rtti_object` | 4 | Exported Function
+`__non_rtti_object` | 3 | Exported Function
+`setp` | 427 | Exported Function
+`unbuffered` | 457 | Exported Function
+`ifstream` | 25 | Exported Function
+`ios` | 28 | Exported Function
+`ifstream` | 22 | Exported Function
+`ifstream` | 23 | Exported Function
+`operator` | 168 | Exported Function
+`Iostream_init` | 2 | Exported Function
 `public: __thiscall Iostream_init::~Iostream_init(void)` | 72 | Exported Function
-`public: __thiscall iostream::iostream(class streambuf *)` | 31 | Exported Function
-`public: __thiscall Iostream_init::Iostream_init(class ios &,int)` | 1 | Exported Function
-`public: __thiscall fstream::fstream(char const *,int,int)` | 19 | Exported Function
-`public: __thiscall fstream::fstream(class fstream const &)` | 16 | Exported Function
-`public: __thiscall filebuf::filebuf(int,char *,int)` | 14 | Exported Function
-`public: __thiscall filebuf::filebuf(void)` | 15 | Exported Function
-`public: __thiscall fstream::fstream(int)` | 17 | Exported Function
-`public: __thiscall ifstream::ifstream(char const *,int,int)` | 24 | Exported Function
-`public: __thiscall ifstream::ifstream(class ifstream const &)` | 21 | Exported Function
-`public: __thiscall fstream::fstream(int,char *,int)` | 18 | Exported Function
-`public: __thiscall fstream::fstream(void)` | 20 | Exported Function
-`protected: char * __thiscall streambuf::base(void)const ` | 277 | Exported Function
-`protected: char * __thiscall streambuf::eback(void)const ` | 301 | Exported Function
-`protected: __thiscall streambuf::streambuf(char *,int)` | 61 | Exported Function
-`protected: __thiscall streambuf::streambuf(void)` | 62 | Exported Function
-`protected: char * __thiscall streambuf::ebuf(void)const ` | 302 | Exported Function
-`protected: char * __thiscall streambuf::gptr(void)const ` | 339 | Exported Function
-`protected: char * __thiscall streambuf::pbase(void)const ` | 372 | Exported Function
-`protected: char * __thiscall streambuf::egptr(void)const ` | 303 | Exported Function
-`protected: char * __thiscall streambuf::epptr(void)const ` | 307 | Exported Function
-`protected: __thiscall ios::ios(void)` | 27 | Exported Function
-`protected: __thiscall iostream::iostream(class iostream const &)` | 29 | Exported Function
-`private: static struct _CRT_CRITICAL_SECTION ios::x_lockc` | 477 | Exported Function
-`protected: __thiscall ios::ios(class ios const &)` | 26 | Exported Function
-`protected: __thiscall iostream::iostream(void)` | 30 | Exported Function
-`protected: __thiscall ostream::ostream(class ostream const &)` | 48 | Exported Function
-`protected: __thiscall ostream::ostream(void)` | 49 | Exported Function
-`protected: __thiscall istream::istream(class istream const &)` | 32 | Exported Function
-`protected: __thiscall istream::istream(void)` | 33 | Exported Function
-`protected: int __thiscall streambuf::unbuffered(void)const ` | 458 | Exported Function
-`protected: static void __cdecl ios::lockc(void)` | 354 | Exported Function
-`protected: int __thiscall streambuf::allocate(void)` | 271 | Exported Function
-`protected: int __thiscall streambuf::blen(void)const ` | 282 | Exported Function
-`protected: static void __cdecl ios::unlockc(void)` | 466 | Exported Function
-`protected: virtual int __thiscall streambuf::doallocate(void)` | 298 | Exported Function
-`protected: virtual int __thiscall strstreambuf::doallocate(void)` | 299 | Exported Function
-`protected: struct _CRT_CRITICAL_SECTION * __thiscall ios::lockptr(void)` | 355 | Exported Function
-`protected: struct _CRT_CRITICAL_SECTION * __thiscall streambuf::lockptr(void)` | 356 | Exported Function
-`protected: class iostream & __thiscall iostream::operator=(class iostream &)` | 107 | Exported Function
-`protected: class iostream & __thiscall iostream::operator=(class streambuf *)` | 108 | Exported Function
-`protected: char * __thiscall streambuf::pptr(void)const ` | 377 | Exported Function
-`protected: class ios & __thiscall ios::operator=(class ios const &)` | 106 | Exported Function
-`protected: class istream & __thiscall istream::get(char *,int,int)` | 324 | Exported Function
-`protected: class ostream & __thiscall ostream::operator=(class ostream const &)` | 117 | Exported Function
-`protected: class ostream & __thiscall ostream::operator=(class streambuf *)` | 118 | Exported Function
-`protected: class istream & __thiscall istream::operator=(class istream const &)` | 109 | Exported Function
-`protected: class istream & __thiscall istream::operator=(class streambuf *)` | 110 | Exported Function
+`iostream` | 31 | Exported Function
+`Iostream_init` | 1 | Exported Function
+`fstream` | 19 | Exported Function
+`fstream` | 16 | Exported Function
+`filebuf` | 14 | Exported Function
+`filebuf` | 15 | Exported Function
+`fstream` | 17 | Exported Function
+`ifstream` | 24 | Exported Function
+`ifstream` | 21 | Exported Function
+`fstream` | 18 | Exported Function
+`fstream` | 20 | Exported Function
+`base` | 277 | Exported Function
+`eback` | 301 | Exported Function
+`streambuf` | 61 | Exported Function
+`streambuf` | 62 | Exported Function
+`ebuf` | 302 | Exported Function
+`gptr` | 339 | Exported Function
+`pbase` | 372 | Exported Function
+`egptr` | 303 | Exported Function
+`epptr` | 307 | Exported Function
+`ios` | 27 | Exported Function
+`iostream` | 29 | Exported Function
+`x_lockc` | 477 | Exported Function
+`ios` | 26 | Exported Function
+`iostream` | 30 | Exported Function
+`ostream` | 48 | Exported Function
+`ostream` | 49 | Exported Function
+`istream` | 32 | Exported Function
+`istream` | 33 | Exported Function
+`unbuffered` | 458 | Exported Function
+`lockc` | 354 | Exported Function
+`allocate` | 271 | Exported Function
+`blen` | 282 | Exported Function
+`unlockc` | 466 | Exported Function
+`doallocate` | 298 | Exported Function
+`doallocate` | 299 | Exported Function
+`lockptr` | 355 | Exported Function
+`lockptr` | 356 | Exported Function
+`operator` | 107 | Exported Function
+`operator` | 108 | Exported Function
+`pptr` | 377 | Exported Function
+`operator` | 106 | Exported Function
+`get` | 324 | Exported Function
+`operator` | 117 | Exported Function
+`operator` | 118 | Exported Function
+`operator` | 109 | Exported Function
+`operator` | 110 | Exported Function
 `public: void __thiscall strstream::``vbase destructor'(void)` | 218 | Exported Function
-`public: void __thiscall strstreambuf::freeze(int)` | 321 | Exported Function
-`public: void __thiscall streambuf::stossc(void)` | 439 | Exported Function
-`public: void __thiscall streambuf::unlock(void)` | 464 | Exported Function
+`freeze` | 321 | Exported Function
+`stossc` | 439 | Exported Function
+`unlock` | 464 | Exported Function
 `putc` | 1078 | Exported Function
 `putwc` | 1081 | Exported Function
 `putwchar` | 1082 | Exported Function
@@ -329,12 +329,12 @@ Function Name | Ordinal | Type
 `public: void __thiscall ostream_withassign::``vbase destructor'(void)` | 215 | Exported Function
 `public: void __thiscall ostrstream::``vbase destructor'(void)` | 216 | Exported Function
 `public: void __thiscall ostream::``vbase destructor'(void)` | 214 | Exported Function
-`public: void __thiscall ostream::osfx(void)` | 365 | Exported Function
+`osfx` | 365 | Exported Function
 `public: void __thiscall stdiostream::``vbase destructor'(void)` | 217 | Exported Function
-`public: void __thiscall streambuf::lock(void)` | 352 | Exported Function
-`public: void __thiscall streambuf::setlock(void)` | 422 | Exported Function
-`public: void __thiscall streambuf::clrlock(void)` | 292 | Exported Function
-`public: void __thiscall streambuf::dbp(void)` | 294 | Exported Function
+`lock` | 352 | Exported Function
+`setlock` | 422 | Exported Function
+`clrlock` | 292 | Exported Function
+`dbp` | 294 | Exported Function
 `signal` | 1094 | Exported Function
 `sin` | 1095 | Exported Function
 `setlocale` | 1092 | Exported Function
@@ -353,42 +353,42 @@ Function Name | Ordinal | Type
 `setbuf` | 1091 | Exported Function
 `rename` | 1088 | Exported Function
 `rewind` | 1089 | Exported Function
-`public: void __cdecl ios::lock(void)` | 351 | Exported Function
-`public: void __cdecl ios::lockbuf(void)` | 353 | Exported Function
+`lock` | 351 | Exported Function
+`lockbuf` | 353 | Exported Function
 `public: void * __thiscall Iostream_init::``vector deleting destructor'(unsigned int)` | 219 | Exported Function
-`public: void __cdecl ios::clrlock(void)` | 291 | Exported Function
-`public: void __cdecl ios::setlock(void)` | 421 | Exported Function
+`clrlock` | 291 | Exported Function
+`setlock` | 421 | Exported Function
 `public: void __thiscall fstream::``vbase destructor'(void)` | 207 | Exported Function
-`public: void __thiscall fstream::attach(int)` | 273 | Exported Function
-`public: void __cdecl ios::unlock(void)` | 463 | Exported Function
-`public: void __cdecl ios::unlockbuf(void)` | 465 | Exported Function
+`attach` | 273 | Exported Function
+`unlock` | 463 | Exported Function
+`unlockbuf` | 465 | Exported Function
 `public: virtual void * __thiscall streambuf::``vector deleting destructor'(unsigned int)` | 239 | Exported Function
 `public: virtual void * __thiscall strstream::``scalar deleting destructor'(unsigned int)` | 263 | Exported Function
 `public: virtual void * __thiscall stdiostream::``vector deleting destructor'(unsigned int)` | 238 | Exported Function
 `public: virtual void * __thiscall streambuf::``scalar deleting destructor'(unsigned int)` | 262 | Exported Function
 `public: virtual void * __thiscall strstream::``vector deleting destructor'(unsigned int)` | 240 | Exported Function
-`public: void * & __thiscall ios::pword(int)const ` | 384 | Exported Function
+`pword` | 384 | Exported Function
 `public: void * __thiscall Iostream_init::``scalar deleting destructor'(unsigned int)` | 242 | Exported Function
 `public: virtual void * __thiscall strstreambuf::``scalar deleting destructor'(unsigned int)` | 264 | Exported Function
 `public: virtual void * __thiscall strstreambuf::``vector deleting destructor'(unsigned int)` | 241 | Exported Function
-`public: void __thiscall istream::isfx(void)` | 349 | Exported Function
+`isfx` | 349 | Exported Function
 `public: void __thiscall istream_withassign::``vbase destructor'(void)` | 211 | Exported Function
 `public: void __thiscall istream::``vbase destructor'(void)` | 210 | Exported Function
-`public: void __thiscall istream::eatwhite(void)` | 300 | Exported Function
+`eatwhite` | 300 | Exported Function
 `public: void __thiscall istrstream::``vbase destructor'(void)` | 212 | Exported Function
-`public: void __thiscall ofstream::close(void)` | 290 | Exported Function
-`public: void __thiscall ofstream::open(char const *,int,int)` | 362 | Exported Function
+`close` | 290 | Exported Function
+`open` | 362 | Exported Function
 `public: void __thiscall ofstream::``vbase destructor'(void)` | 213 | Exported Function
-`public: void __thiscall ofstream::attach(int)` | 275 | Exported Function
+`attach` | 275 | Exported Function
 `public: void __thiscall ifstream::``vbase destructor'(void)` | 208 | Exported Function
-`public: void __thiscall ifstream::attach(int)` | 274 | Exported Function
-`public: void __thiscall fstream::close(void)` | 288 | Exported Function
-`public: void __thiscall fstream::open(char const *,int,int)` | 360 | Exported Function
-`public: void __thiscall ifstream::close(void)` | 289 | Exported Function
-`public: void __thiscall ios::delbuf(int)` | 296 | Exported Function
+`attach` | 274 | Exported Function
+`close` | 288 | Exported Function
+`open` | 360 | Exported Function
+`close` | 289 | Exported Function
+`delbuf` | 296 | Exported Function
 `public: void __thiscall iostream::``vbase destructor'(void)` | 209 | Exported Function
-`public: void __thiscall ifstream::open(char const *,int,int)` | 361 | Exported Function
-`public: void __thiscall ios::clear(int)` | 285 | Exported Function
+`open` | 361 | Exported Function
+`clear` | 285 | Exported Function
 `strcat` | 1101 | Exported Function
 `vwprintf` | 1141 | Exported Function
 `wcscat` | 1142 | Exported Function
@@ -463,24 +463,24 @@ Function Name | Ordinal | Type
 `tan` | 1125 | Exported Function
 `tanh` | 1126 | Exported Function
 `public: virtual void * __thiscall stdiostream::``scalar deleting destructor'(unsigned int)` | 261 | Exported Function
-`public: long __thiscall ios::unsetf(long)` | 467 | Exported Function
-`public: long __thiscall istream::tellg(void)` | 451 | Exported Function
-`public: long __thiscall ios::setf(long)` | 418 | Exported Function
-`public: long __thiscall ios::setf(long,long)` | 419 | Exported Function
-`public: long __thiscall ostream::tellp(void)` | 452 | Exported Function
-`public: static int const filebuf::openprot` | 363 | Exported Function
-`public: static int const filebuf::sh_none` | 431 | Exported Function
-`public: static int __cdecl ios::xalloc(void)` | 480 | Exported Function
-`public: static int const filebuf::binary` | 280 | Exported Function
-`public: int __thiscall strstream::pcount(void)const ` | 375 | Exported Function
-`public: int __thiscall type_info::before(class type_info const &)const ` | 279 | Exported Function
-`public: int __thiscall streambuf::sputc(int)` | 436 | Exported Function
-`public: int __thiscall streambuf::sputn(char const *,int)` | 437 | Exported Function
-`public: int __thiscall type_info::operator!=(class type_info const &)const ` | 167 | Exported Function
-`public: long __thiscall ios::flags(long)` | 316 | Exported Function
-`public: long __thiscall ios::flags(void)const ` | 317 | Exported Function
-`public: int __thiscall type_info::operator==(class type_info const &)const ` | 166 | Exported Function
-`public: long & __thiscall ios::iword(int)const ` | 350 | Exported Function
+`unsetf` | 467 | Exported Function
+`tellg` | 451 | Exported Function
+`setf` | 418 | Exported Function
+`setf` | 419 | Exported Function
+`tellp` | 452 | Exported Function
+`openprot` | 363 | Exported Function
+`sh_none` | 431 | Exported Function
+`xalloc` | 480 | Exported Function
+`binary` | 280 | Exported Function
+`pcount` | 375 | Exported Function
+`before` | 279 | Exported Function
+`sputc` | 436 | Exported Function
+`sputn` | 437 | Exported Function
+`operator` | 167 | Exported Function
+`flags` | 316 | Exported Function
+`flags` | 317 | Exported Function
+`operator` | 166 | Exported Function
+`iword` | 350 | Exported Function
 `public: virtual __thiscall bad_typeid::~bad_typeid(void)` | 75 | Exported Function
 `public: virtual __thiscall exception::~exception(void)` | 76 | Exported Function
 `public: virtual __thiscall __non_rtti_object::~__non_rtti_object(void)` | 73 | Exported Function
@@ -490,51 +490,51 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall iostream::~iostream(void)` | 81 | Exported Function
 `public: virtual __thiscall fstream::~fstream(void)` | 78 | Exported Function
 `public: virtual __thiscall ifstream::~ifstream(void)` | 79 | Exported Function
-`public: static int const filebuf::text` | 454 | Exported Function
-`public: static long __cdecl ios::bitalloc(void)` | 281 | Exported Function
-`public: static int const filebuf::sh_read` | 432 | Exported Function
-`public: static int const filebuf::sh_write` | 433 | Exported Function
-`public: static long const ios::adjustfield` | 270 | Exported Function
-`public: static void __cdecl ios::sync_with_stdio(void)` | 450 | Exported Function
-`public: struct _iobuf * __thiscall stdiobuf::stdiofile(void)` | 438 | Exported Function
-`public: static long const ios::basefield` | 278 | Exported Function
-`public: static long const ios::floatfield` | 318 | Exported Function
-`public: int __thiscall ios::good(void)const ` | 338 | Exported Function
-`public: int __thiscall ios::operator!(void)const ` | 165 | Exported Function
-`public: int __thiscall ios::eof(void)const ` | 306 | Exported Function
-`public: int __thiscall ios::fail(void)const ` | 309 | Exported Function
-`public: int __thiscall ios::precision(int)` | 378 | Exported Function
-`public: int __thiscall ios::width(int)` | 469 | Exported Function
-`public: int __thiscall ios::width(void)const ` | 470 | Exported Function
-`public: int __thiscall ios::precision(void)const ` | 379 | Exported Function
-`public: int __thiscall ios::rdstate(void)const ` | 394 | Exported Function
-`public: int __thiscall fstream::is_open(void)const ` | 346 | Exported Function
-`public: int __thiscall fstream::setmode(int)` | 424 | Exported Function
-`public: int __thiscall filebuf::setmode(int)` | 423 | Exported Function
-`public: int __thiscall fstream::fd(void)const ` | 311 | Exported Function
-`public: int __thiscall ifstream::fd(void)const ` | 312 | Exported Function
-`public: int __thiscall ios::bad(void)const ` | 276 | Exported Function
-`public: int __thiscall ios::delbuf(void)const ` | 297 | Exported Function
-`public: int __thiscall ifstream::is_open(void)const ` | 347 | Exported Function
-`public: int __thiscall ifstream::setmode(int)` | 425 | Exported Function
-`public: int __thiscall streambuf::in_avail(void)const ` | 342 | Exported Function
-`public: int __thiscall streambuf::out_waiting(void)const ` | 366 | Exported Function
-`public: int __thiscall ostrstream::pcount(void)const ` | 374 | Exported Function
-`public: int __thiscall stdiobuf::setrwbuf(int,int)` | 428 | Exported Function
-`public: int __thiscall streambuf::sbumpc(void)` | 398 | Exported Function
-`public: int __thiscall streambuf::snextc(void)` | 434 | Exported Function
-`public: int __thiscall streambuf::sputbackc(char)` | 435 | Exported Function
-`public: int __thiscall streambuf::sgetc(void)` | 429 | Exported Function
-`public: int __thiscall streambuf::sgetn(char *,int)` | 430 | Exported Function
-`public: int __thiscall istream::ipfx(int)` | 344 | Exported Function
-`public: int __thiscall istream::peek(void)` | 376 | Exported Function
-`public: int __thiscall istream::gcount(void)const ` | 323 | Exported Function
-`public: int __thiscall istream::get(void)` | 332 | Exported Function
-`public: int __thiscall istream::sync(void)` | 446 | Exported Function
-`public: int __thiscall ofstream::setmode(int)` | 426 | Exported Function
-`public: int __thiscall ostream::opfx(void)` | 364 | Exported Function
-`public: int __thiscall ofstream::fd(void)const ` | 313 | Exported Function
-`public: int __thiscall ofstream::is_open(void)const ` | 348 | Exported Function
+`text` | 454 | Exported Function
+`bitalloc` | 281 | Exported Function
+`sh_read` | 432 | Exported Function
+`sh_write` | 433 | Exported Function
+`adjustfield` | 270 | Exported Function
+`sync_with_stdio` | 450 | Exported Function
+`stdiofile` | 438 | Exported Function
+`basefield` | 278 | Exported Function
+`floatfield` | 318 | Exported Function
+`good` | 338 | Exported Function
+`operator` | 165 | Exported Function
+`eof` | 306 | Exported Function
+`fail` | 309 | Exported Function
+`precision` | 378 | Exported Function
+`width` | 469 | Exported Function
+`width` | 470 | Exported Function
+`precision` | 379 | Exported Function
+`rdstate` | 394 | Exported Function
+`is_open` | 346 | Exported Function
+`setmode` | 424 | Exported Function
+`setmode` | 423 | Exported Function
+`fd` | 311 | Exported Function
+`fd` | 312 | Exported Function
+`bad` | 276 | Exported Function
+`delbuf` | 297 | Exported Function
+`is_open` | 347 | Exported Function
+`setmode` | 425 | Exported Function
+`in_avail` | 342 | Exported Function
+`out_waiting` | 366 | Exported Function
+`pcount` | 374 | Exported Function
+`setrwbuf` | 428 | Exported Function
+`sbumpc` | 398 | Exported Function
+`snextc` | 434 | Exported Function
+`sputbackc` | 435 | Exported Function
+`sgetc` | 429 | Exported Function
+`sgetn` | 430 | Exported Function
+`ipfx` | 344 | Exported Function
+`peek` | 376 | Exported Function
+`gcount` | 323 | Exported Function
+`get` | 332 | Exported Function
+`sync` | 446 | Exported Function
+`setmode` | 426 | Exported Function
+`opfx` | 364 | Exported Function
+`fd` | 313 | Exported Function
+`is_open` | 348 | Exported Function
 `public: virtual __thiscall istream::~istream(void)` | 82 | Exported Function
 `public: virtual void * __thiscall fstream::``vector deleting destructor'(unsigned int)` | 225 | Exported Function
 `public: virtual void * __thiscall ifstream::``scalar deleting destructor'(unsigned int)` | 249 | Exported Function
@@ -576,11 +576,11 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall type_info::~type_info(void)` | 95 | Exported Function
 `public: virtual __thiscall streambuf::~streambuf(void)` | 92 | Exported Function
 `public: virtual __thiscall strstream::~strstream(void)` | 93 | Exported Function
-`public: virtual char const * __thiscall exception::what(void)const ` | 468 | Exported Function
-`public: virtual class streambuf * __thiscall strstreambuf::setbuf(char *,int)` | 417 | Exported Function
-`public: virtual int __thiscall filebuf::overflow(int)` | 367 | Exported Function
-`public: virtual class streambuf * __thiscall filebuf::setbuf(char *,int)` | 412 | Exported Function
-`public: virtual class streambuf * __thiscall streambuf::setbuf(char *,int)` | 416 | Exported Function
+`what` | 468 | Exported Function
+`setbuf` | 417 | Exported Function
+`overflow` | 367 | Exported Function
+`setbuf` | 412 | Exported Function
+`setbuf` | 416 | Exported Function
 `public: virtual __thiscall logic_error::~logic_error(void)` | 85 | Exported Function
 `public: virtual __thiscall ofstream::~ofstream(void)` | 86 | Exported Function
 `public: virtual __thiscall istream_withassign::~istream_withassign(void)` | 83 | Exported Function
@@ -590,24 +590,24 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall stdiostream::~stdiostream(void)` | 91 | Exported Function
 `public: virtual __thiscall ostream_withassign::~ostream_withassign(void)` | 88 | Exported Function
 `public: virtual __thiscall ostrstream::~ostrstream(void)` | 89 | Exported Function
-`public: virtual int __thiscall strstreambuf::sync(void)` | 449 | Exported Function
-`public: virtual int __thiscall strstreambuf::underflow(void)` | 461 | Exported Function
-`public: virtual int __thiscall streambuf::xsputn(char const *,int)` | 482 | Exported Function
-`public: virtual int __thiscall strstreambuf::overflow(int)` | 369 | Exported Function
-`public: virtual long __thiscall filebuf::seekoff(long,enum ios::seek_dir,int)` | 401 | Exported Function
-`public: virtual long __thiscall streambuf::seekpos(long,int)` | 407 | Exported Function
-`public: virtual long __thiscall strstreambuf::seekoff(long,enum ios::seek_dir,int)` | 404 | Exported Function
-`public: virtual long __thiscall stdiobuf::seekoff(long,enum ios::seek_dir,int)` | 402 | Exported Function
-`public: virtual long __thiscall streambuf::seekoff(long,enum ios::seek_dir,int)` | 403 | Exported Function
-`public: virtual int __thiscall stdiobuf::overflow(int)` | 368 | Exported Function
-`public: virtual int __thiscall stdiobuf::pbackfail(int)` | 370 | Exported Function
-`public: virtual int __thiscall filebuf::sync(void)` | 445 | Exported Function
-`public: virtual int __thiscall filebuf::underflow(void)` | 459 | Exported Function
-`public: virtual int __thiscall stdiobuf::sync(void)` | 447 | Exported Function
-`public: virtual int __thiscall streambuf::sync(void)` | 448 | Exported Function
-`public: virtual int __thiscall streambuf::xsgetn(char *,int)` | 481 | Exported Function
-`public: virtual int __thiscall stdiobuf::underflow(void)` | 460 | Exported Function
-`public: virtual int __thiscall streambuf::pbackfail(int)` | 371 | Exported Function
+`sync` | 449 | Exported Function
+`underflow` | 461 | Exported Function
+`xsputn` | 482 | Exported Function
+`overflow` | 369 | Exported Function
+`seek_dir` | 401 | Exported Function
+`seekpos` | 407 | Exported Function
+`seek_dir` | 404 | Exported Function
+`seek_dir` | 402 | Exported Function
+`seek_dir` | 403 | Exported Function
+`overflow` | 368 | Exported Function
+`pbackfail` | 370 | Exported Function
+`sync` | 445 | Exported Function
+`underflow` | 459 | Exported Function
+`sync` | 447 | Exported Function
+`sync` | 448 | Exported Function
+`xsgetn` | 481 | Exported Function
+`underflow` | 460 | Exported Function
+`pbackfail` | 371 | Exported Function
 `fscanf` | 1016 | Exported Function
 `_heapmin` | 678 | Exported Function
 `_heapset` | 679 | Exported Function

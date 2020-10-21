@@ -18,6 +18,9 @@ SHA256 | `1C8227150762B47731DD6B99304D3E5647824F9C1B4D7FB8CD755B29F00BC93B`
 SHA384 | `46A8F73B6C84A69E78BFB48EBAD8ED43BB0E82D509B4EFF3CEC9298514587A3D8556D590C10E5AFF83E0629DB8DD08BA`
 SHA512 | `1449119C19C96DB045A3A0DBA69A79CF74DAB6B98E66927D16D4EECF957CE99CCA743D963CCB80E950B2781F6F051A2C8CF6F4ABD9B96415CD039F0D0D66411C`
 SSDEEP | `768:74VleU0Q2RiX8nuVGqQd2Ej2FNkY4EABbnLM8mWP/:UV2wCiEaFNkYU5nLNmWH`
+IMP | `10E2E3C83FAD470F2219B3E8C8A1881E`
+PESHA1 | `9790A47BE9FE62EEB32B14B0F7CA115CCD933622`
+PE256 | `72580C513B1637AF431B34D2F91A3894DF9D444815B54F4402514B4B45B7E55D`
 
 ## Runtime Data
 
@@ -42,10 +45,29 @@ pwlauncher [/enable | /disable]
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\system32\pwlauncher.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -65,7 +87,12 @@ C:\Windows\system32\pwlauncher.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/1c8227150762b47731dd6b99304d3e5647824f9c1b4d7fb8cd755b29f00bc93b/detection/
 
 
 

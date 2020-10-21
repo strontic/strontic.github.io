@@ -22,6 +22,9 @@ SHA256 | `BC87E4F462F00B826EC09AC16B625D0F70439C48FC04A52A41B4CD9E78401F70`
 SHA384 | `4F268286A2CB8D2D911AE4B15AF7C96D2A2695525CBE25B1146F0F1F84E6FAE9372CA7C7513F0B6B9C98E443B9CF86AF`
 SHA512 | `09113DBB676B7F169A19842B2EF87C1EE206AB7C0C0947A302D04F8C3832B88BA4D5AD13215D4C007FC3F21FAA78CF0F4294121C50EDA5CB57CC01D32A462D5C`
 SSDEEP | `1536:vpq3DFB5IMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY1k:x6V3lhzslTZJ9j7Heb8C1k`
+IMP | `5843AE9886BB500E05E07EE59BB5AD42`
+PESHA1 | `6663EA2A20FA8FD9A70D60D2486635FED9E3196B`
+PE256 | `CBD31726B6AE4B8E545F7CD0111A49135DFC3FDAE61852B74465B9F5399A29A2`
 
 ## Runtime Data
 
@@ -37,11 +40,14 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\eventvwr.exe.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -56,7 +62,6 @@ C:\Windows\System32\cryptsp.dll |
 C:\Windows\system32\eventvwr.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -93,7 +98,12 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/bc87e4f462f00b826ec09ac16b625d0f70439c48fc04a52a41b4cd9e78401f70/detection/
 
 ## File Similarity (ssdeep match)
 

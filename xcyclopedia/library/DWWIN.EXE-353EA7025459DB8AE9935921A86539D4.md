@@ -48,6 +48,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DWWIN.EXE](DWWIN.EXE-EF672F7CAF77C3106ED33A7A9FB0B439.md) | 86
 
 
 

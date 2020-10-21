@@ -25,80 +25,80 @@ PE256 | `8A60E2142162E18A80855AC337787848543AFD99AF9B33D35124B84258E409F4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static class std::shared_ptr<class CefWrapper::IWebBrowser> __cdecl CefWrapper::Cef::createCefBrowser(void)` | 60 | Exported Function
-`public: static int __cdecl CefWrapper::Cef::initialChildProcess(struct HINSTANCE__ *)` | 64 | Exported Function
-`public: class CefWrapper::IWebBrowser & __thiscall CefWrapper::IWebBrowser::operator=(class CefWrapper::IWebBrowser const &)` | 43 | Exported Function
-`public: static bool __cdecl CefWrapper::Cef::isMainProcess(void)` | 66 | Exported Function
-`public: static int __cdecl CefWrapper::Cef::initialMainProcess(struct HINSTANCE__ *)` | 65 | Exported Function
-`public: static void __cdecl CefWrapper::Cef::unInitial(void)` | 71 | Exported Function
-`public: unsigned int __thiscall CefWrapper::CefScriptingParam::get_count(void)const ` | 63 | Exported Function
-`public: static void __cdecl CefWrapper::Cef::markResetCefCache(void)` | 67 | Exported Function
-`public: static void __cdecl CefWrapper::Cef::SetDpiAwareness(void)` | 58 | Exported Function
-`public: class CefWrapper::ICefFocusHandler & __thiscall CefWrapper::ICefFocusHandler::operator=(class CefWrapper::ICefFocusHandler const &)` | 36 | Exported Function
-`public: class CefWrapper::ICefQueryCallback & __thiscall CefWrapper::ICefQueryCallback::operator=(class CefWrapper::ICefQueryCallback &&)` | 37 | Exported Function
-`public: class CefWrapper::ICefBrowserEvent & __thiscall CefWrapper::ICefBrowserEvent::operator=(class CefWrapper::ICefBrowserEvent const &)` | 34 | Exported Function
-`public: class CefWrapper::ICefCustomCallback & __thiscall CefWrapper::ICefCustomCallback::operator=(class CefWrapper::ICefCustomCallback const &)` | 35 | Exported Function
-`public: class CefWrapper::ICefQueryCallback & __thiscall CefWrapper::ICefQueryCallback::operator=(class CefWrapper::ICefQueryCallback const &)` | 38 | Exported Function
-`public: class CefWrapper::ICefStringVisitor & __thiscall CefWrapper::ICefStringVisitor::operator=(class CefWrapper::ICefStringVisitor const &)` | 41 | Exported Function
-`public: class CefWrapper::IFrame & __thiscall CefWrapper::IFrame::operator=(class CefWrapper::IFrame const &)` | 42 | Exported Function
-`public: class CefWrapper::ICefRawWinMsg & __thiscall CefWrapper::ICefRawWinMsg::operator=(class CefWrapper::ICefRawWinMsg const &)` | 39 | Exported Function
-`public: class CefWrapper::ICefScriptingPlugin & __thiscall CefWrapper::ICefScriptingPlugin::operator=(class CefWrapper::ICefScriptingPlugin const &)` | 40 | Exported Function
-`public: virtual __thiscall CefWrapper::CefScriptingParam::~CefScriptingParam(void)` | 22 | Exported Function
-`public: virtual class std::vector<struct CefWrapper::ICefCustomCallback::ContextMenuItem,class std::allocator<struct CefWrapper::ICefCustomCallback::ContextMenuItem> > __thiscall CefWrapper::ICefCustomCallback::getContextMenuList(void)` | 62 | Exported Function
-`public: virtual void __thiscall CefWrapper::ICefBrowserEvent::OnContextMenuCommand(int)` | 54 | Exported Function
-`public: virtual bool __thiscall CefWrapper::ICefScriptingPlugin::cef_query(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,class CefWrapper::ICefQueryCallback *)` | 59 | Exported Function
-`public: virtual class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __thiscall CefWrapper::ICefCustomCallback::useragent(void)` | 74 | Exported Function
-`public: virtual void __thiscall CefWrapper::ICefBrowserEvent::OnLoadingStateChange(bool,bool,bool)` | 56 | Exported Function
-`public: virtual void __thiscall CefWrapper::ICefRawWinMsg::on_call_wnd_proc(struct tagMSG const &)` | 68 | Exported Function
-`public: virtual void __thiscall CefWrapper::ICefRawWinMsg::on_mouse_proc(struct tagMSG const &)` | 69 | Exported Function
-`public: virtual void __thiscall CefWrapper::ICefFocusHandler::OnGotFocus(void)` | 55 | Exported Function
-`public: virtual void __thiscall CefWrapper::ICefFocusHandler::OnTakeFocus(bool)` | 57 | Exported Function
-`public: virtual __thiscall CefWrapper::ICefFocusHandler::~ICefFocusHandler(void)` | 25 | Exported Function
-`public: virtual __thiscall CefWrapper::ICefRawWinMsg::~ICefRawWinMsg(void)` | 26 | Exported Function
-`public: virtual __thiscall CefWrapper::ICefBrowserEvent::~ICefBrowserEvent(void)` | 23 | Exported Function
-`public: virtual __thiscall CefWrapper::ICefCustomCallback::~ICefCustomCallback(void)` | 24 | Exported Function
-`public: virtual __thiscall CefWrapper::ICefScriptingPlugin::~ICefScriptingPlugin(void)` | 27 | Exported Function
-`public: virtual bool __thiscall CefWrapper::ICefCustomCallback::useCustomContextMenu(void)` | 72 | Exported Function
-`public: virtual bool __thiscall CefWrapper::ICefCustomCallback::useExternalContextMenu(void)` | 73 | Exported Function
-`public: virtual __thiscall CefWrapper::IFrame::~IFrame(void)` | 29 | Exported Function
-`public: virtual __thiscall CefWrapper::IWebBrowser::~IWebBrowser(void)` | 30 | Exported Function
-`public: __thiscall CefWrapper::CefScriptingParam::CefScriptingParam(unsigned int)` | 2 | Exported Function
-`public: __thiscall CefWrapper::ICefBrowserEvent::ICefBrowserEvent(class CefWrapper::ICefBrowserEvent const &)` | 3 | Exported Function
-`const CefWrapper::IWebBrowser::``vftable'` | 53 | Exported Function
-`public: __thiscall CefWrapper::CefScriptingParam::CefScriptingParam(class CefWrapper::CefScriptingParam const &)` | 1 | Exported Function
-`public: __thiscall CefWrapper::ICefBrowserEvent::ICefBrowserEvent(void)` | 4 | Exported Function
-`public: __thiscall CefWrapper::ICefFocusHandler::ICefFocusHandler(class CefWrapper::ICefFocusHandler const &)` | 7 | Exported Function
-`public: __thiscall CefWrapper::ICefFocusHandler::ICefFocusHandler(void)` | 8 | Exported Function
-`public: __thiscall CefWrapper::ICefCustomCallback::ICefCustomCallback(class CefWrapper::ICefCustomCallback const &)` | 5 | Exported Function
-`public: __thiscall CefWrapper::ICefCustomCallback::ICefCustomCallback(void)` | 6 | Exported Function
-`const CefWrapper::ICefCustomCallback::``vftable'` | 46 | Exported Function
-`const CefWrapper::ICefFocusHandler::``vftable'` | 47 | Exported Function
-`const CefWrapper::CefScriptingParam::``vftable'` | 44 | Exported Function
-`const CefWrapper::ICefBrowserEvent::``vftable'` | 45 | Exported Function
-`const CefWrapper::ICefQueryCallback::``vftable'` | 48 | Exported Function
-`const CefWrapper::ICefStringVisitor::``vftable'` | 51 | Exported Function
-`const CefWrapper::IFrame::``vftable'` | 52 | Exported Function
-`const CefWrapper::ICefRawWinMsg::``vftable'` | 49 | Exported Function
-`const CefWrapper::ICefScriptingPlugin::``vftable'` | 50 | Exported Function
-`public: __thiscall CefWrapper::ICefQueryCallback::ICefQueryCallback(class CefWrapper::ICefQueryCallback &&)` | 9 | Exported Function
-`public: __thiscall CefWrapper::IWebBrowser::IWebBrowser(class CefWrapper::IWebBrowser const &)` | 20 | Exported Function
-`public: __thiscall CefWrapper::IWebBrowser::IWebBrowser(void)` | 21 | Exported Function
-`public: __thiscall CefWrapper::IFrame::IFrame(class CefWrapper::IFrame const &)` | 18 | Exported Function
-`public: __thiscall CefWrapper::IFrame::IFrame(void)` | 19 | Exported Function
-`public: bool __thiscall CefWrapper::CefScriptingParam::get(struct CefWrapper::cef_wb_variant &,unsigned int)` | 61 | Exported Function
-`public: class CefWrapper::Cef & __thiscall CefWrapper::Cef::operator=(class CefWrapper::Cef const &)` | 32 | Exported Function
-`public: class CefWrapper::CefScriptingParam & __thiscall CefWrapper::CefScriptingParam::operator=(class CefWrapper::CefScriptingParam const &)` | 33 | Exported Function
-`public: bool __thiscall CefWrapper::CefScriptingParam::set(struct CefWrapper::cef_wb_variant const &,unsigned int)` | 70 | Exported Function
-`public: class CefWrapper::Cef & __thiscall CefWrapper::Cef::operator=(class CefWrapper::Cef &&)` | 31 | Exported Function
-`public: __thiscall CefWrapper::ICefRawWinMsg::ICefRawWinMsg(class CefWrapper::ICefRawWinMsg const &)` | 12 | Exported Function
-`public: __thiscall CefWrapper::ICefRawWinMsg::ICefRawWinMsg(void)` | 13 | Exported Function
-`public: __thiscall CefWrapper::ICefQueryCallback::ICefQueryCallback(class CefWrapper::ICefQueryCallback const &)` | 10 | Exported Function
-`public: __thiscall CefWrapper::ICefQueryCallback::ICefQueryCallback(void)` | 11 | Exported Function
-`public: __thiscall CefWrapper::ICefScriptingPlugin::ICefScriptingPlugin(class CefWrapper::ICefScriptingPlugin const &)` | 14 | Exported Function
-`public: __thiscall CefWrapper::ICefStringVisitor::ICefStringVisitor(void)` | 17 | Exported Function
-`public: __thiscall CefWrapper::ICefStringVisitor::~ICefStringVisitor(void)` | 28 | Exported Function
-`public: __thiscall CefWrapper::ICefScriptingPlugin::ICefScriptingPlugin(void)` | 15 | Exported Function
-`public: __thiscall CefWrapper::ICefStringVisitor::ICefStringVisitor(class CefWrapper::ICefStringVisitor const &)` | 16 | Exported Function
+`createCefBrowser` | 60 | Exported Function
+`initialChildProcess` | 64 | Exported Function
+`IWebBrowser` | 43 | Exported Function
+`isMainProcess` | 66 | Exported Function
+`initialMainProcess` | 65 | Exported Function
+`unInitial` | 71 | Exported Function
+`get_count` | 63 | Exported Function
+`markResetCefCache` | 67 | Exported Function
+`SetDpiAwareness` | 58 | Exported Function
+`ICefFocusHandler` | 36 | Exported Function
+`ICefQueryCallback` | 37 | Exported Function
+`ICefBrowserEvent` | 34 | Exported Function
+`ICefCustomCallback` | 35 | Exported Function
+`ICefQueryCallback` | 38 | Exported Function
+`ICefStringVisitor` | 41 | Exported Function
+`IFrame` | 42 | Exported Function
+`ICefRawWinMsg` | 39 | Exported Function
+`ICefScriptingPlugin` | 40 | Exported Function
+`CefScriptingParam` | 22 | Exported Function
+`getContextMenuList` | 62 | Exported Function
+`OnContextMenuCommand` | 54 | Exported Function
+`ICefQueryCallback` | 59 | Exported Function
+`useragent` | 74 | Exported Function
+`OnLoadingStateChange` | 56 | Exported Function
+`on_call_wnd_proc` | 68 | Exported Function
+`on_mouse_proc` | 69 | Exported Function
+`OnGotFocus` | 55 | Exported Function
+`OnTakeFocus` | 57 | Exported Function
+`ICefFocusHandler` | 25 | Exported Function
+`ICefRawWinMsg` | 26 | Exported Function
+`ICefBrowserEvent` | 23 | Exported Function
+`ICefCustomCallback` | 24 | Exported Function
+`ICefScriptingPlugin` | 27 | Exported Function
+`useCustomContextMenu` | 72 | Exported Function
+`useExternalContextMenu` | 73 | Exported Function
+`IFrame` | 29 | Exported Function
+`IWebBrowser` | 30 | Exported Function
+`CefScriptingParam` | 2 | Exported Function
+`ICefBrowserEvent` | 3 | Exported Function
+`IWebBrowser` | 53 | Exported Function
+`CefScriptingParam` | 1 | Exported Function
+`ICefBrowserEvent` | 4 | Exported Function
+`ICefFocusHandler` | 7 | Exported Function
+`ICefFocusHandler` | 8 | Exported Function
+`ICefCustomCallback` | 5 | Exported Function
+`ICefCustomCallback` | 6 | Exported Function
+`ICefCustomCallback` | 46 | Exported Function
+`ICefFocusHandler` | 47 | Exported Function
+`CefScriptingParam` | 44 | Exported Function
+`ICefBrowserEvent` | 45 | Exported Function
+`ICefQueryCallback` | 48 | Exported Function
+`ICefStringVisitor` | 51 | Exported Function
+`IFrame` | 52 | Exported Function
+`ICefRawWinMsg` | 49 | Exported Function
+`ICefScriptingPlugin` | 50 | Exported Function
+`ICefQueryCallback` | 9 | Exported Function
+`IWebBrowser` | 20 | Exported Function
+`IWebBrowser` | 21 | Exported Function
+`IFrame` | 18 | Exported Function
+`IFrame` | 19 | Exported Function
+`cef_wb_variant` | 61 | Exported Function
+`Cef` | 32 | Exported Function
+`CefScriptingParam` | 33 | Exported Function
+`cef_wb_variant` | 70 | Exported Function
+`Cef` | 31 | Exported Function
+`ICefRawWinMsg` | 12 | Exported Function
+`ICefRawWinMsg` | 13 | Exported Function
+`ICefQueryCallback` | 10 | Exported Function
+`ICefQueryCallback` | 11 | Exported Function
+`ICefScriptingPlugin` | 14 | Exported Function
+`ICefStringVisitor` | 17 | Exported Function
+`ICefStringVisitor` | 28 | Exported Function
+`ICefScriptingPlugin` | 15 | Exported Function
+`ICefStringVisitor` | 16 | Exported Function
 
 
 ## Signature

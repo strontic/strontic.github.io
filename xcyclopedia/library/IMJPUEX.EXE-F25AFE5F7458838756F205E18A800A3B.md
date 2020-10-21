@@ -22,6 +22,9 @@ SHA256 | `ADD9B3F88E55F55403022C946B1C4A8D7EEF597C524E766BAA751689DB4890C0`
 SHA384 | `2C0600491652B014B8BE3539C6E2AFE5C540A91A435FB26DB2F0BD5DF35D5B8752CD093B6ED86DF5F853544D8CEEB66E`
 SHA512 | `4AD5104D4A68A4CFDD9361273E3737CD28A8B3C5F9E77D19001ACBCF0B9243F27B08C5ED2CAC89DB1EFD966D8BAC54FEC739744E1FF04FD6F4D1DD27F142A8A9`
 SSDEEP | `1536:o+DLziEvQS6oKL6x8oe4noCneHY3GBG3cYH67nIWDK2NLPcrIei:o+vziEoS6ovx/e4okWY3kGMYH67IkK2T`
+IMP | `8EDC9357F22ADF7DB8B30C9166C360A7`
+PESHA1 | `850250E3028355654D7D4224213A4B364177CAAB`
+PE256 | `7D4C57162128948F3A1FFC3A4EF29D6F40BDED64076979C48CF6A7552CBD2AE9`
 
 ## Runtime Data
 
@@ -34,16 +37,19 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-4075667164-670084373-454571106-500 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -60,8 +66,8 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,7 +80,12 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/add9b3f88e55f55403022c946b1c4a8d7eef597c524e766baa751689db4890c0/detection/
 
 ## File Similarity (ssdeep match)
 

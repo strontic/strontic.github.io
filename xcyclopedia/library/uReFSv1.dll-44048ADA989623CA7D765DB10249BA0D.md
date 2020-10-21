@@ -27,12 +27,12 @@ PE256 | `7E3A796F78F5973F80D653CD42AFC9EBD3F3FCA2C9C774B4DAAAFC5B94E66925`
 Function Name | Ordinal | Type
 -- | -- | --
 `public: virtual __thiscall REFS_SA::~REFS_SA(void)` | 3 | Exported Function
-`public: unsigned char __thiscall REFS_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *)` | 11 | Exported Function
-`public: __thiscall REFS_UPCASE_TABLE::REFS_UPCASE_TABLE(void)` | 2 | Exported Function
+`Initialize` | 11 | Exported Function
+`REFS_UPCASE_TABLE` | 2 | Exported Function
 `SetOriginalVolumeName` | 13 | Exported Function
 `Recover` | 12 | Exported Function
 `public: virtual __thiscall REFS_UPCASE_TABLE::~REFS_UPCASE_TABLE(void)` | 4 | Exported Function
-`public: __thiscall REFS_SA::REFS_SA(void)` | 1 | Exported Function
+`REFS_SA` | 1 | Exported Function
 `Extend` | 7 | Exported Function
 `ChkdskEx` | 6 | Exported Function
 `Chkdsk` | 5 | Exported Function

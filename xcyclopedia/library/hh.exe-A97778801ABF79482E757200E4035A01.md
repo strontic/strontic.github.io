@@ -22,6 +22,9 @@ SHA256 | `974C70FA3CAFB802CCA0A4D2D01A84FACB9CF66C8EDFC5F69D3514BB5488783D`
 SHA384 | `9ED2B71B70825D7D0B87C1E174B6804A47A4CF1CF4BEB4BA8B03C0CE7D160168DB8286116B7367A022FBCA5A4C611E8B`
 SHA512 | `D1C946214875CCE5F0BC597329BD9F68FCCB5F83064888D6EF551314E0E5B10F6DE909E6FD0917D3E55A8F559A23D23DBB1B9573A0B1DC6605C57B2A5A45B02C`
 SSDEEP | `192:KCeaZNtjK0Cd0tNSwyRLoOVR4kBGJ1KDJD/4Wcgk:Sat+0eUSwyRUSzA1KDWWcg`
+IMP | `F937A8A0DD0B39468FF87DDE8D9CDB45`
+PESHA1 | `3587AB82E5AA719F715159476EE1349B647C47C3`
+PE256 | `0EF5B13FBBB91A17976BCA8579DC26FDCAF07FE2DCBDB9F02E92E1E93539E93D`
 
 ## Runtime Data
 
@@ -32,7 +35,7 @@ File Download
 
 Path | Type
 -- | --
-(R--)   C:\Users\ADMINI~1\AppData\Local\Temp\2\~DF236CDDE1876EA38A.TMP | File
+(R--)   C:\Users\ADMINI~1\AppData\Local\Temp\2\~DF11EBC92012353841.TMP | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\hh.exe.mui | File
@@ -42,33 +45,36 @@ Path | Type
 (R-D)   C:\Windows\SysWOW64\en-US\urlmon.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\ieframe.dll | File
-(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
-(RW-)   C:\Users\Administrator\Documents\help | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\help | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
-(RWD)   C:\Users\ADMINI~1\AppData\Local\Temp\2\~DF4B0C27A897355E1B.TMP | File
-(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
-(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
-(RWD)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1518_en-us_3c26ab8c9470805a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1518_none_b4b635d36e735c2c | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+(RWD)   C:\Users\ADMINI~1\AppData\Local\Temp\2\~DF34C84F59028B78DC.TMP | File
+(RWD)   C:\Users\user | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
 (RWD)   C:\Windows\Fonts | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\RPC Control\DSEC18B0 | Section
-\Sessions\2\BaseNamedObjects\18b0HWNDInterface:150c32 | Section
-\Sessions\2\BaseNamedObjects\18b0HWNDInterface:1a0a6a | Section
+\RPC Control\DSEC91C | Section
+\Sessions\2\BaseNamedObjects\91cHWNDInterface:2103ec | Section
+\Sessions\2\BaseNamedObjects\91cHWNDInterface:2a04aa | Section
 \Sessions\2\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\2\BaseNamedObjects\UrlZonesSM_Administrator | Section
 \Sessions\2\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\2\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-4075667164-670084373-454571106-500 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -85,8 +91,8 @@ C:\Windows\SysWOW64\hh.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -99,7 +105,12 @@ C:\Windows\SysWOW64\hh.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/974c70fa3cafb802cca0a4d2d01a84facb9cf66c8edfc5f69d3514bb5488783d/detection/
 
 ## File Similarity (ssdeep match)
 

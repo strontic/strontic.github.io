@@ -26,41 +26,41 @@ PE256 | `A1AD5F073EB1E406777545E43D786A965BA8BFDCF1C822B4E0D66E3B614EC8BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual int __cdecl CTcpMib::SupportsPrinterMib(char const * __ptr64,char const * __ptr64,unsigned long,int * __ptr64) __ptr64` | 33 | Exported Function
-`public: virtual int __cdecl CTcpMib::RFC1157ToString(struct SnmpVarBind * __ptr64,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 23 | Exported Function
-`public: virtual long __cdecl CTcpMib::GetPortList(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 16 | Exported Function
-`public: virtual long __cdecl CTcpMib::GetDeviceId(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 12 | Exported Function
-`public: unsigned long __cdecl CTcpMib::SnmpGetNext(char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 30 | Exported Function
-`public: unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 27 | Exported Function
+`SupportsPrinterMib` | 33 | Exported Function
+`RFC1157ToString` | 23 | Exported Function
+`GetPortList` | 16 | Exported Function
+`GetDeviceId` | 12 | Exported Function
+`SnmpGetNext` | 30 | Exported Function
+`SnmpGet` | 27 | Exported Function
 `public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 | Exported Function
 `public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 5 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::GetDeviceDescription(char const * __ptr64,char const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long) __ptr64` | 11 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,struct AsnObjectIdentifier * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 29 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 28 | Exported Function
-`public: virtual void __cdecl CTcpMib::UnInitSnmp(void) __ptr64` | 34 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::SnmpGetNext(char const * __ptr64,char const * __ptr64,struct AsnObjectIdentifier * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 31 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::InitSnmp(void) __ptr64` | 20 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::GetNextRequestId(unsigned long * __ptr64) __ptr64` | 15 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::RequestDeviceStatus(void * __ptr64,unsigned long,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 25 | Exported Function
-`public: virtual unsigned long __cdecl CTcpMib::RegisterDeviceStatusCallback(unsigned long (__cdecl*)(int,char const * __ptr64,char const * __ptr64,unsigned long,unsigned long,unsigned long),void * __ptr64 * __ptr64) __ptr64` | 24 | Exported Function
-`public: int __cdecl CTcpMib::IsValid(void)const __ptr64` | 21 | Exported Function
-`private: long __cdecl CTcpMib::GetPortListFromIni(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 17 | Exported Function
-`private: long __cdecl CTcpMib::GetDeviceIdFromMib(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 14 | Exported Function
-`private: long __cdecl CTcpMib::SupportsPortMonMib(unsigned short const * __ptr64,int * __ptr64) __ptr64` | 32 | Exported Function
-`private: long __cdecl CTcpMib::GetPortListFromMib(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 18 | Exported Function
+`GetDeviceDescription` | 11 | Exported Function
+`SnmpGet` | 29 | Exported Function
+`SnmpGet` | 28 | Exported Function
+`UnInitSnmp` | 34 | Exported Function
+`SnmpGetNext` | 31 | Exported Function
+`InitSnmp` | 20 | Exported Function
+`GetNextRequestId` | 15 | Exported Function
+`RequestDeviceStatus` | 25 | Exported Function
+`RegisterDeviceStatusCallback` | 24 | Exported Function
+`IsValid` | 21 | Exported Function
+`GetPortListFromIni` | 17 | Exported Function
+`GetDeviceIdFromMib` | 14 | Exported Function
+`SupportsPortMonMib` | 32 | Exported Function
+`GetPortListFromMib` | 18 | Exported Function
 `const CTcpMibABC::``vftable'` | 10 | Exported Function
 `const CTcpMib::``vftable'` | 9 | Exported Function
-`private: long __cdecl CTcpMib::GetDeviceIdFromIni(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 13 | Exported Function
+`GetDeviceIdFromIni` | 13 | Exported Function
 `GetTcpMibPtr` | 35 | Exported Function
-`private: static int __cdecl CTcpMib::MapAsynchToPortStatus(unsigned long,struct _PORT_INFO_3W * __ptr64)` | 22 | Exported Function
-`public: __cdecl CTcpMibABC::CTcpMibABC(void) __ptr64` | 4 | Exported Function
-`public: __cdecl CTcpMibABC::CTcpMibABC(class CTcpMibABC const & __ptr64) __ptr64` | 3 | Exported Function
-`public: class CTcpMibABC & __ptr64 __cdecl CTcpMibABC::operator=(class CTcpMibABC const & __ptr64) __ptr64` | 8 | Exported Function
-`public: class CTcpMib & __ptr64 __cdecl CTcpMib::operator=(class CTcpMib const & __ptr64) __ptr64` | 7 | Exported Function
-`private: static unsigned long __cdecl CTcpMib::SnmpCallback(void * __ptr64,struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64,void * __ptr64)` | 26 | Exported Function
-`private: static unsigned long __cdecl CTcpMib::GetStatusFromVBL(void * __ptr64,struct smiVALUE * __ptr64,struct smiVALUE * __ptr64,struct smiVALUE * __ptr64)` | 19 | Exported Function
-`public: __cdecl CTcpMib::CTcpMib(void) __ptr64` | 2 | Exported Function
-`public: __cdecl CTcpMib::CTcpMib(class CTcpMib const & __ptr64) __ptr64` | 1 | Exported Function
+`MapAsynchToPortStatus` | 22 | Exported Function
+`CTcpMibABC` | 4 | Exported Function
+`CTcpMibABC` | 3 | Exported Function
+`operator` | 8 | Exported Function
+`operator` | 7 | Exported Function
+`SnmpCallback` | 26 | Exported Function
+`GetStatusFromVBL` | 19 | Exported Function
+`CTcpMib` | 2 | Exported Function
+`CTcpMib` | 1 | Exported Function
 
 
 ## Signature

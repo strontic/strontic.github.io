@@ -73,6 +73,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ClipUp.exe](ClipUp.exe-0C4B3D8C6E8DF52A58A19D306A8F1712.md) | 90
 
 
 

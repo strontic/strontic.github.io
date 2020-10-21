@@ -22,6 +22,9 @@ SHA256 | `C6CF94EE76F288CF59EDEBA4440CEDF08264EE1EA6F077DF654A0E9C5149F491`
 SHA384 | `B2BED978453E382510491B05274AD0759931273EB4151D6815BF3A413EF62872858882B2D710B985851CC6279165C9A8`
 SHA512 | `885060FBC753C4CE02BDF46671C70BDBA74E75584B14C5CC0826F3E184BA3ABB0FA279854121F9C5A7A6B75E64051DB57A38F88833B3A42530619A1FF11DA59A`
 SSDEEP | `6144:sI9YzjicQ9utidKrVvI9p+hOHOty/sLRW3YolFqVQ7Gs/UEVTppNX+:rYzGcAGidKrVvI9p+MHOU/003FsQ7GsT`
+IMP | `85CED23AC51CD18BBAAFE23E9D922D75`
+PESHA1 | `7BEEB221CD4C6AEB5536A18B258AF9D56693E715`
+PE256 | `06CAFF4A8699D8EBED8CF7A0653D452AE3FCC5232E968CB7BE55E6B3C70F2BD9`
 
 ## Runtime Data
 
@@ -34,13 +37,16 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1518_none_261b62a767ca4e6d | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\2\Windows\Theme4283305886 | Section
-\Windows\Theme1956823608 | Section
+\Sessions\2\Windows\Theme2131664586 | Section
+\Windows\Theme966197582 | Section
 
 
 ### Loaded Modules:
@@ -71,7 +77,12 @@ C:\Windows\SysWOW64\IME\shared\IMEWDBLD.EXE |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/c6cf94ee76f288cf59edeba4440cedf08264ee1ea6f077df654a0e9c5149f491/detection/
 
 ## File Similarity (ssdeep match)
 

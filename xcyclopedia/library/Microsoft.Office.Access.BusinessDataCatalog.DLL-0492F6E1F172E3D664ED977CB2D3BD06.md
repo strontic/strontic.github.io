@@ -26,11 +26,11 @@ PE256 | `8032D87698C221494CBCEA7CBF41390458307A66B615D2DDCF790ED485EFD6A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: static bool __stdcall Microsoft::Office::Access::BusinessDataCatalog::Interop::IWSSystem::FEnsureDependencies(void)` | 4 | Exported Function
-`public: static class Microsoft::Office::Access::BusinessDataCatalog::Interop::IWSSystem & __stdcall Microsoft::Office::Access::BusinessDataCatalog::Interop::IWSSystem::GetInstance(void)` | 5 | Exported Function
-`protected: __thiscall Microsoft::Office::Access::BusinessDataCatalog::Interop::IWSSystem::~IWSSystem(void)` | 2 | Exported Function
-`const Microsoft::Office::Access::BusinessDataCatalog::Interop::IWSSystem::``vftable'` | 3 | Exported Function
-`protected: __thiscall Microsoft::Office::Access::BusinessDataCatalog::Interop::IWSSystem::IWSSystem(void)` | 1 | Exported Function
+`FEnsureDependencies` | 4 | Exported Function
+`GetInstance` | 5 | Exported Function
+`IWSSystem` | 2 | Exported Function
+`IWSSystem` | 3 | Exported Function
+`IWSSystem` | 1 | Exported Function
 
 
 ## Signature

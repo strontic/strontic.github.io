@@ -26,17 +26,17 @@ PE256 | `1B8FF118FE3FDC9B130327128E4E93A483B3F0BF2D2A3633CB95216E856E4B23`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 4 | Exported Function
-`public: static class std::shared_ptr<class SecomMediaPlayerManager::CMediaPlayerManager> __cdecl SecomMediaPlayerManager::CMediaPlayerManager::getInstance(class std::shared_ptr<class SecomLogManager::CLogManager>)` | 9 | Exported Function
-`public: void __thiscall SecomMediaPlayerManager::CMediaPlayerManager::endConnectionWithMediaPlayers(void)` | 8 | Exported Function
-`public: void __thiscall SecomMediaPlayerManager::CMediaPlayerManager::playMedia(int)` | 11 | Exported Function
-`public: void __thiscall SecomMediaPlayerManager::CMediaPlayerManager::pauseMedia(int)` | 10 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 6 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 1 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 7 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 2 | Exported Function
-`public: class CCommonUtilities & __thiscall CCommonUtilities::operator=(class CCommonUtilities const &)` | 5 | Exported Function
-`public: __thiscall SecomMediaPlayerManager::CMediaPlayerManager::~CMediaPlayerManager(void)` | 3 | Exported Function
+`IHSInterface` | 4 | Exported Function
+`CLogManager` | 9 | Exported Function
+`endConnectionWithMediaPlayers` | 8 | Exported Function
+`playMedia` | 11 | Exported Function
+`pauseMedia` | 10 | Exported Function
+`IHSInterface` | 6 | Exported Function
+`IHSInterface` | 1 | Exported Function
+`IHSInterface` | 7 | Exported Function
+`IHSInterface` | 2 | Exported Function
+`operator` | 5 | Exported Function
+`CMediaPlayerManager` | 3 | Exported Function
 
 
 ## Signature

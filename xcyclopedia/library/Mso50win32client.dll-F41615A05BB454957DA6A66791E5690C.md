@@ -46,7 +46,7 @@ Function Name | Ordinal | Type
 `Ordinal6` | 6 | Exported Function
 `Ordinal59` | 59 | Exported Function
 `Ordinal7` | 7 | Exported Function
-`void __cdecl Mso::Personalization::ProgramOptIn::SetProgramOptInStatus(enum Mso::Personalization::ProgramOptIn::Program,bool)` | 63 | Exported Function
+`Program` | 63 | Exported Function
 `Ordinal9` | 9 | Exported Function
 `Ordinal8` | 8 | Exported Function
 `Ordinal58` | 58 | Exported Function
@@ -66,9 +66,9 @@ Function Name | Ordinal | Type
 `Ordinal19` | 19 | Exported Function
 `Ordinal18` | 18 | Exported Function
 `Ordinal13` | 13 | Exported Function
-`class Mso::optional<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > __cdecl Mso::Personalization::Governance::GetCampaigns(struct Mso::Authentication::IOfficeIdentity const * __ptr64)` | 27 | Exported Function
-`class Mso::Future<struct Mso::Personalization::UserFacts::UserFactsResult> __cdecl Mso::Personalization::UserFacts::GetUserFacts(struct Mso::Authentication::IOfficeIdentity const * __ptr64)` | 61 | Exported Function
-`bool __cdecl Mso::Personalization::ProgramOptIn::IsOptedInToProgram(enum Mso::Personalization::ProgramOptIn::Program)` | 62 | Exported Function
+`IOfficeIdentity` | 27 | Exported Function
+`IOfficeIdentity` | 61 | Exported Function
+`Program` | 62 | Exported Function
 `Ordinal1` | 1 | Exported Function
 `Ordinal12` | 12 | Exported Function
 `Ordinal11` | 11 | Exported Function

@@ -26,93 +26,93 @@ PE256 | `7E221689DF83B18FB07DA6944AE3A79A78E17E852EC035716A3915049A8E3291`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual __thiscall HSAdapterInterface::IHSInterface::~IHSInterface(void)` | 16 | Exported Function
-`public: virtual __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::~BroadSoftEventListener(void)` | 13 | Exported Function
-`public: static void __cdecl SeComBroadSoftAdapter::BroadSoftImpl::DestroyBroadSoftInstance(void)` | 37 | Exported Function
-`public: static class ProcessTracker * __cdecl ProcessTracker::_GetInstance(void)` | 57 | Exported Function
-`public: static class std::shared_ptr<class SeComBroadSoftAdapter::BroadSoftImpl> __cdecl SeComBroadSoftAdapter::BroadSoftImpl::GetBroadSoftInstance(class ISFEventListener *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 39 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::activeDeviceChangedFromSDK(void)` | 70 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::connect(void)` | 71 | Exported Function
-`public: virtual __thiscall SFAdapterInterface::ISFInterface::~ISFInterface(void)` | 17 | Exported Function
-`public: virtual __thiscall SeComBroadSoftAdapter::BroadSoftImpl::~BroadSoftImpl(void)` | 14 | Exported Function
-`public: virtual __thiscall SeComCall::ICall::~ICall(void)` | 15 | Exported Function
-`public: static bool __cdecl SeComBroadSoftAdapter::BroadSoftImpl::IsBroadSoftInstalled(void)` | 40 | Exported Function
-`public: class HSAdapterInterface::IHSInterface & __thiscall HSAdapterInterface::IHSInterface::operator=(class HSAdapterInterface::IHSInterface const &)` | 22 | Exported Function
-`public: class ISFEventListener & __thiscall ISFEventListener::operator=(class ISFEventListener const &)` | 23 | Exported Function
-`public: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::isSupportedSoftphone(void)` | 82 | Exported Function
-`public: bool __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::CanSendRequest(void)` | 36 | Exported Function
-`public: bool __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::IsWaitingForResponse(void)const ` | 41 | Exported Function
-`public: class SeComCall::ICall & __thiscall SeComCall::ICall::operator=(class SeComCall::ICall const &)` | 21 | Exported Function
-`public: class SFAdapterInterface::ISFInterface & __thiscall SFAdapterInterface::ISFInterface::operator=(class SFAdapterInterface::ISFInterface const &)` | 24 | Exported Function
-`public: class SeComBroadSoftAdapter::BroadSoftImpl & __thiscall SeComBroadSoftAdapter::BroadSoftImpl::operator=(class SeComBroadSoftAdapter::BroadSoftImpl const &)` | 20 | Exported Function
-`public: class ProcessTracker & __thiscall ProcessTracker::operator=(class ProcessTracker const &)` | 25 | Exported Function
-`public: class SeComBroadSoftAdapter::BroadSoftEventListener & __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::operator=(class SeComBroadSoftAdapter::BroadSoftEventListener const &)` | 19 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::disconnect(void)` | 73 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::MessageReceived(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 42 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::OnConnectionChange(bool)` | 43 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::informHeadsetDisconnected(class SecomHeadset::CHeadsetInfo *)` | 79 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::informConnectedHsListToAdapters(class std::list<class std::shared_ptr<class SecomHeadset::CHeadsetInfo>,class std::allocator<class std::shared_ptr<class SecomHeadset::CHeadsetInfo> > > *)` | 77 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::informHeadsetConnected(class std::shared_ptr<class SecomHeadset::CHeadsetInfo>)` | 78 | Exported Function
-`public: void __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::SetWaitForResponse(bool)` | 51 | Exported Function
-`public: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::writeToLog(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 87 | Exported Function
-`public: void __thiscall ProcessTracker::_DestroyInstance(void)` | 55 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::ProcessEnded(void)` | 45 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::ProcessStarted(void)` | 46 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::destroy(void)` | 72 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::muteCall(bool)` | 83 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::offHook(void)` | 84 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::isRedialNotSupported(void)` | 81 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::getMuteStatus(void)` | 76 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::isOffHookNotSupported(void)` | 80 | Exported Function
-`public: virtual enum SeComAppDefs::CONNECTION_TYPE __thiscall SeComBroadSoftAdapter::BroadSoftImpl::getConnectionType(void)` | 74 | Exported Function
-`public: virtual void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::CallEnded(class SeComBroadSoftAdapter::CBroadSoftCallImpl *)` | 35 | Exported Function
-`public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SeComBroadSoftAdapter::BroadSoftImpl::getID(void)` | 75 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::onHook(void)` | 85 | Exported Function
-`public: virtual bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::redial(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)` | 86 | Exported Function
-`public: bool __thiscall ProcessTracker::RemoveProcessObserver(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class ProcessObserver *)` | 47 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::PerformRegistration(void)` | 44 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::SendMuteEvent(bool)` | 48 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_RemoveCallFromList(class SeComBroadSoftAdapter::CBroadSoftCallImpl *,bool)` | 66 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_AddCallToCallList(class SeComBroadSoftAdapter::CBroadSoftCallImpl *)` | 53 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_DeleteAllCalls(void)` | 54 | Exported Function
-`private: int __thiscall SeComBroadSoftAdapter::BroadSoftImpl::GetActiveCallID(void)` | 38 | Exported Function
-`private: static class ProcessTracker * ProcessTracker::_pProcessTrackInstance` | 69 | Exported Function
-`private: class SeComBroadSoftAdapter::CBroadSoftCallImpl * __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_GetCallWithID(int)` | 56 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::SendOffhook(void)` | 49 | Exported Function
-`private: bool __thiscall SeComBroadSoftAdapter::BroadSoftImpl::SendRedialEvent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 50 | Exported Function
-`private: __thiscall SeComBroadSoftAdapter::BroadSoftImpl::BroadSoftImpl(class ISFEventListener *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 3 | Exported Function
-`const SeComBroadSoftAdapter::BroadSoftImpl::``vftable'{for ``ProcessObserver'}` | 29 | Exported Function
-`const SeComBroadSoftAdapter::BroadSoftImpl::``vftable'{for ``SeComBroadSoftAdapter::BroadSoftEventListener'}` | 27 | Exported Function
-`const SeComBroadSoftAdapter::BroadSoftEventListener::``vftable'` | 26 | Exported Function
-`const HSAdapterInterface::IHSInterface::``vftable'` | 31 | Exported Function
+`IHSInterface` | 16 | Exported Function
+`BroadSoftEventListener` | 13 | Exported Function
+`DestroyBroadSoftInstance` | 37 | Exported Function
+`_GetInstance` | 57 | Exported Function
+`allocator` | 39 | Exported Function
+`activeDeviceChangedFromSDK` | 70 | Exported Function
+`connect` | 71 | Exported Function
+`ISFInterface` | 17 | Exported Function
+`BroadSoftImpl` | 14 | Exported Function
+`ICall` | 15 | Exported Function
+`IsBroadSoftInstalled` | 40 | Exported Function
+`IHSInterface` | 22 | Exported Function
+`operator` | 23 | Exported Function
+`isSupportedSoftphone` | 82 | Exported Function
+`CanSendRequest` | 36 | Exported Function
+`IsWaitingForResponse` | 41 | Exported Function
+`ICall` | 21 | Exported Function
+`ISFInterface` | 24 | Exported Function
+`BroadSoftImpl` | 20 | Exported Function
+`operator` | 25 | Exported Function
+`BroadSoftEventListener` | 19 | Exported Function
+`disconnect` | 73 | Exported Function
+`BroadSoftMessage` | 42 | Exported Function
+`OnConnectionChange` | 43 | Exported Function
+`CHeadsetInfo` | 79 | Exported Function
+`CHeadsetInfo` | 77 | Exported Function
+`CHeadsetInfo` | 78 | Exported Function
+`SetWaitForResponse` | 51 | Exported Function
+`allocator` | 87 | Exported Function
+`_DestroyInstance` | 55 | Exported Function
+`ProcessEnded` | 45 | Exported Function
+`ProcessStarted` | 46 | Exported Function
+`destroy` | 72 | Exported Function
+`muteCall` | 83 | Exported Function
+`offHook` | 84 | Exported Function
+`isRedialNotSupported` | 81 | Exported Function
+`getMuteStatus` | 76 | Exported Function
+`isOffHookNotSupported` | 80 | Exported Function
+`getConnectionType` | 74 | Exported Function
+`CBroadSoftCallImpl` | 35 | Exported Function
+`getID` | 75 | Exported Function
+`onHook` | 85 | Exported Function
+`allocator` | 86 | Exported Function
+`allocator` | 47 | Exported Function
+`PerformRegistration` | 44 | Exported Function
+`SendMuteEvent` | 48 | Exported Function
+`CBroadSoftCallImpl` | 66 | Exported Function
+`CBroadSoftCallImpl` | 53 | Exported Function
+`_DeleteAllCalls` | 54 | Exported Function
+`GetActiveCallID` | 38 | Exported Function
+`_pProcessTrackInstance` | 69 | Exported Function
+`_GetCallWithID` | 56 | Exported Function
+`SendOffhook` | 49 | Exported Function
+`allocator` | 50 | Exported Function
+`allocator` | 3 | Exported Function
+`BroadSoftImpl` | 29 | Exported Function
+`BroadSoftEventListener` | 27 | Exported Function
+`BroadSoftEventListener` | 26 | Exported Function
+`IHSInterface` | 31 | Exported Function
 `const ISFEventListener::``vftable'` | 32 | Exported Function
-`private: __thiscall ProcessTracker::ProcessTracker(void)` | 12 | Exported Function
+`ProcessTracker` | 12 | Exported Function
 `private: __thiscall ProcessTracker::~ProcessTracker(void)` | 18 | Exported Function
-`const SFAdapterInterface::ISFInterface::``vftable'` | 33 | Exported Function
-`const SeComBroadSoftAdapter::BroadSoftImpl::``vftable'{for ``SFAdapterInterface::ISFInterface'}` | 28 | Exported Function
-`const SeComCall::ICall::``vftable'` | 30 | Exported Function
-`private: static class std::shared_ptr<class SeComBroadSoftAdapter::BroadSoftImpl> SeComBroadSoftAdapter::BroadSoftImpl::_pBroadSoftInstance` | 68 | Exported Function
-`public: __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::BroadSoftEventListener(class SeComBroadSoftAdapter::BroadSoftEventListener const &)` | 1 | Exported Function
-`public: __thiscall SeComBroadSoftAdapter::BroadSoftEventListener::BroadSoftEventListener(void)` | 2 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(void)` | 9 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(void)` | 7 | Exported Function
-`public: __thiscall ISFEventListener::ISFEventListener(class ISFEventListener const &)` | 8 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(void)` | 11 | Exported Function
-`public: bool __thiscall ProcessTracker::AddProcessObserver(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class ProcessObserver *)` | 34 | Exported Function
-`public: __thiscall SFAdapterInterface::ISFInterface::ISFInterface(class SFAdapterInterface::ISFInterface const &)` | 10 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(class SeComCall::ICall const &)` | 4 | Exported Function
-`public: __thiscall SeComCall::ICall::ICall(void)` | 5 | Exported Function
-`public: __thiscall HSAdapterInterface::IHSInterface::IHSInterface(class HSAdapterInterface::IHSInterface const &)` | 6 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_OnCallCreated(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 59 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_OnCallHold(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 60 | Exported Function
-`private: void __thiscall ProcessTracker::_UnInitialize(void)` | 67 | Exported Function
-`private: void __thiscall ProcessTracker::_Initialize(void)` | 58 | Exported Function
-`private: void __thiscall ProcessTracker::_ProcessTrackerServiceProcedure(void)` | 65 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_OnRingingCall(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 64 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::SubscribeforEvents(void)` | 52 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_OnCallTerminated(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 63 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_OnCallOpen(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 61 | Exported Function
-`private: void __thiscall SeComBroadSoftAdapter::BroadSoftImpl::_OnCallRejected(class SeComBroadSoftAdapter::BroadSoftMessage const *)` | 62 | Exported Function
+`ISFInterface` | 33 | Exported Function
+`ISFInterface` | 28 | Exported Function
+`ICall` | 30 | Exported Function
+`_pBroadSoftInstance` | 68 | Exported Function
+`BroadSoftEventListener` | 1 | Exported Function
+`BroadSoftEventListener` | 2 | Exported Function
+`ISFEventListener` | 9 | Exported Function
+`IHSInterface` | 7 | Exported Function
+`ISFEventListener` | 8 | Exported Function
+`ISFInterface` | 11 | Exported Function
+`allocator` | 34 | Exported Function
+`ISFInterface` | 10 | Exported Function
+`ICall` | 4 | Exported Function
+`ICall` | 5 | Exported Function
+`IHSInterface` | 6 | Exported Function
+`BroadSoftMessage` | 59 | Exported Function
+`BroadSoftMessage` | 60 | Exported Function
+`_UnInitialize` | 67 | Exported Function
+`_Initialize` | 58 | Exported Function
+`_ProcessTrackerServiceProcedure` | 65 | Exported Function
+`BroadSoftMessage` | 64 | Exported Function
+`SubscribeforEvents` | 52 | Exported Function
+`BroadSoftMessage` | 63 | Exported Function
+`BroadSoftMessage` | 61 | Exported Function
+`BroadSoftMessage` | 62 | Exported Function
 
 
 ## Signature

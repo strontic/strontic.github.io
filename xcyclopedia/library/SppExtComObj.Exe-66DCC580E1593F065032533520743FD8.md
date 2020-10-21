@@ -43,6 +43,7 @@ SSDEEP | `12288:icI92U/jpZyF1SFMLq/WYeL2eHKhAwMkNIDrIQbw58fuk1:zI9li3SP/WYeavEkt
 File | Score
 -- | --
 [C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-03E8003E0D8DB6A28899156B1E3C3F73.md) | 80
+[C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-D0BAB67DD8B87045A7AFCFF45F7022AA.md) | 82
 
 
 

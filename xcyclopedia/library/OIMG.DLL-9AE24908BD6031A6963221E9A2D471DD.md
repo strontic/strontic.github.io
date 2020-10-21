@@ -26,152 +26,152 @@ PE256 | `17BEFBD6302D2692B1A0DED09B10A5B5E213B84484393A5CEC2064FB2120A567`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: long __thiscall CutoutAPI::Grabber::ExtractSprite(class CutoutAPI::Gil::Bitmap *,class CutoutAPI::Gil::Bitmap *,struct CutoutAPI::RectImpl<int> const &,class CutoutAPI::Gil::Bitmap *)` | 88 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::ColorStatistics::Copy(class CutoutAPI::Grabber::ColorStatistics const &)` | 68 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::Segment(class CutoutAPI::Gil::Bitmap *,class CutoutAPI::Gil::Bitmap *,struct CutoutAPI::RectImpl<int> const &,class CutoutAPI::Grabber::ColorStatistics *)` | 136 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::InitializeAndSegment(class CutoutAPI::Gil::Bitmap *,struct CutoutAPI::RectImpl<int> const &,struct CutoutAPI::RectImpl<int> const &,double,int,class CutoutAPI::Gil::Bitmap *,class CutoutAPI::Grabber::ColorStatistics *)` | 107 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::NodeStack::Push(struct CutoutAPI::GeneralGraph::Node *)` | 126 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::NodeQueue::Allocate(int)` | 41 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::Maxflow(void)` | 110 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::NodeStack::Allocate(int)` | 43 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::NodeQueue::EnQueue(struct CutoutAPI::GeneralGraph::Node *)` | 84 | Exported Function
-`public: long __thiscall CutoutAPI::GridGraph8::Maxflow(int)` | 111 | Exported Function
-`public: long __thiscall CutoutAPI::GridGraph8::Allocate(int,int)` | 40 | Exported Function
-`public: long __thiscall CutoutAPI::GridGraph8::NodeQueue::EnQueue(struct CutoutAPI::GridGraph8::Node *)` | 85 | Exported Function
-`public: long __thiscall CutoutAPI::GridGraph8::NodeQueue::Allocate(int)` | 42 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::SetIterationCount(int)` | 141 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::SetBrushWeight(int)` | 138 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::SetAlphaBehavior(bool,unsigned long)` | 137 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::SetForegroundConnectivity(bool)` | 140 | Exported Function
-`public: long __thiscall CutoutAPI::Grabber::SetConnectedComponentPixelCountThreshold(int)` | 139 | Exported Function
-`public: bool __thiscall CutoutAPI::GridGraph8::IsAllocated(void)const ` | 109 | Exported Function
-`public: bool __thiscall CutoutAPI::Grabber::GetForegroundConnectivity(void)const ` | 94 | Exported Function
-`public: int __thiscall CutoutAPI::Grabber::GetBrushWeight(void)const ` | 92 | Exported Function
-`public: int __thiscall CutoutAPI::GeneralGraph::GetSegmentation(void *)` | 99 | Exported Function
-`public: bool __thiscall CutoutAPI::Grabber::GetAlphaBehavior(unsigned long *)const ` | 90 | Exported Function
-`public: __thiscall CutoutAPI::GridGraph8::NodeStack::~NodeStack(void)` | 16 | Exported Function
-`public: __thiscall CutoutAPI::GridGraph8::NodeStack::NodeStack(void)` | 8 | Exported Function
-`public: bool __thiscall CutoutAPI::GeneralGraph::IsAllocated(void)const ` | 108 | Exported Function
-`public: __thiscall CutoutAPI::GridGraph8::~GridGraph8(void)` | 12 | Exported Function
-`public: int __thiscall CutoutAPI::GridGraph8::GetY(struct CutoutAPI::GridGraph8::Node *)` | 104 | Exported Function
-`public: int __thiscall CutoutAPI::GridGraph8::GetX(struct CutoutAPI::GridGraph8::Node *)` | 103 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::Allocate(void)` | 39 | Exported Function
-`public: long __thiscall CutoutAPI::GeneralGraph::AddNEdges(void *,void *,int,int)` | 32 | Exported Function
-`public: int __thiscall CutoutAPI::GridGraph8::GetSizeY(void)` | 102 | Exported Function
-`public: int __thiscall CutoutAPI::Grabber::GetIterationCount(void)const ` | 95 | Exported Function
-`public: int __thiscall CutoutAPI::Grabber::GetConnectedComponentPixelCountThreshold(void)const ` | 93 | Exported Function
-`public: int __thiscall CutoutAPI::GridGraph8::GetSizeX(void)` | 101 | Exported Function
-`public: int __thiscall CutoutAPI::GridGraph8::GetSegmentation(struct CutoutAPI::GridGraph8::Node *)` | 100 | Exported Function
-`public: long __thiscall CutoutAPI::GridGraph8::NodeStack::Allocate(int)` | 44 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::NodeQueue::Reset(void)` | 132 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::NodeQueue::DeAllocate(void)` | 75 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::NodeStack::Reset(void)` | 134 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::NodeStack::DeAllocate(void)` | 77 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::DeAllocate(void)` | 73 | Exported Function
-`public: void * __thiscall CutoutAPI::GeneralGraph::AddNode(void)` | 34 | Exported Function
-`public: struct CutoutAPI::GridGraph8::NodeStack & __thiscall CutoutAPI::GridGraph8::NodeStack::operator=(struct CutoutAPI::GridGraph8::NodeStack const &)` | 20 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::AddTEdge(void *,int)` | 35 | Exported Function
-`public: void __thiscall CutoutAPI::GeneralGraph::``default constructor closure'(void)` | 21 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::NodeQueue::Reset(void)` | 133 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::NodeQueue::DeAllocate(void)` | 76 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::NodeStack::Reset(void)` | 135 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::NodeStack::DeAllocate(void)` | 78 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::DeAllocate(void)` | 74 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::AddNEdge(struct CutoutAPI::GridGraph8::Node *,int,int)` | 31 | Exported Function
-`public: void __thiscall CutoutAPI::Grabber::``default constructor closure'(void)` | 22 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::AddTEdge(struct CutoutAPI::GridGraph8::Node *,int)` | 36 | Exported Function
-`public: void __thiscall CutoutAPI::GridGraph8::AddNEdges(struct CutoutAPI::GridGraph8::Node *,int,int,int)` | 33 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::EraseConstrainedForeground(void)` | 87 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::EraseConstrainedBackground(void)` | 86 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::TopConstrainedBackground(void)` | 143 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::Foreground(void)` | 89 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::ConstrainedForeground(void)` | 67 | Exported Function
-`public: static int const CutoutAPI::GridGraph8::NeighborhoodSize` | 117 | Exported Function
-`public: long __thiscall CutoutAPI::GridGraph8::NodeStack::Push(struct CutoutAPI::GridGraph8::Node *)` | 127 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::ConstrainedBackground(void)` | 66 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::Background(void)` | 47 | Exported Function
-`public: struct CutoutAPI::GridGraph8::Node * __thiscall CutoutAPI::GridGraph8::NodeQueue::DeQueue(void)` | 80 | Exported Function
-`public: struct CutoutAPI::GridGraph8::Node * __thiscall CutoutAPI::GridGraph8::GetNodeId(int,int)` | 97 | Exported Function
-`public: struct CutoutAPI::GridGraph8::NodeQueue & __thiscall CutoutAPI::GridGraph8::NodeQueue::operator=(struct CutoutAPI::GridGraph8::NodeQueue const &)` | 18 | Exported Function
-`public: struct CutoutAPI::GridGraph8::Node * __thiscall CutoutAPI::GridGraph8::NodeStack::Pop(void)` | 125 | Exported Function
-`public: struct CutoutAPI::GeneralGraph::NodeStack & __thiscall CutoutAPI::GeneralGraph::NodeStack::operator=(struct CutoutAPI::GeneralGraph::NodeStack const &)` | 19 | Exported Function
-`public: struct CutoutAPI::GeneralGraph::Node * __thiscall CutoutAPI::GeneralGraph::NodeQueue::DeQueue(void)` | 79 | Exported Function
-`public: static unsigned long const __stdcall CutoutAPI::Grabber::TopConstrainedForeground(void)` | 144 | Exported Function
-`public: struct CutoutAPI::GeneralGraph::NodeQueue & __thiscall CutoutAPI::GeneralGraph::NodeQueue::operator=(struct CutoutAPI::GeneralGraph::NodeQueue const &)` | 17 | Exported Function
-`public: struct CutoutAPI::GeneralGraph::Node * __thiscall CutoutAPI::GeneralGraph::NodeStack::Pop(void)` | 124 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeFlowLeft(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,int *,int *)` | 50 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeFlowForTwoVirtualGraphs(struct CutoutAPI::GridGraph8::Node *,struct CutoutAPI::GridGraph8::Node *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,int *,int *)` | 49 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeFlowTop(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,int *,int *)` | 52 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeFlowRight(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,int *,int *)` | 51 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeFlowBottomInsideSquare(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 48 | Exported Function
-`private: static unsigned int const CutoutAPI::GridGraph8::PARENT_FREE` | 119 | Exported Function
-`private: static struct CutoutAPI::GeneralGraph::Edge * CutoutAPI::GeneralGraph::PARENT_TERMINAL` | 122 | Exported Function
-`private: static unsigned int const CutoutAPI::GridGraph8::PARENT_TERMINAL` | 123 | Exported Function
-`private: static unsigned int const CutoutAPI::GridGraph8::PARENT_ORPHAN` | 121 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromRightBottomLeftToTop(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 60 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromLeftToRight(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 57 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromRightLeftTopToBottom(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 63 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromRightLeftToBottom(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 61 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromLeftTopToRight(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 59 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromBottomToTop(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 55 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeFlowTopInsideSquare(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 53 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromLeftTopToBottom(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 58 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromLeftBottomToRight(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 56 | Exported Function
-`long __stdcall Oimg::DavinciCoCreateInstance(wchar_t const *,struct IUnknown *,struct _GUID const &,void * *)` | 72 | Exported Function
-`long __stdcall Oimg::DavinciCoCreateInstance(wchar_t const *,struct _GUID const &,void * *)` | 71 | Exported Function
-`private: long __thiscall CutoutAPI::GeneralGraph::Adopt(struct CutoutAPI::GeneralGraph::Node *)` | 37 | Exported Function
-`private: bool __thiscall CutoutAPI::GridGraph8::Grow(struct CutoutAPI::GridGraph8::Node * &,struct CutoutAPI::GridGraph8::Node * &,int &)` | 106 | Exported Function
-`long __stdcall Oimg::DavinciCoCreateInstance(struct _GUID const &,struct IUnknown *,struct _GUID const &,void * *)` | 70 | Exported Function
-`long __stdcall CutoutAPI::DownsampleARGB32(class CutoutAPI::Gil::Bitmap *,class CutoutAPI::Gil::Bitmap *,struct CutoutAPI::RectImpl<int> const &)` | 81 | Exported Function
+`Bitmap` | 88 | Exported Function
+`ColorStatistics` | 68 | Exported Function
+`ColorStatistics` | 136 | Exported Function
+`ColorStatistics` | 107 | Exported Function
+`Node` | 126 | Exported Function
+`Allocate` | 41 | Exported Function
+`Maxflow` | 110 | Exported Function
+`Allocate` | 43 | Exported Function
+`Node` | 84 | Exported Function
+`Maxflow` | 111 | Exported Function
+`Allocate` | 40 | Exported Function
+`Node` | 85 | Exported Function
+`Allocate` | 42 | Exported Function
+`SetIterationCount` | 141 | Exported Function
+`SetBrushWeight` | 138 | Exported Function
+`SetAlphaBehavior` | 137 | Exported Function
+`SetForegroundConnectivity` | 140 | Exported Function
+`SetConnectedComponentPixelCountThreshold` | 139 | Exported Function
+`IsAllocated` | 109 | Exported Function
+`GetForegroundConnectivity` | 94 | Exported Function
+`GetBrushWeight` | 92 | Exported Function
+`GetSegmentation` | 99 | Exported Function
+`GetAlphaBehavior` | 90 | Exported Function
+`NodeStack` | 16 | Exported Function
+`NodeStack` | 8 | Exported Function
+`IsAllocated` | 108 | Exported Function
+`GridGraph8` | 12 | Exported Function
+`Node` | 104 | Exported Function
+`Node` | 103 | Exported Function
+`Allocate` | 39 | Exported Function
+`AddNEdges` | 32 | Exported Function
+`GetSizeY` | 102 | Exported Function
+`GetIterationCount` | 95 | Exported Function
+`GetConnectedComponentPixelCountThreshold` | 93 | Exported Function
+`GetSizeX` | 101 | Exported Function
+`Node` | 100 | Exported Function
+`Allocate` | 44 | Exported Function
+`Reset` | 132 | Exported Function
+`DeAllocate` | 75 | Exported Function
+`Reset` | 134 | Exported Function
+`DeAllocate` | 77 | Exported Function
+`DeAllocate` | 73 | Exported Function
+`AddNode` | 34 | Exported Function
+`NodeStack` | 20 | Exported Function
+`AddTEdge` | 35 | Exported Function
+`GeneralGraph` | 21 | Exported Function
+`Reset` | 133 | Exported Function
+`DeAllocate` | 76 | Exported Function
+`Reset` | 135 | Exported Function
+`DeAllocate` | 78 | Exported Function
+`DeAllocate` | 74 | Exported Function
+`Node` | 31 | Exported Function
+`Grabber` | 22 | Exported Function
+`Node` | 36 | Exported Function
+`Node` | 33 | Exported Function
+`EraseConstrainedForeground` | 87 | Exported Function
+`EraseConstrainedBackground` | 86 | Exported Function
+`TopConstrainedBackground` | 143 | Exported Function
+`Foreground` | 89 | Exported Function
+`ConstrainedForeground` | 67 | Exported Function
+`NeighborhoodSize` | 117 | Exported Function
+`Node` | 127 | Exported Function
+`ConstrainedBackground` | 66 | Exported Function
+`Background` | 47 | Exported Function
+`DeQueue` | 80 | Exported Function
+`GetNodeId` | 97 | Exported Function
+`NodeQueue` | 18 | Exported Function
+`Pop` | 125 | Exported Function
+`NodeStack` | 19 | Exported Function
+`DeQueue` | 79 | Exported Function
+`TopConstrainedForeground` | 144 | Exported Function
+`NodeQueue` | 17 | Exported Function
+`Pop` | 124 | Exported Function
+`VirtualGraph2` | 50 | Exported Function
+`VirtualGraph2` | 49 | Exported Function
+`VirtualGraph2` | 52 | Exported Function
+`VirtualGraph2` | 51 | Exported Function
+`VirtualGraph2` | 48 | Exported Function
+`PARENT_FREE` | 119 | Exported Function
+`PARENT_TERMINAL` | 122 | Exported Function
+`PARENT_TERMINAL` | 123 | Exported Function
+`PARENT_ORPHAN` | 121 | Exported Function
+`VirtualGraph2` | 60 | Exported Function
+`VirtualGraph2` | 57 | Exported Function
+`VirtualGraph2` | 63 | Exported Function
+`VirtualGraph2` | 61 | Exported Function
+`VirtualGraph2` | 59 | Exported Function
+`VirtualGraph2` | 55 | Exported Function
+`VirtualGraph2` | 53 | Exported Function
+`VirtualGraph2` | 58 | Exported Function
+`VirtualGraph2` | 56 | Exported Function
+`DavinciCoCreateInstance` | 72 | Exported Function
+`DavinciCoCreateInstance` | 71 | Exported Function
+`Node` | 37 | Exported Function
+`Node` | 106 | Exported Function
+`DavinciCoCreateInstance` | 70 | Exported Function
+`RectImpl` | 81 | Exported Function
 `int __stdcall cutout_dummy_for_linking(void)` | 146 | Exported Function
-`long __stdcall Oimg::DavinciCoCreateInstance(struct _GUID const &,struct _GUID const &,void * *)` | 69 | Exported Function
-`long __stdcall CutoutAPI::UpscaleSegmentation(class CutoutAPI::Gil::Bitmap *,class CutoutAPI::Gil::Bitmap *,float)` | 145 | Exported Function
-`private: static int __stdcall CutoutAPI::GridGraph8::GetReverseEdge(int)` | 98 | Exported Function
-`private: long __thiscall CutoutAPI::GridGraph8::MultipleTreesDynamicProgrammingMaxflowHorz(void)` | 116 | Exported Function
-`private: static struct CutoutAPI::GeneralGraph::Edge * CutoutAPI::GeneralGraph::PARENT_ORPHAN` | 120 | Exported Function
-`private: static struct CutoutAPI::GeneralGraph::Edge * CutoutAPI::GeneralGraph::PARENT_FREE` | 118 | Exported Function
-`private: long __thiscall CutoutAPI::GridGraph8::DynamicProgrammingMaxflowVert(void)` | 83 | Exported Function
-`private: long __thiscall CutoutAPI::GridGraph8::Adopt(struct CutoutAPI::GridGraph8::Node *)` | 38 | Exported Function
-`private: long __thiscall CutoutAPI::GeneralGraph::Augment(struct CutoutAPI::GeneralGraph::Edge *)` | 45 | Exported Function
-`private: long __thiscall CutoutAPI::GridGraph8::DynamicProgrammingMaxflowHorz(void)` | 82 | Exported Function
-`private: long __thiscall CutoutAPI::GridGraph8::Augment(struct CutoutAPI::GridGraph8::Node *,struct CutoutAPI::GridGraph8::Node *,int)` | 46 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromRightLeftToTop(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 62 | Exported Function
-`public: __thiscall CutoutAPI::GeneralGraph::NodeQueue::NodeQueue(void)` | 5 | Exported Function
-`public: __thiscall CutoutAPI::GeneralGraph::GeneralGraph(bool (__stdcall*)(int,void *),void *)` | 2 | Exported Function
-`public: __thiscall CutoutAPI::GeneralGraph::NodeStack::NodeStack(void)` | 7 | Exported Function
-`public: __thiscall CutoutAPI::GeneralGraph::NodeQueue::~NodeQueue(void)` | 13 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::SetSquare(int,int,struct CutoutAPI::GridGraph8::Square &)` | 142 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::MoveSquareLeft(struct CutoutAPI::GridGraph8::Square &)` | 113 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::MoveSquareDown(struct CutoutAPI::GridGraph8::Square &)` | 112 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::MoveSquareUp(struct CutoutAPI::GridGraph8::Square &)` | 115 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::MoveSquareRight(struct CutoutAPI::GridGraph8::Square &)` | 114 | Exported Function
-`public: __thiscall CutoutAPI::GridGraph8::GridGraph8(int,int,bool (__stdcall*)(int,void *),void *)` | 4 | Exported Function
-`public: __thiscall CutoutAPI::Grabber::~Grabber(void)` | 11 | Exported Function
-`public: __thiscall CutoutAPI::GridGraph8::NodeQueue::~NodeQueue(void)` | 14 | Exported Function
-`public: __thiscall CutoutAPI::GridGraph8::NodeQueue::NodeQueue(void)` | 6 | Exported Function
-`public: __thiscall CutoutAPI::Grabber::Grabber(bool (__stdcall*)(void *),void *,int,bool (__stdcall*)(double,void *),void *)` | 3 | Exported Function
-`public: __thiscall CutoutAPI::GeneralGraph::~GeneralGraph(void)` | 10 | Exported Function
-`public: __thiscall CutoutAPI::GeneralGraph::NodeStack::~NodeStack(void)` | 15 | Exported Function
-`public: __thiscall CutoutAPI::Grabber::ColorStatistics::~ColorStatistics(void)` | 9 | Exported Function
-`public: __thiscall CutoutAPI::Grabber::ColorStatistics::ColorStatistics(void)` | 1 | Exported Function
-`private: struct CutoutAPI::GeneralGraph::Edge * __thiscall CutoutAPI::GeneralGraph::Grow(void)` | 105 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::PushFlowTop(struct CutoutAPI::GridGraph8::Square &,int,int)` | 131 | Exported Function
-`private: struct CutoutAPI::GridGraph8::Node * __thiscall CutoutAPI::GridGraph8::ActiveQueueGetTop(void)` | 26 | Exported Function
-`private: struct CutoutAPI::GeneralGraph::Node * __thiscall CutoutAPI::GeneralGraph::ActiveQueueGetTop(void)` | 25 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::PushFlowRight(struct CutoutAPI::GridGraph8::Square &,int,int)` | 130 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromTopToBottom(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 65 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::ComputeVirtualGraphFromRightToLeft(struct CutoutAPI::GridGraph8::Square &,struct CutoutAPI::GridGraph8::VirtualGraph2 *,struct CutoutAPI::GridGraph8::VirtualGraph2 *)` | 64 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::PushFlowLeft(struct CutoutAPI::GridGraph8::Square &,int,int)` | 129 | Exported Function
-`private: static void __stdcall CutoutAPI::GridGraph8::PushFlowBottom(struct CutoutAPI::GridGraph8::Square &,int,int)` | 128 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::ActiveQueueRemoveTop(void)` | 28 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::ActiveQueueAdd(struct CutoutAPI::GridGraph8::Node *)` | 24 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::ComputeMaximumFlow2(struct CutoutAPI::GridGraph8::Node *,struct CutoutAPI::GridGraph8::Node *,int,int)` | 54 | Exported Function
-`private: void __thiscall CutoutAPI::GridGraph8::ActiveQueueReset(void)` | 30 | Exported Function
-`private: void __thiscall CutoutAPI::GeneralGraph::ActiveQueueReset(void)` | 29 | Exported Function
-`private: struct CutoutAPI::GridGraph8::Node * __thiscall CutoutAPI::GridGraph8::GetNeib(struct CutoutAPI::GridGraph8::Node *,int)const ` | 96 | Exported Function
-`private: struct CutoutAPI::GridGraph8::Node * __thiscall CutoutAPI::GridGraph8::GetAndCheckNeib(struct CutoutAPI::GridGraph8::Node *,int)const ` | 91 | Exported Function
-`private: void __thiscall CutoutAPI::GeneralGraph::ActiveQueueRemoveTop(void)` | 27 | Exported Function
-`private: void __thiscall CutoutAPI::GeneralGraph::ActiveQueueAdd(struct CutoutAPI::GeneralGraph::Node *)` | 23 | Exported Function
+`DavinciCoCreateInstance` | 69 | Exported Function
+`Bitmap` | 145 | Exported Function
+`GetReverseEdge` | 98 | Exported Function
+`MultipleTreesDynamicProgrammingMaxflowHorz` | 116 | Exported Function
+`PARENT_ORPHAN` | 120 | Exported Function
+`PARENT_FREE` | 118 | Exported Function
+`DynamicProgrammingMaxflowVert` | 83 | Exported Function
+`Node` | 38 | Exported Function
+`Edge` | 45 | Exported Function
+`DynamicProgrammingMaxflowHorz` | 82 | Exported Function
+`Node` | 46 | Exported Function
+`VirtualGraph2` | 62 | Exported Function
+`NodeQueue` | 5 | Exported Function
+`GeneralGraph` | 2 | Exported Function
+`NodeStack` | 7 | Exported Function
+`NodeQueue` | 13 | Exported Function
+`Square` | 142 | Exported Function
+`Square` | 113 | Exported Function
+`Square` | 112 | Exported Function
+`Square` | 115 | Exported Function
+`Square` | 114 | Exported Function
+`GridGraph8` | 4 | Exported Function
+`Grabber` | 11 | Exported Function
+`NodeQueue` | 14 | Exported Function
+`NodeQueue` | 6 | Exported Function
+`Grabber` | 3 | Exported Function
+`GeneralGraph` | 10 | Exported Function
+`NodeStack` | 15 | Exported Function
+`ColorStatistics` | 9 | Exported Function
+`ColorStatistics` | 1 | Exported Function
+`Grow` | 105 | Exported Function
+`Square` | 131 | Exported Function
+`ActiveQueueGetTop` | 26 | Exported Function
+`ActiveQueueGetTop` | 25 | Exported Function
+`Square` | 130 | Exported Function
+`VirtualGraph2` | 65 | Exported Function
+`VirtualGraph2` | 64 | Exported Function
+`Square` | 129 | Exported Function
+`Square` | 128 | Exported Function
+`ActiveQueueRemoveTop` | 28 | Exported Function
+`Node` | 24 | Exported Function
+`Node` | 54 | Exported Function
+`ActiveQueueReset` | 30 | Exported Function
+`ActiveQueueReset` | 29 | Exported Function
+`Node` | 96 | Exported Function
+`Node` | 91 | Exported Function
+`ActiveQueueRemoveTop` | 27 | Exported Function
+`Node` | 23 | Exported Function
 
 
 ## Signature

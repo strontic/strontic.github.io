@@ -26,26 +26,26 @@ PE256 | `ED258A10B9AB6FAA63827B4B4FBC6DCFF8312964080D455F9EC94C7A6DC4446A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`long __stdcall Osf::SavePersistedTaskpanesForDoc(struct IOfficeSolutionFrameworkHost *,unsigned long,struct Mso::OpenXml::IPackage *,struct IMetroProgress *,bool)` | 18 | Exported Function
-`long __stdcall Osf::TransitionTaskpanesStorage(unsigned long,unsigned long,bool)` | 19 | Exported Function
-`long __stdcall Osf::OsfUIInitialize(void)` | 16 | Exported Function
-`long __stdcall Osf::OSFCreateOsfE2oFromRibbon(class Ofc::TWeakPtr<class Art::UserInterface>,struct IOfficeSolutionFramework *,struct IOfficeSolutionFrameworkHost *,struct IWebAddInReferenceInstance *,int,int)` | 13 | Exported Function
-`long __stdcall Osf::OsfE2oPartialLoadUIRefresh(struct IOsfControlContainer *)` | 15 | Exported Function
-`void __stdcall Osf::OSFCreateOsfE2o(struct IOfficeSolutionFramework *,struct IOfficeSolutionFrameworkHost *,class Ofc::TReferringPtr<class Art::DocumentContext> const &,class Ofc::TOwningPtr<class Art::IE2o> &)` | 12 | Exported Function
-`void __stdcall Osf::OsfUIUninitialize(void)` | 17 | Exported Function
-`void __stdcall Osf::ClearTaskpaneStorageAll(void)` | 2 | Exported Function
-`protected: virtual struct Ofc::CObject::CRuntimeClass const & __thiscall Osf::OsfE2oControlContainerInfo::OnGetRuntimeClass(void)const ` | 14 | Exported Function
-`unsigned long __stdcall Osf::GetDocumentTaskpaneCount(unsigned long)` | 6 | Exported Function
-`long __stdcall Osf::ClearTaskpaneStorage(unsigned long,struct IOsfExtensionPersistence const *)` | 1 | Exported Function
-`long __stdcall Osf::CloneOsfTaskpanesStorage(unsigned long,unsigned long,struct IOsfTaskpaneCollectionPersistence * *)` | 4 | Exported Function
-`long __stdcall Osf::ClearTaskpanesStorageForDoc(unsigned long)` | 3 | Exported Function
+`IPackage` | 18 | Exported Function
+`TransitionTaskpanesStorage` | 19 | Exported Function
+`OsfUIInitialize` | 16 | Exported Function
+`UserInterface` | 13 | Exported Function
+`OsfE2oPartialLoadUIRefresh` | 15 | Exported Function
+`IE2o` | 12 | Exported Function
+`OsfUIUninitialize` | 17 | Exported Function
+`ClearTaskpaneStorageAll` | 2 | Exported Function
+`OnGetRuntimeClass` | 14 | Exported Function
+`GetDocumentTaskpaneCount` | 6 | Exported Function
+`ClearTaskpaneStorage` | 1 | Exported Function
+`CloneOsfTaskpanesStorage` | 4 | Exported Function
+`ClearTaskpanesStorageForDoc` | 3 | Exported Function
 `_OSFRunAtExitChain@0` | 20 | Exported Function
-`bool __stdcall Osf::IsOsfAgaveCommandsEnabled(struct IOfficeSolutionFrameworkHost *)` | 9 | Exported Function
-`long __stdcall Osf::LoadTaskpanesForDoc(struct IOfficeSolutionFrameworkHost *,unsigned long,struct Mso::OpenXml::IPackage *,struct IMetroProgress *)` | 10 | Exported Function
-`long __stdcall Osf::OSFCreateInContentAddIn(struct IOfficeSolutionFrameworkHost *,struct IWebAddInReferenceInstance *,int,int)` | 11 | Exported Function
-`long __stdcall Osf::GetOsfTaskpanesStorageForDoc(unsigned long,struct IOsfTaskpaneCollectionPersistence * *,bool)` | 8 | Exported Function
-`long __stdcall Osf::CreateTaskpanePersistenceFromIPart(struct Mso::OpenXml::IPart *,struct IMetroProgress *,struct IOsfTaskpanePersistence * *)` | 5 | Exported Function
-`long __stdcall Osf::GetDocumentTaskpaneReferences(unsigned long,class Mso::TCntPtr<struct IOsfSolutionReference> *,unsigned long)` | 7 | Exported Function
+`IsOsfAgaveCommandsEnabled` | 9 | Exported Function
+`IPackage` | 10 | Exported Function
+`OSFCreateInContentAddIn` | 11 | Exported Function
+`GetOsfTaskpanesStorageForDoc` | 8 | Exported Function
+`IPart` | 5 | Exported Function
+`TCntPtr` | 7 | Exported Function
 
 
 ## Signature
