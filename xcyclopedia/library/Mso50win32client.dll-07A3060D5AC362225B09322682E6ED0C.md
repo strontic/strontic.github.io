@@ -46,7 +46,7 @@ Function Name | Ordinal | Type
 `Ordinal6` | 6 | Exported Function
 `Ordinal59` | 59 | Exported Function
 `Ordinal7` | 7 | Exported Function
-`Program` | 63 | Exported Function
+`ProgramOptIn::Program` | 63 | Exported Function
 `Ordinal9` | 9 | Exported Function
 `Ordinal8` | 8 | Exported Function
 `Ordinal58` | 58 | Exported Function
@@ -66,9 +66,9 @@ Function Name | Ordinal | Type
 `Ordinal19` | 19 | Exported Function
 `Ordinal18` | 18 | Exported Function
 `Ordinal13` | 13 | Exported Function
-`IOfficeIdentity` | 27 | Exported Function
-`IOfficeIdentity` | 61 | Exported Function
-`Program` | 62 | Exported Function
+`Authentication::IOfficeIdentity` | 27 | Exported Function
+`Authentication::IOfficeIdentity` | 61 | Exported Function
+`ProgramOptIn::Program` | 62 | Exported Function
 `Ordinal1` | 1 | Exported Function
 `Ordinal12` | 12 | Exported Function
 `Ordinal11` | 11 | Exported Function

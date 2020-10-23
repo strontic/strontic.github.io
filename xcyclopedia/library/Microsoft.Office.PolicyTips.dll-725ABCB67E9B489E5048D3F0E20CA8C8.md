@@ -26,7 +26,7 @@ PE256 | `362ABD76DE60255BF87D6F9C8A8A79A833D2A035BCFE3C67F244560227F18DBF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`allocator` | 1 | Exported Function
+`std::allocator` | 1 | Exported Function
 `_IPolicyTipsManagerInitialize@0` | 3 | Exported Function
 `_IPolicyTipsManagerInit@4` | 2 | Exported Function
 

@@ -67,6 +67,10 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe](dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.md) | 41
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.md) | 36
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe](dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.md) | 41
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.md) | 36
 [C:\Windows\system32\msvcr100_clr0400.dll](msvcr100_clr0400.dll-F08548EEB911DFA5B0D22C5CFCBABA06.md) | 40
 [C:\Windows\SysWOW64\aspnet_counters.dll](aspnet_counters.dll-019EBFB8FD2047DBE6FD79415ECC25A7.md) | 43
 [C:\Windows\SysWOW64\msvcr100_clr0400.dll](msvcr100_clr0400.dll-39DB58D4965874979F0D45FBB96CA675.md) | 40

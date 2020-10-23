@@ -26,66 +26,66 @@ PE256 | `ACC518F2876397C3149DF88A1A252BC17A9C2D83618EEFE1B9F65AF3551134F6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Skip` | 91 | Exported Function
-`Reset` | 84 | Exported Function
-`Next` | 69 | Exported Function
-`Cancel` | 39 | Exported Function
-`operator` | 26 | Exported Function
-`GetEntryPointer` | 51 | Exported Function
-`QueryStatus` | 76 | Exported Function
-`Initialize` | 57 | Exported Function
-`GetWindowHandle` | 54 | Exported Function
-`Uninitialize` | 92 | Exported Function
-`Register` | 77 | Exported Function
-`Clone` | 41 | Exported Function
+`CPrvEnumObject::Skip` | 91 | Exported Function
+`CPrvEnumObject::Reset` | 84 | Exported Function
+`CPrvEnumObject::Next` | 69 | Exported Function
+`CVdsAsyncObjectBase::Cancel` | 39 | Exported Function
+`public: void * __ptr64 __cdecl CVdsHandleImpl<-1>::operator=(void * __ptr64) __ptr64` | 26 | Exported Function
+`CRtlListIter::GetEntryPointer` | 51 | Exported Function
+`CVdsAsyncObjectBase::QueryStatus` | 76 | Exported Function
+`CVdsPnPNotificationBase::Initialize` | 57 | Exported Function
+`CVdsPnPNotificationBase::GetWindowHandle` | 54 | Exported Function
+`CVdsAsyncObjectBase::Uninitialize` | 92 | Exported Function
+`CVdsPnPNotificationBase::Register` | 77 | Exported Function
+`CPrvEnumObject::Clone` | 41 | Exported Function
 `public: virtual __cdecl CRtlMap::~CRtlMap(void) __ptr64` | 18 | Exported Function
-`RegisterHandle` | 78 | Exported Function
-`Clear` | 40 | Exported Function
-`SetOutput` | 87 | Exported Function
-`SetCompletionStatus` | 86 | Exported Function
-`DisallowCancel` | 45 | Exported Function
-`SetOutputType` | 88 | Exported Function
-`Uninitialize` | 93 | Exported Function
-`ZeroAsyncOut` | 99 | Exported Function
-`Signal` | 90 | Exported Function
-`Remove` | 80 | Exported Function
+`CVdsPnPNotificationBase::RegisterHandle` | 78 | Exported Function
+`CPrvEnumObject::Clear` | 40 | Exported Function
+`CVdsAsyncObjectBase::SetOutput` | 87 | Exported Function
+`CVdsAsyncObjectBase::SetCompletionStatus` | 86 | Exported Function
+`CVdsAsyncObjectBase::DisallowCancel` | 45 | Exported Function
+`CVdsAsyncObjectBase::SetOutputType` | 88 | Exported Function
+`CVdsPnPNotificationBase::Uninitialize` | 93 | Exported Function
+`CVdsAsyncObjectBase::ZeroAsyncOut` | 99 | Exported Function
+`CVdsAsyncObjectBase::Signal` | 90 | Exported Function
+`CRtlList::Remove` | 80 | Exported Function
 `public: void __cdecl CRtlList::``default constructor closure'(void) __ptr64` | 30 | Exported Function
-`SetPositionToLast` | 89 | Exported Function
-`RemoveAll` | 82 | Exported Function
-`AllowCancel` | 34 | Exported Function
-`RemoveAll` | 83 | Exported Function
+`CPrvEnumObject::SetPositionToLast` | 89 | Exported Function
+`CRtlList::RemoveAll` | 82 | Exported Function
+`CVdsAsyncObjectBase::AllowCancel` | 34 | Exported Function
+`CRtlMap::RemoveAll` | 83 | Exported Function
 `public: void __cdecl CRtlMap::``default constructor closure'(void) __ptr64` | 31 | Exported Function
-`Initialize` | 56 | Exported Function
-`InsertTail` | 63 | Exported Function
-`InsertPointer` | 62 | Exported Function
-`InsertHeadPointer` | 61 | Exported Function
-`InsertTailPointer` | 64 | Exported Function
-`FindPtr` | 49 | Exported Function
-`Find` | 48 | Exported Function
-`IsDone` | 67 | Exported Function
-`Next` | 71 | Exported Function
-`End` | 47 | Exported Function
-`Begin` | 37 | Exported Function
-`Begin` | 38 | Exported Function
-`InsertHead` | 60 | Exported Function
-`Insert` | 58 | Exported Function
-`GetOutputType` | 53 | Exported Function
-`Insert` | 59 | Exported Function
-`WaitImpl` | 97 | Exported Function
-`Append` | 35 | Exported Function
-`Initialize` | 55 | Exported Function
-`Attach` | 36 | Exported Function
-`Reset` | 85 | Exported Function
-`Next` | 72 | Exported Function
-`Detach` | 44 | Exported Function
-`CurrentThreadIsWriter` | 43 | Exported Function
-`Remove` | 81 | Exported Function
-`InsertUnique` | 65 | Exported Function
-`IsCancelRequested` | 66 | Exported Function
-`m_NoDebuggerLogging` | 101 | Exported Function
-`m_ExtraLogging` | 100 | Exported Function
-`IsFinished` | 68 | Exported Function
-`Unregister` | 94 | Exported Function
+`CVdsAsyncObjectBase::Initialize` | 56 | Exported Function
+`CRtlList::InsertTail` | 63 | Exported Function
+`CRtlList::InsertPointer` | 62 | Exported Function
+`CRtlList::InsertHeadPointer` | 61 | Exported Function
+`CRtlList::InsertTailPointer` | 64 | Exported Function
+`CRtlMap::FindPtr` | 49 | Exported Function
+`CRtlMap::Find` | 48 | Exported Function
+`CRtlListIter::IsDone` | 67 | Exported Function
+`CRtlMapIter::Next` | 71 | Exported Function
+`CRtlList::End` | 47 | Exported Function
+`CRtlList::Begin` | 37 | Exported Function
+`CRtlMap::Begin` | 38 | Exported Function
+`CRtlList::InsertHead` | 60 | Exported Function
+`CRtlList::Insert` | 58 | Exported Function
+`CVdsAsyncObjectBase::GetOutputType` | 53 | Exported Function
+`CRtlMap::Insert` | 59 | Exported Function
+`CVdsAsyncObjectBase::WaitImpl` | 97 | Exported Function
+`CPrvEnumObject::Append` | 35 | Exported Function
+`CGlobalResource::Initialize` | 55 | Exported Function
+`CVdsWmiVariantObjectArrayEnum::Attach` | 36 | Exported Function
+`CVdsWmiVariantObjectArrayEnum::Reset` | 85 | Exported Function
+`CVdsWmiVariantObjectArrayEnum::Next` | 72 | Exported Function
+`CVdsWmiVariantObjectArrayEnum::Detach` | 44 | Exported Function
+`CRtlSharedLock::CurrentThreadIsWriter` | 43 | Exported Function
+`CRtlMap::Remove` | 81 | Exported Function
+`CRtlMap::InsertUnique` | 65 | Exported Function
+`CVdsAsyncObjectBase::IsCancelRequested` | 66 | Exported Function
+`CVdsTraceSettings::m_NoDebuggerLogging` | 101 | Exported Function
+`CVdsTraceSettings::m_ExtraLogging` | 100 | Exported Function
+`CVdsAsyncObjectBase::IsFinished` | 68 | Exported Function
+`CVdsPnPNotificationBase::Unregister` | 94 | Exported Function
 `VdsWmiCopyToVariantByteArray` | 219 | Exported Function
 `VdsWmiCopyFromVariantByteArray` | 218 | Exported Function
 `VdsWmiConnectToNamespace` | 217 | Exported Function
@@ -125,7 +125,7 @@ Function Name | Ordinal | Type
 `StopReferenceHistory` | 191 | Exported Function
 `QueryVolPersistentState` | 182 | Exported Function
 `QueryObjects` | 181 | Exported Function
-`UnregisterHandle` | 95 | Exported Function
+`CVdsPnPNotificationBase::UnregisterHandle` | 95 | Exported Function
 `RegisterProvider` | 184 | Exported Function
 `RemoveEventSource` | 186 | Exported Function
 `ReleaseRundownProtection` | 185 | Exported Function
@@ -205,35 +205,35 @@ Function Name | Ordinal | Type
 `GetDeviceLocationPath` | 122 | Exported Function
 `GetDeviceLocationEx` | 121 | Exported Function
 `IsDiskCurrentStateReadOnly` | 161 | Exported Function
-`CVdsCallTracer` | 8 | Exported Function
+`CVdsCallTracer::CVdsCallTracer` | 8 | Exported Function
 `public: __cdecl CVdsAsyncObjectBase::~CVdsAsyncObjectBase(void) __ptr64` | 20 | Exported Function
-`CVdsAsyncObjectBase` | 7 | Exported Function
+`CVdsAsyncObjectBase::CVdsAsyncObjectBase` | 7 | Exported Function
 `public: __cdecl CVdsCallTracer::~CVdsCallTracer(void) __ptr64` | 21 | Exported Function
-`CVdsHandleImpl` | 1 | Exported Function
+`public: __cdecl CVdsHandleImpl<-1>::CVdsHandleImpl<-1>(void) __ptr64` | 1 | Exported Function
 `public: __cdecl CVdsCriticalSection::~CVdsCriticalSection(void) __ptr64` | 22 | Exported Function
-`CVdsCriticalSection` | 9 | Exported Function
-`CRtlList` | 4 | Exported Function
+`CVdsCriticalSection::CVdsCriticalSection` | 9 | Exported Function
+`CRtlList::CRtlList` | 4 | Exported Function
 `public: __cdecl CPrvEnumObject::~CPrvEnumObject(void) __ptr64` | 16 | Exported Function
-`CPrvEnumObject` | 3 | Exported Function
+`CPrvEnumObject::CPrvEnumObject` | 3 | Exported Function
 `public: __cdecl CRtlList::~CRtlList(void) __ptr64` | 17 | Exported Function
 `public: __cdecl CRtlSharedLock::~CRtlSharedLock(void) __ptr64` | 19 | Exported Function
-`CRtlSharedLock` | 6 | Exported Function
-`CRtlMap` | 5 | Exported Function
-`operator` | 29 | Exported Function
-`GetEntry` | 50 | Exported Function
-`operator` | 28 | Exported Function
+`CRtlSharedLock::CRtlSharedLock` | 6 | Exported Function
+`CRtlMap::CRtlMap` | 5 | Exported Function
+`public: __cdecl CVdsHandleImpl<-1>::operator void * __ptr64(void) __ptr64` | 29 | Exported Function
+`CRtlListIter::GetEntry` | 50 | Exported Function
+`public: bool __cdecl CVdsHandleImpl<-1>::operator==(void * __ptr64)const __ptr64` | 28 | Exported Function
 `public: __cdecl CVdsWmiVariantObjectArrayEnum::~CVdsWmiVariantObjectArrayEnum(void) __ptr64` | 25 | Exported Function
-`operator` | 27 | Exported Function
-`Prev` | 75 | Exported Function
-`Next` | 70 | Exported Function
-`GetNode` | 52 | Exported Function
+`CRtlList::operator` | 27 | Exported Function
+`CRtlListIter::Prev` | 75 | Exported Function
+`CRtlListIter::Next` | 70 | Exported Function
+`CRtlListIter::GetNode` | 52 | Exported Function
 `public: __cdecl CVdsPnPNotificationBase::~CVdsPnPNotificationBase(void) __ptr64` | 23 | Exported Function
-`CVdsPnPNotificationBase` | 10 | Exported Function
+`CVdsPnPNotificationBase::CVdsPnPNotificationBase` | 10 | Exported Function
 `public: __cdecl CVdsHandleImpl<-1>::~CVdsHandleImpl<-1>(void) __ptr64` | 14 | Exported Function
-`CVdsTraceSettings` | 11 | Exported Function
-`CVdsWmiVariantObjectArrayEnum` | 13 | Exported Function
+`CVdsTraceSettings::CVdsTraceSettings` | 11 | Exported Function
+`CVdsWmiVariantObjectArrayEnum::CVdsWmiVariantObjectArrayEnum` | 13 | Exported Function
 `public: __cdecl CVdsUnlockIt::~CVdsUnlockIt(void) __ptr64` | 24 | Exported Function
-`CVdsUnlockIt` | 12 | Exported Function
+`CVdsUnlockIt::CVdsUnlockIt` | 12 | Exported Function
 `public: __cdecl CGlobalResource::~CGlobalResource(void) __ptr64` | 15 | Exported Function
 `IsWinPE` | 171 | Exported Function
 `IsVdsLoggingEnabled` | 170 | Exported Function
@@ -250,20 +250,20 @@ Function Name | Ordinal | Type
 `IsNoAutoMount` | 167 | Exported Function
 `IsMediaPresent` | 166 | Exported Function
 `LogInfo` | 176 | Exported Function
-`AcquireWrite` | 33 | Exported Function
-`AcquireRead` | 32 | Exported Function
-`NotificationThread` | 73 | Exported Function
-`Downgrade` | 46 | Exported Function
-`CGlobalResource` | 2 | Exported Function
-`Upgrade` | 96 | Exported Function
-`Release` | 79 | Exported Function
+`CRtlSharedLock::AcquireWrite` | 33 | Exported Function
+`CRtlSharedLock::AcquireRead` | 32 | Exported Function
+`CVdsPnPNotificationBase::NotificationThread` | 73 | Exported Function
+`CRtlSharedLock::Downgrade` | 46 | Exported Function
+`CGlobalResource::CGlobalResource` | 2 | Exported Function
+`CRtlSharedLock::Upgrade` | 96 | Exported Function
+`CRtlSharedLock::Release` | 79 | Exported Function
 `MountVolume` | 179 | Exported Function
 `MirrorBcdObjects` | 178 | Exported Function
 `LogWarning` | 177 | Exported Function
 `OpenDevice` | 180 | Exported Function
-`CreateListenThread` | 42 | Exported Function
-`NotificationThreadEntry` | 74 | Exported Function
-`WindowProcEntry` | 98 | Exported Function
+`CVdsPnPNotificationBase::CreateListenThread` | 42 | Exported Function
+`CVdsPnPNotificationBase::NotificationThreadEntry` | 74 | Exported Function
+`CVdsPnPNotificationBase::WindowProcEntry` | 98 | Exported Function
 
 
 ## Signature

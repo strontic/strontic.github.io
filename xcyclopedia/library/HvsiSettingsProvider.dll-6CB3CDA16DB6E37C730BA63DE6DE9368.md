@@ -31,7 +31,7 @@ Function Name | Ordinal | Type
 `SetDVCCallbackInformation` | 9 | Exported Function
 `VirtualChannelGetInstance` | 11 | Exported Function
 `UnregisterChangeNotifications` | 10 | Exported Function
-`HvsiSettingsProvider` | 1 | Exported Function
+`HvsiSettingsProvider::HvsiSettingsProvider` | 1 | Exported Function
 `CreateSettingsProvider` | 4 | Exported Function
 `ApplySubProviderSettings` | 3 | Exported Function
 `GatherSubProviderSettings` | 5 | Exported Function

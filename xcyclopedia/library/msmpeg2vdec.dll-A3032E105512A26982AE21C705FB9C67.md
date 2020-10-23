@@ -26,10 +26,10 @@ PE256 | `B99A74F970E88ABF3384CB0DFA34A0DBDD8B722E1BFA133C292B0EEFA6B0613E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSurface` | 2 | Exported Function
+`CVIDEOfilter::GetSurface` | 2 | Exported Function
 `GetH264DecoderFunctionTable` | 1 | Exported Function
-`LoadSurface` | 4 | Exported Function
-`GetSurfaceSize` | 3 | Exported Function
+`CVIDEOfilter::LoadSurface` | 4 | Exported Function
+`CVIDEOfilter::GetSurfaceSize` | 3 | Exported Function
 `DllGetClassObject` | 6 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
 `DllUnregisterServer` | 8 | Exported Function

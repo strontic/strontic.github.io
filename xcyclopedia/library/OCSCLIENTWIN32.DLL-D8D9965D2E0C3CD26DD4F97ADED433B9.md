@@ -26,36 +26,36 @@ PE256 | `6F12D0DFB4B9CAF4D7371195D11CF6A89CA945F005B5368DC930E09DE18CE7B0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ReadNext` | 25 | Exported Function
-`ReadNext` | 26 | Exported Function
-`MocsiError` | 4 | Exported Function
-`JsonReader` | 3 | Exported Function
-`WriteRawString` | 30 | Exported Function
-`Report` | 28 | Exported Function
-`char_traits` | 1 | Exported Function
-`AllocBlob` | 5 | Exported Function
-`AllocBlock` | 6 | Exported Function
-`Exception` | 2 | Exported Function
-`MocsiEndpointHealth` | 29 | Exported Function
-`char_traits` | 8 | Exported Function
-`ReadArray` | 24 | Exported Function
-`ReadObject` | 27 | Exported Function
-`StringPtr` | 7 | Exported Function
-`allocator` | 22 | Exported Function
-`allocator` | 23 | Exported Function
-`IMessageListener` | 14 | Exported Function
-`char_traits` | 16 | Exported Function
-`KnownRevisionReferences` | 18 | Exported Function
-`IRevision` | 20 | Exported Function
-`KnownRevisionReferences` | 21 | Exported Function
-`IRequest` | 11 | Exported Function
-`IRevision` | 9 | Exported Function
-`allocator` | 10 | Exported Function
-`char_traits` | 19 | Exported Function
-`EncodeBlob` | 17 | Exported Function
-`IRevisionGraph` | 15 | Exported Function
-`ParsedHostKnownVersionInfo` | 12 | Exported Function
-`IRevisionGraph` | 13 | Exported Function
+`JsonElementReader::ReadNext` | 25 | Exported Function
+`JsonReader::ReadNext` | 26 | Exported Function
+`MocsiSyncEndpoint::MocsiError` | 4 | Exported Function
+`Bondi::JsonReader` | 3 | Exported Function
+`JsonWriter::WriteRawString` | 30 | Exported Function
+`MocsiError::Report` | 28 | Exported Function
+`std::char_traits` | 1 | Exported Function
+`ContextBase::AllocBlob` | 5 | Exported Function
+`ContextBase::AllocBlock` | 6 | Exported Function
+`Bondi::Exception` | 2 | Exported Function
+`MocsiSyncEndpoint::MocsiEndpointHealth` | 29 | Exported Function
+`std::char_traits` | 8 | Exported Function
+`JsonReader::ReadArray` | 24 | Exported Function
+`JsonReader::ReadObject` | 27 | Exported Function
+`Bondi::StringPtr` | 7 | Exported Function
+`std::allocator` | 22 | Exported Function
+`std::allocator` | 23 | Exported Function
+`Bondi::IMessageListener` | 14 | Exported Function
+`std::char_traits` | 16 | Exported Function
+`MocsiSyncEndpoint::KnownRevisionReferences` | 18 | Exported Function
+`DocumentRevisionGraph::IRevision` | 20 | Exported Function
+`MocsiSyncEndpoint::KnownRevisionReferences` | 21 | Exported Function
+`Http::IRequest` | 11 | Exported Function
+`DocumentRevisionGraph::IRevision` | 9 | Exported Function
+`std::allocator` | 10 | Exported Function
+`std::char_traits` | 19 | Exported Function
+`Bondi::EncodeBlob` | 17 | Exported Function
+`DocumentRevisionGraph::IRevisionGraph` | 15 | Exported Function
+`MocsiSyncEndpoint::ParsedHostKnownVersionInfo` | 12 | Exported Function
+`DocumentRevisionGraph::IRevisionGraph` | 13 | Exported Function
 
 
 ## Signature

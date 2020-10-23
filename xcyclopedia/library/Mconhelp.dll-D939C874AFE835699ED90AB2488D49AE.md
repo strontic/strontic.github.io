@@ -26,13 +26,13 @@ PE256 | `0C4E488217F9932470BF308B6504B588CCCEFBCDA77FC96DEC1588E875A338DB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Search` | 44 | Exported Function
-`CStrRangeT` | 57 | Exported Function
-`CStrRangeT` | 58 | Exported Function
-`CChain` | 36 | Exported Function
-`operator` | 13 | Exported Function
+`CSearchDir::Search` | 44 | Exported Function
+`AT::CStrRangeT` | 57 | Exported Function
+`AT::CStrRangeT` | 58 | Exported Function
+`AT::CChain` | 36 | Exported Function
+`CObject::operator` | 13 | Exported Function
 `public: virtual __thiscall session_context::~session_context(void)` | 11 | Exported Function
-`Detach` | 30 | Exported Function
+`CChain::Detach` | 30 | Exported Function
 `unsigned int __cdecl at_rstr_convert(unsigned char *,unsigned int,wchar_t const *,unsigned int)` | 63 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 64 | Exported Function
 `unsigned int __cdecl at_rstr_str(char const *,unsigned int,char const *,unsigned int)` | 65 | Exported Function
@@ -40,36 +40,36 @@ Function Name | Ordinal | Type
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 59 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 60 | Exported Function
 `unsigned int __cdecl at_rstr_chri(char const *,unsigned int,char)` | 61 | Exported Function
-`operator` | 12 | Exported Function
-`CChain` | 14 | Exported Function
-`GetNext` | 33 | Exported Function
-`GetPrev` | 34 | Exported Function
-`session_context` | 8 | Exported Function
-`CSearchDir` | 5 | Exported Function
-`CSearchDir` | 6 | Exported Function
-`session_context` | 7 | Exported Function
-`operator` | 19 | Exported Function
-`IsChain` | 37 | Exported Function
-`IsEmpty` | 38 | Exported Function
-`CSearchDir` | 18 | Exported Function
-`CObject` | 15 | Exported Function
-`CObject` | 16 | Exported Function
-`CSearchDir` | 17 | Exported Function
+`CObject::operator` | 12 | Exported Function
+`AT::CChain` | 14 | Exported Function
+`CChain::GetNext` | 33 | Exported Function
+`CChain::GetPrev` | 34 | Exported Function
+`session_context::session_context` | 8 | Exported Function
+`AT::CSearchDir` | 5 | Exported Function
+`CSearchDir::CSearchDir` | 6 | Exported Function
+`session_context::session_context` | 7 | Exported Function
+`session_context::operator` | 19 | Exported Function
+`CChain::IsChain` | 37 | Exported Function
+`CChain::IsEmpty` | 38 | Exported Function
+`AT::CSearchDir` | 18 | Exported Function
+`AT::CObject` | 15 | Exported Function
+`AT::CObject` | 16 | Exported Function
+`AT::CSearchDir` | 17 | Exported Function
 `void __cdecl helper_xbase64_init_decode_table(void)` | 79 | Exported Function
-`JMHttpMethod` | 80 | Exported Function
-`JMProxy` | 43 | Exported Function
-`CStringT` | 32 | Exported Function
-`allocator` | 26 | Exported Function
+`JM_SDK::JMHttpMethod` | 80 | Exported Function
+`JM_SDK::JMProxy` | 43 | Exported Function
+`AT::CStringT` | 32 | Exported Function
+`std::allocator` | 26 | Exported Function
 `void __cdecl cancel_all_http_request(void)` | 76 | Exported Function
 `void __cdecl ConverTimeToSysTime(__int64,struct _SYSTEMTIME *)` | 27 | Exported Function
-`CStringT` | 47 | Exported Function
+`AT::CStringT` | 47 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 73 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 75 | Exported Function
-`CStringT` | 46 | Exported Function
-`allocator` | 82 | Exported Function
-`INetworkTransport` | 81 | Exported Function
-`CStringT` | 45 | Exported Function
-`allocator` | 25 | Exported Function
+`AT::CStringT` | 46 | Exported Function
+`std::allocator` | 82 | Exported Function
+`JM_SDK::INetworkTransport` | 81 | Exported Function
+`AT::CStringT` | 45 | Exported Function
+`std::allocator` | 25 | Exported Function
 `unsigned int __cdecl at_str_convert(int,char *,unsigned int,wchar_t const *,unsigned int)` | 70 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 71 | Exported Function
 `unsigned long __cdecl get_tickcount(void)` | 78 | Exported Function
@@ -77,13 +77,13 @@ Function Name | Ordinal | Type
 `unsigned int __cdecl at_rstr_str(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 66 | Exported Function
 `unsigned int __cdecl at_rstr_stri(char const *,unsigned int,char const *,unsigned int)` | 67 | Exported Function
 `unsigned int __cdecl at_rstr_stri(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 68 | Exported Function
-`CStringT` | 51 | Exported Function
-`CStringT` | 52 | Exported Function
+`AT::CStringT` | 51 | Exported Function
+`AT::CStringT` | 52 | Exported Function
 `void __cdecl at_mem_free(void *)` | 55 | Exported Function
-`CStringT` | 50 | Exported Function
+`AT::CStringT` | 50 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 54 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 56 | Exported Function
-`CStringT` | 49 | Exported Function
+`AT::CStringT` | 49 | Exported Function
 `at_wstr_chri` | 106 | Exported Function
 `at_wstr_lwr` | 107 | Exported Function
 `at_wstr_match` | 108 | Exported Function
@@ -114,34 +114,34 @@ Function Name | Ordinal | Type
 `at_astr_stri` | 95 | Exported Function
 `at_astr_upr` | 96 | Exported Function
 `int __cdecl xbase64_encode(char *,int,char *,int)` | 87 | Exported Function
-`_Search` | 48 | Exported Function
-`Create` | 28 | Exported Function
+`CSearchDir::_Search` | 48 | Exported Function
+`CHexString::Create` | 28 | Exported Function
 `int __cdecl xbase64_decode(char *,int,char *,int)` | 86 | Exported Function
 `int __cdecl DecodeBase64(char const *,unsigned char *,unsigned int &)` | 29 | Exported Function
-`CStringT` | 35 | Exported Function
+`AT::CStringT` | 35 | Exported Function
 `int __cdecl xbase64_calc_encode_buf_size(char *,int)` | 85 | Exported Function
-`operator` | 20 | Exported Function
-`CHexString` | 10 | Exported Function
-`CSearchDir` | 4 | Exported Function
-`CHexString` | 2 | Exported Function
-`CChain` | 1 | Exported Function
-`CChain` | 9 | Exported Function
-`CHexString` | 3 | Exported Function
-`allocator` | 53 | Exported Function
-`CStringT` | 39 | Exported Function
+`CHexString::operator` | 20 | Exported Function
+`AT::CHexString` | 10 | Exported Function
+`AT::CSearchDir` | 4 | Exported Function
+`CHexString::CHexString` | 2 | Exported Function
+`CChain::CChain` | 1 | Exported Function
+`AT::CChain` | 9 | Exported Function
+`CHexString::CHexString` | 3 | Exported Function
+`std::allocator` | 53 | Exported Function
+`AT::CStringT` | 39 | Exported Function
 `bool __cdecl useJCFNetUtil(void)` | 84 | Exported Function
 `char * __cdecl at_str_tod(char const *,char const *,double &)` | 72 | Exported Function
 `bool __cdecl cancel_http_request(class session_context *)` | 77 | Exported Function
 `ata_urlenc` | 116 | Exported Function
-`allocator` | 23 | Exported Function
-`allocator` | 24 | Exported Function
-`CStringT` | 42 | Exported Function
-`CSearchDir` | 21 | Exported Function
+`std::allocator` | 23 | Exported Function
+`std::allocator` | 24 | Exported Function
+`AT::CStringT` | 42 | Exported Function
+`AT::CSearchDir` | 21 | Exported Function
 `const session_context::``vftable'` | 22 | Exported Function
-`CStringT` | 41 | Exported Function
+`AT::CStringT` | 41 | Exported Function
 `char * __cdecl at_str_tol(char const *,char const *,long &,int)` | 74 | Exported Function
-`CStringT` | 31 | Exported Function
-`CStringT` | 40 | Exported Function
+`AT::CStringT` | 31 | Exported Function
+`AT::CStringT` | 40 | Exported Function
 
 
 ## Signature

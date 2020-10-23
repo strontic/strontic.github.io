@@ -399,23 +399,23 @@ Function Name | Ordinal | Type
 `public: virtual __cdecl bad_typeid::~bad_typeid(void) __ptr64` | 17 | Exported Function
 `public: virtual __cdecl exception::~exception(void) __ptr64` | 18 | Exported Function
 `public: virtual __cdecl bad_cast::~bad_cast(void) __ptr64` | 16 | Exported Function
-`operator` | 27 | Exported Function
+`type_info::operator` | 27 | Exported Function
 `public: virtual __cdecl __non_rtti_object::~__non_rtti_object(void) __ptr64` | 15 | Exported Function
 `public: void __cdecl bad_typeid::``default constructor closure'(void) __ptr64` | 34 | Exported Function
 `putc` | 1185 | Exported Function
 `public: void __cdecl bad_cast::``default constructor closure'(void) __ptr64` | 33 | Exported Function
 `public: virtual __cdecl type_info::~type_info(void) __ptr64` | 19 | Exported Function
-`what` | 62 | Exported Function
-`raw_name` | 56 | Exported Function
-`operator` | 23 | Exported Function
-`name` | 55 | Exported Function
-`exception` | 14 | Exported Function
-`bad_cast` | 5 | Exported Function
-`before` | 54 | Exported Function
-`operator` | 28 | Exported Function
-`operator` | 26 | Exported Function
-`operator` | 24 | Exported Function
-`operator` | 25 | Exported Function
+`exception::what` | 62 | Exported Function
+`type_info::raw_name` | 56 | Exported Function
+`__non_rtti_object::operator` | 23 | Exported Function
+`type_info::name` | 55 | Exported Function
+`exception::exception` | 14 | Exported Function
+`bad_cast::bad_cast` | 5 | Exported Function
+`type_info::before` | 54 | Exported Function
+`type_info::operator` | 28 | Exported Function
+`exception::operator` | 26 | Exported Function
+`bad_cast::operator` | 24 | Exported Function
+`bad_typeid::operator` | 25 | Exported Function
 `putchar` | 1186 | Exported Function
 `scanf_s` | 1200 | Exported Function
 `setbuf` | 1201 | Exported Function
@@ -519,7 +519,7 @@ Function Name | Ordinal | Type
 `void * __ptr64 __cdecl operator new[](unsigned __int64)` | 35 | Exported Function
 `void * __ptr64 __cdecl operator new(unsigned __int64)` | 20 | Exported Function
 `void * __ptr64 __cdecl operator new(unsigned __int64,int,char const * __ptr64,int)` | 21 | Exported Function
-`exception` | 13 | Exported Function
+`exception::exception` | 13 | Exported Function
 `floorf` | 1090 | Exported Function
 `fmod` | 1091 | Exported Function
 `floor` | 1089 | Exported Function
@@ -623,23 +623,23 @@ Function Name | Ordinal | Type
 `malloc` | 1160 | Exported Function
 `mblen` | 1161 | Exported Function
 `memmove_s` | 1175 | Exported Function
-`bad_cast` | 6 | Exported Function
-`bad_cast` | 8 | Exported Function
-`__non_rtti_object` | 1 | Exported Function
-`bad_cast` | 3 | Exported Function
-`__non_rtti_object` | 2 | Exported Function
-`exception` | 11 | Exported Function
-`exception` | 12 | Exported Function
-`bad_typeid` | 9 | Exported Function
-`bad_cast` | 7 | Exported Function
-`bad_typeid` | 10 | Exported Function
+`bad_cast::bad_cast` | 6 | Exported Function
+`bad_cast::bad_cast` | 8 | Exported Function
+`__non_rtti_object::__non_rtti_object` | 1 | Exported Function
+`bad_cast::bad_cast` | 3 | Exported Function
+`__non_rtti_object::__non_rtti_object` | 2 | Exported Function
+`exception::exception` | 11 | Exported Function
+`exception::exception` | 12 | Exported Function
+`bad_typeid::bad_typeid` | 9 | Exported Function
+`bad_cast::bad_cast` | 7 | Exported Function
+`bad_typeid::bad_typeid` | 10 | Exported Function
 `modff` | 1179 | Exported Function
 `perror` | 1180 | Exported Function
 `modf` | 1178 | Exported Function
 `memset` | 1176 | Exported Function
 `mktime` | 1177 | Exported Function
 `printf_s` | 1184 | Exported Function
-`bad_cast` | 4 | Exported Function
+`bad_cast::bad_cast` | 4 | Exported Function
 `printf` | 1183 | Exported Function
 `pow` | 1181 | Exported Function
 `powf` | 1182 | Exported Function

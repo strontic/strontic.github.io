@@ -26,7 +26,7 @@ PE256 | `A9A14D3196DD3599EC5E4B794EBA809647BB8039312A12EA5DB2363D4E3B9A33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IAgentActivationRuntimePalComponentFactory` | 1 | Exported Function
+`VoiceAgentServices::IAgentActivationRuntimePalComponentFactory GetAgentActivationRuntimePalComponentFactory` | 1 | Exported Function
 
 
 ## Signature

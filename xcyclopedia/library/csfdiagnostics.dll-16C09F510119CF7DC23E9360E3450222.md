@@ -25,10 +25,10 @@ PE256 | `EB8484D89600EA17A6E7564E7C688AF274FFEB85673A64C418C6B25173CF43C6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Initialise` | 3 | Exported Function
-`Reset` | 4 | Exported Function
-`DiagnosticsType` | 2 | Exported Function
-`allocator` | 1 | Exported Function
+`DiagnosticsWrapper::Initialise` | 3 | Exported Function
+`DiagnosticsWrapper::Reset` | 4 | Exported Function
+`CSFDiagnostics::DiagnosticsType` | 2 | Exported Function
+`std::allocator` | 1 | Exported Function
 
 
 ## Signature

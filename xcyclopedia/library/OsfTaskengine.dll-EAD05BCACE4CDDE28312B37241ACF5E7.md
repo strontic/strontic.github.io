@@ -26,7 +26,7 @@ PE256 | `E2E5C7383AE08CE6F7743CCB00586F9E941A5AC26EAD8EC096C49FC7DAD58CD9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ITaskEngineHost` | 1 | Exported Function
+`OsfInstaller::ITaskEngineHost` | 1 | Exported Function
 
 
 ## Signature

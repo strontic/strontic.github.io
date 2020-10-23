@@ -50,6 +50,10 @@ PE256 | `2A2145CBAF68216AA9DC8BD4CC03F8FA444BABC6B423C05A310C597AF557AB6D`
 
 File | Score
 -- | --
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe](dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.md) | 50
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.md) | 40
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe](dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.md) | 50
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.md) | 40
 [C:\Windows\system32\aspnet_counters.dll](aspnet_counters.dll-E5D9781623B04FB02D65C63B64B78CAA.md) | 40
 [C:\Windows\SysWOW64\aspnet_counters.dll](aspnet_counters.dll-019EBFB8FD2047DBE6FD79415ECC25A7.md) | 41
 [C:\Windows\SysWOW64\msvcr100_clr0400.dll](msvcr100_clr0400.dll-39DB58D4965874979F0D45FBB96CA675.md) | 60

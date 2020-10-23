@@ -25,34 +25,34 @@ PE256 | `16E909C6DF96094BABE44533CCC5822C796DFA54F1224EE15E895DCC6A6A1E46`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CStringT` | 10 | Exported Function
-`allocator` | 9 | Exported Function
-`CStringT` | 12 | Exported Function
-`allocator` | 7 | Exported Function
-`OnStartNodeListEvent` | 24 | Exported Function
-`CXMLHandler` | 6 | Exported Function
-`CStringT` | 8 | Exported Function
-`allocator` | 15 | Exported Function
-`Create` | 17 | Exported Function
-`ParseXmlInResource` | 27 | Exported Function
-`CStringT` | 16 | Exported Function
-`allocator` | 11 | Exported Function
-`CStringT` | 14 | Exported Function
-`allocator` | 13 | Exported Function
-`CStringT` | 25 | Exported Function
-`CStringT` | 26 | Exported Function
-`ParseXmlUtf8` | 28 | Exported Function
-`CXMLHandler` | 4 | Exported Function
-`CXMLHandler` | 5 | Exported Function
-`CXMLHandler` | 1 | Exported Function
-`CXMLHandler` | 2 | Exported Function
-`OnEndParse` | 21 | Exported Function
-`OnStartAttributeEvent` | 22 | Exported Function
-`OnStartNodeEvent` | 23 | Exported Function
-`OnEndNodeListEvent` | 20 | Exported Function
-`CXMLHandler` | 3 | Exported Function
-`OnEndAttributeEvent` | 18 | Exported Function
-`OnEndNodeEvent` | 19 | Exported Function
+`AT::CStringT` | 10 | Exported Function
+`std::allocator` | 9 | Exported Function
+`AT::CStringT` | 12 | Exported Function
+`std::allocator` | 7 | Exported Function
+`CXMLHandler::OnStartNodeListEvent` | 24 | Exported Function
+`LIBXML_EX::CXMLHandler` | 6 | Exported Function
+`AT::CStringT` | 8 | Exported Function
+`std::allocator` | 15 | Exported Function
+`CXMLHandler::Create` | 17 | Exported Function
+`CXMLHandler::ParseXmlInResource` | 27 | Exported Function
+`AT::CStringT` | 16 | Exported Function
+`std::allocator` | 11 | Exported Function
+`AT::CStringT` | 14 | Exported Function
+`std::allocator` | 13 | Exported Function
+`AT::CStringT` | 25 | Exported Function
+`AT::CStringT` | 26 | Exported Function
+`CXMLHandler::ParseXmlUtf8` | 28 | Exported Function
+`LIBXML_EX::CXMLHandler` | 4 | Exported Function
+`LIBXML_EX::CXMLHandler` | 5 | Exported Function
+`LIBXML_EX::CXMLHandler` | 1 | Exported Function
+`CXMLHandler::CXMLHandler` | 2 | Exported Function
+`CXMLHandler::OnEndParse` | 21 | Exported Function
+`CXMLHandler::OnStartAttributeEvent` | 22 | Exported Function
+`CXMLHandler::OnStartNodeEvent` | 23 | Exported Function
+`CXMLHandler::OnEndNodeListEvent` | 20 | Exported Function
+`LIBXML_EX::CXMLHandler` | 3 | Exported Function
+`CXMLHandler::OnEndAttributeEvent` | 18 | Exported Function
+`CXMLHandler::OnEndNodeEvent` | 19 | Exported Function
 
 
 ## Signature

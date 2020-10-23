@@ -26,62 +26,62 @@ PE256 | `16EB30038A3E44E30FB01FA2EFA66E745A4D93C29954852A9165938368D95A18`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`QueryFileStartingCluster` | 37 | Exported Function
-`QueryNthCluster` | 44 | Exported Function
-`QueryLengthOfChain` | 41 | Exported Function
-`QueryFreeSectors` | 38 | Exported Function
+`FAT_SA::QueryFileStartingCluster` | 37 | Exported Function
+`FAT::QueryNthCluster` | 44 | Exported Function
+`FAT::QueryLengthOfChain` | 41 | Exported Function
+`REAL_FAT_SA::QueryFreeSectors` | 38 | Exported Function
 `public: virtual __cdecl EA_HEADER::~EA_HEADER(void) __ptr64` | 10 | Exported Function
 `public: virtual __cdecl CLUSTER_CHAIN::~CLUSTER_CHAIN(void) __ptr64` | 9 | Exported Function
-`QueryEaSetClusterNumber` | 36 | Exported Function
-`Initialize` | 27 | Exported Function
-`QueryLongName` | 42 | Exported Function
-`QueryCensusAndRelocate` | 34 | Exported Function
-`InitFATChkDirty` | 21 | Exported Function
-`QueryAllocatedClusters` | 33 | Exported Function
-`AllocChain` | 17 | Exported Function
-`Initialize` | 29 | Exported Function
-`Initialize` | 28 | Exported Function
-`Read` | 46 | Exported Function
-`Write` | 50 | Exported Function
-`Read` | 47 | Exported Function
+`EA_HEADER::QueryEaSetClusterNumber` | 36 | Exported Function
+`FILEDIR::Initialize` | 27 | Exported Function
+`FATDIR::QueryLongName` | 42 | Exported Function
+`FAT_SA::QueryCensusAndRelocate` | 34 | Exported Function
+`REAL_FAT_SA::InitFATChkDirty` | 21 | Exported Function
+`FAT::QueryAllocatedClusters` | 33 | Exported Function
+`FAT::AllocChain` | 17 | Exported Function
+`ROOTDIR::Initialize` | 29 | Exported Function
+`REAL_FAT_SA::Initialize` | 28 | Exported Function
+`EA_SET::Read` | 46 | Exported Function
+`CLUSTER_CHAIN::Write` | 50 | Exported Function
+`REAL_FAT_SA::Read` | 47 | Exported Function
 `Recover` | 56 | Exported Function
-`FreeChain` | 18 | Exported Function
-`SearchForDirEntry` | 48 | Exported Function
+`FAT::FreeChain` | 18 | Exported Function
+`FATDIR::SearchForDirEntry` | 48 | Exported Function
 `public: virtual __cdecl FAT_SA::~FAT_SA(void) __ptr64` | 13 | Exported Function
 `public: virtual __cdecl FAT_DIRENT::~FAT_DIRENT(void) __ptr64` | 12 | Exported Function
 `public: virtual __cdecl EA_SET::~EA_SET(void) __ptr64` | 11 | Exported Function
 `public: virtual __cdecl FILEDIR::~FILEDIR(void) __ptr64` | 14 | Exported Function
-`Read` | 45 | Exported Function
+`CLUSTER_CHAIN::Read` | 45 | Exported Function
 `public: virtual __cdecl ROOTDIR::~ROOTDIR(void) __ptr64` | 16 | Exported Function
 `public: virtual __cdecl REAL_FAT_SA::~REAL_FAT_SA(void) __ptr64` | 15 | Exported Function
-`EA_SET` | 3 | Exported Function
-`EA_HEADER` | 2 | Exported Function
-`CLUSTER_CHAIN` | 1 | Exported Function
-`FAT_DIRENT` | 4 | Exported Function
-`REAL_FAT_SA` | 7 | Exported Function
-`FILEDIR` | 6 | Exported Function
-`FAT_SA` | 5 | Exported Function
+`EA_SET::EA_SET` | 3 | Exported Function
+`EA_HEADER::EA_HEADER` | 2 | Exported Function
+`CLUSTER_CHAIN::CLUSTER_CHAIN` | 1 | Exported Function
+`FAT_DIRENT::FAT_DIRENT` | 4 | Exported Function
+`REAL_FAT_SA::REAL_FAT_SA` | 7 | Exported Function
+`FILEDIR::FILEDIR` | 6 | Exported Function
+`FAT_SA::FAT_SA` | 5 | Exported Function
 `Format` | 53 | Exported Function
 `ChkdskEx` | 52 | Exported Function
 `Chkdsk` | 51 | Exported Function
 `FormatEx` | 54 | Exported Function
-`Set12` | 49 | Exported Function
-`Index12` | 20 | Exported Function
+`FAT::Set12` | 49 | Exported Function
+`FAT::Index12` | 20 | Exported Function
 `GetFilesystemInformation` | 55 | Exported Function
-`IsValidLastWriteTime` | 32 | Exported Function
-`IsValidLastAccessTime` | 31 | Exported Function
-`IsValidCreationTime` | 30 | Exported Function
-`QueryCreationTime` | 35 | Exported Function
-`QueryName` | 43 | Exported Function
-`QueryLastWriteTime` | 40 | Exported Function
-`QueryLastAccessTime` | 39 | Exported Function
-`Initialize` | 22 | Exported Function
-`GetEa` | 19 | Exported Function
-`ROOTDIR` | 8 | Exported Function
-`Initialize` | 23 | Exported Function
-`Initialize` | 26 | Exported Function
-`Initialize` | 25 | Exported Function
-`Initialize` | 24 | Exported Function
+`FAT_DIRENT::IsValidLastWriteTime` | 32 | Exported Function
+`FAT_DIRENT::IsValidLastAccessTime` | 31 | Exported Function
+`FAT_DIRENT::IsValidCreationTime` | 30 | Exported Function
+`FAT_DIRENT::QueryCreationTime` | 35 | Exported Function
+`FAT_DIRENT::QueryName` | 43 | Exported Function
+`FAT_DIRENT::QueryLastWriteTime` | 40 | Exported Function
+`FAT_DIRENT::QueryLastAccessTime` | 39 | Exported Function
+`CLUSTER_CHAIN::Initialize` | 22 | Exported Function
+`EA_SET::GetEa` | 19 | Exported Function
+`ROOTDIR::ROOTDIR` | 8 | Exported Function
+`EA_HEADER::Initialize` | 23 | Exported Function
+`FAT_DIRENT::Initialize` | 26 | Exported Function
+`FAT_DIRENT::Initialize` | 25 | Exported Function
+`EA_SET::Initialize` | 24 | Exported Function
 
 
 ## Signature

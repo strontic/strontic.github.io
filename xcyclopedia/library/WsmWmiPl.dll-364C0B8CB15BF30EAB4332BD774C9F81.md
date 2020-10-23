@@ -26,15 +26,15 @@ PE256 | `E8BF4EC67A9AEC0412387FF19D570F02F03B20838F4FB9E799F2C3421E571373`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Acquire` | 11 | Exported Function
-`Reset` | 26 | Exported Function
+`Locale::Key` | 11 | Exported Function
+`Locale::Key` | 26 | Exported Function
 `WSManPluginStartup` | 29 | Exported Function
 `WSManPluginShutdown` | 28 | Exported Function
-`Release` | 25 | Exported Function
-`Acquire` | 9 | Exported Function
-`Initialize` | 21 | Exported Function
-`Acquire` | 10 | Exported Function
-`Release` | 24 | Exported Function
+`Locale::Key` | 25 | Exported Function
+`CWmiPtrCache::Mapping` | 9 | Exported Function
+`Locale::Key` | 21 | Exported Function
+`Locale::Key` | 10 | Exported Function
+`CWmiPtrCache::Mapping` | 24 | Exported Function
 `WSManProvCreate` | 30 | Exported Function
 `WSManProvPut` | 37 | Exported Function
 `WSManProvPullEvents` | 36 | Exported Function
@@ -45,26 +45,26 @@ Function Name | Ordinal | Type
 `WSManProvDelete` | 31 | Exported Function
 `WSManProvIdentify` | 34 | Exported Function
 `WSManProvGet` | 33 | Exported Function
-`DeInitialize` | 16 | Exported Function
-`Key` | 2 | Exported Function
-`Key` | 4 | Exported Function
-`Key` | 3 | Exported Function
-`Key` | 5 | Exported Function
-`Key` | 1 | Exported Function
-`Data` | 14 | Exported Function
-`Key` | 8 | Exported Function
+`Locale::Key` | 16 | Exported Function
+`Locale::Key` | 2 | Exported Function
+`Locale::Key` | 4 | Exported Function
+`Locale::Key` | 3 | Exported Function
+`Locale::Key` | 5 | Exported Function
+`Locale::Key` | 1 | Exported Function
+`Locale::Key` | 14 | Exported Function
+`Locale::Key` | 8 | Exported Function
 `public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 | Exported Function
-`SkipOrphans` | 27 | Exported Function
-`Key` | 6 | Exported Function
-`GetInitError` | 17 | Exported Function
-`GetMap` | 19 | Exported Function
-`Initialize` | 20 | Exported Function
-`DeInitialize` | 15 | Exported Function
-`GetMap` | 18 | Exported Function
-`IsValid` | 23 | Exported Function
-`IsValid` | 22 | Exported Function
-`AsReference` | 13 | Exported Function
-`Acquired` | 12 | Exported Function
+`Locale::Key` | 27 | Exported Function
+`Locale::Key` | 6 | Exported Function
+`CWSManCriticalSection::GetInitError` | 17 | Exported Function
+`Locale::Key` | 19 | Exported Function
+`CWmiPtrCache::Mapping` | 20 | Exported Function
+`CWmiPtrCache::Mapping` | 15 | Exported Function
+`Locale::Key` | 18 | Exported Function
+`Locale::Key` | 23 | Exported Function
+`CWmiPtrCache::Mapping` | 22 | Exported Function
+`Locale::Key` | 13 | Exported Function
+`Locale::Key` | 12 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `147CBE6E1AAAAEBEC37B1D4F59E491EF3324FE5349A262C56B3D29D18EE92DCE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`allocator` | 1 | Exported Function
-`GetTabViewAreaSizeFromWindow` | 2 | Exported Function
-`GetWindowSizeFromTabViewAreaSize` | 3 | Exported Function
+`std::allocator` | 1 | Exported Function
+`ConversationWindowUtils::GetTabViewAreaSizeFromWindow` | 2 | Exported Function
+`ConversationWindowUtils::GetWindowSizeFromTabViewAreaSize` | 3 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
 `DllGetClassObject` | 5 | Exported Function

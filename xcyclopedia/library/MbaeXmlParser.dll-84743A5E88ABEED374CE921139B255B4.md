@@ -26,13 +26,13 @@ PE256 | `A9F51445BB341FFF4923435D8CBAAB8C155982A1E368B21782A458BEF4E4E7CE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 4 | Exported Function
-`operator` | 5 | Exported Function
-`Create` | 7 | Exported Function
-`MbaeXmlParser` | 3 | Exported Function
+`MbaeXmlParser::operator` | 4 | Exported Function
+`MbaeXmlParser::operator` | 5 | Exported Function
+`MbaeXmlParser::Create` | 7 | Exported Function
+`MbaeXmlParser::MbaeXmlParser` | 3 | Exported Function
 `const MbaeXmlParser::``vftable'` | 6 | Exported Function
-`MbaeXmlParser` | 1 | Exported Function
-`MbaeXmlParser` | 2 | Exported Function
+`MbaeXmlParser::MbaeXmlParser` | 1 | Exported Function
+`MbaeXmlParser::MbaeXmlParser` | 2 | Exported Function
 
 
 ## Signature

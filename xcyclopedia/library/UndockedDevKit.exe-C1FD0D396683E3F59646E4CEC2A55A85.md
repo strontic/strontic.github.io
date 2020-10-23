@@ -1,0 +1,84 @@
+﻿---
+title: UndockedDevKit.exe | 
+excerpt: What is UndockedDevKit.exe?
+---
+
+# UndockedDevKit.exe 
+
+* File Path: `C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `C1FD0D396683E3F59646E4CEC2A55A85`
+SHA1 | `22BC4F2CAAF3B14E48DE0BB4839B88793EBE080B`
+SHA256 | `842AFA3909B01AD4A475DADD08FEB850B6A33DF9DD62F42EDC8272902AFCF865`
+SHA384 | `29FFB4AB557C436CF6FB7EF0D3C6FDB81E6F56D299656DB12480D42FAE76E683A3AF086EA4A9C0344160CB53780BB2FD`
+SHA512 | `B40923D964D8ECC7724C8BB9A03E803B6302E136E15BFE95952BFA7702C40D31146A7E08D9889FBF9F67E1078969E0935EEBFE3B4213908996A41437BE568203`
+SSDEEP | `192:YjuhSazG6l57iQvEVqr2Xxt4jRy2XkEaMLhTSa6Nr8VHwDDBQABJVCNxXeRqnaj6:YkSaziqrGiyGjTer6wDDBRJV4JeRlY5`
+IMP | `1AFA0949661B16256427E705407DF538`
+PESHA1 | `D3CFA759525FC7773CAEBC21BCD6F2A5F1A35260`
+PE256 | `73CC001BD33D51D44C2B163C0A1F35E6D733B7ED83482BFF3086EDC1B4A1E5F8`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe |
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/842afa3909b01ad4a475dadd08feb850b6a33df9dd62f42edc8272902afcf865/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll](6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll-513E16B14C2E8DE6AEA439153A9733FD.md) | 40
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-ABA7E7513886979AF8A3B68A1F4E591D.md) | 29
+[C:\Windows\system32\LocationFrameworkPS.dll](LocationFrameworkPS.dll-FBF3B3CCC037AD1D9FC36C28D0E29A25.md) | 27
+[C:\Windows\system32\migwiz\migres.dll](migres.dll-E937B164DC2D2A03490AC3EB9D5875B2.md) | 35
+[C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 47
+[C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 36
+[C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 36
+[C:\Windows\system32\uxlibres.dll](uxlibres.dll-F8A9A89E042D141AD521A9CA4B072824.md) | 41
+[C:\Windows\system32\WerEnc.dll](WerEnc.dll-57896D83DAD20250B3878747AB6115F6.md) | 33
+[C:\Windows\SysWOW64\WerEnc.dll](WerEnc.dll-F4C2183256B20B62EBD7C9397F0C5D85.md) | 30
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

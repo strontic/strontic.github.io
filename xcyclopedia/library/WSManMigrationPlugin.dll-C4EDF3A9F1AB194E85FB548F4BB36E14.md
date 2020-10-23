@@ -26,33 +26,33 @@ PE256 | `B0CD628639A4DB3D1471A96CCC160D374BCE9F50F21008E80F4EC51751FDFEEE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AsReference` | 12 | Exported Function
-`GetMap` | 16 | Exported Function
-`GetMap` | 17 | Exported Function
-`Key` | 6 | Exported Function
-`IsValid` | 19 | Exported Function
-`Acquired` | 11 | Exported Function
-`GetInitError` | 15 | Exported Function
-`Release` | 20 | Exported Function
-`Reset` | 21 | Exported Function
-`Acquire` | 10 | Exported Function
-`DeInitialize` | 14 | Exported Function
-`Initialize` | 18 | Exported Function
-`Acquire` | 9 | Exported Function
-`Key` | 3 | Exported Function
+`Locale::Key` | 12 | Exported Function
+`Locale::Key` | 16 | Exported Function
+`Locale::Key` | 17 | Exported Function
+`Locale::Key` | 6 | Exported Function
+`Locale::Key` | 19 | Exported Function
+`Locale::Key` | 11 | Exported Function
+`CWSManCriticalSection::GetInitError` | 15 | Exported Function
+`Locale::Key` | 20 | Exported Function
+`Locale::Key` | 21 | Exported Function
+`Locale::Key` | 10 | Exported Function
+`Locale::Key` | 14 | Exported Function
+`Locale::Key` | 18 | Exported Function
+`Locale::Key` | 9 | Exported Function
+`Locale::Key` | 3 | Exported Function
 `DllMain` | 25 | Exported Function
 `DllRegisterServer` | 26 | Exported Function
 `DllUnregisterServer` | 27 | Exported Function
-`Key` | 8 | Exported Function
+`Locale::Key` | 8 | Exported Function
 `DllCanUnloadNow` | 23 | Exported Function
 `DllGetClassObject` | 24 | Exported Function
-`Data` | 13 | Exported Function
-`Key` | 4 | Exported Function
-`Key` | 2 | Exported Function
-`Key` | 5 | Exported Function
-`SkipOrphans` | 22 | Exported Function
+`Locale::Key` | 13 | Exported Function
+`Locale::Key` | 4 | Exported Function
+`Locale::Key` | 2 | Exported Function
+`Locale::Key` | 5 | Exported Function
+`Locale::Key` | 22 | Exported Function
 `public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 | Exported Function
-`Key` | 1 | Exported Function
+`Locale::Key` | 1 | Exported Function
 
 
 ## Signature

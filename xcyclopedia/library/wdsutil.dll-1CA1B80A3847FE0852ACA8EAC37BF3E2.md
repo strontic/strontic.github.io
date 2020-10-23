@@ -26,208 +26,208 @@ PE256 | `CF1CD959BE4D8C67FCC69A71BC5B1AB054CFE8B6846FDC3F656267F51BE81F70`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CWDSUIWelcomeSetting` | 91 | Exported Function
+`CWDSUIWelcomeSetting::CWDSUIWelcomeSetting` | 91 | Exported Function
 `public: __cdecl CWDSUIWelcomeSetting::~CWDSUIWelcomeSetting(void) __ptr64` | 124 | Exported Function
-`CWDSUIWelcomeSetting` | 90 | Exported Function
+`CWDSUIWelcomeSetting::CWDSUIWelcomeSetting` | 90 | Exported Function
 `public: __cdecl CWDSUIImageSelectionSetting::~CWDSUIImageSelectionSetting(void) __ptr64` | 123 | Exported Function
-`CWDSUIWelcomeSetting` | 89 | Exported Function
-`operator` | 138 | Exported Function
-`operator` | 139 | Exported Function
-`operator` | 137 | Exported Function
-`operator` | 131 | Exported Function
-`operator` | 132 | Exported Function
+`CWDSUIWelcomeSetting::CWDSUIWelcomeSetting` | 89 | Exported Function
+`CDiskPartFileSystemUserSetting::operator` | 138 | Exported Function
+`CDiskPartFormatUserSetting::operator` | 139 | Exported Function
+`CDiskPartFileSystemUserSetting::operator` | 137 | Exported Function
+`CComputerNameSetting::operator` | 131 | Exported Function
+`CComputerNameSetting::operator` | 132 | Exported Function
 `public: __cdecl CUpgStoreUserSetting::~CUpgStoreUserSetting(void) __ptr64` | 120 | Exported Function
-`CUserSetting` | 84 | Exported Function
-`CUpgStoreUserSetting` | 80 | Exported Function
-`CUpgStoreUserSetting` | 78 | Exported Function
-`CUpgStoreUserSetting` | 79 | Exported Function
-`CWDSUIImageSelectionSetting` | 87 | Exported Function
-`CWDSUIImageSelectionSetting` | 88 | Exported Function
-`CWDSUIImageSelectionSetting` | 86 | Exported Function
-`CUserSetting` | 85 | Exported Function
+`CUserSetting::CUserSetting` | 84 | Exported Function
+`CUpgStoreUserSetting::CUpgStoreUserSetting` | 80 | Exported Function
+`CUpgStoreUserSetting::CUpgStoreUserSetting` | 78 | Exported Function
+`CUpgStoreUserSetting::CUpgStoreUserSetting` | 79 | Exported Function
+`CWDSUIImageSelectionSetting::CWDSUIImageSelectionSetting` | 87 | Exported Function
+`CWDSUIImageSelectionSetting::CWDSUIImageSelectionSetting` | 88 | Exported Function
+`CWDSUIImageSelectionSetting::CWDSUIImageSelectionSetting` | 86 | Exported Function
+`CUserSetting::CUserSetting` | 85 | Exported Function
 `public: __cdecl CUserSetting::~CUserSetting(void) __ptr64` | 122 | Exported Function
-`operator` | 149 | Exported Function
-`operator` | 150 | Exported Function
-`operator` | 148 | Exported Function
-`operator` | 146 | Exported Function
-`operator` | 147 | Exported Function
-`operator` | 154 | Exported Function
-`operator` | 155 | Exported Function
-`operator` | 153 | Exported Function
-`operator` | 151 | Exported Function
-`operator` | 152 | Exported Function
-`operator` | 133 | Exported Function
-`operator` | 134 | Exported Function
-`operator` | 142 | Exported Function
-`operator` | 140 | Exported Function
-`operator` | 141 | Exported Function
-`operator` | 144 | Exported Function
-`operator` | 145 | Exported Function
-`operator` | 143 | Exported Function
-`operator` | 135 | Exported Function
-`operator` | 136 | Exported Function
-`CShimUserSetting` | 5 | Exported Function
-`CShimUserSetting` | 6 | Exported Function
+`COOBEUIFinishSetting::operator` | 149 | Exported Function
+`COOBEUIFinishSetting::operator` | 150 | Exported Function
+`CKeyboardSetting::operator` | 148 | Exported Function
+`CIBSUIImageSelectionSetting::operator` | 146 | Exported Function
+`CKeyboardSetting::operator` | 147 | Exported Function
+`CProductKeyUserSetting::operator` | 154 | Exported Function
+`CSetupUISummarySetting::operator` | 155 | Exported Function
+`CProductKeyUserSetting::operator` | 153 | Exported Function
+`COOBEUIWelcomeSetting::operator` | 151 | Exported Function
+`COOBEUIWelcomeSetting::operator` | 152 | Exported Function
+`CDUUIProgressSetting::operator` | 133 | Exported Function
+`CDUUIProgressSetting::operator` | 134 | Exported Function
+`CDiskPartUserSetting::operator` | 142 | Exported Function
+`CDiskPartFormatUserSetting::operator` | 140 | Exported Function
+`CDiskPartUserSetting::operator` | 141 | Exported Function
+`CEulaSetting::operator` | 144 | Exported Function
+`CIBSUIImageSelectionSetting::operator` | 145 | Exported Function
+`CEulaSetting::operator` | 143 | Exported Function
+`CDUUIWelcomeSetting::operator` | 135 | Exported Function
+`CDUUIWelcomeSetting::operator` | 136 | Exported Function
+`public: __cdecl CShimUserSetting<class CUInt64UserSetting>::CShimUserSetting<class CUInt64UserSetting>(class CShimUserSetting<class CUInt64UserSetting> const & __ptr64) __ptr64` | 5 | Exported Function
+`public: __cdecl CShimUserSetting<class CUInt64UserSetting>::CShimUserSetting<class CUInt64UserSetting>(void) __ptr64` | 6 | Exported Function
 `public: __cdecl CShimUserSetting<class CUInt32UserSetting>::~CShimUserSetting<class CUInt32UserSetting>(void) __ptr64` | 93 | Exported Function
-`CShimUserSetting` | 3 | Exported Function
-`CShimUserSetting` | 4 | Exported Function
-`CSimpleStringUserSetting` | 61 | Exported Function
-`CSimpleStringUserSetting` | 62 | Exported Function
-`CSimpleStringUserSetting` | 60 | Exported Function
+`public: __cdecl CShimUserSetting<class CUInt32UserSetting>::CShimUserSetting<class CUInt32UserSetting>(class CShimUserSetting<class CUInt32UserSetting> const & __ptr64) __ptr64` | 3 | Exported Function
+`public: __cdecl CShimUserSetting<class CUInt32UserSetting>::CShimUserSetting<class CUInt32UserSetting>(void) __ptr64` | 4 | Exported Function
+`CSimpleStringUserSetting::CSimpleStringUserSetting` | 61 | Exported Function
+`CSimpleStringUserSetting::CSimpleStringUserSetting` | 62 | Exported Function
+`CSimpleStringUserSetting::CSimpleStringUserSetting` | 60 | Exported Function
 `public: __cdecl CShimUserSetting<class CUInt64UserSetting>::~CShimUserSetting<class CUInt64UserSetting>(void) __ptr64` | 94 | Exported Function
-`CShowFlagUserSetting` | 59 | Exported Function
-`CShimUInt64UserSetting` | 55 | Exported Function
-`CShimUInt64UserSetting` | 56 | Exported Function
+`CShowFlagUserSetting::CShowFlagUserSetting` | 59 | Exported Function
+`CShimUInt64UserSetting::CShimUInt64UserSetting` | 55 | Exported Function
+`CShimUInt64UserSetting::CShimUInt64UserSetting` | 56 | Exported Function
 `public: __cdecl CShimUInt32UserSetting::~CShimUInt32UserSetting(void) __ptr64` | 110 | Exported Function
-`CShimUInt32UserSetting` | 53 | Exported Function
-`CShimUInt32UserSetting` | 54 | Exported Function
-`CShimUserSetting` | 2 | Exported Function
+`CShimUInt32UserSetting::CShimUInt32UserSetting` | 53 | Exported Function
+`CShimUInt32UserSetting::CShimUInt32UserSetting` | 54 | Exported Function
+`public: __cdecl CShimUserSetting<class CStringUserSetting>::CShimUserSetting<class CStringUserSetting>(void) __ptr64` | 2 | Exported Function
 `public: __cdecl CShimUserSetting<class CStringUserSetting>::~CShimUserSetting<class CStringUserSetting>(void) __ptr64` | 92 | Exported Function
-`CShimUserSetting` | 1 | Exported Function
-`CShimUInt64UserSetting` | 57 | Exported Function
+`public: __cdecl CShimUserSetting<class CStringUserSetting>::CShimUserSetting<class CStringUserSetting>(class CShimUserSetting<class CStringUserSetting> const & __ptr64) __ptr64` | 1 | Exported Function
+`CShimUInt64UserSetting::CShimUInt64UserSetting` | 57 | Exported Function
 `public: __cdecl CShimUInt64UserSetting::~CShimUInt64UserSetting(void) __ptr64` | 111 | Exported Function
 `public: __cdecl CTimezoneSetting::~CTimezoneSetting(void) __ptr64` | 117 | Exported Function
-`CUInt32UserSetting` | 75 | Exported Function
-`CTimezoneSetting` | 73 | Exported Function
-`CTimezoneSetting` | 71 | Exported Function
-`CTimezoneSetting` | 72 | Exported Function
-`CUpgradeUserSetting` | 83 | Exported Function
+`CUInt32UserSetting::CUInt32UserSetting` | 75 | Exported Function
+`CTimezoneSetting::CTimezoneSetting` | 73 | Exported Function
+`CTimezoneSetting::CTimezoneSetting` | 71 | Exported Function
+`CTimezoneSetting::CTimezoneSetting` | 72 | Exported Function
+`CUpgradeUserSetting::CUpgradeUserSetting` | 83 | Exported Function
 `public: __cdecl CUpgradeUserSetting::~CUpgradeUserSetting(void) __ptr64` | 121 | Exported Function
-`CUpgradeUserSetting` | 82 | Exported Function
-`CUInt64UserSetting` | 77 | Exported Function
-`CUpgradeUserSetting` | 81 | Exported Function
-`CSimpleUInt32UserSetting` | 65 | Exported Function
+`CUpgradeUserSetting::CUpgradeUserSetting` | 82 | Exported Function
+`CUInt64UserSetting::CUInt64UserSetting` | 77 | Exported Function
+`CUpgradeUserSetting::CUpgradeUserSetting` | 81 | Exported Function
+`CSimpleUInt32UserSetting::CSimpleUInt32UserSetting` | 65 | Exported Function
 `public: __cdecl CSimpleUInt32UserSetting::~CSimpleUInt32UserSetting(void) __ptr64` | 114 | Exported Function
-`CSimpleUInt32UserSetting` | 64 | Exported Function
+`CSimpleUInt32UserSetting::CSimpleUInt32UserSetting` | 64 | Exported Function
 `public: __cdecl CSimpleStringUserSetting::~CSimpleStringUserSetting(void) __ptr64` | 113 | Exported Function
-`CSimpleUInt32UserSetting` | 63 | Exported Function
+`CSimpleUInt32UserSetting::CSimpleUInt32UserSetting` | 63 | Exported Function
 `public: __cdecl CSimpleUInt64UserSetting::~CSimpleUInt64UserSetting(void) __ptr64` | 115 | Exported Function
-`CStringUserSetting` | 70 | Exported Function
-`CSimpleUInt64UserSetting` | 68 | Exported Function
-`CSimpleUInt64UserSetting` | 66 | Exported Function
-`CSimpleUInt64UserSetting` | 67 | Exported Function
-`operator` | 156 | Exported Function
-`get_Show` | 283 | Exported Function
-`get_Error` | 258 | Exported Function
-`get_Error` | 257 | Exported Function
-`get_Error` | 256 | Exported Function
-`get_Show` | 282 | Exported Function
-`get_Error` | 260 | Exported Function
-`get_Show` | 288 | Exported Function
-`get_Show` | 287 | Exported Function
-`get_Show` | 284 | Exported Function
-`get_Error` | 259 | Exported Function
-`set_UInt32` | 306 | Exported Function
-`get_String` | 291 | Exported Function
-`get_UInt32` | 293 | Exported Function
-`set_String` | 303 | Exported Function
-`get_Show` | 286 | Exported Function
-`get_UInt64` | 296 | Exported Function
-`set_UInt64` | 310 | Exported Function
-`set_UInt32` | 307 | Exported Function
-`set_String` | 304 | Exported Function
-`get_UInt32` | 294 | Exported Function
+`CStringUserSetting::CStringUserSetting` | 70 | Exported Function
+`CSimpleUInt64UserSetting::CSimpleUInt64UserSetting` | 68 | Exported Function
+`CSimpleUInt64UserSetting::CSimpleUInt64UserSetting` | 66 | Exported Function
+`CSimpleUInt64UserSetting::CSimpleUInt64UserSetting` | 67 | Exported Function
+`CSetupUISummarySetting::operator` | 156 | Exported Function
+`public: virtual long __cdecl CShimUserSetting<class CUInt32UserSetting>::get_Show(int * __ptr64) __ptr64` | 283 | Exported Function
+`public: virtual long __cdecl CShimUserSetting<class CUInt64UserSetting>::get_Error(long * __ptr64) __ptr64` | 258 | Exported Function
+`public: virtual long __cdecl CShimUserSetting<class CUInt32UserSetting>::get_Error(long * __ptr64) __ptr64` | 257 | Exported Function
+`public: virtual long __cdecl CShimUserSetting<class CStringUserSetting>::get_Error(long * __ptr64) __ptr64` | 256 | Exported Function
+`public: virtual long __cdecl CShimUserSetting<class CStringUserSetting>::get_Show(int * __ptr64) __ptr64` | 282 | Exported Function
+`CSimpleStringUserSetting::get_Error` | 260 | Exported Function
+`CSimpleStringUserSetting::get_Show` | 288 | Exported Function
+`CShowFlagUserSetting::get_Show` | 287 | Exported Function
+`public: virtual long __cdecl CShimUserSetting<class CUInt64UserSetting>::get_Show(int * __ptr64) __ptr64` | 284 | Exported Function
+`CShowFlagUserSetting::get_Error` | 259 | Exported Function
+`CDiskPartUserSetting::set_UInt32` | 306 | Exported Function
+`CShimStringUserSetting::get_String` | 291 | Exported Function
+`CDiskPartUserSetting::get_UInt32` | 293 | Exported Function
+`CComputerNameSetting::set_String` | 303 | Exported Function
+`CDiskPartUserSetting::get_Show` | 286 | Exported Function
+`CShimUInt64UserSetting::get_UInt64` | 296 | Exported Function
+`CShimUInt64UserSetting::set_UInt64` | 310 | Exported Function
+`CShimUInt32UserSetting::set_UInt32` | 307 | Exported Function
+`CShimStringUserSetting::set_String` | 304 | Exported Function
+`CShimUInt32UserSetting::get_UInt32` | 294 | Exported Function
 `PublishMessage` | 317 | Exported Function
 `SignalSetupComplianceBlock` | 318 | Exported Function
-`SetModuleId` | 244 | Exported Function
-`set_UInt32` | 309 | Exported Function
-`GetModuleId` | 232 | Exported Function
+`CUserSetting::SetModuleId` | 244 | Exported Function
+`CUpgradeUserSetting::set_UInt32` | 309 | Exported Function
+`CUserSetting::GetModuleId` | 232 | Exported Function
 `WdsPickTempDriveBasedOnInstallDrive` | 322 | Exported Function
 `WdsValidateInstallDrive` | 323 | Exported Function
 `WdsCollectionAddUInt64` | 321 | Exported Function
 `WdsCollectionAddString` | 319 | Exported Function
 `WdsCollectionAddUInt32` | 320 | Exported Function
-`get_Show` | 289 | Exported Function
-`get_UInt32` | 295 | Exported Function
-`get_Error` | 261 | Exported Function
-`get_String` | 292 | Exported Function
-`set_String` | 305 | Exported Function
-`get_UInt64` | 297 | Exported Function
-`set_UInt64` | 311 | Exported Function
-`get_Show` | 290 | Exported Function
-`set_UInt32` | 308 | Exported Function
-`get_Error` | 262 | Exported Function
-`operator` | 130 | Exported Function
-`operator` | 165 | Exported Function
-`operator` | 129 | Exported Function
-`operator` | 127 | Exported Function
-`operator` | 128 | Exported Function
-`operator` | 169 | Exported Function
-`operator` | 170 | Exported Function
-`operator` | 168 | Exported Function
-`operator` | 166 | Exported Function
-`operator` | 167 | Exported Function
-`operator` | 160 | Exported Function
-`operator` | 161 | Exported Function
-`operator` | 159 | Exported Function
-`operator` | 157 | Exported Function
-`operator` | 158 | Exported Function
-`operator` | 125 | Exported Function
-`operator` | 126 | Exported Function
-`operator` | 164 | Exported Function
-`operator` | 162 | Exported Function
-`operator` | 163 | Exported Function
-`operator` | 184 | Exported Function
-`operator` | 185 | Exported Function
-`operator` | 183 | Exported Function
-`operator` | 181 | Exported Function
-`operator` | 182 | Exported Function
-`UnattendChecked` | 251 | Exported Function
-`get_Show` | 285 | Exported Function
-`IsUpgrade` | 234 | Exported Function
-`set_Error` | 301 | Exported Function
-`set_Show` | 302 | Exported Function
-`operator` | 174 | Exported Function
-`operator` | 175 | Exported Function
-`operator` | 173 | Exported Function
-`operator` | 171 | Exported Function
-`operator` | 172 | Exported Function
-`operator` | 177 | Exported Function
-`operator` | 178 | Exported Function
-`operator` | 180 | Exported Function
-`operator` | 176 | Exported Function
-`operator` | 179 | Exported Function
-`CShimUInt32UserSetting` | 52 | Exported Function
-`get_Name` | 268 | Exported Function
-`get_Name` | 264 | Exported Function
-`get_Name` | 267 | Exported Function
-`get_Name` | 263 | Exported Function
-`get_Name` | 266 | Exported Function
-`get_Name` | 271 | Exported Function
-`get_Name` | 272 | Exported Function
-`get_Name` | 270 | Exported Function
-`get_Name` | 265 | Exported Function
-`get_Name` | 269 | Exported Function
+`CSimpleUInt32UserSetting::get_Show` | 289 | Exported Function
+`CSimpleUInt32UserSetting::get_UInt32` | 295 | Exported Function
+`CSimpleUInt32UserSetting::get_Error` | 261 | Exported Function
+`CSimpleStringUserSetting::get_String` | 292 | Exported Function
+`CSimpleStringUserSetting::set_String` | 305 | Exported Function
+`CSimpleUInt64UserSetting::get_UInt64` | 297 | Exported Function
+`CSimpleUInt64UserSetting::set_UInt64` | 311 | Exported Function
+`CSimpleUInt64UserSetting::get_Show` | 290 | Exported Function
+`CSimpleUInt32UserSetting::set_UInt32` | 308 | Exported Function
+`CSimpleUInt64UserSetting::get_Error` | 262 | Exported Function
+`public: class CShimUserSetting<class CUInt64UserSetting> & __ptr64 __cdecl CShimUserSetting<class CUInt64UserSetting>::operator=(class CShimUserSetting<class CUInt64UserSetting> const & __ptr64) __ptr64` | 130 | Exported Function
+`CShowFlagUserSetting::operator` | 165 | Exported Function
+`public: class CShimUserSetting<class CUInt64UserSetting> & __ptr64 __cdecl CShimUserSetting<class CUInt64UserSetting>::operator=(class CShimUserSetting<class CUInt64UserSetting> && __ptr64) __ptr64` | 129 | Exported Function
+`public: class CShimUserSetting<class CUInt32UserSetting> & __ptr64 __cdecl CShimUserSetting<class CUInt32UserSetting>::operator=(class CShimUserSetting<class CUInt32UserSetting> && __ptr64) __ptr64` | 127 | Exported Function
+`public: class CShimUserSetting<class CUInt32UserSetting> & __ptr64 __cdecl CShimUserSetting<class CUInt32UserSetting>::operator=(class CShimUserSetting<class CUInt32UserSetting> const & __ptr64) __ptr64` | 128 | Exported Function
+`CSimpleUInt32UserSetting::operator` | 169 | Exported Function
+`CSimpleUInt64UserSetting::operator` | 170 | Exported Function
+`CSimpleUInt32UserSetting::operator` | 168 | Exported Function
+`CSimpleStringUserSetting::operator` | 166 | Exported Function
+`CSimpleStringUserSetting::operator` | 167 | Exported Function
+`CShimStringUserSetting::operator` | 160 | Exported Function
+`CShimUInt32UserSetting::operator` | 161 | Exported Function
+`CShimStringUserSetting::operator` | 159 | Exported Function
+`CSetupUIWelcomeSetting::operator` | 157 | Exported Function
+`CSetupUIWelcomeSetting::operator` | 158 | Exported Function
+`public: class CShimUserSetting<class CStringUserSetting> & __ptr64 __cdecl CShimUserSetting<class CStringUserSetting>::operator=(class CShimUserSetting<class CStringUserSetting> && __ptr64) __ptr64` | 125 | Exported Function
+`public: class CShimUserSetting<class CStringUserSetting> & __ptr64 __cdecl CShimUserSetting<class CStringUserSetting>::operator=(class CShimUserSetting<class CStringUserSetting> const & __ptr64) __ptr64` | 126 | Exported Function
+`CShimUInt64UserSetting::operator` | 164 | Exported Function
+`CShimUInt32UserSetting::operator` | 162 | Exported Function
+`CShimUInt64UserSetting::operator` | 163 | Exported Function
+`CWDSUIWelcomeSetting::operator` | 184 | Exported Function
+`CWDSUIWelcomeSetting::operator` | 185 | Exported Function
+`CWDSUIImageSelectionSetting::operator` | 183 | Exported Function
+`CUserSetting::operator` | 181 | Exported Function
+`CWDSUIImageSelectionSetting::operator` | 182 | Exported Function
+`CUpgradeUserSetting::UnattendChecked` | 251 | Exported Function
+`CComputerNameSetting::get_Show` | 285 | Exported Function
+`CUpgradeUserSetting::IsUpgrade` | 234 | Exported Function
+`CUserSetting::set_Error` | 301 | Exported Function
+`CUserSetting::set_Show` | 302 | Exported Function
+`CTimezoneSetting::operator` | 174 | Exported Function
+`CUInt32UserSetting::operator` | 175 | Exported Function
+`CTimezoneSetting::operator` | 173 | Exported Function
+`CSimpleUInt64UserSetting::operator` | 171 | Exported Function
+`CStringUserSetting::operator` | 172 | Exported Function
+`CUpgStoreUserSetting::operator` | 177 | Exported Function
+`CUpgStoreUserSetting::operator` | 178 | Exported Function
+`CUpgradeUserSetting::operator` | 180 | Exported Function
+`CUInt64UserSetting::operator` | 176 | Exported Function
+`CUpgradeUserSetting::operator` | 179 | Exported Function
+`CShimUInt32UserSetting::CShimUInt32UserSetting` | 52 | Exported Function
+`CDiskPartUserSetting::get_Name` | 268 | Exported Function
+`CDUUIProgressSetting::get_Name` | 264 | Exported Function
+`CDiskPartFormatUserSetting::get_Name` | 267 | Exported Function
+`CComputerNameSetting::get_Name` | 263 | Exported Function
+`CDiskPartFileSystemUserSetting::get_Name` | 266 | Exported Function
+`CKeyboardSetting::get_Name` | 271 | Exported Function
+`COOBEUIFinishSetting::get_Name` | 272 | Exported Function
+`CIBSUIImageSelectionSetting::get_Name` | 270 | Exported Function
+`CDUUIWelcomeSetting::get_Name` | 265 | Exported Function
+`CEulaSetting::get_Name` | 269 | Exported Function
 `IsCrossArchitectureInstall` | 315 | Exported Function
 `LogDiskReasons` | 235 | Exported Function
 `GetRegionKey` | 233 | Exported Function
 `GetApplicableDiskRegionReason` | 228 | Exported Function
 `GetDiskKey` | 230 | Exported Function
-`get_ValidateID` | 299 | Exported Function
-`get_ValidateID` | 300 | Exported Function
-`get_ValidateID` | 298 | Exported Function
+`CDiskPartUserSetting::get_ValidateID` | 299 | Exported Function
+`CProductKeyUserSetting::get_ValidateID` | 300 | Exported Function
+`CComputerNameSetting::get_ValidateID` | 298 | Exported Function
 `LogDiskRegionReasons` | 236 | Exported Function
 `MergeEtlFiles` | 316 | Exported Function
-`CUInt32UserSetting` | 74 | Exported Function
+`CUInt32UserSetting::CUInt32UserSetting` | 74 | Exported Function
 `protected: __cdecl CUInt32UserSetting::~CUInt32UserSetting(void) __ptr64` | 118 | Exported Function
 `protected: __cdecl CStringUserSetting::~CStringUserSetting(void) __ptr64` | 116 | Exported Function
 `protected: __cdecl CShowFlagUserSetting::~CShowFlagUserSetting(void) __ptr64` | 112 | Exported Function
-`CStringUserSetting` | 69 | Exported Function
-`Simple_get_String` | 245 | Exported Function
-`Simple_set_String` | 248 | Exported Function
-`DeserializeString` | 221 | Exported Function
-`CUInt64UserSetting` | 76 | Exported Function
+`CStringUserSetting::CStringUserSetting` | 69 | Exported Function
+`CStringUserSetting::Simple_get_String` | 245 | Exported Function
+`CStringUserSetting::Simple_set_String` | 248 | Exported Function
+`CStringUserSetting::DeserializeString` | 221 | Exported Function
+`CUInt64UserSetting::CUInt64UserSetting` | 76 | Exported Function
 `protected: __cdecl CUInt64UserSetting::~CUInt64UserSetting(void) __ptr64` | 119 | Exported Function
-`get_Name` | 276 | Exported Function
-`get_Name` | 277 | Exported Function
-`get_Name` | 275 | Exported Function
-`get_Name` | 273 | Exported Function
-`get_Name` | 274 | Exported Function
-`get_Name` | 281 | Exported Function
-`CShowFlagUserSetting` | 58 | Exported Function
-`get_Name` | 280 | Exported Function
-`get_Name` | 279 | Exported Function
-`get_Name` | 278 | Exported Function
+`CSetupUIWelcomeSetting::get_Name` | 276 | Exported Function
+`CTimezoneSetting::get_Name` | 277 | Exported Function
+`CSetupUISummarySetting::get_Name` | 275 | Exported Function
+`COOBEUIWelcomeSetting::get_Name` | 273 | Exported Function
+`CProductKeyUserSetting::get_Name` | 274 | Exported Function
+`CWDSUIWelcomeSetting::get_Name` | 281 | Exported Function
+`CShowFlagUserSetting::CShowFlagUserSetting` | 58 | Exported Function
+`CWDSUIImageSelectionSetting::get_Name` | 280 | Exported Function
+`CUpgradeUserSetting::get_Name` | 279 | Exported Function
+`CUpgStoreUserSetting::get_Name` | 278 | Exported Function
 `const COOBEUIWelcomeSetting::``vftable'` | 199 | Exported Function
 `const CProductKeyUserSetting::``vftable'` | 200 | Exported Function
 `const COOBEUIFinishSetting::``vftable'` | 198 | Exported Function
@@ -268,87 +268,87 @@ Function Name | Ordinal | Type
 `const CStringUserSetting::``vftable'` | 210 | Exported Function
 `const CSimpleUInt32UserSetting::``vftable'` | 208 | Exported Function
 `const CSimpleUInt64UserSetting::``vftable'` | 209 | Exported Function
-`DeserializeUInt32` | 222 | Exported Function
-`CKeyboardSetting` | 32 | Exported Function
-`CKeyboardSetting` | 33 | Exported Function
-`CKeyboardSetting` | 31 | Exported Function
-`CIBSUIImageSelectionSetting` | 30 | Exported Function
+`CUInt32UserSetting::DeserializeUInt32` | 222 | Exported Function
+`CKeyboardSetting::CKeyboardSetting` | 32 | Exported Function
+`CKeyboardSetting::CKeyboardSetting` | 33 | Exported Function
+`CKeyboardSetting::CKeyboardSetting` | 31 | Exported Function
+`CIBSUIImageSelectionSetting::CIBSUIImageSelectionSetting` | 30 | Exported Function
 `public: __cdecl CIBSUIImageSelectionSetting::~CIBSUIImageSelectionSetting(void) __ptr64` | 102 | Exported Function
-`COOBEUIFinishSetting` | 36 | Exported Function
+`COOBEUIFinishSetting::COOBEUIFinishSetting` | 36 | Exported Function
 `public: __cdecl COOBEUIFinishSetting::~COOBEUIFinishSetting(void) __ptr64` | 104 | Exported Function
-`COOBEUIFinishSetting` | 35 | Exported Function
+`COOBEUIFinishSetting::COOBEUIFinishSetting` | 35 | Exported Function
 `public: __cdecl CKeyboardSetting::~CKeyboardSetting(void) __ptr64` | 103 | Exported Function
-`COOBEUIFinishSetting` | 34 | Exported Function
+`COOBEUIFinishSetting::COOBEUIFinishSetting` | 34 | Exported Function
 `public: __cdecl CDUUIWelcomeSetting::~CDUUIWelcomeSetting(void) __ptr64` | 97 | Exported Function
-`CEulaSetting` | 25 | Exported Function
-`CDUUIWelcomeSetting` | 15 | Exported Function
-`CDUUIWelcomeSetting` | 13 | Exported Function
-`CDUUIWelcomeSetting` | 14 | Exported Function
-`CIBSUIImageSelectionSetting` | 28 | Exported Function
-`CIBSUIImageSelectionSetting` | 29 | Exported Function
+`CEulaSetting::CEulaSetting` | 25 | Exported Function
+`CDUUIWelcomeSetting::CDUUIWelcomeSetting` | 15 | Exported Function
+`CDUUIWelcomeSetting::CDUUIWelcomeSetting` | 13 | Exported Function
+`CDUUIWelcomeSetting::CDUUIWelcomeSetting` | 14 | Exported Function
+`CIBSUIImageSelectionSetting::CIBSUIImageSelectionSetting` | 28 | Exported Function
+`CIBSUIImageSelectionSetting::CIBSUIImageSelectionSetting` | 29 | Exported Function
 `public: __cdecl CEulaSetting::~CEulaSetting(void) __ptr64` | 101 | Exported Function
-`CEulaSetting` | 26 | Exported Function
-`CEulaSetting` | 27 | Exported Function
-`CSetupUIWelcomeSetting` | 47 | Exported Function
-`CSetupUIWelcomeSetting` | 48 | Exported Function
-`CSetupUIWelcomeSetting` | 46 | Exported Function
-`CSetupUISummarySetting` | 45 | Exported Function
+`CEulaSetting::CEulaSetting` | 26 | Exported Function
+`CEulaSetting::CEulaSetting` | 27 | Exported Function
+`CSetupUIWelcomeSetting::CSetupUIWelcomeSetting` | 47 | Exported Function
+`CSetupUIWelcomeSetting::CSetupUIWelcomeSetting` | 48 | Exported Function
+`CSetupUIWelcomeSetting::CSetupUIWelcomeSetting` | 46 | Exported Function
+`CSetupUISummarySetting::CSetupUISummarySetting` | 45 | Exported Function
 `public: __cdecl CSetupUISummarySetting::~CSetupUISummarySetting(void) __ptr64` | 107 | Exported Function
-`CShimStringUserSetting` | 51 | Exported Function
+`CShimStringUserSetting::CShimStringUserSetting` | 51 | Exported Function
 `public: __cdecl CShimStringUserSetting::~CShimStringUserSetting(void) __ptr64` | 109 | Exported Function
-`CShimStringUserSetting` | 50 | Exported Function
+`CShimStringUserSetting::CShimStringUserSetting` | 50 | Exported Function
 `public: __cdecl CSetupUIWelcomeSetting::~CSetupUIWelcomeSetting(void) __ptr64` | 108 | Exported Function
-`CShimStringUserSetting` | 49 | Exported Function
+`CShimStringUserSetting::CShimStringUserSetting` | 49 | Exported Function
 `public: __cdecl COOBEUIWelcomeSetting::~COOBEUIWelcomeSetting(void) __ptr64` | 105 | Exported Function
-`CProductKeyUserSetting` | 40 | Exported Function
-`COOBEUIWelcomeSetting` | 39 | Exported Function
-`COOBEUIWelcomeSetting` | 37 | Exported Function
-`COOBEUIWelcomeSetting` | 38 | Exported Function
-`CSetupUISummarySetting` | 43 | Exported Function
-`CSetupUISummarySetting` | 44 | Exported Function
+`CProductKeyUserSetting::CProductKeyUserSetting` | 40 | Exported Function
+`COOBEUIWelcomeSetting::COOBEUIWelcomeSetting` | 39 | Exported Function
+`COOBEUIWelcomeSetting::COOBEUIWelcomeSetting` | 37 | Exported Function
+`COOBEUIWelcomeSetting::COOBEUIWelcomeSetting` | 38 | Exported Function
+`CSetupUISummarySetting::CSetupUISummarySetting` | 43 | Exported Function
+`CSetupUISummarySetting::CSetupUISummarySetting` | 44 | Exported Function
 `public: __cdecl CProductKeyUserSetting::~CProductKeyUserSetting(void) __ptr64` | 106 | Exported Function
-`CProductKeyUserSetting` | 41 | Exported Function
-`CProductKeyUserSetting` | 42 | Exported Function
-`GetBlackboard` | 229 | Exported Function
-`SerializeString` | 241 | Exported Function
-`c_stValueName` | 255 | Exported Function
-`c_stMutex` | 253 | Exported Function
-`c_stShowName` | 254 | Exported Function
-`ReleaseMutex` | 239 | Exported Function
-`SerializeField` | 240 | Exported Function
-`AcquireMutex` | 219 | Exported Function
-`SerializeUInt32` | 242 | Exported Function
-`SerializeUInt64` | 243 | Exported Function
-`Simple_get_UInt64` | 247 | Exported Function
-`Simple_set_UInt64` | 250 | Exported Function
-`DeserializeUInt64` | 223 | Exported Function
-`Simple_get_UInt32` | 246 | Exported Function
-`Simple_set_UInt32` | 249 | Exported Function
-`ReadShow` | 238 | Exported Function
-`c_stErrorName` | 252 | Exported Function
-`ReadError` | 237 | Exported Function
-`DeserializeField` | 220 | Exported Function
-`GetKeyName` | 231 | Exported Function
-`CDiskPartUserSetting` | 23 | Exported Function
-`CDiskPartUserSetting` | 24 | Exported Function
-`CDiskPartUserSetting` | 22 | Exported Function
-`CDiskPartFormatUserSetting` | 21 | Exported Function
+`CProductKeyUserSetting::CProductKeyUserSetting` | 41 | Exported Function
+`CProductKeyUserSetting::CProductKeyUserSetting` | 42 | Exported Function
+`CUserSetting::GetBlackboard` | 229 | Exported Function
+`CStringUserSetting::SerializeString` | 241 | Exported Function
+`CUserSetting::c_stValueName` | 255 | Exported Function
+`CUserSetting::c_stMutex` | 253 | Exported Function
+`CUserSetting::c_stShowName` | 254 | Exported Function
+`CUserSetting::ReleaseMutex` | 239 | Exported Function
+`CUserSetting::SerializeField` | 240 | Exported Function
+`CUserSetting::AcquireMutex` | 219 | Exported Function
+`CUInt32UserSetting::SerializeUInt32` | 242 | Exported Function
+`CUInt64UserSetting::SerializeUInt64` | 243 | Exported Function
+`CUInt64UserSetting::Simple_get_UInt64` | 247 | Exported Function
+`CUInt64UserSetting::Simple_set_UInt64` | 250 | Exported Function
+`CUInt64UserSetting::DeserializeUInt64` | 223 | Exported Function
+`CUInt32UserSetting::Simple_get_UInt32` | 246 | Exported Function
+`CUInt32UserSetting::Simple_set_UInt32` | 249 | Exported Function
+`CUserSetting::ReadShow` | 238 | Exported Function
+`CUserSetting::c_stErrorName` | 252 | Exported Function
+`CUserSetting::ReadError` | 237 | Exported Function
+`CUserSetting::DeserializeField` | 220 | Exported Function
+`CUserSetting::GetKeyName` | 231 | Exported Function
+`CDiskPartUserSetting::CDiskPartUserSetting` | 23 | Exported Function
+`CDiskPartUserSetting::CDiskPartUserSetting` | 24 | Exported Function
+`CDiskPartUserSetting::CDiskPartUserSetting` | 22 | Exported Function
+`CDiskPartFormatUserSetting::CDiskPartFormatUserSetting` | 21 | Exported Function
 `public: __cdecl CDiskPartFormatUserSetting::~CDiskPartFormatUserSetting(void) __ptr64` | 99 | Exported Function
-`CDUUIProgressSetting` | 12 | Exported Function
+`CDUUIProgressSetting::CDUUIProgressSetting` | 12 | Exported Function
 `public: __cdecl CDUUIProgressSetting::~CDUUIProgressSetting(void) __ptr64` | 96 | Exported Function
-`CDUUIProgressSetting` | 11 | Exported Function
+`CDUUIProgressSetting::CDUUIProgressSetting` | 11 | Exported Function
 `public: __cdecl CDiskPartUserSetting::~CDiskPartUserSetting(void) __ptr64` | 100 | Exported Function
-`CDUUIProgressSetting` | 10 | Exported Function
+`CDUUIProgressSetting::CDUUIProgressSetting` | 10 | Exported Function
 `public: __cdecl CComputerNameSetting::~CComputerNameSetting(void) __ptr64` | 95 | Exported Function
-`CDiskPartFileSystemUserSetting` | 16 | Exported Function
-`CComputerNameSetting` | 9 | Exported Function
-`CComputerNameSetting` | 7 | Exported Function
-`CComputerNameSetting` | 8 | Exported Function
-`CDiskPartFormatUserSetting` | 19 | Exported Function
-`CDiskPartFormatUserSetting` | 20 | Exported Function
+`CDiskPartFileSystemUserSetting::CDiskPartFileSystemUserSetting` | 16 | Exported Function
+`CComputerNameSetting::CComputerNameSetting` | 9 | Exported Function
+`CComputerNameSetting::CComputerNameSetting` | 7 | Exported Function
+`CComputerNameSetting::CComputerNameSetting` | 8 | Exported Function
+`CDiskPartFormatUserSetting::CDiskPartFormatUserSetting` | 19 | Exported Function
+`CDiskPartFormatUserSetting::CDiskPartFormatUserSetting` | 20 | Exported Function
 `public: __cdecl CDiskPartFileSystemUserSetting::~CDiskPartFileSystemUserSetting(void) __ptr64` | 98 | Exported Function
-`CDiskPartFileSystemUserSetting` | 17 | Exported Function
-`CDiskPartFileSystemUserSetting` | 18 | Exported Function
+`CDiskPartFileSystemUserSetting::CDiskPartFileSystemUserSetting` | 17 | Exported Function
+`CDiskPartFileSystemUserSetting::CDiskPartFileSystemUserSetting` | 18 | Exported Function
 
 
 ## Signature

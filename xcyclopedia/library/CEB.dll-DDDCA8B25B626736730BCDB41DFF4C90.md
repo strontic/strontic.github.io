@@ -25,57 +25,57 @@ PE256 | `4E70181EFCE235099A41DFC33DEC68392081D7282F2F7364D73B4A883C8C6FEF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 43 | Exported Function
-`operator` | 44 | Exported Function
-`operator` | 42 | Exported Function
-`operator` | 40 | Exported Function
-`operator` | 41 | Exported Function
-`operator` | 48 | Exported Function
-`operator` | 49 | Exported Function
-`operator` | 47 | Exported Function
-`operator` | 45 | Exported Function
-`operator` | 46 | Exported Function
-`FontInfo` | 4 | Exported Function
-`get` | 68 | Exported Function
-`allocator` | 3 | Exported Function
-`IWebElement` | 30 | Exported Function
-`IWebElement` | 31 | Exported Function
-`operator` | 38 | Exported Function
-`operator` | 39 | Exported Function
-`operator` | 37 | Exported Function
-`set` | 76 | Exported Function
-`operator` | 36 | Exported Function
-`operator` | 50 | Exported Function
-`on_drag_leave` | 73 | Exported Function
-`on_drag_over` | 74 | Exported Function
-`allocator` | 72 | Exported Function
-`allocator` | 78 | Exported Function
-`translate_accelerator` | 79 | Exported Function
-`SecureString` | 67 | Exported Function
-`SecureString` | 71 | Exported Function
-`char_limit_reached` | 66 | Exported Function
-`allocator` | 75 | Exported Function
-`SecureString` | 65 | Exported Function
-`get_css` | 70 | Exported Function
-`get_count` | 69 | Exported Function
-`operator` | 53 | Exported Function
-`operator` | 51 | Exported Function
-`operator` | 52 | Exported Function
+`ICustomCallback::operator` | 43 | Exported Function
+`IDragDropCallback::operator` | 44 | Exported Function
+`IConWebBrowser::operator` | 42 | Exported Function
+`IClipboardDataFilter::operator` | 40 | Exported Function
+`IConWebBrowser::operator` | 41 | Exported Function
+`IScriptingPlugin::operator` | 48 | Exported Function
+`IWebBrowserEvent::operator` | 49 | Exported Function
+`IScriptingPlugin::operator` | 47 | Exported Function
+`IEditor::operator` | 45 | Exported Function
+`IEditor::operator` | 46 | Exported Function
+`FontInfo::FontInfo` | 4 | Exported Function
+`CScriptingParam::get` | 68 | Exported Function
+`std::allocator` | 3 | Exported Function
+`IWebElement::IWebElement` | 30 | Exported Function
+`IWebElement::IWebElement` | 31 | Exported Function
+`IBrowser::operator` | 38 | Exported Function
+`IClipboardDataFilter::operator` | 39 | Exported Function
+`IBrowser::operator` | 37 | Exported Function
+`CScriptingParam::set` | 76 | Exported Function
+`CScriptingParam::operator` | 36 | Exported Function
+`IWebBrowserMessage::operator` | 50 | Exported Function
+`IDragDropCallback::on_drag_leave` | 73 | Exported Function
+`IDragDropCallback::on_drag_over` | 74 | Exported Function
+`std::allocator` | 72 | Exported Function
+`std::allocator` | 78 | Exported Function
+`ICustomCallback::translate_accelerator` | 79 | Exported Function
+`csf::SecureString` | 67 | Exported Function
+`csf::SecureString` | 71 | Exported Function
+`IWebBrowserEvent::char_limit_reached` | 66 | Exported Function
+`std::allocator` | 75 | Exported Function
+`csf::SecureString` | 65 | Exported Function
+`FontInfo::get_css` | 70 | Exported Function
+`CScriptingParam::get_count` | 69 | Exported Function
+`IWebElement::operator` | 53 | Exported Function
+`IWebBrowserMessage::operator` | 51 | Exported Function
+`IWebElement::operator` | 52 | Exported Function
 `public: virtual __thiscall IWebBrowserEvent::~IWebBrowserEvent(void)` | 35 | Exported Function
-`show_context_menu` | 77 | Exported Function
+`ICustomCallback::show_context_menu` | 77 | Exported Function
 `public: virtual __thiscall IDragDropCallback::~IDragDropCallback(void)` | 34 | Exported Function
 `public: virtual __thiscall CScriptingParam::~CScriptingParam(void)` | 32 | Exported Function
 `public: virtual __thiscall ICustomCallback::~ICustomCallback(void)` | 33 | Exported Function
 `destroy_web_browser` | 82 | Exported Function
-`CScriptingParam` | 1 | Exported Function
+`CScriptingParam::CScriptingParam` | 1 | Exported Function
 `create_web_browser` | 81 | Exported Function
 `const IWebBrowserMessage::``vftable'` | 63 | Exported Function
 `const IWebElement::``vftable'` | 64 | Exported Function
-`IBrowser` | 7 | Exported Function
-`IClipboardDataFilter` | 8 | Exported Function
-`IBrowser` | 6 | Exported Function
-`CScriptingParam` | 2 | Exported Function
-`IBrowser` | 5 | Exported Function
+`IBrowser::IBrowser` | 7 | Exported Function
+`IClipboardDataFilter::IClipboardDataFilter` | 8 | Exported Function
+`IBrowser::IBrowser` | 6 | Exported Function
+`CScriptingParam::CScriptingParam` | 2 | Exported Function
+`IBrowser::IBrowser` | 5 | Exported Function
 `const IClipboardDataFilter::``vftable'` | 56 | Exported Function
 `const IConWebBrowser::``vftable'` | 57 | Exported Function
 `const IBrowser::``vftable'` | 55 | Exported Function
@@ -86,27 +86,27 @@ Function Name | Ordinal | Type
 `const IEditor::``vftable'` | 60 | Exported Function
 `const ICustomCallback::``vftable'` | 58 | Exported Function
 `const IDragDropCallback::``vftable'` | 59 | Exported Function
-`IClipboardDataFilter` | 9 | Exported Function
-`IScriptingPlugin` | 23 | Exported Function
-`IWebBrowserEvent` | 24 | Exported Function
-`IScriptingPlugin` | 22 | Exported Function
-`IEditor` | 20 | Exported Function
-`IScriptingPlugin` | 21 | Exported Function
-`IWebBrowserMessage` | 28 | Exported Function
-`IWebElement` | 29 | Exported Function
-`IWebBrowserMessage` | 27 | Exported Function
-`IWebBrowserEvent` | 25 | Exported Function
-`IWebBrowserMessage` | 26 | Exported Function
-`IConWebBrowser` | 13 | Exported Function
-`ICustomCallback` | 14 | Exported Function
-`IConWebBrowser` | 12 | Exported Function
-`IClipboardDataFilter` | 10 | Exported Function
-`IConWebBrowser` | 11 | Exported Function
-`IEditor` | 18 | Exported Function
-`IEditor` | 19 | Exported Function
-`IDragDropCallback` | 17 | Exported Function
-`ICustomCallback` | 15 | Exported Function
-`IDragDropCallback` | 16 | Exported Function
+`IClipboardDataFilter::IClipboardDataFilter` | 9 | Exported Function
+`IScriptingPlugin::IScriptingPlugin` | 23 | Exported Function
+`IWebBrowserEvent::IWebBrowserEvent` | 24 | Exported Function
+`IScriptingPlugin::IScriptingPlugin` | 22 | Exported Function
+`IEditor::IEditor` | 20 | Exported Function
+`IScriptingPlugin::IScriptingPlugin` | 21 | Exported Function
+`IWebBrowserMessage::IWebBrowserMessage` | 28 | Exported Function
+`IWebElement::IWebElement` | 29 | Exported Function
+`IWebBrowserMessage::IWebBrowserMessage` | 27 | Exported Function
+`IWebBrowserEvent::IWebBrowserEvent` | 25 | Exported Function
+`IWebBrowserMessage::IWebBrowserMessage` | 26 | Exported Function
+`IConWebBrowser::IConWebBrowser` | 13 | Exported Function
+`ICustomCallback::ICustomCallback` | 14 | Exported Function
+`IConWebBrowser::IConWebBrowser` | 12 | Exported Function
+`IClipboardDataFilter::IClipboardDataFilter` | 10 | Exported Function
+`IConWebBrowser::IConWebBrowser` | 11 | Exported Function
+`IEditor::IEditor` | 18 | Exported Function
+`IEditor::IEditor` | 19 | Exported Function
+`IDragDropCallback::IDragDropCallback` | 17 | Exported Function
+`ICustomCallback::ICustomCallback` | 15 | Exported Function
+`IDragDropCallback::IDragDropCallback` | 16 | Exported Function
 
 
 ## Signature

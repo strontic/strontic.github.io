@@ -26,15 +26,15 @@ PE256 | `EC1A3E748B965F62CB5910D5FA122FF5293FC46D23A03C2279B7C667FDDC4F00`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 14 | Exported Function
-`operator` | 13 | Exported Function
-`GetITypeLib` | 20 | Exported Function
-`operator` | 15 | Exported Function
-`operator` | 12 | Exported Function
-`operator` | 9 | Exported Function
-`CComPlusObject` | 6 | Exported Function
-`operator` | 11 | Exported Function
-`operator` | 10 | Exported Function
+`CComPlusObject::operator` | 14 | Exported Function
+`CComPlusMethod::operator` | 13 | Exported Function
+`CComPlusTypelib::GetITypeLib` | 20 | Exported Function
+`CComPlusTypelib::operator` | 15 | Exported Function
+`CComPlusInterface::operator` | 12 | Exported Function
+`CComPlusComponent::operator` | 9 | Exported Function
+`CComPlusObject::CComPlusObject` | 6 | Exported Function
+`CComPlusInterface::operator` | 11 | Exported Function
+`CComPlusComponent::operator` | 10 | Exported Function
 `public: virtual __thiscall CComPlusComponent::~CComPlusComponent(void)` | 7 | Exported Function
 `SysprepComplus` | 38 | Exported Function
 `StartMTSTOCOM` | 23 | Exported Function
@@ -55,11 +55,11 @@ Function Name | Ordinal | Type
 `const CComPlusInterface::``vftable'` | 17 | Exported Function
 `const CComPlusComponent::``vftable'` | 16 | Exported Function
 `DllGetClassObject` | 30 | Exported Function
-`CComPlusInterface` | 3 | Exported Function
-`CComPlusComponent` | 2 | Exported Function
-`CComPlusMethod` | 5 | Exported Function
-`CComPlusInterface` | 4 | Exported Function
-`CComPlusComponent` | 1 | Exported Function
+`CComPlusInterface::CComPlusInterface` | 3 | Exported Function
+`CComPlusComponent::CComPlusComponent` | 2 | Exported Function
+`CComPlusMethod::CComPlusMethod` | 5 | Exported Function
+`CComPlusInterface::CComPlusInterface` | 4 | Exported Function
+`CComPlusComponent::CComPlusComponent` | 1 | Exported Function
 `DllUnregisterServer` | 32 | Exported Function
 `DllRegisterServer` | 31 | Exported Function
 `ManagedRequestW` | 34 | Exported Function

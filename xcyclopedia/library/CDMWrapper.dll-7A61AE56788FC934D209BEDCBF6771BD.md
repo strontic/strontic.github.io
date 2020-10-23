@@ -25,17 +25,17 @@ PE256 | `98261B75A3DF2D2959A8927240FCD2540453A3B86B3C6B40F8823B79D0852F96`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetRecordingDevices` | 7 | Exported Function
-`GetPlaybackDevices` | 6 | Exported Function
-`CommunicationsDeviceManager` | 11 | Exported Function
-`allocator` | 10 | Exported Function
-`Instance` | 8 | Exported Function
-`GetCaptureDevices` | 1 | Exported Function
-`Mgr` | 9 | Exported Function
-`GetCurrentAlertsDeviceName` | 2 | Exported Function
-`GetDefaultCaptureDevice` | 3 | Exported Function
-`GetDefaultRecordingDevice` | 5 | Exported Function
-`GetDefaultPlaybackDevice` | 4 | Exported Function
+`CDMWrapper::GetRecordingDevices` | 7 | Exported Function
+`CDMWrapper::GetPlaybackDevices` | 6 | Exported Function
+`cdm::CommunicationsDeviceManager` | 11 | Exported Function
+`std::allocator` | 10 | Exported Function
+`CDMWrapper::Instance` | 8 | Exported Function
+`CDMWrapper::GetCaptureDevices` | 1 | Exported Function
+`CDMWrapper::Mgr` | 9 | Exported Function
+`CDMWrapper::GetCurrentAlertsDeviceName` | 2 | Exported Function
+`CDMWrapper::GetDefaultCaptureDevice` | 3 | Exported Function
+`CDMWrapper::GetDefaultRecordingDevice` | 5 | Exported Function
+`CDMWrapper::GetDefaultPlaybackDevice` | 4 | Exported Function
 
 
 ## Signature

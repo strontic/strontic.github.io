@@ -25,12 +25,12 @@ PE256 | `F7836E9A0F55AB5F35340797D5FC3F3CB0E76F21EBAEF304400A478C72201264`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HttpDownloadResult` | 4 | Exported Function
-`HttpDownloadResult` | 5 | Exported Function
-`HttpDownloadResult` | 6 | Exported Function
-`HttpDownloader` | 1 | Exported Function
-`CancelCurrentTransfer` | 2 | Exported Function
-`HttpDownloadResult` | 3 | Exported Function
+`HttpDownloadResultEnum::HttpDownloadResult` | 4 | Exported Function
+`HttpDownloadResultEnum::HttpDownloadResult` | 5 | Exported Function
+`HttpDownloadResultEnum::HttpDownloadResult` | 6 | Exported Function
+`HttpDownloader::HttpDownloader` | 1 | Exported Function
+`HttpDownloader::CancelCurrentTransfer` | 2 | Exported Function
+`HttpDownloadResultEnum::HttpDownloadResult` | 3 | Exported Function
 
 
 ## Signature

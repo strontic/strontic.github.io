@@ -3465,7 +3465,7 @@ Function Name | Ordinal | Type
 `MsoFreeFlinfo` | 2751 | Exported Function
 `MsoPwlfFromFlinfo` | 1150 | Exported Function
 `MsoDoFontLinkRgwch` | 485 | Exported Function
-`DoNotUse_OleGetClipboardAndRequestAccessSynchronously` | 562 | Exported Function
+`Clipboard::DoNotUse_OleGetClipboardAndRequestAccessSynchronously` | 562 | Exported Function
 `MsoCrCbvGet` | 1933 | Exported Function
 `Ordinal1000` | 1000 | Exported Function
 `Ordinal1001` | 1001 | Exported Function

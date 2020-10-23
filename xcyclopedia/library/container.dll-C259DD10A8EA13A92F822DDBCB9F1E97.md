@@ -26,22 +26,22 @@ PE256 | `34E39CE57B3C942C03E4AB698E59C1A7949468D84BF9BD55C5F02519A1BAB7B1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetComRegistryRoot` | 4 | Exported Function
-`IsContainerQuiescent` | 8 | Exported Function
-`AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
-`LaunchApplicationContainer` | 9 | Exported Function
-`ShutdownAppContainer` | 14 | Exported Function
+`container::GetComRegistryRoot` | 4 | Exported Function
+`container::IsContainerQuiescent` | 8 | Exported Function
+`container::AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`container::LaunchApplicationContainer` | 9 | Exported Function
+`container::ShutdownAppContainer` | 14 | Exported Function
 `_WcWaitForContainerTerminationNotification@4` | 32 | Exported Function
-`RegisterForContainerTerminationNotification` | 11 | Exported Function
-`GetContainerIdentifierString` | 5 | Exported Function
-`ReleaseContainerTerminationNotification` | 12 | Exported Function
-`LaunchContainer` | 10 | Exported Function
-`WaitForContainerTerminationNotification` | 15 | Exported Function
-`SetRegistryFlushState` | 13 | Exported Function
-`Container` | 3 | Exported Function
-`CleanupContainer` | 2 | Exported Function
-`allocator` | 7 | Exported Function
-`allocator` | 6 | Exported Function
+`container::RegisterForContainerTerminationNotification` | 11 | Exported Function
+`container::GetContainerIdentifierString` | 5 | Exported Function
+`container::ReleaseContainerTerminationNotification` | 12 | Exported Function
+`container::LaunchContainer` | 10 | Exported Function
+`container::WaitForContainerTerminationNotification` | 15 | Exported Function
+`container::SetRegistryFlushState` | 13 | Exported Function
+`DefinitionFile::Container` | 3 | Exported Function
+`container::CleanupContainer` | 2 | Exported Function
+`std::allocator` | 7 | Exported Function
+`std::allocator` | 6 | Exported Function
 `_WcGetComRegistryRoot@8` | 21 | Exported Function
 `_WcDestroyDescription@4` | 20 | Exported Function
 `_WcGetContainerObjectRootPath@12` | 23 | Exported Function

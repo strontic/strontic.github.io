@@ -1043,8 +1043,8 @@ Function Name | Ordinal | Type
 `Ordinal998` | 998 | Exported Function
 `Ordinal997` | 997 | Exported Function
 `Ordinal999` | 999 | Exported Function
-`MsoGetUserDefaultLCID` | 1459 | Exported Function
-`MsoGetSystemDefaultLCID` | 1058 | Exported Function
+`Config::MsoGetUserDefaultLCID` | 1459 | Exported Function
+`Config::MsoGetSystemDefaultLCID` | 1058 | Exported Function
 `Ordinal996` | 996 | Exported Function
 `Ordinal992` | 992 | Exported Function
 `Ordinal991` | 991 | Exported Function

@@ -26,8 +26,7 @@ PE256 | `E5E10225A4E1C8AD4965F62B9C1B1FCD14A7E08C2120EFD9BF7CCDD4F2250084`
 
 ### Usage (stdout):
 ```cmhg
-[Warning]: Malformed configuration entry at line 1: MSCF??4H90j?y:	SQ?? ReportingEvents.log:	SQO? Microsoft-Windows-AppXDeploymentServer-Operational.evtx:SQO? Microsoft-Windows-Store-Operational.evtx:)SQO? Microsoft-Windows-WindowsUpdateClient-Operational.evtx:9SQO? Microsoft-Windows-TWinUI-Operational.evtx :IQ* WindowsUpdate.20200812.032508.526.2.etl?:iQ1 WindowsUpdate.20200812.032508.526.3.etl:IQ? WindowsUpdate.20200812.033922.804.1.etl?:IQ8 WindowsUpdate.20200812.035746.217.1.etl?:	)QF WindowsUpdate.20200909.033411.849.1.etl@:?)Q
-[Warning]: Malformed configuration entry at line 2:  WindowsUpdate.20200909.034019.645.1.etl@:?)QB  WindowsUpdate.20200909.040202.522.1.etl :	)Q?" WindowsUpdate.20200909.042344.228.1.etl :))Q?" WindowsUpdate.20200909.042344.228.2.etl :I)Q# WindowsUpdate.20200909.042344.228.3.etlP:i!)Ql# WindowsUpdate.20200909.042344.228.4.etl:?!)Q?$ WindowsUpdate.20200909.043858.096.1.etl?:?")Q' WindowsUpdate.20200909.045621.757.1.etl?:y#NQ? WindowsUpdate.20201014.024714.552.1.etl@:?#NQ
+[Warning]: Malformed configuration entry at line 1: 
 ```
 
 ### Usage (stderr):

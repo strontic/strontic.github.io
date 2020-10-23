@@ -26,16 +26,16 @@ PE256 | `E950DEC8072C8BEC0E5B1CFEBCADBA8384AC081436C27B6CF5D512A76F90B398`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CReactPartCreationParams` | 5 | Exported Function
-`PUserInstanceGet` | 10 | Exported Function
-`CreateReadingPaneDocument` | 7 | Exported Function
-`ClearDocument` | 6 | Exported Function
+`WordMailReact::CReactPartCreationParams` | 5 | Exported Function
+`WordMailReactUser::PUserInstanceGet` | 10 | Exported Function
+`WordMailReact::CreateReadingPaneDocument` | 7 | Exported Function
+`WordMailReact::ClearDocument` | 6 | Exported Function
 `wdGetApplicationObject` | 2 | Exported Function
 `wdCommandDispatch` | 1 | Exported Function
-`allocator` | 11 | Exported Function
+`std::allocator` | 11 | Exported Function
 `DllCanUnloadNow` | 12 | Exported Function
-`CReactPartCreationParams` | 9 | Exported Function
-`InlineAttachmentInfo` | 8 | Exported Function
+`WordMailReact::CReactPartCreationParams` | 9 | Exported Function
+`WordMailReact::InlineAttachmentInfo` | 8 | Exported Function
 `DllGetClassObject` | 13 | Exported Function
 `FMain` | 3 | Exported Function
 `DllMain` | 4 | Exported Function

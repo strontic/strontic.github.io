@@ -26,29 +26,29 @@ PE256 | `5ADC2D8E5B42636FD9628178964B204F28D9D805865AE89F13FFBEE18A99D137`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CStrRangeT` | 32 | Exported Function
+`AT::CStrRangeT` | 32 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 33 | Exported Function
-`CStrRangeT` | 31 | Exported Function
-`CChain` | 22 | Exported Function
-`Search` | 25 | Exported Function
+`AT::CStrRangeT` | 31 | Exported Function
+`AT::CChain` | 22 | Exported Function
+`CSearchDir::Search` | 25 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 34 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 38 | Exported Function
 `unsigned int __cdecl at_rstr_str(char const *,unsigned int,char const *,unsigned int)` | 39 | Exported Function
 `unsigned int __cdecl at_rstr_convert(unsigned char *,unsigned int,wchar_t const *,unsigned int)` | 37 | Exported Function
 `unsigned int __cdecl at_rstr_chri(char const *,unsigned int,char)` | 35 | Exported Function
 `unsigned int __cdecl at_rstr_chri(wchar_t const *,unsigned int,wchar_t)` | 36 | Exported Function
-`Detach` | 19 | Exported Function
-`CObject` | 12 | Exported Function
-`CObject` | 13 | Exported Function
-`GetPrev` | 21 | Exported Function
-`CChain` | 11 | Exported Function
-`GetNext` | 20 | Exported Function
-`CSearchDir` | 14 | Exported Function
-`operator` | 9 | Exported Function
-`operator` | 10 | Exported Function
-`IsEmpty` | 24 | Exported Function
-`CSearchDir` | 15 | Exported Function
-`IsChain` | 23 | Exported Function
+`CChain::Detach` | 19 | Exported Function
+`AT::CObject` | 12 | Exported Function
+`AT::CObject` | 13 | Exported Function
+`CChain::GetPrev` | 21 | Exported Function
+`AT::CChain` | 11 | Exported Function
+`CChain::GetNext` | 20 | Exported Function
+`AT::CSearchDir` | 14 | Exported Function
+`CObject::operator` | 9 | Exported Function
+`CObject::operator` | 10 | Exported Function
+`CChain::IsEmpty` | 24 | Exported Function
+`AT::CSearchDir` | 15 | Exported Function
+`CChain::IsChain` | 23 | Exported Function
 `void __cdecl at_xml_child(wchar_t const *,wchar_t const *,int,wchar_t const * *,wchar_t const * *)` | 53 | Exported Function
 `void __cdecl at_xml_child(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const * *,wchar_t const * *)` | 52 | Exported Function
 `void __cdecl at_xml_child(char const *,char const *,int,char const * *,char const * *)` | 51 | Exported Function
@@ -95,17 +95,17 @@ Function Name | Ordinal | Type
 `at_astr_upr` | 72 | Exported Function
 `at_astr_rstri` | 70 | Exported Function
 `at_astr_stri` | 71 | Exported Function
-`CChain` | 7 | Exported Function
-`CHexString` | 3 | Exported Function
-`CChain` | 1 | Exported Function
-`_Search` | 26 | Exported Function
-`Create` | 18 | Exported Function
-`CHexString` | 2 | Exported Function
-`CSearchDir` | 5 | Exported Function
-`CSearchDir` | 6 | Exported Function
-`CSearchDir` | 4 | Exported Function
-`operator` | 16 | Exported Function
-`CHexString` | 8 | Exported Function
+`AT::CChain` | 7 | Exported Function
+`CHexString::CHexString` | 3 | Exported Function
+`CChain::CChain` | 1 | Exported Function
+`CSearchDir::_Search` | 26 | Exported Function
+`CHexString::Create` | 18 | Exported Function
+`CHexString::CHexString` | 2 | Exported Function
+`AT::CSearchDir` | 5 | Exported Function
+`CSearchDir::CSearchDir` | 6 | Exported Function
+`AT::CSearchDir` | 4 | Exported Function
+`CHexString::operator` | 16 | Exported Function
+`AT::CHexString` | 8 | Exported Function
 `int __cdecl at_xml_name(wchar_t const *,wchar_t const *,wchar_t const * *,wchar_t const * *)` | 57 | Exported Function
 `at_wstr_upr` | 90 | Exported Function
 `ata_urldec` | 91 | Exported Function
@@ -113,9 +113,9 @@ Function Name | Ordinal | Type
 `at_wstr_rchri` | 87 | Exported Function
 `at_wstr_rstri` | 88 | Exported Function
 `ata_urlenc` | 92 | Exported Function
-`allocator` | 27 | Exported Function
+`std::allocator` | 27 | Exported Function
 `int __cdecl at_xml_name(char const *,char const *,char const * *,char const * *)` | 56 | Exported Function
-`CSearchDir` | 17 | Exported Function
+`AT::CSearchDir` | 17 | Exported Function
 `char * __cdecl at_str_tod(char const *,char const *,double &)` | 46 | Exported Function
 `char * __cdecl at_str_tol(char const *,char const *,long &,int)` | 48 | Exported Function
 

@@ -68,9 +68,9 @@ Function Name | Ordinal | Type
 `MessagingMultiSimConverter_CreateInstanceWithSimOM` | 29 | Exported Function
 `Messaging_ChatTransportIdToStoreId` | 31 | Exported Function
 `Messaging_CreateMessageInConversation` | 32 | Exported Function
-`allocator` | 7 | Exported Function
-`DeleteTempFiles` | 4 | Exported Function
-`GetData` | 6 | Exported Function
+`utl::allocator` | 7 | Exported Function
+`MessagingDeferredAttachment::DeleteTempFiles` | 4 | Exported Function
+`MessagingDeferredAttachment::GetData` | 6 | Exported Function
 `Messaging_FormatRecipient` | 36 | Exported Function
 `Messaging_FormatRecipientFromAggregate` | 37 | Exported Function
 `Messaging_FormatPhoneNumber` | 35 | Exported Function
@@ -81,9 +81,9 @@ Function Name | Ordinal | Type
 `DllGetClassObject` | 23 | Exported Function
 `CellMessagingHelper_CreateInstance` | 21 | Exported Function
 `DllCanUnloadNow` | 22 | Exported Function
-`CommitDeferredContent` | 2 | Exported Function
-`DeleteMessageAndTempFiles` | 3 | Exported Function
-`CommitAllAttachments` | 1 | Exported Function
+`MessagingDeferredAttachment::CommitDeferredContent` | 2 | Exported Function
+`MessagingDeferredAttachment::DeleteMessageAndTempFiles` | 3 | Exported Function
+`MessagingDeferredAttachment::CommitAllAttachments` | 1 | Exported Function
 `GetHasInternationalCapability` | 24 | Exported Function
 `GetMaxAuthorizedSizeOfMMS` | 9 | Exported Function
 `Messaging_GetSmsCharacterCount` | 50 | Exported Function

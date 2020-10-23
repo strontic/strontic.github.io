@@ -40,7 +40,7 @@ Function Name | Ordinal | Type
 `PipelineCleanFiles` | 2 | Exported Function
 `int __cdecl PipelineWatchWorkingManifest(wchar_t const * __ptr64)` | 20 | Exported Function
 `int __cdecl PipelineForceAllStreamUnitsIntoTheForeground(void)` | 6 | Exported Function
-`shared_ptr` | 19 | Exported Function
+`std::shared_ptr` | 19 | Exported Function
 `PipelineGetFilesForOp` | 7 | Exported Function
 `PipelineGetFilesToRemove` | 8 | Exported Function
 `PipelineDeInitialize` | 5 | Exported Function

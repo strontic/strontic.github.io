@@ -26,23 +26,23 @@ PE256 | `A1CD34492C1E03590AE6EE4B56B29B371A8C6682A72349C3928684658D75C82D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TCntPtr` | 1 | Exported Function
+`Mso::TCntPtr` | 1 | Exported Function
 `long __stdcall CreateOsfContentControl(struct IOfficeSolutionFramework *,struct IOsfExtensionPersistence *,void *,unsigned long,unsigned long,bool,struct IOsfContentControl * *)` | 6 | Exported Function
-`TCntPtr` | 7 | Exported Function
-`CreateHtmlTaskPaneControl` | 5 | Exported Function
+`Mso::TCntPtr` | 7 | Exported Function
+`Osf::CreateHtmlTaskPaneControl` | 5 | Exported Function
 `DllUnregisterServer` | 24 | Exported Function
 `DllRegisterServer` | 23 | Exported Function
-`allocator` | 2 | Exported Function
+`std::allocator` | 2 | Exported Function
 `int __stdcall OSFLoadString(unsigned int,wchar_t *,int)` | 16 | Exported Function
-`IExtensionInstance` | 8 | Exported Function
+`SDK::IExtensionInstance` | 8 | Exported Function
 `void __stdcall CreateCacheForPreinstalledApps(void)` | 3 | Exported Function
 `struct HINSTANCE__ * __stdcall GetOsfIntlDllInstance(void)` | 11 | Exported Function
 `void __stdcall SetSandboxThreadSetupTeardown(void (__stdcall*)(void),void (__stdcall*)(void))` | 18 | Exported Function
-`function` | 4 | Exported Function
-`IExtensionInstance` | 10 | Exported Function
-`IDocumentProperties` | 9 | Exported Function
+`std::function` | 4 | Exported Function
+`SDK::IExtensionInstance` | 10 | Exported Function
+`Csi::IDocumentProperties` | 9 | Exported Function
 `long __stdcall OSFInitialize(enum OsfHost,struct IOfficeSolutionFrameworkHost *,struct IOfficeSolutionFramework * *)` | 15 | Exported Function
-`TCntPtr` | 14 | Exported Function
+`Mso::TCntPtr` | 14 | Exported Function
 `_DoWefGalleryWebDialogInitTab@16` | 29 | Exported Function
 `_DoWefGalleryWebDialogInitTab2@16` | 28 | Exported Function
 `_LaunchAppSourceLandingPage@4` | 31 | Exported Function
@@ -58,7 +58,7 @@ Function Name | Ordinal | Type
 `DllGetClassObject` | 21 | Exported Function
 `_RedirectWefGalleryWebDialog@4` | 34 | Exported Function
 `_LaunchInClientStoreForUrl@16` | 33 | Exported Function
-`TCntPtr` | 13 | Exported Function
+`Mso::TCntPtr GetWefGalleryWebDialogLocation` | 13 | Exported Function
 `bool __stdcall SandboxManagerReady(void)` | 17 | Exported Function
 
 

@@ -29,21 +29,21 @@ Function Name | Ordinal | Type
 `QueueTask` | 17 | Exported Function
 `SendHttpRequest` | 18 | Exported Function
 `HasCustomTaskHandler` | 16 | Exported Function
-`Create` | 1 | Exported Function
-`SetIsInitialized` | 12 | Exported Function
-`HttpDelegate` | 10 | Exported Function
-`TaskDispatcherDelegate` | 11 | Exported Function
-`LoggerDelegate` | 13 | Exported Function
-`HttpOperation` | 9 | Exported Function
+`HttpClient::Create` | 1 | Exported Function
+`logger::SetIsInitialized` | 12 | Exported Function
+`mip::HttpDelegate` | 10 | Exported Function
+`mip::TaskDispatcherDelegate` | 11 | Exported Function
+`mip::LoggerDelegate` | 13 | Exported Function
+`mip::HttpOperation` | 9 | Exported Function
 `CancelTask` | 15 | Exported Function
-`GetLoggerDelegateInstance` | 7 | Exported Function
-`IsInitialized` | 8 | Exported Function
+`logger::GetLoggerDelegateInstance` | 7 | Exported Function
+`logger::IsInitialized` | 8 | Exported Function
 `CancelHttpOperation` | 14 | Exported Function
-`OAuth2Challenge` | 5 | Exported Function
-`allocator` | 2 | Exported Function
-`allocator` | 4 | Exported Function
-`allocator` | 6 | Exported Function
-`HttpRequestBase` | 3 | Exported Function
+`AuthDelegate::OAuth2Challenge` | 5 | Exported Function
+`std::allocator` | 2 | Exported Function
+`std::allocator` | 4 | Exported Function
+`std::allocator` | 6 | Exported Function
+`mip::HttpRequestBase` | 3 | Exported Function
 
 
 ## Signature

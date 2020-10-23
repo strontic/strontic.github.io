@@ -25,31 +25,31 @@ PE256 | `D9BCFCA49B6BB2E426DB9BB6773D240154196FF912806B2783C984F3FA201015`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IMigrationService` | 10 | Exported Function
-`shared_from_this` | 21 | Exported Function
-`shared_from_this` | 20 | Exported Function
-`IMigrationService` | 3 | Exported Function
-`IMigrationService` | 4 | Exported Function
-`ServiceFactory` | 5 | Exported Function
-`MigrationService` | 8 | Exported Function
-`MigrationState` | 22 | Exported Function
-`stopMigration` | 23 | Exported Function
-`weak_from_this` | 25 | Exported Function
-`weak_from_this` | 24 | Exported Function
-`IMigrationService` | 7 | Exported Function
-`onUnknowMessage` | 19 | Exported Function
-`IMigrationService` | 13 | Exported Function
-`StopReason` | 15 | Exported Function
-`MigrationService` | 1 | Exported Function
-`getMigrationService` | 14 | Exported Function
-`IMigrationService` | 11 | Exported Function
-`IMigrationIpcMgtCallback` | 12 | Exported Function
-`onTeamsIpcFinished` | 16 | Exported Function
-`onTeamsIpcReady` | 17 | Exported Function
-`TeamsStates` | 18 | Exported Function
-`MigrationService` | 2 | Exported Function
-`MigrationService` | 6 | Exported Function
-`MigrationService` | 9 | Exported Function
+`migration::IMigrationService` | 10 | Exported Function
+`migration::MigrationService` | 21 | Exported Function
+`migration::MigrationService` | 20 | Exported Function
+`migration::IMigrationService` | 3 | Exported Function
+`IMigrationService::IMigrationService` | 4 | Exported Function
+`CSFUnified::ServiceFactory` | 5 | Exported Function
+`migration::MigrationService` | 8 | Exported Function
+`migration::MigrationState` | 22 | Exported Function
+`MigrationService::stopMigration` | 23 | Exported Function
+`migration::MigrationService` | 25 | Exported Function
+`migration::MigrationService` | 24 | Exported Function
+`migration::IMigrationService` | 7 | Exported Function
+`MigrationService::onUnknowMessage` | 19 | Exported Function
+`migration::IMigrationService` | 13 | Exported Function
+`MigrationService::StopReason` | 15 | Exported Function
+`migration::MigrationService` | 1 | Exported Function
+`migration::getMigrationService` | 14 | Exported Function
+`migration::IMigrationService` | 11 | Exported Function
+`migration::IMigrationIpcMgtCallback` | 12 | Exported Function
+`MigrationService::onTeamsIpcFinished` | 16 | Exported Function
+`MigrationService::onTeamsIpcReady` | 17 | Exported Function
+`IpcMessage::TeamsStates` | 18 | Exported Function
+`migration::MigrationService` | 2 | Exported Function
+`migration::MigrationService` | 6 | Exported Function
+`migration::MigrationService` | 9 | Exported Function
 
 
 ## Signature

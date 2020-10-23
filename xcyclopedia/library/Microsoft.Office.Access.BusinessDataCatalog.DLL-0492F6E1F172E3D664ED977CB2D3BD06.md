@@ -26,11 +26,11 @@ PE256 | `8032D87698C221494CBCEA7CBF41390458307A66B615D2DDCF790ED485EFD6A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FEnsureDependencies` | 4 | Exported Function
-`GetInstance` | 5 | Exported Function
-`IWSSystem` | 2 | Exported Function
-`IWSSystem` | 3 | Exported Function
-`IWSSystem` | 1 | Exported Function
+`IWSSystem::FEnsureDependencies` | 4 | Exported Function
+`IWSSystem::GetInstance` | 5 | Exported Function
+`Interop::IWSSystem` | 2 | Exported Function
+`Interop::IWSSystem` | 3 | Exported Function
+`IWSSystem::IWSSystem` | 1 | Exported Function
 
 
 ## Signature

@@ -26,36 +26,36 @@ PE256 | `FFE485085FB7C31B1D35C9EADAC6747DD8AB8B9B15C685AED4F43B6DDA1F7B44`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Detach` | 19 | Exported Function
-`CChain` | 22 | Exported Function
-`operator` | 10 | Exported Function
-`IsEmpty` | 24 | Exported Function
-`operator` | 9 | Exported Function
+`CChain::Detach` | 19 | Exported Function
+`AT::CChain` | 22 | Exported Function
+`CObject::operator` | 10 | Exported Function
+`CChain::IsEmpty` | 24 | Exported Function
+`CObject::operator` | 9 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 37 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 38 | Exported Function
-`CStrRangeT` | 36 | Exported Function
-`Search` | 25 | Exported Function
-`CStrRangeT` | 35 | Exported Function
-`IsChain` | 23 | Exported Function
-`CChain` | 11 | Exported Function
-`GetNext` | 20 | Exported Function
-`CSearchDir` | 6 | Exported Function
-`CSearchDir` | 4 | Exported Function
-`CSearchDir` | 5 | Exported Function
-`CSearchDir` | 14 | Exported Function
-`CSearchDir` | 15 | Exported Function
-`CObject` | 13 | Exported Function
-`GetPrev` | 21 | Exported Function
-`CObject` | 12 | Exported Function
-`CStringT` | 28 | Exported Function
-`CStringT` | 29 | Exported Function
-`CStringT` | 27 | Exported Function
+`AT::CStrRangeT` | 36 | Exported Function
+`CSearchDir::Search` | 25 | Exported Function
+`AT::CStrRangeT` | 35 | Exported Function
+`CChain::IsChain` | 23 | Exported Function
+`AT::CChain` | 11 | Exported Function
+`CChain::GetNext` | 20 | Exported Function
+`CSearchDir::CSearchDir` | 6 | Exported Function
+`AT::CSearchDir` | 4 | Exported Function
+`AT::CSearchDir` | 5 | Exported Function
+`AT::CSearchDir` | 14 | Exported Function
+`AT::CSearchDir` | 15 | Exported Function
+`AT::CObject` | 13 | Exported Function
+`CChain::GetPrev` | 21 | Exported Function
+`AT::CObject` | 12 | Exported Function
+`AT::CStringT` | 28 | Exported Function
+`AT::CStringT` | 29 | Exported Function
+`AT::CStringT` | 27 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 32 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 34 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 51 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 53 | Exported Function
 `void __cdecl setConOIMgrEvent(class _conIConOIMgrEvent *)` | 55 | Exported Function
-`CStringT` | 30 | Exported Function
+`AT::CStringT` | 30 | Exported Function
 `void __cdecl at_mem_free(void *)` | 33 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 49 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 42 | Exported Function
@@ -89,16 +89,16 @@ Function Name | Ordinal | Type
 `at_astr_stri` | 63 | Exported Function
 `at_astr_rchri` | 61 | Exported Function
 `at_astr_rstri` | 62 | Exported Function
-`Create` | 18 | Exported Function
-`CChain` | 1 | Exported Function
-`_Search` | 26 | Exported Function
-`CSearchDir` | 17 | Exported Function
-`allocator` | 31 | Exported Function
-`operator` | 16 | Exported Function
-`CHexString` | 8 | Exported Function
-`CHexString` | 2 | Exported Function
-`CChain` | 7 | Exported Function
-`CHexString` | 3 | Exported Function
+`CHexString::Create` | 18 | Exported Function
+`CChain::CChain` | 1 | Exported Function
+`CSearchDir::_Search` | 26 | Exported Function
+`AT::CSearchDir` | 17 | Exported Function
+`std::allocator` | 31 | Exported Function
+`CHexString::operator` | 16 | Exported Function
+`AT::CHexString` | 8 | Exported Function
+`CHexString::CHexString` | 2 | Exported Function
+`AT::CChain` | 7 | Exported Function
+`CHexString::CHexString` | 3 | Exported Function
 `class conIConOIMgr * __cdecl getConOIMgr(void)` | 54 | Exported Function
 `at_wstr_rstri` | 80 | Exported Function
 `at_wstr_stri` | 81 | Exported Function

@@ -26,54 +26,54 @@ PE256 | `B4433685A3BC2F23EF1700F3307DFB65358C6CF0DC048A77D0D5A6D99BB81D29`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`shared_ptr` | 39 | Exported Function
-`onCreateTabs` | 38 | Exported Function
-`onClosing` | 37 | Exported Function
-`onTabDisabled` | 42 | Exported Function
-`onRegistered` | 41 | Exported Function
-`onOKPressed` | 40 | Exported Function
-`onApplyPressed` | 33 | Exported Function
-`onApplicationStateChanged` | 32 | Exported Function
-`logoutRequested` | 31 | Exported Function
-`onClosed` | 36 | Exported Function
-`onCancelPressed` | 35 | Exported Function
-`onBroadcastMessageReceived` | 34 | Exported Function
-`Release` | 24 | Exported Function
-`AddRef` | 20 | Exported Function
-`startPlugin` | 48 | Exported Function
-`allocator` | 26 | Exported Function
-`Save` | 25 | Exported Function
-`ServiceFactory` | 22 | Exported Function
-`onTabSelected` | 45 | Exported Function
-`onTabFocus` | 44 | Exported Function
-`onTabEnabled` | 43 | Exported Function
-`QueryInterface` | 23 | Exported Function
-`processLocalEvent` | 47 | Exported Function
-`onUnRegistered` | 46 | Exported Function
-`IOptionsTab` | 5 | Exported Function
-`IOptionsTab` | 4 | Exported Function
-`ConfigOverride` | 3 | Exported Function
-`OptionsTabPlugin` | 7 | Exported Function
-`OptionsTabPlugin` | 8 | Exported Function
-`IOptionsTab` | 6 | Exported Function
+`std::shared_ptr` | 39 | Exported Function
+`OptionsTabPlugin::onCreateTabs` | 38 | Exported Function
+`OptionsTabPlugin::onClosing` | 37 | Exported Function
+`OptionsTabPlugin::onTabDisabled` | 42 | Exported Function
+`OptionsTabPlugin::onRegistered` | 41 | Exported Function
+`OptionsTabPlugin::onOKPressed` | 40 | Exported Function
+`OptionsTabPlugin::onApplyPressed` | 33 | Exported Function
+`OptionsTabPlugin::onApplicationStateChanged` | 32 | Exported Function
+`OptionsTabPlugin::logoutRequested` | 31 | Exported Function
+`OptionsTabPlugin::onClosed` | 36 | Exported Function
+`OptionsTabPlugin::onCancelPressed` | 35 | Exported Function
+`OptionsTabPlugin::onBroadcastMessageReceived` | 34 | Exported Function
+`OptionsTabPlugin::Release` | 24 | Exported Function
+`OptionsTabPlugin::AddRef` | 20 | Exported Function
+`OptionsTabPlugin::startPlugin` | 48 | Exported Function
+`std::allocator` | 26 | Exported Function
+`ConfigOverride::Save` | 25 | Exported Function
+`CSFUnified::ServiceFactory` | 22 | Exported Function
+`OptionsTabPlugin::onTabSelected` | 45 | Exported Function
+`OptionsTabPlugin::onTabFocus` | 44 | Exported Function
+`OptionsTabPlugin::onTabEnabled` | 43 | Exported Function
+`OptionsTabPlugin::QueryInterface` | 23 | Exported Function
+`OptionsTabPlugin::processLocalEvent` | 47 | Exported Function
+`OptionsTabPlugin::onUnRegistered` | 46 | Exported Function
+`IOptionsTab::IOptionsTab` | 5 | Exported Function
+`IOptionsTab::IOptionsTab` | 4 | Exported Function
+`ConfigOverride::ConfigOverride` | 3 | Exported Function
+`OptionsTabPlugin::OptionsTabPlugin` | 7 | Exported Function
+`OptionsTabPlugin::OptionsTabPlugin` | 8 | Exported Function
+`IOptionsTab::IOptionsTab` | 6 | Exported Function
 `const OptionsTabPlugin::``vftable'{for ``IJabberOptionsWindowTab'}` | 18 | Exported Function
 `const IOptionsTab::``vftable'` | 17 | Exported Function
 `const ConfigOverride::``vftable'` | 16 | Exported Function
-`ServiceFactory` | 2 | Exported Function
-`ConfigOverride` | 1 | Exported Function
+`CSFUnified::ServiceFactory` | 2 | Exported Function
+`ConfigOverride::ConfigOverride` | 1 | Exported Function
 `const OptionsTabPlugin::``vftable'{for ``IJabberPlugin'}` | 19 | Exported Function
-`destroy` | 27 | Exported Function
-`allocator` | 21 | Exported Function
-`allocator` | 15 | Exported Function
-`loggedOut` | 30 | Exported Function
-`loggedIn` | 29 | Exported Function
-`initPlugin` | 28 | Exported Function
-`operator` | 13 | Exported Function
-`operator` | 12 | Exported Function
-`operator` | 11 | Exported Function
+`OptionsTabPlugin::destroy` | 27 | Exported Function
+`std::allocator` | 21 | Exported Function
+`std::allocator` | 15 | Exported Function
+`OptionsTabPlugin::loggedOut` | 30 | Exported Function
+`OptionsTabPlugin::loggedIn` | 29 | Exported Function
+`OptionsTabPlugin::initPlugin` | 28 | Exported Function
+`IOptionsTab::operator` | 13 | Exported Function
+`IOptionsTab::operator` | 12 | Exported Function
+`ConfigOverride::operator` | 11 | Exported Function
 `public: virtual __thiscall OptionsTabPlugin::~OptionsTabPlugin(void)` | 10 | Exported Function
 `public: virtual __thiscall ConfigOverride::~ConfigOverride(void)` | 9 | Exported Function
-`operator` | 14 | Exported Function
+`OptionsTabPlugin::operator` | 14 | Exported Function
 
 
 ## Signature

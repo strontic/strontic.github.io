@@ -25,12 +25,12 @@ PE256 | `920A8C891E4EEE2AB27ED33D8BC27DAD40F5E73312BF9FD85B9575AD7E2272F7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`allocator` | 5 | Exported Function
-`Patch` | 6 | Exported Function
-`allocator` | 3 | Exported Function
-`Diff` | 2 | Exported Function
-`allocator` | 1 | Exported Function
-`allocator` | 4 | Exported Function
+`std::allocator` | 5 | Exported Function
+`std::allocator` | 6 | Exported Function
+`std::allocator` | 3 | Exported Function
+`std::allocator` | 2 | Exported Function
+`std::allocator` | 1 | Exported Function
+`std::allocator` | 4 | Exported Function
 
 
 ## Signature

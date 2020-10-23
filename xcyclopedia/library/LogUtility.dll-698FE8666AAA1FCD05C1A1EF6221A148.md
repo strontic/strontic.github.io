@@ -26,15 +26,15 @@ PE256 | `FD56D3C6FD41C20425AA507501A435D7AE60F692574C7F926FF34C4531667CAE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`allocator` | 9 | Exported Function
-`resetLogManager` | 6 | Exported Function
-`setLogEnableStatus` | 8 | Exported Function
-`allocator` | 7 | Exported Function
-`getInstance` | 4 | Exported Function
-`CLogManager` | 2 | Exported Function
-`allocator` | 1 | Exported Function
-`getCustomLogFolder` | 3 | Exported Function
-`getLogEnableStatus` | 5 | Exported Function
+`std::allocator` | 9 | Exported Function
+`CLogManager::resetLogManager` | 6 | Exported Function
+`CLogManagerOptions::setLogEnableStatus` | 8 | Exported Function
+`std::allocator` | 7 | Exported Function
+`CLogManagerOptions::getInstance` | 4 | Exported Function
+`SecomLogManager::CLogManager` | 2 | Exported Function
+`std::allocator` | 1 | Exported Function
+`CLogManagerOptions::getCustomLogFolder` | 3 | Exported Function
+`CLogManagerOptions::getLogEnableStatus` | 5 | Exported Function
 
 
 ## Signature

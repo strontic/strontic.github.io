@@ -273,7 +273,7 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall bad_typeid::~bad_typeid(void)` | 14 | Exported Function
 `public: void __thiscall bad_typeid::``default constructor closure'(void)` | 30 | Exported Function
 `public: void __thiscall bad_cast::``default constructor closure'(void)` | 29 | Exported Function
-`what` | 51 | Exported Function
+`exception::what` | 51 | Exported Function
 `signal` | 766 | Exported Function
 `setvbuf` | 765 | Exported Function
 `setlocale` | 764 | Exported Function
@@ -392,32 +392,32 @@ Function Name | Ordinal | Type
 `fwrite` | 693 | Exported Function
 `fwprintf` | 692 | Exported Function
 `ftell` | 691 | Exported Function
-`bad_cast` | 6 | Exported Function
-`bad_cast` | 4 | Exported Function
-`__non_rtti_object` | 1 | Exported Function
-`bad_typeid` | 7 | Exported Function
-`bad_typeid` | 8 | Exported Function
-`bad_cast` | 5 | Exported Function
-`__non_rtti_object` | 2 | Exported Function
+`bad_cast::bad_cast` | 6 | Exported Function
+`bad_cast::bad_cast` | 4 | Exported Function
+`__non_rtti_object::__non_rtti_object` | 1 | Exported Function
+`bad_typeid::bad_typeid` | 7 | Exported Function
+`bad_typeid::bad_typeid` | 8 | Exported Function
+`bad_cast::bad_cast` | 5 | Exported Function
+`__non_rtti_object::__non_rtti_object` | 2 | Exported Function
 `perror` | 747 | Exported Function
 `modf` | 746 | Exported Function
 `mktime` | 745 | Exported Function
-`bad_cast` | 3 | Exported Function
+`bad_cast::bad_cast` | 3 | Exported Function
 `printf` | 749 | Exported Function
 `pow` | 748 | Exported Function
-`before` | 39 | Exported Function
-`operator` | 22 | Exported Function
-`operator` | 21 | Exported Function
+`type_info::before` | 39 | Exported Function
+`exception::operator` | 22 | Exported Function
+`bad_typeid::operator` | 21 | Exported Function
 `public: virtual __thiscall __non_rtti_object::~__non_rtti_object(void)` | 12 | Exported Function
-`operator` | 23 | Exported Function
-`operator` | 24 | Exported Function
-`operator` | 20 | Exported Function
-`exception` | 11 | Exported Function
-`exception` | 10 | Exported Function
-`exception` | 9 | Exported Function
-`operator` | 19 | Exported Function
-`raw_name` | 41 | Exported Function
-`name` | 40 | Exported Function
+`type_info::operator` | 23 | Exported Function
+`type_info::operator` | 24 | Exported Function
+`bad_cast::operator` | 20 | Exported Function
+`exception::exception` | 11 | Exported Function
+`exception::exception` | 10 | Exported Function
+`exception::exception` | 9 | Exported Function
+`__non_rtti_object::operator` | 19 | Exported Function
+`type_info::raw_name` | 41 | Exported Function
+`type_info::name` | 40 | Exported Function
 `labs` | 728 | Exported Function
 `isxdigit` | 727 | Exported Function
 `iswxdigit` | 726 | Exported Function

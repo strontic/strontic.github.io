@@ -2038,9 +2038,9 @@ Function Name | Ordinal | Type
 `Ordinal992` | 992 | Exported Function
 `Ordinal993` | 993 | Exported Function
 `Ordinal997` | 997 | Exported Function
-`caseCompare` | 136 | Exported Function
-`caseCompare` | 3448 | Exported Function
-`caseCompare` | 1962 | Exported Function
+`RWCString::caseCompare` | 136 | Exported Function
+`RWCString::caseCompare` | 3448 | Exported Function
+`RWCString::caseCompare` | 1962 | Exported Function
 `Ordinal998` | 998 | Exported Function
 `Ordinal999` | 999 | Exported Function
 `Ordinal991` | 991 | Exported Function

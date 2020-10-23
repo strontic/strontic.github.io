@@ -49,6 +49,21 @@ PE256 | `165F4F21590622958DF4BBE16DB7E988062EC0FEC39DEA38111730A9B3CA54E9`
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/4256104f1e0eb69836f00b38813ae62f79abed1724e0b07f8aca908e7bb74806/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess.exe](AddInProcess.exe-929EA1AF28AFEA2A3311FD4297425C94.md) | 46
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-9827FF3CDF4B83F9C86354606736CA9C.md) | 50
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInUtil.exe](AddInUtil.exe-11BED2C86507F7DF04BA52CFC7EB7276.md) | 49
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-BB8B6B54FD50C08AB579B84BF07918CF.md) | 52
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe](InstallUtil.exe-5D4073B2EB6D217C19F2B22F21BF8D57.md) | 52
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\AddInProcess.exe](AddInProcess.exe-929EA1AF28AFEA2A3311FD4297425C94.md) | 46
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-9827FF3CDF4B83F9C86354606736CA9C.md) | 50
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\AddInUtil.exe](AddInUtil.exe-11BED2C86507F7DF04BA52CFC7EB7276.md) | 49
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-542F3F799FC63406802309E9D6415BA7.md) | 52
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe](InstallUtil.exe-909A1D386235DD5F6BA61B91BA34119D.md) | 50
+
 
 
 

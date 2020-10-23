@@ -29,25 +29,25 @@ Function Name | Ordinal | Type
 `public: virtual __cdecl CWfpER::~CWfpER(void) __ptr64` | 8 | Exported Function
 `public: virtual __cdecl CDwWinER::~CDwWinER(void) __ptr64` | 7 | Exported Function
 `public: virtual __cdecl IDiagER::~IDiagER(void) __ptr64` | 9 | Exported Function
-`AddFiles` | 21 | Exported Function
-`AddBucketingParameters` | 18 | Exported Function
-`ReleaseInstance` | 35 | Exported Function
-`operator` | 13 | Exported Function
-`operator` | 12 | Exported Function
-`operator` | 14 | Exported Function
-`CreateInstance` | 24 | Exported Function
-`GetErrorReporter` | 32 | Exported Function
-`Submit` | 40 | Exported Function
-`SetHeader` | 37 | Exported Function
-`AddBucketingParameters` | 20 | Exported Function
-`SetHeader` | 38 | Exported Function
-`AddFiles` | 23 | Exported Function
-`Initialize` | 34 | Exported Function
-`SetHeader` | 36 | Exported Function
-`Initialize` | 33 | Exported Function
-`Submit` | 39 | Exported Function
-`AddFiles` | 22 | Exported Function
-`AddBucketingParameters` | 19 | Exported Function
+`CDwWinER::AddFiles` | 21 | Exported Function
+`CDwWinER::AddBucketingParameters` | 18 | Exported Function
+`CDiagERFactory::ReleaseInstance` | 35 | Exported Function
+`CWfpER::operator` | 13 | Exported Function
+`CDwWinER::operator` | 12 | Exported Function
+`IDiagER::operator` | 14 | Exported Function
+`CDiagERFactory::CreateInstance` | 24 | Exported Function
+`CDiagERFactory::GetErrorReporter` | 32 | Exported Function
+`CWfpER::Submit` | 40 | Exported Function
+`CWfpER::SetHeader` | 37 | Exported Function
+`IDiagER::AddBucketingParameters` | 20 | Exported Function
+`IDiagER::SetHeader` | 38 | Exported Function
+`IDiagER::AddFiles` | 23 | Exported Function
+`CWfpER::Initialize` | 34 | Exported Function
+`CDwWinER::SetHeader` | 36 | Exported Function
+`CDwWinER::Initialize` | 33 | Exported Function
+`CDwWinER::Submit` | 39 | Exported Function
+`CWfpER::AddFiles` | 22 | Exported Function
+`CWfpER::AddBucketingParameters` | 19 | Exported Function
 `DiagERSubmit` | 29 | Exported Function
 `DiagERSetHeader` | 28 | Exported Function
 `DiagERSubmitEx` | 30 | Exported Function
@@ -59,17 +59,17 @@ Function Name | Ordinal | Type
 `const IDiagER::``vftable'` | 17 | Exported Function
 `DiagERAddFiles` | 26 | Exported Function
 `DiagERAddBucketingParameters` | 25 | Exported Function
-`IDiagER` | 5 | Exported Function
-`CWfpER` | 4 | Exported Function
-`IDiagER` | 6 | Exported Function
-`operator` | 11 | Exported Function
-`operator` | 10 | Exported Function
-`CWfpER` | 3 | Exported Function
+`IDiagER::IDiagER` | 5 | Exported Function
+`CWfpER::CWfpER` | 4 | Exported Function
+`IDiagER::IDiagER` | 6 | Exported Function
+`CDiagERFactory::operator` | 11 | Exported Function
+`CDiagERFactory::operator` | 10 | Exported Function
+`CWfpER::CWfpER` | 3 | Exported Function
 `g_WerApi` | 43 | Exported Function
 `g_Shell32` | 42 | Exported Function
-`m_diagER` | 44 | Exported Function
-`CDwWinER` | 2 | Exported Function
-`CDwWinER` | 1 | Exported Function
+`CDiagERFactory::m_diagER` | 44 | Exported Function
+`CDwWinER::CDwWinER` | 2 | Exported Function
+`CDwWinER::CDwWinER` | 1 | Exported Function
 
 
 ## Signature

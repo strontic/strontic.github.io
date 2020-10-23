@@ -40,8 +40,8 @@ Function Name | Ordinal | Type
 `WBXTRACE` | 1 | Exported Function
 `WBXTRACEA` | 9 | Exported Function
 `WBXTRACERAW` | 2 | Exported Function
-`JMLoggerLevel` | 22 | Exported Function
-`JMLoggerLevel` | 21 | Exported Function
+`JM_SDK::JMLoggerLevel` | 22 | Exported Function
+`JM_SDK::JMLoggerLevel` | 21 | Exported Function
 `void __cdecl WBXJabberTraceDestroy(void)` | 23 | Exported Function
 `InitWBXTrace` | 20 | Exported Function
 `log2file` | 19 | Exported Function
@@ -49,7 +49,7 @@ Function Name | Ordinal | Type
 `WBXDumpFileClose` | 15 | Exported Function
 `WBXDumptoFile` | 7 | Exported Function
 `WBXERROR` | 6 | Exported Function
-`JMLogger` | 24 | Exported Function
+`JM_SDK::JMLogger` | 24 | Exported Function
 `WBXDEBUG` | 3 | Exported Function
 `WBXDEBUGA` | 11 | Exported Function
 

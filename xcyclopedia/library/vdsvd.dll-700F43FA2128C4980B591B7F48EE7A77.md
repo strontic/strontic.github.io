@@ -26,37 +26,37 @@ PE256 | `3BE36E6675E296F94506266CE6955EC6F2CF1F910B551CCAE0FB52CBD0E525A0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsCancelRequested` | 20 | Exported Function
-`CurrentThreadIsWriter` | 16 | Exported Function
-`m_NoDebuggerLogging` | 28 | Exported Function
-`m_ExtraLogging` | 27 | Exported Function
-`CVdsUnlockIt` | 5 | Exported Function
+`CVdsAsyncObjectBase::IsCancelRequested` | 20 | Exported Function
+`CRtlSharedLock::CurrentThreadIsWriter` | 16 | Exported Function
+`CVdsTraceSettings::m_NoDebuggerLogging` | 28 | Exported Function
+`CVdsTraceSettings::m_ExtraLogging` | 27 | Exported Function
+`CVdsUnlockIt::CVdsUnlockIt` | 5 | Exported Function
 `public: __cdecl CVdsPnPNotificationBase::~CVdsPnPNotificationBase(void) __ptr64` | 9 | Exported Function
-`GetOutputType` | 19 | Exported Function
+`CVdsAsyncObjectBase::GetOutputType` | 19 | Exported Function
 `public: __cdecl CVdsUnlockIt::~CVdsUnlockIt(void) __ptr64` | 10 | Exported Function
-`SetOutput` | 22 | Exported Function
-`DisallowCancel` | 17 | Exported Function
-`ZeroAsyncOut` | 26 | Exported Function
-`SetOutputType` | 23 | Exported Function
+`CVdsAsyncObjectBase::SetOutput` | 22 | Exported Function
+`CVdsAsyncObjectBase::DisallowCancel` | 17 | Exported Function
+`CVdsAsyncObjectBase::ZeroAsyncOut` | 26 | Exported Function
+`CVdsAsyncObjectBase::SetOutputType` | 23 | Exported Function
 `public: void __cdecl CRtlList::``default constructor closure'(void) __ptr64` | 11 | Exported Function
-`SetPositionToLast` | 24 | Exported Function
-`AllowCancel` | 15 | Exported Function
+`CPrvEnumObject::SetPositionToLast` | 24 | Exported Function
+`CVdsAsyncObjectBase::AllowCancel` | 15 | Exported Function
 `public: void __cdecl CRtlMap::``default constructor closure'(void) __ptr64` | 12 | Exported Function
-`AcquireWrite` | 14 | Exported Function
-`AcquireRead` | 13 | Exported Function
-`Release` | 21 | Exported Function
-`Downgrade` | 18 | Exported Function
+`CRtlSharedLock::AcquireWrite` | 14 | Exported Function
+`CRtlSharedLock::AcquireRead` | 13 | Exported Function
+`CRtlSharedLock::Release` | 21 | Exported Function
+`CRtlSharedLock::Downgrade` | 18 | Exported Function
 `DllGetClassObject` | 30 | Exported Function
 `DllCanUnloadNow` | 29 | Exported Function
 `DllUnregisterServer` | 32 | Exported Function
 `DllRegisterServer` | 31 | Exported Function
-`CVdsCriticalSection` | 3 | Exported Function
+`CVdsCriticalSection::CVdsCriticalSection` | 3 | Exported Function
 `public: __cdecl CRtlSharedLock::~CRtlSharedLock(void) __ptr64` | 7 | Exported Function
-`CVdsPnPNotificationBase` | 4 | Exported Function
+`CVdsPnPNotificationBase::CVdsPnPNotificationBase` | 4 | Exported Function
 `public: __cdecl CVdsCriticalSection::~CVdsCriticalSection(void) __ptr64` | 8 | Exported Function
-`CPrvEnumObject` | 1 | Exported Function
-`Upgrade` | 25 | Exported Function
-`CRtlSharedLock` | 2 | Exported Function
+`CPrvEnumObject::CPrvEnumObject` | 1 | Exported Function
+`CRtlSharedLock::Upgrade` | 25 | Exported Function
+`CRtlSharedLock::CRtlSharedLock` | 2 | Exported Function
 `public: __cdecl CPrvEnumObject::~CPrvEnumObject(void) __ptr64` | 6 | Exported Function
 
 

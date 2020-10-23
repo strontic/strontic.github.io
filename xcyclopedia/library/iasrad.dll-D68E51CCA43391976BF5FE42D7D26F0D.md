@@ -26,11 +26,11 @@ PE256 | `1AB106A7675D16C6B52B919EB74DA6D8FD5144F3079B27CEA8F19D27CFA7B68C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`radiusToIAS` | 4 | Exported Function
-`radiusFromIAS` | 2 | Exported Function
-`shutdown` | 5 | Exported Function
-`IASAttributeVector` | 3 | Exported Function
-`initialize` | 1 | Exported Function
+`VSAFilter::radiusToIAS` | 4 | Exported Function
+`VSAFilter::radiusFromIAS` | 2 | Exported Function
+`VSAFilter::shutdown` | 5 | Exported Function
+`IASTL::IASAttributeVector` | 3 | Exported Function
+`VSAFilter::initialize` | 1 | Exported Function
 `DllGetClassObject` | 7 | Exported Function
 `DllCanUnloadNow` | 6 | Exported Function
 `DllUnregisterServer` | 9 | Exported Function

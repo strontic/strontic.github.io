@@ -25,10 +25,10 @@ PE256 | `269EA1086A11CF7D9D63AD984FBC3BBDC1327B9E4E042D965847C93B7484800B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`create` | 4 | Exported Function
-`VoiceMailPlayback` | 2 | Exported Function
-`VoiceMailPlayback` | 3 | Exported Function
-`VoiceMailPlayback` | 1 | Exported Function
+`VoiceMailPlayback::create` | 4 | Exported Function
+`vmp::VoiceMailPlayback` | 2 | Exported Function
+`vmp::VoiceMailPlayback` | 3 | Exported Function
+`VoiceMailPlayback::VoiceMailPlayback` | 1 | Exported Function
 
 
 ## Signature

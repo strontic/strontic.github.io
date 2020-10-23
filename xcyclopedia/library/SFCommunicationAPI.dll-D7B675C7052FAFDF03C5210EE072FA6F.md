@@ -26,21 +26,21 @@ PE256 | `06367718B373FBEE9E05A4B22596036B95163182E172339AB28FC162A8A08A73`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ICall` | 10 | Exported Function
-`IHSInterface` | 11 | Exported Function
-`ISFInterface` | 6 | Exported Function
-`ISFInterface` | 12 | Exported Function
-`ISFInterface` | 9 | Exported Function
-`ICall` | 7 | Exported Function
-`IHSInterface` | 8 | Exported Function
-`ISFInterface` | 5 | Exported Function
-`ISFInterface` | 15 | Exported Function
-`ICall` | 13 | Exported Function
-`IHSInterface` | 14 | Exported Function
-`IHSInterface` | 3 | Exported Function
-`ICall` | 2 | Exported Function
-`ICall` | 1 | Exported Function
-`IHSInterface` | 4 | Exported Function
+`SeComCall::ICall` | 10 | Exported Function
+`HSAdapterInterface::IHSInterface` | 11 | Exported Function
+`ISFInterface::ISFInterface` | 6 | Exported Function
+`SFAdapterInterface::ISFInterface` | 12 | Exported Function
+`SFAdapterInterface::ISFInterface` | 9 | Exported Function
+`SeComCall::ICall` | 7 | Exported Function
+`HSAdapterInterface::IHSInterface` | 8 | Exported Function
+`SFAdapterInterface::ISFInterface` | 5 | Exported Function
+`SFAdapterInterface::ISFInterface` | 15 | Exported Function
+`SeComCall::ICall` | 13 | Exported Function
+`HSAdapterInterface::IHSInterface` | 14 | Exported Function
+`HSAdapterInterface::IHSInterface` | 3 | Exported Function
+`ICall::ICall` | 2 | Exported Function
+`SeComCall::ICall` | 1 | Exported Function
+`IHSInterface::IHSInterface` | 4 | Exported Function
 
 
 ## Signature

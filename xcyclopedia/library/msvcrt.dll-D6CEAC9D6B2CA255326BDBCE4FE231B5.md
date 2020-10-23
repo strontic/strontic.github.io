@@ -428,28 +428,28 @@ Function Name | Ordinal | Type
 `strcpy_s` | 1337 | Exported Function
 `strcspn` | 1338 | Exported Function
 `qsort` | 1308 | Exported Function
-`name` | 64 | Exported Function
-`raw_name` | 65 | Exported Function
-`exception` | 12 | Exported Function
-`exception` | 10 | Exported Function
-`exception` | 11 | Exported Function
-`operator` | 21 | Exported Function
-`before` | 63 | Exported Function
-`operator` | 26 | Exported Function
-`operator` | 24 | Exported Function
-`operator` | 22 | Exported Function
-`operator` | 23 | Exported Function
-`__non_rtti_object` | 2 | Exported Function
-`__non_rtti_object` | 1 | Exported Function
-`bad_cast` | 3 | Exported Function
+`type_info::name` | 64 | Exported Function
+`type_info::raw_name` | 65 | Exported Function
+`exception::exception` | 12 | Exported Function
+`exception::exception` | 10 | Exported Function
+`exception::exception` | 11 | Exported Function
+`__non_rtti_object::operator` | 21 | Exported Function
+`type_info::before` | 63 | Exported Function
+`type_info::operator` | 26 | Exported Function
+`exception::operator` | 24 | Exported Function
+`bad_cast::operator` | 22 | Exported Function
+`bad_typeid::operator` | 23 | Exported Function
+`__non_rtti_object::__non_rtti_object` | 2 | Exported Function
+`__non_rtti_object::__non_rtti_object` | 1 | Exported Function
+`bad_cast::bad_cast` | 3 | Exported Function
 `printf` | 1301 | Exported Function
 `printf_s` | 1302 | Exported Function
-`bad_cast` | 4 | Exported Function
-`bad_typeid` | 7 | Exported Function
-`exception` | 9 | Exported Function
-`bad_typeid` | 8 | Exported Function
-`bad_cast` | 6 | Exported Function
-`bad_cast` | 5 | Exported Function
+`bad_cast::bad_cast` | 4 | Exported Function
+`bad_typeid::bad_typeid` | 7 | Exported Function
+`exception::exception` | 9 | Exported Function
+`bad_typeid::bad_typeid` | 8 | Exported Function
+`bad_cast::bad_cast` | 6 | Exported Function
+`bad_cast::bad_cast` | 5 | Exported Function
 `public: virtual void * __thiscall exception::``vector deleting destructor'(unsigned int)` | 34 | Exported Function
 `public: void __thiscall bad_cast::``default constructor closure'(void)` | 35 | Exported Function
 `public: virtual void * __thiscall exception::``scalar deleting destructor'(unsigned int)` | 40 | Exported Function
@@ -464,13 +464,13 @@ Function Name | Ordinal | Type
 `public: virtual __thiscall bad_typeid::~bad_typeid(void)` | 15 | Exported Function
 `public: virtual __thiscall exception::~exception(void)` | 16 | Exported Function
 `public: virtual __thiscall bad_cast::~bad_cast(void)` | 14 | Exported Function
-`operator` | 25 | Exported Function
+`type_info::operator` | 25 | Exported Function
 `public: virtual __thiscall __non_rtti_object::~__non_rtti_object(void)` | 13 | Exported Function
 `public: virtual __thiscall type_info::~type_info(void)` | 17 | Exported Function
 `public: virtual void * __thiscall bad_cast::``scalar deleting destructor'(unsigned int)` | 38 | Exported Function
 `public: virtual void * __thiscall bad_cast::``vector deleting destructor'(unsigned int)` | 32 | Exported Function
 `public: virtual void * __thiscall __non_rtti_object::``vector deleting destructor'(unsigned int)` | 31 | Exported Function
-`what` | 71 | Exported Function
+`exception::what` | 71 | Exported Function
 `public: virtual void * __thiscall __non_rtti_object::``scalar deleting destructor'(unsigned int)` | 37 | Exported Function
 `wcscspn` | 1400 | Exported Function
 `wcsftime` | 1401 | Exported Function

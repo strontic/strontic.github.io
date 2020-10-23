@@ -26,13 +26,13 @@ PE256 | `5040CF12C72AC547E749B5581E4129AE25FFBDE1D49B634DF052DCE2430311B0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Reset` | 21 | Exported Function
-`Acquire` | 10 | Exported Function
+`Locale::Key` | 21 | Exported Function
+`Locale::Key` | 10 | Exported Function
 `WSManPluginCommand` | 23 | Exported Function
-`Release` | 20 | Exported Function
-`DeInitialize` | 14 | Exported Function
-`Initialize` | 18 | Exported Function
-`Acquire` | 9 | Exported Function
+`Locale::Key` | 20 | Exported Function
+`Locale::Key` | 14 | Exported Function
+`Locale::Key` | 18 | Exported Function
+`Locale::Key` | 9 | Exported Function
 `WSManPluginReceive` | 24 | Exported Function
 `WSManPluginShutdown` | 29 | Exported Function
 `WSManPluginSignal` | 30 | Exported Function
@@ -41,22 +41,22 @@ Function Name | Ordinal | Type
 `WSManPluginReleaseCommandContext` | 25 | Exported Function
 `WSManPluginReleaseShellContext` | 26 | Exported Function
 `WSManPluginSend` | 27 | Exported Function
-`GetInitError` | 15 | Exported Function
-`Key` | 1 | Exported Function
-`Key` | 4 | Exported Function
-`Key` | 2 | Exported Function
+`CWSManCriticalSection::GetInitError` | 15 | Exported Function
+`Locale::Key` | 1 | Exported Function
+`Locale::Key` | 4 | Exported Function
+`Locale::Key` | 2 | Exported Function
 `public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 | Exported Function
-`Key` | 8 | Exported Function
-`Data` | 13 | Exported Function
-`SkipOrphans` | 22 | Exported Function
-`Key` | 5 | Exported Function
-`AsReference` | 12 | Exported Function
-`GetMap` | 16 | Exported Function
-`GetMap` | 17 | Exported Function
-`Acquired` | 11 | Exported Function
-`Key` | 3 | Exported Function
-`Key` | 6 | Exported Function
-`IsValid` | 19 | Exported Function
+`Locale::Key` | 8 | Exported Function
+`Locale::Key` | 13 | Exported Function
+`Locale::Key` | 22 | Exported Function
+`Locale::Key` | 5 | Exported Function
+`Locale::Key` | 12 | Exported Function
+`Locale::Key` | 16 | Exported Function
+`Locale::Key` | 17 | Exported Function
+`Locale::Key` | 11 | Exported Function
+`Locale::Key` | 3 | Exported Function
+`Locale::Key` | 6 | Exported Function
+`Locale::Key` | 19 | Exported Function
 
 
 ## Signature

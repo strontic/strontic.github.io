@@ -26,89 +26,89 @@ PE256 | `8C8A6BE27CD3B35F24F2025382F6FC4C0561AB880566466BE9CC57DD430A64B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 25 | Exported Function
-`GetStartPosition` | 120 | Exported Function
-`operator` | 26 | Exported Function
-`HashKey` | 122 | Exported Function
-`GetHashTableSize` | 116 | Exported Function
-`Append` | 82 | Exported Function
-`Add` | 75 | Exported Function
-`GetSize` | 119 | Exported Function
-`Create` | 91 | Exported Function
-`GetUpperBound` | 121 | Exported Function
+`CPlex::operator` | 25 | Exported Function
+`CMapStringToPtr::GetStartPosition` | 120 | Exported Function
+`CPlex::operator` | 26 | Exported Function
+`CMapStringToPtr::HashKey` | 122 | Exported Function
+`CMapStringToPtr::GetHashTableSize` | 116 | Exported Function
+`CStringArray::Append` | 82 | Exported Function
+`CStringArray::Add` | 75 | Exported Function
+`CStringArray::GetSize` | 119 | Exported Function
+`CPlex::Create` | 91 | Exported Function
+`CStringArray::GetUpperBound` | 121 | Exported Function
 `public: virtual __thiscall CMapStringToPtr::~CMapStringToPtr(void)` | 20 | Exported Function
 `public: virtual __thiscall CCriticalSection::~CCriticalSection(void)` | 19 | Exported Function
 `public: virtual __thiscall CObject::~CObject(void)` | 21 | Exported Function
 `public: virtual __thiscall CSyncObject::~CSyncObject(void)` | 24 | Exported Function
 `public: virtual __thiscall CStringArray::~CStringArray(void)` | 23 | Exported Function
-`GetBufferSetLength` | 111 | Exported Function
-`GetBuffer` | 110 | Exported Function
-`LockBuffer` | 134 | Exported Function
-`operator` | 40 | Exported Function
-`GetAt` | 108 | Exported Function
-`ReverseFind` | 150 | Exported Function
-`IsEmpty` | 127 | Exported Function
-`GetCount` | 112 | Exported Function
-`Lookup` | 135 | Exported Function
-`RemoveKey` | 149 | Exported Function
-`LookupKey` | 136 | Exported Function
-`operator` | 32 | Exported Function
-`operator` | 31 | Exported Function
-`operator` | 29 | Exported Function
-`Lock` | 131 | Exported Function
-`GetData` | 115 | Exported Function
-`GetAllocLength` | 106 | Exported Function
-`FindOneOf` | 96 | Exported Function
-`GetLength` | 117 | Exported Function
-`LoadStringW` | 130 | Exported Function
-`IsEmpty` | 128 | Exported Function
-`Compare` | 85 | Exported Function
-`Collate` | 84 | Exported Function
-`CompareNoCase` | 86 | Exported Function
-`Find` | 94 | Exported Function
-`Find` | 95 | Exported Function
-`FreeExtra` | 105 | Exported Function
-`Copy` | 89 | Exported Function
-`InsertAt` | 125 | Exported Function
-`RemoveAll` | 147 | Exported Function
-`InsertAt` | 126 | Exported Function
-`SetAt` | 154 | Exported Function
-`ReleaseBuffer` | 145 | Exported Function
-`TrimLeft` | 160 | Exported Function
-`UnlockBuffer` | 164 | Exported Function
-`TrimRight` | 161 | Exported Function
+`CString::GetBufferSetLength` | 111 | Exported Function
+`CString::GetBuffer` | 110 | Exported Function
+`CString::LockBuffer` | 134 | Exported Function
+`CString::operator` | 40 | Exported Function
+`CString::GetAt` | 108 | Exported Function
+`CString::ReverseFind` | 150 | Exported Function
+`CMapStringToPtr::IsEmpty` | 127 | Exported Function
+`CMapStringToPtr::GetCount` | 112 | Exported Function
+`CMapStringToPtr::Lookup` | 135 | Exported Function
+`CMapStringToPtr::RemoveKey` | 149 | Exported Function
+`CMapStringToPtr::LookupKey` | 136 | Exported Function
+`CString::operator` | 32 | Exported Function
+`CString::operator` | 31 | Exported Function
+`CString::operator` | 29 | Exported Function
+`CCriticalSection::Lock` | 131 | Exported Function
+`CStringArray::GetData` | 115 | Exported Function
+`CString::GetAllocLength` | 106 | Exported Function
+`CString::FindOneOf` | 96 | Exported Function
+`CString::GetLength` | 117 | Exported Function
+`CString::LoadStringW` | 130 | Exported Function
+`CString::IsEmpty` | 128 | Exported Function
+`CString::Compare` | 85 | Exported Function
+`CString::Collate` | 84 | Exported Function
+`CString::CompareNoCase` | 86 | Exported Function
+`CString::Find` | 94 | Exported Function
+`CString::Find` | 95 | Exported Function
+`CStringArray::FreeExtra` | 105 | Exported Function
+`CStringArray::Copy` | 89 | Exported Function
+`CStringArray::InsertAt` | 125 | Exported Function
+`CStringArray::RemoveAll` | 147 | Exported Function
+`CStringArray::InsertAt` | 126 | Exported Function
+`CString::SetAt` | 154 | Exported Function
+`CString::ReleaseBuffer` | 145 | Exported Function
+`CString::TrimLeft` | 160 | Exported Function
+`CString::UnlockBuffer` | 164 | Exported Function
+`CString::TrimRight` | 161 | Exported Function
 `unsigned int __stdcall HashKey<unsigned short const *>(unsigned short const *)` | 6 | Exported Function
 `unsigned int __stdcall HashKey<struct _GUID const &>(struct _GUID const &)` | 4 | Exported Function
 `void __stdcall ConstructElements<class CString>(class CString *,int)` | 1 | Exported Function
 `void __stdcall DestructElements<class CString>(class CString *,int)` | 3 | Exported Function
 `void __stdcall CopyElements<class CString>(class CString *,class CString const *,int)` | 2 | Exported Function
-`SetAt` | 155 | Exported Function
-`RemoveAt` | 148 | Exported Function
-`SetAtGrow` | 156 | Exported Function
+`CStringArray::SetAt` | 155 | Exported Function
+`CStringArray::RemoveAt` | 148 | Exported Function
+`CStringArray::SetAtGrow` | 156 | Exported Function
 `unsigned int __stdcall HashKey<char const *>(char const *)` | 5 | Exported Function
-`SetSize` | 157 | Exported Function
-`MakeUpper` | 139 | Exported Function
-`Format` | 97 | Exported Function
-`data` | 165 | Exported Function
-`Format` | 98 | Exported Function
-`FormatMessageW` | 100 | Exported Function
-`FormatMessageW` | 99 | Exported Function
-`Unlock` | 162 | Exported Function
-`Lock` | 132 | Exported Function
-`Lock` | 133 | Exported Function
-`operator` | 39 | Exported Function
-`Unlock` | 163 | Exported Function
-`Empty` | 93 | Exported Function
-`FreeDataChain` | 103 | Exported Function
-`FreeExtra` | 104 | Exported Function
-`MakeReverse` | 138 | Exported Function
-`MakeLower` | 137 | Exported Function
-`GetNextAssoc` | 118 | Exported Function
+`CStringArray::SetSize` | 157 | Exported Function
+`CString::MakeUpper` | 139 | Exported Function
+`CString::Format` | 97 | Exported Function
+`CPlex::data` | 165 | Exported Function
+`CString::Format` | 98 | Exported Function
+`CString::FormatMessageW` | 100 | Exported Function
+`CString::FormatMessageW` | 99 | Exported Function
+`CCriticalSection::Unlock` | 162 | Exported Function
+`CCriticalSection::Lock` | 132 | Exported Function
+`CSyncObject::Lock` | 133 | Exported Function
+`CMapStringToPtr::operator` | 39 | Exported Function
+`CSyncObject::Unlock` | 163 | Exported Function
+`CString::Empty` | 93 | Exported Function
+`CPlex::FreeDataChain` | 103 | Exported Function
+`CString::FreeExtra` | 104 | Exported Function
+`CString::MakeReverse` | 138 | Exported Function
+`CString::MakeLower` | 137 | Exported Function
+`CMapStringToPtr::GetNextAssoc` | 118 | Exported Function
 `public: void __thiscall CMapStringToPtr::``default constructor closure'(void)` | 74 | Exported Function
-`InitHashTable` | 124 | Exported Function
-`SetAt` | 153 | Exported Function
-`RemoveAll` | 146 | Exported Function
-`operator` | 27 | Exported Function
+`CMapStringToPtr::InitHashTable` | 124 | Exported Function
+`CMapStringToPtr::SetAt` | 153 | Exported Function
+`CMapStringToPtr::RemoveAll` | 146 | Exported Function
+`CString::operator` | 27 | Exported Function
 `const CMapStringToPtr::``vftable'` | 70 | Exported Function
 `const CCriticalSection::``vftable'` | 69 | Exported Function
 `const CObject::``vftable'` | 71 | Exported Function
@@ -119,16 +119,16 @@ Function Name | Ordinal | Type
 `class CString __stdcall operator+(unsigned short const *,class CString const &)` | 52 | Exported Function
 `class CString const & __stdcall AfxGetEmptyString(void)` | 77 | Exported Function
 `class CString __stdcall operator+(unsigned short,class CString const &)` | 51 | Exported Function
-`NewAssoc` | 142 | Exported Function
-`GetAssocAt` | 107 | Exported Function
-`GetData` | 113 | Exported Function
-`AllocBeforeWrite` | 79 | Exported Function
-`CAssoc` | 102 | Exported Function
+`CMapStringToPtr::NewAssoc` | 142 | Exported Function
+`CMapStringToPtr::GetAssocAt` | 107 | Exported Function
+`CString::GetData` | 113 | Exported Function
+`CString::AllocBeforeWrite` | 79 | Exported Function
+`CMapStringToPtr::CAssoc` | 102 | Exported Function
 `int __stdcall AfxLoadString(unsigned int,unsigned short *,unsigned int)` | 78 | Exported Function
 `int __stdcall AfxExtractSubString(class CString &,unsigned short const *,int,unsigned short)` | 76 | Exported Function
-`CObject` | 9 | Exported Function
-`Release` | 144 | Exported Function
-`SafeStrlen` | 152 | Exported Function
+`CObject::CObject` | 9 | Exported Function
+`CString::Release` | 144 | Exported Function
+`CString::SafeStrlen` | 152 | Exported Function
 `class CString __stdcall operator+(class CString const &,class CString const &)` | 46 | Exported Function
 `bool __stdcall operator<=(class CString const &,class CString const &)` | 56 | Exported Function
 `bool __stdcall operator<(unsigned short const *,class CString const &)` | 55 | Exported Function
@@ -150,47 +150,47 @@ Function Name | Ordinal | Type
 `bool __stdcall operator>(class CString const &,class CString const &)` | 59 | Exported Function
 `bool __stdcall operator>(unsigned short const *,class CString const &)` | 61 | Exported Function
 `bool __stdcall operator>(class CString const &,unsigned short const *)` | 60 | Exported Function
-`Left` | 129 | Exported Function
-`GetData` | 114 | Exported Function
-`Mid` | 140 | Exported Function
-`Right` | 151 | Exported Function
-`Mid` | 141 | Exported Function
-`CSyncObject` | 18 | Exported Function
-`CStringArray` | 17 | Exported Function
-`operator` | 45 | Exported Function
-`operator` | 41 | Exported Function
-`ElementAt` | 92 | Exported Function
-`operator` | 68 | Exported Function
-`operator` | 65 | Exported Function
-`operator` | 67 | Exported Function
-`operator` | 28 | Exported Function
-`operator` | 30 | Exported Function
-`SpanIncluding` | 159 | Exported Function
-`SpanExcluding` | 158 | Exported Function
-`GetAt` | 109 | Exported Function
-`operator` | 66 | Exported Function
-`operator` | 42 | Exported Function
+`CString::Left` | 129 | Exported Function
+`CStringArray::GetData` | 114 | Exported Function
+`CString::Mid` | 140 | Exported Function
+`CString::Right` | 151 | Exported Function
+`CString::Mid` | 141 | Exported Function
+`CSyncObject::CSyncObject` | 18 | Exported Function
+`CStringArray::CStringArray` | 17 | Exported Function
+`CSyncObject::operator` | 45 | Exported Function
+`CStringArray::operator` | 41 | Exported Function
+`CStringArray::ElementAt` | 92 | Exported Function
+`CString::operator` | 68 | Exported Function
+`CString::operator` | 65 | Exported Function
+`CString::operator` | 67 | Exported Function
+`CString::operator` | 28 | Exported Function
+`CString::operator` | 30 | Exported Function
+`CString::SpanIncluding` | 159 | Exported Function
+`CString::SpanExcluding` | 158 | Exported Function
+`CStringArray::GetAt` | 109 | Exported Function
+`CString::operator` | 66 | Exported Function
+`CStringArray::operator` | 42 | Exported Function
 `public: __thiscall CString::~CString(void)` | 22 | Exported Function
-`FormatV` | 101 | Exported Function
-`CopyBeforeWrite` | 90 | Exported Function
-`Init` | 123 | Exported Function
-`CCriticalSection` | 7 | Exported Function
-`Release` | 143 | Exported Function
-`AllocCopy` | 81 | Exported Function
-`AllocBuffer` | 80 | Exported Function
-`AssignCopy` | 83 | Exported Function
-`ConcatInPlace` | 88 | Exported Function
-`ConcatCopy` | 87 | Exported Function
-`CString` | 15 | Exported Function
-`CString` | 14 | Exported Function
-`CString` | 11 | Exported Function
-`operator` | 44 | Exported Function
-`CString` | 16 | Exported Function
-`CMapStringToPtr` | 8 | Exported Function
-`operator` | 43 | Exported Function
-`CString` | 12 | Exported Function
-`CString` | 13 | Exported Function
-`CString` | 10 | Exported Function
+`CString::FormatV` | 101 | Exported Function
+`CString::CopyBeforeWrite` | 90 | Exported Function
+`CString::Init` | 123 | Exported Function
+`CCriticalSection::CCriticalSection` | 7 | Exported Function
+`CString::Release` | 143 | Exported Function
+`CString::AllocCopy` | 81 | Exported Function
+`CString::AllocBuffer` | 80 | Exported Function
+`CString::AssignCopy` | 83 | Exported Function
+`CString::ConcatInPlace` | 88 | Exported Function
+`CString::ConcatCopy` | 87 | Exported Function
+`CString::CString` | 15 | Exported Function
+`CString::CString` | 14 | Exported Function
+`CString::CString` | 11 | Exported Function
+`CString::operator` | 44 | Exported Function
+`CString::CString` | 16 | Exported Function
+`CMapStringToPtr::CMapStringToPtr` | 8 | Exported Function
+`CCriticalSection::operator` | 43 | Exported Function
+`CString::CString` | 12 | Exported Function
+`CString::CString` | 13 | Exported Function
+`CString::CString` | 10 | Exported Function
 
 
 ## Signature

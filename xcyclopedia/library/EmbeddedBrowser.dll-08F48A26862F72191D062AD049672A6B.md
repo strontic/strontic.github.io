@@ -26,46 +26,46 @@ PE256 | `90DB02C785823D6CCE98F6F2D1F366910E6EA2D527DEA110F239CE30F4896D0B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 61 | Exported Function
-`operator` | 60 | Exported Function
-`operator` | 62 | Exported Function
-`operator` | 64 | Exported Function
-`operator` | 63 | Exported Function
-`operator` | 56 | Exported Function
-`operator` | 55 | Exported Function
-`operator` | 57 | Exported Function
-`operator` | 59 | Exported Function
-`operator` | 58 | Exported Function
-`get_count` | 120 | Exported Function
-`operator` | 43 | Exported Function
+`IScriptingPlugin::operator` | 61 | Exported Function
+`IScriptingPlugin::operator` | 60 | Exported Function
+`IWebBrowserEvent::operator` | 62 | Exported Function
+`IWebBrowserMessage::operator` | 64 | Exported Function
+`IWebBrowserMessage::operator` | 63 | Exported Function
+`ICustomCallback::operator` | 56 | Exported Function
+`IConWebBrowser::operator` | 55 | Exported Function
+`IDragDropCallback::operator` | 57 | Exported Function
+`IEditor::operator` | 59 | Exported Function
+`IEditor::operator` | 58 | Exported Function
+`CScriptingParam::get_count` | 120 | Exported Function
+`CObject::operator` | 43 | Exported Function
 `public: virtual __thiscall CScriptingParam::~CScriptingParam(void)` | 38 | Exported Function
 `public: virtual __thiscall IDragDropCallback::~IDragDropCallback(void)` | 40 | Exported Function
 `public: virtual __thiscall ICustomCallback::~ICustomCallback(void)` | 39 | Exported Function
-`operator` | 66 | Exported Function
-`operator` | 65 | Exported Function
-`IsChain` | 85 | Exported Function
-`operator` | 42 | Exported Function
-`IsEmpty` | 86 | Exported Function
-`set` | 127 | Exported Function
-`get` | 119 | Exported Function
-`CChain` | 44 | Exported Function
-`GetPrev` | 83 | Exported Function
-`GetNext` | 82 | Exported Function
-`IWebBrowserMessage` | 32 | Exported Function
-`IWebBrowserMessage` | 31 | Exported Function
-`IWebElement` | 33 | Exported Function
-`IWebElement` | 35 | Exported Function
-`IWebElement` | 34 | Exported Function
-`operator` | 51 | Exported Function
-`operator` | 50 | Exported Function
-`operator` | 52 | Exported Function
-`operator` | 54 | Exported Function
-`operator` | 53 | Exported Function
-`CObject` | 46 | Exported Function
-`CObject` | 45 | Exported Function
-`CSearchDir` | 48 | Exported Function
-`operator` | 47 | Exported Function
-`CSearchDir` | 49 | Exported Function
+`IWebElement::operator` | 66 | Exported Function
+`IWebElement::operator` | 65 | Exported Function
+`CChain::IsChain` | 85 | Exported Function
+`CObject::operator` | 42 | Exported Function
+`CChain::IsEmpty` | 86 | Exported Function
+`CScriptingParam::set` | 127 | Exported Function
+`CScriptingParam::get` | 119 | Exported Function
+`AT::CChain` | 44 | Exported Function
+`CChain::GetPrev` | 83 | Exported Function
+`CChain::GetNext` | 82 | Exported Function
+`IWebBrowserMessage::IWebBrowserMessage` | 32 | Exported Function
+`IWebBrowserMessage::IWebBrowserMessage` | 31 | Exported Function
+`IWebElement::IWebElement` | 33 | Exported Function
+`IWebElement::IWebElement` | 35 | Exported Function
+`IWebElement::IWebElement` | 34 | Exported Function
+`IBrowser::operator` | 51 | Exported Function
+`IBrowser::operator` | 50 | Exported Function
+`IClipboardDataFilter::operator` | 52 | Exported Function
+`IConWebBrowser::operator` | 54 | Exported Function
+`IClipboardDataFilter::operator` | 53 | Exported Function
+`AT::CObject` | 46 | Exported Function
+`AT::CObject` | 45 | Exported Function
+`AT::CSearchDir` | 48 | Exported Function
+`CScriptingParam::operator` | 47 | Exported Function
+`AT::CSearchDir` | 49 | Exported Function
 `unsigned int __cdecl at_rstr_stri(char const *,unsigned int,char const *,unsigned int)` | 108 | Exported Function
 `unsigned int __cdecl at_rstr_str(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 107 | Exported Function
 `unsigned int __cdecl at_rstr_stri(wchar_t const *,unsigned int,wchar_t const *,unsigned int)` | 109 | Exported Function
@@ -76,37 +76,37 @@ Function Name | Ordinal | Type
 `unsigned int __cdecl at_rstr_convert(unsigned char *,unsigned int,wchar_t const *,unsigned int)` | 104 | Exported Function
 `unsigned int __cdecl at_rstr_str(char const *,unsigned int,char const *,unsigned int)` | 106 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 105 | Exported Function
-`CStringT` | 92 | Exported Function
-`CStringT` | 91 | Exported Function
+`AT::CStringT` | 92 | Exported Function
+`AT::CStringT` | 91 | Exported Function
 `void __cdecl at_mem_free(void *)` | 96 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 116 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 114 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 95 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 112 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 97 | Exported Function
-`CStringT` | 90 | Exported Function
-`CStringT` | 89 | Exported Function
-`on_drag_over` | 124 | Exported Function
-`on_drag_leave` | 123 | Exported Function
-`allocator` | 125 | Exported Function
-`addref` | 93 | Exported Function
-`allocator` | 117 | Exported Function
-`show_context_menu` | 128 | Exported Function
+`AT::CStringT` | 90 | Exported Function
+`AT::CStringT` | 89 | Exported Function
+`IDragDropCallback::on_drag_over` | 124 | Exported Function
+`IDragDropCallback::on_drag_leave` | 123 | Exported Function
+`std::allocator` | 125 | Exported Function
+`IScriptingPlugin::addref` | 93 | Exported Function
+`std::allocator` | 117 | Exported Function
+`ICustomCallback::show_context_menu` | 128 | Exported Function
 `public: virtual __thiscall IWebBrowserEvent::~IWebBrowserEvent(void)` | 41 | Exported Function
-`allocator` | 129 | Exported Function
-`allocator` | 122 | Exported Function
-`translate_accelerator` | 130 | Exported Function
-`CStrRangeT` | 98 | Exported Function
-`Search` | 87 | Exported Function
-`CStrRangeT` | 99 | Exported Function
+`std::allocator` | 129 | Exported Function
+`std::allocator` | 122 | Exported Function
+`ICustomCallback::translate_accelerator` | 130 | Exported Function
+`AT::CStrRangeT` | 98 | Exported Function
+`CSearchDir::Search` | 87 | Exported Function
+`AT::CStrRangeT` | 99 | Exported Function
 `unsigned int __cdecl at_rstr_chr(wchar_t const *,unsigned int,wchar_t)` | 101 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 100 | Exported Function
-`allocator` | 118 | Exported Function
-`release` | 126 | Exported Function
-`allocator` | 121 | Exported Function
-`CChain` | 84 | Exported Function
-`Detach` | 81 | Exported Function
-`IWebBrowserMessage` | 30 | Exported Function
+`std::allocator` | 118 | Exported Function
+`IScriptingPlugin::release` | 126 | Exported Function
+`std::allocator` | 121 | Exported Function
+`AT::CChain` | 84 | Exported Function
+`CChain::Detach` | 81 | Exported Function
+`IWebBrowserMessage::IWebBrowserMessage` | 30 | Exported Function
 `at_wstr_upr` | 157 | Exported Function
 `at_wstr_stri` | 156 | Exported Function
 `ata_urldec` | 158 | Exported Function
@@ -122,7 +122,7 @@ Function Name | Ordinal | Type
 `const IDragDropCallback::``vftable'` | 74 | Exported Function
 `const IScriptingPlugin::``vftable'` | 76 | Exported Function
 `const IEditor::``vftable'` | 75 | Exported Function
-`CSearchDir` | 69 | Exported Function
+`AT::CSearchDir` | 69 | Exported Function
 `char * __cdecl at_str_tol(char const *,char const *,long &,int)` | 115 | Exported Function
 `const CScriptingParam::``vftable'` | 68 | Exported Function
 `const IClipboardDataFilter::``vftable'` | 71 | Exported Function
@@ -147,46 +147,46 @@ Function Name | Ordinal | Type
 `at_fs_tmpfile` | 143 | Exported Function
 `at_fs_write` | 145 | Exported Function
 `at_fs_tmppath` | 144 | Exported Function
-`IConWebBrowser` | 16 | Exported Function
-`IConWebBrowser` | 15 | Exported Function
-`IConWebBrowser` | 17 | Exported Function
-`ICustomCallback` | 19 | Exported Function
-`ICustomCallback` | 18 | Exported Function
-`IBrowser` | 11 | Exported Function
-`IBrowser` | 10 | Exported Function
-`IClipboardDataFilter` | 12 | Exported Function
-`IClipboardDataFilter` | 14 | Exported Function
-`IClipboardDataFilter` | 13 | Exported Function
-`IScriptingPlugin` | 26 | Exported Function
-`IScriptingPlugin` | 25 | Exported Function
-`IScriptingPlugin` | 27 | Exported Function
-`IWebBrowserEvent` | 29 | Exported Function
-`IWebBrowserEvent` | 28 | Exported Function
-`IDragDropCallback` | 21 | Exported Function
-`IDragDropCallback` | 20 | Exported Function
-`IEditor` | 22 | Exported Function
-`IEditor` | 24 | Exported Function
-`IEditor` | 23 | Exported Function
-`_Search` | 88 | Exported Function
-`allocator` | 94 | Exported Function
-`Create` | 80 | Exported Function
-`CChain` | 36 | Exported Function
-`CChain` | 1 | Exported Function
+`IConWebBrowser::IConWebBrowser` | 16 | Exported Function
+`IConWebBrowser::IConWebBrowser` | 15 | Exported Function
+`IConWebBrowser::IConWebBrowser` | 17 | Exported Function
+`ICustomCallback::ICustomCallback` | 19 | Exported Function
+`ICustomCallback::ICustomCallback` | 18 | Exported Function
+`IBrowser::IBrowser` | 11 | Exported Function
+`IBrowser::IBrowser` | 10 | Exported Function
+`IClipboardDataFilter::IClipboardDataFilter` | 12 | Exported Function
+`IClipboardDataFilter::IClipboardDataFilter` | 14 | Exported Function
+`IClipboardDataFilter::IClipboardDataFilter` | 13 | Exported Function
+`IScriptingPlugin::IScriptingPlugin` | 26 | Exported Function
+`IScriptingPlugin::IScriptingPlugin` | 25 | Exported Function
+`IScriptingPlugin::IScriptingPlugin` | 27 | Exported Function
+`IWebBrowserEvent::IWebBrowserEvent` | 29 | Exported Function
+`IWebBrowserEvent::IWebBrowserEvent` | 28 | Exported Function
+`IDragDropCallback::IDragDropCallback` | 21 | Exported Function
+`IDragDropCallback::IDragDropCallback` | 20 | Exported Function
+`IEditor::IEditor` | 22 | Exported Function
+`IEditor::IEditor` | 24 | Exported Function
+`IEditor::IEditor` | 23 | Exported Function
+`CSearchDir::_Search` | 88 | Exported Function
+`std::allocator` | 94 | Exported Function
+`CHexString::Create` | 80 | Exported Function
+`AT::CChain` | 36 | Exported Function
+`CChain::CChain` | 1 | Exported Function
 `const IWebBrowserMessage::``vftable'` | 78 | Exported Function
 `const IWebBrowserEvent::``vftable'` | 77 | Exported Function
 `const IWebElement::``vftable'` | 79 | Exported Function
 `destroy_web_browser` | 161 | Exported Function
 `create_web_browser` | 160 | Exported Function
-`CSearchDir` | 8 | Exported Function
-`CSearchDir` | 7 | Exported Function
-`CScriptingParam` | 4 | Exported Function
-`IBrowser` | 9 | Exported Function
-`CScriptingParam` | 5 | Exported Function
-`CHexString` | 2 | Exported Function
-`CHexString` | 3 | Exported Function
-`operator` | 67 | Exported Function
-`CSearchDir` | 6 | Exported Function
-`CHexString` | 37 | Exported Function
+`CSearchDir::CSearchDir` | 8 | Exported Function
+`AT::CSearchDir` | 7 | Exported Function
+`CScriptingParam::CScriptingParam` | 4 | Exported Function
+`IBrowser::IBrowser` | 9 | Exported Function
+`CScriptingParam::CScriptingParam` | 5 | Exported Function
+`CHexString::CHexString` | 2 | Exported Function
+`CHexString::CHexString` | 3 | Exported Function
+`CHexString::operator` | 67 | Exported Function
+`AT::CSearchDir` | 6 | Exported Function
+`AT::CHexString` | 37 | Exported Function
 
 
 ## Signature

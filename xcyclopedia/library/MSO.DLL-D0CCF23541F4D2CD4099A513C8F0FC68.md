@@ -3200,9 +3200,9 @@ Function Name | Ordinal | Type
 `Ordinal987` | 987 | Exported Function
 `Ordinal99` | 99 | Exported Function
 `Ordinal989` | 989 | Exported Function
-`SetNetworkUsageForZRTOpen` | 717 | Exported Function
-`ShouldBlockNetworkCallsForZRTOpen` | 737 | Exported Function
-`DeleteTeamsUrlsForSafelinks` | 1613 | Exported Function
+`NetworkToggler::SetNetworkUsageForZRTOpen` | 717 | Exported Function
+`NetworkToggler::ShouldBlockNetworkCallsForZRTOpen` | 737 | Exported Function
+`LinksOpenRight::DeleteTeamsUrlsForSafelinks` | 1613 | Exported Function
 `struct tagPlatformInfo & __stdcall GetPlatformInfo(void)` | 6389 | Exported Function
 `Ordinal999` | 999 | Exported Function
 `Ordinal996` | 996 | Exported Function
@@ -6429,8 +6429,8 @@ Function Name | Ordinal | Type
 `DllCanUnloadNow` | 793 | Exported Function
 `_ShowMessageForErrorCode@12` | 1187 | Exported Function
 `_MsoWzFromIhtk@4` | 692 | Exported Function
-`AddTeamsMeetingUrlsForSafelinks` | 1095 | Exported Function
-`AllowReferenceFromPath` | 683 | Exported Function
+`LinksOpenRight::AddTeamsMeetingUrlsForSafelinks` | 1095 | Exported Function
+`Vbe::AllowReferenceFromPath` | 683 | Exported Function
 `Ordinal1075` | 1075 | Exported Function
 `Ordinal1168` | 1168 | Exported Function
 `Ordinal1167` | 1167 | Exported Function

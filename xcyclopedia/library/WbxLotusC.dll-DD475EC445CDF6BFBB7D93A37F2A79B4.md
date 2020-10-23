@@ -26,37 +26,37 @@ PE256 | `28C38A81ED0965F77021B35F1E632A1EC06E523FE65DC57A101FE830183A83C6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 10 | Exported Function
-`Detach` | 19 | Exported Function
-`operator` | 9 | Exported Function
-`IsChain` | 23 | Exported Function
-`IsEmpty` | 24 | Exported Function
-`CStrRangeT` | 36 | Exported Function
+`CObject::operator` | 10 | Exported Function
+`CChain::Detach` | 19 | Exported Function
+`CObject::operator` | 9 | Exported Function
+`CChain::IsChain` | 23 | Exported Function
+`CChain::IsEmpty` | 24 | Exported Function
+`AT::CStrRangeT` | 36 | Exported Function
 `unsigned int __cdecl at_rstr_chr(char const *,unsigned int,char)` | 37 | Exported Function
-`CStrRangeT` | 35 | Exported Function
-`CChain` | 22 | Exported Function
-`Search` | 25 | Exported Function
-`CSearchDir` | 15 | Exported Function
-`CSearchDir` | 6 | Exported Function
-`CChain` | 11 | Exported Function
-`CSearchDir` | 5 | Exported Function
-`CHexString` | 8 | Exported Function
-`CSearchDir` | 4 | Exported Function
-`CObject` | 13 | Exported Function
-`CSearchDir` | 14 | Exported Function
-`CObject` | 12 | Exported Function
-`GetNext` | 20 | Exported Function
-`GetPrev` | 21 | Exported Function
-`CStringT` | 27 | Exported Function
-`CStringT` | 28 | Exported Function
+`AT::CStrRangeT` | 35 | Exported Function
+`AT::CChain` | 22 | Exported Function
+`CSearchDir::Search` | 25 | Exported Function
+`AT::CSearchDir` | 15 | Exported Function
+`CSearchDir::CSearchDir` | 6 | Exported Function
+`AT::CChain` | 11 | Exported Function
+`AT::CSearchDir` | 5 | Exported Function
+`AT::CHexString` | 8 | Exported Function
+`AT::CSearchDir` | 4 | Exported Function
+`AT::CObject` | 13 | Exported Function
+`AT::CSearchDir` | 14 | Exported Function
+`AT::CObject` | 12 | Exported Function
+`CChain::GetNext` | 20 | Exported Function
+`CChain::GetPrev` | 21 | Exported Function
+`AT::CStringT` | 27 | Exported Function
+`AT::CStringT` | 28 | Exported Function
 `void * __cdecl at_mem_realloc(void *,unsigned int)` | 34 | Exported Function
 `unsigned int __cdecl at_str_convert(int,wchar_t *,unsigned int,char const *,unsigned int)` | 49 | Exported Function
 `void * __cdecl at_mem_alloc(unsigned int)` | 32 | Exported Function
 `wchar_t * __cdecl at_str_tod(wchar_t const *,wchar_t const *,double &)` | 51 | Exported Function
 `wchar_t * __cdecl at_str_tol(wchar_t const *,wchar_t const *,long &,int)` | 53 | Exported Function
 `void __cdecl at_mem_free(void *)` | 33 | Exported Function
-`CStringT` | 29 | Exported Function
-`CStringT` | 30 | Exported Function
+`AT::CStringT` | 29 | Exported Function
+`AT::CStringT` | 30 | Exported Function
 `unsigned int __cdecl at_str_convert(int,char *,unsigned int,wchar_t const *,unsigned int)` | 48 | Exported Function
 `unsigned int __cdecl at_rstr_convert(unsigned char *,unsigned int,wchar_t const *,unsigned int)` | 41 | Exported Function
 `unsigned int __cdecl at_rstr_convert(wchar_t *,unsigned int,unsigned char const *,unsigned int)` | 42 | Exported Function
@@ -89,17 +89,17 @@ Function Name | Ordinal | Type
 `at_astr_stri` | 63 | Exported Function
 `at_astr_rchri` | 61 | Exported Function
 `at_astr_rstri` | 62 | Exported Function
-`_Search` | 26 | Exported Function
-`Create` | 18 | Exported Function
-`allocator` | 31 | Exported Function
+`CSearchDir::_Search` | 26 | Exported Function
+`CHexString::Create` | 18 | Exported Function
+`std::allocator` | 31 | Exported Function
 `DllDeleteWbxLotusClassObject` | 54 | Exported Function
 `DllGetWbxLotusClassObject` | 55 | Exported Function
-`CHexString` | 2 | Exported Function
-`operator` | 16 | Exported Function
-`CHexString` | 3 | Exported Function
-`CChain` | 1 | Exported Function
-`CChain` | 7 | Exported Function
-`CSearchDir` | 17 | Exported Function
+`CHexString::CHexString` | 2 | Exported Function
+`CHexString::operator` | 16 | Exported Function
+`CHexString::CHexString` | 3 | Exported Function
+`CChain::CChain` | 1 | Exported Function
+`AT::CChain` | 7 | Exported Function
+`AT::CSearchDir` | 17 | Exported Function
 `at_wstr_rstri` | 80 | Exported Function
 `at_wstr_stri` | 81 | Exported Function
 `at_wstr_rchri` | 79 | Exported Function

@@ -25,146 +25,146 @@ PE256 | `886FDEF9B83E42FDD867017056A6BA7F5328C80B4703E09D32B6772A489D04E2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 162 | Exported Function
-`operator` | 166 | Exported Function
-`operator` | 159 | Exported Function
-`operator` | 138 | Exported Function
-`operator` | 160 | Exported Function
-`operator` | 139 | Exported Function
-`operator` | 143 | Exported Function
-`operator` | 156 | Exported Function
-`operator` | 155 | Exported Function
-`operator` | 133 | Exported Function
-`operator` | 134 | Exported Function
-`operator` | 131 | Exported Function
-`operator` | 132 | Exported Function
-`GetURLType` | 237 | Exported Function
-`operator` | 142 | Exported Function
-`operator` | 135 | Exported Function
-`IObject` | 136 | Exported Function
-`operator` | 172 | Exported Function
-`GetValue` | 241 | Exported Function
-`operator` | 149 | Exported Function
-`operator` | 150 | Exported Function
-`operator` | 170 | Exported Function
-`operator` | 151 | Exported Function
-`operator` | 147 | Exported Function
-`operator` | 148 | Exported Function
-`operator` | 169 | Exported Function
-`IsLock` | 245 | Exported Function
-`IsResolved` | 246 | Exported Function
-`operator` | 163 | Exported Function
-`operator` | 167 | Exported Function
-`operator` | 145 | Exported Function
-`operator` | 146 | Exported Function
-`IsFlagStopped` | 244 | Exported Function
-`GetValue` | 240 | Exported Function
-`operator` | 130 | Exported Function
-`operator` | 110 | Exported Function
-`GetHostName` | 214 | Exported Function
-`operator` | 108 | Exported Function
-`operator` | 109 | Exported Function
-`GetUserData` | 239 | Exported Function
-`operator` | 111 | Exported Function
-`GetHostName` | 215 | Exported Function
-`GetHostName` | 216 | Exported Function
-`operator` | 96 | Exported Function
-`end` | 275 | Exported Function
-`operator` | 104 | Exported Function
-`operator` | 103 | Exported Function
-`begin` | 274 | Exported Function
-`GetNext` | 220 | Exported Function
-`operator` | 107 | Exported Function
-`operator` | 105 | Exported Function
-`operator` | 106 | Exported Function
-`operator` | 124 | Exported Function
-`operator` | 125 | Exported Function
-`operator` | 122 | Exported Function
-`operator` | 123 | Exported Function
-`operator` | 128 | Exported Function
-`operator` | 129 | Exported Function
-`operator` | 126 | Exported Function
-`operator` | 127 | Exported Function
-`operator` | 121 | Exported Function
-`operator` | 117 | Exported Function
-`operator` | 114 | Exported Function
-`Text_Formator` | 137 | Exported Function
-`operator` | 116 | Exported Function
-`operator` | 119 | Exported Function
-`operator` | 120 | Exported Function
-`operator` | 115 | Exported Function
-`operator` | 118 | Exported Function
-`operator` | 152 | Exported Function
-`operator` | 93 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator>(long)const ` | 162 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator>=(long)const ` | 166 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator<=(long)const ` | 159 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator==(long)const ` | 138 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator<=(long)const ` | 160 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator==(long)const ` | 139 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator!=(long)const ` | 143 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator<(long)const ` | 156 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator<(long)const ` | 155 | Exported Function
+`ICmTransport::operator` | 133 | Exported Function
+`ICmTransportSink::operator` | 134 | Exported Function
+`ICmTimerHandler::operator` | 131 | Exported Function
+`ICmTimerQueue::operator` | 132 | Exported Function
+`CCmInetAddr::GetURLType` | 237 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator!=(long)const ` | 142 | Exported Function
+`IDnsObserver::operator` | 135 | Exported Function
+`wbx::IObject` | 136 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator-=(long)` | 172 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::GetValue(void)const ` | 241 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator--(int)` | 149 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator--(void)` | 150 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator+=(long)` | 170 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator--(int)` | 151 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator++(int)` | 147 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator++(void)` | 148 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator+=(long)` | 169 | Exported Function
+`CCmInetAddr::IsLock` | 245 | Exported Function
+`CCmInetAddr::IsResolved` | 246 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator>(long)const ` | 163 | Exported Function
+`public: int __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator>=(long)const ` | 167 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator++(int)` | 145 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator++(void)` | 146 | Exported Function
+`CCmStopFlag::IsFlagStopped` | 244 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::GetValue(void)const ` | 240 | Exported Function
+`ICmReferenceControl::operator` | 130 | Exported Function
+`CCmStopFlag::operator` | 110 | Exported Function
+`CCmDns6Record::GetHostName` | 214 | Exported Function
+`CCmSignalStop::operator` | 108 | Exported Function
+`CCmStopFlag::operator` | 109 | Exported Function
+`CCmInetAddr::GetUserData` | 239 | Exported Function
+`CCmT120FuncTracer::operator` | 111 | Exported Function
+`CCmDnsRecord::GetHostName` | 215 | Exported Function
+`CCmInetAddr::GetHostName` | 216 | Exported Function
+`public: class CCmReferenceControlT<class CCmMutexThread> & __thiscall CCmReferenceControlT<class CCmMutexThread>::operator=(class CCmReferenceControlT<class CCmMutexThread> const &)` | 96 | Exported Function
+`CCmDnsRecord::end` | 275 | Exported Function
+`CCmEnsureSingleThread::operator` | 104 | Exported Function
+`CCmDnsRecord::operator` | 103 | Exported Function
+`CCmDnsRecord::begin` | 274 | Exported Function
+`CCmMessageBlock::GetNext` | 220 | Exported Function
+`CCmMutexThreadBase::operator` | 107 | Exported Function
+`CCmEnsureSingleThread::operator` | 105 | Exported Function
+`CCmInetAddr::operator` | 106 | Exported Function
+`ICmCrypto::operator` | 124 | Exported Function
+`ICmDetectionConnector::operator` | 125 | Exported Function
+`ICmAcceptorConnectorSink::operator` | 122 | Exported Function
+`ICmConnector::operator` | 123 | Exported Function
+`ICmObserver::operator` | 128 | Exported Function
+`ICmReactor::operator` | 129 | Exported Function
+`ICmEvent::operator` | 126 | Exported Function
+`ICmEventQueue::operator` | 127 | Exported Function
+`ICmAcceptorConnectorId::operator` | 121 | Exported Function
+`CCmTimerWrapperIDSink::operator` | 117 | Exported Function
+`CCmTimeValue::operator` | 114 | Exported Function
+`CCmT120Trace::Text_Formator` | 137 | Exported Function
+`CCmTimerWrapperID::operator` | 116 | Exported Function
+`CCmTransportParameter::operator` | 119 | Exported Function
+`ICmAcceptor::operator` | 120 | Exported Function
+`CCmTimeValue::operator` | 115 | Exported Function
+`CCmTransportParameter::operator` | 118 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator--(void)` | 152 | Exported Function
+`public: void __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator=(long)` | 93 | Exported Function
 `public: void __thiscall CCmAtomicOperationT<class CCmMutexThread>::``default constructor closure'(void)` | 205 | Exported Function
 `public: void __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::``default constructor closure'(void)` | 204 | Exported Function
-`operator` | 92 | Exported Function
-`Lock` | 248 | Exported Function
-`SetHostName` | 260 | Exported Function
-`operator` | 94 | Exported Function
-`operator` | 95 | Exported Function
-`SetStop` | 265 | Exported Function
+`public: void __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::operator=(class CCmAtomicOperationT<class CCmMutexNullSingleThread> const &)` | 92 | Exported Function
+`CCmInetAddr::Lock` | 248 | Exported Function
+`CCmInetAddr::SetHostName` | 260 | Exported Function
+`public: void __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator=(class CCmAtomicOperationT<class CCmMutexThread> const &)` | 94 | Exported Function
+`public: void __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator=(long)` | 95 | Exported Function
+`ACmThread::SetStop` | 265 | Exported Function
 `public: virtual __thiscall IDnsObserver::~IDnsObserver(void)` | 90 | Exported Function
-`IObject` | 91 | Exported Function
+`wbx::IObject` | 91 | Exported Function
 `public: virtual __thiscall CCmT120FuncTracer::~CCmT120FuncTracer(void)` | 74 | Exported Function
 `public: virtual __thiscall CCmT120Trace2::~CCmT120Trace2(void)` | 75 | Exported Function
-`GetReference` | 224 | Exported Function
-`ReleaseReference` | 254 | Exported Function
-`GetStopFlag` | 229 | Exported Function
-`AddReference` | 208 | Exported Function
-`Set` | 258 | Exported Function
-`Set` | 257 | Exported Function
-`operator` | 171 | Exported Function
-`operator` | 174 | Exported Function
+`public: virtual unsigned long __thiscall CCmReferenceControlT<class CCmMutexThread>::GetReference(void)` | 224 | Exported Function
+`public: virtual unsigned long __thiscall CCmReferenceControlT<class CCmMutexThread>::ReleaseReference(void)` | 254 | Exported Function
+`ACmThread::GetStopFlag` | 229 | Exported Function
+`public: virtual unsigned long __thiscall CCmReferenceControlT<class CCmMutexThread>::AddReference(void)` | 208 | Exported Function
+`CCmTimeValue::Set` | 258 | Exported Function
+`CCmTimeValue::Set` | 257 | Exported Function
+`CCmTimeValue::operator` | 171 | Exported Function
+`CCmTimeValue::operator` | 174 | Exported Function
 `public: void __thiscall CCmTransportParameter::``default constructor closure'(void)` | 206 | Exported Function
 `public: void __thiscall ICmEvent::``default constructor closure'(void)` | 207 | Exported Function
-`Set` | 256 | Exported Function
-`SetByTotalMsec` | 259 | Exported Function
-`GetSingletonMutex` | 227 | Exported Function
-`URL_TYPE` | 267 | Exported Function
-`SetUserData` | 268 | Exported Function
-`SetResolve` | 264 | Exported Function
-`SetType` | 266 | Exported Function
-`LockWriting` | 252 | Exported Function
-`GetReferenceControlMutex` | 225 | Exported Function
-`UnLock` | 271 | Exported Function
-`LockReading` | 251 | Exported Function
+`CCmTimeValue::Set` | 256 | Exported Function
+`CCmTimeValue::SetByTotalMsec` | 259 | Exported Function
+`CCmThreadManager::GetSingletonMutex` | 227 | Exported Function
+`CCmInetAddr::URL_TYPE` | 267 | Exported Function
+`CCmInetAddr::SetUserData` | 268 | Exported Function
+`CCmInetAddr::SetResolve` | 264 | Exported Function
+`CCmInetAddr::SetType` | 266 | Exported Function
+`CCmMessageBlock::LockWriting` | 252 | Exported Function
+`CCmThreadManager::GetReferenceControlMutex` | 225 | Exported Function
+`CCmInetAddr::UnLock` | 271 | Exported Function
+`CCmMessageBlock::LockReading` | 251 | Exported Function
 `public: virtual __thiscall CCmReferenceControlT<class CCmMutexThread>::~CCmReferenceControlT<class CCmMutexThread>(void)` | 68 | Exported Function
-`UnLock` | 273 | Exported Function
-`GetSec` | 226 | Exported Function
-`Lock` | 250 | Exported Function
-`TryLock` | 270 | Exported Function
-`GetProperty` | 222 | Exported Function
-`IpAddrStringTo4Bytes` | 242 | Exported Function
-`GetTotalInMsec` | 235 | Exported Function
-`GetUsec` | 238 | Exported Function
-`UnLock` | 272 | Exported Function
-`SetPort` | 262 | Exported Function
-`SetPortW` | 263 | Exported Function
-`operator` | 173 | Exported Function
-`SetIpAddrBy4Bytes` | 261 | Exported Function
-`Lock` | 249 | Exported Function
-`TryLock` | 269 | Exported Function
-`AdvanceTopLevelReadPtr` | 209 | Exported Function
-`AdvanceTopLevelWritePtr` | 210 | Exported Function
-`GetSize` | 228 | Exported Function
-`GetType` | 236 | Exported Function
-`GetLength` | 218 | Exported Function
-`GetIpAddrIn4Bytes` | 217 | Exported Function
-`GetPort` | 221 | Exported Function
+`CCmMutexNullSingleThread::UnLock` | 273 | Exported Function
+`CCmTimeValue::GetSec` | 226 | Exported Function
+`CCmMutexNullSingleThread::Lock` | 250 | Exported Function
+`CCmMutexNullSingleThread::TryLock` | 270 | Exported Function
+`ICmReactor::GetProperty` | 222 | Exported Function
+`CCmInetAddr::IpAddrStringTo4Bytes` | 242 | Exported Function
+`CCmTimeValue::GetTotalInMsec` | 235 | Exported Function
+`CCmTimeValue::GetUsec` | 238 | Exported Function
+`CCmMutexNull::UnLock` | 272 | Exported Function
+`CCmInetAddr::SetPort` | 262 | Exported Function
+`CCmInetAddr::SetPortW` | 263 | Exported Function
+`public: long __thiscall CCmAtomicOperationT<class CCmMutexThread>::operator-=(long)` | 173 | Exported Function
+`CCmInetAddr::SetIpAddrBy4Bytes` | 261 | Exported Function
+`CCmMutexNull::Lock` | 249 | Exported Function
+`CCmMutexNull::TryLock` | 269 | Exported Function
+`CCmMessageBlock::AdvanceTopLevelReadPtr` | 209 | Exported Function
+`CCmMessageBlock::AdvanceTopLevelWritePtr` | 210 | Exported Function
+`CCmInetAddr::GetSize` | 228 | Exported Function
+`CCmInetAddr::GetType` | 236 | Exported Function
+`CCmDataBlock::GetLength` | 218 | Exported Function
+`CCmInetAddr::GetIpAddrIn4Bytes` | 217 | Exported Function
+`CCmInetAddr::GetPort` | 221 | Exported Function
 `public: virtual __thiscall ACmConnectorInternal::~ACmConnectorInternal(void)` | 69 | Exported Function
-`GetTopLevelLength` | 231 | Exported Function
-`GetTopLevelSpace` | 233 | Exported Function
-`GetCapacity` | 213 | Exported Function
-`GetThreadSelfId` | 230 | Exported Function
-`DumpObject` | 211 | Exported Function
-`IsEqualCurrentThread` | 243 | Exported Function
-`IsThreadEqual` | 247 | Exported Function
-`operator` | 113 | Exported Function
-`GetPtr` | 223 | Exported Function
-`GetMutexType` | 219 | Exported Function
-`operator` | 112 | Exported Function
-`operator` | 102 | Exported Function
+`CCmMessageBlock::GetTopLevelLength` | 231 | Exported Function
+`CCmMessageBlock::GetTopLevelSpace` | 233 | Exported Function
+`CCmDataBlock::GetCapacity` | 213 | Exported Function
+`CCmThreadManager::GetThreadSelfId` | 230 | Exported Function
+`IObject::DumpObject` | 211 | Exported Function
+`CCmThreadManager::IsEqualCurrentThread` | 243 | Exported Function
+`CCmThreadManager::IsThreadEqual` | 247 | Exported Function
+`CCmT120TraceMapEntry::operator` | 113 | Exported Function
+`CCmInetAddr::GetPtr` | 223 | Exported Function
+`CCmMutexThreadBase::GetMutexType` | 219 | Exported Function
+`CCmT120TraceMapEntry::operator` | 112 | Exported Function
+`CCmDns6Record::operator` | 102 | Exported Function
 `protected: virtual __thiscall ICmCrypto::~ICmCrypto(void)` | 80 | Exported Function
 `protected: virtual __thiscall ICmDetectionConnector::~ICmDetectionConnector(void)` | 81 | Exported Function
 `protected: virtual __thiscall ICmAcceptorConnectorSink::~ICmAcceptorConnectorSink(void)` | 78 | Exported Function
@@ -178,28 +178,28 @@ Function Name | Ordinal | Type
 `int __cdecl operator==(class CCmTimeValue const &,class CCmTimeValue const &)` | 140 | Exported Function
 `int __cdecl operator!=(class CCmTimeValue const &,class CCmTimeValue const &)` | 144 | Exported Function
 `int __cdecl operator<(class CCmTimeValue const &,class CCmTimeValue const &)` | 157 | Exported Function
-`Reset_i` | 255 | Exported Function
+`CCmMessageBlock::Reset_i` | 255 | Exported Function
 `protected: virtual __thiscall ICmAcceptor::~ICmAcceptor(void)` | 76 | Exported Function
 `int __cdecl operator>(class CCmTimeValue const &,class CCmTimeValue const &)` | 164 | Exported Function
 `int __cdecl operator>=(class CCmTimeValue const &,class CCmTimeValue const &)` | 168 | Exported Function
-`CCmAtomicOperationT` | 3 | Exported Function
-`CCmAtomicOperationT` | 4 | Exported Function
-`CCmAtomicOperationT` | 1 | Exported Function
-`CCmAtomicOperationT` | 2 | Exported Function
-`CCmInetAddr` | 14 | Exported Function
-`CCmInetAddr` | 15 | Exported Function
-`CCmDns6Record` | 11 | Exported Function
-`CCmDnsRecord` | 12 | Exported Function
-`ACmEventHandler` | 10 | Exported Function
+`public: __thiscall CCmAtomicOperationT<class CCmMutexThread>::CCmAtomicOperationT<class CCmMutexThread>(class CCmAtomicOperationT<class CCmMutexThread> const &)` | 3 | Exported Function
+`public: __thiscall CCmAtomicOperationT<class CCmMutexThread>::CCmAtomicOperationT<class CCmMutexThread>(long)` | 4 | Exported Function
+`public: __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::CCmAtomicOperationT<class CCmMutexNullSingleThread>(class CCmAtomicOperationT<class CCmMutexNullSingleThread> const &)` | 1 | Exported Function
+`public: __thiscall CCmAtomicOperationT<class CCmMutexNullSingleThread>::CCmAtomicOperationT<class CCmMutexNullSingleThread>(long)` | 2 | Exported Function
+`CCmInetAddr::CCmInetAddr` | 14 | Exported Function
+`CCmInetAddr::CCmInetAddr` | 15 | Exported Function
+`CCmDns6Record::CCmDns6Record` | 11 | Exported Function
+`CCmDnsRecord::CCmDnsRecord` | 12 | Exported Function
+`ACmEventHandler::ACmEventHandler` | 10 | Exported Function
 `protected: virtual __thiscall ICmTransport::~ICmTransport(void)` | 88 | Exported Function
 `protected: virtual __thiscall ICmTransportSink::~ICmTransportSink(void)` | 89 | Exported Function
 `protected: virtual __thiscall ICmTimerHandler::~ICmTimerHandler(void)` | 86 | Exported Function
 `protected: virtual __thiscall ICmTimerQueue::~ICmTimerQueue(void)` | 87 | Exported Function
-`ACmConnectorInternal` | 8 | Exported Function
-`ACmEventHandler` | 9 | Exported Function
-`OnReferenceDestory` | 253 | Exported Function
-`ACmConnectorInternal` | 7 | Exported Function
-`IObject` | 202 | Exported Function
+`ACmConnectorInternal::ACmConnectorInternal` | 8 | Exported Function
+`ACmEventHandler::ACmEventHandler` | 9 | Exported Function
+`protected: virtual void __thiscall CCmReferenceControlT<class CCmMutexThread>::OnReferenceDestory(void)` | 253 | Exported Function
+`ACmConnectorInternal::ACmConnectorInternal` | 7 | Exported Function
+`wbx::IObject` | 202 | Exported Function
 `const CCmReferenceControlT<class CCmMutexThread>::``vftable'` | 175 | Exported Function
 `const CCmSignalStop::``vftable'` | 181 | Exported Function
 `const CCmDnsRecord::``vftable'` | 179 | Exported Function
@@ -207,7 +207,7 @@ Function Name | Ordinal | Type
 `const CCmTimerWrapperID::``vftable'` | 183 | Exported Function
 `const CCmTimerWrapperIDSink::``vftable'` | 184 | Exported Function
 `const CCmT120FuncTracer::``vftable'` | 182 | Exported Function
-`Text_Formator` | 203 | Exported Function
+`CCmT120Trace::Text_Formator` | 203 | Exported Function
 `const CCmDns6Record::``vftable'` | 178 | Exported Function
 `conDllCanUnloadNow` | 276 | Exported Function
 `conDllGetClassObject` | 277 | Exported Function
@@ -234,76 +234,76 @@ Function Name | Ordinal | Type
 `const ICmEventQueue::``vftable'` | 192 | Exported Function
 `const ICmCrypto::``vftable'` | 189 | Exported Function
 `const ICmDetectionConnector::``vftable'` | 190 | Exported Function
-`CCmInetAddr` | 13 | Exported Function
-`ICmTimerHandler` | 55 | Exported Function
-`ICmTimerHandler` | 56 | Exported Function
-`ICmReferenceControl` | 53 | Exported Function
-`ICmReferenceControl` | 54 | Exported Function
-`ICmTransport` | 59 | Exported Function
-`ICmTransport` | 60 | Exported Function
-`ICmTimerQueue` | 57 | Exported Function
-`ICmTimerQueue` | 58 | Exported Function
-`ICmReactor` | 52 | Exported Function
-`ICmEvent` | 46 | Exported Function
-`ICmEventQueue` | 47 | Exported Function
-`ICmDetectionConnector` | 44 | Exported Function
-`ICmEvent` | 45 | Exported Function
-`ICmObserver` | 50 | Exported Function
-`ICmReactor` | 51 | Exported Function
-`ICmEventQueue` | 48 | Exported Function
-`ICmObserver` | 49 | Exported Function
-`GetTopLevelReadPtr` | 232 | Exported Function
-`operator` | 97 | Exported Function
-`GetBasePtr` | 212 | Exported Function
-`GetTopLevelWritePtr` | 234 | Exported Function
-`operator` | 100 | Exported Function
-`operator` | 101 | Exported Function
-`operator` | 98 | Exported Function
-`operator` | 99 | Exported Function
-`operator` | 165 | Exported Function
-`IDnsObserver` | 63 | Exported Function
-`IDnsObserver` | 64 | Exported Function
-`ICmTransportSink` | 61 | Exported Function
-`ICmTransportSink` | 62 | Exported Function
-`operator` | 158 | Exported Function
-`operator` | 141 | Exported Function
-`IObject` | 65 | Exported Function
-`IObject` | 66 | Exported Function
-`ICmDetectionConnector` | 43 | Exported Function
-`CCmStopFlag` | 21 | Exported Function
-`CCmT120FuncTracer` | 23 | Exported Function
-`CCmReferenceControlT` | 6 | Exported Function
-`CCmSignalStop` | 20 | Exported Function
-`CCmTimerWrapperID` | 29 | Exported Function
-`CCmTimerWrapperIDSink` | 30 | Exported Function
-`CCmT120FuncTracer` | 22 | Exported Function
-`Text_Formator` | 67 | Exported Function
-`CCmReferenceControlT` | 5 | Exported Function
+`CCmInetAddr::CCmInetAddr` | 13 | Exported Function
+`ICmTimerHandler::ICmTimerHandler` | 55 | Exported Function
+`ICmTimerHandler::ICmTimerHandler` | 56 | Exported Function
+`ICmReferenceControl::ICmReferenceControl` | 53 | Exported Function
+`ICmReferenceControl::ICmReferenceControl` | 54 | Exported Function
+`ICmTransport::ICmTransport` | 59 | Exported Function
+`ICmTransport::ICmTransport` | 60 | Exported Function
+`ICmTimerQueue::ICmTimerQueue` | 57 | Exported Function
+`ICmTimerQueue::ICmTimerQueue` | 58 | Exported Function
+`ICmReactor::ICmReactor` | 52 | Exported Function
+`ICmEvent::ICmEvent` | 46 | Exported Function
+`ICmEventQueue::ICmEventQueue` | 47 | Exported Function
+`ICmDetectionConnector::ICmDetectionConnector` | 44 | Exported Function
+`ICmEvent::ICmEvent` | 45 | Exported Function
+`ICmObserver::ICmObserver` | 50 | Exported Function
+`ICmReactor::ICmReactor` | 51 | Exported Function
+`ICmEventQueue::ICmEventQueue` | 48 | Exported Function
+`ICmObserver::ICmObserver` | 49 | Exported Function
+`CCmMessageBlock::GetTopLevelReadPtr` | 232 | Exported Function
+`ACmConnectorInternal::operator` | 97 | Exported Function
+`CCmDataBlock::GetBasePtr` | 212 | Exported Function
+`CCmMessageBlock::GetTopLevelWritePtr` | 234 | Exported Function
+`CCmDataBlockNoMalloc::operator` | 100 | Exported Function
+`CCmDataBlockNoMalloc::operator` | 101 | Exported Function
+`ACmEventHandler::operator` | 98 | Exported Function
+`CCmConnectionManager::operator` | 99 | Exported Function
+`CCmInetAddr::operator` | 165 | Exported Function
+`IDnsObserver::IDnsObserver` | 63 | Exported Function
+`IDnsObserver::IDnsObserver` | 64 | Exported Function
+`ICmTransportSink::ICmTransportSink` | 61 | Exported Function
+`ICmTransportSink::ICmTransportSink` | 62 | Exported Function
+`CCmInetAddr::operator` | 158 | Exported Function
+`CCmInetAddr::operator` | 141 | Exported Function
+`wbx::IObject` | 65 | Exported Function
+`IObject::IObject` | 66 | Exported Function
+`ICmDetectionConnector::ICmDetectionConnector` | 43 | Exported Function
+`CCmStopFlag::CCmStopFlag` | 21 | Exported Function
+`CCmT120FuncTracer::CCmT120FuncTracer` | 23 | Exported Function
+`public: __thiscall CCmReferenceControlT<class CCmMutexThread>::CCmReferenceControlT<class CCmMutexThread>(void)` | 6 | Exported Function
+`CCmSignalStop::CCmSignalStop` | 20 | Exported Function
+`CCmTimerWrapperID::CCmTimerWrapperID` | 29 | Exported Function
+`CCmTimerWrapperIDSink::CCmTimerWrapperIDSink` | 30 | Exported Function
+`CCmT120FuncTracer::CCmT120FuncTracer` | 22 | Exported Function
+`CCmT120Trace::Text_Formator` | 67 | Exported Function
+`public: __thiscall CCmReferenceControlT<class CCmMutexThread>::CCmReferenceControlT<class CCmMutexThread>(class CCmReferenceControlT<class CCmMutexThread> const &)` | 5 | Exported Function
 `public: __thiscall CCmMessageBlock::~CCmMessageBlock(void)` | 71 | Exported Function
-`CCmMutexNull` | 17 | Exported Function
-`CCmInetAddr` | 16 | Exported Function
+`CCmMutexNull::CCmMutexNull` | 17 | Exported Function
+`CCmInetAddr::CCmInetAddr` | 16 | Exported Function
 `public: __thiscall CCmInetAddr::~CCmInetAddr(void)` | 70 | Exported Function
 `public: __thiscall CCmMutexNullSingleThread::~CCmMutexNullSingleThread(void)` | 73 | Exported Function
-`CCmMutexThreadBase` | 19 | Exported Function
+`CCmMutexThreadBase::CCmMutexThreadBase` | 19 | Exported Function
 `public: __thiscall CCmMutexNull::~CCmMutexNull(void)` | 72 | Exported Function
-`CCmMutexNullSingleThread` | 18 | Exported Function
-`ICmAcceptorConnectorSink` | 37 | Exported Function
-`ICmAcceptorConnectorSink` | 38 | Exported Function
-`ICmAcceptorConnectorId` | 35 | Exported Function
-`ICmAcceptorConnectorId` | 36 | Exported Function
-`ICmCrypto` | 41 | Exported Function
-`ICmCrypto` | 42 | Exported Function
-`ICmConnector` | 39 | Exported Function
-`ICmConnector` | 40 | Exported Function
-`ICmAcceptor` | 34 | Exported Function
-`CCmTimeValue` | 25 | Exported Function
-`CCmTimeValue` | 26 | Exported Function
-`CCmTimerWrapperIDSink` | 31 | Exported Function
-`CCmTimeValue` | 27 | Exported Function
-`CPriority` | 32 | Exported Function
-`ICmAcceptor` | 33 | Exported Function
-`CCmTimeValue` | 24 | Exported Function
-`CCmTimeValue` | 28 | Exported Function
+`CCmMutexNullSingleThread::CCmMutexNullSingleThread` | 18 | Exported Function
+`ICmAcceptorConnectorSink::ICmAcceptorConnectorSink` | 37 | Exported Function
+`ICmAcceptorConnectorSink::ICmAcceptorConnectorSink` | 38 | Exported Function
+`ICmAcceptorConnectorId::ICmAcceptorConnectorId` | 35 | Exported Function
+`ICmAcceptorConnectorId::ICmAcceptorConnectorId` | 36 | Exported Function
+`ICmCrypto::ICmCrypto` | 41 | Exported Function
+`ICmCrypto::ICmCrypto` | 42 | Exported Function
+`ICmConnector::ICmConnector` | 39 | Exported Function
+`ICmConnector::ICmConnector` | 40 | Exported Function
+`ICmAcceptor::ICmAcceptor` | 34 | Exported Function
+`CCmTimeValue::CCmTimeValue` | 25 | Exported Function
+`CCmTimeValue::CCmTimeValue` | 26 | Exported Function
+`CCmTimerWrapperIDSink::CCmTimerWrapperIDSink` | 31 | Exported Function
+`CCmTimeValue::CCmTimeValue` | 27 | Exported Function
+`CCmConnectionManager::CPriority` | 32 | Exported Function
+`ICmAcceptor::ICmAcceptor` | 33 | Exported Function
+`CCmTimeValue::CCmTimeValue` | 24 | Exported Function
+`CCmTimeValue::CCmTimeValue` | 28 | Exported Function
 
 
 ## Signature

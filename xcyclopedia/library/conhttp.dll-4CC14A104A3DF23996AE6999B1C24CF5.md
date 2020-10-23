@@ -25,49 +25,49 @@ PE256 | `93FD63514C4781CC7DD96FE0DC69099131D08633E98024740C9EFF03221E81C0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 39 | Exported Function
-`operator` | 40 | Exported Function
-`operator` | 36 | Exported Function
-`Text_Formator` | 44 | Exported Function
-`operator` | 41 | Exported Function
-`IsFlagStopped` | 61 | Exported Function
-`Lock` | 63 | Exported Function
-`operator` | 42 | Exported Function
-`IObject` | 43 | Exported Function
-`operator` | 29 | Exported Function
-`operator` | 30 | Exported Function
-`IObject` | 17 | Exported Function
-`operator` | 28 | Exported Function
-`operator` | 31 | Exported Function
-`operator` | 34 | Exported Function
-`operator` | 35 | Exported Function
-`operator` | 32 | Exported Function
-`operator` | 33 | Exported Function
-`operator` | 38 | Exported Function
+`ICmEvent::operator` | 39 | Exported Function
+`ICmEventQueue::operator` | 40 | Exported Function
+`CCmT120FuncTracer::operator` | 36 | Exported Function
+`CCmT120Trace::Text_Formator` | 44 | Exported Function
+`ICmTimerHandler::operator` | 41 | Exported Function
+`CCmStopFlag::IsFlagStopped` | 61 | Exported Function
+`CCmMutexNull::Lock` | 63 | Exported Function
+`ICmTimerQueue::operator` | 42 | Exported Function
+`wbx::IObject` | 43 | Exported Function
+`CCmDataBlockNoMalloc::operator` | 29 | Exported Function
+`CCmEnsureSingleThread::operator` | 30 | Exported Function
+`IObject::IObject` | 17 | Exported Function
+`CCmDataBlockNoMalloc::operator` | 28 | Exported Function
+`CCmEnsureSingleThread::operator` | 31 | Exported Function
+`CCmStopFlag::operator` | 34 | Exported Function
+`CCmStopFlag::operator` | 35 | Exported Function
+`CCmMutexThreadBase::operator` | 32 | Exported Function
+`CCmSignalStop::operator` | 33 | Exported Function
+`CCmT120TraceMapEntry::operator` | 38 | Exported Function
 `public: virtual __thiscall CCmT120FuncTracer::~CCmT120FuncTracer(void)` | 21 | Exported Function
-`GetMutexType` | 56 | Exported Function
-`operator` | 37 | Exported Function
+`CCmMutexThreadBase::GetMutexType` | 56 | Exported Function
+`CCmT120TraceMapEntry::operator` | 37 | Exported Function
 `public: virtual __thiscall CCmT120Trace2::~CCmT120Trace2(void)` | 22 | Exported Function
-`GetSingletonMutex` | 58 | Exported Function
+`CCmThreadManager::GetSingletonMutex` | 58 | Exported Function
 `public: void __thiscall ICmEvent::``default constructor closure'(void)` | 54 | Exported Function
-`IObject` | 27 | Exported Function
-`GetReferenceControlMutex` | 57 | Exported Function
-`Lock` | 64 | Exported Function
-`TryLock` | 66 | Exported Function
-`TryLock` | 65 | Exported Function
-`UnLock` | 67 | Exported Function
-`UnLock` | 68 | Exported Function
-`GetThreadSelfId` | 59 | Exported Function
-`DumpObject` | 55 | Exported Function
-`IsEqualCurrentThread` | 60 | Exported Function
-`IsThreadEqual` | 62 | Exported Function
+`wbx::IObject` | 27 | Exported Function
+`CCmThreadManager::GetReferenceControlMutex` | 57 | Exported Function
+`CCmMutexNullSingleThread::Lock` | 64 | Exported Function
+`CCmMutexNullSingleThread::TryLock` | 66 | Exported Function
+`CCmMutexNull::TryLock` | 65 | Exported Function
+`CCmMutexNull::UnLock` | 67 | Exported Function
+`CCmMutexNullSingleThread::UnLock` | 68 | Exported Function
+`CCmThreadManager::GetThreadSelfId` | 59 | Exported Function
+`IObject::DumpObject` | 55 | Exported Function
+`CCmThreadManager::IsEqualCurrentThread` | 60 | Exported Function
+`CCmThreadManager::IsThreadEqual` | 62 | Exported Function
 `const ICmTimerQueue::``vftable'` | 51 | Exported Function
-`IObject` | 52 | Exported Function
+`wbx::IObject` | 52 | Exported Function
 `const ICmEventQueue::``vftable'` | 49 | Exported Function
 `const ICmTimerHandler::``vftable'` | 50 | Exported Function
 `protected: virtual __thiscall ICmEvent::~ICmEvent(void)` | 23 | Exported Function
 `protected: virtual __thiscall ICmTimerQueue::~ICmTimerQueue(void)` | 26 | Exported Function
-`CCmMutexNull` | 1 | Exported Function
+`CCmMutexNull::CCmMutexNull` | 1 | Exported Function
 `protected: virtual __thiscall ICmEventQueue::~ICmEventQueue(void)` | 24 | Exported Function
 `protected: virtual __thiscall ICmTimerHandler::~ICmTimerHandler(void)` | 25 | Exported Function
 `conDllInit` | 71 | Exported Function
@@ -75,28 +75,28 @@ Function Name | Ordinal | Type
 `conDllCanUnloadNow` | 69 | Exported Function
 `conDllGetClassObject` | 70 | Exported Function
 `const CCmMutexThreadBase::``vftable'` | 45 | Exported Function
-`Text_Formator` | 53 | Exported Function
+`CCmT120Trace::Text_Formator` | 53 | Exported Function
 `const ICmEvent::``vftable'` | 48 | Exported Function
 `const CCmSignalStop::``vftable'` | 46 | Exported Function
 `const CCmT120FuncTracer::``vftable'` | 47 | Exported Function
-`ICmEventQueue` | 10 | Exported Function
-`ICmEventQueue` | 11 | Exported Function
-`ICmEvent` | 8 | Exported Function
-`ICmEvent` | 9 | Exported Function
-`ICmTimerHandler` | 12 | Exported Function
-`ICmTimerQueue` | 15 | Exported Function
-`IObject` | 16 | Exported Function
-`ICmTimerHandler` | 13 | Exported Function
-`ICmTimerQueue` | 14 | Exported Function
+`ICmEventQueue::ICmEventQueue` | 10 | Exported Function
+`ICmEventQueue::ICmEventQueue` | 11 | Exported Function
+`ICmEvent::ICmEvent` | 8 | Exported Function
+`ICmEvent::ICmEvent` | 9 | Exported Function
+`ICmTimerHandler::ICmTimerHandler` | 12 | Exported Function
+`ICmTimerQueue::ICmTimerQueue` | 15 | Exported Function
+`wbx::IObject` | 16 | Exported Function
+`ICmTimerHandler::ICmTimerHandler` | 13 | Exported Function
+`ICmTimerQueue::ICmTimerQueue` | 14 | Exported Function
 `public: __thiscall CCmMutexNullSingleThread::~CCmMutexNullSingleThread(void)` | 20 | Exported Function
-`CCmMutexThreadBase` | 3 | Exported Function
+`CCmMutexThreadBase::CCmMutexThreadBase` | 3 | Exported Function
 `public: __thiscall CCmMutexNull::~CCmMutexNull(void)` | 19 | Exported Function
-`CCmMutexNullSingleThread` | 2 | Exported Function
-`CCmSignalStop` | 4 | Exported Function
-`CCmT120FuncTracer` | 6 | Exported Function
-`Text_Formator` | 18 | Exported Function
-`CCmStopFlag` | 5 | Exported Function
-`CCmT120FuncTracer` | 7 | Exported Function
+`CCmMutexNullSingleThread::CCmMutexNullSingleThread` | 2 | Exported Function
+`CCmSignalStop::CCmSignalStop` | 4 | Exported Function
+`CCmT120FuncTracer::CCmT120FuncTracer` | 6 | Exported Function
+`CCmT120Trace::Text_Formator` | 18 | Exported Function
+`CCmStopFlag::CCmStopFlag` | 5 | Exported Function
+`CCmT120FuncTracer::CCmT120FuncTracer` | 7 | Exported Function
 
 
 ## Signature

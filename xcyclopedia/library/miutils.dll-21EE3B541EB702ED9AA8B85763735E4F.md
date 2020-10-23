@@ -49,11 +49,11 @@ Function Name | Ordinal | Type
 `PublishClientOperationInfo` | 80 | Exported Function
 `PublishProviderResult` | 83 | Exported Function
 `PublishDebugMessage` | 82 | Exported Function
-`Initialize` | 25 | Exported Function
-`CComPtr` | 21 | Exported Function
-`GetMiClass` | 20 | Exported Function
-`CComPtr` | 23 | Exported Function
-`CComPtr` | 22 | Exported Function
+`WMISchema::Initialize` | 25 | Exported Function
+`ATL::CComPtr` | 21 | Exported Function
+`StaticSchema::GetMiClass` | 20 | Exported Function
+`ATL::CComPtr` | 23 | Exported Function
+`ATL::CComPtr` | 22 | Exported Function
 `RCClass_AddElement` | 90 | Exported Function
 `RCClass_AddClassQualifierArrayItem` | 89 | Exported Function
 `RCClass_AddElementArrayItem` | 92 | Exported Function
@@ -137,23 +137,23 @@ Function Name | Ordinal | Type
 `CompareInstance` | 36 | Exported Function
 `Config_GetRegString` | 39 | Exported Function
 `Config_GetProtocolHandlerDetails` | 38 | Exported Function
-`WMISchema` | 6 | Exported Function
-`WMISchema` | 7 | Exported Function
-`operator` | 12 | Exported Function
-`operator` | 11 | Exported Function
-`StaticSchema` | 5 | Exported Function
+`WMISchema::WMISchema` | 6 | Exported Function
+`WMISchema::WMISchema` | 7 | Exported Function
+`CCritSec::operator` | 12 | Exported Function
+`CAutoSetActivityId::operator` | 11 | Exported Function
+`StaticSchema::StaticSchema` | 5 | Exported Function
 `public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 9 | Exported Function
-`CCritSec` | 2 | Exported Function
-`IndicationSchema` | 4 | Exported Function
-`DynamicSchema` | 3 | Exported Function
-`GetMiClass` | 19 | Exported Function
-`CreateInstance` | 14 | Exported Function
-`CreateInstance` | 15 | Exported Function
-`GetFlags` | 17 | Exported Function
-`GetMiClass` | 18 | Exported Function
-`DeInitialize` | 16 | Exported Function
-`Initialize` | 24 | Exported Function
-`CreateInstance` | 13 | Exported Function
+`CCritSec::CCritSec` | 2 | Exported Function
+`IndicationSchema::IndicationSchema` | 4 | Exported Function
+`DynamicSchema::DynamicSchema` | 3 | Exported Function
+`IndicationSchema::GetMiClass` | 19 | Exported Function
+`IndicationSchema::CreateInstance` | 14 | Exported Function
+`StaticSchema::CreateInstance` | 15 | Exported Function
+`MiSchema::GetFlags` | 17 | Exported Function
+`DynamicSchema::GetMiClass` | 18 | Exported Function
+`WMISchema::DeInitialize` | 16 | Exported Function
+`StaticSchema::Initialize` | 24 | Exported Function
+`DynamicSchema::CreateInstance` | 13 | Exported Function
 `public: virtual __cdecl WMISchema::~WMISchema(void) __ptr64` | 10 | Exported Function
 `public: __cdecl CAutoSetActivityId::~CAutoSetActivityId(void) __ptr64` | 8 | Exported Function
 `Options_FindValue` | 76 | Exported Function
@@ -167,8 +167,8 @@ Function Name | Ordinal | Type
 `MiErrorCategoryFromWindowsError` | 66 | Exported Function
 `PropertyToVariant` | 79 | Exported Function
 `PropertySet_New` | 78 | Exported Function
-`CAutoSetActivityId` | 1 | Exported Function
-`SetFlags` | 26 | Exported Function
+`CAutoSetActivityId::CAutoSetActivityId` | 1 | Exported Function
+`MiSchema::SetFlags` | 26 | Exported Function
 `ParametersToWMIObject` | 77 | Exported Function
 `OSC_Batch_Strdup` | 69 | Exported Function
 `OSC_Batch_Get` | 68 | Exported Function

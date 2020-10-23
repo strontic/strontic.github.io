@@ -46,9 +46,9 @@ Function Name | Ordinal | Type
 `bool __cdecl WdagRevokeNamedPipe(char const * __ptr64,wchar_t const * __ptr64)` | 10 | Exported Function
 `void __cdecl WdagSuppressHvsiSplashDialog(void)` | 11 | Exported Function
 `wchar_t const * __ptr64 __cdecl WdagGetHvSocketCapability(void)` | 4 | Exported Function
-`Container` | 2 | Exported Function
-`ErrorHandler` | 1 | Exported Function
-`Channel` | 5 | Exported Function
+`internals::Container` | 2 | Exported Function
+`internals::ErrorHandler` | 1 | Exported Function
+`internals::Channel` | 5 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `7383C65C6CC1BFD633F3C5041D9AAE23A6103405EA42D823E961E6D2304D2FC2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetIntercept` | 4 | Exported Function
-`Unhook` | 5 | Exported Function
-`Hook` | 3 | Exported Function
-`GetInstance` | 2 | Exported Function
-`GPHHookWindowPointerDown` | 1 | Exported Function
+`CGamePanelExternalHook::SetIntercept` | 4 | Exported Function
+`CGamePanelExternalHook::Unhook` | 5 | Exported Function
+`CGamePanelExternalHook::Hook` | 3 | Exported Function
+`CGamePanelExternalHook::GetInstance` | 2 | Exported Function
+`CGamePanelExternalHook::GPHHookWindowPointerDown` | 1 | Exported Function
 
 
 ## Signature

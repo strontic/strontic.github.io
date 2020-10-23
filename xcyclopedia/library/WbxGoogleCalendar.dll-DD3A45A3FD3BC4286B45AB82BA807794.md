@@ -26,12 +26,12 @@ PE256 | `CA90AAF7EABB0DC9ED444FDCFB281E06692A5F8E8FAF99633628ADA04452950C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`session_context` | 2 | Exported Function
-`operator` | 4 | Exported Function
+`session_context::session_context` | 2 | Exported Function
+`session_context::operator` | 4 | Exported Function
 `public: virtual __thiscall session_context::~session_context(void)` | 3 | Exported Function
 `const session_context::``vftable'` | 5 | Exported Function
 `DllGetWbxGoogleCalendarObject` | 6 | Exported Function
-`session_context` | 1 | Exported Function
+`session_context::session_context` | 1 | Exported Function
 
 
 ## Signature

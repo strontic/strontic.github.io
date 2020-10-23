@@ -28,7 +28,7 @@ Function Name | Ordinal | Type
 -- | -- | --
 `qt_plugin_query_metadata` | 3 | Exported Function
 `qt_plugin_instance` | 2 | Exported Function
-`function` | 1 | Exported Function
+`std::function` | 1 | Exported Function
 
 
 ## Signature

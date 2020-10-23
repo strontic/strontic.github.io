@@ -75,8 +75,8 @@ Function Name | Ordinal | Type
 `ReallocADsStr` | 175 | Exported Function
 `SchemaClose` | 129 | Exported Function
 `SchemaAddRef` | 128 | Exported Function
-`SetFSlashDisabler` | 141 | Exported Function
-`SetExclaimnationDisabler` | 140 | Exported Function
+`CLexer::SetFSlashDisabler` | 141 | Exported Function
+`CLexer::SetExclaimnationDisabler` | 140 | Exported Function
 `ReadPagingSupportedAttr` | 124 | Exported Function
 `ReadServerSupportsIsADAMControl` | 126 | Exported Function
 `ReadSecurityDescriptorControlType` | 125 | Exported Function
@@ -91,7 +91,7 @@ Function Name | Ordinal | Type
 `SchemaGetPropertyInfo` | 133 | Exported Function
 `SchemaGetStringsFromStringTable` | 135 | Exported Function
 `SchemaGetPropertyInfoByIndex` | 134 | Exported Function
-`SetAtDisabler` | 139 | Exported Function
+`CLexer::SetAtDisabler` | 139 | Exported Function
 `LdapTypeFreeLdapObjects` | 114 | Exported Function
 `LdapTypeFreeLdapModObject` | 113 | Exported Function
 `LdapTypeToAdsTypeCopyConstruct` | 171 | Exported Function
@@ -103,11 +103,11 @@ Function Name | Ordinal | Type
 `LdapTypeFreeLdapModList` | 112 | Exported Function
 `LdapTypeCopyConstruct` | 111 | Exported Function
 `LdapTypeToAdsTypeGeneralizedTime` | 117 | Exported Function
-`CLexer` | 1 | Exported Function
+`CLexer::CLexer` | 1 | Exported Function
 `PathName` | 123 | Exported Function
 `public: __thiscall CLexer::~CLexer(void)` | 2 | Exported Function
-`InitializePath` | 60 | Exported Function
-`GetNextToken` | 56 | Exported Function
+`CLexer::InitializePath` | 60 | Exported Function
+`CLexer::GetNextToken` | 56 | Exported Function
 `LdapValueFree` | 119 | Exported Function
 `LdapTypeToAdsTypeUTCTime` | 118 | Exported Function
 `LdapValueFreeLen` | 120 | Exported Function

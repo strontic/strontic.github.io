@@ -27,12 +27,12 @@ PE256 | `81A15F339B1797DDA6B5F13868952646461257BEF945029B38300380295F23BD`
 Function Name | Ordinal | Type
 -- | -- | --
 `public: virtual __cdecl REFS_SA::~REFS_SA(void) __ptr64` | 3 | Exported Function
-`Initialize` | 11 | Exported Function
-`REFS_UPCASE_TABLE` | 2 | Exported Function
+`REFS_SA::Initialize` | 11 | Exported Function
+`REFS_UPCASE_TABLE::REFS_UPCASE_TABLE` | 2 | Exported Function
 `SetOriginalVolumeName` | 13 | Exported Function
 `Recover` | 12 | Exported Function
 `public: virtual __cdecl REFS_UPCASE_TABLE::~REFS_UPCASE_TABLE(void) __ptr64` | 4 | Exported Function
-`REFS_SA` | 1 | Exported Function
+`REFS_SA::REFS_SA` | 1 | Exported Function
 `Extend` | 7 | Exported Function
 `ChkdskEx` | 6 | Exported Function
 `Chkdsk` | 5 | Exported Function

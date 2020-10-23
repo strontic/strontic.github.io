@@ -26,19 +26,19 @@ PE256 | `80F09616B228F171A8C9EA8762B35509A7172CB455967BD5F31B8774D7B8A48D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`operator` | 7 | Exported Function
-`CTcpMibABC` | 4 | Exported Function
-`CTcpMibABC` | 3 | Exported Function
-`operator` | 8 | Exported Function
-`Read` | 12 | Exported Function
+`CPortABC::operator` | 7 | Exported Function
+`CTcpMibABC::CTcpMibABC` | 4 | Exported Function
+`CTcpMibABC::CTcpMibABC` | 3 | Exported Function
+`CTcpMibABC::operator` | 8 | Exported Function
+`CPortABC::Read` | 12 | Exported Function
 `public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 | Exported Function
 `public: virtual __cdecl CPortABC::~CPortABC(void) __ptr64` | 5 | Exported Function
-`CPortABC` | 2 | Exported Function
+`CPortABC::CPortABC` | 2 | Exported Function
 `InitializePrintMonitorUI` | 13 | Exported Function
 `const CTcpMibABC::``vftable'` | 10 | Exported Function
 `const CPortABC::``vftable'` | 9 | Exported Function
 `InitializePrintMonitorUI2` | 11 | Exported Function
-`CPortABC` | 1 | Exported Function
+`CPortABC::CPortABC` | 1 | Exported Function
 `LocalConfigurePortUI` | 15 | Exported Function
 `LocalAddPortUI` | 14 | Exported Function
 

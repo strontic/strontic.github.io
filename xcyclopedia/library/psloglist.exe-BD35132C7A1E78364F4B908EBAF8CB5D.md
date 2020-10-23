@@ -1467,7 +1467,7 @@ Message text not available.  Insertion strings:
    Computer: DESKTOP-11ON0OT
    Time:     9/6/2020 5:26:42 PM   ID:       1074 
    User:     NT AUTHORITY\SYSTEM
-The process C:\Windows\System32\wcsetupagent.exe (WIN-1HF2HHUG83I) has initiated the shutdown of computer DESKTOP-11ON0OT on behalf of user NT AUTHORITY\SYSTEM for the following reason: Operating System: Reconfiguration (Planned)
+The process C:\Windows\System32\wcsetupagent.exe (Default-PC) has initiated the shutdown of computer DESKTOP-11ON0OT on behalf of user NT AUTHORITY\SYSTEM for the following reason: Operating System: Reconfiguration (Planned)
  Reason Code: 0x80020004
  Shutdown Type: shutdown
  Comment: ?
@@ -2412,76 +2412,76 @@ Microsoft (R) Windows (R) 10.00. 19041 ? Multiprocessor Free.
    Type:     INFORMATION 
    Computer: DESKTOP-11ON0OT
    Time:     9/6/2020 5:25:30 PM   ID:       6011 
-The NetBIOS name and DNS host name of this machine have been changed from WIN-1HF2HHUG83I to DESKTOP-11ON0OT.
+The NetBIOS name and DNS host name of this machine have been changed from Default-PC to DESKTOP-11ON0OT.
 
 [240] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       50037 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client service is stopped. ShutDown Flag value is 1
 
 [239] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       50106 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 is waiting on DHCPv6 service to stop
 
 [238] Microsoft-Windows-DHCPv6-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       51047 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv6 client service is stopped. ShutDown Flag value is 1
 
 [237] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       50105 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client ProcessDHCPRequestForever received TERMINATE_EVENT
 
 [236] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       50104 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client received shutdown notification
 
 [235] User32
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       1074 
    User:     NT AUTHORITY\SYSTEM
-The process C:\Windows\system32\winlogon.exe (MINWINPC) has initiated the restart of computer WIN-1HF2HHUG83I on behalf of user NT AUTHORITY\SYSTEM for the following reason: Operating System: Upgrade (Planned)
+The process C:\Windows\system32\winlogon.exe (MINWINPC) has initiated the restart of computer Default-PC on behalf of user NT AUTHORITY\SYSTEM for the following reason: Operating System: Upgrade (Planned)
  Reason Code: 0x80020003
  Shutdown Type: restart
  Comment: ?
 
 [234] Microsoft-Windows-Setup
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:59 PM   ID:       2004 
    User:     NT AUTHORITY\SYSTEM
 Successfully logged OS information
 
 [233] EventLog
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:25:00 PM   ID:       6006 
 The Event log service was stopped.
 
 [232] Microsoft-Windows-UserModePowerService
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:59 PM   ID:       22 
    User:     NT AUTHORITY\SYSTEM
 Reapply power settings upon completion of the provisioning engine's turn 1
 
 [231] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:56 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2489,19 +2489,19 @@ Message text not available.  Insertion strings:
 
 [230] Virtual Disk Service
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:56 PM   ID:       4 
 Service stopped.
 
 [229] Virtual Disk Service
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:55 PM   ID:       3 
 Service started.
 
 [228] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:50 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2509,7 +2509,7 @@ Message text not available.  Insertion strings:
 
 [227] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:49 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2517,7 +2517,7 @@ Message text not available.  Insertion strings:
 
 [226] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:48 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2525,7 +2525,7 @@ Message text not available.  Insertion strings:
 
 [225] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:47 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2533,7 +2533,7 @@ Message text not available.  Insertion strings:
 
 [224] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:46 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2541,7 +2541,7 @@ Message text not available.  Insertion strings:
 
 [223] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:46 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2549,7 +2549,7 @@ Message text not available.  Insertion strings:
 
 [222] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:45 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2557,7 +2557,7 @@ Message text not available.  Insertion strings:
 
 [221] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:45 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2565,7 +2565,7 @@ Message text not available.  Insertion strings:
 
 [220] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:43 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2573,7 +2573,7 @@ Message text not available.  Insertion strings:
 
 [219] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:43 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2581,7 +2581,7 @@ Message text not available.  Insertion strings:
 
 [218] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:41 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2589,7 +2589,7 @@ Message text not available.  Insertion strings:
 
 [217] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:41 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2597,7 +2597,7 @@ Message text not available.  Insertion strings:
 
 [216] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:38 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2605,7 +2605,7 @@ Message text not available.  Insertion strings:
 
 [215] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:37 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2613,7 +2613,7 @@ Message text not available.  Insertion strings:
 
 [214] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:33 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2621,7 +2621,7 @@ Message text not available.  Insertion strings:
 
 [213] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:32 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2629,7 +2629,7 @@ Message text not available.  Insertion strings:
 
 [212] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:31 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2637,7 +2637,7 @@ Message text not available.  Insertion strings:
 
 [211] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:29 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2645,7 +2645,7 @@ Message text not available.  Insertion strings:
 
 [210] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:27 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2653,7 +2653,7 @@ Message text not available.  Insertion strings:
 
 [209] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:26 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2661,7 +2661,7 @@ Message text not available.  Insertion strings:
 
 [208] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:25 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2669,7 +2669,7 @@ Message text not available.  Insertion strings:
 
 [207] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:25 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2677,7 +2677,7 @@ Message text not available.  Insertion strings:
 
 [206] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:24 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2685,7 +2685,7 @@ Message text not available.  Insertion strings:
 
 [205] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:22 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2693,7 +2693,7 @@ Message text not available.  Insertion strings:
 
 [204] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:22 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2701,7 +2701,7 @@ Message text not available.  Insertion strings:
 
 [203] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:22 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2709,7 +2709,7 @@ Message text not available.  Insertion strings:
 
 [202] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:21 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2717,7 +2717,7 @@ Message text not available.  Insertion strings:
 
 [201] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:20 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2725,7 +2725,7 @@ Message text not available.  Insertion strings:
 
 [200] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:17 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2733,7 +2733,7 @@ Message text not available.  Insertion strings:
 
 [199] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:15 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2741,7 +2741,7 @@ Message text not available.  Insertion strings:
 
 [198] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:15 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2749,7 +2749,7 @@ Message text not available.  Insertion strings:
 
 [197] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:14 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2757,7 +2757,7 @@ Message text not available.  Insertion strings:
 
 [196] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:13 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2765,7 +2765,7 @@ Message text not available.  Insertion strings:
 
 [195] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:12 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2773,7 +2773,7 @@ Message text not available.  Insertion strings:
 
 [194] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:10 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2781,7 +2781,7 @@ Message text not available.  Insertion strings:
 
 [193] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:09 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2789,7 +2789,7 @@ Message text not available.  Insertion strings:
 
 [192] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:09 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2797,7 +2797,7 @@ Message text not available.  Insertion strings:
 
 [191] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:08 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2805,7 +2805,7 @@ Message text not available.  Insertion strings:
 
 [190] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:07 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2813,7 +2813,7 @@ Message text not available.  Insertion strings:
 
 [189] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:06 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2821,7 +2821,7 @@ Message text not available.  Insertion strings:
 
 [188] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:06 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2829,7 +2829,7 @@ Message text not available.  Insertion strings:
 
 [187] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:05 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2837,7 +2837,7 @@ Message text not available.  Insertion strings:
 
 [186] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:05 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2845,7 +2845,7 @@ Message text not available.  Insertion strings:
 
 [185] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:05 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2853,7 +2853,7 @@ Message text not available.  Insertion strings:
 
 [184] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:05 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2861,7 +2861,7 @@ Message text not available.  Insertion strings:
 
 [183] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:04 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2869,7 +2869,7 @@ Message text not available.  Insertion strings:
 
 [182] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:04 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2877,7 +2877,7 @@ Message text not available.  Insertion strings:
 
 [181] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:04 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2885,7 +2885,7 @@ Message text not available.  Insertion strings:
 
 [180] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:04 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2893,7 +2893,7 @@ Message text not available.  Insertion strings:
 
 [179] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:03 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2901,7 +2901,7 @@ Message text not available.  Insertion strings:
 
 [178] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:03 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2909,7 +2909,7 @@ Message text not available.  Insertion strings:
 
 [177] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:03 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2917,7 +2917,7 @@ Message text not available.  Insertion strings:
 
 [176] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:02 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2925,7 +2925,7 @@ Message text not available.  Insertion strings:
 
 [175] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:02 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2933,7 +2933,7 @@ Message text not available.  Insertion strings:
 
 [174] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:02 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2941,7 +2941,7 @@ Message text not available.  Insertion strings:
 
 [173] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:02 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2949,7 +2949,7 @@ Message text not available.  Insertion strings:
 
 [172] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:01 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2957,7 +2957,7 @@ Message text not available.  Insertion strings:
 
 [171] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:01 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2965,7 +2965,7 @@ Message text not available.  Insertion strings:
 
 [170] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:01 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2973,7 +2973,7 @@ Message text not available.  Insertion strings:
 
 [169] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:01 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2981,7 +2981,7 @@ Message text not available.  Insertion strings:
 
 [168] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:00 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2989,7 +2989,7 @@ Message text not available.  Insertion strings:
 
 [167] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:00 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2997,7 +2997,7 @@ Message text not available.  Insertion strings:
 
 [166] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:00 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3005,7 +3005,7 @@ Message text not available.  Insertion strings:
 
 [165] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:24:00 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3013,7 +3013,7 @@ Message text not available.  Insertion strings:
 
 [164] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:59 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3021,7 +3021,7 @@ Message text not available.  Insertion strings:
 
 [163] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:59 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3029,7 +3029,7 @@ Message text not available.  Insertion strings:
 
 [162] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:59 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3037,7 +3037,7 @@ Message text not available.  Insertion strings:
 
 [161] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:59 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3045,7 +3045,7 @@ Message text not available.  Insertion strings:
 
 [160] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:58 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3053,7 +3053,7 @@ Message text not available.  Insertion strings:
 
 [159] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:58 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3061,7 +3061,7 @@ Message text not available.  Insertion strings:
 
 [158] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:58 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3069,7 +3069,7 @@ Message text not available.  Insertion strings:
 
 [157] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:58 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3077,7 +3077,7 @@ Message text not available.  Insertion strings:
 
 [156] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:57 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3085,7 +3085,7 @@ Message text not available.  Insertion strings:
 
 [155] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:57 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3093,7 +3093,7 @@ Message text not available.  Insertion strings:
 
 [154] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:57 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3101,7 +3101,7 @@ Message text not available.  Insertion strings:
 
 [153] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:57 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3109,7 +3109,7 @@ Message text not available.  Insertion strings:
 
 [152] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:57 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3117,7 +3117,7 @@ Message text not available.  Insertion strings:
 
 [151] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:56 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3125,7 +3125,7 @@ Message text not available.  Insertion strings:
 
 [150] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:56 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3133,525 +3133,525 @@ Message text not available.  Insertion strings:
 
 [149] Service Control Manager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:55 PM   ID:       7040 
    User:     NT AUTHORITY\SYSTEM
 The start type of the IKE and AuthIP IPsec Keying Modules service was changed from demand start to auto start.
 
 [148] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\drvinst.exe with process id 4372 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [147] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\drvinst.exe with process id 4360 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [146] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\conhost.exe with process id 4288 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [145] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\wbem\mofcomp.exe with process id 4280 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [144] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 4172 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [143] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 4104 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [142] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Program Files\Windows Defender\MsMpEng.exe with process id 4056 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [141] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\CExecSvc.exe with process id 4000 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [140] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\wcsetupagent.exe with process id 3984 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [139] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3976 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [138] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3968 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [137] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3960 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [136] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3952 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [135] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3944 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [134] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3936 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [133] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3844 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [132] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3784 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [131] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3736 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [130] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\spoolsv.exe with process id 3664 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [129] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3624 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [128] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3504 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [127] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3412 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [126] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3404 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [125] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3396 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [124] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3388 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [123] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3292 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [122] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3212 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [121] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3164 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [120] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3152 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [119] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3104 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [118] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 3028 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [117] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2964 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [116] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\servicing\TrustedInstaller.exe with process id 2904 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [115] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2888 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [114] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2876 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [113] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2868 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [112] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2860 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [111] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2852 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [110] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\VSSVC.exe with process id 2800 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [109] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2588 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [108] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2580 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [107] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2556 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [106] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2512 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [105] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2484 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [104] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2464 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [103] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2456 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [102] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2436 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [101] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2360 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [100] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2316 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [099] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\secinit.exe with process id 2228 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [098] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\oobe\Setup.exe with process id 2184 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [097] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\oobe\windeploy.exe with process id 2156 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [096] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2068 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [095] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2044 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [094] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 2008 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [093] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\sppsvc.exe with process id 1964 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [092] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 1920 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [091] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 1880 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [090] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\fontdrvhost.exe with process id 1804 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [089] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\fontdrvhost.exe with process id 1788 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [088] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 1764 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [087] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 1740 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [086] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\lsass.exe with process id 1620 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [085] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\services.exe with process id 1600 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [084] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 1596 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [083] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\winlogon.exe with process id 1556 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [082] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\csrss.exe with process id 1472 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [081] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\wininit.exe with process id 1456 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [080] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\svchost.exe with process id 1396 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [079] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\csrss.exe with process id 1352 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [078] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\dwm.exe with process id 1248 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [077] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application \Device\HarddiskVolume2\Windows\System32\smss.exe with process id 1228 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [076] Microsoft-Windows-Kernel-PnP
    Type:     WARNING 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       225 
    User:     NT AUTHORITY\SYSTEM
 The application System with process id 4 stopped the removal or ejection for the device ACPI\ACPI0004\0.
 
 [075] Service Control Manager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       7026 
 The following boot-start or system-start driver(s) did not load: 
 CSC
@@ -3659,70 +3659,70 @@ dam
 
 [074] Service Control Manager
    Type:     ERROR 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       7023 
 The netprofm service terminated with the following error: 
 %%21
 
 [073] Microsoft-Windows-DHCPv6-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       51046 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv6 client service is started
 
 [072] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       50103 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client registered for shutdown notification
 
 [071] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       50036 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client service is started
 
 [070] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'bindflt' (10.0, 2006-02-06T13:00:56.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [069] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'storqosflt' (10.0, 2007-04-09T11:08:30.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [068] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'CldFlt' (10.0, 2003-03-20T16:36:50.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [067] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       1 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'CldFlt' (Version 10.0, 2003-03-20T16:36:50.0000000Z) unloaded successfully.
 
 [066] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'CldFlt' (10.0, 2003-03-20T16:36:50.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [065] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       1 
    User:     NT AUTHORITY\LOCAL SERVICE
 Possible detection of CVE: 2020-09-06T21:23:54.4020000Z
@@ -3732,7 +3732,7 @@ This Event is raised by a User mode process.
   
 [064] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       24 
    User:     NT AUTHORITY\LOCAL SERVICE
 Message text not available.  Insertion strings:
@@ -3740,21 +3740,21 @@ Message text not available.  Insertion strings:
 
 [063] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:52 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'wcifs' (10.0, 1971-08-10T04:27:38.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [062] Service Control Manager
    Type:     ERROR 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:52 PM   ID:       7000 
 The luafv service failed to start due to the following error: 
 %%1275
 
 [061] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:52 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3762,7 +3762,7 @@ Message text not available.  Insertion strings:
 
 [060] Microsoft-Windows-Directory-Services-SAM
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:51 PM   ID:       16977 
    User:     NT AUTHORITY\SYSTEM
 The domain is configured with the following minimum password length-related settings.
@@ -3773,13 +3773,13 @@ The domain is configured with the following minimum password length-related sett
   
 [059] Workstation
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       3261 
 This computer has been successfully joined to workgroup 'WORKGROUP'.
 
 [058] Microsoft-Windows-Directory-Services-SAM
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:46 PM   ID:       16977 
    User:     NT AUTHORITY\SYSTEM
 The domain is configured with the following minimum password length-related settings.
@@ -3790,7 +3790,7 @@ The domain is configured with the following minimum password length-related sett
   
 [057] Microsoft-Windows-Directory-Services-SAM
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:46 PM   ID:       16962 
    User:     NT AUTHORITY\SYSTEM
 Remote calls to the SAM database are being restricted using the default security descriptor: O:SYG:SYD:(A;;RC;;;BA).
@@ -3798,14 +3798,14 @@ For more information please see http://go.microsoft.com/fwlink/?LinkId=787651.
 
 [056] Microsoft-Windows-Wininit
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:46 PM   ID:       14 
    User:     NT AUTHORITY\SYSTEM
 Credential Guard configuration: 0, 0
 
 [055] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:39 PM   ID:       24 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -3813,7 +3813,7 @@ Message text not available.  Insertion strings:
 
 [054] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 35 exposes the following power management capabilities:
@@ -3826,7 +3826,7 @@ Minimum throttle percentage: 100
 
 [053] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 34 exposes the following power management capabilities:
@@ -3839,7 +3839,7 @@ Minimum throttle percentage: 100
 
 [052] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 33 exposes the following power management capabilities:
@@ -3852,7 +3852,7 @@ Minimum throttle percentage: 100
 
 [051] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 32 exposes the following power management capabilities:
@@ -3865,7 +3865,7 @@ Minimum throttle percentage: 100
 
 [050] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 31 exposes the following power management capabilities:
@@ -3878,7 +3878,7 @@ Minimum throttle percentage: 100
 
 [049] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 30 exposes the following power management capabilities:
@@ -3891,7 +3891,7 @@ Minimum throttle percentage: 100
 
 [048] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 29 exposes the following power management capabilities:
@@ -3904,7 +3904,7 @@ Minimum throttle percentage: 100
 
 [047] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 28 exposes the following power management capabilities:
@@ -3917,7 +3917,7 @@ Minimum throttle percentage: 100
 
 [046] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 27 exposes the following power management capabilities:
@@ -3930,7 +3930,7 @@ Minimum throttle percentage: 100
 
 [045] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 26 exposes the following power management capabilities:
@@ -3943,7 +3943,7 @@ Minimum throttle percentage: 100
 
 [044] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 25 exposes the following power management capabilities:
@@ -3956,7 +3956,7 @@ Minimum throttle percentage: 100
 
 [043] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 24 exposes the following power management capabilities:
@@ -3969,7 +3969,7 @@ Minimum throttle percentage: 100
 
 [042] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 23 exposes the following power management capabilities:
@@ -3982,7 +3982,7 @@ Minimum throttle percentage: 100
 
 [041] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 22 exposes the following power management capabilities:
@@ -3995,7 +3995,7 @@ Minimum throttle percentage: 100
 
 [040] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 21 exposes the following power management capabilities:
@@ -4008,7 +4008,7 @@ Minimum throttle percentage: 100
 
 [039] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 20 exposes the following power management capabilities:
@@ -4021,7 +4021,7 @@ Minimum throttle percentage: 100
 
 [038] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 19 exposes the following power management capabilities:
@@ -4034,7 +4034,7 @@ Minimum throttle percentage: 100
 
 [037] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 18 exposes the following power management capabilities:
@@ -4047,7 +4047,7 @@ Minimum throttle percentage: 100
 
 [036] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 17 exposes the following power management capabilities:
@@ -4060,7 +4060,7 @@ Minimum throttle percentage: 100
 
 [035] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 16 exposes the following power management capabilities:
@@ -4073,7 +4073,7 @@ Minimum throttle percentage: 100
 
 [034] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 15 exposes the following power management capabilities:
@@ -4086,7 +4086,7 @@ Minimum throttle percentage: 100
 
 [033] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 14 exposes the following power management capabilities:
@@ -4099,7 +4099,7 @@ Minimum throttle percentage: 100
 
 [032] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 13 exposes the following power management capabilities:
@@ -4112,7 +4112,7 @@ Minimum throttle percentage: 100
 
 [031] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 12 exposes the following power management capabilities:
@@ -4125,7 +4125,7 @@ Minimum throttle percentage: 100
 
 [030] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 11 exposes the following power management capabilities:
@@ -4138,7 +4138,7 @@ Minimum throttle percentage: 100
 
 [029] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 10 exposes the following power management capabilities:
@@ -4151,7 +4151,7 @@ Minimum throttle percentage: 100
 
 [028] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 9 exposes the following power management capabilities:
@@ -4164,7 +4164,7 @@ Minimum throttle percentage: 100
 
 [027] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 8 exposes the following power management capabilities:
@@ -4177,7 +4177,7 @@ Minimum throttle percentage: 100
 
 [026] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 7 exposes the following power management capabilities:
@@ -4190,7 +4190,7 @@ Minimum throttle percentage: 100
 
 [025] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 6 exposes the following power management capabilities:
@@ -4203,7 +4203,7 @@ Minimum throttle percentage: 100
 
 [024] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 5 exposes the following power management capabilities:
@@ -4216,7 +4216,7 @@ Minimum throttle percentage: 100
 
 [023] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 4 exposes the following power management capabilities:
@@ -4229,7 +4229,7 @@ Minimum throttle percentage: 100
 
 [022] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 3 exposes the following power management capabilities:
@@ -4242,7 +4242,7 @@ Minimum throttle percentage: 100
 
 [021] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 2 exposes the following power management capabilities:
@@ -4255,7 +4255,7 @@ Minimum throttle percentage: 100
 
 [020] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 1 exposes the following power management capabilities:
@@ -4268,7 +4268,7 @@ Minimum throttle percentage: 100
 
 [019] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 0 exposes the following power management capabilities:
@@ -4281,7 +4281,7 @@ Minimum throttle percentage: 100
 
 [018] Microsoft-Windows-Kernel-Power
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       172 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4289,21 +4289,21 @@ Message text not available.  Insertion strings:
 
 [017] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'npsvctrig' (10.0, 2025-01-05T19:41:12.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [016] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'FileCrypt' (10.0, 2002-03-01T04:12:42.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [015] Microsoft-Windows-Ntfs
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:38 PM   ID:       98 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4311,35 +4311,35 @@ Message text not available.  Insertion strings:
 
 [014] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'WdFilter' (10.0, 2066-04-08T21:52:09.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [013] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'Wof' (10.0, 2050-10-18T06:21:08.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [012] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'FileInfo' (10.0, 2062-12-22T22:21:06.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [011] Microsoft-Windows-HAL
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 The iommu fault reporting has been initialized.
 
 [010] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       20 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4347,7 +4347,7 @@ Message text not available.  Insertion strings:
 
 [009] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       32 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4355,7 +4355,7 @@ Message text not available.  Insertion strings:
 
 [008] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       18 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4363,7 +4363,7 @@ Message text not available.  Insertion strings:
 
 [007] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       27 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4371,7 +4371,7 @@ Message text not available.  Insertion strings:
 
 [006] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       25 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4379,7 +4379,7 @@ Message text not available.  Insertion strings:
 
 [005] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       238 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4387,7 +4387,7 @@ Message text not available.  Insertion strings:
 
 [004] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       153 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -4395,19 +4395,19 @@ Message text not available.  Insertion strings:
 
 [003] EventLog
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       6005 
 The Event log service was started.
 
 [002] EventLog
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:54 PM   ID:       6009 
 Microsoft (R) Windows (R) 10.00. 19041 ? Multiprocessor Free.
 
 [001] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: WIN-1HF2HHUG83I
+   Computer: Default-PC
    Time:     9/6/2020 5:23:37 PM   ID:       12 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:

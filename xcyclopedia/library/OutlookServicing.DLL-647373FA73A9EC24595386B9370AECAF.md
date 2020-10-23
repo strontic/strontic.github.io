@@ -26,11 +26,11 @@ PE256 | `45A731DC216BBA86C6DE699245927C1578CDF49A2F98C525B1A29F4620B6A327`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Initialize` | 4 | Exported Function
-`Terminate` | 5 | Exported Function
-`GetManagerOption` | 3 | Exported Function
-`ComputeRipcordValue` | 1 | Exported Function
-`GetManager` | 2 | Exported Function
+`Gates::Initialize` | 4 | Exported Function
+`Gates::Terminate` | 5 | Exported Function
+`Logging::GetManagerOption` | 3 | Exported Function
+`Gates::ComputeRipcordValue` | 1 | Exported Function
+`Logging::GetManager` | 2 | Exported Function
 
 
 ## Signature

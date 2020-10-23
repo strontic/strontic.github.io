@@ -25,10 +25,10 @@ PE256 | `276415232B152D51742D3D1BF6EADFD60AA6D8364DA078417BCF619FA13FD253`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`allocator` | 4 | Exported Function
-`DiscardCachedServiceContexts` | 1 | Exported Function
-`allocator` | 2 | Exported Function
-`allocator` | 3 | Exported Function
+`std::allocator` | 4 | Exported Function
+`Factory::DiscardCachedServiceContexts` | 1 | Exported Function
+`std::allocator` | 2 | Exported Function
+`std::allocator` | 3 | Exported Function
 
 
 ## Signature

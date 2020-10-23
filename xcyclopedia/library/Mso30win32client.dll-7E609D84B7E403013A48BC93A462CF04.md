@@ -1042,8 +1042,8 @@ Function Name | Ordinal | Type
 `Ordinal999` | 999 | Exported Function
 `Ordinal998` | 998 | Exported Function
 `SetMonthAdvance` | 687 | Exported Function
-`MsoGetUserDefaultLCID` | 968 | Exported Function
-`MsoGetSystemDefaultLCID` | 1455 | Exported Function
+`Config::MsoGetUserDefaultLCID` | 968 | Exported Function
+`Config::MsoGetSystemDefaultLCID` | 1455 | Exported Function
 `Ordinal997` | 997 | Exported Function
 `Ordinal993` | 993 | Exported Function
 `Ordinal992` | 992 | Exported Function

@@ -39,7 +39,7 @@ Function Name | Ordinal | Type
 `close` | 2 | Exported Function
 `fdopen` | 3 | Exported Function
 `open` | 8 | Exported Function
-`Instance` | 1 | Exported Function
+`IFactory::Instance` | 1 | Exported Function
 `getpid` | 6 | Exported Function
 `isatty` | 7 | Exported Function
 

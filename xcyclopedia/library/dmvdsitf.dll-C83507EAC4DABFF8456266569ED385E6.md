@@ -26,17 +26,17 @@ PE256 | `98F4FC7CDCFAE6DD038290553A7B8FF5265AE652755D6F74510E5E98736FE4FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetVolumeCount` | 10 | Exported Function
-`GetDiskCount` | 4 | Exported Function
-`GetNumMembers` | 6 | Exported Function
-`GetRegionColorStructPtr` | 8 | Exported Function
-`AddLDMObjMapEntry` | 1 | Exported Function
-`GetOcxFrameCWndPtr` | 7 | Exported Function
+`CDataCache::GetVolumeCount` | 10 | Exported Function
+`CDataCache::GetDiskCount` | 4 | Exported Function
+`CDMNodeObj::GetNumMembers` | 6 | Exported Function
+`CTaskData::GetRegionColorStructPtr` | 8 | Exported Function
+`CDataCache::AddLDMObjMapEntry` | 1 | Exported Function
+`CTaskData::GetOcxFrameCWndPtr` | 7 | Exported Function
 `CreateServerRequestsZ` | 3 | Exported Function
 `CreateDataCacheZ` | 2 | Exported Function
 `LoadPropertyPageData` | 11 | Exported Function
-`GetServerName` | 9 | Exported Function
-`GetLdmObjectId` | 5 | Exported Function
+`CDataCache::GetServerName` | 9 | Exported Function
+`CDMNodeObj::GetLdmObjectId` | 5 | Exported Function
 
 
 ## Signature

@@ -42,22 +42,22 @@ Function Name | Ordinal | Type
 `WcIsContainerQuiescent` | 25 | Exported Function
 `WcRegisterForContainerTerminationNotification` | 28 | Exported Function
 `WcLaunchContainer` | 27 | Exported Function
-`LaunchApplicationContainer` | 9 | Exported Function
-`GetComRegistryRoot` | 4 | Exported Function
-`CleanupContainer` | 2 | Exported Function
-`AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
-`GetContainerIdentifierString` | 5 | Exported Function
-`ShutdownAppContainer` | 14 | Exported Function
-`IsContainerQuiescent` | 8 | Exported Function
-`RegisterForContainerTerminationNotification` | 11 | Exported Function
-`SetRegistryFlushState` | 13 | Exported Function
-`ReleaseContainerTerminationNotification` | 12 | Exported Function
+`container::LaunchApplicationContainer` | 9 | Exported Function
+`container::GetComRegistryRoot` | 4 | Exported Function
+`container::CleanupContainer` | 2 | Exported Function
+`container::AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`container::GetContainerIdentifierString` | 5 | Exported Function
+`container::ShutdownAppContainer` | 14 | Exported Function
+`container::IsContainerQuiescent` | 8 | Exported Function
+`container::RegisterForContainerTerminationNotification` | 11 | Exported Function
+`container::SetRegistryFlushState` | 13 | Exported Function
+`container::ReleaseContainerTerminationNotification` | 12 | Exported Function
 `WcAddRuntimeVirtualKeysToContainer` | 16 | Exported Function
-`WaitForContainerTerminationNotification` | 15 | Exported Function
-`allocator` | 6 | Exported Function
-`Container` | 3 | Exported Function
-`LaunchContainer` | 10 | Exported Function
-`allocator` | 7 | Exported Function
+`container::WaitForContainerTerminationNotification` | 15 | Exported Function
+`std::allocator` | 6 | Exported Function
+`DefinitionFile::Container` | 3 | Exported Function
+`container::LaunchContainer` | 10 | Exported Function
+`std::allocator` | 7 | Exported Function
 
 
 ## Signature

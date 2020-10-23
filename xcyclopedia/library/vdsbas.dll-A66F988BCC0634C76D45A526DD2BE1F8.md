@@ -26,93 +26,93 @@ PE256 | `4396559FCEF2C6D14FEBB9E71B30C66041F46C0452C5192C5FE7BACF958CD669`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`m_NoDebuggerLogging` | 83 | Exported Function
-`operator` | 38 | Exported Function
-`m_ExtraLogging` | 82 | Exported Function
-`CurrentThreadIsWriter` | 66 | Exported Function
-`IsCancelRequested` | 75 | Exported Function
-`Detach` | 70 | Exported Function
-`operator` | 52 | Exported Function
-`operator` | 55 | Exported Function
-`Detach` | 69 | Exported Function
-`operator` | 51 | Exported Function
-`GetOutputType` | 74 | Exported Function
-`CVdsUnlockIt` | 17 | Exported Function
+`CVdsTraceSettings::m_NoDebuggerLogging` | 83 | Exported Function
+`public: struct _AUCTION_THREAD_PARAMETER * __ptr64 __cdecl CVdsHeapPtr<struct _AUCTION_THREAD_PARAMETER>::operator=(struct _AUCTION_THREAD_PARAMETER * __ptr64) __ptr64` | 38 | Exported Function
+`CVdsTraceSettings::m_ExtraLogging` | 82 | Exported Function
+`CRtlSharedLock::CurrentThreadIsWriter` | 66 | Exported Function
+`CVdsAsyncObjectBase::IsCancelRequested` | 75 | Exported Function
+`public: struct _DRIVE_LAYOUT_INFORMATION_EX * __ptr64 __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::Detach(void) __ptr64` | 70 | Exported Function
+`public: struct _DRIVE_LAYOUT_INFORMATION_EX * __ptr64 __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::operator->(void)const __ptr64` | 52 | Exported Function
+`public: struct _DRIVE_LAYOUT_INFORMATION_EX * __ptr64 * __ptr64 __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::operator&(void) __ptr64` | 55 | Exported Function
+`public: struct _AUCTION_THREAD_PARAMETER * __ptr64 __cdecl CVdsPtr<struct _AUCTION_THREAD_PARAMETER>::Detach(void) __ptr64` | 69 | Exported Function
+`public: struct _AUCTION_THREAD_PARAMETER * __ptr64 __cdecl CVdsPtr<struct _AUCTION_THREAD_PARAMETER>::operator->(void)const __ptr64` | 51 | Exported Function
+`CVdsAsyncObjectBase::GetOutputType` | 74 | Exported Function
+`CVdsUnlockIt::CVdsUnlockIt` | 17 | Exported Function
 `public: __cdecl CVdsUnlockIt::~CVdsUnlockIt(void) __ptr64` | 34 | Exported Function
 `public: __cdecl CVdsPtr<unsigned short>::~CVdsPtr<unsigned short>(void) __ptr64` | 26 | Exported Function
-`CVdsPtr` | 9 | Exported Function
-`operator` | 47 | Exported Function
-`operator` | 41 | Exported Function
-`operator` | 42 | Exported Function
-`operator` | 44 | Exported Function
-`operator` | 40 | Exported Function
-`operator` | 43 | Exported Function
-`operator` | 56 | Exported Function
-`SetOutput` | 77 | Exported Function
-`SetOutputType` | 78 | Exported Function
-`DisallowCancel` | 72 | Exported Function
+`public: __cdecl CVdsPtr<unsigned short>::CVdsPtr<unsigned short>(void) __ptr64` | 9 | Exported Function
+`public: __cdecl CVdsPtr<unsigned short>::operator unsigned short * __ptr64(void)const __ptr64` | 47 | Exported Function
+`public: bool __cdecl CVdsPtr<unsigned char>::operator==(unsigned char * __ptr64)const __ptr64` | 41 | Exported Function
+`public: bool __cdecl CVdsPtr<unsigned short>::operator==(unsigned short * __ptr64)const __ptr64` | 42 | Exported Function
+`public: bool __cdecl CVdsPtr<unsigned char>::operator!=(unsigned char * __ptr64)const __ptr64` | 44 | Exported Function
+`public: bool __cdecl CVdsHandleImpl<0>::operator==(void * __ptr64)const __ptr64` | 40 | Exported Function
+`public: bool __cdecl CVdsPtr<struct _AUCTION_THREAD_PARAMETER>::operator==(struct _AUCTION_THREAD_PARAMETER * __ptr64)const __ptr64` | 43 | Exported Function
+`public: struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64 * __ptr64 __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::operator&(void) __ptr64` | 56 | Exported Function
+`CVdsAsyncObjectBase::SetOutput` | 77 | Exported Function
+`CVdsAsyncObjectBase::SetOutputType` | 78 | Exported Function
+`CVdsAsyncObjectBase::DisallowCancel` | 72 | Exported Function
 `public: void __cdecl CRtlMap::``default constructor closure'(void) __ptr64` | 58 | Exported Function
-`AllowCancel` | 61 | Exported Function
-`Attach` | 64 | Exported Function
-`Attach` | 62 | Exported Function
-`Attach` | 63 | Exported Function
-`ZeroAsyncOut` | 81 | Exported Function
-`Close` | 65 | Exported Function
+`CVdsAsyncObjectBase::AllowCancel` | 61 | Exported Function
+`public: void __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::Attach(struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64) __ptr64` | 64 | Exported Function
+`public: void __cdecl CVdsPtr<unsigned short>::Attach(unsigned short * __ptr64) __ptr64` | 62 | Exported Function
+`public: void __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::Attach(struct _DRIVE_LAYOUT_INFORMATION_EX * __ptr64) __ptr64` | 63 | Exported Function
+`CVdsAsyncObjectBase::ZeroAsyncOut` | 81 | Exported Function
+`public: void __cdecl CVdsHandleImpl<-1>::Close(void) __ptr64` | 65 | Exported Function
 `public: void __cdecl CRtlList::``default constructor closure'(void) __ptr64` | 57 | Exported Function
-`operator` | 36 | Exported Function
-`operator` | 37 | Exported Function
-`operator` | 53 | Exported Function
-`operator` | 39 | Exported Function
-`Detach` | 71 | Exported Function
-`operator` | 35 | Exported Function
-`SetPositionToLast` | 79 | Exported Function
-`Detach` | 67 | Exported Function
-`Detach` | 68 | Exported Function
-`operator` | 54 | Exported Function
+`public: unsigned char * __ptr64 __cdecl CVdsHeapPtr<unsigned char>::operator=(unsigned char * __ptr64) __ptr64` | 36 | Exported Function
+`public: unsigned short * __ptr64 __cdecl CVdsHeapPtr<unsigned short>::operator=(unsigned short * __ptr64) __ptr64` | 37 | Exported Function
+`public: struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64 __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::operator->(void)const __ptr64` | 53 | Exported Function
+`public: struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64 __cdecl CVdsHeapPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::operator=(struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64) __ptr64` | 39 | Exported Function
+`public: struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64 __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::Detach(void) __ptr64` | 71 | Exported Function
+`public: void * __ptr64 __cdecl CVdsHandleImpl<0>::operator=(void * __ptr64) __ptr64` | 35 | Exported Function
+`CPrvEnumObject::SetPositionToLast` | 79 | Exported Function
+`public: void * __ptr64 __cdecl CVdsHandleImpl<-1>::Detach(void) __ptr64` | 67 | Exported Function
+`public: unsigned short * __ptr64 __cdecl CVdsPtr<unsigned short>::Detach(void) __ptr64` | 68 | Exported Function
+`public: void * __ptr64 * __ptr64 __cdecl CVdsHandleImpl<-1>::operator&(void) __ptr64` | 54 | Exported Function
 `public: __cdecl CVdsPtr<unsigned char>::~CVdsPtr<unsigned char>(void) __ptr64` | 25 | Exported Function
 `public: __cdecl CVdsCriticalSection::~CVdsCriticalSection(void) __ptr64` | 32 | Exported Function
-`CVdsHandleImpl` | 1 | Exported Function
-`CVdsCriticalSection` | 15 | Exported Function
-`CRtlSharedLock` | 14 | Exported Function
+`public: __cdecl CVdsHandleImpl<-1>::CVdsHandleImpl<-1>(void) __ptr64` | 1 | Exported Function
+`CVdsCriticalSection::CVdsCriticalSection` | 15 | Exported Function
+`CRtlSharedLock::CRtlSharedLock` | 14 | Exported Function
 `public: __cdecl CRtlSharedLock::~CRtlSharedLock(void) __ptr64` | 31 | Exported Function
 `public: __cdecl CVdsHandleImpl<0>::~CVdsHandleImpl<0>(void) __ptr64` | 19 | Exported Function
-`CVdsHeapPtr` | 5 | Exported Function
-`CVdsHandleImpl` | 2 | Exported Function
-`operator` | 45 | Exported Function
+`public: __cdecl CVdsHeapPtr<struct _AUCTION_THREAD_PARAMETER>::CVdsHeapPtr<struct _AUCTION_THREAD_PARAMETER>(void) __ptr64` | 5 | Exported Function
+`public: __cdecl CVdsHandleImpl<0>::CVdsHandleImpl<0>(void) __ptr64` | 2 | Exported Function
+`public: __cdecl CVdsHandleImpl<-1>::operator void * __ptr64(void) __ptr64` | 45 | Exported Function
 `public: __cdecl CVdsHandleImpl<-1>::~CVdsHandleImpl<-1>(void) __ptr64` | 18 | Exported Function
 `public: __cdecl CPrvEnumObject::~CPrvEnumObject(void) __ptr64` | 30 | Exported Function
 `DllUnregisterServer` | 87 | Exported Function
-`AcquireRead` | 59 | Exported Function
+`CRtlSharedLock::AcquireRead` | 59 | Exported Function
 `DllRegisterServer` | 86 | Exported Function
 `DllCanUnloadNow` | 84 | Exported Function
 `DllGetClassObject` | 85 | Exported Function
-`Upgrade` | 80 | Exported Function
-`CPrvEnumObject` | 13 | Exported Function
-`Release` | 76 | Exported Function
-`AcquireWrite` | 60 | Exported Function
-`Downgrade` | 73 | Exported Function
+`CRtlSharedLock::Upgrade` | 80 | Exported Function
+`CPrvEnumObject::CPrvEnumObject` | 13 | Exported Function
+`CRtlSharedLock::Release` | 76 | Exported Function
+`CRtlSharedLock::AcquireWrite` | 60 | Exported Function
+`CRtlSharedLock::Downgrade` | 73 | Exported Function
 `public: __cdecl CVdsHeapPtr<struct _AUCTION_THREAD_PARAMETER>::~CVdsHeapPtr<struct _AUCTION_THREAD_PARAMETER>(void) __ptr64` | 22 | Exported Function
-`operator` | 49 | Exported Function
+`public: __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::operator struct _DRIVE_LAYOUT_INFORMATION_EX * __ptr64(void)const __ptr64` | 49 | Exported Function
 `public: __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::~CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 28 | Exported Function
-`CVdsPtr` | 11 | Exported Function
-`operator` | 48 | Exported Function
+`public: __cdecl CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::CVdsPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 11 | Exported Function
+`public: __cdecl CVdsPtr<struct _AUCTION_THREAD_PARAMETER>::operator struct _AUCTION_THREAD_PARAMETER * __ptr64(void)const __ptr64` | 48 | Exported Function
 `public: __cdecl CVdsPtr<struct _AUCTION_THREAD_PARAMETER>::~CVdsPtr<struct _AUCTION_THREAD_PARAMETER>(void) __ptr64` | 27 | Exported Function
-`CVdsPtr` | 8 | Exported Function
-`operator` | 46 | Exported Function
+`public: __cdecl CVdsPtr<unsigned char>::CVdsPtr<unsigned char>(void) __ptr64` | 8 | Exported Function
+`public: __cdecl CVdsPtr<unsigned char>::operator unsigned char * __ptr64(void)const __ptr64` | 46 | Exported Function
 `public: __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::~CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 29 | Exported Function
-`CVdsPtr` | 12 | Exported Function
-`operator` | 50 | Exported Function
-`CVdsPtr` | 10 | Exported Function
+`public: __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 12 | Exported Function
+`public: __cdecl CVdsPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::operator struct _VDS_DRIVE_LAYOUT_INFORMATION_EX * __ptr64(void)const __ptr64` | 50 | Exported Function
+`public: __cdecl CVdsPtr<struct _AUCTION_THREAD_PARAMETER>::CVdsPtr<struct _AUCTION_THREAD_PARAMETER>(void) __ptr64` | 10 | Exported Function
 `public: __cdecl CVdsHeapPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::~CVdsHeapPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 24 | Exported Function
-`CVdsHeapPtr` | 3 | Exported Function
-`CVdsHeapPtr` | 7 | Exported Function
-`CVdsHeapPtr` | 6 | Exported Function
+`public: __cdecl CVdsHeapPtr<unsigned char>::CVdsHeapPtr<unsigned char>(void) __ptr64` | 3 | Exported Function
+`public: __cdecl CVdsHeapPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>::CVdsHeapPtr<struct _VDS_DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 7 | Exported Function
+`public: __cdecl CVdsHeapPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::CVdsHeapPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 6 | Exported Function
 `public: __cdecl CVdsHeapPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>::~CVdsHeapPtr<struct _DRIVE_LAYOUT_INFORMATION_EX>(void) __ptr64` | 23 | Exported Function
-`CVdsPnPNotificationBase` | 16 | Exported Function
+`CVdsPnPNotificationBase::CVdsPnPNotificationBase` | 16 | Exported Function
 `public: __cdecl CVdsPnPNotificationBase::~CVdsPnPNotificationBase(void) __ptr64` | 33 | Exported Function
 `public: __cdecl CVdsHeapPtr<unsigned short>::~CVdsHeapPtr<unsigned short>(void) __ptr64` | 21 | Exported Function
 `public: __cdecl CVdsHeapPtr<unsigned char>::~CVdsHeapPtr<unsigned char>(void) __ptr64` | 20 | Exported Function
-`CVdsHeapPtr` | 4 | Exported Function
+`public: __cdecl CVdsHeapPtr<unsigned short>::CVdsHeapPtr<unsigned short>(void) __ptr64` | 4 | Exported Function
 
 
 ## Signature

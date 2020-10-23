@@ -26,15 +26,15 @@ PE256 | `B30C34E24A466DDE9E2A935D7909383F142F5C0942FBE241B53677D9F2AEF731`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CHeadsetInfo` | 6 | Exported Function
-`IHSInterface` | 7 | Exported Function
-`IHSInterface` | 5 | Exported Function
-`allocator` | 9 | Exported Function
-`CHeadsetInfo` | 4 | Exported Function
-`IHSInterface` | 2 | Exported Function
-`IHSInterface` | 8 | Exported Function
-`CHeadsetInfo` | 1 | Exported Function
-`IHSInterface` | 3 | Exported Function
+`SecomHeadset::CHeadsetInfo` | 6 | Exported Function
+`HSAdapterInterface::IHSInterface` | 7 | Exported Function
+`HSAdapterInterface::IHSInterface` | 5 | Exported Function
+`std::allocator` | 9 | Exported Function
+`SecomHeadset::CHeadsetInfo` | 4 | Exported Function
+`HSAdapterInterface::IHSInterface` | 2 | Exported Function
+`HSAdapterInterface::IHSInterface` | 8 | Exported Function
+`CHeadsetInfo::CHeadsetInfo` | 1 | Exported Function
+`IHSInterface::IHSInterface` | 3 | Exported Function
 
 
 ## Signature
