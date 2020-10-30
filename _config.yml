@@ -44,6 +44,7 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "UA-179392403-1"
+    anonymize_ip: true
 
 breadcrumbs: true
 
