@@ -101,6 +101,11 @@ C:\Windows\SysWOW64\diskperf.exe |
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/e9d5ae57a518963d3f6c290b81e77fcee79a0837046b5064b9c5393ebd073e16/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\diskperf.exe](diskperf.exe-F91BF214C9CD4A7E73B68882755905F8.md) | 86
 
 
 ## Additional Info*

@@ -29,6 +29,7 @@ PE256 | `F6DC238238302CA67D503D5ADC2668E31C6BA73FA45C29484E71478494D6A372`
 Path |
 -- |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -41,8 +42,8 @@ C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -59,8 +60,8 @@ C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/f1675aec9be46208fbafa4d6bb389f61c89b1f6059e15ca1c4390eba9f7c03ac/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/f1675aec9be46208fbafa4d6bb389f61c89b1f6059e15ca1c4390eba9f7c03ac/detection
 
 ## File Similarity (ssdeep match)
 

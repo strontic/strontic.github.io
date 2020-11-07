@@ -26,9 +26,9 @@ PE256 | `4FE7FFEBFBE9EFE0AF04540A8F9BB9D7E7903653610F17EFE16C23069554095F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MitLibUninitialize` | 3 | Exported Function
-`MitLibQueryMitigations` | 2 | Exported Function
 `MitLibInitialize` | 1 | Exported Function
+`MitLibQueryMitigations` | 2 | Exported Function
+`MitLibUninitialize` | 3 | Exported Function
 
 
 ## Signature

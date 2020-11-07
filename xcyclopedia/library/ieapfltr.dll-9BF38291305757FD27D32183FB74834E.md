@@ -26,19 +26,19 @@ PE256 | `4FB7FA1084A2EDD12664C457F980FA5C865DACCBCF18BFA3A4309883BF2C299B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 10 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
-`DllCanUnloadNow` | 8 | Exported Function
-`GetUrlBlockClient` | 13 | Exported Function
-`GetUrlBlockBroker` | 12 | Exported Function
-`DllUnregisterServer` | 11 | Exported Function
-`DestroyUrlBlockClient` | 7 | Exported Function
-`CreateIUrlReputationSolution2` | 3 | Exported Function
-`CreateIAppRepParm2` | 2 | Exported Function
 `CreateIAppRep2` | 1 | Exported Function
-`DestroyUrlBlockBroker` | 6 | Exported Function
-`CreateUrlBlockClient` | 5 | Exported Function
+`CreateIAppRepParm2` | 2 | Exported Function
+`CreateIUrlReputationSolution2` | 3 | Exported Function
 `CreateUrlBlockBroker` | 4 | Exported Function
+`CreateUrlBlockClient` | 5 | Exported Function
+`DestroyUrlBlockBroker` | 6 | Exported Function
+`DestroyUrlBlockClient` | 7 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`GetUrlBlockBroker` | 12 | Exported Function
+`GetUrlBlockClient` | 13 | Exported Function
 
 
 ## Signature

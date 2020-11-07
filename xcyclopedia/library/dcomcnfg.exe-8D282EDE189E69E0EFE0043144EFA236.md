@@ -59,8 +59,8 @@ C:\Windows\SysWOW64\dcomcnfg.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/a5af51728e1eb3e5d4f7ffa9deb78e3d7986cb308761d5e5d1a130cd02362f55/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/a5af51728e1eb3e5d4f7ffa9deb78e3d7986cb308761d5e5d1a130cd02362f55/detection
 
 ## File Similarity (ssdeep match)
 

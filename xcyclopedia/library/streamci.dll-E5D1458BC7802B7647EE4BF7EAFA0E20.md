@@ -26,14 +26,14 @@ PE256 | `ED7B8DA9D3A92F49E73AF239DF6405D1DD419330B126A02E06A0F25FA1EC13CE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StreamingDeviceSetupA` | 6 | Exported Function
-`StreamingDeviceSetup` | 5 | Exported Function
-`SwEnumCoInstaller` | 8 | Exported Function
-`StreamingDeviceSetupW` | 7 | Exported Function
-`StreamingDeviceRemove` | 2 | Exported Function
 `StreamingDeviceClassInstaller` | 1 | Exported Function
-`StreamingDeviceRemoveW` | 4 | Exported Function
+`StreamingDeviceRemove` | 2 | Exported Function
 `StreamingDeviceRemoveA` | 3 | Exported Function
+`StreamingDeviceRemoveW` | 4 | Exported Function
+`StreamingDeviceSetup` | 5 | Exported Function
+`StreamingDeviceSetupA` | 6 | Exported Function
+`StreamingDeviceSetupW` | 7 | Exported Function
+`SwEnumCoInstaller` | 8 | Exported Function
 
 
 ## Signature

@@ -25,21 +25,21 @@ PE256 | `4FB21EB2CD66AB96386FB4996EA9A585B2FC946D3EB1E3DC504AC003EE6AD6EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`gst_riff_parse_strf_auds` | 11 | Exported Function
-`gst_riff_parse_info` | 10 | Exported Function
-`gst_riff_parse_file_header` | 9 | Exported Function
-`gst_riff_parse_strf_iavs` | 12 | Exported Function
-`gst_riff_read_chunk` | 15 | Exported Function
-`gst_riff_parse_strh` | 14 | Exported Function
-`gst_riff_parse_strf_vids` | 13 | Exported Function
-`gst_riff_parse_chunk` | 8 | Exported Function
-`gst_riff_create_iavs_caps` | 3 | Exported Function
-`gst_riff_create_audio_template_caps` | 2 | Exported Function
 `gst_riff_create_audio_caps` | 1 | Exported Function
+`gst_riff_create_audio_template_caps` | 2 | Exported Function
+`gst_riff_create_iavs_caps` | 3 | Exported Function
 `gst_riff_create_iavs_template_caps` | 4 | Exported Function
-`gst_riff_init` | 7 | Exported Function
-`gst_riff_create_video_template_caps` | 6 | Exported Function
 `gst_riff_create_video_caps` | 5 | Exported Function
+`gst_riff_create_video_template_caps` | 6 | Exported Function
+`gst_riff_init` | 7 | Exported Function
+`gst_riff_parse_chunk` | 8 | Exported Function
+`gst_riff_parse_file_header` | 9 | Exported Function
+`gst_riff_parse_info` | 10 | Exported Function
+`gst_riff_parse_strf_auds` | 11 | Exported Function
+`gst_riff_parse_strf_iavs` | 12 | Exported Function
+`gst_riff_parse_strf_vids` | 13 | Exported Function
+`gst_riff_parse_strh` | 14 | Exported Function
+`gst_riff_read_chunk` | 15 | Exported Function
 
 
 ## Signature

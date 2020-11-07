@@ -26,11 +26,11 @@ PE256 | `8A711E54321F9DD5CC684B4A2FFE843D25A23D48861B4BE0786C0454144A5407`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 4 | Exported Function
-`DllRelease` | 5 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllAddRef` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllMain` | 4 | Exported Function
+`DllRelease` | 5 | Exported Function
 
 
 ## Signature

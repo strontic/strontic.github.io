@@ -26,12 +26,12 @@ PE256 | `B0B56DAE5C44A302637E4FDF33D19D73F04C3C697B7E3C704568E8D8423F455B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 6 | Exported Function
-`ProcessGroupPolicy` | 1 | Exported Function
-`ProcessPolicy` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`ProcessGroupPolicy` | 1 | Exported Function
+`ProcessPolicy` | 2 | Exported Function
 
 
 ## Signature

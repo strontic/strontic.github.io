@@ -26,12 +26,12 @@ PE256 | `6ED68C353AFBA18199282494897E6783B324496201C787513F37B2DB5660DA62`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`WMCreateStreamForURL` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
 `DllMain` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`WMCreateStreamForURL` | 1 | Exported Function
 
 
 ## Signature

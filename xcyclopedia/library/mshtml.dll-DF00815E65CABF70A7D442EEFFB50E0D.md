@@ -26,28 +26,28 @@ PE256 | `F58C995A56CB553B4CA47FAC961B019B88A1E5C77838438A9E824E4783D166EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RunHTMLApplication` | 135 | Exported Function
-`ShowHTMLDialog` | 136 | Exported Function
-`PrintHTML` | 133 | Exported Function
-`InitializeLocalHtmlEngine` | 119 | Exported Function
-`MatchExactGetIDsOfNames` | 132 | Exported Function
+`ClearPhishingFilterData` | 108 | Exported Function
+`TravelLogCreateInstance` | 141 | Exported Function
+`ShowModelessHTMLDialog` | 140 | Exported Function
+`ShowModalDialog` | 139 | Exported Function
 `ShowHTMLDialogEx` | 137 | Exported Function
+`ShowHTMLDialog` | 136 | Exported Function
+`RunHTMLApplication` | 135 | Exported Function
+`PrintHTML` | 133 | Exported Function
+`MatchExactGetIDsOfNames` | 132 | Exported Function
+`InitializeLocalHtmlEngine` | 119 | Exported Function
+`IERegisterXMLNS` | 118 | Exported Function
+`IEIsXMLNSRegistered` | 117 | Exported Function
+`GetWebPlatformObject` | 116 | Exported Function
+`GetColorValueFromString` | 115 | Exported Function
+`DllGetClassObject` | 114 | Exported Function
+`DllEnumClassObjects` | 113 | Exported Function
+`DllCanUnloadNow` | 112 | Exported Function
+`CreateHTMLPropertyPage` | 111 | Exported Function
+`CreateCoreWebView` | 110 | Exported Function
+`ConvertAndEscapePostData` | 109 | Exported Function
 `TravelLogStgCreateInstance` | 142 | Exported Function
 `UninitializeLocalHtmlEngine` | 143 | Exported Function
-`TravelLogCreateInstance` | 141 | Exported Function
-`ShowModalDialog` | 139 | Exported Function
-`ShowModelessHTMLDialog` | 140 | Exported Function
-`CreateHTMLPropertyPage` | 111 | Exported Function
-`DllCanUnloadNow` | 112 | Exported Function
-`CreateCoreWebView` | 110 | Exported Function
-`ClearPhishingFilterData` | 108 | Exported Function
-`ConvertAndEscapePostData` | 109 | Exported Function
-`DllEnumClassObjects` | 113 | Exported Function
-`IEIsXMLNSRegistered` | 117 | Exported Function
-`IERegisterXMLNS` | 118 | Exported Function
-`GetWebPlatformObject` | 116 | Exported Function
-`DllGetClassObject` | 114 | Exported Function
-`GetColorValueFromString` | 115 | Exported Function
 
 
 ## Signature

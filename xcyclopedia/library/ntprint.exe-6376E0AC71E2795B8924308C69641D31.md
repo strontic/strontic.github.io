@@ -30,6 +30,7 @@ Path |
 -- |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -62,8 +63,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/da9c3c6745f1a186c3f2938f98ec5f8432058139607acb6d684a4879881b6df0/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/da9c3c6745f1a186c3f2938f98ec5f8432058139607acb6d684a4879881b6df0/detection
 
 ## File Similarity (ssdeep match)
 

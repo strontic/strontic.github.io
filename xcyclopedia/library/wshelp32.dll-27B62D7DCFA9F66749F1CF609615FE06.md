@@ -26,34 +26,34 @@ PE256 | `F04190E16FBBF512DBE4F0F42FEF73E9DACCD6D384D237AA827308701AA8A213`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`res_querydomain` | 5 | Exported Function
-`res_search` | 4 | Exported Function
-`res_send` | 7 | Exported Function
-`res_query` | 3 | Exported Function
-`res_getopts` | 18 | Exported Function
-`res_init` | 2 | Exported Function
-`res_mkquery` | 6 | Exported Function
+`dn_comp` | 8 | Exported Function
 `rrhost` | 24 | Exported Function
+`rgetservbyname` | 25 | Exported Function
+`rgethostbyname` | 10 | Exported Function
+`rgethostbyaddr` | 11 | Exported Function
+`res_setopts` | 19 | Exported Function
+`res_send` | 7 | Exported Function
+`res_search` | 4 | Exported Function
+`res_querydomain` | 5 | Exported Function
+`res_query` | 3 | Exported Function
+`res_mkquery` | 6 | Exported Function
+`res_init` | 2 | Exported Function
+`res_getopts` | 18 | Exported Function
+`rdn_expand` | 9 | Exported Function
+`inet_aton` | 20 | Exported Function
+`hes_to_bind` | 12 | Exported Function
+`hes_resolve` | 13 | Exported Function
+`hes_getservbyname` | 16 | Exported Function
+`hes_getpwuid` | 26 | Exported Function
+`hes_getpwnam` | 17 | Exported Function
+`hes_getmailhost` | 15 | Exported Function
+`hes_free` | 27 | Exported Function
+`hes_error` | 14 | Exported Function
+`getrecordbyname` | 23 | Exported Function
+`getmxbyname` | 22 | Exported Function
+`gethinfobyname` | 21 | Exported Function
 `wsh_getdomainname` | 28 | Exported Function
 `wsh_gethostname` | 29 | Exported Function
-`rgetservbyname` | 25 | Exported Function
-`res_setopts` | 19 | Exported Function
-`rgethostbyaddr` | 11 | Exported Function
-`rgethostbyname` | 10 | Exported Function
-`hes_error` | 14 | Exported Function
-`hes_free` | 27 | Exported Function
-`hes_getmailhost` | 15 | Exported Function
-`getrecordbyname` | 23 | Exported Function
-`dn_comp` | 8 | Exported Function
-`gethinfobyname` | 21 | Exported Function
-`getmxbyname` | 22 | Exported Function
-`hes_to_bind` | 12 | Exported Function
-`inet_aton` | 20 | Exported Function
-`rdn_expand` | 9 | Exported Function
-`hes_resolve` | 13 | Exported Function
-`hes_getpwnam` | 17 | Exported Function
-`hes_getpwuid` | 26 | Exported Function
-`hes_getservbyname` | 16 | Exported Function
 
 
 ## Signature

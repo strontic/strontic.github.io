@@ -37,9 +37,6 @@ RESET { SESSION }
 
 ```
 
-### Child Processes:
-RdpSa.exe
-
 ### Loaded Modules:
 
 Path |
@@ -71,8 +68,8 @@ C:\Windows\system32\reset.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/0f45ee243cdc2aaec85dc18b686a86b18d3416729751f273fc094da0a5bccf07/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/0f45ee243cdc2aaec85dc18b686a86b18d3416729751f273fc094da0a5bccf07/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,9 +26,9 @@ PE256 | `7E25385E5D36F2DCBB280BBF90F02ED385C53A164F5BCC841393E9816121F8A5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StartDiagnosticsW` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`StartDiagnosticsW` | 3 | Exported Function
 
 
 ## Signature

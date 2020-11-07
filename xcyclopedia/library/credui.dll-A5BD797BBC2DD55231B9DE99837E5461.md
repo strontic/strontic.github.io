@@ -26,32 +26,32 @@ PE256 | `1D7F2DD922B9C81F1EC70B8D043F6C043642CF53297E9BA22259ED150303EC4E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CredUIStoreSSOCredA` | 17 | Exported Function
-`CredUIStoreSSOCredW` | 18 | Exported Function
-`CredUnPackAuthenticationBufferA` | 19 | Exported Function
-`CredUIPromptForWindowsCredentialsWorker` | 14 | Exported Function
-`CredUIReadSSOCredA` | 15 | Exported Function
-`CredUIReadSSOCredW` | 16 | Exported Function
-`CredUnPackAuthenticationBufferW` | 20 | Exported Function
+`CredPackAuthenticationBufferA` | 1 | Exported Function
 `SspiPromptForCredentialsW` | 24 | Exported Function
+`SspiPromptForCredentialsA` | 23 | Exported Function
+`SspiIsPromptingNeeded` | 22 | Exported Function
+`SspiGetCredUIContext` | 21 | Exported Function
+`CredUnPackAuthenticationBufferW` | 20 | Exported Function
+`CredUnPackAuthenticationBufferA` | 19 | Exported Function
+`CredUIStoreSSOCredW` | 18 | Exported Function
+`CredUIStoreSSOCredA` | 17 | Exported Function
+`CredUIReadSSOCredW` | 16 | Exported Function
+`CredUIReadSSOCredA` | 15 | Exported Function
+`CredUIPromptForWindowsCredentialsWorker` | 14 | Exported Function
+`CredUIPromptForWindowsCredentialsW` | 13 | Exported Function
+`CredUIPromptForWindowsCredentialsA` | 12 | Exported Function
+`CredUIPromptForCredentialsW` | 11 | Exported Function
+`CredUIPromptForCredentialsA` | 10 | Exported Function
+`CredUIParseUserNameW` | 9 | Exported Function
+`CredUIParseUserNameA` | 8 | Exported Function
+`CredUIInitControls` | 7 | Exported Function
+`CredUIConfirmCredentialsW` | 6 | Exported Function
+`CredUIConfirmCredentialsA` | 5 | Exported Function
+`CredUICmdLinePromptForCredentialsW` | 4 | Exported Function
+`CredUICmdLinePromptForCredentialsA` | 3 | Exported Function
+`CredPackAuthenticationBufferW` | 2 | Exported Function
 `SspiUnmarshalCredUIContext` | 25 | Exported Function
 `SspiUpdateCredentials` | 26 | Exported Function
-`SspiGetCredUIContext` | 21 | Exported Function
-`SspiIsPromptingNeeded` | 22 | Exported Function
-`SspiPromptForCredentialsA` | 23 | Exported Function
-`CredUICmdLinePromptForCredentialsW` | 4 | Exported Function
-`CredUIConfirmCredentialsA` | 5 | Exported Function
-`CredUIConfirmCredentialsW` | 6 | Exported Function
-`CredPackAuthenticationBufferA` | 1 | Exported Function
-`CredPackAuthenticationBufferW` | 2 | Exported Function
-`CredUICmdLinePromptForCredentialsA` | 3 | Exported Function
-`CredUIInitControls` | 7 | Exported Function
-`CredUIPromptForCredentialsW` | 11 | Exported Function
-`CredUIPromptForWindowsCredentialsA` | 12 | Exported Function
-`CredUIPromptForWindowsCredentialsW` | 13 | Exported Function
-`CredUIParseUserNameA` | 8 | Exported Function
-`CredUIParseUserNameW` | 9 | Exported Function
-`CredUIPromptForCredentialsA` | 10 | Exported Function
 
 
 ## Signature

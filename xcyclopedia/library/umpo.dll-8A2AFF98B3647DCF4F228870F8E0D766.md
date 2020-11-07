@@ -26,25 +26,25 @@ PE256 | `A490B453A3107E6D784B9FF1BBEDA971CBD883F7ED9F5DC1F5DB45AA1774D535`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UmpoInternalOpenGUIDSubKey` | 13 | Exported Function
-`UmpoInternalOpenUserPowerKey` | 14 | Exported Function
-`UmpoInternalDataAccessorToString` | 11 | Exported Function
-`UmpoInternalGetKeyValueGuid` | 12 | Exported Function
-`UmpoMain` | 15 | Exported Function
-`UmpoSendKernelPowerPolicyNotification` | 18 | Exported Function
-`UmpoWriteToUserPowerKey` | 19 | Exported Function
-`UmpoNotificationHandler` | 16 | Exported Function
-`UmpoNotifyKernelAllPowerPolicyChanged` | 17 | Exported Function
-`UmpoInternalConvertGuidToString` | 10 | Exported Function
-`PtrUmpoProviderHandle` | 3 | Exported Function
-`PtrUmpoSchemeLock` | 4 | Exported Function
 `PtrUmpoFullPowerPlanSupportDisabled` | 1 | Exported Function
-`PtrUmpoOnAcPower` | 2 | Exported Function
-`UmpoAllocate` | 5 | Exported Function
+`UmpoNotifyKernelAllPowerPolicyChanged` | 17 | Exported Function
+`UmpoNotificationHandler` | 16 | Exported Function
+`UmpoMain` | 15 | Exported Function
+`UmpoInternalOpenUserPowerKey` | 14 | Exported Function
+`UmpoInternalOpenGUIDSubKey` | 13 | Exported Function
+`UmpoInternalGetKeyValueGuid` | 12 | Exported Function
+`UmpoInternalDataAccessorToString` | 11 | Exported Function
+`UmpoSendKernelPowerPolicyNotification` | 18 | Exported Function
+`UmpoInternalConvertGuidToString` | 10 | Exported Function
 `UmpoGetActiveScheme` | 8 | Exported Function
-`UmpoInternalCloseUserPowerKey` | 9 | Exported Function
-`UmpoAlpcSendPowerMessage` | 6 | Exported Function
 `UmpoFree` | 7 | Exported Function
+`UmpoAlpcSendPowerMessage` | 6 | Exported Function
+`UmpoAllocate` | 5 | Exported Function
+`PtrUmpoSchemeLock` | 4 | Exported Function
+`PtrUmpoProviderHandle` | 3 | Exported Function
+`PtrUmpoOnAcPower` | 2 | Exported Function
+`UmpoInternalCloseUserPowerKey` | 9 | Exported Function
+`UmpoWriteToUserPowerKey` | 19 | Exported Function
 
 
 ## Signature

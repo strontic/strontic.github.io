@@ -28,7 +28,10 @@ PE256 | `BB23FD4EB393D7B63C9109684A09A436E0D8EA5D698B7B5A2AE698D2D6399C51`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -39,17 +42,25 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\AppVShNotify.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\system32\sspicli.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -74,8 +85,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/eceee47cd852e7a867ffc81f998a0702bb04c2d98247dbf98662bbe924748b44/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/eceee47cd852e7a867ffc81f998a0702bb04c2d98247dbf98662bbe924748b44/detection
 
 ## File Similarity (ssdeep match)
 
@@ -102,6 +113,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 40
 [C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 33
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 44
+[C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 43
 
 
 

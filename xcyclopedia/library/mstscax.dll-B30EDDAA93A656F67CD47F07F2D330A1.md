@@ -26,17 +26,17 @@ PE256 | `96B75FE7EB98F9245F79A557D0EFAB3BE64A15109582903E02172E96BEBFB54D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 8 | Exported Function
-`DllLogoffClaimsToken` | 7 | Exported Function
-`DllSetAuthProperties` | 9 | Exported Function
-`DllUnregisterServer` | 11 | Exported Function
-`DllSetClaimsToken` | 10 | Exported Function
-`DllGetTscCtlVer` | 6 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
 `DllCancelAuthentication` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 `DllDeleteSavedCreds` | 3 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
 `DllGetClaimsToken` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllGetTscCtlVer` | 6 | Exported Function
+`DllLogoffClaimsToken` | 7 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllSetAuthProperties` | 9 | Exported Function
+`DllSetClaimsToken` | 10 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `28EB97BA388D69630A5D96161F1C2702EE47FA1E4285B57634A11EA98A775E7B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EsdSipGetSignature` | 4 | Exported Function
-`EsdSipGetCaps` | 3 | Exported Function
-`EsdSipIsMyFileType` | 5 | Exported Function
-`EsdSipVerifyHash` | 7 | Exported Function
-`EsdSipPutSignature` | 6 | Exported Function
-`EsdSipDelSignature` | 2 | Exported Function
-`DllMain` | 9 | Exported Function
 `DllCanUnloadNow` | 8 | Exported Function
+`DllMain` | 9 | Exported Function
 `DllRegisterServer` | 10 | Exported Function
-`EsdSipCreateHash` | 1 | Exported Function
 `DllUnregisterServer` | 11 | Exported Function
+`EsdSipCreateHash` | 1 | Exported Function
+`EsdSipDelSignature` | 2 | Exported Function
+`EsdSipGetCaps` | 3 | Exported Function
+`EsdSipGetSignature` | 4 | Exported Function
+`EsdSipIsMyFileType` | 5 | Exported Function
+`EsdSipPutSignature` | 6 | Exported Function
+`EsdSipVerifyHash` | 7 | Exported Function
 
 
 ## Signature

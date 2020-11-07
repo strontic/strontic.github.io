@@ -26,8 +26,8 @@ PE256 | `E4C3CBEBEB6A2B1ACBC41B8B6ACE2BE8D7FD955A05F485516DFBB450D291768E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetpPolProviderInitialize` | 2 | Exported Function
 `NetpCertProviderInitialize` | 1 | Exported Function
+`NetpPolProviderInitialize` | 2 | Exported Function
 
 
 ## Signature

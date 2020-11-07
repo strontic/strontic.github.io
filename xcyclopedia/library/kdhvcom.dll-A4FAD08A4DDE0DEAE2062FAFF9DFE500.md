@@ -26,11 +26,11 @@ PE256 | `E74DCA96E1B4958995F5A27770D8A87D3647AFA282B3128C232083F295262B18`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KdSendPacket` | 4 | Exported Function
-`KdSetHiberRange` | 5 | Exported Function
-`KdReceivePacket` | 3 | Exported Function
 `KdInitialize` | 1 | Exported Function
 `KdPower` | 2 | Exported Function
+`KdReceivePacket` | 3 | Exported Function
+`KdSendPacket` | 4 | Exported Function
+`KdSetHiberRange` | 5 | Exported Function
 
 
 ## Signature
@@ -57,6 +57,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/67
 * VirusTotal Link: https://www.virustotal.com/gui/file/e8c0d34ec131b3d71d9f297ded8ffc9091ad57fb0afbe3b37f51c0e7938748fa/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-D1B722A188C84E5059765FA87E8C5F32.md) | 29
 
 
 

@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\proquota.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/a5c199413a4800a0d5260aed37f0b923a52c9f1e69a584d153cbe04d58ce5600/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/a5c199413a4800a0d5260aed37f0b923a52c9f1e69a584d153cbe04d58ce5600/detection
 
 
 

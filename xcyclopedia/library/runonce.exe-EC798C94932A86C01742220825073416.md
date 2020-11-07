@@ -29,14 +29,26 @@ PE256 | `0D648EC1214936853BA520F4FBFCCCFEA85EF03E4BC7DB038034EADEEB46743E`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\system32\runonce.exe |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHCORE.DLL |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -60,8 +72,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/5994e053d58db049f4bab2117c51cc314d1553bc6793ff000b232b66f709b0d7/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/5994e053d58db049f4bab2117c51cc314d1553bc6793ff000b232b66f709b0d7/detection
 
 
 ## Possible Misuse

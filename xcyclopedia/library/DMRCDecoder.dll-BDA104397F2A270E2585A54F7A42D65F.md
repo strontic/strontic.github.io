@@ -26,26 +26,26 @@ PE256 | `4BA6B41C2A4C21AE0F1CB0815679A0A6B0819BA07D65A324102415B98765189C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPayloadRawData` | 14 | Exported Function
+`CreateDecoder` | 1 | Exported Function
+`SetBarcodeCheckDigitAttribute` | 18 | Exported Function
+`SetActiveBarcodeTypes` | 17 | Exported Function
+`GetSupportedBarcodeTypes` | 16 | Exported Function
 `GetStatus` | 15 | Exported Function
+`GetPayloadRawData` | 14 | Exported Function
 `GetPayloadData` | 13 | Exported Function
-`GetPayloadBarcodeType` | 11 | Exported Function
 `GetPayloadCount` | 12 | Exported Function
+`GetPayloadBarcodeType` | 11 | Exported Function
+`GetMillisecsPerFrameDWCode` | 10 | Exported Function
+`GetMillisecsPerFrameBarcode` | 9 | Exported Function
+`GetExceptions` | 8 | Exported Function
+`GetBarcodeAttributesSupport` | 7 | Exported Function
+`GetActiveBarcodeTypes` | 6 | Exported Function
+`EnableFalsePositiveMitigation` | 5 | Exported Function
+`EnableExtendedReadingDistance` | 4 | Exported Function
+`Detect` | 3 | Exported Function
+`DeleteDecoder` | 2 | Exported Function
 `SetBarcodeDecodeLengthAttribute` | 19 | Exported Function
 `SetBarcodeTransmitCheckDigitAttribute` | 20 | Exported Function
-`SetBarcodeCheckDigitAttribute` | 18 | Exported Function
-`GetSupportedBarcodeTypes` | 16 | Exported Function
-`SetActiveBarcodeTypes` | 17 | Exported Function
-`EnableExtendedReadingDistance` | 4 | Exported Function
-`EnableFalsePositiveMitigation` | 5 | Exported Function
-`Detect` | 3 | Exported Function
-`CreateDecoder` | 1 | Exported Function
-`DeleteDecoder` | 2 | Exported Function
-`GetMillisecsPerFrameBarcode` | 9 | Exported Function
-`GetMillisecsPerFrameDWCode` | 10 | Exported Function
-`GetExceptions` | 8 | Exported Function
-`GetActiveBarcodeTypes` | 6 | Exported Function
-`GetBarcodeAttributesSupport` | 7 | Exported Function
 
 
 ## Signature

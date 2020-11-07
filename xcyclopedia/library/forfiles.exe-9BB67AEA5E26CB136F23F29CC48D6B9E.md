@@ -99,7 +99,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +9/20/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +11/6/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"
@@ -144,8 +144,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/9b4886f187489a190bb2c412772c1998539f086c63a4cfd72ff3b107cbc21907/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9b4886f187489a190bb2c412772c1998539f086c63a4cfd72ff3b107cbc21907/detection
 
 
 ## Possible Misuse

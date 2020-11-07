@@ -26,10 +26,10 @@ PE256 | `5784A503E5C4FD29701D4B2AD867F81CDF71C37F77EA71736BF7DBBD53DDE181`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetVFWMFTransform` | 3 | Exported Function
-`IsVFWDecompressorAvailable` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
+`GetVFWMFTransform` | 3 | Exported Function
+`IsVFWDecompressorAvailable` | 4 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `BFE58F527652AE30772B25A14A4257CDBD120DC71056FFA238CE1576F7C8D38F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Microsoft_WDF_UMDF_Version` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`Microsoft_WDF_UMDF_Version` | 3 | Exported Function
 
 
 ## Signature

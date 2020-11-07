@@ -26,33 +26,33 @@ PE256 | `AAA71ABC7E7B01D0C01243516E5705575042284937BED893FA545BCD415E4B4E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetModuleInformation` | 18 | Exported Function
-`GetPerformanceInfo` | 19 | Exported Function
-`GetProcessImageFileNameA` | 20 | Exported Function
-`GetModuleBaseNameW` | 15 | Exported Function
-`GetModuleFileNameExA` | 16 | Exported Function
-`GetModuleFileNameExW` | 17 | Exported Function
-`GetProcessImageFileNameW` | 21 | Exported Function
-`InitializeProcessForWsWatch` | 25 | Exported Function
-`QueryWorkingSet` | 26 | Exported Function
-`QueryWorkingSetEx` | 27 | Exported Function
-`GetProcessMemoryInfo` | 22 | Exported Function
-`GetWsChanges` | 23 | Exported Function
-`GetWsChangesEx` | 24 | Exported Function
-`GetModuleBaseNameA` | 14 | Exported Function
-`EnumPageFilesW` | 4 | Exported Function
-`EnumProcesses` | 7 | Exported Function
-`EnumProcessModules` | 5 | Exported Function
 `EmptyWorkingSet` | 1 | Exported Function
-`EnumDeviceDrivers` | 2 | Exported Function
-`EnumPageFilesA` | 3 | Exported Function
-`EnumProcessModulesEx` | 6 | Exported Function
-`GetDeviceDriverFileNameW` | 11 | Exported Function
+`InitializeProcessForWsWatch` | 25 | Exported Function
+`GetWsChangesEx` | 24 | Exported Function
+`GetWsChanges` | 23 | Exported Function
+`GetProcessMemoryInfo` | 22 | Exported Function
+`GetProcessImageFileNameW` | 21 | Exported Function
+`GetProcessImageFileNameA` | 20 | Exported Function
+`GetPerformanceInfo` | 19 | Exported Function
+`GetModuleInformation` | 18 | Exported Function
+`GetModuleFileNameExW` | 17 | Exported Function
+`GetModuleFileNameExA` | 16 | Exported Function
+`GetModuleBaseNameW` | 15 | Exported Function
+`QueryWorkingSet` | 26 | Exported Function
+`GetModuleBaseNameA` | 14 | Exported Function
 `GetMappedFileNameA` | 12 | Exported Function
-`GetMappedFileNameW` | 13 | Exported Function
-`GetDeviceDriverBaseNameA` | 8 | Exported Function
-`GetDeviceDriverBaseNameW` | 9 | Exported Function
+`GetDeviceDriverFileNameW` | 11 | Exported Function
 `GetDeviceDriverFileNameA` | 10 | Exported Function
+`GetDeviceDriverBaseNameW` | 9 | Exported Function
+`GetDeviceDriverBaseNameA` | 8 | Exported Function
+`EnumProcessModulesEx` | 6 | Exported Function
+`EnumProcessModules` | 5 | Exported Function
+`EnumProcesses` | 7 | Exported Function
+`EnumPageFilesW` | 4 | Exported Function
+`EnumPageFilesA` | 3 | Exported Function
+`EnumDeviceDrivers` | 2 | Exported Function
+`GetMappedFileNameW` | 13 | Exported Function
+`QueryWorkingSetEx` | 27 | Exported Function
 
 
 ## Signature

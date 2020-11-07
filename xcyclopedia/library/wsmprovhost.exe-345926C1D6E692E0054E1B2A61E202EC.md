@@ -29,30 +29,51 @@ PE256 | `7EFFEAC7EACF591FB2AF21C40C758FEEC27950BA0E34B0A597F282B3FDD3991A`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DSROLE.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mi.dll |
+C:\Windows\system32\miutils.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\pcwum.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
 C:\Windows\system32\wsmprovhost.exe |
+C:\Windows\system32\WsmSvc.DLL |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -69,8 +90,8 @@ C:\Windows\system32\wsmprovhost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/0fbb9be7ca2aafde4ed8614a3a9def68e5af1a2cb2e15d6cbcbf7b72f4dcd3b6/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/0fbb9be7ca2aafde4ed8614a3a9def68e5af1a2cb2e15d6cbcbf7b72f4dcd3b6/detection
 
 ## File Similarity (ssdeep match)
 

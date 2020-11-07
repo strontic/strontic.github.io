@@ -26,9 +26,9 @@ PE256 | `86919CD3E7012C585CFE26820F213B71B85206DD42594DDAFD85A24400A8CE0A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`g_thread_init_with_errorcheck_mutexes` | 3 | Exported Function
-`g_thread_init` | 2 | Exported Function
 `g_thread_deinit` | 1 | Exported Function
+`g_thread_init` | 2 | Exported Function
+`g_thread_init_with_errorcheck_mutexes` | 3 | Exported Function
 
 
 ## Signature

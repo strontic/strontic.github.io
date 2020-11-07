@@ -26,36 +26,36 @@ PE256 | `A3AACB22776F4ECB8FE394E296F7DD0147C1B9762BB6F29F4960D3087012BDBE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PshedInjectError` | 20 | Exported Function
-`PshedIsSystemWheaEnabled` | 21 | Exported Function
-`PshedMarkHiberPhase` | 22 | Exported Function
-`PshedInitProc` | 18 | Exported Function
-`PshedInitAvailable` | 16 | Exported Function
-`PshedInitGlobal` | 17 | Exported Function
-`PshedInitialize` | 19 | Exported Function
-`PshedReadErrorRecord` | 23 | Exported Function
+`PshedAllocateMemory` | 1 | Exported Function
 `PshedSynchronizeExecution` | 28 | Exported Function
+`PshedSetHalEnlightenments` | 27 | Exported Function
+`PshedSetErrorSourceInfo` | 26 | Exported Function
+`PshedRetrieveErrorInfo` | 25 | Exported Function
+`PshedRegisterPlugin` | 24 | Exported Function
+`PshedReadErrorRecord` | 23 | Exported Function
+`PshedMarkHiberPhase` | 22 | Exported Function
+`PshedIsSystemWheaEnabled` | 21 | Exported Function
+`PshedInjectError` | 20 | Exported Function
+`PshedInitProc` | 18 | Exported Function
+`PshedInitialize` | 19 | Exported Function
+`PshedInitGlobal` | 17 | Exported Function
+`PshedInitAvailable` | 16 | Exported Function
+`PshedGetInjectionCapabilities` | 15 | Exported Function
+`PshedGetHalEnlightenments` | 14 | Exported Function
+`PshedGetErrorSourceInfo` | 13 | Exported Function
+`PshedGetBootErrorPacket` | 12 | Exported Function
+`PshedGetAllErrorSources` | 11 | Exported Function
+`PshedFreeMemory` | 10 | Exported Function
+`PshedFinalizeErrorRecord` | 9 | Exported Function
+`PshedEnableErrorSource` | 8 | Exported Function
+`PshedDoPfa` | 7 | Exported Function
+`PshedDisableErrorSource` | 6 | Exported Function
+`PshedClearErrorRecord` | 5 | Exported Function
+`PshedBugCheckSystem` | 4 | Exported Function
+`PshedAttemptErrorRecovery` | 3 | Exported Function
+`PshedArePluginsPresent` | 2 | Exported Function
 `PshedUnregisterPlugin` | 29 | Exported Function
 `PshedWriteErrorRecord` | 30 | Exported Function
-`PshedSetHalEnlightenments` | 27 | Exported Function
-`PshedRegisterPlugin` | 24 | Exported Function
-`PshedRetrieveErrorInfo` | 25 | Exported Function
-`PshedSetErrorSourceInfo` | 26 | Exported Function
-`PshedClearErrorRecord` | 5 | Exported Function
-`PshedDisableErrorSource` | 6 | Exported Function
-`PshedDoPfa` | 7 | Exported Function
-`PshedBugCheckSystem` | 4 | Exported Function
-`PshedAllocateMemory` | 1 | Exported Function
-`PshedArePluginsPresent` | 2 | Exported Function
-`PshedAttemptErrorRecovery` | 3 | Exported Function
-`PshedEnableErrorSource` | 8 | Exported Function
-`PshedGetErrorSourceInfo` | 13 | Exported Function
-`PshedGetHalEnlightenments` | 14 | Exported Function
-`PshedGetInjectionCapabilities` | 15 | Exported Function
-`PshedGetBootErrorPacket` | 12 | Exported Function
-`PshedFinalizeErrorRecord` | 9 | Exported Function
-`PshedFreeMemory` | 10 | Exported Function
-`PshedGetAllErrorSources` | 11 | Exported Function
 
 
 ## Signature

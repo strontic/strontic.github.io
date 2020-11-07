@@ -26,11 +26,11 @@ PE256 | `8ADFDAE9CDC1238F6E6B1FCEEA3A38357CD0FFB444F8B1CDE2F94E14BB5A000B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SCardUIDlgSelectCardA` | 4 | Exported Function
-`SCardUIDlgSelectCardW` | 5 | Exported Function
-`SCardDlgExtendedError` | 3 | Exported Function
 `GetOpenCardNameA` | 1 | Exported Function
 `GetOpenCardNameW` | 2 | Exported Function
+`SCardDlgExtendedError` | 3 | Exported Function
+`SCardUIDlgSelectCardA` | 4 | Exported Function
+`SCardUIDlgSelectCardW` | 5 | Exported Function
 
 
 ## Signature

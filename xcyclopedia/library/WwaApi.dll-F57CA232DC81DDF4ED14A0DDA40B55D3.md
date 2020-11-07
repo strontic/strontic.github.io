@@ -26,12 +26,12 @@ PE256 | `8587D784B20679ED4F782F73253FC4BAFADD0D86FF94F54B5A3CDB66A07E408F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`GetProxyDllInfo` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`GetProxyDllInfo` | 6 | Exported Function
 
 
 ## Signature

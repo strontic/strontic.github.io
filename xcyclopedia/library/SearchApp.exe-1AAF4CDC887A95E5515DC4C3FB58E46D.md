@@ -24,17 +24,35 @@ PE256 | `94EF61B8F807882E511DBCB13C1CF076291C2EA26DE1599A17CAE3DFE6FF60B5`
 
 ## Runtime Data
 
+### Child Processes:
+WerFault.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\dxgi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\SYSTEM32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\uiautomationcore.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\SYSTEM32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
+C:\Windows\SYSTEM32\XmlLite.dll |
 C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe |
 
 
@@ -59,8 +77,8 @@ C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/be1c4326648531600d4edaff0383ac6d1022844557b5ab4d89bab71760113c41/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/be1c4326648531600d4edaff0383ac6d1022844557b5ab4d89bab71760113c41/detection
 
 
 

@@ -26,11 +26,11 @@ PE256 | `2182CF68A0280B3D5EDA2359E25024FE7DE89C7C728321BC350BB419A273083D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClbWndProc` | 4 | Exported Function
-`CustomControlInfoW` | 5 | Exported Function
-`ClbStyleW` | 3 | Exported Function
 `ClbAddData` | 1 | Exported Function
 `ClbSetColumnWidths` | 2 | Exported Function
+`ClbStyleW` | 3 | Exported Function
+`ClbWndProc` | 4 | Exported Function
+`CustomControlInfoW` | 5 | Exported Function
 
 
 ## Signature

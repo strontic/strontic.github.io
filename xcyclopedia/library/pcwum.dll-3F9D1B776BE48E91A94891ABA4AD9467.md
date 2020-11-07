@@ -26,37 +26,37 @@ PE256 | `9C5F9463A37FD02612C15B9059DD3519DFAC26BBDE695042EEFC44E68A72FFFF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PerfDeleteInstance` | 21 | Exported Function
-`PerfIncrementULongCounterValue` | 22 | Exported Function
-`PerfIncrementULongLongCounterValue` | 23 | Exported Function
-`PerfDecrementULongLongCounterValue` | 20 | Exported Function
-`PcwSetQueryItemUserData` | 17 | Exported Function
-`PerfCreateInstance` | 18 | Exported Function
-`PerfDecrementULongCounterValue` | 19 | Exported Function
-`PerfQueryInstance` | 24 | Exported Function
-`PerfStartProvider` | 29 | Exported Function
-`PerfStartProviderEx` | 30 | Exported Function
-`PerfStopProvider` | 31 | Exported Function
-`PerfSetULongLongCounterValue` | 28 | Exported Function
-`PerfSetCounterRefValue` | 25 | Exported Function
-`PerfSetCounterSetInfo` | 26 | Exported Function
-`PerfSetULongCounterValue` | 27 | Exported Function
-`PcwSetCounterSetSecurity` | 16 | Exported Function
-`PcwCreateNotifier` | 5 | Exported Function
-`PcwCreateQuery` | 6 | Exported Function
-`PcwDisconnectCounterSet` | 7 | Exported Function
-`PcwCompleteNotification` | 4 | Exported Function
 `PcwAddQueryItem` | 1 | Exported Function
-`PcwClearCounterSetSecurity` | 2 | Exported Function
-`PcwCollectData` | 3 | Exported Function
-`PcwEnumerateInstances` | 8 | Exported Function
-`PcwRemoveQueryItem` | 13 | Exported Function
+`PerfStartProvider` | 29 | Exported Function
+`PerfSetULongLongCounterValue` | 28 | Exported Function
+`PerfSetULongCounterValue` | 27 | Exported Function
+`PerfSetCounterSetInfo` | 26 | Exported Function
+`PerfSetCounterRefValue` | 25 | Exported Function
+`PerfQueryInstance` | 24 | Exported Function
+`PerfIncrementULongLongCounterValue` | 23 | Exported Function
+`PerfIncrementULongCounterValue` | 22 | Exported Function
+`PerfDeleteInstance` | 21 | Exported Function
+`PerfDecrementULongLongCounterValue` | 20 | Exported Function
+`PerfDecrementULongCounterValue` | 19 | Exported Function
+`PerfCreateInstance` | 18 | Exported Function
+`PcwSetQueryItemUserData` | 17 | Exported Function
+`PerfStartProviderEx` | 30 | Exported Function
+`PcwSetCounterSetSecurity` | 16 | Exported Function
 `PcwSendNotification` | 14 | Exported Function
-`PcwSendStatelessNotification` | 15 | Exported Function
+`PcwRemoveQueryItem` | 13 | Exported Function
 `PcwRegisterCounterSet` | 12 | Exported Function
-`PcwIsNotifierAlive` | 9 | Exported Function
-`PcwQueryCounterSetSecurity` | 10 | Exported Function
 `PcwReadNotificationData` | 11 | Exported Function
+`PcwQueryCounterSetSecurity` | 10 | Exported Function
+`PcwIsNotifierAlive` | 9 | Exported Function
+`PcwEnumerateInstances` | 8 | Exported Function
+`PcwDisconnectCounterSet` | 7 | Exported Function
+`PcwCreateQuery` | 6 | Exported Function
+`PcwCreateNotifier` | 5 | Exported Function
+`PcwCompleteNotification` | 4 | Exported Function
+`PcwCollectData` | 3 | Exported Function
+`PcwClearCounterSetSecurity` | 2 | Exported Function
+`PcwSendStatelessNotification` | 15 | Exported Function
+`PerfStopProvider` | 31 | Exported Function
 
 
 ## Signature

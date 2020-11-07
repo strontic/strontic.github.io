@@ -26,36 +26,36 @@ PE256 | `B0D05B32C8336DE4A2798E088F13C3DF29F8A4963FFF4D22DF57196AECF3D4C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`imaxabs` | 20 | Exported Function
-`imaxdiv` | 21 | Exported Function
-`labs` | 22 | Exported Function
-`div` | 19 | Exported Function
-`abs` | 16 | Exported Function
-`bsearch` | 17 | Exported Function
-`bsearch_s` | 18 | Exported Function
-`ldiv` | 23 | Exported Function
+`_abs64` | 1 | Exported Function
 `rand` | 28 | Exported Function
+`qsort_s` | 27 | Exported Function
+`qsort` | 26 | Exported Function
+`lldiv` | 25 | Exported Function
+`llabs` | 24 | Exported Function
+`ldiv` | 23 | Exported Function
+`labs` | 22 | Exported Function
+`imaxdiv` | 21 | Exported Function
+`imaxabs` | 20 | Exported Function
+`div` | 19 | Exported Function
+`bsearch_s` | 18 | Exported Function
+`bsearch` | 17 | Exported Function
+`abs` | 16 | Exported Function
+`_swab` | 15 | Exported Function
+`_rotr64` | 14 | Exported Function
+`_rotr` | 13 | Exported Function
+`_rotl64` | 12 | Exported Function
+`_rotl` | 11 | Exported Function
+`_lsearch_s` | 10 | Exported Function
+`_lsearch` | 9 | Exported Function
+`_lrotr` | 8 | Exported Function
+`_lrotl` | 7 | Exported Function
+`_lfind_s` | 6 | Exported Function
+`_lfind` | 5 | Exported Function
+`_byteswap_ushort` | 4 | Exported Function
+`_byteswap_ulong` | 3 | Exported Function
+`_byteswap_uint64` | 2 | Exported Function
 `rand_s` | 29 | Exported Function
 `srand` | 30 | Exported Function
-`qsort_s` | 27 | Exported Function
-`llabs` | 24 | Exported Function
-`lldiv` | 25 | Exported Function
-`qsort` | 26 | Exported Function
-`_lfind` | 5 | Exported Function
-`_lfind_s` | 6 | Exported Function
-`_lrotl` | 7 | Exported Function
-`_byteswap_ushort` | 4 | Exported Function
-`_abs64` | 1 | Exported Function
-`_byteswap_uint64` | 2 | Exported Function
-`_byteswap_ulong` | 3 | Exported Function
-`_lrotr` | 8 | Exported Function
-`_rotr` | 13 | Exported Function
-`_rotr64` | 14 | Exported Function
-`_swab` | 15 | Exported Function
-`_rotl64` | 12 | Exported Function
-`_lsearch` | 9 | Exported Function
-`_lsearch_s` | 10 | Exported Function
-`_rotl` | 11 | Exported Function
 
 
 ## Signature

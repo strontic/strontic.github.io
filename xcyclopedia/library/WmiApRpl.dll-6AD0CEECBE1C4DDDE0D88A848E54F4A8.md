@@ -26,11 +26,11 @@ PE256 | `09A26E760DA5970BD54BAF2204A0C4EF302F818366FCB0FF2CB3570DAC0FE320`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WmiCollectPerfData` | 2 | Exported Function
-`WmiOpenPerfData` | 3 | Exported Function
-`WmiClosePerfData` | 1 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`WmiClosePerfData` | 1 | Exported Function
+`WmiCollectPerfData` | 2 | Exported Function
+`WmiOpenPerfData` | 3 | Exported Function
 
 
 ## Signature

@@ -26,24 +26,24 @@ PE256 | `4C4C74F12B0343A0FE74B46D3AE2C12701622A83B79D193AD2FDB764DF4FE245`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapHostPeerGetSendPacket` | 12 | Exported Function
-`EapHostPeerGetUIContext` | 13 | Exported Function
-`EapHostPeerGetResponseAttributes` | 10 | Exported Function
-`EapHostPeerGetResult` | 11 | Exported Function
+`EapHostPeerBeginSession` | 1 | Exported Function
+`EapHostPeerSetResponseAttributes` | 16 | Exported Function
+`EapHostPeerProcessReceivedPacket` | 15 | Exported Function
 `EapHostPeerInitialize` | 14 | Exported Function
+`EapHostPeerGetUIContext` | 13 | Exported Function
+`EapHostPeerGetSendPacket` | 12 | Exported Function
+`EapHostPeerGetResult` | 11 | Exported Function
+`EapHostPeerGetResponseAttributes` | 10 | Exported Function
+`EapHostPeerGetIdentity` | 9 | Exported Function
+`EapHostPeerGetEncryptedPassword` | 8 | Exported Function
+`EapHostPeerGetDataToUnplumbCredentials` | 7 | Exported Function
+`EapHostPeerGetAuthStatus` | 6 | Exported Function
+`EapHostPeerFreeRuntimeMemory` | 5 | Exported Function
+`EapHostPeerFreeEapError` | 4 | Exported Function
+`EapHostPeerEndSession` | 3 | Exported Function
+`EapHostPeerClearConnection` | 2 | Exported Function
 `EapHostPeerSetUIContext` | 17 | Exported Function
 `EapHostPeerUninitialize` | 18 | Exported Function
-`EapHostPeerProcessReceivedPacket` | 15 | Exported Function
-`EapHostPeerSetResponseAttributes` | 16 | Exported Function
-`EapHostPeerEndSession` | 3 | Exported Function
-`EapHostPeerFreeEapError` | 4 | Exported Function
-`EapHostPeerBeginSession` | 1 | Exported Function
-`EapHostPeerClearConnection` | 2 | Exported Function
-`EapHostPeerFreeRuntimeMemory` | 5 | Exported Function
-`EapHostPeerGetEncryptedPassword` | 8 | Exported Function
-`EapHostPeerGetIdentity` | 9 | Exported Function
-`EapHostPeerGetAuthStatus` | 6 | Exported Function
-`EapHostPeerGetDataToUnplumbCredentials` | 7 | Exported Function
 
 
 ## Signature

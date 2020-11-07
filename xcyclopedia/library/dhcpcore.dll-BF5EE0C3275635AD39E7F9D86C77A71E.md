@@ -26,10 +26,10 @@ PE256 | `4B55F6A18D3847907B2BC80BD4D7B6562862426FCCA9F431FC7DF90E63493252`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DhcpGlobalTerminateEvent` | 3 | Exported Function
-`ServiceMain` | 4 | Exported Function
 `DhcpGlobalIsShuttingDown` | 1 | Exported Function
 `DhcpGlobalServiceSyncEvent` | 2 | Exported Function
+`DhcpGlobalTerminateEvent` | 3 | Exported Function
+`ServiceMain` | 4 | Exported Function
 
 
 ## Signature

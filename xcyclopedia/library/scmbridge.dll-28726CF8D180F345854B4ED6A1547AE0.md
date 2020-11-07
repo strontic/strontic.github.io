@@ -26,17 +26,17 @@ PE256 | `1497C5BE7C9C7BE88A004657E9B495F6C9EFE5B6EB31E70F006C3239E2585735`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ScmGetUnusedPmemRegions` | 8 | Exported Function
-`ScmGetUnusedPmemRegionById` | 7 | Exported Function
-`ScmInitializePmemPhysicalDevice` | 9 | Exported Function
-`ScmRebuildStacks` | 11 | Exported Function
-`ScmNewPmemDiskFromUnusedRegion` | 10 | Exported Function
-`ScmGetPhysicalNvdimms` | 6 | Exported Function
-`ScmGetDiskNumberFromDiskGuid` | 2 | Exported Function
 `ScmDeletePmemDisk` | 1 | Exported Function
+`ScmGetDiskNumberFromDiskGuid` | 2 | Exported Function
 `ScmGetLogicalPmemDiskByDiskNumber` | 3 | Exported Function
-`ScmGetPhysicalNvdimmByNfitHandle` | 5 | Exported Function
 `ScmGetLogicalPmemDisks` | 4 | Exported Function
+`ScmGetPhysicalNvdimmByNfitHandle` | 5 | Exported Function
+`ScmGetPhysicalNvdimms` | 6 | Exported Function
+`ScmGetUnusedPmemRegionById` | 7 | Exported Function
+`ScmGetUnusedPmemRegions` | 8 | Exported Function
+`ScmInitializePmemPhysicalDevice` | 9 | Exported Function
+`ScmNewPmemDiskFromUnusedRegion` | 10 | Exported Function
+`ScmRebuildStacks` | 11 | Exported Function
 
 
 ## Signature

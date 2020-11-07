@@ -26,9 +26,9 @@ PE256 | `A20B5AFCFD8713B6A7CA21FFCBDBEC21EF0048E6E17B7A2174DCB1929AF0C141`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

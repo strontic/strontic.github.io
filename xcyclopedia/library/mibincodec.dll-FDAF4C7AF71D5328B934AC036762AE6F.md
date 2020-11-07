@@ -26,10 +26,10 @@ PE256 | `7F2483A27792CDEE27A0DF299F7829C44AD390E06D64322018197493B68B8980`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NITS_PRESENCE_STUB` | 3 | Exported Function
-`NITS_STUB` | 4 | Exported Function
 `MI_Application_NewDeserializer_Binary` | 1 | Exported Function
 `MI_Application_NewSerializer_Binary` | 2 | Exported Function
+`NITS_PRESENCE_STUB` | 3 | Exported Function
+`NITS_STUB` | 4 | Exported Function
 
 
 ## Signature

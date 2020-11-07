@@ -26,12 +26,12 @@ PE256 | `7E7A0CFA102A6EC36E15636D3109940CE0A558332068050EA173A5B96A0C4153`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`MsimtfIsGuidMapEnable` | 5 | Exported Function
-`MsimtfIsWindowFiltered` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`MsimtfIsGuidMapEnable` | 5 | Exported Function
+`MsimtfIsWindowFiltered` | 6 | Exported Function
 
 
 ## Signature

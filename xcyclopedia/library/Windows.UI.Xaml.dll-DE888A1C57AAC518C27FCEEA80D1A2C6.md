@@ -26,21 +26,21 @@ PE256 | `85BD275E8B7FD2EF459ADED3C9BDC7BFE098A5D119E3B9E032300C08247C9FBA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetStringLen` | 11 | Exported Function
-`GetGlobalModuleParams` | 10 | Exported Function
-`GetErrorContextIndex` | 9 | Exported Function
-`GetStringRawBuffer` | 12 | Exported Function
-`OverrideXamlResourcePropertyBag` | 15 | Exported Function
-`OverrideXamlMetadataProvider` | 14 | Exported Function
-`InitializeXamlDiagnosticsEx` | 13 | Exported Function
-`GetDependencyObjectAddress` | 8 | Exported Function
-`DeleteString` | 3 | Exported Function
-`CreateXamlUIPresenter` | 2 | Exported Function
 `CreateString` | 1 | Exported Function
+`CreateXamlUIPresenter` | 2 | Exported Function
+`DeleteString` | 3 | Exported Function
 `DisableDeferredInvoke` | 4 | Exported Function
-`DllMain` | 7 | Exported Function
-`DllGetActivationFactory` | 6 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllMain` | 7 | Exported Function
+`GetDependencyObjectAddress` | 8 | Exported Function
+`GetErrorContextIndex` | 9 | Exported Function
+`GetGlobalModuleParams` | 10 | Exported Function
+`GetStringLen` | 11 | Exported Function
+`GetStringRawBuffer` | 12 | Exported Function
+`InitializeXamlDiagnosticsEx` | 13 | Exported Function
+`OverrideXamlMetadataProvider` | 14 | Exported Function
+`OverrideXamlResourcePropertyBag` | 15 | Exported Function
 
 
 ## Signature

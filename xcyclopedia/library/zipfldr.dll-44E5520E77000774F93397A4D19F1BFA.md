@@ -26,9 +26,9 @@ PE256 | `5C582DF665505AB44F5ECFD9CD033B080A184B93F4A9DCE3936AB1DD93484C9E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RouteTheCall` | 1 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`RouteTheCall` | 1 | Exported Function
 
 
 ## Signature

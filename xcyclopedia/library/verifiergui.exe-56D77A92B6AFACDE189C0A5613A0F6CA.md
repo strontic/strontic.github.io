@@ -216,8 +216,8 @@ C:\Windows\SysWOW64\verifiergui.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/20385e5addd1d1aa1868a9999a5e336d2969bc47b985441b2c11d15eb7dd5643/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/20385e5addd1d1aa1868a9999a5e336d2969bc47b985441b2c11d15eb7dd5643/detection
 
 ## File Similarity (ssdeep match)
 

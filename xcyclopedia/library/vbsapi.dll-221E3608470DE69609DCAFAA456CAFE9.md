@@ -26,22 +26,22 @@ PE256 | `C746E76B1E78D29C037EB28EB6B842AB38CAF588A67A87404CD1108D576CEA16`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VbsGetIssues` | 11 | Exported Function
-`VbsIsCapable` | 12 | Exported Function
-`HvciIncompatibilityScanStart` | 9 | Exported Function
-`HvciIsActive` | 10 | Exported Function
-`VbsSetScenarioEnable` | 15 | Exported Function
-`VbsSetScenarioEnableToVBSKey` | 16 | Exported Function
-`VbsIsRecommended` | 13 | Exported Function
-`VbsIsScenarioEnabled` | 14 | Exported Function
-`HvciIncompatibilityScanCancel` | 3 | Exported Function
-`HvciIncompatibilityScanFree` | 4 | Exported Function
 `HvciGetConfig` | 1 | Exported Function
 `HvciGetConfigFromVBSKey` | 2 | Exported Function
-`HvciIncompatibilityScanOverrideDriverCompatDatabase` | 7 | Exported Function
-`HvciIncompatibilityScanOverrideServicesKey` | 8 | Exported Function
+`HvciIncompatibilityScanCancel` | 3 | Exported Function
+`HvciIncompatibilityScanFree` | 4 | Exported Function
 `HvciIncompatibilityScanGetResult` | 5 | Exported Function
 `HvciIncompatibilityScanInitialize` | 6 | Exported Function
+`HvciIncompatibilityScanOverrideDriverCompatDatabase` | 7 | Exported Function
+`HvciIncompatibilityScanOverrideServicesKey` | 8 | Exported Function
+`HvciIncompatibilityScanStart` | 9 | Exported Function
+`HvciIsActive` | 10 | Exported Function
+`VbsGetIssues` | 11 | Exported Function
+`VbsIsCapable` | 12 | Exported Function
+`VbsIsRecommended` | 13 | Exported Function
+`VbsIsScenarioEnabled` | 14 | Exported Function
+`VbsSetScenarioEnable` | 15 | Exported Function
+`VbsSetScenarioEnableToVBSKey` | 16 | Exported Function
 
 
 ## Signature
@@ -75,6 +75,7 @@ File | Score
 [C:\Windows\system32\directxdatabaseupdater.exe](directxdatabaseupdater.exe-031BCFFEEC62FCA7C05CCBFD5B44B375.md) | 25
 [C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-08F12D5206A2C6910D9C7FED1D87AFAC.md) | 24
 [C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-7FA6A7C7B75AD60502F54021550EE415.md) | 25
+[C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-885AFAE1B0904558BD658598358F2A33.md) | 24
 
 
 

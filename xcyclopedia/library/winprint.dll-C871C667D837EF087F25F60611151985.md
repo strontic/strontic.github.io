@@ -26,13 +26,13 @@ PE256 | `EBFC0132DDB3BB5C7AFD5B32D193432D014B69CBE0DE610C662F5F74B28FBF1C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPrintProcessorCapabilities` | 5 | Exported Function
-`OpenPrintProcessor` | 6 | Exported Function
-`PrintDocumentOnPrintProcessor` | 7 | Exported Function
-`EnumPrintProcessorDatatypesW` | 4 | Exported Function
 `ClosePrintProcessor` | 1 | Exported Function
 `ControlPrintProcessor` | 2 | Exported Function
 `DllMain` | 3 | Exported Function
+`EnumPrintProcessorDatatypesW` | 4 | Exported Function
+`GetPrintProcessorCapabilities` | 5 | Exported Function
+`OpenPrintProcessor` | 6 | Exported Function
+`PrintDocumentOnPrintProcessor` | 7 | Exported Function
 
 
 ## Signature

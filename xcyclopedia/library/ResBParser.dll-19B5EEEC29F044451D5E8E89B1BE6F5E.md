@@ -25,9 +25,9 @@ PE256 | `5857C123B323216CE4F8679A51EFCFD12FA50120EE377BF2847BDB5A4FEC0E09`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnumerateResBStrings` | 3 | Exported Function
-`DecodeReadResBInit` | 2 | Exported Function
 `DecodeReadResBDeinit` | 1 | Exported Function
+`DecodeReadResBInit` | 2 | Exported Function
+`EnumerateResBStrings` | 3 | Exported Function
 
 
 ## Signature

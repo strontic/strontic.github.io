@@ -28,18 +28,20 @@ PE256 | `944A34F08A135C94A0FFD6B6BD76B3A10C7C167DD30C48EB42945B6B54E356B9`
 
 Path | Type
 -- | --
-(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\provplatformdesktop.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
 (R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
 (RWD)   C:\Windows\Fonts\seguisb.ttf | File
 (RWD)   C:\Windows\Fonts\seguisym.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
@@ -51,11 +53,13 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\system32\DMCmnUtils.dll |
 C:\Windows\system32\dmcommandlineutils.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -73,8 +77,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -91,8 +95,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/f643689f807c0666ec44e9d9b3bd583f1254049dddad0758235ee5c027352cfe/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/f643689f807c0666ec44e9d9b3bd583f1254049dddad0758235ee5c027352cfe/detection
 
 
 ## Possible Misuse

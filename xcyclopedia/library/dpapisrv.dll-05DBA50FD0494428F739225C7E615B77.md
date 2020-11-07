@@ -26,8 +26,8 @@ PE256 | `D4294B57129A5516C7F953685FA88E9EC104FF85B578DED71B90807E431DBF12`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`QueryLsaInterface` | 2 | Exported Function
 `InitializeLsaExtension` | 1 | Exported Function
+`QueryLsaInterface` | 2 | Exported Function
 
 
 ## Signature

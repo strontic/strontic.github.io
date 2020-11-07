@@ -26,10 +26,10 @@ PE256 | `DD0BFC90FDC6F73213059AF69F88EC70899C3556F19BD76A197320ACEAB47EB2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateManifestDocumentFromXML` | 4 | Exported Function
-`GetManifestSelectionNamespaces` | 1 | Exported Function
 `CreateManifestDocumentFromDocument` | 2 | Exported Function
 `CreateManifestDocumentFromFile` | 3 | Exported Function
+`CreateManifestDocumentFromXML` | 4 | Exported Function
+`GetManifestSelectionNamespaces` | 1 | Exported Function
 
 
 ## Signature

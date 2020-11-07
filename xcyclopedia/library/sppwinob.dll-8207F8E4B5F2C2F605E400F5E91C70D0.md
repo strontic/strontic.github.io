@@ -26,11 +26,11 @@ PE256 | `BFD97A35C24CF570363356E56806A90E6F15B78D7FE38183B2CB796AF80D3CC3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SppPluginShutdown` | 4 | Exported Function
-`SppPluginVersion` | 5 | Exported Function
-`SppPluginInitialize` | 3 | Exported Function
 `SppPluginCanUnloadNow` | 1 | Exported Function
 `SppPluginCreateInstance` | 2 | Exported Function
+`SppPluginInitialize` | 3 | Exported Function
+`SppPluginShutdown` | 4 | Exported Function
+`SppPluginVersion` | 5 | Exported Function
 
 
 ## Signature

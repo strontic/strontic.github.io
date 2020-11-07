@@ -59,8 +59,8 @@ C:\Windows\SysWOW64\write.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/6f760002730a8ca55181eb61eb7d9764d91f236efc602168f225cb0cd9180295/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/6f760002730a8ca55181eb61eb7d9764d91f236efc602168f225cb0cd9180295/detection
 
 ## File Similarity (ssdeep match)
 

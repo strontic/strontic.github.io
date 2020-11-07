@@ -26,13 +26,13 @@ PE256 | `2C11817B353C472946075F7680BA583C3D0A0B4F8CF8B2FB421F21C3258C7EFC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDefaultPartitionForCurrentUser` | 5 | Exported Function
-`GetDefaultPartitionForSid` | 6 | Exported Function
-`PartitionAccessCheck` | 7 | Exported Function
-`GetClassInfoForCurrentUser` | 4 | Exported Function
 `DllGetClassObject` | 1 | Exported Function
 `DllRegisterServer` | 2 | Exported Function
 `DllUnregisterServer` | 3 | Exported Function
+`GetClassInfoForCurrentUser` | 4 | Exported Function
+`GetDefaultPartitionForCurrentUser` | 5 | Exported Function
+`GetDefaultPartitionForSid` | 6 | Exported Function
+`PartitionAccessCheck` | 7 | Exported Function
 
 
 ## Signature

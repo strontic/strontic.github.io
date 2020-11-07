@@ -26,13 +26,13 @@ PE256 | `41F38C9E61A92E0557CAEA086A7DFCB567B4B8CD18C0192702699122DBEC132F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PsmBiExtNotifyWerReportProgress` | 5 | Exported Function
-`PsmBiExtPrepareToSuspendPackage` | 6 | Exported Function
-`PsmBiExtResumePackage` | 7 | Exported Function
-`PsmBiExtNotifySessionUserStateChange` | 4 | Exported Function
 `PsmBiExtInitialize` | 1 | Exported Function
 `PsmBiExtNotifyAppState` | 2 | Exported Function
 `PsmBiExtNotifySessionStateChange` | 3 | Exported Function
+`PsmBiExtNotifySessionUserStateChange` | 4 | Exported Function
+`PsmBiExtNotifyWerReportProgress` | 5 | Exported Function
+`PsmBiExtPrepareToSuspendPackage` | 6 | Exported Function
+`PsmBiExtResumePackage` | 7 | Exported Function
 
 
 ## Signature

@@ -26,20 +26,20 @@ PE256 | `242B6C00B437390D4ACC53A15AFA1959838A308C4CF93FB135A43A0E84288EDE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HNetSharingAndFirewallSettingsDlg` | 10 | Exported Function
-`HNetSharedAccessSettingsDlg` | 9 | Exported Function
-`HNetGetSharingServicesPage` | 3 | Exported Function
-`RegisterClassObjects` | 11 | Exported Function
-`WinBomConfigureWindowsFirewall` | 14 | Exported Function
-`RevokeClassObjects` | 13 | Exported Function
-`ReleaseSingletons` | 12 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
-`HNetGetFirewallSettingsPage` | 8 | Exported Function
-`HNetFreeSharingServicesPage` | 2 | Exported Function
 `HNetDeleteRasConnection` | 1 | Exported Function
+`HNetFreeSharingServicesPage` | 2 | Exported Function
+`HNetGetFirewallSettingsPage` | 8 | Exported Function
+`HNetGetSharingServicesPage` | 3 | Exported Function
+`HNetSharedAccessSettingsDlg` | 9 | Exported Function
+`HNetSharingAndFirewallSettingsDlg` | 10 | Exported Function
+`RegisterClassObjects` | 11 | Exported Function
+`ReleaseSingletons` | 12 | Exported Function
+`RevokeClassObjects` | 13 | Exported Function
+`WinBomConfigureWindowsFirewall` | 14 | Exported Function
 
 
 ## Signature

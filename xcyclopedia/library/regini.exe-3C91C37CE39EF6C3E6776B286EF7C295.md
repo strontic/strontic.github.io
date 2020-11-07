@@ -184,6 +184,9 @@ REGINI: Missing parameter(s) for -h switch
 
 ```
 
+### Child Processes:
+RdpSa.exe
+
 ### Loaded Modules:
 
 Path |
@@ -215,8 +218,8 @@ C:\Windows\system32\regini.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/c2ee2ffe2fae173188c3568c47c8090347e6cb09085c249936df2d52c0521dbb/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/c2ee2ffe2fae173188c3568c47c8090347e6cb09085c249936df2d52c0521dbb/detection
 
 ## File Similarity (ssdeep match)
 

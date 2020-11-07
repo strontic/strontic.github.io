@@ -26,16 +26,16 @@ PE256 | `891A6BF68D896ABA5656078C4F9C791DD0FD6F7B6B04BAB39A2F72D491A2E223`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnumerateNewCacheForCurrentUser` | 7 | Exported Function
-`EnumerateCacheEntriesFromIndexDatFile` | 6 | Exported Function
-`EnumerateOldCacheForCurrentUser` | 8 | Exported Function
-`MigrateCacheForUser` | 10 | Exported Function
-`MigrateCacheForCurrentUser` | 9 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 `DllMain` | 3 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`EnumerateCacheEntriesFromIndexDatFile` | 6 | Exported Function
+`EnumerateNewCacheForCurrentUser` | 7 | Exported Function
+`EnumerateOldCacheForCurrentUser` | 8 | Exported Function
+`MigrateCacheForCurrentUser` | 9 | Exported Function
+`MigrateCacheForUser` | 10 | Exported Function
 
 
 ## Signature

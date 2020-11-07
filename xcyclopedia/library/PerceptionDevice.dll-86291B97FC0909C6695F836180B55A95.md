@@ -26,10 +26,10 @@ PE256 | `9514530C0DAB3EA9752DD288E0F468500A22EFF0E429F2ACD75D018771FFB84A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PerceptionDeviceCreateFactory` | 3 | Exported Function
-`PerceptionDeviceSetCreateFactoryOverride` | 4 | Exported Function
 `_DllMain@12` | 2 | Exported Function
 `CreateSpatialObjectDDIClientFactory` | 1 | Exported Function
+`PerceptionDeviceCreateFactory` | 3 | Exported Function
+`PerceptionDeviceSetCreateFactoryOverride` | 4 | Exported Function
 
 
 ## Signature

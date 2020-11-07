@@ -26,10 +26,10 @@ PE256 | `3400FC1F346F5F3E809F06DE7FAB25AC8A21B59F0EBD73B15655643DE4BB8E86`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 4 | Exported Function
-`ServiceMain` | 1 | Exported Function
 `ClientInitEcsLib` | 2 | Exported Function
 `ClientUnInitEcsLib` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

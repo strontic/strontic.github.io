@@ -26,12 +26,12 @@ PE256 | `A5A59FE3A8D7C96096D9A54D64C3FB7BCDAB525FBA336B5C8BB4F7D745B94569`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`IasUpgradeComplianceCheck` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
 `DllMain` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`IasUpgradeComplianceCheck` | 1 | Exported Function
 
 
 ## Signature

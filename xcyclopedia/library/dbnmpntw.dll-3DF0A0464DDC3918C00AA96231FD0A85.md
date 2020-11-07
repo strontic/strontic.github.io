@@ -26,22 +26,22 @@ PE256 | `8F205B7CDE87932C82561A66E4CC823603468DFEAB322AFA492681E5852AB124`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConnectionServerEnumW` | 16 | Exported Function
-`ConnectionStatus` | 10 | Exported Function
-`ConnectionRead` | 2 | Exported Function
-`ConnectionServerEnum` | 12 | Exported Function
-`ConnectionWrite` | 3 | Exported Function
-`ConnectionWriteOOB` | 8 | Exported Function
-`ConnectionTransact` | 7 | Exported Function
-`ConnectionVer` | 6 | Exported Function
-`ConnectionError` | 5 | Exported Function
-`ConnectionErrorW` | 15 | Exported Function
 `ConnectionCheckForData` | 13 | Exported Function
 `ConnectionClose` | 4 | Exported Function
-`ConnectionOpen` | 11 | Exported Function
-`ConnectionOpenW` | 14 | Exported Function
+`ConnectionError` | 5 | Exported Function
+`ConnectionErrorW` | 15 | Exported Function
 `ConnectionMode` | 9 | Exported Function
 `ConnectionObjectSize` | 1 | Exported Function
+`ConnectionOpen` | 11 | Exported Function
+`ConnectionOpenW` | 14 | Exported Function
+`ConnectionRead` | 2 | Exported Function
+`ConnectionServerEnum` | 12 | Exported Function
+`ConnectionServerEnumW` | 16 | Exported Function
+`ConnectionStatus` | 10 | Exported Function
+`ConnectionTransact` | 7 | Exported Function
+`ConnectionVer` | 6 | Exported Function
+`ConnectionWrite` | 3 | Exported Function
+`ConnectionWriteOOB` | 8 | Exported Function
 
 
 ## Signature

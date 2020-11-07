@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\sethc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/65
-* VirusTotal Link: https://www.virustotal.com/gui/file/8798c149f63e1573e7aec72e61796c95793866ef84375e521eb92940e2105f59/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/8798c149f63e1573e7aec72e61796c95793866ef84375e521eb92940e2105f59/detection
 
 ## File Similarity (ssdeep match)
 

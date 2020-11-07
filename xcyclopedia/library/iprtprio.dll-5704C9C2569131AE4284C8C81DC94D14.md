@@ -26,11 +26,11 @@ PE256 | `989E1BB2C67C1E826C852C24403687B62223AA4AE1A7CAB6BB377D075EB35B6F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPriorityInfo` | 4 | Exported Function
-`SetPriorityInfo` | 5 | Exported Function
-`ComputeRouteMetricEx` | 3 | Exported Function
 `CleanUpIpPriority` | 1 | Exported Function
 `ComputeRouteMetric` | 2 | Exported Function
+`ComputeRouteMetricEx` | 3 | Exported Function
+`GetPriorityInfo` | 4 | Exported Function
+`SetPriorityInfo` | 5 | Exported Function
 
 
 ## Signature

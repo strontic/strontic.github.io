@@ -26,28 +26,28 @@ PE256 | `9472092D1F0E38AD8EDAE0FFB441D830A88E59CD68260C37DE2FC482FDAD2113`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClipOpen` | 17 | Exported Function
-`ClipQueryAssociateId` | 18 | Exported Function
-`ClipInstallLicense` | 16 | Exported Function
-`ClipGetQueryResults` | 14 | Exported Function
-`ClipGetSubscriptionStatus` | 15 | Exported Function
+`ClipCallServer` | 3 | Exported Function
+`GetOfflineDeviceUniqueID` | 2 | Exported Function
+`GetExchangeDeviceUniqueID` | 1 | Exported Function
+`ClipUninstallLicense` | 20 | Exported Function
 `ClipRefreshLicense` | 19 | Exported Function
+`ClipQueryAssociateId` | 18 | Exported Function
+`ClipOpen` | 17 | Exported Function
+`ClipInstallLicense` | 16 | Exported Function
+`ClipGetSubscriptionStatus` | 15 | Exported Function
+`ClipGetQueryResults` | 14 | Exported Function
+`ClipGetLicenseData` | 13 | Exported Function
+`ClipGetLicenseAndPolicyForPfn` | 12 | Exported Function
+`ClipGetFileIdFromAssociateId` | 11 | Exported Function
+`ClipGetDeviceHardwareData` | 10 | Exported Function
+`ClipGetAssociatedResults` | 9 | Exported Function
+`ClipGenerateDeviceLicenseRequest` | 8 | Exported Function
+`ClipGenerateClientChallengeData` | 7 | Exported Function
+`ClipGatherDiagnostics` | 6 | Exported Function
+`ClipClose` | 5 | Exported Function
+`ClipCleanUpState` | 4 | Exported Function
 `SLQueryLicenseValueFromApp` | 21 | Exported Function
 `SLQueryLicenseValueFromApp2` | 22 | Exported Function
-`GetOfflineDeviceUniqueID` | 2 | Exported Function
-`ClipUninstallLicense` | 20 | Exported Function
-`GetExchangeDeviceUniqueID` | 1 | Exported Function
-`ClipGatherDiagnostics` | 6 | Exported Function
-`ClipGenerateClientChallengeData` | 7 | Exported Function
-`ClipClose` | 5 | Exported Function
-`ClipCallServer` | 3 | Exported Function
-`ClipCleanUpState` | 4 | Exported Function
-`ClipGenerateDeviceLicenseRequest` | 8 | Exported Function
-`ClipGetLicenseAndPolicyForPfn` | 12 | Exported Function
-`ClipGetLicenseData` | 13 | Exported Function
-`ClipGetFileIdFromAssociateId` | 11 | Exported Function
-`ClipGetAssociatedResults` | 9 | Exported Function
-`ClipGetDeviceHardwareData` | 10 | Exported Function
 
 
 ## Signature

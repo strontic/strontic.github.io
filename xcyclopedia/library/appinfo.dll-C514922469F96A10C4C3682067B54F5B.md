@@ -26,10 +26,10 @@ PE256 | `5A6E5606D86FB129A7250AA0885F713165DF60B780BFEFE9DE750310CA87D73D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 3 | Exported Function
-`SvchostPushServiceGlobals` | 4 | Exported Function
 `AiDisableDesktopRpcInterface` | 1 | Exported Function
 `AiEnableDesktopRpcInterface` | 2 | Exported Function
+`ServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
 
 
 ## Signature

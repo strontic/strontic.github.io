@@ -26,20 +26,20 @@ PE256 | `AD5683A35E0C4E738C9B6014559A957F2EA25620085E97268EBDE7CF8CFD646F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetProfileStringA` | 10 | Exported Function
-`GetProfileSectionW` | 9 | Exported Function
-`GetProfileSectionA` | 8 | Exported Function
-`GetProfileStringW` | 11 | Exported Function
-`WritePrivateProfileStringW` | 14 | Exported Function
-`WritePrivateProfileStringA` | 13 | Exported Function
-`WritePrivateProfileSectionA` | 12 | Exported Function
-`GetPrivateProfileSectionW` | 3 | Exported Function
-`GetPrivateProfileIntW` | 2 | Exported Function
 `GetPrivateProfileIntA` | 1 | Exported Function
+`GetPrivateProfileIntW` | 2 | Exported Function
+`GetPrivateProfileSectionW` | 3 | Exported Function
 `GetPrivateProfileStringA` | 4 | Exported Function
-`GetProfileIntW` | 7 | Exported Function
-`GetProfileIntA` | 6 | Exported Function
 `GetPrivateProfileStringW` | 5 | Exported Function
+`GetProfileIntA` | 6 | Exported Function
+`GetProfileIntW` | 7 | Exported Function
+`GetProfileSectionA` | 8 | Exported Function
+`GetProfileSectionW` | 9 | Exported Function
+`GetProfileStringA` | 10 | Exported Function
+`GetProfileStringW` | 11 | Exported Function
+`WritePrivateProfileSectionA` | 12 | Exported Function
+`WritePrivateProfileStringA` | 13 | Exported Function
+`WritePrivateProfileStringW` | 14 | Exported Function
 
 
 ## Signature

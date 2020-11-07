@@ -26,8 +26,8 @@ PE256 | `CB5118E0332822EA387AED63EA79BE31CC53EB356D08DCAFAF742C41B598B201`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WcnServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 1 | Exported Function
+`WcnServiceMain` | 2 | Exported Function
 
 
 ## Signature

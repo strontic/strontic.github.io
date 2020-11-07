@@ -26,9 +26,9 @@ PE256 | `8E8C77E9C8C711E18E46528D6AFF9B4EBDDFA4ED8958DD9F520BDC1501191BFF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PreApply` | 3 | Exported Function
-`Gather` | 2 | Exported Function
 `ApplySuccess` | 1 | Exported Function
+`Gather` | 2 | Exported Function
+`PreApply` | 3 | Exported Function
 
 
 ## Signature

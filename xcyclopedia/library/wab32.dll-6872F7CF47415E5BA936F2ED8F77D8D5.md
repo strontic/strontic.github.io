@@ -26,27 +26,27 @@ PE256 | `5FD933FD6EA2DEB7463012FF07623B013CA391DD62F26CBF08A182233468F920`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShellUICommand_OnImportW` | 16 | Exported Function
-`ShellUICommand_OnNewContactW` | 13 | Exported Function
-`ShellUICommand_OnExportW` | 17 | Exported Function
-`Ordinal9` | 9 | Exported Function
-`ShellUICommand_OnEditW` | 15 | Exported Function
-`WABOpen` | 2 | Exported Function
-`WABOpenEx` | 4 | Exported Function
-`WABCreateIProp` | 3 | Exported Function
-`ShellUICommand_OnNewEmailW` | 12 | Exported Function
-`ShellUICommand_OnNewGroupW` | 14 | Exported Function
-`Ordinal8` | 8 | Exported Function
-`Ordinal11` | 11 | Exported Function
-`Ordinal22` | 22 | Exported Function
-`Ordinal10` | 10 | Exported Function
 `DllCanUnloadNow` | 18 | Exported Function
-`DllGetClassObject` | 19 | Exported Function
+`WABCreateIProp` | 3 | Exported Function
+`ShellUICommand_OnNewGroupW` | 14 | Exported Function
+`ShellUICommand_OnNewEmailW` | 12 | Exported Function
+`ShellUICommand_OnNewContactW` | 13 | Exported Function
+`ShellUICommand_OnImportW` | 16 | Exported Function
+`ShellUICommand_OnExportW` | 17 | Exported Function
+`ShellUICommand_OnEditW` | 15 | Exported Function
+`Ordinal9` | 9 | Exported Function
+`WABOpen` | 2 | Exported Function
+`Ordinal8` | 8 | Exported Function
 `Ordinal6` | 6 | Exported Function
-`Ordinal7` | 7 | Exported Function
 `Ordinal5` | 5 | Exported Function
-`Ordinal23` | 23 | Exported Function
 `Ordinal24` | 24 | Exported Function
+`Ordinal23` | 23 | Exported Function
+`Ordinal22` | 22 | Exported Function
+`Ordinal11` | 11 | Exported Function
+`Ordinal10` | 10 | Exported Function
+`DllGetClassObject` | 19 | Exported Function
+`Ordinal7` | 7 | Exported Function
+`WABOpenEx` | 4 | Exported Function
 
 
 ## Signature

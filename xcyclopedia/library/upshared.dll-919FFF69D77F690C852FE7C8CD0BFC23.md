@@ -26,16 +26,16 @@ PE256 | `6E0CFA10AF4C2D547501214F4D06E591B4C41BE0BAE5398474E99E53F4B24D21`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SubmitRequestForData` | 7 | Exported Function
-`ParseJson` | 6 | Exported Function
-`SubmitRequestForSettings` | 8 | Exported Function
-`VerifySelfSignedImageFile` | 10 | Exported Function
-`ToBase64` | 9 | Exported Function
-`CreateQueryStringBuilder` | 2 | Exported Function
 `ConvertJsonValueToVariant` | 1 | Exported Function
+`CreateQueryStringBuilder` | 2 | Exported Function
 `ExpandCabFile` | 3 | Exported Function
-`MapExceptionToHResult` | 5 | Exported Function
 `LoadJsonFromFile` | 4 | Exported Function
+`MapExceptionToHResult` | 5 | Exported Function
+`ParseJson` | 6 | Exported Function
+`SubmitRequestForData` | 7 | Exported Function
+`SubmitRequestForSettings` | 8 | Exported Function
+`ToBase64` | 9 | Exported Function
+`VerifySelfSignedImageFile` | 10 | Exported Function
 
 
 ## Signature

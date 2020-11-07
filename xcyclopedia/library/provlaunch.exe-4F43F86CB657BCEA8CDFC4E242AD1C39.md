@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\provlaunch.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/b602337a386a68aa4b7d1e3d863a158601cf0891c22abf8b29427cae87853f82/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/b602337a386a68aa4b7d1e3d863a158601cf0891c22abf8b29427cae87853f82/detection
 
 
 

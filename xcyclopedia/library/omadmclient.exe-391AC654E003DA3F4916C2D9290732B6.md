@@ -28,25 +28,32 @@ PE256 | `28D947050061FC7D5992CF97DC4AA119C5287E743E4DF2E1590C12CBB235D455`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\coredpus.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\system32\CRYPTSP.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\DMCfgUtils.dll |
 C:\Windows\system32\DMCmnUtils.dll |
 C:\Windows\system32\dmEnrollEngine.DLL |
 C:\Windows\system32\dmenterprisediagnostics.dll |
 C:\Windows\system32\dmiso8601utils.dll |
 C:\Windows\system32\DMOleAutUtils.dll |
+C:\Windows\system32\IPHLPAPI.DLL |
+C:\Windows\system32\iri.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\omadmapi.dll |
 C:\Windows\system32\omadmclient.exe |
 C:\Windows\system32\policymanager.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
 C:\Windows\system32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
@@ -77,8 +84,8 @@ C:\Windows\system32\XmlLite.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/c81c43cd22f5985933fb5b4a734c0329c0134a740947c91c9f2199fa52b68784/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/c81c43cd22f5985933fb5b4a734c0329c0134a740947c91c9f2199fa52b68784/detection
 
 
 

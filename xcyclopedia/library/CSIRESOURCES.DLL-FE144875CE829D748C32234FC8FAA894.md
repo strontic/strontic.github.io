@@ -26,8 +26,8 @@ PE256 | `9618539971D0C08A9F6CAEE9751F1E3A785DB8735040D220F1126DB5D8C03BE6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UninitCsiResourcesDll` | 2 | Exported Function
 `FInitCsiResourcesDll` | 1 | Exported Function
+`UninitCsiResourcesDll` | 2 | Exported Function
 
 
 ## Signature

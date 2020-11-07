@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\ndadmin.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/46e4b4f4e9b7369dbd24d8bf09b092edb1a0e051f65467562a8a0fe5e5e988ce/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/46e4b4f4e9b7369dbd24d8bf09b092edb1a0e051f65467562a8a0fe5e5e988ce/detection
 
 ## File Similarity (ssdeep match)
 

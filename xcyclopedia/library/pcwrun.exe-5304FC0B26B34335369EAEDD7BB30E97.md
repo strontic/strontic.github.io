@@ -33,6 +33,8 @@ Path |
 -- |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -42,6 +44,7 @@ C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\pcwrun.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -68,8 +71,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/e3d136c667662a2198da3d45a4637df1efe1f61b2b948f421fc0f8eee6d83c3a/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/e3d136c667662a2198da3d45a4637df1efe1f61b2b948f421fc0f8eee6d83c3a/detection
 
 
 ## Possible Misuse

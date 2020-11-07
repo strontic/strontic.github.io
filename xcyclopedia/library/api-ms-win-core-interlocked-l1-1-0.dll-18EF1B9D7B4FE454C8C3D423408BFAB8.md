@@ -26,18 +26,18 @@ PE256 | `7E1E6729C15CA6DC991D3F20DAD1DF99C7FEB883EB479DE3F4C6FFB91DA0E2A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InterlockedPopEntrySList` | 9 | Exported Function
-`InterlockedIncrement` | 8 | Exported Function
-`InterlockedFlushSList` | 7 | Exported Function
-`QueryDepthSList` | 12 | Exported Function
-`InterlockedPushListSList` | 11 | Exported Function
-`InterlockedPushEntrySList` | 10 | Exported Function
-`InterlockedCompareExchange64` | 2 | Exported Function
-`InterlockedCompareExchange` | 3 | Exported Function
 `InitializeSListHead` | 1 | Exported Function
-`InterlockedExchangeAdd` | 6 | Exported Function
-`InterlockedExchange` | 5 | Exported Function
+`InterlockedCompareExchange` | 3 | Exported Function
+`InterlockedCompareExchange64` | 2 | Exported Function
 `InterlockedDecrement` | 4 | Exported Function
+`InterlockedExchange` | 5 | Exported Function
+`InterlockedExchangeAdd` | 6 | Exported Function
+`InterlockedFlushSList` | 7 | Exported Function
+`InterlockedIncrement` | 8 | Exported Function
+`InterlockedPopEntrySList` | 9 | Exported Function
+`InterlockedPushEntrySList` | 10 | Exported Function
+`InterlockedPushListSList` | 11 | Exported Function
+`QueryDepthSList` | 12 | Exported Function
 
 
 ## Signature

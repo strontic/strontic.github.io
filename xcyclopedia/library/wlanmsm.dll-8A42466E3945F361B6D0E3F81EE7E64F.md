@@ -26,9 +26,9 @@ PE256 | `B83BBDD3AFC2CA648D97BF5A3BFE51CABCE8CF3215E2F7EA2EC3E059A8CFAD51`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeDll` | 3 | Exported Function
-`Dot11MsmInit` | 2 | Exported Function
 `Dot11MsmDeInit` | 1 | Exported Function
+`Dot11MsmInit` | 2 | Exported Function
+`InitializeDll` | 3 | Exported Function
 
 
 ## Signature

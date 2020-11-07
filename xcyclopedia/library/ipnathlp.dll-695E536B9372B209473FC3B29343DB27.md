@@ -26,38 +26,38 @@ PE256 | `CE1BC9777013A1F789AFB2F6EA22175367273E063D346264422BF273F7363B6A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NhDeleteSocket` | 6 | Exported Function
-`NhCreateStreamSocket` | 5 | Exported Function
-`NhInitializeTraceManagement` | 8 | Exported Function
-`NhInitializeBufferManagement` | 7 | Exported Function
-`NhAcquireFixedLengthBuffer` | 2 | Exported Function
-`NhAcceptStreamSocket` | 1 | Exported Function
-`NhCreateDatagramSocket` | 4 | Exported Function
-`NhAcquireVariableLengthBuffer` | 3 | Exported Function
+`NatAcquirePortReservation` | 16 | Exported Function
 `RegisterProtocol` | 14 | Exported Function
 `NhWriteStreamSocket` | 13 | Exported Function
-`SvchostPushServiceGlobals` | 15 | Exported Function
-`ServiceMain` | 32 | Exported Function
-`NhReadStreamSocket` | 10 | Exported Function
-`NhReadDatagramSocket` | 9 | Exported Function
 `NhWriteDatagramSocket` | 12 | Exported Function
 `NhReleaseBuffer` | 11 | Exported Function
-`NatCreateDynamicRedirectEx` | 21 | Exported Function
-`NatCreateDynamicRedirect` | 20 | Exported Function
-`NatCreateRedirectEx` | 23 | Exported Function
-`NatCreateRedirect` | 22 | Exported Function
-`NatCancelDynamicRedirect` | 17 | Exported Function
-`NatAcquirePortReservation` | 16 | Exported Function
-`NatCreateDynamicFullRedirect` | 19 | Exported Function
-`NatCancelRedirect` | 18 | Exported Function
-`NatReleasePortReservation` | 29 | Exported Function
-`NatQueryInformationRedirectHandle` | 28 | Exported Function
+`NhReadStreamSocket` | 10 | Exported Function
+`NhReadDatagramSocket` | 9 | Exported Function
+`NhInitializeTraceManagement` | 8 | Exported Function
+`NhInitializeBufferManagement` | 7 | Exported Function
+`NhDeleteSocket` | 6 | Exported Function
+`NhCreateStreamSocket` | 5 | Exported Function
+`NhCreateDatagramSocket` | 4 | Exported Function
+`NhAcquireVariableLengthBuffer` | 3 | Exported Function
+`NhAcquireFixedLengthBuffer` | 2 | Exported Function
+`NhAcceptStreamSocket` | 1 | Exported Function
 `NatShutdownTranslator` | 31 | Exported Function
 `NatShutdownPortReservation` | 30 | Exported Function
-`NatInitializeTranslator` | 25 | Exported Function
-`NatInitializePortReservation` | 24 | Exported Function
+`NatReleasePortReservation` | 29 | Exported Function
+`NatQueryInformationRedirectHandle` | 28 | Exported Function
 `NatQueryInformationRedirect` | 27 | Exported Function
 `NatLookupAndQueryInformationSessionMapping` | 26 | Exported Function
+`NatInitializeTranslator` | 25 | Exported Function
+`NatInitializePortReservation` | 24 | Exported Function
+`NatCreateRedirectEx` | 23 | Exported Function
+`NatCreateRedirect` | 22 | Exported Function
+`NatCreateDynamicRedirectEx` | 21 | Exported Function
+`NatCreateDynamicRedirect` | 20 | Exported Function
+`NatCreateDynamicFullRedirect` | 19 | Exported Function
+`NatCancelRedirect` | 18 | Exported Function
+`NatCancelDynamicRedirect` | 17 | Exported Function
+`ServiceMain` | 32 | Exported Function
+`SvchostPushServiceGlobals` | 15 | Exported Function
 
 
 ## Signature

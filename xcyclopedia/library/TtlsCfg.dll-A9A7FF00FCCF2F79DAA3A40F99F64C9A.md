@@ -26,23 +26,23 @@ PE256 | `5A79A2ACF2178FD2ED33E189F344DD50485E675A77812C1331C4864446EEE243`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapPeerInvokeIdentityUI` | 12 | Exported Function
-`EapPeerInvokeInteractiveUI` | 13 | Exported Function
-`EapPeerGetNextPageGuid` | 4 | Exported Function
-`EapPeerInvokeConfigUI` | 11 | Exported Function
-`EapPeerQueryUIBlobFromInteractiveUIInputFields` | 16 | Exported Function
-`EapPeerQueryUserBlobFromCredentialInputFields` | 17 | Exported Function
-`EapPeerQueryCredentialInputFields` | 14 | Exported Function
-`EapPeerQueryInteractiveUIInputFields` | 15 | Exported Function
-`EapPeerGetMethodProperties` | 3 | Exported Function
-`EapPeerCreateMethodConfiguration` | 1 | Exported Function
-`EapPeerCredentialsXml2Blob` | 7 | Exported Function
 `EapPeerConfigBlob2Xml` | 5 | Exported Function
-`EapPeerConfigXml2Blob` | 6 | Exported Function
+`EapPeerQueryInteractiveUIInputFields` | 15 | Exported Function
+`EapPeerQueryCredentialInputFields` | 14 | Exported Function
+`EapPeerInvokeInteractiveUI` | 13 | Exported Function
+`EapPeerInvokeIdentityUI` | 12 | Exported Function
+`EapPeerInvokeConfigUI` | 11 | Exported Function
+`EapPeerGetNextPageGuid` | 4 | Exported Function
+`EapPeerQueryUIBlobFromInteractiveUIInputFields` | 16 | Exported Function
+`EapPeerGetMethodProperties` | 3 | Exported Function
 `EapPeerGetConfigBlobAndUserBlob` | 10 | Exported Function
-`EapPeerGetIdentityPageGuid` | 2 | Exported Function
-`EapPeerFreeErrorMemory` | 8 | Exported Function
 `EapPeerFreeMemory` | 9 | Exported Function
+`EapPeerFreeErrorMemory` | 8 | Exported Function
+`EapPeerCredentialsXml2Blob` | 7 | Exported Function
+`EapPeerCreateMethodConfiguration` | 1 | Exported Function
+`EapPeerConfigXml2Blob` | 6 | Exported Function
+`EapPeerGetIdentityPageGuid` | 2 | Exported Function
+`EapPeerQueryUserBlobFromCredentialInputFields` | 17 | Exported Function
 
 
 ## Signature

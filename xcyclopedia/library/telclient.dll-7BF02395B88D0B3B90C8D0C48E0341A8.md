@@ -26,13 +26,13 @@ PE256 | `ABACE1FBCC97A2436A8D9A399823F93E016277242753EE582DE318CA9BE2F67E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDecoderCreateFunc` | 5 | Exported Function
-`GetHandleVerifier` | 6 | Exported Function
-`GetLogSplitterCreateFunc` | 7 | Exported Function
-`FreePayload` | 4 | Exported Function
 `DecodePayload` | 1 | Exported Function
 `DecodeUkmPayload` | 2 | Exported Function
 `DecodeUmaPayload` | 3 | Exported Function
+`FreePayload` | 4 | Exported Function
+`GetDecoderCreateFunc` | 5 | Exported Function
+`GetHandleVerifier` | 6 | Exported Function
+`GetLogSplitterCreateFunc` | 7 | Exported Function
 
 
 ## Signature

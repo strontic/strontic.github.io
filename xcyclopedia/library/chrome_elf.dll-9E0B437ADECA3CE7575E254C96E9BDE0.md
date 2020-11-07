@@ -26,32 +26,32 @@ PE256 | `F2EDB8F34B05DF62E05AA640E6797B34D77814B67860682AB15EB1D58A49A6F3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsBlacklistInitialized` | 17 | Exported Function
-`IsCrashReportingEnabledImpl` | 18 | Exported Function
-`RegisterLogNotification` | 19 | Exported Function
-`GetUniqueBlockedModulesCount` | 14 | Exported Function
-`GetUserDataDirectoryThunk` | 15 | Exported Function
-`InjectDumpForHungInput_ExportThunk` | 16 | Exported Function
-`RequestSingleCrashUpload_ExportThunk` | 20 | Exported Function
+`AddDllToBlacklist` | 1 | Exported Function
 `SignalChromeElf` | 24 | Exported Function
+`SetUploadConsent_ExportThunk` | 23 | Exported Function
+`SetMetricsClientId` | 22 | Exported Function
+`SetCrashKeyValueImpl` | 21 | Exported Function
+`RequestSingleCrashUpload_ExportThunk` | 20 | Exported Function
+`RegisterLogNotification` | 19 | Exported Function
+`IsCrashReportingEnabledImpl` | 18 | Exported Function
+`IsBlacklistInitialized` | 17 | Exported Function
+`InjectDumpForHungInput_ExportThunk` | 16 | Exported Function
+`GetUserDataDirectoryThunk` | 15 | Exported Function
+`GetUniqueBlockedModulesCount` | 14 | Exported Function
+`GetInstallDetailsPayload` | 13 | Exported Function
+`GetHandleVerifier` | 12 | Exported Function
+`GetCrashReports_ExportThunk` | 10 | Exported Function
+`GetCrashpadDatabasePath_ExportThunk` | 11 | Exported Function
+`GetBlockedModulesCount` | 9 | Exported Function
+`GetApplyHookResult` | 8 | Exported Function
+`DumpProcessWithoutCrash` | 7 | Exported Function
+`DumpHungProcessWithPtype_ExportThunk` | 6 | Exported Function
+`DrainLog` | 5 | Exported Function
+`DisableHook` | 4 | Exported Function
+`CrashForException_ExportThunk` | 3 | Exported Function
+`ClearReportsBetween_ExportThunk` | 2 | Exported Function
 `SignalInitializeCrashReporting` | 25 | Exported Function
 `SuccessfullyBlocked` | 26 | Exported Function
-`SetCrashKeyValueImpl` | 21 | Exported Function
-`SetMetricsClientId` | 22 | Exported Function
-`SetUploadConsent_ExportThunk` | 23 | Exported Function
-`DisableHook` | 4 | Exported Function
-`DrainLog` | 5 | Exported Function
-`DumpHungProcessWithPtype_ExportThunk` | 6 | Exported Function
-`AddDllToBlacklist` | 1 | Exported Function
-`ClearReportsBetween_ExportThunk` | 2 | Exported Function
-`CrashForException_ExportThunk` | 3 | Exported Function
-`DumpProcessWithoutCrash` | 7 | Exported Function
-`GetCrashReports_ExportThunk` | 10 | Exported Function
-`GetHandleVerifier` | 12 | Exported Function
-`GetInstallDetailsPayload` | 13 | Exported Function
-`GetApplyHookResult` | 8 | Exported Function
-`GetBlockedModulesCount` | 9 | Exported Function
-`GetCrashpadDatabasePath_ExportThunk` | 11 | Exported Function
 
 
 ## Signature

@@ -122,8 +122,8 @@ C:\Windows\SysWOW64\Register-CimProvider.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/7946dd01fd7a3c2b9f33ecedf6ce04f04d6f494830900338f4469de6464caa0e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/7946dd01fd7a3c2b9f33ecedf6ce04f04d6f494830900338f4469de6464caa0e/detection
 
 
 ## Possible Misuse

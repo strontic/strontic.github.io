@@ -26,26 +26,26 @@ PE256 | `209380DA9CAF4B6BDA94DB62D545CC6E36B324DFE5A164AD2E50E212DBF94A3E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DsMakeSpn2W` | 14 | Exported Function
+`DsCrackSpn2A` | 1 | Exported Function
+`DsQuoteRdnValueW` | 18 | Exported Function
+`DsQuoteRdnValueA` | 17 | Exported Function
+`DsMakeSpnW` | 16 | Exported Function
 `DsMakeSpnA` | 15 | Exported Function
+`DsMakeSpn2W` | 14 | Exported Function
 `DsIsMangledRdnValueW` | 13 | Exported Function
-`DsIsMangledDnW` | 11 | Exported Function
 `DsIsMangledRdnValueA` | 12 | Exported Function
+`DsIsMangledDnW` | 11 | Exported Function
+`DsIsMangledDnA` | 10 | Exported Function
+`DsGetRdnW` | 9 | Exported Function
+`DsCrackUnquotedMangledRdnW` | 8 | Exported Function
+`DsCrackUnquotedMangledRdnA` | 7 | Exported Function
+`DsCrackSpnW` | 6 | Exported Function
+`DsCrackSpnA` | 5 | Exported Function
+`DsCrackSpn4W` | 4 | Exported Function
+`DsCrackSpn3W` | 3 | Exported Function
+`DsCrackSpn2W` | 2 | Exported Function
 `DsUnquoteRdnValueA` | 19 | Exported Function
 `DsUnquoteRdnValueW` | 20 | Exported Function
-`DsQuoteRdnValueW` | 18 | Exported Function
-`DsMakeSpnW` | 16 | Exported Function
-`DsQuoteRdnValueA` | 17 | Exported Function
-`DsCrackSpn4W` | 4 | Exported Function
-`DsCrackSpnA` | 5 | Exported Function
-`DsCrackSpn3W` | 3 | Exported Function
-`DsCrackSpn2A` | 1 | Exported Function
-`DsCrackSpn2W` | 2 | Exported Function
-`DsGetRdnW` | 9 | Exported Function
-`DsIsMangledDnA` | 10 | Exported Function
-`DsCrackUnquotedMangledRdnW` | 8 | Exported Function
-`DsCrackSpnW` | 6 | Exported Function
-`DsCrackUnquotedMangledRdnA` | 7 | Exported Function
 
 
 ## Signature

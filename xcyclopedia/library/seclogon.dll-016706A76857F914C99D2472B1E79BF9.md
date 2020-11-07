@@ -26,8 +26,8 @@ PE256 | `A081510FE2E52B2D46C4804213FA8BE01BF2F1DF1D594E4F232A0AAA7DC4EDAA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 2 | Exported Function
 `SvcEntry_Seclogon` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
 
 
 ## Signature

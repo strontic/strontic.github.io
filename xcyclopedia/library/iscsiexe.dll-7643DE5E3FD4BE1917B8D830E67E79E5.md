@@ -26,9 +26,9 @@ PE256 | `4039FBA17CF0503B08D53F709C25090B74B7D156DF88AD4E525FDFD0A7001F0A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 3 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `DiscpEstablishServiceLinkage` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
 
 
 ## Signature

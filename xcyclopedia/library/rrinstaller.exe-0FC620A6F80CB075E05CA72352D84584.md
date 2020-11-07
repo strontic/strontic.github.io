@@ -38,8 +38,8 @@ C:\Windows\SysWOW64\rrinstaller.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\rrinstaller.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/e580885a1dc294bf9c7653abd08ab8de490d63f8e30ab73bbf031a3ce8a57128/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/e580885a1dc294bf9c7653abd08ab8de490d63f8e30ab73bbf031a3ce8a57128/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,10 +26,10 @@ PE256 | `D1E0DCF402EBFB6E6183AC0F9ECAE65E8B560CFB95F67F155374A19F7560F3B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InvokeCAPEACLEditor` | 1 | Exported Function
-`TranslateAceMasksAndCondition` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`InvokeCAPEACLEditor` | 1 | Exported Function
+`TranslateAceMasksAndCondition` | 2 | Exported Function
 
 
 ## Signature

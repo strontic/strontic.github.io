@@ -26,11 +26,11 @@ PE256 | `A762080633036A038AD03B7D1A27F75A3929A6FEABA456D21E60B96E2BEE97E4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DebugActiveProcessStop` | 4 | Exported Function
-`WaitForDebugEvent` | 5 | Exported Function
-`DebugActiveProcess` | 3 | Exported Function
 `CheckRemoteDebuggerPresent` | 1 | Exported Function
 `ContinueDebugEvent` | 2 | Exported Function
+`DebugActiveProcess` | 3 | Exported Function
+`DebugActiveProcessStop` | 4 | Exported Function
+`WaitForDebugEvent` | 5 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `2AAC2204EA9E4A8A0B478075979A7AA8A67754C119DF04EF6186A7ED0A8E8A9D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`RDBMgmtLaunchPropertiesW` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`RDBMgmtLaunchPropertiesW` | 1 | Exported Function
 
 
 ## Signature

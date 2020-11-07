@@ -24,9 +24,6 @@ PE256 | `E791994011860240EBAF0271D24F07ADC49C60D1413FF41BC6C116E84248E2C4`
 
 ## Runtime Data
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -59,8 +56,8 @@ C:\Windows\SysWOW64\SettingSyncHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/93f35856509e6332e6b1ddc883e960a103b14ff2c12b66cdff2fed33f3c7659c/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/93f35856509e6332e6b1ddc883e960a103b14ff2c12b66cdff2fed33f3c7659c/detection
 
 
 

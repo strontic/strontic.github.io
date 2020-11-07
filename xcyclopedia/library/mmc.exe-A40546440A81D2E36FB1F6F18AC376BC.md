@@ -64,8 +64,8 @@ C:\Windows\SysWOW64\mmc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/101b06fd8a344d594454bb1c4f9f2bc37680235504436512fb3abc3f20704547/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/101b06fd8a344d594454bb1c4f9f2bc37680235504436512fb3abc3f20704547/detection
 
 ## File Similarity (ssdeep match)
 

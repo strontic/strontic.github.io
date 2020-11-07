@@ -26,14 +26,14 @@ PE256 | `D509AA11FB788F0A91EBE27D749C9DC35E25BBED4B62CCB81CAA54EE504F6456`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IcmpSendEcho` | 4 | Exported Function
-`IcmpParseReplies` | 3 | Exported Function
-`register_icmp` | 8 | Exported Function
-`IcmpSendEcho2` | 5 | Exported Function
-`do_echo_req` | 7 | Exported Function
 `do_echo_rep` | 6 | Exported Function
-`IcmpCreateFile` | 2 | Exported Function
+`do_echo_req` | 7 | Exported Function
 `IcmpCloseHandle` | 1 | Exported Function
+`IcmpCreateFile` | 2 | Exported Function
+`IcmpParseReplies` | 3 | Exported Function
+`IcmpSendEcho` | 4 | Exported Function
+`IcmpSendEcho2` | 5 | Exported Function
+`register_icmp` | 8 | Exported Function
 
 
 ## Signature

@@ -22,19 +22,6 @@ IMP | `C6E4FB88ABA54E5E339120511BB8F20D`
 PESHA1 | `726279907EC3D3AAC8C7E412DCD27D5B7BF6D41C`
 PE256 | `43114A7BD2C917E8081BD9F03574A9FB116B9AAD7F6BA43D3D402553C6C85D84`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RemotePosWorker.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -56,8 +43,8 @@ C:\Windows\system32\RemotePosWorker.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/2868b0cc04e8dc5a415daed0fefec08430261fae6b5707a83a848edf8bf24da7/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/2868b0cc04e8dc5a415daed0fefec08430261fae6b5707a83a848edf8bf24da7/detection
 
 
 

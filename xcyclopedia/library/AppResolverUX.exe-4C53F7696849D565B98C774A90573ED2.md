@@ -24,6 +24,9 @@ PE256 | `16111D30DD500D108B837D862E666BD239964B57A0B1FEA3CD25F913E8F15260`
 
 ## Runtime Data
 
+### Child Processes:
+AppResolverUX.exe WerFault.exe
+
 ### Loaded Modules:
 
 Path |
@@ -32,9 +35,12 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy\AppResolverUX.exe |
 
 
@@ -59,8 +65,8 @@ C:\Windows\SystemApps\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy\AppResolverU
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/729bd07d3d216fa9e3b1209f8afe0dd738c13372bd85400e918199d40e931b5e/detection/
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/729bd07d3d216fa9e3b1209f8afe0dd738c13372bd85400e918199d40e931b5e/detection
 
 
 

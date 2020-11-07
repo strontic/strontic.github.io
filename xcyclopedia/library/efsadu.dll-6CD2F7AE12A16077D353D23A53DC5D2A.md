@@ -26,20 +26,20 @@ PE256 | `B041FC1AC7F6DC2E162BE7A1DD1B63CAEEF4BC89E3CDA6CBAB2EA2FA137F69B1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EfsUIUtilKeyBackup` | 10 | Exported Function
-`EfsUIUtilInstallDra` | 9 | Exported Function
-`EfsUIUtilEnrollEfsCertificateEx` | 8 | Exported Function
-`EfsUIUtilPromptForPin` | 11 | Exported Function
-`EfsUIUtilShowBalloonAndWait` | 14 | Exported Function
-`EfsUIUtilSelectCard` | 13 | Exported Function
-`EfsUIUtilPromptForPinDialog` | 12 | Exported Function
-`EfsDetail` | 3 | Exported Function
-`BackCurrentEfsCert` | 2 | Exported Function
 `AddUserToObjectW` | 1 | Exported Function
+`BackCurrentEfsCert` | 2 | Exported Function
+`EfsDetail` | 3 | Exported Function
 `EfsUIUtilCheckScardStatus` | 4 | Exported Function
-`EfsUIUtilEnrollEfsCertificate` | 7 | Exported Function
-`EfsUIUtilEncryptMyDocuments` | 6 | Exported Function
 `EfsUIUtilCreateSelfSignedCertificate` | 5 | Exported Function
+`EfsUIUtilEncryptMyDocuments` | 6 | Exported Function
+`EfsUIUtilEnrollEfsCertificate` | 7 | Exported Function
+`EfsUIUtilEnrollEfsCertificateEx` | 8 | Exported Function
+`EfsUIUtilInstallDra` | 9 | Exported Function
+`EfsUIUtilKeyBackup` | 10 | Exported Function
+`EfsUIUtilPromptForPin` | 11 | Exported Function
+`EfsUIUtilPromptForPinDialog` | 12 | Exported Function
+`EfsUIUtilSelectCard` | 13 | Exported Function
+`EfsUIUtilShowBalloonAndWait` | 14 | Exported Function
 
 
 ## Signature

@@ -26,36 +26,36 @@ PE256 | `F92220B00587465CFAC96C0F67E8738EBA1037C225DA5E2D102C8C84DD492225`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_getwch_nolock` | 20 | Exported Function
-`_getwche` | 21 | Exported Function
-`_getwche_nolock` | 22 | Exported Function
-`_getwch` | 19 | Exported Function
-`_getch_nolock` | 16 | Exported Function
-`_getche` | 17 | Exported Function
-`_getche_nolock` | 18 | Exported Function
-`_putch` | 23 | Exported Function
+`__conio_common_vcprintf` | 1 | Exported Function
 `_ungetch_nolock` | 28 | Exported Function
+`_ungetch` | 27 | Exported Function
+`_putwch_nolock` | 26 | Exported Function
+`_putwch` | 25 | Exported Function
+`_putch_nolock` | 24 | Exported Function
+`_putch` | 23 | Exported Function
+`_getwche_nolock` | 22 | Exported Function
+`_getwche` | 21 | Exported Function
+`_getwch_nolock` | 20 | Exported Function
+`_getwch` | 19 | Exported Function
+`_getche_nolock` | 18 | Exported Function
+`_getche` | 17 | Exported Function
+`_getch_nolock` | 16 | Exported Function
+`_getch` | 15 | Exported Function
+`_cputws` | 14 | Exported Function
+`_cputs` | 13 | Exported Function
+`_cgetws_s` | 12 | Exported Function
+`_cgetws` | 11 | Exported Function
+`_cgets_s` | 10 | Exported Function
+`_cgets` | 9 | Exported Function
+`__conio_common_vcwscanf` | 8 | Exported Function
+`__conio_common_vcwprintf_s` | 7 | Exported Function
+`__conio_common_vcwprintf_p` | 6 | Exported Function
+`__conio_common_vcwprintf` | 5 | Exported Function
+`__conio_common_vcscanf` | 4 | Exported Function
+`__conio_common_vcprintf_s` | 3 | Exported Function
+`__conio_common_vcprintf_p` | 2 | Exported Function
 `_ungetwch` | 29 | Exported Function
 `_ungetwch_nolock` | 30 | Exported Function
-`_ungetch` | 27 | Exported Function
-`_putch_nolock` | 24 | Exported Function
-`_putwch` | 25 | Exported Function
-`_putwch_nolock` | 26 | Exported Function
-`__conio_common_vcwprintf` | 5 | Exported Function
-`__conio_common_vcwprintf_p` | 6 | Exported Function
-`__conio_common_vcwprintf_s` | 7 | Exported Function
-`__conio_common_vcscanf` | 4 | Exported Function
-`__conio_common_vcprintf` | 1 | Exported Function
-`__conio_common_vcprintf_p` | 2 | Exported Function
-`__conio_common_vcprintf_s` | 3 | Exported Function
-`__conio_common_vcwscanf` | 8 | Exported Function
-`_cputs` | 13 | Exported Function
-`_cputws` | 14 | Exported Function
-`_getch` | 15 | Exported Function
-`_cgetws_s` | 12 | Exported Function
-`_cgets` | 9 | Exported Function
-`_cgets_s` | 10 | Exported Function
-`_cgetws` | 11 | Exported Function
 
 
 ## Signature

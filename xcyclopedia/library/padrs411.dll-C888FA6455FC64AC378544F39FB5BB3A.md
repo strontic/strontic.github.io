@@ -26,8 +26,8 @@ PE256 | `2DC095D061A1CF0A133CA09B4B57EA70431EBC3D8BDA30AD2F2F2D6350A036B7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PadHelp_HandleHelp` | 2 | Exported Function
 `PadHelp_HandleContextPopup` | 1 | Exported Function
+`PadHelp_HandleHelp` | 2 | Exported Function
 
 
 ## Signature

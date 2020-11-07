@@ -26,28 +26,28 @@ PE256 | `A59F00E68E9D6E712ACB6E55CC5C411D794ADF642544ABF5702E93ABAAD2FF5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpellerGetListUdr` | 40 | Exported Function
-`SpellerGetOptions` | 26 | Exported Function
-`SpellerDelUdr` | 39 | Exported Function
-`SpellerClearUdr` | 38 | Exported Function
-`SpellerCloseLex` | 24 | Exported Function
+`CreateSimpleSpeller` | 27 | Exported Function
+`SpellerSetOptions` | 25 | Exported Function
+`SpellerOpenLex` | 23 | Exported Function
+`SpellerInit` | 21 | Exported Function
 `SpellerGetSizeUdr` | 41 | Exported Function
+`SpellerGetOptions` | 26 | Exported Function
+`SpellerGetListUdr` | 40 | Exported Function
+`SpellerDelUdr` | 39 | Exported Function
+`SpellerCloseLex` | 24 | Exported Function
+`SpellerClearUdr` | 38 | Exported Function
+`SpellerCheck` | 37 | Exported Function
+`SpellerBuiltinUdr` | 36 | Exported Function
+`SpellerAddUdr` | 35 | Exported Function
+`SpellerAddChangeUdr` | 34 | Exported Function
+`SetCssWordBreakerLexicon` | 33 | Exported Function
+`RunCssWordBreaker` | 32 | Exported Function
+`GetNextTokenOrSuggestion` | 31 | Exported Function
+`GetNextToken` | 30 | Exported Function
+`GetContextSpellingSession` | 29 | Exported Function
+`FreeGlobalObjects` | 28 | Exported Function
 `SpellerTerminate` | 22 | Exported Function
 `SpellerVersion` | 20 | Exported Function
-`SpellerSetOptions` | 25 | Exported Function
-`SpellerInit` | 21 | Exported Function
-`SpellerOpenLex` | 23 | Exported Function
-`GetNextToken` | 30 | Exported Function
-`GetNextTokenOrSuggestion` | 31 | Exported Function
-`GetContextSpellingSession` | 29 | Exported Function
-`CreateSimpleSpeller` | 27 | Exported Function
-`FreeGlobalObjects` | 28 | Exported Function
-`RunCssWordBreaker` | 32 | Exported Function
-`SpellerBuiltinUdr` | 36 | Exported Function
-`SpellerCheck` | 37 | Exported Function
-`SpellerAddUdr` | 35 | Exported Function
-`SetCssWordBreakerLexicon` | 33 | Exported Function
-`SpellerAddChangeUdr` | 34 | Exported Function
 
 
 ## Signature

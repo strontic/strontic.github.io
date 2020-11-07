@@ -26,8 +26,8 @@ PE256 | `CF70642EC588E053E16278CE33019B95DD85119F479D9480EC9D89A205BA2529`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializePrintMonitor2` | 344 | Exported Function
 `DllMain` | 343 | Exported Function
+`InitializePrintMonitor2` | 344 | Exported Function
 
 
 ## Signature

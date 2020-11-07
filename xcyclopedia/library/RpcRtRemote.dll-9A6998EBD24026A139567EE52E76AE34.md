@@ -26,16 +26,16 @@ PE256 | `52F5C477E03B82F2AE74C794A4875ABF014F2AB5D04EFDD6C17A6F5BABE56093`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MatchPrincipalName` | 7 | Exported Function
-`IsMarshaledCredential` | 6 | Exported Function
-`ProcessAndProvisionCertificate` | 8 | Exported Function
-`ValidatePrincipalName` | 10 | Exported Function
-`ResetIndicatedPortsInUse` | 9 | Exported Function
-`FreeCertificate` | 2 | Exported Function
 `DuplicateCertificate` | 1 | Exported Function
+`FreeCertificate` | 2 | Exported Function
 `GeneratePrincipalName` | 3 | Exported Function
-`IndicatePortInUse` | 5 | Exported Function
 `I_RpcExtInitializeExtensionPoint` | 4 | Exported Function
+`IndicatePortInUse` | 5 | Exported Function
+`IsMarshaledCredential` | 6 | Exported Function
+`MatchPrincipalName` | 7 | Exported Function
+`ProcessAndProvisionCertificate` | 8 | Exported Function
+`ResetIndicatedPortsInUse` | 9 | Exported Function
+`ValidatePrincipalName` | 10 | Exported Function
 
 
 ## Signature

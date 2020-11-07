@@ -28,10 +28,25 @@ PE256 | `0F1B15B8371A92F15535DCE98E54DC8E5D52CFCBF7A71DD1FF5F5FCA7100D371`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 C:\Windows\system32\wscadminui.exe |
 C:\Windows\system32\WSCAPI.dll |
 
@@ -39,8 +54,8 @@ C:\Windows\system32\WSCAPI.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -57,8 +72,8 @@ C:\Windows\system32\WSCAPI.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/9afa38359d1960a2366522e0658d656dd984a0838af491ec51e179b444394985/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9afa38359d1960a2366522e0658d656dd984a0838af491ec51e179b444394985/detection
 
 ## File Similarity (ssdeep match)
 

@@ -27,28 +27,23 @@ PE256 | `3F32B5C6B54B26BB39681DDF275426AA300446BBD3F9E7E9E03E17C4981C9A84`
 ### Child Processes:
 FilePicker.exe WerFault.exe
 
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\xCyclopedia | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SYSTEM32\usermgrcli.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy\FilePicker.exe |
 
 
@@ -73,8 +68,8 @@ C:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy\FilePicker.exe 
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/a5c929f32b4c760e50bcc77b9675c26a7950ef806fc2079f248be5c226dfdc1a/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/a5c929f32b4c760e50bcc77b9675c26a7950ef806fc2079f248be5c226dfdc1a/detection
 
 
 

@@ -26,11 +26,11 @@ PE256 | `C03B2DC17DA720EEBAB2ED64BA3D784CC600132CF8DC0FCA24213FE0A632295A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CAutoSetActivityId::operator` | 3 | Exported Function
-`CCritSec::operator` | 4 | Exported Function
-`public: __thiscall CCritSec::~CCritSec(void)` | 2 | Exported Function
 `MI_Application_InitializeV1` | 5 | Exported Function
 `CCritSec::CCritSec` | 1 | Exported Function
+`public: __thiscall CCritSec::~CCritSec(void)` | 2 | Exported Function
+`CAutoSetActivityId::operator` | 3 | Exported Function
+`CCritSec::operator` | 4 | Exported Function
 
 
 ## Signature

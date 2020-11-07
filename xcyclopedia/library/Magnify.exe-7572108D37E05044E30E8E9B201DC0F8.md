@@ -32,29 +32,31 @@ Magnifier
 Path | Type
 -- | --
 (R--)   C:\Windows\Speech_OneCore\Engines\TTS\en-US\NUSData\M1033David.keyboard.WVE | File
-(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\combase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Magnify.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\SRH.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\windows.ui.xaml.dll.mui | File
 (R-D)   C:\Windows\SystemResources\Magnify.exe.mun | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows\System32 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\{1345B034-FCDE-4E60-8AF8-12D3C5692ECE}-Map-GLOBAL | Section
-\Sessions\1\BaseNamedObjects\{E14EB35E-E892-4B23-AB97-72111D8B3C73}-Map-S-1-16-12288 | Section
-\Sessions\1\BaseNamedObjects\1584HWNDInterface:60402 | Section
-\Sessions\1\BaseNamedObjects\1584HWNDInterface:6040c | Section
+\Sessions\1\BaseNamedObjects\{2CD626D7-B622-4F30-9EFC-B5F5B95DC524}-Map-GLOBAL | Section
+\Sessions\1\BaseNamedObjects\{5E6CDA55-1D71-45C1-BA9C-4BC211F21144}-Map-S-1-16-12288 | Section
+\Sessions\1\BaseNamedObjects\f5cHWNDInterface:70060 | Section
+\Sessions\1\BaseNamedObjects\f5cHWNDInterface:70064 | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -62,12 +64,24 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\Magnify.exe |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\system32\OLEACC.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -91,8 +105,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/66b87efbf56e20fbfb0667c3d3cda098b9eca7472c597f381958524d6ede0bac/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/66b87efbf56e20fbfb0667c3d3cda098b9eca7472c597f381958524d6ede0bac/detection
 
 
 ## Possible Misuse

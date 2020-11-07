@@ -42,6 +42,7 @@ SSDEEP | `384:RA9EPryc1ObH93skXsz2nBMCFVY/Ztg7SaRDRhKOe5VkLobPIgvGfEWqXY3wyNlh:Q
 
 File | Score
 -- | --
+[C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-0EA805915C512B7A68601CE5D796E63E.md) | 27
 [C:\WINDOWS\system32\dnscacheugc.exe](dnscacheugc.exe-15551D0CD29028F3B08FB1469F87B427.md) | 24
 [C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-217CD6402D7413486D78340E89A48A64.md) | 27
 [C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-D0B5FAF9E653543DEA270ECF5C720E0C.md) | 27

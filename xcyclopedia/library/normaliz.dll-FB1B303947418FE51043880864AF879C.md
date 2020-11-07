@@ -26,11 +26,11 @@ PE256 | `A60A855B674D22BCC362B6E0FD8D2FC5F3FEBBBABBC488BAB8852EF311E68A9C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsNormalizedString` | 4 | Exported Function
-`NormalizeString` | 5 | Exported Function
-`IdnToUnicode` | 3 | Exported Function
 `IdnToAscii` | 1 | Exported Function
 `IdnToNameprepUnicode` | 2 | Exported Function
+`IdnToUnicode` | 3 | Exported Function
+`IsNormalizedString` | 4 | Exported Function
+`NormalizeString` | 5 | Exported Function
 
 
 ## Signature

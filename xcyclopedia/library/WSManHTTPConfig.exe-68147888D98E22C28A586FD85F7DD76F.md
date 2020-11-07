@@ -63,8 +63,8 @@ C:\Windows\SysWOW64\WSManHTTPConfig.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/af31760fafeb4a2080923fc42f098b2f05a5f68153f8acd42ad9dc3955c58313/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/af31760fafeb4a2080923fc42f098b2f05a5f68153f8acd42ad9dc3955c58313/detection
 
 ## File Similarity (ssdeep match)
 

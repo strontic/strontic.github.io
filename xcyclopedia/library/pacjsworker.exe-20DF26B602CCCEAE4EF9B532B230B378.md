@@ -61,6 +61,11 @@ C:\Windows\system32\WINHTTP.dll |
 * VirusTotal Detections: 0/67
 * VirusTotal Link: https://www.virustotal.com/gui/file/13dc3a66f0237bf832e115f57c3a45653e24df38d786a6811390a30926a1337f/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\pacjsworker.exe](pacjsworker.exe-BE887110C3A171FD52CAF989976BD42E.md) | 74
 
 
 

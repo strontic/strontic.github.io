@@ -26,10 +26,10 @@ PE256 | `F9E0ADA55D37B2F387C2C47CAED1D058EC29C73CED3D6348026434E027C66AFF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FaxMonitorStartup` | 3 | Exported Function
-`IsFaxMessage` | 4 | Exported Function
 `DllMain` | 1 | Exported Function
 `FaxMonitorShutdown` | 2 | Exported Function
+`FaxMonitorStartup` | 3 | Exported Function
+`IsFaxMessage` | 4 | Exported Function
 
 
 ## Signature

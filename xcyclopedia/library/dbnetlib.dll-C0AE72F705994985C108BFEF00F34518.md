@@ -26,37 +26,37 @@ PE256 | `30806A1541D37B0989CAA717901648033A7A267D8024193C781C4643E8606F40`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConnectionWriteOOB` | 5 | Exported Function
-`GenClientContext` | 27 | Exported Function
-`GenClientContextEx` | 31 | Exported Function
-`ConnectionWrite` | 3 | Exported Function
-`ConnectionStatus` | 7 | Exported Function
-`ConnectionTransact` | 4 | Exported Function
-`ConnectionVer` | 12 | Exported Function
-`GetNextEnumeration` | 21 | Exported Function
-`TermSession` | 26 | Exported Function
-`TermSessionEx` | 30 | Exported Function
-`TermSSPIPackage` | 24 | Exported Function
-`InitSSPIPackage` | 23 | Exported Function
-`InitEnumServers` | 20 | Exported Function
-`InitSession` | 25 | Exported Function
-`InitSessionEx` | 29 | Exported Function
-`ConnectionSqlVer` | 13 | Exported Function
-`ConnectionErrorW` | 17 | Exported Function
-`ConnectionFlushCache` | 28 | Exported Function
-`ConnectionGetSvrUser` | 19 | Exported Function
-`ConnectionError` | 11 | Exported Function
 `CloseEnumServers` | 22 | Exported Function
-`ConnectionCheckForData` | 10 | Exported Function
-`ConnectionClose` | 9 | Exported Function
-`ConnectionMode` | 6 | Exported Function
-`ConnectionRead` | 2 | Exported Function
+`TermSession` | 26 | Exported Function
+`InitSSPIPackage` | 23 | Exported Function
+`InitSessionEx` | 29 | Exported Function
+`InitSession` | 25 | Exported Function
+`InitEnumServers` | 20 | Exported Function
+`GetNextEnumeration` | 21 | Exported Function
+`GenClientContextEx` | 31 | Exported Function
+`GenClientContext` | 27 | Exported Function
+`ConnectionWriteOOB` | 5 | Exported Function
+`ConnectionWrite` | 3 | Exported Function
+`ConnectionVer` | 12 | Exported Function
+`ConnectionTransact` | 4 | Exported Function
+`ConnectionStatus` | 7 | Exported Function
+`TermSessionEx` | 30 | Exported Function
+`ConnectionSqlVer` | 13 | Exported Function
 `ConnectionServerEnum` | 14 | Exported Function
-`ConnectionServerEnumW` | 15 | Exported Function
+`ConnectionRead` | 2 | Exported Function
 `ConnectionOption` | 18 | Exported Function
-`ConnectionObjectSize` | 1 | Exported Function
-`ConnectionOpen` | 8 | Exported Function
 `ConnectionOpenW` | 16 | Exported Function
+`ConnectionOpen` | 8 | Exported Function
+`ConnectionObjectSize` | 1 | Exported Function
+`ConnectionMode` | 6 | Exported Function
+`ConnectionGetSvrUser` | 19 | Exported Function
+`ConnectionFlushCache` | 28 | Exported Function
+`ConnectionErrorW` | 17 | Exported Function
+`ConnectionError` | 11 | Exported Function
+`ConnectionClose` | 9 | Exported Function
+`ConnectionCheckForData` | 10 | Exported Function
+`ConnectionServerEnumW` | 15 | Exported Function
+`TermSSPIPackage` | 24 | Exported Function
 
 
 ## Signature

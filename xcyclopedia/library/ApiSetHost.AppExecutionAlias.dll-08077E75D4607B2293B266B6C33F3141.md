@@ -26,26 +26,26 @@ PE256 | `12D1F76EB24B0E8D9F19E98C68B5D9DBA4EA020280D80401991484D9B7D97814`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetAppExecutionAliasPackageFullNameEx` | 14 | Exported Function
+`CheckAppExecutionAliasApplicationType` | 1 | Exported Function
+`PerformAppxLicenseRundownEx` | 18 | Exported Function
+`OpenAppExecutionAliasForUserEx` | 17 | Exported Function
+`LoadAppExecutionAliasInfoEx` | 16 | Exported Function
 `GetAppExecutionAliasPath` | 15 | Exported Function
+`GetAppExecutionAliasPackageFullNameEx` | 14 | Exported Function
 `GetAppExecutionAliasPackageFamilyNameEx` | 13 | Exported Function
-`GetAppExecutionAliasApplicationUserModelIdEx` | 11 | Exported Function
 `GetAppExecutionAliasExecutableEx` | 12 | Exported Function
+`GetAppExecutionAliasApplicationUserModelIdEx` | 11 | Exported Function
+`GetAppExecutionAliasApplicationType` | 10 | Exported Function
+`FreeAppExecutionAliasInfoEx` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`CreateAppExecutionAliasEx2` | 5 | Exported Function
+`CreateAppExecutionAliasEx` | 4 | Exported Function
+`CompleteAppExecutionAliasProcessCreationEx` | 3 | Exported Function
+`CloseAppExecutionAliasEx` | 2 | Exported Function
 `PersistAppExecutionAliasToFileEx` | 19 | Exported Function
 `PersistAppExecutionAliasToFileHandleEx` | 20 | Exported Function
-`PerformAppxLicenseRundownEx` | 18 | Exported Function
-`LoadAppExecutionAliasInfoEx` | 16 | Exported Function
-`OpenAppExecutionAliasForUserEx` | 17 | Exported Function
-`CreateAppExecutionAliasEx` | 4 | Exported Function
-`CreateAppExecutionAliasEx2` | 5 | Exported Function
-`CompleteAppExecutionAliasProcessCreationEx` | 3 | Exported Function
-`CheckAppExecutionAliasApplicationType` | 1 | Exported Function
-`CloseAppExecutionAliasEx` | 2 | Exported Function
-`FreeAppExecutionAliasInfoEx` | 9 | Exported Function
-`GetAppExecutionAliasApplicationType` | 10 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`DllCanUnloadNow` | 6 | Exported Function
-`DllGetActivationFactory` | 7 | Exported Function
 
 
 ## Signature

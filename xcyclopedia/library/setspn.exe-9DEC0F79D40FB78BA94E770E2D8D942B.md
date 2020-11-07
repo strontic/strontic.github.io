@@ -134,8 +134,8 @@ C:\Windows\system32\setspn.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/3ee597fa9b3333ab491807f48aec985c4429f975e0dabce2af0ccaa182628884/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3ee597fa9b3333ab491807f48aec985c4429f975e0dabce2af0ccaa182628884/detection
 
 
 ## Possible Misuse

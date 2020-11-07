@@ -26,23 +26,23 @@ PE256 | `C67511F33750934C1E605ACF2FE5708B5D8AB69794586359E340DEEE71DA107E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RemoveControlByHandle` | 11 | Exported Function
-`RemoveControlByHandle2` | 10 | Exported Function
-`IsModuleRemovable` | 8 | Exported Function
-`ReleaseControlHandle` | 9 | Exported Function
-`RemoveExpiredControls` | 14 | Exported Function
-`SweepControlsByLastAccessDate` | 15 | Exported Function
-`RemoveControlByName` | 13 | Exported Function
-`RemoveControlByName2` | 12 | Exported Function
-`GetControlInfo` | 7 | Exported Function
-`FindControlClose` | 1 | Exported Function
-`FindFirstControl` | 2 | Exported Function
 `DllCanUnloadNow` | 16 | Exported Function
-`DllGetClassObject` | 17 | Exported Function
+`RemoveControlByName2` | 12 | Exported Function
+`RemoveControlByName` | 13 | Exported Function
+`RemoveControlByHandle2` | 10 | Exported Function
+`RemoveControlByHandle` | 11 | Exported Function
+`ReleaseControlHandle` | 9 | Exported Function
+`IsModuleRemovable` | 8 | Exported Function
+`RemoveExpiredControls` | 14 | Exported Function
+`GetControlInfo` | 7 | Exported Function
 `FindNextControlArch` | 5 | Exported Function
-`GetControlDependentFile` | 6 | Exported Function
-`FindFirstControlArch` | 3 | Exported Function
 `FindNextControl` | 4 | Exported Function
+`FindFirstControlArch` | 3 | Exported Function
+`FindFirstControl` | 2 | Exported Function
+`FindControlClose` | 1 | Exported Function
+`DllGetClassObject` | 17 | Exported Function
+`GetControlDependentFile` | 6 | Exported Function
+`SweepControlsByLastAccessDate` | 15 | Exported Function
 
 
 ## Signature

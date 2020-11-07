@@ -26,21 +26,21 @@ PE256 | `6BA305B5820323E9C8A139CEBC1498F2FABE4F776C04C1C7DFF3593E232C45FE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SruQueryStatsEx` | 11 | Exported Function
-`SruQueryStatsBySeqNumber` | 10 | Exported Function
-`SruQueryStats` | 9 | Exported Function
-`SruRegisterRealTimeStats` | 12 | Exported Function
-`SruUpdateStats` | 15 | Exported Function
-`SruUnregisterRealTimeStats` | 14 | Exported Function
-`SruRetrieveEnergyRecord` | 13 | Exported Function
-`SruFreeRecordSet` | 8 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
-`SruDeleteStatsByAppName` | 7 | Exported Function
-`SruCreateEnergyNotificationServer` | 6 | Exported Function
 `SruCreateCheckpoint` | 5 | Exported Function
+`SruCreateEnergyNotificationServer` | 6 | Exported Function
+`SruDeleteStatsByAppName` | 7 | Exported Function
+`SruFreeRecordSet` | 8 | Exported Function
+`SruQueryStats` | 9 | Exported Function
+`SruQueryStatsBySeqNumber` | 10 | Exported Function
+`SruQueryStatsEx` | 11 | Exported Function
+`SruRegisterRealTimeStats` | 12 | Exported Function
+`SruRetrieveEnergyRecord` | 13 | Exported Function
+`SruUnregisterRealTimeStats` | 14 | Exported Function
+`SruUpdateStats` | 15 | Exported Function
 
 
 ## Signature

@@ -26,27 +26,27 @@ PE256 | `E25E478B0FAE4C5E7334C6FFA86C1720EADE5FB16A0EE49552177C2B91D174A4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RfxVmtRegisterForVmTerminatedNotification` | 15 | Exported Function
-`RfxVmtReleaseSharedBuffer` | 16 | Exported Function
-`RfxVmtReadChannelAndCache` | 14 | Exported Function
-`RfxVmtPauseLibrary` | 12 | Exported Function
-`RfxVmtReadChannel` | 13 | Exported Function
-`RfxVmtVWriteChannel` | 20 | Exported Function
-`RfxVmtWriteChannel` | 21 | Exported Function
-`RfxVmtShareBuffer` | 19 | Exported Function
-`RfxVmtResumeLibrary` | 17 | Exported Function
-`RfxVmtRevokeSharedBuffer` | 18 | Exported Function
-`RfxVmtIsWriteDataConsumed` | 11 | Exported Function
-`RfxVmtCreateChannel` | 4 | Exported Function
-`RfxVmtCreateChannelCancelable` | 5 | Exported Function
-`RfxVmtCloseChannel` | 3 | Exported Function
 `RfxVmtAcquireSharedBuffer` | 1 | Exported Function
-`RfxVmtCancelCreateChannel` | 2 | Exported Function
+`RfxVmtShareBuffer` | 19 | Exported Function
+`RfxVmtRevokeSharedBuffer` | 18 | Exported Function
+`RfxVmtResumeLibrary` | 17 | Exported Function
+`RfxVmtReleaseSharedBuffer` | 16 | Exported Function
+`RfxVmtRegisterForVmTerminatedNotification` | 15 | Exported Function
+`RfxVmtReadChannelAndCache` | 14 | Exported Function
+`RfxVmtReadChannel` | 13 | Exported Function
+`RfxVmtPauseLibrary` | 12 | Exported Function
+`RfxVmtVWriteChannel` | 20 | Exported Function
+`RfxVmtIsWriteDataConsumed` | 11 | Exported Function
 `RfxVmtGetDataAvailableEvent` | 9 | Exported Function
-`RfxVmtGetVramDescriptor` | 10 | Exported Function
 `RfxVmtGetChannelStatus` | 8 | Exported Function
-`RfxVmtDisableLibrary` | 6 | Exported Function
 `RfxVmtEnableLibrary` | 7 | Exported Function
+`RfxVmtDisableLibrary` | 6 | Exported Function
+`RfxVmtCreateChannelCancelable` | 5 | Exported Function
+`RfxVmtCreateChannel` | 4 | Exported Function
+`RfxVmtCloseChannel` | 3 | Exported Function
+`RfxVmtCancelCreateChannel` | 2 | Exported Function
+`RfxVmtGetVramDescriptor` | 10 | Exported Function
+`RfxVmtWriteChannel` | 21 | Exported Function
 
 
 ## Signature

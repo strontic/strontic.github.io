@@ -26,8 +26,8 @@ PE256 | `E5A090A2A31D99633BBE5EA6A88C8078DD75D0B9ADB00C997F8A3D900E5E296D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EtwLogSysConfigRundown` | 2 | Exported Function
 `EtwLogHeapRundown` | 1 | Exported Function
+`EtwLogSysConfigRundown` | 2 | Exported Function
 
 
 ## Signature

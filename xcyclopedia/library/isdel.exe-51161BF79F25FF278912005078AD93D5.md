@@ -29,13 +29,16 @@ PE256 | `499342A59AAFF1C1AC5F1BA1E0967C1EA21963505BAA43C841C16B02F5F3A186`
 Path | Type
 -- | --
 (R--)   C:\Windows\SysWOW64\InstallShield\_isdel.exe | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -52,8 +55,8 @@ C:\Windows\SysWOW64\InstallShield\_isdel.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -70,8 +73,8 @@ C:\Windows\SysWOW64\InstallShield\_isdel.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/63
-* VirusTotal Link: https://www.virustotal.com/gui/file/b5dc0feb738a91ce3cfa982647fe2779787335c6c2c598d5b49818565d7c3e84/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/b5dc0feb738a91ce3cfa982647fe2779787335c6c2c598d5b49818565d7c3e84/detection
 
 ## File Similarity (ssdeep match)
 

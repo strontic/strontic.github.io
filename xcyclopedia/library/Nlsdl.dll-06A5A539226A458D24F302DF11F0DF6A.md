@@ -26,10 +26,10 @@ PE256 | `B647983C9AFC33A6256C65D1A4789A6D12BEFB10D2E5956FAB4BB8BF4C1B8506`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DownlevelLCIDToLocaleName` | 3 | Exported Function
-`DownlevelLocaleNameToLCID` | 4 | Exported Function
 `DownlevelGetParentLocaleLCID` | 1 | Exported Function
 `DownlevelGetParentLocaleName` | 2 | Exported Function
+`DownlevelLCIDToLocaleName` | 3 | Exported Function
+`DownlevelLocaleNameToLCID` | 4 | Exported Function
 
 
 ## Signature

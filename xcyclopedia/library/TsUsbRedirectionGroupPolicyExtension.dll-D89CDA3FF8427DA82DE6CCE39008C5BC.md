@@ -26,9 +26,9 @@ PE256 | `20A489B825BFD6F728B779A9DDAB21BD2A8F43A7C9724706461B05737DDE59EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessGroupPolicyEx` | 3 | Exported Function
-`ExecuteProcessGroupPolicyExWithError` | 2 | Exported Function
 `ExecuteProcessGroupPolicyEx` | 1 | Exported Function
+`ExecuteProcessGroupPolicyExWithError` | 2 | Exported Function
+`ProcessGroupPolicyEx` | 3 | Exported Function
 
 
 ## Signature

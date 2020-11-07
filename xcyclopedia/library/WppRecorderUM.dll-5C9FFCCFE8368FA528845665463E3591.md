@@ -26,10 +26,10 @@ PE256 | `4C94DA3DA829F44658C00F04C068E78704515C071C81D9E05813781B4F26389E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WppAutoLogStop` | 3 | Exported Function
-`WppAutoLogTrace` | 4 | Exported Function
 `WppAutoLogGetDefaultHandle` | 1 | Exported Function
 `WppAutoLogStart` | 2 | Exported Function
+`WppAutoLogStop` | 3 | Exported Function
+`WppAutoLogTrace` | 4 | Exported Function
 
 
 ## Signature

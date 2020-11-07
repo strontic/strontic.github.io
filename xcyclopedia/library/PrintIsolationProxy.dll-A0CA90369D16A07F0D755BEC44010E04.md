@@ -26,10 +26,10 @@ PE256 | `FB48E6234C92B5F40D4BC7284D6BA4758AD36DCB06CEBC199183C95C7F4CBD12`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 404 | Exported Function
-`DllUnregisterServer` | 405 | Exported Function
 `DllCanUnloadNow` | 402 | Exported Function
 `DllGetClassObject` | 403 | Exported Function
+`DllRegisterServer` | 404 | Exported Function
+`DllUnregisterServer` | 405 | Exported Function
 
 
 ## Signature

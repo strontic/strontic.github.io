@@ -25,8 +25,8 @@ PE256 | `68A29D85F45A002B8BA8DB5950E20B089FEF6E41A08E44778877B7EF4D171558`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MojoGetSystemThunks` | 2 | Exported Function
 `GetHandleVerifier` | 1 | Exported Function
+`MojoGetSystemThunks` | 2 | Exported Function
 
 
 ## Signature

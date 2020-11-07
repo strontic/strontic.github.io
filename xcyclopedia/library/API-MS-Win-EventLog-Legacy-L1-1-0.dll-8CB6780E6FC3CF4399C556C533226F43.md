@@ -26,12 +26,12 @@ PE256 | `7CC5B2ECF1087D13F65D4685F4317A37481B69E44C394FC52A85EAEF119221D7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RegisterEventSourceW` | 4 | Exported Function
-`ReportEventA` | 5 | Exported Function
-`ReportEventW` | 6 | Exported Function
 `DeregisterEventSource` | 1 | Exported Function
 `GetEventLogInformation` | 2 | Exported Function
 `RegisterEventSourceA` | 3 | Exported Function
+`RegisterEventSourceW` | 4 | Exported Function
+`ReportEventA` | 5 | Exported Function
+`ReportEventW` | 6 | Exported Function
 
 
 ## Signature

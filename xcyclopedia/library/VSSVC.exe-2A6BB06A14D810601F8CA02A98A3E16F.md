@@ -28,19 +28,34 @@ PE256 | `489066B79878A674078F317AB243630BFACD290011323BA9578643AE58F1BEFC`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\AUTHZ.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\FLTLIB.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\VirtDisk.dll |
+C:\Windows\system32\VSSAPI.DLL |
+C:\Windows\system32\VssTrace.DLL |
 C:\Windows\system32\VSSVC.exe |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -57,8 +72,8 @@ C:\Windows\system32\VSSVC.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/0ba31f101507cd279108f7845aa7ef38b7adc2e595921f6a1c09954a2315409d/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/0ba31f101507cd279108f7845aa7ef38b7adc2e595921f6a1c09954a2315409d/detection
 
 
 ## Possible Misuse

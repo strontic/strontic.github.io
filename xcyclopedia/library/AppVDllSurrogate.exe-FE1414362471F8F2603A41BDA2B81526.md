@@ -56,7 +56,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## File Scan
 
 * VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/5bd041cb98925247e539c1b59cc5e4469ecb619b2b9ace99719d2991d64b7290/detection/
+* VirusTotal Link: https://www.virustotal.com/gui/file/5bd041cb98925247e539c1b59cc5e4469ecb619b2b9ace99719d2991d64b7290/detection
 
 ## File Similarity (ssdeep match)
 
@@ -81,6 +81,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 27
 [C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 50
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 35
+[C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 33
 
 
 

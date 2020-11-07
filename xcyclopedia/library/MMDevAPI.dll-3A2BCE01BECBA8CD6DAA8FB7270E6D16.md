@@ -26,11 +26,11 @@ PE256 | `FFE4275C5D9C3658BFB79799F0F3F3F0F8FDAD6DCE12E99671D11B0D7C61CDFE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 35 | Exported Function
-`DllUnregisterServer` | 36 | Exported Function
-`DllGetClassObject` | 34 | Exported Function
 `ActivateAudioInterfaceAsync` | 17 | Exported Function
 `DllCanUnloadNow` | 33 | Exported Function
+`DllGetClassObject` | 34 | Exported Function
+`DllRegisterServer` | 35 | Exported Function
+`DllUnregisterServer` | 36 | Exported Function
 
 
 ## Signature

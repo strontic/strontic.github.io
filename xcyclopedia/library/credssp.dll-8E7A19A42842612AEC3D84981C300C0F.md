@@ -26,32 +26,32 @@ PE256 | `B38CD4027608AF65FC95D9D00C631864CDEBB4C1C260B3D3E548A81EEF4E3335`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpInitializeSecurityContextW` | 17 | Exported Function
-`SpMakeSignature` | 18 | Exported Function
-`SpQueryContextAttributesW` | 19 | Exported Function
-`SpFreeCredentialsHandle` | 14 | Exported Function
-`SpImpersonateSecurityContext` | 15 | Exported Function
-`SpImportSecurityContextW` | 16 | Exported Function
-`SpQueryCredentialsAttributesW` | 20 | Exported Function
+`InitSecurityInterfaceW` | 1 | Exported Function
 `SpSetContextAttributesW` | 24 | Exported Function
+`SpRevertSecurityContext` | 23 | Exported Function
+`SpQuerySecurityPackageInfoW` | 22 | Exported Function
+`SpQuerySecurityContextToken` | 21 | Exported Function
+`SpQueryCredentialsAttributesW` | 20 | Exported Function
+`SpQueryContextAttributesW` | 19 | Exported Function
+`SpMakeSignature` | 18 | Exported Function
+`SpInitializeSecurityContextW` | 17 | Exported Function
+`SpImportSecurityContextW` | 16 | Exported Function
+`SpImpersonateSecurityContext` | 15 | Exported Function
+`SpFreeCredentialsHandle` | 14 | Exported Function
+`SpFreeContextBuffer` | 13 | Exported Function
+`SpExportSecurityContext` | 12 | Exported Function
+`SpEnumerateSecurityPackagesW` | 11 | Exported Function
+`SpEncryptMessage` | 10 | Exported Function
+`SpDeleteSecurityContext` | 9 | Exported Function
+`SpDecryptMessage` | 8 | Exported Function
+`SpCompleteAuthToken` | 7 | Exported Function
+`SpChangeAccountPasswordW` | 6 | Exported Function
+`SpApplyControlToken` | 5 | Exported Function
+`SpAddCredentialsW` | 4 | Exported Function
+`SpAcquireCredentialsHandleW` | 3 | Exported Function
+`SpAcceptSecurityContext` | 2 | Exported Function
 `SpSetCredentialsAttributesW` | 25 | Exported Function
 `SpVerifySignature` | 26 | Exported Function
-`SpQuerySecurityContextToken` | 21 | Exported Function
-`SpQuerySecurityPackageInfoW` | 22 | Exported Function
-`SpRevertSecurityContext` | 23 | Exported Function
-`SpAddCredentialsW` | 4 | Exported Function
-`SpApplyControlToken` | 5 | Exported Function
-`SpChangeAccountPasswordW` | 6 | Exported Function
-`InitSecurityInterfaceW` | 1 | Exported Function
-`SpAcceptSecurityContext` | 2 | Exported Function
-`SpAcquireCredentialsHandleW` | 3 | Exported Function
-`SpCompleteAuthToken` | 7 | Exported Function
-`SpEnumerateSecurityPackagesW` | 11 | Exported Function
-`SpExportSecurityContext` | 12 | Exported Function
-`SpFreeContextBuffer` | 13 | Exported Function
-`SpDecryptMessage` | 8 | Exported Function
-`SpDeleteSecurityContext` | 9 | Exported Function
-`SpEncryptMessage` | 10 | Exported Function
 
 
 ## Signature

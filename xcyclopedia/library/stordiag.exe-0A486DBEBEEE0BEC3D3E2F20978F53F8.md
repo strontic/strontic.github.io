@@ -60,9 +60,12 @@ Path | Type
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.XML.dll | File
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 \...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_6644 | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_3352 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
@@ -100,8 +103,8 @@ C:\Windows\system32\stordiag.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/6a13dac8bd42767dad55d4c1ed4640f4e7f01abb08ca05ddcdc2c348fcd6f8b3/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/6a13dac8bd42767dad55d4c1ed4640f4e7f01abb08ca05ddcdc2c348fcd6f8b3/detection
 
 ## File Similarity (ssdeep match)
 

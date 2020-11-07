@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\Utilman.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/9320fa0d6f39ef9650b0bbacaf413977d0d9d8beda578e75eb30c2e73f5011b2/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9320fa0d6f39ef9650b0bbacaf413977d0d9d8beda578e75eb30c2e73f5011b2/detection
 
 ## File Similarity (ssdeep match)
 

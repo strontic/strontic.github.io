@@ -26,25 +26,25 @@ PE256 | `3D4E425DC0E1BC62E4F54CC8E1B1452EA4AC86D43301B90FAEF9A368245160C6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LsaOfflineOpenPolicyExternal` | 13 | Exported Function
-`LsaOfflineOpenPolicyForInstaller` | 14 | Exported Function
-`LsaOfflineOpenAccount` | 11 | Exported Function
-`LsaOfflineOpenPolicy` | 12 | Exported Function
-`LsaOfflineQueryInformationPolicy` | 15 | Exported Function
-`LsaOfflineSetSystemAccessAccount` | 18 | Exported Function
-`LsaOfflineSyskeyRequest` | 19 | Exported Function
-`LsaOfflineRemoveAccountRights` | 16 | Exported Function
-`LsaOfflineRemovePrivilegesFromAccount` | 17 | Exported Function
-`LsaOfflineGetSystemAccessAccount` | 10 | Exported Function
-`LsaOfflineClose` | 3 | Exported Function
-`LsaOfflineCreateAccount` | 4 | Exported Function
 `LsaOfflineAddAccountRights` | 1 | Exported Function
-`LsaOfflineAddPrivilegesToAccount` | 2 | Exported Function
-`LsaOfflineDelete` | 5 | Exported Function
+`LsaOfflineRemovePrivilegesFromAccount` | 17 | Exported Function
+`LsaOfflineRemoveAccountRights` | 16 | Exported Function
+`LsaOfflineQueryInformationPolicy` | 15 | Exported Function
+`LsaOfflineOpenPolicyForInstaller` | 14 | Exported Function
+`LsaOfflineOpenPolicyExternal` | 13 | Exported Function
+`LsaOfflineOpenPolicy` | 12 | Exported Function
+`LsaOfflineOpenAccount` | 11 | Exported Function
+`LsaOfflineSetSystemAccessAccount` | 18 | Exported Function
+`LsaOfflineGetSystemAccessAccount` | 10 | Exported Function
 `LsaOfflineEnumeratePrivilegesOfAccount` | 8 | Exported Function
-`LsaOfflineFreeMemory` | 9 | Exported Function
-`LsaOfflineEnumerateAccountRights` | 6 | Exported Function
 `LsaOfflineEnumerateAccounts` | 7 | Exported Function
+`LsaOfflineEnumerateAccountRights` | 6 | Exported Function
+`LsaOfflineDelete` | 5 | Exported Function
+`LsaOfflineCreateAccount` | 4 | Exported Function
+`LsaOfflineClose` | 3 | Exported Function
+`LsaOfflineAddPrivilegesToAccount` | 2 | Exported Function
+`LsaOfflineFreeMemory` | 9 | Exported Function
+`LsaOfflineSyskeyRequest` | 19 | Exported Function
 
 
 ## Signature

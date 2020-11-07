@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\AtBroker.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/cdc2b0207769f3f73bbf068eff68661d145909b410f2c25fbfa5a38d4aad464c/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/cdc2b0207769f3f73bbf068eff68661d145909b410f2c25fbfa5a38d4aad464c/detection
 
 
 ## Possible Misuse

@@ -26,15 +26,15 @@ PE256 | `B695F29B83712759339774961866449C8E4A0658BE657A9B0047E57ECCCFF59B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TxfLogRecordGetGenericType` | 7 | Exported Function
-`TxfLogRecordGetFileName` | 6 | Exported Function
-`TxfSetThreadMiniVersionForCreate` | 9 | Exported Function
-`TxfReadMetadataInfo` | 8 | Exported Function
-`TxfLogReadRecords` | 5 | Exported Function
-`TxfLogCreateFileReadContext` | 2 | Exported Function
 `TxfGetThreadMiniVersionForCreate` | 1 | Exported Function
-`TxfLogDestroyReadContext` | 4 | Exported Function
+`TxfLogCreateFileReadContext` | 2 | Exported Function
 `TxfLogCreateRangeReadContext` | 3 | Exported Function
+`TxfLogDestroyReadContext` | 4 | Exported Function
+`TxfLogReadRecords` | 5 | Exported Function
+`TxfLogRecordGetFileName` | 6 | Exported Function
+`TxfLogRecordGetGenericType` | 7 | Exported Function
+`TxfReadMetadataInfo` | 8 | Exported Function
+`TxfSetThreadMiniVersionForCreate` | 9 | Exported Function
 
 
 ## Signature

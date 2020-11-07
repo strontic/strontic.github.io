@@ -26,15 +26,15 @@ PE256 | `8E30A47D23B3ED6388A00D85011047860AD7B28B312FBFAE6CE017A8698BEF73`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetICifFileFromFile` | 7 | Exported Function
-`DownloadFile` | 6 | Exported Function
-`PurgeDownloadDirectory` | 9 | Exported Function
-`GetICifRWFileFromFile` | 8 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`CheckTrust` | 2 | Exported Function
 `CheckForVersionConflict` | 1 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
+`CheckTrust` | 2 | Exported Function
 `CheckTrustEx` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DownloadFile` | 6 | Exported Function
+`GetICifFileFromFile` | 7 | Exported Function
+`GetICifRWFileFromFile` | 8 | Exported Function
+`PurgeDownloadDirectory` | 9 | Exported Function
 
 
 ## Signature

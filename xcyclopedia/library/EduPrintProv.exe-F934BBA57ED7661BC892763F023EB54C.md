@@ -28,7 +28,10 @@ PE256 | `F14198023366D149CC4836AFABF58439A5E58DBC6B750D340CD3CF24811074B2`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\deviceassociation.dll |
 C:\Windows\system32\EduPrintProv.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -37,6 +40,10 @@ C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\policymanager.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -61,8 +68,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/1d3595fc64e37533fbbfc26ea27e6f66420759bd9341321435a5872ecfc13d8c/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/1d3595fc64e37533fbbfc26ea27e6f66420759bd9341321435a5872ecfc13d8c/detection
 
 
 

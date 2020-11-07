@@ -26,28 +26,28 @@ PE256 | `0D02F3D4A3829936F1011AEF2B32D6ADA859AE4337294EEA1B03DF4A765E3B7B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 16 | Exported Function
-`DSoundHelp` | 7 | Exported Function
-`DllCanUnloadNow` | 15 | Exported Function
-`DirectDrawEnumerateExW` | 13 | Exported Function
-`DirectDrawEnumerateW` | 14 | Exported Function
+`AcquireDDThreadLock` | 1 | Exported Function
+`RegisterSpecialCase` | 20 | Exported Function
+`GetSurfaceFromDC` | 19 | Exported Function
+`GetOLEThunkData` | 18 | Exported Function
 `GetDDSurfaceLocal` | 17 | Exported Function
+`DSoundHelp` | 7 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DirectDrawEnumerateW` | 14 | Exported Function
+`DirectDrawEnumerateExW` | 13 | Exported Function
+`DirectDrawEnumerateExA` | 12 | Exported Function
+`DirectDrawEnumerateA` | 11 | Exported Function
+`DirectDrawCreateEx` | 10 | Exported Function
+`DirectDrawCreateClipper` | 9 | Exported Function
+`DirectDrawCreate` | 8 | Exported Function
+`DDInternalUnlock` | 6 | Exported Function
+`DDInternalLock` | 5 | Exported Function
+`DDGetAttachedSurfaceLcl` | 4 | Exported Function
+`D3DParseUnknownCommand` | 3 | Exported Function
+`CompleteCreateSysmemSurface` | 2 | Exported Function
 `ReleaseDDThreadLock` | 21 | Exported Function
 `SetAppCompatData` | 22 | Exported Function
-`RegisterSpecialCase` | 20 | Exported Function
-`GetOLEThunkData` | 18 | Exported Function
-`GetSurfaceFromDC` | 19 | Exported Function
-`DDGetAttachedSurfaceLcl` | 4 | Exported Function
-`DDInternalLock` | 5 | Exported Function
-`D3DParseUnknownCommand` | 3 | Exported Function
-`AcquireDDThreadLock` | 1 | Exported Function
-`CompleteCreateSysmemSurface` | 2 | Exported Function
-`DDInternalUnlock` | 6 | Exported Function
-`DirectDrawEnumerateA` | 11 | Exported Function
-`DirectDrawEnumerateExA` | 12 | Exported Function
-`DirectDrawCreateEx` | 10 | Exported Function
-`DirectDrawCreate` | 8 | Exported Function
-`DirectDrawCreateClipper` | 9 | Exported Function
 
 
 ## Signature

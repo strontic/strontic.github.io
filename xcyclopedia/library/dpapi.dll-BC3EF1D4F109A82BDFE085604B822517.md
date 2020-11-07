@@ -26,13 +26,13 @@ PE256 | `82A3BABCAF2F501E124AD47F43887FBF0DDF6334F0E082167EB3063C76ED4A36`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptUnprotectMemory` | 5 | Exported Function
-`CryptUpdateProtectedState` | 6 | Exported Function
-`iCryptIdentifyProtection` | 7 | Exported Function
-`CryptUnprotectDataNoUI` | 4 | Exported Function
 `CryptProtectDataNoUI` | 1 | Exported Function
 `CryptProtectMemory` | 2 | Exported Function
 `CryptResetMachineCredentials` | 3 | Exported Function
+`CryptUnprotectDataNoUI` | 4 | Exported Function
+`CryptUnprotectMemory` | 5 | Exported Function
+`CryptUpdateProtectedState` | 6 | Exported Function
+`iCryptIdentifyProtection` | 7 | Exported Function
 
 
 ## Signature

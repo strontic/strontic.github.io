@@ -26,12 +26,12 @@ PE256 | `87F3C970D8081BE2F9D2BF71DA0E2B23B57BB258D456FF554D16929FC167F88A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CollectTSObjectData` | 2 | Exported Function
-`OpenLagPerfData` | 4 | Exported Function
-`OpenTSObject` | 1 | Exported Function
 `CloseLagPerfData` | 6 | Exported Function
 `CloseTSObject` | 3 | Exported Function
 `CollectLagPerfData` | 5 | Exported Function
+`CollectTSObjectData` | 2 | Exported Function
+`OpenLagPerfData` | 4 | Exported Function
+`OpenTSObject` | 1 | Exported Function
 
 
 ## Signature

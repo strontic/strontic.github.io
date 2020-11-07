@@ -26,9 +26,9 @@ PE256 | `C85866C15BCDDBC47D00AE149955CAC961F6B3F350EC9BADE54FFEE390B8F653`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetHandleVerifier` | 3 | Exported Function
-`DualEngineReady` | 2 | Exported Function
 `DualEngineInit` | 1 | Exported Function
+`DualEngineReady` | 2 | Exported Function
+`GetHandleVerifier` | 3 | Exported Function
 
 
 ## Signature

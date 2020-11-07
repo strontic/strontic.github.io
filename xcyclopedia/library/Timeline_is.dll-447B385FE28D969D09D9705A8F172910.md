@@ -26,11 +26,11 @@ PE256 | `6D104258FEEDA7D318B3B4871465466FC2A6861ECA445713629CCD9003F1A1BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`InitTimelineInfoSources` | 5 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`InitTimelineInfoSources` | 5 | Exported Function
 
 
 ## Signature

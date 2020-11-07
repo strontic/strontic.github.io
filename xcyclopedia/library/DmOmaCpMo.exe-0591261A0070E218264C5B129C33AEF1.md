@@ -28,14 +28,28 @@ PE256 | `0A4D881B33A0E6266FC80D5D31D24DFC49E58886B5444A465432A9ACE3BB07AA`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\dmEnrollEngine.DLL |
 C:\Windows\system32\DmOmaCpMo.exe |
+C:\Windows\system32\DMProcessXMLFiltered.dll |
+C:\Windows\system32\dsclient.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\XmlLite.dll |
 
 
 ## Signature
@@ -59,8 +73,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/c9fda4b2b4851db71d73e568b5d10be577d525a2f2f68b83b2110862e3491b16/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/c9fda4b2b4851db71d73e568b5d10be577d525a2f2f68b83b2110862e3491b16/detection
 
 
 

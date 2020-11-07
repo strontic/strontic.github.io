@@ -26,9 +26,9 @@ PE256 | `5D04E5468C366F31503E47A9D84BBFC12CD6C33CB968E69DD6F4DEDB82CC8C20`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GameInputCreate` | 1 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GameInputCreate` | 1 | Exported Function
 
 
 ## Signature

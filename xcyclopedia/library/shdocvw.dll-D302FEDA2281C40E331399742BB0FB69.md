@@ -26,31 +26,31 @@ PE256 | `522AE6F8D502CB3B300B6566185481A379B0C68E1D9045D2A52BAF67BAF04A6F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenURL` | 154 | Exported Function
-`SafeOpenPromptForShellExec` | 228 | Exported Function
-`SetQueryNetSessionCount` | 156 | Exported Function
-`HlinkFrameNavigate` | 133 | Exported Function
-`HlinkFrameNavigateNHL` | 134 | Exported Function
-`ImportPrivacySettings` | 144 | Exported Function
-`SoftwareUpdateMessageBox` | 166 | Exported Function
-`URLQualifyA` | 168 | Exported Function
-`URLQualifyW` | 182 | Exported Function
-`SetShellOfflineState` | 157 | Exported Function
-`SHAddSubscribeFavorite` | 163 | Exported Function
-`SHGetIDispatchForFolder` | 155 | Exported Function
-`HlinkFindFrame` | 132 | Exported Function
-`DllGetVersion` | 109 | Exported Function
-`DllRegisterWindowClasses` | 112 | Exported Function
-`DoAddToFavDlg` | 113 | Exported Function
 `AddUrlToFavorites` | 106 | Exported Function
-`DllCanUnloadNow` | 107 | Exported Function
-`DllGetClassObject` | 108 | Exported Function
-`DoOrganizeFavDlg` | 127 | Exported Function
+`SoftwareUpdateMessageBox` | 166 | Exported Function
+`SHGetIDispatchForFolder` | 155 | Exported Function
+`SHAddSubscribeFavorite` | 163 | Exported Function
+`SetShellOfflineState` | 157 | Exported Function
+`SetQueryNetSessionCount` | 156 | Exported Function
+`SafeOpenPromptForShellExec` | 228 | Exported Function
+`OpenURL` | 154 | Exported Function
+`ImportPrivacySettings` | 144 | Exported Function
+`HlinkFrameNavigateNHL` | 134 | Exported Function
+`HlinkFrameNavigate` | 133 | Exported Function
+`URLQualifyA` | 168 | Exported Function
+`HlinkFindFrame` | 132 | Exported Function
 `DoOrganizeFavDlgW` | 128 | Exported Function
-`DoPrivacyDlg` | 129 | Exported Function
-`DoAddToFavDlgW` | 114 | Exported Function
-`DoFileDownload` | 124 | Exported Function
+`DoOrganizeFavDlg` | 127 | Exported Function
 `DoFileDownloadEx` | 126 | Exported Function
+`DoFileDownload` | 124 | Exported Function
+`DoAddToFavDlgW` | 114 | Exported Function
+`DoAddToFavDlg` | 113 | Exported Function
+`DllRegisterWindowClasses` | 112 | Exported Function
+`DllGetVersion` | 109 | Exported Function
+`DllGetClassObject` | 108 | Exported Function
+`DllCanUnloadNow` | 107 | Exported Function
+`DoPrivacyDlg` | 129 | Exported Function
+`URLQualifyW` | 182 | Exported Function
 
 
 ## Signature

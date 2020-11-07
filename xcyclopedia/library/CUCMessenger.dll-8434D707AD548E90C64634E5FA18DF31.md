@@ -26,13 +26,13 @@ PE256 | `1A802AEA916BC356AB1F95793AAF35BE1B8062AEE01806E8EEBC81330ECC1628`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 7 | Exported Function
-`void __cdecl StartCUCMessenger(unsigned int)` | 1 | Exported Function
-`std::shared_ptr` | 2 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllInstall` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`void __cdecl StartCUCMessenger(unsigned int)` | 1 | Exported Function
+`std::shared_ptr` | 2 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `A706F1CCBAFD08B869B331763E5240B802EC9850A14281DF4244D2BD73C26224`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitHelperDll` | 2 | Exported Function
 `GetResourceString` | 1 | Exported Function
+`InitHelperDll` | 2 | Exported Function
 
 
 ## Signature

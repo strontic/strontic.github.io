@@ -26,10 +26,10 @@ PE256 | `1A28DC4B63D93D03CC5D5BFF180AF7D091BD3A18A90758AD5AA17F79258DBA9A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HMKDGetHmacStatus` | 3 | Exported Function
-`HMKDImportHmacKey` | 4 | Exported Function
 `HMKDCreateHmacKey` | 1 | Exported Function
 `HMKDDeriveKey` | 2 | Exported Function
+`HMKDGetHmacStatus` | 3 | Exported Function
+`HMKDImportHmacKey` | 4 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `8C1D19A281E35C3702E0385C512EBF06995C9BDF21F01611B40B58C0BC9E7C57`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OnUserProfileChanged` | 1 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`OnUserProfileChanged` | 1 | Exported Function
 
 
 ## Signature

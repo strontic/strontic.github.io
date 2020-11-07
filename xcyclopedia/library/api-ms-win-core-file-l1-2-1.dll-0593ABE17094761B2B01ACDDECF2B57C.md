@@ -26,9 +26,9 @@ PE256 | `6195F0383516AA732AA2323D275ECE7BD817AC80A94A3141E1303A34A5896D9F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetFileIoOverlappedRange` | 3 | Exported Function
-`GetCompressedFileSizeW` | 2 | Exported Function
 `GetCompressedFileSizeA` | 1 | Exported Function
+`GetCompressedFileSizeW` | 2 | Exported Function
+`SetFileIoOverlappedRange` | 3 | Exported Function
 
 
 ## Signature

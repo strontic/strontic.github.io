@@ -28,12 +28,17 @@ PE256 | `2B265EE08FE1F5B0CD1F931253996E16A0DFB913D47E7E6D2B99D93C92B573A3`
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
 C:\Windows\system32\SyncAppvPublishingServer.exe |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
@@ -61,8 +66,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/c92228717e28c25e9f8b295be7849cfcafed9d76c945bdfb993e683f60ac3586/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/c92228717e28c25e9f8b295be7849cfcafed9d76c945bdfb993e683f60ac3586/detection
 
 ## File Similarity (ssdeep match)
 

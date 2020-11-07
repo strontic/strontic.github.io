@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\verclsid.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/5f6fd0bc72eb2e71918241213e97dcd8fd0de2887a36be58b769e8c5a4ff8598/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/5f6fd0bc72eb2e71918241213e97dcd8fd0de2887a36be58b769e8c5a4ff8598/detection
 
 
 ## Possible Misuse

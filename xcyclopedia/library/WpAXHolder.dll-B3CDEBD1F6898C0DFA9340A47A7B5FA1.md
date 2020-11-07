@@ -26,9 +26,9 @@ PE256 | `69C2E1C1F66D40DC1E3C8BF56B236194B0D39841B407456A93B1889369A5A6E2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RunAsAXHolder` | 3 | Exported Function
-`GetFlashShimHandler` | 2 | Exported Function
 `CallBlockTabForDialogUntilActive` | 1 | Exported Function
+`GetFlashShimHandler` | 2 | Exported Function
+`RunAsAXHolder` | 3 | Exported Function
 
 
 ## Signature

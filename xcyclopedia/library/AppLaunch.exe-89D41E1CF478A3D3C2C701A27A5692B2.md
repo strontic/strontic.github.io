@@ -78,8 +78,8 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/62
-* VirusTotal Link: https://www.virustotal.com/gui/file/dc5ac8d4d6d5b230ab73415c80439b4da77da1cfde18214ef601897f661abdac/detection/
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/dc5ac8d4d6d5b230ab73415c80439b4da77da1cfde18214ef601897f661abdac/detection
 
 
 

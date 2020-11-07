@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\TokenBrokerCookies.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/bb59915d9d1a310e3b2f8f2db2fd0ec0fb5f00e994113a5d427a831db5988b8c/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\TokenBrokerCookies.exe](TokenBrokerCookies.exe-D6FB32B2C3949855F34FEA4859578340.md) | 96
 
 
 

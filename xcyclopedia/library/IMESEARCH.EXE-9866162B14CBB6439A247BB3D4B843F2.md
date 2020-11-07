@@ -39,14 +39,17 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\netmsg.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\msxml6r.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -81,8 +84,8 @@ C:\Windows\SysWOW64\IME\SHARED\IMESEARCH.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/ab50b25ac9495255682bbeea7204960c823fda570dc8ecdf8856b3a22e9190f6/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/ab50b25ac9495255682bbeea7204960c823fda570dc8ecdf8856b3a22e9190f6/detection
 
 
 

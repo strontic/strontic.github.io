@@ -26,10 +26,10 @@ PE256 | `12DFB9A26F5748C34564DA18CD4D7674E8D4825C50B40B746999F014548A613F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Initialize` | 1 | Exported Function
-`InitializeISV` | 2 | Exported Function
 `Deinitialize` | 3 | Exported Function
 `GetComponent` | 4 | Exported Function
+`Initialize` | 1 | Exported Function
+`InitializeISV` | 2 | Exported Function
 
 
 ## Signature

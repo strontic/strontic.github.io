@@ -26,16 +26,16 @@ PE256 | `CCC1BB81B247EC0C1B0AC0803F665BE8A71ED7C5905C52F55E8F519C38703126`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UsbCApi_IsEqualChangeStamps` | 7 | Exported Function
-`UsbCApi_GetProviders` | 6 | Exported Function
-`UsbCApi_RegisterConsumer` | 8 | Exported Function
-`UsbCApi_SetConnectorPowerRole` | 10 | Exported Function
-`UsbCApi_SetConnectorDataRole` | 9 | Exported Function
-`UsbCApi_FreeProviders` | 2 | Exported Function
 `UsbCApi_DeregisterConsumer` | 1 | Exported Function
+`UsbCApi_FreeProviders` | 2 | Exported Function
 `UsbCApi_GetConnectorProperties` | 3 | Exported Function
-`UsbCApi_GetProviderInformation` | 5 | Exported Function
 `UsbCApi_GetConnectorState` | 4 | Exported Function
+`UsbCApi_GetProviderInformation` | 5 | Exported Function
+`UsbCApi_GetProviders` | 6 | Exported Function
+`UsbCApi_IsEqualChangeStamps` | 7 | Exported Function
+`UsbCApi_RegisterConsumer` | 8 | Exported Function
+`UsbCApi_SetConnectorDataRole` | 9 | Exported Function
+`UsbCApi_SetConnectorPowerRole` | 10 | Exported Function
 
 
 ## Signature

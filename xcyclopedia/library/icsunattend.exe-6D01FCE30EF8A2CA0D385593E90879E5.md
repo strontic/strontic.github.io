@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\icsunattend.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/732b8722b6c44dfb9db2e28c22638150dd64540bc4480ddf585e6e5890dcf72a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/732b8722b6c44dfb9db2e28c22638150dd64540bc4480ddf585e6e5890dcf72a/detection
 
 
 

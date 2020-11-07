@@ -80,8 +80,8 @@ C:\Windows\SysWOW64\IME\IMEJP\imjpuexc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/5b5afef9cec9b575ed8ca192f579ab5f8982de276118d243daa73498df4b4fec/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/5b5afef9cec9b575ed8ca192f579ab5f8982de276118d243daa73498df4b4fec/detection
 
 
 

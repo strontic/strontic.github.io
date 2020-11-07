@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\instnm.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/87cb70386dad7504aebdb37b0e34a0d4e3eb4a946fa4367c3555954f0f65560d/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/87cb70386dad7504aebdb37b0e34a0d4e3eb4a946fa4367c3555954f0f65560d/detection
 
 ## File Similarity (ssdeep match)
 

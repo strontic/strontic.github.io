@@ -26,34 +26,34 @@ PE256 | `0638E428380909440F7EA66AF49E6B1EA58F32914DAB5CFCFFAE8D76682F4D5F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsStringSupported` | 19 | Exported Function
-`Process` | 20 | Exported Function
-`ResetContext` | 21 | Exported Function
-`GetUnicodeRanges` | 18 | Exported Function
-`GetPreferredPacketDescription` | 15 | Exported Function
-`GetRecoAttributes` | 16 | Exported Function
-`GetResultPropertyList` | 17 | Exported Function
+`AddStroke` | 1 | Exported Function
 `SetFlags` | 26 | Exported Function
+`SetFactoid` | 25 | Exported Function
+`SetEnabledUnicodeRanges` | 24 | Exported Function
+`SetContextPropertyValue` | 23 | Exported Function
+`SetCACMode` | 22 | Exported Function
+`ResetContext` | 21 | Exported Function
+`Process` | 20 | Exported Function
+`IsStringSupported` | 19 | Exported Function
+`GetUnicodeRanges` | 18 | Exported Function
+`GetResultPropertyList` | 17 | Exported Function
+`GetRecoAttributes` | 16 | Exported Function
+`GetPreferredPacketDescription` | 15 | Exported Function
+`GetLatticePtr` | 14 | Exported Function
+`GetGuide` | 13 | Exported Function
+`GetEnabledUnicodeRanges` | 12 | Exported Function
+`GetContextPropertyValue` | 11 | Exported Function
+`GetContextPropertyList` | 10 | Exported Function
+`GetBestResultString` | 9 | Exported Function
+`EndInkInput` | 8 | Exported Function
+`DestroyRecognizer` | 7 | Exported Function
+`DestroyContext` | 6 | Exported Function
+`CreateRecognizer` | 5 | Exported Function
+`CreateContext` | 4 | Exported Function
+`CloneContext` | 3 | Exported Function
+`AdviseInkChange` | 2 | Exported Function
 `SetGuide` | 27 | Exported Function
 `SetTextContext` | 28 | Exported Function
-`SetFactoid` | 25 | Exported Function
-`SetCACMode` | 22 | Exported Function
-`SetContextPropertyValue` | 23 | Exported Function
-`SetEnabledUnicodeRanges` | 24 | Exported Function
-`CreateRecognizer` | 5 | Exported Function
-`DestroyContext` | 6 | Exported Function
-`DestroyRecognizer` | 7 | Exported Function
-`CreateContext` | 4 | Exported Function
-`AddStroke` | 1 | Exported Function
-`AdviseInkChange` | 2 | Exported Function
-`CloneContext` | 3 | Exported Function
-`GetEnabledUnicodeRanges` | 12 | Exported Function
-`GetGuide` | 13 | Exported Function
-`GetLatticePtr` | 14 | Exported Function
-`GetContextPropertyValue` | 11 | Exported Function
-`EndInkInput` | 8 | Exported Function
-`GetBestResultString` | 9 | Exported Function
-`GetContextPropertyList` | 10 | Exported Function
 
 
 ## Signature

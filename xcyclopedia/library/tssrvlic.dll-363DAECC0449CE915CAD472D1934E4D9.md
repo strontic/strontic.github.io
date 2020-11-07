@@ -26,9 +26,9 @@ PE256 | `7CFD9AC92DEBA01E469F777260468A7D5507D017759C78071CDA62373BBC959D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SrvLicInitialize` | 3 | Exported Function
-`Shutdown` | 2 | Exported Function
 `LoadPolicy` | 1 | Exported Function
+`Shutdown` | 2 | Exported Function
+`SrvLicInitialize` | 3 | Exported Function
 
 
 ## Signature

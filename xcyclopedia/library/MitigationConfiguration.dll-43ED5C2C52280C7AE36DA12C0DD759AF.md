@@ -26,14 +26,14 @@ PE256 | `6E5758BDB819F9D4E420E84A6BDB1C2D140A1C51C45A793BBE13585C77683100`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ImportMitigation` | 6 | Exported Function
-`ExportMitigation` | 5 | Exported Function
-`ValidateXMLFromManaged` | 8 | Exported Function
-`ValidateXML` | 7 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`ExportMitigation` | 5 | Exported Function
+`ImportMitigation` | 6 | Exported Function
+`ValidateXML` | 7 | Exported Function
+`ValidateXMLFromManaged` | 8 | Exported Function
 
 
 ## Signature

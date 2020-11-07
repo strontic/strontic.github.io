@@ -26,9 +26,9 @@ PE256 | `A188A73530E53C13A3516FD3D63459B55AAA837C0D4CB1DB32121ED0E89D0962`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllInstall` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllInstall` | 3 | Exported Function
 
 
 ## Signature

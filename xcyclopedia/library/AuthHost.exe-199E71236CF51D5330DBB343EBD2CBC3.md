@@ -29,6 +29,7 @@ PE256 | `CBDAF126B4036A61F22EE6A05B05F001E22B3E15971D48AA0926514CD3C3284E`
 Path |
 -- |
 C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -36,6 +37,7 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
 
 
 ## Signature
@@ -59,8 +61,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/7b24c56bd854742a55ccb2210846b71a48ee821b1dfa1ef70918b63da0005a1a/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/7b24c56bd854742a55ccb2210846b71a48ee821b1dfa1ef70918b63da0005a1a/detection
 
 
 

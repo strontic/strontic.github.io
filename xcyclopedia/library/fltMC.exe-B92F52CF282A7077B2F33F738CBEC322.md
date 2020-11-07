@@ -77,6 +77,11 @@ C:\Windows\SysWOW64\fltMC.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/ed93a19342f39822378f3dec9cd3f6bf48ef44b1a26fbea41d6932a79ce4002e/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\fltMC.exe](fltMC.exe-330E111C418797FC2E56F3F7E5FAAB9A.md) | 93
 
 ## Possible Misuse
 

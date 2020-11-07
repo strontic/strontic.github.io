@@ -33,6 +33,7 @@ C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTBASE.DLL |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -47,6 +48,7 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
 
 
 ## Signature
@@ -70,8 +72,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/27287ac874cef86be03aee7b6d34fdc3bd208070ed20e44621a305865fb7579e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/27287ac874cef86be03aee7b6d34fdc3bd208070ed20e44621a305865fb7579e/detection
 
 
 

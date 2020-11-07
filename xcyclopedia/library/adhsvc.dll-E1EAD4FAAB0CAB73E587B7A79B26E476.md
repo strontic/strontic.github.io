@@ -26,9 +26,9 @@ PE256 | `BC0DA353516A5EAE10AB0A3D023C911E865125ABE9B321D3BE11610EE461AD9E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SubServiceStop` | 3 | Exported Function
-`SubServiceStart` | 2 | Exported Function
 `SubServiceScmNotification` | 1 | Exported Function
+`SubServiceStart` | 2 | Exported Function
+`SubServiceStop` | 3 | Exported Function
 
 
 ## Signature

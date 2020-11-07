@@ -26,21 +26,21 @@ PE256 | `ED2D20B7384079023E2265C7C497EE19F0CC9EDA1D59D3ABDA87D6406CC60566`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TaskUpdateWorkspacesIfNeeded` | 8 | Exported Function
-`TaskUpdateWorkspaces2` | 6 | Exported Function
-`TaskUpdateWorkspaces` | 7 | Exported Function
-`TryParseClaimsAuthnHeader` | 4 | Exported Function
-`WorkspaceStatusNotify2` | 10 | Exported Function
-`WorkspaceStatusNotify` | 11 | Exported Function
-`WorkspaceSilentSetupW` | 9 | Exported Function
-`RADCUISupportCreateSubscriptionClient` | 1 | Exported Function
-`DllGetClassObject` | 13 | Exported Function
-`DllCanUnloadNow` | 12 | Exported Function
 `CreateClaimsAuthResponseHeader` | 3 | Exported Function
+`DllCanUnloadNow` | 12 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
 `DllRegisterServer` | 14 | Exported Function
-`RADCUISupportCreateDiscoveryStrategy` | 2 | Exported Function
-`RADCProcessGroupPolicyEx` | 5 | Exported Function
 `DllUnregisterServer` | 15 | Exported Function
+`RADCProcessGroupPolicyEx` | 5 | Exported Function
+`RADCUISupportCreateDiscoveryStrategy` | 2 | Exported Function
+`RADCUISupportCreateSubscriptionClient` | 1 | Exported Function
+`TaskUpdateWorkspaces` | 7 | Exported Function
+`TaskUpdateWorkspaces2` | 6 | Exported Function
+`TaskUpdateWorkspacesIfNeeded` | 8 | Exported Function
+`TryParseClaimsAuthnHeader` | 4 | Exported Function
+`WorkspaceSilentSetupW` | 9 | Exported Function
+`WorkspaceStatusNotify` | 11 | Exported Function
+`WorkspaceStatusNotify2` | 10 | Exported Function
 
 
 ## Signature

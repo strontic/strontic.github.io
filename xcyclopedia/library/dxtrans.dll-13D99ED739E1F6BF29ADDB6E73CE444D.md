@@ -26,17 +26,17 @@ PE256 | `0AFC42EA4B763CC258D60139B9DDB0825998400782BE8E87CF73287E39C39775`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`void __cdecl DXDitherArray(struct DXDITHERDESC const * __ptr64)` | 3 | Exported Function
-`void __cdecl DXConstUnderArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 2 | Exported Function
-`void __cdecl DXLinearInterpolateArray(class DXBASESAMPLE const * __ptr64,struct DXLIMAPINFO * __ptr64,class DXBASESAMPLE * __ptr64,unsigned long)` | 4 | Exported Function
-`void __cdecl DXOverArrayMMX(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 6 | Exported Function
-`void __cdecl DXOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 5 | Exported Function
-`void __cdecl DXConstOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 1 | Exported Function
-`DllEnumClassObjects` | 8 | Exported Function
 `DllCanUnloadNow` | 7 | Exported Function
+`DllEnumClassObjects` | 8 | Exported Function
 `DllGetClassObject` | 9 | Exported Function
-`DllUnregisterServer` | 11 | Exported Function
 `DllRegisterServer` | 10 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`void __cdecl DXConstOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 1 | Exported Function
+`void __cdecl DXConstUnderArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 2 | Exported Function
+`void __cdecl DXDitherArray(struct DXDITHERDESC const * __ptr64)` | 3 | Exported Function
+`void __cdecl DXLinearInterpolateArray(class DXBASESAMPLE const * __ptr64,struct DXLIMAPINFO * __ptr64,class DXBASESAMPLE * __ptr64,unsigned long)` | 4 | Exported Function
+`void __cdecl DXOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 5 | Exported Function
+`void __cdecl DXOverArrayMMX(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 6 | Exported Function
 
 
 ## Signature

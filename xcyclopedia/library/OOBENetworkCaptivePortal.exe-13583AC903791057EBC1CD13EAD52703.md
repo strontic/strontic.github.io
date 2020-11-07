@@ -27,27 +27,24 @@ PE256 | `421365AA826AC6D95E33165BB99B2F2A50DA30644C9DFF98671A2B2F859FCD47`
 ### Child Processes:
 OOBENetworkCaptivePortal.exe WerFault.exe
 
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\xCyclopedia | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\IPHLPAPI.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\nlaapi.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy\OOBENetworkCaptivePortal.exe |
 
 
@@ -72,8 +69,8 @@ C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy\O
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/d450e23f4813e5e059377cd7cbb4bd459930266980480bc161f8720e1330742c/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d450e23f4813e5e059377cd7cbb4bd459930266980480bc161f8720e1330742c/detection
 
 
 

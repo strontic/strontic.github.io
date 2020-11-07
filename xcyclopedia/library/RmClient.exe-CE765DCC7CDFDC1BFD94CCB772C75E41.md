@@ -65,8 +65,8 @@ C:\Windows\SysWOW64\RmClient.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/b115961ea25ec6960c7ba788f5c206b1e604748fb26c5eb443fbca02497ab743/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/b115961ea25ec6960c7ba788f5c206b1e604748fb26c5eb443fbca02497ab743/detection
 
 
 

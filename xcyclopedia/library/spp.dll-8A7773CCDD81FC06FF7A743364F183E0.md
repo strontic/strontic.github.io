@@ -26,19 +26,19 @@ PE256 | `D2C824EB97256994F99D842D7F019942ED013AC0E8392AE3BEA0B124EFF4AD09`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SxTracerDebuggerBreak` | 10 | Exported Function
-`SppFreeMetadataProp` | 9 | Exported Function
-`SppFreeGroupPropArray` | 8 | Exported Function
-`SxTracerShouldTrackFailure` | 13 | Exported Function
-`SxTracerGetThreadContextRetail` | 12 | Exported Function
-`SxTracerGetThreadContextDebug` | 11 | Exported Function
-`SppFreeExternalGroupPropArray` | 7 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`SppFreeClientPropArray` | 6 | Exported Function
-`SppFreeBadWritersArray` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
+`SppFreeBadWritersArray` | 5 | Exported Function
+`SppFreeClientPropArray` | 6 | Exported Function
+`SppFreeExternalGroupPropArray` | 7 | Exported Function
+`SppFreeGroupPropArray` | 8 | Exported Function
+`SppFreeMetadataProp` | 9 | Exported Function
+`SxTracerDebuggerBreak` | 10 | Exported Function
+`SxTracerGetThreadContextDebug` | 11 | Exported Function
+`SxTracerGetThreadContextRetail` | 12 | Exported Function
+`SxTracerShouldTrackFailure` | 13 | Exported Function
 
 
 ## Signature

@@ -28,10 +28,31 @@ PE256 | `0196F87BAD7B869ABE34DF4045CF523EAE10D17B83B934C0F8D4A08F4E6F04E5`
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\system32\OLEACC.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\PlaySndSrv.DLL |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\system32\sethc.exe |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WTSAPI32.dll |
 
 
 ## Signature
@@ -55,8 +76,8 @@ C:\Windows\system32\sethc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/615b2f2d7e3fce340839a9b54bdc3445eb2333d0fafee477d6113379e90935b8/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/615b2f2d7e3fce340839a9b54bdc3445eb2333d0fafee477d6113379e90935b8/detection
 
 
 ## Possible Misuse

@@ -28,19 +28,30 @@ PE256 | `92E371D1EBF466F641C6CC4B220A4438AB6E82499638B2A61172306403764573`
 
 Path |
 -- |
+C:\Windows\system32\ATL.DLL |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\OSUNINST.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\vds.exe |
+C:\Windows\system32\vdsutil.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -64,8 +75,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/8a0aa93f17fee2c816d57adb6b6be38d195d87a3cdcfbddb78e0af0d5452bc5e/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/8a0aa93f17fee2c816d57adb6b6be38d195d87a3cdcfbddb78e0af0d5452bc5e/detection
 
 
 ## Possible Misuse

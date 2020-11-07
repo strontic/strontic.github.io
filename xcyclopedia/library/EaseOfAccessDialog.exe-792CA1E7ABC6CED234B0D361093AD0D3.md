@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\EaseOfAccessDialog.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/80cbca69617773334a9dc9a082a4fb3979e2d588bcb221f020a391d793e366c5/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/80cbca69617773334a9dc9a082a4fb3979e2d588bcb221f020a391d793e366c5/detection
 
 ## File Similarity (ssdeep match)
 

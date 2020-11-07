@@ -63,6 +63,7 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\sxstrace.exe](sxstrace.exe-AC788961CF9E2CB97D0089A21EB5173E.md) | 96
 [C:\Windows\SysWOW64\sxstrace.exe](sxstrace.exe-F509469ED866462CC44D79E9C7A6543D.md) | 96
 
 

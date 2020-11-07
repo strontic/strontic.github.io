@@ -26,11 +26,11 @@ PE256 | `F3C32E722CB234AC55D1BE4C4DE5269F2D08DDA72137C256D57381D89981B3EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NmaDirect_OverrideUserLocation` | 4 | Exported Function
-`NmaDirect_StartGuidanceWithSimulatedRoute` | 5 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`NmaDirect_OverrideUserLocation` | 4 | Exported Function
+`NmaDirect_StartGuidanceWithSimulatedRoute` | 5 | Exported Function
 
 
 ## Signature

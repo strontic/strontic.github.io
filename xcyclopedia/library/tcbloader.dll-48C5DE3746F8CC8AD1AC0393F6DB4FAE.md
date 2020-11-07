@@ -26,14 +26,14 @@ PE256 | `2FFAA0B30336DB15A1134841DCFDB9D2CE83C35FE7591F413048435F03EF8BFA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OslIsRunningInSecureKernel` | 6 | Exported Function
-`OslGetValue` | 5 | Exported Function
-`TcbResumeEntry` | 8 | Exported Function
-`TcbLoadEntry` | 7 | Exported Function
-`OslGetControlSubkeyCell` | 2 | Exported Function
 `OslGenRandomBytes` | 1 | Exported Function
-`OslGetStringValue` | 4 | Exported Function
+`OslGetControlSubkeyCell` | 2 | Exported Function
 `OslGetExportRoutineInModule` | 3 | Exported Function
+`OslGetStringValue` | 4 | Exported Function
+`OslGetValue` | 5 | Exported Function
+`OslIsRunningInSecureKernel` | 6 | Exported Function
+`TcbLoadEntry` | 7 | Exported Function
+`TcbResumeEntry` | 8 | Exported Function
 
 
 ## Signature

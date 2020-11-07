@@ -26,9 +26,9 @@ PE256 | `40C344A118968D4B58E7CB3E36F1F215B923BC8F9E0E562D5635612A12C5C6F2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StartFDR` | 3 | Exported Function
-`StartAppRecorder` | 2 | Exported Function
 `QueryOriginalBucket` | 1 | Exported Function
+`StartAppRecorder` | 2 | Exported Function
+`StartFDR` | 3 | Exported Function
 
 
 ## Signature

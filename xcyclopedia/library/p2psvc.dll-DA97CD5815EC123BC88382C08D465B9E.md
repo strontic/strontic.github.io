@@ -26,9 +26,9 @@ PE256 | `B5429F4960AC8A13EB6C830E444B4D864AAA06382A3DFE8A2CB726C9D4F896BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 2 | Exported Function
-`InitSecurityInterfaceW` | 3 | Exported Function
 `GroupServiceMain` | 1 | Exported Function
+`InitSecurityInterfaceW` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
 
 
 ## Signature

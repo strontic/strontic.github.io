@@ -25,13 +25,13 @@ PE256 | `37033AF8E64A5E09E83B0B488FF0AC237DFB313E625697DF0A98A00DCBF74238`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UsbPm_RetrieveConnectorState` | 5 | Exported Function
-`UsbPm_RetrieveHubConnectorHandles` | 6 | Exported Function
-`UsbPm_RetrieveHubProperties` | 7 | Exported Function
-`UsbPm_RetrieveConnectorProperties` | 4 | Exported Function
 `UsbPm_AssignConnectorPowerLevel` | 1 | Exported Function
 `UsbPm_Deregister` | 2 | Exported Function
 `UsbPm_Register` | 3 | Exported Function
+`UsbPm_RetrieveConnectorProperties` | 4 | Exported Function
+`UsbPm_RetrieveConnectorState` | 5 | Exported Function
+`UsbPm_RetrieveHubConnectorHandles` | 6 | Exported Function
+`UsbPm_RetrieveHubProperties` | 7 | Exported Function
 
 
 ## Signature

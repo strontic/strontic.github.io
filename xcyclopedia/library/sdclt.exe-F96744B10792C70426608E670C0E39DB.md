@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\system32\sdclt.exe](sdclt.exe-1A6DC77B647238046A1F466B72CC271B.md) | 46
 [C:\Windows\system32\sdclt.exe](sdclt.exe-4685EDEA02ED044779578CE2AB9505FF.md) | 46
+[C:\Windows\system32\sdclt.exe](sdclt.exe-B0C397303D58CCC9E27BF71073E46F49.md) | 52
 
 ## Possible Misuse
 

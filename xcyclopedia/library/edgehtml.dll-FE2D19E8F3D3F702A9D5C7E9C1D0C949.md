@@ -26,36 +26,36 @@ PE256 | `DF2126759D36726C4DAC2A749796DF780FBCD1F38F82AAE090A42834F1C23AB4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShowModelessHTMLDialog` | 126 | Exported Function
-`Streams_CreateByteChunk` | 127 | Exported Function
-`Streams_CreateDefaultSizedByteChunk` | 135 | Exported Function
-`ShowModalDialog` | 125 | Exported Function
-`PrintHTML` | 122 | Exported Function
-`ShowHTMLDialog` | 123 | Exported Function
-`ShowHTMLDialogEx` | 124 | Exported Function
-`Streams_CreateDefaultSizedWideCharChunk` | 136 | Exported Function
+`CIGTestHookLoadLibraryWorkerThread` | 107 | Exported Function
 `Streams_CreateWritableStream` | 145 | Exported Function
+`Streams_CreateWideCharChunk` | 144 | Exported Function
+`Streams_CreateReadableStreamFromFilePath` | 143 | Exported Function
+`Streams_CreateReadableStreamFromFileHandle` | 142 | Exported Function
+`Streams_CreateReadableStream` | 137 | Exported Function
+`Streams_CreateDefaultSizedWideCharChunk` | 136 | Exported Function
+`Streams_CreateDefaultSizedByteChunk` | 135 | Exported Function
+`Streams_CreateByteChunk` | 127 | Exported Function
+`ShowModelessHTMLDialog` | 126 | Exported Function
+`ShowModalDialog` | 125 | Exported Function
+`ShowHTMLDialogEx` | 124 | Exported Function
+`ShowHTMLDialog` | 123 | Exported Function
+`PrintHTML` | 122 | Exported Function
+`MatchExactGetIDsOfNames` | 121 | Exported Function
+`InitializeLocalHtmlEngine` | 120 | Exported Function
+`GetWebPlatformObject` | 119 | Exported Function
+`GetColorValueFromString` | 118 | Exported Function
+`Fetch_CreateOriginAgnosticFetch` | 117 | Exported Function
+`DllGetClassObject` | 116 | Exported Function
+`DllEnumClassObjects` | 115 | Exported Function
+`DllCanUnloadNow` | 114 | Exported Function
+`CreateHTMLPropertyPage` | 113 | Exported Function
+`CreateDiagnosticsToolObject` | 112 | Exported Function
+`CreateCoreWebView` | 111 | Exported Function
+`ConvertAndEscapePostData` | 110 | Exported Function
+`ClearTemporaryWebDataAsync` | 109 | Exported Function
+`ClearPhishingFilterData` | 108 | Exported Function
 `TravelLogCreateInstance` | 146 | Exported Function
 `UninitializeLocalHtmlEngine` | 147 | Exported Function
-`Streams_CreateWideCharChunk` | 144 | Exported Function
-`Streams_CreateReadableStream` | 137 | Exported Function
-`Streams_CreateReadableStreamFromFileHandle` | 142 | Exported Function
-`Streams_CreateReadableStreamFromFilePath` | 143 | Exported Function
-`CreateCoreWebView` | 111 | Exported Function
-`CreateDiagnosticsToolObject` | 112 | Exported Function
-`CreateHTMLPropertyPage` | 113 | Exported Function
-`ConvertAndEscapePostData` | 110 | Exported Function
-`CIGTestHookLoadLibraryWorkerThread` | 107 | Exported Function
-`ClearPhishingFilterData` | 108 | Exported Function
-`ClearTemporaryWebDataAsync` | 109 | Exported Function
-`DllCanUnloadNow` | 114 | Exported Function
-`GetWebPlatformObject` | 119 | Exported Function
-`InitializeLocalHtmlEngine` | 120 | Exported Function
-`MatchExactGetIDsOfNames` | 121 | Exported Function
-`GetColorValueFromString` | 118 | Exported Function
-`DllEnumClassObjects` | 115 | Exported Function
-`DllGetClassObject` | 116 | Exported Function
-`Fetch_CreateOriginAgnosticFetch` | 117 | Exported Function
 
 
 ## Signature

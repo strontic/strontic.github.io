@@ -26,10 +26,10 @@ PE256 | `915A7E51954BEC486BD6767880A7AB0614BDB8850CFEBFE124453B225E3D3E4F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MTSCreateActivity` | 3 | Exported Function
-`SafeRef` | 4 | Exported Function
 `DllGetClassObject` | 1 | Exported Function
 `GetObjectContext` | 2 | Exported Function
+`MTSCreateActivity` | 3 | Exported Function
+`SafeRef` | 4 | Exported Function
 
 
 ## Signature

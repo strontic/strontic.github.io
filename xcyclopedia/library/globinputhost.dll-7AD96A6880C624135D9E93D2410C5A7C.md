@@ -26,21 +26,21 @@ PE256 | `EC8AB9D9F4A40AA5103867C2B232FD55F5E794F9FD5D92CF13E590E9F7908D66`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WGIIsTouchEnabledInputMethod` | 11 | Exported Function
-`WGIIsImmersiveInputMethod` | 10 | Exported Function
-`WGIIsImeScript` | 9 | Exported Function
-`WGISetCurrentInputLanguage` | 12 | Exported Function
-`WGIUpdateGlobalSpellerKey` | 15 | Exported Function
-`WGITransformInputMethodsForLanguageId` | 14 | Exported Function
-`WGITransformInputMethodsForLanguage` | 13 | Exported Function
-`WGIIsImeInputMethod` | 8 | Exported Function
-`WGIGetCurrentInputLanguage` | 3 | Exported Function
-`WGIGetCompatibleInputMethodsForLanguageKeyboardAndImeMixed` | 2 | Exported Function
 `WGIGetCompatibleInputMethodsForLanguage` | 1 | Exported Function
+`WGIGetCompatibleInputMethodsForLanguageKeyboardAndImeMixed` | 2 | Exported Function
+`WGIGetCurrentInputLanguage` | 3 | Exported Function
 `WGIGetDefaultInputMethodForLanguage` | 4 | Exported Function
-`WGIGetInputMethodTileName` | 7 | Exported Function
-`WGIGetInputMethodProperties` | 6 | Exported Function
 `WGIGetInputMethodDescription` | 5 | Exported Function
+`WGIGetInputMethodProperties` | 6 | Exported Function
+`WGIGetInputMethodTileName` | 7 | Exported Function
+`WGIIsImeInputMethod` | 8 | Exported Function
+`WGIIsImeScript` | 9 | Exported Function
+`WGIIsImmersiveInputMethod` | 10 | Exported Function
+`WGIIsTouchEnabledInputMethod` | 11 | Exported Function
+`WGISetCurrentInputLanguage` | 12 | Exported Function
+`WGITransformInputMethodsForLanguage` | 13 | Exported Function
+`WGITransformInputMethodsForLanguageId` | 14 | Exported Function
+`WGIUpdateGlobalSpellerKey` | 15 | Exported Function
 
 
 ## Signature

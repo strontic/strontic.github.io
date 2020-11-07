@@ -26,12 +26,12 @@ PE256 | `28BCA6A077A1EC03AA41523C84AC3EAA8645BCA018F51D70EEFD5FB48230BC2F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LookupPrivilegeNameW` | 4 | Exported Function
-`LookupPrivilegeValueW` | 5 | Exported Function
-`LsaEnumerateTrustedDomains` | 6 | Exported Function
 `LookupAccountNameW` | 1 | Exported Function
 `LookupAccountSidW` | 2 | Exported Function
 `LookupPrivilegeDisplayNameW` | 3 | Exported Function
+`LookupPrivilegeNameW` | 4 | Exported Function
+`LookupPrivilegeValueW` | 5 | Exported Function
+`LsaEnumerateTrustedDomains` | 6 | Exported Function
 
 
 ## Signature

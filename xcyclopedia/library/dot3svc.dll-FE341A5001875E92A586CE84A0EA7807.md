@@ -26,10 +26,10 @@ PE256 | `28FE92E836410E63E9FF0B65B8863264643317820CA1E0DEAFA31E49387CD413`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LanNotifyOnLogon` | 3 | Exported Function
-`SvchostPushServiceGlobals` | 4 | Exported Function
 `Dot3SvcMain` | 1 | Exported Function
 `LanNotifyOnLogoff` | 2 | Exported Function
+`LanNotifyOnLogon` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
 
 
 ## Signature

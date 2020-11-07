@@ -26,14 +26,14 @@ PE256 | `50B56C9EE2E24B8CC504C2C1517EDE902F7826617CD3C5A2DB353A39E21BFE24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CvSetData` | 6 | Exported Function
-`CvInitialize` | 5 | Exported Function
-`CvUninitialize` | 8 | Exported Function
-`CvSetDataSourceName` | 7 | Exported Function
-`CvCreateDataSource` | 2 | Exported Function
 `CvCloseDataSource` | 1 | Exported Function
-`CvGetDataSourceName` | 4 | Exported Function
+`CvCreateDataSource` | 2 | Exported Function
 `CvGetData` | 3 | Exported Function
+`CvGetDataSourceName` | 4 | Exported Function
+`CvInitialize` | 5 | Exported Function
+`CvSetData` | 6 | Exported Function
+`CvSetDataSourceName` | 7 | Exported Function
+`CvUninitialize` | 8 | Exported Function
 
 
 ## Signature

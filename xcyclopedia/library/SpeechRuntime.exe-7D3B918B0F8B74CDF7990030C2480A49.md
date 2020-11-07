@@ -28,23 +28,33 @@ PE256 | `F0FA23D0EFACD30FB11964BF362D3C6C4505E81826F496B018AA94CBAE34FF4C`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\CoreMessaging.dll |
+C:\Windows\SYSTEM32\DEVOBJ.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MMDevAPI.DLL |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
 C:\Windows\system32\Speech_OneCore\common\SpeechRuntime.exe |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -61,8 +71,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/bce8dd332be145d80c4d32354aaa68590c964d50ce4d2f83f6b775a03011feec/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/bce8dd332be145d80c4d32354aaa68590c964d50ce4d2f83f6b775a03011feec/detection
 
 
 

@@ -60,6 +60,9 @@ time               Specifies the time when command is to run.
 
 ```
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ### Loaded Modules:
 
 Path |
@@ -92,8 +95,8 @@ C:\Windows\SysWOW64\at.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/c27460533b663278c2c03cd85384aa2560bc4a8ffa6d7160b070f8be62839145/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/c27460533b663278c2c03cd85384aa2560bc4a8ffa6d7160b070f8be62839145/detection
 
 
 ## Possible Misuse

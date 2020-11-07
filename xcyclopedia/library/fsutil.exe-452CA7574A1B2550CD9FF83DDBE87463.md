@@ -83,8 +83,8 @@ C:\Windows\SysWOW64\fsutil.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/b732e4e29a2d768417bbcd1b18368b1ba9bfecf0eb4af320c27b5d800d1f8da2/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/b732e4e29a2d768417bbcd1b18368b1ba9bfecf0eb4af320c27b5d800d1f8da2/detection
 
 
 ## Possible Misuse

@@ -26,10 +26,10 @@ PE256 | `2AE3401B9E6E0EC7F3323CF948F94FC2303B2524E1E658DEBD0192246F5ADBC4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetVirtualEnvironmentUtils` | 4 | Exported Function
-`Initialize` | 1 | Exported Function
 `Deinitialize` | 2 | Exported Function
 `GetComponent` | 3 | Exported Function
+`GetVirtualEnvironmentUtils` | 4 | Exported Function
+`Initialize` | 1 | Exported Function
 
 
 ## Signature

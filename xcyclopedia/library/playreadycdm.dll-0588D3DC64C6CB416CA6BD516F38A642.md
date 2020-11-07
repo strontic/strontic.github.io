@@ -26,12 +26,12 @@ PE256 | `457F099BF644185C2B51E57C119546CC4028FEE75292518B9C310E00787DE612`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetHandleVerifier` | 4 | Exported Function
-`InitializeCdmModule_4` | 5 | Exported Function
-`VerifyCdmHost_0` | 6 | Exported Function
 `CreateCdmInstance` | 1 | Exported Function
 `DeinitializeCdmModule` | 2 | Exported Function
 `GetCdmVersion` | 3 | Exported Function
+`GetHandleVerifier` | 4 | Exported Function
+`InitializeCdmModule_4` | 5 | Exported Function
+`VerifyCdmHost_0` | 6 | Exported Function
 
 
 ## Signature

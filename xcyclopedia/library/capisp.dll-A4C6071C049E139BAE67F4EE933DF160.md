@@ -26,11 +26,11 @@ PE256 | `8134643D399FFD3B0A91A6CB9C9AD13F1E641C755025A8C93FECCB6360C70F14`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptoSysPrep_Specialize_Clone` | 4 | Exported Function
-`CryptoSysPrep_Specialize_Offline` | 5 | Exported Function
-`CryptoSysPrep_Specialize` | 3 | Exported Function
 `CAPISysPrep_Generalize` | 1 | Exported Function
 `CryptoSysPrep_Clean` | 2 | Exported Function
+`CryptoSysPrep_Specialize` | 3 | Exported Function
+`CryptoSysPrep_Specialize_Clone` | 4 | Exported Function
+`CryptoSysPrep_Specialize_Offline` | 5 | Exported Function
 
 
 ## Signature

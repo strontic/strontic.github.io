@@ -26,26 +26,26 @@ PE256 | `A8B3D2C20507AFA8AC0E62AA33688FA8AF0F94B015F6D200DC6F28405FF0F8AC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`jm_set_trace_location` | 18 | Exported Function
+`const session_context::``vftable'` | 5 | Exported Function
+`session_context::session_context` | 2 | Exported Function
+`session_context::session_context` | 1 | Exported Function
+`jmsdk_function_get` | 20 | Exported Function
 `jmevent_callback_set` | 19 | Exported Function
+`jm_set_trace_location` | 18 | Exported Function
 `jm_remove_meetingaccountmgrhandler` | 17 | Exported Function
-`jm_remove_instantmeetinghandler` | 15 | Exported Function
 `jm_remove_logger` | 16 | Exported Function
+`jm_remove_instantmeetinghandler` | 15 | Exported Function
+`jm_register_proxy` | 14 | Exported Function
+`jm_register_network` | 13 | Exported Function
+`jm_register_meetingaccountmgrhandler` | 12 | Exported Function
+`jm_register_logger` | 11 | Exported Function
+`jm_register_instantmeetinghandler` | 10 | Exported Function
+`jm_get_meetingaccountmgr` | 9 | Exported Function
+`jm_get_meeting_sdk_mgr` | 8 | Exported Function
+`jm_get_meeting_dependence` | 7 | Exported Function
+`jm_get_getinstantmeeting` | 6 | Exported Function
 `session_context::operator` | 4 | Exported Function
 `public: virtual __thiscall session_context::~session_context(void)` | 3 | Exported Function
-`session_context::session_context` | 2 | Exported Function
-`jmsdk_function_get` | 20 | Exported Function
-`session_context::session_context` | 1 | Exported Function
-`jm_get_meeting_sdk_mgr` | 8 | Exported Function
-`jm_get_meetingaccountmgr` | 9 | Exported Function
-`jm_get_meeting_dependence` | 7 | Exported Function
-`const session_context::``vftable'` | 5 | Exported Function
-`jm_get_getinstantmeeting` | 6 | Exported Function
-`jm_register_network` | 13 | Exported Function
-`jm_register_proxy` | 14 | Exported Function
-`jm_register_meetingaccountmgrhandler` | 12 | Exported Function
-`jm_register_instantmeetinghandler` | 10 | Exported Function
-`jm_register_logger` | 11 | Exported Function
 
 
 ## Signature

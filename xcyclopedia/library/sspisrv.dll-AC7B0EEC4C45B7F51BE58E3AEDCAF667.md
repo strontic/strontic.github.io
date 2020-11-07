@@ -26,11 +26,11 @@ PE256 | `6E3252B383CCCE9DF8FF127C2E0124A9D01298F018A2CC080C34EBDAF1F0098A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SspiSrvClientCallback` | 1 | Exported Function
-`SspiSrvInitialize` | 2 | Exported Function
-`SspirProcessSecurityContext` | 5 | Exported Function
 `SspirAcquireCredentialsHandle` | 3 | Exported Function
 `SspirDeleteSecurityContext` | 4 | Exported Function
+`SspirProcessSecurityContext` | 5 | Exported Function
+`SspiSrvClientCallback` | 1 | Exported Function
+`SspiSrvInitialize` | 2 | Exported Function
 
 
 ## Signature

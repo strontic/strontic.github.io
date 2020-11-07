@@ -26,15 +26,15 @@ PE256 | `AAA1CB144A315925B219E36A0CC6A94409D59A41583661CCCACF93C3F17E69E3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessTrackerRemove` | 9 | Exported Function
-`ProcessTrackerInsertOrWait` | 8 | Exported Function
-`SvchostPushServiceGlobals` | 2 | Exported Function
-`ServiceMain` | 1 | Exported Function
-`DllGetClassObject` | 7 | Exported Function
-`CreateDeviceAccessInstance` | 4 | Exported Function
 `BrokeredOpenCommPort` | 3 | Exported Function
-`DllGetActivationFactory` | 6 | Exported Function
+`CreateDeviceAccessInstance` | 4 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`ProcessTrackerInsertOrWait` | 8 | Exported Function
+`ProcessTrackerRemove` | 9 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
 
 
 ## Signature

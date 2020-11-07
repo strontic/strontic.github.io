@@ -26,16 +26,16 @@ PE256 | `ED9C529EE562D7D3F69A51AF5478C102D217102173B99CD8F7C53FD0172718AD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FaxDevSend` | 7 | Exported Function
-`FaxDevReportStatus` | 6 | Exported Function
-`FaxDevShutdown` | 8 | Exported Function
-`FaxExtInitializeConfig` | 10 | Exported Function
-`FaxDevStartJob` | 9 | Exported Function
-`FaxDevAbortOperation` | 2 | Exported Function
 `DllMain` | 1 | Exported Function
+`FaxDevAbortOperation` | 2 | Exported Function
 `FaxDevEndJob` | 3 | Exported Function
-`FaxDevReceive` | 5 | Exported Function
 `FaxDevInitialize` | 4 | Exported Function
+`FaxDevReceive` | 5 | Exported Function
+`FaxDevReportStatus` | 6 | Exported Function
+`FaxDevSend` | 7 | Exported Function
+`FaxDevShutdown` | 8 | Exported Function
+`FaxDevStartJob` | 9 | Exported Function
+`FaxExtInitializeConfig` | 10 | Exported Function
 
 
 ## Signature

@@ -92,6 +92,7 @@ C:\Windows\SysWOW64\LaunchWinApp.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\LaunchWinApp.exe](LaunchWinApp.exe-4ACA30E7F19EE03A08E81C7499891FC5.md) | 96
+[C:\Windows\SysWOW64\LaunchWinApp.exe](LaunchWinApp.exe-6894C31A670287B7866B7A69F5C9F72E.md) | 82
 [C:\Windows\SysWOW64\LaunchWinApp.exe](LaunchWinApp.exe-87A32005627347FB817C59942B95A065.md) | 90
 
 

@@ -26,24 +26,24 @@ PE256 | `E02501BA4B01575018C4939C207AB19281379C219EC7CC742105F5AB8C7CD25D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrvPrinterEvent` | 268 | Exported Function
-`DrvQueryColorProfile` | 269 | Exported Function
-`DrvDriverEvent` | 267 | Exported Function
-`DrvPopulateFilterServices` | 255 | Exported Function
+`DevQueryPrintEx` | 258 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
+`DrvResetConfigCache` | 256 | Exported Function
 `DrvQueryJobAttributes` | 285 | Exported Function
+`DrvQueryColorProfile` | 269 | Exported Function
+`DrvPrinterEvent` | 268 | Exported Function
+`DrvPopulateFilterServices` | 255 | Exported Function
+`DrvDriverEvent` | 267 | Exported Function
+`DrvDocumentPropertySheets` | 266 | Exported Function
+`DrvDocumentEvent` | 265 | Exported Function
+`DrvDevicePropertySheets` | 264 | Exported Function
+`DrvDeviceCapabilities` | 263 | Exported Function
+`DrvConvertDevMode` | 262 | Exported Function
+`DllMain` | 261 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
 `DrvUpgradePrinter` | 286 | Exported Function
 `MxdcGetPDEVAdjustment` | 257 | Exported Function
-`DrvResetConfigCache` | 256 | Exported Function
-`DrvSplDeviceCaps` | 254 | Exported Function
-`DllGetClassObject` | 260 | Exported Function
-`DllMain` | 261 | Exported Function
-`DevQueryPrintEx` | 258 | Exported Function
-`DllCanUnloadNow` | 259 | Exported Function
-`DrvConvertDevMode` | 262 | Exported Function
-`DrvDocumentEvent` | 265 | Exported Function
-`DrvDocumentPropertySheets` | 266 | Exported Function
-`DrvDeviceCapabilities` | 263 | Exported Function
-`DrvDevicePropertySheets` | 264 | Exported Function
 
 
 ## Signature

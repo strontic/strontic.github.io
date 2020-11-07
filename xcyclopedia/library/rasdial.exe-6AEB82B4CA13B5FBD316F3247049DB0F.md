@@ -72,8 +72,8 @@ C:\Windows\system32\rasdial.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/65
-* VirusTotal Link: https://www.virustotal.com/gui/file/31016ae60a8aef2dbf1c399f7709bc4ff69be1e2ebae5699fa55cfca606c397a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/31016ae60a8aef2dbf1c399f7709bc4ff69be1e2ebae5699fa55cfca606c397a/detection
 
 
 ## Possible Misuse

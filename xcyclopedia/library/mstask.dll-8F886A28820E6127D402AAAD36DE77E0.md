@@ -26,19 +26,19 @@ PE256 | `D5B3181C2B52BD39183BCE15E9E5CC80023E5A7AF8DF2BE4D7A77C25B6D22C5E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SAGetNSAccountInformation` | 10 | Exported Function
-`SAGetAccountInformation` | 9 | Exported Function
-`NetrJobGetInfo` | 8 | Exported Function
-`SetNetScheduleAccountInformation` | 13 | Exported Function
-`SASetNSAccountInformation` | 12 | Exported Function
-`SASetAccountInformation` | 11 | Exported Function
-`NetrJobEnum` | 7 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `ConvertAtJobsToTasks` | 1 | Exported Function
-`NetrJobDel` | 6 | Exported Function
-`NetrJobAdd` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 `GetNetScheduleAccountInformation` | 4 | Exported Function
+`NetrJobAdd` | 5 | Exported Function
+`NetrJobDel` | 6 | Exported Function
+`NetrJobEnum` | 7 | Exported Function
+`NetrJobGetInfo` | 8 | Exported Function
+`SAGetAccountInformation` | 9 | Exported Function
+`SAGetNSAccountInformation` | 10 | Exported Function
+`SASetAccountInformation` | 11 | Exported Function
+`SASetNSAccountInformation` | 12 | Exported Function
+`SetNetScheduleAccountInformation` | 13 | Exported Function
 
 
 ## Signature

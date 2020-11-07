@@ -25,11 +25,11 @@ PE256 | `5173329348D34144AC8358496118886F2AF123F2110BA9B4784AA3B35E741744`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnableVirtualizationOnThread` | 3 | Exported Function
-`IsCurrentThreadVirtualized` | 4 | Exported Function
-`EnableFullVirtualization` | 5 | Exported Function
 `APIExportForDetours` | 1 | Exported Function
 `DisableVirtualizationOnThread` | 2 | Exported Function
+`EnableFullVirtualization` | 5 | Exported Function
+`EnableVirtualizationOnThread` | 3 | Exported Function
+`IsCurrentThreadVirtualized` | 4 | Exported Function
 
 
 ## Signature

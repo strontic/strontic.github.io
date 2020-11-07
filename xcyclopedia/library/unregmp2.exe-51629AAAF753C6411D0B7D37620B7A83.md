@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\unregmp2.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/cc883043adccfa1dd61b3da09d89940f3b97a6e74a09aa32d0d339b0553cd728/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/cc883043adccfa1dd61b3da09d89940f3b97a6e74a09aa32d0d339b0553cd728/detection
 
 ## File Similarity (ssdeep match)
 

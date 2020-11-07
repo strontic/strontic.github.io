@@ -26,26 +26,26 @@ PE256 | `8359DAE18133DCF189930BA2A4EBD14BEAFFA8DC83B2C018F907CBDB33BE26FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSearchEngineRawData` | 15 | Exported Function
+`__1::allocator` | 2 | Exported Function
+`IsSearchEngineImportAllowed` | 19 | Exported Function
+`IsEdgePrimaryBrowser` | 18 | Exported Function
+`IsChromePrimaryBrowser` | 17 | Exported Function
 `IsBingDefaultSearchEngine` | 16 | Exported Function
+`GetSearchEngineRawData` | 15 | Exported Function
 `GetSearchEngineDataType` | 14 | Exported Function
-`GetPrimaryBrowser` | 12 | Exported Function
 `GetPrimaryBrowserForGivenDays` | 13 | Exported Function
+`GetPrimaryBrowser` | 12 | Exported Function
+`GetNetworkPrimaryBrowserForGivenDays` | 11 | Exported Function
+`GetEdgeAppId` | 10 | Exported Function
+`FetchSearchEngineData` | 9 | Exported Function
+`DestructPasswordImporter` | 8 | Exported Function
+`ConstructPasswordImporter` | 7 | Exported Function
+`bool __cdecl IsEdgePrimaryBrowser(enum BrowserNameEnumeration const & __ptr64)` | 6 | Exported Function
+`bool __cdecl IsChromePrimaryBrowser(enum BrowserNameEnumeration const & __ptr64)` | 5 | Exported Function
+`bool __cdecl GetPrimaryBrowserForGivenDays(int,enum BrowserNameEnumeration * __ptr64)` | 4 | Exported Function
+`bool __cdecl GetPrimaryBrowser(enum BrowserNameEnumeration * __ptr64,enum BrowserNameEnumeration * __ptr64)` | 3 | Exported Function
 `struct _GUID __cdecl GetEdgeAppId(void)` | 1 | Exported Function
 `UnobfuscateData` | 20 | Exported Function
-`IsSearchEngineImportAllowed` | 19 | Exported Function
-`IsChromePrimaryBrowser` | 17 | Exported Function
-`IsEdgePrimaryBrowser` | 18 | Exported Function
-`bool __cdecl IsChromePrimaryBrowser(enum BrowserNameEnumeration const & __ptr64)` | 5 | Exported Function
-`bool __cdecl IsEdgePrimaryBrowser(enum BrowserNameEnumeration const & __ptr64)` | 6 | Exported Function
-`bool __cdecl GetPrimaryBrowserForGivenDays(int,enum BrowserNameEnumeration * __ptr64)` | 4 | Exported Function
-`__1::allocator` | 2 | Exported Function
-`bool __cdecl GetPrimaryBrowser(enum BrowserNameEnumeration * __ptr64,enum BrowserNameEnumeration * __ptr64)` | 3 | Exported Function
-`GetEdgeAppId` | 10 | Exported Function
-`GetNetworkPrimaryBrowserForGivenDays` | 11 | Exported Function
-`FetchSearchEngineData` | 9 | Exported Function
-`ConstructPasswordImporter` | 7 | Exported Function
-`DestructPasswordImporter` | 8 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `2F6B6FDF50D5E4B0497F43DF6A2C4F1D830B58887E3C35E60D4E2F012C272F5B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Module_Init_SkuAssembly` | 3 | Exported Function
-`Module_Init_Cmi` | 2 | Exported Function
 `CallBack_ConfigureWindowsFoundationImage` | 1 | Exported Function
+`Module_Init_Cmi` | 2 | Exported Function
+`Module_Init_SkuAssembly` | 3 | Exported Function
 
 
 ## Signature

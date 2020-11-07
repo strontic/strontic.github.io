@@ -26,12 +26,12 @@ PE256 | `27481D96851E091E67CEB8A289D88817B01C40776C875BC53EC49A01C9E13FDC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnumResourceNamesExW` | 4 | Exported Function
-`EnumResourceTypesExA` | 5 | Exported Function
-`EnumResourceTypesExW` | 6 | Exported Function
 `EnumResourceLanguagesExA` | 1 | Exported Function
 `EnumResourceLanguagesExW` | 2 | Exported Function
 `EnumResourceNamesExA` | 3 | Exported Function
+`EnumResourceNamesExW` | 4 | Exported Function
+`EnumResourceTypesExA` | 5 | Exported Function
+`EnumResourceTypesExW` | 6 | Exported Function
 
 
 ## Signature

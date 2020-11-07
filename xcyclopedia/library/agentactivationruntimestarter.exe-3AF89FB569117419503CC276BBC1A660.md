@@ -62,6 +62,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/de238c935519f2bccdeb8dbff975cde9f8b7a7fa64b81608736fc764ff210547/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-B556B608D4B1D770EBAAFD23DECF1F88.md) | 80
 
 
 

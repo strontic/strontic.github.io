@@ -70,8 +70,8 @@ C:\Windows\SysWOW64\tzutil.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -88,14 +88,15 @@ C:\Windows\SysWOW64\tzutil.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/044c52f7b934c4eb64eac31b1d8e5f29c9fee2b3f080ea9bc6f180464cc8db2d/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/044c52f7b934c4eb64eac31b1d8e5f29c9fee2b3f080ea9bc6f180464cc8db2d/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-031B08FC72A6773D79E5231D0ECA2C9A.md) | 27
+[C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-8929EBB0CCABE2B6001440E138A7DFB5.md) | 25
 [C:\Windows\SysWOW64\expand.exe](expand.exe-544B0DBFF3F393BCE8BB9D815F532D51.md) | 32
 
 

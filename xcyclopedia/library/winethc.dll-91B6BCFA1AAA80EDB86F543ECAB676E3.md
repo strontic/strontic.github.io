@@ -26,12 +26,12 @@ PE256 | `37750DAD3B4D292C0B2DAF7686EED0E146F0C497737539409EDA14796242C12B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 6 | Exported Function
-`ForceProxyDetectionOnNextRun` | 1 | Exported Function
-`SetAutoDetectProxyFlagForUser` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`ForceProxyDetectionOnNextRun` | 1 | Exported Function
+`SetAutoDetectProxyFlagForUser` | 2 | Exported Function
 
 
 ## Signature

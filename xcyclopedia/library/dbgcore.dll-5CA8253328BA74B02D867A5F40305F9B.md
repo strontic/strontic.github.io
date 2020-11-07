@@ -26,8 +26,8 @@ PE256 | `A03E2287F371B5A69C37DD875AA8446FA93C1758DCF4F8EF2077075BD2E95FF4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MiniDumpWriteDump` | 2 | Exported Function
 `MiniDumpReadDumpStream` | 1 | Exported Function
+`MiniDumpWriteDump` | 2 | Exported Function
 
 
 ## Signature

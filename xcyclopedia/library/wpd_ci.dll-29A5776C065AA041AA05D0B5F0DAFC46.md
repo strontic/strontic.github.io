@@ -26,11 +26,11 @@ PE256 | `E9E6193722AD73FF116048D9DD8937AD0936B7561926DD71081434C12FE0B910`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RescanBus` | 4 | Exported Function
-`WpdClassInstaller` | 5 | Exported Function
-`MigrateMTPDevicesInstalledAsMSC` | 3 | Exported Function
 `CoDeviceInstall` | 1 | Exported Function
 `DoCmd` | 2 | Exported Function
+`MigrateMTPDevicesInstalledAsMSC` | 3 | Exported Function
+`RescanBus` | 4 | Exported Function
+`WpdClassInstaller` | 5 | Exported Function
 
 
 ## Signature

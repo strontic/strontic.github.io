@@ -26,11 +26,11 @@ PE256 | `09578D0AB218B30BCE198FD67E000F5F47AE9D75C65C66E611C07BBD68595716`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 4 | Exported Function
-`IsEmbeddedModeAllowed` | 5 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
 `ActivatePackage` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`IsEmbeddedModeAllowed` | 5 | Exported Function
 
 
 ## Signature

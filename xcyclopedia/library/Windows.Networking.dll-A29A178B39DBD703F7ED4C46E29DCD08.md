@@ -26,13 +26,13 @@ PE256 | `25E6D3FCBBE90FE8228B7B9E370AE61DD47A53A534F8FE1CB07D9BAB5D2A02B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
-`SetSocketMediaStreamingMode` | 8 | Exported Function
-`DllMain` | 5 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`SetSocketMediaStreamingMode` | 8 | Exported Function
 
 
 ## Signature

@@ -28,24 +28,6 @@ PE256 | `646D31E09BBE7D3E920A562AD11B5FB1E6CFB8D858DB7F562311D788EB9654A8`
 
 ## Runtime Data
 
-### Window Title:
-Microsoft Bopomofo
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -60,8 +42,8 @@ C:\Windows\SysWOW64\IME\IMETC\IMTCPROP.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -78,8 +60,8 @@ C:\Windows\SysWOW64\IME\IMETC\IMTCPROP.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/715d9157eecc8579d18dfece27b95f7c4dc13d61c43ff2b41d6e87ebc7ba732a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/715d9157eecc8579d18dfece27b95f7c4dc13d61c43ff2b41d6e87ebc7ba732a/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,16 +26,16 @@ PE256 | `F6D584DEB32F9FA146C3C551035D073210E54168AD96AAA6F79F5248688EE294`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LogDriverNotFound` | 7 | Exported Function
-`FindMatchingDriver` | 6 | Exported Function
-`OpenCDMContext` | 8 | Exported Function
-`QueryDetectionFiles` | 10 | Exported Function
-`OpenCDMContextEx` | 9 | Exported Function
-`CloseCDMContext` | 2 | Exported Function
 `CancelCDMOperation` | 1 | Exported Function
+`CloseCDMContext` | 2 | Exported Function
 `DetFilesDownloaded` | 3 | Exported Function
-`DownloadUpdatedFiles` | 5 | Exported Function
 `DownloadIsInternetAvailable` | 4 | Exported Function
+`DownloadUpdatedFiles` | 5 | Exported Function
+`FindMatchingDriver` | 6 | Exported Function
+`LogDriverNotFound` | 7 | Exported Function
+`OpenCDMContext` | 8 | Exported Function
+`OpenCDMContextEx` | 9 | Exported Function
+`QueryDetectionFiles` | 10 | Exported Function
 
 
 ## Signature

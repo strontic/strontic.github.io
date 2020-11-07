@@ -26,29 +26,29 @@ PE256 | `DE6351E6292329ED182699A8C97B45ABCA955D15EB177DADFD6E0BA20156FAC5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CDataDrivenCleaner::Deactivate` | 9 | Exported Function
-`CDataDrivenCleaner::GetSpaceUsed` | 12 | Exported Function
-`CDataDrivenCleaner::AddFolders` | 7 | Exported Function
-`public: __thiscall CDataDrivenCleaner::~CDataDrivenCleaner(void)` | 3 | Exported Function
-`CDataDrivenCleaner::operator` | 4 | Exported Function
-`CDataDrivenCleaner::Initialize` | 13 | Exported Function
-`CDataDrivenCleaner::AddRef` | 8 | Exported Function
-`CDataDrivenCleaner::Release` | 19 | Exported Function
-`CDataDrivenCleaner::ShowProperties` | 20 | Exported Function
-`CDataDrivenCleaner::Purge` | 16 | Exported Function
-`CDataDrivenCleaner::QueryInterface` | 18 | Exported Function
-`CDataDrivenCleaner::CDataDrivenCleaner` | 2 | Exported Function
-`CDataDrivenCleaner::AddFileToList` | 6 | Exported Function
-`CDataDrivenCleaner::LastAccessisOK` | 14 | Exported Function
-`DllGetClassObject` | 23 | Exported Function
 `const CDataDrivenCleaner::``vftable'` | 5 | Exported Function
-`DllCanUnloadNow` | 22 | Exported Function
-`CDataDrivenCleaner::WalkForUsedSpace` | 21 | Exported Function
+`CDataDrivenCleaner::ShowProperties` | 20 | Exported Function
+`CDataDrivenCleaner::QueryInterface` | 18 | Exported Function
+`CDataDrivenCleaner::Purge` | 16 | Exported Function
+`CDataDrivenCleaner::Initialize` | 13 | Exported Function
+`CDataDrivenCleaner::GetSpaceUsed` | 12 | Exported Function
+`CDataDrivenCleaner::Deactivate` | 9 | Exported Function
+`CDataDrivenCleaner::AddFolders` | 7 | Exported Function
+`CDataDrivenCleaner::operator` | 4 | Exported Function
+`public: __thiscall CDataDrivenCleaner::~CDataDrivenCleaner(void)` | 3 | Exported Function
+`CDataDrivenCleaner::AddRef` | 8 | Exported Function
+`CDataDrivenCleaner::CDataDrivenCleaner` | 2 | Exported Function
 `CDataDrivenCleaner::PurgeFiles` | 17 | Exported Function
-`CDataDrivenCleaner::CDataDrivenCleaner` | 1 | Exported Function
 `CDataDrivenCleaner::FreeList` | 11 | Exported Function
-`CDataDrivenCleaner::MergeSortList` | 15 | Exported Function
 `CDataDrivenCleaner::ExecuteCmd` | 10 | Exported Function
+`CDataDrivenCleaner::MergeSortList` | 15 | Exported Function
+`CDataDrivenCleaner::WalkForUsedSpace` | 21 | Exported Function
+`CDataDrivenCleaner::LastAccessisOK` | 14 | Exported Function
+`CDataDrivenCleaner::AddFileToList` | 6 | Exported Function
+`DllGetClassObject` | 23 | Exported Function
+`DllCanUnloadNow` | 22 | Exported Function
+`CDataDrivenCleaner::CDataDrivenCleaner` | 1 | Exported Function
+`CDataDrivenCleaner::Release` | 19 | Exported Function
 
 
 ## Signature

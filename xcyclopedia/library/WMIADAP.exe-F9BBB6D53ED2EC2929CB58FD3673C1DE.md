@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\wbem\WMIADAP.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/76243553efd123f8b1cf97120e8d6f0b9aab2cba884045e1ccef34bd71681828/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\wbem\WMIADAP.exe](WMIADAP.exe-83CFA0ACAA299FD5B1B5A255CBD4602B.md) | 85
 
 
 

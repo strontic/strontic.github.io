@@ -26,30 +26,30 @@ PE256 | `50994214DCF859F69ECD717C0124387C7717FDA8374630C0604662C5BC332BEC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WahOpenApcHelper` | 16 | Exported Function
-`WahOpenCurrentThread` | 17 | Exported Function
-`WahOpenHandleHelper` | 18 | Exported Function
-`WahEnumerateHandleContexts` | 13 | Exported Function
-`WahInsertHandleContext` | 14 | Exported Function
-`WahNotifyAllProcesses` | 15 | Exported Function
+`WahCloseApcHelper` | 1 | Exported Function
 `WahRemoveHandleContext` | 22 | Exported Function
+`WahReferenceContextByHandle` | 21 | Exported Function
+`WahQueueUserApc` | 20 | Exported Function
+`WahOpenNotificationHandleHelper` | 19 | Exported Function
+`WahOpenHandleHelper` | 18 | Exported Function
+`WahOpenCurrentThread` | 17 | Exported Function
+`WahOpenApcHelper` | 16 | Exported Function
+`WahNotifyAllProcesses` | 15 | Exported Function
+`WahInsertHandleContext` | 14 | Exported Function
+`WahEnumerateHandleContexts` | 13 | Exported Function
+`WahEnableNonIFSHandleSupport` | 12 | Exported Function
+`WahDisableNonIFSHandleSupport` | 11 | Exported Function
+`WahDestroyHandleContextTable` | 10 | Exported Function
+`WahCreateSocketHandle` | 9 | Exported Function
+`WahCreateNotificationHandle` | 8 | Exported Function
+`WahCreateHandleContextTable` | 7 | Exported Function
+`WahCompleteRequest` | 6 | Exported Function
+`WahCloseThread` | 5 | Exported Function
+`WahCloseSocketHandle` | 4 | Exported Function
+`WahCloseNotificationHandleHelper` | 3 | Exported Function
+`WahCloseHandleHelper` | 2 | Exported Function
 `WahWaitForNotification` | 23 | Exported Function
 `WahWriteLSPEvent` | 24 | Exported Function
-`WahOpenNotificationHandleHelper` | 19 | Exported Function
-`WahQueueUserApc` | 20 | Exported Function
-`WahReferenceContextByHandle` | 21 | Exported Function
-`WahCloseSocketHandle` | 4 | Exported Function
-`WahCloseThread` | 5 | Exported Function
-`WahCompleteRequest` | 6 | Exported Function
-`WahCloseApcHelper` | 1 | Exported Function
-`WahCloseHandleHelper` | 2 | Exported Function
-`WahCloseNotificationHandleHelper` | 3 | Exported Function
-`WahDestroyHandleContextTable` | 10 | Exported Function
-`WahDisableNonIFSHandleSupport` | 11 | Exported Function
-`WahEnableNonIFSHandleSupport` | 12 | Exported Function
-`WahCreateHandleContextTable` | 7 | Exported Function
-`WahCreateNotificationHandle` | 8 | Exported Function
-`WahCreateSocketHandle` | 9 | Exported Function
 
 
 ## Signature

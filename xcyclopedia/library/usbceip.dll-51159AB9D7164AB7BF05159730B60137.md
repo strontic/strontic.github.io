@@ -26,11 +26,11 @@ PE256 | `90B008BAC5F2B23308B87A25BC8DF8DFC3BD4DFC1B16A476F29518968EEF1E1B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`UsbCeip_Execute` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`UsbCeip_Execute` | 1 | Exported Function
 
 
 ## Signature

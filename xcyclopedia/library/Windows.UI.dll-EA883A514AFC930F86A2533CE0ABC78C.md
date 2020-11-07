@@ -26,13 +26,13 @@ PE256 | `DCAD22587AF8F4A170D568D1212AAEE1D7D3E08CBFFD2E1A48327E7B620970C7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 1503 | Exported Function
-`DllRegisterServer` | 1504 | Exported Function
-`DllUnregisterServer` | 1505 | Exported Function
-`DllGetActivationFactory` | 1502 | Exported Function
 `CreateControlInput` | 1601 | Exported Function
 `CreateControlInputEx` | 1603 | Exported Function
 `DllCanUnloadNow` | 1501 | Exported Function
+`DllGetActivationFactory` | 1502 | Exported Function
+`DllGetClassObject` | 1503 | Exported Function
+`DllRegisterServer` | 1504 | Exported Function
+`DllUnregisterServer` | 1505 | Exported Function
 
 
 ## Signature

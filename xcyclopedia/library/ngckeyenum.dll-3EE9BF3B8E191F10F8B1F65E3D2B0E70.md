@@ -26,17 +26,17 @@ PE256 | `95CAA3B15961DDEA2695DF668FBA2411A2E673DD1E8B0E66072ACFC65B76F5ED`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NgcSerializeKeySspiCredential` | 8 | Exported Function
-`NgcSerializeKeyPasswordChangeCredential` | 7 | Exported Function
-`NgcSerializeMsaPasswordCredential` | 9 | Exported Function
-`NgcSerializeSmartCardCredential` | 11 | Exported Function
-`NgcSerializePasswordCredential` | 10 | Exported Function
-`NgcSerializeKeyCredential` | 6 | Exported Function
-`NgcCredProvFreeBuffer` | 2 | Exported Function
 `NgcCredProvEnumLogonKeys` | 1 | Exported Function
+`NgcCredProvFreeBuffer` | 2 | Exported Function
 `NgcCredProvInvalidateLogonKeysCache` | 3 | Exported Function
-`NgcSerializeConveniencePasswordChangeCredential` | 5 | Exported Function
 `NgcSerializeConvenienceCredential` | 4 | Exported Function
+`NgcSerializeConveniencePasswordChangeCredential` | 5 | Exported Function
+`NgcSerializeKeyCredential` | 6 | Exported Function
+`NgcSerializeKeyPasswordChangeCredential` | 7 | Exported Function
+`NgcSerializeKeySspiCredential` | 8 | Exported Function
+`NgcSerializeMsaPasswordCredential` | 9 | Exported Function
+`NgcSerializePasswordCredential` | 10 | Exported Function
+`NgcSerializeSmartCardCredential` | 11 | Exported Function
 
 
 ## Signature

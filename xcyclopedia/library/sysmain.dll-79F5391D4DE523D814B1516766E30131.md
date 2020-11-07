@@ -26,22 +26,22 @@ PE256 | `7E5B7D6B266A99F7F4DA7D631D28F40EA4DB63712087F1DD8E969F5BA2148041`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MI_Main` | 12 | Exported Function
-`OpenReadyBoostPerfData` | 13 | Exported Function
-`DllUnregisterServer` | 10 | Exported Function
-`GetProviderClassID` | 11 | Exported Function
-`PfSvWsSwapAssessmentTask` | 1 | Exported Function
-`SysMtServiceMain` | 16 | Exported Function
-`PfSvSysprepCleanup` | 14 | Exported Function
-`PfSvUnattendCallback` | 15 | Exported Function
-`AgTwLoad` | 4 | Exported Function
-`CloseReadyBoostPerfData` | 5 | Exported Function
 `AgGlLoad` | 2 | Exported Function
 `AgPdLoad` | 3 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`DllRegisterServer` | 9 | Exported Function
+`AgTwLoad` | 4 | Exported Function
+`CloseReadyBoostPerfData` | 5 | Exported Function
 `CollectReadyBoostPerfData` | 6 | Exported Function
 `DllCanUnloadNow` | 7 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`GetProviderClassID` | 11 | Exported Function
+`MI_Main` | 12 | Exported Function
+`OpenReadyBoostPerfData` | 13 | Exported Function
+`PfSvSysprepCleanup` | 14 | Exported Function
+`PfSvUnattendCallback` | 15 | Exported Function
+`PfSvWsSwapAssessmentTask` | 1 | Exported Function
+`SysMtServiceMain` | 16 | Exported Function
 
 
 ## Signature

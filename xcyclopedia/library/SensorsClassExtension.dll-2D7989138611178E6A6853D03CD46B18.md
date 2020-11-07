@@ -26,11 +26,11 @@ PE256 | `1E37D59E86CB172DFB0F7A53023A09F8FEBB9DB25B18DA91AC4D950C2508C08A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`Microsoft_WDF_UMDF_Version` | 5 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`Microsoft_WDF_UMDF_Version` | 5 | Exported Function
 
 
 ## Signature

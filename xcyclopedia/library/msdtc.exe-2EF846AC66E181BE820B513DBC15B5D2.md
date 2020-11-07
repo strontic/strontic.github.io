@@ -28,13 +28,37 @@ PE256 | `22EA120BB10C430E58DB1EBC6BD51710705C1180C0E0182082FA90088662F410`
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\CLUSAPI.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\system32\CRYPTSP.dll |
+C:\Windows\system32\DNSAPI.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\ktmw32.dll |
 C:\Windows\system32\msdtc.exe |
+C:\Windows\system32\MSDTCLOG.dll |
+C:\Windows\system32\MSDTCPRX.dll |
+C:\Windows\system32\MSDTCTM.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\MSWSOCK.dll |
+C:\Windows\system32\MTXCLU.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\RESUTILS.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINMM.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\system32\XOLEHLP.dll |
 
 
 ## Signature
@@ -58,8 +82,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/edfe71025c352d0dabec7b9506c5945bb0ec11f8db540db8cb1116c2ea1648a8/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/edfe71025c352d0dabec7b9506c5945bb0ec11f8db540db8cb1116c2ea1648a8/detection
 
 ## File Similarity (ssdeep match)
 

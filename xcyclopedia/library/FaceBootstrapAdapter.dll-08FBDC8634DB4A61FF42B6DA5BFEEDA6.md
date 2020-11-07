@@ -25,9 +25,9 @@ PE256 | `10FEDBD6BF77C18235D7531A21D778E3A05662BD6C3D4D3B85281504B50446F9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WbioQueryStorageInterface` | 3 | Exported Function
-`WbioQuerySensorInterface` | 2 | Exported Function
 `WbioQueryEngineInterface` | 1 | Exported Function
+`WbioQuerySensorInterface` | 2 | Exported Function
+`WbioQueryStorageInterface` | 3 | Exported Function
 
 
 ## Signature

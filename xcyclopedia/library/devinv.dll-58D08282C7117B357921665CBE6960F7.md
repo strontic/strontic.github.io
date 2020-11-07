@@ -26,14 +26,14 @@ PE256 | `D01853F3A9FF00B04EE2A0C5528D1FACD0A9E016CF3E8EB7084B562538D1A7B1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ReportDeviceRemove` | 8 | Exported Function
-`ReportDeviceAdd` | 7 | Exported Function
-`SetDevInvDebugCorrelationVector` | 1 | Exported Function
-`RunDeviceInventoryW` | 5 | Exported Function
-`CreateDeviceInventoryTC` | 3 | Exported Function
 `CreateDeviceInventory` | 6 | Exported Function
-`GetDevInventory` | 4 | Exported Function
+`CreateDeviceInventoryTC` | 3 | Exported Function
 `CreateDeviceInventoryTC2` | 2 | Exported Function
+`GetDevInventory` | 4 | Exported Function
+`ReportDeviceAdd` | 7 | Exported Function
+`ReportDeviceRemove` | 8 | Exported Function
+`RunDeviceInventoryW` | 5 | Exported Function
+`SetDevInvDebugCorrelationVector` | 1 | Exported Function
 
 
 ## Signature

@@ -25,29 +25,39 @@ PE256 | `925F688E33F60B06C841D3771ACAF6D03F3597F9ED23D4DAB3F61B3F20098D4D`
 ## Runtime Data
 
 ### Child Processes:
-CredDialogHost.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\xCyclopedia | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
+WerFault.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\Bcp47Langs.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CoreMessaging.dll |
+C:\Windows\System32\dcomp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\iertutil.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
+C:\Windows\System32\Windows.UI.Xaml.dll |
+C:\Windows\System32\WS2_32.dll |
 C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy\CredDialogHost.exe |
 
 
@@ -72,8 +82,8 @@ C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy\CredDialogHost.exe 
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/8878137d2032570d06204d28a201ec3d3f0b231a01764d3ce62cb443a7ca48de/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/8878137d2032570d06204d28a201ec3d3f0b231a01764d3ce62cb443a7ca48de/detection
 
 
 

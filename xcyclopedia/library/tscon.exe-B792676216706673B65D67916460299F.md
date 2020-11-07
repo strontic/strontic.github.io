@@ -88,8 +88,8 @@ C:\Windows\system32\tscon.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/15e3a70fd3f2972cd8d7826dfe4058255b0fbb974969828644d93256f7fb9c12/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/15e3a70fd3f2972cd8d7826dfe4058255b0fbb974969828644d93256f7fb9c12/detection
 
 
 ## Possible Misuse

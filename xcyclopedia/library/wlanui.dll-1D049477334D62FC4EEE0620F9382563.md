@@ -26,12 +26,12 @@ PE256 | `732BEF487CA468402ACBB1C0C8C0F3278606F764B77A5932A26AAD34DA218B4E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WLFreeProfileXml` | 5 | Exported Function
-`WLInvokeProfileUI` | 1 | Exported Function
-`WLInvokeProfileUIFromXMLFile` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
 `WlanUIEditProfile` | 6 | Exported Function
 `WLFreeProfile` | 4 | Exported Function
+`WLFreeProfileXml` | 5 | Exported Function
+`WLInvokeProfileUI` | 1 | Exported Function
+`WLInvokeProfileUIFromXMLFile` | 2 | Exported Function
 
 
 ## Signature

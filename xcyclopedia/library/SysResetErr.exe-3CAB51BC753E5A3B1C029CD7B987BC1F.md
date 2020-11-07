@@ -29,14 +29,24 @@ PE256 | `A26CC787EABB1C01E985A044409E6968780108BAC6F2E2E9614D3277C9776825`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
 C:\Windows\system32\SysResetErr.exe |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\WDSCORE.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -61,8 +71,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/27f03dc93fa9362b72565f8f193f56800063c708395dc3def584cfd34b96deca/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/27f03dc93fa9362b72565f8f193f56800063c708395dc3def584cfd34b96deca/detection
 
 ## File Similarity (ssdeep match)
 

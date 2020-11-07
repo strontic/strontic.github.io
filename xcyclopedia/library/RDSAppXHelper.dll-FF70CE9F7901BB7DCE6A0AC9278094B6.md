@@ -26,9 +26,9 @@ PE256 | `DD9A2AE38E629A9175C0D40A3D2709BB8F5D22924658246FE7609A367B95BC53`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeAppXHelper` | 3 | Exported Function
-`GetInstanceOfAppXPackageManager` | 2 | Exported Function
 `DestroyAppXHelper` | 1 | Exported Function
+`GetInstanceOfAppXPackageManager` | 2 | Exported Function
+`InitializeAppXHelper` | 3 | Exported Function
 
 
 ## Signature

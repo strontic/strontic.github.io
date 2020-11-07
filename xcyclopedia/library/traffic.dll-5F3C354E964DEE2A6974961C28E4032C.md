@@ -26,28 +26,28 @@ PE256 | `E0D5EA7C383174E86422FCA44105815794C27F1C87EDC99EFCC7930D00F84DBD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TcQueryFlowA` | 15 | Exported Function
-`TcQueryFlowW` | 16 | Exported Function
-`TcOpenInterfaceW` | 14 | Exported Function
-`TcModifyFlow` | 12 | Exported Function
-`TcOpenInterfaceA` | 13 | Exported Function
+`TcAddFilter` | 1 | Exported Function
+`TcSetFlowW` | 20 | Exported Function
+`TcSetFlowA` | 19 | Exported Function
+`TcRegisterClient` | 18 | Exported Function
 `TcQueryInterface` | 17 | Exported Function
+`TcQueryFlowW` | 16 | Exported Function
+`TcQueryFlowA` | 15 | Exported Function
+`TcOpenInterfaceW` | 14 | Exported Function
+`TcOpenInterfaceA` | 13 | Exported Function
+`TcModifyFlow` | 12 | Exported Function
+`TcGetInterfaceList` | 11 | Exported Function
+`TcGetFlowNameW` | 10 | Exported Function
+`TcGetFlowNameA` | 9 | Exported Function
+`TcEnumerateInterfaces` | 8 | Exported Function
+`TcEnumerateFlows` | 7 | Exported Function
+`TcDeregisterClient` | 6 | Exported Function
+`TcDeleteFlow` | 5 | Exported Function
+`TcDeleteFilter` | 4 | Exported Function
+`TcCloseInterface` | 3 | Exported Function
+`TcAddFlow` | 2 | Exported Function
 `TcSetInterface` | 21 | Exported Function
 `TcSetSocketFlow` | 22 | Exported Function
-`TcSetFlowW` | 20 | Exported Function
-`TcRegisterClient` | 18 | Exported Function
-`TcSetFlowA` | 19 | Exported Function
-`TcDeleteFilter` | 4 | Exported Function
-`TcDeleteFlow` | 5 | Exported Function
-`TcCloseInterface` | 3 | Exported Function
-`TcAddFilter` | 1 | Exported Function
-`TcAddFlow` | 2 | Exported Function
-`TcDeregisterClient` | 6 | Exported Function
-`TcGetFlowNameW` | 10 | Exported Function
-`TcGetInterfaceList` | 11 | Exported Function
-`TcGetFlowNameA` | 9 | Exported Function
-`TcEnumerateFlows` | 7 | Exported Function
-`TcEnumerateInterfaces` | 8 | Exported Function
 
 
 ## Signature
@@ -154,8 +154,10 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1090.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md) | Enable traffic redirection on macOS UI (not terminal). | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1132.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1132.001/T1132.001.md) | <blockquote>Adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. Common data encoding schemes include ASCII, Unicode, hexadecimal, Base64, and MIME.(Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result in data compression, such as gzip.</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1176.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1176/T1176.md) | Adversaries may use VPN extensions in an attempt to hide traffic sent from a compromised host. This will install one (of many) available VPNS in the Edge add-on store. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1497.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md) | Checks could include generic system properties such as uptime and samples of network traffic. Adversaries may also check the network adapters addresses, CPU core count, and available memory/drive size.  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md) | <blockquote>Adversaries may abuse a valid Kerberos ticket-granting ticket (TGT) or sniff network traffic to obtain a ticket-granting service (TGS) ticket that may be vulnerable to [Brute Force](https://attack.mitre.org/techniques/T1110).(Citation: Empire InvokeKerberoast Oct 2016)(Citation: AdSecurity Cracking Kerberos Dec 2015)  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md) | This same attack could be executed using service tickets captured from network traffic.(Citation: AdSecurity Cracking Kerberos Dec 2015) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.006.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.006/T1562.006.md) | In the case of network-based reporting of indicators, an adversary may block traffic associated with reporting to prevent central analysis. This may be accomplished by many means, such as stopping a local process responsible for forwarding telemetry and/or creating a host-based firewall rule to block traffic to specific hosts responsible for aggregating events, such as security information and event management (SIEM) products. </blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1573.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573/T1573.md) | <blockquote>Adversaries may employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if secret keys are encoded and/or generated within malware samples/configuration files.</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 

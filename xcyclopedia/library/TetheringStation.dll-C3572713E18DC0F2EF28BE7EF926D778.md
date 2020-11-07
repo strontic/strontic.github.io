@@ -26,15 +26,15 @@ PE256 | `F711501B9F17E57A54E20EBC8F89C859483E139CE32498E625E343C8675732F7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TetheringStationRefresh` | 7 | Exported Function
-`TetheringStationInitialize` | 6 | Exported Function
-`TetheringStationUnregisterForNotification` | 9 | Exported Function
-`TetheringStationRegisterForNotification` | 8 | Exported Function
-`TetheringStationFreeMemory` | 5 | Exported Function
-`TetheringStationDeinitialize` | 2 | Exported Function
 `TetheringStationConnect` | 1 | Exported Function
-`TetheringStationEnumerate` | 4 | Exported Function
+`TetheringStationDeinitialize` | 2 | Exported Function
 `TetheringStationDisconnect` | 3 | Exported Function
+`TetheringStationEnumerate` | 4 | Exported Function
+`TetheringStationFreeMemory` | 5 | Exported Function
+`TetheringStationInitialize` | 6 | Exported Function
+`TetheringStationRefresh` | 7 | Exported Function
+`TetheringStationRegisterForNotification` | 8 | Exported Function
+`TetheringStationUnregisterForNotification` | 9 | Exported Function
 
 
 ## Signature

@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\GamePanel.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/e6e3b0bc663c60939a2032216167a71ac9334e9bd2e0854ca0b1f40a43d69cb9/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/e6e3b0bc663c60939a2032216167a71ac9334e9bd2e0854ca0b1f40a43d69cb9/detection
 
 
 

@@ -26,9 +26,9 @@ PE256 | `0D42A1A5CF9064FF961DD75FF639D503F2ABFB726CDD422401C9C8B059C2905B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`modMessage` | 3 | Exported Function
-`modmCallback` | 4 | Exported Function
 `DriverProc` | 2 | Exported Function
+`modmCallback` | 4 | Exported Function
+`modMessage` | 3 | Exported Function
 
 
 ## Signature

@@ -28,15 +28,21 @@ PE256 | `535A846E80966662406D9F338245533CE9DACDBC0710A5F9D7C8413676733955`
 
 Path |
 -- |
+C:\Windows\system32\certenroll.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\dmcertinst.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
 
 
 ## Signature
@@ -60,8 +66,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/bc91d1ec93e1ebf081b8c76666433ed82cc1360b5e478afbe5fd7dd1f4e80831/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/bc91d1ec93e1ebf081b8c76666433ed82cc1360b5e478afbe5fd7dd1f4e80831/detection
 
 ## File Similarity (ssdeep match)
 

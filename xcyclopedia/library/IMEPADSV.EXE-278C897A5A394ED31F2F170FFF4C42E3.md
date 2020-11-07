@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\IME\SHARED\IMEPADSV.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/1d19ba091648c5c999dba1bf17c080a51bae8405b6afcd904a7dfacbe89731bb/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/1d19ba091648c5c999dba1bf17c080a51bae8405b6afcd904a7dfacbe89731bb/detection
 
 
 

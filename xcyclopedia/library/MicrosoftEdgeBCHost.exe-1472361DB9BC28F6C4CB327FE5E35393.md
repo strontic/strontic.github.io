@@ -29,10 +29,15 @@ PE256 | `4D2C6A7DDA1533B6995EBFD587717D298BB0E7C5EB5734D7FD97352E074B1C63`
 Path |
 -- |
 C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MicrosoftEdgeBCHost.exe |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WINTRUST.dll |
 
 
 ## Signature
@@ -56,8 +61,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/91a954fecd74f20b4a25708d7323e64fb4dd4e03997bcf234e7b810f9eb03a95/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/91a954fecd74f20b4a25708d7323e64fb4dd4e03997bcf234e7b810f9eb03a95/detection
 
 ## File Similarity (ssdeep match)
 

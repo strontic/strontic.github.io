@@ -26,34 +26,34 @@ PE256 | `376B4B0F7FC1FA06801BA1DFDF7CE0C12AD94EDA6030DD175D5AC9C01160ABC2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetDictationRunning` | 19 | Exported Function
-`SetFastKeyEntryEnabled` | 20 | Exported Function
-`SetFollowInsertion` | 21 | Exported Function
-`SetBrailleTablesFromReg` | 18 | Exported Function
-`SetBrailleCursorRepresentation` | 15 | Exported Function
-`SetBrailleDeviceChangeFromReg` | 16 | Exported Function
-`SetBrailleIsEnabledFromReg` | 17 | Exported Function
+`CreateAndEnqueueNarratorCommandEvent` | 1 | Exported Function
 `StopIgnoringLeaks` | 26 | Exported Function
+`StartIgnoringLeaks` | 25 | Exported Function
+`SetVoicePropertiesFromReg` | 24 | Exported Function
+`SetScriptingEnabledFromReg` | 23 | Exported Function
+`SetReadHints` | 22 | Exported Function
+`SetFollowInsertion` | 21 | Exported Function
+`SetFastKeyEntryEnabled` | 20 | Exported Function
+`SetDictationRunning` | 19 | Exported Function
+`SetBrailleTablesFromReg` | 18 | Exported Function
+`SetBrailleIsEnabledFromReg` | 17 | Exported Function
+`SetBrailleDeviceChangeFromReg` | 16 | Exported Function
+`SetBrailleCursorRepresentation` | 15 | Exported Function
+`SetBrailleBlinkingCursor` | 14 | Exported Function
+`RunNarrator` | 13 | Exported Function
+`PostTestCheckForLeaks` | 12 | Exported Function
+`IsIgnoringLeaks` | 11 | Exported Function
+`Initialize` | 10 | Exported Function
+`IgnoreLeaksInCurrentlyTrackedMemory` | 9 | Exported Function
+`GetInputLearningHelper` | 8 | Exported Function
+`GetControlAndState` | 7 | Exported Function
+`ExecuteNarratorFind` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 `UpdateErrorLoggingCallback` | 27 | Exported Function
 `UpdateNarratorSettingsFromReg` | 28 | Exported Function
-`StartIgnoringLeaks` | 25 | Exported Function
-`SetReadHints` | 22 | Exported Function
-`SetScriptingEnabledFromReg` | 23 | Exported Function
-`SetVoicePropertiesFromReg` | 24 | Exported Function
-`DllMain` | 5 | Exported Function
-`ExecuteNarratorFind` | 6 | Exported Function
-`GetControlAndState` | 7 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`CreateAndEnqueueNarratorCommandEvent` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
-`PostTestCheckForLeaks` | 12 | Exported Function
-`RunNarrator` | 13 | Exported Function
-`SetBrailleBlinkingCursor` | 14 | Exported Function
-`IsIgnoringLeaks` | 11 | Exported Function
-`GetInputLearningHelper` | 8 | Exported Function
-`IgnoreLeaksInCurrentlyTrackedMemory` | 9 | Exported Function
-`Initialize` | 10 | Exported Function
 
 
 ## Signature

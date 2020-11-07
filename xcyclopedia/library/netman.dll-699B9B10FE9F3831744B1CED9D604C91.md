@@ -26,15 +26,15 @@ PE256 | `0FCAE0C46AE51D5CA3CEA2F8067535BEDBC91CC7D99B7D7FC411D4FF564E94DA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetManDiagFromCommandArgs` | 7 | Exported Function
-`HrQueryLanMediaState` | 6 | Exported Function
-`SvchostPushServiceGlobals` | 9 | Exported Function
-`ServiceMain` | 8 | Exported Function
-`HrPnpInstanceIdFromGuid` | 5 | Exported Function
-`DllUnregisterServer` | 2 | Exported Function
 `DllRegisterServer` | 1 | Exported Function
-`HrLanConnectionNameFromGuidOrPath` | 4 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
 `HrGetPnpDeviceStatus` | 3 | Exported Function
+`HrLanConnectionNameFromGuidOrPath` | 4 | Exported Function
+`HrPnpInstanceIdFromGuid` | 5 | Exported Function
+`HrQueryLanMediaState` | 6 | Exported Function
+`NetManDiagFromCommandArgs` | 7 | Exported Function
+`ServiceMain` | 8 | Exported Function
+`SvchostPushServiceGlobals` | 9 | Exported Function
 
 
 ## Signature

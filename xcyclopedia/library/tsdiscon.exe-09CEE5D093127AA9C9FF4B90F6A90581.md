@@ -86,8 +86,8 @@ C:\Windows\system32\tsdiscon.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/4fa837762a3a76bcee46f7d34f8d2e3e4ea59a0d8f9094a8ca96144e137370f9/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/4fa837762a3a76bcee46f7d34f8d2e3e4ea59a0d8f9094a8ca96144e137370f9/detection
 
 
 

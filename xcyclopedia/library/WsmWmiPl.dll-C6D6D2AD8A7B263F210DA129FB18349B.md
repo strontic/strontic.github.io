@@ -26,45 +26,45 @@ PE256 | `AFD41D6F694F154107EF819ED7F70E5A6E7A89AD079D921D20BFC98A27FA09BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Locale::Key` | 11 | Exported Function
-`Locale::Key` | 26 | Exported Function
-`WSManPluginStartup` | 29 | Exported Function
-`WSManPluginShutdown` | 28 | Exported Function
-`Locale::Key` | 25 | Exported Function
-`CWmiPtrCache::Mapping` | 9 | Exported Function
-`Locale::Key` | 21 | Exported Function
-`Locale::Key` | 10 | Exported Function
-`CWmiPtrCache::Mapping` | 24 | Exported Function
-`WSManProvCreate` | 30 | Exported Function
-`WSManProvPut` | 37 | Exported Function
-`WSManProvPullEvents` | 36 | Exported Function
-`WSManProvUnsubscribe` | 39 | Exported Function
-`WSManProvSubscribe` | 38 | Exported Function
-`WSManProvInvoke` | 35 | Exported Function
-`WSManProvEnumerate` | 32 | Exported Function
-`WSManProvDelete` | 31 | Exported Function
-`WSManProvIdentify` | 34 | Exported Function
-`WSManProvGet` | 33 | Exported Function
-`Locale::Key` | 16 | Exported Function
-`Locale::Key` | 2 | Exported Function
-`Locale::Key` | 4 | Exported Function
-`Locale::Key` | 3 | Exported Function
-`Locale::Key` | 5 | Exported Function
-`Locale::Key` | 1 | Exported Function
-`Locale::Key` | 14 | Exported Function
 `Locale::Key` | 8 | Exported Function
-`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 | Exported Function
-`Locale::Key` | 27 | Exported Function
-`Locale::Key` | 6 | Exported Function
-`CWSManCriticalSection::GetInitError` | 17 | Exported Function
-`Locale::Key` | 19 | Exported Function
-`CWmiPtrCache::Mapping` | 20 | Exported Function
+`CWmiPtrCache::Mapping` | 9 | Exported Function
+`CWmiPtrCache::Mapping` | 24 | Exported Function
+`Locale::Key` | 10 | Exported Function
+`Locale::Key` | 25 | Exported Function
+`Locale::Key` | 26 | Exported Function
+`Locale::Key` | 11 | Exported Function
+`WSManPluginShutdown` | 28 | Exported Function
+`Locale::Key` | 21 | Exported Function
+`WSManPluginStartup` | 29 | Exported Function
+`WSManProvDelete` | 31 | Exported Function
+`WSManProvEnumerate` | 32 | Exported Function
+`WSManProvGet` | 33 | Exported Function
+`WSManProvIdentify` | 34 | Exported Function
+`WSManProvInvoke` | 35 | Exported Function
+`WSManProvPullEvents` | 36 | Exported Function
+`WSManProvPut` | 37 | Exported Function
+`WSManProvCreate` | 30 | Exported Function
+`WSManProvSubscribe` | 38 | Exported Function
+`Locale::Key` | 16 | Exported Function
 `CWmiPtrCache::Mapping` | 15 | Exported Function
-`Locale::Key` | 18 | Exported Function
-`Locale::Key` | 23 | Exported Function
+`Locale::Key` | 14 | Exported Function
+`Locale::Key` | 27 | Exported Function
+`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 | Exported Function
+`Locale::Key` | 1 | Exported Function
+`Locale::Key` | 4 | Exported Function
+`Locale::Key` | 2 | Exported Function
+`Locale::Key` | 5 | Exported Function
+`CWmiPtrCache::Mapping` | 20 | Exported Function
+`Locale::Key` | 3 | Exported Function
 `CWmiPtrCache::Mapping` | 22 | Exported Function
-`Locale::Key` | 13 | Exported Function
+`Locale::Key` | 23 | Exported Function
 `Locale::Key` | 12 | Exported Function
+`Locale::Key` | 13 | Exported Function
+`Locale::Key` | 18 | Exported Function
+`Locale::Key` | 19 | Exported Function
+`CWSManCriticalSection::GetInitError` | 17 | Exported Function
+`Locale::Key` | 6 | Exported Function
+`WSManProvUnsubscribe` | 39 | Exported Function
 
 
 ## Signature

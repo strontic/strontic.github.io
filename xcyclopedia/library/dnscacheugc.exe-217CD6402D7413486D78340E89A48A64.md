@@ -73,6 +73,7 @@ C:\Windows\system32\wdscore.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-0EA805915C512B7A68601CE5D796E63E.md) | 30
 [C:\WINDOWS\system32\dnscacheugc.exe](dnscacheugc.exe-15551D0CD29028F3B08FB1469F87B427.md) | 69
 [C:\windows\system32\dnscacheugc.exe](dnscacheugc.exe-728F97CD4946C2A6D63A78759A2B5D5C.md) | 27
 [C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-D0B5FAF9E653543DEA270ECF5C720E0C.md) | 38

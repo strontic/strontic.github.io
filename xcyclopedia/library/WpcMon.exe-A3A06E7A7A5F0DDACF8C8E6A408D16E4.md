@@ -36,7 +36,6 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\WpcMon.exe |
 
@@ -62,8 +61,8 @@ C:\Windows\system32\WpcMon.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/5bbaa50d2b9d2242cb2f83c0bef935ea170736286813b2a774c36fde34d44588/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/5bbaa50d2b9d2242cb2f83c0bef935ea170736286813b2a774c36fde34d44588/detection
 
 
 

@@ -59,8 +59,8 @@ C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/3b7ca2a56a36a3b767461c17d77f188a0308164d3e80ad39d17c13683346ca9b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3b7ca2a56a36a3b767461c17d77f188a0308164d3e80ad39d17c13683346ca9b/detection
 
 ## File Similarity (ssdeep match)
 

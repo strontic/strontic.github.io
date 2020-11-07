@@ -26,11 +26,11 @@ PE256 | `94E68CF61F5170363F63406AE6EE0147668882A773C9F167C0799523800F38B8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`EnsureVSTOComponent` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`EnsureVSTOComponent` | 1 | Exported Function
 
 
 ## Signature

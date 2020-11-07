@@ -24,18 +24,42 @@ PE256 | `5184863556165CD04B73E81BD43046CEBBEC6C25A23F0F32DBB05D5C81CA0EF9`
 
 ## Runtime Data
 
+### Child Processes:
+LockApp.exe WerFault.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\Bcp47Langs.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CoreMessaging.dll |
+C:\Windows\System32\dcomp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\iertutil.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\SYSTEM32\policymanager.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
+C:\Windows\System32\Windows.UI.Xaml.dll |
+C:\Windows\System32\WS2_32.dll |
 C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe |
 
 
@@ -60,8 +84,8 @@ C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/d4001de20554935514046db1a8d432935ffffd6a5f874adbbd8f03e603a1e155/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/d4001de20554935514046db1a8d432935ffffd6a5f874adbbd8f03e603a1e155/detection
 
 
 

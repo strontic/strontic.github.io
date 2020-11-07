@@ -26,11 +26,11 @@ PE256 | `97D92A2E684EB77691B51978DB96AE69D091DACFA3722431A84886DDCA775A35`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetCtacPropertyAlloc` | 5 | Exported Function
-`ModifyStagingControls` | 1 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`GetCtacPropertyAlloc` | 5 | Exported Function
+`ModifyStagingControls` | 1 | Exported Function
 
 
 ## Signature

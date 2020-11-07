@@ -26,12 +26,12 @@ PE256 | `437661F2605BA90CD3ABAA0A2B9399A785C8A209C893B85854CD322B74EE53C6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetEntriesInAclW` | 4 | Exported Function
-`SetNamedSecurityInfoW` | 5 | Exported Function
-`SetSecurityInfo` | 6 | Exported Function
 `GetExplicitEntriesFromAclW` | 1 | Exported Function
 `GetNamedSecurityInfoW` | 2 | Exported Function
 `GetSecurityInfo` | 3 | Exported Function
+`SetEntriesInAclW` | 4 | Exported Function
+`SetNamedSecurityInfoW` | 5 | Exported Function
+`SetSecurityInfo` | 6 | Exported Function
 
 
 ## Signature

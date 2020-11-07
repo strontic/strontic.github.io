@@ -28,15 +28,25 @@ PE256 | `84EDDF36D8C38F74EAF263F5907F1A29C074E86BAAF1DD10E5840A0EA5704E9A`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
 C:\Windows\system32\DTUHandler.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -60,8 +70,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/72b7b45dcab185602d127ce4e70cbaee63f83d7c9f16a0b82b559888481cd39e/detection/
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/72b7b45dcab185602d127ce4e70cbaee63f83d7c9f16a0b82b559888481cd39e/detection
 
 ## File Similarity (ssdeep match)
 

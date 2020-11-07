@@ -29,13 +29,16 @@ PE256 | `5DF2D0921E9AC17B0E184709846FA6614F8395B023D0E516F895F19746C72340`
 Path | Type
 -- | --
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -70,8 +73,8 @@ C:\Windows\SysWOW64\wsmprovhost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/4fc5d087e446aaa807946a54f99a7ca2083374cfacb87e01bbfe8e76a137d91f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/4fc5d087e446aaa807946a54f99a7ca2083374cfacb87e01bbfe8e76a137d91f/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,13 +26,13 @@ PE256 | `93F0F37490ECC9D85CB0563B541236B69B55C982C9C30C387510F7E00D89A1DA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 5 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
 `DirectInputCreateA` | 1 | Exported Function
 `DirectInputCreateEx` | 2 | Exported Function
 `DirectInputCreateW` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
 
 
 ## Signature

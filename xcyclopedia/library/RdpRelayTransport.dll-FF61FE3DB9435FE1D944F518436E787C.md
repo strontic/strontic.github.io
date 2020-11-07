@@ -26,11 +26,11 @@ PE256 | `13DFFCDE53C097D5A7A3BB7864C4CEA23F60BD2992428330AD2903F7166EEC43`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`RDPAPI_CreateInstance` | 5 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`RDPAPI_CreateInstance` | 5 | Exported Function
 
 
 ## Signature

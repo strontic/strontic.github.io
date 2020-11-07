@@ -26,9 +26,9 @@ PE256 | `01302AD51ECFE6C5543D1060653D813A2BE8A74BFBCDC6CC99B21DE28C8152C4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RtcOrtcGetBrokerFactory` | 3 | Exported Function
-`RtcOrtcFree` | 2 | Exported Function
 `RtcOrtcAlloc` | 1 | Exported Function
+`RtcOrtcFree` | 2 | Exported Function
+`RtcOrtcGetBrokerFactory` | 3 | Exported Function
 
 
 ## Signature

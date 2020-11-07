@@ -26,10 +26,10 @@ PE256 | `5D5489A16672A868BF539AA7CB79FDCD2E26515ED72FA36F506C166741EC41AF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FlsGetValue` | 3 | Exported Function
-`FlsSetValue` | 4 | Exported Function
 `FlsAlloc` | 1 | Exported Function
 `FlsFree` | 2 | Exported Function
+`FlsGetValue` | 3 | Exported Function
+`FlsSetValue` | 4 | Exported Function
 
 
 ## Signature

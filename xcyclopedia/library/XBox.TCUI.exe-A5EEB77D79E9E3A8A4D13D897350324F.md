@@ -24,6 +24,28 @@ PE256 | `4B94827593A1AED1C596C2BC6380F60CCCE3900CCA49D0B59DEBBCEBBA3F0EF3`
 
 ## Runtime Data
 
+### Child Processes:
+XBox.TCUI.exe WerFault.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.InteropServices.WindowsRuntime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.WindowsRuntime.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll | File
+(R-D)   C:\Windows\System32\WinMetadata\Windows.UI.Xaml.winmd | File
+(RW-)   C:\Users\user | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_5668 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
 ### Loaded Modules:
 
 Path |
@@ -60,8 +82,8 @@ C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy\XBox.TCUI.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/159e6cc7ce57cab0130f910e2852a8456511b286827b9be11bd3abc53bff7464/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/159e6cc7ce57cab0130f910e2852a8456511b286827b9be11bd3abc53bff7464/detection
 
 
 

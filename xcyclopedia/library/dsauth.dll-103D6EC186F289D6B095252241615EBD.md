@@ -26,30 +26,30 @@ PE256 | `92CD38C7B4B00092A1CAB0CB0CEBFBA5E7B8B4C9AA4B9B40881A6B60C4E45884`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StoreCollectAttributes` | 16 | Exported Function
-`StoreCreateObjectVA` | 17 | Exported Function
-`StoreDeleteObject` | 18 | Exported Function
-`DhcpEnumServersDS` | 13 | Exported Function
-`StoreBeginSearch` | 14 | Exported Function
-`StoreCleanupHandle` | 15 | Exported Function
+`DhcpAddServerDS` | 1 | Exported Function
 `StoreSearchGetNext` | 22 | Exported Function
+`StoreInitHandle` | 21 | Exported Function
+`StoreGetHandle` | 20 | Exported Function
+`StoreEndSearch` | 19 | Exported Function
+`StoreDeleteObject` | 18 | Exported Function
+`StoreCreateObjectVA` | 17 | Exported Function
+`StoreCollectAttributes` | 16 | Exported Function
+`StoreCleanupHandle` | 15 | Exported Function
+`StoreBeginSearch` | 14 | Exported Function
+`DhcpEnumServersDS` | 13 | Exported Function
+`DhcpDsValidateService` | 12 | Exported Function
+`DhcpDsSetLists` | 11 | Exported Function
+`DhcpDsInitDS` | 10 | Exported Function
+`DhcpDsGetRoot` | 9 | Exported Function
+`DhcpDsGetLists` | 8 | Exported Function
+`DhcpDsGetAttribs` | 7 | Exported Function
+`DhcpDsEnumServers` | 6 | Exported Function
+`DhcpDsDelServer` | 5 | Exported Function
+`DhcpDsCleanupDS` | 4 | Exported Function
+`DhcpDsAddServer` | 3 | Exported Function
+`DhcpDeleteServerDS` | 2 | Exported Function
 `StoreSetSearchOneLevel` | 23 | Exported Function
 `StoreSetSearchSubTree` | 24 | Exported Function
-`StoreEndSearch` | 19 | Exported Function
-`StoreGetHandle` | 20 | Exported Function
-`StoreInitHandle` | 21 | Exported Function
-`DhcpDsCleanupDS` | 4 | Exported Function
-`DhcpDsDelServer` | 5 | Exported Function
-`DhcpDsEnumServers` | 6 | Exported Function
-`DhcpAddServerDS` | 1 | Exported Function
-`DhcpDeleteServerDS` | 2 | Exported Function
-`DhcpDsAddServer` | 3 | Exported Function
-`DhcpDsInitDS` | 10 | Exported Function
-`DhcpDsSetLists` | 11 | Exported Function
-`DhcpDsValidateService` | 12 | Exported Function
-`DhcpDsGetAttribs` | 7 | Exported Function
-`DhcpDsGetLists` | 8 | Exported Function
-`DhcpDsGetRoot` | 9 | Exported Function
 
 
 ## Signature

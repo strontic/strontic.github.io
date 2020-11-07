@@ -24,31 +24,33 @@ PE256 | `002F67457584DBBADE61A7DA78F76FB2BCB86B1E7A31C205F25DC9C1195D79A8`
 
 ## Runtime Data
 
-### Window Title:
-Narrator
-
 ### Open Handles:
 
 Path | Type
 -- | --
 (R--)   C:\Windows\Speech_OneCore\Engines\TTS\en-US\NUSData\M1033David.keyboard.WVE | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\iertutil.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Narrator.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\SRH.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\UIAutomationCore.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows\System32 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\{E14EB35E-E892-4B23-AB97-72111D8B3C73}-Map-S-1-16-12288 | Section
-\Sessions\1\BaseNamedObjects\{F8BDA04D-6FF5-4AC2-A2F2-603D961D4A0C}-Map-GLOBAL | Section
+\Sessions\1\BaseNamedObjects\{5E6CDA55-1D71-45C1-BA9C-4BC211F21144}-Map-S-1-16-12288 | Section
+\Sessions\1\BaseNamedObjects\{CD8A2F99-D174-410A-BAA8-163C638DA211}-Map-GLOBAL | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -56,14 +58,11 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\SYSTEM32\Bcp47Langs.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\DUI70.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -78,12 +77,10 @@ C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\SYSTEM32\SRH.DLL |
 C:\Windows\system32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\UIAutomationCore.DLL |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -108,8 +105,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/5012f2ac4ca5a6f8d49f97015c1e6cad6581979c386ec947bab64e193c82e877/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/5012f2ac4ca5a6f8d49f97015c1e6cad6581979c386ec947bab64e193c82e877/detection
 
 
 ## Possible Misuse

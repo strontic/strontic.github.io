@@ -43,8 +43,8 @@ PE256 | `42F4262A2217DB3AFEAF292313BA34C9771ADE8768CD4412C125134B81225D52`
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/b903052e0d28c704bb0d7c1a36eced237369c7ae0418145d4bb65c63005cda2f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/b903052e0d28c704bb0d7c1a36eced237369c7ae0418145d4bb65c63005cda2f/detection
 
 
 

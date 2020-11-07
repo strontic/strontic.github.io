@@ -26,12 +26,12 @@ PE256 | `4FD07282C6630A9DA3D592FAC0EEC05AF2AC662054523257C22E44A6D1EBD5AC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 10 | Exported Function
-`CCachedDataPathProperty::classCCachedDataPathProperty` | 5 | Exported Function
-`CDataPathProperty::classCDataPathProperty` | 6 | Exported Function
 `DllCanUnloadNow` | 7 | Exported Function
 `DllGetClassObject` | 8 | Exported Function
 `DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`CCachedDataPathProperty::classCCachedDataPathProperty` | 5 | Exported Function
+`CDataPathProperty::classCDataPathProperty` | 6 | Exported Function
 
 
 ## Signature

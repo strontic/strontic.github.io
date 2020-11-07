@@ -26,13 +26,13 @@ PE256 | `2814F509C05311F2C1A151DFD4B8D9546FD356E245D759655D2CAD819FB47FBB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DtcPerfCollect` | 5 | Exported Function
-`DtcPerfOpen` | 6 | Exported Function
-`PerfDllRegisterServer` | 7 | Exported Function
-`DtcPerfClose` | 4 | Exported Function
 `DllGetClassObject` | 1 | Exported Function
 `DllRegisterServer` | 2 | Exported Function
 `DllUnregisterServer` | 3 | Exported Function
+`DtcPerfClose` | 4 | Exported Function
+`DtcPerfCollect` | 5 | Exported Function
+`DtcPerfOpen` | 6 | Exported Function
+`PerfDllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

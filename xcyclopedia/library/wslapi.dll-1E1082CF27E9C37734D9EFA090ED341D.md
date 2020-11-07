@@ -26,13 +26,13 @@ PE256 | `467E282715887CC405F0AAA77FA1C93DC5BC03FF59B28CF74C3525280B210FE0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WslLaunchInteractive` | 5 | Exported Function
-`WslRegisterDistribution` | 6 | Exported Function
-`WslUnregisterDistribution` | 7 | Exported Function
-`WslLaunch` | 4 | Exported Function
 `WslConfigureDistribution` | 1 | Exported Function
 `WslGetDistributionConfiguration` | 2 | Exported Function
 `WslIsDistributionRegistered` | 3 | Exported Function
+`WslLaunch` | 4 | Exported Function
+`WslLaunchInteractive` | 5 | Exported Function
+`WslRegisterDistribution` | 6 | Exported Function
+`WslUnregisterDistribution` | 7 | Exported Function
 
 
 ## Signature

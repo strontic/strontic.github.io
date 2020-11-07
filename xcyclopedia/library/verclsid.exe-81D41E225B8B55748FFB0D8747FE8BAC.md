@@ -30,10 +30,8 @@ Path |
 -- |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
@@ -64,8 +62,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/ac6e1f614cb902c0abe4297646e21c70590624b652a080bfbb8407b1ab52609d/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac6e1f614cb902c0abe4297646e21c70590624b652a080bfbb8407b1ab52609d/detection
 
 
 ## Possible Misuse

@@ -26,18 +26,18 @@ PE256 | `627AA47EEF6CD3130B63FA08717CF480CBEEA1CA7929D848214B38B8D10EA125`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RunSyncController` | 1 | Exported Function
-`GetTemplatePackageIds` | 4 | Exported Function
-`GetShellTemplatePackageIds` | 13 | Exported Function
-`StopProcessWatcherDriver` | 6 | Exported Function
-`StartProcessWatcherDriver` | 5 | Exported Function
-`RunSyncControllerAsync` | 2 | Exported Function
-`GetProfileRepositoryBasePath` | 11 | Exported Function
-`GetOriginalRepositoryPath` | 12 | Exported Function
 `GetAssociatedTemplateList` | 3 | Exported Function
-`GetRepositoryPathFromTemplate` | 7 | Exported Function
-`GetRepositoryPathForWin8Apps` | 8 | Exported Function
+`GetOriginalRepositoryPath` | 12 | Exported Function
+`GetProfileRepositoryBasePath` | 11 | Exported Function
 `GetProfileRepositoryBasePathForMachine` | 9 | Exported Function
+`GetRepositoryPathForWin8Apps` | 8 | Exported Function
+`GetRepositoryPathFromTemplate` | 7 | Exported Function
+`GetShellTemplatePackageIds` | 13 | Exported Function
+`GetTemplatePackageIds` | 4 | Exported Function
+`RunSyncController` | 1 | Exported Function
+`RunSyncControllerAsync` | 2 | Exported Function
+`StartProcessWatcherDriver` | 5 | Exported Function
+`StopProcessWatcherDriver` | 6 | Exported Function
 
 
 ## Signature

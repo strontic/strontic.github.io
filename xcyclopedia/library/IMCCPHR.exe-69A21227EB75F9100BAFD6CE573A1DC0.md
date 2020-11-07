@@ -28,27 +28,6 @@ PE256 | `00D35E8294F23123551A9B6540515072F9FF139BB0091703EB999F544309F74E`
 
 ## Runtime Data
 
-### Child Processes:
-explorer.exe
-
-### Window Title:
-User-defined Phrase Tool for Microsoft Pinyin IME
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -81,8 +60,8 @@ C:\Windows\SysWOW64\IME\SHARED\IMCCPHR.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/227a008863401d4c6d070a361cc036240add4adaa9f715d11575a8a99a92aa2e/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/227a008863401d4c6d070a361cc036240add4adaa9f715d11575a8a99a92aa2e/detection
 
 ## File Similarity (ssdeep match)
 

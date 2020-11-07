@@ -26,15 +26,15 @@ PE256 | `59A976E7524E1514C434A8F6ABF0E2B3A97F81E4A4AE5D28D4156597089822C4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SCCDParseFile` | 7 | Exported Function
-`SCCDFreeParsedElements` | 6 | Exported Function
-`SCCDValidateCatalogFile` | 9 | Exported Function
-`SCCDValidateAppxFile` | 8 | Exported Function
-`QueryApplicationCapabilitiesEx` | 5 | Exported Function
-`ProvisionApplicationCapabilities` | 2 | Exported Function
 `DeprovisionApplicationCapabilities` | 1 | Exported Function
-`QueryApplicationCapabilities` | 4 | Exported Function
+`ProvisionApplicationCapabilities` | 2 | Exported Function
 `ProvisionApplicationCapabilitiesEx` | 3 | Exported Function
+`QueryApplicationCapabilities` | 4 | Exported Function
+`QueryApplicationCapabilitiesEx` | 5 | Exported Function
+`SCCDFreeParsedElements` | 6 | Exported Function
+`SCCDParseFile` | 7 | Exported Function
+`SCCDValidateAppxFile` | 8 | Exported Function
+`SCCDValidateCatalogFile` | 9 | Exported Function
 
 
 ## Signature

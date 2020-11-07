@@ -43,8 +43,8 @@ PE256 | `5D83F8C576143DC88F93D9A896130BF20389F471A6AA0FF80AAE079D36E82E8F`
 
 ## File Scan
 
-* VirusTotal Detections: 1/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/a167b3de2df58ab035602223daf33fc807f01fbe901edc7bd1913b43d5172541/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/a167b3de2df58ab035602223daf33fc807f01fbe901edc7bd1913b43d5172541/detection
 
 ## File Similarity (ssdeep match)
 

@@ -70,6 +70,7 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Windows\system32\6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll](6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll-513E16B14C2E8DE6AEA439153A9733FD.md) | 32
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-D1B722A188C84E5059765FA87E8C5F32.md) | 86
 [C:\Windows\system32\LocationFrameworkPS.dll](LocationFrameworkPS.dll-FBF3B3CCC037AD1D9FC36C28D0E29A25.md) | 32
 [C:\Windows\system32\migwiz\migres.dll](migres.dll-E937B164DC2D2A03490AC3EB9D5875B2.md) | 25
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 27
@@ -77,6 +78,8 @@ File | Score
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 29
 [C:\Windows\system32\WerEnc.dll](WerEnc.dll-57896D83DAD20250B3878747AB6115F6.md) | 30
 [C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe](UndockedDevKit.exe-C1FD0D396683E3F59646E4CEC2A55A85.md) | 29
+[C:\Windows\SysWOW64\backgroundTaskHost.exe](backgroundTaskHost.exe-F290D12F0351B56708B3DF1EC26CB45B.md) | 29
+[C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-6F3C9485F8F97AC04C8E43EF4463A68C.md) | 32
 [C:\Windows\SysWOW64\ResourcePolicyClient.dll](ResourcePolicyClient.dll-AA11A4DDE5147A0EEBB147140A1AD6EF.md) | 36
 [C:\Windows\SysWOW64\WerEnc.dll](WerEnc.dll-F4C2183256B20B62EBD7C9397F0C5D85.md) | 29
 

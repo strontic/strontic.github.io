@@ -26,9 +26,9 @@ PE256 | `106E734F2EE7029EA00657FF4AD938B4B67721C07271A15514B622CDC6159D88`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `CreatePasswordProviderWrapperInstance` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

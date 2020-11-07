@@ -26,22 +26,22 @@ PE256 | `477DF5157AD6483AB355477B9749F2BCE552D2FA75EA9BC2FB006858F526B8D3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VirtualFreeEx` | 11 | Exported Function
-`VirtualProtect` | 12 | Exported Function
-`VirtualAllocEx` | 9 | Exported Function
-`VirtualFree` | 10 | Exported Function
-`VirtualQueryEx` | 15 | Exported Function
-`WriteProcessMemory` | 16 | Exported Function
-`VirtualProtectEx` | 13 | Exported Function
-`VirtualQuery` | 14 | Exported Function
-`MapViewOfFile` | 3 | Exported Function
-`MapViewOfFileEx` | 4 | Exported Function
 `CreateFileMappingW` | 1 | Exported Function
 `FlushViewOfFile` | 2 | Exported Function
-`UnmapViewOfFile` | 7 | Exported Function
-`VirtualAlloc` | 8 | Exported Function
+`MapViewOfFile` | 3 | Exported Function
+`MapViewOfFileEx` | 4 | Exported Function
 `OpenFileMappingW` | 5 | Exported Function
 `ReadProcessMemory` | 6 | Exported Function
+`UnmapViewOfFile` | 7 | Exported Function
+`VirtualAlloc` | 8 | Exported Function
+`VirtualAllocEx` | 9 | Exported Function
+`VirtualFree` | 10 | Exported Function
+`VirtualFreeEx` | 11 | Exported Function
+`VirtualProtect` | 12 | Exported Function
+`VirtualProtectEx` | 13 | Exported Function
+`VirtualQuery` | 14 | Exported Function
+`VirtualQueryEx` | 15 | Exported Function
+`WriteProcessMemory` | 16 | Exported Function
 
 
 ## Signature

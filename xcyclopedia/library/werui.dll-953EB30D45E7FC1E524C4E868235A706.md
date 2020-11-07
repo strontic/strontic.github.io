@@ -26,25 +26,25 @@ PE256 | `47BA3E4D87CEAEF6774174FE12FE5C26FF0C8DA73E80E62EECC2A6B1CCAC39A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WerUIReportSilentProcessExit` | 1 | Exported Function
-`WerUIShowUpsell` | 7 | Exported Function
-`WerUIpTaskDialogIndirect` | 18 | Exported Function
-`WerUIpUIHandleWERWindowMsg` | 19 | Exported Function
-`WerUIStart` | 8 | Exported Function
-`WerUIUpdateUIForState` | 11 | Exported Function
-`WerUIWaitForUserAction` | 12 | Exported Function
-`WerUITerminate` | 9 | Exported Function
-`WerUIUpdateStateProgress` | 10 | Exported Function
-`WerUIpSetWindowSubclass` | 17 | Exported Function
-`WerUIGetUserSelection` | 4 | Exported Function
-`WerUIpCheckWindow` | 13 | Exported Function
 `WerUICreate` | 2 | Exported Function
-`WerUIDelete` | 3 | Exported Function
-`WerUIpDefSubclassProc` | 14 | Exported Function
+`WerUIUpdateStateProgress` | 10 | Exported Function
+`WerUITerminate` | 9 | Exported Function
+`WerUIStart` | 8 | Exported Function
+`WerUIShowUpsell` | 7 | Exported Function
+`WerUIReportSilentProcessExit` | 1 | Exported Function
+`WerUIpUIHandleWERWindowMsg` | 19 | Exported Function
+`WerUIpTaskDialogIndirect` | 18 | Exported Function
+`WerUIUpdateUIForState` | 11 | Exported Function
+`WerUIpSetWindowSubclass` | 17 | Exported Function
 `WerUIPromptForSecondLevel` | 5 | Exported Function
-`WerUIPromptUser` | 6 | Exported Function
-`WerUIpHeadlessOrImersive` | 15 | Exported Function
 `WerUIpRemoveWindowSubclass` | 16 | Exported Function
+`WerUIpHeadlessOrImersive` | 15 | Exported Function
+`WerUIpDefSubclassProc` | 14 | Exported Function
+`WerUIpCheckWindow` | 13 | Exported Function
+`WerUIGetUserSelection` | 4 | Exported Function
+`WerUIDelete` | 3 | Exported Function
+`WerUIPromptUser` | 6 | Exported Function
+`WerUIWaitForUserAction` | 12 | Exported Function
 
 
 ## Signature
@@ -87,12 +87,14 @@ File | Score
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-BBF0F7C628D7487C47CD0B78C2DF0676.md) | 54
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C0055D829C7FF7734EE77EE11B188A05.md) | 58
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C401D20C96E687E9F68DF87D938541EE.md) | 47
+[C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-DE56B2A5785ED06A8D1A6EC23F9FDF37.md) | 47
 [C:\Windows\system32\wermgr.exe](wermgr.exe-319F191E142B2720AE7E200F31E5413A.md) | 43
 [C:\Windows\system32\wermgr.exe](wermgr.exe-51F8D9C50CCF160D67388651DB19AC28.md) | 50
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 50
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 43
 [C:\Windows\system32\wermgr.exe](wermgr.exe-CD042F94B63D67E012CFB4297D313248.md) | 41
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 46
+[C:\Windows\system32\wermgr.exe](wermgr.exe-E856524BF40EB2A050195C39989C8DD5.md) | 47
 [C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 47
 [C:\windows\system32\wermgr.exe](wermgr.exe-F88816F787B827695928ACE239A9F61C.md) | 52
 [C:\Windows\system32\werui.dll](werui.dll-454935331402DA8B9A7AD0508BA2766F.md) | 46
@@ -104,11 +106,13 @@ File | Score
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-504211A31F3A16D3FAD61A8451D08EFD.md) | 40
 [C:\WINDOWS\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-5DF1A6DC202D24CED14830637F145F48.md) | 49
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-8629A5FC8B5A38E6BCA9160BCAE2B817.md) | 52
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-CD4F627126DA5122B6D4411131ED7DA6.md) | 43
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-F511182849011A1DBF635A34C1278C63.md) | 54
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-0F652BF7ADA772981E8AAB0D108FCC92.md) | 50
 [C:\windows\SysWOW64\wermgr.exe](wermgr.exe-1908E6DCCB5C330CCF3F0AD7E83FA4FD.md) | 50
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-2B5F4FFF330CD1B3B921DAF77330C205.md) | 44
 [C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 41
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-4C68AD8928D6DE43040805B45118212C.md) | 38
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-DEF33E6FF117395A2F1BF5A06D0988E1.md) | 40
 
 

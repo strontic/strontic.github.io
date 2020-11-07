@@ -26,9 +26,9 @@ PE256 | `0BAF62E29C3CE4E31AF70628E0F7CAF594AA25BF5DDF08BFD6FF1896776C50B5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UnregisterDeviceWithLocalManagement` | 3 | Exported Function
-`RegisterDeviceWithLocalManagement` | 2 | Exported Function
 `ApplyLocalManagementSyncML` | 1 | Exported Function
+`RegisterDeviceWithLocalManagement` | 2 | Exported Function
+`UnregisterDeviceWithLocalManagement` | 3 | Exported Function
 
 
 ## Signature

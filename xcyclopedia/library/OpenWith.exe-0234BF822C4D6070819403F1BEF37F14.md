@@ -28,7 +28,6 @@ PE256 | `EF8B572CEBA69062BA2A2732BC6CE10F35A62A21ED66B4D697B33AF7EC557D61`
 
 Path | Type
 -- | --
-(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\OpenWith.exe.mui | File
@@ -37,7 +36,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
 (R-D)   C:\Windows\SystemResources\twinui.dll.mun | File
 (R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows\System32 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
@@ -62,6 +61,7 @@ Path |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -99,8 +99,8 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/e108bac5a0d02952ea6b2ef4eafdcb38017934525175e85be70012d406476d22/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/e108bac5a0d02952ea6b2ef4eafdcb38017934525175e85be70012d406476d22/detection
 
 ## File Similarity (ssdeep match)
 

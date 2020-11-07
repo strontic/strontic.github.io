@@ -26,16 +26,16 @@ PE256 | `77EAC2032F90B85BB79AEB858AE1069DAFA47B0574B686426D1B5394CD09D4C3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsMediaBehaviorEnabled` | 7 | Exported Function
-`InstantiateComponentFromPackage` | 6 | Exported Function
-`RegisterServerForPMP` | 8 | Exported Function
-`UnregisterServerForPMP` | 10 | Exported Function
-`RequireNetworkDuringMediaTaskCompletion` | 9 | Exported Function
-`GetMediaComponentPackageInfo` | 2 | Exported Function
 `AreDvdCodecsEnabled` | 1 | Exported Function
+`GetMediaComponentPackageInfo` | 2 | Exported Function
 `GetMediaExtensionCommunicationFactory` | 3 | Exported Function
-`GetServerForPMP` | 5 | Exported Function
 `GetNetworkRequestCount` | 4 | Exported Function
+`GetServerForPMP` | 5 | Exported Function
+`InstantiateComponentFromPackage` | 6 | Exported Function
+`IsMediaBehaviorEnabled` | 7 | Exported Function
+`RegisterServerForPMP` | 8 | Exported Function
+`RequireNetworkDuringMediaTaskCompletion` | 9 | Exported Function
+`UnregisterServerForPMP` | 10 | Exported Function
 
 
 ## Signature

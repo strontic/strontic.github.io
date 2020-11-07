@@ -26,31 +26,31 @@ PE256 | `EF6DFFF1F2457ACE741E756116C16DA5193861E2A0D7A1C697385C9D59B983C2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MathBuildDown` | 18 | Exported Function
-`MathBuildUp` | 17 | Exported Function
-`MathTranslate` | 19 | Exported Function
-`IID_ITextHost2` | 7 | Exported Function
-`IID_ITextServices` | 5 | Exported Function
-`IID_ITextServices2` | 25 | Exported Function
-`SetCustomTextOutHandlerEx` | 11 | Exported Function
-`SetTextServicesDpiCalculationOverride` | 36 | Exported Function
-`ShutdownTextServices` | 35 | Exported Function
-`RichEdit10ANSIWndProc` | 10 | Exported Function
-`RichEditANSIWndProc` | 9 | Exported Function
-`RichEditWndProc` | 13 | Exported Function
-`IID_ITextHost` | 6 | Exported Function
-`DllGetVersion` | 12 | Exported Function
-`GetMathAlphanumeric` | 22 | Exported Function
-`GetMathAlphanumericCode` | 21 | Exported Function
 `_DisableOleinitCheck@0` | 8 | Exported Function
-`CreateTextServices` | 4 | Exported Function
-`DllGetActivationFactory` | 26 | Exported Function
-`IID_IRicheditUiaOverrides` | 33 | Exported Function
+`SetCustomTextOutHandlerEx` | 11 | Exported Function
+`RichEditWndProc` | 13 | Exported Function
+`RichEditANSIWndProc` | 9 | Exported Function
+`RichEdit10ANSIWndProc` | 10 | Exported Function
+`MathTranslate` | 19 | Exported Function
+`MathBuildUp` | 17 | Exported Function
+`MathBuildDown` | 18 | Exported Function
+`IID_ITextServices2` | 25 | Exported Function
+`IID_ITextServices` | 5 | Exported Function
+`IID_ITextHost2` | 7 | Exported Function
+`SetTextServicesDpiCalculationOverride` | 36 | Exported Function
+`IID_ITextHost` | 6 | Exported Function
 `IID_IRicheditWindowlessAccessibility` | 32 | Exported Function
-`IID_ITextDocument2` | 24 | Exported Function
-`IID_IRichEditOle` | 2 | Exported Function
-`IID_IRichEditOleCallback` | 3 | Exported Function
+`IID_IRicheditUiaOverrides` | 33 | Exported Function
 `IID_IRicheditUiaNotificationOverrides` | 37 | Exported Function
+`IID_IRichEditOleCallback` | 3 | Exported Function
+`IID_IRichEditOle` | 2 | Exported Function
+`GetMathAlphanumericCode` | 21 | Exported Function
+`GetMathAlphanumeric` | 22 | Exported Function
+`DllGetVersion` | 12 | Exported Function
+`DllGetActivationFactory` | 26 | Exported Function
+`CreateTextServices` | 4 | Exported Function
+`IID_ITextDocument2` | 24 | Exported Function
+`ShutdownTextServices` | 35 | Exported Function
 
 
 ## Signature

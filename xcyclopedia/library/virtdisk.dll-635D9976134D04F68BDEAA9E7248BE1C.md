@@ -26,35 +26,35 @@ PE256 | `9299654B82DB1B147013D1A21D56CBD1737B8EAD0407B19CA5C136CBBFB47231`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MergeVirtualDisk` | 20 | Exported Function
-`MirrorVirtualDisk` | 21 | Exported Function
-`ModifyVhdSet` | 22 | Exported Function
-`GetVirtualDiskPhysicalPath` | 19 | Exported Function
-`GetVirtualDiskInformation` | 16 | Exported Function
-`GetVirtualDiskMetadata` | 17 | Exported Function
-`GetVirtualDiskOperationProgress` | 18 | Exported Function
-`SetVirtualDiskInformation` | 27 | Exported Function
-`SetVirtualDiskMetadata` | 28 | Exported Function
-`TakeSnapshotVhdSet` | 29 | Exported Function
-`ResizeVirtualDisk` | 26 | Exported Function
-`OpenVirtualDisk` | 23 | Exported Function
-`QueryChangesVirtualDisk` | 24 | Exported Function
-`RawSCSIVirtualDisk` | 25 | Exported Function
-`GetStorageDependencyInformation` | 15 | Exported Function
-`CompactVirtualDisk` | 5 | Exported Function
-`CompleteForkVirtualDisk` | 6 | Exported Function
-`CreateVirtualDisk` | 7 | Exported Function
-`BreakMirrorVirtualDisk` | 4 | Exported Function
 `AddVirtualDiskParent` | 1 | Exported Function
-`ApplySnapshotVhdSet` | 2 | Exported Function
-`AttachVirtualDisk` | 3 | Exported Function
-`ExpandVirtualDisk` | 12 | Exported Function
+`SetVirtualDiskInformation` | 27 | Exported Function
+`ResizeVirtualDisk` | 26 | Exported Function
+`RawSCSIVirtualDisk` | 25 | Exported Function
+`QueryChangesVirtualDisk` | 24 | Exported Function
+`OpenVirtualDisk` | 23 | Exported Function
+`ModifyVhdSet` | 22 | Exported Function
+`MirrorVirtualDisk` | 21 | Exported Function
+`MergeVirtualDisk` | 20 | Exported Function
+`GetVirtualDiskPhysicalPath` | 19 | Exported Function
+`GetVirtualDiskOperationProgress` | 18 | Exported Function
+`GetVirtualDiskMetadata` | 17 | Exported Function
+`GetVirtualDiskInformation` | 16 | Exported Function
+`SetVirtualDiskMetadata` | 28 | Exported Function
+`GetStorageDependencyInformation` | 15 | Exported Function
 `ForkVirtualDisk` | 13 | Exported Function
-`GetAllAttachedVirtualDiskPhysicalPaths` | 14 | Exported Function
+`ExpandVirtualDisk` | 12 | Exported Function
 `EnumerateVirtualDiskMetadata` | 11 | Exported Function
-`DeleteSnapshotVhdSet` | 8 | Exported Function
-`DeleteVirtualDiskMetadata` | 9 | Exported Function
 `DetachVirtualDisk` | 10 | Exported Function
+`DeleteVirtualDiskMetadata` | 9 | Exported Function
+`DeleteSnapshotVhdSet` | 8 | Exported Function
+`CreateVirtualDisk` | 7 | Exported Function
+`CompleteForkVirtualDisk` | 6 | Exported Function
+`CompactVirtualDisk` | 5 | Exported Function
+`BreakMirrorVirtualDisk` | 4 | Exported Function
+`AttachVirtualDisk` | 3 | Exported Function
+`ApplySnapshotVhdSet` | 2 | Exported Function
+`GetAllAttachedVirtualDiskPhysicalPaths` | 14 | Exported Function
+`TakeSnapshotVhdSet` | 29 | Exported Function
 
 
 ## Signature

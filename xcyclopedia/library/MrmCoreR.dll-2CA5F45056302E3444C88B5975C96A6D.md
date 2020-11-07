@@ -26,24 +26,24 @@ PE256 | `14D9255A9BBA445A5F4D9CDCA06015ED6378D99A3AD98AFF3CCD3EC185A3C126`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ResourceManagerQueueGetMrtCachePathForPackage` | 12 | Exported Function
-`ResourceManagerQueueGetString` | 13 | Exported Function
-`ResourceManagerQueueGetCurrentDepth` | 10 | Exported Function
-`ResourceManagerQueueGetGlobalFlags` | 11 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`ResourceManagerQueueReset` | 16 | Exported Function
+`ResourceManagerQueueIsResourceReference` | 15 | Exported Function
 `ResourceManagerQueueGetStringDirect` | 14 | Exported Function
+`ResourceManagerQueueGetString` | 13 | Exported Function
+`ResourceManagerQueueGetMrtCachePathForPackage` | 12 | Exported Function
+`ResourceManagerQueueGetGlobalFlags` | 11 | Exported Function
+`ResourceManagerQueueGetCurrentDepth` | 10 | Exported Function
+`MergeSystemPriFiles` | 9 | Exported Function
+`MergeResourcePackPri` | 8 | Exported Function
+`GetStringValueForManifestField` | 7 | Exported Function
+`GetMergedSystemPriEx` | 6 | Exported Function
+`GetMergedSystemPri` | 5 | Exported Function
+`GetInternalReferenceBlobForManifestValue` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 `ResourceManagerQueueSetGlobalFlags` | 17 | Exported Function
 `ShouldMergeInproc` | 18 | Exported Function
-`ResourceManagerQueueIsResourceReference` | 15 | Exported Function
-`ResourceManagerQueueReset` | 16 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`GetInternalReferenceBlobForManifestValue` | 4 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`GetMergedSystemPri` | 5 | Exported Function
-`MergeResourcePackPri` | 8 | Exported Function
-`MergeSystemPriFiles` | 9 | Exported Function
-`GetMergedSystemPriEx` | 6 | Exported Function
-`GetStringValueForManifestField` | 7 | Exported Function
 
 
 ## Signature

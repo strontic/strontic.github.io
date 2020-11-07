@@ -26,8 +26,8 @@ PE256 | `4BD6758E914A50672A0943746809CC4BDA8B8632A8EEBD90BC8B60FBA5E76C87`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ExtensionInit` | 2 | Exported Function
 `DllMain` | 1 | Exported Function
+`ExtensionInit` | 2 | Exported Function
 
 
 ## Signature

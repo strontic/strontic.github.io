@@ -26,12 +26,12 @@ PE256 | `18A225FCE062CAC2613104825F5D3B845F3D2C2BA395D21CD23346DA3E968065`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 6 | Exported Function
-`FreeDumpStreams` | 1 | Exported Function
-`GetDumpStreams` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`FreeDumpStreams` | 1 | Exported Function
+`GetDumpStreams` | 2 | Exported Function
 
 
 ## Signature

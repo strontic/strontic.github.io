@@ -24,6 +24,9 @@ PE256 | `381A68D61EC4E48CEB7DE8B2F714B08398EE0209F25182241B09CD3A6B0C6C4A`
 
 ## Runtime Data
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ### Open Handles:
 
 Path | Type
@@ -31,13 +34,16 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\SysWOW64\en-US\xwizard.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -72,8 +78,8 @@ C:\Windows\SysWOW64\xwizard.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/03b63fd1ab52129733f576554de9540d3f5e224405837a3d1adf5c0a68b1d21b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/03b63fd1ab52129733f576554de9540d3f5e224405837a3d1adf5c0a68b1d21b/detection
 
 ## File Similarity (ssdeep match)
 

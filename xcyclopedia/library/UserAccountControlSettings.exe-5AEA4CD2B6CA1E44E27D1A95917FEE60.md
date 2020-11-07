@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\UserAccountControlSettings.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/eb4c62e672647c1ad1a247356ffd738feea55ff0390edff2a2bde89d9362250e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/eb4c62e672647c1ad1a247356ffd738feea55ff0390edff2a2bde89d9362250e/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,35 +26,35 @@ PE256 | `A27942523C1306656E63E7D0F3A7DC0B6064CDB351606CE573405B4AA059586A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NdxTableGetPropertyValue` | 20 | Exported Function
-`NdxTableNextObject` | 21 | Exported Function
-`NdxTableObjectFromName` | 22 | Exported Function
-`NdxTableGetPropertyTypeName` | 19 | Exported Function
-`NdxTableGetObjectTypeName` | 16 | Exported Function
-`NdxTableGetPropertyTypeClass` | 17 | Exported Function
-`NdxTableGetPropertyTypeCount` | 18 | Exported Function
-`NdxTableSetObjectPointer` | 27 | Exported Function
-`NdxTableSetPropertyValue` | 28 | Exported Function
-`NdxTableSetTypeDefinition` | 29 | Exported Function
-`NdxTableRemoveObjectFromList` | 26 | Exported Function
-`NdxTableObjectFromPointer` | 23 | Exported Function
-`NdxTableOpen` | 24 | Exported Function
-`NdxTableRemoveObject` | 25 | Exported Function
-`NdxTableGetObjectTypeCount` | 15 | Exported Function
-`DevRtlSetThreadLogToken` | 5 | Exported Function
-`DevRtlWriteTextLog` | 6 | Exported Function
-`DevRtlWriteTextLogError` | 7 | Exported Function
-`DevRtlGetThreadLogToken` | 4 | Exported Function
 `DevRtlCloseTextLogSection` | 1 | Exported Function
-`DevRtlCreateTextLogSectionA` | 2 | Exported Function
-`DevRtlCreateTextLogSectionW` | 3 | Exported Function
-`NdxTableFirstObjectInList` | 12 | Exported Function
+`NdxTableSetObjectPointer` | 27 | Exported Function
+`NdxTableRemoveObjectFromList` | 26 | Exported Function
+`NdxTableRemoveObject` | 25 | Exported Function
+`NdxTableOpen` | 24 | Exported Function
+`NdxTableObjectFromPointer` | 23 | Exported Function
+`NdxTableObjectFromName` | 22 | Exported Function
+`NdxTableNextObject` | 21 | Exported Function
+`NdxTableGetPropertyValue` | 20 | Exported Function
+`NdxTableGetPropertyTypeName` | 19 | Exported Function
+`NdxTableGetPropertyTypeCount` | 18 | Exported Function
+`NdxTableGetPropertyTypeClass` | 17 | Exported Function
+`NdxTableGetObjectTypeName` | 16 | Exported Function
+`NdxTableSetPropertyValue` | 28 | Exported Function
+`NdxTableGetObjectTypeCount` | 15 | Exported Function
 `NdxTableGetObjectName` | 13 | Exported Function
-`NdxTableGetObjectType` | 14 | Exported Function
+`NdxTableFirstObjectInList` | 12 | Exported Function
 `NdxTableFirstObject` | 11 | Exported Function
-`NdxTableAddObject` | 8 | Exported Function
-`NdxTableAddObjectToList` | 9 | Exported Function
 `NdxTableClose` | 10 | Exported Function
+`NdxTableAddObjectToList` | 9 | Exported Function
+`NdxTableAddObject` | 8 | Exported Function
+`DevRtlWriteTextLogError` | 7 | Exported Function
+`DevRtlWriteTextLog` | 6 | Exported Function
+`DevRtlSetThreadLogToken` | 5 | Exported Function
+`DevRtlGetThreadLogToken` | 4 | Exported Function
+`DevRtlCreateTextLogSectionW` | 3 | Exported Function
+`DevRtlCreateTextLogSectionA` | 2 | Exported Function
+`NdxTableGetObjectType` | 14 | Exported Function
+`NdxTableSetTypeDefinition` | 29 | Exported Function
 
 
 ## Signature

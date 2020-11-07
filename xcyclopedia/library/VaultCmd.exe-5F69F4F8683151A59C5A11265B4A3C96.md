@@ -69,8 +69,8 @@ C:\Windows\system32\VaultCmd.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/edc1b6a3e4fde216a323329e35f4192b0f49bc68285ee67036deff9e94c4e33a/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/edc1b6a3e4fde216a323329e35f4192b0f49bc68285ee67036deff9e94c4e33a/detection
 
 
 

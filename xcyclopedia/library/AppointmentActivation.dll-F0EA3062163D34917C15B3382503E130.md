@@ -26,32 +26,32 @@ PE256 | `8966AA1830B6679DB34C9154B07C3535C09320E231B7117A0A1DEF7B283F76D2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShowAddAppointment` | 17 | Exported Function
-`ShowAddAppointmentAsync` | 18 | Exported Function
-`ShowAppointmentDetails` | 19 | Exported Function
-`ReleaseActivationArgs` | 16 | Exported Function
-`SerializeAppointmentIdsResult` | 1 | Exported Function
-`SerializeCalendarIdResult` | 2 | Exported Function
-`ShowCalendarChooser` | 20 | Exported Function
+`AwaitAppointmentActivation` | 3 | Exported Function
 `ShowReplaceAppointment` | 24 | Exported Function
+`ShowRemoveAppointmentAsync` | 23 | Exported Function
+`ShowRemoveAppointment` | 22 | Exported Function
+`ShowCalendarChooserAsync` | 21 | Exported Function
+`ShowCalendarChooser` | 20 | Exported Function
+`ShowAppointmentDetails` | 19 | Exported Function
+`ShowAddAppointmentAsync` | 18 | Exported Function
+`ShowAddAppointment` | 17 | Exported Function
+`SerializeCalendarIdResult` | 2 | Exported Function
+`SerializeAppointmentIdsResult` | 1 | Exported Function
+`ReleaseActivationArgs` | 16 | Exported Function
+`GetWindowIdOfHost` | 15 | Exported Function
+`GetReplaceAppointmentArgument` | 14 | Exported Function
+`GetRemoveAppointmentArgument` | 13 | Exported Function
+`GetProxyDllInfo` | 12 | Exported Function
+`GetLegacyAppointmentDetailsArgumentString` | 11 | Exported Function
+`GetCalendarChooserArgument` | 10 | Exported Function
+`GetAddAppointmentArgument` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DeserializeAppointment` | 5 | Exported Function
+`DeserializeActivationArgs` | 4 | Exported Function
 `ShowReplaceAppointmentAsync` | 25 | Exported Function
 `ShowTimeFrame` | 26 | Exported Function
-`ShowCalendarChooserAsync` | 21 | Exported Function
-`ShowRemoveAppointment` | 22 | Exported Function
-`ShowRemoveAppointmentAsync` | 23 | Exported Function
-`DllCanUnloadNow` | 6 | Exported Function
-`DllGetActivationFactory` | 7 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`AwaitAppointmentActivation` | 3 | Exported Function
-`DeserializeActivationArgs` | 4 | Exported Function
-`DeserializeAppointment` | 5 | Exported Function
-`GetAddAppointmentArgument` | 9 | Exported Function
-`GetRemoveAppointmentArgument` | 13 | Exported Function
-`GetReplaceAppointmentArgument` | 14 | Exported Function
-`GetWindowIdOfHost` | 15 | Exported Function
-`GetCalendarChooserArgument` | 10 | Exported Function
-`GetLegacyAppointmentDetailsArgumentString` | 11 | Exported Function
-`GetProxyDllInfo` | 12 | Exported Function
 
 
 ## Signature

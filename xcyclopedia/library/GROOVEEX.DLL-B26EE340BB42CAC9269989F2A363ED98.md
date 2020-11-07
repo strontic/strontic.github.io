@@ -26,11 +26,11 @@ PE256 | `E68BF218CE57C39419D7A02033D13D14BCF5362CFC9E8A74DDE8C101B48D1607`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`ExecuteSPFSVerbW` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`ExecuteSPFSVerbW` | 1 | Exported Function
 
 
 ## Signature

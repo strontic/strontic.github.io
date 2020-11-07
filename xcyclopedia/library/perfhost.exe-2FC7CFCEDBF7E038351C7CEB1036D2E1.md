@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\perfhost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/41d7da706f0cf613df768b6795cd09c5c1035f9f101051fb58f5042eb4352db6/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/41d7da706f0cf613df768b6795cd09c5c1035f9f101051fb58f5042eb4352db6/detection
 
 
 

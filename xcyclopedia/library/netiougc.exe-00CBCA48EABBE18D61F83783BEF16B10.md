@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\netiougc.exe |
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/5f4ac7290acbca52e64a33715a72c94589dde245b9f584c3a67cac1a78a97931/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\netiougc.exe](netiougc.exe-D6F88E1E0D5AF1462FE2586CD13395C1.md) | 46
 
 
 

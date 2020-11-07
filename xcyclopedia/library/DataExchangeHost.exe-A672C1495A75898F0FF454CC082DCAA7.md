@@ -29,14 +29,28 @@ PE256 | `266C7B830C4B2B0673256DA2DCFFC2A0E422790FF2A4434D17A33C70695F107D`
 Path |
 -- |
 C:\Windows\System32\combase.dll |
+C:\Windows\system32\d2d1.dll |
+C:\Windows\system32\d3d11.dll |
 C:\Windows\system32\DataExchangeHost.exe |
+C:\Windows\system32\dcomp.dll |
+C:\Windows\system32\DWrite.dll |
+C:\Windows\system32\dxgi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\system32\TWINAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -60,8 +74,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/839173a5b2a980eea9d306d71f09876cecfe6b68efbf4735182924bcdc275646/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/839173a5b2a980eea9d306d71f09876cecfe6b68efbf4735182924bcdc275646/detection
 
 
 

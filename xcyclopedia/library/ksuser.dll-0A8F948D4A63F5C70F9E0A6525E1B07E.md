@@ -26,14 +26,14 @@ PE256 | `85A1242786BA1AD86D789A42E01472A1CFDABFF0D9642AA4564995ED703D5741`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KsCreatePin2` | 6 | Exported Function
-`KsCreatePin` | 5 | Exported Function
-`KsCreateTopologyNode2` | 8 | Exported Function
-`KsCreateTopologyNode` | 7 | Exported Function
-`KsCreateAllocator2` | 2 | Exported Function
 `KsCreateAllocator` | 1 | Exported Function
-`KsCreateClock2` | 4 | Exported Function
+`KsCreateAllocator2` | 2 | Exported Function
 `KsCreateClock` | 3 | Exported Function
+`KsCreateClock2` | 4 | Exported Function
+`KsCreatePin` | 5 | Exported Function
+`KsCreatePin2` | 6 | Exported Function
+`KsCreateTopologyNode` | 7 | Exported Function
+`KsCreateTopologyNode2` | 8 | Exported Function
 
 
 ## Signature

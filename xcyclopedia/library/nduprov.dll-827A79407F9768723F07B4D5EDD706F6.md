@@ -26,14 +26,14 @@ PE256 | `68405DB7D4ADDFBE1957584E7A556E9ACC233DE6819CFCAF54F2BEF4CD96B570`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PopulateUserName` | 6 | Exported Function
-`OverflowCheckOnBytesFromContainers` | 5 | Exported Function
-`SruUninitializeProvider` | 8 | Exported Function
-`SruInitializeProvider` | 7 | Exported Function
-`CommitStatsHelperDedupHostData` | 2 | Exported Function
 `CommitStatsHelperCollectContainerData` | 1 | Exported Function
-`NduProvPopulateStatsFromRecord` | 4 | Exported Function
+`CommitStatsHelperDedupHostData` | 2 | Exported Function
 `DedupDoubleCountedData` | 3 | Exported Function
+`NduProvPopulateStatsFromRecord` | 4 | Exported Function
+`OverflowCheckOnBytesFromContainers` | 5 | Exported Function
+`PopulateUserName` | 6 | Exported Function
+`SruInitializeProvider` | 7 | Exported Function
+`SruUninitializeProvider` | 8 | Exported Function
 
 
 ## Signature

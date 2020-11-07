@@ -26,33 +26,33 @@ PE256 | `A6C1C29BA90CF67722DA0206E748BC6CAEC9E846CBB84ED58423975608F82639`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`REGISTRY::RestoreKeyFromFile` | 23 | Exported Function
-`REGISTRY::SaveKeyToFile` | 24 | Exported Function
-`REGISTRY::SetKeySecurity` | 25 | Exported Function
-`REGISTRY::QueryKeySecurity` | 20 | Exported Function
-`REGISTRY::QuerySubKeysInfo` | 21 | Exported Function
-`REGISTRY::QueryValues` | 22 | Exported Function
-`REGISTRY::UnLoadHive` | 26 | Exported Function
-`public: virtual __cdecl REGISTRY::~REGISTRY(void) __ptr64` | 4 | Exported Function
-`public: virtual __cdecl REGISTRY_KEY_INFO::~REGISTRY_KEY_INFO(void) __ptr64` | 5 | Exported Function
-`public: virtual __cdecl REGISTRY_VALUE_ENTRY::~REGISTRY_VALUE_ENTRY(void) __ptr64` | 6 | Exported Function
-`REGISTRY::UpdateKeyInfo` | 27 | Exported Function
-`REGISTRY_KEY_INFO::Initialize` | 15 | Exported Function
-`REGISTRY_VALUE_ENTRY::Initialize` | 16 | Exported Function
-`REGISTRY::QueryKeyInfo` | 19 | Exported Function
-`REGISTRY::AddValueEntry` | 7 | Exported Function
-`REGISTRY::CreateKey` | 8 | Exported Function
-`REGISTRY::DeleteKey` | 9 | Exported Function
 `REGISTRY::REGISTRY` | 1 | Exported Function
-`REGISTRY_KEY_INFO::REGISTRY_KEY_INFO` | 2 | Exported Function
-`REGISTRY_VALUE_ENTRY::REGISTRY_VALUE_ENTRY` | 3 | Exported Function
-`REGISTRY::DeleteValueEntry` | 10 | Exported Function
-`REGISTRY::Initialize` | 14 | Exported Function
+`public: virtual __cdecl REGISTRY::~REGISTRY(void) __ptr64` | 4 | Exported Function
+`REGISTRY_VALUE_ENTRY::Initialize` | 16 | Exported Function
+`REGISTRY_KEY_INFO::Initialize` | 15 | Exported Function
+`REGISTRY::UpdateKeyInfo` | 27 | Exported Function
+`REGISTRY::UnLoadHive` | 26 | Exported Function
+`REGISTRY::SetKeySecurity` | 25 | Exported Function
+`REGISTRY::SaveKeyToFile` | 24 | Exported Function
+`REGISTRY::RestoreKeyFromFile` | 23 | Exported Function
+`REGISTRY::QueryValues` | 22 | Exported Function
+`REGISTRY::QuerySubKeysInfo` | 21 | Exported Function
+`REGISTRY::QueryKeySecurity` | 20 | Exported Function
+`public: virtual __cdecl REGISTRY_KEY_INFO::~REGISTRY_KEY_INFO(void) __ptr64` | 5 | Exported Function
+`REGISTRY::QueryKeyInfo` | 19 | Exported Function
 `REGISTRY::IsAccessAllowed` | 17 | Exported Function
-`REGISTRY::LoadHive` | 18 | Exported Function
-`REGISTRY::DoesKeyExist` | 11 | Exported Function
-`REGISTRY::DoesValueExist` | 12 | Exported Function
+`REGISTRY::Initialize` | 14 | Exported Function
 `REGISTRY::EnableRootNotification` | 13 | Exported Function
+`REGISTRY::DoesValueExist` | 12 | Exported Function
+`REGISTRY::DoesKeyExist` | 11 | Exported Function
+`REGISTRY::DeleteValueEntry` | 10 | Exported Function
+`REGISTRY::DeleteKey` | 9 | Exported Function
+`REGISTRY::CreateKey` | 8 | Exported Function
+`REGISTRY::AddValueEntry` | 7 | Exported Function
+`REGISTRY_VALUE_ENTRY::REGISTRY_VALUE_ENTRY` | 3 | Exported Function
+`REGISTRY_KEY_INFO::REGISTRY_KEY_INFO` | 2 | Exported Function
+`REGISTRY::LoadHive` | 18 | Exported Function
+`public: virtual __cdecl REGISTRY_VALUE_ENTRY::~REGISTRY_VALUE_ENTRY(void) __ptr64` | 6 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `839DE0305E24A4272A952AEE822FA997D3BC388E15B47FEF65F94BF1531D066B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Initialize` | 1 | Exported Function
-`GetComponent` | 3 | Exported Function
 `Deinitialize` | 2 | Exported Function
+`GetComponent` | 3 | Exported Function
+`Initialize` | 1 | Exported Function
 
 
 ## Signature

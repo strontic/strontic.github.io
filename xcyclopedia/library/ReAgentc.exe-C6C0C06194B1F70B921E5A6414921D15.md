@@ -118,6 +118,11 @@ C:\Windows\system32\ReAgentc.exe |
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/6ed3121e5a6299ee1030f52d800f3f1f2ee1aab5c73c99e0dd34034a23f7d44c/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ReAgentc.exe](ReAgentc.exe-A109CC3B919C7D40E4114966340F39E5.md) | 40
 
 
 

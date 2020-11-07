@@ -26,10 +26,10 @@ PE256 | `A87F58B069F16F5A1169288DD6BCAB0BA4B47E5407DEE0E06C7856629BA45605`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LPenHelper` | 4 | Exported Function
-`XLCallVer` | 1 | Exported Function
 `Excel4` | 2 | Exported Function
 `Excel4v` | 3 | Exported Function
+`LPenHelper` | 4 | Exported Function
+`XLCallVer` | 1 | Exported Function
 
 
 ## Signature

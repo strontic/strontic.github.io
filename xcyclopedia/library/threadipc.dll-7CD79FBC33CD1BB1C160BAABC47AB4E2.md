@@ -25,26 +25,26 @@ PE256 | `A12039CCC7ECA70300D1F914E3A7AFC1DB0970D95053A9744AE314131234A27C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`post_thread_message_ex` | 14 | Exported Function
+`bind_current_thread` | 1 | Exported Function
+`stop_thread_bind` | 18 | Exported Function
+`send_thread_message_ex` | 17 | Exported Function
+`send_thread_message` | 16 | Exported Function
 `send_message` | 15 | Exported Function
+`post_thread_message_ex` | 14 | Exported Function
 `post_thread_message` | 13 | Exported Function
-`post_message` | 11 | Exported Function
 `post_message_ex` | 12 | Exported Function
+`post_message` | 11 | Exported Function
+`peek_message` | 10 | Exported Function
+`help_release_snd_lock` | 9 | Exported Function
+`handle_message` | 8 | Exported Function
+`get_message` | 7 | Exported Function
+`end_thread` | 6 | Exported Function
+`current_thread_id` | 5 | Exported Function
+`create_thread_with_looper` | 4 | Exported Function
+`create_thread` | 3 | Exported Function
+`cancel_messages_by_arg` | 2 | Exported Function
 `thread_invoke` | 19 | Exported Function
 `thread_join` | 20 | Exported Function
-`stop_thread_bind` | 18 | Exported Function
-`send_thread_message` | 16 | Exported Function
-`send_thread_message_ex` | 17 | Exported Function
-`create_thread_with_looper` | 4 | Exported Function
-`current_thread_id` | 5 | Exported Function
-`create_thread` | 3 | Exported Function
-`bind_current_thread` | 1 | Exported Function
-`cancel_messages_by_arg` | 2 | Exported Function
-`help_release_snd_lock` | 9 | Exported Function
-`peek_message` | 10 | Exported Function
-`handle_message` | 8 | Exported Function
-`end_thread` | 6 | Exported Function
-`get_message` | 7 | Exported Function
 
 
 ## Signature

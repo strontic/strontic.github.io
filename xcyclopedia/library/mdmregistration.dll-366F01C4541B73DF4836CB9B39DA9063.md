@@ -26,19 +26,19 @@ PE256 | `386C6CA70C4B734BD5F841A5BCA2891875537D7D353BEC260C86B2EDCD4F1F9D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RegisterDeviceWithManagementUsingAADCredentials` | 11 | Exported Function
-`RegisterDeviceWithManagement` | 10 | Exported Function
-`IsMdmUxWithoutAadAllowed` | 9 | Exported Function
-`UnregisterDeviceWithManagement` | 14 | Exported Function
-`SetManagedExternally` | 13 | Exported Function
-`RegisterDeviceWithManagementUsingAADDeviceCredentials` | 12 | Exported Function
-`IsManagementRegistrationAllowed` | 8 | Exported Function
-`FindDiscoveryService` | 2 | Exported Function
-`DiscoverManagementServiceEx` | 4 | Exported Function
 `DiscoverManagementService` | 3 | Exported Function
-`IsDeviceRegisteredWithManagement` | 7 | Exported Function
-`GetManagementAppHyperlink` | 6 | Exported Function
+`DiscoverManagementServiceEx` | 4 | Exported Function
+`FindDiscoveryService` | 2 | Exported Function
 `GetDeviceRegistrationInfo` | 5 | Exported Function
+`GetManagementAppHyperlink` | 6 | Exported Function
+`IsDeviceRegisteredWithManagement` | 7 | Exported Function
+`IsManagementRegistrationAllowed` | 8 | Exported Function
+`IsMdmUxWithoutAadAllowed` | 9 | Exported Function
+`RegisterDeviceWithManagement` | 10 | Exported Function
+`RegisterDeviceWithManagementUsingAADCredentials` | 11 | Exported Function
+`RegisterDeviceWithManagementUsingAADDeviceCredentials` | 12 | Exported Function
+`SetManagedExternally` | 13 | Exported Function
+`UnregisterDeviceWithManagement` | 14 | Exported Function
 
 
 ## Signature

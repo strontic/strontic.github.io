@@ -26,12 +26,12 @@ PE256 | `F3F8681102D3AE385E03C59D2E31AE2AF9B7F7940F244A238ADEAF878BA6C911`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BaseSrvNlsUpdateRegistryCache` | 4 | Exported Function
-`BaseSrvRegisterSxS` | 5 | Exported Function
-`ServerDllInitialization` | 6 | Exported Function
 `BaseGetProcessCrtlRoutine` | 1 | Exported Function
 `BaseSetProcessCreateNotify` | 2 | Exported Function
 `BaseSrvNlsLogon` | 3 | Exported Function
+`BaseSrvNlsUpdateRegistryCache` | 4 | Exported Function
+`BaseSrvRegisterSxS` | 5 | Exported Function
+`ServerDllInitialization` | 6 | Exported Function
 
 
 ## Signature

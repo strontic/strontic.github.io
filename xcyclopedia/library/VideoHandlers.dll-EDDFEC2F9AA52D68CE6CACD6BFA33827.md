@@ -26,9 +26,9 @@ PE256 | `A6A65B51EFBE106A9DE8B386768996CA37567AAB77AE3D0CFE0F126DF0AD8E9E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NotifyVideoHandler` | 1 | Exported Function
-`GetSetting` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`GetSetting` | 3 | Exported Function
+`NotifyVideoHandler` | 1 | Exported Function
 
 
 ## Signature

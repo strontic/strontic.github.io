@@ -26,24 +26,24 @@ PE256 | `9069AADD53C828B3F2C0FF9FDD0D222C657FA5765F48973415BD29568FBEB03B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_wgetenv_s` | 12 | Exported Function
-`_wputenv` | 13 | Exported Function
-`_wgetdcwd` | 10 | Exported Function
-`_wgetenv` | 11 | Exported Function
+`__p__environ` | 1 | Exported Function
+`_wsearchenv_s` | 16 | Exported Function
+`_wsearchenv` | 15 | Exported Function
 `_wputenv_s` | 14 | Exported Function
+`_wputenv` | 13 | Exported Function
+`_wgetenv_s` | 12 | Exported Function
+`_wgetenv` | 11 | Exported Function
+`_wgetdcwd` | 10 | Exported Function
+`_wgetcwd` | 9 | Exported Function
+`_wdupenv_s` | 8 | Exported Function
+`_searchenv_s` | 7 | Exported Function
+`_searchenv` | 6 | Exported Function
+`_putenv_s` | 5 | Exported Function
+`_putenv` | 4 | Exported Function
+`_dupenv_s` | 3 | Exported Function
+`__p__wenviron` | 2 | Exported Function
 `getenv` | 17 | Exported Function
 `getenv_s` | 18 | Exported Function
-`_wsearchenv` | 15 | Exported Function
-`_wsearchenv_s` | 16 | Exported Function
-`_dupenv_s` | 3 | Exported Function
-`_putenv` | 4 | Exported Function
-`__p__environ` | 1 | Exported Function
-`__p__wenviron` | 2 | Exported Function
-`_putenv_s` | 5 | Exported Function
-`_wdupenv_s` | 8 | Exported Function
-`_wgetcwd` | 9 | Exported Function
-`_searchenv` | 6 | Exported Function
-`_searchenv_s` | 7 | Exported Function
 
 
 ## Signature

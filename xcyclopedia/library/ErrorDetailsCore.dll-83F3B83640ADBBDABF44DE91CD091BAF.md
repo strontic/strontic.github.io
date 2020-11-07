@@ -26,9 +26,9 @@ PE256 | `45598E3A287E65B4E0E3435C73DF75F55819876A9557820F31480E30AACD0DED`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetErrorDetailsWithContext` | 3 | Exported Function
-`GetErrorDetails` | 2 | Exported Function
 `FreeErrorDetails` | 1 | Exported Function
+`GetErrorDetails` | 2 | Exported Function
+`GetErrorDetailsWithContext` | 3 | Exported Function
 
 
 ## Signature

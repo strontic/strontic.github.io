@@ -25,25 +25,25 @@ PE256 | `2D9081542319E7BA82AA16E9D2F547AB9C23D3F3E06E3A2FCD185191C6A4EEF1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CSFSystemMonitor::AppEventObserver` | 10 | Exported Function
-`CSFSystemMonitor::AppEventObserver` | 11 | Exported Function
-`CSFSystemMonitor::SystemMonitor` | 7 | Exported Function
-`SystemMonitor::SystemMonitor` | 8 | Exported Function
-`CSFSystemMonitor::PowerEventObserver` | 12 | Exported Function
-`SystemMonitorFactory::getInstance` | 18 | Exported Function
-`CSFSystemMonitor::SystemMonitor` | 9 | Exported Function
-`CSFSystemMonitor::PowerEventObserver` | 13 | Exported Function
-`CSFSystemMonitor::SystemMonitor` | 14 | Exported Function
-`PowerEventObserver::PowerEventObserver` | 6 | Exported Function
-`CSFSystemMonitor::PowerEventObserver` | 16 | Exported Function
-`CSFSystemMonitor::SystemMonitor` | 17 | Exported Function
 `AppStateEventTypeEnum::AppEventType` | 19 | Exported Function
-`CSFSystemMonitor::AppEventObserver` | 15 | Exported Function
-`CSFSystemMonitor::AppEventObserver` | 1 | Exported Function
+`CSFSystemMonitor::SystemMonitor` | 14 | Exported Function
+`CSFSystemMonitor::PowerEventObserver` | 13 | Exported Function
+`CSFSystemMonitor::PowerEventObserver` | 12 | Exported Function
+`CSFSystemMonitor::AppEventObserver` | 11 | Exported Function
+`CSFSystemMonitor::AppEventObserver` | 10 | Exported Function
+`SystemMonitor::SystemMonitor` | 8 | Exported Function
+`CSFSystemMonitor::SystemMonitor` | 7 | Exported Function
+`SystemMonitorFactory::getInstance` | 18 | Exported Function
+`PowerEventObserver::PowerEventObserver` | 6 | Exported Function
 `CSFSystemMonitor::PowerEventObserver` | 4 | Exported Function
-`CSFSystemMonitor::PowerEventObserver` | 5 | Exported Function
-`CSFSystemMonitor::AppEventObserver` | 2 | Exported Function
 `AppEventObserver::AppEventObserver` | 3 | Exported Function
+`CSFSystemMonitor::AppEventObserver` | 2 | Exported Function
+`CSFSystemMonitor::AppEventObserver` | 1 | Exported Function
+`CSFSystemMonitor::SystemMonitor` | 17 | Exported Function
+`CSFSystemMonitor::PowerEventObserver` | 16 | Exported Function
+`CSFSystemMonitor::AppEventObserver` | 15 | Exported Function
+`CSFSystemMonitor::PowerEventObserver` | 5 | Exported Function
+`CSFSystemMonitor::SystemMonitor` | 9 | Exported Function
 
 
 ## Signature

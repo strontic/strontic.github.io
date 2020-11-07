@@ -26,17 +26,17 @@ PE256 | `FD0AEEF6D035594EFDE828D995BD512003DA24E698FF50C268CE861B4695EC33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SrmSetTracingContextPerThread` | 9 | Exported Function
-`SrmIsTracingEnabledPerThread` | 6 | Exported Function
-`SrmTraceInitialize` | 1 | Exported Function
-`SrmTraceUninitialize` | 2 | Exported Function
-`SrmTraceMessage` | 3 | Exported Function
-`SrmIsTracingEnabledOnModule` | 7 | Exported Function
-`SrmGetTracingModuleInfo` | 12 | Exported Function
 `SrmGetTracingContextPerThread` | 10 | Exported Function
+`SrmGetTracingModuleInfo` | 12 | Exported Function
 `SrmGetTracingSequenceNumber` | 11 | Exported Function
-`SrmIsTracingEnabledOnFunction` | 8 | Exported Function
 `SrmIsTracingEnabled` | 5 | Exported Function
+`SrmIsTracingEnabledOnFunction` | 8 | Exported Function
+`SrmIsTracingEnabledOnModule` | 7 | Exported Function
+`SrmIsTracingEnabledPerThread` | 6 | Exported Function
+`SrmSetTracingContextPerThread` | 9 | Exported Function
+`SrmTraceInitialize` | 1 | Exported Function
+`SrmTraceMessage` | 3 | Exported Function
+`SrmTraceUninitialize` | 2 | Exported Function
 
 
 ## Signature

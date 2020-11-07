@@ -26,8 +26,8 @@ PE256 | `E8E49B6B993C23FB008C167E76E8BCDCAC229EED9ACD3C41196C59CC61A098E3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `E94311C8F350B6D78AC43D9E062404E343061E93C875C4C92E95498A70282C94`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenRDXDocumentW` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
-`GetProxyDllInfo` | 5 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`GetProxyDllInfo` | 5 | Exported Function
+`OpenRDXDocumentW` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
 
 
 ## Signature

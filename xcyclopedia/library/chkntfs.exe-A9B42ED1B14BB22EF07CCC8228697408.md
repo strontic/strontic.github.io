@@ -84,8 +84,8 @@ C:\Windows\SysWOW64\chkntfs.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/a7e7965c36a54135bf192aa34ed32065c151691eecc5f5c17ffc1db2c767478a/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/a7e7965c36a54135bf192aa34ed32065c151691eecc5f5c17ffc1db2c767478a/detection
 
 
 

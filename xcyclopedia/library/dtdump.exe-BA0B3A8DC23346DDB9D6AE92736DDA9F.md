@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\dtdump.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/4b440553f1f1b69e3cad4de540fdcf3569f4205ac2accceec0689e069b446161/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/4b440553f1f1b69e3cad4de540fdcf3569f4205ac2accceec0689e069b446161/detection
 
 
 

@@ -26,13 +26,13 @@ PE256 | `65D12AAE8C589BAD2313B863D3438720B815C8F0E4C56B8F694D1D4C00B0BF88`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeleteTimerQueueTimer` | 5 | Exported Function
-`QueueUserWorkItem` | 6 | Exported Function
-`UnregisterWaitEx` | 7 | Exported Function
-`DeleteTimerQueueEx` | 4 | Exported Function
 `ChangeTimerQueueTimer` | 1 | Exported Function
 `CreateTimerQueue` | 2 | Exported Function
 `CreateTimerQueueTimer` | 3 | Exported Function
+`DeleteTimerQueueEx` | 4 | Exported Function
+`DeleteTimerQueueTimer` | 5 | Exported Function
+`QueueUserWorkItem` | 6 | Exported Function
+`UnregisterWaitEx` | 7 | Exported Function
 
 
 ## Signature

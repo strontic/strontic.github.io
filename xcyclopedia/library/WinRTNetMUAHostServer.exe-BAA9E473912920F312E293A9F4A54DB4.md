@@ -24,9 +24,6 @@ PE256 | `9F70CD4DFD453214021B087F8FAA3E82DBC6A49E9BD00936CCAE4DEB1481339D`
 
 ## Runtime Data
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -41,8 +38,8 @@ C:\Windows\SysWOW64\WinRTNetMUAHostServer.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -59,8 +56,8 @@ C:\Windows\SysWOW64\WinRTNetMUAHostServer.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/2167d6c0bdf6067f35e2928d6a8fb96d5ce13dd2a0967e03534ffd3d3dd6e0a8/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/2167d6c0bdf6067f35e2928d6a8fb96d5ce13dd2a0967e03534ffd3d3dd6e0a8/detection
 
 
 

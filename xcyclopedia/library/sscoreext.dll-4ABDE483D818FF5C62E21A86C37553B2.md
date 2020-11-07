@@ -26,19 +26,19 @@ PE256 | `FD3EBF2CA9EAF8D9D4A7CD1BA5A0B24E7D402571E93F70961BA3B5F64C9AA433`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SsCoreExtMiOperationOptionsDelete` | 10 | Exported Function
-`SsCoreExtMiOperationGetInstance` | 9 | Exported Function
-`SsCoreExtMiOperationClose` | 8 | Exported Function
-`SsCoreExtMiSessionInvoke` | 13 | Exported Function
-`SsCoreExtMiSessionClose` | 12 | Exported Function
-`SsCoreExtMiOperationOptionsSetResourceUriPrefix` | 11 | Exported Function
-`SsCoreExtMiInstanceDelete` | 7 | Exported Function
-`SsCoreExtMiApplicationNewOperationOptions` | 3 | Exported Function
-`SsCoreExtMiApplicationInitialize` | 2 | Exported Function
 `SsCoreExtMiApplicationClose` | 1 | Exported Function
-`SsCoreExtMiInstanceAddElement` | 6 | Exported Function
-`SsCoreExtMiApplicationNewSession` | 5 | Exported Function
+`SsCoreExtMiApplicationInitialize` | 2 | Exported Function
+`SsCoreExtMiApplicationNewOperationOptions` | 3 | Exported Function
 `SsCoreExtMiApplicationNewParameterSet` | 4 | Exported Function
+`SsCoreExtMiApplicationNewSession` | 5 | Exported Function
+`SsCoreExtMiInstanceAddElement` | 6 | Exported Function
+`SsCoreExtMiInstanceDelete` | 7 | Exported Function
+`SsCoreExtMiOperationClose` | 8 | Exported Function
+`SsCoreExtMiOperationGetInstance` | 9 | Exported Function
+`SsCoreExtMiOperationOptionsDelete` | 10 | Exported Function
+`SsCoreExtMiOperationOptionsSetResourceUriPrefix` | 11 | Exported Function
+`SsCoreExtMiSessionClose` | 12 | Exported Function
+`SsCoreExtMiSessionInvoke` | 13 | Exported Function
 
 
 ## Signature

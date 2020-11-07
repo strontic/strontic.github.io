@@ -26,26 +26,26 @@ PE256 | `7793C1856200BB26D33811B527A519207E9D44423A2548E9F9F5809C542FCC8C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WFDSConMgrOpenSessionContextForMacAddress` | 14 | Exported Function
+`WFDSConMgrCloseSessionContext` | 2 | Exported Function
+`WFDSConMgrReadCeremonyData` | 18 | Exported Function
+`WFDSConMgrQueryStatus` | 17 | Exported Function
+`WFDSConMgrQueryCorrelationId` | 16 | Exported Function
 `WFDSConMgrOpenSessionContextForNotification` | 15 | Exported Function
+`WFDSConMgrOpenSessionContextForMacAddress` | 14 | Exported Function
 `WFDSConMgrOpenSessionContext` | 13 | Exported Function
-`WFDSConMgrIntGetInfracastBackchannelParams` | 11 | Exported Function
 `WFDSConMgrNewDiscoveredEntryOverwritesOld` | 12 | Exported Function
+`WFDSConMgrIntGetInfracastBackchannelParams` | 11 | Exported Function
+`WFDSConMgrIntCompleteInfracastConnection` | 10 | Exported Function
+`WFDSConMgrGetTransportBitmaskFromMultistring` | 9 | Exported Function
+`WFDSConMgrGetOpenSessionList` | 8 | Exported Function
+`WFDSConMgrFreeMemory` | 7 | Exported Function
+`WFDSConMgrDisconnectTransport` | 6 | Exported Function
+`WFDSConMgrDisconnect` | 5 | Exported Function
+`WFDSConMgrConnectTransport` | 4 | Exported Function
+`WFDSConMgrConnect` | 3 | Exported Function
+`WFDSConMgrConfigureFirewallForInfraCast` | 1 | Exported Function
 `WFDSConMgrSetAllowRemoteInput` | 19 | Exported Function
 `WFDSConMgrWriteCeremonyData` | 20 | Exported Function
-`WFDSConMgrReadCeremonyData` | 18 | Exported Function
-`WFDSConMgrQueryCorrelationId` | 16 | Exported Function
-`WFDSConMgrQueryStatus` | 17 | Exported Function
-`WFDSConMgrConnectTransport` | 4 | Exported Function
-`WFDSConMgrDisconnect` | 5 | Exported Function
-`WFDSConMgrConnect` | 3 | Exported Function
-`WFDSConMgrCloseSessionContext` | 2 | Exported Function
-`WFDSConMgrConfigureFirewallForInfraCast` | 1 | Exported Function
-`WFDSConMgrGetTransportBitmaskFromMultistring` | 9 | Exported Function
-`WFDSConMgrIntCompleteInfracastConnection` | 10 | Exported Function
-`WFDSConMgrGetOpenSessionList` | 8 | Exported Function
-`WFDSConMgrDisconnectTransport` | 6 | Exported Function
-`WFDSConMgrFreeMemory` | 7 | Exported Function
 
 
 ## Signature

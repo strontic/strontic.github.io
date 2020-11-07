@@ -26,13 +26,13 @@ PE256 | `40A6CE32A83C620260149ED4262F4E802F624698E19FD127EAA73215DBA5D0F0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`StartCUCExtensionProvider` | 6 | Exported Function
-`StopCUCExtensionProvider` | 7 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllInstall` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`StartCUCExtensionProvider` | 6 | Exported Function
+`StopCUCExtensionProvider` | 7 | Exported Function
 
 
 ## Signature

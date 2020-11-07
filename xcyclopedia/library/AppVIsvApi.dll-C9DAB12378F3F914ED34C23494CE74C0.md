@@ -26,27 +26,27 @@ PE256 | `66A0F35A71872145EF7CCC17E9C6E889B6E6708C9614CCD62110F61C67111D55`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RemovePackageGroup` | 18 | Exported Function
-`SetEventFilter` | 7 | Exported Function
-`RemovePackage` | 14 | Exported Function
-`ReintegratePackage` | 20 | Exported Function
-`ReintegrateVirtualApplications` | 21 | Exported Function
-`UserLogoff` | 4 | Exported Function
-`UserLogon` | 3 | Exported Function
-`UnregisterForEvents` | 6 | Exported Function
-`UnpublishPackage` | 10 | Exported Function
-`UnpublishPackageGroup` | 17 | Exported Function
-`RegisterForEvents` | 5 | Exported Function
-`Deinitialize` | 2 | Exported Function
-`GetPackageBytesLoaded` | 19 | Exported Function
-`ConfigurePackageGroup` | 15 | Exported Function
 `CancelPackageLoad` | 13 | Exported Function
-`ConfigurePackage` | 8 | Exported Function
+`UnregisterForEvents` | 6 | Exported Function
+`UnpublishPackageGroup` | 17 | Exported Function
+`UnpublishPackage` | 10 | Exported Function
+`SetEventFilter` | 7 | Exported Function
+`RemovePackageGroup` | 18 | Exported Function
+`RemovePackage` | 14 | Exported Function
+`ReintegrateVirtualApplications` | 21 | Exported Function
+`ReintegratePackage` | 20 | Exported Function
+`UserLogoff` | 4 | Exported Function
+`RegisterForEvents` | 5 | Exported Function
 `PublishPackage` | 9 | Exported Function
-`PublishPackageGroup` | 16 | Exported Function
 `LoadPackageRanges` | 12 | Exported Function
-`Initialize` | 1 | Exported Function
 `LoadPackage` | 11 | Exported Function
+`Initialize` | 1 | Exported Function
+`GetPackageBytesLoaded` | 19 | Exported Function
+`Deinitialize` | 2 | Exported Function
+`ConfigurePackageGroup` | 15 | Exported Function
+`ConfigurePackage` | 8 | Exported Function
+`PublishPackageGroup` | 16 | Exported Function
+`UserLogon` | 3 | Exported Function
 
 
 ## Signature
@@ -95,6 +95,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 24
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 32
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 25
+[C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 32
 
 
 

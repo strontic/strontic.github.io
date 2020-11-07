@@ -101,8 +101,8 @@ C:\Windows\system32\systeminfo.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/6f87caa51bdea802045bb281fc2686a3c76364c26a3ffe6c2ccac4af5f9db37b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/6f87caa51bdea802045bb281fc2686a3c76364c26a3ffe6c2ccac4af5f9db37b/detection
 
 
 ## Possible Misuse

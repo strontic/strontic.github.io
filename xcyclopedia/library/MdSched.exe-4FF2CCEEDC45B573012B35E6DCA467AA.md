@@ -29,6 +29,7 @@ PE256 | `A1D7A2D6A43ECE27E189889353475EC2F15D41608F2E61066AC18568F75E27B0`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\bcd.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -42,6 +43,7 @@ C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -65,8 +67,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/043cf5da5a37a30ecc4bf526a811e7c474843fd25e45c691b82c1458318686e8/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/043cf5da5a37a30ecc4bf526a811e7c474843fd25e45c691b82c1458318686e8/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,12 +26,12 @@ PE256 | `32E23ABAA7F4A23F6012200E8C6886887C67846B9AA7EE64F8486BA0EBEB54C3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`WpcSetupNotifyHomeSharedAccountChanged` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`WpcSetupNotifyHomeSharedAccountChanged` | 6 | Exported Function
 
 
 ## Signature

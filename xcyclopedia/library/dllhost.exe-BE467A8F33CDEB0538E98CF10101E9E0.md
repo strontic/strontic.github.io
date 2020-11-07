@@ -234,6 +234,7 @@ File | Score
 [C:\Windows\SysWOW64\BOOTVID.DLL](BOOTVID.DLL-51FB33A072A2245B15AB6A6C2E9F0EFA.md) | 29
 [C:\Windows\SysWOW64\CameraSettingsUIHost.exe](CameraSettingsUIHost.exe-AB2C7BC86F9E1BB245E43C81A01A7380.md) | 25
 [C:\Windows\SysWOW64\DefaultDeviceManager.dll](DefaultDeviceManager.dll-5BA7E83984833D6E302B6438799554DF.md) | 29
+[C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-6F3C9485F8F97AC04C8E43EF4463A68C.md) | 63
 [C:\Windows\SysWOW64\dllhst3g.exe](dllhst3g.exe-98858F3C8EE47AC663BDF08919F38EFE.md) | 65
 [C:\Windows\SysWOW64\downlevel\api-ms-win-base-util-l1-1-0.dll](api-ms-win-base-util-l1-1-0.dll-31D74CB87741C8AA9E81B2C4385BC80F.md) | 32
 [C:\Windows\SysWOW64\downlevel\api-ms-win-core-com-l1-1-0.dll](api-ms-win-core-com-l1-1-0.dll-748D395C49E7C8B31306EBA605B58B4A.md) | 33

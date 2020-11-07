@@ -26,9 +26,9 @@ PE256 | `D6856069B9BF19F0C032A6D6F977DB52D558E6EEE93127A003BB239C21CE1623`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpUserModeInitialize` | 2 | Exported Function
-`SpLsaModeInitialize` | 1 | Exported Function
 `DllMain` | 3 | Exported Function
+`SpLsaModeInitialize` | 1 | Exported Function
+`SpUserModeInitialize` | 2 | Exported Function
 
 
 ## Signature

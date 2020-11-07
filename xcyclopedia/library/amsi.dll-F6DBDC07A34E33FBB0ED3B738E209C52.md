@@ -26,19 +26,19 @@ PE256 | `2309F926BB6C32A971CC6369315228B7C00AD44A74DF643FDA88169DE610EE51`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 10 | Exported Function
-`AmsiUninitialize` | 9 | Exported Function
-`AmsiUacUninitialize` | 8 | Exported Function
-`DllUnregisterServer` | 13 | Exported Function
-`DllRegisterServer` | 12 | Exported Function
-`DllGetClassObject` | 11 | Exported Function
-`AmsiUacScan` | 7 | Exported Function
-`AmsiOpenSession` | 3 | Exported Function
-`AmsiInitialize` | 2 | Exported Function
 `AmsiCloseSession` | 1 | Exported Function
-`AmsiUacInitialize` | 6 | Exported Function
-`AmsiScanString` | 5 | Exported Function
+`AmsiInitialize` | 2 | Exported Function
+`AmsiOpenSession` | 3 | Exported Function
 `AmsiScanBuffer` | 4 | Exported Function
+`AmsiScanString` | 5 | Exported Function
+`AmsiUacInitialize` | 6 | Exported Function
+`AmsiUacScan` | 7 | Exported Function
+`AmsiUacUninitialize` | 8 | Exported Function
+`AmsiUninitialize` | 9 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
+`DllUnregisterServer` | 13 | Exported Function
 
 
 ## Signature

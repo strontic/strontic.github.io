@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\mshta.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/213ab5658e44f2a111c5e4cffa043660bc49307ebb1b7eedd21dbddca5da41ac/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/213ab5658e44f2a111c5e4cffa043660bc49307ebb1b7eedd21dbddca5da41ac/detection
 
 ## File Similarity (ssdeep match)
 

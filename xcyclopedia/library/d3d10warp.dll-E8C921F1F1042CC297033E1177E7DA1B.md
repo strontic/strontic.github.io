@@ -26,14 +26,14 @@ PE256 | `86AE811B11E749A2345F50345A6DE267F0AE07841C45C2CD26D2A036D2E86F4B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenDisplayAdapter1` | 206 | Exported Function
-`OpenAdapter12` | 204 | Exported Function
-`VSD3DDebugConnectionBuffer` | 200 | Exported Function
-`QueryDListForApplication1` | 207 | Exported Function
-`D3DLayerGetInterface` | 202 | Exported Function
 `D3D11RefGetLastCreation` | 201 | Exported Function
-`OpenAdapter10_2` | 203 | Exported Function
+`D3DLayerGetInterface` | 202 | Exported Function
 `OpenAdapter` | 205 | Exported Function
+`OpenAdapter10_2` | 203 | Exported Function
+`OpenAdapter12` | 204 | Exported Function
+`OpenDisplayAdapter1` | 206 | Exported Function
+`QueryDListForApplication1` | 207 | Exported Function
+`VSD3DDebugConnectionBuffer` | 200 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `28C547EE2348603A371E83C0E4CFA9011679805A67FCF005BF769816CDCAE075`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`QueryPerformanceFrequency` | 2 | Exported Function
 `QueryPerformanceCounter` | 1 | Exported Function
+`QueryPerformanceFrequency` | 2 | Exported Function
 
 
 ## Signature

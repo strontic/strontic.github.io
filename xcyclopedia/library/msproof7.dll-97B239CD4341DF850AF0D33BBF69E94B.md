@@ -26,9 +26,9 @@ PE256 | `153FE186865D81CEBBCAD2B2CD122F3BD08439944CB09AA3179D913F5CD5134E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetNLComponentHost` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`SetNLComponentHost` | 3 | Exported Function
 
 
 ## Signature

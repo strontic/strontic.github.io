@@ -97,6 +97,11 @@ C:\Windows\system32\wbem\mofcomp.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/f70f849225f5dafe5890ad8308cb6b136385fa84dbe148805fb9a63dc91f70f4/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wbem\mofcomp.exe](mofcomp.exe-E09EEB349A313277FABBC4204360D005.md) | 55
 
 
 

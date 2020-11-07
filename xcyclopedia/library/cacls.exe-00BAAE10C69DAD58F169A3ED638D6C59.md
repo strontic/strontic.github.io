@@ -103,8 +103,8 @@ C:\Windows\SysWOW64\cacls.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/092c1fe176ef37703a9bef4974ccf7ddd7a4d400fa37dcb04b721cce0657b03a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/092c1fe176ef37703a9bef4974ccf7ddd7a4d400fa37dcb04b721cce0657b03a/detection
 
 
 ## Possible Misuse

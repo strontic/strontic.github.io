@@ -22,27 +22,11 @@ IMP | `E4C2A510E7541CF3FA9C8202F4B88D97`
 PESHA1 | `8B435DD5617A264106533B26DBCCE6D9D306B80F`
 PE256 | `08307ED0C28E8AA15ACDC9A7D90ED47F9AB233D8C383B38BED07008F97356762`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\msfeedssync.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -59,8 +43,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/65
-* VirusTotal Link: https://www.virustotal.com/gui/file/d842c0aa333567d6b14a5f7429282652917a10b449bbab8a79d7f4c4821a5d9f/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/d842c0aa333567d6b14a5f7429282652917a10b449bbab8a79d7f4c4821a5d9f/detection
 
 
 

@@ -26,34 +26,34 @@ PE256 | `E970A18DCA3FCB6ED41DE5E99055C810CB0AB97B568A1EF16414A105C94B899F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPHashSessionKey` | 19 | Exported Function
-`CPImportKey` | 20 | Exported Function
-`CPReleaseContext` | 21 | Exported Function
-`CPHashData` | 18 | Exported Function
-`CPGetKeyParam` | 15 | Exported Function
-`CPGetProvParam` | 16 | Exported Function
-`CPGetUserKey` | 17 | Exported Function
+`CPAcquireContext` | 1 | Exported Function
 `CPVerifySignature` | 26 | Exported Function
+`CPSignHash` | 25 | Exported Function
+`CPSetProvParam` | 24 | Exported Function
+`CPSetKeyParam` | 23 | Exported Function
+`CPSetHashParam` | 22 | Exported Function
+`CPReleaseContext` | 21 | Exported Function
+`CPImportKey` | 20 | Exported Function
+`CPHashSessionKey` | 19 | Exported Function
+`CPHashData` | 18 | Exported Function
+`CPGetUserKey` | 17 | Exported Function
+`CPGetProvParam` | 16 | Exported Function
+`CPGetKeyParam` | 15 | Exported Function
+`CPGetHashParam` | 14 | Exported Function
+`CPGenRandom` | 13 | Exported Function
+`CPGenKey` | 12 | Exported Function
+`CPExportKey` | 11 | Exported Function
+`CPEncrypt` | 10 | Exported Function
+`CPDuplicateKey` | 9 | Exported Function
+`CPDuplicateHash` | 8 | Exported Function
+`CPDestroyKey` | 7 | Exported Function
+`CPDestroyHash` | 6 | Exported Function
+`CPDeriveKey` | 5 | Exported Function
+`CPDecrypt` | 4 | Exported Function
+`CPCreateHash` | 3 | Exported Function
+`CPAcquireContextW` | 2 | Exported Function
 `DllRegisterServer` | 27 | Exported Function
 `DllUnregisterServer` | 28 | Exported Function
-`CPSignHash` | 25 | Exported Function
-`CPSetHashParam` | 22 | Exported Function
-`CPSetKeyParam` | 23 | Exported Function
-`CPSetProvParam` | 24 | Exported Function
-`CPDeriveKey` | 5 | Exported Function
-`CPDestroyHash` | 6 | Exported Function
-`CPDestroyKey` | 7 | Exported Function
-`CPDecrypt` | 4 | Exported Function
-`CPAcquireContext` | 1 | Exported Function
-`CPAcquireContextW` | 2 | Exported Function
-`CPCreateHash` | 3 | Exported Function
-`CPGenKey` | 12 | Exported Function
-`CPGenRandom` | 13 | Exported Function
-`CPGetHashParam` | 14 | Exported Function
-`CPExportKey` | 11 | Exported Function
-`CPDuplicateHash` | 8 | Exported Function
-`CPDuplicateKey` | 9 | Exported Function
-`CPEncrypt` | 10 | Exported Function
 
 
 ## Signature

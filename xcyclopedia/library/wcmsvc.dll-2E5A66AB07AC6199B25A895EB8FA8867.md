@@ -26,11 +26,11 @@ PE256 | `BA48BFE1D411903A28774458C7B1A1AE39E9D4534D1A29136342A149C16E42DE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 4 | Exported Function
-`WcmSvcMain` | 5 | Exported Function
-`CdeSetParameter` | 3 | Exported Function
 `CdeGetProfileList` | 1 | Exported Function
 `CdeQueryParameter` | 2 | Exported Function
+`CdeSetParameter` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`WcmSvcMain` | 5 | Exported Function
 
 
 ## Signature

@@ -71,8 +71,8 @@ C:\Windows\system32\ttdinject.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/1cdf9d33b2c92a212c8a297802178127f354131d6d05641b6fdb6c52aff5fde3/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/1cdf9d33b2c92a212c8a297802178127f354131d6d05641b6fdb6c52aff5fde3/detection
 
 
 ## Possible Misuse

@@ -26,15 +26,15 @@ PE256 | `BE57DE4B93B770FB6762F22C3226D4EE525DF680A884B8E67E7347BE0DB82BB0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RtfToForeign32` | 13 | Exported Function
-`RegisterApp` | 14 | Exported Function
-`UninitConverter` | 10 | Exported Function
-`SetAppVer` | 15 | Exported Function
-`IsFormatCorrect32` | 11 | Exported Function
-`DllMain` | 2 | Exported Function
 `BiffToMetro` | 16 | Exported Function
-`InitConverter32` | 9 | Exported Function
+`DllMain` | 2 | Exported Function
 `ForeignToRtf32` | 12 | Exported Function
+`InitConverter32` | 9 | Exported Function
+`IsFormatCorrect32` | 11 | Exported Function
+`RegisterApp` | 14 | Exported Function
+`RtfToForeign32` | 13 | Exported Function
+`SetAppVer` | 15 | Exported Function
+`UninitConverter` | 10 | Exported Function
 
 
 ## Signature

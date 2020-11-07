@@ -26,15 +26,15 @@ PE256 | `3EB797E67EA07DBAC5663B60C2748C2F19325AA9E71A71E1543C7705CD78998B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BTCpuTurboThunkControl` | 7 | Exported Function
-`BTCpuSimulate` | 6 | Exported Function
-`TurboDispatchJumpAddressStart` | 9 | Exported Function
-`TurboDispatchJumpAddressEnd` | 8 | Exported Function
-`BTCpuSetContext` | 5 | Exported Function
-`BTCpuGetContext` | 2 | Exported Function
 `BTCpuGetBopCode` | 1 | Exported Function
-`BTCpuResetToConsistentState` | 4 | Exported Function
+`BTCpuGetContext` | 2 | Exported Function
 `BTCpuProcessInit` | 3 | Exported Function
+`BTCpuResetToConsistentState` | 4 | Exported Function
+`BTCpuSetContext` | 5 | Exported Function
+`BTCpuSimulate` | 6 | Exported Function
+`BTCpuTurboThunkControl` | 7 | Exported Function
+`TurboDispatchJumpAddressEnd` | 8 | Exported Function
+`TurboDispatchJumpAddressStart` | 9 | Exported Function
 
 
 ## Signature

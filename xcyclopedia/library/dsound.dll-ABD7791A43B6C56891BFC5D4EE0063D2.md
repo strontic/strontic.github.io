@@ -26,18 +26,18 @@ PE256 | `6ABBD2BADAE1AEF87431350D4A944B4C5B29FC8D3B875E38DABFAD145A72707F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DirectSoundFullDuplexCreate` | 10 | Exported Function
-`DirectSoundEnumerateW` | 3 | Exported Function
-`DirectSoundEnumerateA` | 2 | Exported Function
-`GetDeviceID` | 9 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
-`DirectSoundCaptureEnumerateA` | 7 | Exported Function
-`DirectSoundCaptureCreate8` | 12 | Exported Function
 `DirectSoundCaptureCreate` | 6 | Exported Function
-`DirectSoundCreate8` | 11 | Exported Function
-`DirectSoundCreate` | 1 | Exported Function
+`DirectSoundCaptureCreate8` | 12 | Exported Function
+`DirectSoundCaptureEnumerateA` | 7 | Exported Function
 `DirectSoundCaptureEnumerateW` | 8 | Exported Function
+`DirectSoundCreate` | 1 | Exported Function
+`DirectSoundCreate8` | 11 | Exported Function
+`DirectSoundEnumerateA` | 2 | Exported Function
+`DirectSoundEnumerateW` | 3 | Exported Function
+`DirectSoundFullDuplexCreate` | 10 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`GetDeviceID` | 9 | Exported Function
 
 
 ## Signature

@@ -26,13 +26,13 @@ PE256 | `9BD2BA7CD626C239896C008FBF4D05B3DF73CD1800B7A1B618A91BBEF2EE0790`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetCustomTrigger` | 5 | Exported Function
-`SetCustomTriggerEx` | 6 | Exported Function
-`SysprepCleanupEnableCustomTrigger` | 7 | Exported Function
-`RunUserContextCensus` | 4 | Exported Function
 `GetCensusPropertyAlloc` | 1 | Exported Function
 `GetCensusRegistryLocation` | 2 | Exported Function
 `RunSystemContextCensus` | 3 | Exported Function
+`RunUserContextCensus` | 4 | Exported Function
+`SetCustomTrigger` | 5 | Exported Function
+`SetCustomTriggerEx` | 6 | Exported Function
+`SysprepCleanupEnableCustomTrigger` | 7 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `1A23212A33CD7B55926861EDEFA7C47ABA5F8D9E74B6D03A584A2E5D777A7982`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`GetPreferredFont` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GetPreferredFont` | 4 | Exported Function
 
 
 ## Signature

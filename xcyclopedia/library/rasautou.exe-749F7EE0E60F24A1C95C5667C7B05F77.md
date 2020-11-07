@@ -64,6 +64,11 @@ C:\Windows\system32\rasautou.exe |
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/3784bc31bf8a72d3d8af7726f6944b7c8c17ac6d797654830f462a4a3a33a013/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rasautou.exe](rasautou.exe-1CE09827C1778F8AB4F09C9541542479.md) | 55
 
 ## Possible Misuse
 

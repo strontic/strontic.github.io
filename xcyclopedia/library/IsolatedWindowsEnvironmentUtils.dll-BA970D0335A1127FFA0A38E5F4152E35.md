@@ -25,10 +25,10 @@ PE256 | `5FFEF014E8240FB63FEEFC1B3A471362EC285C58E2BBB92F692AF554CA1EA977`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`IsProcessInIsolatedWindowsEnvironment` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`IsProcessInIsolatedWindowsEnvironment` | 4 | Exported Function
 
 
 ## Signature

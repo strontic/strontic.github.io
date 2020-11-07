@@ -26,31 +26,31 @@ PE256 | `0ED6662B674CD98935AB9123B099E640A58BD058781D14D3CA9D56CA5912C525`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WinBioLogonIdentifiedUser` | 18 | Exported Function
-`WinBioNotifyPasswordChange` | 1 | Exported Function
-`WinBioOpenSession` | 19 | Exported Function
-`WinBioIsLegacy` | 15 | Exported Function
-`WinBioLocateSensor` | 16 | Exported Function
-`WinBioLocateSensorWithCallback` | 17 | Exported Function
-`WinBioUnregisterEventMonitor` | 23 | Exported Function
-`WinBioUnregisterServiceMonitor` | 24 | Exported Function
-`WinBioVerifyWithCallback` | 25 | Exported Function
-`WinBioRegisterEventMonitor` | 20 | Exported Function
-`WinBioRegisterServiceMonitor` | 21 | Exported Function
-`WinBioReleaseFocus` | 22 | Exported Function
-`WinBioIdentifyWithCallback` | 14 | Exported Function
-`WinBioAsyncEnumDatabases` | 5 | Exported Function
-`WinBioAsyncMonitorFrameworkChanges` | 6 | Exported Function
-`WinBioCaptureSample` | 7 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`WinBioAcquireFocus` | 4 | Exported Function
-`WinBioGetDomainLogonSetting` | 11 | Exported Function
+`WinBioUnregisterEventMonitor` | 23 | Exported Function
+`WinBioReleaseFocus` | 22 | Exported Function
+`WinBioRegisterServiceMonitor` | 21 | Exported Function
+`WinBioRegisterEventMonitor` | 20 | Exported Function
+`WinBioOpenSession` | 19 | Exported Function
+`WinBioNotifyPasswordChange` | 1 | Exported Function
+`WinBioLogonIdentifiedUser` | 18 | Exported Function
+`WinBioLocateSensorWithCallback` | 17 | Exported Function
+`WinBioLocateSensor` | 16 | Exported Function
+`WinBioIsLegacy` | 15 | Exported Function
+`WinBioUnregisterServiceMonitor` | 24 | Exported Function
+`WinBioIdentifyWithCallback` | 14 | Exported Function
 `WinBioGetEnabledSetting` | 12 | Exported Function
-`WinBioGetLogonSetting` | 13 | Exported Function
-`WinBioCaptureSampleWithCallback` | 8 | Exported Function
-`WinBioEnrollCaptureWithCallback` | 9 | Exported Function
+`WinBioGetDomainLogonSetting` | 11 | Exported Function
 `WinBioEnumDatabases` | 10 | Exported Function
+`WinBioEnrollCaptureWithCallback` | 9 | Exported Function
+`WinBioCaptureSampleWithCallback` | 8 | Exported Function
+`WinBioCaptureSample` | 7 | Exported Function
+`WinBioAsyncMonitorFrameworkChanges` | 6 | Exported Function
+`WinBioAsyncEnumDatabases` | 5 | Exported Function
+`WinBioAcquireFocus` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`WinBioGetLogonSetting` | 13 | Exported Function
+`WinBioVerifyWithCallback` | 25 | Exported Function
 
 
 ## Signature

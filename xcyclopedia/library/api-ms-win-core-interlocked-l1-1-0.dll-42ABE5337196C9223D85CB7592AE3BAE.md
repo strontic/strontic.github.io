@@ -26,12 +26,12 @@ PE256 | `3AC639DF615A69841C7D1BE149984284F7E82BAB80746A7767095C57876D040F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InterlockedPushEntrySList` | 4 | Exported Function
-`InterlockedPushListSList` | 5 | Exported Function
-`QueryDepthSList` | 6 | Exported Function
 `InitializeSListHead` | 1 | Exported Function
 `InterlockedFlushSList` | 2 | Exported Function
 `InterlockedPopEntrySList` | 3 | Exported Function
+`InterlockedPushEntrySList` | 4 | Exported Function
+`InterlockedPushListSList` | 5 | Exported Function
+`QueryDepthSList` | 6 | Exported Function
 
 
 ## Signature

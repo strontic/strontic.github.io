@@ -25,40 +25,40 @@ PE256 | `E2C4080DAAE1C9C45453899A0DA800E8077236A690F713FF823A77C6AEA9590C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`libintl_swprintf` | 23 | Exported Function
-`libintl_sprintf` | 22 | Exported Function
-`libintl_version` | 25 | Exported Function
-`libintl_textdomain` | 24 | Exported Function
-`libintl_ngettext` | 19 | Exported Function
-`libintl_gettext` | 18 | Exported Function
-`libintl_set_relocation_prefix` | 21 | Exported Function
-`libintl_printf` | 20 | Exported Function
-`libintl_vfprintf` | 26 | Exported Function
+`_nl_expand_alias` | 1 | Exported Function
 `libintl_wprintf` | 32 | Exported Function
 `libintl_vwprintf` | 31 | Exported Function
-`textdomain` | 34 | Exported Function
-`ngettext` | 33 | Exported Function
-`libintl_vprintf` | 28 | Exported Function
-`libintl_vfwprintf` | 27 | Exported Function
 `libintl_vswprintf` | 30 | Exported Function
 `libintl_vsprintf` | 29 | Exported Function
-`dcngettext` | 6 | Exported Function
-`dcgettext` | 5 | Exported Function
-`dngettext` | 8 | Exported Function
-`dgettext` | 7 | Exported Function
-`_nl_msg_cat_cntr` | 2 | Exported Function
-`_nl_expand_alias` | 1 | Exported Function
-`bindtextdomain` | 4 | Exported Function
-`bind_textdomain_codeset` | 3 | Exported Function
-`gettext` | 9 | Exported Function
-`libintl_dngettext` | 15 | Exported Function
-`libintl_dgettext` | 14 | Exported Function
+`libintl_vprintf` | 28 | Exported Function
+`libintl_vfwprintf` | 27 | Exported Function
+`libintl_vfprintf` | 26 | Exported Function
+`libintl_version` | 25 | Exported Function
+`libintl_textdomain` | 24 | Exported Function
+`libintl_swprintf` | 23 | Exported Function
+`libintl_sprintf` | 22 | Exported Function
+`libintl_set_relocation_prefix` | 21 | Exported Function
+`libintl_printf` | 20 | Exported Function
+`libintl_ngettext` | 19 | Exported Function
+`libintl_gettext` | 18 | Exported Function
 `libintl_fwprintf` | 17 | Exported Function
 `libintl_fprintf` | 16 | Exported Function
-`libintl_bindtextdomain` | 11 | Exported Function
+`_nl_msg_cat_cntr` | 2 | Exported Function
+`bind_textdomain_codeset` | 3 | Exported Function
+`bindtextdomain` | 4 | Exported Function
+`dcgettext` | 5 | Exported Function
+`dcngettext` | 6 | Exported Function
+`dgettext` | 7 | Exported Function
+`ngettext` | 33 | Exported Function
+`dngettext` | 8 | Exported Function
 `libintl_bind_textdomain_codeset` | 10 | Exported Function
-`libintl_dcngettext` | 13 | Exported Function
+`libintl_bindtextdomain` | 11 | Exported Function
 `libintl_dcgettext` | 12 | Exported Function
+`libintl_dcngettext` | 13 | Exported Function
+`libintl_dgettext` | 14 | Exported Function
+`libintl_dngettext` | 15 | Exported Function
+`gettext` | 9 | Exported Function
+`textdomain` | 34 | Exported Function
 
 
 ## Signature

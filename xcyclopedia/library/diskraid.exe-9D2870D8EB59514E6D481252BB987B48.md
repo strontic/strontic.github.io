@@ -30,7 +30,7 @@ PE256 | `F572C50ACCE476B0B1D8A1FFCCA3C8BC0243DD12546C49D85700CBAAFB38B99B`
 Microsoft DiskRAID version 10.0.19041.1
 
 Copyright (C) 2003-2013 Microsoft Corporation.
-On computer: 37AACD8D-548A-4
+On computer: 4BBCEEA8-6A14-4
 
 Usage:  DISKRAID [/? | [/s <script>] [/v]]
 
@@ -82,8 +82,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/6f572bd4c5a0d9cdcaa2e63ff1b0e36982f4d35fa9fb9d360b2d8cc57fe4ee54/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/6f572bd4c5a0d9cdcaa2e63ff1b0e36982f4d35fa9fb9d360b2d8cc57fe4ee54/detection
 
 
 

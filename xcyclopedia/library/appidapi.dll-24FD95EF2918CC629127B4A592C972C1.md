@@ -26,17 +26,17 @@ PE256 | `709B07820DC52CB4BC83FF82CDAEB9236F958171614F1AC7F95C23314EF4C9E9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppIDReleaseAppxFileAttributes` | 8 | Exported Function
-`AppIDGetMsiVersionInfo` | 7 | Exported Function
-`AppIDReleaseFileAttributes` | 9 | Exported Function
-`UpdateSystemCIPolicy` | 11 | Exported Function
-`CompareToSystemCIPolicy` | 10 | Exported Function
-`AppIDGetFileAttributes` | 6 | Exported Function
-`AppIDDecodeAttributeString` | 2 | Exported Function
 `AppIDConstructAppxAttributes` | 1 | Exported Function
+`AppIDDecodeAttributeString` | 2 | Exported Function
 `AppIDEncodeAttributeString` | 3 | Exported Function
-`AppIDGetAppxFileAttributes` | 5 | Exported Function
 `AppIDFreeAttributeString` | 4 | Exported Function
+`AppIDGetAppxFileAttributes` | 5 | Exported Function
+`AppIDGetFileAttributes` | 6 | Exported Function
+`AppIDGetMsiVersionInfo` | 7 | Exported Function
+`AppIDReleaseAppxFileAttributes` | 8 | Exported Function
+`AppIDReleaseFileAttributes` | 9 | Exported Function
+`CompareToSystemCIPolicy` | 10 | Exported Function
+`UpdateSystemCIPolicy` | 11 | Exported Function
 
 
 ## Signature

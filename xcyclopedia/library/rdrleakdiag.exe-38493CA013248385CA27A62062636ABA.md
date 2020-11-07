@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\rdrleakdiag.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/420797c47485edb779e4adc7445f12ce4c16ba310bcc9562492798e58eba3352/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/420797c47485edb779e4adc7445f12ce4c16ba310bcc9562492798e58eba3352/detection
 
 
 

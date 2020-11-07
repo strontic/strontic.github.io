@@ -26,41 +26,41 @@ PE256 | `1F89707AC80717D5AFF690FC8565EE639B63FB147A22961F51CB83E5AD4882CD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FAT::QueryAllocatedClusters` | 23 | Exported Function
-`FAT::AllocChain` | 11 | Exported Function
-`FAT::QueryNthCluster` | 26 | Exported Function
-`FAT::QueryLengthOfChain` | 25 | Exported Function
-`EXFAT_SA::Initialize` | 21 | Exported Function
-`EXFAT_DIRENT::VerifyAndFixPhase2` | 33 | Exported Function
-`EXFAT_DIRENT::QueryStartingCluster` | 27 | Exported Function
-`EXFATDIR::Initialize` | 19 | Exported Function
-`public: virtual __thiscall CLUSTER_CHAIN::~CLUSTER_CHAIN(void)` | 6 | Exported Function
-`CLUSTER_CHAIN::Write` | 34 | Exported Function
-`CLUSTER_CHAIN::Read` | 28 | Exported Function
-`Recover` | 30 | Exported Function
-`FAT::FreeChain` | 16 | Exported Function
-`public: virtual __thiscall EXFAT_SA::~EXFAT_SA(void)` | 9 | Exported Function
-`public: virtual __thiscall EXFAT_DIRENT::~EXFAT_DIRENT(void)` | 8 | Exported Function
-`public: virtual __thiscall EXFATDIR::~EXFATDIR(void)` | 7 | Exported Function
-`public: virtual __thiscall EXFAT_VOL::~EXFAT_VOL(void)` | 10 | Exported Function
-`EXFAT_DIRENT::SetStartingCluster` | 32 | Exported Function
-`EXFAT_DIRENT::QueryFileSize` | 24 | Exported Function
-`GetFilesystemInformation` | 17 | Exported Function
-`EXFAT_DIRENT::EXFAT_DIRENT` | 3 | Exported Function
-`CLUSTER_CHAIN::CLUSTER_CHAIN` | 1 | Exported Function
-`ChkdskEx` | 13 | Exported Function
 `Chkdsk` | 12 | Exported Function
-`FormatEx` | 15 | Exported Function
-`Format` | 14 | Exported Function
-`EXFAT_SA::EXFAT_SA` | 4 | Exported Function
-`CLUSTER_CHAIN::WriteAndSkipBadSectors` | 35 | Exported Function
-`CLUSTER_CHAIN::ReadAndRecordBadSectors` | 29 | Exported Function
-`EXFAT_DIRENT::SetFileSize` | 31 | Exported Function
+`EXFAT_SA::Initialize` | 21 | Exported Function
+`EXFATDIR::Initialize` | 19 | Exported Function
+`EXFAT_DIRENT::QueryStartingCluster` | 27 | Exported Function
+`FAT::AllocChain` | 11 | Exported Function
+`FAT::QueryAllocatedClusters` | 23 | Exported Function
+`FAT::QueryLengthOfChain` | 25 | Exported Function
+`EXFAT_DIRENT::VerifyAndFixPhase2` | 33 | Exported Function
+`FAT::QueryNthCluster` | 26 | Exported Function
+`public: virtual __thiscall EXFAT_DIRENT::~EXFAT_DIRENT(void)` | 8 | Exported Function
+`public: virtual __thiscall EXFAT_SA::~EXFAT_SA(void)` | 9 | Exported Function
+`public: virtual __thiscall EXFAT_VOL::~EXFAT_VOL(void)` | 10 | Exported Function
+`public: virtual __thiscall EXFATDIR::~EXFATDIR(void)` | 7 | Exported Function
+`CLUSTER_CHAIN::Read` | 28 | Exported Function
+`CLUSTER_CHAIN::Write` | 34 | Exported Function
+`public: virtual __thiscall CLUSTER_CHAIN::~CLUSTER_CHAIN(void)` | 6 | Exported Function
+`FAT::FreeChain` | 16 | Exported Function
+`EXFAT_DIRENT::SetStartingCluster` | 32 | Exported Function
 `EXFAT_DIRENT::Initialize` | 20 | Exported Function
-`EXFATDIR::EXFATDIR` | 2 | Exported Function
+`ChkdskEx` | 13 | Exported Function
+`Format` | 14 | Exported Function
+`FormatEx` | 15 | Exported Function
+`GetFilesystemInformation` | 17 | Exported Function
+`EXFAT_DIRENT::QueryFileSize` | 24 | Exported Function
+`CLUSTER_CHAIN::CLUSTER_CHAIN` | 1 | Exported Function
+`EXFAT_DIRENT::SetFileSize` | 31 | Exported Function
+`EXFAT_DIRENT::EXFAT_DIRENT` | 3 | Exported Function
 `EXFAT_VOL::EXFAT_VOL` | 5 | Exported Function
-`CLUSTER_CHAIN::Initialize` | 18 | Exported Function
+`EXFATDIR::EXFATDIR` | 2 | Exported Function
 `EXFAT_VOL::Initialize` | 22 | Exported Function
+`CLUSTER_CHAIN::Initialize` | 18 | Exported Function
+`CLUSTER_CHAIN::ReadAndRecordBadSectors` | 29 | Exported Function
+`CLUSTER_CHAIN::WriteAndSkipBadSectors` | 35 | Exported Function
+`EXFAT_SA::EXFAT_SA` | 4 | Exported Function
+`Recover` | 30 | Exported Function
 
 
 ## Signature

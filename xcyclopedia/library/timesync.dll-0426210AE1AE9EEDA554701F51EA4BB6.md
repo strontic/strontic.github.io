@@ -26,11 +26,11 @@ PE256 | `7BA49D31ED31A6A49AF3C5AEBB1DA2F194F0E0B5761093965990102653D9991E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StartTimeService` | 4 | Exported Function
-`SyncW32Time` | 5 | Exported Function
-`SetNTPSync` | 3 | Exported Function
 `FreeTimeStatusInfo` | 1 | Exported Function
 `GetTimeStatusInfo` | 2 | Exported Function
+`SetNTPSync` | 3 | Exported Function
+`StartTimeService` | 4 | Exported Function
+`SyncW32Time` | 5 | Exported Function
 
 
 ## Signature

@@ -26,15 +26,15 @@ PE256 | `F4285E253805F9D29C87229160BCDCE1D16D2B276B8AB4D1B95083934F98A878`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShowVAN` | 2 | Exported Function
-`RunVANW` | 9 | Exported Function
-`VanUIManager_CreateInstance` | 4 | Exported Function
-`ShutdownVAN` | 3 | Exported Function
-`HideVAN` | 1 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 `DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`HideVAN` | 1 | Exported Function
+`RunVANW` | 9 | Exported Function
+`ShowVAN` | 2 | Exported Function
+`ShutdownVAN` | 3 | Exported Function
+`VanUIManager_CreateInstance` | 4 | Exported Function
 
 
 ## Signature

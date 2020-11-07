@@ -26,12 +26,12 @@ PE256 | `98420DA183746C89A9A0839003D23746E4DA18FAE5E7C8FC99F7B9767A3675BE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UIStartupWorker` | 4 | Exported Function
-`WaitForWinstationShutdown` | 5 | Exported Function
-`WinStationSystemShutdownStartedWorker` | 6 | Exported Function
 `GetLoggedOnUserCount` | 1 | Exported Function
 `PrimaryTerminalAndHookWorker` | 2 | Exported Function
 `StartLoadingFontsWorker` | 3 | Exported Function
+`UIStartupWorker` | 4 | Exported Function
+`WaitForWinstationShutdown` | 5 | Exported Function
+`WinStationSystemShutdownStartedWorker` | 6 | Exported Function
 
 
 ## Signature

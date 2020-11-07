@@ -239,8 +239,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe](javafxpackager.exe-74BE3EB4DF355EA3D82D03F5A3D05C26.md) | 100
-[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javapackager.exe](javapackager.exe-DF2158F85DB4E09D5BCBFE126C381D28.md) | 94
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javapackager .exe](javapackager+.exe-DF2158F85DB4E09D5BCBFE126C381D28.md) | 94
 
 
 

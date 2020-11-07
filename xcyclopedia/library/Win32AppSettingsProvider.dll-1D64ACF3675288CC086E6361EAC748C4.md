@@ -25,10 +25,10 @@ PE256 | `52792A8BFB5D388C5F0665E3229320F36243E9E5CAFCF5132C74478CAE7AD9A3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RegisterChangeNotifications` | 3 | Exported Function
-`UnregisterChangeNotifications` | 4 | Exported Function
 `ApplyProviderSettings` | 1 | Exported Function
 `GatherProviderSettings` | 2 | Exported Function
+`RegisterChangeNotifications` | 3 | Exported Function
+`UnregisterChangeNotifications` | 4 | Exported Function
 
 
 ## Signature

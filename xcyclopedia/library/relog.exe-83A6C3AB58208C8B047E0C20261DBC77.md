@@ -108,6 +108,11 @@ C:\Windows\SysWOW64\relog.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/fa6b86965e740987905eecfc510922c2f1335afe06148b660a31edb4b67f477a/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\relog.exe](relog.exe-B5BD958DCD88565CC17E9330032F99CE.md) | 96
 
 
 ## Additional Info*

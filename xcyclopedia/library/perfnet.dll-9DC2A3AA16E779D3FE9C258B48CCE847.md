@@ -26,9 +26,9 @@ PE256 | `5514F39333DFA8B268A7D38ED90028A70FBFA781E2A8E4A9C2897AE57793606E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenNetSvcsObject` | 3 | Exported Function
-`CollectNetSvcsObjectData` | 2 | Exported Function
 `CloseNetSvcsObject` | 1 | Exported Function
+`CollectNetSvcsObjectData` | 2 | Exported Function
+`OpenNetSvcsObject` | 3 | Exported Function
 
 
 ## Signature

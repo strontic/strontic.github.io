@@ -26,8 +26,8 @@ PE256 | `CE13856F48015EF82BA52C6C0AAD667E2991E536D59776C8EF282DC47E1CDFA0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KeyboardHookProc` | 2 | Exported Function
 `DriverProc` | 1 | Exported Function
+`KeyboardHookProc` | 2 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `257187F4CA570A0C87A04D6E5984A5F2A4B202A43A686B269DBF978AE7AA73FB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BfeServiceMain` | 3 | Exported Function
-`SvchostPushServiceGlobals` | 4 | Exported Function
 `BfeGetDirectDispatchTable` | 1 | Exported Function
 `BfeOnServiceStartTypeChange` | 2 | Exported Function
+`BfeServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
 
 
 ## Signature

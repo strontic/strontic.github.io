@@ -26,12 +26,12 @@ PE256 | `C70D48BE23152A8DA2D71D0713FFF69AE9EA7D53058167D6C311464D171EF7EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`PStoreCreateInstance` | 5 | Exported Function
-`PStoreEnumProviders` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`PStoreCreateInstance` | 5 | Exported Function
+`PStoreEnumProviders` | 6 | Exported Function
 
 
 ## Signature

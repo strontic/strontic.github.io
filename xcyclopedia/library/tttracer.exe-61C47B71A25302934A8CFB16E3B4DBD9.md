@@ -101,8 +101,8 @@ C:\Windows\system32\tttracer.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/b2a6e526499f552c2c9ae920dd7b6722b0d49b862950b5740033a8764f66e9d2/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/b2a6e526499f552c2c9ae920dd7b6722b0d49b862950b5740033a8764f66e9d2/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,13 +26,13 @@ PE256 | `D5A57971B92A5174C79165AC66BD11E53CED926F34C9C9F303B03550AB413E7E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DwmRenderDesktopForDDA` | 5 | Exported Function
-`DwmShutdownEngine` | 6 | Exported Function
-`DwmVersionCheck` | 7 | Exported Function
-`DwmRedirectionManagerShutdown` | 2 | Exported Function
 `DwmInitializeEngine` | 3 | Exported Function
 `DwmInitializePort` | 4 | Exported Function
 `DwmRedirectionManagerInitialize` | 1 | Exported Function
+`DwmRedirectionManagerShutdown` | 2 | Exported Function
+`DwmRenderDesktopForDDA` | 5 | Exported Function
+`DwmShutdownEngine` | 6 | Exported Function
+`DwmVersionCheck` | 7 | Exported Function
 
 
 ## Signature

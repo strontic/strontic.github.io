@@ -24,6 +24,9 @@ PE256 | `E35BD35007FCA23CAE1D25FFAB44CAF841025326174C930DAD65158487CA3EB3`
 
 ## Runtime Data
 
+### Child Processes:
+WerFault.exe
+
 ### Loaded Modules:
 
 Path |
@@ -62,8 +65,8 @@ C:\Windows\SystemApps\Microsoft.AccountsControl_cw5n1h2txyewy\AccountsControlHos
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/0f49d591d09c5f33635a2dcff205eb7f40deaf91c97c9f4a00eea2cc787e4ec5/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/0f49d591d09c5f33635a2dcff205eb7f40deaf91c97c9f4a00eea2cc787e4ec5/detection
 
 
 

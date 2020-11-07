@@ -26,16 +26,16 @@ PE256 | `02EDD235AADFFD75D4F6CF67935DDA703628E34664D32F8B08AF883E1D53E5FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSystemDefaultLocaleName` | 7 | Exported Function
-`GetStringTypeA` | 6 | Exported Function
-`GetSystemDefaultUILanguage` | 8 | Exported Function
-`LCIDToLocaleName` | 10 | Exported Function
-`GetUserDefaultUILanguage` | 9 | Exported Function
-`EnumLanguageGroupLocalesW` | 2 | Exported Function
 `CompareStringA` | 1 | Exported Function
+`EnumLanguageGroupLocalesW` | 2 | Exported Function
 `EnumSystemLanguageGroupsW` | 3 | Exported Function
-`GetNumberFormatW` | 5 | Exported Function
 `EnumUILanguagesW` | 4 | Exported Function
+`GetNumberFormatW` | 5 | Exported Function
+`GetStringTypeA` | 6 | Exported Function
+`GetSystemDefaultLocaleName` | 7 | Exported Function
+`GetSystemDefaultUILanguage` | 8 | Exported Function
+`GetUserDefaultUILanguage` | 9 | Exported Function
+`LCIDToLocaleName` | 10 | Exported Function
 
 
 ## Signature

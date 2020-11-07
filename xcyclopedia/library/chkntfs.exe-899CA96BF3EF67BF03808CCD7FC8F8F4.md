@@ -65,8 +65,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,7 +84,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## File Scan
 
 * VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/b11778898a18c8a6a24af153743060e1569f443ad73943bc4292eda844c80e2e/detection/
+* VirusTotal Link: https://www.virustotal.com/gui/file/b11778898a18c8a6a24af153743060e1569f443ad73943bc4292eda844c80e2e/detection
 
 
 

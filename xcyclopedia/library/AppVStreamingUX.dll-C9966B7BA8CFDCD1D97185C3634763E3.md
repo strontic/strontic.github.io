@@ -26,10 +26,10 @@ PE256 | `BE5DBDA3F231D0E1EDDD74B443B6B937F8038B9AA59A75990BA07CF0A21C215F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Initialize` | 1 | Exported Function
-`InitializeISV` | 2 | Exported Function
 `Deinitialize` | 3 | Exported Function
 `GetComponent` | 4 | Exported Function
+`Initialize` | 1 | Exported Function
+`InitializeISV` | 2 | Exported Function
 
 
 ## Signature
@@ -82,6 +82,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 43
 [C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 32
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 44
+[C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 38
 
 
 

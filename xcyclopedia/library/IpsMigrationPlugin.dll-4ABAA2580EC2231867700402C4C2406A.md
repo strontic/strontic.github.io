@@ -26,11 +26,11 @@ PE256 | `AEC23F0A20E529A37584752049A16920079DFF8C02AABDA45E27226796AF43EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`Sysprep_Cleanup_IPS` | 5 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`Sysprep_Cleanup_IPS` | 5 | Exported Function
 
 
 ## Signature

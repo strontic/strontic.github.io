@@ -28,6 +28,8 @@ PE256 | `84BB7A48FD6EFA1D8C4485962D0AA79CDD5DDB2869ABA4F5326B837C41C1062F`
 
 Path |
 -- |
+C:\Windows\system32\iumbase.DLL |
+C:\Windows\SYSTEM32\IUMDLL.dll |
 C:\Windows\system32\IumSdk.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -41,8 +43,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -59,8 +61,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/bebc95d47863245293261ddd67d273665cd485aee4df8562fe35e421925ebc4e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/bebc95d47863245293261ddd67d273665cd485aee4df8562fe35e421925ebc4e/detection
 
 
 

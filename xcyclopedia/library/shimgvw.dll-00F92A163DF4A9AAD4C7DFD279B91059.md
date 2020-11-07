@@ -26,15 +26,15 @@ PE256 | `89ADFD7BAA4AE1A060DA6E8DC057A75418907A42F85C533C439DCEF6A2461285`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ImageView_PrintTo` | 4 | Exported Function
-`imageview_fullscreenW` | 7 | Exported Function
-`ImageView_PrintToW` | 6 | Exported Function
-`ImageView_PrintToA` | 5 | Exported Function
-`ImageView_FullscreenW` | 3 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
 `DllCanUnloadNow` | 8 | Exported Function
-`ImageView_FullscreenA` | 2 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
 `ImageView_Fullscreen` | 1 | Exported Function
+`ImageView_FullscreenA` | 2 | Exported Function
+`ImageView_FullscreenW` | 3 | Exported Function
+`imageview_fullscreenW` | 7 | Exported Function
+`ImageView_PrintTo` | 4 | Exported Function
+`ImageView_PrintToA` | 5 | Exported Function
+`ImageView_PrintToW` | 6 | Exported Function
 
 
 ## Signature

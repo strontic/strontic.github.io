@@ -26,8 +26,8 @@ PE256 | `763C5A569ACFEA52E2A0FABBED2D4DA90DD656EE84AC5321ADD6BFEBA0D63164`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`qt_plugin_query_metadata` | 2 | Exported Function
 `qt_plugin_instance` | 1 | Exported Function
+`qt_plugin_query_metadata` | 2 | Exported Function
 
 
 ## Signature

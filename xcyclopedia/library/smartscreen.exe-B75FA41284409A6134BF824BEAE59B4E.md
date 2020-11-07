@@ -81,6 +81,7 @@ C:\Windows\System32\WS2_32.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\smartscreen.exe](smartscreen.exe-3FC10273D5BBB7B06A76FD5E78D91469.md) | 50
 [C:\WINDOWS\system32\smartscreen.exe](smartscreen.exe-6033F55F30364319ED5B7E1C6E6C9ED4.md) | 30
 
 ## Possible Misuse

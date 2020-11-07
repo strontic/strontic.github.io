@@ -26,13 +26,13 @@ PE256 | `A62DA0D34DFFDBF5A53EB0F85A149936FFD94CAF5FCC7AA230B631E87166CFE9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`GetProviderClassID` | 6 | Exported Function
-`MI_Main` | 7 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllMain` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
+`MI_Main` | 7 | Exported Function
 
 
 ## Signature

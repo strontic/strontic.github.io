@@ -26,40 +26,40 @@ PE256 | `A1CD34492C1E03590AE6EE4B56B29B371A8C6682A72349C3928684658D75C82D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Mso::TCntPtr` | 1 | Exported Function
-`long __stdcall CreateOsfContentControl(struct IOfficeSolutionFramework *,struct IOsfExtensionPersistence *,void *,unsigned long,unsigned long,bool,struct IOsfContentControl * *)` | 6 | Exported Function
-`Mso::TCntPtr` | 7 | Exported Function
-`Osf::CreateHtmlTaskPaneControl` | 5 | Exported Function
-`DllUnregisterServer` | 24 | Exported Function
-`DllRegisterServer` | 23 | Exported Function
-`std::allocator` | 2 | Exported Function
-`int __stdcall OSFLoadString(unsigned int,wchar_t *,int)` | 16 | Exported Function
-`SDK::IExtensionInstance` | 8 | Exported Function
+`_CreateOsfRibbonManager@12` | 19 | Exported Function
 `void __stdcall CreateCacheForPreinstalledApps(void)` | 3 | Exported Function
 `struct HINSTANCE__ * __stdcall GetOsfIntlDllInstance(void)` | 11 | Exported Function
-`void __stdcall SetSandboxThreadSetupTeardown(void (__stdcall*)(void),void (__stdcall*)(void))` | 18 | Exported Function
-`std::function` | 4 | Exported Function
-`SDK::IExtensionInstance` | 10 | Exported Function
-`Csi::IDocumentProperties` | 9 | Exported Function
 `long __stdcall OSFInitialize(enum OsfHost,struct IOfficeSolutionFrameworkHost *,struct IOfficeSolutionFramework * *)` | 15 | Exported Function
 `Mso::TCntPtr` | 14 | Exported Function
-`_DoWefGalleryWebDialogInitTab@16` | 29 | Exported Function
-`_DoWefGalleryWebDialogInitTab2@16` | 28 | Exported Function
-`_LaunchAppSourceLandingPage@4` | 31 | Exported Function
-`_HrApplyTaskpanePersistence@8` | 30 | Exported Function
-`_DoHostControlledWefGalleryWebDialog@32` | 25 | Exported Function
-`_CreateOsfRibbonManager@12` | 19 | Exported Function
-`_DoOutlookWefGalleryWebDialogForStoreId@28` | 27 | Exported Function
-`_DoOutlookWefGalleryCustomWebDialogForStoreId@36` | 26 | Exported Function
-`_LaunchInClientStoreAddinPage@16` | 32 | Exported Function
-`DllCanUnloadNow` | 20 | Exported Function
-`class ServiceManager * __stdcall GetServiceManager(void)` | 12 | Exported Function
+`SDK::IExtensionInstance` | 10 | Exported Function
+`Csi::IDocumentProperties` | 9 | Exported Function
+`SDK::IExtensionInstance` | 8 | Exported Function
+`Mso::TCntPtr` | 7 | Exported Function
+`Osf::CreateHtmlTaskPaneControl` | 5 | Exported Function
+`Mso::TCntPtr` | 1 | Exported Function
+`long __stdcall CreateOsfContentControl(struct IOfficeSolutionFramework *,struct IOsfExtensionPersistence *,void *,unsigned long,unsigned long,bool,struct IOsfContentControl * *)` | 6 | Exported Function
+`std::allocator` | 2 | Exported Function
+`int __stdcall OSFLoadString(unsigned int,wchar_t *,int)` | 16 | Exported Function
+`DllUnregisterServer` | 24 | Exported Function
+`DllRegisterServer` | 23 | Exported Function
 `DllInstall` | 22 | Exported Function
 `DllGetClassObject` | 21 | Exported Function
-`_RedirectWefGalleryWebDialog@4` | 34 | Exported Function
+`_DoHostControlledWefGalleryWebDialog@32` | 25 | Exported Function
+`_DoOutlookWefGalleryCustomWebDialogForStoreId@36` | 26 | Exported Function
+`_DoOutlookWefGalleryWebDialogForStoreId@28` | 27 | Exported Function
+`_DoWefGalleryWebDialogInitTab2@16` | 28 | Exported Function
+`_DoWefGalleryWebDialogInitTab@16` | 29 | Exported Function
+`_HrApplyTaskpanePersistence@8` | 30 | Exported Function
+`std::function` | 4 | Exported Function
+`_LaunchAppSourceLandingPage@4` | 31 | Exported Function
 `_LaunchInClientStoreForUrl@16` | 33 | Exported Function
-`Mso::TCntPtr GetWefGalleryWebDialogLocation` | 13 | Exported Function
+`_RedirectWefGalleryWebDialog@4` | 34 | Exported Function
 `bool __stdcall SandboxManagerReady(void)` | 17 | Exported Function
+`Mso::TCntPtr GetWefGalleryWebDialogLocation` | 13 | Exported Function
+`class ServiceManager * __stdcall GetServiceManager(void)` | 12 | Exported Function
+`DllCanUnloadNow` | 20 | Exported Function
+`_LaunchInClientStoreAddinPage@16` | 32 | Exported Function
+`void __stdcall SetSandboxThreadSetupTeardown(void (__stdcall*)(void),void (__stdcall*)(void))` | 18 | Exported Function
 
 
 ## Signature

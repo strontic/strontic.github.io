@@ -26,9 +26,9 @@ PE256 | `A9957030126D09CB4ACAE53BA93C686E972890523C624D815F47403636519F5E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MdmProcessConfigXmlWithAttributes` | 3 | Exported Function
-`DMProcessConfigXMLFiltered` | 2 | Exported Function
 `DMProcessConfigXML` | 1 | Exported Function
+`DMProcessConfigXMLFiltered` | 2 | Exported Function
+`MdmProcessConfigXmlWithAttributes` | 3 | Exported Function
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `52FC430D83F9628E66CEE7F99CB0AACCFF8FBF5D17A968FCBD6EDB009B81420C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RestoreWMIRepository` | 2 | Exported Function
-`ResetRepository` | 1 | Exported Function
-`VerifyRepository` | 4 | Exported Function
-`SalvageRepository` | 3 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 `DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`ResetRepository` | 1 | Exported Function
+`RestoreWMIRepository` | 2 | Exported Function
+`SalvageRepository` | 3 | Exported Function
+`VerifyRepository` | 4 | Exported Function
 
 
 ## Signature

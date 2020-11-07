@@ -26,12 +26,12 @@ PE256 | `B6F5B781E39FF071C75DA721418C191F8E83DAF1E8339EA7AA821455E8EC480F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`QSManager_GetInstance` | 5 | Exported Function
-`QSTextBox_CreateInstance` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`QSManager_GetInstance` | 5 | Exported Function
+`QSTextBox_CreateInstance` | 6 | Exported Function
 
 
 ## Signature

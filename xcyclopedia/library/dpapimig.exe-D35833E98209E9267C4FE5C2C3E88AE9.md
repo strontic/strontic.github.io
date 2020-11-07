@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\dpapimig.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/63de0e29608ba9702fc0996460271886d1f5c8809788be035105bc317a47a5cd/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/63de0e29608ba9702fc0996460271886d1f5c8809788be035105bc317a47a5cd/detection
 
 ## File Similarity (ssdeep match)
 

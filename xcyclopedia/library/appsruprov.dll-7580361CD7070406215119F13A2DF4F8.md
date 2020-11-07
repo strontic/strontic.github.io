@@ -26,14 +26,14 @@ PE256 | `8D2D9B9818ABE0B9B6BB1CE9D171A1EC36F56F1EE1521E1BE18ABCCDD8E0DC2B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PsmQueryQuotaInformation` | 6 | Exported Function
-`PsmQueryApplicationPerformanceInformation2` | 5 | Exported Function
-`SruUninitializeProvider` | 8 | Exported Function
-`SruInitializeProvider` | 7 | Exported Function
-`LogMemoryPerfCounters` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
-`PsmQueryApplicationPerformanceInformation` | 4 | Exported Function
+`LogMemoryPerfCounters` | 1 | Exported Function
 `LogMemoryPerfCountersPeriodically` | 3 | Exported Function
+`PsmQueryApplicationPerformanceInformation` | 4 | Exported Function
+`PsmQueryApplicationPerformanceInformation2` | 5 | Exported Function
+`PsmQueryQuotaInformation` | 6 | Exported Function
+`SruInitializeProvider` | 7 | Exported Function
+`SruUninitializeProvider` | 8 | Exported Function
 
 
 ## Signature

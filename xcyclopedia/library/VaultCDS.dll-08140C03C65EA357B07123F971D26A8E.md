@@ -26,8 +26,8 @@ PE256 | `0C0D582F09617D3C0C238FBCB967DC59CF8B58E04A63FE120994D7E99735D890`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VaultCDSSaveItem` | 2 | Exported Function
 `VaultCDSEnumerateItems` | 1 | Exported Function
+`VaultCDSSaveItem` | 2 | Exported Function
 
 
 ## Signature

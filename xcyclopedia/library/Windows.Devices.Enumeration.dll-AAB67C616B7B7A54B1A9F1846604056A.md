@@ -26,11 +26,11 @@ PE256 | `F90C55D44DC226BFAA1F38809B17DB1E874B7E757F851B44A658639C4C17E98E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetActivationFactory` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `AqsFreeDevQueryFilter` | 1 | Exported Function
 `AqsToDevQueryFilter` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature

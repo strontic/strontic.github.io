@@ -26,9 +26,9 @@ PE256 | `245DB79A3F2701157703805D4FD70E85B892B34C696E2AE37046D75C9E8445D2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PerUserInit` | 7 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
 `DllCanUnloadNow` | 8 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`PerUserInit` | 7 | Exported Function
 
 
 ## Signature

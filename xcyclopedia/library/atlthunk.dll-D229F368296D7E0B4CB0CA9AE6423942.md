@@ -26,10 +26,10 @@ PE256 | `C5FEC61A9D2DC1ED814BFCE844CAB9C9B86F54944482C789E4DE029B7A655B91`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AtlThunk_FreeData` | 3 | Exported Function
-`AtlThunk_InitData` | 4 | Exported Function
 `AtlThunk_AllocateData` | 1 | Exported Function
 `AtlThunk_DataToCode` | 2 | Exported Function
+`AtlThunk_FreeData` | 3 | Exported Function
+`AtlThunk_InitData` | 4 | Exported Function
 
 
 ## Signature

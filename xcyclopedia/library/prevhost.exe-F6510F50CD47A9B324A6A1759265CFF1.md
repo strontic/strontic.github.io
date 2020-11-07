@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\prevhost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/bf39153d7ee708f5aae0746ec64f813f9bd3c345394641d8651aba8161c9c039/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/bf39153d7ee708f5aae0746ec64f813f9bd3c345394641d8651aba8161c9c039/detection
 
 
 

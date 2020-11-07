@@ -26,13 +26,13 @@ PE256 | `0D00A11F7138CCBB3A4DC638018721B311BD5005E16519AE879430E5B1C8595F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 7 | Exported Function
-`AADTBFreeStruct` | 6 | Exported Function
 `AADTBAcquireToken` | 3 | Exported Function
 `AADTBAcquireTokenEx` | 4 | Exported Function
 `AADTBFreeString` | 5 | Exported Function
+`AADTBFreeStruct` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
 
 
 ## Signature

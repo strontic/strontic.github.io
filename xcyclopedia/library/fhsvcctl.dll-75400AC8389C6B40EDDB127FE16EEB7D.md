@@ -26,20 +26,20 @@ PE256 | `3D62B8D3AE5FD7FD7978E124733C3545E9DBDFD335065F5F1B29E0BC63E450C1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FhServiceOpenPipe` | 10 | Exported Function
-`FhServiceMigrationStarting` | 9 | Exported Function
-`FhServiceMigrationFinished` | 8 | Exported Function
-`FhServiceReloadConfiguration` | 11 | Exported Function
-`FhServiceUnblockBackup` | 14 | Exported Function
-`FhServiceStopBackup` | 13 | Exported Function
-`FhServiceStartBackup` | 12 | Exported Function
-`FhServiceBlockBackup` | 3 | Exported Function
-`FhQueryConfiguredUsersCount` | 2 | Exported Function
 `DllMain` | 1 | Exported Function
+`FhQueryConfiguredUsersCount` | 2 | Exported Function
+`FhServiceBlockBackup` | 3 | Exported Function
 `FhServiceClearProtectionState` | 4 | Exported Function
-`FhServiceExitMaintenanceMode` | 7 | Exported Function
-`FhServiceEnterMaintenanceMode` | 6 | Exported Function
 `FhServiceClosePipe` | 5 | Exported Function
+`FhServiceEnterMaintenanceMode` | 6 | Exported Function
+`FhServiceExitMaintenanceMode` | 7 | Exported Function
+`FhServiceMigrationFinished` | 8 | Exported Function
+`FhServiceMigrationStarting` | 9 | Exported Function
+`FhServiceOpenPipe` | 10 | Exported Function
+`FhServiceReloadConfiguration` | 11 | Exported Function
+`FhServiceStartBackup` | 12 | Exported Function
+`FhServiceStopBackup` | 13 | Exported Function
+`FhServiceUnblockBackup` | 14 | Exported Function
 
 
 ## Signature

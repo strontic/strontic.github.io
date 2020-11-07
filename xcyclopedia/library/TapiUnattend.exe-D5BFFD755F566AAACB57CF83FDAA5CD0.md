@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\TapiUnattend.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/9ffa72ead7927f09d7106c62d5fde25e27f7bff27099101e15e5f7e903cd00f4/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9ffa72ead7927f09d7106c62d5fde25e27f7bff27099101e15e5f7e903cd00f4/detection
 
 ## File Similarity (ssdeep match)
 

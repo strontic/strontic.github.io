@@ -26,15 +26,15 @@ PE256 | `75DCA8E28F6E6BF00E9D5DEC51E0C2EE8F2A77002894118D2A43AE6F565F9445`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ISCMacroSequenceCheck` | 106 | Exported Function
-`ISCGetCurrentState` | 104 | Exported Function
-`ISCSupportLCID` | 108 | Exported Function
-`ISCSetCurrentState` | 105 | Exported Function
-`ISCGetContext` | 103 | Exported Function
-`ISCCreateObject` | 100 | Exported Function
 `ISCCheckSequence` | 102 | Exported Function
-`ISCDestroyObject` | 101 | Exported Function
+`ISCCreateObject` | 100 | Exported Function
 `ISCDecodeCommandEx` | 107 | Exported Function
+`ISCDestroyObject` | 101 | Exported Function
+`ISCGetContext` | 103 | Exported Function
+`ISCGetCurrentState` | 104 | Exported Function
+`ISCMacroSequenceCheck` | 106 | Exported Function
+`ISCSetCurrentState` | 105 | Exported Function
+`ISCSupportLCID` | 108 | Exported Function
 
 
 ## Signature

@@ -69,6 +69,11 @@ C:\Windows\System32\WS2_32.dll |
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/c0a5986a4dd6d7cacf09c5a980df634c44ff73028206d99cb561e64a74a0958a/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\CompatTelRunner.exe](CompatTelRunner.exe-CB6CA75C8DE515340514D54DD2EB0E64.md) | 93
 
 ## Possible Misuse
 

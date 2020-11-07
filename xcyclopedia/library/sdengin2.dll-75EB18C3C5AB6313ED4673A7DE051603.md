@@ -26,13 +26,13 @@ PE256 | `8C3727120C5E5D5729B13D48DAE49284F4E59C5F5522E27E4BB7B94FBDF968DB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 6 | Exported Function
-`ExecuteScheduledBackup` | 1 | Exported Function
-`SdCheck` | 7 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`ExecuteScheduledBackup` | 1 | Exported Function
+`SdCheck` | 7 | Exported Function
 
 
 ## Signature

@@ -29,13 +29,44 @@ PE256 | `7F0B6B8C2099BC07D87FE6352E045787075A7552C2033ED56D2055C1AB1E1404`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTUI.dll |
+C:\Windows\system32\DSROLE.dll |
+C:\Windows\system32\EFSADU.dll |
 C:\Windows\system32\efsui.exe |
+C:\Windows\system32\EFSUTIL.dll |
+C:\Windows\system32\FeClient.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoncli.dll |
+C:\Windows\system32\MFC42u.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\ncrypt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\system32\VAULTCLI.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+C:\Windows\System32\WLDAP32.dll |
 
 
 ## Signature
@@ -59,8 +90,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/ec1dc1a2ee200da0c787328df4fb91a2b978fd09ca1f83f3e55994c0f9ba1d11/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/ec1dc1a2ee200da0c787328df4fb91a2b978fd09ca1f83f3e55994c0f9ba1d11/detection
 
 
 

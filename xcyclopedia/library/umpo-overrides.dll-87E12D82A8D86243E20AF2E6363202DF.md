@@ -26,9 +26,9 @@ PE256 | `FD1174D9DD96A79788D26F5D35A9AF13452BFFEECA655E2FF881DEEB2788F690`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UmpoGetPowerSettingOverrides` | 3 | Exported Function
-`UmpoEnablePowerSettingOverrideUpdates` | 2 | Exported Function
 `UmpoDisablePowerSettingOverrideUpdates` | 1 | Exported Function
+`UmpoEnablePowerSettingOverrideUpdates` | 2 | Exported Function
+`UmpoGetPowerSettingOverrides` | 3 | Exported Function
 
 
 ## Signature

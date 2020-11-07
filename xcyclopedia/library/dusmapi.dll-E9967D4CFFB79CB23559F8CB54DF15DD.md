@@ -26,32 +26,32 @@ PE256 | `BC3DDE7AB76ACA4624CD24E2E5C9F7798B7F815FF8BB17CD13892DD362703264`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DusmQueryUserCost` | 17 | Exported Function
-`DusmQueryUserDataPlan` | 18 | Exported Function
-`DusmResetNetworkUsage` | 19 | Exported Function
-`DusmQueryOperatorCost` | 14 | Exported Function
-`DusmQueryOperatorDataPlan` | 15 | Exported Function
-`DusmQuerySource` | 16 | Exported Function
-`DusmSetAttributionMapping` | 20 | Exported Function
+`DusmEnumConnectionList` | 1 | Exported Function
 `DusmSetSource` | 24 | Exported Function
+`DusmSetOperatorDataPlan` | 23 | Exported Function
+`DusmSetOperatorCost` | 22 | Exported Function
+`DusmSetBackgroundRestriction` | 21 | Exported Function
+`DusmSetAttributionMapping` | 20 | Exported Function
+`DusmResetNetworkUsage` | 19 | Exported Function
+`DusmQueryUserDataPlan` | 18 | Exported Function
+`DusmQueryUserCost` | 17 | Exported Function
+`DusmQuerySource` | 16 | Exported Function
+`DusmQueryOperatorDataPlan` | 15 | Exported Function
+`DusmQueryOperatorCost` | 14 | Exported Function
+`DusmQueryGlobalDpuState` | 13 | Exported Function
+`DusmQueryDataPlan` | 12 | Exported Function
+`DusmQueryCost` | 11 | Exported Function
+`DusmQueryConnectionProperties` | 10 | Exported Function
+`DusmQueryBackgroundRestriction` | 9 | Exported Function
+`DusmGetProviderNetworkUsage` | 8 | Exported Function
+`DusmGetNetworkUsage` | 7 | Exported Function
+`DusmGetConnectionListNetworkUsage` | 6 | Exported Function
+`DusmGetAttributedNetworkUsage` | 5 | Exported Function
+`DusmFree` | 4 | Exported Function
+`DusmFlushCostCache` | 3 | Exported Function
+`DusmEnumProfileList` | 2 | Exported Function
 `DusmSetUserCost` | 25 | Exported Function
 `DusmSetUserDataPlan` | 26 | Exported Function
-`DusmSetBackgroundRestriction` | 21 | Exported Function
-`DusmSetOperatorCost` | 22 | Exported Function
-`DusmSetOperatorDataPlan` | 23 | Exported Function
-`DusmFree` | 4 | Exported Function
-`DusmGetAttributedNetworkUsage` | 5 | Exported Function
-`DusmGetConnectionListNetworkUsage` | 6 | Exported Function
-`DusmEnumConnectionList` | 1 | Exported Function
-`DusmEnumProfileList` | 2 | Exported Function
-`DusmFlushCostCache` | 3 | Exported Function
-`DusmGetNetworkUsage` | 7 | Exported Function
-`DusmQueryCost` | 11 | Exported Function
-`DusmQueryDataPlan` | 12 | Exported Function
-`DusmQueryGlobalDpuState` | 13 | Exported Function
-`DusmGetProviderNetworkUsage` | 8 | Exported Function
-`DusmQueryBackgroundRestriction` | 9 | Exported Function
-`DusmQueryConnectionProperties` | 10 | Exported Function
 
 
 ## Signature

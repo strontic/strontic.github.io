@@ -26,18 +26,18 @@ PE256 | `ECBB1DF3B1A98CEECFE320A2BEC1391824D346A1CE134A27420A32E0EEDC6D1F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSManPluginShell` | 9 | Exported Function
-`WSManPluginSend` | 8 | Exported Function
-`WSManPluginReleaseShellContext` | 7 | Exported Function
-`WSManPluginStartup` | 12 | Exported Function
-`WSManPluginSignal` | 11 | Exported Function
-`WSManPluginShutdown` | 10 | Exported Function
-`WSManPluginCommand` | 3 | Exported Function
-`PerformWSManPluginReportCompletion` | 2 | Exported Function
 `GetCLRVersionForPSVersion` | 1 | Exported Function
-`WSManPluginReleaseCommandContext` | 6 | Exported Function
-`WSManPluginReceive` | 5 | Exported Function
+`PerformWSManPluginReportCompletion` | 2 | Exported Function
+`WSManPluginCommand` | 3 | Exported Function
 `WSManPluginConnect` | 4 | Exported Function
+`WSManPluginReceive` | 5 | Exported Function
+`WSManPluginReleaseCommandContext` | 6 | Exported Function
+`WSManPluginReleaseShellContext` | 7 | Exported Function
+`WSManPluginSend` | 8 | Exported Function
+`WSManPluginShell` | 9 | Exported Function
+`WSManPluginShutdown` | 10 | Exported Function
+`WSManPluginSignal` | 11 | Exported Function
+`WSManPluginStartup` | 12 | Exported Function
 
 
 ## Signature

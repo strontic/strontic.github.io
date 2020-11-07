@@ -111,6 +111,11 @@ C:\Windows\SysWOW64\typeperf.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/6189863e404821412177546146bf39be81603229f5fcc7d669e4737dd8ff7b7e/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\typeperf.exe](typeperf.exe-3C451062FF170BCF0F68EF5A1FF4FE16.md) | 96
 
 
 ## Additional Info*

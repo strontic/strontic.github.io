@@ -26,10 +26,10 @@ PE256 | `B3C37A536707BF1A1653DBEF412A9A70B35E939DD28D91A7F08D53062A28F446`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `CreateAllEdpTasks` | 1 | Exported Function
 `DeleteAllEdpTasks` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

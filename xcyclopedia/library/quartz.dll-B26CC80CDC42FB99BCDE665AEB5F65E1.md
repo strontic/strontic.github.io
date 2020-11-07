@@ -26,14 +26,14 @@ PE256 | `228E476D32A1C7A417A840813735496D1091FA11218CFA3C747F6F5F1B0DDEF1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 6 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`AMGetErrorTextW` | 2 | Exported Function
 `AMGetErrorTextA` | 1 | Exported Function
-`DBToAmpFactor` | 4 | Exported Function
+`AMGetErrorTextW` | 2 | Exported Function
 `AmpFactorToDB` | 3 | Exported Function
+`DBToAmpFactor` | 4 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
 
 
 ## Signature

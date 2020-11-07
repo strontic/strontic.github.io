@@ -26,28 +26,28 @@ PE256 | `A7AB7B6E028776B1B503C5C11FA4886323B53910BCBCA4EE8C834BA70A08F9BE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EfsUtilIsSmartcardKey` | 15 | Exported Function
-`EfsUtilIsSmartcardProvider` | 16 | Exported Function
-`EfsUtilGetUserKey` | 14 | Exported Function
-`EfsUtilGetPublicKeyType` | 12 | Exported Function
-`EfsUtilGetSmartcardProviderName` | 13 | Exported Function
+`EfsUtilApplyGroupPolicy` | 1 | Exported Function
+`EfsUtilSetCurrentKey` | 20 | Exported Function
+`EfsUtilReleaseUserKey` | 19 | Exported Function
+`EfsUtilReleaseProvider` | 18 | Exported Function
 `EfsUtilParseDataRecoveryPolicy_1_1` | 17 | Exported Function
+`EfsUtilIsSmartcardProvider` | 16 | Exported Function
+`EfsUtilIsSmartcardKey` | 15 | Exported Function
+`EfsUtilGetUserKey` | 14 | Exported Function
+`EfsUtilGetSmartcardProviderName` | 13 | Exported Function
+`EfsUtilGetPublicKeyType` | 12 | Exported Function
+`EfsUtilGetProvider` | 11 | Exported Function
+`EfsUtilGetCurrentUserInformation` | 10 | Exported Function
+`EfsUtilGetCurrentKey_Deprecated` | 9 | Exported Function
+`EfsUtilGetCurrentKey` | 8 | Exported Function
+`EfsUtilGetCertNameFromCertContext` | 7 | Exported Function
+`EfsUtilGetCertDisplayInformation` | 6 | Exported Function
+`EfsUtilGetCertContextFromCertHash` | 5 | Exported Function
+`EfsUtilFreeParsedRecoveryPolicy` | 4 | Exported Function
+`EfsUtilCreateSelfSignedCertificate` | 3 | Exported Function
+`EfsUtilCheckCurrentKeyCapabilities` | 2 | Exported Function
 `EfsUtilSetSmartcardPin` | 21 | Exported Function
 `EfsUtilSmartcardCredsNeededError` | 22 | Exported Function
-`EfsUtilSetCurrentKey` | 20 | Exported Function
-`EfsUtilReleaseProvider` | 18 | Exported Function
-`EfsUtilReleaseUserKey` | 19 | Exported Function
-`EfsUtilFreeParsedRecoveryPolicy` | 4 | Exported Function
-`EfsUtilGetCertContextFromCertHash` | 5 | Exported Function
-`EfsUtilCreateSelfSignedCertificate` | 3 | Exported Function
-`EfsUtilApplyGroupPolicy` | 1 | Exported Function
-`EfsUtilCheckCurrentKeyCapabilities` | 2 | Exported Function
-`EfsUtilGetCertDisplayInformation` | 6 | Exported Function
-`EfsUtilGetCurrentUserInformation` | 10 | Exported Function
-`EfsUtilGetProvider` | 11 | Exported Function
-`EfsUtilGetCurrentKey_Deprecated` | 9 | Exported Function
-`EfsUtilGetCertNameFromCertContext` | 7 | Exported Function
-`EfsUtilGetCurrentKey` | 8 | Exported Function
 
 
 ## Signature

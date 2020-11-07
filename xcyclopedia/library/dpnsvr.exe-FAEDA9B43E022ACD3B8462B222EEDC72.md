@@ -25,8 +25,8 @@ PE256 | `81BE0F9ED5512C9FAF6B7659DEAE7F8E18C015CC10DA87DEEDA4235E67948B4C`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -43,8 +43,8 @@ PE256 | `81BE0F9ED5512C9FAF6B7659DEAE7F8E18C015CC10DA87DEEDA4235E67948B4C`
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/f0f847a5079f94adfd5b224c05ddd4a5651c757b920b6c26e629993c7dd36951/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/f0f847a5079f94adfd5b224c05ddd4a5651c757b920b6c26e629993c7dd36951/detection
 
 ## File Similarity (ssdeep match)
 

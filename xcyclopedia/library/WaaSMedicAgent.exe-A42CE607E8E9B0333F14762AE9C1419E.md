@@ -55,8 +55,8 @@ C:\Windows\system32\WaaSMedicAgent.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/85fb7cf779af202942d7f7e23aa9913484a9252482daa6e87ab15218ce407147/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/85fb7cf779af202942d7f7e23aa9913484a9252482daa6e87ab15218ce407147/detection
 
 ## File Similarity (ssdeep match)
 

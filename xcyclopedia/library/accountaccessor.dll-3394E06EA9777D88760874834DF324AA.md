@@ -26,23 +26,23 @@ PE256 | `1F0D05FF6FB21967A117F6FE731AA8EE5000DE43557795BD61CF2C035D657EEE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetConversationSyncEnabled` | 4 | Exported Function
-`SetUnifiedInboxEnabled` | 5 | Exported Function
-`LoadGoldenPartnershipAccessor` | 12 | Exported Function
-`SetConversationSyncDateFilter` | 13 | Exported Function
-`UpdateGoogleAccountServerSendsMeetingProp` | 16 | Exported Function
-`UpdateWebDavAccountProperties` | 17 | Exported Function
-`UnenrollAndMarkAccountForDeletion` | 14 | Exported Function
-`UpdateGoogleAccountConversationFlags` | 15 | Exported Function
-`IsExtendedConversationSyncDateFiltersSupported` | 11 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`FindMatchingPartnership` | 9 | Exported Function
 `CreateDefaultWindowsLiveAccount` | 6 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
+`UpdateGoogleAccountConversationFlags` | 15 | Exported Function
+`UnenrollAndMarkAccountForDeletion` | 14 | Exported Function
+`SetUnifiedInboxEnabled` | 5 | Exported Function
+`SetConversationSyncEnabled` | 4 | Exported Function
+`SetConversationSyncDateFilter` | 13 | Exported Function
+`LoadGoldenPartnershipAccessor` | 12 | Exported Function
+`UpdateGoogleAccountServerSendsMeetingProp` | 16 | Exported Function
+`IsExtendedConversationSyncDateFiltersSupported` | 11 | Exported Function
 `GetUnifiedInboxEnabled` | 2 | Exported Function
-`GetUnifiedInboxServerValue` | 3 | Exported Function
-`GetConversationSyncDateFilter` | 10 | Exported Function
 `GetConversationSyncEnabled` | 1 | Exported Function
+`GetConversationSyncDateFilter` | 10 | Exported Function
+`FindMatchingPartnership` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`GetUnifiedInboxServerValue` | 3 | Exported Function
+`UpdateWebDavAccountProperties` | 17 | Exported Function
 
 
 ## Signature

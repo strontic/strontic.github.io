@@ -26,9 +26,9 @@ PE256 | `3A871F9F892BE825760C56F2A44F0BF79D6EA27C80686B3DB0D04F9D6E0DE3A5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GenerateScript` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`GenerateScript` | 3 | Exported Function
 
 
 ## Signature

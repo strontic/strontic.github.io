@@ -26,10 +26,10 @@ PE256 | `2691A9603798619B93DB943596FDA8E996A7DC03B23572CBA9C244B0BD022610`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 2 | Exported Function
-`SvchostPushServiceGlobals` | 3 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
 `DllGetActivationFactory` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
 
 
 ## Signature

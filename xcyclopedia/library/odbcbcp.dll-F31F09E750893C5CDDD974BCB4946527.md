@@ -26,34 +26,34 @@ PE256 | `11C6D6EBBEFFCC690A4D15B404D9F7B6DAB74746CAA58659AF41BA79ADA97F6B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`bcp_writefmtW` | 20 | Exported Function
-`dbprtypeA` | 1 | Exported Function
-`dbprtypeW` | 17 | Exported Function
-`bcp_writefmtA` | 16 | Exported Function
-`bcp_readfmtW` | 19 | Exported Function
-`bcp_sendrow` | 14 | Exported Function
-`bcp_setcolfmt` | 29 | Exported Function
+`bcp_batch` | 2 | Exported Function
 `SQLLinkedCatalogsA` | 23 | Exported Function
+`SQLInitEnumServers` | 25 | Exported Function
+`SQLGetNextEnumeration` | 26 | Exported Function
+`SQLCloseEnumServers` | 27 | Exported Function
+`LibMain` | 24 | Exported Function
+`dbprtypeW` | 17 | Exported Function
+`dbprtypeA` | 1 | Exported Function
+`bcp_writefmtW` | 20 | Exported Function
+`bcp_writefmtA` | 16 | Exported Function
+`bcp_setcolfmt` | 29 | Exported Function
+`bcp_sendrow` | 14 | Exported Function
+`bcp_readfmtW` | 19 | Exported Function
+`bcp_readfmtA` | 15 | Exported Function
+`bcp_moretext` | 13 | Exported Function
+`bcp_initW` | 18 | Exported Function
+`bcp_initA` | 11 | Exported Function
+`bcp_getcolfmt` | 28 | Exported Function
+`bcp_exec` | 12 | Exported Function
+`bcp_done` | 10 | Exported Function
+`bcp_control` | 9 | Exported Function
+`bcp_columns` | 8 | Exported Function
+`bcp_colptr` | 6 | Exported Function
+`bcp_collen` | 5 | Exported Function
+`bcp_colfmt` | 4 | Exported Function
+`bcp_bind` | 3 | Exported Function
 `SQLLinkedCatalogsW` | 22 | Exported Function
 `SQLLinkedServers` | 21 | Exported Function
-`SQLInitEnumServers` | 25 | Exported Function
-`LibMain` | 24 | Exported Function
-`SQLCloseEnumServers` | 27 | Exported Function
-`SQLGetNextEnumeration` | 26 | Exported Function
-`bcp_colptr` | 6 | Exported Function
-`bcp_columns` | 8 | Exported Function
-`bcp_control` | 9 | Exported Function
-`bcp_collen` | 5 | Exported Function
-`bcp_batch` | 2 | Exported Function
-`bcp_bind` | 3 | Exported Function
-`bcp_colfmt` | 4 | Exported Function
-`bcp_initW` | 18 | Exported Function
-`bcp_moretext` | 13 | Exported Function
-`bcp_readfmtA` | 15 | Exported Function
-`bcp_initA` | 11 | Exported Function
-`bcp_done` | 10 | Exported Function
-`bcp_exec` | 12 | Exported Function
-`bcp_getcolfmt` | 28 | Exported Function
 
 
 ## Signature

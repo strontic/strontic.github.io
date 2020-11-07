@@ -26,10 +26,10 @@ PE256 | `8BAB652EAB72D1B9F6464726D65F19538C22C70FBC3E6016EBB782C998068F00`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSAttemptAutodialName` | 3 | Exported Function
-`WSNoteSuccessfulHostentLookup` | 4 | Exported Function
 `AcsHlpNbConnection` | 1 | Exported Function
 `WSAttemptAutodialAddr` | 2 | Exported Function
+`WSAttemptAutodialName` | 3 | Exported Function
+`WSNoteSuccessfulHostentLookup` | 4 | Exported Function
 
 
 ## Signature

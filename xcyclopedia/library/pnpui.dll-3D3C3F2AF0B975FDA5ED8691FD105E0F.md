@@ -26,13 +26,13 @@ PE256 | `7E6B8AB6E46E90460011EBF095ED5DA491886F818CDCF8F21291F8EBC4D8E30E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallSecurityPromptRunDllW` | 3 | Exported Function
-`NotifyDevicesNeedRebootRunDllW` | 4 | Exported Function
-`SimplifiedDINotificationW` | 5 | Exported Function
-`InstallSecurityPromptLUA` | 2 | Exported Function
 `DllCanUnloadNow` | 6 | Exported Function
 `DllGetClassObject` | 7 | Exported Function
 `InstallSecurityPrompt` | 1 | Exported Function
+`InstallSecurityPromptLUA` | 2 | Exported Function
+`InstallSecurityPromptRunDllW` | 3 | Exported Function
+`NotifyDevicesNeedRebootRunDllW` | 4 | Exported Function
+`SimplifiedDINotificationW` | 5 | Exported Function
 
 
 ## Signature

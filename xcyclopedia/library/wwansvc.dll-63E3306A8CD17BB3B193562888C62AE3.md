@@ -26,8 +26,8 @@ PE256 | `FA0D085A7C8D26876B76760D4AD89C5F568F288412FE06A76C57DF6B44DB3C70`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WwanSvcMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 1 | Exported Function
+`WwanSvcMain` | 2 | Exported Function
 
 
 ## Signature

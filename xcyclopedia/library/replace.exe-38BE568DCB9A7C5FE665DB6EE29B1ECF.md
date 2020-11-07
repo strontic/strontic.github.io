@@ -86,8 +86,8 @@ C:\Windows\system32\replace.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/ea3f7fbec756ac2f7cc26659be3f70637ddd892bc67127777b2bcd0605b2ccf1/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/ea3f7fbec756ac2f7cc26659be3f70637ddd892bc67127777b2bcd0605b2ccf1/detection
 
 
 ## Possible Misuse

@@ -26,25 +26,25 @@ PE256 | `EE7EE1F9636EA7FF5345154BD1E3C6A1903DEF4FE6CBFD68C2A44EFA940AAE67`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CfgUtilParseName` | 16 | Exported Function
-`CfgUtilParseNameByLen` | 17 | Exported Function
-`CfgUtilParseConfigSemanticTypeName` | 14 | Exported Function
-`CfgUtilParseElementName` | 15 | Exported Function
-`CfgUtilParseParmAttributeName` | 18 | Exported Function
-`SyncGetDeviceUniqueID` | 19 | Exported Function
-`VerifyFullAdminPrivileges` | 3 | Exported Function
-`CleanupPolicyComplianceEnsuranceForSource` | 1 | Exported Function
-`EnsurePolicyComplianceForSource` | 2 | Exported Function
-`CfgUtilParseConfigDataTypeName` | 13 | Exported Function
-`CfgUtilCreateCharacteristic` | 6 | Exported Function
-`CfgUtilCreateParm` | 7 | Exported Function
 `CfgUtilCheckCharacteristicNode` | 4 | Exported Function
-`CfgUtilCheckParmNode` | 5 | Exported Function
-`CfgUtilGetConfigDataTypeName` | 8 | Exported Function
+`EnsurePolicyComplianceForSource` | 2 | Exported Function
+`CleanupPolicyComplianceEnsuranceForSource` | 1 | Exported Function
+`CfgUtilParseParmAttributeName` | 18 | Exported Function
+`CfgUtilParseNameByLen` | 17 | Exported Function
+`CfgUtilParseName` | 16 | Exported Function
+`CfgUtilParseElementName` | 15 | Exported Function
+`CfgUtilParseConfigSemanticTypeName` | 14 | Exported Function
+`SyncGetDeviceUniqueID` | 19 | Exported Function
+`CfgUtilParseConfigDataTypeName` | 13 | Exported Function
 `CfgUtilGetName` | 11 | Exported Function
-`CfgUtilGetParmAttributeName` | 12 | Exported Function
-`CfgUtilGetConfigSemanticTypeName` | 9 | Exported Function
 `CfgUtilGetElementName` | 10 | Exported Function
+`CfgUtilGetConfigSemanticTypeName` | 9 | Exported Function
+`CfgUtilGetConfigDataTypeName` | 8 | Exported Function
+`CfgUtilCreateParm` | 7 | Exported Function
+`CfgUtilCreateCharacteristic` | 6 | Exported Function
+`CfgUtilCheckParmNode` | 5 | Exported Function
+`CfgUtilGetParmAttributeName` | 12 | Exported Function
+`VerifyFullAdminPrivileges` | 3 | Exported Function
 
 
 ## Signature

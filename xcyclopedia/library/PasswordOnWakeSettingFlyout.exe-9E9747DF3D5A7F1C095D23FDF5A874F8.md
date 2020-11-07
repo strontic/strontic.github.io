@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/23064784e45919e962e9fc7a532696856f061c0fb4a77d8923c50527aba2e15e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/23064784e45919e962e9fc7a532696856f061c0fb4a77d8923c50527aba2e15e/detection
 
 ## File Similarity (ssdeep match)
 

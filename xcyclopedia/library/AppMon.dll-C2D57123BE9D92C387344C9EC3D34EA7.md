@@ -26,8 +26,8 @@ PE256 | `CADECF73EEB7076582E3D4BB958E5357492845B2C1B1992840DE71960D5E64BF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetRPCClientPid` | 2 | Exported Function
 `InitializePrintMonitor2` | 1 | Exported Function
+`SetRPCClientPid` | 2 | Exported Function
 
 
 ## Signature

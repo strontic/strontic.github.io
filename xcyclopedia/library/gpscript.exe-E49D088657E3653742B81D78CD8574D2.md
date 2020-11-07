@@ -60,6 +60,11 @@ C:\Windows\System32\win32u.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\gpscript.exe](gpscript.exe-94FC20DD55459F467A22817CC3B089E5.md) | 29
 
 ## Possible Misuse
 

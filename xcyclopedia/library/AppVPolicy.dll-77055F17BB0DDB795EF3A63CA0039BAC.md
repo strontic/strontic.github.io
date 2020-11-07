@@ -26,14 +26,14 @@ PE256 | `ECD6ADBC0552C4A7B1C85EF4860CF92497CECC1F7B7333B8AB4036EF29624C21`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreatePackageUserPolicyDocument` | 4 | Exported Function
-`CreatePackageMachinePolicyDocumentFromXML` | 2 | Exported Function
-`CreatePackageUserPolicyDocumentFromXML` | 5 | Exported Function
-`CreatePackageUserPolicyDocumentFromFile` | 6 | Exported Function
-`CreatePackageGroupDescriptorDocumentFromXML` | 7 | Exported Function
 `CreatePackageGroupDescriptorDocumentFromFile` | 8 | Exported Function
-`CreatePackageMachinePolicyDocumentFromFile` | 3 | Exported Function
+`CreatePackageGroupDescriptorDocumentFromXML` | 7 | Exported Function
 `CreatePackageMachinePolicyDocument` | 1 | Exported Function
+`CreatePackageMachinePolicyDocumentFromFile` | 3 | Exported Function
+`CreatePackageMachinePolicyDocumentFromXML` | 2 | Exported Function
+`CreatePackageUserPolicyDocument` | 4 | Exported Function
+`CreatePackageUserPolicyDocumentFromFile` | 6 | Exported Function
+`CreatePackageUserPolicyDocumentFromXML` | 5 | Exported Function
 
 
 ## Signature

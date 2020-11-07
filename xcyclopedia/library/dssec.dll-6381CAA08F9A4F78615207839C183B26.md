@@ -26,12 +26,12 @@ PE256 | `04651481AF34010ECD32A0AD1124C4862FD1712D369F6CB8C7388B3FE1B1A585`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DSCreateISecurityInfoObjectEx` | 4 | Exported Function
-`DSCreateSecurityPage` | 2 | Exported Function
-`DSEditSecurity` | 3 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
 `DllGetClassObject` | 6 | Exported Function
 `DSCreateISecurityInfoObject` | 1 | Exported Function
+`DSCreateISecurityInfoObjectEx` | 4 | Exported Function
+`DSCreateSecurityPage` | 2 | Exported Function
+`DSEditSecurity` | 3 | Exported Function
 
 
 ## Signature

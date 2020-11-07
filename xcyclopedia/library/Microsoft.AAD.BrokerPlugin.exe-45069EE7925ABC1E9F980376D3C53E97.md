@@ -24,16 +24,26 @@ PE256 | `56CDAB71740034907CE33D34A869B57F3109A4094FB2BB88BE9466D44FE24CEA`
 
 ## Runtime Data
 
+### Child Processes:
+Microsoft.AAD.BrokerPlugin.exe WerFault.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Microsoft.AAD.BrokerPlugin.exe |
 
 
@@ -58,8 +68,8 @@ C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Microsoft.AAD.Bro
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/0b9c5be55849bfda6886d54ddf422570906dac32f7cdb7b62ab1140ff7e4d734/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/0b9c5be55849bfda6886d54ddf422570906dac32f7cdb7b62ab1140ff7e4d734/detection
 
 
 

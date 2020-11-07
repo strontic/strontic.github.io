@@ -26,11 +26,11 @@ PE256 | `449FF0F27F01F88FB20280609A99AB52FD5ECA5CCC644C2E7CB97A363B38327F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BamQueryKnownApplications` | 4 | Exported Function
-`BamSetUserManagementState` | 5 | Exported Function
-`BamFreeQueriedApplications` | 3 | Exported Function
 `BamCreateSettingsClientLib` | 1 | Exported Function
 `BamDestroySettingsClientLib` | 2 | Exported Function
+`BamFreeQueriedApplications` | 3 | Exported Function
+`BamQueryKnownApplications` | 4 | Exported Function
+`BamSetUserManagementState` | 5 | Exported Function
 
 
 ## Signature

@@ -63,8 +63,8 @@ C:\Windows\SysWOW64\Com\comrepl.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/289b423e248ccbdf95184c549f8f16cef29706fe9532ee167393ff171a262120/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/289b423e248ccbdf95184c549f8f16cef29706fe9532ee167393ff171a262120/detection
 
 
 

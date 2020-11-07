@@ -42,7 +42,6 @@ C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -67,8 +66,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/468ba4278b1a99387a91b2652aa0fac39784ab0460e52b2bd885f74b79a6e5a4/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/468ba4278b1a99387a91b2652aa0fac39784ab0460e52b2bd885f74b79a6e5a4/detection
 
 ## File Similarity (ssdeep match)
 

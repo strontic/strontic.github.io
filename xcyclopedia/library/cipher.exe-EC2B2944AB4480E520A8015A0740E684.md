@@ -169,8 +169,8 @@ C:\Windows\SysWOW64\cipher.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/0b26b46319ce5332ac61dc2d4767368af0c5fd0475b0b82304ab3ab621952ece/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/0b26b46319ce5332ac61dc2d4767368af0c5fd0475b0b82304ab3ab621952ece/detection
 
 
 ## Possible Misuse

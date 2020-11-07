@@ -28,18 +28,12 @@ PE256 | `9A24F664541C0222E9A49F70D5DB0A16444CCEADA59E30EA1BE96B8D11FFD2B9`
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SYSTEM32\ntmarta.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\upfc.exe |
-C:\Windows\system32\XmlLite.dll |
 
 
 ## Signature
@@ -63,8 +57,8 @@ C:\Windows\system32\XmlLite.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/ee44fe14df89c4e5eaf8398f8fb4823fd910c5a94d913653d6b9e831254f6cc2/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/ee44fe14df89c4e5eaf8398f8fb4823fd910c5a94d913653d6b9e831254f6cc2/detection
 
 
 

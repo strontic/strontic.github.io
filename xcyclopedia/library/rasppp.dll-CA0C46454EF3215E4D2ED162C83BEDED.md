@@ -26,14 +26,14 @@ PE256 | `93DF18419F799814D1821B57DBC2A3180B681EF7240B8DBAB105BD47D4F37DD9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SendMessageToProtocolEngine` | 6 | Exported Function
-`RasCpGetInfo` | 5 | Exported Function
-`UninitializeServerProtocolEngine` | 8 | Exported Function
-`UninitializeProtocolEngine` | 7 | Exported Function
-`InitializeServerProtocolEngine` | 2 | Exported Function
 `InitializeProtocolEngine` | 1 | Exported Function
-`RasCpEnumProtocolIds` | 4 | Exported Function
+`InitializeServerProtocolEngine` | 2 | Exported Function
 `PppStop` | 3 | Exported Function
+`RasCpEnumProtocolIds` | 4 | Exported Function
+`RasCpGetInfo` | 5 | Exported Function
+`SendMessageToProtocolEngine` | 6 | Exported Function
+`UninitializeProtocolEngine` | 7 | Exported Function
+`UninitializeServerProtocolEngine` | 8 | Exported Function
 
 
 ## Signature

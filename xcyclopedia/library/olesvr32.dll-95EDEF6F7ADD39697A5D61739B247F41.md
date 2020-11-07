@@ -26,29 +26,29 @@ PE256 | `CAA4A51B52EC4CC40F95844FA2E8F5487149CF5268D2D2EB8A3F93D10F0310A9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OleSavedServerDoc` | 10 | Exported Function
-`OleUnblockServer` | 5 | Exported Function
-`OleRevokeServerDoc` | 7 | Exported Function
-`OleRevokeObject` | 11 | Exported Function
-`OleRevokeServer` | 3 | Exported Function
-`SendDataMsg` | 24 | Exported Function
-`TerminateDocClients` | 28 | Exported Function
-`WEP` | 1 | Exported Function
-`TerminateClients` | 27 | Exported Function
-`SendRenameMsg` | 30 | Exported Function
-`SrvrWndProc` | 21 | Exported Function
-`OleRevertServerDoc` | 9 | Exported Function
-`FindItemWnd` | 25 | Exported Function
-`ItemCallBack` | 26 | Exported Function
-`EnumForTerminate` | 31 | Exported Function
 `DeleteClientInfo` | 29 | Exported Function
-`DocWndProc` | 22 | Exported Function
-`ItemWndProc` | 23 | Exported Function
+`TerminateClients` | 27 | Exported Function
+`SrvrWndProc` | 21 | Exported Function
+`SendRenameMsg` | 30 | Exported Function
+`SendDataMsg` | 24 | Exported Function
+`OleUnblockServer` | 5 | Exported Function
+`OleSavedServerDoc` | 10 | Exported Function
+`OleRevokeServerDoc` | 7 | Exported Function
+`OleRevokeServer` | 3 | Exported Function
+`OleRevokeObject` | 11 | Exported Function
+`TerminateDocClients` | 28 | Exported Function
+`OleRevertServerDoc` | 9 | Exported Function
 `OleRegisterServerDoc` | 6 | Exported Function
-`OleRenameServerDoc` | 8 | Exported Function
 `OleRegisterServer` | 2 | Exported Function
-`OleBlockServer` | 4 | Exported Function
 `OleQueryServerVersion` | 12 | Exported Function
+`OleBlockServer` | 4 | Exported Function
+`ItemWndProc` | 23 | Exported Function
+`ItemCallBack` | 26 | Exported Function
+`FindItemWnd` | 25 | Exported Function
+`EnumForTerminate` | 31 | Exported Function
+`DocWndProc` | 22 | Exported Function
+`OleRenameServerDoc` | 8 | Exported Function
+`WEP` | 1 | Exported Function
 
 
 ## Signature

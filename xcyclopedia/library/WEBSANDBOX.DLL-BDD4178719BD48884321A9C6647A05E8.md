@@ -26,14 +26,14 @@ PE256 | `2E0B0FE77C487A6B8BE4E7FED073066CEE9C7A0B748A6DFF0443FBC36C9924D7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`long __stdcall OSFInitialize(enum OsfHost,struct IOfficeSolutionFrameworkHost *,struct IOfficeSolutionFramework * *)` | 3 | Exported Function
-`int __stdcall OSFLoadString(unsigned int,wchar_t *,int)` | 4 | Exported Function
-`void __stdcall CreateCacheForPreinstalledApps(void)` | 1 | Exported Function
-`struct HINSTANCE__ * __stdcall GetOsfIntlDllInstance(void)` | 2 | Exported Function
-`DllInstall` | 6 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
+`DllInstall` | 6 | Exported Function
 `DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`int __stdcall OSFLoadString(unsigned int,wchar_t *,int)` | 4 | Exported Function
+`long __stdcall OSFInitialize(enum OsfHost,struct IOfficeSolutionFrameworkHost *,struct IOfficeSolutionFramework * *)` | 3 | Exported Function
+`struct HINSTANCE__ * __stdcall GetOsfIntlDllInstance(void)` | 2 | Exported Function
+`void __stdcall CreateCacheForPreinstalledApps(void)` | 1 | Exported Function
 
 
 ## Signature

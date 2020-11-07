@@ -26,14 +26,14 @@ PE256 | `E7D0B3899551F2F51F2FDCB7B8E81CEF04DED4661A089D1FDB64D84B37B73F7A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SRSetRestorePoint` | 10 | Exported Function
-`SfpVerifyFile` | 16 | Exported Function
-`SRSetRestorePointW` | 12 | Exported Function
-`SRSetRestorePointA` | 11 | Exported Function
-`SfcGetNextProtectedFile` | 13 | Exported Function
 `Ordinal1` | 1 | Exported Function
-`SfcIsKeyProtected` | 15 | Exported Function
+`SfcGetNextProtectedFile` | 13 | Exported Function
 `SfcIsFileProtected` | 14 | Exported Function
+`SfcIsKeyProtected` | 15 | Exported Function
+`SfpVerifyFile` | 16 | Exported Function
+`SRSetRestorePoint` | 10 | Exported Function
+`SRSetRestorePointA` | 11 | Exported Function
+`SRSetRestorePointW` | 12 | Exported Function
 
 
 ## Signature

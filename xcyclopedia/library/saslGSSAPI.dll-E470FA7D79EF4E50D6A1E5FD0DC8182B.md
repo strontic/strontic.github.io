@@ -26,8 +26,8 @@ PE256 | `91CBBA5A52ECC3B6CB4DA74AF29B942BC59BAF21A926AD606DEAC4A956F729D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`sasl_server_plug_init` | 2 | Exported Function
 `sasl_client_plug_init` | 1 | Exported Function
+`sasl_server_plug_init` | 2 | Exported Function
 
 
 ## Signature

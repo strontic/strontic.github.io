@@ -32,6 +32,7 @@ C:\Windows\Speech\Common\sapisvr.exe |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -64,8 +65,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/88dca7a3343a4d5f3fb0deb9128d4ac4cb1db3f7530839d7e4ba23da23a10198/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/88dca7a3343a4d5f3fb0deb9128d4ac4cb1db3f7530839d7e4ba23da23a10198/detection
 
 
 

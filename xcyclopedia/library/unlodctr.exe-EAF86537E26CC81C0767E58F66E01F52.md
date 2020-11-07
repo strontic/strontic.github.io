@@ -82,8 +82,8 @@ C:\Windows\SysWOW64\unlodctr.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/68e5607d0aa1a52bff70fe53c7eb0c5d27b342886bcbfea7fbfefd4168951f9b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/68e5607d0aa1a52bff70fe53c7eb0c5d27b342886bcbfea7fbfefd4168951f9b/detection
 
 
 

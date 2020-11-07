@@ -26,20 +26,20 @@ PE256 | `2F9C98A90442EB53FEA457E91A81E953B3A8EE7D805D53DE90E4594FC42AA8F3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RutlGetOsVersion` | 10 | Exported Function
-`RutlFree` | 9 | Exported Function
-`RutlDwordDup` | 8 | Exported Function
-`RutlGetTagToken` | 11 | Exported Function
-`RutlStrDup` | 14 | Exported Function
-`RutlParse` | 13 | Exported Function
-`RutlIsHelpToken` | 12 | Exported Function
-`RutlAlloc` | 3 | Exported Function
-`InitHelperDll` | 2 | Exported Function
 `GetDiagnosticFunctions` | 1 | Exported Function
+`InitHelperDll` | 2 | Exported Function
+`RutlAlloc` | 3 | Exported Function
 `RutlAssignmentFromTokenAndDword` | 4 | Exported Function
-`RutlCreateDumpFile` | 7 | Exported Function
-`RutlCloseDumpFile` | 6 | Exported Function
 `RutlAssignmentFromTokens` | 5 | Exported Function
+`RutlCloseDumpFile` | 6 | Exported Function
+`RutlCreateDumpFile` | 7 | Exported Function
+`RutlDwordDup` | 8 | Exported Function
+`RutlFree` | 9 | Exported Function
+`RutlGetOsVersion` | 10 | Exported Function
+`RutlGetTagToken` | 11 | Exported Function
+`RutlIsHelpToken` | 12 | Exported Function
+`RutlParse` | 13 | Exported Function
+`RutlStrDup` | 14 | Exported Function
 
 
 ## Signature

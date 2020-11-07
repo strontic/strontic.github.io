@@ -25,8 +25,8 @@ PE256 | `AE76BC0D5D0D5627FCFD7552C328D1E1EDDDC6C8678D85F39432DC43EBA8D9BB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BrotliSetDictionaryData` | 2 | Exported Function
 `BrotliGetDictionary` | 1 | Exported Function
+`BrotliSetDictionaryData` | 2 | Exported Function
 
 
 ## Signature

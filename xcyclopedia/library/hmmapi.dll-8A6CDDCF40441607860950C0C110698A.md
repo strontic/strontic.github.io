@@ -26,33 +26,33 @@ PE256 | `B3C5468B5D97DB839B3B2701909447D66ECD7C9B6930DFE0C2B1B2D2BEF1F097`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MAPIFreeBuffer` | 16 | Exported Function
-`MAPILogoff` | 210 | Exported Function
-`MAPILogon` | 209 | Exported Function
-`MAPIDeleteMail` | 215 | Exported Function
-`MAPIDetails` | 218 | Exported Function
-`MAPIFindNext` | 214 | Exported Function
-`MAPIReadMail` | 213 | Exported Function
-`MAPISendMail` | 211 | Exported Function
-`OpenInboxHandler` | 301 | Exported Function
-`RemoveService` | 303 | Exported Function
-`MAPIResolveName` | 219 | Exported Function
-`MAPISaveMail` | 212 | Exported Function
-`MAPISendDocuments` | 208 | Exported Function
-`MAPIAddress` | 217 | Exported Function
-`BMAPIFindNext` | 224 | Exported Function
-`BMAPIGetAddress` | 226 | Exported Function
-`BMAPIGetReadMail` | 223 | Exported Function
 `AddService` | 302 | Exported Function
-`BMAPIAddress` | 225 | Exported Function
-`BMAPIDetails` | 227 | Exported Function
-`BMAPIReadMail` | 222 | Exported Function
-`DllRegisterServer` | 17 | Exported Function
+`MAPISendMail` | 211 | Exported Function
+`MAPISendDocuments` | 208 | Exported Function
+`MAPISaveMail` | 212 | Exported Function
+`MAPIResolveName` | 219 | Exported Function
+`MAPIReadMail` | 213 | Exported Function
+`MAPILogon` | 209 | Exported Function
+`MAPILogoff` | 210 | Exported Function
+`MAPIFreeBuffer` | 16 | Exported Function
+`MAPIFindNext` | 214 | Exported Function
+`MAPIDetails` | 218 | Exported Function
+`MAPIDeleteMail` | 215 | Exported Function
+`OpenInboxHandler` | 301 | Exported Function
+`MAPIAddress` | 217 | Exported Function
 `DllUnregisterServer` | 18 | Exported Function
-`MailToProtocolHandler` | 300 | Exported Function
-`BMAPIResolveName` | 228 | Exported Function
-`BMAPISaveMail` | 221 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
 `BMAPISendMail` | 220 | Exported Function
+`BMAPISaveMail` | 221 | Exported Function
+`BMAPIResolveName` | 228 | Exported Function
+`BMAPIReadMail` | 222 | Exported Function
+`BMAPIGetReadMail` | 223 | Exported Function
+`BMAPIGetAddress` | 226 | Exported Function
+`BMAPIFindNext` | 224 | Exported Function
+`BMAPIDetails` | 227 | Exported Function
+`BMAPIAddress` | 225 | Exported Function
+`MailToProtocolHandler` | 300 | Exported Function
+`RemoveService` | 303 | Exported Function
 
 
 ## Signature

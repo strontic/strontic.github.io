@@ -26,10 +26,10 @@ PE256 | `80B5B82D08E11C631C38A17D4F463D777BA52DB9500DE11875F7862D5D67016C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PcaPersistSettingsAndLaunchApplication` | 3 | Exported Function
-`PcaShowDialog` | 4 | Exported Function
 `DisplayApphelpDialog` | 1 | Exported Function
 `PcaLaunchApplicationWithConsent` | 2 | Exported Function
+`PcaPersistSettingsAndLaunchApplication` | 3 | Exported Function
+`PcaShowDialog` | 4 | Exported Function
 
 
 ## Signature

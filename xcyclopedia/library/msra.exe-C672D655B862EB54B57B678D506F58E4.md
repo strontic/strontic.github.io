@@ -33,7 +33,7 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\msra.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
@@ -77,8 +77,8 @@ C:\Windows\SysWOW64\msra.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/a9f3b092c6204f05311174628076e0cf719fe1d3a83af43eb2fb60144e988965/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/a9f3b092c6204f05311174628076e0cf719fe1d3a83af43eb2fb60144e988965/detection
 
 ## File Similarity (ssdeep match)
 

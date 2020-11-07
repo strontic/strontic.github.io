@@ -31,7 +31,7 @@ PE256 | `8DBC0DE35E07420F2A517B8D778E4604603F63522704955983BB4DB07A927192`
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Sunday, September 20, 2020 9:15:36 PM
+  Started : Friday, November 6, 2020 2:33:57 PM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -235,8 +235,8 @@ C:\Windows\SysWOW64\Robocopy.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -253,8 +253,8 @@ C:\Windows\SysWOW64\Robocopy.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/d7a46fc5af4dc3978f395dd601619111899d206c22aabdac77c10efe6a8425a9/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d7a46fc5af4dc3978f395dd601619111899d206c22aabdac77c10efe6a8425a9/detection
 
 
 ## Possible Misuse

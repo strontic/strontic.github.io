@@ -25,8 +25,8 @@ PE256 | `C695BD123A9A75C60B528C3E897A2D24DCDCDD2E43204E0DB2CBBDA27F1F0FF2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpectrumSyncSignalFrameRendezvous` | 2 | Exported Function
 `SpectrumSyncJoinFrameRendezvous` | 1 | Exported Function
+`SpectrumSyncSignalFrameRendezvous` | 2 | Exported Function
 
 
 ## Signature

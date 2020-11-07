@@ -26,35 +26,35 @@ PE256 | `63D79EB45ACD06DFA59F0E7ABFAD00BC456B1EF4CFE93C1B1FFDD862A8B0534C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConvertTrusteeToSid` | 31 | Exported Function
-`DllCanUnloadNow` | 10 | Exported Function
-`DllGetClassObject` | 11 | Exported Function
-`ConvertSecurityDescriptorToSecDes` | 28 | Exported Function
-`AllocADsStr` | 17 | Exported Function
-`BinarySDToSecurityDescriptor` | 29 | Exported Function
-`ConvertSecDescriptorToVariant` | 27 | Exported Function
-`ReallocADsMem` | 16 | Exported Function
-`ReallocADsStr` | 19 | Exported Function
-`SecurityDescriptorToBinarySD` | 30 | Exported Function
-`PropVariantToAdsType2` | 26 | Exported Function
-`FreeADsMem` | 15 | Exported Function
-`FreeADsStr` | 18 | Exported Function
-`PropVariantToAdsType` | 21 | Exported Function
-`AllocADsMem` | 14 | Exported Function
-`ADsEncodeBinaryData` | 20 | Exported Function
-`ADsEnumerateNext` | 6 | Exported Function
-`AdsFreeAdsValues` | 23 | Exported Function
-`ADsDecodeBinaryData` | 24 | Exported Function
 `ADsBuildEnumerator` | 4 | Exported Function
-`ADsBuildVarArrayInt` | 8 | Exported Function
-`ADsBuildVarArrayStr` | 7 | Exported Function
-`ADsSetLastError` | 12 | Exported Function
+`ReallocADsMem` | 16 | Exported Function
+`PropVariantToAdsType2` | 26 | Exported Function
+`PropVariantToAdsType` | 21 | Exported Function
+`FreeADsStr` | 18 | Exported Function
+`FreeADsMem` | 15 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`ConvertTrusteeToSid` | 31 | Exported Function
+`ConvertSecurityDescriptorToSecDes` | 28 | Exported Function
+`ConvertSecDescriptorToVariant` | 27 | Exported Function
+`BinarySDToSecurityDescriptor` | 29 | Exported Function
+`AllocADsStr` | 17 | Exported Function
+`ReallocADsStr` | 19 | Exported Function
+`AllocADsMem` | 14 | Exported Function
 `AdsTypeToPropVariant` | 22 | Exported Function
-`AdsTypeToPropVariant2` | 25 | Exported Function
+`ADsSetLastError` | 12 | Exported Function
 `ADsOpenObject` | 9 | Exported Function
-`ADsFreeEnumerator` | 5 | Exported Function
-`ADsGetLastError` | 13 | Exported Function
 `ADsGetObject` | 3 | Exported Function
+`ADsGetLastError` | 13 | Exported Function
+`ADsFreeEnumerator` | 5 | Exported Function
+`AdsFreeAdsValues` | 23 | Exported Function
+`ADsEnumerateNext` | 6 | Exported Function
+`ADsEncodeBinaryData` | 20 | Exported Function
+`ADsDecodeBinaryData` | 24 | Exported Function
+`ADsBuildVarArrayStr` | 7 | Exported Function
+`ADsBuildVarArrayInt` | 8 | Exported Function
+`AdsTypeToPropVariant2` | 25 | Exported Function
+`SecurityDescriptorToBinarySD` | 30 | Exported Function
 
 
 ## Signature

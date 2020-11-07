@@ -26,11 +26,11 @@ PE256 | `04D959D57D821CCA861871A6649F76383FA54A1DCEDD556A2780314368817FA8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`long __stdcall GetPronunciation(wchar_t const *,int * * * *)` | 3 | Exported Function
-`long __stdcall InitLTS(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const * *,int)` | 4 | Exported Function
-`long __stdcall FreeLTS(void)` | 2 | Exported Function
 `int __stdcall IsLTSInitialized(void)` | 5 | Exported Function
 `long __stdcall DeleteResultBuffer(int * * *)` | 1 | Exported Function
+`long __stdcall FreeLTS(void)` | 2 | Exported Function
+`long __stdcall GetPronunciation(wchar_t const *,int * * * *)` | 3 | Exported Function
+`long __stdcall InitLTS(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const * *,int)` | 4 | Exported Function
 
 
 ## Signature

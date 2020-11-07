@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\F12\IEChooser.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/08e4be0eb2f1db877b87a9677c1e140d02f3d67977b207fa3fd3e5c925b38973/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/08e4be0eb2f1db877b87a9677c1e140d02f3d67977b207fa3fd3e5c925b38973/detection
 
 
 

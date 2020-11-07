@@ -26,8 +26,8 @@ PE256 | `1CC9D0FB1B29D6409A1DF087210A2EC9D68BB478618BBFBD68F7CE42CD24EA95`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpUserModeInitialize` | 2 | Exported Function
 `SpLsaModeInitialize` | 1 | Exported Function
+`SpUserModeInitialize` | 2 | Exported Function
 
 
 ## Signature

@@ -26,20 +26,20 @@ PE256 | `ACEBF14F8EC57E0B6E81EC5B1C38F3EC80D90D3DBEFFF29A15087EA41BDD6036`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InvalidateFveWorker` | 10 | Exported Function
-`GetWidgetWorker` | 9 | Exported Function
-`GetRemovableDeviceInstRecursWorker` | 8 | Exported Function
-`SendWithSenseParseWorker` | 11 | Exported Function
-`WaitForUnitAndReportProgressWorker` | 14 | Exported Function
-`SystemParametersInfoWStub` | 13 | Exported Function
-`SetThreadUILanguageStub` | 12 | Exported Function
-`FindFirstVolumeMountPointWStub` | 3 | Exported Function
-`DeviceInstIsRemovableWorker` | 2 | Exported Function
 `CheckSonyMSWorker` | 1 | Exported Function
+`DeviceInstIsRemovableWorker` | 2 | Exported Function
+`FindFirstVolumeMountPointWStub` | 3 | Exported Function
 `FindNextVolumeMountPointWStub` | 4 | Exported Function
-`GetDeviceInstanceWorker` | 7 | Exported Function
-`GetDeviceIDDiskFromDeviceIDVolumeWorker` | 6 | Exported Function
 `FindVolumeMountPointCloseStub` | 5 | Exported Function
+`GetDeviceIDDiskFromDeviceIDVolumeWorker` | 6 | Exported Function
+`GetDeviceInstanceWorker` | 7 | Exported Function
+`GetRemovableDeviceInstRecursWorker` | 8 | Exported Function
+`GetWidgetWorker` | 9 | Exported Function
+`InvalidateFveWorker` | 10 | Exported Function
+`SendWithSenseParseWorker` | 11 | Exported Function
+`SetThreadUILanguageStub` | 12 | Exported Function
+`SystemParametersInfoWStub` | 13 | Exported Function
+`WaitForUnitAndReportProgressWorker` | 14 | Exported Function
 
 
 ## Signature

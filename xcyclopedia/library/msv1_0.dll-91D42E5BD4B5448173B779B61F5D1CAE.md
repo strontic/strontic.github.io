@@ -26,25 +26,25 @@ PE256 | `CE72B959A26CE965BB926EB90D34731C7CC3E8B1C8F0D44EFAEE689F66712211`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsvSamLogoff` | 16 | Exported Function
-`MsvSamValidate` | 17 | Exported Function
-`MsvIsIpAddressLocal` | 15 | Exported Function
-`MsvIsLocalhostAliases` | 2 | Exported Function
-`MsvValidateTarget` | 18 | Exported Function
-`SpLsaModeInitialize` | 3 | Exported Function
-`SpUserModeInitialize` | 4 | Exported Function
-`SpInitialize` | 1 | Exported Function
-`SpInstanceInit` | 32 | Exported Function
-`MsvGetLogonAttemptCount` | 14 | Exported Function
-`LsaApCallPackagePassthrough` | 7 | Exported Function
-`LsaApCallPackageUntrusted` | 8 | Exported Function
 `DllMain` | 5 | Exported Function
-`LsaApCallPackage` | 6 | Exported Function
-`LsaApInitializePackage` | 9 | Exported Function
+`SpInstanceInit` | 32 | Exported Function
+`SpInitialize` | 1 | Exported Function
+`MsvValidateTarget` | 18 | Exported Function
+`MsvSamValidate` | 17 | Exported Function
+`MsvSamLogoff` | 16 | Exported Function
+`MsvIsLocalhostAliases` | 2 | Exported Function
+`MsvIsIpAddressLocal` | 15 | Exported Function
+`SpLsaModeInitialize` | 3 | Exported Function
+`MsvGetLogonAttemptCount` | 14 | Exported Function
 `Msv1_0ExportSubAuthenticationRoutine` | 12 | Exported Function
-`Msv1_0SubAuthenticationPresent` | 13 | Exported Function
-`LsaApLogonTerminated` | 10 | Exported Function
 `LsaApLogonUserEx2` | 11 | Exported Function
+`LsaApLogonTerminated` | 10 | Exported Function
+`LsaApInitializePackage` | 9 | Exported Function
+`LsaApCallPackageUntrusted` | 8 | Exported Function
+`LsaApCallPackagePassthrough` | 7 | Exported Function
+`LsaApCallPackage` | 6 | Exported Function
+`Msv1_0SubAuthenticationPresent` | 13 | Exported Function
+`SpUserModeInitialize` | 4 | Exported Function
 
 
 ## Signature

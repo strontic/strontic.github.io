@@ -26,15 +26,15 @@ PE256 | `CFD40C18B4928B248A2FAB4096318F2074496D03BD25A9E3413CD853C2D4A2FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallFeatures` | 1 | Exported Function
-`GetFeatureState` | 8 | Exported Function
-`UninstallFeatures` | 2 | Exported Function
-`IsFeatureInstalled` | 9 | Exported Function
-`FreeUninstallFeaturesResult` | 7 | Exported Function
-`EnumerateFeatures` | 4 | Exported Function
 `DllMain` | 3 | Exported Function
-`FreeInstallFeaturesResult` | 6 | Exported Function
+`EnumerateFeatures` | 4 | Exported Function
 `FreeEnumerateFeaturesResult` | 5 | Exported Function
+`FreeInstallFeaturesResult` | 6 | Exported Function
+`FreeUninstallFeaturesResult` | 7 | Exported Function
+`GetFeatureState` | 8 | Exported Function
+`InstallFeatures` | 1 | Exported Function
+`IsFeatureInstalled` | 9 | Exported Function
+`UninstallFeatures` | 2 | Exported Function
 
 
 ## Signature

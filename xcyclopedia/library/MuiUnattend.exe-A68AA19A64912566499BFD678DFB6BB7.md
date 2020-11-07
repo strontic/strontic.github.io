@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\MuiUnattend.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/b04374adbbf567c91bce26190cb607ca8df397221d3519a850aac6e468a279a7/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\MuiUnattend.exe](MuiUnattend.exe-BB125A957366042614B817D8108BFCDB.md) | 41
 
 
 

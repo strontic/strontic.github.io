@@ -33,20 +33,6 @@ PE256 | `BBEF6B47348D9C54D6E4C0D284BB18315662CE3A19439A1052DF798C1DFE2A03`
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RmClient.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -68,8 +54,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/d0e19f73e1e3343a995d3da28aaa88bbebc63b871bdacfed664d4f38cb9c62f9/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d0e19f73e1e3343a995d3da28aaa88bbebc63b871bdacfed664d4f38cb9c62f9/detection
 
 
 

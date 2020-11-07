@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\ctfmon.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/33ad4738b6342c9cc2da01402b26a4424c0adfddde9936d8926a86bf8d80d44f/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/33ad4738b6342c9cc2da01402b26a4424c0adfddde9936d8926a86bf8d80d44f/detection
 
 ## File Similarity (ssdeep match)
 

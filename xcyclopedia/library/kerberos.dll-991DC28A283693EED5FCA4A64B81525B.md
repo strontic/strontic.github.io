@@ -26,17 +26,17 @@ PE256 | `B2457A5F7B87DB151F7541693E3D9742B7DFA94E67FDA4388146E3252711699A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpInitialize` | 1 | Exported Function
-`KerbMakeKdcCall` | 9 | Exported Function
-`SpInstanceInit` | 32 | Exported Function
-`SpUserModeInitialize` | 4 | Exported Function
-`SpLsaModeInitialize` | 3 | Exported Function
-`KerbKdcCallBack` | 8 | Exported Function
-`KerbCreateTokenFromTicketForKdc` | 6 | Exported Function
 `DllMain` | 5 | Exported Function
+`KerbCreateTokenFromTicketForKdc` | 6 | Exported Function
 `KerbDomainChangeCallback` | 2 | Exported Function
-`KerbIsInitialized` | 7 | Exported Function
 `Kerberos` | 10 | Exported Function
+`KerbIsInitialized` | 7 | Exported Function
+`KerbKdcCallBack` | 8 | Exported Function
+`KerbMakeKdcCall` | 9 | Exported Function
+`SpInitialize` | 1 | Exported Function
+`SpInstanceInit` | 32 | Exported Function
+`SpLsaModeInitialize` | 3 | Exported Function
+`SpUserModeInitialize` | 4 | Exported Function
 
 
 ## Signature

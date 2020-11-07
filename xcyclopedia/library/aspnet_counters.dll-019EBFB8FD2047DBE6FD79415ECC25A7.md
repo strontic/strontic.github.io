@@ -28,15 +28,15 @@ PE256 | `3CDD262324F368E9E70D919C4547DC2F87387CBFF6C780F6F9699467229DEC9A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenGenericCounters` | 7 | Exported Function
-`CollectVersion4Counters` | 6 | Exported Function
-`OpenVersion4Counters` | 9 | Exported Function
-`OpenStateCounters` | 8 | Exported Function
-`CollectStateCounters` | 5 | Exported Function
-`CloseStateCounters` | 2 | Exported Function
 `CloseGenericCounters` | 1 | Exported Function
-`CollectGenericCounters` | 4 | Exported Function
+`CloseStateCounters` | 2 | Exported Function
 `CloseVersion4Counters` | 3 | Exported Function
+`CollectGenericCounters` | 4 | Exported Function
+`CollectStateCounters` | 5 | Exported Function
+`CollectVersion4Counters` | 6 | Exported Function
+`OpenGenericCounters` | 7 | Exported Function
+`OpenStateCounters` | 8 | Exported Function
+`OpenVersion4Counters` | 9 | Exported Function
 
 
 ## Signature

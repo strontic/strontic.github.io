@@ -43,8 +43,8 @@ PE256 | `6FE8C9489930D819636964ED2575F8F0E1B1A587ABA29BA820FF7B69588E9E54`
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/864d476f56543128fd756e3b5491e811d69b0121e26f010f3cf7ddba8334b0fc/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/864d476f56543128fd756e3b5491e811d69b0121e26f010f3cf7ddba8334b0fc/detection
 
 
 ## Possible Misuse

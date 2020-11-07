@@ -26,12 +26,12 @@ PE256 | `80714FE935E421874F16E85F6FC2D8BF10ABE6C44656A8E51C03E0BD5B24E32E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 6 | Exported Function
-`WdcParseLegacyFile` | 1 | Exported Function
-`WdcRunTaskAsInteractiveUser` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`WdcParseLegacyFile` | 1 | Exported Function
+`WdcRunTaskAsInteractiveUser` | 2 | Exported Function
 
 
 ## Signature

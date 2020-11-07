@@ -26,12 +26,12 @@ PE256 | `9422F30470E98BD6A2511C1FE3898107DF4A0822FF65F746AD5E8A92A2CCBFCA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`RFX_CreateGFXService` | 5 | Exported Function
-`RFX_CreatePluginFactory` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`RFX_CreateGFXService` | 5 | Exported Function
+`RFX_CreatePluginFactory` | 6 | Exported Function
 
 
 ## Signature

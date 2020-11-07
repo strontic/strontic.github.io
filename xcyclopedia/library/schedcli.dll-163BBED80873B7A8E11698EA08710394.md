@@ -26,10 +26,10 @@ PE256 | `93C9E22737C18BBBFC6F192D353F9EC5CAFD7DECE3D42D91897D82ABBA0998A3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetScheduleJobEnum` | 3 | Exported Function
-`NetScheduleJobGetInfo` | 4 | Exported Function
 `NetScheduleJobAdd` | 1 | Exported Function
 `NetScheduleJobDel` | 2 | Exported Function
+`NetScheduleJobEnum` | 3 | Exported Function
+`NetScheduleJobGetInfo` | 4 | Exported Function
 
 
 ## Signature

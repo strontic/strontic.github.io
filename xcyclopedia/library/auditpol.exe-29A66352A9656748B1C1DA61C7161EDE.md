@@ -91,6 +91,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\auditpol.exe](auditpol.exe-0CBBB1FFE1AF93272D498FB8FBBFFCC6.md) | 44
 [C:\WINDOWS\system32\auditpol.exe](auditpol.exe-538128A46A0D751E789A984A9E6E8BF8.md) | 40
 
 

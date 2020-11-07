@@ -26,30 +26,30 @@ PE256 | `96D22CACEC53B9B3181E4662E6D760F98C39DF449355D4A93AFD4615C82965C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitMpegAudioStream_` | 16 | Exported Function
-`InitTrueHDAudioStream_` | 17 | Exported Function
-`PackMuxRate` | 21 | Exported Function
-`InitLPCMMiracastAudioStream_` | 13 | Exported Function
-`InitMpeg1VideoStream_` | 14 | Exported Function
-`InitMpeg2VideoStream_` | 15 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 `PESPacketPTSinPCR` | 20 | Exported Function
+`PESPacketLength` | 19 | Exported Function
+`PESHeaderLength` | 18 | Exported Function
+`PackSCR` | 22 | Exported Function
+`PackMuxRate` | 21 | Exported Function
+`InitTrueHDAudioStream_` | 17 | Exported Function
+`InitMpegAudioStream_` | 16 | Exported Function
+`InitMpeg2VideoStream_` | 15 | Exported Function
+`InitMpeg1VideoStream_` | 14 | Exported Function
+`InitLPCMMiracastAudioStream_` | 13 | Exported Function
+`InitLPCMAudioStream_` | 12 | Exported Function
+`InitHEVCStream_` | 11 | Exported Function
+`InitH264Stream_` | 10 | Exported Function
+`InitDTSAudioStream_` | 9 | Exported Function
+`InitDDPlusAudioStream_` | 8 | Exported Function
+`InitBDAVLPCMAudioStream_` | 7 | Exported Function
+`InitAC3AudioStream_` | 6 | Exported Function
+`InitAACAudioStream_` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 `xCreateCannedMediaType` | 23 | Exported Function
 `xMediaSubTypeTransform` | 24 | Exported Function
-`PackSCR` | 22 | Exported Function
-`PESHeaderLength` | 18 | Exported Function
-`PESPacketLength` | 19 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`InitAACAudioStream_` | 5 | Exported Function
-`InitAC3AudioStream_` | 6 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`InitH264Stream_` | 10 | Exported Function
-`InitHEVCStream_` | 11 | Exported Function
-`InitLPCMAudioStream_` | 12 | Exported Function
-`InitBDAVLPCMAudioStream_` | 7 | Exported Function
-`InitDDPlusAudioStream_` | 8 | Exported Function
-`InitDTSAudioStream_` | 9 | Exported Function
 
 
 ## Signature

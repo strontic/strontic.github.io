@@ -26,18 +26,18 @@ PE256 | `5C5DF73F3AE655A77A707EF342333B5B975B5A3D1B497662633701F5E8CDDB47`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RsopFileAccessCheckInternal` | 116 | Exported Function
-`RsopAccessCheckByTypeInternal` | 115 | Exported Function
-`ProcessGroupPolicyCompletedInternal` | 114 | Exported Function
-`SvchostPushServiceGlobals` | 108 | Exported Function
-`RsopSetPolicySettingStatusInternal` | 118 | Exported Function
-`RsopResetPolicySettingStatusInternal` | 117 | Exported Function
-`GenerateRsopPolicy` | 111 | Exported Function
-`DllGetClassObject` | 110 | Exported Function
 `DllCanUnloadNow` | 109 | Exported Function
-`ProcessGroupPolicyCompletedExInternal` | 113 | Exported Function
-`IsSecureCachingDisabled` | 112 | Exported Function
+`DllGetClassObject` | 110 | Exported Function
+`GenerateRsopPolicy` | 111 | Exported Function
 `GroupPolicyClientServiceMain` | 107 | Exported Function
+`IsSecureCachingDisabled` | 112 | Exported Function
+`ProcessGroupPolicyCompletedExInternal` | 113 | Exported Function
+`ProcessGroupPolicyCompletedInternal` | 114 | Exported Function
+`RsopAccessCheckByTypeInternal` | 115 | Exported Function
+`RsopFileAccessCheckInternal` | 116 | Exported Function
+`RsopResetPolicySettingStatusInternal` | 117 | Exported Function
+`RsopSetPolicySettingStatusInternal` | 118 | Exported Function
+`SvchostPushServiceGlobals` | 108 | Exported Function
 
 
 ## Signature

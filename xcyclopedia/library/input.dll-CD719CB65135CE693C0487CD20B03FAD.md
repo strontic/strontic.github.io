@@ -26,26 +26,26 @@ PE256 | `87AB8E79F818FEC0F591CA06FEB164FCE72C1826AFF0607C5296145BE7C58EF8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallLayoutOrTipPrivate` | 117 | Exported Function
+`ActivateInputProfile` | 119 | Exported Function
+`SaveDefaultUserInputSettings` | 105 | Exported Function
+`QueryLayoutOrTipStringUserReg` | 112 | Exported Function
+`QueryLayoutOrTipString` | 111 | Exported Function
 `InstallLayoutOrTipUserReg` | 109 | Exported Function
+`InstallLayoutOrTipPrivate` | 117 | Exported Function
 `InstallLayoutOrTipOffline` | 120 | Exported Function
-`InputDll_DownlevelUninitialize` | 202 | Exported Function
 `InstallLayoutOrTip` | 104 | Exported Function
+`InputDll_DownlevelUninitialize` | 202 | Exported Function
+`InputDll_DownlevelSetUILanguage` | 201 | Exported Function
+`InputDll_DownlevelInitialize` | 200 | Exported Function
+`InputDll_DownlevelEnumLayoutOrTipForSetup` | 203 | Exported Function
+`GetLayoutDescription` | 114 | Exported Function
+`GetDefaultLayout` | 113 | Exported Function
+`EnumLayoutOrTipForSetup` | 108 | Exported Function
+`EnumEnabledLayoutOrTipPrivate` | 118 | Exported Function
+`EnumEnabledLayoutOrTip` | 110 | Exported Function
+`CPlApplet` | 100 | Exported Function
 `SaveSystemAcctInputSettings` | 106 | Exported Function
 `SetDefaultLayoutOrTip` | 107 | Exported Function
-`SaveDefaultUserInputSettings` | 105 | Exported Function
-`QueryLayoutOrTipString` | 111 | Exported Function
-`QueryLayoutOrTipStringUserReg` | 112 | Exported Function
-`EnumEnabledLayoutOrTipPrivate` | 118 | Exported Function
-`EnumLayoutOrTipForSetup` | 108 | Exported Function
-`EnumEnabledLayoutOrTip` | 110 | Exported Function
-`ActivateInputProfile` | 119 | Exported Function
-`CPlApplet` | 100 | Exported Function
-`InputDll_DownlevelInitialize` | 200 | Exported Function
-`InputDll_DownlevelSetUILanguage` | 201 | Exported Function
-`InputDll_DownlevelEnumLayoutOrTipForSetup` | 203 | Exported Function
-`GetDefaultLayout` | 113 | Exported Function
-`GetLayoutDescription` | 114 | Exported Function
 
 
 ## Signature

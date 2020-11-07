@@ -47,6 +47,12 @@ PE256 | `BDA58F64CBE9A2E0568000403BC18A77EADA66F51480B6608B5191F42F89368B`
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/08dc4f998faa7585d561c1412f3d68856a182f43cbcbbbdeb1f82b0661fa5451/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\csrss.exe](csrss.exe-72565E7A0145E0657E586F6CF7696DC7.md) | 35
+
 
 
 

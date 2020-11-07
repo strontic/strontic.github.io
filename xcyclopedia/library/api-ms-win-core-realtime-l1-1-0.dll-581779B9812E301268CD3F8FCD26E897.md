@@ -26,11 +26,11 @@ PE256 | `0FA34716CB88F5FC07069C1B1569391CC9EE175D8DF69E396C6D1C0B2A047601`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`QueryThreadCycleTime` | 4 | Exported Function
-`QueryUnbiasedInterruptTime` | 5 | Exported Function
-`QueryProcessCycleTime` | 3 | Exported Function
 `QueryIdleProcessorCycleTime` | 1 | Exported Function
 `QueryIdleProcessorCycleTimeEx` | 2 | Exported Function
+`QueryProcessCycleTime` | 3 | Exported Function
+`QueryThreadCycleTime` | 4 | Exported Function
+`QueryUnbiasedInterruptTime` | 5 | Exported Function
 
 
 ## Signature

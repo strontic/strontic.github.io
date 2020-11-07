@@ -26,19 +26,19 @@ PE256 | `73E138242AB6EDAC7C602470C9BE6CCBDB222A77793D4BBBFAAA691C96354A16`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`long __cdecl GetWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 5 | Exported Function
-`long __cdecl GetReadICR(int,struct IComponentRecords * __ptr64 * __ptr64)` | 4 | Exported Function
-`long __cdecl CancelWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 1 | Exported Function
-`void __cdecl ReleaseReadICR(struct IComponentRecords * __ptr64 * __ptr64)` | 7 | Exported Function
-`OpenComponentLibraryTS` | 6 | Exported Function
-`long __cdecl SaveWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 8 | Exported Function
-`GetCatalogCRMClerk` | 3 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`DllCanUnloadNow` | 9 | Exported Function
 `CreateComponentLibraryTS` | 2 | Exported Function
-`GetAppImport` | 13 | Exported Function
-`DllUnregisterServer` | 12 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
 `DllRegisterServer` | 11 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`GetAppImport` | 13 | Exported Function
+`GetCatalogCRMClerk` | 3 | Exported Function
+`long __cdecl CancelWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 1 | Exported Function
+`long __cdecl GetReadICR(int,struct IComponentRecords * __ptr64 * __ptr64)` | 4 | Exported Function
+`long __cdecl GetWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 5 | Exported Function
+`long __cdecl SaveWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 8 | Exported Function
+`OpenComponentLibraryTS` | 6 | Exported Function
+`void __cdecl ReleaseReadICR(struct IComponentRecords * __ptr64 * __ptr64)` | 7 | Exported Function
 
 
 ## Signature

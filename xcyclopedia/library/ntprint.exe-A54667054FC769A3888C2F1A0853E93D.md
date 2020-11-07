@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\ntprint.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/24be330ac87cdcffd09f2f6ab8ca17415ec22e8f28b80c9d2b3b0c804d571834/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/24be330ac87cdcffd09f2f6ab8ca17415ec22e8f28b80c9d2b3b0c804d571834/detection
 
 ## File Similarity (ssdeep match)
 

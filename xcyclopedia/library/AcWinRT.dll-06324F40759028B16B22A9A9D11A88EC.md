@@ -26,8 +26,8 @@ PE256 | `823C7CC883FAE3F5BFA9801D122FEEA80D6D547AF7D91D683202F952831EEE54`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NotifyShims` | 2 | Exported Function
 `GetHookAPIs` | 1 | Exported Function
+`NotifyShims` | 2 | Exported Function
 
 
 ## Signature

@@ -26,38 +26,38 @@ PE256 | `AE531CE00F43921F42B8F00B27046BE9F1EE6CCC2C2E09388CC68B372D9D3B60`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CsrReplyToMessage` | 22 | Exported Function
-`CsrRegisterClientThreadSetup` | 21 | Exported Function
-`CsrServerInitialization` | 24 | Exported Function
-`CsrRevertToSelf` | 23 | Exported Function
-`CsrLockThreadByClientId` | 17 | Exported Function
-`CsrLockProcessByClientId` | 16 | Exported Function
-`CsrReferenceThread` | 20 | Exported Function
-`CsrQueryApiPort` | 19 | Exported Function
+`CsrAddStaticServerThread` | 1 | Exported Function
 `CsrUnlockThread` | 30 | Exported Function
 `CsrUnlockProcess` | 29 | Exported Function
-`CsrValidateMessageString` | 32 | Exported Function
-`CsrValidateMessageBuffer` | 31 | Exported Function
-`CsrSetForegroundPriority` | 26 | Exported Function
-`CsrSetBackgroundPriority` | 25 | Exported Function
 `CsrUnhandledExceptionFilter` | 28 | Exported Function
 `CsrShutdownProcesses` | 27 | Exported Function
-`CsrCreateThread` | 6 | Exported Function
-`CsrCreateRemoteThread` | 5 | Exported Function
-`CsrDereferenceProcess` | 8 | Exported Function
-`CsrDeferredCreateProcess` | 7 | Exported Function
-`CsrCallServerFromServer` | 2 | Exported Function
-`CsrAddStaticServerThread` | 1 | Exported Function
-`CsrCreateProcess` | 4 | Exported Function
-`CsrConnectToUser` | 3 | Exported Function
-`CsrImpersonateClient` | 14 | Exported Function
-`CsrGetProcessLuid` | 13 | Exported Function
+`CsrSetForegroundPriority` | 26 | Exported Function
+`CsrSetBackgroundPriority` | 25 | Exported Function
+`CsrServerInitialization` | 24 | Exported Function
+`CsrRevertToSelf` | 23 | Exported Function
+`CsrReplyToMessage` | 22 | Exported Function
+`CsrRegisterClientThreadSetup` | 21 | Exported Function
+`CsrReferenceThread` | 20 | Exported Function
+`CsrQueryApiPort` | 19 | Exported Function
+`CsrLockThreadByClientId` | 17 | Exported Function
+`CsrLockProcessByClientId` | 16 | Exported Function
 `CsrLockedReferenceProcess` | 18 | Exported Function
 `CsrIsClientSandboxed` | 15 | Exported Function
-`CsrDestroyProcess` | 10 | Exported Function
-`CsrDereferenceThread` | 9 | Exported Function
+`CsrImpersonateClient` | 14 | Exported Function
+`CsrGetProcessLuid` | 13 | Exported Function
 `CsrExecServerThread` | 12 | Exported Function
 `CsrDestroyThread` | 11 | Exported Function
+`CsrDestroyProcess` | 10 | Exported Function
+`CsrDereferenceThread` | 9 | Exported Function
+`CsrDereferenceProcess` | 8 | Exported Function
+`CsrDeferredCreateProcess` | 7 | Exported Function
+`CsrCreateThread` | 6 | Exported Function
+`CsrCreateRemoteThread` | 5 | Exported Function
+`CsrCreateProcess` | 4 | Exported Function
+`CsrConnectToUser` | 3 | Exported Function
+`CsrCallServerFromServer` | 2 | Exported Function
+`CsrValidateMessageBuffer` | 31 | Exported Function
+`CsrValidateMessageString` | 32 | Exported Function
 
 
 ## Signature

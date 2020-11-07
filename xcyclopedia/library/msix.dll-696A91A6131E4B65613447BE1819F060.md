@@ -26,20 +26,20 @@ PE256 | `8768A09F40B12CCE2EA1E18484E85D381BE563244A36CB57928C29884D73AC86`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UnpackBundleFromBundleReader` | 10 | Exported Function
-`UnpackBundle` | 9 | Exported Function
-`PackPackage` | 8 | Exported Function
-`UnpackBundleFromStream` | 11 | Exported Function
-`UnpackPackageFromStream` | 14 | Exported Function
-`UnpackPackageFromPackageReader` | 13 | Exported Function
-`UnpackPackage` | 12 | Exported Function
-`CoCreateAppxFactory` | 3 | Exported Function
-`CoCreateAppxBundleFactoryWithHeap` | 2 | Exported Function
 `CoCreateAppxBundleFactory` | 1 | Exported Function
+`CoCreateAppxBundleFactoryWithHeap` | 2 | Exported Function
+`CoCreateAppxFactory` | 3 | Exported Function
 `CoCreateAppxFactoryWithHeap` | 4 | Exported Function
-`GetLogTextUTF8` | 7 | Exported Function
-`CreateStreamOnFileUTF16` | 6 | Exported Function
 `CreateStreamOnFile` | 5 | Exported Function
+`CreateStreamOnFileUTF16` | 6 | Exported Function
+`GetLogTextUTF8` | 7 | Exported Function
+`PackPackage` | 8 | Exported Function
+`UnpackBundle` | 9 | Exported Function
+`UnpackBundleFromBundleReader` | 10 | Exported Function
+`UnpackBundleFromStream` | 11 | Exported Function
+`UnpackPackage` | 12 | Exported Function
+`UnpackPackageFromPackageReader` | 13 | Exported Function
+`UnpackPackageFromStream` | 14 | Exported Function
 
 
 ## Signature

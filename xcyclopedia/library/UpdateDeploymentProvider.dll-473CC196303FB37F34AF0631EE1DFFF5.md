@@ -26,10 +26,10 @@ PE256 | `CE8120F9B7C3BC0D7DF5374614D3A16BB99A1F05ACC18C18F91D45D59DE0BCBD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
 `DllGetClassObject` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
 
 
 ## Signature
@@ -57,6 +57,13 @@ Function Name | Ordinal | Type
 * VirusTotal Link: https://www.virustotal.com/gui/file/7f2159d4d92d9e34d80aae590ea8a5943089848a7f31473c6ae93ac62b4bb26f/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `UpdateDeploymentProvider.dll` being misused. While `UpdateDeploymentProvider.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wuauclt.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wuauclt.yml) | `- Command: wuauclt.exe /UpdateDeploymentProvider <Full_Path_To_DLL> /RunHandlerComServer` | 
 
 
 

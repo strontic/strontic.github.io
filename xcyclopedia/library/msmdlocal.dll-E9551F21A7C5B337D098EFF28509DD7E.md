@@ -27,29 +27,29 @@ PE256 | `648B8CA32ABA80147FFAC8E70783CFD919FCAE98C8EA0CE5A28E7CC2157713DF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MSMDReadDataEx` | 9 | Exported Function
-`MSMDReceiveResponse` | 7 | Exported Function
-`MSMDReadData` | 8 | Exported Function
-`MSMDParseGetCubeName` | 23 | Exported Function
-`MSMDParseXLFormulaExpression` | 25 | Exported Function
-`MSMDRenameServer` | 17 | Exported Function
-`MSMDWriteData` | 5 | Exported Function
-`MSMDWriteDataEx` | 6 | Exported Function
-`MSMDStopLocal` | 21 | Exported Function
-`MSMDSaveDBImage` | 14 | Exported Function
-`MSMDSendRequest` | 4 | Exported Function
-`MSMDParseFormulaExpression` | 24 | Exported Function
-`MSMDCloseHandle` | 2 | Exported Function
-`MSMDGetDBImageSize` | 15 | Exported Function
-`MSMDCanUnloadNow` | 19 | Exported Function
 `DmpGetClientExport` | 22 | Exported Function
-`MSMDCancelCommands` | 18 | Exported Function
-`MSMDGetDBLastModified` | 16 | Exported Function
+`MSMDStopLocal` | 21 | Exported Function
+`MSMDSendRequest` | 4 | Exported Function
+`MSMDSaveDBImage` | 14 | Exported Function
+`MSMDRenameServer` | 17 | Exported Function
+`MSMDReceiveResponse` | 7 | Exported Function
+`MSMDReadDataEx` | 9 | Exported Function
+`MSMDReadData` | 8 | Exported Function
+`MSMDParseXLFormulaExpression` | 25 | Exported Function
+`MSMDParseGetCubeName` | 23 | Exported Function
+`MSMDWriteData` | 5 | Exported Function
+`MSMDParseFormulaExpression` | 24 | Exported Function
 `MSMDOpenLocal` | 1 | Exported Function
-`MSMDOpenRequest` | 3 | Exported Function
 `MSMDLoadDBImage` | 13 | Exported Function
-`MSMDGetMDXUtils` | 10 | Exported Function
 `MSMDInitLocal` | 20 | Exported Function
+`MSMDGetMDXUtils` | 10 | Exported Function
+`MSMDGetDBLastModified` | 16 | Exported Function
+`MSMDGetDBImageSize` | 15 | Exported Function
+`MSMDCloseHandle` | 2 | Exported Function
+`MSMDCanUnloadNow` | 19 | Exported Function
+`MSMDCancelCommands` | 18 | Exported Function
+`MSMDOpenRequest` | 3 | Exported Function
+`MSMDWriteDataEx` | 6 | Exported Function
 
 
 ## Signature

@@ -26,95 +26,95 @@ PE256 | `F7053748824A960889604563E7D3CAAA871495B7C57A6726E8D49A30199C117E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CMemDeSerStream::SkipByte` | 311 | Exported Function
-`CMemDeSerStream::SkipChar` | 312 | Exported Function
-`CMemDeSerStream::SkipBlob` | 310 | Exported Function
-`CMemDeSerStream::GetGUID` | 280 | Exported Function
-`CMemDeSerStream::GetWChar` | 286 | Exported Function
-`CMemDeSerStream::SkipDouble` | 313 | Exported Function
-`CMemDeSerStream::SkipULong` | 317 | Exported Function
-`CMemDeSerStream::SkipUShort` | 318 | Exported Function
-`CMemDeSerStream::SkipLong` | 316 | Exported Function
-`CMemDeSerStream::SkipFloat` | 314 | Exported Function
+`AccessDebugTracer` | 325 | Exported Function
 `CMemDeSerStream::SkipGUID` | 315 | Exported Function
-`CMemDeSerStream::GetLong` | 281 | Exported Function
-`CMemDeSerStream::GetByte` | 274 | Exported Function
-`CMemDeSerStream::GetFloat` | 279 | Exported Function
-`CMemDeSerStream::GetString` | 283 | Exported Function
-`CMemDeSerStream::GetDouble` | 277 | Exported Function
-`CMemDeSerStream::GetULong` | 284 | Exported Function
-`CMemDeSerStream::GetBlob` | 273 | Exported Function
+`CMemDeSerStream::SkipFloat` | 314 | Exported Function
+`CMemDeSerStream::SkipDouble` | 313 | Exported Function
+`CMemDeSerStream::SkipChar` | 312 | Exported Function
+`CMemDeSerStream::SkipByte` | 311 | Exported Function
+`CMemDeSerStream::SkipBlob` | 310 | Exported Function
+`CMemDeSerStream::GetWChar` | 286 | Exported Function
+`CMemDeSerStream::GetGUID` | 280 | Exported Function
+`CMemDeSerStream::SkipLong` | 316 | Exported Function
 `CMemDeSerStream::GetChar` | 275 | Exported Function
 `CMemDeSerStream::GetUShort` | 285 | Exported Function
-`CMemDeSerStream::PeekULong` | 292 | Exported Function
 `CMemDeSerStream::GetWString` | 287 | Exported Function
-`CDriveInfo::GetDiskSpace` | 276 | Exported Function
-`CFullPath::MakePath` | 291 | Exported Function
-`CCiFile::Read` | 306 | Exported Function
-`CMemSerStream::PutWChar` | 303 | Exported Function
-`CMemSerStream::PutWString` | 304 | Exported Function
-`CFullPropSpec::SetProperty` | 309 | Exported Function
-`RetailTracerReleaseAll` | 341 | Exported Function
-`UseLowFragmentationHeap` | 321 | Exported Function
-`RetailTracerEnable` | 340 | Exported Function
-`CUnNormalizer::UnNormalizeKey` | 320 | Exported Function
-`RetailTracerDisable` | 339 | Exported Function
-`CMemSerStream::PutChar` | 295 | Exported Function
-`CMemSerStream::PutDouble` | 296 | Exported Function
-`CMemSerStream::PutByte` | 294 | Exported Function
+`CMemDeSerStream::PeekULong` | 292 | Exported Function
+`CMemDeSerStream::GetULong` | 284 | Exported Function
+`CMemDeSerStream::GetByte` | 274 | Exported Function
+`CMemDeSerStream::GetLong` | 281 | Exported Function
+`CMemDeSerStream::GetFloat` | 279 | Exported Function
+`CMemDeSerStream::GetDouble` | 277 | Exported Function
+`CMemDeSerStream::GetBlob` | 273 | Exported Function
+`CMemDeSerStream::SkipULong` | 317 | Exported Function
+`CMemDeSerStream::SkipUShort` | 318 | Exported Function
 `CMemDeSerStream::SkipWChar` | 319 | Exported Function
-`CMemSerStream::PutBlob` | 293 | Exported Function
-`CMemSerStream::PutFloat` | 297 | Exported Function
-`CMemSerStream::PutULong` | 301 | Exported Function
+`RetailTracerEnable` | 340 | Exported Function
+`RetailTracerDisable` | 339 | Exported Function
+`CUnNormalizer::UnNormalizeKey` | 320 | Exported Function
+`CFullPropSpec::SetProperty` | 309 | Exported Function
+`CFullPath::MakePath` | 291 | Exported Function
+`CDriveInfo::GetDiskSpace` | 276 | Exported Function
+`CCiFile::Read` | 306 | Exported Function
+`CMemSerStream::PutWString` | 304 | Exported Function
+`CMemSerStream::PutWChar` | 303 | Exported Function
 `CMemSerStream::PutUShort` | 302 | Exported Function
+`CMemSerStream::PutULong` | 301 | Exported Function
 `CMemSerStream::PutString` | 300 | Exported Function
-`CMemSerStream::PutGUID` | 298 | Exported Function
 `CMemSerStream::PutLong` | 299 | Exported Function
+`CMemSerStream::PutGUID` | 298 | Exported Function
+`CMemSerStream::PutFloat` | 297 | Exported Function
+`CMemSerStream::PutDouble` | 296 | Exported Function
+`CMemSerStream::PutChar` | 295 | Exported Function
+`CMemSerStream::PutByte` | 294 | Exported Function
+`CMemSerStream::PutBlob` | 293 | Exported Function
+`CMemDeSerStream::GetString` | 283 | Exported Function
+`RetailTracerReleaseAll` | 341 | Exported Function
 `public: virtual __cdecl CPhysStorage::~CPhysStorage(void) __ptr64` | 264 | Exported Function
-`ExceptInitialize` | 272 | Exported Function
-`ExternPropagateEventToOpenQueries` | 331 | Exported Function
-`DllUnregisterServer` | 330 | Exported Function
-`DllGetClassObject` | 328 | Exported Function
-`DllRegisterServer` | 329 | Exported Function
-`ForceMasterMerge` | 332 | Exported Function
-`PerfmonIDXCollect` | 336 | Exported Function
-`PerfmonIDXOpen` | 337 | Exported Function
-`PerfmonIDXClose` | 335 | Exported Function
-`PerfmonClose` | 333 | Exported Function
+`public: virtual __cdecl CiStorage::~CiStorage(void) __ptr64` | 266 | Exported Function
 `PerfmonCollect` | 334 | Exported Function
-`ciNew` | 323 | Exported Function
-`ciNewNoThrow` | 324 | Exported Function
-`ciDelete` | 322 | Exported Function
-`AccessDebugTracer` | 325 | Exported Function
-`AccessRetailTracer` | 326 | Exported Function
-`CIState` | 267 | Exported Function
-`CreateSecurityStoreStorage` | 271 | Exported Function
+`PerfmonClose` | 333 | Exported Function
+`ForceMasterMerge` | 332 | Exported Function
+`ExternPropagateEventToOpenQueries` | 331 | Exported Function
+`ExceptInitialize` | 272 | Exported Function
+`DllUnregisterServer` | 330 | Exported Function
+`DllRegisterServer` | 329 | Exported Function
+`DllGetClassObject` | 328 | Exported Function
+`PerfmonIDXClose` | 335 | Exported Function
 `DllCanUnloadNow` | 327 | Exported Function
 `CreatePropMapperStorage2` | 269 | Exported Function
-`class CCoTaskAllocator CoTaskAllocator` | 253 | Exported Function
 `CreatePropMapperStorage` | 270 | Exported Function
-`CDriveInfo::IsWriteProtected` | 290 | Exported Function
-`CFullPropSpec::SetProperty` | 308 | Exported Function
-`CDriveInfo::IsSameDrive` | 289 | Exported Function
-`XAct::XAct` | 261 | Exported Function
-`CiStorage::QueryPidLookupTable` | 305 | Exported Function
-`CPidLookupTable::Init` | 288 | Exported Function
-`public: virtual __cdecl CiStorage::~CiStorage(void) __ptr64` | 266 | Exported Function
-`public: virtual __cdecl CMemSerStream::~CMemSerStream(void) __ptr64` | 263 | Exported Function
-`CDriveInfo::GetSectorSize` | 282 | Exported Function
-`CDriveInfo::ContainsDrive` | 268 | Exported Function
-`CDriveInfo::GetDrive` | 278 | Exported Function
-`CDriveInfo::CDriveInfo` | 254 | Exported Function
-`CFullPath::CFullPath` | 255 | Exported Function
-`CAllocStorageVariant::ResetType` | 307 | Exported Function
+`class CCoTaskAllocator CoTaskAllocator` | 253 | Exported Function
+`CIState` | 267 | Exported Function
+`ciNewNoThrow` | 324 | Exported Function
+`ciNew` | 323 | Exported Function
+`ciDelete` | 322 | Exported Function
+`AccessRetailTracer` | 326 | Exported Function
+`CreateSecurityStoreStorage` | 271 | Exported Function
+`PerfmonIDXCollect` | 336 | Exported Function
+`PerfmonIDXOpen` | 337 | Exported Function
 `PerfmonOpen` | 338 | Exported Function
-`protected: __cdecl CAllocStorageVariant::~CAllocStorageVariant(void) __ptr64` | 262 | Exported Function
-`CFullPropSpec::CFullPropSpec` | 256 | Exported Function
-`public: __cdecl CPidLookupTable::~CPidLookupTable(void) __ptr64` | 265 | Exported Function
+`CDriveInfo::GetSectorSize` | 282 | Exported Function
+`CDriveInfo::GetDrive` | 278 | Exported Function
+`CDriveInfo::ContainsDrive` | 268 | Exported Function
+`CPidLookupTable::Init` | 288 | Exported Function
+`CFullPropSpec::SetProperty` | 308 | Exported Function
+`CDriveInfo::IsWriteProtected` | 290 | Exported Function
+`CDriveInfo::IsSameDrive` | 289 | Exported Function
+`CiStorage::QueryPidLookupTable` | 305 | Exported Function
+`XAct::XAct` | 261 | Exported Function
 `CUnNormalizer::CUnNormalizer` | 259 | Exported Function
+`public: __cdecl CPidLookupTable::~CPidLookupTable(void) __ptr64` | 265 | Exported Function
 `CPidLookupTable::CPidLookupTable` | 258 | Exported Function
-`CiStorage::CiStorage` | 260 | Exported Function
 `CMemSerStream::CMemSerStream` | 257 | Exported Function
+`CiStorage::CiStorage` | 260 | Exported Function
+`CFullPropSpec::CFullPropSpec` | 256 | Exported Function
+`CFullPath::CFullPath` | 255 | Exported Function
+`CDriveInfo::CDriveInfo` | 254 | Exported Function
+`CAllocStorageVariant::ResetType` | 307 | Exported Function
+`protected: __cdecl CAllocStorageVariant::~CAllocStorageVariant(void) __ptr64` | 262 | Exported Function
+`public: virtual __cdecl CMemSerStream::~CMemSerStream(void) __ptr64` | 263 | Exported Function
+`UseLowFragmentationHeap` | 321 | Exported Function
 
 
 ## Signature

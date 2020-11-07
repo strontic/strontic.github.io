@@ -26,21 +26,21 @@ PE256 | `6FCE92696F9B56489DFC0E0272969DCAAA8325873A402CEEFB5B2C3D8BFFD84F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsPathShared` | 11 | Exported Function
-`IsFolderPrivateForUser` | 10 | Exported Function
-`GetNetResourceFromLocalPathW` | 9 | Exported Function
-`IsPathSharedA` | 12 | Exported Function
-`ShowShareFolderUI` | 15 | Exported Function
-`SetFolderPermissionsForSharing` | 14 | Exported Function
-`IsPathSharedW` | 13 | Exported Function
-`GetNetResourceFromLocalPathA` | 8 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `CanShareFolder` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 `GetLocalPathFromNetResource` | 4 | Exported Function
-`GetNetResourceFromLocalPath` | 7 | Exported Function
-`GetLocalPathFromNetResourceW` | 6 | Exported Function
 `GetLocalPathFromNetResourceA` | 5 | Exported Function
+`GetLocalPathFromNetResourceW` | 6 | Exported Function
+`GetNetResourceFromLocalPath` | 7 | Exported Function
+`GetNetResourceFromLocalPathA` | 8 | Exported Function
+`GetNetResourceFromLocalPathW` | 9 | Exported Function
+`IsFolderPrivateForUser` | 10 | Exported Function
+`IsPathShared` | 11 | Exported Function
+`IsPathSharedA` | 12 | Exported Function
+`IsPathSharedW` | 13 | Exported Function
+`SetFolderPermissionsForSharing` | 14 | Exported Function
+`ShowShareFolderUI` | 15 | Exported Function
 
 
 ## Signature

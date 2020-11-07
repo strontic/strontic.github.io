@@ -26,14 +26,14 @@ PE256 | `99F31973A46F51792482FE1CC3F672841AC150EC7A2BFD8E1A2E01F4427D1F26`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`JsThunk_GetSize` | 6 | Exported Function
-`JsThunk_DataToCode` | 5 | Exported Function
-`JsThunk_Is` | 8 | Exported Function
-`JsThunk_InitData` | 7 | Exported Function
-`JsThunk_Cleanup` | 2 | Exported Function
 `JsThunk_AllocateData` | 1 | Exported Function
-`JsThunk_CleanupFinish` | 4 | Exported Function
+`JsThunk_Cleanup` | 2 | Exported Function
 `JsThunk_CleanupDefer` | 3 | Exported Function
+`JsThunk_CleanupFinish` | 4 | Exported Function
+`JsThunk_DataToCode` | 5 | Exported Function
+`JsThunk_GetSize` | 6 | Exported Function
+`JsThunk_InitData` | 7 | Exported Function
+`JsThunk_Is` | 8 | Exported Function
 
 
 ## Signature

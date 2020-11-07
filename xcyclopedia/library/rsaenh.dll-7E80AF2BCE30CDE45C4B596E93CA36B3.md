@@ -26,33 +26,33 @@ PE256 | `21CCD2AFC489651A11B6BA9CA8D2FDB8CB776533880968779EB29C00B0C40595`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPHashSessionKey` | 18 | Exported Function
-`CPImportKey` | 19 | Exported Function
-`CPReleaseContext` | 20 | Exported Function
-`CPGetProvParam` | 15 | Exported Function
-`CPGetUserKey` | 16 | Exported Function
-`CPHashData` | 17 | Exported Function
-`CPSetHashParam` | 21 | Exported Function
-`CPVerifySignature` | 25 | Exported Function
-`DllRegisterServer` | 26 | Exported Function
-`DllUnregisterServer` | 27 | Exported Function
-`CPSetKeyParam` | 22 | Exported Function
-`CPSetProvParam` | 23 | Exported Function
-`CPSignHash` | 24 | Exported Function
-`CPGetKeyParam` | 14 | Exported Function
-`CPDeriveKey` | 4 | Exported Function
-`CPDestroyHash` | 5 | Exported Function
-`CPDestroyKey` | 6 | Exported Function
 `CPAcquireContext` | 1 | Exported Function
-`CPCreateHash` | 2 | Exported Function
-`CPDecrypt` | 3 | Exported Function
-`CPDuplicateHash` | 7 | Exported Function
-`CPGenKey` | 11 | Exported Function
+`CPVerifySignature` | 25 | Exported Function
+`CPSignHash` | 24 | Exported Function
+`CPSetProvParam` | 23 | Exported Function
+`CPSetKeyParam` | 22 | Exported Function
+`CPSetHashParam` | 21 | Exported Function
+`CPReleaseContext` | 20 | Exported Function
+`CPImportKey` | 19 | Exported Function
+`CPHashSessionKey` | 18 | Exported Function
+`CPHashData` | 17 | Exported Function
+`CPGetUserKey` | 16 | Exported Function
+`CPGetProvParam` | 15 | Exported Function
+`DllRegisterServer` | 26 | Exported Function
+`CPGetKeyParam` | 14 | Exported Function
 `CPGenRandom` | 12 | Exported Function
-`CPGetHashParam` | 13 | Exported Function
-`CPDuplicateKey` | 8 | Exported Function
-`CPEncrypt` | 9 | Exported Function
+`CPGenKey` | 11 | Exported Function
 `CPExportKey` | 10 | Exported Function
+`CPEncrypt` | 9 | Exported Function
+`CPDuplicateKey` | 8 | Exported Function
+`CPDuplicateHash` | 7 | Exported Function
+`CPDestroyKey` | 6 | Exported Function
+`CPDestroyHash` | 5 | Exported Function
+`CPDeriveKey` | 4 | Exported Function
+`CPDecrypt` | 3 | Exported Function
+`CPCreateHash` | 2 | Exported Function
+`CPGetHashParam` | 13 | Exported Function
+`DllUnregisterServer` | 27 | Exported Function
 
 
 ## Signature

@@ -26,19 +26,19 @@ PE256 | `0B03D0DE97A39F13BE78173DF2887B802FDCCBCBF3D386CCF2346AE712B5D68C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SystemTimeToTzSpecificLocalTime` | 10 | Exported Function
-`SystemTimeToFileTime` | 9 | Exported Function
-`SetTimeZoneInformation` | 8 | Exported Function
-`TzSpecificLocalTimeToSystemTimeEx` | 13 | Exported Function
-`TzSpecificLocalTimeToSystemTime` | 12 | Exported Function
-`SystemTimeToTzSpecificLocalTimeEx` | 11 | Exported Function
-`SetDynamicTimeZoneInformation` | 7 | Exported Function
-`GetDynamicTimeZoneInformation` | 3 | Exported Function
-`FileTimeToSystemTime` | 2 | Exported Function
 `EnumDynamicTimeZoneInformation` | 1 | Exported Function
-`GetTimeZoneInformationForYear` | 6 | Exported Function
-`GetTimeZoneInformation` | 5 | Exported Function
+`FileTimeToSystemTime` | 2 | Exported Function
+`GetDynamicTimeZoneInformation` | 3 | Exported Function
 `GetDynamicTimeZoneInformationEffectiveYears` | 4 | Exported Function
+`GetTimeZoneInformation` | 5 | Exported Function
+`GetTimeZoneInformationForYear` | 6 | Exported Function
+`SetDynamicTimeZoneInformation` | 7 | Exported Function
+`SetTimeZoneInformation` | 8 | Exported Function
+`SystemTimeToFileTime` | 9 | Exported Function
+`SystemTimeToTzSpecificLocalTime` | 10 | Exported Function
+`SystemTimeToTzSpecificLocalTimeEx` | 11 | Exported Function
+`TzSpecificLocalTimeToSystemTime` | 12 | Exported Function
+`TzSpecificLocalTimeToSystemTimeEx` | 13 | Exported Function
 
 
 ## Signature

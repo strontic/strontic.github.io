@@ -26,12 +26,12 @@ PE256 | `8F6DE6912B3CF14D4A8E73EAE5F405B3DF7E820C5CF987735152BFCB586938D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSDCHNGRRegisterDeviceToChallengeByGlobalId` | 4 | Exported Function
-`WSDCHNGRRemoveDevice` | 5 | Exported Function
-`WSDCHNGRShutdown` | 6 | Exported Function
 `WSDCHNGRChallengeDeviceClass` | 1 | Exported Function
 `WSDCHNGRInitialize` | 2 | Exported Function
 `WSDCHNGRRegisterDeviceToChallenge` | 3 | Exported Function
+`WSDCHNGRRegisterDeviceToChallengeByGlobalId` | 4 | Exported Function
+`WSDCHNGRRemoveDevice` | 5 | Exported Function
+`WSDCHNGRShutdown` | 6 | Exported Function
 
 
 ## Signature

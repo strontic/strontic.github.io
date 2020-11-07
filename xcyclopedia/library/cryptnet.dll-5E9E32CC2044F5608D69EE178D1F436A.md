@@ -26,29 +26,29 @@ PE256 | `E2DA3690801D4A2DB08A57D14B70CAF182521D398E52255B3FDBE395FED63E6D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`I_CryptNetEnumUrlCacheEntry` | 17 | Exported Function
-`I_CryptNetFlushOfflineUrl` | 18 | Exported Function
-`I_CryptNetAutoFlush` | 16 | Exported Function
-`I_CryptConvertIriToAsciiOrUnicode` | 3 | Exported Function
-`I_CryptConvertIriToAsciiOrUnicodeWithFlags` | 4 | Exported Function
-`I_CryptNetGetConnectivity` | 19 | Exported Function
-`I_CryptNetSetUrlCachePreFetchInfo` | 23 | Exported Function
-`LdapProvOpenStore` | 5 | Exported Function
-`I_CryptNetSetUrlCacheFlushInfo` | 22 | Exported Function
-`I_CryptNetGetHostNameFromUrl` | 20 | Exported Function
-`I_CryptNetGetUserDsStoreUrl` | 21 | Exported Function
-`DllUnregisterServer` | 15 | Exported Function
-`CryptFlushTimeValidObject` | 7 | Exported Function
-`CryptGetObjectUrl` | 8 | Exported Function
-`CryptCancelAsyncRetrieval` | 6 | Exported Function
 `CertDllVerifyCTLUsage` | 1 | Exported Function
-`CertDllVerifyRevocation` | 2 | Exported Function
-`CryptGetTimeValidObject` | 9 | Exported Function
+`I_CryptNetSetUrlCacheFlushInfo` | 22 | Exported Function
+`I_CryptNetGetUserDsStoreUrl` | 21 | Exported Function
+`I_CryptNetGetHostNameFromUrl` | 20 | Exported Function
+`I_CryptNetGetConnectivity` | 19 | Exported Function
+`I_CryptNetFlushOfflineUrl` | 18 | Exported Function
+`I_CryptNetEnumUrlCacheEntry` | 17 | Exported Function
+`I_CryptNetAutoFlush` | 16 | Exported Function
+`I_CryptConvertIriToAsciiOrUnicodeWithFlags` | 4 | Exported Function
+`I_CryptConvertIriToAsciiOrUnicode` | 3 | Exported Function
+`I_CryptNetSetUrlCachePreFetchInfo` | 23 | Exported Function
+`DllUnregisterServer` | 15 | Exported Function
 `CryptUninstallCancelRetrieval` | 13 | Exported Function
-`DllRegisterServer` | 14 | Exported Function
 `CryptRetrieveObjectByUrlW` | 12 | Exported Function
-`CryptInstallCancelRetrieval` | 10 | Exported Function
 `CryptRetrieveObjectByUrlA` | 11 | Exported Function
+`CryptInstallCancelRetrieval` | 10 | Exported Function
+`CryptGetTimeValidObject` | 9 | Exported Function
+`CryptGetObjectUrl` | 8 | Exported Function
+`CryptFlushTimeValidObject` | 7 | Exported Function
+`CryptCancelAsyncRetrieval` | 6 | Exported Function
+`CertDllVerifyRevocation` | 2 | Exported Function
+`DllRegisterServer` | 14 | Exported Function
+`LdapProvOpenStore` | 5 | Exported Function
 
 
 ## Signature

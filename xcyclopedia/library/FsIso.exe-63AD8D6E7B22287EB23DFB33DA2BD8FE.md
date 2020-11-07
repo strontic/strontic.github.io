@@ -28,7 +28,10 @@ PE256 | `72C06E8495BBE7E9CDEB9B9398BEE23971AA2B9CFE1BC8BA27F454369DFBB08B`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -38,6 +41,8 @@ Path | Type
 Path |
 -- |
 C:\Windows\system32\FsIso.exe |
+C:\Windows\system32\iumbase.DLL |
+C:\Windows\SYSTEM32\IUMDLL.dll |
 C:\Windows\system32\IumSdk.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -67,8 +72,8 @@ C:\Windows\System32\RPCRT4.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/ff419466845f99a7e5aac084150bbd4c0a2a4aaaef2118f8afa41716b8790e88/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/ff419466845f99a7e5aac084150bbd4c0a2a4aaaef2118f8afa41716b8790e88/detection
 
 
 

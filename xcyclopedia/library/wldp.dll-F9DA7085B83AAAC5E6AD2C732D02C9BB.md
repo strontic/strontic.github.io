@@ -26,27 +26,27 @@ PE256 | `7739BF2128B14A2AF1B7187FB0498AE38C7822F5929A4EA7AA9C7FC658B7F6DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WldpQuerySecurityPolicy` | 18 | Exported Function
-`WldpQueryWindowsLockdownMode` | 2 | Exported Function
-`WldpQueryDynamicCodeTrust` | 17 | Exported Function
-`WldpIsDebugAllowed` | 15 | Exported Function
-`WldpIsDynamicCodePolicyEnabled` | 16 | Exported Function
-`WldpSetDynamicCodeTrust2` | 20 | Exported Function
-`WldpSetWindowsLockdownRestriction` | 4 | Exported Function
-`WldpSetDynamicCodeTrust` | 21 | Exported Function
-`WldpQueryWindowsLockdownRestriction` | 3 | Exported Function
-`WldpResetSecurityWatermarkState` | 19 | Exported Function
-`WldpIsClassInApprovedList` | 14 | Exported Function
-`WldpCheckSecurityWatermarkState` | 8 | Exported Function
-`WldpCheckWcosDeviceEncryptionSecure` | 9 | Exported Function
-`WldpCheckRetailConfiguration` | 7 | Exported Function
 `WldpAddDeveloperCertificateForDynamicCodeTrust` | 5 | Exported Function
-`WldpCheckDeviceEncryptionNotStarted` | 6 | Exported Function
+`WldpSetDynamicCodeTrust` | 21 | Exported Function
+`WldpResetSecurityWatermarkState` | 19 | Exported Function
+`WldpQueryWindowsLockdownRestriction` | 3 | Exported Function
+`WldpQueryWindowsLockdownMode` | 2 | Exported Function
+`WldpQuerySecurityPolicy` | 18 | Exported Function
+`WldpQueryDynamicCodeTrust` | 17 | Exported Function
+`WldpIsDynamicCodePolicyEnabled` | 16 | Exported Function
+`WldpIsDebugAllowed` | 15 | Exported Function
+`WldpSetDynamicCodeTrust2` | 20 | Exported Function
+`WldpIsClassInApprovedList` | 14 | Exported Function
 `WldpIsAllowedEntryPoint` | 13 | Exported Function
-`WldpIsAppApprovedByPolicy` | 1 | Exported Function
 `WldpGetLockdownPolicy` | 12 | Exported Function
-`WldpDisableDeveloperMode` | 10 | Exported Function
 `WldpEnableDeveloperMode` | 11 | Exported Function
+`WldpDisableDeveloperMode` | 10 | Exported Function
+`WldpCheckWcosDeviceEncryptionSecure` | 9 | Exported Function
+`WldpCheckSecurityWatermarkState` | 8 | Exported Function
+`WldpCheckRetailConfiguration` | 7 | Exported Function
+`WldpCheckDeviceEncryptionNotStarted` | 6 | Exported Function
+`WldpIsAppApprovedByPolicy` | 1 | Exported Function
+`WldpSetWindowsLockdownRestriction` | 4 | Exported Function
 
 
 ## Signature

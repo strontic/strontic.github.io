@@ -26,9 +26,9 @@ PE256 | `E0CAC57235F69D2DA11D2442021C62C4CD75AF0096E79BAA7003EBFE6A2C0721`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MLCreateOperatorRegistry` | 3 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`MLCreateOperatorRegistry` | 3 | Exported Function
 
 
 ## Signature

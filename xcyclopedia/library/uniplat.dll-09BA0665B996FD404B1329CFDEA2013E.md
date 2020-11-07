@@ -26,32 +26,32 @@ PE256 | `E9F4CCCD52039C337B3E2924B1B092A5457DC399579E4680CF6384273499E45B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SyncDeviceIoControl` | 116 | Exported Function
-`UmPlatformDeinitialize` | 101 | Exported Function
-`UmPlatformInitialize` | 100 | Exported Function
-`StartMonitorThread` | 210 | Exported Function
-`StopMonitoringHandle` | 213 | Exported Function
-`StopMonitorThread` | 211 | Exported Function
-`UnimodemDeviceIoControlEx` | 104 | Exported Function
+`AllocateOverStructEx` | 113 | Exported Function
 `UnimodemWaitCommEventEx` | 105 | Exported Function
+`UnimodemReadFileEx` | 102 | Exported Function
+`UnimodemQueueUserAPC` | 106 | Exported Function
+`UnimodemNotifyTSP` | 207 | Exported Function
+`UnimodemDeviceIoControlEx` | 104 | Exported Function
+`UmPlatformInitialize` | 100 | Exported Function
+`UmPlatformDeinitialize` | 101 | Exported Function
+`SyncDeviceIoControl` | 116 | Exported Function
+`StopMonitorThread` | 211 | Exported Function
+`StopMonitoringHandle` | 213 | Exported Function
+`StartMonitorThread` | 210 | Exported Function
+`SetUnimodemTimer` | 109 | Exported Function
+`ResetCallCount` | 216 | Exported Function
+`ReinitOverStruct` | 115 | Exported Function
+`MonitorHandle` | 212 | Exported Function
+`FreeUnimodemTimer` | 108 | Exported Function
+`FreeOverStruct` | 114 | Exported Function
+`DestroyOverStructPool` | 112 | Exported Function
+`CreateUnimodemTimer` | 107 | Exported Function
+`CreateOverStructPool` | 111 | Exported Function
+`CancelUnimodemTimer` | 110 | Exported Function
+`CallEnding` | 215 | Exported Function
+`CallBeginning` | 214 | Exported Function
 `UnimodemWriteFileEx` | 103 | Exported Function
 `WinntIsWorkstation` | 117 | Exported Function
-`UnimodemNotifyTSP` | 207 | Exported Function
-`UnimodemQueueUserAPC` | 106 | Exported Function
-`UnimodemReadFileEx` | 102 | Exported Function
-`CancelUnimodemTimer` | 110 | Exported Function
-`CreateOverStructPool` | 111 | Exported Function
-`CreateUnimodemTimer` | 107 | Exported Function
-`AllocateOverStructEx` | 113 | Exported Function
-`CallBeginning` | 214 | Exported Function
-`CallEnding` | 215 | Exported Function
-`DestroyOverStructPool` | 112 | Exported Function
-`ReinitOverStruct` | 115 | Exported Function
-`ResetCallCount` | 216 | Exported Function
-`SetUnimodemTimer` | 109 | Exported Function
-`FreeOverStruct` | 114 | Exported Function
-`FreeUnimodemTimer` | 108 | Exported Function
-`MonitorHandle` | 212 | Exported Function
 
 
 ## Signature

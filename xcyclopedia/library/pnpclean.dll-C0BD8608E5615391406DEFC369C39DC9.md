@@ -26,11 +26,11 @@ PE256 | `868368578BB618FA4AF88CCA28C3D9E6A69B1152B1540D71907025BF42603640`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`RunDLL_PnpClean` | 5 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`RunDLL_PnpClean` | 5 | Exported Function
 
 
 ## Signature

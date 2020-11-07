@@ -133,8 +133,8 @@ C:\Windows\SysWOW64\takeown.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/c7159144c6403c38aaf3def4c2fc5759b6df824af003b304d4b77c6d72353b3e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/c7159144c6403c38aaf3def4c2fc5759b6df824af003b304d4b77c6d72353b3e/detection
 
 
 ## Possible Misuse

@@ -26,14 +26,14 @@ PE256 | `63A2D8689D6FDF313FB8129F386E0644581ABEAACC2080281690D30FFAD458B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenQueryWindow` | 258 | Exported Function
-`DllUnregisterServer` | 263 | Exported Function
-`OpenSavedDsQueryW` | 257 | Exported Function
-`OpenSavedDsQuery` | 256 | Exported Function
-`DllGetClassObject` | 260 | Exported Function
 `DllCanUnloadNow` | 259 | Exported Function
-`DllRegisterServer` | 262 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
 `DllInstall` | 261 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
+`OpenQueryWindow` | 258 | Exported Function
+`OpenSavedDsQuery` | 256 | Exported Function
+`OpenSavedDsQueryW` | 257 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `CE97C9E21A2D579F150CB1CB24A0505B5DF20F9AABB661DE7814585577B61200`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KdSendPacket` | 4 | Exported Function
-`KdSetHiberRange` | 5 | Exported Function
-`KdReceivePacket` | 3 | Exported Function
 `KdInitialize` | 1 | Exported Function
 `KdPower` | 2 | Exported Function
+`KdReceivePacket` | 3 | Exported Function
+`KdSendPacket` | 4 | Exported Function
+`KdSetHiberRange` | 5 | Exported Function
 
 
 ## Signature

@@ -25,31 +25,31 @@ PE256 | `4C1C67DC25D7FA36CEEF1593B11E295D9AAF706216A38C2B3C3E1A6A7C85FCF6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WBXIsDebugMode` | 8 | Exported Function
-`WbxSetTraceLevel` | 16 | Exported Function
-`WBXTRACE` | 1 | Exported Function
-`WBXINFO` | 4 | Exported Function
-`WBXINFOA` | 12 | Exported Function
-`WBXInfoTrace` | 23 | Exported Function
-`WBXWARN` | 5 | Exported Function
-`WBXWARNA` | 13 | Exported Function
-`WBXWarningTrace` | 24 | Exported Function
-`WBXTRACEA` | 9 | Exported Function
-`WBXTRACERAW` | 2 | Exported Function
-`WBXTRACERAWA` | 10 | Exported Function
-`WbxGetTraceLevel` | 17 | Exported Function
-`setExternalLoggerHandler` | 18 | Exported Function
-`WBXDEBUG` | 3 | Exported Function
-`WBXDEBUGA` | 11 | Exported Function
 `InitWBXTrace` | 20 | Exported Function
-`log2file` | 19 | Exported Function
-`ResetWBXTrace` | 21 | Exported Function
-`WBXERROR` | 6 | Exported Function
+`WBXWARN` | 5 | Exported Function
+`WBXTRACERAWA` | 10 | Exported Function
+`WBXTRACERAW` | 2 | Exported Function
+`WBXTRACEA` | 9 | Exported Function
+`WBXTRACE` | 1 | Exported Function
+`WbxSetTraceLevel` | 16 | Exported Function
+`WBXIsDebugMode` | 8 | Exported Function
+`WBXInfoTrace` | 23 | Exported Function
+`WBXINFOA` | 12 | Exported Function
+`WBXINFO` | 4 | Exported Function
+`WBXWARNA` | 13 | Exported Function
+`WbxGetTraceLevel` | 17 | Exported Function
 `WBXERRORA` | 14 | Exported Function
-`WBXErrorTrace` | 25 | Exported Function
-`WBXDebugTrace` | 22 | Exported Function
-`WBXDumpFileClose` | 15 | Exported Function
+`WBXERROR` | 6 | Exported Function
 `WBXDumptoFile` | 7 | Exported Function
+`WBXDumpFileClose` | 15 | Exported Function
+`WBXDebugTrace` | 22 | Exported Function
+`WBXDEBUGA` | 11 | Exported Function
+`WBXDEBUG` | 3 | Exported Function
+`setExternalLoggerHandler` | 18 | Exported Function
+`ResetWBXTrace` | 21 | Exported Function
+`log2file` | 19 | Exported Function
+`WBXErrorTrace` | 25 | Exported Function
+`WBXWarningTrace` | 24 | Exported Function
 
 
 ## Signature

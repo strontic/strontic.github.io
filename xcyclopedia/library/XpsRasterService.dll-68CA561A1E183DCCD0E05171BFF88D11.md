@@ -26,8 +26,8 @@ PE256 | `02BEC5A508A0F0A910DF6D5422C8D57CA80401AD848A4D24F74CBEF4D359003F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrvPopulateFilterServices` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DrvPopulateFilterServices` | 3 | Exported Function
 
 
 ## Signature

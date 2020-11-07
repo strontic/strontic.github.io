@@ -26,10 +26,10 @@ PE256 | `649B1A44A0F7A667277A573A1CC10A034160FCFE508861379926CF408B4EED67`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConvertStringSecurityDescriptorToSecurityDescriptorW` | 3 | Exported Function
-`ConvertStringSidToSidW` | 4 | Exported Function
 `ConvertSecurityDescriptorToStringSecurityDescriptorW` | 1 | Exported Function
 `ConvertSidToStringSidW` | 2 | Exported Function
+`ConvertStringSecurityDescriptorToSecurityDescriptorW` | 3 | Exported Function
+`ConvertStringSidToSidW` | 4 | Exported Function
 
 
 ## Signature

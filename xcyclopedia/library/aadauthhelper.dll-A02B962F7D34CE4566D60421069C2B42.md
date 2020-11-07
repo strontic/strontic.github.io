@@ -26,16 +26,16 @@ PE256 | `33177D86331FD20F3C21ED55679DEEFC14B5DF6FA5208FA2F23DCDF670E88A8C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSerializedAuthBuffer` | 7 | Exported Function
-`GetFidoAuthenticationSessionStatus` | 6 | Exported Function
-`StartChangingFidoPin` | 8 | Exported Function
-`StartSigningFidoClientData` | 10 | Exported Function
-`StartFidoAuthenticationSession` | 9 | Exported Function
-`CreateAuthBuffer` | 2 | Exported Function
 `CloseFidoAuthenticationSession` | 1 | Exported Function
+`CreateAuthBuffer` | 2 | Exported Function
 `CreateResourceAccountAuthBuffer` | 3 | Exported Function
-`CreateTokenAuthBufferEx` | 5 | Exported Function
 `CreateTokenAuthBuffer` | 4 | Exported Function
+`CreateTokenAuthBufferEx` | 5 | Exported Function
+`GetFidoAuthenticationSessionStatus` | 6 | Exported Function
+`GetSerializedAuthBuffer` | 7 | Exported Function
+`StartChangingFidoPin` | 8 | Exported Function
+`StartFidoAuthenticationSession` | 9 | Exported Function
+`StartSigningFidoClientData` | 10 | Exported Function
 
 
 ## Signature

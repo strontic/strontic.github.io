@@ -35,7 +35,9 @@ C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\samcli.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wcsetupagent.exe |
 
@@ -61,8 +63,8 @@ C:\Windows\system32\wcsetupagent.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/3749b4f1d866a1552c07e30fdf85bb24a7df7dc7a4f8e703cf6e23e47cbea7d2/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3749b4f1d866a1552c07e30fdf85bb24a7df7dc7a4f8e703cf6e23e47cbea7d2/detection
 
 
 

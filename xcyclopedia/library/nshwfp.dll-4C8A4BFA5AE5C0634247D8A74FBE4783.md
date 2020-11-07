@@ -26,14 +26,14 @@ PE256 | `B7546B0A7842FE06D4FDE7F87673E9B626A44A87CAA32FAEB6B19AB53FB46E7F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitHelperDll` | 6 | Exported Function
-`IdpConfigRemovePolicy` | 5 | Exported Function
-`WfpCaptureStop` | 8 | Exported Function
-`WfpCaptureExportedW` | 7 | Exported Function
-`IdpConfigAllocateAndGetPolicy` | 2 | Exported Function
 `IdpConfigAddPolicy` | 1 | Exported Function
-`IdpConfigInitDefaultPolicy` | 4 | Exported Function
+`IdpConfigAllocateAndGetPolicy` | 2 | Exported Function
 `IdpConfigFreePolicy` | 3 | Exported Function
+`IdpConfigInitDefaultPolicy` | 4 | Exported Function
+`IdpConfigRemovePolicy` | 5 | Exported Function
+`InitHelperDll` | 6 | Exported Function
+`WfpCaptureExportedW` | 7 | Exported Function
+`WfpCaptureStop` | 8 | Exported Function
 
 
 ## Signature

@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\svchost.exe |
 * VirusTotal Detections: 0/66
 * VirusTotal Link: https://www.virustotal.com/gui/file/320addc1d6d5f9524da6f9969b10d3dccc6f6505c327b6658652f0e10d0a29b4/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\svchost.exe](svchost.exe-B7C999040D80E5BF87886D70D992C51E.md) | 82
 
 ## Possible Misuse
 

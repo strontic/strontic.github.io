@@ -26,17 +26,17 @@ PE256 | `0933BB3F360EAEEC4DFB316EC6D9F55B127E13F2AFCA1D3D387DB48860DB9031`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OleCreatePropertyFrameIndirect` | 249 | Exported Function
-`OleCreatePropertyFrame` | 250 | Exported Function
-`OleIconToCursor` | 248 | Exported Function
-`OleTranslateColor` | 254 | Exported Function
-`OleLoadPicture` | 251 | Exported Function
-`OleCreatePictureIndirect` | 252 | Exported Function
-`DllGetClassObject` | 256 | Exported Function
 `DllCanUnloadNow` | 255 | Exported Function
+`DllGetClassObject` | 256 | Exported Function
 `DllRegisterServer` | 257 | Exported Function
-`OleCreateFontIndirect` | 253 | Exported Function
 `DllUnregisterServer` | 258 | Exported Function
+`OleCreateFontIndirect` | 253 | Exported Function
+`OleCreatePictureIndirect` | 252 | Exported Function
+`OleCreatePropertyFrame` | 250 | Exported Function
+`OleCreatePropertyFrameIndirect` | 249 | Exported Function
+`OleIconToCursor` | 248 | Exported Function
+`OleLoadPicture` | 251 | Exported Function
+`OleTranslateColor` | 254 | Exported Function
 
 
 ## Signature

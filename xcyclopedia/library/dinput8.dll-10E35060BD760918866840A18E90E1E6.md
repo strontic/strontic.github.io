@@ -26,12 +26,12 @@ PE256 | `304055FD9BD84D8A9FF331C2B11F0EC7C2615E4147FFD52146ABF9572CBC8BEE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`GetdfDIJoystick` | 6 | Exported Function
 `DirectInput8Create` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`GetdfDIJoystick` | 6 | Exported Function
 
 
 ## Signature

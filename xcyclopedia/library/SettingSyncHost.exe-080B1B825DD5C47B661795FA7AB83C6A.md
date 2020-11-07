@@ -28,15 +28,24 @@ PE256 | `2C1AC310B4B9E42BA347FF11F39E4C93623FB99321D4D0C5E8076BEDDE4840B3`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\system32\policymanager.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
+C:\Windows\system32\PROPSYS.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\system32\SettingSyncHost.exe |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
+C:\Windows\system32\USERENV.dll |
 
 
 ## Signature
@@ -60,8 +69,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/73d8f23a1acf635a39b2dcb8b37304658f6f84d1090af961ea031efab833d916/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/73d8f23a1acf635a39b2dcb8b37304658f6f84d1090af961ea031efab833d916/detection
 
 
 

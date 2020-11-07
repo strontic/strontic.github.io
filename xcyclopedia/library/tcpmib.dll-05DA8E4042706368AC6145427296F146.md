@@ -26,41 +26,41 @@ PE256 | `A1AD5F073EB1E406777545E43D786A965BA8BFDCF1C822B4E0D66E3B614EC8BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CTcpMib::SupportsPrinterMib` | 33 | Exported Function
-`CTcpMib::RFC1157ToString` | 23 | Exported Function
-`CTcpMib::GetPortList` | 16 | Exported Function
-`CTcpMib::GetDeviceId` | 12 | Exported Function
-`CTcpMib::SnmpGetNext` | 30 | Exported Function
-`CTcpMib::SnmpGet` | 27 | Exported Function
-`public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 | Exported Function
-`public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 5 | Exported Function
-`CTcpMib::GetDeviceDescription` | 11 | Exported Function
-`CTcpMib::SnmpGet` | 29 | Exported Function
-`CTcpMib::SnmpGet` | 28 | Exported Function
-`CTcpMib::UnInitSnmp` | 34 | Exported Function
-`CTcpMib::SnmpGetNext` | 31 | Exported Function
-`CTcpMib::InitSnmp` | 20 | Exported Function
-`CTcpMib::GetNextRequestId` | 15 | Exported Function
-`CTcpMib::RequestDeviceStatus` | 25 | Exported Function
-`CTcpMib::RegisterDeviceStatusCallback` | 24 | Exported Function
-`CTcpMib::IsValid` | 21 | Exported Function
-`CTcpMib::GetPortListFromIni` | 17 | Exported Function
-`CTcpMib::GetDeviceIdFromMib` | 14 | Exported Function
-`CTcpMib::SupportsPortMonMib` | 32 | Exported Function
-`CTcpMib::GetPortListFromMib` | 18 | Exported Function
-`const CTcpMibABC::``vftable'` | 10 | Exported Function
 `const CTcpMib::``vftable'` | 9 | Exported Function
-`CTcpMib::GetDeviceIdFromIni` | 13 | Exported Function
-`GetTcpMibPtr` | 35 | Exported Function
-`CTcpMib::MapAsynchToPortStatus` | 22 | Exported Function
-`CTcpMibABC::CTcpMibABC` | 4 | Exported Function
-`CTcpMibABC::CTcpMibABC` | 3 | Exported Function
-`CTcpMibABC::operator` | 8 | Exported Function
+`CTcpMib::SnmpGetNext` | 30 | Exported Function
+`public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 5 | Exported Function
+`public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 | Exported Function
+`CTcpMib::RFC1157ToString` | 23 | Exported Function
+`CTcpMib::SupportsPrinterMib` | 33 | Exported Function
+`CTcpMib::GetDeviceId` | 12 | Exported Function
+`CTcpMib::SnmpGet` | 27 | Exported Function
+`CTcpMib::GetPortList` | 16 | Exported Function
+`CTcpMib::GetNextRequestId` | 15 | Exported Function
+`CTcpMib::InitSnmp` | 20 | Exported Function
+`CTcpMib::RegisterDeviceStatusCallback` | 24 | Exported Function
+`CTcpMib::RequestDeviceStatus` | 25 | Exported Function
+`CTcpMib::SnmpGet` | 28 | Exported Function
+`CTcpMib::SnmpGet` | 29 | Exported Function
+`CTcpMib::GetDeviceDescription` | 11 | Exported Function
+`CTcpMib::SnmpGetNext` | 31 | Exported Function
+`CTcpMib::IsValid` | 21 | Exported Function
 `CTcpMib::operator` | 7 | Exported Function
-`CTcpMib::SnmpCallback` | 26 | Exported Function
+`const CTcpMibABC::``vftable'` | 10 | Exported Function
+`GetTcpMibPtr` | 35 | Exported Function
+`CTcpMib::GetDeviceIdFromIni` | 13 | Exported Function
+`CTcpMib::GetDeviceIdFromMib` | 14 | Exported Function
+`CTcpMib::GetPortListFromIni` | 17 | Exported Function
+`CTcpMib::GetPortListFromMib` | 18 | Exported Function
+`CTcpMibABC::operator` | 8 | Exported Function
+`CTcpMib::SupportsPortMonMib` | 32 | Exported Function
 `CTcpMib::GetStatusFromVBL` | 19 | Exported Function
-`CTcpMib::CTcpMib` | 2 | Exported Function
+`CTcpMib::SnmpCallback` | 26 | Exported Function
 `CTcpMib::CTcpMib` | 1 | Exported Function
+`CTcpMib::CTcpMib` | 2 | Exported Function
+`CTcpMibABC::CTcpMibABC` | 3 | Exported Function
+`CTcpMibABC::CTcpMibABC` | 4 | Exported Function
+`CTcpMib::MapAsynchToPortStatus` | 22 | Exported Function
+`CTcpMib::UnInitSnmp` | 34 | Exported Function
 
 
 ## Signature

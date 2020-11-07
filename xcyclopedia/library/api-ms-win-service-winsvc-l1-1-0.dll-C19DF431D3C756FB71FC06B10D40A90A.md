@@ -26,32 +26,32 @@ PE256 | `D4528106A63FAFE824BB4E3ADC5D6DB3016E7B60F477E4EADCB27FDF32D28A63`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenSCManagerA` | 17 | Exported Function
-`OpenServiceA` | 18 | Exported Function
-`QueryServiceConfig2A` | 19 | Exported Function
-`I_ScSendTSMessage` | 14 | Exported Function
-`I_ScValidatePnPService` | 15 | Exported Function
-`NotifyServiceStatusChangeA` | 16 | Exported Function
-`QueryServiceConfigA` | 20 | Exported Function
+`ChangeServiceConfig2A` | 1 | Exported Function
 `RegisterServiceCtrlHandlerW` | 24 | Exported Function
+`RegisterServiceCtrlHandlerExA` | 23 | Exported Function
+`RegisterServiceCtrlHandlerA` | 22 | Exported Function
+`QueryServiceStatus` | 21 | Exported Function
+`QueryServiceConfigA` | 20 | Exported Function
+`QueryServiceConfig2A` | 19 | Exported Function
+`OpenServiceA` | 18 | Exported Function
+`OpenSCManagerA` | 17 | Exported Function
+`NotifyServiceStatusChangeA` | 16 | Exported Function
+`I_ScValidatePnPService` | 15 | Exported Function
+`I_ScSendTSMessage` | 14 | Exported Function
+`I_ScSendPnPMessage` | 13 | Exported Function
+`I_ScRpcBindW` | 12 | Exported Function
+`I_ScRpcBindA` | 11 | Exported Function
+`I_ScQueryServiceConfig` | 10 | Exported Function
+`I_ScPnPGetServiceName` | 9 | Exported Function
+`I_ScIsSecurityProcess` | 8 | Exported Function
+`I_ScBroadcastServiceControlMessage` | 7 | Exported Function
+`I_QueryTagInformation` | 6 | Exported Function
+`CreateServiceA` | 5 | Exported Function
+`ControlServiceExA` | 4 | Exported Function
+`ControlService` | 3 | Exported Function
+`ChangeServiceConfigA` | 2 | Exported Function
 `StartServiceA` | 25 | Exported Function
 `StartServiceCtrlDispatcherA` | 26 | Exported Function
-`QueryServiceStatus` | 21 | Exported Function
-`RegisterServiceCtrlHandlerA` | 22 | Exported Function
-`RegisterServiceCtrlHandlerExA` | 23 | Exported Function
-`ControlServiceExA` | 4 | Exported Function
-`CreateServiceA` | 5 | Exported Function
-`I_QueryTagInformation` | 6 | Exported Function
-`ChangeServiceConfig2A` | 1 | Exported Function
-`ChangeServiceConfigA` | 2 | Exported Function
-`ControlService` | 3 | Exported Function
-`I_ScBroadcastServiceControlMessage` | 7 | Exported Function
-`I_ScRpcBindA` | 11 | Exported Function
-`I_ScRpcBindW` | 12 | Exported Function
-`I_ScSendPnPMessage` | 13 | Exported Function
-`I_ScIsSecurityProcess` | 8 | Exported Function
-`I_ScPnPGetServiceName` | 9 | Exported Function
-`I_ScQueryServiceConfig` | 10 | Exported Function
 
 
 ## Signature

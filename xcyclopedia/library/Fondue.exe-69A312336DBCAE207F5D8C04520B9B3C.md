@@ -37,7 +37,7 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\Fondue.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
@@ -83,8 +83,8 @@ C:\Windows\SysWOW64\Fondue.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/8f4758f2b671e901cfc743fb7f3bd7b63094d84d55b4d8f7eb0722ba1205a6d2/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/8f4758f2b671e901cfc743fb7f3bd7b63094d84d55b4d8f7eb0722ba1205a6d2/detection
 
 ## File Similarity (ssdeep match)
 

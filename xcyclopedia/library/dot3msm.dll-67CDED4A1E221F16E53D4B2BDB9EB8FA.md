@@ -26,27 +26,27 @@ PE256 | `8554C65689C3629D938B37B1D45F77B61B4376FD805E8FB54BA2A2DC22C76E27`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Dot3MsmQueryState` | 15 | Exported Function
-`Dot3MsmReAuthenticate` | 16 | Exported Function
-`Dot3MsmQueryPendingUIRequest` | 14 | Exported Function
-`Dot3MsmOnMediaStateChange` | 12 | Exported Function
-`Dot3MsmQueryMediaState` | 13 | Exported Function
-`Dot3ReasonCodeMsmToString` | 20 | Exported Function
-`Dot3SetPortAuthenticationState` | 21 | Exported Function
-`Dot3MsmValidateProfile` | 19 | Exported Function
-`Dot3MsmSetRuntimeState` | 17 | Exported Function
-`Dot3MsmUIResponse` | 18 | Exported Function
-`Dot3MsmInitAdapter` | 11 | Exported Function
-`Dot3MsmDeInit` | 4 | Exported Function
-`Dot3MsmDeInitAdapter` | 5 | Exported Function
-`Dot3MsmCreateDefaultProfile` | 3 | Exported Function
 `DllMain` | 1 | Exported Function
-`Dot3MsmConnect` | 2 | Exported Function
+`Dot3MsmValidateProfile` | 19 | Exported Function
+`Dot3MsmUIResponse` | 18 | Exported Function
+`Dot3MsmSetRuntimeState` | 17 | Exported Function
+`Dot3MsmReAuthenticate` | 16 | Exported Function
+`Dot3MsmQueryState` | 15 | Exported Function
+`Dot3MsmQueryPendingUIRequest` | 14 | Exported Function
+`Dot3MsmQueryMediaState` | 13 | Exported Function
+`Dot3MsmOnMediaStateChange` | 12 | Exported Function
+`Dot3ReasonCodeMsmToString` | 20 | Exported Function
+`Dot3MsmInitAdapter` | 11 | Exported Function
 `Dot3MsmIndicateSessionChange` | 9 | Exported Function
-`Dot3MsmInit` | 10 | Exported Function
 `Dot3MsmFreeProfile` | 8 | Exported Function
-`Dot3MsmDisconnect` | 6 | Exported Function
 `Dot3MsmFreeMemory` | 7 | Exported Function
+`Dot3MsmDisconnect` | 6 | Exported Function
+`Dot3MsmDeInitAdapter` | 5 | Exported Function
+`Dot3MsmDeInit` | 4 | Exported Function
+`Dot3MsmCreateDefaultProfile` | 3 | Exported Function
+`Dot3MsmConnect` | 2 | Exported Function
+`Dot3MsmInit` | 10 | Exported Function
+`Dot3SetPortAuthenticationState` | 21 | Exported Function
 
 
 ## Signature

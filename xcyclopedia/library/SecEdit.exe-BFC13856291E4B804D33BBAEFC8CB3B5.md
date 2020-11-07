@@ -65,8 +65,8 @@ C:\Windows\SysWOW64\SecEdit.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/56cb815f0fda92c4658296692e4f70dee557137528482fe7a834296bfdb710c0/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/56cb815f0fda92c4658296692e4f70dee557137528482fe7a834296bfdb710c0/detection
 
 ## File Similarity (ssdeep match)
 

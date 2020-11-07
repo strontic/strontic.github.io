@@ -26,11 +26,11 @@ PE256 | `340A89DF346CD6CEAB00C457A9BEEE03605AE1205FAF22FA54F1F1D648033949`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetHandleInformation` | 4 | Exported Function
-`SetHandleInformation` | 5 | Exported Function
-`DuplicateHandle` | 3 | Exported Function
 `CloseHandle` | 1 | Exported Function
 `CompareObjectHandles` | 2 | Exported Function
+`DuplicateHandle` | 3 | Exported Function
+`GetHandleInformation` | 4 | Exported Function
+`SetHandleInformation` | 5 | Exported Function
 
 
 ## Signature

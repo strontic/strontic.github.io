@@ -73,6 +73,11 @@ C:\Windows\SysWOW64\sdbinst.exe |
 * VirusTotal Detections: 0/69
 * VirusTotal Link: https://www.virustotal.com/gui/file/f26bfc0b4fef00a7dff35fac89139bb96cae1052bbacf7fe1d858f8917f8b232/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\sdbinst.exe](sdbinst.exe-9BFFF44EBACF811FC4BDA574C51D4045.md) | 86
 
 ## Possible Misuse
 

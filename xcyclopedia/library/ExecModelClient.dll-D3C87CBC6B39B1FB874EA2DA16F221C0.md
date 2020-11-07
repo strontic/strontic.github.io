@@ -26,12 +26,12 @@ PE256 | `833F6913AC769B78039CEC0AA61BC117873123562F3F69B824DEE99479543224`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetActivationFactory` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`TestHook_CancelShutdown` | 2 | Exported Function
 `CreateForegroundTaskManager` | 1 | Exported Function
 `CreateModernVoipPolicy` | 3 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
+`DllGetActivationFactory` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`TestHook_CancelShutdown` | 2 | Exported Function
 
 
 ## Signature

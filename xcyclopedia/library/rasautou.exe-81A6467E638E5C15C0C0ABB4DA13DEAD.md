@@ -70,6 +70,7 @@ C:\Windows\SysWOW64\rasautou.exe |
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\rasautou.exe](rasautou.exe-BA2347843ED36587134C3B8AF434EC8C.md) | 55
+[C:\Windows\SysWOW64\rasautou.exe](rasautou.exe-DFDBEDC2ED47CBABC13CCC64E97868F3.md) | 79
 
 ## Possible Misuse
 

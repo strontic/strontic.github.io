@@ -29,9 +29,12 @@ PE256 | `1A1C49000F278DC181E0CA9ADB7920415878D5463277D27350922D76E860CC36`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\raserver.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -68,8 +71,8 @@ C:\Windows\SysWOW64\raserver.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/51e1d2363c200c8ce80c4d225e623cb3e359a0d9053d4aeb5f48c96adb227a9e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/51e1d2363c200c8ce80c4d225e623cb3e359a0d9053d4aeb5f48c96adb227a9e/detection
 
 
 

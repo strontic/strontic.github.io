@@ -25,13 +25,13 @@ PE256 | `AEA731719246FB3F2E1993795E3B91C4E413A88BCEBEAF438221B1A1D269B6F2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UwfServicingWinUpdateApply` | 5 | Exported Function
-`UwfServicingWinupdateCleanup` | 6 | Exported Function
-`UwfServicingWinupdateInitialize` | 7 | Exported Function
-`UwfServicingInitialize` | 4 | Exported Function
 `GetServicingModeState` | 1 | Exported Function
 `SetServicingModeState` | 2 | Exported Function
 `UwfServicingCleanup` | 3 | Exported Function
+`UwfServicingInitialize` | 4 | Exported Function
+`UwfServicingWinUpdateApply` | 5 | Exported Function
+`UwfServicingWinupdateCleanup` | 6 | Exported Function
+`UwfServicingWinupdateInitialize` | 7 | Exported Function
 
 
 ## Signature

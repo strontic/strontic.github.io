@@ -26,13 +26,13 @@ PE256 | `A40A79AA2C28BC95CF02584BFADD8C4D5ACC7AB93690AC9E2B3F0EF6C7C0E399`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StartRoamingClassFactories` | 5 | Exported Function
-`StopRoamingClassFactories` | 6 | Exported Function
-`WaitForNetworkForRoamingProfile` | 7 | Exported Function
-`RefreshSuspendFolderPolicyAndUploadTaskConfig` | 4 | Exported Function
 `ConnectToRoamingVhdProfile` | 2 | Exported Function
 `CreateRoamingProviderInstance` | 1 | Exported Function
 `InitializeSuspendFolderPolicyAndUploadTaskConfig` | 3 | Exported Function
+`RefreshSuspendFolderPolicyAndUploadTaskConfig` | 4 | Exported Function
+`StartRoamingClassFactories` | 5 | Exported Function
+`StopRoamingClassFactories` | 6 | Exported Function
+`WaitForNetworkForRoamingProfile` | 7 | Exported Function
 
 
 ## Signature

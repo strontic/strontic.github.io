@@ -26,22 +26,22 @@ PE256 | `9A87F7794D05CFFA0BF7F68112E4F7F07AAC28AF5288ABCDBAAEF28455FDCC87`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ResetWriteWatch` | 11 | Exported Function
-`SetProcessWorkingSetSizeEx` | 12 | Exported Function
-`PrefetchVirtualMemory` | 9 | Exported Function
-`QueryMemoryResourceNotification` | 10 | Exported Function
-`VirtualLock` | 15 | Exported Function
-`VirtualUnlock` | 16 | Exported Function
-`SetSystemFileCacheSize` | 13 | Exported Function
-`UnmapViewOfFileEx` | 14 | Exported Function
-`CreateMemoryResourceNotification` | 3 | Exported Function
-`GetLargePageMinimum` | 4 | Exported Function
 `CreateFileMappingFromApp` | 1 | Exported Function
 `CreateFileMappingNumaW` | 2 | Exported Function
-`GetWriteWatch` | 7 | Exported Function
-`MapViewOfFileFromApp` | 8 | Exported Function
+`CreateMemoryResourceNotification` | 3 | Exported Function
+`GetLargePageMinimum` | 4 | Exported Function
 `GetProcessWorkingSetSizeEx` | 5 | Exported Function
 `GetSystemFileCacheSize` | 6 | Exported Function
+`GetWriteWatch` | 7 | Exported Function
+`MapViewOfFileFromApp` | 8 | Exported Function
+`PrefetchVirtualMemory` | 9 | Exported Function
+`QueryMemoryResourceNotification` | 10 | Exported Function
+`ResetWriteWatch` | 11 | Exported Function
+`SetProcessWorkingSetSizeEx` | 12 | Exported Function
+`SetSystemFileCacheSize` | 13 | Exported Function
+`UnmapViewOfFileEx` | 14 | Exported Function
+`VirtualLock` | 15 | Exported Function
+`VirtualUnlock` | 16 | Exported Function
 
 
 ## Signature

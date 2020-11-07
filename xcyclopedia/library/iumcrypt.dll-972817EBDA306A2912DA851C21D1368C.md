@@ -26,16 +26,16 @@ PE256 | `9571376C482F07CB214E0FE560D6D5CE6FEC30AF10EF86E02EDCEE9ED6A76395`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`iumCryptMsgGetParam` | 7 | Exported Function
-`iumCryptMsgDuplicate` | 6 | Exported Function
-`iumCryptMsgOpenToEncode` | 8 | Exported Function
-`iumCryptSignAndEncodeCertificate` | 10 | Exported Function
-`iumCryptMsgUpdate` | 9 | Exported Function
-`iumCryptEncodeObjectEx` | 2 | Exported Function
 `iumCryptEncodeObject` | 1 | Exported Function
+`iumCryptEncodeObjectEx` | 2 | Exported Function
 `iumCryptExportPublicKeyInfoFromBCryptKeyHandle` | 3 | Exported Function
-`iumCryptMsgClose` | 5 | Exported Function
 `iumCryptFindOIDInfo` | 4 | Exported Function
+`iumCryptMsgClose` | 5 | Exported Function
+`iumCryptMsgDuplicate` | 6 | Exported Function
+`iumCryptMsgGetParam` | 7 | Exported Function
+`iumCryptMsgOpenToEncode` | 8 | Exported Function
+`iumCryptMsgUpdate` | 9 | Exported Function
+`iumCryptSignAndEncodeCertificate` | 10 | Exported Function
 
 
 ## Signature

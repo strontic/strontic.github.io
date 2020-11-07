@@ -26,10 +26,10 @@ PE256 | `C63ACCC5B25E8F9BBD88BADFB29AD7F795C5205E1C9BC4117848ADF77A40B206`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`PdfCreateRenderer` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`PdfCreateRenderer` | 4 | Exported Function
 
 
 ## Signature

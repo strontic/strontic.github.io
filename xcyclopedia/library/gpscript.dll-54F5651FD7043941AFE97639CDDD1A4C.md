@@ -26,10 +26,10 @@ PE256 | `8049D5CAE7F4B219FEAE0CF9A71F2AAA0629E19C58D64F5A625A2770C4E6F096`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessScriptsGroupPolicyEx` | 3 | Exported Function
-`ScrRegGPOListToWbem` | 4 | Exported Function
 `GenerateScriptsGroupPolicy` | 1 | Exported Function
 `ProcessScriptsGroupPolicy` | 2 | Exported Function
+`ProcessScriptsGroupPolicyEx` | 3 | Exported Function
+`ScrRegGPOListToWbem` | 4 | Exported Function
 
 
 ## Signature

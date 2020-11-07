@@ -32,9 +32,12 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\sdiagnhost.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -71,8 +74,8 @@ C:\Windows\SysWOW64\sdiagnhost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/60
-* VirusTotal Link: https://www.virustotal.com/gui/file/3584436e99bd2d420e9066e3a237ed1be41e964e92fb5e1c88e052e6c834b1da/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/3584436e99bd2d420e9066e3a237ed1be41e964e92fb5e1c88e052e6c834b1da/detection
 
 ## File Similarity (ssdeep match)
 

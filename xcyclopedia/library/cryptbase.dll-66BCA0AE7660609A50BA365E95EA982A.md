@@ -26,17 +26,17 @@ PE256 | `8C6942B6FD678C5D6FA878D26368A41EDBF8DBA02B6FE1AB3E338368E4A7CD52`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SystemFunction034` | 8 | Exported Function
-`SystemFunction029` | 7 | Exported Function
-`SystemFunction036` | 9 | Exported Function
-`SystemFunction041` | 11 | Exported Function
-`SystemFunction040` | 10 | Exported Function
-`SystemFunction028` | 6 | Exported Function
-`SystemFunction002` | 2 | Exported Function
 `SystemFunction001` | 1 | Exported Function
+`SystemFunction002` | 2 | Exported Function
 `SystemFunction003` | 3 | Exported Function
-`SystemFunction005` | 5 | Exported Function
 `SystemFunction004` | 4 | Exported Function
+`SystemFunction005` | 5 | Exported Function
+`SystemFunction028` | 6 | Exported Function
+`SystemFunction029` | 7 | Exported Function
+`SystemFunction034` | 8 | Exported Function
+`SystemFunction036` | 9 | Exported Function
+`SystemFunction040` | 10 | Exported Function
+`SystemFunction041` | 11 | Exported Function
 
 
 ## Signature

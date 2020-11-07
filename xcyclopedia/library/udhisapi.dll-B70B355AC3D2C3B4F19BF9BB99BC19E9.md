@@ -26,9 +26,9 @@ PE256 | `E2CC8F526EA3C30198A99AA7E1D00C15F876DA28E9B38B63AE81B813518BD7A5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TerminateExtension` | 3 | Exported Function
-`HttpExtensionProc` | 2 | Exported Function
 `GetExtensionVersion` | 1 | Exported Function
+`HttpExtensionProc` | 2 | Exported Function
+`TerminateExtension` | 3 | Exported Function
 
 
 ## Signature

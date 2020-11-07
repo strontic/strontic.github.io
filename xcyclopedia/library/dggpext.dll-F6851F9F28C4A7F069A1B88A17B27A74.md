@@ -26,11 +26,11 @@ PE256 | `6AA67BFE062A8C409E7FA35F9AE8DEE89CF8E9AF94BDD09209E802F17D5CA9FE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessVirtualizationBasedSecurityGroupPolicy` | 2 | Exported Function
-`ProcessVirtualizationBasedSecurityMDMPolicy` | 3 | Exported Function
-`ProcessConfigCIPolicyGroupPolicy` | 1 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`ProcessConfigCIPolicyGroupPolicy` | 1 | Exported Function
+`ProcessVirtualizationBasedSecurityGroupPolicy` | 2 | Exported Function
+`ProcessVirtualizationBasedSecurityMDMPolicy` | 3 | Exported Function
 
 
 ## Signature

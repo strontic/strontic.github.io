@@ -28,8 +28,10 @@ PE256 | `E218C0CFD9F3EB52F3095E45F3C4C4F797199A693D6AD04CA3C17DCD4D02DFB3`
 
 Path |
 -- |
+C:\Windows\system32\Cabinet.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -38,6 +40,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINSPOOL.DRV |
 C:\Windows\system32\wpnpinst.exe |
 
 
@@ -62,8 +65,8 @@ C:\Windows\system32\wpnpinst.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/bdbda99cc9903dc782ce7ec2afcb7ea9851dc63333449841c2c3f917b4d8d3b8/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/bdbda99cc9903dc782ce7ec2afcb7ea9851dc63333449841c2c3f917b4d8d3b8/detection
 
 
 

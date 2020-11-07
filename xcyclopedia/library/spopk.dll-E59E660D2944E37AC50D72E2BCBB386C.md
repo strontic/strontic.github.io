@@ -26,11 +26,11 @@ PE256 | `8B886F71D190267AF771F4B40D3E189706C303323FEC6A97E26D2FCC4439FC82`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Offline_Specialize_Opk` | 4 | Exported Function
-`Sysprep_Online_Specialize_Opk` | 5 | Exported Function
-`Sysprep_Generalize_Opk` | 3 | Exported Function
 `Sysprep_Clean_Opk` | 1 | Exported Function
 `Sysprep_Clean_Validate_Opk` | 2 | Exported Function
+`Sysprep_Generalize_Opk` | 3 | Exported Function
+`Sysprep_Offline_Specialize_Opk` | 4 | Exported Function
+`Sysprep_Online_Specialize_Opk` | 5 | Exported Function
 
 
 ## Signature

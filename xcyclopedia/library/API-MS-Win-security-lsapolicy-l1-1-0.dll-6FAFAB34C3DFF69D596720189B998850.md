@@ -26,28 +26,28 @@ PE256 | `5E8CFA977A11DB3377678DBB59445A7E7A20A114B2104CC36F2033A9AA84789C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LsaOpenSecret` | 15 | Exported Function
-`LsaQueryInformationPolicy` | 16 | Exported Function
-`LsaOpenPolicy` | 14 | Exported Function
-`LsaLookupSids` | 13 | Exported Function
-`LsaLookupSids2` | 12 | Exported Function
+`LsaAddAccountRights` | 1 | Exported Function
+`LsaSetInformationPolicy` | 20 | Exported Function
+`LsaRetrievePrivateData` | 19 | Exported Function
+`LsaRemoveAccountRights` | 18 | Exported Function
 `LsaQuerySecret` | 17 | Exported Function
+`LsaQueryInformationPolicy` | 16 | Exported Function
+`LsaOpenSecret` | 15 | Exported Function
+`LsaOpenPolicy` | 14 | Exported Function
+`LsaLookupSids2` | 12 | Exported Function
+`LsaLookupSids` | 13 | Exported Function
+`LsaLookupNames2` | 11 | Exported Function
+`LsaICLookupSidsWithCreds` | 10 | Exported Function
+`LsaICLookupSids` | 9 | Exported Function
+`LsaICLookupNamesWithCreds` | 8 | Exported Function
+`LsaICLookupNames` | 7 | Exported Function
+`LsaFreeMemory` | 6 | Exported Function
+`LsaEnumerateAccountsWithUserRight` | 5 | Exported Function
+`LsaEnumerateAccountRights` | 4 | Exported Function
+`LsaCreateSecret` | 3 | Exported Function
+`LsaClose` | 2 | Exported Function
 `LsaSetSecret` | 21 | Exported Function
 `LsaStorePrivateData` | 22 | Exported Function
-`LsaSetInformationPolicy` | 20 | Exported Function
-`LsaRemoveAccountRights` | 18 | Exported Function
-`LsaRetrievePrivateData` | 19 | Exported Function
-`LsaEnumerateAccountRights` | 4 | Exported Function
-`LsaEnumerateAccountsWithUserRight` | 5 | Exported Function
-`LsaCreateSecret` | 3 | Exported Function
-`LsaAddAccountRights` | 1 | Exported Function
-`LsaClose` | 2 | Exported Function
-`LsaFreeMemory` | 6 | Exported Function
-`LsaICLookupSidsWithCreds` | 10 | Exported Function
-`LsaLookupNames2` | 11 | Exported Function
-`LsaICLookupSids` | 9 | Exported Function
-`LsaICLookupNames` | 7 | Exported Function
-`LsaICLookupNamesWithCreds` | 8 | Exported Function
 
 
 ## Signature

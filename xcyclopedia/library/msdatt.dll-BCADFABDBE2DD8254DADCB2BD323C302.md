@@ -26,9 +26,9 @@ PE256 | `1F07270B775A51A793F99FA9C42F68F67377FD302422BB32E500C09B618A492B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 14 | Exported Function
-`DllRegisterServer` | 13 | Exported Function
 `DllMain` | 12 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
+`DllUnregisterServer` | 14 | Exported Function
 
 
 ## Signature

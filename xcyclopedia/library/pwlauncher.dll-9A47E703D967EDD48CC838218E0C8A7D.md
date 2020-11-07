@@ -26,14 +26,14 @@ PE256 | `BBCFFBB34C391827EA1D582D51E4A4EF1349FB657CB6C5A4DE6302718A3031FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessHibernateGroupPolicy` | 3 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
-`ShowPortableWorkspaceLauncherConfigurationUX` | 1 | Exported Function
-`ProcessLauncherGroupPolicy` | 2 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 `DllInstall` | 6 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`ProcessHibernateGroupPolicy` | 3 | Exported Function
+`ProcessLauncherGroupPolicy` | 2 | Exported Function
+`ShowPortableWorkspaceLauncherConfigurationUX` | 1 | Exported Function
 
 
 ## Signature

@@ -26,27 +26,27 @@ PE256 | `64791E705E9309BAD35A1E4A718B8AB734053812F2FAF2D9AD5DD075FBC0B559`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MFCreateASFStreamConfig` | 15 | Exported Function
-`MFCreateASFStreamingMediaSink` | 18 | Exported Function
-`MFCreateASFSplitter` | 14 | Exported Function
-`MFCreateASFProfile` | 12 | Exported Function
-`MFCreateASFProfileFromPresentationDescriptor` | 13 | Exported Function
-`MFCreateASFStreamSelector` | 17 | Exported Function
-`MFCreatePresentationDescriptorFromASFProfile` | 21 | Exported Function
-`MFCreateASFStreamPrioritization` | 16 | Exported Function
-`MFCreateASFStreamingMediaSinkActivate` | 19 | Exported Function
-`MFCreateASFStreamingMediaSinkActivateNoInit` | 20 | Exported Function
-`MFCreateASFMutex` | 11 | Exported Function
-`MFCreateASFIndexer` | 4 | Exported Function
-`MFCreateASFIndexerByteStream` | 5 | Exported Function
-`MFCreateASFContentInfo` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
+`MFCreateASFStreamPrioritization` | 16 | Exported Function
+`MFCreateASFStreamingMediaSinkActivateNoInit` | 20 | Exported Function
+`MFCreateASFStreamingMediaSinkActivate` | 19 | Exported Function
+`MFCreateASFStreamingMediaSink` | 18 | Exported Function
+`MFCreateASFStreamConfig` | 15 | Exported Function
+`MFCreateASFSplitter` | 14 | Exported Function
+`MFCreateASFProfileFromPresentationDescriptor` | 13 | Exported Function
+`MFCreateASFProfile` | 12 | Exported Function
+`MFCreateASFStreamSelector` | 17 | Exported Function
+`MFCreateASFMutex` | 11 | Exported Function
 `MFCreateASFMediaSinkActivateNoInit` | 9 | Exported Function
-`MFCreateASFMultiplexer` | 10 | Exported Function
 `MFCreateASFMediaSinkActivateFromByteStream` | 8 | Exported Function
-`MFCreateASFMediaSink` | 6 | Exported Function
 `MFCreateASFMediaSinkActivate` | 7 | Exported Function
+`MFCreateASFMediaSink` | 6 | Exported Function
+`MFCreateASFIndexerByteStream` | 5 | Exported Function
+`MFCreateASFIndexer` | 4 | Exported Function
+`MFCreateASFContentInfo` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`MFCreateASFMultiplexer` | 10 | Exported Function
+`MFCreatePresentationDescriptorFromASFProfile` | 21 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `D5FADCF8B116E4288F2F701A452647706EDD250CABD8EDA2A2CE89AD649601E1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProvPackageSysprepSpecializeOffline` | 3 | Exported Function
-`ProvPackageSysprepSpecialize` | 2 | Exported Function
 `ProvPackageSysprepGeneralize` | 1 | Exported Function
+`ProvPackageSysprepSpecialize` | 2 | Exported Function
+`ProvPackageSysprepSpecializeOffline` | 3 | Exported Function
 
 
 ## Signature

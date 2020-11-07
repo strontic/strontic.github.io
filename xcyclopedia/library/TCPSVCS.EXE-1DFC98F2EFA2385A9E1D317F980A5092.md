@@ -55,8 +55,8 @@ C:\Windows\system32\TCPSVCS.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/fc2bc4b2b115bde5341c2d40e371a4f50feee14d19aad12eaf5fd0a052bea403/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/fc2bc4b2b115bde5341c2d40e371a4f50feee14d19aad12eaf5fd0a052bea403/detection
 
 
 ## Possible Misuse

@@ -26,27 +26,27 @@ PE256 | `8C868B8ADC5BD51B5B5B5A43665B8E9D20AF8FD870B61575CB6B46ED2705895C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SxsOleAut32RedirectTypeLibrary` | 18 | Exported Function
-`SxspGenerateManifestPathOnAssemblyIdentity` | 6 | Exported Function
-`SxsOleAut32MapReferenceClsidToConfiguredClsid` | 17 | Exported Function
-`SxsOleAut32MapIIDToProxyStubCLSID` | 15 | Exported Function
-`SxsOleAut32MapIIDToTLBPath` | 16 | Exported Function
-`SxsRunDllInstallAssemblyW` | 5 | Exported Function
-`SxsUninstallW` | 21 | Exported Function
-`SxsRunDllInstallAssembly` | 4 | Exported Function
-`SxsProbeAssemblyInstallation` | 19 | Exported Function
-`SxsQueryManifestInformation` | 20 | Exported Function
-`SxsOleAut32MapIIDOrCLSIDToTypeLibrary` | 14 | Exported Function
-`SxsEndAssemblyInstall` | 10 | Exported Function
-`SxsFindClrClassInformation` | 1 | Exported Function
-`SxsBeginAssemblyInstall` | 9 | Exported Function
 `CreateAssemblyCache` | 7 | Exported Function
-`CreateAssemblyNameObject` | 8 | Exported Function
+`SxsRunDllInstallAssembly` | 4 | Exported Function
+`SxsQueryManifestInformation` | 20 | Exported Function
+`SxsProbeAssemblyInstallation` | 19 | Exported Function
+`SxspGenerateManifestPathOnAssemblyIdentity` | 6 | Exported Function
+`SxsOleAut32RedirectTypeLibrary` | 18 | Exported Function
+`SxsOleAut32MapReferenceClsidToConfiguredClsid` | 17 | Exported Function
+`SxsOleAut32MapIIDToTLBPath` | 16 | Exported Function
+`SxsOleAut32MapIIDToProxyStubCLSID` | 15 | Exported Function
+`SxsRunDllInstallAssemblyW` | 5 | Exported Function
+`SxsOleAut32MapIIDOrCLSIDToTypeLibrary` | 14 | Exported Function
 `SxsLookupClrGuid` | 3 | Exported Function
-`SxsOleAut32MapConfiguredClsidToReferenceClsid` | 13 | Exported Function
 `SxsInstallW` | 12 | Exported Function
-`SxsFindClrSurrogateInformation` | 2 | Exported Function
 `SxsGenerateActivationContext` | 11 | Exported Function
+`SxsFindClrSurrogateInformation` | 2 | Exported Function
+`SxsFindClrClassInformation` | 1 | Exported Function
+`SxsEndAssemblyInstall` | 10 | Exported Function
+`SxsBeginAssemblyInstall` | 9 | Exported Function
+`CreateAssemblyNameObject` | 8 | Exported Function
+`SxsOleAut32MapConfiguredClsidToReferenceClsid` | 13 | Exported Function
+`SxsUninstallW` | 21 | Exported Function
 
 
 ## Signature

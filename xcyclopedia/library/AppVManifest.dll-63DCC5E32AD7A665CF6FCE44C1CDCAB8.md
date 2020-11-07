@@ -26,10 +26,10 @@ PE256 | `7CAC3A0EAF755AA24FA8C8884C4F3722B75B6901C70E57DA433A7A25DE470905`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateManifestDocumentFromXML` | 4 | Exported Function
-`GetManifestSelectionNamespaces` | 1 | Exported Function
 `CreateManifestDocumentFromDocument` | 2 | Exported Function
 `CreateManifestDocumentFromFile` | 3 | Exported Function
+`CreateManifestDocumentFromXML` | 4 | Exported Function
+`GetManifestSelectionNamespaces` | 1 | Exported Function
 
 
 ## Signature
@@ -77,6 +77,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 35
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 33
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 38
+[C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 33
 
 
 

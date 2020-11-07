@@ -29,15 +29,30 @@ PE256 | `DCC717B088AF7212C212D32C46A93F199F934C38F51B19B6D1BD15790648D0AE`
 Path |
 -- |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
+C:\Windows\system32\DMCmnUtils.dll |
 C:\Windows\system32\DmNotificationBroker.exe |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\Windows.UI.Immersive.dll |
 
 
 ## Signature
@@ -61,8 +76,8 @@ C:\Windows\System32\USER32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/9e5f3d2a0d483d36cc69b958c6bac7db679f9b9083d9443e0920634493dc15cf/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/9e5f3d2a0d483d36cc69b958c6bac7db679f9b9083d9443e0920634493dc15cf/detection
 
 
 

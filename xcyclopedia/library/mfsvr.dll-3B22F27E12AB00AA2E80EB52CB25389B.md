@@ -26,12 +26,12 @@ PE256 | `4D47BF1606B67E34B9118E15C9B483678EBD29BF8ECCE226F9D1A84C0E5193C0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MFCreateMediaEngineVideoOTA` | 4 | Exported Function
-`MFCreateOPMHelper` | 5 | Exported Function
-`MFCreateTimedTextRenderer` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `MFCreateHDCPStatus` | 3 | Exported Function
+`MFCreateMediaEngineVideoOTA` | 4 | Exported Function
+`MFCreateOPMHelper` | 5 | Exported Function
+`MFCreateTimedTextRenderer` | 6 | Exported Function
 
 
 ## Signature

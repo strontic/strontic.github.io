@@ -26,34 +26,34 @@ PE256 | `BD1582BC938FD6CF813036B200A9DE64438E8E0BB66D982D64CD2D5F662A53AC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DafSelectCeremony` | 19 | Exported Function
-`DafStartAepExport` | 20 | Exported Function
-`DafStartAepImport` | 21 | Exported Function
-`DafRegisterForInboundAssociationsAppActivation` | 18 | Exported Function
-`DafCreateInboundContext` | 15 | Exported Function
-`DafGetInboundAssociationResultForAppActivation` | 16 | Exported Function
-`DafMemFree` | 17 | Exported Function
+`DafAepExport` | 1 | Exported Function
 `DafStartReadCeremonyData` | 26 | Exported Function
+`DafStartListenForInboundAssociations` | 25 | Exported Function
+`DafStartFinalize` | 24 | Exported Function
+`DafStartEnumCeremonies` | 23 | Exported Function
+`DafStartDeviceStatusNotification` | 22 | Exported Function
+`DafStartAepImport` | 21 | Exported Function
+`DafStartAepExport` | 20 | Exported Function
+`DafSelectCeremony` | 19 | Exported Function
+`DafRegisterForInboundAssociationsAppActivation` | 18 | Exported Function
+`DafMemFree` | 17 | Exported Function
+`DafGetInboundAssociationResultForAppActivation` | 16 | Exported Function
+`DafCreateInboundContext` | 15 | Exported Function
+`DafCreateImportExportContext` | 14 | Exported Function
+`DafCreateDeviceInterfaceChallengeContext` | 13 | Exported Function
+`DafCreateDeviceChallengeContext` | 12 | Exported Function
+`DafCreateChallengeContext` | 11 | Exported Function
+`DafCreateAssociationContextFromOobBlob` | 10 | Exported Function
+`DafCreateAssociationContextForApp` | 9 | Exported Function
+`DafCreateAssociationContext` | 8 | Exported Function
+`DafCloseInboundContext` | 7 | Exported Function
+`DafCloseImportExportContext` | 6 | Exported Function
+`DafCloseChallengeContext` | 5 | Exported Function
+`DafCloseAssociationContext` | 4 | Exported Function
+`DafChallengeDevicePresence` | 3 | Exported Function
+`DafAepImport` | 2 | Exported Function
 `DafStartRemoveAssociation` | 27 | Exported Function
 `DafStartWriteCeremonyData` | 28 | Exported Function
-`DafStartListenForInboundAssociations` | 25 | Exported Function
-`DafStartDeviceStatusNotification` | 22 | Exported Function
-`DafStartEnumCeremonies` | 23 | Exported Function
-`DafStartFinalize` | 24 | Exported Function
-`DafCloseChallengeContext` | 5 | Exported Function
-`DafCloseImportExportContext` | 6 | Exported Function
-`DafCloseInboundContext` | 7 | Exported Function
-`DafCloseAssociationContext` | 4 | Exported Function
-`DafAepExport` | 1 | Exported Function
-`DafAepImport` | 2 | Exported Function
-`DafChallengeDevicePresence` | 3 | Exported Function
-`DafCreateDeviceChallengeContext` | 12 | Exported Function
-`DafCreateDeviceInterfaceChallengeContext` | 13 | Exported Function
-`DafCreateImportExportContext` | 14 | Exported Function
-`DafCreateChallengeContext` | 11 | Exported Function
-`DafCreateAssociationContext` | 8 | Exported Function
-`DafCreateAssociationContextForApp` | 9 | Exported Function
-`DafCreateAssociationContextFromOobBlob` | 10 | Exported Function
 
 
 ## Signature

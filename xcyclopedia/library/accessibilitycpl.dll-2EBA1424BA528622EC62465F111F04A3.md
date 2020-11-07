@@ -26,12 +26,12 @@ PE256 | `95E783C42661E846897E793720AE4386F7C93183ED49FEAD1AFF0832C92E6ABD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllInstall` | 3 | Exported Function
+`DllMain` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
 
 
 ## Signature

@@ -26,30 +26,30 @@ PE256 | `7BE98005E982A9A76847416EE50CDB4856BEE17C1355C425253683E1298ECAD2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SRPropertySetToDictionary` | 16 | Exported Function
-`SRRemovePackageStatus` | 17 | Exported Function
-`SRRemovePackageStatusForUserFromToken` | 18 | Exported Function
-`SRGetPackageStatusForUserFromToken` | 13 | Exported Function
-`SRGetPackageStatusForUserSid` | 14 | Exported Function
-`SRGetStagedPackageOrigin` | 15 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 `SRUpdatePackageStatusForUserFromToken` | 22 | Exported Function
+`SRUpdatePackageStatus` | 21 | Exported Function
+`SRRepair` | 20 | Exported Function
+`SRRemovePackageStatusForUserSid` | 19 | Exported Function
+`SRRemovePackageStatusForUserFromToken` | 18 | Exported Function
+`SRRemovePackageStatus` | 17 | Exported Function
+`SRPropertySetToDictionary` | 16 | Exported Function
+`SRGetStagedPackageOrigin` | 15 | Exported Function
+`SRGetPackageStatusForUserSid` | 14 | Exported Function
+`SRGetPackageStatusForUserFromToken` | 13 | Exported Function
+`SRGetPackageStatus` | 12 | Exported Function
+`SRGetPackageOriginForUser` | 11 | Exported Function
+`SRGetIsEffectiveSupportedUsersMultiple` | 10 | Exported Function
+`SRGetExternalLocation` | 1 | Exported Function
+`SRGetEffectivePackageStatusForUserSid` | 9 | Exported Function
+`SRGetEffectivePackageStatusForUserFromToken` | 8 | Exported Function
+`SRDictionaryToPropertySet` | 7 | Exported Function
+`SRDictionaryFree` | 6 | Exported Function
+`SRCheckIntegrity` | 5 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 `SRUpdatePackageStatusForUserSid` | 23 | Exported Function
 `StateRepositoryDoMaintenanceTasks` | 24 | Exported Function
-`SRRemovePackageStatusForUserSid` | 19 | Exported Function
-`SRRepair` | 20 | Exported Function
-`SRUpdatePackageStatus` | 21 | Exported Function
-`SRCheckIntegrity` | 5 | Exported Function
-`SRDictionaryFree` | 6 | Exported Function
-`SRDictionaryToPropertySet` | 7 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`SRGetIsEffectiveSupportedUsersMultiple` | 10 | Exported Function
-`SRGetPackageOriginForUser` | 11 | Exported Function
-`SRGetPackageStatus` | 12 | Exported Function
-`SRGetEffectivePackageStatusForUserFromToken` | 8 | Exported Function
-`SRGetEffectivePackageStatusForUserSid` | 9 | Exported Function
-`SRGetExternalLocation` | 1 | Exported Function
 
 
 ## Signature

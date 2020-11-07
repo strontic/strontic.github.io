@@ -78,6 +78,7 @@ File | Score
 [C:\Windows\system32\DefaultDeviceManager.dll](DefaultDeviceManager.dll-0D5D0A941AE473B7703A06B0FEEB6D8C.md) | 33
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 33
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 30
+[C:\Windows\system32\dllhost.exe](dllhost.exe-08EB78E5BE019DF044C26B14703BD1FA.md) | 44
 [C:\Windows\system32\dllhst3g.exe](dllhst3g.exe-E4208ACA399EC8C0AD48B05960F7FA9D.md) | 41
 [C:\Windows\system32\downlevel\api-ms-win-base-util-l1-1-0.dll](api-ms-win-base-util-l1-1-0.dll-FBBFDBA614AFC9B3B8A9561C0CC7FAB0.md) | 38
 [C:\Windows\system32\downlevel\api-ms-win-core-com-l1-1-0.dll](api-ms-win-core-com-l1-1-0.dll-52E6A06268DF219F4E519477FDBE58CD.md) | 55

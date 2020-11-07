@@ -56,13 +56,14 @@ C:\Windows\SysWOW64\dllhst3g.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/9d71a9edd75017c6effd7bc8fcaff5022d615c83b3dda2b3073415b697efe645/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9d71a9edd75017c6effd7bc8fcaff5022d615c83b3dda2b3073415b697efe645/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-6F3C9485F8F97AC04C8E43EF4463A68C.md) | 58
 [C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-BE467A8F33CDEB0538E98CF10101E9E0.md) | 65
 
 

@@ -21,22 +21,6 @@ IMP | `1AFA0949661B16256427E705407DF538`
 PESHA1 | `D3CFA759525FC7773CAEBC21BCD6F2A5F1A35260`
 PE256 | `73CC001BD33D51D44C2B163C0A1F35E6D733B7ED83482BFF3086EDC1B4A1E5F8`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -58,8 +42,8 @@ C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevK
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/842afa3909b01ad4a475dadd08feb850b6a33df9dd62f42edc8272902afcf865/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/842afa3909b01ad4a475dadd08feb850b6a33df9dd62f42edc8272902afcf865/detection
 
 ## File Similarity (ssdeep match)
 
@@ -74,6 +58,8 @@ File | Score
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 36
 [C:\Windows\system32\uxlibres.dll](uxlibres.dll-F8A9A89E042D141AD521A9CA4B072824.md) | 41
 [C:\Windows\system32\WerEnc.dll](WerEnc.dll-57896D83DAD20250B3878747AB6115F6.md) | 33
+[C:\Windows\SysWOW64\backgroundTaskHost.exe](backgroundTaskHost.exe-F290D12F0351B56708B3DF1EC26CB45B.md) | 43
+[C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-6F3C9485F8F97AC04C8E43EF4463A68C.md) | 33
 [C:\Windows\SysWOW64\WerEnc.dll](WerEnc.dll-F4C2183256B20B62EBD7C9397F0C5D85.md) | 30
 
 

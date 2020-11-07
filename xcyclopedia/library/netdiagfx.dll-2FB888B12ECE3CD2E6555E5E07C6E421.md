@@ -26,12 +26,12 @@ PE256 | `B438568948F8DC38621E73AD188B6F12302BCE1E4ACC8FD71ADB31E288C539BB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WdiDiagnosticModuleMain` | 1 | Exported Function
-`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
-`WdiHandleInstance` | 3 | Exported Function
 `HelperTraceEvent` | 4 | Exported Function
 `HelperTraceInitialize` | 5 | Exported Function
 `HelperTraceUninitialize` | 6 | Exported Function
+`WdiDiagnosticModuleMain` | 1 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
+`WdiHandleInstance` | 3 | Exported Function
 
 
 ## Signature

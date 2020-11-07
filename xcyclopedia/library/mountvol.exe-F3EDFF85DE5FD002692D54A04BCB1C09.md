@@ -55,7 +55,7 @@ MOUNTVOL drive: /S
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{ef3f46bb-a26f-43f2-98f7-b1933a975c79}\
+    \\?\Volume{0a169cf3-a914-4005-82f0-ab095bccc8d8}\
         C:\
 
 
@@ -92,8 +92,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/caf29650446db3842e1c1e8e5e1bafadaf90fc82c5c37b9e2c75a089b7476131/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/caf29650446db3842e1c1e8e5e1bafadaf90fc82c5c37b9e2c75a089b7476131/detection
 
 
 

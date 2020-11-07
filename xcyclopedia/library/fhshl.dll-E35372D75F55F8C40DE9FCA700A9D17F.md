@@ -26,16 +26,16 @@ PE256 | `ECB8F487FE815F87CECA5B4F0108391F0C639197F1845359F89D27E1DE2619B5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 10 | Exported Function
-`DllRegisterServer` | 9 | Exported Function
-`FreeCatalog` | 4 | Exported Function
-`ParsePIDL` | 6 | Exported Function
-`GetBackupPathFromPidl` | 5 | Exported Function
-`CreateSearchBindCtx` | 2 | Exported Function
 `CreateCatalog` | 1 | Exported Function
+`CreateSearchBindCtx` | 2 | Exported Function
 `CreateVirtualItem` | 3 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
 `DllCanUnloadNow` | 7 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`FreeCatalog` | 4 | Exported Function
+`GetBackupPathFromPidl` | 5 | Exported Function
+`ParsePIDL` | 6 | Exported Function
 
 
 ## Signature

@@ -22,26 +22,11 @@ IMP | `CF79FCE90FCED31836373F3E48251A5D`
 PESHA1 | `7E2DA07D0CDB540428FDEC0A26080B108A4820DF`
 PE256 | `08EC9AF7DF4FEF3477FDAF42B7DBB1072849938D7404BA4B9BC9F85A090CED82`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\dllhst3g.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -58,13 +43,14 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/360e11757029f102bf9defaf60b24f96a8c4b6726c0b9ec9ece4bbae89f3af7b/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/360e11757029f102bf9defaf60b24f96a8c4b6726c0b9ec9ece4bbae89f3af7b/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\system32\dllhost.exe](dllhost.exe-08EB78E5BE019DF044C26B14703BD1FA.md) | 41
 [C:\Windows\system32\dllhost.exe](dllhost.exe-C6723950D1A8CD49D93C8D082B175D41.md) | 41
 
 

@@ -26,9 +26,9 @@ PE256 | `808E3974349A1681EF0969A4ED781F96357F702490EF1A2742FD177702D22CB1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PopulateFuncTable` | 1 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`PopulateFuncTable` | 1 | Exported Function
 
 
 ## Signature

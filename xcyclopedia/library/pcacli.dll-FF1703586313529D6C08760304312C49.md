@@ -26,14 +26,14 @@ PE256 | `EA3F08368153829096D86D423B1BD2C5D1764BE76B31B2B4163EB49D52AB2505`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PcaNotifyMsiInstall` | 5 | Exported Function
-`PcaMonitorProcess2` | 8 | Exported Function
-`PcaSendToService` | 7 | Exported Function
-`PcaNotifyStatusIcon` | 6 | Exported Function
-`PcaIsPcaDisabled` | 2 | Exported Function
 `PcaGetFileInfoFromPath` | 1 | Exported Function
-`PcaMonitorProcess` | 4 | Exported Function
+`PcaIsPcaDisabled` | 2 | Exported Function
 `PcaLinkChildProcessToParent` | 3 | Exported Function
+`PcaMonitorProcess` | 4 | Exported Function
+`PcaMonitorProcess2` | 8 | Exported Function
+`PcaNotifyMsiInstall` | 5 | Exported Function
+`PcaNotifyStatusIcon` | 6 | Exported Function
+`PcaSendToService` | 7 | Exported Function
 
 
 ## Signature

@@ -28,8 +28,8 @@ PE256 | `CF988A561B123883F757EED140BEBE7D0F9208773A1E3018A6808B56629D0459`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`long __stdcall NativeRpcActivateWebService(unsigned short *,unsigned short *,struct tagSAFEARRAY * *)` | 1 | Exported Function
 `_NativeRemoteLogon@44` | 2 | Exported Function
+`long __stdcall NativeRpcActivateWebService(unsigned short *,unsigned short *,struct tagSAFEARRAY * *)` | 1 | Exported Function
 
 
 ## Signature

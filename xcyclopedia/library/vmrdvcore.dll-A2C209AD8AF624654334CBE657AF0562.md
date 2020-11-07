@@ -26,9 +26,9 @@ PE256 | `D3FA608F6D2317EA43D5CAEDA2B1BA47A20B6B217F5F0B9F2E08A58B974D0DB1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VmRdvCore_TerminateInstance` | 3 | Exported Function
-`VmRdvCore_GetInstance` | 2 | Exported Function
 `VmRdvCore_CreateInstance` | 1 | Exported Function
+`VmRdvCore_GetInstance` | 2 | Exported Function
+`VmRdvCore_TerminateInstance` | 3 | Exported Function
 
 
 ## Signature

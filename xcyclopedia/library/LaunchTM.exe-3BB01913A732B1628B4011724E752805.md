@@ -72,6 +72,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/0dee6b54087ea0982a3cd515e64c66b7670bf86dca0a0df742b8c00f17bf54e0/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-1F20DC3E0AA92B3E4A449F65FFAD1A54.md) | 80
 
 
 

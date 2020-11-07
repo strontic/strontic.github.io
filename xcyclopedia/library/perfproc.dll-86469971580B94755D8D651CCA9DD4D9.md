@@ -26,9 +26,9 @@ PE256 | `1A631F5C4739C032599D9B281E67C66255CC1AB1742AA1EB1F7A90F1B3E7B3D7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenSysProcessObject` | 3 | Exported Function
-`CollectSysProcessObjectData` | 2 | Exported Function
 `CloseSysProcessObject` | 1 | Exported Function
+`CollectSysProcessObjectData` | 2 | Exported Function
+`OpenSysProcessObject` | 3 | Exported Function
 
 
 ## Signature

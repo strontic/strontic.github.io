@@ -26,13 +26,13 @@ PE256 | `295E0356DBC65BA8EC5435B9D6BF9D59E1B5B66B27580B42886AA55591B42903`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LidSentenceBreak` | 7 | Exported Function
-`LidTerminate` | 3 | Exported Function
-`LidVersion` | 1 | Exported Function
-`LidLanguages` | 6 | Exported Function
 `LidCheck` | 4 | Exported Function
 `LidCheckSz` | 5 | Exported Function
 `LidInit` | 2 | Exported Function
+`LidLanguages` | 6 | Exported Function
+`LidSentenceBreak` | 7 | Exported Function
+`LidTerminate` | 3 | Exported Function
+`LidVersion` | 1 | Exported Function
 
 
 ## Signature

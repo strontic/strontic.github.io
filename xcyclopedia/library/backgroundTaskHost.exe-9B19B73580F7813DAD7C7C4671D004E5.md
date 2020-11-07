@@ -72,6 +72,7 @@ File | Score
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 35
 [C:\Windows\system32\AppVTerminator.dll](AppVTerminator.dll-4370652B4BE999AB539C9D41FA94DDF4.md) | 36
 [C:\Windows\system32\avrt.dll](avrt.dll-30522FCA83622B060A391FE818BAD767.md) | 36
+[C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-DA7063B17DBB8BBB3015351016868006.md) | 49
 [C:\Windows\system32\bootstr.dll](bootstr.dll-A4CD27EBA0140ED79FF54814A87AD7AC.md) | 33
 [C:\Windows\system32\BOOTVID.DLL](BOOTVID.DLL-3C595A15F4D7679D6C4B5FB0C4CE5885.md) | 33
 [C:\Windows\system32\computelibeventlog.dll](computelibeventlog.dll-90C4785E1F404B970896BD16A0CE8CBB.md) | 33

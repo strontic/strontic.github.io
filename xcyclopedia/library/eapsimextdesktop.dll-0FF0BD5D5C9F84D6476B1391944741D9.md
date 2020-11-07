@@ -26,11 +26,11 @@ PE256 | `B9569F5F087AB9845419A3BE9E0FBC796B9FD7D38F473EC32ACF93D38AC10AFC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapSimExtGetIdentityPageGuid` | 5 | Exported Function
-`EapSimExtInvokeUIAndGetConfig` | 1 | Exported Function
-`EapSimExtCallRunWizard` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`EapSimExtCallRunWizard` | 4 | Exported Function
+`EapSimExtGetIdentityPageGuid` | 5 | Exported Function
+`EapSimExtInvokeUIAndGetConfig` | 1 | Exported Function
 
 
 ## Signature

@@ -26,15 +26,15 @@ PE256 | `00E2EA44A1969D9AB244C75F305FAAD6C08F141CC182E272FEF812BD5270715D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WcInitializeSandbox` | 7 | Exported Function
-`WcImportLayerEx` | 6 | Exported Function
-`WcPopulateNewLayer` | 9 | Exported Function
-`WcInitializeSandboxEx` | 8 | Exported Function
-`WcExportLayerEx` | 5 | Exported Function
-`WcCreateSandboxStubFiles` | 2 | Exported Function
 `WcAttachFilterEx` | 1 | Exported Function
-`WcDetachFilterEx` | 4 | Exported Function
+`WcCreateSandboxStubFiles` | 2 | Exported Function
 `WcDestroyLayer` | 3 | Exported Function
+`WcDetachFilterEx` | 4 | Exported Function
+`WcExportLayerEx` | 5 | Exported Function
+`WcImportLayerEx` | 6 | Exported Function
+`WcInitializeSandbox` | 7 | Exported Function
+`WcInitializeSandboxEx` | 8 | Exported Function
+`WcPopulateNewLayer` | 9 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `1B78C13C76CFAD0427450A8B730FEDFF59A9D16DC01A01E92255EDEDAF19D6AB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TokenizerTokenize` | 20 | Exported Function
-`TokenizerTerminate` | 22 | Exported Function
 `TokenizerInit` | 21 | Exported Function
+`TokenizerTerminate` | 22 | Exported Function
+`TokenizerTokenize` | 20 | Exported Function
 
 
 ## Signature

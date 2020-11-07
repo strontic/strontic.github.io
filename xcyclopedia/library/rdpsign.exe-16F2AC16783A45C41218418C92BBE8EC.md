@@ -51,9 +51,6 @@ OPTIONS
 
 ```
 
-### Child Processes:
-RdpSa.exe
-
 ### Loaded Modules:
 
 Path |
@@ -85,8 +82,8 @@ C:\Windows\system32\rdpsign.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/2da5d38a23c4fca4c44957f392256e3a761f90c1c4f5789513a265023b837117/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/2da5d38a23c4fca4c44957f392256e3a761f90c1c4f5789513a265023b837117/detection
 
 
 

@@ -26,11 +26,11 @@ PE256 | `B001484747B835F5B1A43F497A941D7FD400D456573BA0878D9DFBE39ADB392B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FreeIdentityProviderCookies` | 4 | Exported Function
-`GetIdentityProviderCookies` | 5 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`FreeIdentityProviderCookies` | 4 | Exported Function
+`GetIdentityProviderCookies` | 5 | Exported Function
 
 
 ## Signature

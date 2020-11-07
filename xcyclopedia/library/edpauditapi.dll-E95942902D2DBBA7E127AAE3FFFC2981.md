@@ -26,19 +26,19 @@ PE256 | `1A6EF27E9AAE0D74D4E67D38E6D06A7633A5216D81EB9142F6965655AB312AB4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EdpFlushTraces` | 1 | Exported Function
-`EdpAuditRead` | 10 | Exported Function
-`EdpAuditLogSiteLearning` | 7 | Exported Function
-`ReadAuditLogByTimeRange` | 13 | Exported Function
-`ReadAuditLogByCount` | 12 | Exported Function
-`EdpGetLogFullPathFromRelativePath` | 11 | Exported Function
-`EdpAuditLogProtectionRemoved` | 6 | Exported Function
-`EdpAuditLogApplicationLearning` | 4 | Exported Function
-`EdpAuditLogApplicationGenerated` | 3 | Exported Function
 `EdpAuditHarden` | 2 | Exported Function
-`EdpAuditLoggerUnregister` | 9 | Exported Function
-`EdpAuditLoggerRegister` | 8 | Exported Function
+`EdpAuditLogApplicationGenerated` | 3 | Exported Function
+`EdpAuditLogApplicationLearning` | 4 | Exported Function
 `EdpAuditLogDataCopied` | 5 | Exported Function
+`EdpAuditLoggerRegister` | 8 | Exported Function
+`EdpAuditLoggerUnregister` | 9 | Exported Function
+`EdpAuditLogProtectionRemoved` | 6 | Exported Function
+`EdpAuditLogSiteLearning` | 7 | Exported Function
+`EdpAuditRead` | 10 | Exported Function
+`EdpFlushTraces` | 1 | Exported Function
+`EdpGetLogFullPathFromRelativePath` | 11 | Exported Function
+`ReadAuditLogByCount` | 12 | Exported Function
+`ReadAuditLogByTimeRange` | 13 | Exported Function
 
 
 ## Signature

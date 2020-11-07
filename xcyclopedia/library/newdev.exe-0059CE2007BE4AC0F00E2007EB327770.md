@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\newdev.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/ce9b35ce076ca17f312a324058925aecf9e389c61f27985a161dabd7b016cf01/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/ce9b35ce076ca17f312a324058925aecf9e389c61f27985a161dabd7b016cf01/detection
 
 ## File Similarity (ssdeep match)
 

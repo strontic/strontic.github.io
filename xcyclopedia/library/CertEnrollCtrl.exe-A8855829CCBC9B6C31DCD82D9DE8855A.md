@@ -43,6 +43,7 @@ SSDEEP | `768:kbcS84pT8cJ+8lUR5qiavKHjiPg7wxTISrcmZeeoFvgKs1ghXLyZGZmRau9BA:kx/O
 File | Score
 -- | --
 [C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-031B08FC72A6773D79E5231D0ECA2C9A.md) | 46
+[C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-8929EBB0CCABE2B6001440E138A7DFB5.md) | 44
 [C:\WINDOWS\SysWOW64\expand.exe](expand.exe-8C2235852F8C2659EB6CA4A0C6B3B3F1.md) | 33
 [C:\WINDOWS\SysWOW64\tzutil.exe](tzutil.exe-A5E9EDD84FDA5F13CBE1AE635E1E3B14.md) | 27
 

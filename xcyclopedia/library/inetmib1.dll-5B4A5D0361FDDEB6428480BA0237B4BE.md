@@ -26,10 +26,10 @@ PE256 | `C1FF18139EBBB340E70DCA56DF070252A1C746A001577B4F39B03262A6A8A2E4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SnmpExtensionQuery` | 3 | Exported Function
-`SnmpExtensionTrap` | 4 | Exported Function
 `SnmpExtensionInit` | 1 | Exported Function
 `SnmpExtensionInitEx` | 2 | Exported Function
+`SnmpExtensionQuery` | 3 | Exported Function
+`SnmpExtensionTrap` | 4 | Exported Function
 
 
 ## Signature

@@ -26,12 +26,12 @@ PE256 | `602D39B9E4482C5EB574F8E51D80FD756A7E26D23C89579EFFF221CC0605AEEF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
 `AERT_Allocate` | 1 | Exported Function
 `AERT_Free` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
 
 
 ## Signature

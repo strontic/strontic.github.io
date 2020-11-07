@@ -26,8 +26,8 @@ PE256 | `698DB9E21CB8A2885E81488A30B09A04A320EC65A7F51DC2D6F7705218F4D1B9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenUty` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
+`OpenUty` | 1 | Exported Function
 
 
 ## Signature

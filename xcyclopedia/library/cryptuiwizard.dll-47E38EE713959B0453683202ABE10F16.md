@@ -26,14 +26,14 @@ PE256 | `A36BA35D2C66B41262F61CA4FBC232AAB7B6036055D5FC5C449BCB61EFE7B050`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptUIWizImportInternal` | 7 | Exported Function
-`CryptUIWizImport` | 6 | Exported Function
-`GetFunctionTable` | 1 | Exported Function
-`DllMain` | 8 | Exported Function
-`CryptUIWizDigitalSign` | 3 | Exported Function
 `CryptUIWizBuildCTL` | 2 | Exported Function
-`CryptUIWizFreeDigitalSignContext` | 5 | Exported Function
+`CryptUIWizDigitalSign` | 3 | Exported Function
 `CryptUIWizExport` | 4 | Exported Function
+`CryptUIWizFreeDigitalSignContext` | 5 | Exported Function
+`CryptUIWizImport` | 6 | Exported Function
+`CryptUIWizImportInternal` | 7 | Exported Function
+`DllMain` | 8 | Exported Function
+`GetFunctionTable` | 1 | Exported Function
 
 
 ## Signature

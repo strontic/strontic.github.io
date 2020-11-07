@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\runas.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/c42ab0055b380e36bb4a5e5c3824f7abfa5bc028b2747743271964065b1ef8ba/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/c42ab0055b380e36bb4a5e5c3824f7abfa5bc028b2747743271964065b1ef8ba/detection
 
 
 ## Possible Misuse

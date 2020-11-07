@@ -26,27 +26,27 @@ PE256 | `6ED3E72F878E86871C2BD13BA1DE148198A7362A1F52E43DAE32B79BA3012F10`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MagSetInputTransform` | 16 | Exported Function
-`MagSetLensUseBitmapSmoothing` | 2 | Exported Function
-`MagSetImageScalingCallback` | 15 | Exported Function
-`MagSetFullscreenTransform` | 14 | Exported Function
-`MagSetFullscreenUseBitmapSmoothing` | 1 | Exported Function
-`MagShowSystemCursor` | 20 | Exported Function
-`MagUninitialize` | 21 | Exported Function
-`MagSetWindowTransform` | 19 | Exported Function
-`MagSetWindowFilterList` | 17 | Exported Function
-`MagSetWindowSource` | 18 | Exported Function
-`MagSetFullscreenColorEffect` | 13 | Exported Function
-`MagGetImageScalingCallback` | 6 | Exported Function
-`MagGetInputTransform` | 7 | Exported Function
-`MagGetFullscreenTransform` | 5 | Exported Function
 `MagGetColorEffect` | 3 | Exported Function
-`MagGetFullscreenColorEffect` | 4 | Exported Function
+`MagSetWindowTransform` | 19 | Exported Function
+`MagSetWindowSource` | 18 | Exported Function
+`MagSetWindowFilterList` | 17 | Exported Function
+`MagSetLensUseBitmapSmoothing` | 2 | Exported Function
+`MagSetInputTransform` | 16 | Exported Function
+`MagSetImageScalingCallback` | 15 | Exported Function
+`MagSetFullscreenUseBitmapSmoothing` | 1 | Exported Function
+`MagSetFullscreenTransform` | 14 | Exported Function
+`MagShowSystemCursor` | 20 | Exported Function
+`MagSetFullscreenColorEffect` | 13 | Exported Function
 `MagInitialize` | 11 | Exported Function
-`MagSetColorEffect` | 12 | Exported Function
 `MagGetWindowTransform` | 10 | Exported Function
-`MagGetWindowFilterList` | 8 | Exported Function
 `MagGetWindowSource` | 9 | Exported Function
+`MagGetWindowFilterList` | 8 | Exported Function
+`MagGetInputTransform` | 7 | Exported Function
+`MagGetImageScalingCallback` | 6 | Exported Function
+`MagGetFullscreenTransform` | 5 | Exported Function
+`MagGetFullscreenColorEffect` | 4 | Exported Function
+`MagSetColorEffect` | 12 | Exported Function
+`MagUninitialize` | 21 | Exported Function
 
 
 ## Signature

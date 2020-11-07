@@ -28,6 +28,7 @@ PE256 | `DD0B154805FC7A56587EBF6F067C76F94AC34CEC30255AE0AAFAE3CF6D0F152F`
 
 Path |
 -- |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
@@ -35,6 +36,7 @@ C:\Windows\SYSTEM32\MSCOREE.DLL |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\RemoteFXvGPUDisablement.exe |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 
 
@@ -59,8 +61,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/cfcf444ddb908a89dc7c0c279d320f960fac3ba5d64e631370cd7357d4003880/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/cfcf444ddb908a89dc7c0c279d320f960fac3ba5d64e631370cd7357d4003880/detection
 
 ## File Similarity (ssdeep match)
 

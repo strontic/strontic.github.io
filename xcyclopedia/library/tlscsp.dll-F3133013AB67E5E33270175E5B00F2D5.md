@@ -26,16 +26,16 @@ PE256 | `1E451BC62BA29858E3BB7D9A0FDCD04C1C6961CA8EA7EEDB145BD6F3DF4D92E0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TLSCspShutdown` | 2 | Exported Function
-`TLSCspInit` | 1 | Exported Function
-`TLSCspStartInstallCertificateThread` | 10 | Exported Function
-`TLSGetTSCertificate` | 3 | Exported Function
-`TLSFreeTSCertificate` | 4 | Exported Function
-`LsCsp_EncryptHwid` | 6 | Exported Function
 `LsCsp_DecryptEnvelopedData` | 7 | Exported Function
+`LsCsp_EncryptHwid` | 6 | Exported Function
 `LsCsp_GetServerData` | 5 | Exported Function
-`LsCsp_StoreSecret` | 8 | Exported Function
 `LsCsp_RetrieveSecret` | 9 | Exported Function
+`LsCsp_StoreSecret` | 8 | Exported Function
+`TLSCspInit` | 1 | Exported Function
+`TLSCspShutdown` | 2 | Exported Function
+`TLSCspStartInstallCertificateThread` | 10 | Exported Function
+`TLSFreeTSCertificate` | 4 | Exported Function
+`TLSGetTSCertificate` | 3 | Exported Function
 
 
 ## Signature

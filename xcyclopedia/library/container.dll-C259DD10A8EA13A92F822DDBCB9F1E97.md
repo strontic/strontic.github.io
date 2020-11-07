@@ -26,38 +26,38 @@ PE256 | `34E39CE57B3C942C03E4AB698E59C1A7949468D84BF9BD55C5F02519A1BAB7B1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`container::GetComRegistryRoot` | 4 | Exported Function
-`container::IsContainerQuiescent` | 8 | Exported Function
-`container::AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
-`container::LaunchApplicationContainer` | 9 | Exported Function
-`container::ShutdownAppContainer` | 14 | Exported Function
-`_WcWaitForContainerTerminationNotification@4` | 32 | Exported Function
-`container::RegisterForContainerTerminationNotification` | 11 | Exported Function
-`container::GetContainerIdentifierString` | 5 | Exported Function
+`_WcAddRuntimeVirtualKeysToContainer@12` | 16 | Exported Function
 `container::ReleaseContainerTerminationNotification` | 12 | Exported Function
 `container::LaunchContainer` | 10 | Exported Function
-`container::WaitForContainerTerminationNotification` | 15 | Exported Function
-`container::SetRegistryFlushState` | 13 | Exported Function
-`DefinitionFile::Container` | 3 | Exported Function
-`container::CleanupContainer` | 2 | Exported Function
 `std::allocator` | 7 | Exported Function
 `std::allocator` | 6 | Exported Function
-`_WcGetComRegistryRoot@8` | 21 | Exported Function
-`_WcDestroyDescription@4` | 20 | Exported Function
-`_WcGetContainerObjectRootPath@12` | 23 | Exported Function
-`_WcGetContainerIdentifier@8` | 22 | Exported Function
-`_WcCleanupContainer@8` | 17 | Exported Function
-`_WcAddRuntimeVirtualKeysToContainer@12` | 16 | Exported Function
-`_WcCreateDescriptionFromXml@8` | 19 | Exported Function
-`_WcCreateContainer@16` | 18 | Exported Function
-`_WcReleaseContainerTerminationNotification@4` | 29 | Exported Function
-`_WcRegisterForContainerTerminationNotification@16` | 28 | Exported Function
+`DefinitionFile::Container` | 3 | Exported Function
+`container::CleanupContainer` | 2 | Exported Function
+`container::AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`container::LaunchApplicationContainer` | 9 | Exported Function
+`container::GetComRegistryRoot` | 4 | Exported Function
+`container::IsContainerQuiescent` | 8 | Exported Function
+`container::RegisterForContainerTerminationNotification` | 11 | Exported Function
+`container::GetContainerIdentifierString` | 5 | Exported Function
+`container::ShutdownAppContainer` | 14 | Exported Function
+`_WcWaitForContainerTerminationNotification@4` | 32 | Exported Function
 `_WcShutdownAppContainer@4` | 31 | Exported Function
 `_WcSetRegistryFlushState@8` | 30 | Exported Function
-`_WcIsContainerQuiescent@8` | 25 | Exported Function
-`_WcGetContainerRegistryRootPath@16` | 24 | Exported Function
+`_WcReleaseContainerTerminationNotification@4` | 29 | Exported Function
+`_WcRegisterForContainerTerminationNotification@16` | 28 | Exported Function
 `_WcLaunchContainer@4` | 27 | Exported Function
 `_WcLaunchApplicationContainer@16` | 26 | Exported Function
+`_WcIsContainerQuiescent@8` | 25 | Exported Function
+`_WcGetContainerRegistryRootPath@16` | 24 | Exported Function
+`_WcGetContainerObjectRootPath@12` | 23 | Exported Function
+`_WcGetContainerIdentifier@8` | 22 | Exported Function
+`_WcGetComRegistryRoot@8` | 21 | Exported Function
+`_WcDestroyDescription@4` | 20 | Exported Function
+`_WcCreateDescriptionFromXml@8` | 19 | Exported Function
+`_WcCreateContainer@16` | 18 | Exported Function
+`_WcCleanupContainer@8` | 17 | Exported Function
+`container::SetRegistryFlushState` | 13 | Exported Function
+`container::WaitForContainerTerminationNotification` | 15 | Exported Function
 
 
 ## Signature

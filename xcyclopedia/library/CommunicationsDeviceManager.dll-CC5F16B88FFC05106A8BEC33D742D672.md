@@ -25,10 +25,10 @@ PE256 | `54B3C30B93AF562A66D458A6C403DE7BE28B9CB6C10ADE01FBD505B636CEB45F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CommunicationsDeviceManager::create` | 4 | Exported Function
-`cdm::CommunicationsDeviceManager` | 2 | Exported Function
 `cdm::CommunicationsDeviceManager` | 3 | Exported Function
 `CommunicationsDeviceManager::CommunicationsDeviceManager` | 1 | Exported Function
+`CommunicationsDeviceManager::create` | 4 | Exported Function
+`cdm::CommunicationsDeviceManager` | 2 | Exported Function
 
 
 ## Signature

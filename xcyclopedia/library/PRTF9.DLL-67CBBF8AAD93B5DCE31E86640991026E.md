@@ -26,11 +26,11 @@ PE256 | `24CA8EC612C523A878E19BE4140A8BA8E28C6A18DFFFF92F53E4B8CD2A46653B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`QRtfIO_CreateInstance` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`QRtfIO_CreateInstance` | 1 | Exported Function
 
 
 ## Signature

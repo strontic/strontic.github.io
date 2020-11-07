@@ -26,21 +26,21 @@ PE256 | `7FAC595D0172EE3B28424E2D949036B356D0DCCA5BB8272894491991E7B1B3B3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 11 | Exported Function
-`DllRegisterServer` | 10 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
-`GetSegmentedStr` | 12 | Exported Function
-`UnInitGetSegmentedStr` | 15 | Exported Function
-`InitGetSegmentedStr` | 14 | Exported Function
-`IMECFM_AddJpnWordInfoAndLmContextForWatsonReport` | 13 | Exported Function
-`DllCanUnloadNow` | 8 | Exported Function
-`CJDictsDictionaryManifest_CreateInstance` | 3 | Exported Function
-`CJDictsDataForDWORD_CreateInstance` | 2 | Exported Function
 `CJDictsCommentDictionary_CreateInstance` | 1 | Exported Function
+`CJDictsDataForDWORD_CreateInstance` | 2 | Exported Function
+`CJDictsDictionaryManifest_CreateInstance` | 3 | Exported Function
 `CJDictsIndexerSatori_CreateInstance` | 4 | Exported Function
-`CJDictsUserDictionary_FillByDummyHeader` | 7 | Exported Function
-`CJDictsUserDictionary_CreateInstance` | 6 | Exported Function
 `CJDictsSystemLexiconStoreDelayLoad__CreateInstance` | 5 | Exported Function
+`CJDictsUserDictionary_CreateInstance` | 6 | Exported Function
+`CJDictsUserDictionary_FillByDummyHeader` | 7 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`GetSegmentedStr` | 12 | Exported Function
+`IMECFM_AddJpnWordInfoAndLmContextForWatsonReport` | 13 | Exported Function
+`InitGetSegmentedStr` | 14 | Exported Function
+`UnInitGetSegmentedStr` | 15 | Exported Function
 
 
 ## Signature

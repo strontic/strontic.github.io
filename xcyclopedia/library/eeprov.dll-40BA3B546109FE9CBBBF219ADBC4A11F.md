@@ -26,8 +26,8 @@ PE256 | `B6E58FF0BD1763C67B7994B302F063EF02EF6B95392858864F578ADD6B1E147E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SruUninitializeProvider` | 2 | Exported Function
 `SruInitializeProvider` | 1 | Exported Function
+`SruUninitializeProvider` | 2 | Exported Function
 
 
 ## Signature

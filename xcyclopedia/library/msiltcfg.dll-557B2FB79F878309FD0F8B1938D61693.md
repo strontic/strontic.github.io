@@ -26,20 +26,20 @@ PE256 | `CDEF0176D96A55938ECF21B08D1DFF11ACBC2FF651315274B512C38C771E9EC3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsiQueryProductStateW` | 9 | Exported Function
-`MsiQueryFeatureStateW` | 5 | Exported Function
-`MsiQueryFeatureStateFromDescriptorW` | 6 | Exported Function
-`MsiReinstallProductW` | 11 | Exported Function
-`ShutdownMsi` | 13 | Exported Function
-`RestartMsi` | 14 | Exported Function
-`MsiSetInternalUI` | 7 | Exported Function
-`MsiDecomposeDescriptorW` | 1 | Exported Function
-`MsiConfigureProductExW` | 12 | Exported Function
 `MsiAdvertiseScriptW` | 8 | Exported Function
+`MsiConfigureProductExW` | 12 | Exported Function
+`MsiDecomposeDescriptorW` | 1 | Exported Function
 `MsiGetComponentPathW` | 2 | Exported Function
-`MsiProvideComponentFromDescriptorW` | 4 | Exported Function
-`MsiIsProductElevatedW` | 10 | Exported Function
 `MsiGetProductInfoW` | 3 | Exported Function
+`MsiIsProductElevatedW` | 10 | Exported Function
+`MsiProvideComponentFromDescriptorW` | 4 | Exported Function
+`MsiQueryFeatureStateFromDescriptorW` | 6 | Exported Function
+`MsiQueryFeatureStateW` | 5 | Exported Function
+`MsiQueryProductStateW` | 9 | Exported Function
+`MsiReinstallProductW` | 11 | Exported Function
+`MsiSetInternalUI` | 7 | Exported Function
+`RestartMsi` | 14 | Exported Function
+`ShutdownMsi` | 13 | Exported Function
 
 
 ## Signature

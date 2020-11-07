@@ -26,26 +26,26 @@ PE256 | `D6D06E3E0ACC44599E3FC0412D5E1CF57C7147EAFC4278E540EB24D8BE9892CB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDCRegionData` | 14 | Exported Function
+`DCIBeginAccess` | 1 | Exported Function
+`WinWatchGetClipList` | 18 | Exported Function
+`WinWatchDidStatusChange` | 17 | Exported Function
+`WinWatchClose` | 16 | Exported Function
 `GetWindowRegionData` | 15 | Exported Function
+`GetDCRegionData` | 14 | Exported Function
 `DCISetSrcDestClip` | 13 | Exported Function
-`DCISetClipList` | 11 | Exported Function
 `DCISetDestination` | 12 | Exported Function
+`DCISetClipList` | 11 | Exported Function
+`DCIOpenProvider` | 10 | Exported Function
+`DCIEnum` | 9 | Exported Function
+`DCIEndAccess` | 8 | Exported Function
+`DCIDraw` | 7 | Exported Function
+`DCIDestroy` | 6 | Exported Function
+`DCICreatePrimary` | 5 | Exported Function
+`DCICreateOverlay` | 4 | Exported Function
+`DCICreateOffscreen` | 3 | Exported Function
+`DCICloseProvider` | 2 | Exported Function
 `WinWatchNotify` | 19 | Exported Function
 `WinWatchOpen` | 20 | Exported Function
-`WinWatchGetClipList` | 18 | Exported Function
-`WinWatchClose` | 16 | Exported Function
-`WinWatchDidStatusChange` | 17 | Exported Function
-`DCICreateOverlay` | 4 | Exported Function
-`DCICreatePrimary` | 5 | Exported Function
-`DCICreateOffscreen` | 3 | Exported Function
-`DCIBeginAccess` | 1 | Exported Function
-`DCICloseProvider` | 2 | Exported Function
-`DCIEnum` | 9 | Exported Function
-`DCIOpenProvider` | 10 | Exported Function
-`DCIEndAccess` | 8 | Exported Function
-`DCIDestroy` | 6 | Exported Function
-`DCIDraw` | 7 | Exported Function
 
 
 ## Signature

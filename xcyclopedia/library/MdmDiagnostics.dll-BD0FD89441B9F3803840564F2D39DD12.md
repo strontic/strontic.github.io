@@ -26,12 +26,12 @@ PE256 | `137B0B17588084EE59D502753870F9976E424BBF17F82297F2D53D19AFCA7D81`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateLogZipOnXml` | 5 | Exported Function
-`CreateMdmEnterpriseDiagnosticHTMLReport` | 2 | Exported Function
-`CreateMdmEnterpriseDiagnosticReport` | 1 | Exported Function
 `CollectOneTraceFiles` | 6 | Exported Function
 `CreateLogCabOnArea` | 3 | Exported Function
 `CreateLogZipOnArea` | 4 | Exported Function
+`CreateLogZipOnXml` | 5 | Exported Function
+`CreateMdmEnterpriseDiagnosticHTMLReport` | 2 | Exported Function
+`CreateMdmEnterpriseDiagnosticReport` | 1 | Exported Function
 
 
 ## Signature

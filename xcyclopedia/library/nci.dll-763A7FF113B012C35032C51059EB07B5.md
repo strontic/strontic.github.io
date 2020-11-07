@@ -26,8 +26,8 @@ PE256 | `0621E18DAF5E150142C1194F04B3CB682DF6F2A5A84B2B8CD262447794292BFF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NciSetConnectionName` | 2 | Exported Function
 `NciGetConnectionName` | 1 | Exported Function
+`NciSetConnectionName` | 2 | Exported Function
 
 
 ## Signature

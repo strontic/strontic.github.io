@@ -26,8 +26,8 @@ PE256 | `79E28AD10669143889E959FBD80984460D8E9519E9B81F042963B6D72127AA5D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateAPHostClient` | 2 | Exported Function
 `ApHostServerStatus_EnsureServerReady` | 1 | Exported Function
+`CreateAPHostClient` | 2 | Exported Function
 
 
 ## Signature

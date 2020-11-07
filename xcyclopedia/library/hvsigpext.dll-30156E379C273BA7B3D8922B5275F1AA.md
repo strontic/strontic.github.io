@@ -26,9 +26,9 @@ PE256 | `CF9FA032EE0C70A22C5C49396719111C589EA256311CEC68C52CC83216DABA59`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessHVSIPolicy` | 1 | Exported Function
-`DllUnregisterServer` | 3 | Exported Function
 `DllRegisterServer` | 2 | Exported Function
+`DllUnregisterServer` | 3 | Exported Function
+`ProcessHVSIPolicy` | 1 | Exported Function
 
 
 ## Signature

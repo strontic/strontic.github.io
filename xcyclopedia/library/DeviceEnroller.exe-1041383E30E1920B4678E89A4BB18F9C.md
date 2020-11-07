@@ -28,17 +28,31 @@ PE256 | `46979DFB2E0AB7E6B0CEF177E2A066C9F297A06C21A7D70C9103FED3222A2763`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTSP.dll |
 C:\Windows\system32\DeviceEnroller.exe |
+C:\Windows\system32\DEVOBJ.dll |
 C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\dmEnrollEngine.DLL |
+C:\Windows\system32\iri.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
+C:\Windows\system32\XmlLite.dll |
 
 
 ## Signature
@@ -62,8 +76,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/b9abaa487ab9f4f25ec61a98485766fb4d6ee97c4b0ecb202c23b9807feebc9b/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/b9abaa487ab9f4f25ec61a98485766fb4d6ee97c4b0ecb202c23b9807feebc9b/detection
 
 ## File Similarity (ssdeep match)
 

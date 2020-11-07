@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\Com\MigRegDB.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/781e7f15682ffc1d7d523baa7835084199568054ab5161d63ba6a338b270d202/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/781e7f15682ffc1d7d523baa7835084199568054ab5161d63ba6a338b270d202/detection
 
 
 

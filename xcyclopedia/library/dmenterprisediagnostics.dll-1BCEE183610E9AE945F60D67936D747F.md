@@ -26,14 +26,14 @@ PE256 | `0FA53F9D50890C3982D10E7D21568B392EC80F7DD9427511B7FBFCDBFBC02392`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StartAutoLog` | 6 | Exported Function
-`SetupAutoLogWithTraceLevel` | 5 | Exported Function
-`TearDownAutoLog` | 8 | Exported Function
-`StopAutoLog` | 7 | Exported Function
-`GatherAutoLogEventsFromMobile` | 2 | Exported Function
 `CollectDiagnosticsAutoLog` | 1 | Exported Function
-`SetupAutoLog` | 4 | Exported Function
+`GatherAutoLogEventsFromMobile` | 2 | Exported Function
 `RecordDiagnosticsError` | 3 | Exported Function
+`SetupAutoLog` | 4 | Exported Function
+`SetupAutoLogWithTraceLevel` | 5 | Exported Function
+`StartAutoLog` | 6 | Exported Function
+`StopAutoLog` | 7 | Exported Function
+`TearDownAutoLog` | 8 | Exported Function
 
 
 ## Signature

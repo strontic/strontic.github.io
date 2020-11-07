@@ -26,8 +26,8 @@ PE256 | `A3987D1CAF4386D7DCF0AB8D6F6D97623E0DAB8E4BC46D83E3B66B9CAC63F105`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MergeFontPackage` | 2 | Exported Function
 `CreateFontPackage` | 1 | Exported Function
+`MergeFontPackage` | 2 | Exported Function
 
 
 ## Signature

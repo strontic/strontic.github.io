@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\rundll32.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/bbbde17d9d1f77e3ddf7b212e36ebdc094ddba0f4115c8cacde903e880e0e67d/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/bbbde17d9d1f77e3ddf7b212e36ebdc094ddba0f4115c8cacde903e880e0e67d/detection
 
 ## File Similarity (ssdeep match)
 

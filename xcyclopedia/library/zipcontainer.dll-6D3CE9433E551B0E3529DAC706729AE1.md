@@ -26,10 +26,10 @@ PE256 | `473E68FB5D5BE7CF9095AACB1B9CB30B5D8905C2340B4C982095DF1F15809575`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ZipContainerInitialize` | 3 | Exported Function
-`ZipContainerUninitialize` | 4 | Exported Function
 `CreateFileStream` | 1 | Exported Function
 `ZipContainerCreateArchiveOnFile` | 2 | Exported Function
+`ZipContainerInitialize` | 3 | Exported Function
+`ZipContainerUninitialize` | 4 | Exported Function
 
 
 ## Signature

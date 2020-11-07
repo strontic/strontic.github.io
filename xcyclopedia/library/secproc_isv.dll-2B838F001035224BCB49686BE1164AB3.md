@@ -26,36 +26,36 @@ PE256 | `3174989D77923DA66C2765FE2CBA5E6CCB3E467CF9DD9DB2D4830D6F7A6B53CC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SPGetCurrentTime` | 19 | Exported Function
-`SPGetInfo` | 20 | Exported Function
-`SPGetLicenseAttribute` | 21 | Exported Function
-`SPGetBoundRightKey` | 18 | Exported Function
-`SPEncrypt` | 15 | Exported Function
-`SPEncryptFinal` | 16 | Exported Function
-`SPEncryptUpdate` | 17 | Exported Function
-`SPGetLicenseAttributeCount` | 22 | Exported Function
+`SPAttest` | 1 | Exported Function
 `SPLoadLibrary` | 27 | Exported Function
+`SPIsActivated` | 26 | Exported Function
+`SPGetProcAddress` | 25 | Exported Function
+`SPGetLicenseObjectCount` | 24 | Exported Function
+`SPGetLicenseObject` | 23 | Exported Function
+`SPGetLicenseAttributeCount` | 22 | Exported Function
+`SPGetLicenseAttribute` | 21 | Exported Function
+`SPGetInfo` | 20 | Exported Function
+`SPGetCurrentTime` | 19 | Exported Function
+`SPGetBoundRightKey` | 18 | Exported Function
+`SPEncryptUpdate` | 17 | Exported Function
+`SPEncryptFinal` | 16 | Exported Function
+`SPEncrypt` | 15 | Exported Function
+`SPEnablePublishingLicense` | 14 | Exported Function
+`SPEnableAndEncrypt` | 13 | Exported Function
+`SPDecryptUpdate` | 12 | Exported Function
+`SPDecryptFinal` | 11 | Exported Function
+`SPDecrypt` | 10 | Exported Function
+`SPCreateSecurityProcessor` | 9 | Exported Function
+`SPCreatePCE` | 8 | Exported Function
+`SPCreateEncryptor` | 7 | Exported Function
+`SPCreateEnablingPrincipal` | 6 | Exported Function
+`SPCreateDecryptor` | 5 | Exported Function
+`SPCommit` | 4 | Exported Function
+`SPCloseHandle` | 30 | Exported Function
+`SPCheckEnvironmentSecurity` | 3 | Exported Function
+`SPBindLicense` | 2 | Exported Function
 `SPRegisterRevocationList` | 28 | Exported Function
 `SPSign` | 29 | Exported Function
-`SPIsActivated` | 26 | Exported Function
-`SPGetLicenseObject` | 23 | Exported Function
-`SPGetLicenseObjectCount` | 24 | Exported Function
-`SPGetProcAddress` | 25 | Exported Function
-`SPCommit` | 4 | Exported Function
-`SPCreateDecryptor` | 5 | Exported Function
-`SPCreateEnablingPrincipal` | 6 | Exported Function
-`SPCloseHandle` | 30 | Exported Function
-`SPAttest` | 1 | Exported Function
-`SPBindLicense` | 2 | Exported Function
-`SPCheckEnvironmentSecurity` | 3 | Exported Function
-`SPCreateEncryptor` | 7 | Exported Function
-`SPDecryptUpdate` | 12 | Exported Function
-`SPEnableAndEncrypt` | 13 | Exported Function
-`SPEnablePublishingLicense` | 14 | Exported Function
-`SPDecryptFinal` | 11 | Exported Function
-`SPCreatePCE` | 8 | Exported Function
-`SPCreateSecurityProcessor` | 9 | Exported Function
-`SPDecrypt` | 10 | Exported Function
 
 
 ## Signature

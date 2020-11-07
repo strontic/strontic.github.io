@@ -33,7 +33,11 @@ PE256 | `49922CCBD9BD33B3D3AF815B156AAAEFE554EED841D70185BCBE726D72C95B67`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DUI70.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -46,19 +50,24 @@ C:\Windows\system32\phoneactivate.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\system32\SLC.dll |
+C:\Windows\system32\sppc.dll |
+C:\Windows\system32\sppcext.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\Windows.UI.Immersive.dll |
+C:\Windows\system32\WinSCard.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -75,8 +84,8 @@ C:\Windows\system32\Windows.UI.Immersive.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/4325652e762c5ba53c48752373aa2eca1ca0f91c19e826160fc9b195e1d5e70a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/4325652e762c5ba53c48752373aa2eca1ca0f91c19e826160fc9b195e1d5e70a/detection
 
 
 

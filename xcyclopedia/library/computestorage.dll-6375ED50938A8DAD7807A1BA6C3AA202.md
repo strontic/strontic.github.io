@@ -26,17 +26,17 @@ PE256 | `3410A05AECB834977D0C93C9DACC3EF33FB07E36C334EA407CFE78ACE4DF5E0C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HcsImportLayer` | 8 | Exported Function
-`HcsGetLayerVhdMountPath` | 7 | Exported Function
-`HcsInitializeLegacyWritableLayer` | 9 | Exported Function
-`HcsSetupBaseOSLayer` | 11 | Exported Function
-`HcsInitializeWritableLayer` | 10 | Exported Function
-`HcsFormatWritableLayerVhd` | 6 | Exported Function
-`HcsDestroyLayer` | 2 | Exported Function
 `HcsAttachLayerStorageFilter` | 1 | Exported Function
+`HcsDestroyLayer` | 2 | Exported Function
 `HcsDetachLayerStorageFilter` | 3 | Exported Function
-`HcsExportLegacyWritableLayer` | 5 | Exported Function
 `HcsExportLayer` | 4 | Exported Function
+`HcsExportLegacyWritableLayer` | 5 | Exported Function
+`HcsFormatWritableLayerVhd` | 6 | Exported Function
+`HcsGetLayerVhdMountPath` | 7 | Exported Function
+`HcsImportLayer` | 8 | Exported Function
+`HcsInitializeLegacyWritableLayer` | 9 | Exported Function
+`HcsInitializeWritableLayer` | 10 | Exported Function
+`HcsSetupBaseOSLayer` | 11 | Exported Function
 
 
 ## Signature

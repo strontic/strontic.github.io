@@ -26,12 +26,12 @@ PE256 | `CF1C2A1298C87F381BCD851EB6F294F932D399903B670D6AF657A7454CFB7D5F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`capGetDriverDescriptionA` | 4 | Exported Function
-`capGetDriverDescriptionW` | 5 | Exported Function
-`videoThunk32` | 6 | Exported Function
 `AppCleanup` | 1 | Exported Function
 `capCreateCaptureWindowA` | 2 | Exported Function
 `capCreateCaptureWindowW` | 3 | Exported Function
+`capGetDriverDescriptionA` | 4 | Exported Function
+`capGetDriverDescriptionW` | 5 | Exported Function
+`videoThunk32` | 6 | Exported Function
 
 
 ## Signature

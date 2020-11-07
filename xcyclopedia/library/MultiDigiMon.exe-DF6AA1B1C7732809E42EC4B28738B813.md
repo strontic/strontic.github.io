@@ -28,14 +28,22 @@ PE256 | `D8353C4C7CD2430198DDBF1810F82B84B8003B1F4673D72C493837A68C171087`
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\MultiDigiMon.exe |
+C:\Windows\system32\NInput.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -60,8 +68,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/ac37148d091bc02d24e40a1215aeb9a750ec10c48f7d709e4e1483e665677ab5/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac37148d091bc02d24e40a1215aeb9a750ec10c48f7d709e4e1483e665677ab5/detection
 
 ## File Similarity (ssdeep match)
 

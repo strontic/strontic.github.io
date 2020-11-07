@@ -26,16 +26,16 @@ PE256 | `FAE6DAD33163CF567D8F571072BBF25E0FD4D39A78E46D70D913B73938598B83`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LpkInitialize` | 6 | Exported Function
-`LpkGetTextExtentExPoint` | 5 | Exported Function
-`LpkPSMTextOut` | 7 | Exported Function
-`LpkUseGDIWidthCache` | 9 | Exported Function
-`LpkTabbedTextOut` | 8 | Exported Function
-`LpkDrawTextEx` | 1 | Exported Function
 `ftsWordBreak` | 10 | Exported Function
+`LpkDrawTextEx` | 1 | Exported Function
 `LpkEditControl` | 2 | Exported Function
-`LpkGetCharacterPlacement` | 4 | Exported Function
 `LpkExtTextOut` | 3 | Exported Function
+`LpkGetCharacterPlacement` | 4 | Exported Function
+`LpkGetTextExtentExPoint` | 5 | Exported Function
+`LpkInitialize` | 6 | Exported Function
+`LpkPSMTextOut` | 7 | Exported Function
+`LpkTabbedTextOut` | 8 | Exported Function
+`LpkUseGDIWidthCache` | 9 | Exported Function
 
 
 ## Signature

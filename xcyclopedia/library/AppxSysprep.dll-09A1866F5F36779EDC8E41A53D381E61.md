@@ -26,10 +26,10 @@ PE256 | `EBCC3416B5742143DDE2CE0356500449F00E068ABB52909F8FDDAF1BE471EF40`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SysprepGeneralize` | 3 | Exported Function
-`SysprepGeneralizeValidate` | 4 | Exported Function
 `AppxSysprepSpecializeOffline` | 1 | Exported Function
 `AppxSysprepSpecializeOnline` | 2 | Exported Function
+`SysprepGeneralize` | 3 | Exported Function
+`SysprepGeneralizeValidate` | 4 | Exported Function
 
 
 ## Signature

@@ -26,18 +26,18 @@ PE256 | `49B54A0021064FF9CD434E906EF914E47BB31DB64BC54F3B37201AB7F4F971F2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetTimeIntervalConfidence` | 7 | Exported Function
-`GetSmartBusyCheckVelocityFeature` | 6 | Exported Function
-`GetSmartActiveHoursEx` | 5 | Exported Function
-`SvchostPushServiceGlobals` | 10 | Exported Function
-`ServiceMain` | 9 | Exported Function
-`GetUserActivityPredictionEx` | 8 | Exported Function
-`GetDefaultConfiguration` | 1 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
 `DllCanUnloadNow` | 11 | Exported Function
-`GetSmartActiveHours` | 4 | Exported Function
-`GetNextAcceptableTimeEx` | 3 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`GetDefaultConfiguration` | 1 | Exported Function
 `GetNextAcceptableTime` | 2 | Exported Function
+`GetNextAcceptableTimeEx` | 3 | Exported Function
+`GetSmartActiveHours` | 4 | Exported Function
+`GetSmartActiveHoursEx` | 5 | Exported Function
+`GetSmartBusyCheckVelocityFeature` | 6 | Exported Function
+`GetTimeIntervalConfidence` | 7 | Exported Function
+`GetUserActivityPredictionEx` | 8 | Exported Function
+`ServiceMain` | 9 | Exported Function
+`SvchostPushServiceGlobals` | 10 | Exported Function
 
 
 ## Signature

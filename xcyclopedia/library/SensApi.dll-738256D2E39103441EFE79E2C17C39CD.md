@@ -26,9 +26,9 @@ PE256 | `66DBA46C559C4B9B1C38B943BC05EFC9FDB9C0F18CB058A436C8F1F2771DEBB0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsNetworkAlive` | 3 | Exported Function
-`IsDestinationReachableW` | 2 | Exported Function
 `IsDestinationReachableA` | 1 | Exported Function
+`IsDestinationReachableW` | 2 | Exported Function
+`IsNetworkAlive` | 3 | Exported Function
 
 
 ## Signature

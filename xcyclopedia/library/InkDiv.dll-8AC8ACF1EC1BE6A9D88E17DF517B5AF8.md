@@ -26,20 +26,20 @@ PE256 | `A06223F539C37A78D7A7B075D21368A05F20F3CCE203C8F619E043605738291B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 14 | Exported Function
-`DllRegisterServer` | 13 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
-`RecognizerContextSet` | 7 | Exported Function
-`SetLineRecoCallback` | 10 | Exported Function
-`SetLineHeight` | 9 | Exported Function
-`RemoveStrokes` | 8 | Exported Function
-`CallDivideResults` | 3 | Exported Function
-`CallDivide` | 2 | Exported Function
 `AddOneStroke` | 1 | Exported Function
+`CallDivide` | 2 | Exported Function
+`CallDivideResults` | 3 | Exported Function
 `CallDivideResultsStrokeIds` | 4 | Exported Function
-`DllCanUnloadNow` | 11 | Exported Function
-`DeleteInkDivider` | 6 | Exported Function
 `CreateInkDivider` | 5 | Exported Function
+`DeleteInkDivider` | 6 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
+`DllUnregisterServer` | 14 | Exported Function
+`RecognizerContextSet` | 7 | Exported Function
+`RemoveStrokes` | 8 | Exported Function
+`SetLineHeight` | 9 | Exported Function
+`SetLineRecoCallback` | 10 | Exported Function
 
 
 ## Signature

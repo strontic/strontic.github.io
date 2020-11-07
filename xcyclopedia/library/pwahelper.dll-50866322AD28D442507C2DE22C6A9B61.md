@@ -26,20 +26,20 @@ PE256 | `9471BF2EDF33C604A07253AE1B09607907AEB2B5844E6D7C4BB85CB44C600CA5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PWAHelperHost::SetSingletonProcessId` | 8 | Exported Function
-`__1::allocator` | 7 | Exported Function
-`edge_pwahelper::PWAHelperHost` | 3 | Exported Function
-`PWAHelperHost::Terminate` | 11 | Exported Function
-`StartAppWithParameter` | 1 | Exported Function
-`PWAHelperHost::StartAppWithPlatformChannel` | 9 | Exported Function
-`__1::allocator` | 12 | Exported Function
-`PWAHelperHost::AppendAUMIDInfo` | 5 | Exported Function
-`GetHandleVerifier` | 14 | Exported Function
 `edge_pwahelper::PWAHelperHost` | 4 | Exported Function
+`GetHandleVerifier` | 14 | Exported Function
+`PWAHelperHost::AppendAUMIDInfo` | 5 | Exported Function
 `PWAHelperHost::AppendMojoServerBindingInfo` | 6 | Exported Function
-`base::ScopedTempDir` | 10 | Exported Function
-`PWAHelperHost::PWAHelperHost` | 2 | Exported Function
 `PWAHelperHost::TryActivateInstance` | 13 | Exported Function
+`PWAHelperHost::PWAHelperHost` | 2 | Exported Function
+`base::ScopedTempDir` | 10 | Exported Function
+`edge_pwahelper::PWAHelperHost` | 3 | Exported Function
+`__1::allocator` | 7 | Exported Function
+`PWAHelperHost::SetSingletonProcessId` | 8 | Exported Function
+`PWAHelperHost::Terminate` | 11 | Exported Function
+`__1::allocator` | 12 | Exported Function
+`PWAHelperHost::StartAppWithPlatformChannel` | 9 | Exported Function
+`StartAppWithParameter` | 1 | Exported Function
 
 
 ## Signature

@@ -26,13 +26,13 @@ PE256 | `3E9D32402903F977A80A1CA78653E072CFC54346BC903F8CE601C43DE9B68E17`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OfflineFilesQueryStatus` | 5 | Exported Function
-`OfflineFilesQueryStatusEx` | 6 | Exported Function
-`OfflineFilesStart` | 7 | Exported Function
-`OfflineFilesGetShareCachingMode` | 4 | Exported Function
 `CscNetApiGetInterface` | 1 | Exported Function
 `CscSearchApiGetInterface` | 2 | Exported Function
 `OfflineFilesEnable` | 3 | Exported Function
+`OfflineFilesGetShareCachingMode` | 4 | Exported Function
+`OfflineFilesQueryStatus` | 5 | Exported Function
+`OfflineFilesQueryStatusEx` | 6 | Exported Function
+`OfflineFilesStart` | 7 | Exported Function
 
 
 ## Signature

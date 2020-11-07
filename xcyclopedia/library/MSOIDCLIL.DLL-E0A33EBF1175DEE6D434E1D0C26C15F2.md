@@ -26,40 +26,40 @@ PE256 | `AC3E77D46B21FD0B6BACBAF3FC9EA4DA1976FA8147F23D6FFF53D4636FE6282E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LogonIdentityEx` | 31 | Exported Function
-`LogonIdentity` | 21 | Exported Function
-`LogonIdentityExWithUI` | 75 | Exported Function
-`LogonIdentityExSSO` | 108 | Exported Function
-`HasPersistedCredential` | 23 | Exported Function
-`GetToken` | 114 | Exported Function
-`InitializeEx` | 29 | Exported Function
-`Initialize` | 1 | Exported Function
-`NextIdentity` | 18 | Exported Function
+`AuthIdentityToService` | 13 | Exported Function
 `SetIdentityCallback` | 24 | Exported Function
 `SetIdcrlOptions` | 51 | Exported Function
-`Uninitialize` | 2 | Exported Function
-`SetIdentityProperty` | 7 | Exported Function
-`PersistCredential` | 15 | Exported Function
-`PassportFreeMemory` | 3 | Exported Function
 `SetCredential` | 5 | Exported Function
 `RemovePersistedCredential` | 16 | Exported Function
-`CreateIdentityHandle` | 4 | Exported Function
-`CloseIdentityHandle` | 8 | Exported Function
-`CreateIdentityHandleEx` | 113 | Exported Function
-`CreateIdentityHandle2` | 115 | Exported Function
-`AuthIdentityToServiceEx` | 33 | Exported Function
-`AuthIdentityToService` | 13 | Exported Function
-`CloseEnumIdentitiesHandle` | 19 | Exported Function
-`CancelPendingRequest` | 38 | Exported Function
-`EnumIdentitiesWithCachedCredentials` | 17 | Exported Function
-`GetIdentityPropertyByName` | 41 | Exported Function
-`GetIdentityProperty` | 6 | Exported Function
+`PersistCredential` | 15 | Exported Function
+`PassportFreeMemory` | 3 | Exported Function
+`NextIdentity` | 18 | Exported Function
+`LogonIdentityExWithUI` | 75 | Exported Function
+`LogonIdentityExSSO` | 108 | Exported Function
+`LogonIdentityEx` | 31 | Exported Function
+`LogonIdentity` | 21 | Exported Function
+`InitializeEx` | 29 | Exported Function
+`Initialize` | 1 | Exported Function
+`HasPersistedCredential` | 23 | Exported Function
+`GetToken` | 114 | Exported Function
 `GetRealmInfo2` | 116 | Exported Function
 `GetRealmInfo` | 112 | Exported Function
-`GetAuthState` | 20 | Exported Function
+`AuthIdentityToServiceEx` | 33 | Exported Function
+`CancelPendingRequest` | 38 | Exported Function
+`CloseEnumIdentitiesHandle` | 19 | Exported Function
+`CloseIdentityHandle` | 8 | Exported Function
+`CreateIdentityHandle` | 4 | Exported Function
+`CreateIdentityHandle2` | 115 | Exported Function
+`SetIdentityProperty` | 7 | Exported Function
+`CreateIdentityHandleEx` | 113 | Exported Function
 `GetAuthenticationStatus` | 96 | Exported Function
-`GetExtendedError` | 60 | Exported Function
+`GetAuthState` | 20 | Exported Function
 `GetAuthStateEx` | 34 | Exported Function
+`GetExtendedError` | 60 | Exported Function
+`GetIdentityProperty` | 6 | Exported Function
+`GetIdentityPropertyByName` | 41 | Exported Function
+`EnumIdentitiesWithCachedCredentials` | 17 | Exported Function
+`Uninitialize` | 2 | Exported Function
 
 
 ## Signature

@@ -28,9 +28,12 @@ PE256 | `9ACF958ECD1E9B5BFBC5EDCC05156649B3C300E32B9AA56A7C0DBEDAE0E3D32A`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -67,8 +70,8 @@ C:\Windows\SysWOW64\CameraSettingsUIHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/9753c8d7e7b89f707712b24699bbd10cbda1f09eac1dd5a2f99d741f15f7897d/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9753c8d7e7b89f707712b24699bbd10cbda1f09eac1dd5a2f99d741f15f7897d/detection
 
 ## File Similarity (ssdeep match)
 

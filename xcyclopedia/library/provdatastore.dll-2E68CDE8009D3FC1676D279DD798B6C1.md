@@ -26,12 +26,12 @@ PE256 | `183595A3BD19E6E463B399A0DC52A57282407B74F29D2D4C60F4C53274ED6B3E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MvDsGetInfoFromMcc` | 1 | Exported Function
-`MvGetMccFromGeoId` | 2 | Exported Function
-`ValidateMnc` | 3 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
 `DllGetActivationFactory` | 5 | Exported Function
 `DllGetClassObject` | 6 | Exported Function
+`MvDsGetInfoFromMcc` | 1 | Exported Function
+`MvGetMccFromGeoId` | 2 | Exported Function
+`ValidateMnc` | 3 | Exported Function
 
 
 ## Signature

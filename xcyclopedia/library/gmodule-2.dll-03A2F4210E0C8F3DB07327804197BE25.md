@@ -25,14 +25,14 @@ PE256 | `3920F7DF39E4699D499243B38C28188E00797FAF893DB3A6341E334979B3FA13`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`g_module_open_utf8` | 6 | Exported Function
-`g_module_name_utf8` | 5 | Exported Function
-`g_module_symbol` | 8 | Exported Function
-`g_module_supported` | 7 | Exported Function
-`g_module_close` | 2 | Exported Function
 `g_module_build_path` | 1 | Exported Function
-`g_module_make_resident` | 4 | Exported Function
+`g_module_close` | 2 | Exported Function
 `g_module_error` | 3 | Exported Function
+`g_module_make_resident` | 4 | Exported Function
+`g_module_name_utf8` | 5 | Exported Function
+`g_module_open_utf8` | 6 | Exported Function
+`g_module_supported` | 7 | Exported Function
+`g_module_symbol` | 8 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `60B92963893573BB10B0FFD1E4308A2B9B93C65BA2ABAA285402409DB2E4A472`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SLIsGenuineLocal` | 228 | Exported Function
 `Ordinal227` | 227 | Exported Function
+`SLIsGenuineLocal` | 228 | Exported Function
 
 
 ## Signature

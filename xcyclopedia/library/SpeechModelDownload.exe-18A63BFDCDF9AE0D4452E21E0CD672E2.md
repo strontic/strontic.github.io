@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\Speech_OneCore\Common\SpeechModelDownload.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/04a16f385d2992cf329f73bab3bcb8dd76acf132c9944d98b2eee9a05605ed0a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/04a16f385d2992cf329f73bab3bcb8dd76acf132c9944d98b2eee9a05605ed0a/detection
 
 
 

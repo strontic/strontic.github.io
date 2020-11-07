@@ -26,15 +26,15 @@ PE256 | `C433FD99B038E755A90A9131974052B7265BB624AB89D162B2FE155182E92B6F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShaderCache_Flush` | 7 | Exported Function
-`ShaderCache_FindValue` | 6 | Exported Function
-`ShaderCache_GetDesc` | 9 | Exported Function
-`ShaderCache_FreeValue` | 8 | Exported Function
-`ShaderCache_Destroy` | 5 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`ShaderCache_Create` | 4 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 `ShaderCache_AddValue` | 3 | Exported Function
+`ShaderCache_Create` | 4 | Exported Function
+`ShaderCache_Destroy` | 5 | Exported Function
+`ShaderCache_FindValue` | 6 | Exported Function
+`ShaderCache_Flush` | 7 | Exported Function
+`ShaderCache_FreeValue` | 8 | Exported Function
+`ShaderCache_GetDesc` | 9 | Exported Function
 
 
 ## Signature

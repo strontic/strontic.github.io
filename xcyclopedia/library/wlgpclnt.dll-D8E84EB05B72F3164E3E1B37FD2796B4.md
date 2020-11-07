@@ -26,10 +26,10 @@ PE256 | `8FB83A4E2CC057AB43B00EEA8D7EF55E6A53072274C3B2D00BA17632B53B8298`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WLGPADeInit` | 3 | Exported Function
-`WLGPAInit` | 4 | Exported Function
 `GenerateWLANPolicy` | 1 | Exported Function
 `ProcessWLANPolicyEx` | 2 | Exported Function
+`WLGPADeInit` | 3 | Exported Function
+`WLGPAInit` | 4 | Exported Function
 
 
 ## Signature

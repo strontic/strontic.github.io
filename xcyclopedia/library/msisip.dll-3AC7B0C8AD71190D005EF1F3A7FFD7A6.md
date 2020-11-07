@@ -26,14 +26,14 @@ PE256 | `1BDE0CA4897FD1979E17D54ACD4DB3BF0E8DF9525B3383667956B86BE7957D98`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsiSIPPutSignedDataMsg` | 7 | Exported Function
-`MsiSIPIsMyTypeOfFile` | 5 | Exported Function
-`MsiSIPVerifyIndirectData` | 10 | Exported Function
-`MsiSIPRemoveSignedDataMsg` | 8 | Exported Function
-`DllUnregisterServer` | 12 | Exported Function
 `DllRegisterServer` | 11 | Exported Function
-`MsiSIPGetSignedDataMsg` | 6 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
 `MsiSIPCreateIndirectData` | 9 | Exported Function
+`MsiSIPGetSignedDataMsg` | 6 | Exported Function
+`MsiSIPIsMyTypeOfFile` | 5 | Exported Function
+`MsiSIPPutSignedDataMsg` | 7 | Exported Function
+`MsiSIPRemoveSignedDataMsg` | 8 | Exported Function
+`MsiSIPVerifyIndirectData` | 10 | Exported Function
 
 
 ## Signature

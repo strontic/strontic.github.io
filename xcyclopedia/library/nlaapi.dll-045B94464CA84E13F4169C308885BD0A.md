@@ -26,36 +26,36 @@ PE256 | `8B3314B978AACF28CDD7A7FA33365F8A80C84E8E37AB175CA1817FE39224BE76`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NlaGetIntranetCapability` | 21 | Exported Function
-`NlaIndicateReprobe` | 22 | Exported Function
-`NlaNotEqual` | 23 | Exported Function
-`NlaGetInternetCapability` | 20 | Exported Function
-`NlaEqual` | 17 | Exported Function
-`NlaEqualNetSignatures` | 18 | Exported Function
-`NlaGetCaptivePortalHosts` | 19 | Exported Function
-`NlaOpenQuery` | 24 | Exported Function
+`LANIdFreeCollection` | 1 | Exported Function
 `NlaRefreshQuery` | 29 | Exported Function
+`NlaQueryNetSignatures` | 28 | Exported Function
+`NlaQueryNetDataEx` | 27 | Exported Function
+`NlaQueryNetData` | 26 | Exported Function
+`NlaOr` | 25 | Exported Function
+`NlaOpenQuery` | 24 | Exported Function
+`NlaNotEqual` | 23 | Exported Function
+`NlaIndicateReprobe` | 22 | Exported Function
+`NlaGetIntranetCapability` | 21 | Exported Function
+`NlaGetInternetCapability` | 20 | Exported Function
+`NlaGetCaptivePortalHosts` | 19 | Exported Function
+`NlaEqualNetSignatures` | 18 | Exported Function
+`NlaEqual` | 17 | Exported Function
+`NlaDeleteTypeSet` | 16 | Exported Function
+`NlaDeletePluginRequests` | 15 | Exported Function
+`NlaDeleteFilter` | 14 | Exported Function
+`NlaDeleteDataSet` | 13 | Exported Function
+`NlaDecomposeNetSignature` | 12 | Exported Function
+`NlaCreateTypeSet` | 11 | Exported Function
+`NlaCreatePluginRequests` | 10 | Exported Function
+`NlaCreateFilter` | 9 | Exported Function
+`NlaComposeNetSignature` | 8 | Exported Function
+`NlaCloseQuery` | 7 | Exported Function
+`NlaAnd` | 6 | Exported Function
+`NlaAddToTypeSet` | 5 | Exported Function
+`NlaAddToPluginRequests` | 4 | Exported Function
+`LANIdRetrieveCollection` | 2 | Exported Function
 `NlaRegisterQuery` | 30 | Exported Function
 `NSPStartup` | 3 | Exported Function
-`NlaQueryNetSignatures` | 28 | Exported Function
-`NlaOr` | 25 | Exported Function
-`NlaQueryNetData` | 26 | Exported Function
-`NlaQueryNetDataEx` | 27 | Exported Function
-`NlaAnd` | 6 | Exported Function
-`NlaCloseQuery` | 7 | Exported Function
-`NlaComposeNetSignature` | 8 | Exported Function
-`NlaAddToTypeSet` | 5 | Exported Function
-`LANIdFreeCollection` | 1 | Exported Function
-`LANIdRetrieveCollection` | 2 | Exported Function
-`NlaAddToPluginRequests` | 4 | Exported Function
-`NlaCreateFilter` | 9 | Exported Function
-`NlaDeleteFilter` | 14 | Exported Function
-`NlaDeletePluginRequests` | 15 | Exported Function
-`NlaDeleteTypeSet` | 16 | Exported Function
-`NlaDeleteDataSet` | 13 | Exported Function
-`NlaCreatePluginRequests` | 10 | Exported Function
-`NlaCreateTypeSet` | 11 | Exported Function
-`NlaDecomposeNetSignature` | 12 | Exported Function
 
 
 ## Signature

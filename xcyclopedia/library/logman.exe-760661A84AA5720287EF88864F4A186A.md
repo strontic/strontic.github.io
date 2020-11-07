@@ -207,6 +207,11 @@ C:\Windows\SysWOW64\logman.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/9777ed488531b9e50b3b255743173a0490dbe93554974b3501a5f01f164e8454/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\logman.exe](logman.exe-6D2B1E2C3199BD27E2E532089C178AEE.md) | 94
 
 
 ## Additional Info*

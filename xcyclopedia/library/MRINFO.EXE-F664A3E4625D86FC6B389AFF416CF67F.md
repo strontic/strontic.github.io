@@ -58,8 +58,8 @@ C:\Windows\SysWOW64\MRINFO.EXE |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -76,8 +76,8 @@ C:\Windows\SysWOW64\MRINFO.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/4e02cb071b535096151deb19675b5544d4da97584e782bf6993e9fd1e9b2007d/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/4e02cb071b535096151deb19675b5544d4da97584e782bf6993e9fd1e9b2007d/detection
 
 ## File Similarity (ssdeep match)
 

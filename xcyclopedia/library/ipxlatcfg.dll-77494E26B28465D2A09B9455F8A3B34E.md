@@ -26,9 +26,9 @@ PE256 | `CBE506D269B10987469DF104DB82FCF7A30C2DAEE68B4C75CF16EF6F5FE70B74`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
-`Enable464xlat` | 3 | Exported Function
 `Disable464xlat` | 2 | Exported Function
+`Enable464xlat` | 3 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

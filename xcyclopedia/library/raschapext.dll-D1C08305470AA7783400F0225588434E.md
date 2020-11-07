@@ -26,18 +26,18 @@ PE256 | `600A9DB622EF2BEDDC672BA065A5DCF76B2B271AD002508D015D1C6172821018`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RasChapExt_GetUserCredentials` | 9 | Exported Function
-`RasChapExt_GetConfigKeepCredentialsOnFailure` | 8 | Exported Function
-`RasChapExt_GetConfigIgnoreIASLogon` | 7 | Exported Function
-`RasChapExt_ShowHelp` | 12 | Exported Function
-`RasChapExt_InvokeInteractiveUI` | 11 | Exported Function
-`RasChapExt_InvokeConfigUI` | 10 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`RasChapExt_GetConfigForceNotDomainJoined` | 6 | Exported Function
-`RasChapExt_FreeMemory` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
+`RasChapExt_FreeMemory` | 5 | Exported Function
+`RasChapExt_GetConfigForceNotDomainJoined` | 6 | Exported Function
+`RasChapExt_GetConfigIgnoreIASLogon` | 7 | Exported Function
+`RasChapExt_GetConfigKeepCredentialsOnFailure` | 8 | Exported Function
+`RasChapExt_GetUserCredentials` | 9 | Exported Function
+`RasChapExt_InvokeConfigUI` | 10 | Exported Function
+`RasChapExt_InvokeInteractiveUI` | 11 | Exported Function
+`RasChapExt_ShowHelp` | 12 | Exported Function
 
 
 ## Signature

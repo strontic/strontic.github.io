@@ -26,9 +26,9 @@ PE256 | `900EE2525F7ED8E0862F8F654B5995EB64D0731A0D8BEA55DB9F6145EC90C99A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Uninstall` | 1 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`Uninstall` | 1 | Exported Function
 
 
 ## Signature

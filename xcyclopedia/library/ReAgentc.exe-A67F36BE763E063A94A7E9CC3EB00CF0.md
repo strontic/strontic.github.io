@@ -119,6 +119,11 @@ C:\Windows\SysWOW64\ReAgentc.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/fa698e4b50cc76abfbf99e5d27c81d19c26f2af529ef4d2568a2f9aba436e455/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\ReAgentc.exe](ReAgentc.exe-C73CD2CAD0C74A17E53B0B72DAA1509E.md) | 41
 
 
 

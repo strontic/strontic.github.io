@@ -26,8 +26,8 @@ PE256 | `11BA147D344F820E1C84DF0C59EB72E5B160845AF904001FF5353CAC5758E883`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VpnWscGetProductInfo` | 2 | Exported Function
 `VpnWscFreeProductInfo` | 1 | Exported Function
+`VpnWscGetProductInfo` | 2 | Exported Function
 
 
 ## Signature

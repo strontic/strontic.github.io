@@ -26,17 +26,17 @@ PE256 | `0BF6ADB7F19F010D3573DF4B08849E38764673FD6C1F5DCE880660651DC0CF53`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CimDeletePath` | 8 | Exported Function
-`CimCreateImage` | 7 | Exported Function
-`CimDismountImage` | 9 | Exported Function
-`CimWriteStream` | 11 | Exported Function
-`CimMountImage` | 10 | Exported Function
-`CimCreateHardLink` | 6 | Exported Function
-`CimCloseStream` | 2 | Exported Function
 `CimCloseImage` | 1 | Exported Function
+`CimCloseStream` | 2 | Exported Function
 `CimCommitImage` | 3 | Exported Function
-`CimCreateFile` | 5 | Exported Function
 `CimCreateAlternateStream` | 4 | Exported Function
+`CimCreateFile` | 5 | Exported Function
+`CimCreateHardLink` | 6 | Exported Function
+`CimCreateImage` | 7 | Exported Function
+`CimDeletePath` | 8 | Exported Function
+`CimDismountImage` | 9 | Exported Function
+`CimMountImage` | 10 | Exported Function
+`CimWriteStream` | 11 | Exported Function
 
 
 ## Signature

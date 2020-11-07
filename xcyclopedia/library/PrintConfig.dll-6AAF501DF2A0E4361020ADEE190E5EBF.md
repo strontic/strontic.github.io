@@ -26,29 +26,29 @@ PE256 | `5451E7B9783F9EBD72C7D13A9F6464471A31A3BB785F951B58D287A2E3F8757A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrvQueryJobAttributes` | 273 | Exported Function
-`DrvResetConfigCache` | 255 | Exported Function
-`DrvQueryColorProfile` | 272 | Exported Function
-`DrvPopulateFilterServices` | 270 | Exported Function
-`DrvPrinterEvent` | 271 | Exported Function
-`DrvSplDeviceCaps` | 254 | Exported Function
-`NotifyEntry` | 275 | Exported Function
-`ServiceMain` | 257 | Exported Function
-`MxdcGetPDEVAdjustment` | 256 | Exported Function
-`DrvUpgradePrinter` | 274 | Exported Function
-`GetStandardMessageForPrinterStatus` | 300 | Exported Function
-`DrvDriverEvent` | 269 | Exported Function
-`DllMain` | 261 | Exported Function
-`DllRegisterServer` | 262 | Exported Function
-`DllGetClassObject` | 260 | Exported Function
 `DevQueryPrintEx` | 258 | Exported Function
-`DllCanUnloadNow` | 259 | Exported Function
-`DllUnregisterServer` | 263 | Exported Function
+`MxdcGetPDEVAdjustment` | 256 | Exported Function
+`GetStandardMessageForPrinterStatus` | 300 | Exported Function
+`DrvUpgradePrinter` | 274 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
+`DrvResetConfigCache` | 255 | Exported Function
+`DrvQueryJobAttributes` | 273 | Exported Function
+`DrvQueryColorProfile` | 272 | Exported Function
+`DrvPrinterEvent` | 271 | Exported Function
+`DrvPopulateFilterServices` | 270 | Exported Function
+`NotifyEntry` | 275 | Exported Function
+`DrvDriverEvent` | 269 | Exported Function
 `DrvDocumentEvent` | 267 | Exported Function
-`DrvDocumentPropertySheets` | 268 | Exported Function
 `DrvDevicePropertySheets` | 266 | Exported Function
-`DrvConvertDevMode` | 264 | Exported Function
 `DrvDeviceCapabilities` | 265 | Exported Function
+`DrvConvertDevMode` | 264 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllMain` | 261 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DrvDocumentPropertySheets` | 268 | Exported Function
+`ServiceMain` | 257 | Exported Function
 
 
 ## Signature

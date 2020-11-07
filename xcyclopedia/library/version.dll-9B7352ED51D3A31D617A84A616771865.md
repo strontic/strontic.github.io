@@ -26,23 +26,23 @@ PE256 | `B0BEF8E5D3B98663FA5CCA7B6C1890137A0B959B7C7DBF1CF60FAC76808495A0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VerInstallFileA` | 12 | Exported Function
-`VerInstallFileW` | 13 | Exported Function
-`VerFindFileA` | 10 | Exported Function
-`VerFindFileW` | 11 | Exported Function
-`VerQueryValueA` | 16 | Exported Function
-`VerQueryValueW` | 17 | Exported Function
-`VerLanguageNameA` | 14 | Exported Function
-`VerLanguageNameW` | 15 | Exported Function
-`GetFileVersionInfoW` | 9 | Exported Function
-`GetFileVersionInfoExA` | 3 | Exported Function
-`GetFileVersionInfoExW` | 4 | Exported Function
 `GetFileVersionInfoA` | 1 | Exported Function
-`GetFileVersionInfoByHandle` | 2 | Exported Function
+`VerLanguageNameW` | 15 | Exported Function
+`VerLanguageNameA` | 14 | Exported Function
+`VerInstallFileW` | 13 | Exported Function
+`VerInstallFileA` | 12 | Exported Function
+`VerFindFileW` | 11 | Exported Function
+`VerFindFileA` | 10 | Exported Function
+`VerQueryValueA` | 16 | Exported Function
+`GetFileVersionInfoW` | 9 | Exported Function
 `GetFileVersionInfoSizeExW` | 7 | Exported Function
-`GetFileVersionInfoSizeW` | 8 | Exported Function
-`GetFileVersionInfoSizeA` | 5 | Exported Function
 `GetFileVersionInfoSizeExA` | 6 | Exported Function
+`GetFileVersionInfoSizeA` | 5 | Exported Function
+`GetFileVersionInfoExW` | 4 | Exported Function
+`GetFileVersionInfoExA` | 3 | Exported Function
+`GetFileVersionInfoByHandle` | 2 | Exported Function
+`GetFileVersionInfoSizeW` | 8 | Exported Function
+`VerQueryValueW` | 17 | Exported Function
 
 
 ## Signature
@@ -195,6 +195,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Csc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Csc.yml) | `Description: Use CSC.EXE to compile C# code stored in File.cs and output the compiled version to My.exe.` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Csc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Csc.yml) | `Description: Use CSC.EXE to compile C# code stored in File.cs and output the compiled version to a dll file.` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [MpCmdRun.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/MpCmdRun.yml) | `Description: Download file to specified path - Slashes work as well as dashes (/DownloadFile, /url, /path) [updated version to bypass Windows 10 mitigation]` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Coregen.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Coregen.yml) | `Description: Binary coregen.exe (Microsoft CoreCLR Native Image Generator) loads exported function GetCLRRuntimeHost from coreclr.dll or from .DLL in arbitrary path. Coregen is located within "C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\" or another version of Silverlight. Coregen is signed by Microsoft and bundled with Microsoft Silverlight.` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dotnet.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dotnet.yml) | `Description: dotnet.exe with msbuild (SDK Version) will execute unsigned code` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqlps.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqlps.yml) | `Description: Tool included with Microsoft SQL Server that loads SQL Server cmdlets. Microsoft SQL Server\100 and 110 are Powershell v2. Microsoft SQL Server\120 and 130 are Powershell version 4. Replaced by SQLToolsPS.exe in SQL Server 2016, but will be included with installation for compatability reasons.` | 
 [malware-ioc](https://github.com/eset/malware-ioc) | [358bb04f6a0bf8ce88d23b2e620ac01b28d307ab80286f6ee2dcc484a6b1a5d0.pem](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/358bb04f6a0bf8ce88d23b2e620ac01b28d307ab80286f6ee2dcc484a6b1a5d0.pem) | `Version: 3 (0x2)` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
@@ -386,9 +387,6 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1574.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md) | Adversaries can take advantage of insecure library loading by PowerShell to load a vulnerable version of amsi.dll in order to bypass AMSI (Anti-Malware Scanning Interface) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [contributing.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/contributing.md) | *NOTE: An updated version of this contributing reference is found over on the Wiki [here](https://github.com/redcanaryco/atomic-red-team/wiki/Contributing) * | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [contributing.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/contributing.md) | If you want to see what the pretty Markdown version of your Atomic Test is going to look like,  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [execution-frameworks](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/README.md) | Within each T# folder you will find a yaml file that defines the commands to be run during the test, and an easier to read markdown (md) version of the same thing. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [execution-frameworks](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/README.md) | Ruby version of the execution framework. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [python](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/contrib/python/README.md) | - Upgrade pip to the latest version: "pip install --upgrade pip" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [airbnb_binaryalert.yar](https://github.com/Neo23x0/signature-base/blob/master/vendor/yara/airbnb_binaryalert.yar) | $a5 = "Pmem driver version incompatible. Reported" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt19.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt19.yar) | version=".1" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt30_backspace.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt30_backspace.yar) | $s0 = "Version 4.7.3001" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

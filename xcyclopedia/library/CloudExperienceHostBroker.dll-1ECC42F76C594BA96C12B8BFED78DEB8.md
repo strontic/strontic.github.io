@@ -26,10 +26,10 @@ PE256 | `B4BDFABEFDF8FC53B79FB88F4BFD107763213014CE6C34D8218AAD75C5589C27`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`GetProxyDllInfo` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GetProxyDllInfo` | 4 | Exported Function
 
 
 ## Signature

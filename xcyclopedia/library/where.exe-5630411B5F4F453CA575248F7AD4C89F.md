@@ -79,6 +79,9 @@ Type "WHERE /?" for usage help.
 
 ```
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |
@@ -111,8 +114,8 @@ C:\Windows\SysWOW64\where.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/d591f730f356d7623d8b6dfe5df48cb994322ca98f88ce2278efd4090767dfa0/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d591f730f356d7623d8b6dfe5df48cb994322ca98f88ce2278efd4090767dfa0/detection
 
 
 ## Possible Misuse

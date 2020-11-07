@@ -26,10 +26,10 @@ PE256 | `76BE8391E560F9546DBF6F7E2D61271FDA98279442C7EB1C54E4F295B91748C4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptCATAdminCatalogDatabase` | 2 | Exported Function
-`CryptsvcDllCtrl` | 3 | Exported Function
 `CatDbOfflineRebuildDatabasesRundll32W` | 1 | Exported Function
 `CatDbOfflineRebuildDatabasesW` | 4 | Exported Function
+`CryptCATAdminCatalogDatabase` | 2 | Exported Function
+`CryptsvcDllCtrl` | 3 | Exported Function
 
 
 ## Signature

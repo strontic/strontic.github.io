@@ -141,8 +141,8 @@ C:\Windows\SysWOW64\tasklist.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/62
-* VirusTotal Link: https://www.virustotal.com/gui/file/76eac7b5f53e0d58a98d5a6ddf9c97e19d1462ef65c0035d7798f89988b15ab4/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/76eac7b5f53e0d58a98d5a6ddf9c97e19d1462ef65c0035d7798f89988b15ab4/detection
 
 
 ## Possible Misuse

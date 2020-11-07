@@ -35,8 +35,7 @@ File Download
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\~DF47B34C20F66C87BF.TMP | File
-(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
+(R--)   C:\Users\user\AppData\Local\Temp\~DF6D4EE4BF85D38EEE.TMP | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
@@ -48,31 +47,34 @@ Path | Type
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\ieframe.dll | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Users\user\Documents\help | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\help | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RWD)   C:\Users\user | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DFE091C8EED9C0D352.TMP | File
-(RWD)   C:\Users\user\Documents | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF8DFED5DBD46ABBF9.TMP | File
 (RWD)   C:\Windows\Fonts | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\614HWNDInterface:5096c | Section
-\Sessions\1\BaseNamedObjects\614HWNDInterface:5097a | Section
+\Sessions\1\BaseNamedObjects\1068HWNDInterface:3099e | Section
+\Sessions\1\BaseNamedObjects\1068HWNDInterface:609ce | Section
 \Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -89,8 +91,8 @@ C:\Windows\SysWOW64\hh.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -107,8 +109,8 @@ C:\Windows\SysWOW64\hh.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/a83add413df07efb9a6609f1b2d677521b5060e2d01678b3cdbf6b805592efd5/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/a83add413df07efb9a6609f1b2d677521b5060e2d01678b3cdbf6b805592efd5/detection
 
 ## File Similarity (ssdeep match)
 

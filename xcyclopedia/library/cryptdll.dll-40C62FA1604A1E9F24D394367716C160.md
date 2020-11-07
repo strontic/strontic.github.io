@@ -26,26 +26,26 @@ PE256 | `F4E52AAB42C19A46D4BEC563C51E0FC88592B66BC13CD465656E1B4120130B1C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CDRegisterRng` | 12 | Exported Function
+`aesCTSDecryptMsg` | 19 | Exported Function
+`MD5Init` | 16 | Exported Function
+`MD5Final` | 15 | Exported Function
+`KRBFXCF2` | 14 | Exported Function
 `HMACwithSHA` | 13 | Exported Function
+`CDRegisterRng` | 12 | Exported Function
 `CDRegisterCSystem` | 10 | Exported Function
-`CDLocateRng` | 9 | Exported Function
 `CDRegisterCheckSum` | 11 | Exported Function
+`CDLocateRng` | 9 | Exported Function
+`CDLocateCSystem` | 7 | Exported Function
+`CDLocateCheckSum` | 8 | Exported Function
+`CDGetIntegrityVect` | 6 | Exported Function
+`CDGenerateRandomBits` | 5 | Exported Function
+`CDFindCommonCSystemWithKey` | 4 | Exported Function
+`CDFindCommonCSystem` | 3 | Exported Function
+`CDBuildVect` | 2 | Exported Function
+`CDBuildIntegrityVect` | 1 | Exported Function
+`aesCTSEncryptMsg` | 20 | Exported Function
 `MD5Update` | 17 | Exported Function
 `PBKDF2` | 18 | Exported Function
-`MD5Init` | 16 | Exported Function
-`KRBFXCF2` | 14 | Exported Function
-`MD5Final` | 15 | Exported Function
-`CDBuildVect` | 2 | Exported Function
-`CDFindCommonCSystem` | 3 | Exported Function
-`CDBuildIntegrityVect` | 1 | Exported Function
-`aesCTSDecryptMsg` | 19 | Exported Function
-`aesCTSEncryptMsg` | 20 | Exported Function
-`CDLocateCheckSum` | 8 | Exported Function
-`CDLocateCSystem` | 7 | Exported Function
-`CDGetIntegrityVect` | 6 | Exported Function
-`CDFindCommonCSystemWithKey` | 4 | Exported Function
-`CDGenerateRandomBits` | 5 | Exported Function
 
 
 ## Signature

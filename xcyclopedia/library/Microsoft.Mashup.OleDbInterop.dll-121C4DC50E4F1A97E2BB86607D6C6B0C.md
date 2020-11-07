@@ -25,24 +25,24 @@ PE256 | `F18B570966064F227AFEAEAF9DBBE2F10E07DC8152BC385ADC4684FA6A8559FA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_PInvokeGetErrorInfo@12` | 12 | Exported Function
-`_PInvokeGetManagedObjectHandle@8` | 13 | Exported Function
-`_PInvokeAggregateSession@32` | 10 | Exported Function
-`_PInvokeCleanupManagedRefs@4` | 11 | Exported Function
+`_ComAggregateCommand@16` | 1 | Exported Function
+`_PInvokeSetErrorInfo@12` | 16 | Exported Function
+`_PInvokeRelease@4` | 15 | Exported Function
 `_PInvokeQueryInterface@12` | 14 | Exported Function
+`_PInvokeGetManagedObjectHandle@8` | 13 | Exported Function
+`_PInvokeGetErrorInfo@12` | 12 | Exported Function
+`_PInvokeCleanupManagedRefs@4` | 11 | Exported Function
+`_PInvokeAggregateSession@32` | 10 | Exported Function
+`_PInvokeAggregateRowset@32` | 9 | Exported Function
+`_PInvokeAggregateDataSource@32` | 8 | Exported Function
+`_PInvokeAggregateCommand@32` | 7 | Exported Function
+`_PInvokeAddRef@4` | 6 | Exported Function
+`_GetData@28` | 5 | Exported Function
+`_ComAggregateSession@16` | 4 | Exported Function
+`_ComAggregateRowset@16` | 3 | Exported Function
+`_ComAggregateDataSource@16` | 2 | Exported Function
 `_PInvokeTestIDBInitialize@8` | 17 | Exported Function
 `_PInvokeWrapSetErrorInfo@28` | 18 | Exported Function
-`_PInvokeRelease@4` | 15 | Exported Function
-`_PInvokeSetErrorInfo@12` | 16 | Exported Function
-`_ComAggregateRowset@16` | 3 | Exported Function
-`_ComAggregateSession@16` | 4 | Exported Function
-`_ComAggregateCommand@16` | 1 | Exported Function
-`_ComAggregateDataSource@16` | 2 | Exported Function
-`_GetData@28` | 5 | Exported Function
-`_PInvokeAggregateDataSource@32` | 8 | Exported Function
-`_PInvokeAggregateRowset@32` | 9 | Exported Function
-`_PInvokeAddRef@4` | 6 | Exported Function
-`_PInvokeAggregateCommand@32` | 7 | Exported Function
 
 
 ## Signature

@@ -55,6 +55,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\system32\appidcertstorecheck.exe](appidcertstorecheck.exe-8402EB60F76D15A0DB80E0419F3A0106.md) | 96
+[C:\Windows\system32\appidcertstorecheck.exe](appidcertstorecheck.exe-ADE6B1F9E5A36ADA6F1483E331746AA5.md) | 82
 
 
 

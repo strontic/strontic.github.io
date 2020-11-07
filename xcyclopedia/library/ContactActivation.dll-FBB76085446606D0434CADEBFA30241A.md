@@ -26,13 +26,13 @@ PE256 | `C9F1FB4C1875FD55F421EC15519686318F3E32150942B86042E90BDF92AAC646`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SerializeContactToVCard` | 5 | Exported Function
-`ShowContactPickerAsync` | 6 | Exported Function
-`VCardStringToContact` | 7 | Exported Function
-`SerializeContactToString` | 4 | Exported Function
 `AwaitContactPickerResults` | 1 | Exported Function
 `ContactToVCardString` | 2 | Exported Function
 `DeserializeContactFromString` | 3 | Exported Function
+`SerializeContactToString` | 4 | Exported Function
+`SerializeContactToVCard` | 5 | Exported Function
+`ShowContactPickerAsync` | 6 | Exported Function
+`VCardStringToContact` | 7 | Exported Function
 
 
 ## Signature

@@ -60,8 +60,8 @@ C:\Windows\system32\OpenSSH\ssh-agent.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/79c03e83b42e3c0402680b47a2493c3c506e2d212062859bd7c4ebaca46f3ad5/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/79c03e83b42e3c0402680b47a2493c3c506e2d212062859bd7c4ebaca46f3ad5/detection
 
 ## File Similarity (ssdeep match)
 

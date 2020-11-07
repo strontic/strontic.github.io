@@ -26,10 +26,10 @@ PE256 | `E8B8BE067255F36957014A7B8638C04F1A7FAFAE77DDA4778119A781C6D58084`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PlaySoundServerInitialize` | 3 | Exported Function
-`PlaySoundServerTerminate` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`PlaySoundServerInitialize` | 3 | Exported Function
+`PlaySoundServerTerminate` | 4 | Exported Function
 
 
 ## Signature

@@ -28,6 +28,7 @@ PE256 | `D6D3D9C65068198B89F8E3A992C1BF6460B3479F4365E15FD6389D44022A1CC0`
 
 Path |
 -- |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
@@ -35,6 +36,8 @@ C:\Windows\system32\Microsoft.Uev.SyncController.exe |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -58,8 +61,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/d0b753fc637891aae7fb08ad4b4efdc693689ee8e6a9b7145e15e495493972f3/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/d0b753fc637891aae7fb08ad4b4efdc693689ee8e6a9b7145e15e495493972f3/detection
 
 ## File Similarity (ssdeep match)
 

@@ -58,6 +58,11 @@ C:\Windows\system32\wowreg32.exe |
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/0a3d73c61d5ff6a7e477ebc5bb2746d091599a75d218999a5c8db1cd7d54171c/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wowreg32.exe](wowreg32.exe-A94E8C8C8D5D5F7BCD38C9EE5C1C08BF.md) | 60
 
 
 

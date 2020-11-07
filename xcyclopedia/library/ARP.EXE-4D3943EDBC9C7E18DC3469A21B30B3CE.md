@@ -75,8 +75,8 @@ C:\Windows\SysWOW64\ARP.EXE |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -93,8 +93,8 @@ C:\Windows\SysWOW64\ARP.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/f9c384659e3c66fb0af5f18d19a16ae11910aefd3beafe2170f937fd521e0391/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/f9c384659e3c66fb0af5f18d19a16ae11910aefd3beafe2170f937fd521e0391/detection
 
 
 ## Possible Misuse

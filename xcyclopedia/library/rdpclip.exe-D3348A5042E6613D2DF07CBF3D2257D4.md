@@ -29,11 +29,34 @@ PE256 | `B6DCFA67E90042BBB38E16D379A5E4DD9E80C693F981256716FAA36F6C814F12`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTBASE.DLL |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
 C:\Windows\system32\rdpclip.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\setupapi.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINSPOOL.DRV |
+C:\Windows\system32\WINSTA.dll |
+C:\Windows\system32\WTSAPI32.dll |
 
 
 ## Signature
@@ -57,8 +80,8 @@ C:\Windows\system32\rdpclip.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/8ab6e280b961d73082c5f6c67e843cb2f8b666dffa4104995dafc454432847d6/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/8ab6e280b961d73082c5f6c67e843cb2f8b666dffa4104995dafc454432847d6/detection
 
 
 ## Possible Misuse

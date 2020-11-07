@@ -26,11 +26,11 @@ PE256 | `57047E8DF823D136DAC5C6D8F5E50A2DBCA170C217909FE0246B1AF8B9DC417D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetActivationFactory` | 1 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
 `BthEvtBrCreateBroker` | 2 | Exported Function
 `BthEvtBrDeleteBroker` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetActivationFactory` | 1 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature

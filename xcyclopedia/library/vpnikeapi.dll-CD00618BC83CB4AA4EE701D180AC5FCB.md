@@ -26,30 +26,30 @@ PE256 | `D91D1D57B8E04FC4A684F6DB79A3E7F17657CBC915F9019B4738C65EA0FC8099`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessConfigurationPayloadReply` | 16 | Exported Function
-`ProcessConfigurationPayloadRequest` | 17 | Exported Function
-`ProcessEapAuthPacket` | 18 | Exported Function
-`GetTrafficSelectorsRequest` | 13 | Exported Function
-`NewRasIncomingCall` | 14 | Exported Function
-`ProcessAdditionalAddressNotification` | 15 | Exported Function
+`CancelProcessEapAuthPacket` | 1 | Exported Function
 `RemoveTrafficSelectors` | 22 | Exported Function
+`QueryEapAuthAttributes` | 21 | Exported Function
+`ProcessTrafficSelectorsRequest` | 20 | Exported Function
+`ProcessTrafficSelectorsReply` | 19 | Exported Function
+`ProcessEapAuthPacket` | 18 | Exported Function
+`ProcessConfigurationPayloadRequest` | 17 | Exported Function
+`ProcessConfigurationPayloadReply` | 16 | Exported Function
+`ProcessAdditionalAddressNotification` | 15 | Exported Function
+`NewRasIncomingCall` | 14 | Exported Function
+`GetTrafficSelectorsRequest` | 13 | Exported Function
+`GetServerEapAuthRequestPacket` | 12 | Exported Function
+`GetOptionalIDrPayload` | 11 | Exported Function
+`GetIDPayload` | 10 | Exported Function
+`GetConfigurationPayloadRequest` | 9 | Exported Function
+`FreeTrafficSelectors` | 8 | Exported Function
+`FreeIDPayloadBuffer` | 7 | Exported Function
+`FreeEapAuthPacket` | 6 | Exported Function
+`FreeEapAuthAttributes` | 5 | Exported Function
+`FreeConfigurationPayloadBuffer` | 4 | Exported Function
+`CreateTunnel` | 3 | Exported Function
+`CloseTunnel` | 2 | Exported Function
 `TunnelAuthDone` | 23 | Exported Function
 `UpdateTunnel` | 24 | Exported Function
-`ProcessTrafficSelectorsReply` | 19 | Exported Function
-`ProcessTrafficSelectorsRequest` | 20 | Exported Function
-`QueryEapAuthAttributes` | 21 | Exported Function
-`FreeConfigurationPayloadBuffer` | 4 | Exported Function
-`FreeEapAuthAttributes` | 5 | Exported Function
-`FreeEapAuthPacket` | 6 | Exported Function
-`CancelProcessEapAuthPacket` | 1 | Exported Function
-`CloseTunnel` | 2 | Exported Function
-`CreateTunnel` | 3 | Exported Function
-`GetIDPayload` | 10 | Exported Function
-`GetOptionalIDrPayload` | 11 | Exported Function
-`GetServerEapAuthRequestPacket` | 12 | Exported Function
-`FreeIDPayloadBuffer` | 7 | Exported Function
-`FreeTrafficSelectors` | 8 | Exported Function
-`GetConfigurationPayloadRequest` | 9 | Exported Function
 
 
 ## Signature

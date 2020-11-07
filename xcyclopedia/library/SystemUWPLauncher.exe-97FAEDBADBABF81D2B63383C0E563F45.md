@@ -24,9 +24,6 @@ PE256 | `8555629388E9F9155D254F73030D68FCFDC9C341737B1289C67ADE26B8AF61A3`
 
 ## Runtime Data
 
-### Child Processes:
-perfmon.exe
-
 ### Loaded Modules:
 
 Path |
@@ -59,8 +56,8 @@ C:\Windows\SysWOW64\SystemUWPLauncher.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/393462f20a4892225d4634b67a586f019b98c0a36a6966d2f9d2b9ee81711a4d/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/393462f20a4892225d4634b67a586f019b98c0a36a6966d2f9d2b9ee81711a4d/detection
 
 
 

@@ -26,10 +26,10 @@ PE256 | `21C3435101E759D484E540E26151AF8F87D1E8BF0BD068817654167696155F38`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ISO8601StringToSystemTime` | 3 | Exported Function
-`SystemTimeToISO8601String` | 4 | Exported Function
 `FileTimeToISO8601String` | 1 | Exported Function
 `ISO8601StringToFileTime` | 2 | Exported Function
+`ISO8601StringToSystemTime` | 3 | Exported Function
+`SystemTimeToISO8601String` | 4 | Exported Function
 
 
 ## Signature

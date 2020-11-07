@@ -26,15 +26,15 @@ PE256 | `8415024DF5ACF63AFDF6C2875502511F151A6B2088DE731CA7DB8660EC8EA29A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DSOpenSharedFile` | 7 | Exported Function
-`DSGetSharingTokenInformation` | 6 | Exported Function
-`DSRemoveSharingToken` | 9 | Exported Function
-`DSRemoveExpiredTokens` | 8 | Exported Function
-`DSGetSharedFileName` | 5 | Exported Function
-`DSCreateSharedFileToken` | 2 | Exported Function
 `DSCopyFromSharedFile` | 1 | Exported Function
-`DSFreeString` | 4 | Exported Function
+`DSCreateSharedFileToken` | 2 | Exported Function
 `DSDelegateSharingToken` | 3 | Exported Function
+`DSFreeString` | 4 | Exported Function
+`DSGetSharedFileName` | 5 | Exported Function
+`DSGetSharingTokenInformation` | 6 | Exported Function
+`DSOpenSharedFile` | 7 | Exported Function
+`DSRemoveExpiredTokens` | 8 | Exported Function
+`DSRemoveSharingToken` | 9 | Exported Function
 
 
 ## Signature

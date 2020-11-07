@@ -26,35 +26,35 @@ PE256 | `06E84F786E4358E1F62C1B72AD2FBDAB0C421BD1B760BFD2C3C3F009B07EAAB6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`D3DLoadModule` | 21 | Exported Function
-`D3DPreprocess` | 22 | Exported Function
-`D3DReadFileToBlob` | 23 | Exported Function
-`D3DGetTraceInstructionOffsets` | 20 | Exported Function
-`D3DGetInputAndOutputSignatureBlob` | 17 | Exported Function
-`D3DGetInputSignatureBlob` | 18 | Exported Function
-`D3DGetOutputSignatureBlob` | 19 | Exported Function
-`D3DStripShader` | 28 | Exported Function
-`D3DWriteBlobToFile` | 29 | Exported Function
-`DebugSetMute` | 2 | Exported Function
-`D3DSetBlobPart` | 27 | Exported Function
-`D3DReflect` | 24 | Exported Function
-`D3DReflectLibrary` | 25 | Exported Function
-`D3DReturnFailure1` | 26 | Exported Function
-`D3DGetDebugInfo` | 16 | Exported Function
-`D3DCompressShaders` | 6 | Exported Function
-`D3DCreateBlob` | 7 | Exported Function
-`D3DCreateFunctionLinkingGraph` | 8 | Exported Function
-`D3DCompileFromFile` | 5 | Exported Function
 `D3DAssemble` | 1 | Exported Function
-`D3DCompile` | 3 | Exported Function
-`D3DCompile2` | 4 | Exported Function
-`D3DDisassemble11Trace` | 13 | Exported Function
+`D3DStripShader` | 28 | Exported Function
+`D3DSetBlobPart` | 27 | Exported Function
+`D3DReturnFailure1` | 26 | Exported Function
+`D3DReflectLibrary` | 25 | Exported Function
+`D3DReflect` | 24 | Exported Function
+`D3DReadFileToBlob` | 23 | Exported Function
+`D3DPreprocess` | 22 | Exported Function
+`D3DLoadModule` | 21 | Exported Function
+`D3DGetTraceInstructionOffsets` | 20 | Exported Function
+`D3DGetOutputSignatureBlob` | 19 | Exported Function
+`D3DGetInputSignatureBlob` | 18 | Exported Function
+`D3DGetInputAndOutputSignatureBlob` | 17 | Exported Function
+`D3DWriteBlobToFile` | 29 | Exported Function
+`D3DGetDebugInfo` | 16 | Exported Function
 `D3DDisassembleRegion` | 14 | Exported Function
-`D3DGetBlobPart` | 15 | Exported Function
+`D3DDisassemble11Trace` | 13 | Exported Function
 `D3DDisassemble10Effect` | 12 | Exported Function
-`D3DCreateLinker` | 9 | Exported Function
-`D3DDecompressShaders` | 10 | Exported Function
 `D3DDisassemble` | 11 | Exported Function
+`D3DDecompressShaders` | 10 | Exported Function
+`D3DCreateLinker` | 9 | Exported Function
+`D3DCreateFunctionLinkingGraph` | 8 | Exported Function
+`D3DCreateBlob` | 7 | Exported Function
+`D3DCompressShaders` | 6 | Exported Function
+`D3DCompileFromFile` | 5 | Exported Function
+`D3DCompile2` | 4 | Exported Function
+`D3DCompile` | 3 | Exported Function
+`D3DGetBlobPart` | 15 | Exported Function
+`DebugSetMute` | 2 | Exported Function
 
 
 ## Signature

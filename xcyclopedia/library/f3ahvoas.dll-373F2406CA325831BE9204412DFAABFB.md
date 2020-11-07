@@ -26,9 +26,9 @@ PE256 | `ED9052215DCD86F3DC357B140316419A27CC3BE4F1A1E7F240E6473E56F86C95`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KbdNlsLayerDescriptor` | 2 | Exported Function
-`KbdLayerDescriptor` | 1 | Exported Function
 `FujitsuOyayubiControl` | 16 | Exported Function
+`KbdLayerDescriptor` | 1 | Exported Function
+`KbdNlsLayerDescriptor` | 2 | Exported Function
 
 
 ## Signature

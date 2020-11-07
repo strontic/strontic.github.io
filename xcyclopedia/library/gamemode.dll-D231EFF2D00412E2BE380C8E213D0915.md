@@ -26,14 +26,14 @@ PE256 | `17FC35F085767FC6A357F8AC94255D971E6670F9061811C40687BC1461CDD22C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsixvcUpdatePolicyString` | 6 | Exported Function
-`MsixvcRemediateMutablePackagesForVolumeAsync` | 5 | Exported Function
-`ReleaseExclusiveCpuSets` | 8 | Exported Function
-`MsixvcUpdatePolicyUInt64` | 7 | Exported Function
-`HasExpandedResources` | 2 | Exported Function
 `GetExpandedResourceExclusiveCpuCount` | 1 | Exported Function
-`MsixvcAddPackageAsync` | 4 | Exported Function
+`HasExpandedResources` | 2 | Exported Function
 `MsixvcAddGameToGCS` | 3 | Exported Function
+`MsixvcAddPackageAsync` | 4 | Exported Function
+`MsixvcRemediateMutablePackagesForVolumeAsync` | 5 | Exported Function
+`MsixvcUpdatePolicyString` | 6 | Exported Function
+`MsixvcUpdatePolicyUInt64` | 7 | Exported Function
+`ReleaseExclusiveCpuSets` | 8 | Exported Function
 
 
 ## Signature

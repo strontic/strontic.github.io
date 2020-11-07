@@ -121,8 +121,8 @@ C:\Windows\system32\wevtutil.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/4a727688b939e08c26064ea08dcff29b3d4608d28820874030524f79b4b1cca8/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/4a727688b939e08c26064ea08dcff29b3d4608d28820874030524f79b4b1cca8/detection
 
 
 ## Possible Misuse

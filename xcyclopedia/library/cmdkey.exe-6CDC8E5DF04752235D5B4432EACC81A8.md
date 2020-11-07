@@ -89,8 +89,8 @@ C:\Windows\SysWOW64\cmdkey.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 1/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/da8059f55ec94dfcb0e75fa43fa6bbc794070e50defc00216fc42710cfa58825/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/da8059f55ec94dfcb0e75fa43fa6bbc794070e50defc00216fc42710cfa58825/detection
 
 
 ## Possible Misuse

@@ -26,8 +26,8 @@ PE256 | `6A04E738B65330AED741B019A0C6D7172E4FF2CCCFB0F09D6CA5407E3E2D394F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SHGetFolderPathW` | 2 | Exported Function
 `SHGetFolderPathA` | 1 | Exported Function
+`SHGetFolderPathW` | 2 | Exported Function
 
 
 ## Signature

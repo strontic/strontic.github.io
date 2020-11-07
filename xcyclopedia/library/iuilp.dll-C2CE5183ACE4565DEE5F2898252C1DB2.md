@@ -26,11 +26,11 @@ PE256 | `777605AF54C1EE487134DF4D9567230AE56AB8245C00CCD85E64DFEA4B047BE5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetLayoutPolicy` | 4 | Exported Function
-`GetLayoutPolicyCheckerInstance` | 3 | Exported Function
-`GetDefaultAppsList` | 2 | Exported Function
 `CloseLayoutPolicyCheckerInstance` | 5 | Exported Function
 `GetAllDefaultApps` | 6 | Exported Function
+`GetDefaultAppsList` | 2 | Exported Function
+`GetLayoutPolicy` | 4 | Exported Function
+`GetLayoutPolicyCheckerInstance` | 3 | Exported Function
 
 
 ## Signature

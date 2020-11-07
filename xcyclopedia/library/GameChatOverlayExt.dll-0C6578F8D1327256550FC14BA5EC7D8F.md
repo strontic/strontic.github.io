@@ -26,9 +26,9 @@ PE256 | `10A0B2B9924B90A70D6941FB94613A0C4DBD0F2C9B146D4BBE3D92D06C299FBE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GcoSetDesiredPosition` | 3 | Exported Function
-`GcoGetDesiredPosition` | 2 | Exported Function
 `GcoAddMessage` | 1 | Exported Function
+`GcoGetDesiredPosition` | 2 | Exported Function
+`GcoSetDesiredPosition` | 3 | Exported Function
 
 
 ## Signature

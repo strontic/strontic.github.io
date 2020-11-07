@@ -26,32 +26,32 @@ PE256 | `41851140768A773F4CC61786522942A0062B03BCB79D8290282A6292FF61C32A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Dot3ReasonCodeToString` | 18 | Exported Function
-`Dot3ReConnect` | 17 | Exported Function
-`Dot3RegisterNotification` | 19 | Exported Function
-`Dot3QueryAutoConfigParameter` | 14 | Exported Function
-`Dot3QueryPlapCredentials` | 15 | Exported Function
-`Dot3QueryUIRequest` | 16 | Exported Function
-`Dot3SetAutoConfigParameter` | 20 | Exported Function
+`Dot3CancelPlap` | 1 | Exported Function
 `Dot3SetProfileEapXmlUserData` | 24 | Exported Function
+`Dot3SetProfileEapUserData` | 23 | Exported Function
+`Dot3SetProfile` | 22 | Exported Function
+`Dot3SetInterface` | 21 | Exported Function
+`Dot3SetAutoConfigParameter` | 20 | Exported Function
+`Dot3RegisterNotification` | 19 | Exported Function
+`Dot3ReConnect` | 17 | Exported Function
+`Dot3ReasonCodeToString` | 18 | Exported Function
+`Dot3QueryUIRequest` | 16 | Exported Function
+`Dot3QueryPlapCredentials` | 15 | Exported Function
+`Dot3QueryAutoConfigParameter` | 14 | Exported Function
+`Dot3OpenHandle` | 13 | Exported Function
+`Dot3InitPlapParams` | 12 | Exported Function
+`Dot3GetProfileEapUserDataInfo` | 11 | Exported Function
+`Dot3GetProfile` | 10 | Exported Function
+`Dot3GetInterfaceState` | 9 | Exported Function
+`Dot3GetCurrentProfile` | 8 | Exported Function
+`Dot3FreeMemory` | 7 | Exported Function
+`Dot3EnumInterfaces` | 6 | Exported Function
+`Dot3DoPlap` | 5 | Exported Function
+`Dot3DeleteProfile` | 4 | Exported Function
+`Dot3DeinitPlapParams` | 3 | Exported Function
+`Dot3CloseHandle` | 2 | Exported Function
 `Dot3UIResponse` | 25 | Exported Function
 `QueryNetconStatus` | 26 | Exported Function
-`Dot3SetInterface` | 21 | Exported Function
-`Dot3SetProfile` | 22 | Exported Function
-`Dot3SetProfileEapUserData` | 23 | Exported Function
-`Dot3DeleteProfile` | 4 | Exported Function
-`Dot3DoPlap` | 5 | Exported Function
-`Dot3EnumInterfaces` | 6 | Exported Function
-`Dot3CancelPlap` | 1 | Exported Function
-`Dot3CloseHandle` | 2 | Exported Function
-`Dot3DeinitPlapParams` | 3 | Exported Function
-`Dot3FreeMemory` | 7 | Exported Function
-`Dot3GetProfileEapUserDataInfo` | 11 | Exported Function
-`Dot3InitPlapParams` | 12 | Exported Function
-`Dot3OpenHandle` | 13 | Exported Function
-`Dot3GetCurrentProfile` | 8 | Exported Function
-`Dot3GetInterfaceState` | 9 | Exported Function
-`Dot3GetProfile` | 10 | Exported Function
 
 
 ## Signature

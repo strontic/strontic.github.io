@@ -28,13 +28,22 @@ PE256 | `1D05C65CA92DB1AB52B91800FAC5BE86012213C0416173B6FA652FC6DA0F36D0`
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
 C:\Windows\system32\dmcfghost.exe |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\DMPushProxy.dll |
+C:\Windows\system32\dmxmlhelputils.dll |
+C:\Windows\system32\dsclient.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -59,8 +68,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/460d46fd4f0196d3483d5c3831017c931b8e34837cc873fb68c1d3239907f455/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/460d46fd4f0196d3483d5c3831017c931b8e34837cc873fb68c1d3239907f455/detection
 
 
 

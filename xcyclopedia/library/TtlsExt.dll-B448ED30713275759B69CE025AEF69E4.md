@@ -26,19 +26,19 @@ PE256 | `F81BCA4397FE42D183992618AE70299232A140164DEB6B67AE49546C06C16134`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TtlsExt_GetUserCredentials` | 12 | Exported Function
-`TtlsExt_GetContextData` | 11 | Exported Function
-`TtlsExt_GetConfigForceNotDomainJoined` | 10 | Exported Function
-`TtlsExt_ShowHelp` | 13 | Exported Function
-`TtlsExt_InvokeServerAuthentication` | 3 | Exported Function
-`TtlsExt_InvokeNonEapMethodUI` | 2 | Exported Function
-`TtlsExt_GetConfigCacheOnlyCertValidation` | 9 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
 `DllCanUnloadNow` | 4 | Exported Function
-`TtlsExt_FreeMemoryExt` | 8 | Exported Function
-`TtlsExt_EapPeerInvokeConfigUI` | 1 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
+`TtlsExt_EapPeerInvokeConfigUI` | 1 | Exported Function
+`TtlsExt_FreeMemoryExt` | 8 | Exported Function
+`TtlsExt_GetConfigCacheOnlyCertValidation` | 9 | Exported Function
+`TtlsExt_GetConfigForceNotDomainJoined` | 10 | Exported Function
+`TtlsExt_GetContextData` | 11 | Exported Function
+`TtlsExt_GetUserCredentials` | 12 | Exported Function
+`TtlsExt_InvokeNonEapMethodUI` | 2 | Exported Function
+`TtlsExt_InvokeServerAuthentication` | 3 | Exported Function
+`TtlsExt_ShowHelp` | 13 | Exported Function
 
 
 ## Signature

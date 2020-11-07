@@ -26,11 +26,11 @@ PE256 | `BB70AC5D12CADB2463A7565D583A01ACA7942DC3D216B5366078F003DA80C3B2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
-`SvchostPushServiceGlobals` | 2 | Exported Function
-`SensNotifyWinlogonEvent` | 5 | Exported Function
 `SensNotifyNetconEvent` | 3 | Exported Function
 `SensNotifyRasEvent` | 4 | Exported Function
+`SensNotifyWinlogonEvent` | 5 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
 
 
 ## Signature

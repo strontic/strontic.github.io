@@ -26,21 +26,21 @@ PE256 | `C5B4190B584118B2CE45C8A2A6CF4B3436AADAAECD64D8F4E237578F0FCC4FC3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MAPIRevokeMoniker@4` | 11 | Exported Function
-`MAPIRegisterMoniker@16` | 10 | Exported Function
-`MAPIIsRunningMoniker@4` | 9 | Exported Function
-`MAPIUninitializeROT@0` | 12 | Exported Function
-`UpdateMessageMonikerExceptionTime@8` | 15 | Exported Function
-`UpdateMessageMonikerEid@8` | 14 | Exported Function
-`SetMessageMonikerOpenFlags@8` | 13 | Exported Function
-`MAPIInitializeROT@0` | 8 | Exported Function
-`GetMessageMonikerOpenFlags@8` | 3 | Exported Function
-`GetMessageMonikerExceptionTime@8` | 2 | Exported Function
 `GetMessageMonikerEid@8` | 1 | Exported Function
+`GetMessageMonikerExceptionTime@8` | 2 | Exported Function
+`GetMessageMonikerOpenFlags@8` | 3 | Exported Function
 `IsMonikerRunning@12` | 4 | Exported Function
-`MAPIGetRunningObjectTable@4` | 7 | Exported Function
-`MAPICreateMonikerFromProps@48` | 6 | Exported Function
 `MAPICreateMoniker@8` | 5 | Exported Function
+`MAPICreateMonikerFromProps@48` | 6 | Exported Function
+`MAPIGetRunningObjectTable@4` | 7 | Exported Function
+`MAPIInitializeROT@0` | 8 | Exported Function
+`MAPIIsRunningMoniker@4` | 9 | Exported Function
+`MAPIRegisterMoniker@16` | 10 | Exported Function
+`MAPIRevokeMoniker@4` | 11 | Exported Function
+`MAPIUninitializeROT@0` | 12 | Exported Function
+`SetMessageMonikerOpenFlags@8` | 13 | Exported Function
+`UpdateMessageMonikerEid@8` | 14 | Exported Function
+`UpdateMessageMonikerExceptionTime@8` | 15 | Exported Function
 
 
 ## Signature

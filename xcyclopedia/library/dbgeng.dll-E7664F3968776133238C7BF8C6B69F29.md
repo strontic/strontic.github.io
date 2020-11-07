@@ -26,10 +26,10 @@ PE256 | `CF590549AD765155E39655134E72A2C90EBC46815451F8ADDB8EC9EBFF9BE450`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DebugCreate` | 330 | Exported Function
-`DebugCreateEx` | 331 | Exported Function
 `DebugConnect` | 328 | Exported Function
 `DebugConnectWide` | 329 | Exported Function
+`DebugCreate` | 330 | Exported Function
+`DebugCreateEx` | 331 | Exported Function
 
 
 ## Signature

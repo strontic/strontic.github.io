@@ -26,10 +26,10 @@ PE256 | `FFEFF31947000259DE09A4591592EDC958B1986BDE628292B99D0ACEE3D513FB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HrInitFileConverterDll` | 3 | Exported Function
-`TerminateFileConverterDll` | 4 | Exported Function
 `HrGetInboundConverter` | 1 | Exported Function
 `HrGetOutboundConverter` | 2 | Exported Function
+`HrInitFileConverterDll` | 3 | Exported Function
+`TerminateFileConverterDll` | 4 | Exported Function
 
 
 ## Signature

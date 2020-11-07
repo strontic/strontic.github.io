@@ -135,8 +135,8 @@ C:\Windows\SysWOW64\taskkill.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/4e664b35e8de6c6b38e3231dfaf00744435ffb806e00355fece1e0cc1d2121c1/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/4e664b35e8de6c6b38e3231dfaf00744435ffb806e00355fece1e0cc1d2121c1/detection
 
 
 ## Possible Misuse

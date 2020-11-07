@@ -26,10 +26,10 @@ PE256 | `BFD2A6851022B6F9FDAA4D539F5C042B2671B3148BCABE9C7BE702A82C5CA088`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 4 | Exported Function
-`InitializeDManipHook` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`InitializeDManipHook` | 1 | Exported Function
 
 
 ## Signature

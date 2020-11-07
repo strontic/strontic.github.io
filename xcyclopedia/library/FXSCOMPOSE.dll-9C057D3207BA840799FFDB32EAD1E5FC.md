@@ -26,21 +26,21 @@ PE256 | `37FEBA34703F42AD2E334006ADFA7FF978FCFA811531F244D90A36E26F116021`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HrInvokeAddressBook` | 10 | Exported Function
-`HrInitComposeFormDll` | 9 | Exported Function
-`HrInitAddressBook` | 8 | Exported Function
-`HrNewFaxComposeUI` | 11 | Exported Function
-`HrSelectEmailRecipient` | 14 | Exported Function
-`HrNewTiffViewUIFromFile` | 13 | Exported Function
-`HrNewFaxComposeUIFromFile` | 12 | Exported Function
-`HrGetDraftsListViewInfo` | 7 | Exported Function
-`HrAddressBookPreTranslateAccelerator` | 2 | Exported Function
-`FaxComposeFreeBuffer` | 1 | Exported Function
 `DllMain` | 15 | Exported Function
+`FaxComposeFreeBuffer` | 1 | Exported Function
+`HrAddressBookPreTranslateAccelerator` | 2 | Exported Function
 `HrDeInitAddressBook` | 3 | Exported Function
-`HrFreeDraftsListViewInfo` | 6 | Exported Function
-`HrFaxComposePreTranslateAccelerator` | 5 | Exported Function
 `HrDeinitComposeFormDll` | 4 | Exported Function
+`HrFaxComposePreTranslateAccelerator` | 5 | Exported Function
+`HrFreeDraftsListViewInfo` | 6 | Exported Function
+`HrGetDraftsListViewInfo` | 7 | Exported Function
+`HrInitAddressBook` | 8 | Exported Function
+`HrInitComposeFormDll` | 9 | Exported Function
+`HrInvokeAddressBook` | 10 | Exported Function
+`HrNewFaxComposeUI` | 11 | Exported Function
+`HrNewFaxComposeUIFromFile` | 12 | Exported Function
+`HrNewTiffViewUIFromFile` | 13 | Exported Function
+`HrSelectEmailRecipient` | 14 | Exported Function
 
 
 ## Signature

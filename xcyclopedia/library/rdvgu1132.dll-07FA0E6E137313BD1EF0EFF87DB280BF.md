@@ -26,8 +26,8 @@ PE256 | `D9E40A1436C29941CDAC1CF275327C59B548487AFC9624AFC0F76CDB67271314`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenAdapter10_2` | 2 | Exported Function
 `OpenAdapter10` | 1 | Exported Function
+`OpenAdapter10_2` | 2 | Exported Function
 
 
 ## Signature

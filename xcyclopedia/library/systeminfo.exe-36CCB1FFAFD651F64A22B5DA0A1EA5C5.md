@@ -102,8 +102,8 @@ C:\Windows\SysWOW64\systeminfo.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/f1e43f167059ff746e200b21ddc55326cd8b3acd7d6bd9c541230db6f8bc63d1/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/f1e43f167059ff746e200b21ddc55326cd8b3acd7d6bd9c541230db6f8bc63d1/detection
 
 
 ## Possible Misuse

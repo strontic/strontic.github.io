@@ -26,13 +26,13 @@ PE256 | `62031CE9A2AD068F523AF06323542BE31816A5F89FCB98ACF1329C7FCD46CF5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StopPerceptionSimulationControlUx` | 5 | Exported Function
-`TogglePerceptionSimulationControlUx` | 6 | Exported Function
-`UpdatePerceptionSimulationControlUx` | 7 | Exported Function
-`StartPerceptionSimulationControlUx` | 4 | Exported Function
 `CloseSimulationConnection` | 1 | Exported Function
 `HidePerceptionSimulationControlUx` | 2 | Exported Function
 `ShowPerceptionSimulationControlUx` | 3 | Exported Function
+`StartPerceptionSimulationControlUx` | 4 | Exported Function
+`StopPerceptionSimulationControlUx` | 5 | Exported Function
+`TogglePerceptionSimulationControlUx` | 6 | Exported Function
+`UpdatePerceptionSimulationControlUx` | 7 | Exported Function
 
 
 ## Signature

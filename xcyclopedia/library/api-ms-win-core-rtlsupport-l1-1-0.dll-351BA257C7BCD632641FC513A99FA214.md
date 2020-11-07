@@ -26,19 +26,19 @@ PE256 | `82369E1985FF98D92C0F7CBFAF347C2D3925EE726229B8695AA275DE0BE9766D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RtlRestoreContext` | 10 | Exported Function
-`RtlRaiseException` | 9 | Exported Function
-`RtlPcToFileHeader` | 8 | Exported Function
-`RtlVirtualUnwind` | 13 | Exported Function
-`RtlUnwindEx` | 12 | Exported Function
-`RtlUnwind` | 11 | Exported Function
-`RtlLookupFunctionEntry` | 7 | Exported Function
-`RtlCaptureStackBackTrace` | 3 | Exported Function
-`RtlCaptureContext` | 2 | Exported Function
 `RtlAddFunctionTable` | 1 | Exported Function
-`RtlInstallFunctionTableCallback` | 6 | Exported Function
-`RtlDeleteFunctionTable` | 5 | Exported Function
+`RtlCaptureContext` | 2 | Exported Function
+`RtlCaptureStackBackTrace` | 3 | Exported Function
 `RtlCompareMemory` | 4 | Exported Function
+`RtlDeleteFunctionTable` | 5 | Exported Function
+`RtlInstallFunctionTableCallback` | 6 | Exported Function
+`RtlLookupFunctionEntry` | 7 | Exported Function
+`RtlPcToFileHeader` | 8 | Exported Function
+`RtlRaiseException` | 9 | Exported Function
+`RtlRestoreContext` | 10 | Exported Function
+`RtlUnwind` | 11 | Exported Function
+`RtlUnwindEx` | 12 | Exported Function
+`RtlVirtualUnwind` | 13 | Exported Function
 
 
 ## Signature

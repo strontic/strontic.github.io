@@ -28,7 +28,6 @@ PE256 | `3F9DC14DBA11995D9B1F2F2A36B8B87F5CA7F0C2818AF92AABAB9A6620FE64EC`
 
 Path | Type
 -- | --
-(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\OpenWith.exe.mui | File
@@ -37,7 +36,7 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
 (R-D)   C:\Windows\SystemResources\twinui.dll.mun | File
 (R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\SysWOW64 | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
@@ -88,8 +87,8 @@ C:\Windows\SysWOW64\OpenWith.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/3a796e0d682bd590b4c0ac50c8bcf80fadc6331fe83fbd6f2de67148b4da7005/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3a796e0d682bd590b4c0ac50c8bcf80fadc6331fe83fbd6f2de67148b4da7005/detection
 
 ## File Similarity (ssdeep match)
 

@@ -94,8 +94,8 @@ C:\Windows\SysWOW64\fc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/9c52bfd3c2efd9dbc031112359f4f8c4b002b4c829d70862be100d17710dac01/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9c52bfd3c2efd9dbc031112359f4f8c4b002b4c829d70862be100d17710dac01/detection
 
 
 

@@ -26,15 +26,15 @@ PE256 | `FD0A7F62A020A89D3AAC990A8FE58459014E6743058151DB1D9EEBB7294F0814`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EasRegisterEncryptionProvider` | 7 | Exported Function
-`EasGetClientDeviceInformation` | 6 | Exported Function
-`EasUnRegisterEncryptionProvider` | 9 | Exported Function
-`EasShowConsentDialog` | 8 | Exported Function
-`EasClientSecurityPolicyCheckCompliance` | 5 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`EasClientSecurityPolicyApply` | 4 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`EasClientSecurityPolicyApply` | 4 | Exported Function
+`EasClientSecurityPolicyCheckCompliance` | 5 | Exported Function
+`EasGetClientDeviceInformation` | 6 | Exported Function
+`EasRegisterEncryptionProvider` | 7 | Exported Function
+`EasShowConsentDialog` | 8 | Exported Function
+`EasUnRegisterEncryptionProvider` | 9 | Exported Function
 
 
 ## Signature

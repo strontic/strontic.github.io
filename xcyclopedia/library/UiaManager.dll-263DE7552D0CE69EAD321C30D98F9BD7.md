@@ -26,11 +26,11 @@ PE256 | `69669FBB42243CD1CEBE5AE2830B330DEE5DAB5808C2A0144AAA040ACC5CE5CA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UiaInitCrossMachineConnection` | 1 | Exported Function
-`UiaInitCrossMachineConnectionW` | 2 | Exported Function
-`GetProxyDllInfo` | 5 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`GetProxyDllInfo` | 5 | Exported Function
+`UiaInitCrossMachineConnection` | 1 | Exported Function
+`UiaInitCrossMachineConnectionW` | 2 | Exported Function
 
 
 ## Signature

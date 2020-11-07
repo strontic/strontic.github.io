@@ -26,12 +26,12 @@ PE256 | `4546D2D7D36A343649F83C54B254CB6921ED0844BE821D26AE979A6DCF984979`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
-`SvchostPushServiceGlobals` | 2 | Exported Function
-`UninitializeService` | 6 | Exported Function
 `CreateInputMethodClient` | 3 | Exported Function
 `CreateKeyEventProcessor` | 4 | Exported Function
 `InitializeService` | 5 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`UninitializeService` | 6 | Exported Function
 
 
 ## Signature

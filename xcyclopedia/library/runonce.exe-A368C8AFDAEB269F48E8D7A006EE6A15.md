@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\runonce.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/e2031017207a33a6fa147a5bb6e32ad5788df03f783d424a0053ba1b16d561f5/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/e2031017207a33a6fa147a5bb6e32ad5788df03f783d424a0053ba1b16d561f5/detection
 
 
 ## Possible Misuse

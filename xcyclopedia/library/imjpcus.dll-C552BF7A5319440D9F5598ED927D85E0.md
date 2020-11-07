@@ -26,8 +26,8 @@ PE256 | `8C4079D4E25C5BB04F0A71F7EB1E4E67AA5304022404505EF0AF0A0084DF34C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenDetailDialog` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
+`OpenDetailDialog` | 1 | Exported Function
 
 
 ## Signature

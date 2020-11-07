@@ -25,16 +25,16 @@ PE256 | `4A614E933957A25B391B7416957DD2EDC8403AD01096F355DD039A6BFE698C02`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WmiEventSourceConnect` | 7 | Exported Function
-`WmiDestroyObject` | 6 | Exported Function
-`WmiEventSourceDisconnect` | 8 | Exported Function
-`WmiSetAndCommitObject` | 10 | Exported Function
-`WmiIsObjectActive` | 9 | Exported Function
-`WmiCommitObject` | 1 | Exported Function
 `WmiAddObjectProp` | 2 | Exported Function
+`WmiCommitObject` | 1 | Exported Function
 `WmiCreateObject` | 3 | Exported Function
-`WmiCreateObjectWithProps` | 5 | Exported Function
 `WmiCreateObjectWithFormat` | 4 | Exported Function
+`WmiCreateObjectWithProps` | 5 | Exported Function
+`WmiDestroyObject` | 6 | Exported Function
+`WmiEventSourceConnect` | 7 | Exported Function
+`WmiEventSourceDisconnect` | 8 | Exported Function
+`WmiIsObjectActive` | 9 | Exported Function
+`WmiSetAndCommitObject` | 10 | Exported Function
 
 
 ## Signature

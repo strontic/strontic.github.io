@@ -23,15 +23,6 @@ PE256 | `EA56B9F41E04E89E46A98E041F0C8B0D14003E12307DA76F5FDC6126422369EA`
 
 ## Runtime Data
 
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\xCyclopedia | File
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -66,8 +57,8 @@ C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\TextInp
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/c480752fba0e9daf476b548248a47a2c6bf14f3de8045945fbee9f9e92a7b41a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/c480752fba0e9daf476b548248a47a2c6bf14f3de8045945fbee9f9e92a7b41a/detection
 
 ## File Similarity (ssdeep match)
 

@@ -33,7 +33,6 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\system32\DEVOBJ.dll |
@@ -53,7 +52,6 @@ C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WorkFolders.exe |
 
@@ -79,8 +77,8 @@ C:\Windows\system32\WorkFolders.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/cfc058a712b0f1a0932e7fa1f17430eeaa231c41fdd1ead38639d603a8006aca/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/cfc058a712b0f1a0932e7fa1f17430eeaa231c41fdd1ead38639d603a8006aca/detection
 
 ## File Similarity (ssdeep match)
 

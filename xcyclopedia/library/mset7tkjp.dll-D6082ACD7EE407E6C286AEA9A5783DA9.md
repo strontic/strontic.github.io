@@ -26,11 +26,11 @@ PE256 | `E495E776F69E296940042FE16FF9AB6C830A5257828752C02AB0840AF0403284`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TokenizerTerminate` | 22 | Exported Function
-`TokenizerTokenize` | 20 | Exported Function
-`TokenizerInit` | 21 | Exported Function
 `DllCanUnloadNow` | 23 | Exported Function
 `DllGetClassObject` | 24 | Exported Function
+`TokenizerInit` | 21 | Exported Function
+`TokenizerTerminate` | 22 | Exported Function
+`TokenizerTokenize` | 20 | Exported Function
 
 
 ## Signature

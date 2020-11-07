@@ -26,9 +26,9 @@ PE256 | `88BA0E76F3E3860576F2190300EDD31B97F57F3B3D2288D52F7FFD73109E847B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SKCacheFlush` | 2 | Exported Function
-`SetAuditingInterface` | 3 | Exported Function
 `GetKeyStorageInterface` | 1 | Exported Function
+`SetAuditingInterface` | 3 | Exported Function
+`SKCacheFlush` | 2 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `B9BE0C1B4A48E7ACD1BD186D31F86212794A824F0A9602242B054F9D98BD7C70`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InfoHook` | 6 | Exported Function
-`WGDlgProc` | 5 | Exported Function
-`DSM_Entry` | 1 | Exported Function
 `AboutDlgProc` | 4 | Exported Function
 `ChooseDlgProc` | 3 | Exported Function
+`DSM_Entry` | 1 | Exported Function
+`InfoHook` | 6 | Exported Function
+`WGDlgProc` | 5 | Exported Function
 
 
 ## Signature

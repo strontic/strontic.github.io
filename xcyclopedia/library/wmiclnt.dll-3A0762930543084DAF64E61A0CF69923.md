@@ -26,35 +26,35 @@ PE256 | `C3A697AB8EBB8F496B11A511BACC451A9559E2D9EC2133389BA4C9D56A11D14A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WmiQuerySingleInstanceA` | 20 | Exported Function
-`WmiQuerySingleInstanceMultipleA` | 21 | Exported Function
-`WmiQuerySingleInstanceMultipleW` | 22 | Exported Function
-`WmiQueryGuidInformation` | 19 | Exported Function
-`WmiQueryAllDataMultipleA` | 16 | Exported Function
-`WmiQueryAllDataMultipleW` | 17 | Exported Function
-`WmiQueryAllDataW` | 18 | Exported Function
-`WmiSetSingleInstanceW` | 27 | Exported Function
-`WmiSetSingleItemA` | 28 | Exported Function
-`WmiSetSingleItemW` | 29 | Exported Function
-`WmiSetSingleInstanceA` | 26 | Exported Function
-`WmiQuerySingleInstanceW` | 23 | Exported Function
-`WmiReceiveNotificationsA` | 24 | Exported Function
-`WmiReceiveNotificationsW` | 25 | Exported Function
-`WmiQueryAllDataA` | 15 | Exported Function
-`WmiExecuteMethodA` | 5 | Exported Function
-`WmiExecuteMethodW` | 6 | Exported Function
-`WmiFileHandleToInstanceNameA` | 7 | Exported Function
-`WmiEnumerateGuids` | 4 | Exported Function
 `WmiCloseBlock` | 1 | Exported Function
-`WmiDevInstToInstanceNameA` | 2 | Exported Function
-`WmiDevInstToInstanceNameW` | 3 | Exported Function
-`WmiNotificationRegistrationA` | 12 | Exported Function
+`WmiSetSingleInstanceW` | 27 | Exported Function
+`WmiSetSingleInstanceA` | 26 | Exported Function
+`WmiReceiveNotificationsW` | 25 | Exported Function
+`WmiReceiveNotificationsA` | 24 | Exported Function
+`WmiQuerySingleInstanceW` | 23 | Exported Function
+`WmiQuerySingleInstanceMultipleW` | 22 | Exported Function
+`WmiQuerySingleInstanceMultipleA` | 21 | Exported Function
+`WmiQuerySingleInstanceA` | 20 | Exported Function
+`WmiQueryGuidInformation` | 19 | Exported Function
+`WmiQueryAllDataW` | 18 | Exported Function
+`WmiQueryAllDataMultipleW` | 17 | Exported Function
+`WmiQueryAllDataMultipleA` | 16 | Exported Function
+`WmiSetSingleItemA` | 28 | Exported Function
+`WmiQueryAllDataA` | 15 | Exported Function
 `WmiNotificationRegistrationW` | 13 | Exported Function
-`WmiOpenBlock` | 14 | Exported Function
+`WmiNotificationRegistrationA` | 12 | Exported Function
 `WmiMofEnumerateResourcesW` | 11 | Exported Function
-`WmiFileHandleToInstanceNameW` | 8 | Exported Function
-`WmiFreeBuffer` | 9 | Exported Function
 `WmiMofEnumerateResourcesA` | 10 | Exported Function
+`WmiFreeBuffer` | 9 | Exported Function
+`WmiFileHandleToInstanceNameW` | 8 | Exported Function
+`WmiFileHandleToInstanceNameA` | 7 | Exported Function
+`WmiExecuteMethodW` | 6 | Exported Function
+`WmiExecuteMethodA` | 5 | Exported Function
+`WmiEnumerateGuids` | 4 | Exported Function
+`WmiDevInstToInstanceNameW` | 3 | Exported Function
+`WmiDevInstToInstanceNameA` | 2 | Exported Function
+`WmiOpenBlock` | 14 | Exported Function
+`WmiSetSingleItemW` | 29 | Exported Function
 
 
 ## Signature

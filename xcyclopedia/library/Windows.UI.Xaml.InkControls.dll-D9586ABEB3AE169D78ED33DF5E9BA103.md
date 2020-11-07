@@ -26,11 +26,11 @@ PE256 | `F033B3198F5A4A7337ED26B9D2771598E6C5B7BD3B64E6AB77EBC8EA10F59CD9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDependencyLocatorStorage` | 4 | Exported Function
-`XamlTestHookFreeInkControlsResourceLibrary` | 5 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GetDependencyLocatorStorage` | 4 | Exported Function
+`XamlTestHookFreeInkControlsResourceLibrary` | 5 | Exported Function
 
 
 ## Signature

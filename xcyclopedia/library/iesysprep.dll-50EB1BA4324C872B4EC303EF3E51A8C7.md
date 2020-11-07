@@ -26,11 +26,11 @@ PE256 | `C54B22552A41D7CD7A4204C387115D5A3091F69ECF5179BCA6957188F7902B09`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Online_Specialize_IE` | 4 | Exported Function
-`Sysprep_Specialize_IE` | 5 | Exported Function
-`Sysprep_Offline_Specialize_IE` | 3 | Exported Function
 `Sysprep_Cleanup_IE` | 1 | Exported Function
 `Sysprep_Generalize_IE` | 2 | Exported Function
+`Sysprep_Offline_Specialize_IE` | 3 | Exported Function
+`Sysprep_Online_Specialize_IE` | 4 | Exported Function
+`Sysprep_Specialize_IE` | 5 | Exported Function
 
 
 ## Signature

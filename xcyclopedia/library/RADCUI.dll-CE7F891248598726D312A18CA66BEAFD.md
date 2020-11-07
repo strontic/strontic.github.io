@@ -26,10 +26,10 @@ PE256 | `CB6C1D15168DBF5F2DBBBC1FCFC4502EF926701FC118010A28DE142F6A693664`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DUIRemoveSubscriptionDialogModal` | 2 | Exported Function
-`DUISubscribeWizardModal` | 1 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`DUIRemoveSubscriptionDialogModal` | 2 | Exported Function
+`DUISubscribeWizardModal` | 1 | Exported Function
 
 
 ## Signature

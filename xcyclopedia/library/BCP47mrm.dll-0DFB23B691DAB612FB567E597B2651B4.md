@@ -26,23 +26,23 @@ PE256 | `FF72E8C00E6173F7CEC65D84094C1834C64AC9494CABD62BAA54E5E346C8A22B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetLanguageDirectionality` | 12 | Exported Function
-`GetMrtDisplayLanguageList` | 13 | Exported Function
-`GetCompositeRegionCode` | 10 | Exported Function
-`GetDistanceOfClosestLanguageInList` | 11 | Exported Function
-`IsValidUnIsoRegionTag` | 16 | Exported Function
-`IsWellFormedTag` | 17 | Exported Function
-`GetParentCompositeRegionCode` | 14 | Exported Function
-`IsValidTag` | 15 | Exported Function
-`GetClosenessOfUnIsoRegionTags` | 9 | Exported Function
-`Bcp47IsValid` | 3 | Exported Function
-`CompareBcp47Tags` | 4 | Exported Function
 `Bcp47GetDistanceCString` | 1 | Exported Function
-`Bcp47GetNeutralFormCString` | 2 | Exported Function
+`IsValidTag` | 15 | Exported Function
+`GetParentCompositeRegionCode` | 14 | Exported Function
+`GetMrtDisplayLanguageList` | 13 | Exported Function
+`GetLanguageDirectionality` | 12 | Exported Function
+`GetDistanceOfClosestLanguageInList` | 11 | Exported Function
+`GetCompositeRegionCode` | 10 | Exported Function
+`IsValidUnIsoRegionTag` | 16 | Exported Function
+`GetClosenessOfUnIsoRegionTags` | 9 | Exported Function
 `GetApplicationLanguagesWithUserLanguagesFallback` | 7 | Exported Function
-`GetApplicationLayoutDirection` | 8 | Exported Function
-`FormatLanguageList` | 5 | Exported Function
 `FormatLanguageTag` | 6 | Exported Function
+`FormatLanguageList` | 5 | Exported Function
+`CompareBcp47Tags` | 4 | Exported Function
+`Bcp47IsValid` | 3 | Exported Function
+`Bcp47GetNeutralFormCString` | 2 | Exported Function
+`GetApplicationLayoutDirection` | 8 | Exported Function
+`IsWellFormedTag` | 17 | Exported Function
 
 
 ## Signature

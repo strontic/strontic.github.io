@@ -26,13 +26,13 @@ PE256 | `06F235CDFD2871AB64ED252F660B0D1E537D72844108227574AF791B6D0CF42C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HvlRegisterRuntimeRange` | 5 | Exported Function
-`HvlRescindVsm` | 6 | Exported Function
-`HvlUpdateMcUpdateStatus` | 7 | Exported Function
-`HvlPreloadHypervisor` | 4 | Exported Function
 `HvlExchangeDispatchInterface` | 1 | Exported Function
 `HvlLaunchHypervisor` | 2 | Exported Function
 `HvlLoadHypervisor` | 3 | Exported Function
+`HvlPreloadHypervisor` | 4 | Exported Function
+`HvlRegisterRuntimeRange` | 5 | Exported Function
+`HvlRescindVsm` | 6 | Exported Function
+`HvlUpdateMcUpdateStatus` | 7 | Exported Function
 
 
 ## Signature

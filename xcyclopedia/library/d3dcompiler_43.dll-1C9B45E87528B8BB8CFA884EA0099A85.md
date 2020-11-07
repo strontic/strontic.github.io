@@ -26,23 +26,23 @@ PE256 | `62811E4A977874912721FA23058FD0A4467506F8E7D759D9666B7D63386CA8E1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`D3DGetOutputSignatureBlob` | 13 | Exported Function
-`D3DPreprocess` | 14 | Exported Function
-`D3DGetInputAndOutputSignatureBlob` | 11 | Exported Function
-`D3DGetInputSignatureBlob` | 12 | Exported Function
-`D3DStripShader` | 17 | Exported Function
-`DebugSetMute` | 2 | Exported Function
-`D3DReflect` | 15 | Exported Function
-`D3DReturnFailure1` | 16 | Exported Function
-`D3DGetDebugInfo` | 10 | Exported Function
-`D3DCompressShaders` | 4 | Exported Function
-`D3DCreateBlob` | 5 | Exported Function
 `D3DAssemble` | 1 | Exported Function
-`D3DCompile` | 3 | Exported Function
+`D3DReturnFailure1` | 16 | Exported Function
+`D3DReflect` | 15 | Exported Function
+`D3DPreprocess` | 14 | Exported Function
+`D3DGetOutputSignatureBlob` | 13 | Exported Function
+`D3DGetInputSignatureBlob` | 12 | Exported Function
+`D3DGetInputAndOutputSignatureBlob` | 11 | Exported Function
+`D3DStripShader` | 17 | Exported Function
+`D3DGetDebugInfo` | 10 | Exported Function
 `D3DDisassemble10Effect` | 7 | Exported Function
-`D3DGetBlobPart` | 9 | Exported Function
-`D3DDecompressShaders` | 6 | Exported Function
 `D3DDisassemble` | 8 | Exported Function
+`D3DDecompressShaders` | 6 | Exported Function
+`D3DCreateBlob` | 5 | Exported Function
+`D3DCompressShaders` | 4 | Exported Function
+`D3DCompile` | 3 | Exported Function
+`D3DGetBlobPart` | 9 | Exported Function
+`DebugSetMute` | 2 | Exported Function
 
 
 ## Signature

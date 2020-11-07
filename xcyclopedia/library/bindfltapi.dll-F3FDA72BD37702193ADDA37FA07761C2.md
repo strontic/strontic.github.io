@@ -26,15 +26,15 @@ PE256 | `26956D46AA891FBA28F1B8E3C8D55B3F107232BAD7B88206FF6F5EA5D3545898`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BfSetupFilterBatched` | 7 | Exported Function
-`BfSetupFilter` | 6 | Exported Function
-`BfTrackWritesFromSilo` | 9 | Exported Function
-`BfSetupFilterEx` | 8 | Exported Function
-`BfRemoveMappingEx` | 5 | Exported Function
-`BfGenerateBatchedConfig` | 2 | Exported Function
 `BfAttachFilter` | 1 | Exported Function
-`BfRemoveMapping` | 4 | Exported Function
+`BfGenerateBatchedConfig` | 2 | Exported Function
 `BfGetMappings` | 3 | Exported Function
+`BfRemoveMapping` | 4 | Exported Function
+`BfRemoveMappingEx` | 5 | Exported Function
+`BfSetupFilter` | 6 | Exported Function
+`BfSetupFilterBatched` | 7 | Exported Function
+`BfSetupFilterEx` | 8 | Exported Function
+`BfTrackWritesFromSilo` | 9 | Exported Function
 
 
 ## Signature

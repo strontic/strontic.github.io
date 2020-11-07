@@ -26,14 +26,14 @@ PE256 | `964712BA7EE53C02B005D3067B40C323B4E2847D3D07D957F7D5B18B0735FFFB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`struct HINSTANCE__ * __ptr64 __cdecl AfxLoadLibrary(unsigned short const * __ptr64)` | 1487 | Exported Function
-`int __cdecl AfxFreeLibrary(struct HINSTANCE__ * __ptr64)` | 1446 | Exported Function
-`void __cdecl AfxUnlockGlobals(int)` | 1576 | Exported Function
-`void __cdecl AfxLockGlobals(int)` | 1490 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
 `DllCanUnloadNow` | 7 | Exported Function
-`DllUnregisterServer` | 10 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
 `DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`int __cdecl AfxFreeLibrary(struct HINSTANCE__ * __ptr64)` | 1446 | Exported Function
+`struct HINSTANCE__ * __ptr64 __cdecl AfxLoadLibrary(unsigned short const * __ptr64)` | 1487 | Exported Function
+`void __cdecl AfxLockGlobals(int)` | 1490 | Exported Function
+`void __cdecl AfxUnlockGlobals(int)` | 1576 | Exported Function
 
 
 ## Signature

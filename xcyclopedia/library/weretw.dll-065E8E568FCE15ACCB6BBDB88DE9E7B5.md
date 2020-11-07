@@ -26,8 +26,8 @@ PE256 | `F1E8731C24FDFB7FCD50DA58AF3643E4749A345EDBA9E7FA444E05261114FAC1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WerMergeEtlEx` | 2 | Exported Function
 `WerMergeEtl` | 1 | Exported Function
+`WerMergeEtlEx` | 2 | Exported Function
 
 
 ## Signature

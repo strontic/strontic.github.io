@@ -26,10 +26,10 @@ PE256 | `5597692AC1D74A4ECC71F734EEF2621CE7AFC1645081D1A976DA97B92F23AA5B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetUserPreferenceValue` | 179 | Exported Function
-`UserProfileServiceMain` | 176 | Exported Function
 `GetExclusionListFromRegistry` | 177 | Exported Function
 `GetUserChoiceForSlowLink` | 178 | Exported Function
+`GetUserPreferenceValue` | 179 | Exported Function
+`UserProfileServiceMain` | 176 | Exported Function
 
 
 ## Signature

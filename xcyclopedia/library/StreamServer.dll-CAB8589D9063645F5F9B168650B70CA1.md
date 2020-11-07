@@ -26,26 +26,26 @@ PE256 | `78E6CC6E03ED12B6D937232822188B3C6D0B90BE0DF4E848F2DF0C1AB2D83C70`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PipelineGetTotalProgress` | 12 | Exported Function
+`int __cdecl PipelineForceAllStreamUnitsIntoTheForeground(void)` | 6 | Exported Function
+`PipelineLoadAll` | 16 | Exported Function
+`PipelineLoad` | 15 | Exported Function
+`PipelineInvalidateStreamSessionClientContext` | 14 | Exported Function
 `PipelineInitialize` | 13 | Exported Function
+`PipelineGetTotalProgress` | 12 | Exported Function
 `PipelineGetTotalMegabytes` | 11 | Exported Function
-`PipelineGetNumberOfFilesToUpdate` | 9 | Exported Function
 `PipelineGetStreamedMegabytes` | 10 | Exported Function
+`PipelineGetNumberOfFilesToUpdate` | 9 | Exported Function
+`PipelineGetFilesToRemove` | 8 | Exported Function
+`PipelineGetFilesForOp` | 7 | Exported Function
+`PipelineDeInitialize` | 5 | Exported Function
+`PipelineCloseStreamSession` | 4 | Exported Function
+`PipelineCloseFiles` | 3 | Exported Function
+`PipelineCleanFiles` | 2 | Exported Function
+`PipelineCancelLoadAll` | 1 | Exported Function
+`int __cdecl PipelineWatchWorkingManifest(wchar_t const * __ptr64)` | 20 | Exported Function
+`std::shared_ptr` | 19 | Exported Function
 `PipelineLoadEx` | 17 | Exported Function
 `PipelineOpenStreamSession` | 18 | Exported Function
-`PipelineLoadAll` | 16 | Exported Function
-`PipelineInvalidateStreamSessionClientContext` | 14 | Exported Function
-`PipelineLoad` | 15 | Exported Function
-`PipelineCancelLoadAll` | 1 | Exported Function
-`PipelineCleanFiles` | 2 | Exported Function
-`int __cdecl PipelineWatchWorkingManifest(wchar_t const * __ptr64)` | 20 | Exported Function
-`int __cdecl PipelineForceAllStreamUnitsIntoTheForeground(void)` | 6 | Exported Function
-`std::shared_ptr` | 19 | Exported Function
-`PipelineGetFilesForOp` | 7 | Exported Function
-`PipelineGetFilesToRemove` | 8 | Exported Function
-`PipelineDeInitialize` | 5 | Exported Function
-`PipelineCloseFiles` | 3 | Exported Function
-`PipelineCloseStreamSession` | 4 | Exported Function
 
 
 ## Signature

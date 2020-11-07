@@ -26,39 +26,39 @@ PE256 | `0B814EACBA02CF2F2D9207AD4E96678B446AD6795519A82E44F6A9D11114B2CF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RegQueryMultipleValuesW` | 23 | Exported Function
-`RegQueryMultipleValuesA` | 22 | Exported Function
-`RegQueryValueW` | 25 | Exported Function
-`RegQueryValueA` | 24 | Exported Function
-`RegOpenKeyTransactedW` | 19 | Exported Function
-`RegOpenKeyTransactedA` | 18 | Exported Function
-`RegOverridePredefKey` | 21 | Exported Function
-`RegOpenKeyW` | 20 | Exported Function
+`RegConnectRegistryA` | 1 | Exported Function
 `RegSetKeyValueW` | 31 | Exported Function
 `RegSetKeyValueA` | 30 | Exported Function
-`RegSetValueW` | 33 | Exported Function
-`RegSetValueA` | 32 | Exported Function
-`RegReplaceKeyW` | 27 | Exported Function
-`RegReplaceKeyA` | 26 | Exported Function
 `RegSaveKeyW` | 29 | Exported Function
 `RegSaveKeyA` | 28 | Exported Function
+`RegReplaceKeyW` | 27 | Exported Function
+`RegReplaceKeyA` | 26 | Exported Function
+`RegQueryValueW` | 25 | Exported Function
+`RegQueryValueA` | 24 | Exported Function
+`RegQueryMultipleValuesW` | 23 | Exported Function
+`RegQueryMultipleValuesA` | 22 | Exported Function
+`RegOverridePredefKey` | 21 | Exported Function
+`RegOpenKeyW` | 20 | Exported Function
+`RegOpenKeyTransactedW` | 19 | Exported Function
+`RegOpenKeyTransactedA` | 18 | Exported Function
+`RegSetValueA` | 32 | Exported Function
 `RegOpenKeyA` | 17 | Exported Function
-`RegCreateKeyTransactedW` | 6 | Exported Function
-`RegCreateKeyTransactedA` | 5 | Exported Function
-`RegDeleteKeyA` | 8 | Exported Function
-`RegCreateKeyW` | 7 | Exported Function
-`RegConnectRegistryW` | 2 | Exported Function
-`RegConnectRegistryA` | 1 | Exported Function
-`RegCreateKeyA` | 4 | Exported Function
-`RegCopyTreeA` | 3 | Exported Function
+`RegEnumKeyA` | 15 | Exported Function
 `RegDisablePredefinedCache` | 14 | Exported Function
 `RegDeleteKeyW` | 13 | Exported Function
-`RegEnumKeyW` | 16 | Exported Function
-`RegEnumKeyA` | 15 | Exported Function
-`RegDeleteKeyTransactedW` | 10 | Exported Function
-`RegDeleteKeyTransactedA` | 9 | Exported Function
 `RegDeleteKeyValueW` | 12 | Exported Function
 `RegDeleteKeyValueA` | 11 | Exported Function
+`RegDeleteKeyTransactedW` | 10 | Exported Function
+`RegDeleteKeyTransactedA` | 9 | Exported Function
+`RegDeleteKeyA` | 8 | Exported Function
+`RegCreateKeyW` | 7 | Exported Function
+`RegCreateKeyTransactedW` | 6 | Exported Function
+`RegCreateKeyTransactedA` | 5 | Exported Function
+`RegCreateKeyA` | 4 | Exported Function
+`RegCopyTreeA` | 3 | Exported Function
+`RegConnectRegistryW` | 2 | Exported Function
+`RegEnumKeyW` | 16 | Exported Function
+`RegSetValueW` | 33 | Exported Function
 
 
 ## Signature

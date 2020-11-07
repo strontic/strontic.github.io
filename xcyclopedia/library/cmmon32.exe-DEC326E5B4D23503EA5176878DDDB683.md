@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\cmmon32.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/0032cd8f78472c45c2030441cb3446bad5a632bb149da0ac76f3b6fc2647ba33/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/0032cd8f78472c45c2030441cb3446bad5a632bb149da0ac76f3b6fc2647ba33/detection
 
 ## File Similarity (ssdeep match)
 

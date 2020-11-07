@@ -47,6 +47,12 @@ PE256 | `128ECBA37CC3AC85307A15A7AB14C5BB54ECEAB72C7DF4B24331CD57D559020E`
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/39ffdec7448eff7ee47c58fa9e81b9eba36122b6e3c5f1905c8f23244e4221b9/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dllhost.exe](dllhost.exe-08EB78E5BE019DF044C26B14703BD1FA.md) | 33
+
 
 
 

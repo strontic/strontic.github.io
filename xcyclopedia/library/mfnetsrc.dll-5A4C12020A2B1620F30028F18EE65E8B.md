@@ -26,11 +26,11 @@ PE256 | `FFC0F3321C5CC6A9A7F3BB4AF7F1334CF8697B2ABCC5710AA9BF57F8FCEF0565`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MFCreateCacheManager` | 4 | Exported Function
-`MFCreateFileBlockMap` | 5 | Exported Function
-`MFCreateByteCacheFile` | 3 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`MFCreateByteCacheFile` | 3 | Exported Function
+`MFCreateCacheManager` | 4 | Exported Function
+`MFCreateFileBlockMap` | 5 | Exported Function
 
 
 ## Signature

@@ -28,15 +28,29 @@ PE256 | `A97554C16A723149864C5151365A6F444116143175B8D3F4ED2E10C5B91B2F33`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\DNSAPI.dll |
 C:\Windows\system32\EDPCleanup.exe |
+C:\Windows\system32\FirewallAPI.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\policymanager.dll |
+C:\Windows\system32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wkscli.dll |
 
 
 ## Signature
@@ -60,8 +74,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/cce74369b704ce5768d8057bc54d2a429871be0d42fdf7bd49f5c127ff5d9696/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/cce74369b704ce5768d8057bc54d2a429871be0d42fdf7bd49f5c127ff5d9696/detection
 
 
 

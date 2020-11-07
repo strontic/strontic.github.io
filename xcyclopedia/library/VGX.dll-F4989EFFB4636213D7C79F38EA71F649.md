@@ -26,14 +26,14 @@ PE256 | `66C5FD17CA9915999B95C07A5BEED609A9509EB9E39390EEC43358382EF19103`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 4 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`MsoAssertSzProcVar` | 6 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`_MsoFFeature@8` | 7 | Exported Function
 `$DllMain$_gdiplus` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
+`_MsoFFeature@8` | 7 | Exported Function
 `_MsoFSetFeature@12` | 8 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`MsoAssertSzProcVar` | 6 | Exported Function
 
 
 ## Signature

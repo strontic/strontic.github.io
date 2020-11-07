@@ -26,24 +26,24 @@ PE256 | `E968FE3E86C4DAB8080190CC7EF29173F50814BB9A20F850D3658873DE358711`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`I_ScSetServiceBitsA` | 12 | Exported Function
-`I_ScSetServiceBitsW` | 13 | Exported Function
-`I_ScSendPnPMessage` | 10 | Exported Function
-`I_ScSendTSMessage` | 11 | Exported Function
+`I_QueryTagInformation` | 1 | Exported Function
+`SubscribeServiceChangeNotifications` | 16 | Exported Function
+`I_ScValidatePnPService` | 15 | Exported Function
 `I_ScUnregisterDeviceNotification` | 14 | Exported Function
+`I_ScSetServiceBitsW` | 13 | Exported Function
+`I_ScSetServiceBitsA` | 12 | Exported Function
+`I_ScSendTSMessage` | 11 | Exported Function
+`I_ScSendPnPMessage` | 10 | Exported Function
+`I_ScRpcBindW` | 9 | Exported Function
+`I_ScRpcBindA` | 8 | Exported Function
+`I_ScRegisterPreshutdownRestart` | 7 | Exported Function
+`I_ScRegisterDeviceNotification` | 6 | Exported Function
+`I_ScQueryServiceConfig` | 5 | Exported Function
+`I_ScPnPGetServiceName` | 4 | Exported Function
+`I_ScIsSecurityProcess` | 3 | Exported Function
+`I_ScBroadcastServiceControlMessage` | 2 | Exported Function
 `UnsubscribeServiceChangeNotifications` | 17 | Exported Function
 `WaitServiceState` | 18 | Exported Function
-`I_ScValidatePnPService` | 15 | Exported Function
-`SubscribeServiceChangeNotifications` | 16 | Exported Function
-`I_ScIsSecurityProcess` | 3 | Exported Function
-`I_ScPnPGetServiceName` | 4 | Exported Function
-`I_QueryTagInformation` | 1 | Exported Function
-`I_ScBroadcastServiceControlMessage` | 2 | Exported Function
-`I_ScQueryServiceConfig` | 5 | Exported Function
-`I_ScRpcBindA` | 8 | Exported Function
-`I_ScRpcBindW` | 9 | Exported Function
-`I_ScRegisterDeviceNotification` | 6 | Exported Function
-`I_ScRegisterPreshutdownRestart` | 7 | Exported Function
 
 
 ## Signature

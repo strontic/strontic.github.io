@@ -26,12 +26,12 @@ PE256 | `1A2B2AC28DFB4A90479471F73EF627ED957CC8E58F06ECC9C8DCEAD1BFA09310`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`drvGetDefaultCommConfigW` | 6 | Exported Function
-`drvSetDefaultCommConfigA` | 5 | Exported Function
-`drvSetDefaultCommConfigW` | 4 | Exported Function
 `drvCommConfigDialogA` | 3 | Exported Function
 `drvCommConfigDialogW` | 2 | Exported Function
 `drvGetDefaultCommConfigA` | 7 | Exported Function
+`drvGetDefaultCommConfigW` | 6 | Exported Function
+`drvSetDefaultCommConfigA` | 5 | Exported Function
+`drvSetDefaultCommConfigW` | 4 | Exported Function
 
 
 ## Signature

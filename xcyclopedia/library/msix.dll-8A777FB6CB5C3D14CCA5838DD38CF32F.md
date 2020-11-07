@@ -25,12 +25,12 @@ PE256 | `EEF7913FDC7B36D895072599D72C70BDAF85B16BC20AAA89BB8C9AC1FB3AE254`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_CreateStreamOnFileUTF16@12` | 4 | Exported Function
-`_GetLogTextUTF8@8` | 5 | Exported Function
-`_UnpackPackage@16` | 6 | Exported Function
 `_CoCreateAppxFactory@8` | 1 | Exported Function
 `_CoCreateAppxFactoryWithHeap@16` | 2 | Exported Function
 `_CreateStreamOnFile@12` | 3 | Exported Function
+`_CreateStreamOnFileUTF16@12` | 4 | Exported Function
+`_GetLogTextUTF8@8` | 5 | Exported Function
+`_UnpackPackage@16` | 6 | Exported Function
 
 
 ## Signature

@@ -51,6 +51,7 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 File | Score
 -- | --
 [C:\Windows\SysWOW64\rasautou.exe](rasautou.exe-81A6467E638E5C15C0C0ABB4DA13DEAD.md) | 55
+[C:\Windows\SysWOW64\rasautou.exe](rasautou.exe-DFDBEDC2ED47CBABC13CCC64E97868F3.md) | 57
 
 ## Possible Misuse
 

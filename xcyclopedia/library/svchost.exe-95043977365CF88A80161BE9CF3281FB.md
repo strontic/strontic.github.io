@@ -61,6 +61,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/65
 * VirusTotal Link: https://www.virustotal.com/gui/file/39f80b404b2fd80dc096442d77e221cbb3ef5621acf66dcd3829e8af4cc37bf0/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\svchost.exe](svchost.exe-F586835082F632DC8D9404D83BC16316.md) | 79
 
 ## Possible Misuse
 

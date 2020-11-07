@@ -26,8 +26,8 @@ PE256 | `7A83BE3A678E8E027B1F1263964EB31B25D9FC6BA58CC25FAF00D4122FFAF655`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KbdNlsLayerDescriptor` | 2 | Exported Function
 `KbdLayerDescriptor` | 1 | Exported Function
+`KbdNlsLayerDescriptor` | 2 | Exported Function
 
 
 ## Signature

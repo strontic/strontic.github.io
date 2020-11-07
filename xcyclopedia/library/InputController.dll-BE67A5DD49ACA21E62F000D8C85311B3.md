@@ -26,8 +26,8 @@ PE256 | `3843D805B90F714EC8D4CF59666DCDBD13DD6B7DE91555D13F532D36CA374E61`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInputControllerEx` | 2 | Exported Function
 `CreateInputController` | 1 | Exported Function
+`CreateInputControllerEx` | 2 | Exported Function
 
 
 ## Signature

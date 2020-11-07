@@ -201,8 +201,8 @@ C:\Windows\SysWOW64\icacls.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/468f69606e8f341b8822d20f6557cc1c2be1ba61ffbc47988540c8674f46017b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/468f69606e8f341b8822d20f6557cc1c2be1ba61ffbc47988540c8674f46017b/detection
 
 ## File Similarity (ssdeep match)
 

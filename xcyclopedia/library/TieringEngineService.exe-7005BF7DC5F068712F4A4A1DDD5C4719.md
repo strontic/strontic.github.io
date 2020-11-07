@@ -29,7 +29,10 @@ PE256 | `7F9AA02B73E46A4625FFAD3D7B3E8601354C9626912CE3F6A3D4FEEC48564839`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\TieringEngineService.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -38,7 +41,13 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\system32\CLUSAPI.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\system32\DNSAPI.dll |
+C:\Windows\system32\ESENT.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -72,8 +81,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/2b871b446cd18d9f8461e5e7c56c2fd3530f06fded609b8e5a145348c27cb53f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/2b871b446cd18d9f8461e5e7c56c2fd3530f06fded609b8e5a145348c27cb53f/detection
 
 
 

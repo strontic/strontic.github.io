@@ -22,23 +22,6 @@ IMP | `F718D257CB3A4BBBE8310FA60E7D1DED`
 PESHA1 | `0432916B82FD57E60FA4C45BABBD1456CF38844A`
 PE256 | `B4B4D369E6F2B472305E6F828FEBFA9610130F5962DB1BB5D57B5E687AAD0F60`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\alg.exe |
-C:\Windows\system32\CRYPTBASE.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\MSWSOCK.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\WS2_32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -60,8 +43,8 @@ C:\Windows\System32\WS2_32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/ac42e63ab0df0d5329506900d4cbe188bb3a24aebee368f9ff413a2c464ad656/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac42e63ab0df0d5329506900d4cbe188bb3a24aebee368f9ff413a2c464ad656/detection
 
 
 

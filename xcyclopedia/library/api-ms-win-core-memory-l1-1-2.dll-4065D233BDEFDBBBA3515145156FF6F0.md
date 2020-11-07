@@ -26,17 +26,17 @@ PE256 | `562E78D85832C864EC4034A4550C1F756CE37182DA7F34FC8F24981D9D91441F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ReclaimVirtualMemory` | 8 | Exported Function
-`OfferVirtualMemory` | 7 | Exported Function
-`RegisterBadMemoryNotification` | 9 | Exported Function
-`VirtualAllocExNuma` | 11 | Exported Function
-`UnregisterBadMemoryNotification` | 10 | Exported Function
-`MapUserPhysicalPages` | 6 | Exported Function
-`AllocateUserPhysicalPagesNuma` | 2 | Exported Function
 `AllocateUserPhysicalPages` | 1 | Exported Function
+`AllocateUserPhysicalPagesNuma` | 2 | Exported Function
 `DiscardVirtualMemory` | 3 | Exported Function
-`GetMemoryErrorHandlingCapabilities` | 5 | Exported Function
 `FreeUserPhysicalPages` | 4 | Exported Function
+`GetMemoryErrorHandlingCapabilities` | 5 | Exported Function
+`MapUserPhysicalPages` | 6 | Exported Function
+`OfferVirtualMemory` | 7 | Exported Function
+`ReclaimVirtualMemory` | 8 | Exported Function
+`RegisterBadMemoryNotification` | 9 | Exported Function
+`UnregisterBadMemoryNotification` | 10 | Exported Function
+`VirtualAllocExNuma` | 11 | Exported Function
 
 
 ## Signature

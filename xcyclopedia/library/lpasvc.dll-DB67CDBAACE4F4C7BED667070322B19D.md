@@ -26,8 +26,8 @@ PE256 | `C1B185EA52DF096C3D7D4027438A326F01266800D7821FF00A8D2A865EB6C896`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 2 | Exported Function
 `LpaSvcMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
 
 
 ## Signature

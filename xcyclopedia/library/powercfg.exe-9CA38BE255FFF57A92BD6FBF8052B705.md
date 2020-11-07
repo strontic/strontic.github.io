@@ -153,8 +153,8 @@ C:\Windows\system32\powercfg.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/cb2459971a56cee45a30346281ff3b0eccea0c2bee1ae6b8477712404d2e6ae1/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/cb2459971a56cee45a30346281ff3b0eccea0c2bee1ae6b8477712404d2e6ae1/detection
 
 
 

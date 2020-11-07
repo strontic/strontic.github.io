@@ -26,8 +26,8 @@ PE256 | `563F41FD2E18D17AC68B9F6BFD40BF29EFE909140D0B6E1358000F625926EC85`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PeerDistTransportStartup` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
+`PeerDistTransportStartup` | 1 | Exported Function
 
 
 ## Signature

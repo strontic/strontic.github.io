@@ -26,34 +26,34 @@ PE256 | `E919B867FF927ED56E2A80FE9665B6BBFD78B242D1A6859D8D212624597B7ADF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IpcSPEncryptFinal` | 19 | Exported Function
-`IpcSPEncryptUpdate` | 20 | Exported Function
-`IpcSPGetBoundRightKey` | 21 | Exported Function
-`IpcSPEncrypt` | 18 | Exported Function
-`IpcSPDecryptWithRac` | 15 | Exported Function
-`IpcSPEnableAndEncrypt` | 16 | Exported Function
-`IpcSPEnablePublishingLicense` | 17 | Exported Function
+`IpcSPAttest` | 1 | Exported Function
 `IpcSPIsActivated` | 26 | Exported Function
+`IpcSPInitialize` | 25 | Exported Function
+`IpcSPGetProcAddress` | 24 | Exported Function
+`IpcSPGetInfo` | 23 | Exported Function
+`IpcSPGetCurrentTime` | 22 | Exported Function
+`IpcSPGetBoundRightKey` | 21 | Exported Function
+`IpcSPEncryptUpdate` | 20 | Exported Function
+`IpcSPEncryptFinal` | 19 | Exported Function
+`IpcSPEncrypt` | 18 | Exported Function
+`IpcSPEnablePublishingLicense` | 17 | Exported Function
+`IpcSPEnableAndEncrypt` | 16 | Exported Function
+`IpcSPDecryptWithRac` | 15 | Exported Function
+`IpcSPDecryptUpdate` | 14 | Exported Function
+`IpcSPDecryptFinal` | 13 | Exported Function
+`IpcSPDecrypt` | 12 | Exported Function
+`IpcSPCreateSecurityProcessor` | 11 | Exported Function
+`IpcSPCreatePCE` | 10 | Exported Function
+`IpcSPCreateMachineCerts` | 9 | Exported Function
+`IpcSPCreateEncryptor` | 8 | Exported Function
+`IpcSPCreateEnablingPrincipal` | 7 | Exported Function
+`IpcSPCreateDecryptor` | 6 | Exported Function
+`IpcSPCommit` | 5 | Exported Function
+`IpcSPCloseHandle` | 4 | Exported Function
+`IpcSPCheckEnvironmentSecurity` | 3 | Exported Function
+`IpcSPBindLicense` | 2 | Exported Function
 `IpcSPLoadLibrary` | 27 | Exported Function
 `IpcSPSign` | 28 | Exported Function
-`IpcSPInitialize` | 25 | Exported Function
-`IpcSPGetCurrentTime` | 22 | Exported Function
-`IpcSPGetInfo` | 23 | Exported Function
-`IpcSPGetProcAddress` | 24 | Exported Function
-`IpcSPCommit` | 5 | Exported Function
-`IpcSPCreateDecryptor` | 6 | Exported Function
-`IpcSPCreateEnablingPrincipal` | 7 | Exported Function
-`IpcSPCloseHandle` | 4 | Exported Function
-`IpcSPAttest` | 1 | Exported Function
-`IpcSPBindLicense` | 2 | Exported Function
-`IpcSPCheckEnvironmentSecurity` | 3 | Exported Function
-`IpcSPDecrypt` | 12 | Exported Function
-`IpcSPDecryptFinal` | 13 | Exported Function
-`IpcSPDecryptUpdate` | 14 | Exported Function
-`IpcSPCreateSecurityProcessor` | 11 | Exported Function
-`IpcSPCreateEncryptor` | 8 | Exported Function
-`IpcSPCreateMachineCerts` | 9 | Exported Function
-`IpcSPCreatePCE` | 10 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `436ABCEF301527AE39DFB43E27982074CF6D2EEBAE08AD47F28CE05F98A68D8C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetWIMAppList` | 2 | Exported Function
-`GetICBAppList` | 1 | Exported Function
 `DllRejuvenationHandler` | 3 | Exported Function
+`GetICBAppList` | 1 | Exported Function
+`GetWIMAppList` | 2 | Exported Function
 
 
 ## Signature

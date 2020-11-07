@@ -26,9 +26,9 @@ PE256 | `F81E8814961F908148A9DC965DC91CC8D99B76A5D8AAB476F2B0EEC5148B4D49`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapPeerInvokeIdentityUI` | 3 | Exported Function
-`EapPeerFreeMemory` | 2 | Exported Function
 `EapPeerFreeErrorMemory` | 1 | Exported Function
+`EapPeerFreeMemory` | 2 | Exported Function
+`EapPeerInvokeIdentityUI` | 3 | Exported Function
 
 
 ## Signature

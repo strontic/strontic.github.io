@@ -26,15 +26,15 @@ PE256 | `2161B3F2F59FAB7C42173C874F3CD2211B4BCEC55076D5417B5DBFFED551FF4D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DsBrowseForContainerW` | 10 | Exported Function
-`DsBrowseForContainerA` | 9 | Exported Function
-`DsGetIcon` | 257 | Exported Function
-`DsGetFriendlyClassName` | 259 | Exported Function
-`DllUnregisterServer` | 15 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
 `DllCanUnloadNow` | 11 | Exported Function
-`DllRegisterServer` | 14 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
 `DllInstall` | 13 | Exported Function
+`DllRegisterServer` | 14 | Exported Function
+`DllUnregisterServer` | 15 | Exported Function
+`DsBrowseForContainerA` | 9 | Exported Function
+`DsBrowseForContainerW` | 10 | Exported Function
+`DsGetFriendlyClassName` | 259 | Exported Function
+`DsGetIcon` | 257 | Exported Function
 
 
 ## Signature

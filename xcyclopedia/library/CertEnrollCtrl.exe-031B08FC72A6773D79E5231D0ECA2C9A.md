@@ -75,6 +75,7 @@ C:\Windows\SysWOW64\CertEnrollCtrl.exe |
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-8929EBB0CCABE2B6001440E138A7DFB5.md) | 96
 [C:\WINDOWS\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-A8855829CCBC9B6C31DCD82D9DE8855A.md) | 46
 [C:\Windows\SysWOW64\expand.exe](expand.exe-544B0DBFF3F393BCE8BB9D815F532D51.md) | 30
 [C:\Windows\SysWOW64\tzutil.exe](tzutil.exe-31DE852CCF7CED517CC79596C76126B4.md) | 27

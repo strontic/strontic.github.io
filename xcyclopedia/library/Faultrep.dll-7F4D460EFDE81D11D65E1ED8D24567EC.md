@@ -26,22 +26,22 @@ PE256 | `87C68B9780F08036FC3E41778F897BDBD18DEC41BF91EE85C6E4FEBA059CED06`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ReportHang` | 14 | Exported Function
-`UpdatePerUserLastCrossProcessCollectionTime` | 6 | Exported Function
-`ReportCoreHang` | 12 | Exported Function
-`ReportFault` | 13 | Exported Function
-`WerpLaunchAeDebug` | 18 | Exported Function
-`WerReportHang` | 15 | Exported Function
-`WerpGetDebugger` | 16 | Exported Function
-`WerpInitiateCrashReporting` | 17 | Exported Function
-`BasepReportFault` | 3 | Exported Function
-`CancelHangReporting` | 9 | Exported Function
 `AddERExcludedApplicationA` | 7 | Exported Function
 `AddERExcludedApplicationW` | 8 | Exported Function
-`DllCanUnloadNow` | 10 | Exported Function
-`DllGetClassObject` | 11 | Exported Function
+`BasepReportFault` | 3 | Exported Function
+`CancelHangReporting` | 9 | Exported Function
 `CheckForReadOnlyResourceFilter` | 4 | Exported Function
 `CheckPerUserCrossProcessThrottle` | 5 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`ReportCoreHang` | 12 | Exported Function
+`ReportFault` | 13 | Exported Function
+`ReportHang` | 14 | Exported Function
+`UpdatePerUserLastCrossProcessCollectionTime` | 6 | Exported Function
+`WerpGetDebugger` | 16 | Exported Function
+`WerpInitiateCrashReporting` | 17 | Exported Function
+`WerpLaunchAeDebug` | 18 | Exported Function
+`WerReportHang` | 15 | Exported Function
 
 
 ## Signature

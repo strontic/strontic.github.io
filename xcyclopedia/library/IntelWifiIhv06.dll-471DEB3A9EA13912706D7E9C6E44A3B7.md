@@ -25,9 +25,9 @@ PE256 | `D615C6CC2A77EDBB09A9ECF85490864164B8453F1E0E42EAA1E2F4457B11780C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Dot11ExtIhvInitVirtualStation` | 3 | Exported Function
-`Dot11ExtIhvInitService` | 2 | Exported Function
 `Dot11ExtIhvGetVersionInfo` | 1 | Exported Function
+`Dot11ExtIhvInitService` | 2 | Exported Function
+`Dot11ExtIhvInitVirtualStation` | 3 | Exported Function
 
 
 ## Signature

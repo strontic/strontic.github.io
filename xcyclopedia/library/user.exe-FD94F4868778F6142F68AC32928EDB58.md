@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\user.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/ae62bc1ea069f1e99ee71731a0a37a4c1af4ed221b3f0714238989a92c533a44/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/ae62bc1ea069f1e99ee71731a0a37a4c1af4ed221b3f0714238989a92c533a44/detection
 
 ## File Similarity (ssdeep match)
 

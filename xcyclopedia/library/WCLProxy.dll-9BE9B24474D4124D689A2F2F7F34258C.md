@@ -28,9 +28,9 @@ PE256 | `3F91A2C917FB3C73608C9A20078246E0DBD0D33D7231B8A7A80AC6CAC3203781`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetWclAccStyleByClassName` | 3 | Exported Function
-`GetWclAccObjectUsage` | 2 | Exported Function
 `GetWclAccObject` | 1 | Exported Function
+`GetWclAccObjectUsage` | 2 | Exported Function
+`GetWclAccStyleByClassName` | 3 | Exported Function
 
 
 ## Signature

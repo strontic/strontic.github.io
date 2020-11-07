@@ -28,16 +28,16 @@ PE256 | `5C725D5C55FEFC9BBB1624E7FD8E26FC955DE98D01DF0F4402B8E8209FC6597C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 7 | Exported Function
-`CompressQuery` | 6 | Exported Function
-`FreeInstanceData` | 8 | Exported Function
-`SetScalability` | 10 | Exported Function
-`SetCPUID` | 9 | Exported Function
-`Compress` | 2 | Exported Function
 `AllocInstanceData` | 1 | Exported Function
+`Compress` | 2 | Exported Function
 `CompressBegin` | 3 | Exported Function
-`CompressFramesInfo` | 5 | Exported Function
 `CompressEnd` | 4 | Exported Function
+`CompressFramesInfo` | 5 | Exported Function
+`CompressQuery` | 6 | Exported Function
+`DllMain` | 7 | Exported Function
+`FreeInstanceData` | 8 | Exported Function
+`SetCPUID` | 9 | Exported Function
+`SetScalability` | 10 | Exported Function
 
 
 ## Signature

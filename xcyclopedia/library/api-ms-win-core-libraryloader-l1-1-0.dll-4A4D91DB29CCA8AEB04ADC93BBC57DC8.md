@@ -26,29 +26,29 @@ PE256 | `4BC7D93F8BAE31CF2978B0CBBA11946EC5140A0797028A64E8B1D18CC3535B98`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LoadLibraryExW` | 16 | Exported Function
-`LoadResource` | 17 | Exported Function
-`LoadLibraryExA` | 15 | Exported Function
-`GetModuleHandleW` | 13 | Exported Function
-`GetProcAddress` | 14 | Exported Function
-`LoadStringA` | 18 | Exported Function
-`SetDefaultDllDirectories` | 22 | Exported Function
-`SizeofResource` | 23 | Exported Function
-`RemoveDllDirectory` | 21 | Exported Function
-`LoadStringW` | 19 | Exported Function
-`LockResource` | 20 | Exported Function
-`GetModuleHandleExW` | 12 | Exported Function
-`FindStringOrdinal` | 4 | Exported Function
-`FreeLibrary` | 5 | Exported Function
-`FindResourceExW` | 3 | Exported Function
 `AddDllDirectory` | 1 | Exported Function
-`DisableThreadLibraryCalls` | 2 | Exported Function
-`FreeLibraryAndExitThread` | 6 | Exported Function
+`RemoveDllDirectory` | 21 | Exported Function
+`LockResource` | 20 | Exported Function
+`LoadStringW` | 19 | Exported Function
+`LoadStringA` | 18 | Exported Function
+`LoadResource` | 17 | Exported Function
+`LoadLibraryExW` | 16 | Exported Function
+`LoadLibraryExA` | 15 | Exported Function
+`GetProcAddress` | 14 | Exported Function
+`GetModuleHandleW` | 13 | Exported Function
+`SetDefaultDllDirectories` | 22 | Exported Function
+`GetModuleHandleExW` | 12 | Exported Function
 `GetModuleHandleA` | 10 | Exported Function
-`GetModuleHandleExA` | 11 | Exported Function
 `GetModuleFileNameW` | 9 | Exported Function
-`FreeResource` | 7 | Exported Function
 `GetModuleFileNameA` | 8 | Exported Function
+`FreeResource` | 7 | Exported Function
+`FreeLibraryAndExitThread` | 6 | Exported Function
+`FreeLibrary` | 5 | Exported Function
+`FindStringOrdinal` | 4 | Exported Function
+`FindResourceExW` | 3 | Exported Function
+`DisableThreadLibraryCalls` | 2 | Exported Function
+`GetModuleHandleExA` | 11 | Exported Function
+`SizeofResource` | 23 | Exported Function
 
 
 ## Signature

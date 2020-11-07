@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\mtstocom.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/9db938cb9989a1882dbc0f344e510e76bafc4358b2aadb5dbb66a11d763a7ae6/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/9db938cb9989a1882dbc0f344e510e76bafc4358b2aadb5dbb66a11d763a7ae6/detection
 
 
 

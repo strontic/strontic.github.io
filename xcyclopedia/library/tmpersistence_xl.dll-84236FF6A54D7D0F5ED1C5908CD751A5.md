@@ -27,8 +27,8 @@ PE256 | `566C88A8BA84471F9E2F4E97B6D109D61A606A11BBFD2BF0BD3347BE534C68F7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TMPersistenceDllLoad` | 1 | Exported Function
 `TMPersistenceDllCanUnloadNow` | 2 | Exported Function
+`TMPersistenceDllLoad` | 1 | Exported Function
 
 
 ## Signature

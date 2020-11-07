@@ -26,12 +26,12 @@ PE256 | `0424786EC549ED014B26CFF3CB03116062672B6A1110252B0B9497C70534015D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`ShowNotificationDialogW` | 5 | Exported Function
-`ShowWarningDialogW` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`ShowNotificationDialogW` | 5 | Exported Function
+`ShowWarningDialogW` | 6 | Exported Function
 
 
 ## Signature

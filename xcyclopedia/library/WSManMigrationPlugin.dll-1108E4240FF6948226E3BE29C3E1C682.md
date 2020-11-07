@@ -26,33 +26,33 @@ PE256 | `894B1D6131A542E4C5E6AE4A2A7B85778055ECE02D2A262060DA655A17B32DFE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Locale::Key` | 12 | Exported Function
-`Locale::Key` | 16 | Exported Function
-`Locale::Key` | 17 | Exported Function
-`Locale::Key` | 6 | Exported Function
-`Locale::Key` | 19 | Exported Function
-`Locale::Key` | 11 | Exported Function
-`CWSManCriticalSection::GetInitError` | 15 | Exported Function
-`Locale::Key` | 20 | Exported Function
-`Locale::Key` | 21 | Exported Function
-`Locale::Key` | 10 | Exported Function
-`Locale::Key` | 14 | Exported Function
-`Locale::Key` | 18 | Exported Function
-`Locale::Key` | 9 | Exported Function
-`Locale::Key` | 3 | Exported Function
-`DllMain` | 25 | Exported Function
-`DllRegisterServer` | 26 | Exported Function
-`DllUnregisterServer` | 27 | Exported Function
 `Locale::Key` | 8 | Exported Function
-`DllCanUnloadNow` | 23 | Exported Function
-`DllGetClassObject` | 24 | Exported Function
-`Locale::Key` | 13 | Exported Function
-`Locale::Key` | 4 | Exported Function
+`Locale::Key` | 20 | Exported Function
+`Locale::Key` | 9 | Exported Function
+`Locale::Key` | 18 | Exported Function
+`Locale::Key` | 14 | Exported Function
+`CWSManCriticalSection::GetInitError` | 15 | Exported Function
+`Locale::Key` | 17 | Exported Function
+`Locale::Key` | 16 | Exported Function
+`Locale::Key` | 12 | Exported Function
+`Locale::Key` | 11 | Exported Function
+`Locale::Key` | 19 | Exported Function
+`Locale::Key` | 6 | Exported Function
+`Locale::Key` | 21 | Exported Function
+`Locale::Key` | 3 | Exported Function
 `Locale::Key` | 2 | Exported Function
-`Locale::Key` | 5 | Exported Function
-`Locale::Key` | 22 | Exported Function
-`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 | Exported Function
+`Locale::Key` | 4 | Exported Function
 `Locale::Key` | 1 | Exported Function
+`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 | Exported Function
+`Locale::Key` | 22 | Exported Function
+`Locale::Key` | 13 | Exported Function
+`DllUnregisterServer` | 27 | Exported Function
+`DllRegisterServer` | 26 | Exported Function
+`DllMain` | 25 | Exported Function
+`DllGetClassObject` | 24 | Exported Function
+`DllCanUnloadNow` | 23 | Exported Function
+`Locale::Key` | 5 | Exported Function
+`Locale::Key` | 10 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `B327E88EFA2E2B335C3469D70FC30C1E62EBB3B46F309836494FC2D7B26B3E33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`JetErrIDARawMessage` | 3 | Exported Function
-`JetErrRawMessage` | 4 | Exported Function
 `JetErrFormattedMessage` | 5 | Exported Function
 `JetErrIDAForError` | 2 | Exported Function
+`JetErrIDARawMessage` | 3 | Exported Function
+`JetErrRawMessage` | 4 | Exported Function
 
 
 ## Signature

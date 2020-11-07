@@ -26,21 +26,21 @@ PE256 | `A7FF04F5C3537E923C43E2091723B7A95752AFC997DBB33428A7BEA5B5CDBB7A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SHCreateStreamOnFileW` | 11 | Exported Function
-`SHCreateStreamOnFileEx` | 10 | Exported Function
-`SHCreateStreamOnFileA` | 9 | Exported Function
-`SHOpenRegStream2A` | 12 | Exported Function
-`SHOpenRegStreamW` | 15 | Exported Function
-`SHOpenRegStreamA` | 14 | Exported Function
-`SHOpenRegStream2W` | 13 | Exported Function
-`SHCreateMemStream` | 8 | Exported Function
-`IStream_ReadStr` | 3 | Exported Function
-`IStream_Read` | 2 | Exported Function
 `IStream_Copy` | 1 | Exported Function
+`IStream_Read` | 2 | Exported Function
+`IStream_ReadStr` | 3 | Exported Function
 `IStream_Reset` | 4 | Exported Function
-`IStream_WriteStr` | 7 | Exported Function
-`IStream_Write` | 6 | Exported Function
 `IStream_Size` | 5 | Exported Function
+`IStream_Write` | 6 | Exported Function
+`IStream_WriteStr` | 7 | Exported Function
+`SHCreateMemStream` | 8 | Exported Function
+`SHCreateStreamOnFileA` | 9 | Exported Function
+`SHCreateStreamOnFileEx` | 10 | Exported Function
+`SHCreateStreamOnFileW` | 11 | Exported Function
+`SHOpenRegStream2A` | 12 | Exported Function
+`SHOpenRegStream2W` | 13 | Exported Function
+`SHOpenRegStreamA` | 14 | Exported Function
+`SHOpenRegStreamW` | 15 | Exported Function
 
 
 ## Signature

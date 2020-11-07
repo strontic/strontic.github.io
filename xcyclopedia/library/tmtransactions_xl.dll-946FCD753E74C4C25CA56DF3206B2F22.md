@@ -27,8 +27,8 @@ PE256 | `45ED7320FB05A3CF59F4B15C3F47E802ECF4D6671B9A02F36A5B172F8DBAEB1D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TMTransactionsDllLoad` | 1 | Exported Function
 `TMTransactionsDllCanUnloadNow` | 2 | Exported Function
+`TMTransactionsDllLoad` | 1 | Exported Function
 
 
 ## Signature

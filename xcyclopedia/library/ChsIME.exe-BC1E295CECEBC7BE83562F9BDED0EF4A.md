@@ -29,6 +29,7 @@ PE256 | `26F80A401354B79CC3922FBEDDDD3842C28F5A596884A292C40548B91624B239`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
 C:\Windows\system32\InputMethod\CHS\ChsIME.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -37,13 +38,14 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -61,7 +63,7 @@ C:\Windows\System32\USER32.dll |
 ## File Scan
 
 * VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/07840ee337279e5c39480ff76605a9617e47d28a0b364c940bddbda2ad08a79f/detection/
+* VirusTotal Link: https://www.virustotal.com/gui/file/07840ee337279e5c39480ff76605a9617e47d28a0b364c940bddbda2ad08a79f/detection
 
 
 

@@ -26,17 +26,17 @@ PE256 | `5020B1BFF56D76DE3180D944264D02CADEFD98FC4BD2C604D8480CA9F2FA2B08`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 10 | Exported Function
-`DllRegisterServerExW` | 9 | Exported Function
-`DllUnregisterServerEx` | 11 | Exported Function
-`GenerateTypeLibW` | 2 | Exported Function
-`GenerateTypeLib` | 1 | Exported Function
-`DllRegisterServerExA` | 8 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 `DllInstall` | 5 | Exported Function
-`DllRegisterServerEx` | 7 | Exported Function
 `DllRegisterServer` | 6 | Exported Function
+`DllRegisterServerEx` | 7 | Exported Function
+`DllRegisterServerExA` | 8 | Exported Function
+`DllRegisterServerExW` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllUnregisterServerEx` | 11 | Exported Function
+`GenerateTypeLib` | 1 | Exported Function
+`GenerateTypeLibW` | 2 | Exported Function
 
 
 ## Signature

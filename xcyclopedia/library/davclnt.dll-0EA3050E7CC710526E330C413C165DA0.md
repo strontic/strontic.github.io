@@ -26,30 +26,30 @@ PE256 | `B216B132277E4879D84829ABE1B90E68E18CBBF1F02524E74E10DB593F22334C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NPEnumResource` | 16 | Exported Function
-`NPFormatNetworkName` | 17 | Exported Function
-`NPGetCaps` | 18 | Exported Function
-`NPAddConnection3` | 13 | Exported Function
-`NPCancelConnection` | 14 | Exported Function
-`NPCloseEnum` | 15 | Exported Function
+`DavCancelConnectionsToServer` | 1 | Exported Function
 `NPGetUniversalName` | 22 | Exported Function
+`NPGetResourceParent` | 21 | Exported Function
+`NPGetResourceInformation` | 20 | Exported Function
+`NPGetConnection` | 19 | Exported Function
+`NPGetCaps` | 18 | Exported Function
+`NPFormatNetworkName` | 17 | Exported Function
+`NPEnumResource` | 16 | Exported Function
+`NPCloseEnum` | 15 | Exported Function
+`NPCancelConnection` | 14 | Exported Function
+`NPAddConnection3` | 13 | Exported Function
+`NPAddConnection` | 12 | Exported Function
+`DllMain` | 11 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DavUnregisterAuthCallback` | 8 | Exported Function
+`DavSetCookieW` | 7 | Exported Function
+`DavRegisterAuthCallback` | 6 | Exported Function
+`DavInvalidateCache` | 5 | Exported Function
+`DavGetTheLockOwnerOfTheFile` | 4 | Exported Function
+`DavGetDiskSpaceUsage` | 3 | Exported Function
+`DavFreeUsedDiskSpace` | 2 | Exported Function
 `NPGetUser` | 23 | Exported Function
 `NPOpenEnum` | 24 | Exported Function
-`NPGetConnection` | 19 | Exported Function
-`NPGetResourceInformation` | 20 | Exported Function
-`NPGetResourceParent` | 21 | Exported Function
-`DavGetTheLockOwnerOfTheFile` | 4 | Exported Function
-`DavInvalidateCache` | 5 | Exported Function
-`DavRegisterAuthCallback` | 6 | Exported Function
-`DavCancelConnectionsToServer` | 1 | Exported Function
-`DavFreeUsedDiskSpace` | 2 | Exported Function
-`DavGetDiskSpaceUsage` | 3 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`DllMain` | 11 | Exported Function
-`NPAddConnection` | 12 | Exported Function
-`DavSetCookieW` | 7 | Exported Function
-`DavUnregisterAuthCallback` | 8 | Exported Function
-`DllCanUnloadNow` | 9 | Exported Function
 
 
 ## Signature

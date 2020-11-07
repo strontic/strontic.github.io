@@ -26,10 +26,10 @@ PE256 | `DF5D299A94A61A00DE832B1E1997DC2FA114FA48DA207F43AA269FEACBAEA3EA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DownloadAndInstallOptionalFontsAsync` | 1 | Exported Function
-`InstallFontFile` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`DownloadAndInstallOptionalFontsAsync` | 1 | Exported Function
+`InstallFontFile` | 2 | Exported Function
 
 
 ## Signature

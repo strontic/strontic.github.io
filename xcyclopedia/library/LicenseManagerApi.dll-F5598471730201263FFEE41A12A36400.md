@@ -26,18 +26,18 @@ PE256 | `060496042D784814C3C91C35A48C5CD0A7DAE395164E948013489C464ABAB667`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PackageSuspendedNotificationForStoreLicense2` | 9 | Exported Function
-`PackageSuspendedNotificationForStoreLicense` | 10 | Exported Function
-`PackageRundownNotificationForStoreLicense2` | 7 | Exported Function
-`Reset` | 1 | Exported Function
-`PrecacheStoreLicenseForPackageResume2` | 11 | Exported Function
-`PrecacheStoreLicenseForPackageResume` | 12 | Exported Function
-`DllMain` | 4 | Exported Function
-`BeginAcquireStoreLicenseForPackageActivation2` | 2 | Exported Function
 `BeginAcquireStoreLicenseForPackageActivation` | 3 | Exported Function
-`PackageRundownNotificationForStoreLicense` | 8 | Exported Function
-`EnsureStoreLicenseForPackageActivation2` | 5 | Exported Function
+`BeginAcquireStoreLicenseForPackageActivation2` | 2 | Exported Function
+`DllMain` | 4 | Exported Function
 `EnsureStoreLicenseForPackageActivation` | 6 | Exported Function
+`EnsureStoreLicenseForPackageActivation2` | 5 | Exported Function
+`PackageRundownNotificationForStoreLicense` | 8 | Exported Function
+`PackageRundownNotificationForStoreLicense2` | 7 | Exported Function
+`PackageSuspendedNotificationForStoreLicense` | 10 | Exported Function
+`PackageSuspendedNotificationForStoreLicense2` | 9 | Exported Function
+`PrecacheStoreLicenseForPackageResume` | 12 | Exported Function
+`PrecacheStoreLicenseForPackageResume2` | 11 | Exported Function
+`Reset` | 1 | Exported Function
 
 
 ## Signature

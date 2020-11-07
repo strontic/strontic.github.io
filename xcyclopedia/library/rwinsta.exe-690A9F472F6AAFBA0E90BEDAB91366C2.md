@@ -84,8 +84,8 @@ C:\Windows\system32\rwinsta.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/44b1c84811495b426ec69a15888d5824a894421df052cc378fd6ada5c32a112f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/44b1c84811495b426ec69a15888d5824a894421df052cc378fd6ada5c32a112f/detection
 
 
 

@@ -26,22 +26,22 @@ PE256 | `FAB506DC74F3394B84F3714D294F2839C00221A1C07582F90D83FAEB4FA91F19`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SVG::SVGCreationParams` | 15 | Exported Function
-`ISVGImageFactory::CreateSVGImage` | 11 | Exported Function
-`GEL::Rect` | 13 | Exported Function
-`Math::Inches` | 14 | Exported Function
-`ISVGImageFactory::Create` | 10 | Exported Function
-`SVG::SVGUnsupportedProps` | 16 | Exported Function
-`ISVGImageFactory::CreateSVGImage` | 12 | Exported Function
-`ISVGImageFactory::Create` | 9 | Exported Function
-`Gfx::ISceneIterator` | 1 | Exported Function
-`Gfx::IShape` | 3 | Exported Function
 `GEL::ITopLevelEffect` | 4 | Exported Function
 `Gfx::ISceneGraph` | 2 | Exported Function
-`Gfx::ISceneIterator` | 5 | Exported Function
-`Gfx::IShape` | 7 | Exported Function
+`Gfx::ISceneIterator` | 1 | Exported Function
+`Gfx::IShape` | 3 | Exported Function
 `GEL::ITopLevelEffect` | 8 | Exported Function
 `Gfx::ISceneGraph` | 6 | Exported Function
+`Gfx::ISceneIterator` | 5 | Exported Function
+`Gfx::IShape` | 7 | Exported Function
+`GEL::Rect` | 13 | Exported Function
+`Math::Inches` | 14 | Exported Function
+`SVG::SVGCreationParams` | 15 | Exported Function
+`ISVGImageFactory::CreateSVGImage` | 11 | Exported Function
+`ISVGImageFactory::CreateSVGImage` | 12 | Exported Function
+`ISVGImageFactory::Create` | 9 | Exported Function
+`ISVGImageFactory::Create` | 10 | Exported Function
+`SVG::SVGUnsupportedProps` | 16 | Exported Function
 
 
 ## Signature

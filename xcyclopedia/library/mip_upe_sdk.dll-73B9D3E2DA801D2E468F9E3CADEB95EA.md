@@ -26,9 +26,9 @@ PE256 | `10138BDB1B0826B188050867578909FF0F8C1F74B694DDAE721ADE171F0DCB24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`mip::ReleaseAllResources` | 3 | Exported Function
-`std::shared_ptr` | 2 | Exported Function
 `PolicyProfile::GetVersion` | 1 | Exported Function
+`std::shared_ptr` | 2 | Exported Function
+`mip::ReleaseAllResources` | 3 | Exported Function
 
 
 ## Signature

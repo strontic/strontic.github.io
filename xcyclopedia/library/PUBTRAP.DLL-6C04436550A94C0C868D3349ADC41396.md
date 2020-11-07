@@ -26,10 +26,10 @@ PE256 | `23670312851F2FA7B9A6B92D8862FB2575F53147DDFEAF661DCA8330C6D9BC71`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HrGetTrapQtde` | 3 | Exported Function
-`InitTrapDll` | 4 | Exported Function
 `HrGetTrapDraw` | 1 | Exported Function
 `HrGetTrapDtls` | 2 | Exported Function
+`HrGetTrapQtde` | 3 | Exported Function
+`InitTrapDll` | 4 | Exported Function
 
 
 ## Signature

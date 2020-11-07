@@ -24,10 +24,10 @@ PE256 | `n/a`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000187721772155940C709000000000187`
-* Thumbprint: `2485A7AFA98E178CB8F30C9838346B514AEA4769`
-* Issuer: CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-* Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
 ## File Metadata
 

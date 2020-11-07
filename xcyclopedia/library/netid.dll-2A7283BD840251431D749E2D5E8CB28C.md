@@ -26,8 +26,8 @@ PE256 | `941C7A1D36508F3E108AE9DB2C8F4BCC259A65C4D2D877A36ECDD4873817DDA9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShowDcNotFoundErrorDialog` | 2 | Exported Function
 `CreateNetIDPropertyPage` | 1 | Exported Function
+`ShowDcNotFoundErrorDialog` | 2 | Exported Function
 
 
 ## Signature

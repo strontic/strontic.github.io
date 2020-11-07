@@ -26,17 +26,17 @@ PE256 | `5543E64F64A5C85D70C117C86553E05E3492BE5621ABF000446918A6B6A2CC85`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WNetConnectionDialog1WWorker` | 8 | Exported Function
-`ShowReconnectDialogWorker` | 7 | Exported Function
-`WNetConnectionDialogWorker` | 9 | Exported Function
-`WNetDisconnectDialogWorker` | 11 | Exported Function
-`WNetDisconnectDialog1WWorker` | 10 | Exported Function
-`ShowReconnectDialogUIWorker` | 6 | Exported Function
-`DoCommandLinePromptWorker` | 2 | Exported Function
 `DoBroadcastSystemMessageWorker` | 1 | Exported Function
+`DoCommandLinePromptWorker` | 2 | Exported Function
 `DoPasswordDialogWorker` | 3 | Exported Function
-`ShowReconnectDialogEndWorker` | 5 | Exported Function
 `DoProfileErrorDialogWorker` | 4 | Exported Function
+`ShowReconnectDialogEndWorker` | 5 | Exported Function
+`ShowReconnectDialogUIWorker` | 6 | Exported Function
+`ShowReconnectDialogWorker` | 7 | Exported Function
+`WNetConnectionDialog1WWorker` | 8 | Exported Function
+`WNetConnectionDialogWorker` | 9 | Exported Function
+`WNetDisconnectDialog1WWorker` | 10 | Exported Function
+`WNetDisconnectDialogWorker` | 11 | Exported Function
 
 
 ## Signature

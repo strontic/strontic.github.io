@@ -26,12 +26,12 @@ PE256 | `F44F3AEABFE0C04060473F48635ACDF510B03345D533BEAF5BAA6B91D8D3D518`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateXmlWriter` | 4 | Exported Function
-`CreateXmlWriterOutputWithEncodingCodePage` | 5 | Exported Function
-`CreateXmlWriterOutputWithEncodingName` | 6 | Exported Function
 `CreateXmlReader` | 1 | Exported Function
 `CreateXmlReaderInputWithEncodingCodePage` | 2 | Exported Function
 `CreateXmlReaderInputWithEncodingName` | 3 | Exported Function
+`CreateXmlWriter` | 4 | Exported Function
+`CreateXmlWriterOutputWithEncodingCodePage` | 5 | Exported Function
+`CreateXmlWriterOutputWithEncodingName` | 6 | Exported Function
 
 
 ## Signature

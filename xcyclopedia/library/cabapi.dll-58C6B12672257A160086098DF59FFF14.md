@@ -26,19 +26,19 @@ PE256 | `A651ED1C55F61B8B0B4D3E07719D16294E502D972BCEBD4772F7D02DDF2A9B4E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Cab_FreeFileList` | 10 | Exported Function
-`Cab_FreeBuffer` | 9 | Exported Function
-`Cab_ExtractSelectedToTarget` | 8 | Exported Function
-`Cab_GetFileSizeList` | 13 | Exported Function
-`Cab_GetFileList` | 12 | Exported Function
-`Cab_FreeFileSizeList` | 11 | Exported Function
-`Cab_ExtractSelected` | 7 | Exported Function
-`Cab_CreateCabSelected` | 3 | Exported Function
-`Cab_CreateCab` | 2 | Exported Function
 `Cab_CheckIsCabinet` | 1 | Exported Function
-`Cab_ExtractOneToBuffer` | 6 | Exported Function
-`Cab_ExtractOne` | 5 | Exported Function
+`Cab_CreateCab` | 2 | Exported Function
+`Cab_CreateCabSelected` | 3 | Exported Function
 `Cab_Extract` | 4 | Exported Function
+`Cab_ExtractOne` | 5 | Exported Function
+`Cab_ExtractOneToBuffer` | 6 | Exported Function
+`Cab_ExtractSelected` | 7 | Exported Function
+`Cab_ExtractSelectedToTarget` | 8 | Exported Function
+`Cab_FreeBuffer` | 9 | Exported Function
+`Cab_FreeFileList` | 10 | Exported Function
+`Cab_FreeFileSizeList` | 11 | Exported Function
+`Cab_GetFileList` | 12 | Exported Function
+`Cab_GetFileSizeList` | 13 | Exported Function
 
 
 ## Signature

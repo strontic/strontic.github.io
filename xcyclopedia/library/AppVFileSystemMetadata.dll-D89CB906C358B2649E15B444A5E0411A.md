@@ -26,8 +26,8 @@ PE256 | `E963FC36D8381BD2FE6B93D251C50193DF1D90F7D656C43E3FAB147C5E5E912E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateFilesystemMetadataFromStream` | 2 | Exported Function
 `CreateFilesystemMetadataFromFile` | 1 | Exported Function
+`CreateFilesystemMetadataFromStream` | 2 | Exported Function
 
 
 ## Signature
@@ -80,6 +80,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 35
 [C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 29
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 38
+[C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 35
 
 
 

@@ -71,8 +71,8 @@ C:\Windows\system32\subst.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/bf91a26c040417656e389188f291c9fcc8c7beb4f1a00067d3d3623ef8f3c03c/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/bf91a26c040417656e389188f291c9fcc8c7beb4f1a00067d3d3623ef8f3c03c/detection
 
 
 

@@ -66,8 +66,8 @@ C:\Windows\SysWOW64\recover.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/d971d5f962e2188a429de6ac6dd6fba3fa97199cdc1a8182e753069aec2fb93e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d971d5f962e2188a429de6ac6dd6fba3fa97199cdc1a8182e753069aec2fb93e/detection
 
 ## File Similarity (ssdeep match)
 

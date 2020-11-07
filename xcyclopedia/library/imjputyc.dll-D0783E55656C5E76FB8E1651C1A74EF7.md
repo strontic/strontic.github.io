@@ -26,8 +26,8 @@ PE256 | `6DB50DA1A5924AA1FF612937B769D4CB77D16AFA40BA2727C600E2FF15B884B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenUty` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
+`OpenUty` | 1 | Exported Function
 
 
 ## Signature

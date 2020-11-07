@@ -26,13 +26,13 @@ PE256 | `1AC0E620B249EE91EECABB614DE1DA87C421C2E11FE82F9408B42986E82D8B54`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDependencyLocatorStorage` | 5 | Exported Function
-`SendTelemetryOnSuspend` | 6 | Exported Function
-`XamlTestHookFreeControlsResourceLibrary` | 7 | Exported Function
-`DllMain` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllMain` | 4 | Exported Function
+`GetDependencyLocatorStorage` | 5 | Exported Function
+`SendTelemetryOnSuspend` | 6 | Exported Function
+`XamlTestHookFreeControlsResourceLibrary` | 7 | Exported Function
 
 
 ## Signature

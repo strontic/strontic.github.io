@@ -26,35 +26,35 @@ PE256 | `E8FC512414E2480C24D13A757382E25819DF2A69E048BFAE02E82D9471606FF7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetDfsRemoveFtRoot` | 20 | Exported Function
-`NetDfsRemoveFtRootForced` | 21 | Exported Function
-`NetDfsRemoveRootTarget` | 22 | Exported Function
-`NetDfsRemove` | 19 | Exported Function
-`NetDfsManagerInitialize` | 16 | Exported Function
-`NetDfsManagerSendSiteInfo` | 17 | Exported Function
-`NetDfsMove` | 18 | Exported Function
-`NetDfsSetInfo` | 27 | Exported Function
-`NetDfsSetSecurity` | 28 | Exported Function
-`NetDfsSetStdContainerSecurity` | 29 | Exported Function
-`NetDfsSetFtContainerSecurity` | 26 | Exported Function
-`NetDfsRemoveStdRoot` | 23 | Exported Function
-`NetDfsRename` | 24 | Exported Function
-`NetDfsSetClientInfo` | 25 | Exported Function
-`NetDfsManagerGetConfigInfo` | 15 | Exported Function
-`NetDfsAddStdRoot` | 5 | Exported Function
-`NetDfsAddStdRootForced` | 6 | Exported Function
-`NetDfsEnum` | 7 | Exported Function
-`NetDfsAddRootTarget` | 4 | Exported Function
 `I_NetDfsIsThisADomainName` | 1 | Exported Function
-`NetDfsAdd` | 2 | Exported Function
-`NetDfsAddFtRoot` | 3 | Exported Function
-`NetDfsGetSecurity` | 12 | Exported Function
+`NetDfsSetInfo` | 27 | Exported Function
+`NetDfsSetFtContainerSecurity` | 26 | Exported Function
+`NetDfsSetClientInfo` | 25 | Exported Function
+`NetDfsRename` | 24 | Exported Function
+`NetDfsRemoveStdRoot` | 23 | Exported Function
+`NetDfsRemoveRootTarget` | 22 | Exported Function
+`NetDfsRemoveFtRootForced` | 21 | Exported Function
+`NetDfsRemoveFtRoot` | 20 | Exported Function
+`NetDfsRemove` | 19 | Exported Function
+`NetDfsMove` | 18 | Exported Function
+`NetDfsManagerSendSiteInfo` | 17 | Exported Function
+`NetDfsManagerInitialize` | 16 | Exported Function
+`NetDfsSetSecurity` | 28 | Exported Function
+`NetDfsManagerGetConfigInfo` | 15 | Exported Function
 `NetDfsGetStdContainerSecurity` | 13 | Exported Function
-`NetDfsGetSupportedNamespaceVersion` | 14 | Exported Function
+`NetDfsGetSecurity` | 12 | Exported Function
 `NetDfsGetInfo` | 11 | Exported Function
-`NetDfsGetClientInfo` | 8 | Exported Function
-`NetDfsGetDcAddress` | 9 | Exported Function
 `NetDfsGetFtContainerSecurity` | 10 | Exported Function
+`NetDfsGetDcAddress` | 9 | Exported Function
+`NetDfsGetClientInfo` | 8 | Exported Function
+`NetDfsEnum` | 7 | Exported Function
+`NetDfsAddStdRootForced` | 6 | Exported Function
+`NetDfsAddStdRoot` | 5 | Exported Function
+`NetDfsAddRootTarget` | 4 | Exported Function
+`NetDfsAddFtRoot` | 3 | Exported Function
+`NetDfsAdd` | 2 | Exported Function
+`NetDfsGetSupportedNamespaceVersion` | 14 | Exported Function
+`NetDfsSetStdContainerSecurity` | 29 | Exported Function
 
 
 ## Signature

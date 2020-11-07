@@ -26,23 +26,23 @@ PE256 | `1EE597D8AC223CEF3079F3A998D46DF16F2C28FB1DADC5E17769BFA92B1BA8AA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SLGetTokenActivationCertificates` | 12 | Exported Function
-`SLGetTokenActivationGrants` | 13 | Exported Function
-`SLGetReferralInformation` | 10 | Exported Function
-`SLGetServerStatus` | 11 | Exported Function
-`SLSignTokenActivationChallenge` | 16 | Exported Function
-`SLUninstallPackage` | 17 | Exported Function
-`SLInitialize` | 14 | Exported Function
-`SLInstallPackage` | 15 | Exported Function
-`SLGetPackageToken` | 9 | Exported Function
-`SLDepositTokenActivationResponse` | 3 | Exported Function
-`SLFreeTokenActivationCertificates` | 4 | Exported Function
 `SLAcquireGenuineTicket` | 1 | Exported Function
-`SLActivateProduct` | 2 | Exported Function
+`SLInstallPackage` | 15 | Exported Function
+`SLInitialize` | 14 | Exported Function
+`SLGetTokenActivationGrants` | 13 | Exported Function
+`SLGetTokenActivationCertificates` | 12 | Exported Function
+`SLGetServerStatus` | 11 | Exported Function
+`SLGetReferralInformation` | 10 | Exported Function
+`SLSignTokenActivationChallenge` | 16 | Exported Function
+`SLGetPackageToken` | 9 | Exported Function
 `SLGetPackageProductKey` | 7 | Exported Function
-`SLGetPackageProperties` | 8 | Exported Function
-`SLFreeTokenActivationGrants` | 5 | Exported Function
 `SLGenerateTokenActivationChallenge` | 6 | Exported Function
+`SLFreeTokenActivationGrants` | 5 | Exported Function
+`SLFreeTokenActivationCertificates` | 4 | Exported Function
+`SLDepositTokenActivationResponse` | 3 | Exported Function
+`SLActivateProduct` | 2 | Exported Function
+`SLGetPackageProperties` | 8 | Exported Function
+`SLUninstallPackage` | 17 | Exported Function
 
 
 ## Signature

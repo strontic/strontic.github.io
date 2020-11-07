@@ -26,15 +26,15 @@ PE256 | `116D1571A09ACB8383D7B933E549DE172AB4544C137917B3D7888CDDB0B79936`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SpUserModeInitialize` | 7 | Exported Function
-`SpLsaModeInitialize` | 6 | Exported Function
-`SsiCredentialsUpdateNotify` | 3 | Exported Function
-`SsiCredentialsUpdateFree` | 8 | Exported Function
-`SpInstanceInit` | 32 | Exported Function
-`CredentialUpdateNotify` | 5 | Exported Function
 `CredentialUpdateFree` | 4 | Exported Function
-`SpInitialize` | 1 | Exported Function
+`CredentialUpdateNotify` | 5 | Exported Function
 `CredentialUpdateRegister` | 2 | Exported Function
+`SpInitialize` | 1 | Exported Function
+`SpInstanceInit` | 32 | Exported Function
+`SpLsaModeInitialize` | 6 | Exported Function
+`SpUserModeInitialize` | 7 | Exported Function
+`SsiCredentialsUpdateFree` | 8 | Exported Function
+`SsiCredentialsUpdateNotify` | 3 | Exported Function
 
 
 ## Signature

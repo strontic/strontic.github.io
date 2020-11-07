@@ -26,13 +26,13 @@ PE256 | `79BD964F57E7720E193042AEBEB4147071BC7A117158DF42E085001B70999AB1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetDTCLOG2` | 3 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
-`DllGetDTCLOG` | 4 | Exported Function
 `CreateInstance` | 1 | Exported Function
 `DeleteInstance` | 2 | Exported Function
 `DllGetClassObject` | 5 | Exported Function
+`DllGetDTCLOG` | 4 | Exported Function
+`DllGetDTCLOG2` | 3 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
 
 
 ## Signature

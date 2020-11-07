@@ -55,8 +55,8 @@ C:\Windows\system32\XblGameSaveTask.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/a6f8b7e0547ace0d54485aa79fdc4c7c83ee9e363eb30e8e401cb57b4494619a/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/a6f8b7e0547ace0d54485aa79fdc4c7c83ee9e363eb30e8e401cb57b4494619a/detection
 
 
 

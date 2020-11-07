@@ -26,28 +26,28 @@ PE256 | `B2A9BF76CB1F11D468B4C12CF2894C642CBA8A2D2D6AE0C7244C8B9B6FAB5DD9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ScreenCaptureObserver::operator` | 11 | Exported Function
-`ScreenCaptureObserver::operator` | 12 | Exported Function
-`ScreenCapture::operator` | 10 | Exported Function
-`ScreenCaptureObserver::ScreenCaptureObserver` | 7 | Exported Function
-`ScreenCapture::operator` | 9 | Exported Function
+`const ScreenCapture::``vftable'` | 13 | Exported Function
+`ScreenCaptureImpl::SetLogger` | 19 | Exported Function
+`ScreenCaptureImpl::SetLanguage` | 18 | Exported Function
+`ScreenCaptureImpl::SaveFromClipboard` | 17 | Exported Function
 `ScreenCaptureFact::getInstance` | 22 | Exported Function
+`ScreenCaptureObserver::operator` | 12 | Exported Function
+`ScreenCaptureObserver::operator` | 11 | Exported Function
+`ScreenCapture::operator` | 10 | Exported Function
+`ScreenCapture::operator` | 9 | Exported Function
+`ScreenCaptureObserver::ScreenCaptureObserver` | 7 | Exported Function
+`ScreenCaptureObserver::ScreenCaptureObserver` | 6 | Exported Function
+`ScreenCaptureObserver::ScreenCaptureObserver` | 5 | Exported Function
+`public: __thiscall ScreenCaptureImpl::~ScreenCaptureImpl(void)` | 8 | Exported Function
+`ScreenCaptureImpl::ScreenCaptureImpl` | 4 | Exported Function
+`ScreenCapture::ScreenCapture` | 3 | Exported Function
+`ScreenCapture::ScreenCapture` | 2 | Exported Function
+`ScreenCapture::ScreenCapture` | 1 | Exported Function
+`ScreenCaptureImpl::ResetCaptureDialogInstance` | 16 | Exported Function
+`ScreenCaptureImpl::CreateCaptureDialog` | 15 | Exported Function
+`const ScreenCaptureObserver::``vftable'` | 14 | Exported Function
 `std::weak_ptr` | 20 | Exported Function
 `ScreenCaptureImpl::StopCapture` | 21 | Exported Function
-`ScreenCaptureImpl::SetLogger` | 19 | Exported Function
-`ScreenCaptureImpl::SaveFromClipboard` | 17 | Exported Function
-`ScreenCaptureImpl::SetLanguage` | 18 | Exported Function
-`ScreenCaptureImpl::ResetCaptureDialogInstance` | 16 | Exported Function
-`ScreenCapture::ScreenCapture` | 1 | Exported Function
-`ScreenCaptureImpl::CreateCaptureDialog` | 15 | Exported Function
-`const ScreenCapture::``vftable'` | 13 | Exported Function
-`const ScreenCaptureObserver::``vftable'` | 14 | Exported Function
-`ScreenCapture::ScreenCapture` | 2 | Exported Function
-`ScreenCaptureObserver::ScreenCaptureObserver` | 5 | Exported Function
-`ScreenCaptureObserver::ScreenCaptureObserver` | 6 | Exported Function
-`public: __thiscall ScreenCaptureImpl::~ScreenCaptureImpl(void)` | 8 | Exported Function
-`ScreenCapture::ScreenCapture` | 3 | Exported Function
-`ScreenCaptureImpl::ScreenCaptureImpl` | 4 | Exported Function
 
 
 ## Signature
@@ -84,16 +84,20 @@ Source | Source File | Example | License
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-powerpool.json](https://github.com/eset/malware-ioc/blob/master/powerpool/misp-powerpool.json) | `"description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations.\n\n===Mac===\n\nOn OSX, the native command <code>screencapture<\/code> is used to capture screenshots.\n\n===Linux===\n\nOn Linux, there is the native command <code>xwd<\/code>.[[Citation: Antiquated Mac Malware]]\n\nDetection: Monitoring for screen capture behavior will depend on the method used to obtain data from the operating system and write output files. Detection methods could include collecting information from unusual processes using API calls used to obtain image data, and monitoring for image files written to disk. The sensor data may need to be correlated with other events to identify malicious activity, depending on the legitimacy of this behavior within a given network environment.\n\nPlatforms: Windows Server 2003, Windows Server 2008, Windows Server 2012, Windows XP, Windows 7, Windows 8, Windows Server 2003 R2, Windows Server 2008 R2, Windows Server 2012 R2, Windows Vista, Windows 8.1, Windows 10, Linux, MacOS, OS X\n\nData Sources: API monitoring, Process monitoring, File monitoring",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #1: Screencapture [macos] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #2: Screencapture (silent) [macos] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #5: Windows Screencapture [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md) | - Atomic Test #1: Screencapture [macos] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md) | - Atomic Test #2: Screencapture (silent) [macos] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #5: Windows Screencapture [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | <blockquote>Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. Taking a screenshot is also typically possible through native utilities or API calls, such as <code>CopyFromScreen</code>, <code>xwd</code>, or <code>screencapture</code>.(Citation: CopyFromScreen .NET)(Citation: Antiquated Mac Malware) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | - [Atomic Test #1 - Screencapture](#atomic-test-1---screencapture) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | - [Atomic Test #2 - Screencapture (silent)](#atomic-test-2---screencapture-silent) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | - [Atomic Test #5 - Windows Screencapture](#atomic-test-5---windows-screencapture) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | ## Atomic Test #1 - Screencapture | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | Use screencapture command to collect a full desktop screenshot | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | screencapture #{output_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | ## Atomic Test #2 - Screencapture (silent) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | screencapture -x #{output_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1113.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md) | ## Atomic Test #5 - Windows Screencapture | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

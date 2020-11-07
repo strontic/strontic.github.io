@@ -25,8 +25,8 @@ PE256 | `DC10CE0AA071B696A92B0D95E2094DB1778D9DD9D9CCC8AFE256A26110E11083`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MathReco::IOMathRecognizer` | 2 | Exported Function
 `MathReco::IOMathMLHelper` | 1 | Exported Function
+`MathReco::IOMathRecognizer` | 2 | Exported Function
 
 
 ## Signature

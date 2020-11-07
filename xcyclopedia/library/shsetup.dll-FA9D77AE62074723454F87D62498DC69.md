@@ -26,11 +26,11 @@ PE256 | `C1D8DE5F481266639619EC19486D23C25A9BE7B9F1A54B921C20F612433F551F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Cleanup_Shell` | 4 | Exported Function
-`Sysprep_Generalize_Shell` | 5 | Exported Function
-`SHUnattendedSetupW` | 3 | Exported Function
 `SHUnattendedSetup` | 1 | Exported Function
 `SHUnattendedSetupA` | 2 | Exported Function
+`SHUnattendedSetupW` | 3 | Exported Function
+`Sysprep_Cleanup_Shell` | 4 | Exported Function
+`Sysprep_Generalize_Shell` | 5 | Exported Function
 
 
 ## Signature

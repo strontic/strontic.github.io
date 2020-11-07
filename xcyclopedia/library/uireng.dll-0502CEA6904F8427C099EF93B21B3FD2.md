@@ -26,16 +26,16 @@ PE256 | `EC48E41478B7EFC43E5CA72AAEE4E02D419114F8E4972F9764A313D4BAA128E6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UirStartRecordingSession` | 7 | Exported Function
-`UirResumeRecordingSession` | 6 | Exported Function
-`UirStopRecordingSession` | 8 | Exported Function
-`UirUpdateRecordingSession` | 10 | Exported Function
-`UirUninitializeEngine` | 9 | Exported Function
-`UirInitializeEngine` | 2 | Exported Function
 `UirGetScreenComment` | 1 | Exported Function
+`UirInitializeEngine` | 2 | Exported Function
 `UirIsRecordingActive` | 3 | Exported Function
-`UirPauseRecordingSession` | 5 | Exported Function
 `UirOutCreateOutputFile` | 4 | Exported Function
+`UirPauseRecordingSession` | 5 | Exported Function
+`UirResumeRecordingSession` | 6 | Exported Function
+`UirStartRecordingSession` | 7 | Exported Function
+`UirStopRecordingSession` | 8 | Exported Function
+`UirUninitializeEngine` | 9 | Exported Function
+`UirUpdateRecordingSession` | 10 | Exported Function
 
 
 ## Signature

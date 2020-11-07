@@ -26,12 +26,12 @@ PE256 | `420B5ADDE6CF9F6508247ED7DFBA4099FBF2042175B4ED2B18E4271114FE9EEA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`SetupMtf` | 6 | Exported Function
 `DestroyMtf` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`SetupMtf` | 6 | Exported Function
 
 
 ## Signature

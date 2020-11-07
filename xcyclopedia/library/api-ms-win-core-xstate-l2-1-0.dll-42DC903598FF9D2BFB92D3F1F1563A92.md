@@ -26,12 +26,12 @@ PE256 | `CC052700CD6765A4019B493059FA7A9E6F65EDC3A190597B4242D7102BF3F0B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeContext` | 4 | Exported Function
-`LocateXStateFeature` | 5 | Exported Function
-`SetXStateFeaturesMask` | 6 | Exported Function
 `CopyContext` | 1 | Exported Function
 `GetEnabledXStateFeatures` | 2 | Exported Function
 `GetXStateFeaturesMask` | 3 | Exported Function
+`InitializeContext` | 4 | Exported Function
+`LocateXStateFeature` | 5 | Exported Function
+`SetXStateFeaturesMask` | 6 | Exported Function
 
 
 ## Signature

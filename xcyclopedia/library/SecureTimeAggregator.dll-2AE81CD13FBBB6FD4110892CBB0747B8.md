@@ -26,10 +26,10 @@ PE256 | `9956529C1F328F55090F7BD81B0C516D918F5749D3539F86A98018483BD29450`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSecureTime` | 3 | Exported Function
-`UnInitialize` | 4 | Exported Function
 `AggregateSSLHandshakeTime` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`GetSecureTime` | 3 | Exported Function
+`UnInitialize` | 4 | Exported Function
 
 
 ## Signature

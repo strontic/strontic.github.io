@@ -84,8 +84,8 @@ C:\Windows\system32\PackageInspector.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/adf1880a66c7ffab61f60dbb27145a0dccbc7b7726ac750896ff2b7e79a31064/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/adf1880a66c7ffab61f60dbb27145a0dccbc7b7726ac750896ff2b7e79a31064/detection
 
 
 

@@ -26,21 +26,21 @@ PE256 | `9A98CBD80970748ED9A82B11933AAAFDD7E49EEB71EFF193BD2252B8226ACDB9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FveCertGetPublicKeyHandle` | 11 | Exported Function
-`FveCertGetPrivateKeyHandle` | 10 | Exported Function
-`FveCertGetCertHashFromCertContext` | 9 | Exported Function
-`FveCertIsAlternateCert` | 12 | Exported Function
-`FveCertWritePfxFromCertContext` | 15 | Exported Function
-`FveCertSignData` | 14 | Exported Function
-`FveCertIsValidCertInfo` | 13 | Exported Function
-`FveCertGetCertContextFromPfx` | 8 | Exported Function
-`FveCertCreateSelfSignedCertificate` | 3 | Exported Function
-`FveCertCreateCertInfo` | 2 | Exported Function
 `FveCertCanCertificateBeAdded` | 1 | Exported Function
+`FveCertCreateCertInfo` | 2 | Exported Function
+`FveCertCreateSelfSignedCertificate` | 3 | Exported Function
 `FveCertFilterForValidCertificates` | 4 | Exported Function
-`FveCertGetCertContextFromCert` | 7 | Exported Function
-`FveCertFreeCertInfo` | 6 | Exported Function
 `FveCertFindValidCertificates` | 5 | Exported Function
+`FveCertFreeCertInfo` | 6 | Exported Function
+`FveCertGetCertContextFromCert` | 7 | Exported Function
+`FveCertGetCertContextFromPfx` | 8 | Exported Function
+`FveCertGetCertHashFromCertContext` | 9 | Exported Function
+`FveCertGetPrivateKeyHandle` | 10 | Exported Function
+`FveCertGetPublicKeyHandle` | 11 | Exported Function
+`FveCertIsAlternateCert` | 12 | Exported Function
+`FveCertIsValidCertInfo` | 13 | Exported Function
+`FveCertSignData` | 14 | Exported Function
+`FveCertWritePfxFromCertContext` | 15 | Exported Function
 
 
 ## Signature

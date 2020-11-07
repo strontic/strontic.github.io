@@ -22,24 +22,11 @@ IMP | `92966D1E1404073AA1D43B25D8FD8907`
 PESHA1 | `EF19A06A6C9BDB6C56D72C4E24677E321A368221`
 PE256 | `F912B31497003A70AD059E47F8EC9C90E16293978781540A33E7BFA3060D6426`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\prproc.exe |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,8 +43,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/a174de17639a2c544d8124895f878abaaa634fdc63bf49979b407fd7a20c28bf/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/a174de17639a2c544d8124895f878abaaa634fdc63bf49979b407fd7a20c28bf/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,12 +26,12 @@ PE256 | `6B1A35918C6E4BBFABDB8F10E421E539F47EB887B80B94813CA16BA4313D23E7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`HrIetagFreeFactoidServer` | 5 | Exported Function
-`HrIetagInitFactoidServer` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`HrIetagFreeFactoidServer` | 5 | Exported Function
+`HrIetagInitFactoidServer` | 6 | Exported Function
 
 
 ## Signature

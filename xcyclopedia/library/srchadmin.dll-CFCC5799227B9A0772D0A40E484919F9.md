@@ -26,10 +26,10 @@ PE256 | `7691226FAE5B01B9085EA858215FA1EE60AFC95A9853D68C7224EBD5869A7327`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 4 | Exported Function
-`ProcessGroupPolicy` | 1 | Exported Function
 `CPlApplet` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`ProcessGroupPolicy` | 1 | Exported Function
 
 
 ## Signature

@@ -26,27 +26,27 @@ PE256 | `2D03999AB48BBE7F5F59585B18E5FC156FBAD8FE7EBD66775D1F3138B9589A04`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllInstall` | 16 | Exported Function
-`DllRegisterServer` | 17 | Exported Function
-`DllGetClassObject` | 15 | Exported Function
-`DllCanUnloadNow` | 13 | Exported Function
-`DllGetActivationFactory` | 14 | Exported Function
-`GetProxyDllInfo` | 20 | Exported Function
-`GetWebDriverHostInstance` | 21 | Exported Function
-`EnsureWebDriverForWebViewHost` | 5 | Exported Function
-`DllUnregisterServer` | 18 | Exported Function
-`EnsureServiceWorkerEnvironmentForWebView` | 19 | Exported Function
-`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 | Exported Function
-`CreateCoreWebViewOOP` | 9 | Exported Function
-`CreateEdgeIsoSession` | 1 | Exported Function
-`CreateCoreWebViewHostProcess` | 8 | Exported Function
 `CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 | Exported Function
-`CreateCoreWebViewControl` | 7 | Exported Function
+`EnsureWebDriverForWebViewHost` | 5 | Exported Function
+`EnsureServiceWorkerEnvironmentForWebView` | 19 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
+`DllInstall` | 16 | Exported Function
+`DllGetClassObject` | 15 | Exported Function
+`DllGetActivationFactory` | 14 | Exported Function
+`DllCanUnloadNow` | 13 | Exported Function
+`GetProxyDllInfo` | 20 | Exported Function
+`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 | Exported Function
 `CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 | Exported Function
-`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 | Exported Function
 `CreateWebRuntimeDiagnosticsTarget` | 4 | Exported Function
-`CreateWebRuntimeDebugTargetClient` | 2 | Exported Function
 `CreateWebRuntimeDebugTargetManager` | 3 | Exported Function
+`CreateWebRuntimeDebugTargetClient` | 2 | Exported Function
+`CreateEdgeIsoSession` | 1 | Exported Function
+`CreateCoreWebViewOOP` | 9 | Exported Function
+`CreateCoreWebViewHostProcess` | 8 | Exported Function
+`CreateCoreWebViewControl` | 7 | Exported Function
+`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 | Exported Function
+`GetWebDriverHostInstance` | 21 | Exported Function
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `E9F4D3D509647F539A4FEFEE9A52DB2375DB27FB061C47DFCB71F57621486F1E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 109 | Exported Function
-`DllCanUnloadNow` | 108 | Exported Function
-`ImportRSoPData` | 111 | Exported Function
-`ExportRSoPData` | 110 | Exported Function
-`CreateGPOLink` | 105 | Exported Function
 `BrowseForGPO` | 104 | Exported Function
-`DeleteGPOLink` | 107 | Exported Function
+`CreateGPOLink` | 105 | Exported Function
 `DeleteAllGPOLinks` | 106 | Exported Function
+`DeleteGPOLink` | 107 | Exported Function
+`DllCanUnloadNow` | 108 | Exported Function
+`DllGetClassObject` | 109 | Exported Function
+`ExportRSoPData` | 110 | Exported Function
+`ImportRSoPData` | 111 | Exported Function
 
 
 ## Signature

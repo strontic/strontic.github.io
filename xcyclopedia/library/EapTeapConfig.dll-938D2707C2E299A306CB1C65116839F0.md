@@ -26,16 +26,16 @@ PE256 | `BA041D8C33BF96A6BEC6423D3AC5AD514F98B920BB2CDD10504B0E4665180FF7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapPeerGetNextPageGuid` | 4 | Exported Function
-`EapPeerGetMethodProperties` | 3 | Exported Function
-`EapPeerInvokeConfigUI` | 8 | Exported Function
-`EapPeerQueryInteractiveUIInputFields` | 10 | Exported Function
-`EapPeerInvokeInteractiveUI` | 9 | Exported Function
-`EapPeerConfigXml2Blob` | 5 | Exported Function
 `EapPeerConfigBlob2Xml` | 1 | Exported Function
+`EapPeerConfigXml2Blob` | 5 | Exported Function
 `EapPeerCredentialsXml2Blob` | 6 | Exported Function
-`EapPeerFreeMemory` | 2 | Exported Function
 `EapPeerFreeErrorMemory` | 7 | Exported Function
+`EapPeerFreeMemory` | 2 | Exported Function
+`EapPeerGetMethodProperties` | 3 | Exported Function
+`EapPeerGetNextPageGuid` | 4 | Exported Function
+`EapPeerInvokeConfigUI` | 8 | Exported Function
+`EapPeerInvokeInteractiveUI` | 9 | Exported Function
+`EapPeerQueryInteractiveUIInputFields` | 10 | Exported Function
 
 
 ## Signature

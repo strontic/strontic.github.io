@@ -26,16 +26,16 @@ PE256 | `99A4B9F46ACE47F2D632024CA2C52A6F0C321B309E5F5D17A87D2A759B26CD84`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UA_CreateDownloadListFromActionList` | 7 | Exported Function
-`UA_CreateDownloadList` | 6 | Exported Function
-`UA_CreatePackageListFromDownloadList` | 8 | Exported Function
-`UA_ReleaseDownloadList` | 10 | Exported Function
-`UA_InstallActionList` | 9 | Exported Function
-`CreateDeploymentSessionEx` | 2 | Exported Function
 `CreateDeploymentSession` | 1 | Exported Function
+`CreateDeploymentSessionEx` | 2 | Exported Function
 `CreateOfflineDeploymentSession` | 3 | Exported Function
-`UA_CreateActionList` | 5 | Exported Function
 `UA_CommitActionList` | 4 | Exported Function
+`UA_CreateActionList` | 5 | Exported Function
+`UA_CreateDownloadList` | 6 | Exported Function
+`UA_CreateDownloadListFromActionList` | 7 | Exported Function
+`UA_CreatePackageListFromDownloadList` | 8 | Exported Function
+`UA_InstallActionList` | 9 | Exported Function
+`UA_ReleaseDownloadList` | 10 | Exported Function
 
 
 ## Signature

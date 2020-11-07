@@ -31,15 +31,23 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\system32\BitLockerDeviceEncryption.exe |
+C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\system32\dsreg.dll |
+C:\Windows\system32\FVEAPI.dll |
+C:\Windows\system32\FVESKYBACKUP.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WINHTTP.dll |
 
 
 ## Signature
@@ -63,8 +71,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/777c576288e43a1332d7f0b985bb788a6dcc9369102579c604711cae1b12ea27/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/777c576288e43a1332d7f0b985bb788a6dcc9369102579c604711cae1b12ea27/detection
 
 
 

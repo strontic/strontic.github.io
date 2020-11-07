@@ -5,7 +5,7 @@ excerpt: What is winresume.exe?
 
 # winresume.exe 
 
-* File Path: `C:\Windows\system32\winresume.exe`
+* File Path: `C:\Windows\system32\Boot\winresume.exe`
 * Description: Resume From Hibernate boot application
 
 ## Hashes
@@ -25,8 +25,8 @@ PE256 | `395372FE87F65834C800A995E3DE16802E684811986A18F2F2A0D4A6F6E94177`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -43,14 +43,14 @@ PE256 | `395372FE87F65834C800A995E3DE16802E684811986A18F2F2A0D4A6F6E94177`
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/093a8bbf4407fcb92e6d70ccbeadb7f7489c81c91a5149976f04fa923132407c/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/093a8bbf4407fcb92e6d70ccbeadb7f7489c81c91a5149976f04fa923132407c/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\Windows\system32\Boot\winresume.exe](winresume.exe-D9341DC8E1A66AC40B3CDF5BB6BE151B.md) | 100
+[C:\Windows\system32\winresume.exe](winresume.exe-D9341DC8E1A66AC40B3CDF5BB6BE151B.md) | 100
 
 
 

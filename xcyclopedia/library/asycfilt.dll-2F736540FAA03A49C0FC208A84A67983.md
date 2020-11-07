@@ -26,8 +26,8 @@ PE256 | `282737094233C3BEED5C6988EEE852603B8C44360DDFD68B56C690C7D21A01C5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FilterCreateInstance` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
+`FilterCreateInstance` | 2 | Exported Function
 
 
 ## Signature

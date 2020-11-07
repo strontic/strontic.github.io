@@ -59,8 +59,8 @@ C:\Windows\SysWOW64\regedt32.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/b9a0659a5f8173629c2cc702f9d786f699be2c1c1bd10ee354494df75c618954/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/b9a0659a5f8173629c2cc702f9d786f699be2c1c1bd10ee354494df75c618954/detection
 
 ## File Similarity (ssdeep match)
 

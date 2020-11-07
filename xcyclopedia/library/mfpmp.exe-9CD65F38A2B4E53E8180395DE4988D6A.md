@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\mfpmp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/ff7e8ccc41bc3a506103bdd719a19318bf711351ac0e61e1f1cf00f5f02251d5/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/ff7e8ccc41bc3a506103bdd719a19318bf711351ac0e61e1f1cf00f5f02251d5/detection
 
 
 

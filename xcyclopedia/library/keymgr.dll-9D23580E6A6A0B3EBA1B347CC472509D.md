@@ -26,16 +26,16 @@ PE256 | `EE5A2B00AFEEE325403F955CB330A58CCC18E83A8131C13AD35D0971EAC24DDF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PRShowRestoreWizardExW` | 7 | Exported Function
-`PRShowRestoreFromMsginaW` | 6 | Exported Function
-`PRShowRestoreWizardW` | 8 | Exported Function
-`PRShowSaveWizardExW` | 10 | Exported Function
-`PRShowSaveFromMsginaW` | 9 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `CPlApplet` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
-`KRShowKeyMgr` | 5 | Exported Function
 `DllMain` | 4 | Exported Function
+`KRShowKeyMgr` | 5 | Exported Function
+`PRShowRestoreFromMsginaW` | 6 | Exported Function
+`PRShowRestoreWizardExW` | 7 | Exported Function
+`PRShowRestoreWizardW` | 8 | Exported Function
+`PRShowSaveFromMsginaW` | 9 | Exported Function
+`PRShowSaveWizardExW` | 10 | Exported Function
 
 
 ## Signature

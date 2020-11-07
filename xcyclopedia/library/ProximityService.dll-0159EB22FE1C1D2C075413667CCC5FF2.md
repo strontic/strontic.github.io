@@ -26,13 +26,13 @@ PE256 | `CD20484F9FE273D713DCCC2C527BA9327C47FE8A7303AE6B435FF486354A8DC8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 16 | Exported Function
-`SessionChangedEvent` | 11 | Exported Function
-`SvchostPushServiceGlobals` | 17 | Exported Function
-`InitProximityServiceEx` | 15 | Exported Function
 `CleanupProximityService` | 13 | Exported Function
 `GetProximityClientCount` | 12 | Exported Function
 `InitProximityService` | 10 | Exported Function
+`InitProximityServiceEx` | 15 | Exported Function
+`ServiceMain` | 16 | Exported Function
+`SessionChangedEvent` | 11 | Exported Function
+`SvchostPushServiceGlobals` | 17 | Exported Function
 
 
 ## Signature

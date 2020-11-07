@@ -126,8 +126,8 @@ C:\Windows\system32\xcopy.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/269eb0728413654856f4b2ee1fa7838cd69672ebc11baed4caa63f58c2df5823/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/269eb0728413654856f4b2ee1fa7838cd69672ebc11baed4caa63f58c2df5823/detection
 
 
 ## Possible Misuse

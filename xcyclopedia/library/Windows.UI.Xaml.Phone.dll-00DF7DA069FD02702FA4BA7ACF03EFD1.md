@@ -26,20 +26,20 @@ PE256 | `61B0681255E1F922E691D6F580DE9EC868F80206DE9C8BF2C0DCE6ECF3C4E05C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`XamlControlsGetPlatformMetadataProvider` | 10 | Exported Function
-`XamlControlsGetListPickerSelection` | 9 | Exported Function
-`XamlControlsGetDatePickerSelection` | 8 | Exported Function
-`XamlControlsGetPlatformResourcesModuleHandle` | 11 | Exported Function
-`XamlTestHookFreePhoneResourceLibrary` | 14 | Exported Function
-`XamlControlsTestHookCreateLoopingSelector` | 13 | Exported Function
-`XamlControlsGetTimePickerSelection` | 12 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `CreateApplicationBarProxy` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
-`XamlControlsCalculateFlyoutPlacement` | 7 | Exported Function
-`SendTelemetryOnSuspend` | 6 | Exported Function
 `GetDependencyLocatorStorage` | 5 | Exported Function
+`SendTelemetryOnSuspend` | 6 | Exported Function
+`XamlControlsCalculateFlyoutPlacement` | 7 | Exported Function
+`XamlControlsGetDatePickerSelection` | 8 | Exported Function
+`XamlControlsGetListPickerSelection` | 9 | Exported Function
+`XamlControlsGetPlatformMetadataProvider` | 10 | Exported Function
+`XamlControlsGetPlatformResourcesModuleHandle` | 11 | Exported Function
+`XamlControlsGetTimePickerSelection` | 12 | Exported Function
+`XamlControlsTestHookCreateLoopingSelector` | 13 | Exported Function
+`XamlTestHookFreePhoneResourceLibrary` | 14 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `9537B4003C35C64E5C401E039D9773B492DE5F8C56634224EAC7EB21DC05153A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`uninitialize` | 2 | Exported Function
 `initialize` | 1 | Exported Function
+`uninitialize` | 2 | Exported Function
 
 
 ## Signature

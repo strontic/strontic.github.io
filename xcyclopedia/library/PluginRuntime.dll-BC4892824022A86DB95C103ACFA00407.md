@@ -25,16 +25,16 @@ PE256 | `B691553BADC0E80A7284E1EB5F404DA2E91D39A3EFF5EFDD7D64721054E291B5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`std::shared_ptr` | 4 | Exported Function
-`PluginRuntime::getIPluginRuntime` | 5 | Exported Function
-`PluginRuntime::nrPluginsLoaded` | 7 | Exported Function
-`unInitializePluginRuntime` | 10 | Exported Function
-`public: void __thiscall PluginRuntime::``default constructor closure'(void)` | 3 | Exported Function
-`jtf_initializeAndStartPluginRuntime` | 9 | Exported Function
 `initializeAndStartPluginRuntime` | 8 | Exported Function
+`jtf_initializeAndStartPluginRuntime` | 9 | Exported Function
 `std::shared_ptr` | 1 | Exported Function
-`PluginRuntime::isInitialized` | 6 | Exported Function
 `public: __thiscall PluginRuntime::~PluginRuntime(void)` | 2 | Exported Function
+`PluginRuntime::isInitialized` | 6 | Exported Function
+`PluginRuntime::getIPluginRuntime` | 5 | Exported Function
+`std::shared_ptr` | 4 | Exported Function
+`PluginRuntime::nrPluginsLoaded` | 7 | Exported Function
+`public: void __thiscall PluginRuntime::``default constructor closure'(void)` | 3 | Exported Function
+`unInitializePluginRuntime` | 10 | Exported Function
 
 
 ## Signature

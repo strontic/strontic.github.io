@@ -26,8 +26,8 @@ PE256 | `FD74FFB2F56F42B6F2CB8AC7AEF261A88B40902CE8DC7DA3F93BE077FD1AA3FA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DelegateSetupHook@0` | 1 | Exported Function
 `DelegateSetup@12` | 2 | Exported Function
+`DelegateSetupHook@0` | 1 | Exported Function
 
 
 ## Signature

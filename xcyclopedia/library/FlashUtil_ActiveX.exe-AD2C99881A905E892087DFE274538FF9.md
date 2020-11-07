@@ -43,6 +43,11 @@ SSDEEP | `12288:jJ91eBTd8OIyVPHfsrYJ0AFWS3fCT+/38AAAAAAAAAAAAAAAXAbAAAAAAAAAAAAl
 * Legal Copyright: Copyright  1996-2020 Adobe
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Macromed\Flash\FlashUtil_ActiveX.exe](FlashUtil_ActiveX.exe-995D6CD6AF514FB805537240E7561583.md) | 38
 
 
 

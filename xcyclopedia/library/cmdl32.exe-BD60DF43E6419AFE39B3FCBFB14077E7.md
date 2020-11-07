@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\cmdl32.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/85b76de4b1e44d375df9d8d668b4bc4b91565a9bc652654c789a5ead6d5e1aec/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/85b76de4b1e44d375df9d8d668b4bc4b91565a9bc652654c789a5ead6d5e1aec/detection
 
 ## File Similarity (ssdeep match)
 

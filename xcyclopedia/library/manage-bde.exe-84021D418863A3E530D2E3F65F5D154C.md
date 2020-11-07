@@ -100,8 +100,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/38f20a75e04bb9a53c563152a90a5b29ab689aff58d6abd3e005d156ee4e4c73/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/38f20a75e04bb9a53c563152a90a5b29ab689aff58d6abd3e005d156ee4e4c73/detection
 
 ## File Similarity (ssdeep match)
 

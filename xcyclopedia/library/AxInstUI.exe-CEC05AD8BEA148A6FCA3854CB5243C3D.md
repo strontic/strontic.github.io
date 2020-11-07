@@ -30,16 +30,21 @@ Path |
 -- |
 C:\Windows\system32\AxInstUI.exe |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WINTRUST.dll |
 
 
 ## Signature
@@ -63,8 +68,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/3fa0691cbdc871981560b8dce54491682cd7b574c5416defc889d90830fe63f8/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3fa0691cbdc871981560b8dce54491682cd7b574c5416defc889d90830fe63f8/detection
 
 ## File Similarity (ssdeep match)
 

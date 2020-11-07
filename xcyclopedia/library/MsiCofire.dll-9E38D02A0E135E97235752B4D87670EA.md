@@ -26,10 +26,10 @@ PE256 | `16C7D51BA4372E08393DDCEF031A1F114B590A0B8BD309B9BF5DD8ADC138428E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
-`WdiHandleInstance` | 3 | Exported Function
 `DllMain` | 4 | Exported Function
 `WdiDiagnosticModuleMain` | 1 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
+`WdiHandleInstance` | 3 | Exported Function
 
 
 ## Signature

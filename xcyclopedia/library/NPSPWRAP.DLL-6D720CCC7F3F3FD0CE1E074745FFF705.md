@@ -26,9 +26,9 @@ PE256 | `7AC89CFDC58A562F53CBDFE3272EA4AC9EC12B401D1242E44E2ADBBB4C3BD697`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NP_Shutdown` | 3 | Exported Function
-`NP_Initialize` | 2 | Exported Function
 `NP_GetEntryPoints` | 1 | Exported Function
+`NP_Initialize` | 2 | Exported Function
+`NP_Shutdown` | 3 | Exported Function
 
 
 ## Signature

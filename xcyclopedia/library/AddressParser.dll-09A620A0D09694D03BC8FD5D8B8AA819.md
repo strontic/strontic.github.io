@@ -26,24 +26,24 @@ PE256 | `E117C05A7A028106C7BAADDF99500333936CC4FC158E9446F32CA85789721263`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetCity` | 12 | Exported Function
-`SetCountryName` | 13 | Exported Function
-`ParseAddress` | 10 | Exported Function
-`RebuildAddress` | 11 | Exported Function
+`DestroyAddressParser` | 1 | Exported Function
+`SetState` | 16 | Exported Function
+`SetPostalCode` | 15 | Exported Function
 `SetFullAddress` | 14 | Exported Function
+`SetCountryName` | 13 | Exported Function
+`SetCity` | 12 | Exported Function
+`RebuildAddress` | 11 | Exported Function
+`ParseAddress` | 10 | Exported Function
+`GetStreet` | 9 | Exported Function
+`GetState` | 8 | Exported Function
+`GetPostalCode` | 7 | Exported Function
+`GetNewAddressParser` | 6 | Exported Function
+`GetFullAddress` | 5 | Exported Function
+`GetCountryStringFromIndex` | 4 | Exported Function
+`GetCountryName` | 3 | Exported Function
+`GetCity` | 2 | Exported Function
 `SetStreet` | 17 | Exported Function
 `UpdateDefCountry` | 18 | Exported Function
-`SetPostalCode` | 15 | Exported Function
-`SetState` | 16 | Exported Function
-`GetCountryName` | 3 | Exported Function
-`GetCountryStringFromIndex` | 4 | Exported Function
-`DestroyAddressParser` | 1 | Exported Function
-`GetCity` | 2 | Exported Function
-`GetFullAddress` | 5 | Exported Function
-`GetState` | 8 | Exported Function
-`GetStreet` | 9 | Exported Function
-`GetNewAddressParser` | 6 | Exported Function
-`GetPostalCode` | 7 | Exported Function
 
 
 ## Signature

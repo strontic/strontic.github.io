@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\ddodiag.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/1a40075ae8330d3b2ab1c567b4fd183cfdda20794015dab8503a406b58df9d44/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/1a40075ae8330d3b2ab1c567b4fd183cfdda20794015dab8503a406b58df9d44/detection
 
 ## File Similarity (ssdeep match)
 

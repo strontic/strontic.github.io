@@ -26,13 +26,13 @@ PE256 | `470F0B5E42A48BFEFB2B90DBCA83187CE4FA5BBE86CE330273587EB569000C2E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DwmShutdownEngine` | 107 | Exported Function
-`DwmVersionCheck` | 108 | Exported Function
-`GetMPCInputPostProcessor` | 109 | Exported Function
-`DwmRenderDesktopForDDA` | 106 | Exported Function
 `CreateHolographicCompositor` | 103 | Exported Function
 `DwmInitializeEngine` | 104 | Exported Function
 `DwmInitializePort` | 105 | Exported Function
+`DwmRenderDesktopForDDA` | 106 | Exported Function
+`DwmShutdownEngine` | 107 | Exported Function
+`DwmVersionCheck` | 108 | Exported Function
+`GetMPCInputPostProcessor` | 109 | Exported Function
 
 
 ## Signature

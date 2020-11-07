@@ -26,14 +26,14 @@ PE256 | `2057C84EB2004743C6BDED9BE8E84F8D92D2BB1DFBD19A9E9717AD46BB5C6D64`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`QueryServiceObjectSecurity` | 6 | Exported Function
-`QueryServiceConfigW` | 5 | Exported Function
-`SetServiceObjectSecurity` | 8 | Exported Function
-`QueryServiceStatusEx` | 7 | Exported Function
-`ChangeServiceConfigW` | 2 | Exported Function
 `ChangeServiceConfig2W` | 1 | Exported Function
-`QueryServiceConfig2W` | 4 | Exported Function
+`ChangeServiceConfigW` | 2 | Exported Function
 `NotifyServiceStatusChangeW` | 3 | Exported Function
+`QueryServiceConfig2W` | 4 | Exported Function
+`QueryServiceConfigW` | 5 | Exported Function
+`QueryServiceObjectSecurity` | 6 | Exported Function
+`QueryServiceStatusEx` | 7 | Exported Function
+`SetServiceObjectSecurity` | 8 | Exported Function
 
 
 ## Signature

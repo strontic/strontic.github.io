@@ -26,11 +26,11 @@ PE256 | `8E1B5485B7043BE7D3798289924C34E40085D19618843D88C90B8D3E23F84614`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FreeRdpUdpStreamWrapper` | 3 | Exported Function
-`FreeRdpWebSocketStreamWrapper` | 4 | Exported Function
-`DllMain` | 5 | Exported Function
 `CreateRdpUdpStreamWrapper` | 1 | Exported Function
 `CreateRdpWebSocketStreamWrapper` | 2 | Exported Function
+`DllMain` | 5 | Exported Function
+`FreeRdpUdpStreamWrapper` | 3 | Exported Function
+`FreeRdpWebSocketStreamWrapper` | 4 | Exported Function
 
 
 ## Signature

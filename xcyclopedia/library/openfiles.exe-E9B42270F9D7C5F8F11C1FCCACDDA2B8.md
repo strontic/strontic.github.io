@@ -88,8 +88,8 @@ C:\Windows\system32\openfiles.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/f559eb1de240cc388d2d1b612d45b8ad962822783fcf36ec8c541ed0f29c9d48/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/f559eb1de240cc388d2d1b612d45b8ad962822783fcf36ec8c541ed0f29c9d48/detection
 
 
 

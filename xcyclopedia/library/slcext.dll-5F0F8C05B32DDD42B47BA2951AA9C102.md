@@ -26,15 +26,15 @@ PE256 | `ED3F5F28DA9B375D8992F96176F2F79093CE46DA2F37BE2D0D7457A55A4E667B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SLGetServerStatus` | 7 | Exported Function
-`SLGetReferralInformation` | 6 | Exported Function
-`SLUninstallPackage` | 9 | Exported Function
-`SLInstallPackage` | 8 | Exported Function
-`SLGetPackageToken` | 5 | Exported Function
-`SLActivateProduct` | 2 | Exported Function
 `SLAcquireGenuineTicket` | 1 | Exported Function
-`SLGetPackageProperties` | 4 | Exported Function
+`SLActivateProduct` | 2 | Exported Function
 `SLGetPackageProductKey` | 3 | Exported Function
+`SLGetPackageProperties` | 4 | Exported Function
+`SLGetPackageToken` | 5 | Exported Function
+`SLGetReferralInformation` | 6 | Exported Function
+`SLGetServerStatus` | 7 | Exported Function
+`SLInstallPackage` | 8 | Exported Function
+`SLUninstallPackage` | 9 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `D4F4CD49D9557D8FF43399731369A2D1F094B28B6790F70EAFB8C86DC05738A9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HardwareDetectionServiceMain` | 15 | Exported Function
 `CreateHardwareEventMoniker` | 16 | Exported Function
+`HardwareDetectionServiceMain` | 15 | Exported Function
 
 
 ## Signature

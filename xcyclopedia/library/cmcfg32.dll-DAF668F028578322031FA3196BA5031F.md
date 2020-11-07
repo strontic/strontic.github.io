@@ -26,11 +26,11 @@ PE256 | `44B7801B1CD2E12C27B75F46DB3ABC0FDFA5C0444E266F567E58989F44ECC6B4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CmstpExtensionProc` | 2 | Exported Function
-`CmstpExtensionProc2` | 1 | Exported Function
-`CMConfigEx` | 5 | Exported Function
 `_CMConfig@8` | 4 | Exported Function
 `CMConfig` | 3 | Exported Function
+`CMConfigEx` | 5 | Exported Function
+`CmstpExtensionProc` | 2 | Exported Function
+`CmstpExtensionProc2` | 1 | Exported Function
 
 
 ## Signature

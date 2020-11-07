@@ -26,11 +26,11 @@ PE256 | `D08D15CC575CE161E000FDB7F887FC46A74A3B6760E0C157BAF4BFD5B3370B67`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetProcessAffinityMask` | 4 | Exported Function
-`SetThreadAffinityMask` | 5 | Exported Function
-`GetProcessIoCounters` | 3 | Exported Function
 `GetActiveProcessorCount` | 1 | Exported Function
 `GetProcessAffinityMask` | 2 | Exported Function
+`GetProcessIoCounters` | 3 | Exported Function
+`SetProcessAffinityMask` | 4 | Exported Function
+`SetThreadAffinityMask` | 5 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `BEF98330BAB325ECE48C7D92A7E86266C3A3E16875B3AE29A2E5047C2256DE99`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetAddressDisabledEx` | 2 | Exported Function
 `ServiceMain` | 1 | Exported Function
+`SetAddressDisabledEx` | 2 | Exported Function
 
 
 ## Signature

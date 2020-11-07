@@ -27,10 +27,13 @@ PE256 | `9350C55D53355F9438A50D9625E5DE7210A7D9277907D5D8548655D6B515422C`
 
 Path |
 -- |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\pospaymentsworker.exe |
 C:\Windows\System32\RPCRT4.dll |
@@ -58,8 +61,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/43e3fcb7a777c62d02cb359452c488e114d8da9f9ffa7854ecfb5cd236b9377f/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/43e3fcb7a777c62d02cb359452c488e114d8da9f9ffa7854ecfb5cd236b9377f/detection
 
 
 

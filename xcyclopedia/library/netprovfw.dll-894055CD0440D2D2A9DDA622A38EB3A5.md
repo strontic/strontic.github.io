@@ -26,18 +26,18 @@ PE256 | `D2E68095E431D0E13E4B23A492E2E980B55B42CA38BDF18C3FE02E42BD5C546F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetpRequestProvisioningPackageInstall` | 10 | Exported Function
-`NetpProvFreeLdapLsaDomainInfo` | 9 | Exported Function
-`NetpProvDomainJoinLicensingCheck` | 8 | Exported Function
-`NetRequestProvisioningPackageInstall` | 3 | Exported Function
-`NetpRequestProvisioningPackageInstallForOfflineServicing` | 12 | Exported Function
-`NetpRequestProvisioningPackageInstallForIMC` | 11 | Exported Function
-`NetpAnalyzeProvisioningPackage` | 4 | Exported Function
-`NetCreateProvisioningPackage` | 2 | Exported Function
 `NetCaptureProvisioningPackage` | 1 | Exported Function
-`NetpProvContinueProvisioningPackageInstall` | 7 | Exported Function
-`NetpProvCheckOfflineLsaPolicyUpdate` | 6 | Exported Function
+`NetCreateProvisioningPackage` | 2 | Exported Function
+`NetpAnalyzeProvisioningPackage` | 4 | Exported Function
 `NetpCreateProvisioningPackage` | 5 | Exported Function
+`NetpProvCheckOfflineLsaPolicyUpdate` | 6 | Exported Function
+`NetpProvContinueProvisioningPackageInstall` | 7 | Exported Function
+`NetpProvDomainJoinLicensingCheck` | 8 | Exported Function
+`NetpProvFreeLdapLsaDomainInfo` | 9 | Exported Function
+`NetpRequestProvisioningPackageInstall` | 10 | Exported Function
+`NetpRequestProvisioningPackageInstallForIMC` | 11 | Exported Function
+`NetpRequestProvisioningPackageInstallForOfflineServicing` | 12 | Exported Function
+`NetRequestProvisioningPackageInstall` | 3 | Exported Function
 
 
 ## Signature

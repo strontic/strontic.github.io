@@ -25,8 +25,8 @@ PE256 | `810D20DA8C8247AA3F6C88DD29766145F3C48156BD25E2A709EBEED37265A4AE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UnregisterComputeSystem` | 2 | Exported Function
 `RegisterComputeSystem` | 1 | Exported Function
+`UnregisterComputeSystem` | 2 | Exported Function
 
 
 ## Signature

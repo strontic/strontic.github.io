@@ -26,12 +26,12 @@ PE256 | `553D4B5806D7B213857F9970641040F3F4424CF6C343722CED3051B2231801E5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessEQoSPolicy` | 2 | Exported Function
-`ProcessPSCHEDPolicy` | 3 | Exported Function
-`ProcessTCPIPPolicy` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
 `DllUnregisterServer` | 6 | Exported Function
 `ProcessConnectivityPlatformPolicy` | 1 | Exported Function
+`ProcessEQoSPolicy` | 2 | Exported Function
+`ProcessPSCHEDPolicy` | 3 | Exported Function
+`ProcessTCPIPPolicy` | 4 | Exported Function
 
 
 ## Signature

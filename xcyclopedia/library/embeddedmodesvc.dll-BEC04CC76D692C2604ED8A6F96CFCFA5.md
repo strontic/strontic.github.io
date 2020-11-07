@@ -26,9 +26,9 @@ PE256 | `A6A30ACF821B15B69E23772997F43317A40570C113C42E40A804CAC2B842929C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\ieUnatt.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/d3881aea8dc3fa20b60eb15fba561b5af4dbaece3cf3b643b755425feb864263/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d3881aea8dc3fa20b60eb15fba561b5af4dbaece3cf3b643b755425feb864263/detection
 
 
 

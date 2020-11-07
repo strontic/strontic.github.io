@@ -26,17 +26,17 @@ PE256 | `FFBFA5A4D687F36643A0E4A7522BEC07EF6BFCBF1AE4E2F75003FBEB5AD3710D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ParallelPortPropPageProvider` | 8 | Exported Function
-`ComDBResizeDatabase` | 7 | Exported Function
-`PortsClassInstaller` | 9 | Exported Function
-`SerialPortPropPageProvider` | 11 | Exported Function
-`SerialDisplayAdvancedSettings` | 10 | Exported Function
-`ComDBReleasePort` | 6 | Exported Function
-`ComDBClaimPort` | 2 | Exported Function
 `ComDBClaimNextFreePort` | 1 | Exported Function
+`ComDBClaimPort` | 2 | Exported Function
 `ComDBClose` | 3 | Exported Function
-`ComDBOpen` | 5 | Exported Function
 `ComDBGetCurrentPortUsage` | 4 | Exported Function
+`ComDBOpen` | 5 | Exported Function
+`ComDBReleasePort` | 6 | Exported Function
+`ComDBResizeDatabase` | 7 | Exported Function
+`ParallelPortPropPageProvider` | 8 | Exported Function
+`PortsClassInstaller` | 9 | Exported Function
+`SerialDisplayAdvancedSettings` | 10 | Exported Function
+`SerialPortPropPageProvider` | 11 | Exported Function
 
 
 ## Signature

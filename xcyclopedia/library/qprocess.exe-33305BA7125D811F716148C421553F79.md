@@ -90,8 +90,8 @@ C:\Windows\system32\qprocess.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/f71965f45a393e95b8c10b6d8947903bd0f035fc8ca3982d0f1a7d42b23fa315/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/f71965f45a393e95b8c10b6d8947903bd0f035fc8ca3982d0f1a7d42b23fa315/detection
 
 
 ## Possible Misuse

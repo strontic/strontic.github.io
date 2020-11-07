@@ -26,26 +26,26 @@ PE256 | `B7FCA33B779F632076859B0F34099E88034FE3F51DD888930A849A33F3EA0EEC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetMTAThreadPoolMetrics` | 19 | Exported Function
+`CoCreateActivity` | 8 | Exported Function
+`MTSCreateActivity` | 23 | Exported Function
+`MiniDumpW` | 24 | Exported Function
+`GetTrkSvrObject` | 22 | Exported Function
 `GetObjectContext` | 21 | Exported Function
+`GetMTAThreadPoolMetrics` | 19 | Exported Function
 `GetManagedExtensions` | 20 | Exported Function
-`DllRegisterServer` | 17 | Exported Function
 `DllUnregisterServer` | 18 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DispManGetContext` | 14 | Exported Function
+`CosGetCallContext` | 5 | Exported Function
+`ComSvcsLogError` | 13 | Exported Function
+`ComSvcsExceptionFilter` | 12 | Exported Function
+`CoLoadServices` | 11 | Exported Function
+`CoLeaveServiceDomain` | 10 | Exported Function
+`CoEnterServiceDomain` | 9 | Exported Function
 `RecycleSurrogate` | 25 | Exported Function
 `SafeRef` | 26 | Exported Function
-`MTSCreateActivity` | 23 | Exported Function
-`GetTrkSvrObject` | 22 | Exported Function
-`MiniDumpW` | 24 | Exported Function
-`CoLoadServices` | 11 | Exported Function
-`ComSvcsExceptionFilter` | 12 | Exported Function
-`CoLeaveServiceDomain` | 10 | Exported Function
-`CoCreateActivity` | 8 | Exported Function
-`CoEnterServiceDomain` | 9 | Exported Function
-`DllCanUnloadNow` | 15 | Exported Function
-`DllGetClassObject` | 16 | Exported Function
-`DispManGetContext` | 14 | Exported Function
-`ComSvcsLogError` | 13 | Exported Function
-`CosGetCallContext` | 5 | Exported Function
 
 
 ## Signature

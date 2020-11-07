@@ -26,8 +26,8 @@ PE256 | `9CE62A1789CF36B4C4808E4FD0CFF0E755EC67C2774E42BC0F4F6D90EC33F2A5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Restore` | 2 | Exported Function
 `Preserve` | 1 | Exported Function
+`Restore` | 2 | Exported Function
 
 
 ## Signature

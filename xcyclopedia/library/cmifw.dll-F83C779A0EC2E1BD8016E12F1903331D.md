@@ -26,10 +26,10 @@ PE256 | `F0CD9A462531E7C22EAD8DDD8921694BB21141CCAAB31638820CBF9762BC774F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnableGroupW` | 1 | Exported Function
-`unattendW` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`EnableGroupW` | 1 | Exported Function
+`unattendW` | 2 | Exported Function
 
 
 ## Signature

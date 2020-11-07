@@ -29,6 +29,7 @@ PE256 | `42B5DC67ED8259EDE00316F09A1AE32A6F0854C038B465A7D19FD9E1B80F3730`
 Path |
 -- |
 C:\Windows\system32\BioIso.exe |
+C:\Windows\system32\IumSdk.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -40,8 +41,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -58,8 +59,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/9bd80e2859e159d0b70a7feb6ee112cc3fad31a9b4a1d861d139e33c92c6ffff/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/9bd80e2859e159d0b70a7feb6ee112cc3fad31a9b4a1d861d139e33c92c6ffff/detection
 
 ## File Similarity (ssdeep match)
 

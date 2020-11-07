@@ -26,12 +26,12 @@ PE256 | `A1655C8622B9F2BA55E697DFDC0B5E0F22DAA9D4C6F57DBB97CB3EE70548DCC3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VReaderDeinitialize` | 3 | Exported Function
-`VReaderDestroy` | 4 | Exported Function
-`VReaderInitialize` | 5 | Exported Function
 `DllGetClassObject` | 1 | Exported Function
 `Microsoft_WDF_UMDF_Version` | 6 | Exported Function
 `VReaderCreate` | 2 | Exported Function
+`VReaderDeinitialize` | 3 | Exported Function
+`VReaderDestroy` | 4 | Exported Function
+`VReaderInitialize` | 5 | Exported Function
 
 
 ## Signature

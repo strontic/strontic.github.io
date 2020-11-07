@@ -28,8 +28,8 @@ PE256 | `CD60FF780DC28CF3FD4E4FDC890048C4F7A752F25D901C640ED6583A00094951`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`XMDllLoad` | 1 | Exported Function
 `XMDllCanUnloadNow` | 2 | Exported Function
+`XMDllLoad` | 1 | Exported Function
 
 
 ## Signature

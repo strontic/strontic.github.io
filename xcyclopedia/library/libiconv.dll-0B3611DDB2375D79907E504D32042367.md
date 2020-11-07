@@ -25,14 +25,14 @@ PE256 | `24969DDCE5DBBEEA178878A3E72E81362ACB9B14AEAF0F5317F545CF2630ECB7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`libiconv_open_into` | 6 | Exported Function
-`libiconv_open` | 5 | Exported Function
-`libiconvlist` | 8 | Exported Function
-`libiconvctl` | 7 | Exported Function
-`iconv_canonicalize` | 2 | Exported Function
 `_libiconv_version` | 1 | Exported Function
-`libiconv_close` | 4 | Exported Function
+`iconv_canonicalize` | 2 | Exported Function
 `libiconv` | 3 | Exported Function
+`libiconv_close` | 4 | Exported Function
+`libiconv_open` | 5 | Exported Function
+`libiconv_open_into` | 6 | Exported Function
+`libiconvctl` | 7 | Exported Function
+`libiconvlist` | 8 | Exported Function
 
 
 ## Signature

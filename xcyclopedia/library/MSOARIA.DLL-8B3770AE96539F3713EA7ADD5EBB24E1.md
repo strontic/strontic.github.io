@@ -26,9 +26,9 @@ PE256 | `6E39969D266094368CF967C535A6A38EE82CABEC03796F1F699D4FA0F41FF875`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MakeLogConfigurationImpl` | 3 | Exported Function
-`MakeEventPropertiesImpl` | 2 | Exported Function
 `GetApi` | 1 | Exported Function
+`MakeEventPropertiesImpl` | 2 | Exported Function
+`MakeLogConfigurationImpl` | 3 | Exported Function
 
 
 ## Signature

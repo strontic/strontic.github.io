@@ -26,38 +26,38 @@ PE256 | `D05232981031DF9ACB82CC12394E753186EDF3A62D15E89000B749BFABECCBB6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPerfMon::InitializePerfMon` | 21 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 8 | Exported Function
-`CPerfMon::_PERF_ITEM` | 5 | Exported Function
-`CPerfMon::VerifyPerfItemTable` | 29 | Exported Function
-`CPerfMon::__INSTANCE_ID` | 17 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 27 | Exported Function
-`CPerfMon::CollectAllObjects` | 7 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 4 | Exported Function
+`PerfMon_Close` | 30 | Exported Function
 `CPerfMon::__INSTANCE_ID` | 15 | Exported Function
 `CPerfMon::operator` | 3 | Exported Function
-`CPerfMon::Initialize` | 20 | Exported Function
-`CPerfMon::Collect` | 6 | Exported Function
-`CPerfMon::_PERF_ITEM` | 1 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 14 | Exported Function
 `CPerfMon::__INSTANCE_ID` | 16 | Exported Function
 `public: __cdecl CPerfMon::~CPerfMon(void) __ptr64` | 2 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 18 | Exported Function
-`CPerfMon::__COUNTER_ID` | 12 | Exported Function
-`CPerfMon::__INSTANCE_ID` | 22 | Exported Function
-`CPerfMon::IdToPerfItemIndex` | 19 | Exported Function
-`PerfMon_Collect` | 31 | Exported Function
-`PerfMon_Close` | 30 | Exported Function
-`CPerfMon::__INSTANCE_ID` | 9 | Exported Function
-`PerfMon_Open` | 32 | Exported Function
-`CPerfMon::__COUNTER_ID` | 11 | Exported Function
-`CPerfMon::__OBJECT_ID` | 24 | Exported Function
+`CPerfMon::_PERF_ITEM` | 1 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 14 | Exported Function
+`CPerfMon::_PERF_ITEM` | 5 | Exported Function
+`CPerfMon::VerifyPerfItemTable` | 29 | Exported Function
+`CPerfMon::InitializePerfMon` | 21 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 8 | Exported Function
+`CPerfMon::CollectAllObjects` | 7 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 4 | Exported Function
+`CPerfMon::__INSTANCE_ID` | 17 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 27 | Exported Function
 `CPerfMon::__OBJECT_ID` | 25 | Exported Function
 `CPerfMon::__COUNTER_ORD` | 13 | Exported Function
-`CPerfMon::__OBJECT_ID` | 26 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 23 | Exported Function
+`CPerfMon::__COUNTER_ID` | 11 | Exported Function
+`CPerfMon::__OBJECT_ID` | 24 | Exported Function
 `CPerfMon::__COUNTER_ID` | 10 | Exported Function
 `CPerfMon::__OBJECT_ORD` | 28 | Exported Function
+`CPerfMon::__OBJECT_ID` | 26 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 23 | Exported Function
+`CPerfMon::__INSTANCE_ID` | 22 | Exported Function
+`CPerfMon::IdToPerfItemIndex` | 19 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 18 | Exported Function
+`CPerfMon::__COUNTER_ID` | 12 | Exported Function
+`CPerfMon::__INSTANCE_ID` | 9 | Exported Function
+`PerfMon_Open` | 32 | Exported Function
+`PerfMon_Collect` | 31 | Exported Function
+`CPerfMon::Collect` | 6 | Exported Function
+`CPerfMon::Initialize` | 20 | Exported Function
 
 
 ## Signature

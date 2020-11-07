@@ -38,8 +38,8 @@ C:\Windows\SysWOW64\EhStorAuthn.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\EhStorAuthn.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/de0662eb81790fe9e872a5061ba088da715d50156aaf1e2b0546e20892e05d8e/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/de0662eb81790fe9e872a5061ba088da715d50156aaf1e2b0546e20892e05d8e/detection
 
 ## File Similarity (ssdeep match)
 

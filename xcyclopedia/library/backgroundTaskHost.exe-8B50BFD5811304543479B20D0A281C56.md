@@ -233,6 +233,7 @@ File | Score
 [C:\Windows\SysWOW64\AppVSentinel.dll](AppVSentinel.dll-462C078F2EFA56DF06111236A64D9AC9.md) | 44
 [C:\Windows\SysWOW64\AppVTerminator.dll](AppVTerminator.dll-85F112B8986232330CD738542E2849D8.md) | 32
 [C:\Windows\SysWOW64\avrt.dll](avrt.dll-1F0522593C3A5C2E50AC3695BA5CB795.md) | 40
+[C:\Windows\SysWOW64\backgroundTaskHost.exe](backgroundTaskHost.exe-F290D12F0351B56708B3DF1EC26CB45B.md) | 57
 [C:\Windows\SysWOW64\backgroundTaskHost.exe](backgroundTaskHost.exe-F8D636BD68156F0C653DBC3D69FC0F08.md) | 46
 [C:\Windows\SysWOW64\BOOTVID.DLL](BOOTVID.DLL-51FB33A072A2245B15AB6A6C2E9F0EFA.md) | 33
 [C:\Windows\SysWOW64\CameraSettingsUIHost.exe](CameraSettingsUIHost.exe-AB2C7BC86F9E1BB245E43C81A01A7380.md) | 29

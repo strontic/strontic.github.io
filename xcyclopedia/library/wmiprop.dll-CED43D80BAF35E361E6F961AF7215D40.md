@@ -26,8 +26,8 @@ PE256 | `94CBE2E2501A72A1CCC5A8D8D5DC3DF48BE5F4A0B0B709EB43242B90B3C292E1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WmiPropPageProvider` | 2 | Exported Function
 `WmiPropCoInstaller` | 1 | Exported Function
+`WmiPropPageProvider` | 2 | Exported Function
 
 
 ## Signature

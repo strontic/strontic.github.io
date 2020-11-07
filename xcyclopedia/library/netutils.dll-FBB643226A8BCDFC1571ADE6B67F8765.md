@@ -26,28 +26,28 @@ PE256 | `E3141CB0CCF6E526E497E41967CBA081C9F48CCE31F43AFFBE01E8550F50FCE6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetpwListTraverse` | 16 | Exported Function
-`NetpwNameCanonicalize` | 17 | Exported Function
-`NetpwListCanonicalize` | 15 | Exported Function
-`NetpIsUncComputerNameValid` | 13 | Exported Function
-`NetpIsUserNameValid` | 14 | Exported Function
+`NetApiBufferAllocate` | 1 | Exported Function
+`NetpwPathCompare` | 21 | Exported Function
+`NetpwPathCanonicalize` | 20 | Exported Function
+`NetpwNameValidate` | 19 | Exported Function
 `NetpwNameCompare` | 18 | Exported Function
+`NetpwNameCanonicalize` | 17 | Exported Function
+`NetpwListTraverse` | 16 | Exported Function
+`NetpwListCanonicalize` | 15 | Exported Function
+`NetpIsUserNameValid` | 14 | Exported Function
+`NetpIsUncComputerNameValid` | 13 | Exported Function
+`NetpIsShareNameValid` | 12 | Exported Function
+`NetpIsRemoteNameValid` | 11 | Exported Function
+`NetpIsRemote` | 10 | Exported Function
+`NetpIsGroupNameValid` | 9 | Exported Function
+`NetpIsDomainNameValid` | 8 | Exported Function
+`NetpIsComputerNameValid` | 7 | Exported Function
+`NetapipBufferAllocate` | 6 | Exported Function
+`NetApiBufferSize` | 4 | Exported Function
+`NetApiBufferReallocate` | 3 | Exported Function
+`NetApiBufferFree` | 2 | Exported Function
 `NetpwPathType` | 22 | Exported Function
 `NetRemoteComputerSupports` | 5 | Exported Function
-`NetpwPathCompare` | 21 | Exported Function
-`NetpwNameValidate` | 19 | Exported Function
-`NetpwPathCanonicalize` | 20 | Exported Function
-`NetApiBufferSize` | 4 | Exported Function
-`NetapipBufferAllocate` | 6 | Exported Function
-`NetApiBufferReallocate` | 3 | Exported Function
-`NetApiBufferAllocate` | 1 | Exported Function
-`NetApiBufferFree` | 2 | Exported Function
-`NetpIsComputerNameValid` | 7 | Exported Function
-`NetpIsRemoteNameValid` | 11 | Exported Function
-`NetpIsShareNameValid` | 12 | Exported Function
-`NetpIsRemote` | 10 | Exported Function
-`NetpIsDomainNameValid` | 8 | Exported Function
-`NetpIsGroupNameValid` | 9 | Exported Function
 
 
 ## Signature

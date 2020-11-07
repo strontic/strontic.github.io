@@ -26,8 +26,8 @@ PE256 | `9ED6293E013FBFB3977081002516EBF894D5586409A14015B0A9147AD2A5DA4E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 2 | Exported Function
 `ServiceCtrlHandler` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
 
 
 ## Signature

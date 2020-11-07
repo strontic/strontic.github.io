@@ -26,11 +26,11 @@ PE256 | `BEF18D882AFC38482338E3B5746AB536318D91AC7A62DAD2C7EE823004FFA91C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProvideUiAlerts` | 4 | Exported Function
-`RemoveUninstallImage` | 5 | Exported Function
-`IsUninstallImageValid` | 3 | Exported Function
 `ExecuteUninstall` | 1 | Exported Function
 `GetUninstallImageSize` | 2 | Exported Function
+`IsUninstallImageValid` | 3 | Exported Function
+`ProvideUiAlerts` | 4 | Exported Function
+`RemoveUninstallImage` | 5 | Exported Function
 
 
 ## Signature

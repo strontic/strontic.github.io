@@ -26,8 +26,8 @@ PE256 | `CCC873510C41737948AB6C344508B2F1016A2A033585C76EA0B4A8594C924240`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 2 | Exported Function
 `DiscpLoadGPSettings` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

@@ -88,6 +88,11 @@ C:\Windows\SysWOW64\auditpol.exe |
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/ce7c5bbc024f803e35d1486585941f7ba6338543ccde606fc04138a22ac763bc/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\auditpol.exe](auditpol.exe-70DF7973F8D4AAA2EE3B28391239397B.md) | 86
 
 
 ## Additional Info*

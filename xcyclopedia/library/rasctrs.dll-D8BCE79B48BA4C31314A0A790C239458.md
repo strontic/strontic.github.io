@@ -26,9 +26,9 @@ PE256 | `2AD3B3384E7A9C101378364FD241C7E96667B20E3A165A0F6697279426271FDA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenRasPerformanceData` | 1 | Exported Function
-`CollectRasPerformanceData` | 2 | Exported Function
 `CloseRasPerformanceData` | 3 | Exported Function
+`CollectRasPerformanceData` | 2 | Exported Function
+`OpenRasPerformanceData` | 1 | Exported Function
 
 
 ## Signature

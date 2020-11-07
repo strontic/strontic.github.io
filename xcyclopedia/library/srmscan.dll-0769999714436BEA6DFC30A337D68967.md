@@ -26,16 +26,16 @@ PE256 | `69FFAF34A6FA3A028940AD234598314D6AA3A18A517865A1AEE5D7955672729A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SrmIsNameInExpression` | 1 | Exported Function
-`SrmIsInCluster` | 4 | Exported Function
-`SrmLocalFileTimeToUtcFileTime` | 8 | Exported Function
-`SrmValidateNamespaceRoots` | 5 | Exported Function
-`SrmUtcFileTimeToLocalFileTime` | 7 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
 `DllCanUnloadNow` | 9 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
 `SrmCalculateCrcHash` | 2 | Exported Function
-`SrmEnsureSystemVolumeInformationFolder` | 3 | Exported Function
 `SrmCreateOrDeleteNotificationScheduledTask` | 6 | Exported Function
+`SrmEnsureSystemVolumeInformationFolder` | 3 | Exported Function
+`SrmIsInCluster` | 4 | Exported Function
+`SrmIsNameInExpression` | 1 | Exported Function
+`SrmLocalFileTimeToUtcFileTime` | 8 | Exported Function
+`SrmUtcFileTimeToLocalFileTime` | 7 | Exported Function
+`SrmValidateNamespaceRoots` | 5 | Exported Function
 
 
 ## Signature

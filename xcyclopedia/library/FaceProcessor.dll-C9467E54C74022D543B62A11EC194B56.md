@@ -25,15 +25,15 @@ PE256 | `8F381E094C845A33D7EFE0F486F5ADF7C52CF8B6196CF2BEC22050A96DF08DFD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FileInputManager_Reset` | 7 | Exported Function
-`FileInputManager_ReadSourceInfraredFrameData` | 6 | Exported Function
-`FileInputManager_SendInfraredFrameData` | 9 | Exported Function
-`FileInputManager_SendColorFrameData` | 8 | Exported Function
-`FileInputManager_ReadSourceDeviceMetadata` | 5 | Exported Function
-`CreateFacePreprocessorOutput` | 2 | Exported Function
 `CreateColorFaceProcessor` | 1 | Exported Function
-`FileInputManager_ReadSourceColorFrameData` | 4 | Exported Function
+`CreateFacePreprocessorOutput` | 2 | Exported Function
 `FileInputManager_InitializeRuntime` | 3 | Exported Function
+`FileInputManager_ReadSourceColorFrameData` | 4 | Exported Function
+`FileInputManager_ReadSourceDeviceMetadata` | 5 | Exported Function
+`FileInputManager_ReadSourceInfraredFrameData` | 6 | Exported Function
+`FileInputManager_Reset` | 7 | Exported Function
+`FileInputManager_SendColorFrameData` | 8 | Exported Function
+`FileInputManager_SendInfraredFrameData` | 9 | Exported Function
 
 
 ## Signature

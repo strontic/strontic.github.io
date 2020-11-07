@@ -27,7 +27,7 @@ PE256 | `DBE5062B44BFBD35D2839FAFF89618CE59472C452AE391777F1DB6B6B6C71DC8`
 ### Usage (stdout):
 ```cmhg
 
-[37aacd8d-548a-4e5b-8f88-125853a1ecae]
+[4bbceea8-6a14-42ac-b9f4-2c1c73ceb80c]
 
 ```
 
@@ -57,7 +57,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\finger.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -93,8 +96,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/d6c52ea560d6009505545e53c481f1d75579e11dade120cf164ebd196824ba91/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d6c52ea560d6009505545e53c481f1d75579e11dade120cf164ebd196824ba91/detection
 
 
 ## Possible Misuse

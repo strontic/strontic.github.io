@@ -26,11 +26,11 @@ PE256 | `B5561A878B1879B3EBA0873E3CBF5068747A492090DEAD34D9236CD014C5F0DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 5 | Exported Function
-`SvchostPushServiceGlobals` | 1 | Exported Function
-`LaunchModernNfcEventSession` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`LaunchModernNfcEventSession` | 4 | Exported Function
+`ServiceMain` | 5 | Exported Function
+`SvchostPushServiceGlobals` | 1 | Exported Function
 
 
 ## Signature

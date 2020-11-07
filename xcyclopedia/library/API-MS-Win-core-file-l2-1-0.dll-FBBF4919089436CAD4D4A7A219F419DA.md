@@ -26,17 +26,17 @@ PE256 | `27BA1E819840E3535107B3D3754C2C38B258AA44E259673068C2EB85A2E66F63`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MoveFileWithProgressW` | 8 | Exported Function
-`MoveFileExW` | 7 | Exported Function
-`ReadDirectoryChangesW` | 10 | Exported Function
-`ReplaceFileW` | 11 | Exported Function
-`ReOpenFile` | 9 | Exported Function
-`GetFileInformationByHandleEx` | 6 | Exported Function
-`CopyFileExW` | 2 | Exported Function
 `CopyFile2` | 1 | Exported Function
+`CopyFileExW` | 2 | Exported Function
 `CreateDirectoryExW` | 3 | Exported Function
-`CreateSymbolicLinkW` | 5 | Exported Function
 `CreateHardLinkW` | 4 | Exported Function
+`CreateSymbolicLinkW` | 5 | Exported Function
+`GetFileInformationByHandleEx` | 6 | Exported Function
+`MoveFileExW` | 7 | Exported Function
+`MoveFileWithProgressW` | 8 | Exported Function
+`ReadDirectoryChangesW` | 10 | Exported Function
+`ReOpenFile` | 9 | Exported Function
+`ReplaceFileW` | 11 | Exported Function
 
 
 ## Signature

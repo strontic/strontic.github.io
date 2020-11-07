@@ -62,6 +62,11 @@ C:\Windows\SysWOW64\LaunchTM.exe |
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/8a2caaa0cecc14739d42fb9793794b098bad26c4c4aabc5e4b6e3e8d9b21672e/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\LaunchTM.exe](LaunchTM.exe-3F2765B3BAF0C8643704BEB2F53A74FC.md) | 97
 
 
 

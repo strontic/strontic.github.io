@@ -26,34 +26,34 @@ PE256 | `44B92154268301508B160E2D0AFAAB620DD82836460EE194E63458FFF4285ED6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsvpUpdateSharedConfiguration` | 19 | Exported Function
-`MsvpValidateSupplementalCreds` | 20 | Exported Function
-`MsvpValidateSupplementalCredsBuffer` | 21 | Exported Function
-`MsvpPutClearOwfsInPrimaryCredential` | 18 | Exported Function
-`MsvpNtlm3Response` | 15 | Exported Function
-`MsvpNtlm3ValidateResponse` | 16 | Exported Function
-`MsvpPasswordValidate` | 17 | Exported Function
+`MsvpCachePasswordsToCredential` | 1 | Exported Function
 `NtlmSharedFree` | 26 | Exported Function
+`NtlmSharedCleanup` | 25 | Exported Function
+`NtlmSharedAllocatePrivateHeap` | 24 | Exported Function
+`NtlmSharedAllocate` | 23 | Exported Function
+`NtLmAlterRtlEqualUnicodeString` | 22 | Exported Function
+`MsvpValidateSupplementalCredsBuffer` | 21 | Exported Function
+`MsvpValidateSupplementalCreds` | 20 | Exported Function
+`MsvpUpdateSharedConfiguration` | 19 | Exported Function
+`MsvpPutClearOwfsInPrimaryCredential` | 18 | Exported Function
+`MsvpPasswordValidate` | 17 | Exported Function
+`MsvpNtlm3ValidateResponse` | 16 | Exported Function
+`MsvpNtlm3Response` | 15 | Exported Function
+`MsvpMakeSecretPasswordNT5` | 14 | Exported Function
+`MsvpLm3ValidateResponse` | 13 | Exported Function
+`MsvpLm3Response` | 12 | Exported Function
+`MsvpLm20GetNtlm3ChallengeResponse` | 11 | Exported Function
+`MsvpGMSACred` | 10 | Exported Function
+`MsvpDeriveSecureCredKey` | 9 | Exported Function
+`MsvpDecryptDpapiMasterKey` | 8 | Exported Function
+`MsvpCredentialToCachePasswords` | 7 | Exported Function
+`MsvpComputeSaltedHashedPassword` | 6 | Exported Function
+`MsvpCompareCredentials` | 5 | Exported Function
+`MsvpCalculateNtlm3Owf` | 4 | Exported Function
+`MsvpCalculateNtlm2SessionKeys` | 3 | Exported Function
+`MsvpCalculateNtlm2Challenge` | 2 | Exported Function
 `NtlmSharedFreePrivateHeap` | 27 | Exported Function
 `NtlmSharedInit` | 28 | Exported Function
-`NtlmSharedCleanup` | 25 | Exported Function
-`NtLmAlterRtlEqualUnicodeString` | 22 | Exported Function
-`NtlmSharedAllocate` | 23 | Exported Function
-`NtlmSharedAllocatePrivateHeap` | 24 | Exported Function
-`MsvpCompareCredentials` | 5 | Exported Function
-`MsvpComputeSaltedHashedPassword` | 6 | Exported Function
-`MsvpCredentialToCachePasswords` | 7 | Exported Function
-`MsvpCalculateNtlm3Owf` | 4 | Exported Function
-`MsvpCachePasswordsToCredential` | 1 | Exported Function
-`MsvpCalculateNtlm2Challenge` | 2 | Exported Function
-`MsvpCalculateNtlm2SessionKeys` | 3 | Exported Function
-`MsvpLm3Response` | 12 | Exported Function
-`MsvpLm3ValidateResponse` | 13 | Exported Function
-`MsvpMakeSecretPasswordNT5` | 14 | Exported Function
-`MsvpLm20GetNtlm3ChallengeResponse` | 11 | Exported Function
-`MsvpDecryptDpapiMasterKey` | 8 | Exported Function
-`MsvpDeriveSecureCredKey` | 9 | Exported Function
-`MsvpGMSACred` | 10 | Exported Function
 
 
 ## Signature

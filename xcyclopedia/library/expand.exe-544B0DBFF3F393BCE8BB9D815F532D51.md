@@ -65,14 +65,15 @@ C:\Windows\SysWOW64\expand.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/dfc1709a2988301f7a9d145fb107793e3299ecc85f4b9702523939e35573ab85/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/dfc1709a2988301f7a9d145fb107793e3299ecc85f4b9702523939e35573ab85/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-031B08FC72A6773D79E5231D0ECA2C9A.md) | 30
+[C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-8929EBB0CCABE2B6001440E138A7DFB5.md) | 30
 [C:\WINDOWS\SysWOW64\expand.exe](expand.exe-8C2235852F8C2659EB6CA4A0C6B3B3F1.md) | 38
 [C:\Windows\SysWOW64\tzutil.exe](tzutil.exe-31DE852CCF7CED517CC79596C76126B4.md) | 32
 

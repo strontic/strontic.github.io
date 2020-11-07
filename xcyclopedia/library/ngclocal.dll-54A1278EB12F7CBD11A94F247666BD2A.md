@@ -26,11 +26,11 @@ PE256 | `8559F81A0894F79AC736696398440B1EA96A7917E01C54A2627186CAA8D8FF0F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NgcLocalFindCredential` | 4 | Exported Function
-`NgcLocalRemoveCredential` | 5 | Exported Function
-`NgcLocalChangeCredential` | 3 | Exported Function
 `NgcLocalAddCredential` | 1 | Exported Function
 `NgcLocalAddCredentialSilent` | 2 | Exported Function
+`NgcLocalChangeCredential` | 3 | Exported Function
+`NgcLocalFindCredential` | 4 | Exported Function
+`NgcLocalRemoveCredential` | 5 | Exported Function
 
 
 ## Signature

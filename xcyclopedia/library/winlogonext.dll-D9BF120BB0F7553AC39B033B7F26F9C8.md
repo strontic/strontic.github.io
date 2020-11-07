@@ -26,11 +26,11 @@ PE256 | `23EB439ECD06F997801654CA2877E8E839727BF66F80B5EE844645C353C37DDA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UpdateUserTokenSessionId` | 4 | Exported Function
-`WinLogonExt` | 5 | Exported Function
-`NotifyInteractiveSessionLogoff` | 3 | Exported Function
 `ConfigureUserArso` | 1 | Exported Function
 `EnableDisableElevationForSessionWorker` | 2 | Exported Function
+`NotifyInteractiveSessionLogoff` | 3 | Exported Function
+`UpdateUserTokenSessionId` | 4 | Exported Function
+`WinLogonExt` | 5 | Exported Function
 
 
 ## Signature

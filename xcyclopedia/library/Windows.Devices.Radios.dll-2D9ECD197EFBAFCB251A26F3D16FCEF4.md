@@ -26,18 +26,18 @@ PE256 | `4DB693217C744ACB261E203AC49348BA911C45A5666FBB66663EA421C6A4C33B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RadioDeviceStart` | 9 | Exported Function
-`RadioDeviceDelete` | 8 | Exported Function
-`RadioDeviceCreate` | 7 | Exported Function
-`StopRadioMonitor` | 12 | Exported Function
-`StartRadioMonitor` | 11 | Exported Function
-`RadioDeviceStop` | 10 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 `DllMain` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`RadioDeviceCreate` | 7 | Exported Function
+`RadioDeviceDelete` | 8 | Exported Function
+`RadioDeviceStart` | 9 | Exported Function
+`RadioDeviceStop` | 10 | Exported Function
+`StartRadioMonitor` | 11 | Exported Function
+`StopRadioMonitor` | 12 | Exported Function
 
 
 ## Signature

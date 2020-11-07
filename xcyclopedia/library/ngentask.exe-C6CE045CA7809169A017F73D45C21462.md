@@ -42,6 +42,9 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngentask.exe [options...]
 
 ```
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ### Loaded Modules:
 
 Path |
@@ -74,8 +77,8 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/41019bd2dff58eca53a25ffce26e487af0b693c3d305e67a0d4e8f8cd60c6ef6/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/41019bd2dff58eca53a25ffce26e487af0b693c3d305e67a0d4e8f8cd60c6ef6/detection
 
 
 ## Possible Misuse

@@ -22,21 +22,6 @@ IMP | `0051ED26FAD4A5455AAD4AE48969C316`
 PESHA1 | `C6F1A0B03DBA2352A3A88487FBA59EC9F1531A32`
 PE256 | `59622E25632D91B765ABE06C553B7C1F9E8FDB62CAA5AEAC4D45FE4393B76D3B`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\spaceman.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -58,8 +43,8 @@ C:\Windows\system32\spaceman.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/d7c6897b47ac880611b48490c4e74f79a9c52ae9e4e596fed1064a2f97434c0d/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d7c6897b47ac880611b48490c4e74f79a9c52ae9e4e596fed1064a2f97434c0d/detection
 
 
 

@@ -26,9 +26,9 @@ PE256 | `6A076D2EE0D539DD01E9A29B0611515B261982B15BB700F462126E42A627B5D5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetpJoinProviderOLInitialize` | 3 | Exported Function
-`NetpJoinProvider3OLInitialize` | 2 | Exported Function
 `NetpJoinProvider2OLInitialize` | 1 | Exported Function
+`NetpJoinProvider3OLInitialize` | 2 | Exported Function
+`NetpJoinProviderOLInitialize` | 3 | Exported Function
 
 
 ## Signature

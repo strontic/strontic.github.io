@@ -59,8 +59,8 @@ C:\Windows\SysWOW64\resmon.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/f3707c1d638f5487d1ef0a72173356023307dc6734dc738944c75f127fbcfd54/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/f3707c1d638f5487d1ef0a72173356023307dc6734dc738944c75f127fbcfd54/detection
 
 ## File Similarity (ssdeep match)
 

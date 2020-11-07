@@ -26,19 +26,19 @@ PE256 | `E2CA3E9184713870CBFCC19990BD347DE1E20EBA5E9021D4454BE909E3371D60`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MoveFileFromAppW` | 10 | Exported Function
-`GetFileAttributesExFromAppW` | 9 | Exported Function
-`FindFirstFileExFromAppW` | 8 | Exported Function
-`SetFileAttributesFromAppW` | 13 | Exported Function
-`ReplaceFileFromAppW` | 12 | Exported Function
-`RemoveDirectoryFromAppW` | 11 | Exported Function
-`DllGetActivationFactory` | 7 | Exported Function
-`CreateFile2FromAppW` | 3 | Exported Function
-`CreateDirectoryFromAppW` | 2 | Exported Function
 `CopyFileFromAppW` | 1 | Exported Function
-`DllCanUnloadNow` | 6 | Exported Function
-`DeleteFileFromAppW` | 5 | Exported Function
+`CreateDirectoryFromAppW` | 2 | Exported Function
+`CreateFile2FromAppW` | 3 | Exported Function
 `CreateFileFromAppW` | 4 | Exported Function
+`DeleteFileFromAppW` | 5 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`FindFirstFileExFromAppW` | 8 | Exported Function
+`GetFileAttributesExFromAppW` | 9 | Exported Function
+`MoveFileFromAppW` | 10 | Exported Function
+`RemoveDirectoryFromAppW` | 11 | Exported Function
+`ReplaceFileFromAppW` | 12 | Exported Function
+`SetFileAttributesFromAppW` | 13 | Exported Function
 
 
 ## Signature

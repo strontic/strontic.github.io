@@ -26,16 +26,16 @@ PE256 | `692C63FE569078A1FBEF2D0D70C2344EDF3E0D2214E37383C9F895BC87A18F32`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LogCAVerboseMessage` | 7 | Exported Function
-`LogCAProgressMessage` | 6 | Exported Function
-`LogCAWarningMessage` | 8 | Exported Function
-`LogCAWriteMIError` | 10 | Exported Function
-`LogCAWhatIfMessage` | 9 | Exported Function
-`CALogSetJobDeviceName` | 2 | Exported Function
 `CALogFreeMemory` | 1 | Exported Function
+`CALogSetJobDeviceName` | 2 | Exported Function
 `CAWhatIfEnabled` | 3 | Exported Function
-`LogCADebugMessage` | 5 | Exported Function
 `GetResourceIdFromContext` | 4 | Exported Function
+`LogCADebugMessage` | 5 | Exported Function
+`LogCAProgressMessage` | 6 | Exported Function
+`LogCAVerboseMessage` | 7 | Exported Function
+`LogCAWarningMessage` | 8 | Exported Function
+`LogCAWhatIfMessage` | 9 | Exported Function
+`LogCAWriteMIError` | 10 | Exported Function
 
 
 ## Signature

@@ -121,8 +121,8 @@ C:\Windows\system32\sort.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/c9d8c048beec3aa7d0494a36e77d5692391dff26bd32b07a3358c010d8c84c79/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/c9d8c048beec3aa7d0494a36e77d5692391dff26bd32b07a3358c010d8c84c79/detection
 
 
 

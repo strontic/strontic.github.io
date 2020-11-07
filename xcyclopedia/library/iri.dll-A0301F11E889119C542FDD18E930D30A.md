@@ -26,25 +26,25 @@ PE256 | `9D6D514B18AC2D73E1EE5BF2FEAC4C29A508440129B09686913258D8CC3D0EBA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IriGetSegmentCount` | 15 | Exported Function
-`IriMakeConstantEx` | 4 | Exported Function
-`IriGetRelative` | 8 | Exported Function
-`IriGetSegment` | 12 | Exported Function
-`IriMutableClose` | 3 | Exported Function
-`IriSplit` | 9 | Exported Function
-`IriSplitIntoMutableIris` | 6 | Exported Function
-`IriSetComponent` | 16 | Exported Function
-`IriSetMetadata` | 19 | Exported Function
-`IriGetComponent` | 11 | Exported Function
-`IriClose` | 2 | Exported Function
-`IriCompare` | 13 | Exported Function
 `IriAppendRelativeIri` | 18 | Exported Function
-`IriAppendSegment` | 17 | Exported Function
-`IriCopy` | 5 | Exported Function
+`IriSetMetadata` | 19 | Exported Function
+`IriSetComponent` | 16 | Exported Function
+`IriMutableClose` | 3 | Exported Function
+`IriMakeConstantEx` | 4 | Exported Function
+`IriGetSegmentCount` | 15 | Exported Function
+`IriGetSegment` | 12 | Exported Function
+`IriGetRelative` | 8 | Exported Function
+`IriSplit` | 9 | Exported Function
+`IriGetComponent` | 11 | Exported Function
 `IriGetAsString` | 7 | Exported Function
-`IriGetAttributeFlags` | 10 | Exported Function
-`IriCreateFromString` | 1 | Exported Function
 `IriFindLastCommonSegment` | 14 | Exported Function
+`IriCreateFromString` | 1 | Exported Function
+`IriCopy` | 5 | Exported Function
+`IriCompare` | 13 | Exported Function
+`IriClose` | 2 | Exported Function
+`IriAppendSegment` | 17 | Exported Function
+`IriGetAttributeFlags` | 10 | Exported Function
+`IriSplitIntoMutableIris` | 6 | Exported Function
 
 
 ## Signature

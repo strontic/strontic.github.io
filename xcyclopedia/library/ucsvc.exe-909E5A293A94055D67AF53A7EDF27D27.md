@@ -22,22 +22,6 @@ IMP | `0E0328595A346203B68DE1869CCFF8C2`
 PESHA1 | `B5078D3E8674326EAD5331B9F398D0D579EFE7E8`
 PE256 | `9BEDFEAD1AA98C577DD9CD1216ACD923FD8E7DA31E690728074B90FC266645E6`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\ucsvc.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -59,8 +43,8 @@ C:\Windows\system32\ucsvc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/2bfac411f014d87171cf09b110ec44436f4a0850b8b2cc3a4f72e7412f7a9d39/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/2bfac411f014d87171cf09b110ec44436f4a0850b8b2cc3a4f72e7412f7a9d39/detection
 
 
 

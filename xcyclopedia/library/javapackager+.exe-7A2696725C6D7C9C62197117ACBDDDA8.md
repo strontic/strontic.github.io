@@ -242,8 +242,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe](javafxpackager.exe-A28292598545FD5A54E62E9122293E38.md) | 94
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javapackager.exe](javapackager.exe-7A2696725C6D7C9C62197117ACBDDDA8.md) | 100
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager .exe](javafxpackager+.exe-A28292598545FD5A54E62E9122293E38.md) | 94
 
 
 

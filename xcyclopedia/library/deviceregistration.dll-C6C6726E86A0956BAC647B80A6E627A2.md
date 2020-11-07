@@ -26,12 +26,12 @@ PE256 | `E9AE567AA3E077630836F4EB5C4308A498CAA34C1DF6239CF907C765E85F6870`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsRegistrationAvailable` | 5 | Exported Function
-`RegisterDevice` | 1 | Exported Function
-`UnRegisterDevice` | 2 | Exported Function
 `ConfigureRegistrationIEZoneMappings` | 6 | Exported Function
 `DiscoverRegistrationService` | 3 | Exported Function
 `GetRegistrationInfo` | 4 | Exported Function
+`IsRegistrationAvailable` | 5 | Exported Function
+`RegisterDevice` | 1 | Exported Function
+`UnRegisterDevice` | 2 | Exported Function
 
 
 ## Signature

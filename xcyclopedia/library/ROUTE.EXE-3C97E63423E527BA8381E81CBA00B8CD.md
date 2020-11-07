@@ -129,8 +129,8 @@ C:\Windows\system32\ROUTE.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/b8a28aeb6345ca88b04ff3d9fadf30eacf26958c991bd8e4fb1df12a68f60eae/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/b8a28aeb6345ca88b04ff3d9fadf30eacf26958c991bd8e4fb1df12a68f60eae/detection
 
 
 ## Possible Misuse

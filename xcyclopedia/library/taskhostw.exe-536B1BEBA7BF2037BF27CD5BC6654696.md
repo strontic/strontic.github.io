@@ -64,6 +64,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/f58b368e051ef114719db91e1e82db81e8274a0c9f1286a39b00d9ebb6fde330/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\taskhostw.exe](taskhostw.exe-AF8D8590B0F74A7F514438DF3F1F4C22.md) | 47
 
 ## Possible Misuse
 

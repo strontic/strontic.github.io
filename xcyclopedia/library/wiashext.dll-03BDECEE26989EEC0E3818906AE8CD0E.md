@@ -26,15 +26,15 @@ PE256 | `2DC71EE6F1D8EF703E693AE0B8CF48ADE84D8157E61CA68B0F637A8E29F5CFBC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 8 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`MakeFullPidlForDevice` | 4 | Exported Function
-`DoDeleteAllItems` | 9 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`AddDeviceWasChosenA` | 2 | Exported Function
 `AddDeviceWasChosen` | 1 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
+`AddDeviceWasChosenA` | 2 | Exported Function
 `AddDeviceWasChosenW` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DoDeleteAllItems` | 9 | Exported Function
+`MakeFullPidlForDevice` | 4 | Exported Function
 
 
 ## Signature

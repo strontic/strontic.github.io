@@ -26,8 +26,8 @@ PE256 | `5BBEABF26DABB88AB12ED11CAF181B887CCE0199C7773BEB0157A9BC2C4DE800`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProcessActionQueue` | 2 | Exported Function
 `GenerateActionQueue` | 1 | Exported Function
+`ProcessActionQueue` | 2 | Exported Function
 
 
 ## Signature

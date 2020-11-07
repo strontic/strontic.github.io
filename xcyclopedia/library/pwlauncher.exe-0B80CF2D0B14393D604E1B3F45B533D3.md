@@ -72,8 +72,8 @@ C:\Windows\system32\pwlauncher.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/20bd575e31804c52d7edc3a6298aba504878d31df549d3fc82fe7a99ee9a966e/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/20bd575e31804c52d7edc3a6298aba504878d31df549d3fc82fe7a99ee9a966e/detection
 
 
 

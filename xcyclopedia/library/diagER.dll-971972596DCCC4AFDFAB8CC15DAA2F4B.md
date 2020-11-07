@@ -26,50 +26,50 @@ PE256 | `568909558878C29CB936B177C30A540EC355F325EFD58467B00CA5E0CD96F353`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`public: virtual __cdecl CWfpER::~CWfpER(void) __ptr64` | 8 | Exported Function
-`public: virtual __cdecl CDwWinER::~CDwWinER(void) __ptr64` | 7 | Exported Function
-`public: virtual __cdecl IDiagER::~IDiagER(void) __ptr64` | 9 | Exported Function
-`CDwWinER::AddFiles` | 21 | Exported Function
-`CDwWinER::AddBucketingParameters` | 18 | Exported Function
-`CDiagERFactory::ReleaseInstance` | 35 | Exported Function
-`CWfpER::operator` | 13 | Exported Function
-`CDwWinER::operator` | 12 | Exported Function
-`IDiagER::operator` | 14 | Exported Function
-`CDiagERFactory::CreateInstance` | 24 | Exported Function
-`CDiagERFactory::GetErrorReporter` | 32 | Exported Function
-`CWfpER::Submit` | 40 | Exported Function
-`CWfpER::SetHeader` | 37 | Exported Function
-`IDiagER::AddBucketingParameters` | 20 | Exported Function
-`IDiagER::SetHeader` | 38 | Exported Function
-`IDiagER::AddFiles` | 23 | Exported Function
-`CWfpER::Initialize` | 34 | Exported Function
-`CDwWinER::SetHeader` | 36 | Exported Function
-`CDwWinER::Initialize` | 33 | Exported Function
-`CDwWinER::Submit` | 39 | Exported Function
-`CWfpER::AddFiles` | 22 | Exported Function
-`CWfpER::AddBucketingParameters` | 19 | Exported Function
-`DiagERSubmit` | 29 | Exported Function
-`DiagERSetHeader` | 28 | Exported Function
-`DiagERSubmitEx` | 30 | Exported Function
-`g_Kernel32` | 41 | Exported Function
-`DiagERTerminate` | 31 | Exported Function
-`DiagERInitialize` | 27 | Exported Function
-`const CWfpER::``vftable'` | 16 | Exported Function
 `const CDwWinER::``vftable'` | 15 | Exported Function
-`const IDiagER::``vftable'` | 17 | Exported Function
-`DiagERAddFiles` | 26 | Exported Function
-`DiagERAddBucketingParameters` | 25 | Exported Function
-`IDiagER::IDiagER` | 5 | Exported Function
-`CWfpER::CWfpER` | 4 | Exported Function
-`IDiagER::IDiagER` | 6 | Exported Function
+`IDiagER::operator` | 14 | Exported Function
+`CDiagERFactory::GetErrorReporter` | 32 | Exported Function
+`CDiagERFactory::CreateInstance` | 24 | Exported Function
+`CDiagERFactory::ReleaseInstance` | 35 | Exported Function
+`public: virtual __cdecl CDwWinER::~CDwWinER(void) __ptr64` | 7 | Exported Function
+`public: virtual __cdecl CWfpER::~CWfpER(void) __ptr64` | 8 | Exported Function
+`public: virtual __cdecl IDiagER::~IDiagER(void) __ptr64` | 9 | Exported Function
+`CDwWinER::AddBucketingParameters` | 18 | Exported Function
+`CWfpER::operator` | 13 | Exported Function
+`CDwWinER::AddFiles` | 21 | Exported Function
+`CDwWinER::SetHeader` | 36 | Exported Function
+`CDwWinER::Submit` | 39 | Exported Function
+`CWfpER::AddBucketingParameters` | 19 | Exported Function
+`CWfpER::AddFiles` | 22 | Exported Function
+`CWfpER::Initialize` | 34 | Exported Function
+`CWfpER::SetHeader` | 37 | Exported Function
+`CWfpER::Submit` | 40 | Exported Function
+`IDiagER::AddBucketingParameters` | 20 | Exported Function
+`CDwWinER::Initialize` | 33 | Exported Function
+`CDwWinER::operator` | 12 | Exported Function
 `CDiagERFactory::operator` | 11 | Exported Function
 `CDiagERFactory::operator` | 10 | Exported Function
-`CWfpER::CWfpER` | 3 | Exported Function
-`g_WerApi` | 43 | Exported Function
+`const CWfpER::``vftable'` | 16 | Exported Function
+`const IDiagER::``vftable'` | 17 | Exported Function
+`DiagERAddBucketingParameters` | 25 | Exported Function
+`DiagERAddFiles` | 26 | Exported Function
+`DiagERInitialize` | 27 | Exported Function
+`DiagERSetHeader` | 28 | Exported Function
+`DiagERSubmit` | 29 | Exported Function
+`DiagERSubmitEx` | 30 | Exported Function
+`DiagERTerminate` | 31 | Exported Function
+`g_Kernel32` | 41 | Exported Function
 `g_Shell32` | 42 | Exported Function
+`g_WerApi` | 43 | Exported Function
 `CDiagERFactory::m_diagER` | 44 | Exported Function
-`CDwWinER::CDwWinER` | 2 | Exported Function
 `CDwWinER::CDwWinER` | 1 | Exported Function
+`CDwWinER::CDwWinER` | 2 | Exported Function
+`CWfpER::CWfpER` | 3 | Exported Function
+`CWfpER::CWfpER` | 4 | Exported Function
+`IDiagER::IDiagER` | 5 | Exported Function
+`IDiagER::IDiagER` | 6 | Exported Function
+`IDiagER::AddFiles` | 23 | Exported Function
+`IDiagER::SetHeader` | 38 | Exported Function
 
 
 ## Signature
@@ -96,6 +96,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/1a4508d2eb062b744ae7cdf0b24d998fae93756e0bbf1286765a75b5e6930439/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-6F3C9485F8F97AC04C8E43EF4463A68C.md) | 32
 
 
 

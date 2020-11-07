@@ -27,8 +27,8 @@ PE256 | `F29832B1797F813B238B5200A81A3B05509671087779239529C30BA752FF2C38`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TMCacheMgrDllLoad` | 1 | Exported Function
 `TMCacheMgrDllCanUnloadNow` | 2 | Exported Function
+`TMCacheMgrDllLoad` | 1 | Exported Function
 
 
 ## Signature

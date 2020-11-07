@@ -26,22 +26,22 @@ PE256 | `74B25D6EA4EB64DB0AFEAE480237C2BE1F5DF369A2E4728B7A6DBF200543354E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetFilePatchSignatureW` | 11 | Exported Function
-`NormalizeFileForPatchSignature` | 12 | Exported Function
-`GetFilePatchSignatureByBuffer` | 9 | Exported Function
-`GetFilePatchSignatureByHandle` | 10 | Exported Function
-`TestApplyPatchToFileByHandles` | 15 | Exported Function
-`TestApplyPatchToFileW` | 16 | Exported Function
-`TestApplyPatchToFileA` | 13 | Exported Function
-`TestApplyPatchToFileByBuffers` | 14 | Exported Function
-`ApplyPatchToFileByHandles` | 3 | Exported Function
-`ApplyPatchToFileByHandlesEx` | 4 | Exported Function
 `ApplyPatchToFileA` | 1 | Exported Function
 `ApplyPatchToFileByBuffers` | 2 | Exported Function
-`ApplyPatchToFileW` | 7 | Exported Function
-`GetFilePatchSignatureA` | 8 | Exported Function
+`ApplyPatchToFileByHandles` | 3 | Exported Function
+`ApplyPatchToFileByHandlesEx` | 4 | Exported Function
 `ApplyPatchToFileExA` | 5 | Exported Function
 `ApplyPatchToFileExW` | 6 | Exported Function
+`ApplyPatchToFileW` | 7 | Exported Function
+`GetFilePatchSignatureA` | 8 | Exported Function
+`GetFilePatchSignatureByBuffer` | 9 | Exported Function
+`GetFilePatchSignatureByHandle` | 10 | Exported Function
+`GetFilePatchSignatureW` | 11 | Exported Function
+`NormalizeFileForPatchSignature` | 12 | Exported Function
+`TestApplyPatchToFileA` | 13 | Exported Function
+`TestApplyPatchToFileByBuffers` | 14 | Exported Function
+`TestApplyPatchToFileByHandles` | 15 | Exported Function
+`TestApplyPatchToFileW` | 16 | Exported Function
 
 
 ## Signature

@@ -25,26 +25,26 @@ PE256 | `8E4340E04C144E98D4B930FD0B8707A2ADF0418682947A988D029D0D35D2593A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DesktopShare::yellowBrush` | 20 | Exported Function
+`std::allocator` | 9 | Exported Function
+`pluginresources::CommonBrushes` | 4 | Exported Function
+`pluginresources::CommonBrushes` | 3 | Exported Function
+`HIconContainer::get` | 15 | Exported Function
 `IconsUtils::IconSize` | 8 | Exported Function
+`DesktopShare::yellowBrush` | 20 | Exported Function
 `DesktopShare::whiteBrush` | 19 | Exported Function
-`DesktopShare::redBorder` | 17 | Exported Function
 `DesktopShare::selectedBorder` | 18 | Exported Function
+`DesktopShare::redBorder` | 17 | Exported Function
+`DesktopShare::hoverBorder` | 16 | Exported Function
+`DesktopShare::defaultBorder` | 14 | Exported Function
+`DesktopShare::blackBrush` | 13 | Exported Function
+`pluginresources::HIconContainer` | 7 | Exported Function
+`pluginresources::HIconContainer` | 2 | Exported Function
+`HIconContainer::HIconContainer` | 1 | Exported Function
+`pluginresources::LoadHTML` | 12 | Exported Function
+`pluginresources::LoadHTML` | 11 | Exported Function
+`std::allocator` | 10 | Exported Function
 `CommonBrushes::DesktopShare` | 5 | Exported Function
 `CommonBrushes::DesktopShare` | 6 | Exported Function
-`pluginresources::CommonBrushes` | 4 | Exported Function
-`HIconContainer::get` | 15 | Exported Function
-`pluginresources::CommonBrushes` | 3 | Exported Function
-`pluginresources::LoadHTML` | 12 | Exported Function
-`HIconContainer::HIconContainer` | 1 | Exported Function
-`pluginresources::LoadHTML` | 11 | Exported Function
-`std::allocator` | 9 | Exported Function
-`std::allocator` | 10 | Exported Function
-`DesktopShare::defaultBorder` | 14 | Exported Function
-`DesktopShare::hoverBorder` | 16 | Exported Function
-`DesktopShare::blackBrush` | 13 | Exported Function
-`pluginresources::HIconContainer` | 2 | Exported Function
-`pluginresources::HIconContainer` | 7 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `A1DCD3364936AA2E9C5096D00D18C6869315C7CB2DE2053507C355ED38D3A112`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 2 | Exported Function
-`GetKeyStorageInterface` | 4 | Exported Function
 `DllInstall` | 1 | Exported Function
 `DllMain` | 3 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`GetKeyStorageInterface` | 4 | Exported Function
 
 
 ## Signature

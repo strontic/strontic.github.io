@@ -26,17 +26,17 @@ PE256 | `2D070853DB52AC6AB04F117FC72F90CC17192377E62A866B5675555A99E24433`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PSTCrashRecovery` | 8 | Exported Function
-`OTONNotifyNewMail` | 7 | Exported Function
-`PSTDebugHook` | 9 | Exported Function
-`PSTServiceEntry_Unicode` | 11 | Exported Function
-`PSTServiceEntry` | 10 | Exported Function
-`OSTServiceEntry` | 6 | Exported Function
-`HrAddFavs` | 2 | Exported Function
 `DllMain` | 1 | Exported Function
+`HrAddFavs` | 2 | Exported Function
 `MSProviderInit` | 3 | Exported Function
-`NSTServiceEntry` | 5 | Exported Function
 `NDBGetFileInfo` | 4 | Exported Function
+`NSTServiceEntry` | 5 | Exported Function
+`OSTServiceEntry` | 6 | Exported Function
+`OTONNotifyNewMail` | 7 | Exported Function
+`PSTCrashRecovery` | 8 | Exported Function
+`PSTDebugHook` | 9 | Exported Function
+`PSTServiceEntry` | 10 | Exported Function
+`PSTServiceEntry_Unicode` | 11 | Exported Function
 
 
 ## Signature

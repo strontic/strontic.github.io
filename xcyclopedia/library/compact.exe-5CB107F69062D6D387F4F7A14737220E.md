@@ -106,8 +106,8 @@ C:\Windows\SysWOW64\compact.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/e8dda2e35381b17e9619ea49305b53e8321f56947d19e981012d300428e3b0b1/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/e8dda2e35381b17e9619ea49305b53e8321f56947d19e981012d300428e3b0b1/detection
 
 ## File Similarity (ssdeep match)
 

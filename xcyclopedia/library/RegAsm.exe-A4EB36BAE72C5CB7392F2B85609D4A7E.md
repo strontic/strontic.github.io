@@ -52,7 +52,7 @@ Options:
 
 ### Usage (stderr):
 ```cmhg
-RegAsm : error RA0000 : Could not load file or assembly 'file:///C:\Windows\help' or one of its dependencies. Access is denied.
+RegAsm : error RA0000 : Failed to load 'C:\Users\user\help' because it is not a valid .NET assembly
 
 ```
 
@@ -88,8 +88,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/dc45704ba97d974d157c1c4a27dba402afa595eac2468d8def2ee8d0a2ee9a81/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/dc45704ba97d974d157c1c4a27dba402afa595eac2468d8def2ee8d0a2ee9a81/detection
 
 ## File Similarity (ssdeep match)
 

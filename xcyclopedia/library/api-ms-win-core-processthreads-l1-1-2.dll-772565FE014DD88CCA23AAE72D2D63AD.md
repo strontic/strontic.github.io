@@ -26,15 +26,15 @@ PE256 | `0FAF57CD91895698A45B29A066BA528C8DBD54CD60FBA04D4FC7A29A20094328`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetProcessPriorityBoost` | 7 | Exported Function
-`QueryProtectedPolicy` | 6 | Exported Function
-`SetThreadInformation` | 9 | Exported Function
-`SetProtectedPolicy` | 8 | Exported Function
-`IsProcessCritical` | 5 | Exported Function
-`GetSystemTimes` | 2 | Exported Function
 `GetProcessPriorityBoost` | 1 | Exported Function
-`GetThreadIOPendingFlag` | 3 | Exported Function
+`GetSystemTimes` | 2 | Exported Function
 `GetThreadInformation` | 4 | Exported Function
+`GetThreadIOPendingFlag` | 3 | Exported Function
+`IsProcessCritical` | 5 | Exported Function
+`QueryProtectedPolicy` | 6 | Exported Function
+`SetProcessPriorityBoost` | 7 | Exported Function
+`SetProtectedPolicy` | 8 | Exported Function
+`SetThreadInformation` | 9 | Exported Function
 
 
 ## Signature

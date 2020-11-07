@@ -26,10 +26,10 @@ PE256 | `FC982CEB4F0CD582D0CCF9C7ED4F3F6EE4CD5A41F0518D8BE5379CF1F8898F21`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
-`SvchostPushServiceGlobals` | 2 | Exported Function
 `AttemptToUpdateTimeZone` | 3 | Exported Function
 `AttemptToUpdateTimeZoneAndEnableChangeDetection` | 4 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
 
 
 ## Signature

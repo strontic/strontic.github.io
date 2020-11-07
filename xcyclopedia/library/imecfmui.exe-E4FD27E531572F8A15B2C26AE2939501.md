@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\IME\SHARED\imecfmui.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/858efa815920ddbaa9a09f84cbd771d0983f128a16949e44dc57c6b328e22994/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/858efa815920ddbaa9a09f84cbd771d0983f128a16949e44dc57c6b328e22994/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,10 +26,10 @@ PE256 | `E92A91A91816BF9793DB44249563FFEC52316721D4CCC66EDFCF876AE5DB0157`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SQLDataSourceToDriver` | 3 | Exported Function
-`SQLDriverToDataSource` | 4 | Exported Function
 `ConfigTranslator` | 1 | Exported Function
 `ConfigureDlgProc` | 2 | Exported Function
+`SQLDataSourceToDriver` | 3 | Exported Function
+`SQLDriverToDataSource` | 4 | Exported Function
 
 
 ## Signature

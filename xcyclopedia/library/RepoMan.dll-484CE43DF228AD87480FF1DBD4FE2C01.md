@@ -26,13 +26,13 @@ PE256 | `D952037E76F1BF7DD3837A89D4396CCFEC764FF15D2F537DDEC07FA372C58F30`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPreamble` | 5 | Exported Function
-`GetText` | 6 | Exported Function
-`SetBreakOnException` | 7 | Exported Function
-`GetLogger` | 4 | Exported Function
 `BreakOnException` | 1 | Exported Function
 `CreateRepoManFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`GetLogger` | 4 | Exported Function
+`GetPreamble` | 5 | Exported Function
+`GetText` | 6 | Exported Function
+`SetBreakOnException` | 7 | Exported Function
 
 
 ## Signature

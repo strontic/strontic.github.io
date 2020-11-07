@@ -26,9 +26,9 @@ PE256 | `AA605CE3C3CEA981C893489629776CF49F6D4180589D8488C3FA58146C008A82`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 3 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `IphlpsvcSysprepGeneralize` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
 
 
 ## Signature

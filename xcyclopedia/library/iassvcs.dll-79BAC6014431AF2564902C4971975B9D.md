@@ -26,30 +26,30 @@ PE256 | `46770CD1A7E3ADA80B6CAC1632136EF58581D7D7912121471265A7013EAF5B64`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IASReportEvent` | 16 | Exported Function
-`IASReportLicenseViolation` | 17 | Exported Function
-`IASReportSecurityEvent` | 18 | Exported Function
-`IASInitialize` | 13 | Exported Function
-`IASRadiusCrypt` | 14 | Exported Function
-`IASRegisterComponent` | 15 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 `IASShutdown` | 22 | Exported Function
+`IASSetMaxThreadIdle` | 21 | Exported Function
+`IASSetMaxNumberOfThreads` | 20 | Exported Function
+`IASRequestThread` | 19 | Exported Function
+`IASReportSecurityEvent` | 18 | Exported Function
+`IASReportLicenseViolation` | 17 | Exported Function
+`IASReportEvent` | 16 | Exported Function
+`IASRegisterComponent` | 15 | Exported Function
+`IASRadiusCrypt` | 14 | Exported Function
+`IASInitialize` | 13 | Exported Function
+`IASGlobalUnlock` | 12 | Exported Function
+`IASGlobalLock` | 11 | Exported Function
+`IASGetProductLimits` | 10 | Exported Function
+`IASGetLocalDictionary` | 9 | Exported Function
+`IASGetHostByName` | 8 | Exported Function
+`IASGetDictionary` | 7 | Exported Function
+`IASAllocateUniqueID` | 6 | Exported Function
+`IASAdler32` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 `IASUninitialize` | 23 | Exported Function
 `IASVariantChangeType` | 24 | Exported Function
-`IASRequestThread` | 19 | Exported Function
-`IASSetMaxNumberOfThreads` | 20 | Exported Function
-`IASSetMaxThreadIdle` | 21 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`IASAdler32` | 5 | Exported Function
-`IASAllocateUniqueID` | 6 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`IASGetProductLimits` | 10 | Exported Function
-`IASGlobalLock` | 11 | Exported Function
-`IASGlobalUnlock` | 12 | Exported Function
-`IASGetDictionary` | 7 | Exported Function
-`IASGetHostByName` | 8 | Exported Function
-`IASGetLocalDictionary` | 9 | Exported Function
 
 
 ## Signature

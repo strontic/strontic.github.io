@@ -26,18 +26,18 @@ PE256 | `B75F394D759E32D39CD0836A4740BE4E44809355A57BF06F8541E578D3241554`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SkuGetProductKeyForEdition` | 9 | Exported Function
-`IsDefaultPKey` | 8 | Exported Function
-`GetVirtualEditionsForCompositionEdition` | 7 | Exported Function
-`SkuGetUpgradeProductKeyFromDownlevelEdition` | 12 | Exported Function
-`SkuGetUpgradeProductKeyEx` | 11 | Exported Function
-`SkuGetUpgradeProductKey` | 10 | Exported Function
-`GetDefaultProductKeyForPfn` | 3 | Exported Function
-`GetCompositionEditionForVirtualEdition` | 2 | Exported Function
 `GetBootPolicySetForEdition` | 1 | Exported Function
-`GetProductKeyFromContentId` | 6 | Exported Function
-`GetEditionNameFromId` | 5 | Exported Function
+`GetCompositionEditionForVirtualEdition` | 2 | Exported Function
+`GetDefaultProductKeyForPfn` | 3 | Exported Function
 `GetEditionIdFromName` | 4 | Exported Function
+`GetEditionNameFromId` | 5 | Exported Function
+`GetProductKeyFromContentId` | 6 | Exported Function
+`GetVirtualEditionsForCompositionEdition` | 7 | Exported Function
+`IsDefaultPKey` | 8 | Exported Function
+`SkuGetProductKeyForEdition` | 9 | Exported Function
+`SkuGetUpgradeProductKey` | 10 | Exported Function
+`SkuGetUpgradeProductKeyEx` | 11 | Exported Function
+`SkuGetUpgradeProductKeyFromDownlevelEdition` | 12 | Exported Function
 
 
 ## Signature

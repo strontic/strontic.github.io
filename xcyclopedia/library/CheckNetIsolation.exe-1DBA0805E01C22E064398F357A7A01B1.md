@@ -76,8 +76,8 @@ C:\Windows\SysWOW64\CheckNetIsolation.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/9243004d116c726f0ad5dcd744d1b2242fc40917d1fde5396cdc8516369dacf3/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9243004d116c726f0ad5dcd744d1b2242fc40917d1fde5396cdc8516369dacf3/detection
 
 
 

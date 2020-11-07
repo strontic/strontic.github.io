@@ -305,8 +305,8 @@ C:\Windows\SysWOW64\bitsadmin.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/c93b7734470cf96c5170f7b21f361cdf3f74ca819626c83c4b8a68210deeb35c/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/c93b7734470cf96c5170f7b21f361cdf3f74ca819626c83c4b8a68210deeb35c/detection
 
 
 ## Possible Misuse

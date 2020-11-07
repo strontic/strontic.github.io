@@ -31,7 +31,7 @@ PE256 | `A0E9E203654FDDEFCEBB248DEB0086973550A9C04807F348E2171DE9101BB451`
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Sunday, September 20, 2020 8:24:55 PM
+  Started : Friday, November 6, 2020 1:42:35 PM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -252,8 +252,8 @@ C:\Windows\system32\Robocopy.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/ab5fe50644fd7e989c00f6596ec40284ff37a3ad8e44fbca98dbfbf9b5192a2e/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/ab5fe50644fd7e989c00f6596ec40284ff37a3ad8e44fbca98dbfbf9b5192a2e/detection
 
 
 ## Possible Misuse

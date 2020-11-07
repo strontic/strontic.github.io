@@ -26,11 +26,11 @@ PE256 | `A1DD19260D72F76CE825A83D2C844AFA91BF12524B5548B6965FDC6A4AFA2A98`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetAutoConfigManager` | 5 | Exported Function
-`OneStopFactory` | 1 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `CreateInternetMailSyncServiceLayer` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`GetAutoConfigManager` | 5 | Exported Function
+`OneStopFactory` | 1 | Exported Function
 
 
 ## Signature

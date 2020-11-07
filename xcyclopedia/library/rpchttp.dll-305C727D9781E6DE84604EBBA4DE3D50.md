@@ -26,25 +26,25 @@ PE256 | `81F3FFCB59353BC24B2131D3F160D85C49CE1B250FA5B98872C71AFF7AF48154`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`I_RpcGetRpcProxy` | 12 | Exported Function
-`I_RpcProxyNewConnection` | 18 | Exported Function
-`HttpSendIdentifyResponse` | 11 | Exported Function
-`I_RpcExtInitializeExtensionPoint` | 17 | Exported Function
-`I_RpcReplyToClientWithStatus` | 19 | Exported Function
-`WS_HTTP2_CONNECTION__Initialize` | 15 | Exported Function
-`WS_HTTP2_INITIAL_CONNECTION__new` | 16 | Exported Function
-`I_RpcTransFreeHttpCredentials` | 13 | Exported Function
-`I_RpcTransGetHttpCredentials` | 14 | Exported Function
-`HttpParseNetworkOptions` | 10 | Exported Function
-`DuplicateHttpTransportCredentials` | 3 | Exported Function
-`FreeHttpTransportCredentials` | 4 | Exported Function
 `CompareHttpTransportCredentials` | 1 | Exported Function
-`ConvertToUnicodeHttpTransportCredentials` | 2 | Exported Function
-`HTTP2GetRpcConnectionTransport` | 5 | Exported Function
+`I_RpcTransGetHttpCredentials` | 14 | Exported Function
+`I_RpcTransFreeHttpCredentials` | 13 | Exported Function
+`I_RpcReplyToClientWithStatus` | 19 | Exported Function
+`I_RpcProxyNewConnection` | 18 | Exported Function
+`I_RpcGetRpcProxy` | 12 | Exported Function
+`I_RpcExtInitializeExtensionPoint` | 17 | Exported Function
+`HttpSendIdentifyResponse` | 11 | Exported Function
+`WS_HTTP2_CONNECTION__Initialize` | 15 | Exported Function
+`HttpParseNetworkOptions` | 10 | Exported Function
 `HTTP2ProcessRuntimePostedEvent` | 8 | Exported Function
-`HTTP2TestHook` | 9 | Exported Function
-`HTTP2ProcessComplexTReceive` | 6 | Exported Function
 `HTTP2ProcessComplexTSend` | 7 | Exported Function
+`HTTP2ProcessComplexTReceive` | 6 | Exported Function
+`HTTP2GetRpcConnectionTransport` | 5 | Exported Function
+`FreeHttpTransportCredentials` | 4 | Exported Function
+`DuplicateHttpTransportCredentials` | 3 | Exported Function
+`ConvertToUnicodeHttpTransportCredentials` | 2 | Exported Function
+`HTTP2TestHook` | 9 | Exported Function
+`WS_HTTP2_INITIAL_CONNECTION__new` | 16 | Exported Function
 
 
 ## Signature

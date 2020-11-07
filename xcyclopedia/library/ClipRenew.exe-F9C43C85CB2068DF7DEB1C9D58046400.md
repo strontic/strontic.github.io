@@ -28,17 +28,22 @@ PE256 | `60EBCF43B1117E11D7AA7F0B0423DD7CAFFCD56168F465AA0EBB583D0B43833D`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\ClipRenew.exe |
 C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\cryptsp.dll |
+C:\Windows\system32\dsreg.dll |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -63,8 +68,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/f6e6f9043a1ddb2028d7960e9269e174acbb54242099b0f6160e081dfbf564ce/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/f6e6f9043a1ddb2028d7960e9269e174acbb54242099b0f6160e081dfbf564ce/detection
 
 
 

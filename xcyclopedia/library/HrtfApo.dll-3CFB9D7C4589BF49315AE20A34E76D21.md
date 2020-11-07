@@ -26,11 +26,11 @@ PE256 | `5F4D08562C465C15F89579B7E0CEFDEAFF08DA194A01F08F3A39ABA7064BEED9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetHrtfEngineMinFrameCount` | 5 | Exported Function
-`IsHrtfApoAvailable` | 4 | Exported Function
-`CreateHrtfEngineFactory` | 3 | Exported Function
 `CreateHrtfApo` | 1 | Exported Function
 `CreateHrtfApoWithDatasetType` | 2 | Exported Function
+`CreateHrtfEngineFactory` | 3 | Exported Function
+`GetHrtfEngineMinFrameCount` | 5 | Exported Function
+`IsHrtfApoAvailable` | 4 | Exported Function
 
 
 ## Signature

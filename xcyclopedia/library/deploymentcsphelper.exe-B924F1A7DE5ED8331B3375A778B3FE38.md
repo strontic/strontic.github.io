@@ -27,16 +27,28 @@ PE256 | `81BC5B4D0F6CECDF15D2C8FAD23714A1E35063B8E6F9214EA98FA1BD75D9D5AA`
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\system32\deploymentcsphelper.exe |
+C:\Windows\system32\DismApi.DLL |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
 C:\Windows\system32\WDSCORE.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -60,8 +72,8 @@ C:\Windows\system32\WDSCORE.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/90e6dbdb4eb72ed9bcb4dcdc53f9a3ce3108297f84ce346b9af04790a641ccce/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/90e6dbdb4eb72ed9bcb4dcdc53f9a3ce3108297f84ce346b9af04790a641ccce/detection
 
 
 

@@ -26,8 +26,8 @@ PE256 | `7774C20EDE23CAB8A0D57039366E93368FB6FC59CCE3813CCE13FFEA75647FD6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RejuvStartup` | 2 | Exported Function
 `RejuvShutdown` | 1 | Exported Function
+`RejuvStartup` | 2 | Exported Function
 
 
 ## Signature

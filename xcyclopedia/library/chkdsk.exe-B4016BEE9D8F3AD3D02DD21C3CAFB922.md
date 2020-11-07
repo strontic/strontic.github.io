@@ -108,8 +108,8 @@ C:\Windows\SysWOW64\chkdsk.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/1d5227595aeb4ff3ceeb620e94b5342955667eeacd000e2a4be748ad94583daf/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/1d5227595aeb4ff3ceeb620e94b5342955667eeacd000e2a4be748ad94583daf/detection
 
 
 

@@ -26,21 +26,21 @@ PE256 | `E14B4C463E0FD33822047630FC6B6FA86B93987F92369A6DF648E8C96595CAA0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsInternetConnectedGUID` | 11 | Exported Function
-`IsInternetConnected` | 10 | Exported Function
-`HrIsInternetConnectedGUID` | 9 | Exported Function
-`IsUniqueConnectionName` | 12 | Exported Function
-`UnregisterPagesLink` | 15 | Exported Function
-`UnregisterPage` | 14 | Exported Function
-`RegisterPageWithPage` | 13 | Exported Function
-`HrIsInternetConnected` | 8 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`CreateVPNConnection` | 2 | Exported Function
 `AddConnectionOptionListEntries` | 1 | Exported Function
+`CreateVPNConnection` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
-`GetVPNConnected` | 7 | Exported Function
-`GetNetworkConnected` | 6 | Exported Function
 `GetInternetConnected` | 5 | Exported Function
+`GetNetworkConnected` | 6 | Exported Function
+`GetVPNConnected` | 7 | Exported Function
+`HrIsInternetConnected` | 8 | Exported Function
+`HrIsInternetConnectedGUID` | 9 | Exported Function
+`IsInternetConnected` | 10 | Exported Function
+`IsInternetConnectedGUID` | 11 | Exported Function
+`IsUniqueConnectionName` | 12 | Exported Function
+`RegisterPageWithPage` | 13 | Exported Function
+`UnregisterPage` | 14 | Exported Function
+`UnregisterPagesLink` | 15 | Exported Function
 
 
 ## Signature

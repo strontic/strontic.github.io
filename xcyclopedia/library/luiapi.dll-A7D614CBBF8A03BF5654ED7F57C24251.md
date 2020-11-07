@@ -26,29 +26,29 @@ PE256 | `73C8CC081D3D929047BD2C0704ADE41994A58DCC79E908BBB782E6C8614C48C8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LuiReleaseProvisioningProfile` | 16 | Exported Function
-`LuiRequestProvisioningProfile` | 17 | Exported Function
-`LuiRegisterForLpaNotifications` | 15 | Exported Function
-`LuiRegisterForEnterpriseEsimNotifications` | 13 | Exported Function
-`LuiRegisterForEsimNotifications` | 14 | Exported Function
-`LuiSetDefaultSmdpAddress` | 18 | Exported Function
-`LuiVerifyClientToken` | 22 | Exported Function
-`LuiWipeEsim` | 23 | Exported Function
-`LuiSetUserAuthenticationMode` | 21 | Exported Function
-`LuiSetEsimPolicy` | 19 | Exported Function
-`LuiSetProfileNickname` | 20 | Exported Function
-`LuiRegisterForAllProfileNotifications` | 12 | Exported Function
-`LuiDeleteProfile` | 4 | Exported Function
-`LuiDisableProfile` | 5 | Exported Function
-`LuiCloseHandle` | 3 | Exported Function
 `LuiAddProfile` | 1 | Exported Function
-`LuiCancelOperation` | 2 | Exported Function
-`LuiDiscoverProfiles` | 6 | Exported Function
+`LuiSetUserAuthenticationMode` | 21 | Exported Function
+`LuiSetProfileNickname` | 20 | Exported Function
+`LuiSetEsimPolicy` | 19 | Exported Function
+`LuiSetDefaultSmdpAddress` | 18 | Exported Function
+`LuiRequestProvisioningProfile` | 17 | Exported Function
+`LuiReleaseProvisioningProfile` | 16 | Exported Function
+`LuiRegisterForLpaNotifications` | 15 | Exported Function
+`LuiRegisterForEsimNotifications` | 14 | Exported Function
+`LuiRegisterForEnterpriseEsimNotifications` | 13 | Exported Function
+`LuiVerifyClientToken` | 22 | Exported Function
+`LuiRegisterForAllProfileNotifications` | 12 | Exported Function
 `LuiProcessActivationCode` | 10 | Exported Function
-`LuiRegisterForAllEnterpriseProfileNotifications` | 11 | Exported Function
 `LuiOpenHandle` | 9 | Exported Function
-`LuiEnableProfile` | 7 | Exported Function
 `LuiInstallProfile` | 8 | Exported Function
+`LuiEnableProfile` | 7 | Exported Function
+`LuiDiscoverProfiles` | 6 | Exported Function
+`LuiDisableProfile` | 5 | Exported Function
+`LuiDeleteProfile` | 4 | Exported Function
+`LuiCloseHandle` | 3 | Exported Function
+`LuiCancelOperation` | 2 | Exported Function
+`LuiRegisterForAllEnterpriseProfileNotifications` | 11 | Exported Function
+`LuiWipeEsim` | 23 | Exported Function
 
 
 ## Signature

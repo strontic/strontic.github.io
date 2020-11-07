@@ -26,9 +26,9 @@ PE256 | `4D3E19EB53A04FBF80B96531D73362FFFE5CD8E6F1FFE8FEE82D033574931B62`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RecallMessage` | 3 | Exported Function
-`InitTorpedoClient` | 2 | Exported Function
 `DllGetClassObject` | 1 | Exported Function
+`InitTorpedoClient` | 2 | Exported Function
+`RecallMessage` | 3 | Exported Function
 
 
 ## Signature

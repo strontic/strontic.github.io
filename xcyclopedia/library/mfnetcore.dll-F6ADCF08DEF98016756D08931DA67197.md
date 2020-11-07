@@ -26,18 +26,18 @@ PE256 | `89DA589A674687FC77A8AC23FFBD49E19615A825297A6B8D0364D979DA266EC9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MFCreateFileBlockMap` | 9 | Exported Function
-`MFCreateCredentialCache` | 8 | Exported Function
-`MFCreateByteCacheFile` | 7 | Exported Function
-`MFGetSupportedDLNAProfileInfo` | 12 | Exported Function
-`MFCreateProxyLocator` | 11 | Exported Function
-`MFCreatePartialSeekableByteStream` | 10 | Exported Function
-`IsLicensedComponentAC3_ENC` | 1 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
-`IsLicensedComponentMPEG2_ENC` | 4 | Exported Function
-`IsLicensedComponentMPEG2` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`IsLicensedComponentAC3_ENC` | 1 | Exported Function
 `IsLicensedComponentDOLBY` | 2 | Exported Function
+`IsLicensedComponentMPEG2` | 3 | Exported Function
+`IsLicensedComponentMPEG2_ENC` | 4 | Exported Function
+`MFCreateByteCacheFile` | 7 | Exported Function
+`MFCreateCredentialCache` | 8 | Exported Function
+`MFCreateFileBlockMap` | 9 | Exported Function
+`MFCreatePartialSeekableByteStream` | 10 | Exported Function
+`MFCreateProxyLocator` | 11 | Exported Function
+`MFGetSupportedDLNAProfileInfo` | 12 | Exported Function
 
 
 ## Signature

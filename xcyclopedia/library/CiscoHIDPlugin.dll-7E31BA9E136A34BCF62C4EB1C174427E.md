@@ -26,28 +26,28 @@ PE256 | `E6A7BB6A8DB8483C5637FB34FB96F72AA7AA70CB934C1DE1BEEAAC28D0A262E6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`hid_read` | 16 | Exported Function
-`hid_read_timeout` | 17 | Exported Function
-`hid_open_path` | 15 | Exported Function
-`hid_init` | 13 | Exported Function
-`hid_open` | 14 | Exported Function
+`hid_cancel_io` | 2 | Exported Function
+`initialize` | 21 | Exported Function
+`hid_write` | 20 | Exported Function
+`hid_set_nonblocking` | 19 | Exported Function
 `hid_send_feature_report` | 18 | Exported Function
+`hid_read_timeout` | 17 | Exported Function
+`hid_read` | 16 | Exported Function
+`hid_open_path` | 15 | Exported Function
+`hid_open` | 14 | Exported Function
+`hid_init` | 13 | Exported Function
+`hid_get_serial_number_string` | 12 | Exported Function
+`hid_get_product_string` | 11 | Exported Function
+`hid_get_manufacturer_string` | 10 | Exported Function
+`hid_get_indexed_string` | 9 | Exported Function
+`hid_get_feature_report` | 8 | Exported Function
+`hid_free_enumeration` | 7 | Exported Function
+`hid_exit` | 6 | Exported Function
+`hid_error` | 5 | Exported Function
+`hid_enumerate` | 4 | Exported Function
+`hid_close` | 3 | Exported Function
 `uninitialize` | 22 | Exported Function
 `void __cdecl sendHeadsetTestCmd(char const *,int)` | 1 | Exported Function
-`initialize` | 21 | Exported Function
-`hid_set_nonblocking` | 19 | Exported Function
-`hid_write` | 20 | Exported Function
-`hid_error` | 5 | Exported Function
-`hid_exit` | 6 | Exported Function
-`hid_enumerate` | 4 | Exported Function
-`hid_cancel_io` | 2 | Exported Function
-`hid_close` | 3 | Exported Function
-`hid_free_enumeration` | 7 | Exported Function
-`hid_get_product_string` | 11 | Exported Function
-`hid_get_serial_number_string` | 12 | Exported Function
-`hid_get_manufacturer_string` | 10 | Exported Function
-`hid_get_feature_report` | 8 | Exported Function
-`hid_get_indexed_string` | 9 | Exported Function
 
 
 ## Signature

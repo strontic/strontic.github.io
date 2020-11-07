@@ -26,16 +26,16 @@ PE256 | `2CE1FF0FA233A77FB7B71039C51E192A404036558EF70866530239390F17133D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IEShims_InDllMainContext` | 7 | Exported Function
-`IEShims_GetOriginatingThreadId` | 6 | Exported Function
-`IEShims_Initialize` | 8 | Exported Function
-`IEShims_Uninitialize` | 10 | Exported Function
-`IEShims_SetRedirectRegistryForThread` | 9 | Exported Function
-`AcRedirNotifySetEnabled` | 2 | Exported Function
 `AcRedirNotify` | 1 | Exported Function
+`AcRedirNotifySetEnabled` | 2 | Exported Function
 `AcRedirSetEnabled` | 3 | Exported Function
-`IEShims_CreateWindowEx` | 5 | Exported Function
 `IEShims_AdminCheckAndLaunch` | 4 | Exported Function
+`IEShims_CreateWindowEx` | 5 | Exported Function
+`IEShims_GetOriginatingThreadId` | 6 | Exported Function
+`IEShims_InDllMainContext` | 7 | Exported Function
+`IEShims_Initialize` | 8 | Exported Function
+`IEShims_SetRedirectRegistryForThread` | 9 | Exported Function
+`IEShims_Uninitialize` | 10 | Exported Function
 
 
 ## Signature

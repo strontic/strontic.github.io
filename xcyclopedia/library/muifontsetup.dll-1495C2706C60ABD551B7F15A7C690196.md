@@ -26,8 +26,8 @@ PE256 | `91B1A84C829125025A466DADC5CC7A2E6E269F3B9EC5126BFD74B8AF484FB0E0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OnMachineUILanguageSwitch` | 2 | Exported Function
 `OnMachineUILanguageInit` | 1 | Exported Function
+`OnMachineUILanguageSwitch` | 2 | Exported Function
 
 
 ## Signature

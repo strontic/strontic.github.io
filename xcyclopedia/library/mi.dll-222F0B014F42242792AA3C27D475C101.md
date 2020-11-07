@@ -26,8 +26,8 @@ PE256 | `518B9F9102BD1C44707E6ECCBB1C0F1523261EE4ACD593D15DCBB4C6B3AC82DE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`mi_clientFT_V1` | 2 | Exported Function
 `MI_Application_InitializeV1` | 1 | Exported Function
+`mi_clientFT_V1` | 2 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `2C9D6798780FE649A60D6E7ECB2593C380457E3D98E1CA99EB2687A7CF58FFF5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 4 | Exported Function
-`TeardownInprocConnectionHandle` | 5 | Exported Function
-`ServiceMain` | 3 | Exported Function
 `CleanupUDSGlobals` | 1 | Exported Function
 `CreateInprocConnectionHandle` | 2 | Exported Function
+`ServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`TeardownInprocConnectionHandle` | 5 | Exported Function
 
 
 ## Signature

@@ -26,33 +26,33 @@ PE256 | `C09ED01F8D84B1E27CA99D99F7986FC56E4F426B64E85A2421F3C015FCAF901A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_PHevCreateFileInfoForAddons@4` | 20 | Exported Function
-`_PHevCreateFileInfoFromHelpId@12` | 21 | Exported Function
-`_PHevCreateFileInfoFromURL@4` | 22 | Exported Function
-`_HevFQueryDefaultEditor@16` | 17 | Exported Function
-`_HevFSetExtraData@12` | 18 | Exported Function
-`_PHevCreateFileInfo@8` | 19 | Exported Function
-`_PHevCreateFileInfoWithCorrelationIdAndLOR@16` | 23 | Exported Function
-`_WzRegistryProgIDFromDocProgID@12` | 27 | Exported Function
-`bool __stdcall IsSharedCentennialProtocolHandlerApp(void)` | 1 | Exported Function
-`bool __stdcall IsSideCarProtocolHandlerApp(void)` | 2 | Exported Function
-`_PwszHEVGetUrlIfInCache@12` | 24 | Exported Function
-`_WHeviAppFromProgId@8` | 26 | Exported Function
-`_WHevParseFile@4` | 25 | Exported Function
-`_HevFIsHTMLOrMHTML@4` | 16 | Exported Function
-`_FHevRegister@8` | 6 | Exported Function
-`_FHevSetDefaultEditor@4` | 7 | Exported Function
-`_FHevUnregister@0` | 8 | Exported Function
 `_FGetCurrentProgIDFromApp@12` | 3 | Exported Function
-`_FHevActivateApp@12` | 4 | Exported Function
-`_FHevAddToFileInfo@12` | 5 | Exported Function
-`_HevDestroyFileInfo@4` | 9 | Exported Function
-`_HevFGetFileIcons@16` | 13 | Exported Function
+`_WzRegistryProgIDFromDocProgID@12` | 27 | Exported Function
+`_WHevParseFile@4` | 25 | Exported Function
+`_WHeviAppFromProgId@8` | 26 | Exported Function
+`_PwszHEVGetUrlIfInCache@12` | 24 | Exported Function
+`_PHevCreateFileInfoWithCorrelationIdAndLOR@16` | 23 | Exported Function
+`_PHevCreateFileInfoFromURL@4` | 22 | Exported Function
+`_PHevCreateFileInfoFromHelpId@12` | 21 | Exported Function
+`_PHevCreateFileInfoForAddons@4` | 20 | Exported Function
+`_PHevCreateFileInfo@8` | 19 | Exported Function
+`_HevFSetExtraData@12` | 18 | Exported Function
+`_HevFQueryDefaultEditor@16` | 17 | Exported Function
+`bool __stdcall IsSharedCentennialProtocolHandlerApp(void)` | 1 | Exported Function
+`_HevFIsHTMLOrMHTML@4` | 16 | Exported Function
 `_HevFGetProgIDFromFile@16` | 14 | Exported Function
-`_HevFGetProgIDFromFileEx@20` | 15 | Exported Function
-`_HevFCheckNonMSApp@20` | 10 | Exported Function
-`_HevFGetCreatorAppIcon@16` | 11 | Exported Function
+`_HevFGetFileIcons@16` | 13 | Exported Function
 `_HevFGetCreatorAppName@20` | 12 | Exported Function
+`_HevFGetCreatorAppIcon@16` | 11 | Exported Function
+`_HevFCheckNonMSApp@20` | 10 | Exported Function
+`_HevDestroyFileInfo@4` | 9 | Exported Function
+`_FHevUnregister@0` | 8 | Exported Function
+`_FHevSetDefaultEditor@4` | 7 | Exported Function
+`_FHevRegister@8` | 6 | Exported Function
+`_FHevAddToFileInfo@12` | 5 | Exported Function
+`_FHevActivateApp@12` | 4 | Exported Function
+`_HevFGetProgIDFromFileEx@20` | 15 | Exported Function
+`bool __stdcall IsSideCarProtocolHandlerApp(void)` | 2 | Exported Function
 
 
 ## Signature

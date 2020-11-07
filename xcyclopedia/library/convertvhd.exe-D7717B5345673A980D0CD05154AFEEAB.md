@@ -90,6 +90,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/7fdd6cdcafc46ccd05ff0ac251c934ca9ee05706f7364a30eb1c3b41f5160031/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\convertvhd.exe](convertvhd.exe-20C01F0B5F37FC672746A201F339CAAD.md) | 79
 
 
 

@@ -36,6 +36,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\system32\TapiUnattend.exe |
+C:\Windows\system32\WDSCORE.dll |
 
 
 ## Signature
@@ -59,8 +60,8 @@ C:\Windows\system32\TapiUnattend.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/6a960edad235f685e741e0f1a74d1162fd3cf410862192236f962ae289f0886e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/6a960edad235f685e741e0f1a74d1162fd3cf410862192236f962ae289f0886e/detection
 
 
 

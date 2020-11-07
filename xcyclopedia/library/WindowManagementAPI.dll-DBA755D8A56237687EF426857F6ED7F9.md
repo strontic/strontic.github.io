@@ -25,10 +25,10 @@ PE256 | `AC88549B075CE75AD28938FE6B19F00D4BAFC6F2C02BA0701054A95C5B3B87A3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetActivationFactory` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `CreateWindowInformation` | 1 | Exported Function
 `CreateWindowLayout` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

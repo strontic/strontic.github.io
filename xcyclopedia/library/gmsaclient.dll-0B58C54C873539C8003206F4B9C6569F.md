@@ -26,13 +26,13 @@ PE256 | `676F8EBD2D7C36C54029ABC83A8D2ED5355C3D151C400AFDACCE216658DB6C9E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GMSAGetPassword` | 5 | Exported Function
-`GMSAInit` | 6 | Exported Function
-`GMSARefreshPasswords` | 7 | Exported Function
-`GMSADelete` | 4 | Exported Function
 `GMSAAdd` | 1 | Exported Function
 `GMSACheckIfExistsInAD` | 2 | Exported Function
 `GMSACleanup` | 3 | Exported Function
+`GMSADelete` | 4 | Exported Function
+`GMSAGetPassword` | 5 | Exported Function
+`GMSAInit` | 6 | Exported Function
+`GMSARefreshPasswords` | 7 | Exported Function
 
 
 ## Signature

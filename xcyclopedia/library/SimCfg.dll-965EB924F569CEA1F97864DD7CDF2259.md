@@ -26,18 +26,18 @@ PE256 | `E295A7D29EDB410657E61ACFD525523A20FF598410686F2B73806CF86D2341CE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapPeerInvokeIdentityUI` | 11 | Exported Function
-`EapPeerInvokeConfigUI` | 10 | Exported Function
-`EapPeerGetIdentityPageGuid` | 1 | Exported Function
-`InternalFunction02` | 3 | Exported Function
-`InternalFunction01` | 2 | Exported Function
-`EapPeerInvokeInteractiveUI` | 12 | Exported Function
-`EapPeerCredentialsXml2Blob` | 6 | Exported Function
-`EapPeerConfigXml2Blob` | 5 | Exported Function
 `EapPeerConfigBlob2Xml` | 4 | Exported Function
-`EapPeerGetConfigBlobAndUserBlob` | 9 | Exported Function
-`EapPeerFreeMemory` | 8 | Exported Function
+`EapPeerConfigXml2Blob` | 5 | Exported Function
+`EapPeerCredentialsXml2Blob` | 6 | Exported Function
 `EapPeerFreeErrorMemory` | 7 | Exported Function
+`EapPeerFreeMemory` | 8 | Exported Function
+`EapPeerGetConfigBlobAndUserBlob` | 9 | Exported Function
+`EapPeerGetIdentityPageGuid` | 1 | Exported Function
+`EapPeerInvokeConfigUI` | 10 | Exported Function
+`EapPeerInvokeIdentityUI` | 11 | Exported Function
+`EapPeerInvokeInteractiveUI` | 12 | Exported Function
+`InternalFunction01` | 2 | Exported Function
+`InternalFunction02` | 3 | Exported Function
 
 
 ## Signature

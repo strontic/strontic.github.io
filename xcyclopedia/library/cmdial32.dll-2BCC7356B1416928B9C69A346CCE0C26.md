@@ -26,17 +26,17 @@ PE256 | `9D5B82728DDD5A1276C4C463990FDBBF00F61A7B655C993A31C07C723D32671B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RasCustomDial` | 8 | Exported Function
-`RasCustomDeleteEntryNotify` | 7 | Exported Function
-`RasCustomDialDlg` | 9 | Exported Function
-`RasCustomHangUp` | 11 | Exported Function
-`RasCustomEntryDlg` | 10 | Exported Function
-`InetDialHandler` | 6 | Exported Function
-`CmCustomDialDlg` | 2 | Exported Function
 `AutoDialFunc` | 1 | Exported Function
+`CmCustomDialDlg` | 2 | Exported Function
 `CmCustomHangUp` | 3 | Exported Function
-`GetCustomProperty` | 5 | Exported Function
 `CmReConnect` | 4 | Exported Function
+`GetCustomProperty` | 5 | Exported Function
+`InetDialHandler` | 6 | Exported Function
+`RasCustomDeleteEntryNotify` | 7 | Exported Function
+`RasCustomDial` | 8 | Exported Function
+`RasCustomDialDlg` | 9 | Exported Function
+`RasCustomEntryDlg` | 10 | Exported Function
+`RasCustomHangUp` | 11 | Exported Function
 
 
 ## Signature

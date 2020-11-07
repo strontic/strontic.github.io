@@ -26,8 +26,8 @@ PE256 | `E6528499DFF3952DE3AFFFEDA739C3B5406B785CEE92505780F3B8E8E69D1577`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UnregisterDataMarketRPCInterface` | 2 | Exported Function
 `RegisterDataMarketRPCInterface` | 1 | Exported Function
+`UnregisterDataMarketRPCInterface` | 2 | Exported Function
 
 
 ## Signature

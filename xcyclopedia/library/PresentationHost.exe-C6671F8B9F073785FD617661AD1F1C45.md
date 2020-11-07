@@ -61,8 +61,8 @@ C:\Windows\SysWOW64\PresentationHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/d9c533b6109160abbf139d83c438806563e212d5c877192b64e4304806626c0a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/d9c533b6109160abbf139d83c438806563e212d5c877192b64e4304806626c0a/detection
 
 ## File Similarity (ssdeep match)
 

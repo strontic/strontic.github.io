@@ -23,6 +23,9 @@ PE256 | `60D17C2DAA2D3EB87FED36807070D8A0521DAF14360D8016F34CA4492DBFBA86`
 
 ## Runtime Data
 
+### Child Processes:
+NarratorQuickStart.exe WerFault.exe
+
 ### Loaded Modules:
 
 Path |
@@ -30,15 +33,19 @@ Path |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe\NarratorQuickStart.exe |
 
 
@@ -63,8 +70,8 @@ C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe\Narrato
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/e0cb7c907e4fe45eaea60ddcc1200fc3dc1743ca188e578dc801e52a72711a05/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/e0cb7c907e4fe45eaea60ddcc1200fc3dc1743ca188e578dc801e52a72711a05/detection
 
 
 

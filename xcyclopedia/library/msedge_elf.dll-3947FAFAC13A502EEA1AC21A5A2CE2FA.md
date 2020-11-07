@@ -26,28 +26,28 @@ PE256 | `4B4FD0E7A27D8BABA74B4DB337CBB2DD9B6FF375DB260D4E68710C1EC9682BFA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InjectDumpForHungInput_ExportThunk` | 15 | Exported Function
-`IsThirdPartyInitialized` | 16 | Exported Function
-`GetUserDataDirectoryThunk` | 14 | Exported Function
-`GetInstallDetailsPayload` | 12 | Exported Function
-`GetUniqueBlockedModulesCount` | 13 | Exported Function
+`ClearReportsBetween_ExportThunk` | 1 | Exported Function
+`SetUploadConsent_ExportThunk` | 20 | Exported Function
+`SetMetricsClientId` | 19 | Exported Function
+`RequestSingleCrashUpload_ExportThunk` | 18 | Exported Function
 `RegisterLogNotification` | 17 | Exported Function
+`IsThirdPartyInitialized` | 16 | Exported Function
+`InjectDumpForHungInput_ExportThunk` | 15 | Exported Function
+`GetUserDataDirectoryThunk` | 14 | Exported Function
+`GetUniqueBlockedModulesCount` | 13 | Exported Function
+`GetInstallDetailsPayload` | 12 | Exported Function
+`GetHandleVerifier` | 11 | Exported Function
+`GetCrashReports_ExportThunk` | 9 | Exported Function
+`GetCrashpadDatabasePath_ExportThunk` | 10 | Exported Function
+`GetBlockedModulesCount` | 8 | Exported Function
+`GetApplyHookResult` | 7 | Exported Function
+`DumpProcessWithoutCrash` | 6 | Exported Function
+`DumpHungProcessWithPtype_ExportThunk` | 5 | Exported Function
+`DrainLog` | 4 | Exported Function
+`DisableHook` | 3 | Exported Function
+`CrashForException_ExportThunk` | 2 | Exported Function
 `SignalChromeElf` | 21 | Exported Function
 `SignalInitializeCrashReporting` | 22 | Exported Function
-`SetUploadConsent_ExportThunk` | 20 | Exported Function
-`RequestSingleCrashUpload_ExportThunk` | 18 | Exported Function
-`SetMetricsClientId` | 19 | Exported Function
-`DrainLog` | 4 | Exported Function
-`DumpHungProcessWithPtype_ExportThunk` | 5 | Exported Function
-`DisableHook` | 3 | Exported Function
-`ClearReportsBetween_ExportThunk` | 1 | Exported Function
-`CrashForException_ExportThunk` | 2 | Exported Function
-`DumpProcessWithoutCrash` | 6 | Exported Function
-`GetCrashReports_ExportThunk` | 9 | Exported Function
-`GetHandleVerifier` | 11 | Exported Function
-`GetCrashpadDatabasePath_ExportThunk` | 10 | Exported Function
-`GetApplyHookResult` | 7 | Exported Function
-`GetBlockedModulesCount` | 8 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `2DFCF2454E093F004A915088DB500042FD4CF74D9A09631B4939D0C941D2EF5C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TtlsExt_FreeMemoryExt` | 2 | Exported Function
 `TeapExt_EapPeerInvokeConfigUI` | 1 | Exported Function
+`TtlsExt_FreeMemoryExt` | 2 | Exported Function
 
 
 ## Signature

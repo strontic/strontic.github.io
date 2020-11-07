@@ -26,21 +26,21 @@ PE256 | `9435BBB0A73670BB6B56FA49E88272FE08FC2B2170FB9D34229357F84DCDDA72`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VTransportDeinitialize` | 6 | Exported Function
-`VTransportClose` | 5 | Exported Function
-`VGidsSimulatorWriteProperties` | 4 | Exported Function
-`VTransportInitialize` | 7 | Exported Function
-`VTransportTransmit` | 10 | Exported Function
-`VTransportReceive` | 9 | Exported Function
-`VTransportOpen` | 8 | Exported Function
-`VGidsSimulatorReadProperties` | 3 | Exported Function
-`DllRegisterServer` | 13 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
 `DllCanUnloadNow` | 11 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
 `DllUnregisterServer` | 14 | Exported Function
-`VGidsSimulatorDestroy` | 2 | Exported Function
-`VGidsSimulatorCreate` | 1 | Exported Function
 `Microsoft_WDF_UMDF_Version` | 15 | Exported Function
+`VGidsSimulatorCreate` | 1 | Exported Function
+`VGidsSimulatorDestroy` | 2 | Exported Function
+`VGidsSimulatorReadProperties` | 3 | Exported Function
+`VGidsSimulatorWriteProperties` | 4 | Exported Function
+`VTransportClose` | 5 | Exported Function
+`VTransportDeinitialize` | 6 | Exported Function
+`VTransportInitialize` | 7 | Exported Function
+`VTransportOpen` | 8 | Exported Function
+`VTransportReceive` | 9 | Exported Function
+`VTransportTransmit` | 10 | Exported Function
 
 
 ## Signature

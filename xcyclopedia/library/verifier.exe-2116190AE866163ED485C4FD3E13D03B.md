@@ -324,8 +324,8 @@ C:\Windows\system32\verifier.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/608af8aef15ba4f75996d46249a428ebbff1551de06f6eb6a053c2c330da6965/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/608af8aef15ba4f75996d46249a428ebbff1551de06f6eb6a053c2c330da6965/detection
 
 ## File Similarity (ssdeep match)
 

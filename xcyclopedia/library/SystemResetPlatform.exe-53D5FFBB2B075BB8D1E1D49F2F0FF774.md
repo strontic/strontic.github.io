@@ -22,22 +22,6 @@ IMP | `E058437B06D0330796EF05165724B390`
 PESHA1 | `E2DA3DAF0137D6FE8E61778F8663EA3C24C7CDF8`
 PE256 | `0D33EC75F0783F89795BCB15D98689A61E48C6D10442D701E99CC3CF74876633`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\SystemResetPlatform\SystemResetPlatform.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -59,8 +43,8 @@ C:\Windows\system32\SystemResetPlatform\SystemResetPlatform.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/260b6137f1d1977f569edef5df5684fe61f5cc2a5e56f351a6309bd97e8e4f16/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/260b6137f1d1977f569edef5df5684fe61f5cc2a5e56f351a6309bd97e8e4f16/detection
 
 
 

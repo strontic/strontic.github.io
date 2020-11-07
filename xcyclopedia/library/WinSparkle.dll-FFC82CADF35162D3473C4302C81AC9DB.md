@@ -28,28 +28,28 @@ PE256 | `FE5C526C4D28601D7D7963EEDF9F07578151416FFDCB862EA588162B6872A5FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`win_sparkle_set_did_not_find_update_callback` | 15 | Exported Function
-`win_sparkle_set_error_callback` | 16 | Exported Function
-`win_sparkle_set_did_find_update_callback` | 14 | Exported Function
-`win_sparkle_set_automatic_check_for_updates` | 12 | Exported Function
-`win_sparkle_set_can_shutdown_callback` | 13 | Exported Function
+`win_sparkle_check_update_with_ui` | 1 | Exported Function
+`win_sparkle_set_shutdown_request_callback` | 20 | Exported Function
+`win_sparkle_set_registry_path` | 19 | Exported Function
+`win_sparkle_set_langid` | 18 | Exported Function
 `win_sparkle_set_lang` | 17 | Exported Function
+`win_sparkle_set_error_callback` | 16 | Exported Function
+`win_sparkle_set_did_not_find_update_callback` | 15 | Exported Function
+`win_sparkle_set_did_find_update_callback` | 14 | Exported Function
+`win_sparkle_set_can_shutdown_callback` | 13 | Exported Function
+`win_sparkle_set_automatic_check_for_updates` | 12 | Exported Function
+`win_sparkle_set_appcast_url` | 11 | Exported Function
+`win_sparkle_set_app_details` | 10 | Exported Function
+`win_sparkle_set_app_build_version` | 9 | Exported Function
+`win_sparkle_init` | 8 | Exported Function
+`win_sparkle_get_update_check_interval` | 7 | Exported Function
+`win_sparkle_get_last_check_time` | 6 | Exported Function
+`win_sparkle_get_automatic_check_for_updates` | 5 | Exported Function
+`win_sparkle_cleanup` | 4 | Exported Function
+`win_sparkle_check_update_without_ui` | 3 | Exported Function
+`win_sparkle_check_update_with_ui_and_install` | 2 | Exported Function
 `win_sparkle_set_update_cancelled_callback` | 21 | Exported Function
 `win_sparkle_set_update_check_interval` | 22 | Exported Function
-`win_sparkle_set_shutdown_request_callback` | 20 | Exported Function
-`win_sparkle_set_langid` | 18 | Exported Function
-`win_sparkle_set_registry_path` | 19 | Exported Function
-`win_sparkle_cleanup` | 4 | Exported Function
-`win_sparkle_get_automatic_check_for_updates` | 5 | Exported Function
-`win_sparkle_check_update_without_ui` | 3 | Exported Function
-`win_sparkle_check_update_with_ui` | 1 | Exported Function
-`win_sparkle_check_update_with_ui_and_install` | 2 | Exported Function
-`win_sparkle_get_last_check_time` | 6 | Exported Function
-`win_sparkle_set_app_details` | 10 | Exported Function
-`win_sparkle_set_appcast_url` | 11 | Exported Function
-`win_sparkle_set_app_build_version` | 9 | Exported Function
-`win_sparkle_get_update_check_interval` | 7 | Exported Function
-`win_sparkle_init` | 8 | Exported Function
 
 
 ## Signature

@@ -35,7 +35,6 @@ Quick Assist
 
 Path | Type
 -- | --
-(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\crypt32.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\jscript9.dll.mui | File
@@ -44,45 +43,69 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\quickassist.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\urlmon.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\38M7TRXW\StrgMDL2.1.58[1].eot | File
-(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\80WT0S63\2EVK4Z6V.htm | File
-(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\80WT0S63\DevCMDL2.1.62[1].eot | File
-(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\83HYX0J0\RemtMDL2[1].eot | File
-(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\BILE846D\MemMDL2.1.62[1].eot | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\4WSGMXC6\StrgMDL2.1.58[1].eot | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\JI9DB7D9\DevCMDL2.1.62[1].eot | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\KAV7DQIZ\QZRPOOIH.htm | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\KAV7DQIZ\RemtMDL2[1].eot | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\XW1XXC1F\MemMDL2.1.62[1].eot | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb | File
 (RWD)   C:\Windows\Fonts | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\194HWNDInterface:22060e | Section
-\Sessions\1\BaseNamedObjects\194HWNDInterface:a04f8 | Section
+\Sessions\1\BaseNamedObjects\15dcHWNDInterface:140672 | Section
+\Sessions\1\BaseNamedObjects\15dcHWNDInterface:340576 | Section
 \Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\ATL.DLL |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\d2d1.dll |
+C:\Windows\system32\d3d11.dll |
+C:\Windows\system32\dcomp.dll |
+C:\Windows\system32\dxgi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\quickassist.exe |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\SAS.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\shell32.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb\gdiplus.dll |
 
 
 ## Signature
@@ -106,8 +129,8 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/60
-* VirusTotal Link: https://www.virustotal.com/gui/file/f3ff9db4c29e460735ffa8e9b0882a27ba5ac67351cd2adea759e496d8ba918a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/f3ff9db4c29e460735ffa8e9b0882a27ba5ac67351cd2adea759e496d8ba918a/detection
 
 
 ## Possible Misuse

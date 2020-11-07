@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\fixmapi.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/1ad59ae610d513f1d85e54c2a791d48ae71960f78bb1a214a36718f57c838e85/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/1ad59ae610d513f1d85e54c2a791d48ae71960f78bb1a214a36718f57c838e85/detection
 
 ## File Similarity (ssdeep match)
 

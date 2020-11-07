@@ -26,11 +26,11 @@ PE256 | `9EE0E5266BC947D18A865587112FCB8A028DF623684F8B38F6EECC65FA854B1F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WdiGetDiagnosticModuleInterfaceVersion` | 4 | Exported Function
-`WdiHandleInstance` | 5 | Exported Function
-`WdiDiagnosticModuleMain` | 3 | Exported Function
 `RdrSysprepSpecialize` | 1 | Exported Function
 `RdrSysprepSpecializeOffline` | 2 | Exported Function
+`WdiDiagnosticModuleMain` | 3 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 4 | Exported Function
+`WdiHandleInstance` | 5 | Exported Function
 
 
 ## Signature

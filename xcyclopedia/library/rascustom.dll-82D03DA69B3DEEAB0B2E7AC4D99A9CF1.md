@@ -26,13 +26,13 @@ PE256 | `D411B7DAFF83EB7F056CBAD20F028A123496CB22904D7DA0E78F26720CA3C710`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VpnBrokerRegisterForPluginInstallations` | 5 | Exported Function
-`VpnSmCommsPluginsNotifyLogOff` | 6 | Exported Function
-`VpnSmCommsPluginsRoamToBestCostInterface` | 7 | Exported Function
-`VpnBrokerPluginIsInstalled` | 4 | Exported Function
 `InitializeProtocolEngine` | 1 | Exported Function
 `SendMessageToProtocolEngine` | 2 | Exported Function
 `UninitializeProtocolEngine` | 3 | Exported Function
+`VpnBrokerPluginIsInstalled` | 4 | Exported Function
+`VpnBrokerRegisterForPluginInstallations` | 5 | Exported Function
+`VpnSmCommsPluginsNotifyLogOff` | 6 | Exported Function
+`VpnSmCommsPluginsRoamToBestCostInterface` | 7 | Exported Function
 
 
 ## Signature

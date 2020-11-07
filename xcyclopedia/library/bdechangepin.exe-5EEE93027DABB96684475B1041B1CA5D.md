@@ -103,6 +103,7 @@ C:\Windows\System32\windows.storage.dll |
 File | Score
 -- | --
 [C:\WINDOWS\system32\bdechangepin.exe](bdechangepin.exe-237877714A318D9E9766014BA859831F.md) | 88
+[C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-5A7DB303C82FB9AC72483ABB58B5CF8C.md) | 75
 [C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-F58E82580EC2E892BDC9BDFCA1EE9FB7.md) | 74
 
 

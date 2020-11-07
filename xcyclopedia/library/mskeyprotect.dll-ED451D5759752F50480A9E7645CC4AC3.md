@@ -26,9 +26,9 @@ PE256 | `00207E506587923F0AE0799B172D6328190AA305FF31909519C3C4253DAC8CD8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KeyFileUnprotectSessionTicket` | 3 | Exported Function
-`KeyFileProtectSessionTicket` | 2 | Exported Function
 `GetKeyProtectionInterface` | 1 | Exported Function
+`KeyFileProtectSessionTicket` | 2 | Exported Function
+`KeyFileUnprotectSessionTicket` | 3 | Exported Function
 
 
 ## Signature

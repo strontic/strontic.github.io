@@ -227,6 +227,9 @@ the typical profile.
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |
@@ -259,8 +262,8 @@ C:\Windows\SysWOW64\RpcPing.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/be654b85b6b4fdf81a9df93ad5259760382e3964030f938e63a17b5c5a11f10b/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/be654b85b6b4fdf81a9df93ad5259760382e3964030f938e63a17b5c5a11f10b/detection
 
 
 ## Possible Misuse

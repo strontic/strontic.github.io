@@ -26,9 +26,9 @@ PE256 | `F6B611803A09EF330924F1CAC12E620495C7550D22B598E37F4A4D362D4EC487`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PidGenX2` | 118 | Exported Function
-`PidGenX` | 119 | Exported Function
 `Ordinal117` | 117 | Exported Function
+`PidGenX` | 119 | Exported Function
+`PidGenX2` | 118 | Exported Function
 
 
 ## Signature

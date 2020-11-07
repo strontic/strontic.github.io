@@ -26,34 +26,34 @@ PE256 | `D2CAF847A4EA7053B8A2A7C8E320A899531FFE585D16EB363C2EDAD5E1B295E6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetRoleTextW` | 19 | Exported Function
-`GetStateTextA` | 20 | Exported Function
-`GetStateTextW` | 21 | Exported Function
-`GetRoleTextA` | 18 | Exported Function
-`DllUnregisterServer` | 2 | Exported Function
-`GetOleaccVersionInfo` | 16 | Exported Function
-`GetProcessHandleFromHwnd` | 17 | Exported Function
+`AccessibleChildren` | 6 | Exported Function
 `ObjectFromLresult` | 26 | Exported Function
+`LresultFromObject` | 25 | Exported Function
+`LIBID_Accessibility` | 24 | Exported Function
+`IID_IAccessibleHandler` | 23 | Exported Function
+`IID_IAccessible` | 22 | Exported Function
+`GetStateTextW` | 21 | Exported Function
+`GetStateTextA` | 20 | Exported Function
+`GetRoleTextW` | 19 | Exported Function
+`GetRoleTextA` | 18 | Exported Function
+`GetProcessHandleFromHwnd` | 17 | Exported Function
+`GetOleaccVersionInfo` | 16 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`DllGetClassObject` | 15 | Exported Function
+`DllCanUnloadNow` | 14 | Exported Function
+`CreateStdAccessibleProxyW` | 13 | Exported Function
+`CreateStdAccessibleProxyA` | 12 | Exported Function
+`CreateStdAccessibleObject` | 11 | Exported Function
+`AccSetRunningUtilityState` | 5 | Exported Function
+`AccNotifyTouchInteraction` | 4 | Exported Function
+`AccGetRunningUtilityState` | 3 | Exported Function
+`AccessibleObjectFromWindowTimeout` | 10 | Exported Function
+`AccessibleObjectFromWindow` | 9 | Exported Function
+`AccessibleObjectFromPoint` | 8 | Exported Function
+`AccessibleObjectFromEvent` | 7 | Exported Function
 `PropMgrClient_LookupProp` | 27 | Exported Function
 `WindowFromAccessibleObject` | 28 | Exported Function
-`LresultFromObject` | 25 | Exported Function
-`IID_IAccessible` | 22 | Exported Function
-`IID_IAccessibleHandler` | 23 | Exported Function
-`LIBID_Accessibility` | 24 | Exported Function
-`AccessibleObjectFromWindowTimeout` | 10 | Exported Function
-`AccGetRunningUtilityState` | 3 | Exported Function
-`AccNotifyTouchInteraction` | 4 | Exported Function
-`AccessibleObjectFromWindow` | 9 | Exported Function
-`AccessibleChildren` | 6 | Exported Function
-`AccessibleObjectFromEvent` | 7 | Exported Function
-`AccessibleObjectFromPoint` | 8 | Exported Function
-`DllCanUnloadNow` | 14 | Exported Function
-`DllGetClassObject` | 15 | Exported Function
-`DllRegisterServer` | 1 | Exported Function
-`CreateStdAccessibleProxyW` | 13 | Exported Function
-`AccSetRunningUtilityState` | 5 | Exported Function
-`CreateStdAccessibleObject` | 11 | Exported Function
-`CreateStdAccessibleProxyA` | 12 | Exported Function
 
 
 ## Signature

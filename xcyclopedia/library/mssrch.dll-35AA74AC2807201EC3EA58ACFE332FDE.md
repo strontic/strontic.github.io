@@ -26,28 +26,28 @@ PE256 | `66F5D9A1F1F8488AA589EEB46EBE8E7057964FEC2EFDC52407B364F74D138756`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`std::allocator` | 9 | Exported Function
-`CSearchServiceObj::LogoffNotification` | 10 | Exported Function
-`CSearchServiceObj::HandleDplKeyChange` | 8 | Exported Function
-`CSearchServiceObj::operator` | 4 | Exported Function
-`CSearchServiceObj::Cleanup` | 6 | Exported Function
+`ChangeTracking::IFileChangeClientManager GetFileChangeClientManagerInstance` | 7 | Exported Function
+`CSearchServiceObj::Shutdown` | 14 | Exported Function
+`CSearchServiceObj::SetServiceStatusObj` | 13 | Exported Function
+`CSearchServiceObj::PostServiceStartup` | 12 | Exported Function
 `CSearchServiceObj::LogonNotification` | 11 | Exported Function
+`CSearchServiceObj::LogoffNotification` | 10 | Exported Function
+`std::allocator` | 9 | Exported Function
+`CSearchServiceObj::HandleDplKeyChange` | 8 | Exported Function
+`CSearchServiceObj::Cleanup` | 6 | Exported Function
+`CSearchServiceObj::operator` | 4 | Exported Function
+`public: __cdecl CSearchServiceObj::~CSearchServiceObj(void) __ptr64` | 3 | Exported Function
+`CSearchServiceObj::CSearchServiceObj` | 2 | Exported Function
+`CSearchServiceObj::CSearchServiceObj` | 1 | Exported Function
+`MSSrch_SysPrep_Cleanup` | 22 | Exported Function
+`GetCatalogManager` | 21 | Exported Function
+`DllUnregisterServer` | 20 | Exported Function
+`DllRegisterServer` | 19 | Exported Function
+`DllGetClassObject` | 18 | Exported Function
+`DllCanUnloadNow` | 17 | Exported Function
+`const CSearchServiceObj::``vftable'` | 5 | Exported Function
 `CSearchServiceObj::Start` | 15 | Exported Function
 `CSearchServiceObj::Stop` | 16 | Exported Function
-`CSearchServiceObj::Shutdown` | 14 | Exported Function
-`CSearchServiceObj::PostServiceStartup` | 12 | Exported Function
-`CSearchServiceObj::SetServiceStatusObj` | 13 | Exported Function
-`DllGetClassObject` | 18 | Exported Function
-`DllRegisterServer` | 19 | Exported Function
-`DllCanUnloadNow` | 17 | Exported Function
-`ChangeTracking::IFileChangeClientManager GetFileChangeClientManagerInstance` | 7 | Exported Function
-`const CSearchServiceObj::``vftable'` | 5 | Exported Function
-`DllUnregisterServer` | 20 | Exported Function
-`CSearchServiceObj::CSearchServiceObj` | 2 | Exported Function
-`public: __cdecl CSearchServiceObj::~CSearchServiceObj(void) __ptr64` | 3 | Exported Function
-`CSearchServiceObj::CSearchServiceObj` | 1 | Exported Function
-`GetCatalogManager` | 21 | Exported Function
-`MSSrch_SysPrep_Cleanup` | 22 | Exported Function
 
 
 ## Signature

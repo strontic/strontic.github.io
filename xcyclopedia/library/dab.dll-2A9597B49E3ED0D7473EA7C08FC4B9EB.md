@@ -26,10 +26,10 @@ PE256 | `9C87BC0AA0579A29E6579D8B1AF8B29A6699F5F59601CF635FF0D28EA4322E81`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DabSessionStateChanged` | 3 | Exported Function
-`DabTerminate` | 4 | Exported Function
 `DabInitialize` | 1 | Exported Function
 `DabPowerStateChanged` | 2 | Exported Function
+`DabSessionStateChanged` | 3 | Exported Function
+`DabTerminate` | 4 | Exported Function
 
 
 ## Signature

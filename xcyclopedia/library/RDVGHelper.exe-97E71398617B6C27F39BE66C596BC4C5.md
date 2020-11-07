@@ -29,13 +29,23 @@ PE256 | `956B8BCFD0C3B70BB6B040B01C4490F6F97B4C5B5CC9DCD222596DFB6DDCAF93`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\RDVGHelper.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WTSAPI32.dll |
 
 
 ## Signature
@@ -59,8 +69,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/8b578e0dc5bac0d60b946a41c69138e30e5eb6c43b05ea706ee6d48bb3df317a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/8b578e0dc5bac0d60b946a41c69138e30e5eb6c43b05ea706ee6d48bb3df317a/detection
 
 ## File Similarity (ssdeep match)
 

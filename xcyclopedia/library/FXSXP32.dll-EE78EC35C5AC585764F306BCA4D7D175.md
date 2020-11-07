@@ -26,8 +26,8 @@ PE256 | `5961F9130CA2084D91C1F954E4226431134AF312537BB8E1BCF2E8A398B21AD5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`XPProviderInit` | 2 | Exported Function
 `ServiceEntry` | 1 | Exported Function
+`XPProviderInit` | 2 | Exported Function
 
 
 ## Signature

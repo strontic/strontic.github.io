@@ -27,7 +27,7 @@ PE256 | `1C608BC89EA4B3DE01527027A7308662F99A1694FB66AD73C0B4F7C78F30EFFC`
 ### Usage (stdout):
 ```cmhg
 Default Server:  default-pc.mshome.net
-Address:  172.31.0.1
+Address:  172.24.208.1
 
 > 
 ```
@@ -50,7 +50,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\nslookup.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -86,8 +89,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/55ab032d256adbe3fde40cf90fe83ba5eab591e04ad720161ed8e6ef059ca747/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/55ab032d256adbe3fde40cf90fe83ba5eab591e04ad720161ed8e6ef059ca747/detection
 
 
 ## Possible Misuse

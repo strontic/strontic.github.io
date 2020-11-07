@@ -26,17 +26,17 @@ PE256 | `F07DB505A2F1801A3368496D61D52F3E60D644EE9934246BD3A8B93B1778CB11`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 8 | Exported Function
-`BiRtRegisterWorkItemClsid` | 7 | Exported Function
-`DllGetActivationFactory` | 9 | Exported Function
-`DllMain` | 11 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`BiRtRegisterWorkItem` | 6 | Exported Function
-`BiRtDeleteEventForApp` | 2 | Exported Function
 `BiRtCreateEventForApp` | 1 | Exported Function
+`BiRtDeleteEventForApp` | 2 | Exported Function
 `BiRtEnumerateBrokeredEvents` | 3 | Exported Function
-`BiRtQueryBrokerEventId` | 5 | Exported Function
 `BiRtIsValidActivationTypeForEventType` | 4 | Exported Function
+`BiRtQueryBrokerEventId` | 5 | Exported Function
+`BiRtRegisterWorkItem` | 6 | Exported Function
+`BiRtRegisterWorkItemClsid` | 7 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`DllGetActivationFactory` | 9 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllMain` | 11 | Exported Function
 
 
 ## Signature

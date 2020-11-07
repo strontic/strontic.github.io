@@ -26,12 +26,12 @@ PE256 | `8E65E4A5B22E9CF8DC7DF0A102602390D73ED6AFF39F3CDE1DCA645725EF0FC1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`GetVC1DecoderFunctionTable` | 1 | Exported Function
 `CreateInstance` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`GetVC1DecoderFunctionTable` | 1 | Exported Function
 
 
 ## Signature

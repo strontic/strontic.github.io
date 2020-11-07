@@ -28,16 +28,22 @@ PE256 | `3FCBE7B0E80EB02F56BD64281C8334E151806D042E4EC1EE79EFE21AC0D0B703`
 
 Path |
 -- |
+C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\cmmon32.exe |
+C:\Windows\system32\cmutil.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -62,8 +68,8 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/542d796db8372c7bd3f9861e0071ffadfab3e9b5cf49a9cdc975c5cb003f3d5f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/542d796db8372c7bd3f9861e0071ffadfab3e9b5cf49a9cdc975c5cb003f3d5f/detection
 
 ## File Similarity (ssdeep match)
 

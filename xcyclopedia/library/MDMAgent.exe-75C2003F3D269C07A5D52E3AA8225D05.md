@@ -29,11 +29,29 @@ PE256 | `50068988BFEA981F91D37488FC0D2B1E1E58F1C1D374A31BE9B1EC683226A945`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTSP.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\dmEnrollEngine.DLL |
+C:\Windows\system32\iri.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MDMAgent.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\USERENV.dll |
 
 
 ## Signature
@@ -57,8 +75,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/9840565e700311386876d2843b33e9a680f3d64ac821674b259573e441198e13/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9840565e700311386876d2843b33e9a680f3d64ac821674b259573e441198e13/detection
 
 ## File Similarity (ssdeep match)
 

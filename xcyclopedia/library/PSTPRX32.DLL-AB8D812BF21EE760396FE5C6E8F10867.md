@@ -26,20 +26,20 @@ PE256 | `FF25D28593F48859F24603EBF58DC07611AD53A4450EEECAD9C8DD83A5C62285`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HrEasSetOriginatingServerId` | 10 | Exported Function
-`HrEasScheduleMeetingResponse` | 9 | Exported Function
-`HrEasCreateSendMailTask` | 8 | Exported Function
-`HrMoveDeleteSpamMessage@36` | 11 | Exported Function
-`PstPrxLogonDialogWrapper` | 14 | Exported Function
-`PRXServiceEntry@40` | 13 | Exported Function
-`MSProviderInit` | 12 | Exported Function
-`HrConfigureIMAPStore` | 3 | Exported Function
-`HrConfigureEASStore` | 2 | Exported Function
 `EndBoot@0` | 1 | Exported Function
+`HrConfigureEASStore` | 2 | Exported Function
+`HrConfigureIMAPStore` | 3 | Exported Function
 `HrDisplayPendingErrors` | 4 | Exported Function
-`HrEasCreateFromOLC` | 7 | Exported Function
-`HrEasAutoDiscover` | 6 | Exported Function
 `HrEasAccountTest` | 5 | Exported Function
+`HrEasAutoDiscover` | 6 | Exported Function
+`HrEasCreateFromOLC` | 7 | Exported Function
+`HrEasCreateSendMailTask` | 8 | Exported Function
+`HrEasScheduleMeetingResponse` | 9 | Exported Function
+`HrEasSetOriginatingServerId` | 10 | Exported Function
+`HrMoveDeleteSpamMessage@36` | 11 | Exported Function
+`MSProviderInit` | 12 | Exported Function
+`PRXServiceEntry@40` | 13 | Exported Function
+`PstPrxLogonDialogWrapper` | 14 | Exported Function
 
 
 ## Signature

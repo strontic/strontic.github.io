@@ -26,29 +26,29 @@ PE256 | `69BE8F29B3793D4DDF1D42262ED8AF3489AD9526C31A0FAA91FFAD14AEE2E924`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StgIsStorageILockBytes` | 26 | Exported Function
-`StgOpenPropStg` | 27 | Exported Function
-`StgIsStorageFile` | 25 | Exported Function
-`StgCreatePropStg` | 23 | Exported Function
-`StgCreateStorageEx` | 24 | Exported Function
-`StgOpenStorage` | 28 | Exported Function
-`WriteClassStg` | 32 | Exported Function
-`WriteClassStm` | 33 | Exported Function
-`StgSetTimes` | 31 | Exported Function
-`StgOpenStorageEx` | 29 | Exported Function
-`StgOpenStorageOnILockBytes` | 30 | Exported Function
-`StgCreatePropSetStg` | 22 | Exported Function
-`FmtIdToPropStgName` | 14 | Exported Function
-`GetConvertStg` | 15 | Exported Function
-`DllGetClassObject` | 13 | Exported Function
 `Coml2DllGetClassObject` | 9 | Exported Function
-`CreateILockBytesOnHGlobal` | 10 | Exported Function
-`GetHGlobalFromILockBytes` | 16 | Exported Function
+`StgSetTimes` | 31 | Exported Function
+`StgOpenStorageOnILockBytes` | 30 | Exported Function
+`StgOpenStorageEx` | 29 | Exported Function
+`StgOpenStorage` | 28 | Exported Function
+`StgOpenPropStg` | 27 | Exported Function
+`StgIsStorageILockBytes` | 26 | Exported Function
+`StgIsStorageFile` | 25 | Exported Function
+`StgCreateStorageEx` | 24 | Exported Function
+`StgCreatePropStg` | 23 | Exported Function
+`WriteClassStg` | 32 | Exported Function
+`StgCreatePropSetStg` | 22 | Exported Function
 `StgCreateDocfile` | 20 | Exported Function
-`StgCreateDocfileOnILockBytes` | 21 | Exported Function
 `ReadClassStm` | 19 | Exported Function
-`PropStgNameToFmtId` | 17 | Exported Function
 `ReadClassStg` | 18 | Exported Function
+`PropStgNameToFmtId` | 17 | Exported Function
+`GetHGlobalFromILockBytes` | 16 | Exported Function
+`GetConvertStg` | 15 | Exported Function
+`FmtIdToPropStgName` | 14 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
+`CreateILockBytesOnHGlobal` | 10 | Exported Function
+`StgCreateDocfileOnILockBytes` | 21 | Exported Function
+`WriteClassStm` | 33 | Exported Function
 
 
 ## Signature

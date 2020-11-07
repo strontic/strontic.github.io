@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\RdpSaUacHelper.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/cfca756bd7fc0101d4e942e11b080176594999b1c38628015a459c1de695bbe9/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/cfca756bd7fc0101d4e942e11b080176594999b1c38628015a459c1de695bbe9/detection
 
 
 

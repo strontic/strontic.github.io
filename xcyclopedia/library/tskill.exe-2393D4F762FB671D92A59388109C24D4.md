@@ -74,8 +74,8 @@ C:\Windows\system32\tskill.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/8d9373ebd69f42153b0b47dbda2174811599db91630651ca01627ac1795f8d56/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/8d9373ebd69f42153b0b47dbda2174811599db91630651ca01627ac1795f8d56/detection
 
 
 

@@ -26,27 +26,27 @@ PE256 | `F9F8141DAF610D1DE72DA09DE56A3AFA6EC8161DF8022E66D67A6A853C0BA938`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Tbsi_ShaHash` | 15 | Exported Function
-`Tbsip_Cancel_Commands` | 16 | Exported Function
-`Tbsi_Revoke_Attestation` | 14 | Exported Function
-`Tbsi_GetDeviceInfo` | 9 | Exported Function
-`Tbsi_Physical_Presence_Command` | 13 | Exported Function
-`Tbsip_TestInterruptInformation` | 20 | Exported Function
-`Tbsip_TestMorBit` | 21 | Exported Function
-`Tbsip_Submit_Command_NonBlocking` | 19 | Exported Function
-`Tbsip_Context_Close` | 17 | Exported Function
-`Tbsip_Submit_Command` | 18 | Exported Function
-`Tbsi_Get_TCG_Logs` | 2 | Exported Function
-`Tbsi_Context_Create` | 6 | Exported Function
-`Tbsi_Create_Attestation_From_Log` | 1 | Exported Function
-`GetDeviceIDWithTimeout` | 5 | Exported Function
 `GetDeviceID` | 3 | Exported Function
-`GetDeviceIDString` | 4 | Exported Function
+`Tbsip_Submit_Command_NonBlocking` | 19 | Exported Function
+`Tbsip_Submit_Command` | 18 | Exported Function
+`Tbsip_Context_Close` | 17 | Exported Function
+`Tbsip_Cancel_Commands` | 16 | Exported Function
+`Tbsi_ShaHash` | 15 | Exported Function
+`Tbsi_Revoke_Attestation` | 14 | Exported Function
+`Tbsi_Physical_Presence_Command` | 13 | Exported Function
+`Tbsi_GetDeviceInfo` | 9 | Exported Function
+`Tbsip_TestInterruptInformation` | 20 | Exported Function
+`Tbsi_Get_TCG_Logs` | 2 | Exported Function
 `Tbsi_Get_TCG_Log` | 11 | Exported Function
-`Tbsi_Get_TCG_Log_Ex` | 12 | Exported Function
 `Tbsi_Get_OwnerAuth` | 10 | Exported Function
-`Tbsi_Create_Windows_Key` | 7 | Exported Function
 `Tbsi_FilterLog` | 8 | Exported Function
+`Tbsi_Create_Windows_Key` | 7 | Exported Function
+`Tbsi_Create_Attestation_From_Log` | 1 | Exported Function
+`Tbsi_Context_Create` | 6 | Exported Function
+`GetDeviceIDWithTimeout` | 5 | Exported Function
+`GetDeviceIDString` | 4 | Exported Function
+`Tbsi_Get_TCG_Log_Ex` | 12 | Exported Function
+`Tbsip_TestMorBit` | 21 | Exported Function
 
 
 ## Signature

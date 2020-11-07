@@ -30,9 +30,6 @@ PE256 | `9264014DDD52AC6FBA8C74CEEA19B6B598D510310728AFBFAC8BCDE5A3B5F974`
 
 ## Runtime Data
 
-### Child Processes:
-explorer.exe
-
 ### Window Title:
 About Windows
 
@@ -44,14 +41,17 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\winver.exe.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme1800662698 | Section
+\Windows\Theme722103516 | Section
 
 
 ### Loaded Modules:
@@ -86,8 +86,8 @@ C:\Windows\SysWOW64\winver.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/e8086c9fa7a33e4e6445dab05f79edf8e843945764b21b1024ad2fdb724037dc/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/e8086c9fa7a33e4e6445dab05f79edf8e843945764b21b1024ad2fdb724037dc/detection
 
 ## File Similarity (ssdeep match)
 

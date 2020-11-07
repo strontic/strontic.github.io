@@ -26,21 +26,21 @@ PE256 | `CE08121E5913C6EFC2739DD22C38544E0EC6C5BAFF1E1673B3A912F53B4C4080`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSHNotify` | 11 | Exported Function
-`WSHJoinLeaf` | 10 | Exported Function
-`WSHIoctl` | 9 | Exported Function
-`WSHOpenSocket` | 12 | Exported Function
-`WSHStringToAddress` | 15 | Exported Function
-`WSHSetSocketInformation` | 14 | Exported Function
-`WSHOpenSocket2` | 13 | Exported Function
-`WSHGetWSAProtocolInfo` | 6 | Exported Function
-`WSHGetProviderGuid` | 3 | Exported Function
-`WSHEnumProtocols` | 2 | Exported Function
 `WSHAddressToString` | 1 | Exported Function
+`WSHEnumProtocols` | 2 | Exported Function
+`WSHGetProviderGuid` | 3 | Exported Function
 `WSHGetSockaddrType` | 4 | Exported Function
-`WSHGetWinsockMapping` | 8 | Exported Function
-`WSHGetWildcardSockaddr` | 7 | Exported Function
 `WSHGetSocketInformation` | 5 | Exported Function
+`WSHGetWildcardSockaddr` | 7 | Exported Function
+`WSHGetWinsockMapping` | 8 | Exported Function
+`WSHGetWSAProtocolInfo` | 6 | Exported Function
+`WSHIoctl` | 9 | Exported Function
+`WSHJoinLeaf` | 10 | Exported Function
+`WSHNotify` | 11 | Exported Function
+`WSHOpenSocket` | 12 | Exported Function
+`WSHOpenSocket2` | 13 | Exported Function
+`WSHSetSocketInformation` | 14 | Exported Function
+`WSHStringToAddress` | 15 | Exported Function
 
 
 ## Signature

@@ -66,6 +66,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/6ffc6399f7aa42ee25e9593e3a10ae83ad484cf563c08ce7a33e63008e9d3511/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\pcalua.exe](pcalua.exe-FDA12B6075B344B04FBD1B35B8D8B1E1.md) | 40
 
 ## Possible Misuse
 

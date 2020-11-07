@@ -26,17 +26,17 @@ PE256 | `6E54C2C5198E16B38D9442440A3CF8CC774942F09BE8ADA5DAC70135CE23B4EC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SclPendedRequestExists` | 9 | Exported Function
-`SclLoadStringResource` | 7 | Exported Function
-`SclPendRequest` | 8 | Exported Function
-`SclReleasePrivileges` | 11 | Exported Function
-`SclPreCompilePendedRequests` | 10 | Exported Function
-`SclGetPendedRequest` | 6 | Exported Function
-`SclClearPendedRequest` | 2 | Exported Function
 `SclAcquireRequiredPrivileges` | 1 | Exported Function
+`SclClearPendedRequest` | 2 | Exported Function
 `SclExecutePendedRequests` | 3 | Exported Function
-`SclFreeRequest` | 5 | Exported Function
 `SclExecuteRequest` | 4 | Exported Function
+`SclFreeRequest` | 5 | Exported Function
+`SclGetPendedRequest` | 6 | Exported Function
+`SclLoadStringResource` | 7 | Exported Function
+`SclPendedRequestExists` | 9 | Exported Function
+`SclPendRequest` | 8 | Exported Function
+`SclPreCompilePendedRequests` | 10 | Exported Function
+`SclReleasePrivileges` | 11 | Exported Function
 
 
 ## Signature

@@ -110,8 +110,8 @@ C:\Windows\system32\where.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/a19f7b783bc5611095d577f5eccc12069ca2b5e92bbe37f415429bb72c09792c/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/a19f7b783bc5611095d577f5eccc12069ca2b5e92bbe37f415429bb72c09792c/detection
 
 
 ## Possible Misuse

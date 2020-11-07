@@ -52,7 +52,7 @@ Options:
 
 ### Usage (stderr):
 ```cmhg
-RegAsm : error RA0000 : Could not load file or assembly 'file:///C:\Windows\help' or one of its dependencies. Access is denied.
+RegAsm : error RA0000 : Failed to load 'C:\Users\user\help' because it is not a valid .NET assembly
 
 ```
 
@@ -88,8 +88,8 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/c066aee7aa3aa83f763ebc5541daa266ed6c648fbffcde0d836a13b221bb2adc/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/c066aee7aa3aa83f763ebc5541daa266ed6c648fbffcde0d836a13b221bb2adc/detection
 
 ## File Similarity (ssdeep match)
 

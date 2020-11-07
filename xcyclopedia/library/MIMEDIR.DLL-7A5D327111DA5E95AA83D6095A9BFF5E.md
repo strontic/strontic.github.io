@@ -26,12 +26,12 @@ PE256 | `49002F518E7E5AED0A4AD8A937FB2C64C22CE51298FD241C3F301394426C6F9D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 4 | Exported Function
-`HrGlobalObjIdToUid` | 5 | Exported Function
-`HrUidToGlobalObjId` | 6 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`HrGlobalObjIdToUid` | 5 | Exported Function
+`HrUidToGlobalObjId` | 6 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `63DADD7DEFD9FDCDD897318623C446445D93D3E3A104C9141AEF8A1B029097D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `CreateParserObject` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

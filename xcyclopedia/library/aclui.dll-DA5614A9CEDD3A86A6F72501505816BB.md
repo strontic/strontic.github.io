@@ -26,14 +26,14 @@ PE256 | `2E98D52A3DEEBF45EF0BA12AD8E64135D2D4E076C72BBFAA05F7B8E962FEA7DD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetLocalizedStringForCondition` | 6 | Exported Function
-`EditSecurityAdvanced` | 3 | Exported Function
-`IID_ISecurityInformation` | 16 | Exported Function
-`GetTlsIndexForClaimDictionary` | 7 | Exported Function
-`EditConditionalAceClaims` | 5 | Exported Function
 `CreateSecurityPage` | 1 | Exported Function
-`EditSecurity` | 2 | Exported Function
+`EditConditionalAceClaims` | 5 | Exported Function
 `EditResourceCondition` | 4 | Exported Function
+`EditSecurity` | 2 | Exported Function
+`EditSecurityAdvanced` | 3 | Exported Function
+`GetLocalizedStringForCondition` | 6 | Exported Function
+`GetTlsIndexForClaimDictionary` | 7 | Exported Function
+`IID_ISecurityInformation` | 16 | Exported Function
 
 
 ## Signature

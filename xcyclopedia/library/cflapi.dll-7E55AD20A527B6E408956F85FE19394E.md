@@ -26,18 +26,18 @@ PE256 | `DEDCE3CA566212B84A6ACC5928E485A20704F2EEE8467FCCD96276AAFB01FAEE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CflSetScenarioData` | 9 | Exported Function
-`CflSerializeSessionContext` | 8 | Exported Function
-`CflSecureFreeBuffer` | 7 | Exported Function
-`CflSetupTransitionToUserAccount` | 12 | Exported Function
-`CflSetupTempUserAccount` | 11 | Exported Function
-`CflSetupAuthEnvironment` | 10 | Exported Function
-`CflDeserializeSessionContext` | 3 | Exported Function
-`CflClearTempUserAccount` | 2 | Exported Function
 `CflClearScenarioData` | 1 | Exported Function
-`CflGetTransitionScenarioData` | 6 | Exported Function
-`CflGetScenarioData` | 5 | Exported Function
+`CflClearTempUserAccount` | 2 | Exported Function
+`CflDeserializeSessionContext` | 3 | Exported Function
 `CflFreeBuffer` | 4 | Exported Function
+`CflGetScenarioData` | 5 | Exported Function
+`CflGetTransitionScenarioData` | 6 | Exported Function
+`CflSecureFreeBuffer` | 7 | Exported Function
+`CflSerializeSessionContext` | 8 | Exported Function
+`CflSetScenarioData` | 9 | Exported Function
+`CflSetupAuthEnvironment` | 10 | Exported Function
+`CflSetupTempUserAccount` | 11 | Exported Function
+`CflSetupTransitionToUserAccount` | 12 | Exported Function
 
 
 ## Signature

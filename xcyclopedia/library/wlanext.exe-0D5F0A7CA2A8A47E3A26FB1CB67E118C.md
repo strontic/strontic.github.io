@@ -38,8 +38,8 @@ C:\Windows\SysWOW64\wlanext.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\wlanext.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/3c928b9aff2e651aa35ea798c29fde398e9f7817e3451ae0f4c97c86630dc92b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3c928b9aff2e651aa35ea798c29fde398e9f7817e3451ae0f4c97c86630dc92b/detection
 
 
 ## Possible Misuse

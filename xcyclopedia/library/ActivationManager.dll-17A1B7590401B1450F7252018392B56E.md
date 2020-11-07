@@ -26,20 +26,20 @@ PE256 | `5228F99AC71BBD4F745AA8A2BE867D5C7959307A035830F41C9878DC44404DFF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPackageExecutionContextForPackageByFullName` | 10 | Exported Function
-`GetPackageExecutionContextForDeviceFamilyName` | 9 | Exported Function
-`GetPackageExecutionContextForAumidAndUser` | 8 | Exported Function
-`PostCreateProcessAppXActivation` | 11 | Exported Function
-`RegisterAppXPackageIfNecessary2` | 13 | Exported Function
-`RegisterAppXPackageIfNecessary` | 14 | Exported Function
-`PrepareAppXActivation` | 12 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `DisableAppXDebuggingForPackage` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
-`GetPackageExecutionContextForAumid` | 7 | Exported Function
-`FreeAppXLaunchContext` | 6 | Exported Function
 `EnableAppXDebuggingForPackage` | 5 | Exported Function
+`FreeAppXLaunchContext` | 6 | Exported Function
+`GetPackageExecutionContextForAumid` | 7 | Exported Function
+`GetPackageExecutionContextForAumidAndUser` | 8 | Exported Function
+`GetPackageExecutionContextForDeviceFamilyName` | 9 | Exported Function
+`GetPackageExecutionContextForPackageByFullName` | 10 | Exported Function
+`PostCreateProcessAppXActivation` | 11 | Exported Function
+`PrepareAppXActivation` | 12 | Exported Function
+`RegisterAppXPackageIfNecessary` | 14 | Exported Function
+`RegisterAppXPackageIfNecessary2` | 13 | Exported Function
 
 
 ## Signature

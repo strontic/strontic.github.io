@@ -101,6 +101,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/29bc6751b20eafaa4e2748370b5358f0c7ae679627df2e01808615d96aa89a32/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\diskperf.exe](diskperf.exe-7FACE5A6C4FA7913A7051BB8C8F9E7ED.md) | 82
 
 
 ## Additional Info*

@@ -26,18 +26,18 @@ PE256 | `3D38C02159813E4520025C1D896BCD51BC3E9E522C3254DFED53FA47C628338E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OneAuthIsAccountAssociated` | 9 | Exported Function
-`OneAuthInitialize` | 8 | Exported Function
-`OneAuthGetProofOfPossessionCookieInfo` | 7 | Exported Function
-`OneAuthUninitialize` | 12 | Exported Function
-`OneAuthSignInSilently` | 11 | Exported Function
-`OneAuthSignInInteractively` | 10 | Exported Function
-`OneAuthAcquireCredentialSilently` | 3 | Exported Function
-`OneAuthAcquireAccessTokenSilently` | 2 | Exported Function
 `OneAuthAcquireAccessTokenInteractively` | 1 | Exported Function
-`OneAuthGetProfileImage` | 6 | Exported Function
-`OneAuthDisassociateAccount` | 5 | Exported Function
+`OneAuthAcquireAccessTokenSilently` | 2 | Exported Function
+`OneAuthAcquireCredentialSilently` | 3 | Exported Function
 `OneAuthAssociateAccount` | 4 | Exported Function
+`OneAuthDisassociateAccount` | 5 | Exported Function
+`OneAuthGetProfileImage` | 6 | Exported Function
+`OneAuthGetProofOfPossessionCookieInfo` | 7 | Exported Function
+`OneAuthInitialize` | 8 | Exported Function
+`OneAuthIsAccountAssociated` | 9 | Exported Function
+`OneAuthSignInInteractively` | 10 | Exported Function
+`OneAuthSignInSilently` | 11 | Exported Function
+`OneAuthUninitialize` | 12 | Exported Function
 
 
 ## Signature

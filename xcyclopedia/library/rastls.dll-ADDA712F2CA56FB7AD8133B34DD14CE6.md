@@ -26,29 +26,29 @@ PE256 | `9B1C6319A8F9B93A2FCE4B08381092F43FFEAE9CDC75EB9BFDBFA83EA900BA95`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RasEapInvokeConfigUI` | 16 | Exported Function
-`RasEapInvokeInteractiveUI` | 17 | Exported Function
-`RasEapGetNextPageGuid` | 15 | Exported Function
-`RasEapGetInfo` | 13 | Exported Function
-`RasEapGetMethodProperties` | 14 | Exported Function
-`RasEapQueryCredentialInputFields` | 18 | Exported Function
-`RasEapSetRetryFlag` | 22 | Exported Function
-`RasEapUpdateServerConfig` | 23 | Exported Function
-`RasEapQueryUserBlobFromCredentialInputFields` | 21 | Exported Function
-`RasEapQueryInteractiveUIInputFields` | 19 | Exported Function
-`RasEapQueryUIBlobFromInteractiveUIInputFields` | 20 | Exported Function
-`RasEapGetIdentityPageGuid` | 12 | Exported Function
-`RasEapCreateConnectionPropertiesXml` | 2 | Exported Function
-`RasEapCreateMethodConfiguration` | 3 | Exported Function
-`RasEapCreateConnectionProperties2` | 1 | Exported Function
 `EapTls_SaveUserCredentials` | 5 | Exported Function
-`RasEapCreateConnectionProperties` | 6 | Exported Function
-`RasEapCreateUserProperties` | 7 | Exported Function
+`RasEapQueryUserBlobFromCredentialInputFields` | 21 | Exported Function
+`RasEapQueryUIBlobFromInteractiveUIInputFields` | 20 | Exported Function
+`RasEapQueryInteractiveUIInputFields` | 19 | Exported Function
+`RasEapQueryCredentialInputFields` | 18 | Exported Function
+`RasEapInvokeInteractiveUI` | 17 | Exported Function
+`RasEapInvokeConfigUI` | 16 | Exported Function
+`RasEapGetNextPageGuid` | 15 | Exported Function
+`RasEapGetMethodProperties` | 14 | Exported Function
+`RasEapGetInfo` | 13 | Exported Function
+`RasEapSetRetryFlag` | 22 | Exported Function
+`RasEapGetIdentityPageGuid` | 12 | Exported Function
 `RasEapGetCredentials` | 10 | Exported Function
-`RasEapGetIdentity` | 11 | Exported Function
 `RasEapGetConfigBlobAndUserBlob` | 9 | Exported Function
-`RasEapCreateUserProperties2` | 4 | Exported Function
 `RasEapFreeMemory` | 8 | Exported Function
+`RasEapCreateUserProperties2` | 4 | Exported Function
+`RasEapCreateUserProperties` | 7 | Exported Function
+`RasEapCreateMethodConfiguration` | 3 | Exported Function
+`RasEapCreateConnectionPropertiesXml` | 2 | Exported Function
+`RasEapCreateConnectionProperties2` | 1 | Exported Function
+`RasEapCreateConnectionProperties` | 6 | Exported Function
+`RasEapGetIdentity` | 11 | Exported Function
+`RasEapUpdateServerConfig` | 23 | Exported Function
 
 
 ## Signature

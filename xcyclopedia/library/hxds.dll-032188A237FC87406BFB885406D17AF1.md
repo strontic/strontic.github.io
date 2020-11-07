@@ -26,14 +26,14 @@ PE256 | `F4879DCDED42F9259A877881370C76B05F41F13F056812F40DE40B157D12AA85`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`int __stdcall VsAssert(wchar_t const *,char const *,char const *,unsigned int,int *)` | 1 | Exported Function
-`HxGetObjectCA` | 6 | Exported Function
-`_VsEnsureDebuggerPresent@0` | 8 | Exported Function
 `_VsAssert@20` | 7 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
+`_VsEnsureDebuggerPresent@0` | 8 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`HxGetObjectCA` | 6 | Exported Function
+`int __stdcall VsAssert(wchar_t const *,char const *,char const *,unsigned int,int *)` | 1 | Exported Function
 
 
 ## Signature

@@ -26,19 +26,19 @@ PE256 | `0D6CE336A37BCC1BFF98CEB1D072E5DC70F01A8355B73D1FE2093300B5FE1727`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HrRenameConnection` | 10 | Exported Function
-`HrLaunchConnectionEx` | 9 | Exported Function
-`HrLaunchConnection` | 8 | Exported Function
-`StartNCW` | 13 | Exported Function
-`NcIsValidConnectionName` | 12 | Exported Function
-`NcFreeNetconProperties` | 11 | Exported Function
-`HrGetIconFromMediaTypeEx` | 7 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
-`HrGetIconFromMediaType` | 6 | Exported Function
-`HrCreateDesktopIcon` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
+`HrCreateDesktopIcon` | 5 | Exported Function
+`HrGetIconFromMediaType` | 6 | Exported Function
+`HrGetIconFromMediaTypeEx` | 7 | Exported Function
+`HrLaunchConnection` | 8 | Exported Function
+`HrLaunchConnectionEx` | 9 | Exported Function
+`HrRenameConnection` | 10 | Exported Function
+`NcFreeNetconProperties` | 11 | Exported Function
+`NcIsValidConnectionName` | 12 | Exported Function
+`StartNCW` | 13 | Exported Function
 
 
 ## Signature

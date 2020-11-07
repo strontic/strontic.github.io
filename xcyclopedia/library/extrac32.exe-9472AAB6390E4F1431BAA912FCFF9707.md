@@ -51,9 +51,6 @@ EXTRACT [/Y] /C source destination
   /Y         Do not prompt before overwriting an existing file.
 ```
 
-### Child Processes:
-mmc.exe
-
 ### Loaded Modules:
 
 Path |
@@ -86,8 +83,8 @@ C:\Windows\SysWOW64\extrac32.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/a91d32973a1097eb1131ff630b0c082406703c48b8f442955dda184c43bce99e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/a91d32973a1097eb1131ff630b0c082406703c48b8f442955dda184c43bce99e/detection
 
 
 ## Possible Misuse

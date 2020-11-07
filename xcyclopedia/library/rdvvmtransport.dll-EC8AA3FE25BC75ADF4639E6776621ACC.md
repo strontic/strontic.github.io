@@ -26,9 +26,9 @@ PE256 | `7309597A8EB2CB05546286CC5453F98AE5CB670A717ECF553F1F0E18C444DD1F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RdvTransport_TerminateInstance` | 3 | Exported Function
-`RdvTransport_GetInstance` | 2 | Exported Function
 `RdvTransport_CreateInstance` | 1 | Exported Function
+`RdvTransport_GetInstance` | 2 | Exported Function
+`RdvTransport_TerminateInstance` | 3 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `2D7971810B2958E4EAB66177F477A68C2C5C794FE736CB5A0EDCE88E2C397101`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NSPCleanup` | 1 | Exported Function
-`NSPStartup` | 4 | Exported Function
 `DllRegisterServer` | 2 | Exported Function
 `DllUnregisterServer` | 3 | Exported Function
+`NSPCleanup` | 1 | Exported Function
+`NSPStartup` | 4 | Exported Function
 
 
 ## Signature

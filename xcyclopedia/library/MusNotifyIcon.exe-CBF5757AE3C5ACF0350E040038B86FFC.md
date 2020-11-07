@@ -80,6 +80,7 @@ File | Score
 -- | --
 [C:\Windows\system32\MusNotificationUx.exe](MusNotificationUx.exe-0B946B21072675DE6B577267C2565D03.md) | 25
 [C:\Windows\system32\MusNotificationUx.exe](MusNotificationUx.exe-207A34AAD28587B6047A12C8085A33C8.md) | 27
+[C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-543E22DE96FD5CD3713D68D7E4FCB7DB.md) | 43
 [C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-CD0A38C09977FFA7E18B9183BA7C0F81.md) | 79
 
 

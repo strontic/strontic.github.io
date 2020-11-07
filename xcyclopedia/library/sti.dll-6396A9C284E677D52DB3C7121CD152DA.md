@@ -26,27 +26,27 @@ PE256 | `19B70172287B466DE0FB97F0F0710391BB41292BA579AFAE23349DB2D60E45CF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BUFFER::QueryPtr` | 9 | Exported Function
-`public: void __cdecl BUFFER::``default constructor closure'(void) __ptr64` | 7 | Exported Function
-`BUFFER_CHAIN_ITEM::QueryUsed` | 11 | Exported Function
-`public: __cdecl BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void) __ptr64` | 6 | Exported Function
-`BUFFER::QuerySize` | 10 | Exported Function
-`StiCreateInstance` | 20 | Exported Function
-`StiCreateInstanceW` | 21 | Exported Function
-`SelectDeviceDialog2` | 19 | Exported Function
-`public: void __cdecl BUFFER_CHAIN_ITEM::``default constructor closure'(void) __ptr64` | 8 | Exported Function
-`BUFFER_CHAIN_ITEM::SetUsed` | 12 | Exported Function
-`BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM` | 3 | Exported Function
-`DllUnregisterServer` | 16 | Exported Function
-`GetProxyDllInfo` | 17 | Exported Function
-`DllRegisterServer` | 15 | Exported Function
 `DllCanUnloadNow` | 13 | Exported Function
-`DllGetClassObject` | 14 | Exported Function
+`SelectDeviceDialog2` | 19 | Exported Function
+`BUFFER_CHAIN_ITEM::SetUsed` | 12 | Exported Function
+`public: void __cdecl BUFFER_CHAIN_ITEM::``default constructor closure'(void) __ptr64` | 8 | Exported Function
+`public: void __cdecl BUFFER::``default constructor closure'(void) __ptr64` | 7 | Exported Function
+`BUFFER::QueryPtr` | 9 | Exported Function
+`BUFFER_CHAIN_ITEM::QueryUsed` | 11 | Exported Function
+`BUFFER::QuerySize` | 10 | Exported Function
+`public: __cdecl BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void) __ptr64` | 6 | Exported Function
+`StiCreateInstance` | 20 | Exported Function
+`BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM` | 3 | Exported Function
 `BUFFER_CHAIN::BUFFER_CHAIN` | 2 | Exported Function
-`public: __cdecl BUFFER_CHAIN::~BUFFER_CHAIN(void) __ptr64` | 5 | Exported Function
 `public: __cdecl BUFFER::~BUFFER(void) __ptr64` | 4 | Exported Function
-`MigrateRegisteredSTIAppsForWIAEvents` | 18 | Exported Function
 `BUFFER::BUFFER` | 1 | Exported Function
+`MigrateRegisteredSTIAppsForWIAEvents` | 18 | Exported Function
+`GetProxyDllInfo` | 17 | Exported Function
+`DllUnregisterServer` | 16 | Exported Function
+`DllRegisterServer` | 15 | Exported Function
+`DllGetClassObject` | 14 | Exported Function
+`public: __cdecl BUFFER_CHAIN::~BUFFER_CHAIN(void) __ptr64` | 5 | Exported Function
+`StiCreateInstanceW` | 21 | Exported Function
 
 
 ## Signature

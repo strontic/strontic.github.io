@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\secinit.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/aa365888ab4e37156f06edf20049831ba7cd9203f6617a9632f1c8f3bcafe15a/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/aa365888ab4e37156f06edf20049831ba7cd9203f6617a9632f1c8f3bcafe15a/detection
 
 ## File Similarity (ssdeep match)
 

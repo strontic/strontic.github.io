@@ -26,27 +26,27 @@ PE256 | `351E4ED11DED84A50149D978B40B54D42B5E50A26796903E830C2F7A0333016C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CMGetInfo` | 13 | Exported Function
-`CMGetNamedProfileInfo` | 21 | Exported Function
-`CMDeleteTransform` | 12 | Exported Function
-`CMCreateTransformExtW` | 10 | Exported Function
-`CMCreateTransformW` | 11 | Exported Function
-`CMTranslateRGBs` | 17 | Exported Function
-`CMTranslateRGBsExt` | 18 | Exported Function
-`CMTranslateRGB` | 16 | Exported Function
-`CMIsProfileValid` | 14 | Exported Function
-`CMTranslateColors` | 15 | Exported Function
-`CMCreateTransformExt` | 9 | Exported Function
-`CMConvertColorNameToIndex` | 19 | Exported Function
-`CMConvertIndexToColorName` | 20 | Exported Function
-`CMCheckRGBs` | 3 | Exported Function
 `CMCheckColors` | 1 | Exported Function
-`CMCheckColorsInGamut` | 2 | Exported Function
+`CMTranslateRGB` | 16 | Exported Function
+`CMTranslateColors` | 15 | Exported Function
+`CMIsProfileValid` | 14 | Exported Function
+`CMGetNamedProfileInfo` | 21 | Exported Function
+`CMGetInfo` | 13 | Exported Function
+`CMDeleteTransform` | 12 | Exported Function
+`CMCreateTransformW` | 11 | Exported Function
+`CMCreateTransformExtW` | 10 | Exported Function
+`CMTranslateRGBs` | 17 | Exported Function
+`CMCreateTransformExt` | 9 | Exported Function
 `CMCreateProfileW` | 7 | Exported Function
-`CMCreateTransform` | 8 | Exported Function
 `CMCreateProfile` | 6 | Exported Function
-`CMCreateDeviceLinkProfile` | 4 | Exported Function
 `CMCreateMultiProfileTransform` | 5 | Exported Function
+`CMCreateDeviceLinkProfile` | 4 | Exported Function
+`CMConvertIndexToColorName` | 20 | Exported Function
+`CMConvertColorNameToIndex` | 19 | Exported Function
+`CMCheckRGBs` | 3 | Exported Function
+`CMCheckColorsInGamut` | 2 | Exported Function
+`CMCreateTransform` | 8 | Exported Function
+`CMTranslateRGBsExt` | 18 | Exported Function
 
 
 ## Signature

@@ -118,8 +118,8 @@ C:\Windows\SysWOW64\eventcreate.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/ab6d407d07d35aff98e3f59f8715b1c2a820b2d76e24e4d8cedc13f00d1aba31/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/ab6d407d07d35aff98e3f59f8715b1c2a820b2d76e24e4d8cedc13f00d1aba31/detection
 
 
 

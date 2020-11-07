@@ -249,8 +249,8 @@ C:\Windows\SysWOW64\iscsicli.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/436072addf870c0ed6b8e21c550cadfaa549264d35a18d4d0e3d3104846ba9e6/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/436072addf870c0ed6b8e21c550cadfaa549264d35a18d4d0e3d3104846ba9e6/detection
 
 
 

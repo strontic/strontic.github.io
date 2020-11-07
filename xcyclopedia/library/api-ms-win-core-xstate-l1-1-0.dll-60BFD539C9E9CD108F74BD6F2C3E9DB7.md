@@ -26,14 +26,14 @@ PE256 | `39B80669AF6DB49772CE33273AD8A39131078A139B6723F1E52667117360257D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RtlLocateExtendedFeature` | 6 | Exported Function
-`RtlInitializeExtendedContext` | 5 | Exported Function
-`RtlSetExtendedFeaturesMask` | 8 | Exported Function
-`RtlLocateLegacyContext` | 7 | Exported Function
-`RtlGetEnabledExtendedFeatures` | 2 | Exported Function
 `RtlCopyExtendedContext` | 1 | Exported Function
-`RtlGetExtendedFeaturesMask` | 4 | Exported Function
+`RtlGetEnabledExtendedFeatures` | 2 | Exported Function
 `RtlGetExtendedContextLength` | 3 | Exported Function
+`RtlGetExtendedFeaturesMask` | 4 | Exported Function
+`RtlInitializeExtendedContext` | 5 | Exported Function
+`RtlLocateExtendedFeature` | 6 | Exported Function
+`RtlLocateLegacyContext` | 7 | Exported Function
+`RtlSetExtendedFeaturesMask` | 8 | Exported Function
 
 
 ## Signature

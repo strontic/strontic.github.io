@@ -26,36 +26,36 @@ PE256 | `ADECA147E0F7F21EC077050A47DC913246B9763167AC4FF888E10A6FB862F92E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSLicenseGetProductLicenseResults` | 21 | Exported Function
-`WSLicenseInstallLicense` | 22 | Exported Function
-`WSLicenseOpen` | 23 | Exported Function
-`WSLicenseGetOAuthServiceTicket` | 20 | Exported Function
-`WSLicenseGetExtendedUserInfo` | 17 | Exported Function
-`WSLicenseGetFeatureLicenseResults` | 18 | Exported Function
-`WSLicenseGetLicensesForProducts` | 19 | Exported Function
-`WSLicenseRefreshLicense` | 24 | Exported Function
+`AcquireDeveloperLicense` | 2 | Exported Function
 `WSNotifyPackageInstalled` | 29 | Exported Function
+`WSNotifyOOBECompletion` | 28 | Exported Function
+`WSLicenseUninstallLicense` | 27 | Exported Function
+`WSLicenseRevokeLicenses` | 26 | Exported Function
+`WSLicenseRetrieveMachineID` | 25 | Exported Function
+`WSLicenseRefreshLicense` | 24 | Exported Function
+`WSLicenseOpen` | 23 | Exported Function
+`WSLicenseInstallLicense` | 22 | Exported Function
+`WSLicenseGetProductLicenseResults` | 21 | Exported Function
+`WSLicenseGetOAuthServiceTicket` | 20 | Exported Function
+`WSLicenseGetLicensesForProducts` | 19 | Exported Function
+`WSLicenseGetFeatureLicenseResults` | 18 | Exported Function
+`WSLicenseGetExtendedUserInfo` | 17 | Exported Function
+`WSLicenseGetDevInstalledApps` | 16 | Exported Function
+`WSLicenseGetAllValidAppCategoryIds` | 15 | Exported Function
+`WSLicenseGetAllUserTokens` | 14 | Exported Function
+`WSLicenseFilterValidAppCategoryIds` | 13 | Exported Function
+`WSLicenseClose` | 12 | Exported Function
+`WSLicenseCleanUpState` | 11 | Exported Function
+`WSGetEvaluatePackageAttempted` | 10 | Exported Function
+`WSEvaluatePackage` | 9 | Exported Function
+`WSCheckForConsumable` | 8 | Exported Function
+`WSCallServer` | 7 | Exported Function
+`RemoveDeveloperLicense` | 6 | Exported Function
+`RefreshBannedAppsList` | 5 | Exported Function
+`GetApplicationURL` | 4 | Exported Function
+`CheckDeveloperLicense` | 3 | Exported Function
 `WSpTLRW` | 1 | Exported Function
 `WSTriggerOOBEFileValidation` | 30 | Exported Function
-`WSNotifyOOBECompletion` | 28 | Exported Function
-`WSLicenseRetrieveMachineID` | 25 | Exported Function
-`WSLicenseRevokeLicenses` | 26 | Exported Function
-`WSLicenseUninstallLicense` | 27 | Exported Function
-`RemoveDeveloperLicense` | 6 | Exported Function
-`WSCallServer` | 7 | Exported Function
-`WSCheckForConsumable` | 8 | Exported Function
-`RefreshBannedAppsList` | 5 | Exported Function
-`AcquireDeveloperLicense` | 2 | Exported Function
-`CheckDeveloperLicense` | 3 | Exported Function
-`GetApplicationURL` | 4 | Exported Function
-`WSEvaluatePackage` | 9 | Exported Function
-`WSLicenseGetAllUserTokens` | 14 | Exported Function
-`WSLicenseGetAllValidAppCategoryIds` | 15 | Exported Function
-`WSLicenseGetDevInstalledApps` | 16 | Exported Function
-`WSLicenseFilterValidAppCategoryIds` | 13 | Exported Function
-`WSGetEvaluatePackageAttempted` | 10 | Exported Function
-`WSLicenseCleanUpState` | 11 | Exported Function
-`WSLicenseClose` | 12 | Exported Function
 
 
 ## Signature

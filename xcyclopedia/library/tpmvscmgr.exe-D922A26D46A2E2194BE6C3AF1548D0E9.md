@@ -148,8 +148,8 @@ C:\Windows\system32\tpmvscmgr.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/4363b665cb1b4b724716d7e287fe770d8c38c76aa78fa0d1cbcd1c9bc1c2b02c/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/4363b665cb1b4b724716d7e287fe770d8c38c76aa78fa0d1cbcd1c9bc1c2b02c/detection
 
 
 

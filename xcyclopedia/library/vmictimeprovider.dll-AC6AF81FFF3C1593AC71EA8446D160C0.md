@@ -26,9 +26,9 @@ PE256 | `DDC24E8253B7307564CC36B128AB0BDA277D9830DDE854BBF7CA61A24F166043`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TimeProvOpen` | 3 | Exported Function
-`TimeProvCommand` | 2 | Exported Function
 `TimeProvClose` | 1 | Exported Function
+`TimeProvCommand` | 2 | Exported Function
+`TimeProvOpen` | 3 | Exported Function
 
 
 ## Signature

@@ -62,6 +62,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-0EA805915C512B7A68601CE5D796E63E.md) | 44
 [C:\WINDOWS\system32\dnscacheugc.exe](dnscacheugc.exe-15551D0CD29028F3B08FB1469F87B427.md) | 36
 [C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-217CD6402D7413486D78340E89A48A64.md) | 38
 [C:\windows\system32\dnscacheugc.exe](dnscacheugc.exe-728F97CD4946C2A6D63A78759A2B5D5C.md) | 27

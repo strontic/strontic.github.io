@@ -26,9 +26,9 @@ PE256 | `B859187EDB54F037F57C52E1F4D6286CC4CB1C6EF7A3AD7E15B582E76B8FFC64`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LoadResourceFromHandle` | 3 | Exported Function
-`LoadResourceFromFile` | 2 | Exported Function
 `LoadResourceFromByteArray` | 1 | Exported Function
+`LoadResourceFromFile` | 2 | Exported Function
+`LoadResourceFromHandle` | 3 | Exported Function
 
 
 ## Signature

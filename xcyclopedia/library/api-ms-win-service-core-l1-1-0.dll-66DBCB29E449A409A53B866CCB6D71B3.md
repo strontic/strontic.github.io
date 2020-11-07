@@ -26,9 +26,9 @@ PE256 | `EFE5B57C8CF8C289520DB05CDB212D8B8861D1730B8C70ADFD344AE22862A08E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`StartServiceCtrlDispatcherW` | 3 | Exported Function
-`SetServiceStatus` | 2 | Exported Function
 `RegisterServiceCtrlHandlerExW` | 1 | Exported Function
+`SetServiceStatus` | 2 | Exported Function
+`StartServiceCtrlDispatcherW` | 3 | Exported Function
 
 
 ## Signature

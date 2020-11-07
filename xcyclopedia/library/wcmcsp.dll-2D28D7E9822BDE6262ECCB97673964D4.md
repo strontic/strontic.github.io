@@ -26,12 +26,12 @@ PE256 | `1DE4200BD8EB880FB986EAA5FD21610071453F912F33E63997DA3D042411D073`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WlanCspInit` | 4 | Exported Function
-`WwanCspDeInit` | 5 | Exported Function
-`WwanCspInit` | 6 | Exported Function
 `EthernetCspDeInit` | 1 | Exported Function
 `EthernetCspInit` | 2 | Exported Function
 `WlanCspDeInit` | 3 | Exported Function
+`WlanCspInit` | 4 | Exported Function
+`WwanCspDeInit` | 5 | Exported Function
+`WwanCspInit` | 6 | Exported Function
 
 
 ## Signature

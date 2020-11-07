@@ -26,14 +26,14 @@ PE256 | `9BCBB9DD596431B352C4258C965DA2307A3D47A8A4B9F6DCE71BB1F9F9436DCF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SedDiscretionaryAclEditor` | 6 | Exported Function
-`FMExtensionProcW` | 4 | Exported Function
-`SedTakeOwnership` | 8 | Exported Function
-`SedSystemAclEditor` | 7 | Exported Function
-`EditAuditInfo` | 1 | Exported Function
 `DllMain` | 5 | Exported Function
-`EditPermissionInfo` | 3 | Exported Function
+`EditAuditInfo` | 1 | Exported Function
 `EditOwnerInfo` | 2 | Exported Function
+`EditPermissionInfo` | 3 | Exported Function
+`FMExtensionProcW` | 4 | Exported Function
+`SedDiscretionaryAclEditor` | 6 | Exported Function
+`SedSystemAclEditor` | 7 | Exported Function
+`SedTakeOwnership` | 8 | Exported Function
 
 
 ## Signature

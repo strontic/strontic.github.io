@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\efsui.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/15d3d82211fe83fee501d2efacd0168301ce73dcb7cc08f1ca7bc2ee94a61fc7/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/15d3d82211fe83fee501d2efacd0168301ce73dcb7cc08f1ca7bc2ee94a61fc7/detection
 
 
 

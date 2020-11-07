@@ -26,28 +26,28 @@ PE256 | `74CDA0E525B6772CD2046088596E6383CD124279DB651311285DEFDE7B5DF5E4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Dhcpv6ReleasePrefix` | 15 | Exported Function
-`Dhcpv6ReleasePrefixEx` | 16 | Exported Function
-`Dhcpv6ReleaseParameters` | 14 | Exported Function
-`Dhcpv6QueryLeaseInfo` | 12 | Exported Function
-`Dhcpv6QueryLeaseInfoArray` | 13 | Exported Function
+`Dhcpv6AcquireParameters` | 1 | Exported Function
+`Dhcpv6RequestPrefix` | 20 | Exported Function
+`Dhcpv6RequestParams` | 19 | Exported Function
+`Dhcpv6RenewPrefixEx` | 18 | Exported Function
 `Dhcpv6RenewPrefix` | 17 | Exported Function
+`Dhcpv6ReleasePrefixEx` | 16 | Exported Function
+`Dhcpv6ReleasePrefix` | 15 | Exported Function
+`Dhcpv6ReleaseParameters` | 14 | Exported Function
+`Dhcpv6QueryLeaseInfoArray` | 13 | Exported Function
+`Dhcpv6QueryLeaseInfo` | 12 | Exported Function
+`Dhcpv6IsEnabled` | 11 | Exported Function
+`Dhcpv6GetUserClasses` | 10 | Exported Function
+`Dhcpv6GetTraceArray` | 9 | Exported Function
+`Dhcpv6FreeLeaseInfoArray` | 8 | Exported Function
+`Dhcpv6FreeLeaseInfo` | 7 | Exported Function
+`Dhcpv6EnableTracing` | 6 | Exported Function
+`Dhcpv6EnableDhcp` | 5 | Exported Function
+`Dhcpv6CApiInitialize` | 3 | Exported Function
+`Dhcpv6CApiCleanup` | 2 | Exported Function
+`Dhcpv6CancelOperation` | 4 | Exported Function
 `Dhcpv6RequestPrefixEx` | 21 | Exported Function
 `Dhcpv6SetUserClass` | 22 | Exported Function
-`Dhcpv6RequestPrefix` | 20 | Exported Function
-`Dhcpv6RenewPrefixEx` | 18 | Exported Function
-`Dhcpv6RequestParams` | 19 | Exported Function
-`Dhcpv6CApiInitialize` | 3 | Exported Function
-`Dhcpv6EnableDhcp` | 5 | Exported Function
-`Dhcpv6CApiCleanup` | 2 | Exported Function
-`Dhcpv6AcquireParameters` | 1 | Exported Function
-`Dhcpv6CancelOperation` | 4 | Exported Function
-`Dhcpv6EnableTracing` | 6 | Exported Function
-`Dhcpv6GetUserClasses` | 10 | Exported Function
-`Dhcpv6IsEnabled` | 11 | Exported Function
-`Dhcpv6GetTraceArray` | 9 | Exported Function
-`Dhcpv6FreeLeaseInfo` | 7 | Exported Function
-`Dhcpv6FreeLeaseInfoArray` | 8 | Exported Function
 
 
 ## Signature

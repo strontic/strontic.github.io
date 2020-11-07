@@ -26,29 +26,29 @@ PE256 | `1480FFAAE904C8F1A04C8CFECD0D7B5C37D7551C68C159A4CB10DD4A9C4B203C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DevicePropertiesA` | 7 | Exported Function
-`DevicePropertiesExA` | 21 | Exported Function
-`DeviceProperties_RunDLLW` | 6 | Exported Function
-`DeviceProblenWizard_RunDLLW` | 24 | Exported Function
-`DeviceProperties_RunDLLA` | 5 | Exported Function
-`DevicePropertiesExW` | 22 | Exported Function
-`DllRegisterServer` | 26 | Exported Function
-`DllUnregisterServer` | 27 | Exported Function
-`DllGetClassObject` | 16 | Exported Function
-`DevicePropertiesW` | 8 | Exported Function
-`DllCanUnloadNow` | 15 | Exported Function
-`DeviceProblenWizard_RunDLLA` | 23 | Exported Function
-`DeviceCreateHardwarePageCustom` | 25 | Exported Function
-`DeviceCreateHardwarePageEx` | 20 | Exported Function
-`DeviceCreateHardwarePage` | 19 | Exported Function
 `DeviceAdvancedPropertiesA` | 17 | Exported Function
-`DeviceAdvancedPropertiesW` | 18 | Exported Function
-`DeviceManager_ExecuteA` | 9 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DevicePropertiesW` | 8 | Exported Function
+`DevicePropertiesExW` | 22 | Exported Function
+`DevicePropertiesExA` | 21 | Exported Function
+`DevicePropertiesA` | 7 | Exported Function
+`DeviceProperties_RunDLLW` | 6 | Exported Function
+`DeviceProperties_RunDLLA` | 5 | Exported Function
+`DeviceProblenWizard_RunDLLW` | 24 | Exported Function
+`DllRegisterServer` | 26 | Exported Function
+`DeviceProblenWizard_RunDLLA` | 23 | Exported Function
 `DeviceProblemWizardA` | 13 | Exported Function
-`DeviceProblemWizardW` | 14 | Exported Function
 `DeviceProblemTextW` | 12 | Exported Function
-`DeviceManager_ExecuteW` | 10 | Exported Function
 `DeviceProblemTextA` | 11 | Exported Function
+`DeviceManager_ExecuteW` | 10 | Exported Function
+`DeviceManager_ExecuteA` | 9 | Exported Function
+`DeviceCreateHardwarePageEx` | 20 | Exported Function
+`DeviceCreateHardwarePageCustom` | 25 | Exported Function
+`DeviceCreateHardwarePage` | 19 | Exported Function
+`DeviceAdvancedPropertiesW` | 18 | Exported Function
+`DeviceProblemWizardW` | 14 | Exported Function
+`DllUnregisterServer` | 27 | Exported Function
 
 
 ## Signature

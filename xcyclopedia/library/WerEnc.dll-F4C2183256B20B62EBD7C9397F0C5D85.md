@@ -26,8 +26,8 @@ PE256 | `4FAA033671CDEDD64569FA12CB87A613CBB859DE4AAE16183319E0994029222C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EncryptDumpStream` | 2 | Exported Function
 `EncryptDumpFile` | 1 | Exported Function
+`EncryptDumpStream` | 2 | Exported Function
 
 
 ## Signature
@@ -67,6 +67,8 @@ File | Score
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 40
 [C:\Windows\system32\WerEnc.dll](WerEnc.dll-57896D83DAD20250B3878747AB6115F6.md) | 41
 [C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe](UndockedDevKit.exe-C1FD0D396683E3F59646E4CEC2A55A85.md) | 30
+[C:\Windows\SysWOW64\backgroundTaskHost.exe](backgroundTaskHost.exe-F290D12F0351B56708B3DF1EC26CB45B.md) | 33
+[C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-6F3C9485F8F97AC04C8E43EF4463A68C.md) | 35
 
 
 

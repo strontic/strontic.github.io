@@ -26,8 +26,8 @@ PE256 | `A9B25F6CF9707B035BF70AB5A1BA234418F1B44409243A1C33C1B147FEB7564A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSettingForUser` | 2 | Exported Function
 `GetSetting` | 1 | Exported Function
+`GetSettingForUser` | 2 | Exported Function
 
 
 ## Signature

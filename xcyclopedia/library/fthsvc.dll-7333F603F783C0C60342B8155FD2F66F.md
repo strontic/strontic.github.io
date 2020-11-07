@@ -26,11 +26,11 @@ PE256 | `C977B7E10285A617F7B8D6C5182704AD68BB08B305048DF6AE5FFB272A45ACC3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WdiGetDiagnosticModuleInterfaceVersion` | 4 | Exported Function
-`WdiHandleInstance` | 5 | Exported Function
-`WdiDiagnosticModuleMain` | 3 | Exported Function
 `FthSysprepSpecialize` | 1 | Exported Function
 `FthSysprepSpecializeOffline` | 2 | Exported Function
+`WdiDiagnosticModuleMain` | 3 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 4 | Exported Function
+`WdiHandleInstance` | 5 | Exported Function
 
 
 ## Signature

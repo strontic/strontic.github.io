@@ -26,15 +26,15 @@ PE256 | `2E4D8F92BCFFE064E1BFCF75C35366232A932EAAF7D6B27F92D0ED85E4A05803`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WMDRMCreateProvider` | 6 | Exported Function
-`MFWMDRMOutputTrustAuthority_CreateInstance` | 5 | Exported Function
-`WMDRMStartup` | 8 | Exported Function
-`WMDRMShutdown` | 7 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
 `_WMDRMCreateProvider` | 9 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`MFWMDRMOutputTrustAuthority_CreateInstance` | 5 | Exported Function
+`WMDRMCreateProvider` | 6 | Exported Function
+`WMDRMShutdown` | 7 | Exported Function
+`WMDRMStartup` | 8 | Exported Function
 
 
 ## Signature

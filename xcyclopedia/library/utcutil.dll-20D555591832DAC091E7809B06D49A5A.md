@@ -26,10 +26,10 @@ PE256 | `C3141934ECE7CAB3935B197AF716889F14A175B3B17FD4733F36C65DA0C73963`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetCommonAttributes` | 3 | Exported Function
-`GetPropertyAlloc` | 4 | Exported Function
 `DiskCleanupEnd` | 1 | Exported Function
 `DiskCleanupStart` | 2 | Exported Function
+`GetCommonAttributes` | 3 | Exported Function
+`GetPropertyAlloc` | 4 | Exported Function
 
 
 ## Signature

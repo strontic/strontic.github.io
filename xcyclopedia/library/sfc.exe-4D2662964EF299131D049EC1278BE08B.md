@@ -90,8 +90,8 @@ C:\Windows\SysWOW64\sfc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
-* VirusTotal Link: https://www.virustotal.com/gui/file/167a282de037bcd2192205ec555890f849c4bf305cd284a763060f3332c453c6/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/167a282de037bcd2192205ec555890f849c4bf305cd284a763060f3332c453c6/detection
 
 
 ## Possible Misuse

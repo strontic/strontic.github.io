@@ -26,10 +26,10 @@ PE256 | `A736DD067CF180CA8BCEF6C8AF6495F46D465B967CBD0209998034EB01972265`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WHvEmulatorTryIoEmulation` | 3 | Exported Function
-`WHvEmulatorTryMmioEmulation` | 4 | Exported Function
 `WHvEmulatorCreateEmulator` | 1 | Exported Function
 `WHvEmulatorDestroyEmulator` | 2 | Exported Function
+`WHvEmulatorTryIoEmulation` | 3 | Exported Function
+`WHvEmulatorTryMmioEmulation` | 4 | Exported Function
 
 
 ## Signature

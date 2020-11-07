@@ -24,9 +24,6 @@ PE256 | `29358F46CFF2041196B9F00C5E4523D7DE7CAAB77A4029A736F12202A49B5846`
 
 ## Runtime Data
 
-### Child Processes:
-BingWallpaperApp.exe
-
 ### Loaded Modules:
 
 Path |
@@ -34,12 +31,15 @@ Path |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy\AssignedAccessLockApp.exe |
 
 
@@ -64,8 +64,8 @@ C:\Windows\SystemApps\Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy\Assi
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/9f3ead3fc6ede8dc8839428410648fda74a41f1162ca7063fb0a8212e2fde26f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/9f3ead3fc6ede8dc8839428410648fda74a41f1162ca7063fb0a8212e2fde26f/detection
 
 
 

@@ -26,11 +26,11 @@ PE256 | `DF6C43B20921855184CE4283CD9D1F52D65221E7C74BD1A9CB1ABED130D961C6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 2 | Exported Function
-`SvchostPushServiceGlobals` | 3 | Exported Function
-`InitializeService` | 1 | Exported Function
 `DSSCreateSharedFileTokenEx` | 4 | Exported Function
 `DSSFreeToken` | 5 | Exported Function
+`InitializeService` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
 
 
 ## Signature

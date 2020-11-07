@@ -26,19 +26,19 @@ PE256 | `3B38B1C3187EA046FCB505FCA377BE184285768299C222556BE8996C13F8FFD0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 10 | Exported Function
-`DllRegisterServer` | 9 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`SetLalCreator` | 13 | Exported Function
-`GetItemFromCoreObject` | 12 | Exported Function
-`GetCompilerObject` | 11 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
-`CreateLalInstance` | 4 | Exported Function
-`ConstructRegLocation` | 3 | Exported Function
 `ConstructHiveLocation` | 1 | Exported Function
-`DeleteCompilerObject` | 6 | Exported Function
-`CreateWcmEngineCore` | 5 | Exported Function
+`ConstructRegLocation` | 3 | Exported Function
+`CreateLalInstance` | 4 | Exported Function
 `CreateSettingsEnginePriv` | 2 | Exported Function
+`CreateWcmEngineCore` | 5 | Exported Function
+`DeleteCompilerObject` | 6 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`GetCompilerObject` | 11 | Exported Function
+`GetItemFromCoreObject` | 12 | Exported Function
+`SetLalCreator` | 13 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `5582FEB26FC3053029297521C90A4C3CCFE9715C8FF01A6BC6B85247BCCC2C8C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RegisterChangeNotifications` | 8 | Exported Function
-`public: virtual __cdecl HvsiSettingsProvider::~HvsiSettingsProvider(void) __ptr64` | 2 | Exported Function
-`SetDVCCallbackInformation` | 9 | Exported Function
-`VirtualChannelGetInstance` | 11 | Exported Function
-`UnregisterChangeNotifications` | 10 | Exported Function
-`HvsiSettingsProvider::HvsiSettingsProvider` | 1 | Exported Function
-`CreateSettingsProvider` | 4 | Exported Function
 `ApplySubProviderSettings` | 3 | Exported Function
+`CreateSettingsProvider` | 4 | Exported Function
 `GatherSubProviderSettings` | 5 | Exported Function
-`PrelaunchEdge` | 7 | Exported Function
 `GetSubProviderAttribute` | 6 | Exported Function
+`PrelaunchEdge` | 7 | Exported Function
+`HvsiSettingsProvider::HvsiSettingsProvider` | 1 | Exported Function
+`public: virtual __cdecl HvsiSettingsProvider::~HvsiSettingsProvider(void) __ptr64` | 2 | Exported Function
+`RegisterChangeNotifications` | 8 | Exported Function
+`SetDVCCallbackInformation` | 9 | Exported Function
+`UnregisterChangeNotifications` | 10 | Exported Function
+`VirtualChannelGetInstance` | 11 | Exported Function
 
 
 ## Signature

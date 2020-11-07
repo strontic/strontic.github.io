@@ -26,8 +26,8 @@ PE256 | `4E172091B3BBBD51ED6B0593E93C1C1C3F4CD77A85E3CC273F11E95749493063`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PowerCustomizePlatformPowerSettingsOnline` | 2 | Exported Function
 `PowerCustomizePlatformPowerSettingsOffline` | 1 | Exported Function
+`PowerCustomizePlatformPowerSettingsOnline` | 2 | Exported Function
 
 
 ## Signature

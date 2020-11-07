@@ -26,9 +26,9 @@ PE256 | `E5BEEADEAD8FC225855357012A6F47947E0C6624EB9203237182E49CE2C60A47`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RtlUnwind` | 3 | Exported Function
-`RtlCaptureStackBackTrace` | 2 | Exported Function
 `RtlCaptureContext` | 1 | Exported Function
+`RtlCaptureStackBackTrace` | 2 | Exported Function
+`RtlUnwind` | 3 | Exported Function
 
 
 ## Signature

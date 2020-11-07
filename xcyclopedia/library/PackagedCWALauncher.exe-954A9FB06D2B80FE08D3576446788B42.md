@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\PackagedCWALauncher.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/22401de528f379922a04d7b8abeb5f4e895aa2064adb700b28bfb4496c15002d/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/22401de528f379922a04d7b8abeb5f4e895aa2064adb700b28bfb4496c15002d/detection
 
 
 

@@ -26,9 +26,9 @@ PE256 | `A4FDB5AB242949871E1AAE2C53C1E435450EC0F7B164CBE4E8072A7E5015EFB4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WinJsonSendRequestAsync` | 3 | Exported Function
-`WinJsonSendRequest` | 2 | Exported Function
 `WinJsonCloseHandle` | 1 | Exported Function
+`WinJsonSendRequest` | 2 | Exported Function
+`WinJsonSendRequestAsync` | 3 | Exported Function
 
 
 ## Signature

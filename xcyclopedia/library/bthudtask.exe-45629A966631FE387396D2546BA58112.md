@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\bthudtask.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/51ccc01f8565f17f1e8676ec3b7389d85753a9774b224f59d247bd349744e455/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/51ccc01f8565f17f1e8676ec3b7389d85753a9774b224f59d247bd349744e455/detection
 
 ## File Similarity (ssdeep match)
 

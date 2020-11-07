@@ -155,6 +155,9 @@ help - Alias not found.
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |
@@ -187,8 +190,8 @@ C:\Windows\SysWOW64\wbem\WMIC.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/9578c31e1b58fa75a2b612456ebce324296e53a007e5697995cec5785956afe4/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/9578c31e1b58fa75a2b612456ebce324296e53a007e5697995cec5785956afe4/detection
 
 
 ## Possible Misuse

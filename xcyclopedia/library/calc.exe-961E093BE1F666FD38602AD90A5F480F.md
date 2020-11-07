@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\calc.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/b183bd6414c5123465075d76d2413c999d569492fb543acbc29690b4b745bdf2/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/b183bd6414c5123465075d76d2413c999d569492fb543acbc29690b4b745bdf2/detection
 
 ## File Similarity (ssdeep match)
 

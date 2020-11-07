@@ -26,10 +26,10 @@ PE256 | `651EE3238EEB9DCBDC9BE6B1460A0FBFBCAB65DDCC2076CA711730F9A53A673F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PID_GetFFEffectSettingsFromMemory` | 3 | Exported Function
-`PID_WriteFFEffectSettingsToMemory` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`PID_GetFFEffectSettingsFromMemory` | 3 | Exported Function
+`PID_WriteFFEffectSettingsToMemory` | 4 | Exported Function
 
 
 ## Signature

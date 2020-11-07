@@ -26,11 +26,11 @@ PE256 | `BF2646EEF364A31DB4B4D720E5AA5B64D0F8433AB15C54D69B90B20F9A2C1677`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`XEV::DetectFileType` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`XEV::DetectFileType` | 1 | Exported Function
 
 
 ## Signature

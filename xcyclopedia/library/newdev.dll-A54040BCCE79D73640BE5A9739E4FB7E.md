@@ -26,32 +26,32 @@ PE256 | `FF575022B4323DEE60707E12E35615A83F55858DDC589C1D29D5794D96286058`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallWindowsUpdateDriverEx` | 17 | Exported Function
-`InstallWindowsUpdateDrivers` | 18 | Exported Function
-`pDiDoDeviceInstallAsAdmin` | 24 | Exported Function
-`InstallNewDevice` | 14 | Exported Function
-`InstallSelectedDriver` | 15 | Exported Function
-`InstallWindowsUpdateDriver` | 16 | Exported Function
-`pDiDoNullDriverInstall` | 25 | Exported Function
+`CheckDriverSoftwareDependenciesSatisfied` | 1 | Exported Function
 `SetInternetPolicies` | 21 | Exported Function
+`SetDriverPackageRestorePoint` | 20 | Exported Function
+`QueryWindowsUpdateDriverStatus` | 19 | Exported Function
+`pDiRunFinishInstallOperations` | 26 | Exported Function
+`pDiDoNullDriverInstall` | 25 | Exported Function
+`pDiDoDeviceInstallAsAdmin` | 24 | Exported Function
+`InstallWindowsUpdateDrivers` | 18 | Exported Function
+`InstallWindowsUpdateDriverEx` | 17 | Exported Function
+`InstallWindowsUpdateDriver` | 16 | Exported Function
+`InstallSelectedDriver` | 15 | Exported Function
+`InstallNewDevice` | 14 | Exported Function
+`InstallLegacyDeviceDriver` | 13 | Exported Function
+`GetInternetPolicies` | 12 | Exported Function
+`DiUninstallDriverW` | 11 | Exported Function
+`DiUninstallDriverA` | 10 | Exported Function
+`DiUninstallDevice` | 9 | Exported Function
+`DiShowUpdateDriver` | 8 | Exported Function
+`DiShowUpdateDevice` | 7 | Exported Function
+`DiRollbackDriver` | 6 | Exported Function
+`DiInstallDriverW` | 5 | Exported Function
+`DiInstallDriverA` | 4 | Exported Function
+`DiInstallDevice` | 3 | Exported Function
+`DeviceInternetSettingUiW` | 2 | Exported Function
 `UpdateDriverForPlugAndPlayDevicesA` | 22 | Exported Function
 `UpdateDriverForPlugAndPlayDevicesW` | 23 | Exported Function
-`pDiRunFinishInstallOperations` | 26 | Exported Function
-`QueryWindowsUpdateDriverStatus` | 19 | Exported Function
-`SetDriverPackageRestorePoint` | 20 | Exported Function
-`DiInstallDriverA` | 4 | Exported Function
-`DiInstallDriverW` | 5 | Exported Function
-`DiRollbackDriver` | 6 | Exported Function
-`CheckDriverSoftwareDependenciesSatisfied` | 1 | Exported Function
-`DeviceInternetSettingUiW` | 2 | Exported Function
-`DiInstallDevice` | 3 | Exported Function
-`DiShowUpdateDevice` | 7 | Exported Function
-`DiUninstallDriverW` | 11 | Exported Function
-`GetInternetPolicies` | 12 | Exported Function
-`InstallLegacyDeviceDriver` | 13 | Exported Function
-`DiShowUpdateDriver` | 8 | Exported Function
-`DiUninstallDevice` | 9 | Exported Function
-`DiUninstallDriverA` | 10 | Exported Function
 
 
 ## Signature

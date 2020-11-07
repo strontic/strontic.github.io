@@ -136,8 +136,8 @@ C:\Windows\system32\repair-bde.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
-* VirusTotal Link: https://www.virustotal.com/gui/file/13930144928b4c55ac75120678f3c523b6e6e1730b0e5bc972a15faeae399259/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/13930144928b4c55ac75120678f3c523b6e6e1730b0e5bc972a15faeae399259/detection
 
 ## File Similarity (ssdeep match)
 

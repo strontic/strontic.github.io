@@ -103,8 +103,8 @@ C:\Windows\system32\Register-CimProvider.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -121,8 +121,8 @@ C:\Windows\system32\Register-CimProvider.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/5311c4b92bda7852580c8df50922f8328eb5a238012f10ded7b38dc3b9d00d8e/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/5311c4b92bda7852580c8df50922f8328eb5a238012f10ded7b38dc3b9d00d8e/detection
 
 
 ## Possible Misuse

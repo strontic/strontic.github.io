@@ -151,8 +151,8 @@ C:\Windows\SysWOW64\shutdown.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/dbdc6188128b32e6e3d99cd0b136ff0f0ea6cdfa2d3c748f342c5697e7bf4c58/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/dbdc6188128b32e6e3d99cd0b136ff0f0ea6cdfa2d3c748f342c5697e7bf4c58/detection
 
 
 ## Possible Misuse

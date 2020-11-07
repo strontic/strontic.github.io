@@ -28,30 +28,30 @@ PE256 | `97D806C9ECA1D27BF02D2550497D931B591CFB0A4CD6180FA20F422096E000A5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WBXINFOA` | 12 | Exported Function
-`WBXIsDebugMode` | 8 | Exported Function
-`WBXSETTRACELEVEL` | 16 | Exported Function
-`WBXERRORA` | 14 | Exported Function
-`WBXGETTRACELEVEL` | 17 | Exported Function
-`WBXINFO` | 4 | Exported Function
+`InitWBXTrace` | 20 | Exported Function
 `WBXTRACERAWA` | 10 | Exported Function
+`WBXTRACERAW` | 2 | Exported Function
+`WBXTRACEA` | 9 | Exported Function
+`WBXTRACE` | 1 | Exported Function
+`WBXSETTRACELEVEL` | 16 | Exported Function
+`WBXIsDebugMode` | 8 | Exported Function
+`WBXINFOA` | 12 | Exported Function
+`WBXINFO` | 4 | Exported Function
+`WBXGETTRACELEVEL` | 17 | Exported Function
+`WBXERRORA` | 14 | Exported Function
+`WBXERROR` | 6 | Exported Function
+`WBXDumptoFile` | 7 | Exported Function
+`WBXDumpFileClose` | 15 | Exported Function
+`WBXDEBUGA` | 11 | Exported Function
+`WBXDEBUG` | 3 | Exported Function
+`JM_SDK::JMLogger` | 24 | Exported Function
+`void __cdecl WBXJabberTraceDestroy(void)` | 23 | Exported Function
+`JM_SDK::JMLoggerLevel` | 21 | Exported Function
+`JM_SDK::JMLoggerLevel` | 22 | Exported Function
+`setExternalLoggerHandler` | 18 | Exported Function
+`log2file` | 19 | Exported Function
 `WBXWARN` | 5 | Exported Function
 `WBXWARNA` | 13 | Exported Function
-`WBXTRACE` | 1 | Exported Function
-`WBXTRACEA` | 9 | Exported Function
-`WBXTRACERAW` | 2 | Exported Function
-`JM_SDK::JMLoggerLevel` | 22 | Exported Function
-`JM_SDK::JMLoggerLevel` | 21 | Exported Function
-`void __cdecl WBXJabberTraceDestroy(void)` | 23 | Exported Function
-`InitWBXTrace` | 20 | Exported Function
-`log2file` | 19 | Exported Function
-`setExternalLoggerHandler` | 18 | Exported Function
-`WBXDumpFileClose` | 15 | Exported Function
-`WBXDumptoFile` | 7 | Exported Function
-`WBXERROR` | 6 | Exported Function
-`JM_SDK::JMLogger` | 24 | Exported Function
-`WBXDEBUG` | 3 | Exported Function
-`WBXDEBUGA` | 11 | Exported Function
 
 
 ## Signature

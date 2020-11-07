@@ -215,8 +215,8 @@ C:\Windows\system32\verifiergui.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
-* VirusTotal Link: https://www.virustotal.com/gui/file/19a383a3028816c56ab123962707adda9d3f68091c44f9d9e2f69e6ca935f151/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/19a383a3028816c56ab123962707adda9d3f68091c44f9d9e2f69e6ca935f151/detection
 
 ## File Similarity (ssdeep match)
 

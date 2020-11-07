@@ -24,6 +24,9 @@ PE256 | `05797898F61D34D625B7939AF09EF999E8DAC0B4AC96F939E1BD1FEAC79034D5`
 
 ## Runtime Data
 
+### Child Processes:
+RdpSa.exe
+
 ### Loaded Modules:
 
 Path |
@@ -37,8 +40,8 @@ C:\Windows\system32\RMActivate_ssp.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -55,8 +58,8 @@ C:\Windows\system32\RMActivate_ssp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/04b23c3bb0541d69d6fe30500eb1b22b1e03452b824ce1ce29b7f89eb1c386e0/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/04b23c3bb0541d69d6fe30500eb1b22b1e03452b824ce1ce29b7f89eb1c386e0/detection
 
 
 

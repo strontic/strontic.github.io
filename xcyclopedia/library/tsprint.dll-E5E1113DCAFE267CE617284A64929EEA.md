@@ -26,17 +26,17 @@ PE256 | `CE4B0BC3FE5B540D1DA50777527B4D7C96B9691B9FDA8EE39373BC869370EE9D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrvDocumentPropertySheets` | 264 | Exported Function
-`DrvDevicePropertySheets` | 263 | Exported Function
-`DrvPrinterEvent` | 256 | Exported Function
-`MxdcGetPDEVAdjustment` | 257 | Exported Function
-`DrvSplDeviceCaps` | 254 | Exported Function
-`DrvDeviceCapabilities` | 262 | Exported Function
-`DllCanUnloadNow` | 259 | Exported Function
 `DevQueryPrintEx` | 258 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
 `DllGetClassObject` | 260 | Exported Function
-`DrvConvertDevMode` | 255 | Exported Function
 `DllMain` | 261 | Exported Function
+`DrvConvertDevMode` | 255 | Exported Function
+`DrvDeviceCapabilities` | 262 | Exported Function
+`DrvDevicePropertySheets` | 263 | Exported Function
+`DrvDocumentPropertySheets` | 264 | Exported Function
+`DrvPrinterEvent` | 256 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
+`MxdcGetPDEVAdjustment` | 257 | Exported Function
 
 
 ## Signature

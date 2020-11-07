@@ -75,8 +75,8 @@ C:\Windows\SysWOW64\makecab.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
-* VirusTotal Link: https://www.virustotal.com/gui/file/f3c190724c35d35da5213daeb868dade5556eaea69a9337dedd6402cf4c42e48/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/f3c190724c35d35da5213daeb868dade5556eaea69a9337dedd6402cf4c42e48/detection
 
 
 ## Possible Misuse

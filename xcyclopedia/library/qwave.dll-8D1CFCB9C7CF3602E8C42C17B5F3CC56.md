@@ -26,20 +26,20 @@ PE256 | `AB0325303533221DFF7F0F009405AA0501DFB17B3DF406B7321D0674CBE690F2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`QOSRemoveSocketFromFlow` | 10 | Exported Function
-`QOSQueryFlow` | 9 | Exported Function
-`QOSNotifyFlow` | 8 | Exported Function
-`QOSSetFlow` | 11 | Exported Function
-`ServiceMain` | 14 | Exported Function
-`QOSStopTrackingClient` | 13 | Exported Function
-`QOSStartTrackingClient` | 12 | Exported Function
-`QOSAddSocketToFlow` | 3 | Exported Function
-`QDLHStartDiagnosingPath` | 2 | Exported Function
 `QDLHPathDiagnostics` | 1 | Exported Function
+`QDLHStartDiagnosingPath` | 2 | Exported Function
+`QOSAddSocketToFlow` | 3 | Exported Function
 `QOSCancel` | 4 | Exported Function
-`QOSEnumerateFlows` | 7 | Exported Function
-`QOSCreateHandle` | 6 | Exported Function
 `QOSCloseHandle` | 5 | Exported Function
+`QOSCreateHandle` | 6 | Exported Function
+`QOSEnumerateFlows` | 7 | Exported Function
+`QOSNotifyFlow` | 8 | Exported Function
+`QOSQueryFlow` | 9 | Exported Function
+`QOSRemoveSocketFromFlow` | 10 | Exported Function
+`QOSSetFlow` | 11 | Exported Function
+`QOSStartTrackingClient` | 12 | Exported Function
+`QOSStopTrackingClient` | 13 | Exported Function
+`ServiceMain` | 14 | Exported Function
 
 
 ## Signature

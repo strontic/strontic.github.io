@@ -26,9 +26,9 @@ PE256 | `58EFF9D15467D5B78B2B48391F0CE9B8D148806C056A3E63601459D137BB5248`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RmRpsQueryResourceSetInfo` | 3 | Exported Function
-`RmRpsNotifyApplicationInterruptiveUIChange` | 2 | Exported Function
 `RmRpsInitialize` | 1 | Exported Function
+`RmRpsNotifyApplicationInterruptiveUIChange` | 2 | Exported Function
+`RmRpsQueryResourceSetInfo` | 3 | Exported Function
 
 
 ## Signature

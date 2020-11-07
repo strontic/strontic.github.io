@@ -26,10 +26,10 @@ PE256 | `5A29BDC5799C41C59FFD4E0CB3CD2F26F65E118F2E2CC009C89A41019CBD646E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetActivationFactory` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `CreateDCompositionDirectInkFactoryPartner` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

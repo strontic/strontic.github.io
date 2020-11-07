@@ -26,14 +26,14 @@ PE256 | `37D805283F5ACF6C678EEB94B44401D3513390CE99020212DB1CEFAC83270A90`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FreezeLocalTransactionManagers` | 8 | Exported Function
-`DtcGetTransactionManagerExW` | 11 | Exported Function
-`ThawLocalTransactionManagers` | 9 | Exported Function
-`GetDtcLocaleResourceHandle` | 4 | Exported Function
-`DtcGetTransactionManagerC` | 7 | Exported Function
 `DtcGetTransactionManager` | 5 | Exported Function
-`DtcGetTransactionManagerExA` | 10 | Exported Function
+`DtcGetTransactionManagerC` | 7 | Exported Function
 `DtcGetTransactionManagerEx` | 6 | Exported Function
+`DtcGetTransactionManagerExA` | 10 | Exported Function
+`DtcGetTransactionManagerExW` | 11 | Exported Function
+`FreezeLocalTransactionManagers` | 8 | Exported Function
+`GetDtcLocaleResourceHandle` | 4 | Exported Function
+`ThawLocalTransactionManagers` | 9 | Exported Function
 
 
 ## Signature

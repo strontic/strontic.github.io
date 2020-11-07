@@ -26,13 +26,13 @@ PE256 | `7419540EFD570E93B3269DC5A96BBDD6A264DF6A8CE6BDE9DCA1E1268E242EE6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`PrintNotifyTray_Exit` | 6 | Exported Function
-`PrintNotifyTray_Init` | 7 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `AsyncUILoaderEntryW` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`PrintNotifyTray_Exit` | 6 | Exported Function
+`PrintNotifyTray_Init` | 7 | Exported Function
 
 
 ## Signature

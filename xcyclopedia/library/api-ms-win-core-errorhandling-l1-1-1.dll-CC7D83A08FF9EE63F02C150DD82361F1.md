@@ -26,11 +26,11 @@ PE256 | `C1096578337367CF336AE4C05D794FF8BC47809841CB15DDBF9E8E739D2CDCA6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RemoveVectoredExceptionHandler` | 4 | Exported Function
-`RestoreLastError` | 5 | Exported Function
-`RemoveVectoredContinueHandler` | 3 | Exported Function
 `AddVectoredContinueHandler` | 1 | Exported Function
 `AddVectoredExceptionHandler` | 2 | Exported Function
+`RemoveVectoredContinueHandler` | 3 | Exported Function
+`RemoveVectoredExceptionHandler` | 4 | Exported Function
+`RestoreLastError` | 5 | Exported Function
 
 
 ## Signature

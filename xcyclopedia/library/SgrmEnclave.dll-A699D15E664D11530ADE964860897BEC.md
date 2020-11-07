@@ -26,17 +26,17 @@ PE256 | `140CCE904ADD929F6E2CC07B7A71EC9D88AB6EDB34293AAAD5910744FD9A8906`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EngHostInitialize` | 8 | Exported Function
-`EngHostGetSessionReport` | 7 | Exported Function
-`EngHostNotify` | 9 | Exported Function
-`EngHostShutdown` | 11 | Exported Function
-`EngHostReinitialize` | 10 | Exported Function
-`EngHostGetSessionCertificate` | 6 | Exported Function
-`EngHostCreateAttestationClient` | 2 | Exported Function
 `EngHostAttest` | 1 | Exported Function
+`EngHostCreateAttestationClient` | 2 | Exported Function
 `EngHostDestroyAttestationClient` | 3 | Exported Function
-`EngHostGetRuntimeReport` | 5 | Exported Function
 `EngHostDispatchThread` | 4 | Exported Function
+`EngHostGetRuntimeReport` | 5 | Exported Function
+`EngHostGetSessionCertificate` | 6 | Exported Function
+`EngHostGetSessionReport` | 7 | Exported Function
+`EngHostInitialize` | 8 | Exported Function
+`EngHostNotify` | 9 | Exported Function
+`EngHostReinitialize` | 10 | Exported Function
+`EngHostShutdown` | 11 | Exported Function
 
 
 ## Signature

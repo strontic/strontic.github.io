@@ -26,11 +26,11 @@ PE256 | `C8AA74B86F973B95A84250C836A5ECC70CB50B25A06E40956EFADC1F30EF5A1D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllUnregisterServer` | 5 | Exported Function
-`GetTSAudioEndpointEnumeratorForSession` | 1 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`GetTSAudioEndpointEnumeratorForSession` | 1 | Exported Function
 
 
 ## Signature

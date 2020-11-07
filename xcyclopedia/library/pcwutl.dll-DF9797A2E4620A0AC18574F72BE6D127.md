@@ -26,16 +26,16 @@ PE256 | `C71AA6CC9C1377F8A9396DEADDC0A3BC9667821D6626CF556363AE8389C7F60E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LogPCWDebugEvent` | 8 | Exported Function
-`LogAeEvent` | 7 | Exported Function
-`RetrieveFileAndProgramId` | 9 | Exported Function
-`SendPcwWerReport` | 10 | Exported Function
-`SanitizeFullPath` | 2 | Exported Function
-`GetLayerFromGenome` | 4 | Exported Function
 `GetAppInformationFromCloud` | 3 | Exported Function
+`GetLayerFromGenome` | 4 | Exported Function
 `GetMatchingInfo` | 5 | Exported Function
-`LaunchApplicationW` | 1 | Exported Function
 `GetTempFile` | 6 | Exported Function
+`LaunchApplicationW` | 1 | Exported Function
+`LogAeEvent` | 7 | Exported Function
+`LogPCWDebugEvent` | 8 | Exported Function
+`RetrieveFileAndProgramId` | 9 | Exported Function
+`SanitizeFullPath` | 2 | Exported Function
+`SendPcwWerReport` | 10 | Exported Function
 
 
 ## Signature

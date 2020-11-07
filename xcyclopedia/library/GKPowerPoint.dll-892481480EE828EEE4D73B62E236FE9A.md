@@ -26,11 +26,11 @@ PE256 | `AA8670A70755BD1B4D38577F88856462D6AF961002332DB13A20BAE3117A10D7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FValidatePptStorage` | 4 | Exported Function
-`GkInitHost` | 5 | Exported Function
-`FValidatePptFile` | 3 | Exported Function
 `DwGetErrorType` | 1 | Exported Function
 `FGetErrorCallstack` | 2 | Exported Function
+`FValidatePptFile` | 3 | Exported Function
+`FValidatePptStorage` | 4 | Exported Function
+`GkInitHost` | 5 | Exported Function
 
 
 ## Signature

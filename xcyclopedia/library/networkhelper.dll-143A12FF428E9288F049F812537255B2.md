@@ -26,20 +26,20 @@ PE256 | `5D740E0B75F242BB9DB846D7D5A3F5888E594212BBDF747B660FFA1540B3FDBB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ReportSyncProgress` | 10 | Exported Function
-`ReleasePowerDependencyCoordinatorManager` | 9 | Exported Function
-`ProgressStatus` | 8 | Exported Function
-`SyncPdcReference_WatchdogReport` | 11 | Exported Function
-`SyncWerReportGenerator` | 14 | Exported Function
-`SyncWerReportComponentName` | 13 | Exported Function
-`SyncPdcReference_WatchdogsEnabled` | 12 | Exported Function
-`CreateControlChannelTriggerConnectionManager` | 1 | Exported Function
-`CHttpTransport_CreateInstance` | 3 | Exported Function
 `CheckPdcRenewal` | 4 | Exported Function
+`CHttpTransport_CreateInstance` | 3 | Exported Function
+`CreateControlChannelTriggerConnectionManager` | 1 | Exported Function
 `GetOrCreateNullPowerDependencyCoordinatorManager` | 5 | Exported Function
-`IsNetworkConnectionCostRestricted` | 7 | Exported Function
-`InitializePowerDependencyCoordinatorManager` | 6 | Exported Function
 `GetSerializedAppMetadata` | 2 | Exported Function
+`InitializePowerDependencyCoordinatorManager` | 6 | Exported Function
+`IsNetworkConnectionCostRestricted` | 7 | Exported Function
+`ProgressStatus` | 8 | Exported Function
+`ReleasePowerDependencyCoordinatorManager` | 9 | Exported Function
+`ReportSyncProgress` | 10 | Exported Function
+`SyncPdcReference_WatchdogReport` | 11 | Exported Function
+`SyncPdcReference_WatchdogsEnabled` | 12 | Exported Function
+`SyncWerReportComponentName` | 13 | Exported Function
+`SyncWerReportGenerator` | 14 | Exported Function
 
 
 ## Signature

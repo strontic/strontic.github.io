@@ -26,10 +26,10 @@ PE256 | `C6F54DF109D8C1942A1E0994575AFB5BFCFBB61CFB27D7247D411FA285A846DB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 3 | Exported Function
-`ResolveConnectedSharePlatformToken` | 4 | Exported Function
 `DllCanUnloadNow` | 1 | Exported Function
 `DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`ResolveConnectedSharePlatformToken` | 4 | Exported Function
 
 
 ## Signature

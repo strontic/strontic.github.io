@@ -26,28 +26,28 @@ PE256 | `B0914D2BA3E94A469CF3B25C583D5E654ACA1700BF9C56B497FB7CCFD0E7A3CD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetTickCount64` | 14 | Exported Function
-`GetVersion` | 16 | Exported Function
-`GetTickCount` | 15 | Exported Function
-`GetSystemWindowsDirectoryA` | 12 | Exported Function
-`GetSystemWindowsDirectoryW` | 13 | Exported Function
+`GetComputerNameExA` | 1 | Exported Function
+`GetWindowsDirectoryW` | 20 | Exported Function
+`GetWindowsDirectoryA` | 19 | Exported Function
+`GetVersionExW` | 18 | Exported Function
 `GetVersionExA` | 17 | Exported Function
+`GetVersion` | 16 | Exported Function
+`GetTickCount64` | 14 | Exported Function
+`GetTickCount` | 15 | Exported Function
+`GetSystemWindowsDirectoryW` | 13 | Exported Function
+`GetSystemWindowsDirectoryA` | 12 | Exported Function
+`GetSystemTimeAsFileTime` | 11 | Exported Function
+`GetSystemTimeAdjustment` | 10 | Exported Function
+`GetSystemTime` | 9 | Exported Function
+`GetSystemInfo` | 8 | Exported Function
+`GetSystemDirectoryW` | 7 | Exported Function
+`GetSystemDirectoryA` | 6 | Exported Function
+`GetLogicalProcessorInformationEx` | 5 | Exported Function
+`GetLogicalProcessorInformation` | 4 | Exported Function
+`GetLocalTime` | 3 | Exported Function
+`GetComputerNameExW` | 2 | Exported Function
 `GlobalMemoryStatusEx` | 21 | Exported Function
 `SetLocalTime` | 22 | Exported Function
-`GetWindowsDirectoryW` | 20 | Exported Function
-`GetVersionExW` | 18 | Exported Function
-`GetWindowsDirectoryA` | 19 | Exported Function
-`GetLogicalProcessorInformation` | 4 | Exported Function
-`GetLogicalProcessorInformationEx` | 5 | Exported Function
-`GetLocalTime` | 3 | Exported Function
-`GetComputerNameExA` | 1 | Exported Function
-`GetComputerNameExW` | 2 | Exported Function
-`GetSystemDirectoryA` | 6 | Exported Function
-`GetSystemTimeAdjustment` | 10 | Exported Function
-`GetSystemTimeAsFileTime` | 11 | Exported Function
-`GetSystemTime` | 9 | Exported Function
-`GetSystemDirectoryW` | 7 | Exported Function
-`GetSystemInfo` | 8 | Exported Function
 
 
 ## Signature

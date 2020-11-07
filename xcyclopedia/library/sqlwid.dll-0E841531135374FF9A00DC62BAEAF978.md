@@ -28,16 +28,16 @@ PE256 | `F0745335430A97E62DE2495F964838FD2989E816DE4B677F9942F3EB02119093`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetProcAddress_` | 2 | Exported Function
-`GetEnvironmentStrings_` | 1 | Exported Function
-`OpenFile_` | 3 | Exported Function
-`wstrlen` | 10 | Exported Function
-`strerror_` | 9 | Exported Function
-`_lcreat_` | 5 | Exported Function
 `_hwrite_` | 4 | Exported Function
+`_lcreat_` | 5 | Exported Function
 `_lopen_` | 6 | Exported Function
-`_ttof` | 8 | Exported Function
 `_lwrite_` | 7 | Exported Function
+`_ttof` | 8 | Exported Function
+`GetEnvironmentStrings_` | 1 | Exported Function
+`GetProcAddress_` | 2 | Exported Function
+`OpenFile_` | 3 | Exported Function
+`strerror_` | 9 | Exported Function
+`wstrlen` | 10 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `E6503A696DB42E3A1DB7BDA6888AB8CD5D57DE6E391145A37FB142F81F77404C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OnInitDialogMain` | 3 | Exported Function
-`CPlApplet` | 1 | Exported Function
 `ClientConfigureAddEdit` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`OnInitDialogMain` | 3 | Exported Function
 
 
 ## Signature

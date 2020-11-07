@@ -22,16 +22,6 @@ IMP | `7B21670FB2AFAC237D5B032D5E6A35FB`
 PESHA1 | `3A737D6D1F828B4708294CE5B42203B1F535A85D`
 PE256 | `4C2E8144B47EE2E884AABE9449583499EEE2EFFD6D4FF921C4F9CC4BAC5E2C32`
 
-## Runtime Data
-
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\WUDFCompanionHost.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -53,8 +43,8 @@ C:\Windows\system32\WUDFCompanionHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/493433767c039a105a6ff53305cf0cf34f85a737d94bafca4e449284675ae34f/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/493433767c039a105a6ff53305cf0cf34f85a737d94bafca4e449284675ae34f/detection
 
 
 

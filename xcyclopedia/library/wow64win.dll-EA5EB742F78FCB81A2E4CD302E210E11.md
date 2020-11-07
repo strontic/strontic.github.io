@@ -26,8 +26,8 @@ PE256 | `9C8F1DAFDD1A7780441A1B4577E2A26251AD9EDC294B7CEB92C9D315D44BF388`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`sdwhwin32` | 2 | Exported Function
 `sdwhcon` | 1 | Exported Function
+`sdwhwin32` | 2 | Exported Function
 
 
 ## Signature

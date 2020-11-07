@@ -82,6 +82,7 @@ C:\Windows\SysWOW64\sxstrace.exe |
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\sxstrace.exe](sxstrace.exe-AC788961CF9E2CB97D0089A21EB5173E.md) | 96
 [C:\Windows\SysWOW64\sxstrace.exe](sxstrace.exe-E7EFC0672E4211B56DD13E9BD698E96E.md) | 96
 
 

@@ -26,22 +26,22 @@ PE256 | `5CCB1F1C2931F04E0E3E4A074337F5E05EAB0CB685BB77A9F8451CD76DE63D5B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`strdup` | 11 | Exported Function
-`stricmp` | 12 | Exported Function
-`putenv` | 9 | Exported Function
-`read` | 10 | Exported Function
-`unlink` | 15 | Exported Function
-`write` | 16 | Exported Function
-`strnicmp` | 13 | Exported Function
-`tempnam` | 14 | Exported Function
-`fileno` | 4 | Exported Function
-`getcwd` | 5 | Exported Function
 `close` | 2 | Exported Function
 `fdopen` | 3 | Exported Function
-`open` | 8 | Exported Function
-`IFactory::Instance` | 1 | Exported Function
+`fileno` | 4 | Exported Function
+`getcwd` | 5 | Exported Function
 `getpid` | 6 | Exported Function
 `isatty` | 7 | Exported Function
+`open` | 8 | Exported Function
+`IFactory::Instance` | 1 | Exported Function
+`putenv` | 9 | Exported Function
+`read` | 10 | Exported Function
+`strdup` | 11 | Exported Function
+`stricmp` | 12 | Exported Function
+`strnicmp` | 13 | Exported Function
+`tempnam` | 14 | Exported Function
+`unlink` | 15 | Exported Function
+`write` | 16 | Exported Function
 
 
 ## Signature

@@ -23,15 +23,6 @@ PE256 | `C4DAE41D62368F78EE1FB41DFF189BEF6189FA376B75695B9A8F8DFDD5F58CE0`
 
 ## Runtime Data
 
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\xCyclopedia | File
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -40,8 +31,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\ScreenClippingHost.exe |
 
 
@@ -66,8 +55,8 @@ C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\S
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/4bb0dd05be05d654b4672bb12ed2ec187ee9bdb124606e2431b919c97937ee8b/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/4bb0dd05be05d654b4672bb12ed2ec187ee9bdb124606e2431b919c97937ee8b/detection
 
 ## File Similarity (ssdeep match)
 

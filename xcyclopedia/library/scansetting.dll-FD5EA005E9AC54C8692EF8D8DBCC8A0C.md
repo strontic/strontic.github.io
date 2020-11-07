@@ -26,12 +26,12 @@ PE256 | `CF8096FF124847A3F2EF370B5C5B96CF075934AAA88D3AF998E7130F0FA5499A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetImageDialog` | 2 | Exported Function
-`ProfilesDialog` | 3 | Exported Function
-`ProgDlgTakeFgIfShowing` | 4 | Exported Function
 `DllCanUnloadNow` | 5 | Exported Function
 `DllMain` | 6 | Exported Function
 `GetDefaultProfileScan` | 1 | Exported Function
+`GetImageDialog` | 2 | Exported Function
+`ProfilesDialog` | 3 | Exported Function
+`ProgDlgTakeFgIfShowing` | 4 | Exported Function
 
 
 ## Signature

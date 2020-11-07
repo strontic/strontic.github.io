@@ -55,8 +55,8 @@ C:\Windows\system32\ofdeploy.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/c82577866c274eaf4bc5b4876f0140abe0e47a82dc49e9342416440497f0a045/detection/
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/c82577866c274eaf4bc5b4876f0140abe0e47a82dc49e9342416440497f0a045/detection
 
 ## File Similarity (ssdeep match)
 

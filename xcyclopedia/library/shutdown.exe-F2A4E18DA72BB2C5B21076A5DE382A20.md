@@ -150,8 +150,8 @@ C:\Windows\system32\shutdown.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/d4e68cc9cb1965d70134c68bd1a090e0afae5b8b3d8018c6b6564852ae7bf396/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/d4e68cc9cb1965d70134c68bd1a090e0afae5b8b3d8018c6b6564852ae7bf396/detection
 
 
 ## Possible Misuse

@@ -26,13 +26,13 @@ PE256 | `1D67C0B827FDB528E98BBC99CC33C1E267FBC7B458CF7BFD1650CCF38CE68FC7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`remove_error_table` | 5 | Exported Function
-`reset_com_err_hook` | 7 | Exported Function
-`set_com_err_hook` | 6 | Exported Function
-`error_message` | 4 | Exported Function
 `add_error_table` | 1 | Exported Function
 `com_err` | 2 | Exported Function
 `com_err_va` | 3 | Exported Function
+`error_message` | 4 | Exported Function
+`remove_error_table` | 5 | Exported Function
+`reset_com_err_hook` | 7 | Exported Function
+`set_com_err_hook` | 6 | Exported Function
 
 
 ## Signature

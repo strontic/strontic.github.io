@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\grpconv.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/3b496786568a0a35780b0af76ac486c24fefa867c663dd931a86db6a263e992c/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/3b496786568a0a35780b0af76ac486c24fefa867c663dd931a86db6a263e992c/detection
 
 
 

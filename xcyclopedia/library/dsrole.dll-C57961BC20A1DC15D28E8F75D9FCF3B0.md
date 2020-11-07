@@ -26,8 +26,8 @@ PE256 | `C2EEE5428B22A871DB8571FEC66FBF69B645FF9BEDE05E3716DEDF4B37188F5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DsRoleGetPrimaryDomainInformation` | 2 | Exported Function
 `DsRoleFreeMemory` | 1 | Exported Function
+`DsRoleGetPrimaryDomainInformation` | 2 | Exported Function
 
 
 ## Signature
@@ -360,6 +360,13 @@ File | Score
 [C:\Windows\SysWOW64\wshhyperv.dll](wshhyperv.dll-2057EC04A303B1BA3CFE1189879144D9.md) | 38
 [C:\Windows\SysWOW64\wshunix.dll](wshunix.dll-0E9AA258B21BBB572D1540BBED595D86.md) | 33
 
+## Possible Misuse
+
+*The following table contains possible examples of `dsrole.dll` being misused. While `dsrole.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_excel_xll_addin_suspicious.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_excel_xll_addin_suspicious.yar) | $cs1 = "dsrole.dll" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

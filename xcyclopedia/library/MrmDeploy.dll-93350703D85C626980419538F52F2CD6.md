@@ -26,15 +26,15 @@ PE256 | `A2111F29392E6618F35FA58C415C990C809CE01382C2CE9E9A4DD78D91B64DFA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetOrCreatePriFileForRelatedPackages` | 7 | Exported Function
-`GetOrCreatePriFileForAvailablePackages` | 6 | Exported Function
-`MergeRelatedPriFiles` | 9 | Exported Function
-`GetPriFileForPackageOnly` | 8 | Exported Function
-`GetOrCreatePriFileForApplicablePackages` | 5 | Exported Function
-`GetCanonicalMergedPriFileName` | 2 | Exported Function
 `DllMain` | 1 | Exported Function
-`GetInitInfoByPackageFullName` | 4 | Exported Function
+`GetCanonicalMergedPriFileName` | 2 | Exported Function
 `GetCanonicalMergedPriFileNameForPackages` | 3 | Exported Function
+`GetInitInfoByPackageFullName` | 4 | Exported Function
+`GetOrCreatePriFileForApplicablePackages` | 5 | Exported Function
+`GetOrCreatePriFileForAvailablePackages` | 6 | Exported Function
+`GetOrCreatePriFileForRelatedPackages` | 7 | Exported Function
+`GetPriFileForPackageOnly` | 8 | Exported Function
+`MergeRelatedPriFiles` | 9 | Exported Function
 
 
 ## Signature

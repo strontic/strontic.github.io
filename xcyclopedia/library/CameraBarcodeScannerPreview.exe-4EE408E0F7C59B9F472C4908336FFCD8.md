@@ -24,6 +24,9 @@ PE256 | `F0CC1C5668F1537F401CB2A8A8802322C482A52684FCB7DEB86704F6308D23A6`
 
 ## Runtime Data
 
+### Child Processes:
+CameraBarcodeScannerPreview.exe WerFault.exe
+
 ### Loaded Modules:
 
 Path |
@@ -64,8 +67,8 @@ C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\CameraBarcodeScannerPrevi
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/a7ac17698f7e9d0368a5287965507787a89048db25df84f79f09697bfb876198/detection/
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/a7ac17698f7e9d0368a5287965507787a89048db25df84f79f09697bfb876198/detection
 
 
 

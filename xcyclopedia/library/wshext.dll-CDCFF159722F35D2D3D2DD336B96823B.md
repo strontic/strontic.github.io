@@ -26,16 +26,16 @@ PE256 | `5AF0E551181703A98A2EC6517E2B75607616586A79B02A643C9AA4E267BC524F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsFileSupportedName` | 3 | Exported Function
-`GetSignedDataMsg` | 2 | Exported Function
-`PutSignedDataMsg` | 4 | Exported Function
-`VerifyIndirectData` | 6 | Exported Function
-`RemoveSignedDataMsg` | 5 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
 `CreateIndirectData` | 1 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 `DllGetClassObject` | 8 | Exported Function
-`DllUnregisterServer` | 10 | Exported Function
 `DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`GetSignedDataMsg` | 2 | Exported Function
+`IsFileSupportedName` | 3 | Exported Function
+`PutSignedDataMsg` | 4 | Exported Function
+`RemoveSignedDataMsg` | 5 | Exported Function
+`VerifyIndirectData` | 6 | Exported Function
 
 
 ## Signature

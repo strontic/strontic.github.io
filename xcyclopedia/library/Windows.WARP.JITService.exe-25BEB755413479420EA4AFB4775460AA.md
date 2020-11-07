@@ -59,8 +59,8 @@ C:\Windows\system32\Windows.WARP.JITService.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
-* VirusTotal Link: https://www.virustotal.com/gui/file/0d9b57043ba5ed8ff7955ceb5d590255b03744475347eb1fbd29a9686b98db0e/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/0d9b57043ba5ed8ff7955ceb5d590255b03744475347eb1fbd29a9686b98db0e/detection
 
 
 

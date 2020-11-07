@@ -56,8 +56,8 @@ C:\Windows\SysWOW64\wscadminui.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/88cd7df8a66e4d061bd9cd1faa2b4fe2a56d5d27644c19df8da54d46fe7e5b3a/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/88cd7df8a66e4d061bd9cd1faa2b4fe2a56d5d27644c19df8da54d46fe7e5b3a/detection
 
 ## File Similarity (ssdeep match)
 

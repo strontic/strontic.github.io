@@ -37,8 +37,6 @@ C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -62,8 +60,8 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
-* VirusTotal Link: https://www.virustotal.com/gui/file/59576775d8a06038bd9975903418aebf003f075d82f1f109feaddab8877e3c20/detection/
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/59576775d8a06038bd9975903418aebf003f075d82f1f109feaddab8877e3c20/detection
 
 ## File Similarity (ssdeep match)
 

@@ -26,17 +26,17 @@ PE256 | `731C2A21A37C4B44B65662ADDFF99F1AC86EAD6371640CC272F356E4B59117DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PicRetrieveFileInfoAppx` | 9 | Exported Function
-`PicRetrieveFileInfo` | 8 | Exported Function
-`PicRetrieveFileLastRunTime` | 10 | Exported Function
-`UpdateSoftwareInventoryTC2` | 2 | Exported Function
-`PicUpdateFileLastRunTime` | 11 | Exported Function
-`PicFreeFileInfo` | 7 | Exported Function
-`DllGetActivationFactory` | 4 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 4 | Exported Function
 `GetAppInventoryCore` | 1 | Exported Function
-`PicAmiInitialize` | 6 | Exported Function
 `PicAmiClose` | 5 | Exported Function
+`PicAmiInitialize` | 6 | Exported Function
+`PicFreeFileInfo` | 7 | Exported Function
+`PicRetrieveFileInfo` | 8 | Exported Function
+`PicRetrieveFileInfoAppx` | 9 | Exported Function
+`PicRetrieveFileLastRunTime` | 10 | Exported Function
+`PicUpdateFileLastRunTime` | 11 | Exported Function
+`UpdateSoftwareInventoryTC2` | 2 | Exported Function
 
 
 ## Signature

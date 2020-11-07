@@ -26,22 +26,22 @@ PE256 | `0B429F2512A04061BDD7CE284A1D6A456877810B9C947C9FD5F69E7A5270B09F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HeapSetInformation` | 11 | Exported Function
-`HeapSize` | 12 | Exported Function
-`HeapQueryInformation` | 9 | Exported Function
-`HeapReAlloc` | 10 | Exported Function
-`HeapValidate` | 15 | Exported Function
-`HeapWalk` | 16 | Exported Function
-`HeapSummary` | 13 | Exported Function
-`HeapUnlock` | 14 | Exported Function
-`HeapAlloc` | 3 | Exported Function
-`HeapCompact` | 4 | Exported Function
 `GetProcessHeap` | 1 | Exported Function
 `GetProcessHeaps` | 2 | Exported Function
-`HeapFree` | 7 | Exported Function
-`HeapLock` | 8 | Exported Function
+`HeapAlloc` | 3 | Exported Function
+`HeapCompact` | 4 | Exported Function
 `HeapCreate` | 5 | Exported Function
 `HeapDestroy` | 6 | Exported Function
+`HeapFree` | 7 | Exported Function
+`HeapLock` | 8 | Exported Function
+`HeapQueryInformation` | 9 | Exported Function
+`HeapReAlloc` | 10 | Exported Function
+`HeapSetInformation` | 11 | Exported Function
+`HeapSize` | 12 | Exported Function
+`HeapSummary` | 13 | Exported Function
+`HeapUnlock` | 14 | Exported Function
+`HeapValidate` | 15 | Exported Function
+`HeapWalk` | 16 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `170E11BA724A055782FF4552618AE511E4AE46028D5589EFFE919DDCA10C9E77`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SvchostPushServiceGlobals` | 5 | Exported Function
 `KtmRmServiceMain` | 4 | Exported Function
+`SvchostPushServiceGlobals` | 5 | Exported Function
 
 
 ## Signature

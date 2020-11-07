@@ -26,22 +26,22 @@ PE256 | `BC16B6559BF2D2D4C7C1DF8DD0FA2022891D7338A4726A8D1AB5E1DCB6A584ED`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VpnClientPluginInstall` | 4 | Exported Function
-`VpnClientPluginManifestFind` | 5 | Exported Function
-`VpnClientGetProxyForUrlAndSingleSessionDeviceUser` | 2 | Exported Function
-`VpnClientPluginGetSecurity` | 3 | Exported Function
-`VpnPluginEnumerate` | 8 | Exported Function
-`VpnPluginListFree` | 9 | Exported Function
-`VpnClientPluginUninstall` | 6 | Exported Function
-`VpnClientSetCostedNetworkSettings` | 7 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
-`DllMain` | 13 | Exported Function
 `DllCanUnloadNow` | 10 | Exported Function
 `DllGetActivationFactory` | 11 | Exported Function
-`LaunchStoreForPluginW` | 16 | Exported Function
-`VpnClientGetCostedNetworkSettings` | 1 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllMain` | 13 | Exported Function
 `DllRegisterServer` | 14 | Exported Function
 `DllUnregisterServer` | 15 | Exported Function
+`LaunchStoreForPluginW` | 16 | Exported Function
+`VpnClientGetCostedNetworkSettings` | 1 | Exported Function
+`VpnClientGetProxyForUrlAndSingleSessionDeviceUser` | 2 | Exported Function
+`VpnClientPluginGetSecurity` | 3 | Exported Function
+`VpnClientPluginInstall` | 4 | Exported Function
+`VpnClientPluginManifestFind` | 5 | Exported Function
+`VpnClientPluginUninstall` | 6 | Exported Function
+`VpnClientSetCostedNetworkSettings` | 7 | Exported Function
+`VpnPluginEnumerate` | 8 | Exported Function
+`VpnPluginListFree` | 9 | Exported Function
 
 
 ## Signature

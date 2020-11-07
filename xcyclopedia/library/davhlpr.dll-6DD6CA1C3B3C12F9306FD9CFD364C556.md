@@ -26,19 +26,19 @@ PE256 | `8848AD5C364B5C82E3161A459B1DF0A06E54C453516994B1E82313BF761FB268`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DavRemoveDummyShareFromFileNameEx` | 10 | Exported Function
-`DavRemoveDummyShareFromFileName` | 9 | Exported Function
-`DavParseUncServerName` | 8 | Exported Function
-`DavUrlEncodeNtPath` | 13 | Exported Function
-`DavUrlDecodeUtf8` | 12 | Exported Function
-`DavUrlDecodeToNtPath` | 11 | Exported Function
-`DavGetUNCFromHTTPPath` | 7 | Exported Function
-`DavDeleteConnection` | 3 | Exported Function
-`DavCheckAndConvertHttpUrlToUncName` | 2 | Exported Function
 `DavAddConnection` | 1 | Exported Function
-`DavGetHTTPFromUNCPath` | 6 | Exported Function
-`DavGetExtendedError` | 5 | Exported Function
+`DavCheckAndConvertHttpUrlToUncName` | 2 | Exported Function
+`DavDeleteConnection` | 3 | Exported Function
 `DavFlushFile` | 4 | Exported Function
+`DavGetExtendedError` | 5 | Exported Function
+`DavGetHTTPFromUNCPath` | 6 | Exported Function
+`DavGetUNCFromHTTPPath` | 7 | Exported Function
+`DavParseUncServerName` | 8 | Exported Function
+`DavRemoveDummyShareFromFileName` | 9 | Exported Function
+`DavRemoveDummyShareFromFileNameEx` | 10 | Exported Function
+`DavUrlDecodeToNtPath` | 11 | Exported Function
+`DavUrlDecodeUtf8` | 12 | Exported Function
+`DavUrlEncodeNtPath` | 13 | Exported Function
 
 
 ## Signature
