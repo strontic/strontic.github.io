@@ -21,11 +21,29 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 13. (OPTIONAL) `git remote add origin git@github.com:strontic/strontic.github.io.git`
 14. `git push --force origin master:gh-pages`
 
-#### Helpful Sources:
+#### Helpful Resources:
 - https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
 - https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
 - https://blog.bloomca.me/2017/12/15/how-to-push-folder-to-github-pages.html
 
+### Prerequisites
+
+#### Ruby
+
+If Ruby is not already installed... https://www.ruby-lang.org/en/documentation/installation/
+
+#### Bundler
+
+1. Git Bash: `gem install bundler`
+2. Git Bash (At project root): `bundle install`
+
 #### Git SSH Keys
 
-If SSH keys were not already configured... `ssh-add ~/.ssh/id_rsa`, then `clip < ~/.ssh/id_rsa`. Paste into Github Account (More info: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows)
+1. If SSH keys were not already configured
+2. Generate SSH Keys `ssh-keygen -t ed25519 -C "your_github_email@example.com"`
+3. Ensure `ssh-agent` is running: `eval $(ssh-agent -s)`
+4. From the Git Bash terminal: `ssh-add ~/.ssh/id_ed25519`, then `clip < ~/.ssh/id_ed25519.pub`
+5. Paste into Github Account. [Instructions](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+6. Done. [Additional Resources](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows)
+
+> Note: For legacy systems, generate SSH Keys using `ssh-keygen -t rsa -b 4096 -C "your_github_email@example.com"` and, `ssh-add ~/.ssh/id_rsa`, then `clip < ~/.ssh/id_rsa`
