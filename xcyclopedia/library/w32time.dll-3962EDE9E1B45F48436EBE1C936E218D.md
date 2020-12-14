@@ -26,34 +26,34 @@ PE256 | `165C3817B2D47E85D4D16ED5BE63FDDE09FDB9A18CDA9C70F0D7D482E6E9FCA8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllInstall` | 4 | Exported Function
-`W32TimeVerifyJoinConfig` | 26 | Exported Function
-`W32TimeSyncNow` | 25 | Exported Function
-`W32TimeSetConfig` | 24 | Exported Function
-`W32TimeQueryStatus` | 23 | Exported Function
-`W32TimeQuerySource` | 22 | Exported Function
-`W32TimeQueryNTPProviderStatus` | 20 | Exported Function
-`W32TimeQueryNtpProviderConfiguration` | 21 | Exported Function
 `W32TimeQueryHardwareProviderStatus` | 19 | Exported Function
+`W32TimeQueryNtpProviderConfiguration` | 21 | Exported Function
+`W32TimeQueryNTPProviderStatus` | 20 | Exported Function
 `W32TimeQueryConfiguration` | 18 | Exported Function
-`W32TimeQueryConfig` | 17 | Exported Function
-`W32TimeLog` | 16 | Exported Function
 `W32TimeGetNetlogonServiceBits` | 15 | Exported Function
-`W32TimeDeleteConfig` | 14 | Exported Function
-`W32TimeDcPromo` | 13 | Exported Function
-`W32TimeBufferFree` | 12 | Exported Function
-`TimeProvOpen` | 11 | Exported Function
-`TimeProvCommand` | 10 | Exported Function
-`TimeProvClose` | 9 | Exported Function
-`SvchostPushServiceGlobals` | 8 | Exported Function
-`SvchostEntry_W32Time` | 7 | Exported Function
-`fnW32TmSetServiceStatus` | 3 | Exported Function
-`fnW32TmRegisterServiceCtrlHandlerEx` | 2 | Exported Function
-`fnW32TmI_ScSetServiceBits` | 1 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
+`W32TimeLog` | 16 | Exported Function
+`W32TimeQueryConfig` | 17 | Exported Function
+`W32TimeVerifyJoinConfig` | 26 | Exported Function
 `W32TimeVerifyUnjoinConfig` | 27 | Exported Function
 `W32TmServiceMain` | 28 | Exported Function
+`W32TimeSyncNow` | 25 | Exported Function
+`W32TimeQuerySource` | 22 | Exported Function
+`W32TimeQueryStatus` | 23 | Exported Function
+`W32TimeSetConfig` | 24 | Exported Function
+`fnW32TmRegisterServiceCtrlHandlerEx` | 2 | Exported Function
+`fnW32TmSetServiceStatus` | 3 | Exported Function
+`SvchostEntry_W32Time` | 7 | Exported Function
+`fnW32TmI_ScSetServiceBits` | 1 | Exported Function
+`DllInstall` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`W32TimeBufferFree` | 12 | Exported Function
+`W32TimeDcPromo` | 13 | Exported Function
+`W32TimeDeleteConfig` | 14 | Exported Function
+`TimeProvOpen` | 11 | Exported Function
+`SvchostPushServiceGlobals` | 8 | Exported Function
+`TimeProvClose` | 9 | Exported Function
+`TimeProvCommand` | 10 | Exported Function
 
 
 ## Signature
@@ -83,7 +83,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `w32time.dll` being misused. While `w32time.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `w32time.dll` being misused. While `w32time.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

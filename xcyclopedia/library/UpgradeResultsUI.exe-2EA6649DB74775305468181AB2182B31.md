@@ -29,16 +29,13 @@ PE256 | `F59F27CC9C7F233B24084879C03994EFFC9536095062CC93684621721F4840A6`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |

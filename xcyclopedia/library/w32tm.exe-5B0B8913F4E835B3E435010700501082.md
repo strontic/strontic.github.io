@@ -41,7 +41,7 @@ SSDEEP | `1536:m4mIDYpn6lZdHFA77hLDFpUxYJy5HzDKU00oWZRVP9e9:mbII6tHFA7tLDFOIU00o
 
 ## Possible Misuse
 
-*The following table contains possible examples of `w32tm.exe` being misused. While `w32tm.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `w32tm.exe` being misused. While `w32tm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

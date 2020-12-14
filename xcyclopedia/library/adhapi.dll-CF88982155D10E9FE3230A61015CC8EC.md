@@ -26,13 +26,13 @@ PE256 | `D9C359B2761FA284465DB4DE7804B5BC44AF4F5A56441B8876B62FFBCF0092A6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AdhEngineClose` | 1 | Exported Function
-`AdhEngineOpen` | 2 | Exported Function
-`AdhGetConfig` | 3 | Exported Function
-`AdhGetEvidenceCollectorResult` | 4 | Exported Function
 `AdhStatusEventSubscribe` | 5 | Exported Function
 `AdhStatusEventUnsubscribe` | 6 | Exported Function
 `DllMain` | 7 | Exported Function
+`AdhGetEvidenceCollectorResult` | 4 | Exported Function
+`AdhEngineClose` | 1 | Exported Function
+`AdhEngineOpen` | 2 | Exported Function
+`AdhGetConfig` | 3 | Exported Function
 
 
 ## Signature

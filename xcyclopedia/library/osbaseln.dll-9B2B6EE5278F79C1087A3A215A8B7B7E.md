@@ -26,20 +26,20 @@ PE256 | `9AFF9A39745A045A003F766C21EBFC8C2647C0C38E6333D50FE52BFF34F19D39`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseOsBaseline` | 2 | Exported Function
-`EnumOsBaselineComponentsA` | 3 | Exported Function
-`EnumOsBaselineComponentsW` | 4 | Exported Function
-`EnumOsOutOfDateComponentsA` | 5 | Exported Function
-`EnumOsOutOfDateComponentsW` | 6 | Exported Function
-`GetOsBaselineComponentInfoA` | 7 | Exported Function
-`GetOsBaselineComponentInfoW` | 8 | Exported Function
-`GetOsInstalledComponentInfoA` | 9 | Exported Function
-`GetOsInstalledComponentInfoW` | 10 | Exported Function
 `GetOsLatestBaselineServicePack` | 11 | Exported Function
+`GetOsInstalledComponentInfoW` | 10 | Exported Function
+`GetOsInstalledComponentInfoA` | 9 | Exported Function
 `OpenOsBaseline` | 12 | Exported Function
-`pGetOsBaselineCurrentVersion` | 13 | Exported Function
-`pGetOsCurrentBaselineServicePack` | 14 | Exported Function
 `pOpenOsBaselineByVersion` | 15 | Exported Function
+`pGetOsCurrentBaselineServicePack` | 14 | Exported Function
+`pGetOsBaselineCurrentVersion` | 13 | Exported Function
+`EnumOsBaselineComponentsW` | 4 | Exported Function
+`EnumOsBaselineComponentsA` | 3 | Exported Function
+`CloseOsBaseline` | 2 | Exported Function
+`EnumOsOutOfDateComponentsA` | 5 | Exported Function
+`GetOsBaselineComponentInfoW` | 8 | Exported Function
+`GetOsBaselineComponentInfoA` | 7 | Exported Function
+`EnumOsOutOfDateComponentsW` | 6 | Exported Function
 
 
 ## Signature

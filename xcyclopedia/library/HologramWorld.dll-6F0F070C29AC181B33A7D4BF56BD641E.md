@@ -26,8 +26,8 @@ PE256 | `8F399D7685650D890BF6781C81E26015E81744FA25D8892A8989DC2047DF4A26`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateDebugOverlay` | 1 | Exported Function
 `GetSharedWorldFactory` | 2 | Exported Function
+`CreateDebugOverlay` | 1 | Exported Function
 
 
 ## Signature

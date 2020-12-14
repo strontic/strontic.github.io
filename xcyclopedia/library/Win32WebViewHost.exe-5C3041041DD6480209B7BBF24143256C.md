@@ -25,25 +25,12 @@ PE256 | `4B2ED4404E9BE9663A7BD381028B17DC4D20C135F74284E52925880F863A01AF`
 ## Runtime Data
 
 ### Child Processes:
-Win32WebViewHost.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
+explorer.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\dcomp.dll |
 C:\Windows\SYSTEM32\edgemanager.dll |
@@ -60,8 +47,6 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\uiautomationcore.dll |
-C:\Windows\SYSTEM32\urlmon.dll |
 C:\Windows\System32\user32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\SystemApps\Microsoft.Win32WebViewHost_cw5n1h2txyewy\Win32WebViewHost.exe |

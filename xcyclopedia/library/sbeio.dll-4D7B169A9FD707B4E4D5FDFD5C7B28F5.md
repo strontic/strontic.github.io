@@ -26,8 +26,8 @@ PE256 | `60A38E82BA417287202263FBB6ED0206113B05C72C70EAC330ECC9D7208BCC3B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DVRCreateDVRFileSink` | 1 | Exported Function
 `DVRCreateDVRFileSource` | 2 | Exported Function
+`DVRCreateDVRFileSink` | 1 | Exported Function
 
 
 ## Signature

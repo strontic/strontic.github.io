@@ -75,6 +75,11 @@ C:\Windows\System32\RPCRT4.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/ff419466845f99a7e5aac084150bbd4c0a2a4aaaef2118f8afa41716b8790e88/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\FsIso.exe](FsIso.exe-5906E37F13CC8BD54AE55717A1D9208C.md) | 65
 
 
 

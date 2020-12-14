@@ -26,11 +26,11 @@ PE256 | `721C9E1C60C01B22315BD5AB8036D09DD2FC3ADCE02CB6DD6C71A50A04203946`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`WmiClosePerfData` | 1 | Exported Function
 `WmiCollectPerfData` | 2 | Exported Function
 `WmiOpenPerfData` | 3 | Exported Function
+`WmiClosePerfData` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
 
 
 ## Signature
@@ -60,7 +60,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WmiApRpl.dll` being misused. While `WmiApRpl.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WmiApRpl.dll` being misused. While `WmiApRpl.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

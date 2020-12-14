@@ -29,31 +29,22 @@ PE256 | `C5B2A2EB7922EE0228EDC20F65FEE40657E9B2826C8C929BAB6D22A45613F341`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
-C:\Windows\system32\OLEACC.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\UxTheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WindowsCodecs.dll |
 C:\Windows\system32\WMPDMC.exe |
-C:\Windows\system32\wmpdui.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb\gdiplus.dll |
 
 
 ## Signature
@@ -77,7 +68,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/d7581b8c82faf97b9b2049f031d29aae593aaeb3da805f5af14944c0129622eb/detection
 
 ## File Similarity (ssdeep match)

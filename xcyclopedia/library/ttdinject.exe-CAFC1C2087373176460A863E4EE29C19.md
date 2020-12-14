@@ -41,7 +41,7 @@ SSDEEP | `3072:P7+nuZC491nBweMVewi0FOPU5I2ze3DgOTgZoX+NV597Io0aeg:PB84Rwi0F2UDvO
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ttdinject.exe` being misused. While `ttdinject.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ttdinject.exe` being misused. While `ttdinject.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

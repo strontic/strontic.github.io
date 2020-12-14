@@ -26,26 +26,26 @@ PE256 | `B5F9B40F50B5235F4B0157C1A736B66A18694DA462516A94127849CB78BAD478`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CoCreateActivity` | 8 | Exported Function
-`MTSCreateActivity` | 23 | Exported Function
-`MiniDumpW` | 24 | Exported Function
-`GetTrkSvrObject` | 22 | Exported Function
-`GetObjectContext` | 21 | Exported Function
 `GetMTAThreadPoolMetrics` | 19 | Exported Function
+`GetObjectContext` | 21 | Exported Function
 `GetManagedExtensions` | 20 | Exported Function
-`DllUnregisterServer` | 18 | Exported Function
 `DllRegisterServer` | 17 | Exported Function
-`DllGetClassObject` | 16 | Exported Function
-`DllCanUnloadNow` | 15 | Exported Function
-`DispManGetContext` | 14 | Exported Function
-`CosGetCallContext` | 5 | Exported Function
-`ComSvcsLogError` | 13 | Exported Function
-`ComSvcsExceptionFilter` | 12 | Exported Function
-`CoLoadServices` | 11 | Exported Function
-`CoLeaveServiceDomain` | 10 | Exported Function
-`CoEnterServiceDomain` | 9 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
 `RecycleSurrogate` | 25 | Exported Function
 `SafeRef` | 26 | Exported Function
+`MTSCreateActivity` | 23 | Exported Function
+`GetTrkSvrObject` | 22 | Exported Function
+`MiniDumpW` | 24 | Exported Function
+`CoLoadServices` | 11 | Exported Function
+`ComSvcsExceptionFilter` | 12 | Exported Function
+`CoLeaveServiceDomain` | 10 | Exported Function
+`CoCreateActivity` | 8 | Exported Function
+`CoEnterServiceDomain` | 9 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DispManGetContext` | 14 | Exported Function
+`ComSvcsLogError` | 13 | Exported Function
+`CosGetCallContext` | 5 | Exported Function
 
 
 ## Signature
@@ -75,7 +75,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `comsvcs.dll` being misused. While `comsvcs.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `comsvcs.dll` being misused. While `comsvcs.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,15 +26,15 @@ PE256 | `F6F3AE2C1686E1D98478D0E952EE729ACF93B186C0ADCFFF4DCBCA1BE2A1852D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllMain` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`GetProviderClassID` | 6 | Exported Function
 `MI_Main` | 7 | Exported Function
-`WitnessWmiInitialize` | 8 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
 `WitnessWmiTerminate` | 9 | Exported Function
+`WitnessWmiInitialize` | 8 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

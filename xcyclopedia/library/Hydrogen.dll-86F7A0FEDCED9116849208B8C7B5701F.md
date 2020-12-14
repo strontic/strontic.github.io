@@ -26,9 +26,9 @@ PE256 | `D07D70D0E4536889929A8D64F6FAB38360E06FC33596667199A53005181468D5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature
@@ -58,7 +58,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Hydrogen.dll` being misused. While `Hydrogen.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Hydrogen.dll` being misused. While `Hydrogen.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

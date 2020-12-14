@@ -26,9 +26,9 @@ PE256 | `760A218382F3848C6F168B20B0D73BBF9D289CAB0127AFC86E5BC93B1A1287F9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllInstall` | 1 | Exported Function
-`NtVdm64CreateProcessInternalW` | 2 | Exported Function
 `NtVdm64RaiseInvalid16BitError` | 3 | Exported Function
+`NtVdm64CreateProcessInternalW` | 2 | Exported Function
+`DllInstall` | 1 | Exported Function
 
 
 ## Signature

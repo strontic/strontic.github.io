@@ -26,29 +26,29 @@ PE256 | `B88F3F3E7F8E5771DD083CB04AB9B13E8DEC62B448DBF93EAD7D9557365CD1E3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateComboButtonProxy` | 2613 | Exported Function
-`SetInputFocus` | 2611 | Exported Function
-`SetInputDeviceRepeatParameters` | 2629 | Exported Function
-`SetInputDeviceIndicatorState` | 2610 | Exported Function
-`SetInputButtonEnabledOnIdle` | 2628 | Exported Function
-`DllGetClassObject` | 2627 | Exported Function
 `DllGetActivationFactory` | 2626 | Exported Function
+`DllGetClassObject` | 2627 | Exported Function
 `DllCanUnloadNow` | 2625 | Exported Function
-`CreateViewHitTestRequestClient` | 2624 | Exported Function
 `CreateTouchInputHost` | 2609 | Exported Function
+`CreateViewHitTestRequestClient` | 2624 | Exported Function
+`SetInputButtonEnabledOnIdle` | 2628 | Exported Function
 `TouchInputHostCreate` | 2612 | Exported Function
-`CreatePointerInputHost` | 2608 | Exported Function
-`CreateInputSystemClientConnection` | 2622 | Exported Function
-`CreateInputHostForProcess` | 2621 | Exported Function
-`CreateInputHost` | 2620 | Exported Function
-`CreateInputDeviceWatcher` | 2619 | Exported Function
-`CreateHeatGripServiceClient` | 2618 | Exported Function
-`CreateGenericInputHost` | 2617 | Exported Function
-`CreateDragOperationPrivate` | 2616 | Exported Function
-`CreateCursorManager` | 2615 | Exported Function
-`CreateCursorClient` | 2614 | Exported Function
-`CreateMPCManagerClient` | 2623 | Exported Function
 `ViewHitTestClientCreate` | 2630 | Exported Function
+`SetInputFocus` | 2611 | Exported Function
+`SetInputDeviceIndicatorState` | 2610 | Exported Function
+`SetInputDeviceRepeatParameters` | 2629 | Exported Function
+`CreatePointerInputHost` | 2608 | Exported Function
+`CreateDragOperationPrivate` | 2616 | Exported Function
+`CreateGenericInputHost` | 2617 | Exported Function
+`CreateCursorManager` | 2615 | Exported Function
+`CreateComboButtonProxy` | 2613 | Exported Function
+`CreateCursorClient` | 2614 | Exported Function
+`CreateHeatGripServiceClient` | 2618 | Exported Function
+`CreateInputSystemClientConnection` | 2622 | Exported Function
+`CreateMPCManagerClient` | 2623 | Exported Function
+`CreateInputHostForProcess` | 2621 | Exported Function
+`CreateInputDeviceWatcher` | 2619 | Exported Function
+`CreateInputHost` | 2620 | Exported Function
 
 
 ## Signature

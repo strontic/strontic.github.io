@@ -93,13 +93,13 @@ C:\Windows\SysWOW64\ARP.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/f9c384659e3c66fb0af5f18d19a16ae11910aefd3beafe2170f937fd521e0391/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ARP.EXE` being misused. While `ARP.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ARP.EXE` being misused. While `ARP.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

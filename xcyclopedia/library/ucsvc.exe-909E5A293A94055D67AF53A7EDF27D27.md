@@ -22,6 +22,25 @@ IMP | `0E0328595A346203B68DE1869CCFF8C2`
 PESHA1 | `B5078D3E8674326EAD5331B9F398D0D579EFE7E8`
 PE256 | `9BEDFEAD1AA98C577DD9CD1216ACD923FD8E7DA31E690728074B90FC266645E6`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\ucsvc.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -26,39 +26,39 @@ PE256 | `E0A6AF0A4F610EF2D4944BC1A0D85F4A22E7AEBB9B72E1FDE22A57FC96376EE5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppxBundleSipCreateIndirectData` | 21 | Exported Function
-`P7xSipPutSignedDataMsg` | 13 | Exported Function
-`P7xSipIsFileSupportedName` | 11 | Exported Function
-`P7xSipGetSignedDataMsg` | 12 | Exported Function
-`P7xSipCreateIndirectData` | 15 | Exported Function
-`EappxSipVerifyIndirectData` | 28 | Exported Function
-`EappxSipRemoveSignedDataMsg` | 26 | Exported Function
-`EappxSipPutSignedDataMsg` | 25 | Exported Function
-`EappxSipIsFileSupportedName` | 23 | Exported Function
 `EappxSipGetSignedDataMsg` | 24 | Exported Function
 `EappxSipCreateIndirectData` | 27 | Exported Function
-`EappxBundleSipVerifyIndirectData` | 34 | Exported Function
-`EappxBundleSipRemoveSignedDataMsg` | 32 | Exported Function
+`EappxSipPutSignedDataMsg` | 25 | Exported Function
+`EappxSipIsFileSupportedName` | 23 | Exported Function
 `EappxBundleSipPutSignedDataMsg` | 31 | Exported Function
 `EappxBundleSipIsFileSupportedName` | 29 | Exported Function
+`EappxBundleSipVerifyIndirectData` | 34 | Exported Function
+`EappxBundleSipRemoveSignedDataMsg` | 32 | Exported Function
+`P7xSipPutSignedDataMsg` | 13 | Exported Function
+`P7xSipIsFileSupportedName` | 11 | Exported Function
+`P7xSipVerifyIndirectData` | 16 | Exported Function
 `P7xSipRemoveSignedDataMsg` | 14 | Exported Function
+`EappxSipVerifyIndirectData` | 28 | Exported Function
+`EappxSipRemoveSignedDataMsg` | 26 | Exported Function
+`P7xSipGetSignedDataMsg` | 12 | Exported Function
+`P7xSipCreateIndirectData` | 15 | Exported Function
 `EappxBundleSipGetSignedDataMsg` | 30 | Exported Function
-`DllUnregisterServer` | 37 | Exported Function
-`DllRegisterServer` | 36 | Exported Function
-`DllCanUnloadNow` | 35 | Exported Function
-`AppxSipVerifyIndirectData` | 10 | Exported Function
-`AppxSipRemoveSignedDataMsg` | 8 | Exported Function
-`AppxSipPutSignedDataMsg` | 7 | Exported Function
-`AppxSipIsFileSupportedName` | 5 | Exported Function
-`AppxSipGetSignedDataMsg` | 6 | Exported Function
-`AppxSipCreateIndirectData` | 9 | Exported Function
 `AppxBundleSipVerifyIndirectData` | 22 | Exported Function
 `AppxBundleSipRemoveSignedDataMsg` | 20 | Exported Function
+`AppxSipGetSignedDataMsg` | 6 | Exported Function
+`AppxSipCreateIndirectData` | 9 | Exported Function
+`AppxBundleSipGetSignedDataMsg` | 18 | Exported Function
+`AppxBundleSipCreateIndirectData` | 21 | Exported Function
 `AppxBundleSipPutSignedDataMsg` | 19 | Exported Function
 `AppxBundleSipIsFileSupportedName` | 17 | Exported Function
-`AppxBundleSipGetSignedDataMsg` | 18 | Exported Function
+`DllRegisterServer` | 36 | Exported Function
+`DllCanUnloadNow` | 35 | Exported Function
 `EappxBundleSipCreateIndirectData` | 33 | Exported Function
-`P7xSipVerifyIndirectData` | 16 | Exported Function
+`DllUnregisterServer` | 37 | Exported Function
+`AppxSipPutSignedDataMsg` | 7 | Exported Function
+`AppxSipIsFileSupportedName` | 5 | Exported Function
+`AppxSipVerifyIndirectData` | 10 | Exported Function
+`AppxSipRemoveSignedDataMsg` | 8 | Exported Function
 
 
 ## Signature

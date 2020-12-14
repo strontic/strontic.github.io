@@ -28,23 +28,11 @@ PE256 | `4D2C6A7DDA1533B6995EBFD587717D298BB0E7C5EB5734D7FD97352E074B1C63`
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
 C:\Windows\SYSTEM32\apphelp.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\edgeIso.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MicrosoftEdgeDevTools.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\USERENV.dll |
-C:\Windows\System32\WINTRUST.dll |
 
 
 ## Signature

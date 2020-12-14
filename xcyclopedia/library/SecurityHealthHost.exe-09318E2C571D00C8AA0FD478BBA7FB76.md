@@ -57,6 +57,11 @@ C:\Windows\system32\SecurityHealthHost.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/690da9b46e5f3f4c15344266e88fb2b4760d54e2f33e8fa1d4ad1329e1f7ba6c/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-4DDD148F1F3D0BD86EB26EF8F05499FF.md) | 85
 
 
 

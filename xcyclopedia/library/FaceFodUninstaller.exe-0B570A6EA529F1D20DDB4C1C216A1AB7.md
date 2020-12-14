@@ -41,11 +41,8 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\winbio.dll |
 C:\Windows\system32\WinBioPlugIns\FaceFodUninstaller.exe |
-C:\Windows\SYSTEM32\WINHTTP.dll |
 C:\Windows\SYSTEM32\WTSAPI32.dll |
 
 

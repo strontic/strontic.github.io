@@ -88,7 +88,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/c066aee7aa3aa83f763ebc5541daa266ed6c648fbffcde0d836a13b221bb2adc/detection
 
 ## File Similarity (ssdeep match)
@@ -99,7 +99,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RegAsm.exe` being misused. While `RegAsm.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RegAsm.exe` being misused. While `RegAsm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

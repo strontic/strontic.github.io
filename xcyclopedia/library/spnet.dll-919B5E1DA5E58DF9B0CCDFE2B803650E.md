@@ -26,8 +26,8 @@ PE256 | `381DBE0BBED164C59386049552373FBBF2E9D2D7CFAF5C939D3A0B28800FC484`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Clean_Net` | 1 | Exported Function
 `Sysprep_Generalize_Net` | 2 | Exported Function
+`Sysprep_Clean_Net` | 1 | Exported Function
 
 
 ## Signature

@@ -26,20 +26,20 @@ PE256 | `40991652F21F647C947C4E745FBE06F2A2638B803956662CB119ACA13FFFF61E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RegCopyTreeFromApp` | 1 | Exported Function
-`RegCreateKeyFromApp` | 2 | Exported Function
-`RegDeleteKeyFromApp` | 3 | Exported Function
-`RegDeleteTreeFromApp` | 4 | Exported Function
-`RegDeleteValueFromApp` | 5 | Exported Function
-`RegEnumKeyFromApp` | 6 | Exported Function
-`RegEnumValueFromApp` | 7 | Exported Function
-`RegGetValueFromApp` | 8 | Exported Function
-`RegLoadAppKeyFromApp` | 9 | Exported Function
 `RegOpenKeyFromApp` | 10 | Exported Function
+`RegLoadAppKeyFromApp` | 9 | Exported Function
+`RegGetValueFromApp` | 8 | Exported Function
 `RegQueryInfoKeyFromApp` | 11 | Exported Function
-`RegQueryMultipleValuesFromApp` | 12 | Exported Function
-`RegQueryValueFromApp` | 13 | Exported Function
 `RegSetValueFromApp` | 14 | Exported Function
+`RegQueryValueFromApp` | 13 | Exported Function
+`RegQueryMultipleValuesFromApp` | 12 | Exported Function
+`RegDeleteKeyFromApp` | 3 | Exported Function
+`RegCreateKeyFromApp` | 2 | Exported Function
+`RegCopyTreeFromApp` | 1 | Exported Function
+`RegDeleteTreeFromApp` | 4 | Exported Function
+`RegEnumValueFromApp` | 7 | Exported Function
+`RegEnumKeyFromApp` | 6 | Exported Function
+`RegDeleteValueFromApp` | 5 | Exported Function
 
 
 ## Signature

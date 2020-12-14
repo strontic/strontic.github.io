@@ -26,15 +26,15 @@ PE256 | `CA4E00B609E6C4C6636DAA1EAC92A07B9817818D1B135D859919A2BF7E613A25`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetNetworkCost` | 1 | Exported Function
-`IsEsimPresent` | 2 | Exported Function
-`ResetEsim` | 3 | Exported Function
-`ResetGetEngineInterface` | 4 | Exported Function
-`ResetInitializeEngine` | 5 | Exported Function
-`ResetRebootSystem` | 6 | Exported Function
 `ResetReleaseEngine` | 7 | Exported Function
-`UninstallFinalize` | 8 | Exported Function
+`ResetRebootSystem` | 6 | Exported Function
 `UninstallGetInterface` | 9 | Exported Function
+`UninstallFinalize` | 8 | Exported Function
+`ResetInitializeEngine` | 5 | Exported Function
+`IsEsimPresent` | 2 | Exported Function
+`GetNetworkCost` | 1 | Exported Function
+`ResetGetEngineInterface` | 4 | Exported Function
+`ResetEsim` | 3 | Exported Function
 
 
 ## Signature

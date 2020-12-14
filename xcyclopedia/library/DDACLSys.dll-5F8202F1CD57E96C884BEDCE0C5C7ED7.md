@@ -26,8 +26,8 @@ PE256 | `EFE539FADF5E4F726F927D0CD3E95F7DEC0237DFEA74FB3A6F8F9C6E43BA6E00`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DDACLSys_Offline_Specialize` | 1 | Exported Function
 `DDACLSys_Specialize` | 2 | Exported Function
+`DDACLSys_Offline_Specialize` | 1 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `10EDB28D5CE89228150A778F76033E27137043E3A10594045A1CBF025F135D22`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ActionCenterRunDllW` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`ActionCenterRunDllW` | 1 | Exported Function
 
 
 ## Signature

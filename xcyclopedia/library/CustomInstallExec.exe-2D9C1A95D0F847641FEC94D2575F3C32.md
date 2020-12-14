@@ -70,6 +70,11 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/f7e9e640085aaa1ad10b0e486a85da3753f8c532b9f11202152e27a7a86f089c/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\CustomInstallExec.exe](CustomInstallExec.exe-811DC50EA55C6DB8A04AE00754E16A0A.md) | 91
 
 
 

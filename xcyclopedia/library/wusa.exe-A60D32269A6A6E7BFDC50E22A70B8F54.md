@@ -50,8 +50,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -86,7 +86,7 @@ C:\Windows\SysWOW64\wusa.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/5ae6a1f1135e9423d4cb409967591f776f7729c7b784e76380b4c727b89538aa/detection
 
 ## File Similarity (ssdeep match)
@@ -105,7 +105,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wusa.exe` being misused. While `wusa.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wusa.exe` being misused. While `wusa.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

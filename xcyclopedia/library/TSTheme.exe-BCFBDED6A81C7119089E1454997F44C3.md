@@ -41,7 +41,7 @@ SSDEEP | `768:PMoZrjHpb3tbZ5+2cSi+/pC6S9nJg+jfoghjjoiSi6nfkunHdofjaEObi:PMcrjHlg
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TSTheme.exe` being misused. While `TSTheme.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TSTheme.exe` being misused. While `TSTheme.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

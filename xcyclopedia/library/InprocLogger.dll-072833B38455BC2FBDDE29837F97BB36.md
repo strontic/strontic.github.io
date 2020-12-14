@@ -26,17 +26,17 @@ PE256 | `37DEA6076EC50D30BAA22ACB4731A78C585148CDCA1CC43AB47BD49FDDE52AA9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnableInProcTracingForProvider` | 1 | Exported Function
-`FlushInProcTraceSession` | 2 | Exported Function
-`InitializeInProcLogger` | 3 | Exported Function
-`InitializeInProcTraceFlushTrigger` | 4 | Exported Function
-`InitializeInProcTraceSession` | 5 | Exported Function
-`IsInProcTraceSessionStarted` | 6 | Exported Function
-`ShutdownInProcLogger` | 7 | Exported Function
 `ShutdownInProcTraceFlushTrigger` | 8 | Exported Function
+`ShutdownInProcLogger` | 7 | Exported Function
 `ShutdownInProcTraceSession` | 9 | Exported Function
-`StartInProcTraceSession` | 10 | Exported Function
 `StopInProcTraceSession` | 11 | Exported Function
+`StartInProcTraceSession` | 10 | Exported Function
+`IsInProcTraceSessionStarted` | 6 | Exported Function
+`FlushInProcTraceSession` | 2 | Exported Function
+`EnableInProcTracingForProvider` | 1 | Exported Function
+`InitializeInProcLogger` | 3 | Exported Function
+`InitializeInProcTraceSession` | 5 | Exported Function
+`InitializeInProcTraceFlushTrigger` | 4 | Exported Function
 
 
 ## Signature

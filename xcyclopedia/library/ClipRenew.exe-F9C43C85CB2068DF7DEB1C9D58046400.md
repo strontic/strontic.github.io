@@ -32,6 +32,7 @@ C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\ClipRenew.exe |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
 C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\system32\dsreg.dll |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
@@ -68,7 +69,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/f6e6f9043a1ddb2028d7960e9269e174acbb54242099b0f6160e081dfbf564ce/detection
 
 

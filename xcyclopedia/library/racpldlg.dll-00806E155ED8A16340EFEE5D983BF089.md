@@ -26,11 +26,11 @@ PE256 | `42A5B4AF807291B5D6410CE2C2F76FC86EFC25AA7A9306C4FCCC7965A5C6E3E6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `ShowPasswordDialog` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

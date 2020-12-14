@@ -25,27 +25,27 @@ PE256 | `494D312A0A76D97458A5EC1D079AC71867F612C3C39FC2104B4957427AF7A62B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TextInputMethodFormatter::ConnectToHost` | 3 | Exported Function
-`TextInputMethodFormatter::SetTISTarget` | 19 | Exported Function
-`TextInputMethodFormatter::SetTICTarget` | 18 | Exported Function
-`TextInputMethodFormatter::SetCIVTarget` | 17 | Exported Function
-`TextInputMethodFormatter::SetCIVMTarget` | 16 | Exported Function
 `TextInputMethodFormatter::Initialize` | 14 | Exported Function
+`TextInputMethodFormatter::SetCIVMTarget` | 16 | Exported Function
 `TextInputMethodFormatter::GetTVKRImpl` | 11 | Exported Function
-`TextInputMethodFormatter::GetTVIImpl` | 10 | Exported Function
 `TextInputMethodFormatter::GetTISImpl` | 9 | Exported Function
+`TextInputMethodFormatter::GetTVIImpl` | 10 | Exported Function
 `TextInputMethodFormatter::SetTVKRTarget` | 20 | Exported Function
-`TextInputMethodFormatter::GetTICImpl` | 8 | Exported Function
-`TextInputMethodFormatter::GetCIVMSender` | 5 | Exported Function
-`std::allocator` | 4 | Exported Function
-`TextInputMethodFormatter::GetIsHost` | 7 | Exported Function
-`TextInputMethodFormatter::ProcessQueue` | 15 | Exported Function
-`TextInputMethodFormatter::Initialize` | 13 | Exported Function
-`TextInputMethodFormatter::GetVirtTIS` | 12 | Exported Function
-`public: __cdecl TextInputMethodFormatter::~TextInputMethodFormatter(void) __ptr64` | 2 | Exported Function
-`TextInputMethodFormatter::TextInputMethodFormatter` | 1 | Exported Function
-`TextInputMethodFormatter::GetCIVSender` | 6 | Exported Function
 `TextInputMethodFormatter::Uninitialize` | 21 | Exported Function
+`TextInputMethodFormatter::SetTISTarget` | 19 | Exported Function
+`TextInputMethodFormatter::SetCIVTarget` | 17 | Exported Function
+`TextInputMethodFormatter::SetTICTarget` | 18 | Exported Function
+`TextInputMethodFormatter::GetTICImpl` | 8 | Exported Function
+`TextInputMethodFormatter::GetVirtTIS` | 12 | Exported Function
+`TextInputMethodFormatter::Initialize` | 13 | Exported Function
+`public: __cdecl TextInputMethodFormatter::~TextInputMethodFormatter(void) __ptr64` | 2 | Exported Function
+`TextInputMethodFormatter::ConnectToHost` | 3 | Exported Function
+`TextInputMethodFormatter::TextInputMethodFormatter` | 1 | Exported Function
+`TextInputMethodFormatter::GetCIVMSender` | 5 | Exported Function
+`TextInputMethodFormatter::GetCIVSender` | 6 | Exported Function
+`std::allocator` | 4 | Exported Function
+`TextInputMethodFormatter::ProcessQueue` | 15 | Exported Function
+`TextInputMethodFormatter::GetIsHost` | 7 | Exported Function
 
 
 ## Signature

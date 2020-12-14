@@ -26,9 +26,9 @@ PE256 | `DCFE7A6F00DD0004718C7F648C05738D6A022A77620A91EACA5A7E8F717B6EDB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DwmIndirectCreate` | 1 | Exported Function
-`DwmIndirectOutput` | 2 | Exported Function
 `DwmIndirectSetDebugFlag` | 3 | Exported Function
+`DwmIndirectOutput` | 2 | Exported Function
+`DwmIndirectCreate` | 1 | Exported Function
 
 
 ## Signature

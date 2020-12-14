@@ -26,9 +26,9 @@ PE256 | `5C582DF665505AB44F5ECFD9CD033B080A184B93F4A9DCE3936AB1DD93484C9E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `RouteTheCall` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature
@@ -58,7 +58,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `zipfldr.dll` being misused. While `zipfldr.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `zipfldr.dll` being misused. While `zipfldr.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

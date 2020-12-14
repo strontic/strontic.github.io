@@ -30,26 +30,15 @@ Path |
 -- |
 C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\system32\smartscreen.exe |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WINTRUST.dll |
-C:\Windows\SYSTEM32\wintypes.dll |
 C:\Windows\System32\WS2_32.dll |
 
 
@@ -74,7 +63,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/1e35bb9770ae8202bd6d2e5fda6784a80f67dcf4b547b206a14d82cc17154842/detection
 
 ## File Similarity (ssdeep match)
@@ -85,7 +74,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `smartscreen.exe` being misused. While `smartscreen.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `smartscreen.exe` being misused. While `smartscreen.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

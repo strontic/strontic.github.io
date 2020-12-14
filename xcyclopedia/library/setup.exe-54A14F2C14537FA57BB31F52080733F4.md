@@ -30,6 +30,9 @@ PE256 | `D71B72FDAFADA48378D8F5E63A1B65A6EB16D8AFCDE65433C3B7FD7E25036933`
 
 ## Runtime Data
 
+### Child Processes:
+explorer.exe
+
 ### Window Title:
 Setup Initialization Error
 
@@ -46,8 +49,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -82,7 +85,7 @@ C:\Windows\SysWOW64\InstallShield\setup.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/5d5cc12f985b30a43d79fa8d44eb6cb0caddb47d2d33ec28fbc8416cfb7514db/detection
 
 ## File Similarity (ssdeep match)
@@ -93,12 +96,13 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `setup.exe` being misused. While `setup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `setup.exe` being misused. While `setup.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [pypi-publish.yml](https://github.com/Neo23x0/sigma/blob/master/.github/workflows/pypi-publish.yml) | `uses: actions/setup-python@v1` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sigma-test.yml](https://github.com/Neo23x0/sigma/blob/master/.github/workflows/sigma-test.yml) | `uses: actions/setup-python@v1` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [aws_update_login_profile.yml](https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_update_login_profile.yml) | `description: An attacker with the iam:UpdateLoginProfile permission on other users can change the password used to login to the AWS console on any user that already has a login profile setup. With this alert, it is used to detect anyone is changing password on behalf of other users.` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [cisco_cli_net_sniff.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_net_sniff.yml) | `description: Show when a monitor or a span/rspan is setup or modified` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [cisco_cli_net_sniff.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_net_sniff.yml) | `- Admins may setup new or modify old spans, or use a monitor for troubleshooting` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_security_eventlog_cleared.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_security_eventlog_cleared.yml) | `- Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

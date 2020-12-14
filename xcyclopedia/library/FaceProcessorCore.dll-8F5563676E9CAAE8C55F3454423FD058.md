@@ -25,8 +25,8 @@ PE256 | `0DFE12ABFA750C609F58CF5007D0C1DD780B36320857D1A0B1051597D0FDB032`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateFaceCache` | 1 | Exported Function
 `CreateInfraredFaceProcessor` | 2 | Exported Function
+`CreateFaceCache` | 1 | Exported Function
 
 
 ## Signature

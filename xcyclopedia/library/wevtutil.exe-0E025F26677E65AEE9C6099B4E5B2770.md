@@ -122,13 +122,13 @@ C:\Windows\SysWOW64\wevtutil.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/f1f16a423959485a949536e61cc63d55879cd7d58f6fd563e918a719b59f8803/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wevtutil.exe` being misused. While `wevtutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wevtutil.exe` being misused. While `wevtutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

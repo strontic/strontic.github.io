@@ -26,10 +26,10 @@ PE256 | `EFAC5B247BDFBED10EA30FEC2ECEE72A00A7B15959917C61C95EA8690ABB5C4E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateVirtualInputManager` | 1 | Exported Function
-`CreateVirtualTouchPad` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`CreateVirtualInputManager` | 1 | Exported Function
+`CreateVirtualTouchPad` | 2 | Exported Function
 
 
 ## Signature

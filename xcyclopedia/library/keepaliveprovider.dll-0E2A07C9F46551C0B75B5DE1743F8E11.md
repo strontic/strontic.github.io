@@ -26,8 +26,8 @@ PE256 | `409CBAC7188CB45C55C5631F5C4E12570E4E851FDE0EB62330325537CC55255A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KAMSS_DeregisterProvider` | 1 | Exported Function
 `KAMSS_RegisterProvider` | 2 | Exported Function
+`KAMSS_DeregisterProvider` | 1 | Exported Function
 
 
 ## Signature

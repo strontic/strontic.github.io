@@ -26,16 +26,16 @@ PE256 | `690F605BFC2C42DF0DF77A7D70252AA95B37C6B0A5ECD1F07262A31D83C16ED2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppRepComputeImageHash` | 1 | Exported Function
-`AppRepComputeImageHashWithOffset` | 2 | Exported Function
-`AppRepComputeSignatureInfo` | 3 | Exported Function
-`AppRepFreeAttributeLib` | 4 | Exported Function
-`AppRepInitializeAttributeLib` | 5 | Exported Function
-`AppRepParameterCleanup` | 6 | Exported Function
 `AppRepPartialTelemetryCleanup` | 7 | Exported Function
+`AppRepParameterCleanup` | 6 | Exported Function
 `RepGetFileInformation` | 8 | Exported Function
-`RepInformUserAction` | 9 | Exported Function
 `ReputationInfoCleanup` | 10 | Exported Function
+`RepInformUserAction` | 9 | Exported Function
+`AppRepComputeImageHashWithOffset` | 2 | Exported Function
+`AppRepComputeImageHash` | 1 | Exported Function
+`AppRepComputeSignatureInfo` | 3 | Exported Function
+`AppRepInitializeAttributeLib` | 5 | Exported Function
+`AppRepFreeAttributeLib` | 4 | Exported Function
 
 
 ## Signature

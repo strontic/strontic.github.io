@@ -26,9 +26,9 @@ PE256 | `07F4AA8CACA986A75D660DAAF2022733C3C73B97821FFE92005BD84292FE72BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FDResPub_MainHosted` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`FDResPub_MainHosted` | 1 | Exported Function
 
 
 ## Signature

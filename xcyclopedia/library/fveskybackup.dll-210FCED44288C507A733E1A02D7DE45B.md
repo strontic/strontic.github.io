@@ -26,10 +26,10 @@ PE256 | `0609BCF3DDF884050334334BBA4CA2979EEA18A71F1AB4AEDC7C013FFAD929D4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FveBackupRecoveryPasswordToCloudDomain` | 1 | Exported Function
-`FveBackupRecoveryPasswordToSkyDrive` | 2 | Exported Function
 `FveDeleteRecoveryPasswordsFromCloudDomain` | 3 | Exported Function
 `FveGetAllRecoveryPasswordsFromCloudDomain` | 4 | Exported Function
+`FveBackupRecoveryPasswordToCloudDomain` | 1 | Exported Function
+`FveBackupRecoveryPasswordToSkyDrive` | 2 | Exported Function
 
 
 ## Signature

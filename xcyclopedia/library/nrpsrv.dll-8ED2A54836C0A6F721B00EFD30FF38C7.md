@@ -26,8 +26,8 @@ PE256 | `780A14365E6AFAB9089C6FF1F0D826E7B16DEA3FD2301D4A2E6CEDA81231ACCF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NrpStartRpcServer` | 1 | Exported Function
 `NrpStopRpcServer` | 2 | Exported Function
+`NrpStartRpcServer` | 1 | Exported Function
 
 
 ## Signature

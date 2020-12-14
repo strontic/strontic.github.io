@@ -26,35 +26,35 @@ PE256 | `75EF2D0AEF08CFEA516C93FF16FA5EA6DA74D124B2482994A7C337704F2F4ACF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`PIMEShareCreate` | 28 | Exported Function
-`PColorStyleTextFromIMEStyle` | 7 | Exported Function
-`PColorStyleBackFromIMEStyle` | 8 | Exported Function
-`IdWinFromIMEColorStyle` | 21 | Exported Function
-`IdUlIMEStyle` | 13 | Exported Function
-`IdSpecialFromIMEColorStyle` | 20 | Exported Function
-`IdFundamentalFromIMEColorStyle` | 22 | Exported Function
 `GrfStyIMEStyle` | 12 | Exported Function
+`IdFundamentalFromIMEColorStyle` | 22 | Exported Function
+`IdSpecialFromIMEColorStyle` | 20 | Exported Function
 `FWinIMEColorStyle` | 16 | Exported Function
-`FUlIMEStyle` | 11 | Exported Function
-`FSupportSty` | 5 | Exported Function
 `FSpecialWindowIMEColorStyle` | 27 | Exported Function
+`FSupportSty` | 5 | Exported Function
+`FUlIMEStyle` | 11 | Exported Function
+`PIMEShareCreate` | 28 | Exported Function
 `PIMEStyleFromAttr` | 6 | Exported Function
-`FSpecialTextIMEColorStyle` | 26 | Exported Function
-`FSetIMEStyleAttr` | 15 | Exported Function
-`FSetIMEStyle` | 25 | Exported Function
-`FSetIMEColorStyle` | 24 | Exported Function
-`FSaveIMEShareSetting` | 29 | Exported Function
-`FRGBIMEColorStyle` | 18 | Exported Function
-`FRefreshStyle` | 4 | Exported Function
-`FItalicIMEStyle` | 10 | Exported Function
-`FInitIMEShare` | 2 | Exported Function
-`FGetIMEStyleAttr` | 14 | Exported Function
-`FFundamentalIMEColorStyle` | 17 | Exported Function
-`FBoldIMEStyle` | 9 | Exported Function
-`EndIMEShare` | 3 | Exported Function
-`FSpecialIMEColorStyle` | 19 | Exported Function
 `RGBFromIMEColorStyle` | 23 | Exported Function
+`PColorStyleTextFromIMEStyle` | 7 | Exported Function
+`IdUlIMEStyle` | 13 | Exported Function
+`IdWinFromIMEColorStyle` | 21 | Exported Function
+`PColorStyleBackFromIMEStyle` | 8 | Exported Function
+`FSpecialTextIMEColorStyle` | 26 | Exported Function
+`FGetIMEStyleAttr` | 14 | Exported Function
+`FInitIMEShare` | 2 | Exported Function
+`FItalicIMEStyle` | 10 | Exported Function
+`FFundamentalIMEColorStyle` | 17 | Exported Function
+`DllMain` | 1 | Exported Function
+`EndIMEShare` | 3 | Exported Function
+`FBoldIMEStyle` | 9 | Exported Function
+`FSetIMEStyle` | 25 | Exported Function
+`FSetIMEStyleAttr` | 15 | Exported Function
+`FSpecialIMEColorStyle` | 19 | Exported Function
+`FSetIMEColorStyle` | 24 | Exported Function
+`FRefreshStyle` | 4 | Exported Function
+`FRGBIMEColorStyle` | 18 | Exported Function
+`FSaveIMEShareSetting` | 29 | Exported Function
 
 
 ## Signature

@@ -26,16 +26,16 @@ PE256 | `A17A64F89BAC9D0BEE9A4070E59AD552DFFFF876B51E8F0618C9C51BFFE681BF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConnectNamedPipe` | 1 | Exported Function
-`CreateNamedPipeW` | 2 | Exported Function
-`CreatePipe` | 3 | Exported Function
-`DisconnectNamedPipe` | 4 | Exported Function
-`GetNamedPipeClientComputerNameW` | 5 | Exported Function
-`ImpersonateNamedPipeClient` | 6 | Exported Function
 `PeekNamedPipe` | 7 | Exported Function
+`ImpersonateNamedPipeClient` | 6 | Exported Function
 `SetNamedPipeHandleState` | 8 | Exported Function
-`TransactNamedPipe` | 9 | Exported Function
 `WaitNamedPipeW` | 10 | Exported Function
+`TransactNamedPipe` | 9 | Exported Function
+`CreateNamedPipeW` | 2 | Exported Function
+`ConnectNamedPipe` | 1 | Exported Function
+`CreatePipe` | 3 | Exported Function
+`GetNamedPipeClientComputerNameW` | 5 | Exported Function
+`DisconnectNamedPipe` | 4 | Exported Function
 
 
 ## Signature

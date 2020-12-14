@@ -41,7 +41,7 @@ SSDEEP | `384:EeTDxKZiuEbSIs9iN3g1eE8MD3a8XIDXnh8Wik4kTWjPgW2:Lo9EbEETTWkMw`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `tscon.exe` being misused. While `tscon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `tscon.exe` being misused. While `tscon.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

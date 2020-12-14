@@ -26,10 +26,10 @@ PE256 | `7D5678E9D1AB90D639C0B49F41283AE958F70B043ED17D4FDFC809BCE929F76C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateEditBufferTestHook` | 1 | Exported Function
-`CreateEditBufferTestHookClient` | 2 | Exported Function
 `EnableTestHook` | 3 | Exported Function
 `GetTestHookEnabled` | 4 | Exported Function
+`CreateEditBufferTestHook` | 1 | Exported Function
+`CreateEditBufferTestHookClient` | 2 | Exported Function
 
 
 ## Signature

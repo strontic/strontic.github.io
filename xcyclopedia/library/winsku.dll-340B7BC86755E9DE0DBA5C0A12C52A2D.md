@@ -26,8 +26,8 @@ PE256 | `3C4F34E2E5EF84FD5AA00E86809F34C4D365B8B25ED6EC04C23E28AD51594BC9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SkuFreeBuffer` | 1 | Exported Function
 `SkuGetEditionEulaFilePath` | 2 | Exported Function
+`SkuFreeBuffer` | 1 | Exported Function
 
 
 ## Signature

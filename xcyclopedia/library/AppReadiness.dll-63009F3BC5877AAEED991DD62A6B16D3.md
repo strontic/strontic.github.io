@@ -26,8 +26,8 @@ PE256 | `06C04CA61C0FC05B225A8621702AFA70094F6314B4128270482A3E705E508C01`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Ordinal1` | 1 | Exported Function
 `ServiceMain` | 2 | Exported Function
+`Ordinal1` | 1 | Exported Function
 
 
 ## Signature

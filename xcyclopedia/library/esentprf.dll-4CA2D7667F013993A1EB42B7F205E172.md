@@ -26,9 +26,9 @@ PE256 | `D846CB7168348C9CEF038A7E3A12C54598867B6E31E01D2982BDA74156BE6971`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClosePerformanceData` | 1 | Exported Function
-`CollectPerformanceData` | 2 | Exported Function
 `OpenPerformanceData` | 3 | Exported Function
+`CollectPerformanceData` | 2 | Exported Function
+`ClosePerformanceData` | 1 | Exported Function
 
 
 ## Signature

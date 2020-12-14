@@ -26,9 +26,9 @@ PE256 | `3017F18B06110B31330FA7336E0BBE50CCA13C2B6F088DF1393B8F8373349959`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LoadCategoryNameTable` | 1 | Exported Function
-`LoadExtensionRegistrationTable` | 2 | Exported Function
 `ShellRefresh` | 3 | Exported Function
+`LoadExtensionRegistrationTable` | 2 | Exported Function
+`LoadCategoryNameTable` | 1 | Exported Function
 
 
 ## Signature

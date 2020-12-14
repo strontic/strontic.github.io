@@ -53,6 +53,12 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/69
 * VirusTotal Link: https://www.virustotal.com/gui/file/b4e44b14eed8ef700f6b6ae124a06c3a56cc1b58b3da23b4064ae853426a732c/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\ScreenClippingHost.exe](ScreenClippingHost.exe-3C4E7F1BF05A5088430FB512081061B2.md) | 35
+
 
 
 

@@ -41,7 +41,7 @@ SSDEEP | `768:K1tNvY8oh6IbU19G3SGn4qpJQDsdY1SIYr:ANv186IQ19aNJQjMIYr`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wsmprovhost.exe` being misused. While `wsmprovhost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wsmprovhost.exe` being misused. While `wsmprovhost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

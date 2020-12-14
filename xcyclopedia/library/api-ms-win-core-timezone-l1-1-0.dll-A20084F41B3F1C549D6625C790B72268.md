@@ -26,15 +26,15 @@ PE256 | `35562159FEC79428F37D0BF7D553AA27775951585A60EC49DF02F7C026C82ADE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FileTimeToSystemTime` | 1 | Exported Function
-`GetDynamicTimeZoneInformation` | 2 | Exported Function
-`GetTimeZoneInformation` | 3 | Exported Function
-`GetTimeZoneInformationForYear` | 4 | Exported Function
-`SetDynamicTimeZoneInformation` | 5 | Exported Function
-`SetTimeZoneInformation` | 6 | Exported Function
 `SystemTimeToFileTime` | 7 | Exported Function
-`SystemTimeToTzSpecificLocalTime` | 8 | Exported Function
+`SetTimeZoneInformation` | 6 | Exported Function
 `TzSpecificLocalTimeToSystemTime` | 9 | Exported Function
+`SystemTimeToTzSpecificLocalTime` | 8 | Exported Function
+`SetDynamicTimeZoneInformation` | 5 | Exported Function
+`GetDynamicTimeZoneInformation` | 2 | Exported Function
+`FileTimeToSystemTime` | 1 | Exported Function
+`GetTimeZoneInformationForYear` | 4 | Exported Function
+`GetTimeZoneInformation` | 3 | Exported Function
 
 
 ## Signature

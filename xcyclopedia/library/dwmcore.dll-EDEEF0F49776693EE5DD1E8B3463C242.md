@@ -26,12 +26,12 @@ PE256 | `E792D3BA496AFE49F92B984CE24261F581B09E4FDC63571B238C671F08751177`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MilCompositionEngine_GetComposedEventId` | 1 | Exported Function
-`MilCompositionEngine_Initialize` | 2 | Exported Function
-`MilCompositionEngine_Uninitialize` | 3 | Exported Function
 `MilConnection_CreateChannel` | 4 | Exported Function
 `MilTransport_AddRef` | 5 | Exported Function
 `MilTransport_Release` | 6 | Exported Function
+`MilCompositionEngine_GetComposedEventId` | 1 | Exported Function
+`MilCompositionEngine_Initialize` | 2 | Exported Function
+`MilCompositionEngine_Uninitialize` | 3 | Exported Function
 
 
 ## Signature

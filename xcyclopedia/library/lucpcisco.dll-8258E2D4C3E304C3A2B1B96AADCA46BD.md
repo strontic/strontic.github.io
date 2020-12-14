@@ -26,26 +26,26 @@ PE256 | `8EDCBE0A45FE03FEBBF21190E8DFE42684E1BCFFD54B73424EE12CD8ECD4D70B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`hid_close` | 1 | Exported Function
-`hid_write` | 18 | Exported Function
-`hid_set_nonblocking` | 17 | Exported Function
-`hid_send_feature_report` | 16 | Exported Function
-`hid_read_timeout` | 15 | Exported Function
 `hid_read` | 14 | Exported Function
+`hid_read_timeout` | 15 | Exported Function
 `hid_open_path` | 13 | Exported Function
-`hid_open` | 12 | Exported Function
 `hid_init` | 11 | Exported Function
-`hid_get_serial_number_string` | 10 | Exported Function
-`hid_get_product_string` | 9 | Exported Function
-`hid_get_manufacturer_string` | 8 | Exported Function
-`hid_get_indexed_string` | 7 | Exported Function
-`hid_get_feature_report` | 6 | Exported Function
-`hid_free_enumeration` | 5 | Exported Function
-`hid_exit` | 4 | Exported Function
-`hid_error` | 3 | Exported Function
-`hid_enumerate` | 2 | Exported Function
+`hid_open` | 12 | Exported Function
 `initialize` | 19 | Exported Function
 `uninitialize` | 20 | Exported Function
+`hid_write` | 18 | Exported Function
+`hid_send_feature_report` | 16 | Exported Function
+`hid_set_nonblocking` | 17 | Exported Function
+`hid_exit` | 4 | Exported Function
+`hid_free_enumeration` | 5 | Exported Function
+`hid_error` | 3 | Exported Function
+`hid_close` | 1 | Exported Function
+`hid_enumerate` | 2 | Exported Function
+`hid_get_product_string` | 9 | Exported Function
+`hid_get_serial_number_string` | 10 | Exported Function
+`hid_get_manufacturer_string` | 8 | Exported Function
+`hid_get_feature_report` | 6 | Exported Function
+`hid_get_indexed_string` | 7 | Exported Function
 
 
 ## Signature

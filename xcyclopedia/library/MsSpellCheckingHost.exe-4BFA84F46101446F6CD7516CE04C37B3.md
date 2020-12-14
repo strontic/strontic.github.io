@@ -28,13 +28,19 @@ PE256 | `1A119833036894B47F5B229E75B548F92463CC1D6A4E3612B8BEE34DCE46B331`
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MsSpellCheckingHost.exe |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 

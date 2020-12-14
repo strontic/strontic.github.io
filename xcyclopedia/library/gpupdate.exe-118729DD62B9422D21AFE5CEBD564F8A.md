@@ -113,7 +113,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/b76ce2bba63bd2949fa6e36fba963379b9d682f7642cd3782d9818fcd30a3e00/detection
 
 ## File Similarity (ssdeep match)
@@ -127,7 +127,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `gpupdate.exe` being misused. While `gpupdate.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `gpupdate.exe` being misused. While `gpupdate.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

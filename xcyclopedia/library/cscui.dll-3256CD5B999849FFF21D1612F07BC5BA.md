@@ -26,18 +26,18 @@ PE256 | `6636BF1C0F832CD6BEDAA37A6B224378350AAAE14CAB5F56454D241B83E996A5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPlApplet` | 1 | Exported Function
-`CSCOptions_RunDLL` | 3 | Exported Function
-`CSCOptions_RunDLLA` | 4 | Exported Function
-`CSCOptions_RunDLLW` | 5 | Exported Function
-`CSCUIInitialize` | 6 | Exported Function
-`CSCUIOptionsPropertySheet` | 2 | Exported Function
-`CSCUIRemoveFolderFromCache` | 7 | Exported Function
-`CSCUISetState` | 8 | Exported Function
 `DllCanUnloadNow` | 9 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`DllRegisterServer` | 11 | Exported Function
+`CSCUISetState` | 8 | Exported Function
+`CSCUIRemoveFolderFromCache` | 7 | Exported Function
 `DllUnregisterServer` | 12 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`CSCOptions_RunDLLA` | 4 | Exported Function
+`CSCOptions_RunDLL` | 3 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`CSCUIOptionsPropertySheet` | 2 | Exported Function
+`CSCUIInitialize` | 6 | Exported Function
+`CSCOptions_RunDLLW` | 5 | Exported Function
 
 
 ## Signature

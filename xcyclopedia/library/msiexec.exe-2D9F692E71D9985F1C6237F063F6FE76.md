@@ -45,7 +45,7 @@ SSDEEP | `1536:G8/YjxjAOTVgGtAwGNcXqm4hTx4rPm4y6a:G8wtMn9NFdhTx4rPdy6a`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `msiexec.exe` being misused. While `msiexec.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `msiexec.exe` being misused. While `msiexec.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

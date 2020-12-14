@@ -26,8 +26,8 @@ PE256 | `9D7D10F3E01A99A6E48BF1A0419DE56C8DA7AEA7C0A2EFC1DEDED49D86C4AD71`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AudioEndpointBuilder.dll` being misused. While `AudioEndpointBuilder.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AudioEndpointBuilder.dll` being misused. While `AudioEndpointBuilder.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

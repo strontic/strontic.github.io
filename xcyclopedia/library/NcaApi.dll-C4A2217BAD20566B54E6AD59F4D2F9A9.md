@@ -26,17 +26,17 @@ PE256 | `3022F3ABD38F1F31CB3EDAB8581151C0FEBD65AFE71C10A95BB4792702A4E5EC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 11 | Exported Function
-`NcaEngineClose` | 1 | Exported Function
-`NcaEngineOpen` | 2 | Exported Function
-`NcaExecuteAndCaptureLogs` | 3 | Exported Function
-`NcaGetConfig` | 4 | Exported Function
-`NcaGetEvidenceCollectorResult` | 5 | Exported Function
-`NcaNetworkClose` | 6 | Exported Function
 `NcaNetworkOpen` | 7 | Exported Function
+`NcaNetworkClose` | 6 | Exported Function
 `NcaStatusEventSubscribe` | 8 | Exported Function
-`NcaStatusEventUnsubscribe` | 9 | Exported Function
 `NcaToggleNamePreferenceState` | 10 | Exported Function
+`NcaStatusEventUnsubscribe` | 9 | Exported Function
+`NcaGetEvidenceCollectorResult` | 5 | Exported Function
+`NcaEngineClose` | 1 | Exported Function
+`DllMain` | 11 | Exported Function
+`NcaEngineOpen` | 2 | Exported Function
+`NcaGetConfig` | 4 | Exported Function
+`NcaExecuteAndCaptureLogs` | 3 | Exported Function
 
 
 ## Signature

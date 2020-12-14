@@ -26,12 +26,12 @@ PE256 | `7D3A8306E825471B43F33A2705573B51068494C5C726180BA81F491B1AC0F284`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddDemoAppLicense` | 5 | Exported Function
-`HrAddAppxLicense` | 1 | Exported Function
-`HrInstallClipLicense` | 2 | Exported Function
 `HrNotifyPhoneLicenseReady` | 3 | Exported Function
 `HrRemoveAppxLicense` | 4 | Exported Function
 `RemoveDemoAppLicense` | 6 | Exported Function
+`AddDemoAppLicense` | 5 | Exported Function
+`HrAddAppxLicense` | 1 | Exported Function
+`HrInstallClipLicense` | 2 | Exported Function
 
 
 ## Signature

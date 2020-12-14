@@ -26,36 +26,36 @@ PE256 | `166BFBBDB56350391BF4C8EC6451713FF90B4AB75EEC5ACAEAC84A79D9FF0BDC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetpAvoidNetlogonSpnSet` | 1 | Exported Function
-`NetpStoreInitialDcRecord` | 28 | Exported Function
-`NetpStopService` | 27 | Exported Function
-`NetpSetWinlogonCAD` | 26 | Exported Function
-`NetpSetLsaPrimaryDomain` | 25 | Exported Function
-`NetpSetLsaMachineAccountInfo` | 24 | Exported Function
-`NetpSetLsaHandle` | 23 | Exported Function
-`NetpSaveFullJoinStateInternal` | 22 | Exported Function
-`NetpRemoveInitialDcRecord` | 21 | Exported Function
 `NetpQueryService` | 20 | Exported Function
+`NetpRemoveInitialDcRecord` | 21 | Exported Function
+`NetpSaveFullJoinStateInternal` | 22 | Exported Function
 `NetpMarkLastFullJoinAttempt` | 19 | Exported Function
-`NetpManageMachineSecret2` | 18 | Exported Function
-`NetpManageMachineSecret` | 17 | Exported Function
 `NetpManageLocalGroups` | 16 | Exported Function
-`NetpLsaOpenSecret` | 15 | Exported Function
-`NetpLoadParameters` | 14 | Exported Function
-`NetpLoadFullJoinState` | 13 | Exported Function
-`NetpHandleJoinedStateInfo` | 12 | Exported Function
-`NetpGetLsaPrimaryDomain` | 11 | Exported Function
-`NetpGetLsaMachineAccountInfo` | 10 | Exported Function
-`NetpGetLsaHandle` | 9 | Exported Function
-`NetpGenerateDefaultPassword` | 8 | Exported Function
-`NetpFreeJoinStateContents` | 7 | Exported Function
-`NetpDoDomainJoinLicensingCheck` | 6 | Exported Function
-`NetpDNSNameResolutionRequired` | 5 | Exported Function
-`NetpControlServices` | 4 | Exported Function
-`NetpCompatibilityMode` | 3 | Exported Function
-`NetpClearFullJoinState` | 2 | Exported Function
+`NetpManageMachineSecret` | 17 | Exported Function
+`NetpManageMachineSecret2` | 18 | Exported Function
+`NetpSetLsaHandle` | 23 | Exported Function
+`NetpStoreInitialDcRecord` | 28 | Exported Function
 `NetpStoreInitialDcRecordEx` | 29 | Exported Function
 `NetpUpdateW32timeConfig` | 30 | Exported Function
+`NetpStopService` | 27 | Exported Function
+`NetpSetLsaMachineAccountInfo` | 24 | Exported Function
+`NetpSetLsaPrimaryDomain` | 25 | Exported Function
+`NetpSetWinlogonCAD` | 26 | Exported Function
+`NetpDNSNameResolutionRequired` | 5 | Exported Function
+`NetpDoDomainJoinLicensingCheck` | 6 | Exported Function
+`NetpFreeJoinStateContents` | 7 | Exported Function
+`NetpControlServices` | 4 | Exported Function
+`NetpAvoidNetlogonSpnSet` | 1 | Exported Function
+`NetpClearFullJoinState` | 2 | Exported Function
+`NetpCompatibilityMode` | 3 | Exported Function
+`NetpGenerateDefaultPassword` | 8 | Exported Function
+`NetpLoadFullJoinState` | 13 | Exported Function
+`NetpLoadParameters` | 14 | Exported Function
+`NetpLsaOpenSecret` | 15 | Exported Function
+`NetpHandleJoinedStateInfo` | 12 | Exported Function
+`NetpGetLsaHandle` | 9 | Exported Function
+`NetpGetLsaMachineAccountInfo` | 10 | Exported Function
+`NetpGetLsaPrimaryDomain` | 11 | Exported Function
 
 
 ## Signature

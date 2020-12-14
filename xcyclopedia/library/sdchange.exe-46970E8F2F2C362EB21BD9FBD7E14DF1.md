@@ -71,7 +71,7 @@ C:\Windows\SysWOW64\sdchange.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/77bea7a0371e270b9bfcd6b51433ca8642078bd36e4fdbdb726f9815bf3b6a4f/detection
 
 

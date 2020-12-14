@@ -41,7 +41,7 @@ SSDEEP | `6144:q8Qg5z4k4wkTMjv30o6TY50GnXQ0ISuXU3/UM:q8nz4k4wrYoa0Is3/`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxHK.exe` being misused. While `igfxHK.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxHK.exe` being misused. While `igfxHK.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

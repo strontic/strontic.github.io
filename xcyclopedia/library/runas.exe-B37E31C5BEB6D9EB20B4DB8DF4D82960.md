@@ -55,13 +55,13 @@ C:\Windows\system32\runas.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/4fa830b5e1794ff72c691b19174c3cafc8fb4dae97455560b75866e19a4fff1a/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `runas.exe` being misused. While `runas.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `runas.exe` being misused. While `runas.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

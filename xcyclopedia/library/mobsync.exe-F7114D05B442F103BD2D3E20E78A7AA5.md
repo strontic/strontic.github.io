@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\mobsync.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/244b65dc083f033047f8bdcbfe128d6d118d72c113d1dc21e0d2fd16c09a735a/detection
 
 ## File Similarity (ssdeep match)

@@ -56,7 +56,7 @@ C:\Windows\system32\tzsync.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/3c4de3f013d4611bbdb14ea17207e4d93eb406e14e639b1d87ce217c96747cf2/detection
 
 

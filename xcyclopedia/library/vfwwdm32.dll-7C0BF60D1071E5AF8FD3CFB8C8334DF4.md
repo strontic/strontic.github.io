@@ -26,9 +26,9 @@ PE256 | `1932935ED6164E36AC6999D1BC2073F59952221135907F567665D5F6CD758882`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`DriverProc` | 2 | Exported Function
 `VfwWdm` | 3 | Exported Function
+`DriverProc` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

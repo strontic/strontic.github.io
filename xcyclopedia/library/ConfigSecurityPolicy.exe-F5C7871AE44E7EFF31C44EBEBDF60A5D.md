@@ -41,7 +41,7 @@ SSDEEP | `3072:FxLrofs9P7AqfaVETO5Ee6iaeHJlN87cEkPSEo3+fXa/MWKeGfS+mugPy0nCvgSs:
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ConfigSecurityPolicy.exe` being misused. While `ConfigSecurityPolicy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ConfigSecurityPolicy.exe` being misused. While `ConfigSecurityPolicy.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

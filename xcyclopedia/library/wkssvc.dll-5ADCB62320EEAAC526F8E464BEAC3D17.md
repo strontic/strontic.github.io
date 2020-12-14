@@ -26,8 +26,8 @@ PE256 | `44FBAF437426D594BE24A41C33AD55E5D5E2847B6A97ABD330D7BC5F7B4E76CB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wkssvc.dll` being misused. While `wkssvc.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wkssvc.dll` being misused. While `wkssvc.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

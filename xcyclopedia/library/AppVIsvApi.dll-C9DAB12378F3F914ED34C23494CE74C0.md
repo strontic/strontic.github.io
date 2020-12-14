@@ -26,27 +26,27 @@ PE256 | `66A0F35A71872145EF7CCC17E9C6E889B6E6708C9614CCD62110F61C67111D55`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CancelPackageLoad` | 13 | Exported Function
-`UnregisterForEvents` | 6 | Exported Function
-`UnpublishPackageGroup` | 17 | Exported Function
-`UnpublishPackage` | 10 | Exported Function
-`SetEventFilter` | 7 | Exported Function
 `RemovePackageGroup` | 18 | Exported Function
+`SetEventFilter` | 7 | Exported Function
 `RemovePackage` | 14 | Exported Function
-`ReintegrateVirtualApplications` | 21 | Exported Function
 `ReintegratePackage` | 20 | Exported Function
+`ReintegrateVirtualApplications` | 21 | Exported Function
 `UserLogoff` | 4 | Exported Function
-`RegisterForEvents` | 5 | Exported Function
-`PublishPackage` | 9 | Exported Function
-`LoadPackageRanges` | 12 | Exported Function
-`LoadPackage` | 11 | Exported Function
-`Initialize` | 1 | Exported Function
-`GetPackageBytesLoaded` | 19 | Exported Function
-`Deinitialize` | 2 | Exported Function
-`ConfigurePackageGroup` | 15 | Exported Function
-`ConfigurePackage` | 8 | Exported Function
-`PublishPackageGroup` | 16 | Exported Function
 `UserLogon` | 3 | Exported Function
+`UnregisterForEvents` | 6 | Exported Function
+`UnpublishPackage` | 10 | Exported Function
+`UnpublishPackageGroup` | 17 | Exported Function
+`RegisterForEvents` | 5 | Exported Function
+`Deinitialize` | 2 | Exported Function
+`GetPackageBytesLoaded` | 19 | Exported Function
+`ConfigurePackageGroup` | 15 | Exported Function
+`CancelPackageLoad` | 13 | Exported Function
+`ConfigurePackage` | 8 | Exported Function
+`PublishPackage` | 9 | Exported Function
+`PublishPackageGroup` | 16 | Exported Function
+`LoadPackageRanges` | 12 | Exported Function
+`Initialize` | 1 | Exported Function
+`LoadPackage` | 11 | Exported Function
 
 
 ## Signature

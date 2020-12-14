@@ -30,13 +30,11 @@ Path |
 -- |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\DNSAPI.dll |
-C:\Windows\SYSTEM32\IPHLPAPI.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MPR.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |

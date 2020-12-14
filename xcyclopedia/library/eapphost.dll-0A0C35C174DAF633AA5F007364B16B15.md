@@ -26,14 +26,14 @@ PE256 | `93D330A56ECD6226698E1ADB26820A87D043B8F60A261772B0477911FB3C8F9B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`InitializeEapHost` | 6 | Exported Function
 `OnSessionChange` | 1 | Exported Function
-`StopServiceOnLowPower` | 7 | Exported Function
+`InitializeEapHost` | 6 | Exported Function
 `UninitializeEapHost` | 8 | Exported Function
+`StopServiceOnLowPower` | 7 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

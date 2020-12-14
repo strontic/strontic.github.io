@@ -49,7 +49,7 @@ PE256 | `8056884FD7022112A2554523811DDC94933E610EEC341BBC5F3188FA960D9A57`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `runas.exe` being misused. While `runas.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `runas.exe` being misused. While `runas.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

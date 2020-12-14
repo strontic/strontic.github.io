@@ -26,8 +26,8 @@ PE256 | `6A786CD9592EEC2533DDDE4548FA6F342489BA938211A2B96E0F8695070129DF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
 `VaultSvcStopCallback` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

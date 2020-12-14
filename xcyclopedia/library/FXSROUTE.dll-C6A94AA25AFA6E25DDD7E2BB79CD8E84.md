@@ -26,16 +26,16 @@ PE256 | `995D89C997772A15EDA19C1D5680DFF3192ED3C7B2F7A40A4CE8C8A0DECF1988`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FaxExtInitializeConfig` | 5 | Exported Function
-`FaxRouteConfigure` | 1 | Exported Function
-`FaxRouteDeviceChangeNotification` | 6 | Exported Function
-`FaxRouteDeviceEnable` | 7 | Exported Function
-`FaxRouteEmail` | 2 | Exported Function
-`FaxRouteGetRoutingInfo` | 8 | Exported Function
 `FaxRouteInitialize` | 9 | Exported Function
+`FaxRouteGetRoutingInfo` | 8 | Exported Function
 `FaxRoutePrint` | 3 | Exported Function
-`FaxRouteSetRoutingInfo` | 10 | Exported Function
 `FaxRouteStore` | 4 | Exported Function
+`FaxRouteSetRoutingInfo` | 10 | Exported Function
+`FaxRouteConfigure` | 1 | Exported Function
+`FaxExtInitializeConfig` | 5 | Exported Function
+`FaxRouteDeviceChangeNotification` | 6 | Exported Function
+`FaxRouteEmail` | 2 | Exported Function
+`FaxRouteDeviceEnable` | 7 | Exported Function
 
 
 ## Signature

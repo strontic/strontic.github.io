@@ -26,10 +26,10 @@ PE256 | `CA081E72B3A4BAC8B42F3E36141FF39479CE0354EE5DE792D4A90C4078ECAB33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `XpsProcess` | 3 | Exported Function
 `XpsTestProcess` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

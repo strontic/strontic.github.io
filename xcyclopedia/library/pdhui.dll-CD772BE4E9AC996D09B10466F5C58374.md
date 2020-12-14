@@ -26,16 +26,16 @@ PE256 | `898E1E34A1771C3604E3CF61AD1CA85805836EBE20F0DC1CE1D0E797CE187EA1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PdhUiBrowseCountersA` | 1 | Exported Function
-`PdhUiBrowseCountersExA` | 2 | Exported Function
-`PdhUiBrowseCountersExHA` | 3 | Exported Function
-`PdhUiBrowseCountersExHW` | 4 | Exported Function
-`PdhUiBrowseCountersExW` | 5 | Exported Function
-`PdhUiBrowseCountersHA` | 6 | Exported Function
 `PdhUiBrowseCountersHW` | 7 | Exported Function
+`PdhUiBrowseCountersHA` | 6 | Exported Function
 `PdhUiBrowseCountersW` | 8 | Exported Function
-`PdhUiSelectDataSourceA` | 9 | Exported Function
 `PdhUiSelectDataSourceW` | 10 | Exported Function
+`PdhUiSelectDataSourceA` | 9 | Exported Function
+`PdhUiBrowseCountersExA` | 2 | Exported Function
+`PdhUiBrowseCountersA` | 1 | Exported Function
+`PdhUiBrowseCountersExHA` | 3 | Exported Function
+`PdhUiBrowseCountersExW` | 5 | Exported Function
+`PdhUiBrowseCountersExHW` | 4 | Exported Function
 
 
 ## Signature

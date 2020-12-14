@@ -26,11 +26,11 @@ PE256 | `C8AD1C357A088C8C44FE64593B514FBB08B98B64B51EBE83E945346BB10CDB37`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PolicyManager_Apply` | 3 | Exported Function
-`PolicyManager_PostApply` | 4 | Exported Function
-`PolicyManager_PreCheck` | 5 | Exported Function
 `PolicyManagerTranslationProxy_GetPolicyValue` | 1 | Exported Function
 `PolicyManagerTranslationProxy_SetPolicyValue` | 2 | Exported Function
+`PolicyManager_PreCheck` | 5 | Exported Function
+`PolicyManager_Apply` | 3 | Exported Function
+`PolicyManager_PostApply` | 4 | Exported Function
 
 
 ## Signature

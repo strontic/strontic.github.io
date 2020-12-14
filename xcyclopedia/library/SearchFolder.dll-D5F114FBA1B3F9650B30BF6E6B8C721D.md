@@ -26,16 +26,16 @@ PE256 | `900FD20A9F2D78C0D8A7DD7EEC66C8091D6822C5FC4940FB08959631781A26D7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppendHiddenSearchContext` | 1 | Exported Function
-`CDBFolderUI_CreateInstance` | 2 | Exported Function
-`CSearchDelegateFolderUI_CreateInstance` | 3 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllMain` | 6 | Exported Function
 `DllRegisterServer` | 7 | Exported Function
+`DllMain` | 6 | Exported Function
 `DllUnregisterServer` | 8 | Exported Function
-`GetAggregateQueryError` | 9 | Exported Function
 `s_GetStartMenuFilesScope` | 10 | Exported Function
+`GetAggregateQueryError` | 9 | Exported Function
+`CDBFolderUI_CreateInstance` | 2 | Exported Function
+`AppendHiddenSearchContext` | 1 | Exported Function
+`CSearchDelegateFolderUI_CreateInstance` | 3 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
 
 
 ## Signature

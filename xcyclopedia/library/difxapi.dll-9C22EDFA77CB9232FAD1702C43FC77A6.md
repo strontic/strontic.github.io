@@ -26,18 +26,18 @@ PE256 | `029719EEDC7FF6089D425426FE23CE60DCAE0DD93D8A7D1C3699A085B2AFDC8C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DIFXAPISetLogCallbackA` | 1 | Exported Function
-`DIFXAPISetLogCallbackW` | 2 | Exported Function
-`DriverPackageGetPathA` | 3 | Exported Function
-`DriverPackageGetPathW` | 4 | Exported Function
-`DriverPackageInstallA` | 5 | Exported Function
-`DriverPackageInstallW` | 6 | Exported Function
-`DriverPackagePreinstallA` | 7 | Exported Function
-`DriverPackagePreinstallW` | 8 | Exported Function
 `DriverPackageUninstallA` | 9 | Exported Function
-`DriverPackageUninstallW` | 10 | Exported Function
-`SetDifxLogCallbackA` | 11 | Exported Function
+`DriverPackagePreinstallW` | 8 | Exported Function
+`DriverPackagePreinstallA` | 7 | Exported Function
 `SetDifxLogCallbackW` | 12 | Exported Function
+`SetDifxLogCallbackA` | 11 | Exported Function
+`DriverPackageUninstallW` | 10 | Exported Function
+`DriverPackageGetPathA` | 3 | Exported Function
+`DIFXAPISetLogCallbackW` | 2 | Exported Function
+`DIFXAPISetLogCallbackA` | 1 | Exported Function
+`DriverPackageInstallW` | 6 | Exported Function
+`DriverPackageInstallA` | 5 | Exported Function
+`DriverPackageGetPathW` | 4 | Exported Function
 
 
 ## Signature

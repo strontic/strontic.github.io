@@ -28,11 +28,7 @@ PE256 | `F489C352B7BA17638A8A3D287D2E0EBA482ECD10CD0E5A673B96469C108E160B`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -42,8 +38,6 @@ C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\system32\rrinstaller.exe |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature

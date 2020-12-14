@@ -50,12 +50,13 @@ PE256 | `2E7BD3C3D9BE0CCCE61929BF13DCD957EAC0F7E9E1C0E988F3FB8BD183328067`
 
 File | Score
 -- | --
+[C:\Windows\system32\lsass.exe](lsass.exe-0467D648EF6191ADC4DF8FD7F42F3DD0.md) | 60
 [C:\Windows\system32\lsass.exe](lsass.exe-A6236E9A991C5B4E450AA6F25A460BCC.md) | 71
 [C:\Windows\system32\lsass.exe](lsass.exe-BBBA8CE22384213070D0B9511EA181C5.md) | 80
 
 ## Possible Misuse
 
-*The following table contains possible examples of `lsass.exe` being misused. While `lsass.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `lsass.exe` being misused. While `lsass.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -196,6 +197,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) | and filename == "lsass.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [generic_dumps.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_dumps.yar) | description = "Detects a LSASS memory dump file" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [generic_dumps.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_dumps.yar) | $s1 = "lsass.exe" ascii fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | $lsass = { 6C 73 61 73 [6] 73 2E 65 78 [6] 65 } | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_powershell_suite.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_suite.yar) | $ = "Calling Advapi32::OpenProcessToken --> LSASS" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_powershell_toolkit.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_toolkit.yar) | $x4 = "Invoke-ReflectivePEInjection -PEBytes $PEBytes -ProcName lsass -ComputerName Target.Local" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [spy_equation_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_equation_fiveeyes.yar) | $s1 = "lsasrv32.dll and lsass.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

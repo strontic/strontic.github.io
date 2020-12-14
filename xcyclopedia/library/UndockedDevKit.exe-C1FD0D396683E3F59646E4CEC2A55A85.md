@@ -21,6 +21,19 @@ IMP | `1AFA0949661B16256427E705407DF538`
 PESHA1 | `D3CFA759525FC7773CAEBC21BCD6F2A5F1A35260`
 PE256 | `73CC001BD33D51D44C2B163C0A1F35E6D733B7ED83482BFF3086EDC1B4A1E5F8`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -54,6 +67,7 @@ File | Score
 [C:\Windows\system32\LocationFrameworkPS.dll](LocationFrameworkPS.dll-FBF3B3CCC037AD1D9FC36C28D0E29A25.md) | 27
 [C:\Windows\system32\migwiz\migres.dll](migres.dll-E937B164DC2D2A03490AC3EB9D5875B2.md) | 35
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 47
+[C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-5D20EF28D0B222CA57F47524F2D3E8C0.md) | 32
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 36
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 36
 [C:\Windows\system32\uxlibres.dll](uxlibres.dll-F8A9A89E042D141AD521A9CA4B072824.md) | 41

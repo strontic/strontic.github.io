@@ -26,9 +26,9 @@ PE256 | `A6271216C77030F273E13242A8B9F6D09912F6015B7312C2AD97F872CC6D9D65`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 1 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature
@@ -58,7 +58,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Windows.Media.dll` being misused. While `Windows.Media.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Windows.Media.dll` being misused. While `Windows.Media.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

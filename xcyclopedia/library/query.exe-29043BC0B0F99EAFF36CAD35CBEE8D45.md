@@ -68,7 +68,7 @@ C:\Windows\system32\query.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/58d1132b636c6d33c2b8b3659f310f6de370a00f837226129657b2b82184a307/detection
 
 ## File Similarity (ssdeep match)

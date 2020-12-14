@@ -71,7 +71,7 @@ C:\Windows\SysWOW64\raserver.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/51e1d2363c200c8ce80c4d225e623cb3e359a0d9053d4aeb5f48c96adb227a9e/detection
 
 

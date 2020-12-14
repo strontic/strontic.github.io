@@ -41,7 +41,7 @@ SSDEEP | `3072:HWkZzyTGQQOLlDuoxY2AIhGqbGCwnulDopN7x1QiWhIDlAFBqs:HfMTBQOJpAIhPb
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wininit.exe` being misused. While `wininit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wininit.exe` being misused. While `wininit.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

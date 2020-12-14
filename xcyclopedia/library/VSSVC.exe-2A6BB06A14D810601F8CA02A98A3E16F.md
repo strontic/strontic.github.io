@@ -28,13 +28,7 @@ PE256 | `489066B79878A674078F317AB243630BFACD290011323BA9578643AE58F1BEFC`
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\system32\AUTHZ.dll |
-C:\Windows\system32\bcd.dll |
-C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\DEVOBJ.dll |
-C:\Windows\system32\FLTLIB.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -44,11 +38,7 @@ C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\VirtDisk.dll |
-C:\Windows\system32\VSSAPI.DLL |
-C:\Windows\system32\VssTrace.DLL |
 C:\Windows\system32\VSSVC.exe |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -78,7 +68,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `VSSVC.exe` being misused. While `VSSVC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `VSSVC.exe` being misused. While `VSSVC.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

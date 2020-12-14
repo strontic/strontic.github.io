@@ -35,7 +35,7 @@ An error occurred
 
 Path | Type
 -- | --
-(---)   C:\Users\user\AppData\Local\Temp\msdtadmin\_226BE566-E25C-4C6E-9F84-D3C056901CA5_\inuse | File
+(---)   C:\Users\user\AppData\Local\Temp\msdtadmin\_F25172B4-11C9-468B-BDF5-74913D94B483_\inuse | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\msdt.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
@@ -50,8 +50,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -59,40 +59,22 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\ATL.DLL |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\Cabinet.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\system32\DUI70.dll |
-C:\Windows\system32\DUser.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MSASN1.dll |
 C:\Windows\system32\msdt.exe |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\system32\Secur32.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SSPICLI.DLL |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\UxTheme.dll |
-C:\Windows\system32\wer.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WINHTTP.dll |
-C:\Windows\System32\WINTRUST.dll |
 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
@@ -123,7 +105,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 ## Possible Misuse
 
-*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -181,7 +163,7 @@ Troubleshooting packs comprise a set of root causes, each of which describes a s
 
 - [Available troubleshooting packs](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs)
 
-- [TroubleshootingPack Powershell reference](/powershell/module/troubleshootingpack/?view=win10-ps)
+- [TroubleshootingPack Powershell reference](/powershell/module/troubleshootingpack/)
 
 ---
 

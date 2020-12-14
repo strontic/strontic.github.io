@@ -28,6 +28,7 @@ PE256 | `DF65EA7CD1B9A0D59C30B64343369991475F2E4B4077B9D6B25D7EC139E43AD8`
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -35,6 +36,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wsqmcons.exe |
 
 
@@ -75,7 +77,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wsqmcons.exe` being misused. While `wsqmcons.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wsqmcons.exe` being misused. While `wsqmcons.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

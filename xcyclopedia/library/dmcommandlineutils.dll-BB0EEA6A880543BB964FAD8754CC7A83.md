@@ -26,9 +26,9 @@ PE256 | `79BEC69989385C4EB3D3A5F4F0B9B01A199DF2CE5620B621EC45DF67A675B8C1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FreeCommandLineOptions` | 1 | Exported Function
-`ProcessCommandLine` | 2 | Exported Function
 `ProcessCommandLineOption` | 3 | Exported Function
+`ProcessCommandLine` | 2 | Exported Function
+`FreeCommandLineOptions` | 1 | Exported Function
 
 
 ## Signature

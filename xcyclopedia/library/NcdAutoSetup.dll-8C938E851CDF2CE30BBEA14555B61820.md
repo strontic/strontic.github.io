@@ -26,9 +26,9 @@ PE256 | `99D215A705DC161375F36426913A74B725129F42AB0D58FD139453FFF114B0CB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NcdAutoSetup_Generalize` | 1 | Exported Function
-`SvchostMain` | 3 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`SvchostMain` | 3 | Exported Function
+`NcdAutoSetup_Generalize` | 1 | Exported Function
 
 
 ## Signature

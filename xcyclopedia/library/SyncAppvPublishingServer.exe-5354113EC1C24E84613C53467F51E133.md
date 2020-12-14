@@ -48,7 +48,7 @@ PE256 | `6345C4D5219466E608F682360D69F4D7C1AC0EA29CB09F359E840D0797A2D7FC`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SyncAppvPublishingServer.exe` being misused. While `SyncAppvPublishingServer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SyncAppvPublishingServer.exe` being misused. While `SyncAppvPublishingServer.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

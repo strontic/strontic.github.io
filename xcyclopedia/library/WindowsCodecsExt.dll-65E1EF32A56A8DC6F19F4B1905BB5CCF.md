@@ -26,9 +26,9 @@ PE256 | `EBA7DE0BEA356831D0FDAABD6B8A1BA78F442CC6EA0233FD79DE3FFBCAE29B48`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 1 | Exported Function
-`IWICColorTransform_Initialize_Proxy` | 2 | Exported Function
 `WICCreateColorTransform_Proxy` | 3 | Exported Function
+`IWICColorTransform_Initialize_Proxy` | 2 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
 
 
 ## Signature

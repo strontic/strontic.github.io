@@ -26,12 +26,12 @@ PE256 | `E2AA16418CA2454C1B47FBC2FC6CB2C11226B4B2E91B5B65D8243F252E3F2151`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DLLGetDocumentation` | 1 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `DoOpenPipeStream` | 6 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DLLGetDocumentation` | 1 | Exported Function
 
 
 ## Signature

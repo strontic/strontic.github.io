@@ -26,22 +26,22 @@ PE256 | `71AD9568438E2595E81048FA53B7E34D269B67AE742EFA36D0BD6227C0C622BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UbpmAcquireJobBackgroundMode` | 1 | Exported Function
-`UbpmApiBufferFree` | 2 | Exported Function
-`UbpmCloseTriggerConsumer` | 3 | Exported Function
-`UbpmInitialize` | 4 | Exported Function
-`UbpmOpenTriggerConsumer` | 5 | Exported Function
-`UbpmReleaseJobBackgroundMode` | 6 | Exported Function
-`UbpmSessionStateChanged` | 7 | Exported Function
-`UbpmTerminate` | 8 | Exported Function
-`UbpmTriggerConsumerConfigure` | 9 | Exported Function
-`UbpmTriggerConsumerControl` | 10 | Exported Function
 `UbpmTriggerConsumerControlNotifications` | 11 | Exported Function
 `UbpmTriggerConsumerQueryStatus` | 12 | Exported Function
-`UbpmTriggerConsumerRegister` | 13 | Exported Function
-`UbpmTriggerConsumerSetDisabledForUser` | 14 | Exported Function
+`UbpmTriggerConsumerConfigure` | 9 | Exported Function
+`UbpmTriggerConsumerControl` | 10 | Exported Function
 `UbpmTriggerConsumerSetStatePublishingSecurity` | 15 | Exported Function
 `UbpmTriggerConsumerUnregister` | 16 | Exported Function
+`UbpmTriggerConsumerRegister` | 13 | Exported Function
+`UbpmTriggerConsumerSetDisabledForUser` | 14 | Exported Function
+`UbpmCloseTriggerConsumer` | 3 | Exported Function
+`UbpmInitialize` | 4 | Exported Function
+`UbpmAcquireJobBackgroundMode` | 1 | Exported Function
+`UbpmApiBufferFree` | 2 | Exported Function
+`UbpmSessionStateChanged` | 7 | Exported Function
+`UbpmTerminate` | 8 | Exported Function
+`UbpmOpenTriggerConsumer` | 5 | Exported Function
+`UbpmReleaseJobBackgroundMode` | 6 | Exported Function
 
 
 ## Signature

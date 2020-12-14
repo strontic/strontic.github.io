@@ -26,18 +26,18 @@ PE256 | `145AAD2247B4D8DDA01F5146AD96C68260F982FF2F5A6B73FBF230A0D2B31C56`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AtaPropPageProvider` | 1 | Exported Function
-`CdromDisableDigitalPlayback` | 2 | Exported Function
-`CdromEnableDigitalPlayback` | 3 | Exported Function
-`CdromIsDigitalPlaybackEnabled` | 4 | Exported Function
-`CdromKnownGoodDigitalPlayback` | 5 | Exported Function
-`CdromSetDefaultDvdRegion` | 6 | Exported Function
-`DiskClassInstaller` | 7 | Exported Function
-`DiskPropPageProvider` | 8 | Exported Function
 `DvdClassInstaller` | 9 | Exported Function
-`DvdLauncher` | 10 | Exported Function
-`DvdPropPageProvider` | 11 | Exported Function
+`DiskPropPageProvider` | 8 | Exported Function
+`DiskClassInstaller` | 7 | Exported Function
 `HdcCoInstaller` | 12 | Exported Function
+`DvdPropPageProvider` | 11 | Exported Function
+`DvdLauncher` | 10 | Exported Function
+`CdromEnableDigitalPlayback` | 3 | Exported Function
+`CdromDisableDigitalPlayback` | 2 | Exported Function
+`AtaPropPageProvider` | 1 | Exported Function
+`CdromSetDefaultDvdRegion` | 6 | Exported Function
+`CdromKnownGoodDigitalPlayback` | 5 | Exported Function
+`CdromIsDigitalPlaybackEnabled` | 4 | Exported Function
 
 
 ## Signature

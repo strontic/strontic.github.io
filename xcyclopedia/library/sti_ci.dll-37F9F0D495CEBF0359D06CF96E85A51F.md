@@ -26,23 +26,23 @@ PE256 | `A49700317F70B82D1200713969BC09B10B0DD49EC53E5D1D9221180BCBC102E6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddDevice` | 1 | Exported Function
-`WiaDestroyPortList` | 13 | Exported Function
-`WiaCreatePortList` | 12 | Exported Function
-`WiaAddDevice` | 11 | Exported Function
 `UninstallWiaDevice` | 10 | Exported Function
-`SetWiaDeviceProperty` | 9 | Exported Function
+`WiaAddDevice` | 11 | Exported Function
 `InstallWiaService` | 8 | Exported Function
+`SetWiaDeviceProperty` | 9 | Exported Function
 `WiaDeviceEnum` | 14 | Exported Function
-`InstallWiaDevice` | 7 | Exported Function
-`EnableWiaDevice` | 5 | Exported Function
-`DisableWiaDevice` | 4 | Exported Function
-`DestroyWiaDeviceList` | 3 | Exported Function
-`CreateWiaDeviceList` | 2 | Exported Function
-`CoinstallerEntry` | 17 | Exported Function
-`ClassInstall` | 16 | Exported Function
-`GetWiaDeviceProperty` | 6 | Exported Function
 `WiaRemoveDevice` | 15 | Exported Function
+`WiaCreatePortList` | 12 | Exported Function
+`WiaDestroyPortList` | 13 | Exported Function
+`InstallWiaDevice` | 7 | Exported Function
+`CoinstallerEntry` | 17 | Exported Function
+`CreateWiaDeviceList` | 2 | Exported Function
+`AddDevice` | 1 | Exported Function
+`ClassInstall` | 16 | Exported Function
+`EnableWiaDevice` | 5 | Exported Function
+`GetWiaDeviceProperty` | 6 | Exported Function
+`DestroyWiaDeviceList` | 3 | Exported Function
+`DisableWiaDevice` | 4 | Exported Function
 
 
 ## Signature

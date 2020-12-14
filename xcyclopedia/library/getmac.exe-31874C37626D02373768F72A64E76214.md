@@ -71,6 +71,9 @@ Type "GETMAC /?" for usage.
 
 ```
 
+### Child Processes:
+mmc.exe
+
 ### Loaded Modules:
 
 Path |

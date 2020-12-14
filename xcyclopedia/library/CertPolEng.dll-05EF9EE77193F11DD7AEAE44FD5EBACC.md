@@ -26,20 +26,20 @@ PE256 | `383756FD66479282185FC6366E8EC6DD40C532398B82BDCEDC3D45F8257DE3A0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IntPstGetCertificate` | 1 | Exported Function
-`IntPstGetNameIdentifierForCertificate` | 2 | Exported Function
-`IntPstGetTrustAnchors` | 3 | Exported Function
-`IntPstMapCertificateToProvider` | 4 | Exported Function
-`IntPstMapUserCredsToProvider` | 5 | Exported Function
-`IntPstValidate` | 6 | Exported Function
-`PstAcquirePrivateKey` | 7 | Exported Function
-`PstGetCertificateChain` | 8 | Exported Function
-`PstGetCertificates` | 9 | Exported Function
 `PstGetTrustAnchors` | 10 | Exported Function
+`PstGetCertificates` | 9 | Exported Function
+`PstGetCertificateChain` | 8 | Exported Function
 `PstGetTrustAnchorsEx` | 11 | Exported Function
-`PstGetUserNameForCertificate` | 12 | Exported Function
-`PstMapCertificate` | 13 | Exported Function
 `PstValidate` | 14 | Exported Function
+`PstMapCertificate` | 13 | Exported Function
+`PstGetUserNameForCertificate` | 12 | Exported Function
+`IntPstGetTrustAnchors` | 3 | Exported Function
+`IntPstGetNameIdentifierForCertificate` | 2 | Exported Function
+`IntPstGetCertificate` | 1 | Exported Function
+`IntPstMapCertificateToProvider` | 4 | Exported Function
+`PstAcquirePrivateKey` | 7 | Exported Function
+`IntPstValidate` | 6 | Exported Function
+`IntPstMapUserCredsToProvider` | 5 | Exported Function
 
 
 ## Signature

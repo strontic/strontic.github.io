@@ -41,7 +41,7 @@ SSDEEP | `96:ZhDtmfaKIBXeDNn0c8iyIRoYnfY0DWPTceQO0RmvB8OOBFp3ew+DJFMVWtEW3ZhK:2k
 
 ## Possible Misuse
 
-*The following table contains possible examples of `regedt32.exe` being misused. While `regedt32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `regedt32.exe` being misused. While `regedt32.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

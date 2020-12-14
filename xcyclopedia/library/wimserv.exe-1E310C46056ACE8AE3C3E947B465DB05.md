@@ -30,19 +30,13 @@ Path |
 -- |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\system32\Cabinet.dll |
-C:\Windows\system32\FLTLIB.DLL |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
 C:\Windows\system32\wimserv.exe |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -72,7 +66,7 @@ C:\Windows\System32\win32u.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wimserv.exe` being misused. While `wimserv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wimserv.exe` being misused. While `wimserv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

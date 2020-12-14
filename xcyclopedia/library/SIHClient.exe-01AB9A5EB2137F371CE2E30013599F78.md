@@ -49,7 +49,7 @@ PE256 | `3757680290C6C977F11CDFF1DD72B188403C0B199F1A20577D4FF669A8AC9A72`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SIHClient.exe` being misused. While `SIHClient.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SIHClient.exe` being misused. While `SIHClient.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

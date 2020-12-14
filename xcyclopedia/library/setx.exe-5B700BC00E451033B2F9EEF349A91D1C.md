@@ -176,7 +176,7 @@ C:\Windows\SysWOW64\setx.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/84a5ce53747dde0fbd2a9e94fd668591fbb7bde1bbee25a84a9e6216159dcb3a/detection
 
 

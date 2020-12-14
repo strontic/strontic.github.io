@@ -26,17 +26,17 @@ PE256 | `A7D6ADE1289675951BB628BC3E547CA22C16C87A30A655DF84A280485425E78E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`RoCreateNonAgilePropertySet` | 4 | Exported Function
-`RoCreatePropertySetSerializer` | 5 | Exported Function
-`RoGetBufferMarshaler` | 6 | Exported Function
-`RoGetMetaDataFile` | 7 | Exported Function
 `RoIsApiContractMajorVersionPresent` | 8 | Exported Function
+`RoGetMetaDataFile` | 7 | Exported Function
 `RoIsApiContractPresent` | 9 | Exported Function
-`RoParseTypeName` | 10 | Exported Function
 `RoResolveNamespace` | 11 | Exported Function
+`RoParseTypeName` | 10 | Exported Function
+`RoGetBufferMarshaler` | 6 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`RoCreatePropertySetSerializer` | 5 | Exported Function
+`RoCreateNonAgilePropertySet` | 4 | Exported Function
 
 
 ## Signature

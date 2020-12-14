@@ -41,9 +41,6 @@ hostname -s is not supported.
 
 ```
 
-### Child Processes:
-mmc.exe
-
 ### Loaded Modules:
 
 Path |
@@ -82,7 +79,7 @@ C:\Windows\SysWOW64\HOSTNAME.EXE |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `HOSTNAME.EXE` being misused. While `HOSTNAME.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `HOSTNAME.EXE` being misused. While `HOSTNAME.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -97,6 +94,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [carbon-black.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/carbon-black.yml) | `#  DestinationHostname: hostname` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [carbon-black.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/carbon-black.yml) | `#  ComputerName: hostname` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-proxy.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-proxy.yml) | `destination.hostname:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [ecs-suricata.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-suricata.yml) | `http.hostname: url.domain` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-corelight.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-corelight.yml) | `host_name: source.hostname` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-corelight.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-corelight.yml) | `hostname: ntlm.hostname` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-corelight.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-corelight.yml) | `client_name: source.hostname` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

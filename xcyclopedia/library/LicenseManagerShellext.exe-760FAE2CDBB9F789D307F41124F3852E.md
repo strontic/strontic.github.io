@@ -28,15 +28,10 @@ PE256 | `03761CE5FA4B6A3FD6388141306598C3EF19DE7D4E357999168DEA9832A0CC72`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\LicenseManager.dll |
 C:\Windows\system32\LicenseManagerShellext.exe |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |

@@ -44,40 +44,16 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\ie4uinit.exe |
-C:\Windows\system32\IEADVPACK.dll |
-C:\Windows\system32\iedkcs32.dll |
-C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MLANG.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\NETAPI32.dll |
-C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\urlmon.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WININET.dll |
-C:\Windows\system32\WKSCLI.DLL |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28\COMCTL32.dll |
 
 
 ## Signature
@@ -101,13 +77,13 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/6f83621ed34b61ca0bbaff5a5fd158feeca364de52eec38e1cc2295a82a7bd5c/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ie4uinit.exe` being misused. While `ie4uinit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ie4uinit.exe` being misused. While `ie4uinit.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

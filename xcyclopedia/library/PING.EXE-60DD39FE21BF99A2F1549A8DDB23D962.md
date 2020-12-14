@@ -41,7 +41,7 @@ SSDEEP | `384:XjixTgsPP56i9BilW843qe4h3HUXZ37O5PNEm6uwEWjlWM:4kibiM843D4hXCgORuq
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PING.EXE` being misused. While `PING.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PING.EXE` being misused. While `PING.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

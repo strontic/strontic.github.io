@@ -26,14 +26,14 @@ PE256 | `3069E43015A229F63AB15A0706F2320E472193A1016C41E656BF1F26C03D4A76`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PAL_AppHasPackage` | 1 | Exported Function
-`PAL_FreeTransientObjectSecurityAttribute` | 2 | Exported Function
-`PAL_GetAppPlatformQualifier` | 3 | Exported Function
-`PAL_GetSupportedBrowseTypes` | 4 | Exported Function
-`PAL_HoldReferenceUntilAppExit` | 5 | Exported Function
 `PAL_QueryTransientObjectSecurityAttribute` | 6 | Exported Function
-`PAL_RegisterAppSuspendResumeCallback` | 7 | Exported Function
+`PAL_HoldReferenceUntilAppExit` | 5 | Exported Function
 `PAL_UnregisterAppSuspendResumeCallback` | 8 | Exported Function
+`PAL_RegisterAppSuspendResumeCallback` | 7 | Exported Function
+`PAL_FreeTransientObjectSecurityAttribute` | 2 | Exported Function
+`PAL_AppHasPackage` | 1 | Exported Function
+`PAL_GetSupportedBrowseTypes` | 4 | Exported Function
+`PAL_GetAppPlatformQualifier` | 3 | Exported Function
 
 
 ## Signature

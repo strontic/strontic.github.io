@@ -26,14 +26,14 @@ PE256 | `199CD2D577C086AE2375113CA4C7039E1818FAFA9634C6656FB2CE35C28483E1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProxyHelperGetProxyEventInformation` | 1 | Exported Function
-`ProxyHelperProviderConnectToServer` | 2 | Exported Function
-`ProxyHelperProviderDisconnectFromServer` | 3 | Exported Function
-`ProxyHelperProviderFreeMemory` | 4 | Exported Function
-`ProxyHelperProviderRegisterForEventNotification` | 5 | Exported Function
 `ProxyHelperProviderSetProxyConfiguration` | 6 | Exported Function
-`ProxyHelperProviderSetProxyCredentials` | 7 | Exported Function
+`ProxyHelperProviderRegisterForEventNotification` | 5 | Exported Function
 `ProxyHelperProviderUnregisterEventNotification` | 8 | Exported Function
+`ProxyHelperProviderSetProxyCredentials` | 7 | Exported Function
+`ProxyHelperProviderConnectToServer` | 2 | Exported Function
+`ProxyHelperGetProxyEventInformation` | 1 | Exported Function
+`ProxyHelperProviderFreeMemory` | 4 | Exported Function
+`ProxyHelperProviderDisconnectFromServer` | 3 | Exported Function
 
 
 ## Signature

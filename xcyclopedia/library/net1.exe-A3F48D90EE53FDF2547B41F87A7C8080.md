@@ -41,7 +41,7 @@ SSDEEP | `3072:d0PeEp+s3t37TU2q/1ndimrbvkdeDNrZ9rsjpDp/95M:dmt37TU2G1nIiDkdeDxZ9
 
 ## Possible Misuse
 
-*The following table contains possible examples of `net1.exe` being misused. While `net1.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `net1.exe` being misused. While `net1.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

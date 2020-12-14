@@ -42,39 +42,22 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\Cabinet.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\System32\NSI.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\system32\pdh.dll |
 C:\Windows\system32\pla.dll |
 C:\Windows\system32\plasrv.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHCORE.DLL |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\tdh.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\wevtapi.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -97,7 +80,7 @@ C:\Windows\System32\win32u.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `plasrv.exe` being misused. While `plasrv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `plasrv.exe` being misused. While `plasrv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

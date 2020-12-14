@@ -26,11 +26,11 @@ PE256 | `45C93C005D4C7952A51E33AEE1ABFA85846A4A1BDF130286085260B09032C9C4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateExecutivePlatform` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateExecutivePlatform` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature
@@ -60,7 +60,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mmcndmgr.dll` being misused. While `mmcndmgr.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mmcndmgr.dll` being misused. While `mmcndmgr.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

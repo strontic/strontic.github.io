@@ -23,9 +23,6 @@ PE256 | `60D17C2DAA2D3EB87FED36807070D8A0521DAF14360D8016F34CA4492DBFBA86`
 
 ## Runtime Data
 
-### Child Processes:
-NarratorQuickStart.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |
@@ -33,7 +30,6 @@ Path |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |

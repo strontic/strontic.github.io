@@ -26,11 +26,11 @@ PE256 | `9BF4642F1F01850DC43E127BA7582F088855C9864FB296940222C290A8B046FF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NgcIsPinRecoveryEnabled` | 1 | Exported Function
-`NgcProtectPinRecoverySecret` | 2 | Exported Function
-`NgcRecoverPin` | 3 | Exported Function
 `NgcRecoverPinSilent` | 4 | Exported Function
 `NgcVerifyPinRecoverySecret` | 5 | Exported Function
+`NgcRecoverPin` | 3 | Exported Function
+`NgcIsPinRecoveryEnabled` | 1 | Exported Function
+`NgcProtectPinRecoverySecret` | 2 | Exported Function
 
 
 ## Signature

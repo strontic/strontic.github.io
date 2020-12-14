@@ -46,6 +46,11 @@ PE256 | `301F83353998503ABC9465E5345DCD06CFF498DE71EAC54A62156F9C5A57ECF9`
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/96e7806b10255d429a05ea93c36fcfeda8a4c3b7c7a9e7ac06342a3085512762/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\securekernel.exe](securekernel.exe-E0AB270381D77BBCE0F318E092A2AA5C.md) | 99
 
 
 

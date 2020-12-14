@@ -26,16 +26,16 @@ PE256 | `FAD26027A5435C79E301D64541A4E000616725D9F0C8E83610CD102208F72B1B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DoScheduledTelemetryRun` | 1 | Exported Function
-`DoScheduledTelemetryRunTC` | 2 | Exported Function
-`GetCtacProvider` | 3 | Exported Function
-`GetProvider` | 4 | Exported Function
-`RunTest` | 5 | Exported Function
-`RunXml` | 6 | Exported Function
 `Sgd` | 7 | Exported Function
+`RunXml` | 6 | Exported Function
 `UpdateAvStatus` | 8 | Exported Function
-`UpdateCacheCompatStatuses` | 9 | Exported Function
 `UpdateExperienceIndicators` | 10 | Exported Function
+`UpdateCacheCompatStatuses` | 9 | Exported Function
+`DoScheduledTelemetryRunTC` | 2 | Exported Function
+`DoScheduledTelemetryRun` | 1 | Exported Function
+`GetCtacProvider` | 3 | Exported Function
+`RunTest` | 5 | Exported Function
+`GetProvider` | 4 | Exported Function
 
 
 ## Signature

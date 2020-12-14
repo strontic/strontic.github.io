@@ -26,52 +26,52 @@ PE256 | `10B8C2BA8296136CF3297758D3F7DD6A6341EB5276E58A10D2BF75EB30B81EF0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DecodeRecipientID` | 4 | Exported Function
-`HrMaxAlgStrength@4` | 29 | Exported Function
-`HrMergeMAPISecUserX509CertAndABX509Cert@12` | 30 | Exported Function
-`HrMergeMAPISecUserX509Certs@12` | 31 | Exported Function
-`HrOnApplySecSettings@28` | 32 | Exported Function
-`HrOnImportExportDigitalID` | 33 | Exported Function
 `HrOnImportExportDigitalID2@12` | 34 | Exported Function
+`HrOnImportExportDigitalID` | 33 | Exported Function
 `HrOnInitSecSettings@28` | 35 | Exported Function
-`HrProcessUserX509@16` | 36 | Exported Function
 `HrPublishDefaultProfilesToGAL@8` | 37 | Exported Function
-`HrSetDefaultMAPISecUserX509Cert@12` | 38 | Exported Function
-`HrSetDefaultSecProfile@12` | 39 | Exported Function
-`HrSetSecOptions@4` | 40 | Exported Function
-`HrSetSecurityProfileProps@12` | 41 | Exported Function
-`HrUpdateSecProfileInfo@32` | 42 | Exported Function
-`HrVerifyCertEmailAddr@24` | 43 | Exported Function
-`HrWrapMessageForSecurity` | 44 | Exported Function
-`HrWrapMessageForSecurityEx` | 45 | Exported Function
-`HrWrapMessageForSecurityEx2@24` | 46 | Exported Function
-`int __stdcall SecurityViewProps(struct IMessage *,struct HWND__ *)` | 3 | Exported Function
+`HrProcessUserX509@16` | 36 | Exported Function
+`HrOnApplySecSettings@28` | 32 | Exported Function
 `HrMAPISecUserX509FromSigInfo@24` | 28 | Exported Function
 `HrMAPISecUserX509FromCert@12` | 27 | Exported Function
+`HrMaxAlgStrength@4` | 29 | Exported Function
+`HrMergeMAPISecUserX509Certs@12` | 31 | Exported Function
+`HrMergeMAPISecUserX509CertAndABX509Cert@12` | 30 | Exported Function
+`HrSetDefaultMAPISecUserX509Cert@12` | 38 | Exported Function
+`HrWrapMessageForSecurityEx2@24` | 46 | Exported Function
+`HrWrapMessageForSecurityEx` | 45 | Exported Function
+`int __stdcall SecurityViewProps(struct IMessage *,struct HWND__ *)` | 3 | Exported Function
+`unsigned long __stdcall GetCertSubjectW(struct _CERT_CONTEXT const *,wchar_t *,unsigned long)` | 2 | Exported Function
+`unsigned long __stdcall GetCertSubjectExW(struct _CERT_CONTEXT const *,wchar_t const *,wchar_t *,unsigned long)` | 1 | Exported Function
+`HrWrapMessageForSecurity` | 44 | Exported Function
+`HrSetSecOptions@4` | 40 | Exported Function
+`HrSetDefaultSecProfile@12` | 39 | Exported Function
+`HrSetSecurityProfileProps@12` | 41 | Exported Function
+`HrVerifyCertEmailAddr@24` | 43 | Exported Function
+`HrUpdateSecProfileInfo@32` | 42 | Exported Function
+`HrDisplayEncInfo@8` | 11 | Exported Function
+`HrDisplayChangeSettingsDlg@8` | 10 | Exported Function
+`HrDisplayMAPISecUserX509Cert@12` | 12 | Exported Function
+`HrEditSecProfiles@20` | 14 | Exported Function
+`HrDisplaySigInfo@16` | 13 | Exported Function
+`HrDeleteSecurityProfileProps` | 9 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DecodeRecipientID` | 4 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`HrCertNameFromMAPISecUserX509W@16` | 8 | Exported Function
+`EncodeRecipientID` | 7 | Exported Function
+`HrExportX509CertToFileW@12` | 15 | Exported Function
+`HrGetSecProfileInfo@16` | 23 | Exported Function
+`HrGetSecOptions@4` | 22 | Exported Function
+`HrGetSecurityProfileProps@16` | 24 | Exported Function
 `HrIsSessionSecurityEnabled@8` | 26 | Exported Function
 `HrImportCertsFromFile@12` | 25 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`EncodeRecipientID` | 7 | Exported Function
-`HrCertNameFromMAPISecUserX509W@16` | 8 | Exported Function
-`HrDeleteSecurityProfileProps` | 9 | Exported Function
-`HrDisplayChangeSettingsDlg@8` | 10 | Exported Function
-`HrDisplayEncInfo@8` | 11 | Exported Function
-`HrDisplayMAPISecUserX509Cert@12` | 12 | Exported Function
-`HrDisplaySigInfo@16` | 13 | Exported Function
-`unsigned long __stdcall GetCertSubjectExW(struct _CERT_CONTEXT const *,wchar_t const *,wchar_t *,unsigned long)` | 1 | Exported Function
-`HrEditSecProfiles@20` | 14 | Exported Function
-`HrExsec32Initialize@4` | 16 | Exported Function
-`HrExsec32UnInitialize@4` | 17 | Exported Function
-`HrGetAttachmentStream@20` | 18 | Exported Function
-`HrGetDefaultMessageFormat` | 19 | Exported Function
-`HrGetDigitalID@20` | 20 | Exported Function
 `HrGetLockDownSecuritySettings@8` | 21 | Exported Function
-`HrGetSecOptions@4` | 22 | Exported Function
-`HrGetSecProfileInfo@16` | 23 | Exported Function
-`HrGetSecurityProfileProps@16` | 24 | Exported Function
-`HrExportX509CertToFileW@12` | 15 | Exported Function
-`unsigned long __stdcall GetCertSubjectW(struct _CERT_CONTEXT const *,wchar_t *,unsigned long)` | 2 | Exported Function
+`HrExsec32UnInitialize@4` | 17 | Exported Function
+`HrExsec32Initialize@4` | 16 | Exported Function
+`HrGetAttachmentStream@20` | 18 | Exported Function
+`HrGetDigitalID@20` | 20 | Exported Function
+`HrGetDefaultMessageFormat` | 19 | Exported Function
 
 
 ## Signature

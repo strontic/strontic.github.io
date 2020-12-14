@@ -26,14 +26,14 @@ PE256 | `AF5FF257041766864229DD0780AC6E39584EABE2900E50EDDACC047530FBB254`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FmtIdToPropStgName` | 1 | Exported Function
-`FreePropVariantArray` | 2 | Exported Function
-`PropStgNameToFmtId` | 3 | Exported Function
-`PropVariantClear` | 4 | Exported Function
-`PropVariantCopy` | 5 | Exported Function
 `StgCreatePropSetStg` | 6 | Exported Function
-`StgCreatePropStg` | 7 | Exported Function
+`PropVariantCopy` | 5 | Exported Function
 `StgOpenPropStg` | 8 | Exported Function
+`StgCreatePropStg` | 7 | Exported Function
+`FreePropVariantArray` | 2 | Exported Function
+`FmtIdToPropStgName` | 1 | Exported Function
+`PropVariantClear` | 4 | Exported Function
+`PropStgNameToFmtId` | 3 | Exported Function
 
 
 ## Signature

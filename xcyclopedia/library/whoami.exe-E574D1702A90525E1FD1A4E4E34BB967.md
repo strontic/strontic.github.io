@@ -41,7 +41,7 @@ SSDEEP | `1536:0YC/iQSH3F/eiGlMk0z979ziqOikSArZxEIsD5x2RaeL:0ktH1lcp2J9edhhqIsD5
 
 ## Possible Misuse
 
-*The following table contains possible examples of `whoami.exe` being misused. While `whoami.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `whoami.exe` being misused. While `whoami.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

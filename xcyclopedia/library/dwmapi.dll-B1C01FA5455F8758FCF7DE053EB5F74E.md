@@ -26,50 +26,50 @@ PE256 | `A728A15ACE7DCF0D2646F63B6C8A666CDECF7A089637A62AF53523A81D6E4FC8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 111 | Exported Function
-`DwmpEnableDDASupport` | 143 | Exported Function
-`DwmpFreeSecurityDescriptor` | 137 | Exported Function
-`DwmpGetColorizationParameters` | 127 | Exported Function
-`DwmpRenderFlick` | 135 | Exported Function
-`DwmpSetColorizationParameters` | 131 | Exported Function
 `DwmpUpdateProxyWindowForCapture` | 183 | Exported Function
+`DwmpSetColorizationParameters` | 131 | Exported Function
 `DwmQueryThumbnailSourceSize` | 186 | Exported Function
-`DwmRegisterThumbnail` | 187 | Exported Function
-`DwmpDxUpdateWindowSharedSurface` | 101 | Exported Function
 `DwmRenderGesture` | 188 | Exported Function
-`DwmSetIconicLivePreviewBitmap` | 190 | Exported Function
-`DwmSetIconicThumbnail` | 191 | Exported Function
-`DwmSetPresentParameters` | 192 | Exported Function
-`DwmSetWindowAttribute` | 193 | Exported Function
-`DwmShowContact` | 194 | Exported Function
-`DwmTetherContact` | 195 | Exported Function
-`DwmTetherTextContact` | 156 | Exported Function
-`DwmTransitionOwnedWindow` | 196 | Exported Function
-`DwmSetDxFrameDuration` | 189 | Exported Function
+`DwmRegisterThumbnail` | 187 | Exported Function
+`DwmpRenderFlick` | 135 | Exported Function
+`DwmpDxUpdateWindowSharedSurface` | 101 | Exported Function
 `DwmpDxgiIsThreadDesktopComposited` | 128 | Exported Function
+`DwmpEnableDDASupport` | 143 | Exported Function
+`DwmpGetColorizationParameters` | 127 | Exported Function
+`DwmpFreeSecurityDescriptor` | 137 | Exported Function
+`DwmTetherTextContact` | 156 | Exported Function
+`DwmTetherContact` | 195 | Exported Function
+`DwmTransitionOwnedWindow` | 196 | Exported Function
+`DwmUpdateThumbnailProperties` | 198 | Exported Function
+`DwmUnregisterThumbnail` | 197 | Exported Function
+`DwmShowContact` | 194 | Exported Function
+`DwmSetIconicLivePreviewBitmap` | 190 | Exported Function
+`DwmSetDxFrameDuration` | 189 | Exported Function
+`DwmSetIconicThumbnail` | 191 | Exported Function
+`DwmSetWindowAttribute` | 193 | Exported Function
+`DwmSetPresentParameters` | 192 | Exported Function
+`DwmEnableMMCSS` | 120 | Exported Function
+`DwmEnableComposition` | 102 | Exported Function
+`DwmExtendFrameIntoClientArea` | 121 | Exported Function
+`DwmGetColorizationColor` | 123 | Exported Function
+`DwmFlush` | 122 | Exported Function
+`DwmEnableBlurBehindWindow` | 119 | Exported Function
+`DllGetClassObject` | 115 | Exported Function
+`DllCanUnloadNow` | 111 | Exported Function
+`DwmAttachMilContent` | 116 | Exported Function
+`DwmDetachMilContent` | 118 | Exported Function
+`DwmDefWindowProc` | 117 | Exported Function
+`DwmIsCompositionEnabled` | 184 | Exported Function
+`DwmInvalidateIconicBitmaps` | 149 | Exported Function
+`DwmModifyPreviousDxFrameDuration` | 185 | Exported Function
 `DwmpDxGetWindowSharedSurface` | 100 | Exported Function
 `DwmpAllocateSecurityDescriptor` | 136 | Exported Function
-`DllGetClassObject` | 115 | Exported Function
-`DwmAttachMilContent` | 116 | Exported Function
-`DwmDefWindowProc` | 117 | Exported Function
-`DwmDetachMilContent` | 118 | Exported Function
-`DwmEnableBlurBehindWindow` | 119 | Exported Function
-`DwmEnableComposition` | 102 | Exported Function
-`DwmEnableMMCSS` | 120 | Exported Function
-`DwmExtendFrameIntoClientArea` | 121 | Exported Function
-`DwmFlush` | 122 | Exported Function
-`DwmGetColorizationColor` | 123 | Exported Function
-`DwmGetCompositionTimingInfo` | 125 | Exported Function
-`DwmGetGraphicsStreamClient` | 126 | Exported Function
-`DwmGetGraphicsStreamTransformHint` | 129 | Exported Function
-`DwmGetTransportAttributes` | 130 | Exported Function
-`DwmGetUnmetTabRequirements` | 133 | Exported Function
 `DwmGetWindowAttribute` | 134 | Exported Function
-`DwmInvalidateIconicBitmaps` | 149 | Exported Function
-`DwmIsCompositionEnabled` | 184 | Exported Function
-`DwmModifyPreviousDxFrameDuration` | 185 | Exported Function
-`DwmUnregisterThumbnail` | 197 | Exported Function
-`DwmUpdateThumbnailProperties` | 198 | Exported Function
+`DwmGetGraphicsStreamClient` | 126 | Exported Function
+`DwmGetCompositionTimingInfo` | 125 | Exported Function
+`DwmGetGraphicsStreamTransformHint` | 129 | Exported Function
+`DwmGetUnmetTabRequirements` | 133 | Exported Function
+`DwmGetTransportAttributes` | 130 | Exported Function
 
 
 ## Signature
@@ -99,10 +99,14 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dwmapi.dll` being misused. While `dwmapi.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dwmapi.dll` being misused. While `dwmapi.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-crutch-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-crutch-event.json) | `"value": "%PROGRAMFILES%\\(x86)\\Google\\Chrome\\Application\\dwmapi.dll",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-crutch-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-crutch-event.json) | `"value": "%LOCALAPPDATA%\\Microsoft\\OneDrive\\dwmapi.dll",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `++C:\Program Files (x86)\Google\Chrome\Application\dwmapi.dll++`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `++%LOCALAPPDATA%\Microsoft\OneDrive\dwmapi.dll++`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [exploit_uac_elevators.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_uac_elevators.yar) | $s1 = "%userprofile%\\Downloads\\dwmapi.dll" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [exploit_uac_elevators.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_uac_elevators.yar) | $s2 = "%windir%\\system32\\dwmapi.dll" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 

@@ -33,7 +33,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -68,7 +67,7 @@ C:\Windows\System32\WINTRUST.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/3fa0691cbdc871981560b8dce54491682cd7b574c5416defc889d90830fe63f8/detection
 
 ## File Similarity (ssdeep match)

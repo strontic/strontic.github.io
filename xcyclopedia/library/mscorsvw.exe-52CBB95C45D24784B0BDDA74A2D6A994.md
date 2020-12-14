@@ -38,16 +38,13 @@ C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\mscoree.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
 C:\Windows\System32\win32u.dll |
 
@@ -79,7 +76,7 @@ C:\Windows\System32\win32u.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mscorsvw.exe` being misused. While `mscorsvw.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mscorsvw.exe` being misused. While `mscorsvw.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

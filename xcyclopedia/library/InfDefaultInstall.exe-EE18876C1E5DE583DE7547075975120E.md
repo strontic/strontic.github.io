@@ -52,8 +52,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -62,13 +62,9 @@ Path |
 -- |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DEVOBJ.dll |
-C:\Windows\system32\DEVRTL.dll |
 C:\Windows\system32\drvstore.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\system32\InfDefaultInstall.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -119,7 +115,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `InfDefaultInstall.exe` being misused. While `InfDefaultInstall.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `InfDefaultInstall.exe` being misused. While `InfDefaultInstall.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

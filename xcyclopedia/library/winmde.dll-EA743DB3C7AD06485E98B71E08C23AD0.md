@@ -26,13 +26,13 @@ PE256 | `117E0A7CDE50F9B28C2F33586393D5A6DEEA59BEAE0AC0BFC4486222D7852EB2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `MFCreateNetVRoot` | 5 | Exported Function
 `MFCreateWinMDEOpCenter` | 7 | Exported Function
 `MFCreateWMPMDEOpCenter` | 6 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

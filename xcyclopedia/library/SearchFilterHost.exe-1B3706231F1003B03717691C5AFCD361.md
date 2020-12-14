@@ -55,7 +55,7 @@ C:\Windows\system32\SearchFilterHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/ffbcf5f709e1e017eac64af5c9e232140fca2d1a02a64c1fffd965b1e5ab842f/detection
 
 ## File Similarity (ssdeep match)
@@ -93,7 +93,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SearchFilterHost.exe` being misused. While `SearchFilterHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SearchFilterHost.exe` being misused. While `SearchFilterHost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

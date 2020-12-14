@@ -26,12 +26,12 @@ PE256 | `454F7CBDE142AE82E9A4D7B15E35E3789669B3565A672CE2CD7EEFE8A908FC47`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WmsgBroadcastMessage` | 1 | Exported Function
-`WmsgBroadcastNotifyMessage` | 2 | Exported Function
-`WmsgPostMessage` | 3 | Exported Function
 `WmsgPostNotifyMessage` | 4 | Exported Function
 `WmsgSendMessage` | 5 | Exported Function
 `WmsgSendPSPMessage` | 6 | Exported Function
+`WmsgBroadcastMessage` | 1 | Exported Function
+`WmsgBroadcastNotifyMessage` | 2 | Exported Function
+`WmsgPostMessage` | 3 | Exported Function
 
 
 ## Signature

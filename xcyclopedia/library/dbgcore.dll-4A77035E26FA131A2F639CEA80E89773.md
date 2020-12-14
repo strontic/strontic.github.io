@@ -26,8 +26,8 @@ PE256 | `BA228BFC09DB6AD4DD4CB80BC449D9E3AE4AE630A61039BBF9B71408871D8545`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MiniDumpReadDumpStream` | 1 | Exported Function
 `MiniDumpWriteDump` | 2 | Exported Function
+`MiniDumpReadDumpStream` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dbgcore.dll` being misused. While `dbgcore.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dbgcore.dll` being misused. While `dbgcore.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

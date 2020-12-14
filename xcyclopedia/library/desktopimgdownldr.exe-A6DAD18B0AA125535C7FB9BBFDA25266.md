@@ -49,7 +49,7 @@ PE256 | `E27EA5D623865C81054AF196AE390E289C5EC88004763719E726A06CD3BDE6EB`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `desktopimgdownldr.exe` being misused. While `desktopimgdownldr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `desktopimgdownldr.exe` being misused. While `desktopimgdownldr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

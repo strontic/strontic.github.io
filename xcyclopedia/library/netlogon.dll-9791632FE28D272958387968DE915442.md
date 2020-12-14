@@ -26,30 +26,30 @@ PE256 | `10539F7706811910C7A414FD7200013C0B997C43FDC77AF960EFB13085A5F16F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DsrGetDcNameEx2` | 1 | Exported Function
-`NetIGetEncTypes` | 22 | Exported Function
-`InitSecurityInterfaceW` | 21 | Exported Function
-`I_NetNotifyTrustedDomain` | 20 | Exported Function
-`I_NetNotifyRole` | 19 | Exported Function
-`I_NetNotifyNtdsDsaDeletion` | 18 | Exported Function
-`I_NetNotifyNetlogonDllHandle` | 17 | Exported Function
 `I_NetNotifyMachineAccount` | 16 | Exported Function
-`I_NetNotifyDsChange` | 15 | Exported Function
-`I_NetNotifyDelta` | 14 | Exported Function
+`I_NetNotifyNetlogonDllHandle` | 17 | Exported Function
+`I_NetNotifyNtdsDsaDeletion` | 18 | Exported Function
 `I_NetLogonSetServiceBits` | 13 | Exported Function
-`I_NetLogonSendToSamOnDc` | 12 | Exported Function
-`I_NetLogonReadChangeLog` | 11 | Exported Function
-`I_NetLogonNewChangeLog` | 10 | Exported Function
-`I_NetLogonMixedDomain` | 9 | Exported Function
-`I_NetLogonLdapLookupEx` | 8 | Exported Function
-`I_NetLogonGetSerialNumber` | 7 | Exported Function
-`I_NetLogonGetAuthDataEx` | 6 | Exported Function
-`I_NetLogonFree` | 5 | Exported Function
-`I_NetLogonCloseChangeLog` | 4 | Exported Function
-`I_NetLogonAppendChangeLog` | 3 | Exported Function
-`I_NetLogonAddressToSiteName` | 2 | Exported Function
+`I_NetNotifyDelta` | 14 | Exported Function
+`I_NetNotifyDsChange` | 15 | Exported Function
+`NetIGetEncTypes` | 22 | Exported Function
 `NetILogonSamLogon` | 23 | Exported Function
 `NlNetlogonMain` | 24 | Exported Function
+`I_NetNotifyRole` | 19 | Exported Function
+`I_NetNotifyTrustedDomain` | 20 | Exported Function
+`InitSecurityInterfaceW` | 21 | Exported Function
+`I_NetLogonCloseChangeLog` | 4 | Exported Function
+`I_NetLogonFree` | 5 | Exported Function
+`I_NetLogonGetAuthDataEx` | 6 | Exported Function
+`DsrGetDcNameEx2` | 1 | Exported Function
+`I_NetLogonAddressToSiteName` | 2 | Exported Function
+`I_NetLogonAppendChangeLog` | 3 | Exported Function
+`I_NetLogonNewChangeLog` | 10 | Exported Function
+`I_NetLogonReadChangeLog` | 11 | Exported Function
+`I_NetLogonSendToSamOnDc` | 12 | Exported Function
+`I_NetLogonGetSerialNumber` | 7 | Exported Function
+`I_NetLogonLdapLookupEx` | 8 | Exported Function
+`I_NetLogonMixedDomain` | 9 | Exported Function
 
 
 ## Signature
@@ -79,7 +79,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `netlogon.dll` being misused. While `netlogon.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `netlogon.dll` being misused. While `netlogon.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

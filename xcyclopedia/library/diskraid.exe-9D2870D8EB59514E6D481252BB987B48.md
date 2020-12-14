@@ -30,7 +30,7 @@ PE256 | `F572C50ACCE476B0B1D8A1FFCCA3C8BC0243DD12546C49D85700CBAAFB38B99B`
 Microsoft DiskRAID version 10.0.19041.1
 
 Copyright (C) 2003-2013 Microsoft Corporation.
-On computer: 4BBCEEA8-6A14-4
+On computer: 18CE68CB-4304-4
 
 Usage:  DISKRAID [/? | [/s <script>] [/v]]
 

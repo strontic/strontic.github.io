@@ -26,8 +26,8 @@ PE256 | `1D454CEC5BA962DD4220C7F8A108680853CC55BE1E89A41409E1A5B21A32BB68`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Clean_WMP` | 1 | Exported Function
 `Sysprep_Generalize_WMP` | 2 | Exported Function
+`Sysprep_Clean_WMP` | 1 | Exported Function
 
 
 ## Signature

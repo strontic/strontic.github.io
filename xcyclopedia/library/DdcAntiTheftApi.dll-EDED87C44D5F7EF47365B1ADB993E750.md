@@ -26,11 +26,11 @@ PE256 | `DD6FD963814EEC9FFEB1B4B35D0EA01522E89CF81936AEDC9F6DD7607CE6B9A1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AntiTheftAckProtectionEnabled` | 1 | Exported Function
-`AntiTheftCheckProtectionStatus` | 2 | Exported Function
-`AntiTheftProtectDevice` | 3 | Exported Function
 `AntiTheftUnprotectDevice` | 4 | Exported Function
 `AntiTheftUnprotectDeviceFromOOBE` | 5 | Exported Function
+`AntiTheftProtectDevice` | 3 | Exported Function
+`AntiTheftAckProtectionEnabled` | 1 | Exported Function
+`AntiTheftCheckProtectionStatus` | 2 | Exported Function
 
 
 ## Signature

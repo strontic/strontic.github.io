@@ -41,13 +41,10 @@ Path | Type
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\coredpussvr.exe |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
@@ -74,7 +71,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/3478ad525fe16ef4d7742f547c45d4fcd9046378b19ecce963606e0392308209/detection
 
 

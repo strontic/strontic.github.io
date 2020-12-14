@@ -26,10 +26,10 @@ PE256 | `2F973D2D00F6E3812DFB1E844C63544E85FC5A8B14E68DB22E98693504525B62`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `StartMaintenance` | 3 | Exported Function
 `SvchostPushServiceGlobals` | 4 | Exported Function
+`DllMain` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
 
 
 ## Signature

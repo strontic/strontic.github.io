@@ -26,9 +26,9 @@ PE256 | `72C2593F0F02D820F9395692E9C3F978A72744057870FEF1551960A39CD584C1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsOcr::IOcrEngine` | 1 | Exported Function
-`MsOcr::OcrLanguage` | 2 | Exported Function
 `MsOcr::GetOcrVersion` | 3 | Exported Function
+`MsOcr::OcrLanguage` | 2 | Exported Function
+`MsOcr::IOcrEngine` | 1 | Exported Function
 
 
 ## Signature

@@ -26,12 +26,12 @@ PE256 | `6C6BE01AD064AA7B57BCBEC7CC85567437D2ACB2B0D62B20B0B88157E21F226E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DoAction` | 1 | Exported Function
-`EnumServices` | 2 | Exported Function
-`FreePropertyBag` | 3 | Exported Function
 `FreeService` | 4 | Exported Function
 `InitService` | 5 | Exported Function
 `RecognizeText` | 6 | Exported Function
+`DoAction` | 1 | Exported Function
+`EnumServices` | 2 | Exported Function
+`FreePropertyBag` | 3 | Exported Function
 
 
 ## Signature

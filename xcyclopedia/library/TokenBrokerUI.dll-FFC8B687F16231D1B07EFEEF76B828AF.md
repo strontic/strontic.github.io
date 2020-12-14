@@ -26,8 +26,8 @@ PE256 | `C21674426420223A30BDD68A3FC4846A639D03695E7ACCBDE38E6CDF47FAAD72`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TokenBrokerGetEdgeSids` | 1 | Exported Function
 `TokenBrokerGetPushCookieMonikers` | 2 | Exported Function
+`TokenBrokerGetEdgeSids` | 1 | Exported Function
 
 
 ## Signature

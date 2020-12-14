@@ -7,8 +7,6 @@ excerpt: What is PresentationHost.exe?
 
 * File Path: `C:\Windows\system32\PresentationHost.exe`
 * Description: Windows Presentation Foundation Host
-* Comments: Flavor=Retail
-
 
 ## Hashes
 
@@ -33,30 +31,16 @@ iexplore.exe
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mscoree.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLE32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\PresentationHost.exe |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\urlmon.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WININET.dll |
 
 
 ## Signature
@@ -69,18 +53,18 @@ C:\Windows\system32\WININET.dll |
 
 ## File Metadata
 
-* Original Filename: PresentationHost.exe.mui
-* Product Name: Microsoft .NET Framework
+* Original Filename: PresentationHost.exe
+* Product Name: Microsoft Windows Operating System
 * Company Name: Microsoft Corporation
-* File Version: 4.0.41210.0 built by: Main
-* Product Version: 4.0.41210.0
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
 * Language: English (United States)
-* Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
 * Machine Type: 64-bit
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/17d6dcfaced6873a4ac0361ff14f48313f270ac9c465e9f02b5c12b5a5274c48/detection
 
 ## File Similarity (ssdeep match)
@@ -99,7 +83,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PresentationHost.exe` being misused. While `PresentationHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PresentationHost.exe` being misused. While `PresentationHost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

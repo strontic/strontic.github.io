@@ -26,14 +26,14 @@ PE256 | `2C5ECB6C65D03963B7AC744F3280208D7D2076419831EB173291AA7C8A6F60E3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 7 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
-`PsCreateHash` | 1 | Exported Function
-`PsDelSignature` | 2 | Exported Function
-`PsGetSignature` | 3 | Exported Function
 `PsIsMyFileType` | 4 | Exported Function
-`PsPutSignature` | 5 | Exported Function
+`PsGetSignature` | 3 | Exported Function
 `PsVerifyHash` | 6 | Exported Function
+`PsPutSignature` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`PsDelSignature` | 2 | Exported Function
+`PsCreateHash` | 1 | Exported Function
 
 
 ## Signature

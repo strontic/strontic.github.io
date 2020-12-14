@@ -26,14 +26,14 @@ PE256 | `043E920868D62BCA909F623C354204FE8E3E476BAEBC18461EA5A4C16D926C78`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PushRouter_Close` | 1 | Exported Function
-`PushRouter_FreeGetMessageEventName` | 11 | Exported Function
-`PushRouter_FreeMessage` | 8 | Exported Function
-`PushRouter_FreeMessageEx` | 10 | Exported Function
-`PushRouter_GetMessage` | 2 | Exported Function
 `PushRouter_GetMessageEx` | 9 | Exported Function
-`PushRouter_Open` | 3 | Exported Function
+`PushRouter_GetMessage` | 2 | Exported Function
 `PushRouter_SubmitPush` | 6 | Exported Function
+`PushRouter_Open` | 3 | Exported Function
+`PushRouter_FreeGetMessageEventName` | 11 | Exported Function
+`PushRouter_Close` | 1 | Exported Function
+`PushRouter_FreeMessageEx` | 10 | Exported Function
+`PushRouter_FreeMessage` | 8 | Exported Function
 
 
 ## Signature

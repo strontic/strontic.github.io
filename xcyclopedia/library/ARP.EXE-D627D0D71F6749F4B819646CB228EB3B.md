@@ -41,7 +41,7 @@ SSDEEP | `384:nl529MPeNVyPGk7KNh60sSQaNZUCXEuUgsZDn3XNNo8zuzMwqWSDmW:nl529rVCauS
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ARP.EXE` being misused. While `ARP.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ARP.EXE` being misused. While `ARP.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,13 +26,13 @@ PE256 | `A64D6F74C2B219815B5A7D8CECB646E3C17050FC3E75B048227B8341FA252A26`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WlanIsActiveConsoleUser` | 1 | Exported Function
-`WlanSignalValueToBar` | 2 | Exported Function
-`WlanSignalValueToBarEx` | 3 | Exported Function
-`WlanSsidToDisplayName` | 4 | Exported Function
 `WlanStringToSsid` | 5 | Exported Function
 `WlanStringToUtf8Ssid` | 6 | Exported Function
 `WlanUtf8SsidToDisplayName` | 7 | Exported Function
+`WlanSsidToDisplayName` | 4 | Exported Function
+`WlanIsActiveConsoleUser` | 1 | Exported Function
+`WlanSignalValueToBar` | 2 | Exported Function
+`WlanSignalValueToBarEx` | 3 | Exported Function
 
 
 ## Signature

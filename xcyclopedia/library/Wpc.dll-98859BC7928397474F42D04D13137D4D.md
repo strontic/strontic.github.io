@@ -26,12 +26,12 @@ PE256 | `626B059B7983584FF5C77D9D35D3E701A2ED5C12746F9441604C11B74659AF99`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `WpcTimeRestrictionsCreateLocalOverride` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

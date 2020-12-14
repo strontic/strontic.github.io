@@ -49,7 +49,7 @@ PE256 | `1D20331C1C5C77520B4F2B80E077904BCF2B54DDE4E3BA95159DCA5B7A4D4557`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wininit.exe` being misused. While `wininit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wininit.exe` being misused. While `wininit.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

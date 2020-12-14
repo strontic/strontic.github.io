@@ -26,38 +26,38 @@ PE256 | `0417C0CAA2744BC94589C99AE175E225E36A37FEE0DEDCE11B4B360E07B2B232`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`container::ShutdownAppContainer` | 14 | Exported Function
-`WcSetRegistryFlushState` | 30 | Exported Function
-`WcReleaseContainerTerminationNotification` | 29 | Exported Function
-`WcRegisterForContainerTerminationNotification` | 28 | Exported Function
-`WcLaunchContainer` | 27 | Exported Function
-`WcLaunchApplicationContainer` | 26 | Exported Function
-`WcIsContainerQuiescent` | 25 | Exported Function
-`WcGetContainerRegistryRootPath` | 24 | Exported Function
-`WcGetContainerObjectRootPath` | 23 | Exported Function
 `WcGetContainerIdentifier` | 22 | Exported Function
 `WcGetComRegistryRoot` | 21 | Exported Function
-`WcDestroyDescription` | 20 | Exported Function
-`WcCreateDescriptionFromXml` | 19 | Exported Function
+`WcGetContainerRegistryRootPath` | 24 | Exported Function
+`WcGetContainerObjectRootPath` | 23 | Exported Function
 `WcCreateContainer` | 18 | Exported Function
 `WcCleanupContainer` | 17 | Exported Function
-`WcAddRuntimeVirtualKeysToContainer` | 16 | Exported Function
-`container::WaitForContainerTerminationNotification` | 15 | Exported Function
-`container::SetRegistryFlushState` | 13 | Exported Function
-`container::ReleaseContainerTerminationNotification` | 12 | Exported Function
-`container::LaunchContainer` | 10 | Exported Function
-`std::allocator` | 7 | Exported Function
-`std::allocator` | 6 | Exported Function
-`DefinitionFile::Container` | 3 | Exported Function
-`container::CleanupContainer` | 2 | Exported Function
-`container::AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`WcDestroyDescription` | 20 | Exported Function
+`WcCreateDescriptionFromXml` | 19 | Exported Function
+`WcSetRegistryFlushState` | 30 | Exported Function
+`WcReleaseContainerTerminationNotification` | 29 | Exported Function
+`WcWaitForContainerTerminationNotification` | 32 | Exported Function
+`WcShutdownAppContainer` | 31 | Exported Function
+`WcLaunchApplicationContainer` | 26 | Exported Function
+`WcIsContainerQuiescent` | 25 | Exported Function
+`WcRegisterForContainerTerminationNotification` | 28 | Exported Function
+`WcLaunchContainer` | 27 | Exported Function
 `container::LaunchApplicationContainer` | 9 | Exported Function
 `container::GetComRegistryRoot` | 4 | Exported Function
+`container::CleanupContainer` | 2 | Exported Function
+`container::AddRuntimeVirtualKeysToContainer` | 1 | Exported Function
+`container::GetContainerIdentifierString` | 5 | Exported Function
+`container::ShutdownAppContainer` | 14 | Exported Function
 `container::IsContainerQuiescent` | 8 | Exported Function
 `container::RegisterForContainerTerminationNotification` | 11 | Exported Function
-`container::GetContainerIdentifierString` | 5 | Exported Function
-`WcShutdownAppContainer` | 31 | Exported Function
-`WcWaitForContainerTerminationNotification` | 32 | Exported Function
+`container::SetRegistryFlushState` | 13 | Exported Function
+`container::ReleaseContainerTerminationNotification` | 12 | Exported Function
+`WcAddRuntimeVirtualKeysToContainer` | 16 | Exported Function
+`container::WaitForContainerTerminationNotification` | 15 | Exported Function
+`std::allocator` | 6 | Exported Function
+`DefinitionFile::Container` | 3 | Exported Function
+`container::LaunchContainer` | 10 | Exported Function
+`std::allocator` | 7 | Exported Function
 
 
 ## Signature
@@ -87,7 +87,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `container.dll` being misused. While `container.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `container.dll` being misused. While `container.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

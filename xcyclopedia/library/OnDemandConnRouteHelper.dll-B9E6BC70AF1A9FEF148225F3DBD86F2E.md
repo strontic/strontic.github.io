@@ -26,14 +26,14 @@ PE256 | `F808423801C22E548677F5FF8D7B9F9F1DDA03AA3FD4591616B05A2573A73D01`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FreeInterfaceContextTable` | 1 | Exported Function
-`GetInterfaceContextTableForHostName` | 2 | Exported Function
-`OnDemandAddRouteRequest` | 3 | Exported Function
-`OnDemandGetRoutingHint` | 4 | Exported Function
-`OnDemandRegisterNotification` | 5 | Exported Function
 `OnDemandRemoveMatchingRoute` | 6 | Exported Function
-`OnDemandRemoveRouteRequest` | 7 | Exported Function
+`OnDemandRegisterNotification` | 5 | Exported Function
 `OnDemandUnRegisterNotification` | 8 | Exported Function
+`OnDemandRemoveRouteRequest` | 7 | Exported Function
+`GetInterfaceContextTableForHostName` | 2 | Exported Function
+`FreeInterfaceContextTable` | 1 | Exported Function
+`OnDemandGetRoutingHint` | 4 | Exported Function
+`OnDemandAddRouteRequest` | 3 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `CB5A5735E6D2453AC3C5201151F9AE7A1F94AB399F9C2793BC30FAD6583A9F13`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllMain` | 5 | Exported Function
 `WUCreateExpressionEvaluator` | 1 | Exported Function
 `WUCreateUpdateHandler` | 2 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

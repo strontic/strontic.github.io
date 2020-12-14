@@ -26,26 +26,26 @@ PE256 | `247AE21995ACB10461FC4CA2897361FD799E985F43FE54CF15C90A6A36BF0265`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TelLib_Cleanup` | 1 | Exported Function
-`TelLib_SetTimerValue` | 18 | Exported Function
-`TelLib_SetProxyInfo` | 17 | Exported Function
-`TelLib_SetNetworkState` | 16 | Exported Function
-`TelLib_SetNetworkImpersonationContext` | 15 | Exported Function
 `TelLib_SetNetworkActivityCallback` | 14 | Exported Function
+`TelLib_SetNetworkImpersonationContext` | 15 | Exported Function
 `TelLib_SetGeneralQuietMode` | 13 | Exported Function
-`TelLib_SetDiskQuota` | 12 | Exported Function
 `TelLib_SetDiskActivityCallback` | 11 | Exported Function
-`TelLib_SetDailyUploadQuota` | 10 | Exported Function
-`TelLib_SetConnectedStandby` | 9 | Exported Function
-`TelLib_SetBatteryState` | 8 | Exported Function
-`TelLib_SetBandwidthExceededChangedCallback` | 7 | Exported Function
-`TelLib_SetAgentConnectivityCallback` | 6 | Exported Function
-`TelLib_Initialize` | 5 | Exported Function
-`TelLib_ForceUpload` | 4 | Exported Function
-`TelLib_EventWrite` | 3 | Exported Function
-`TelLib_ConfigureSetting` | 2 | Exported Function
+`TelLib_SetDiskQuota` | 12 | Exported Function
 `TelLib_SetUploadFailedCallback` | 19 | Exported Function
 `TelLib_SetUploadUrls` | 20 | Exported Function
+`TelLib_SetTimerValue` | 18 | Exported Function
+`TelLib_SetNetworkState` | 16 | Exported Function
+`TelLib_SetProxyInfo` | 17 | Exported Function
+`TelLib_ForceUpload` | 4 | Exported Function
+`TelLib_Initialize` | 5 | Exported Function
+`TelLib_EventWrite` | 3 | Exported Function
+`TelLib_Cleanup` | 1 | Exported Function
+`TelLib_ConfigureSetting` | 2 | Exported Function
+`TelLib_SetConnectedStandby` | 9 | Exported Function
+`TelLib_SetDailyUploadQuota` | 10 | Exported Function
+`TelLib_SetBatteryState` | 8 | Exported Function
+`TelLib_SetAgentConnectivityCallback` | 6 | Exported Function
+`TelLib_SetBandwidthExceededChangedCallback` | 7 | Exported Function
 
 
 ## Signature

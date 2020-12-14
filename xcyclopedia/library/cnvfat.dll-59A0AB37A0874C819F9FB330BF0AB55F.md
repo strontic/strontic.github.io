@@ -26,8 +26,8 @@ PE256 | `C0348C19CD546FF75B1C34D88B0701051F13281176C7F7609EB8C50F0B5E12E2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConvertFAT` | 2 | Exported Function
 `IsConversionAvailable` | 1 | Exported Function
+`ConvertFAT` | 2 | Exported Function
 
 
 ## Signature

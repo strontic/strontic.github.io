@@ -25,27 +25,27 @@ PE256 | `8C679CD4609338847CCFB8A4204481C0EFB896032F097A84AEF5578C5A2F0B7F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TextInputMethodFormatter::ConnectToHost` | 3 | Exported Function
-`TextInputMethodFormatter::SetTISTarget` | 19 | Exported Function
-`TextInputMethodFormatter::SetTICTarget` | 18 | Exported Function
-`TextInputMethodFormatter::SetCIVTarget` | 17 | Exported Function
-`TextInputMethodFormatter::SetCIVMTarget` | 16 | Exported Function
 `TextInputMethodFormatter::Initialize` | 14 | Exported Function
+`TextInputMethodFormatter::SetCIVMTarget` | 16 | Exported Function
 `TextInputMethodFormatter::GetTVKRImpl` | 11 | Exported Function
-`TextInputMethodFormatter::GetTVIImpl` | 10 | Exported Function
 `TextInputMethodFormatter::GetTISImpl` | 9 | Exported Function
+`TextInputMethodFormatter::GetTVIImpl` | 10 | Exported Function
 `TextInputMethodFormatter::SetTVKRTarget` | 20 | Exported Function
-`TextInputMethodFormatter::GetTICImpl` | 8 | Exported Function
-`TextInputMethodFormatter::GetCIVMSender` | 5 | Exported Function
-`std::allocator` | 4 | Exported Function
-`TextInputMethodFormatter::GetIsHost` | 7 | Exported Function
-`TextInputMethodFormatter::ProcessQueue` | 15 | Exported Function
-`TextInputMethodFormatter::Initialize` | 13 | Exported Function
-`TextInputMethodFormatter::GetVirtTIS` | 12 | Exported Function
-`public: __thiscall TextInputMethodFormatter::~TextInputMethodFormatter(void)` | 2 | Exported Function
-`TextInputMethodFormatter::TextInputMethodFormatter` | 1 | Exported Function
-`TextInputMethodFormatter::GetCIVSender` | 6 | Exported Function
 `TextInputMethodFormatter::Uninitialize` | 21 | Exported Function
+`TextInputMethodFormatter::SetTISTarget` | 19 | Exported Function
+`TextInputMethodFormatter::SetCIVTarget` | 17 | Exported Function
+`TextInputMethodFormatter::SetTICTarget` | 18 | Exported Function
+`TextInputMethodFormatter::GetTICImpl` | 8 | Exported Function
+`TextInputMethodFormatter::GetVirtTIS` | 12 | Exported Function
+`TextInputMethodFormatter::Initialize` | 13 | Exported Function
+`public: __thiscall TextInputMethodFormatter::~TextInputMethodFormatter(void)` | 2 | Exported Function
+`TextInputMethodFormatter::ConnectToHost` | 3 | Exported Function
+`TextInputMethodFormatter::TextInputMethodFormatter` | 1 | Exported Function
+`TextInputMethodFormatter::GetCIVMSender` | 5 | Exported Function
+`TextInputMethodFormatter::GetCIVSender` | 6 | Exported Function
+`std::allocator` | 4 | Exported Function
+`TextInputMethodFormatter::ProcessQueue` | 15 | Exported Function
+`TextInputMethodFormatter::GetIsHost` | 7 | Exported Function
 
 
 ## Signature

@@ -26,18 +26,18 @@ PE256 | `279707C7A70161EC290EE5E994FF981B0E8FF1FB7504CF2CC52F48B3E27B3BBE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VidBitBlt` | 1 | Exported Function
-`VidBitBltEx` | 2 | Exported Function
-`VidBufferToScreenBlt` | 3 | Exported Function
-`VidCleanUp` | 4 | Exported Function
-`VidDisplayString` | 5 | Exported Function
-`VidDisplayStringXY` | 6 | Exported Function
-`VidInitialize` | 7 | Exported Function
-`VidResetDisplay` | 8 | Exported Function
 `VidScreenToBufferBlt` | 9 | Exported Function
-`VidSetScrollRegion` | 10 | Exported Function
-`VidSetTextColor` | 11 | Exported Function
+`VidResetDisplay` | 8 | Exported Function
+`VidInitialize` | 7 | Exported Function
 `VidSolidColorFill` | 12 | Exported Function
+`VidSetTextColor` | 11 | Exported Function
+`VidSetScrollRegion` | 10 | Exported Function
+`VidBufferToScreenBlt` | 3 | Exported Function
+`VidBitBltEx` | 2 | Exported Function
+`VidBitBlt` | 1 | Exported Function
+`VidDisplayStringXY` | 6 | Exported Function
+`VidDisplayString` | 5 | Exported Function
+`VidCleanUp` | 4 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `FFA4B1B64B21C8DDB7ACD42F09C427E2A14B5C29E49EDB1E2BCC09CEB2095266`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EncryptDumpFile` | 1 | Exported Function
 `EncryptDumpStream` | 2 | Exported Function
+`EncryptDumpFile` | 1 | Exported Function
 
 
 ## Signature
@@ -63,6 +63,7 @@ File | Score
 [C:\Windows\system32\LocationFrameworkPS.dll](LocationFrameworkPS.dll-FBF3B3CCC037AD1D9FC36C28D0E29A25.md) | 36
 [C:\Windows\system32\migwiz\migres.dll](migres.dll-E937B164DC2D2A03490AC3EB9D5875B2.md) | 38
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 30
+[C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-5D20EF28D0B222CA57F47524F2D3E8C0.md) | 38
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 32
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 30
 [C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\UndockedDevKit.exe](UndockedDevKit.exe-C1FD0D396683E3F59646E4CEC2A55A85.md) | 33

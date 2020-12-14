@@ -26,27 +26,27 @@ PE256 | `29D2A2A4D963A0DE953ED8F3785D672DFA5DF5F786531E2D39B4D1316E5BF3CA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ORCloseHive` | 1 | Exported Function
-`ORSetKeySecurity` | 19 | Exported Function
-`ORSaveHive` | 18 | Exported Function
-`ORRenameKey` | 17 | Exported Function
-`ORQueryInfoKey` | 16 | Exported Function
 `OROpenKey` | 15 | Exported Function
+`ORQueryInfoKey` | 16 | Exported Function
 `OROpenHiveByHandle` | 14 | Exported Function
-`OROpenHive` | 13 | Exported Function
 `ORGetVirtualFlags` | 12 | Exported Function
+`OROpenHive` | 13 | Exported Function
 `ORSetValue` | 20 | Exported Function
-`ORGetVersion` | 11 | Exported Function
-`ORGetKeySecurity` | 9 | Exported Function
-`OREnumValue` | 8 | Exported Function
-`OREnumKey` | 7 | Exported Function
-`ORDeleteValue` | 6 | Exported Function
-`ORDeleteKey` | 5 | Exported Function
-`ORCreateKey` | 4 | Exported Function
-`ORCreateHive` | 3 | Exported Function
-`ORCloseKey` | 2 | Exported Function
-`ORGetValue` | 10 | Exported Function
 `ORSetVirtualFlags` | 21 | Exported Function
+`ORSetKeySecurity` | 19 | Exported Function
+`ORRenameKey` | 17 | Exported Function
+`ORSaveHive` | 18 | Exported Function
+`ORGetVersion` | 11 | Exported Function
+`ORCreateKey` | 4 | Exported Function
+`ORDeleteKey` | 5 | Exported Function
+`ORCreateHive` | 3 | Exported Function
+`ORCloseHive` | 1 | Exported Function
+`ORCloseKey` | 2 | Exported Function
+`ORGetKeySecurity` | 9 | Exported Function
+`ORGetValue` | 10 | Exported Function
+`OREnumValue` | 8 | Exported Function
+`ORDeleteValue` | 6 | Exported Function
+`OREnumKey` | 7 | Exported Function
 
 
 ## Signature

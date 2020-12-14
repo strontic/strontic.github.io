@@ -61,7 +61,7 @@ C:\Windows\SYSTEM32\wintypes.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/7b24c56bd854742a55ccb2210846b71a48ee821b1dfa1ef70918b63da0005a1a/detection
 
 

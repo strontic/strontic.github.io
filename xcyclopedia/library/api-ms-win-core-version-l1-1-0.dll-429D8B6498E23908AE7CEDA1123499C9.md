@@ -26,10 +26,10 @@ PE256 | `C8432E38DE7FA02EAC2FCF76C70B697F94CE01A3C4BFC20496DE4A74D3C7EC48`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetFileVersionInfoExW` | 1 | Exported Function
-`GetFileVersionInfoSizeExW` | 2 | Exported Function
 `VerFindFileW` | 3 | Exported Function
 `VerQueryValueW` | 4 | Exported Function
+`GetFileVersionInfoExW` | 1 | Exported Function
+`GetFileVersionInfoSizeExW` | 2 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `65F546D261C0CF401BEA172DEA5D7CB65BE04FE2A1E3084E98D61B8F5D7ADE3C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AuthBrokerClearThreadClientContext` | 2 | Exported Function
-`AuthBrokerCreateClientContext` | 3 | Exported Function
-`AuthBrokerFreeClientContext` | 4 | Exported Function
-`AuthBrokerSetThreadClientContext` | 5 | Exported Function
-`DllCanUnloadNow` | 6 | Exported Function
-`DllGetActivationFactory` | 7 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
 `DllInstall` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
 `DllRegisterServer` | 10 | Exported Function
-`FindCallingThreadImmersiveWindow` | 1 | Exported Function
 `PurgeAuthHostSsoCache` | 11 | Exported Function
+`FindCallingThreadImmersiveWindow` | 1 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`AuthBrokerCreateClientContext` | 3 | Exported Function
+`AuthBrokerClearThreadClientContext` | 2 | Exported Function
+`AuthBrokerFreeClientContext` | 4 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`AuthBrokerSetThreadClientContext` | 5 | Exported Function
 
 
 ## Signature

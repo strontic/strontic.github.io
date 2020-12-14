@@ -26,21 +26,21 @@ PE256 | `6C59A7FE038BF43819CE4AA3E01C6A9981B7FBFA7DB4A8EB2CC4F8CFD5D2CBF6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FveAuthWithClearKey` | 1 | Exported Function
-`FveAuthWithKey` | 2 | Exported Function
-`FveAuthWithPassphraseW` | 3 | Exported Function
-`FveAuthWithPasswordW` | 4 | Exported Function
-`FveCreateRestoreContext` | 5 | Exported Function
-`FveDecryptData` | 6 | Exported Function
-`FveDestroyRestoreContext` | 7 | Exported Function
-`FveGetConvLogOffset` | 8 | Exported Function
-`FveGetInterruptedRangeOffset` | 9 | Exported Function
-`FveGetMetadataFromRestoreContext` | 10 | Exported Function
 `FveLoadConvLog` | 11 | Exported Function
+`FveGetMetadataFromRestoreContext` | 10 | Exported Function
+`FveGetInterruptedRangeOffset` | 9 | Exported Function
 `FveRecoverBlock` | 12 | Exported Function
-`FveSupplyInformationBlock` | 13 | Exported Function
-`FveSupplyKeyPackage` | 14 | Exported Function
 `FveSupplyWatermark` | 15 | Exported Function
+`FveSupplyKeyPackage` | 14 | Exported Function
+`FveSupplyInformationBlock` | 13 | Exported Function
+`FveGetConvLogOffset` | 8 | Exported Function
+`FveAuthWithPassphraseW` | 3 | Exported Function
+`FveAuthWithKey` | 2 | Exported Function
+`FveAuthWithClearKey` | 1 | Exported Function
+`FveAuthWithPasswordW` | 4 | Exported Function
+`FveDestroyRestoreContext` | 7 | Exported Function
+`FveDecryptData` | 6 | Exported Function
+`FveCreateRestoreContext` | 5 | Exported Function
 
 
 ## Signature

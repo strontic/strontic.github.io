@@ -26,9 +26,9 @@ PE256 | `B2BD7C82A6A527EB4C29403BBEE0CA71C368C817A3FE39807E0D0AE48653223B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `MsfeedsCreateInstance` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

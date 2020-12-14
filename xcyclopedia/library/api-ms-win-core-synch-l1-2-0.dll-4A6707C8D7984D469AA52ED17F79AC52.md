@@ -26,23 +26,23 @@ PE256 | `9F708C4F3E2A920EAB15621E203C9EBEF7F0C6CDC6AD91DB864406ABDB400321`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeleteSynchronizationBarrier` | 1 | Exported Function
-`WakeByAddressAll` | 15 | Exported Function
-`WakeAllConditionVariable` | 14 | Exported Function
-`WaitOnAddress` | 13 | Exported Function
 `SleepConditionVariableSRW` | 12 | Exported Function
-`SleepConditionVariableCS` | 11 | Exported Function
+`WaitOnAddress` | 13 | Exported Function
 `Sleep` | 10 | Exported Function
+`SleepConditionVariableCS` | 11 | Exported Function
 `WakeByAddressSingle` | 16 | Exported Function
-`SignalObjectAndWait` | 9 | Exported Function
-`InitOnceExecuteOnce` | 5 | Exported Function
-`InitOnceComplete` | 4 | Exported Function
-`InitOnceBeginInitialize` | 3 | Exported Function
-`InitializeSynchronizationBarrier` | 8 | Exported Function
-`InitializeConditionVariable` | 7 | Exported Function
-`EnterSynchronizationBarrier` | 2 | Exported Function
-`InitOnceInitialize` | 6 | Exported Function
 `WakeConditionVariable` | 17 | Exported Function
+`WakeAllConditionVariable` | 14 | Exported Function
+`WakeByAddressAll` | 15 | Exported Function
+`SignalObjectAndWait` | 9 | Exported Function
+`InitializeConditionVariable` | 7 | Exported Function
+`InitializeSynchronizationBarrier` | 8 | Exported Function
+`DeleteSynchronizationBarrier` | 1 | Exported Function
+`EnterSynchronizationBarrier` | 2 | Exported Function
+`InitOnceExecuteOnce` | 5 | Exported Function
+`InitOnceInitialize` | 6 | Exported Function
+`InitOnceBeginInitialize` | 3 | Exported Function
+`InitOnceComplete` | 4 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `C49D4E5ADF5F4CA07A5260C2B58C6F9568D637CAE5454079B8D15000D3D1CFE5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
 `GetKeyStorageInterface` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

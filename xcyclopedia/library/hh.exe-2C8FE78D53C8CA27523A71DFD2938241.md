@@ -35,7 +35,8 @@ File Download
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\~DFE2F80F29560AE73C.TMP | File
+(R--)   C:\Users\user\AppData\Local\Temp\~DF742340B93F3B9977.TMP | File
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\en-US\hh.exe.mui | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
@@ -55,7 +56,7 @@ Path | Type
 (RWD)   C:\Users\user | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DFEC014E5D9B964612.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF7CA6DA5EA1AEEB02.TMP | File
 (RWD)   C:\Windows\Fonts | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
@@ -65,15 +66,15 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\194HWNDInterface:4109b8 | Section
-\Sessions\1\BaseNamedObjects\194HWNDInterface:8908b6 | Section
+\Sessions\1\BaseNamedObjects\d34HWNDInterface:3e0720 | Section
+\Sessions\1\BaseNamedObjects\d34HWNDInterface:6d0474 | Section
 \Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -82,13 +83,11 @@ Path |
 -- |
 C:\Windows\hh.exe |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\hhctrl.ocx |
 C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -102,7 +101,6 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28\COMCTL32.dll |
 
@@ -128,7 +126,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/eb63fd45ed7ec773eccaf0f20d44bc9b4ed0a3e01779d62321b1da954a0f6eb8/detection
 
 ## File Similarity (ssdeep match)
@@ -147,7 +145,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `hh.exe` being misused. While `hh.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `hh.exe` being misused. While `hh.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

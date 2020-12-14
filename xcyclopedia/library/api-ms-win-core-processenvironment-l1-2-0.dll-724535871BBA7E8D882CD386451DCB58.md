@@ -26,9 +26,9 @@ PE256 | `DD32FD1C0AFD4E1B30B787419F38A2A0B720DCD335E035264AC06AB9F3D68A4C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NeedCurrentDirectoryForExePathA` | 1 | Exported Function
-`NeedCurrentDirectoryForExePathW` | 2 | Exported Function
 `SearchPathA` | 3 | Exported Function
+`NeedCurrentDirectoryForExePathW` | 2 | Exported Function
+`NeedCurrentDirectoryForExePathA` | 1 | Exported Function
 
 
 ## Signature

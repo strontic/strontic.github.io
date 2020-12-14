@@ -26,12 +26,12 @@ PE256 | `DE1B720C8C4007999DCF5D6CC23B4EC2895AC9A454AB40459846335F86F0700C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateForegroundTaskManager` | 1 | Exported Function
-`CreateModernVoipPolicy` | 3 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
 `DllGetActivationFactory` | 5 | Exported Function
 `DllGetClassObject` | 6 | Exported Function
 `TestHook_CancelShutdown` | 2 | Exported Function
+`CreateForegroundTaskManager` | 1 | Exported Function
+`CreateModernVoipPolicy` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
 
 
 ## Signature

@@ -41,7 +41,7 @@ SSDEEP | `24576:qFwNSS7SIfKLQHJ2ochrLlqMoy6nV925+P7:PXS5QH8om/lqMoy6nV99P`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `VSSVC.exe` being misused. While `VSSVC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `VSSVC.exe` being misused. While `VSSVC.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,16 +26,16 @@ PE256 | `6D0D2C2C39C7636B16715290C92C32A2E9C16C973284004239F6DDDFE49ED1A6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BindIFilterFromStorage` | 3 | Exported Function
-`BindIFilterFromStream` | 4 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
 `LoadBinaryFilter` | 1 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
 `LoadIFilter` | 9 | Exported Function
-`LoadIFilterEx` | 10 | Exported Function
 `LoadTextFilter` | 2 | Exported Function
+`LoadIFilterEx` | 10 | Exported Function
+`BindIFilterFromStream` | 4 | Exported Function
+`BindIFilterFromStorage` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 
 
 ## Signature
@@ -65,7 +65,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Query.dll` being misused. While `Query.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Query.dll` being misused. While `Query.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -97,6 +97,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-proxy.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-proxy.yml) | `c-uri-query: url.query` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-proxy.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-proxy.yml) | `http.request.url-query-params: url.original` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-proxy.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-proxy.yml) | `url.query: url.original` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [ecs-suricata.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-suricata.yml) | `dns.query: suricata.eve.dns.query` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-corelight.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-corelight.yml) | `c-uri-query: url.query` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-corelight.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-corelight.yml) | `query: dns.question.name` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-corelight.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-corelight.yml) | `http.request.url-query-params: url.original` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
@@ -104,6 +105,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-elastic-beats-implementation.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml) | `c-uri-query: url.query` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-elastic-beats-implementation.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml) | `query: dns.question.name` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-elastic-beats-implementation.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml) | `- query` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `c-uri-query: uri` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `Query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [humio.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/humio.yml) | `c-uri-query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [humio.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/humio.yml) | `#- query` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

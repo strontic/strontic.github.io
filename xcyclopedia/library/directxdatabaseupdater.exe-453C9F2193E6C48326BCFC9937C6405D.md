@@ -35,7 +35,6 @@ C:\Windows\system32\directxdatabaseupdater.exe |
 C:\Windows\system32\DismApi.DLL |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -48,7 +47,6 @@ C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -73,7 +71,7 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/1c51bc8fd77cc446ed42680d5342991d774594a22b98bd4c6d9a6b2cb018fe72/detection
 
 

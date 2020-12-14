@@ -127,6 +127,11 @@ C:\Windows\system32\XmlLite.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e0a8451c708c5b30a3b703f009fe68f7eb903359ab525bc86ff9303fcd68360a/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\systemreset.exe](systemreset.exe-2D90A9D5A963524C914B75F3DED81301.md) | 91
 
 
 

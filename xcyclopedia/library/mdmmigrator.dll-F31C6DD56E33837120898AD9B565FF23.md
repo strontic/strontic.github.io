@@ -26,8 +26,8 @@ PE256 | `B854AE7894F4852BE40F093F16A0B44360B4C0D384947A50DB22DBD686A5FC1F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MigrateBlueToThreshold` | 1 | Exported Function
 `MigrateBlueToThresholdNeeded` | 2 | Exported Function
+`MigrateBlueToThreshold` | 1 | Exported Function
 
 
 ## Signature

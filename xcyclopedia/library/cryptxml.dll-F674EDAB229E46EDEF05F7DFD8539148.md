@@ -26,25 +26,25 @@ PE256 | `342F3C22C2BF883CF501620DA387A12087AF00DDDAF0F73609A30D0A4D260CE5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptXmlAddObject` | 1 | Exported Function
-`CryptXmlSetHMACSecret` | 17 | Exported Function
-`CryptXmlOpenToEncode` | 16 | Exported Function
-`CryptXmlOpenToDecode` | 15 | Exported Function
-`CryptXmlImportPublicKey` | 14 | Exported Function
 `CryptXmlGetTransforms` | 13 | Exported Function
-`CryptXmlGetStatus` | 12 | Exported Function
+`CryptXmlImportPublicKey` | 14 | Exported Function
 `CryptXmlGetSignature` | 11 | Exported Function
+`CryptXmlGetStatus` | 12 | Exported Function
+`CryptXmlOpenToDecode` | 15 | Exported Function
 `CryptXmlSign` | 18 | Exported Function
-`CryptXmlGetReference` | 10 | Exported Function
-`CryptXmlGetAlgorithmInfo` | 8 | Exported Function
-`CryptXmlFindAlgorithmInfo` | 7 | Exported Function
-`CryptXmlEnumAlgorithmInfo` | 6 | Exported Function
-`CryptXmlEncode` | 5 | Exported Function
-`CryptXmlDigestReference` | 4 | Exported Function
-`CryptXmlCreateReference` | 3 | Exported Function
-`CryptXmlClose` | 2 | Exported Function
-`CryptXmlGetDocContext` | 9 | Exported Function
 `CryptXmlVerifySignature` | 19 | Exported Function
+`CryptXmlOpenToEncode` | 16 | Exported Function
+`CryptXmlSetHMACSecret` | 17 | Exported Function
+`CryptXmlGetReference` | 10 | Exported Function
+`CryptXmlCreateReference` | 3 | Exported Function
+`CryptXmlDigestReference` | 4 | Exported Function
+`CryptXmlAddObject` | 1 | Exported Function
+`CryptXmlClose` | 2 | Exported Function
+`CryptXmlEncode` | 5 | Exported Function
+`CryptXmlGetAlgorithmInfo` | 8 | Exported Function
+`CryptXmlGetDocContext` | 9 | Exported Function
+`CryptXmlEnumAlgorithmInfo` | 6 | Exported Function
+`CryptXmlFindAlgorithmInfo` | 7 | Exported Function
 
 
 ## Signature

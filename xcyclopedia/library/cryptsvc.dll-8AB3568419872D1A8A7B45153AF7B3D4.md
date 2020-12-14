@@ -26,8 +26,8 @@ PE256 | `722C7471180FF394108E9F1740B0879B3D9F6BB4BA274864816F8144D9F0CC24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`CryptServiceMain` | 1 | Exported Function
 
 
 ## Signature

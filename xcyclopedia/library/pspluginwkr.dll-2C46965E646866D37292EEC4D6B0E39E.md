@@ -26,14 +26,14 @@ PE256 | `83080DE5174C22C9DEAD8042D77C62C7C9A3058C873EAC5E694ABB58D78EF160`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitPlugin` | 1 | Exported Function
-`WSManPluginCommand` | 2 | Exported Function
-`WSManPluginReceive` | 3 | Exported Function
-`WSManPluginReleaseCommandContext` | 4 | Exported Function
-`WSManPluginReleaseShellContext` | 5 | Exported Function
 `WSManPluginSend` | 6 | Exported Function
-`WSManPluginShell` | 7 | Exported Function
+`WSManPluginReleaseShellContext` | 5 | Exported Function
 `WSManPluginSignal` | 8 | Exported Function
+`WSManPluginShell` | 7 | Exported Function
+`WSManPluginCommand` | 2 | Exported Function
+`InitPlugin` | 1 | Exported Function
+`WSManPluginReleaseCommandContext` | 4 | Exported Function
+`WSManPluginReceive` | 3 | Exported Function
 
 
 ## Signature

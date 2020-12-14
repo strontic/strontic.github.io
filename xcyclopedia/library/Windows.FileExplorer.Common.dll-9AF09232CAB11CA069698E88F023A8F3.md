@@ -26,25 +26,25 @@ PE256 | `23578852A5ECBF94075C03685F137D4560EEE6AC3D705AC7EEB3396651E66745`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ApplyProviderSettings` | 2002 | Exported Function
-`GatherProviderSettings` | 2003 | Exported Function
-`FECommon_UpdateFilePlaceholderStates` | 2020 | Exported Function
-`FECommon_SetPlaceholderReparsePointAttribute2` | 2018 | Exported Function
-`FECommon_SetPlaceholderReparsePointAttribute` | 2019 | Exported Function
 `FECommon_PerformCloudFilePinAction` | 2017 | Exported Function
-`FECommon_GetStorageProviderInfoFromItem` | 2016 | Exported Function
+`FECommon_SetPlaceholderReparsePointAttribute` | 2019 | Exported Function
 `FECommon_GetStorageProviderDisplayName` | 2015 | Exported Function
+`FECommon_GetStorageProviderInfoFromItem` | 2016 | Exported Function
+`FECommon_SetPlaceholderReparsePointAttribute2` | 2018 | Exported Function
 `RegisterChangeNotifications` | 2004 | Exported Function
-`FECommon_GetSkyDriveNetworkStates` | 2014 | Exported Function
-`FECommon_FilePlaceholder_CreateInstance` | 2012 | Exported Function
-`FECommon_FilePlaceholder_BindToPrimaryStream` | 2011 | Exported Function
-`FECommon_CSyncRootManager_CreateInstance` | 2009 | Exported Function
-`FECommon_CreatePlaceholderFile` | 2010 | Exported Function
-`FECommon_BindToFilePlaceholderHandler` | 2008 | Exported Function
-`DllGetClassObject` | 2007 | Exported Function
-`DllCanUnloadNow` | 2006 | Exported Function
-`FECommon_GetPlaceholderStatesFromFileAttributesAndReparsePointTag` | 2013 | Exported Function
 `UnregisterChangeNotifications` | 2005 | Exported Function
+`FECommon_UpdateFilePlaceholderStates` | 2020 | Exported Function
+`GatherProviderSettings` | 2003 | Exported Function
+`FECommon_GetSkyDriveNetworkStates` | 2014 | Exported Function
+`DllGetClassObject` | 2007 | Exported Function
+`FECommon_BindToFilePlaceholderHandler` | 2008 | Exported Function
+`ApplyProviderSettings` | 2002 | Exported Function
+`DllCanUnloadNow` | 2006 | Exported Function
+`FECommon_CreatePlaceholderFile` | 2010 | Exported Function
+`FECommon_FilePlaceholder_CreateInstance` | 2012 | Exported Function
+`FECommon_GetPlaceholderStatesFromFileAttributesAndReparsePointTag` | 2013 | Exported Function
+`FECommon_CSyncRootManager_CreateInstance` | 2009 | Exported Function
+`FECommon_FilePlaceholder_BindToPrimaryStream` | 2011 | Exported Function
 
 
 ## Signature

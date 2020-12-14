@@ -108,13 +108,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/d6e40b4ed7c0bc8ac18b15d265ed2edab9efc260332ef0a98623f943be3a43fa/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cacls.exe` being misused. While `cacls.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cacls.exe` being misused. While `cacls.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

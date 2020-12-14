@@ -24,23 +24,33 @@ PE256 | `C120DB637684F26849F20BB01EE14504551E7DEFEC5DB020F246C3EC5CD3C609`
 
 ## Runtime Data
 
+### Child Processes:
+explorer.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\wincorlib.DLL |
 C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy\OOBENetworkConnectionFlow.exe |
 
 

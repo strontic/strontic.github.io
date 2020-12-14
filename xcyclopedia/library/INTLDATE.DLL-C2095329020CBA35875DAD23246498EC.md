@@ -26,15 +26,15 @@ PE256 | `F61A9C94474A44D712A1A1C5570DD3FD61BECB97A2D69E4F780B505D829D1EBC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AdjustMonth` | 4 | Exported Function
-`ConvertDateGregToLocal` | 1 | Exported Function
-`ConvertDateLocalToGreg` | 2 | Exported Function
-`DaysInMonth` | 5 | Exported Function
-`GetDateFormatInfo` | 3 | Exported Function
-`GetMonthAdvance` | 9 | Exported Function
 `IsCalendarSupported` | 7 | Exported Function
-`MonthsInYear` | 6 | Exported Function
+`GetMonthAdvance` | 9 | Exported Function
 `SetMonthAdvance` | 8 | Exported Function
+`MonthsInYear` | 6 | Exported Function
+`GetDateFormatInfo` | 3 | Exported Function
+`ConvertDateGregToLocal` | 1 | Exported Function
+`AdjustMonth` | 4 | Exported Function
+`DaysInMonth` | 5 | Exported Function
+`ConvertDateLocalToGreg` | 2 | Exported Function
 
 
 ## Signature

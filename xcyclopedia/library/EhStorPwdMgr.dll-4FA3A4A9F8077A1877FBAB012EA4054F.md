@@ -26,9 +26,9 @@ PE256 | `F2EDE832A32D937E6D6E9E75D175F909C5ABCE85F17E7DD0BFBB62981C8A4D26`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 2 | Exported Function
-`EnhancedStoragePasswordConfig` | 3 | Exported Function
 `EnhancedStoragePasswordInitDisk` | 1 | Exported Function
+`EnhancedStoragePasswordConfig` | 3 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

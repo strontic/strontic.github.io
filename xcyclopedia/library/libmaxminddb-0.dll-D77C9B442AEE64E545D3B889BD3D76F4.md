@@ -25,20 +25,20 @@ PE256 | `8BA4ED72305C4ACFB4C6307C0AC0FC18A622C0869D715B9FF8134D65530D6BC1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MMDB_aget_value` | 1 | Exported Function
-`MMDB_close` | 2 | Exported Function
-`MMDB_dump_entry_data_list` | 3 | Exported Function
-`MMDB_free_entry_data_list` | 4 | Exported Function
-`MMDB_get_entry_data_list` | 5 | Exported Function
-`MMDB_get_metadata_as_entry_data_list` | 6 | Exported Function
-`MMDB_get_value` | 7 | Exported Function
-`MMDB_lib_version` | 8 | Exported Function
-`MMDB_lookup_sockaddr` | 9 | Exported Function
 `MMDB_lookup_string` | 10 | Exported Function
+`MMDB_lookup_sockaddr` | 9 | Exported Function
+`MMDB_lib_version` | 8 | Exported Function
 `MMDB_open` | 11 | Exported Function
-`MMDB_read_node` | 12 | Exported Function
-`MMDB_strerror` | 13 | Exported Function
 `MMDB_vget_value` | 14 | Exported Function
+`MMDB_strerror` | 13 | Exported Function
+`MMDB_read_node` | 12 | Exported Function
+`MMDB_dump_entry_data_list` | 3 | Exported Function
+`MMDB_close` | 2 | Exported Function
+`MMDB_aget_value` | 1 | Exported Function
+`MMDB_free_entry_data_list` | 4 | Exported Function
+`MMDB_get_value` | 7 | Exported Function
+`MMDB_get_metadata_as_entry_data_list` | 6 | Exported Function
+`MMDB_get_entry_data_list` | 5 | Exported Function
 
 
 ## Signature

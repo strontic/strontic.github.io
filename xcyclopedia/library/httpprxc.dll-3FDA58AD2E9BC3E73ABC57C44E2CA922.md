@@ -26,17 +26,17 @@ PE256 | `60C31595EEB2BC3BD34B417BAAC030B5D85D1423A166538F3544AB7B9A926E03`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProxyHelperClientAllocateMemory` | 1 | Exported Function
-`ProxyHelperClientConnectToServer` | 2 | Exported Function
-`ProxyHelperClientDisconnectFromServer` | 3 | Exported Function
-`ProxyHelperClientFreeMemory` | 4 | Exported Function
-`ProxyHelperClientGetAllProxiesForUrl` | 5 | Exported Function
-`ProxyHelperClientGetProxyCredentials` | 6 | Exported Function
-`ProxyHelperClientGetProxyForUrl` | 7 | Exported Function
 `ProxyHelperClientInitialize` | 8 | Exported Function
+`ProxyHelperClientGetProxyForUrl` | 7 | Exported Function
 `ProxyHelperClientRegisterForEventNotification` | 9 | Exported Function
-`ProxyHelperClientUninitialize` | 10 | Exported Function
 `ProxyHelperClientUnregisterEventNotification` | 11 | Exported Function
+`ProxyHelperClientUninitialize` | 10 | Exported Function
+`ProxyHelperClientGetProxyCredentials` | 6 | Exported Function
+`ProxyHelperClientConnectToServer` | 2 | Exported Function
+`ProxyHelperClientAllocateMemory` | 1 | Exported Function
+`ProxyHelperClientDisconnectFromServer` | 3 | Exported Function
+`ProxyHelperClientGetAllProxiesForUrl` | 5 | Exported Function
+`ProxyHelperClientFreeMemory` | 4 | Exported Function
 
 
 ## Signature

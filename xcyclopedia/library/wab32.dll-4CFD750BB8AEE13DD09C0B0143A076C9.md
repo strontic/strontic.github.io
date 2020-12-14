@@ -26,27 +26,27 @@ PE256 | `2323F5C0575CF626249FA4A09E29B0DAF0F5D34BE91CA3DFCBF862A2AC73A789`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 18 | Exported Function
-`WABCreateIProp` | 3 | Exported Function
-`ShellUICommand_OnNewGroupW` | 14 | Exported Function
-`ShellUICommand_OnNewEmailW` | 12 | Exported Function
-`ShellUICommand_OnNewContactW` | 13 | Exported Function
 `ShellUICommand_OnImportW` | 16 | Exported Function
+`ShellUICommand_OnNewContactW` | 13 | Exported Function
 `ShellUICommand_OnExportW` | 17 | Exported Function
-`ShellUICommand_OnEditW` | 15 | Exported Function
 `Ordinal9` | 9 | Exported Function
+`ShellUICommand_OnEditW` | 15 | Exported Function
 `WABOpen` | 2 | Exported Function
-`Ordinal8` | 8 | Exported Function
-`Ordinal6` | 6 | Exported Function
-`Ordinal5` | 5 | Exported Function
-`Ordinal24` | 24 | Exported Function
-`Ordinal23` | 23 | Exported Function
-`Ordinal22` | 22 | Exported Function
-`Ordinal11` | 11 | Exported Function
-`Ordinal10` | 10 | Exported Function
-`DllGetClassObject` | 19 | Exported Function
-`Ordinal7` | 7 | Exported Function
 `WABOpenEx` | 4 | Exported Function
+`WABCreateIProp` | 3 | Exported Function
+`ShellUICommand_OnNewEmailW` | 12 | Exported Function
+`ShellUICommand_OnNewGroupW` | 14 | Exported Function
+`Ordinal8` | 8 | Exported Function
+`Ordinal11` | 11 | Exported Function
+`Ordinal22` | 22 | Exported Function
+`Ordinal10` | 10 | Exported Function
+`DllCanUnloadNow` | 18 | Exported Function
+`DllGetClassObject` | 19 | Exported Function
+`Ordinal6` | 6 | Exported Function
+`Ordinal7` | 7 | Exported Function
+`Ordinal5` | 5 | Exported Function
+`Ordinal23` | 23 | Exported Function
+`Ordinal24` | 24 | Exported Function
 
 
 ## Signature
@@ -75,7 +75,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wab32.dll` being misused. While `wab32.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wab32.dll` being misused. While `wab32.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

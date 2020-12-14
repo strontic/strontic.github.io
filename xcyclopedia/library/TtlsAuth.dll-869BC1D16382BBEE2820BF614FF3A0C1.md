@@ -26,13 +26,13 @@ PE256 | `5001A6480C71D247B2ED03FCAB05A43FA6D46CA50F248E1CE726F2A85D99B56D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `EapPeerFreeErrorMemory` | 5 | Exported Function
 `EapPeerFreeMemory` | 6 | Exported Function
 `EapPeerGetInfo` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

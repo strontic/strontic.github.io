@@ -26,24 +26,24 @@ PE256 | `953CB6170E35B41B7518BB89099C2DB56F66DBA9534251BD54890692EB3D8FFA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`avc_discontinuity` | 10 | Exported Function
-`GetHandleVerifier` | 7 | Exported Function
-`GetCdmVersion` | 6 | Exported Function
-`EnableACExceptions` | 5 | Exported Function
-`DeinitializeCdmModule` | 4 | Exported Function
 `CreateCdmInstance` | 3 | Exported Function
-`CPUDetect` | 2 | Exported Function
+`DeinitializeCdmModule` | 4 | Exported Function
 `CPUCaps` | 1 | Exported Function
-`avc_reset` | 18 | Exported Function
-`avc_init` | 17 | Exported Function
-`avc_getcomplexity` | 16 | Exported Function
-`avc_frameallocator` | 15 | Exported Function
-`avc_frame` | 14 | Exported Function
-`avc_format` | 13 | Exported Function
-`avc_extra` | 12 | Exported Function
-`avc_done` | 11 | Exported Function
+`CPUDetect` | 2 | Exported Function
+`EnableACExceptions` | 5 | Exported Function
 `InitializeCdmModule_4` | 8 | Exported Function
 `VerifyCdmHost_0` | 9 | Exported Function
+`GetCdmVersion` | 6 | Exported Function
+`GetHandleVerifier` | 7 | Exported Function
+`avc_extra` | 12 | Exported Function
+`avc_format` | 13 | Exported Function
+`avc_discontinuity` | 10 | Exported Function
+`avc_done` | 11 | Exported Function
+`avc_frame` | 14 | Exported Function
+`avc_init` | 17 | Exported Function
+`avc_reset` | 18 | Exported Function
+`avc_frameallocator` | 15 | Exported Function
+`avc_getcomplexity` | 16 | Exported Function
 
 
 ## Signature

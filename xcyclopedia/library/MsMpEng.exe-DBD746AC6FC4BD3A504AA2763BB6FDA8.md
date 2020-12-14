@@ -49,7 +49,7 @@ PE256 | `0B1CDA9F73797367209F05C5E9627F8D4A33C0353187627F2828128DE177F0A3`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MsMpEng.exe` being misused. While `MsMpEng.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MsMpEng.exe` being misused. While `MsMpEng.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

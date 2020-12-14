@@ -26,32 +26,32 @@ PE256 | `A9E1BBA20738D3FEB99F29A5A35D2B1666665197B0C2D6DD76BED7F36646F7A3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_ConvertAtJobsToTasks@0` | 14 | Exported Function
-`SASetAccountInformation` | 11 | Exported Function
-`SAGetNSAccountInformation` | 10 | Exported Function
-`SAGetAccountInformation` | 9 | Exported Function
-`NetrJobGetInfo` | 8 | Exported Function
-`NetrJobEnum` | 7 | Exported Function
-`NetrJobDel` | 6 | Exported Function
-`NetrJobAdd` | 5 | Exported Function
 `GetNetScheduleAccountInformation` | 4 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
+`NetrJobAdd` | 5 | Exported Function
+`NetrJobDel` | 6 | Exported Function
 `ConvertAtJobsToTasks` | 1 | Exported Function
-`_SetNetScheduleAccountInformation@12` | 26 | Exported Function
-`_SASetNSAccountInformation@12` | 25 | Exported Function
-`_SASetAccountInformation@20` | 24 | Exported Function
-`_SAGetNSAccountInformation@12` | 23 | Exported Function
-`_SAGetAccountInformation@16` | 22 | Exported Function
-`_NetrJobGetInfo@12` | 21 | Exported Function
-`_NetrJobEnum@20` | 20 | Exported Function
-`_NetrJobDel@12` | 19 | Exported Function
-`_NetrJobAdd@12` | 18 | Exported Function
-`_GetNetScheduleAccountInformation@12` | 17 | Exported Function
-`_DllGetClassObject@12` | 16 | Exported Function
-`_DllCanUnloadNow@0` | 15 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`NetrJobEnum` | 7 | Exported Function
+`SASetAccountInformation` | 11 | Exported Function
 `SASetNSAccountInformation` | 12 | Exported Function
 `SetNetScheduleAccountInformation` | 13 | Exported Function
+`NetrJobGetInfo` | 8 | Exported Function
+`SAGetAccountInformation` | 9 | Exported Function
+`SAGetNSAccountInformation` | 10 | Exported Function
+`_GetNetScheduleAccountInformation@12` | 17 | Exported Function
+`_NetrJobAdd@12` | 18 | Exported Function
+`_NetrJobDel@12` | 19 | Exported Function
+`_ConvertAtJobsToTasks@0` | 14 | Exported Function
+`_DllCanUnloadNow@0` | 15 | Exported Function
+`_DllGetClassObject@12` | 16 | Exported Function
+`_NetrJobEnum@20` | 20 | Exported Function
+`_SASetAccountInformation@20` | 24 | Exported Function
+`_SASetNSAccountInformation@12` | 25 | Exported Function
+`_SetNetScheduleAccountInformation@12` | 26 | Exported Function
+`_NetrJobGetInfo@12` | 21 | Exported Function
+`_SAGetAccountInformation@16` | 22 | Exported Function
+`_SAGetNSAccountInformation@12` | 23 | Exported Function
 
 
 ## Signature

@@ -41,7 +41,7 @@ SSDEEP | `12288:hG3lgNCIQHgzZpIjfbOToMrEDL1FwhdFbjzlZXHFtlxJuZUQd3i/SmDtVvg8JANs
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ie4uinit.exe` being misused. While `ie4uinit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ie4uinit.exe` being misused. While `ie4uinit.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

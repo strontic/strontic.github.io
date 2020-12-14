@@ -26,8 +26,8 @@ PE256 | `179636B2C8F2AAD62B810E1E4749AC0B9C5A88C1E5384A3EB15734AFBBDB3471`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateDictationManager` | 1 | Exported Function
 `CreateDictationManagerWithDeviceController` | 2 | Exported Function
+`CreateDictationManager` | 1 | Exported Function
 
 
 ## Signature

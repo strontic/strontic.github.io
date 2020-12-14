@@ -26,17 +26,17 @@ PE256 | `B9BAB28B5A066D02F5195D4FDBAB8E611A7A686DE4591BC365BE2E0B0857D3A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateAndShowNotification` | 1 | Exported Function
-`CreateWin7SpellCheckerFactory` | 2 | Exported Function
-`GetElementForTaskbar` | 3 | Exported Function
-`GetElementForTaskbarIcon` | 4 | Exported Function
-`GetNotificationIdentity` | 5 | Exported Function
-`IsItemPinnedToTaskbarByAppID` | 6 | Exported Function
-`IsShortcutPinnedToTaskbar` | 7 | Exported Function
 `IsTipsOsSettingEnabled` | 8 | Exported Function
+`IsShortcutPinnedToTaskbar` | 7 | Exported Function
 `PinShortcutToTaskbar` | 9 | Exported Function
-`ReplaceTaskbarPin` | 10 | Exported Function
 `UnpinShortcutFromTaskbar` | 11 | Exported Function
+`ReplaceTaskbarPin` | 10 | Exported Function
+`IsItemPinnedToTaskbarByAppID` | 6 | Exported Function
+`CreateWin7SpellCheckerFactory` | 2 | Exported Function
+`CreateAndShowNotification` | 1 | Exported Function
+`GetElementForTaskbar` | 3 | Exported Function
+`GetNotificationIdentity` | 5 | Exported Function
+`GetElementForTaskbarIcon` | 4 | Exported Function
 
 
 ## Signature

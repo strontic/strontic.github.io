@@ -26,25 +26,25 @@ PE256 | `96DF54B334E94A053243E90286A229A366926D10481501CE8A529BA036973071`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`profile_abandon` | 1 | Exported Function
-`profile_release_string` | 17 | Exported Function
-`profile_release` | 16 | Exported Function
-`profile_iterator_free` | 15 | Exported Function
-`profile_iterator_create` | 14 | Exported Function
 `profile_iterator` | 13 | Exported Function
-`profile_init_path` | 12 | Exported Function
+`profile_iterator_create` | 14 | Exported Function
 `profile_init` | 11 | Exported Function
+`profile_init_path` | 12 | Exported Function
+`profile_iterator_free` | 15 | Exported Function
 `profile_rename_section` | 18 | Exported Function
-`profile_get_values` | 10 | Exported Function
-`profile_get_string` | 8 | Exported Function
-`profile_get_relation_names` | 7 | Exported Function
-`profile_get_integer` | 6 | Exported Function
-`profile_free_list` | 5 | Exported Function
-`profile_flush` | 4 | Exported Function
-`profile_clear_relation` | 3 | Exported Function
-`profile_add_relation` | 2 | Exported Function
-`profile_get_subsection_names` | 9 | Exported Function
 `profile_update_relation` | 19 | Exported Function
+`profile_release` | 16 | Exported Function
+`profile_release_string` | 17 | Exported Function
+`profile_get_values` | 10 | Exported Function
+`profile_clear_relation` | 3 | Exported Function
+`profile_flush` | 4 | Exported Function
+`profile_abandon` | 1 | Exported Function
+`profile_add_relation` | 2 | Exported Function
+`profile_free_list` | 5 | Exported Function
+`profile_get_string` | 8 | Exported Function
+`profile_get_subsection_names` | 9 | Exported Function
+`profile_get_integer` | 6 | Exported Function
+`profile_get_relation_names` | 7 | Exported Function
 
 
 ## Signature

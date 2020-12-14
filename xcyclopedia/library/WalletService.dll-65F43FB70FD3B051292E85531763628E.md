@@ -26,9 +26,9 @@ PE256 | `33FE204443EC88CE6668D61F3265AF012909940BEA4174550DA0C5B4E03AB1D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DefaultDisplayNameCallback` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`DefaultDisplayNameCallback` | 1 | Exported Function
 
 
 ## Signature

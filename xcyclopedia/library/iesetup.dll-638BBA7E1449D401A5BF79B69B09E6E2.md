@@ -26,13 +26,13 @@ PE256 | `EBA38BDF5F552AFD09F5AD8AF8CF75C5B003AE6B1E661196890292F60AEC87CC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IEApplyCurrentHardening` | 1 | Exported Function
-`IEHardenAdmin` | 2 | Exported Function
-`IEHardenAdminNow` | 3 | Exported Function
-`IEHardenLMSettings` | 4 | Exported Function
 `IEHardenMachineNow` | 5 | Exported Function
 `IEHardenUser` | 6 | Exported Function
 `IEShowHardeningDialog` | 7 | Exported Function
+`IEHardenLMSettings` | 4 | Exported Function
+`IEApplyCurrentHardening` | 1 | Exported Function
+`IEHardenAdmin` | 2 | Exported Function
+`IEHardenAdminNow` | 3 | Exported Function
 
 
 ## Signature

@@ -47,8 +47,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -83,7 +83,7 @@ C:\Windows\SysWOW64\regsvr32.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/31aee70f9705f6578c6b41849ea3b5a948a446f494f24befcf5b169a1c2a71d2/detection
 
 ## File Similarity (ssdeep match)
@@ -94,7 +94,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `regsvr32.exe` being misused. While `regsvr32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `regsvr32.exe` being misused. While `regsvr32.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

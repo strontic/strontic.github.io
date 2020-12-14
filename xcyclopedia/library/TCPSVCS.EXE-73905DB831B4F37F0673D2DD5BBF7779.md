@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\TCPSVCS.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/7d6386a5beba7635c8ff0b0e24cec90a409853440650af583462c36b8e04971d/detection
 
 ## File Similarity (ssdeep match)
@@ -67,7 +67,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

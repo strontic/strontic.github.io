@@ -26,8 +26,8 @@ PE256 | `440B983E75B87A11BCD469BC2EB40298D13EFDF87AA47D4C299C16A8E455866E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`g_RampOld_BeadTbl` | 2 | Exported Function
 `RampOldTri` | 1 | Exported Function
+`g_RampOld_BeadTbl` | 2 | Exported Function
 
 
 ## Signature

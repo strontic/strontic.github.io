@@ -26,13 +26,13 @@ PE256 | `F3AB546BF127A70DD18CDB21A6D1D74EFE8F2C83ECC075923FA57A356EC5CD50`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ComPlusCompleteCbbSetup` | 5 | Exported Function
-`ComPlusGetWebApplicationServerRole` | 6 | Exported Function
-`ComPlusSetWebApplicationServerRole` | 7 | Exported Function
-`InstallOnReboot` | 1 | Exported Function
 `RunComPlusSetWebApplicationServerRoleW` | 2 | Exported Function
 `SetupPrintLog` | 3 | Exported Function
 `UpgradeDSSchema` | 4 | Exported Function
+`InstallOnReboot` | 1 | Exported Function
+`ComPlusCompleteCbbSetup` | 5 | Exported Function
+`ComPlusGetWebApplicationServerRole` | 6 | Exported Function
+`ComPlusSetWebApplicationServerRole` | 7 | Exported Function
 
 
 ## Signature

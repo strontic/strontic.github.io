@@ -26,14 +26,14 @@ PE256 | `FFF124582D27AC3F3CF3B88AD8A9A0940C0438ADED6C7D6A4302221724C9F93C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 1 | Exported Function
-`DllUnregisterServer` | 2 | Exported Function
-`GuestInterfaceServiceMain` | 3 | Exported Function
-`HeartbeatServiceMain` | 4 | Exported Function
-`KvpexchangeServiceMain` | 5 | Exported Function
 `ShutdownServiceMain` | 6 | Exported Function
-`TimesyncServiceMain` | 7 | Exported Function
+`KvpexchangeServiceMain` | 5 | Exported Function
 `VMSessionServiceMain` | 8 | Exported Function
+`TimesyncServiceMain` | 7 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`HeartbeatServiceMain` | 4 | Exported Function
+`GuestInterfaceServiceMain` | 3 | Exported Function
 
 
 ## Signature

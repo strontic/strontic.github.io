@@ -26,14 +26,14 @@ PE256 | `2B778EF17E9EE8193A9083D0C26795EF5A11CE97F8882C105EA36610D6DE00A7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 259 | Exported Function
-`DllGetClassObject` | 260 | Exported Function
-`DllInstall` | 261 | Exported Function
-`DllRegisterServer` | 262 | Exported Function
-`DllUnregisterServer` | 263 | Exported Function
 `OpenQueryWindow` | 258 | Exported Function
-`OpenSavedDsQuery` | 256 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
 `OpenSavedDsQueryW` | 257 | Exported Function
+`OpenSavedDsQuery` | 256 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllInstall` | 261 | Exported Function
 
 
 ## Signature
@@ -63,7 +63,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dsquery.dll` being misused. While `dsquery.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dsquery.dll` being misused. While `dsquery.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

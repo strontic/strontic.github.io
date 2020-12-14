@@ -26,11 +26,11 @@ PE256 | `34AB0DF1953C6A9BE5A172304ED4C2897FAAB076C4C08AF35AB181D9D947A5A4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KbdLayerDescriptor` | 1 | Exported Function
-`KbdLayerMultiDescriptor` | 6 | Exported Function
-`KbdLayerRealDllFile` | 5 | Exported Function
 `KbdLayerRealDllFileNT4` | 3 | Exported Function
 `KbdNlsLayerDescriptor` | 2 | Exported Function
+`KbdLayerRealDllFile` | 5 | Exported Function
+`KbdLayerDescriptor` | 1 | Exported Function
+`KbdLayerMultiDescriptor` | 6 | Exported Function
 
 
 ## Signature

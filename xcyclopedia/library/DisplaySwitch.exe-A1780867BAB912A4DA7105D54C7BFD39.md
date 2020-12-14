@@ -31,9 +31,6 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\DisplaySwitch.exe |
-C:\Windows\system32\DUI70.dll |
-C:\Windows\system32\DUser.dll |
-C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\IMM32.dll |
@@ -53,7 +50,6 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\UxTheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WINSTA.dll |
 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
@@ -84,7 +80,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 ## Possible Misuse
 
-*The following table contains possible examples of `DisplaySwitch.exe` being misused. While `DisplaySwitch.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `DisplaySwitch.exe` being misused. While `DisplaySwitch.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

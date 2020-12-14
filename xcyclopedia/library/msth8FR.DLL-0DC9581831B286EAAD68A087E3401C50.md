@@ -26,19 +26,19 @@ PE256 | `2C567A5B941344F1BB1AEBBF5D6AFB3CC0AFFCA1B2D3BC65102F11B8AE615960`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ThesaurusCheck` | 4 | Exported Function
-`ThesaurusCloseLex` | 5 | Exported Function
-`ThesaurusGetOptions` | 6 | Exported Function
-`ThesaurusGetString` | 7 | Exported Function
-`ThesaurusIdToData` | 8 | Exported Function
-`ThesaurusIdToLookup` | 9 | Exported Function
-`ThesaurusIdToRuntime` | 10 | Exported Function
-`ThesaurusInit` | 11 | Exported Function
-`ThesaurusOpenLex` | 12 | Exported Function
 `ThesaurusSetDllName` | 13 | Exported Function
-`ThesaurusSetOptions` | 14 | Exported Function
-`ThesaurusTerminate` | 15 | Exported Function
+`ThesaurusOpenLex` | 12 | Exported Function
+`ThesaurusInit` | 11 | Exported Function
 `ThesaurusVersion` | 3 | Exported Function
+`ThesaurusTerminate` | 15 | Exported Function
+`ThesaurusSetOptions` | 14 | Exported Function
+`ThesaurusIdToRuntime` | 10 | Exported Function
+`ThesaurusGetOptions` | 6 | Exported Function
+`ThesaurusCloseLex` | 5 | Exported Function
+`ThesaurusCheck` | 4 | Exported Function
+`ThesaurusIdToLookup` | 9 | Exported Function
+`ThesaurusIdToData` | 8 | Exported Function
+`ThesaurusGetString` | 7 | Exported Function
 
 
 ## Signature

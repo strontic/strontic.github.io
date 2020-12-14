@@ -41,7 +41,7 @@ SSDEEP | `768:MOob6+aRtPsddC9utr12ks4uJcaRWi/DeT1PhPi:gbhkydC9M2OuJca7/SPhPi`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

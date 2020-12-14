@@ -26,8 +26,8 @@ PE256 | `338933F76F9F5CF42343C4C87E045954831D2A5573E50188CB0687E815619F06`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

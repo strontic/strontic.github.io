@@ -130,7 +130,7 @@ C:\Windows\SysWOW64\lodctr.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/3915bfb4520c2947e3dc9b4bdd4af56aabdeda1923b60f17a6e742a2231ea50d/detection
 
 ## File Similarity (ssdeep match)

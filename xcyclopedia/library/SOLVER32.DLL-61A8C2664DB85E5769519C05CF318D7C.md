@@ -26,8 +26,8 @@ PE256 | `59387330BAE1DAF747EBB32F926EFA4C39C3475E9DF5E871A7E256E0CCABF68A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Solv` | 1 | Exported Function
 `SolveInternal` | 2 | Exported Function
+`Solv` | 1 | Exported Function
 
 
 ## Signature

@@ -41,7 +41,7 @@ SSDEEP | `768:GTiff1Pzo3VOyP1xhHjcai2qNBEFg/PlWyHtke0qu0+d3MiDjGfEqq7ntns0YLd0:G
 
 ## Possible Misuse
 
-*The following table contains possible examples of `scrcons.exe` being misused. While `scrcons.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `scrcons.exe` being misused. While `scrcons.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

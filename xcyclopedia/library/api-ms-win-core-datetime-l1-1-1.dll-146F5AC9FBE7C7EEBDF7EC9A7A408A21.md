@@ -26,8 +26,8 @@ PE256 | `6D294F5DBAA6EB8767A5A5FD472086EFF3DFC21A5B3AEE425F23EB8664F10338`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDateFormatEx` | 1 | Exported Function
 `GetTimeFormatEx` | 2 | Exported Function
+`GetDateFormatEx` | 1 | Exported Function
 
 
 ## Signature

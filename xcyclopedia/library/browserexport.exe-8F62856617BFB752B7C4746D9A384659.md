@@ -28,6 +28,7 @@ PE256 | `1D55892F74E411F318E6FB4B99991CC66AA9C1F80DCACEC343025427BFABCA6F`
 
 Path |
 -- |
+C:\Windows\System32\advapi32.dll |
 C:\Windows\system32\browserexport.exe |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
@@ -44,7 +45,6 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SYSTEM32\windows.storage.dll |
 C:\Windows\system32\WININET.dll |
 C:\Windows\system32\winsqlite3.dll |
-C:\Windows\system32\Wldp.dll |
 
 
 ## Signature

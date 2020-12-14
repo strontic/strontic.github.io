@@ -26,10 +26,10 @@ PE256 | `89B7F083DD94340DEE2096E21E4898EDA5D9E8C4A79A51BEE0135597AC940B24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CompileEffectDescription` | 1 | Exported Function
-`CreateEffectDescription` | 2 | Exported Function
 `DeserializeEffectDescription` | 3 | Exported Function
 `SerializeEffectDescription` | 4 | Exported Function
+`CompileEffectDescription` | 1 | Exported Function
+`CreateEffectDescription` | 2 | Exported Function
 
 
 ## Signature

@@ -24,6 +24,9 @@ PE256 | `2F55472D56E92E80407DC30B945AB1161F6EDCDE18EF021C916280912CF25C08`
 
 ## Runtime Data
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |
@@ -34,6 +37,8 @@ C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DismApi.DLL |
+C:\Windows\system32\DNSAPI.dll |
 C:\Windows\system32\DUI70.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
@@ -61,6 +66,7 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WINBRAND.dll |
+C:\Windows\system32\wincorlib.DLL |
 C:\Windows\system32\wkscli.dll |
 C:\Windows\system32\WTSAPI32.dll |
 

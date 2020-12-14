@@ -49,7 +49,7 @@ PE256 | `50F23B15B9FB4ADDE1764E8D9AD76A4BCA0F65D46B6B8939150EB4034B0BE210`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `services.exe` being misused. While `services.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `services.exe` being misused. While `services.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,34 +26,34 @@ PE256 | `D2D145A5D71130CE505F87F1D962209FC698FAC9606757A6A333BAA314CEE3FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VDMBreakThread` | 1 | Exported Function
-`VDMSetThreadContext` | 26 | Exported Function
-`VDMSetDbgFlags` | 25 | Exported Function
-`VDMSetContext` | 24 | Exported Function
-`VDMProcessException` | 23 | Exported Function
-`VDMModuleNext` | 22 | Exported Function
-`VDMModuleFirst` | 21 | Exported Function
-`VDMKillWOW` | 20 | Exported Function
 `VDMIsModuleLoaded` | 19 | Exported Function
+`VDMKillWOW` | 20 | Exported Function
+`VDMModuleFirst` | 21 | Exported Function
 `VDMGlobalNext` | 18 | Exported Function
-`VDMGlobalFirst` | 17 | Exported Function
-`VDMGetThreadSelectorEntry` | 16 | Exported Function
 `VDMGetThreadContext` | 15 | Exported Function
-`VDMGetSymbol` | 14 | Exported Function
-`VDMGetSelectorModule` | 13 | Exported Function
-`VDMGetSegtablePointer` | 12 | Exported Function
-`VDMGetSegmentInfo` | 11 | Exported Function
-`VDMGetPointer` | 10 | Exported Function
-`VDMGetModuleSelector` | 9 | Exported Function
-`VDMGetDbgFlags` | 8 | Exported Function
-`VDMGetContext` | 7 | Exported Function
-`VDMGetAddrExpression` | 6 | Exported Function
-`VDMEnumTaskWOWEx` | 5 | Exported Function
-`VDMEnumTaskWOW` | 4 | Exported Function
-`VDMEnumProcessWOW` | 3 | Exported Function
-`VDMDetectWOW` | 2 | Exported Function
+`VDMGetThreadSelectorEntry` | 16 | Exported Function
+`VDMGlobalFirst` | 17 | Exported Function
+`VDMSetThreadContext` | 26 | Exported Function
 `VDMStartTaskInWOW` | 27 | Exported Function
 `VDMTerminateTaskWOW` | 28 | Exported Function
+`VDMSetDbgFlags` | 25 | Exported Function
+`VDMModuleNext` | 22 | Exported Function
+`VDMProcessException` | 23 | Exported Function
+`VDMSetContext` | 24 | Exported Function
+`VDMEnumTaskWOWEx` | 5 | Exported Function
+`VDMGetAddrExpression` | 6 | Exported Function
+`VDMGetContext` | 7 | Exported Function
+`VDMEnumTaskWOW` | 4 | Exported Function
+`VDMBreakThread` | 1 | Exported Function
+`VDMDetectWOW` | 2 | Exported Function
+`VDMEnumProcessWOW` | 3 | Exported Function
+`VDMGetSegtablePointer` | 12 | Exported Function
+`VDMGetSelectorModule` | 13 | Exported Function
+`VDMGetSymbol` | 14 | Exported Function
+`VDMGetSegmentInfo` | 11 | Exported Function
+`VDMGetDbgFlags` | 8 | Exported Function
+`VDMGetModuleSelector` | 9 | Exported Function
+`VDMGetPointer` | 10 | Exported Function
 
 
 ## Signature

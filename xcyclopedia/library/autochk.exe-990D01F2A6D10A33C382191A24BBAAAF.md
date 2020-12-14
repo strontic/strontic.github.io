@@ -41,7 +41,7 @@ SSDEEP | `12288:klGTjqIuxMx82YwGti6T4DE4KCNptuO5SCizhm7qjJ4Ttr:3jr2Mx82YjtfSEGNp
 
 ## Possible Misuse
 
-*The following table contains possible examples of `autochk.exe` being misused. While `autochk.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `autochk.exe` being misused. While `autochk.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

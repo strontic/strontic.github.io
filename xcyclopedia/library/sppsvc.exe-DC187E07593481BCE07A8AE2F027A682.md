@@ -49,7 +49,7 @@ PE256 | `C150F0B31B4195C826CDA0CCCD55B171B920B7FD395D8DC8AEEEDCC620B8814C`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sppsvc.exe` being misused. While `sppsvc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sppsvc.exe` being misused. While `sppsvc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

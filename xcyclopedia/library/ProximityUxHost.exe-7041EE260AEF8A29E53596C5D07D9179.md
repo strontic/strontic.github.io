@@ -42,37 +42,25 @@ Path | Type
 
 Path |
 -- |
-C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\DEVOBJ.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\IPHLPAPI.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\MSWSOCK.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\SYSTEM32\powrprof.dll |
-C:\Windows\system32\PROPSYS.dll |
 C:\Windows\system32\ProximityCommon.dll |
-C:\Windows\system32\ProximityCommonPal.dll |
 C:\Windows\system32\ProximityServicePAL.dll |
 C:\Windows\system32\ProximityUxHost.exe |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\windows.storage.dll |
 C:\Windows\System32\WS2_32.dll |
 
 

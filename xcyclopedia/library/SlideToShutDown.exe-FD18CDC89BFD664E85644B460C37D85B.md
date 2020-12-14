@@ -43,7 +43,7 @@ PE256 | `27D3CE5094B78CBB4E59510E2C23ACB826FA8DACB583BEAD2CAB5945ECC99BF6`
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/c167f7c83952a95633ad4b65d419d162f85066dea159cb011e771c7c1e07476f/detection
 
 ## File Similarity (ssdeep match)

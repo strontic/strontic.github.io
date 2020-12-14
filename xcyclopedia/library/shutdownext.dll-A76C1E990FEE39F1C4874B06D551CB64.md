@@ -26,11 +26,11 @@ PE256 | `FD07750DB7F17347780E81999D552BE7AFD6441DBF08C6803487214C4BA09BAC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ShutdownExAnnotate` | 1 | Exported Function
-`ShutdownExDirtyDialog` | 2 | Exported Function
-`ShutdownExPrintReasons` | 3 | Exported Function
 `ShutdownExReasonCommentRequired` | 4 | Exported Function
 `ShutdownExRemoteDialog` | 5 | Exported Function
+`ShutdownExPrintReasons` | 3 | Exported Function
+`ShutdownExAnnotate` | 1 | Exported Function
+`ShutdownExDirtyDialog` | 2 | Exported Function
 
 
 ## Signature

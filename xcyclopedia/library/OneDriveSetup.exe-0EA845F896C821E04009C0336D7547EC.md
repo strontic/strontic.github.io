@@ -28,13 +28,13 @@ PE256 | `B4DEFEF556A4933B7288D146D1FA14AEC35D01C2C5404CED9B7E2BFA69BD48D4`
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Microsoft\OneDrive\setup\logs\Install_2020-11-06_192815_d54-1918.log | File
-(R--)   C:\Users\user\AppData\Local\Microsoft\OneDrive\setup\logs\Install-2020-11-06.1928.3412.1.aodl | File
+(R--)   C:\Users\user\AppData\Local\Microsoft\OneDrive\setup\logs\Install_2020-12-13_040600_1038-16f4.log | File
+(R--)   C:\Users\user\AppData\Local\Microsoft\OneDrive\setup\logs\Install-2020-12-13.0406.4152.1.aodl | File
 (RW-)   C:\Users\user | File
-(RW-)   C:\Users\user\AppData\Local\Temp\aria-debug-3412.log | File
+(RW-)   C:\Users\user\AppData\Local\Temp\aria-debug-4152.log | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_4296d9128a9564c1 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.685_none_4299dbb28a92ae3e | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section

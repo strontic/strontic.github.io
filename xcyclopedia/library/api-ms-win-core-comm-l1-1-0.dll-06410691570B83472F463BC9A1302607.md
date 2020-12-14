@@ -26,24 +26,24 @@ PE256 | `1C23345BDEAA8DFA8009BBF5D171D3333EDA87ADE8ED45366D4A8BEA67A7135C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClearCommBreak` | 1 | Exported Function
-`SetupComm` | 16 | Exported Function
-`SetCommTimeouts` | 15 | Exported Function
-`SetCommState` | 14 | Exported Function
-`SetCommMask` | 13 | Exported Function
 `SetCommConfig` | 12 | Exported Function
-`SetCommBreak` | 11 | Exported Function
+`SetCommMask` | 13 | Exported Function
 `PurgeComm` | 10 | Exported Function
-`GetCommTimeouts` | 9 | Exported Function
-`GetCommState` | 8 | Exported Function
-`GetCommProperties` | 7 | Exported Function
-`GetCommModemStatus` | 6 | Exported Function
-`GetCommMask` | 5 | Exported Function
-`GetCommConfig` | 4 | Exported Function
-`EscapeCommFunction` | 3 | Exported Function
-`ClearCommError` | 2 | Exported Function
+`SetCommBreak` | 11 | Exported Function
+`SetCommState` | 14 | Exported Function
 `TransmitCommChar` | 17 | Exported Function
 `WaitCommEvent` | 18 | Exported Function
+`SetCommTimeouts` | 15 | Exported Function
+`SetupComm` | 16 | Exported Function
+`EscapeCommFunction` | 3 | Exported Function
+`GetCommConfig` | 4 | Exported Function
+`ClearCommBreak` | 1 | Exported Function
+`ClearCommError` | 2 | Exported Function
+`GetCommMask` | 5 | Exported Function
+`GetCommState` | 8 | Exported Function
+`GetCommTimeouts` | 9 | Exported Function
+`GetCommModemStatus` | 6 | Exported Function
+`GetCommProperties` | 7 | Exported Function
 
 
 ## Signature

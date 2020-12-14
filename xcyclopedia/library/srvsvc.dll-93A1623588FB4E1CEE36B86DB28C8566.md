@@ -26,8 +26,8 @@ PE256 | `6CE2B843A7822BA7BAF2B4154A7DA997820EB31FA6D3B12A0A209DBEBAD02152`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `srvsvc.dll` being misused. While `srvsvc.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `srvsvc.dll` being misused. While `srvsvc.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

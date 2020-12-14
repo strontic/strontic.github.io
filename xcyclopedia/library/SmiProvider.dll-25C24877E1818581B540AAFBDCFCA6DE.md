@@ -26,11 +26,11 @@ PE256 | `3F13FE20DF0BFDDA29E55798485618743672B12334EBA83FAEE381F4FD79A7A3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DLLGetDISMProviderCLSID` | 1 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DLLGetDISMProviderCLSID` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

@@ -46,35 +46,19 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\SYSTEM32\AcLayers.dll |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\SYSTEM32\apphelp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\regsvr32.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\SYSTEM32\sfc.dll |
-C:\Windows\SYSTEM32\sfc_os.DLL |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\WINSPOOL.DRV |
 
 
 ## Signature
@@ -98,7 +82,7 @@ C:\Windows\SYSTEM32\WINSPOOL.DRV |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/022cb167a29a32dae848be91aef721c74f1975af151807dafcc5ed832db246b7/detection
 
 ## File Similarity (ssdeep match)
@@ -109,7 +93,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `regsvr32.exe` being misused. While `regsvr32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `regsvr32.exe` being misused. While `regsvr32.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

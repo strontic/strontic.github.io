@@ -29,7 +29,6 @@ PE256 | `F83E184874AF59575F591061B6DC4B23E46F066E3AE66715E80BBFE838105778`
 Path |
 -- |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -59,7 +58,7 @@ C:\Windows\system32\wuauclt.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/6390c42f0dd21c9611d2eb9c7929f5213a95438d4fbfe0d4ea2adf1271f0696f/detection
 
 ## File Similarity (ssdeep match)
@@ -72,7 +71,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wuauclt.exe` being misused. While `wuauclt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wuauclt.exe` being misused. While `wuauclt.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

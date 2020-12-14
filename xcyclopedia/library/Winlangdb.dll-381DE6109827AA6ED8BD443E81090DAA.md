@@ -26,22 +26,22 @@ PE256 | `737D3EC88EAB52209EC35C41B4CA0B107E5F75410F229B96A903BA25D72BCA92`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Bcp47GetEnglishName` | 1 | Exported Function
-`Bcp47GetLocalizedName` | 2 | Exported Function
-`Bcp47GetLocalizedScript` | 3 | Exported Function
-`Bcp47GetNativeName` | 4 | Exported Function
-`EnsureLanguageProfileExists` | 5 | Exported Function
-`GetLanguageNames` | 6 | Exported Function
-`GetLocaleFromLanguageAndRegion` | 7 | Exported Function
-`GetRegionalFormatList` | 8 | Exported Function
-`IsoScriptGetLocalizedName` | 9 | Exported Function
-`LanguagesDatabaseGetChildLanguages` | 10 | Exported Function
 `LanguagesDatabaseGetLeafLanguages` | 11 | Exported Function
 `LanguagesDatabaseHasChildren` | 12 | Exported Function
-`LanguagesDatabaseHasLocalizedContent` | 13 | Exported Function
-`SetUserLanguages` | 14 | Exported Function
+`IsoScriptGetLocalizedName` | 9 | Exported Function
+`LanguagesDatabaseGetChildLanguages` | 10 | Exported Function
 `SetUserLanguagesCore` | 15 | Exported Function
 `SetUserLanguagesNoSpeller` | 16 | Exported Function
+`LanguagesDatabaseHasLocalizedContent` | 13 | Exported Function
+`SetUserLanguages` | 14 | Exported Function
+`Bcp47GetLocalizedScript` | 3 | Exported Function
+`Bcp47GetNativeName` | 4 | Exported Function
+`Bcp47GetEnglishName` | 1 | Exported Function
+`Bcp47GetLocalizedName` | 2 | Exported Function
+`GetLocaleFromLanguageAndRegion` | 7 | Exported Function
+`GetRegionalFormatList` | 8 | Exported Function
+`EnsureLanguageProfileExists` | 5 | Exported Function
+`GetLanguageNames` | 6 | Exported Function
 
 
 ## Signature

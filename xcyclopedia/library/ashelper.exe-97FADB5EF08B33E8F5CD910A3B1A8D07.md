@@ -43,7 +43,7 @@ SSDEEP | `1536:JjvLxD4cYK5AQsQxiu+DCNLk9l9KYn23h+N:JzLpTIQxi9DCLk9jLnPN`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ashelper.exe` being misused. While `ashelper.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ashelper.exe` being misused. While `ashelper.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

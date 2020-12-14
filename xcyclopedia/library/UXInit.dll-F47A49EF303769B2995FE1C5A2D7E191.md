@@ -26,19 +26,19 @@ PE256 | `A9A8CBB8456F786AB7C98782359AA10B70C27A17DC477306FC2EA979F8335B0B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Ordinal2` | 2 | Exported Function
-`ThemesOnCreateSession` | 7 | Exported Function
-`ThemesOnDisconnect` | 12 | Exported Function
-`ThemesOnEarlyCreateSession` | 13 | Exported Function
-`ThemesOnLogoff` | 10 | Exported Function
-`ThemesOnLogon` | 9 | Exported Function
-`ThemesOnReconnect` | 11 | Exported Function
-`ThemesOnTerminateSession` | 8 | Exported Function
-`ThemeUserLogoff` | 3 | Exported Function
 `ThemeUserLogon` | 4 | Exported Function
-`ThemeUserStartShell` | 5 | Exported Function
-`ThemeUserTSReconnect` | 6 | Exported Function
+`ThemeUserLogoff` | 3 | Exported Function
+`ThemesOnTerminateSession` | 8 | Exported Function
 `ThemeWatchForStart` | 1 | Exported Function
+`ThemeUserTSReconnect` | 6 | Exported Function
+`ThemeUserStartShell` | 5 | Exported Function
+`ThemesOnReconnect` | 11 | Exported Function
+`ThemesOnDisconnect` | 12 | Exported Function
+`ThemesOnCreateSession` | 7 | Exported Function
+`Ordinal2` | 2 | Exported Function
+`ThemesOnLogon` | 9 | Exported Function
+`ThemesOnLogoff` | 10 | Exported Function
+`ThemesOnEarlyCreateSession` | 13 | Exported Function
 
 
 ## Signature

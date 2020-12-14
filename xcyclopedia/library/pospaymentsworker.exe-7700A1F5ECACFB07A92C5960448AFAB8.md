@@ -27,13 +27,10 @@ PE256 | `9350C55D53355F9438A50D9625E5DE7210A7D9277907D5D8548655D6B515422C`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\pospaymentsworker.exe |
 C:\Windows\System32\RPCRT4.dll |

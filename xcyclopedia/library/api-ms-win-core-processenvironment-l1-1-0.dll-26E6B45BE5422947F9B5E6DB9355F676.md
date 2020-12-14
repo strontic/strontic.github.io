@@ -26,27 +26,27 @@ PE256 | `57F75B2ABEAA497653CBD1FEAEC25565813AF74E1CDDDA928312B4C87D9C3A3B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ExpandEnvironmentStringsA` | 1 | Exported Function
-`SetEnvironmentVariableW` | 19 | Exported Function
-`SetEnvironmentVariableA` | 18 | Exported Function
-`SetEnvironmentStringsW` | 17 | Exported Function
-`SetCurrentDirectoryW` | 16 | Exported Function
 `SetCurrentDirectoryA` | 15 | Exported Function
+`SetCurrentDirectoryW` | 16 | Exported Function
 `SearchPathW` | 14 | Exported Function
-`GetStdHandle` | 13 | Exported Function
 `GetEnvironmentVariableW` | 12 | Exported Function
+`GetStdHandle` | 13 | Exported Function
 `SetStdHandle` | 20 | Exported Function
-`GetEnvironmentVariableA` | 11 | Exported Function
-`GetEnvironmentStrings` | 9 | Exported Function
-`GetCurrentDirectoryW` | 8 | Exported Function
-`GetCurrentDirectoryA` | 7 | Exported Function
-`GetCommandLineW` | 6 | Exported Function
-`GetCommandLineA` | 5 | Exported Function
-`FreeEnvironmentStringsW` | 4 | Exported Function
-`FreeEnvironmentStringsA` | 3 | Exported Function
-`ExpandEnvironmentStringsW` | 2 | Exported Function
-`GetEnvironmentStringsW` | 10 | Exported Function
 `SetStdHandleEx` | 21 | Exported Function
+`SetEnvironmentVariableW` | 19 | Exported Function
+`SetEnvironmentStringsW` | 17 | Exported Function
+`SetEnvironmentVariableA` | 18 | Exported Function
+`GetEnvironmentVariableA` | 11 | Exported Function
+`FreeEnvironmentStringsW` | 4 | Exported Function
+`GetCommandLineA` | 5 | Exported Function
+`FreeEnvironmentStringsA` | 3 | Exported Function
+`ExpandEnvironmentStringsA` | 1 | Exported Function
+`ExpandEnvironmentStringsW` | 2 | Exported Function
+`GetEnvironmentStrings` | 9 | Exported Function
+`GetEnvironmentStringsW` | 10 | Exported Function
+`GetCurrentDirectoryW` | 8 | Exported Function
+`GetCommandLineW` | 6 | Exported Function
+`GetCurrentDirectoryA` | 7 | Exported Function
 
 
 ## Signature

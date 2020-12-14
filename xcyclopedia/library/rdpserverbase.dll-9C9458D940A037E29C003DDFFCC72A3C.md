@@ -26,29 +26,29 @@ PE256 | `9F0C5599C49F5EC61DC4DED142FFC901B94CBC1D4B5524E04B155AE603647FE2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CCompressedUpdateContext_CreateInstance` | 18 | Exported Function
-`RDPGraphicsTraceLogging::LogRDPGraphicsVOBRHint` | 13 | Exported Function
-`RDPGraphicsTraceLogging::LogRDPGraphicsSubsampleFailure` | 12 | Exported Function
-`RDPGraphicsTraceLogging::LogRDPGraphicsSubsampleAdapter` | 11 | Exported Function
-`RDPGraphicsTraceLogging::LogRDPGraphicsFirstNonBlackFramePostLogon` | 10 | Exported Function
-`RDPGraphicsTraceLogging::LogRDPGraphicsFirstNonBlackFrame` | 9 | Exported Function
 `RDPGraphicsTraceLogging::LogRDPGraphicsError` | 8 | Exported Function
+`RDPGraphicsTraceLogging::LogRDPGraphicsFirstNonBlackFrame` | 9 | Exported Function
 `RDPSERVERBASE_CreateInstance` | 23 | Exported Function
-`RDPEncryptionTraceLogging_Unregister` | 22 | Exported Function
 `RDPEncryptionTraceLogging_Register` | 21 | Exported Function
+`RDPEncryptionTraceLogging_Unregister` | 22 | Exported Function
+`RDPGraphicsTraceLogging::LogRDPGraphicsFirstNonBlackFramePostLogon` | 10 | Exported Function
 `RDPGraphicsTraceLogging::RDPGraphicsTraceLogging_Unregister` | 15 | Exported Function
-`Tiler::Initialize` | 7 | Exported Function
-`Tiler::GetTileFirst` | 5 | Exported Function
-`RdpSurface::GetGraphicsSourceContext` | 4 | Exported Function
-`RdpSurface::GetEncodingPixelMap` | 1 | Exported Function
-`long __cdecl RDPServerStackQOE_Register(void)` | 16 | Exported Function
-`RDPGraphicsTraceLogging::RDPGraphicsTraceLogging_Register` | 14 | Exported Function
-`long __cdecl GetGfxPipeSettingUINT(unsigned short * __ptr64,unsigned int,unsigned int * __ptr64)` | 3 | Exported Function
-`long __cdecl GetGfxPipeSettingBOOL(unsigned short * __ptr64,int,int * __ptr64)` | 2 | Exported Function
-`CUpdateDataAccumulator_CreateInstance` | 20 | Exported Function
-`CUpdateContext_CreateInstance` | 19 | Exported Function
-`Tiler::GetTileNext` | 6 | Exported Function
 `void __cdecl RDPServerStackQOE_Unregister(void)` | 17 | Exported Function
+`RDPGraphicsTraceLogging::LogRDPGraphicsVOBRHint` | 13 | Exported Function
+`RDPGraphicsTraceLogging::LogRDPGraphicsSubsampleAdapter` | 11 | Exported Function
+`RDPGraphicsTraceLogging::LogRDPGraphicsSubsampleFailure` | 12 | Exported Function
+`Tiler::Initialize` | 7 | Exported Function
+`long __cdecl GetGfxPipeSettingBOOL(unsigned short * __ptr64,int,int * __ptr64)` | 2 | Exported Function
+`long __cdecl GetGfxPipeSettingUINT(unsigned short * __ptr64,unsigned int,unsigned int * __ptr64)` | 3 | Exported Function
+`CUpdateDataAccumulator_CreateInstance` | 20 | Exported Function
+`CCompressedUpdateContext_CreateInstance` | 18 | Exported Function
+`CUpdateContext_CreateInstance` | 19 | Exported Function
+`RDPGraphicsTraceLogging::RDPGraphicsTraceLogging_Register` | 14 | Exported Function
+`Tiler::GetTileFirst` | 5 | Exported Function
+`Tiler::GetTileNext` | 6 | Exported Function
+`RdpSurface::GetGraphicsSourceContext` | 4 | Exported Function
+`long __cdecl RDPServerStackQOE_Register(void)` | 16 | Exported Function
+`RdpSurface::GetEncodingPixelMap` | 1 | Exported Function
 
 
 ## Signature

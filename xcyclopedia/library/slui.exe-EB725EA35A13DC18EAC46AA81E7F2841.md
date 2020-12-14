@@ -32,7 +32,6 @@ C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -43,14 +42,11 @@ C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\system32\SLC.dll |
 C:\Windows\system32\slui.exe |
-C:\Windows\system32\sppc.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WINBRAND.dll |
-C:\Windows\system32\WTSAPI32.dll |
 
 
 ## Signature

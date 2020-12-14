@@ -26,15 +26,15 @@ PE256 | `B8043540D1EB38721C63462B36593A7C8A3804AAE7416CA96A4381C6345522EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateAppxPackageInventory` | 1 | Exported Function
-`CreateAppxPackageInventoryExtracted` | 2 | Exported Function
-`CreateSoftwareInventory` | 3 | Exported Function
-`GetAppInfo` | 4 | Exported Function
-`GetAppInventory` | 5 | Exported Function
-`GetCachedAppInventory` | 6 | Exported Function
 `GetDetailedAppInventory` | 7 | Exported Function
-`GetDetailedAppInventoryFile` | 8 | Exported Function
+`GetCachedAppInventory` | 6 | Exported Function
 `UpdateSoftwareInventoryW` | 9 | Exported Function
+`GetDetailedAppInventoryFile` | 8 | Exported Function
+`GetAppInventory` | 5 | Exported Function
+`CreateAppxPackageInventoryExtracted` | 2 | Exported Function
+`CreateAppxPackageInventory` | 1 | Exported Function
+`GetAppInfo` | 4 | Exported Function
+`CreateSoftwareInventory` | 3 | Exported Function
 
 
 ## Signature

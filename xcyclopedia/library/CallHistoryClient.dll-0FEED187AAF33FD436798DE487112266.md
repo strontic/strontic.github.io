@@ -26,17 +26,17 @@ PE256 | `358F51684ECBEEAA8D86F4B7D9054BD484FA96FDE846BA78E659A147E85DB781`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DoesCallHistoryItemMatchFilter` | 1 | Exported Function
-`StringToUdmObjectId` | 2 | Exported Function
-`UdmAreCallEventsEqual` | 3 | Exported Function
-`UdmCancelAsyncTask` | 4 | Exported Function
-`UdmCreateDataSession` | 5 | Exported Function
-`UdmCreateDataSessionForUser` | 6 | Exported Function
-`UdmCreateSyncCallbackHandler` | 7 | Exported Function
 `UdmDebugModifyNotifyState` | 8 | Exported Function
+`UdmCreateSyncCallbackHandler` | 7 | Exported Function
 `UdmFreeCallFavoriteItemSet` | 9 | Exported Function
-`UdmFreeCallHistoryItemSet` | 10 | Exported Function
 `UdmObjectIdToString` | 11 | Exported Function
+`UdmFreeCallHistoryItemSet` | 10 | Exported Function
+`UdmCreateDataSessionForUser` | 6 | Exported Function
+`StringToUdmObjectId` | 2 | Exported Function
+`DoesCallHistoryItemMatchFilter` | 1 | Exported Function
+`UdmAreCallEventsEqual` | 3 | Exported Function
+`UdmCreateDataSession` | 5 | Exported Function
+`UdmCancelAsyncTask` | 4 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `29C92BC1EF486D8350AF399973BB6FDA18DB5F21D7EEB89F138090BE341A4298`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MediaVRCreateORTCRenderer` | 2 | Exported Function
-`MediaVRDestroyORTCRenderer` | 3 | Exported Function
-`MediaVRGetORTCRenderContext` | 1 | Exported Function
 `MediaVRRequestKeyFrame` | 4 | Exported Function
 `MediaVRSetDecodingHealth` | 5 | Exported Function
+`MediaVRGetORTCRenderContext` | 1 | Exported Function
+`MediaVRCreateORTCRenderer` | 2 | Exported Function
+`MediaVRDestroyORTCRenderer` | 3 | Exported Function
 
 
 ## Signature

@@ -26,13 +26,13 @@ PE256 | `DBEFE6D369B2E68CDE134816166CFEBA4499AE17DED2191187F6C3B660D4BCD1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`L2GPPolicyDataDelete` | 1 | Exported Function
-`L2GPPolicyDataDeleteAll` | 2 | Exported Function
-`L2GPPolicyDataRead` | 3 | Exported Function
-`L2GPPolicyDataWrite` | 4 | Exported Function
 `L2GPPolicyFreeMem` | 5 | Exported Function
 `L2GPPolicyStoreClose` | 6 | Exported Function
 `L2GPPolicyStoreOpen` | 7 | Exported Function
+`L2GPPolicyDataWrite` | 4 | Exported Function
+`L2GPPolicyDataDelete` | 1 | Exported Function
+`L2GPPolicyDataDeleteAll` | 2 | Exported Function
+`L2GPPolicyDataRead` | 3 | Exported Function
 
 
 ## Signature

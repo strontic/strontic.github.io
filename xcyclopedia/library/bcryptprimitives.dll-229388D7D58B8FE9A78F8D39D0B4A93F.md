@@ -26,16 +26,16 @@ PE256 | `37F7FC082821F4F64D3D2AC52E7BACC10579D93162F75C7103D01E1505547EFA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetAsymmetricEncryptionInterface` | 1 | Exported Function
-`GetCipherInterface` | 2 | Exported Function
-`GetHashInterface` | 3 | Exported Function
-`GetKeyDerivationInterface` | 4 | Exported Function
-`GetRngInterface` | 5 | Exported Function
-`GetSecretAgreementInterface` | 6 | Exported Function
 `GetSignatureInterface` | 7 | Exported Function
+`GetSecretAgreementInterface` | 6 | Exported Function
 `MSCryptConvertRsaPrivateBlobToFullRsaBlob` | 8 | Exported Function
-`ProcessPrng` | 9 | Exported Function
 `ProcessPrngGuid` | 10 | Exported Function
+`ProcessPrng` | 9 | Exported Function
+`GetCipherInterface` | 2 | Exported Function
+`GetAsymmetricEncryptionInterface` | 1 | Exported Function
+`GetHashInterface` | 3 | Exported Function
+`GetRngInterface` | 5 | Exported Function
+`GetKeyDerivationInterface` | 4 | Exported Function
 
 
 ## Signature

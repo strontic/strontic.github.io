@@ -26,11 +26,11 @@ PE256 | `0BD368738C9D84EAA7D5684A5637B72CD3D363FD510E865F44ED1897B06629FD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`char * __stdcall VwelVersion(void)` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`char * __stdcall VwelVersion(void)` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

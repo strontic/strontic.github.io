@@ -75,6 +75,11 @@ C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/386f0d88a343a404458b060114da84b314f1bcc01547f12baa1f90a6b7deb0da/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-CDFCD3099F7B36BDFFFEE84145FBE067.md) | 88
 
 
 

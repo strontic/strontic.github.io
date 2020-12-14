@@ -26,20 +26,20 @@ PE256 | `CC2F14BA4FF65086DB3FE86D3683BBAFE7DCB0D7617EE23D5BC3C66B4080E346`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BrandCleanInstallStubs` | 5 | Exported Function
-`BrandICW` | 7 | Exported Function
-`BrandICW2` | 6 | Exported Function
-`BrandIE4` | 8 | Exported Function
-`BrandIEActiveSetup` | 9 | Exported Function
-`BrandInternetExplorer` | 10 | Exported Function
-`BrandIntra` | 11 | Exported Function
-`BrandMe` | 12 | Exported Function
-`Clear` | 13 | Exported Function
 `CloseRASConnections` | 1 | Exported Function
+`Clear` | 13 | Exported Function
+`BrandMe` | 12 | Exported Function
 `InternetInitializeAutoProxyDll` | 14 | Exported Function
-`ProcessGroupPolicyForActivities` | 2 | Exported Function
-`ProcessGroupPolicyForActivitiesEx` | 3 | Exported Function
 `ProcessGroupPolicyForZoneMap` | 4 | Exported Function
+`ProcessGroupPolicyForActivitiesEx` | 3 | Exported Function
+`ProcessGroupPolicyForActivities` | 2 | Exported Function
+`BrandICW2` | 6 | Exported Function
+`BrandICW` | 7 | Exported Function
+`BrandCleanInstallStubs` | 5 | Exported Function
+`BrandIE4` | 8 | Exported Function
+`BrandIntra` | 11 | Exported Function
+`BrandInternetExplorer` | 10 | Exported Function
+`BrandIEActiveSetup` | 9 | Exported Function
 
 
 ## Signature

@@ -63,7 +63,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\BingWallpaperApp\BWCUpdater.exe](BWCUpdater.exe-DC3832152BE72828750DAC6E2C87D4B1.md) | 100
+[C:\Users\user\AppData\Local\Microsoft\BingWallpaperApp\BWCUpdater.exe](BWCUpdater.exe-DC3832152BE72828750DAC6E2C87D4B1.md) | 100
 
 
 

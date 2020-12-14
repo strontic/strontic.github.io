@@ -26,21 +26,21 @@ PE256 | `0481A599369022FF37BEDE1E83F620D1C82A4E4C63C8421F0252276F779B340B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`PlaDeleteReport` | 7 | Exported Function
-`PlaExpandTaskArguments` | 8 | Exported Function
-`PlaExtractCabinet` | 9 | Exported Function
-`PlaGetLegacyAlertActionsFlagsFromString` | 10 | Exported Function
-`PlaGetLegacyAlertActionsStringFromFlags` | 11 | Exported Function
-`PlaGetServerCapabilities` | 12 | Exported Function
 `PlaHost` | 13 | Exported Function
+`PlaGetServerCapabilities` | 12 | Exported Function
+`PlaGetLegacyAlertActionsStringFromFlags` | 11 | Exported Function
 `PlaServer` | 14 | Exported Function
-`PlaUpgrade` | 15 | Exported Function
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`PlaUpgrade` | 15 | Exported Function
+`PlaGetLegacyAlertActionsFlagsFromString` | 10 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`PlaExtractCabinet` | 9 | Exported Function
+`PlaExpandTaskArguments` | 8 | Exported Function
+`PlaDeleteReport` | 7 | Exported Function
 
 
 ## Signature

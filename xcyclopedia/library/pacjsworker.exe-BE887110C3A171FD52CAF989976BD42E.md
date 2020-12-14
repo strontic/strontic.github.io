@@ -59,7 +59,7 @@ C:\Windows\system32\WINHTTP.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/b706df579959e10b50990643507d0b4dc241dae5b3db9ef844242ae74d16b4ef/detection
 
 ## File Similarity (ssdeep match)

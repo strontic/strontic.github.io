@@ -26,11 +26,11 @@ PE256 | `AFAE1263FB6064A6DC927A150695F9160405FA7F85AE14BE6787C184F47F8A13`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ActivatePackage` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `IsEmbeddedModeAllowed` | 5 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`ActivatePackage` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

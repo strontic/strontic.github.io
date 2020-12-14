@@ -26,19 +26,19 @@ PE256 | `83A28A90E364801477820A8492ED7F62902A9E27C5410FFB28B454F95722FAF2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPlApplet` | 1 | Exported Function
-`DllGetClassObject` | 13 | Exported Function
-`HotPlugChildWithInvalidIdW` | 2 | Exported Function
-`HotPlugDriverBlockedW` | 3 | Exported Function
-`HotPlugEjectDevice` | 4 | Exported Function
-`HotPlugEjectDeviceEx` | 5 | Exported Function
-`HotPlugEjectVetoedW` | 6 | Exported Function
-`HotPlugHibernateVetoedW` | 7 | Exported Function
-`HotPlugRemovalVetoedW` | 8 | Exported Function
 `HotPlugSafeRemovalDriveNotificationW` | 9 | Exported Function
-`HotPlugSafeRemovalNotificationW` | 10 | Exported Function
-`HotPlugStandbyVetoedW` | 11 | Exported Function
+`HotPlugRemovalVetoedW` | 8 | Exported Function
+`HotPlugHibernateVetoedW` | 7 | Exported Function
 `HotPlugWarmEjectVetoedW` | 12 | Exported Function
+`HotPlugStandbyVetoedW` | 11 | Exported Function
+`HotPlugSafeRemovalNotificationW` | 10 | Exported Function
+`HotPlugEjectVetoedW` | 6 | Exported Function
+`HotPlugChildWithInvalidIdW` | 2 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`HotPlugEjectDeviceEx` | 5 | Exported Function
+`HotPlugEjectDevice` | 4 | Exported Function
+`HotPlugDriverBlockedW` | 3 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `AEE40CB80054A793D774FA7EAB3F28E9217C92795E8F4911DAAC139107F9D8DF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`__ImagePolicyMetadata` | 2 | Exported Function
 `FxDriverEntryUm` | 1 | Exported Function
+`__ImagePolicyMetadata` | 2 | Exported Function
 
 
 ## Signature

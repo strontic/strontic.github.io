@@ -26,10 +26,10 @@ PE256 | `854814B7C97B1C551B0AA7A6E9FCE55461C650BB63EF422F664FB0A381E99648`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetActivationFactory` | 1 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `QueryACGPolicyForDriverId` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 1 | Exported Function
 
 
 ## Signature

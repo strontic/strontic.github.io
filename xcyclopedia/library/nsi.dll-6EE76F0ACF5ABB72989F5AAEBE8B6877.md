@@ -26,32 +26,32 @@ PE256 | `8B4EC553F960D520B05E903F607FC4DA67DA9C3EB072333C6E0326A80EE51F03`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NsiAllocateAndGetPersistentDataWithMaskTable` | 1 | Exported Function
-`NsiSetObjectSecurity` | 24 | Exported Function
-`NsiSetAllPersistentParametersWithMask` | 23 | Exported Function
-`NsiSetAllParametersEx` | 22 | Exported Function
-`NsiSetAllParameters` | 21 | Exported Function
-`NsiRequestChangeNotificationEx` | 20 | Exported Function
-`NsiRequestChangeNotification` | 19 | Exported Function
-`NsiRegisterChangeNotificationEx` | 18 | Exported Function
 `NsiRegisterChangeNotification` | 17 | Exported Function
-`NsiGetParameterEx` | 16 | Exported Function
-`NsiGetParameter` | 15 | Exported Function
+`NsiRegisterChangeNotificationEx` | 18 | Exported Function
+`NsiRequestChangeNotification` | 19 | Exported Function
 `NsiGetObjectSecurity` | 14 | Exported Function
-`NsiGetAllPersistentParametersWithMask` | 13 | Exported Function
-`NsiGetAllParametersEx` | 12 | Exported Function
-`NsiGetAllParameters` | 11 | Exported Function
-`NsiFreeTable` | 10 | Exported Function
-`NsiFreePersistentDataWithMaskTable` | 9 | Exported Function
-`NsiEnumerateObjectsAllPersistentParametersWithMask` | 8 | Exported Function
-`NsiEnumerateObjectsAllParametersEx` | 7 | Exported Function
-`NsiEnumerateObjectsAllParameters` | 6 | Exported Function
-`NsiDeregisterChangeNotificationEx` | 5 | Exported Function
-`NsiDeregisterChangeNotification` | 4 | Exported Function
-`NsiCancelChangeNotification` | 3 | Exported Function
-`NsiAllocateAndGetTable` | 2 | Exported Function
+`NsiGetParameter` | 15 | Exported Function
+`NsiGetParameterEx` | 16 | Exported Function
+`NsiRequestChangeNotificationEx` | 20 | Exported Function
+`NsiSetObjectSecurity` | 24 | Exported Function
 `NsiSetParameter` | 25 | Exported Function
 `NsiSetParameterEx` | 26 | Exported Function
+`NsiSetAllParameters` | 21 | Exported Function
+`NsiSetAllParametersEx` | 22 | Exported Function
+`NsiSetAllPersistentParametersWithMask` | 23 | Exported Function
+`NsiDeregisterChangeNotification` | 4 | Exported Function
+`NsiDeregisterChangeNotificationEx` | 5 | Exported Function
+`NsiEnumerateObjectsAllParameters` | 6 | Exported Function
+`NsiAllocateAndGetPersistentDataWithMaskTable` | 1 | Exported Function
+`NsiAllocateAndGetTable` | 2 | Exported Function
+`NsiCancelChangeNotification` | 3 | Exported Function
+`NsiEnumerateObjectsAllParametersEx` | 7 | Exported Function
+`NsiGetAllParameters` | 11 | Exported Function
+`NsiGetAllParametersEx` | 12 | Exported Function
+`NsiGetAllPersistentParametersWithMask` | 13 | Exported Function
+`NsiEnumerateObjectsAllPersistentParametersWithMask` | 8 | Exported Function
+`NsiFreePersistentDataWithMaskTable` | 9 | Exported Function
+`NsiFreeTable` | 10 | Exported Function
 
 
 ## Signature

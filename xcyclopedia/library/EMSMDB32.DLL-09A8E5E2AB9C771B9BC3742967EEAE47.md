@@ -26,26 +26,26 @@ PE256 | `8A7808AB3B6ED87E9FA8492E7D3A4105D3EE5E8349945027EAC0C3EE603C6E1D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ABProviderInit` | 2 | Exported Function
-`ScStatCollect` | 19 | Exported Function
-`ScStatClose` | 18 | Exported Function
-`MSProviderInit` | 17 | Exported Function
-`HrMigrateStoreProvider` | 16 | Exported Function
 `HrMigratePublicFolderProvider` | 15 | Exported Function
+`HrMigrateStoreProvider` | 16 | Exported Function
 `HrGetAddrBook` | 14 | Exported Function
-`HrEmsuiInit` | 7 | Exported Function
 `HrDiscoverUPNFromSmtp` | 13 | Exported Function
-`HrCacheCredsIntoProfile` | 12 | Exported Function
-`GetPublicFolderDisplayName` | 11 | Exported Function
-`GetEMSCheckedUnicode` | 10 | Exported Function
-`FPublicFolderEntryIDContainsLegacyDN` | 9 | Exported Function
-`FCrossForestUser` | 5 | Exported Function
-`EMSWizardEntry` | 8 | Exported Function
-`EMSCfg` | 6 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
-`CreateOABList` | 3 | Exported Function
+`HrEmsuiInit` | 7 | Exported Function
 `ScStatOpen` | 20 | Exported Function
 `XPProviderInit` | 21 | Exported Function
+`ScStatCollect` | 19 | Exported Function
+`MSProviderInit` | 17 | Exported Function
+`ScStatClose` | 18 | Exported Function
+`EMSCfg` | 6 | Exported Function
+`EMSWizardEntry` | 8 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`ABProviderInit` | 2 | Exported Function
+`CreateOABList` | 3 | Exported Function
+`GetPublicFolderDisplayName` | 11 | Exported Function
+`HrCacheCredsIntoProfile` | 12 | Exported Function
+`GetEMSCheckedUnicode` | 10 | Exported Function
+`FCrossForestUser` | 5 | Exported Function
+`FPublicFolderEntryIDContainsLegacyDN` | 9 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `822513468A54CB05C269FA4C8CB331BAA62809292C7792A40AB15AA425328E4D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `MFCreateAVIMediaSink` | 3 | Exported Function
 `MFCreateWAVEMediaSink` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

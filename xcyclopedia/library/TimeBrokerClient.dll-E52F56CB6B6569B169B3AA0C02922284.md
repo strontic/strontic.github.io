@@ -26,16 +26,16 @@ PE256 | `11150CEE0183704DA6BE5E6C1C8352BDE123D53BED4216CFFF2898652430075D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TbCreateCEvent` | 1 | Exported Function
-`TbCreateEvent` | 2 | Exported Function
-`TbDeleteCEvent` | 3 | Exported Function
-`TbDeleteEvent` | 4 | Exported Function
-`TbEnumerateEvents` | 5 | Exported Function
-`TbQueryCEventData` | 6 | Exported Function
 `TbQueryCEventTriggerTime` | 7 | Exported Function
+`TbQueryCEventData` | 6 | Exported Function
 `TbQueryEventData` | 8 | Exported Function
-`TbUpdateCEvent` | 9 | Exported Function
 `TbUpdateEvent` | 10 | Exported Function
+`TbUpdateCEvent` | 9 | Exported Function
+`TbCreateEvent` | 2 | Exported Function
+`TbCreateCEvent` | 1 | Exported Function
+`TbDeleteCEvent` | 3 | Exported Function
+`TbEnumerateEvents` | 5 | Exported Function
+`TbDeleteEvent` | 4 | Exported Function
 
 
 ## Signature

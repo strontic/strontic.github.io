@@ -26,12 +26,12 @@ PE256 | `328DC0808362479239314ACDDA10831B00961F4DC336FFA1A3FAB1041089C25C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`LLTDCreateEnumerator` | 3 | Exported Function
 `LLTDCreateMapFromXML` | 4 | Exported Function
 `LLTDCreateMapper` | 5 | Exported Function
 `LLTDCreateNode` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`LLTDCreateEnumerator` | 3 | Exported Function
 
 
 ## Signature

@@ -70,7 +70,7 @@ C:\Windows\SysWOW64\mmgaserver.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/c4af20467472cd76f0d011a2ae9cecd265896d3a04935628298cab5937b41dae/detection
 
 

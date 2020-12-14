@@ -41,7 +41,7 @@ SSDEEP | `768:okocTYgDLIvKew/OKlm7ZtByEtOmGO7ohecoFTAx6hgcTyx/JwcI:nTYgD6bw/5lm7
 
 ## Possible Misuse
 
-*The following table contains possible examples of `xcopy.exe` being misused. While `xcopy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `xcopy.exe` being misused. While `xcopy.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

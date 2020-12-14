@@ -26,20 +26,20 @@ PE256 | `56D0F4A36FDBA65B9CC47F82E4FA77AFD2996B5AB14B4721FA348A041908B9AA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ControlTraceA` | 1 | Exported Function
-`EnableTrace` | 2 | Exported Function
-`EnableTraceEx` | 3 | Exported Function
-`EnumerateTraceGuids` | 4 | Exported Function
-`FlushTraceA` | 5 | Exported Function
-`FlushTraceW` | 6 | Exported Function
-`OpenTraceA` | 7 | Exported Function
-`QueryAllTracesA` | 8 | Exported Function
-`QueryTraceA` | 9 | Exported Function
 `QueryTraceW` | 10 | Exported Function
+`QueryTraceA` | 9 | Exported Function
+`QueryAllTracesA` | 8 | Exported Function
 `StartTraceA` | 11 | Exported Function
-`StopTraceA` | 12 | Exported Function
-`UpdateTraceA` | 13 | Exported Function
 `UpdateTraceW` | 14 | Exported Function
+`UpdateTraceA` | 13 | Exported Function
+`StopTraceA` | 12 | Exported Function
+`EnableTraceEx` | 3 | Exported Function
+`EnableTrace` | 2 | Exported Function
+`ControlTraceA` | 1 | Exported Function
+`EnumerateTraceGuids` | 4 | Exported Function
+`OpenTraceA` | 7 | Exported Function
+`FlushTraceW` | 6 | Exported Function
+`FlushTraceA` | 5 | Exported Function
 
 
 ## Signature

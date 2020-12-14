@@ -42,10 +42,8 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -80,13 +78,14 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/eb0ac5d09d1cb7830feb6fd002f07bf26dab139546c48fa03aaa5383190db1ad/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\splwow64.exe](splwow64.exe-09EC082A13633BAEDE8FF155A0ACCF9E.md) | 47
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 55
 [C:\Windows\splwow64.exe](splwow64.exe-93A8D365CB20A105CB97FF41451B85D5.md) | 44
 [C:\Windows\splwow64.exe](splwow64.exe-9FCD31635CC99F1DAFB64AB3F963E0C1.md) | 43

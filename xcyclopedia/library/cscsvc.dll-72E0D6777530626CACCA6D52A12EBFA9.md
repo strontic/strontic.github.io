@@ -26,8 +26,8 @@ PE256 | `049B69F7722A8DB59A622CAEA805699250C00E09725A72A28BEF3831EC3774CB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CscServiceMain` | 1 | Exported Function
 `CscTestGetInterface` | 2 | Exported Function
+`CscServiceMain` | 1 | Exported Function
 
 
 ## Signature

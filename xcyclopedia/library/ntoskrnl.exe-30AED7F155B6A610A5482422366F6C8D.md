@@ -41,7 +41,7 @@ SSDEEP | `98304:CJDtua0BaYZ7EweXsy0rLc2f2fgwqzpMBSd8ugvM3vq2XAK:sJuaPYZ7uD0sylDR
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ntoskrnl.exe` being misused. While `ntoskrnl.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ntoskrnl.exe` being misused. While `ntoskrnl.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

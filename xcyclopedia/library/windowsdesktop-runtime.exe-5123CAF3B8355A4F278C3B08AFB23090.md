@@ -81,7 +81,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\Temp\windowsdesktop-runtime.exe](windowsdesktop-runtime.exe-5123CAF3B8355A4F278C3B08AFB23090.md) | 100
+[C:\Users\user\AppData\Local\Temp\windowsdesktop-runtime.exe](windowsdesktop-runtime.exe-5123CAF3B8355A4F278C3B08AFB23090.md) | 100
 
 
 

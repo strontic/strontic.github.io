@@ -61,7 +61,7 @@ time               Specifies the time when command is to run.
 ```
 
 ### Child Processes:
-csrss.exe winlogon.exe
+explorer.exe
 
 ### Loaded Modules:
 
@@ -101,7 +101,7 @@ C:\Windows\SysWOW64\at.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `at.exe` being misused. While `at.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `at.exe` being misused. While `at.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

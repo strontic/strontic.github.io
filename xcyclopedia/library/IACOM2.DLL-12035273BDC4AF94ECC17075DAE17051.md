@@ -26,11 +26,11 @@ PE256 | `7B78F2AC0140C815349FE0ACE3A1F351A9D80C4D2183F9BE15A66FFAF2BF4BC9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `OInkAnalysis::GetInkAnalysisFactoryInstance` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

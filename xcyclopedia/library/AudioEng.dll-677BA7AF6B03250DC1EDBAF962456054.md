@@ -26,12 +26,12 @@ PE256 | `E149434DCFAC4BFE274FA958BA653F56E5D7B6196F991AAAE20FC9A1A6472725`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AERT_Allocate` | 1 | Exported Function
-`AERT_Free` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
 `DllUnregisterServer` | 6 | Exported Function
+`AERT_Allocate` | 1 | Exported Function
+`AERT_Free` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

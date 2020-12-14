@@ -26,17 +26,17 @@ PE256 | `C2E30C63E3117A54963635B360E91B96097DFEA7353931373C69895776495EEC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WcDetachFilter` | 1 | Exported Function
-`WciConfigureVolume` | 4 | Exported Function
-`WciGetUnions` | 5 | Exported Function
-`WciReadReparsePointData` | 6 | Exported Function
-`WciRemoveRoot` | 7 | Exported Function
-`WciSetReparsePointData` | 8 | Exported Function
-`WciSetReparsePointDataEx` | 9 | Exported Function
 `WciSetTombstone` | 10 | Exported Function
+`WciSetReparsePointDataEx` | 9 | Exported Function
 `WciSetupFilter` | 11 | Exported Function
-`WcRemoveReparseData` | 2 | Exported Function
 `WcRemoveTombstoneReparseData` | 3 | Exported Function
+`WcRemoveReparseData` | 2 | Exported Function
+`WciSetReparsePointData` | 8 | Exported Function
+`WciConfigureVolume` | 4 | Exported Function
+`WcDetachFilter` | 1 | Exported Function
+`WciGetUnions` | 5 | Exported Function
+`WciRemoveRoot` | 7 | Exported Function
+`WciReadReparsePointData` | 6 | Exported Function
 
 
 ## Signature

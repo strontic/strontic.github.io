@@ -26,15 +26,15 @@ PE256 | `FA7F7A2EDBFAC5F7B9147B019B4F704139007AD3CC396904215F8F4014F43294`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`MTF_Close` | 3 | Exported Function
-`MTF_Deinit` | 4 | Exported Function
-`MTF_GetServer` | 5 | Exported Function
-`MTF_Init` | 7 | Exported Function
 `MTF_IOControl` | 6 | Exported Function
-`MTF_Open` | 8 | Exported Function
+`MTF_Init` | 7 | Exported Function
 `MTF_SetPrivateMode` | 9 | Exported Function
+`MTF_Open` | 8 | Exported Function
+`MTF_GetServer` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`MTF_Deinit` | 4 | Exported Function
+`MTF_Close` | 3 | Exported Function
 
 
 ## Signature

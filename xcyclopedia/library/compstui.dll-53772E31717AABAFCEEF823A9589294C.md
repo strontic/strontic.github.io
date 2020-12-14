@@ -26,10 +26,10 @@ PE256 | `1241D24DC15BCCBB6E5C286E38A5A8BF97E338167E0BD8838C3C4D9B5B95C116`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CommonPropertySheetUIA` | 1 | Exported Function
-`CommonPropertySheetUIW` | 2 | Exported Function
 `GetCPSUIUserData` | 3 | Exported Function
 `SetCPSUIUserData` | 4 | Exported Function
+`CommonPropertySheetUIA` | 1 | Exported Function
+`CommonPropertySheetUIW` | 2 | Exported Function
 
 
 ## Signature

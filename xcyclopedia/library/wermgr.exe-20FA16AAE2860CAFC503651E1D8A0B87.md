@@ -51,6 +51,7 @@ File | Score
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C401D20C96E687E9F68DF87D938541EE.md) | 40
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-DE56B2A5785ED06A8D1A6EC23F9FDF37.md) | 36
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 41
+[C:\Windows\system32\wermgr.exe](wermgr.exe-DF2AD28AC6BEDF07422537CCA6F1E637.md) | 38
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E856524BF40EB2A050195C39989C8DD5.md) | 41
 [C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 43
 [C:\windows\system32\wermgr.exe](wermgr.exe-F88816F787B827695928ACE239A9F61C.md) | 40
@@ -67,6 +68,14 @@ File | Score
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-3C5D8073B8A766DBFBB2B2A8257D1E59.md) | 41
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-555D0661B743C909A5BF0C2B27D220FA.md) | 44
 
+## Possible Misuse
+
+*The following table contains possible examples of `wermgr.exe` being misused. While `wermgr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_malware_trickbot_wermgr.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_trickbot_wermgr.yml) | `description: Detects Trickbot malware process tree pattern in which rundll32.exe is parent of wermgr.exe ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_malware_trickbot_wermgr.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_trickbot_wermgr.yml) | `- '\wermgr.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

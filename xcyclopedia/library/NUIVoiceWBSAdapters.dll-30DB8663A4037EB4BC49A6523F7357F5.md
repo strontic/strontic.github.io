@@ -26,8 +26,8 @@ PE256 | `91D40A48669D9E4867CC0F7C4639C4584EA41202F2C188A9C4FAE6D001AD2D69`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WbioQueryEngineInterface` | 1 | Exported Function
 `WbioQuerySensorInterface` | 2 | Exported Function
+`WbioQueryEngineInterface` | 1 | Exported Function
 
 
 ## Signature

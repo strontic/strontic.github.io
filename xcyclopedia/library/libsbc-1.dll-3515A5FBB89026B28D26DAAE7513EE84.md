@@ -25,19 +25,19 @@ PE256 | `1DDF558EF2A6B216D4EBC80D09A7AC4186BAF2FDF782BDE4CA93EC2BC43D1CC8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`sbc_decode` | 1 | Exported Function
-`sbc_encode` | 2 | Exported Function
-`sbc_finish` | 3 | Exported Function
-`sbc_get_codesize` | 4 | Exported Function
-`sbc_get_frame_duration` | 5 | Exported Function
-`sbc_get_frame_length` | 6 | Exported Function
-`sbc_get_implementation_info` | 7 | Exported Function
-`sbc_init` | 8 | Exported Function
-`sbc_init_a2dp` | 9 | Exported Function
 `sbc_init_msbc` | 10 | Exported Function
-`sbc_parse` | 11 | Exported Function
-`sbc_reinit` | 12 | Exported Function
+`sbc_init_a2dp` | 9 | Exported Function
+`sbc_init` | 8 | Exported Function
 `sbc_reinit_a2dp` | 13 | Exported Function
+`sbc_reinit` | 12 | Exported Function
+`sbc_parse` | 11 | Exported Function
+`sbc_get_implementation_info` | 7 | Exported Function
+`sbc_finish` | 3 | Exported Function
+`sbc_encode` | 2 | Exported Function
+`sbc_decode` | 1 | Exported Function
+`sbc_get_frame_length` | 6 | Exported Function
+`sbc_get_frame_duration` | 5 | Exported Function
+`sbc_get_codesize` | 4 | Exported Function
 
 
 ## Signature

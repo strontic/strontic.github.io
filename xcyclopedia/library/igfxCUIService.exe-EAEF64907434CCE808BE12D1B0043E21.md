@@ -41,7 +41,7 @@ SSDEEP | `6144:/X67T/HNGxW4Cm7mQuT/F/1A2RKnXYRRSgEbJ4Y:/XcT/tG4+7m50YRR`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxCUIService.exe` being misused. While `igfxCUIService.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxCUIService.exe` being misused. While `igfxCUIService.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -60,6 +60,7 @@ File | Score
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 65
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 47
 [C:\Windows\system32\wermgr.exe](wermgr.exe-CD042F94B63D67E012CFB4297D313248.md) | 44
+[C:\Windows\system32\wermgr.exe](wermgr.exe-DF2AD28AC6BEDF07422537CCA6F1E637.md) | 55
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 47
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E856524BF40EB2A050195C39989C8DD5.md) | 57
 [C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 52
@@ -82,9 +83,18 @@ File | Score
 [C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 40
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-4C68AD8928D6DE43040805B45118212C.md) | 43
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-555D0661B743C909A5BF0C2B27D220FA.md) | 43
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-B64826620DD8495C0191B536FA1B1D32.md) | 46
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-DEF33E6FF117395A2F1BF5A06D0988E1.md) | 40
 [C:\Windows\SysWOW64\werui.dll](werui.dll-953EB30D45E7FC1E524C4E868235A706.md) | 50
 
+## Possible Misuse
+
+*The following table contains possible examples of `wermgr.exe` being misused. While `wermgr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_malware_trickbot_wermgr.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_trickbot_wermgr.yml) | `description: Detects Trickbot malware process tree pattern in which rundll32.exe is parent of wermgr.exe ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_malware_trickbot_wermgr.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_trickbot_wermgr.yml) | `- '\wermgr.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

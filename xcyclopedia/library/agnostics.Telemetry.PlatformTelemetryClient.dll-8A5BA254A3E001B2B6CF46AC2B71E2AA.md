@@ -26,9 +26,9 @@ PE256 | `C32A370C28921A6E6F8C3DDDF5A9E011305770BDE34872ABABBDF7A590DB6D1A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

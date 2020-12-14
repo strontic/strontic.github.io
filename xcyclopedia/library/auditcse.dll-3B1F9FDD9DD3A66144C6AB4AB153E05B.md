@@ -26,10 +26,10 @@ PE256 | `B5017FC2257FE9C91AEEEBD823CF4F4505BA4330424628BB2604DA6661A06592`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GenerateGroupPolicy` | 1 | Exported Function
-`GenerateGroupPolicyCap` | 2 | Exported Function
 `ProcessGroupPolicyEx` | 3 | Exported Function
 `ProcessGroupPolicyExCap` | 4 | Exported Function
+`GenerateGroupPolicy` | 1 | Exported Function
+`GenerateGroupPolicyCap` | 2 | Exported Function
 
 
 ## Signature

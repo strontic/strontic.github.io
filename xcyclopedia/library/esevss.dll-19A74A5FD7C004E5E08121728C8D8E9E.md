@@ -26,14 +26,14 @@ PE256 | `7BB3555CEF33148A283990C1266D57473292FC189111D6D9709A3D97857601C7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EseShadowCreateShadow` | 1 | Exported Function
-`EseShadowCreateSimpleShadow` | 2 | Exported Function
-`EseShadowInit` | 3 | Exported Function
-`EseShadowMountShadow` | 4 | Exported Function
-`EseShadowMountSimpleShadow` | 5 | Exported Function
 `EseShadowPurgeShadow` | 6 | Exported Function
-`EseShadowTerm` | 7 | Exported Function
+`EseShadowMountSimpleShadow` | 5 | Exported Function
 `VssIdToString` | 8 | Exported Function
+`EseShadowTerm` | 7 | Exported Function
+`EseShadowCreateSimpleShadow` | 2 | Exported Function
+`EseShadowCreateShadow` | 1 | Exported Function
+`EseShadowMountShadow` | 4 | Exported Function
+`EseShadowInit` | 3 | Exported Function
 
 
 ## Signature

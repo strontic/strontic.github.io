@@ -26,25 +26,25 @@ PE256 | `C7B4302A3E55A1550009D4616091A625CBCC32A733FF07952ADEBE29B927B5D0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HSAdapterInterface::IHSInterface` | 14 | Exported Function
-`HSStackInterface::IStackInterface` | 8 | Exported Function
-`HSAdapterInterface::IHSInterface` | 7 | Exported Function
-`CUsbHidImpl::CreateWindowAndMessageLoop` | 16 | Exported Function
-`SecomLogManager::CLogManager` | 18 | Exported Function
 `IHSEventListener::operator` | 10 | Exported Function
-`HSStackInterface::IStackInterface` | 12 | Exported Function
+`SecomLogManager::CLogManager` | 18 | Exported Function
 `HSAdapterInterface::IHSInterface` | 11 | Exported Function
+`HSStackInterface::IStackInterface` | 12 | Exported Function
+`CUsbHidImpl::CreateWindowAndMessageLoop` | 16 | Exported Function
 `CUsbHidImpl::destroy` | 17 | Exported Function
-`CCommonUtilities::operator` | 9 | Exported Function
-`IHSEventListener::IHSEventListener` | 1 | Exported Function
-`IStackInterface::IStackInterface` | 6 | Exported Function
-`HSStackInterface::IStackInterface` | 5 | Exported Function
-`IHSInterface::IHSInterface` | 4 | Exported Function
-`HSAdapterInterface::IHSInterface` | 3 | Exported Function
-`const IHSEventListener::``vftable'` | 13 | Exported Function
-`HSStackInterface::IStackInterface` | 15 | Exported Function
-`IHSEventListener::IHSEventListener` | 2 | Exported Function
 `CUsbHidImpl::startEventThread` | 19 | Exported Function
+`HSAdapterInterface::IHSInterface` | 7 | Exported Function
+`HSStackInterface::IStackInterface` | 8 | Exported Function
+`CCommonUtilities::operator` | 9 | Exported Function
+`const IHSEventListener::``vftable'` | 13 | Exported Function
+`HSAdapterInterface::IHSInterface` | 3 | Exported Function
+`HSAdapterInterface::IHSInterface` | 14 | Exported Function
+`HSStackInterface::IStackInterface` | 15 | Exported Function
+`IHSInterface::IHSInterface` | 4 | Exported Function
+`IHSEventListener::IHSEventListener` | 1 | Exported Function
+`IHSEventListener::IHSEventListener` | 2 | Exported Function
+`HSStackInterface::IStackInterface` | 5 | Exported Function
+`IStackInterface::IStackInterface` | 6 | Exported Function
 
 
 ## Signature

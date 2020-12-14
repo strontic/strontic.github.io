@@ -58,6 +58,11 @@ C:\Windows\SysWOW64\agentactivationruntimestarter.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/88effca42907259b29dce23af9683e07973b0bc22463488dd5d149715291c944/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-E556115BD4E751178310F842E457CA22.md) | 90
 
 
 

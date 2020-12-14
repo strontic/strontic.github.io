@@ -136,7 +136,7 @@ C:\Windows\SysWOW64\ldifde.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ldifde.exe` being misused. While `ldifde.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ldifde.exe` being misused. While `ldifde.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

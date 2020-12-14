@@ -28,7 +28,6 @@ PE256 | `DD0B154805FC7A56587EBF6F067C76F94AC34CEC30255AE0AAFAE3CF6D0F152F`
 
 Path |
 -- |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
@@ -72,7 +71,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RemoteFXvGPUDisablement.exe` being misused. While `RemoteFXvGPUDisablement.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RemoteFXvGPUDisablement.exe` being misused. While `RemoteFXvGPUDisablement.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

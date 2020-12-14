@@ -26,31 +26,31 @@ PE256 | `F662B443C408D08A020085CCF0E4C03150510A121CC278E942B9F4A1ABA2565A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_TTCharToUnicode@24` | 12 | Exported Function
-`TTLoadEmbeddedFont` | 10 | Exported Function
-`TTIsEmbeddingEnabledForFacename` | 9 | Exported Function
-`TTIsEmbeddingEnabled` | 8 | Exported Function
-`TTGetNewFontName` | 25 | Exported Function
-`TTGetEmbeddingType` | 7 | Exported Function
-`TTGetEmbeddedFontInfo` | 6 | Exported Function
 `TTEnableEmbeddingForFacename` | 5 | Exported Function
-`TTEmbedFontFromFileA` | 4 | Exported Function
-`TTEmbedFontEx` | 23 | Exported Function
+`TTGetEmbeddedFontInfo` | 6 | Exported Function
+`TTGetEmbeddingType` | 7 | Exported Function
 `TTEmbedFont` | 3 | Exported Function
+`TTEmbedFontEx` | 23 | Exported Function
+`TTEmbedFontFromFileA` | 4 | Exported Function
+`TTLoadEmbeddedFont` | 10 | Exported Function
 `TTRunValidationTests` | 11 | Exported Function
-`TTDeleteEmbeddedFont` | 2 | Exported Function
-`_TTRunValidationTests@8` | 22 | Exported Function
-`_TTLoadEmbeddedFont@40` | 21 | Exported Function
-`_TTIsEmbeddingEnabledForFacename@8` | 20 | Exported Function
-`_TTIsEmbeddingEnabled@8` | 19 | Exported Function
-`_TTGetEmbeddingType@8` | 18 | Exported Function
-`_TTGetEmbeddedFontInfo@28` | 17 | Exported Function
-`_TTEnableEmbeddingForFacename@8` | 16 | Exported Function
-`_TTEmbedFontFromFileA@52` | 15 | Exported Function
-`_TTEmbedFont@44` | 14 | Exported Function
-`_TTDeleteEmbeddedFont@12` | 13 | Exported Function
-`TTCharToUnicode` | 1 | Exported Function
 `TTRunValidationTestsEx` | 24 | Exported Function
+`TTGetNewFontName` | 25 | Exported Function
+`TTIsEmbeddingEnabled` | 8 | Exported Function
+`TTIsEmbeddingEnabledForFacename` | 9 | Exported Function
+`TTDeleteEmbeddedFont` | 2 | Exported Function
+`_TTEmbedFontFromFileA@52` | 15 | Exported Function
+`_TTEnableEmbeddingForFacename@8` | 16 | Exported Function
+`_TTGetEmbeddedFontInfo@28` | 17 | Exported Function
+`_TTCharToUnicode@24` | 12 | Exported Function
+`_TTDeleteEmbeddedFont@12` | 13 | Exported Function
+`_TTEmbedFont@44` | 14 | Exported Function
+`_TTLoadEmbeddedFont@40` | 21 | Exported Function
+`_TTRunValidationTests@8` | 22 | Exported Function
+`TTCharToUnicode` | 1 | Exported Function
+`_TTGetEmbeddingType@8` | 18 | Exported Function
+`_TTIsEmbeddingEnabled@8` | 19 | Exported Function
+`_TTIsEmbeddingEnabledForFacename@8` | 20 | Exported Function
 
 
 ## Signature

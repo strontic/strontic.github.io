@@ -26,11 +26,11 @@ PE256 | `3500EE33190CB29F9F4FE653514F54F47FDACFCCE838D826387DC6E3650D82EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeserializeLANPolicy` | 3 | Exported Function
-`GenerateLANPolicy` | 1 | Exported Function
-`LANGPADeInit` | 4 | Exported Function
 `LANGPAInit` | 5 | Exported Function
 `ProcessLANPolicyEx` | 2 | Exported Function
+`LANGPADeInit` | 4 | Exported Function
+`DeserializeLANPolicy` | 3 | Exported Function
+`GenerateLANPolicy` | 1 | Exported Function
 
 
 ## Signature

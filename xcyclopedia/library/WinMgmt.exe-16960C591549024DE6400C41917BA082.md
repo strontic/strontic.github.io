@@ -92,6 +92,9 @@ Usage:  winmgmt	[/backup <filename>] [/restore <filename> <flag>]
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |
@@ -123,7 +126,7 @@ C:\Windows\system32\wbem\WinMgmt.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/acf5cb14318c8ccd2645f9f72a8885ef3631ced88ebf2b832dfa541373b062e3/detection
 
 ## File Similarity (ssdeep match)

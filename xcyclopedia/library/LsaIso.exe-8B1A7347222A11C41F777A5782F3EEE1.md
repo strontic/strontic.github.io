@@ -49,7 +49,7 @@ PE256 | `45166C7960B4415D00E3EC125BD6DCB09EE981159DA54C25B799838374DEC0BA`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

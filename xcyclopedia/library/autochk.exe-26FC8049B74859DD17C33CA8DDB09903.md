@@ -49,7 +49,7 @@ PE256 | `6FE8C9489930D819636964ED2575F8F0E1B1A587ABA29BA820FF7B69588E9E54`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `autochk.exe` being misused. While `autochk.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `autochk.exe` being misused. While `autochk.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

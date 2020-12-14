@@ -49,6 +49,7 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
 C:\Windows\system32\WINHTTP.dll |
 
 
@@ -73,7 +74,7 @@ C:\Windows\system32\WINHTTP.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/1041623963e1a109b80312cbfe4dc4544cbac478c2eb2597ca040e1c78585a3e/detection
 
 ## File Similarity (ssdeep match)
@@ -85,7 +86,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `DeviceCensus.exe` being misused. While `DeviceCensus.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `DeviceCensus.exe` being misused. While `DeviceCensus.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

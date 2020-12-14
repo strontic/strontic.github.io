@@ -26,17 +26,17 @@ PE256 | `0FAA103F1D3D6545326BA1748E9C846F6AAEEEAE024F526302FDC0D02417687A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AdviseHook` | 1 | Exported Function
-`DllCanUnloadNow` | 8 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
-`DllRegisterServer` | 10 | Exported Function
-`DllUnregisterServer` | 11 | Exported Function
-`EndCaretTracking` | 2 | Exported Function
-`ProcessCaretEvents` | 3 | Exported Function
 `ProcessCiceroCaretEvent` | 4 | Exported Function
+`ProcessCaretEvents` | 3 | Exported Function
 `RestrictedModeMsgWndProc` | 5 | Exported Function
-`StartCaretTracking` | 6 | Exported Function
 `UnadviseHook` | 7 | Exported Function
+`StartCaretTracking` | 6 | Exported Function
+`EndCaretTracking` | 2 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`AdviseHook` | 1 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
 
 
 ## Signature

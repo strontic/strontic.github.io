@@ -26,12 +26,12 @@ PE256 | `32ACDFBF88C9A817A993E69D5E89B5F2EDA885E244D304F1CF7E353AB373B3F2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ModernColorGetGDILutFromHDC` | 1 | Exported Function
-`ModernColorSetGDILut` | 2 | Exported Function
-`ModernColorSetGDILutFromHDC` | 3 | Exported Function
 `ModernColorSetLut` | 4 | Exported Function
 `ModernColorSetMatrix` | 5 | Exported Function
 `ModernColorSetMatrixFromHDC` | 6 | Exported Function
+`ModernColorGetGDILutFromHDC` | 1 | Exported Function
+`ModernColorSetGDILut` | 2 | Exported Function
+`ModernColorSetGDILutFromHDC` | 3 | Exported Function
 
 
 ## Signature

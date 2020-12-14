@@ -121,6 +121,7 @@ File | Score
 [C:\Windows\system32\migwiz\mighost.exe](mighost.exe-79BBFF97E65EED53564150A9B4CE1372.md) | 82
 [C:\Windows\system32\migwiz\mighost.exe](mighost.exe-89C50106DF2063F9918622E2042437C8.md) | 40
 [C:\Windows\system32\migwiz\mighost.exe](mighost.exe-89E9A60DE70C1139BE669DA65A17A9F4.md) | 82
+[C:\Windows\system32\migwiz\mighost.exe](mighost.exe-BAD04F25F7495A2CCB0CE1E8F043D748.md) | 83
 
 
 

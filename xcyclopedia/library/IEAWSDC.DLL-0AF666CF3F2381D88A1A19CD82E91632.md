@@ -26,21 +26,21 @@ PE256 | `F02BD7365882D655B4004375F518D91CDB59D742384E26BDDD1E82B8D3106FF5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
-`FGetMyTemplatesFolder` | 1 | Exported Function
-`HrAddAssetIdToMruList` | 8 | Exported Function
-`HrAddAssetIdToMruListEx` | 9 | Exported Function
-`HrExtractTemplate` | 10 | Exported Function
-`HrExtractTemplateToPath` | 11 | Exported Function
-`HrExtractTemplateToPathEx` | 12 | Exported Function
 `HrExtractTemplateToStoreLocation` | 13 | Exported Function
+`HrExtractTemplateToPathEx` | 12 | Exported Function
+`HrExtractTemplateToPath` | 11 | Exported Function
 `HrExtractTemplateVer` | 14 | Exported Function
-`HrVerifyInstallationBasic` | 15 | Exported Function
-`TaggedHrExtractTemplateToStoreLocation` | 2 | Exported Function
 `TaggedHrExtractTemplateVer` | 3 | Exported Function
+`TaggedHrExtractTemplateToStoreLocation` | 2 | Exported Function
+`HrVerifyInstallationBasic` | 15 | Exported Function
+`HrExtractTemplate` | 10 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`HrAddAssetIdToMruListEx` | 9 | Exported Function
+`HrAddAssetIdToMruList` | 8 | Exported Function
+`FGetMyTemplatesFolder` | 1 | Exported Function
 
 
 ## Signature

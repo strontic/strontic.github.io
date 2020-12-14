@@ -55,7 +55,7 @@ C:\Windows\system32\snmptrap.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/9d665698ff26ed333ad385b4b7a6c0f2b6806371d278e281fa4188002a5317e8/detection
 
 

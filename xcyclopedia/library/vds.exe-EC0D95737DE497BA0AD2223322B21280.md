@@ -41,7 +41,7 @@ SSDEEP | `6144:sKiWs0U8AJ7Mmz2Xaz4tdBxYVqMBreyVE3kjsOFNQzmsHLcrwFRRVH:MMOJ7AA4pu
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vds.exe` being misused. While `vds.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vds.exe` being misused. While `vds.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

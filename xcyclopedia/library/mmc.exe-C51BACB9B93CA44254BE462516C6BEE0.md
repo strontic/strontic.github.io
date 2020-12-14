@@ -53,12 +53,12 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\1568HWNDInterface:11045c | Section
-\Sessions\1\BaseNamedObjects\1568HWNDInterface:120440 | Section
+\Sessions\1\BaseNamedObjects\42cHWNDInterface:1003e6 | Section
+\Sessions\1\BaseNamedObjects\42cHWNDInterface:1303e4 | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -71,11 +71,9 @@ C:\Windows\SYSTEM32\apphelp.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\mmc.exe |
-C:\Windows\SYSTEM32\MPR.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -84,10 +82,8 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\SYSTEM32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -132,7 +128,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mmc.exe` being misused. While `mmc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mmc.exe` being misused. While `mmc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -185,7 +181,6 @@ mmc <path>\<filename>.msc [/a] [/64] [/32]
 | /a | Opens a saved console in author mode.  Used to make changes to saved consoles. |
 | /64 | Opens the 64-bit version of **mmc** (mmc64). Use this option only if you are running a Microsoft 64-bit operating system and want to use a 64-bit snap-in. |
 | /32 | Opens the 32-bit version of **mmc** (mmc32). When running a Microsoft 64-bit operating system, you can run 32-bit snap-ins by opening mmc with this command-line option when you have 32-bit only snap-ins. |
-| /? | Displays help at the command prompt. |
 
 ### Remarks
 

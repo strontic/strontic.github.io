@@ -26,11 +26,11 @@ PE256 | `9467D08DAF8C8927B999B5FA24557D246DACCDB3AE38C7FF39462754C0B165B6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Beep` | 1 | Exported Function
-`DecodePointer` | 2 | Exported Function
-`DecodeSystemPointer` | 3 | Exported Function
 `EncodePointer` | 4 | Exported Function
 `EncodeSystemPointer` | 5 | Exported Function
+`DecodeSystemPointer` | 3 | Exported Function
+`Beep` | 1 | Exported Function
+`DecodePointer` | 2 | Exported Function
 
 
 ## Signature

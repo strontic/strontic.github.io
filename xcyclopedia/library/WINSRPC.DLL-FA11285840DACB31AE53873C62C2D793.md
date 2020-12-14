@@ -26,37 +26,37 @@ PE256 | `09DB870A3130C1EB22F5B73F172C1F28B08B0F4946F61F0EB23264C760C95BE4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WinsABind` | 1 | Exported Function
-`WinsUBind` | 29 | Exported Function
-`WinsTrigger` | 28 | Exported Function
-`WinsTombstoneDbRecs` | 27 | Exported Function
-`WinsTerm` | 26 | Exported Function
-`WinsSyncUp` | 25 | Exported Function
-`WinsStatusWHdl` | 24 | Exported Function
-`WinsStatusNew` | 23 | Exported Function
-`WinsStatus` | 22 | Exported Function
 `WinsSetPriorityClass` | 21 | Exported Function
+`WinsStatus` | 22 | Exported Function
+`WinsStatusNew` | 23 | Exported Function
 `WinsSetFlags` | 20 | Exported Function
-`WinsRestoreEx` | 19 | Exported Function
-`WinsRestore` | 18 | Exported Function
 `WinsResetCounters` | 17 | Exported Function
+`WinsRestore` | 18 | Exported Function
+`WinsRestoreEx` | 19 | Exported Function
+`WinsStatusWHdl` | 24 | Exported Function
+`WinsUBind` | 29 | Exported Function
 `WinsUnbind` | 30 | Exported Function
-`WinsRecordAction` | 16 | Exported Function
-`WinsGetNameAndAdd` | 14 | Exported Function
-`WinsGetDbRecsByName` | 13 | Exported Function
-`WinsGetDbRecs` | 12 | Exported Function
-`WinsGetBrowserNames` | 11 | Exported Function
-`WinsFreeMem` | 10 | Exported Function
-`WinsDoStaticInit` | 9 | Exported Function
-`WinsDoScavengingNew` | 8 | Exported Function
-`WinsDoScavenging` | 7 | Exported Function
-`WinsDeleteWins` | 6 | Exported Function
-`WinsDelDbRecs` | 5 | Exported Function
-`WinsCheckAccess` | 4 | Exported Function
-`WinsBackup` | 3 | Exported Function
-`WinsAllocMem` | 2 | Exported Function
-`WinsPullRange` | 15 | Exported Function
 `WinsWorkerThdUpd` | 31 | Exported Function
+`WinsTrigger` | 28 | Exported Function
+`WinsSyncUp` | 25 | Exported Function
+`WinsTerm` | 26 | Exported Function
+`WinsTombstoneDbRecs` | 27 | Exported Function
+`WinsRecordAction` | 16 | Exported Function
+`WinsDelDbRecs` | 5 | Exported Function
+`WinsDeleteWins` | 6 | Exported Function
+`WinsDoScavenging` | 7 | Exported Function
+`WinsCheckAccess` | 4 | Exported Function
+`WinsABind` | 1 | Exported Function
+`WinsAllocMem` | 2 | Exported Function
+`WinsBackup` | 3 | Exported Function
+`WinsDoScavengingNew` | 8 | Exported Function
+`WinsGetDbRecsByName` | 13 | Exported Function
+`WinsGetNameAndAdd` | 14 | Exported Function
+`WinsPullRange` | 15 | Exported Function
+`WinsGetDbRecs` | 12 | Exported Function
+`WinsDoStaticInit` | 9 | Exported Function
+`WinsFreeMem` | 10 | Exported Function
+`WinsGetBrowserNames` | 11 | Exported Function
 
 
 ## Signature
@@ -86,7 +86,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WINSRPC.DLL` being misused. While `WINSRPC.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WINSRPC.DLL` being misused. While `WINSRPC.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

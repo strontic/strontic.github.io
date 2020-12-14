@@ -88,7 +88,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/dc45704ba97d974d157c1c4a27dba402afa595eac2468d8def2ee8d0a2ee9a81/detection
 
 ## File Similarity (ssdeep match)
@@ -99,7 +99,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RegAsm.exe` being misused. While `RegAsm.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RegAsm.exe` being misused. While `RegAsm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

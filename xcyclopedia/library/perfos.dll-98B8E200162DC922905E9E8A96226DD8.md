@@ -26,9 +26,9 @@ PE256 | `B36E6F0FE5752C01F032FAF361DEEC4AA5EEE7FA8F69C671E3F90FE39641188A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseOSObject` | 1 | Exported Function
-`CollectOSObjectData` | 2 | Exported Function
 `OpenOSObject` | 3 | Exported Function
+`CollectOSObjectData` | 2 | Exported Function
+`CloseOSObject` | 1 | Exported Function
 
 
 ## Signature

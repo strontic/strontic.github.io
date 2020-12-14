@@ -26,27 +26,27 @@ PE256 | `83DE7AB3CD2ECFEBA045A5BFA28001E0993A0C22AFCE268C84841E597E7D820A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 21 | Exported Function
-`DrvSwapLayerBuffers` | 18 | Exported Function
-`DrvSwapBuffers` | 17 | Exported Function
-`DrvShareLists` | 16 | Exported Function
-`DrvSetPixelFormat` | 15 | Exported Function
 `DrvSetLayerPaletteEntries` | 14 | Exported Function
+`DrvSetPixelFormat` | 15 | Exported Function
 `DrvSetContext` | 13 | Exported Function
-`DrvSetCallbackProcs` | 12 | Exported Function
 `DrvReleaseContext` | 11 | Exported Function
+`DrvSetCallbackProcs` | 12 | Exported Function
 `DrvSwapMultipleBuffers` | 19 | Exported Function
-`DrvRealizeLayerPalette` | 10 | Exported Function
-`DrvGetProcAddress` | 8 | Exported Function
-`DrvGetLayerPaletteEntries` | 7 | Exported Function
-`DrvDescribePixelFormat` | 6 | Exported Function
-`DrvDescribeLayerPlane` | 5 | Exported Function
-`DrvDeleteContext` | 4 | Exported Function
-`DrvCreateLayerContext` | 3 | Exported Function
-`DrvCreateContext` | 2 | Exported Function
-`DrvCopyContext` | 1 | Exported Function
-`DrvPresentBuffers` | 9 | Exported Function
 `DrvValidateVersion` | 20 | Exported Function
+`DrvSwapLayerBuffers` | 18 | Exported Function
+`DrvShareLists` | 16 | Exported Function
+`DrvSwapBuffers` | 17 | Exported Function
+`DrvRealizeLayerPalette` | 10 | Exported Function
+`DrvCreateLayerContext` | 3 | Exported Function
+`DrvDeleteContext` | 4 | Exported Function
+`DrvCreateContext` | 2 | Exported Function
+`DllMain` | 21 | Exported Function
+`DrvCopyContext` | 1 | Exported Function
+`DrvGetProcAddress` | 8 | Exported Function
+`DrvPresentBuffers` | 9 | Exported Function
+`DrvGetLayerPaletteEntries` | 7 | Exported Function
+`DrvDescribeLayerPlane` | 5 | Exported Function
+`DrvDescribePixelFormat` | 6 | Exported Function
 
 
 ## Signature

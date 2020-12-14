@@ -41,7 +41,7 @@ SSDEEP | `1536:AVwJFfXhBPu+N5D7Ha/3IVLE191XVWVDyofZTibtHRRIAgibiiLBJ2U+vrP:ZhB9x
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Utilman.exe` being misused. While `Utilman.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Utilman.exe` being misused. While `Utilman.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

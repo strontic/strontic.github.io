@@ -41,7 +41,7 @@ SSDEEP | `384:3muYNwOieNDEuQLNQbw9lbYEXKdnm8pZ/xZpQMH3AtWlymWF91:H2DieNzdbG5mnm8
 
 ## Possible Misuse
 
-*The following table contains possible examples of `userinit.exe` being misused. While `userinit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `userinit.exe` being misused. While `userinit.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

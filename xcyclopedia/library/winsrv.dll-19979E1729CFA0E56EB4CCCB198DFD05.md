@@ -26,10 +26,10 @@ PE256 | `5C46F5E6E820B575B64D647B9E31AA7EA473FA2758FE02CAA99DB3FCAE789BB1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SrvEndTask` | 1 | Exported Function
-`UserCreateCallbackThread` | 2 | Exported Function
 `UserHardError` | 3 | Exported Function
 `UserServerDllInitialization` | 4 | Exported Function
+`SrvEndTask` | 1 | Exported Function
+`UserCreateCallbackThread` | 2 | Exported Function
 
 
 ## Signature
@@ -64,7 +64,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `winsrv.dll` being misused. While `winsrv.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `winsrv.dll` being misused. While `winsrv.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

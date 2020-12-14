@@ -26,26 +26,26 @@ PE256 | `164D8FD78D69A8D4823C1FF12C70ED97AC6EBB7D0222BF2AA8D34B22B6C31C20`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CleanOnlineAppCache` | 17 | Exported Function
-`ShOpenVerbExtensionW` | 14 | Exported Function
-`ShOpenVerbExtension` | 13 | Exported Function
-`ShOpenVerbApplicationW` | 12 | Exported Function
-`ShOpenVerbApplication` | 11 | Exported Function
 `ShArpMaintainW` | 10 | Exported Function
+`ShOpenVerbApplication` | 11 | Exported Function
 `ShArpMaintain` | 9 | Exported Function
-`ParseManifest` | 8 | Exported Function
 `LaunchApplication` | 7 | Exported Function
-`KillService` | 6 | Exported Function
-`GetUserStore` | 5 | Exported Function
-`GetUserStateManager` | 4 | Exported Function
-`GetDeploymentDataFromManifest` | 20 | Exported Function
-`GetCurrentActContext` | 3 | Exported Function
-`DllGetClassObject` | 19 | Exported Function
-`DllCanUnloadNow` | 18 | Exported Function
-`CreateCMSFromXml` | 2 | Exported Function
-`CreateActContext` | 1 | Exported Function
+`ParseManifest` | 8 | Exported Function
 `ShOpenVerbShortcut` | 15 | Exported Function
 `ShOpenVerbShortcutW` | 16 | Exported Function
+`ShOpenVerbExtensionW` | 14 | Exported Function
+`ShOpenVerbApplicationW` | 12 | Exported Function
+`ShOpenVerbExtension` | 13 | Exported Function
+`DllCanUnloadNow` | 18 | Exported Function
+`DllGetClassObject` | 19 | Exported Function
+`CreateCMSFromXml` | 2 | Exported Function
+`CleanOnlineAppCache` | 17 | Exported Function
+`CreateActContext` | 1 | Exported Function
+`GetUserStore` | 5 | Exported Function
+`KillService` | 6 | Exported Function
+`GetUserStateManager` | 4 | Exported Function
+`GetCurrentActContext` | 3 | Exported Function
+`GetDeploymentDataFromManifest` | 20 | Exported Function
 
 
 ## Signature
@@ -75,7 +75,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dfshim.dll` being misused. While `dfshim.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dfshim.dll` being misused. While `dfshim.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

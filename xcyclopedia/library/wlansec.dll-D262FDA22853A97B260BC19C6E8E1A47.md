@@ -26,40 +26,40 @@ PE256 | `B98BC69D7154914171ACCE1EE6BAB1DFFC7D44A264E78DB39B57B12050DB3767`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MSMSecConnectionHealthCheck` | 1 | Exported Function
-`MSMSecStopPostAssociateSecurity` | 32 | Exported Function
-`MSMSecSetWcnOneXEnable` | 31 | Exported Function
-`MSMSecSetRuntimeState` | 30 | Exported Function
-`MSMSecSetAPSecondaryPSK` | 29 | Exported Function
-`MSMSecSetAPPeerKey` | 28 | Exported Function
-`MSMSecSendPktCompletion` | 27 | Exported Function
-`MSMSecRemoveAPPeerKey` | 26 | Exported Function
-`MSMSecRedoSecurity` | 25 | Exported Function
-`MSMSecRecvPacket` | 24 | Exported Function
 `MSMSecRecvIndication` | 23 | Exported Function
 `MSMSecQueryPeerState` | 22 | Exported Function
-`MSMSecQueryIntfState` | 21 | Exported Function
-`MSMSecQueryAPPeerPSKIndex` | 20 | Exported Function
+`MSMSecRedoSecurity` | 25 | Exported Function
+`MSMSecRecvPacket` | 24 | Exported Function
 `MSMSecProcessSessionChange` | 19 | Exported Function
 `MSMSecPerformPreAssociateSecurityEx` | 18 | Exported Function
+`MSMSecQueryIntfState` | 21 | Exported Function
+`MSMSecQueryAPPeerPSKIndex` | 20 | Exported Function
+`MSMSecRemoveAPPeerKey` | 26 | Exported Function
+`MSMSecStopPostAssociateSecurity` | 32 | Exported Function
+`MSMSecSetWcnOneXEnable` | 31 | Exported Function
+`MSMSecUIResponse` | 34 | Exported Function
+`MSMSecStopSecurity` | 33 | Exported Function
+`MSMSecSetAPPeerKey` | 28 | Exported Function
+`MSMSecSendPktCompletion` | 27 | Exported Function
+`MSMSecSetRuntimeState` | 30 | Exported Function
+`MSMSecSetAPSecondaryPSK` | 29 | Exported Function
+`MSMSecEnableIpAddressAllocation` | 6 | Exported Function
+`MSMSecDisableIpAddressAllocation` | 5 | Exported Function
+`MSMSecFreeMemory` | 8 | Exported Function
+`MSMSecFreeIntfState` | 7 | Exported Function
+`MSMSecCreateDiscoveryProfiles` | 2 | Exported Function
+`MSMSecConnectionHealthCheck` | 1 | Exported Function
+`MSMSecDeinitializeAdapter` | 4 | Exported Function
+`MSMSecDeinitialize` | 3 | Exported Function
+`MSMSecFreePeerState` | 9 | Exported Function
+`MSMSecPerformCapabilityMatch` | 15 | Exported Function
+`MSMSecIsUIRequestPending` | 14 | Exported Function
 `MSMSecPerformPreAssociateSecurity` | 17 | Exported Function
 `MSMSecPerformPostAssociateSecurity` | 16 | Exported Function
-`MSMSecCreateDiscoveryProfiles` | 2 | Exported Function
-`MSMSecDeinitialize` | 3 | Exported Function
-`MSMSecDeinitializeAdapter` | 4 | Exported Function
-`MSMSecDisableIpAddressAllocation` | 5 | Exported Function
-`MSMSecEnableIpAddressAllocation` | 6 | Exported Function
-`MSMSecFreeIntfState` | 7 | Exported Function
-`MSMSecStopSecurity` | 33 | Exported Function
-`MSMSecFreeMemory` | 8 | Exported Function
-`MSMSecFreeProfile` | 10 | Exported Function
 `MSMSecGetPeerIpAddress` | 11 | Exported Function
-`MSMSecInitialize` | 12 | Exported Function
+`MSMSecFreeProfile` | 10 | Exported Function
 `MSMSecInitializeAdapter` | 13 | Exported Function
-`MSMSecIsUIRequestPending` | 14 | Exported Function
-`MSMSecPerformCapabilityMatch` | 15 | Exported Function
-`MSMSecFreePeerState` | 9 | Exported Function
-`MSMSecUIResponse` | 34 | Exported Function
+`MSMSecInitialize` | 12 | Exported Function
 
 
 ## Signature

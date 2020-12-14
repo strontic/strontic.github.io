@@ -26,15 +26,15 @@ PE256 | `9C412E62205186927DDF32000D3874592411468F69AC994C4C43ACB2E07104FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IReference::IReference` | 1 | Exported Function
-`WebHost::IReference` | 2 | Exported Function
-`AMEvents::Use` | 8 | Exported Function
-`OWAEvents::Use` | 9 | Exported Function
-`WebHost::FactoryConfig` | 4 | Exported Function
-`WebHost::FactoryConfig` | 6 | Exported Function
 `IWebViewFactory::Shutdown` | 7 | Exported Function
-`IReference::AddRef` | 3 | Exported Function
+`WebHost::FactoryConfig` | 6 | Exported Function
 `IReference::Release` | 5 | Exported Function
+`IReference::AddRef` | 3 | Exported Function
+`WebHost::FactoryConfig` | 4 | Exported Function
+`WebHost::IReference` | 2 | Exported Function
+`IReference::IReference` | 1 | Exported Function
+`OWAEvents::Use` | 9 | Exported Function
+`AMEvents::Use` | 8 | Exported Function
 
 
 ## Signature

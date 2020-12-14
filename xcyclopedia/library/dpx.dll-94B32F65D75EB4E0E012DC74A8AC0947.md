@@ -26,17 +26,17 @@ PE256 | `399504B78330AA5926527B9545FD908EAFAD9F51B40AB4CF7C97A28A64300B8F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DpxCheckJobExists` | 1 | Exported Function
-`DpxCheckJobExistsEx` | 2 | Exported Function
-`DpxDeleteJob` | 3 | Exported Function
-`DpxDeleteJobEx` | 4 | Exported Function
-`DpxFreeMemory` | 5 | Exported Function
-`DpxNewJob` | 6 | Exported Function
-`DpxNewJobEx` | 7 | Exported Function
 `DpxRestoreJob` | 8 | Exported Function
+`DpxNewJobEx` | 7 | Exported Function
 `DpxRestoreJobEx` | 9 | Exported Function
-`DpxRestoreOrNewJob` | 10 | Exported Function
 `DpxRestoreOrNewJobEx` | 11 | Exported Function
+`DpxRestoreOrNewJob` | 10 | Exported Function
+`DpxNewJob` | 6 | Exported Function
+`DpxCheckJobExistsEx` | 2 | Exported Function
+`DpxCheckJobExists` | 1 | Exported Function
+`DpxDeleteJob` | 3 | Exported Function
+`DpxFreeMemory` | 5 | Exported Function
+`DpxDeleteJobEx` | 4 | Exported Function
 
 
 ## Signature

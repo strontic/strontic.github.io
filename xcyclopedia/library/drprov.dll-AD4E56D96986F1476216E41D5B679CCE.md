@@ -26,18 +26,18 @@ PE256 | `5F47BC348FBF69A50511A4154948AD8B6428EA860800D49E8DF61DEB6C321194`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NPAddConnection` | 1 | Exported Function
-`NPAddConnection3` | 2 | Exported Function
-`NPCancelConnection` | 3 | Exported Function
-`NPCloseEnum` | 4 | Exported Function
-`NPEnumResource` | 5 | Exported Function
-`NPGetCaps` | 6 | Exported Function
-`NPGetConnection` | 7 | Exported Function
-`NPGetConnectionPerformance` | 49 | Exported Function
 `NPGetResourceInformation` | 8 | Exported Function
-`NPGetResourceParent` | 9 | Exported Function
-`NPGetUniversalName` | 10 | Exported Function
+`NPGetConnectionPerformance` | 49 | Exported Function
+`NPGetConnection` | 7 | Exported Function
 `NPOpenEnum` | 12 | Exported Function
+`NPGetUniversalName` | 10 | Exported Function
+`NPGetResourceParent` | 9 | Exported Function
+`NPCancelConnection` | 3 | Exported Function
+`NPAddConnection3` | 2 | Exported Function
+`NPAddConnection` | 1 | Exported Function
+`NPGetCaps` | 6 | Exported Function
+`NPEnumResource` | 5 | Exported Function
+`NPCloseEnum` | 4 | Exported Function
 
 
 ## Signature

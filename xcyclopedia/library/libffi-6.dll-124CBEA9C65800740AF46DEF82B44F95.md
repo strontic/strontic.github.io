@@ -25,32 +25,32 @@ PE256 | `A3898898EEC32DF78D6C69F38FFB0266AC37FFE97E3CB01C2F4AAB0DCBEE81C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ffi_call` | 1 | Exported Function
-`ffi_type_uint64` | 24 | Exported Function
-`ffi_type_uint32` | 23 | Exported Function
-`ffi_type_uint16` | 22 | Exported Function
-`ffi_type_sint8` | 21 | Exported Function
-`ffi_type_sint64` | 20 | Exported Function
-`ffi_type_sint32` | 19 | Exported Function
-`ffi_type_sint16` | 18 | Exported Function
 `ffi_type_pointer` | 17 | Exported Function
-`ffi_type_longdouble` | 16 | Exported Function
-`ffi_type_float` | 15 | Exported Function
+`ffi_type_sint16` | 18 | Exported Function
+`ffi_type_sint32` | 19 | Exported Function
 `ffi_type_double` | 14 | Exported Function
-`ffi_prep_closure_loc` | 13 | Exported Function
-`ffi_prep_closure` | 12 | Exported Function
-`ffi_prep_cif_var` | 11 | Exported Function
-`ffi_prep_cif_machdep` | 10 | Exported Function
-`ffi_prep_cif_core` | 9 | Exported Function
-`ffi_prep_cif` | 8 | Exported Function
-`ffi_prep_args` | 7 | Exported Function
-`ffi_closure_win64_inner` | 6 | Exported Function
-`ffi_closure_win64` | 5 | Exported Function
-`ffi_closure_free` | 4 | Exported Function
-`ffi_closure_alloc` | 3 | Exported Function
-`ffi_call_win64` | 2 | Exported Function
+`ffi_type_float` | 15 | Exported Function
+`ffi_type_longdouble` | 16 | Exported Function
+`ffi_type_sint64` | 20 | Exported Function
+`ffi_type_uint64` | 24 | Exported Function
 `ffi_type_uint8` | 25 | Exported Function
 `ffi_type_void` | 26 | Exported Function
+`ffi_type_sint8` | 21 | Exported Function
+`ffi_type_uint16` | 22 | Exported Function
+`ffi_type_uint32` | 23 | Exported Function
+`ffi_closure_free` | 4 | Exported Function
+`ffi_closure_win64` | 5 | Exported Function
+`ffi_closure_win64_inner` | 6 | Exported Function
+`ffi_call` | 1 | Exported Function
+`ffi_call_win64` | 2 | Exported Function
+`ffi_closure_alloc` | 3 | Exported Function
+`ffi_prep_args` | 7 | Exported Function
+`ffi_prep_cif_var` | 11 | Exported Function
+`ffi_prep_closure` | 12 | Exported Function
+`ffi_prep_closure_loc` | 13 | Exported Function
+`ffi_prep_cif` | 8 | Exported Function
+`ffi_prep_cif_core` | 9 | Exported Function
+`ffi_prep_cif_machdep` | 10 | Exported Function
 
 
 ## Signature

@@ -30,21 +30,26 @@ Path |
 -- |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\system32\dmcfghost.exe |
 C:\Windows\system32\DMCmnUtils.dll |
 C:\Windows\system32\DMPushProxy.dll |
 C:\Windows\system32\dmxmlhelputils.dll |
 C:\Windows\system32\dsclient.dll |
+C:\Windows\system32\iri.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\omadmapi.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\XmlLite.dll |
 
 
 ## Signature

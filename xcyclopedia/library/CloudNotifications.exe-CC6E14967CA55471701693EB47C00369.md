@@ -31,6 +31,7 @@ Low disk space
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
 (R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
@@ -83,7 +84,7 @@ C:\Windows\SysWOW64\CloudNotifications.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/479abb3c7eee7d94a18ca41acb4429f196cf5668a5d9bc20278a930be3e8f1ff/detection
 
 ## File Similarity (ssdeep match)

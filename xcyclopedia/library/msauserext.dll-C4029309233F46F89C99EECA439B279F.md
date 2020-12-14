@@ -26,27 +26,27 @@ PE256 | `059FAED3C290E980EF347FAA3DDACAAE4F657F2C3535DBD247BC5B59C3ABF0B1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MsaUI_ClearThreadClientContext` | 1 | Exported Function
-`MsaUser_LoadServiceConfiguration` | 19 | Exported Function
-`MsaUser_IsChildAccount` | 18 | Exported Function
-`MsaUser_GetUserRegistrySecurityDescriptor` | 17 | Exported Function
-`MsaUser_GetPlatformQualifier` | 16 | Exported Function
 `MsaUser_GetInlineUxParameterValue` | 15 | Exported Function
+`MsaUser_GetPlatformQualifier` | 16 | Exported Function
 `MsaUser_GetDeviceTypeParameterValue` | 14 | Exported Function
-`MsaUser_GetDeviceTelemetryInformation` | 13 | Exported Function
 `MsaUser_FormatUserDisplayName` | 12 | Exported Function
+`MsaUser_GetDeviceTelemetryInformation` | 13 | Exported Function
 `MsaUser_OverrideTicketRequestForLegacyAdControl` | 20 | Exported Function
-`MsaUser_CheckIfAppTrusted` | 11 | Exported Function
-`MsaUser_CallerIsLoggedOnUser` | 9 | Exported Function
-`MsaUI_SetThreadClientContext` | 7 | Exported Function
-`MsaUI_RunWizard` | 6 | Exported Function
-`MsaUI_LaunchWebAuthFlow` | 5 | Exported Function
-`MsaUI_CredUIPromptForWindowsCredentials` | 4 | Exported Function
-`MsaUi_CreateClientContextFromWab` | 8 | Exported Function
-`MsaUI_CreateClientContext` | 3 | Exported Function
-`MsaUI_CloseClientContext` | 2 | Exported Function
-`MsaUser_CanSetParentWindow` | 10 | Exported Function
 `MsaUser_WinBioSetMSACredential` | 21 | Exported Function
+`MsaUser_LoadServiceConfiguration` | 19 | Exported Function
+`MsaUser_GetUserRegistrySecurityDescriptor` | 17 | Exported Function
+`MsaUser_IsChildAccount` | 18 | Exported Function
+`MsaUser_CheckIfAppTrusted` | 11 | Exported Function
+`MsaUi_CreateClientContextFromWab` | 8 | Exported Function
+`MsaUI_CredUIPromptForWindowsCredentials` | 4 | Exported Function
+`MsaUI_CreateClientContext` | 3 | Exported Function
+`MsaUI_ClearThreadClientContext` | 1 | Exported Function
+`MsaUI_CloseClientContext` | 2 | Exported Function
+`MsaUser_CallerIsLoggedOnUser` | 9 | Exported Function
+`MsaUser_CanSetParentWindow` | 10 | Exported Function
+`MsaUI_SetThreadClientContext` | 7 | Exported Function
+`MsaUI_LaunchWebAuthFlow` | 5 | Exported Function
+`MsaUI_RunWizard` | 6 | Exported Function
 
 
 ## Signature

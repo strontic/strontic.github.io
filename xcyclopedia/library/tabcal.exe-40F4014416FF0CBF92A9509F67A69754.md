@@ -45,8 +45,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -66,14 +66,11 @@ C:\Windows\system32\NInput.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\system32\tabcal.exe |
-C:\Windows\system32\TextShaping.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature

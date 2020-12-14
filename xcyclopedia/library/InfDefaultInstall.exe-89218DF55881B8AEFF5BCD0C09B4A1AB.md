@@ -47,7 +47,7 @@ SSDEEP | `192:TS/by2Zb+WPl8Dqz4zczpNsuzVoobDfO8DPL7pemOMsNW/GWU:e/by2J+xuz4ArsQV
 
 ## Possible Misuse
 
-*The following table contains possible examples of `InfDefaultInstall.exe` being misused. While `InfDefaultInstall.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `InfDefaultInstall.exe` being misused. While `InfDefaultInstall.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

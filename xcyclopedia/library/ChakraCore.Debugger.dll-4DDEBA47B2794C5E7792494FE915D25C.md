@@ -25,21 +25,21 @@ PE256 | `0FB89FA38081AE2AF40FA404653D83F4682279D6C5749AF0A826B1D8D97B5D71`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`JsDebugProtocolHandlerConnect` | 1 | Exported Function
-`JsDebugProtocolHandlerCreate` | 2 | Exported Function
-`JsDebugProtocolHandlerCreateConsoleObject` | 3 | Exported Function
-`JsDebugProtocolHandlerDestroy` | 4 | Exported Function
-`JsDebugProtocolHandlerDisconnect` | 5 | Exported Function
-`JsDebugProtocolHandlerProcessCommandQueue` | 6 | Exported Function
-`JsDebugProtocolHandlerSendCommand` | 7 | Exported Function
-`JsDebugProtocolHandlerSetCommandQueueCallback` | 8 | Exported Function
-`JsDebugProtocolHandlerWaitForDebugger` | 9 | Exported Function
-`JsDebugServiceClose` | 10 | Exported Function
 `JsDebugServiceCreate` | 11 | Exported Function
+`JsDebugServiceClose` | 10 | Exported Function
+`JsDebugProtocolHandlerWaitForDebugger` | 9 | Exported Function
 `JsDebugServiceDestroy` | 12 | Exported Function
-`JsDebugServiceListen` | 13 | Exported Function
-`JsDebugServiceRegisterHandler` | 14 | Exported Function
 `JsDebugServiceUnregisterHandler` | 15 | Exported Function
+`JsDebugServiceRegisterHandler` | 14 | Exported Function
+`JsDebugServiceListen` | 13 | Exported Function
+`JsDebugProtocolHandlerSetCommandQueueCallback` | 8 | Exported Function
+`JsDebugProtocolHandlerCreateConsoleObject` | 3 | Exported Function
+`JsDebugProtocolHandlerCreate` | 2 | Exported Function
+`JsDebugProtocolHandlerConnect` | 1 | Exported Function
+`JsDebugProtocolHandlerDestroy` | 4 | Exported Function
+`JsDebugProtocolHandlerSendCommand` | 7 | Exported Function
+`JsDebugProtocolHandlerProcessCommandQueue` | 6 | Exported Function
+`JsDebugProtocolHandlerDisconnect` | 5 | Exported Function
 
 
 ## Signature

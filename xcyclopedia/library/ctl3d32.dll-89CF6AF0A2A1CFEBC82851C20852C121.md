@@ -26,31 +26,31 @@ PE256 | `03919FD565BA839C25B305FCF5EE004A5A77C3F538C11065ACB2935034B8021A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BtnWndProc3d` | 7 | Exported Function
-`EditWndProc3d` | 8 | Exported Function
-`Ctl3dWinIniChange` | 22 | Exported Function
-`Ctl3dUnsubclassCtl` | 26 | Exported Function
-`Ctl3dUnregister` | 13 | Exported Function
-`Ctl3dUnAutoSubclass` | 24 | Exported Function
-`Ctl3dSubclassDlgEx` | 21 | Exported Function
 `Ctl3dSubclassDlg` | 2 | Exported Function
-`Ctl3dSubclassCtlEx` | 25 | Exported Function
-`Ctl3dSubclassCtl` | 3 | Exported Function
+`Ctl3dSubclassDlgEx` | 21 | Exported Function
+`Ctl3dUnAutoSubclass` | 24 | Exported Function
 `Ctl3dSetStyle` | 19 | Exported Function
+`Ctl3dSubclassCtl` | 3 | Exported Function
+`Ctl3dSubclassCtlEx` | 25 | Exported Function
+`EditWndProc3d` | 8 | Exported Function
 `ListWndProc3d` | 9 | Exported Function
-`Ctl3dRegister` | 12 | Exported Function
-`Ctl3dGetVer` | 1 | Exported Function
-`Ctl3dEnabled` | 5 | Exported Function
-`Ctl3dDlgProc` | 17 | Exported Function
-`Ctl3dDlgFramePaint` | 20 | Exported Function
-`Ctl3dCtlColorEx` | 18 | Exported Function
-`Ctl3dCtlColor` | 4 | Exported Function
-`Ctl3dColorChange` | 6 | Exported Function
-`Ctl3dAutoSubclassEx` | 27 | Exported Function
-`Ctl3dAutoSubclass` | 16 | Exported Function
-`ComboWndProc3d` | 10 | Exported Function
-`Ctl3dIsAutoSubclass` | 23 | Exported Function
 `StaticWndProc3d` | 11 | Exported Function
+`Ctl3dUnregister` | 13 | Exported Function
+`Ctl3dUnsubclassCtl` | 26 | Exported Function
+`Ctl3dWinIniChange` | 22 | Exported Function
+`Ctl3dRegister` | 12 | Exported Function
+`Ctl3dAutoSubclassEx` | 27 | Exported Function
+`Ctl3dColorChange` | 6 | Exported Function
+`Ctl3dCtlColor` | 4 | Exported Function
+`BtnWndProc3d` | 7 | Exported Function
+`ComboWndProc3d` | 10 | Exported Function
+`Ctl3dAutoSubclass` | 16 | Exported Function
+`Ctl3dEnabled` | 5 | Exported Function
+`Ctl3dGetVer` | 1 | Exported Function
+`Ctl3dIsAutoSubclass` | 23 | Exported Function
+`Ctl3dCtlColorEx` | 18 | Exported Function
+`Ctl3dDlgFramePaint` | 20 | Exported Function
+`Ctl3dDlgProc` | 17 | Exported Function
 
 
 ## Signature

@@ -26,12 +26,12 @@ PE256 | `7F7DAE966B7957F1A77D520C3D18AEA04A17EF914828CEE02BDF881DF89E929B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllEntryPoint` | 1 | Exported Function
-`KFW_Logon_Event` | 2 | Exported Function
-`LogonEventHandlerA` | 3 | Exported Function
 `NPGetCaps` | 4 | Exported Function
 `NPLogonNotify` | 5 | Exported Function
 `NPPasswordChangeNotify` | 6 | Exported Function
+`DllEntryPoint` | 1 | Exported Function
+`KFW_Logon_Event` | 2 | Exported Function
+`LogonEventHandlerA` | 3 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `9504C6526F3660B61C9AB60B009E28D5C51196957A2BC0BF6138ACD063350B73`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseTrace` | 1 | Exported Function
-`OpenTraceW` | 2 | Exported Function
 `ProcessTrace` | 3 | Exported Function
+`OpenTraceW` | 2 | Exported Function
+`CloseTrace` | 1 | Exported Function
 
 
 ## Signature

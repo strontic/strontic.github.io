@@ -26,8 +26,8 @@ PE256 | `797EE8593A7ADC00AF23CC01987E82C83A3B085782270E9F30077A8E30271812`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DMLCreateDevice` | 1 | Exported Function
 `DMLCreateDevice1` | 2 | Exported Function
+`DMLCreateDevice` | 1 | Exported Function
 
 
 ## Signature

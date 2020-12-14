@@ -111,7 +111,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Sysmon.exe` being misused. While `Sysmon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Sysmon.exe` being misused. While `Sysmon.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -194,6 +194,9 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [elk-winlogbeat.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-winlogbeat.yml) | `windows-sysmon:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [elk-winlogbeat.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-winlogbeat.yml) | `service: sysmon` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [elk-winlogbeat.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-winlogbeat.yml) | `log_name: 'Microsoft-Windows-Sysmon/Operational'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `windows-sysmon:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `service: sysmon` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `channel: Microsoft-Windows-Sysmon` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `windows-sysmon:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `service: sysmon` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `index: logs-endpoint-winevent-sysmon-*` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

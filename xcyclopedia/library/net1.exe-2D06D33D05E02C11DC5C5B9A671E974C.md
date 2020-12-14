@@ -62,9 +62,6 @@ NET
 
 ```
 
-### Child Processes:
-powershell.exe
-
 ### Loaded Modules:
 
 Path |
@@ -97,13 +94,13 @@ C:\Windows\SysWOW64\net1.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/964722d4207cdf6c2419212e101b453a7c6dafd3b65ac9205aaea4d38c5514e4/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `net1.exe` being misused. While `net1.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `net1.exe` being misused. While `net1.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

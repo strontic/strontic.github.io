@@ -24,9 +24,6 @@ PE256 | `CB4F5FB0A8E9DD3840F1DC012760D0A885D379A4F362589B212025A526E01901`
 
 ## Runtime Data
 
-### Child Processes:
-WWAHost.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |

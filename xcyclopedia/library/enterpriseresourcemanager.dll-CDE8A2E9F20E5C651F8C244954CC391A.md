@@ -26,16 +26,16 @@ PE256 | `5F2568E410690ADCD7159CE1773FFB340CE1A171DB913FEC7D7E783066F04714`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnterpriseResourceManager_ScopeData_IsValid` | 10 | Exported Function
-`EnterpriseResourceManagerStore_DeleteResource` | 1 | Exported Function
-`EnterpriseResourceManagerStore_DeleteTrackedResourcesForEnrollment` | 2 | Exported Function
-`EnterpriseResourceManagerStore_GenerateWmiResourcePath` | 3 | Exported Function
-`EnterpriseResourceManagerStore_IsResourceProvisioned` | 4 | Exported Function
-`EnterpriseResourceManagerStore_NormalizeURI` | 5 | Exported Function
 `EnterpriseResourceManagerStore_RemoveAllIgnoredUri` | 6 | Exported Function
+`EnterpriseResourceManagerStore_NormalizeURI` | 5 | Exported Function
 `EnterpriseResourceManagerStore_ReplaceResourceNodePath` | 7 | Exported Function
-`EnterpriseResourceManagerStore_SaveIgnoredURI` | 8 | Exported Function
 `EnterpriseResourceManagerStore_WriteResourceNodePath` | 9 | Exported Function
+`EnterpriseResourceManagerStore_SaveIgnoredURI` | 8 | Exported Function
+`EnterpriseResourceManagerStore_DeleteResource` | 1 | Exported Function
+`EnterpriseResourceManager_ScopeData_IsValid` | 10 | Exported Function
+`EnterpriseResourceManagerStore_DeleteTrackedResourcesForEnrollment` | 2 | Exported Function
+`EnterpriseResourceManagerStore_IsResourceProvisioned` | 4 | Exported Function
+`EnterpriseResourceManagerStore_GenerateWmiResourcePath` | 3 | Exported Function
 
 
 ## Signature

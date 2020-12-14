@@ -26,12 +26,12 @@ PE256 | `25B5C6AFE7CFECEDEBC62FB0341BDB19EEB21826EF6680291B63EE24C3E9F49D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DwGetErrorType` | 1 | Exported Function
-`FGetErrorCallstack` | 2 | Exported Function
-`FValidateVBA` | 3 | Exported Function
 `FValidateWordFile` | 4 | Exported Function
 `FValidateWordStorage` | 5 | Exported Function
 `GkInitHost` | 6 | Exported Function
+`DwGetErrorType` | 1 | Exported Function
+`FGetErrorCallstack` | 2 | Exported Function
+`FValidateVBA` | 3 | Exported Function
 
 
 ## Signature

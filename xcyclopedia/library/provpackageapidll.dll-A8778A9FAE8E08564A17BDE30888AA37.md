@@ -26,10 +26,10 @@ PE256 | `C98AB16135F0A5543FF0B554384FC636448D8166012D5452B6FF79AEAFC714FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreatePackageBuilder` | 1 | Exported Function
-`CreatePackageSecurity` | 2 | Exported Function
 `OpenProvisioningPackage` | 3 | Exported Function
 `OpenProvisioningPackageForRead` | 4 | Exported Function
+`CreatePackageBuilder` | 1 | Exported Function
+`CreatePackageSecurity` | 2 | Exported Function
 
 
 ## Signature

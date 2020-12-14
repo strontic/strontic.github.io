@@ -22,6 +22,23 @@ IMP | `CF79FCE90FCED31836373F3E48251A5D`
 PESHA1 | `24BBAE507219C32594364D9ED39EA16AFB892032`
 PE256 | `07F72EC5C39A54A33C0E9238E42E517168682029210AA9CDAC647116B9D1B954`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dllhost.exe |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -43,7 +60,7 @@ PE256 | `07F72EC5C39A54A33C0E9238E42E517168682029210AA9CDAC647116B9D1B954`
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/e7fc40b41aa8b83841a0b96d169eaf0800aa784733e636935374d56536253f10/detection
 
 ## File Similarity (ssdeep match)
@@ -55,7 +72,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dllhost.exe` being misused. While `dllhost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dllhost.exe` being misused. While `dllhost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

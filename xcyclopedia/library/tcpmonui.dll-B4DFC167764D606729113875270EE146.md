@@ -26,21 +26,21 @@ PE256 | `24C09EBD57325486A30E5A9312BDFB794EEDF56CFD623A6DDC58D79FD834EE93`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`const CPortABC::``vftable'` | 9 | Exported Function
-`const CTcpMibABC::``vftable'` | 10 | Exported Function
-`InitializePrintMonitorUI` | 13 | Exported Function
-`InitializePrintMonitorUI2` | 11 | Exported Function
-`LocalAddPortUI` | 14 | Exported Function
-`LocalConfigurePortUI` | 15 | Exported Function
-`CPortABC::CPortABC` | 1 | Exported Function
-`CPortABC::CPortABC` | 2 | Exported Function
-`CTcpMibABC::CTcpMibABC` | 3 | Exported Function
-`CTcpMibABC::CTcpMibABC` | 4 | Exported Function
 `CPortABC::operator` | 7 | Exported Function
+`CTcpMibABC::CTcpMibABC` | 4 | Exported Function
+`CTcpMibABC::CTcpMibABC` | 3 | Exported Function
 `CTcpMibABC::operator` | 8 | Exported Function
-`public: virtual __thiscall CPortABC::~CPortABC(void)` | 5 | Exported Function
-`public: virtual __thiscall CTcpMibABC::~CTcpMibABC(void)` | 6 | Exported Function
 `CPortABC::Read` | 12 | Exported Function
+`public: virtual __thiscall CTcpMibABC::~CTcpMibABC(void)` | 6 | Exported Function
+`public: virtual __thiscall CPortABC::~CPortABC(void)` | 5 | Exported Function
+`CPortABC::CPortABC` | 2 | Exported Function
+`InitializePrintMonitorUI` | 13 | Exported Function
+`const CTcpMibABC::``vftable'` | 10 | Exported Function
+`const CPortABC::``vftable'` | 9 | Exported Function
+`InitializePrintMonitorUI2` | 11 | Exported Function
+`CPortABC::CPortABC` | 1 | Exported Function
+`LocalConfigurePortUI` | 15 | Exported Function
+`LocalAddPortUI` | 14 | Exported Function
 
 
 ## Signature

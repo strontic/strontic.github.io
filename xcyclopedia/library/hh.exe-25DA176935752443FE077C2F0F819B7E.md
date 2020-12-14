@@ -35,7 +35,8 @@ File Download
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\~DF6D4EE4BF85D38EEE.TMP | File
+(R--)   C:\Users\user\AppData\Local\Temp\~DF1F334D942DCC706E.TMP | File
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
@@ -56,7 +57,7 @@ Path | Type
 (RWD)   C:\Users\user | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF8DFED5DBD46ABBF9.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DFB5052DF5EBCEAFFC.TMP | File
 (RWD)   C:\Windows\Fonts | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
@@ -66,15 +67,15 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\1068HWNDInterface:3099e | Section
-\Sessions\1\BaseNamedObjects\1068HWNDInterface:609ce | Section
+\Sessions\1\BaseNamedObjects\d8cHWNDInterface:23040e | Section
+\Sessions\1\BaseNamedObjects\d8cHWNDInterface:c02de | Section
 \Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -128,7 +129,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `hh.exe` being misused. While `hh.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `hh.exe` being misused. While `hh.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

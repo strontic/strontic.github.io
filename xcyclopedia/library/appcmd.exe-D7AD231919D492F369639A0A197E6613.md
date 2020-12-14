@@ -41,7 +41,7 @@ SSDEEP | `3072:t/uvKywEK0Ps81m0K4W3PYFU0CF82/ZF2U1hM:MvPw8Ps8a4WV0a`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `appcmd.exe` being misused. While `appcmd.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `appcmd.exe` being misused. While `appcmd.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

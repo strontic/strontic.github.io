@@ -26,14 +26,14 @@ PE256 | `4E216BAB37D24A47DCDE71FAED00B111146B7C2D793D1762FFCB0C1DF7572F9A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptsvcDllCtrl` | 1 | Exported Function
-`EKCliAuthorityKeyGetInfo` | 2 | Exported Function
-`EKCliTpmEndorsementKeyDecryptSCEPChallenge` | 3 | Exported Function
-`EKCliTpmEndorsementKeyGetInfo` | 4 | Exported Function
-`EKCliTpmGetManufacturerInfo` | 5 | Exported Function
 `FreeCMCResponse` | 6 | Exported Function
-`IsCmcResponseForAttestation` | 7 | Exported Function
+`EKCliTpmGetManufacturerInfo` | 5 | Exported Function
 `ParseCMCResponse` | 8 | Exported Function
+`IsCmcResponseForAttestation` | 7 | Exported Function
+`EKCliAuthorityKeyGetInfo` | 2 | Exported Function
+`CryptsvcDllCtrl` | 1 | Exported Function
+`EKCliTpmEndorsementKeyGetInfo` | 4 | Exported Function
+`EKCliTpmEndorsementKeyDecryptSCEPChallenge` | 3 | Exported Function
 
 
 ## Signature

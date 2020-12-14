@@ -28,6 +28,7 @@ PE256 | `3F9DC14DBA11995D9B1F2F2A36B8B87F5CA7F0C2818AF92AABAB9A6620FE64EC`
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\OpenWith.exe.mui | File
@@ -108,7 +109,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `OpenWith.exe` being misused. While `OpenWith.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `OpenWith.exe` being misused. While `OpenWith.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

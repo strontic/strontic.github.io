@@ -26,10 +26,10 @@ PE256 | `A35BF4A34219D34798CCAE10F9EC42A6C59CE8D171EE677A94CD2CA8EBA11430`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateCmtStoreObject` | 1 | Exported Function
-`CreateParserObject` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`CreateCmtStoreObject` | 1 | Exported Function
+`CreateParserObject` | 2 | Exported Function
 
 
 ## Signature

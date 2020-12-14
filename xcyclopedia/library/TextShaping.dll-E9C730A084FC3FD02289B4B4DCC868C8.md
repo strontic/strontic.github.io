@@ -25,26 +25,26 @@ PE256 | `104393BBC9A4AF1196DC47400D035FF3E60507EBBA4E1CD79B68F3BC3836758E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BuildOtlCache` | 1 | Exported Function
-`ShapingSetInvariantAssertFunction` | 20 | Exported Function
-`ShapingSetAssertFunction` | 19 | Exported Function
-`ShapingLoadScriptEngine` | 18 | Exported Function
-`ShapingGetGlyphs` | 17 | Exported Function
 `ShapingGetGlyphPositions` | 16 | Exported Function
+`ShapingGetGlyphs` | 17 | Exported Function
 `ShapingGetCombiningOptions` | 15 | Exported Function
-`ShapingGetBreakingProperties` | 14 | Exported Function
 `ShapingDrawGlyphs` | 13 | Exported Function
-`ShapingCreateFontCacheData` | 12 | Exported Function
-`RepositionOtlSingleGlyph` | 8 | Exported Function
-`OtlAssertFailed` | 11 | Exported Function
-`GetOtlVersion` | 7 | Exported Function
-`GetOtlScriptList` | 6 | Exported Function
-`GetOtlLangSysList` | 5 | Exported Function
-`GetOtlGlyphAlternates` | 4 | Exported Function
-`GetOtlFeatureDefs` | 3 | Exported Function
-`FreeOtlResources` | 2 | Exported Function
+`ShapingGetBreakingProperties` | 14 | Exported Function
 `SubstituteOtlSingleGlyph` | 9 | Exported Function
 `ValidateLogClust` | 10 | Exported Function
+`ShapingSetInvariantAssertFunction` | 20 | Exported Function
+`ShapingLoadScriptEngine` | 18 | Exported Function
+`ShapingSetAssertFunction` | 19 | Exported Function
+`GetOtlGlyphAlternates` | 4 | Exported Function
+`GetOtlLangSysList` | 5 | Exported Function
+`GetOtlFeatureDefs` | 3 | Exported Function
+`BuildOtlCache` | 1 | Exported Function
+`FreeOtlResources` | 2 | Exported Function
+`RepositionOtlSingleGlyph` | 8 | Exported Function
+`ShapingCreateFontCacheData` | 12 | Exported Function
+`OtlAssertFailed` | 11 | Exported Function
+`GetOtlScriptList` | 6 | Exported Function
+`GetOtlVersion` | 7 | Exported Function
 
 
 ## Signature

@@ -44,20 +44,15 @@ Path | Type
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\CoreMessaging.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SYSTEM32\ntmarta.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\system32\sihost.exe |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -87,7 +82,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sihost.exe` being misused. While `sihost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sihost.exe` being misused. While `sihost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

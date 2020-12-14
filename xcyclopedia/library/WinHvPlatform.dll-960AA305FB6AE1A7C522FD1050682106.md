@@ -26,35 +26,35 @@ PE256 | `ECA8A67A025B82B52356E1DDAEA702E53AF7CABADC2DF82B570EC051511B5F74`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WHvCancelRunVirtualProcessor` | 1 | Exported Function
-`WHvTranslateGva` | 27 | Exported Function
-`WHvSuspendPartitionTime` | 26 | Exported Function
-`WHvSetVirtualProcessorXsaveState` | 24 | Exported Function
-`WHvSetVirtualProcessorRegisters` | 23 | Exported Function
-`WHvSetVirtualProcessorInterruptControllerState2` | 22 | Exported Function
-`WHvSetVirtualProcessorInterruptControllerState` | 21 | Exported Function
-`WHvSetupPartition` | 25 | Exported Function
 `WHvSetPartitionProperty` | 20 | Exported Function
+`WHvSetupPartition` | 25 | Exported Function
+`WHvSetVirtualProcessorInterruptControllerState` | 21 | Exported Function
 `WHvRunVirtualProcessor` | 19 | Exported Function
-`WHvResumePartitionTime` | 18 | Exported Function
-`WHvRequestInterrupt` | 17 | Exported Function
 `WHvRegisterPartitionDoorbellEvent` | 16 | Exported Function
+`WHvRequestInterrupt` | 17 | Exported Function
+`WHvResumePartitionTime` | 18 | Exported Function
+`WHvTranslateGva` | 27 | Exported Function
 `WHvUnmapGpaRange` | 28 | Exported Function
-`WHvQueryGpaRangeDirtyBitmap` | 15 | Exported Function
-`WHvGetVirtualProcessorXsaveState` | 13 | Exported Function
-`WHvGetVirtualProcessorRegisters` | 12 | Exported Function
-`WHvGetVirtualProcessorInterruptControllerState2` | 11 | Exported Function
-`WHvGetVirtualProcessorInterruptControllerState` | 10 | Exported Function
-`WHvGetVirtualProcessorCounters` | 9 | Exported Function
-`WHvGetPartitionProperty` | 8 | Exported Function
-`WHvGetPartitionCounters` | 7 | Exported Function
-`WHvGetCapability` | 6 | Exported Function
-`WHvDeleteVirtualProcessor` | 5 | Exported Function
-`WHvDeletePartition` | 4 | Exported Function
-`WHvCreateVirtualProcessor` | 3 | Exported Function
-`WHvCreatePartition` | 2 | Exported Function
-`WHvMapGpaRange` | 14 | Exported Function
 `WHvUnregisterPartitionDoorbellEvent` | 29 | Exported Function
+`WHvSuspendPartitionTime` | 26 | Exported Function
+`WHvSetVirtualProcessorInterruptControllerState2` | 22 | Exported Function
+`WHvSetVirtualProcessorRegisters` | 23 | Exported Function
+`WHvSetVirtualProcessorXsaveState` | 24 | Exported Function
+`WHvQueryGpaRangeDirtyBitmap` | 15 | Exported Function
+`WHvDeleteVirtualProcessor` | 5 | Exported Function
+`WHvGetCapability` | 6 | Exported Function
+`WHvGetPartitionCounters` | 7 | Exported Function
+`WHvDeletePartition` | 4 | Exported Function
+`WHvCancelRunVirtualProcessor` | 1 | Exported Function
+`WHvCreatePartition` | 2 | Exported Function
+`WHvCreateVirtualProcessor` | 3 | Exported Function
+`WHvGetVirtualProcessorRegisters` | 12 | Exported Function
+`WHvGetVirtualProcessorXsaveState` | 13 | Exported Function
+`WHvMapGpaRange` | 14 | Exported Function
+`WHvGetVirtualProcessorInterruptControllerState2` | 11 | Exported Function
+`WHvGetPartitionProperty` | 8 | Exported Function
+`WHvGetVirtualProcessorCounters` | 9 | Exported Function
+`WHvGetVirtualProcessorInterruptControllerState` | 10 | Exported Function
 
 
 ## Signature

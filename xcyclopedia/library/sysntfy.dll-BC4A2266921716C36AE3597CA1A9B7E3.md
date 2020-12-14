@@ -26,8 +26,8 @@ PE256 | `518F90B30E2F81AEE6D0364F31C7E0FE9DBEF8D8D1964F86D76B3BA4E260D8BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SysNotifyStartServer` | 1 | Exported Function
 `SysNotifyStopServer` | 2 | Exported Function
+`SysNotifyStartServer` | 1 | Exported Function
 
 
 ## Signature

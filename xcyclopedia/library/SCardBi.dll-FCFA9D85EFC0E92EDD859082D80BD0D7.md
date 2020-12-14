@@ -26,12 +26,12 @@ PE256 | `3A7FD363834B9549671F88802D910F634BA4AB60501E947509B0252A76922084`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`const SmartCardBiManager::``vftable'` | 3 | Exported Function
-`DllMain` | 6 | Exported Function
-`SmartCardBiManager::SmartCardBiManager` | 1 | Exported Function
 `SmartCardBiManager::Instance` | 5 | Exported Function
 `SmartCardBiManager::Initialize` | 4 | Exported Function
 `public: virtual __cdecl SmartCardBiManager::~SmartCardBiManager(void) __ptr64` | 2 | Exported Function
+`const SmartCardBiManager::``vftable'` | 3 | Exported Function
+`DllMain` | 6 | Exported Function
+`SmartCardBiManager::SmartCardBiManager` | 1 | Exported Function
 
 
 ## Signature

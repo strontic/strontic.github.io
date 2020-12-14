@@ -26,33 +26,33 @@ PE256 | `348D2D3B34E9522C9D89B1B92D65A5110CA70BD0BFB2216D377E73EC630B70D5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_aligned_free` | 1 | Exported Function
-`free` | 25 | Exported Function
-`calloc` | 24 | Exported Function
-`_set_new_mode` | 23 | Exported Function
-`_recalloc` | 22 | Exported Function
-`_realloc_base` | 21 | Exported Function
-`_query_new_mode` | 20 | Exported Function
-`_query_new_handler` | 19 | Exported Function
 `_msize` | 18 | Exported Function
-`_malloc_base` | 17 | Exported Function
-`_heapwalk` | 16 | Exported Function
+`_query_new_handler` | 19 | Exported Function
+`_query_new_mode` | 20 | Exported Function
 `_heapmin` | 15 | Exported Function
+`_heapwalk` | 16 | Exported Function
+`_malloc_base` | 17 | Exported Function
+`_realloc_base` | 21 | Exported Function
+`free` | 25 | Exported Function
 `malloc` | 26 | Exported Function
-`_heapchk` | 14 | Exported Function
-`_free_base` | 12 | Exported Function
-`_expand` | 11 | Exported Function
-`_calloc_base` | 10 | Exported Function
-`_callnewh` | 9 | Exported Function
-`_aligned_recalloc` | 8 | Exported Function
-`_aligned_realloc` | 7 | Exported Function
-`_aligned_offset_recalloc` | 6 | Exported Function
-`_aligned_offset_realloc` | 5 | Exported Function
-`_aligned_offset_malloc` | 4 | Exported Function
-`_aligned_msize` | 3 | Exported Function
-`_aligned_malloc` | 2 | Exported Function
-`_get_heap_handle` | 13 | Exported Function
 `realloc` | 27 | Exported Function
+`_recalloc` | 22 | Exported Function
+`_set_new_mode` | 23 | Exported Function
+`calloc` | 24 | Exported Function
+`_heapchk` | 14 | Exported Function
+`_aligned_offset_malloc` | 4 | Exported Function
+`_aligned_offset_realloc` | 5 | Exported Function
+`_aligned_offset_recalloc` | 6 | Exported Function
+`_aligned_free` | 1 | Exported Function
+`_aligned_malloc` | 2 | Exported Function
+`_aligned_msize` | 3 | Exported Function
+`_aligned_realloc` | 7 | Exported Function
+`_expand` | 11 | Exported Function
+`_free_base` | 12 | Exported Function
+`_get_heap_handle` | 13 | Exported Function
+`_aligned_recalloc` | 8 | Exported Function
+`_callnewh` | 9 | Exported Function
+`_calloc_base` | 10 | Exported Function
 
 
 ## Signature

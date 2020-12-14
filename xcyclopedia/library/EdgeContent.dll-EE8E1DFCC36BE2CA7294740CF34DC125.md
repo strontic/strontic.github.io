@@ -26,13 +26,13 @@ PE256 | `266D1223A9B1420BC0E7B4D5B7B0AC152C5738728A6CF1777AD91505C8552226`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 9 | Exported Function
-`DllGetActivationFactory` | 10 | Exported Function
-`DllGetClassObject` | 11 | Exported Function
-`IEGetWriteableFolderPath` | 12 | Exported Function
 `IEIsInPrivateBrowsing` | 8 | Exported Function
 `IEIsProtectedModeProcess` | 13 | Exported Function
 `IERefreshElevationPolicy` | 14 | Exported Function
+`IEGetWriteableFolderPath` | 12 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllGetActivationFactory` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
 
 
 ## Signature

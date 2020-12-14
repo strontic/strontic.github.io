@@ -26,13 +26,13 @@ PE256 | `FAF9DFE38CD02D091D2DD199E0665A0B09F56ABFB9C1244AD7DB3A32CDCDD85A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllInstall` | 4 | Exported Function
-`DllMain` | 5 | Exported Function
 `DllRegisterServer` | 6 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
 `UsePPWForPrintTo` | 1 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllInstall` | 4 | Exported Function
 
 
 ## Signature

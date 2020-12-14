@@ -29,13 +29,11 @@ PE256 | `92E371D1EBF466F641C6CC4B220A4438AB6E82499638B2A61172306403764573`
 Path |
 -- |
 C:\Windows\system32\ATL.DLL |
-C:\Windows\system32\bcd.dll |
 C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -51,7 +49,6 @@ C:\Windows\System32\USER32.dll |
 C:\Windows\system32\vds.exe |
 C:\Windows\system32\vdsutil.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -81,7 +78,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vds.exe` being misused. While `vds.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vds.exe` being misused. While `vds.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

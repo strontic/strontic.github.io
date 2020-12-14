@@ -26,19 +26,19 @@ PE256 | `95A1956CAC36C79F664AAB3AC403DA47F4F696AA6828149D68CAA3F059964595`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateIAppRep2` | 1 | Exported Function
-`CreateIAppRepParm2` | 2 | Exported Function
-`CreateIUrlReputationSolution2` | 3 | Exported Function
-`CreateUrlBlockBroker` | 4 | Exported Function
-`CreateUrlBlockClient` | 5 | Exported Function
-`DestroyUrlBlockBroker` | 6 | Exported Function
-`DestroyUrlBlockClient` | 7 | Exported Function
-`DllCanUnloadNow` | 8 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
 `DllRegisterServer` | 10 | Exported Function
-`DllUnregisterServer` | 11 | Exported Function
-`GetUrlBlockBroker` | 12 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
 `GetUrlBlockClient` | 13 | Exported Function
+`GetUrlBlockBroker` | 12 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DestroyUrlBlockClient` | 7 | Exported Function
+`CreateIUrlReputationSolution2` | 3 | Exported Function
+`CreateIAppRepParm2` | 2 | Exported Function
+`CreateIAppRep2` | 1 | Exported Function
+`DestroyUrlBlockBroker` | 6 | Exported Function
+`CreateUrlBlockClient` | 5 | Exported Function
+`CreateUrlBlockBroker` | 4 | Exported Function
 
 
 ## Signature

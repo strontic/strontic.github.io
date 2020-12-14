@@ -26,12 +26,12 @@ PE256 | `E8558088CF73B759D6155062D2D6CB93F53EAB68E1BF021A3DF3DBC0C1178983`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetDriverInstallClose` | 1 | Exported Function
-`NetDriverInstallCommit` | 2 | Exported Function
-`NetDriverInstallInitialize` | 3 | Exported Function
 `NetDriverInstallProcessAdditions` | 4 | Exported Function
 `NetDriverInstallProcessRemovals` | 5 | Exported Function
 `NetDriverInstallSync` | 6 | Exported Function
+`NetDriverInstallClose` | 1 | Exported Function
+`NetDriverInstallCommit` | 2 | Exported Function
+`NetDriverInstallInitialize` | 3 | Exported Function
 
 
 ## Signature

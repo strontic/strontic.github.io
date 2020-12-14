@@ -26,10 +26,10 @@ PE256 | `1E0045CA50A5893BDCB31D0F02F128FCA5F86372DDE67711FC326E9872683E66`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RunDll32Main` | 3 | Exported Function
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
 `UtcSysprepGeneralize` | 4 | Exported Function
+`RunDll32Main` | 3 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

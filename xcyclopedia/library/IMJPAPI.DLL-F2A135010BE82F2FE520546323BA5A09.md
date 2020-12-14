@@ -26,12 +26,12 @@ PE256 | `74824FB8C968D5A1743EE7E30834868F446964B410BCFD3D5E17B643972618F1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateIFECommonInstance` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `UpdateDefaultStyleList` | 6 | Exported Function
+`CreateIFECommonInstance` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

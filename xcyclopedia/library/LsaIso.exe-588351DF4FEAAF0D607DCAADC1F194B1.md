@@ -41,7 +41,7 @@ SSDEEP | `6144:n98x5SYuOHIqnef7F18GZ2qJB4LJ1SjL8DKTQe:05INbM/zmYpe`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

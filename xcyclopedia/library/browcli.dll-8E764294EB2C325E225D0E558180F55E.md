@@ -26,18 +26,18 @@ PE256 | `CC43B4C1728D8F640A8D8E286BCB7CB3102D0DD7EA490F89CEC902372223BE6B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`I_BrowserDebugCall` | 1 | Exported Function
-`I_BrowserDebugTrace` | 2 | Exported Function
-`I_BrowserQueryEmulatedDomains` | 3 | Exported Function
-`I_BrowserQueryOtherDomains` | 4 | Exported Function
-`I_BrowserQueryStatistics` | 5 | Exported Function
-`I_BrowserResetNetlogonState` | 6 | Exported Function
-`I_BrowserResetStatistics` | 7 | Exported Function
-`I_BrowserServerEnum` | 8 | Exported Function
 `I_BrowserSetNetlogonState` | 9 | Exported Function
-`NetBrowserStatisticsGet` | 10 | Exported Function
-`NetServerEnum` | 11 | Exported Function
+`I_BrowserServerEnum` | 8 | Exported Function
+`I_BrowserResetStatistics` | 7 | Exported Function
 `NetServerEnumEx` | 12 | Exported Function
+`NetServerEnum` | 11 | Exported Function
+`NetBrowserStatisticsGet` | 10 | Exported Function
+`I_BrowserQueryEmulatedDomains` | 3 | Exported Function
+`I_BrowserDebugTrace` | 2 | Exported Function
+`I_BrowserDebugCall` | 1 | Exported Function
+`I_BrowserResetNetlogonState` | 6 | Exported Function
+`I_BrowserQueryStatistics` | 5 | Exported Function
+`I_BrowserQueryOtherDomains` | 4 | Exported Function
 
 
 ## Signature

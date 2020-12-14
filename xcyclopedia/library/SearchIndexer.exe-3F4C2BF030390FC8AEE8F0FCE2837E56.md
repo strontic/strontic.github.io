@@ -41,7 +41,7 @@ SSDEEP | `12288:uRrF8sOx91gDVI0alMyyGN3Qr5H6NcOUXajN5eiQpm2Qztf:uTC9IdKQAGOuajzD
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SearchIndexer.exe` being misused. While `SearchIndexer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SearchIndexer.exe` being misused. While `SearchIndexer.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

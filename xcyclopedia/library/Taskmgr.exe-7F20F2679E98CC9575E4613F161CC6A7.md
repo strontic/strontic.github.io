@@ -45,7 +45,7 @@ SSDEEP | `24576:vVbFHQdVVFrKUUhE2jgTVHIl6o/s2Z6vMBe7q4S:vVbFwdQpgTVS6o/ss6ye7q4S
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Taskmgr.exe` being misused. While `Taskmgr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Taskmgr.exe` being misused. While `Taskmgr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

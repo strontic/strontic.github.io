@@ -26,13 +26,13 @@ PE256 | `0724A57E383025349D9BBE0114A9027DD97D356DE70838C66FFE478F548EF3AE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_addCmdConfigCiscoHeadset` | 5 | Exported Function
-`_getProxyAuthentication` | 6 | Exported Function
-`_requireProxyAuthentication` | 7 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`_addCmdConfigCiscoHeadset` | 5 | Exported Function
+`_getProxyAuthentication` | 6 | Exported Function
+`_requireProxyAuthentication` | 7 | Exported Function
 
 
 ## Signature

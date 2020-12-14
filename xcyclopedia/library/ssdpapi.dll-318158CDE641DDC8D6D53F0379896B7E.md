@@ -26,35 +26,35 @@ PE256 | `5D231FC9217C135E8BDC22706E99A93172675663907AEE285DBDADEBA208B271`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BeginRegisterPropChangeNotificationEx` | 1 | Exported Function
-`RegisterServiceEx` | 27 | Exported Function
-`RegisterService` | 26 | Exported Function
-`RegisterNotificationEx` | 25 | Exported Function
-`RegisterNotification` | 24 | Exported Function
-`RegisterAliveNotificationOnNetworkEx` | 23 | Exported Function
-`GetNextServiceEx` | 22 | Exported Function
-`GetNextService` | 21 | Exported Function
 `GetFirstServiceEx` | 20 | Exported Function
+`GetNextService` | 21 | Exported Function
+`GetNextServiceEx` | 22 | Exported Function
 `GetFirstService` | 19 | Exported Function
-`FreeSsdpMessageEx` | 18 | Exported Function
-`FreeSsdpMessage` | 17 | Exported Function
 `FindServicesOnNetworkCallbackEx` | 16 | Exported Function
+`FreeSsdpMessage` | 17 | Exported Function
+`FreeSsdpMessageEx` | 18 | Exported Function
+`RegisterServiceEx` | 27 | Exported Function
 `SsdpCleanup` | 28 | Exported Function
-`FindServicesEx` | 15 | Exported Function
-`FindServicesCancel` | 13 | Exported Function
-`FindServicesCallbackEx` | 12 | Exported Function
-`FindServicesCallback` | 11 | Exported Function
-`FindServices` | 10 | Exported Function
-`EndRegisterPropChangeNotificationEx` | 9 | Exported Function
-`EnableFirewallRule` | 8 | Exported Function
-`DisableFirewallRule` | 7 | Exported Function
-`DHSetICSOff` | 4 | Exported Function
-`DHSetICSInterfaces` | 3 | Exported Function
-`DeregisterService` | 6 | Exported Function
-`DeregisterNotification` | 5 | Exported Function
-`CleanupCache` | 2 | Exported Function
-`FindServicesClose` | 14 | Exported Function
 `SsdpStartup` | 29 | Exported Function
+`RegisterService` | 26 | Exported Function
+`RegisterAliveNotificationOnNetworkEx` | 23 | Exported Function
+`RegisterNotification` | 24 | Exported Function
+`RegisterNotificationEx` | 25 | Exported Function
+`FindServicesEx` | 15 | Exported Function
+`DHSetICSInterfaces` | 3 | Exported Function
+`DHSetICSOff` | 4 | Exported Function
+`DisableFirewallRule` | 7 | Exported Function
+`DeregisterService` | 6 | Exported Function
+`BeginRegisterPropChangeNotificationEx` | 1 | Exported Function
+`CleanupCache` | 2 | Exported Function
+`DeregisterNotification` | 5 | Exported Function
+`FindServicesCallbackEx` | 12 | Exported Function
+`FindServicesCancel` | 13 | Exported Function
+`FindServicesClose` | 14 | Exported Function
+`FindServicesCallback` | 11 | Exported Function
+`EnableFirewallRule` | 8 | Exported Function
+`EndRegisterPropChangeNotificationEx` | 9 | Exported Function
+`FindServices` | 10 | Exported Function
 
 
 ## Signature

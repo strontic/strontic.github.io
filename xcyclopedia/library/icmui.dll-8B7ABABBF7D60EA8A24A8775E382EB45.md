@@ -26,8 +26,8 @@ PE256 | `B5C852B4208E604E0DB64A3EBA9FEF917EFF3908EDE36D35A7966EEC63F69298`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SetupColorMatchingA` | 1 | Exported Function
 `SetupColorMatchingW` | 2 | Exported Function
+`SetupColorMatchingA` | 1 | Exported Function
 
 
 ## Signature

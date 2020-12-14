@@ -35,6 +35,7 @@ PE256 | `E2C2F13FB184F3C9A86368387B8DB553D459AEE72F86CA4A469B3F7AF0C271CF`
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll | File
@@ -53,34 +54,29 @@ Path | Type
 (RW-)   C:\Windows\System32 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.685_none_faeca4db76168538 | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_1908 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_2540 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\FileHistory.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
@@ -89,17 +85,12 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\UxTheme.dll |
-C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_fae9a23b76193bbb\gdiplus.dll |
 
 
 ## Signature
@@ -134,7 +125,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `FileHistory.exe` being misused. While `FileHistory.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `FileHistory.exe` being misused. While `FileHistory.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

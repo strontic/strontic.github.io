@@ -26,11 +26,11 @@ PE256 | `67BD22FDDBA528A6DD88E8389689CE8B0F02321AC187046878CFAE9F52DC2F14`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllMain` | 3 | Exported Function
 `GetPlatformSpecificLockScreenAppLauncher` | 4 | Exported Function
 `IsLockScreenActive` | 5 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

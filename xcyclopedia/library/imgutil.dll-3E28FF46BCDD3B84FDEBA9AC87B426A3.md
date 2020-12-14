@@ -26,17 +26,17 @@ PE256 | `AE106DD15BA8E2EA9276739EF4135EF0D80F7CDE7CFF804EA9F9F4D0EA6EBF9A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ComputeInvCMAP` | 1 | Exported Function
-`CreateDDrawSurfaceOnDIB` | 2 | Exported Function
-`CreateMIMEMap` | 3 | Exported Function
-`DecodeImage` | 4 | Exported Function
-`DecodeImageEx` | 5 | Exported Function
-`DitherTo8` | 6 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
 `DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 `GetMaxMIMEIDBytes` | 9 | Exported Function
-`IdentifyMIMEType` | 10 | Exported Function
 `SniffStream` | 11 | Exported Function
+`IdentifyMIMEType` | 10 | Exported Function
+`DitherTo8` | 6 | Exported Function
+`CreateDDrawSurfaceOnDIB` | 2 | Exported Function
+`ComputeInvCMAP` | 1 | Exported Function
+`CreateMIMEMap` | 3 | Exported Function
+`DecodeImageEx` | 5 | Exported Function
+`DecodeImage` | 4 | Exported Function
 
 
 ## Signature

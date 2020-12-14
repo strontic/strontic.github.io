@@ -26,8 +26,8 @@ PE256 | `9D9EE771631555CFCC93955ED4F0AB642486A3F4CA37599ACA63ED4DACA64025`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ScesrvInitializeServer` | 1 | Exported Function
 `ScesrvTerminateServer` | 2 | Exported Function
+`ScesrvInitializeServer` | 1 | Exported Function
 
 
 ## Signature

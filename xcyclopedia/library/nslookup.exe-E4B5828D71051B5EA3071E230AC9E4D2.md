@@ -41,7 +41,7 @@ SSDEEP | `1536:4AGb3XIIYfbyeq+k2r1xSU7HWUS9iWNPocx4:4ZXZReq+k2rn5LZ0iMv4`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `nslookup.exe` being misused. While `nslookup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `nslookup.exe` being misused. While `nslookup.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

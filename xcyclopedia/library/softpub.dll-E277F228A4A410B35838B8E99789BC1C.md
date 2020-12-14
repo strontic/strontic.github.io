@@ -26,30 +26,30 @@ PE256 | `4326A2487F4D0FD45B738CDDE8AA87470D3DFCECB57C6E65F047CF25DB419F90`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddPersonalTrustDBPages` | 7 | Exported Function
-`SoftpubLoadDefUsageCallData` | 6 | Exported Function
-`SoftpubInitialize` | 22 | Exported Function
-`SoftpubFreeDefUsageCallData` | 5 | Exported Function
-`SoftpubDumpStructure` | 21 | Exported Function
-`SoftpubDefCertInit` | 4 | Exported Function
-`SoftpubCleanup` | 20 | Exported Function
 `SoftpubCheckCert` | 19 | Exported Function
-`SoftpubAuthenticode` | 18 | Exported Function
-`OpenPersonalTrustDBDialog` | 17 | Exported Function
+`SoftpubCleanup` | 20 | Exported Function
+`SoftpubDefCertInit` | 4 | Exported Function
 `OfficeInitializePolicy` | 16 | Exported Function
-`OfficeCleanupPolicy` | 15 | Exported Function
-`HTTPSFinalProv` | 14 | Exported Function
-`HTTPSCertificateTrust` | 3 | Exported Function
-`GenericChainFinalProv` | 2 | Exported Function
-`GenericChainCertificateTrust` | 1 | Exported Function
-`FindCertsByIssuer` | 13 | Exported Function
-`DriverInitializePolicy` | 12 | Exported Function
-`DriverFinalPolicy` | 11 | Exported Function
-`DriverCleanupPolicy` | 10 | Exported Function
-`DllUnregisterServer` | 9 | Exported Function
-`DllRegisterServer` | 8 | Exported Function
+`OpenPersonalTrustDBDialog` | 17 | Exported Function
+`SoftpubAuthenticode` | 18 | Exported Function
+`SoftpubLoadDefUsageCallData` | 6 | Exported Function
 `SoftpubLoadMessage` | 23 | Exported Function
 `SoftpubLoadSignature` | 24 | Exported Function
+`SoftpubDumpStructure` | 21 | Exported Function
+`SoftpubFreeDefUsageCallData` | 5 | Exported Function
+`SoftpubInitialize` | 22 | Exported Function
+`DriverCleanupPolicy` | 10 | Exported Function
+`DriverFinalPolicy` | 11 | Exported Function
+`DriverInitializePolicy` | 12 | Exported Function
+`AddPersonalTrustDBPages` | 7 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`HTTPSCertificateTrust` | 3 | Exported Function
+`HTTPSFinalProv` | 14 | Exported Function
+`OfficeCleanupPolicy` | 15 | Exported Function
+`FindCertsByIssuer` | 13 | Exported Function
+`GenericChainCertificateTrust` | 1 | Exported Function
+`GenericChainFinalProv` | 2 | Exported Function
 
 
 ## Signature

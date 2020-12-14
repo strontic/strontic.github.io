@@ -26,19 +26,19 @@ PE256 | `BFD8A07C3C0C17FDC3F287DD5F017A90DF703125DCF45461D07C1839F53EDB89`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WebSocketAbortHandle` | 1 | Exported Function
-`WebSocketBeginClientHandshake` | 2 | Exported Function
-`WebSocketBeginServerHandshake` | 3 | Exported Function
-`WebSocketCompleteAction` | 4 | Exported Function
-`WebSocketCreateClientHandle` | 5 | Exported Function
-`WebSocketCreateServerHandle` | 6 | Exported Function
-`WebSocketDeleteHandle` | 7 | Exported Function
-`WebSocketEndClientHandshake` | 8 | Exported Function
-`WebSocketEndServerHandshake` | 9 | Exported Function
 `WebSocketGetAction` | 10 | Exported Function
-`WebSocketGetGlobalProperty` | 11 | Exported Function
-`WebSocketReceive` | 12 | Exported Function
+`WebSocketEndServerHandshake` | 9 | Exported Function
+`WebSocketEndClientHandshake` | 8 | Exported Function
 `WebSocketSend` | 13 | Exported Function
+`WebSocketReceive` | 12 | Exported Function
+`WebSocketGetGlobalProperty` | 11 | Exported Function
+`WebSocketDeleteHandle` | 7 | Exported Function
+`WebSocketBeginServerHandshake` | 3 | Exported Function
+`WebSocketBeginClientHandshake` | 2 | Exported Function
+`WebSocketAbortHandle` | 1 | Exported Function
+`WebSocketCreateServerHandle` | 6 | Exported Function
+`WebSocketCreateClientHandle` | 5 | Exported Function
+`WebSocketCompleteAction` | 4 | Exported Function
 
 
 ## Signature

@@ -26,23 +26,23 @@ PE256 | `B464D5745DD43FFF94DA857363E4376E28491609B938B328A63CA9769291721E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_lclose` | 12 | Exported Function
-`RemoveLocalAlternateComputerNameW` | 9 | Exported Function
-`RegisterWaitForInputIdle` | 8 | Exported Function
-`GetCalendarMonthsInYear` | 7 | Exported Function
 `EnumerateLocalComputerNamesW` | 6 | Exported Function
-`DosPathToSessionPathW` | 5 | Exported Function
+`GetCalendarMonthsInYear` | 7 | Exported Function
 `CompareCalendarDates` | 4 | Exported Function
+`DosPathToSessionPathW` | 5 | Exported Function
 `SetLocalPrimaryComputerNameW` | 10 | Exported Function
-`CheckElevationEnabled` | 3 | Exported Function
-`BaseSetLastNTError` | 1 | Exported Function
-`_lwrite` | 17 | Exported Function
-`_lread` | 16 | Exported Function
-`_lopen` | 15 | Exported Function
-`_llseek` | 14 | Exported Function
-`_lcreat` | 13 | Exported Function
-`CheckElevation` | 2 | Exported Function
 `Wow64EnableWow64FsRedirection` | 11 | Exported Function
+`RegisterWaitForInputIdle` | 8 | Exported Function
+`RemoveLocalAlternateComputerNameW` | 9 | Exported Function
+`CheckElevationEnabled` | 3 | Exported Function
+`_llseek` | 14 | Exported Function
+`_lopen` | 15 | Exported Function
+`_lclose` | 12 | Exported Function
+`_lcreat` | 13 | Exported Function
+`BaseSetLastNTError` | 1 | Exported Function
+`CheckElevation` | 2 | Exported Function
+`_lread` | 16 | Exported Function
+`_lwrite` | 17 | Exported Function
 
 
 ## Signature

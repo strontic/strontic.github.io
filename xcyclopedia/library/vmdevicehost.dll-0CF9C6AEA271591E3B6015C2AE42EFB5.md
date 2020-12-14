@@ -26,20 +26,20 @@ PE256 | `E3EE640B45DDDB7F54AF981BB47069336EF2F2458EE88E2EB5A42B80ADB9C19A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HdvCreateDeviceInstance` | 1 | Exported Function
-`HdvCreateGuestMemoryAperture` | 2 | Exported Function
-`HdvDeliverGuestInterrupt` | 3 | Exported Function
-`HdvDestroyGuestMemoryAperture` | 4 | Exported Function
-`HdvInitializeDeviceHost` | 5 | Exported Function
-`HdvInitializeDeviceHostForProxy` | 6 | Exported Function
-`HdvProxyDeviceHost` | 7 | Exported Function
-`HdvReadGuestMemory` | 8 | Exported Function
-`HdvRegisterDoorbell` | 9 | Exported Function
 `HdvRegisterDoorbellPage` | 10 | Exported Function
+`HdvRegisterDoorbell` | 9 | Exported Function
+`HdvReadGuestMemory` | 8 | Exported Function
 `HdvTeardownDeviceHost` | 11 | Exported Function
-`HdvUnregisterDoorbell` | 12 | Exported Function
-`HdvUnregisterDoorbellPage` | 13 | Exported Function
 `HdvWriteGuestMemory` | 14 | Exported Function
+`HdvUnregisterDoorbellPage` | 13 | Exported Function
+`HdvUnregisterDoorbell` | 12 | Exported Function
+`HdvDeliverGuestInterrupt` | 3 | Exported Function
+`HdvCreateGuestMemoryAperture` | 2 | Exported Function
+`HdvCreateDeviceInstance` | 1 | Exported Function
+`HdvDestroyGuestMemoryAperture` | 4 | Exported Function
+`HdvProxyDeviceHost` | 7 | Exported Function
+`HdvInitializeDeviceHostForProxy` | 6 | Exported Function
+`HdvInitializeDeviceHost` | 5 | Exported Function
 
 
 ## Signature

@@ -26,26 +26,26 @@ PE256 | `4C1BD16836B9F08F7F32A644B8142816C6D26142A064EE3DD26E49E0AFEDE6B0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`___lc_codepage_func` | 1 | Exported Function
-`_wsetlocale` | 18 | Exported Function
-`_wcreate_locale` | 17 | Exported Function
-`_unlock_locales` | 16 | Exported Function
-`_setmbcp` | 15 | Exported Function
 `_lock_locales` | 14 | Exported Function
+`_setmbcp` | 15 | Exported Function
 `_getmbcp` | 13 | Exported Function
-`_get_current_locale` | 12 | Exported Function
 `_free_locale` | 11 | Exported Function
-`_create_locale` | 10 | Exported Function
-`_configthreadlocale` | 9 | Exported Function
-`__pwctype_func` | 8 | Exported Function
-`__pctype_func` | 7 | Exported Function
-`__initialize_lconv_for_unsigned_char` | 6 | Exported Function
-`___mb_cur_max_l_func` | 5 | Exported Function
-`___mb_cur_max_func` | 4 | Exported Function
-`___lc_locale_name_func` | 3 | Exported Function
-`___lc_collate_cp_func` | 2 | Exported Function
+`_get_current_locale` | 12 | Exported Function
 `localeconv` | 19 | Exported Function
 `setlocale` | 20 | Exported Function
+`_wsetlocale` | 18 | Exported Function
+`_unlock_locales` | 16 | Exported Function
+`_wcreate_locale` | 17 | Exported Function
+`___mb_cur_max_func` | 4 | Exported Function
+`___mb_cur_max_l_func` | 5 | Exported Function
+`___lc_locale_name_func` | 3 | Exported Function
+`___lc_codepage_func` | 1 | Exported Function
+`___lc_collate_cp_func` | 2 | Exported Function
+`_configthreadlocale` | 9 | Exported Function
+`_create_locale` | 10 | Exported Function
+`__pwctype_func` | 8 | Exported Function
+`__initialize_lconv_for_unsigned_char` | 6 | Exported Function
+`__pctype_func` | 7 | Exported Function
 
 
 ## Signature

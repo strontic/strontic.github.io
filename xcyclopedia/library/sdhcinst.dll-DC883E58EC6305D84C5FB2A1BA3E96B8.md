@@ -26,8 +26,8 @@ PE256 | `67918E8C23A5B7B7BC1FE23F3A7A27D9BF9A682CC002108BB6E6A41AB378E3B7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SdClassCoInstaller` | 1 | Exported Function
 `SdClassInstall` | 2 | Exported Function
+`SdClassCoInstaller` | 1 | Exported Function
 
 
 ## Signature

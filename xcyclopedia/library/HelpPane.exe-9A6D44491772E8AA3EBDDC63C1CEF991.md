@@ -30,7 +30,6 @@ Path |
 -- |
 C:\Windows\HelpPane.exe |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -38,19 +37,11 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\SYSTEM32\SLWGA.dll |
-C:\Windows\SYSTEM32\sppc.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\WTSAPI32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -74,7 +65,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/587943f7a42fc21d636b3bae0cad17d66e9aa919f0689730a01a77035f7bd767/detection
 
 ## File Similarity (ssdeep match)
@@ -88,7 +79,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `HelpPane.exe` being misused. While `HelpPane.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `HelpPane.exe` being misused. While `HelpPane.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

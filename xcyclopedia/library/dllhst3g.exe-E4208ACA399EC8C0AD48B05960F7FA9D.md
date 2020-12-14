@@ -22,6 +22,21 @@ IMP | `CF79FCE90FCED31836373F3E48251A5D`
 PESHA1 | `7E2DA07D0CDB540428FDEC0A26080B108A4820DF`
 PE256 | `08EC9AF7DF4FEF3477FDAF42B7DBB1072849938D7404BA4B9BC9F85A090CED82`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dllhst3g.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -38,7 +38,6 @@ C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\ktmw32.dll |
 C:\Windows\system32\msdtc.exe |
 C:\Windows\system32\MSDTCLOG.dll |
 C:\Windows\system32\MSDTCPRX.dll |
@@ -82,7 +81,7 @@ C:\Windows\system32\XOLEHLP.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/edfe71025c352d0dabec7b9506c5945bb0ec11f8db540db8cb1116c2ea1648a8/detection
 
 ## File Similarity (ssdeep match)
@@ -94,6 +93,13 @@ File | Score
 [C:\windows\system32\msdtc.exe](msdtc.exe-915747E010A9414B069173284A9B93F4.md) | 65
 [C:\WINDOWS\system32\msdtc.exe](msdtc.exe-DC59FE37CFF118B6DAC426FE9923B32C.md) | 68
 
+## Possible Misuse
+
+*The following table contains possible examples of `msdtc.exe` being misused. While `msdtc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_lazarus_session_highjack.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_lazarus_session_highjack.yml) | `- '*\msdtc.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

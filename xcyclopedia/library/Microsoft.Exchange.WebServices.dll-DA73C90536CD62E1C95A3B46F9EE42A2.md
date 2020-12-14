@@ -50,7 +50,7 @@ PE256 | `FFE278A3E9B705A500725A2B76DCF03A9806AE0ED0335DF6C44DE6CA3BD4E0D2`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Microsoft.Exchange.WebServices.dll` being misused. While `Microsoft.Exchange.WebServices.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Microsoft.Exchange.WebServices.dll` being misused. While `Microsoft.Exchange.WebServices.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

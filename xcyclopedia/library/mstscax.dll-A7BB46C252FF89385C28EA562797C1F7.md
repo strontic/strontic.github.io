@@ -26,17 +26,17 @@ PE256 | `4D45D0FF211CB9EE16DF4177B58C022F8C3A00110E1A5600AD57E033C5B8DD71`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCancelAuthentication` | 2 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`DllDeleteSavedCreds` | 3 | Exported Function
-`DllGetClaimsToken` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllGetTscCtlVer` | 6 | Exported Function
-`DllLogoffClaimsToken` | 7 | Exported Function
 `DllRegisterServer` | 8 | Exported Function
+`DllLogoffClaimsToken` | 7 | Exported Function
 `DllSetAuthProperties` | 9 | Exported Function
-`DllSetClaimsToken` | 10 | Exported Function
 `DllUnregisterServer` | 11 | Exported Function
+`DllSetClaimsToken` | 10 | Exported Function
+`DllGetTscCtlVer` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllCancelAuthentication` | 2 | Exported Function
+`DllDeleteSavedCreds` | 3 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllGetClaimsToken` | 4 | Exported Function
 
 
 ## Signature
@@ -66,7 +66,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mstscax.dll` being misused. While `mstscax.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mstscax.dll` being misused. While `mstscax.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

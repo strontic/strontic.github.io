@@ -28,8 +28,6 @@ PE256 | `999777248074E5880F0ABC8F0309ECD2F30116C230A84E65C34DE38E1DB5EBD7`
 
 Path |
 -- |
-C:\Windows\system32\ACTIVEDS.dll |
-C:\Windows\system32\adsldpc.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\ApplySettingsTemplateCatalog.exe |
 C:\Windows\System32\combase.dll |
@@ -44,11 +42,9 @@ C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WLDAP32.dll |
 
 
 ## Signature

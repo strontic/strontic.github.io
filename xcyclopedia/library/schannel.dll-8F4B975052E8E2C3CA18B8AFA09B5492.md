@@ -26,42 +26,42 @@ PE256 | `97EB2537D30345DBC080C537709B6FA6D00B5E3EF8CFC9F6C4ADF42750848A43`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AcceptSecurityContext` | 2 | Exported Function
-`RevertSecurityContext` | 22 | Exported Function
-`SealMessage` | 23 | Exported Function
-`SpLsaModeInitialize` | 1 | Exported Function
-`SpUserModeInitialize` | 24 | Exported Function
 `SslCrackCertificate` | 25 | Exported Function
-`SslEmptyCacheA` | 26 | Exported Function
-`QuerySecurityPackageInfoW` | 21 | Exported Function
+`SpUserModeInitialize` | 24 | Exported Function
 `SslEmptyCacheW` | 27 | Exported Function
-`SslFreeCustomBuffer` | 29 | Exported Function
-`SslGenerateRandomBits` | 30 | Exported Function
-`SslGetExtensions` | 31 | Exported Function
-`SslGetMaximumKeySize` | 32 | Exported Function
-`SslGetServerIdentity` | 33 | Exported Function
-`SslLoadCertificate` | 34 | Exported Function
-`SslFreeCertificate` | 28 | Exported Function
+`SslEmptyCacheA` | 26 | Exported Function
+`SpLsaModeInitialize` | 1 | Exported Function
+`QuerySecurityPackageInfoW` | 21 | Exported Function
 `QuerySecurityPackageInfoA` | 20 | Exported Function
+`SealMessage` | 23 | Exported Function
+`RevertSecurityContext` | 22 | Exported Function
+`SslLoadCertificate` | 34 | Exported Function
+`SslGetServerIdentity` | 33 | Exported Function
+`VerifySignature` | 36 | Exported Function
+`UnsealMessage` | 35 | Exported Function
+`SslGetMaximumKeySize` | 32 | Exported Function
+`SslFreeCustomBuffer` | 29 | Exported Function
+`SslFreeCertificate` | 28 | Exported Function
+`SslGetExtensions` | 31 | Exported Function
+`SslGenerateRandomBits` | 30 | Exported Function
+`EnumerateSecurityPackagesA` | 8 | Exported Function
+`DeleteSecurityContext` | 7 | Exported Function
+`FreeContextBuffer` | 10 | Exported Function
+`EnumerateSecurityPackagesW` | 9 | Exported Function
+`CompleteAuthToken` | 6 | Exported Function
+`AcquireCredentialsHandleA` | 3 | Exported Function
+`AcceptSecurityContext` | 2 | Exported Function
+`ApplyControlToken` | 5 | Exported Function
+`AcquireCredentialsHandleW` | 4 | Exported Function
+`MakeSignature` | 17 | Exported Function
+`InitSecurityInterfaceW` | 14 | Exported Function
 `QueryContextAttributesW` | 19 | Exported Function
 `QueryContextAttributesA` | 18 | Exported Function
-`AcquireCredentialsHandleA` | 3 | Exported Function
-`AcquireCredentialsHandleW` | 4 | Exported Function
-`ApplyControlToken` | 5 | Exported Function
-`CompleteAuthToken` | 6 | Exported Function
-`DeleteSecurityContext` | 7 | Exported Function
-`EnumerateSecurityPackagesA` | 8 | Exported Function
-`EnumerateSecurityPackagesW` | 9 | Exported Function
-`FreeContextBuffer` | 10 | Exported Function
-`FreeCredentialsHandle` | 11 | Exported Function
-`ImpersonateSecurityContext` | 12 | Exported Function
-`InitializeSecurityContextA` | 15 | Exported Function
-`InitializeSecurityContextW` | 16 | Exported Function
 `InitSecurityInterfaceA` | 13 | Exported Function
-`InitSecurityInterfaceW` | 14 | Exported Function
-`MakeSignature` | 17 | Exported Function
-`UnsealMessage` | 35 | Exported Function
-`VerifySignature` | 36 | Exported Function
+`ImpersonateSecurityContext` | 12 | Exported Function
+`FreeCredentialsHandle` | 11 | Exported Function
+`InitializeSecurityContextW` | 16 | Exported Function
+`InitializeSecurityContextA` | 15 | Exported Function
 
 
 ## Signature
@@ -91,7 +91,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `schannel.dll` being misused. While `schannel.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `schannel.dll` being misused. While `schannel.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

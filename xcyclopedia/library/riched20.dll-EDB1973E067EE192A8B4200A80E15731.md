@@ -28,15 +28,15 @@ PE256 | `FCFD4BBE46018BB6957B0D0D085E0D146DEC9112F3EA91A85EDF2AE48727F21D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateTextServices` | 4 | Exported Function
-`IID_IRichEditOle` | 2 | Exported Function
-`IID_IRichEditOleCallback` | 3 | Exported Function
-`IID_ITextHost` | 6 | Exported Function
-`IID_ITextHost2` | 7 | Exported Function
-`IID_ITextServices` | 5 | Exported Function
 `REExtendedRegisterClass` | 8 | Exported Function
-`RichEdit10ANSIWndProc` | 9 | Exported Function
+`IID_ITextServices` | 5 | Exported Function
 `RichEditANSIWndProc` | 10 | Exported Function
+`RichEdit10ANSIWndProc` | 9 | Exported Function
+`IID_ITextHost2` | 7 | Exported Function
+`IID_IRichEditOle` | 2 | Exported Function
+`CreateTextServices` | 4 | Exported Function
+`IID_ITextHost` | 6 | Exported Function
+`IID_IRichEditOleCallback` | 3 | Exported Function
 
 
 ## Signature

@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\DWWIN.EXE |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/84ab9f2f1e3b38bd86d7f8d05783c9119b4347c49ffaf94ce736d12ace6ed5b3/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\DWWIN.EXE](DWWIN.EXE-349A39BCF32EA165934BEBDCC57189E7.md) | 93
 
 
 

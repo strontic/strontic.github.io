@@ -26,9 +26,9 @@ PE256 | `C08AB5A76EC68C0B18122DEC0FE50513FCB11E82C8746FDB3149968263CD91D6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GenerateGroupPolicy` | 2 | Exported Function
-`ProcessGroupPolicyEx` | 3 | Exported Function
 `ProcessWmiPolicy` | 1 | Exported Function
+`ProcessGroupPolicyEx` | 3 | Exported Function
+`GenerateGroupPolicy` | 2 | Exported Function
 
 
 ## Signature

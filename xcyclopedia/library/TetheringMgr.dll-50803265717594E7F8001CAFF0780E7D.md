@@ -26,9 +26,9 @@ PE256 | `2B38D42E6E16A505254EED9564F64CACDFAC49FA50532138C94CE61CACB7A67A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TetheringManagerDeinit` | 1 | Exported Function
-`TetheringManagerInit` | 2 | Exported Function
 `TetheringManagerNotify` | 3 | Exported Function
+`TetheringManagerInit` | 2 | Exported Function
+`TetheringManagerDeinit` | 1 | Exported Function
 
 
 ## Signature

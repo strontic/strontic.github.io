@@ -30,10 +30,7 @@ Path |
 -- |
 C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\CoreMessaging.dll |
-C:\Windows\SYSTEM32\DEVOBJ.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MMDevAPI.DLL |
@@ -44,10 +41,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\SYSTEM32\powrprof.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\system32\Speech_OneCore\common\SpeechRuntime.exe |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -71,7 +66,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/bce8dd332be145d80c4d32354aaa68590c964d50ce4d2f83f6b775a03011feec/detection
 
 

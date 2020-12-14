@@ -26,12 +26,12 @@ PE256 | `E178923861786A9D3FA28B45B091E5C701BA3E9664EF9B397991E4263CFAF228`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BootstrapReleaseUnusedResources` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `MSPRMFDllCanUnloadNow` | 5 | Exported Function
 `MSPRMFGetClassObject` | 6 | Exported Function
+`BootstrapReleaseUnusedResources` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

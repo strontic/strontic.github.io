@@ -41,7 +41,7 @@ SSDEEP | `384:C8oSwWz/I6sxLcWN1qBzs7k5FeHGo+0bdcAS3UTOCGXew2ytEnJlWG9W:Rt/I6saWN
 
 ## Possible Misuse
 
-*The following table contains possible examples of `fltMC.exe` being misused. While `fltMC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `fltMC.exe` being misused. While `fltMC.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

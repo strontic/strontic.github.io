@@ -26,33 +26,33 @@ PE256 | `4BEB4937A3C242BD2CE9DEA370EA92E8380E5D67B4BD3CAC41B0E35D97B94118`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`RasUserPrefsDlg` | 25 | Exported Function
-`RasUserGetManualDial` | 24 | Exported Function
-`RasUserEnableManualDial` | 23 | Exported Function
-`RasSrvIsServiceRunning` | 22 | Exported Function
-`RasSrvIsICConfigured` | 21 | Exported Function
-`RasSrvIsConnectionConnected` | 20 | Exported Function
-`RasSrvInitializeService` | 19 | Exported Function
 `RasSrvHangupConnection` | 18 | Exported Function
-`RasSrvEnumConnections` | 17 | Exported Function
-`RasSrvCleanupService` | 16 | Exported Function
+`RasSrvInitializeService` | 19 | Exported Function
+`RasSrvIsConnectionConnected` | 20 | Exported Function
 `RasSrvAllowConnectionsConfig` | 15 | Exported Function
+`RasSrvCleanupService` | 16 | Exported Function
+`RasSrvEnumConnections` | 17 | Exported Function
+`RasSrvIsICConfigured` | 21 | Exported Function
+`RasUserPrefsDlg` | 25 | Exported Function
 `RouterEntryDlgA` | 26 | Exported Function
-`RasSrvAddPropPages` | 14 | Exported Function
-`RasPhonebookDlgA` | 12 | Exported Function
-`RasHandleDiagnostics` | 1 | Exported Function
-`RasEntryDlgW` | 11 | Exported Function
-`RasEntryDlgA` | 10 | Exported Function
-`RasDialDlgW` | 9 | Exported Function
-`RasDialDlgA` | 8 | Exported Function
-`RasAutodialQueryDlgW` | 7 | Exported Function
-`RasAutodialQueryDlgA` | 6 | Exported Function
-`GetRasDialOutProtocols` | 5 | Exported Function
-`DwTerminalDlg` | 4 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`RasPhonebookDlgW` | 13 | Exported Function
 `RouterEntryDlgW` | 27 | Exported Function
+`RasSrvIsServiceRunning` | 22 | Exported Function
+`RasUserEnableManualDial` | 23 | Exported Function
+`RasUserGetManualDial` | 24 | Exported Function
+`RasSrvAddPropPages` | 14 | Exported Function
+`GetRasDialOutProtocols` | 5 | Exported Function
+`RasAutodialQueryDlgA` | 6 | Exported Function
+`RasAutodialQueryDlgW` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DwTerminalDlg` | 4 | Exported Function
+`RasDialDlgA` | 8 | Exported Function
+`RasHandleDiagnostics` | 1 | Exported Function
+`RasPhonebookDlgA` | 12 | Exported Function
+`RasPhonebookDlgW` | 13 | Exported Function
+`RasDialDlgW` | 9 | Exported Function
+`RasEntryDlgA` | 10 | Exported Function
+`RasEntryDlgW` | 11 | Exported Function
 
 
 ## Signature

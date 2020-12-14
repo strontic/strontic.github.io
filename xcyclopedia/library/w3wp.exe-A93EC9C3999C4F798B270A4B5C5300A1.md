@@ -72,7 +72,7 @@ Usage: C:\Windows\SysWOW64\inetsrv\w3wp.exe -s <site id> | -h [application host 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `w3wp.exe` being misused. While `w3wp.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `w3wp.exe` being misused. While `w3wp.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

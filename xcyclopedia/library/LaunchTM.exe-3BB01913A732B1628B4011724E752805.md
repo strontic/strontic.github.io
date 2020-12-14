@@ -77,6 +77,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-1F20DC3E0AA92B3E4A449F65FFAD1A54.md) | 80
+[C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-2A00EED654DD3A437922F96F7DF3AF92.md) | 71
 
 
 

@@ -26,8 +26,8 @@ PE256 | `1B6C4C5680AD6FA286CDC25D15A3E47BD19083F3141D36EC61C63B20BFD9CD8B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FaxFreeSendWizardData` | 1 | Exported Function
 `FaxSendWizard` | 2 | Exported Function
+`FaxFreeSendWizardData` | 1 | Exported Function
 
 
 ## Signature

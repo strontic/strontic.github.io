@@ -26,39 +26,39 @@ PE256 | `97EAAAF8514685D484AB72428F5B7BDEDBDBC6757FD155FB4BDED950CA7E44E0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BindPTProviderThunk` | 5 | Exported Function
-`PTQuerySchemaVersionSupport` | 1 | Exported Function
-`PTOpenProviderEx` | 3 | Exported Function
-`PTOpenProvider` | 2 | Exported Function
-`PTMergeAndValidatePrintTicket` | 7 | Exported Function
-`PTGetPrintDeviceResources` | 12 | Exported Function
-`PTGetPrintDeviceCapabilities` | 11 | Exported Function
-`PTGetPrintCapabilities` | 6 | Exported Function
-`PTConvertPrintTicketToDevMode` | 8 | Exported Function
 `PTConvertDevModeToPrintTicket` | 9 | Exported Function
 `PTCloseProvider` | 4 | Exported Function
-`MergeAndValidatePrintTicketThunk2` | 32 | Exported Function
-`MergeAndValidatePrintTicketThunk` | 31 | Exported Function
+`PTGetPrintCapabilities` | 6 | Exported Function
+`PTConvertPrintTicketToDevMode` | 8 | Exported Function
 `GetSchemaVersionThunk` | 30 | Exported Function
 `GetPrintDeviceResourcesThunk2` | 29 | Exported Function
+`MergeAndValidatePrintTicketThunk2` | 32 | Exported Function
+`MergeAndValidatePrintTicketThunk` | 31 | Exported Function
+`PTQuerySchemaVersionSupport` | 1 | Exported Function
+`PTOpenProviderEx` | 3 | Exported Function
+`UnbindPTProviderThunk` | 33 | Exported Function
 `PTReleaseMemory` | 10 | Exported Function
+`PTGetPrintDeviceResources` | 12 | Exported Function
+`PTGetPrintDeviceCapabilities` | 11 | Exported Function
+`PTOpenProvider` | 2 | Exported Function
+`PTMergeAndValidatePrintTicket` | 7 | Exported Function
 `GetPrintDeviceResourcesThunk` | 28 | Exported Function
-`GetPrintDeviceCapabilitiesThunk` | 26 | Exported Function
-`GetPrintCapabilitiesThunk2` | 25 | Exported Function
-`GetPrintCapabilitiesThunk` | 24 | Exported Function
-`GetDeviceNamespacesThunk` | 23 | Exported Function
-`GetDeviceDefaultPrintTicketThunk` | 22 | Exported Function
-`DllUnregisterServer` | 21 | Exported Function
-`DllRegisterServer` | 20 | Exported Function
-`DllMain` | 19 | Exported Function
-`DllGetClassObject` | 18 | Exported Function
 `DllCanUnloadNow` | 17 | Exported Function
 `ConvertPrintTicketToDevModeThunk2` | 16 | Exported Function
+`DllMain` | 19 | Exported Function
+`DllGetClassObject` | 18 | Exported Function
+`ConvertDevModeToPrintTicketThunk` | 13 | Exported Function
+`BindPTProviderThunk` | 5 | Exported Function
 `ConvertPrintTicketToDevModeThunk` | 15 | Exported Function
 `ConvertDevModeToPrintTicketThunk2` | 14 | Exported Function
-`ConvertDevModeToPrintTicketThunk` | 13 | Exported Function
+`GetPrintCapabilitiesThunk2` | 25 | Exported Function
+`GetPrintCapabilitiesThunk` | 24 | Exported Function
 `GetPrintDeviceCapabilitiesThunk2` | 27 | Exported Function
-`UnbindPTProviderThunk` | 33 | Exported Function
+`GetPrintDeviceCapabilitiesThunk` | 26 | Exported Function
+`DllUnregisterServer` | 21 | Exported Function
+`DllRegisterServer` | 20 | Exported Function
+`GetDeviceNamespacesThunk` | 23 | Exported Function
+`GetDeviceDefaultPrintTicketThunk` | 22 | Exported Function
 
 
 ## Signature

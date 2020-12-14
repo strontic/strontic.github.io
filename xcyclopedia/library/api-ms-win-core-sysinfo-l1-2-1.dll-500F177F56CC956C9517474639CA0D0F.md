@@ -26,11 +26,11 @@ PE256 | `4E38D28C1C08BD9F4104DA6937B5EB221D89205E8861F23C67D2CF55721065C2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DnsHostnameToComputerNameExW` | 1 | Exported Function
-`GetPhysicallyInstalledSystemMemory` | 2 | Exported Function
-`InstallELAMCertificateInfo` | 3 | Exported Function
 `SetComputerNameEx2W` | 4 | Exported Function
 `SetSystemTimeAdjustment` | 5 | Exported Function
+`InstallELAMCertificateInfo` | 3 | Exported Function
+`DnsHostnameToComputerNameExW` | 1 | Exported Function
+`GetPhysicallyInstalledSystemMemory` | 2 | Exported Function
 
 
 ## Signature

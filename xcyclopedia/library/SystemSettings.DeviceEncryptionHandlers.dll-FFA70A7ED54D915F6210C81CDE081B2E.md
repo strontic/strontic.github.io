@@ -26,10 +26,10 @@ PE256 | `8124275E6F0C07916B17D9BBEB5288B88B6C1DC3C66A1E3B00B8E6CA5EF602D3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `GetActualDeviceEncryptionUIState` | 3 | Exported Function
 `GetSetting` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

@@ -49,7 +49,7 @@ PE256 | `A5DCAD6865E4CF5FD990AAF407788736F341DE11262C7125DB583AA768D5CE98`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `smss.exe` being misused. While `smss.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `smss.exe` being misused. While `smss.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

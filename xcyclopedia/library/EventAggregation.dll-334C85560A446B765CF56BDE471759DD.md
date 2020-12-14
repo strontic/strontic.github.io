@@ -26,39 +26,39 @@ PE256 | `968880AAF929D896506936C9F86A2FB5159A357CAB55733AFF1132E26C2AF0D2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BriAllocateRpcBuffer` | 1 | Exported Function
-`EAQueryAggregateEventData` | 16 | Exported Function
-`EaQueryAggregateEventConditionState` | 29 | Exported Function
-`EaQueryAggregatedEventParameters` | 31 | Exported Function
-`EaQueryAggregatedEvent` | 30 | Exported Function
-`EaGetAggregation` | 28 | Exported Function
-`EaFreeBuffer` | 27 | Exported Function
-`EaFreeAggregatedEventParameters` | 26 | Exported Function
-`EAEnumerateAggregateEvents` | 15 | Exported Function
 `EaEncodeBrokeredEvent` | 25 | Exported Function
 `EaEnableAggregatedEvent` | 24 | Exported Function
-`EaDisableAggregatedEvent` | 23 | Exported Function
-`EaDeleteAggregation` | 22 | Exported Function
+`EaFreeAggregatedEventParameters` | 26 | Exported Function
+`EAEnumerateAggregateEvents` | 15 | Exported Function
 `EADeleteAggregateEvent` | 14 | Exported Function
 `EaDeleteAggregatedEventParameters` | 21 | Exported Function
+`EaDisableAggregatedEvent` | 23 | Exported Function
+`EaDeleteAggregation` | 22 | Exported Function
+`EAQueryAggregateEventData` | 16 | Exported Function
+`EaQueryAggregateEventConditionState` | 29 | Exported Function
+`EaStoreAggregatedEventParameters` | 33 | Exported Function
 `EaSignalAggregatedEvent` | 32 | Exported Function
+`EaGetAggregation` | 28 | Exported Function
+`EaFreeBuffer` | 27 | Exported Function
+`EaQueryAggregatedEventParameters` | 31 | Exported Function
+`EaQueryAggregatedEvent` | 30 | Exported Function
 `EaDeleteAggregatedEvent` | 20 | Exported Function
-`EaCreateAggregation` | 18 | Exported Function
-`EACreateAggregateEvent` | 13 | Exported Function
-`EaCreateAggregatedEvent` | 17 | Exported Function
-`BriUnregisterFromBrokerAvailability` | 12 | Exported Function
-`BriSignalBrokeredEvent` | 11 | Exported Function
-`BriResolveBrokerIdByEventId` | 10 | Exported Function
-`BriRegisterToBrokerAvailability` | 9 | Exported Function
-`BriIsBrokerRegistered` | 8 | Exported Function
-`BriGetBrokerAvailabilityChangeStamp` | 7 | Exported Function
 `BriFreeRpcBuffer` | 6 | Exported Function
 `BriDeleteBrokeredEvent` | 5 | Exported Function
+`BriIsBrokerRegistered` | 8 | Exported Function
+`BriGetBrokerAvailabilityChangeStamp` | 7 | Exported Function
+`BriCleanup` | 2 | Exported Function
+`BriAllocateRpcBuffer` | 1 | Exported Function
 `BriCreateBrokeredEventEx` | 4 | Exported Function
 `BriCreateBrokeredEvent` | 3 | Exported Function
-`BriCleanup` | 2 | Exported Function
+`EACreateAggregateEvent` | 13 | Exported Function
+`EaCreateAggregatedEvent` | 17 | Exported Function
 `EaDecodeBrokeredEvent` | 19 | Exported Function
-`EaStoreAggregatedEventParameters` | 33 | Exported Function
+`EaCreateAggregation` | 18 | Exported Function
+`BriResolveBrokerIdByEventId` | 10 | Exported Function
+`BriRegisterToBrokerAvailability` | 9 | Exported Function
+`BriUnregisterFromBrokerAvailability` | 12 | Exported Function
+`BriSignalBrokeredEvent` | 11 | Exported Function
 
 
 ## Signature

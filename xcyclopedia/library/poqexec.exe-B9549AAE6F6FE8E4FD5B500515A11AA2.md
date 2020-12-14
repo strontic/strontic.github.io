@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\system32\poqexec.exe](poqexec.exe-311F9A3A9059EAE049253D3F5A813763.md) | 99
 [C:\Windows\system32\poqexec.exe](poqexec.exe-542B537B7547E4BB334D1D3DA7A9A17C.md) | 99
+[C:\Windows\system32\poqexec.exe](poqexec.exe-78AE381E38249513E5AA3A9976DD16BE.md) | 94
 
 
 

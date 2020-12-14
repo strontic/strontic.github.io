@@ -26,8 +26,8 @@ PE256 | `9238C4254EB8BFB046A33F127F4A91A5A6DC73B9FF0BCCEDAB85E1B8BEA3AECE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallHidserv` | 1 | Exported Function
 `ServiceMain` | 2 | Exported Function
+`InstallHidserv` | 1 | Exported Function
 
 
 ## Signature

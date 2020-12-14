@@ -28,10 +28,10 @@ PE256 | `465A5FCB0BC03662A11F9BDEF038316B93BCB5E6234591BBEAB02711BA686606`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`plugin_register` | 1 | Exported Function
-`plugin_version` | 2 | Exported Function
 `plugin_want_major` | 3 | Exported Function
 `plugin_want_minor` | 4 | Exported Function
+`plugin_register` | 1 | Exported Function
+`plugin_version` | 2 | Exported Function
 
 
 ## Signature

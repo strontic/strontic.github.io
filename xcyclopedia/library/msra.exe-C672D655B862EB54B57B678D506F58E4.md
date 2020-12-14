@@ -52,6 +52,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\msra.exe |
 
@@ -77,7 +78,7 @@ C:\Windows\SysWOW64\msra.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/a9f3b092c6204f05311174628076e0cf719fe1d3a83af43eb2fb60144e988965/detection
 
 ## File Similarity (ssdeep match)

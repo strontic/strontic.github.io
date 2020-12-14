@@ -26,26 +26,26 @@ PE256 | `ED258A10B9AB6FAA63827B4B4FBC6DCFF8312964080D455F9EC94C7A6DC4446A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_OSFRunAtExitChain@0` | 20 | Exported Function
-`Osf::ClearTaskpaneStorageAll` | 2 | Exported Function
-`Osf::GetDocumentTaskpaneCount` | 6 | Exported Function
-`OsfE2oControlContainerInfo::OnGetRuntimeClass` | 14 | Exported Function
-`Osf::TransitionTaskpanesStorage` | 19 | Exported Function
 `OpenXml::IPackage` | 18 | Exported Function
+`Osf::TransitionTaskpanesStorage` | 19 | Exported Function
 `Osf::OsfUIInitialize` | 16 | Exported Function
-`Osf::OsfE2oPartialLoadUIRefresh` | 15 | Exported Function
 `Art::UserInterface` | 13 | Exported Function
-`Osf::OSFCreateInContentAddIn` | 11 | Exported Function
-`OpenXml::IPackage` | 10 | Exported Function
-`Osf::GetOsfTaskpanesStorageForDoc` | 8 | Exported Function
-`Mso::TCntPtr` | 7 | Exported Function
-`OpenXml::IPart` | 5 | Exported Function
-`Osf::CloneOsfTaskpanesStorage` | 4 | Exported Function
-`Osf::ClearTaskpaneStorage` | 1 | Exported Function
-`Osf::ClearTaskpanesStorageForDoc` | 3 | Exported Function
-`Osf::IsOsfAgaveCommandsEnabled` | 9 | Exported Function
+`Osf::OsfE2oPartialLoadUIRefresh` | 15 | Exported Function
 `Art::IE2o` | 12 | Exported Function
 `Osf::OsfUIUninitialize` | 17 | Exported Function
+`Osf::ClearTaskpaneStorageAll` | 2 | Exported Function
+`OsfE2oControlContainerInfo::OnGetRuntimeClass` | 14 | Exported Function
+`Osf::GetDocumentTaskpaneCount` | 6 | Exported Function
+`Osf::ClearTaskpaneStorage` | 1 | Exported Function
+`Osf::CloneOsfTaskpanesStorage` | 4 | Exported Function
+`Osf::ClearTaskpanesStorageForDoc` | 3 | Exported Function
+`_OSFRunAtExitChain@0` | 20 | Exported Function
+`Osf::IsOsfAgaveCommandsEnabled` | 9 | Exported Function
+`OpenXml::IPackage` | 10 | Exported Function
+`Osf::OSFCreateInContentAddIn` | 11 | Exported Function
+`Osf::GetOsfTaskpanesStorageForDoc` | 8 | Exported Function
+`OpenXml::IPart` | 5 | Exported Function
+`Mso::TCntPtr` | 7 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `38160F076B4CD4DC777FBB7596FBBCEC214593BF62A4C3F5EA0396AB5A4B17F8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateDataUsageHelper` | 1 | Exported Function
-`SetRealTimeUsage` | 2 | Exported Function
 `SetUsageHistory` | 3 | Exported Function
+`SetRealTimeUsage` | 2 | Exported Function
+`CreateDataUsageHelper` | 1 | Exported Function
 
 
 ## Signature

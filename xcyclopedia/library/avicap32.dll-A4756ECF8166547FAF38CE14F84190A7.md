@@ -26,12 +26,12 @@ PE256 | `13D6F56A661999BCBB6D9F51B1D0416DA54EBAB32B6540CA62A95E6F241786FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppCleanup` | 1 | Exported Function
-`capCreateCaptureWindowA` | 2 | Exported Function
-`capCreateCaptureWindowW` | 3 | Exported Function
 `capGetDriverDescriptionA` | 4 | Exported Function
 `capGetDriverDescriptionW` | 5 | Exported Function
 `videoThunk32` | 6 | Exported Function
+`AppCleanup` | 1 | Exported Function
+`capCreateCaptureWindowA` | 2 | Exported Function
+`capCreateCaptureWindowW` | 3 | Exported Function
 
 
 ## Signature
@@ -61,7 +61,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `avicap32.dll` being misused. While `avicap32.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `avicap32.dll` being misused. While `avicap32.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

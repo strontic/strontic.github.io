@@ -24,6 +24,9 @@ PE256 | `762F6C842007D550270AA71FA921AFEB3926850E46748BECDF4A9DE7D2250CD9`
 
 ## Runtime Data
 
+### Child Processes:
+perfmon.exe
+
 ### Loaded Modules:
 
 Path |
@@ -56,13 +59,13 @@ C:\Windows\SysWOW64\runonce.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/e2031017207a33a6fa147a5bb6e32ad5788df03f783d424a0053ba1b16d561f5/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `runonce.exe` being misused. While `runonce.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `runonce.exe` being misused. While `runonce.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

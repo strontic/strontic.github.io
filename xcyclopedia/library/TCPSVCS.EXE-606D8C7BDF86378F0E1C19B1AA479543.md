@@ -41,7 +41,7 @@ SSDEEP | `192:DBl0o+qi/KHpcPtPR13Aaprp5UU/sVdt6qwDRNeAOfS4XSUJOp1iwEWQ/W:Vl0oDi/
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

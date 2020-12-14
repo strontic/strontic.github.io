@@ -26,14 +26,14 @@ PE256 | `2DB43F7DE2F2C922232F3265E176C693457DF7A8F42817F8BD231DBE68706D8A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetLicensingTelemetryCommonData` | 1 | Exported Function
-`InitRDLSTelemetryCommonData` | 2 | Exported Function
-`LogRDLSSettingsTelemetryData` | 3 | Exported Function
-`LogTSLSTelemetryEvent` | 4 | Exported Function
-`LogTSLSTelemetryRDSEvent` | 5 | Exported Function
 `RegisterAndEnableLicensingTelemetry` | 6 | Exported Function
-`UnregisterLicensingTelemetry` | 7 | Exported Function
+`LogTSLSTelemetryRDSEvent` | 5 | Exported Function
 `UpdateRDLSTelemetryCommonData` | 8 | Exported Function
+`UnregisterLicensingTelemetry` | 7 | Exported Function
+`InitRDLSTelemetryCommonData` | 2 | Exported Function
+`GetLicensingTelemetryCommonData` | 1 | Exported Function
+`LogTSLSTelemetryEvent` | 4 | Exported Function
+`LogRDLSSettingsTelemetryData` | 3 | Exported Function
 
 
 ## Signature

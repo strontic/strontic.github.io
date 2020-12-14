@@ -46,7 +46,7 @@ SSDEEP | `1572864:xt3zCttCBb10gxJDH8oBRU5eHj//jojoEjXKdBtqnqqb+K8KIyM:xt3zCtvstp
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TeamViewer.exe` being misused. While `TeamViewer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TeamViewer.exe` being misused. While `TeamViewer.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

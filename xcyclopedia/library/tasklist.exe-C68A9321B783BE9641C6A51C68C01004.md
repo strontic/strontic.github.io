@@ -41,7 +41,7 @@ SSDEEP | `1536:GAkPUz+1H85YIl+p/OB1HclSgGFxXMQpS4FUFIzxvsIuE:/+1H85YIlC/MHclSgGF
 
 ## Possible Misuse
 
-*The following table contains possible examples of `tasklist.exe` being misused. While `tasklist.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `tasklist.exe` being misused. While `tasklist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

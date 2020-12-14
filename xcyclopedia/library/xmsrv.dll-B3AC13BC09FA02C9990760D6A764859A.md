@@ -28,8 +28,8 @@ PE256 | `6D11DEA6055E735EAAFCF324FFCDB4DE6CBE592D5E51D027F591233E9E095975`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`XMDllCanUnloadNow` | 2 | Exported Function
 `XMDllLoad` | 1 | Exported Function
+`XMDllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

@@ -26,23 +26,23 @@ PE256 | `0AAE4A4B26A151B99651A5F0128FB8C09BE206D8D82D85587DEBD31E47C7163C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SecClearRegistryOperations` | 1 | Exported Function
-`SecUnregisterConsumer` | 15 | Exported Function
-`SecSetRegistryOperations` | 14 | Exported Function
-`SecSetFileMonitorOperations` | 13 | Exported Function
 `SecSetConfiguration` | 12 | Exported Function
-`SecRequestOplock` | 11 | Exported Function
+`SecSetFileMonitorOperations` | 13 | Exported Function
 `SecRegisterConsumer` | 10 | Exported Function
+`SecRequestOplock` | 11 | Exported Function
 `SecWriteFileDlpEA` | 16 | Exported Function
-`SecIsKernelIntegrityEnabled` | 9 | Exported Function
-`SecGetProcessInfo` | 7 | Exported Function
-`SecGetFileHashes` | 6 | Exported Function
-`SecGetDriverVersion` | 5 | Exported Function
-`SecGetCiInformation` | 4 | Exported Function
-`SecDeleteSessionFilter` | 3 | Exported Function
-`SecCreateSessionFilter` | 2 | Exported Function
-`SecGetUserLibVersion` | 8 | Exported Function
 `SecWriteFileHashEA` | 17 | Exported Function
+`SecSetRegistryOperations` | 14 | Exported Function
+`SecUnregisterConsumer` | 15 | Exported Function
+`SecIsKernelIntegrityEnabled` | 9 | Exported Function
+`SecDeleteSessionFilter` | 3 | Exported Function
+`SecGetCiInformation` | 4 | Exported Function
+`SecClearRegistryOperations` | 1 | Exported Function
+`SecCreateSessionFilter` | 2 | Exported Function
+`SecGetProcessInfo` | 7 | Exported Function
+`SecGetUserLibVersion` | 8 | Exported Function
+`SecGetDriverVersion` | 5 | Exported Function
+`SecGetFileHashes` | 6 | Exported Function
 
 
 ## Signature

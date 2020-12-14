@@ -26,17 +26,17 @@ PE256 | `3E0B23DA0A6A14A5E3523855059F1632C279CACC30D03DF9DEC60E4C1C7125E9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WofEnumEntries` | 1 | Exported Function
-`WofFileEnumFiles` | 2 | Exported Function
-`WofGetDriverVersion` | 3 | Exported Function
-`WofIsExternalFile` | 4 | Exported Function
-`WofSetFileDataLocation` | 5 | Exported Function
-`WofShouldCompressBinaries` | 6 | Exported Function
-`WofWimAddEntry` | 7 | Exported Function
 `WofWimEnumFiles` | 8 | Exported Function
+`WofWimAddEntry` | 7 | Exported Function
 `WofWimRemoveEntry` | 9 | Exported Function
-`WofWimSuspendEntry` | 10 | Exported Function
 `WofWimUpdateEntry` | 11 | Exported Function
+`WofWimSuspendEntry` | 10 | Exported Function
+`WofShouldCompressBinaries` | 6 | Exported Function
+`WofFileEnumFiles` | 2 | Exported Function
+`WofEnumEntries` | 1 | Exported Function
+`WofGetDriverVersion` | 3 | Exported Function
+`WofSetFileDataLocation` | 5 | Exported Function
+`WofIsExternalFile` | 4 | Exported Function
 
 
 ## Signature

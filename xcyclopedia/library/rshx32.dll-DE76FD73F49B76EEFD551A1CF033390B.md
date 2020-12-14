@@ -26,11 +26,11 @@ PE256 | `25B55439F86BEEDF4ABAC02EBD0901F9031158262962C74D1C956FCB413D92DA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_EditFSSecurity@32` | 5 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`_EditFSSecurity@32` | 5 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

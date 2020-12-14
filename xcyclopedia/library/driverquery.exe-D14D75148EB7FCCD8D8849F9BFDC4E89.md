@@ -105,7 +105,7 @@ C:\Windows\SysWOW64\driverquery.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/42ec0718e29088ea73bbac9c96eaf02807ba556a392fa8c830ae9b425b7e0cc0/detection
 
 

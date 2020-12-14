@@ -28,7 +28,6 @@ PE256 | `5D28BAF57043D3406097F2EB2B9998C2844258605DC671706A85B1CF441AF79C`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -41,7 +40,6 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\system32\RuntimeBroker.exe |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\UMPDC.dll |
 
 
 ## Signature
@@ -65,13 +63,13 @@ C:\Windows\system32\UMPDC.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/70d968b4f65c5ce471474096f8623aecd7d496e4f10c8b94c3577c8362e0ada1/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

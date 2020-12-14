@@ -28,10 +28,7 @@ PE256 | `6714D2212BD29E2D5139286D83EDA1AEB411405D62383159810B64A4DD697FEC`
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\cryptdll.dll |
-C:\Windows\system32\ESENT.dll |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -46,8 +43,6 @@ C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\system32\TQUERY.DLL |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\windows.storage.dll |
-C:\Windows\system32\Wldp.dll |
 
 
 ## Signature
@@ -71,13 +66,13 @@ C:\Windows\system32\Wldp.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/63b92d3657ec7e81ad3a8ad8eca83c456752eb654715518732da1adc9c4241ad/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SearchIndexer.exe` being misused. While `SearchIndexer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SearchIndexer.exe` being misused. While `SearchIndexer.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

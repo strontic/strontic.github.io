@@ -26,17 +26,17 @@ PE256 | `1969DDB69FA1978824264B083BFE952D4B98A83DBD29B30F1949D18473F3F219`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializePushRouter` | 7 | Exported Function
-`PrAreAllClientsHandled` | 1 | Exported Function
-`PrSvcDecMessageCount` | 2 | Exported Function
-`PrSvcGetMessageCount` | 3 | Exported Function
-`PrSvcIncMessageCount` | 4 | Exported Function
-`PrSvcSetMessageCount` | 5 | Exported Function
-`PushRouter_SubmitPushLocal` | 6 | Exported Function
 `RegisterRPCInterface` | 8 | Exported Function
+`PushRouter_SubmitPushLocal` | 6 | Exported Function
 `ShutDownPushRouter` | 9 | Exported Function
-`ShutDownPushRouterSynchronously` | 10 | Exported Function
 `UnregisterRPCInterface` | 11 | Exported Function
+`ShutDownPushRouterSynchronously` | 10 | Exported Function
+`PrSvcSetMessageCount` | 5 | Exported Function
+`PrAreAllClientsHandled` | 1 | Exported Function
+`InitializePushRouter` | 7 | Exported Function
+`PrSvcDecMessageCount` | 2 | Exported Function
+`PrSvcIncMessageCount` | 4 | Exported Function
+`PrSvcGetMessageCount` | 3 | Exported Function
 
 
 ## Signature

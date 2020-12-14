@@ -29,13 +29,17 @@ PE256 | `51CDBE9D4EF3787D4FF17D458613E02EB719DA9E185837DE542CA3BDC8521A2F`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\system32\TapiUnattend.exe |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\WDSCORE.dll |
 
 

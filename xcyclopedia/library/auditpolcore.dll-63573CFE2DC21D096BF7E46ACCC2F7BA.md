@@ -26,35 +26,35 @@ PE256 | `C4532FD593A907A2D5EF86ACFA6E873833111DF76DCAA940942F37E1B1109576`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AdtBackupPolicy` | 1 | Exported Function
-`GetDisplayPolicy` | 27 | Exported Function
-`DisplayMessageToSpecificConsoleHandle` | 26 | Exported Function
-`DisplayMessage` | 25 | Exported Function
-`AuditPolicyData_DeleteAuditDataInstance` | 24 | Exported Function
-`AdtSetSystemPolicy` | 23 | Exported Function
-`AdtSetPerUserPolicy` | 22 | Exported Function
-`AdtSetOption` | 21 | Exported Function
 `AdtRestorePolicyGeneralized` | 20 | Exported Function
+`AdtSetOption` | 21 | Exported Function
+`AdtSetPerUserPolicy` | 22 | Exported Function
 `AdtRestorePolicy` | 19 | Exported Function
-`AdtRemoveBasePolicy` | 18 | Exported Function
-`AdtRemoveAllUsers` | 17 | Exported Function
 `AdtParseGuidOrNameArray` | 16 | Exported Function
+`AdtRemoveAllUsers` | 17 | Exported Function
+`AdtRemoveBasePolicy` | 18 | Exported Function
+`GetDisplayPolicy` | 27 | Exported Function
 `LoadFormatStringAndPrintToConsole` | 28 | Exported Function
-`AdtParseAuditOptionName` | 15 | Exported Function
-`AdtListSubCategories` | 13 | Exported Function
-`AdtListCategories` | 12 | Exported Function
-`AdtGetSystemPolicy` | 11 | Exported Function
-`AdtGetPerUserPolicy` | 10 | Exported Function
-`AdtGetOption` | 9 | Exported Function
-`AdtEnableSinglePrivilege` | 8 | Exported Function
-`AdtDisableSinglePrivilege` | 7 | Exported Function
-`AdtConvertGuidToString` | 6 | Exported Function
-`AdtConvertGuidStringToGuid` | 5 | Exported Function
-`AdtConstructAllCategoryGuids` | 4 | Exported Function
-`AdtClearPolicy` | 3 | Exported Function
-`AdtBackupPolicyGeneralized` | 2 | Exported Function
-`AdtLoadStringEx` | 14 | Exported Function
 `SetDisplayPolicy` | 29 | Exported Function
+`DisplayMessageToSpecificConsoleHandle` | 26 | Exported Function
+`AdtSetSystemPolicy` | 23 | Exported Function
+`AuditPolicyData_DeleteAuditDataInstance` | 24 | Exported Function
+`DisplayMessage` | 25 | Exported Function
+`AdtParseAuditOptionName` | 15 | Exported Function
+`AdtConvertGuidStringToGuid` | 5 | Exported Function
+`AdtConvertGuidToString` | 6 | Exported Function
+`AdtDisableSinglePrivilege` | 7 | Exported Function
+`AdtConstructAllCategoryGuids` | 4 | Exported Function
+`AdtBackupPolicy` | 1 | Exported Function
+`AdtBackupPolicyGeneralized` | 2 | Exported Function
+`AdtClearPolicy` | 3 | Exported Function
+`AdtListCategories` | 12 | Exported Function
+`AdtListSubCategories` | 13 | Exported Function
+`AdtLoadStringEx` | 14 | Exported Function
+`AdtGetSystemPolicy` | 11 | Exported Function
+`AdtEnableSinglePrivilege` | 8 | Exported Function
+`AdtGetOption` | 9 | Exported Function
+`AdtGetPerUserPolicy` | 10 | Exported Function
 
 
 ## Signature

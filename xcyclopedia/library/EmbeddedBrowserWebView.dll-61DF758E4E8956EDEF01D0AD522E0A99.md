@@ -26,11 +26,11 @@ PE256 | `0FA2DD66FB22B16DAAA9C92CAD4BB0EB7CCBAE955C450A649093E64BAD4934F5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateWebViewEnvironmentInternal` | 1 | Exported Function
-`CreateWebViewEnvironmentInternal2` | 2 | Exported Function
-`CreateWebViewEnvironmentInternal3` | 3 | Exported Function
 `CreateWebViewEnvironmentWithOptionsInternal` | 4 | Exported Function
 `GetHandleVerifier` | 5 | Exported Function
+`CreateWebViewEnvironmentInternal3` | 3 | Exported Function
+`CreateWebViewEnvironmentInternal` | 1 | Exported Function
+`CreateWebViewEnvironmentInternal2` | 2 | Exported Function
 
 
 ## Signature

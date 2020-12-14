@@ -26,34 +26,34 @@ PE256 | `21D411366282B6886FD414106606AE3F571439AE35E0E38AA47545C56FC773A2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BatMeterIconAnimationReset` | 1000 | Exported Function
-`UnsubscribeBatteryUpdateNotification` | 1025 | Exported Function
-`SubscribeBatteryUpdateNotification` | 1024 | Exported Function
-`SetBatteryWorkingState` | 1023 | Exported Function
-`SetBatteryLevel` | 1022 | Exported Function
-`SetBatteryHealthWarningState` | 1021 | Exported Function
-`QueryBatteryData` | 1020 | Exported Function
-`PowerCapabilities` | 1019 | Exported Function
 `IsBatteryLevelReserve` | 1018 | Exported Function
+`PowerCapabilities` | 1019 | Exported Function
+`QueryBatteryData` | 1020 | Exported Function
 `IsBatteryLevelLow` | 1017 | Exported Function
-`IsBatteryLevelCritical` | 1016 | Exported Function
-`IsBatteryHealthWarningEnabled` | 1015 | Exported Function
 `IsBatteryBad` | 1014 | Exported Function
-`GetBatteryWorkingState` | 1013 | Exported Function
-`GetBatteryStatusText` | 1012 | Exported Function
-`GetBatteryInfo` | 1011 | Exported Function
-`GetBatteryImmersiveIcon` | 1010 | Exported Function
-`GetBatteryDetails` | 1009 | Exported Function
-`GetBatteryCapacityInfo` | 1008 | Exported Function
-`GetBatMeterIconAnimationUpdate` | 1007 | Exported Function
-`GetBatMeterIconAnimationTimeDelay` | 1006 | Exported Function
-`GetBatMeterIconAnimationState` | 1005 | Exported Function
-`CreateBatteryData` | 1004 | Exported Function
-`CleanupBatteryData` | 1003 | Exported Function
-`BatMeterOnDeviceChange` | 1002 | Exported Function
-`BatMeterIconThemeReset` | 1001 | Exported Function
+`IsBatteryHealthWarningEnabled` | 1015 | Exported Function
+`IsBatteryLevelCritical` | 1016 | Exported Function
+`UnsubscribeBatteryUpdateNotification` | 1025 | Exported Function
 `UpdateBatteryData` | 1026 | Exported Function
 `UpdateBatteryDataAsync` | 1027 | Exported Function
+`SubscribeBatteryUpdateNotification` | 1024 | Exported Function
+`SetBatteryHealthWarningState` | 1021 | Exported Function
+`SetBatteryLevel` | 1022 | Exported Function
+`SetBatteryWorkingState` | 1023 | Exported Function
+`CreateBatteryData` | 1004 | Exported Function
+`GetBatMeterIconAnimationState` | 1005 | Exported Function
+`GetBatMeterIconAnimationTimeDelay` | 1006 | Exported Function
+`CleanupBatteryData` | 1003 | Exported Function
+`BatMeterIconAnimationReset` | 1000 | Exported Function
+`BatMeterIconThemeReset` | 1001 | Exported Function
+`BatMeterOnDeviceChange` | 1002 | Exported Function
+`GetBatteryInfo` | 1011 | Exported Function
+`GetBatteryStatusText` | 1012 | Exported Function
+`GetBatteryWorkingState` | 1013 | Exported Function
+`GetBatteryImmersiveIcon` | 1010 | Exported Function
+`GetBatMeterIconAnimationUpdate` | 1007 | Exported Function
+`GetBatteryCapacityInfo` | 1008 | Exported Function
+`GetBatteryDetails` | 1009 | Exported Function
 
 
 ## Signature

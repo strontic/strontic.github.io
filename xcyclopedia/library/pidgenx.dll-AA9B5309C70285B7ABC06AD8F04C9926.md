@@ -26,9 +26,9 @@ PE256 | `DFC88F3441F7D84EC7B524A3C62338B613D03BDA9283027E709D3EE31E89FEBD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPKeyData` | 118 | Exported Function
-`PidGenX` | 119 | Exported Function
 `PidGenX2` | 120 | Exported Function
+`PidGenX` | 119 | Exported Function
+`GetPKeyData` | 118 | Exported Function
 
 
 ## Signature

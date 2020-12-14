@@ -26,28 +26,28 @@ PE256 | `51ABA38052AC526A0D862B4B78A99B3D48C6CF8948290A119F5154E177DACB30`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CoreUIClientCreate` | 1 | Exported Function
-`MinUserUnregisterPointerInputTarget` | 20 | Exported Function
-`MinUserReregisterPointerInputTargets` | 19 | Exported Function
-`MinUserRequestViewHitTest` | 18 | Exported Function
-`MinUserRegisterPointerInputTarget` | 17 | Exported Function
-`MinUserNotifyOneCoreTransformMode` | 16 | Exported Function
 `MinUserInputInitialize` | 15 | Exported Function
+`MinUserNotifyOneCoreTransformMode` | 16 | Exported Function
 `MinUserGetInputRoutingInfo` | 14 | Exported Function
-`MinUserGetInputHost` | 13 | Exported Function
 `DllGetClassObject` | 12 | Exported Function
-`DllGetActivationFactory` | 11 | Exported Function
-`DllCanUnloadNow` | 10 | Exported Function
-`CreateNavigationClientWindowAdapter` | 9 | Exported Function
-`CoreUIServerTestCreate` | 8 | Exported Function
-`CoreUIServerCreate` | 7 | Exported Function
-`CoreUIFactoryCreate` | 6 | Exported Function
-`CoreUICreateICoreWindowFactory` | 5 | Exported Function
-`CoreUICreateDuplicateWindowFactory` | 4 | Exported Function
-`CoreUIConfigureTestHost` | 3 | Exported Function
-`CoreUIClientTestCreate` | 2 | Exported Function
+`MinUserGetInputHost` | 13 | Exported Function
+`MinUserRegisterPointerInputTarget` | 17 | Exported Function
 `ServiceMain` | 21 | Exported Function
 `SvchostPushServiceGlobals` | 22 | Exported Function
+`MinUserUnregisterPointerInputTarget` | 20 | Exported Function
+`MinUserRequestViewHitTest` | 18 | Exported Function
+`MinUserReregisterPointerInputTargets` | 19 | Exported Function
+`CoreUICreateDuplicateWindowFactory` | 4 | Exported Function
+`CoreUICreateICoreWindowFactory` | 5 | Exported Function
+`CoreUIConfigureTestHost` | 3 | Exported Function
+`CoreUIClientCreate` | 1 | Exported Function
+`CoreUIClientTestCreate` | 2 | Exported Function
+`CoreUIFactoryCreate` | 6 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetActivationFactory` | 11 | Exported Function
+`CreateNavigationClientWindowAdapter` | 9 | Exported Function
+`CoreUIServerCreate` | 7 | Exported Function
+`CoreUIServerTestCreate` | 8 | Exported Function
 
 
 ## Signature

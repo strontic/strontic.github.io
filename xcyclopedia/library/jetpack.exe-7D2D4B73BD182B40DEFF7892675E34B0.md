@@ -41,7 +41,7 @@ SSDEEP | `192:Na/lsoPWyW7dW1fpkicPP0DkV8ZWe3eAaUQmsW0UcHW:Na+TyKDP0G8ZWe3eysW0PH
 
 ## Possible Misuse
 
-*The following table contains possible examples of `jetpack.exe` being misused. While `jetpack.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `jetpack.exe` being misused. While `jetpack.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

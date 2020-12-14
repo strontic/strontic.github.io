@@ -26,13 +26,13 @@ PE256 | `4E48673F772933367CE69BE6AF585D934EAF14C079B60B494A455D1931183FC0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `DoMsCtfMonitor` | 5 | Exported Function
 `InitLocalMsCtfMonitor` | 6 | Exported Function
 `UninitLocalMsCtfMonitor` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature
@@ -62,7 +62,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MsCtfMonitor.dll` being misused. While `MsCtfMonitor.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MsCtfMonitor.dll` being misused. While `MsCtfMonitor.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

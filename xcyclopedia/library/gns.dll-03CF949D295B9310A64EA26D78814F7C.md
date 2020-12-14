@@ -26,17 +26,17 @@ PE256 | `FFAE3DABC6474CFA1982EED726D25679C66A8B32C7F123BB249EE2264D8FBB15`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`GNSAddNamespace` | 3 | Exported Function
-`GNSAttachNamespace` | 4 | Exported Function
-`GNSBeginAddInterface` | 5 | Exported Function
-`GNSCompleteAddInterface` | 6 | Exported Function
-`GNSDetachNamespace` | 7 | Exported Function
 `GNSModuleCleanup` | 8 | Exported Function
+`GNSDetachNamespace` | 7 | Exported Function
 `GNSModuleInit` | 9 | Exported Function
-`GNSRemoveInterface` | 10 | Exported Function
 `GNSRemoveNamespace` | 11 | Exported Function
+`GNSRemoveInterface` | 10 | Exported Function
+`GNSCompleteAddInterface` | 6 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`GNSAddNamespace` | 3 | Exported Function
+`GNSBeginAddInterface` | 5 | Exported Function
+`GNSAttachNamespace` | 4 | Exported Function
 
 
 ## Signature

@@ -26,28 +26,28 @@ PE256 | `AC248E48D7E6585C2BEEA528B2C39DCDF6A1FAA7D9AAFD27458BD1F8E1E9748E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LsaAddAccountRights` | 1 | Exported Function
-`LsaSetInformationPolicy` | 20 | Exported Function
-`LsaRetrievePrivateData` | 19 | Exported Function
-`LsaRemoveAccountRights` | 18 | Exported Function
-`LsaQuerySecret` | 17 | Exported Function
-`LsaQueryInformationPolicy` | 16 | Exported Function
 `LsaOpenSecret` | 15 | Exported Function
+`LsaQueryInformationPolicy` | 16 | Exported Function
 `LsaOpenPolicy` | 14 | Exported Function
-`LsaLookupSids2` | 13 | Exported Function
 `LsaLookupSids` | 12 | Exported Function
-`LsaLookupNames2` | 11 | Exported Function
-`LsaICLookupSidsWithCreds` | 10 | Exported Function
-`LsaICLookupSids` | 9 | Exported Function
-`LsaICLookupNamesWithCreds` | 8 | Exported Function
-`LsaICLookupNames` | 7 | Exported Function
-`LsaFreeMemory` | 6 | Exported Function
-`LsaEnumerateAccountsWithUserRight` | 5 | Exported Function
-`LsaEnumerateAccountRights` | 4 | Exported Function
-`LsaCreateSecret` | 3 | Exported Function
-`LsaClose` | 2 | Exported Function
+`LsaLookupSids2` | 13 | Exported Function
+`LsaQuerySecret` | 17 | Exported Function
 `LsaSetSecret` | 21 | Exported Function
 `LsaStorePrivateData` | 22 | Exported Function
+`LsaSetInformationPolicy` | 20 | Exported Function
+`LsaRemoveAccountRights` | 18 | Exported Function
+`LsaRetrievePrivateData` | 19 | Exported Function
+`LsaEnumerateAccountRights` | 4 | Exported Function
+`LsaEnumerateAccountsWithUserRight` | 5 | Exported Function
+`LsaCreateSecret` | 3 | Exported Function
+`LsaAddAccountRights` | 1 | Exported Function
+`LsaClose` | 2 | Exported Function
+`LsaFreeMemory` | 6 | Exported Function
+`LsaICLookupSidsWithCreds` | 10 | Exported Function
+`LsaLookupNames2` | 11 | Exported Function
+`LsaICLookupSids` | 9 | Exported Function
+`LsaICLookupNames` | 7 | Exported Function
+`LsaICLookupNamesWithCreds` | 8 | Exported Function
 
 
 ## Signature

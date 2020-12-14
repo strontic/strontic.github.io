@@ -41,7 +41,7 @@ SSDEEP | `384:GN7FQRTwWlCYhocHlLlOb30lxZCIlwMPWMFQhXtwoVV0MLWI0WEk:4mRxCOXZJlwM3
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RpcPing.exe` being misused. While `RpcPing.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RpcPing.exe` being misused. While `RpcPing.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

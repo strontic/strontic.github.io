@@ -26,10 +26,10 @@ PE256 | `4B9BF91820977F8F2FE5762951F909F8D81B3E70C3EF7BC5B0159EF6E04F9CD4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LOADERRMSG` | 1 | Exported Function
-`LOADERRMSGW` | 3 | Exported Function
 `LOADLOCALSTR` | 2 | Exported Function
 `LOADLOCALSTRW` | 4 | Exported Function
+`LOADERRMSG` | 1 | Exported Function
+`LOADERRMSGW` | 3 | Exported Function
 
 
 ## Signature

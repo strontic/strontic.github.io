@@ -26,8 +26,8 @@ PE256 | `D6414859FA1A065E1A082B60E635E68FC78579413D8B4E5A5BB2D6B5898AE53E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KeyIsoServiceMain` | 1 | Exported Function
 `KeyIsoSetAuditingInterface` | 2 | Exported Function
+`KeyIsoServiceMain` | 1 | Exported Function
 
 
 ## Signature

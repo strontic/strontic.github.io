@@ -26,9 +26,9 @@ PE256 | `620AE18ADBC140534678B61D7893666A8C3145AAA4F10429332DE7B7F2A6C094`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ParseExtrasXmlForExtensionInfo` | 1 | Exported Function
-`ParseExtrasXmlForNabSyncExtensionInfo` | 2 | Exported Function
 `ParseExtrasXmlForSmsInterceptExtensionInfo` | 3 | Exported Function
+`ParseExtrasXmlForNabSyncExtensionInfo` | 2 | Exported Function
+`ParseExtrasXmlForExtensionInfo` | 1 | Exported Function
 
 
 ## Signature

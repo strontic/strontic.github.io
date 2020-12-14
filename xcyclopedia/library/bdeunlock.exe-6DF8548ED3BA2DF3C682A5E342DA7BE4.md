@@ -28,6 +28,7 @@ PE256 | `DEB1475870A373DF000D64FC6E441DB1B581722319E24D6E52EB382E760D0455`
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\bdeunlock.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
@@ -101,7 +102,7 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 1/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/387911a1ac9d717420b0bd6e4c8055ef2ec75c66c64ffa2447b12d49e95ac4b4/detection
 
 ## File Similarity (ssdeep match)

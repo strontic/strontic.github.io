@@ -49,7 +49,7 @@ PE256 | `B21CB49168436529063E11E79130D1068DAC350982056D6D8DE23F88DC76C0F5`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,28 +26,28 @@ PE256 | `617B3F80F8B69493347325AF37D8F69DB8525E8D7DAFFF747BE9762D7DDA0B33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HSAdapterInterface::IHSInterface` | 17 | Exported Function
-`SFAdapterInterface::ISFInterface` | 11 | Exported Function
-`SeComCall::ICall` | 9 | Exported Function
-`HSAdapterInterface::IHSInterface` | 10 | Exported Function
-`SFAdapterInterface::ISFInterface` | 15 | Exported Function
-`SeComCall::ICall` | 12 | Exported Function
 `ISFEventListener::operator` | 14 | Exported Function
+`SeComCall::ICall` | 12 | Exported Function
 `HSAdapterInterface::IHSInterface` | 13 | Exported Function
-`ISFInterface::ISFInterface` | 8 | Exported Function
 `SFAdapterInterface::ISFInterface` | 7 | Exported Function
-`ICall::ICall` | 2 | Exported Function
-`SeComCall::ICall` | 1 | Exported Function
-`ISFEventListener::ISFEventListener` | 6 | Exported Function
-`ISFEventListener::ISFEventListener` | 5 | Exported Function
-`IHSInterface::IHSInterface` | 4 | Exported Function
-`HSAdapterInterface::IHSInterface` | 3 | Exported Function
-`DestroyWBSFFactory` | 20 | Exported Function
-`SFAdapterInterface::ISFInterface` | 19 | Exported Function
-`SeComCall::ICall` | 16 | Exported Function
-`const ISFEventListener::``vftable'` | 18 | Exported Function
+`ISFInterface::ISFInterface` | 8 | Exported Function
+`SFAdapterInterface::ISFInterface` | 15 | Exported Function
 `StartWBCCServices` | 21 | Exported Function
 `WBSFFactoryCreater` | 22 | Exported Function
+`SFAdapterInterface::ISFInterface` | 11 | Exported Function
+`HSAdapterInterface::IHSInterface` | 10 | Exported Function
+`SeComCall::ICall` | 9 | Exported Function
+`SFAdapterInterface::ISFInterface` | 19 | Exported Function
+`DestroyWBSFFactory` | 20 | Exported Function
+`SeComCall::ICall` | 16 | Exported Function
+`HSAdapterInterface::IHSInterface` | 17 | Exported Function
+`const ISFEventListener::``vftable'` | 18 | Exported Function
+`HSAdapterInterface::IHSInterface` | 3 | Exported Function
+`SeComCall::ICall` | 1 | Exported Function
+`ICall::ICall` | 2 | Exported Function
+`ISFEventListener::ISFEventListener` | 6 | Exported Function
+`IHSInterface::IHSInterface` | 4 | Exported Function
+`ISFEventListener::ISFEventListener` | 5 | Exported Function
 
 
 ## Signature

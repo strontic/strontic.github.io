@@ -26,11 +26,11 @@ PE256 | `B70E14A2A4979434F1DB9CDDE413C9D6125974620FFF5D38012E89058F412CE4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BthEvtBrCreateBroker` | 2 | Exported Function
-`BthEvtBrDeleteBroker` | 3 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
 `DllGetActivationFactory` | 1 | Exported Function
 `DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`BthEvtBrCreateBroker` | 2 | Exported Function
+`BthEvtBrDeleteBroker` | 3 | Exported Function
 
 
 ## Signature

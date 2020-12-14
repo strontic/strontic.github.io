@@ -26,8 +26,8 @@ PE256 | `10EB8433B82BE0C911B7AB6FB906BDD279FC627C9904938DB1E2C7C660086FB3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrtCreateIpv6UdpTransport` | 1 | Exported Function
 `DrtDeleteIpv6UdpTransport` | 2 | Exported Function
+`DrtCreateIpv6UdpTransport` | 1 | Exported Function
 
 
 ## Signature

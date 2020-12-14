@@ -26,18 +26,18 @@ PE256 | `F504E87EAD59AC035DF6FD15D7FFA98558B4BCE10D68E449C6AC179C2951FDD0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RmAddFilter` | 1 | Exported Function
-`RmCancelCurrentTask` | 2 | Exported Function
-`RmEndSession` | 3 | Exported Function
-`RmGetFilterList` | 4 | Exported Function
-`RmGetList` | 5 | Exported Function
-`RmJoinSession` | 6 | Exported Function
-`RmRegisterResources` | 7 | Exported Function
-`RmRemoveFilter` | 8 | Exported Function
 `RmReserveHeap` | 9 | Exported Function
-`RmRestart` | 10 | Exported Function
-`RmShutdown` | 11 | Exported Function
+`RmRemoveFilter` | 8 | Exported Function
+`RmRegisterResources` | 7 | Exported Function
 `RmStartSession` | 12 | Exported Function
+`RmShutdown` | 11 | Exported Function
+`RmRestart` | 10 | Exported Function
+`RmEndSession` | 3 | Exported Function
+`RmCancelCurrentTask` | 2 | Exported Function
+`RmAddFilter` | 1 | Exported Function
+`RmJoinSession` | 6 | Exported Function
+`RmGetList` | 5 | Exported Function
+`RmGetFilterList` | 4 | Exported Function
 
 
 ## Signature

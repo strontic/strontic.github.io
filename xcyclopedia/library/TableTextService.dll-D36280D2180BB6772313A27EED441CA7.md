@@ -26,16 +26,16 @@ PE256 | `664A60F37F96F6DBF24A12710B71D8BBE866FE4C8CE4C5AD91C0CB45C2F2536B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DictionaryGeneratorW` | 1 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`DllRegisterServer` | 9 | Exported Function
-`DllUnregisterServer` | 10 | Exported Function
-`HELPW` | 2 | Exported Function
 `HelpW` | 3 | Exported Function
+`HELPW` | 2 | Exported Function
 `helpW` | 6 | Exported Function
-`RegisterProfileW` | 4 | Exported Function
 `UnregisterProfileW` | 5 | Exported Function
+`RegisterProfileW` | 4 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DictionaryGeneratorW` | 1 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
 
 
 ## Signature

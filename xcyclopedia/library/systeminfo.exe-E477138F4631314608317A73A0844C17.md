@@ -41,7 +41,7 @@ SSDEEP | `1536:kHJiD0Y+cOE0GTW9VoXzm9+Hr2N1SlSGYxTN9vB5:J+cVPTW9V+zmM2rSlSGYxTnv
 
 ## Possible Misuse
 
-*The following table contains possible examples of `systeminfo.exe` being misused. While `systeminfo.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `systeminfo.exe` being misused. While `systeminfo.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

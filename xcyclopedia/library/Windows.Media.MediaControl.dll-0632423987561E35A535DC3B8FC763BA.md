@@ -26,17 +26,17 @@ PE256 | `928C6EAF908B5CBEFCAFAA9EC4F616B9E85E7D3AAB95A8A92A2598F0201345F5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateCaptureAudioStateMonitor` | 1 | Exported Function
-`CreateCaptureAudioStateMonitorForCategory` | 2 | Exported Function
-`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 | Exported Function
-`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 | Exported Function
-`CreateRenderAudioStateMonitor` | 5 | Exported Function
-`CreateRenderAudioStateMonitorForCategory` | 6 | Exported Function
-`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 | Exported Function
 `CreateRenderAudioStateMonitorForCategoryAndDeviceRole` | 8 | Exported Function
+`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 | Exported Function
 `DllCanUnloadNow` | 9 | Exported Function
-`DllGetActivationFactory` | 10 | Exported Function
 `DllGetClassObject` | 11 | Exported Function
+`DllGetActivationFactory` | 10 | Exported Function
+`CreateRenderAudioStateMonitorForCategory` | 6 | Exported Function
+`CreateCaptureAudioStateMonitorForCategory` | 2 | Exported Function
+`CreateCaptureAudioStateMonitor` | 1 | Exported Function
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 | Exported Function
+`CreateRenderAudioStateMonitor` | 5 | Exported Function
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 | Exported Function
 
 
 ## Signature

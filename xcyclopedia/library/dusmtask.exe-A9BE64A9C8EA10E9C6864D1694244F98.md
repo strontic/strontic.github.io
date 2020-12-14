@@ -22,6 +22,22 @@ IMP | `0117BC2CEE4D5D2EDC11E21FB6247FD7`
 PESHA1 | `B45E8FDD4EAFD9ACA642570A5785896E4BC47748`
 PE256 | `C01FC39EDFE97490E2676EDFCB06A324671EBF91A73F4ED49627E8A28A82C726`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dusmtask.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -43,7 +59,7 @@ PE256 | `C01FC39EDFE97490E2676EDFCB06A324671EBF91A73F4ED49627E8A28A82C726`
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/c604f3c971220c04db7acebe9585c49aa55718c16d042e6b67f76485ebe65477/detection
 
 

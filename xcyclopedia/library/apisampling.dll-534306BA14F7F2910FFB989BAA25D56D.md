@@ -26,9 +26,9 @@ PE256 | `A6A6233AEC4D5C876BC59334C30126B0FA3E3A9DAADDE210831F30E14C9F5E21`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`APISamplingInitialize` | 1 | Exported Function
-`APISamplingSetValue` | 2 | Exported Function
 `APISamplingUninitialize` | 3 | Exported Function
+`APISamplingSetValue` | 2 | Exported Function
+`APISamplingInitialize` | 1 | Exported Function
 
 
 ## Signature

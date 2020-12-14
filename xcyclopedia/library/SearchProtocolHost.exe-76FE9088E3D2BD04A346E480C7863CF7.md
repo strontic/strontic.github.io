@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\SearchProtocolHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/7b80a59d171be36ecfe71488827eeaf882495b2b109a0619d33a8687887ca489/detection
 
 ## File Similarity (ssdeep match)

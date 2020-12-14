@@ -41,13 +41,7 @@ Path | Type
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\system32\CLUSAPI.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\DNSAPI.dll |
-C:\Windows\system32\ESENT.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -55,7 +49,6 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\system32\TieringEngineService.exe |
 C:\Windows\System32\ucrtbase.dll |
 
@@ -81,7 +74,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/2b871b446cd18d9f8461e5e7c56c2fd3530f06fded609b8e5a145348c27cb53f/detection
 
 

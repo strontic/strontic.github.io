@@ -100,7 +100,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/38f20a75e04bb9a53c563152a90a5b29ab689aff58d6abd3e005d156ee4e4c73/detection
 
 ## File Similarity (ssdeep match)
@@ -147,7 +147,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `manage-bde.exe` being misused. While `manage-bde.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `manage-bde.exe` being misused. While `manage-bde.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

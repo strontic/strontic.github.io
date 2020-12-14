@@ -49,8 +49,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -59,15 +59,10 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\ATL.DLL |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MFC42u.dll |
@@ -77,28 +72,20 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\POWRPROF.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SLC.dll |
-C:\Windows\system32\sppc.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\UMPDC.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -115,7 +102,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/68390551bc3bbc372ae64b5860dcbac3e74866595f05577a7c19365384b5d6cb/detection
 
 ## File Similarity (ssdeep match)

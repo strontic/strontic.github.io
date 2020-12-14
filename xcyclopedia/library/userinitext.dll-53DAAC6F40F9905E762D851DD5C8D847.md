@@ -26,18 +26,18 @@ PE256 | `BA9CDB267124FBF456836DB3655BD0579A61F7BDF29B3769D137CD9173FD31EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateExplorerSessionKey` | 1 | Exported Function
-`DisplayMessageAndExitWindows` | 2 | Exported Function
-`ImmWorker` | 3 | Exported Function
-`IsSubDesktopSession` | 4 | Exported Function
-`IsTSAppCompatOn` | 5 | Exported Function
-`LoadRemoteFontsAndInitMiscWorker` | 6 | Exported Function
-`PerformXForestLogonCheck` | 7 | Exported Function
-`ProcesRemoteSessionInitialCommand` | 8 | Exported Function
 `ProcessTermSrvIniFiles` | 9 | Exported Function
-`SetShellDesktopSwitchEvent` | 10 | Exported Function
-`SetupHotKeyForKeyboardLayout` | 11 | Exported Function
+`ProcesRemoteSessionInitialCommand` | 8 | Exported Function
+`PerformXForestLogonCheck` | 7 | Exported Function
 `UserinitExt` | 12 | Exported Function
+`SetupHotKeyForKeyboardLayout` | 11 | Exported Function
+`SetShellDesktopSwitchEvent` | 10 | Exported Function
+`ImmWorker` | 3 | Exported Function
+`DisplayMessageAndExitWindows` | 2 | Exported Function
+`CreateExplorerSessionKey` | 1 | Exported Function
+`LoadRemoteFontsAndInitMiscWorker` | 6 | Exported Function
+`IsTSAppCompatOn` | 5 | Exported Function
+`IsSubDesktopSession` | 4 | Exported Function
 
 
 ## Signature

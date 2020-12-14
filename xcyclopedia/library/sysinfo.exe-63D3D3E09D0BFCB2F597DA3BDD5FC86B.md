@@ -45,7 +45,7 @@ SSDEEP | `6144:Bl9fG6pCKEXLaGlAplepg9EpRKVF0LapIBMm74U62gaemOGDf2RPtp+UER/CW4:L5
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sysinfo.exe` being misused. While `sysinfo.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sysinfo.exe` being misused. While `sysinfo.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

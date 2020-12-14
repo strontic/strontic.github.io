@@ -41,7 +41,7 @@ SSDEEP | `12288:ruXOXTsbhYPll5gFampro20OcGNUbT2QTX2rXrj7MXky:6eXMhQOampr6gcX2rXr
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AppVClient.exe` being misused. While `AppVClient.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AppVClient.exe` being misused. While `AppVClient.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

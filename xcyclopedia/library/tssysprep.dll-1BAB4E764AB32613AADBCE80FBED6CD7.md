@@ -26,19 +26,19 @@ PE256 | `E8F20DA6783E9E9BCD4C64BC7CF554F0B37E437E238B8B2D00296AE3206B6674`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppsrvSysPrepGeneralize` | 1 | Exported Function
-`AppsrvSysPrepSpecializeOffline` | 2 | Exported Function
-`AppsrvSysPrepSpecializeOnline` | 3 | Exported Function
-`CBrokerSysPrepGeneralize` | 4 | Exported Function
-`CBrokerSysPrepSpecializeOffline` | 5 | Exported Function
-`CBrokerSysPrepSpecializeOnline` | 6 | Exported Function
-`LSMSysPrepBackup` | 7 | Exported Function
-`LSMSysPrepRestoreOffline` | 8 | Exported Function
-`LSMSysPrepRestoreOnline` | 9 | Exported Function
 `RCMSysPrepGeneralize` | 10 | Exported Function
-`RdpSysPrepGeneralize` | 11 | Exported Function
-`RdpSysPrepRestoreOffline` | 12 | Exported Function
+`LSMSysPrepRestoreOnline` | 9 | Exported Function
+`LSMSysPrepRestoreOffline` | 8 | Exported Function
 `RdpSysPrepRestoreOnline` | 13 | Exported Function
+`RdpSysPrepRestoreOffline` | 12 | Exported Function
+`RdpSysPrepGeneralize` | 11 | Exported Function
+`LSMSysPrepBackup` | 7 | Exported Function
+`AppsrvSysPrepSpecializeOnline` | 3 | Exported Function
+`AppsrvSysPrepSpecializeOffline` | 2 | Exported Function
+`AppsrvSysPrepGeneralize` | 1 | Exported Function
+`CBrokerSysPrepSpecializeOnline` | 6 | Exported Function
+`CBrokerSysPrepSpecializeOffline` | 5 | Exported Function
+`CBrokerSysPrepGeneralize` | 4 | Exported Function
 
 
 ## Signature

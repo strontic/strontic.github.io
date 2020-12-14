@@ -26,23 +26,23 @@ PE256 | `2F66E096475C934D1FA4D1E696D41D7AF93092F6B2C2211FCA6AA9B57FF4D22F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddMIMEFileTypesPS` | 102 | Exported Function
-`TranslateURLW` | 116 | Exported Function
-`TranslateURLA` | 115 | Exported Function
-`TelnetProtocolHandlerA` | 114 | Exported Function
 `TelnetProtocolHandler` | 113 | Exported Function
-`OpenURLA` | 112 | Exported Function
+`TelnetProtocolHandlerA` | 114 | Exported Function
 `OpenURL` | 111 | Exported Function
+`OpenURLA` | 112 | Exported Function
 `URLAssociationDialogA` | 117 | Exported Function
-`MIMEAssociationDialogW` | 108 | Exported Function
-`MailToProtocolHandlerA` | 110 | Exported Function
-`MailToProtocolHandler` | 109 | Exported Function
-`InetIsOffline` | 106 | Exported Function
-`FileProtocolHandlerA` | 105 | Exported Function
-`FileProtocolHandler` | 104 | Exported Function
-`AutodialHookCallback` | 103 | Exported Function
-`MIMEAssociationDialogA` | 107 | Exported Function
 `URLAssociationDialogW` | 118 | Exported Function
+`TranslateURLA` | 115 | Exported Function
+`TranslateURLW` | 116 | Exported Function
+`MIMEAssociationDialogW` | 108 | Exported Function
+`FileProtocolHandler` | 104 | Exported Function
+`FileProtocolHandlerA` | 105 | Exported Function
+`AddMIMEFileTypesPS` | 102 | Exported Function
+`AutodialHookCallback` | 103 | Exported Function
+`MailToProtocolHandlerA` | 110 | Exported Function
+`MIMEAssociationDialogA` | 107 | Exported Function
+`InetIsOffline` | 106 | Exported Function
+`MailToProtocolHandler` | 109 | Exported Function
 
 
 ## Signature
@@ -77,7 +77,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `url.dll` being misused. While `url.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `url.dll` being misused. While `url.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

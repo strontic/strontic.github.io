@@ -26,23 +26,23 @@ PE256 | `E06AA9DD84D1EEE466E97A950442DF88F707877BC3516C36EDBD643197392D1B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetFileVersionInfoA` | 1 | Exported Function
-`VerLanguageNameW` | 15 | Exported Function
-`VerLanguageNameA` | 14 | Exported Function
-`VerInstallFileW` | 13 | Exported Function
 `VerInstallFileA` | 12 | Exported Function
-`VerFindFileW` | 11 | Exported Function
+`VerInstallFileW` | 13 | Exported Function
 `VerFindFileA` | 10 | Exported Function
+`VerFindFileW` | 11 | Exported Function
 `VerQueryValueA` | 16 | Exported Function
-`GetFileVersionInfoW` | 9 | Exported Function
-`GetFileVersionInfoSizeExW` | 7 | Exported Function
-`GetFileVersionInfoSizeExA` | 6 | Exported Function
-`GetFileVersionInfoSizeA` | 5 | Exported Function
-`GetFileVersionInfoExW` | 4 | Exported Function
-`GetFileVersionInfoExA` | 3 | Exported Function
-`GetFileVersionInfoByHandle` | 2 | Exported Function
-`GetFileVersionInfoSizeW` | 8 | Exported Function
 `VerQueryValueW` | 17 | Exported Function
+`VerLanguageNameA` | 14 | Exported Function
+`VerLanguageNameW` | 15 | Exported Function
+`GetFileVersionInfoW` | 9 | Exported Function
+`GetFileVersionInfoExA` | 3 | Exported Function
+`GetFileVersionInfoExW` | 4 | Exported Function
+`GetFileVersionInfoA` | 1 | Exported Function
+`GetFileVersionInfoByHandle` | 2 | Exported Function
+`GetFileVersionInfoSizeExW` | 7 | Exported Function
+`GetFileVersionInfoSizeW` | 8 | Exported Function
+`GetFileVersionInfoSizeA` | 5 | Exported Function
+`GetFileVersionInfoSizeExA` | 6 | Exported Function
 
 
 ## Signature
@@ -77,7 +77,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `version.dll` being misused. While `version.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `version.dll` being misused. While `version.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -174,6 +174,9 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-elastic-beats-implementation.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml) | `#version: zeek.ssl.version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-elastic-beats-implementation.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml) | `certificate.version: zeek.x509.certificate.version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-zeek-elastic-beats-implementation.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml) | `agent.version: version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `FileVersion: version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `HostVersion: version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [fireeye-helix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/fireeye-helix.yml) | `Version: version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `EngineVersion: powershell.engine.version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `HostVersion: powershell.host.version` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [helk.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml) | `Version:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
@@ -274,6 +277,8 @@ Source | Source File | Example | License
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-mosquito-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-mosquito-event.json) | `"version": "22",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-comrat-v4-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-comrat-v4-event.json) | `"version": "3",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-comrat-v4-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-comrat-v4-event.json) | `"version": "154",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-crutch-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-crutch-event.json) | `"version": "3",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-crutch-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-crutch-event.json) | `"version": "191",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-lightneuron-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-lightneuron-event.json) | `"version": "3",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-lightneuron-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-lightneuron-event.json) | `"version": "105",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-lightneuron-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-lightneuron-event.json) | `"version": "5",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
@@ -351,6 +356,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md) | Attempts to run powershell commands in version 2.0 https://www.leeholmes.com/blog/2017/03/17/detecting-and-preventing-powershell-downgrade-attacks/ | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md) | powershell.exe -version 2 -Command Write-Host $PSVersion | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md) | ##### Description: PowerShell version 2 must be installed | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.005.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.005/T1059.005.md) | A note regarding this module, due to the way that this module utilizes "ScriptControl" a 64bit version of Microsoft Office is required. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.005.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.005/T1059.005.md) | ##### Description: The 64-bit version of Microsoft Office must be installed | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1082.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1082/T1082.md) | <blockquote>An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1082) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | Uses the Windows Defender to download a file from the internet (must have version 4.18.2007.8-0, 4.18.2007.9, or 4.18.2009.9 installed). | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | More info and how to find your version can be found here https://lolbas-project.github.io/lolbas/Binaries/MpCmdRun/ | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -361,7 +368,6 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1201.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1201/T1201.md) | if [ $(rpm -q --queryformat '%{VERSION}') -eq "7" ]; then exit /b 0; else exit /b 1; fi;  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1201.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1201/T1201.md) | if [ $(rpm -q --queryformat '%{VERSION}') -eq "6" ]; then exit /b 0; else exit /b 1; fi;  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1204.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md) | - [Atomic Test #4 - OSTAP JS version](#atomic-test-4---ostap-js-version) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1204.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md) | \| ms_office_version \| Microsoft Office version number found in "HKEY_CURRENT_USER&#92;SOFTWARE&#92;Microsoft&#92;Office" \| String \| 16.0\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1204.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md) | ## Atomic Test #4 - OSTAP JS version | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | <blockquote>Adversaries may use InstallUtil to proxy execution of code through a trusted Windows utility. InstallUtil is a command-line utility that allows for installation and uninstallation of resources by executing specific installer components specified in .NET binaries. (Citation: MSDN InstallUtil) InstallUtil is digitally signed by Microsoft and located in the .NET directories on a Windows system: <code>C:\Windows\Microsoft.NET\Framework\v<version>\InstallUtil.exe</code> and <code>C:\Windows\Microsoft.NET\Framework64\v<version>\InstallUtil.exe</code>. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.004/T1218.004.md) | Executes the installer assembly class constructor. Upon execution, version information will be displayed the .NET framework install utility. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -383,7 +389,6 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md) | else if [ $(rpm -q --queryformat '%{VERSION}' centos-release) -eq "7" ]; | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | if [ $(rpm -q --queryformat '%{VERSION}' centos-release) -eq "6" ]; | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | else if [ $(rpm -q --queryformat '%{VERSION}' centos-release) -eq "7" ]; | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1566.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md) | \| ms_office_version \| Microsoft Office version number found in "HKEY_CURRENT_USER&#92;SOFTWARE&#92;Microsoft&#92;Office" \| String \| 16.0\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1574.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md) | Adversaries can take advantage of insecure library loading by PowerShell to load a vulnerable version of amsi.dll in order to bypass AMSI (Anti-Malware Scanning Interface) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [contributing.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/contributing.md) | *NOTE: An updated version of this contributing reference is found over on the Wiki [here](https://github.com/redcanaryco/atomic-red-team/wiki/Contributing) * | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [contributing.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/contributing.md) | If you want to see what the pretty Markdown version of your Atomic Test is going to look like,  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -497,6 +502,9 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar) | $s4 = "VERSION.DLL" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar) | $s2 = "Easy Usage Version -- Edited By: racle@tian6.com" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_hacktool_scripts.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktool_scripts.yar) | $s0 = "META-INF/context.xml<?xml version=\"1.0\" encoding=\"UTF-8\"?>" fullword ascii  | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | description = "This rule is looking for B64 offsets of LazyNetToJscriptLoader which is a namespace specific to the internal version of the GadgetToJScript tooling." | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | description = "The TypeLibGUID present in a .NET binary maps directly to the ProjectGuid found in the '.csproj' file of a .NET project. This rule looks for .NET PE files that contain the ProjectGuid found in the a customized version of the 'DUEDLLIGENCE' project." | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | description = "The TypeLibGUID present in a .NET binary maps directly to the ProjectGuid found in the '.csproj' file of a .NET project. This rule looks for .NET PE files that contain the ProjectGuid found in the 'dtrim' project, which is a modified version of SharpSploit." | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_powerkatz.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powerkatz.yar) | description = "Detects Powerkatz - a Mimikatz version prepared to run in memory via Powershell (overlap with other Mimikatz versions is possible)" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_rats_malwareconfig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_rats_malwareconfig.yar) | $a = "Can't get the Windows version" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_rats_malwareconfig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_rats_malwareconfig.yar) | $a1 = "abccbaSpyGateRATabccba" //$a = Version 0.2.6 | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

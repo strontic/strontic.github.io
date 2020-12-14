@@ -26,15 +26,15 @@ PE256 | `4561D18AE38702CC62DEE12941CAB32D5E161B9D69A7F86E43ABCB9A56936046`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateAgent` | 1 | Exported Function
-`DxGetTmcItemWidth` | 2 | Exported Function
-`FFillComboTmc` | 3 | Exported Function
-`FGetTmcItemInfo` | 4 | Exported Function
-`FPubWid` | 5 | Exported Function
-`GetMappedOpyVal` | 6 | Exported Function
 `GetUnmappedOpyVals` | 7 | Exported Function
-`HrInitMorphDll` | 8 | Exported Function
+`GetMappedOpyVal` | 6 | Exported Function
 `PaintListboxItem` | 9 | Exported Function
+`HrInitMorphDll` | 8 | Exported Function
+`FPubWid` | 5 | Exported Function
+`DxGetTmcItemWidth` | 2 | Exported Function
+`CreateAgent` | 1 | Exported Function
+`FGetTmcItemInfo` | 4 | Exported Function
+`FFillComboTmc` | 3 | Exported Function
 
 
 ## Signature

@@ -26,12 +26,12 @@ PE256 | `43071AFFFDE2A3F86100ADD2514C9782DA1E707C72FDE5D43F06E368C86FE832`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CSebCreateCustomEvent` | 1 | Exported Function
-`CSebCreatePrivateEvent` | 2 | Exported Function
-`CSebCreateWellKnownEvent` | 3 | Exported Function
 `CSebDeleteEvent` | 4 | Exported Function
 `CSebEnumerateEvents` | 5 | Exported Function
 `CSebQueryEventData` | 6 | Exported Function
+`CSebCreateCustomEvent` | 1 | Exported Function
+`CSebCreatePrivateEvent` | 2 | Exported Function
+`CSebCreateWellKnownEvent` | 3 | Exported Function
 
 
 ## Signature

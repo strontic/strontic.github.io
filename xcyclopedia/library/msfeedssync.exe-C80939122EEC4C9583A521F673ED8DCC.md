@@ -22,6 +22,22 @@ IMP | `E4C2A510E7541CF3FA9C8202F4B88D97`
 PESHA1 | `8B435DD5617A264106533B26DBCCE6D9D306B80F`
 PE256 | `08307ED0C28E8AA15ACDC9A7D90ED47F9AB233D8C383B38BED07008F97356762`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msfeedssync.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

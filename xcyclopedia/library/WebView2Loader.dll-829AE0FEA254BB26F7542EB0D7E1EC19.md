@@ -26,10 +26,10 @@ PE256 | `69EBE097D69DFDB452ADE08E18D64A37A6FAEFEA3785FF0921534EBC63DD7EE8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CompareBrowserVersions` | 1 | Exported Function
-`CreateWebView2Environment` | 2 | Exported Function
 `CreateWebView2EnvironmentWithDetails` | 3 | Exported Function
 `GetWebView2BrowserVersionInfo` | 4 | Exported Function
+`CompareBrowserVersions` | 1 | Exported Function
+`CreateWebView2Environment` | 2 | Exported Function
 
 
 ## Signature

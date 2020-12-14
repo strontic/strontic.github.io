@@ -24,6 +24,9 @@ PE256 | `63DEFBC24122FC9DDC803F3547A3D9F402EEF19172EDC9DE579907FD1EB67F22`
 
 ## Runtime Data
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ### Loaded Modules:
 
 Path |
@@ -32,7 +35,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\system32\DataUsageLiveTileTask.exe |
 C:\Windows\system32\dusmapi.dll |
 C:\Windows\system32\IPHLPAPI.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -69,7 +71,7 @@ C:\Windows\SYSTEM32\wwapi.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/058dae5514918715f4c493601cca3dc66a82f403e4dd9b6bc645f2379cdeea3b/detection
 
 

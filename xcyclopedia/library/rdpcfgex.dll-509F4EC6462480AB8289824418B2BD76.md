@@ -26,16 +26,16 @@ PE256 | `8F80A17D1B44A9D60A77C631584FF5C4E302801D275EE30C29F85C435DEA9C07`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ExGetCfgVersionInfo` | 1 | Exported Function
-`ExtEncryptionLevels` | 2 | Exported Function
-`ExtEnd` | 3 | Exported Function
-`ExtGetCapabilities` | 4 | Exported Function
-`ExtGetEncryptionLevelAndDescrEx` | 5 | Exported Function
-`ExtGetEncryptionLevelDescr` | 6 | Exported Function
 `ExtGetSecurityLayerDescrString` | 7 | Exported Function
+`ExtGetEncryptionLevelDescr` | 6 | Exported Function
 `ExtGetSecurityLayerName` | 8 | Exported Function
-`ExtSecurityLayers` | 9 | Exported Function
 `ExtStart` | 10 | Exported Function
+`ExtSecurityLayers` | 9 | Exported Function
+`ExtEncryptionLevels` | 2 | Exported Function
+`ExGetCfgVersionInfo` | 1 | Exported Function
+`ExtEnd` | 3 | Exported Function
+`ExtGetEncryptionLevelAndDescrEx` | 5 | Exported Function
+`ExtGetCapabilities` | 4 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `BF83CE43FD4C32B27070ADA6015B11EF09CA549923F51A57471A492305388B46`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NgcServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`NgcServiceMain` | 1 | Exported Function
 
 
 ## Signature

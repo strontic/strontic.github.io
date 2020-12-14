@@ -114,13 +114,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/53e000f5aa9b3a00934319db8080bb99cb323bf48fc628a64f75d7847c265606/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ipconfig.exe` being misused. While `ipconfig.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ipconfig.exe` being misused. While `ipconfig.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

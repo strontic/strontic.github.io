@@ -26,21 +26,21 @@ PE256 | `5AE09ED1F4447815863256D4A98F4F5C29BC69AE46C337124CF7762C3142B6D7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DMOEnum` | 1 | Exported Function
-`DMOGetName` | 2 | Exported Function
-`DMOGetTypes` | 3 | Exported Function
-`DMOGuidToStrA` | 4 | Exported Function
-`DMOGuidToStrW` | 5 | Exported Function
-`DMORegister` | 6 | Exported Function
-`DMOStrToGuidA` | 7 | Exported Function
-`DMOStrToGuidW` | 8 | Exported Function
-`DMOUnregister` | 9 | Exported Function
-`MoCopyMediaType` | 10 | Exported Function
 `MoCreateMediaType` | 11 | Exported Function
+`MoCopyMediaType` | 10 | Exported Function
+`DMOUnregister` | 9 | Exported Function
 `MoDeleteMediaType` | 12 | Exported Function
-`MoDuplicateMediaType` | 13 | Exported Function
-`MoFreeMediaType` | 14 | Exported Function
 `MoInitMediaType` | 15 | Exported Function
+`MoFreeMediaType` | 14 | Exported Function
+`MoDuplicateMediaType` | 13 | Exported Function
+`DMOStrToGuidW` | 8 | Exported Function
+`DMOGetTypes` | 3 | Exported Function
+`DMOGetName` | 2 | Exported Function
+`DMOEnum` | 1 | Exported Function
+`DMOGuidToStrA` | 4 | Exported Function
+`DMOStrToGuidA` | 7 | Exported Function
+`DMORegister` | 6 | Exported Function
+`DMOGuidToStrW` | 5 | Exported Function
 
 
 ## Signature

@@ -26,30 +26,30 @@ PE256 | `EDD140F630240DE0603C70C53482A5DAFD9EFFE050B9A8FC4FE9BBEF44A1B119`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddLanguageToMachineLanguageList` | 3 | Exported Function
-`OpenOverlayPaths` | 22 | Exported Function
-`OnMachineUILanguageSwitch` | 2 | Exported Function
-`OnMachineUILanguageInit` | 1 | Exported Function
-`IsLocalExperiencePackReadyForRemoval` | 21 | Exported Function
-`IsLegacyLanguagePackInstalledForLanguage` | 20 | Exported Function
-`IsGroupingUserLanguagesNeeded` | 19 | Exported Function
 `InvalidateLanguageResourceCaches` | 18 | Exported Function
-`GroupUserLanguages` | 17 | Exported Function
-`GetWindowsUpdateServer` | 16 | Exported Function
+`IsGroupingUserLanguagesNeeded` | 19 | Exported Function
+`IsLegacyLanguagePackInstalledForLanguage` | 20 | Exported Function
 `GetOverlayFilePath` | 15 | Exported Function
-`GetLanguagesNotInUse` | 14 | Exported Function
-`GetLanguagesInUse` | 13 | Exported Function
-`GetLanguageOverlayPackageFamilyName` | 12 | Exported Function
-`GetLanguageDataForLogging` | 11 | Exported Function
-`GetBcp47TagFromPackageFamilyName` | 10 | Exported Function
-`FetchLanguageOverlayPackageForFirstLogon` | 9 | Exported Function
-`EnumOverlayPaths` | 5 | Exported Function
-`EnumerateSupportedUILanguages` | 8 | Exported Function
-`EnumerateInstalledMachineLanguagePacks` | 7 | Exported Function
-`EnumerateInstalledLocalExperiencePacks` | 6 | Exported Function
-`CloseOverlayPaths` | 4 | Exported Function
+`GetWindowsUpdateServer` | 16 | Exported Function
+`GroupUserLanguages` | 17 | Exported Function
+`OpenOverlayPaths` | 22 | Exported Function
 `OverlaySetPreferredUILanguages` | 23 | Exported Function
 `RemoveLanguageFromMachineLanguageList` | 24 | Exported Function
+`IsLocalExperiencePackReadyForRemoval` | 21 | Exported Function
+`OnMachineUILanguageInit` | 1 | Exported Function
+`OnMachineUILanguageSwitch` | 2 | Exported Function
+`EnumerateInstalledMachineLanguagePacks` | 7 | Exported Function
+`EnumerateSupportedUILanguages` | 8 | Exported Function
+`EnumOverlayPaths` | 5 | Exported Function
+`AddLanguageToMachineLanguageList` | 3 | Exported Function
+`CloseOverlayPaths` | 4 | Exported Function
+`EnumerateInstalledLocalExperiencePacks` | 6 | Exported Function
+`GetLanguageOverlayPackageFamilyName` | 12 | Exported Function
+`GetLanguagesInUse` | 13 | Exported Function
+`GetLanguagesNotInUse` | 14 | Exported Function
+`FetchLanguageOverlayPackageForFirstLogon` | 9 | Exported Function
+`GetBcp47TagFromPackageFamilyName` | 10 | Exported Function
+`GetLanguageDataForLogging` | 11 | Exported Function
 
 
 ## Signature

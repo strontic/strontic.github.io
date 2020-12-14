@@ -24,9 +24,6 @@ PE256 | `381A68D61EC4E48CEB7DE8B2F714B08398EE0209F25182241B09CD3A6B0C6C4A`
 
 ## Runtime Data
 
-### Child Processes:
-csrss.exe winlogon.exe
-
 ### Open Handles:
 
 Path | Type
@@ -42,8 +39,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -78,7 +75,7 @@ C:\Windows\SysWOW64\xwizard.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/03b63fd1ab52129733f576554de9540d3f5e224405837a3d1adf5c0a68b1d21b/detection
 
 ## File Similarity (ssdeep match)
@@ -107,7 +104,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `xwizard.exe` being misused. While `xwizard.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `xwizard.exe` being misused. While `xwizard.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

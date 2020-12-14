@@ -26,10 +26,10 @@ PE256 | `030550F2C2347E1DCBBFA68C01D26917B840A1848E52E1B709976F6F6097F3D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DisplaySaveSettingsEx` | 1 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `ShowAdapterSettings` | 2 | Exported Function
+`DisplaySaveSettingsEx` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature
@@ -59,7 +59,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Display.dll` being misused. While `Display.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Display.dll` being misused. While `Display.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

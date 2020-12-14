@@ -41,10 +41,8 @@ Path | Type
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\system32\CloudExperienceHostBroker.exe |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -75,7 +73,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/8a9a207a88bfe90889f783ef4fce2383a6955ab5c5afa13f49826d6b88360fe8/detection
 
 

@@ -26,29 +26,29 @@ PE256 | `7300A09CD643271B51C7425F0D9BA8E082D596312251CD537DC922CD1FF3CF14`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`RasCpEnumProtocolIds` | 4 | Exported Function
-`RasEapQueryUIBlobFromInteractiveUIInputFields` | 21 | Exported Function
-`RasEapQueryInteractiveUIInputFields` | 20 | Exported Function
-`RasEapQueryCredentialInputFields` | 19 | Exported Function
-`RasEapInvokeInteractiveUI` | 18 | Exported Function
-`RasEapInvokeConfigUI` | 17 | Exported Function
 `RasEapGetNextPageGuid` | 16 | Exported Function
+`RasEapInvokeConfigUI` | 17 | Exported Function
 `RasEapGetMethodProperties` | 15 | Exported Function
-`RasEapGetInfo` | 14 | Exported Function
 `RasEapGetIdentityPageGuid` | 13 | Exported Function
+`RasEapGetInfo` | 14 | Exported Function
+`RasEapInvokeInteractiveUI` | 18 | Exported Function
 `RasEapQueryUserBlobFromCredentialInputFields` | 22 | Exported Function
-`RasEapGetIdentity` | 12 | Exported Function
-`RasEapGetConfigBlobAndUserBlob` | 10 | Exported Function
-`RasEapFreeMemory` | 9 | Exported Function
-`RasEapCreateUserProperties2` | 3 | Exported Function
-`RasEapCreateUserProperties` | 8 | Exported Function
-`RasEapCreateMethodConfiguration` | 7 | Exported Function
-`RasEapCreateConnectionPropertiesXml` | 2 | Exported Function
-`RasEapCreateConnectionProperties2` | 1 | Exported Function
-`RasEapCreateConnectionProperties` | 6 | Exported Function
-`RasCpGetInfo` | 5 | Exported Function
-`RasEapGetCredentials` | 11 | Exported Function
 `RasEapSetRetryFlag` | 23 | Exported Function
+`RasEapQueryUIBlobFromInteractiveUIInputFields` | 21 | Exported Function
+`RasEapQueryCredentialInputFields` | 19 | Exported Function
+`RasEapQueryInteractiveUIInputFields` | 20 | Exported Function
+`RasEapGetIdentity` | 12 | Exported Function
+`RasEapCreateConnectionProperties2` | 1 | Exported Function
+`RasEapCreateConnectionPropertiesXml` | 2 | Exported Function
+`RasEapCreateConnectionProperties` | 6 | Exported Function
+`RasCpEnumProtocolIds` | 4 | Exported Function
+`RasCpGetInfo` | 5 | Exported Function
+`RasEapCreateMethodConfiguration` | 7 | Exported Function
+`RasEapGetConfigBlobAndUserBlob` | 10 | Exported Function
+`RasEapGetCredentials` | 11 | Exported Function
+`RasEapFreeMemory` | 9 | Exported Function
+`RasEapCreateUserProperties` | 8 | Exported Function
+`RasEapCreateUserProperties2` | 3 | Exported Function
 
 
 ## Signature

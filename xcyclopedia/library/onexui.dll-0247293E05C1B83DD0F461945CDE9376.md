@@ -26,10 +26,10 @@ PE256 | `9829B47C5F800027D0BD9F4C2119849C88A55B26A3C1270E31C538D79FA5ED53`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OneXGetUserFriendlyText` | 1 | Exported Function
-`OneXMapEAPHostInteractiveUIToOneXUIResponse` | 2 | Exported Function
 `OneXShowUI` | 3 | Exported Function
 `OneXShowUIFromEAPCreds` | 4 | Exported Function
+`OneXGetUserFriendlyText` | 1 | Exported Function
+`OneXMapEAPHostInteractiveUIToOneXUIResponse` | 2 | Exported Function
 
 
 ## Signature

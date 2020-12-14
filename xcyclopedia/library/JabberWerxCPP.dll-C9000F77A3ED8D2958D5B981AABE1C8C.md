@@ -25,11 +25,11 @@ PE256 | `D76055C45E86A7657ABF8B8ADF90E962C007E2EAE7415B1160DC27F410431F66`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateJabberWerxCPPInstance` | 1 | Exported Function
-`CreateJabberWerxCPPSingleton` | 2 | Exported Function
-`DestroyJabberWerxCPPInstance` | 3 | Exported Function
 `EnableJabberWerxCPPTrace` | 4 | Exported Function
 `UninitJabberWerxCPPInstance` | 5 | Exported Function
+`DestroyJabberWerxCPPInstance` | 3 | Exported Function
+`CreateJabberWerxCPPInstance` | 1 | Exported Function
+`CreateJabberWerxCPPSingleton` | 2 | Exported Function
 
 
 ## Signature

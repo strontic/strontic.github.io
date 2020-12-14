@@ -149,13 +149,13 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/c16336ab32195b08c1678220fbe0256fee865f623e2b32fcfa4d9825fd68977e/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vbc.exe` being misused. While `vbc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vbc.exe` being misused. While `vbc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

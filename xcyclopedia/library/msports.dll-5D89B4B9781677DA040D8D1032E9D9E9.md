@@ -26,17 +26,17 @@ PE256 | `B75A1B6888BE69B09F2A96614247B3A01553BE0EA8D11B026116028083F10D2B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ComDBClaimNextFreePort` | 1 | Exported Function
-`ComDBClaimPort` | 2 | Exported Function
-`ComDBClose` | 3 | Exported Function
-`ComDBGetCurrentPortUsage` | 4 | Exported Function
-`ComDBOpen` | 5 | Exported Function
-`ComDBReleasePort` | 6 | Exported Function
-`ComDBResizeDatabase` | 7 | Exported Function
 `ParallelPortPropPageProvider` | 8 | Exported Function
+`ComDBResizeDatabase` | 7 | Exported Function
 `PortsClassInstaller` | 9 | Exported Function
-`SerialDisplayAdvancedSettings` | 10 | Exported Function
 `SerialPortPropPageProvider` | 11 | Exported Function
+`SerialDisplayAdvancedSettings` | 10 | Exported Function
+`ComDBReleasePort` | 6 | Exported Function
+`ComDBClaimPort` | 2 | Exported Function
+`ComDBClaimNextFreePort` | 1 | Exported Function
+`ComDBClose` | 3 | Exported Function
+`ComDBOpen` | 5 | Exported Function
+`ComDBGetCurrentPortUsage` | 4 | Exported Function
 
 
 ## Signature
@@ -66,7 +66,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `msports.dll` being misused. While `msports.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `msports.dll` being misused. While `msports.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

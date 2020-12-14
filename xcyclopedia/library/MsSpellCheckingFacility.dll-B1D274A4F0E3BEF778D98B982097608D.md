@@ -26,18 +26,18 @@ PE256 | `5FD04B1D0C3E219F89E0830290960C3B80103B1F89956CA282023856AB6C9CFE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`SpellerCheck` | 6 | Exported Function
-`SpellerCloseLex` | 7 | Exported Function
-`SpellerGetOptions` | 8 | Exported Function
 `SpellerInit` | 9 | Exported Function
-`SpellerOpenLex` | 10 | Exported Function
-`SpellerSetOptions` | 11 | Exported Function
+`SpellerGetOptions` | 8 | Exported Function
+`SpellerCloseLex` | 7 | Exported Function
 `SpellerTerminate` | 12 | Exported Function
+`SpellerSetOptions` | 11 | Exported Function
+`SpellerOpenLex` | 10 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`SpellerCheck` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

@@ -41,7 +41,7 @@ SSDEEP | `192:v9bUq2ckx3+bWbraTgPyPvvnK7psJp5p3+/FZDVeKQy9m8WKgW:v95kxOyrGgPhup9
 
 ## Possible Misuse
 
-*The following table contains possible examples of `pcwrun.exe` being misused. While `pcwrun.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `pcwrun.exe` being misused. While `pcwrun.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -41,7 +41,7 @@ SSDEEP | `6144:K0J0aSVMXHuAxnTVl7fzvjbFmZJoEXtgS1gtxC53A:K0J083uA5nbtACHtp`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxEM.exe` being misused. While `igfxEM.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxEM.exe` being misused. While `igfxEM.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

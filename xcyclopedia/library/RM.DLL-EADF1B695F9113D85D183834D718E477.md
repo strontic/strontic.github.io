@@ -26,13 +26,13 @@ PE256 | `D0CC8362370FA66E56A1B08808698452F4648192D5BDE676C91E4849931CF003`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CnvInitialize` | 1 | Exported Function
-`CnvTerminate` | 2 | Exported Function
-`FCnvSelect` | 5 | Exported Function
-`RMGetRegPath` | 100 | Exported Function
 `RMGetSession` | 101 | Exported Function
 `RMGetSite` | 103 | Exported Function
 `RMGetuser` | 102 | Exported Function
+`RMGetRegPath` | 100 | Exported Function
+`CnvInitialize` | 1 | Exported Function
+`CnvTerminate` | 2 | Exported Function
+`FCnvSelect` | 5 | Exported Function
 
 
 ## Signature

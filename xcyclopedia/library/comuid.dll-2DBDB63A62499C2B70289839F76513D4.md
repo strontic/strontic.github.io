@@ -26,11 +26,11 @@ PE256 | `0507CD04BBA074248FB818445CA096531DD35E9B5D28ECD87970DA84D3E7D7AF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateDCOMSecurityUIPage` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateDCOMSecurityUIPage` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

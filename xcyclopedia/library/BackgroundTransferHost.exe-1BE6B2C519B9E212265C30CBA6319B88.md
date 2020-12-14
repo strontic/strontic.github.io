@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\BackgroundTransferHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/3d395fe2c562d0222cb77d89219685a22ff8ada9fec0d2b55d1e8137d864e8b1/detection
 
 ## File Similarity (ssdeep match)

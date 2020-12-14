@@ -24,43 +24,22 @@ PE256 | `54F704E30AAA418A3C0B0343D0DE85C5846667AE30E3DF6AB8641A2EBC71442A`
 
 ## Runtime Data
 
-### Child Processes:
-PeopleExperienceHost.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\Bcp47Langs.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\CoreMessaging.dll |
-C:\Windows\System32\dcomp.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\iertutil.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\SYSTEM32\policymanager.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\wincorlib.DLL |
-C:\Windows\System32\Windows.UI.Xaml.dll |
-C:\Windows\System32\WS2_32.dll |
 C:\Windows\SystemApps\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy\PeopleExperienceHost.exe |
 
 

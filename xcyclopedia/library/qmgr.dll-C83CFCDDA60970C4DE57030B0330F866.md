@@ -26,16 +26,16 @@ PE256 | `114D400FF73356645AA6DA98583E533C503A3FF94ACF16F1EAF9121064EC302C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BITSServiceMain` | 10 | Exported Function
-`CPerfMon::__INSTANCE_ID` | 5 | Exported Function
-`CPerfMon::__OBJECT_ORD` | 6 | Exported Function
-`CPerfMon::__OBJECT_ID` | 8 | Exported Function
-`CPerfMon::__COUNTER_ID` | 2 | Exported Function
-`CPerfMon::__OBJECT_ID` | 7 | Exported Function
 `CPerfMon::__INSTANCE_ID` | 4 | Exported Function
+`CPerfMon::__OBJECT_ID` | 7 | Exported Function
 `CPerfMon::operator` | 1 | Exported Function
-`CPerfMon::__INSTANCE_ID` | 3 | Exported Function
 `ServiceMain` | 9 | Exported Function
+`CPerfMon::__INSTANCE_ID` | 3 | Exported Function
+`CPerfMon::__INSTANCE_ID` | 5 | Exported Function
+`BITSServiceMain` | 10 | Exported Function
+`CPerfMon::__OBJECT_ORD` | 6 | Exported Function
+`CPerfMon::__COUNTER_ID` | 2 | Exported Function
+`CPerfMon::__OBJECT_ID` | 8 | Exported Function
 
 
 ## Signature
@@ -65,7 +65,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `qmgr.dll` being misused. While `qmgr.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `qmgr.dll` being misused. While `qmgr.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

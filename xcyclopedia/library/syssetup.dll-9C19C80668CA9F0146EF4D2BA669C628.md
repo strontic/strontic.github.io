@@ -26,17 +26,17 @@ PE256 | `691CAD7767257520E9339F4C8937F32E7349C124916BFE6B7B51BDE37A677611`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AsrAddSifEntryA` | 1 | Exported Function
-`AsrAddSifEntryW` | 2 | Exported Function
-`AsrCreateStateFileA` | 3 | Exported Function
-`AsrCreateStateFileW` | 4 | Exported Function
-`AsrFreeContext` | 5 | Exported Function
-`AsrRestorePlugPlayRegistryData` | 6 | Exported Function
-`GetAnswerFileSetting` | 7 | Exported Function
 `SetupChangeFontSize` | 8 | Exported Function
+`GetAnswerFileSetting` | 7 | Exported Function
 `SetupInfObjectInstallActionW` | 9 | Exported Function
-`SetupSetDisplay` | 10 | Exported Function
 `WaitForSamService` | 11 | Exported Function
+`SetupSetDisplay` | 10 | Exported Function
+`AsrRestorePlugPlayRegistryData` | 6 | Exported Function
+`AsrAddSifEntryW` | 2 | Exported Function
+`AsrAddSifEntryA` | 1 | Exported Function
+`AsrCreateStateFileA` | 3 | Exported Function
+`AsrFreeContext` | 5 | Exported Function
+`AsrCreateStateFileW` | 4 | Exported Function
 
 
 ## Signature
@@ -66,7 +66,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `syssetup.dll` being misused. While `syssetup.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `syssetup.dll` being misused. While `syssetup.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

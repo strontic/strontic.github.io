@@ -28,8 +28,6 @@ PE256 | `84BB7A48FD6EFA1D8C4485962D0AA79CDD5DDB2869ABA4F5326B837C41C1062F`
 
 Path |
 -- |
-C:\Windows\system32\iumbase.DLL |
-C:\Windows\SYSTEM32\IUMDLL.dll |
 C:\Windows\system32\IumSdk.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |

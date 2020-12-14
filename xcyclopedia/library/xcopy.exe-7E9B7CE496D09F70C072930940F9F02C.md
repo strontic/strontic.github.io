@@ -127,13 +127,13 @@ C:\Windows\SysWOW64\xcopy.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 1/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/b45997bb7c5fc6024685ee8752cf8ab871290a46b33e04fc4850a10077acba5a/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `xcopy.exe` being misused. While `xcopy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `xcopy.exe` being misused. While `xcopy.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

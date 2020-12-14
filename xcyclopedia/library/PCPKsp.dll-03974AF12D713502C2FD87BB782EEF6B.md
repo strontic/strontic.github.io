@@ -26,10 +26,10 @@ PE256 | `B065137AFFD42D0019267E209C41759084A3A49647557FC95FB4A07B263026D6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllInstall` | 1 | Exported Function
-`DllMain` | 3 | Exported Function
 `DllUnregisterServer` | 2 | Exported Function
 `GetKeyStorageInterface` | 4 | Exported Function
+`DllInstall` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

@@ -27,7 +27,7 @@ PE256 | `DBE5062B44BFBD35D2839FAFF89618CE59472C452AE391777F1DB6B6B6C71DC8`
 ### Usage (stdout):
 ```cmhg
 
-[4bbceea8-6a14-42ac-b9f4-2c1c73ceb80c]
+[18ce68cb-4304-4445-a952-d165bf86113f]
 
 ```
 
@@ -102,7 +102,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

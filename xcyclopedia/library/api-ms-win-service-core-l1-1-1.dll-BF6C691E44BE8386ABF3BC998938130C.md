@@ -26,9 +26,9 @@ PE256 | `8C93C130F16D6E7D376E10AE344BDA9BC3D532873BDFD1E7FCCF3ACA3ACAA77A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnumDependentServicesW` | 1 | Exported Function
-`EnumServicesStatusExW` | 2 | Exported Function
 `QueryServiceDynamicInformation` | 3 | Exported Function
+`EnumServicesStatusExW` | 2 | Exported Function
+`EnumDependentServicesW` | 1 | Exported Function
 
 
 ## Signature

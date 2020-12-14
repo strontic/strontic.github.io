@@ -26,8 +26,8 @@ PE256 | `97CE634CE8919E55E016F4957D7CEC1A1C47E91E31782C75F8242B3B99DEF6C5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
 `NSPStartup` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

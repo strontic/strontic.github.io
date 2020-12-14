@@ -26,12 +26,12 @@ PE256 | `7EC1CCC6430B6BCA8E9D5050986BE42FD7369A1FAF6AA582D6FF39674649C035`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HelperTraceEvent` | 4 | Exported Function
-`HelperTraceInitialize` | 5 | Exported Function
-`HelperTraceUninitialize` | 6 | Exported Function
 `WdiDiagnosticModuleMain` | 1 | Exported Function
 `WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
 `WdiHandleInstance` | 3 | Exported Function
+`HelperTraceEvent` | 4 | Exported Function
+`HelperTraceInitialize` | 5 | Exported Function
+`HelperTraceUninitialize` | 6 | Exported Function
 
 
 ## Signature

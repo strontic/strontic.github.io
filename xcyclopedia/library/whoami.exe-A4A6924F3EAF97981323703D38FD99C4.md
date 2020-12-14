@@ -114,9 +114,6 @@ Type "WHOAMI /?" for usage.
 
 ```
 
-### Child Processes:
-RdpSa.exe
-
 ### Loaded Modules:
 
 Path |
@@ -148,13 +145,13 @@ C:\Windows\system32\whoami.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/1d4902a04d99e8ccbfe7085e63155955fee397449d386453f6c452ae407b8743/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `whoami.exe` being misused. While `whoami.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `whoami.exe` being misused. While `whoami.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

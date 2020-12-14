@@ -70,7 +70,7 @@ C:\Windows\SysWOW64\PickerHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/7d8f2de2869889f41fe94fd9a4ccc1f67b971f9db8f564e216b99b682e6c7241/detection
 
 

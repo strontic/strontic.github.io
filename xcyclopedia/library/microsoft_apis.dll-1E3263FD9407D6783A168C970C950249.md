@@ -26,13 +26,13 @@ PE256 | `2C5092DE526D7F1BCC6DA31B03541A0002B64D60D0E5E48936DC58EC6658DBD3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetCollectionsBingAPIKey` | 1 | Exported Function
-`GetEdgeServicesAPIKey` | 2 | Exported Function
-`GetHevcDecoderLibName` | 3 | Exported Function
-`GetHevcOemPackageFamilyName` | 4 | Exported Function
 `GetHevcPackageFamilyName` | 5 | Exported Function
 `GetHevcRuntimeClassName` | 6 | Exported Function
 `GetMicrosoftVoicesApiKey` | 7 | Exported Function
+`GetHevcOemPackageFamilyName` | 4 | Exported Function
+`GetCollectionsBingAPIKey` | 1 | Exported Function
+`GetEdgeServicesAPIKey` | 2 | Exported Function
+`GetHevcDecoderLibName` | 3 | Exported Function
 
 
 ## Signature

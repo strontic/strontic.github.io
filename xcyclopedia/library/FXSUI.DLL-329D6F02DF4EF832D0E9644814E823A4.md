@@ -26,17 +26,17 @@ PE256 | `FD0C9FFAE7040412C4CC1012E8A3983D1A45F5F4350D74CCC7A2F93165B4703E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DevQueryPrintEx` | 1 | Exported Function
-`DrvAdvancedDocumentProperties` | 2 | Exported Function
-`DrvConvertDevMode` | 3 | Exported Function
-`DrvDeviceCapabilities` | 4 | Exported Function
-`DrvDevicePropertySheets` | 5 | Exported Function
-`DrvDocumentEvent` | 6 | Exported Function
-`DrvDocumentProperties` | 7 | Exported Function
 `DrvDocumentPropertySheets` | 8 | Exported Function
+`DrvDocumentProperties` | 7 | Exported Function
 `DrvDriverEvent` | 9 | Exported Function
-`DrvPrinterEvent` | 10 | Exported Function
 `PrinterProperties` | 11 | Exported Function
+`DrvPrinterEvent` | 10 | Exported Function
+`DrvDocumentEvent` | 6 | Exported Function
+`DrvAdvancedDocumentProperties` | 2 | Exported Function
+`DevQueryPrintEx` | 1 | Exported Function
+`DrvConvertDevMode` | 3 | Exported Function
+`DrvDevicePropertySheets` | 5 | Exported Function
+`DrvDeviceCapabilities` | 4 | Exported Function
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `E950BFE772DBC770C5F84C19BCC7135646525013029085462B70796B84E41647`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BrowseForGPO` | 104 | Exported Function
-`CreateGPOLink` | 105 | Exported Function
-`DeleteAllGPOLinks` | 106 | Exported Function
-`DeleteGPOLink` | 107 | Exported Function
-`DllCanUnloadNow` | 108 | Exported Function
 `DllGetClassObject` | 109 | Exported Function
-`ExportRSoPData` | 110 | Exported Function
+`DllCanUnloadNow` | 108 | Exported Function
 `ImportRSoPData` | 111 | Exported Function
+`ExportRSoPData` | 110 | Exported Function
+`CreateGPOLink` | 105 | Exported Function
+`BrowseForGPO` | 104 | Exported Function
+`DeleteGPOLink` | 107 | Exported Function
+`DeleteAllGPOLinks` | 106 | Exported Function
 
 
 ## Signature
@@ -63,7 +63,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `gpedit.dll` being misused. While `gpedit.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `gpedit.dll` being misused. While `gpedit.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

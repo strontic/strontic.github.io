@@ -26,20 +26,20 @@ PE256 | `C67F5450B18906EBD4B65D06FD473CC85D04DF73B4EC034BD6A2A5E3B54CFD57`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CheckPdcRenewal` | 4 | Exported Function
-`CHttpTransport_CreateInstance` | 3 | Exported Function
-`CreateControlChannelTriggerConnectionManager` | 1 | Exported Function
-`GetOrCreateNullPowerDependencyCoordinatorManager` | 5 | Exported Function
-`GetSerializedAppMetadata` | 2 | Exported Function
-`InitializePowerDependencyCoordinatorManager` | 6 | Exported Function
-`IsNetworkConnectionCostRestricted` | 7 | Exported Function
-`ProgressStatus` | 8 | Exported Function
-`ReleasePowerDependencyCoordinatorManager` | 9 | Exported Function
 `ReportSyncProgress` | 10 | Exported Function
+`ReleasePowerDependencyCoordinatorManager` | 9 | Exported Function
+`ProgressStatus` | 8 | Exported Function
 `SyncPdcReference_WatchdogReport` | 11 | Exported Function
-`SyncPdcReference_WatchdogsEnabled` | 12 | Exported Function
-`SyncWerReportComponentName` | 13 | Exported Function
 `SyncWerReportGenerator` | 14 | Exported Function
+`SyncWerReportComponentName` | 13 | Exported Function
+`SyncPdcReference_WatchdogsEnabled` | 12 | Exported Function
+`CreateControlChannelTriggerConnectionManager` | 1 | Exported Function
+`CHttpTransport_CreateInstance` | 3 | Exported Function
+`CheckPdcRenewal` | 4 | Exported Function
+`GetOrCreateNullPowerDependencyCoordinatorManager` | 5 | Exported Function
+`IsNetworkConnectionCostRestricted` | 7 | Exported Function
+`InitializePowerDependencyCoordinatorManager` | 6 | Exported Function
+`GetSerializedAppMetadata` | 2 | Exported Function
 
 
 ## Signature

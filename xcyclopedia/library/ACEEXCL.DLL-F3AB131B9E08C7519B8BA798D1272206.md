@@ -26,8 +26,8 @@ PE256 | `F4814A1005F0A16708BABFD0FEE968B525B5A180B0B1CA21032563188DEE9F97`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 2 | Exported Function
 `Ordinal1` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

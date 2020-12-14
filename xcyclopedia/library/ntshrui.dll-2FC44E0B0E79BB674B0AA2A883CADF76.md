@@ -26,21 +26,21 @@ PE256 | `78FA49167B5E4CBAD577734E90714790F49AC73085D4C37E198B56E0D782B00D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CanShareFolder` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`GetLocalPathFromNetResource` | 4 | Exported Function
-`GetLocalPathFromNetResourceA` | 5 | Exported Function
-`GetLocalPathFromNetResourceW` | 6 | Exported Function
-`GetNetResourceFromLocalPath` | 7 | Exported Function
-`GetNetResourceFromLocalPathA` | 8 | Exported Function
-`GetNetResourceFromLocalPathW` | 9 | Exported Function
-`IsFolderPrivateForUser` | 10 | Exported Function
 `IsPathShared` | 11 | Exported Function
+`IsFolderPrivateForUser` | 10 | Exported Function
+`GetNetResourceFromLocalPathW` | 9 | Exported Function
 `IsPathSharedA` | 12 | Exported Function
-`IsPathSharedW` | 13 | Exported Function
-`SetFolderPermissionsForSharing` | 14 | Exported Function
 `ShowShareFolderUI` | 15 | Exported Function
+`SetFolderPermissionsForSharing` | 14 | Exported Function
+`IsPathSharedW` | 13 | Exported Function
+`GetNetResourceFromLocalPathA` | 8 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CanShareFolder` | 1 | Exported Function
+`GetLocalPathFromNetResource` | 4 | Exported Function
+`GetNetResourceFromLocalPath` | 7 | Exported Function
+`GetLocalPathFromNetResourceW` | 6 | Exported Function
+`GetLocalPathFromNetResourceA` | 5 | Exported Function
 
 
 ## Signature
@@ -70,7 +70,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ntshrui.dll` being misused. While `ntshrui.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ntshrui.dll` being misused. While `ntshrui.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

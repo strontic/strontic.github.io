@@ -26,35 +26,35 @@ PE256 | `0BF7147EEFA6699E692CF8276CBC552A9088D044BE69BDAA83B8824911688709`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CopyDropFilesFrom16` | 1 | Exported Function
-`WOWHandle32` | 27 | Exported Function
-`WOWHandle16` | 26 | Exported Function
-`WOWGlobalUnlockFree16` | 25 | Exported Function
-`WOWGlobalUnlock16` | 24 | Exported Function
-`WOWGlobalLockSize16` | 23 | Exported Function
-`WOWGlobalLock16` | 22 | Exported Function
-`WOWGlobalFree16` | 21 | Exported Function
 `WOWGlobalAllocLock16` | 20 | Exported Function
+`WOWGlobalFree16` | 21 | Exported Function
+`WOWGlobalLock16` | 22 | Exported Function
 `WOWGlobalAlloc16` | 19 | Exported Function
-`WOWGetVDMPointerUnfix` | 18 | Exported Function
-`WOWGetVDMPointerFix` | 17 | Exported Function
 `WOWGetVDMPointer` | 16 | Exported Function
+`WOWGetVDMPointerFix` | 17 | Exported Function
+`WOWGetVDMPointerUnfix` | 18 | Exported Function
+`WOWHandle32` | 27 | Exported Function
 `WOWUseMciavi16` | 28 | Exported Function
-`WOWFreeMetafile` | 15 | Exported Function
-`WOWDelayTimeGetTime` | 13 | Exported Function
-`WOWCallback16Ex` | 12 | Exported Function
-`WOWCallback16` | 11 | Exported Function
-`WOW32ResolveMemory` | 10 | Exported Function
-`WOW32ResolveHandle` | 9 | Exported Function
-`WOW32DriverCallback` | 8 | Exported Function
-`W32Init` | 7 | Exported Function
-`W32HungAppNotifyThread` | 6 | Exported Function
-`W32Dispatch` | 5 | Exported Function
-`GetCommShadowMSR` | 4 | Exported Function
-`GetCommHandle` | 3 | Exported Function
-`CopyDropFilesFrom32` | 2 | Exported Function
-`WOWDirectedYield16` | 14 | Exported Function
 `WOWYield16` | 29 | Exported Function
+`WOWHandle16` | 26 | Exported Function
+`WOWGlobalLockSize16` | 23 | Exported Function
+`WOWGlobalUnlock16` | 24 | Exported Function
+`WOWGlobalUnlockFree16` | 25 | Exported Function
+`WOWFreeMetafile` | 15 | Exported Function
+`W32Dispatch` | 5 | Exported Function
+`W32HungAppNotifyThread` | 6 | Exported Function
+`W32Init` | 7 | Exported Function
+`GetCommShadowMSR` | 4 | Exported Function
+`CopyDropFilesFrom16` | 1 | Exported Function
+`CopyDropFilesFrom32` | 2 | Exported Function
+`GetCommHandle` | 3 | Exported Function
+`WOWCallback16Ex` | 12 | Exported Function
+`WOWDelayTimeGetTime` | 13 | Exported Function
+`WOWDirectedYield16` | 14 | Exported Function
+`WOWCallback16` | 11 | Exported Function
+`WOW32DriverCallback` | 8 | Exported Function
+`WOW32ResolveHandle` | 9 | Exported Function
+`WOW32ResolveMemory` | 10 | Exported Function
 
 
 ## Signature

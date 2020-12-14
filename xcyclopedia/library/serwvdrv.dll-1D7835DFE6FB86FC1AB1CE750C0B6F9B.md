@@ -26,9 +26,9 @@ PE256 | `6916773BE57FA5B9A91DCD93499E96B6DFA78CE8D801939059927ECD5EA43196`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DriverProc` | 1 | Exported Function
-`widMessage` | 2 | Exported Function
 `wodMessage` | 3 | Exported Function
+`widMessage` | 2 | Exported Function
+`DriverProc` | 1 | Exported Function
 
 
 ## Signature

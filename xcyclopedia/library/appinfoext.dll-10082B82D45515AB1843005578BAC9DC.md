@@ -26,8 +26,8 @@ PE256 | `4CD8C5194DD7D60AC83A5993D27BE9BFD02AE3A45342CC229EF1F5371306074E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AiExtDisableDesktopRpcInterface` | 1 | Exported Function
 `AiExtEnableDesktopRpcInterface` | 2 | Exported Function
+`AiExtDisableDesktopRpcInterface` | 1 | Exported Function
 
 
 ## Signature

@@ -38,7 +38,6 @@ C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\verclsid.exe |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -68,7 +67,7 @@ C:\Windows\System32\win32u.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

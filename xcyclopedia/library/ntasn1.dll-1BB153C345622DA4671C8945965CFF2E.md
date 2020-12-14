@@ -49,7 +49,7 @@ PE256 | `369136975476262785FB9B50F6D2C5D593D849A4B02A4CFABAB68CC5895153DD`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ntasn1.dll` being misused. While `ntasn1.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ntasn1.dll` being misused. While `ntasn1.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

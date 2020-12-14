@@ -41,7 +41,7 @@ SSDEEP | `3072:htEamiH8qJPhtIijg1PeBhehkJCyTqCoTa5:8GJptIijgsBhZJf97`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wuauclt.exe` being misused. While `wuauclt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wuauclt.exe` being misused. While `wuauclt.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

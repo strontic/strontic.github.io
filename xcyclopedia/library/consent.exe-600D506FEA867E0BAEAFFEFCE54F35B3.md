@@ -41,7 +41,7 @@ SSDEEP | `1536:OVlMqW+kj1wu4kWp09Y/VnKvwWNORTiL5pC94zw4Pp3XTh0:srmYm5OliLo4zw4RT
 
 ## Possible Misuse
 
-*The following table contains possible examples of `consent.exe` being misused. While `consent.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `consent.exe` being misused. While `consent.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,8 +26,8 @@ PE256 | `728270A319E5C2758FB21DDC32AAACB924145A8E01EA6B403C9484DDCF9261A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CopyMspFilesToSystemMsiCache` | 1 | Exported Function
 `RemoveMspFilesFromSystemMsiCache` | 2 | Exported Function
+`CopyMspFilesToSystemMsiCache` | 1 | Exported Function
 
 
 ## Signature

@@ -26,22 +26,22 @@ PE256 | `AB9723A95408D386A5186BF8AA5C3D18382057664B8BD49D328F8A66228208E8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSHAddressToString` | 1 | Exported Function
-`WSHEnumProtocols` | 2 | Exported Function
-`WSHGetBroadcastSockaddr` | 3 | Exported Function
-`WSHGetProviderGuid` | 4 | Exported Function
-`WSHGetSockaddrType` | 5 | Exported Function
-`WSHGetSocketInformation` | 6 | Exported Function
-`WSHGetWildcardSockaddr` | 8 | Exported Function
-`WSHGetWinsockMapping` | 9 | Exported Function
-`WSHGetWSAProtocolInfo` | 7 | Exported Function
-`WSHIoctl` | 10 | Exported Function
 `WSHJoinLeaf` | 11 | Exported Function
 `WSHNotify` | 12 | Exported Function
-`WSHOpenSocket` | 14 | Exported Function
-`WSHOpenSocket2` | 13 | Exported Function
+`WSHGetWSAProtocolInfo` | 7 | Exported Function
+`WSHIoctl` | 10 | Exported Function
 `WSHSetSocketInformation` | 15 | Exported Function
 `WSHStringToAddress` | 16 | Exported Function
+`WSHOpenSocket` | 14 | Exported Function
+`WSHOpenSocket2` | 13 | Exported Function
+`WSHGetBroadcastSockaddr` | 3 | Exported Function
+`WSHGetProviderGuid` | 4 | Exported Function
+`WSHAddressToString` | 1 | Exported Function
+`WSHEnumProtocols` | 2 | Exported Function
+`WSHGetWildcardSockaddr` | 8 | Exported Function
+`WSHGetWinsockMapping` | 9 | Exported Function
+`WSHGetSockaddrType` | 5 | Exported Function
+`WSHGetSocketInformation` | 6 | Exported Function
 
 
 ## Signature
@@ -76,7 +76,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WSHTCPIP.DLL` being misused. While `WSHTCPIP.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WSHTCPIP.DLL` being misused. While `WSHTCPIP.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

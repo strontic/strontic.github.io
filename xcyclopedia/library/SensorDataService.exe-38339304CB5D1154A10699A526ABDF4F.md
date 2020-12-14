@@ -55,7 +55,7 @@ C:\Windows\system32\SensorDataService.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/b7027bff6dbfc68315cce2b6e8f4a5854a94c388d7af71fe4f59b58f43c742c1/detection
 
 

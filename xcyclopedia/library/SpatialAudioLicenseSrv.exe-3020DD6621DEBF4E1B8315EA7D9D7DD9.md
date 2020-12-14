@@ -77,6 +77,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/3c010ef9ce445cb95805937ab5172bbecb15e6b5eb8d662b174742bc08c7dcfc/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-FB07974EEE916C9729B6AD675565D135.md) | 93
 
 
 

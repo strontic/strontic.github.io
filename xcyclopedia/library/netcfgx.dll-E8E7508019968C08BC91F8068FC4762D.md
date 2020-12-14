@@ -26,17 +26,17 @@ PE256 | `69089E107FED016B6E61E42E1C4F91229E317729CE8683EC9DC5AF861E22481F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`LanaCfgFromCommandArgs` | 5 | Exported Function
-`NetCfgDiagFromCommandArgs` | 6 | Exported Function
-`NetCfgDiagRepairRegistryBindings` | 7 | Exported Function
 `NetClassInstaller` | 8 | Exported Function
+`NetCfgDiagRepairRegistryBindings` | 7 | Exported Function
 `NetPropPageProvider` | 9 | Exported Function
-`OnMachineUILanguageInit` | 10 | Exported Function
 `OnMachineUILanguageSwitch` | 11 | Exported Function
+`OnMachineUILanguageInit` | 10 | Exported Function
+`NetCfgDiagFromCommandArgs` | 6 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`LanaCfgFromCommandArgs` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

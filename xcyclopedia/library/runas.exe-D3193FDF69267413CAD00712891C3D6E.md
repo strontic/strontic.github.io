@@ -41,7 +41,7 @@ SSDEEP | `192:6Og41kWvmw5cv0u307RndSXggMzfTXJ8+DV1pO+903oKktWIOW:6OgRWuw2/E7RngX
 
 ## Possible Misuse
 
-*The following table contains possible examples of `runas.exe` being misused. While `runas.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `runas.exe` being misused. While `runas.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

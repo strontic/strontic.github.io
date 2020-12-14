@@ -26,8 +26,8 @@ PE256 | `26A5177ECBA943666FB176549E0C1233607BCE198D6FFD092AEC7CFB0D2877BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LoadExprSrvDll` | 2 | Exported Function
 `VBAGetExprSrv` | 1 | Exported Function
+`LoadExprSrvDll` | 2 | Exported Function
 
 
 ## Signature

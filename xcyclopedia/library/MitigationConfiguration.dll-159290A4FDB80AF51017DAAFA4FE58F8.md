@@ -26,14 +26,14 @@ PE256 | `06225750DFEC84E8D9BF330C1417E4E891CA376219D01ACC95EF4ED84E7126BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`ExportMitigation` | 5 | Exported Function
 `ImportMitigation` | 6 | Exported Function
-`ValidateXML` | 7 | Exported Function
+`ExportMitigation` | 5 | Exported Function
 `ValidateXMLFromManaged` | 8 | Exported Function
+`ValidateXML` | 7 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

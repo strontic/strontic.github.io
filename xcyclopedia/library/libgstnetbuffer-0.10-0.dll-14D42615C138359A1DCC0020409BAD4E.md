@@ -25,17 +25,17 @@ PE256 | `1C6920D8FD89D7FB3E7A3038A5AC827A3C5111556563AD289EE7D8C89DABCD84`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`gst_netaddress_equal` | 1 | Exported Function
-`gst_netaddress_get_address_bytes` | 2 | Exported Function
-`gst_netaddress_get_ip4_address` | 3 | Exported Function
-`gst_netaddress_get_ip6_address` | 4 | Exported Function
-`gst_netaddress_get_net_type` | 5 | Exported Function
-`gst_netaddress_set_address_bytes` | 6 | Exported Function
-`gst_netaddress_set_ip4_address` | 7 | Exported Function
 `gst_netaddress_set_ip6_address` | 8 | Exported Function
+`gst_netaddress_set_ip4_address` | 7 | Exported Function
 `gst_netaddress_to_string` | 9 | Exported Function
-`gst_netbuffer_get_type` | 10 | Exported Function
 `gst_netbuffer_new` | 11 | Exported Function
+`gst_netbuffer_get_type` | 10 | Exported Function
+`gst_netaddress_set_address_bytes` | 6 | Exported Function
+`gst_netaddress_get_address_bytes` | 2 | Exported Function
+`gst_netaddress_equal` | 1 | Exported Function
+`gst_netaddress_get_ip4_address` | 3 | Exported Function
+`gst_netaddress_get_net_type` | 5 | Exported Function
+`gst_netaddress_get_ip6_address` | 4 | Exported Function
 
 
 ## Signature

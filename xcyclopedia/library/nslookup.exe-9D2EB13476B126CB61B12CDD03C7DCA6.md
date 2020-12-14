@@ -26,8 +26,8 @@ PE256 | `F15594A0C3E91D64B25AA87630F11B78EA6B2354F0B00D0CB75CCF2AA646DF08`
 
 ### Usage (stdout):
 ```cmhg
-Default Server:  default-pc.mshome.net
-Address:  172.24.208.1
+Default Server:  DESKTOP-IOOJLI7.mshome.net
+Address:  172.26.224.1
 
 > 
 ```
@@ -91,13 +91,13 @@ C:\Windows\SysWOW64\nslookup.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/531a1b65e4e3869d65d2eaf6b07c92a34dd6fe18ed9a647bd1a257ab3d0c1aeb/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `nslookup.exe` being misused. While `nslookup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `nslookup.exe` being misused. While `nslookup.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

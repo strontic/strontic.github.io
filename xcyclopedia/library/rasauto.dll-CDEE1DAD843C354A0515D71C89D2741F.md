@@ -26,8 +26,8 @@ PE256 | `BEF98330BAB325ECE48C7D92A7E86266C3A3E16875B3AE29A2E5047C2256DE99`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
 `SetAddressDisabledEx` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `rasauto.dll` being misused. While `rasauto.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `rasauto.dll` being misused. While `rasauto.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

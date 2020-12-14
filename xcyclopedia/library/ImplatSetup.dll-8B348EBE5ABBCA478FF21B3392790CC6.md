@@ -26,13 +26,13 @@ PE256 | `415A355285716E0E3B19A0B65105C106432B2ABDF21FE8C9BB9F58A3337A8AC5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ImplatMuxDispatch` | 1 | Exported Function
-`ImplatMuxMemberUninstall` | 2 | Exported Function
-`ImplatMuxModified` | 3 | Exported Function
-`ImplatMuxVirtualInterfaceChanged` | 4 | Exported Function
 `ImplatMuxVirtualInterfaces` | 5 | Exported Function
 `ImplatTransactionDispatch` | 6 | Exported Function
 `ImplatVmsBinding` | 7 | Exported Function
+`ImplatMuxVirtualInterfaceChanged` | 4 | Exported Function
+`ImplatMuxDispatch` | 1 | Exported Function
+`ImplatMuxMemberUninstall` | 2 | Exported Function
+`ImplatMuxModified` | 3 | Exported Function
 
 
 ## Signature

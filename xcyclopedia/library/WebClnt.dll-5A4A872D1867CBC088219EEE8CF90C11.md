@@ -26,10 +26,10 @@ PE256 | `F17C012D3919314F31326B6D6577DB5EB786354249B0542851F4D43454A257AC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DavClose` | 1 | Exported Function
-`DavInit` | 2 | Exported Function
 `ServiceMain` | 3 | Exported Function
 `SvchostPushServiceGlobals` | 4 | Exported Function
+`DavClose` | 1 | Exported Function
+`DavInit` | 2 | Exported Function
 
 
 ## Signature

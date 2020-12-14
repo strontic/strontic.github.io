@@ -41,7 +41,7 @@ SSDEEP | `3072:tfvk88Rh3rWekHas1C3UeVk27Ea1mm+9QnJRehnZ9T3UWi108J5wYPwR8U:FDshpw
 
 ## Possible Misuse
 
-*The following table contains possible examples of `DisplaySwitch.exe` being misused. While `DisplaySwitch.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `DisplaySwitch.exe` being misused. While `DisplaySwitch.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

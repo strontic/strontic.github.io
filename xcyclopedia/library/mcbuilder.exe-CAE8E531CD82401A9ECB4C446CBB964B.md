@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\mcbuilder.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/f5fbd701e0ceefcab76839231c23f29eb967ad6107520b8454c40fd8dcddfde1/detection
 
 ## File Similarity (ssdeep match)

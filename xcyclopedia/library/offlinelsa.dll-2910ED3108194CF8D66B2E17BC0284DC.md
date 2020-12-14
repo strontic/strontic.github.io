@@ -26,25 +26,25 @@ PE256 | `810BE3170525A801ECD1FF5799E06176F0F1A33555143861F4EF3955F111D480`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LsaOfflineAddAccountRights` | 1 | Exported Function
-`LsaOfflineRemovePrivilegesFromAccount` | 17 | Exported Function
-`LsaOfflineRemoveAccountRights` | 16 | Exported Function
-`LsaOfflineQueryInformationPolicy` | 15 | Exported Function
-`LsaOfflineOpenPolicyForInstaller` | 14 | Exported Function
 `LsaOfflineOpenPolicyExternal` | 13 | Exported Function
-`LsaOfflineOpenPolicy` | 12 | Exported Function
+`LsaOfflineOpenPolicyForInstaller` | 14 | Exported Function
 `LsaOfflineOpenAccount` | 11 | Exported Function
+`LsaOfflineOpenPolicy` | 12 | Exported Function
+`LsaOfflineQueryInformationPolicy` | 15 | Exported Function
 `LsaOfflineSetSystemAccessAccount` | 18 | Exported Function
-`LsaOfflineGetSystemAccessAccount` | 10 | Exported Function
-`LsaOfflineEnumeratePrivilegesOfAccount` | 8 | Exported Function
-`LsaOfflineEnumerateAccounts` | 7 | Exported Function
-`LsaOfflineEnumerateAccountRights` | 6 | Exported Function
-`LsaOfflineDelete` | 5 | Exported Function
-`LsaOfflineCreateAccount` | 4 | Exported Function
-`LsaOfflineClose` | 3 | Exported Function
-`LsaOfflineAddPrivilegesToAccount` | 2 | Exported Function
-`LsaOfflineFreeMemory` | 9 | Exported Function
 `LsaOfflineSyskeyRequest` | 19 | Exported Function
+`LsaOfflineRemoveAccountRights` | 16 | Exported Function
+`LsaOfflineRemovePrivilegesFromAccount` | 17 | Exported Function
+`LsaOfflineGetSystemAccessAccount` | 10 | Exported Function
+`LsaOfflineClose` | 3 | Exported Function
+`LsaOfflineCreateAccount` | 4 | Exported Function
+`LsaOfflineAddAccountRights` | 1 | Exported Function
+`LsaOfflineAddPrivilegesToAccount` | 2 | Exported Function
+`LsaOfflineDelete` | 5 | Exported Function
+`LsaOfflineEnumeratePrivilegesOfAccount` | 8 | Exported Function
+`LsaOfflineFreeMemory` | 9 | Exported Function
+`LsaOfflineEnumerateAccountRights` | 6 | Exported Function
+`LsaOfflineEnumerateAccounts` | 7 | Exported Function
 
 
 ## Signature

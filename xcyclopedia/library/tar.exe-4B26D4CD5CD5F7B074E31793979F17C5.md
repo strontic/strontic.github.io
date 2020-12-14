@@ -63,9 +63,6 @@ Usage:
 
 ```
 
-### Child Processes:
-powershell.exe
-
 ### Loaded Modules:
 
 Path |

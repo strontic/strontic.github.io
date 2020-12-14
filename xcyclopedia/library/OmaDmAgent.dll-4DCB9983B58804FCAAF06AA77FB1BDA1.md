@@ -26,8 +26,8 @@ PE256 | `2D93DC9646C66C1AC6C4AC7D5D40A231554562F1FCE1561EAB88D97F7BC814CD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OmaDmRunPostSessionWork` | 1 | Exported Function
 `ResourceManagerUninstallWmiApp` | 2 | Exported Function
+`OmaDmRunPostSessionWork` | 1 | Exported Function
 
 
 ## Signature

@@ -35,7 +35,7 @@ An error occurred
 
 Path | Type
 -- | --
-(---)   C:\Users\user\AppData\Local\Temp\msdtadmin\_012B8C68-197E-458E-80F6-53DEB683A2BB_\inuse | File
+(---)   C:\Users\user\AppData\Local\Temp\msdtadmin\_4FEAE4A6-A1F1-4528-B3F3-316545AC1C61_\inuse | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\msdt.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
@@ -51,8 +51,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -93,7 +93,7 @@ C:\Windows\SysWOW64\msdt.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -151,7 +151,7 @@ Troubleshooting packs comprise a set of root causes, each of which describes a s
 
 - [Available troubleshooting packs](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs)
 
-- [TroubleshootingPack Powershell reference](/powershell/module/troubleshootingpack/?view=win10-ps)
+- [TroubleshootingPack Powershell reference](/powershell/module/troubleshootingpack/)
 
 ---
 

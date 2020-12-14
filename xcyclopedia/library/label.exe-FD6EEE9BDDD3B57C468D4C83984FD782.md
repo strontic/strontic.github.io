@@ -41,7 +41,7 @@ SSDEEP | `192:lsV+wijYL+HmvMC0XaENmTWeDWBC6zHGZbk5C10F8vkYWSUjWQOh9Cy:lsij1XaE+0
 
 ## Possible Misuse
 
-*The following table contains possible examples of `label.exe` being misused. While `label.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `label.exe` being misused. While `label.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

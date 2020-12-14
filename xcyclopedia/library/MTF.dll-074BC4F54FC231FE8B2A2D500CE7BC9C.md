@@ -26,9 +26,9 @@ PE256 | `54B910834BBA77478AEE0F66BAFCFD092054FFF38218F8D28085A1A950537DC7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInputTypeAttributes` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CreateInputTypeAttributes` | 1 | Exported Function
 
 
 ## Signature

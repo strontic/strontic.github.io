@@ -26,10 +26,10 @@ PE256 | `D397D01D480522BAACA54BABD13C80C8ACAFFC44A1AE27AEB4B51F183D2A2119`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `EnableScheduledDiagnostics` | 3 | Exported Function
 `GetScheduledDiagnosticsExecutionLevel` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

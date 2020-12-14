@@ -29,15 +29,9 @@ PE256 | `2A169A626C8275D6ADC5DF9176A4F50B7F67A1EB6C13D98DBDE3406539C4E02B`
 
 Microsoft r Relog.exe (10.0.19041.546)
 
-Relog creates new
-performance logs from data
-in existing performance logs
-by changing the sampling
-rate and/or converting the
-file format. Supports all
-performance log formats,
-including Windows NT 4.0
-compressed logs.
+Relog creates new performance logs from data in existing performance logs by
+changing the sampling rate and/or converting the file format. Supports all
+performance log formats, including Windows NT 4.0 compressed logs.
 
 Usage:
 C:\Windows\SysWOW64\relog.exe <filename [filename ...]> 

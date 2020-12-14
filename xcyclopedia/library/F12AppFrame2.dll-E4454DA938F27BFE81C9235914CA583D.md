@@ -26,13 +26,13 @@ PE256 | `2A992D4D6F8C441356E6EDD90884E856354C9C217CC523F0FF80E92D0A2083BB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AttachTools` | 1 | Exported Function
-`AttachToolsToDiagnosticsTarget` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `DllInstall` | 5 | Exported Function
 `DllRegisterServer` | 6 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`AttachTools` | 1 | Exported Function
+`AttachToolsToDiagnosticsTarget` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `E0FE4CFABF24B1D4B69A49241413831246C8A190F7D8F41D544D5DDF19B5B4EE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseUsbPerformanceData` | 1 | Exported Function
-`CollectUsbPerformanceData` | 2 | Exported Function
 `OpenUsbPerformanceData` | 3 | Exported Function
+`CollectUsbPerformanceData` | 2 | Exported Function
+`CloseUsbPerformanceData` | 1 | Exported Function
 
 
 ## Signature

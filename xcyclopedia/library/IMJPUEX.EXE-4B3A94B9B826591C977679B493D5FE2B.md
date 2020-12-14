@@ -48,8 +48,8 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:

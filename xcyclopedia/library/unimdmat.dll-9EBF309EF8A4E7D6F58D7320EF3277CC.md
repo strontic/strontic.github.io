@@ -26,25 +26,25 @@ PE256 | `7658188FD55C6C3286C446035FDB154738213CB9F199AA52C1E2A0D5F978F3F0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`UmAbortCurrentModemCommand` | 112 | Exported Function
-`UmSetPassthroughMode` | 113 | Exported Function
-`UmOpenModem` | 102 | Exported Function
-`UmMonitorModem` | 105 | Exported Function
-`UmLogStringA` | 116 | Exported Function
 `UmLogDiagnostics` | 118 | Exported Function
-`UmIssueCommand` | 114 | Exported Function
+`UmLogStringA` | 116 | Exported Function
 `UmInitModem` | 104 | Exported Function
+`UmIssueCommand` | 114 | Exported Function
+`UmMonitorModem` | 105 | Exported Function
 `UmSetSpeakerPhoneState` | 110 | Exported Function
-`UmInitializeModemDriver` | 100 | Exported Function
-`UmGetDiagnostics` | 117 | Exported Function
-`UmGenerateDigit` | 109 | Exported Function
-`UmDuplicateDeviceHandle` | 111 | Exported Function
-`UmDialModem` | 107 | Exported Function
-`UmDeinitializeModemDriver` | 101 | Exported Function
-`UmCloseModem` | 103 | Exported Function
-`UmAnswerModem` | 106 | Exported Function
-`UmHangupModem` | 108 | Exported Function
 `UmWaveAction` | 115 | Exported Function
+`UmOpenModem` | 102 | Exported Function
+`UmSetPassthroughMode` | 113 | Exported Function
+`UmInitializeModemDriver` | 100 | Exported Function
+`UmCloseModem` | 103 | Exported Function
+`UmDeinitializeModemDriver` | 101 | Exported Function
+`UmAbortCurrentModemCommand` | 112 | Exported Function
+`UmAnswerModem` | 106 | Exported Function
+`UmDialModem` | 107 | Exported Function
+`UmGetDiagnostics` | 117 | Exported Function
+`UmHangupModem` | 108 | Exported Function
+`UmDuplicateDeviceHandle` | 111 | Exported Function
+`UmGenerateDigit` | 109 | Exported Function
 
 
 ## Signature

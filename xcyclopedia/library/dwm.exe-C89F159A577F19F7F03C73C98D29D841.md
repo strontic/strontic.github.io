@@ -41,7 +41,7 @@ SSDEEP | `768:rXu0S+gTySq24Opa3OXX6pTPBuwsDpCpWxCD6Urgb/ng9h+h4J1xnSVa4:rXu+A1z4
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dwm.exe` being misused. While `dwm.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dwm.exe` being misused. While `dwm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

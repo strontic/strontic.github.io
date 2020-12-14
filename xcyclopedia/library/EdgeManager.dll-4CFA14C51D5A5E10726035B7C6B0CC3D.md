@@ -26,27 +26,27 @@ PE256 | `7FDBF892BBB6CC0AE140CC3ABE1AB100E2F25D64B6F815E35A864F7B0D6AE97B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 | Exported Function
-`EnsureWebDriverForWebViewHost` | 5 | Exported Function
-`EnsureServiceWorkerEnvironmentForWebView` | 19 | Exported Function
-`DllUnregisterServer` | 18 | Exported Function
-`DllRegisterServer` | 17 | Exported Function
 `DllInstall` | 16 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
 `DllGetClassObject` | 15 | Exported Function
-`DllGetActivationFactory` | 14 | Exported Function
 `DllCanUnloadNow` | 13 | Exported Function
+`DllGetActivationFactory` | 14 | Exported Function
 `GetProxyDllInfo` | 20 | Exported Function
-`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 | Exported Function
-`CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 | Exported Function
-`CreateWebRuntimeDiagnosticsTarget` | 4 | Exported Function
-`CreateWebRuntimeDebugTargetManager` | 3 | Exported Function
-`CreateWebRuntimeDebugTargetClient` | 2 | Exported Function
-`CreateEdgeIsoSession` | 1 | Exported Function
-`CreateCoreWebViewOOP` | 9 | Exported Function
-`CreateCoreWebViewHostProcess` | 8 | Exported Function
-`CreateCoreWebViewControl` | 7 | Exported Function
-`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 | Exported Function
 `GetWebDriverHostInstance` | 21 | Exported Function
+`EnsureWebDriverForWebViewHost` | 5 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
+`EnsureServiceWorkerEnvironmentForWebView` | 19 | Exported Function
+`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 | Exported Function
+`CreateCoreWebViewOOP` | 9 | Exported Function
+`CreateEdgeIsoSession` | 1 | Exported Function
+`CreateCoreWebViewHostProcess` | 8 | Exported Function
+`CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 | Exported Function
+`CreateCoreWebViewControl` | 7 | Exported Function
+`CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 | Exported Function
+`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 | Exported Function
+`CreateWebRuntimeDiagnosticsTarget` | 4 | Exported Function
+`CreateWebRuntimeDebugTargetClient` | 2 | Exported Function
+`CreateWebRuntimeDebugTargetManager` | 3 | Exported Function
 
 
 ## Signature

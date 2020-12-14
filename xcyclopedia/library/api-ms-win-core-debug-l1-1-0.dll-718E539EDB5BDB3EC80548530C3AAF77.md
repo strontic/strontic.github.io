@@ -26,10 +26,10 @@ PE256 | `BFAB9F2C91E24DEEDEA40EDA0C65CD721AD00E77A372B5503C4D3F886863DE33`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DebugBreak` | 1 | Exported Function
-`IsDebuggerPresent` | 2 | Exported Function
 `OutputDebugStringA` | 3 | Exported Function
 `OutputDebugStringW` | 4 | Exported Function
+`DebugBreak` | 1 | Exported Function
+`IsDebuggerPresent` | 2 | Exported Function
 
 
 ## Signature

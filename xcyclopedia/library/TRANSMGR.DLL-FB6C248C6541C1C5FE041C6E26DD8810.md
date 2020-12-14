@@ -26,32 +26,32 @@ PE256 | `357FF241F1B8BCFD6BF29EDDFCF865BE0777B82280F547CA6A76847E31B93B55`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ABORTTM` | 14 | Exported Function
-`SETTWODIGITYEARMAX` | 28 | Exported Function
-`SETLCIDPATHTM` | 26 | Exported Function
-`SENDMSGTM` | 23 | Exported Function
-`SAVEFIELDMAPTM` | 18 | Exported Function
-`RECONCILETM` | 10 | Exported Function
-`RECOGNIZETM` | 8 | Exported Function
-`PUTFILETM` | 11 | Exported Function
 `INITIALTM` | 1 | Exported Function
-`HANDLEERRORTM` | 16 | Exported Function
-`GETMESSAGETM` | 15 | Exported Function
+`PUTFILETM` | 11 | Exported Function
+`RECOGNIZETM` | 8 | Exported Function
 `GETLCIDPATHTM` | 27 | Exported Function
-`GETFORMATSTM` | 2 | Exported Function
-`GETFORMATDESCTM` | 3 | Exported Function
-`GETFILETM` | 7 | Exported Function
-`GETFIELDMAPTM` | 17 | Exported Function
-`GETDEFAULTFILETM` | 4 | Exported Function
-`GETCONTENTTM` | 22 | Exported Function
-`FIELDMAPTM` | 9 | Exported Function
-`ERRORHANDLERTM` | 24 | Exported Function
-`DOFIELDMAPTM` | 20 | Exported Function
-`DISCONNECTTM` | 12 | Exported Function
-`CONNECTTM` | 5 | Exported Function
-`CLEARFIELDMAPTM` | 19 | Exported Function
+`GETMESSAGETM` | 15 | Exported Function
+`HANDLEERRORTM` | 16 | Exported Function
+`RECONCILETM` | 10 | Exported Function
+`SETTWODIGITYEARMAX` | 28 | Exported Function
 `TERMINATETM` | 13 | Exported Function
 `VERIFYFORMATSTM` | 25 | Exported Function
+`SAVEFIELDMAPTM` | 18 | Exported Function
+`SENDMSGTM` | 23 | Exported Function
+`SETLCIDPATHTM` | 26 | Exported Function
+`DISCONNECTTM` | 12 | Exported Function
+`DOFIELDMAPTM` | 20 | Exported Function
+`ERRORHANDLERTM` | 24 | Exported Function
+`ABORTTM` | 14 | Exported Function
+`CLEARFIELDMAPTM` | 19 | Exported Function
+`CONNECTTM` | 5 | Exported Function
+`FIELDMAPTM` | 9 | Exported Function
+`GETFILETM` | 7 | Exported Function
+`GETFORMATDESCTM` | 3 | Exported Function
+`GETFORMATSTM` | 2 | Exported Function
+`GETCONTENTTM` | 22 | Exported Function
+`GETDEFAULTFILETM` | 4 | Exported Function
+`GETFIELDMAPTM` | 17 | Exported Function
 
 
 ## Signature

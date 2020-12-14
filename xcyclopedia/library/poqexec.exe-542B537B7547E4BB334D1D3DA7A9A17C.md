@@ -51,6 +51,7 @@ PE256 | `776F139DF2848FDCD8508A0A3909D1EE4FD41E00D04237C9DB172311BF8864D6`
 File | Score
 -- | --
 [C:\Windows\system32\poqexec.exe](poqexec.exe-311F9A3A9059EAE049253D3F5A813763.md) | 99
+[C:\Windows\system32\poqexec.exe](poqexec.exe-78AE381E38249513E5AA3A9976DD16BE.md) | 94
 [C:\Windows\system32\poqexec.exe](poqexec.exe-B9549AAE6F6FE8E4FD5B500515A11AA2.md) | 99
 
 

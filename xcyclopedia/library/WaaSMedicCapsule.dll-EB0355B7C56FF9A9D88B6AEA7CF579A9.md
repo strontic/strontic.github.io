@@ -26,17 +26,17 @@ PE256 | `76A6AE8BDAE3FC5EBB63581DF69922EFE4B2D08847A2AADA0F7D911D50723114`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 11 | Exported Function
-`EnumeratePlugins` | 1 | Exported Function
-`GetPluginDefaultSettings` | 2 | Exported Function
-`GetSettingsName` | 3 | Exported Function
-`Plugin_DetectCondition` | 4 | Exported Function
-`Plugin_Init` | 5 | Exported Function
-`Plugin_IsActionApplicable` | 6 | Exported Function
 `Plugin_IsEnabled` | 7 | Exported Function
+`Plugin_IsActionApplicable` | 6 | Exported Function
 `Plugin_IsInteractiveOnly` | 8 | Exported Function
-`Plugin_PerformAction` | 9 | Exported Function
 `Plugin_Uninit` | 10 | Exported Function
+`Plugin_PerformAction` | 9 | Exported Function
+`Plugin_Init` | 5 | Exported Function
+`EnumeratePlugins` | 1 | Exported Function
+`DllMain` | 11 | Exported Function
+`GetPluginDefaultSettings` | 2 | Exported Function
+`Plugin_DetectCondition` | 4 | Exported Function
+`GetSettingsName` | 3 | Exported Function
 
 
 ## Signature

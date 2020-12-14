@@ -41,7 +41,7 @@ SSDEEP | `24576:zZt9KkvnUcCLX7picmIQpvhnno7eQ0pmdh3oEw2tZG3pv5uA:d1vnDKXH+Keodh3
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MoUsoCoreWorker.exe` being misused. While `MoUsoCoreWorker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MoUsoCoreWorker.exe` being misused. While `MoUsoCoreWorker.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

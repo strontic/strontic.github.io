@@ -26,22 +26,22 @@ PE256 | `C746E76B1E78D29C037EB28EB6B842AB38CAF588A67A87404CD1108D576CEA16`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HvciGetConfig` | 1 | Exported Function
-`HvciGetConfigFromVBSKey` | 2 | Exported Function
-`HvciIncompatibilityScanCancel` | 3 | Exported Function
-`HvciIncompatibilityScanFree` | 4 | Exported Function
-`HvciIncompatibilityScanGetResult` | 5 | Exported Function
-`HvciIncompatibilityScanInitialize` | 6 | Exported Function
-`HvciIncompatibilityScanOverrideDriverCompatDatabase` | 7 | Exported Function
-`HvciIncompatibilityScanOverrideServicesKey` | 8 | Exported Function
-`HvciIncompatibilityScanStart` | 9 | Exported Function
-`HvciIsActive` | 10 | Exported Function
 `VbsGetIssues` | 11 | Exported Function
 `VbsIsCapable` | 12 | Exported Function
-`VbsIsRecommended` | 13 | Exported Function
-`VbsIsScenarioEnabled` | 14 | Exported Function
+`HvciIncompatibilityScanStart` | 9 | Exported Function
+`HvciIsActive` | 10 | Exported Function
 `VbsSetScenarioEnable` | 15 | Exported Function
 `VbsSetScenarioEnableToVBSKey` | 16 | Exported Function
+`VbsIsRecommended` | 13 | Exported Function
+`VbsIsScenarioEnabled` | 14 | Exported Function
+`HvciIncompatibilityScanCancel` | 3 | Exported Function
+`HvciIncompatibilityScanFree` | 4 | Exported Function
+`HvciGetConfig` | 1 | Exported Function
+`HvciGetConfigFromVBSKey` | 2 | Exported Function
+`HvciIncompatibilityScanOverrideDriverCompatDatabase` | 7 | Exported Function
+`HvciIncompatibilityScanOverrideServicesKey` | 8 | Exported Function
+`HvciIncompatibilityScanGetResult` | 5 | Exported Function
+`HvciIncompatibilityScanInitialize` | 6 | Exported Function
 
 
 ## Signature

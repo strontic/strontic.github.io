@@ -26,17 +26,17 @@ PE256 | `5CB0F0E4F6B1607A981BDBFC4C695C0BE618BDDBA402E4EBBA03A72660EEADF9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SE_DllLoaded` | 1 | Exported Function
-`SE_DllUnloaded` | 2 | Exported Function
-`SE_DynamicShim` | 3 | Exported Function
-`SE_GetHookAPIs` | 4 | Exported Function
-`SE_GetMaxShimCount` | 5 | Exported Function
-`SE_GetProcAddressIgnoreIncExc` | 6 | Exported Function
-`SE_GetShimCount` | 7 | Exported Function
 `SE_InstallAfterInit` | 8 | Exported Function
+`SE_GetShimCount` | 7 | Exported Function
 `SE_InstallBeforeInit` | 9 | Exported Function
-`SE_IsShimDll` | 10 | Exported Function
 `SE_ProcessDying` | 11 | Exported Function
+`SE_IsShimDll` | 10 | Exported Function
+`SE_GetProcAddressIgnoreIncExc` | 6 | Exported Function
+`SE_DllUnloaded` | 2 | Exported Function
+`SE_DllLoaded` | 1 | Exported Function
+`SE_DynamicShim` | 3 | Exported Function
+`SE_GetMaxShimCount` | 5 | Exported Function
+`SE_GetHookAPIs` | 4 | Exported Function
 
 
 ## Signature

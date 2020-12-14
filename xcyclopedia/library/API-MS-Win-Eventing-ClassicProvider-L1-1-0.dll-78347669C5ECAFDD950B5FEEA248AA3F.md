@@ -26,14 +26,14 @@ PE256 | `C56DBAD64649301EC8A2534A3FE699E70EB757EAC827E3C13AFCBEDAB3150A88`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetTraceEnableFlags` | 1 | Exported Function
-`GetTraceEnableLevel` | 2 | Exported Function
-`GetTraceLoggerHandle` | 3 | Exported Function
-`RegisterTraceGuidsW` | 4 | Exported Function
-`TraceEvent` | 5 | Exported Function
 `TraceMessage` | 6 | Exported Function
-`TraceMessageVa` | 7 | Exported Function
+`TraceEvent` | 5 | Exported Function
 `UnregisterTraceGuids` | 8 | Exported Function
+`TraceMessageVa` | 7 | Exported Function
+`GetTraceEnableLevel` | 2 | Exported Function
+`GetTraceEnableFlags` | 1 | Exported Function
+`RegisterTraceGuidsW` | 4 | Exported Function
+`GetTraceLoggerHandle` | 3 | Exported Function
 
 
 ## Signature

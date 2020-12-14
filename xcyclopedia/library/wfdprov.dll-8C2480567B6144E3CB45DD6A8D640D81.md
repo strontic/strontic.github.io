@@ -26,10 +26,10 @@ PE256 | `DBA0A494167D7AEDC600408937E59FCD645C9CA9168477A48F81BA15C0CF5508`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WFDProvConfigureAndProvisionDevice` | 1 | Exported Function
-`WFDProvDeinitialize` | 2 | Exported Function
 `WFDProvGetInfo` | 3 | Exported Function
 `WFDProvInitialize` | 4 | Exported Function
+`WFDProvConfigureAndProvisionDevice` | 1 | Exported Function
+`WFDProvDeinitialize` | 2 | Exported Function
 
 
 ## Signature

@@ -26,13 +26,13 @@ PE256 | `C07DE2B912044DDA3800F10AC3E2923A59F1DF4520185E5B8171BD1C8F903BA9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BthCollectFingerprintInfo` | 1 | Exported Function
-`BthProcessEventDataDword` | 2 | Exported Function
-`BthProcessEventOccurrence` | 3 | Exported Function
-`BthProcessEventOccurrenceBthaddr` | 4 | Exported Function
 `BthProcessEventOccurrenceResult` | 5 | Exported Function
 `BthProcessEventOccurrenceResultBthaddr` | 6 | Exported Function
 `BthProcessRpalEventOccurrence` | 7 | Exported Function
+`BthProcessEventOccurrenceBthaddr` | 4 | Exported Function
+`BthCollectFingerprintInfo` | 1 | Exported Function
+`BthProcessEventDataDword` | 2 | Exported Function
+`BthProcessEventOccurrence` | 3 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `DFB35076DCC91CB10C221E8E03032C45C5BD2EEAFA073DA6202CE63879653FFB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 102 | Exported Function
 `DllGetClassObject` | 103 | Exported Function
+`DllCanUnloadNow` | 102 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `packager.dll` being misused. While `packager.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `packager.dll` being misused. While `packager.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

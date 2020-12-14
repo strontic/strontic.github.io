@@ -25,8 +25,8 @@ PE256 | `D254A1E32E0C66CD906923AA19A43C73D50037BC0457DA90C017A74BC1EF4A8A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Dot11ExtIhvGetVersionInfo` | 1 | Exported Function
 `Dot11ExtIhvInitService` | 2 | Exported Function
+`Dot11ExtIhvGetVersionInfo` | 1 | Exported Function
 
 
 ## Signature

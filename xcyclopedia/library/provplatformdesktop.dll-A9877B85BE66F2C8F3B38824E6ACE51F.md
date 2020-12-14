@@ -26,25 +26,25 @@ PE256 | `52CE79B06699114ED52F679F7D95C76AF90EB77623C5D672813D3AFC1F88747E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CheckPackageManagerOutOfProc` | 2 | Exported Function
-`MgmtRefreshUnstageSession` | 17 | Exported Function
-`MgmtRefreshStageSession` | 16 | Exported Function
-`MgmtRefreshReleaseSession` | 15 | Exported Function
-`MgmtRefreshRebootSystem` | 14 | Exported Function
 `MgmtRefreshPrecheck` | 13 | Exported Function
-`InitiateSystemReset` | 12 | Exported Function
+`MgmtRefreshRebootSystem` | 14 | Exported Function
 `InitiateMgmtRefresh` | 11 | Exported Function
+`InitiateSystemReset` | 12 | Exported Function
+`MgmtRefreshReleaseSession` | 15 | Exported Function
 `ReportInstallationError` | 18 | Exported Function
-`GetProvisioningTargetUser` | 10 | Exported Function
-`GetDeviceId` | 8 | Exported Function
-`DllGetClassObject` | 7 | Exported Function
-`DllGetActivationFactory` | 6 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`CreateAutomaticRedeploymentFailureNotificationTask` | 1 | Exported Function
-`ConfigureAppLaunch` | 4 | Exported Function
-`CheckUserConsent` | 3 | Exported Function
-`GetPackagePassword` | 9 | Exported Function
 `SetDeviceName` | 19 | Exported Function
+`MgmtRefreshStageSession` | 16 | Exported Function
+`MgmtRefreshUnstageSession` | 17 | Exported Function
+`GetProvisioningTargetUser` | 10 | Exported Function
+`ConfigureAppLaunch` | 4 | Exported Function
+`CreateAutomaticRedeploymentFailureNotificationTask` | 1 | Exported Function
+`CheckPackageManagerOutOfProc` | 2 | Exported Function
+`CheckUserConsent` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`GetDeviceId` | 8 | Exported Function
+`GetPackagePassword` | 9 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
 
 
 ## Signature

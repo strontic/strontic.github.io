@@ -26,12 +26,12 @@ PE256 | `D9E9B9C9DA563F97AA5C71C45EE71901424D7EC1F3D71170464B0A8436A60785`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Generalize_Pnp` | 1 | Exported Function
-`Sysprep_Generalize_Pnp_Drivers` | 2 | Exported Function
-`Sysprep_Respecialize_Pnp` | 3 | Exported Function
 `Sysprep_RunDll_PnpW` | 4 | Exported Function
 `Sysprep_Specialize_Offline_Pnp` | 5 | Exported Function
 `Sysprep_Specialize_Pnp` | 6 | Exported Function
+`Sysprep_Generalize_Pnp` | 1 | Exported Function
+`Sysprep_Generalize_Pnp_Drivers` | 2 | Exported Function
+`Sysprep_Respecialize_Pnp` | 3 | Exported Function
 
 
 ## Signature

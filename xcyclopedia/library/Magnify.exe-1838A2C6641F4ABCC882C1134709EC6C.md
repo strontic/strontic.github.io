@@ -41,7 +41,7 @@ SSDEEP | `6144:ImTH2CRKPyHXE8Bm2/zGxRDmyLHXIUypcC8l983bTPgCNi/2pcgLDrNQNG:ImTH2V
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Magnify.exe` being misused. While `Magnify.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Magnify.exe` being misused. While `Magnify.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

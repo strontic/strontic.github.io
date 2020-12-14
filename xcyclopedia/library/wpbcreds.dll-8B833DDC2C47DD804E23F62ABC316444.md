@@ -26,13 +26,13 @@ PE256 | `F177FE679D6C9B09BF867E322E91A0B1FF6FE7B8E32409A1A0755AC76459C003`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WpbcCleanup` | 1 | Exported Function
-`WpbcCreateRemoveTestCredentials` | 2 | Exported Function
-`WpbcCreateTestPin` | 3 | Exported Function
-`WpbcExportCredentials` | 4 | Exported Function
 `WpbcGetPinInfo` | 5 | Exported Function
 `WpbcInitialize` | 6 | Exported Function
 `WpbcVerifyUser` | 7 | Exported Function
+`WpbcExportCredentials` | 4 | Exported Function
+`WpbcCleanup` | 1 | Exported Function
+`WpbcCreateRemoveTestCredentials` | 2 | Exported Function
+`WpbcCreateTestPin` | 3 | Exported Function
 
 
 ## Signature

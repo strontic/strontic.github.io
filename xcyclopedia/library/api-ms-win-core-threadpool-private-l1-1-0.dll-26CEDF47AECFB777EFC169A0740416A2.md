@@ -219,6 +219,7 @@ File | Score
 [C:\Windows\system32\wshhyperv.dll](wshhyperv.dll-2CAF78BDAE734574AB75D890475F512D.md) | 43
 [C:\Windows\system32\wshunix.dll](wshunix.dll-7F03605772F3583000DC96E85C792644.md) | 36
 [C:\Windows\system32\wuauclt.exe](wuauclt.exe-7582BF723A39B56BCCEF2C170E330BD7.md) | 30
+[C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\ScreenClippingHost.exe](ScreenClippingHost.exe-3C4E7F1BF05A5088430FB512081061B2.md) | 33
 [C:\Windows\SysWOW64\AppVClientPS.dll](AppVClientPS.dll-1E0B7F512D668AD207B555E2C79266AA.md) | 38
 [C:\Windows\SysWOW64\AppVSentinel.dll](AppVSentinel.dll-462C078F2EFA56DF06111236A64D9AC9.md) | 40
 [C:\Windows\SysWOW64\AppVTerminator.dll](AppVTerminator.dll-85F112B8986232330CD738542E2849D8.md) | 29

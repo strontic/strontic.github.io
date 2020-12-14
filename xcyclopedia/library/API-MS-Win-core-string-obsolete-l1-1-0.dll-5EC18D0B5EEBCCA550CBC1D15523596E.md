@@ -26,16 +26,16 @@ PE256 | `9B43C11AB40B5135C0C888C0612192F43A54D44AA7B66231AAE0772EFF3ECA5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`lstrcatW` | 1 | Exported Function
-`lstrcmpA` | 2 | Exported Function
-`lstrcmpiA` | 4 | Exported Function
-`lstrcmpiW` | 5 | Exported Function
-`lstrcmpW` | 3 | Exported Function
-`lstrcpynA` | 7 | Exported Function
 `lstrcpynW` | 8 | Exported Function
+`lstrcpynA` | 7 | Exported Function
 `lstrcpyW` | 6 | Exported Function
-`lstrlenA` | 9 | Exported Function
 `lstrlenW` | 10 | Exported Function
+`lstrlenA` | 9 | Exported Function
+`lstrcmpA` | 2 | Exported Function
+`lstrcatW` | 1 | Exported Function
+`lstrcmpiA` | 4 | Exported Function
+`lstrcmpW` | 3 | Exported Function
+`lstrcmpiW` | 5 | Exported Function
 
 
 ## Signature

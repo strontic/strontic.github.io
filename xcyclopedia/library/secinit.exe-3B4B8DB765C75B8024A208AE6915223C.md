@@ -24,13 +24,15 @@ PE256 | `FECD0AA8FADD232136959109761E479428196048FE1DF92A7A84C68DF2B3D1DF`
 
 ## Runtime Data
 
+### Child Processes:
+perfmon.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\secinit.exe |
 
@@ -56,7 +58,7 @@ C:\Windows\SysWOW64\secinit.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/aa365888ab4e37156f06edf20049831ba7cd9203f6617a9632f1c8f3bcafe15a/detection
 
 ## File Similarity (ssdeep match)

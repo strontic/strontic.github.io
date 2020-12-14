@@ -26,14 +26,14 @@ PE256 | `8573CD8547F94BC32FC5633C6DD53C49ACF549C490BFA9A665FC80EBB3FB5E87`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IdpConfigAddPolicy` | 1 | Exported Function
-`IdpConfigAllocateAndGetPolicy` | 2 | Exported Function
-`IdpConfigFreePolicy` | 3 | Exported Function
-`IdpConfigInitDefaultPolicy` | 4 | Exported Function
-`IdpConfigRemovePolicy` | 5 | Exported Function
 `InitHelperDll` | 6 | Exported Function
-`WfpCaptureExportedW` | 7 | Exported Function
+`IdpConfigRemovePolicy` | 5 | Exported Function
 `WfpCaptureStop` | 8 | Exported Function
+`WfpCaptureExportedW` | 7 | Exported Function
+`IdpConfigAllocateAndGetPolicy` | 2 | Exported Function
+`IdpConfigAddPolicy` | 1 | Exported Function
+`IdpConfigInitDefaultPolicy` | 4 | Exported Function
+`IdpConfigFreePolicy` | 3 | Exported Function
 
 
 ## Signature
@@ -64,6 +64,7 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Windows\system32\nltest.exe](nltest.exe-0C96FBA0F1ABEEF164B077D34F5B6F6A.md) | 35
 [C:\Windows\system32\nltest.exe](nltest.exe-396EC29E0B1F77824E6479D8D810D315.md) | 35
 
 

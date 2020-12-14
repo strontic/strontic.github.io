@@ -60,7 +60,7 @@ mqsvc.exe
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [MSMQ Powershell Reference](/powershell/module/msmq/?view=win10-ps)
+- [MSMQ Powershell Reference](/powershell/module/msmq/)
 
 ---
 

@@ -155,9 +155,6 @@ help - Alias not found.
 
 ```
 
-### Child Processes:
-powershell.exe
-
 ### Loaded Modules:
 
 Path |
@@ -190,13 +187,13 @@ C:\Windows\SysWOW64\wbem\WMIC.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/9578c31e1b58fa75a2b612456ebce324296e53a007e5697995cec5785956afe4/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WMIC.exe` being misused. While `WMIC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WMIC.exe` being misused. While `WMIC.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

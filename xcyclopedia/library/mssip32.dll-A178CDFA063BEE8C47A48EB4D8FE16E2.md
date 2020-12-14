@@ -26,15 +26,15 @@ PE256 | `57ED007A18301ACE382A167EBA579C42F021439DC5DCE0A933FAC248542906CA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptSIPCreateIndirectData` | 3 | Exported Function
-`CryptSIPGetInfo` | 1 | Exported Function
-`CryptSIPGetRegWorkingFlags` | 2 | Exported Function
-`CryptSIPGetSignedDataMsg` | 4 | Exported Function
-`CryptSIPPutSignedDataMsg` | 5 | Exported Function
-`CryptSIPRemoveSignedDataMsg` | 6 | Exported Function
 `CryptSIPVerifyIndirectData` | 7 | Exported Function
-`DllRegisterServer` | 8 | Exported Function
+`CryptSIPRemoveSignedDataMsg` | 6 | Exported Function
 `DllUnregisterServer` | 9 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`CryptSIPPutSignedDataMsg` | 5 | Exported Function
+`CryptSIPGetInfo` | 1 | Exported Function
+`CryptSIPCreateIndirectData` | 3 | Exported Function
+`CryptSIPGetSignedDataMsg` | 4 | Exported Function
+`CryptSIPGetRegWorkingFlags` | 2 | Exported Function
 
 
 ## Signature

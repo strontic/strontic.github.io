@@ -26,9 +26,9 @@ PE256 | `BCF10BDAF7469E30D0D86CE78ACB52C39F09892CFDF6D63D4F7781B9CDA746DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MitLibInitialize` | 1 | Exported Function
-`MitLibQueryMitigations` | 2 | Exported Function
 `MitLibUninitialize` | 3 | Exported Function
+`MitLibQueryMitigations` | 2 | Exported Function
+`MitLibInitialize` | 1 | Exported Function
 
 
 ## Signature

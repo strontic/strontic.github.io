@@ -41,7 +41,7 @@ SSDEEP | `3072:+nBogny/ccewDuHWdR7oLlqsX4N1jrQawDg2aHBMJKjrb/TTf4eI:+nBogny/ccew
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wevtutil.exe` being misused. While `wevtutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wevtutil.exe` being misused. While `wevtutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

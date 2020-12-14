@@ -26,21 +26,21 @@ PE256 | `6FA797C3997C3AC93B2E8A806947693C8180333C621DAF07D91472800DB9A26B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CJDictsCommentDictionary_CreateInstance` | 1 | Exported Function
-`CJDictsDataForDWORD_CreateInstance` | 2 | Exported Function
-`CJDictsDictionaryManifest_CreateInstance` | 3 | Exported Function
-`CJDictsIndexerSatori_CreateInstance` | 4 | Exported Function
-`CJDictsSystemLexiconStoreDelayLoad__CreateInstance` | 5 | Exported Function
-`CJDictsUserDictionary_CreateInstance` | 6 | Exported Function
-`CJDictsUserDictionary_FillByDummyHeader` | 7 | Exported Function
-`DllCanUnloadNow` | 8 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
-`DllRegisterServer` | 10 | Exported Function
 `DllUnregisterServer` | 11 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
 `GetSegmentedStr` | 12 | Exported Function
-`IMECFM_AddJpnWordInfoAndLmContextForWatsonReport` | 13 | Exported Function
-`InitGetSegmentedStr` | 14 | Exported Function
 `UnInitGetSegmentedStr` | 15 | Exported Function
+`InitGetSegmentedStr` | 14 | Exported Function
+`IMECFM_AddJpnWordInfoAndLmContextForWatsonReport` | 13 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`CJDictsDictionaryManifest_CreateInstance` | 3 | Exported Function
+`CJDictsDataForDWORD_CreateInstance` | 2 | Exported Function
+`CJDictsCommentDictionary_CreateInstance` | 1 | Exported Function
+`CJDictsIndexerSatori_CreateInstance` | 4 | Exported Function
+`CJDictsUserDictionary_FillByDummyHeader` | 7 | Exported Function
+`CJDictsUserDictionary_CreateInstance` | 6 | Exported Function
+`CJDictsSystemLexiconStoreDelayLoad__CreateInstance` | 5 | Exported Function
 
 
 ## Signature

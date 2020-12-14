@@ -26,11 +26,11 @@ PE256 | `5834C2F41BC785FF26D0BC13925748EAE4B1F84E6F3D45E627D77548D88DABAA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`MFCreateByteCacheFile` | 3 | Exported Function
 `MFCreateCacheManager` | 4 | Exported Function
 `MFCreateFileBlockMap` | 5 | Exported Function
+`MFCreateByteCacheFile` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

@@ -61,10 +61,15 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/97c8aaedba3a89174bc6ddd8b5b40504a81e7adae8df6b11230eb34b150ffc3b/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\audiodg.exe](audiodg.exe-CBF4F868E857AB7E4817B7E3D70D2C88.md) | 41
 
 ## Possible Misuse
 
-*The following table contains possible examples of `audiodg.exe` being misused. While `audiodg.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `audiodg.exe` being misused. While `audiodg.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

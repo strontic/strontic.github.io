@@ -29,6 +29,8 @@ PE256 | `42B5DC67ED8259EDE00316F09A1AE32A6F0854C038B465A7D19FD9E1B80F3730`
 Path |
 -- |
 C:\Windows\system32\BioIso.exe |
+C:\Windows\system32\iumbase.DLL |
+C:\Windows\SYSTEM32\IUMDLL.dll |
 C:\Windows\system32\IumSdk.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |

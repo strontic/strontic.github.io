@@ -26,12 +26,12 @@ PE256 | `15A9ECD510015771F9381B5CEE8A86967A238F6250E73FFF86070C0F93BE0F7C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClearSettingGroupValue` | 2 | Exported Function
-`ClearSettingValue` | 1 | Exported Function
-`GetSettingGroupValue` | 4 | Exported Function
 `GetSettingValue` | 3 | Exported Function
 `SetSettingGroupValue` | 6 | Exported Function
 `SetSettingValue` | 5 | Exported Function
+`ClearSettingGroupValue` | 2 | Exported Function
+`ClearSettingValue` | 1 | Exported Function
+`GetSettingGroupValue` | 4 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `FB0DE85D6D3BEA29D56430036F0919BD2F07407E8B65A25B981D8F7A61DBEEAE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateUpdateSetupUI` | 1 | Exported Function
 `CreateWinSetupUI` | 2 | Exported Function
+`CreateUpdateSetupUI` | 1 | Exported Function
 
 
 ## Signature

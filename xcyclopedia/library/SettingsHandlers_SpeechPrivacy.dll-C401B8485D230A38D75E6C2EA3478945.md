@@ -26,8 +26,8 @@ PE256 | `084D462E7DD7897CFB82F98656A487E4E2020360DE74D885677991E09601CF24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetSetting` | 2 | Exported Function
 `GetSettingsManagerSingleton` | 1 | Exported Function
+`GetSetting` | 2 | Exported Function
 
 
 ## Signature

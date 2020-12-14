@@ -26,10 +26,10 @@ PE256 | `FFE8ABFA906EA6FE9817B2BA7986DC9BB7609B8775AD801EB90F4E19735054C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CleanupIS` | 4 | Exported Function
-`GetHookAPIs` | 1 | Exported Function
 `NotifyShims` | 2 | Exported Function
 `StiCreateInstanceA` | 3 | Exported Function
+`CleanupIS` | 4 | Exported Function
+`GetHookAPIs` | 1 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `B45AC5FE8CA25FE2FC2E1EA2A35B3C7602273569DEC7C28DDFA197C11E7AA1D2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`XblGameSave_GetUserStorageRoot` | 1 | Exported Function
-`XblGameSave_NTMSCreateInstance` | 2 | Exported Function
 `XblGameSave_NTMSServerStart` | 3 | Exported Function
 `XblGameSave_NTMSServerStop` | 4 | Exported Function
+`XblGameSave_GetUserStorageRoot` | 1 | Exported Function
+`XblGameSave_NTMSCreateInstance` | 2 | Exported Function
 
 
 ## Signature

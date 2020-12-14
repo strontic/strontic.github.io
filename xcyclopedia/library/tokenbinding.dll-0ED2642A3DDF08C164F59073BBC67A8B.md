@@ -26,16 +26,16 @@ PE256 | `A5A86FD0DC3AB6C1EC301FD7E99A23C5C6928223BEEC8C468FDFB93AF0B87B0A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TokenBindingDeleteAllBindings` | 1 | Exported Function
-`TokenBindingDeleteBinding` | 2 | Exported Function
-`TokenBindingGenerateBinding` | 3 | Exported Function
-`TokenBindingGenerateID` | 4 | Exported Function
-`TokenBindingGenerateIDForUri` | 5 | Exported Function
-`TokenBindingGenerateMessage` | 6 | Exported Function
 `TokenBindingGetHighestSupportedVersion` | 7 | Exported Function
+`TokenBindingGenerateMessage` | 6 | Exported Function
 `TokenBindingGetKeyTypesClient` | 8 | Exported Function
-`TokenBindingGetKeyTypesServer` | 9 | Exported Function
 `TokenBindingVerifyMessage` | 10 | Exported Function
+`TokenBindingGetKeyTypesServer` | 9 | Exported Function
+`TokenBindingDeleteBinding` | 2 | Exported Function
+`TokenBindingDeleteAllBindings` | 1 | Exported Function
+`TokenBindingGenerateBinding` | 3 | Exported Function
+`TokenBindingGenerateIDForUri` | 5 | Exported Function
+`TokenBindingGenerateID` | 4 | Exported Function
 
 
 ## Signature

@@ -26,8 +26,8 @@ PE256 | `A5068EAEF6BEB46F556349DBC0DF28717B9D8806FA061F4C4D68ECD710E5F57D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPrivateProfileSectionA` | 1 | Exported Function
 `WritePrivateProfileSectionW` | 2 | Exported Function
+`GetPrivateProfileSectionA` | 1 | Exported Function
 
 
 ## Signature

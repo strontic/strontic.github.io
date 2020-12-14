@@ -24,6 +24,9 @@ PE256 | `10CF362FD92E137B1CDDCADA981C0B885398E1B020BCAD64DF1B05AC95BA2F2C`
 
 ## Runtime Data
 
+### Child Processes:
+setup_wm.exe
+
 ### Loaded Modules:
 
 Path |

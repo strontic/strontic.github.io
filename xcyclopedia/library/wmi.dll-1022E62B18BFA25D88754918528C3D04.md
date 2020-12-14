@@ -26,51 +26,51 @@ PE256 | `D13547B5F4FE052A7CFEEA3BEF3F30CAE0BF5E7B3B3B31BEEA6501F41793034A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseTrace` | 1 | Exported Function
-`WmiDevInstToInstanceNameW` | 25 | Exported Function
-`WmiEnumerateGuids` | 26 | Exported Function
-`WmiExecuteMethodA` | 27 | Exported Function
-`WmiExecuteMethodW` | 28 | Exported Function
-`WmiFileHandleToInstanceNameA` | 29 | Exported Function
-`WmiFileHandleToInstanceNameW` | 30 | Exported Function
 `WmiFreeBuffer` | 31 | Exported Function
+`WmiFileHandleToInstanceNameW` | 30 | Exported Function
 `WmiMofEnumerateResourcesA` | 32 | Exported Function
-`WmiMofEnumerateResourcesW` | 33 | Exported Function
 `WmiNotificationRegistrationA` | 34 | Exported Function
-`WmiNotificationRegistrationW` | 35 | Exported Function
-`WmiOpenBlock` | 36 | Exported Function
-`WmiQueryAllDataA` | 37 | Exported Function
-`WmiQueryAllDataW` | 38 | Exported Function
-`WmiQueryGuidInformation` | 39 | Exported Function
-`WmiQuerySingleInstanceA` | 40 | Exported Function
-`WmiQuerySingleInstanceW` | 41 | Exported Function
-`WmiSetSingleInstanceA` | 42 | Exported Function
-`WmiSetSingleInstanceW` | 43 | Exported Function
+`WmiMofEnumerateResourcesW` | 33 | Exported Function
+`WmiFileHandleToInstanceNameA` | 29 | Exported Function
+`WmiDevInstToInstanceNameW` | 25 | Exported Function
 `WmiDevInstToInstanceNameA` | 24 | Exported Function
+`WmiEnumerateGuids` | 26 | Exported Function
+`WmiExecuteMethodW` | 28 | Exported Function
+`WmiExecuteMethodA` | 27 | Exported Function
+`WmiSetSingleInstanceA` | 42 | Exported Function
+`WmiQuerySingleInstanceW` | 41 | Exported Function
+`WmiSetSingleInstanceW` | 43 | Exported Function
+`WmiSetSingleItemW` | 45 | Exported Function
 `WmiSetSingleItemA` | 44 | Exported Function
+`WmiQuerySingleInstanceA` | 40 | Exported Function
+`WmiOpenBlock` | 36 | Exported Function
+`WmiNotificationRegistrationW` | 35 | Exported Function
+`WmiQueryAllDataA` | 37 | Exported Function
+`WmiQueryGuidInformation` | 39 | Exported Function
+`WmiQueryAllDataW` | 38 | Exported Function
 `WmiCloseBlock` | 23 | Exported Function
-`TraceEventInstance` | 21 | Exported Function
-`ControlTraceA` | 2 | Exported Function
-`ControlTraceW` | 3 | Exported Function
-`CreateTraceInstanceId` | 4 | Exported Function
-`EnableTrace` | 5 | Exported Function
-`GetTraceEnableFlags` | 6 | Exported Function
-`GetTraceEnableLevel` | 7 | Exported Function
 `GetTraceLoggerHandle` | 8 | Exported Function
+`GetTraceEnableLevel` | 7 | Exported Function
 `OpenTraceA` | 9 | Exported Function
-`OpenTraceW` | 10 | Exported Function
 `ProcessTrace` | 11 | Exported Function
-`QueryAllTracesA` | 12 | Exported Function
-`QueryAllTracesW` | 13 | Exported Function
-`RegisterTraceGuidsA` | 14 | Exported Function
-`RegisterTraceGuidsW` | 15 | Exported Function
-`RemoveTraceCallback` | 16 | Exported Function
-`SetTraceCallback` | 17 | Exported Function
-`StartTraceA` | 18 | Exported Function
+`OpenTraceW` | 10 | Exported Function
+`GetTraceEnableFlags` | 6 | Exported Function
+`ControlTraceA` | 2 | Exported Function
+`CloseTrace` | 1 | Exported Function
+`ControlTraceW` | 3 | Exported Function
+`EnableTrace` | 5 | Exported Function
+`CreateTraceInstanceId` | 4 | Exported Function
 `StartTraceW` | 19 | Exported Function
+`StartTraceA` | 18 | Exported Function
 `TraceEvent` | 20 | Exported Function
 `UnregisterTraceGuids` | 22 | Exported Function
-`WmiSetSingleItemW` | 45 | Exported Function
+`TraceEventInstance` | 21 | Exported Function
+`SetTraceCallback` | 17 | Exported Function
+`QueryAllTracesW` | 13 | Exported Function
+`QueryAllTracesA` | 12 | Exported Function
+`RegisterTraceGuidsA` | 14 | Exported Function
+`RemoveTraceCallback` | 16 | Exported Function
+`RegisterTraceGuidsW` | 15 | Exported Function
 
 
 ## Signature
@@ -105,7 +105,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wmi.dll` being misused. While `wmi.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wmi.dll` being misused. While `wmi.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

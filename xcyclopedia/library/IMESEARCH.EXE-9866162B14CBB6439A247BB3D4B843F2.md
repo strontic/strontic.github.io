@@ -28,6 +28,9 @@ PE256 | `CFBBC027DA5B3948336F5AB3605FDF48FBF9F81D5351C87FCEEDC5385A4DBD48`
 
 ## Runtime Data
 
+### Child Processes:
+explorer.exe
+
 ### Window Title:
 Microsoft IME Search Provider
 
@@ -48,8 +51,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:

@@ -26,40 +26,40 @@ PE256 | `D2D27F81F8C7EF355D4A570AFDEAD58852F713C64444D8C360D48C3EA7FEA370`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_cci_check_error` | 1 | Exported Function
-`krb5int_ipc_stream_data` | 32 | Exported Function
-`ccs_authenticate` | 31 | Exported Function
-`cci_os_ipc_thread_init` | 30 | Exported Function
-`cci_os_ipc_process_init` | 29 | Exported Function
-`cci_os_ipc_msg` | 28 | Exported Function
-`cci_os_ipc` | 27 | Exported Function
-`cci_debug_printf` | 26 | Exported Function
-`cc_store` | 25 | Exported Function
-`cc_shutdown` | 24 | Exported Function
 `cc_set_principal` | 23 | Exported Function
 `cc_seq_fetch_NCs_next` | 19 | Exported Function
-`cc_seq_fetch_NCs_end` | 18 | Exported Function
-`cc_seq_fetch_NCs_begin` | 17 | Exported Function
+`cc_store` | 25 | Exported Function
+`cc_shutdown` | 24 | Exported Function
 `cc_seq_fetch_creds_next` | 22 | Exported Function
 `cc_seq_fetch_creds_end` | 21 | Exported Function
+`cc_seq_fetch_NCs_end` | 18 | Exported Function
+`cc_seq_fetch_NCs_begin` | 17 | Exported Function
+`cci_debug_printf` | 26 | Exported Function
+`krb5int_ipc_stream_data` | 32 | Exported Function
+`ccs_authenticate` | 31 | Exported Function
+`krb5int_ipc_stream_write` | 34 | Exported Function
+`krb5int_ipc_stream_new` | 33 | Exported Function
+`cci_os_ipc_msg` | 28 | Exported Function
+`cci_os_ipc` | 27 | Exported Function
+`cci_os_ipc_thread_init` | 30 | Exported Function
+`cci_os_ipc_process_init` | 29 | Exported Function
+`cc_free_name` | 7 | Exported Function
+`cc_free_creds` | 6 | Exported Function
+`cc_free_principal` | 8 | Exported Function
+`cc_free_NC_info` | 5 | Exported Function
+`cc_close` | 2 | Exported Function
+`_cci_check_error` | 1 | Exported Function
+`cc_destroy` | 4 | Exported Function
+`cc_create` | 3 | Exported Function
+`cc_get_change_time` | 10 | Exported Function
+`cc_open` | 15 | Exported Function
+`cc_initialize` | 14 | Exported Function
 `cc_seq_fetch_creds_begin` | 20 | Exported Function
 `cc_remove_cred` | 16 | Exported Function
-`cc_close` | 2 | Exported Function
-`cc_create` | 3 | Exported Function
-`cc_destroy` | 4 | Exported Function
-`cc_free_creds` | 6 | Exported Function
-`cc_free_name` | 7 | Exported Function
-`cc_free_NC_info` | 5 | Exported Function
-`krb5int_ipc_stream_new` | 33 | Exported Function
-`cc_free_principal` | 8 | Exported Function
-`cc_get_cred_version` | 11 | Exported Function
 `cc_get_name` | 12 | Exported Function
-`cc_get_NC_info` | 9 | Exported Function
+`cc_get_cred_version` | 11 | Exported Function
 `cc_get_principal` | 13 | Exported Function
-`cc_initialize` | 14 | Exported Function
-`cc_open` | 15 | Exported Function
-`cc_get_change_time` | 10 | Exported Function
-`krb5int_ipc_stream_write` | 34 | Exported Function
+`cc_get_NC_info` | 9 | Exported Function
 
 
 ## Signature

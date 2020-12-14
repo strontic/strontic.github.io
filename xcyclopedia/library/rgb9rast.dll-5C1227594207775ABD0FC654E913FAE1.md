@@ -25,36 +25,36 @@ PE256 | `CA9A37C6CB4F186F6EBC80AC8736530132789B8D036970ACC30F83DA115F0F28`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`D3D9GetSWInfo` | 30 | Exported Function
-`PrimProcessor::SetCtx` | 24 | Exported Function
-`PrimProcessor::FreeSpans` | 13 | Exported Function
-`PrimProcessor::ClrFlags` | 8 | Exported Function
-`PrimProcessor::BeginPrimSet` | 7 | Exported Function
-`PrimProcessor::Begin` | 6 | Exported Function
-`PrimProcessor::GetFlags` | 14 | Exported Function
-`PrimProcessor::Tri` | 28 | Exported Function
-`PrimProcessor::Point` | 21 | Exported Function
 `PrimProcessor::Line` | 16 | Exported Function
+`PrimProcessor::Point` | 21 | Exported Function
+`PrimProcessor::Tri` | 28 | Exported Function
 `PrimProcessor::Initialize` | 15 | Exported Function
-`PrimProcessor::End` | 9 | Exported Function
-`PrimProcessor::AllocSpans` | 4 | Exported Function
 `PrimProcessor::operator` | 3 | Exported Function
-`public: __cdecl PrimProcessor::~PrimProcessor(void) __ptr64` | 2 | Exported Function
-`PrimProcessor::PrimProcessor` | 1 | Exported Function
-`PrimProcessor::SetTriFunctions` | 26 | Exported Function
-`PrimProcessor::ResetBuffer` | 23 | Exported Function
-`PrimProcessor::NormalizeTriRHW` | 20 | Exported Function
-`PrimProcessor::NormalizePointRHW` | 19 | Exported Function
-`PrimProcessor::NormalizeLineRHW` | 18 | Exported Function
-`PrimProcessor::FillPointSpan` | 10 | Exported Function
-`PrimProcessor::FlushPartial` | 12 | Exported Function
-`PrimProcessor::Flush` | 11 | Exported Function
-`PrimProcessor::AppendPrim` | 5 | Exported Function
-`PrimProcessor::TriSetup` | 29 | Exported Function
-`PrimProcessor::PointDiamondCheck` | 22 | Exported Function
-`PrimProcessor::LineSetup` | 17 | Exported Function
+`PrimProcessor::AllocSpans` | 4 | Exported Function
+`PrimProcessor::End` | 9 | Exported Function
+`PrimProcessor::GetFlags` | 14 | Exported Function
+`PrimProcessor::SetCtx` | 24 | Exported Function
 `PrimProcessor::SetFlags` | 25 | Exported Function
 `PrimProcessor::StateChanged` | 27 | Exported Function
+`PrimProcessor::FreeSpans` | 13 | Exported Function
+`PrimProcessor::Begin` | 6 | Exported Function
+`PrimProcessor::BeginPrimSet` | 7 | Exported Function
+`PrimProcessor::ClrFlags` | 8 | Exported Function
+`PrimProcessor::AppendPrim` | 5 | Exported Function
+`PrimProcessor::Flush` | 11 | Exported Function
+`PrimProcessor::FlushPartial` | 12 | Exported Function
+`PrimProcessor::TriSetup` | 29 | Exported Function
+`D3D9GetSWInfo` | 30 | Exported Function
+`PrimProcessor::LineSetup` | 17 | Exported Function
+`PrimProcessor::PointDiamondCheck` | 22 | Exported Function
+`PrimProcessor::FillPointSpan` | 10 | Exported Function
+`PrimProcessor::SetTriFunctions` | 26 | Exported Function
+`PrimProcessor::PrimProcessor` | 1 | Exported Function
+`public: __cdecl PrimProcessor::~PrimProcessor(void) __ptr64` | 2 | Exported Function
+`PrimProcessor::ResetBuffer` | 23 | Exported Function
+`PrimProcessor::NormalizeLineRHW` | 18 | Exported Function
+`PrimProcessor::NormalizePointRHW` | 19 | Exported Function
+`PrimProcessor::NormalizeTriRHW` | 20 | Exported Function
 
 
 ## Signature

@@ -26,9 +26,9 @@ PE256 | `4C51133AB3F36033925C19698854F1642359928690BAB64317972DFF7F9BABB0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PlugPlayServiceMain` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`PlugPlayServiceMain` | 1 | Exported Function
 
 
 ## Signature

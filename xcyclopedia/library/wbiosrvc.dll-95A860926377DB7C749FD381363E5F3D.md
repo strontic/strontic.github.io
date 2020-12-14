@@ -26,11 +26,11 @@ PE256 | `BA7048F45CF2A1834BBCACAF8D1456F2BE8973873BCA992EE3DBD267394CC5DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OutOfProcessExceptionEventCallback` | 1 | Exported Function
-`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 | Exported Function
-`OutOfProcessExceptionEventSignatureCallback` | 3 | Exported Function
 `ServiceMain` | 4 | Exported Function
 `SvchostPushServiceGlobals` | 5 | Exported Function
+`OutOfProcessExceptionEventSignatureCallback` | 3 | Exported Function
+`OutOfProcessExceptionEventCallback` | 1 | Exported Function
+`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 | Exported Function
 
 
 ## Signature

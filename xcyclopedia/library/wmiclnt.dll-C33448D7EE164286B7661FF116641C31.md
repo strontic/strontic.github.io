@@ -26,35 +26,35 @@ PE256 | `D0191F2EC0B9BCF5B7E72A0F79F45AB91ED8C1A30F48B5B2B426ABBF5319B110`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WmiCloseBlock` | 1 | Exported Function
-`WmiSetSingleInstanceW` | 27 | Exported Function
-`WmiSetSingleInstanceA` | 26 | Exported Function
-`WmiReceiveNotificationsW` | 25 | Exported Function
-`WmiReceiveNotificationsA` | 24 | Exported Function
-`WmiQuerySingleInstanceW` | 23 | Exported Function
-`WmiQuerySingleInstanceMultipleW` | 22 | Exported Function
-`WmiQuerySingleInstanceMultipleA` | 21 | Exported Function
 `WmiQuerySingleInstanceA` | 20 | Exported Function
+`WmiQuerySingleInstanceMultipleA` | 21 | Exported Function
+`WmiQuerySingleInstanceMultipleW` | 22 | Exported Function
 `WmiQueryGuidInformation` | 19 | Exported Function
-`WmiQueryAllDataW` | 18 | Exported Function
-`WmiQueryAllDataMultipleW` | 17 | Exported Function
 `WmiQueryAllDataMultipleA` | 16 | Exported Function
+`WmiQueryAllDataMultipleW` | 17 | Exported Function
+`WmiQueryAllDataW` | 18 | Exported Function
+`WmiSetSingleInstanceW` | 27 | Exported Function
 `WmiSetSingleItemA` | 28 | Exported Function
-`WmiQueryAllDataA` | 15 | Exported Function
-`WmiNotificationRegistrationW` | 13 | Exported Function
-`WmiNotificationRegistrationA` | 12 | Exported Function
-`WmiMofEnumerateResourcesW` | 11 | Exported Function
-`WmiMofEnumerateResourcesA` | 10 | Exported Function
-`WmiFreeBuffer` | 9 | Exported Function
-`WmiFileHandleToInstanceNameW` | 8 | Exported Function
-`WmiFileHandleToInstanceNameA` | 7 | Exported Function
-`WmiExecuteMethodW` | 6 | Exported Function
-`WmiExecuteMethodA` | 5 | Exported Function
-`WmiEnumerateGuids` | 4 | Exported Function
-`WmiDevInstToInstanceNameW` | 3 | Exported Function
-`WmiDevInstToInstanceNameA` | 2 | Exported Function
-`WmiOpenBlock` | 14 | Exported Function
 `WmiSetSingleItemW` | 29 | Exported Function
+`WmiSetSingleInstanceA` | 26 | Exported Function
+`WmiQuerySingleInstanceW` | 23 | Exported Function
+`WmiReceiveNotificationsA` | 24 | Exported Function
+`WmiReceiveNotificationsW` | 25 | Exported Function
+`WmiQueryAllDataA` | 15 | Exported Function
+`WmiExecuteMethodA` | 5 | Exported Function
+`WmiExecuteMethodW` | 6 | Exported Function
+`WmiFileHandleToInstanceNameA` | 7 | Exported Function
+`WmiEnumerateGuids` | 4 | Exported Function
+`WmiCloseBlock` | 1 | Exported Function
+`WmiDevInstToInstanceNameA` | 2 | Exported Function
+`WmiDevInstToInstanceNameW` | 3 | Exported Function
+`WmiNotificationRegistrationA` | 12 | Exported Function
+`WmiNotificationRegistrationW` | 13 | Exported Function
+`WmiOpenBlock` | 14 | Exported Function
+`WmiMofEnumerateResourcesW` | 11 | Exported Function
+`WmiFileHandleToInstanceNameW` | 8 | Exported Function
+`WmiFreeBuffer` | 9 | Exported Function
+`WmiMofEnumerateResourcesA` | 10 | Exported Function
 
 
 ## Signature
@@ -84,7 +84,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wmiclnt.dll` being misused. While `wmiclnt.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wmiclnt.dll` being misused. While `wmiclnt.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

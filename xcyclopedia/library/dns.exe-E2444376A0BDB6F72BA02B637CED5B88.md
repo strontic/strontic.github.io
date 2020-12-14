@@ -41,7 +41,7 @@ SSDEEP | `49152:j7gYLaYpTTKXvkvd1q69lS9aukO2m1h3Ft31lg9BPcPzxj84+IX:tpTTKXsv/q69
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dns.exe` being misused. While `dns.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dns.exe` being misused. While `dns.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

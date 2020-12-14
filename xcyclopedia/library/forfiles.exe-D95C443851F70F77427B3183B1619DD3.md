@@ -99,7 +99,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +11/6/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +12/12/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"
@@ -145,13 +145,13 @@ C:\Windows\SysWOW64\forfiles.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/7074d2a9c3d669a15d5b3a7ba1226dbba05888cc537cf055fed6371f32f0c1f5/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `forfiles.exe` being misused. While `forfiles.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `forfiles.exe` being misused. While `forfiles.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -25,9 +25,9 @@ PE256 | `620C4E75FB04FE1E2CE8627F3784F77F6433E3269DB09E985C7C7ACE0B21FDD2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OutOfProcessExceptionEventCallback` | 1 | Exported Function
-`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 | Exported Function
 `OutOfProcessExceptionEventSignatureCallback` | 3 | Exported Function
+`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 | Exported Function
+`OutOfProcessExceptionEventCallback` | 1 | Exported Function
 
 
 ## Signature

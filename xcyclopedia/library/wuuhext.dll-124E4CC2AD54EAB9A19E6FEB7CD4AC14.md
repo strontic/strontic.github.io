@@ -26,10 +26,10 @@ PE256 | `D95051E532E5234E880BBAEB9AB0EF35C006C0AF53CE9EBDBBCCF14886485E24`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WUCreateDriverUtil` | 1 | Exported Function
-`WUCreateExpressionEvaluator` | 2 | Exported Function
 `WUCreateUpdateHandler` | 3 | Exported Function
 `WUGetHardwareIdInfo` | 4 | Exported Function
+`WUCreateDriverUtil` | 1 | Exported Function
+`WUCreateExpressionEvaluator` | 2 | Exported Function
 
 
 ## Signature

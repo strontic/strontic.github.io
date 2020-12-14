@@ -26,10 +26,10 @@ PE256 | `084FA341AE4CAF9879CD9E54B564026895CD892127A96632598CE60349C81328`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConfigurationManager_Create` | 1 | Exported Function
-`ConfigurationManager_GetLocaleMapConfiguration` | 2 | Exported Function
 `ConfigurationManager_SetCustomStorageFolder` | 3 | Exported Function
 `ConfigurationManager_SetServiceCallbacks` | 4 | Exported Function
+`ConfigurationManager_Create` | 1 | Exported Function
+`ConfigurationManager_GetLocaleMapConfiguration` | 2 | Exported Function
 
 
 ## Signature

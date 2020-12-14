@@ -41,7 +41,7 @@ SSDEEP | `3072:ZF1UoonTD+XE/UMNNKTe1TTfTsc0DfLfyFl:z12TDTMMN7Ic0DfmFl`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MsMpEng.exe` being misused. While `MsMpEng.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MsMpEng.exe` being misused. While `MsMpEng.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

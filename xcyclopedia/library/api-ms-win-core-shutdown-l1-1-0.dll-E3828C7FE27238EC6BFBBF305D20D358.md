@@ -26,8 +26,8 @@ PE256 | `0F55841F0EDC92D5E4524AE1D1B9DFAE44059E69CB1205796A4B779C53DF59E3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AbortSystemShutdownW` | 1 | Exported Function
 `InitiateSystemShutdownExW` | 2 | Exported Function
+`AbortSystemShutdownW` | 1 | Exported Function
 
 
 ## Signature

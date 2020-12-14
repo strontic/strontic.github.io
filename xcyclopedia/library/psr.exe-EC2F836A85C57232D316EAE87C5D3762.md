@@ -41,7 +41,7 @@ SSDEEP | `3072:5XWREgol+AtjWRux5ZX6SBDbWOIGmteHBRR3FnXj+n/Ce3sLG+9r5OPhvvBif:pWR
 
 ## Possible Misuse
 
-*The following table contains possible examples of `psr.exe` being misused. While `psr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `psr.exe` being misused. While `psr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

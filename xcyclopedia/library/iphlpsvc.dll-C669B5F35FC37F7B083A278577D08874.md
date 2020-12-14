@@ -26,9 +26,9 @@ PE256 | `AA605CE3C3CEA981C893489629776CF49F6D4180589D8488C3FA58146C008A82`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IphlpsvcSysprepGeneralize` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`IphlpsvcSysprepGeneralize` | 1 | Exported Function
 
 
 ## Signature
@@ -58,7 +58,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `iphlpsvc.dll` being misused. While `iphlpsvc.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `iphlpsvc.dll` being misused. While `iphlpsvc.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

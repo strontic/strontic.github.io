@@ -26,17 +26,17 @@ PE256 | `9D3A58E8A5B4F430655C4992E9B7FB1C2613841B159B8CE18B9041A6BB49E7B5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddDirectXFeatureLevelToContext` | 2 | Exported Function
-`AddUserLanguagesToContext` | 3 | Exported Function
-`CreateApplicabilityContext` | 4 | Exported Function
-`CreateApplicabilityContextFromString` | 5 | Exported Function
-`FreeApplicabilityContext` | 6 | Exported Function
-`FreeApplicablePackages` | 7 | Exported Function
-`GetApplicabilityContext` | 1 | Exported Function
 `GetApplicablePackages` | 8 | Exported Function
+`GetApplicabilityContext` | 1 | Exported Function
 `GetApplicablePackagesForUser` | 9 | Exported Function
-`GetApplicablePackagesForUserWithAppChosenResources` | 10 | Exported Function
 `GetApplicablePackagesWithAppChosenResources` | 11 | Exported Function
+`GetApplicablePackagesForUserWithAppChosenResources` | 10 | Exported Function
+`FreeApplicablePackages` | 7 | Exported Function
+`AddUserLanguagesToContext` | 3 | Exported Function
+`AddDirectXFeatureLevelToContext` | 2 | Exported Function
+`CreateApplicabilityContext` | 4 | Exported Function
+`FreeApplicabilityContext` | 6 | Exported Function
+`CreateApplicabilityContextFromString` | 5 | Exported Function
 
 
 ## Signature

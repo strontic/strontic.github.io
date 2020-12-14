@@ -25,18 +25,18 @@ PE256 | `2526840A8E116102553C4D2E294A0D184DBF16C53D92FEB7E871831839BFE449`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TII_ClearLearnedText` | 1 | Exported Function
-`TII_GetCandidates` | 2 | Exported Function
-`TII_GetDynamicModelPath` | 3 | Exported Function
-`TII_Initialize` | 4 | Exported Function
-`TII_IsLanguageLocaleAvailable` | 5 | Exported Function
-`TII_LearnModel` | 6 | Exported Function
-`TII_LearnText` | 7 | Exported Function
-`TII_ReApplySettings` | 8 | Exported Function
 `TII_SetCandidateStatus` | 9 | Exported Function
-`TII_SetEnabledDynamicModel` | 10 | Exported Function
-`TII_SetEnabledLanguageLocales` | 11 | Exported Function
+`TII_ReApplySettings` | 8 | Exported Function
+`TII_LearnText` | 7 | Exported Function
 `TII_Uninitialize` | 12 | Exported Function
+`TII_SetEnabledLanguageLocales` | 11 | Exported Function
+`TII_SetEnabledDynamicModel` | 10 | Exported Function
+`TII_GetDynamicModelPath` | 3 | Exported Function
+`TII_GetCandidates` | 2 | Exported Function
+`TII_ClearLearnedText` | 1 | Exported Function
+`TII_LearnModel` | 6 | Exported Function
+`TII_IsLanguageLocaleAvailable` | 5 | Exported Function
+`TII_Initialize` | 4 | Exported Function
 
 
 ## Signature

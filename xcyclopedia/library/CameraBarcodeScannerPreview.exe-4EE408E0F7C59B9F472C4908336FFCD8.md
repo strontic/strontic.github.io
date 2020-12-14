@@ -24,16 +24,11 @@ PE256 | `F0CC1C5668F1537F401CB2A8A8802322C482A52684FCB7DEB86704F6308D23A6`
 
 ## Runtime Data
 
-### Child Processes:
-CameraBarcodeScannerPreview.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |

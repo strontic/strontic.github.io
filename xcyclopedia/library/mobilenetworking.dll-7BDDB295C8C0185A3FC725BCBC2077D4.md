@@ -26,15 +26,15 @@ PE256 | `48B218E605619FFE651AD4B845F29A35CF326950302AA4C30520392AE23DF09F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetPersistentRegPath` | 1 | Exported Function
-`GetPersistentRegPathFromRegPath` | 2 | Exported Function
-`PersistentRegPathCreateKey` | 3 | Exported Function
-`PersistentRegPathGetDWORD` | 4 | Exported Function
-`PersistentRegPathGetValue` | 5 | Exported Function
-`PersistentRegPathOpenKey` | 6 | Exported Function
 `PersistentRegPathSetDWORD` | 7 | Exported Function
-`PersistentRegPathSetString` | 8 | Exported Function
+`PersistentRegPathOpenKey` | 6 | Exported Function
 `PersistentRegPathSetValue` | 9 | Exported Function
+`PersistentRegPathSetString` | 8 | Exported Function
+`PersistentRegPathGetValue` | 5 | Exported Function
+`GetPersistentRegPathFromRegPath` | 2 | Exported Function
+`GetPersistentRegPath` | 1 | Exported Function
+`PersistentRegPathGetDWORD` | 4 | Exported Function
+`PersistentRegPathCreateKey` | 3 | Exported Function
 
 
 ## Signature

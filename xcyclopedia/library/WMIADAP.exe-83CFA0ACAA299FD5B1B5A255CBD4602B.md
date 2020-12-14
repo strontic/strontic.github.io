@@ -24,6 +24,9 @@ PE256 | `62FB0C96B58BAD4D73A6A977EEDA949C7F4C2743BF88655FE25CC5938957A7BA`
 
 ## Runtime Data
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |

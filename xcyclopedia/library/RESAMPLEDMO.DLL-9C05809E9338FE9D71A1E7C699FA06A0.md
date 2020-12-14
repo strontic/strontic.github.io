@@ -26,11 +26,11 @@ PE256 | `B27D2C35542B8E1905991E552AE55AE45A5D415750D554DFB50007EA1DAAA996`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInstance` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateInstance` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

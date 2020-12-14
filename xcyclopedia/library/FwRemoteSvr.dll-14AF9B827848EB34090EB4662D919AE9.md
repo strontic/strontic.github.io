@@ -26,8 +26,8 @@ PE256 | `EFD75CB4B9DCE8D1A7DFF9E560BA73597AAA41DF6FBE504C068571BF4D8FF62D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FwRpcAPIsInitialize` | 1 | Exported Function
 `FwRpcAPIsShutdown` | 2 | Exported Function
+`FwRpcAPIsInitialize` | 1 | Exported Function
 
 
 ## Signature

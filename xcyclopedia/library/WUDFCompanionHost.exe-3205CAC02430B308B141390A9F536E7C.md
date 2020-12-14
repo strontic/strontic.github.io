@@ -22,6 +22,20 @@ IMP | `7B21670FB2AFAC237D5B032D5E6A35FB`
 PESHA1 | `3A737D6D1F828B4708294CE5B42203B1F535A85D`
 PE256 | `4C2E8144B47EE2E884AABE9449583499EEE2EFFD6D4FF921C4F9CC4BAC5E2C32`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\WUDFCompanionHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

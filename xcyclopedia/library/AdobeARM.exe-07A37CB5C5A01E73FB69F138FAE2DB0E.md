@@ -41,7 +41,7 @@ SSDEEP | `12288:pdzFuqW7mmusNTu9An4SrnDPgM7yCNtON0eFd:pdzFuqUmS8SfyCN4+eFd`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AdobeARM.exe` being misused. While `AdobeARM.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AdobeARM.exe` being misused. While `AdobeARM.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

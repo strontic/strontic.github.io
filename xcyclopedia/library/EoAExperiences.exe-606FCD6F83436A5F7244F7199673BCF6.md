@@ -41,38 +41,20 @@ Path | Type
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\Bcp47Langs.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\CoreMessaging.dll |
-C:\Windows\system32\d2d1.dll |
-C:\Windows\System32\dcomp.dll |
 C:\Windows\system32\EoAExperiences.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\iertutil.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\MSCTF.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\PROPSYS.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SYSTEM32\uiautomationcore.dll |
 C:\Windows\System32\user32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\System32\Windows.UI.Xaml.dll |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -96,7 +78,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/35139d3f51350165b3fdf50f2fe7229d516c2dec1339b5d31b152cd85b4fcc78/detection
 
 

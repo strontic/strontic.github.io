@@ -74,6 +74,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/38be333cd288a2e17a7e0e82925b57bb8a949e6e4ee5dc16c6b68a57a6bcbb7a/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DWWIN.EXE](DWWIN.EXE-F4F5AF932AB98E8953A288DD8B03AFBF.md) | 91
 
 
 

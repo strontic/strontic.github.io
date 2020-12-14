@@ -26,12 +26,12 @@ PE256 | `801501492ABF219B8770A0D7FB0FFA70B18FB95862D96A08F6DEB8E77D3AD536`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DestroyMtf` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `SetupMtf` | 6 | Exported Function
+`DestroyMtf` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

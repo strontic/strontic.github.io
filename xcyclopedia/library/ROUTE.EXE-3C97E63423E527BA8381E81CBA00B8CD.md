@@ -129,13 +129,13 @@ C:\Windows\system32\ROUTE.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/b8a28aeb6345ca88b04ff3d9fadf30eacf26958c991bd8e4fb1df12a68f60eae/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ROUTE.EXE` being misused. While `ROUTE.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ROUTE.EXE` being misused. While `ROUTE.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

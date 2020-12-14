@@ -26,12 +26,12 @@ PE256 | `0345C6FDD3C5C8432E11B6F89EE319111A6E418A6E4036C8309812E14BA53A7E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DSCreateISecurityInfoObject` | 1 | Exported Function
 `DSCreateISecurityInfoObjectEx` | 4 | Exported Function
 `DSCreateSecurityPage` | 2 | Exported Function
 `DSEditSecurity` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DSCreateISecurityInfoObject` | 1 | Exported Function
 
 
 ## Signature
@@ -61,7 +61,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dssec.dll` being misused. While `dssec.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dssec.dll` being misused. While `dssec.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,39 +26,39 @@ PE256 | `0F79051E7455FA44EEE08C43DEBE9D06CAE4D7835C744C62CDE909CC262A5119`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetCreateProvisioningPackage` | 1 | Exported Function
-`NetRequestProvisioningPackageInstall` | 4 | Exported Function
-`NetRequestOfflineDomainJoin` | 3 | Exported Function
-`NetpValidateName` | 33 | Exported Function
-`NetpUpgradePreNT5JoinInfo` | 32 | Exported Function
-`NetpUpdateAutoenrolConfig` | 31 | Exported Function
-`NetpUnJoinDomain` | 30 | Exported Function
-`NetpStopService` | 29 | Exported Function
-`NetpSetComputerAccountPassword` | 28 | Exported Function
 `NetpSeparateUserAndDomain` | 27 | Exported Function
 `NetProvisionComputerAccount` | 2 | Exported Function
-`NetpQueryService` | 26 | Exported Function
-`NetpManageMachineAccountWithSid` | 25 | Exported Function
+`NetpStopService` | 29 | Exported Function
+`NetpSetComputerAccountPassword` | 28 | Exported Function
 `NetpManageIPCConnect` | 24 | Exported Function
 `NetpMachineValidToJoin` | 23 | Exported Function
+`NetpQueryService` | 26 | Exported Function
+`NetpManageMachineAccountWithSid` | 25 | Exported Function
+`NetRequestProvisioningPackageInstall` | 4 | Exported Function
+`NetRequestOfflineDomainJoin` | 3 | Exported Function
+`NetSetuppOpenLog` | 6 | Exported Function
 `NetSetuppCloseLog` | 5 | Exported Function
+`NetpUpdateAutoenrolConfig` | 31 | Exported Function
+`NetpUnJoinDomain` | 30 | Exported Function
+`NetpValidateName` | 33 | Exported Function
+`NetpUpgradePreNT5JoinInfo` | 32 | Exported Function
 `NetpLogPrintHelper` | 22 | Exported Function
-`NetpJoinProvider3Initialize` | 20 | Exported Function
-`NetpJoinProvider2Initialize` | 19 | Exported Function
-`NetpIsSetupInProgress` | 18 | Exported Function
-`NetpGetMachineAccountName` | 17 | Exported Function
-`NetpGetLsaPrimaryDomain` | 16 | Exported Function
-`NetpGetListOfJoinableOUs` | 15 | Exported Function
-`NetpGetJoinInformation` | 14 | Exported Function
-`NetpDomainJoinLicensingCheck` | 13 | Exported Function
-`NetpDoDomainJoin` | 12 | Exported Function
 `NetpCreateComputerObjectInDs` | 11 | Exported Function
 `NetpCrackNamesStatus2Win32Error` | 10 | Exported Function
+`NetpDomainJoinLicensingCheck` | 13 | Exported Function
+`NetpDoDomainJoin` | 12 | Exported Function
+`NetpAvoidNetlogonSpnSet` | 7 | Exported Function
+`NetCreateProvisioningPackage` | 1 | Exported Function
 `NetpControlServices` | 9 | Exported Function
 `NetpChangeMachineName` | 8 | Exported Function
-`NetpAvoidNetlogonSpnSet` | 7 | Exported Function
+`NetpJoinProvider2Initialize` | 19 | Exported Function
+`NetpIsSetupInProgress` | 18 | Exported Function
 `NetpJoinProviderInitialize` | 21 | Exported Function
-`NetSetuppOpenLog` | 6 | Exported Function
+`NetpJoinProvider3Initialize` | 20 | Exported Function
+`NetpGetListOfJoinableOUs` | 15 | Exported Function
+`NetpGetJoinInformation` | 14 | Exported Function
+`NetpGetMachineAccountName` | 17 | Exported Function
+`NetpGetLsaPrimaryDomain` | 16 | Exported Function
 
 
 ## Signature

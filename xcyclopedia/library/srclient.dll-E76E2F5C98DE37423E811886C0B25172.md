@@ -26,19 +26,19 @@ PE256 | `F8535E5FD4AAC2F3EA76AAFB86DE6B248D4D56DE4E557725F17C6BC88BF3DEEE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DisableSR` | 3 | Exported Function
-`DisableSRInternal` | 4 | Exported Function
-`EnableSR` | 5 | Exported Function
-`EnableSREx` | 6 | Exported Function
-`EnableSRInternal` | 7 | Exported Function
-`SetSRStateAfterSetup` | 13 | Exported Function
-`SRNewSystemId` | 8 | Exported Function
-`SRRemoveRestorePoint` | 9 | Exported Function
-`SRSetRestorePointA` | 10 | Exported Function
 `SRSetRestorePointInternal` | 11 | Exported Function
-`SRSetRestorePointW` | 12 | Exported Function
-`SysprepCleanup` | 1 | Exported Function
+`SRSetRestorePointA` | 10 | Exported Function
+`SRRemoveRestorePoint` | 9 | Exported Function
 `SysprepGeneralize` | 2 | Exported Function
+`SysprepCleanup` | 1 | Exported Function
+`SRSetRestorePointW` | 12 | Exported Function
+`SRNewSystemId` | 8 | Exported Function
+`EnableSR` | 5 | Exported Function
+`DisableSRInternal` | 4 | Exported Function
+`DisableSR` | 3 | Exported Function
+`SetSRStateAfterSetup` | 13 | Exported Function
+`EnableSRInternal` | 7 | Exported Function
+`EnableSREx` | 6 | Exported Function
 
 
 ## Signature

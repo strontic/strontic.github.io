@@ -26,16 +26,16 @@ PE256 | `1E0FDEC0DB9096736A36B6C21F80254048BA15C4E2710E224DC02627D4B45A0C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`FixDisabledComponentsForTeredo` | 7 | Exported Function
 `RefreshTeredoClientState` | 8 | Exported Function
+`FixDisabledComponentsForTeredo` | 7 | Exported Function
 `SetHostNameMediaStreamingMode` | 1 | Exported Function
-`TeredoExtAcquireTeredoConsumerHandle` | 9 | Exported Function
 `TeredoExtReleaseTeredoConsumerHandle` | 10 | Exported Function
+`TeredoExtAcquireTeredoConsumerHandle` | 9 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

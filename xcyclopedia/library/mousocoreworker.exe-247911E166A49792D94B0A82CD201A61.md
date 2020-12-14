@@ -41,7 +41,7 @@ SSDEEP | `6144:ADos+dDnz88uogqvOvyf45pD04dudI4SYtJzLAyW6/Rxxv4fYHuU:HdPuWmlp0i8l
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mousocoreworker.exe` being misused. While `mousocoreworker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mousocoreworker.exe` being misused. While `mousocoreworker.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

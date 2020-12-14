@@ -26,13 +26,13 @@ PE256 | `099C972177C6B4A25AAA362CC878A98376BBAA4898C44861B68B0964CDB8C033`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
 `GetRetryTimeStamp` | 1 | Exported Function
 `NgcTriggerTaskForOobe` | 7 | Exported Function
 `SetAikTimeTrigger` | 2 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

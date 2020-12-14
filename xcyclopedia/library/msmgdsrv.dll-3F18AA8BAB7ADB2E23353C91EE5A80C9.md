@@ -28,32 +28,32 @@ PE256 | `3A07B3D94D1E2F9EB026DF6FD3D8BBF44969F255873B23C24245A6249E4E386F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MSMDCreateAssembly` | 5 | Exported Function
-`MSMDOnServerReady` | 16 | Exported Function
-`MSMDLocalStreamWriteEndOfMessage` | 11 | Exported Function
-`MSMDLocalStreamWrite` | 10 | Exported Function
-`MSMDLocalStreamSkip` | 12 | Exported Function
-`MSMDLocalStreamRead` | 9 | Exported Function
-`MSMDLocalStreamFlush` | 13 | Exported Function
-`MSMDLocalStreamCloseBase` | 8 | Exported Function
 `MSMDLocalStreamClose` | 7 | Exported Function
-`MSMDInitModule` | 14 | Exported Function
-`MSMDFileSystemBrowserGetLogicalDrives` | 17 | Exported Function
+`MSMDLocalStreamCloseBase` | 8 | Exported Function
+`MSMDLocalStreamFlush` | 13 | Exported Function
 `MSMDFileSystemBrowserGetFiles` | 20 | Exported Function
-`MSMDFileSystemBrowserGetDirectories` | 19 | Exported Function
-`MSMDFileSystemBrowserGetAllowedDirectories` | 18 | Exported Function
-`MSMDFileSystemBrowserFileExists` | 21 | Exported Function
-`MSMDCreateTomJsonHelper` | 23 | Exported Function
-`MSMDCreateTimeDimReader` | 2 | Exported Function
-`MSMDCreateTimeDimCalculator` | 3 | Exported Function
-`MSMDCreateManagedZipLoadSaveHelper` | 26 | Exported Function
-`MSMDCreateManagedNLP` | 6 | Exported Function
-`MSMDCreateManagedMEngineTraceReader` | 25 | Exported Function
-`MSMDCreateManagedDSV` | 1 | Exported Function
-`MSMDCreateManagedDAX` | 24 | Exported Function
-`MSMDCreateManagedConnection` | 4 | Exported Function
+`MSMDFileSystemBrowserGetLogicalDrives` | 17 | Exported Function
+`MSMDInitModule` | 14 | Exported Function
+`MSMDLocalStreamRead` | 9 | Exported Function
+`MSMDOnServerReady` | 16 | Exported Function
 `MSMDResetModule` | 15 | Exported Function
 `MSMDSetFeatureSwitches` | 22 | Exported Function
+`MSMDLocalStreamSkip` | 12 | Exported Function
+`MSMDLocalStreamWrite` | 10 | Exported Function
+`MSMDLocalStreamWriteEndOfMessage` | 11 | Exported Function
+`MSMDCreateManagedDSV` | 1 | Exported Function
+`MSMDCreateManagedMEngineTraceReader` | 25 | Exported Function
+`MSMDCreateManagedNLP` | 6 | Exported Function
+`MSMDCreateAssembly` | 5 | Exported Function
+`MSMDCreateManagedConnection` | 4 | Exported Function
+`MSMDCreateManagedDAX` | 24 | Exported Function
+`MSMDCreateManagedZipLoadSaveHelper` | 26 | Exported Function
+`MSMDFileSystemBrowserFileExists` | 21 | Exported Function
+`MSMDFileSystemBrowserGetAllowedDirectories` | 18 | Exported Function
+`MSMDFileSystemBrowserGetDirectories` | 19 | Exported Function
+`MSMDCreateTimeDimCalculator` | 3 | Exported Function
+`MSMDCreateTimeDimReader` | 2 | Exported Function
+`MSMDCreateTomJsonHelper` | 23 | Exported Function
 
 
 ## Signature

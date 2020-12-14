@@ -26,89 +26,89 @@ PE256 | `EACA4D568E242F64B716E9FAF7014507C65A18CC5D30F3684D6794F8B5EEA02C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`const CArena::``vftable'` | 38 | Exported Function
-`CWStringArray::GetAt` | 60 | Exported Function
-`CWbemCriticalSection::GetOwningThreadId` | 62 | Exported Function
-`CWin32DefaultArena::WbemSysFreeString` | 78 | Exported Function
-`CWbemCriticalSection::GetRecursionCount` | 64 | Exported Function
 `CWbemCriticalSection::GetLockCount` | 61 | Exported Function
+`CWbemCriticalSection::GetRecursionCount` | 64 | Exported Function
 `WString::operator` | 37 | Exported Function
-`WString::operator` | 36 | Exported Function
 `WString::operator` | 35 | Exported Function
-`WString::operator` | 34 | Exported Function
-`WString::Length` | 71 | Exported Function
-`WString::EqualNoCase` | 52 | Exported Function
-`WString::Equal` | 51 | Exported Function
-`CWStringArray::Size` | 76 | Exported Function
-`CSmallArrayBlob::Size` | 75 | Exported Function
-`CFlexQueue::GetQueueSize` | 63 | Exported Function
-`CFlexArray::Size` | 74 | Exported Function
-`CFlexArray::Add` | 44 | Exported Function
+`WString::operator` | 36 | Exported Function
 `CWStringArray::operator` | 31 | Exported Function
-`CEnterWbemCriticalSection::IsEntered` | 68 | Exported Function
 `CWStringArray::GetArrayPtr` | 58 | Exported Function
-`CWin32DefaultArena::Free` | 53 | Exported Function
-`public: void __thiscall CWStringArray::``default constructor closure'(void)` | 43 | Exported Function
-`public: void __thiscall CFlexQueue::``default constructor closure'(void)` | 42 | Exported Function
-`CFlexArray::SetSize` | 73 | Exported Function
-`public: void __thiscall CFlexArray::``default constructor closure'(void)` | 41 | Exported Function
-`CCritSec::Leave` | 70 | Exported Function
-`CCritSec::Enter` | 50 | Exported Function
-`CCheckedInCritSec::Leave` | 69 | Exported Function
-`CCheckedInCritSec::Enter` | 49 | Exported Function
-`CSmallArrayBlob::GetArrayPtr` | 57 | Exported Function
-`CFlexArray::GetArrayPtr` | 55 | Exported Function
-`CSmallArrayBlob::operator` | 30 | Exported Function
-`CSmallArrayBlob::GetAt` | 59 | Exported Function
-`CFlexQueue::Unqueue` | 77 | Exported Function
-`CSmallArrayBlob::GetArrayPtr` | 56 | Exported Function
-`CFlexArray::GetArrayPtr` | 54 | Exported Function
-`CWin32DefaultArena::Realloc` | 72 | Exported Function
-`CWin32DefaultArena::Alloc` | 45 | Exported Function
+`CWStringArray::GetAt` | 60 | Exported Function
+`CWin32DefaultArena::WbemSysFreeString` | 78 | Exported Function
+`CWbemCriticalSection::GetOwningThreadId` | 62 | Exported Function
+`CFlexQueue::GetQueueSize` | 63 | Exported Function
+`CSmallArrayBlob::Size` | 75 | Exported Function
+`CFlexArray::Size` | 74 | Exported Function
+`CEnterWbemCriticalSection::IsEntered` | 68 | Exported Function
+`CFlexArray::Add` | 44 | Exported Function
+`WString::Length` | 71 | Exported Function
+`WString::operator` | 34 | Exported Function
+`WString::EqualNoCase` | 52 | Exported Function
+`CWStringArray::Size` | 76 | Exported Function
+`WString::Equal` | 51 | Exported Function
 `WString::GetStringPointerByRef` | 65 | Exported Function
+`CCritSec::Leave` | 70 | Exported Function
+`public: void __thiscall CFlexArray::``default constructor closure'(void)` | 41 | Exported Function
+`CCritSec::Enter` | 50 | Exported Function
+`CCheckedInCritSec::Enter` | 49 | Exported Function
+`CCheckedInCritSec::Leave` | 69 | Exported Function
 `CWStringArray::Compress` | 47 | Exported Function
-`CCheckedInCritSec::IsEntered` | 67 | Exported Function
-`CWbemCriticalSection::operator` | 28 | Exported Function
-`public: __thiscall CEnterWbemCriticalSection::~CEnterWbemCriticalSection(void)` | 14 | Exported Function
-`CEnterWbemCriticalSection::CEnterWbemCriticalSection` | 6 | Exported Function
-`public: __thiscall CCritSec::~CCritSec(void)` | 13 | Exported Function
-`CCritSec::CCritSec` | 5 | Exported Function
-`public: __thiscall CCheckedInCritSec::~CCheckedInCritSec(void)` | 12 | Exported Function
-`CCheckedInCritSec::CCheckedInCritSec` | 4 | Exported Function
-`CArena::CArena` | 3 | Exported Function
-`CArena::CArena` | 2 | Exported Function
-`CArena::CArena` | 1 | Exported Function
-`CFlexQueue::IncrementIndex` | 66 | Exported Function
-`CFlexQueue::DecrementIndex` | 48 | Exported Function
-`DllUnregisterServer` | 83 | Exported Function
-`DllRegisterServer` | 82 | Exported Function
-`DllGetClassObject` | 81 | Exported Function
-`DllCanUnloadNow` | 80 | Exported Function
-`const CWin32DefaultArena::``vftable'` | 40 | Exported Function
-`const CHaltable::``vftable'` | 39 | Exported Function
-`CHaltable::CHaltable` | 7 | Exported Function
-`CWin32DefaultArena::operator` | 29 | Exported Function
-`CInCritSec::CInCritSec` | 8 | Exported Function
-`CWin32DefaultArena::CWin32DefaultArena` | 9 | Exported Function
-`CSmallArrayBlob::operator` | 27 | Exported Function
-`CSmallArrayBlob::operator` | 26 | Exported Function
-`CInCritSec::operator` | 25 | Exported Function
-`CHaltable::operator` | 24 | Exported Function
-`CFlexQueue::operator` | 23 | Exported Function
-`CEnterWbemCriticalSection::operator` | 22 | Exported Function
-`CCritSec::operator` | 21 | Exported Function
-`CCheckedInCritSec::operator` | 20 | Exported Function
-`CArena::operator` | 19 | Exported Function
-`CArena::operator` | 18 | Exported Function
-`CHaltable::isValid` | 79 | Exported Function
-`public: __thiscall WString::~WString(void)` | 17 | Exported Function
-`WString::WString` | 11 | Exported Function
-`WString::operator` | 33 | Exported Function
-`WString::operator` | 32 | Exported Function
-`public: __thiscall CWin32DefaultArena::~CWin32DefaultArena(void)` | 16 | Exported Function
-`CWin32DefaultArena::CWin32DefaultArena` | 10 | Exported Function
-`public: __thiscall CInCritSec::~CInCritSec(void)` | 15 | Exported Function
 `WString::BindPtr` | 46 | Exported Function
+`public: void __thiscall CWStringArray::``default constructor closure'(void)` | 43 | Exported Function
+`CFlexArray::SetSize` | 73 | Exported Function
+`public: void __thiscall CFlexQueue::``default constructor closure'(void)` | 42 | Exported Function
+`CFlexArray::GetArrayPtr` | 54 | Exported Function
+`CSmallArrayBlob::GetArrayPtr` | 56 | Exported Function
+`CWin32DefaultArena::Realloc` | 72 | Exported Function
+`CWin32DefaultArena::Free` | 53 | Exported Function
+`CWin32DefaultArena::Alloc` | 45 | Exported Function
+`CFlexArray::GetArrayPtr` | 55 | Exported Function
+`CSmallArrayBlob::GetArrayPtr` | 57 | Exported Function
+`CSmallArrayBlob::operator` | 30 | Exported Function
+`CFlexQueue::Unqueue` | 77 | Exported Function
+`CSmallArrayBlob::GetAt` | 59 | Exported Function
+`CCheckedInCritSec::IsEntered` | 67 | Exported Function
+`public: __thiscall CCheckedInCritSec::~CCheckedInCritSec(void)` | 12 | Exported Function
+`CCritSec::CCritSec` | 5 | Exported Function
+`CCheckedInCritSec::CCheckedInCritSec` | 4 | Exported Function
+`CArena::CArena` | 2 | Exported Function
+`CArena::CArena` | 3 | Exported Function
+`CHaltable::CHaltable` | 7 | Exported Function
+`CInCritSec::CInCritSec` | 8 | Exported Function
+`public: __thiscall CEnterWbemCriticalSection::~CEnterWbemCriticalSection(void)` | 14 | Exported Function
+`public: __thiscall CCritSec::~CCritSec(void)` | 13 | Exported Function
+`CEnterWbemCriticalSection::CEnterWbemCriticalSection` | 6 | Exported Function
+`DllCanUnloadNow` | 80 | Exported Function
+`DllGetClassObject` | 81 | Exported Function
+`const CWin32DefaultArena::``vftable'` | 40 | Exported Function
+`const CArena::``vftable'` | 38 | Exported Function
+`const CHaltable::``vftable'` | 39 | Exported Function
+`CFlexQueue::IncrementIndex` | 66 | Exported Function
+`CArena::CArena` | 1 | Exported Function
+`CFlexQueue::DecrementIndex` | 48 | Exported Function
+`DllRegisterServer` | 82 | Exported Function
+`DllUnregisterServer` | 83 | Exported Function
+`public: __thiscall CInCritSec::~CInCritSec(void)` | 15 | Exported Function
+`CFlexQueue::operator` | 23 | Exported Function
+`CHaltable::operator` | 24 | Exported Function
+`CEnterWbemCriticalSection::operator` | 22 | Exported Function
+`CCheckedInCritSec::operator` | 20 | Exported Function
+`CCritSec::operator` | 21 | Exported Function
+`CWbemCriticalSection::operator` | 28 | Exported Function
+`CWin32DefaultArena::operator` | 29 | Exported Function
+`CSmallArrayBlob::operator` | 27 | Exported Function
+`CInCritSec::operator` | 25 | Exported Function
+`CSmallArrayBlob::operator` | 26 | Exported Function
+`WString::operator` | 32 | Exported Function
+`WString::operator` | 33 | Exported Function
+`public: __thiscall CWin32DefaultArena::~CWin32DefaultArena(void)` | 16 | Exported Function
+`CWin32DefaultArena::CWin32DefaultArena` | 9 | Exported Function
+`CWin32DefaultArena::CWin32DefaultArena` | 10 | Exported Function
+`CArena::operator` | 18 | Exported Function
+`CArena::operator` | 19 | Exported Function
+`CHaltable::isValid` | 79 | Exported Function
+`WString::WString` | 11 | Exported Function
+`public: __thiscall WString::~WString(void)` | 17 | Exported Function
 
 
 ## Signature

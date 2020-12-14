@@ -24,9 +24,6 @@ PE256 | `21B074477C85A195DE10580D92AD8B5C680A34B817D36E53AB2D26E2A40D0FB2`
 
 ## Runtime Data
 
-### Child Processes:
-csrss.exe winlogon.exe
-
 ### Loaded Modules:
 
 Path |
@@ -58,7 +55,7 @@ C:\Windows\system32\SearchProtocolHost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/59cc005c70a7e16bd2e0c8df3daf7e6f9fca5b49a7a377a62775480579a5252f/detection
 
 

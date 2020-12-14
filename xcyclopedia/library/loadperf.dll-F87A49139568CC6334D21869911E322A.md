@@ -26,20 +26,20 @@ PE256 | `B16943390CCD833667FE4C1DC3EA3998C4217CA24FE02DE6329C74D228F65D9A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BackupPerfRegistryToFileW` | 1 | Exported Function
-`InstallPerfDllA` | 2 | Exported Function
-`InstallPerfDllW` | 3 | Exported Function
-`LoadPerfCounterTextStringsA` | 4 | Exported Function
-`LoadPerfCounterTextStringsW` | 5 | Exported Function
-`LpAcquireInstallationMutex` | 6 | Exported Function
-`LpReleaseInstallationMutex` | 7 | Exported Function
-`RestorePerfRegistryFromFileW` | 8 | Exported Function
-`SetServiceAsTrustedA` | 9 | Exported Function
 `SetServiceAsTrustedW` | 10 | Exported Function
+`SetServiceAsTrustedA` | 9 | Exported Function
+`RestorePerfRegistryFromFileW` | 8 | Exported Function
 `UnloadPerfCounterTextStringsA` | 11 | Exported Function
-`UnloadPerfCounterTextStringsW` | 12 | Exported Function
-`UpdatePerfNameFilesA` | 13 | Exported Function
 `UpdatePerfNameFilesW` | 14 | Exported Function
+`UpdatePerfNameFilesA` | 13 | Exported Function
+`UnloadPerfCounterTextStringsW` | 12 | Exported Function
+`InstallPerfDllW` | 3 | Exported Function
+`InstallPerfDllA` | 2 | Exported Function
+`BackupPerfRegistryToFileW` | 1 | Exported Function
+`LoadPerfCounterTextStringsA` | 4 | Exported Function
+`LpReleaseInstallationMutex` | 7 | Exported Function
+`LpAcquireInstallationMutex` | 6 | Exported Function
+`LoadPerfCounterTextStringsW` | 5 | Exported Function
 
 
 ## Signature

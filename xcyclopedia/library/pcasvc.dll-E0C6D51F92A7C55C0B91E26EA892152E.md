@@ -26,11 +26,11 @@ PE256 | `9FF52F540B9DCCC543F5D255E46F32BF22C9603D4DE72F8663089C4E29571695`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PcaPatchSdbTask` | 1 | Exported Function
-`QueryEncapsulationSettings` | 2 | Exported Function
-`QueryEncapsulationSettingsTC` | 3 | Exported Function
 `ServiceMain` | 4 | Exported Function
 `SvchostPushServiceGlobals` | 5 | Exported Function
+`QueryEncapsulationSettingsTC` | 3 | Exported Function
+`PcaPatchSdbTask` | 1 | Exported Function
+`QueryEncapsulationSettings` | 2 | Exported Function
 
 
 ## Signature

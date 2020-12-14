@@ -52,7 +52,7 @@ usage: C:\Windows\system32\jetpack.exe [-351db] <database name> <temp database n
 
 ## Possible Misuse
 
-*The following table contains possible examples of `jetpack.exe` being misused. While `jetpack.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `jetpack.exe` being misused. While `jetpack.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

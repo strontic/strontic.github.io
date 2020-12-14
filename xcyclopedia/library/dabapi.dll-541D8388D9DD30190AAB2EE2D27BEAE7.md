@@ -26,10 +26,10 @@ PE256 | `2D84612C4BC62B47E628230D754B0B856DCFBB8C5045347876211A861CD63BBE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DabApiBufferFree` | 1 | Exported Function
-`DabGetLastScheduledRunTime` | 2 | Exported Function
 `DabRegisterTriggerConsumer` | 3 | Exported Function
 `DabUnregisterTriggerConsumer` | 4 | Exported Function
+`DabApiBufferFree` | 1 | Exported Function
+`DabGetLastScheduledRunTime` | 2 | Exported Function
 
 
 ## Signature

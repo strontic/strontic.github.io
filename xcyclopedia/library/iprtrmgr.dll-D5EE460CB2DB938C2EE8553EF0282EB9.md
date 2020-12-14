@@ -26,8 +26,8 @@ PE256 | `904FDF795C72DD1F59C7DF01ED14C8A14C6507090BFE554DBB1A33B8A20C8A88`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MapInterfaceToAdapter` | 1 | Exported Function
 `StartRouter` | 2 | Exported Function
+`MapInterfaceToAdapter` | 1 | Exported Function
 
 
 ## Signature

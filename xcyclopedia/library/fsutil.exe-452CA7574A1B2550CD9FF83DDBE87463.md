@@ -83,13 +83,13 @@ C:\Windows\SysWOW64\fsutil.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/b732e4e29a2d768417bbcd1b18368b1ba9bfecf0eb4af320c27b5d800d1f8da2/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `fsutil.exe` being misused. While `fsutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `fsutil.exe` being misused. While `fsutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

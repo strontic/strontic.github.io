@@ -42,32 +42,18 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\OpcServices.DLL |
-C:\Windows\system32\POWRPROF.dll |
 C:\Windows\system32\printfilterpipelinesvc.exe |
-C:\Windows\system32\prntvpt.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\urlmon.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WINSPOOL.DRV |
-C:\Windows\system32\XmlLite.dll |
-C:\Windows\system32\xpsservices.dll |
 
 
 ## Signature

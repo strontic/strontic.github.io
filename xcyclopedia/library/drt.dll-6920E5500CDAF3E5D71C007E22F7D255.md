@@ -26,27 +26,27 @@ PE256 | `06ACFA6A9AD680AFA88240FF73A93F743C05DF2639FCD54E1785EFEA3F32E7E9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrtClose` | 6 | Exported Function
-`DrtStartSearch` | 19 | Exported Function
-`DrtStartPartitionDetection` | 5 | Exported Function
-`DrtRegisterKey` | 18 | Exported Function
-`DrtPingPeer` | 4 | Exported Function
 `DrtOpen` | 17 | Exported Function
+`DrtPingPeer` | 4 | Exported Function
 `DrtHandlePowerEvent` | 3 | Exported Function
-`DrtGetSearchResultSize` | 16 | Exported Function
 `DrtGetSearchResult` | 15 | Exported Function
+`DrtGetSearchResultSize` | 16 | Exported Function
 `DrtUnregisterKey` | 20 | Exported Function
-`DrtGetSearchPathSize` | 14 | Exported Function
-`DrtGetInstanceNameSize` | 12 | Exported Function
-`DrtGetInstanceName` | 11 | Exported Function
-`DrtGetEventDataSize` | 10 | Exported Function
-`DrtGetEventData` | 9 | Exported Function
-`DrtGetCacheStatsEx` | 2 | Exported Function
-`DrtFlushCache` | 1 | Exported Function
-`DrtEndSearch` | 8 | Exported Function
-`DrtContinueSearch` | 7 | Exported Function
-`DrtGetSearchPath` | 13 | Exported Function
 `DrtUpdateKey` | 21 | Exported Function
+`DrtStartSearch` | 19 | Exported Function
+`DrtRegisterKey` | 18 | Exported Function
+`DrtStartPartitionDetection` | 5 | Exported Function
+`DrtGetSearchPathSize` | 14 | Exported Function
+`DrtFlushCache` | 1 | Exported Function
+`DrtGetCacheStatsEx` | 2 | Exported Function
+`DrtEndSearch` | 8 | Exported Function
+`DrtClose` | 6 | Exported Function
+`DrtContinueSearch` | 7 | Exported Function
+`DrtGetInstanceNameSize` | 12 | Exported Function
+`DrtGetSearchPath` | 13 | Exported Function
+`DrtGetInstanceName` | 11 | Exported Function
+`DrtGetEventData` | 9 | Exported Function
+`DrtGetEventDataSize` | 10 | Exported Function
 
 
 ## Signature

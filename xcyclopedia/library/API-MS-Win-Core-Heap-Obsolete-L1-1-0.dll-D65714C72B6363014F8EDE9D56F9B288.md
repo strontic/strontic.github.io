@@ -26,21 +26,21 @@ PE256 | `B7B553A12F4FA348DEC015D4311A8D7A32F2012512B992893ABF42B1A80FFDC6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GlobalAlloc` | 1 | Exported Function
-`GlobalFlags` | 2 | Exported Function
-`GlobalFree` | 3 | Exported Function
-`GlobalHandle` | 4 | Exported Function
-`GlobalLock` | 5 | Exported Function
-`GlobalReAlloc` | 6 | Exported Function
-`GlobalSize` | 7 | Exported Function
-`GlobalUnlock` | 8 | Exported Function
-`LocalAlloc` | 9 | Exported Function
-`LocalFlags` | 10 | Exported Function
 `LocalFree` | 11 | Exported Function
+`LocalFlags` | 10 | Exported Function
+`LocalAlloc` | 9 | Exported Function
 `LocalLock` | 12 | Exported Function
-`LocalReAlloc` | 13 | Exported Function
-`LocalSize` | 14 | Exported Function
 `LocalUnlock` | 15 | Exported Function
+`LocalSize` | 14 | Exported Function
+`LocalReAlloc` | 13 | Exported Function
+`GlobalUnlock` | 8 | Exported Function
+`GlobalFree` | 3 | Exported Function
+`GlobalFlags` | 2 | Exported Function
+`GlobalAlloc` | 1 | Exported Function
+`GlobalHandle` | 4 | Exported Function
+`GlobalSize` | 7 | Exported Function
+`GlobalReAlloc` | 6 | Exported Function
+`GlobalLock` | 5 | Exported Function
 
 
 ## Signature

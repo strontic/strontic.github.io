@@ -26,20 +26,20 @@ PE256 | `0CBE7C4A7056808B5821638179231FDA140380CD092A4FA25E8522825C5C2EAC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AutoPilotClearNetworkRequiredFlag` | 1 | Exported Function
-`AutoPilotDisable` | 2 | Exported Function
-`AutoPilotGetOobeSettingsOverride` | 3 | Exported Function
-`AutoPilotGetPolicyDwordByName` | 4 | Exported Function
-`AutoPilotGetPolicyStringByName` | 5 | Exported Function
-`AutoPilotGetProfileState` | 6 | Exported Function
-`AutoPilotGetSetting` | 7 | Exported Function
-`AutoPilotIsDisabled` | 8 | Exported Function
-`AutoPilotIsLocalProfileAvailable` | 9 | Exported Function
 `AutoPilotIsNetworkRequired` | 10 | Exported Function
+`AutoPilotIsLocalProfileAvailable` | 9 | Exported Function
+`AutoPilotIsDisabled` | 8 | Exported Function
 `AutoPilotPerformDeviceEnrollment` | 11 | Exported Function
-`AutoPilotRenameDevice` | 12 | Exported Function
-`AutoPilotRetrieveSettings` | 13 | Exported Function
 `AutoPilotStoreSetting` | 14 | Exported Function
+`AutoPilotRetrieveSettings` | 13 | Exported Function
+`AutoPilotRenameDevice` | 12 | Exported Function
+`AutoPilotGetOobeSettingsOverride` | 3 | Exported Function
+`AutoPilotDisable` | 2 | Exported Function
+`AutoPilotClearNetworkRequiredFlag` | 1 | Exported Function
+`AutoPilotGetPolicyDwordByName` | 4 | Exported Function
+`AutoPilotGetSetting` | 7 | Exported Function
+`AutoPilotGetProfileState` | 6 | Exported Function
+`AutoPilotGetPolicyStringByName` | 5 | Exported Function
 
 
 ## Signature

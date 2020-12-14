@@ -26,28 +26,28 @@ PE256 | `CED74023329921DE375E21B9771BA45CE2FA292F2D56266CB5845DA69F31FE50`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TcAddFilter` | 1 | Exported Function
-`TcSetFlowW` | 20 | Exported Function
-`TcSetFlowA` | 19 | Exported Function
-`TcRegisterClient` | 18 | Exported Function
-`TcQueryInterface` | 17 | Exported Function
-`TcQueryFlowW` | 16 | Exported Function
 `TcQueryFlowA` | 15 | Exported Function
+`TcQueryFlowW` | 16 | Exported Function
 `TcOpenInterfaceW` | 14 | Exported Function
-`TcOpenInterfaceA` | 13 | Exported Function
 `TcModifyFlow` | 12 | Exported Function
-`TcGetInterfaceList` | 11 | Exported Function
-`TcGetFlowNameW` | 10 | Exported Function
-`TcGetFlowNameA` | 9 | Exported Function
-`TcEnumerateInterfaces` | 8 | Exported Function
-`TcEnumerateFlows` | 7 | Exported Function
-`TcDeregisterClient` | 6 | Exported Function
-`TcDeleteFlow` | 5 | Exported Function
-`TcDeleteFilter` | 4 | Exported Function
-`TcCloseInterface` | 3 | Exported Function
-`TcAddFlow` | 2 | Exported Function
+`TcOpenInterfaceA` | 13 | Exported Function
+`TcQueryInterface` | 17 | Exported Function
 `TcSetInterface` | 21 | Exported Function
 `TcSetSocketFlow` | 22 | Exported Function
+`TcSetFlowW` | 20 | Exported Function
+`TcRegisterClient` | 18 | Exported Function
+`TcSetFlowA` | 19 | Exported Function
+`TcDeleteFilter` | 4 | Exported Function
+`TcDeleteFlow` | 5 | Exported Function
+`TcCloseInterface` | 3 | Exported Function
+`TcAddFilter` | 1 | Exported Function
+`TcAddFlow` | 2 | Exported Function
+`TcDeregisterClient` | 6 | Exported Function
+`TcGetFlowNameW` | 10 | Exported Function
+`TcGetInterfaceList` | 11 | Exported Function
+`TcGetFlowNameA` | 9 | Exported Function
+`TcEnumerateFlows` | 7 | Exported Function
+`TcEnumerateInterfaces` | 8 | Exported Function
 
 
 ## Signature
@@ -77,7 +77,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `traffic.dll` being misused. While `traffic.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `traffic.dll` being misused. While `traffic.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -136,7 +136,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/macos-matrix.md) | \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| [Linux and Mac File and Directory Permissions Modification](../../T1222.002/T1222.002.md) \|  \|  \|  \|  \|  \| Remote Access Software [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/macos-matrix.md) | \|  \|  \|  \|  \| Modify Authentication Process [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/macos-matrix.md) | \|  \|  \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \|  \|  \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \|  \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| LC_LOAD_DYLIB Addition [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Environmental Keying [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Security Account Manager](../../T1003.002/T1003.002.md) \|  \|  \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \|  \| [External Remote Services](../../T1133/T1133.md) \| LC_LOAD_DYLIB Addition [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Environmental Keying [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Security Account Manager](../../T1003.002/T1003.002.md) \|  \|  \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| Portable Executable Injection [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \|  \|  \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \|  \|  \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \|  \|  \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \| Network Logon Script [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Path Interception by PATH Environment Variable [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Hidden Window](../../T1564.003/T1564.003.md) \| Web Portal Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \| Traffic Signaling [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

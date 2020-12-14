@@ -26,13 +26,13 @@ PE256 | `5CE481C99D10168DB18E0A1E6B82FBE25626073C1FA9337666F0CE545500E57E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceMain` | 1 | Exported Function
-`StateRepository_DataAccessLayer_DatabaseCache_Add` | 3 | Exported Function
-`StateRepository_DataAccessLayer_DatabaseCache_Get` | 4 | Exported Function
-`StateRepository_Initialize` | 5 | Exported Function
 `StateRepository_Service_UpdateStatus` | 6 | Exported Function
 `StateRepository_Shutdown` | 7 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`StateRepository_Initialize` | 5 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`StateRepository_DataAccessLayer_DatabaseCache_Add` | 3 | Exported Function
+`StateRepository_DataAccessLayer_DatabaseCache_Get` | 4 | Exported Function
 
 
 ## Signature

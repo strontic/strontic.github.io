@@ -26,8 +26,8 @@ PE256 | `5442FD699A28E20FD9C417562A7067CB6B9482476454A6BFFD7F6FF5A22443E8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CheckSurrogateUpdate` | 1 | Exported Function
 `CreateIImeSkdicInstance` | 2 | Exported Function
+`CheckSurrogateUpdate` | 1 | Exported Function
 
 
 ## Signature

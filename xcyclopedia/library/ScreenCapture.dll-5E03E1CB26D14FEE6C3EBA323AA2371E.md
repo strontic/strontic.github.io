@@ -26,28 +26,28 @@ PE256 | `B2A9BF76CB1F11D468B4C12CF2894C642CBA8A2D2D6AE0C7244C8B9B6FAB5DD9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`const ScreenCapture::``vftable'` | 13 | Exported Function
-`ScreenCaptureImpl::SetLogger` | 19 | Exported Function
-`ScreenCaptureImpl::SetLanguage` | 18 | Exported Function
-`ScreenCaptureImpl::SaveFromClipboard` | 17 | Exported Function
-`ScreenCaptureFact::getInstance` | 22 | Exported Function
-`ScreenCaptureObserver::operator` | 12 | Exported Function
 `ScreenCaptureObserver::operator` | 11 | Exported Function
+`ScreenCaptureObserver::operator` | 12 | Exported Function
 `ScreenCapture::operator` | 10 | Exported Function
-`ScreenCapture::operator` | 9 | Exported Function
 `ScreenCaptureObserver::ScreenCaptureObserver` | 7 | Exported Function
-`ScreenCaptureObserver::ScreenCaptureObserver` | 6 | Exported Function
-`ScreenCaptureObserver::ScreenCaptureObserver` | 5 | Exported Function
-`public: __thiscall ScreenCaptureImpl::~ScreenCaptureImpl(void)` | 8 | Exported Function
-`ScreenCaptureImpl::ScreenCaptureImpl` | 4 | Exported Function
-`ScreenCapture::ScreenCapture` | 3 | Exported Function
-`ScreenCapture::ScreenCapture` | 2 | Exported Function
-`ScreenCapture::ScreenCapture` | 1 | Exported Function
-`ScreenCaptureImpl::ResetCaptureDialogInstance` | 16 | Exported Function
-`ScreenCaptureImpl::CreateCaptureDialog` | 15 | Exported Function
-`const ScreenCaptureObserver::``vftable'` | 14 | Exported Function
+`ScreenCapture::operator` | 9 | Exported Function
+`ScreenCaptureFact::getInstance` | 22 | Exported Function
 `std::weak_ptr` | 20 | Exported Function
 `ScreenCaptureImpl::StopCapture` | 21 | Exported Function
+`ScreenCaptureImpl::SetLogger` | 19 | Exported Function
+`ScreenCaptureImpl::SaveFromClipboard` | 17 | Exported Function
+`ScreenCaptureImpl::SetLanguage` | 18 | Exported Function
+`ScreenCaptureImpl::ResetCaptureDialogInstance` | 16 | Exported Function
+`ScreenCapture::ScreenCapture` | 1 | Exported Function
+`ScreenCaptureImpl::CreateCaptureDialog` | 15 | Exported Function
+`const ScreenCapture::``vftable'` | 13 | Exported Function
+`const ScreenCaptureObserver::``vftable'` | 14 | Exported Function
+`ScreenCapture::ScreenCapture` | 2 | Exported Function
+`ScreenCaptureObserver::ScreenCaptureObserver` | 5 | Exported Function
+`ScreenCaptureObserver::ScreenCaptureObserver` | 6 | Exported Function
+`public: __thiscall ScreenCaptureImpl::~ScreenCaptureImpl(void)` | 8 | Exported Function
+`ScreenCapture::ScreenCapture` | 3 | Exported Function
+`ScreenCaptureImpl::ScreenCaptureImpl` | 4 | Exported Function
 
 
 ## Signature
@@ -76,7 +76,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ScreenCapture.dll` being misused. While `ScreenCapture.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ScreenCapture.dll` being misused. While `ScreenCapture.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

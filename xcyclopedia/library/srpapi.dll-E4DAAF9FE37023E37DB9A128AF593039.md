@@ -26,27 +26,27 @@ PE256 | `28EB68773EA4C4A87F1EA10F05D992061BE43C8301F082BB661F813D33436871`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AiEvaluatePlugin` | 1 | Exported Function
-`SrpOpenTrackInstall` | 19 | Exported Function
-`SrpIsTokenService` | 18 | Exported Function
-`SrpIsAllowed` | 17 | Exported Function
-`SrpInheritOriginClaim` | 16 | Exported Function
 `SrpInheritEnterpriseContext` | 15 | Exported Function
+`SrpInheritOriginClaim` | 16 | Exported Function
 `SrpGetEnterprisePolicy` | 14 | Exported Function
-`SrpGetEnterpriseIds` | 13 | Exported Function
 `SrpGetAppxFqbnFromPackageFullName` | 12 | Exported Function
+`SrpGetEnterpriseIds` | 13 | Exported Function
 `SrpRestoreEnterpriseContext` | 20 | Exported Function
-`SrpGetAllowedEnterprises` | 11 | Exported Function
-`SrpDoesPolicyAllowAppExecution` | 9 | Exported Function
-`SrpDisablePermissiveModeFileEncryption` | 8 | Exported Function
-`SrpCreateThreadNetworkContext` | 7 | Exported Function
-`SrpCloseTrackInstall` | 6 | Exported Function
-`SrpCloseThreadNetworkContext` | 5 | Exported Function
-`AppIDFreeAttributeString` | 4 | Exported Function
-`AppIDEncodeAttributeString` | 3 | Exported Function
-`AppIDDecodeAttributeString` | 2 | Exported Function
-`SrpEnablePermissiveModeFileEncryption` | 10 | Exported Function
 `SrpSetTokenEnterpriseId` | 21 | Exported Function
+`SrpOpenTrackInstall` | 19 | Exported Function
+`SrpIsAllowed` | 17 | Exported Function
+`SrpIsTokenService` | 18 | Exported Function
+`SrpGetAllowedEnterprises` | 11 | Exported Function
+`AppIDFreeAttributeString` | 4 | Exported Function
+`SrpCloseThreadNetworkContext` | 5 | Exported Function
+`AppIDEncodeAttributeString` | 3 | Exported Function
+`AiEvaluatePlugin` | 1 | Exported Function
+`AppIDDecodeAttributeString` | 2 | Exported Function
+`SrpDoesPolicyAllowAppExecution` | 9 | Exported Function
+`SrpEnablePermissiveModeFileEncryption` | 10 | Exported Function
+`SrpDisablePermissiveModeFileEncryption` | 8 | Exported Function
+`SrpCloseTrackInstall` | 6 | Exported Function
+`SrpCreateThreadNetworkContext` | 7 | Exported Function
 
 
 ## Signature

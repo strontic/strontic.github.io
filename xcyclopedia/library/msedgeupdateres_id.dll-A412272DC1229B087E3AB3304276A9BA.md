@@ -52,6 +52,7 @@ PE256 | `2B771089EA2E92E2D0809E6752F141FFF58774B8BA427292471AF5473B038AAF`
 File | Score
 -- | --
 [C:\Windows\system32\csrss.exe](csrss.exe-72565E7A0145E0657E586F6CF7696DC7.md) | 27
+[C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\TextInputHost.exe](TextInputHost.exe-75766BF7A652FED2C51D79AED9789394.md) | 33
 
 
 

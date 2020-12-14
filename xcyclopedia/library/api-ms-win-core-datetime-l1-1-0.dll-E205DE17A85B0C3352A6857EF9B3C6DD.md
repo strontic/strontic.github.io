@@ -26,10 +26,10 @@ PE256 | `9983C31159652EC1B8F0472F15681EA0E66F404EBA1BF679C06DA276B505C9A8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetDateFormatA` | 1 | Exported Function
-`GetDateFormatW` | 2 | Exported Function
 `GetTimeFormatA` | 3 | Exported Function
 `GetTimeFormatW` | 4 | Exported Function
+`GetDateFormatA` | 1 | Exported Function
+`GetDateFormatW` | 2 | Exported Function
 
 
 ## Signature

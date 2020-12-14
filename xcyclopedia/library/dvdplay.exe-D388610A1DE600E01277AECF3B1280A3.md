@@ -59,7 +59,7 @@ C:\Windows\SysWOW64\dvdplay.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/b740fbba53980b4c2eec43d09f3ada7d7b55431d68a15d83ad77e1dc582ad31e/detection
 
 ## File Similarity (ssdeep match)

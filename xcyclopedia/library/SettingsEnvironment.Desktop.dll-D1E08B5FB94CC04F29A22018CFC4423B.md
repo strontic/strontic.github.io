@@ -26,8 +26,8 @@ PE256 | `B285F483A3D0AF629E8A178BBAAA8E5EF084697BD73D3BC63DC77A74DB9CF1D6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
 `GetDesktopSettingsEnvironment` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

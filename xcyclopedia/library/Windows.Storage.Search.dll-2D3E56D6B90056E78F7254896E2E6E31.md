@@ -26,30 +26,30 @@ PE256 | `6D25A29C917C56ED44BCBC9915911487A0EEBCE57EF03F980F4254F4CF5949D4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateDefaultProviderResolver` | 2002 | Exported Function
-`SHCreateScopeItemFromShellItem` | 2023 | Exported Function
-`SHCreateScopeItemFromKnownFolder` | 2022 | Exported Function
-`SHCreateScopeItemFromIDList` | 2021 | Exported Function
-`SHCreateScopeFromShellItemArray` | 2020 | Exported Function
-`SHCreateScopeFromIDListsEx` | 2019 | Exported Function
-`SHCreateScope` | 2018 | Exported Function
 `SHCreateAutoListWithID` | 2017 | Exported Function
-`SHCreateAutoList` | 2016 | Exported Function
-`SEARCH_WriteAutoListContents` | 2015 | Exported Function
+`SHCreateScope` | 2018 | Exported Function
+`SHCreateScopeFromIDListsEx` | 2019 | Exported Function
 `SEARCH_RemoteLocationsCscStateCache_IsRemoteLocationInCsc` | 2014 | Exported Function
-`IsShellItemInSearchIndex` | 2013 | Exported Function
-`IsMSSearchEnabled` | 2012 | Exported Function
-`GetScopeFolderType` | 2011 | Exported Function
-`GetGatherAdmin` | 2010 | Exported Function
-`DllUnregisterServer` | 2009 | Exported Function
-`DllRegisterServer` | 2008 | Exported Function
-`DllMain` | 2007 | Exported Function
-`DllGetClassObject` | 2006 | Exported Function
-`DllCanUnloadNow` | 2005 | Exported Function
-`CreateSingleVisibleInList` | 2004 | Exported Function
-`CreateResultSetFactory` | 2003 | Exported Function
+`SEARCH_WriteAutoListContents` | 2015 | Exported Function
+`SHCreateAutoList` | 2016 | Exported Function
+`SHCreateScopeItemFromShellItem` | 2023 | Exported Function
 `SHCreateSearchIDListFromAutoList` | 2024 | Exported Function
 `SHCreateTransientVFolderIDList` | 2025 | Exported Function
+`SHCreateScopeFromShellItemArray` | 2020 | Exported Function
+`SHCreateScopeItemFromIDList` | 2021 | Exported Function
+`SHCreateScopeItemFromKnownFolder` | 2022 | Exported Function
+`DllCanUnloadNow` | 2005 | Exported Function
+`DllGetClassObject` | 2006 | Exported Function
+`DllMain` | 2007 | Exported Function
+`CreateDefaultProviderResolver` | 2002 | Exported Function
+`CreateResultSetFactory` | 2003 | Exported Function
+`CreateSingleVisibleInList` | 2004 | Exported Function
+`GetScopeFolderType` | 2011 | Exported Function
+`IsMSSearchEnabled` | 2012 | Exported Function
+`IsShellItemInSearchIndex` | 2013 | Exported Function
+`DllRegisterServer` | 2008 | Exported Function
+`DllUnregisterServer` | 2009 | Exported Function
+`GetGatherAdmin` | 2010 | Exported Function
 
 
 ## Signature

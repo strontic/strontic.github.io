@@ -49,7 +49,7 @@ PE256 | `A42A20DA16F83B8467DCED74AB028B58D5927D15D9D74C5C7B0D5C9DAC042CB2`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

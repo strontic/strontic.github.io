@@ -43,7 +43,6 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\ie4ushowIE.exe |
@@ -60,7 +59,6 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
 
 

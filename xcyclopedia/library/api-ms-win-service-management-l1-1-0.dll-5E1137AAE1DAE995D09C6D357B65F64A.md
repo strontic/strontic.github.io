@@ -26,13 +26,13 @@ PE256 | `FFCEDAA6E0D5342AB654EE3E3F641F92BE2F11A6071A34C1C7F17C8D7AFE1FF4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseServiceHandle` | 1 | Exported Function
-`ControlServiceExW` | 2 | Exported Function
-`CreateServiceW` | 3 | Exported Function
-`DeleteService` | 4 | Exported Function
 `OpenSCManagerW` | 5 | Exported Function
 `OpenServiceW` | 6 | Exported Function
 `StartServiceW` | 7 | Exported Function
+`DeleteService` | 4 | Exported Function
+`CloseServiceHandle` | 1 | Exported Function
+`ControlServiceExW` | 2 | Exported Function
+`CreateServiceW` | 3 | Exported Function
 
 
 ## Signature

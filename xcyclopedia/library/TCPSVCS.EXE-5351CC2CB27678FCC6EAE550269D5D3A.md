@@ -49,7 +49,7 @@ PE256 | `349524AC3A75E4CDECBB8D893D97353B6AE66FE33336B9C5909D9EC025AA0FCD`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,8 +26,8 @@ PE256 | `9B3FC1CFF1CAA5455CE5EDEF81FA4CB3C5FF32794DD340E7CEC43A5F38D4D9F0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateSplashWindows` | 1 | Exported Function
 `DestroySplashWindows` | 2 | Exported Function
+`CreateSplashWindows` | 1 | Exported Function
 
 
 ## Signature

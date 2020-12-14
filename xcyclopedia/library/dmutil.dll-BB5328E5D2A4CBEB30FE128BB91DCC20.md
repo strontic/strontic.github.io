@@ -26,36 +26,36 @@ PE256 | `FE06376FB7F64FA33D5F5F21FFC30EB36A28885388BB38E8B42A83A58D19E34D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddEntryBootFileGpt` | 3 | Exported Function
-`SzwDupSzw` | 28 | Exported Function
-`ShowMessageValist` | 27 | Exported Function
-`ShowMessage` | 26 | Exported Function
-`SafeLoadVdsService` | 25 | Exported Function
-`RgszwFromValist` | 24 | Exported Function
-`RgszwFromArgs` | 23 | Exported Function
-`RgszwDupRgszw` | 22 | Exported Function
-`LowNtWriteFile` | 21 | Exported Function
 `LowNtReadOnlyAttributeOff` | 20 | Exported Function
+`LowNtWriteFile` | 21 | Exported Function
+`RgszwDupRgszw` | 22 | Exported Function
 `LowNtReadFile` | 19 | Exported Function
-`LowNtAddBootEntry` | 18 | Exported Function
-`LowGetPartitionInfo` | 17 | Exported Function
 `LowAcquirePrivilege` | 16 | Exported Function
-`IsPersonalSKU` | 15 | Exported Function
-`GetSystemVolume` | 2 | Exported Function
-`GetInstallDirectoryPath` | 14 | Exported Function
-`GetErrorData` | 13 | Exported Function
-`FTraceValist` | 11 | Exported Function
-`FTrace` | 10 | Exported Function
-`FreeRgszw` | 12 | Exported Function
-`DynamicSupport` | 9 | Exported Function
-`DmCommonNtOpenFile` | 8 | Exported Function
-`DllMain` | 7 | Exported Function
-`DisplayErrorRgszw` | 6 | Exported Function
-`DisplayError` | 5 | Exported Function
-`CoDisableDynamicVolumes` | 1 | Exported Function
-`AddEntryBootFileMbr` | 4 | Exported Function
+`LowGetPartitionInfo` | 17 | Exported Function
+`LowNtAddBootEntry` | 18 | Exported Function
+`RgszwFromArgs` | 23 | Exported Function
+`SzwDupSzw` | 28 | Exported Function
 `SzwFromSza` | 29 | Exported Function
 `TranslateError` | 30 | Exported Function
+`ShowMessageValist` | 27 | Exported Function
+`RgszwFromValist` | 24 | Exported Function
+`SafeLoadVdsService` | 25 | Exported Function
+`ShowMessage` | 26 | Exported Function
+`DisplayErrorRgszw` | 6 | Exported Function
+`DllMain` | 7 | Exported Function
+`DmCommonNtOpenFile` | 8 | Exported Function
+`DisplayError` | 5 | Exported Function
+`AddEntryBootFileGpt` | 3 | Exported Function
+`AddEntryBootFileMbr` | 4 | Exported Function
+`CoDisableDynamicVolumes` | 1 | Exported Function
+`DynamicSupport` | 9 | Exported Function
+`GetInstallDirectoryPath` | 14 | Exported Function
+`GetSystemVolume` | 2 | Exported Function
+`IsPersonalSKU` | 15 | Exported Function
+`GetErrorData` | 13 | Exported Function
+`FreeRgszw` | 12 | Exported Function
+`FTrace` | 10 | Exported Function
+`FTraceValist` | 11 | Exported Function
 
 
 ## Signature

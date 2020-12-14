@@ -26,8 +26,8 @@ PE256 | `FF326AE70DB76402A3FD3667FFFBE6EC7265ABF0A7D151A266F5E1C7BC482B59`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ScDeviceEnumServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ScDeviceEnumServiceMain` | 1 | Exported Function
 
 
 ## Signature

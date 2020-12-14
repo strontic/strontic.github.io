@@ -26,39 +26,39 @@ PE256 | `3B157C652D3D005E625758E314E7658E6677B4F1D02767B15A4430E7615040F8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CoreUICallComputeMaximumMessageSize` | 1 | Exported Function
-`MsgStringCreateStack` | 31 | Exported Function
-`MsgStringCreateShared` | 30 | Exported Function
-`MsgRelease` | 29 | Exported Function
-`MsgBufferShare` | 28 | Exported Function
-`MsgBlobCreateStack` | 27 | Exported Function
-`MsgBlobCreateShared` | 26 | Exported Function
-`GetDispatcherQueueForCurrentThread` | 25 | Exported Function
-`DllGetClassObject` | 24 | Exported Function
 `DllGetActivationFactory` | 23 | Exported Function
 `DllCanUnloadNow` | 22 | Exported Function
-`CreateDispatcherQueueForCurrentThread` | 21 | Exported Function
-`CreateDispatcherQueueController` | 20 | Exported Function
+`GetDispatcherQueueForCurrentThread` | 25 | Exported Function
+`DllGetClassObject` | 24 | Exported Function
 `CoreUIUninitializeTestService` | 19 | Exported Function
 `CoreUIRouteToTestRegistrar` | 18 | Exported Function
+`CreateDispatcherQueueForCurrentThread` | 21 | Exported Function
+`CreateDispatcherQueueController` | 20 | Exported Function
+`MsgStringCreateStack` | 31 | Exported Function
+`MsgStringCreateShared` | 30 | Exported Function
+`SvchostPushServiceGlobals` | 33 | Exported Function
 `ServiceMain` | 32 | Exported Function
+`MsgBlobCreateStack` | 27 | Exported Function
+`MsgBlobCreateShared` | 26 | Exported Function
+`MsgRelease` | 29 | Exported Function
+`MsgBufferShare` | 28 | Exported Function
 `CoreUIOpenExisting` | 17 | Exported Function
-`CoreUICreateSystemWindowIDManager` | 15 | Exported Function
-`CoreUICreateEx` | 14 | Exported Function
-`CoreUICreateClientWindowIDManager` | 13 | Exported Function
-`CoreUICreateAnonymousStream` | 12 | Exported Function
-`CoreUICreate` | 11 | Exported Function
-`CoreUIConfigureUserIntegration` | 10 | Exported Function
-`CoreUIConfigureTestHost` | 9 | Exported Function
-`CoreUICallSendVaList` | 8 | Exported Function
-`CoreUICallSend` | 7 | Exported Function
 `CoreUICallReceive` | 6 | Exported Function
 `CoreUICallGetAddressOfParameterInBuffer` | 5 | Exported Function
+`CoreUICallSendVaList` | 8 | Exported Function
+`CoreUICallSend` | 7 | Exported Function
+`CoreUICallCreateConversationHost` | 2 | Exported Function
+`CoreUICallComputeMaximumMessageSize` | 1 | Exported Function
 `CoreUICallCreateEndpointHostWithSendPriority` | 4 | Exported Function
 `CoreUICallCreateEndpointHost` | 3 | Exported Function
-`CoreUICallCreateConversationHost` | 2 | Exported Function
+`CoreUICreateEx` | 14 | Exported Function
+`CoreUICreateClientWindowIDManager` | 13 | Exported Function
 `CoreUIInitializeTestService` | 16 | Exported Function
-`SvchostPushServiceGlobals` | 33 | Exported Function
+`CoreUICreateSystemWindowIDManager` | 15 | Exported Function
+`CoreUIConfigureUserIntegration` | 10 | Exported Function
+`CoreUIConfigureTestHost` | 9 | Exported Function
+`CoreUICreateAnonymousStream` | 12 | Exported Function
+`CoreUICreate` | 11 | Exported Function
 
 
 ## Signature

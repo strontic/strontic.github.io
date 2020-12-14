@@ -26,10 +26,10 @@ PE256 | `6438C178CEE44554F7974C510542B1A2357AEA20793537A2870FFC75F5B3D647`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInprocPimimConnectionHandle` | 1 | Exported Function
-`PimIMService_ResetInprocService` | 2 | Exported Function
 `ServiceMain` | 3 | Exported Function
 `SvchostPushServiceGlobals` | 4 | Exported Function
+`CreateInprocPimimConnectionHandle` | 1 | Exported Function
+`PimIMService_ResetInprocService` | 2 | Exported Function
 
 
 ## Signature

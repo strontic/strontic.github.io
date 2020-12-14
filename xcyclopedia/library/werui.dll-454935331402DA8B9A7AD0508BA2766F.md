@@ -26,25 +26,25 @@ PE256 | `E4A59B0F18247B9412E5C3D4BB5209084313B8917FAF593059EB15D921109562`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WerUICreate` | 2 | Exported Function
-`WerUIUpdateStateProgress` | 10 | Exported Function
-`WerUITerminate` | 9 | Exported Function
-`WerUIStart` | 8 | Exported Function
-`WerUIShowUpsell` | 7 | Exported Function
 `WerUIReportSilentProcessExit` | 1 | Exported Function
-`WerUIpUIHandleWERWindowMsg` | 19 | Exported Function
+`WerUIShowUpsell` | 7 | Exported Function
 `WerUIpTaskDialogIndirect` | 18 | Exported Function
+`WerUIpUIHandleWERWindowMsg` | 19 | Exported Function
+`WerUIStart` | 8 | Exported Function
 `WerUIUpdateUIForState` | 11 | Exported Function
-`WerUIpSetWindowSubclass` | 17 | Exported Function
-`WerUIPromptForSecondLevel` | 5 | Exported Function
-`WerUIpRemoveWindowSubclass` | 16 | Exported Function
-`WerUIpHeadlessOrImersive` | 15 | Exported Function
-`WerUIpDefSubclassProc` | 14 | Exported Function
-`WerUIpCheckWindow` | 13 | Exported Function
-`WerUIGetUserSelection` | 4 | Exported Function
-`WerUIDelete` | 3 | Exported Function
-`WerUIPromptUser` | 6 | Exported Function
 `WerUIWaitForUserAction` | 12 | Exported Function
+`WerUITerminate` | 9 | Exported Function
+`WerUIUpdateStateProgress` | 10 | Exported Function
+`WerUIpSetWindowSubclass` | 17 | Exported Function
+`WerUIGetUserSelection` | 4 | Exported Function
+`WerUIpCheckWindow` | 13 | Exported Function
+`WerUICreate` | 2 | Exported Function
+`WerUIDelete` | 3 | Exported Function
+`WerUIpDefSubclassProc` | 14 | Exported Function
+`WerUIPromptForSecondLevel` | 5 | Exported Function
+`WerUIPromptUser` | 6 | Exported Function
+`WerUIpHeadlessOrImersive` | 15 | Exported Function
+`WerUIpRemoveWindowSubclass` | 16 | Exported Function
 
 
 ## Signature
@@ -93,6 +93,7 @@ File | Score
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 50
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 46
 [C:\Windows\system32\wermgr.exe](wermgr.exe-CD042F94B63D67E012CFB4297D313248.md) | 41
+[C:\Windows\system32\wermgr.exe](wermgr.exe-DF2AD28AC6BEDF07422537CCA6F1E637.md) | 50
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 43
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E856524BF40EB2A050195C39989C8DD5.md) | 50
 [C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 47
@@ -112,6 +113,7 @@ File | Score
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-2B5F4FFF330CD1B3B921DAF77330C205.md) | 46
 [C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 43
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-4C68AD8928D6DE43040805B45118212C.md) | 38
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-B64826620DD8495C0191B536FA1B1D32.md) | 41
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-DEF33E6FF117395A2F1BF5A06D0988E1.md) | 43
 [C:\Windows\SysWOW64\werui.dll](werui.dll-953EB30D45E7FC1E524C4E868235A706.md) | 46
 

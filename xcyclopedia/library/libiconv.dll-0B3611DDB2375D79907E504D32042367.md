@@ -25,14 +25,14 @@ PE256 | `24969DDCE5DBBEEA178878A3E72E81362ACB9B14AEAF0F5317F545CF2630ECB7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_libiconv_version` | 1 | Exported Function
-`iconv_canonicalize` | 2 | Exported Function
-`libiconv` | 3 | Exported Function
-`libiconv_close` | 4 | Exported Function
-`libiconv_open` | 5 | Exported Function
 `libiconv_open_into` | 6 | Exported Function
-`libiconvctl` | 7 | Exported Function
+`libiconv_open` | 5 | Exported Function
 `libiconvlist` | 8 | Exported Function
+`libiconvctl` | 7 | Exported Function
+`iconv_canonicalize` | 2 | Exported Function
+`_libiconv_version` | 1 | Exported Function
+`libiconv_close` | 4 | Exported Function
+`libiconv` | 3 | Exported Function
 
 
 ## Signature
@@ -68,7 +68,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `libiconv.dll` being misused. While `libiconv.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `libiconv.dll` being misused. While `libiconv.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

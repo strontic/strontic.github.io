@@ -26,9 +26,9 @@ PE256 | `1228B3FB8A2969118A5F6344DAD908AFA94622ED990643F9F91C81962A5073ED`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DpElGetNextEvent` | 1 | Exported Function
-`DpElReleaseObjects` | 2 | Exported Function
 `DpElScanEvents` | 3 | Exported Function
+`DpElReleaseObjects` | 2 | Exported Function
+`DpElGetNextEvent` | 1 | Exported Function
 
 
 ## Signature

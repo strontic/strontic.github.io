@@ -26,8 +26,8 @@ PE256 | `C2EEE5428B22A871DB8571FEC66FBF69B645FF9BEDE05E3716DEDF4B37188F5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DsRoleFreeMemory` | 1 | Exported Function
 `DsRoleGetPrimaryDomainInformation` | 2 | Exported Function
+`DsRoleFreeMemory` | 1 | Exported Function
 
 
 ## Signature
@@ -362,7 +362,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dsrole.dll` being misused. While `dsrole.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dsrole.dll` being misused. While `dsrole.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

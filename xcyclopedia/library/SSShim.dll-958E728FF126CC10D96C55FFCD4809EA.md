@@ -26,11 +26,11 @@ PE256 | `6B0713542BFAAC4ACD5DCF7D091A6CBCB39D7166367A8AB81061DE5B1A080C4C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SssBindServicingStack` | 1 | Exported Function
-`SssGetServicingStackFilePath` | 2 | Exported Function
-`SssGetServicingStackFilePathLength` | 3 | Exported Function
 `SssPreloadDownlevelDependencies` | 4 | Exported Function
 `SssReleaseServicingStack` | 5 | Exported Function
+`SssGetServicingStackFilePathLength` | 3 | Exported Function
+`SssBindServicingStack` | 1 | Exported Function
+`SssGetServicingStackFilePath` | 2 | Exported Function
 
 
 ## Signature

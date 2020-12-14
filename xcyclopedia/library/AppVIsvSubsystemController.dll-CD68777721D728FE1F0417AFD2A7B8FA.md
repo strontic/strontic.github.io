@@ -26,14 +26,14 @@ PE256 | `50E03B06C4512B714B68C840F8AA3FEBCEE237EB6C57E75E601129F4DEEE5EBC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Deinitialize` | 2 | Exported Function
-`GetComponent` | 3 | Exported Function
-`GetVirtualEnvironmentUtils` | 4 | Exported Function
-`InitializeISV` | 1 | Exported Function
-`RSODDiff` | 8 | Exported Function
 `RSODInitialize` | 5 | Exported Function
-`RSODPublish` | 6 | Exported Function
+`RSODDiff` | 8 | Exported Function
 `RSODRelease` | 7 | Exported Function
+`RSODPublish` | 6 | Exported Function
+`GetComponent` | 3 | Exported Function
+`Deinitialize` | 2 | Exported Function
+`InitializeISV` | 1 | Exported Function
+`GetVirtualEnvironmentUtils` | 4 | Exported Function
 
 
 ## Signature

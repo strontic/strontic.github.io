@@ -26,13 +26,13 @@ PE256 | `F22F10D9556E75CC6D3197FDF0D99476CF1A1F8690BBB0BF2D5651E6001009BB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `ShutdownContinuation` | 5 | Exported Function
 `SrFreeRestoreStatus` | 6 | Exported Function
 `SrFreeRpPropArray` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

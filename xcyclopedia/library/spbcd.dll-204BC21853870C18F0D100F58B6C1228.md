@@ -26,9 +26,9 @@ PE256 | `3F3DB8DEA4C48D6EF491E485FD0D5A0F2E98E693BBD5532E18116D4BFE7B5E44`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Sysprep_Generalize_Bcd` | 1 | Exported Function
-`Sysprep_Offline_Specialize_Bcd` | 2 | Exported Function
 `Sysprep_Online_Specialize_Bcd` | 3 | Exported Function
+`Sysprep_Offline_Specialize_Bcd` | 2 | Exported Function
+`Sysprep_Generalize_Bcd` | 1 | Exported Function
 
 
 ## Signature

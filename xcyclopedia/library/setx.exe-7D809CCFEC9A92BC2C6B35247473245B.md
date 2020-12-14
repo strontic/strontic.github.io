@@ -175,7 +175,7 @@ C:\Windows\system32\setx.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/f207f3bf4b4d3f2c73db94baa69ce81cc0675f7c638b5d747c8c46f4323a2f44/detection
 
 

@@ -29,7 +29,6 @@ PE256 | `F6DC238238302CA67D503D5ADC2668E31C6BA73FA45C29484E71478494D6A372`
 Path |
 -- |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |

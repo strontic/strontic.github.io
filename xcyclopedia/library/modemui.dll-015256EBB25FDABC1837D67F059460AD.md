@@ -26,20 +26,20 @@ PE256 | `D3914C69ABF85DC5A04F73440C1468294B594603A15430E59E7F29D24EA6F3E8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CountryRunOnce` | 9 | Exported Function
-`drvCommConfigDialogA` | 3 | Exported Function
-`drvCommConfigDialogW` | 2 | Exported Function
-`drvGetDefaultCommConfigA` | 7 | Exported Function
-`drvGetDefaultCommConfigW` | 6 | Exported Function
-`drvSetDefaultCommConfigA` | 5 | Exported Function
-`drvSetDefaultCommConfigW` | 4 | Exported Function
-`InvokeControlPanel` | 12 | Exported Function
-`ModemCplDlgProc` | 13 | Exported Function
 `ModemPropPagesProvider` | 14 | Exported Function
+`ModemCplDlgProc` | 13 | Exported Function
+`InvokeControlPanel` | 12 | Exported Function
 `QueryModemForCountrySettings` | 15 | Exported Function
-`UnimodemDevConfigDialog` | 8 | Exported Function
-`UnimodemGetDefaultCommConfig` | 10 | Exported Function
 `UnimodemGetExtendedCaps` | 11 | Exported Function
+`UnimodemGetDefaultCommConfig` | 10 | Exported Function
+`UnimodemDevConfigDialog` | 8 | Exported Function
+`drvCommConfigDialogW` | 2 | Exported Function
+`drvCommConfigDialogA` | 3 | Exported Function
+`CountryRunOnce` | 9 | Exported Function
+`drvGetDefaultCommConfigA` | 7 | Exported Function
+`drvSetDefaultCommConfigW` | 4 | Exported Function
+`drvSetDefaultCommConfigA` | 5 | Exported Function
+`drvGetDefaultCommConfigW` | 6 | Exported Function
 
 
 ## Signature

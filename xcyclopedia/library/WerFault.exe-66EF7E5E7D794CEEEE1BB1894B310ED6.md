@@ -41,7 +41,7 @@ SSDEEP | `12288:41gQOji0As2cfF57opXqn+1qFFlSc2HywoC:ugQOji0As2cfFOa+1qFFlScyhoC`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WerFault.exe` being misused. While `WerFault.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WerFault.exe` being misused. While `WerFault.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

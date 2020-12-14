@@ -26,11 +26,11 @@ PE256 | `56282D5543225095797BCF23A864ABA9C9FD47E69EB23DC26D91E09D47403294`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateIImeSkdicInstance` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateIImeSkdicInstance` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

@@ -26,21 +26,21 @@ PE256 | `07A018F842A218C3609B797AB27BF4BBFFB030603D727D071494529E938A9669`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NsiConnectToServer` | 1 | Exported Function
-`NsiDisconnectFromServer` | 2 | Exported Function
-`NsiRpcDeregisterChangeNotification` | 3 | Exported Function
-`NsiRpcDeregisterChangeNotificationEx` | 4 | Exported Function
-`NsiRpcEnumerateObjectsAllParameters` | 5 | Exported Function
-`NsiRpcGetAllParameters` | 6 | Exported Function
-`NsiRpcGetAllParametersEx` | 7 | Exported Function
-`NsiRpcGetParameter` | 8 | Exported Function
-`NsiRpcGetParameterEx` | 9 | Exported Function
-`NsiRpcRegisterChangeNotification` | 10 | Exported Function
 `NsiRpcRegisterChangeNotificationEx` | 11 | Exported Function
+`NsiRpcRegisterChangeNotification` | 10 | Exported Function
+`NsiRpcGetParameterEx` | 9 | Exported Function
 `NsiRpcSetAllParameters` | 12 | Exported Function
-`NsiRpcSetAllParametersEx` | 13 | Exported Function
-`NsiRpcSetParameter` | 14 | Exported Function
 `NsiRpcSetParameterEx` | 15 | Exported Function
+`NsiRpcSetParameter` | 14 | Exported Function
+`NsiRpcSetAllParametersEx` | 13 | Exported Function
+`NsiRpcGetParameter` | 8 | Exported Function
+`NsiRpcDeregisterChangeNotification` | 3 | Exported Function
+`NsiDisconnectFromServer` | 2 | Exported Function
+`NsiConnectToServer` | 1 | Exported Function
+`NsiRpcDeregisterChangeNotificationEx` | 4 | Exported Function
+`NsiRpcGetAllParametersEx` | 7 | Exported Function
+`NsiRpcGetAllParameters` | 6 | Exported Function
+`NsiRpcEnumerateObjectsAllParameters` | 5 | Exported Function
 
 
 ## Signature

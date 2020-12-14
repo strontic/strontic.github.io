@@ -26,14 +26,14 @@ PE256 | `2D5780EA9B4943DA64B5EF03C8333CD44B6EBC99C56E843AC0B7B6A569D2E7F7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
-`LoadBinFromEnabledLayoutOrTipFile` | 1 | Exported Function
 `LoadRegFromFile` | 2 | Exported Function
-`LogMessageLayoutOrTip` | 3 | Exported Function
+`LoadBinFromEnabledLayoutOrTipFile` | 1 | Exported Function
 `SaveKeysToFile` | 4 | Exported Function
+`LogMessageLayoutOrTip` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `7DC7E29E94DC4164B6881A14E5E0567470511BAA2FC2E6051E53E9BCA6AE00B8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreatePDFFactory` | 1 | Exported Function
-`CreateXPSToPDFConverter` | 2 | Exported Function
 `DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`CreatePDFFactory` | 1 | Exported Function
+`CreateXPSToPDFConverter` | 2 | Exported Function
 
 
 ## Signature

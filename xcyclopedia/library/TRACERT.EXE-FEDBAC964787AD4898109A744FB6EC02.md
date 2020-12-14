@@ -89,13 +89,13 @@ C:\Windows\system32\TRACERT.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/743f8e8a91b2d1e0db9323109034de91a1e065242a33a90bb787a63edb860b35/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TRACERT.EXE` being misused. While `TRACERT.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TRACERT.EXE` being misused. While `TRACERT.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

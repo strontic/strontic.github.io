@@ -26,8 +26,8 @@ PE256 | `1C608BC89EA4B3DE01527027A7308662F99A1694FB66AD73C0B4F7C78F30EFFC`
 
 ### Usage (stdout):
 ```cmhg
-Default Server:  default-pc.mshome.net
-Address:  172.24.208.1
+Default Server:  DESKTOP-IOOJLI7.mshome.net
+Address:  172.26.224.1
 
 > 
 ```
@@ -95,7 +95,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `nslookup.exe` being misused. While `nslookup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `nslookup.exe` being misused. While `nslookup.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

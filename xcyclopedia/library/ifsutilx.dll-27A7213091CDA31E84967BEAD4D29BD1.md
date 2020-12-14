@@ -26,12 +26,12 @@ PE256 | `02222BCA8030B0CFA8510FCBB5C71C113040AD70BEC0109F2B97705676C4E928`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CheckSnapshotPresence` | 1 | Exported Function
-`CreateVolumeSnapshot` | 2 | Exported Function
-`GetSnapshotErrorMessage` | 3 | Exported Function
 `InitializeCOM` | 4 | Exported Function
 `ReleaseVolumeSnapshot` | 5 | Exported Function
 `UninitializeCOM` | 6 | Exported Function
+`CheckSnapshotPresence` | 1 | Exported Function
+`CreateVolumeSnapshot` | 2 | Exported Function
+`GetSnapshotErrorMessage` | 3 | Exported Function
 
 
 ## Signature

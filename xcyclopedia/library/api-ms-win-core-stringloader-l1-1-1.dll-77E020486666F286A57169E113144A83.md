@@ -26,8 +26,8 @@ PE256 | `393FC6408D810EEFE728280A83E65BDE26D193E3BB608E94A8DB71A132FB5DFC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LoadStringA` | 1 | Exported Function
 `LoadStringW` | 2 | Exported Function
+`LoadStringA` | 1 | Exported Function
 
 
 ## Signature

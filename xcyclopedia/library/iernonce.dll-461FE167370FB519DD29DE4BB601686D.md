@@ -26,8 +26,8 @@ PE256 | `B8CA2FF502620ECA75E6B169E3551235A50B19A414DFECE1FE52E543560ED85B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitCallback` | 1 | Exported Function
 `RunOnceExProcess` | 2 | Exported Function
+`InitCallback` | 1 | Exported Function
 
 
 ## Signature

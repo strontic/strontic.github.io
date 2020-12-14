@@ -26,30 +26,30 @@ PE256 | `C1616B05B26B793A5226886DC39CBE4EADAD3C80D3C158557742F9A824771F8F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IumAssignMemoryToSocDomain` | 1 | Exported Function
-`IumSetPolicyExtension` | 22 | Exported Function
-`IumSetDmaTargetProperties` | 21 | Exported Function
-`IumSecureStoragePut` | 20 | Exported Function
-`IumSecureStorageGet` | 19 | Exported Function
-`IumQuerySecureDeviceInformation` | 18 | Exported Function
-`IumProtectSecureIo` | 17 | Exported Function
 `IumPostMailbox` | 16 | Exported Function
-`IumOpenSecureSection` | 15 | Exported Function
-`IumOpenCurrentExtension` | 14 | Exported Function
+`IumProtectSecureIo` | 17 | Exported Function
+`IumQuerySecureDeviceInformation` | 18 | Exported Function
 `IumMapSecureIo` | 13 | Exported Function
-`IumGetIdk` | 12 | Exported Function
-`IumGetExposedSecureSection` | 11 | Exported Function
-`IumGetDmaEnabler` | 10 | Exported Function
-`IumFlushSecureSectionBuffers` | 9 | Exported Function
-`IumEmitSmc` | 8 | Exported Function
-`IumDmaMapMemory` | 7 | Exported Function
-`IumCrypto` | 6 | Exported Function
-`IumCreateSecureSectionSpecifyPages` | 5 | Exported Function
-`IumCreateSecureSection` | 4 | Exported Function
-`IumCreateSecureDevice` | 3 | Exported Function
-`IumAwaitSmc` | 2 | Exported Function
+`IumOpenCurrentExtension` | 14 | Exported Function
+`IumOpenSecureSection` | 15 | Exported Function
+`IumSetPolicyExtension` | 22 | Exported Function
 `IumUnmapSecureIo` | 23 | Exported Function
 `IumUpdateSecureDeviceState` | 24 | Exported Function
+`IumSecureStorageGet` | 19 | Exported Function
+`IumSecureStoragePut` | 20 | Exported Function
+`IumSetDmaTargetProperties` | 21 | Exported Function
+`IumCreateSecureSection` | 4 | Exported Function
+`IumCreateSecureSectionSpecifyPages` | 5 | Exported Function
+`IumCrypto` | 6 | Exported Function
+`IumAssignMemoryToSocDomain` | 1 | Exported Function
+`IumAwaitSmc` | 2 | Exported Function
+`IumCreateSecureDevice` | 3 | Exported Function
+`IumGetDmaEnabler` | 10 | Exported Function
+`IumGetExposedSecureSection` | 11 | Exported Function
+`IumGetIdk` | 12 | Exported Function
+`IumDmaMapMemory` | 7 | Exported Function
+`IumEmitSmc` | 8 | Exported Function
+`IumFlushSecureSectionBuffers` | 9 | Exported Function
 
 
 ## Signature

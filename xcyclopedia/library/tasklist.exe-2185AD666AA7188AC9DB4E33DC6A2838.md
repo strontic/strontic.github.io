@@ -147,7 +147,7 @@ C:\Windows\SysWOW64\tasklist.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `tasklist.exe` being misused. While `tasklist.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `tasklist.exe` being misused. While `tasklist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

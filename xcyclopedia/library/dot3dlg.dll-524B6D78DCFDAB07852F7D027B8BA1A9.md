@@ -26,12 +26,12 @@ PE256 | `8C044E57DCB0306BA2E9E6DE4A3DBE36A66F1A1AB9F0BE48AA202C73AE5080C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
 `Dot3ACCanShowBalloon` | 6 | Exported Function
 `Dot3ACOnBalloonClick` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `D3C1E93D554729CCF3308102F1335E5E240BBC82ADC00E48B64DC89CEA810FF9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 7 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`DllMain` | 9 | Exported Function
-`DllRegisterServer` | 10 | Exported Function
-`DllUnregisterServer` | 11 | Exported Function
-`GetForceRetrieve` | 1 | Exported Function
-`GetHealthCert` | 2 | Exported Function
 `GetNonce` | 3 | Exported Function
+`GetHealthCert` | 2 | Exported Function
 `PolicyManager_PreCheck` | 4 | Exported Function
-`SetForceRetrieve` | 5 | Exported Function
 `SetNonce` | 6 | Exported Function
+`SetForceRetrieve` | 5 | Exported Function
+`GetForceRetrieve` | 1 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllMain` | 9 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
 
 
 ## Signature

@@ -26,15 +26,15 @@ PE256 | `D56EED32CC5CC5889040291AF425B38B4FDCBD539F064812F3EFF477B177E449`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HyphenatorCheck` | 4 | Exported Function
-`HyphenatorCloseLex` | 5 | Exported Function
-`HyphenatorGetOptions` | 6 | Exported Function
-`HyphenatorInit` | 7 | Exported Function
-`HyphenatorOpenLex` | 8 | Exported Function
-`HyphenatorSetDllName` | 9 | Exported Function
 `HyphenatorSetOptions` | 10 | Exported Function
-`HyphenatorTerminate` | 11 | Exported Function
+`HyphenatorSetDllName` | 9 | Exported Function
 `HyphenatorVersion` | 3 | Exported Function
+`HyphenatorTerminate` | 11 | Exported Function
+`HyphenatorOpenLex` | 8 | Exported Function
+`HyphenatorCloseLex` | 5 | Exported Function
+`HyphenatorCheck` | 4 | Exported Function
+`HyphenatorInit` | 7 | Exported Function
+`HyphenatorGetOptions` | 6 | Exported Function
 
 
 ## Signature

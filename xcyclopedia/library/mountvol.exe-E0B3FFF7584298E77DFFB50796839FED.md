@@ -55,11 +55,14 @@ MOUNTVOL drive: /S
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{0a169cf3-a914-4005-82f0-ab095bccc8d8}\
+    \\?\Volume{38184124-336f-4bf7-bb7f-9d8459dba1b2}\
         C:\
 
 
 ```
+
+### Child Processes:
+explorer.exe
 
 ### Loaded Modules:
 
@@ -93,7 +96,7 @@ C:\Windows\SysWOW64\mountvol.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/f247be88f22b07a36f4b71707ed7a96bd989bad37a7500da03b81709749ded7e/detection
 
 

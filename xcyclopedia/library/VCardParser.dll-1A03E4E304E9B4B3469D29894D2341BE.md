@@ -26,12 +26,12 @@ PE256 | `7FFEF86CCFCA5B2BAE396D4B32595ACF954EA31FEC6212D31D35858017D8AAB3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateCardParser` | 2 | Exported Function
-`CreateCardParserEx` | 3 | Exported Function
-`CreateCardParserExA` | 4 | Exported Function
 `CreateICalGen` | 5 | Exported Function
 `CreateVCardGen` | 6 | Exported Function
 `EncodeQP` | 1 | Exported Function
+`CreateCardParser` | 2 | Exported Function
+`CreateCardParserEx` | 3 | Exported Function
+`CreateCardParserExA` | 4 | Exported Function
 
 
 ## Signature

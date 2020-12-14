@@ -26,11 +26,11 @@ PE256 | `B8CDFB1299556FC4572B1B39938547DF80295CE85AD6BF7906A55B7D8D546195`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DispBrokerTraceLogCallback` | 1 | Exported Function
-`DispBrokerTraceLogHelper` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `DllGetActivationFactory` | 4 | Exported Function
 `DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DispBrokerTraceLogCallback` | 1 | Exported Function
+`DispBrokerTraceLogHelper` | 2 | Exported Function
 
 
 ## Signature

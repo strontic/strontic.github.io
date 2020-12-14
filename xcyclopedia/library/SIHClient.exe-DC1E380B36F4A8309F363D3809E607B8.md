@@ -41,7 +41,7 @@ SSDEEP | `6144:67Ux/VyGIvD4gwOpcZ93McOZWswvZdCiMMZuTwE:67UDRgTpwFMc20jCnsOwE`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SIHClient.exe` being misused. While `SIHClient.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SIHClient.exe` being misused. While `SIHClient.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

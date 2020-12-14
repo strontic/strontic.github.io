@@ -26,27 +26,27 @@ PE256 | `C79BFAE20DAB84D345163D7194072046004A6E4E97649C60E945DA7F6BDF2163`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetSetupClose` | 1 | Exported Function
-`NetSetupValidateTransaction` | 19 | Exported Function
-`NetSetupSynchronizeDevices` | 18 | Exported Function
-`NetSetupSetObjectProperties` | 17 | Exported Function
-`NetSetupSerializeFilter` | 16 | Exported Function
 `NetSetupRollback` | 15 | Exported Function
+`NetSetupSerializeFilter` | 16 | Exported Function
 `NetSetupOpenAdvancedPropertyKey` | 14 | Exported Function
-`NetSetupInitialize` | 13 | Exported Function
 `NetSetupGetObjects` | 12 | Exported Function
+`NetSetupInitialize` | 13 | Exported Function
 `OnMachineUILanguageInit` | 20 | Exported Function
-`NetSetupGetObjectPropertyKeys` | 11 | Exported Function
-`NetSetupFreeSerializedFilter` | 9 | Exported Function
-`NetSetupFreeObjects` | 8 | Exported Function
-`NetSetupFreeObjectProperties` | 7 | Exported Function
-`NetSetupDeleteObject` | 6 | Exported Function
-`NetSetupCreateObjectQuery` | 5 | Exported Function
-`NetSetupCreateObject` | 4 | Exported Function
-`NetSetupCommit` | 3 | Exported Function
-`NetSetupCloseObjectQuery` | 2 | Exported Function
-`NetSetupGetObjectProperties` | 10 | Exported Function
 `OnMachineUILanguageSwitch` | 21 | Exported Function
+`NetSetupValidateTransaction` | 19 | Exported Function
+`NetSetupSetObjectProperties` | 17 | Exported Function
+`NetSetupSynchronizeDevices` | 18 | Exported Function
+`NetSetupGetObjectPropertyKeys` | 11 | Exported Function
+`NetSetupCreateObject` | 4 | Exported Function
+`NetSetupCreateObjectQuery` | 5 | Exported Function
+`NetSetupCommit` | 3 | Exported Function
+`NetSetupClose` | 1 | Exported Function
+`NetSetupCloseObjectQuery` | 2 | Exported Function
+`NetSetupFreeSerializedFilter` | 9 | Exported Function
+`NetSetupGetObjectProperties` | 10 | Exported Function
+`NetSetupFreeObjects` | 8 | Exported Function
+`NetSetupDeleteObject` | 6 | Exported Function
+`NetSetupFreeObjectProperties` | 7 | Exported Function
 
 
 ## Signature

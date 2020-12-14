@@ -26,37 +26,37 @@ PE256 | `A4E3DBFC4F06FBF7953E2FC538781B5837421E477DFACBFEA03545CDE44340A2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CdplGetFileProtectionLevel` | 1 | Exported Function
-`ProtectOrReprotectFileToIdentity` | 29 | Exported Function
-`ProtectFileToIdentity` | 28 | Exported Function
-`ProtectFileToEnterpriseIdentity` | 27 | Exported Function
-`GetEnterpriseIdForNetworkPath` | 26 | Exported Function
-`GetEnterpriseActionForCopy` | 25 | Exported Function
-`FreeIdentityProtectorList` | 24 | Exported Function
-`EnterpriseDataRevoke` | 23 | Exported Function
-`EnterpriseDataProtect` | 22 | Exported Function
 `EnterpriseDataGetStatus` | 21 | Exported Function
+`EnterpriseDataProtect` | 22 | Exported Function
+`EnterpriseDataRevoke` | 23 | Exported Function
 `EnterpriseDataCopyProtection` | 20 | Exported Function
-`DpmUnprotectSecret` | 19 | Exported Function
-`DpmStreamUpdate` | 18 | Exported Function
 `DpmStreamOpenToUnprotect` | 17 | Exported Function
+`DpmStreamUpdate` | 18 | Exported Function
+`DpmUnprotectSecret` | 19 | Exported Function
+`FreeIdentityProtectorList` | 24 | Exported Function
+`ProtectOrReprotectFileToIdentity` | 29 | Exported Function
 `QueryIdentityProtectors` | 30 | Exported Function
-`DpmStreamOpenToProtectToIdentity` | 16 | Exported Function
-`DpmProtectSecretToIdentity` | 14 | Exported Function
-`DpmBufferFree` | 13 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
-`DllGetActivationFactory` | 11 | Exported Function
-`DllCanUnloadNow` | 10 | Exported Function
-`CdplUnprotectSecret` | 9 | Exported Function
-`CdplProtectSecretToLevel` | 8 | Exported Function
-`CdplProtectKnownUserFolders` | 7 | Exported Function
-`CdplProtectFileToLevelWithResult` | 6 | Exported Function
-`CdplProtectFileToLevel` | 5 | Exported Function
-`CdplIsSupported` | 4 | Exported Function
-`CdplIsAppDataProtectionSupported` | 3 | Exported Function
-`CdplIsAppAllowedToRun` | 2 | Exported Function
-`DpmStreamClose` | 15 | Exported Function
 `UnprotectFile` | 31 | Exported Function
+`ProtectFileToIdentity` | 28 | Exported Function
+`GetEnterpriseActionForCopy` | 25 | Exported Function
+`GetEnterpriseIdForNetworkPath` | 26 | Exported Function
+`ProtectFileToEnterpriseIdentity` | 27 | Exported Function
+`DpmStreamOpenToProtectToIdentity` | 16 | Exported Function
+`CdplProtectFileToLevel` | 5 | Exported Function
+`CdplProtectFileToLevelWithResult` | 6 | Exported Function
+`CdplProtectKnownUserFolders` | 7 | Exported Function
+`CdplIsSupported` | 4 | Exported Function
+`CdplGetFileProtectionLevel` | 1 | Exported Function
+`CdplIsAppAllowedToRun` | 2 | Exported Function
+`CdplIsAppDataProtectionSupported` | 3 | Exported Function
+`CdplProtectSecretToLevel` | 8 | Exported Function
+`DpmBufferFree` | 13 | Exported Function
+`DpmProtectSecretToIdentity` | 14 | Exported Function
+`DpmStreamClose` | 15 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`CdplUnprotectSecret` | 9 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetActivationFactory` | 11 | Exported Function
 
 
 ## Signature

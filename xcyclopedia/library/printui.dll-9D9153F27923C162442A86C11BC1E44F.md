@@ -26,37 +26,37 @@ PE256 | `81CBB0DC6891E717186FCCA0CF7C0798796EB8FDA19E288B4B174A05455E580E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`bFolderEnumPrinters` | 23 | Exported Function
-`vPrinterPropPages` | 28 | Exported Function
-`vDocumentDefaults` | 27 | Exported Function
-`UnregisterPrintNotify` | 22 | Exported Function
-`StringToArgv` | 6 | Exported Function
-`ShowHelpLinkDialog` | 21 | Exported Function
-`ShowErrorMessageSC` | 20 | Exported Function
-`ShowErrorMessageHR` | 19 | Exported Function
-`ReleaseArgv` | 5 | Exported Function
 `RegisterPrintNotify` | 18 | Exported Function
+`ReleaseArgv` | 5 | Exported Function
+`ShowErrorMessageHR` | 19 | Exported Function
 `PrintUIEntryW` | 3 | Exported Function
-`PrintUIEntryDPIAwareW` | 33 | Exported Function
-`PrintUIDownloadAndInstallLegacyDriver` | 17 | Exported Function
 `PrintNotifyTray_Init` | 16 | Exported Function
+`PrintUIDownloadAndInstallLegacyDriver` | 17 | Exported Function
+`PrintUIEntryDPIAwareW` | 33 | Exported Function
+`ShowErrorMessageSC` | 20 | Exported Function
+`vPrinterPropPages` | 28 | Exported Function
 `vQueueCreate` | 29 | Exported Function
-`PrintNotifyTray_Exit` | 15 | Exported Function
-`PnPInterface` | 2 | Exported Function
-`LaunchPlatformHelp` | 14 | Exported Function
-`DocumentPropertiesWrap` | 13 | Exported Function
-`DllUnregisterServer` | 12 | Exported Function
-`DllRegisterServer` | 11 | Exported Function
-`DllMain` | 10 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
-`DllCanUnloadNow` | 8 | Exported Function
-`ConstructPrinterFriendlyName` | 1 | Exported Function
-`ConnectToPrinterDlg` | 7 | Exported Function
-`bPrinterSetup` | 26 | Exported Function
-`bFolderRefresh` | 25 | Exported Function
-`bFolderGetPrinter` | 24 | Exported Function
-`PrinterPropPageProvider` | 4 | Exported Function
 `vServerPropPages` | 30 | Exported Function
+`vDocumentDefaults` | 27 | Exported Function
+`ShowHelpLinkDialog` | 21 | Exported Function
+`StringToArgv` | 6 | Exported Function
+`UnregisterPrintNotify` | 22 | Exported Function
+`PrintNotifyTray_Exit` | 15 | Exported Function
+`ConnectToPrinterDlg` | 7 | Exported Function
+`ConstructPrinterFriendlyName` | 1 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`bPrinterSetup` | 26 | Exported Function
+`bFolderEnumPrinters` | 23 | Exported Function
+`bFolderGetPrinter` | 24 | Exported Function
+`bFolderRefresh` | 25 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`LaunchPlatformHelp` | 14 | Exported Function
+`PnPInterface` | 2 | Exported Function
+`PrinterPropPageProvider` | 4 | Exported Function
+`DocumentPropertiesWrap` | 13 | Exported Function
+`DllMain` | 10 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
 
 
 ## Signature

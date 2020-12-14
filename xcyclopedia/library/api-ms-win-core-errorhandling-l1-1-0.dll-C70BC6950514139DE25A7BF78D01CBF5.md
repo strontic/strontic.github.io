@@ -26,13 +26,13 @@ PE256 | `19A662889779B000D32BE53FEB5437246CE8103AC1C662C9D4B3D6FD1D44A3AB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetErrorMode` | 1 | Exported Function
-`GetLastError` | 2 | Exported Function
-`RaiseException` | 3 | Exported Function
-`SetErrorMode` | 4 | Exported Function
 `SetLastError` | 5 | Exported Function
 `SetUnhandledExceptionFilter` | 6 | Exported Function
 `UnhandledExceptionFilter` | 7 | Exported Function
+`SetErrorMode` | 4 | Exported Function
+`GetErrorMode` | 1 | Exported Function
+`GetLastError` | 2 | Exported Function
+`RaiseException` | 3 | Exported Function
 
 
 ## Signature

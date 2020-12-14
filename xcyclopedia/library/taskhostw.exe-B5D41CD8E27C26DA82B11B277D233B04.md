@@ -41,7 +41,7 @@ SSDEEP | `1536:ZdbYZGzola91KOG6d7/T8S333FGfi1WU7/L4GB+KSqXaENd/xPH:XbMXg/3HFGfi1
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskhostw.exe` being misused. While `taskhostw.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskhostw.exe` being misused. While `taskhostw.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

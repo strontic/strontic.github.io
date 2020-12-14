@@ -26,11 +26,11 @@ PE256 | `A18257E4C2F52E57E8A6EE567E70907A183952785BEBA7648989252D003B8EFD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WSManPluginShutdown` | 1 | Exported Function
-`WSManPluginStartup` | 2 | Exported Function
-`WSManProvPullEvents` | 3 | Exported Function
 `WSManProvSubscribe` | 4 | Exported Function
 `WSManProvUnsubscribe` | 5 | Exported Function
+`WSManProvPullEvents` | 3 | Exported Function
+`WSManPluginShutdown` | 1 | Exported Function
+`WSManPluginStartup` | 2 | Exported Function
 
 
 ## Signature

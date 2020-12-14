@@ -28,9 +28,7 @@ PE256 | `DCD27BC3359205CFD7A6EBE4ADA4DBE65AFD80E7CF51341ECD2DE64286B06B66`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |

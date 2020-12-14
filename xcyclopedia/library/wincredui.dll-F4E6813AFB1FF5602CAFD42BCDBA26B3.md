@@ -26,20 +26,20 @@ PE256 | `B1612C18C63E63A408043FB9A3AA2E0A6184017F4341A15B262A7B0BB8B4E225`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CredUIInternalCmdLinePromptForCredentialsA` | 1 | Exported Function
-`CredUIInternalCmdLinePromptForCredentialsW` | 2 | Exported Function
-`CredUIInternalConfirmCredentialsA` | 3 | Exported Function
-`CredUIInternalConfirmCredentialsW` | 4 | Exported Function
-`CredUIInternalInitControls` | 5 | Exported Function
-`CredUIInternalPromptForCredentialsA` | 6 | Exported Function
-`CredUIInternalPromptForCredentialsW` | 7 | Exported Function
-`CredUIInternalPromptForWindowsCredentialsA` | 8 | Exported Function
-`CredUIInternalPromptForWindowsCredentialsW` | 9 | Exported Function
 `CredUIInternalPromptForWindowsCredentialsWorker` | 10 | Exported Function
+`CredUIInternalPromptForWindowsCredentialsW` | 9 | Exported Function
+`CredUIInternalPromptForWindowsCredentialsA` | 8 | Exported Function
 `DllCanUnloadNow` | 11 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
-`DllRegisterServer` | 13 | Exported Function
 `DllUnregisterServer` | 14 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`CredUIInternalConfirmCredentialsA` | 3 | Exported Function
+`CredUIInternalCmdLinePromptForCredentialsW` | 2 | Exported Function
+`CredUIInternalCmdLinePromptForCredentialsA` | 1 | Exported Function
+`CredUIInternalConfirmCredentialsW` | 4 | Exported Function
+`CredUIInternalPromptForCredentialsW` | 7 | Exported Function
+`CredUIInternalPromptForCredentialsA` | 6 | Exported Function
+`CredUIInternalInitControls` | 5 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `1B8FF118FE3FDC9B130327128E4E93A483B3F0BF2D2A3633CB95216E856E4B23`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HSAdapterInterface::IHSInterface` | 7 | Exported Function
-`HSAdapterInterface::IHSInterface` | 1 | Exported Function
-`IHSInterface::IHSInterface` | 2 | Exported Function
-`SecomMediaPlayerManager::CMediaPlayerManager` | 3 | Exported Function
-`CCommonUtilities::operator` | 5 | Exported Function
-`HSAdapterInterface::IHSInterface` | 6 | Exported Function
-`SecomLogManager::CLogManager` | 9 | Exported Function
 `HSAdapterInterface::IHSInterface` | 4 | Exported Function
+`SecomLogManager::CLogManager` | 9 | Exported Function
 `CMediaPlayerManager::endConnectionWithMediaPlayers` | 8 | Exported Function
-`CMediaPlayerManager::pauseMedia` | 10 | Exported Function
 `CMediaPlayerManager::playMedia` | 11 | Exported Function
+`CMediaPlayerManager::pauseMedia` | 10 | Exported Function
+`HSAdapterInterface::IHSInterface` | 6 | Exported Function
+`HSAdapterInterface::IHSInterface` | 1 | Exported Function
+`HSAdapterInterface::IHSInterface` | 7 | Exported Function
+`IHSInterface::IHSInterface` | 2 | Exported Function
+`CCommonUtilities::operator` | 5 | Exported Function
+`SecomMediaPlayerManager::CMediaPlayerManager` | 3 | Exported Function
 
 
 ## Signature

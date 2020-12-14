@@ -41,7 +41,7 @@ SSDEEP | `768:e7N6vpfR/mMCUy2VaMd1QSqGi3pD2P+RJJTE2pO3a8boC9q2O2HLJ9zO7+vbGUxX:G
 
 ## Possible Misuse
 
-*The following table contains possible examples of `forfiles.exe` being misused. While `forfiles.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `forfiles.exe` being misused. While `forfiles.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

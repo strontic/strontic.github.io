@@ -26,63 +26,63 @@ PE256 | `19BD8B43BD4FD318F87C4A715256CEC956D8D042727C4808551381EB82D7D194`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 2 | Exported Function
-`wiasReadPropGuid` | 31 | Exported Function
-`wiasReadPropLong` | 32 | Exported Function
-`wiasReadPropStr` | 33 | Exported Function
-`wiasSendEndOfPage` | 34 | Exported Function
-`wiasSetItemPropAttribs` | 35 | Exported Function
-`wiasSetItemPropNames` | 36 | Exported Function
-`wiasSetPropChanged` | 37 | Exported Function
-`wiasSetPropertyAttributes` | 38 | Exported Function
 `wiasSetValidFlag` | 39 | Exported Function
+`wiasSetPropertyAttributes` | 38 | Exported Function
+`wiasSetPropChanged` | 37 | Exported Function
 `wiasSetValidListFloat` | 40 | Exported Function
-`wiasSetValidListGuid` | 41 | Exported Function
-`wiasSetValidListLong` | 42 | Exported Function
 `wiasSetValidListStr` | 43 | Exported Function
-`wiasSetValidRangeFloat` | 44 | Exported Function
-`wiasSetValidRangeLong` | 45 | Exported Function
-`wiasUpdateScanRect` | 46 | Exported Function
-`wiasUpdateValidFormat` | 47 | Exported Function
-`wiasValidateItemProperties` | 48 | Exported Function
-`wiasWriteBufToFile` | 49 | Exported Function
-`wiasWriteMultiple` | 50 | Exported Function
-`wiasWritePageBufToFile` | 51 | Exported Function
-`wiasWritePageBufToStream` | 52 | Exported Function
-`wiasWritePropBin` | 53 | Exported Function
-`wiasWritePropFloat` | 54 | Exported Function
-`wiasWritePropGuid` | 55 | Exported Function
+`wiasSetValidListLong` | 42 | Exported Function
+`wiasSetValidListGuid` | 41 | Exported Function
+`wiasReadPropLong` | 32 | Exported Function
+`wiasReadPropGuid` | 31 | Exported Function
 `wiasReadPropFloat` | 30 | Exported Function
-`wiasWritePropLong` | 56 | Exported Function
-`wiasReadPropBin` | 29 | Exported Function
-`wiasQueueEvent` | 27 | Exported Function
-`DllUnregisterServer` | 3 | Exported Function
-`ServiceMain` | 1 | Exported Function
-`wiasCreateChildAppItem` | 4 | Exported Function
-`wiasCreateDrvItem` | 5 | Exported Function
-`wiasCreateLogInstance` | 6 | Exported Function
-`wiasCreatePropContext` | 7 | Exported Function
-`wiasDebugError` | 8 | Exported Function
-`wiasDebugTrace` | 9 | Exported Function
-`wiasDownSampleBuffer` | 10 | Exported Function
-`wiasFormatArgs` | 11 | Exported Function
-`wiasFreePropContext` | 12 | Exported Function
-`wiasGetChangedValueFloat` | 13 | Exported Function
-`wiasGetChangedValueGuid` | 14 | Exported Function
-`wiasGetChangedValueLong` | 15 | Exported Function
-`wiasGetChangedValueStr` | 16 | Exported Function
-`wiasGetChildrenContexts` | 17 | Exported Function
-`wiasGetContextFromName` | 18 | Exported Function
-`wiasGetDrvItem` | 19 | Exported Function
-`wiasGetImageInformation` | 20 | Exported Function
-`wiasGetItemType` | 21 | Exported Function
-`wiasGetPropertyAttributes` | 22 | Exported Function
-`wiasGetRootItem` | 23 | Exported Function
-`wiasIsPropChanged` | 24 | Exported Function
-`wiasParseEndorserString` | 25 | Exported Function
-`wiasPrintDebugHResult` | 26 | Exported Function
-`wiasReadMultiple` | 28 | Exported Function
+`wiasReadPropStr` | 33 | Exported Function
+`wiasSetItemPropNames` | 36 | Exported Function
+`wiasSetItemPropAttribs` | 35 | Exported Function
+`wiasSendEndOfPage` | 34 | Exported Function
+`wiasWritePropBin` | 53 | Exported Function
+`wiasWritePageBufToStream` | 52 | Exported Function
+`wiasWritePageBufToFile` | 51 | Exported Function
+`wiasWritePropFloat` | 54 | Exported Function
 `wiasWritePropStr` | 57 | Exported Function
+`wiasWritePropLong` | 56 | Exported Function
+`wiasWritePropGuid` | 55 | Exported Function
+`wiasUpdateScanRect` | 46 | Exported Function
+`wiasSetValidRangeLong` | 45 | Exported Function
+`wiasSetValidRangeFloat` | 44 | Exported Function
+`wiasUpdateValidFormat` | 47 | Exported Function
+`wiasWriteMultiple` | 50 | Exported Function
+`wiasWriteBufToFile` | 49 | Exported Function
+`wiasValidateItemProperties` | 48 | Exported Function
+`wiasReadPropBin` | 29 | Exported Function
+`wiasDownSampleBuffer` | 10 | Exported Function
+`wiasDebugTrace` | 9 | Exported Function
+`wiasDebugError` | 8 | Exported Function
+`wiasFormatArgs` | 11 | Exported Function
+`wiasGetChangedValueGuid` | 14 | Exported Function
+`wiasGetChangedValueFloat` | 13 | Exported Function
+`wiasFreePropContext` | 12 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`DllUnregisterServer` | 3 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
+`wiasCreateChildAppItem` | 4 | Exported Function
+`wiasCreatePropContext` | 7 | Exported Function
+`wiasCreateLogInstance` | 6 | Exported Function
+`wiasCreateDrvItem` | 5 | Exported Function
+`wiasIsPropChanged` | 24 | Exported Function
+`wiasGetRootItem` | 23 | Exported Function
+`wiasGetPropertyAttributes` | 22 | Exported Function
+`wiasParseEndorserString` | 25 | Exported Function
+`wiasReadMultiple` | 28 | Exported Function
+`wiasQueueEvent` | 27 | Exported Function
+`wiasPrintDebugHResult` | 26 | Exported Function
+`wiasGetChildrenContexts` | 17 | Exported Function
+`wiasGetChangedValueStr` | 16 | Exported Function
+`wiasGetChangedValueLong` | 15 | Exported Function
+`wiasGetContextFromName` | 18 | Exported Function
+`wiasGetItemType` | 21 | Exported Function
+`wiasGetImageInformation` | 20 | Exported Function
+`wiasGetDrvItem` | 19 | Exported Function
 
 
 ## Signature
@@ -112,7 +112,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wiaservc.dll` being misused. While `wiaservc.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wiaservc.dll` being misused. While `wiaservc.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

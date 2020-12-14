@@ -26,8 +26,8 @@ PE256 | `CF6E733D21CFD17B001C8E27BC95C6B3E6AFFC15EEDEAB44618E02FD1358057A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DxcCreateInstance` | 2 | Exported Function
 `DxcCreateInstance2` | 1 | Exported Function
+`DxcCreateInstance` | 2 | Exported Function
 
 
 ## Signature

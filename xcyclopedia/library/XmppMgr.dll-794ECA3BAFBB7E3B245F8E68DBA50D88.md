@@ -25,10 +25,10 @@ PE256 | `FA16F7F6E8984C14C2AACD6B680510A291F068B2445AE4D3711A1CE5CBE100E3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`conDllCanUnloadNow` | 1 | Exported Function
-`conDllGetClassObject` | 2 | Exported Function
 `conDllInit` | 3 | Exported Function
 `conDllUnInit` | 4 | Exported Function
+`conDllCanUnloadNow` | 1 | Exported Function
+`conDllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

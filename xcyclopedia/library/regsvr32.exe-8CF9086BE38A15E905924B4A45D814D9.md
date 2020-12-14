@@ -46,7 +46,7 @@ SSDEEP | `384:PHMQ8+gxXO3Ih7uGLQryMqcgQ7zY+ZFFlIfoosWrzLHW:EQ8pk3k7uY2ZuQfFfIfoq
 
 ## Possible Misuse
 
-*The following table contains possible examples of `regsvr32.exe` being misused. While `regsvr32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `regsvr32.exe` being misused. While `regsvr32.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

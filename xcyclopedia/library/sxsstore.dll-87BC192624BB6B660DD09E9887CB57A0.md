@@ -26,10 +26,10 @@ PE256 | `3412BA14C317E3CB869B40906FDE77D29A51C2013985C0670731389951D23F1E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 1 | Exported Function
-`DllMain` | 2 | Exported Function
 `SxsStoreFinalize` | 3 | Exported Function
 `SxsStoreInitialize` | 4 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

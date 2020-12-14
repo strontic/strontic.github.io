@@ -26,27 +26,27 @@ PE256 | `23E46F7F29AD9BA5B0E11730AEA891C9758AE8AD6903E9854EEAA73C310EE4EA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateLogonCertificateRequest` | 50 | Exported Function
-`LogCertInstall` | 39 | Exported Function
-`LogCertImport` | 41 | Exported Function
-`LogCertExport` | 42 | Exported Function
-`LogCertExpire` | 35 | Exported Function
 `LogCertDelete` | 33 | Exported Function
+`LogCertExpire` | 35 | Exported Function
 `LogCertCopy` | 40 | Exported Function
-`LogCertArchive` | 34 | Exported Function
 `IsLogonCertificateTemplateAvailable` | 49 | Exported Function
+`LogCertArchive` | 34 | Exported Function
 `LogCertReplace` | 32 | Exported Function
-`InstallLogonCertificateResponse` | 51 | Exported Function
-`ImportPFXToProvider` | 45 | Exported Function
-`DllUnregisterServer` | 58 | Exported Function
-`DllRegisterServer` | 57 | Exported Function
-`DllMain` | 56 | Exported Function
-`DllGetClassObject` | 55 | Exported Function
-`DllGetActivationFactory` | 54 | Exported Function
-`DllCanUnloadNow` | 17 | Exported Function
-`DeleteLogonCertificateRequest` | 52 | Exported Function
-`ImportPFXToProviderFreeData` | 46 | Exported Function
 `UpdateMachinePolicyConfigurationForTemplate` | 53 | Exported Function
+`LogCertInstall` | 39 | Exported Function
+`LogCertExport` | 42 | Exported Function
+`LogCertImport` | 41 | Exported Function
+`InstallLogonCertificateResponse` | 51 | Exported Function
+`DllGetActivationFactory` | 54 | Exported Function
+`DllGetClassObject` | 55 | Exported Function
+`DllCanUnloadNow` | 17 | Exported Function
+`CreateLogonCertificateRequest` | 50 | Exported Function
+`DeleteLogonCertificateRequest` | 52 | Exported Function
+`ImportPFXToProvider` | 45 | Exported Function
+`ImportPFXToProviderFreeData` | 46 | Exported Function
+`DllUnregisterServer` | 58 | Exported Function
+`DllMain` | 56 | Exported Function
+`DllRegisterServer` | 57 | Exported Function
 
 
 ## Signature

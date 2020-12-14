@@ -26,26 +26,26 @@ PE256 | `6385FB3128F95FBCE1D8CCE96DE23F734503F49A4903D87DB12654685B712B37`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AppRegEnum` | 13 | Exported Function
-`SetActionName` | 12 | Exported Function
-`SetActionLogModeSz` | 8 | Exported Function
-`SetActionLogMode` | 9 | Exported Function
-`SetActionLogFile` | 7 | Exported Function
 `SetActionEnum` | 11 | Exported Function
+`SetActionLogFile` | 7 | Exported Function
 `RunDLL32_UnregisterApplication` | 20 | Exported Function
-`RunDLL32_RegisterApplication` | 19 | Exported Function
 `RegisterApplication` | 18 | Exported Function
-`RefreshAppRegEnum` | 17 | Exported Function
-`QueryApplication` | 16 | Exported Function
-`OpenAppRegEnum` | 15 | Exported Function
-`ExecuteAction` | 10 | Exported Function
-`DllUnregisterServer` | 25 | Exported Function
-`DllRegisterServer` | 24 | Exported Function
-`DllGetClassObject` | 23 | Exported Function
-`DllCanUnloadNow` | 22 | Exported Function
-`CloseAppRegEnum` | 14 | Exported Function
+`RunDLL32_RegisterApplication` | 19 | Exported Function
 `SetSilent` | 6 | Exported Function
 `UnregisterApplication` | 21 | Exported Function
+`SetActionName` | 12 | Exported Function
+`SetActionLogMode` | 9 | Exported Function
+`SetActionLogModeSz` | 8 | Exported Function
+`DllGetClassObject` | 23 | Exported Function
+`DllRegisterServer` | 24 | Exported Function
+`DllCanUnloadNow` | 22 | Exported Function
+`AppRegEnum` | 13 | Exported Function
+`CloseAppRegEnum` | 14 | Exported Function
+`QueryApplication` | 16 | Exported Function
+`RefreshAppRegEnum` | 17 | Exported Function
+`OpenAppRegEnum` | 15 | Exported Function
+`DllUnregisterServer` | 25 | Exported Function
+`ExecuteAction` | 10 | Exported Function
 
 
 ## Signature
@@ -75,7 +75,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `odbcconf.dll` being misused. While `odbcconf.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `odbcconf.dll` being misused. While `odbcconf.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

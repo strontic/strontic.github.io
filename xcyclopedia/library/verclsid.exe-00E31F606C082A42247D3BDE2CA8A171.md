@@ -49,7 +49,7 @@ PE256 | `F3BD5375A7C0D44BBF04E29D7131A14845992262D1A92AECF1F28DE6E6575899`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -25,20 +25,20 @@ PE256 | `5742E18508DE5DD3B443FE98ACD6049E6BB5876FA336A0E7048DAD2CA1DA2E58`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`std::allocator` | 1 | Exported Function
-`SystemEventMonitor::getInstance` | 5 | Exported Function
-`SystemEventMonitor::addObserver` | 2 | Exported Function
-`std::allocator` | 3 | Exported Function
-`std::allocator` | 4 | Exported Function
-`std::allocator` | 9 | Exported Function
-`SystemEventMonitor::isLocalNetworkDown` | 10 | Exported Function
-`SystemEventMonitor::removeObserver` | 11 | Exported Function
-`SystemEventMonitor::startMonitoring` | 13 | Exported Function
 `SystemEventMonitor::stopMonitoring` | 14 | Exported Function
+`SystemEventMonitor::startMonitoring` | 13 | Exported Function
+`SystemEventMonitor::removeObserver` | 11 | Exported Function
 `std::allocator` | 6 | Exported Function
-`std::allocator` | 8 | Exported Function
-`std::allocator` | 7 | Exported Function
 `SystemEventMonitor::resetCache` | 12 | Exported Function
+`std::allocator` | 7 | Exported Function
+`std::allocator` | 8 | Exported Function
+`SystemEventMonitor::addObserver` | 2 | Exported Function
+`SystemEventMonitor::getInstance` | 5 | Exported Function
+`std::allocator` | 1 | Exported Function
+`std::allocator` | 3 | Exported Function
+`SystemEventMonitor::isLocalNetworkDown` | 10 | Exported Function
+`std::allocator` | 9 | Exported Function
+`std::allocator` | 4 | Exported Function
 
 
 ## Signature

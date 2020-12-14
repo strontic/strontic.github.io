@@ -41,7 +41,7 @@ SSDEEP | `1536:PfiNEpsbvoQy69JM6RafbepzL66p1RCv2u9LO8rReuFG44JB3/bOuTl:3iNEyTUbe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wlanext.exe` being misused. While `wlanext.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wlanext.exe` being misused. While `wlanext.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

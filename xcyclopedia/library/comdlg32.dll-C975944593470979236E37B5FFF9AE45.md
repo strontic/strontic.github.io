@@ -26,34 +26,34 @@ PE256 | `81E0A5137A48A810E631BCB25EE53465D4E7A779C950B10AC02503FFE9555B9C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ChooseColorA` | 102 | Exported Function
-`ReplaceTextW` | 125 | Exported Function
-`ReplaceTextA` | 124 | Exported Function
-`PrintDlgW` | 123 | Exported Function
-`PrintDlgExW` | 122 | Exported Function
-`PrintDlgExA` | 121 | Exported Function
-`PrintDlgA` | 120 | Exported Function
-`PageSetupDlgW` | 119 | Exported Function
 `PageSetupDlgA` | 118 | Exported Function
+`PageSetupDlgW` | 119 | Exported Function
+`PrintDlgA` | 120 | Exported Function
 `LoadAlterBitmap` | 117 | Exported Function
-`GetSaveFileNameW` | 116 | Exported Function
-`GetSaveFileNameA` | 115 | Exported Function
 `GetOpenFileNameW` | 114 | Exported Function
-`GetOpenFileNameA` | 113 | Exported Function
-`GetFileTitleW` | 112 | Exported Function
-`GetFileTitleA` | 111 | Exported Function
-`FindTextW` | 110 | Exported Function
-`FindTextA` | 109 | Exported Function
-`dwOKSubclass` | 129 | Exported Function
-`dwLBSubclass` | 128 | Exported Function
-`DllGetClassObject` | 108 | Exported Function
-`DllCanUnloadNow` | 107 | Exported Function
-`CommDlgExtendedError` | 106 | Exported Function
-`ChooseFontW` | 105 | Exported Function
-`ChooseFontA` | 104 | Exported Function
-`ChooseColorW` | 103 | Exported Function
+`GetSaveFileNameA` | 115 | Exported Function
+`GetSaveFileNameW` | 116 | Exported Function
+`ReplaceTextW` | 125 | Exported Function
 `Ssync_ANSI_UNICODE_Struct_For_WOW` | 126 | Exported Function
 `WantArrows` | 127 | Exported Function
+`ReplaceTextA` | 124 | Exported Function
+`PrintDlgExA` | 121 | Exported Function
+`PrintDlgExW` | 122 | Exported Function
+`PrintDlgW` | 123 | Exported Function
+`CommDlgExtendedError` | 106 | Exported Function
+`DllCanUnloadNow` | 107 | Exported Function
+`DllGetClassObject` | 108 | Exported Function
+`ChooseFontW` | 105 | Exported Function
+`ChooseColorA` | 102 | Exported Function
+`ChooseColorW` | 103 | Exported Function
+`ChooseFontA` | 104 | Exported Function
+`GetFileTitleA` | 111 | Exported Function
+`GetFileTitleW` | 112 | Exported Function
+`GetOpenFileNameA` | 113 | Exported Function
+`FindTextW` | 110 | Exported Function
+`dwLBSubclass` | 128 | Exported Function
+`dwOKSubclass` | 129 | Exported Function
+`FindTextA` | 109 | Exported Function
 
 
 ## Signature

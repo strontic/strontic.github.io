@@ -26,29 +26,29 @@ PE256 | `054EF02D04CC5DC32D6C2CE5B4045F83D7AB20883B474DA89FE18D03283FA4C5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PhoneBookCopyFilter` | 1 | Exported Function
-`PhoneBookMergeChanges` | 21 | Exported Function
-`PhoneBookMatchFilter` | 20 | Exported Function
-`PhoneBookLoad` | 19 | Exported Function
-`PhoneBookHasPhoneType` | 18 | Exported Function
-`PhoneBookGetRegionNameA` | 17 | Exported Function
 `PhoneBookGetPhoneType` | 16 | Exported Function
+`PhoneBookGetRegionNameA` | 17 | Exported Function
 `PhoneBookGetPhoneNonCanonicalA` | 15 | Exported Function
-`PhoneBookGetPhoneDUNA` | 12 | Exported Function
 `PhoneBookGetPhoneDispA` | 14 | Exported Function
+`PhoneBookGetPhoneDUNA` | 12 | Exported Function
+`PhoneBookHasPhoneType` | 18 | Exported Function
 `PhoneBookParseInfoA` | 22 | Exported Function
-`PhoneBookGetPhoneDescA` | 13 | Exported Function
-`PhoneBookGetCurrentCountryId` | 10 | Exported Function
-`PhoneBookGetCountryNameW` | 9 | Exported Function
-`PhoneBookGetCountryNameA` | 8 | Exported Function
-`PhoneBookGetCountryId` | 7 | Exported Function
-`PhoneBookFreeFilter` | 6 | Exported Function
-`PhoneBookEnumRegions` | 5 | Exported Function
-`PhoneBookEnumNumbersWithRegionsZero` | 4 | Exported Function
-`PhoneBookEnumNumbers` | 3 | Exported Function
-`PhoneBookEnumCountries` | 2 | Exported Function
-`PhoneBookGetPhoneCanonicalA` | 11 | Exported Function
 `PhoneBookUnload` | 23 | Exported Function
+`PhoneBookMergeChanges` | 21 | Exported Function
+`PhoneBookLoad` | 19 | Exported Function
+`PhoneBookMatchFilter` | 20 | Exported Function
+`PhoneBookGetPhoneDescA` | 13 | Exported Function
+`PhoneBookEnumNumbersWithRegionsZero` | 4 | Exported Function
+`PhoneBookEnumRegions` | 5 | Exported Function
+`PhoneBookEnumNumbers` | 3 | Exported Function
+`PhoneBookCopyFilter` | 1 | Exported Function
+`PhoneBookEnumCountries` | 2 | Exported Function
+`PhoneBookFreeFilter` | 6 | Exported Function
+`PhoneBookGetCurrentCountryId` | 10 | Exported Function
+`PhoneBookGetPhoneCanonicalA` | 11 | Exported Function
+`PhoneBookGetCountryNameW` | 9 | Exported Function
+`PhoneBookGetCountryId` | 7 | Exported Function
+`PhoneBookGetCountryNameA` | 8 | Exported Function
 
 
 ## Signature

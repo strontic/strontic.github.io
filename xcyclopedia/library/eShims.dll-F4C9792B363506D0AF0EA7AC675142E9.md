@@ -26,17 +26,17 @@ PE256 | `A51148B19CA6B178FD57B45BC273B38A61D3E9D641139F8F72F827D4D83F6633`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IEShims_CreateFileW` | 2 | Exported Function
-`IEShims_FindClose` | 3 | Exported Function
-`IEShims_FindFirstFileW` | 4 | Exported Function
-`IEShims_GetFileAttributesExW` | 5 | Exported Function
-`IEShims_GetFileAttributesW` | 6 | Exported Function
-`IEShims_GetFullPathNameW` | 7 | Exported Function
-`IEShims_GetLongPathNameW` | 8 | Exported Function
 `IEShims_Initialize` | 9 | Exported Function
+`IEShims_GetLongPathNameW` | 8 | Exported Function
 `IEShims_Uninitialize` | 10 | Exported Function
-`IEShims_WNetGetConnectionW` | 11 | Exported Function
 `RegisterFlashShimHandler` | 1 | Exported Function
+`IEShims_WNetGetConnectionW` | 11 | Exported Function
+`IEShims_GetFullPathNameW` | 7 | Exported Function
+`IEShims_FindClose` | 3 | Exported Function
+`IEShims_CreateFileW` | 2 | Exported Function
+`IEShims_FindFirstFileW` | 4 | Exported Function
+`IEShims_GetFileAttributesW` | 6 | Exported Function
+`IEShims_GetFileAttributesExW` | 5 | Exported Function
 
 
 ## Signature

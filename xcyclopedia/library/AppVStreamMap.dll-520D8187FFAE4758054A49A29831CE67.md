@@ -26,8 +26,8 @@ PE256 | `29C6431F76B052B9BF955B965E64FBBA91CE2D7BA0A8D0F4351EE328CAC254D3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateStreamMapFromFile` | 1 | Exported Function
 `CreateStreamMapFromStream` | 2 | Exported Function
+`CreateStreamMapFromFile` | 1 | Exported Function
 
 
 ## Signature

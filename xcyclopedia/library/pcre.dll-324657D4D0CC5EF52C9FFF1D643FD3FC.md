@@ -25,38 +25,38 @@ PE256 | `9B6595B91C5D7716847A9705177AF0C9DF0A19EDBE25DC24B71AC19DF313F6C9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`pcre_assign_jit_stack` | 1 | Exported Function
-`pcre_stack_malloc` | 30 | Exported Function
-`pcre_stack_guard` | 29 | Exported Function
-`pcre_stack_free` | 28 | Exported Function
-`pcre_refcount` | 27 | Exported Function
-`pcre_pattern_to_host_byte_order` | 26 | Exported Function
-`pcre_malloc` | 25 | Exported Function
-`pcre_maketables` | 24 | Exported Function
-`pcre_jit_stack_free` | 23 | Exported Function
 `pcre_jit_stack_alloc` | 22 | Exported Function
 `pcre_jit_free_unused_memory` | 21 | Exported Function
-`pcre_jit_exec` | 20 | Exported Function
-`pcre_get_substring_list` | 19 | Exported Function
+`pcre_maketables` | 24 | Exported Function
+`pcre_jit_stack_free` | 23 | Exported Function
 `pcre_get_substring` | 18 | Exported Function
 `pcre_get_stringtable_entries` | 17 | Exported Function
-`pcre_get_stringnumber` | 16 | Exported Function
-`pcre_get_named_substring` | 15 | Exported Function
-`pcre_fullinfo` | 14 | Exported Function
-`pcre_free_substring_list` | 13 | Exported Function
-`pcre_free_substring` | 12 | Exported Function
-`pcre_free_study` | 11 | Exported Function
-`pcre_free` | 10 | Exported Function
-`pcre_exec` | 9 | Exported Function
-`pcre_dfa_exec` | 8 | Exported Function
-`pcre_copy_substring` | 7 | Exported Function
+`pcre_jit_exec` | 20 | Exported Function
+`pcre_get_substring_list` | 19 | Exported Function
+`pcre_stack_malloc` | 30 | Exported Function
+`pcre_stack_guard` | 29 | Exported Function
+`pcre_version` | 32 | Exported Function
+`pcre_study` | 31 | Exported Function
+`pcre_pattern_to_host_byte_order` | 26 | Exported Function
+`pcre_malloc` | 25 | Exported Function
+`pcre_stack_free` | 28 | Exported Function
+`pcre_refcount` | 27 | Exported Function
 `pcre_copy_named_substring` | 6 | Exported Function
 `pcre_config` | 5 | Exported Function
+`pcre_dfa_exec` | 8 | Exported Function
+`pcre_copy_substring` | 7 | Exported Function
+`pcre_callout` | 2 | Exported Function
+`pcre_assign_jit_stack` | 1 | Exported Function
 `pcre_compile2` | 4 | Exported Function
 `pcre_compile` | 3 | Exported Function
-`pcre_callout` | 2 | Exported Function
-`pcre_study` | 31 | Exported Function
-`pcre_version` | 32 | Exported Function
+`pcre_fullinfo` | 14 | Exported Function
+`pcre_free_substring_list` | 13 | Exported Function
+`pcre_get_stringnumber` | 16 | Exported Function
+`pcre_get_named_substring` | 15 | Exported Function
+`pcre_free` | 10 | Exported Function
+`pcre_exec` | 9 | Exported Function
+`pcre_free_substring` | 12 | Exported Function
+`pcre_free_study` | 11 | Exported Function
 
 
 ## Signature

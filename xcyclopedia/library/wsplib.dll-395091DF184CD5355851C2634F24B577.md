@@ -26,8 +26,8 @@ PE256 | `CDB062DFCA17C6CE538339450C29D1E956804E53BE6BC9C9CA25EE2B14C7C361`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DecodeWspHeaders` | 1 | Exported Function
 `FreeWspHeaders` | 2 | Exported Function
+`DecodeWspHeaders` | 1 | Exported Function
 
 
 ## Signature

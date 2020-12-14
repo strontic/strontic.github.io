@@ -31,8 +31,6 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
-C:\Windows\system32\DPAPI.DLL |
-C:\Windows\system32\dwmapi.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -49,8 +47,6 @@ C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WINSTA.dll |
-C:\Windows\system32\WTSAPI32.dll |
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `A91E66F92D9B8BBD8545907D1B4F7EA6743E1E59D7F1FB94787E1940F4A35505`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InjectThread` | 1 | Exported Function
-`ParametersBlock` | 2 | Exported Function
-`StubDllEntry` | 3 | Exported Function
 `StubDllEntryWow64` | 4 | Exported Function
 `TriggerOSNotification` | 5 | Exported Function
+`StubDllEntry` | 3 | Exported Function
+`InjectThread` | 1 | Exported Function
+`ParametersBlock` | 2 | Exported Function
 
 
 ## Signature

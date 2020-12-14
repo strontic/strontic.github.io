@@ -26,27 +26,27 @@ PE256 | `8E8C874635D71B2A4AAB41C52E1FA87ACD706F118860C18FD771C6E1DEAE5436`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 8 | Exported Function
-`WMIsAvailableOffline` | 6 | Exported Function
-`WMCreateWriterPushSink` | 20 | Exported Function
-`WMCreateWriterPriv` | 19 | Exported Function
-`WMCreateWriterNetworkSink` | 18 | Exported Function
 `WMCreateWriterFileSink` | 17 | Exported Function
+`WMCreateWriterNetworkSink` | 18 | Exported Function
 `WMCreateWriter` | 16 | Exported Function
-`WMCreateSyncReaderPriv` | 5 | Exported Function
 `WMCreateSyncReader` | 15 | Exported Function
+`WMCreateSyncReaderPriv` | 5 | Exported Function
 `WMIsContentProtected` | 21 | Exported Function
-`WMCreateReaderPriv` | 14 | Exported Function
-`WMCreateProfileManager` | 12 | Exported Function
-`WMCreateLicenseRevocationAgentPrivate` | 4 | Exported Function
-`WMCreateIndexer` | 11 | Exported Function
-`WMCreateEditor` | 10 | Exported Function
-`WMCreateBackupRestorerPrivate` | 3 | Exported Function
-`WMCreateBackupRestorer` | 9 | Exported Function
-`WMCheckURLScheme` | 2 | Exported Function
-`WMCheckURLExtension` | 1 | Exported Function
-`WMCreateReader` | 13 | Exported Function
 `WMValidateData` | 7 | Exported Function
+`WMIsAvailableOffline` | 6 | Exported Function
+`WMCreateWriterPriv` | 19 | Exported Function
+`WMCreateWriterPushSink` | 20 | Exported Function
+`WMCreateReaderPriv` | 14 | Exported Function
+`WMCreateBackupRestorer` | 9 | Exported Function
+`WMCreateBackupRestorerPrivate` | 3 | Exported Function
+`WMCheckURLScheme` | 2 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`WMCheckURLExtension` | 1 | Exported Function
+`WMCreateProfileManager` | 12 | Exported Function
+`WMCreateReader` | 13 | Exported Function
+`WMCreateLicenseRevocationAgentPrivate` | 4 | Exported Function
+`WMCreateEditor` | 10 | Exported Function
+`WMCreateIndexer` | 11 | Exported Function
 
 
 ## Signature

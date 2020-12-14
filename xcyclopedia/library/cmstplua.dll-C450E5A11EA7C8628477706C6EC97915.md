@@ -26,11 +26,11 @@ PE256 | `522F6FA6F5401B6BEDCDC4893DF91D007FB66D30C1D65117DBF3B0EA05F45C2E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllAddRef` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllMain` | 4 | Exported Function
 `DllRelease` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllAddRef` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

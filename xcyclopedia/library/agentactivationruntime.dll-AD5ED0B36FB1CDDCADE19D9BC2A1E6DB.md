@@ -26,10 +26,10 @@ PE256 | `2DDB132FD36CFE39208BFFE5F462C89B1381DDE942739D3A15BED07DAC1C2DF8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VoiceAgentServices::Logger GetLoggerInstance` | 3 | Exported Function
-`VoiceAgentServices::IAgentActivationRuntime CreateAgentActivationRuntime` | 1 | Exported Function
 `VoiceAgentServices::IAgentActivationRuntime GetAgentActivationRuntime` | 2 | Exported Function
 `void __cdecl ReleaseAgentActivationRuntime(void)` | 4 | Exported Function
+`VoiceAgentServices::Logger GetLoggerInstance` | 3 | Exported Function
+`VoiceAgentServices::IAgentActivationRuntime CreateAgentActivationRuntime` | 1 | Exported Function
 
 
 ## Signature

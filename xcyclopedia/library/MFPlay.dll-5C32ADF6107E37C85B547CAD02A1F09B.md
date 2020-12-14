@@ -26,12 +26,12 @@ PE256 | `E217BC1D7216248A24F8FE9928FAD697CC4059D53AEFC1C49F41AF39A95B5358`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
 `MFPCreateMediaPlayer` | 5 | Exported Function
 `MFPCreateMediaPlayerEx` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

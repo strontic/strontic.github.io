@@ -26,14 +26,14 @@ PE256 | `360AE02E8CEA12CD93554AF3FA6A9E82F95CC95AE0161027B743E8629FA153A0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MI_Application_NewDeserializer_Mof` | 1 | Exported Function
-`MI_Application_NewSerializer_Mof` | 2 | Exported Function
-`MI_MOFParser_Delete` | 3 | Exported Function
-`MI_MOFParser_Init` | 4 | Exported Function
-`MI_MOFParser_Lex` | 5 | Exported Function
 `MI_MOFParser_Parse` | 6 | Exported Function
-`NITS_PRESENCE_STUB` | 7 | Exported Function
+`MI_MOFParser_Lex` | 5 | Exported Function
 `NITS_STUB` | 8 | Exported Function
+`NITS_PRESENCE_STUB` | 7 | Exported Function
+`MI_Application_NewSerializer_Mof` | 2 | Exported Function
+`MI_Application_NewDeserializer_Mof` | 1 | Exported Function
+`MI_MOFParser_Init` | 4 | Exported Function
+`MI_MOFParser_Delete` | 3 | Exported Function
 
 
 ## Signature

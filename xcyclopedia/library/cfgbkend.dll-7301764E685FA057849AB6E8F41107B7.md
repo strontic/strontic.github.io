@@ -26,14 +26,14 @@ PE256 | `23034B6E854F069654A90EB9E2131316234B2350138E255757C3ED0468F6AC98`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CLSID_CfgComp` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
 `IID_ICfgComp` | 6 | Exported Function
-`IID_ISettingsComp` | 7 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
 `IID_ISettingsComp2` | 8 | Exported Function
+`IID_ISettingsComp` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CLSID_CfgComp` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

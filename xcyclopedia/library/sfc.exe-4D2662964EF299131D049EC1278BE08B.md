@@ -58,6 +58,9 @@ e.g.
 
 ```
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |
@@ -96,7 +99,7 @@ C:\Windows\SysWOW64\sfc.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sfc.exe` being misused. While `sfc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sfc.exe` being misused. While `sfc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

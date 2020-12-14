@@ -26,18 +26,18 @@ PE256 | `902F85740DC5F85753283B8139C542C07C45CF67FCEC2656515A87C39C664856`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CharLowerA` | 1 | Exported Function
-`CharLowerBuffA` | 2 | Exported Function
-`CharNextA` | 3 | Exported Function
-`CharNextExA` | 4 | Exported Function
-`CharPrevA` | 5 | Exported Function
-`CharPrevExA` | 6 | Exported Function
-`CharUpperA` | 7 | Exported Function
-`CharUpperBuffA` | 8 | Exported Function
 `IsCharAlphaA` | 9 | Exported Function
-`IsCharAlphaNumericA` | 10 | Exported Function
-`IsCharLowerA` | 11 | Exported Function
+`CharUpperBuffA` | 8 | Exported Function
+`CharUpperA` | 7 | Exported Function
 `IsCharUpperA` | 12 | Exported Function
+`IsCharLowerA` | 11 | Exported Function
+`IsCharAlphaNumericA` | 10 | Exported Function
+`CharNextA` | 3 | Exported Function
+`CharLowerBuffA` | 2 | Exported Function
+`CharLowerA` | 1 | Exported Function
+`CharPrevExA` | 6 | Exported Function
+`CharPrevA` | 5 | Exported Function
+`CharNextExA` | 4 | Exported Function
 
 
 ## Signature

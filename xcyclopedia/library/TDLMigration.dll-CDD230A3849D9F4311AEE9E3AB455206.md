@@ -26,8 +26,8 @@ PE256 | `2A919976E253FFFD3DEBB9A465FD0D40FBEC572EBD5CB130F3F4B758B7E5A0C8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateTdlMigrator` | 1 | Exported Function
 `CreateTdlMigratorForUser` | 2 | Exported Function
+`CreateTdlMigrator` | 1 | Exported Function
 
 
 ## Signature

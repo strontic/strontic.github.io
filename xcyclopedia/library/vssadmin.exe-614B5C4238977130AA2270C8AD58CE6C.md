@@ -85,7 +85,7 @@ C:\Windows\system32\vssadmin.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vssadmin.exe` being misused. While `vssadmin.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vssadmin.exe` being misused. While `vssadmin.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,13 +26,13 @@ PE256 | `4640989E7C48DC14922E1C88EB0A7076EA94AB2702D72B064BDBA49CB1DF8E95`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `WdiDiagnosticModuleMain` | 5 | Exported Function
 `WdiGetDiagnosticModuleInterfaceVersion` | 6 | Exported Function
 `WdiHandleInstance` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

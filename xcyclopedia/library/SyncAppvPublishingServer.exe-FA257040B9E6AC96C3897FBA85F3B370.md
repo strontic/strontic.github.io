@@ -40,7 +40,7 @@ SSDEEP | `768:Z7amor5f5o0N6WW6mz8iLgkA7jnzsjpQbHcJI1PFca:dDu5oxn6/iMkA7XsCbHceP+
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SyncAppvPublishingServer.exe` being misused. While `SyncAppvPublishingServer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SyncAppvPublishingServer.exe` being misused. While `SyncAppvPublishingServer.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

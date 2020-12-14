@@ -26,38 +26,38 @@ PE256 | `B03442FC0FDDF7095248ED8730D03A9C3D54792DC235FF7666569E1DAAD04595`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ActivatorUpdateForIsRouterChanges` | 1 | Exported Function
-`SetupSave` | 32 | Exported Function
-`SetupOpen` | 31 | Exported Function
-`SetSetupSave` | 30 | Exported Function
-`SetSetupOpen` | 29 | Exported Function
-`ServerGetApplicationType` | 28 | Exported Function
-`OpenComponentLibraryOnStreamEx` | 27 | Exported Function
-`OpenComponentLibraryOnMemEx` | 26 | Exported Function
-`OpenComponentLibraryEx` | 25 | Exported Function
 `InprocServer32FromString` | 24 | Exported Function
 `GetSimpleTableDispenser` | 23 | Exported Function
-`GetGlobalBabyJITEnabled` | 5 | Exported Function
-`GetComputerObject` | 22 | Exported Function
+`OpenComponentLibraryOnMemEx` | 26 | Exported Function
+`OpenComponentLibraryEx` | 25 | Exported Function
 `GetCatalogObject2` | 21 | Exported Function
 `GetCatalogObject` | 20 | Exported Function
-`DowngradeAPL` | 4 | Exported Function
-`DllUnregisterServer` | 19 | Exported Function
-`DllRegisterServer` | 18 | Exported Function
-`DllGetClassObject` | 17 | Exported Function
-`DllCanUnloadNow` | 16 | Exported Function
-`DeleteAllActivatorsForClsid` | 3 | Exported Function
-`CreateComponentLibraryEx` | 15 | Exported Function
-`CoRegCleanup` | 2 | Exported Function
-`ComPlusRemoteAccessEnabled` | 14 | Exported Function
-`ComPlusPartitionsEnabled` | 13 | Exported Function
+`GetGlobalBabyJITEnabled` | 5 | Exported Function
+`GetComputerObject` | 22 | Exported Function
+`SetupSave` | 32 | Exported Function
+`SetupOpen` | 31 | Exported Function
+`UpdateFromComponentChange` | 7 | Exported Function
+`UpdateFromAppChange` | 6 | Exported Function
+`ServerGetApplicationType` | 28 | Exported Function
+`OpenComponentLibraryOnStreamEx` | 27 | Exported Function
+`SetSetupSave` | 30 | Exported Function
+`SetSetupOpen` | 29 | Exported Function
 `ComPlusMigrate` | 12 | Exported Function
 `ComPlusEnableRemoteAccess` | 11 | Exported Function
+`ComPlusRemoteAccessEnabled` | 14 | Exported Function
+`ComPlusPartitionsEnabled` | 13 | Exported Function
+`CheckMemoryGates` | 9 | Exported Function
+`ActivatorUpdateForIsRouterChanges` | 1 | Exported Function
 `ComPlusEnablePartitions` | 10 | Exported Function
 `CLSIDFromStringByBitness` | 8 | Exported Function
-`CheckMemoryGates` | 9 | Exported Function
-`UpdateFromAppChange` | 6 | Exported Function
-`UpdateFromComponentChange` | 7 | Exported Function
+`DllRegisterServer` | 18 | Exported Function
+`DllGetClassObject` | 17 | Exported Function
+`DowngradeAPL` | 4 | Exported Function
+`DllUnregisterServer` | 19 | Exported Function
+`CreateComponentLibraryEx` | 15 | Exported Function
+`CoRegCleanup` | 2 | Exported Function
+`DllCanUnloadNow` | 16 | Exported Function
+`DeleteAllActivatorsForClsid` | 3 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `3FDA1B6D08D635738530D0910123FF98747AD30948B99155CD96CE4D02FCE4B2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 1 | Exported Function
-`DllUnregisterServer` | 2 | Exported Function
 `RdvServiceMain` | 3 | Exported Function
 `VssServiceMain` | 4 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
 
 
 ## Signature

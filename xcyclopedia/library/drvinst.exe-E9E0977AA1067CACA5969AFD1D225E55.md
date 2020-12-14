@@ -41,7 +41,7 @@ SSDEEP | `1536:hwlhXzPpYYAlovU/UhN0UR8lraq6ggyDE2dwd2FhvyETLLBjJipKyby:hwTDPpFcU
 
 ## Possible Misuse
 
-*The following table contains possible examples of `drvinst.exe` being misused. While `drvinst.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `drvinst.exe` being misused. While `drvinst.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,25 +26,25 @@ PE256 | `D18B151C6B60DD485EBE252AE9DFBEF2BE6662AC679099CDE73765ACC12919D5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CsCreateClassStore` | 2 | Exported Function
-`ReleasePackageDetail` | 17 | Exported Function
-`ReleaseAppCategoryInfoList` | 16 | Exported Function
-`ProcessGroupPolicyObjectsEx` | 15 | Exported Function
-`IID_IClassAdmin` | 14 | Exported Function
 `GenerateGroupPolicy` | 13 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
+`IID_IClassAdmin` | 14 | Exported Function
 `DllCanUnloadNow` | 11 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`ProcessGroupPolicyObjectsEx` | 15 | Exported Function
 `ReleasePackageInfo` | 18 | Exported Function
-`CsUnregisterAppCategory` | 10 | Exported Function
-`CsServerGetClassStore` | 9 | Exported Function
-`CsRegisterAppCategory` | 8 | Exported Function
-`CsGetClassStorePath` | 7 | Exported Function
-`CsGetClassStore` | 6 | Exported Function
-`CsGetClassAccess` | 5 | Exported Function
-`CsGetAppCategories` | 4 | Exported Function
-`CsEnumApps` | 3 | Exported Function
-`CsSetOptions` | 1 | Exported Function
 `ServiceMain` | 19 | Exported Function
+`ReleaseAppCategoryInfoList` | 16 | Exported Function
+`ReleasePackageDetail` | 17 | Exported Function
+`CsUnregisterAppCategory` | 10 | Exported Function
+`CsGetAppCategories` | 4 | Exported Function
+`CsGetClassAccess` | 5 | Exported Function
+`CsCreateClassStore` | 2 | Exported Function
+`CsEnumApps` | 3 | Exported Function
+`CsGetClassStore` | 6 | Exported Function
+`CsServerGetClassStore` | 9 | Exported Function
+`CsSetOptions` | 1 | Exported Function
+`CsGetClassStorePath` | 7 | Exported Function
+`CsRegisterAppCategory` | 8 | Exported Function
 
 
 ## Signature
@@ -74,7 +74,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `appmgmts.dll` being misused. While `appmgmts.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `appmgmts.dll` being misused. While `appmgmts.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

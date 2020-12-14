@@ -25,10 +25,10 @@ PE256 | `2D15DDA514FFB69CFBC50C658381F23E33AE2EFDC6182DB00093D63CEA238800`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `SetDVCCallbackInformation` | 1 | Exported Function
 `VirtualChannelGetInstance` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

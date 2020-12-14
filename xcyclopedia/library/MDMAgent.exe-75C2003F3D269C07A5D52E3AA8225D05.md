@@ -33,7 +33,7 @@ C:\Windows\System32\bcrypt.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
-C:\Windows\system32\CRYPTSP.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\system32\DEVOBJ.dll |
 C:\Windows\system32\DMCmnUtils.dll |
 C:\Windows\system32\dmEnrollEngine.DLL |
@@ -75,7 +75,7 @@ C:\Windows\system32\USERENV.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/9840565e700311386876d2843b33e9a680f3d64ac821674b259573e441198e13/detection
 
 ## File Similarity (ssdeep match)

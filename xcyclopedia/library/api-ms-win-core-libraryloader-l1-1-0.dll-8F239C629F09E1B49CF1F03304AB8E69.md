@@ -26,24 +26,24 @@ PE256 | `3A87C772D95B7333A3C177CC6CD5102CBFA3D18B9C39FFA4C38FA7527F31E034`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DisableThreadLibraryCalls` | 1 | Exported Function
-`LoadResource` | 16 | Exported Function
-`LoadLibraryExW` | 15 | Exported Function
-`LoadLibraryExA` | 14 | Exported Function
-`GetProcAddress` | 13 | Exported Function
 `GetModuleHandleW` | 12 | Exported Function
-`GetModuleHandleExW` | 11 | Exported Function
+`GetProcAddress` | 13 | Exported Function
 `GetModuleHandleExA` | 10 | Exported Function
-`GetModuleHandleA` | 9 | Exported Function
-`GetModuleFileNameW` | 8 | Exported Function
-`GetModuleFileNameA` | 7 | Exported Function
-`FreeResource` | 6 | Exported Function
-`FreeLibraryAndExitThread` | 5 | Exported Function
-`FreeLibrary` | 4 | Exported Function
-`FindStringOrdinal` | 3 | Exported Function
-`FindResourceExW` | 2 | Exported Function
+`GetModuleHandleExW` | 11 | Exported Function
+`LoadLibraryExA` | 14 | Exported Function
 `LockResource` | 17 | Exported Function
 `SizeofResource` | 18 | Exported Function
+`LoadLibraryExW` | 15 | Exported Function
+`LoadResource` | 16 | Exported Function
+`FindStringOrdinal` | 3 | Exported Function
+`FreeLibrary` | 4 | Exported Function
+`DisableThreadLibraryCalls` | 1 | Exported Function
+`FindResourceExW` | 2 | Exported Function
+`FreeLibraryAndExitThread` | 5 | Exported Function
+`GetModuleFileNameW` | 8 | Exported Function
+`GetModuleHandleA` | 9 | Exported Function
+`FreeResource` | 6 | Exported Function
+`GetModuleFileNameA` | 7 | Exported Function
 
 
 ## Signature

@@ -24,6 +24,9 @@ PE256 | `C69A86504A4074BA315EBE1110FD44D39695C25348BD57BEC5A55DF03F406AB7`
 
 ## Runtime Data
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ### Open Handles:
 
 Path | Type
@@ -43,28 +46,19 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DUI70.dll |
-C:\Windows\system32\DUser.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\system32\sessionmsg.exe |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 
 

@@ -26,10 +26,10 @@ PE256 | `D4DF71240F28006348153CFC1D07B15F196FB831FBAB69D7CF754486BB467594`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllMain@12` | 1 | Exported Function
 `HrCreateProtoHandler` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

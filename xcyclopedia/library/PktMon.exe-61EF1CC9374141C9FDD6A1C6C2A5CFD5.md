@@ -75,8 +75,8 @@ C:\Windows\system32\PktMon.exe |
 * Original Filename: PktMon.exe.mui
 * Product Name: Microsoft Windows Operating System
 * Company Name: Microsoft Corporation
-* File Version: 10.0.19041.546 (WinBuild.160101.0800)
-* Product Version: 10.0.19041.546
+* File Version: 10.0.19041.662 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.662
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 * Machine Type: 64-bit
@@ -89,7 +89,7 @@ C:\Windows\system32\PktMon.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PktMon.exe` being misused. While `PktMon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PktMon.exe` being misused. While `PktMon.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,15 +26,15 @@ PE256 | `6B057239A63B7AD4039F0FF68545A422EB01ADC08312C5AAF73086A07DFD000C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SnmpMgrClose` | 1 | Exported Function
-`SnmpMgrCtl` | 2 | Exported Function
-`SnmpMgrGetTrap` | 3 | Exported Function
-`SnmpMgrGetTrapEx` | 4 | Exported Function
-`SnmpMgrOidToStr` | 5 | Exported Function
-`SnmpMgrOpen` | 6 | Exported Function
 `SnmpMgrRequest` | 7 | Exported Function
-`SnmpMgrStrToOid` | 8 | Exported Function
+`SnmpMgrOpen` | 6 | Exported Function
 `SnmpMgrTrapListen` | 9 | Exported Function
+`SnmpMgrStrToOid` | 8 | Exported Function
+`SnmpMgrOidToStr` | 5 | Exported Function
+`SnmpMgrCtl` | 2 | Exported Function
+`SnmpMgrClose` | 1 | Exported Function
+`SnmpMgrGetTrapEx` | 4 | Exported Function
+`SnmpMgrGetTrap` | 3 | Exported Function
 
 
 ## Signature

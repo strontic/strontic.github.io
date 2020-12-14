@@ -26,8 +26,8 @@ PE256 | `05E54E2CB7A79750476CFD637455070A1DB6C6C6D83DF3B48055E907145C2ACA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeOSKSupport` | 1 | Exported Function
 `UninitializeOSKSupport` | 2 | Exported Function
+`InitializeOSKSupport` | 1 | Exported Function
 
 
 ## Signature

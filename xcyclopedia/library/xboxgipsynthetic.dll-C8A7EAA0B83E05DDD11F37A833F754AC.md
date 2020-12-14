@@ -25,19 +25,19 @@ PE256 | `181E6A8AE24B9A40B943CF84A2A96ECB2568ADDC002085A1D50037E355749812`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`SyntheticController_AddAudioHeadset` | 2 | Exported Function
-`SyntheticController_Connect` | 3 | Exported Function
-`SyntheticController_CreateController` | 4 | Exported Function
-`SyntheticController_Disconnect` | 5 | Exported Function
-`SyntheticController_GetDeviceId` | 6 | Exported Function
-`SyntheticController_RegisterReportCallback` | 7 | Exported Function
-`SyntheticController_RemoveAudioHeadset` | 8 | Exported Function
-`SyntheticController_RemoveController` | 9 | Exported Function
 `SyntheticController_SendAudio` | 10 | Exported Function
-`SyntheticController_SendReport` | 11 | Exported Function
-`SyntheticController_SetTargetProcess` | 12 | Exported Function
+`SyntheticController_RemoveController` | 9 | Exported Function
+`SyntheticController_RemoveAudioHeadset` | 8 | Exported Function
 `SyntheticController_UnregisterReportCallback` | 13 | Exported Function
+`SyntheticController_SetTargetProcess` | 12 | Exported Function
+`SyntheticController_SendReport` | 11 | Exported Function
+`SyntheticController_RegisterReportCallback` | 7 | Exported Function
+`SyntheticController_Connect` | 3 | Exported Function
+`SyntheticController_AddAudioHeadset` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
+`SyntheticController_GetDeviceId` | 6 | Exported Function
+`SyntheticController_Disconnect` | 5 | Exported Function
+`SyntheticController_CreateController` | 4 | Exported Function
 
 
 ## Signature

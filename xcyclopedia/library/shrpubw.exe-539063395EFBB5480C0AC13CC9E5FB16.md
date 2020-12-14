@@ -29,6 +29,9 @@ PE256 | `269848070598E317C3A35F12FFC0F634C12614F937A2245B1F0DEB8438339FCB`
 
 ## Runtime Data
 
+### Child Processes:
+powershell.exe
+
 ### Window Title:
 Create A Shared Folder Wizard
 
@@ -49,8 +52,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:

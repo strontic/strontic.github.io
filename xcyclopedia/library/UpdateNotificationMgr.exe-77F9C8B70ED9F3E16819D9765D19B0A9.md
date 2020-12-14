@@ -29,43 +29,30 @@ PE256 | `F8F6D3A9E263F1197F555DAFB75F9CF67FCDD63B637C1C8601FEC2F8C07EB941`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\SYSTEM32\Cabinet.dll |
-C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\NETAPI32.dll |
-C:\Windows\SYSTEM32\NETUTILS.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\SYSTEM32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\UNP\UpdateNotificationMgr.exe |
-C:\Windows\SYSTEM32\UpdatePolicy.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WINTRUST.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -82,7 +69,7 @@ C:\Windows\System32\WINTRUST.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/5fe4952bcf8ac7edf0c7c6342f674aff558d47d7902c8217d73069ae084f3f9b/detection
 
 

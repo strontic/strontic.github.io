@@ -26,13 +26,13 @@ PE256 | `790A61D98CABF99D3019060865B84E673C315E9C41F2A0195BDCE03C5169AACF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapProvPlugGetInfo` | 1 | Exported Function
-`EapProvPluginDeinitialize` | 2 | Exported Function
-`EapProvPluginInitialize` | 3 | Exported Function
-`EapProvPluginTestForAuthenticatingWlanInterfaces` | 4 | Exported Function
 `EapProvPluginWlanCloseHandle` | 5 | Exported Function
 `EapProvPluginWlanOpenHandle` | 6 | Exported Function
 `EapProvPluginWlanRegisterNotification` | 7 | Exported Function
+`EapProvPluginTestForAuthenticatingWlanInterfaces` | 4 | Exported Function
+`EapProvPlugGetInfo` | 1 | Exported Function
+`EapProvPluginDeinitialize` | 2 | Exported Function
+`EapProvPluginInitialize` | 3 | Exported Function
 
 
 ## Signature

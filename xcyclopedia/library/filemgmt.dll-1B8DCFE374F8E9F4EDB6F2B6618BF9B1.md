@@ -26,12 +26,12 @@ PE256 | `49CD0887330631E248CA545C2174B6658E73886156F209428A9F9CB322BB4F3D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CacheSettingsDlg` | 5 | Exported Function
-`CacheSettingsDlg2` | 6 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
 `DllGetClassObject` | 8 | Exported Function
 `DllRegisterServer` | 9 | Exported Function
 `DllUnregisterServer` | 10 | Exported Function
+`CacheSettingsDlg` | 5 | Exported Function
+`CacheSettingsDlg2` | 6 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 
 
 ## Signature
@@ -61,11 +61,12 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `filemgmt.dll` being misused. While `filemgmt.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `filemgmt.dll` being misused. While `filemgmt.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`FileMgmt.dll`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | $rat5 = "rat/modules/filemgmt.(*acquire).NewCommandExecution" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -26,18 +26,18 @@ PE256 | `D55D3B65E458527D8854EFF56ECA15BD9BB70060E7C9B045B93292BD1ACAF5FE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`GetLastFailureAsHRESULT` | 5 | Exported Function
-`HRESULTFromNTSTATUS` | 6 | Exported Function
-`SxTracerDebuggerBreak` | 7 | Exported Function
-`SxTracerGetThreadContextDebug` | 8 | Exported Function
 `SxTracerGetThreadContextRetail` | 9 | Exported Function
-`SxTracerShouldTrackFailure` | 10 | Exported Function
-`Win32FromHRESULT` | 11 | Exported Function
+`SxTracerGetThreadContextDebug` | 8 | Exported Function
+`SxTracerDebuggerBreak` | 7 | Exported Function
 `Win32FromNTSTATUS` | 12 | Exported Function
+`Win32FromHRESULT` | 11 | Exported Function
+`SxTracerShouldTrackFailure` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`HRESULTFromNTSTATUS` | 6 | Exported Function
+`GetLastFailureAsHRESULT` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

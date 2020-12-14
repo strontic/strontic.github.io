@@ -51,7 +51,7 @@ PE256 | `D3D53905B2BEEAE63FE8DEF5DC3A64576C6862EE238DDA91AB77A1287707E595`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `VBE7INTL.DLL` being misused. While `VBE7INTL.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `VBE7INTL.DLL` being misused. While `VBE7INTL.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

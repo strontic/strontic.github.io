@@ -26,12 +26,12 @@ PE256 | `86C1DA7FB558E864AA69082419166F93D8ACAEE6B368A97CA9DDA8A339DBAF47`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`NetSetupCreateBindingMap` | 3 | Exported Function
 `NetSetupExportDatabase` | 4 | Exported Function
 `NetSetupResetBindings` | 5 | Exported Function
 `NetSetupShimExecuteInfSection` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`NetSetupCreateBindingMap` | 3 | Exported Function
 
 
 ## Signature

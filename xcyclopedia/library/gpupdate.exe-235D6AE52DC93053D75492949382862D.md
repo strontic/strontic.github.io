@@ -41,7 +41,7 @@ SSDEEP | `384:MGaJ7eVYC8HQp42zvsjh7FGlulQohSvQDheFlCWFeDW:OJ7eHd42zvuFGlspSvFlM`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `gpupdate.exe` being misused. While `gpupdate.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `gpupdate.exe` being misused. While `gpupdate.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

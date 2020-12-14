@@ -26,11 +26,11 @@ PE256 | `0D67B1257B84650576FBD66C43B092B3EB17A4C85D5E9ABAF80E836CAE3EEF01`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `NmaDirect_OverrideUserLocation` | 4 | Exported Function
 `NmaDirect_StartGuidanceWithSimulatedRoute` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

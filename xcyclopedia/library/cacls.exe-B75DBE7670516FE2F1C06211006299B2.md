@@ -90,7 +90,7 @@ SSDEEP | `768:462i0EvHYstIAp5m8ubMFdQDpRuvu0tiPbND+G4bU:b2ibbIA3m8rFaDp820kxD+Gu
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cacls.exe` being misused. While `cacls.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cacls.exe` being misused. While `cacls.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

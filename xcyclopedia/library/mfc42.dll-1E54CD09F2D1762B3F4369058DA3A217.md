@@ -26,14 +26,14 @@ PE256 | `034CFEB0167CA23ED3E27B818BA495301441CEC47D85B57D4F97EE62F85CDE42`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 7 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
-`DllRegisterServer` | 9 | Exported Function
-`DllUnregisterServer` | 10 | Exported Function
-`int __cdecl AfxFreeLibrary(struct HINSTANCE__ * __ptr64)` | 1452 | Exported Function
 `struct HINSTANCE__ * __ptr64 __cdecl AfxLoadLibrary(char const * __ptr64)` | 1494 | Exported Function
-`void __cdecl AfxLockGlobals(int)` | 1497 | Exported Function
+`int __cdecl AfxFreeLibrary(struct HINSTANCE__ * __ptr64)` | 1452 | Exported Function
 `void __cdecl AfxUnlockGlobals(int)` | 1587 | Exported Function
+`void __cdecl AfxLockGlobals(int)` | 1497 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
 
 
 ## Signature
@@ -63,7 +63,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mfc42.dll` being misused. While `mfc42.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mfc42.dll` being misused. While `mfc42.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

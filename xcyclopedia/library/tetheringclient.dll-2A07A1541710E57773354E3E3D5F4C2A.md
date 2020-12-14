@@ -26,38 +26,38 @@ PE256 | `2F9ED7B5946356292EE36E9558308A6C35DA7F99667FABBDCAFDFA21FEF402B4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TetheringAuthorize` | 2 | Exported Function
-`TetheringStopSharing` | 30 | Exported Function
-`TetheringStartSharingAsync` | 29 | Exported Function
-`TetheringStartSharing` | 28 | Exported Function
-`TetheringSetSharingStateAsync` | 27 | Exported Function
-`TetheringSetSharingState` | 26 | Exported Function
-`TetheringSetPublicConnectionSettings` | 25 | Exported Function
-`TetheringSetPrivateConnectionSettingsAsync` | 24 | Exported Function
-`TetheringSetPrivateConnectionSettings` | 23 | Exported Function
 `TetheringSetPreferredInterface` | 22 | Exported Function
 `TetheringSetIsPeerlessTimeoutEnabled` | 21 | Exported Function
-`TetheringRegisterNotification` | 20 | Exported Function
-`TetheringIsAllowed` | 19 | Exported Function
+`TetheringSetPrivateConnectionSettingsAsync` | 24 | Exported Function
+`TetheringSetPrivateConnectionSettings` | 23 | Exported Function
 `TetheringIs5GHzSupported` | 18 | Exported Function
 `TetheringInitApi` | 17 | Exported Function
-`TetheringGetSharingState` | 16 | Exported Function
-`TetheringGetSharedInterfaceIndices` | 1 | Exported Function
-`TetheringGetPublicConnectionSettings` | 15 | Exported Function
-`TetheringGetPrivateConnectionSettings` | 14 | Exported Function
-`TetheringGetPreferredInterface` | 13 | Exported Function
-`TetheringGetPeerList` | 12 | Exported Function
-`TetheringGetMaxClientCount` | 11 | Exported Function
-`TetheringGetLastApiError` | 10 | Exported Function
-`TetheringGetIsPeerlessTimeoutEnabled` | 9 | Exported Function
-`TetheringGetErrorString` | 8 | Exported Function
+`TetheringRegisterNotification` | 20 | Exported Function
+`TetheringIsAllowed` | 19 | Exported Function
+`TetheringStopSharing` | 30 | Exported Function
+`TetheringStartSharingAsync` | 29 | Exported Function
+`TetheringUnregisterNotification` | 32 | Exported Function
+`TetheringStopSharingAsync` | 31 | Exported Function
+`TetheringSetSharingState` | 26 | Exported Function
+`TetheringSetPublicConnectionSettings` | 25 | Exported Function
+`TetheringStartSharing` | 28 | Exported Function
+`TetheringSetSharingStateAsync` | 27 | Exported Function
 `TetheringGetDefaultInterface` | 7 | Exported Function
 `TetheringGetClientCount` | 6 | Exported Function
+`TetheringGetIsPeerlessTimeoutEnabled` | 9 | Exported Function
+`TetheringGetErrorString` | 8 | Exported Function
+`TetheringDeinitApi` | 3 | Exported Function
+`TetheringAuthorize` | 2 | Exported Function
 `TetheringFreePeerList` | 5 | Exported Function
 `TetheringFreeMemory` | 4 | Exported Function
-`TetheringDeinitApi` | 3 | Exported Function
-`TetheringStopSharingAsync` | 31 | Exported Function
-`TetheringUnregisterNotification` | 32 | Exported Function
+`TetheringGetPublicConnectionSettings` | 15 | Exported Function
+`TetheringGetPrivateConnectionSettings` | 14 | Exported Function
+`TetheringGetSharingState` | 16 | Exported Function
+`TetheringGetSharedInterfaceIndices` | 1 | Exported Function
+`TetheringGetMaxClientCount` | 11 | Exported Function
+`TetheringGetLastApiError` | 10 | Exported Function
+`TetheringGetPreferredInterface` | 13 | Exported Function
+`TetheringGetPeerList` | 12 | Exported Function
 
 
 ## Signature

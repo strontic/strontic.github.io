@@ -41,7 +41,7 @@ SSDEEP | `3072:4Cyz+KlW+RInMlyfGt+1mlhHLYAHhAWqqkzL6ZqnEBcD3rYF4ZXTPou:4hW+RInMl
 
 ## Possible Misuse
 
-*The following table contains possible examples of `fsutil.exe` being misused. While `fsutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `fsutil.exe` being misused. While `fsutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

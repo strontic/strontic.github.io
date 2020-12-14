@@ -26,12 +26,12 @@ PE256 | `C1C99AA20D3B53E25C55CD0A4A5F25DC9C8FDA2A47A56B488CC4F938280B832F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PAL_App2DeviceFindAllPeers` | 1 | Exported Function
-`PAL_CheckForApp2DeviceAlternateId` | 2 | Exported Function
-`PAL_CheckForBluetoothSupport` | 3 | Exported Function
 `PAL_GetCurrentProcessExplicitAppUserModelID` | 4 | Exported Function
 `PAL_ParseAppUserModelId` | 5 | Exported Function
 `PAL_SetCurrentProcessExplicitAppUserModelID` | 6 | Exported Function
+`PAL_App2DeviceFindAllPeers` | 1 | Exported Function
+`PAL_CheckForApp2DeviceAlternateId` | 2 | Exported Function
+`PAL_CheckForBluetoothSupport` | 3 | Exported Function
 
 
 ## Signature

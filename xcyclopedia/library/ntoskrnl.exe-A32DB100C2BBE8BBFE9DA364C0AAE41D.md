@@ -49,7 +49,7 @@ PE256 | `1AB904E10548F212E6625EDD5ECF0DB60FEBFC71A57F901E739DEAEEBF649B27`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ntoskrnl.exe` being misused. While `ntoskrnl.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ntoskrnl.exe` being misused. While `ntoskrnl.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

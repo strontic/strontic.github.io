@@ -26,29 +26,29 @@ PE256 | `FE750C117C3734B1FF81DD4A05BAECEA2AAE0A0545D06B2ABE1D1E09B8620F4B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetAddAlternateComputerName` | 1 | Exported Function
-`NetWkstaUserEnum` | 21 | Exported Function
-`NetWkstaTransportEnum` | 20 | Exported Function
-`NetWkstaTransportDel` | 19 | Exported Function
-`NetWkstaTransportAdd` | 18 | Exported Function
-`NetWkstaStatisticsGet` | 17 | Exported Function
 `NetWkstaSetInfo` | 16 | Exported Function
+`NetWkstaStatisticsGet` | 17 | Exported Function
 `NetWkstaGetInfo` | 15 | Exported Function
-`NetValidateName` | 14 | Exported Function
 `NetUseGetInfo` | 13 | Exported Function
+`NetValidateName` | 14 | Exported Function
+`NetWkstaTransportAdd` | 18 | Exported Function
 `NetWkstaUserGetInfo` | 22 | Exported Function
-`NetUseEnum` | 12 | Exported Function
-`NetUseAdd` | 10 | Exported Function
-`NetUnjoinDomain` | 9 | Exported Function
-`NetSetPrimaryComputerName` | 8 | Exported Function
-`NetRenameMachineInDomain` | 7 | Exported Function
-`NetRemoveAlternateComputerName` | 6 | Exported Function
-`NetJoinDomain` | 5 | Exported Function
-`NetGetJoinInformation` | 3 | Exported Function
-`NetGetJoinableOUs` | 4 | Exported Function
-`NetEnumerateComputerNames` | 2 | Exported Function
-`NetUseDel` | 11 | Exported Function
 `NetWkstaUserSetInfo` | 23 | Exported Function
+`NetWkstaUserEnum` | 21 | Exported Function
+`NetWkstaTransportDel` | 19 | Exported Function
+`NetWkstaTransportEnum` | 20 | Exported Function
+`NetUseEnum` | 12 | Exported Function
+`NetGetJoinInformation` | 3 | Exported Function
+`NetJoinDomain` | 5 | Exported Function
+`NetGetJoinableOUs` | 4 | Exported Function
+`NetAddAlternateComputerName` | 1 | Exported Function
+`NetEnumerateComputerNames` | 2 | Exported Function
+`NetRemoveAlternateComputerName` | 6 | Exported Function
+`NetUseAdd` | 10 | Exported Function
+`NetUseDel` | 11 | Exported Function
+`NetUnjoinDomain` | 9 | Exported Function
+`NetRenameMachineInDomain` | 7 | Exported Function
+`NetSetPrimaryComputerName` | 8 | Exported Function
 
 
 ## Signature

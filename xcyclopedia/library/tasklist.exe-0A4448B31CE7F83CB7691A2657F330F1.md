@@ -141,13 +141,13 @@ C:\Windows\SysWOW64\tasklist.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/76eac7b5f53e0d58a98d5a6ddf9c97e19d1462ef65c0035d7798f89988b15ab4/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `tasklist.exe` being misused. While `tasklist.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `tasklist.exe` being misused. While `tasklist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

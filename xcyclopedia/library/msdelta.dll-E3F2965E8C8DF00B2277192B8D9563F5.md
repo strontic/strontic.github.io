@@ -26,21 +26,21 @@ PE256 | `B927B90D59F34D4799E8327E65963393523441514039608FD5FCFB894DD98B3F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ApplyDeltaA` | 1 | Exported Function
-`ApplyDeltaB` | 2 | Exported Function
-`ApplyDeltaProvidedB` | 3 | Exported Function
-`ApplyDeltaW` | 4 | Exported Function
-`CreateDeltaA` | 5 | Exported Function
-`CreateDeltaB` | 6 | Exported Function
-`CreateDeltaW` | 7 | Exported Function
-`DeltaFree` | 8 | Exported Function
-`DeltaNormalizeProvidedB` | 9 | Exported Function
-`GetDeltaInfoA` | 10 | Exported Function
 `GetDeltaInfoB` | 11 | Exported Function
+`GetDeltaInfoA` | 10 | Exported Function
+`DeltaNormalizeProvidedB` | 9 | Exported Function
 `GetDeltaInfoW` | 12 | Exported Function
-`GetDeltaSignatureA` | 13 | Exported Function
-`GetDeltaSignatureB` | 14 | Exported Function
 `GetDeltaSignatureW` | 15 | Exported Function
+`GetDeltaSignatureB` | 14 | Exported Function
+`GetDeltaSignatureA` | 13 | Exported Function
+`DeltaFree` | 8 | Exported Function
+`ApplyDeltaProvidedB` | 3 | Exported Function
+`ApplyDeltaB` | 2 | Exported Function
+`ApplyDeltaA` | 1 | Exported Function
+`ApplyDeltaW` | 4 | Exported Function
+`CreateDeltaW` | 7 | Exported Function
+`CreateDeltaB` | 6 | Exported Function
+`CreateDeltaA` | 5 | Exported Function
 
 
 ## Signature

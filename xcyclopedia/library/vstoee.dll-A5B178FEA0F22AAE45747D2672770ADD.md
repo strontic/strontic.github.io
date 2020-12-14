@@ -26,16 +26,16 @@ PE256 | `FD7134E0F8531E32059CAA6D275A63DEF416684E043FFABF3896C9F6954802D3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateVstoSolutionMetadataKey` | 1 | Exported Function
-`DllCanUnloadNow` | 9 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`GetLatestVstoRuntimeVersion` | 2 | Exported Function
-`GetValidCompatibleFramework` | 3 | Exported Function
-`GetVstoSolutionMetadata` | 4 | Exported Function
 `GetVstoSolutionRuntimeVersionW` | 5 | Exported Function
+`GetVstoSolutionMetadata` | 4 | Exported Function
 `GetVstoSolutionVersionW` | 6 | Exported Function
-`InstallSolution` | 7 | Exported Function
 `InstallVstoSolutionW` | 8 | Exported Function
+`InstallSolution` | 7 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`CreateVstoSolutionMetadataKey` | 1 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`GetValidCompatibleFramework` | 3 | Exported Function
+`GetLatestVstoRuntimeVersion` | 2 | Exported Function
 
 
 ## Signature

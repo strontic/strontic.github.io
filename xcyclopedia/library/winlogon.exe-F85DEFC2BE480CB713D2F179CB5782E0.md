@@ -41,7 +41,7 @@ SSDEEP | `12288:yhrogk8DTPPrqbnMZ5djQWB0KcLdFspX5/fQBMCut4ButCbK1xso/:niTPz0S/M1
 
 ## Possible Misuse
 
-*The following table contains possible examples of `winlogon.exe` being misused. While `winlogon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `winlogon.exe` being misused. While `winlogon.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

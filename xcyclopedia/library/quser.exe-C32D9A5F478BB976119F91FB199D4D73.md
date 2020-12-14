@@ -41,7 +41,7 @@ SSDEEP | `384:wDcq3/89+iuh46Cp9YdDpbm/+S5la0X2J/dP8r+cHWSmFWcjpO:g3k9yh4Z2M/icar
 
 ## Possible Misuse
 
-*The following table contains possible examples of `quser.exe` being misused. While `quser.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `quser.exe` being misused. While `quser.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

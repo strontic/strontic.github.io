@@ -26,11 +26,11 @@ PE256 | `8D3DB6D88402445C9A8AC43C82BEA30D83B07CC48A90E5D3FFA8FCDEA63721AB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `ServiceMain` | 4 | Exported Function
 `SvchostPushServiceGlobals` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

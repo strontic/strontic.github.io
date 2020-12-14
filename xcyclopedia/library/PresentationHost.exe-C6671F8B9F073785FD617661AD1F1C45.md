@@ -7,8 +7,6 @@ excerpt: What is PresentationHost.exe?
 
 * File Path: `C:\Windows\SysWOW64\PresentationHost.exe`
 * Description: Windows Presentation Foundation Host
-* Comments: Flavor=Retail
-
 
 ## Hashes
 
@@ -50,13 +48,13 @@ C:\Windows\SysWOW64\PresentationHost.exe |
 
 ## File Metadata
 
-* Original Filename: PresentationHost.exe.mui
-* Product Name: Microsoft .NET Framework
+* Original Filename: PresentationHost.exe
+* Product Name: Microsoft Windows Operating System
 * Company Name: Microsoft Corporation
-* File Version: 4.0.41210.0 built by: Main
-* Product Version: 4.0.41210.0
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
 * Language: English (United States)
-* Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
 * Machine Type: 32-bit
 
 ## File Scan
@@ -80,7 +78,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PresentationHost.exe` being misused. While `PresentationHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PresentationHost.exe` being misused. While `PresentationHost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

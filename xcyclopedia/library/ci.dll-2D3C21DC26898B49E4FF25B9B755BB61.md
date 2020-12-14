@@ -26,16 +26,16 @@ PE256 | `19538927B4CA854A61A6AFCC3BA69A91FCDA5851849064709D92C92F13D1CF6D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CiCheckSignedFile` | 4 | Exported Function
-`CiFindPageHashesInCatalog` | 5 | Exported Function
-`CiFindPageHashesInSignedFile` | 6 | Exported Function
-`CiFreePolicyInfo` | 7 | Exported Function
-`CiGetCertPublisherName` | 8 | Exported Function
-`CiGetPEInformation` | 9 | Exported Function
 `CiInitialize` | 10 | Exported Function
+`CiGetPEInformation` | 9 | Exported Function
 `CiSetTrustedOriginClaimId` | 11 | Exported Function
-`CiValidateFileObject` | 12 | Exported Function
 `CiVerifyHashInCatalog` | 13 | Exported Function
+`CiValidateFileObject` | 12 | Exported Function
+`CiFindPageHashesInCatalog` | 5 | Exported Function
+`CiCheckSignedFile` | 4 | Exported Function
+`CiFindPageHashesInSignedFile` | 6 | Exported Function
+`CiGetCertPublisherName` | 8 | Exported Function
+`CiFreePolicyInfo` | 7 | Exported Function
 
 
 ## Signature
@@ -73,7 +73,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ci.dll` being misused. While `ci.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ci.dll` being misused. While `ci.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

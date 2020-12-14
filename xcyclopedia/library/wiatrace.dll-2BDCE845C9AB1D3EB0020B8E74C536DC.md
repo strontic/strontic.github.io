@@ -26,14 +26,14 @@ PE256 | `E28F480C08C0FC65FEBB1F2EB0B65810962B50BCADBC5C6ABA035FF332461BD6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WIATRACE_DecrementIndentLevel` | 1 | Exported Function
-`WIATRACE_GetIndentLevel` | 2 | Exported Function
-`WIATRACE_GetTraceSettings` | 3 | Exported Function
-`WIATRACE_IncrementIndentLevel` | 4 | Exported Function
-`WIATRACE_Init` | 5 | Exported Function
 `WIATRACE_OutputString` | 6 | Exported Function
-`WIATRACE_SetTraceSettings` | 7 | Exported Function
+`WIATRACE_Init` | 5 | Exported Function
 `WIATRACE_Term` | 8 | Exported Function
+`WIATRACE_SetTraceSettings` | 7 | Exported Function
+`WIATRACE_GetIndentLevel` | 2 | Exported Function
+`WIATRACE_DecrementIndentLevel` | 1 | Exported Function
+`WIATRACE_IncrementIndentLevel` | 4 | Exported Function
+`WIATRACE_GetTraceSettings` | 3 | Exported Function
 
 
 ## Signature

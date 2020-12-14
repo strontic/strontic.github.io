@@ -28,8 +28,6 @@ PE256 | `3B087BBD6F5D3643588D2E42244C7D65C3C9AB68590F9C564EAD4B8181C57BE8`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -62,7 +60,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e4940a4e264098b8bd5c26b4621884c1465025563cf67e0c93af40bd990a1999/detection
 
 

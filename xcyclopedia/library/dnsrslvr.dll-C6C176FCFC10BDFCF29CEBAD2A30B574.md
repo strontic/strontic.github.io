@@ -26,10 +26,10 @@ PE256 | `17011C6FD68EB7E967A45CAE70ADD84E4A14D34C4BDE948F61506FBAECD28A72`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`LoadGPExtension` | 1 | Exported Function
-`Reg_DoRegisterAdapter` | 2 | Exported Function
 `ServiceMain` | 3 | Exported Function
 `SvchostPushServiceGlobals` | 4 | Exported Function
+`LoadGPExtension` | 1 | Exported Function
+`Reg_DoRegisterAdapter` | 2 | Exported Function
 
 
 ## Signature

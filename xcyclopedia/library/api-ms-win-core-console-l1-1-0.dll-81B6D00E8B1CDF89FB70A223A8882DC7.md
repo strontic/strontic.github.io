@@ -26,20 +26,20 @@ PE256 | `735C5E98B18163767177F0DDDCE3FBF572AE8FD8BBDB11B3B90C624D1E8D20B9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AllocConsole` | 1 | Exported Function
-`GetConsoleCP` | 2 | Exported Function
-`GetConsoleMode` | 3 | Exported Function
-`GetConsoleOutputCP` | 4 | Exported Function
-`GetNumberOfConsoleInputEvents` | 5 | Exported Function
-`PeekConsoleInputA` | 6 | Exported Function
-`ReadConsoleA` | 7 | Exported Function
-`ReadConsoleInputA` | 8 | Exported Function
-`ReadConsoleInputW` | 9 | Exported Function
 `ReadConsoleW` | 10 | Exported Function
+`ReadConsoleInputW` | 9 | Exported Function
+`ReadConsoleInputA` | 8 | Exported Function
 `SetConsoleCtrlHandler` | 11 | Exported Function
-`SetConsoleMode` | 12 | Exported Function
-`WriteConsoleA` | 13 | Exported Function
 `WriteConsoleW` | 14 | Exported Function
+`WriteConsoleA` | 13 | Exported Function
+`SetConsoleMode` | 12 | Exported Function
+`GetConsoleMode` | 3 | Exported Function
+`GetConsoleCP` | 2 | Exported Function
+`AllocConsole` | 1 | Exported Function
+`GetConsoleOutputCP` | 4 | Exported Function
+`ReadConsoleA` | 7 | Exported Function
+`PeekConsoleInputA` | 6 | Exported Function
+`GetNumberOfConsoleInputEvents` | 5 | Exported Function
 
 
 ## Signature

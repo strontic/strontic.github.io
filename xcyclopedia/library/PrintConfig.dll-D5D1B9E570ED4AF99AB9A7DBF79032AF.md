@@ -26,29 +26,29 @@ PE256 | `ECBB12AA2BDE14178E83F092BC30AB42066E36C7BD0BCCA886B09F963E183DAE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DevQueryPrintEx` | 258 | Exported Function
-`MxdcGetPDEVAdjustment` | 256 | Exported Function
-`GetStandardMessageForPrinterStatus` | 300 | Exported Function
-`DrvUpgradePrinter` | 274 | Exported Function
-`DrvSplDeviceCaps` | 254 | Exported Function
-`DrvResetConfigCache` | 255 | Exported Function
 `DrvQueryJobAttributes` | 273 | Exported Function
+`DrvResetConfigCache` | 255 | Exported Function
 `DrvQueryColorProfile` | 272 | Exported Function
-`DrvPrinterEvent` | 271 | Exported Function
 `DrvPopulateFilterServices` | 270 | Exported Function
+`DrvPrinterEvent` | 271 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
 `NotifyEntry` | 275 | Exported Function
-`DrvDriverEvent` | 269 | Exported Function
-`DrvDocumentEvent` | 267 | Exported Function
-`DrvDevicePropertySheets` | 266 | Exported Function
-`DrvDeviceCapabilities` | 265 | Exported Function
-`DrvConvertDevMode` | 264 | Exported Function
-`DllUnregisterServer` | 263 | Exported Function
-`DllRegisterServer` | 262 | Exported Function
-`DllMain` | 261 | Exported Function
-`DllGetClassObject` | 260 | Exported Function
-`DllCanUnloadNow` | 259 | Exported Function
-`DrvDocumentPropertySheets` | 268 | Exported Function
 `ServiceMain` | 257 | Exported Function
+`MxdcGetPDEVAdjustment` | 256 | Exported Function
+`DrvUpgradePrinter` | 274 | Exported Function
+`GetStandardMessageForPrinterStatus` | 300 | Exported Function
+`DrvDriverEvent` | 269 | Exported Function
+`DllMain` | 261 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DevQueryPrintEx` | 258 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
+`DrvDocumentEvent` | 267 | Exported Function
+`DrvDocumentPropertySheets` | 268 | Exported Function
+`DrvDevicePropertySheets` | 266 | Exported Function
+`DrvConvertDevMode` | 264 | Exported Function
+`DrvDeviceCapabilities` | 265 | Exported Function
 
 
 ## Signature

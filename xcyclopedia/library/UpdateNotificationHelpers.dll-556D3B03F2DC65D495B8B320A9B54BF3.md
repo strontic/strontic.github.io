@@ -26,9 +26,9 @@ PE256 | `EAEE11237700C6130972BEBD8522B1E72E3FB4EF2018337EC2B6DC8E61A6AB3D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetCampaignContentLocation` | 1 | Exported Function
-`InitializeUpdateNotificationMgrTask` | 2 | Exported Function
 `IsCampaignActive` | 3 | Exported Function
+`InitializeUpdateNotificationMgrTask` | 2 | Exported Function
+`GetCampaignContentLocation` | 1 | Exported Function
 
 
 ## Signature

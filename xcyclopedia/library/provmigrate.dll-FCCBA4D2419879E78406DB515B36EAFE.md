@@ -26,8 +26,8 @@ PE256 | `7E46FA7731186A2FDCAE78729A929F5C0A2B1887DA43DD5829E20FB3ADA6375A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ProvMigration` | 1 | Exported Function
 `RunPostPowerwashOperationsStatusPagePhase` | 2 | Exported Function
+`ProvMigration` | 1 | Exported Function
 
 
 ## Signature

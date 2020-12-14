@@ -26,11 +26,11 @@ PE256 | `487355762F19F2CD9DEEF22B975588E9A611F029724DF9962AEA4EE1F3390E38`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 8 | Exported Function
-`GeneralizeForImaging` | 4 | Exported Function
-`WUCreateExpressionEvaluator` | 5 | Exported Function
 `WUCreateUpdateHandler` | 6 | Exported Function
 `WUServiceMain` | 7 | Exported Function
+`WUCreateExpressionEvaluator` | 5 | Exported Function
+`DllMain` | 8 | Exported Function
+`GeneralizeForImaging` | 4 | Exported Function
 
 
 ## Signature

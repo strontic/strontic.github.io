@@ -41,7 +41,7 @@ SSDEEP | `384:Jg/EcJLItPjDQKCUkwpMvODcExa3fBc35wBQL2L8iMMlPVAPW6YkzeqC5XW5gW:mLi
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sdbinst.exe` being misused. While `sdbinst.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sdbinst.exe` being misused. While `sdbinst.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

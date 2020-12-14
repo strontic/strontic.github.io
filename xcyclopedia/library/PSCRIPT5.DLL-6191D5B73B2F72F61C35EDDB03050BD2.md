@@ -26,10 +26,10 @@ PE256 | `6AC415EF48F5804F14F707BA7067C9479EC5428900FE61C0563F7915E235DAB2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`DrvDisableDriver` | 2 | Exported Function
 `DrvEnableDriver` | 3 | Exported Function
 `DrvQueryDriverInfo` | 4 | Exported Function
+`DllMain` | 1 | Exported Function
+`DrvDisableDriver` | 2 | Exported Function
 
 
 ## Signature

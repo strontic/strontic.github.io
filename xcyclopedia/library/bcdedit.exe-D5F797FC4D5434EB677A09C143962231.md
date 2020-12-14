@@ -41,7 +41,7 @@ SSDEEP | `3072:322q+HRw3etMbIFb9qYRDsxc8XDwHLFIEf9Ox2tV0uRhdNV/ysXo3HD62xKe1P/z:
 
 ## Possible Misuse
 
-*The following table contains possible examples of `bcdedit.exe` being misused. While `bcdedit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `bcdedit.exe` being misused. While `bcdedit.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,19 +26,19 @@ PE256 | `8626AAAAAFDA36F593EDB0BD53C921A1AE7BA2B312395636640C72E58D681707`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DwGetErrorType` | 1 | Exported Function
-`FGetErrorCallstack` | 2 | Exported Function
-`FValidateExcelFile` | 5 | Exported Function
-`FValidateExcelFile5` | 3 | Exported Function
-`FValidateExcelFile8` | 4 | Exported Function
-`FValidateExcelStorage` | 8 | Exported Function
-`FValidateExcelStorage5` | 6 | Exported Function
-`FValidateExcelStorage8` | 7 | Exported Function
-`FValidatePivotStm` | 11 | Exported Function
 `FValidatePivotStm5` | 9 | Exported Function
-`FValidatePivotStm8` | 10 | Exported Function
-`FValidateVBA` | 12 | Exported Function
+`FValidatePivotStm` | 11 | Exported Function
+`FValidateExcelStorage8` | 7 | Exported Function
 `GkInitHost` | 13 | Exported Function
+`FValidateVBA` | 12 | Exported Function
+`FValidatePivotStm8` | 10 | Exported Function
+`FValidateExcelStorage5` | 6 | Exported Function
+`FValidateExcelFile` | 5 | Exported Function
+`FGetErrorCallstack` | 2 | Exported Function
+`DwGetErrorType` | 1 | Exported Function
+`FValidateExcelStorage` | 8 | Exported Function
+`FValidateExcelFile8` | 4 | Exported Function
+`FValidateExcelFile5` | 3 | Exported Function
 
 
 ## Signature

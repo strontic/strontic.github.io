@@ -26,21 +26,21 @@ PE256 | `406150A82C0FD86B8BB98F68863383C8FBBCAA51ED6F96FD70D2BF2C688E9941`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FindFirstVolumeMountPointW` | 1 | Exported Function
-`FindNextVolumeMountPointW` | 2 | Exported Function
-`FindVolumeMountPointClose` | 3 | Exported Function
-`GetFileAttributesTransactedW` | 4 | Exported Function
-`GetFirmwareType` | 5 | Exported Function
-`GetNumaAvailableMemoryNodeEx` | 6 | Exported Function
-`GetNumaNodeProcessorMask` | 7 | Exported Function
-`GetNumaProcessorNodeEx` | 8 | Exported Function
-`PowerClearRequest` | 9 | Exported Function
-`PowerCreateRequest` | 10 | Exported Function
 `PowerSetRequest` | 11 | Exported Function
+`PowerCreateRequest` | 10 | Exported Function
+`PowerClearRequest` | 9 | Exported Function
 `SetDllDirectoryW` | 12 | Exported Function
-`SetThreadIdealProcessor` | 13 | Exported Function
-`SetVolumeMountPointW` | 14 | Exported Function
 `VerifyVersionInfoW` | 15 | Exported Function
+`SetVolumeMountPointW` | 14 | Exported Function
+`SetThreadIdealProcessor` | 13 | Exported Function
+`GetNumaProcessorNodeEx` | 8 | Exported Function
+`FindVolumeMountPointClose` | 3 | Exported Function
+`FindNextVolumeMountPointW` | 2 | Exported Function
+`FindFirstVolumeMountPointW` | 1 | Exported Function
+`GetFileAttributesTransactedW` | 4 | Exported Function
+`GetNumaNodeProcessorMask` | 7 | Exported Function
+`GetNumaAvailableMemoryNodeEx` | 6 | Exported Function
+`GetFirmwareType` | 5 | Exported Function
 
 
 ## Signature

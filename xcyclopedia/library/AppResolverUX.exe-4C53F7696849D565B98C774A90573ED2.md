@@ -24,9 +24,6 @@ PE256 | `16111D30DD500D108B837D862E666BD239964B57A0B1FEA3CD25F913E8F15260`
 
 ## Runtime Data
 
-### Child Processes:
-AppResolverUX.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |

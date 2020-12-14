@@ -26,26 +26,26 @@ PE256 | `380B61449153803B50FD22D8B27263F4EE09B59F54B7E106CF02A4312B7FED17`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 5 | Exported Function
-`WnfEventHandlerForDeviceIdChange` | 2 | Exported Function
-`SetServiceStatusHandle` | 1 | Exported Function
-`ServiceReset` | 20 | Exported Function
-`ServicePrecacheLicenseForPackageResume` | 19 | Exported Function
 `ServicePackageSuspendedNotification` | 18 | Exported Function
+`ServicePrecacheLicenseForPackageResume` | 19 | Exported Function
 `ServicePackageRundownNotification` | 17 | Exported Function
-`ServiceOptionalPackageRundownNotification` | 16 | Exported Function
 `ServiceInitialize` | 15 | Exported Function
-`ServiceEnsureLicenseForPackageActivation` | 14 | Exported Function
-`ServiceEnsureLicenseForOptionalPackageUsage` | 13 | Exported Function
-`ServiceCreateApplicationLicenseManager` | 12 | Exported Function
-`ServiceCleanup` | 11 | Exported Function
-`ServiceBeginAcquireLicense` | 10 | Exported Function
-`LmCreateStandardServiceProvider` | 9 | Exported Function
-`LmCreateLicenseManager` | 8 | Exported Function
-`DllGetClassObject` | 7 | Exported Function
-`DllGetActivationFactory` | 6 | Exported Function
+`ServiceOptionalPackageRundownNotification` | 16 | Exported Function
 `WnfEventHandlerForOfflinePcChange` | 3 | Exported Function
 `WnfEventHandlerForXboxTestNetworkConnectionComplete` | 4 | Exported Function
+`WnfEventHandlerForDeviceIdChange` | 2 | Exported Function
+`ServiceReset` | 20 | Exported Function
+`SetServiceStatusHandle` | 1 | Exported Function
+`LmCreateLicenseManager` | 8 | Exported Function
+`LmCreateStandardServiceProvider` | 9 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`ServiceEnsureLicenseForOptionalPackageUsage` | 13 | Exported Function
+`ServiceEnsureLicenseForPackageActivation` | 14 | Exported Function
+`ServiceCreateApplicationLicenseManager` | 12 | Exported Function
+`ServiceBeginAcquireLicense` | 10 | Exported Function
+`ServiceCleanup` | 11 | Exported Function
 
 
 ## Signature

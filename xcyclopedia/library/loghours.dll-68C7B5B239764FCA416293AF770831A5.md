@@ -26,16 +26,16 @@ PE256 | `CD5257F81E11B3CDE9BA6779095A710CEEF55A04D5929A09931B72E3C5A1913C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConnectionScheduleDialog` | 2 | Exported Function
-`ConnectionScheduleDialogEx` | 9 | Exported Function
-`DialinHoursDialog` | 3 | Exported Function
-`DialinHoursDialogEx` | 6 | Exported Function
-`DirSyncScheduleDialog` | 4 | Exported Function
-`DirSyncScheduleDialogEx` | 10 | Exported Function
 `LogonScheduleDialog` | 1 | Exported Function
+`DirSyncScheduleDialogEx` | 10 | Exported Function
 `LogonScheduleDialogEx` | 5 | Exported Function
-`ReplicationScheduleDialog` | 7 | Exported Function
 `ReplicationScheduleDialogEx` | 8 | Exported Function
+`ReplicationScheduleDialog` | 7 | Exported Function
+`ConnectionScheduleDialogEx` | 9 | Exported Function
+`ConnectionScheduleDialog` | 2 | Exported Function
+`DialinHoursDialog` | 3 | Exported Function
+`DirSyncScheduleDialog` | 4 | Exported Function
+`DialinHoursDialogEx` | 6 | Exported Function
 
 
 ## Signature

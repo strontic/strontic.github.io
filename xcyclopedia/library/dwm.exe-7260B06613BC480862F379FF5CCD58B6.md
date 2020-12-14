@@ -24,48 +24,23 @@ PE256 | `4CB2AD8AFEAF0C9677E2A5B8D627BACE2239FE49E3558BB4324C8C0A336A1079`
 
 ## Runtime Data
 
-### Child Processes:
-setup_wm.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\System32\advapi32.dll |
 C:\Windows\SYSTEM32\apphelp.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\CoreMessaging.dll |
-C:\Windows\system32\CoreUIComponents.dll |
-C:\Windows\system32\CRYPTSP.dll |
-C:\Windows\system32\d2d1.dll |
-C:\Windows\system32\d3d11.dll |
-C:\Windows\system32\D3DCOMPILER_47.dll |
-C:\Windows\system32\dcomp.dll |
 C:\Windows\system32\dwm.exe |
-C:\Windows\system32\dwmcore.dll |
-C:\Windows\SYSTEM32\dwmredir.dll |
-C:\Windows\system32\dxgi.dll |
 C:\Windows\System32\gdi32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SYSTEM32\ntmarta.dll |
-C:\Windows\SYSTEM32\powrprof.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHCORE.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\udwm.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\wintypes.dll |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -89,7 +64,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/18b84df6110f4a23660a256e558bce4f5fc0d47678e4d1f9f8188dd490e5b293/detection
 
 ## File Similarity (ssdeep match)
@@ -100,7 +75,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dwm.exe` being misused. While `dwm.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dwm.exe` being misused. While `dwm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

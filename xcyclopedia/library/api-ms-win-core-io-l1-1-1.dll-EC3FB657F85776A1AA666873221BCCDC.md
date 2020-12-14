@@ -26,9 +26,9 @@ PE256 | `A8CFC46A21A8938F8A4E41FC7C0BAE08C7EB43EC4F2110561C014C66B32170D4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CancelIo` | 1 | Exported Function
-`CancelSynchronousIo` | 2 | Exported Function
 `GetOverlappedResultEx` | 3 | Exported Function
+`CancelSynchronousIo` | 2 | Exported Function
+`CancelIo` | 1 | Exported Function
 
 
 ## Signature

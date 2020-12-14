@@ -26,16 +26,16 @@ PE256 | `CC4BE54006BDCC20A5AB2E38BD84BBA18CE25FD139C72BE0B9C2068B6823E36B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPlApplet` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllMain` | 4 | Exported Function
-`KRShowKeyMgr` | 5 | Exported Function
-`PRShowRestoreFromMsginaW` | 6 | Exported Function
 `PRShowRestoreWizardExW` | 7 | Exported Function
+`PRShowRestoreFromMsginaW` | 6 | Exported Function
 `PRShowRestoreWizardW` | 8 | Exported Function
-`PRShowSaveFromMsginaW` | 9 | Exported Function
 `PRShowSaveWizardExW` | 10 | Exported Function
+`PRShowSaveFromMsginaW` | 9 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`KRShowKeyMgr` | 5 | Exported Function
+`DllMain` | 4 | Exported Function
 
 
 ## Signature

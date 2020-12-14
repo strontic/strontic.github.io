@@ -26,11 +26,11 @@ PE256 | `79F40FE797EF2853035FB5AD1B4D525854832ADC020530C573E13C7FC65212FB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DwmpCreateSessionProcess` | 1 | Exported Function
-`DwmpIsInitialSessionInteractive` | 2 | Exported Function
-`DwmpNotifyUserLogoff` | 3 | Exported Function
 `DwmpNotifyUserLogon` | 4 | Exported Function
 `DwmpTerminateSessionProcess` | 5 | Exported Function
+`DwmpNotifyUserLogoff` | 3 | Exported Function
+`DwmpCreateSessionProcess` | 1 | Exported Function
+`DwmpIsInitialSessionInteractive` | 2 | Exported Function
 
 
 ## Signature

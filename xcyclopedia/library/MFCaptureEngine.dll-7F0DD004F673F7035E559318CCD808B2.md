@@ -26,9 +26,9 @@ PE256 | `377C35890BAE7C049212B920A32350E509571FE44BAC02894A34F816E133CAFE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `MFCreateCaptureEngine` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

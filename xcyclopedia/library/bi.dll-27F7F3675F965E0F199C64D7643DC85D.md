@@ -26,40 +26,40 @@ PE256 | `CF7AE6C26EF06CC17E59E456382A6BA3A14C2F639217F1AA6348E353698BC071`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BiActivateDeferredWorkItem` | 1 | Exported Function
-`BiUpdateEventFlags` | 32 | Exported Function
-`BiSignalTriggerEventEx` | 31 | Exported Function
-`BiSignalTriggerEvent` | 30 | Exported Function
-`BiSignalMultipleEvents` | 29 | Exported Function
-`BiSignalEventEx` | 28 | Exported Function
-`BiSignalEvent` | 27 | Exported Function
-`BiQueryWorkItemStatusStateName` | 26 | Exported Function
-`BiQueryWorkItemEx` | 25 | Exported Function
-`BiQueryWorkItem` | 24 | Exported Function
 `BiQueryUserSession` | 23 | Exported Function
 `BiQueryUserContext` | 22 | Exported Function
-`BiQuerySystemStateBroadcastChannels` | 21 | Exported Function
-`BiQueryBrokeredEvent` | 20 | Exported Function
+`BiQueryWorkItemEx` | 25 | Exported Function
+`BiQueryWorkItem` | 24 | Exported Function
 `BiFreeMemory` | 19 | Exported Function
 `BiEnumerateWorkItemsForPackageNameEx` | 18 | Exported Function
+`BiQuerySystemStateBroadcastChannels` | 21 | Exported Function
+`BiQueryBrokeredEvent` | 20 | Exported Function
+`BiQueryWorkItemStatusStateName` | 26 | Exported Function
+`BiUpdateEventFlags` | 32 | Exported Function
+`BiSignalTriggerEventEx` | 31 | Exported Function
+`BiUpdateEventParameters` | 34 | Exported Function
+`BiUpdateEventInformation` | 33 | Exported Function
+`BiSignalEventEx` | 28 | Exported Function
+`BiSignalEvent` | 27 | Exported Function
+`BiSignalTriggerEvent` | 30 | Exported Function
+`BiSignalMultipleEvents` | 29 | Exported Function
+`BiAssociateApplicationExtensionClass` | 6 | Exported Function
+`BiAssociateActivationProxy` | 5 | Exported Function
+`BiCancelWorkItemEx` | 8 | Exported Function
+`BiCancelWorkItem` | 7 | Exported Function
+`BiActivateInBackground` | 2 | Exported Function
+`BiActivateDeferredWorkItem` | 1 | Exported Function
+`BiActivateWorkItem` | 4 | Exported Function
+`BiActivateInBackgroundEx` | 3 | Exported Function
+`BiCreateEvent` | 9 | Exported Function
+`BiEnumerateUserContexts` | 15 | Exported Function
+`BiEnumerateBrokeredEvents` | 14 | Exported Function
 `BiEnumerateWorkItemsForPackageName` | 17 | Exported Function
 `BiEnumerateUserSessions` | 16 | Exported Function
-`BiActivateInBackground` | 2 | Exported Function
-`BiActivateInBackgroundEx` | 3 | Exported Function
-`BiActivateWorkItem` | 4 | Exported Function
-`BiAssociateActivationProxy` | 5 | Exported Function
-`BiAssociateApplicationExtensionClass` | 6 | Exported Function
-`BiCancelWorkItem` | 7 | Exported Function
-`BiUpdateEventInformation` | 33 | Exported Function
-`BiCancelWorkItemEx` | 8 | Exported Function
-`BiCreateEventForPackageName` | 10 | Exported Function
 `BiDeleteEvent` | 11 | Exported Function
-`BiDisassociateWorkItem` | 12 | Exported Function
+`BiCreateEventForPackageName` | 10 | Exported Function
 `BiDiscardPendingActivations` | 13 | Exported Function
-`BiEnumerateBrokeredEvents` | 14 | Exported Function
-`BiEnumerateUserContexts` | 15 | Exported Function
-`BiCreateEvent` | 9 | Exported Function
-`BiUpdateEventParameters` | 34 | Exported Function
+`BiDisassociateWorkItem` | 12 | Exported Function
 
 
 ## Signature

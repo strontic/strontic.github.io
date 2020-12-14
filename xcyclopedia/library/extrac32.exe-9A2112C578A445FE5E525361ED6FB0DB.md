@@ -41,7 +41,7 @@ SSDEEP | `768:QYD4e6vK84jRXBvKSSrccAQ6MhYQsq/a337v9lC6zW:QO4eqD4FRvKiK6MOQ2bC6K`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `extrac32.exe` being misused. While `extrac32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `extrac32.exe` being misused. While `extrac32.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

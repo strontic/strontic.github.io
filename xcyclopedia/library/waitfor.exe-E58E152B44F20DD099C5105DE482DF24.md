@@ -80,7 +80,7 @@ and ASCII characters in the range 128-255.
 ```
 
 ### Child Processes:
-conhost.exe
+perfmon.exe
 
 ### Open Handles:
 
@@ -134,7 +134,7 @@ C:\Windows\SysWOW64\waitfor.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `waitfor.exe` being misused. While `waitfor.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `waitfor.exe` being misused. While `waitfor.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

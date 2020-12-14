@@ -45,7 +45,7 @@ SSDEEP | `768:+JdVzO1l8yXr2yyVOru0Brk0h3LW610g:QUJr2yY/sk0hj10g`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `syskey.exe` being misused. While `syskey.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `syskey.exe` being misused. While `syskey.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

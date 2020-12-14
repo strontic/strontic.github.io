@@ -26,31 +26,31 @@ PE256 | `E2A00041FD8D4A68879027F70F9071D07EB15442FFE0371ADBDF8C6CC26A00FF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddUrlToFavorites` | 106 | Exported Function
-`SoftwareUpdateMessageBox` | 166 | Exported Function
-`SHGetIDispatchForFolder` | 155 | Exported Function
-`SHAddSubscribeFavorite` | 163 | Exported Function
-`SetShellOfflineState` | 157 | Exported Function
-`SetQueryNetSessionCount` | 156 | Exported Function
-`SafeOpenPromptForShellExec` | 228 | Exported Function
 `OpenURL` | 154 | Exported Function
-`ImportPrivacySettings` | 144 | Exported Function
-`HlinkFrameNavigateNHL` | 134 | Exported Function
+`SafeOpenPromptForShellExec` | 228 | Exported Function
+`SetQueryNetSessionCount` | 156 | Exported Function
 `HlinkFrameNavigate` | 133 | Exported Function
+`HlinkFrameNavigateNHL` | 134 | Exported Function
+`ImportPrivacySettings` | 144 | Exported Function
+`SoftwareUpdateMessageBox` | 166 | Exported Function
 `URLQualifyA` | 168 | Exported Function
-`HlinkFindFrame` | 132 | Exported Function
-`DoOrganizeFavDlgW` | 128 | Exported Function
-`DoOrganizeFavDlg` | 127 | Exported Function
-`DoFileDownloadEx` | 126 | Exported Function
-`DoFileDownload` | 124 | Exported Function
-`DoAddToFavDlgW` | 114 | Exported Function
-`DoAddToFavDlg` | 113 | Exported Function
-`DllRegisterWindowClasses` | 112 | Exported Function
-`DllGetVersion` | 109 | Exported Function
-`DllGetClassObject` | 108 | Exported Function
-`DllCanUnloadNow` | 107 | Exported Function
-`DoPrivacyDlg` | 129 | Exported Function
 `URLQualifyW` | 182 | Exported Function
+`SetShellOfflineState` | 157 | Exported Function
+`SHAddSubscribeFavorite` | 163 | Exported Function
+`SHGetIDispatchForFolder` | 155 | Exported Function
+`HlinkFindFrame` | 132 | Exported Function
+`DllGetVersion` | 109 | Exported Function
+`DllRegisterWindowClasses` | 112 | Exported Function
+`DoAddToFavDlg` | 113 | Exported Function
+`AddUrlToFavorites` | 106 | Exported Function
+`DllCanUnloadNow` | 107 | Exported Function
+`DllGetClassObject` | 108 | Exported Function
+`DoOrganizeFavDlg` | 127 | Exported Function
+`DoOrganizeFavDlgW` | 128 | Exported Function
+`DoPrivacyDlg` | 129 | Exported Function
+`DoAddToFavDlgW` | 114 | Exported Function
+`DoFileDownload` | 124 | Exported Function
+`DoFileDownloadEx` | 126 | Exported Function
 
 
 ## Signature
@@ -85,7 +85,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `shdocvw.dll` being misused. While `shdocvw.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `shdocvw.dll` being misused. While `shdocvw.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

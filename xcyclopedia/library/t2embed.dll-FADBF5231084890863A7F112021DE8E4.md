@@ -26,20 +26,20 @@ PE256 | `CF2E7B907ECA853B66DF9DB5F0AFA7B52D7CBA32EBC4DA0128471EBA12FC5B89`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TTCharToUnicode` | 1 | Exported Function
-`TTDeleteEmbeddedFont` | 2 | Exported Function
-`TTEmbedFont` | 3 | Exported Function
-`TTEmbedFontEx` | 4 | Exported Function
-`TTEmbedFontFromFileA` | 5 | Exported Function
-`TTEnableEmbeddingForFacename` | 6 | Exported Function
-`TTGetEmbeddedFontInfo` | 7 | Exported Function
-`TTGetEmbeddingType` | 8 | Exported Function
-`TTGetNewFontName` | 9 | Exported Function
 `TTIsEmbeddingEnabled` | 10 | Exported Function
+`TTGetNewFontName` | 9 | Exported Function
+`TTGetEmbeddingType` | 8 | Exported Function
 `TTIsEmbeddingEnabledForFacename` | 11 | Exported Function
-`TTLoadEmbeddedFont` | 12 | Exported Function
-`TTRunValidationTests` | 13 | Exported Function
 `TTRunValidationTestsEx` | 14 | Exported Function
+`TTRunValidationTests` | 13 | Exported Function
+`TTLoadEmbeddedFont` | 12 | Exported Function
+`TTEmbedFont` | 3 | Exported Function
+`TTDeleteEmbeddedFont` | 2 | Exported Function
+`TTCharToUnicode` | 1 | Exported Function
+`TTEmbedFontEx` | 4 | Exported Function
+`TTGetEmbeddedFontInfo` | 7 | Exported Function
+`TTEnableEmbeddingForFacename` | 6 | Exported Function
+`TTEmbedFontFromFileA` | 5 | Exported Function
 
 
 ## Signature

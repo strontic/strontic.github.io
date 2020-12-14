@@ -99,6 +99,7 @@ C:\Windows\SYSTEM32\WINSPOOL.DRV |
 
 File | Score
 -- | --
+[C:\Windows\splwow64.exe](splwow64.exe-09EC082A13633BAEDE8FF155A0ACCF9E.md) | 40
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 44
 [C:\Windows\splwow64.exe](splwow64.exe-9FCD31635CC99F1DAFB64AB3F963E0C1.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 40

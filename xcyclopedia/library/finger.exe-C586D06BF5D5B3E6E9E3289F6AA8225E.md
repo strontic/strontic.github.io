@@ -27,7 +27,7 @@ PE256 | `C58AAC1FADBEC621A61AF1C3CCFABC22721C4E039936180FDB251182B272B9B9`
 ### Usage (stdout):
 ```cmhg
 
-[DESKTOP-5149IRA]
+[DESKTOP-F9N3CL1]
 
 ```
 
@@ -104,7 +104,7 @@ C:\Windows\SysWOW64\finger.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

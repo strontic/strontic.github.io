@@ -26,12 +26,12 @@ PE256 | `B3013D9A6221206FF854AEC60AD7FE02EC7BCC049EC692491D0F4602350D92E8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeProtocolEngine` | 2 | Exported Function
-`InitializeServerProtocolEngine` | 3 | Exported Function
-`SendMessageToProtocolEngine` | 4 | Exported Function
 `UninitializeProtocolEngine` | 5 | Exported Function
 `UninitializeServerProtocolEngine` | 6 | Exported Function
 `VpnIkeRoamToBestCostInterface` | 1 | Exported Function
+`InitializeProtocolEngine` | 2 | Exported Function
+`InitializeServerProtocolEngine` | 3 | Exported Function
+`SendMessageToProtocolEngine` | 4 | Exported Function
 
 
 ## Signature

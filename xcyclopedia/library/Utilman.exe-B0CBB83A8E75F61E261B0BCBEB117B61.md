@@ -30,8 +30,6 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\system32\DUI70.dll |
-C:\Windows\system32\DUser.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -43,13 +41,10 @@ C:\Windows\System32\ole32.dll |
 C:\Windows\system32\OLEACC.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHCORE.dll |
-C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\Utilman.exe |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -79,7 +74,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Utilman.exe` being misused. While `Utilman.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Utilman.exe` being misused. While `Utilman.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

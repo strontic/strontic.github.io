@@ -60,7 +60,7 @@ C:\Windows\system32\OpenSSH\ssh-add.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/7e5d13c4b13be142da676fa5f533aa92d12f7c66ac04ec26066c271326b789e7/detection
 
 ## File Similarity (ssdeep match)
@@ -77,7 +77,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ssh-add.exe` being misused. While `ssh-add.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ssh-add.exe` being misused. While `ssh-add.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

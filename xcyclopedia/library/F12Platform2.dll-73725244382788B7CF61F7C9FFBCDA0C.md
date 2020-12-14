@@ -26,10 +26,10 @@ PE256 | `B058FB2C4A1666D6EE6C8B1334A2BD9A739C5776F8809CF70500978127E03F96`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreatePlatform` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
+`CreatePlatform` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

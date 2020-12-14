@@ -26,34 +26,34 @@ PE256 | `35ADADE53B11040AB4E2135440344901116E77F15284498510CA79037E2F7B41`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`MFInitVideoFormat` | 26 | Exported Function
-`MFGetUncompressedVideoFormat` | 1 | Exported Function
-`MFGetStrideForBitmapInfoHeader` | 25 | Exported Function
-`MFGetPlaneSize` | 24 | Exported Function
-`MFCreateVideoSampleFromSurface` | 23 | Exported Function
-`MFCreateVideoSampleAllocator` | 22 | Exported Function
-`MFCreateVideoPresenter2` | 20 | Exported Function
 `MFCreateVideoPresenter` | 21 | Exported Function
+`MFCreateVideoPresenter2` | 20 | Exported Function
+`MFCreateVideoSampleAllocator` | 22 | Exported Function
 `MFCreateVideoOTA` | 19 | Exported Function
-`MFCreateVideoMixerAndPresenter` | 18 | Exported Function
-`MFCreateVideoMixer` | 17 | Exported Function
 `MFCreateVideoMediaTypeFromVideoInfoHeader2` | 15 | Exported Function
-`MFCreateVideoMediaTypeFromVideoInfoHeader` | 16 | Exported Function
-`MFCreateVideoMediaTypeFromSubtype` | 14 | Exported Function
-`MFCreateVideoMediaTypeFromBitMapInfoHeader` | 13 | Exported Function
-`MFCreateVideoMediaType` | 12 | Exported Function
-`MFCreateDXSurfaceBuffer` | 11 | Exported Function
-`MFCopyImage` | 10 | Exported Function
-`MFConvertToFP16Array` | 9 | Exported Function
-`MFConvertFromFP16Array` | 8 | Exported Function
-`MFConvertColorInfoToDXVA` | 7 | Exported Function
-`MFConvertColorInfoFromDXVA` | 6 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
+`MFCreateVideoMixer` | 17 | Exported Function
+`MFCreateVideoMixerAndPresenter` | 18 | Exported Function
+`MFInitVideoFormat` | 26 | Exported Function
 `MFInitVideoFormat_RGB` | 27 | Exported Function
 `MFIsFormatYUV` | 28 | Exported Function
+`MFGetUncompressedVideoFormat` | 1 | Exported Function
+`MFCreateVideoSampleFromSurface` | 23 | Exported Function
+`MFGetPlaneSize` | 24 | Exported Function
+`MFGetStrideForBitmapInfoHeader` | 25 | Exported Function
+`MFConvertColorInfoFromDXVA` | 6 | Exported Function
+`MFConvertColorInfoToDXVA` | 7 | Exported Function
+`MFConvertFromFP16Array` | 8 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`MFCreateVideoMediaTypeFromBitMapInfoHeader` | 13 | Exported Function
+`MFCreateVideoMediaTypeFromSubtype` | 14 | Exported Function
+`MFCreateVideoMediaTypeFromVideoInfoHeader` | 16 | Exported Function
+`MFCreateVideoMediaType` | 12 | Exported Function
+`MFConvertToFP16Array` | 9 | Exported Function
+`MFCopyImage` | 10 | Exported Function
+`MFCreateDXSurfaceBuffer` | 11 | Exported Function
 
 
 ## Signature

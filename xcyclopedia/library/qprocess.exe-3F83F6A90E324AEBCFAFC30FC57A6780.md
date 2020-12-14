@@ -41,7 +41,7 @@ SSDEEP | `384:il3sMgeIy0pL4k068i9h9Q5GDRTqGzjBakXJ+hBk2r+kZWLvE+2Wc:5Rx4k0I5b9kV
 
 ## Possible Misuse
 
-*The following table contains possible examples of `qprocess.exe` being misused. While `qprocess.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `qprocess.exe` being misused. While `qprocess.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,14 +26,14 @@ PE256 | `E01D6A2ED9E53E9C5A504AA309146B0CCB6D4DC2C6E18D9E80B801A41D08A459`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AcmEngineApply` | 1 | Exported Function
-`AcmEngineCollect` | 2 | Exported Function
-`AcmEngineCreate` | 3 | Exported Function
-`AcmEngineDelete` | 4 | Exported Function
-`AcmEngineGenerateMigXml` | 5 | Exported Function
 `AcmEngineSetBaseWorkingDirectory` | 6 | Exported Function
-`AcmMatchPluginExecute` | 7 | Exported Function
+`AcmEngineGenerateMigXml` | 5 | Exported Function
 `ApplyMigrationShimsW` | 8 | Exported Function
+`AcmMatchPluginExecute` | 7 | Exported Function
+`AcmEngineCollect` | 2 | Exported Function
+`AcmEngineApply` | 1 | Exported Function
+`AcmEngineDelete` | 4 | Exported Function
+`AcmEngineCreate` | 3 | Exported Function
 
 
 ## Signature

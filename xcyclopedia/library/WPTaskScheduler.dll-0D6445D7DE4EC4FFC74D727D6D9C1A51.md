@@ -26,8 +26,8 @@ PE256 | `6E0FBFF0AA3093E467676D82372E89B0A95CD802B6B4B785C5533CF2458B2AB0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WptsInitialize` | 1 | Exported Function
 `WptsTerminate` | 2 | Exported Function
+`WptsInitialize` | 1 | Exported Function
 
 
 ## Signature

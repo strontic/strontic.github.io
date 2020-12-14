@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\msfeedssync.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/73cd7e458475e0a83cde7faa3982fcd341a6b6c4afab33e4950bccd15635eadf/detection
 
 

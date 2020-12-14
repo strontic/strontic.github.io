@@ -28,8 +28,8 @@ PE256 | `19A41227933FB52CEC6C94ACAD5B5ECFB6FF5763AA952952E420A67D19FF4B65`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Install` | 1 | Exported Function
 `Uninstall` | 2 | Exported Function
+`Install` | 1 | Exported Function
 
 
 ## Signature

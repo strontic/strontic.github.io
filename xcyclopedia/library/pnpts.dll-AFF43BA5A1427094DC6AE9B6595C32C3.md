@@ -26,9 +26,9 @@ PE256 | `FF6887F6FE009EDDE6AA9B75ED9210B127113EE4DE22E3E992A1CB69FAA0D590`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WdiDiagnosticModuleMain` | 1 | Exported Function
-`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
 `WdiHandleInstance` | 3 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
+`WdiDiagnosticModuleMain` | 1 | Exported Function
 
 
 ## Signature

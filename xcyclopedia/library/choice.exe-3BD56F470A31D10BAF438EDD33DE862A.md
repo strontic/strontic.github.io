@@ -41,7 +41,7 @@ SSDEEP | `768:+rfTk9wk24YUHBeZbEMs1sMLGxYHpndC:+rf0d9VHUBIsMaxYJnd`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `choice.exe` being misused. While `choice.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `choice.exe` being misused. While `choice.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

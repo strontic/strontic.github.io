@@ -26,26 +26,26 @@ PE256 | `D6318CB63344623D223FF1F66599583BF6A1C81429D741C3057AD73B81D0F5CF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AvCreateTaskIndex` | 1 | Exported Function
-`AvTaskIndexYield` | 18 | Exported Function
-`AvSetMultimediaMode` | 17 | Exported Function
-`AvSetMmThreadPriority` | 16 | Exported Function
-`AvSetMmThreadCharacteristicsW` | 15 | Exported Function
 `AvSetMmThreadCharacteristicsA` | 14 | Exported Function
+`AvSetMmThreadCharacteristicsW` | 15 | Exported Function
 `AvSetMmMaxThreadCharacteristicsW` | 13 | Exported Function
-`AvSetMmMaxThreadCharacteristicsA` | 12 | Exported Function
 `AvRtWaitOnThreadOrderingGroup` | 11 | Exported Function
-`AvRtLeaveThreadOrderingGroup` | 10 | Exported Function
-`AvRtJoinThreadOrderingGroup` | 9 | Exported Function
-`AvRtDeleteThreadOrderingGroup` | 8 | Exported Function
-`AvRtCreateThreadOrderingGroupExW` | 7 | Exported Function
-`AvRtCreateThreadOrderingGroupExA` | 6 | Exported Function
-`AvRtCreateThreadOrderingGroup` | 5 | Exported Function
-`AvRevertMmThreadCharacteristics` | 4 | Exported Function
-`AvQueryTaskIndexValue` | 3 | Exported Function
-`AvQuerySystemResponsiveness` | 2 | Exported Function
+`AvSetMmMaxThreadCharacteristicsA` | 12 | Exported Function
 `AvTaskIndexYieldCancel` | 19 | Exported Function
 `AvThreadOpenTaskIndex` | 20 | Exported Function
+`AvTaskIndexYield` | 18 | Exported Function
+`AvSetMmThreadPriority` | 16 | Exported Function
+`AvSetMultimediaMode` | 17 | Exported Function
+`AvRevertMmThreadCharacteristics` | 4 | Exported Function
+`AvRtCreateThreadOrderingGroup` | 5 | Exported Function
+`AvQueryTaskIndexValue` | 3 | Exported Function
+`AvCreateTaskIndex` | 1 | Exported Function
+`AvQuerySystemResponsiveness` | 2 | Exported Function
+`AvRtJoinThreadOrderingGroup` | 9 | Exported Function
+`AvRtLeaveThreadOrderingGroup` | 10 | Exported Function
+`AvRtDeleteThreadOrderingGroup` | 8 | Exported Function
+`AvRtCreateThreadOrderingGroupExA` | 6 | Exported Function
+`AvRtCreateThreadOrderingGroupExW` | 7 | Exported Function
 
 
 ## Signature

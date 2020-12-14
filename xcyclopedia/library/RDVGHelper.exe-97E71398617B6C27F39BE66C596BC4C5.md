@@ -24,6 +24,9 @@ PE256 | `956B8BCFD0C3B70BB6B040B01C4490F6F97B4C5B5CC9DCD222596DFB6DDCAF93`
 
 ## Runtime Data
 
+### Child Processes:
+RdpSa.exe
+
 ### Loaded Modules:
 
 Path |

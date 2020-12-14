@@ -26,32 +26,32 @@ PE256 | `D080DC2861F0E58E2439792A50D2DE3D2A30D3EC6DEE8C0873B1CB6F2757A62B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseCompressor` | 35 | Exported Function
-`ResetDecompressor` | 44 | Exported Function
-`ResetCompressor` | 34 | Exported Function
-`QueryDecompressorInformation` | 42 | Exported Function
-`QueryCompressorInformation` | 32 | Exported Function
-`GetDllVersion` | 1 | Exported Function
-`FDITruncateCabinet` | 24 | Exported Function
-`FDIIsCabinet` | 21 | Exported Function
 `FDIDestroy` | 23 | Exported Function
-`FDICreate` | 20 | Exported Function
-`FDICopy` | 22 | Exported Function
+`FDIIsCabinet` | 21 | Exported Function
+`FDITruncateCabinet` | 24 | Exported Function
 `FCIFlushFolder` | 12 | Exported Function
-`FCIFlushCabinet` | 13 | Exported Function
-`FCIDestroy` | 14 | Exported Function
-`FCICreate` | 10 | Exported Function
-`FCIAddFile` | 11 | Exported Function
-`Extract` | 3 | Exported Function
-`DllGetVersion` | 2 | Exported Function
-`DeleteExtractedFiles` | 4 | Exported Function
-`Decompress` | 43 | Exported Function
-`CreateDecompressor` | 40 | Exported Function
-`CreateCompressor` | 30 | Exported Function
-`Compress` | 33 | Exported Function
-`CloseDecompressor` | 45 | Exported Function
+`FDICopy` | 22 | Exported Function
+`FDICreate` | 20 | Exported Function
+`GetDllVersion` | 1 | Exported Function
+`ResetDecompressor` | 44 | Exported Function
 `SetCompressorInformation` | 31 | Exported Function
 `SetDecompressorInformation` | 41 | Exported Function
+`QueryCompressorInformation` | 32 | Exported Function
+`QueryDecompressorInformation` | 42 | Exported Function
+`ResetCompressor` | 34 | Exported Function
+`CreateCompressor` | 30 | Exported Function
+`CreateDecompressor` | 40 | Exported Function
+`Decompress` | 43 | Exported Function
+`CloseCompressor` | 35 | Exported Function
+`CloseDecompressor` | 45 | Exported Function
+`Compress` | 33 | Exported Function
+`DeleteExtractedFiles` | 4 | Exported Function
+`FCICreate` | 10 | Exported Function
+`FCIDestroy` | 14 | Exported Function
+`FCIFlushCabinet` | 13 | Exported Function
+`DllGetVersion` | 2 | Exported Function
+`Extract` | 3 | Exported Function
+`FCIAddFile` | 11 | Exported Function
 
 
 ## Signature
@@ -81,7 +81,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cabinet.dll` being misused. While `cabinet.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cabinet.dll` being misused. While `cabinet.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

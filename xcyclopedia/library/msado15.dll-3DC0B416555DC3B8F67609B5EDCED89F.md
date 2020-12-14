@@ -26,24 +26,24 @@ PE256 | `7B3E1504213388A66A19CF961614C44BE721DA27E471C9F479252DE460881299`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`com_ms_wfc_data_Field_getBoolean` | 6 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`com_ms_wfc_data_Field_setDataDate` | 18 | Exported Function
 `com_ms_wfc_data_Field_loadMsjava` | 17 | Exported Function
-`com_ms_wfc_data_Field_isNull` | 16 | Exported Function
+`com_ms_wfc_data_Field_setDataDate` | 18 | Exported Function
 `com_ms_wfc_data_Field_getString` | 15 | Exported Function
-`com_ms_wfc_data_Field_getShort` | 14 | Exported Function
-`com_ms_wfc_data_Field_getLong` | 13 | Exported Function
-`com_ms_wfc_data_Field_getInt` | 12 | Exported Function
-`com_ms_wfc_data_Field_getFloat` | 11 | Exported Function
-`com_ms_wfc_data_Field_getDouble` | 10 | Exported Function
-`com_ms_wfc_data_Field_getDataTimestamp` | 9 | Exported Function
-`com_ms_wfc_data_Field_getBytes` | 8 | Exported Function
-`com_ms_wfc_data_Field_getByte` | 7 | Exported Function
+`com_ms_wfc_data_Field_isNull` | 16 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
 `RNIGetCompatibleVersion` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`com_ms_wfc_data_Field_getBytes` | 8 | Exported Function
+`com_ms_wfc_data_Field_getDataTimestamp` | 9 | Exported Function
+`com_ms_wfc_data_Field_getBoolean` | 6 | Exported Function
+`com_ms_wfc_data_Field_getByte` | 7 | Exported Function
+`com_ms_wfc_data_Field_getDouble` | 10 | Exported Function
+`com_ms_wfc_data_Field_getLong` | 13 | Exported Function
+`com_ms_wfc_data_Field_getShort` | 14 | Exported Function
+`com_ms_wfc_data_Field_getFloat` | 11 | Exported Function
+`com_ms_wfc_data_Field_getInt` | 12 | Exported Function
 
 
 ## Signature

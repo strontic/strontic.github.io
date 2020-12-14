@@ -25,10 +25,10 @@ PE256 | `E5A0CF36C2EC29102BEA77732335907A031D23CA15E20458FF2C5D6AF68CEF94`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TraceExGenerateDump` | 1 | Exported Function
-`TraceExGenerateMiniReport` | 2 | Exported Function
 `TraceExGenerateReport` | 3 | Exported Function
 `TraceExRunDiagnostic` | 4 | Exported Function
+`TraceExGenerateDump` | 1 | Exported Function
+`TraceExGenerateMiniReport` | 2 | Exported Function
 
 
 ## Signature

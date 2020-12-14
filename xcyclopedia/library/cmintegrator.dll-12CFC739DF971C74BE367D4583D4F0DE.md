@@ -26,9 +26,9 @@ PE256 | `26D3719302C05DFC7F290C261F1731DE1FFDBF3B12D17A99B557D639DD1ADF35`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VpnCmOracleCheckVpnAvailability` | 1 | Exported Function
-`VpnCmOracleInitialize` | 2 | Exported Function
 `VpnCmOracleShutdown` | 3 | Exported Function
+`VpnCmOracleInitialize` | 2 | Exported Function
+`VpnCmOracleCheckVpnAvailability` | 1 | Exported Function
 
 
 ## Signature

@@ -26,28 +26,28 @@ PE256 | `55AE36F5903DDE91137CA90D541831A4199B59E56961E7B576EF2E0128CE6718`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClearPhishingFilterData` | 108 | Exported Function
-`TravelLogCreateInstance` | 141 | Exported Function
-`ShowModelessHTMLDialog` | 140 | Exported Function
-`ShowModalDialog` | 139 | Exported Function
-`ShowHTMLDialogEx` | 137 | Exported Function
-`ShowHTMLDialog` | 136 | Exported Function
 `RunHTMLApplication` | 135 | Exported Function
+`ShowHTMLDialog` | 136 | Exported Function
 `PrintHTML` | 133 | Exported Function
-`MatchExactGetIDsOfNames` | 132 | Exported Function
 `InitializeLocalHtmlEngine` | 119 | Exported Function
-`IERegisterXMLNS` | 118 | Exported Function
-`IEIsXMLNSRegistered` | 117 | Exported Function
-`GetWebPlatformObject` | 116 | Exported Function
-`GetColorValueFromString` | 115 | Exported Function
-`DllGetClassObject` | 114 | Exported Function
-`DllEnumClassObjects` | 113 | Exported Function
-`DllCanUnloadNow` | 112 | Exported Function
-`CreateHTMLPropertyPage` | 111 | Exported Function
-`CreateCoreWebView` | 110 | Exported Function
-`ConvertAndEscapePostData` | 109 | Exported Function
+`MatchExactGetIDsOfNames` | 132 | Exported Function
+`ShowHTMLDialogEx` | 137 | Exported Function
 `TravelLogStgCreateInstance` | 142 | Exported Function
 `UninitializeLocalHtmlEngine` | 143 | Exported Function
+`TravelLogCreateInstance` | 141 | Exported Function
+`ShowModalDialog` | 139 | Exported Function
+`ShowModelessHTMLDialog` | 140 | Exported Function
+`CreateHTMLPropertyPage` | 111 | Exported Function
+`DllCanUnloadNow` | 112 | Exported Function
+`CreateCoreWebView` | 110 | Exported Function
+`ClearPhishingFilterData` | 108 | Exported Function
+`ConvertAndEscapePostData` | 109 | Exported Function
+`DllEnumClassObjects` | 113 | Exported Function
+`IEIsXMLNSRegistered` | 117 | Exported Function
+`IERegisterXMLNS` | 118 | Exported Function
+`GetWebPlatformObject` | 116 | Exported Function
+`DllGetClassObject` | 114 | Exported Function
+`GetColorValueFromString` | 115 | Exported Function
 
 
 ## Signature
@@ -77,7 +77,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mshtml.dll` being misused. While `mshtml.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mshtml.dll` being misused. While `mshtml.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

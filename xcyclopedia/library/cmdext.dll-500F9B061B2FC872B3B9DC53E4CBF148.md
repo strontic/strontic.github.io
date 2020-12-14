@@ -26,20 +26,20 @@ PE256 | `6298D3839788C0B4A4A3409DDB34137F9D1B953F68F858AC99DD974546DEB0D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CmdBatNotificationStub` | 1 | Exported Function
-`DoSHChangeNotify` | 2 | Exported Function
-`FindFirstStreamWStub` | 3 | Exported Function
-`FindNextStreamWStub` | 4 | Exported Function
-`GetBinaryTypeWStub` | 5 | Exported Function
-`GetVDMCurrentDirectoriesStub` | 6 | Exported Function
-`LookupAccountSidWStub` | 7 | Exported Function
-`MessageBeepStub` | 8 | Exported Function
-`QueryFullProcessImageNameWStub` | 9 | Exported Function
 `SaferWorker` | 10 | Exported Function
+`QueryFullProcessImageNameWStub` | 9 | Exported Function
+`MessageBeepStub` | 8 | Exported Function
 `ShellExecuteWorker` | 11 | Exported Function
-`WNetAddConnection2WStub` | 12 | Exported Function
-`WNetCancelConnection2WStub` | 13 | Exported Function
 `WNetGetConnectionWStub` | 14 | Exported Function
+`WNetCancelConnection2WStub` | 13 | Exported Function
+`WNetAddConnection2WStub` | 12 | Exported Function
+`FindFirstStreamWStub` | 3 | Exported Function
+`DoSHChangeNotify` | 2 | Exported Function
+`CmdBatNotificationStub` | 1 | Exported Function
+`FindNextStreamWStub` | 4 | Exported Function
+`LookupAccountSidWStub` | 7 | Exported Function
+`GetVDMCurrentDirectoriesStub` | 6 | Exported Function
+`GetBinaryTypeWStub` | 5 | Exported Function
 
 
 ## Signature

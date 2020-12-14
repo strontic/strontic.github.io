@@ -26,18 +26,18 @@ PE256 | `623F0A1009D6A83FF6DDDDAF1B25C4B48D43403002C35B230A81ABBAB56E4249`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConvertINetMultiByteToUnicode` | 113 | Exported Function
-`ConvertINetReset` | 114 | Exported Function
-`ConvertINetString` | 111 | Exported Function
-`ConvertINetUnicodeToMultiByte` | 112 | Exported Function
-`DllCanUnloadNow` | 115 | Exported Function
-`DllGetClassObject` | 116 | Exported Function
-`GetGlobalFontLinkObject` | 117 | Exported Function
-`IsConvertINetStringAvailable` | 110 | Exported Function
 `LcidToRfc1766A` | 120 | Exported Function
-`LcidToRfc1766W` | 121 | Exported Function
-`Rfc1766ToLcidA` | 122 | Exported Function
+`IsConvertINetStringAvailable` | 110 | Exported Function
+`GetGlobalFontLinkObject` | 117 | Exported Function
 `Rfc1766ToLcidW` | 123 | Exported Function
+`Rfc1766ToLcidA` | 122 | Exported Function
+`LcidToRfc1766W` | 121 | Exported Function
+`ConvertINetString` | 111 | Exported Function
+`ConvertINetReset` | 114 | Exported Function
+`ConvertINetMultiByteToUnicode` | 113 | Exported Function
+`DllGetClassObject` | 116 | Exported Function
+`DllCanUnloadNow` | 115 | Exported Function
+`ConvertINetUnicodeToMultiByte` | 112 | Exported Function
 
 
 ## Signature

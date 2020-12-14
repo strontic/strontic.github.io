@@ -26,8 +26,8 @@ PE256 | `4FA3A30873F911CD63AF527B0439FE985205571ED27B7ED760629CB173F1329C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_PPMain@12` | 2 | Exported Function
 `DllGetLCID` | 1 | Exported Function
+`_PPMain@12` | 2 | Exported Function
 
 
 ## Signature

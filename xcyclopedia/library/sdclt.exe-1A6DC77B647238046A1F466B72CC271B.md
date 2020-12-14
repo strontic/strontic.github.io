@@ -42,13 +42,14 @@ SSDEEP | `24576:VywnRG0Nq1jwZMDW+zfh9yptQHZ7RHegR:7UB+P+TaQ5dH9`
 
 File | Score
 -- | --
+[C:\Windows\system32\sdclt.exe](sdclt.exe-34B64D8A4316A9C97E56C0DFCFCEC3C6.md) | 50
 [C:\Windows\system32\sdclt.exe](sdclt.exe-4685EDEA02ED044779578CE2AB9505FF.md) | 99
 [C:\Windows\system32\sdclt.exe](sdclt.exe-B0C397303D58CCC9E27BF71073E46F49.md) | 50
 [C:\WINDOWS\system32\sdclt.exe](sdclt.exe-F96744B10792C70426608E670C0E39DB.md) | 46
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sdclt.exe` being misused. While `sdclt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sdclt.exe` being misused. While `sdclt.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

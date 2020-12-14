@@ -26,34 +26,34 @@ PE256 | `FC29205F8640B1B37E10F0715446C92496BBA5D82C738DEB91DFC8552C36FC55`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OneXAddEapAttributes` | 1 | Exported Function
-`OneXUIResponse` | 26 | Exported Function
-`OneXStopAuthentication` | 25 | Exported Function
-`OneXStartAuthentication` | 24 | Exported Function
-`OneXSetRuntimeState` | 23 | Exported Function
-`OneXSetAuthParams` | 22 | Exported Function
-`OneXRestartReasonCodeToString` | 21 | Exported Function
-`OneXReasonCodeToString` | 20 | Exported Function
 `OneXQueryStatistics` | 19 | Exported Function
+`OneXReasonCodeToString` | 20 | Exported Function
+`OneXRestartReasonCodeToString` | 21 | Exported Function
 `OneXQueryState` | 18 | Exported Function
-`OneXQueryPendingUIRequest` | 17 | Exported Function
-`OneXQueryAuthParams` | 16 | Exported Function
 `OneXInitialize` | 15 | Exported Function
-`OneXIndicateSessionChange` | 14 | Exported Function
-`OneXIndicatePacket` | 13 | Exported Function
-`OneXFreeMemory` | 12 | Exported Function
-`OneXFreeAuthParams` | 11 | Exported Function
-`OneXForceAuthenticatedState` | 10 | Exported Function
-`OneXDestroySupplicantPort` | 9 | Exported Function
-`OneXDeInitialize` | 8 | Exported Function
-`OneXCreateSupplicantPort` | 7 | Exported Function
-`OneXCreateDiscoveryProfiles` | 6 | Exported Function
-`OneXCreateDefaultProfile` | 5 | Exported Function
-`OneXCopyAuthParams` | 4 | Exported Function
-`OneXCompareAuthParams` | 3 | Exported Function
-`OneXAddTLV` | 2 | Exported Function
+`OneXQueryAuthParams` | 16 | Exported Function
+`OneXQueryPendingUIRequest` | 17 | Exported Function
+`OneXUIResponse` | 26 | Exported Function
 `OneXUpdatePortProfile` | 27 | Exported Function
 `OneXUpdateProfilePostDiscovery` | 28 | Exported Function
+`OneXStopAuthentication` | 25 | Exported Function
+`OneXSetAuthParams` | 22 | Exported Function
+`OneXSetRuntimeState` | 23 | Exported Function
+`OneXStartAuthentication` | 24 | Exported Function
+`OneXCreateDefaultProfile` | 5 | Exported Function
+`OneXCreateDiscoveryProfiles` | 6 | Exported Function
+`OneXCreateSupplicantPort` | 7 | Exported Function
+`OneXCopyAuthParams` | 4 | Exported Function
+`OneXAddEapAttributes` | 1 | Exported Function
+`OneXAddTLV` | 2 | Exported Function
+`OneXCompareAuthParams` | 3 | Exported Function
+`OneXFreeMemory` | 12 | Exported Function
+`OneXIndicatePacket` | 13 | Exported Function
+`OneXIndicateSessionChange` | 14 | Exported Function
+`OneXFreeAuthParams` | 11 | Exported Function
+`OneXDeInitialize` | 8 | Exported Function
+`OneXDestroySupplicantPort` | 9 | Exported Function
+`OneXForceAuthenticatedState` | 10 | Exported Function
 
 
 ## Signature

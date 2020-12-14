@@ -26,11 +26,11 @@ PE256 | `618C5C2E99AF7CF042E9C7B50480EBF61A9B290C2DAC735D249165C850072A29`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DoAction` | 1 | Exported Function
-`FreePropertyBag` | 2 | Exported Function
-`FreeService` | 3 | Exported Function
 `InitService` | 4 | Exported Function
 `RecognizeText` | 5 | Exported Function
+`FreeService` | 3 | Exported Function
+`DoAction` | 1 | Exported Function
+`FreePropertyBag` | 2 | Exported Function
 
 
 ## Signature

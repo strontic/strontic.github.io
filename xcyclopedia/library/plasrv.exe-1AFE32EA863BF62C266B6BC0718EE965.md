@@ -41,7 +41,7 @@ SSDEEP | `96:8wYVXfPIMkezYBeHt6gLUW2QZM6ioW0LOTbeKlHUhDJfMsjEYEWT0XWwD:83VXfP7M4
 
 ## Possible Misuse
 
-*The following table contains possible examples of `plasrv.exe` being misused. While `plasrv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `plasrv.exe` being misused. While `plasrv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

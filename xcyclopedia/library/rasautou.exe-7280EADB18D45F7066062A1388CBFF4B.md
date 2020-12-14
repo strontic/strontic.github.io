@@ -41,7 +41,7 @@ SSDEEP | `384:4Yd7P7H00G8e7FQL45uE4sDn/qwTki/UyIopUm6sW1BW:40H0Z5WFsn/jQyhp6v`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `rasautou.exe` being misused. While `rasautou.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `rasautou.exe` being misused. While `rasautou.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

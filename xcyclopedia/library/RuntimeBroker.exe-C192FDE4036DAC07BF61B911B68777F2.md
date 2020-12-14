@@ -41,7 +41,7 @@ SSDEEP | `768:vTMdmQVbubIFRK5LWtWtEZobxFOQ1i1PgfqH:LFQVuIFA5LW8iobxMQ1yPu4`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

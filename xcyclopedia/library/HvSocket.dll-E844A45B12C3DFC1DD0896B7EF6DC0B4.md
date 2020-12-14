@@ -25,9 +25,9 @@ PE256 | `EC41FBA9CE5414EA4741123267F9E6FC5696EDCE5C60AB1EB11B97BDECF054B8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetHvSocketLocalAddress` | 1 | Exported Function
-`GetHvSocketParentAddress` | 2 | Exported Function
 `GetHvSocketSiloHostAddress` | 3 | Exported Function
+`GetHvSocketParentAddress` | 2 | Exported Function
+`GetHvSocketLocalAddress` | 1 | Exported Function
 
 
 ## Signature

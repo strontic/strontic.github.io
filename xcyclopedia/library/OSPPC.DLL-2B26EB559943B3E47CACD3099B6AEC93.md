@@ -26,61 +26,61 @@ PE256 | `9B659CF0CB22B058D3C021FB78D98044A94635D98B371FACB142908ECEEABA8B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SLCallServer` | 1 | Exported Function
-`SLLoadApplicationPolicies` | 41 | Exported Function
-`SLOpen` | 42 | Exported Function
-`SLpAuthenticateGenuineTicketResponse` | 2 | Exported Function
-`SLpBeginGenuineTicketTransaction` | 3 | Exported Function
-`SLpDepositTokenActivationResponse` | 4 | Exported Function
-`SLPersistApplicationPolicies` | 43 | Exported Function
-`SLPersistRTSPayloadOverride` | 44 | Exported Function
-`SLpGenerateTokenActivationChallenge` | 5 | Exported Function
 `SLpGetGenuineBlob` | 6 | Exported Function
-`SLpGetGenuineLocal` | 7 | Exported Function
-`SLpGetLicenseAcquisitionInfo` | 8 | Exported Function
-`SLIsGenuineLocalEx` | 40 | Exported Function
+`SLpGenerateTokenActivationChallenge` | 5 | Exported Function
+`SLPersistRTSPayloadOverride` | 44 | Exported Function
 `SLpGetMachineUGUID` | 10 | Exported Function
-`SLpGetTokenActivationGrantInfo` | 11 | Exported Function
-`SLpVLActivateProduct` | 12 | Exported Function
-`SLReArm` | 45 | Exported Function
-`SLRegisterEvent` | 46 | Exported Function
-`SLRegisterPlugin` | 47 | Exported Function
-`SLSetAuthenticationData` | 48 | Exported Function
-`SLSetCurrentProductKey` | 49 | Exported Function
-`SLSetGenuineInformation` | 50 | Exported Function
-`SLUninstallLicense` | 51 | Exported Function
-`SLUninstallProofOfPurchase` | 52 | Exported Function
-`SLUnloadApplicationPolicies` | 53 | Exported Function
+`SLpGetLicenseAcquisitionInfo` | 8 | Exported Function
+`SLpGetGenuineLocal` | 7 | Exported Function
+`SLPersistApplicationPolicies` | 43 | Exported Function
+`SLOpen` | 42 | Exported Function
+`SLLoadApplicationPolicies` | 41 | Exported Function
+`SLIsGenuineLocalEx` | 40 | Exported Function
+`SLpDepositTokenActivationResponse` | 4 | Exported Function
+`SLpBeginGenuineTicketTransaction` | 3 | Exported Function
+`SLpAuthenticateGenuineTicketResponse` | 2 | Exported Function
 `SLpGetMSPidInformation` | 9 | Exported Function
-`SLUnregisterEvent` | 54 | Exported Function
-`SLInstallProofOfPurchaseEx` | 39 | Exported Function
-`SLInstallLicense` | 37 | Exported Function
-`SLClose` | 13 | Exported Function
-`SLConsumeRight` | 14 | Exported Function
-`SLDepositMigrationBlob` | 15 | Exported Function
-`SLDepositOfflineConfirmationId` | 16 | Exported Function
-`SLFireEvent` | 17 | Exported Function
-`SLGatherMigrationBlob` | 18 | Exported Function
-`SLGenerateOfflineInstallationId` | 19 | Exported Function
-`SLGetApplicationInformation` | 20 | Exported Function
-`SLGetApplicationPolicy` | 21 | Exported Function
-`SLGetAuthenticationResult` | 22 | Exported Function
-`SLGetEncryptedPIDEx` | 23 | Exported Function
-`SLInstallProofOfPurchase` | 38 | Exported Function
-`SLGetGenuineInformation` | 24 | Exported Function
-`SLGetLicense` | 26 | Exported Function
-`SLGetLicenseFileId` | 27 | Exported Function
-`SLGetLicenseInformation` | 28 | Exported Function
-`SLGetLicensingStatusInformation` | 29 | Exported Function
-`SLGetPKeyId` | 30 | Exported Function
-`SLGetPKeyInformation` | 31 | Exported Function
-`SLGetPolicyInformation` | 32 | Exported Function
-`SLGetPolicyInformationDWORD` | 33 | Exported Function
-`SLGetProductSkuInformation` | 34 | Exported Function
-`SLGetServiceInformation` | 36 | Exported Function
-`SLGetSLIDList` | 35 | Exported Function
-`SLGetInstalledProductKeyIds` | 25 | Exported Function
+`SLUninstallProofOfPurchase` | 52 | Exported Function
+`SLUninstallLicense` | 51 | Exported Function
+`SLSetGenuineInformation` | 50 | Exported Function
 `SLUnregisterPlugin` | 55 | Exported Function
+`SLUnregisterEvent` | 54 | Exported Function
+`SLUnloadApplicationPolicies` | 53 | Exported Function
+`SLSetCurrentProductKey` | 49 | Exported Function
+`SLReArm` | 45 | Exported Function
+`SLpVLActivateProduct` | 12 | Exported Function
+`SLpGetTokenActivationGrantInfo` | 11 | Exported Function
+`SLSetAuthenticationData` | 48 | Exported Function
+`SLRegisterPlugin` | 47 | Exported Function
+`SLRegisterEvent` | 46 | Exported Function
+`SLInstallProofOfPurchaseEx` | 39 | Exported Function
+`SLGetApplicationPolicy` | 21 | Exported Function
+`SLGetApplicationInformation` | 20 | Exported Function
+`SLGenerateOfflineInstallationId` | 19 | Exported Function
+`SLGetGenuineInformation` | 24 | Exported Function
+`SLGetEncryptedPIDEx` | 23 | Exported Function
+`SLGetAuthenticationResult` | 22 | Exported Function
+`SLGatherMigrationBlob` | 18 | Exported Function
+`SLConsumeRight` | 14 | Exported Function
+`SLClose` | 13 | Exported Function
+`SLCallServer` | 1 | Exported Function
+`SLFireEvent` | 17 | Exported Function
+`SLDepositOfflineConfirmationId` | 16 | Exported Function
+`SLDepositMigrationBlob` | 15 | Exported Function
+`SLGetInstalledProductKeyIds` | 25 | Exported Function
+`SLGetServiceInformation` | 36 | Exported Function
+`SLGetProductSkuInformation` | 34 | Exported Function
+`SLGetPolicyInformationDWORD` | 33 | Exported Function
+`SLInstallProofOfPurchase` | 38 | Exported Function
+`SLInstallLicense` | 37 | Exported Function
+`SLGetSLIDList` | 35 | Exported Function
+`SLGetPolicyInformation` | 32 | Exported Function
+`SLGetLicenseInformation` | 28 | Exported Function
+`SLGetLicenseFileId` | 27 | Exported Function
+`SLGetLicense` | 26 | Exported Function
+`SLGetPKeyInformation` | 31 | Exported Function
+`SLGetPKeyId` | 30 | Exported Function
+`SLGetLicensingStatusInformation` | 29 | Exported Function
 
 
 ## Signature
@@ -109,7 +109,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `OSPPC.DLL` being misused. While `OSPPC.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `OSPPC.DLL` being misused. While `OSPPC.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

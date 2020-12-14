@@ -26,17 +26,17 @@ PE256 | `F8D16633929F4F85EB69BA2584838E7D485096CD9A1029F336478770ACE476EA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConvertTextXmlToWBXmlEx` | 8 | Exported Function
-`ConvertWBXmlToTextXmlEx` | 9 | Exported Function
-`WBXMLToTextXMLGeneric` | 10 | Exported Function
-`WSPFreeBuffer` | 11 | Exported Function
-`XMLHCreateChildElement` | 1 | Exported Function
-`XMLHEscapeString` | 2 | Exported Function
-`XMLHGetBooleanAttributeVal` | 3 | Exported Function
 `XMLHGetBstrVarFromAttr` | 5 | Exported Function
+`XMLHGetBooleanAttributeVal` | 3 | Exported Function
 `XMLHGetBstrVarFromAttr2` | 4 | Exported Function
-`XMLHGetStringAttributeVal` | 6 | Exported Function
 `XMLHSkipXMLProlog` | 7 | Exported Function
+`XMLHGetStringAttributeVal` | 6 | Exported Function
+`XMLHEscapeString` | 2 | Exported Function
+`ConvertWBXmlToTextXmlEx` | 9 | Exported Function
+`ConvertTextXmlToWBXmlEx` | 8 | Exported Function
+`WBXMLToTextXMLGeneric` | 10 | Exported Function
+`XMLHCreateChildElement` | 1 | Exported Function
+`WSPFreeBuffer` | 11 | Exported Function
 
 
 ## Signature

@@ -26,16 +26,16 @@ PE256 | `5F5778FB1EBE7B4AB5714E6539A8E345D6B2D6A9C4E3BB2ABF23942C8F00F9E6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EventActivityIdControl` | 1 | Exported Function
-`EventEnabled` | 2 | Exported Function
-`EventProviderEnabled` | 3 | Exported Function
-`EventRegister` | 4 | Exported Function
-`EventSetInformation` | 5 | Exported Function
-`EventUnregister` | 6 | Exported Function
 `EventWrite` | 7 | Exported Function
+`EventUnregister` | 6 | Exported Function
 `EventWriteEx` | 8 | Exported Function
-`EventWriteString` | 9 | Exported Function
 `EventWriteTransfer` | 10 | Exported Function
+`EventWriteString` | 9 | Exported Function
+`EventEnabled` | 2 | Exported Function
+`EventActivityIdControl` | 1 | Exported Function
+`EventProviderEnabled` | 3 | Exported Function
+`EventSetInformation` | 5 | Exported Function
+`EventRegister` | 4 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `05C1D4999942F74FD206BB5189CB79131166DF2D4DDA8615537CFAB5E50BD6CF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `LaunchErcAppW` | 1 | Exported Function
 `ShowCEIPDialogW` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

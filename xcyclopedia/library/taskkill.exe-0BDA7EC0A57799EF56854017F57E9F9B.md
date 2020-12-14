@@ -41,7 +41,7 @@ SSDEEP | `3072:EH3ZD80M/Xp6hy2XCquuYZeH5ToM+J/8tDu2xQ:8I0MB1eHlt0ktDu`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskkill.exe` being misused. While `taskkill.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskkill.exe` being misused. While `taskkill.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

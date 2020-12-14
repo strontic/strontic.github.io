@@ -26,9 +26,9 @@ PE256 | `3F04684BE478AAEC457EA7AEE7ACBD756692ED13987C9CA1F09E04DB1E01E6A2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapPeerFreeErrorMemory` | 1 | Exported Function
-`EapPeerFreeMemory` | 2 | Exported Function
 `EapPeerGetInfo` | 3 | Exported Function
+`EapPeerFreeMemory` | 2 | Exported Function
+`EapPeerFreeErrorMemory` | 1 | Exported Function
 
 
 ## Signature

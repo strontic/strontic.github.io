@@ -26,24 +26,24 @@ PE256 | `3CFD243782C28683C674B447614110579DFAFFC4110073498F6D4160CD672F50`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseDhcpPerformanceData` | 18 | Exported Function
-`OpenNWNBPerformanceData` | 13 | Exported Function
-`OpenNbfPerformanceData` | 1 | Exported Function
-`OpenIPXPerformanceData` | 7 | Exported Function
-`OpenDhcpPerformanceData` | 16 | Exported Function
 `CollectTcpIpPerformanceData` | 5 | Exported Function
-`CollectSPXPerformanceData` | 11 | Exported Function
+`OpenDhcpPerformanceData` | 16 | Exported Function
 `CollectNWNBPerformanceData` | 14 | Exported Function
-`CollectNbfPerformanceData` | 2 | Exported Function
-`CollectIPXPerformanceData` | 8 | Exported Function
-`CollectDhcpPerformanceData` | 17 | Exported Function
-`CloseTcpIpPerformanceData` | 6 | Exported Function
-`CloseSPXPerformanceData` | 12 | Exported Function
-`CloseNWNBPerformanceData` | 15 | Exported Function
-`CloseNbfPerformanceData` | 3 | Exported Function
-`CloseIPXPerformanceData` | 9 | Exported Function
+`CollectSPXPerformanceData` | 11 | Exported Function
+`OpenIPXPerformanceData` | 7 | Exported Function
 `OpenSPXPerformanceData` | 10 | Exported Function
 `OpenTcpIpPerformanceData` | 4 | Exported Function
+`OpenNbfPerformanceData` | 1 | Exported Function
+`OpenNWNBPerformanceData` | 13 | Exported Function
+`CloseNbfPerformanceData` | 3 | Exported Function
+`CloseNWNBPerformanceData` | 15 | Exported Function
+`CloseDhcpPerformanceData` | 18 | Exported Function
+`CloseIPXPerformanceData` | 9 | Exported Function
+`CloseSPXPerformanceData` | 12 | Exported Function
+`CollectIPXPerformanceData` | 8 | Exported Function
+`CollectNbfPerformanceData` | 2 | Exported Function
+`CloseTcpIpPerformanceData` | 6 | Exported Function
+`CollectDhcpPerformanceData` | 17 | Exported Function
 
 
 ## Signature

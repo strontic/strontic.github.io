@@ -26,8 +26,8 @@ PE256 | `39C3E2390DB687E8FF7DF06EE0041F88A51CB88192627F258076DFA349C3168E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInstanceOfHostPolicy` | 1 | Exported Function
 `ReleaseInstanceOfHostPolicy` | 2 | Exported Function
+`CreateInstanceOfHostPolicy` | 1 | Exported Function
 
 
 ## Signature

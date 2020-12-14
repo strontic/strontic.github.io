@@ -26,9 +26,9 @@ PE256 | `C3B1CA0D93E7E4AFDE18272977EF7583B2504D9D71852F3F8A3902FF4BED2640`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SysprepGeneralizeEntry` | 1 | Exported Function
-`SysprepSpecializeOfflineEntry` | 2 | Exported Function
 `SysprepSpecializeOnlineEntry` | 3 | Exported Function
+`SysprepSpecializeOfflineEntry` | 2 | Exported Function
+`SysprepGeneralizeEntry` | 1 | Exported Function
 
 
 ## Signature

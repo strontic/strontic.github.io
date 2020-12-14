@@ -24,12 +24,6 @@ PE256 | `45BEB106D9022DD220B273C7F60850CB54AF50F28E3D921F51EE585401A1A7E8`
 
 ## Runtime Data
 
-### Usage (stdout):
-```cmhg
-Unknown host help.
-ftp> 
-```
-
 ### Usage (stderr):
 ```cmhg
 
@@ -62,7 +56,7 @@ Notes:
 ```
 
 ### Child Processes:
-setup_wm.exe
+conhost.exe
 
 ### Open Handles:
 
@@ -115,7 +109,7 @@ C:\Windows\SysWOW64\ftp.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ftp.exe` being misused. While `ftp.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ftp.exe` being misused. While `ftp.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

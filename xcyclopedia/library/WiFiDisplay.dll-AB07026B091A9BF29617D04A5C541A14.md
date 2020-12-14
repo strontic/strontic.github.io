@@ -26,28 +26,28 @@ PE256 | `49066B8E08539CB971021AC8E8ADE7CAD7D5A81C3988C6EF9453E5E43AD89C8F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseMiracastSession` | 2 | Exported Function
-`WFDDisplaySinkStart` | 20 | Exported Function
-`WFDDisplaySinkSetProperty` | 19 | Exported Function
-`WFDDisplaySinkSetPersistedGroupIDList` | 18 | Exported Function
-`WFDDisplaySinkQueryCapabilities` | 17 | Exported Function
-`WFDDisplaySinkInit` | 16 | Exported Function
 `WFDDisplaySinkDeInit` | 15 | Exported Function
+`WFDDisplaySinkInit` | 16 | Exported Function
 `WFDDisplaySinkCloseSession` | 14 | Exported Function
-`VsIeProviderGetFunctionTable` | 13 | Exported Function
 `OpenMiracastSession` | 12 | Exported Function
-`MiracastUnregisterDatarateCallback` | 11 | Exported Function
-`MiracastRegisterDatarateCallback` | 10 | Exported Function
-`MiracastQueryParameters` | 9 | Exported Function
-`MiracastIeEncode` | 8 | Exported Function
-`MiracastIeDecode` | 7 | Exported Function
-`MiracastFreeMemory` | 6 | Exported Function
-`IsMiracastSupportedByWlan` | 5 | Exported Function
-`CreateWiFiDisplayEtwProvider` | 4 | Exported Function
-`CreateInfraCastSourceConnector` | 1 | Exported Function
-`CreateDAFProviderMiracastHelper` | 3 | Exported Function
+`VsIeProviderGetFunctionTable` | 13 | Exported Function
+`WFDDisplaySinkQueryCapabilities` | 17 | Exported Function
 `WFDDisplaySinkStartEx` | 21 | Exported Function
 `WFDDisplaySinkStop` | 22 | Exported Function
+`WFDDisplaySinkStart` | 20 | Exported Function
+`WFDDisplaySinkSetPersistedGroupIDList` | 18 | Exported Function
+`WFDDisplaySinkSetProperty` | 19 | Exported Function
+`CreateWiFiDisplayEtwProvider` | 4 | Exported Function
+`IsMiracastSupportedByWlan` | 5 | Exported Function
+`CreateInfraCastSourceConnector` | 1 | Exported Function
+`CloseMiracastSession` | 2 | Exported Function
+`CreateDAFProviderMiracastHelper` | 3 | Exported Function
+`MiracastFreeMemory` | 6 | Exported Function
+`MiracastRegisterDatarateCallback` | 10 | Exported Function
+`MiracastUnregisterDatarateCallback` | 11 | Exported Function
+`MiracastQueryParameters` | 9 | Exported Function
+`MiracastIeDecode` | 7 | Exported Function
+`MiracastIeEncode` | 8 | Exported Function
 
 
 ## Signature

@@ -68,7 +68,7 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/65f15353e9bc6ebcaed4b24a1451b609bab5d53dfa83fa3e9d3205adb61074bf/detection
 
 

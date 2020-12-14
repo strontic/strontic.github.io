@@ -26,11 +26,11 @@ PE256 | `BC6D145DCFC73DAC39B8EFD241377E9261D095E0BF9AC810C09FC2C29B21BE99`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AlphaBlend` | 2 | Exported Function
-`DllInitialize` | 3 | Exported Function
-`GradientFill` | 4 | Exported Function
 `TransparentBlt` | 5 | Exported Function
 `vSetDdrawflag` | 1 | Exported Function
+`GradientFill` | 4 | Exported Function
+`AlphaBlend` | 2 | Exported Function
+`DllInitialize` | 3 | Exported Function
 
 
 ## Signature

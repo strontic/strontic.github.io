@@ -28,9 +28,6 @@ PE256 | `E1995150558EFCE8E6B8F21143FC017EE97D2DE97D76ABEDD59AC239BA46F010`
 
 ## Runtime Data
 
-### Child Processes:
-csrss.exe winlogon.exe
-
 ### Window Title:
 Microsoft IME Open Extended Dictionary Error
 
@@ -47,8 +44,8 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:

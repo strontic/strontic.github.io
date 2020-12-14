@@ -26,9 +26,9 @@ PE256 | `19C53CDAD520F47690E8531EAABB526AAC2769E98FB747197D8FABF049962044`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllGetClassObject` | 1 | Exported Function
-`DllMain` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
+`DllMain` | 2 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
 
 
 ## Signature

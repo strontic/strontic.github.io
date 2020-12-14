@@ -26,29 +26,29 @@ PE256 | `6828CE51AB083626DC8C72C6B8D4A58ABBFF53A5D21AC7C5A995E4E21223A83B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FmsActivateFonts` | 1 | Exported Function
-`FmsSetFontAutoActivationMode` | 21 | Exported Function
-`FmsSetFilter` | 20 | Exported Function
-`FmsSetDefaultFilter` | 19 | Exported Function
-`FmsResetFontsActivationState` | 18 | Exported Function
-`FmsResetEnumerator` | 17 | Exported Function
 `FmsMapLogicalFont` | 16 | Exported Function
+`FmsResetEnumerator` | 17 | Exported Function
 `FmsMapGdiLogicalFont` | 15 | Exported Function
-`FmsInitializeEnumerator` | 14 | Exported Function
 `FmsGetGdiLogicalFont` | 13 | Exported Function
+`FmsInitializeEnumerator` | 14 | Exported Function
+`FmsResetFontsActivationState` | 18 | Exported Function
 `FmsSetTextFilter` | 22 | Exported Function
-`FmsGetGDILogFont` | 12 | Exported Function
-`FmsGetFontAutoActivationMode` | 10 | Exported Function
-`FmsGetFilteredPropertyList` | 9 | Exported Function
-`FmsGetFilteredFontList` | 8 | Exported Function
-`FmsGetDirectWriteLogFont` | 7 | Exported Function
-`FmsGetCurrentFilter` | 6 | Exported Function
-`FmsGetBestMatchInFamily` | 5 | Exported Function
-`FmsFreeEnumerator` | 4 | Exported Function
-`FmsDeactivateFonts` | 3 | Exported Function
-`FmsAddFilter` | 2 | Exported Function
-`FmsGetFontProperty` | 11 | Exported Function
 `FmsToggleOnDesignAxis` | 23 | Exported Function
+`FmsSetFontAutoActivationMode` | 21 | Exported Function
+`FmsSetDefaultFilter` | 19 | Exported Function
+`FmsSetFilter` | 20 | Exported Function
+`FmsGetGDILogFont` | 12 | Exported Function
+`FmsFreeEnumerator` | 4 | Exported Function
+`FmsGetBestMatchInFamily` | 5 | Exported Function
+`FmsDeactivateFonts` | 3 | Exported Function
+`FmsActivateFonts` | 1 | Exported Function
+`FmsAddFilter` | 2 | Exported Function
+`FmsGetCurrentFilter` | 6 | Exported Function
+`FmsGetFontAutoActivationMode` | 10 | Exported Function
+`FmsGetFontProperty` | 11 | Exported Function
+`FmsGetFilteredPropertyList` | 9 | Exported Function
+`FmsGetDirectWriteLogFont` | 7 | Exported Function
+`FmsGetFilteredFontList` | 8 | Exported Function
 
 
 ## Signature

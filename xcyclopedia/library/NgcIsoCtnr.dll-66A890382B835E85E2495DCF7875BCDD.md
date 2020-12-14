@@ -26,12 +26,12 @@ PE256 | `5862E538478E6E7CF9A69B216E33FFEB2161EA06C18F8179E0D3F640DF73BD70`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`NgcIsoCtnrInitialize` | 3 | Exported Function
 `NgcIsoCtnrInitializePregenPool` | 4 | Exported Function
 `NgcIsoCtnrTriggerPregen` | 5 | Exported Function
 `NgcIsoCtnrUninitializePregenPool` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`NgcIsoCtnrInitialize` | 3 | Exported Function
 
 
 ## Signature

@@ -28,17 +28,14 @@ PE256 | `E1FDD4542FD032CF0ECE159FCD362E7DF94A78489467D469ADD0A6FD19438691`
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\DEVOBJ.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\SYSTEM32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\WUDFHost.exe |
 C:\Windows\SYSTEM32\WUDFPlatform.dll |
@@ -65,7 +62,7 @@ C:\Windows\SYSTEM32\WUDFPlatform.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e6f5de8bc3fc572d9a2866024c5af3a83a4d70f4d38810b9e7679a2e9f89775c/detection
 
 

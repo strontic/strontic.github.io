@@ -26,21 +26,21 @@ PE256 | `C43EC223179002A9EE96789DC5F2114036FDCCFB8632285246C9883B0B394A50`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddConnectionOptionListEntries` | 1 | Exported Function
-`CreateVPNConnection` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`GetInternetConnected` | 5 | Exported Function
-`GetNetworkConnected` | 6 | Exported Function
-`GetVPNConnected` | 7 | Exported Function
-`HrIsInternetConnected` | 8 | Exported Function
-`HrIsInternetConnectedGUID` | 9 | Exported Function
-`IsInternetConnected` | 10 | Exported Function
 `IsInternetConnectedGUID` | 11 | Exported Function
+`IsInternetConnected` | 10 | Exported Function
+`HrIsInternetConnectedGUID` | 9 | Exported Function
 `IsUniqueConnectionName` | 12 | Exported Function
-`RegisterPageWithPage` | 13 | Exported Function
-`UnregisterPage` | 14 | Exported Function
 `UnregisterPagesLink` | 15 | Exported Function
+`UnregisterPage` | 14 | Exported Function
+`RegisterPageWithPage` | 13 | Exported Function
+`HrIsInternetConnected` | 8 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`CreateVPNConnection` | 2 | Exported Function
+`AddConnectionOptionListEntries` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`GetVPNConnected` | 7 | Exported Function
+`GetNetworkConnected` | 6 | Exported Function
+`GetInternetConnected` | 5 | Exported Function
 
 
 ## Signature
@@ -70,7 +70,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `connect.dll` being misused. While `connect.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `connect.dll` being misused. While `connect.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -109,6 +109,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1078.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.001/T1078.001.md) | Default accounts are not limited to client machines, rather also include accounts that are preset for equipment such as network devices and computer applications whether they are internal, open source, or commercial. Appliances that come preset with a username and password combination pose a serious threat to organizations that do not change it post installation, as they are easy targets for an adversary. Similarly, adversaries may also utilize publicly disclosed or stolen [Private Keys](https://attack.mitre.org/techniques/T1552/004) or credential materials to legitimately connect to remote environments via [Remote Services](https://attack.mitre.org/techniques/T1021).(Citation: Metasploit SSH Module)</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1090.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md) | \| connectaddress \| Specifies the IPv4 address to which to connect. Acceptable values are IP address, computer NetBIOS name, or computer DNS name. If an address is not specified, the default is the local computer. \| string \| 127.0.0.1\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1090.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md) | \| connectport \| Specifies the IPv4 port, by port number or service name, to which to connect. If connectport is not specified, the default is the value of listenport on the local computer. \| string \| 1337\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1133.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1133/T1133.md) | <blockquote>Adversaries may leverage external-facing remote services to initially access and/or persist within a network. Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources from external locations. There are often remote service gateways that manage connections and credential authentication for these services. Services such as [Windows Remote Management](https://attack.mitre.org/techniques/T1021/006) can also be used externally. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1219.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md) | Remote access tools may be established and used post-compromise as alternate communications channel for redundant access or as a way to establish an interactive remote desktop session with the target system. They may also be used as a component of malware to establish a reverse connection or back-connect to a service or adversary controlled system. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1553.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1553.004/T1553.004.md) | Installation of a root certificate on a compromised system would give an adversary a way to degrade the security of that system. Adversaries have used this technique to avoid security warnings prompting users when compromised systems connect over HTTPS to adversary controlled web servers that spoof legitimate websites in order to collect login credentials. (Citation: Operation Emmental) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1563.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1563.002/T1563.002.md) | \| Session_ID \| The ID of the session to which you want to connect \| String \| 1337\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

@@ -25,10 +25,10 @@ PE256 | `3F15F70840A78E0A9331D0EEE51B28F914D6D6294A01E019EF35748C7041D951`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AboutDialogProc` | 1 | Exported Function
-`DllMain` | 2 | Exported Function
 `DriverDialogProc` | 3 | Exported Function
 `DriverProc` | 4 | Exported Function
+`AboutDialogProc` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

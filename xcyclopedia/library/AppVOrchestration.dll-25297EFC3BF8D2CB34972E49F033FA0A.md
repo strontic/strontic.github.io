@@ -26,11 +26,11 @@ PE256 | `9D0B510B13095225A0096D8580CF50F218F785AAF30F109D070639698F0ABCB7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Deinitialize` | 3 | Exported Function
-`GetControllerComponent` | 4 | Exported Function
-`GetControllerRequests` | 5 | Exported Function
 `Initialize` | 1 | Exported Function
 `InitializeISV` | 2 | Exported Function
+`GetControllerRequests` | 5 | Exported Function
+`Deinitialize` | 3 | Exported Function
+`GetControllerComponent` | 4 | Exported Function
 
 
 ## Signature

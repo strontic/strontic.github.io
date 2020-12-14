@@ -25,28 +25,28 @@ PE256 | `57CCC6ADC853194C9A3193392F6EC7138EB7479F272E287DECA6DAB1CF4784BE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`taa_base_dec_h264_count_buffer_in` | 1 | Exported Function
-`taa_base_dec_h264_update_idr_timestamp` | 20 | Exported Function
-`taa_base_dec_h264_update_current_time` | 19 | Exported Function
-`taa_base_dec_h264_set_error_state` | 18 | Exported Function
-`taa_base_dec_h264_reference_ack_cb` | 17 | Exported Function
-`taa_base_dec_h264_received_sei_user_data_cb` | 16 | Exported Function
 `taa_base_dec_h264_out_of_sync` | 15 | Exported Function
+`taa_base_dec_h264_received_sei_user_data_cb` | 16 | Exported Function
 `taa_base_dec_h264_observe_frame_num` | 14 | Exported Function
-`taa_base_dec_h264_notify_happyness` | 13 | Exported Function
 `taa_base_dec_h264_negotiate` | 12 | Exported Function
-`taa_base_dec_h264_last_frame_out_of_sync` | 11 | Exported Function
-`taa_base_dec_h264_is_in_buffer_count_larger_than` | 10 | Exported Function
-`taa_base_dec_h264_in_error_before_any_buffer` | 9 | Exported Function
-`taa_base_dec_h264_happyness_now` | 8 | Exported Function
-`taa_base_dec_h264_handle_happyness` | 7 | Exported Function
-`taa_base_dec_h264_get_type` | 6 | Exported Function
-`taa_base_dec_h264_emit_error_state_changed_maybe` | 5 | Exported Function
-`taa_base_dec_h264_debug_decode_failure` | 4 | Exported Function
-`taa_base_dec_h264_debug_decode_buffer_error_state` | 3 | Exported Function
-`taa_base_dec_h264_count_buffer_out` | 2 | Exported Function
+`taa_base_dec_h264_notify_happyness` | 13 | Exported Function
+`taa_base_dec_h264_reference_ack_cb` | 17 | Exported Function
 `taa_base_dec_h264_warn_error_before_any_buffer` | 21 | Exported Function
 `taa_base_enc_h264_get_type` | 22 | Exported Function
+`taa_base_dec_h264_update_idr_timestamp` | 20 | Exported Function
+`taa_base_dec_h264_set_error_state` | 18 | Exported Function
+`taa_base_dec_h264_update_current_time` | 19 | Exported Function
+`taa_base_dec_h264_debug_decode_failure` | 4 | Exported Function
+`taa_base_dec_h264_emit_error_state_changed_maybe` | 5 | Exported Function
+`taa_base_dec_h264_debug_decode_buffer_error_state` | 3 | Exported Function
+`taa_base_dec_h264_count_buffer_in` | 1 | Exported Function
+`taa_base_dec_h264_count_buffer_out` | 2 | Exported Function
+`taa_base_dec_h264_get_type` | 6 | Exported Function
+`taa_base_dec_h264_is_in_buffer_count_larger_than` | 10 | Exported Function
+`taa_base_dec_h264_last_frame_out_of_sync` | 11 | Exported Function
+`taa_base_dec_h264_in_error_before_any_buffer` | 9 | Exported Function
+`taa_base_dec_h264_handle_happyness` | 7 | Exported Function
+`taa_base_dec_h264_happyness_now` | 8 | Exported Function
 
 
 ## Signature

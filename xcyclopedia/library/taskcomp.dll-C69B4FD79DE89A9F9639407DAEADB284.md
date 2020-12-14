@@ -26,13 +26,13 @@ PE256 | `7FAF044DA3C7DF87ABB6F99B5F0055D910160A09956C9A98622D5CCCEFB99156`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeleteTaskNotification` | 1 | Exported Function
-`InitializeAdapter` | 2 | Exported Function
-`IsRegistering` | 3 | Exported Function
-`RegisterTaskNotification` | 4 | Exported Function
 `SetSdNotification` | 5 | Exported Function
 `ShutdownAdapter` | 6 | Exported Function
 `UpdateJobStatus` | 7 | Exported Function
+`RegisterTaskNotification` | 4 | Exported Function
+`DeleteTaskNotification` | 1 | Exported Function
+`InitializeAdapter` | 2 | Exported Function
+`IsRegistering` | 3 | Exported Function
 
 
 ## Signature

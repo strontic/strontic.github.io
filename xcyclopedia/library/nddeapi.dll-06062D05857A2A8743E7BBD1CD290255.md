@@ -26,34 +26,34 @@ PE256 | `451CCDE4373B865C78B99F134705C6B4103A32FF16D3F456CBB7999FD6C64AB7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NDdeGetErrorStringA` | 505 | Exported Function
-`NDdeSpecialCommandW` | 608 | Exported Function
-`NDdeSpecialCommandA` | 508 | Exported Function
-`NDdeShareSetInfoW` | 604 | Exported Function
-`NDdeShareSetInfoA` | 504 | Exported Function
-`NDdeShareGetInfoW` | 603 | Exported Function
-`NDdeShareGetInfoA` | 503 | Exported Function
-`NDdeShareEnumW` | 602 | Exported Function
 `NDdeShareEnumA` | 502 | Exported Function
+`NDdeShareEnumW` | 602 | Exported Function
+`NDdeShareGetInfoA` | 503 | Exported Function
 `NDdeShareDelW` | 601 | Exported Function
-`NDdeShareDelA` | 501 | Exported Function
-`NDdeShareAddW` | 600 | Exported Function
 `NDdeShareAddA` | 500 | Exported Function
-`NDdeSetTrustedShareW` | 612 | Exported Function
-`NDdeSetTrustedShareA` | 512 | Exported Function
-`NDdeSetShareSecurityW` | 610 | Exported Function
-`NDdeSetShareSecurityA` | 510 | Exported Function
-`NDdeIsValidShareNameW` | 606 | Exported Function
-`NDdeIsValidShareNameA` | 506 | Exported Function
-`NDdeIsValidAppTopicListW` | 607 | Exported Function
-`NDdeIsValidAppTopicListA` | 507 | Exported Function
-`NDdeGetTrustedShareW` | 611 | Exported Function
-`NDdeGetTrustedShareA` | 511 | Exported Function
-`NDdeGetShareSecurityW` | 609 | Exported Function
-`NDdeGetShareSecurityA` | 509 | Exported Function
-`NDdeGetErrorStringW` | 605 | Exported Function
+`NDdeShareAddW` | 600 | Exported Function
+`NDdeShareDelA` | 501 | Exported Function
+`NDdeSpecialCommandW` | 608 | Exported Function
 `NDdeTrustedShareEnumA` | 513 | Exported Function
 `NDdeTrustedShareEnumW` | 613 | Exported Function
+`NDdeSpecialCommandA` | 508 | Exported Function
+`NDdeShareGetInfoW` | 603 | Exported Function
+`NDdeShareSetInfoA` | 504 | Exported Function
+`NDdeShareSetInfoW` | 604 | Exported Function
+`NDdeGetTrustedShareA` | 511 | Exported Function
+`NDdeGetTrustedShareW` | 611 | Exported Function
+`NDdeIsValidAppTopicListA` | 507 | Exported Function
+`NDdeGetShareSecurityW` | 609 | Exported Function
+`NDdeGetErrorStringA` | 505 | Exported Function
+`NDdeGetErrorStringW` | 605 | Exported Function
+`NDdeGetShareSecurityA` | 509 | Exported Function
+`NDdeSetShareSecurityW` | 610 | Exported Function
+`NDdeSetTrustedShareA` | 512 | Exported Function
+`NDdeSetTrustedShareW` | 612 | Exported Function
+`NDdeSetShareSecurityA` | 510 | Exported Function
+`NDdeIsValidAppTopicListW` | 607 | Exported Function
+`NDdeIsValidShareNameA` | 506 | Exported Function
+`NDdeIsValidShareNameW` | 606 | Exported Function
 
 
 ## Signature
@@ -88,7 +88,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `nddeapi.dll` being misused. While `nddeapi.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `nddeapi.dll` being misused. While `nddeapi.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

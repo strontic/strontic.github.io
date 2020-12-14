@@ -54,33 +54,6 @@ Options:
 
 ```
 
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R--)   C:\Windows\Registration\R000000000001.clb | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.Wrapper.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.XML.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | File
-(RW-)   C:\Users\user | File
-\...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_7132 | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -124,7 +97,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RegSvcs.exe` being misused. While `RegSvcs.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RegSvcs.exe` being misused. While `RegSvcs.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,15 +26,15 @@ PE256 | `A4ADDDDA8AB5E25865C55FB63B380AEE08485FEC63DF72218513790A2B8DE86F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CalculateCensusId` | 1 | Exported Function
-`DoCensusRun` | 2 | Exported Function
-`EnumerateOfficeAddins` | 3 | Exported Function
-`EnumerateOfficeDocuments` | 4 | Exported Function
-`GetCITDataApr` | 5 | Exported Function
-`GetCITTelemetryPoints` | 6 | Exported Function
 `RunGeneralTelemetry` | 7 | Exported Function
-`RunInUserCxtW` | 8 | Exported Function
+`GetCITTelemetryPoints` | 6 | Exported Function
 `SysprepCleanupEnableCustomTrigger` | 9 | Exported Function
+`RunInUserCxtW` | 8 | Exported Function
+`GetCITDataApr` | 5 | Exported Function
+`DoCensusRun` | 2 | Exported Function
+`CalculateCensusId` | 1 | Exported Function
+`EnumerateOfficeDocuments` | 4 | Exported Function
+`EnumerateOfficeAddins` | 3 | Exported Function
 
 
 ## Signature

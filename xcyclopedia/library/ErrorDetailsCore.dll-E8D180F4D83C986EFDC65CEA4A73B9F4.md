@@ -26,9 +26,9 @@ PE256 | `13B828030D1B1284332A192D38C279EFBC14BE5F209DEFD296A19EEFEC04A22C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FreeErrorDetails` | 1 | Exported Function
-`GetErrorDetails` | 2 | Exported Function
 `GetErrorDetailsWithContext` | 3 | Exported Function
+`GetErrorDetails` | 2 | Exported Function
+`FreeErrorDetails` | 1 | Exported Function
 
 
 ## Signature

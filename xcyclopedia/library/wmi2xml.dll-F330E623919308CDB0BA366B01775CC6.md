@@ -26,14 +26,14 @@ PE256 | `C73C76B8776E21249F6B17918C54A396D90AFD7B1383769B2B31A890859BCD0E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseWbemTextSource` | 1 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
 `OpenWbemTextSource` | 2 | Exported Function
-`TextToWbemObject` | 3 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
 `WbemObjectToText` | 4 | Exported Function
+`TextToWbemObject` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`CloseWbemTextSource` | 1 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 
 
 ## Signature

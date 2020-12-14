@@ -26,8 +26,8 @@ PE256 | `C11F6746A04F78D1591C56A28308D82839F493CFF842484D91F66609C9100352`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CHOOSER2_PickTargetComputer` | 1 | Exported Function
 `DllMain` | 2 | Exported Function
+`CHOOSER2_PickTargetComputer` | 1 | Exported Function
 
 
 ## Signature

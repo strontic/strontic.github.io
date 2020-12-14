@@ -26,13 +26,13 @@ PE256 | `E15E21316C84E78208E9767B66281151C96D2E8D8A39DE88C7A2FE4C3A8F9770`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`ForceCalDavCollectionsListRefreshDuringNextSync` | 3 | Exported Function
-`HandleWebDavMeetingResponseForAppointment` | 4 | Exported Function
 `HandleWebDavMeetingResponseForMeetingNotification` | 5 | Exported Function
 `UpdateCalDavTrackingSchema` | 6 | Exported Function
 `UpdateGMailContactSyncPartner` | 7 | Exported Function
+`HandleWebDavMeetingResponseForAppointment` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`ForceCalDavCollectionsListRefreshDuringNextSync` | 3 | Exported Function
 
 
 ## Signature

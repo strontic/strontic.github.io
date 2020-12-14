@@ -46,7 +46,6 @@ C:\Windows\system32\BdeUISrv.exe |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -60,7 +59,6 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WTSAPI32.dll |
 
 
 ## Signature
@@ -84,7 +82,7 @@ C:\Windows\system32\WTSAPI32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/37e9a578a9802a02c5a78bd3466127a21e555422e3d7847b63471aa9dfef04c4/detection
 
 

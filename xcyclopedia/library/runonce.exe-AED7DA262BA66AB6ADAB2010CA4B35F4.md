@@ -41,7 +41,7 @@ SSDEEP | `1536:EoziWRwNqkzNRZ59thN9twj42NlgYG3c2xt:5Vw9D+N6l3c2j`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `runonce.exe` being misused. While `runonce.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `runonce.exe` being misused. While `runonce.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

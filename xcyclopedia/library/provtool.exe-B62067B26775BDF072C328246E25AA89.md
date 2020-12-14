@@ -28,6 +28,7 @@ PE256 | `944A34F08A135C94A0FFD6B6BD76B3A10C7C167DD30C48EB42945B6B54E356B9`
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\provplatformdesktop.dll.mui | File
@@ -53,13 +54,11 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\system32\DMCmnUtils.dll |
 C:\Windows\system32\dmcommandlineutils.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -101,7 +100,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `provtool.exe` being misused. While `provtool.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `provtool.exe` being misused. While `provtool.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

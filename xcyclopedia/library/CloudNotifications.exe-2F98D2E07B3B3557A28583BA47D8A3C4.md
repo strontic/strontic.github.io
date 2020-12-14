@@ -31,6 +31,7 @@ Low disk space
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\CloudNotifications.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
@@ -56,7 +57,6 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\system32\CloudNotifications.exe |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
@@ -68,17 +68,13 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SYSTEM32\ntmarta.dll |
-C:\Windows\System32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\UxTheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\System32\Windows.UI.Immersive.dll |
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `AFE72DA2E978483A584CFED192393A50BC45A434D5C8E0669A58F4BE68012C0D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WpxCreateConfig` | 1 | Exported Function
-`WpxCreateWriteOpt` | 2 | Exported Function
-`WpxGetAnswerFileType` | 3 | Exported Function
-`WpxGetDeplSettings` | 4 | Exported Function
-`WpxResetDeplSettings` | 5 | Exported Function
 `WpxSetDeplSettings` | 6 | Exported Function
-`WpxSetLogger` | 7 | Exported Function
+`WpxResetDeplSettings` | 5 | Exported Function
 `WpxSetScratchDirectory` | 8 | Exported Function
+`WpxSetLogger` | 7 | Exported Function
+`WpxCreateWriteOpt` | 2 | Exported Function
+`WpxCreateConfig` | 1 | Exported Function
+`WpxGetDeplSettings` | 4 | Exported Function
+`WpxGetAnswerFileType` | 3 | Exported Function
 
 
 ## Signature

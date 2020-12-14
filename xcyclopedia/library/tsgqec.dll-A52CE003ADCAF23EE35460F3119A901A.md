@@ -26,8 +26,8 @@ PE256 | `922A9CDA075126429181392B87079DA868C328C53C483460CE41FED44E885241`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeQec` | 1 | Exported Function
 `UninitializeQec` | 2 | Exported Function
+`InitializeQec` | 1 | Exported Function
 
 
 ## Signature

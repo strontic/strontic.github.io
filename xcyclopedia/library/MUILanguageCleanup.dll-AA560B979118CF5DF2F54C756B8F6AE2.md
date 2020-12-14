@@ -26,11 +26,11 @@ PE256 | `F115EBCB9E67D9A160905796108106698B2C7B3151F955009DFB0D9FF4955CAD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OnMachineUILanguageClear` | 1 | Exported Function
-`OnMachineUILanguageInit` | 2 | Exported Function
-`OnMachineUILanguageSwitch` | 3 | Exported Function
 `OnUILanguageAdd` | 4 | Exported Function
 `OnUILanguageRemove` | 5 | Exported Function
+`OnMachineUILanguageSwitch` | 3 | Exported Function
+`OnMachineUILanguageClear` | 1 | Exported Function
+`OnMachineUILanguageInit` | 2 | Exported Function
 
 
 ## Signature

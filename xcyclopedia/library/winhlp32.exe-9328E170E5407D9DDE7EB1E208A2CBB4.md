@@ -41,7 +41,7 @@ SSDEEP | `96:Ch6sdQqe9JXOlPoj1L9A2DWPToOJ+XNHr+NtgTvDJvkMp84NEWaJeHWwZhh4xqo:CUG
 
 ## Possible Misuse
 
-*The following table contains possible examples of `winhlp32.exe` being misused. While `winhlp32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `winhlp32.exe` being misused. While `winhlp32.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,40 +26,40 @@ PE256 | `3CC68D9E76E76E419AD9BB3657521B869A5B2BF8E923A773FE0F871741B4A225`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AsyncDeviceEnumerate` | 1 | Exported Function
-`StrSystemWaitReason` | 32 | Exported Function
-`StrSdClass` | 31 | Exported Function
-`StrProcessState` | 30 | Exported Function
-`StrConnectState` | 29 | Exported Function
-`StrAsyncConnectState` | 28 | Exported Function
-`StandardErrorMessage` | 27 | Exported Function
-`RegGetNetworkServiceName` | 26 | Exported Function
-`RegGetNetworkDeviceName` | 25 | Exported Function
-`QueryCurrentWinStation` | 24 | Exported Function
 `ParseDecoratedAsyncDeviceName` | 23 | Exported Function
 `NetworkDeviceEnumerate` | 22 | Exported Function
-`NetBIOSDeviceEnumerate` | 21 | Exported Function
-`IsPartOfDomain` | 20 | Exported Function
+`RegGetNetworkDeviceName` | 25 | Exported Function
+`QueryCurrentWinStation` | 24 | Exported Function
 `InstallModem` | 19 | Exported Function
 `InitializeAnonymousUserCompareList` | 18 | Exported Function
+`NetBIOSDeviceEnumerate` | 21 | Exported Function
+`IsPartOfDomain` | 20 | Exported Function
+`RegGetNetworkServiceName` | 26 | Exported Function
+`StrSystemWaitReason` | 32 | Exported Function
+`StrSdClass` | 31 | Exported Function
+`WinEnumerateDevices` | 34 | Exported Function
+`TestUserForAdmin` | 33 | Exported Function
+`StrAsyncConnectState` | 28 | Exported Function
+`StandardErrorMessage` | 27 | Exported Function
+`StrProcessState` | 30 | Exported Function
+`StrConnectState` | 29 | Exported Function
+`ConfigureModem` | 6 | Exported Function
+`CompareElapsedTime` | 5 | Exported Function
+`DateTimeString` | 8 | Exported Function
+`CurrentDateTimeString` | 7 | Exported Function
+`CachedGetUserFromSid` | 2 | Exported Function
+`AsyncDeviceEnumerate` | 1 | Exported Function
+`CalculateElapsedTime` | 4 | Exported Function
+`CalculateDiffTime` | 3 | Exported Function
+`ElapsedTimeString` | 9 | Exported Function
+`GetUnknownString` | 15 | Exported Function
+`GetSystemMessageW` | 14 | Exported Function
 `HaveAnonymousUsersChanged` | 17 | Exported Function
 `GetUserFromSid` | 16 | Exported Function
-`CachedGetUserFromSid` | 2 | Exported Function
-`CalculateDiffTime` | 3 | Exported Function
-`CalculateElapsedTime` | 4 | Exported Function
-`CompareElapsedTime` | 5 | Exported Function
-`ConfigureModem` | 6 | Exported Function
-`CurrentDateTimeString` | 7 | Exported Function
-`TestUserForAdmin` | 33 | Exported Function
-`DateTimeString` | 8 | Exported Function
-`EnumerateMultiUserServers` | 10 | Exported Function
 `FormDecoratedAsyncDeviceName` | 11 | Exported Function
-`GetAssociatedPortName` | 12 | Exported Function
+`EnumerateMultiUserServers` | 10 | Exported Function
 `GetSystemMessageA` | 13 | Exported Function
-`GetSystemMessageW` | 14 | Exported Function
-`GetUnknownString` | 15 | Exported Function
-`ElapsedTimeString` | 9 | Exported Function
-`WinEnumerateDevices` | 34 | Exported Function
+`GetAssociatedPortName` | 12 | Exported Function
 
 
 ## Signature

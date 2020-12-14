@@ -26,34 +26,34 @@ PE256 | `75E6D01714F4233C109307953B59386DCB1A006CDC15D8C41A9776E5770106B0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PeerDistClientAddContentInformation` | 1 | Exported Function
-`PeerDistShutdown` | 26 | Exported Function
-`PeerDistServerUnpublish` | 25 | Exported Function
-`PeerDistServerRetrieveContentInformation` | 24 | Exported Function
-`PeerDistServerPublishStream` | 23 | Exported Function
-`PeerDistServerPublishCompleteStream` | 22 | Exported Function
-`PeerDistServerPublishAddToStream` | 21 | Exported Function
-`PeerDistServerOpenContentInformationEx` | 20 | Exported Function
 `PeerDistServerOpenContentInformation` | 19 | Exported Function
+`PeerDistServerOpenContentInformationEx` | 20 | Exported Function
+`PeerDistServerPublishAddToStream` | 21 | Exported Function
 `PeerDistServerCloseStreamHandle` | 18 | Exported Function
-`PeerDistServerCloseContentInformation` | 17 | Exported Function
-`PeerDistServerCancelAsyncOperation` | 16 | Exported Function
 `PeerDistRegisterForStatusChangeNotificationEx` | 15 | Exported Function
-`PeerDistRegisterForStatusChangeNotification` | 14 | Exported Function
-`PeerDistGetStatusEx` | 13 | Exported Function
-`PeerDistGetStatus` | 12 | Exported Function
-`PeerDistGetOverlappedResult` | 11 | Exported Function
-`PeerDistClientStreamRead` | 10 | Exported Function
-`PeerDistClientOpenContent` | 9 | Exported Function
-`PeerDistClientGetInformationByHandle` | 8 | Exported Function
-`PeerDistClientFlushContent` | 7 | Exported Function
-`PeerDistClientCompleteContentInformation` | 6 | Exported Function
-`PeerDistClientCloseContent` | 5 | Exported Function
-`PeerDistClientCancelAsyncOperation` | 4 | Exported Function
-`PeerDistClientBlockRead` | 3 | Exported Function
-`PeerDistClientAddData` | 2 | Exported Function
+`PeerDistServerCancelAsyncOperation` | 16 | Exported Function
+`PeerDistServerCloseContentInformation` | 17 | Exported Function
+`PeerDistShutdown` | 26 | Exported Function
 `PeerDistStartup` | 27 | Exported Function
 `PeerDistUnregisterForStatusChangeNotification` | 28 | Exported Function
+`PeerDistServerUnpublish` | 25 | Exported Function
+`PeerDistServerPublishCompleteStream` | 22 | Exported Function
+`PeerDistServerPublishStream` | 23 | Exported Function
+`PeerDistServerRetrieveContentInformation` | 24 | Exported Function
+`PeerDistClientCloseContent` | 5 | Exported Function
+`PeerDistClientCompleteContentInformation` | 6 | Exported Function
+`PeerDistClientFlushContent` | 7 | Exported Function
+`PeerDistClientCancelAsyncOperation` | 4 | Exported Function
+`PeerDistClientAddContentInformation` | 1 | Exported Function
+`PeerDistClientAddData` | 2 | Exported Function
+`PeerDistClientBlockRead` | 3 | Exported Function
+`PeerDistGetStatus` | 12 | Exported Function
+`PeerDistGetStatusEx` | 13 | Exported Function
+`PeerDistRegisterForStatusChangeNotification` | 14 | Exported Function
+`PeerDistGetOverlappedResult` | 11 | Exported Function
+`PeerDistClientGetInformationByHandle` | 8 | Exported Function
+`PeerDistClientOpenContent` | 9 | Exported Function
+`PeerDistClientStreamRead` | 10 | Exported Function
 
 
 ## Signature

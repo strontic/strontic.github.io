@@ -26,31 +26,31 @@ PE256 | `A797E00CAE5BC5DD60E23C083269A7115D4259C4CF5A89680C155587DDBA1358`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MdmClearAllHashes` | 1 | Exported Function
-`MdmUpdateStatus` | 23 | Exported Function
-`MdmShouldRegisterDevice` | 22 | Exported Function
-`MdmSetFindMyDevice` | 21 | Exported Function
-`MdmSendRequestToCSWithDelegation` | 20 | Exported Function
-`MdmSendRequestToCS` | 19 | Exported Function
-`MdmRegisterUserDevice` | 18 | Exported Function
 `MdmRegisterDevice` | 17 | Exported Function
-`MdmProtectionStateChanged` | 16 | Exported Function
-`MdmParseNonEncryptedRequest` | 15 | Exported Function
+`MdmRegisterUserDevice` | 18 | Exported Function
+`MdmSendRequestToCS` | 19 | Exported Function
 `MdmParseLockCommand` | 14 | Exported Function
+`MdmParseNonEncryptedRequest` | 15 | Exported Function
+`MdmProtectionStateChanged` | 16 | Exported Function
+`MdmUpdateStatus` | 23 | Exported Function
 `MdmUsersAuthorizedToSeeLocation` | 24 | Exported Function
-`MdmParseLocateCommand` | 13 | Exported Function
-`MdmParseCommandData` | 11 | Exported Function
-`MdmMobileNetworksChanged` | 10 | Exported Function
-`MdmIsRegisteredWithService` | 9 | Exported Function
-`MdmIsFindMyDeviceEnabled` | 8 | Exported Function
-`MdmHandlePushNotification` | 7 | Exported Function
-`MdmGetSidsByConnectedCids` | 6 | Exported Function
-`MdmGetServiceTarget` | 5 | Exported Function
-`MdmGetLocation` | 4 | Exported Function
-`MdmEnumerateUsers` | 3 | Exported Function
-`MdmConnectedAccountsChanged` | 2 | Exported Function
-`MdmParseEncryptedRequest` | 12 | Exported Function
 `MdmUsersAuthorizedToSeeLocationAsString` | 25 | Exported Function
+`MdmSendRequestToCSWithDelegation` | 20 | Exported Function
+`MdmSetFindMyDevice` | 21 | Exported Function
+`MdmShouldRegisterDevice` | 22 | Exported Function
+`MdmParseLocateCommand` | 13 | Exported Function
+`MdmGetLocation` | 4 | Exported Function
+`MdmGetServiceTarget` | 5 | Exported Function
+`MdmGetSidsByConnectedCids` | 6 | Exported Function
+`MdmClearAllHashes` | 1 | Exported Function
+`MdmConnectedAccountsChanged` | 2 | Exported Function
+`MdmEnumerateUsers` | 3 | Exported Function
+`MdmMobileNetworksChanged` | 10 | Exported Function
+`MdmParseCommandData` | 11 | Exported Function
+`MdmParseEncryptedRequest` | 12 | Exported Function
+`MdmHandlePushNotification` | 7 | Exported Function
+`MdmIsFindMyDeviceEnabled` | 8 | Exported Function
+`MdmIsRegisteredWithService` | 9 | Exported Function
 
 
 ## Signature

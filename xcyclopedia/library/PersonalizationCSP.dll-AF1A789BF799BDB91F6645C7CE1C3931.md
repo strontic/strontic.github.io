@@ -26,8 +26,8 @@ PE256 | `8A5F2FDFCC193DD960A8299CB48E09BB110F869D5CF6E9F9B9882D392E8C5718`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
 `DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PersonalizationCSP.dll` being misused. While `PersonalizationCSP.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PersonalizationCSP.dll` being misused. While `PersonalizationCSP.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

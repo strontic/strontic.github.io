@@ -41,7 +41,7 @@ SSDEEP | `192:/tYltBozp++dth0fSLi0gN6iboFq8vJfzlZOIuJAxcNPjk/WnNW:/tcBotXXLnC6Co
 
 ## Possible Misuse
 
-*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

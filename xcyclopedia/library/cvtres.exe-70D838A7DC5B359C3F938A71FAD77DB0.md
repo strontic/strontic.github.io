@@ -81,7 +81,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cvtres.exe` being misused. While `cvtres.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cvtres.exe` being misused. While `cvtres.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

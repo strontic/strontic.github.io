@@ -26,9 +26,9 @@ PE256 | `B62CDDCBF168C5AE496EFC6C73472B4C9EDE2C5445AD05332DABE83DFCA84B7E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloudAPPluginInitialize` | 1 | Exported Function
-`DllRegisterServer` | 2 | Exported Function
 `DllUnregisterServer` | 3 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
+`CloudAPPluginInitialize` | 1 | Exported Function
 
 
 ## Signature

@@ -29,21 +29,11 @@ PE256 | `C7EB0F22FA3B50914803622810B33265EF8958DBDC02D36792372A578E45940C`
 Path |
 -- |
 C:\Windows\SYSTEM32\apphelp.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\wincorlib.DLL |
-C:\Windows\SYSTEM32\wkscli.dll |
 C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe |
 
 
@@ -68,13 +58,13 @@ C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e04233f34c27e0de1e3b2a47441f79a93d84638864fc7311f0b6145f31957046/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MicrosoftEdge.exe` being misused. While `MicrosoftEdge.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MicrosoftEdge.exe` being misused. While `MicrosoftEdge.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

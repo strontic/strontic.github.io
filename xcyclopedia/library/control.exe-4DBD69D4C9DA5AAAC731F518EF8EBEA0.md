@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\control.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 1/75
+* VirusTotal Detections: 1/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/d923f812bf0191f3344de6cd5fceaf6c7b2f6961f637c74c2aa329fb3f8ca6c5/detection
 
 ## File Similarity (ssdeep match)
@@ -77,7 +77,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `control.exe` being misused. While `control.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `control.exe` being misused. While `control.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

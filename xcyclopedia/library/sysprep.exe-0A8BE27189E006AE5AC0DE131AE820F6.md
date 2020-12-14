@@ -45,7 +45,7 @@ SSDEEP | `12288:CPOLi3zc4LDKGvFIwUzOQyZ4y8YN6totkehMyoGf5kD:CPxxDKGvFI9z089e9k`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sysprep.exe` being misused. While `sysprep.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sysprep.exe` being misused. While `sysprep.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

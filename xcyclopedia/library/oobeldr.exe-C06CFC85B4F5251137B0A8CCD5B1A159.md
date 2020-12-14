@@ -28,6 +28,9 @@ PE256 | `7AA587A84CB061EBD611F78411D1CF8D112BC5351DF6E03EF10E7F1DB584FCCF`
 
 ## Runtime Data
 
+### Window Title:
+Install Windows
+
 ### Open Handles:
 
 Path | Type
@@ -45,8 +48,8 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\SetupLogSection | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -55,8 +58,6 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ActionQueue.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\dbgcore.DLL |
-C:\Windows\system32\dbghelp.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -68,7 +69,6 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SYSTEM32\UNATTEND.DLL |
-C:\Windows\SYSTEM32\wdscore.dll |
 
 
 ## Signature
@@ -92,7 +92,7 @@ C:\Windows\SYSTEM32\wdscore.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/67fe654b8b277df364e596c2ac7466bd307f28c244425aac7bc79f1de3269a5a/detection
 
 

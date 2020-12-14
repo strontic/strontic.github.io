@@ -26,8 +26,8 @@ PE256 | `E963FC36D8381BD2FE6B93D251C50193DF1D90F7D656C43E3FAB147C5E5E912E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateFilesystemMetadataFromFile` | 1 | Exported Function
 `CreateFilesystemMetadataFromStream` | 2 | Exported Function
+`CreateFilesystemMetadataFromFile` | 1 | Exported Function
 
 
 ## Signature

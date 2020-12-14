@@ -25,12 +25,12 @@ PE256 | `550EC68883B1F8467840E1E87D080AB2C962560C05535AD6CAD771E9E02303F3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`deleteSinkMapi32` | 1 | Exported Function
-`deleteSinkMapi64` | 2 | Exported Function
-`initSinkMapi32` | 3 | Exported Function
 `initSinkMapi64` | 4 | Exported Function
 `releaseSinkMapi32` | 5 | Exported Function
 `releaseSinkMapi64` | 6 | Exported Function
+`deleteSinkMapi32` | 1 | Exported Function
+`deleteSinkMapi64` | 2 | Exported Function
+`initSinkMapi32` | 3 | Exported Function
 
 
 ## Signature

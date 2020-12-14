@@ -26,17 +26,17 @@ PE256 | `CB98034562C64C561D5AF5285A3F7A48633365E1DFE6DEFE902F5F158ADF34AA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 5 | Exported Function
-`KerbCreateTokenFromTicketForKdc` | 6 | Exported Function
-`KerbDomainChangeCallback` | 2 | Exported Function
-`Kerberos` | 10 | Exported Function
-`KerbIsInitialized` | 7 | Exported Function
-`KerbKdcCallBack` | 8 | Exported Function
-`KerbMakeKdcCall` | 9 | Exported Function
 `SpInitialize` | 1 | Exported Function
+`KerbMakeKdcCall` | 9 | Exported Function
 `SpInstanceInit` | 32 | Exported Function
-`SpLsaModeInitialize` | 3 | Exported Function
 `SpUserModeInitialize` | 4 | Exported Function
+`SpLsaModeInitialize` | 3 | Exported Function
+`KerbKdcCallBack` | 8 | Exported Function
+`KerbCreateTokenFromTicketForKdc` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`KerbDomainChangeCallback` | 2 | Exported Function
+`KerbIsInitialized` | 7 | Exported Function
+`Kerberos` | 10 | Exported Function
 
 
 ## Signature
@@ -66,7 +66,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `kerberos.dll` being misused. While `kerberos.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `kerberos.dll` being misused. While `kerberos.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

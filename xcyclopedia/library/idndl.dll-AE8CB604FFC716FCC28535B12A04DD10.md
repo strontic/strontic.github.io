@@ -26,9 +26,9 @@ PE256 | `58910982D154185E8DD239B7E85B2FDDDE9E9FD2658AF74F93F6705E086297C7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DownlevelGetLocaleScripts` | 1 | Exported Function
-`DownlevelGetStringScripts` | 2 | Exported Function
 `DownlevelVerifyScripts` | 3 | Exported Function
+`DownlevelGetStringScripts` | 2 | Exported Function
+`DownlevelGetLocaleScripts` | 1 | Exported Function
 
 
 ## Signature

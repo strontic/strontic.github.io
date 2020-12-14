@@ -25,30 +25,30 @@ PE256 | `13EDE97D3C9B1D935AD5D18909E632E642B973B109384A9702614517FAB8E6F1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateCustomUnimicSource` | 1 | Exported Function
-`RunUnimicProcessor` | 22 | Exported Function
-`ReadUnimicSource` | 21 | Exported Function
-`GetUnimicSourceSampleRate` | 20 | Exported Function
-`GetUnimicSourceChannelCount` | 19 | Exported Function
-`GetUnimicSinkChannelCount` | 18 | Exported Function
-`GetUnimicProcessorOutputChannelCount` | 17 | Exported Function
 `GetUnimicProcessorInputChannelCount` | 16 | Exported Function
-`GetUnimicProcessorDelay` | 15 | Exported Function
-`GetUnimicFilterOutputPortCount` | 14 | Exported Function
+`GetUnimicProcessorOutputChannelCount` | 17 | Exported Function
+`GetUnimicSinkChannelCount` | 18 | Exported Function
 `GetUnimicFilterOutputPort` | 13 | Exported Function
-`GetUnimicFilterInputPortCount` | 12 | Exported Function
-`DeleteUnimicSource` | 11 | Exported Function
-`DeleteUnimicSink` | 10 | Exported Function
-`DeleteUnimicProcessor` | 9 | Exported Function
-`DeleteUnimicFilter` | 8 | Exported Function
-`CreateUnimicSourceFromWaveFile` | 7 | Exported Function
-`CreateUnimicSourceFromSplitChannelWaveFiles` | 6 | Exported Function
-`CreateUnimicSinkToWaveFile` | 5 | Exported Function
-`CreateUnimicSinkToSplitChannelWaveFiles` | 4 | Exported Function
-`CreateUnimicProcessor` | 3 | Exported Function
-`CreateUnimicFilter` | 2 | Exported Function
+`GetUnimicFilterOutputPortCount` | 14 | Exported Function
+`GetUnimicProcessorDelay` | 15 | Exported Function
+`RunUnimicProcessor` | 22 | Exported Function
 `SetUnimicFilterInputPort` | 23 | Exported Function
 `WriteUnimicSink` | 24 | Exported Function
+`GetUnimicSourceChannelCount` | 19 | Exported Function
+`GetUnimicSourceSampleRate` | 20 | Exported Function
+`ReadUnimicSource` | 21 | Exported Function
+`CreateUnimicSinkToSplitChannelWaveFiles` | 4 | Exported Function
+`CreateUnimicSinkToWaveFile` | 5 | Exported Function
+`CreateUnimicSourceFromSplitChannelWaveFiles` | 6 | Exported Function
+`CreateCustomUnimicSource` | 1 | Exported Function
+`CreateUnimicFilter` | 2 | Exported Function
+`CreateUnimicProcessor` | 3 | Exported Function
+`DeleteUnimicSink` | 10 | Exported Function
+`DeleteUnimicSource` | 11 | Exported Function
+`GetUnimicFilterInputPortCount` | 12 | Exported Function
+`CreateUnimicSourceFromWaveFile` | 7 | Exported Function
+`DeleteUnimicFilter` | 8 | Exported Function
+`DeleteUnimicProcessor` | 9 | Exported Function
 
 
 ## Signature

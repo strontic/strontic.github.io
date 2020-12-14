@@ -26,9 +26,9 @@ PE256 | `E1FE36D453C6BB31CF72B938D3F97B86D5F2F72427A981422A82444EF7C3F4E0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`std::function` | 1 | Exported Function
-`qt_plugin_instance` | 2 | Exported Function
 `qt_plugin_query_metadata` | 3 | Exported Function
+`qt_plugin_instance` | 2 | Exported Function
+`std::function` | 1 | Exported Function
 
 
 ## Signature

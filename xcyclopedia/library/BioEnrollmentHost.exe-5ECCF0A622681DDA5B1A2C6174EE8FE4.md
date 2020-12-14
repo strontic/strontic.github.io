@@ -24,22 +24,6 @@ PE256 | `5FA74FDCD1CF376AA14FBB2A50E3E284C64A9BEA55DE977919689F5FD6AB254A`
 
 ## Runtime Data
 
-### Child Processes:
-BioEnrollmentHost.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -47,7 +31,6 @@ Path |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |

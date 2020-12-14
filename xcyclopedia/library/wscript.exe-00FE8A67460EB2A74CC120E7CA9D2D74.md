@@ -47,7 +47,7 @@ SSDEEP | `3072:oD1Btsq5OuICaSsBjvH6HebirgYQwHyxe/WIbrycATxtY:oD1BKq5OuNCT8yxa0RT
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wscript.exe` being misused. While `wscript.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wscript.exe` being misused. While `wscript.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

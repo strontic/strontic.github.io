@@ -26,12 +26,12 @@ PE256 | `9A12F3D64C4116664565075D081FE8E0B45C2FB39C6ED6C399239011E0F5A103`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
 `GetAdPolicyAsXML` | 5 | Exported Function
 `GetWmiPolicyAsXML` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

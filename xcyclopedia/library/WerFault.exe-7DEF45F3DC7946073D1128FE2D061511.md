@@ -75,10 +75,15 @@ C:\Windows\system32\WerFault.exe |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/f69ff67fd26f7659d6d92c1a6d060d9bc6915e4fe048671c46bb42e57cc64518/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WerFault.exe](WerFault.exe-58A5ED5D96E2C671CFC69808E1F7B4FA.md) | 90
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WerFault.exe` being misused. While `WerFault.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WerFault.exe` being misused. While `WerFault.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

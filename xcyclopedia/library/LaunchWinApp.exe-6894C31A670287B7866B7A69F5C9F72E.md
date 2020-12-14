@@ -54,8 +54,8 @@ Path | Type
 \BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -90,7 +90,7 @@ C:\Windows\SysWOW64\LaunchWinApp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 1/76
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e25d5fc0b84c66c26feadd5c9aae34e5fd7e13914f1301d38b6e40aadb13117a/detection
 
 ## File Similarity (ssdeep match)

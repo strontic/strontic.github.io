@@ -26,15 +26,15 @@ PE256 | `56A05D9C710BEBFD59DD6D0A087C8A577512A95891D00E37F19C5543FABABE35`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CancelWUOperation` | 1 | Exported Function
-`IsWUAvailable` | 2 | Exported Function
-`OpenWUContext` | 3 | Exported Function
-`ReleaseWUContext` | 4 | Exported Function
-`RemoveWUDirectory` | 5 | Exported Function
-`WUDownloadUpdatedFiles` | 6 | Exported Function
 `WUExpandUpdateToPath` | 7 | Exported Function
-`WUFindMatchingDriver` | 8 | Exported Function
+`WUDownloadUpdatedFiles` | 6 | Exported Function
 `WUInstallBestUpdate` | 9 | Exported Function
+`WUFindMatchingDriver` | 8 | Exported Function
+`RemoveWUDirectory` | 5 | Exported Function
+`IsWUAvailable` | 2 | Exported Function
+`CancelWUOperation` | 1 | Exported Function
+`ReleaseWUContext` | 4 | Exported Function
+`OpenWUContext` | 3 | Exported Function
 
 
 ## Signature

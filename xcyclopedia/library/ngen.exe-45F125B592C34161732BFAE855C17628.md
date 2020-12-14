@@ -122,13 +122,13 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/c555cf03bcbc780f8a39cbf8b95254fd3798a703ba71b84af84ef33e36d0d761/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ngen.exe` being misused. While `ngen.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ngen.exe` being misused. While `ngen.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

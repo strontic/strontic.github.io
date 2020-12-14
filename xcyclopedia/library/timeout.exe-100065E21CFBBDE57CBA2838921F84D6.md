@@ -89,13 +89,13 @@ C:\Windows\system32\timeout.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/c8c350fab1130644536db6a84f605791367308b995079ad494d46a8c617c21d6/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `timeout.exe` being misused. While `timeout.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `timeout.exe` being misused. While `timeout.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

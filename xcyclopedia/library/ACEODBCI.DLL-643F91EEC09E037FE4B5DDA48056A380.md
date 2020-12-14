@@ -26,8 +26,8 @@ PE256 | `4491BA8CAE490382948BF6DD1E04146A6DA1EE8B1069F1FBA9EAF179392D4F2E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 500 | Exported Function
 `IntlLibHinst` | 1 | Exported Function
+`DllMain` | 500 | Exported Function
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `88201D1AB850E71ADCBFB788E0AD590EF1D9196F99D956D388FDB1F66CEB99C7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NlmGetBestCostNetworkConnection` | 1 | Exported Function
-`NlmGetCostedNetworkSettings` | 2 | Exported Function
-`NlmSetCostedNetworkSettings` | 3 | Exported Function
-`ServiceInitialized` | 4 | Exported Function
-`ServiceMain` | 5 | Exported Function
 `ServiceRequestInProcess` | 6 | Exported Function
-`VpnProfileMatchingNrpt` | 7 | Exported Function
+`ServiceMain` | 5 | Exported Function
 `VpnProfileNrptHasExemptions` | 8 | Exported Function
+`VpnProfileMatchingNrpt` | 7 | Exported Function
+`NlmGetCostedNetworkSettings` | 2 | Exported Function
+`NlmGetBestCostNetworkConnection` | 1 | Exported Function
+`ServiceInitialized` | 4 | Exported Function
+`NlmSetCostedNetworkSettings` | 3 | Exported Function
 
 
 ## Signature

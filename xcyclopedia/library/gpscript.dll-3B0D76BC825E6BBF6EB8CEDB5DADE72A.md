@@ -26,10 +26,10 @@ PE256 | `880C280B66B0C8255C6CA0F786C5628BCE9F72621635AA4B23593F4B28AC4DDF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GenerateScriptsGroupPolicy` | 1 | Exported Function
-`ProcessScriptsGroupPolicy` | 2 | Exported Function
 `ProcessScriptsGroupPolicyEx` | 3 | Exported Function
 `ScrRegGPOListToWbem` | 4 | Exported Function
+`GenerateScriptsGroupPolicy` | 1 | Exported Function
+`ProcessScriptsGroupPolicy` | 2 | Exported Function
 
 
 ## Signature
@@ -59,7 +59,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `gpscript.dll` being misused. While `gpscript.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `gpscript.dll` being misused. While `gpscript.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

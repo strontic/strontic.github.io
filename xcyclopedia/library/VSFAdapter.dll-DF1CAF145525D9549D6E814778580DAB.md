@@ -26,30 +26,30 @@ PE256 | `940CB36CD3CC4010C68B5A8559491FA7D8B441C36CE4B26DB28354BEF45E19BE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`HSAdapterInterface::IHSInterface` | 20 | Exported Function
-`SeComCall::ICall` | 11 | Exported Function
-`HSAdapterInterface::IHSInterface` | 12 | Exported Function
-`CVSFImpl::getInstance` | 24 | Exported Function
-`CVSFCallImpl::getCallID` | 23 | Exported Function
-`SFAdapterInterface::ISFInterface` | 18 | Exported Function
-`SeComCall::ICall` | 15 | Exported Function
 `ISFEventListener::operator` | 17 | Exported Function
-`HSAdapterInterface::IHSInterface` | 16 | Exported Function
-`CCommonUtilities::operator` | 14 | Exported Function
+`SeComCall::ICall` | 15 | Exported Function
+`SFAdapterInterface::ISFInterface` | 18 | Exported Function
 `ISFInterface::ISFInterface` | 9 | Exported Function
-`SFAdapterInterface::ISFInterface` | 8 | Exported Function
-`CVSFImpl::CVSFImpl` | 1 | Exported Function
-`ICall::ICall` | 3 | Exported Function
-`SeComCall::ICall` | 2 | Exported Function
-`ISFEventListener::ISFEventListener` | 7 | Exported Function
-`ISFEventListener::ISFEventListener` | 6 | Exported Function
-`IHSInterface::IHSInterface` | 5 | Exported Function
-`HSAdapterInterface::IHSInterface` | 4 | Exported Function
-`SFAdapterInterface::ISFInterface` | 22 | Exported Function
-`SeComCall::ICall` | 19 | Exported Function
-`const ISFEventListener::``vftable'` | 21 | Exported Function
+`CCommonUtilities::operator` | 14 | Exported Function
+`HSAdapterInterface::IHSInterface` | 16 | Exported Function
+`SeComCall::ICall` | 11 | Exported Function
 `SeComVSFAdapter::CVSFImpl` | 10 | Exported Function
 `SFAdapterInterface::ISFInterface` | 13 | Exported Function
+`CVSFCallImpl::getCallID` | 23 | Exported Function
+`CVSFImpl::getInstance` | 24 | Exported Function
+`HSAdapterInterface::IHSInterface` | 12 | Exported Function
+`SFAdapterInterface::ISFInterface` | 22 | Exported Function
+`HSAdapterInterface::IHSInterface` | 4 | Exported Function
+`IHSInterface::IHSInterface` | 5 | Exported Function
+`HSAdapterInterface::IHSInterface` | 20 | Exported Function
+`const ISFEventListener::``vftable'` | 21 | Exported Function
+`SeComCall::ICall` | 19 | Exported Function
+`ICall::ICall` | 3 | Exported Function
+`CVSFImpl::CVSFImpl` | 1 | Exported Function
+`SFAdapterInterface::ISFInterface` | 8 | Exported Function
+`ISFEventListener::ISFEventListener` | 6 | Exported Function
+`ISFEventListener::ISFEventListener` | 7 | Exported Function
+`SeComCall::ICall` | 2 | Exported Function
 
 
 ## Signature

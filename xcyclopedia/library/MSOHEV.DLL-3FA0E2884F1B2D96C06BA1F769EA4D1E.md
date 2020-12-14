@@ -26,33 +26,33 @@ PE256 | `02EC5BB0A229D4DCEFB7B9AD4A08F69145F40F4AC801B5881FF5965696E6B898`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`bool __cdecl IsSharedCentennialProtocolHandlerApp(void)` | 1 | Exported Function
-`WHeviAppFromProgId` | 26 | Exported Function
-`PwszHEVGetUrlIfInCache` | 24 | Exported Function
-`PHevCreateFileInfoWithCorrelationIdAndLOR` | 23 | Exported Function
-`PHevCreateFileInfoFromURL` | 22 | Exported Function
-`PHevCreateFileInfoFromHelpId` | 21 | Exported Function
-`PHevCreateFileInfoForAddons` | 20 | Exported Function
-`PHevCreateFileInfo` | 19 | Exported Function
 `HevFSetExtraData` | 18 | Exported Function
-`HevFQueryDefaultEditor` | 17 | Exported Function
-`HevFIsHTMLOrMHTML` | 16 | Exported Function
+`PHevCreateFileInfo` | 19 | Exported Function
+`PHevCreateFileInfoForAddons` | 20 | Exported Function
 `HevFGetProgIDFromFileEx` | 15 | Exported Function
+`HevFIsHTMLOrMHTML` | 16 | Exported Function
+`HevFQueryDefaultEditor` | 17 | Exported Function
+`PHevCreateFileInfoFromHelpId` | 21 | Exported Function
+`WHeviAppFromProgId` | 26 | Exported Function
 `WHevParseFile` | 25 | Exported Function
-`HevFGetProgIDFromFile` | 14 | Exported Function
-`HevFGetCreatorAppName` | 12 | Exported Function
-`HevFGetCreatorAppIcon` | 11 | Exported Function
-`HevFCheckNonMSApp` | 10 | Exported Function
-`HevDestroyFileInfo` | 9 | Exported Function
-`FHevUnregister` | 8 | Exported Function
-`FHevSetDefaultEditor` | 7 | Exported Function
-`FHevRegister` | 6 | Exported Function
-`FHevAddToFileInfo` | 5 | Exported Function
-`FHevActivateApp` | 4 | Exported Function
-`FGetCurrentProgIDFromApp` | 3 | Exported Function
-`bool __cdecl IsSideCarProtocolHandlerApp(void)` | 2 | Exported Function
-`HevFGetFileIcons` | 13 | Exported Function
 `WzRegistryProgIDFromDocProgID` | 27 | Exported Function
+`PHevCreateFileInfoFromURL` | 22 | Exported Function
+`PHevCreateFileInfoWithCorrelationIdAndLOR` | 23 | Exported Function
+`PwszHEVGetUrlIfInCache` | 24 | Exported Function
+`HevFGetProgIDFromFile` | 14 | Exported Function
+`FHevActivateApp` | 4 | Exported Function
+`FHevAddToFileInfo` | 5 | Exported Function
+`FHevRegister` | 6 | Exported Function
+`bool __cdecl IsSharedCentennialProtocolHandlerApp(void)` | 1 | Exported Function
+`bool __cdecl IsSideCarProtocolHandlerApp(void)` | 2 | Exported Function
+`FGetCurrentProgIDFromApp` | 3 | Exported Function
+`FHevSetDefaultEditor` | 7 | Exported Function
+`HevFGetCreatorAppIcon` | 11 | Exported Function
+`HevFGetCreatorAppName` | 12 | Exported Function
+`HevFGetFileIcons` | 13 | Exported Function
+`FHevUnregister` | 8 | Exported Function
+`HevDestroyFileInfo` | 9 | Exported Function
+`HevFCheckNonMSApp` | 10 | Exported Function
 
 
 ## Signature

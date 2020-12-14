@@ -26,21 +26,21 @@ PE256 | `9690BCEA225A05942E4E8834A9D5F42A222461D4BAFCCD8A0A7C520C4C6CAE59`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CompareLinkInfoReferents` | 1 | Exported Function
-`CompareLinkInfoVolumes` | 2 | Exported Function
-`CreateLinkInfo` | 3 | Exported Function
-`CreateLinkInfoA` | 4 | Exported Function
-`CreateLinkInfoW` | 5 | Exported Function
-`DestroyLinkInfo` | 6 | Exported Function
-`DisconnectLinkInfo` | 7 | Exported Function
-`GetCanonicalPathInfo` | 8 | Exported Function
-`GetCanonicalPathInfoA` | 9 | Exported Function
-`GetCanonicalPathInfoW` | 10 | Exported Function
 `GetLinkInfoData` | 11 | Exported Function
+`GetCanonicalPathInfoW` | 10 | Exported Function
+`GetCanonicalPathInfoA` | 9 | Exported Function
 `IsValidLinkInfo` | 12 | Exported Function
-`ResolveLinkInfo` | 13 | Exported Function
-`ResolveLinkInfoA` | 14 | Exported Function
 `ResolveLinkInfoW` | 15 | Exported Function
+`ResolveLinkInfoA` | 14 | Exported Function
+`ResolveLinkInfo` | 13 | Exported Function
+`GetCanonicalPathInfo` | 8 | Exported Function
+`CreateLinkInfo` | 3 | Exported Function
+`CompareLinkInfoVolumes` | 2 | Exported Function
+`CompareLinkInfoReferents` | 1 | Exported Function
+`CreateLinkInfoA` | 4 | Exported Function
+`DisconnectLinkInfo` | 7 | Exported Function
+`DestroyLinkInfo` | 6 | Exported Function
+`CreateLinkInfoW` | 5 | Exported Function
 
 
 ## Signature

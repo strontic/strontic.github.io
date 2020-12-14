@@ -24,6 +24,9 @@ PE256 | `08A2A5C8AFA7D19EE1275495357C5BE829E6DA3D5158CDAF6BD98D551BA779A9`
 
 ## Runtime Data
 
+### Child Processes:
+setup_wm.exe
+
 ### Loaded Modules:
 
 Path |
@@ -36,7 +39,6 @@ C:\Windows\system32\dxgi.dll |
 C:\Windows\system32\dxgiadaptercache.exe |
 C:\Windows\System32\gdi32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -70,7 +72,7 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/7ee345476d996e05e7d7519e0639abbc6d23011b5c38bfdcc63ad89d1352270a/detection
 
 ## File Similarity (ssdeep match)

@@ -26,11 +26,11 @@ PE256 | `16954328D90911C2A4CF6EB292A2A5ACABF457CDFCFF01A78110E831911C4BF8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_CDefFolderMenu_MergeMenu@16` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `DllRegisterServer` | 4 | Exported Function
 `DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`_CDefFolderMenu_MergeMenu@16` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

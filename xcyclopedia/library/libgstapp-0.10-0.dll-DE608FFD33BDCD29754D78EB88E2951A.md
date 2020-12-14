@@ -25,39 +25,39 @@ PE256 | `5D11DCF540B5E3E8804D827F2FFF04AB1883C86A377E97C58EB8C5B1DD55E3BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`gst_app_buffer_get_type` | 1 | Exported Function
-`gst_app_src_set_size` | 31 | Exported Function
-`gst_app_src_set_max_bytes` | 30 | Exported Function
-`gst_app_src_set_latency` | 29 | Exported Function
-`gst_app_src_set_emit_signals` | 28 | Exported Function
-`gst_app_src_set_caps` | 27 | Exported Function
-`gst_app_src_set_callbacks` | 26 | Exported Function
-`gst_app_src_push_buffer` | 25 | Exported Function
-`gst_app_src_get_type` | 24 | Exported Function
 `gst_app_src_get_stream_type` | 23 | Exported Function
 `gst_app_src_get_size` | 22 | Exported Function
-`gst_app_src_get_max_bytes` | 21 | Exported Function
-`gst_app_src_get_latency` | 20 | Exported Function
+`gst_app_src_push_buffer` | 25 | Exported Function
+`gst_app_src_get_type` | 24 | Exported Function
 `gst_app_src_get_emit_signals` | 19 | Exported Function
 `gst_app_src_get_caps` | 18 | Exported Function
+`gst_app_src_get_max_bytes` | 21 | Exported Function
+`gst_app_src_get_latency` | 20 | Exported Function
+`gst_app_src_set_size` | 31 | Exported Function
+`gst_app_src_set_max_bytes` | 30 | Exported Function
+`gst_app_stream_type_get_type` | 33 | Exported Function
 `gst_app_src_set_stream_type` | 32 | Exported Function
+`gst_app_src_set_caps` | 27 | Exported Function
+`gst_app_src_set_callbacks` | 26 | Exported Function
+`gst_app_src_set_latency` | 29 | Exported Function
+`gst_app_src_set_emit_signals` | 28 | Exported Function
 `gst_app_src_end_of_stream` | 17 | Exported Function
-`gst_app_sink_set_emit_signals` | 15 | Exported Function
-`gst_app_sink_set_drop` | 14 | Exported Function
-`gst_app_sink_set_caps` | 13 | Exported Function
-`gst_app_sink_set_callbacks` | 12 | Exported Function
-`gst_app_sink_pull_preroll` | 11 | Exported Function
-`gst_app_sink_pull_buffer_list` | 10 | Exported Function
-`gst_app_sink_pull_buffer` | 9 | Exported Function
-`gst_app_sink_is_eos` | 8 | Exported Function
-`gst_app_sink_get_type` | 7 | Exported Function
 `gst_app_sink_get_max_buffers` | 6 | Exported Function
 `gst_app_sink_get_emit_signals` | 5 | Exported Function
+`gst_app_sink_is_eos` | 8 | Exported Function
+`gst_app_sink_get_type` | 7 | Exported Function
+`gst_app_buffer_new` | 2 | Exported Function
+`gst_app_buffer_get_type` | 1 | Exported Function
 `gst_app_sink_get_drop` | 4 | Exported Function
 `gst_app_sink_get_caps` | 3 | Exported Function
-`gst_app_buffer_new` | 2 | Exported Function
+`gst_app_sink_set_drop` | 14 | Exported Function
+`gst_app_sink_set_caps` | 13 | Exported Function
 `gst_app_sink_set_max_buffers` | 16 | Exported Function
-`gst_app_stream_type_get_type` | 33 | Exported Function
+`gst_app_sink_set_emit_signals` | 15 | Exported Function
+`gst_app_sink_pull_buffer_list` | 10 | Exported Function
+`gst_app_sink_pull_buffer` | 9 | Exported Function
+`gst_app_sink_set_callbacks` | 12 | Exported Function
+`gst_app_sink_pull_preroll` | 11 | Exported Function
 
 
 ## Signature

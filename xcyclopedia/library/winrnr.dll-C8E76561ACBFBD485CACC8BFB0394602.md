@@ -26,9 +26,9 @@ PE256 | `7958C71A79F00FC7A9B4F8F5833587CB7D663A04E417F4999FD86B06E56E214C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallNTDSProvider` | 1 | Exported Function
-`NSPStartup` | 2 | Exported Function
 `RemoveNTDSProvider` | 3 | Exported Function
+`NSPStartup` | 2 | Exported Function
+`InstallNTDSProvider` | 1 | Exported Function
 
 
 ## Signature

@@ -184,9 +184,6 @@ REGINI: Missing parameter(s) for -h switch
 
 ```
 
-### Child Processes:
-RdpSa.exe
-
 ### Loaded Modules:
 
 Path |
@@ -232,7 +229,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `regini.exe` being misused. While `regini.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `regini.exe` being misused. While `regini.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

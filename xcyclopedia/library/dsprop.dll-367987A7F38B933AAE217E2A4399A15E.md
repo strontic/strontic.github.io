@@ -26,29 +26,29 @@ PE256 | `2D6ADA6C65D5BC0981F978B5CD6E066D2914D4D87163398B66C62CDFA95BCE5A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ADsPropCheckIfWritable` | 10 | Exported Function
-`PostADsPropSheet` | 23 | Exported Function
-`MsgBox` | 7 | Exported Function
-`IsSheetAlreadyUp` | 22 | Exported Function
-`FindSheet` | 6 | Exported Function
-`ErrMsgParam` | 5 | Exported Function
 `ErrMsg` | 4 | Exported Function
+`ErrMsgParam` | 5 | Exported Function
 `DSPROP_GetGCSearchOnDomain` | 3 | Exported Function
-`DllUnregisterServer` | 21 | Exported Function
 `DllRegisterServer` | 20 | Exported Function
+`DllUnregisterServer` | 21 | Exported Function
+`FindSheet` | 6 | Exported Function
 `ReportError` | 8 | Exported Function
-`DllGetClassObject` | 19 | Exported Function
-`CrackName` | 2 | Exported Function
-`CheckADsError` | 1 | Exported Function
-`BringSheetToForeground` | 17 | Exported Function
-`ADsPropShowErrorDialog` | 16 | Exported Function
-`ADsPropSetHwndWithTitle` | 15 | Exported Function
-`ADsPropSetHwnd` | 14 | Exported Function
-`ADsPropSendErrorMessage` | 13 | Exported Function
-`ADsPropGetInitInfo` | 12 | Exported Function
-`ADsPropCreateNotifyObj` | 11 | Exported Function
-`DllCanUnloadNow` | 18 | Exported Function
 `Smart_PADS_ATTR_INFO__Empty` | 9 | Exported Function
+`PostADsPropSheet` | 23 | Exported Function
+`IsSheetAlreadyUp` | 22 | Exported Function
+`MsgBox` | 7 | Exported Function
+`DllGetClassObject` | 19 | Exported Function
+`ADsPropSendErrorMessage` | 13 | Exported Function
+`ADsPropSetHwnd` | 14 | Exported Function
+`ADsPropGetInitInfo` | 12 | Exported Function
+`ADsPropCheckIfWritable` | 10 | Exported Function
+`ADsPropCreateNotifyObj` | 11 | Exported Function
+`ADsPropSetHwndWithTitle` | 15 | Exported Function
+`CrackName` | 2 | Exported Function
+`DllCanUnloadNow` | 18 | Exported Function
+`CheckADsError` | 1 | Exported Function
+`ADsPropShowErrorDialog` | 16 | Exported Function
+`BringSheetToForeground` | 17 | Exported Function
 
 
 ## Signature

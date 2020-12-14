@@ -26,18 +26,18 @@ PE256 | `8259E1A50CA56771C1B44DC1729AD8F6EB64378E3E1E26C62A54476EB6A1349B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CallbackInitOnline` | 4 | Exported Function
-`CallbackInitWin32` | 5 | Exported Function
-`CallbackInitWinPE` | 6 | Exported Function
-`CallbackRegisterAllTasks` | 7 | Exported Function
-`CallbackReportEstimates` | 8 | Exported Function
-`CallbackTerminate` | 9 | Exported Function
-`GetProgressObject` | 10 | Exported Function
-`ModuleInitialize` | 11 | Exported Function
 `OnlineProgress` | 1 | Exported Function
-`PutProgressEstimateOnBlackboard` | 12 | Exported Function
-`Win32Progress` | 2 | Exported Function
+`ModuleInitialize` | 11 | Exported Function
+`GetProgressObject` | 10 | Exported Function
 `WinPEProgress` | 3 | Exported Function
+`Win32Progress` | 2 | Exported Function
+`PutProgressEstimateOnBlackboard` | 12 | Exported Function
+`CallbackInitWinPE` | 6 | Exported Function
+`CallbackInitWin32` | 5 | Exported Function
+`CallbackInitOnline` | 4 | Exported Function
+`CallbackTerminate` | 9 | Exported Function
+`CallbackReportEstimates` | 8 | Exported Function
+`CallbackRegisterAllTasks` | 7 | Exported Function
 
 
 ## Signature

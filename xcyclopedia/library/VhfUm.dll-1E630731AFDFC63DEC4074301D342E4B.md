@@ -25,11 +25,11 @@ PE256 | `0D681A8EFAFB9D213A6420A2AAB6EA311E804506F894BAA4AD7B0956D3AC18BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VhfAsyncOperationComplete` | 1 | Exported Function
-`VhfCreate` | 2 | Exported Function
-`VhfDelete` | 3 | Exported Function
 `VhfReadReportSubmit` | 4 | Exported Function
 `VhfStart` | 5 | Exported Function
+`VhfDelete` | 3 | Exported Function
+`VhfAsyncOperationComplete` | 1 | Exported Function
+`VhfCreate` | 2 | Exported Function
 
 
 ## Signature

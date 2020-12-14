@@ -26,10 +26,10 @@ PE256 | `04772E555A9B168ECE0F0477E3413D52E57949C00D357B750D73344CF771B792`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClosePerformanceData` | 1 | Exported Function
-`CollectPerformanceData` | 2 | Exported Function
 `OpenPerformanceData` | 3 | Exported Function
 `TraceServiceStart` | 4 | Exported Function
+`ClosePerformanceData` | 1 | Exported Function
+`CollectPerformanceData` | 2 | Exported Function
 
 
 ## Signature

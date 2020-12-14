@@ -41,7 +41,7 @@ SSDEEP | `192:NgarxPEE5z0P6Yp40n80p/bieAkVa1ZNCDdUEAezmDqWilWj:NgOi24ypipueRk3Sd
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Locator.exe` being misused. While `Locator.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Locator.exe` being misused. While `Locator.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

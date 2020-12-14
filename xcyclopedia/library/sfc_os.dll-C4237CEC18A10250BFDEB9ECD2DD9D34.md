@@ -26,24 +26,24 @@ PE256 | `5CE2CAF77757F1DEF7D4640B0DD3151CD207C46007E00291CA03BCA2120AE25E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BeginFileMapEnumeration` | 1 | Exported Function
-`SfpVerifyFile` | 18 | Exported Function
-`SfpInstallCatalog` | 17 | Exported Function
-`SfpDeleteCatalog` | 16 | Exported Function
-`SfcTerminateWatcherThread` | 15 | Exported Function
 `SfcIsKeyProtected` | 14 | Exported Function
-`SfcIsFileProtected` | 13 | Exported Function
+`SfcTerminateWatcherThread` | 15 | Exported Function
 `SfcInstallProtectedFiles` | 12 | Exported Function
-`SfcInitProt` | 10 | Exported Function
-`SfcInitiateScan` | 11 | Exported Function
-`SfcGetNextProtectedFile` | 9 | Exported Function
-`SfcFileException` | 8 | Exported Function
-`SfcConnectToServer` | 7 | Exported Function
-`SfcClose` | 6 | Exported Function
-`GetNextFileMapContent` | 3 | Exported Function
-`CloseFileMapEnumeration` | 2 | Exported Function
+`SfcIsFileProtected` | 13 | Exported Function
+`SfpDeleteCatalog` | 16 | Exported Function
 `SRSetRestorePointA` | 4 | Exported Function
 `SRSetRestorePointW` | 5 | Exported Function
+`SfpInstallCatalog` | 17 | Exported Function
+`SfpVerifyFile` | 18 | Exported Function
+`GetNextFileMapContent` | 3 | Exported Function
+`SfcClose` | 6 | Exported Function
+`BeginFileMapEnumeration` | 1 | Exported Function
+`CloseFileMapEnumeration` | 2 | Exported Function
+`SfcConnectToServer` | 7 | Exported Function
+`SfcInitiateScan` | 11 | Exported Function
+`SfcInitProt` | 10 | Exported Function
+`SfcFileException` | 8 | Exported Function
+`SfcGetNextProtectedFile` | 9 | Exported Function
 
 
 ## Signature
@@ -73,7 +73,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sfc_os.dll` being misused. While `sfc_os.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sfc_os.dll` being misused. While `sfc_os.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

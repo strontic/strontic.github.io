@@ -26,19 +26,19 @@ PE256 | `4F509202C110324682D3E042F20DC990F876897E1CA857B25C06A7FECB42545C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`D3DFree` | 1 | Exported Function
-`D3DMalloc` | 2 | Exported Function
-`D3DRealloc` | 3 | Exported Function
-`Direct3D_HALCleanUp` | 8 | Exported Function
-`Direct3DCreate` | 7 | Exported Function
-`Direct3DCreateDevice` | 4 | Exported Function
-`Direct3DCreateTexture` | 5 | Exported Function
-`Direct3DGetSWRastZPixFmts` | 6 | Exported Function
-`FlushD3DDevices` | 10 | Exported Function
 `FlushD3DDevices2` | 9 | Exported Function
-`PaletteAssociateNotify` | 11 | Exported Function
-`PaletteUpdateNotify` | 12 | Exported Function
+`FlushD3DDevices` | 10 | Exported Function
+`Direct3DGetSWRastZPixFmts` | 6 | Exported Function
 `SurfaceFlipNotify` | 13 | Exported Function
+`PaletteUpdateNotify` | 12 | Exported Function
+`PaletteAssociateNotify` | 11 | Exported Function
+`Direct3DCreateTexture` | 5 | Exported Function
+`D3DRealloc` | 3 | Exported Function
+`D3DMalloc` | 2 | Exported Function
+`D3DFree` | 1 | Exported Function
+`Direct3DCreateDevice` | 4 | Exported Function
+`Direct3DCreate` | 7 | Exported Function
+`Direct3D_HALCleanUp` | 8 | Exported Function
 
 
 ## Signature

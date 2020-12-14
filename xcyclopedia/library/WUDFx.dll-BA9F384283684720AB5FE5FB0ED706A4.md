@@ -26,9 +26,9 @@ PE256 | `198D2477E245BF5622B6006A49F7113BE45C84CF35C5B4F6F9A0E1B0340DCC1F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `Microsoft_WDF_UMDF_Version` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

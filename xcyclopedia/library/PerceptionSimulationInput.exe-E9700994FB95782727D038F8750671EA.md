@@ -28,38 +28,13 @@ PE256 | `729B174A375F4176FA3CF7F6C868CBB1E5FFFBEF2A09403DECBA3F132D62A9BD`
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\SYSTEM32\credui.dll |
-C:\Windows\SYSTEM32\DEVOBJ.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\SYSTEM32\InputController.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLE32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.dll |
 C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe |
-C:\Windows\SYSTEM32\PerceptionSimulationManager.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\wincorlib.DLL |
-C:\Windows\SYSTEM32\XINPUT1_4.dll |
-C:\Windows\SYSTEM32\XINPUTUAP.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28\COMCTL32.dll |
 
 
 ## Signature

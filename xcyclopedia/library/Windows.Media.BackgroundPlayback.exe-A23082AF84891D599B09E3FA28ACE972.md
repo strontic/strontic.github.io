@@ -24,9 +24,6 @@ PE256 | `F389A2ACB99B26222C40BD94A4B7C3A9AE37E1D135539E53B0FF7260B768A686`
 
 ## Runtime Data
 
-### Child Processes:
-Windows.Media.BackgroundPlayback.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |

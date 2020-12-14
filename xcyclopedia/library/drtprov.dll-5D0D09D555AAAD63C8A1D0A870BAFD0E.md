@@ -26,15 +26,15 @@ PE256 | `3664DC90D4EB29435FA66B8CE76995EB843E6302CFAFE5ABE2A759E5B65335DB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrtCreateDerivedKey` | 1 | Exported Function
-`DrtCreateDerivedKeySecurityProvider` | 2 | Exported Function
-`DrtCreateDnsBootstrapResolver` | 3 | Exported Function
-`DrtCreateNullSecurityProvider` | 4 | Exported Function
-`DrtCreatePnrpBootstrapResolver` | 5 | Exported Function
-`DrtDeleteDerivedKeySecurityProvider` | 6 | Exported Function
 `DrtDeleteDnsBootstrapResolver` | 7 | Exported Function
-`DrtDeleteNullSecurityProvider` | 8 | Exported Function
+`DrtDeleteDerivedKeySecurityProvider` | 6 | Exported Function
 `DrtDeletePnrpBootstrapResolver` | 9 | Exported Function
+`DrtDeleteNullSecurityProvider` | 8 | Exported Function
+`DrtCreatePnrpBootstrapResolver` | 5 | Exported Function
+`DrtCreateDerivedKeySecurityProvider` | 2 | Exported Function
+`DrtCreateDerivedKey` | 1 | Exported Function
+`DrtCreateNullSecurityProvider` | 4 | Exported Function
+`DrtCreateDnsBootstrapResolver` | 3 | Exported Function
 
 
 ## Signature

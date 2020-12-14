@@ -45,7 +45,7 @@ SSDEEP | `384:mhRoZrPnE6SVmnNsk/xDwGsL9sjLrCqAQ/O8+HB4ATLhMFewgdULWtKKWxd1x4rO:m
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dialer.exe` being misused. While `dialer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dialer.exe` being misused. While `dialer.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

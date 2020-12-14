@@ -41,7 +41,7 @@ SSDEEP | `24576:L/VR7+Rc6iXfswQbKv9UFOty9ITCOVGzkAMXAZPDfVAgo8nn1oYU:L/V94iPswQb
 
 ## Possible Misuse
 
-*The following table contains possible examples of `spoolsv.exe` being misused. While `spoolsv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `spoolsv.exe` being misused. While `spoolsv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

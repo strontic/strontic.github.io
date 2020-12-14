@@ -26,10 +26,10 @@ PE256 | `8BAB652EAB72D1B9F6464726D65F19538C22C70FBC3E6016EBB782C998068F00`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AcsHlpNbConnection` | 1 | Exported Function
-`WSAttemptAutodialAddr` | 2 | Exported Function
 `WSAttemptAutodialName` | 3 | Exported Function
 `WSNoteSuccessfulHostentLookup` | 4 | Exported Function
+`AcsHlpNbConnection` | 1 | Exported Function
+`WSAttemptAutodialAddr` | 2 | Exported Function
 
 
 ## Signature
@@ -62,6 +62,14 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\rasadhlp.dll](rasadhlp.dll-11F630E1944A619DA04BF020D58106AB.md) | 35
 
+## Possible Misuse
+
+*The following table contains possible examples of `rasadhlp.dll` being misused. While `rasadhlp.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-crutch-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-crutch-event.json) | `"value": "%PROGRAMFILES%\\(x86)\\Mozilla Firefox\\rasadhlp.dll",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `++C:\Program Files (x86)\Mozilla Firefox\rasadhlp.dll++`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

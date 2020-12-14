@@ -26,49 +26,49 @@ PE256 | `FC6F307141ABB37247225AE5A60CA064EE1FD4BFFE7774385698E3C6669D3376`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ApplyTransform` | 105 | Exported Function
-`IParseXML::IParseXML` | 15 | Exported Function
-`ICX::operator` | 17 | Exported Function
-`IParseXML::operator` | 18 | Exported Function
-`IParseXML::operator` | 19 | Exported Function
-`public: virtual __thiscall ICX::~ICX(void)` | 16 | Exported Function
 `SetSmartTagUtilsC` | 106 | Exported Function
+`public: virtual __thiscall ICX::~ICX(void)` | 16 | Exported Function
 `SOA_AddStyle` | 20 | Exported Function
-`SOA_CchClipWrap` | 21 | Exported Function
-`IParseXML::IParseXML` | 14 | Exported Function
 `SOA_ChangeOutputFile` | 31 | Exported Function
-`SOA_ErrSetColumnWidths` | 25 | Exported Function
-`SOA_ErrSetCurCol` | 26 | Exported Function
-`SOA_ErrSetNextRowAttrs` | 27 | Exported Function
-`SOA_ErrWrite` | 28 | Exported Function
-`SOA_ErrWriteFtyp` | 29 | Exported Function
-`SOA_GetFilename` | 33 | Exported Function
-`SOA_IdBegin` | 23 | Exported Function
-`SOA_PrinterSetup` | 24 | Exported Function
+`SOA_CchClipWrap` | 21 | Exported Function
+`IParseXML::IParseXML` | 15 | Exported Function
+`IParseXML::IParseXML` | 14 | Exported Function
+`ICX::operator` | 17 | Exported Function
+`IParseXML::operator` | 19 | Exported Function
+`IParseXML::operator` | 18 | Exported Function
 `SOA_End` | 22 | Exported Function
-`SOA_SetDocInfo` | 32 | Exported Function
-`IParseXML::IParseXML` | 13 | Exported Function
-`ICX::ICX` | 11 | Exported Function
-`const ICX::``vftable'` | 35 | Exported Function
-`const IParseXML::``vftable'` | 36 | Exported Function
-`ExitParseXML` | 102 | Exported Function
-`FPropTablesOK` | 109 | Exported Function
-`FreeXMLFormatList` | 51 | Exported Function
-`GetXMLFormatList` | 50 | Exported Function
-`LpBiff8CxfmtNew` | 39 | Exported Function
-`LpBiffCxfmtNew` | 8 | Exported Function
-`ICX::ICX` | 12 | Exported Function
-`LpDhtmlCxfmtNew` | 37 | Exported Function
-`LpExcel12BiffCxfmtNew` | 108 | Exported Function
-`LpExcel12XmlCxfmtNew` | 107 | Exported Function
-`LpInitParseXML` | 101 | Exported Function
-`LpThtmlCxfmtNew` | 30 | Exported Function
-`LpThtxCxfmtNew` | 34 | Exported Function
-`LpTrtfCxfmtNew` | 9 | Exported Function
-`LpTtextCxfmtNew` | 10 | Exported Function
-`LpXmlCxfmtNew` | 40 | Exported Function
-`LpDpCxfmtNew` | 38 | Exported Function
+`SOA_IdBegin` | 23 | Exported Function
+`SOA_GetFilename` | 33 | Exported Function
+`SOA_PrinterSetup` | 24 | Exported Function
 `SOA_SetMailOutput` | 103 | Exported Function
+`SOA_SetDocInfo` | 32 | Exported Function
+`SOA_ErrSetCurCol` | 26 | Exported Function
+`SOA_ErrSetColumnWidths` | 25 | Exported Function
+`SOA_ErrSetNextRowAttrs` | 27 | Exported Function
+`SOA_ErrWriteFtyp` | 29 | Exported Function
+`SOA_ErrWrite` | 28 | Exported Function
+`IParseXML::IParseXML` | 13 | Exported Function
+`GetXMLFormatList` | 50 | Exported Function
+`FreeXMLFormatList` | 51 | Exported Function
+`LpBiff8CxfmtNew` | 39 | Exported Function
+`LpDhtmlCxfmtNew` | 37 | Exported Function
+`LpBiffCxfmtNew` | 8 | Exported Function
+`const ICX::``vftable'` | 35 | Exported Function
+`ApplyTransform` | 105 | Exported Function
+`const IParseXML::``vftable'` | 36 | Exported Function
+`FPropTablesOK` | 109 | Exported Function
+`ExitParseXML` | 102 | Exported Function
+`LpDpCxfmtNew` | 38 | Exported Function
+`LpTtextCxfmtNew` | 10 | Exported Function
+`LpTrtfCxfmtNew` | 9 | Exported Function
+`LpXmlCxfmtNew` | 40 | Exported Function
+`ICX::ICX` | 12 | Exported Function
+`ICX::ICX` | 11 | Exported Function
+`LpExcel12XmlCxfmtNew` | 107 | Exported Function
+`LpExcel12BiffCxfmtNew` | 108 | Exported Function
+`LpInitParseXML` | 101 | Exported Function
+`LpThtxCxfmtNew` | 34 | Exported Function
+`LpThtmlCxfmtNew` | 30 | Exported Function
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `7C4B6058FBA68674B9060B694649FAE75DEEA02CCA09C1041E4608272D62EA57`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseFileRestoreContext` | 1 | Exported Function
-`CreateFileRestoreContext` | 2 | Exported Function
-`DetectBootSector` | 3 | Exported Function
-`DetectEncryptedVolume` | 4 | Exported Function
-`DetectEncryptedVolumeEx` | 5 | Exported Function
 `RestoreFile` | 6 | Exported Function
-`ScanRestorableFiles` | 7 | Exported Function
+`DetectEncryptedVolumeEx` | 5 | Exported Function
 `SupplyDecryptionInfo` | 8 | Exported Function
+`ScanRestorableFiles` | 7 | Exported Function
+`CreateFileRestoreContext` | 2 | Exported Function
+`CloseFileRestoreContext` | 1 | Exported Function
+`DetectEncryptedVolume` | 4 | Exported Function
+`DetectBootSector` | 3 | Exported Function
 
 
 ## Signature
@@ -63,7 +63,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `fmapi.dll` being misused. While `fmapi.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `fmapi.dll` being misused. While `fmapi.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

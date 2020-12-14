@@ -41,7 +41,7 @@ SSDEEP | `384:3f9uU67jGzIG2Q5s84I8jQwdJBF4RDc+Ii95IQ5an9YWXrW:31uU6OI584IkBAhQT`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `nbtstat.exe` being misused. While `nbtstat.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `nbtstat.exe` being misused. While `nbtstat.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

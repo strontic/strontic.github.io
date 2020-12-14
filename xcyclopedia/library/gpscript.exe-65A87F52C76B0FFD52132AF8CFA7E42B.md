@@ -41,7 +41,7 @@ SSDEEP | `384:xQ8x0HsmAN1pl3UqpGXDvjKLXFPGUpOm5K7yt5WHSfTu0DDGRAx+Nmtv5rdQsqps:i
 
 ## Possible Misuse
 
-*The following table contains possible examples of `gpscript.exe` being misused. While `gpscript.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `gpscript.exe` being misused. While `gpscript.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

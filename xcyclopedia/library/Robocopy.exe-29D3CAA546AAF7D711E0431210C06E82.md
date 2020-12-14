@@ -31,7 +31,7 @@ PE256 | `A0E9E203654FDDEFCEBB248DEB0086973550A9C04807F348E2171DE9101BB451`
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, November 6, 2020 1:42:35 PM
+  Started : Saturday, December 12, 2020 10:09:02 PM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -258,7 +258,7 @@ C:\Windows\system32\Robocopy.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Robocopy.exe` being misused. While `Robocopy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Robocopy.exe` being misused. While `Robocopy.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

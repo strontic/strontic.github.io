@@ -26,12 +26,12 @@ PE256 | `4A125E43AB9300AAFC435CF65328D4893CBB2030A5FBDE885F7FED25B7D6C02F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreatePerceptionSimulationManager` | 1 | Exported Function
-`CreatePerceptionSimulationRecording` | 2 | Exported Function
-`GetControlMode` | 3 | Exported Function
 `GetIsUsingDriver` | 4 | Exported Function
 `LoadPerceptionSimulationRecording` | 5 | Exported Function
 `SetControlMode` | 6 | Exported Function
+`CreatePerceptionSimulationManager` | 1 | Exported Function
+`CreatePerceptionSimulationRecording` | 2 | Exported Function
+`GetControlMode` | 3 | Exported Function
 
 
 ## Signature

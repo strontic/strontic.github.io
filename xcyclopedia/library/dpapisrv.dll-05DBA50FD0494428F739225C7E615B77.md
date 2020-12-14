@@ -26,8 +26,8 @@ PE256 | `D4294B57129A5516C7F953685FA88E9EC104FF85B578DED71B90807E431DBF12`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InitializeLsaExtension` | 1 | Exported Function
 `QueryLsaInterface` | 2 | Exported Function
+`InitializeLsaExtension` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dpapisrv.dll` being misused. While `dpapisrv.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dpapisrv.dll` being misused. While `dpapisrv.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

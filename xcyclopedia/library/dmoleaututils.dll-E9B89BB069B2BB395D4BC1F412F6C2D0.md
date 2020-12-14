@@ -26,22 +26,22 @@ PE256 | `B6F33D5FBB14CC3A0D873E0E32AFC31B5856F0ECA4977A0E9A14BBC3A5765CD6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Base64StrToSafeArray` | 1 | Exported Function
-`ByteArrayToSafeArray` | 2 | Exported Function
-`MultiStringToSafeArray` | 3 | Exported Function
-`ReadBSTRFromStream` | 4 | Exported Function
-`ReadBSTRFromStreamEx` | 5 | Exported Function
-`ReadStringFromStream` | 6 | Exported Function
-`ReadVariantFromStream` | 7 | Exported Function
-`ReadVariantFromStreamEx` | 8 | Exported Function
-`SafeArrayToBase64Str` | 9 | Exported Function
-`SafeArrayToByteArray` | 10 | Exported Function
 `SafeArrayToMultiString` | 11 | Exported Function
 `WriteBSTRToStream` | 12 | Exported Function
-`WriteBSTRToStreamEx` | 13 | Exported Function
-`WriteStringToStream` | 14 | Exported Function
+`SafeArrayToBase64Str` | 9 | Exported Function
+`SafeArrayToByteArray` | 10 | Exported Function
 `WriteVariantToStream` | 15 | Exported Function
 `WriteVariantToStreamEx` | 16 | Exported Function
+`WriteBSTRToStreamEx` | 13 | Exported Function
+`WriteStringToStream` | 14 | Exported Function
+`MultiStringToSafeArray` | 3 | Exported Function
+`ReadBSTRFromStream` | 4 | Exported Function
+`Base64StrToSafeArray` | 1 | Exported Function
+`ByteArrayToSafeArray` | 2 | Exported Function
+`ReadVariantFromStream` | 7 | Exported Function
+`ReadVariantFromStreamEx` | 8 | Exported Function
+`ReadBSTRFromStreamEx` | 5 | Exported Function
+`ReadStringFromStream` | 6 | Exported Function
 
 
 ## Signature

@@ -43,6 +43,7 @@ SSDEEP | `12288:Ya08Hr0ycItJ3KEoz8XQ1C+1TEpt9MpkFoxrInyH5q7l:88HrPj3oymC4TGMGmxr
 File | Score
 -- | --
 [C:\Windows\system32\poqexec.exe](poqexec.exe-542B537B7547E4BB334D1D3DA7A9A17C.md) | 99
+[C:\Windows\system32\poqexec.exe](poqexec.exe-78AE381E38249513E5AA3A9976DD16BE.md) | 94
 [C:\Windows\system32\poqexec.exe](poqexec.exe-B9549AAE6F6FE8E4FD5B500515A11AA2.md) | 99
 
 

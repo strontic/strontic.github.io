@@ -26,22 +26,22 @@ PE256 | `FCC680B068C106C862E5FB4F8F72BB090A3031F5B6C8D9A4E298660E0541E660`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddERExcludedApplicationA` | 7 | Exported Function
-`AddERExcludedApplicationW` | 8 | Exported Function
-`BasepReportFault` | 3 | Exported Function
-`CancelHangReporting` | 9 | Exported Function
-`CheckForReadOnlyResourceFilter` | 4 | Exported Function
-`CheckPerUserCrossProcessThrottle` | 5 | Exported Function
-`DllCanUnloadNow` | 10 | Exported Function
-`DllGetClassObject` | 11 | Exported Function
-`ReportCoreHang` | 12 | Exported Function
-`ReportFault` | 13 | Exported Function
 `ReportHang` | 14 | Exported Function
 `UpdatePerUserLastCrossProcessCollectionTime` | 6 | Exported Function
-`WerpGetDebugger` | 16 | Exported Function
-`WerpInitiateCrashReporting` | 17 | Exported Function
+`ReportCoreHang` | 12 | Exported Function
+`ReportFault` | 13 | Exported Function
 `WerpLaunchAeDebug` | 18 | Exported Function
 `WerReportHang` | 15 | Exported Function
+`WerpGetDebugger` | 16 | Exported Function
+`WerpInitiateCrashReporting` | 17 | Exported Function
+`BasepReportFault` | 3 | Exported Function
+`CancelHangReporting` | 9 | Exported Function
+`AddERExcludedApplicationA` | 7 | Exported Function
+`AddERExcludedApplicationW` | 8 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`CheckForReadOnlyResourceFilter` | 4 | Exported Function
+`CheckPerUserCrossProcessThrottle` | 5 | Exported Function
 
 
 ## Signature
@@ -89,6 +89,7 @@ File | Score
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 41
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 44
 [C:\Windows\system32\wermgr.exe](wermgr.exe-CD042F94B63D67E012CFB4297D313248.md) | 40
+[C:\Windows\system32\wermgr.exe](wermgr.exe-DF2AD28AC6BEDF07422537CCA6F1E637.md) | 36
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 36
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E856524BF40EB2A050195C39989C8DD5.md) | 40
 [C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 38
@@ -109,6 +110,7 @@ File | Score
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-2B5F4FFF330CD1B3B921DAF77330C205.md) | 38
 [C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 38
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-4C68AD8928D6DE43040805B45118212C.md) | 35
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-B64826620DD8495C0191B536FA1B1D32.md) | 35
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-DEF33E6FF117395A2F1BF5A06D0988E1.md) | 36
 [C:\Windows\SysWOW64\werui.dll](werui.dll-953EB30D45E7FC1E524C4E868235A706.md) | 41
 

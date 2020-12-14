@@ -43,6 +43,9 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
 
 ```
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ### Loaded Modules:
 
 Path |
@@ -80,7 +83,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `makecab.exe` being misused. While `makecab.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `makecab.exe` being misused. While `makecab.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

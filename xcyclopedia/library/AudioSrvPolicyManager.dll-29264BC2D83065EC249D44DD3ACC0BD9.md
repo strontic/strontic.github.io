@@ -26,32 +26,32 @@ PE256 | `CE5584E117DFD221C48CA2857CF605B02B79E6E99FE9BC6F96962454D28B8DD2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ActivatePolicyManager` | 3 | Exported Function
-`TS_SessionChanged` | 2 | Exported Function
-`TS_RegisterAudioProtocolNotification` | 24 | Exported Function
-`TS_AudioProtocolNotifyRundown` | 23 | Exported Function
-`PbmUnregisterPlaybackManagerNotifications` | 22 | Exported Function
-`PbmUnregisterAppManagerNotification` | 21 | Exported Function
-`PbmUnregisterAppClosureNotification` | 20 | Exported Function
-`PbmSwitchSoftNonInteractiveAppsToHardNonInteractive` | 19 | Exported Function
 `PbmSetSmtcSubscriptionState` | 18 | Exported Function
-`PbmSetScreenReaderState` | 17 | Exported Function
-`PbmReportHostedAppStateChange` | 16 | Exported Function
+`PbmSwitchSoftNonInteractiveAppsToHardNonInteractive` | 19 | Exported Function
+`PbmUnregisterAppClosureNotification` | 20 | Exported Function
 `PbmReportApplicationState` | 15 | Exported Function
-`PbmReportAppInteractivityChange` | 14 | Exported Function
-`PbmReportAppClosing` | 13 | Exported Function
-`PbmRegisterPlaybackManagerNotifications` | 12 | Exported Function
-`PbmRegisterAppManagerNotification` | 11 | Exported Function
-`PbmRegisterAppClosureNotification` | 10 | Exported Function
-`PbmPlayToStreamStateChanged` | 9 | Exported Function
-`PbmLaunchBackgroundTask` | 8 | Exported Function
-`PbmIsPlaying` | 7 | Exported Function
-`PbmGetSoundLevel` | 6 | Exported Function
-`PbmCastingAppStateChanged` | 5 | Exported Function
-`PbmAllowMediaPlaybackForApp` | 4 | Exported Function
-`HHOSTEDAPPMANAGERCONTEXTRundown` | 1 | Exported Function
+`PbmReportHostedAppStateChange` | 16 | Exported Function
+`PbmSetScreenReaderState` | 17 | Exported Function
+`PbmUnregisterAppManagerNotification` | 21 | Exported Function
+`TS_SessionChanged` | 2 | Exported Function
 `TS_SessionGetAudioProtocol` | 25 | Exported Function
 `TS_UnregisterAudioProtocolNotification` | 26 | Exported Function
+`PbmUnregisterPlaybackManagerNotifications` | 22 | Exported Function
+`TS_AudioProtocolNotifyRundown` | 23 | Exported Function
+`TS_RegisterAudioProtocolNotification` | 24 | Exported Function
+`PbmCastingAppStateChanged` | 5 | Exported Function
+`PbmGetSoundLevel` | 6 | Exported Function
+`PbmIsPlaying` | 7 | Exported Function
+`ActivatePolicyManager` | 3 | Exported Function
+`HHOSTEDAPPMANAGERCONTEXTRundown` | 1 | Exported Function
+`PbmAllowMediaPlaybackForApp` | 4 | Exported Function
+`PbmLaunchBackgroundTask` | 8 | Exported Function
+`PbmRegisterPlaybackManagerNotifications` | 12 | Exported Function
+`PbmReportAppClosing` | 13 | Exported Function
+`PbmReportAppInteractivityChange` | 14 | Exported Function
+`PbmPlayToStreamStateChanged` | 9 | Exported Function
+`PbmRegisterAppClosureNotification` | 10 | Exported Function
+`PbmRegisterAppManagerNotification` | 11 | Exported Function
 
 
 ## Signature

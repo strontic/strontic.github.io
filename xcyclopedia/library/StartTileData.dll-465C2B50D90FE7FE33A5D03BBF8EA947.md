@@ -26,12 +26,12 @@ PE256 | `21AB783C4F3B70922C754F4BC44ECCEA401D8B5DD4577C2BED50CC68CBF5FFF1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `GetSetting` | 4 | Exported Function
 `HasMigratedTDLData` | 5 | Exported Function
 `TryMigrateTDLData` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

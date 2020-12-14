@@ -41,7 +41,7 @@ SSDEEP | `12288:CYaV6eJuJkSZKNs04xFFwlCdimJgm8fmaY7HqcRX7g/eTb:CYaVTIwNs0mFFwlCd
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wimserv.exe` being misused. While `wimserv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wimserv.exe` being misused. While `wimserv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

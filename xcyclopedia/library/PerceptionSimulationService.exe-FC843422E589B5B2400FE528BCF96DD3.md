@@ -69,7 +69,7 @@ C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/2fbd09d8c423876b4c47211fd878514db630dd38a0ee7292b608051ca2caf137/detection
 
 

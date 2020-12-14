@@ -92,6 +92,7 @@ C:\Windows\system32\Wldp.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-2A00EED654DD3A437922F96F7DF3AF92.md) | 83
 [C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-3BB01913A732B1628B4011724E752805.md) | 80
 
 

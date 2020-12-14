@@ -26,10 +26,10 @@ PE256 | `394312C996A5668F1314602D924B09F6BAEA67F1C037939C792CE48D60A149D9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllMain` | 3 | Exported Function
 `RegisterSecurityCenterBroker` | 4 | Exported Function
 `UnregisterSecurityCenterBroker` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

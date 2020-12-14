@@ -42,6 +42,7 @@ SSDEEP | `3072:o8TRN4WRNsoGlAi++KWwrZsQgWlUHQbPRyZ2pPTZ:BTRN4yNsoGlAi2tsFUU8AZ2`
 
 File | Score
 -- | --
+[C:\Windows\splwow64.exe](splwow64.exe-09EC082A13633BAEDE8FF155A0ACCF9E.md) | 72
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-93A8D365CB20A105CB97FF41451B85D5.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 86

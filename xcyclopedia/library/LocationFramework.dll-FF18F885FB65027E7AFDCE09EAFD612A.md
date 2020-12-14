@@ -26,20 +26,20 @@ PE256 | `6342DDD04E6A8ACA2E9CABF8A04A7B285C0068709ADBDB7E75A5440067F828C8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 11 | Exported Function
-`DllGetClassObject` | 12 | Exported Function
-`DllRegisterServer` | 13 | Exported Function
-`DllUnregisterServer` | 14 | Exported Function
-`LocationObjectManagerInstance` | 1 | Exported Function
-`LocationServiceHostShutdown` | 2 | Exported Function
-`LocationServiceHostStartup` | 3 | Exported Function
-`RegisterLocationCOMServer` | 4 | Exported Function
-`SvcLocationAddRef` | 5 | Exported Function
 `SvcLocationInitServerLock` | 6 | Exported Function
+`SvcLocationAddRef` | 5 | Exported Function
+`RegisterLocationCOMServer` | 4 | Exported Function
 `SvcLocationReleaseRef` | 7 | Exported Function
-`SvcOnConsoleSessionNotification` | 8 | Exported Function
-`SvcOnUserLogOnStateNotification` | 9 | Exported Function
 `UnregisterLocationCOMServer` | 10 | Exported Function
+`SvcOnUserLogOnStateNotification` | 9 | Exported Function
+`SvcOnConsoleSessionNotification` | 8 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`DllUnregisterServer` | 14 | Exported Function
+`LocationServiceHostStartup` | 3 | Exported Function
+`LocationServiceHostShutdown` | 2 | Exported Function
+`LocationObjectManagerInstance` | 1 | Exported Function
 
 
 ## Signature

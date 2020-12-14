@@ -26,14 +26,14 @@ PE256 | `2B680DD3CDABDB80BFEF7BEC23F375DD3907A8498C1FFA130E1C1E2211212598`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetTranscodeComponentCreator` | 1 | Exported Function
-`MFCreateSmartRemuxEngine` | 2 | Exported Function
-`MFCreateTranscodeEngine` | 3 | Exported Function
-`MFCreateTranscodeProfile` | 4 | Exported Function
-`MFCreateTranscodeSinkActivate` | 5 | Exported Function
 `MFCreateTranscodeTopology` | 6 | Exported Function
-`MFCreateTranscodeTopologyFromByteStream` | 7 | Exported Function
+`MFCreateTranscodeSinkActivate` | 5 | Exported Function
 `MFTranscodeGetAudioOutputAvailableTypes` | 8 | Exported Function
+`MFCreateTranscodeTopologyFromByteStream` | 7 | Exported Function
+`MFCreateSmartRemuxEngine` | 2 | Exported Function
+`GetTranscodeComponentCreator` | 1 | Exported Function
+`MFCreateTranscodeProfile` | 4 | Exported Function
+`MFCreateTranscodeEngine` | 3 | Exported Function
 
 
 ## Signature

@@ -71,10 +71,15 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/00ac7e58dfc2f6757c0c2268eb441e4e8fb317427840971a1049011cd2888a35/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\spoolsv.exe](spoolsv.exe-2709938B30A5689918CA7BA7F0F70F6D.md) | 79
 
 ## Possible Misuse
 
-*The following table contains possible examples of `spoolsv.exe` being misused. While `spoolsv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `spoolsv.exe` being misused. While `spoolsv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

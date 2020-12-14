@@ -26,15 +26,15 @@ PE256 | `26541382C95161D25875239AB1DB43313AFDF96126799271147623DD1E261723`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`FNRM_CleanupGarbageFiles` | 5 | Exported Function
-`FNRM_GetActiveFile` | 6 | Exported Function
 `FNRM_GetRegistrationLevel` | 7 | Exported Function
-`FNRM_SetActiveFile` | 8 | Exported Function
+`FNRM_GetActiveFile` | 6 | Exported Function
 `FNRM_UnregisterAllPerUserFilesExcept` | 9 | Exported Function
+`FNRM_SetActiveFile` | 8 | Exported Function
+`FNRM_CleanupGarbageFiles` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

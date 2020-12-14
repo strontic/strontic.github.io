@@ -25,18 +25,18 @@ PE256 | `00B0B0832DA0512855583BD3ADD84A5E31CE8C97CD1D3422230A8723060AD65C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BrotliDecoderCreateInstance` | 1 | Exported Function
-`BrotliDecoderDecompress` | 2 | Exported Function
-`BrotliDecoderDecompressStream` | 3 | Exported Function
-`BrotliDecoderDestroyInstance` | 4 | Exported Function
-`BrotliDecoderErrorString` | 5 | Exported Function
-`BrotliDecoderGetErrorCode` | 6 | Exported Function
-`BrotliDecoderHasMoreOutput` | 7 | Exported Function
-`BrotliDecoderIsFinished` | 8 | Exported Function
 `BrotliDecoderIsUsed` | 9 | Exported Function
-`BrotliDecoderSetParameter` | 10 | Exported Function
-`BrotliDecoderTakeOutput` | 11 | Exported Function
+`BrotliDecoderIsFinished` | 8 | Exported Function
+`BrotliDecoderHasMoreOutput` | 7 | Exported Function
 `BrotliDecoderVersion` | 12 | Exported Function
+`BrotliDecoderTakeOutput` | 11 | Exported Function
+`BrotliDecoderSetParameter` | 10 | Exported Function
+`BrotliDecoderDecompressStream` | 3 | Exported Function
+`BrotliDecoderDecompress` | 2 | Exported Function
+`BrotliDecoderCreateInstance` | 1 | Exported Function
+`BrotliDecoderGetErrorCode` | 6 | Exported Function
+`BrotliDecoderErrorString` | 5 | Exported Function
+`BrotliDecoderDestroyInstance` | 4 | Exported Function
 
 
 ## Signature

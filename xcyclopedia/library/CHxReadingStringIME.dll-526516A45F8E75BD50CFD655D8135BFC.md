@@ -26,8 +26,8 @@ PE256 | `C0680FC94613B748EC8E04DC7C67963AFF84D6D5AD3F4645F435F73A16391387`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetReadingString` | 1 | Exported Function
 `ShowReadingWindow` | 2 | Exported Function
+`GetReadingString` | 1 | Exported Function
 
 
 ## Signature

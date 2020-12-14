@@ -22,6 +22,21 @@ IMP | `92966D1E1404073AA1D43B25D8FD8907`
 PESHA1 | `EF19A06A6C9BDB6C56D72C4E24677E321A368221`
 PE256 | `F912B31497003A70AD059E47F8EC9C90E16293978781540A33E7BFA3060D6426`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\prproc.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

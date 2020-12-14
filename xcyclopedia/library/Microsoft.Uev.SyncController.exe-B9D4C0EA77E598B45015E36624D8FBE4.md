@@ -28,7 +28,6 @@ PE256 | `D6D3D9C65068198B89F8E3A992C1BF6460B3479F4365E15FD6389D44022A1CC0`
 
 Path |
 -- |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |

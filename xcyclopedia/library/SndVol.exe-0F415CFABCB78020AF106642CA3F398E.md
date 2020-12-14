@@ -45,7 +45,7 @@ SSDEEP | `6144:f619U07ugLIx0VRdvZaZLiCc++Hny10fF/:f+xigK05RaNoyAx`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SndVol.exe` being misused. While `SndVol.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SndVol.exe` being misused. While `SndVol.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,29 +26,29 @@ PE256 | `DB4B0E32B1CE05BF58E3027D21802EB6A98315EDC70F15A66811C3E5FE5788B8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`bool __cdecl WdagFileHasMarkOfTheContainer(wchar_t const * __ptr64)` | 3 | Exported Function
-`WdagRevokeNamedPipe` | 21 | Exported Function
-`WdagIsSupported` | 20 | Exported Function
-`WdagIsContainerRedirectionPolicyEnabled` | 19 | Exported Function
-`WdagIsContainerPersistencePolicyEnabled` | 18 | Exported Function
-`WdagIsContainerDownloadToHostPolicyEnabled` | 17 | Exported Function
 `WdagGetHvSocketGuid` | 16 | Exported Function
+`WdagIsContainerDownloadToHostPolicyEnabled` | 17 | Exported Function
 `WdagGetHvSocketCapability` | 15 | Exported Function
-`WdagFileHasMarkOfTheContainer` | 14 | Exported Function
 `WdagDestroyContainerProxy` | 13 | Exported Function
+`WdagFileHasMarkOfTheContainer` | 14 | Exported Function
+`WdagIsContainerPersistencePolicyEnabled` | 18 | Exported Function
 `WdagShareNamedPipe` | 22 | Exported Function
-`WdagCreateContainerProxy` | 12 | Exported Function
-`void __cdecl WdagSuppressHvsiSplashDialog(void)` | 11 | Exported Function
-`internals::Container` | 2 | Exported Function
-`internals::Channel` | 5 | Exported Function
-`internals::ErrorHandler` | 1 | Exported Function
-`bool __cdecl WdagRevokeNamedPipe(char const * __ptr64,wchar_t const * __ptr64)` | 10 | Exported Function
-`bool __cdecl WdagIsSupported(void)` | 9 | Exported Function
-`bool __cdecl WdagIsContainerRedirectionPolicyEnabled(void)` | 8 | Exported Function
-`bool __cdecl WdagIsContainerPersistencePolicyEnabled(void)` | 7 | Exported Function
-`bool __cdecl WdagIsContainerDownloadToHostPolicyEnabled(void)` | 6 | Exported Function
-`wchar_t const * __ptr64 __cdecl WdagGetHvSocketCapability(void)` | 4 | Exported Function
 `WdagSuppressHvsiSplashDialog` | 23 | Exported Function
+`WdagRevokeNamedPipe` | 21 | Exported Function
+`WdagIsContainerRedirectionPolicyEnabled` | 19 | Exported Function
+`WdagIsSupported` | 20 | Exported Function
+`WdagCreateContainerProxy` | 12 | Exported Function
+`bool __cdecl WdagIsContainerRedirectionPolicyEnabled(void)` | 8 | Exported Function
+`bool __cdecl WdagIsSupported(void)` | 9 | Exported Function
+`bool __cdecl WdagIsContainerPersistencePolicyEnabled(void)` | 7 | Exported Function
+`bool __cdecl WdagFileHasMarkOfTheContainer(wchar_t const * __ptr64)` | 3 | Exported Function
+`bool __cdecl WdagIsContainerDownloadToHostPolicyEnabled(void)` | 6 | Exported Function
+`bool __cdecl WdagRevokeNamedPipe(char const * __ptr64,wchar_t const * __ptr64)` | 10 | Exported Function
+`void __cdecl WdagSuppressHvsiSplashDialog(void)` | 11 | Exported Function
+`wchar_t const * __ptr64 __cdecl WdagGetHvSocketCapability(void)` | 4 | Exported Function
+`internals::Container` | 2 | Exported Function
+`internals::ErrorHandler` | 1 | Exported Function
+`internals::Channel` | 5 | Exported Function
 
 
 ## Signature

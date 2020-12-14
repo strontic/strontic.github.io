@@ -41,7 +41,7 @@ SSDEEP | `6144:TEYYPnn9IVyT/ankK2o5aPA0l5EQdlZD6cuY5l:TEYYPndinkK2HlflZup2l`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wevtutil.exe` being misused. While `wevtutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wevtutil.exe` being misused. While `wevtutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

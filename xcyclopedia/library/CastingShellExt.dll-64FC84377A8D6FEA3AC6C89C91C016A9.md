@@ -26,13 +26,13 @@ PE256 | `6D688C53FE30311311AC0703BA73065497CA499EAC64953A3A90BD29F20722EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateViewObjectForContentDirectoryFolder` | 1 | Exported Function
-`CreateViewObjectForMediaServerFolder` | 2 | Exported Function
-`DllMain` | 3 | Exported Function
-`GetContextMenuForContentDirectoryFolder` | 4 | Exported Function
 `GetContextMenuForMediaServerFolder` | 5 | Exported Function
 `GetExtractIconForContentDirectoryFolder` | 6 | Exported Function
 `GetExtractIconForMediaServerFolder` | 7 | Exported Function
+`GetContextMenuForContentDirectoryFolder` | 4 | Exported Function
+`CreateViewObjectForContentDirectoryFolder` | 1 | Exported Function
+`CreateViewObjectForMediaServerFolder` | 2 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

@@ -28,10 +28,7 @@ PE256 | `99553469147BD673369C942448B01D6A799B9EDD1FFAFCEE5015F38A25DBA998`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -63,7 +60,7 @@ C:\Windows\system32\wuapihost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/ba77d5ebacbad0939b9ee667c59bcb7143a432be91522f4397d458e62f03eedd/detection
 
 

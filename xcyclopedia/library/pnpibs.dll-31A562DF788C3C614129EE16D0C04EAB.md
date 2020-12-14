@@ -26,9 +26,9 @@ PE256 | `0D2E9F6DD70C6756A81527DD29A0B25AE8708DC49075A878E65047100CC15A6A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CallBack_Pnp_AddDriversOffline` | 1 | Exported Function
-`CallBack_Pnp_AddDriversOnlineWinPE` | 2 | Exported Function
 `Module_Init_Pnp` | 3 | Exported Function
+`CallBack_Pnp_AddDriversOnlineWinPE` | 2 | Exported Function
+`CallBack_Pnp_AddDriversOffline` | 1 | Exported Function
 
 
 ## Signature

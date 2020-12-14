@@ -26,20 +26,20 @@ PE256 | `E3F3893F644E0B4758E750CAF8C1539D541CD6B6C2E39047A42B654C67A825CC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_BinaryLogReader_GetNextInstance` | 11 | Exported Function
-`_BinaryLogReader_ValidateHeader` | 12 | Exported Function
-`MI_Main` | 1 | Exported Function
-`monitoring_platform_reactive_extensionsFT_V1` | 14 | Exported Function
-`monitoring_platformFT_V1` | 13 | Exported Function
-`MPUnitsTraps` | 2 | Exported Function
-`NITS_PRESENCE_STUB` | 3 | Exported Function
-`NITS_STUB` | 4 | Exported Function
-`SyncBmilReader_Create` | 5 | Exported Function
 `SyncBmilReader_Delete` | 6 | Exported Function
+`SyncBmilReader_Create` | 5 | Exported Function
+`NITS_STUB` | 4 | Exported Function
 `SyncBmilReader_ReadInstance` | 7 | Exported Function
-`SyncBmilWriter_Create` | 8 | Exported Function
-`SyncBmilWriter_Delete` | 9 | Exported Function
 `SyncBmilWriter_WriteInstance` | 10 | Exported Function
+`SyncBmilWriter_Delete` | 9 | Exported Function
+`SyncBmilWriter_Create` | 8 | Exported Function
+`MI_Main` | 1 | Exported Function
+`_BinaryLogReader_ValidateHeader` | 12 | Exported Function
+`_BinaryLogReader_GetNextInstance` | 11 | Exported Function
+`monitoring_platform_reactive_extensionsFT_V1` | 14 | Exported Function
+`NITS_PRESENCE_STUB` | 3 | Exported Function
+`MPUnitsTraps` | 2 | Exported Function
+`monitoring_platformFT_V1` | 13 | Exported Function
 
 
 ## Signature

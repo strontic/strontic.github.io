@@ -26,40 +26,40 @@ PE256 | `A0F42B1788E7CD709F1CDEF76173062D5D168889E685F5C20BC824ECD9DA2129`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateMAPITableWalker` | 63 | Exported Function
-`TranslateSPlusV1MessageClassToV2` | 62 | Exported Function
-`SetConversationId` | 83 | Exported Function
-`ReadMailVolumeNameEx` | 82 | Exported Function
-`MAPIUninitialize` | 80 | Exported Function
-`MAPILogonEx` | 79 | Exported Function
-`MAPIInitialize` | 78 | Exported Function
-`MAPIGetContext` | 77 | Exported Function
-`MAPIFreeBuffer` | 76 | Exported Function
-`MAPIDupString` | 75 | Exported Function
 `MAPIDeleteMessageById` | 74 | Exported Function
 `MAPIAllocateMore_dbg` | 53 | Exported Function
-`MAPIAllocateMore` | 73 | Exported Function
-`MAPIAllocateBuffer_dbg` | 52 | Exported Function
+`MAPIFreeBuffer` | 76 | Exported Function
+`MAPIDupString` | 75 | Exported Function
 `MAPIAllocateBuffer` | 72 | Exported Function
 `MAPI_GetStoreByName` | 81 | Exported Function
+`MAPIAllocateMore` | 73 | Exported Function
+`MAPIAllocateBuffer_dbg` | 52 | Exported Function
+`MAPIGetContext` | 77 | Exported Function
+`TranslateSPlusV1MessageClassToV2` | 62 | Exported Function
+`SetConversationId` | 83 | Exported Function
+`USOIDtoCEENTRYID` | 85 | Exported Function
+`USOIDfromCEENTRYID` | 84 | Exported Function
+`MAPILogonEx` | 79 | Exported Function
+`MAPIInitialize` | 78 | Exported Function
+`ReadMailVolumeNameEx` | 82 | Exported Function
+`MAPIUninitialize` | 80 | Exported Function
+`GetMAPIStorePropTags` | 54 | Exported Function
+`GetEntryIDType` | 67 | Exported Function
+`GetMsgClassEnumFromMsg` | 56 | Exported Function
+`GetMsgClassEnum` | 55 | Exported Function
+`CreateMAPITableWalkerEx` | 64 | Exported Function
+`CreateMAPITableWalker` | 63 | Exported Function
+`FreeProws` | 66 | Exported Function
+`FlushMailStore` | 65 | Exported Function
+`GetMsgStoreFromMessage` | 68 | Exported Function
+`IsMessageClassReadRequest` | 59 | Exported Function
+`IsMessageClassDeviceGenerated` | 58 | Exported Function
 `MAPI_CompareEntryIDs` | 61 | Exported Function
 `IsMessageClassSPlusV2` | 60 | Exported Function
-`CreateMAPITableWalkerEx` | 64 | Exported Function
-`FlushMailStore` | 65 | Exported Function
-`FreeProws` | 66 | Exported Function
-`GetEntryIDType` | 67 | Exported Function
-`GetMAPIStorePropTags` | 54 | Exported Function
-`GetMsgClassEnum` | 55 | Exported Function
-`USOIDfromCEENTRYID` | 84 | Exported Function
-`GetMsgClassEnumFromMsg` | 56 | Exported Function
-`GetNamedPropTag` | 69 | Exported Function
 `HrGetOneProp` | 70 | Exported Function
-`HrSetOneProp` | 71 | Exported Function
+`GetNamedPropTag` | 69 | Exported Function
 `InitializeServiceProps` | 57 | Exported Function
-`IsMessageClassDeviceGenerated` | 58 | Exported Function
-`IsMessageClassReadRequest` | 59 | Exported Function
-`GetMsgStoreFromMessage` | 68 | Exported Function
-`USOIDtoCEENTRYID` | 85 | Exported Function
+`HrSetOneProp` | 71 | Exported Function
 
 
 ## Signature

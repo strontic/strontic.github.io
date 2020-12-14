@@ -26,9 +26,9 @@ PE256 | `62EC154DD5EE3BEE5EF2C2ED5FB4D58FBA2A3701533B19418F671142233CC2C3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Ordinal2` | 2 | Exported Function
-`StartXpsPrintJob` | 3 | Exported Function
 `StartXpsPrintJob1` | 7 | Exported Function
+`StartXpsPrintJob` | 3 | Exported Function
+`Ordinal2` | 2 | Exported Function
 
 
 ## Signature

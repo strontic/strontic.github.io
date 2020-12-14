@@ -26,14 +26,14 @@ PE256 | `2B35A35D515391C16DCA1D49B295BE1A699016201B3B4F973A1026FC601EE648`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
-`GetDetailedAppInventoryReport` | 1 | Exported Function
 `GetFileSigningInfoTC` | 2 | Exported Function
-`RunUpdate` | 3 | Exported Function
+`GetDetailedAppInventoryReport` | 1 | Exported Function
 `RunUpdateTC` | 4 | Exported Function
+`RunUpdate` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

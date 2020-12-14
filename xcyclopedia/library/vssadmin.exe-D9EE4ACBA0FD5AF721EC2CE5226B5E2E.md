@@ -41,7 +41,7 @@ SSDEEP | `3072:Um47pah9kD4dYloFC+xT3J5wonkWNOYQNR6n:Um47p+9kD4djN3PwWkWNOXNR6`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vssadmin.exe` being misused. While `vssadmin.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vssadmin.exe` being misused. While `vssadmin.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

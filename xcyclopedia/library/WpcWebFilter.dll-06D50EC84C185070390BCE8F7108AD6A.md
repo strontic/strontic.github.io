@@ -26,12 +26,12 @@ PE256 | `28DD7E3E61AAEC730D0383EF8DBB046898CA2571D3775F94B2BA15A371C97029`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `WpcWebFilterCreate` | 4 | Exported Function
 `WpcWebFilterDestroy` | 5 | Exported Function
 `WpcWebFilterGet` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

@@ -25,13 +25,13 @@ PE256 | `54751CBDEFB95457139490CC735C812508152C20A59EABBD9A37767A4E591096`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`deflate` | 1 | Exported Function
-`deflateEnd` | 2 | Exported Function
-`deflateInit2_` | 3 | Exported Function
-`inflate` | 4 | Exported Function
 `inflateEnd` | 5 | Exported Function
 `inflateInit2_` | 6 | Exported Function
 `zlibCompileFlags` | 7 | Exported Function
+`inflate` | 4 | Exported Function
+`deflate` | 1 | Exported Function
+`deflateEnd` | 2 | Exported Function
+`deflateInit2_` | 3 | Exported Function
 
 
 ## Signature

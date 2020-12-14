@@ -26,13 +26,13 @@ PE256 | `6125291972FD3D5A5E82ABE588B99DABAA0621DBD9756A252EE5585FB61DAFB7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DLLEntryPoint` | 1 | Exported Function
-`RCVR_CountBlocks64@16` | 2 | Exported Function
-`RCVR_Deinitialize64@0` | 3 | Exported Function
-`RCVR_Initialize64@8` | 4 | Exported Function
 `RCVR_Repair64@12` | 5 | Exported Function
 `RCVR_Scan64@40` | 6 | Exported Function
 `RCVR_SetProgressCallbacks64@8` | 7 | Exported Function
+`RCVR_Initialize64@8` | 4 | Exported Function
+`DLLEntryPoint` | 1 | Exported Function
+`RCVR_CountBlocks64@16` | 2 | Exported Function
+`RCVR_Deinitialize64@0` | 3 | Exported Function
 
 
 ## Signature

@@ -26,15 +26,15 @@ PE256 | `7F165820924F19788F00E9544BEB0887AD0A2008597DC63CA343C228957A2AD7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllMain` | 5 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
-`GetProviderClassID` | 8 | Exported Function
 `MI_Main` | 9 | Exported Function
-`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 1 | Exported Function
+`GetProviderClassID` | 8 | Exported Function
 `CWSManCriticalSection::GetInitError` | 2 | Exported Function
+`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 1 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
 
 
 ## Signature

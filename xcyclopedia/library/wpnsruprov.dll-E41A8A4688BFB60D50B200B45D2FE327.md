@@ -26,10 +26,10 @@ PE256 | `03BF574958F26785D649486A7A00C296F10E265F6F2F3003A8A5092316EB108D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `SruInitializeProvider` | 3 | Exported Function
 `SruUninitializeProvider` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

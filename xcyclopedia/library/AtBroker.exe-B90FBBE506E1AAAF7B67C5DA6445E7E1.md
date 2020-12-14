@@ -41,7 +41,7 @@ SSDEEP | `768:ibR5YJ/+AZABBES89/MhlHAVVz/Jrh8oIUW4H+ug:l+AZABBE2kVVDJFJpHvg`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AtBroker.exe` being misused. While `AtBroker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AtBroker.exe` being misused. While `AtBroker.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

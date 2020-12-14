@@ -26,17 +26,17 @@ PE256 | `18A857FB6513A6422BAD06936573FC7865815681D0DC98A0E0F24CCAB6391F45`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ControlTraceW` | 1 | Exported Function
-`EnableTraceEx2` | 2 | Exported Function
-`EnumerateTraceGuidsEx` | 3 | Exported Function
-`EventAccessControl` | 4 | Exported Function
-`EventAccessQuery` | 5 | Exported Function
-`EventAccessRemove` | 6 | Exported Function
-`QueryAllTracesW` | 7 | Exported Function
 `StartTraceW` | 8 | Exported Function
+`QueryAllTracesW` | 7 | Exported Function
 `StopTraceW` | 9 | Exported Function
-`TraceQueryInformation` | 10 | Exported Function
 `TraceSetInformation` | 11 | Exported Function
+`TraceQueryInformation` | 10 | Exported Function
+`EventAccessRemove` | 6 | Exported Function
+`EnableTraceEx2` | 2 | Exported Function
+`ControlTraceW` | 1 | Exported Function
+`EnumerateTraceGuidsEx` | 3 | Exported Function
+`EventAccessQuery` | 5 | Exported Function
+`EventAccessControl` | 4 | Exported Function
 
 
 ## Signature

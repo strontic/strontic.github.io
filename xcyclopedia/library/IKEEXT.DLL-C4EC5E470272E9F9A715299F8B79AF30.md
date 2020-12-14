@@ -26,8 +26,8 @@ PE256 | `0396585B1B641CCCF5DA9F73BD9120BFE9C4229B19022492A4B8C79E05B8378A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IkeServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`IkeServiceMain` | 1 | Exported Function
 
 
 ## Signature
@@ -57,7 +57,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `IKEEXT.DLL` being misused. While `IKEEXT.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `IKEEXT.DLL` being misused. While `IKEEXT.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

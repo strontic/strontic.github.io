@@ -26,16 +26,16 @@ PE256 | `00C76EB7F66E385DBA4587837C14854C77AEF67E04B33C24AC658ED007DCA186`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateAudioReverb` | 2 | Exported Function
-`CreateAudioReverbV2_8` | 7 | Exported Function
-`CreateAudioVolumeMeter` | 3 | Exported Function
-`CreateFX` | 4 | Exported Function
-`X3DAudioCalculate` | 5 | Exported Function
-`X3DAudioInitialize` | 6 | Exported Function
 `XAudio2Create` | 1 | Exported Function
+`X3DAudioInitialize` | 6 | Exported Function
 `XAudio2CreateV2_9` | 8 | Exported Function
-`XAudio2CreateWithSharedContexts` | 10 | Exported Function
 `XAudio2CreateWithVersionInfo` | 9 | Exported Function
+`XAudio2CreateWithSharedContexts` | 10 | Exported Function
+`CreateAudioReverbV2_8` | 7 | Exported Function
+`CreateAudioReverb` | 2 | Exported Function
+`CreateAudioVolumeMeter` | 3 | Exported Function
+`X3DAudioCalculate` | 5 | Exported Function
+`CreateFX` | 4 | Exported Function
 
 
 ## Signature

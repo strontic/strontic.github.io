@@ -33,7 +33,6 @@ C:\Windows\System32\bcrypt.dll |
 C:\Windows\system32\Cabinet.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
-C:\Windows\system32\DPAPI.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -76,7 +75,7 @@ C:\Windows\System32\WINTRUST.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/e7e463b3f6c4eb898c1068b1d8baf23cea586115fb70846978cd513c017ecf64/detection
 
 

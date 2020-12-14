@@ -26,10 +26,10 @@ PE256 | `E3FEA7A522BAF4BBA7CCE683FC2D0279EB9451E84D64F4D6348DC8B86B950FF3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CoGetComCatalog` | 15 | Exported Function
-`GetRPCSSInfo` | 16 | Exported Function
 `ServiceMain` | 14 | Exported Function
 `WhichService` | 17 | Exported Function
+`CoGetComCatalog` | 15 | Exported Function
+`GetRPCSSInfo` | 16 | Exported Function
 
 
 ## Signature

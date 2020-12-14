@@ -26,12 +26,12 @@ PE256 | `497363AB8B95514693A338D2BCCC718DCCCDABA569AA944DB3BE2A99CB3010E0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`APIExportForDetours` | 1 | Exported Function
-`CurrentThreadIsVirtualized` | 4 | Exported Function
-`IsProcessHooked` | 6 | Exported Function
 `RequestUnhookedFunctionList` | 2 | Exported Function
 `VirtualizeCurrentProcess` | 5 | Exported Function
 `VirtualizeCurrentThread` | 3 | Exported Function
+`APIExportForDetours` | 1 | Exported Function
+`CurrentThreadIsVirtualized` | 4 | Exported Function
+`IsProcessHooked` | 6 | Exported Function
 
 
 ## Signature

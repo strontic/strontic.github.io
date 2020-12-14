@@ -26,13 +26,13 @@ PE256 | `09AD0DD9BF5B317B55B75F30D756427036EBBF9C44BFDA1092AE8151A277788B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_Aligned_get_default_resource` | 1 | Exported Function
-`_Aligned_new_delete_resource` | 2 | Exported Function
-`_Aligned_set_default_resource` | 3 | Exported Function
-`_Unaligned_get_default_resource` | 4 | Exported Function
 `_Unaligned_new_delete_resource` | 5 | Exported Function
 `_Unaligned_set_default_resource` | 6 | Exported Function
 `null_memory_resource` | 7 | Exported Function
+`_Unaligned_get_default_resource` | 4 | Exported Function
+`_Aligned_get_default_resource` | 1 | Exported Function
+`_Aligned_new_delete_resource` | 2 | Exported Function
+`_Aligned_set_default_resource` | 3 | Exported Function
 
 
 ## Signature

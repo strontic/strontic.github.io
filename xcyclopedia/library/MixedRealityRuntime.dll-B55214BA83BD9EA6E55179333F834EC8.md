@@ -26,12 +26,12 @@ PE256 | `5EBC876962BCBAA5ECC31B6B61C1D3D1FA2E9CC477A3E35F2C0664CBA0E1596A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `ServiceMain` | 4 | Exported Function
 `SvchostPushServiceGlobals` | 5 | Exported Function
 `xrNegotiateLoaderRuntimeInterface` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

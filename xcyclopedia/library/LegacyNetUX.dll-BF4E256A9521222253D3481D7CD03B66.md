@@ -26,9 +26,9 @@ PE256 | `ED1AE264984AF8389F015E0CFAB980ACCF95213797DE85C2F217D341827066CD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `RunIHVPages` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

@@ -47,7 +47,7 @@ SSDEEP | `12288:9cFLOV5UB7rv3FnAH2SayOoo7HOpaiUZmNJgLQgbRtUoAmyCQ28o:+ZOGvFAHROJ
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mstsc.exe` being misused. While `mstsc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mstsc.exe` being misused. While `mstsc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

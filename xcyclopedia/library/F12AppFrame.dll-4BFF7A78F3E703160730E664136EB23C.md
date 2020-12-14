@@ -26,16 +26,16 @@ PE256 | `BBCA1963EC1BD57EBA5F27F4AA5C2DB2207813F7FAFAE463F3C3FA3181D7D1C4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AttachTools` | 1 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DllInstall` | 7 | Exported Function
-`DllRegisterServer` | 8 | Exported Function
-`DllUnregisterServer` | 9 | Exported Function
 `EnableDebugMode` | 2 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
 `GetProxyDllInfo` | 10 | Exported Function
-`InjectTools` | 3 | Exported Function
 `ShowTools` | 4 | Exported Function
+`InjectTools` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`AttachTools` | 1 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllInstall` | 7 | Exported Function
 
 
 ## Signature

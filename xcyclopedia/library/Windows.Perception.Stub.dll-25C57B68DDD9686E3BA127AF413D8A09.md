@@ -26,11 +26,11 @@ PE256 | `930FB42B04862E6481494BD432A11F4D78D24D9A92ED2C89CB63602202D39595`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetActivationFactoryPerceptionStub` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `GetProxyDllInfo` | 5 | Exported Function
+`DllGetActivationFactoryPerceptionStub` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

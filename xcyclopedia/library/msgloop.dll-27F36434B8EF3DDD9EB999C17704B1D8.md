@@ -25,18 +25,18 @@ PE256 | `96932B53DF169438B1192D44A1B675409ED648E9831AB4F777CB6966B4F75CD2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`msgloop::msg_item` | 7 | Exported Function
-`create_thread_with_message_loop` | 1 | Exported Function
-`create_timer` | 2 | Exported Function
-`hook_message_loop` | 3 | Exported Function
-`kill_messages` | 4 | Exported Function
-`kill_timer` | 5 | Exported Function
-`message_sleep` | 6 | Exported Function
-`run_after` | 8 | Exported Function
 `run_message_loop` | 9 | Exported Function
-`run_on_thread` | 10 | Exported Function
-`stop_message_loop` | 11 | Exported Function
+`run_after` | 8 | Exported Function
+`message_sleep` | 6 | Exported Function
 `unhook_message_loop` | 12 | Exported Function
+`stop_message_loop` | 11 | Exported Function
+`run_on_thread` | 10 | Exported Function
+`create_timer` | 2 | Exported Function
+`create_thread_with_message_loop` | 1 | Exported Function
+`msgloop::msg_item` | 7 | Exported Function
+`kill_timer` | 5 | Exported Function
+`kill_messages` | 4 | Exported Function
+`hook_message_loop` | 3 | Exported Function
 
 
 ## Signature

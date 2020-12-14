@@ -26,27 +26,27 @@ PE256 | `A30AE7768EED6CF067522DAB4D057E3BC18B36AB3A659C96F2273DAB2ADA933B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`SLInstallPackage` | 19 | Exported Function
-`SLInitialize` | 18 | Exported Function
-`SLGetTokenActivationGrants` | 17 | Exported Function
-`SLGetTokenActivationCertificates` | 16 | Exported Function
 `SLGetServerStatus` | 15 | Exported Function
+`SLGetTokenActivationCertificates` | 16 | Exported Function
 `SLGetReferralInformation` | 14 | Exported Function
-`SLGetPackageToken` | 13 | Exported Function
 `SLGetPackageProperties` | 12 | Exported Function
+`SLGetPackageToken` | 13 | Exported Function
 `SLSignTokenActivationChallenge` | 20 | Exported Function
-`SLGetPackageProductKey` | 11 | Exported Function
-`SLGenerateTokenActivationChallenge` | 9 | Exported Function
-`SLFreeTokenActivationGrants` | 8 | Exported Function
-`SLFreeTokenActivationCertificates` | 7 | Exported Function
-`SLDepositTokenActivationResponse` | 6 | Exported Function
-`SLActivateProduct` | 5 | Exported Function
-`SLAcquireGenuineTicketForAppId` | 1 | Exported Function
-`SLAcquireGenuineTicket` | 4 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`SLGetGenuineInformationEx` | 10 | Exported Function
 `SLUninstallPackage` | 21 | Exported Function
+`SLInstallPackage` | 19 | Exported Function
+`SLGetTokenActivationGrants` | 17 | Exported Function
+`SLInitialize` | 18 | Exported Function
+`SLGetPackageProductKey` | 11 | Exported Function
+`SLAcquireGenuineTicketForAppId` | 1 | Exported Function
+`SLActivateProduct` | 5 | Exported Function
+`SLAcquireGenuineTicket` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`SLGenerateTokenActivationChallenge` | 9 | Exported Function
+`SLGetGenuineInformationEx` | 10 | Exported Function
+`SLFreeTokenActivationGrants` | 8 | Exported Function
+`SLDepositTokenActivationResponse` | 6 | Exported Function
+`SLFreeTokenActivationCertificates` | 7 | Exported Function
 
 
 ## Signature

@@ -26,11 +26,11 @@ PE256 | `00E0A05235AF71101610271E3406C03EF12992FF3EC615D53B1DB74D4FB0A97E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `GetDependencyLocatorStorage` | 4 | Exported Function
 `XamlTestHookFreeMapsResourceLibrary` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

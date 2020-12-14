@@ -26,9 +26,9 @@ PE256 | `7FD92CE7A257ECE987D9649A342FD2BF1B4190F89265007404489B427F7DC93B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseTapiPerformanceData` | 1 | Exported Function
-`CollectTapiPerformanceData` | 2 | Exported Function
 `OpenTapiPerformanceData` | 3 | Exported Function
+`CollectTapiPerformanceData` | 2 | Exported Function
+`CloseTapiPerformanceData` | 1 | Exported Function
 
 
 ## Signature

@@ -26,21 +26,21 @@ PE256 | `3E6ED5CC335CC86221A8D69D59C4F5AAC049EFC647BC4C6E046C74647432877C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CallbackProcessing_3216` | 5 | Exported Function
-`ConvertHr1632Thunk` | 14 | Exported Function
-`ConvertHr3216Thunk` | 15 | Exported Function
-`ConvertObjDescriptor` | 13 | Exported Function
-`CSm16ReleaseHandler_Release32` | 8 | Exported Function
-`IntOpInitialize` | 4 | Exported Function
-`IntOpUninitialize` | 16 | Exported Function
-`InvokeOn32` | 3 | Exported Function
-`IUnknownObj32` | 6 | Exported Function
-`RegisterOleWOWHandlers` | 19 | Exported Function
 `ThkAddAppCompatFlag` | 18 | Exported Function
+`RegisterOleWOWHandlers` | 19 | Exported Function
+`IUnknownObj32` | 6 | Exported Function
 `ThkMgrInitialize` | 9 | Exported Function
-`ThkMgrUninitialize` | 10 | Exported Function
-`TransformHRESULT_1632` | 11 | Exported Function
 `TransformHRESULT_3216` | 12 | Exported Function
+`TransformHRESULT_1632` | 11 | Exported Function
+`ThkMgrUninitialize` | 10 | Exported Function
+`InvokeOn32` | 3 | Exported Function
+`ConvertHr3216Thunk` | 15 | Exported Function
+`ConvertHr1632Thunk` | 14 | Exported Function
+`CallbackProcessing_3216` | 5 | Exported Function
+`ConvertObjDescriptor` | 13 | Exported Function
+`IntOpUninitialize` | 16 | Exported Function
+`IntOpInitialize` | 4 | Exported Function
+`CSm16ReleaseHandler_Release32` | 8 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `7533757D0F7F8CD400CE6739203B8A2C8ACF053DE85ACA6B921AD95A55103302`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ServiceTriggerEnumerateTransferredSockets` | 1 | Exported Function
-`ServiceTriggerRetrieveSocketContext` | 2 | Exported Function
 `ServiceTriggerRetrieveSockets` | 3 | Exported Function
 `ServiceTriggerTransferSocketOwnership` | 4 | Exported Function
+`ServiceTriggerEnumerateTransferredSockets` | 1 | Exported Function
+`ServiceTriggerRetrieveSocketContext` | 2 | Exported Function
 
 
 ## Signature

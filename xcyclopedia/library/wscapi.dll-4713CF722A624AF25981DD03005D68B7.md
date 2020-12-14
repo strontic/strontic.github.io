@@ -26,47 +26,47 @@ PE256 | `802DD3A2BCEA85F8266240468018972C35AF6F341D6E055039F912B86BB2283F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CLSID_WSCDefaultProduct` | 3 | Exported Function
-`wscLaunchAdminMakeDefaultUI` | 1 | Exported Function
-`wscLuaSettingsFix` | 29 | Exported Function
-`wscMakeDefaultProductRequest` | 30 | Exported Function
-`wscNotifyUserForNearExpiration` | 31 | Exported Function
-`wscOverrideComponentStatus` | 32 | Exported Function
 `wscPing` | 33 | Exported Function
+`wscOverrideComponentStatus` | 32 | Exported Function
 `wscProductInfoFree` | 34 | Exported Function
-`WscQueryAntiMalwareUri` | 13 | Exported Function
 `wscRegisterChangeNotification` | 35 | Exported Function
-`WscRegisterForChanges` | 14 | Exported Function
-`WscRegisterForUserNotifications` | 15 | Exported Function
-`wscRegisterSecurityProduct` | 36 | Exported Function
-`wscSetDefaultProduct` | 37 | Exported Function
-`wscShowAMSCN` | 2 | Exported Function
-`wscUnRegisterChangeNotification` | 38 | Exported Function
-`WscUnRegisterChanges` | 16 | Exported Function
-`wscUnregisterSecurityProduct` | 39 | Exported Function
+`WscQueryAntiMalwareUri` | 13 | Exported Function
+`wscLaunchAdminMakeDefaultUI` | 1 | Exported Function
 `wscIsDefenderAntivirusSupported` | 28 | Exported Function
+`wscLuaSettingsFix` | 29 | Exported Function
+`wscNotifyUserForNearExpiration` | 31 | Exported Function
+`wscMakeDefaultProductRequest` | 30 | Exported Function
+`WscUnRegisterChanges` | 16 | Exported Function
+`wscUnRegisterChangeNotification` | 38 | Exported Function
+`wscUnregisterSecurityProduct` | 39 | Exported Function
+`wscUpdateProductSubStatus` | 41 | Exported Function
 `wscUpdateProductStatus` | 40 | Exported Function
+`WscRegisterForUserNotifications` | 15 | Exported Function
+`WscRegisterForChanges` | 14 | Exported Function
+`wscRegisterSecurityProduct` | 36 | Exported Function
+`wscShowAMSCN` | 2 | Exported Function
+`wscSetDefaultProduct` | 37 | Exported Function
 `wscInitiateOfflineCleaning` | 27 | Exported Function
-`wscIcfEnable` | 25 | Exported Function
-`CLSID_WSCProductList` | 4 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`IID_IWSCDefaultProduct` | 7 | Exported Function
-`IID_IWscProduct` | 9 | Exported Function
 `IID_IWSCProductList` | 8 | Exported Function
+`IID_IWscProduct` | 9 | Exported Function
 `LIBID_wscAPILib` | 10 | Exported Function
-`wscAntiSpywareGetStatus` | 17 | Exported Function
 `wscAntiVirusExpiredBeyondThreshold` | 18 | Exported Function
-`wscAntiVirusGetStatus` | 19 | Exported Function
-`wscAutoUpdatesEnableScheduledMode` | 20 | Exported Function
-`wscAutoUpdatesGetStatus` | 21 | Exported Function
-`wscFirewallGetStatus` | 22 | Exported Function
-`wscGeneralSecurityGetStatus` | 23 | Exported Function
-`wscGetAlertStatus` | 24 | Exported Function
+`wscAntiSpywareGetStatus` | 17 | Exported Function
+`CLSID_WSCProductList` | 4 | Exported Function
+`CLSID_WSCDefaultProduct` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`IID_IWSCDefaultProduct` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 `WscGetAntiMalwareUri` | 11 | Exported Function
+`wscGetAlertStatus` | 24 | Exported Function
 `WscGetSecurityProviderHealth` | 12 | Exported Function
 `wscIeSettingsFix` | 26 | Exported Function
-`wscUpdateProductSubStatus` | 41 | Exported Function
+`wscIcfEnable` | 25 | Exported Function
+`wscAutoUpdatesEnableScheduledMode` | 20 | Exported Function
+`wscAntiVirusGetStatus` | 19 | Exported Function
+`wscAutoUpdatesGetStatus` | 21 | Exported Function
+`wscGeneralSecurityGetStatus` | 23 | Exported Function
+`wscFirewallGetStatus` | 22 | Exported Function
 
 
 ## Signature
@@ -96,7 +96,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wscapi.dll` being misused. While `wscapi.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wscapi.dll` being misused. While `wscapi.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

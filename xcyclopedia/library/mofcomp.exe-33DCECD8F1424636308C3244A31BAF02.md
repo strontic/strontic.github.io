@@ -95,7 +95,7 @@ C:\Windows\SysWOW64\wbem\mofcomp.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 1/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/ff02023bd6ac4e65644ffc1d300d45544b047cab7a96e33f63edaa16a24e067d/detection
 
 ## File Similarity (ssdeep match)

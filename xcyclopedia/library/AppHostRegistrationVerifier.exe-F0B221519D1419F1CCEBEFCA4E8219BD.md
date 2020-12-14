@@ -29,7 +29,6 @@ PE256 | `F712E0ABD329C1F39CA774986DFA9CE505D89FCCA18E3814760951DACD01AB0F`
 Path |
 -- |
 C:\Windows\system32\AppHostRegistrationVerifier.exe |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |

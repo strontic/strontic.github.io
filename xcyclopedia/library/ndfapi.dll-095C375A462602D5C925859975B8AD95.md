@@ -26,34 +26,34 @@ PE256 | `3A658B6ED6916D02D77F8E2E29915B92FE85B1AC821D94B437B00BB4CAF4C374`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 7 | Exported Function
-`NdfRunDllDuplicateIPDefendingSystem` | 4 | Exported Function
-`NdfRunDllDiagnoseWithAnswerFile` | 3 | Exported Function
-`NdfRunDllDiagnoseNetConnectionIncident` | 2 | Exported Function
-`NdfRunDllDiagnoseIncident` | 1 | Exported Function
-`NdfRepairIncidentEx` | 28 | Exported Function
-`NdfRepairIncident` | 27 | Exported Function
-`NdfGetTraceFile` | 26 | Exported Function
 `NdfExecuteDiagnosis` | 25 | Exported Function
+`NdfGetTraceFile` | 26 | Exported Function
+`NdfRepairIncident` | 27 | Exported Function
 `NdfDiagnoseIncident` | 24 | Exported Function
-`NdfCreateWinSockIncident` | 23 | Exported Function
-`NdfCreateWebIncidentEx` | 22 | Exported Function
 `NdfCreateWebIncident` | 21 | Exported Function
-`NdfCreateSharingIncident` | 20 | Exported Function
-`NdfCreatePnrpIncident` | 19 | Exported Function
-`NdfCreateNetConnectionIncident` | 18 | Exported Function
-`NdfCreateIncident` | 17 | Exported Function
-`NdfCreateInboundIncident` | 16 | Exported Function
-`NdfCreateGroupingIncident` | 15 | Exported Function
-`NdfCreateDNSIncident` | 14 | Exported Function
-`NdfCreateConnectivityIncident` | 13 | Exported Function
-`NdfCloseIncident` | 12 | Exported Function
-`NdfCancelIncident` | 11 | Exported Function
-`DllUnregisterServer` | 10 | Exported Function
-`DllRegisterServer` | 9 | Exported Function
-`DllGetClassObject` | 8 | Exported Function
+`NdfCreateWebIncidentEx` | 22 | Exported Function
+`NdfCreateWinSockIncident` | 23 | Exported Function
+`NdfRunDllDuplicateIPDefendingSystem` | 4 | Exported Function
 `NdfRunDllDuplicateIPOffendingSystem` | 5 | Exported Function
 `NdfRunDllHelpTopic` | 6 | Exported Function
+`NdfRunDllDiagnoseWithAnswerFile` | 3 | Exported Function
+`NdfRepairIncidentEx` | 28 | Exported Function
+`NdfRunDllDiagnoseIncident` | 1 | Exported Function
+`NdfRunDllDiagnoseNetConnectionIncident` | 2 | Exported Function
+`NdfCancelIncident` | 11 | Exported Function
+`NdfCloseIncident` | 12 | Exported Function
+`NdfCreateConnectivityIncident` | 13 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`NdfCreateNetConnectionIncident` | 18 | Exported Function
+`NdfCreatePnrpIncident` | 19 | Exported Function
+`NdfCreateSharingIncident` | 20 | Exported Function
+`NdfCreateIncident` | 17 | Exported Function
+`NdfCreateDNSIncident` | 14 | Exported Function
+`NdfCreateGroupingIncident` | 15 | Exported Function
+`NdfCreateInboundIncident` | 16 | Exported Function
 
 
 ## Signature

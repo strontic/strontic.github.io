@@ -41,7 +41,7 @@ SSDEEP | `12288:+cXbArul82LFb9UC8BDBbkWT/dRhozMoqLX/ocgbIZ:+R5cFbH8Nr7ThjjLX/ocg
 
 ## Possible Misuse
 
-*The following table contains possible examples of `services.exe` being misused. While `services.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `services.exe` being misused. While `services.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

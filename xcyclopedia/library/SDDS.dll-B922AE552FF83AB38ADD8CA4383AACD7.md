@@ -26,10 +26,10 @@ PE256 | `BD16929443C55023EFB6D66F70FB6166FEBE653A017ECD68E110B021EDA06819`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `SDDSCreateChxDictionary` | 3 | Exported Function
 `SDDSGetCharacterMappingObject` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

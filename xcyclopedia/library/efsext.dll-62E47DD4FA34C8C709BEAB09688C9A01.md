@@ -26,18 +26,18 @@ PE256 | `28ED80AAF6D58C21E6A5C1F10F5311C29C7A2461FAB3EBB415C06AD9D44285CB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EdpPlatform_QueryUserSessionState` | 1 | Exported Function
-`EdpPlatform_RegisterUserSessionNotification` | 2 | Exported Function
-`EdpPlatform_ShowDialog` | 3 | Exported Function
-`EdpPlatform_ShowUI` | 4 | Exported Function
-`EdpPlatform_UnregisterUserSessionNotification` | 5 | Exported Function
-`EfsPlatform_GetCallerID` | 6 | Exported Function
-`EfsPlatform_IsCallerAutomaticallyDelegated` | 7 | Exported Function
-`EfsPlatform_LaunchPromptUI` | 8 | Exported Function
 `EfsPlatform_SuspendNotificationsAndEncryptFile` | 9 | Exported Function
-`EfsPlatform_UnpackSecurePin` | 10 | Exported Function
-`FVE_LaunchConsentPromptUI` | 11 | Exported Function
+`EfsPlatform_LaunchPromptUI` | 8 | Exported Function
+`EfsPlatform_IsCallerAutomaticallyDelegated` | 7 | Exported Function
 `FVE_LaunchSDCardUI` | 12 | Exported Function
+`FVE_LaunchConsentPromptUI` | 11 | Exported Function
+`EfsPlatform_UnpackSecurePin` | 10 | Exported Function
+`EdpPlatform_ShowDialog` | 3 | Exported Function
+`EdpPlatform_RegisterUserSessionNotification` | 2 | Exported Function
+`EdpPlatform_QueryUserSessionState` | 1 | Exported Function
+`EfsPlatform_GetCallerID` | 6 | Exported Function
+`EdpPlatform_UnregisterUserSessionNotification` | 5 | Exported Function
+`EdpPlatform_ShowUI` | 4 | Exported Function
 
 
 ## Signature

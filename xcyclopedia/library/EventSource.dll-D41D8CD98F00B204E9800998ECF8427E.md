@@ -54,7 +54,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `EventSource.dll` being misused. While `EventSource.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `EventSource.dll` being misused. While `EventSource.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -67,6 +67,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [aws_iam_backdoor_users_keys.yml](https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_iam_backdoor_users_keys.yml) | `- eventSource: iam.amazonaws.com` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [aws_rds_change_master_password.yml](https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_rds_change_master_password.yml) | `- eventSource: rds.amazonaws.com` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [aws_rds_public_db_restore.yml](https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_rds_public_db_restore.yml) | `- eventSource: rds.amazonaws.com` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [aws_update_login_profile.yml](https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_update_login_profile.yml) | `- eventSource: iam.amazonaws.com` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [ecs-cloudtrail.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-cloudtrail.yml) | `eventSource: event.provider` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [stix.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/stix.yml) | `eventSource:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 

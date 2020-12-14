@@ -26,10 +26,10 @@ PE256 | `CE8120F9B7C3BC0D7DF5374614D3A16BB99A1F05ACC18C18F91D45D59DE0BCBD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
 `DllRegisterServer` | 6 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature
@@ -59,7 +59,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `UpdateDeploymentProvider.dll` being misused. While `UpdateDeploymentProvider.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `UpdateDeploymentProvider.dll` being misused. While `UpdateDeploymentProvider.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

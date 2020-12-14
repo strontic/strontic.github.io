@@ -41,7 +41,7 @@ SSDEEP | `1536:G94iupJRlYWC8f+G/UH+wp0FDYvftV6CTONh6qN/mAP2S/:GBQJRlYW/hszYYvfeC
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskhost.exe` being misused. While `taskhost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskhost.exe` being misused. While `taskhost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

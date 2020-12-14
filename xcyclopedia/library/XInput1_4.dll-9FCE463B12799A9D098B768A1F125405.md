@@ -26,14 +26,14 @@ PE256 | `642E95B5DE1FCFB1C7C3FE9052AF846FD7F19E79CBE65BFA0879C52B077CFD4A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`XInputEnable` | 5 | Exported Function
-`XInputGetAudioDeviceIds` | 10 | Exported Function
-`XInputGetBatteryInformation` | 7 | Exported Function
-`XInputGetCapabilities` | 4 | Exported Function
 `XInputGetKeystroke` | 8 | Exported Function
-`XInputGetState` | 2 | Exported Function
+`XInputGetCapabilities` | 4 | Exported Function
 `XInputSetState` | 3 | Exported Function
+`XInputGetState` | 2 | Exported Function
+`XInputEnable` | 5 | Exported Function
+`DllMain` | 1 | Exported Function
+`XInputGetBatteryInformation` | 7 | Exported Function
+`XInputGetAudioDeviceIds` | 10 | Exported Function
 
 
 ## Signature

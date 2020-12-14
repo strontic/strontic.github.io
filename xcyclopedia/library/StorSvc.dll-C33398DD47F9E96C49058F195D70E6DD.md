@@ -26,11 +26,11 @@ PE256 | `36FCE94B4C0EE168E38EEEDB91B085563862ED2D1C3D6AEE0DB2C212D7F3227C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetActivationFactory` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
 `ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 4 | Exported Function
 
 
 ## Signature
@@ -60,7 +60,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `StorSvc.dll` being misused. While `StorSvc.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `StorSvc.dll` being misused. While `StorSvc.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

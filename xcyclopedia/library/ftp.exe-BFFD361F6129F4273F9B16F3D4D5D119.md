@@ -41,7 +41,7 @@ SSDEEP | `768:X+lMWvnNSDzGeJ47xjBoziZTz2lo6nkPk/RrK3PBCW2ldFKJOdgExueP52eablE4:c
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ftp.exe` being misused. While `ftp.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ftp.exe` being misused. While `ftp.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

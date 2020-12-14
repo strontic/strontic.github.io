@@ -26,19 +26,19 @@ PE256 | `6CB5216CEE7869E868DFED640AFE98A4CA5C9FA7B4178A0B6C093B0585AD5469`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 10 | Exported Function
-`DllGetClassObject` | 11 | Exported Function
-`DllRegisterServer` | 12 | Exported Function
-`DllUnregisterServer` | 13 | Exported Function
-`GetAutoUpdatePolicy` | 1 | Exported Function
-`GetEnterprisePolicyName` | 2 | Exported Function
-`GetSkuUpdateManagementGroup` | 3 | Exported Function
-`GetUpdatePolicyName` | 4 | Exported Function
-`ReadPolicy` | 5 | Exported Function
 `ReadPolicyWithFallback` | 6 | Exported Function
-`ReleaseAutoUpdatePolicy` | 7 | Exported Function
-`ReleaseEnterprisePolicyValue` | 8 | Exported Function
+`ReadPolicy` | 5 | Exported Function
+`GetUpdatePolicyName` | 4 | Exported Function
 `ReleaseUpdatePolicyValue` | 9 | Exported Function
+`ReleaseEnterprisePolicyValue` | 8 | Exported Function
+`ReleaseAutoUpdatePolicy` | 7 | Exported Function
+`GetSkuUpdateManagementGroup` | 3 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`GetEnterprisePolicyName` | 2 | Exported Function
+`GetAutoUpdatePolicy` | 1 | Exported Function
+`DllUnregisterServer` | 13 | Exported Function
 
 
 ## Signature

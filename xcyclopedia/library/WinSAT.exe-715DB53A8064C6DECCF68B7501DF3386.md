@@ -186,8 +186,8 @@ C:\Windows\system32\WinSAT.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -204,7 +204,7 @@ C:\Windows\system32\WinSAT.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/cc31fdcdce05144ef750b01233d57614cda7364a73ca26ff68886ebdc650e367/detection
 
 ## File Similarity (ssdeep match)

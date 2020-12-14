@@ -26,19 +26,19 @@ PE256 | `E60CD85C8C31C16EE4FA26662A780A4923C0B652D5CC63682504017C403399AE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateComponentLibraryTS` | 2 | Exported Function
-`DllCanUnloadNow` | 9 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`DllRegisterServer` | 11 | Exported Function
-`DllUnregisterServer` | 12 | Exported Function
-`GetAppImport` | 13 | Exported Function
-`GetCatalogCRMClerk` | 3 | Exported Function
-`long __stdcall CancelWriteICR(struct IComponentRecords * *)` | 1 | Exported Function
-`long __stdcall GetReadICR(int,struct IComponentRecords * *)` | 4 | Exported Function
 `long __stdcall GetWriteICR(struct IComponentRecords * *)` | 5 | Exported Function
-`long __stdcall SaveWriteICR(struct IComponentRecords * *)` | 8 | Exported Function
-`OpenComponentLibraryTS` | 6 | Exported Function
+`long __stdcall GetReadICR(int,struct IComponentRecords * *)` | 4 | Exported Function
+`long __stdcall CancelWriteICR(struct IComponentRecords * *)` | 1 | Exported Function
 `void __stdcall ReleaseReadICR(struct IComponentRecords * *)` | 7 | Exported Function
+`OpenComponentLibraryTS` | 6 | Exported Function
+`long __stdcall SaveWriteICR(struct IComponentRecords * *)` | 8 | Exported Function
+`GetCatalogCRMClerk` | 3 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`CreateComponentLibraryTS` | 2 | Exported Function
+`GetAppImport` | 13 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
 
 
 ## Signature

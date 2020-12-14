@@ -41,7 +41,7 @@ SSDEEP | `6144:PbRIzRjVMXh7waxnU0X/wfwjA/dn4pDYGH5enhEPi:PbHxjX/QBN4RYGH0nhyi`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WMIC.exe` being misused. While `WMIC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WMIC.exe` being misused. While `WMIC.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

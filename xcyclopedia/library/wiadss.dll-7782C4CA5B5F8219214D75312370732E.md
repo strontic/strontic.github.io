@@ -26,13 +26,13 @@ PE256 | `52D5FA4FC418471638149A590442852ED1B37E8D4235193B2C59630C93F5C22F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseFindContext` | 3 | Exported Function
-`FindFirstImportDS` | 1 | Exported Function
-`FindImportDSByDeviceName` | 7 | Exported Function
-`FindNextImportDS` | 2 | Exported Function
 `GetLoaderStatus` | 6 | Exported Function
 `LoadImportDS` | 4 | Exported Function
 `UnloadImportDS` | 5 | Exported Function
+`FindNextImportDS` | 2 | Exported Function
+`CloseFindContext` | 3 | Exported Function
+`FindFirstImportDS` | 1 | Exported Function
+`FindImportDSByDeviceName` | 7 | Exported Function
 
 
 ## Signature

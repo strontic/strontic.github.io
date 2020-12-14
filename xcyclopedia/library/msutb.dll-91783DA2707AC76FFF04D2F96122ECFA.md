@@ -26,14 +26,14 @@ PE256 | `CD8146FCA8679B44F3B76E0F5850ADB1AF1A6D395F3319267E7460C7D1A12AC7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClosePopupTipbar` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
 `GetChildTipbar` | 6 | Exported Function
-`GetPopupTipbar` | 7 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
 `SetRegisterLangBand` | 8 | Exported Function
+`GetPopupTipbar` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`ClosePopupTipbar` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

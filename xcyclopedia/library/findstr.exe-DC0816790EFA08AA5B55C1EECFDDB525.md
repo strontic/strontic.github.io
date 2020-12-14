@@ -146,7 +146,7 @@ C:\Windows\System32\win32u.dll |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `findstr.exe` being misused. While `findstr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `findstr.exe` being misused. While `findstr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -168,7 +168,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1003.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.003/T1003.003.md) | reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ProductOptions  /v ProductType \| findstr LanmanNT  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1012.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1012/T1012.md) | reg query HKLM\system\currentcontrolset\services /s \| findstr ImagePath 2>nul \| findstr /Ri ".*\.sys$" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1018.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1018/T1018.md) | $localip = ((ipconfig \| findstr [0-9].\.)[0]).Split()[-1] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1033.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md) | for /F "tokens=1,2" %i in ('qwinsta /server:#{computer_name} ^\| findstr "Active Disc"') do @echo %i \| find /v "#" \| find /v "console" \|\| echo %j > usernames.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1033.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md) | for /F "tokens=1,2" %i in ('qwinsta /server:#{computer_name} ^\| findstr "Active Disc"') do @echo %i \| find /v "#" \| find /v "console" \|\| echo %j > computers.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1033.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md) | @FOR /F %n in (computers.txt) DO @FOR /F "tokens=1,2" %i in ('qwinsta /server:%n ^\| findstr "Active Disc"') do @echo %i \| find /v "#" \| find /v "console" \|\| echo %j > usernames.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1119.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1119/T1119.md) | dir c: /b /s .docx \| findstr /e .docx | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | if(!(vssadmin.exe list shadows \| findstr "No items found that satisfy the query.")) { exit 0 } else { exit 1 }  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -233,7 +233,7 @@ findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] 
 | /d:`<dirlist>` | Searches the specified list of directories. Each directory must be separated with a semicolon (;), for example `dir1;dir2;dir3`. |
 | /a:`<colorattribute>` | Specifies color attributes with two hexadecimal digits. Type `color /?` for additional information. |
 | `<strings>` | Specifies the text to search for in *filename*. Required. |
-| `[\<drive>:][<path>]<filename>[ ...]` | Specifies the location and file or files to search. At least one file name is required. |
+| `[\<drive>:][<path>]<filename>[...]` | Specifies the location and file or files to search. At least one file name is required. |
 | /? | Displays Help at the command prompt. |
 
 ##### Remarks
@@ -246,20 +246,20 @@ findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] 
 
   - A meta-character is a symbol with special meaning (an operator or delimiter) in the regular-expression syntax.
 
-    The accepted meta-characters, are:
+    The accepted meta-characters are:
 
     | Meta-character | Value |
     | -------------- | ----- |
-    | `.` | **Wildcard** - Any character |
-    | `*` | **Repeat** - Zero or more occurrences of the previous character or class. |
-    | `^` | **Beginning line position** - Beginning of the line. |
-    | `$` | **Ending line position** - End of the line. |
-    | `[class]` | **Character class** - Any one character in a set. |
-    | `[^class]` | **Inverse class** - Any one character not in a set. |
-    | `[x-y]` | **Range** - Any characters within the specified range. |
-    | `\x` | **Escape** - Literal use of a meta-character. |
-    | `<string` | **Beginning word position** - Beginning of the word. |
-    | `string>` | **Ending word position** - End of the word. |
+    | `.`            | **Wildcard** - Any character |
+    | `*`            | **Repeat** - Zero or more occurrences of the previous character or class. |
+    | `^`            | **Beginning line position** - Beginning of the line. |
+    | `$`            | **Ending line position** - End of the line. |
+    | `[class]`      | **Character class** - Any one character in a set. |
+    | `[^class]`     | **Inverse class** - Any one character not in a set. |
+    | `[x-y]`        | **Range** - Any characters within the specified range. |
+    | `\x`           | **Escape** - Literal use of a meta-character. |
+    | `\<string`     | **Beginning word position** - Beginning of the word. |
+    | `string\>`     | **Ending word position** - End of the word. |
 
     The special characters in regular expression syntax have the most power when you use them together. For example, use the combination of the wildcard character (`.`) and repeat (`*`) character to match any string of characters: `.*`
 
@@ -310,13 +310,13 @@ findstr /g:stringlist.txt /f:filelist.txt > results.out
 To list every file containing the word *computer* within the current directory and all subdirectories, regardless of case, type:
 
 ```
-findstr /s /i /m <computer> *.*
+findstr /s /i /m \<computer\> *.*
 ```
 
 To list every file containing the word computer and any other words that begin with comp, (such as compliment and compete), type:
 
 ```
-findstr /s /i /m <comp.* *.*
+findstr /s /i /m \<comp.* *.*
 ```
 
 ### Additional References

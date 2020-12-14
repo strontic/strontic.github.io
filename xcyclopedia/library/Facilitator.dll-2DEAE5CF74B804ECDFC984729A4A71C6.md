@@ -26,8 +26,8 @@ PE256 | `2695697997B7097833C14054DBA35EE9E37AA779992586DBA69E79B26AABEE76`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FC_CreateFCManager` | 1 | Exported Function
 `FC_CreateFCRegistrar` | 2 | Exported Function
+`FC_CreateFCManager` | 1 | Exported Function
 
 
 ## Signature

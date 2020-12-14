@@ -26,24 +26,24 @@ PE256 | `C542E0D5A96C1C84FC45C451A7D561EC482A7B09A5692C12EBB5CCF40575D7DF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Chkdsk` | 13 | Exported Function
-`public: virtual __cdecl UDF_SA::~UDF_SA(void) __ptr64` | 7 | Exported Function
-`public: virtual __cdecl UDF_LVOL::~UDF_LVOL(void) __ptr64` | 6 | Exported Function
-`public: virtual __cdecl METADATA_PARTITION::~METADATA_PARTITION(void) __ptr64` | 5 | Exported Function
-`UDF_SA::Initialize` | 10 | Exported Function
 `UDF_LVOL::ReadFromDisk` | 12 | Exported Function
-`UDF_LVOL::CreateOnDisk` | 9 | Exported Function
+`UDF_SA::Initialize` | 10 | Exported Function
 `UDF_VOL::Initialize` | 11 | Exported Function
-`UDF_VOL::UDF_VOL` | 4 | Exported Function
-`UDF_SA::UDF_SA` | 3 | Exported Function
-`UDF_LVOL::UDF_LVOL` | 2 | Exported Function
-`METADATA_PARTITION::METADATA_PARTITION` | 1 | Exported Function
-`GetFilesystemInformation` | 17 | Exported Function
-`FormatEx` | 16 | Exported Function
-`Format` | 15 | Exported Function
-`ChkdskEx` | 14 | Exported Function
+`UDF_LVOL::CreateOnDisk` | 9 | Exported Function
+`public: virtual __cdecl METADATA_PARTITION::~METADATA_PARTITION(void) __ptr64` | 5 | Exported Function
 `public: virtual __cdecl UDF_VOL::~UDF_VOL(void) __ptr64` | 8 | Exported Function
 `Recover` | 18 | Exported Function
+`public: virtual __cdecl UDF_LVOL::~UDF_LVOL(void) __ptr64` | 6 | Exported Function
+`public: virtual __cdecl UDF_SA::~UDF_SA(void) __ptr64` | 7 | Exported Function
+`Format` | 15 | Exported Function
+`FormatEx` | 16 | Exported Function
+`Chkdsk` | 13 | Exported Function
+`ChkdskEx` | 14 | Exported Function
+`GetFilesystemInformation` | 17 | Exported Function
+`UDF_SA::UDF_SA` | 3 | Exported Function
+`UDF_VOL::UDF_VOL` | 4 | Exported Function
+`METADATA_PARTITION::METADATA_PARTITION` | 1 | Exported Function
+`UDF_LVOL::UDF_LVOL` | 2 | Exported Function
 
 
 ## Signature

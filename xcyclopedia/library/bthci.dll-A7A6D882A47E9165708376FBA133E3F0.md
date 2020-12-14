@@ -26,8 +26,8 @@ PE256 | `E3C724D135E9931802C7AC93758400B42CD0910F49488FD0D23AAB955AE9BA06`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BluetoothClassInstaller` | 2 | Exported Function
 `BluetoothPropPageProvider` | 1 | Exported Function
+`BluetoothClassInstaller` | 2 | Exported Function
 
 
 ## Signature

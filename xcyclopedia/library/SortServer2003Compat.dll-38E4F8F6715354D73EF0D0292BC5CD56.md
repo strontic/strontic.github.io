@@ -26,8 +26,8 @@ PE256 | `6B2A713A3D64DE3B35AE7F5C3F1DF0430371BA675530ADD3616B312A86078B0C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SortCloseHandle` | 1 | Exported Function
 `SortGetHandle` | 2 | Exported Function
+`SortCloseHandle` | 1 | Exported Function
 
 
 ## Signature

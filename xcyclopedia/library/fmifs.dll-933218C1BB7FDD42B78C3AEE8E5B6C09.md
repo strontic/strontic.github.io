@@ -26,31 +26,31 @@ PE256 | `EF62FBAEE42477A6FA2087C6D7B07C119AA47B412C998FEE4E63777A16956856`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Chkdsk` | 2 | Exported Function
-`QueryLatestFileSystemVersion` | 23 | Exported Function
-`QueryIsDiskCheckScheduledForNextBoot` | 22 | Exported Function
-`QueryFileSystemName` | 21 | Exported Function
-`QueryDeviceInformationByHandle` | 20 | Exported Function
-`QueryDeviceInformation` | 19 | Exported Function
-`QueryCorruptionStateByHandle` | 18 | Exported Function
 `QueryCorruptionState` | 17 | Exported Function
-`QueryAvailableFileSystemFormat` | 16 | Exported Function
-`GetNextCorruptionInfo` | 15 | Exported Function
+`QueryCorruptionStateByHandle` | 18 | Exported Function
+`QueryDeviceInformation` | 19 | Exported Function
 `GetFirstCorruptionInfo` | 1 | Exported Function
+`GetNextCorruptionInfo` | 15 | Exported Function
+`QueryAvailableFileSystemFormat` | 16 | Exported Function
+`QueryLatestFileSystemVersion` | 23 | Exported Function
 `QuerySupportedMedia` | 24 | Exported Function
-`GetDefaultFileSystem` | 14 | Exported Function
-`FreeCorruptionInfo` | 12 | Exported Function
-`FormatEx2` | 11 | Exported Function
-`FormatEx` | 10 | Exported Function
-`Format` | 9 | Exported Function
-`Extend` | 8 | Exported Function
-`EnableVolumeIntegrity` | 7 | Exported Function
-`EnableVolumeCompression` | 6 | Exported Function
-`DiskCopy` | 5 | Exported Function
-`ComputeFmMediaType` | 4 | Exported Function
-`ChkdskEx` | 3 | Exported Function
-`GetCorruptionInfoClose` | 13 | Exported Function
 `SetLabel` | 25 | Exported Function
+`QueryDeviceInformationByHandle` | 20 | Exported Function
+`QueryFileSystemName` | 21 | Exported Function
+`QueryIsDiskCheckScheduledForNextBoot` | 22 | Exported Function
+`GetDefaultFileSystem` | 14 | Exported Function
+`DiskCopy` | 5 | Exported Function
+`EnableVolumeCompression` | 6 | Exported Function
+`EnableVolumeIntegrity` | 7 | Exported Function
+`Chkdsk` | 2 | Exported Function
+`ChkdskEx` | 3 | Exported Function
+`ComputeFmMediaType` | 4 | Exported Function
+`FormatEx2` | 11 | Exported Function
+`FreeCorruptionInfo` | 12 | Exported Function
+`GetCorruptionInfoClose` | 13 | Exported Function
+`Extend` | 8 | Exported Function
+`Format` | 9 | Exported Function
+`FormatEx` | 10 | Exported Function
 
 
 ## Signature

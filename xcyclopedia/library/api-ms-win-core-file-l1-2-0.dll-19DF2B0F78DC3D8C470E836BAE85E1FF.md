@@ -26,10 +26,10 @@ PE256 | `380976B4E39D4FD8B462DC0EC9F559A2046413776B23A35BF1D7B142CB610EBA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateFile2` | 1 | Exported Function
-`GetTempPathW` | 2 | Exported Function
 `GetVolumeNameForVolumeMountPointW` | 3 | Exported Function
 `GetVolumePathNamesForVolumeNameW` | 4 | Exported Function
+`CreateFile2` | 1 | Exported Function
+`GetTempPathW` | 2 | Exported Function
 
 
 ## Signature

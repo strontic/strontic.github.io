@@ -26,9 +26,9 @@ PE256 | `0EC83919B40A7EE0E8FF8425F37E6CBD25649243F77AA95801D7C95F1CC12D76`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CertPropServiceMain` | 1 | Exported Function
-`ScPolicyServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`ScPolicyServiceMain` | 2 | Exported Function
+`CertPropServiceMain` | 1 | Exported Function
 
 
 ## Signature

@@ -26,31 +26,31 @@ PE256 | `84B18F732BAA02A1155FB97854E67C557AE20249274EA0994E34804F094DF6B7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 14 | Exported Function
-`RegisterAppInstanceVersion` | 21 | Exported Function
-`RegisterAppInstance` | 20 | Exported Function
-`QueryAppInstanceVersion` | 19 | Exported Function
-`NPOpenEnum` | 33 | Exported Function
-`NPGetUser` | 16 | Exported Function
-`NPGetUniversalName` | 40 | Exported Function
 `NPGetResourceParent` | 41 | Exported Function
-`NPGetResourceInformation` | 52 | Exported Function
-`NPGetReconnectFlags` | 53 | Exported Function
+`NPGetUniversalName` | 40 | Exported Function
+`NPGetUser` | 16 | Exported Function
 `NPGetPersistentUseOptionsForConnection` | 56 | Exported Function
+`NPGetReconnectFlags` | 53 | Exported Function
+`NPGetResourceInformation` | 52 | Exported Function
+`RegisterAppInstanceVersion` | 21 | Exported Function
 `ResetAllAppInstanceVersions` | 22 | Exported Function
-`NPGetConnectionPerformance` | 49 | Exported Function
-`NPGetConnection` | 12 | Exported Function
-`NPGetCaps` | 13 | Exported Function
-`NPFormatNetworkName` | 36 | Exported Function
-`NPEnumResource` | 34 | Exported Function
-`NPCloseEnum` | 35 | Exported Function
-`NPCancelConnection` | 18 | Exported Function
-`NPAddConnection4` | 55 | Exported Function
-`NPAddConnection3` | 38 | Exported Function
-`NPAddConnection` | 17 | Exported Function
-`I_SystemFocusDialog` | 15 | Exported Function
-`NPGetConnection3` | 54 | Exported Function
 `SetAppInstanceCsvFlags` | 23 | Exported Function
+`NPOpenEnum` | 33 | Exported Function
+`QueryAppInstanceVersion` | 19 | Exported Function
+`RegisterAppInstance` | 20 | Exported Function
+`NPGetConnectionPerformance` | 49 | Exported Function
+`NPAddConnection3` | 38 | Exported Function
+`NPAddConnection4` | 55 | Exported Function
+`NPCancelConnection` | 18 | Exported Function
+`DllMain` | 14 | Exported Function
+`I_SystemFocusDialog` | 15 | Exported Function
+`NPAddConnection` | 17 | Exported Function
+`NPGetCaps` | 13 | Exported Function
+`NPGetConnection` | 12 | Exported Function
+`NPGetConnection3` | 54 | Exported Function
+`NPCloseEnum` | 35 | Exported Function
+`NPEnumResource` | 34 | Exported Function
+`NPFormatNetworkName` | 36 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `07F42100583CE244FD88B611F32150E0D28551D7787553E9AC1A73CA3A8CC7DC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

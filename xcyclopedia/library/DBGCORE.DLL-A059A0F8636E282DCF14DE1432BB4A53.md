@@ -26,8 +26,8 @@ PE256 | `E8EF9088D12B12C72A0214A8D279F0083016E85E507C81CBA95EFF87E9618447`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MiniDumpReadDumpStream` | 1 | Exported Function
 `MiniDumpWriteDump` | 2 | Exported Function
+`MiniDumpReadDumpStream` | 1 | Exported Function
 
 
 ## Signature
@@ -62,7 +62,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `DBGCORE.DLL` being misused. While `DBGCORE.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `DBGCORE.DLL` being misused. While `DBGCORE.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

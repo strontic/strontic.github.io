@@ -101,7 +101,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -159,7 +159,7 @@ Troubleshooting packs comprise a set of root causes, each of which describes a s
 
 - [Available troubleshooting packs](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs)
 
-- [TroubleshootingPack Powershell reference](/powershell/module/troubleshootingpack/?view=win10-ps)
+- [TroubleshootingPack Powershell reference](/powershell/module/troubleshootingpack/)
 
 ---
 

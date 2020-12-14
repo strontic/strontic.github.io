@@ -24,63 +24,18 @@ PE256 | `642C83D2A017868169A67D4E1ABE6EEAABFC1149E0D7CF46FAFC23DAAF13C65C`
 
 ## Runtime Data
 
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.XML.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | File
-(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll | File
-(R-D)   C:\Windows\System32\Microsoft.Uev.Common.dll | File
-(R-D)   C:\Windows\System32\Microsoft.Uev.ManagedEventLogging.dll | File
-(R-D)   C:\Windows\System32\Microsoft.Uev.ModernAppCore.dll | File
-(R-D)   C:\Windows\System32\Microsoft.Uev.ModernAppData.WinRT.dll | File
-(RW-)   C:\Users\user | File
-\...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_1144 | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
-
+### Child Processes:
+powershell.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
 C:\Windows\system32\UevAppMonitor.exe |
-C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature

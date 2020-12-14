@@ -45,7 +45,7 @@ SSDEEP | `12288:8GTc62pXTXZy7tjPghe8HPOgCzsUdLeANsDvH:TIt9Zyt7fLIU0GS`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `quickassist.exe` being misused. While `quickassist.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `quickassist.exe` being misused. While `quickassist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

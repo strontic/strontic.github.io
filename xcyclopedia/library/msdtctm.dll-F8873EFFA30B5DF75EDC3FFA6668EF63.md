@@ -26,16 +26,16 @@ PE256 | `F4F8C80A58CF8237F347FCA7797C27F836F8D3EC1C746DA2AD3E8DB36208453C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ASCDefer` | 7 | Exported Function
-`ASCDeliverDeferred` | 6 | Exported Function
-`ASCGetSafeReference` | 8 | Exported Function
-`ASCWrapClassFactory` | 10 | Exported Function
-`ASCWrapObject` | 5 | Exported Function
-`CreateInstance` | 9 | Exported Function
 `DllGetClassObject` | 11 | Exported Function
+`CreateInstance` | 9 | Exported Function
 `DtcMainExt` | 4 | Exported Function
-`GetTipFunctionalityWorking` | 12 | Exported Function
 `SetTipFunctionalityWorking` | 13 | Exported Function
+`GetTipFunctionalityWorking` | 12 | Exported Function
+`ASCDeliverDeferred` | 6 | Exported Function
+`ASCDefer` | 7 | Exported Function
+`ASCGetSafeReference` | 8 | Exported Function
+`ASCWrapObject` | 5 | Exported Function
+`ASCWrapClassFactory` | 10 | Exported Function
 
 
 ## Signature

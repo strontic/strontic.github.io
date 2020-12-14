@@ -26,23 +26,23 @@ PE256 | `F721CAB44CF84307784F847855343151DD0A04F9890B342D66DF25E7D1CF79B2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`JpStreetsidePanoramaOperation_Create` | 15 | Exported Function
-`JpStreetsideExperience_Create` | 14 | Exported Function
-`JpRestrictedApiAccessCheck` | 13 | Exported Function
 `JpOverviewMapControl_Create` | 12 | Exported Function
-`JpMapStyleSheetFactory_Create` | 11 | Exported Function
+`JpRestrictedApiAccessCheck` | 13 | Exported Function
 `JpMapOverlayModel_Create` | 10 | Exported Function
+`JpMapStyleSheetFactory_Create` | 11 | Exported Function
 `MapSettings_GetMosBingMapsKey` | 16 | Exported Function
-`JpMapModel3DFrom3MFStreamOperation_Create` | 9 | Exported Function
-`JpMapControlSettings_Create` | 6 | Exported Function
-`JpMapControl_Create` | 7 | Exported Function
-`JpIsUnifiedMapsStack` | 5 | Exported Function
-`JpIs3DSupported` | 4 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`JpMapFactory_Create` | 8 | Exported Function
 `MapSettings_ResetMosKeys` | 17 | Exported Function
+`JpStreetsideExperience_Create` | 14 | Exported Function
+`JpStreetsidePanoramaOperation_Create` | 15 | Exported Function
+`JpMapModel3DFrom3MFStreamOperation_Create` | 9 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`JpIs3DSupported` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`JpMapControlSettings_Create` | 6 | Exported Function
+`JpMapFactory_Create` | 8 | Exported Function
+`JpIsUnifiedMapsStack` | 5 | Exported Function
+`JpMapControl_Create` | 7 | Exported Function
 
 
 ## Signature

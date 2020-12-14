@@ -26,12 +26,12 @@ PE256 | `EF2DF81BEF51D3733F51C7129A37516CFB26E60BE12D2BF85657210C4323B769`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
 `DllUnregisterServer` | 6 | Exported Function
 `FaxModemCoClassInstaller` | 1 | Exported Function
 `SecureFaxServiceDirectories` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

@@ -26,14 +26,14 @@ PE256 | `F6C3C6EFC0780B403259BE8838A4E04B5200F74558BDBE7FA84504E916FC06F8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CompareStringEx` | 1 | Exported Function
-`CompareStringOrdinal` | 2 | Exported Function
-`CompareStringW` | 3 | Exported Function
-`FoldStringW` | 4 | Exported Function
-`GetStringTypeExW` | 5 | Exported Function
 `GetStringTypeW` | 6 | Exported Function
-`MultiByteToWideChar` | 7 | Exported Function
+`GetStringTypeExW` | 5 | Exported Function
 `WideCharToMultiByte` | 8 | Exported Function
+`MultiByteToWideChar` | 7 | Exported Function
+`CompareStringOrdinal` | 2 | Exported Function
+`CompareStringEx` | 1 | Exported Function
+`FoldStringW` | 4 | Exported Function
+`CompareStringW` | 3 | Exported Function
 
 
 ## Signature

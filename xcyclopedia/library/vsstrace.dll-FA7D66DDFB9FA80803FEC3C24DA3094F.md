@@ -26,21 +26,21 @@ PE256 | `F681315090A6FB0AEDC475BBF8286A75668288236398D9E1DF3A13FA098C9836`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AssertFail` | 13 | Exported Function
-`VssGetTracingContextPerThread` | 10 | Exported Function
-`VssGetTracingModuleInfo` | 12 | Exported Function
-`VssGetTracingSequenceNumber` | 11 | Exported Function
-`VssIsKernelDebuggerAttached` | 15 | Exported Function
-`VssIsTracingEnabled` | 5 | Exported Function
-`VssIsTracingEnabledOnFunction` | 8 | Exported Function
-`VssIsTracingEnabledOnModule` | 7 | Exported Function
-`VssIsTracingEnabledPerThread` | 6 | Exported Function
-`VssSetDebugReport` | 14 | Exported Function
 `VssSetTracingContextPerThread` | 9 | Exported Function
+`VssSetDebugReport` | 14 | Exported Function
+`VssIsTracingEnabledPerThread` | 6 | Exported Function
 `VssTraceBinary` | 4 | Exported Function
-`VssTraceInitialize` | 1 | Exported Function
-`VssTraceMessage` | 3 | Exported Function
 `VssTraceUninitialize` | 2 | Exported Function
+`VssTraceMessage` | 3 | Exported Function
+`VssTraceInitialize` | 1 | Exported Function
+`VssIsTracingEnabledOnModule` | 7 | Exported Function
+`VssGetTracingModuleInfo` | 12 | Exported Function
+`VssGetTracingContextPerThread` | 10 | Exported Function
+`AssertFail` | 13 | Exported Function
+`VssGetTracingSequenceNumber` | 11 | Exported Function
+`VssIsTracingEnabledOnFunction` | 8 | Exported Function
+`VssIsTracingEnabled` | 5 | Exported Function
+`VssIsKernelDebuggerAttached` | 15 | Exported Function
 
 
 ## Signature

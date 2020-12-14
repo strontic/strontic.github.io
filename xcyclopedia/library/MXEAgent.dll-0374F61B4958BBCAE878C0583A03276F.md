@@ -26,26 +26,26 @@ PE256 | `1653AA88DAF72E2D8AE0BCA50DCE483802B0B6B43B0C13A3D5BB18CD62FA95AD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Mig::CMXEAgent` | 9 | Exported Function
-`UnBCL::String` | 18 | Exported Function
-`UnBCL::String` | 17 | Exported Function
-`CMXEAgent::Done` | 16 | Exported Function
-`Mig::CMigUnit` | 14 | Exported Function
 `Mig::CMigUnit` | 12 | Exported Function
+`Mig::CMigUnit` | 14 | Exported Function
 `Mig::CMigUnit` | 11 | Exported Function
-`Mig::CUserContext` | 15 | Exported Function
 `Mig::CMXEAgent` | 4 | Exported Function
-`Mig::CMXEAgent` | 6 | Exported Function
-`Mig::CMXEAgent` | 5 | Exported Function
-`UnBCL::String` | 3 | Exported Function
-`Mig::CMXEAgent` | 2 | Exported Function
-`Mig::CMXEAgent` | 1 | Exported Function
-`UnBCL::String` | 13 | Exported Function
-`LoadAgent` | 20 | Exported Function
-`Mig::CMXEAgent` | 7 | Exported Function
-`Mig::CAgent` | 8 | Exported Function
+`Mig::CUserContext` | 15 | Exported Function
 `UnBCL::String` | 19 | Exported Function
 `Mig::CMXEAgent` | 10 | Exported Function
+`UnBCL::String` | 18 | Exported Function
+`CMXEAgent::Done` | 16 | Exported Function
+`UnBCL::String` | 17 | Exported Function
+`LoadAgent` | 20 | Exported Function
+`UnBCL::String` | 13 | Exported Function
+`Mig::CMXEAgent` | 7 | Exported Function
+`Mig::CMXEAgent` | 9 | Exported Function
+`Mig::CAgent` | 8 | Exported Function
+`Mig::CMXEAgent` | 5 | Exported Function
+`Mig::CMXEAgent` | 6 | Exported Function
+`UnBCL::String` | 3 | Exported Function
+`Mig::CMXEAgent` | 1 | Exported Function
+`Mig::CMXEAgent` | 2 | Exported Function
 
 
 ## Signature

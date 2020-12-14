@@ -26,14 +26,14 @@ PE256 | `0810ED8BF8270849FAE47CA139859867F7C82E41682ECC1CD8885F99030775BF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateSecurityPage` | 1 | Exported Function
-`EditConditionalAceClaims` | 5 | Exported Function
-`EditResourceCondition` | 4 | Exported Function
-`EditSecurity` | 2 | Exported Function
-`EditSecurityAdvanced` | 3 | Exported Function
 `GetLocalizedStringForCondition` | 6 | Exported Function
-`GetTlsIndexForClaimDictionary` | 7 | Exported Function
+`EditSecurityAdvanced` | 3 | Exported Function
 `IID_ISecurityInformation` | 16 | Exported Function
+`GetTlsIndexForClaimDictionary` | 7 | Exported Function
+`EditConditionalAceClaims` | 5 | Exported Function
+`CreateSecurityPage` | 1 | Exported Function
+`EditSecurity` | 2 | Exported Function
+`EditResourceCondition` | 4 | Exported Function
 
 
 ## Signature
@@ -63,7 +63,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `aclui.dll` being misused. While `aclui.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `aclui.dll` being misused. While `aclui.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

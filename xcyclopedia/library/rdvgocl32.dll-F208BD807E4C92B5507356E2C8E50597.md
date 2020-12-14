@@ -26,9 +26,9 @@ PE256 | `8DFD23D4526BFA657E14D2BD41091EE7BF04693218CB2A2618DF964F4D304AE1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`clGetExtensionFunctionAddress` | 2 | Exported Function
-`clIcdGetPlatformIDsKHR` | 3 | Exported Function
 `DllMain` | 1 | Exported Function
+`clIcdGetPlatformIDsKHR` | 3 | Exported Function
+`clGetExtensionFunctionAddress` | 2 | Exported Function
 
 
 ## Signature

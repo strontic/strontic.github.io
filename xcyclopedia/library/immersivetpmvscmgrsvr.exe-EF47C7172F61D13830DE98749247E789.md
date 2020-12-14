@@ -49,7 +49,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\system32\DEVOBJ.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\system32\immersivetpmvscmgrsvr.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |

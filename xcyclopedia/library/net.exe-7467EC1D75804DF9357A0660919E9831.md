@@ -41,7 +41,7 @@ SSDEEP | `1536:uax0v4bGRMagyyJ2SB0iJ8LKgrox3T+Qg:uxv4+O2SR8tqTy`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `net.exe` being misused. While `net.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `net.exe` being misused. While `net.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

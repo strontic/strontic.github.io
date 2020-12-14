@@ -114,7 +114,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/ac1a3f21fcc88f9cee7bf51581eafba24cc76c924f0821deb2afdf1080ddf3d3/detection
 
 ## File Similarity (ssdeep match)
@@ -133,7 +133,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `InstallUtil.exe` being misused. While `InstallUtil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `InstallUtil.exe` being misused. While `InstallUtil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

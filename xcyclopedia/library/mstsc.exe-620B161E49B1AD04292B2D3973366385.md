@@ -55,7 +55,7 @@ PE256 | `FC6C857EE6379B8B923FC840C6E1005506A98B6DEDBB3C777D8DCC6740CA2221`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mstsc.exe` being misused. While `mstsc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mstsc.exe` being misused. While `mstsc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,17 +26,17 @@ PE256 | `37A384027CE03E6192565B096CDCCFC2E5B4BD64E3822B9503269F0184517DBC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 9 | Exported Function
-`DllGetClassObject` | 10 | Exported Function
-`DllRegisterServer` | 11 | Exported Function
-`CDMNodeObj::GetLdmObjectId` | 3 | Exported Function
-`CDataCache::GetServerName` | 7 | Exported Function
-`CTaskData::GetOcxFrameCWndPtr` | 5 | Exported Function
-`CDataCache::GetDiskCount` | 2 | Exported Function
 `CDataCache::GetVolumeCount` | 8 | Exported Function
+`CDataCache::GetDiskCount` | 2 | Exported Function
 `CDMNodeObj::GetNumMembers` | 4 | Exported Function
-`CDataCache::AddLDMObjMapEntry` | 1 | Exported Function
 `CTaskData::GetRegionColorStructPtr` | 6 | Exported Function
+`CDataCache::AddLDMObjMapEntry` | 1 | Exported Function
+`CTaskData::GetOcxFrameCWndPtr` | 5 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`CDataCache::GetServerName` | 7 | Exported Function
+`CDMNodeObj::GetLdmObjectId` | 3 | Exported Function
 
 
 ## Signature

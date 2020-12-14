@@ -26,21 +26,21 @@ PE256 | `96292D933D4FF8FE4FE2201753EF592FF354DA639D692B0496659D14516CED85`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BrandingFormatString` | 1 | Exported Function
-`BrandingFormatStringForEdition` | 2 | Exported Function
-`BrandingLoadBitmap` | 3 | Exported Function
-`BrandingLoadCursor` | 4 | Exported Function
-`BrandingLoadIcon` | 5 | Exported Function
-`BrandingLoadImage` | 6 | Exported Function
-`BrandingLoadNeutralStringForEdition` | 7 | Exported Function
-`BrandingLoadString` | 8 | Exported Function
-`BrandingLoadStringForEdition` | 9 | Exported Function
-`EulaFreeBuffer` | 10 | Exported Function
 `GetEULAFile` | 11 | Exported Function
+`EulaFreeBuffer` | 10 | Exported Function
+`BrandingLoadStringForEdition` | 9 | Exported Function
 `GetEULAInCurrentUILanguage` | 12 | Exported Function
-`GetHinstanceByNameSpace` | 13 | Exported Function
-`GetInstalledEULAPath` | 14 | Exported Function
 `InstallEULA` | 15 | Exported Function
+`GetInstalledEULAPath` | 14 | Exported Function
+`GetHinstanceByNameSpace` | 13 | Exported Function
+`BrandingLoadString` | 8 | Exported Function
+`BrandingLoadBitmap` | 3 | Exported Function
+`BrandingFormatStringForEdition` | 2 | Exported Function
+`BrandingFormatString` | 1 | Exported Function
+`BrandingLoadCursor` | 4 | Exported Function
+`BrandingLoadNeutralStringForEdition` | 7 | Exported Function
+`BrandingLoadImage` | 6 | Exported Function
+`BrandingLoadIcon` | 5 | Exported Function
 
 
 ## Signature

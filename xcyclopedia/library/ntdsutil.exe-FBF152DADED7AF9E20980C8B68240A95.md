@@ -116,7 +116,7 @@ C:\Windows\system32\ntdsutil.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ntdsutil.exe` being misused. While `ntdsutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ntdsutil.exe` being misused. While `ntdsutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

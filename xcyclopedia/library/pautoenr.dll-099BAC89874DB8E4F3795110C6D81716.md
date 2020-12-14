@@ -26,9 +26,9 @@ PE256 | `B630CA00321F3F96EC64A9DE871AFDAF5DD6D4E60836C97AE9E5101FC979BB99`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CertAutoEnrollment` | 2 | Exported Function
-`CertAutoRemove` | 3 | Exported Function
 `DimsProvEntry` | 1 | Exported Function
+`CertAutoRemove` | 3 | Exported Function
+`CertAutoEnrollment` | 2 | Exported Function
 
 
 ## Signature

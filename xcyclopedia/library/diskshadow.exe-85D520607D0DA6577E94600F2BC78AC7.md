@@ -41,7 +41,7 @@ SSDEEP | `6144:554+IPTyvXipu2C4pOZjf6O9MMXtEdiFR2tWUtLz6QOx4X+H:554+11X8uR2cXiO`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `diskshadow.exe` being misused. While `diskshadow.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `diskshadow.exe` being misused. While `diskshadow.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

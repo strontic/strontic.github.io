@@ -26,19 +26,19 @@ PE256 | `FB5B3EEE47FAB984D815DC2660C2CA6B4D666A1B187C208E4960903B0A708066`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`SppFreeBadWritersArray` | 5 | Exported Function
-`SppFreeClientPropArray` | 6 | Exported Function
-`SppFreeExternalGroupPropArray` | 7 | Exported Function
-`SppFreeGroupPropArray` | 8 | Exported Function
-`SppFreeMetadataProp` | 9 | Exported Function
 `SxTracerDebuggerBreak` | 10 | Exported Function
-`SxTracerGetThreadContextDebug` | 11 | Exported Function
-`SxTracerGetThreadContextRetail` | 12 | Exported Function
+`SppFreeMetadataProp` | 9 | Exported Function
+`SppFreeGroupPropArray` | 8 | Exported Function
 `SxTracerShouldTrackFailure` | 13 | Exported Function
+`SxTracerGetThreadContextRetail` | 12 | Exported Function
+`SxTracerGetThreadContextDebug` | 11 | Exported Function
+`SppFreeExternalGroupPropArray` | 7 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`SppFreeClientPropArray` | 6 | Exported Function
+`SppFreeBadWritersArray` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

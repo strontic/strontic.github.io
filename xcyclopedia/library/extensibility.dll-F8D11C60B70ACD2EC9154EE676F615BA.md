@@ -49,7 +49,7 @@ PE256 | `777A9F08E71DF2419663107132472EB1230B6B7E9FAC4A8BE1E0497D92E53C05`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `extensibility.dll` being misused. While `extensibility.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `extensibility.dll` being misused. While `extensibility.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,16 +26,16 @@ PE256 | `EC17972D39404513CF6154A2E210200022EF06FBBE03721434BF161ECE13F543`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CharLowerBuffW` | 1 | Exported Function
-`CharLowerW` | 2 | Exported Function
-`CharNextW` | 3 | Exported Function
-`CharPrevW` | 4 | Exported Function
-`CharUpperBuffW` | 5 | Exported Function
-`CharUpperW` | 6 | Exported Function
 `IsCharAlphaNumericW` | 7 | Exported Function
+`CharUpperW` | 6 | Exported Function
 `IsCharAlphaW` | 8 | Exported Function
-`IsCharLowerW` | 9 | Exported Function
 `IsCharUpperW` | 10 | Exported Function
+`IsCharLowerW` | 9 | Exported Function
+`CharLowerW` | 2 | Exported Function
+`CharLowerBuffW` | 1 | Exported Function
+`CharNextW` | 3 | Exported Function
+`CharUpperBuffW` | 5 | Exported Function
+`CharPrevW` | 4 | Exported Function
 
 
 ## Signature

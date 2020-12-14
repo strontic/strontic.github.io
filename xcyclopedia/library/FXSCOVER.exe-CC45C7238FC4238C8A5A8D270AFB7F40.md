@@ -49,8 +49,8 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -61,10 +61,8 @@ C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\COMDLG32.dll |
 C:\Windows\system32\FXSCOVER.exe |
-C:\Windows\system32\FXSRESM.DLL |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MFC42u.dll |

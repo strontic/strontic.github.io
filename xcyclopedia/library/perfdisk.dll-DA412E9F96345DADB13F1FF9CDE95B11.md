@@ -26,9 +26,9 @@ PE256 | `054CEBDBE87622D78E91E1458F95F2ADEBC53AC6918844B16E5073E8D1A23647`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CloseDiskObject` | 1 | Exported Function
-`CollectDiskObjectData` | 2 | Exported Function
 `OpenDiskObject` | 3 | Exported Function
+`CollectDiskObjectData` | 2 | Exported Function
+`CloseDiskObject` | 1 | Exported Function
 
 
 ## Signature

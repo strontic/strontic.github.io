@@ -26,18 +26,18 @@ PE256 | `60EBB1C7F52088E1DBAA99B8BF170D7E2AFAB7063D6A78310DF2AB974B0272F8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`HNetCfgGetDhcpScopeAddress` | 5 | Exported Function
-`HNetCfgGetPrivateIndex` | 6 | Exported Function
-`HNetCfgGetPublicIndex` | 7 | Exported Function
-`HNetCfgSetDhcpScopeAddress` | 8 | Exported Function
 `HNetCfgStartSharing` | 9 | Exported Function
-`HNetCfgStartSharingEx` | 10 | Exported Function
-`HNetCfgStopSharing` | 11 | Exported Function
+`HNetCfgSetDhcpScopeAddress` | 8 | Exported Function
+`HNetCfgGetPublicIndex` | 7 | Exported Function
 `HNetCfgUpdateSharingSettingsFromStorage` | 12 | Exported Function
+`HNetCfgStopSharing` | 11 | Exported Function
+`HNetCfgStartSharingEx` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`HNetCfgGetPrivateIndex` | 6 | Exported Function
+`HNetCfgGetDhcpScopeAddress` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

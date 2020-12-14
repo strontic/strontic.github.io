@@ -26,13 +26,13 @@ PE256 | `66DA5299C01D867481B434A8FCFFB31478150AC8A6614502C31973E804CB7DD0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CryptProtectDataNoUI` | 1 | Exported Function
-`CryptProtectMemory` | 2 | Exported Function
-`CryptResetMachineCredentials` | 3 | Exported Function
-`CryptUnprotectDataNoUI` | 4 | Exported Function
 `CryptUnprotectMemory` | 5 | Exported Function
 `CryptUpdateProtectedState` | 6 | Exported Function
 `iCryptIdentifyProtection` | 7 | Exported Function
+`CryptUnprotectDataNoUI` | 4 | Exported Function
+`CryptProtectDataNoUI` | 1 | Exported Function
+`CryptProtectMemory` | 2 | Exported Function
+`CryptResetMachineCredentials` | 3 | Exported Function
 
 
 ## Signature
@@ -67,7 +67,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dpapi.dll` being misused. While `dpapi.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dpapi.dll` being misused. While `dpapi.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,20 +26,20 @@ PE256 | `568C4DEE04C89FC27EA5FE7635DCAD7A29BB857F9840F25B52EFAF0104DC694B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SrmGetTracingContextPerThread` | 10 | Exported Function
-`SrmGetTracingModuleInfo` | 15 | Exported Function
-`SrmGetTracingSequenceNumber` | 11 | Exported Function
-`SrmIsDebugFlagSet` | 16 | Exported Function
-`SrmIsKernelDebuggerAttached` | 14 | Exported Function
-`SrmIsTracingEnabled` | 5 | Exported Function
-`SrmIsTracingEnabledOnFunction` | 8 | Exported Function
-`SrmIsTracingEnabledOnModule` | 7 | Exported Function
-`SrmIsTracingEnabledPerThread` | 6 | Exported Function
 `SrmSetTracingContextPerThread` | 9 | Exported Function
+`SrmIsTracingEnabledPerThread` | 6 | Exported Function
+`SrmIsTracingEnabledOnModule` | 7 | Exported Function
 `SrmTraceBinary` | 4 | Exported Function
-`SrmTraceInitialize` | 1 | Exported Function
-`SrmTraceMessage` | 3 | Exported Function
 `SrmTraceUninitialize` | 2 | Exported Function
+`SrmTraceMessage` | 3 | Exported Function
+`SrmTraceInitialize` | 1 | Exported Function
+`SrmGetTracingSequenceNumber` | 11 | Exported Function
+`SrmGetTracingModuleInfo` | 15 | Exported Function
+`SrmGetTracingContextPerThread` | 10 | Exported Function
+`SrmIsDebugFlagSet` | 16 | Exported Function
+`SrmIsTracingEnabledOnFunction` | 8 | Exported Function
+`SrmIsTracingEnabled` | 5 | Exported Function
+`SrmIsKernelDebuggerAttached` | 14 | Exported Function
 
 
 ## Signature

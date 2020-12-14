@@ -26,9 +26,9 @@ PE256 | `121AB98737521F138A82873FB4644B66708C38275925C56F7476C127799F239C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DirectXFileCreate` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DirectXFileCreate` | 1 | Exported Function
 
 
 ## Signature

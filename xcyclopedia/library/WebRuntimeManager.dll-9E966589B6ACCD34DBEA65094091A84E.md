@@ -26,12 +26,12 @@ PE256 | `856E44A43D46AF664B01791598FE35E6EF7659D4CCD6F8B7D556A9CE9EA40EC4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateMessagePortEventDispatcher` | 1 | Exported Function
-`CreateServiceWorkerClientMessageDispatcher` | 2 | Exported Function
-`CreateWebRuntimeFactory` | 3 | Exported Function
 `CreateWebRuntimeNotificationFromEventArg` | 4 | Exported Function
 `DllGetActivationFactory` | 5 | Exported Function
 `EnsureServiceWorkerManagerComponent` | 6 | Exported Function
+`CreateMessagePortEventDispatcher` | 1 | Exported Function
+`CreateServiceWorkerClientMessageDispatcher` | 2 | Exported Function
+`CreateWebRuntimeFactory` | 3 | Exported Function
 
 
 ## Signature

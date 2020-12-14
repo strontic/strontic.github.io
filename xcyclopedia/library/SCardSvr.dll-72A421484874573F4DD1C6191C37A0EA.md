@@ -26,9 +26,9 @@ PE256 | `909DF6A1242288BA91DE9E3FA54B58F79885DE48EB6A49E0192ECE1D41B4EFE3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CalaisMain` | 1 | Exported Function
-`InitSmartCardService` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`InitSmartCardService` | 2 | Exported Function
+`CalaisMain` | 1 | Exported Function
 
 
 ## Signature

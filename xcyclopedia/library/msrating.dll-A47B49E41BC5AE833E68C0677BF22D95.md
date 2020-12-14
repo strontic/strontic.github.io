@@ -26,38 +26,38 @@ PE256 | `D22D45C2A18BB8798096118B4891BE04870EC0FA9081AE85EB4474BF23E9A722`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ChangeSupervisorPassword` | 1 | Exported Function
-`RatingSetupUI` | 30 | Exported Function
-`RatingObtainQueryW` | 29 | Exported Function
-`RatingObtainQuery` | 28 | Exported Function
-`RatingObtainCancel` | 27 | Exported Function
-`RatingInit` | 26 | Exported Function
-`RatingFreeDetails` | 25 | Exported Function
-`RatingEnableW` | 23 | Exported Function
-`RatingEnabledQuery` | 24 | Exported Function
 `RatingEnable` | 22 | Exported Function
 `RatingCustomSetUserOptions` | 21 | Exported Function
-`RatingCustomSetDefaultBureau` | 20 | Exported Function
-`RatingCustomRemoveRatingHelper` | 19 | Exported Function
+`RatingEnableW` | 23 | Exported Function
+`RatingEnabledQuery` | 24 | Exported Function
 `RatingCustomInit` | 18 | Exported Function
 `RatingCustomDeleteCrackedData` | 17 | Exported Function
-`RatingCustomCrackData` | 16 | Exported Function
-`RatingCustomAddRatingSystem` | 15 | Exported Function
-`RatingCustomAddRatingHelper` | 14 | Exported Function
-`RatingClickedOnRATInternal` | 13 | Exported Function
-`RatingClickedOnPRFInternal` | 12 | Exported Function
-`RatingCheckUserAccessW` | 11 | Exported Function
-`RatingCheckUserAccess` | 10 | Exported Function
-`RatingAddToApprovedSites` | 9 | Exported Function
-`RatingAddPropertyPages` | 8 | Exported Function
-`RatingAccessDeniedDialogW` | 7 | Exported Function
+`RatingCustomSetDefaultBureau` | 20 | Exported Function
+`RatingCustomRemoveRatingHelper` | 19 | Exported Function
+`RatingSetupUI` | 30 | Exported Function
+`RatingObtainQueryW` | 29 | Exported Function
+`VerifySupervisorPassword` | 32 | Exported Function
+`RatingSetupUIW` | 31 | Exported Function
+`RatingInit` | 26 | Exported Function
+`RatingFreeDetails` | 25 | Exported Function
+`RatingObtainQuery` | 28 | Exported Function
+`RatingObtainCancel` | 27 | Exported Function
 `RatingAccessDeniedDialog2W` | 5 | Exported Function
 `RatingAccessDeniedDialog2` | 4 | Exported Function
+`RatingAddPropertyPages` | 8 | Exported Function
+`RatingAccessDeniedDialogW` | 7 | Exported Function
+`ClickedOnPRF` | 2 | Exported Function
+`ChangeSupervisorPassword` | 1 | Exported Function
 `RatingAccessDeniedDialog` | 6 | Exported Function
 `ClickedOnRAT` | 3 | Exported Function
-`ClickedOnPRF` | 2 | Exported Function
-`RatingSetupUIW` | 31 | Exported Function
-`VerifySupervisorPassword` | 32 | Exported Function
+`RatingCustomAddRatingHelper` | 14 | Exported Function
+`RatingClickedOnRATInternal` | 13 | Exported Function
+`RatingCustomCrackData` | 16 | Exported Function
+`RatingCustomAddRatingSystem` | 15 | Exported Function
+`RatingCheckUserAccess` | 10 | Exported Function
+`RatingAddToApprovedSites` | 9 | Exported Function
+`RatingClickedOnPRFInternal` | 12 | Exported Function
+`RatingCheckUserAccessW` | 11 | Exported Function
 
 
 ## Signature

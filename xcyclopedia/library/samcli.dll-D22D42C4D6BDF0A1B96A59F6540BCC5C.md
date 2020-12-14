@@ -26,42 +26,42 @@ PE256 | `067E1DA64D2CB376A38AA4A48A59D53BE8394915B3A910AEDEDC79D536A890EC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NetGetDisplayInformationIndex` | 1 | Exported Function
-`NetLocalGroupSetMembers` | 21 | Exported Function
-`NetQueryDisplayInformation` | 22 | Exported Function
-`NetUserAdd` | 23 | Exported Function
-`NetUserChangePassword` | 24 | Exported Function
 `NetUserDel` | 25 | Exported Function
-`NetUserEnum` | 26 | Exported Function
-`NetLocalGroupSetInfo` | 20 | Exported Function
+`NetUserChangePassword` | 24 | Exported Function
 `NetUserGetGroups` | 27 | Exported Function
-`NetUserGetInternetIdentityInfo` | 29 | Exported Function
-`NetUserGetLocalGroups` | 30 | Exported Function
-`NetUserModalsGet` | 31 | Exported Function
-`NetUserModalsSet` | 32 | Exported Function
-`NetUserSetGroups` | 33 | Exported Function
-`NetUserSetInfo` | 34 | Exported Function
-`NetUserGetInfo` | 28 | Exported Function
+`NetUserEnum` | 26 | Exported Function
+`NetUserAdd` | 23 | Exported Function
+`NetLocalGroupSetInfo` | 20 | Exported Function
 `NetLocalGroupGetMembers` | 19 | Exported Function
+`NetQueryDisplayInformation` | 22 | Exported Function
+`NetLocalGroupSetMembers` | 21 | Exported Function
+`NetUserSetInfo` | 34 | Exported Function
+`NetUserSetGroups` | 33 | Exported Function
+`NetValidatePasswordPolicyFree` | 36 | Exported Function
+`NetValidatePasswordPolicy` | 35 | Exported Function
+`NetUserModalsSet` | 32 | Exported Function
+`NetUserGetInternetIdentityInfo` | 29 | Exported Function
+`NetUserGetInfo` | 28 | Exported Function
+`NetUserModalsGet` | 31 | Exported Function
+`NetUserGetLocalGroups` | 30 | Exported Function
+`NetGroupGetInfo` | 7 | Exported Function
+`NetGroupEnum` | 6 | Exported Function
+`NetGroupSetInfo` | 9 | Exported Function
+`NetGroupGetUsers` | 8 | Exported Function
+`NetGroupDelUser` | 5 | Exported Function
+`NetGroupAdd` | 2 | Exported Function
+`NetGetDisplayInformationIndex` | 1 | Exported Function
+`NetGroupDel` | 4 | Exported Function
+`NetGroupAddUser` | 3 | Exported Function
+`NetLocalGroupDelMembers` | 16 | Exported Function
+`NetLocalGroupDelMember` | 15 | Exported Function
 `NetLocalGroupGetInfo` | 18 | Exported Function
 `NetLocalGroupEnum` | 17 | Exported Function
-`NetGroupAdd` | 2 | Exported Function
-`NetGroupAddUser` | 3 | Exported Function
-`NetGroupDel` | 4 | Exported Function
-`NetGroupDelUser` | 5 | Exported Function
-`NetGroupEnum` | 6 | Exported Function
-`NetGroupGetInfo` | 7 | Exported Function
-`NetGroupGetUsers` | 8 | Exported Function
-`NetGroupSetInfo` | 9 | Exported Function
-`NetGroupSetUsers` | 10 | Exported Function
-`NetLocalGroupAdd` | 11 | Exported Function
-`NetLocalGroupAddMember` | 12 | Exported Function
-`NetLocalGroupAddMembers` | 13 | Exported Function
 `NetLocalGroupDel` | 14 | Exported Function
-`NetLocalGroupDelMember` | 15 | Exported Function
-`NetLocalGroupDelMembers` | 16 | Exported Function
-`NetValidatePasswordPolicy` | 35 | Exported Function
-`NetValidatePasswordPolicyFree` | 36 | Exported Function
+`NetLocalGroupAdd` | 11 | Exported Function
+`NetGroupSetUsers` | 10 | Exported Function
+`NetLocalGroupAddMembers` | 13 | Exported Function
+`NetLocalGroupAddMember` | 12 | Exported Function
 
 
 ## Signature
@@ -91,7 +91,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `samcli.dll` being misused. While `samcli.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `samcli.dll` being misused. While `samcli.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

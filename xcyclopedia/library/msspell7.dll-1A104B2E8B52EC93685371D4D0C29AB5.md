@@ -26,23 +26,23 @@ PE256 | `2E6B68C73C9E3A08FDECDCB50B2592DF037D364EDA1EDD18CBD385330B951E81`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateSimpleSpeller` | 27 | Exported Function
-`SpellerSetOptions` | 25 | Exported Function
-`SpellerOpenLex` | 23 | Exported Function
-`SpellerInit` | 21 | Exported Function
 `SpellerGetSizeUdr` | 36 | Exported Function
-`SpellerGetOptions` | 26 | Exported Function
+`SpellerInit` | 21 | Exported Function
 `SpellerGetListUdr` | 35 | Exported Function
+`SpellerGetOptions` | 26 | Exported Function
 `SpellerTerminate` | 22 | Exported Function
-`SpellerDelUdr` | 34 | Exported Function
-`SpellerClearUdr` | 33 | Exported Function
-`SpellerCheck` | 32 | Exported Function
-`SpellerBuiltinUdr` | 31 | Exported Function
-`SpellerAddUdr` | 30 | Exported Function
-`SpellerAddChangeUdr` | 29 | Exported Function
-`SetNLComponentHost` | 28 | Exported Function
-`SpellerCloseLex` | 24 | Exported Function
 `SpellerVersion` | 20 | Exported Function
+`SpellerOpenLex` | 23 | Exported Function
+`SpellerSetOptions` | 25 | Exported Function
+`SpellerDelUdr` | 34 | Exported Function
+`SpellerAddChangeUdr` | 29 | Exported Function
+`SpellerAddUdr` | 30 | Exported Function
+`CreateSimpleSpeller` | 27 | Exported Function
+`SetNLComponentHost` | 28 | Exported Function
+`SpellerClearUdr` | 33 | Exported Function
+`SpellerCloseLex` | 24 | Exported Function
+`SpellerBuiltinUdr` | 31 | Exported Function
+`SpellerCheck` | 32 | Exported Function
 
 
 ## Signature

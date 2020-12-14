@@ -26,14 +26,14 @@ PE256 | `E8C841AD76E351231588F6B8255C3271963E943447C763D02307BFE017C648F7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllMain` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
 `PrinterGenerateGroupPolicy` | 6 | Exported Function
-`PrinterProcessGroupPolicy` | 7 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
 `PrinterProcessGroupPolicyEx` | 8 | Exported Function
+`PrinterProcessGroupPolicy` | 7 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

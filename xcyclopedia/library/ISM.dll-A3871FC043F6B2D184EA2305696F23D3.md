@@ -26,15 +26,15 @@ PE256 | `0C821238A19282F16EAC9C453E7713EE70784025C8A53531049EE8534B52D0FF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateSystemInputHost` | 9 | Exported Function
-`IsSystemInputHostStandalone` | 1 | Exported Function
-`NotifyInputSinkParented` | 2 | Exported Function
-`NotifyInputSinkRemoved` | 3 | Exported Function
-`Register3DCompositor` | 4 | Exported Function
-`RegisterManipulationThread` | 5 | Exported Function
 `SetManipulationInputTarget` | 6 | Exported Function
-`StopAndEndInertia` | 7 | Exported Function
+`RegisterManipulationThread` | 5 | Exported Function
 `Unregister3DCompositor` | 8 | Exported Function
+`StopAndEndInertia` | 7 | Exported Function
+`Register3DCompositor` | 4 | Exported Function
+`IsSystemInputHostStandalone` | 1 | Exported Function
+`CreateSystemInputHost` | 9 | Exported Function
+`NotifyInputSinkRemoved` | 3 | Exported Function
+`NotifyInputSinkParented` | 2 | Exported Function
 
 
 ## Signature

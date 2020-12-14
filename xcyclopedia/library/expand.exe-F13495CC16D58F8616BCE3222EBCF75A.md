@@ -41,7 +41,7 @@ SSDEEP | `768:wia8KdB5goEYtsmlxSotFFt8hJ7oeyXFbF33MVK6KCYmK6h:AbOEuQtgSXFbFnMVK6
 
 ## Possible Misuse
 
-*The following table contains possible examples of `expand.exe` being misused. While `expand.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `expand.exe` being misused. While `expand.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

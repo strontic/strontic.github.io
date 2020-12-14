@@ -26,9 +26,9 @@ PE256 | `DDB3AB0ECC1FFD7D68415F9D0E269BF7375A580C7133F4D0F189467C36BCCE3D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
 `GetPointOfServiceProtocolMetadata` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `1F32A1BEF91537FA53965551406A25920FAA2A351B959DB5C747E36F7D638FBC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `EnableGroupW` | 1 | Exported Function
 `unattendW` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

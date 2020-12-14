@@ -25,93 +25,93 @@ PE256 | `8B092AD66FAACEC8789B064E8836D92FC77403C0C77A97ACC79FD1720E849207`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_crc32` | 82 | Exported Function
-`ReceptionInfo::operator` | 30 | Exported Function
-`AudioParams::operator` | 25 | Exported Function
-`AudioParams::operator` | 24 | Exported Function
-`MessageRetainer::messageLength` | 63 | Exported Function
 `AudioAnalyzer::get_offset_adjustment` | 57 | Exported Function
+`MessageRetainer::messageLength` | 63 | Exported Function
 `AudioMessageReader::getUltrasoundSignalLevel` | 54 | Exported Function
-`AudioMessageReader::getUltrasoundNoiseLevel` | 53 | Exported Function
 `AudioAnalyzer::get_ultrasound_signal_level` | 59 | Exported Function
+`AudioMessageReader::getUltrasoundNoiseLevel` | 53 | Exported Function
 `ReceptionInfo::operator` | 31 | Exported Function
-`AudioAnalyzer::get_ultrasound_noise_level` | 58 | Exported Function
-`MessageRetainer::operator` | 29 | Exported Function
-`MessageRetainer::operator` | 28 | Exported Function
-`MessageReceiver::operator` | 27 | Exported Function
-`MessageListener::operator` | 26 | Exported Function
-`MessageRetainer::get_and_reset_message_flag` | 55 | Exported Function
-`AudioAnalyzer::is_data_ready` | 61 | Exported Function
-`public: __thiscall RingBuffer::~RingBuffer(void)` | 23 | Exported Function
-`RingBuffer::RingBuffer` | 17 | Exported Function
-`AudioAnalyzer::get_bit_in_band` | 56 | Exported Function
-`MessageRetainer::MessageRetainer` | 16 | Exported Function
 `MessageRetainer::reception_info` | 68 | Exported Function
-`MessageAssembler::getBitsSinceLastMessage` | 51 | Exported Function
-`RingBuffer::advance` | 44 | Exported Function
-`MessageAssembler::symbolAdded` | 76 | Exported Function
-`MessageAssembler::setBitFlips` | 71 | Exported Function
-`MessageAssembler::addBit` | 43 | Exported Function
-`public: void __thiscall AudioParams::``default constructor closure'(void)` | 37 | Exported Function
-`AudioMessageReader::setErrorCorrection` | 72 | Exported Function
-`AudioMessageReader::receiveAudioData` | 67 | Exported Function
-`AudioAnalyzer::reset` | 69 | Exported Function
+`ReceptionInfo::operator` | 30 | Exported Function
+`AudioParams::operator` | 24 | Exported Function
+`AudioParams::operator` | 25 | Exported Function
+`AudioAnalyzer::get_ultrasound_noise_level` | 58 | Exported Function
+`AudioAnalyzer::is_data_ready` | 61 | Exported Function
+`MessageRetainer::get_and_reset_message_flag` | 55 | Exported Function
+`public: __thiscall RingBuffer::~RingBuffer(void)` | 23 | Exported Function
+`MessageRetainer::MessageRetainer` | 16 | Exported Function
+`RingBuffer::RingBuffer` | 17 | Exported Function
+`MessageRetainer::operator` | 29 | Exported Function
+`AudioAnalyzer::get_bit_in_band` | 56 | Exported Function
+`MessageRetainer::operator` | 28 | Exported Function
+`MessageListener::operator` | 26 | Exported Function
+`MessageReceiver::operator` | 27 | Exported Function
 `MessageRetainer::message` | 62 | Exported Function
-`AudioAnalyzer::analyze` | 45 | Exported Function
-`AudioMessageReader::onMessage` | 64 | Exported Function
-`public: virtual __thiscall MessageRetainer::~MessageRetainer(void)` | 22 | Exported Function
-`public: virtual __thiscall MessageReceiver::~MessageReceiver(void)` | 21 | Exported Function
-`public: virtual __thiscall MessageListener::~MessageListener(void)` | 20 | Exported Function
-`public: virtual __thiscall AudioMessageReader::~AudioMessageReader(void)` | 19 | Exported Function
-`public: virtual __thiscall AudioAnalyzer::~AudioAnalyzer(void)` | 18 | Exported Function
-`RingBuffer::size` | 73 | Exported Function
-`MessageAssembler::getErrorCorrectionCount` | 52 | Exported Function
-`MessageRetainer::onMessage` | 65 | Exported Function
+`public: void __thiscall AudioParams::``default constructor closure'(void)` | 37 | Exported Function
+`MessageAssembler::addBit` | 43 | Exported Function
+`AudioMessageReader::setErrorCorrection` | 72 | Exported Function
+`AudioAnalyzer::reset` | 69 | Exported Function
+`AudioMessageReader::receiveAudioData` | 67 | Exported Function
 `RingBuffer::peak` | 66 | Exported Function
-`MessageRetainer::MessageRetainer` | 15 | Exported Function
-`MessageReceiver::MessageReceiver` | 13 | Exported Function
-`MessageAssembler::MESSAGE_BIT_LEN` | 40 | Exported Function
-`MessageAssembler::BITS_PER_SYMBOL` | 38 | Exported Function
-`AudioAnalyzer::subBandFftWidth` | 75 | Exported Function
-`AudioAnalyzer::MAX_OFFSET_ADJUSTMENT` | 39 | Exported Function
-`AudioAnalyzer::fft_length` | 49 | Exported Function
-`MessageAssembler::compareBits` | 46 | Exported Function
-`AudioAnalyzer::energy` | 47 | Exported Function
-`MessageAssembler::testBitArrayForMessage` | 77 | Exported Function
-`MessageAssembler::MESSAGE_BYTE_LEN` | 41 | Exported Function
-`fft_fftReal512SparseProcess` | 87 | Exported Function
-`crc32_is_valid` | 85 | Exported Function
-`crc16_is_valid` | 84 | Exported Function
-`crc16` | 83 | Exported Function
-`const MessageRetainer::``vftable'` | 36 | Exported Function
-`const MessageReceiver::``vftable'` | 35 | Exported Function
-`const MessageListener::``vftable'` | 34 | Exported Function
-`const AudioMessageReader::``vftable'` | 33 | Exported Function
-`const AudioAnalyzer::``vftable'` | 32 | Exported Function
-`fft_fftReal512Process` | 86 | Exported Function
-`MessageRetainer::MessageRetainer` | 14 | Exported Function
-`MessageAssembler::MESSAGE_SYMBOL_LEN` | 42 | Exported Function
-`AudioAnalyzer::selectPrimaryLane` | 70 | Exported Function
-`MessageReceiver::MessageReceiver` | 12 | Exported Function
-`MessageListener::MessageListener` | 11 | Exported Function
-`MessageListener::MessageListener` | 10 | Exported Function
-`MessageAssembler::MessageAssembler` | 9 | Exported Function
-`MessageAssembler::MessageAssembler` | 8 | Exported Function
-`AudioParams::AudioParams` | 6 | Exported Function
-`AudioParams::AudioParams` | 7 | Exported Function
-`AudioMessageReader::AudioMessageReader` | 5 | Exported Function
-`AudioAnalyzer::fade` | 48 | Exported Function
-`AudioMessageReader::AudioMessageReader` | 4 | Exported Function
-`AudioAnalyzer::AudioAnalyzer` | 1 | Exported Function
-`AudioAnalyzer::AudioAnalyzer` | 2 | Exported Function
-`MessageAssembler::testForMessage` | 78 | Exported Function
-`MessageAssembler::sortIndexes` | 74 | Exported Function
-`MessageAssembler::flipBits` | 50 | Exported Function
-`AudioMessageReader::init` | 60 | Exported Function
-`AudioAnalyzer::updateSignalStrength` | 80 | Exported Function
-`AudioAnalyzer::updateOffsetAdjustment` | 79 | Exported Function
-`AudioMessageReader::AudioMessageReader` | 3 | Exported Function
 `RingBuffer::write` | 81 | Exported Function
+`RingBuffer::advance` | 44 | Exported Function
+`MessageAssembler::setBitFlips` | 71 | Exported Function
+`MessageAssembler::symbolAdded` | 76 | Exported Function
+`AudioAnalyzer::analyze` | 45 | Exported Function
+`public: virtual __thiscall AudioAnalyzer::~AudioAnalyzer(void)` | 18 | Exported Function
+`public: virtual __thiscall AudioMessageReader::~AudioMessageReader(void)` | 19 | Exported Function
+`RingBuffer::size` | 73 | Exported Function
+`MessageAssembler::getBitsSinceLastMessage` | 51 | Exported Function
+`MessageAssembler::getErrorCorrectionCount` | 52 | Exported Function
+`AudioMessageReader::onMessage` | 64 | Exported Function
+`MessageRetainer::onMessage` | 65 | Exported Function
+`public: virtual __thiscall MessageRetainer::~MessageRetainer(void)` | 22 | Exported Function
+`public: virtual __thiscall MessageListener::~MessageListener(void)` | 20 | Exported Function
+`public: virtual __thiscall MessageReceiver::~MessageReceiver(void)` | 21 | Exported Function
+`MessageRetainer::MessageRetainer` | 15 | Exported Function
+`AudioAnalyzer::fft_length` | 49 | Exported Function
+`AudioAnalyzer::MAX_OFFSET_ADJUSTMENT` | 39 | Exported Function
+`MessageAssembler::compareBits` | 46 | Exported Function
+`MessageAssembler::testBitArrayForMessage` | 77 | Exported Function
+`AudioAnalyzer::energy` | 47 | Exported Function
+`MessageAssembler::MESSAGE_BYTE_LEN` | 41 | Exported Function
+`MessageAssembler::MESSAGE_SYMBOL_LEN` | 42 | Exported Function
+`MessageAssembler::MESSAGE_BIT_LEN` | 40 | Exported Function
+`AudioAnalyzer::subBandFftWidth` | 75 | Exported Function
+`MessageAssembler::BITS_PER_SYMBOL` | 38 | Exported Function
+`fft_fftReal512SparseProcess` | 87 | Exported Function
+`const MessageListener::``vftable'` | 34 | Exported Function
+`const MessageReceiver::``vftable'` | 35 | Exported Function
+`const AudioMessageReader::``vftable'` | 33 | Exported Function
+`_crc32` | 82 | Exported Function
+`const AudioAnalyzer::``vftable'` | 32 | Exported Function
+`crc32_is_valid` | 85 | Exported Function
+`fft_fftReal512Process` | 86 | Exported Function
+`crc16_is_valid` | 84 | Exported Function
+`const MessageRetainer::``vftable'` | 36 | Exported Function
+`crc16` | 83 | Exported Function
+`AudioAnalyzer::fade` | 48 | Exported Function
+`MessageAssembler::MessageAssembler` | 8 | Exported Function
+`MessageAssembler::MessageAssembler` | 9 | Exported Function
+`AudioParams::AudioParams` | 6 | Exported Function
+`AudioMessageReader::AudioMessageReader` | 5 | Exported Function
+`AudioParams::AudioParams` | 7 | Exported Function
+`MessageReceiver::MessageReceiver` | 13 | Exported Function
+`MessageRetainer::MessageRetainer` | 14 | Exported Function
+`MessageReceiver::MessageReceiver` | 12 | Exported Function
+`MessageListener::MessageListener` | 10 | Exported Function
+`MessageListener::MessageListener` | 11 | Exported Function
+`AudioMessageReader::AudioMessageReader` | 4 | Exported Function
+`AudioMessageReader::init` | 60 | Exported Function
+`MessageAssembler::flipBits` | 50 | Exported Function
+`AudioAnalyzer::updateSignalStrength` | 80 | Exported Function
+`AudioAnalyzer::selectPrimaryLane` | 70 | Exported Function
+`AudioAnalyzer::updateOffsetAdjustment` | 79 | Exported Function
+`AudioAnalyzer::AudioAnalyzer` | 1 | Exported Function
+`AudioMessageReader::AudioMessageReader` | 3 | Exported Function
+`AudioAnalyzer::AudioAnalyzer` | 2 | Exported Function
+`MessageAssembler::sortIndexes` | 74 | Exported Function
+`MessageAssembler::testForMessage` | 78 | Exported Function
 
 
 ## Signature

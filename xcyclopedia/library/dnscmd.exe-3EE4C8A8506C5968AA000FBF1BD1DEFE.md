@@ -41,7 +41,7 @@ SSDEEP | `6144:o5FNqlwAxdeYEsan7TRPrES2LN8s9xi0DCtT1TRep2A+wXz3o:o5FNCreYEscTRPA
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dnscmd.exe` being misused. While `dnscmd.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dnscmd.exe` being misused. While `dnscmd.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,10 +26,10 @@ PE256 | `44FE8DF6EE873820B8015F5D796B624EEE20A6C93A3CAB44C9FFDB879D022245`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DWMGhostCleanup` | 1 | Exported Function
-`DWMGhostHandleGhostMsg` | 2 | Exported Function
 `DWMGhostInitialize` | 3 | Exported Function
 `DWMGhostSetInShutdown` | 4 | Exported Function
+`DWMGhostCleanup` | 1 | Exported Function
+`DWMGhostHandleGhostMsg` | 2 | Exported Function
 
 
 ## Signature

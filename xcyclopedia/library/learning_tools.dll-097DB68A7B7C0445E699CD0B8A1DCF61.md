@@ -26,14 +26,14 @@ PE256 | `460B464F65A803A55960FF5AC9C4A5F90D101DF0DCDBB3D888880DD0F38C079B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BuildLinguisticModelResourceRequest` | 1 | Exported Function
-`GetAuthorProvidedLangPageHrefScript` | 2 | Exported Function
-`GetPdfReadAloudScript` | 3 | Exported Function
-`GetReadingViewExtractionScript` | 4 | Exported Function
-`GetReadingViewLearningToolsScript` | 5 | Exported Function
 `GetReadingViewThemes` | 6 | Exported Function
-`GetTranslateScript` | 7 | Exported Function
+`GetReadingViewLearningToolsScript` | 5 | Exported Function
 `GetWebReadAloudScript` | 8 | Exported Function
+`GetTranslateScript` | 7 | Exported Function
+`GetAuthorProvidedLangPageHrefScript` | 2 | Exported Function
+`BuildLinguisticModelResourceRequest` | 1 | Exported Function
+`GetReadingViewExtractionScript` | 4 | Exported Function
+`GetPdfReadAloudScript` | 3 | Exported Function
 
 
 ## Signature

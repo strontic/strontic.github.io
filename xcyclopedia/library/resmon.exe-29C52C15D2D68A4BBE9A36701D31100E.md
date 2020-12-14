@@ -59,7 +59,7 @@ C:\Windows\SysWOW64\resmon.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/f3707c1d638f5487d1ef0a72173356023307dc6734dc738944c75f127fbcfd54/detection
 
 ## File Similarity (ssdeep match)
@@ -88,7 +88,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `resmon.exe` being misused. While `resmon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `resmon.exe` being misused. While `resmon.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

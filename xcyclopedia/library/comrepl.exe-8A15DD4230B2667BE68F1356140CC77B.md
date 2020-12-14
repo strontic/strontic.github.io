@@ -31,6 +31,9 @@ ERROR: WriteConsole failed = 00000001
 
 ```
 
+### Child Processes:
+splwow64.exe
+
 ### Loaded Modules:
 
 Path |

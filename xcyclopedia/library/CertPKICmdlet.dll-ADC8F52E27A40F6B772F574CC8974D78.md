@@ -26,20 +26,20 @@ PE256 | `2F72671E9F7D6B08373590C9F18CDAB9D79B5F9C3C5D596F93739963388574ED`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 5 | Exported Function
-`ExportCertificate` | 6 | Exported Function
-`ExportPFXCertificate` | 7 | Exported Function
-`FindCertificate` | 1 | Exported Function
-`FreeCertResults` | 8 | Exported Function
-`FreeResourceString` | 9 | Exported Function
-`GetCertificateFromEnrollmentInternal` | 10 | Exported Function
-`ImportCertificate` | 11 | Exported Function
-`ImportPFXCertificate` | 12 | Exported Function
 `IsSecureKernelRunning` | 13 | Exported Function
+`ImportPFXCertificate` | 12 | Exported Function
+`ImportCertificate` | 11 | Exported Function
 `IsSmartCard` | 2 | Exported Function
-`LoadResourceString` | 14 | Exported Function
-`SuppressFreeCert` | 3 | Exported Function
 `SuppressFreeStore` | 4 | Exported Function
+`SuppressFreeCert` | 3 | Exported Function
+`LoadResourceString` | 14 | Exported Function
+`ExportPFXCertificate` | 7 | Exported Function
+`ExportCertificate` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`FindCertificate` | 1 | Exported Function
+`GetCertificateFromEnrollmentInternal` | 10 | Exported Function
+`FreeResourceString` | 9 | Exported Function
+`FreeCertResults` | 8 | Exported Function
 
 
 ## Signature

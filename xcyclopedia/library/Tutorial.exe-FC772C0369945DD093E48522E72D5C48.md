@@ -45,7 +45,7 @@ SSDEEP | `6144:EIrcvYbJGlNv5HAwT3Js1XD5bPyLShsNlJYRV37wTyPzemA:PUNBgwT3K5bszJYj7
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Tutorial.exe` being misused. While `Tutorial.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Tutorial.exe` being misused. While `Tutorial.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

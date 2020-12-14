@@ -26,11 +26,11 @@ PE256 | `D68FA4D3BC9295B1F41222EEDF3AC07B65DC552C7347FE61741E1FCBDD6DDEA5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateModernAppToDelete` | 1 | Exported Function
-`CreateModernAppToTrace` | 2 | Exported Function
-`GetMaxPackageNameLength` | 3 | Exported Function
 `GetPackageFromPid` | 4 | Exported Function
 `SetPermisionsForFolder` | 5 | Exported Function
+`GetMaxPackageNameLength` | 3 | Exported Function
+`CreateModernAppToDelete` | 1 | Exported Function
+`CreateModernAppToTrace` | 2 | Exported Function
 
 
 ## Signature

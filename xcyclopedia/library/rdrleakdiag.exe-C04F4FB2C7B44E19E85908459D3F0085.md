@@ -24,8 +24,21 @@ PE256 | `4D03657D4914B50993DAB38B70720E77F7E6A1CF1C8298070D041498E3B4DC9B`
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\rdrleakdiag.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
 
 ## Signature
 

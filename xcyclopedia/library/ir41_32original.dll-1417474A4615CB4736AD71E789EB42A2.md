@@ -26,15 +26,15 @@ PE256 | `FCC56CDDD6DCD1072C752E9EEAB827A25A91542587DECE7D30B6C733B057E975`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AboutDialogProc` | 1 | Exported Function
-`ConfigureDialogProc` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllMain` | 5 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
 `DllUnregisterServer` | 7 | Exported Function
-`DriverDialogProc` | 8 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
 `DriverProc` | 9 | Exported Function
+`DriverDialogProc` | 8 | Exported Function
+`DllMain` | 5 | Exported Function
+`ConfigureDialogProc` | 2 | Exported Function
+`AboutDialogProc` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

@@ -69,10 +69,11 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Windows\system32\taskhostw.exe](taskhostw.exe-536B1BEBA7BF2037BF27CD5BC6654696.md) | 47
+[C:\Windows\system32\taskhostw.exe](taskhostw.exe-B2B02A857A2AA316EC17DD3BC73406C3.md) | 82
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskhostw.exe` being misused. While `taskhostw.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskhostw.exe` being misused. While `taskhostw.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

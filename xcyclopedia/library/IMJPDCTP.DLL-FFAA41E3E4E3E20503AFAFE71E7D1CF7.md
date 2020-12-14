@@ -26,8 +26,8 @@ PE256 | `CE5E134DCF2DA7C0E15AF2AD5DDBC7CE595775CF13D52E7BAD09609F722CE941`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OpenDicTool` | 1 | Exported Function
 `OpenRegisterWord` | 2 | Exported Function
+`OpenDicTool` | 1 | Exported Function
 
 
 ## Signature

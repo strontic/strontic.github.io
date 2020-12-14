@@ -34,14 +34,17 @@ C:\Windows\SYSTEM32\Cabinet.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
 C:\Windows\SYSTEM32\DSREG.DLL |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\NETAPI32.dll |
+C:\Windows\SYSTEM32\NETUTILS.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
@@ -65,8 +68,8 @@ C:\Windows\SYSTEM32\WKSCLI.DLL |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

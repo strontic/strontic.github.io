@@ -26,73 +26,73 @@ PE256 | `0B35F2C9424DC44177C676466276DC3780EEF6D5640206116E179E8BC2A8195C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_CreateCaretBiVBA@20` | 1 | Exported Function
-`_MsoRgchToRgwch@16` | 39 | Exported Function
-`_MsoSetLocale@4` | 40 | Exported Function
-`_MsoSetVbaInterfaces@8` | 41 | Exported Function
-`_MsoUninitOffice@4` | 47 | Exported Function
-`_MsoVBADigSigCallDlg@20` | 48 | Exported Function
-`_MsoVbaInitSecurity@4` | 54 | Exported Function
-`_MsoWideCharToMultiByte@32` | 55 | Exported Function
-`_ObTextOutBiVBA@24` | 59 | Exported Function
-`_PaintLineCoreBiVBA@4` | 60 | Exported Function
 `_PickFontBiVBA@16` | 61 | Exported Function
 `_ResetFontCacheBiVBA@4` | 62 | Exported Function
+`_ObTextOutBiVBA@24` | 59 | Exported Function
+`_PaintLineCoreBiVBA@4` | 60 | Exported Function
+`_VersionNumberBiVBA@0` | 65 | Exported Function
+`_WCheckPlatformBiVBA@0` | 66 | Exported Function
 `_VbeuiEnterpriseProtect@8` | 63 | Exported Function
 `_VbeuiFIsEdpEnabled@0` | 64 | Exported Function
-`_VersionNumberBiVBA@0` | 65 | Exported Function
+`_MsoSetLocale@4` | 40 | Exported Function
+`_MsoSetVbaInterfaces@8` | 41 | Exported Function
 `_MsoPeekMessage@8` | 38 | Exported Function
-`_WCheckPlatformBiVBA@0` | 66 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllGetLCID` | 5 | Exported Function
-`MsoSoftpubCheckCert` | 42 | Exported Function
-`MsoSoftpubCleanupPolicy` | 43 | Exported Function
-`MsoSoftpubInitialize` | 44 | Exported Function
-`MsoSoftpubLoadMessage` | 45 | Exported Function
-`MsoSoftpubLoadSignature` | 46 | Exported Function
-`MsoVBADigSigCreateIndirectData` | 49 | Exported Function
-`MsoVBADigSigGetSignedDataMsg` | 50 | Exported Function
+`_MsoRgchToRgwch@16` | 39 | Exported Function
+`_MsoVbaInitSecurity@4` | 54 | Exported Function
+`_MsoWideCharToMultiByte@32` | 55 | Exported Function
+`_MsoUninitOffice@4` | 47 | Exported Function
+`_MsoVBADigSigCallDlg@20` | 48 | Exported Function
+`_XFromIchCoreBiVBA@4` | 67 | Exported Function
 `MsoVBADigSigPutSignedDataMsg` | 51 | Exported Function
 `MsoVBADigSigRemoveSignedDataMsg` | 52 | Exported Function
+`MsoVBADigSigCreateIndirectData` | 49 | Exported Function
+`MsoVBADigSigGetSignedDataMsg` | 50 | Exported Function
+`MsoWintrustFinalPolicy` | 57 | Exported Function
+`MsoWintrustTestPolicy` | 58 | Exported Function
 `MsoVBADigSigVerifyIndirectData` | 53 | Exported Function
 `MsoWintrustCertificateTrust` | 56 | Exported Function
-`_XFromIchCoreBiVBA@4` | 67 | Exported Function
-`MsoWintrustFinalPolicy` | 57 | Exported Function
+`DllGetLCID` | 5 | Exported Function
+`MsoSoftpubCheckCert` | 42 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`MsoSoftpubLoadMessage` | 45 | Exported Function
+`MsoSoftpubLoadSignature` | 46 | Exported Function
+`MsoSoftpubCleanupPolicy` | 43 | Exported Function
+`MsoSoftpubInitialize` | 44 | Exported Function
 `_MsoMultiByteToWideChar@24` | 37 | Exported Function
-`_MsoHrSimpleQueryInterface2@20` | 35 | Exported Function
-`_DestroyCaretBiVBA@4` | 2 | Exported Function
-`_IchFromXCoreBiVBA@4` | 6 | Exported Function
-`_MsoChsFromLid@4` | 7 | Exported Function
-`_MsoCpgFromChs@4` | 8 | Exported Function
-`_MsoDestroyIPref@4` | 9 | Exported Function
-`_MsoDestroyITFC@4` | 10 | Exported Function
-`_MsoFAnsiCodePageSupportsLCID@8` | 11 | Exported Function
-`_MsoFCreateControl@36` | 12 | Exported Function
-`_MsoFCreateIPref@28` | 13 | Exported Function
 `_MsoFCreateITFCHwnd@20` | 14 | Exported Function
 `_MsoFCreateStdComponentManager@20` | 15 | Exported Function
+`_MsoFCreateControl@36` | 12 | Exported Function
+`_MsoFCreateIPref@28` | 13 | Exported Function
+`_MsoFGetFontSettings@20` | 18 | Exported Function
+`_MsoFGetTooltips@0` | 19 | Exported Function
 `_MsoFCreateToolbarSet@28` | 16 | Exported Function
 `_MsoFGetComponentManager@4` | 17 | Exported Function
-`_MsoFGetFontSettings@20` | 18 | Exported Function
-`_MsoHrSimpleQueryInterface@16` | 36 | Exported Function
-`_MsoFGetTooltips@0` | 19 | Exported Function
-`_MsoFIEPolicyAndVersion@8` | 21 | Exported Function
-`_MsoFInitOffice@20` | 22 | Exported Function
-`_MsoFLoadToolbarSet@24` | 23 | Exported Function
-`_MsoFLongLoad@8` | 24 | Exported Function
-`_MsoFLongSave@8` | 25 | Exported Function
-`_MsoFPitbsFromHwndAndMsg@12` | 26 | Exported Function
-`_MsoFSetComponentManager@4` | 27 | Exported Function
-`_MsoFSetHMsoinstOfSdm@4` | 28 | Exported Function
-`_MsoFSetTooltips@4` | 29 | Exported Function
-`_MsoFWndProc@24` | 30 | Exported Function
+`_IchFromXCoreBiVBA@4` | 6 | Exported Function
+`_MsoChsFromLid@4` | 7 | Exported Function
+`_CreateCaretBiVBA@20` | 1 | Exported Function
+`_DestroyCaretBiVBA@4` | 2 | Exported Function
+`_MsoDestroyITFC@4` | 10 | Exported Function
+`_MsoFAnsiCodePageSupportsLCID@8` | 11 | Exported Function
+`_MsoCpgFromChs@4` | 8 | Exported Function
+`_MsoDestroyIPref@4` | 9 | Exported Function
+`_MsoFHandledMessageNeeded@4` | 20 | Exported Function
 `_MsoFWndProcNeeded@4` | 31 | Exported Function
 `_MsoGetControlInstanceId@8` | 32 | Exported Function
+`_MsoFSetTooltips@4` | 29 | Exported Function
+`_MsoFWndProc@24` | 30 | Exported Function
+`_MsoHrSimpleQueryInterface2@20` | 35 | Exported Function
+`_MsoHrSimpleQueryInterface@16` | 36 | Exported Function
 `_MsoHpalOffice@0` | 33 | Exported Function
 `_MsoHrRegisterAll@0` | 34 | Exported Function
-`_MsoFHandledMessageNeeded@4` | 20 | Exported Function
-`MsoWintrustTestPolicy` | 58 | Exported Function
+`_MsoFLoadToolbarSet@24` | 23 | Exported Function
+`_MsoFLongLoad@8` | 24 | Exported Function
+`_MsoFIEPolicyAndVersion@8` | 21 | Exported Function
+`_MsoFInitOffice@20` | 22 | Exported Function
+`_MsoFSetComponentManager@4` | 27 | Exported Function
+`_MsoFSetHMsoinstOfSdm@4` | 28 | Exported Function
+`_MsoFLongSave@8` | 25 | Exported Function
+`_MsoFPitbsFromHwndAndMsg@12` | 26 | Exported Function
 
 
 ## Signature
@@ -121,7 +121,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `VBEUI.DLL` being misused. While `VBEUI.DLL` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `VBEUI.DLL` being misused. While `VBEUI.DLL` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

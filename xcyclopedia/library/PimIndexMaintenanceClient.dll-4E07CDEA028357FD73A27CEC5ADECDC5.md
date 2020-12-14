@@ -26,22 +26,22 @@ PE256 | `29232B924F4543E458C2D56817F283C0019A96DF8605991D528F5E7301E91A9C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateIndexedFilterClient` | 1 | Exported Function
-`CreatePOOMSortedAggregateDataSource` | 5 | Exported Function
-`GetDefaultContactsFilterSupplierSortOrder` | 2 | Exported Function
-`PimIM_RpcConnect` | 15 | Exported Function
-`PimIM_RpcDisconnect` | 16 | Exported Function
-`PimIMClient_CacheAggregateCacheFileMapping` | 6 | Exported Function
-`PimIMClient_Free` | 7 | Exported Function
-`PimIMClient_LoadAggregateCache` | 8 | Exported Function
-`PimIMClient_RebuildAggregateCache` | 9 | Exported Function
-`PimIMClient_ResetInprocService` | 10 | Exported Function
 `PimIMClient_Resume` | 11 | Exported Function
 `PimIMClient_Suspend` | 12 | Exported Function
-`PimIMClient_UpdateItems` | 13 | Exported Function
-`PimIMClient_UpdateStores` | 14 | Exported Function
+`PimIMClient_RebuildAggregateCache` | 9 | Exported Function
+`PimIMClient_ResetInprocService` | 10 | Exported Function
 `WaitForCookie` | 3 | Exported Function
 `WaitForCookieValueToSet` | 4 | Exported Function
+`PimIMClient_UpdateItems` | 13 | Exported Function
+`PimIMClient_UpdateStores` | 14 | Exported Function
+`GetDefaultContactsFilterSupplierSortOrder` | 2 | Exported Function
+`PimIM_RpcConnect` | 15 | Exported Function
+`CreateIndexedFilterClient` | 1 | Exported Function
+`CreatePOOMSortedAggregateDataSource` | 5 | Exported Function
+`PimIMClient_Free` | 7 | Exported Function
+`PimIMClient_LoadAggregateCache` | 8 | Exported Function
+`PimIM_RpcDisconnect` | 16 | Exported Function
+`PimIMClient_CacheAggregateCacheFileMapping` | 6 | Exported Function
 
 
 ## Signature

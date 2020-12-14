@@ -94,7 +94,7 @@ C:\Windows\system32\tar.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/0f28c8d166c7a671b0048137232e9ca6973f1ec826104834ae310681c1866e62/detection
 
 ## File Similarity (ssdeep match)

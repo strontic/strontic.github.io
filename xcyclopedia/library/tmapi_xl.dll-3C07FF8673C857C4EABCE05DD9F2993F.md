@@ -27,8 +27,8 @@ PE256 | `8528B4BF87194F5523AC1A50884853F5572E942392945BC94B11B941A843B9B8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`TMAPIDllCanUnloadNow` | 2 | Exported Function
 `TMAPIDllLoad` | 1 | Exported Function
+`TMAPIDllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

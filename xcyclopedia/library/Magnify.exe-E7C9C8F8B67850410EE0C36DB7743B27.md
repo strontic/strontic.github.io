@@ -31,6 +31,7 @@ Magnifier
 
 Path | Type
 -- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\System32\en-US\combase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Magnify.exe.mui | File
@@ -41,7 +42,7 @@ Path | Type
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\SysWOW64 | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.572_none_4296d9128a9564c1 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.685_none_4299dbb28a92ae3e | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
@@ -49,12 +50,12 @@ Path | Type
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\10a8HWNDInterface:12094c | Section
-\Sessions\1\BaseNamedObjects\10a8HWNDInterface:1909be | Section
+\Sessions\1\BaseNamedObjects\c30HWNDInterface:17a04d4 | Section
+\Sessions\1\BaseNamedObjects\c30HWNDInterface:8d042c | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -95,7 +96,7 @@ C:\Windows\SysWOW64\Magnify.exe |
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Magnify.exe` being misused. While `Magnify.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Magnify.exe` being misused. While `Magnify.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

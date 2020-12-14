@@ -26,31 +26,31 @@ PE256 | `A2E3D438E3EEF6AF56E5EABCE93E82F67D54A7F69A9776256E4F0643D1F9043D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SamOfflineAddMemberToAlias` | 1 | Exported Function
-`SamOfflineRidToSid` | 23 | Exported Function
-`SamOfflineRemoveMemberFromAlias` | 22 | Exported Function
-`SamOfflineQueryInformationUser` | 21 | Exported Function
-`SamOfflineQueryInformationAlias` | 20 | Exported Function
-`SamOfflineOpenUser` | 19 | Exported Function
-`SamOfflineOpenDomain` | 18 | Exported Function
 `SamOfflineOpenAlias` | 17 | Exported Function
-`SamOfflineLookupNamesInDomain` | 16 | Exported Function
-`SamOfflineLookupDomainInSamServer` | 15 | Exported Function
+`SamOfflineOpenDomain` | 18 | Exported Function
+`SamOfflineOpenUser` | 19 | Exported Function
 `SamOfflineGetMembersInAlias` | 14 | Exported Function
+`SamOfflineLookupDomainInSamServer` | 15 | Exported Function
+`SamOfflineLookupNamesInDomain` | 16 | Exported Function
+`SamOfflineRidToSid` | 23 | Exported Function
 `SamOfflineSetInformationAlias` | 24 | Exported Function
-`SamOfflineFreeMemory` | 13 | Exported Function
-`SamOfflineEnumerateDomainsInSamServer` | 11 | Exported Function
-`SamOfflineEnumerateAliasesInDomain` | 10 | Exported Function
-`SamOfflineDeleteUser` | 9 | Exported Function
-`SamOfflineDeleteAlias` | 8 | Exported Function
-`SamOfflineCreateUserInDomain` | 7 | Exported Function
-`SamOfflineCreateAliasInDomain` | 6 | Exported Function
-`SamOfflineConnectForInstaller` | 5 | Exported Function
-`SamOfflineConnectExternal` | 4 | Exported Function
-`SamOfflineConnect` | 3 | Exported Function
-`SamOfflineCloseHandle` | 2 | Exported Function
-`SamOfflineEnumerateUsersInDomain2` | 12 | Exported Function
 `SamOfflineSetInformationUser` | 25 | Exported Function
+`SamOfflineQueryInformationAlias` | 20 | Exported Function
+`SamOfflineQueryInformationUser` | 21 | Exported Function
+`SamOfflineRemoveMemberFromAlias` | 22 | Exported Function
+`SamOfflineFreeMemory` | 13 | Exported Function
+`SamOfflineConnectExternal` | 4 | Exported Function
+`SamOfflineConnectForInstaller` | 5 | Exported Function
+`SamOfflineCreateAliasInDomain` | 6 | Exported Function
+`SamOfflineAddMemberToAlias` | 1 | Exported Function
+`SamOfflineCloseHandle` | 2 | Exported Function
+`SamOfflineConnect` | 3 | Exported Function
+`SamOfflineEnumerateAliasesInDomain` | 10 | Exported Function
+`SamOfflineEnumerateDomainsInSamServer` | 11 | Exported Function
+`SamOfflineEnumerateUsersInDomain2` | 12 | Exported Function
+`SamOfflineCreateUserInDomain` | 7 | Exported Function
+`SamOfflineDeleteAlias` | 8 | Exported Function
+`SamOfflineDeleteUser` | 9 | Exported Function
 
 
 ## Signature

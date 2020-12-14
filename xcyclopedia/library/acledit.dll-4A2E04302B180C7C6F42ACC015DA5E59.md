@@ -26,14 +26,14 @@ PE256 | `1B93226F3F9657793EF02527A86A9B49DBD3F9032CCE5564AA6BE7A88940887D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 5 | Exported Function
-`EditAuditInfo` | 1 | Exported Function
-`EditOwnerInfo` | 2 | Exported Function
-`EditPermissionInfo` | 3 | Exported Function
-`FMExtensionProcW` | 4 | Exported Function
 `SedDiscretionaryAclEditor` | 6 | Exported Function
-`SedSystemAclEditor` | 7 | Exported Function
+`FMExtensionProcW` | 4 | Exported Function
 `SedTakeOwnership` | 8 | Exported Function
+`SedSystemAclEditor` | 7 | Exported Function
+`EditAuditInfo` | 1 | Exported Function
+`DllMain` | 5 | Exported Function
+`EditPermissionInfo` | 3 | Exported Function
+`EditOwnerInfo` | 2 | Exported Function
 
 
 ## Signature
@@ -68,7 +68,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `acledit.dll` being misused. While `acledit.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `acledit.dll` being misused. While `acledit.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

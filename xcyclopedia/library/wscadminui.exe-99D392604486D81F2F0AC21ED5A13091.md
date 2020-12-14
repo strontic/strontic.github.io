@@ -28,25 +28,10 @@ PE256 | `0F1B15B8371A92F15535DCE98E54DC8E5D52CFCBF7A71DD1FF5F5FCA7100D371`
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\urlmon.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 C:\Windows\system32\wscadminui.exe |
 C:\Windows\system32\WSCAPI.dll |
 

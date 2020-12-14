@@ -41,7 +41,7 @@ SSDEEP | `12288:H5o2qNI+bZUHw3SUZKJtIgWrGt6Wn1Es+Ek410uIgewuAhX9Hyecd7FOUaMMJtCZ
 
 ## Possible Misuse
 
-*The following table contains possible examples of `rdpclip.exe` being misused. While `rdpclip.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `rdpclip.exe` being misused. While `rdpclip.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

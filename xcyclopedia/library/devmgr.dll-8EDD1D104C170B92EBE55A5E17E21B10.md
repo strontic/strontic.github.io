@@ -26,29 +26,29 @@ PE256 | `95EFA10A4E9DE2EB60EE8E8D8D141247D67607079DEF61F1E1F690C6BD05A445`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeviceAdvancedPropertiesA` | 17 | Exported Function
-`DllGetClassObject` | 16 | Exported Function
-`DllCanUnloadNow` | 15 | Exported Function
-`DevicePropertiesW` | 8 | Exported Function
-`DevicePropertiesExW` | 22 | Exported Function
-`DevicePropertiesExA` | 21 | Exported Function
 `DevicePropertiesA` | 7 | Exported Function
+`DevicePropertiesExA` | 21 | Exported Function
 `DeviceProperties_RunDLLW` | 6 | Exported Function
-`DeviceProperties_RunDLLA` | 5 | Exported Function
 `DeviceProblenWizard_RunDLLW` | 24 | Exported Function
+`DeviceProperties_RunDLLA` | 5 | Exported Function
+`DevicePropertiesExW` | 22 | Exported Function
 `DllRegisterServer` | 26 | Exported Function
-`DeviceProblenWizard_RunDLLA` | 23 | Exported Function
-`DeviceProblemWizardA` | 13 | Exported Function
-`DeviceProblemTextW` | 12 | Exported Function
-`DeviceProblemTextA` | 11 | Exported Function
-`DeviceManager_ExecuteW` | 10 | Exported Function
-`DeviceManager_ExecuteA` | 9 | Exported Function
-`DeviceCreateHardwarePageEx` | 20 | Exported Function
-`DeviceCreateHardwarePageCustom` | 25 | Exported Function
-`DeviceCreateHardwarePage` | 19 | Exported Function
-`DeviceAdvancedPropertiesW` | 18 | Exported Function
-`DeviceProblemWizardW` | 14 | Exported Function
 `DllUnregisterServer` | 27 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DevicePropertiesW` | 8 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DeviceProblenWizard_RunDLLA` | 23 | Exported Function
+`DeviceCreateHardwarePageCustom` | 25 | Exported Function
+`DeviceCreateHardwarePageEx` | 20 | Exported Function
+`DeviceCreateHardwarePage` | 19 | Exported Function
+`DeviceAdvancedPropertiesA` | 17 | Exported Function
+`DeviceAdvancedPropertiesW` | 18 | Exported Function
+`DeviceManager_ExecuteA` | 9 | Exported Function
+`DeviceProblemWizardA` | 13 | Exported Function
+`DeviceProblemWizardW` | 14 | Exported Function
+`DeviceProblemTextW` | 12 | Exported Function
+`DeviceManager_ExecuteW` | 10 | Exported Function
+`DeviceProblemTextA` | 11 | Exported Function
 
 
 ## Signature
@@ -83,7 +83,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `devmgr.dll` being misused. While `devmgr.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `devmgr.dll` being misused. While `devmgr.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

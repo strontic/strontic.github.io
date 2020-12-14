@@ -174,7 +174,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `python.exe` being misused. While `python.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `python.exe` being misused. While `python.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -318,6 +318,8 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_wocao.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_wocao.yar) | description = "Strings from Python keylogger" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_wocao.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_wocao.yar) | description = "Python getos utility" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_sandworm_exim_expl.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_sandworm_exim_expl.yar) | description = "Detects Sandworm Python loader" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | description = "Detects FireEye's Python Redflar" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_fireeye_redteam_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar) | description = "Detects FireEye's Python MATRYOSHKA tool" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_malware_MacOS_plist_suspicious.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_malware_MacOS_plist_suspicious.yar) | $p1 = "python" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_osx_evilosx.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_osx_evilosx.yar) | //strings present in decoded python script: | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_osx_pyagent_persistence.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_osx_pyagent_persistence.yar) | description = "Detects a Python agent that establishes persistence on macOS" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

@@ -26,10 +26,10 @@ PE256 | `D30D1CF5D3B9D24A99A5F739732399B8F903091CF05B883C760089F81FA4C4C1`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AddNetPlaceRunDll` | 1 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `PublishRunDll` | 2 | Exported Function
+`AddNetPlaceRunDll` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

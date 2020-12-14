@@ -26,28 +26,28 @@ PE256 | `631E8C04D280A26ED451D6986B87CC7BAE429FE1C275D4A84F39CC448CD16F19`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetComputerNameExA` | 1 | Exported Function
-`GetWindowsDirectoryW` | 20 | Exported Function
-`GetWindowsDirectoryA` | 19 | Exported Function
-`GetVersionExW` | 18 | Exported Function
-`GetVersionExA` | 17 | Exported Function
-`GetVersion` | 16 | Exported Function
 `GetTickCount64` | 15 | Exported Function
+`GetVersion` | 16 | Exported Function
 `GetTickCount` | 14 | Exported Function
-`GetSystemWindowsDirectoryW` | 13 | Exported Function
 `GetSystemWindowsDirectoryA` | 12 | Exported Function
-`GetSystemTimeAsFileTime` | 11 | Exported Function
-`GetSystemTimeAdjustment` | 10 | Exported Function
-`GetSystemTime` | 9 | Exported Function
-`GetSystemInfo` | 8 | Exported Function
-`GetSystemDirectoryW` | 7 | Exported Function
-`GetSystemDirectoryA` | 6 | Exported Function
-`GetLogicalProcessorInformationEx` | 5 | Exported Function
-`GetLogicalProcessorInformation` | 4 | Exported Function
-`GetLocalTime` | 3 | Exported Function
-`GetComputerNameExW` | 2 | Exported Function
+`GetSystemWindowsDirectoryW` | 13 | Exported Function
+`GetVersionExA` | 17 | Exported Function
 `GlobalMemoryStatusEx` | 21 | Exported Function
 `SetLocalTime` | 22 | Exported Function
+`GetWindowsDirectoryW` | 20 | Exported Function
+`GetVersionExW` | 18 | Exported Function
+`GetWindowsDirectoryA` | 19 | Exported Function
+`GetLogicalProcessorInformation` | 4 | Exported Function
+`GetLogicalProcessorInformationEx` | 5 | Exported Function
+`GetLocalTime` | 3 | Exported Function
+`GetComputerNameExA` | 1 | Exported Function
+`GetComputerNameExW` | 2 | Exported Function
+`GetSystemDirectoryA` | 6 | Exported Function
+`GetSystemTimeAdjustment` | 10 | Exported Function
+`GetSystemTimeAsFileTime` | 11 | Exported Function
+`GetSystemTime` | 9 | Exported Function
+`GetSystemDirectoryW` | 7 | Exported Function
+`GetSystemInfo` | 8 | Exported Function
 
 
 ## Signature

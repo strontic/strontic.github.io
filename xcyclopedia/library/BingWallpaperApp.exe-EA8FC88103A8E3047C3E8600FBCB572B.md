@@ -96,7 +96,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\BingWallpaperApp\BingWallpaperApp.exe](BingWallpaperApp.exe-EA8FC88103A8E3047C3E8600FBCB572B.md) | 100
+[C:\Users\user\AppData\Local\Microsoft\BingWallpaperApp\BingWallpaperApp.exe](BingWallpaperApp.exe-EA8FC88103A8E3047C3E8600FBCB572B.md) | 100
 
 
 

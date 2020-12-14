@@ -26,13 +26,13 @@ PE256 | `2B61AFB6F1CB81195F32AE7F421E10E7CE3777AE30D0BBB990EBB5338C4FC0D3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DisplayAVIBox` | 1 | Exported Function
-`DisplayUserMessage` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
 `DllUnregisterServer` | 6 | Exported Function
 `ErrorStringEx` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DisplayAVIBox` | 1 | Exported Function
+`DisplayUserMessage` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

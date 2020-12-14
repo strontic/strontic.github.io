@@ -22,6 +22,24 @@ IMP | `26553A8E11C5CC5CD0F898A06C1EEBEA`
 PESHA1 | `837ADF8FE2E09F28641F4FEE02548BF061922562`
 PE256 | `85AC42DEC9DBFB4650E27BE73228740F1BE596799EFB21AC9D152A1A2C00728F`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\secinit.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wkscli.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

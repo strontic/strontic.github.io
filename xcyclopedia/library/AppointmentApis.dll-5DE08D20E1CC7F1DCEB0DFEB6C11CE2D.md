@@ -26,11 +26,11 @@ PE256 | `2AA4038079D4F1F44595E258639DD6F0E25ABDD1EB4C091D147E6C55A9DB8EA3`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreatePropertiesFromRecurrencePattern` | 1 | Exported Function
-`CreateRecurrencePatternFromProperties` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `DllGetActivationFactory` | 4 | Exported Function
 `DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`CreatePropertiesFromRecurrencePattern` | 1 | Exported Function
+`CreateRecurrencePatternFromProperties` | 2 | Exported Function
 
 
 ## Signature

@@ -26,13 +26,13 @@ PE256 | `E2A18E6050BA45DC9FAA561E3E73AE7360FEF44E23AE3DCD1CF535AAD8DBAFF2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`SvchostPushServiceGlobals` | 3 | Exported Function
-`VsIeProviderGetFunctionTable` | 4 | Exported Function
 `WlanSvcMain` | 7 | Exported Function
 `WLNotifyOnLogoff` | 5 | Exported Function
 `WLNotifyOnLogon` | 6 | Exported Function
+`VsIeProviderGetFunctionTable` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
 
 
 ## Signature

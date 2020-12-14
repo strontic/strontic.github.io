@@ -55,7 +55,7 @@ C:\Windows\system32\SrTasks.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/40e27a9039a2e4a731ea6a74291840fb13c679a1e8ae5b523016aa15727d8a58/detection
 
 

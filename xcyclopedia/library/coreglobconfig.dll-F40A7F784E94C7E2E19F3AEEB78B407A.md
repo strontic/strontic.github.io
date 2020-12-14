@@ -26,17 +26,17 @@ PE256 | `54D5A83EB2B53582D7F4085D6A11ED781420465878B0DB5C31CC8BA61A70DBF5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateUserSpecificGlobalizationSettings` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`GetDisplayLanguageLocalizedName` | 4 | Exported Function
-`GetDisplayLanguageNativeName` | 5 | Exported Function
-`GetSupportedDisplayLanguages` | 6 | Exported Function
-`SetDisplayLanguageCore` | 7 | Exported Function
 `SetUserDisplayLanguageCore` | 8 | Exported Function
+`SetDisplayLanguageCore` | 7 | Exported Function
 `SyncLanguageDataFromCloud` | 9 | Exported Function
-`SyncLanguageDataToCloud` | 10 | Exported Function
 `UpdateDefaultGlobalizationSettings` | 11 | Exported Function
+`SyncLanguageDataToCloud` | 10 | Exported Function
+`GetSupportedDisplayLanguages` | 6 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CreateUserSpecificGlobalizationSettings` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GetDisplayLanguageNativeName` | 5 | Exported Function
+`GetDisplayLanguageLocalizedName` | 4 | Exported Function
 
 
 ## Signature

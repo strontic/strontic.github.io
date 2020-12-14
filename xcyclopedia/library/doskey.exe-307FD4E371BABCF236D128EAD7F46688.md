@@ -41,7 +41,7 @@ SSDEEP | `384:wGw501cuxJAy4ZKUbJZWcC1U2J+clA+4sWXTBv8mlG89/W2iW:gA2cGB0mlj9B`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `doskey.exe` being misused. While `doskey.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `doskey.exe` being misused. While `doskey.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

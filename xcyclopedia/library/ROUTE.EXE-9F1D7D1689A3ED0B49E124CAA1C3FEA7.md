@@ -41,7 +41,7 @@ SSDEEP | `384:cCejZ7fuTEBxOwVunKpvAz7hMke+iNWQPTo46vb5QqWm0W:cC9ueKxpke+RS/6vb5Q
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ROUTE.EXE` being misused. While `ROUTE.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ROUTE.EXE` being misused. While `ROUTE.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

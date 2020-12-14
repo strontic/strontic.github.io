@@ -26,11 +26,11 @@ PE256 | `614C30D657CE57D3716083E04D4461E12762FB1578E77AA9C67D5267DA75C591`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 6 | Exported Function
-`DllGetClassObject` | 7 | Exported Function
-`DllRegisterServer` | 8 | Exported Function
 `DllUnregisterServer` | 9 | Exported Function
 `HrRehydratorCreateServiceObject` | 5 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
 
 
 ## Signature

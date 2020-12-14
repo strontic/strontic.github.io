@@ -26,11 +26,11 @@ PE256 | `EAD69C5838C0F80034D19FC6185C1412F23FDF529F87BF5C09BED5E434DC6E0F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 6 | Exported Function
-`DllEnumClassObjects` | 5 | Exported Function
-`DllGetClassObject` | 7 | Exported Function
 `DllRegisterServer` | 8 | Exported Function
 `DllUnregisterServer` | 9 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllEnumClassObjects` | 5 | Exported Function
 
 
 ## Signature

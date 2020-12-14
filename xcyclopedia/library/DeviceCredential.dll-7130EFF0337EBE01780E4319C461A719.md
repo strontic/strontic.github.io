@@ -26,37 +26,37 @@ PE256 | `ECF7593F6EE69B051DD7200E39DC012909F333099120991661090C5DF5DD96BC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeviceCredentialAbortAuthentication` | 1 | Exported Function
-`DeviceCredentialUnregisterPresenceMonitoring` | 29 | Exported Function
-`DeviceCredentialShowNotificationMessage` | 28 | Exported Function
-`DeviceCredentialSetOpaqueBlob` | 27 | Exported Function
-`DeviceCredentialSetFriendlyName` | 26 | Exported Function
-`DeviceCredentialScanDeploymentData` | 25 | Exported Function
-`DeviceCredentialRegisterPresenceMonitoringOnExistingDevice` | 24 | Exported Function
-`DeviceCredentialRegisterPresenceMonitoring` | 23 | Exported Function
-`DeviceCredentialMgrUpdateAuthenticationStage` | 22 | Exported Function
 `DeviceCredentialMgrUnprotectData` | 21 | Exported Function
+`DeviceCredentialMgrUpdateAuthenticationStage` | 22 | Exported Function
+`DeviceCredentialRegisterPresenceMonitoring` | 23 | Exported Function
 `DeviceCredentialMgrProtectData` | 20 | Exported Function
-`DeviceCredentialMgrHasLogonSession` | 19 | Exported Function
-`DeviceCredentialMgrGetAuthenticationData` | 18 | Exported Function
 `DeviceCredentialMgrCheckProvisionedDevice` | 17 | Exported Function
+`DeviceCredentialMgrGetAuthenticationData` | 18 | Exported Function
+`DeviceCredentialMgrHasLogonSession` | 19 | Exported Function
+`DeviceCredentialRegisterPresenceMonitoringOnExistingDevice` | 24 | Exported Function
+`DeviceCredentialUnregisterPresenceMonitoring` | 29 | Exported Function
 `DeviceCredentialUpdateDeploymentData` | 30 | Exported Function
-`DeviceCredentialMgrCheckPresence` | 16 | Exported Function
-`DeviceCredentialMgrBeginAuthentication` | 14 | Exported Function
-`DeviceCredentialInitializeProvisioning` | 13 | Exported Function
-`DeviceCredentialInitializeAuthentication` | 12 | Exported Function
-`DeviceCredentialGetDeviceInfo` | 11 | Exported Function
-`DeviceCredentialGetAuthStageData` | 10 | Exported Function
-`DeviceCredentialFreeBuffer` | 9 | Exported Function
-`DeviceCredentialFindNext` | 8 | Exported Function
-`DeviceCredentialFindFirst` | 7 | Exported Function
-`DeviceCredentialFindClose` | 6 | Exported Function
-`DeviceCredentialDeprovision` | 5 | Exported Function
-`DeviceCredentialCompleteProvisioning` | 4 | Exported Function
-`DeviceCredentialCompleteAuthentication` | 3 | Exported Function
-`DeviceCredentialAbortProvisioning` | 2 | Exported Function
-`DeviceCredentialMgrCheckIfUserSessionIsRequired` | 15 | Exported Function
 `DeviceCredentialUpdatePresenceState` | 31 | Exported Function
+`DeviceCredentialShowNotificationMessage` | 28 | Exported Function
+`DeviceCredentialScanDeploymentData` | 25 | Exported Function
+`DeviceCredentialSetFriendlyName` | 26 | Exported Function
+`DeviceCredentialSetOpaqueBlob` | 27 | Exported Function
+`DeviceCredentialMgrCheckPresence` | 16 | Exported Function
+`DeviceCredentialDeprovision` | 5 | Exported Function
+`DeviceCredentialFindClose` | 6 | Exported Function
+`DeviceCredentialFindFirst` | 7 | Exported Function
+`DeviceCredentialCompleteProvisioning` | 4 | Exported Function
+`DeviceCredentialAbortAuthentication` | 1 | Exported Function
+`DeviceCredentialAbortProvisioning` | 2 | Exported Function
+`DeviceCredentialCompleteAuthentication` | 3 | Exported Function
+`DeviceCredentialFindNext` | 8 | Exported Function
+`DeviceCredentialInitializeProvisioning` | 13 | Exported Function
+`DeviceCredentialMgrBeginAuthentication` | 14 | Exported Function
+`DeviceCredentialMgrCheckIfUserSessionIsRequired` | 15 | Exported Function
+`DeviceCredentialInitializeAuthentication` | 12 | Exported Function
+`DeviceCredentialFreeBuffer` | 9 | Exported Function
+`DeviceCredentialGetAuthStageData` | 10 | Exported Function
+`DeviceCredentialGetDeviceInfo` | 11 | Exported Function
 
 
 ## Signature

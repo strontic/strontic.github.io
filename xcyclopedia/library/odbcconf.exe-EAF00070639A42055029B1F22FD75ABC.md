@@ -45,7 +45,7 @@ SSDEEP | `768:MFr3bf13VACISsdb1i7sjI179wnOEmCP0ZxM:Mph3VACISsd5i7l798hmjM`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `odbcconf.exe` being misused. While `odbcconf.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `odbcconf.exe` being misused. While `odbcconf.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -41,7 +41,7 @@ SSDEEP | `384:Z3Mj+lNoV5xeC5ip8/kGFfXdYQp5MaBCNbW0qWi:Zi+3oV5A2iYkElbowCZ`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `convert.exe` being misused. While `convert.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `convert.exe` being misused. While `convert.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

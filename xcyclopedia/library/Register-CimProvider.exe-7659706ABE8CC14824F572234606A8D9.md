@@ -41,7 +41,7 @@ SSDEEP | `192:6StRIbahjZqHwGbyo3X8WTB13+tBDs9pziSdlj4OfI4HW81WI4C0:6StvLqLbywX8Y
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Register-CimProvider.exe` being misused. While `Register-CimProvider.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Register-CimProvider.exe` being misused. While `Register-CimProvider.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

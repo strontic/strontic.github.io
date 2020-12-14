@@ -41,7 +41,7 @@ SSDEEP | `6144:xuoiz44sqWyo9y7yexKhZb2RVyqhkEVKSDevIyX:AzEnAQZb6VyqhLtqvIy`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Narrator.exe` being misused. While `Narrator.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Narrator.exe` being misused. While `Narrator.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,11 +26,11 @@ PE256 | `6A35DF2B76907C2CDDF7BBFDBC8351064381AFA520899E56BAAA6126FFE247E7`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MappingDoAction` | 1 | Exported Function
-`MappingFreePropertyBag` | 2 | Exported Function
-`MappingFreeServices` | 3 | Exported Function
 `MappingGetServices` | 4 | Exported Function
 `MappingRecognizeText` | 5 | Exported Function
+`MappingFreeServices` | 3 | Exported Function
+`MappingDoAction` | 1 | Exported Function
+`MappingFreePropertyBag` | 2 | Exported Function
 
 
 ## Signature

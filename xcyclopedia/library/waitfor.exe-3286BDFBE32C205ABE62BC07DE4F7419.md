@@ -41,7 +41,7 @@ SSDEEP | `768:RJHK01RkeC/6adXbdI8i4LrvxqQJvHK16Xoi7M6QB/yO/y7Oxk/n:RJHK0bkeC/6ad
 
 ## Possible Misuse
 
-*The following table contains possible examples of `waitfor.exe` being misused. While `waitfor.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `waitfor.exe` being misused. While `waitfor.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

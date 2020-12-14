@@ -26,12 +26,12 @@ PE256 | `C70D48BE23152A8DA2D71D0713FFF69AE9EA7D53058167D6C311464D171EF7EF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
 `PStoreCreateInstance` | 5 | Exported Function
 `PStoreEnumProviders` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature
@@ -66,7 +66,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `pstorec.dll` being misused. While `pstorec.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `pstorec.dll` being misused. While `pstorec.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

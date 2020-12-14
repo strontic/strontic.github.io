@@ -26,27 +26,27 @@ PE256 | `DBDA96D346224795178AEC292AF5290DE71A93CCCA2661432A46B592178D50AD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateAppContainerProfileWorker` | 1 | Exported Function
-`RsopResetPolicySettingStatusWorker` | 19 | Exported Function
-`RsopFileAccessCheckWorker` | 18 | Exported Function
-`RsopAccessCheckByTypeWorker` | 17 | Exported Function
-`ProcessGroupPolicyCompletedWorker` | 16 | Exported Function
 `ProcessGroupPolicyCompletedExWorker` | 15 | Exported Function
+`ProcessGroupPolicyCompletedWorker` | 16 | Exported Function
 `LookupAppContainerDisplayNameWorker` | 14 | Exported Function
-`IsAppContainerProfilePresentWorker` | 13 | Exported Function
 `GetAppContainerRegistryLocationWorker` | 12 | Exported Function
+`IsAppContainerProfilePresentWorker` | 13 | Exported Function
 `RsopSetPolicySettingStatusWorker` | 20 | Exported Function
-`GetAppContainerFolderPathWorker` | 11 | Exported Function
-`DeriveAppContainerSidFromAppContainerNameWorker` | 9 | Exported Function
-`DeleteLinkFileWorker` | 8 | Exported Function
-`DeleteGroupWorker` | 7 | Exported Function
-`DeleteAppContainerProfileWorker` | 6 | Exported Function
-`CreateLinkFileExWorker` | 5 | Exported Function
-`CreateGroupExWorker` | 4 | Exported Function
-`CreateDirectoryJunctionsForUserProfileWorker` | 3 | Exported Function
-`CreateDirectoryJunctionsForSystemWorker` | 2 | Exported Function
-`DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedNameWorker` | 10 | Exported Function
 `UpdateAppContainerProfileWorker` | 21 | Exported Function
+`RsopResetPolicySettingStatusWorker` | 19 | Exported Function
+`RsopAccessCheckByTypeWorker` | 17 | Exported Function
+`RsopFileAccessCheckWorker` | 18 | Exported Function
+`GetAppContainerFolderPathWorker` | 11 | Exported Function
+`CreateGroupExWorker` | 4 | Exported Function
+`CreateLinkFileExWorker` | 5 | Exported Function
+`CreateDirectoryJunctionsForUserProfileWorker` | 3 | Exported Function
+`CreateAppContainerProfileWorker` | 1 | Exported Function
+`CreateDirectoryJunctionsForSystemWorker` | 2 | Exported Function
+`DeriveAppContainerSidFromAppContainerNameWorker` | 9 | Exported Function
+`DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedNameWorker` | 10 | Exported Function
+`DeleteLinkFileWorker` | 8 | Exported Function
+`DeleteAppContainerProfileWorker` | 6 | Exported Function
+`DeleteGroupWorker` | 7 | Exported Function
 
 
 ## Signature

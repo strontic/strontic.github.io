@@ -26,26 +26,26 @@ PE256 | `CEE9BBD0169878ABEC1AF68E62DD2B1EB4E3C5EA495CC52EA3BEEC7D3544D66C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PsmApplicationStateNotification` | 1 | Exported Function
-`PsmInitializeServiceExtension4` | 18 | Exported Function
-`PsmInitializeServiceExtension3` | 17 | Exported Function
-`PsmInitializeServiceExtension2` | 16 | Exported Function
-`PsmInitializeServiceExtension` | 15 | Exported Function
 `PsmHostStateNotification2` | 14 | Exported Function
+`PsmInitializeServiceExtension` | 15 | Exported Function
 `PsmHostStateNotification` | 13 | Exported Function
-`PsmHangNotification2` | 12 | Exported Function
 `PsmHangNotification` | 11 | Exported Function
-`PsmHamTerminatePackage` | 10 | Exported Function
-`PsmHamTerminateHost` | 9 | Exported Function
-`PsmHamTerminateApplication` | 8 | Exported Function
-`PsmHamRegisterProcess` | 7 | Exported Function
-`PsmHamGetPackageDebugMode` | 6 | Exported Function
-`PsmCrmSuspendNotification` | 5 | Exported Function
-`PsmCrmStart` | 4 | Exported Function
-`PsmCrmSessionUserNotification` | 3 | Exported Function
-`PsmCrmCleanup` | 2 | Exported Function
+`PsmHangNotification2` | 12 | Exported Function
 `PsmMemoryLimitNotification` | 19 | Exported Function
 `PsmMemoryLimitNotification2` | 20 | Exported Function
+`PsmInitializeServiceExtension4` | 18 | Exported Function
+`PsmInitializeServiceExtension2` | 16 | Exported Function
+`PsmInitializeServiceExtension3` | 17 | Exported Function
+`PsmCrmStart` | 4 | Exported Function
+`PsmCrmSuspendNotification` | 5 | Exported Function
+`PsmCrmSessionUserNotification` | 3 | Exported Function
+`PsmApplicationStateNotification` | 1 | Exported Function
+`PsmCrmCleanup` | 2 | Exported Function
+`PsmHamTerminateHost` | 9 | Exported Function
+`PsmHamTerminatePackage` | 10 | Exported Function
+`PsmHamTerminateApplication` | 8 | Exported Function
+`PsmHamGetPackageDebugMode` | 6 | Exported Function
+`PsmHamRegisterProcess` | 7 | Exported Function
 
 
 ## Signature

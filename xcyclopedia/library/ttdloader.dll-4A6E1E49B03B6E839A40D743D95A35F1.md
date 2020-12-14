@@ -26,10 +26,10 @@ PE256 | `588ED15AD2C6A93F8C7389078A03F2AF988F697C15220ADC7E4AB0ACFC9DFE11`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InjectThread` | 1 | Exported Function
-`ntdllLdrInitializeThunk` | 4 | Exported Function
 `ParametersBlock` | 2 | Exported Function
 `StubDllEntry` | 3 | Exported Function
+`InjectThread` | 1 | Exported Function
+`ntdllLdrInitializeThunk` | 4 | Exported Function
 
 
 ## Signature

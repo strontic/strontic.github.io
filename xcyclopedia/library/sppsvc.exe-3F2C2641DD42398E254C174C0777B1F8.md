@@ -41,7 +41,7 @@ SSDEEP | `49152:kXvHrXq8k8ohV0kt7QnKss0NG33FhAJE+Uatr4NIEabpXV8hd5GRTiwuSlC+ZXy/
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sppsvc.exe` being misused. While `sppsvc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sppsvc.exe` being misused. While `sppsvc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

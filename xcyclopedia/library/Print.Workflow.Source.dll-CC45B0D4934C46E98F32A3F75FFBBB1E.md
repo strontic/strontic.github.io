@@ -26,17 +26,17 @@ PE256 | `DD3FD356B578F36B3E0AD8F902BD5A6DF346041D4D18A54FC0A21AD001256878`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 11 | Exported Function
-`WfpAbortSession` | 1 | Exported Function
-`WfpCloseSession` | 2 | Exported Function
-`WfpCreateWorkflowSession` | 3 | Exported Function
-`WfpGetOutputFileName` | 4 | Exported Function
-`WfpGetWorkFlowStream` | 5 | Exported Function
-`WfpSetJobInfo` | 6 | Exported Function
 `WfpSetOutputFileName` | 7 | Exported Function
+`WfpSetJobInfo` | 6 | Exported Function
 `WfpSetPrintTicket` | 8 | Exported Function
-`WfpSetXpsDataType` | 9 | Exported Function
 `WfpWaitforJobCompletion` | 10 | Exported Function
+`WfpSetXpsDataType` | 9 | Exported Function
+`WfpGetWorkFlowStream` | 5 | Exported Function
+`WfpAbortSession` | 1 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`WfpCloseSession` | 2 | Exported Function
+`WfpGetOutputFileName` | 4 | Exported Function
+`WfpCreateWorkflowSession` | 3 | Exported Function
 
 
 ## Signature

@@ -26,15 +26,15 @@ PE256 | `4A5A07BCB32380297D3B9A08662B467EED6C9880C0A3C314622F16CBC9C8F30F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AllocateSettingsContext` | 1 | Exported Function
-`ExportModernSettings` | 2 | Exported Function
-`ExportSettingsToStore` | 8 | Exported Function
-`FreeSettingsContext` | 3 | Exported Function
-`GetModernTemplateId` | 4 | Exported Function
-`GetOSSettingsRoamingState` | 9 | Exported Function
 `ImportModernSettings` | 5 | Exported Function
-`ImportSettingsFromStore` | 7 | Exported Function
+`GetOSSettingsRoamingState` | 9 | Exported Function
 `InitializeRollbackState` | 6 | Exported Function
+`ImportSettingsFromStore` | 7 | Exported Function
+`GetModernTemplateId` | 4 | Exported Function
+`ExportModernSettings` | 2 | Exported Function
+`AllocateSettingsContext` | 1 | Exported Function
+`FreeSettingsContext` | 3 | Exported Function
+`ExportSettingsToStore` | 8 | Exported Function
 
 
 ## Signature

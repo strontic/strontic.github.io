@@ -26,27 +26,27 @@ PE256 | `2EB5D9BAEE52E35C0CC4A6A132C85CAC670CD30B9764F22A1E0DA01E556E63BD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CertConfigureTrustA` | 1 | Exported Function
-`FormatVerisignExtension` | 12 | Exported Function
-`FormatPKIXEmailProtection` | 11 | Exported Function
-`EncodeRecipientID` | 10 | Exported Function
-`EncodeAttrSequence` | 9 | Exported Function
 `DllUnregisterServer` | 19 | Exported Function
+`EncodeAttrSequence` | 9 | Exported Function
 `DllRegisterServer` | 18 | Exported Function
-`DecodeRecipientID` | 8 | Exported Function
 `DecodeAttrSequence` | 7 | Exported Function
+`DecodeRecipientID` | 8 | Exported Function
 `GetFriendlyNameOfCertA` | 20 | Exported Function
-`CertViewPropertiesW` | 17 | Exported Function
-`CertTrustInit` | 6 | Exported Function
-`CertTrustFinalPolicy` | 5 | Exported Function
-`CertTrustCleanup` | 4 | Exported Function
-`CertTrustCertPolicy` | 3 | Exported Function
-`CertSelectCertificateW` | 15 | Exported Function
-`CertSelectCertificateA` | 14 | Exported Function
-`CertModifyCertificatesToTrust` | 13 | Exported Function
-`CertConfigureTrustW` | 2 | Exported Function
-`CertViewPropertiesA` | 16 | Exported Function
 `GetFriendlyNameOfCertW` | 21 | Exported Function
+`FormatVerisignExtension` | 12 | Exported Function
+`EncodeRecipientID` | 10 | Exported Function
+`FormatPKIXEmailProtection` | 11 | Exported Function
+`CertViewPropertiesW` | 17 | Exported Function
+`CertSelectCertificateA` | 14 | Exported Function
+`CertSelectCertificateW` | 15 | Exported Function
+`CertModifyCertificatesToTrust` | 13 | Exported Function
+`CertConfigureTrustA` | 1 | Exported Function
+`CertConfigureTrustW` | 2 | Exported Function
+`CertTrustInit` | 6 | Exported Function
+`CertViewPropertiesA` | 16 | Exported Function
+`CertTrustFinalPolicy` | 5 | Exported Function
+`CertTrustCertPolicy` | 3 | Exported Function
+`CertTrustCleanup` | 4 | Exported Function
 
 
 ## Signature

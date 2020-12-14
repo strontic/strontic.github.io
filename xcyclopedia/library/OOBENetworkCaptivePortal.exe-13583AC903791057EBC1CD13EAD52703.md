@@ -24,17 +24,12 @@ PE256 | `421365AA826AC6D95E33165BB99B2F2A50DA30644C9DFF98671A2B2F859FCD47`
 
 ## Runtime Data
 
-### Child Processes:
-OOBENetworkCaptivePortal.exe WerFault.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\SYSTEM32\IPHLPAPI.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |

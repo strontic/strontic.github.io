@@ -26,9 +26,9 @@ PE256 | `7914930B629373F32F5ADBBD5928CD7FBC0B6F43233D3BF85B0898CD27BDFCCA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`__CxxFrameHandler4` | 1 | Exported Function
-`__NLG_Dispatch2` | 2 | Exported Function
 `__NLG_Return2` | 3 | Exported Function
+`__NLG_Dispatch2` | 2 | Exported Function
+`__CxxFrameHandler4` | 1 | Exported Function
 
 
 ## Signature

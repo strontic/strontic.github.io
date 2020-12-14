@@ -26,22 +26,22 @@ PE256 | `1B9198BD3314EB91E4B00DD1DD99BFB3247CABA66B1B45059C4E77970FD09A66`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AllocateAttributes` | 1 | Exported Function
-`ConfigureIas` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
-`DllRegisterServer` | 5 | Exported Function
-`DllUnregisterServer` | 6 | Exported Function
-`DoRequest` | 7 | Exported Function
-`DoRequestAsync` | 8 | Exported Function
-`FreeAttributes` | 9 | Exported Function
-`GetOptionIas` | 10 | Exported Function
 `InitializeIas` | 11 | Exported Function
 `MemAllocIas` | 12 | Exported Function
-`MemFreeIas` | 13 | Exported Function
-`MemReallocIas` | 14 | Exported Function
+`FreeAttributes` | 9 | Exported Function
+`GetOptionIas` | 10 | Exported Function
 `SetOptionIas` | 15 | Exported Function
 `ShutdownIas` | 16 | Exported Function
+`MemFreeIas` | 13 | Exported Function
+`MemReallocIas` | 14 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`AllocateAttributes` | 1 | Exported Function
+`ConfigureIas` | 2 | Exported Function
+`DoRequest` | 7 | Exported Function
+`DoRequestAsync` | 8 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
 
 
 ## Signature

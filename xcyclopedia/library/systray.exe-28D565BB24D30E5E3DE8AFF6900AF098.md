@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\systray.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/b1a7169522d690dbe3ad77604913637dc457c4885ebedbddfb1419b366099204/detection
 
 ## File Similarity (ssdeep match)

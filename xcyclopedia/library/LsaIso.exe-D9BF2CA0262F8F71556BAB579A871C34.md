@@ -43,13 +43,13 @@ PE256 | `DAC519D5C4F5135AF8882F7750557C38BEF78D93D90889DD90DD84E65B263F1F`
 
 ## File Scan
 
-* VirusTotal Detections: 0/76
+* VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/9610808d82a12f4227df7ceab1dd5172b120e0fb19f660b394185d1c17f297cc/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

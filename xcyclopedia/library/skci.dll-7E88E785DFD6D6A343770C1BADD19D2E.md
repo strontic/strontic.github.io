@@ -26,22 +26,22 @@ PE256 | `61F2E50DAC12DA133685A04A30968346A0B93ADE991941F7C2DEB7807D0B6EA9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`SkciCompareSigningLevels` | 1 | Exported Function
-`SkciCreateCodeCatalog` | 2 | Exported Function
-`SkciCreateSecureImage` | 3 | Exported Function
-`SkciFinalizeSecureImageHash` | 4 | Exported Function
-`SkciFinishImageValidation` | 5 | Exported Function
-`SkciFreeImageContext` | 6 | Exported Function
-`SkciInitialize` | 7 | Exported Function
-`SkciMatchHotPatch` | 8 | Exported Function
-`SkciQueryImageAuthorID` | 9 | Exported Function
-`SkciQueryImageUniqueID` | 10 | Exported Function
 `SkciQueryInformation` | 11 | Exported Function
 `SkciSetCodeIntegrityPolicy` | 12 | Exported Function
-`SkciTransferVersionResource` | 13 | Exported Function
-`SkciValidateAmeCertChain` | 14 | Exported Function
+`SkciQueryImageAuthorID` | 9 | Exported Function
+`SkciQueryImageUniqueID` | 10 | Exported Function
 `SkciValidateDynamicCodePages` | 15 | Exported Function
 `SkciValidateImageData` | 16 | Exported Function
+`SkciTransferVersionResource` | 13 | Exported Function
+`SkciValidateAmeCertChain` | 14 | Exported Function
+`SkciCreateSecureImage` | 3 | Exported Function
+`SkciFinalizeSecureImageHash` | 4 | Exported Function
+`SkciCompareSigningLevels` | 1 | Exported Function
+`SkciCreateCodeCatalog` | 2 | Exported Function
+`SkciInitialize` | 7 | Exported Function
+`SkciMatchHotPatch` | 8 | Exported Function
+`SkciFinishImageValidation` | 5 | Exported Function
+`SkciFreeImageContext` | 6 | Exported Function
 
 
 ## Signature

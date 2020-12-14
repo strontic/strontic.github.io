@@ -60,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mmc.exe` being misused. While `mmc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mmc.exe` being misused. While `mmc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -113,7 +113,6 @@ mmc <path>\<filename>.msc [/a] [/64] [/32]
 | /a | Opens a saved console in author mode.  Used to make changes to saved consoles. |
 | /64 | Opens the 64-bit version of **mmc** (mmc64). Use this option only if you are running a Microsoft 64-bit operating system and want to use a 64-bit snap-in. |
 | /32 | Opens the 32-bit version of **mmc** (mmc32). When running a Microsoft 64-bit operating system, you can run 32-bit snap-ins by opening mmc with this command-line option when you have 32-bit only snap-ins. |
-| /? | Displays help at the command prompt. |
 
 ### Remarks
 

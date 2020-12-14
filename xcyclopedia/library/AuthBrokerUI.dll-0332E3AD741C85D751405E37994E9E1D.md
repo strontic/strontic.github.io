@@ -26,15 +26,15 @@ PE256 | `302D8A40A5668FBA9251426C3D9E39EDCA73E17C452B799FA859E9738C2C2F44`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateWndMgmt` | 1 | Exported Function
-`DirectUIInitProc` | 2 | Exported Function
-`DirectUIInitThread` | 3 | Exported Function
-`DirectUIUnInitProc` | 4 | Exported Function
-`DirectUIUnInitThread` | 5 | Exported Function
-`FreeWndMgmt` | 6 | Exported Function
 `WabCreateWebRuntimeCoreControl` | 7 | Exported Function
-`WabCreateWebRuntimeCoreVisualViewport` | 8 | Exported Function
+`FreeWndMgmt` | 6 | Exported Function
 `WabImmDisableLegacyIME` | 9 | Exported Function
+`WabCreateWebRuntimeCoreVisualViewport` | 8 | Exported Function
+`DirectUIUnInitThread` | 5 | Exported Function
+`DirectUIInitProc` | 2 | Exported Function
+`CreateWndMgmt` | 1 | Exported Function
+`DirectUIUnInitProc` | 4 | Exported Function
+`DirectUIInitThread` | 3 | Exported Function
 
 
 ## Signature

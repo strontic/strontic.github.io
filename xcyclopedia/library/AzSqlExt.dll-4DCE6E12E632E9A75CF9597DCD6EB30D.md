@@ -26,12 +26,12 @@ PE256 | `5B121F1853243E2B3B6AC34EB2FA1CB73F502F56E86D82D029FE5C6D933D0385`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`__GetXpVersion` | 2 | Exported Function
-`AzGenerateAudit` | 1 | Exported Function
-`xp_AzManAddRole` | 3 | Exported Function
 `xp_AzManAddUserToRole` | 4 | Exported Function
 `xp_AzManDeleteRole` | 5 | Exported Function
 `xp_AzManRemoveUserFromRole` | 6 | Exported Function
+`__GetXpVersion` | 2 | Exported Function
+`AzGenerateAudit` | 1 | Exported Function
+`xp_AzManAddRole` | 3 | Exported Function
 
 
 ## Signature

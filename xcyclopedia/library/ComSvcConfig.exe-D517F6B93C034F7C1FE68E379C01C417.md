@@ -87,6 +87,9 @@ Error: The h option requires that a value be specified.
 
 ```
 
+### Child Processes:
+powershell.exe
+
 ### Loaded Modules:
 
 Path |

@@ -26,8 +26,8 @@ PE256 | `F202A8537292367BD08B2191FF33040BA788B732D2BABCB27EF1995A0EA531D2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`PnrpAutoSVCServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`PnrpAutoSVCServiceMain` | 1 | Exported Function
 
 
 ## Signature

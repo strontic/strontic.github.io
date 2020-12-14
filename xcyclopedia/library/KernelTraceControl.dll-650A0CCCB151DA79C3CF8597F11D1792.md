@@ -26,11 +26,11 @@ PE256 | `A66BA88EB548F6F94A7272678A9E5DC2C0B4D341B5C6CCE5E26DC71D6FFAA444`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateMergedTraceFile` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`StartHeapTrace` | 3 | Exported Function
 `StartKernelTrace` | 4 | Exported Function
 `UpdateHeapTrace` | 5 | Exported Function
+`StartHeapTrace` | 3 | Exported Function
+`CreateMergedTraceFile` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

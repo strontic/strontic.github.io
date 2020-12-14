@@ -41,7 +41,7 @@ SSDEEP | `3072:7npwwnzfTkNa5LTERtJF4qr8Q7SiStmZ/4Pd3RJudKDm:zpwqBTEz0PtGC3i`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Robocopy.exe` being misused. While `Robocopy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Robocopy.exe` being misused. While `Robocopy.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

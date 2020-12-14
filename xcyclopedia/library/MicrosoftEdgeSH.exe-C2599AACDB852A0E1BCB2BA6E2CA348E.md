@@ -24,21 +24,6 @@ PE256 | `59853FBB1C2878738F034532E03DEF17AB7100FAFDB8936D5E16301D50A703C7`
 
 ## Runtime Data
 
-### Child Processes:
-MicrosoftEdgeSH.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -83,13 +68,13 @@ C:\Windows\System32\WINTRUST.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e5d93718f0905b341d6fc68399257d88c56479b2a7ffb253fd88a405e6ed6e74/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MicrosoftEdgeSH.exe` being misused. While `MicrosoftEdgeSH.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MicrosoftEdgeSH.exe` being misused. While `MicrosoftEdgeSH.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

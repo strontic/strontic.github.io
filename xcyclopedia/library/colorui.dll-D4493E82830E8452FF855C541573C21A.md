@@ -26,12 +26,12 @@ PE256 | `C593E1AD0B78DDE7D0E60C9CFB77AB286B745D148E7000542588DA3F42B4AA45`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllMain` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
 `DllUnregisterServer` | 6 | Exported Function
 `LaunchColorCpl` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllMain` | 4 | Exported Function
 
 
 ## Signature

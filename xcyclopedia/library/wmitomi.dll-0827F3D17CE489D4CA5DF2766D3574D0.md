@@ -26,19 +26,19 @@ PE256 | `32FE1A8A8E98569DFFF985DD7AC258E1182EA4C05D3067B453026B3B3FE4B482`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Adapter_CreateAdapterObject` | 13 | Exported Function
-`Adapter_DllCanUnloadNow` | 9 | Exported Function
-`Adapter_DllGetClassObject` | 10 | Exported Function
-`Adapter_RegisterDLL` | 11 | Exported Function
-`Adapter_UnRegisterDLL` | 12 | Exported Function
-`CCritSec::CCritSec` | 1 | Exported Function
-`public: __thiscall CCritSec::~CCritSec(void)` | 3 | Exported Function
-`MIServer::MIServer` | 2 | Exported Function
-`CAutoSetActivityId::operator` | 4 | Exported Function
 `CCritSec::operator` | 5 | Exported Function
-`MIServer::operator` | 6 | Exported Function
-`MIServer::operator` | 7 | Exported Function
+`CAutoSetActivityId::operator` | 4 | Exported Function
+`MIServer::MIServer` | 2 | Exported Function
 `AdapterContextBase::SetAdapter` | 8 | Exported Function
+`MIServer::operator` | 7 | Exported Function
+`MIServer::operator` | 6 | Exported Function
+`public: __thiscall CCritSec::~CCritSec(void)` | 3 | Exported Function
+`Adapter_DllGetClassObject` | 10 | Exported Function
+`Adapter_DllCanUnloadNow` | 9 | Exported Function
+`Adapter_CreateAdapterObject` | 13 | Exported Function
+`CCritSec::CCritSec` | 1 | Exported Function
+`Adapter_UnRegisterDLL` | 12 | Exported Function
+`Adapter_RegisterDLL` | 11 | Exported Function
 
 
 ## Signature

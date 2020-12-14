@@ -26,23 +26,23 @@ PE256 | `118ED8A6DEB86814F87D233DC7B91775C465DCDAD36196595E0889955A4017CA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BluetoothCloseNetworkHandle` | 1 | Exported Function
-`BluetoothGetNetworkStatus` | 15 | Exported Function
-`BluetoothGetNetworkName` | 14 | Exported Function
-`BluetoothGetNetworkInterfaceId` | 13 | Exported Function
 `BluetoothGetNetworkContainerId` | 12 | Exported Function
-`BluetoothGetNetworkAvailableRoles` | 11 | Exported Function
+`BluetoothGetNetworkInterfaceId` | 13 | Exported Function
 `BluetoothGetNetworkAddress` | 10 | Exported Function
+`BluetoothGetNetworkAvailableRoles` | 11 | Exported Function
 `BluetoothRegisterNetworkNotifications` | 16 | Exported Function
-`BluetoothGetIncompleteConnectedNetworkHandle` | 9 | Exported Function
-`BluetoothFindNetworkClose` | 7 | Exported Function
-`BluetoothFindFirstNetwork` | 6 | Exported Function
-`BluetoothDuplicateNetworkHandle` | 5 | Exported Function
-`BluetoothDisconnectFromNetwork` | 4 | Exported Function
-`BluetoothCreateNetworkHandle` | 3 | Exported Function
-`BluetoothConnectToNetwork` | 2 | Exported Function
-`BluetoothFindNextNetwork` | 8 | Exported Function
 `BluetoothUnregisterNetworkNotifications` | 17 | Exported Function
+`BluetoothGetNetworkName` | 14 | Exported Function
+`BluetoothGetNetworkStatus` | 15 | Exported Function
+`BluetoothGetIncompleteConnectedNetworkHandle` | 9 | Exported Function
+`BluetoothCreateNetworkHandle` | 3 | Exported Function
+`BluetoothDisconnectFromNetwork` | 4 | Exported Function
+`BluetoothCloseNetworkHandle` | 1 | Exported Function
+`BluetoothConnectToNetwork` | 2 | Exported Function
+`BluetoothFindNetworkClose` | 7 | Exported Function
+`BluetoothFindNextNetwork` | 8 | Exported Function
+`BluetoothDuplicateNetworkHandle` | 5 | Exported Function
+`BluetoothFindFirstNetwork` | 6 | Exported Function
 
 
 ## Signature

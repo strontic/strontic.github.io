@@ -24,6 +24,9 @@ PE256 | `BB6513FB36A72F2F2E7066C7CA1BD77FE8996ABC0C412B854A0950ADFE4D517E`
 
 ## Runtime Data
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |
@@ -38,8 +41,8 @@ C:\Windows\SysWOW64\wscadminui.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

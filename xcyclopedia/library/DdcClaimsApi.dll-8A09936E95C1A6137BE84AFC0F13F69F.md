@@ -26,8 +26,8 @@ PE256 | `B684DA3046CD3CC6843294383237CA40B83A040EBC97408FEAD2A9D479A7B92A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DdcGetDeviceClaimsForUser` | 1 | Exported Function
 `FreeDeviceClaimsResponse` | 2 | Exported Function
+`DdcGetDeviceClaimsForUser` | 1 | Exported Function
 
 
 ## Signature

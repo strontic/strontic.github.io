@@ -26,11 +26,11 @@ PE256 | `7815B8AC85AD4008F9DFDB480012D91B69D192380F46F2B4D58856E1E7F408DF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 5 | Exported Function
-`SusResetNotification` | 1 | Exported Function
-`SusRunOEMTaskOffline` | 2 | Exported Function
 `SusRunOEMTaskOnline` | 3 | Exported Function
 `SusRunTask` | 4 | Exported Function
+`SusRunOEMTaskOffline` | 2 | Exported Function
+`DllMain` | 5 | Exported Function
+`SusResetNotification` | 1 | Exported Function
 
 
 ## Signature

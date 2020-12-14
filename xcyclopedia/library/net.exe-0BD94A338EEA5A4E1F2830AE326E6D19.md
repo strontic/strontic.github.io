@@ -93,13 +93,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/9f376759bcbcd705f726460fc4a7e2b07f310f52baa73caaaaa124fddbdf993e/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `net.exe` being misused. While `net.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `net.exe` being misused. While `net.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

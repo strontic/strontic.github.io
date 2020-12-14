@@ -56,7 +56,7 @@ C:\Windows\SysWOW64\svchost.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/5c3257b277f160109071e7e716040e67657341d8c42aa68d9afafe1630fcc53e/detection
 
 ## File Similarity (ssdeep match)
@@ -67,7 +67,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

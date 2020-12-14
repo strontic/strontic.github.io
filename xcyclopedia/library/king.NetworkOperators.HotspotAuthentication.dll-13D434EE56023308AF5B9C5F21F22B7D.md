@@ -26,11 +26,11 @@ PE256 | `B28F1B8F1D25C8F4EDE297017E01D4D5CE100ACC9D0220C4297F32778BCFBB22`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CleanupHotspotProfiles` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `RegisterHotspotProfile` | 5 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`CleanupHotspotProfiles` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

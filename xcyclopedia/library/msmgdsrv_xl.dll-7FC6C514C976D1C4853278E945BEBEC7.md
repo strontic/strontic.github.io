@@ -28,28 +28,28 @@ PE256 | `B55443D102BFEB8B2006534169E94C470E19EADA19C2368CBDF29CF20A3BBA72`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MSMDCreateAssembly` | 5 | Exported Function
-`MSMDLocalStreamWriteEndOfMessage` | 11 | Exported Function
-`MSMDLocalStreamWrite` | 10 | Exported Function
-`MSMDLocalStreamSkip` | 12 | Exported Function
-`MSMDLocalStreamRead` | 9 | Exported Function
-`MSMDLocalStreamFlush` | 13 | Exported Function
 `MSMDLocalStreamCloseBase` | 8 | Exported Function
+`MSMDLocalStreamFlush` | 13 | Exported Function
 `MSMDLocalStreamClose` | 7 | Exported Function
-`MSMDInitModule` | 14 | Exported Function
 `MSMDFileSystemBrowserGetLogicalDrives` | 17 | Exported Function
-`MSMDFileSystemBrowserGetFiles` | 20 | Exported Function
-`MSMDFileSystemBrowserGetDirectories` | 19 | Exported Function
-`MSMDFileSystemBrowserGetAllowedDirectories` | 18 | Exported Function
-`MSMDFileSystemBrowserFileExists` | 21 | Exported Function
-`MSMDCreateTimeDimReader` | 2 | Exported Function
-`MSMDCreateTimeDimCalculator` | 3 | Exported Function
-`MSMDCreateManagedNLP` | 6 | Exported Function
-`MSMDCreateManagedDSV` | 1 | Exported Function
-`MSMDCreateManagedDAX` | 24 | Exported Function
-`MSMDCreateManagedConnection` | 4 | Exported Function
+`MSMDInitModule` | 14 | Exported Function
+`MSMDLocalStreamRead` | 9 | Exported Function
 `MSMDOnServerReady` | 16 | Exported Function
 `MSMDResetModule` | 15 | Exported Function
+`MSMDLocalStreamWriteEndOfMessage` | 11 | Exported Function
+`MSMDLocalStreamSkip` | 12 | Exported Function
+`MSMDLocalStreamWrite` | 10 | Exported Function
+`MSMDCreateManagedDSV` | 1 | Exported Function
+`MSMDCreateManagedNLP` | 6 | Exported Function
+`MSMDCreateManagedDAX` | 24 | Exported Function
+`MSMDCreateAssembly` | 5 | Exported Function
+`MSMDCreateManagedConnection` | 4 | Exported Function
+`MSMDCreateTimeDimCalculator` | 3 | Exported Function
+`MSMDFileSystemBrowserGetDirectories` | 19 | Exported Function
+`MSMDFileSystemBrowserGetFiles` | 20 | Exported Function
+`MSMDFileSystemBrowserGetAllowedDirectories` | 18 | Exported Function
+`MSMDCreateTimeDimReader` | 2 | Exported Function
+`MSMDFileSystemBrowserFileExists` | 21 | Exported Function
 
 
 ## Signature

@@ -26,22 +26,22 @@ PE256 | `A79BD91688368196E481C734BCFAA22DB683EF14BE7497D64DBA4524984F57F4`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`BuildConstraintIndex` | 1 | Exported Function
-`BuildConstraintIndexInMemory` | 2 | Exported Function
-`BuildFilterTrie` | 3 | Exported Function
-`BuildFilterTrieInMemory` | 4 | Exported Function
-`CreateConstraintIndex` | 8 | Exported Function
-`CreateConstraintIndexInMemory` | 9 | Exported Function
-`CreateCSGSuggest` | 6 | Exported Function
-`CreateCSGSuggestInMemory` | 7 | Exported Function
-`CSGGetBestEntityScore` | 5 | Exported Function
-`DeleteConstraintIndex` | 11 | Exported Function
 `DeleteCSGSuggest` | 10 | Exported Function
 `DllCanUnloadNow` | 12 | Exported Function
-`DllGetActivationFactory` | 13 | Exported Function
-`GetAttributeRank` | 14 | Exported Function
+`CSGGetBestEntityScore` | 5 | Exported Function
+`DeleteConstraintIndex` | 11 | Exported Function
 `GetEntitySuggestions` | 15 | Exported Function
 `GetSegmentRank` | 16 | Exported Function
+`DllGetActivationFactory` | 13 | Exported Function
+`GetAttributeRank` | 14 | Exported Function
+`BuildFilterTrie` | 3 | Exported Function
+`BuildFilterTrieInMemory` | 4 | Exported Function
+`BuildConstraintIndex` | 1 | Exported Function
+`BuildConstraintIndexInMemory` | 2 | Exported Function
+`CreateCSGSuggest` | 6 | Exported Function
+`CreateCSGSuggestInMemory` | 7 | Exported Function
+`CreateConstraintIndex` | 8 | Exported Function
+`CreateConstraintIndexInMemory` | 9 | Exported Function
 
 
 ## Signature

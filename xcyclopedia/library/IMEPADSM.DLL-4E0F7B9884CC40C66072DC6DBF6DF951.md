@@ -26,14 +26,14 @@ PE256 | `57CD7E37686D4756239EC1C2A46D973216114DBE313422AC3CC5030FCE44B446`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateObject` | 2 | Exported Function
-`CreateObject2` | 1 | Exported Function
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
 `DllUnregisterServer` | 8 | Exported Function
-`RegClass` | 3 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 `UnregClass` | 4 | Exported Function
+`RegClass` | 3 | Exported Function
+`CreateObject2` | 1 | Exported Function
+`CreateObject` | 2 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
 
 
 ## Signature

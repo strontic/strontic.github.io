@@ -26,21 +26,21 @@ PE256 | `ACBE6AD27EFDAA672B512CBD253B698E45404C08840FB9B43297D9065C26361C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EapHostPeerConfigBlob2Xml` | 1 | Exported Function
-`EapHostPeerConfigXml2Blob` | 2 | Exported Function
-`EapHostPeerCreateMethodConfiguration` | 3 | Exported Function
-`EapHostPeerCredentialsXml2Blob` | 4 | Exported Function
-`EapHostPeerFreeErrorMemory` | 5 | Exported Function
-`EapHostPeerFreeMemory` | 6 | Exported Function
-`EapHostPeerGetMethodProperties` | 7 | Exported Function
-`EapHostPeerGetMethods` | 8 | Exported Function
-`EapHostPeerInvokeConfigUI` | 9 | Exported Function
-`EapHostPeerInvokeIdentityUI` | 10 | Exported Function
 `EapHostPeerInvokeInteractiveUI` | 11 | Exported Function
+`EapHostPeerInvokeIdentityUI` | 10 | Exported Function
+`EapHostPeerInvokeConfigUI` | 9 | Exported Function
 `EapHostPeerQueryCredentialInputFields` | 12 | Exported Function
-`EapHostPeerQueryInteractiveUIInputFields` | 13 | Exported Function
-`EapHostPeerQueryUIBlobFromInteractiveUIInputFields` | 14 | Exported Function
 `EapHostPeerQueryUserBlobFromCredentialInputFields` | 15 | Exported Function
+`EapHostPeerQueryUIBlobFromInteractiveUIInputFields` | 14 | Exported Function
+`EapHostPeerQueryInteractiveUIInputFields` | 13 | Exported Function
+`EapHostPeerGetMethods` | 8 | Exported Function
+`EapHostPeerCreateMethodConfiguration` | 3 | Exported Function
+`EapHostPeerConfigXml2Blob` | 2 | Exported Function
+`EapHostPeerConfigBlob2Xml` | 1 | Exported Function
+`EapHostPeerCredentialsXml2Blob` | 4 | Exported Function
+`EapHostPeerGetMethodProperties` | 7 | Exported Function
+`EapHostPeerFreeMemory` | 6 | Exported Function
+`EapHostPeerFreeErrorMemory` | 5 | Exported Function
 
 
 ## Signature

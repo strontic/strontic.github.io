@@ -26,13 +26,13 @@ PE256 | `540084B274C1B7AF54912156F331FE215721A4374E256D27DD6EA0763DE9AFA6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`MFCreateSinkWriterFromMediaSink` | 3 | Exported Function
-`MFCreateSinkWriterFromURL` | 4 | Exported Function
 `MFCreateSourceReaderFromByteStream` | 5 | Exported Function
 `MFCreateSourceReaderFromMediaSource` | 6 | Exported Function
 `MFCreateSourceReaderFromURL` | 7 | Exported Function
+`MFCreateSinkWriterFromURL` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`MFCreateSinkWriterFromMediaSink` | 3 | Exported Function
 
 
 ## Signature

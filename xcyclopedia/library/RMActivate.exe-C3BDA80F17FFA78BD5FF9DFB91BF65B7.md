@@ -24,9 +24,6 @@ PE256 | `BAA0FB225012C2DC0BD57C4F04A7F21237774550945E3C8EE55CCEB3CC8825E1`
 
 ## Runtime Data
 
-### Child Processes:
-conhost.exe
-
 ### Loaded Modules:
 
 Path |

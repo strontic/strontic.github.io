@@ -57,6 +57,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/a751ed722c10fcf97ee15c98214032c4537929b09ce752a840200e6b6bc9e032/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DataStoreCacheDumpTool.exe](DataStoreCacheDumpTool.exe-3A9E15EFCA3C3292016DAB2E2DA1BA2F.md) | 61
 
 
 

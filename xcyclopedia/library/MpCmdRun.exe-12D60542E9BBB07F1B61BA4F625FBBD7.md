@@ -229,7 +229,7 @@ C:\ProgramData\Microsoft\Windows Defender\Support
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MpCmdRun.exe` being misused. While `MpCmdRun.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MpCmdRun.exe` being misused. While `MpCmdRun.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

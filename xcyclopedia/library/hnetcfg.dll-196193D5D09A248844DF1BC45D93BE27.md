@@ -26,20 +26,20 @@ PE256 | `086D9AF6F3D160E30BD9A4D1A8F5C31F26D640331C2BCC4AADF414857D95E58C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllRegisterServer` | 6 | Exported Function
-`DllUnregisterServer` | 7 | Exported Function
-`HNetDeleteRasConnection` | 1 | Exported Function
-`HNetFreeSharingServicesPage` | 2 | Exported Function
-`HNetGetFirewallSettingsPage` | 8 | Exported Function
-`HNetGetSharingServicesPage` | 3 | Exported Function
-`HNetSharedAccessSettingsDlg` | 9 | Exported Function
 `HNetSharingAndFirewallSettingsDlg` | 10 | Exported Function
+`HNetSharedAccessSettingsDlg` | 9 | Exported Function
+`HNetGetSharingServicesPage` | 3 | Exported Function
 `RegisterClassObjects` | 11 | Exported Function
-`ReleaseSingletons` | 12 | Exported Function
-`RevokeClassObjects` | 13 | Exported Function
 `WinBomConfigureWindowsFirewall` | 14 | Exported Function
+`RevokeClassObjects` | 13 | Exported Function
+`ReleaseSingletons` | 12 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`HNetGetFirewallSettingsPage` | 8 | Exported Function
+`HNetFreeSharingServicesPage` | 2 | Exported Function
+`HNetDeleteRasConnection` | 1 | Exported Function
 
 
 ## Signature
@@ -69,7 +69,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `hnetcfg.dll` being misused. While `hnetcfg.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `hnetcfg.dll` being misused. While `hnetcfg.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

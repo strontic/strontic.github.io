@@ -26,16 +26,16 @@ PE256 | `11367D467AB829328D7461C5C8C216EBBA296AEFE030A81ECA01D71741D6B727`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllMain` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`GetProviderClassID` | 6 | Exported Function
 `MI_Main` | 7 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
 `NativeProviderTraps` | 10 | Exported Function
-`NITS_PRESENCE_STUB` | 8 | Exported Function
 `NITS_STUB` | 9 | Exported Function
+`NITS_PRESENCE_STUB` | 8 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

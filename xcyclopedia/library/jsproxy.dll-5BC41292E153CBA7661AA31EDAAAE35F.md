@@ -26,12 +26,12 @@ PE256 | `B24FBB20D3473D5723BD4EDF9E1CEAC175659C2234CE14557299DED6D13A4D9C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InternetDeInitializeAutoProxyDll` | 102 | Exported Function
-`InternetDeInitializeAutoProxyDllEx` | 105 | Exported Function
-`InternetGetProxyInfo` | 103 | Exported Function
 `InternetGetProxyInfoEx` | 106 | Exported Function
 `InternetInitializeAutoProxyDll` | 101 | Exported Function
 `InternetInitializeAutoProxyDllEx` | 104 | Exported Function
+`InternetDeInitializeAutoProxyDll` | 102 | Exported Function
+`InternetDeInitializeAutoProxyDllEx` | 105 | Exported Function
+`InternetGetProxyInfo` | 103 | Exported Function
 
 
 ## Signature

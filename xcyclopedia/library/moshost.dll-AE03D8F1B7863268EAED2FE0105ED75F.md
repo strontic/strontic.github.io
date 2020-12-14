@@ -26,17 +26,17 @@ PE256 | `BA2F03E939E2BEED45630B9367403132F46321C61370DD816D190351F887DCC8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`MosHostCacheStateGetSizes` | 3 | Exported Function
-`MosHostCacheStateGetSlotToCleanup` | 4 | Exported Function
-`MosHostCacheStateSetMaxSize` | 5 | Exported Function
-`MosHostCacheStateSetSlotSize` | 6 | Exported Function
-`MosHostCacheStateSnapshot` | 7 | Exported Function
-`MosHostCacheStateUnuseSlot` | 8 | Exported Function
-`MosHostCacheStateUseSlot` | 9 | Exported Function
 `MosHostRequestResourceLock` | 10 | Exported Function
+`MosHostCacheStateUseSlot` | 9 | Exported Function
 `MosHostRequestResourceUnlock` | 11 | Exported Function
-`ServiceMain` | 1 | Exported Function
 `SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`MosHostCacheStateUnuseSlot` | 8 | Exported Function
+`MosHostCacheStateGetSlotToCleanup` | 4 | Exported Function
+`MosHostCacheStateGetSizes` | 3 | Exported Function
+`MosHostCacheStateSetMaxSize` | 5 | Exported Function
+`MosHostCacheStateSnapshot` | 7 | Exported Function
+`MosHostCacheStateSetSlotSize` | 6 | Exported Function
 
 
 ## Signature

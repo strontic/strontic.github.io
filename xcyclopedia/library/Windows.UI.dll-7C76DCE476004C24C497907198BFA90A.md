@@ -26,13 +26,13 @@ PE256 | `8EF6B1F0F8FF926B10F461905A8959E1F0B761560C2E954766A256BB059638EB`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateControlInput` | 1601 | Exported Function
-`CreateControlInputEx` | 1603 | Exported Function
-`DllCanUnloadNow` | 1501 | Exported Function
-`DllGetActivationFactory` | 1502 | Exported Function
 `DllGetClassObject` | 1503 | Exported Function
 `DllRegisterServer` | 1504 | Exported Function
 `DllUnregisterServer` | 1505 | Exported Function
+`DllGetActivationFactory` | 1502 | Exported Function
+`CreateControlInput` | 1601 | Exported Function
+`CreateControlInputEx` | 1603 | Exported Function
+`DllCanUnloadNow` | 1501 | Exported Function
 
 
 ## Signature

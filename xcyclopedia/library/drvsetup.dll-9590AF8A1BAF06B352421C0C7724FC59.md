@@ -26,11 +26,11 @@ PE256 | `46EBA9D9AA08D198C5D0DCE104D646A95C619812BC46D212B19590489C99B6B9`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DrvSetupInstallDriver` | 1 | Exported Function
-`DrvSetupInstallWuDriver` | 2 | Exported Function
-`DrvSetupUninstallDriver` | 3 | Exported Function
 `DrvSetupUninstallWuDrivers` | 4 | Exported Function
 `pDrvSetupUninstallDriver` | 5 | Exported Function
+`DrvSetupUninstallDriver` | 3 | Exported Function
+`DrvSetupInstallDriver` | 1 | Exported Function
+`DrvSetupInstallWuDriver` | 2 | Exported Function
 
 
 ## Signature

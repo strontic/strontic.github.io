@@ -41,7 +41,7 @@ SSDEEP | `192:HVRKqXbuA6ujT4TaiUjidB9eLiSQO28BWpeGWe:HFXbu90KaVYkwO2UWMGW`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `backgroundTaskHost.exe` being misused. While `backgroundTaskHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `backgroundTaskHost.exe` being misused. While `backgroundTaskHost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

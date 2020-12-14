@@ -26,18 +26,18 @@ PE256 | `58CDD693D77E5AED7FE472E581D64B48EFEA006A42592F6A3D2CAA00722DB53E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CPlApplet` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetClassObject` | 3 | Exported Function
-`DllRegisterServer` | 4 | Exported Function
-`DllUnregisterServer` | 5 | Exported Function
-`USBControllerBandwidthPage` | 6 | Exported Function
-`USBControllerPropPageProvider` | 7 | Exported Function
-`UsbControlPanelApplet` | 12 | Exported Function
 `USBDevicePropPageProvider` | 8 | Exported Function
-`USBErrorHandler` | 9 | Exported Function
-`USBHubPowerPage` | 10 | Exported Function
+`UsbControlPanelApplet` | 12 | Exported Function
+`USBControllerPropPageProvider` | 7 | Exported Function
 `USBHubPropPageProvider` | 11 | Exported Function
+`USBHubPowerPage` | 10 | Exported Function
+`USBErrorHandler` | 9 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`USBControllerBandwidthPage` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

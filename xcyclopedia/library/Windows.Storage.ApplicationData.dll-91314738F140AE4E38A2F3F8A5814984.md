@@ -26,10 +26,10 @@ PE256 | `59029AEB4532DE89777782BF62018ABD569F10D736DE91108C474246A4FF41C8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CleanupTemporaryState` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
 `DllGetActivationFactory` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
+`CleanupTemporaryState` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

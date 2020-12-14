@@ -31,7 +31,6 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -67,7 +66,7 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e31a51cdc7cfd3924c2c259b78a5d5165e1eb708f20be9806b5d400f76470ee9/detection
 
 ## File Similarity (ssdeep match)

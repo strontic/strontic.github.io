@@ -26,8 +26,8 @@ PE256 | `914259BA00C133B5EBE181DCB42013862808A379EF77ED0AE2A3B5253B0F3D72`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`GetKeywordDetectorRequiredResources` | 1 | Exported Function
 `Register` | 2 | Exported Function
+`GetKeywordDetectorRequiredResources` | 1 | Exported Function
 
 
 ## Signature

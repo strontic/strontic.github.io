@@ -26,9 +26,9 @@ PE256 | `31F48031046FE93AF1582EEF89B52814610ACBC416E6FB4AA3D34CBF0D4968AA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ClientConfigureAddEdit` | 2 | Exported Function
-`CPlApplet` | 1 | Exported Function
 `OnInitDialogMain` | 3 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`ClientConfigureAddEdit` | 2 | Exported Function
 
 
 ## Signature
@@ -58,7 +58,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cliconfg.dll` being misused. While `cliconfg.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cliconfg.dll` being misused. While `cliconfg.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

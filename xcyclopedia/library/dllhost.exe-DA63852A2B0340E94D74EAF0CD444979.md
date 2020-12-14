@@ -41,7 +41,7 @@ SSDEEP | `384:17GusqDUSr7YVsFW/5WOlRDBRJalkoU66N:1JisiH1PpoP6N`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dllhost.exe` being misused. While `dllhost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dllhost.exe` being misused. While `dllhost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

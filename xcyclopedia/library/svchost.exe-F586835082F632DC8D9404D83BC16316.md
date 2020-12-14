@@ -22,6 +22,24 @@ IMP | `F9BBD96FAE53B7A31264A703CAFA0666`
 PESHA1 | `F70AEFD2967B93036C894F542E1AB47F122F5E7E`
 PE256 | `409FDBA4D6704E4AC6D69EE8293E33103A53C40C89B4C95DF20993B41B5A6070`
 
+## Runtime Data
+
+### Child Processes:
+powershell.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\svchost.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -54,7 +72,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `svchost.exe` being misused. While `svchost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

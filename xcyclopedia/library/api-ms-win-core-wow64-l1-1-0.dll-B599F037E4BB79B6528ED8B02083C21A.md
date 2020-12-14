@@ -26,9 +26,9 @@ PE256 | `41CE5F7FA7016A98484ED9C304565637E47BA0CEBC0A4B90245F5E95D65E4500`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IsWow64Process` | 1 | Exported Function
-`Wow64DisableWow64FsRedirection` | 2 | Exported Function
 `Wow64RevertWow64FsRedirection` | 3 | Exported Function
+`Wow64DisableWow64FsRedirection` | 2 | Exported Function
+`IsWow64Process` | 1 | Exported Function
 
 
 ## Signature

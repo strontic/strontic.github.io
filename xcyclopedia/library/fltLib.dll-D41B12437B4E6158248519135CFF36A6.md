@@ -26,35 +26,35 @@ PE256 | `448EEB08C1A39A753766D5551B25F0214203A5026356672D4E58314DE6FFE17A`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FilterAttach` | 1 | Exported Function
-`FilterVolumeInstanceFindClose` | 27 | Exported Function
-`FilterVolumeFindNext` | 26 | Exported Function
-`FilterVolumeFindFirst` | 25 | Exported Function
-`FilterVolumeFindClose` | 24 | Exported Function
-`FilterVolumeClose` | 23 | Exported Function
-`FilterUnload` | 22 | Exported Function
-`FilterSendMessage` | 21 | Exported Function
 `FilterReplyMessage` | 20 | Exported Function
+`FilterSendMessage` | 21 | Exported Function
+`FilterUnload` | 22 | Exported Function
 `FilterLoad` | 19 | Exported Function
-`FilterInstanceGetInformation` | 18 | Exported Function
-`FilterInstanceFindNext` | 17 | Exported Function
 `FilterInstanceFindFirst` | 16 | Exported Function
+`FilterInstanceFindNext` | 17 | Exported Function
+`FilterInstanceGetInformation` | 18 | Exported Function
+`FilterVolumeInstanceFindClose` | 27 | Exported Function
 `FilterVolumeInstanceFindFirst` | 28 | Exported Function
-`FilterInstanceFindClose` | 15 | Exported Function
-`FilterInstanceClose` | 13 | Exported Function
-`FilterGetMessage` | 12 | Exported Function
-`FilterGetInformation` | 11 | Exported Function
-`FilterGetDosName` | 10 | Exported Function
-`FilterFindNext` | 9 | Exported Function
-`FilterFindFirst` | 8 | Exported Function
-`FilterFindClose` | 7 | Exported Function
-`FilterDetach` | 6 | Exported Function
-`FilterCreate` | 5 | Exported Function
-`FilterConnectCommunicationPort` | 4 | Exported Function
-`FilterClose` | 3 | Exported Function
-`FilterAttachAtAltitude` | 2 | Exported Function
-`FilterInstanceCreate` | 14 | Exported Function
 `FilterVolumeInstanceFindNext` | 29 | Exported Function
+`FilterVolumeFindNext` | 26 | Exported Function
+`FilterVolumeClose` | 23 | Exported Function
+`FilterVolumeFindClose` | 24 | Exported Function
+`FilterVolumeFindFirst` | 25 | Exported Function
+`FilterInstanceFindClose` | 15 | Exported Function
+`FilterCreate` | 5 | Exported Function
+`FilterDetach` | 6 | Exported Function
+`FilterFindClose` | 7 | Exported Function
+`FilterConnectCommunicationPort` | 4 | Exported Function
+`FilterAttach` | 1 | Exported Function
+`FilterAttachAtAltitude` | 2 | Exported Function
+`FilterClose` | 3 | Exported Function
+`FilterGetMessage` | 12 | Exported Function
+`FilterInstanceClose` | 13 | Exported Function
+`FilterInstanceCreate` | 14 | Exported Function
+`FilterGetInformation` | 11 | Exported Function
+`FilterFindFirst` | 8 | Exported Function
+`FilterFindNext` | 9 | Exported Function
+`FilterGetDosName` | 10 | Exported Function
 
 
 ## Signature

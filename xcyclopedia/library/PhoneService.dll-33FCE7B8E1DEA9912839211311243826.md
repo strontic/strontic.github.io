@@ -26,9 +26,9 @@ PE256 | `04FB159EBEBB16C993DFBFD5432B1418CDFBC89AB039CD989378EB3E6F82398C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInProcPhoneService` | 1 | Exported Function
-`ServiceMain` | 2 | Exported Function
 `SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`CreateInProcPhoneService` | 1 | Exported Function
 
 
 ## Signature

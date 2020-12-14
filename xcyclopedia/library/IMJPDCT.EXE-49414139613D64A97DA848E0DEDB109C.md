@@ -46,12 +46,12 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\BaseNamedObjects\210HWNDInterface:23074c | Section
-\Sessions\1\BaseNamedObjects\210HWNDInterface:28074a | Section
-\Sessions\1\BaseNamedObjects\210HWNDInterface:4906a8 | Section
+\Sessions\1\BaseNamedObjects\1e8cHWNDInterface:5302f0 | Section
+\Sessions\1\BaseNamedObjects\1e8cHWNDInterface:7804ba | Section
+\Sessions\1\BaseNamedObjects\1e8cHWNDInterface:8804b4 | Section
 \Sessions\1\BaseNamedObjects\SatoriKnlDict_MemoryDictionary_IMJP_15__M_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme1800662698 | Section
-\Windows\Theme722103516 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
 
 
 ### Loaded Modules:
@@ -59,29 +59,13 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\IME\IMEJP\IMJPDCT.EXE |
-C:\Windows\System32\IMM32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\SYSTEM32\profapi.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature

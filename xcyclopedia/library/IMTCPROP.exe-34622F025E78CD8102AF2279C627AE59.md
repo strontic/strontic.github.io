@@ -28,6 +28,27 @@ PE256 | `646D31E09BBE7D3E920A562AD11B5FB1E6CFB8D858DB7F562311D788EB9654A8`
 
 ## Runtime Data
 
+### Window Title:
+Microsoft Bopomofo
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme1175649999 | Section
+\Windows\Theme601709542 | Section
+
+
 ### Loaded Modules:
 
 Path |

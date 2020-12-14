@@ -26,8 +26,8 @@ PE256 | `4ADF28878EE144ECC1893ED168D060D58C0CB5A72CDC058F9BB3036856EBB622`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`InstallLocalFaxPrinter` | 1 | Exported Function
 `UninstallLocalFaxPrinter` | 2 | Exported Function
+`InstallLocalFaxPrinter` | 1 | Exported Function
 
 
 ## Signature

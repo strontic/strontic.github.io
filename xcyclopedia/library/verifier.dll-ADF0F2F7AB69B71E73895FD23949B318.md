@@ -26,32 +26,32 @@ PE256 | `D574C3EA7CD0B33B38491EE7BB9967726CC09DBEE054E09931B53A9505AFA028`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AVrfAPILookupCallback` | 1 | Exported Function
-`VerifierSetFlags` | 24 | Exported Function
-`VerifierSetFaultInjectionProbability` | 23 | Exported Function
-`VerifierRedirectStopFunctions` | 22 | Exported Function
-`VerifierQueryRuntimeFlags` | 21 | Exported Function
-`VerifierIsPerUserSettingsEnabled` | 20 | Exported Function
-`VerifierIsDllEntryActive` | 19 | Exported Function
-`VerifierIsCurrentThreadHoldingLocks` | 18 | Exported Function
 `VerifierIsAddressInAnyPageHeap` | 17 | Exported Function
-`VerifierGetProviderHelper` | 16 | Exported Function
-`VerifierGetPropertyValueByName` | 15 | Exported Function
+`VerifierIsCurrentThreadHoldingLocks` | 18 | Exported Function
+`VerifierIsDllEntryActive` | 19 | Exported Function
 `VerifierGetMemoryForDump` | 14 | Exported Function
-`VerifierGetInfoForException` | 13 | Exported Function
-`VerifierForceNormalHeap` | 12 | Exported Function
-`VerifierEnumerateResource` | 11 | Exported Function
-`VerifierEnableFaultInjectionTargetRange` | 10 | Exported Function
-`VerifierEnableFaultInjectionExclusionRange` | 9 | Exported Function
-`VerifierDisableFaultInjectionTargetRange` | 8 | Exported Function
-`VerifierDisableFaultInjectionExclusionRange` | 7 | Exported Function
-`VerifierDestroyRpcPageHeap` | 6 | Exported Function
-`VerifierDeleteFreeMemoryCallback` | 5 | Exported Function
-`VerifierCreateRpcPageHeap` | 4 | Exported Function
-`VerifierCheckPageHeapAllocation` | 3 | Exported Function
-`VerifierAddFreeMemoryCallback` | 2 | Exported Function
+`VerifierGetPropertyValueByName` | 15 | Exported Function
+`VerifierGetProviderHelper` | 16 | Exported Function
+`VerifierIsPerUserSettingsEnabled` | 20 | Exported Function
+`VerifierSetFlags` | 24 | Exported Function
 `VerifierSetRuntimeFlags` | 25 | Exported Function
 `VerifierStopMessage` | 26 | Exported Function
+`VerifierQueryRuntimeFlags` | 21 | Exported Function
+`VerifierRedirectStopFunctions` | 22 | Exported Function
+`VerifierSetFaultInjectionProbability` | 23 | Exported Function
+`VerifierCreateRpcPageHeap` | 4 | Exported Function
+`VerifierDeleteFreeMemoryCallback` | 5 | Exported Function
+`VerifierDestroyRpcPageHeap` | 6 | Exported Function
+`AVrfAPILookupCallback` | 1 | Exported Function
+`VerifierAddFreeMemoryCallback` | 2 | Exported Function
+`VerifierCheckPageHeapAllocation` | 3 | Exported Function
+`VerifierDisableFaultInjectionExclusionRange` | 7 | Exported Function
+`VerifierEnumerateResource` | 11 | Exported Function
+`VerifierForceNormalHeap` | 12 | Exported Function
+`VerifierGetInfoForException` | 13 | Exported Function
+`VerifierDisableFaultInjectionTargetRange` | 8 | Exported Function
+`VerifierEnableFaultInjectionExclusionRange` | 9 | Exported Function
+`VerifierEnableFaultInjectionTargetRange` | 10 | Exported Function
 
 
 ## Signature
@@ -86,7 +86,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `verifier.dll` being misused. While `verifier.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `verifier.dll` being misused. While `verifier.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

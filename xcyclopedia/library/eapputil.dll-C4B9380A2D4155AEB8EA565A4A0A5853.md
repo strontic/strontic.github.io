@@ -26,14 +26,14 @@ PE256 | `8003997128A4D2F388C477FBA38127EABA1E8CA06278D316FE9908C83AC8A560`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetActivationFactory` | 2 | Exported Function
-`EapConvertHostToWireFormat16` | 3 | Exported Function
-`EapConvertHostToWireFormat24` | 4 | Exported Function
-`EapConvertHostToWireFormat32` | 5 | Exported Function
 `EapConvertWireToHostFormat16` | 6 | Exported Function
-`EapConvertWireToHostFormat24` | 7 | Exported Function
+`EapConvertHostToWireFormat32` | 5 | Exported Function
 `EapConvertWireToHostFormat32` | 8 | Exported Function
+`EapConvertWireToHostFormat24` | 7 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`EapConvertHostToWireFormat24` | 4 | Exported Function
+`EapConvertHostToWireFormat16` | 3 | Exported Function
 
 
 ## Signature

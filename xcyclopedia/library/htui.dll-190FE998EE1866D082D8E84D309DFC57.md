@@ -26,13 +26,13 @@ PE256 | `921EC61425A50746A291ECF575DF939A6B821EDFBD4930255D9795CCAD788B2D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllMain` | 1 | Exported Function
-`HTUI_ColorAdjustment` | 2 | Exported Function
-`HTUI_ColorAdjustmentA` | 3 | Exported Function
-`HTUI_ColorAdjustmentW` | 4 | Exported Function
 `HTUI_DeviceColorAdjustment` | 5 | Exported Function
 `HTUI_DeviceColorAdjustmentA` | 6 | Exported Function
 `HTUI_DeviceColorAdjustmentW` | 7 | Exported Function
+`HTUI_ColorAdjustmentW` | 4 | Exported Function
+`DllMain` | 1 | Exported Function
+`HTUI_ColorAdjustment` | 2 | Exported Function
+`HTUI_ColorAdjustmentA` | 3 | Exported Function
 
 
 ## Signature

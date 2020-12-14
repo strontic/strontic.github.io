@@ -26,22 +26,22 @@ PE256 | `1B490C7123FDFDA7D12F3B1F70808C59B925A94917D90CEB424784C34C5AB3D5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CATraps` | 1 | Exported Function
-`CreateAuthenticationCertificateWrapper` | 3 | Exported Function
-`CUTraps` | 2 | Exported Function
-`DllCanUnloadNow` | 4 | Exported Function
-`DllGetClassObject` | 5 | Exported Function
-`DllMain` | 6 | Exported Function
-`DllRegisterServer` | 7 | Exported Function
-`DllUnregisterServer` | 8 | Exported Function
-`GetProviderClassID` | 9 | Exported Function
-`LCMTraps` | 10 | Exported Function
 `MI_Main` | 11 | Exported Function
 `NITS_PRESENCE_STUB` | 12 | Exported Function
-`NITS_STUB` | 13 | Exported Function
-`SysPrep_Cleanup` | 14 | Exported Function
+`GetProviderClassID` | 9 | Exported Function
+`LCMTraps` | 10 | Exported Function
 `ValidateCertificateExpirationWrapper` | 15 | Exported Function
 `ValidatorTraps` | 16 | Exported Function
+`NITS_STUB` | 13 | Exported Function
+`SysPrep_Cleanup` | 14 | Exported Function
+`CUTraps` | 2 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`CATraps` | 1 | Exported Function
+`CreateAuthenticationCertificateWrapper` | 3 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllMain` | 6 | Exported Function
 
 
 ## Signature

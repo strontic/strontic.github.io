@@ -26,12 +26,12 @@ PE256 | `A922FDCE3AD9EAD6EB1ABFC645A2F68100922C0FA8528C691130048FE2BD8F6D`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_FInstrumented@4` | 5 | Exported Function
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `DllRegisterServer` | 3 | Exported Function
 `DllUnregisterServer` | 4 | Exported Function
 `SlicerCreateLocalCube` | 6 | Exported Function
+`_FInstrumented@4` | 5 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

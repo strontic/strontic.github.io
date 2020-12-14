@@ -26,8 +26,8 @@ PE256 | `473AA5F8390C4F35425458BFC02D77E709224F04B8A520838001550E579247CF`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ABProviderInit` | 2 | Exported Function
 `ServiceEntry` | 3 | Exported Function
+`ABProviderInit` | 2 | Exported Function
 
 
 ## Signature

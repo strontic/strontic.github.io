@@ -49,7 +49,7 @@ PE256 | `3EE747892157E03603B0909E0BE34986CDFF8298B50F4CCAAE0DFB5709AE1997`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `rdpclip.exe` being misused. While `rdpclip.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `rdpclip.exe` being misused. While `rdpclip.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

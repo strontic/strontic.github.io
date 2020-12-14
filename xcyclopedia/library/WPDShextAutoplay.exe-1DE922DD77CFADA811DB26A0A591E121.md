@@ -24,9 +24,6 @@ PE256 | `CAA1A5D7AAB06075843D199B9FE7C5E4E4F1422BFF724068A1FF44C85A5C4287`
 
 ## Runtime Data
 
-### Child Processes:
-explorer.exe
-
 ### Open Handles:
 
 Path | Type
@@ -56,8 +53,8 @@ C:\Windows\SysWOW64\WPDShextAutoplay.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,7 +71,7 @@ C:\Windows\SysWOW64\WPDShextAutoplay.exe |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/f8ac6ce639fb1c444108974ad831aa10b67eaee65bc2618570f8f18cf5dc5f78/detection
 
 

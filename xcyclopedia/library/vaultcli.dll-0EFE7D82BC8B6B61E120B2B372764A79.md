@@ -26,23 +26,23 @@ PE256 | `7FFA59479AA6A42BDAE81378B650AB840A48462511C81F4640C214C7586B0920`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 108 | Exported Function
-`VaultGetItemType` | 122 | Exported Function
-`VaultGetItem` | 121 | Exported Function
-`VaultGetInformation` | 120 | Exported Function
 `VaultFree` | 119 | Exported Function
-`VaultFindItems` | 118 | Exported Function
+`VaultGetInformation` | 120 | Exported Function
 `VaultEnumerateVaults` | 117 | Exported Function
+`VaultFindItems` | 118 | Exported Function
 `VaultOpenVault` | 123 | Exported Function
-`VaultEnumerateItemTypes` | 115 | Exported Function
-`VaultDeleteItemType` | 114 | Exported Function
-`VaultCreateItemType` | 113 | Exported Function
-`VaultCloseVault` | 112 | Exported Function
-`VaultAddItem` | 111 | Exported Function
-`DllGetClassObject` | 110 | Exported Function
-`DllGetActivationFactory` | 109 | Exported Function
-`VaultEnumerateItems` | 116 | Exported Function
 `VaultRemoveItem` | 124 | Exported Function
+`VaultGetItem` | 121 | Exported Function
+`VaultGetItemType` | 122 | Exported Function
+`VaultEnumerateItemTypes` | 115 | Exported Function
+`DllGetClassObject` | 110 | Exported Function
+`VaultAddItem` | 111 | Exported Function
+`DllCanUnloadNow` | 108 | Exported Function
+`DllGetActivationFactory` | 109 | Exported Function
+`VaultDeleteItemType` | 114 | Exported Function
+`VaultEnumerateItems` | 116 | Exported Function
+`VaultCloseVault` | 112 | Exported Function
+`VaultCreateItemType` | 113 | Exported Function
 
 
 ## Signature
@@ -72,7 +72,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vaultcli.dll` being misused. While `vaultcli.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vaultcli.dll` being misused. While `vaultcli.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

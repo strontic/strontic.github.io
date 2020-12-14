@@ -26,18 +26,18 @@ PE256 | `E594FB137F35A4BDE8467FB3F164B4974CBDE147881E6680EC92FED57CA4D6FA`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DCompositionAttachMouseDragToHwnd` | 1017 | Exported Function
-`DCompositionAttachMouseWheelToHwnd` | 1018 | Exported Function
-`DCompositionCreateDevice` | 1022 | Exported Function
-`DCompositionCreateDevice2` | 1020 | Exported Function
-`DCompositionCreateDevice3` | 1021 | Exported Function
-`DCompositionCreateSurfaceHandle` | 1023 | Exported Function
-`DllCanUnloadNow` | 1024 | Exported Function
-`DllGetActivationFactory` | 1025 | Exported Function
 `DllGetClassObject` | 1026 | Exported Function
-`DwmEnableMMCSS` | 1027 | Exported Function
-`DwmFlush` | 1029 | Exported Function
+`DllGetActivationFactory` | 1025 | Exported Function
+`DllCanUnloadNow` | 1024 | Exported Function
 `DwmpEnableDDASupport` | 1030 | Exported Function
+`DwmFlush` | 1029 | Exported Function
+`DwmEnableMMCSS` | 1027 | Exported Function
+`DCompositionCreateDevice` | 1022 | Exported Function
+`DCompositionAttachMouseWheelToHwnd` | 1018 | Exported Function
+`DCompositionAttachMouseDragToHwnd` | 1017 | Exported Function
+`DCompositionCreateSurfaceHandle` | 1023 | Exported Function
+`DCompositionCreateDevice3` | 1021 | Exported Function
+`DCompositionCreateDevice2` | 1020 | Exported Function
 
 
 ## Signature

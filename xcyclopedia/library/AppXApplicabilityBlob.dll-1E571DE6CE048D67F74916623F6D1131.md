@@ -26,13 +26,13 @@ PE256 | `795067D74EDB3200B8D10ECA10F3E8C3763A8A5D321D9320513B6CD110184CB2`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateSerializedBundleManifestStatement` | 1 | Exported Function
-`GetApplicabilityFactory` | 2 | Exported Function
-`IsAppx` | 3 | Exported Function
-`IsModernApp` | 4 | Exported Function
 `IsPreThresholdDesktop` | 5 | Exported Function
 `IsPreThresholdPhone` | 6 | Exported Function
 `IsXAP` | 7 | Exported Function
+`IsModernApp` | 4 | Exported Function
+`CreateSerializedBundleManifestStatement` | 1 | Exported Function
+`GetApplicabilityFactory` | 2 | Exported Function
+`IsAppx` | 3 | Exported Function
 
 
 ## Signature

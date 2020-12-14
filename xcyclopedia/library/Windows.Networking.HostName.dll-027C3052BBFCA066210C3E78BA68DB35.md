@@ -26,18 +26,18 @@ PE256 | `69C73B30FA8CDFB1C6616B26CB7CCA893A2C1A4802EDC72F792CEB38E15F146B`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateEndpointPairFromSockAddrs` | 1 | Exported Function
-`CreateHostNameFromSockAddr` | 2 | Exported Function
-`CreateHostNameFromString` | 3 | Exported Function
-`CreateNetworkAdapterFromGuid` | 4 | Exported Function
-`DllCanUnloadNow` | 7 | Exported Function
-`DllGetActivationFactory` | 8 | Exported Function
-`DllGetClassObject` | 9 | Exported Function
-`DllMain` | 10 | Exported Function
 `DllRegisterServer` | 11 | Exported Function
-`DllUnregisterServer` | 12 | Exported Function
-`GetAllHostNames` | 5 | Exported Function
+`DllMain` | 10 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
 `GetSortedEndpointPairs` | 6 | Exported Function
+`GetAllHostNames` | 5 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`CreateHostNameFromString` | 3 | Exported Function
+`CreateHostNameFromSockAddr` | 2 | Exported Function
+`CreateEndpointPairFromSockAddrs` | 1 | Exported Function
+`DllGetActivationFactory` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`CreateNetworkAdapterFromGuid` | 4 | Exported Function
 
 
 ## Signature

@@ -26,13 +26,13 @@ PE256 | `D2FE922AA2107817C6994321FC8D5B25E3C070C4CC26E95058F88A8F23556E55`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DeleteApplicationEligibilityForPrelaunch` | 1 | Exported Function
-`DllCanUnloadNow` | 2 | Exported Function
-`DllGetActivationFactory` | 3 | Exported Function
-`DllGetClassObject` | 4 | Exported Function
 `IsApplicationEligibleForPrelaunch` | 5 | Exported Function
 `IsApplicationOptedOutOfPrelaunch` | 6 | Exported Function
 `RecordApplicationEligibilityForPrelaunch` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DeleteApplicationEligibilityForPrelaunch` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

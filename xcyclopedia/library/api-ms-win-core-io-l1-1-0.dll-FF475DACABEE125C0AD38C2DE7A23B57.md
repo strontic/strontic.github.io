@@ -26,13 +26,13 @@ PE256 | `4107F0C72D69FDAFE517D7C405DF9C56EEF80164E852D038304A61C0844354FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CancelIoEx` | 1 | Exported Function
-`CreateIoCompletionPort` | 2 | Exported Function
-`DeviceIoControl` | 3 | Exported Function
-`GetOverlappedResult` | 4 | Exported Function
 `GetQueuedCompletionStatus` | 5 | Exported Function
 `GetQueuedCompletionStatusEx` | 6 | Exported Function
 `PostQueuedCompletionStatus` | 7 | Exported Function
+`GetOverlappedResult` | 4 | Exported Function
+`CancelIoEx` | 1 | Exported Function
+`CreateIoCompletionPort` | 2 | Exported Function
+`DeviceIoControl` | 3 | Exported Function
 
 
 ## Signature

@@ -26,37 +26,37 @@ PE256 | `B943F97FB61688F64F9C6F2047C5B18DF5EEC43695C383785FF9450C14180DC0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`Locale::Key` | 8 | Exported Function
-`WSManPluginShutdown` | 29 | Exported Function
-`WSManPluginShell` | 28 | Exported Function
-`WSManPluginSend` | 27 | Exported Function
-`WSManPluginReleaseShellContext` | 26 | Exported Function
-`WSManPluginReleaseCommandContext` | 25 | Exported Function
-`WSManPluginReceive` | 24 | Exported Function
-`WSManPluginCommand` | 23 | Exported Function
-`Locale::Key` | 10 | Exported Function
 `Locale::Key` | 21 | Exported Function
+`Locale::Key` | 10 | Exported Function
+`WSManPluginCommand` | 23 | Exported Function
 `Locale::Key` | 20 | Exported Function
-`Locale::Key` | 9 | Exported Function
-`Locale::Key` | 18 | Exported Function
 `Locale::Key` | 14 | Exported Function
+`Locale::Key` | 18 | Exported Function
+`Locale::Key` | 9 | Exported Function
+`WSManPluginReceive` | 24 | Exported Function
+`WSManPluginShutdown` | 29 | Exported Function
 `WSManPluginSignal` | 30 | Exported Function
-`CWSManCriticalSection::GetInitError` | 15 | Exported Function
-`Locale::Key` | 16 | Exported Function
-`Locale::Key` | 12 | Exported Function
-`Locale::Key` | 11 | Exported Function
-`Locale::Key` | 19 | Exported Function
-`Locale::Key` | 6 | Exported Function
-`Locale::Key` | 3 | Exported Function
-`Locale::Key` | 5 | Exported Function
-`Locale::Key` | 2 | Exported Function
-`Locale::Key` | 4 | Exported Function
-`Locale::Key` | 1 | Exported Function
-`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 | Exported Function
-`Locale::Key` | 22 | Exported Function
-`Locale::Key` | 13 | Exported Function
-`Locale::Key` | 17 | Exported Function
 `WSManPluginStartup` | 31 | Exported Function
+`WSManPluginShell` | 28 | Exported Function
+`WSManPluginReleaseCommandContext` | 25 | Exported Function
+`WSManPluginReleaseShellContext` | 26 | Exported Function
+`WSManPluginSend` | 27 | Exported Function
+`CWSManCriticalSection::GetInitError` | 15 | Exported Function
+`Locale::Key` | 1 | Exported Function
+`Locale::Key` | 4 | Exported Function
+`Locale::Key` | 2 | Exported Function
+`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 | Exported Function
+`Locale::Key` | 8 | Exported Function
+`Locale::Key` | 13 | Exported Function
+`Locale::Key` | 22 | Exported Function
+`Locale::Key` | 5 | Exported Function
+`Locale::Key` | 12 | Exported Function
+`Locale::Key` | 16 | Exported Function
+`Locale::Key` | 17 | Exported Function
+`Locale::Key` | 11 | Exported Function
+`Locale::Key` | 3 | Exported Function
+`Locale::Key` | 6 | Exported Function
+`Locale::Key` | 19 | Exported Function
 
 
 ## Signature

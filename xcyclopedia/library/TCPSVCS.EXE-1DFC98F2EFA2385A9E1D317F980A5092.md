@@ -55,13 +55,13 @@ C:\Windows\system32\TCPSVCS.EXE |
 
 ## File Scan
 
-* VirusTotal Detections: 0/74
-* VirusTotal Link: https://www.virustotal.com/gui/file/fc2bc4b2b115bde5341c2d40e371a4f50feee14d19aad12eaf5fd0a052bea403/detection
+* VirusTotal Detections: A device attached to the system is not functioning.
+* VirusTotal Link: n/a
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

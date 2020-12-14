@@ -26,15 +26,15 @@ PE256 | `474A877BF42BF781B7BE4561D799BB7F60E7FD137AE7C787EE50DE15AD77D637`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`EnumSystemFirmwareTables` | 1 | Exported Function
-`GetNativeSystemInfo` | 2 | Exported Function
-`GetOsSafeBootMode` | 3 | Exported Function
-`GetProductInfo` | 4 | Exported Function
-`GetSystemFirmwareTable` | 5 | Exported Function
-`GetSystemTimePreciseAsFileTime` | 6 | Exported Function
 `SetComputerNameExW` | 7 | Exported Function
-`SetSystemTime` | 8 | Exported Function
+`GetSystemTimePreciseAsFileTime` | 6 | Exported Function
 `VerSetConditionMask` | 9 | Exported Function
+`SetSystemTime` | 8 | Exported Function
+`GetSystemFirmwareTable` | 5 | Exported Function
+`GetNativeSystemInfo` | 2 | Exported Function
+`EnumSystemFirmwareTables` | 1 | Exported Function
+`GetProductInfo` | 4 | Exported Function
+`GetOsSafeBootMode` | 3 | Exported Function
 
 
 ## Signature

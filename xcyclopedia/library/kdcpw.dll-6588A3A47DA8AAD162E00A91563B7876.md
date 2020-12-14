@@ -26,17 +26,17 @@ PE256 | `DF78AD42BC0E2159FCC47185E58F38BB78A4B350411B5686B1F42114706B54EC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CredentialUpdateFree` | 1 | Exported Function
-`CredentialUpdateNotify` | 3 | Exported Function
-`CredentialUpdateNotify2` | 2 | Exported Function
-`CredentialUpdateRegister` | 5 | Exported Function
-`CredentialUpdateRegister2` | 4 | Exported Function
-`InitializeChangeNotify` | 10 | Exported Function
-`PasswordChangeNotify` | 11 | Exported Function
 `RegisterMappedEntrypoints` | 6 | Exported Function
+`PasswordChangeNotify` | 11 | Exported Function
 `StrongNtowfFree` | 7 | Exported Function
-`StrongNtowfNotify` | 8 | Exported Function
 `StrongNtowfRegister` | 9 | Exported Function
+`StrongNtowfNotify` | 8 | Exported Function
+`InitializeChangeNotify` | 10 | Exported Function
+`CredentialUpdateNotify` | 3 | Exported Function
+`CredentialUpdateFree` | 1 | Exported Function
+`CredentialUpdateNotify2` | 2 | Exported Function
+`CredentialUpdateRegister2` | 4 | Exported Function
+`CredentialUpdateRegister` | 5 | Exported Function
 
 
 ## Signature

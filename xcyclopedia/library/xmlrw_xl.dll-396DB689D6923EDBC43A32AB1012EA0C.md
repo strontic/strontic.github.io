@@ -28,13 +28,13 @@ PE256 | `90C45D940868135DDB61625CB8375FE043AFE4C3571CD36AA0616D6682E679AD`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CreateInfoSetReader` | 1 | Exported Function
-`CreateInfoSetReaderEx` | 2 | Exported Function
-`CreateMXXMLWriter` | 3 | Exported Function
-`CreateMXXMLWriterEx` | 4 | Exported Function
 `CreateSAXAttributes` | 5 | Exported Function
 `CreateSAXAttributesEx` | 6 | Exported Function
 `SetGlobalMalloc` | 7 | Exported Function
+`CreateMXXMLWriterEx` | 4 | Exported Function
+`CreateInfoSetReader` | 1 | Exported Function
+`CreateInfoSetReaderEx` | 2 | Exported Function
+`CreateMXXMLWriter` | 3 | Exported Function
 
 
 ## Signature

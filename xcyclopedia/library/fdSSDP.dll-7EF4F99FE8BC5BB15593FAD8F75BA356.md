@@ -26,13 +26,13 @@ PE256 | `6CE98F8701A70262888B10986ED618779CB446111F3C86AE8B4DC3D1F83295FC`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
 `FdphostSessionChange` | 5 | Exported Function
 `FdphostSetComContext` | 6 | Exported Function
 `FdphostSetSharedService` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

@@ -41,7 +41,7 @@ SSDEEP | `6144:gqbWy0mX3WR/qeGR1ItEXK9RjUt1ucVGF6IwNpmOo55:gqCy0mX36GLItE69mt1L4
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskeng.exe` being misused. While `taskeng.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskeng.exe` being misused. While `taskeng.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

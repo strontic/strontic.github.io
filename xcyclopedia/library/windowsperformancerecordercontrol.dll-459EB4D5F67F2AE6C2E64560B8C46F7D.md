@@ -26,18 +26,18 @@ PE256 | `E7FF03ED003FA281A1BA529E87D6AA76122D99984F9BCDE3B04CAF6DD0219549`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
-`DllRegisterServer` | 3 | Exported Function
-`DllUnregisterServer` | 4 | Exported Function
-`WPRCControlLogging` | 5 | Exported Function
-`WPRCCreateInstance` | 6 | Exported Function
-`WPRCCreateInstanceUnderInstanceName` | 7 | Exported Function
-`WPRCDisableBuiltinProfiles` | 8 | Exported Function
 `WPRCFormatError` | 9 | Exported Function
-`WPRCQueryBuiltInProfiles` | 10 | Exported Function
-`WPRCReleaseInstanceByName` | 11 | Exported Function
+`WPRCDisableBuiltinProfiles` | 8 | Exported Function
+`WPRCCreateInstanceUnderInstanceName` | 7 | Exported Function
 `WPRCRemoveLogging` | 12 | Exported Function
+`WPRCReleaseInstanceByName` | 11 | Exported Function
+`WPRCQueryBuiltInProfiles` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`WPRCCreateInstance` | 6 | Exported Function
+`WPRCControlLogging` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

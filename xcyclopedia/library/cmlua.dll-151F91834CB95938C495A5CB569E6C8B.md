@@ -26,16 +26,16 @@ PE256 | `84450AE0015E74180E97C6632940AC31FE03738C6924B31266AA291C2CF83532`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`_GetCoCreateInstanceAsAdminHandle` | 6 | Exported Function
-`_RemoveShieldIcon` | 7 | Exported Function
-`_SetShieldButton` | 8 | Exported Function
-`_SetShieldIcon` | 9 | Exported Function
-`_ThrowErrorBox` | 10 | Exported Function
-`DllAddRef` | 1 | Exported Function
 `DllCanUnloadNow` | 2 | Exported Function
+`DllAddRef` | 1 | Exported Function
 `DllGetClassObject` | 3 | Exported Function
-`DllMain` | 4 | Exported Function
 `DllRelease` | 5 | Exported Function
+`DllMain` | 4 | Exported Function
+`_RemoveShieldIcon` | 7 | Exported Function
+`_GetCoCreateInstanceAsAdminHandle` | 6 | Exported Function
+`_SetShieldButton` | 8 | Exported Function
+`_ThrowErrorBox` | 10 | Exported Function
+`_SetShieldIcon` | 9 | Exported Function
 
 
 ## Signature
@@ -65,7 +65,7 @@ Function Name | Ordinal | Type
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cmlua.dll` being misused. While `cmlua.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cmlua.dll` being misused. While `cmlua.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

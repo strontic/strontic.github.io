@@ -26,29 +26,29 @@ PE256 | `1AA22B6699BC2C5A8C3B72AC8F49A58C565661BBDAAD9271E9E58781E4B0A56C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`AfxmReleaseManagedReferences` | 281 | Exported Function
-`Ordinal275` | 275 | Exported Function
-`Ordinal274` | 274 | Exported Function
-`Ordinal273` | 273 | Exported Function
-`Ordinal272` | 272 | Exported Function
-`Ordinal271` | 271 | Exported Function
 `Ordinal270` | 270 | Exported Function
+`Ordinal271` | 271 | Exported Function
 `Ordinal269` | 269 | Exported Function
-`Ordinal268` | 268 | Exported Function
 `Ordinal267` | 267 | Exported Function
+`Ordinal268` | 268 | Exported Function
+`Ordinal272` | 272 | Exported Function
 `Ordinal279` | 279 | Exported Function
-`Ordinal266` | 266 | Exported Function
-`Ordinal264` | 264 | Exported Function
-`Ordinal263` | 263 | Exported Function
-`Ordinal262` | 262 | Exported Function
-`Ordinal261` | 261 | Exported Function
-`Ordinal260` | 260 | Exported Function
-`Ordinal259` | 259 | Exported Function
-`Ordinal258` | 258 | Exported Function
-`Ordinal257` | 257 | Exported Function
-`Ordinal256` | 256 | Exported Function
-`Ordinal265` | 265 | Exported Function
 `Ordinal280` | 280 | Exported Function
+`Ordinal275` | 275 | Exported Function
+`Ordinal273` | 273 | Exported Function
+`Ordinal274` | 274 | Exported Function
+`Ordinal266` | 266 | Exported Function
+`Ordinal258` | 258 | Exported Function
+`Ordinal259` | 259 | Exported Function
+`Ordinal257` | 257 | Exported Function
+`AfxmReleaseManagedReferences` | 281 | Exported Function
+`Ordinal256` | 256 | Exported Function
+`Ordinal260` | 260 | Exported Function
+`Ordinal264` | 264 | Exported Function
+`Ordinal265` | 265 | Exported Function
+`Ordinal263` | 263 | Exported Function
+`Ordinal261` | 261 | Exported Function
+`Ordinal262` | 262 | Exported Function
 
 
 ## Signature

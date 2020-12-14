@@ -26,19 +26,19 @@ PE256 | `F314FE0972123D5D777D5EB5EAB14000D0B93780F2F1EC2124F978CC5BF96E43`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DiscoverManagementService` | 3 | Exported Function
-`DiscoverManagementServiceEx` | 4 | Exported Function
-`FindDiscoveryService` | 2 | Exported Function
-`GetDeviceRegistrationInfo` | 5 | Exported Function
-`GetManagementAppHyperlink` | 6 | Exported Function
-`IsDeviceRegisteredWithManagement` | 7 | Exported Function
-`IsManagementRegistrationAllowed` | 8 | Exported Function
-`IsMdmUxWithoutAadAllowed` | 9 | Exported Function
-`RegisterDeviceWithManagement` | 10 | Exported Function
 `RegisterDeviceWithManagementUsingAADCredentials` | 11 | Exported Function
-`RegisterDeviceWithManagementUsingAADDeviceCredentials` | 12 | Exported Function
-`SetManagedExternally` | 13 | Exported Function
+`RegisterDeviceWithManagement` | 10 | Exported Function
+`IsMdmUxWithoutAadAllowed` | 9 | Exported Function
 `UnregisterDeviceWithManagement` | 14 | Exported Function
+`SetManagedExternally` | 13 | Exported Function
+`RegisterDeviceWithManagementUsingAADDeviceCredentials` | 12 | Exported Function
+`IsManagementRegistrationAllowed` | 8 | Exported Function
+`FindDiscoveryService` | 2 | Exported Function
+`DiscoverManagementServiceEx` | 4 | Exported Function
+`DiscoverManagementService` | 3 | Exported Function
+`IsDeviceRegisteredWithManagement` | 7 | Exported Function
+`GetManagementAppHyperlink` | 6 | Exported Function
+`GetDeviceRegistrationInfo` | 5 | Exported Function
 
 
 ## Signature

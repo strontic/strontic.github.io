@@ -41,7 +41,7 @@ SSDEEP | `6144:dc0gGbhfc/ko8ppiZ/tt9tSJZQ4EH0Ob0QRaI:OGbhEMo8pgt9tSJC8oP`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `esentutl.exe` being misused. While `esentutl.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `esentutl.exe` being misused. While `esentutl.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

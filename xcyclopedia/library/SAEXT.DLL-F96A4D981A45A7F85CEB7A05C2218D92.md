@@ -26,13 +26,13 @@ PE256 | `C946771A745738D801B8953EF1312324CB0DE8C5A8F3520CD3F7D12BC7652F8C`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ConvertVietToCP1258` | 101 | Exported Function
-`CreateWordBreaker` | 102 | Exported Function
-`DeleteWordBreaker` | 104 | Exported Function
-`FindWB` | 103 | Exported Function
 `FindWordBreak` | 100 | Exported Function
 `FSupportSAEXT` | 105 | Exported Function
 `FSupportSAEXTChar` | 106 | Exported Function
+`FindWB` | 103 | Exported Function
+`ConvertVietToCP1258` | 101 | Exported Function
+`CreateWordBreaker` | 102 | Exported Function
+`DeleteWordBreaker` | 104 | Exported Function
 
 
 ## Signature

@@ -26,25 +26,25 @@ PE256 | `4BA2FAE30B3B78D11EBD5C01AE9B5CC6F736E3237C492D298486DC25F53F611F`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`ZTraceClose` | 1 | Exported Function
-`ZTraceTestCopyTrace` | 17 | Exported Function
-`ZTraceReportPropagationNoThis` | 16 | Exported Function
-`ZTraceReportPropagationC` | 15 | Exported Function
-`ZTraceReportPropagation` | 14 | Exported Function
 `ZTraceReportOriginationNoThis` | 13 | Exported Function
-`ZTraceReportOriginationC` | 12 | Exported Function
+`ZTraceReportPropagation` | 14 | Exported Function
 `ZTraceReportOrigination` | 11 | Exported Function
+`ZTraceReportOriginationC` | 12 | Exported Function
+`ZTraceReportPropagationC` | 15 | Exported Function
 `ZTraceTestForceClose` | 18 | Exported Function
-`ZTraceReportIgnoreNoThis` | 10 | Exported Function
-`ZTraceReportIgnore` | 8 | Exported Function
-`ZTraceInit` | 7 | Exported Function
-`ZTraceHelperVC` | 6 | Exported Function
-`ZTraceHelperV` | 5 | Exported Function
-`ZTraceHelperNoThis` | 4 | Exported Function
-`ZTraceHelper` | 3 | Exported Function
-`ZTraceEnabledHelper` | 2 | Exported Function
-`ZTraceReportIgnoreC` | 9 | Exported Function
 `ZTraceTestInit` | 19 | Exported Function
+`ZTraceReportPropagationNoThis` | 16 | Exported Function
+`ZTraceTestCopyTrace` | 17 | Exported Function
+`ZTraceReportIgnoreNoThis` | 10 | Exported Function
+`ZTraceHelper` | 3 | Exported Function
+`ZTraceHelperNoThis` | 4 | Exported Function
+`ZTraceClose` | 1 | Exported Function
+`ZTraceEnabledHelper` | 2 | Exported Function
+`ZTraceHelperV` | 5 | Exported Function
+`ZTraceReportIgnore` | 8 | Exported Function
+`ZTraceReportIgnoreC` | 9 | Exported Function
+`ZTraceHelperVC` | 6 | Exported Function
+`ZTraceInit` | 7 | Exported Function
 
 
 ## Signature

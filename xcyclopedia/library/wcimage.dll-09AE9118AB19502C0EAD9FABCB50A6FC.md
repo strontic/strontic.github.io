@@ -26,20 +26,20 @@ PE256 | `A4279BD8EFB42F29895C29F8DFEF9CDDD61DADC30746812F576585787D4B1600`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`WcCompressFile` | 1 | Exported Function
-`WcCompressFileAsync` | 2 | Exported Function
-`WcConvertToReparsePoint` | 3 | Exported Function
-`WcCreateContainerImageFromPortableBaseLayer` | 4 | Exported Function
-`WcCreateContainerImageFromWim` | 5 | Exported Function
-`WcCreateContainerImageFromWimEx` | 6 | Exported Function
-`WcDismountVirtualDisk` | 7 | Exported Function
-`WcDismountVirtualDiskFromHandle` | 8 | Exported Function
-`WcEnsurePathExists` | 9 | Exported Function
 `WcExpandContainerWim` | 10 | Exported Function
+`WcEnsurePathExists` | 9 | Exported Function
+`WcDismountVirtualDiskFromHandle` | 8 | Exported Function
 `WcMountVirtualDisk` | 11 | Exported Function
-`WcProcessContainerLayer` | 12 | Exported Function
-`WcSetVirtualDiskAttributes` | 13 | Exported Function
 `WcWaitForPendingFileCompressionOperations` | 14 | Exported Function
+`WcSetVirtualDiskAttributes` | 13 | Exported Function
+`WcProcessContainerLayer` | 12 | Exported Function
+`WcConvertToReparsePoint` | 3 | Exported Function
+`WcCompressFileAsync` | 2 | Exported Function
+`WcCompressFile` | 1 | Exported Function
+`WcCreateContainerImageFromPortableBaseLayer` | 4 | Exported Function
+`WcDismountVirtualDisk` | 7 | Exported Function
+`WcCreateContainerImageFromWimEx` | 6 | Exported Function
+`WcCreateContainerImageFromWim` | 5 | Exported Function
 
 
 ## Signature

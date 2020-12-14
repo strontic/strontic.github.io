@@ -26,10 +26,10 @@ PE256 | `70ECED806E1EDE9994E8C5CFFE231F935E7816D7CB07E41690E69DB124F5B471`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`KeyCredentialManagerFreeInformation` | 1 | Exported Function
-`KeyCredentialManagerGetInformation` | 2 | Exported Function
 `KeyCredentialManagerGetOperationErrorStates` | 3 | Exported Function
 `KeyCredentialManagerShowUIOperation` | 4 | Exported Function
+`KeyCredentialManagerFreeInformation` | 1 | Exported Function
+`KeyCredentialManagerGetInformation` | 2 | Exported Function
 
 
 ## Signature

@@ -94,7 +94,7 @@ Use "winrs -?" to obtain the usage information
 ```
 
 ### Child Processes:
-conhost.exe
+explorer.exe
 
 ### Open Handles:
 

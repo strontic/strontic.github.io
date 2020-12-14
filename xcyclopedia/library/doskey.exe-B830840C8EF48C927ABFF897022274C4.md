@@ -88,13 +88,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/75
+* VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/543819e74fd619ea3d45d1ad1640907b16b576813f0f8df9ea0c63b48dc4e323/detection
 
 
 ## Possible Misuse
 
-*The following table contains possible examples of `doskey.exe` being misused. While `doskey.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `doskey.exe` being misused. While `doskey.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -26,23 +26,23 @@ PE256 | `35327615AB8C449A0E540D2FBA72A8CD7D501395B780A09680306592FFCE64D8`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`IpNatHlpFree` | 1 | Exported Function
-`V2IpNatHlpStopDhcpServer` | 15 | Exported Function
-`V2IpNatHlpStartSharingInternalPrefix` | 14 | Exported Function
-`V2IpNatHlpStartDnsServer` | 13 | Exported Function
 `V2IpNatHlpStartDhcpServer` | 12 | Exported Function
-`V2IpNatHlpEnumDnsState` | 11 | Exported Function
+`V2IpNatHlpStartDnsServer` | 13 | Exported Function
 `V2IpNatHlpEnumDhcpState` | 10 | Exported Function
+`V2IpNatHlpEnumDnsState` | 11 | Exported Function
 `V2IpNatHlpStopDnsServer` | 16 | Exported Function
-`V2IpNatHlpDeleteStaticMapping` | 9 | Exported Function
-`IpNatHlpUpdateSharingSettingsFromStorage` | 7 | Exported Function
-`IpNatHlpStopSharing` | 6 | Exported Function
-`IpNatHlpStopDhcpServer` | 5 | Exported Function
-`IpNatHlpStartSharing` | 4 | Exported Function
-`IpNatHlpStartDhcpServer` | 3 | Exported Function
-`IpNatHlpGetConnectedDevices` | 2 | Exported Function
-`V2IpNatHlpCreateStaticMapping` | 8 | Exported Function
 `V2IpNatHlpStopSharingInternalPrefix` | 17 | Exported Function
+`V2IpNatHlpStartSharingInternalPrefix` | 14 | Exported Function
+`V2IpNatHlpStopDhcpServer` | 15 | Exported Function
+`V2IpNatHlpDeleteStaticMapping` | 9 | Exported Function
+`IpNatHlpStartDhcpServer` | 3 | Exported Function
+`IpNatHlpStartSharing` | 4 | Exported Function
+`IpNatHlpFree` | 1 | Exported Function
+`IpNatHlpGetConnectedDevices` | 2 | Exported Function
+`IpNatHlpUpdateSharingSettingsFromStorage` | 7 | Exported Function
+`V2IpNatHlpCreateStaticMapping` | 8 | Exported Function
+`IpNatHlpStopDhcpServer` | 5 | Exported Function
+`IpNatHlpStopSharing` | 6 | Exported Function
 
 
 ## Signature

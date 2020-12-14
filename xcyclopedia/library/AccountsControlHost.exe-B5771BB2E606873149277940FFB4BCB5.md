@@ -24,9 +24,6 @@ PE256 | `E35BD35007FCA23CAE1D25FFAB44CAF841025326174C930DAD65158487CA3EB3`
 
 ## Runtime Data
 
-### Child Processes:
-WerFault.exe
-
 ### Loaded Modules:
 
 Path |

@@ -26,9 +26,9 @@ PE256 | `C701E9F49C6FFD17609ADA02D7F7A32453EA41461E1DB73E1CA2F7EBB7542D0E`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 1 | Exported Function
-`DllGetClassObject` | 2 | Exported Function
 `NetworkBindingEngineFinishMigration` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

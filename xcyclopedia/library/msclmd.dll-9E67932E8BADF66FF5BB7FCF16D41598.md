@@ -26,8 +26,8 @@ PE256 | `3BE6E730A8FF4AB7941FF4E8F8531B4069B9D8E95E68E8BD1CE644D2DF334304`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CardAcquireContext` | 1 | Exported Function
 `CardAcquireContextInternal` | 2 | Exported Function
+`CardAcquireContext` | 1 | Exported Function
 
 
 ## Signature

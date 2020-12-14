@@ -26,12 +26,12 @@ PE256 | `2D50930A1F5997E23AC18710E4E9D38DC18D80508917A53C69CB8A6DF26FB7BE`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`CompileFileViaDLL` | 1 | Exported Function
-`CreateBMOFViaDLL` | 2 | Exported Function
-`DllCanUnloadNow` | 3 | Exported Function
 `DllGetClassObject` | 4 | Exported Function
 `DllRegisterServer` | 5 | Exported Function
 `DllUnregisterServer` | 6 | Exported Function
+`CompileFileViaDLL` | 1 | Exported Function
+`CreateBMOFViaDLL` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

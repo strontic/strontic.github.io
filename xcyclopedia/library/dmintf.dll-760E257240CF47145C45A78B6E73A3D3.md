@@ -26,9 +26,9 @@ PE256 | `C2D5C62137DD54F76E6FE52CE38770755A68F90A51616C28E8553F01D41607D5`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`DllCanUnloadNow` | 5 | Exported Function
-`DllGetClassObject` | 6 | Exported Function
 `GetProxyDllInfo` | 4 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
 
 
 ## Signature

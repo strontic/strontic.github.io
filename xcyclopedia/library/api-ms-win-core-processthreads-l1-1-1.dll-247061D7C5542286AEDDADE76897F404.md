@@ -26,20 +26,20 @@ PE256 | `E8460AE17F8377E2EF2D60D7555CFFA9665DD93677FD8678752C2EF7C08DB411`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FlushInstructionCache` | 1 | Exported Function
-`GetCurrentProcessorNumber` | 2 | Exported Function
-`GetCurrentProcessorNumberEx` | 3 | Exported Function
-`GetCurrentThreadStackLimits` | 4 | Exported Function
-`GetProcessHandleCount` | 5 | Exported Function
-`GetProcessMitigationPolicy` | 6 | Exported Function
-`GetThreadContext` | 7 | Exported Function
-`GetThreadIdealProcessorEx` | 8 | Exported Function
-`GetThreadTimes` | 9 | Exported Function
 `IsProcessorFeaturePresent` | 10 | Exported Function
+`GetThreadTimes` | 9 | Exported Function
+`GetThreadIdealProcessorEx` | 8 | Exported Function
 `OpenProcess` | 11 | Exported Function
-`SetProcessMitigationPolicy` | 12 | Exported Function
-`SetThreadContext` | 13 | Exported Function
 `SetThreadIdealProcessorEx` | 14 | Exported Function
+`SetThreadContext` | 13 | Exported Function
+`SetProcessMitigationPolicy` | 12 | Exported Function
+`GetCurrentProcessorNumberEx` | 3 | Exported Function
+`GetCurrentProcessorNumber` | 2 | Exported Function
+`FlushInstructionCache` | 1 | Exported Function
+`GetCurrentThreadStackLimits` | 4 | Exported Function
+`GetThreadContext` | 7 | Exported Function
+`GetProcessMitigationPolicy` | 6 | Exported Function
+`GetProcessHandleCount` | 5 | Exported Function
 
 
 ## Signature

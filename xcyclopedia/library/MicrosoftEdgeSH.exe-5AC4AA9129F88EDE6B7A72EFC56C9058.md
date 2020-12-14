@@ -41,7 +41,7 @@ SSDEEP | `1536:si33kj/gVtpMEag3Id5QV/Y/tu+ynENk:Rnk7m7H+QV/YJyENk`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MicrosoftEdgeSH.exe` being misused. While `MicrosoftEdgeSH.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MicrosoftEdgeSH.exe` being misused. While `MicrosoftEdgeSH.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

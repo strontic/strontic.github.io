@@ -26,17 +26,17 @@ PE256 | `4018011A3B21EBF50FC474DA9B019AE8038EFC69DE420797468A7FD4E4982643`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`NcsiAllocateAndGetConnectivityStatusSet` | 1 | Exported Function
-`NcsiDeregisterConnectivityStatusChange` | 2 | Exported Function
-`NcsiFreeConnectivityStatusSet` | 3 | Exported Function
-`NcsiGetCaptivePortalHosts` | 4 | Exported Function
-`NcsiGetWebProbeConfig` | 5 | Exported Function
-`NcsiIdentifyUserSpecificProxies` | 6 | Exported Function
-`NcsiNotifySessionChange` | 7 | Exported Function
 `NcsiPerformRefresh` | 8 | Exported Function
+`NcsiNotifySessionChange` | 7 | Exported Function
 `NcsiPerformReprobe` | 9 | Exported Function
-`NcsiRegisterConnectivityStatusChange` | 10 | Exported Function
 `NcsiUpdateClientPresence` | 11 | Exported Function
+`NcsiRegisterConnectivityStatusChange` | 10 | Exported Function
+`NcsiIdentifyUserSpecificProxies` | 6 | Exported Function
+`NcsiDeregisterConnectivityStatusChange` | 2 | Exported Function
+`NcsiAllocateAndGetConnectivityStatusSet` | 1 | Exported Function
+`NcsiFreeConnectivityStatusSet` | 3 | Exported Function
+`NcsiGetWebProbeConfig` | 5 | Exported Function
+`NcsiGetCaptivePortalHosts` | 4 | Exported Function
 
 
 ## Signature

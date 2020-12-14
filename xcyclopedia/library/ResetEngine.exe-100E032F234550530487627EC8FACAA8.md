@@ -189,6 +189,7 @@ File | Score
 [C:\Windows\system32\psapi.dll](psapi.dll-640CB3B45C4AC10F9F1B9A4282E03F33.md) | 32
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 66
 [C:\WINDOWS\system32\ResetEngine.exe](ResetEngine.exe-5A802B773089A709FC7E731368C4E328.md) | 43
+[C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-5D20EF28D0B222CA57F47524F2D3E8C0.md) | 50
 [C:\WINDOWS\system32\ScriptRunner.exe](ScriptRunner.exe-C024FF9A88E26EEB26A1A942260489BC.md) | 35
 [C:\Windows\system32\setupetw.dll](setupetw.dll-9E8E7664B3C7CA348317CF042B5454A8.md) | 33
 [C:\Windows\system32\sfc.dll](sfc.dll-A710AB1DBCED5492897FC008F4E87A84.md) | 32

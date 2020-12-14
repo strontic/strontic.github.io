@@ -26,29 +26,29 @@ PE256 | `36393B7927D4A8F32DCEED0A890397B01C5691AF7DCA2CBE26680497D3AB76F0`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`OleUIAddVerbMenuA` | 1 | Exported Function
-`OleUIPromptUserW` | 22 | Exported Function
-`OleUIPromptUserA` | 10 | Exported Function
-`OleUIPasteSpecialW` | 21 | Exported Function
-`OleUIPasteSpecialA` | 4 | Exported Function
-`OleUIObjectPropertiesW` | 20 | Exported Function
 `OleUIObjectPropertiesA` | 11 | Exported Function
+`OleUIObjectPropertiesW` | 20 | Exported Function
 `OleUIInsertObjectW` | 19 | Exported Function
-`OleUIInsertObjectA` | 3 | Exported Function
 `OleUIEditLinksW` | 18 | Exported Function
+`OleUIInsertObjectA` | 3 | Exported Function
+`OleUIPasteSpecialA` | 4 | Exported Function
 `OleUIUpdateLinksA` | 9 | Exported Function
-`OleUIEditLinksA` | 5 | Exported Function
-`OleUIConvertA` | 7 | Exported Function
-`OleUIChangeSourceW` | 16 | Exported Function
-`OleUIChangeSourceA` | 12 | Exported Function
-`OleUIChangeIconW` | 15 | Exported Function
-`OleUIChangeIconA` | 6 | Exported Function
-`OleUICanConvertOrActivateAs` | 2 | Exported Function
-`OleUIBusyW` | 14 | Exported Function
-`OleUIBusyA` | 8 | Exported Function
-`OleUIAddVerbMenuW` | 13 | Exported Function
-`OleUIConvertW` | 17 | Exported Function
 `OleUIUpdateLinksW` | 23 | Exported Function
+`OleUIPromptUserW` | 22 | Exported Function
+`OleUIPasteSpecialW` | 21 | Exported Function
+`OleUIPromptUserA` | 10 | Exported Function
+`OleUIEditLinksA` | 5 | Exported Function
+`OleUIBusyW` | 14 | Exported Function
+`OleUICanConvertOrActivateAs` | 2 | Exported Function
+`OleUIBusyA` | 8 | Exported Function
+`OleUIAddVerbMenuA` | 1 | Exported Function
+`OleUIAddVerbMenuW` | 13 | Exported Function
+`OleUIChangeIconA` | 6 | Exported Function
+`OleUIConvertA` | 7 | Exported Function
+`OleUIConvertW` | 17 | Exported Function
+`OleUIChangeSourceW` | 16 | Exported Function
+`OleUIChangeIconW` | 15 | Exported Function
+`OleUIChangeSourceA` | 12 | Exported Function
 
 
 ## Signature

@@ -60,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ielowutil.exe` being misused. While `ielowutil.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ielowutil.exe` being misused. While `ielowutil.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

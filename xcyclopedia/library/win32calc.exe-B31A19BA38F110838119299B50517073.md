@@ -50,6 +50,13 @@ File | Score
 [C:\windows\SysWOW64\calc.exe](calc.exe-E26D49197CA9E38BCC6033DE53F720BD.md) | 30
 [C:\Windows\SysWOW64\win32calc.exe](win32calc.exe-A20DCDBED017776C8B3D01A511A8DC46.md) | 35
 
+## Possible Misuse
+
+*The following table contains possible examples of `win32calc.exe` being misused. While `win32calc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1574.011.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md) | \| weak_service_path \| weak service path \| String \| %windir%&#92;system32&#92;win32calc.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

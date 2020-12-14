@@ -26,16 +26,16 @@ PE256 | `C71DFA5BD6B142F850C506C8F2C08643A59EB3CEBCAE16E61C3D2EF361DA7FC6`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`VmbusPipeClientEnumeratePipes` | 1 | Exported Function
-`VmbusPipeClientOpenChannel` | 2 | Exported Function
-`VmbusPipeClientOpenChannelEx` | 3 | Exported Function
-`VmbusPipeClientReadyForChannelNotification` | 4 | Exported Function
-`VmbusPipeClientRegisterChannelNotification` | 5 | Exported Function
-`VmbusPipeClientUnregisterChannelNotification` | 6 | Exported Function
 `VmbusPipeClientWaitChannel` | 7 | Exported Function
+`VmbusPipeClientUnregisterChannelNotification` | 6 | Exported Function
 `VmbusPipeServerConnectPipe` | 8 | Exported Function
-`VmbusPipeServerOfferChannel` | 9 | Exported Function
 `VmbusPipeServerOfferChannelEx` | 10 | Exported Function
+`VmbusPipeServerOfferChannel` | 9 | Exported Function
+`VmbusPipeClientOpenChannel` | 2 | Exported Function
+`VmbusPipeClientEnumeratePipes` | 1 | Exported Function
+`VmbusPipeClientOpenChannelEx` | 3 | Exported Function
+`VmbusPipeClientRegisterChannelNotification` | 5 | Exported Function
+`VmbusPipeClientReadyForChannelNotification` | 4 | Exported Function
 
 
 ## Signature

@@ -26,10 +26,10 @@ PE256 | `1878FE6404909C183AC01CAA56FF221B54E3C98C24FF3295E62E9EF182A8C546`
 
 Function Name | Ordinal | Type
 -- | -- | --
-`FlsAlloc` | 1 | Exported Function
-`FlsFree` | 2 | Exported Function
 `FlsGetValue` | 3 | Exported Function
 `FlsSetValue` | 4 | Exported Function
+`FlsAlloc` | 1 | Exported Function
+`FlsFree` | 2 | Exported Function
 
 
 ## Signature
